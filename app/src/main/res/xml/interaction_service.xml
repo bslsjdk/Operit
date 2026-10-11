@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<voice-interaction-service
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:sessionService="com.ai.assistance.operit.services.assistant.OperitVoiceInteractionSessionService"
-    android:supportsAssist="true"
-    android:supportsLaunchVoiceAssistFromKeyguard="true"
-    android:supportsLocalInteraction="true"
-    android:settingsActivity="com.ai.assistance.operit.ui.main.MainActivity"
-    android:recognitionService="com.ai.assistance.operit.services.assistant.OperitVoiceInteractionService" />
-
+PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHZvaWNlLWludGVyYWN0aW9uLXNlcnZpY2UKICAgIHhtbG5zOmFuZHJvaWQ9Imh0dHA6Ly9zY2hlbWFzLmFuZHJvaWQuY29tL2Fway9yZXMvYW5kcm9pZCIKICAgIGFuZHJvaWQ6c2Vzc2lvblNlcnZpY2U9ImNvbS5ic2xzamRrLm9wZXJpdC5zZXJ2aWNlcy5hc3Npc3RhbnQuT3Blcml0Vm9pY2VJbnRlcmFjdGlvblNlc3Npb25TZXJ2aWNlIgogICAgYW5kcm9pZDpzdXBwb3J0c0Fzc2lzdD0idHJ1ZSIKICAgIGFuZHJvaWQ6c3VwcG9ydHNMYXVuY2hWb2ljZUFzc2lzdEZyb21LZXlndWFyZD0idHJ1ZSIKICAgIGFuZHJvaWQ6c3VwcG9ydHNMb2NhbEludGVyYWN0aW9uPSJ0cnVlIgogICAgYW5kcm9pZDpzZXR0aW5nc0FjdGl2aXR5PSJjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5NYWluQWN0aXZpdHkiCiAgICBhbmRyb2lkOnJlY29nbml0aW9uU2VydmljZT0iY29tLmJzbHNqZGsub3Blcml0LnNlcnZpY2VzLmFzc2lzdGFudC5PcGVyaXRWb2ljZUludGVyYWN0aW9uU2VydmljZSIgLz4KCg==
