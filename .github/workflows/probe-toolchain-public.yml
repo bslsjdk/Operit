@@ -1,0 +1,25 @@
+name: probe-toolchain-public
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: 基础环境
+        run: |
+          echo "runner ok"
+          docker --version
+      - name: 测试匿名拉取高通工具链镜像
+        continue-on-error: true
+        run: |
+          timeout 1200 docker pull ghcr.io/snapdragon-toolchain/arm64-android:v0.7 2>&1 | tail -25
+      - name: 探测 registry 认证
+        continue-on-error: true
+        run: |
+          curl -s -w "\nHTTP=%{http_code}\n" "https://ghcr.io/token?scope=repository%3Asnapdragon-toolchain%2Farm64-android%3Apull&service=ghcr.io" | head -c 500
