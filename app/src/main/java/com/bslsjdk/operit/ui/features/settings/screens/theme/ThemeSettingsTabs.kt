@@ -1,1 +1,155 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3Muc2NyZWVucy50aGVtZQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnZlcnRpY2FsU2Nyb2xsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkxpbmVhclByb2dyZXNzSW5kaWNhdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5PdXRsaW5lZEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TY3JvbGxhYmxlVGFiUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UYWIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTGF1bmNoZWRFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMueWllbGQKCmludGVybmFsIGVudW0gY2xhc3MgVGhlbWVTZXR0aW5nc1RhYih2YWwgdGl0bGVSZXM6IEludCkgewogICAgQkFTSUMoUi5zdHJpbmcudGhlbWVfdGFiX2Jhc2ljKSwKICAgIEJBQ0tHUk9VTkQoUi5zdHJpbmcudGhlbWVfdGFiX2JhY2tncm91bmQpLAogICAgQ0hBVChSLnN0cmluZy50aGVtZV90YWJfY2hhdCksCiAgICBJTlBVVChSLnN0cmluZy50aGVtZV90YWJfaW5wdXQpLAogICAgSU5URVJGQUNFKFIuc3RyaW5nLnRoZW1lX3RhYl9pbnRlcmZhY2UpLAp9CgpAQ29tcG9zYWJsZQppbnRlcm5hbCBmdW4gVGhlbWVTZXR0aW5nc1RhYmJlZENvbnRlbnQoCiAgICBzZWxlY3RlZFRhYjogVGhlbWVTZXR0aW5nc1RhYiwKICAgIG9uU2VsZWN0ZWRUYWJDaGFuZ2U6IChUaGVtZVNldHRpbmdzVGFiKSAtPiBVbml0LAogICAgYmFzaWNDb250ZW50OiBAQ29tcG9zYWJsZSAoKSAtPiBVbml0LAogICAgYmFja2dyb3VuZENvbnRlbnQ6IEBDb21wb3NhYmxlICgpIC0+IFVuaXQsCiAgICBjaGF0Q29udGVudDogQENvbXBvc2FibGUgKCkgLT4gVW5pdCwKICAgIGlucHV0Q29udGVudDogQENvbXBvc2FibGUgKCkgLT4gVW5pdCwKICAgIGludGVyZmFjZUNvbnRlbnQ6IEBDb21wb3NhYmxlICgpIC0+IFVuaXQsCiAgICBmb290ZXJDb250ZW50OiBAQ29tcG9zYWJsZSAoKSAtPiBVbml0LAogICAgc2Nyb2xsU3RhdGU6IFNjcm9sbFN0YXRlLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCikgewogICAgdmFyIHJlbmRlcmVkVGFiIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Yoc2VsZWN0ZWRUYWIpIH0KICAgIHZhciBpc1N3aXRjaGluZ1RhYiBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CgogICAgTGF1bmNoZWRFZmZlY3Qoc2VsZWN0ZWRUYWIpIHsKICAgICAgICBpZiAocmVuZGVyZWRUYWIgIT0gc2VsZWN0ZWRUYWIpIHsKICAgICAgICAgICAgaXNTd2l0Y2hpbmdUYWIgPSB0cnVlCiAgICAgICAgICAgIHlpZWxkKCkKICAgICAgICAgICAgc2Nyb2xsU3RhdGUuc2Nyb2xsVG8oMCkKICAgICAgICAgICAgcmVuZGVyZWRUYWIgPSBzZWxlY3RlZFRhYgogICAgICAgICAgICBpc1N3aXRjaGluZ1RhYiA9IGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIENvbHVtbihtb2RpZmllciA9IG1vZGlmaWVyKSB7CiAgICAgICAgU2Nyb2xsYWJsZVRhYlJvdygKICAgICAgICAgICAgc2VsZWN0ZWRUYWJJbmRleCA9IHNlbGVjdGVkVGFiLm9yZGluYWwsCiAgICAgICAgICAgIGVkZ2VQYWRkaW5nID0gMC5kcCwKICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBDb2xvci5UcmFuc3BhcmVudCwKICAgICAgICAgICAgY29udGVudENvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICkgewogICAgICAgICAgICBUaGVtZVNldHRpbmdzVGFiLnZhbHVlcygpLmZvckVhY2ggeyB0YWIgLT4KICAgICAgICAgICAgICAgIFRhYigKICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCA9IHNlbGVjdGVkVGFiID09IHRhYiwKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBvblNlbGVjdGVkVGFiQ2hhbmdlKHRhYikgfSwKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0geyBUZXh0KHRleHQgPSBzdHJpbmdSZXNvdXJjZShpZCA9IHRhYi50aXRsZVJlcykpIH0sCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGlmIChpc1N3aXRjaGluZ1RhYikgewogICAgICAgICAgICBMaW5lYXJQcm9ncmVzc0luZGljYXRvcihtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpKQogICAgICAgIH0KCiAgICAgICAgQ29sdW1uKAogICAgICAgICAgICBtb2RpZmllciA9CiAgICAgICAgICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC53ZWlnaHQoMWYpCiAgICAgICAgICAgICAgICAgICAgLnZlcnRpY2FsU2Nyb2xsKHNjcm9sbFN0YXRlKQogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKAogICAgICAgICAgICAgICAgICAgICAgICBzdGFydCA9IDE2LmRwLAogICAgICAgICAgICAgICAgICAgICAgICB0b3AgPSA4LmRwLAogICAgICAgICAgICAgICAgICAgICAgICBlbmQgPSAxNi5kcCwKICAgICAgICAgICAgICAgICAgICAgICAgYm90dG9tID0gMTYuZHAsCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICApIHsKICAgICAgICAgICAgd2hlbiAocmVuZGVyZWRUYWIpIHsKICAgICAgICAgICAgICAgIFRoZW1lU2V0dGluZ3NUYWIuQkFTSUMgLT4gYmFzaWNDb250ZW50KCkKICAgICAgICAgICAgICAgIFRoZW1lU2V0dGluZ3NUYWIuQkFDS0dST1VORCAtPiBiYWNrZ3JvdW5kQ29udGVudCgpCiAgICAgICAgICAgICAgICBUaGVtZVNldHRpbmdzVGFiLkNIQVQgLT4gY2hhdENvbnRlbnQoKQogICAgICAgICAgICAgICAgVGhlbWVTZXR0aW5nc1RhYi5JTlBVVCAtPiBpbnB1dENvbnRlbnQoKQogICAgICAgICAgICAgICAgVGhlbWVTZXR0aW5nc1RhYi5JTlRFUkZBQ0UgLT4gaW50ZXJmYWNlQ29udGVudCgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZvb3RlckNvbnRlbnQoKQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIFRoZW1lU2V0dGluZ3NGb290ZXIoCiAgICBzaG93U2F2ZVN1Y2Nlc3NNZXNzYWdlOiBCb29sZWFuLAogICAgb25TaG93U2F2ZVN1Y2Nlc3NNZXNzYWdlQ2hhbmdlOiAoQm9vbGVhbikgLT4gVW5pdCwKICAgIHNhdmVFbmFibGVkOiBCb29sZWFuLAogICAgaXNTYXZpbmc6IEJvb2xlYW4sCiAgICBvblNhdmU6ICgpIC0+IFVuaXQsCiAgICBvblJlc2V0OiAoKSAtPiBVbml0LAopIHsKICAgIEJ1dHRvbigKICAgICAgICBvbkNsaWNrID0gb25TYXZlLAogICAgICAgIGVuYWJsZWQgPSBzYXZlRW5hYmxlZCwKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLnBhZGRpbmcodG9wID0gMTYuZHApLAogICAgKSB7CiAgICAgICAgaWYgKGlzU2F2aW5nKSB7CiAgICAgICAgICAgIENpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IoCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoZW5kID0gOC5kcCksCiAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCA9IDIuZHAsCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShpZCA9IFIuc3RyaW5nLnNhdmVfYWN0aW9uKSkKICAgIH0KCiAgICBPdXRsaW5lZEJ1dHRvbigKICAgICAgICBvbkNsaWNrID0gb25SZXNldCwKICAgICAgICBlbmFibGVkID0gIWlzU2F2aW5nLAogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZyh0b3AgPSA4LmRwLCBib3R0b20gPSAxNi5kcCksCiAgICApIHsKICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudGhlbWVfcmVzZXQpKQogICAgfQoKICAgIGlmIChzaG93U2F2ZVN1Y2Nlc3NNZXNzYWdlKSB7CiAgICAgICAgTGF1bmNoZWRFZmZlY3Qoa2V5MSA9IHNob3dTYXZlU3VjY2Vzc01lc3NhZ2UpIHsKICAgICAgICAgICAga290bGlueC5jb3JvdXRpbmVzLmRlbGF5KDIwMDApCiAgICAgICAgICAgIG9uU2hvd1NhdmVTdWNjZXNzTWVzc2FnZUNoYW5nZShmYWxzZSkKICAgICAgICB9CgogICAgICAgIEJveChtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLCBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcikgewogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudGhlbWVfc2F2ZWQpLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.settings.screens.theme
+
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.ScrollState
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.ScrollableTabRow
+import androidx.compose.material3.Tab
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import kotlinx.coroutines.yield
+
+internal enum class ThemeSettingsTab(val titleRes: Int) {
+    BASIC(R.string.theme_tab_basic),
+    BACKGROUND(R.string.theme_tab_background),
+    CHAT(R.string.theme_tab_chat),
+    INPUT(R.string.theme_tab_input),
+    INTERFACE(R.string.theme_tab_interface),
+}
+
+@Composable
+internal fun ThemeSettingsTabbedContent(
+    selectedTab: ThemeSettingsTab,
+    onSelectedTabChange: (ThemeSettingsTab) -> Unit,
+    basicContent: @Composable () -> Unit,
+    backgroundContent: @Composable () -> Unit,
+    chatContent: @Composable () -> Unit,
+    inputContent: @Composable () -> Unit,
+    interfaceContent: @Composable () -> Unit,
+    footerContent: @Composable () -> Unit,
+    scrollState: ScrollState,
+    modifier: Modifier = Modifier,
+) {
+    var renderedTab by remember { mutableStateOf(selectedTab) }
+    var isSwitchingTab by remember { mutableStateOf(false) }
+
+    LaunchedEffect(selectedTab) {
+        if (renderedTab != selectedTab) {
+            isSwitchingTab = true
+            yield()
+            scrollState.scrollTo(0)
+            renderedTab = selectedTab
+            isSwitchingTab = false
+        }
+    }
+
+    Column(modifier = modifier) {
+        ScrollableTabRow(
+            selectedTabIndex = selectedTab.ordinal,
+            edgePadding = 0.dp,
+            containerColor = Color.Transparent,
+            contentColor = MaterialTheme.colorScheme.primary,
+            modifier = Modifier.fillMaxWidth(),
+        ) {
+            ThemeSettingsTab.values().forEach { tab ->
+                Tab(
+                    selected = selectedTab == tab,
+                    onClick = { onSelectedTabChange(tab) },
+                    text = { Text(text = stringResource(id = tab.titleRes)) },
+                )
+            }
+        }
+
+        if (isSwitchingTab) {
+            LinearProgressIndicator(modifier = Modifier.fillMaxWidth())
+        }
+
+        Column(
+            modifier =
+                Modifier
+                    .weight(1f)
+                    .verticalScroll(scrollState)
+                    .padding(
+                        start = 16.dp,
+                        top = 8.dp,
+                        end = 16.dp,
+                        bottom = 16.dp,
+                    ),
+        ) {
+            when (renderedTab) {
+                ThemeSettingsTab.BASIC -> basicContent()
+                ThemeSettingsTab.BACKGROUND -> backgroundContent()
+                ThemeSettingsTab.CHAT -> chatContent()
+                ThemeSettingsTab.INPUT -> inputContent()
+                ThemeSettingsTab.INTERFACE -> interfaceContent()
+            }
+
+            footerContent()
+        }
+    }
+}
+
+@Composable
+internal fun ThemeSettingsFooter(
+    showSaveSuccessMessage: Boolean,
+    onShowSaveSuccessMessageChange: (Boolean) -> Unit,
+    saveEnabled: Boolean,
+    isSaving: Boolean,
+    onSave: () -> Unit,
+    onReset: () -> Unit,
+) {
+    Button(
+        onClick = onSave,
+        enabled = saveEnabled,
+        modifier = Modifier.fillMaxWidth().padding(top = 16.dp),
+    ) {
+        if (isSaving) {
+            CircularProgressIndicator(
+                modifier = Modifier.padding(end = 8.dp),
+                strokeWidth = 2.dp,
+            )
+        }
+        Text(stringResource(id = R.string.save_action))
+    }
+
+    OutlinedButton(
+        onClick = onReset,
+        enabled = !isSaving,
+        modifier = Modifier.fillMaxWidth().padding(top = 8.dp, bottom = 16.dp),
+    ) {
+        Text(stringResource(id = R.string.theme_reset))
+    }
+
+    if (showSaveSuccessMessage) {
+        LaunchedEffect(key1 = showSaveSuccessMessage) {
+            kotlinx.coroutines.delay(2000)
+            onShowSaveSuccessMessageChange(false)
+        }
+
+        Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+            Text(
+                text = stringResource(id = R.string.theme_saved),
+                color = MaterialTheme.colorScheme.primary,
+            )
+        }
+    }
+}

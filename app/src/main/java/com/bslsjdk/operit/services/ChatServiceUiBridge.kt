@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DaGF0TWVzc2FnZQoKaW50ZXJmYWNlIENoYXRTZXJ2aWNlVWlCcmlkZ2UgewogICAgZnVuIHVwZGF0ZVdlYlNlcnZlckZvckN1cnJlbnRDaGF0KGNoYXRJZDogU3RyaW5nKQogICAgZnVuIHJlc2V0QXR0YWNobWVudFBhbmVsU3RhdGUoKQogICAgZnVuIGNsZWFyUmVwbHlUb01lc3NhZ2UoKQogICAgZnVuIGdldFJlcGx5VG9NZXNzYWdlKCk6IENoYXRNZXNzYWdlPwp9CgpvYmplY3QgRW1wdHlDaGF0U2VydmljZVVpQnJpZGdlIDogQ2hhdFNlcnZpY2VVaUJyaWRnZSB7CiAgICBvdmVycmlkZSBmdW4gdXBkYXRlV2ViU2VydmVyRm9yQ3VycmVudENoYXQoY2hhdElkOiBTdHJpbmcpID0gVW5pdAoKICAgIG92ZXJyaWRlIGZ1biByZXNldEF0dGFjaG1lbnRQYW5lbFN0YXRlKCkgPSBVbml0CgogICAgb3ZlcnJpZGUgZnVuIGNsZWFyUmVwbHlUb01lc3NhZ2UoKSA9IFVuaXQKCiAgICBvdmVycmlkZSBmdW4gZ2V0UmVwbHlUb01lc3NhZ2UoKTogQ2hhdE1lc3NhZ2U/ID0gbnVsbAp9Cg==
+package com.bslsjdk.operit.services
+
+import com.bslsjdk.operit.data.model.ChatMessage
+
+interface ChatServiceUiBridge {
+    fun updateWebServerForCurrentChat(chatId: String)
+    fun resetAttachmentPanelState()
+    fun clearReplyToMessage()
+    fun getReplyToMessage(): ChatMessage?
+}
+
+object EmptyChatServiceUiBridge : ChatServiceUiBridge {
+    override fun updateWebServerForCurrentChat(chatId: String) = Unit
+
+    override fun resetAttachmentPanelState() = Unit
+
+    override fun clearReplyToMessage() = Unit
+
+    override fun getReplyToMessage(): ChatMessage? = null
+}

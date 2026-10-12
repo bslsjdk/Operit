@@ -1,1 +1,569 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnBhcnQKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uY2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlDb2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlMaXN0U3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zSW5kZXhlZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5hdXRvbWlycm9yZWQuZmlsbGVkLkFycm93Rm9yd2FyZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuQ29kZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRmlsZU9wZW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlNlYXJjaAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuVGVybWluYWwKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLldlYgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy52ZWN0b3IuSW1hZ2VWZWN0b3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5Bbm5vdGF0ZWRTdHJpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5TcGFuU3R5bGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5idWlsZEFubm90YXRlZFN0cmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udEZhbWlseQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRPdmVyZmxvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LndpdGhTdHlsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLmNsZWFyQW5kU2V0U2VtYW50aWNzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnNlbWFudGljcy5jb250ZW50RGVzY3JpcHRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKLyoqIOeugOa0geagt+W8j+eahOW3peWFt+iwg+eUqOaYvuekuue7hOS7tiDkvb/nlKjnrq3lpLTlm77moIcr5bel5YW35ZCNK+WPguaVsOeahOeugOa0geihjOagt+W8jyAqLwpAQ29tcG9zYWJsZQpmdW4gQ29tcGFjdFRvb2xEaXNwbGF5KAogICAgICAgIHRvb2xOYW1lOiBTdHJpbmcsCiAgICAgICAgcGFyYW1zOiBTdHJpbmcgPSAiIiwKICAgICAgICB0ZXh0Q29sb3I6IENvbG9yLAogICAgICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAogICAgICAgIGVuYWJsZURpYWxvZzogQm9vbGVhbiA9IHRydWUgIC8vIOaWsOWinuWPguaVsO+8muaYr+WQpuWQr+eUqOW8ueeql+WKn+iDve+8jOm7mOiupOWQr+eUqAopIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIHZhbCAoZGlzcGxheVRvb2xOYW1lLCBkaXNwbGF5UGFyYW1zKSA9IHJlbWVtYmVyKHRvb2xOYW1lLCBwYXJhbXMpIHsKICAgICAgICBub3JtYWxpemVUb29sRGlzcGxheUZvclN0cmljdFByb3h5KHRvb2xOYW1lLCBwYXJhbXMpCiAgICB9CiAgICAvLyDlvLnnqpfnirbmgIEKICAgIHZhciBzaG93RGV0YWlsRGlhbG9nIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIHZhbCBoYXNQYXJhbXMgPSBkaXNwbGF5UGFyYW1zLmlzTm90QmxhbmsoKQogICAgdmFsIHNlbWFudGljRGVzY3JpcHRpb24gPSByZW1lbWJlcihkaXNwbGF5VG9vbE5hbWUsIGRpc3BsYXlQYXJhbXMubGVuZ3RoKSB7CiAgICAgICAgYnVpbGRUb29sU2VtYW50aWNEZXNjcmlwdGlvbigKICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgIHRvb2xOYW1lID0gZGlzcGxheVRvb2xOYW1lLAogICAgICAgICAgICBwYXJhbXMgPSBkaXNwbGF5UGFyYW1zLAogICAgICAgICAgICB1c2VCeXRlU3VtbWFyeSA9IGZhbHNlCiAgICAgICAgKQogICAgfQoKICAgIC8vIOaYvuekuuivpue7huWGheWuueeahOW8ueeqlyAtIOS7heWcqOWQr+eUqOW8ueeql+aXtuaYvuekugogICAgaWYgKHNob3dEZXRhaWxEaWFsb2cgJiYgaGFzUGFyYW1zICYmIGVuYWJsZURpYWxvZykgewogICAgICAgIENvbnRlbnREZXRhaWxEaWFsb2coCiAgICAgICAgICAgIHRpdGxlID0gIiRkaXNwbGF5VG9vbE5hbWUgJHtjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy50b29sX2NhbGxfcGFyYW1ldGVycyl9IiwKICAgICAgICAgICAgY29udGVudCA9IGRpc3BsYXlQYXJhbXMsCiAgICAgICAgICAgIGljb24gPSBnZXRUb29sSWNvbihkaXNwbGF5VG9vbE5hbWUpLAogICAgICAgICAgICBvbkRpc21pc3MgPSB7IHNob3dEZXRhaWxEaWFsb2cgPSBmYWxzZSB9CiAgICAgICAgKQogICAgfQoKICAgIHZhbCBzdW1tYXJ5ID0gcmVtZW1iZXIoZGlzcGxheVBhcmFtcykgeyBidWlsZFBhcmFtc0hlYWRQcmV2aWV3KGRpc3BsYXlQYXJhbXMpIH0KCiAgICBDYW52YXNUb29sU3VtbWFyeVJvdygKICAgICAgICB0b29sTmFtZSA9IGRpc3BsYXlUb29sTmFtZSwKICAgICAgICBzdW1tYXJ5ID0gc3VtbWFyeSwKICAgICAgICBzZW1hbnRpY0Rlc2NyaXB0aW9uID0gc2VtYW50aWNEZXNjcmlwdGlvbiwKICAgICAgICBsZWFkaW5nSWNvbiA9IGdldFRvb2xJY29uKGRpc3BsYXlUb29sTmFtZSksCiAgICAgICAgdGl0bGVDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICBzdW1tYXJ5Q29sb3IgPSB0ZXh0Q29sb3IuY29weShhbHBoYSA9IDAuN2YpLAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIsCiAgICAgICAgb25DbGljayA9CiAgICAgICAgICAgIGlmIChoYXNQYXJhbXMgJiYgZW5hYmxlRGlhbG9nKSB7CiAgICAgICAgICAgICAgICB7IHNob3dEZXRhaWxEaWFsb2cgPSB0cnVlIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfSwKICAgICkKfQoKLyoqIOWNoeeJh+W8j+W3peWFt+aYvuekuue7hOS7tiDnlKjkuo7mmL7npLrovoPplb/lhoXlrrnnmoTlt6XlhbfosIPnlKjvvIzmlK/mjIHmtYHlvI/muLLmn5PvvIznvo7ljJbniYggKi8KQENvbXBvc2FibGUKZnVuIERldGFpbGVkVG9vbERpc3BsYXkoCiAgICAgICAgdG9vbE5hbWU6IFN0cmluZywKICAgICAgICBwYXJhbXM6IFN0cmluZyA9ICIiLAogICAgICAgIHRleHRDb2xvcjogQ29sb3IsCiAgICAgICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICAgICAgZW5hYmxlRGlhbG9nOiBCb29sZWFuID0gdHJ1ZSAgLy8g5paw5aKe5Y+C5pWw77ya5piv5ZCm5ZCv55So5by556qX5Yqf6IO977yM6buY6K6k5ZCv55SoCikgewogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgdmFsIChkaXNwbGF5VG9vbE5hbWUsIGRpc3BsYXlQYXJhbXMpID0gcmVtZW1iZXIodG9vbE5hbWUsIHBhcmFtcykgewogICAgICAgIG5vcm1hbGl6ZVRvb2xEaXNwbGF5Rm9yU3RyaWN0UHJveHkodG9vbE5hbWUsIHBhcmFtcykKICAgIH0KICAgIHZhciBzaG93RGV0YWlsRGlhbG9nIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIHZhbCBoYXNQYXJhbXMgPSBkaXNwbGF5UGFyYW1zLmlzTm90QmxhbmsoKQogICAgdmFsIHNlbWFudGljRGVzY3JpcHRpb24gPSByZW1lbWJlcihkaXNwbGF5VG9vbE5hbWUsIGRpc3BsYXlQYXJhbXMubGVuZ3RoKSB7CiAgICAgICAgYnVpbGRUb29sU2VtYW50aWNEZXNjcmlwdGlvbigKICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgIHRvb2xOYW1lID0gZGlzcGxheVRvb2xOYW1lLAogICAgICAgICAgICBwYXJhbXMgPSBkaXNwbGF5UGFyYW1zLAogICAgICAgICAgICB1c2VCeXRlU3VtbWFyeSA9IHRydWUKICAgICAgICApCiAgICB9CiAgICB2YWwgcGFyYW1zU2l6ZUxhYmVsID0gcmVtZW1iZXIoZGlzcGxheVBhcmFtcykgewogICAgICAgIGJ1aWxkVG9vbFBhcmFtc1NpemVMYWJlbChjb250ZXh0LCBkaXNwbGF5UGFyYW1zKQogICAgfQoKICAgIGlmIChzaG93RGV0YWlsRGlhbG9nICYmIGhhc1BhcmFtcyAmJiBlbmFibGVEaWFsb2cpIHsKICAgICAgICBDb250ZW50RGV0YWlsRGlhbG9nKAogICAgICAgICAgICB0aXRsZSA9ICIkZGlzcGxheVRvb2xOYW1lICR7Y29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudG9vbF9jYWxsX3BhcmFtZXRlcnMpfSIsCiAgICAgICAgICAgIGNvbnRlbnQgPSBkaXNwbGF5UGFyYW1zLAogICAgICAgICAgICBpY29uID0gZ2V0VG9vbEljb24oZGlzcGxheVRvb2xOYW1lKSwKICAgICAgICAgICAgb25EaXNtaXNzID0geyBzaG93RGV0YWlsRGlhbG9nID0gZmFsc2UgfQogICAgICAgICkKICAgIH0KCiAgICBDYW52YXNUb29sU3VtbWFyeVJvdygKICAgICAgICB0b29sTmFtZSA9IGRpc3BsYXlUb29sTmFtZSwKICAgICAgICBzdW1tYXJ5ID0gcGFyYW1zU2l6ZUxhYmVsLAogICAgICAgIHNlbWFudGljRGVzY3JpcHRpb24gPSBzZW1hbnRpY0Rlc2NyaXB0aW9uLAogICAgICAgIGxlYWRpbmdJY29uID0gZ2V0VG9vbEljb24oZGlzcGxheVRvb2xOYW1lKSwKICAgICAgICB0aXRsZUNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LAogICAgICAgIHN1bW1hcnlDb2xvciA9IHRleHRDb2xvci5jb3B5KGFscGhhID0gMC43ZiksCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllciwKICAgICAgICBvbkNsaWNrID0KICAgICAgICAgICAgaWYgKGhhc1BhcmFtcyAmJiBlbmFibGVEaWFsb2cpIHsKICAgICAgICAgICAgICAgIHsgc2hvd0RldGFpbERpYWxvZyA9IHRydWUgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICB9LAogICAgKQp9CgovKiog5pi+56S65bim6KGM5Y+355qE5Luj56CB5YaF5a65ICovCkBDb21wb3NhYmxlCmludGVybmFsIGZ1biBDb2RlQ29udGVudFdpdGhMaW5lTnVtYmVycygKICAgIGxpbmVzOiBMaXN0PFN0cmluZz4sCiAgICB0ZXh0Q29sb3I6IENvbG9yLAogICAgbGlzdFN0YXRlOiBMYXp5TGlzdFN0YXRlLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICBMYXp5Q29sdW1uKG1vZGlmaWVyID0gbW9kaWZpZXIsIHN0YXRlID0gbGlzdFN0YXRlKSB7CiAgICAgICAgaXRlbXNJbmRleGVkKGl0ZW1zID0gbGluZXMsIGtleSA9IHsgaW5kZXgsIF8gLT4gaW5kZXggfSkgeyBpbmRleCwgbGluZSAtPgogICAgICAgICAgICBSb3cobW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuVG9wKSB7CiAgICAgICAgICAgICAgICAvLyDooYzlj7fliJfvvIzkvb/nlKjlm7rlrprlrr3luqbku6Xkv53or4Hku6PnoIHlr7npvZAKICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg0MC5kcCkucGFkZGluZyhlbmQgPSA4LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJFbmQKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gIiR7aW5kZXggKyAxfSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250RmFtaWx5ID0gRm9udEZhbWlseS5Nb25vc3BhY2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSAxMC5zcAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQuY29weShhbHBoYSA9IDAuNWYpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOS7o+eggeWGheWuueWIlyAtIOenu+mZpOawtOW5s+a7muWKqO+8jOaUueS4uuiHquWKqOaNouihjAogICAgICAgICAgICAgICAgQm94KG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSkgewogICAgICAgICAgICAgICAgICAgIC8vIOW9k+ihjOWkqumVv+aXtu+8jOmrmOS6ruino+aekOS8muW+iOWNoe+8jOaJgOS7peiuvue9ruS4gOS4qumYiOWAvAogICAgICAgICAgICAgICAgICAgIHZhbCBsaW5lTGVuZ3RoTGltaXQgPSAzMDAKICAgICAgICAgICAgICAgICAgICB2YWwgaXNYbWxUYWdMaW5lID0gcmVtZW1iZXIobGluZSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgdCA9IGxpbmUudHJpbVN0YXJ0KCkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCF0LnN0YXJ0c1dpdGgoIjwiKSB8fCAhdC5jb250YWlucygiPiIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHNlY29uZCA9IHQuZ2V0T3JOdWxsKDEpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgaWR4ID0gaWYgKHNlY29uZCA9PSAnLycpIDIgZWxzZSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0LmdldE9yTnVsbChpZHgpPy5pc0xldHRlcigpID09IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaWYgKGlzWG1sVGFnTGluZSAmJiBsaW5lLmxlbmd0aCA8IGxpbmVMZW5ndGhMaW1pdCkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyDku4Xlr7lYTUzmoIfnrb7ooYzlgZrpq5jkuq7vvJvpgb/lhY3mioogPHBhcmFtPiDlhoXnmoTku6PnoIHlhoXlrrnkuZ/lvZPkvZxYTUzmuLLmn5PvvIjkvJrlr7zoh7TpopzoibLlvILluLjvvIkKICAgICAgICAgICAgICAgICAgICAgICAgRm9ybWF0dGVkWG1sVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gbGluZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0Q29sb3IgPSB0ZXh0Q29sb3IuY29weShhbHBoYSA9IDAuOGYpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyh2ZXJ0aWNhbCA9IDIuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAvLyDmma7pgJrmlofmnKzmiJbov4fplb/nmoRYTUzmlofmnKzvvIjkuI3ov5vooYzpq5jkuq7vvIkKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gbGluZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRGYW1pbHkgPSBGb250RmFtaWx5Lk1vbm9zcGFjZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSAxMS5zcAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IHRleHRDb2xvci5jb3B5KGFscGhhID0gMC44ZiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc29mdFdyYXAgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8qKiBYTUzor63ms5Xpq5jkuq7mlofmnKwgLSDlvILmraXorqHnrpfpq5jkuq7ku6Xpgb/lhY3pmLvloZ7kuLvnur/nqIsgKi8KQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIEZvcm1hdHRlZFhtbFRleHQodGV4dDogU3RyaW5nLCB0ZXh0Q29sb3I6IENvbG9yLCBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllcikgewogICAgLy8g5L2/55So54q25oCB5L+d5a2Y5qC85byP5YyW5ZCO55qE5paH5pysCiAgICB2YXIgZm9ybWF0dGVkVGV4dCBieSByZW1lbWJlcih0ZXh0KSB7IG11dGFibGVTdGF0ZU9mPEFubm90YXRlZFN0cmluZz8+KG51bGwpIH0KICAgIAogICAgLy8g5byC5q2l6K6h566X6K+t5rOV6auY5LquCiAgICBMYXVuY2hlZEVmZmVjdCh0ZXh0KSB7CiAgICAgICAgdmFsIHJlc3VsdCA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLkRlZmF1bHQpIHsKICAgICAgICAgICAgYnVpbGRBbm5vdGF0ZWRTdHJpbmcgewogICAgICAgICAgICAgICAgdmFsIGRpc3BsYXlUZXh0ID0gdGV4dC50cmltRW5kKCkKICAgICAgICAgICAgICAgIHZhbCBsZWFkaW5nV2hpdGVzcGFjZSA9IGRpc3BsYXlUZXh0LnRha2VXaGlsZSB7IGl0ID09ICcgJyB8fCBpdCA9PSAnXHQnIH0KICAgICAgICAgICAgICAgIHZhbCBjb250ZW50VGV4dCA9IGRpc3BsYXlUZXh0LmRyb3AobGVhZGluZ1doaXRlc3BhY2UubGVuZ3RoKQoKICAgICAgICAgICAgICAgIC8vIOS/neeVmeWOn+Wni+e8qei/m++8jOmBv+WFjeavj+ihjOW8gOWktOepuuagvOiiq+a4heepugogICAgICAgICAgICAgICAgaWYgKGxlYWRpbmdXaGl0ZXNwYWNlLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgIGFwcGVuZChsZWFkaW5nV2hpdGVzcGFjZSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyDnroDljZXnmoRYTUzor63ms5Xpq5jkuq4KICAgICAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgICAgIC8vIFhNTOagh+etvgogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRUZXh0LnN0YXJ0c1dpdGgoIjwiKSAmJiBjb250ZW50VGV4dC5jb250YWlucygiPiIpIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGluVGFnID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGluQXR0ciA9IGZhbHNlCgogICAgICAgICAgICAgICAgICAgICAgICBmb3IgKGkgaW4gY29udGVudFRleHQuaW5kaWNlcykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNoYXIgPSBjb250ZW50VGV4dFtpXQogICAgICAgICAgICAgICAgICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hhciA9PSAnPCcgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpblRhZyA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2l0aFN0eWxlKFNwYW5TdHlsZShjb2xvciA9IENvbG9yKDB4RkY5QzI3QjApKSkgeyAvLyDntKvoibIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZChjaGFyKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoYXIgPT0gJz4nIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5UYWcgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aXRoU3R5bGUoU3BhblN0eWxlKGNvbG9yID0gQ29sb3IoMHhGRjlDMjdCMCkpKSB7IC8vIOe0q+iJsgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kKGNoYXIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hhciA9PSAnPScgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbkF0dHIgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpdGhTdHlsZShTcGFuU3R5bGUoY29sb3IgPSBDb2xvcigweEZGNzU3NTc1KSkpIHsgLy8g54Gw6ImyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmQoY2hhcikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGFyID09ICciJyAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpbkF0dHIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpdGhTdHlsZShTcGFuU3R5bGUoY29sb3IgPSBDb2xvcigweEZGNENBRjUwKSkpIHsgLy8g57u/6ImyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kKGNoYXIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmQoY2hhcikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbkF0dHIgPSAhaW5BdHRyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluVGFnICYmIGNoYXIuaXNMZXR0ZXJPckRpZ2l0KCkgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aXRoU3R5bGUoU3BhblN0eWxlKGNvbG9yID0gQ29sb3IoMHhGRjIxOTZGMykpKSB7IC8vIOiTneiJsgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kKGNoYXIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5BdHRyIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2l0aFN0eWxlKFNwYW5TdHlsZShjb2xvciA9IENvbG9yKDB4RkY0Q0FGNTApKSkgeyAvLyDnu7/oibIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZChjaGFyKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmQoY2hhcikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgLy8g5pmu6YCa5paH5pysCiAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZChjb250ZW50VGV4dCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgZm9ybWF0dGVkVGV4dCA9IHJlc3VsdAogICAgfQoKICAgIC8vIOaYvuekuuagvOW8j+WMluWQjueahOaWh+acrO+8jOiuoeeul+WujOaIkOWJjeaYvuekuuWOn+Wni+aWh+acrAogICAgVGV4dCgKICAgICAgICAgICAgdGV4dCA9IGZvcm1hdHRlZFRleHQgPzogQW5ub3RhdGVkU3RyaW5nKHRleHQudHJpbUVuZCgpKSwKICAgICAgICAgICAgc3R5bGUgPQogICAgICAgICAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRGYW1pbHkgPSBGb250RmFtaWx5Lk1vbm9zcGFjZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gMTEuc3AsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IHRleHRDb2xvcgogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgIHNvZnRXcmFwID0gdHJ1ZSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllcgogICAgKQp9Cgpwcml2YXRlIGZ1biB1bmVzY2FwZVhtbEZvckRpc3BsYXkoaW5wdXQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICB2YXIgcmVzdWx0ID0gaW5wdXQKCiAgICBpZiAocmVzdWx0LnN0YXJ0c1dpdGgoIjwhW0NEQVRBWyIpICYmIHJlc3VsdC5lbmRzV2l0aCgiXV0+IikgKSB7CiAgICAgICAgcmVzdWx0ID0gcmVzdWx0LnN1YnN0cmluZyg5LCByZXN1bHQubGVuZ3RoIC0gMykKICAgIH0KCiAgICBpZiAocmVzdWx0LmVuZHNXaXRoKCJdXT4iKSApIHsKICAgICAgICByZXN1bHQgPSByZXN1bHQuc3Vic3RyaW5nKDAsIHJlc3VsdC5sZW5ndGggLSAzKQogICAgfQoKICAgIGlmIChyZXN1bHQuc3RhcnRzV2l0aCgiPCFbQ0RBVEFbIikgKSB7CiAgICAgICAgcmVzdWx0ID0gcmVzdWx0LnN1YnN0cmluZyg5KQogICAgfQoKICAgIHJldHVybiByZXN1bHQucmVwbGFjZSgiJmx0OyIsICI8IikKICAgICAgICAucmVwbGFjZSgiJmd0OyIsICI+IikKICAgICAgICAucmVwbGFjZSgiJmFtcDsiLCAiJiIpCiAgICAgICAgLnJlcGxhY2UoIiZxdW90OyIsICJcIiIpCiAgICAgICAgLnJlcGxhY2UoIiZhcG9zOyIsICInIikKfQoKcHJpdmF0ZSBmdW4gbm9ybWFsaXplSW5kZW50Rm9yRGlzcGxheShsaW5lOiBTdHJpbmcpOiBTdHJpbmcgewogICAgaWYgKGxpbmUuaXNFbXB0eSgpKSByZXR1cm4gbGluZQoKICAgIHZhciBpID0gMAogICAgdmFyIGxldmVscyA9IDAKICAgIHZhciBzcGFjZXMgPSAwCiAgICB3aGlsZSAoaSA8IGxpbmUubGVuZ3RoKSB7CiAgICAgICAgd2hlbiAodmFsIGNoID0gbGluZVtpXSkgewogICAgICAgICAgICAnXHQnIC0+IHsKICAgICAgICAgICAgICAgIGlmIChzcGFjZXMgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgbGV2ZWxzKysKICAgICAgICAgICAgICAgICAgICBzcGFjZXMgPSAwCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBsZXZlbHMrKwogICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgIH0KICAgICAgICAgICAgJyAnIC0+IHsKICAgICAgICAgICAgICAgIHNwYWNlcysrCiAgICAgICAgICAgICAgICBpZiAoc3BhY2VzID09IDQpIHsKICAgICAgICAgICAgICAgICAgICBsZXZlbHMrKwogICAgICAgICAgICAgICAgICAgIHNwYWNlcyA9IDAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGkrKwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UgLT4gYnJlYWsKICAgICAgICB9CiAgICB9CgogICAgaWYgKHNwYWNlcyA+IDApIHsKICAgICAgICBsZXZlbHMrKwogICAgfQoKICAgIGlmIChsZXZlbHMgPT0gMCkgcmV0dXJuIGxpbmUKICAgIHJldHVybiAiICIucmVwZWF0KGxldmVscykgKyBsaW5lLnN1YnN0cmluZyhpKQp9Cgpwcml2YXRlIGZ1biBub3JtYWxpemVUb29sRGlzcGxheUZvclN0cmljdFByb3h5KHRvb2xOYW1lOiBTdHJpbmcsIHBhcmFtczogU3RyaW5nKTogUGFpcjxTdHJpbmcsIFN0cmluZz4gewogICAgaWYgKHRvb2xOYW1lICE9ICJwYWNrYWdlX3Byb3h5IiAmJiB0b29sTmFtZSAhPSAicHJveHkiKSB7CiAgICAgICAgcmV0dXJuIHRvb2xOYW1lIHRvIHBhcmFtcwogICAgfQoKICAgIHZhbCB0b29sTmFtZVJlZ2V4ID0gIjxwYXJhbVxccytuYW1lPVwidG9vbF9uYW1lXCI+KFtcXHNcXFNdKj8pPFxcL3BhcmFtPiIudG9SZWdleCgpCiAgICB2YWwgcGFyYW1zUmVnZXggPSAiPHBhcmFtXFxzK25hbWU9XCJwYXJhbXNcIj4oW1xcc1xcU10qPyk8XFwvcGFyYW0+Ii50b1JlZ2V4KCkKCiAgICB2YWwgcmF3VGFyZ2V0VG9vbE5hbWUgPSB0b29sTmFtZVJlZ2V4LmZpbmQocGFyYW1zKT8uZ3JvdXBWYWx1ZXM/LmdldE9yTnVsbCgxKT8udHJpbSgpLm9yRW1wdHkoKQogICAgdmFsIHJhd1Byb3hpZWRQYXJhbXMgPSBwYXJhbXNSZWdleC5maW5kKHBhcmFtcyk/Lmdyb3VwVmFsdWVzPy5nZXRPck51bGwoMSk/LnRyaW0oKS5vckVtcHR5KCkKCiAgICB2YWwgZGlzcGxheVRvb2xOYW1lID0gbm9ybWFsaXplRXNjYXBlZFRleHRGb3JEaXNwbGF5KHJhd1RhcmdldFRvb2xOYW1lKS5pZkJsYW5rIHsgdG9vbE5hbWUgfQogICAgdmFsIGRpc3BsYXlQYXJhbXMgPSBpZiAocmF3UHJveGllZFBhcmFtcy5pc05vdEJsYW5rKCkpIHsKICAgICAgICBwYXJzZVByb3h5SnNvblBhcmFtc1RvWG1sKG5vcm1hbGl6ZUVzY2FwZWRUZXh0Rm9yRGlzcGxheShyYXdQcm94aWVkUGFyYW1zKSkgPzogcGFyYW1zCiAgICB9IGVsc2UgewogICAgICAgIHBhcmFtcwogICAgfQoKICAgIHJldHVybiBkaXNwbGF5VG9vbE5hbWUgdG8gZGlzcGxheVBhcmFtcwp9Cgpwcml2YXRlIGZ1biBub3JtYWxpemVFc2NhcGVkVGV4dEZvckRpc3BsYXkoaW5wdXQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICB2YWwgdW5lc2NhcGVkID0gdW5lc2NhcGVYbWxGb3JEaXNwbGF5KGlucHV0KS5yZXBsYWNlKCJcXFwiIiwgIlwiIikKICAgIHZhbCB0cmltbWVkID0gdW5lc2NhcGVkLnRyaW0oKQoKICAgIHJldHVybiBpZiAoCiAgICAgICAgKHRyaW1tZWQuc3RhcnRzV2l0aCgiXCJ7IikgJiYgdHJpbW1lZC5lbmRzV2l0aCgifVwiIikpIHx8CiAgICAgICAgKHRyaW1tZWQuc3RhcnRzV2l0aCgiXCJbIikgJiYgdHJpbW1lZC5lbmRzV2l0aCgiXVwiIikpCiAgICApIHsKICAgICAgICB0cmltbWVkLnN1YnN0cmluZygxLCB0cmltbWVkLmxlbmd0aCAtIDEpLnJlcGxhY2UoIlxcXCIiLCAiXCIiKQogICAgfSBlbHNlIHsKICAgICAgICB1bmVzY2FwZWQKICAgIH0KfQoKcHJpdmF0ZSBmdW4gcGFyc2VQcm94eUpzb25QYXJhbXNUb1htbChpbnB1dDogU3RyaW5nKTogU3RyaW5nPyB7CiAgICB2YWwgdHJpbW1lZCA9IGlucHV0LnRyaW0oKQogICAgaWYgKHRyaW1tZWQuaXNFbXB0eSgpKSB7CiAgICAgICAgcmV0dXJuICIiCiAgICB9CgogICAgcmV0dXJuIHRyeSB7CiAgICAgICAgd2hlbiB7CiAgICAgICAgICAgIHRyaW1tZWQuc3RhcnRzV2l0aCgieyIpICYmIHRyaW1tZWQuZW5kc1dpdGgoIn0iKSAtPiB7CiAgICAgICAgICAgICAgICB2YWwgb2JqID0gSlNPTk9iamVjdCh0cmltbWVkKQogICAgICAgICAgICAgICAgdmFsIGxpbmVzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKICAgICAgICAgICAgICAgIHZhbCBrZXlzID0gb2JqLmtleXMoKQogICAgICAgICAgICAgICAgd2hpbGUgKGtleXMuaGFzTmV4dCgpKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGtleSA9IGtleXMubmV4dCgpCiAgICAgICAgICAgICAgICAgICAgdmFsIHZhbHVlVGV4dCA9IGpzb25WYWx1ZVRvUGFyYW1UZXh0KG9iai5vcHQoa2V5KSkKICAgICAgICAgICAgICAgICAgICBsaW5lcy5hZGQoIjxwYXJhbSBuYW1lPVwiJHtlc2NhcGVYbWxBdHRyaWJ1dGUoa2V5KX1cIj4ke2VzY2FwZVhtbFRleHQodmFsdWVUZXh0KX08L3BhcmFtPiIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBsaW5lcy5qb2luVG9TdHJpbmcoIlxuIikKICAgICAgICAgICAgfQogICAgICAgICAgICB0cmltbWVkLnN0YXJ0c1dpdGgoIlsiKSAmJiB0cmltbWVkLmVuZHNXaXRoKCJdIikgLT4gewogICAgICAgICAgICAgICAgdmFsIGFycmF5ID0gSlNPTkFycmF5KHRyaW1tZWQpCiAgICAgICAgICAgICAgICB2YWwgbGluZXMgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQogICAgICAgICAgICAgICAgZm9yIChpbmRleCBpbiAwIHVudGlsIGFycmF5Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHZhbHVlVGV4dCA9IGpzb25WYWx1ZVRvUGFyYW1UZXh0KGFycmF5Lm9wdChpbmRleCkpCiAgICAgICAgICAgICAgICAgICAgbGluZXMuYWRkKCI8cGFyYW0gbmFtZT1cIiRpbmRleFwiPiR7ZXNjYXBlWG1sVGV4dCh2YWx1ZVRleHQpfTwvcGFyYW0+IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxpbmVzLmpvaW5Ub1N0cmluZygiXG4iKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgIH0KICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgIG51bGwKICAgIH0KfQoKcHJpdmF0ZSBmdW4ganNvblZhbHVlVG9QYXJhbVRleHQodmFsdWU6IEFueT8pOiBTdHJpbmcgewogICAgcmV0dXJuIHdoZW4gKHZhbHVlKSB7CiAgICAgICAgbnVsbCwgSlNPTk9iamVjdC5OVUxMIC0+ICJudWxsIgogICAgICAgIGlzIFN0cmluZyAtPiB2YWx1ZQogICAgICAgIGVsc2UgLT4gdmFsdWUudG9TdHJpbmcoKQogICAgfQp9Cgpwcml2YXRlIGZ1biBlc2NhcGVYbWxBdHRyaWJ1dGUoaW5wdXQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICByZXR1cm4gaW5wdXQKICAgICAgICAucmVwbGFjZSgiJiIsICImYW1wOyIpCiAgICAgICAgLnJlcGxhY2UoIjwiLCAiJmx0OyIpCiAgICAgICAgLnJlcGxhY2UoIj4iLCAiJmd0OyIpCiAgICAgICAgLnJlcGxhY2UoIlwiIiwgIiZxdW90OyIpCiAgICAgICAgLnJlcGxhY2UoIiciLCAiJmFwb3M7IikKfQoKcHJpdmF0ZSBmdW4gZXNjYXBlWG1sVGV4dChpbnB1dDogU3RyaW5nKTogU3RyaW5nIHsKICAgIHJldHVybiBpbnB1dAogICAgICAgIC5yZXBsYWNlKCImIiwgIiZhbXA7IikKICAgICAgICAucmVwbGFjZSgiPCIsICImbHQ7IikKICAgICAgICAucmVwbGFjZSgiPiIsICImZ3Q7IikKfQoKcHJpdmF0ZSBmdW4gYnVpbGRUb29sU2VtYW50aWNEZXNjcmlwdGlvbigKICAgIGNvbnRleHQ6IGFuZHJvaWQuY29udGVudC5Db250ZXh0LAogICAgdG9vbE5hbWU6IFN0cmluZywKICAgIHBhcmFtczogU3RyaW5nLAogICAgdXNlQnl0ZVN1bW1hcnk6IEJvb2xlYW4KKTogU3RyaW5nIHsKICAgIHZhbCB0b29sTGFiZWwgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy50b29sX2NhbGwpCiAgICBpZiAocGFyYW1zLmlzQmxhbmsoKSkgewogICAgICAgIHJldHVybiAiJHRvb2xMYWJlbDogJHRvb2xOYW1lIgogICAgfQogICAgdmFsIHBhcmFtc0xhYmVsID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudG9vbF9jYWxsX3BhcmFtZXRlcnMpCiAgICB2YWwgc3VtbWFyeSA9CiAgICAgICAgaWYgKHVzZUJ5dGVTdW1tYXJ5KSB7CiAgICAgICAgICAgIGJ1aWxkVG9vbFBhcmFtc1NpemVMYWJlbChjb250ZXh0LCBwYXJhbXMpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgYnVpbGRQYXJhbXNIZWFkUHJldmlldyhwYXJhbXMpCiAgICAgICAgfQogICAgcmV0dXJuICIkdG9vbExhYmVsOiAkdG9vbE5hbWUsICRwYXJhbXNMYWJlbDogJHN1bW1hcnkiCn0KCnByaXZhdGUgZnVuIGJ1aWxkVG9vbFBhcmFtc1NpemVMYWJlbChjb250ZXh0OiBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dCwgcGFyYW1zOiBTdHJpbmcpOiBTdHJpbmcgewogICAgcmV0dXJuIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnRvb2xfY2FsbF9wYXJhbV9ieXRlcywgY2FsY3VsYXRlVG9vbFBhcmFtc0J5dGVzKHBhcmFtcykpCn0KCnByaXZhdGUgZnVuIGNhbGN1bGF0ZVRvb2xQYXJhbXNCeXRlcyhwYXJhbXM6IFN0cmluZyk6IEludCB7CiAgICBpZiAocGFyYW1zLmlzQmxhbmsoKSkgcmV0dXJuIDAKCiAgICB2YWwgdGFyZ2V0VGV4dHMgPSBleHRyYWN0UGFyYW1QYXlsb2Fkc0ZvclNpemUocGFyYW1zKQogICAgcmV0dXJuIHRhcmdldFRleHRzLnN1bU9mIHsgaXQudG9CeXRlQXJyYXkoQ2hhcnNldHMuVVRGXzgpLnNpemUgfQp9Cgpwcml2YXRlIGZ1biBleHRyYWN0UGFyYW1QYXlsb2Fkc0ZvclNpemUocGFyYW1zOiBTdHJpbmcpOiBMaXN0PFN0cmluZz4gewogICAgdmFsIHRhZ1JlZ2V4ID0gIjwvP3BhcmFtXFxiW14+XSo+Ii50b1JlZ2V4KCkKICAgIHZhbCBwYXlsb2FkcyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICB2YXIgaW5zaWRlUGFyYW0gPSBmYWxzZQogICAgdmFyIHZhbHVlU3RhcnQgPSAtMQoKICAgIGZvciAobWF0Y2ggaW4gdGFnUmVnZXguZmluZEFsbChwYXJhbXMpKSB7CiAgICAgICAgdmFsIHRhZ1RleHQgPSBtYXRjaC52YWx1ZQogICAgICAgIGlmICh0YWdUZXh0LnN0YXJ0c1dpdGgoIjwvIikpIHsKICAgICAgICAgICAgaWYgKGluc2lkZVBhcmFtKSB7CiAgICAgICAgICAgICAgICB2YWwgcmF3VmFsdWUgPSBwYXJhbXMuc3Vic3RyaW5nKHZhbHVlU3RhcnQsIG1hdGNoLnJhbmdlLmZpcnN0KQogICAgICAgICAgICAgICAgcGF5bG9hZHMgKz0gbm9ybWFsaXplRXNjYXBlZFRleHRGb3JEaXNwbGF5KHJhd1ZhbHVlKQogICAgICAgICAgICAgICAgaW5zaWRlUGFyYW0gPSBmYWxzZQogICAgICAgICAgICAgICAgdmFsdWVTdGFydCA9IC0xCiAgICAgICAgICAgIH0KICAgICAgICAgICAgY29udGludWUKICAgICAgICB9CgogICAgICAgIGlmICghaW5zaWRlUGFyYW0pIHsKICAgICAgICAgICAgaW5zaWRlUGFyYW0gPSB0cnVlCiAgICAgICAgICAgIHZhbHVlU3RhcnQgPSBtYXRjaC5yYW5nZS5sYXN0ICsgMQogICAgICAgIH0KICAgIH0KCiAgICBpZiAoaW5zaWRlUGFyYW0gJiYgdmFsdWVTdGFydCBpbiAwLi5wYXJhbXMubGVuZ3RoKSB7CiAgICAgICAgcGF5bG9hZHMgKz0gbm9ybWFsaXplRXNjYXBlZFRleHRGb3JEaXNwbGF5KHBhcmFtcy5zdWJzdHJpbmcodmFsdWVTdGFydCkpCiAgICB9CgogICAgcmV0dXJuIGlmIChwYXlsb2Fkcy5pc05vdEVtcHR5KCkpIHsKICAgICAgICBwYXlsb2FkcwogICAgfSBlbHNlIHsKICAgICAgICBsaXN0T2Yobm9ybWFsaXplRXNjYXBlZFRleHRGb3JEaXNwbGF5KHBhcmFtcykpCiAgICB9Cn0KCnByaXZhdGUgZnVuIGJ1aWxkUGFyYW1zSGVhZFByZXZpZXcocGFyYW1zOiBTdHJpbmcsIG1heENoYXJzOiBJbnQgPSAxMjApOiBTdHJpbmcgewogICAgdmFsIGZpcnN0UGFyYW1SZWdleCA9ICI8cGFyYW0uKj8+KFtePF0qKTxcXC9wYXJhbT4iLnRvUmVnZXgoKQogICAgdmFsIG1hdGNoZWQgPSBmaXJzdFBhcmFtUmVnZXguZmluZChwYXJhbXMpPy5ncm91cFZhbHVlcz8uZ2V0KDEpPy50cmltKCkKICAgIHZhbCBjbGVhbmVkID0gKG1hdGNoZWQ/LnRha2VJZiB7IGl0LmlzTm90RW1wdHkoKSB9ID86IHBhcmFtcykKICAgICAgICAucmVwbGFjZSgiXG4iLCAiICIpCiAgICAgICAgLnRyaW0oKQogICAgcmV0dXJuIGlmIChjbGVhbmVkLmxlbmd0aCA8PSBtYXhDaGFycykgY2xlYW5lZCBlbHNlIGNsZWFuZWQudGFrZShtYXhDaGFycykgKyAiLi4uIgp9CgovKiog5bel5YW35Y+C5pWw6K+m5oOF5by556qXIOe+juingueahOW8ueeql+aYvuekuuWujOaVtOeahOW3peWFt+WPguaVsOWGheWuuSAqLwoKLyoqIOagueaNruW3peWFt+WQjeensOmAieaLqeWQiOmAgueahOWbvuaghyAqLwpwcml2YXRlIGZ1biBnZXRUb29sSWNvbih0b29sTmFtZTogU3RyaW5nKTogSW1hZ2VWZWN0b3IgewogICAgcmV0dXJuIHdoZW4gewogICAgICAgIC8vIOaWh+S7tuW3peWFtwogICAgICAgIHRvb2xOYW1lLmNvbnRhaW5zKCJmaWxlIikgfHwgdG9vbE5hbWUuY29udGFpbnMoInJlYWQiKSB8fCB0b29sTmFtZS5jb250YWlucygid3JpdGUiKSAtPgogICAgICAgICAgICAgICAgSWNvbnMuRGVmYXVsdC5GaWxlT3BlbgoKICAgICAgICAvLyDmkJzntKLlt6XlhbcKICAgICAgICB0b29sTmFtZS5jb250YWlucygic2VhcmNoIikgfHwgdG9vbE5hbWUuY29udGFpbnMoImZpbmQiKSB8fCB0b29sTmFtZS5jb250YWlucygicXVlcnkiKSAtPgogICAgICAgICAgICAgICAgSWNvbnMuRGVmYXVsdC5TZWFyY2gKCiAgICAgICAgLy8g5ZG95Luk6KGM5bel5YW3CiAgICAgICAgdG9vbE5hbWUuY29udGFpbnMoInRlcm1pbmFsIikgfHwKICAgICAgICAgICAgICAgIHRvb2xOYW1lLmNvbnRhaW5zKCJleGVjIikgfHwKICAgICAgICAgICAgICAgIHRvb2xOYW1lLmNvbnRhaW5zKCJjb21tYW5kIikgfHwKICAgICAgICAgICAgICAgIHRvb2xOYW1lLmNvbnRhaW5zKCJzaGVsbCIpIC0+IEljb25zLkRlZmF1bHQuVGVybWluYWwKCiAgICAgICAgLy8g5Luj56CB5bel5YW3CiAgICAgICAgdG9vbE5hbWUuY29udGFpbnMoImNvZGUiKSB8fCB0b29sTmFtZS5jb250YWlucygiZmZtcGVnIikgLT4gSWNvbnMuRGVmYXVsdC5Db2RlCgogICAgICAgIC8vIOe9kee7nOW3peWFtwogICAgICAgIHRvb2xOYW1lLmNvbnRhaW5zKCJodHRwIikgfHwgdG9vbE5hbWUuY29udGFpbnMoIndlYiIpIHx8IHRvb2xOYW1lLmNvbnRhaW5zKCJ2aXNpdCIpIC0+CiAgICAgICAgICAgICAgICBJY29ucy5EZWZhdWx0LldlYgoKICAgICAgICAvLyDpu5jorqTlm77moIcKICAgICAgICBlbHNlIC0+IEljb25zLkF1dG9NaXJyb3JlZC5GaWxsZWQuQXJyb3dGb3J3YXJkCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.chat.components.part
+
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListState
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
+import androidx.compose.material.icons.filled.Code
+import androidx.compose.material.icons.filled.FileOpen
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.Terminal
+import androidx.compose.material.icons.filled.Web
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.semantics.clearAndSetSemantics
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.bslsjdk.operit.R
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONArray
+import org.json.JSONObject
+
+/** 简洁样式的工具调用显示组件 使用箭头图标+工具名+参数的简洁行样式 */
+@Composable
+fun CompactToolDisplay(
+        toolName: String,
+        params: String = "",
+        textColor: Color,
+        modifier: Modifier = Modifier,
+        enableDialog: Boolean = true  // 新增参数：是否启用弹窗功能，默认启用
+) {
+    val context = LocalContext.current
+    val (displayToolName, displayParams) = remember(toolName, params) {
+        normalizeToolDisplayForStrictProxy(toolName, params)
+    }
+    // 弹窗状态
+    var showDetailDialog by remember { mutableStateOf(false) }
+    val hasParams = displayParams.isNotBlank()
+    val semanticDescription = remember(displayToolName, displayParams.length) {
+        buildToolSemanticDescription(
+            context = context,
+            toolName = displayToolName,
+            params = displayParams,
+            useByteSummary = false
+        )
+    }
+
+    // 显示详细内容的弹窗 - 仅在启用弹窗时显示
+    if (showDetailDialog && hasParams && enableDialog) {
+        ContentDetailDialog(
+            title = "$displayToolName ${context.getString(R.string.tool_call_parameters)}",
+            content = displayParams,
+            icon = getToolIcon(displayToolName),
+            onDismiss = { showDetailDialog = false }
+        )
+    }
+
+    val summary = remember(displayParams) { buildParamsHeadPreview(displayParams) }
+
+    CanvasToolSummaryRow(
+        toolName = displayToolName,
+        summary = summary,
+        semanticDescription = semanticDescription,
+        leadingIcon = getToolIcon(displayToolName),
+        titleColor = MaterialTheme.colorScheme.primary,
+        summaryColor = textColor.copy(alpha = 0.7f),
+        modifier = modifier,
+        onClick =
+            if (hasParams && enableDialog) {
+                { showDetailDialog = true }
+            } else {
+                null
+            },
+    )
+}
+
+/** 卡片式工具显示组件 用于显示较长内容的工具调用，支持流式渲染，美化版 */
+@Composable
+fun DetailedToolDisplay(
+        toolName: String,
+        params: String = "",
+        textColor: Color,
+        modifier: Modifier = Modifier,
+        enableDialog: Boolean = true  // 新增参数：是否启用弹窗功能，默认启用
+) {
+    val context = LocalContext.current
+    val (displayToolName, displayParams) = remember(toolName, params) {
+        normalizeToolDisplayForStrictProxy(toolName, params)
+    }
+    var showDetailDialog by remember { mutableStateOf(false) }
+    val hasParams = displayParams.isNotBlank()
+    val semanticDescription = remember(displayToolName, displayParams.length) {
+        buildToolSemanticDescription(
+            context = context,
+            toolName = displayToolName,
+            params = displayParams,
+            useByteSummary = true
+        )
+    }
+    val paramsSizeLabel = remember(displayParams) {
+        buildToolParamsSizeLabel(context, displayParams)
+    }
+
+    if (showDetailDialog && hasParams && enableDialog) {
+        ContentDetailDialog(
+            title = "$displayToolName ${context.getString(R.string.tool_call_parameters)}",
+            content = displayParams,
+            icon = getToolIcon(displayToolName),
+            onDismiss = { showDetailDialog = false }
+        )
+    }
+
+    CanvasToolSummaryRow(
+        toolName = displayToolName,
+        summary = paramsSizeLabel,
+        semanticDescription = semanticDescription,
+        leadingIcon = getToolIcon(displayToolName),
+        titleColor = MaterialTheme.colorScheme.primary,
+        summaryColor = textColor.copy(alpha = 0.7f),
+        modifier = modifier,
+        onClick =
+            if (hasParams && enableDialog) {
+                { showDetailDialog = true }
+            } else {
+                null
+            },
+    )
+}
+
+/** 显示带行号的代码内容 */
+@Composable
+internal fun CodeContentWithLineNumbers(
+    lines: List<String>,
+    textColor: Color,
+    listState: LazyListState,
+    modifier: Modifier = Modifier
+) {
+    LazyColumn(modifier = modifier, state = listState) {
+        itemsIndexed(items = lines, key = { index, _ -> index }) { index, line ->
+            Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.Top) {
+                // 行号列，使用固定宽度以保证代码对齐
+                Box(
+                        modifier = Modifier.width(40.dp).padding(end = 8.dp),
+                        contentAlignment = Alignment.CenterEnd
+                ) {
+                    Text(
+                            text = "${index + 1}",
+                            style =
+                                    MaterialTheme.typography.bodySmall.copy(
+                                            fontFamily = FontFamily.Monospace,
+                                            fontSize = 10.sp
+                                    ),
+                            color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.5f)
+                    )
+                }
+
+                // 代码内容列 - 移除水平滚动，改为自动换行
+                Box(modifier = Modifier.weight(1f)) {
+                    // 当行太长时，高亮解析会很卡，所以设置一个阈值
+                    val lineLengthLimit = 300
+                    val isXmlTagLine = remember(line) {
+                        val t = line.trimStart()
+                        if (!t.startsWith("<") || !t.contains(">")) {
+                            false
+                        } else {
+                            val second = t.getOrNull(1)
+                            val idx = if (second == '/') 2 else 1
+                            t.getOrNull(idx)?.isLetter() == true
+                        }
+                    }
+
+                    if (isXmlTagLine && line.length < lineLengthLimit) {
+                        // 仅对XML标签行做高亮；避免把 <param> 内的代码内容也当作XML渲染（会导致颜色异常）
+                        FormattedXmlText(
+                                text = line,
+                                textColor = textColor.copy(alpha = 0.8f),
+                                modifier = Modifier.padding(vertical = 2.dp)
+                        )
+                    } else {
+                        // 普通文本或过长的XML文本（不进行高亮）
+                        Text(
+                                text = line,
+                                style =
+                                        MaterialTheme.typography.bodySmall.copy(
+                                                fontFamily = FontFamily.Monospace,
+                                                fontSize = 11.sp
+                                        ),
+                                color = textColor.copy(alpha = 0.8f),
+                                softWrap = true
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** XML语法高亮文本 - 异步计算高亮以避免阻塞主线程 */
+@Composable
+internal fun FormattedXmlText(text: String, textColor: Color, modifier: Modifier = Modifier) {
+    // 使用状态保存格式化后的文本
+    var formattedText by remember(text) { mutableStateOf<AnnotatedString?>(null) }
+    
+    // 异步计算语法高亮
+    LaunchedEffect(text) {
+        val result = withContext(Dispatchers.Default) {
+            buildAnnotatedString {
+                val displayText = text.trimEnd()
+                val leadingWhitespace = displayText.takeWhile { it == ' ' || it == '\t' }
+                val contentText = displayText.drop(leadingWhitespace.length)
+
+                // 保留原始缩进，避免每行开头空格被清空
+                if (leadingWhitespace.isNotEmpty()) {
+                    append(leadingWhitespace)
+                }
+
+                // 简单的XML语法高亮
+                when {
+                    // XML标签
+                    contentText.startsWith("<") && contentText.contains(">") -> {
+                        var inTag = false
+                        var inAttr = false
+
+                        for (i in contentText.indices) {
+                            val char = contentText[i]
+                            when {
+                                char == '<' -> {
+                                    inTag = true
+                                    withStyle(SpanStyle(color = Color(0xFF9C27B0))) { // 紫色
+                                        append(char)
+                                    }
+                                }
+                                char == '>' -> {
+                                    inTag = false
+                                    withStyle(SpanStyle(color = Color(0xFF9C27B0))) { // 紫色
+                                        append(char)
+                                    }
+                                }
+                                char == '=' -> {
+                                    inAttr = true
+                                    withStyle(SpanStyle(color = Color(0xFF757575))) { // 灰色
+                                        append(char)
+                                    }
+                                }
+                                char == '"' -> {
+                                    if (inAttr) {
+                                        withStyle(SpanStyle(color = Color(0xFF4CAF50))) { // 绿色
+                                            append(char)
+                                        }
+                                    } else {
+                                        append(char)
+                                    }
+                                    inAttr = !inAttr
+                                }
+                                inTag && char.isLetterOrDigit() -> {
+                                    withStyle(SpanStyle(color = Color(0xFF2196F3))) { // 蓝色
+                                        append(char)
+                                    }
+                                }
+                                inAttr -> {
+                                    withStyle(SpanStyle(color = Color(0xFF4CAF50))) { // 绿色
+                                        append(char)
+                                    }
+                                }
+                                else -> {
+                                    append(char)
+                                }
+                            }
+                        }
+                    }
+                    // 普通文本
+                    else -> {
+                        append(contentText)
+                    }
+                }
+            }
+        }
+        formattedText = result
+    }
+
+    // 显示格式化后的文本，计算完成前显示原始文本
+    Text(
+            text = formattedText ?: AnnotatedString(text.trimEnd()),
+            style =
+                    MaterialTheme.typography.bodySmall.copy(
+                            fontFamily = FontFamily.Monospace,
+                            fontSize = 11.sp,
+                            color = textColor
+                    ),
+            softWrap = true,
+            modifier = modifier
+    )
+}
+
+private fun unescapeXmlForDisplay(input: String): String {
+    var result = input
+
+    if (result.startsWith("<![CDATA[") && result.endsWith("]]>") ) {
+        result = result.substring(9, result.length - 3)
+    }
+
+    if (result.endsWith("]]>") ) {
+        result = result.substring(0, result.length - 3)
+    }
+
+    if (result.startsWith("<![CDATA[") ) {
+        result = result.substring(9)
+    }
+
+    return result.replace("&lt;", "<")
+        .replace("&gt;", ">")
+        .replace("&amp;", "&")
+        .replace("&quot;", "\"")
+        .replace("&apos;", "'")
+}
+
+private fun normalizeIndentForDisplay(line: String): String {
+    if (line.isEmpty()) return line
+
+    var i = 0
+    var levels = 0
+    var spaces = 0
+    while (i < line.length) {
+        when (val ch = line[i]) {
+            '\t' -> {
+                if (spaces > 0) {
+                    levels++
+                    spaces = 0
+                }
+                levels++
+                i++
+            }
+            ' ' -> {
+                spaces++
+                if (spaces == 4) {
+                    levels++
+                    spaces = 0
+                }
+                i++
+            }
+            else -> break
+        }
+    }
+
+    if (spaces > 0) {
+        levels++
+    }
+
+    if (levels == 0) return line
+    return " ".repeat(levels) + line.substring(i)
+}
+
+private fun normalizeToolDisplayForStrictProxy(toolName: String, params: String): Pair<String, String> {
+    if (toolName != "package_proxy" && toolName != "proxy") {
+        return toolName to params
+    }
+
+    val toolNameRegex = "<param\\s+name=\"tool_name\">([\\s\\S]*?)<\\/param>".toRegex()
+    val paramsRegex = "<param\\s+name=\"params\">([\\s\\S]*?)<\\/param>".toRegex()
+
+    val rawTargetToolName = toolNameRegex.find(params)?.groupValues?.getOrNull(1)?.trim().orEmpty()
+    val rawProxiedParams = paramsRegex.find(params)?.groupValues?.getOrNull(1)?.trim().orEmpty()
+
+    val displayToolName = normalizeEscapedTextForDisplay(rawTargetToolName).ifBlank { toolName }
+    val displayParams = if (rawProxiedParams.isNotBlank()) {
+        parseProxyJsonParamsToXml(normalizeEscapedTextForDisplay(rawProxiedParams)) ?: params
+    } else {
+        params
+    }
+
+    return displayToolName to displayParams
+}
+
+private fun normalizeEscapedTextForDisplay(input: String): String {
+    val unescaped = unescapeXmlForDisplay(input).replace("\\\"", "\"")
+    val trimmed = unescaped.trim()
+
+    return if (
+        (trimmed.startsWith("\"{") && trimmed.endsWith("}\"")) ||
+        (trimmed.startsWith("\"[") && trimmed.endsWith("]\""))
+    ) {
+        trimmed.substring(1, trimmed.length - 1).replace("\\\"", "\"")
+    } else {
+        unescaped
+    }
+}
+
+private fun parseProxyJsonParamsToXml(input: String): String? {
+    val trimmed = input.trim()
+    if (trimmed.isEmpty()) {
+        return ""
+    }
+
+    return try {
+        when {
+            trimmed.startsWith("{") && trimmed.endsWith("}") -> {
+                val obj = JSONObject(trimmed)
+                val lines = mutableListOf<String>()
+                val keys = obj.keys()
+                while (keys.hasNext()) {
+                    val key = keys.next()
+                    val valueText = jsonValueToParamText(obj.opt(key))
+                    lines.add("<param name=\"${escapeXmlAttribute(key)}\">${escapeXmlText(valueText)}</param>")
+                }
+                lines.joinToString("\n")
+            }
+            trimmed.startsWith("[") && trimmed.endsWith("]") -> {
+                val array = JSONArray(trimmed)
+                val lines = mutableListOf<String>()
+                for (index in 0 until array.length()) {
+                    val valueText = jsonValueToParamText(array.opt(index))
+                    lines.add("<param name=\"$index\">${escapeXmlText(valueText)}</param>")
+                }
+                lines.joinToString("\n")
+            }
+            else -> null
+        }
+    } catch (_: Exception) {
+        null
+    }
+}
+
+private fun jsonValueToParamText(value: Any?): String {
+    return when (value) {
+        null, JSONObject.NULL -> "null"
+        is String -> value
+        else -> value.toString()
+    }
+}
+
+private fun escapeXmlAttribute(input: String): String {
+    return input
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace("\"", "&quot;")
+        .replace("'", "&apos;")
+}
+
+private fun escapeXmlText(input: String): String {
+    return input
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+}
+
+private fun buildToolSemanticDescription(
+    context: android.content.Context,
+    toolName: String,
+    params: String,
+    useByteSummary: Boolean
+): String {
+    val toolLabel = context.getString(R.string.tool_call)
+    if (params.isBlank()) {
+        return "$toolLabel: $toolName"
+    }
+    val paramsLabel = context.getString(R.string.tool_call_parameters)
+    val summary =
+        if (useByteSummary) {
+            buildToolParamsSizeLabel(context, params)
+        } else {
+            buildParamsHeadPreview(params)
+        }
+    return "$toolLabel: $toolName, $paramsLabel: $summary"
+}
+
+private fun buildToolParamsSizeLabel(context: android.content.Context, params: String): String {
+    return context.getString(R.string.tool_call_param_bytes, calculateToolParamsBytes(params))
+}
+
+private fun calculateToolParamsBytes(params: String): Int {
+    if (params.isBlank()) return 0
+
+    val targetTexts = extractParamPayloadsForSize(params)
+    return targetTexts.sumOf { it.toByteArray(Charsets.UTF_8).size }
+}
+
+private fun extractParamPayloadsForSize(params: String): List<String> {
+    val tagRegex = "</?param\\b[^>]*>".toRegex()
+    val payloads = mutableListOf<String>()
+    var insideParam = false
+    var valueStart = -1
+
+    for (match in tagRegex.findAll(params)) {
+        val tagText = match.value
+        if (tagText.startsWith("</")) {
+            if (insideParam) {
+                val rawValue = params.substring(valueStart, match.range.first)
+                payloads += normalizeEscapedTextForDisplay(rawValue)
+                insideParam = false
+                valueStart = -1
+            }
+            continue
+        }
+
+        if (!insideParam) {
+            insideParam = true
+            valueStart = match.range.last + 1
+        }
+    }
+
+    if (insideParam && valueStart in 0..params.length) {
+        payloads += normalizeEscapedTextForDisplay(params.substring(valueStart))
+    }
+
+    return if (payloads.isNotEmpty()) {
+        payloads
+    } else {
+        listOf(normalizeEscapedTextForDisplay(params))
+    }
+}
+
+private fun buildParamsHeadPreview(params: String, maxChars: Int = 120): String {
+    val firstParamRegex = "<param.*?>([^<]*)<\\/param>".toRegex()
+    val matched = firstParamRegex.find(params)?.groupValues?.get(1)?.trim()
+    val cleaned = (matched?.takeIf { it.isNotEmpty() } ?: params)
+        .replace("\n", " ")
+        .trim()
+    return if (cleaned.length <= maxChars) cleaned else cleaned.take(maxChars) + "..."
+}
+
+/** 工具参数详情弹窗 美观的弹窗显示完整的工具参数内容 */
+
+/** 根据工具名称选择合适的图标 */
+private fun getToolIcon(toolName: String): ImageVector {
+    return when {
+        // 文件工具
+        toolName.contains("file") || toolName.contains("read") || toolName.contains("write") ->
+                Icons.Default.FileOpen
+
+        // 搜索工具
+        toolName.contains("search") || toolName.contains("find") || toolName.contains("query") ->
+                Icons.Default.Search
+
+        // 命令行工具
+        toolName.contains("terminal") ||
+                toolName.contains("exec") ||
+                toolName.contains("command") ||
+                toolName.contains("shell") -> Icons.Default.Terminal
+
+        // 代码工具
+        toolName.contains("code") || toolName.contains("ffmpeg") -> Icons.Default.Code
+
+        // 网络工具
+        toolName.contains("http") || toolName.contains("web") || toolName.contains("visit") ->
+                Icons.Default.Web
+
+        // 默认图标
+        else -> Icons.AutoMirrored.Filled.ArrowForward
+    }
+}

@@ -1,1 +1,380 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGlicmFyeQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlCmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlCmltcG9ydCBqYXZhLnRpbWUuWm9uZUlkCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ2hhdE1lbW9yeVdpbmRvd1BsYW5uZXJUZXN0IHsKCiAgICBAVGVzdAogICAgZnVuIGBwbGFuIGtlZXBzIGVhY2ggbm9ybWFsIHVzZXIgdHVybiB3aXRoIGl0cyBhc3Npc3RhbnQgcmVzcG9uc2VgKCkgewogICAgICAgIHZhbCB3aW5kb3dzID0KICAgICAgICAgICAgcGxhbigKICAgICAgICAgICAgICAgIG1lc3NhZ2VzID0KICAgICAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoInVzZXIiLCAiZmlyc3QiLCAxKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiZmlyc3QgcmVwbHkiLCAyKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJzZWNvbmQiLCAzKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAic2Vjb25kIHJlcGx5IiwgNCksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoInVzZXIiLCAidGhpcmQiLCA1KSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAidGhpcmQgcmVwbHkiLCA2KSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJmb3VydGgiLCA3KSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiZm91cnRoIHJlcGx5IiwgOCksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoInVzZXIiLCAiZmlmdGgiLCA5KSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiZmlmdGggcmVwbHkiLCAxMCksCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIHdpbmRvd01lc3NhZ2VDb3VudCA9IDgKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKDgsIDIpLCB3aW5kb3dzLm1hcCB7IGl0LnNvdXJjZU1lc3NhZ2VDb3VudCB9KQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgImZpcnN0IiwKICAgICAgICAgICAgICAgICJmaXJzdCByZXBseSIsCiAgICAgICAgICAgICAgICAic2Vjb25kIiwKICAgICAgICAgICAgICAgICJzZWNvbmQgcmVwbHkiLAogICAgICAgICAgICAgICAgInRoaXJkIiwKICAgICAgICAgICAgICAgICJ0aGlyZCByZXBseSIsCiAgICAgICAgICAgICAgICAiZm91cnRoIiwKICAgICAgICAgICAgICAgICJmb3VydGggcmVwbHkiLAogICAgICAgICAgICApLAogICAgICAgICAgICB3aW5kb3dzWzBdLm1lc3NhZ2VzLm1hcCB7IGl0LmNvbnRlbnQgfQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJmaWZ0aCIsICJmaWZ0aCByZXBseSIpLCB3aW5kb3dzWzFdLm1lc3NhZ2VzLm1hcCB7IGl0LmNvbnRlbnQgfSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBwbGFuIGtlZXBzIGNvbnNlY3V0aXZlIGFzc2lzdGFudCByZXBsaWVzIHdpdGggdGhlaXIgdXNlciB0dXJuIGF0IGEgYm91bmRhcnlgKCkgewogICAgICAgIHZhbCB3aW5kb3dzID0KICAgICAgICAgICAgcGxhbigKICAgICAgICAgICAgICAgIG1lc3NhZ2VzID0KICAgICAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoInVzZXIiLCAiZmlyc3QiLCAxKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiZmlyc3QgcmVwbHkiLCAyKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJzZWNvbmQiLCAzKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAic2Vjb25kIHJlcGx5IiwgNCksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoInVzZXIiLCAiZ3JvdXAgcHJvbXB0IiwgNSksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoImFpIiwgImdyb3VwIHJlcGx5IG9uZSIsIDYpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJhaSIsICJncm91cCByZXBseSB0d28iLCA3KSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiZ3JvdXAgcmVwbHkgdGhyZWUiLCA4KSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJuZXh0IHByb21wdCIsIDkpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJhaSIsICJuZXh0IHJlcGx5IiwgMTApLAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICB3aW5kb3dNZXNzYWdlQ291bnQgPSA4CiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZig4LCAyKSwgd2luZG93cy5tYXAgeyBpdC5zb3VyY2VNZXNzYWdlQ291bnQgfSkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICJmaXJzdCIsCiAgICAgICAgICAgICAgICAiZmlyc3QgcmVwbHkiLAogICAgICAgICAgICAgICAgInNlY29uZCIsCiAgICAgICAgICAgICAgICAic2Vjb25kIHJlcGx5IiwKICAgICAgICAgICAgICAgICJncm91cCBwcm9tcHQiLAogICAgICAgICAgICAgICAgImdyb3VwIHJlcGx5IG9uZSIsCiAgICAgICAgICAgICAgICAiZ3JvdXAgcmVwbHkgdHdvIiwKICAgICAgICAgICAgICAgICJncm91cCByZXBseSB0aHJlZSIsCiAgICAgICAgICAgICksCiAgICAgICAgICAgIHdpbmRvd3MuZmlyc3QoKS5tZXNzYWdlcy5tYXAgeyBpdC5jb250ZW50IH0KICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcGxhbiBleGNsdWRlcyBzdW1tYXJ5IG1lc3NhZ2VzIGZyb20gZXZlcnkgbWVtb3J5IHdpbmRvd2AoKSB7CiAgICAgICAgdmFsIHBvc3RTdW1tYXJ5VHVybnMgPQogICAgICAgICAgICAoMUwuLjhMKS5mbGF0TWFwIHsgdHVybiAtPgogICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoInVzZXIiLCAiYWZ0ZXIgc3VtbWFyeSB1c2VyICR0dXJuIiwgdHVybiAqIDIgKyAxMCksCiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiYWZ0ZXIgc3VtbWFyeSByZXBseSAkdHVybiIsIHR1cm4gKiAyICsgMTEpLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgdmFsIHdpbmRvd3MgPQogICAgICAgICAgICBwbGFuKAogICAgICAgICAgICAgICAgbWVzc2FnZXMgPQogICAgICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJiZWZvcmUgc3VtbWFyeSB1c2VyIDEiLCAxKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiYmVmb3JlIHN1bW1hcnkgcmVwbHkgMSIsIDIpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJ1c2VyIiwgImJlZm9yZSBzdW1tYXJ5IHVzZXIgMiIsIDMpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJhaSIsICJiZWZvcmUgc3VtbWFyeSByZXBseSAyIiwgNCksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoInVzZXIiLCAiYmVmb3JlIHN1bW1hcnkgdXNlciAzIiwgNSksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoImFpIiwgImJlZm9yZSBzdW1tYXJ5IHJlcGx5IDMiLCA2KSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJiZWZvcmUgc3VtbWFyeSB1c2VyIDQiLCA3KSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiYmVmb3JlIHN1bW1hcnkgcmVwbHkgNCIsIDgpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJzdW1tYXJ5IiwgImVhcmxpZXIgY29udmVyc2F0aW9uIHN1bW1hcnkiLCA5KSwKICAgICAgICAgICAgICAgICAgICApICsgcG9zdFN1bW1hcnlUdXJucywKICAgICAgICAgICAgICAgIHdpbmRvd01lc3NhZ2VDb3VudCA9IDgKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMoMywgd2luZG93cy5zaXplKQogICAgICAgIGFzc2VydEVxdWFscyg4LCB3aW5kb3dzWzBdLnNvdXJjZU1lc3NhZ2VDb3VudCkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICJhZnRlciBzdW1tYXJ5IHVzZXIgMSIsCiAgICAgICAgICAgICAgICAiYWZ0ZXIgc3VtbWFyeSByZXBseSAxIiwKICAgICAgICAgICAgICAgICJhZnRlciBzdW1tYXJ5IHVzZXIgMiIsCiAgICAgICAgICAgICAgICAiYWZ0ZXIgc3VtbWFyeSByZXBseSAyIiwKICAgICAgICAgICAgICAgICJhZnRlciBzdW1tYXJ5IHVzZXIgMyIsCiAgICAgICAgICAgICAgICAiYWZ0ZXIgc3VtbWFyeSByZXBseSAzIiwKICAgICAgICAgICAgICAgICJhZnRlciBzdW1tYXJ5IHVzZXIgNCIsCiAgICAgICAgICAgICAgICAiYWZ0ZXIgc3VtbWFyeSByZXBseSA0IiwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgd2luZG93c1sxXS5tZXNzYWdlcy5tYXAgeyBpdC5jb250ZW50IH0KICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAiYWZ0ZXIgc3VtbWFyeSB1c2VyIDUiLAogICAgICAgICAgICAgICAgImFmdGVyIHN1bW1hcnkgcmVwbHkgNSIsCiAgICAgICAgICAgICAgICAiYWZ0ZXIgc3VtbWFyeSB1c2VyIDYiLAogICAgICAgICAgICAgICAgImFmdGVyIHN1bW1hcnkgcmVwbHkgNiIsCiAgICAgICAgICAgICAgICAiYWZ0ZXIgc3VtbWFyeSB1c2VyIDciLAogICAgICAgICAgICAgICAgImFmdGVyIHN1bW1hcnkgcmVwbHkgNyIsCiAgICAgICAgICAgICAgICAiYWZ0ZXIgc3VtbWFyeSB1c2VyIDgiLAogICAgICAgICAgICAgICAgImFmdGVyIHN1bW1hcnkgcmVwbHkgOCIsCiAgICAgICAgICAgICksCiAgICAgICAgICAgIHdpbmRvd3NbMl0ubWVzc2FnZXMubWFwIHsgaXQuY29udGVudCB9CiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscyg4LCB3aW5kb3dzWzFdLnNvdXJjZU1lc3NhZ2VDb3VudCkKICAgICAgICBhc3NlcnRFcXVhbHMoOCwgd2luZG93c1syXS5zb3VyY2VNZXNzYWdlQ291bnQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcGxhbiBkb2VzIG5vdCBjcmVhdGUgYSByZXF1ZXN0IGZvciBldmVyeSBzdW1tYXJ5YCgpIHsKICAgICAgICB2YWwgbWVzc2FnZXMgPQogICAgICAgICAgICBidWlsZExpc3QgewogICAgICAgICAgICAgICAgKDFMLi4xMkwpLmZvckVhY2ggeyB0dXJuIC0+CiAgICAgICAgICAgICAgICAgICAgYWRkKG1lc3NhZ2UoInVzZXIiLCAidXNlciAkdHVybiIsIHR1cm4gKiAzKSkKICAgICAgICAgICAgICAgICAgICBhZGQobWVzc2FnZSgiYWkiLCAiYXNzaXN0YW50ICR0dXJuIiwgdHVybiAqIDMgKyAxKSkKICAgICAgICAgICAgICAgICAgICBhZGQobWVzc2FnZSgic3VtbWFyeSIsICJzdW1tYXJ5ICR0dXJuIiwgdHVybiAqIDMgKyAyKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICB2YWwgd2luZG93cyA9IHBsYW4obWVzc2FnZXMsIDgpCgogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoOCwgOCwgOCksIHdpbmRvd3MubWFwIHsgaXQuc291cmNlTWVzc2FnZUNvdW50IH0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKDI0LCB3aW5kb3dzLnN1bU9mIHsgaXQuc291cmNlTWVzc2FnZUNvdW50IH0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ1c2VyIDUiLCB3aW5kb3dzWzFdLm1lc3NhZ2VzLmZpcnN0KCkuY29udGVudCkKICAgICAgICBhc3NlcnRFcXVhbHMoInVzZXIgOSIsIHdpbmRvd3NbMl0ubWVzc2FnZXMuZmlyc3QoKS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHBsYW4ga2VlcHMgYSBtdWx0aS10aG91c2FuZC1tZXNzYWdlIGNoYXQgYm91bmRlZCBkZXNwaXRlIHBlci10dXJuIHN1bW1hcmllc2AoKSB7CiAgICAgICAgdmFsIG1lc3NhZ2VzID0KICAgICAgICAgICAgYnVpbGRMaXN0IHsKICAgICAgICAgICAgICAgICgxTC4uMl8wMDBMKS5mb3JFYWNoIHsgdHVybiAtPgogICAgICAgICAgICAgICAgICAgIGFkZChtZXNzYWdlKCJ1c2VyIiwgInVzZXIgJHR1cm4iLCB0dXJuICogMykpCiAgICAgICAgICAgICAgICAgICAgYWRkKG1lc3NhZ2UoImFpIiwgImFzc2lzdGFudCAkdHVybiIsIHR1cm4gKiAzICsgMSkpCiAgICAgICAgICAgICAgICAgICAgYWRkKG1lc3NhZ2UoInN1bW1hcnkiLCAic3VtbWFyeSAkdHVybiIsIHR1cm4gKiAzICsgMikpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgdmFsIHdpbmRvd3MgPSBwbGFuKG1lc3NhZ2VzLCA0OCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDg0LCB3aW5kb3dzLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDRfMDAwLCB3aW5kb3dzLnN1bU9mIHsgaXQuc291cmNlTWVzc2FnZUNvdW50IH0pCiAgICAgICAgYXNzZXJ0VHJ1ZSh3aW5kb3dzLmFsbCB7IGl0LnNvdXJjZU1lc3NhZ2VDb3VudCBpbiAxLi40OCB9KQogICAgICAgIGFzc2VydEVxdWFscygidXNlciAyNSIsIHdpbmRvd3NbMV0ubWVzc2FnZXMuZmlyc3QoKS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHBsYW4gaWdub3JlcyBibGFuayBtZXNzYWdlcyBhbmQgYXNzaXN0YW50LW9ubHkgZnJhZ21lbnRzYCgpIHsKICAgICAgICB2YWwgd2luZG93cyA9CiAgICAgICAgICAgIHBsYW4oCiAgICAgICAgICAgICAgICBtZXNzYWdlcyA9CiAgICAgICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJhaSIsICJvcnBoYW4gcmVwbHkiLCAxKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICIiLCAyKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgic3VtbWFyeSIsICJzdW1tYXJ5IiwgMyksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoImFpIiwgImFub3RoZXIgb3JwaGFuIHJlcGx5IiwgNCksCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIHdpbmRvd01lc3NhZ2VDb3VudCA9IDE2CiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0VHJ1ZSh3aW5kb3dzLmlzRW1wdHkoKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBwbGFuIHJldGFpbnMgYXNzaXN0YW50IHNlbmRlciB1c2VkIGJ5IGltcG9ydGVkIHdlYiBjaGF0c2AoKSB7CiAgICAgICAgdmFsIHdpbmRvd3MgPQogICAgICAgICAgICBwbGFuKAogICAgICAgICAgICAgICAgbWVzc2FnZXMgPQogICAgICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJxdWVzdGlvbiIsIDEpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJhc3Npc3RhbnQiLCAicmVwbHkiLCAyKSwKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgd2luZG93TWVzc2FnZUNvdW50ID0gMTYKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgd2luZG93cy5zaXplKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoInF1ZXN0aW9uIiwgInJlcGx5IiksIHdpbmRvd3Muc2luZ2xlKCkubWVzc2FnZXMubWFwIHsgaXQuY29udGVudCB9KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHBsYW4gaWdub3JlcyBibGFuayBhbmQgbm9uYmxhbmsgc3VtbWFyeSBtZXNzYWdlc2AoKSB7CiAgICAgICAgdmFsIHdpbmRvd3MgPQogICAgICAgICAgICBwbGFuKAogICAgICAgICAgICAgICAgbWVzc2FnZXMgPQogICAgICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgic3VtbWFyeSIsICJ1c2VmdWwgc3VtbWFyeSIsIDEpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJzdW1tYXJ5IiwgIiIsIDIpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJ1c2VyIiwgInF1ZXN0aW9uIiwgMyksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoImFpIiwgInJlcGx5IiwgNCksCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIHdpbmRvd01lc3NhZ2VDb3VudCA9IDE2CiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBsaXN0T2YoInF1ZXN0aW9uIiwgInJlcGx5IiksCiAgICAgICAgICAgIHdpbmRvd3Muc2luZ2xlKCkubWVzc2FnZXMubWFwIHsgaXQuY29udGVudCB9CiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHBsYW4gY29uc3RyYWlucyBjYWxsZXIgd2luZG93IHNpemUgdG8gc3VwcG9ydGVkIGJvdW5kc2AoKSB7CiAgICAgICAgdmFsIG1lc3NhZ2VzID0KICAgICAgICAgICAgKDFMLi41MEwpLmZsYXRNYXAgeyB0dXJuIC0+CiAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJ1c2VyICR0dXJuIiwgdHVybiAqIDIpLAogICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoImFpIiwgImFzc2lzdGFudCAkdHVybiIsIHR1cm4gKiAyICsgMSksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgdmFsIHdpbmRvd3MgPSBwbGFuKG1lc3NhZ2VzLCBJbnQuTUFYX1ZBTFVFKQoKICAgICAgICBhc3NlcnRUcnVlKHdpbmRvd3MuYWxsIHsgaXQuc291cmNlTWVzc2FnZUNvdW50IDw9IENoYXRNZW1vcnlXaW5kb3dQbGFubmVyLk1BWF9XSU5ET1dfTUVTU0FHRV9DT1VOVCB9KQogICAgICAgIGFzc2VydEVxdWFscygxMDAsIHdpbmRvd3Muc3VtT2YgeyBpdC5zb3VyY2VNZXNzYWdlQ291bnQgfSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBwbGFuIHNwbGl0cyBhbiBvdmVyc2l6ZWQgZ3JvdXAgcmVwbHkgdHVybiB3aXRob3V0IGV4Y2VlZGluZyB0aGUgd2luZG93IGxpbWl0YCgpIHsKICAgICAgICB2YWwgbWVzc2FnZXMgPQogICAgICAgICAgICBidWlsZExpc3QgewogICAgICAgICAgICAgICAgYWRkKG1lc3NhZ2UoInVzZXIiLCAiZ3JvdXAgcHJvbXB0IiwgMSkpCiAgICAgICAgICAgICAgICAoMUwuLjIwTCkuZm9yRWFjaCB7IHJlcGx5IC0+CiAgICAgICAgICAgICAgICAgICAgYWRkKG1lc3NhZ2UoImFpIiwgImdyb3VwIHJlcGx5ICRyZXBseSIsIHJlcGx5ICsgMSkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgdmFsIHdpbmRvd3MgPSBwbGFuKG1lc3NhZ2VzLCA4KQoKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKDgsIDgsIDUpLCB3aW5kb3dzLm1hcCB7IGl0LnNvdXJjZU1lc3NhZ2VDb3VudCB9KQogICAgICAgIGFzc2VydFRydWUod2luZG93cy5hbGwgeyBpdC5zb3VyY2VNZXNzYWdlQ291bnQgPD0gOCB9KQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgKDFMLi4yMEwpLm1hcCB7ICJncm91cCByZXBseSAkaXQiIH0sCiAgICAgICAgICAgIHdpbmRvd3MuZmxhdE1hcCB7IHdpbmRvdyAtPgogICAgICAgICAgICAgICAgd2luZG93Lm1lc3NhZ2VzCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlciB7IGl0LnNlbmRlciA9PSAiYWkiIH0KICAgICAgICAgICAgICAgICAgICAubWFwIHsgaXQuY29udGVudCB9CiAgICAgICAgICAgIH0KICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJncm91cCBwcm9tcHQiLCB3aW5kb3dzWzFdLm1lc3NhZ2VzLmZpcnN0KCkuY29udGVudCkKICAgICAgICBhc3NlcnRFcXVhbHMoImdyb3VwIHByb21wdCIsIHdpbmRvd3NbMl0ubWVzc2FnZXMuZmlyc3QoKS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHBsYW4gcmVzZXJ2ZXMgc3BhY2UgZm9yIGFuIGFzc2lzdGFudCByZXBseSBhdCB0aGUgd2luZG93IGJvdW5kYXJ5YCgpIHsKICAgICAgICB2YWwgbWVzc2FnZXMgPQogICAgICAgICAgICAoMUwuLjI0TCkuZmxhdE1hcCB7IHR1cm4gLT4KICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJ1c2VyIiwgInVzZXIgJHR1cm4iLCB0dXJuICogMiksCiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiYXNzaXN0YW50ICR0dXJuIiwgdHVybiAqIDIgKyAxKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSArIGxpc3RPZigKICAgICAgICAgICAgICAgIG1lc3NhZ2UoInVzZXIiLCAiYm91bmRhcnkgdXNlciIsIDEwMCksCiAgICAgICAgICAgICAgICBtZXNzYWdlKCJhaSIsICJib3VuZGFyeSBhc3Npc3RhbnQiLCAxMDEpLAogICAgICAgICAgICApCgogICAgICAgIHZhbCB3aW5kb3dzID0gcGxhbihtZXNzYWdlcywgNDgpCgogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoNDgsIDIpLCB3aW5kb3dzLm1hcCB7IGl0LnNvdXJjZU1lc3NhZ2VDb3VudCB9KQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgbGlzdE9mKCJib3VuZGFyeSB1c2VyIiwgImJvdW5kYXJ5IGFzc2lzdGFudCIpLAogICAgICAgICAgICB3aW5kb3dzLmxhc3QoKS5tZXNzYWdlcy5tYXAgeyBpdC5jb250ZW50IH0KICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcGxhbiB3aXRoIGluY2x1c2l2ZSByYW5nZSBrZWVwcyBvbmx5IG1lc3NhZ2VzIGluc2lkZSB0aGUgcmFuZ2VgKCkgewogICAgICAgIHZhbCBzaGFuZ2hhaSA9IFpvbmVJZC5vZigiQXNpYS9TaGFuZ2hhaSIpCiAgICAgICAgdmFsIHJhbmdlID0KICAgICAgICAgICAgQ2hhdE1lbW9yeVJlYnVpbGRUaW1lU2NvcGUuaW5jbHVzaXZlRGF0ZXMoCiAgICAgICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgMywgMiksCiAgICAgICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgMywgMiksCiAgICAgICAgICAgICAgICBzaGFuZ2hhaQogICAgICAgICAgICApCiAgICAgICAgdmFsIHdpbmRvd3MgPQogICAgICAgICAgICBwbGFuKAogICAgICAgICAgICAgICAgbWVzc2FnZXMgPQogICAgICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJiZWZvcmUiLCByYW5nZS5zdGFydEluY2x1c2l2ZU1zIC0gMSksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoImFpIiwgImJlZm9yZSByZXBseSIsIHJhbmdlLnN0YXJ0SW5jbHVzaXZlTXMgLSAxKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJvbiBkYXkiLCByYW5nZS5zdGFydEluY2x1c2l2ZU1zKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAib24gZGF5IHJlcGx5IiwgcmFuZ2UuZW5kRXhjbHVzaXZlTXMgLSAxKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJhZnRlciIsIHJhbmdlLmVuZEV4Y2x1c2l2ZU1zKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgiYWkiLCAiYWZ0ZXIgcmVwbHkiLCByYW5nZS5lbmRFeGNsdXNpdmVNcyArIDEpLAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICB3aW5kb3dNZXNzYWdlQ291bnQgPSAxNiwKICAgICAgICAgICAgICAgIHRpbWVTY29wZSA9IHJhbmdlCiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigib24gZGF5IiwgIm9uIGRheSByZXBseSIpLCB3aW5kb3dzLnNpbmdsZSgpLm1lc3NhZ2VzLm1hcCB7IGl0LmNvbnRlbnQgfSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBwbGFuIHdpdGggaW5jbHVzaXZlIHJhbmdlIGV4Y2x1ZGVzIGFuIGFzc2lzdGFudCByZXBseSBhZnRlciB0aGUgZXhjbHVzaXZlIGVuZGAoKSB7CiAgICAgICAgdmFsIHNoYW5naGFpID0gWm9uZUlkLm9mKCJBc2lhL1NoYW5naGFpIikKICAgICAgICB2YWwgcmFuZ2UgPQogICAgICAgICAgICBDaGF0TWVtb3J5UmVidWlsZFRpbWVTY29wZS5pbmNsdXNpdmVEYXRlcygKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCAzLCAyKSwKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCAzLCAyKSwKICAgICAgICAgICAgICAgIHNoYW5naGFpCiAgICAgICAgICAgICkKICAgICAgICB2YWwgd2luZG93cyA9CiAgICAgICAgICAgIHBsYW4oCiAgICAgICAgICAgICAgICBtZXNzYWdlcyA9CiAgICAgICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJ1c2VyIiwgIm9uIGRheSIsIHJhbmdlLnN0YXJ0SW5jbHVzaXZlTXMpLAogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlKCJhaSIsICJsYXRlIHJlcGx5IiwgcmFuZ2UuZW5kRXhjbHVzaXZlTXMpLAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICB3aW5kb3dNZXNzYWdlQ291bnQgPSAxNiwKICAgICAgICAgICAgICAgIHRpbWVTY29wZSA9IHJhbmdlCiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigib24gZGF5IiksIHdpbmRvd3Muc2luZ2xlKCkubWVzc2FnZXMubWFwIHsgaXQuY29udGVudCB9KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHBsYW4gd2l0aCBpbmNsdXNpdmUgcmFuZ2UgaWdub3JlcyBhbiBhc3Npc3RhbnQgcmVwbHkgd2hvc2UgdXNlciB0dXJuIGlzIG91dHNpZGVgKCkgewogICAgICAgIHZhbCBzaGFuZ2hhaSA9IFpvbmVJZC5vZigiQXNpYS9TaGFuZ2hhaSIpCiAgICAgICAgdmFsIHJhbmdlID0KICAgICAgICAgICAgQ2hhdE1lbW9yeVJlYnVpbGRUaW1lU2NvcGUuaW5jbHVzaXZlRGF0ZXMoCiAgICAgICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgMywgMiksCiAgICAgICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgMywgMiksCiAgICAgICAgICAgICAgICBzaGFuZ2hhaQogICAgICAgICAgICApCiAgICAgICAgdmFsIHdpbmRvd3MgPQogICAgICAgICAgICBwbGFuKAogICAgICAgICAgICAgICAgbWVzc2FnZXMgPQogICAgICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSgidXNlciIsICJ5ZXN0ZXJkYXkiLCByYW5nZS5zdGFydEluY2x1c2l2ZU1zIC0gMSksCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UoImFpIiwgInRvZGF5IHJlcGx5IiwgcmFuZ2Uuc3RhcnRJbmNsdXNpdmVNcyksCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIHdpbmRvd01lc3NhZ2VDb3VudCA9IDE2LAogICAgICAgICAgICAgICAgdGltZVNjb3BlID0gcmFuZ2UKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRUcnVlKHdpbmRvd3MuaXNFbXB0eSgpKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBsYW4oCiAgICAgICAgbWVzc2FnZXM6IExpc3Q8Q2hhdE1lc3NhZ2U+LAogICAgICAgIHdpbmRvd01lc3NhZ2VDb3VudDogSW50LAogICAgICAgIHRpbWVTY29wZTogQ2hhdE1lbW9yeVJlYnVpbGRUaW1lU2NvcGUgPSBDaGF0TWVtb3J5UmVidWlsZFRpbWVTY29wZS5FbnRpcmVDaGF0CiAgICApOiBMaXN0PENoYXRNZW1vcnlXaW5kb3dQbGFubmVyLldpbmRvdz4gPQogICAgICAgIENoYXRNZW1vcnlXaW5kb3dQbGFubmVyLnBsYW4obWVzc2FnZXMsIHdpbmRvd01lc3NhZ2VDb3VudCwgdGltZVNjb3BlKQoKICAgIHByaXZhdGUgZnVuIG1lc3NhZ2Uoc2VuZGVyOiBTdHJpbmcsIGNvbnRlbnQ6IFN0cmluZywgdGltZXN0YW1wOiBMb25nKTogQ2hhdE1lc3NhZ2UgPQogICAgICAgIENoYXRNZXNzYWdlKHNlbmRlciA9IHNlbmRlciwgY29udGVudCA9IGNvbnRlbnQsIHRpbWVzdGFtcCA9IHRpbWVzdGFtcCkKfQo=
+package com.bslsjdk.operit.api.chat.library
+
+import com.bslsjdk.operit.data.model.ChatMessage
+import java.time.LocalDate
+import java.time.ZoneId
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMemoryWindowPlannerTest {
+
+    @Test
+    fun `plan keeps each normal user turn with its assistant response`() {
+        val windows =
+            plan(
+                messages =
+                    listOf(
+                        message("user", "first", 1),
+                        message("ai", "first reply", 2),
+                        message("user", "second", 3),
+                        message("ai", "second reply", 4),
+                        message("user", "third", 5),
+                        message("ai", "third reply", 6),
+                        message("user", "fourth", 7),
+                        message("ai", "fourth reply", 8),
+                        message("user", "fifth", 9),
+                        message("ai", "fifth reply", 10),
+                    ),
+                windowMessageCount = 8
+            )
+
+        assertEquals(listOf(8, 2), windows.map { it.sourceMessageCount })
+        assertEquals(
+            listOf(
+                "first",
+                "first reply",
+                "second",
+                "second reply",
+                "third",
+                "third reply",
+                "fourth",
+                "fourth reply",
+            ),
+            windows[0].messages.map { it.content }
+        )
+        assertEquals(listOf("fifth", "fifth reply"), windows[1].messages.map { it.content })
+    }
+
+    @Test
+    fun `plan keeps consecutive assistant replies with their user turn at a boundary`() {
+        val windows =
+            plan(
+                messages =
+                    listOf(
+                        message("user", "first", 1),
+                        message("ai", "first reply", 2),
+                        message("user", "second", 3),
+                        message("ai", "second reply", 4),
+                        message("user", "group prompt", 5),
+                        message("ai", "group reply one", 6),
+                        message("ai", "group reply two", 7),
+                        message("ai", "group reply three", 8),
+                        message("user", "next prompt", 9),
+                        message("ai", "next reply", 10),
+                    ),
+                windowMessageCount = 8
+            )
+
+        assertEquals(listOf(8, 2), windows.map { it.sourceMessageCount })
+        assertEquals(
+            listOf(
+                "first",
+                "first reply",
+                "second",
+                "second reply",
+                "group prompt",
+                "group reply one",
+                "group reply two",
+                "group reply three",
+            ),
+            windows.first().messages.map { it.content }
+        )
+    }
+
+    @Test
+    fun `plan excludes summary messages from every memory window`() {
+        val postSummaryTurns =
+            (1L..8L).flatMap { turn ->
+                listOf(
+                    message("user", "after summary user $turn", turn * 2 + 10),
+                    message("ai", "after summary reply $turn", turn * 2 + 11),
+                )
+            }
+        val windows =
+            plan(
+                messages =
+                    listOf(
+                        message("user", "before summary user 1", 1),
+                        message("ai", "before summary reply 1", 2),
+                        message("user", "before summary user 2", 3),
+                        message("ai", "before summary reply 2", 4),
+                        message("user", "before summary user 3", 5),
+                        message("ai", "before summary reply 3", 6),
+                        message("user", "before summary user 4", 7),
+                        message("ai", "before summary reply 4", 8),
+                        message("summary", "earlier conversation summary", 9),
+                    ) + postSummaryTurns,
+                windowMessageCount = 8
+            )
+
+        assertEquals(3, windows.size)
+        assertEquals(8, windows[0].sourceMessageCount)
+        assertEquals(
+            listOf(
+                "after summary user 1",
+                "after summary reply 1",
+                "after summary user 2",
+                "after summary reply 2",
+                "after summary user 3",
+                "after summary reply 3",
+                "after summary user 4",
+                "after summary reply 4",
+            ),
+            windows[1].messages.map { it.content }
+        )
+        assertEquals(
+            listOf(
+                "after summary user 5",
+                "after summary reply 5",
+                "after summary user 6",
+                "after summary reply 6",
+                "after summary user 7",
+                "after summary reply 7",
+                "after summary user 8",
+                "after summary reply 8",
+            ),
+            windows[2].messages.map { it.content }
+        )
+        assertEquals(8, windows[1].sourceMessageCount)
+        assertEquals(8, windows[2].sourceMessageCount)
+    }
+
+    @Test
+    fun `plan does not create a request for every summary`() {
+        val messages =
+            buildList {
+                (1L..12L).forEach { turn ->
+                    add(message("user", "user $turn", turn * 3))
+                    add(message("ai", "assistant $turn", turn * 3 + 1))
+                    add(message("summary", "summary $turn", turn * 3 + 2))
+                }
+            }
+
+        val windows = plan(messages, 8)
+
+        assertEquals(listOf(8, 8, 8), windows.map { it.sourceMessageCount })
+        assertEquals(24, windows.sumOf { it.sourceMessageCount })
+        assertEquals("user 5", windows[1].messages.first().content)
+        assertEquals("user 9", windows[2].messages.first().content)
+    }
+
+    @Test
+    fun `plan keeps a multi-thousand-message chat bounded despite per-turn summaries`() {
+        val messages =
+            buildList {
+                (1L..2_000L).forEach { turn ->
+                    add(message("user", "user $turn", turn * 3))
+                    add(message("ai", "assistant $turn", turn * 3 + 1))
+                    add(message("summary", "summary $turn", turn * 3 + 2))
+                }
+            }
+
+        val windows = plan(messages, 48)
+
+        assertEquals(84, windows.size)
+        assertEquals(4_000, windows.sumOf { it.sourceMessageCount })
+        assertTrue(windows.all { it.sourceMessageCount in 1..48 })
+        assertEquals("user 25", windows[1].messages.first().content)
+    }
+
+    @Test
+    fun `plan ignores blank messages and assistant-only fragments`() {
+        val windows =
+            plan(
+                messages =
+                    listOf(
+                        message("ai", "orphan reply", 1),
+                        message("user", "", 2),
+                        message("summary", "summary", 3),
+                        message("ai", "another orphan reply", 4),
+                    ),
+                windowMessageCount = 16
+            )
+
+        assertTrue(windows.isEmpty())
+    }
+
+    @Test
+    fun `plan retains assistant sender used by imported web chats`() {
+        val windows =
+            plan(
+                messages =
+                    listOf(
+                        message("user", "question", 1),
+                        message("assistant", "reply", 2),
+                    ),
+                windowMessageCount = 16
+            )
+
+        assertEquals(1, windows.size)
+        assertEquals(listOf("question", "reply"), windows.single().messages.map { it.content })
+    }
+
+    @Test
+    fun `plan ignores blank and nonblank summary messages`() {
+        val windows =
+            plan(
+                messages =
+                    listOf(
+                        message("summary", "useful summary", 1),
+                        message("summary", "", 2),
+                        message("user", "question", 3),
+                        message("ai", "reply", 4),
+                    ),
+                windowMessageCount = 16
+            )
+
+        assertEquals(
+            listOf("question", "reply"),
+            windows.single().messages.map { it.content }
+        )
+    }
+
+    @Test
+    fun `plan constrains caller window size to supported bounds`() {
+        val messages =
+            (1L..50L).flatMap { turn ->
+                listOf(
+                    message("user", "user $turn", turn * 2),
+                    message("ai", "assistant $turn", turn * 2 + 1),
+                )
+            }
+
+        val windows = plan(messages, Int.MAX_VALUE)
+
+        assertTrue(windows.all { it.sourceMessageCount <= ChatMemoryWindowPlanner.MAX_WINDOW_MESSAGE_COUNT })
+        assertEquals(100, windows.sumOf { it.sourceMessageCount })
+    }
+
+    @Test
+    fun `plan splits an oversized group reply turn without exceeding the window limit`() {
+        val messages =
+            buildList {
+                add(message("user", "group prompt", 1))
+                (1L..20L).forEach { reply ->
+                    add(message("ai", "group reply $reply", reply + 1))
+                }
+            }
+
+        val windows = plan(messages, 8)
+
+        assertEquals(listOf(8, 8, 5), windows.map { it.sourceMessageCount })
+        assertTrue(windows.all { it.sourceMessageCount <= 8 })
+        assertEquals(
+            (1L..20L).map { "group reply $it" },
+            windows.flatMap { window ->
+                window.messages
+                    .filter { it.sender == "ai" }
+                    .map { it.content }
+            }
+        )
+        assertEquals("group prompt", windows[1].messages.first().content)
+        assertEquals("group prompt", windows[2].messages.first().content)
+    }
+
+    @Test
+    fun `plan reserves space for an assistant reply at the window boundary`() {
+        val messages =
+            (1L..24L).flatMap { turn ->
+                listOf(
+                    message("user", "user $turn", turn * 2),
+                    message("ai", "assistant $turn", turn * 2 + 1),
+                )
+            } + listOf(
+                message("user", "boundary user", 100),
+                message("ai", "boundary assistant", 101),
+            )
+
+        val windows = plan(messages, 48)
+
+        assertEquals(listOf(48, 2), windows.map { it.sourceMessageCount })
+        assertEquals(
+            listOf("boundary user", "boundary assistant"),
+            windows.last().messages.map { it.content }
+        )
+    }
+
+    @Test
+    fun `plan with inclusive range keeps only messages inside the range`() {
+        val shanghai = ZoneId.of("Asia/Shanghai")
+        val range =
+            ChatMemoryRebuildTimeScope.inclusiveDates(
+                LocalDate.of(2026, 3, 2),
+                LocalDate.of(2026, 3, 2),
+                shanghai
+            )
+        val windows =
+            plan(
+                messages =
+                    listOf(
+                        message("user", "before", range.startInclusiveMs - 1),
+                        message("ai", "before reply", range.startInclusiveMs - 1),
+                        message("user", "on day", range.startInclusiveMs),
+                        message("ai", "on day reply", range.endExclusiveMs - 1),
+                        message("user", "after", range.endExclusiveMs),
+                        message("ai", "after reply", range.endExclusiveMs + 1),
+                    ),
+                windowMessageCount = 16,
+                timeScope = range
+            )
+
+        assertEquals(listOf("on day", "on day reply"), windows.single().messages.map { it.content })
+    }
+
+    @Test
+    fun `plan with inclusive range excludes an assistant reply after the exclusive end`() {
+        val shanghai = ZoneId.of("Asia/Shanghai")
+        val range =
+            ChatMemoryRebuildTimeScope.inclusiveDates(
+                LocalDate.of(2026, 3, 2),
+                LocalDate.of(2026, 3, 2),
+                shanghai
+            )
+        val windows =
+            plan(
+                messages =
+                    listOf(
+                        message("user", "on day", range.startInclusiveMs),
+                        message("ai", "late reply", range.endExclusiveMs),
+                    ),
+                windowMessageCount = 16,
+                timeScope = range
+            )
+
+        assertEquals(listOf("on day"), windows.single().messages.map { it.content })
+    }
+
+    @Test
+    fun `plan with inclusive range ignores an assistant reply whose user turn is outside`() {
+        val shanghai = ZoneId.of("Asia/Shanghai")
+        val range =
+            ChatMemoryRebuildTimeScope.inclusiveDates(
+                LocalDate.of(2026, 3, 2),
+                LocalDate.of(2026, 3, 2),
+                shanghai
+            )
+        val windows =
+            plan(
+                messages =
+                    listOf(
+                        message("user", "yesterday", range.startInclusiveMs - 1),
+                        message("ai", "today reply", range.startInclusiveMs),
+                    ),
+                windowMessageCount = 16,
+                timeScope = range
+            )
+
+        assertTrue(windows.isEmpty())
+    }
+
+    private fun plan(
+        messages: List<ChatMessage>,
+        windowMessageCount: Int,
+        timeScope: ChatMemoryRebuildTimeScope = ChatMemoryRebuildTimeScope.EntireChat
+    ): List<ChatMemoryWindowPlanner.Window> =
+        ChatMemoryWindowPlanner.plan(messages, windowMessageCount, timeScope)
+
+    private fun message(sender: String, content: String, timestamp: Long): ChatMessage =
+        ChatMessage(sender = sender, content = content, timestamp = timestamp)
+}

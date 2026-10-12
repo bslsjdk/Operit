@@ -1,1 +1,10 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5za2lsbAoKaW1wb3J0IGphdmEuaW8uRmlsZQoKZGF0YSBjbGFzcyBTa2lsbFBhY2thZ2UoCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgdmFsIGRlc2NyaXB0aW9uOiBTdHJpbmcsCiAgICB2YWwgZGlyZWN0b3J5OiBGaWxlLAogICAgdmFsIHNraWxsRmlsZTogRmlsZQopCg==
+package com.bslsjdk.operit.core.tools.skill
+
+import java.io.File
+
+data class SkillPackage(
+    val name: String,
+    val description: String,
+    val directory: File,
+    val skillFile: File
+)

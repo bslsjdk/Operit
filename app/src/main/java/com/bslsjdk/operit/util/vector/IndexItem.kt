@@ -1,1 +1,34 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC52ZWN0b3IKCmltcG9ydCBjb20uZ2l0aHViLmplbG1lcmsuaG5zd2xpYi5jb3JlLkl0ZW0KCi8qKgogKiBBIGdlbmVyaWMgd3JhcHBlciBmb3IgYW55IG9iamVjdCB0aGF0IG5lZWRzIHRvIGJlIHN0b3JlZCBpbiBhbiBITlNXIGluZGV4LgogKiBJdCBob2xkcyBhIHVuaXF1ZSBJRCwgYSB2ZWN0b3IgZW1iZWRkaW5nLCBhbmQgYSBnZW5lcmljIHJlZmVyZW5jZSB0byB0aGUgb3JpZ2luYWwgb2JqZWN0LgogKgogKiBAcGFyYW0gVCBUaGUgdHlwZSBvZiB0aGUgb2JqZWN0IGJlaW5nIGluZGV4ZWQuCiAqLwpkYXRhIGNsYXNzIEluZGV4SXRlbTxJZCA6IEFueSwgVD4oCiAgICBwcml2YXRlIHZhbCBpZDogSWQsCiAgICBwcml2YXRlIHZhbCB2ZWN0b3I6IEZsb2F0QXJyYXksCiAgICBwcml2YXRlIHZhbCB2ZXJzaW9uOiBMb25nID0gMEwsCiAgICB2YWwgdmFsdWU6IFQgLy8gR2VuZXJpYyByZWZlcmVuY2UgdG8gdGhlIG9yaWdpbmFsIG9iamVjdCAoZS5nLiwgTWVtb3J5IG9yIERvY3VtZW50Q2h1bmspCikgOiBJdGVtPElkLCBGbG9hdEFycmF5PiB7CgogICAgb3ZlcnJpZGUgZnVuIGlkKCk6IElkID0gaWQKICAgIG92ZXJyaWRlIGZ1biB2ZWN0b3IoKTogRmxvYXRBcnJheSA9IHZlY3RvcgogICAgb3ZlcnJpZGUgZnVuIGRpbWVuc2lvbnMoKTogSW50ID0gdmVjdG9yLnNpemUKICAgIG92ZXJyaWRlIGZ1biB2ZXJzaW9uKCk6IExvbmcgPSB2ZXJzaW9uCgogICAgb3ZlcnJpZGUgZnVuIGVxdWFscyhvdGhlcjogQW55Pyk6IEJvb2xlYW4gewogICAgICAgIGlmICh0aGlzID09PSBvdGhlcikgcmV0dXJuIHRydWUKICAgICAgICBpZiAoamF2YUNsYXNzICE9IG90aGVyPy5qYXZhQ2xhc3MpIHJldHVybiBmYWxzZQogICAgICAgIG90aGVyIGFzIEluZGV4SXRlbTwqLCAqPgogICAgICAgIGlmIChpZCAhPSBvdGhlci5pZCkgcmV0dXJuIGZhbHNlCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaGFzaENvZGUoKTogSW50IHsKICAgICAgICByZXR1cm4gaWQuaGFzaENvZGUoKQogICAgfQp9IAo=
+package com.bslsjdk.operit.util.vector
+
+import com.github.jelmerk.hnswlib.core.Item
+
+/**
+ * A generic wrapper for any object that needs to be stored in an HNSW index.
+ * It holds a unique ID, a vector embedding, and a generic reference to the original object.
+ *
+ * @param T The type of the object being indexed.
+ */
+data class IndexItem<Id : Any, T>(
+    private val id: Id,
+    private val vector: FloatArray,
+    private val version: Long = 0L,
+    val value: T // Generic reference to the original object (e.g., Memory or DocumentChunk)
+) : Item<Id, FloatArray> {
+
+    override fun id(): Id = id
+    override fun vector(): FloatArray = vector
+    override fun dimensions(): Int = vector.size
+    override fun version(): Long = version
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+        other as IndexItem<*, *>
+        if (id != other.id) return false
+        return true
+    }
+
+    override fun hashCode(): Int {
+        return id.hashCode()
+    }
+} 

@@ -1,1 +1,94 @@
-77u/J3VzZSBzdHJpY3QnOwoKY29uc3QgRmlsZSA9IEphdmEudHlwZSgnamF2YS5pby5GaWxlJyk7CgpmdW5jdGlvbiBlbnN1cmVEaXIocGF0aCkgewogIGNvbnN0IGRpciA9IG5ldyBGaWxlKFN0cmluZyhwYXRoKSk7CiAgaWYgKCFkaXIuZXhpc3RzKCkpIHsKICAgIGRpci5ta2RpcnMoKTsKICB9CiAgcmV0dXJuIGRpcjsKfQoKZnVuY3Rpb24gZmlsZVN0YXRlKHBhdGgpIHsKICBjb25zdCBmaWxlID0gbmV3IEZpbGUoU3RyaW5nKHBhdGgpKTsKICByZXR1cm4gewogICAgcGF0aDogU3RyaW5nKGZpbGUuZ2V0QWJzb2x1dGVQYXRoKCkpLAogICAgZXhpc3RzOiBmaWxlLmV4aXN0cygpLAogICAgbGVuZ3RoOiBmaWxlLmV4aXN0cygpID8gTnVtYmVyKGZpbGUubGVuZ3RoKCkpIDogMCwKICB9Owp9CgpmdW5jdGlvbiBzdW1tYXJpemUodmFsdWUpIHsKICBpZiAodmFsdWUgPT0gbnVsbCkgewogICAgcmV0dXJuIHsgdHlwZTogU3RyaW5nKHZhbHVlKSwgdmFsdWU6IHZhbHVlIH07CiAgfQogIGlmICh0eXBlb2YgdmFsdWUgPT09ICdzdHJpbmcnKSB7CiAgICBjb25zdCB0cmltbWVkID0gdmFsdWUudHJpbSgpOwogICAgbGV0IHBhcnNlZCA9IG51bGw7CiAgICBpZiAoKHRyaW1tZWQuc3RhcnRzV2l0aCgneycpICYmIHRyaW1tZWQuZW5kc1dpdGgoJ30nKSkgfHwgKHRyaW1tZWQuc3RhcnRzV2l0aCgnWycpICYmIHRyaW1tZWQuZW5kc1dpdGgoJ10nKSkpIHsKICAgICAgdHJ5IHsKICAgICAgICBwYXJzZWQgPSBKU09OLnBhcnNlKHRyaW1tZWQpOwogICAgICB9IGNhdGNoIChfaWdub3JlZCkgewogICAgICAgIHBhcnNlZCA9IG51bGw7CiAgICAgIH0KICAgIH0KICAgIHJldHVybiB7IHR5cGU6ICdzdHJpbmcnLCB0ZXh0OiB2YWx1ZSwgcGFyc2VkOiBwYXJzZWQgfTsKICB9CiAgcmV0dXJuIHsKICAgIHR5cGU6IHR5cGVvZiB2YWx1ZSwKICAgIGtleXM6IHR5cGVvZiB2YWx1ZSA9PT0gJ29iamVjdCcgPyBPYmplY3Qua2V5cyh2YWx1ZSkgOiBudWxsLAogICAgdmFsdWU6IHZhbHVlLAogIH07Cn0KCmFzeW5jIGZ1bmN0aW9uIGNhbGxUb29sKG5hbWUsIHBhcmFtcykgewogIGNvbnN0IHN0YXJ0ZWRBdCA9IERhdGUubm93KCk7CiAgdHJ5IHsKICAgIGNvbnN0IHZhbHVlID0gYXdhaXQgdG9vbENhbGwoJ2RlZmF1bHQnLCBuYW1lLCBwYXJhbXMgfHwge30pOwogICAgcmV0dXJuIHsKICAgICAgb2s6IHRydWUsCiAgICAgIGR1cmF0aW9uTXM6IERhdGUubm93KCkgLSBzdGFydGVkQXQsCiAgICAgIHZhbHVlOiBzdW1tYXJpemUodmFsdWUpLAogICAgfTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gewogICAgICBvazogZmFsc2UsCiAgICAgIGR1cmF0aW9uTXM6IERhdGUubm93KCkgLSBzdGFydGVkQXQsCiAgICAgIGVycm9yOiBTdHJpbmcoZSAmJiBlLm1lc3NhZ2UgPyBlLm1lc3NhZ2UgOiBlKSwKICAgICAgZGF0YTogZSAmJiB0eXBlb2YgZSA9PT0gJ29iamVjdCcgJiYgJ2RhdGEnIGluIGUgPyBzdW1tYXJpemUoZS5kYXRhKSA6IG51bGwsCiAgICB9OwogIH0KfQoKYXN5bmMgZnVuY3Rpb24gcnVuKCkgewogIGNvbnN0IHJvb3REaXIgPSAnL3NkY2FyZC9Eb3dubG9hZC9PcGVyaXQvanNfdGVzdF9mZm1wZWdfcHJvYmVfJyArIERhdGUubm93KCk7CiAgZW5zdXJlRGlyKHJvb3REaXIpOwoKICBjb25zdCBzaW1wbGVPdXRwdXQgPSByb290RGlyICsgJy9zaW1wbGVfY29sb3IubXA0JzsKICBjb25zdCBjb21wbGV4T3V0cHV0ID0gcm9vdERpciArICcvY29tcGxleF9maWx0ZXIubXA0JzsKCiAgY29uc3QgaW5mbyA9IGF3YWl0IGNhbGxUb29sKCdmZm1wZWdfaW5mbycsIHt9KTsKICBjb25zdCBzaW1wbGUgPSBhd2FpdCBjYWxsVG9vbCgnZmZtcGVnX2V4ZWN1dGUnLCB7CiAgICBjb21tYW5kOiAnLXkgLWYgbGF2ZmkgLWkgY29sb3I9Yz1ibHVlOnM9NjR4NjQ6ZD0wLjIgLWFuIC1jOnYgbXBlZzQgIicgKyBzaW1wbGVPdXRwdXQgKyAnIicsCiAgfSk7CiAgY29uc3QgY29tcGxleCA9IGF3YWl0IGNhbGxUb29sKCdmZm1wZWdfZXhlY3V0ZScsIHsKICAgIGNvbW1hbmQ6ICcteSAtZiBsYXZmaSAtaSBjb2xvcj1jPXJlZDpzPTY0eDY0OmQ9MC4yIC1maWx0ZXJfY29tcGxleCAiWzA6dl1zY2FsZT0zMjozMltvdXR2XSIgLW1hcCAiW291dHZdIiAtYW4gLWM6diBtcGVnNCAiJyArIGNvbXBsZXhPdXRwdXQgKyAnIicsCiAgfSk7CgogIGNvbnN0IHNpbXBsZUZpbGUgPSBmaWxlU3RhdGUoc2ltcGxlT3V0cHV0KTsKICBjb25zdCBjb21wbGV4RmlsZSA9IGZpbGVTdGF0ZShjb21wbGV4T3V0cHV0KTsKCiAgcmV0dXJuIHsKICAgIHN1Y2Nlc3M6IGluZm8ub2sgJiYgc2ltcGxlLm9rICYmIHNpbXBsZUZpbGUuZXhpc3RzICYmIHNpbXBsZUZpbGUubGVuZ3RoID4gMCAmJiBjb21wbGV4Lm9rICYmIGNvbXBsZXhGaWxlLmV4aXN0cyAmJiBjb21wbGV4RmlsZS5sZW5ndGggPiAwLAogICAgbW9kZTogJ2RlZmF1bHQtdG9vbC1mZm1wZWctcHJvYmUnLAogICAgcm9vdERpcjogcm9vdERpciwKICAgIGluZm86IGluZm8sCiAgICBzaW1wbGU6IHNpbXBsZSwKICAgIHNpbXBsZUZpbGU6IHNpbXBsZUZpbGUsCiAgICBjb21wbGV4OiBjb21wbGV4LAogICAgY29tcGxleEZpbGU6IGNvbXBsZXhGaWxlLAogIH07Cn0KCm1vZHVsZS5leHBvcnRzID0geyBydW4gfTsK
+﻿'use strict';
+
+const File = Java.type('java.io.File');
+
+function ensureDir(path) {
+  const dir = new File(String(path));
+  if (!dir.exists()) {
+    dir.mkdirs();
+  }
+  return dir;
+}
+
+function fileState(path) {
+  const file = new File(String(path));
+  return {
+    path: String(file.getAbsolutePath()),
+    exists: file.exists(),
+    length: file.exists() ? Number(file.length()) : 0,
+  };
+}
+
+function summarize(value) {
+  if (value == null) {
+    return { type: String(value), value: value };
+  }
+  if (typeof value === 'string') {
+    const trimmed = value.trim();
+    let parsed = null;
+    if ((trimmed.startsWith('{') && trimmed.endsWith('}')) || (trimmed.startsWith('[') && trimmed.endsWith(']'))) {
+      try {
+        parsed = JSON.parse(trimmed);
+      } catch (_ignored) {
+        parsed = null;
+      }
+    }
+    return { type: 'string', text: value, parsed: parsed };
+  }
+  return {
+    type: typeof value,
+    keys: typeof value === 'object' ? Object.keys(value) : null,
+    value: value,
+  };
+}
+
+async function callTool(name, params) {
+  const startedAt = Date.now();
+  try {
+    const value = await toolCall('default', name, params || {});
+    return {
+      ok: true,
+      durationMs: Date.now() - startedAt,
+      value: summarize(value),
+    };
+  } catch (e) {
+    return {
+      ok: false,
+      durationMs: Date.now() - startedAt,
+      error: String(e && e.message ? e.message : e),
+      data: e && typeof e === 'object' && 'data' in e ? summarize(e.data) : null,
+    };
+  }
+}
+
+async function run() {
+  const rootDir = '/sdcard/Download/Operit/js_test_ffmpeg_probe_' + Date.now();
+  ensureDir(rootDir);
+
+  const simpleOutput = rootDir + '/simple_color.mp4';
+  const complexOutput = rootDir + '/complex_filter.mp4';
+
+  const info = await callTool('ffmpeg_info', {});
+  const simple = await callTool('ffmpeg_execute', {
+    command: '-y -f lavfi -i color=c=blue:s=64x64:d=0.2 -an -c:v mpeg4 "' + simpleOutput + '"',
+  });
+  const complex = await callTool('ffmpeg_execute', {
+    command: '-y -f lavfi -i color=c=red:s=64x64:d=0.2 -filter_complex "[0:v]scale=32:32[outv]" -map "[outv]" -an -c:v mpeg4 "' + complexOutput + '"',
+  });
+
+  const simpleFile = fileState(simpleOutput);
+  const complexFile = fileState(complexOutput);
+
+  return {
+    success: info.ok && simple.ok && simpleFile.exists && simpleFile.length > 0 && complex.ok && complexFile.exists && complexFile.length > 0,
+    mode: 'default-tool-ffmpeg-probe',
+    rootDir: rootDir,
+    info: info,
+    simple: simple,
+    simpleFile: simpleFile,
+    complex: complex,
+    complexFile: complexFile,
+  };
+}
+
+module.exports = { run };

@@ -1,1 +1,178 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKCmludGVybmFsIGRhdGEgY2xhc3MgSnNCb290c3RyYXBNb2R1bGUoCiAgICB2YWwgZmlsZU5hbWU6IFN0cmluZywKICAgIHZhbCBzb3VyY2U6IFN0cmluZywKICAgIHZhbCBnbG9iYWxzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKQopCgppbnRlcm5hbCBmdW4gYnVpbGRSdW50aW1lQm9vdHN0cmFwTW9kdWxlcygKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBvcGVyaXREb3dubG9hZERpcjogU3RyaW5nLAogICAgb3Blcml0Q2xlYW5PbkV4aXREaXI6IFN0cmluZwopOiBMaXN0PEpzQm9vdHN0cmFwTW9kdWxlPiB7CiAgICByZXR1cm4gYnVpbGRJbml0UnVudGltZU1vZHVsZXMoCiAgICAgICAgb3Blcml0RG93bmxvYWREaXIgPSBvcGVyaXREb3dubG9hZERpciwKICAgICAgICBvcGVyaXRDbGVhbk9uRXhpdERpciA9IG9wZXJpdENsZWFuT25FeGl0RGlyCiAgICApICsgbGlzdE9mKAogICAgICAgIG1vZHVsZSgKICAgICAgICAgICAgZmlsZU5hbWUgPSAicXVpY2tqcy9pbml0L2V4ZWN1dGlvbi1ydW50aW1lLmpzIiwKICAgICAgICAgICAgc291cmNlID0gYnVpbGRFeGVjdXRpb25SdW50aW1lQnJpZGdlU2NyaXB0KCkKICAgICAgICApLAogICAgICAgIG1vZHVsZSgKICAgICAgICAgICAgZmlsZU5hbWUgPSAicXVpY2tqcy9pbml0L3Rvb2xwa2ctYnJpZGdlLmpzIiwKICAgICAgICAgICAgc291cmNlID0gYnVpbGRUb29sUGtnUmVnaXN0cmF0aW9uQnJpZGdlU2NyaXB0KCksCiAgICAgICAgICAgIGdsb2JhbHMgPSBsaXN0T2YoIlRvb2xQa2ciKQogICAgICAgICksCiAgICAgICAgbW9kdWxlKAogICAgICAgICAgICBmaWxlTmFtZSA9ICJxdWlja2pzL2luaXQvdG9vbHMuanMiLAogICAgICAgICAgICBzb3VyY2UgPSBnZXRKc1Rvb2xzRGVmaW5pdGlvbigpLAogICAgICAgICAgICBnbG9iYWxzID0gbGlzdE9mKCJUb29scyIpCiAgICAgICAgKSwKICAgICAgICBtb2R1bGUoCiAgICAgICAgICAgIGZpbGVOYW1lID0gInF1aWNranMvaW5pdC9jb21wb3NlLWRzbC1icmlkZ2UuanMiLAogICAgICAgICAgICBzb3VyY2UgPSBidWlsZENvbXBvc2VEc2xDb250ZXh0QnJpZGdlRGVmaW5pdGlvbigpLAogICAgICAgICAgICBnbG9iYWxzID0gbGlzdE9mKCJPcGVyaXRDb21wb3NlRHNsUnVudGltZSIpCiAgICAgICAgKSwKICAgICAgICBtb2R1bGUoCiAgICAgICAgICAgIGZpbGVOYW1lID0gInF1aWNranMvaW5pdC9qYXZhLWJyaWRnZS5qcyIsCiAgICAgICAgICAgIHNvdXJjZSA9IGJ1aWxkSmF2YUNsYXNzQnJpZGdlRGVmaW5pdGlvbigpLAogICAgICAgICAgICBnbG9iYWxzID0gbGlzdE9mKCJKYXZhIiwgIktvdGxpbiIpCiAgICAgICAgKSwKICAgICAgICBtb2R1bGUoCiAgICAgICAgICAgIGZpbGVOYW1lID0gInF1aWNranMvaW5pdC90aGlyZC1wYXJ0eS1saWJzLmpzIiwKICAgICAgICAgICAgc291cmNlID0gZ2V0SnNUaGlyZFBhcnR5TGlicmFyaWVzKCksCiAgICAgICAgICAgIGdsb2JhbHMgPSBsaXN0T2YoIl8iLCAiZGF0YVV0aWxzIiwgIkljb25zIikKICAgICAgICApLAogICAgICAgIG1vZHVsZSgKICAgICAgICAgICAgZmlsZU5hbWUgPSAiYXNzZXRzL2pzL0NyeXB0b0pTLmpzIiwKICAgICAgICAgICAgc291cmNlID0gbG9hZENyeXB0b0pzKGNvbnRleHQpLAogICAgICAgICAgICBnbG9iYWxzID0gbGlzdE9mKCJDcnlwdG9KUyIpCiAgICAgICAgKSwKICAgICAgICBtb2R1bGUoCiAgICAgICAgICAgIGZpbGVOYW1lID0gImFzc2V0cy9qcy9KaW1wLmpzIiwKICAgICAgICAgICAgc291cmNlID0gbG9hZEppbXBKcyhjb250ZXh0KSwKICAgICAgICAgICAgZ2xvYmFscyA9IGxpc3RPZigiSmltcCIpCiAgICAgICAgKSwKICAgICAgICBtb2R1bGUoCiAgICAgICAgICAgIGZpbGVOYW1lID0gImFzc2V0cy9qcy9VSU5vZGUuanMiLAogICAgICAgICAgICBzb3VyY2UgPSBsb2FkVUlOb2RlSnMoY29udGV4dCksCiAgICAgICAgICAgIGdsb2JhbHMgPSBsaXN0T2YoIlVJTm9kZSIpCiAgICAgICAgKSwKICAgICAgICBtb2R1bGUoCiAgICAgICAgICAgIGZpbGVOYW1lID0gImFzc2V0cy9qcy9BbmRyb2lkVXRpbHMuanMiLAogICAgICAgICAgICBzb3VyY2UgPSBsb2FkQW5kcm9pZFV0aWxzSnMoY29udGV4dCksCiAgICAgICAgICAgIGdsb2JhbHMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAiQW5kcm9pZCIsCiAgICAgICAgICAgICAgICAiSW50ZW50IiwKICAgICAgICAgICAgICAgICJQYWNrYWdlTWFuYWdlciIsCiAgICAgICAgICAgICAgICAiQ29udGVudFByb3ZpZGVyIiwKICAgICAgICAgICAgICAgICJTeXN0ZW1NYW5hZ2VyIiwKICAgICAgICAgICAgICAgICJEZXZpY2VDb250cm9sbGVyIgogICAgICAgICAgICApCiAgICAgICAgKSwKICAgICAgICBtb2R1bGUoCiAgICAgICAgICAgIGZpbGVOYW1lID0gImFzc2V0cy9qcy9Pa0h0dHAzLmpzIiwKICAgICAgICAgICAgc291cmNlID0gbG9hZE9rSHR0cDNKcyhjb250ZXh0KSwKICAgICAgICAgICAgZ2xvYmFscyA9IGxpc3RPZigKICAgICAgICAgICAgICAgICJPa0h0dHBDbGllbnRCdWlsZGVyIiwKICAgICAgICAgICAgICAgICJPa0h0dHBDbGllbnQiLAogICAgICAgICAgICAgICAgIlJlcXVlc3RCdWlsZGVyIiwKICAgICAgICAgICAgICAgICJPa0h0dHAiCiAgICAgICAgICAgICkKICAgICAgICApLAogICAgICAgIG1vZHVsZSgKICAgICAgICAgICAgZmlsZU5hbWUgPSAiYXNzZXRzL2pzL3Bha28uanMiLAogICAgICAgICAgICBzb3VyY2UgPSBsb2FkUGFrb0pzKGNvbnRleHQpLAogICAgICAgICAgICBnbG9iYWxzID0gbGlzdE9mKCJwYWtvIikKICAgICAgICApCiAgICApCn0KCnByaXZhdGUgZnVuIG1vZHVsZSgKICAgIGZpbGVOYW1lOiBTdHJpbmcsCiAgICBzb3VyY2U6IFN0cmluZywKICAgIGdsb2JhbHM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpCik6IEpzQm9vdHN0cmFwTW9kdWxlIHsKICAgIHJldHVybiBKc0Jvb3RzdHJhcE1vZHVsZSgKICAgICAgICBmaWxlTmFtZSA9IGZpbGVOYW1lLAogICAgICAgIHNvdXJjZSA9IHNvdXJjZS50cmltKCksCiAgICAgICAgZ2xvYmFscyA9IGdsb2JhbHMKICAgICkKfQoKaW50ZXJuYWwgZnVuIGdldEpzVGhpcmRQYXJ0eUxpYnJhcmllcygpOiBTdHJpbmcgewogICAgcmV0dXJuICIiIgogICAgICAgIHZhciBfID0gewogICAgICAgICAgICBpc0VtcHR5OiBmdW5jdGlvbih2YWx1ZSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHZhbHVlID09IG51bGwgfHwKICAgICAgICAgICAgICAgICAgICAoQXJyYXkuaXNBcnJheSh2YWx1ZSkgJiYgdmFsdWUubGVuZ3RoID09PSAwKSB8fAogICAgICAgICAgICAgICAgICAgICh0eXBlb2YgdmFsdWUgPT09ICdvYmplY3QnICYmICFBcnJheS5pc0FycmF5KHZhbHVlKSAmJiBPYmplY3Qua2V5cyh2YWx1ZSkubGVuZ3RoID09PSAwKTsKICAgICAgICAgICAgfSwKICAgICAgICAgICAgaXNTdHJpbmc6IGZ1bmN0aW9uKHZhbHVlKSB7IHJldHVybiB0eXBlb2YgdmFsdWUgPT09ICdzdHJpbmcnOyB9LAogICAgICAgICAgICBpc051bWJlcjogZnVuY3Rpb24odmFsdWUpIHsgcmV0dXJuIHR5cGVvZiB2YWx1ZSA9PT0gJ251bWJlcicgJiYgIWlzTmFOKHZhbHVlKTsgfSwKICAgICAgICAgICAgaXNCb29sZWFuOiBmdW5jdGlvbih2YWx1ZSkgeyByZXR1cm4gdHlwZW9mIHZhbHVlID09PSAnYm9vbGVhbic7IH0sCiAgICAgICAgICAgIGlzT2JqZWN0OiBmdW5jdGlvbih2YWx1ZSkgeyByZXR1cm4gdmFsdWUgIT0gbnVsbCAmJiB0eXBlb2YgdmFsdWUgPT09ICdvYmplY3QnICYmICFBcnJheS5pc0FycmF5KHZhbHVlKTsgfSwKICAgICAgICAgICAgaXNBcnJheTogZnVuY3Rpb24odmFsdWUpIHsgcmV0dXJuIEFycmF5LmlzQXJyYXkodmFsdWUpOyB9LAogICAgICAgICAgICBmb3JFYWNoOiBmdW5jdGlvbihjb2xsZWN0aW9uLCBpdGVyYXRlZSkgewogICAgICAgICAgICAgICAgaWYgKEFycmF5LmlzQXJyYXkoY29sbGVjdGlvbikpIHsKICAgICAgICAgICAgICAgICAgICBmb3IgKHZhciBpbmRleCA9IDA7IGluZGV4IDwgY29sbGVjdGlvbi5sZW5ndGg7IGluZGV4ICs9IDEpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaXRlcmF0ZWUoY29sbGVjdGlvbltpbmRleF0sIGluZGV4LCBjb2xsZWN0aW9uKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNvbGxlY3Rpb247CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoY29sbGVjdGlvbiAmJiB0eXBlb2YgY29sbGVjdGlvbiA9PT0gJ29iamVjdCcpIHsKICAgICAgICAgICAgICAgICAgICB2YXIga2V5cyA9IE9iamVjdC5rZXlzKGNvbGxlY3Rpb24pOwogICAgICAgICAgICAgICAgICAgIGZvciAodmFyIGtleUluZGV4ID0gMDsga2V5SW5kZXggPCBrZXlzLmxlbmd0aDsga2V5SW5kZXggKz0gMSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YXIga2V5ID0ga2V5c1trZXlJbmRleF07CiAgICAgICAgICAgICAgICAgICAgICAgIGl0ZXJhdGVlKGNvbGxlY3Rpb25ba2V5XSwga2V5LCBjb2xsZWN0aW9uKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4gY29sbGVjdGlvbjsKICAgICAgICAgICAgfSwKICAgICAgICAgICAgbWFwOiBmdW5jdGlvbihjb2xsZWN0aW9uLCBpdGVyYXRlZSkgewogICAgICAgICAgICAgICAgdmFyIG91dHB1dCA9IFtdOwogICAgICAgICAgICAgICAgXy5mb3JFYWNoKGNvbGxlY3Rpb24sIGZ1bmN0aW9uKGl0ZW0sIGtleSwgc291cmNlKSB7CiAgICAgICAgICAgICAgICAgICAgb3V0cHV0LnB1c2goaXRlcmF0ZWUoaXRlbSwga2V5LCBzb3VyY2UpKTsKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgcmV0dXJuIG91dHB1dDsKICAgICAgICAgICAgfQogICAgICAgIH07CgogICAgICAgIHZhciBkYXRhVXRpbHMgPSB7CiAgICAgICAgICAgIHBhcnNlSnNvbjogZnVuY3Rpb24odGV4dCkgewogICAgICAgICAgICAgICAgdHJ5IHsgcmV0dXJuIEpTT04ucGFyc2UodGV4dCk7IH0gY2F0Y2ggKF9lcnJvcikgeyByZXR1cm4gbnVsbDsgfQogICAgICAgICAgICB9LAogICAgICAgICAgICBzdHJpbmdpZnlKc29uOiBmdW5jdGlvbih2YWx1ZSkgewogICAgICAgICAgICAgICAgdHJ5IHsgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHZhbHVlKTsgfSBjYXRjaCAoX2Vycm9yKSB7IHJldHVybiAne30nOyB9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGZvcm1hdERhdGU6IGZ1bmN0aW9uKHZhbHVlKSB7CiAgICAgICAgICAgICAgICB2YXIgZGF0ZSA9IHZhbHVlID8gbmV3IERhdGUodmFsdWUpIDogbmV3IERhdGUoKTsKICAgICAgICAgICAgICAgIGZ1bmN0aW9uIHBhZChwYXJ0KSB7IHJldHVybiBTdHJpbmcocGFydCkucGFkU3RhcnQoMiwgJzAnKTsgfQogICAgICAgICAgICAgICAgcmV0dXJuIFsKICAgICAgICAgICAgICAgICAgICBkYXRlLmdldEZ1bGxZZWFyKCksCiAgICAgICAgICAgICAgICAgICAgcGFkKGRhdGUuZ2V0TW9udGgoKSArIDEpLAogICAgICAgICAgICAgICAgICAgIHBhZChkYXRlLmdldERhdGUoKSkKICAgICAgICAgICAgICAgIF0uam9pbignLScpICsgJyAnICsgWwogICAgICAgICAgICAgICAgICAgIHBhZChkYXRlLmdldEhvdXJzKCkpLAogICAgICAgICAgICAgICAgICAgIHBhZChkYXRlLmdldE1pbnV0ZXMoKSksCiAgICAgICAgICAgICAgICAgICAgcGFkKGRhdGUuZ2V0U2Vjb25kcygpKQogICAgICAgICAgICAgICAgXS5qb2luKCc6Jyk7CiAgICAgICAgICAgIH0KICAgICAgICB9OwoKICAgICAgICB2YXIgSWNvbnMgPQogICAgICAgICAgICB0eXBlb2YgUHJveHkgPT09ICdmdW5jdGlvbicKICAgICAgICAgICAgICAgID8gbmV3IFByb3h5KHt9LCB7CiAgICAgICAgICAgICAgICAgICAgZ2V0OiBmdW5jdGlvbihfdGFyZ2V0LCBrZXkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHR5cGVvZiBrZXkgIT09ICdzdHJpbmcnKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gJyc7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGtleTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgOiB7fTsKICAgICIiIi50cmltSW5kZW50KCkKfQo=
+package com.bslsjdk.operit.core.tools.javascript
+
+import android.content.Context
+
+internal data class JsBootstrapModule(
+    val fileName: String,
+    val source: String,
+    val globals: List<String> = emptyList()
+)
+
+internal fun buildRuntimeBootstrapModules(
+    context: Context,
+    operitDownloadDir: String,
+    operitCleanOnExitDir: String
+): List<JsBootstrapModule> {
+    return buildInitRuntimeModules(
+        operitDownloadDir = operitDownloadDir,
+        operitCleanOnExitDir = operitCleanOnExitDir
+    ) + listOf(
+        module(
+            fileName = "quickjs/init/execution-runtime.js",
+            source = buildExecutionRuntimeBridgeScript()
+        ),
+        module(
+            fileName = "quickjs/init/toolpkg-bridge.js",
+            source = buildToolPkgRegistrationBridgeScript(),
+            globals = listOf("ToolPkg")
+        ),
+        module(
+            fileName = "quickjs/init/tools.js",
+            source = getJsToolsDefinition(),
+            globals = listOf("Tools")
+        ),
+        module(
+            fileName = "quickjs/init/compose-dsl-bridge.js",
+            source = buildComposeDslContextBridgeDefinition(),
+            globals = listOf("OperitComposeDslRuntime")
+        ),
+        module(
+            fileName = "quickjs/init/java-bridge.js",
+            source = buildJavaClassBridgeDefinition(),
+            globals = listOf("Java", "Kotlin")
+        ),
+        module(
+            fileName = "quickjs/init/third-party-libs.js",
+            source = getJsThirdPartyLibraries(),
+            globals = listOf("_", "dataUtils", "Icons")
+        ),
+        module(
+            fileName = "assets/js/CryptoJS.js",
+            source = loadCryptoJs(context),
+            globals = listOf("CryptoJS")
+        ),
+        module(
+            fileName = "assets/js/Jimp.js",
+            source = loadJimpJs(context),
+            globals = listOf("Jimp")
+        ),
+        module(
+            fileName = "assets/js/UINode.js",
+            source = loadUINodeJs(context),
+            globals = listOf("UINode")
+        ),
+        module(
+            fileName = "assets/js/AndroidUtils.js",
+            source = loadAndroidUtilsJs(context),
+            globals = listOf(
+                "Android",
+                "Intent",
+                "PackageManager",
+                "ContentProvider",
+                "SystemManager",
+                "DeviceController"
+            )
+        ),
+        module(
+            fileName = "assets/js/OkHttp3.js",
+            source = loadOkHttp3Js(context),
+            globals = listOf(
+                "OkHttpClientBuilder",
+                "OkHttpClient",
+                "RequestBuilder",
+                "OkHttp"
+            )
+        ),
+        module(
+            fileName = "assets/js/pako.js",
+            source = loadPakoJs(context),
+            globals = listOf("pako")
+        )
+    )
+}
+
+private fun module(
+    fileName: String,
+    source: String,
+    globals: List<String> = emptyList()
+): JsBootstrapModule {
+    return JsBootstrapModule(
+        fileName = fileName,
+        source = source.trim(),
+        globals = globals
+    )
+}
+
+internal fun getJsThirdPartyLibraries(): String {
+    return """
+        var _ = {
+            isEmpty: function(value) {
+                return value == null ||
+                    (Array.isArray(value) && value.length === 0) ||
+                    (typeof value === 'object' && !Array.isArray(value) && Object.keys(value).length === 0);
+            },
+            isString: function(value) { return typeof value === 'string'; },
+            isNumber: function(value) { return typeof value === 'number' && !isNaN(value); },
+            isBoolean: function(value) { return typeof value === 'boolean'; },
+            isObject: function(value) { return value != null && typeof value === 'object' && !Array.isArray(value); },
+            isArray: function(value) { return Array.isArray(value); },
+            forEach: function(collection, iteratee) {
+                if (Array.isArray(collection)) {
+                    for (var index = 0; index < collection.length; index += 1) {
+                        iteratee(collection[index], index, collection);
+                    }
+                    return collection;
+                }
+                if (collection && typeof collection === 'object') {
+                    var keys = Object.keys(collection);
+                    for (var keyIndex = 0; keyIndex < keys.length; keyIndex += 1) {
+                        var key = keys[keyIndex];
+                        iteratee(collection[key], key, collection);
+                    }
+                }
+                return collection;
+            },
+            map: function(collection, iteratee) {
+                var output = [];
+                _.forEach(collection, function(item, key, source) {
+                    output.push(iteratee(item, key, source));
+                });
+                return output;
+            }
+        };
+
+        var dataUtils = {
+            parseJson: function(text) {
+                try { return JSON.parse(text); } catch (_error) { return null; }
+            },
+            stringifyJson: function(value) {
+                try { return JSON.stringify(value); } catch (_error) { return '{}'; }
+            },
+            formatDate: function(value) {
+                var date = value ? new Date(value) : new Date();
+                function pad(part) { return String(part).padStart(2, '0'); }
+                return [
+                    date.getFullYear(),
+                    pad(date.getMonth() + 1),
+                    pad(date.getDate())
+                ].join('-') + ' ' + [
+                    pad(date.getHours()),
+                    pad(date.getMinutes()),
+                    pad(date.getSeconds())
+                ].join(':');
+            }
+        };
+
+        var Icons =
+            typeof Proxy === 'function'
+                ? new Proxy({}, {
+                    get: function(_target, key) {
+                        if (typeof key !== 'string') {
+                            return '';
+                        }
+                        return key;
+                    }
+                })
+                : {};
+    """.trimIndent()
+}

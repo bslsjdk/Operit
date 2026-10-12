@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5mYngubW9kZWwKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsLkF2YXRhck1vZGVsCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsLkF2YXRhclR5cGUKaW1wb3J0IGphdmEuaW8uRmlsZQoKZGF0YSBjbGFzcyBGYnhBdmF0YXJNb2RlbCgKICAgIG92ZXJyaWRlIHZhbCBpZDogU3RyaW5nLAogICAgb3ZlcnJpZGUgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCBiYXNlUGF0aDogU3RyaW5nLAogICAgdmFsIG1vZGVsRmlsZTogU3RyaW5nLAogICAgdmFsIGRlZmF1bHRBbmltYXRpb246IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGRlY2xhcmVkQW5pbWF0aW9uTmFtZXM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpCikgOiBBdmF0YXJNb2RlbCB7CgogICAgb3ZlcnJpZGUgdmFsIHR5cGU6IEF2YXRhclR5cGUKICAgICAgICBnZXQoKSA9IEF2YXRhclR5cGUuRkJYCgogICAgdmFsIG1vZGVsUGF0aDogU3RyaW5nCiAgICAgICAgZ2V0KCkgPSBGaWxlKGJhc2VQYXRoLCBtb2RlbEZpbGUpLmFic29sdXRlUGF0aAoKICAgIHZhbCBub3JtYWxpemVkRGVjbGFyZWRBbmltYXRpb25OYW1lczogTGlzdDxTdHJpbmc+CiAgICAgICAgZ2V0KCkgPSBkZWNsYXJlZEFuaW1hdGlvbk5hbWVzCiAgICAgICAgICAgIC5tYXAgeyBpdC50cmltKCkgfQogICAgICAgICAgICAuZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgLmRpc3RpbmN0KCkKfQo=
+package com.bslsjdk.operit.core.avatar.impl.fbx.model
+
+import com.bslsjdk.operit.core.avatar.common.model.AvatarModel
+import com.bslsjdk.operit.core.avatar.common.model.AvatarType
+import java.io.File
+
+data class FbxAvatarModel(
+    override val id: String,
+    override val name: String,
+    val basePath: String,
+    val modelFile: String,
+    val defaultAnimation: String? = null,
+    val declaredAnimationNames: List<String> = emptyList()
+) : AvatarModel {
+
+    override val type: AvatarType
+        get() = AvatarType.FBX
+
+    val modelPath: String
+        get() = File(basePath, modelFile).absolutePath
+
+    val normalizedDeclaredAnimationNames: List<String>
+        get() = declaredAnimationNames
+            .map { it.trim() }
+            .filter { it.isNotBlank() }
+            .distinct()
+}

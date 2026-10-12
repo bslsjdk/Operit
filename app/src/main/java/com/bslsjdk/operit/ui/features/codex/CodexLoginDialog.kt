@@ -1,1 +1,154 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY29kZXgKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkLndpZGdldC5Ub2FzdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5BcnJhbmdlbWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLk9wZW5JbkJyb3dzZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkFsZXJ0RGlhbG9nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5CdXR0b24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkNpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHRCdXR0b24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTGF1bmNoZWRFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlckNvcm91dGluZVNjb3BlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkNvZGV4QXV0aFN0YXRlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5DYW5jZWxsYXRpb25FeGNlcHRpb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLk5vbkNhbmNlbGxhYmxlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuVGltZW91dENhbmNlbGxhdGlvbkV4Y2VwdGlvbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aFRpbWVvdXQKCkBDb21wb3NhYmxlCmZ1biBDb2RleExvZ2luRGlhbG9nKAogICAgb25EaXNtaXNzUmVxdWVzdDogKCkgLT4gVW5pdCwKICAgIG9uTG9naW5TdWNjZXNzOiAoKENvZGV4QXV0aFN0YXRlKSAtPiBVbml0KT8gPSBudWxsLAopIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIHZhbCBzY29wZSA9IHJlbWVtYmVyQ29yb3V0aW5lU2NvcGUoKQogICAgdmFsIGNvb3JkaW5hdG9yID0gcmVtZW1iZXIgeyBDb2RleE9BdXRoQ29vcmRpbmF0b3IoY29udGV4dCkgfQogICAgdmFyIHNlc3Npb24gYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZjxDb2RleE9BdXRoTG9naW5TZXNzaW9uPz4obnVsbCkgfQogICAgdmFyIGlzTGF1bmNoaW5nIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YodHJ1ZSkgfQogICAgdmFyIGlzQ29tcGxldGluZyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YXIgY2FuY2VsUmVxdWVzdGVkIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KCiAgICBMYXVuY2hlZEVmZmVjdChVbml0KSB7CiAgICAgICAgdmFyIGFjdGl2ZVNlc3Npb246IENvZGV4T0F1dGhMb2dpblNlc3Npb24/ID0gbnVsbAogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGFjdGl2ZVNlc3Npb24gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgeyBjb29yZGluYXRvci5zdGFydExvZ2luKCkgfQogICAgICAgICAgICBzZXNzaW9uID0gYWN0aXZlU2Vzc2lvbgogICAgICAgICAgICBjb250ZXh0LnN0YXJ0QWN0aXZpdHkoCiAgICAgICAgICAgICAgICBJbnRlbnQoSW50ZW50LkFDVElPTl9WSUVXLCBVcmkucGFyc2UoYWN0aXZlU2Vzc2lvbi5hdXRob3JpemF0aW9uVXJsKSkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgIGFkZEZsYWdzKEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLKQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKQogICAgICAgICAgICBpc0xhdW5jaGluZyA9IGZhbHNlCiAgICAgICAgICAgIHZhbCByZW1haW5pbmdNaWxsaXMgPSBhY3RpdmVTZXNzaW9uLmV4cGlyZXNBdCAtIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgIGlmIChyZW1haW5pbmdNaWxsaXMgPD0gMEwpIHsKICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiQ29kZXggT0F1dGggc2Vzc2lvbiBleHBpcmVkIGJlZm9yZSBicm93c2VyIGxhdW5jaCIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGNhbGxiYWNrVXJpID0gd2l0aFRpbWVvdXQocmVtYWluaW5nTWlsbGlzKSB7CiAgICAgICAgICAgICAgICBhY3RpdmVTZXNzaW9uLmNhbGxiYWNrU2VydmVyLmF3YWl0Q2FsbGJhY2soKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlzQ29tcGxldGluZyA9IHRydWUKICAgICAgICAgICAgdmFsIHN0YXRlID0gY29vcmRpbmF0b3IuY29tcGxldGVMb2dpbihhY3RpdmVTZXNzaW9uLCBjYWxsYmFja1VyaSkKICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoCiAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY29kZXhfbG9naW5fc3VjY2VzcyksCiAgICAgICAgICAgICAgICBUb2FzdC5MRU5HVEhfTE9ORywKICAgICAgICAgICAgKS5zaG93KCkKICAgICAgICAgICAgb25Mb2dpblN1Y2Nlc3M/Lmludm9rZShzdGF0ZSkKICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCgpCiAgICAgICAgfSBjYXRjaCAoZXJyb3I6IFRpbWVvdXRDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiQ29kZXggT0F1dGggbG9naW4gdGltZWQgb3V0IiwgZXJyb3IpCiAgICAgICAgICAgIHNob3dMb2dpbkZhaWx1cmUoY29udGV4dCwgZXJyb3IpCiAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QoKQogICAgICAgIH0gY2F0Y2ggKGVycm9yOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgdGhyb3cgZXJyb3IKICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGlmICghY2FuY2VsUmVxdWVzdGVkKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJDb2RleCBPQXV0aCBsb2dpbiBmYWlsZWQiLCBlcnJvcikKICAgICAgICAgICAgICAgIHNob3dMb2dpbkZhaWx1cmUoY29udGV4dCwgZXJyb3IpCiAgICAgICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0KCkKICAgICAgICAgICAgfQogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIGFjdGl2ZVNlc3Npb24/LmNhbGxiYWNrU2VydmVyPy5jbG9zZSgpCiAgICAgICAgICAgIHdpdGhDb250ZXh0KE5vbkNhbmNlbGxhYmxlKSB7CiAgICAgICAgICAgICAgICBzZXNzaW9uID0gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHZhbCBjYW5jZWxMb2dpbiA9IHsKICAgICAgICBjYW5jZWxSZXF1ZXN0ZWQgPSB0cnVlCiAgICAgICAgc2Vzc2lvbj8uY2FsbGJhY2tTZXJ2ZXI/LmNsb3NlKCkKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0KCkKICAgIH0KCiAgICBBbGVydERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gewogICAgICAgICAgICBpZiAoIWlzQ29tcGxldGluZykgY2FuY2VsTG9naW4oKQogICAgICAgIH0sCiAgICAgICAgdGl0bGUgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY29kZXhfbG9naW5fdGl0bGUpKSB9LAogICAgICAgIHRleHQgPSB7CiAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDE2LmRwKSwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHksCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcihtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMjQuZHApKQogICAgICAgICAgICAgICAgQ29sdW1uIHsKICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICBzdHJpbmdSZXNvdXJjZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0xhdW5jaGluZykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFIuc3RyaW5nLmNvZGV4X2xvZ2luX3N0YXJ0aW5nCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFIuc3RyaW5nLmNvZGV4X2xvZ2luX3dhaXRpbmcKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg0LmRwKSkKICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuT3BlbkluQnJvd3NlciwgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgY29uZmlybUJ1dHRvbiA9IHt9LAogICAgICAgIGRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IGNhbmNlbExvZ2luKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNhbmNlbF9hY3Rpb24pKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICkKfQoKcHJpdmF0ZSBmdW4gc2hvd0xvZ2luRmFpbHVyZShjb250ZXh0OiBDb250ZXh0LCBlcnJvcjogVGhyb3dhYmxlKSB7CiAgICBUb2FzdC5tYWtlVGV4dCgKICAgICAgICBjb250ZXh0LAogICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmNvZGV4X2xvZ2luX2ZhaWxlZCwgZXJyb3IubWVzc2FnZS5vckVtcHR5KCkpLAogICAgICAgIFRvYXN0LkxFTkdUSF9MT05HLAogICAgKS5zaG93KCkKfQoKcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkNvZGV4TG9naW5EaWFsb2ciCg==
+package com.bslsjdk.operit.ui.features.codex
+
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.widget.Toast
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.OpenInBrowser
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Icon
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.preferences.CodexAuthState
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.NonCancellable
+import kotlinx.coroutines.TimeoutCancellationException
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeout
+
+@Composable
+fun CodexLoginDialog(
+    onDismissRequest: () -> Unit,
+    onLoginSuccess: ((CodexAuthState) -> Unit)? = null,
+) {
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+    val coordinator = remember { CodexOAuthCoordinator(context) }
+    var session by remember { mutableStateOf<CodexOAuthLoginSession?>(null) }
+    var isLaunching by remember { mutableStateOf(true) }
+    var isCompleting by remember { mutableStateOf(false) }
+    var cancelRequested by remember { mutableStateOf(false) }
+
+    LaunchedEffect(Unit) {
+        var activeSession: CodexOAuthLoginSession? = null
+        try {
+            activeSession = withContext(Dispatchers.IO) { coordinator.startLogin() }
+            session = activeSession
+            context.startActivity(
+                Intent(Intent.ACTION_VIEW, Uri.parse(activeSession.authorizationUrl)).apply {
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                },
+            )
+            isLaunching = false
+            val remainingMillis = activeSession.expiresAt - System.currentTimeMillis()
+            if (remainingMillis <= 0L) {
+                throw IllegalStateException("Codex OAuth session expired before browser launch")
+            }
+            val callbackUri = withTimeout(remainingMillis) {
+                activeSession.callbackServer.awaitCallback()
+            }
+            isCompleting = true
+            val state = coordinator.completeLogin(activeSession, callbackUri)
+            Toast.makeText(
+                context,
+                context.getString(R.string.codex_login_success),
+                Toast.LENGTH_LONG,
+            ).show()
+            onLoginSuccess?.invoke(state)
+            onDismissRequest()
+        } catch (error: TimeoutCancellationException) {
+            AppLogger.e(TAG, "Codex OAuth login timed out", error)
+            showLoginFailure(context, error)
+            onDismissRequest()
+        } catch (error: CancellationException) {
+            throw error
+        } catch (error: Exception) {
+            if (!cancelRequested) {
+                AppLogger.e(TAG, "Codex OAuth login failed", error)
+                showLoginFailure(context, error)
+                onDismissRequest()
+            }
+        } finally {
+            activeSession?.callbackServer?.close()
+            withContext(NonCancellable) {
+                session = null
+            }
+        }
+    }
+
+    val cancelLogin = {
+        cancelRequested = true
+        session?.callbackServer?.close()
+        onDismissRequest()
+    }
+
+    AlertDialog(
+        onDismissRequest = {
+            if (!isCompleting) cancelLogin()
+        },
+        title = { Text(stringResource(R.string.codex_login_title)) },
+        text = {
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(16.dp),
+                verticalAlignment = Alignment.CenterVertically,
+            ) {
+                CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                Column {
+                    Text(
+                        stringResource(
+                            if (isLaunching) {
+                                R.string.codex_login_starting
+                            } else {
+                                R.string.codex_login_waiting
+                            },
+                        ),
+                    )
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Icon(Icons.Default.OpenInBrowser, contentDescription = null)
+                }
+            }
+        },
+        confirmButton = {},
+        dismissButton = {
+            TextButton(onClick = cancelLogin) {
+                Text(stringResource(R.string.cancel_action))
+            }
+        },
+    )
+}
+
+private fun showLoginFailure(context: Context, error: Throwable) {
+    Toast.makeText(
+        context,
+        context.getString(R.string.codex_login_failed, error.message.orEmpty()),
+        Toast.LENGTH_LONG,
+    ).show()
+}
+
+private const val TAG = "CodexLoginDialog"

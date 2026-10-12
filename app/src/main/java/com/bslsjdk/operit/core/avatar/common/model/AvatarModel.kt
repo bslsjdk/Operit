@@ -1,1 +1,16 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsCgovKioKICogVGhlIGJhc2UgaW50ZXJmYWNlIGZvciBhbnkgYXZhdGFyIGRhdGEgbW9kZWwuCiAqIEFsbCBzcGVjaWZpYyBhdmF0YXIgbW9kZWwgY29udHJhY3RzIHdpbGwgZXh0ZW5kIHRoaXMgaW50ZXJmYWNlLgogKi8KaW50ZXJmYWNlIEF2YXRhck1vZGVsIHsKICAgIC8qKiBBIHVuaXF1ZSBpZGVudGlmaWVyIGZvciB0aGUgYXZhdGFyLiAqLwogICAgdmFsIGlkOiBTdHJpbmcKCiAgICAvKiogVGhlIGRpc3BsYXkgbmFtZSBvZiB0aGUgYXZhdGFyLiAqLwogICAgdmFsIG5hbWU6IFN0cmluZwoKICAgIC8qKiBUaGUgdW5kZXJseWluZyByZW5kZXJpbmcgdGVjaG5vbG9neSB1c2VkIGJ5IHRoaXMgYXZhdGFyLiAqLwogICAgdmFsIHR5cGU6IEF2YXRhclR5cGUKfSA=
+package com.bslsjdk.operit.core.avatar.common.model
+
+/**
+ * The base interface for any avatar data model.
+ * All specific avatar model contracts will extend this interface.
+ */
+interface AvatarModel {
+    /** A unique identifier for the avatar. */
+    val id: String
+
+    /** The display name of the avatar. */
+    val name: String
+
+    /** The underlying rendering technology used by this avatar. */
+    val type: AvatarType
+} 

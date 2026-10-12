@@ -1,1 +1,155 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGVUaW1lCmltcG9ydCBqYXZhLnRpbWUuWm9uZUlkCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROdWxsCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgovKiog5pel5Y6G6IyD5Zu05Y+K5qG26L6555WM5rWL6K+V77yM6KaG55uWIERTVCDlkozljYrlvIDljLrpl7Tor63kuYnjgIIgKi8KY2xhc3MgVG9rZW5TdGF0c1RpbWVSYW5nZVRlc3QgewoKICAgIHByaXZhdGUgdmFsIHNoYW5naGFpID0gWm9uZUlkLm9mKCJBc2lhL1NoYW5naGFpIikKICAgIHByaXZhdGUgdmFsIG5ld1lvcmsgPSBab25lSWQub2YoIkFtZXJpY2EvTmV3X1lvcmsiKQoKICAgIHByaXZhdGUgZnVuIGxvY2FsTXMoZGF0ZVRpbWU6IFN0cmluZywgem9uZTogWm9uZUlkKTogTG9uZyA9CiAgICAgICAgTG9jYWxEYXRlVGltZS5wYXJzZShkYXRlVGltZSkuYXRab25lKHpvbmUpLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpCgogICAgcHJpdmF0ZSBmdW4gbG9jYWwoZXBvY2hNczogTG9uZywgem9uZTogWm9uZUlkKTogTG9jYWxEYXRlVGltZSA9CiAgICAgICAgTG9jYWxEYXRlVGltZS5vZkluc3RhbnQoamF2YS50aW1lLkluc3RhbnQub2ZFcG9jaE1pbGxpKGVwb2NoTXMpLCB6b25lKQoKICAgIC8vID09PT0g5pel5Y6G6IyD5Zu05LiO5qCh6aqMID09PT0KCiAgICBAVGVzdAogICAgZnVuIGBjdXN0b20gcmFuZ2UgcmVxdWlyZXMgZW5kIGFmdGVyIHN0YXJ0YCgpIHsKICAgICAgICB2YWwgcmFuZ2UgPSBUb2tlblN0YXRzVGltZVJhbmdlcy5jdXN0b21SYW5nZSgxMDAwTCwgMjAwMEwpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMDBMLCByYW5nZS5zdGFydE1zKQogICAgICAgIGFzc2VydEVxdWFscygyMDAwTCwgcmFuZ2UuZW5kTXMpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgVG9rZW5TdGF0c1RpbWVSYW5nZXMuY3VzdG9tUmFuZ2UoMjAwMEwsIDIwMDBMKQogICAgICAgICAgICB0aHJvdyBBc3NlcnRpb25FcnJvcigiZXhwZWN0ZWQgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uIikKICAgICAgICB9IGNhdGNoIChleHBlY3RlZDogSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIG9rCiAgICAgICAgfQogICAgfQoKICAgIC8vID09PT0g57KS5bqm6YCJ5oupID09PT0KCiAgICBAVGVzdAogICAgZnVuIGBncmFudWxhcml0eSBpcyBjaG9zZW4gYnkgcmFuZ2UgZHVyYXRpb25gKCkgewogICAgICAgIGZ1biBncmFudWxhcml0eU9mKGhvdXJzOiBMb25nKSA9CiAgICAgICAgICAgIFRva2VuU3RhdHNUaW1lUmFuZ2VzLmdyYW51bGFyaXR5Rm9yKFRva2VuU3RhdHNUaW1lUmFuZ2VzLmN1c3RvbVJhbmdlKDBMLCBob3VycyAqIFRva2VuU3RhdHNUaW1lUmFuZ2VzLkhPVVJfTVMpKQogICAgICAgIGFzc2VydEVxdWFscyhUb2tlblN0YXRzR3JhbnVsYXJpdHkuVEVOX01JTlVURVMsIGdyYW51bGFyaXR5T2YoNSkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRva2VuU3RhdHNHcmFudWxhcml0eS5URU5fTUlOVVRFUywgZ3JhbnVsYXJpdHlPZigxMikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRva2VuU3RhdHNHcmFudWxhcml0eS5IT1VSTFksIGdyYW51bGFyaXR5T2YoMTMpKQogICAgICAgIGFzc2VydEVxdWFscyhUb2tlblN0YXRzR3JhbnVsYXJpdHkuSE9VUkxZLCBncmFudWxhcml0eU9mKDI0KSkKICAgICAgICBhc3NlcnRFcXVhbHMoVG9rZW5TdGF0c0dyYW51bGFyaXR5LkhPVVJMWSwgZ3JhbnVsYXJpdHlPZig0OCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRva2VuU3RhdHNHcmFudWxhcml0eS5EQUlMWSwgZ3JhbnVsYXJpdHlPZig0OSkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRva2VuU3RhdHNHcmFudWxhcml0eS5EQUlMWSwgZ3JhbnVsYXJpdHlPZig3ICogMjQpKQogICAgICAgIGFzc2VydEVxdWFscyhUb2tlblN0YXRzR3JhbnVsYXJpdHkuREFJTFksIGdyYW51bGFyaXR5T2YoMzEgKiAyNCkpCiAgICB9CgogICAgLy8gPT09PSDmobblr7npvZDkuI7lvZLlsZ4gPT09PQoKICAgIEBUZXN0CiAgICBmdW4gYHRlbiBtaW51dGUgYnVja2V0cyBhbGlnbiB0byBsb2NhbCBjbG9jayBib3VuZGFyaWVzYCgpIHsKICAgICAgICB2YWwgcmFuZ2UgPSBUb2tlblN0YXRzVGltZVJhbmdlcy5jdXN0b21SYW5nZSgKICAgICAgICAgICAgbG9jYWxNcygiMjAyNi0wOC0wN1QxMzowNzowMCIsIHNoYW5naGFpKSwKICAgICAgICAgICAgbG9jYWxNcygiMjAyNi0wOC0wN1QxODowNzowMCIsIHNoYW5naGFpKSwKICAgICAgICApCiAgICAgICAgdmFsIHN0YXJ0cyA9IFRva2VuU3RhdHNUaW1lUmFuZ2VzLmJ1Y2tldFN0YXJ0cyhyYW5nZSwgVG9rZW5TdGF0c0dyYW51bGFyaXR5LlRFTl9NSU5VVEVTLCBzaGFuZ2hhaSkKICAgICAgICAvLyDpppbkuKrmobbovrnnlYzkuLrmnKzlnLAgMTM6MDDvvIjml6nkuo7ojIPlm7TotbfngrnvvIzlsZ7mraPluLjvvJrmobbmmK/ml6Xljoblr7npvZDnmoTvvIkKICAgICAgICBhc3NlcnRFcXVhbHMobG9jYWxNcygiMjAyNi0wOC0wN1QxMzowMDowMCIsIHNoYW5naGFpKSwgc3RhcnRzLmZpcnN0KCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMxLCBzdGFydHMuc2l6ZSkKICAgICAgICBhc3NlcnRUcnVlKHN0YXJ0cy56aXBXaXRoTmV4dCgpLmFsbCB7IChhLCBiKSAtPiBiIC0gYSA9PSBUb2tlblN0YXRzVGltZVJhbmdlcy5URU5fTUlOVVRFU19NUyB9KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGhvdXJseSBidWNrZXRzIGFjcm9zcyBzcHJpbmcgZm9yd2FyZCBza2lwIHRoZSBtaXNzaW5nIGhvdXJgKCkgewogICAgICAgIHZhbCByYW5nZSA9IFRva2VuU3RhdHNUaW1lUmFuZ2VzLmN1c3RvbVJhbmdlKAogICAgICAgICAgICBsb2NhbE1zKCIyMDI2LTAzLTA4VDAwOjAwOjAwIiwgbmV3WW9yayksCiAgICAgICAgICAgIGxvY2FsTXMoIjIwMjYtMDMtMDlUMDA6MDA6MDAiLCBuZXdZb3JrKSwKICAgICAgICApCiAgICAgICAgdmFsIHN0YXJ0cyA9IFRva2VuU3RhdHNUaW1lUmFuZ2VzLmJ1Y2tldFN0YXJ0cyhyYW5nZSwgVG9rZW5TdGF0c0dyYW51bGFyaXR5LkhPVVJMWSwgbmV3WW9yaykKICAgICAgICBhc3NlcnRFcXVhbHMoMjMsIHN0YXJ0cy5zaXplKQogICAgICAgIC8vIOWNleiwg+mAkuWinuS4lOayoeaciSAwMjowMCDmnKzlnLDlsI/ml7bnmoTmobYKICAgICAgICBhc3NlcnRUcnVlKHN0YXJ0cy56aXBXaXRoTmV4dCgpLmFsbCB7IChhLCBiKSAtPiBiID4gYSB9KQogICAgICAgIGFzc2VydFRydWUoc3RhcnRzLm5vbmUgeyBsb2NhbChpdCwgbmV3WW9yaykuaG91ciA9PSAyIH0pCiAgICAgICAgLy8g5LqL5Lu25b2S5bGe77yaMDE6MzAgRVNUIC0+IDAxOjAwIOahtu+8mzAzOjMwIEVEVCAtPiAwMzowMCDmobYKICAgICAgICB2YWwgZWFybHkgPSBsb2NhbE1zKCIyMDI2LTAzLTA4VDAxOjMwOjAwIiwgbmV3WW9yaykKICAgICAgICB2YWwgbGF0ZSA9IGxvY2FsTXMoIjIwMjYtMDMtMDhUMDM6MzA6MDAiLCBuZXdZb3JrKQogICAgICAgIHZhbCBlYXJseUluZGV4ID0gVG9rZW5TdGF0c1RpbWVSYW5nZXMuYnVja2V0SW5kZXhPZihlYXJseSwgc3RhcnRzLCBUb2tlblN0YXRzR3JhbnVsYXJpdHkuSE9VUkxZLCBuZXdZb3JrKSEhCiAgICAgICAgdmFsIGxhdGVJbmRleCA9IFRva2VuU3RhdHNUaW1lUmFuZ2VzLmJ1Y2tldEluZGV4T2YobGF0ZSwgc3RhcnRzLCBUb2tlblN0YXRzR3JhbnVsYXJpdHkuSE9VUkxZLCBuZXdZb3JrKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxvY2FsTXMoIjIwMjYtMDMtMDhUMDE6MDA6MDAiLCBuZXdZb3JrKSwgc3RhcnRzW2Vhcmx5SW5kZXhdKQogICAgICAgIGFzc2VydEVxdWFscyhsb2NhbE1zKCIyMDI2LTAzLTA4VDAzOjAwOjAwIiwgbmV3WW9yayksIHN0YXJ0c1tsYXRlSW5kZXhdKQogICAgICAgIC8vIDAyOjAwIOS4jeWtmOWcqO+8mjAzOjAwIOahtue0p+i3n+WcqCAwMTowMCDmobbkuYvlkI7vvIjml6DnqbrmtJ7vvIkKICAgICAgICBhc3NlcnRFcXVhbHMoZWFybHlJbmRleCArIDEsIGxhdGVJbmRleCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBob3VybHkgYnVja2V0cyBhY3Jvc3MgZmFsbCBiYWNrIHByb2R1Y2UgYm90aCByZXBlYXRlZCBob3VyIGJ1Y2tldHNgKCkgewogICAgICAgIHZhbCByYW5nZSA9IFRva2VuU3RhdHNUaW1lUmFuZ2VzLmN1c3RvbVJhbmdlKAogICAgICAgICAgICBsb2NhbE1zKCIyMDI2LTExLTAxVDAwOjAwOjAwIiwgbmV3WW9yayksCiAgICAgICAgICAgIGxvY2FsTXMoIjIwMjYtMTEtMDJUMDA6MDA6MDAiLCBuZXdZb3JrKSwKICAgICAgICApCiAgICAgICAgdmFsIHN0YXJ0cyA9IFRva2VuU3RhdHNUaW1lUmFuZ2VzLmJ1Y2tldFN0YXJ0cyhyYW5nZSwgVG9rZW5TdGF0c0dyYW51bGFyaXR5LkhPVVJMWSwgbmV3WW9yaykKICAgICAgICBhc3NlcnRFcXVhbHMoMjUsIHN0YXJ0cy5zaXplKQogICAgICAgIGFzc2VydFRydWUoc3RhcnRzLnppcFdpdGhOZXh0KCkuYWxsIHsgKGEsIGIpIC0+IGIgPiBhIH0pCiAgICAgICAgLy8g6YeN5aSN55qE5pys5ZywIDAxOjAwIOWHuueOsOS4pOasoe+8mjAxOjAwIEVEVCDkuI4gMDE6MDAgRVNU77yI5LiN5ZCMIGVwb2No77yJCiAgICAgICAgdmFsIGhvdXJPbmVCdWNrZXRzID0gc3RhcnRzLmZpbHRlciB7IGxvY2FsKGl0LCBuZXdZb3JrKS5ob3VyID09IDEgfQogICAgICAgIGFzc2VydEVxdWFscygyLCBob3VyT25lQnVja2V0cy5zaXplKQogICAgICAgIHZhbCBmaXJzdCA9IGxvY2FsTXMoIjIwMjYtMTEtMDFUMDE6MzA6MDAiLCBuZXdZb3JrKSAvLyDnrKzkuIDmrKEgMDE6MzDvvIhFRFTvvIkKICAgICAgICAvLyDnrKzkuozmrKEgMDE6MzAg5pivIEVTVO+8iGVwb2NoIOWkmiAxIOWwj+aXtu+8iQogICAgICAgIHZhbCBzZWNvbmRFcG9jaCA9IGZpcnN0ICsgVG9rZW5TdGF0c1RpbWVSYW5nZXMuSE9VUl9NUwogICAgICAgIHZhbCBmaXJzdEluZGV4ID0gVG9rZW5TdGF0c1RpbWVSYW5nZXMuYnVja2V0SW5kZXhPZihmaXJzdCwgc3RhcnRzLCBUb2tlblN0YXRzR3JhbnVsYXJpdHkuSE9VUkxZLCBuZXdZb3JrKSEhCiAgICAgICAgdmFsIHNlY29uZEluZGV4ID0gVG9rZW5TdGF0c1RpbWVSYW5nZXMuYnVja2V0SW5kZXhPZihzZWNvbmRFcG9jaCwgc3RhcnRzLCBUb2tlblN0YXRzR3JhbnVsYXJpdHkuSE9VUkxZLCBuZXdZb3JrKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKGhvdXJPbmVCdWNrZXRzWzBdLCBzdGFydHNbZmlyc3RJbmRleF0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKGhvdXJPbmVCdWNrZXRzWzFdLCBzdGFydHNbc2Vjb25kSW5kZXhdKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGRhaWx5IGJ1Y2tldHMgYWNyb3NzIGRzdCBoYXZlIGV4YWN0IDIzIGFuZCAyNCBob3VyIHNwYW5zYCgpIHsKICAgICAgICB2YWwgcmFuZ2UgPSBUb2tlblN0YXRzVGltZVJhbmdlcy5jdXN0b21SYW5nZSgKICAgICAgICAgICAgbG9jYWxNcygiMjAyNi0wMy0wOFQwMDowMDowMCIsIG5ld1lvcmspLAogICAgICAgICAgICBsb2NhbE1zKCIyMDI2LTAzLTEwVDAwOjAwOjAwIiwgbmV3WW9yayksCiAgICAgICAgKQogICAgICAgIHZhbCBzdGFydHMgPSBUb2tlblN0YXRzVGltZVJhbmdlcy5idWNrZXRTdGFydHMocmFuZ2UsIFRva2VuU3RhdHNHcmFudWxhcml0eS5EQUlMWSwgbmV3WW9yaykKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgc3RhcnRzLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxvY2FsTXMoIjIwMjYtMDMtMDhUMDA6MDA6MDAiLCBuZXdZb3JrKSwgc3RhcnRzWzBdKQogICAgICAgIGFzc2VydEVxdWFscyhsb2NhbE1zKCIyMDI2LTAzLTA5VDAwOjAwOjAwIiwgbmV3WW9yayksIHN0YXJ0c1sxXSkKICAgICAgICBhc3NlcnRFcXVhbHMoMjNMICogVG9rZW5TdGF0c1RpbWVSYW5nZXMuSE9VUl9NUywKICAgICAgICAgICAgVG9rZW5TdGF0c1RpbWVSYW5nZXMuYnVja2V0RW5kTXMoc3RhcnRzLCAwLCBUb2tlblN0YXRzR3JhbnVsYXJpdHkuREFJTFksIG5ld1lvcmspIC0gc3RhcnRzWzBdKQogICAgICAgIGFzc2VydEVxdWFscygyNEwgKiBUb2tlblN0YXRzVGltZVJhbmdlcy5IT1VSX01TLAogICAgICAgICAgICBUb2tlblN0YXRzVGltZVJhbmdlcy5idWNrZXRFbmRNcyhzdGFydHMsIDEsIFRva2VuU3RhdHNHcmFudWxhcml0eS5EQUlMWSwgbmV3WW9yaykgLSBzdGFydHNbMV0pCiAgICAgICAgLy8gMjM6MzAgRURUIOWxnuS6jiAwMy0wOCDnmoTmobYKICAgICAgICB2YWwgbGF0ZUV2ZW50ID0gbG9jYWxNcygiMjAyNi0wMy0wOFQyMzozMDowMCIsIG5ld1lvcmspCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIFRva2VuU3RhdHNUaW1lUmFuZ2VzLmJ1Y2tldEluZGV4T2YobGF0ZUV2ZW50LCBzdGFydHMsIFRva2VuU3RhdHNHcmFudWxhcml0eS5EQUlMWSwgbmV3WW9yaykpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgYnVja2V0IGJvdW5kYXJpZXMgcGFydGl0aW9uIGV2ZW50cyBleGFjdGx5IG9uY2VgKCkgewogICAgICAgIHZhbCByYW5nZSA9IFRva2VuU3RhdHNUaW1lUmFuZ2VzLmN1c3RvbVJhbmdlKAogICAgICAgICAgICBsb2NhbE1zKCIyMDI2LTA4LTA3VDAwOjAwOjAwIiwgc2hhbmdoYWkpLAogICAgICAgICAgICBsb2NhbE1zKCIyMDI2LTA4LTA5VDAwOjAwOjAwIiwgc2hhbmdoYWkpLAogICAgICAgICkKICAgICAgICB2YWwgc3RhcnRzID0gVG9rZW5TdGF0c1RpbWVSYW5nZXMuYnVja2V0U3RhcnRzKHJhbmdlLCBUb2tlblN0YXRzR3JhbnVsYXJpdHkuSE9VUkxZLCBzaGFuZ2hhaSkKICAgICAgICAvLyDpgJDlsI/ml7bph4fmoLfvvJrojIPlm7TlhoXmr4/kuKrmlbTngrnmgbDlpb3lsZ7kuo7kuIDkuKrmobbvvIzmobbluo/lj7fpmo/kuovku7bml7bpl7TljZXosIPpgJLlop4KICAgICAgICB2YXIgcHJldmlvdXNJbmRleCA9IC0xCiAgICAgICAgZm9yIChob3VyIGluIDAgdW50aWwgNDgpIHsKICAgICAgICAgICAgdmFsIHRzID0gcmFuZ2Uuc3RhcnRNcyArIGhvdXIgKiBUb2tlblN0YXRzVGltZVJhbmdlcy5IT1VSX01TCiAgICAgICAgICAgIHZhbCBpbmRleCA9IFRva2VuU3RhdHNUaW1lUmFuZ2VzLmJ1Y2tldEluZGV4T2YodHMsIHN0YXJ0cywgVG9rZW5TdGF0c0dyYW51bGFyaXR5LkhPVVJMWSwgc2hhbmdoYWkpCiAgICAgICAgICAgIGFzc2VydFRydWUoInRzPSR0cyBtdXN0IGJlbG9uZyB0byBhIGJ1Y2tldCIsIGluZGV4ICE9IG51bGwpCiAgICAgICAgICAgIGFzc2VydFRydWUoImJ1Y2tldCBpbmRleCBtdXN0IGJlIG1vbm90b25pYyIsIGluZGV4ISEgPj0gcHJldmlvdXNJbmRleCkKICAgICAgICAgICAgcHJldmlvdXNJbmRleCA9IGluZGV4CiAgICAgICAgfQogICAgICAgIC8vIOiMg+WbtOe7iOeCueacrOi6q+S4jeWxnuS6juS7u+S9leahtu+8iOWNiuW8gOivreS5ie+8iQogICAgICAgIGFzc2VydE51bGwoCiAgICAgICAgICAgIFRva2VuU3RhdHNUaW1lUmFuZ2VzLmJ1Y2tldEluZGV4T2YocmFuZ2UuZW5kTXMsIHN0YXJ0cywgVG9rZW5TdGF0c0dyYW51bGFyaXR5LkhPVVJMWSwgc2hhbmdoYWkpCiAgICAgICAgKQogICAgICAgIC8vIOiMg+WbtOi1t+eCueS5i+WJjeeahOS6i+S7tuS4jeWxnuS6juS7u+S9leahtgogICAgICAgIGFzc2VydE51bGwoCiAgICAgICAgICAgIFRva2VuU3RhdHNUaW1lUmFuZ2VzLmJ1Y2tldEluZGV4T2YocmFuZ2Uuc3RhcnRNcyAtIDEsIHN0YXJ0cywgVG9rZW5TdGF0c0dyYW51bGFyaXR5LkhPVVJMWSwgc2hhbmdoYWkpCiAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.stats
+
+import java.time.LocalDateTime
+import java.time.ZoneId
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+/** 日历范围及桶边界测试，覆盖 DST 和半开区间语义。 */
+class TokenStatsTimeRangeTest {
+
+    private val shanghai = ZoneId.of("Asia/Shanghai")
+    private val newYork = ZoneId.of("America/New_York")
+
+    private fun localMs(dateTime: String, zone: ZoneId): Long =
+        LocalDateTime.parse(dateTime).atZone(zone).toInstant().toEpochMilli()
+
+    private fun local(epochMs: Long, zone: ZoneId): LocalDateTime =
+        LocalDateTime.ofInstant(java.time.Instant.ofEpochMilli(epochMs), zone)
+
+    // ==== 日历范围与校验 ====
+
+    @Test
+    fun `custom range requires end after start`() {
+        val range = TokenStatsTimeRanges.customRange(1000L, 2000L)
+        assertEquals(1000L, range.startMs)
+        assertEquals(2000L, range.endMs)
+        try {
+            TokenStatsTimeRanges.customRange(2000L, 2000L)
+            throw AssertionError("expected IllegalArgumentException")
+        } catch (expected: IllegalArgumentException) {
+            // ok
+        }
+    }
+
+    // ==== 粒度选择 ====
+
+    @Test
+    fun `granularity is chosen by range duration`() {
+        fun granularityOf(hours: Long) =
+            TokenStatsTimeRanges.granularityFor(TokenStatsTimeRanges.customRange(0L, hours * TokenStatsTimeRanges.HOUR_MS))
+        assertEquals(TokenStatsGranularity.TEN_MINUTES, granularityOf(5))
+        assertEquals(TokenStatsGranularity.TEN_MINUTES, granularityOf(12))
+        assertEquals(TokenStatsGranularity.HOURLY, granularityOf(13))
+        assertEquals(TokenStatsGranularity.HOURLY, granularityOf(24))
+        assertEquals(TokenStatsGranularity.HOURLY, granularityOf(48))
+        assertEquals(TokenStatsGranularity.DAILY, granularityOf(49))
+        assertEquals(TokenStatsGranularity.DAILY, granularityOf(7 * 24))
+        assertEquals(TokenStatsGranularity.DAILY, granularityOf(31 * 24))
+    }
+
+    // ==== 桶对齐与归属 ====
+
+    @Test
+    fun `ten minute buckets align to local clock boundaries`() {
+        val range = TokenStatsTimeRanges.customRange(
+            localMs("2026-08-07T13:07:00", shanghai),
+            localMs("2026-08-07T18:07:00", shanghai),
+        )
+        val starts = TokenStatsTimeRanges.bucketStarts(range, TokenStatsGranularity.TEN_MINUTES, shanghai)
+        // 首个桶边界为本地 13:00（早于范围起点，属正常：桶是日历对齐的）
+        assertEquals(localMs("2026-08-07T13:00:00", shanghai), starts.first())
+        assertEquals(31, starts.size)
+        assertTrue(starts.zipWithNext().all { (a, b) -> b - a == TokenStatsTimeRanges.TEN_MINUTES_MS })
+    }
+
+    @Test
+    fun `hourly buckets across spring forward skip the missing hour`() {
+        val range = TokenStatsTimeRanges.customRange(
+            localMs("2026-03-08T00:00:00", newYork),
+            localMs("2026-03-09T00:00:00", newYork),
+        )
+        val starts = TokenStatsTimeRanges.bucketStarts(range, TokenStatsGranularity.HOURLY, newYork)
+        assertEquals(23, starts.size)
+        // 单调递增且没有 02:00 本地小时的桶
+        assertTrue(starts.zipWithNext().all { (a, b) -> b > a })
+        assertTrue(starts.none { local(it, newYork).hour == 2 })
+        // 事件归属：01:30 EST -> 01:00 桶；03:30 EDT -> 03:00 桶
+        val early = localMs("2026-03-08T01:30:00", newYork)
+        val late = localMs("2026-03-08T03:30:00", newYork)
+        val earlyIndex = TokenStatsTimeRanges.bucketIndexOf(early, starts, TokenStatsGranularity.HOURLY, newYork)!!
+        val lateIndex = TokenStatsTimeRanges.bucketIndexOf(late, starts, TokenStatsGranularity.HOURLY, newYork)!!
+        assertEquals(localMs("2026-03-08T01:00:00", newYork), starts[earlyIndex])
+        assertEquals(localMs("2026-03-08T03:00:00", newYork), starts[lateIndex])
+        // 02:00 不存在：03:00 桶紧跟在 01:00 桶之后（无空洞）
+        assertEquals(earlyIndex + 1, lateIndex)
+    }
+
+    @Test
+    fun `hourly buckets across fall back produce both repeated hour buckets`() {
+        val range = TokenStatsTimeRanges.customRange(
+            localMs("2026-11-01T00:00:00", newYork),
+            localMs("2026-11-02T00:00:00", newYork),
+        )
+        val starts = TokenStatsTimeRanges.bucketStarts(range, TokenStatsGranularity.HOURLY, newYork)
+        assertEquals(25, starts.size)
+        assertTrue(starts.zipWithNext().all { (a, b) -> b > a })
+        // 重复的本地 01:00 出现两次：01:00 EDT 与 01:00 EST（不同 epoch）
+        val hourOneBuckets = starts.filter { local(it, newYork).hour == 1 }
+        assertEquals(2, hourOneBuckets.size)
+        val first = localMs("2026-11-01T01:30:00", newYork) // 第一次 01:30（EDT）
+        // 第二次 01:30 是 EST（epoch 多 1 小时）
+        val secondEpoch = first + TokenStatsTimeRanges.HOUR_MS
+        val firstIndex = TokenStatsTimeRanges.bucketIndexOf(first, starts, TokenStatsGranularity.HOURLY, newYork)!!
+        val secondIndex = TokenStatsTimeRanges.bucketIndexOf(secondEpoch, starts, TokenStatsGranularity.HOURLY, newYork)!!
+        assertEquals(hourOneBuckets[0], starts[firstIndex])
+        assertEquals(hourOneBuckets[1], starts[secondIndex])
+    }
+
+    @Test
+    fun `daily buckets across dst have exact 23 and 24 hour spans`() {
+        val range = TokenStatsTimeRanges.customRange(
+            localMs("2026-03-08T00:00:00", newYork),
+            localMs("2026-03-10T00:00:00", newYork),
+        )
+        val starts = TokenStatsTimeRanges.bucketStarts(range, TokenStatsGranularity.DAILY, newYork)
+        assertEquals(2, starts.size)
+        assertEquals(localMs("2026-03-08T00:00:00", newYork), starts[0])
+        assertEquals(localMs("2026-03-09T00:00:00", newYork), starts[1])
+        assertEquals(23L * TokenStatsTimeRanges.HOUR_MS,
+            TokenStatsTimeRanges.bucketEndMs(starts, 0, TokenStatsGranularity.DAILY, newYork) - starts[0])
+        assertEquals(24L * TokenStatsTimeRanges.HOUR_MS,
+            TokenStatsTimeRanges.bucketEndMs(starts, 1, TokenStatsGranularity.DAILY, newYork) - starts[1])
+        // 23:30 EDT 属于 03-08 的桶
+        val lateEvent = localMs("2026-03-08T23:30:00", newYork)
+        assertEquals(0, TokenStatsTimeRanges.bucketIndexOf(lateEvent, starts, TokenStatsGranularity.DAILY, newYork))
+    }
+
+    @Test
+    fun `bucket boundaries partition events exactly once`() {
+        val range = TokenStatsTimeRanges.customRange(
+            localMs("2026-08-07T00:00:00", shanghai),
+            localMs("2026-08-09T00:00:00", shanghai),
+        )
+        val starts = TokenStatsTimeRanges.bucketStarts(range, TokenStatsGranularity.HOURLY, shanghai)
+        // 逐小时采样：范围内每个整点恰好属于一个桶，桶序号随事件时间单调递增
+        var previousIndex = -1
+        for (hour in 0 until 48) {
+            val ts = range.startMs + hour * TokenStatsTimeRanges.HOUR_MS
+            val index = TokenStatsTimeRanges.bucketIndexOf(ts, starts, TokenStatsGranularity.HOURLY, shanghai)
+            assertTrue("ts=$ts must belong to a bucket", index != null)
+            assertTrue("bucket index must be monotonic", index!! >= previousIndex)
+            previousIndex = index
+        }
+        // 范围终点本身不属于任何桶（半开语义）
+        assertNull(
+            TokenStatsTimeRanges.bucketIndexOf(range.endMs, starts, TokenStatsGranularity.HOURLY, shanghai)
+        )
+        // 范围起点之前的事件不属于任何桶
+        assertNull(
+            TokenStatsTimeRanges.bucketIndexOf(range.startMs - 1, starts, TokenStatsGranularity.HOURLY, shanghai)
+        )
+    }
+}

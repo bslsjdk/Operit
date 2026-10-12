@@ -1,1 +1,456 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMud29ya2Zsb3cuY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGFuZHJvaWQuYXBwLkRhdGVQaWNrZXJEaWFsb2cKaW1wb3J0IGFuZHJvaWQuYXBwLlRpbWVQaWNrZXJEaWFsb2cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5jbGlja2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbWVtYmVyU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi52ZXJ0aWNhbFNjcm9sbAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRGF0ZVJhbmdlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5TY2hlZHVsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQKaW1wb3J0IGphdmEudXRpbC4qCgovKioKICogU2NoZWR1bGUgQ29uZmlndXJhdGlvbiBEaWFsb2cKICogCiAqIFByb3ZpZGVzIGEgdXNlci1mcmllbmRseSBpbnRlcmZhY2UgZm9yIGNvbmZpZ3VyaW5nIHdvcmtmbG93IHNjaGVkdWxlcwogKi8KQFN1cHByZXNzTGludCgiUmVtZW1iZXJSZXR1cm5UeXBlIikKQE9wdEluKEV4cGVyaW1lbnRhbE1hdGVyaWFsM0FwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmZ1biBTY2hlZHVsZUNvbmZpZ0RpYWxvZygKICAgIGluaXRpYWxTY2hlZHVsZVR5cGU6IFN0cmluZyA9ICJpbnRlcnZhbCIsCiAgICBpbml0aWFsQ29uZmlnOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKSwKICAgIG9uRGlzbWlzczogKCkgLT4gVW5pdCwKICAgIG9uQ29uZmlybTogKHNjaGVkdWxlVHlwZTogU3RyaW5nLCBjb25maWc6IE1hcDxTdHJpbmcsIFN0cmluZz4pIC0+IFVuaXQKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YXIgc2NoZWR1bGVUeXBlIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbFNjaGVkdWxlVHlwZSkgfQogICAgdmFyIHNjaGVkdWxlVHlwZUV4cGFuZGVkIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIAogICAgLy8gSW50ZXJ2YWwgY29uZmlndXJhdGlvbgogICAgdmFyIGludGVydmFsVmFsdWUgYnkgcmVtZW1iZXIgeyAKICAgICAgICBtdXRhYmxlU3RhdGVPZihpbml0aWFsQ29uZmlnWyJpbnRlcnZhbF9tcyJdPy50b0xvbmdPck51bGwoKT8ubGV0IHsgaXQgLyA2MDAwMCB9Py50b1N0cmluZygpID86ICIxNSIpIAogICAgfQogICAgdmFyIGludGVydmFsVW5pdCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKCJtaW51dGVzIikgfQogICAgdmFyIGludGVydmFsVW5pdEV4cGFuZGVkIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIAogICAgLy8gU3BlY2lmaWMgdGltZSBjb25maWd1cmF0aW9uIC0g5L2/55SoIENhbGVuZGFyIOadpeeuoeeQhuaXpeacn+WSjOaXtumXtAogICAgdmFsIGNhbGVuZGFyID0gcmVtZW1iZXIgeyBDYWxlbmRhci5nZXRJbnN0YW5jZSgpIH0KICAgIAogICAgLy8g5bCd6K+V5LuO5Yid5aeL6YWN572u6Kej5p6Q5pel5pyf5pe26Ze0CiAgICByZW1lbWJlcihpbml0aWFsQ29uZmlnKSB7CiAgICAgICAgaW5pdGlhbENvbmZpZ1sic3BlY2lmaWNfdGltZSJdPy5sZXQgeyBkYXRlVGltZVN0ciAtPgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHNkZiA9IFNpbXBsZURhdGVGb3JtYXQoInl5eXktTU0tZGQgSEg6bW06c3MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKQogICAgICAgICAgICAgICAgc2RmLnBhcnNlKGRhdGVUaW1lU3RyKT8ubGV0IHsgZGF0ZSAtPgogICAgICAgICAgICAgICAgICAgIGNhbGVuZGFyLnRpbWUgPSBkYXRlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgLy8g6Kej5p6Q5aSx6LSl77yM5L2/55So6buY6K6k5pe26Ze0CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIHZhciBzZWxlY3RlZFllYXIgYnkgcmVtZW1iZXIgeyBtdXRhYmxlSW50U3RhdGVPZihjYWxlbmRhci5nZXQoQ2FsZW5kYXIuWUVBUikpIH0KICAgIHZhciBzZWxlY3RlZE1vbnRoIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZUludFN0YXRlT2YoY2FsZW5kYXIuZ2V0KENhbGVuZGFyLk1PTlRIKSkgfQogICAgdmFyIHNlbGVjdGVkRGF5IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZUludFN0YXRlT2YoY2FsZW5kYXIuZ2V0KENhbGVuZGFyLkRBWV9PRl9NT05USCkpIH0KICAgIHZhciBzZWxlY3RlZEhvdXIgYnkgcmVtZW1iZXIgeyBtdXRhYmxlSW50U3RhdGVPZihjYWxlbmRhci5nZXQoQ2FsZW5kYXIuSE9VUl9PRl9EQVkpKSB9CiAgICB2YXIgc2VsZWN0ZWRNaW51dGUgYnkgcmVtZW1iZXIgeyBtdXRhYmxlSW50U3RhdGVPZihjYWxlbmRhci5nZXQoQ2FsZW5kYXIuTUlOVVRFKSkgfQogICAgCiAgICAvLyBDcm9uIGNvbmZpZ3VyYXRpb24KICAgIHZhciBjcm9uRXhwcmVzc2lvbiBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGluaXRpYWxDb25maWdbImNyb25fZXhwcmVzc2lvbiJdID86ICIwIDAgKiAqICoiKSB9CiAgICB2YXIgY3JvblByZXNldEV4cGFuZGVkIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIAogICAgLy8gQ29tbW9uIHNldHRpbmdzCiAgICB2YXIgcmVwZWF0IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbENvbmZpZ1sicmVwZWF0Il0/LnRvQm9vbGVhbigpID86IHRydWUpIH0KICAgIHZhciBlbmFibGVkIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbENvbmZpZ1siZW5hYmxlZCJdPy50b0Jvb2xlYW4oKSA/OiB0cnVlKSB9CiAgICAKICAgIHZhbCBzY2hlZHVsZVR5cGVzID0gbWFwT2YoCiAgICAgICAgImludGVydmFsIiB0byBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19zY2hlZHVsZV90eXBlX2ludGVydmFsKSwKICAgICAgICAic3BlY2lmaWNfdGltZSIgdG8gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfc2NoZWR1bGVfdHlwZV9zcGVjaWZpY190aW1lKSwKICAgICAgICAiY3JvbiIgdG8gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfc2NoZWR1bGVfdHlwZV9jcm9uKQogICAgKQogICAgCiAgICB2YWwgaW50ZXJ2YWxVbml0cyA9IG1hcE9mKAogICAgICAgICJtaW51dGVzIiB0byBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19pbnRlcnZhbF91bml0X21pbnV0ZXMpLAogICAgICAgICJob3VycyIgdG8gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfaW50ZXJ2YWxfdW5pdF9ob3VycyksCiAgICAgICAgImRheXMiIHRvIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X2ludGVydmFsX3VuaXRfZGF5cykKICAgICkKICAgIAogICAgdmFsIGNyb25QcmVzZXRzID0gbWFwT2YoCiAgICAgICAgIjAgMCAqICogKiIgdG8gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfY3Jvbl9wcmVzZXRfZGFpbHlfbWlkbmlnaHQpLAogICAgICAgICIwIDkgKiAqICoiIHRvIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X2Nyb25fcHJlc2V0X2RhaWx5XzlhbSksCiAgICAgICAgIjAgMTIgKiAqICoiIHRvIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X2Nyb25fcHJlc2V0X2RhaWx5X25vb24pLAogICAgICAgICIwIDE4ICogKiAqIiB0byBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jcm9uX3ByZXNldF9kYWlseV82cG0pLAogICAgICAgICIwICovMiAqICogKiIgdG8gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfY3Jvbl9wcmVzZXRfZXZlcnlfMl9ob3VycyksCiAgICAgICAgIjAgKi82ICogKiAqIiB0byBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jcm9uX3ByZXNldF9ldmVyeV82X2hvdXJzKSwKICAgICAgICAiKi8xNSAqICogKiAqIiB0byBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jcm9uX3ByZXNldF9ldmVyeV8xNV9taW51dGVzKSwKICAgICAgICAiKi8zMCAqICogKiAqIiB0byBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jcm9uX3ByZXNldF9ldmVyeV8zMF9taW51dGVzKSwKICAgICAgICAiMCAwICogKiAxIiB0byBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jcm9uX3ByZXNldF9ldmVyeV9tb25kYXlfbWlkbmlnaHQpLAogICAgICAgICIwIDkgKiAqIDEtNSIgdG8gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfY3Jvbl9wcmVzZXRfd29ya2RheV85YW0pCiAgICApCgogICAgQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzcywKICAgICAgICB0aXRsZSA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19zY2hlZHVsZV9kaWFsb2dfdGl0bGUpKSB9LAogICAgICAgIHRleHQgPSB7CiAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAudmVydGljYWxTY3JvbGwocmVtZW1iZXJTY3JvbGxTdGF0ZSgpKSwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxNi5kcCkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAvLyBTY2hlZHVsZSB0eXBlIHNlbGVjdG9yCiAgICAgICAgICAgICAgICBFeHBvc2VkRHJvcGRvd25NZW51Qm94KAogICAgICAgICAgICAgICAgICAgIGV4cGFuZGVkID0gc2NoZWR1bGVUeXBlRXhwYW5kZWQsCiAgICAgICAgICAgICAgICAgICAgb25FeHBhbmRlZENoYW5nZSA9IHsgc2NoZWR1bGVUeXBlRXhwYW5kZWQgPSAhc2NoZWR1bGVUeXBlRXhwYW5kZWQgfQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gc2NoZWR1bGVUeXBlc1tzY2hlZHVsZVR5cGVdID86ICIiLAogICAgICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0ge30sCiAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5ID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfc2NoZWR1bGVfdHlwZV9sYWJlbCkpIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIHRyYWlsaW5nSWNvbiA9IHsgRXhwb3NlZERyb3Bkb3duTWVudURlZmF1bHRzLlRyYWlsaW5nSWNvbihleHBhbmRlZCA9IHNjaGVkdWxlVHlwZUV4cGFuZGVkKSB9LAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLm1lbnVBbmNob3IoKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBFeHBvc2VkRHJvcGRvd25NZW51KAogICAgICAgICAgICAgICAgICAgICAgICBleHBhbmRlZCA9IHNjaGVkdWxlVHlwZUV4cGFuZGVkLAogICAgICAgICAgICAgICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0geyBzY2hlZHVsZVR5cGVFeHBhbmRlZCA9IGZhbHNlIH0KICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGVUeXBlcy5mb3JFYWNoIHsgKGtleSwgdmFsdWUpIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBEcm9wZG93bk1lbnVJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSB7IFRleHQodmFsdWUpIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGVUeXBlID0ga2V5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNjaGVkdWxlVHlwZUV4cGFuZGVkID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgSG9yaXpvbnRhbERpdmlkZXIoKQoKICAgICAgICAgICAgICAgIC8vIENvbmZpZ3VyYXRpb24gYmFzZWQgb24gc2NoZWR1bGUgdHlwZQogICAgICAgICAgICAgICAgd2hlbiAoc2NoZWR1bGVUeXBlKSB7CiAgICAgICAgICAgICAgICAgICAgImludGVydmFsIiAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfaW50ZXJ2YWxfY29uZmlnX3RpdGxlKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlU21hbGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IGludGVydmFsVmFsdWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgaW50ZXJ2YWxWYWx1ZSA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfaW50ZXJ2YWxfdmFsdWVfbGFiZWwpKSB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBFeHBvc2VkRHJvcGRvd25NZW51Qm94KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cGFuZGVkID0gaW50ZXJ2YWxVbml0RXhwYW5kZWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25FeHBhbmRlZENoYW5nZSA9IHsgaW50ZXJ2YWxVbml0RXhwYW5kZWQgPSAhaW50ZXJ2YWxVbml0RXhwYW5kZWQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IGludGVydmFsVW5pdHNbaW50ZXJ2YWxVbml0XSA/OiAiIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHt9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seSA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X2ludGVydmFsX3VuaXRfbGFiZWwpKSB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFpbGluZ0ljb24gPSB7IEV4cG9zZWREcm9wZG93bk1lbnVEZWZhdWx0cy5UcmFpbGluZ0ljb24oZXhwYW5kZWQgPSBpbnRlcnZhbFVuaXRFeHBhbmRlZCkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKS5tZW51QW5jaG9yKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRXhwb3NlZERyb3Bkb3duTWVudSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwYW5kZWQgPSBpbnRlcnZhbFVuaXRFeHBhbmRlZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IHsgaW50ZXJ2YWxVbml0RXhwYW5kZWQgPSBmYWxzZSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGludGVydmFsVW5pdHMuZm9yRWFjaCB7IChrZXksIHZhbHVlKSAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRHJvcGRvd25NZW51SXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0geyBUZXh0KHZhbHVlKSB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGludGVydmFsVW5pdCA9IGtleQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnRlcnZhbFVuaXRFeHBhbmRlZCA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X3NjaGVkdWxlX21pbl9pbnRlcnZhbF9oaW50KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgInNwZWNpZmljX3RpbWUiIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19zcGVjaWZpY190aW1lX2NvbmZpZ190aXRsZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZVNtYWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5pel5pyf6YCJ5oup5ZmoCiAgICAgICAgICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuY2xpY2thYmxlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRGF0ZVBpY2tlckRpYWxvZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7IF8sIHllYXIsIG1vbnRoLCBkYXlPZk1vbnRoIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRZZWFyID0geWVhcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkTW9udGggPSBtb250aAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkRGF5ID0gZGF5T2ZNb250aAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkWWVhciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkTW9udGgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZERheQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApLnNob3coKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IFN0cmluZy5mb3JtYXQoIiUwNGQtJTAyZC0lMDJkIiwgc2VsZWN0ZWRZZWFyLCBzZWxlY3RlZE1vbnRoICsgMSwgc2VsZWN0ZWREYXkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7fSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seSA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfZGF0ZV9sYWJlbCkpIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGVhZGluZ0ljb24gPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29ucy5EZWZhdWx0LkRhdGVSYW5nZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X3NlbGVjdF9kYXRlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpbmdsZUxpbmUgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuYWJsZWQgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBPdXRsaW5lZFRleHRGaWVsZERlZmF1bHRzLmNvbG9ycygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRUZXh0Q29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRCb3JkZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub3V0bGluZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRMZWFkaW5nSWNvbkNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZExhYmVsQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOaXtumXtOmAieaLqeWZqAogICAgICAgICAgICAgICAgICAgICAgICBCb3goCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNsaWNrYWJsZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRpbWVQaWNrZXJEaWFsb2coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeyBfLCBob3VyT2ZEYXksIG1pbnV0ZSAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkSG91ciA9IGhvdXJPZkRheQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkTWludXRlID0gbWludXRlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRIb3VyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRNaW51dGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnVlIC8vIDI05bCP5pe25Yi2CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkuc2hvdygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gU3RyaW5nLmZvcm1hdCgiJTAyZDolMDJkIiwgc2VsZWN0ZWRIb3VyLCBzZWxlY3RlZE1pbnV0ZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHt9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5ID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd190aW1lX2xhYmVsKSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZWFkaW5nSWNvbiA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb25zLkRlZmF1bHQuU2NoZWR1bGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19zZWxlY3RfdGltZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbmFibGVkID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3JzID0gT3V0bGluZWRUZXh0RmllbGREZWZhdWx0cy5jb2xvcnMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkVGV4dENvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkQm9yZGVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm91dGxpbmUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkTGVhZGluZ0ljb25Db2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRMYWJlbENvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAvLyDmmL7npLrlrozmlbTnmoTml6XmnJ/ml7bpl7QKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGZ1bGxEYXRlVGltZSA9IFN0cmluZy5mb3JtYXQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiJTA0ZC0lMDJkLSUwMmQgJTAyZDolMDJkOjAwIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkWWVhciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkTW9udGggKyAxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWREYXksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZEhvdXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZE1pbnV0ZQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfc2NoZWR1bGVfZXhlY3V0ZV90aW1lX2Zvcm1hdCwgZnVsbERhdGVUaW1lKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICJjcm9uIiAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfY3Jvbl9jb25maWdfdGl0bGUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVTbWFsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIEV4cG9zZWREcm9wZG93bk1lbnVCb3goCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHBhbmRlZCA9IGNyb25QcmVzZXRFeHBhbmRlZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uRXhwYW5kZWRDaGFuZ2UgPSB7IGNyb25QcmVzZXRFeHBhbmRlZCA9ICFjcm9uUHJlc2V0RXhwYW5kZWQgfQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfc2VsZWN0X3ByZXNldF90ZW1wbGF0ZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHt9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5ID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19wcmVzZXRfdGVtcGxhdGVfbGFiZWwpKSB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWlsaW5nSWNvbiA9IHsgRXhwb3NlZERyb3Bkb3duTWVudURlZmF1bHRzLlRyYWlsaW5nSWNvbihleHBhbmRlZCA9IGNyb25QcmVzZXRFeHBhbmRlZCkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLm1lbnVBbmNob3IoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgRXhwb3NlZERyb3Bkb3duTWVudSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHBhbmRlZCA9IGNyb25QcmVzZXRFeHBhbmRlZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0geyBjcm9uUHJlc2V0RXhwYW5kZWQgPSBmYWxzZSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcm9uUHJlc2V0cy5mb3JFYWNoIHsgKGV4cHJlc3Npb24sIGRlc2NyaXB0aW9uKSAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBEcm9wZG93bk1lbnVJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHsgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ29sdW1uIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dChkZXNjcmlwdGlvbikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBleHByZXNzaW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNyb25FeHByZXNzaW9uID0gZXhwcmVzc2lvbgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNyb25QcmVzZXRFeHBhbmRlZCA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBjcm9uRXhwcmVzc2lvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IGNyb25FeHByZXNzaW9uID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X2Nyb25fZXhwcmVzc2lvbl9sYWJlbCkpIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlciA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jcm9uX2V4cHJlc3Npb25fcGxhY2Vob2xkZXIpKSB9CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfY3Jvbl9mb3JtYXRfaGVscCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIEhvcml6b250YWxEaXZpZGVyKCkKCiAgICAgICAgICAgICAgICAvLyBDb21tb24gc2V0dGluZ3MKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X2NvbW1vbl9zZXR0aW5nc190aXRsZSksCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVTbWFsbCwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5TcGFjZUJldHdlZW4KICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfcmVwZWF0X2xhYmVsKSkKICAgICAgICAgICAgICAgICAgICBTd2l0Y2goCiAgICAgICAgICAgICAgICAgICAgICAgIGNoZWNrZWQgPSByZXBlYXQsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hlY2tlZENoYW5nZSA9IHsgcmVwZWF0ID0gaXQgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuU3BhY2VCZXR3ZWVuCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X3NjaGVkdWxlX2VuYWJsZWRfbGFiZWwpKQogICAgICAgICAgICAgICAgICAgIFN3aXRjaCgKICAgICAgICAgICAgICAgICAgICAgICAgY2hlY2tlZCA9IGVuYWJsZWQsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hlY2tlZENoYW5nZSA9IHsgZW5hYmxlZCA9IGl0IH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGNvbmZpcm1CdXR0b24gPSB7CiAgICAgICAgICAgIFRleHRCdXR0b24oCiAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgIHZhbCBjb25maWcgPSBtdXRhYmxlTWFwT2Y8U3RyaW5nLCBTdHJpbmc+KCkKICAgICAgICAgICAgICAgICAgICBjb25maWdbInNjaGVkdWxlX3R5cGUiXSA9IHNjaGVkdWxlVHlwZQogICAgICAgICAgICAgICAgICAgIGNvbmZpZ1siZW5hYmxlZCJdID0gZW5hYmxlZC50b1N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgY29uZmlnWyJyZXBlYXQiXSA9IHJlcGVhdC50b1N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgd2hlbiAoc2NoZWR1bGVUeXBlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICJpbnRlcnZhbCIgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHZhbHVlID0gaW50ZXJ2YWxWYWx1ZS50b0xvbmdPck51bGwoKSA/OiAxNQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG11bHRpcGxpZXIgPSB3aGVuIChpbnRlcnZhbFVuaXQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiaG91cnMiIC0+IDYwCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImRheXMiIC0+IDYwICogMjQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IDEgLy8gbWludXRlcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlnWyJpbnRlcnZhbF9tcyJdID0gKHZhbHVlICogbXVsdGlwbGllciAqIDYwICogMTAwMCkudG9TdHJpbmcoKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICJzcGVjaWZpY190aW1lIiAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDmnoTpgKDml6XmnJ/ml7bpl7TlrZfnrKbkuLIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBkYXRlVGltZVN0ciA9IFN0cmluZy5mb3JtYXQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIiUwNGQtJTAyZC0lMDJkICUwMmQ6JTAyZDowMCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRZZWFyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkTW9udGggKyAxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkRGF5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkSG91ciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZE1pbnV0ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlnWyJzcGVjaWZpY190aW1lIl0gPSBkYXRlVGltZVN0cgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICJjcm9uIiAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoY3JvbkV4cHJlc3Npb24uaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlnWyJjcm9uX2V4cHJlc3Npb24iXSA9IGNyb25FeHByZXNzaW9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgb25Db25maXJtKHNjaGVkdWxlVHlwZSwgY29uZmlnKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY29uZmlybSkpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IG9uRGlzbWlzcykgewogICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5jYW5jZWxfYWN0aW9uKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkKfQoK
+package com.bslsjdk.operit.ui.features.workflow.components
+
+import android.annotation.SuppressLint
+import android.app.DatePickerDialog
+import android.app.TimePickerDialog
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.DateRange
+import androidx.compose.material.icons.filled.Schedule
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import java.text.SimpleDateFormat
+import java.util.*
+
+/**
+ * Schedule Configuration Dialog
+ * 
+ * Provides a user-friendly interface for configuring workflow schedules
+ */
+@SuppressLint("RememberReturnType")
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun ScheduleConfigDialog(
+    initialScheduleType: String = "interval",
+    initialConfig: Map<String, String> = emptyMap(),
+    onDismiss: () -> Unit,
+    onConfirm: (scheduleType: String, config: Map<String, String>) -> Unit
+) {
+    val context = LocalContext.current
+    var scheduleType by remember { mutableStateOf(initialScheduleType) }
+    var scheduleTypeExpanded by remember { mutableStateOf(false) }
+    
+    // Interval configuration
+    var intervalValue by remember { 
+        mutableStateOf(initialConfig["interval_ms"]?.toLongOrNull()?.let { it / 60000 }?.toString() ?: "15") 
+    }
+    var intervalUnit by remember { mutableStateOf("minutes") }
+    var intervalUnitExpanded by remember { mutableStateOf(false) }
+    
+    // Specific time configuration - 使用 Calendar 来管理日期和时间
+    val calendar = remember { Calendar.getInstance() }
+    
+    // 尝试从初始配置解析日期时间
+    remember(initialConfig) {
+        initialConfig["specific_time"]?.let { dateTimeStr ->
+            try {
+                val sdf = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
+                sdf.parse(dateTimeStr)?.let { date ->
+                    calendar.time = date
+                }
+            } catch (e: Exception) {
+                // 解析失败，使用默认时间
+            }
+        }
+    }
+    
+    var selectedYear by remember { mutableIntStateOf(calendar.get(Calendar.YEAR)) }
+    var selectedMonth by remember { mutableIntStateOf(calendar.get(Calendar.MONTH)) }
+    var selectedDay by remember { mutableIntStateOf(calendar.get(Calendar.DAY_OF_MONTH)) }
+    var selectedHour by remember { mutableIntStateOf(calendar.get(Calendar.HOUR_OF_DAY)) }
+    var selectedMinute by remember { mutableIntStateOf(calendar.get(Calendar.MINUTE)) }
+    
+    // Cron configuration
+    var cronExpression by remember { mutableStateOf(initialConfig["cron_expression"] ?: "0 0 * * *") }
+    var cronPresetExpanded by remember { mutableStateOf(false) }
+    
+    // Common settings
+    var repeat by remember { mutableStateOf(initialConfig["repeat"]?.toBoolean() ?: true) }
+    var enabled by remember { mutableStateOf(initialConfig["enabled"]?.toBoolean() ?: true) }
+    
+    val scheduleTypes = mapOf(
+        "interval" to stringResource(R.string.workflow_schedule_type_interval),
+        "specific_time" to stringResource(R.string.workflow_schedule_type_specific_time),
+        "cron" to stringResource(R.string.workflow_schedule_type_cron)
+    )
+    
+    val intervalUnits = mapOf(
+        "minutes" to stringResource(R.string.workflow_interval_unit_minutes),
+        "hours" to stringResource(R.string.workflow_interval_unit_hours),
+        "days" to stringResource(R.string.workflow_interval_unit_days)
+    )
+    
+    val cronPresets = mapOf(
+        "0 0 * * *" to stringResource(R.string.workflow_cron_preset_daily_midnight),
+        "0 9 * * *" to stringResource(R.string.workflow_cron_preset_daily_9am),
+        "0 12 * * *" to stringResource(R.string.workflow_cron_preset_daily_noon),
+        "0 18 * * *" to stringResource(R.string.workflow_cron_preset_daily_6pm),
+        "0 */2 * * *" to stringResource(R.string.workflow_cron_preset_every_2_hours),
+        "0 */6 * * *" to stringResource(R.string.workflow_cron_preset_every_6_hours),
+        "*/15 * * * *" to stringResource(R.string.workflow_cron_preset_every_15_minutes),
+        "*/30 * * * *" to stringResource(R.string.workflow_cron_preset_every_30_minutes),
+        "0 0 * * 1" to stringResource(R.string.workflow_cron_preset_every_monday_midnight),
+        "0 9 * * 1-5" to stringResource(R.string.workflow_cron_preset_workday_9am)
+    )
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.workflow_schedule_dialog_title)) },
+        text = {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(16.dp)
+            ) {
+                // Schedule type selector
+                ExposedDropdownMenuBox(
+                    expanded = scheduleTypeExpanded,
+                    onExpandedChange = { scheduleTypeExpanded = !scheduleTypeExpanded }
+                ) {
+                    OutlinedTextField(
+                        value = scheduleTypes[scheduleType] ?: "",
+                        onValueChange = {},
+                        readOnly = true,
+                        label = { Text(stringResource(R.string.workflow_schedule_type_label)) },
+                        trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = scheduleTypeExpanded) },
+                        modifier = Modifier.fillMaxWidth().menuAnchor()
+                    )
+                    ExposedDropdownMenu(
+                        expanded = scheduleTypeExpanded,
+                        onDismissRequest = { scheduleTypeExpanded = false }
+                    ) {
+                        scheduleTypes.forEach { (key, value) ->
+                            DropdownMenuItem(
+                                text = { Text(value) },
+                                onClick = {
+                                    scheduleType = key
+                                    scheduleTypeExpanded = false
+                                }
+                            )
+                        }
+                    }
+                }
+
+                HorizontalDivider()
+
+                // Configuration based on schedule type
+                when (scheduleType) {
+                    "interval" -> {
+                        Text(
+                            text = stringResource(R.string.workflow_interval_config_title),
+                            style = MaterialTheme.typography.titleSmall,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                        
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        ) {
+                            OutlinedTextField(
+                                value = intervalValue,
+                                onValueChange = { intervalValue = it },
+                                label = { Text(stringResource(R.string.workflow_interval_value_label)) },
+                                modifier = Modifier.weight(1f),
+                                singleLine = true
+                            )
+                            
+                            ExposedDropdownMenuBox(
+                                expanded = intervalUnitExpanded,
+                                onExpandedChange = { intervalUnitExpanded = !intervalUnitExpanded },
+                                modifier = Modifier.weight(1f)
+                            ) {
+                                OutlinedTextField(
+                                    value = intervalUnits[intervalUnit] ?: "",
+                                    onValueChange = {},
+                                    readOnly = true,
+                                    label = { Text(stringResource(R.string.workflow_interval_unit_label)) },
+                                    trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = intervalUnitExpanded) },
+                                    modifier = Modifier.fillMaxWidth().menuAnchor()
+                                )
+                                ExposedDropdownMenu(
+                                    expanded = intervalUnitExpanded,
+                                    onDismissRequest = { intervalUnitExpanded = false }
+                                ) {
+                                    intervalUnits.forEach { (key, value) ->
+                                        DropdownMenuItem(
+                                            text = { Text(value) },
+                                            onClick = {
+                                                intervalUnit = key
+                                                intervalUnitExpanded = false
+                                            }
+                                        )
+                                    }
+                                }
+                            }
+                        }
+                        
+                        Text(
+                            text = stringResource(R.string.workflow_schedule_min_interval_hint),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                    
+                    "specific_time" -> {
+                        Text(
+                            text = stringResource(R.string.workflow_specific_time_config_title),
+                            style = MaterialTheme.typography.titleSmall,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                        
+                        // 日期选择器
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable {
+                                    DatePickerDialog(
+                                        context,
+                                        { _, year, month, dayOfMonth ->
+                                            selectedYear = year
+                                            selectedMonth = month
+                                            selectedDay = dayOfMonth
+                                        },
+                                        selectedYear,
+                                        selectedMonth,
+                                        selectedDay
+                                    ).show()
+                                }
+                        ) {
+                            OutlinedTextField(
+                                value = String.format("%04d-%02d-%02d", selectedYear, selectedMonth + 1, selectedDay),
+                                onValueChange = {},
+                                readOnly = true,
+                                label = { Text(stringResource(R.string.workflow_date_label)) },
+                                leadingIcon = {
+                                    Icon(
+                                        Icons.Default.DateRange,
+                                        contentDescription = stringResource(R.string.workflow_select_date)
+                                    )
+                                },
+                                modifier = Modifier.fillMaxWidth(),
+                                singleLine = true,
+                                enabled = false,
+                                colors = OutlinedTextFieldDefaults.colors(
+                                    disabledTextColor = MaterialTheme.colorScheme.onSurface,
+                                    disabledBorderColor = MaterialTheme.colorScheme.outline,
+                                    disabledLeadingIconColor = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    disabledLabelColor = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            )
+                        }
+                        
+                        Spacer(modifier = Modifier.height(8.dp))
+                        
+                        // 时间选择器
+                        Box(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable {
+                                    TimePickerDialog(
+                                        context,
+                                        { _, hourOfDay, minute ->
+                                            selectedHour = hourOfDay
+                                            selectedMinute = minute
+                                        },
+                                        selectedHour,
+                                        selectedMinute,
+                                        true // 24小时制
+                                    ).show()
+                                }
+                        ) {
+                            OutlinedTextField(
+                                value = String.format("%02d:%02d", selectedHour, selectedMinute),
+                                onValueChange = {},
+                                readOnly = true,
+                                label = { Text(stringResource(R.string.workflow_time_label)) },
+                                leadingIcon = {
+                                    Icon(
+                                        Icons.Default.Schedule,
+                                        contentDescription = stringResource(R.string.workflow_select_time)
+                                    )
+                                },
+                                modifier = Modifier.fillMaxWidth(),
+                                singleLine = true,
+                                enabled = false,
+                                colors = OutlinedTextFieldDefaults.colors(
+                                    disabledTextColor = MaterialTheme.colorScheme.onSurface,
+                                    disabledBorderColor = MaterialTheme.colorScheme.outline,
+                                    disabledLeadingIconColor = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    disabledLabelColor = MaterialTheme.colorScheme.onSurfaceVariant
+                                )
+                            )
+                        }
+                        
+                        Spacer(modifier = Modifier.height(8.dp))
+                        
+                        // 显示完整的日期时间
+                        val fullDateTime = String.format(
+                            "%04d-%02d-%02d %02d:%02d:00",
+                            selectedYear,
+                            selectedMonth + 1,
+                            selectedDay,
+                            selectedHour,
+                            selectedMinute
+                        )
+                        Text(
+                            text = stringResource(R.string.workflow_schedule_execute_time_format, fullDateTime),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                    
+                    "cron" -> {
+                        Text(
+                            text = stringResource(R.string.workflow_cron_config_title),
+                            style = MaterialTheme.typography.titleSmall,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                        
+                        ExposedDropdownMenuBox(
+                            expanded = cronPresetExpanded,
+                            onExpandedChange = { cronPresetExpanded = !cronPresetExpanded }
+                        ) {
+                            OutlinedTextField(
+                                value = stringResource(R.string.workflow_select_preset_template),
+                                onValueChange = {},
+                                readOnly = true,
+                                label = { Text(stringResource(R.string.workflow_preset_template_label)) },
+                                trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(expanded = cronPresetExpanded) },
+                                modifier = Modifier.fillMaxWidth().menuAnchor()
+                            )
+                            ExposedDropdownMenu(
+                                expanded = cronPresetExpanded,
+                                onDismissRequest = { cronPresetExpanded = false }
+                            ) {
+                                cronPresets.forEach { (expression, description) ->
+                                    DropdownMenuItem(
+                                        text = { 
+                                            Column {
+                                                Text(description)
+                                                Text(
+                                                    text = expression,
+                                                    style = MaterialTheme.typography.bodySmall,
+                                                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                                                )
+                                            }
+                                        },
+                                        onClick = {
+                                            cronExpression = expression
+                                            cronPresetExpanded = false
+                                        }
+                                    )
+                                }
+                            }
+                        }
+                        
+                        Spacer(modifier = Modifier.height(8.dp))
+                        
+                        OutlinedTextField(
+                            value = cronExpression,
+                            onValueChange = { cronExpression = it },
+                            label = { Text(stringResource(R.string.workflow_cron_expression_label)) },
+                            modifier = Modifier.fillMaxWidth(),
+                            singleLine = true,
+                            placeholder = { Text(stringResource(R.string.workflow_cron_expression_placeholder)) }
+                        )
+                        
+                        Text(
+                            text = stringResource(R.string.workflow_cron_format_help),
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+
+                HorizontalDivider()
+
+                // Common settings
+                Text(
+                    text = stringResource(R.string.workflow_common_settings_title),
+                    style = MaterialTheme.typography.titleSmall,
+                    color = MaterialTheme.colorScheme.primary
+                )
+                
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Text(stringResource(R.string.workflow_repeat_label))
+                    Switch(
+                        checked = repeat,
+                        onCheckedChange = { repeat = it }
+                    )
+                }
+                
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    Text(stringResource(R.string.workflow_schedule_enabled_label))
+                    Switch(
+                        checked = enabled,
+                        onCheckedChange = { enabled = it }
+                    )
+                }
+            }
+        },
+        confirmButton = {
+            TextButton(
+                onClick = {
+                    val config = mutableMapOf<String, String>()
+                    config["schedule_type"] = scheduleType
+                    config["enabled"] = enabled.toString()
+                    config["repeat"] = repeat.toString()
+                    
+                    when (scheduleType) {
+                        "interval" -> {
+                            val value = intervalValue.toLongOrNull() ?: 15
+                            val multiplier = when (intervalUnit) {
+                                "hours" -> 60
+                                "days" -> 60 * 24
+                                else -> 1 // minutes
+                            }
+                            config["interval_ms"] = (value * multiplier * 60 * 1000).toString()
+                        }
+                        "specific_time" -> {
+                            // 构造日期时间字符串
+                            val dateTimeStr = String.format(
+                                "%04d-%02d-%02d %02d:%02d:00",
+                                selectedYear,
+                                selectedMonth + 1,
+                                selectedDay,
+                                selectedHour,
+                                selectedMinute
+                            )
+                            config["specific_time"] = dateTimeStr
+                        }
+                        "cron" -> {
+                            if (cronExpression.isNotBlank()) {
+                                config["cron_expression"] = cronExpression
+                            }
+                        }
+                    }
+                    
+                    onConfirm(scheduleType, config)
+                }
+            ) {
+                Text(stringResource(R.string.confirm))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.cancel_action))
+            }
+        }
+    )
+}
+

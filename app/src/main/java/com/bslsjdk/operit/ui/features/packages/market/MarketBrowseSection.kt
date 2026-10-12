@@ -1,1 +1,77 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5TdHJpbmdSZXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCgpkYXRhIGNsYXNzIE1hcmtldEJyb3dzZVNlY3Rpb25Db25maWcoCiAgICBAU3RyaW5nUmVzIHZhbCBzZWFyY2hQbGFjZWhvbGRlclJlczogSW50LAogICAgQFN0cmluZ1JlcyB2YWwgaGVhZGVyVGl0bGVSZXM6IEludCwKICAgIEBTdHJpbmdSZXMgdmFsIGVtcHR5U2VhcmNoVGl0bGVSZXM6IEludCwKICAgIEBTdHJpbmdSZXMgdmFsIGVtcHR5RGVmYXVsdFRpdGxlUmVzOiBJbnQsCiAgICB2YWwgc29ydE9wdGlvbnM6IExpc3Q8TWFya2V0U29ydE9wdGlvbj4gPSBNYXJrZXRTb3J0T3B0aW9uLmVudHJpZXMKKQoKZGF0YSBjbGFzcyBNYXJrZXRCcm93c2VFbnRyeSgKICAgIHZhbCBtb2RlbDogTWFya2V0QnJvd3NlQ2FyZE1vZGVsLAogICAgdmFsIG9uVmlld0RldGFpbHM6ICgpIC0+IFVuaXQsCiAgICB2YWwgb25JbnN0YWxsOiAoKSAtPiBVbml0CikKCkBDb21wb3NhYmxlCmZ1biA8VD4gTWFya2V0QnJvd3NlU2VjdGlvbigKICAgIGl0ZW1zOiBMaXN0PFQ+LAogICAgaXNMb2FkaW5nOiBCb29sZWFuLAogICAgaXNMb2FkaW5nTW9yZTogQm9vbGVhbiwKICAgIGhhc01vcmU6IEJvb2xlYW4sCiAgICBzZWFyY2hRdWVyeTogU3RyaW5nLAogICAgc29ydE9wdGlvbjogTWFya2V0U29ydE9wdGlvbiwKICAgIG9uU2VhcmNoUXVlcnlDaGFuZ2VkOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25Tb3J0T3B0aW9uQ2hhbmdlZDogKE1hcmtldFNvcnRPcHRpb24pIC0+IFVuaXQsCiAgICBmZWF0dXJlZE9ubHk6IEJvb2xlYW4gPSB0cnVlLAogICAgb25GZWF0dXJlZE9ubHlDaGFuZ2VkOiAoQm9vbGVhbikgLT4gVW5pdCA9IHt9LAogICAgb25SZWZyZXNoOiAoKSAtPiBVbml0LAogICAgb25Mb2FkTW9yZTogKCkgLT4gVW5pdCwKICAgIGNvbmZpZzogTWFya2V0QnJvd3NlU2VjdGlvbkNvbmZpZywKICAgIGl0ZW1LZXk6IChUKSAtPiBBbnksCiAgICB1cGRhdGVkQXRTZWxlY3RvcjogKFQpIC0+IFN0cmluZywKICAgIGVudHJ5RmFjdG9yeTogQENvbXBvc2FibGUgKFQpIC0+IE1hcmtldEJyb3dzZUVudHJ5LAogICAgaW5pdGlhbEZpcnN0VmlzaWJsZUl0ZW1JbmRleDogSW50ID0gMCwKICAgIGluaXRpYWxGaXJzdFZpc2libGVJdGVtU2Nyb2xsT2Zmc2V0OiBJbnQgPSAwLAogICAgb25TY3JvbGxQb3NpdGlvbkNoYW5nZWQ6IChJbnQsIEludCkgLT4gVW5pdCA9IHsgXywgXyAtPiB9LAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICBNYXJrZXRCcm93c2VMaXN0KAogICAgICAgIGl0ZW1zID0gaXRlbXMsCiAgICAgICAgaXNMb2FkaW5nID0gaXNMb2FkaW5nLAogICAgICAgIGlzTG9hZGluZ01vcmUgPSBpc0xvYWRpbmdNb3JlLAogICAgICAgIGhhc01vcmUgPSBoYXNNb3JlLAogICAgICAgIHNlYXJjaFF1ZXJ5ID0gc2VhcmNoUXVlcnksCiAgICAgICAgc29ydE9wdGlvbiA9IHNvcnRPcHRpb24sCiAgICAgICAgb25TZWFyY2hRdWVyeUNoYW5nZWQgPSBvblNlYXJjaFF1ZXJ5Q2hhbmdlZCwKICAgICAgICBvblNvcnRPcHRpb25DaGFuZ2VkID0gb25Tb3J0T3B0aW9uQ2hhbmdlZCwKICAgICAgICBmZWF0dXJlZE9ubHkgPSBmZWF0dXJlZE9ubHksCiAgICAgICAgb25GZWF0dXJlZE9ubHlDaGFuZ2VkID0gb25GZWF0dXJlZE9ubHlDaGFuZ2VkLAogICAgICAgIG9uUmVmcmVzaCA9IG9uUmVmcmVzaCwKICAgICAgICBvbkxvYWRNb3JlID0gb25Mb2FkTW9yZSwKICAgICAgICBzZWFyY2hQbGFjZWhvbGRlclJlcyA9IGNvbmZpZy5zZWFyY2hQbGFjZWhvbGRlclJlcywKICAgICAgICBoZWFkZXJUaXRsZVJlcyA9IGNvbmZpZy5oZWFkZXJUaXRsZVJlcywKICAgICAgICBlbXB0eVNlYXJjaFRpdGxlUmVzID0gY29uZmlnLmVtcHR5U2VhcmNoVGl0bGVSZXMsCiAgICAgICAgZW1wdHlEZWZhdWx0VGl0bGVSZXMgPSBjb25maWcuZW1wdHlEZWZhdWx0VGl0bGVSZXMsCiAgICAgICAgc29ydE9wdGlvbnMgPSBjb25maWcuc29ydE9wdGlvbnMsCiAgICAgICAgaXRlbUtleSA9IGl0ZW1LZXksCiAgICAgICAgdXBkYXRlZEF0U2VsZWN0b3IgPSB1cGRhdGVkQXRTZWxlY3RvciwKICAgICAgICBpbml0aWFsRmlyc3RWaXNpYmxlSXRlbUluZGV4ID0gaW5pdGlhbEZpcnN0VmlzaWJsZUl0ZW1JbmRleCwKICAgICAgICBpbml0aWFsRmlyc3RWaXNpYmxlSXRlbVNjcm9sbE9mZnNldCA9IGluaXRpYWxGaXJzdFZpc2libGVJdGVtU2Nyb2xsT2Zmc2V0LAogICAgICAgIG9uU2Nyb2xsUG9zaXRpb25DaGFuZ2VkID0gb25TY3JvbGxQb3NpdGlvbkNoYW5nZWQsCiAgICAgICAgaXRlbUNvbnRlbnQgPSB7IGl0ZW0gLT4KICAgICAgICAgICAgdmFsIGVudHJ5ID0gZW50cnlGYWN0b3J5KGl0ZW0pCiAgICAgICAgICAgIE1hcmtldEJyb3dzZUNhcmQoCiAgICAgICAgICAgICAgICBtb2RlbCA9IGVudHJ5Lm1vZGVsLAogICAgICAgICAgICAgICAgb25WaWV3RGV0YWlscyA9IGVudHJ5Lm9uVmlld0RldGFpbHMsCiAgICAgICAgICAgICAgICBvbkluc3RhbGwgPSBlbnRyeS5vbkluc3RhbGwKICAgICAgICAgICAgKQogICAgICAgIH0sCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllcgogICAgKQp9Cg==
+package com.bslsjdk.operit.ui.features.packages.market
+
+import androidx.annotation.StringRes
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+
+data class MarketBrowseSectionConfig(
+    @StringRes val searchPlaceholderRes: Int,
+    @StringRes val headerTitleRes: Int,
+    @StringRes val emptySearchTitleRes: Int,
+    @StringRes val emptyDefaultTitleRes: Int,
+    val sortOptions: List<MarketSortOption> = MarketSortOption.entries
+)
+
+data class MarketBrowseEntry(
+    val model: MarketBrowseCardModel,
+    val onViewDetails: () -> Unit,
+    val onInstall: () -> Unit
+)
+
+@Composable
+fun <T> MarketBrowseSection(
+    items: List<T>,
+    isLoading: Boolean,
+    isLoadingMore: Boolean,
+    hasMore: Boolean,
+    searchQuery: String,
+    sortOption: MarketSortOption,
+    onSearchQueryChanged: (String) -> Unit,
+    onSortOptionChanged: (MarketSortOption) -> Unit,
+    featuredOnly: Boolean = true,
+    onFeaturedOnlyChanged: (Boolean) -> Unit = {},
+    onRefresh: () -> Unit,
+    onLoadMore: () -> Unit,
+    config: MarketBrowseSectionConfig,
+    itemKey: (T) -> Any,
+    updatedAtSelector: (T) -> String,
+    entryFactory: @Composable (T) -> MarketBrowseEntry,
+    initialFirstVisibleItemIndex: Int = 0,
+    initialFirstVisibleItemScrollOffset: Int = 0,
+    onScrollPositionChanged: (Int, Int) -> Unit = { _, _ -> },
+    modifier: Modifier = Modifier
+) {
+    MarketBrowseList(
+        items = items,
+        isLoading = isLoading,
+        isLoadingMore = isLoadingMore,
+        hasMore = hasMore,
+        searchQuery = searchQuery,
+        sortOption = sortOption,
+        onSearchQueryChanged = onSearchQueryChanged,
+        onSortOptionChanged = onSortOptionChanged,
+        featuredOnly = featuredOnly,
+        onFeaturedOnlyChanged = onFeaturedOnlyChanged,
+        onRefresh = onRefresh,
+        onLoadMore = onLoadMore,
+        searchPlaceholderRes = config.searchPlaceholderRes,
+        headerTitleRes = config.headerTitleRes,
+        emptySearchTitleRes = config.emptySearchTitleRes,
+        emptyDefaultTitleRes = config.emptyDefaultTitleRes,
+        sortOptions = config.sortOptions,
+        itemKey = itemKey,
+        updatedAtSelector = updatedAtSelector,
+        initialFirstVisibleItemIndex = initialFirstVisibleItemIndex,
+        initialFirstVisibleItemScrollOffset = initialFirstVisibleItemScrollOffset,
+        onScrollPositionChanged = onScrollPositionChanged,
+        itemContent = { item ->
+            val entry = entryFactory(item)
+            MarketBrowseCard(
+                model = entry.model,
+                onViewDetails = entry.onViewDetails,
+                onInstall = entry.onInstall
+            )
+        },
+        modifier = modifier
+    )
+}

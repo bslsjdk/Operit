@@ -1,1 +1,225 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnN0eWxlLmN1cnNvcgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLkV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5rZXkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmNvbW1vbi5tYXJrZG93bi5TdHJlYW1NYXJrZG93blJlbmRlcmVyU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duLlN0cmVhbU1hcmtkb3duUmVuZGVyZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMuQ2hhdE1lc3NhZ2VIZWlnaHRNZW1vcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMucmVtZW1iZXJSZXZpc2FibGVUZXh0U3RyZWFtCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnBhcnQuQ3VzdG9tWG1sUmVuZGVyZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMucGFydC5UaGlua1Rvb2xzWG1sTm9kZUdyb3VwZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMuTGlua1ByZXZpZXdEaWFsb2cKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLm1hcmtkb3duLnRvQ2hhclN0cmVhbQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLlN0cmVhbQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuRGlzcGxheVByZWZlcmVuY2VzTWFuYWdlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuVG9vbENvbGxhcHNlTW9kZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmNvbGxlY3RBc1N0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQub25TaXplQ2hhbmdlZAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLnRoZW1lLkxvY2FsVGhlbWVQcmVmZXJlbmNlU25hcHNob3QKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS50aGVtZS5Qcm92aWRlQWlNYXJrZG93blRleHRMYXlvdXRTZXR0aW5ncwoKLyoqCiAqIEEgY29tcG9zYWJsZSBmdW5jdGlvbiBmb3IgcmVuZGVyaW5nIEFJIHJlc3BvbnNlIG1lc3NhZ2VzIGluIGEgQ3Vyc29yIElERSBzdHlsZS4gU3VwcG9ydHMgdGV4dAogKiBzZWxlY3Rpb24gYW5kIGNvcHkgb24gbG9uZyBwcmVzcyBmb3IgZGlmZmVyZW50IHNlZ21lbnRzLiBBbHdheXMgdXNlcyBjb2xsYXBzZWQgZXhlY3V0aW9uIG1vZGUgZm9yCiAqIHRvb2wgb3V0cHV0IGRpc3BsYXkuCiAqLwpAT3B0SW4oRXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmZ1biBBaU1lc3NhZ2VDb21wb3NhYmxlKAogICAgbWVzc2FnZTogQ2hhdE1lc3NhZ2UsCiAgICBiYWNrZ3JvdW5kQ29sb3I6IENvbG9yLAogICAgdGV4dENvbG9yOiBDb2xvciwKICAgIG9uTGlua0NsaWNrOiAoKFN0cmluZykgLT4gVW5pdCk/ID0gbnVsbCwKICAgIGluaXRpYWxUaGlua2luZ0V4cGFuZGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICBhbGxvd0V4cGFuZGVkVGhpbmtpbmdGdWxsSGVpZ2h0OiBCb29sZWFuID0gZmFsc2UsCiAgICBleHBhbmRUaGlua1Rvb2xzR3JvdXBzOiBCb29sZWFuID0gZmFsc2UsCiAgICBmb3JjZVNob3dUaGlua2luZ1Byb2Nlc3M6IEJvb2xlYW4gPSBmYWxzZSwKICAgIG92ZXJyaWRlU3RyZWFtOiBTdHJlYW08U3RyaW5nPj8gPSBudWxsLAogICAgaGVpZ2h0TWVtb3J5OiBDaGF0TWVzc2FnZUhlaWdodE1lbW9yeT8gPSBudWxsLAogICAgZW5hYmxlRGlhbG9nczogQm9vbGVhbiA9IHRydWUsICAvLyDmlrDlop7lj4LmlbDvvJrmmK/lkKblkK/nlKjlvLnnqpflip/og73vvIzpu5jorqTlkK/nlKgKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgZGlzcGxheVByZWZlcmVuY2VzTWFuYWdlciA9IHJlbWVtYmVyIHsgRGlzcGxheVByZWZlcmVuY2VzTWFuYWdlci5nZXRJbnN0YW5jZShjb250ZXh0KSB9CiAgICB2YWwgdGhlbWVTbmFwc2hvdCA9IExvY2FsVGhlbWVQcmVmZXJlbmNlU25hcHNob3QuY3VycmVudAogICAgdmFsIHNob3dUaGlua2luZ1Byb2Nlc3MgPSB0aGVtZVNuYXBzaG90LnNob3dUaGlua2luZ1Byb2Nlc3MKICAgIHZhbCBzaG93U3RhdHVzVGFncyA9IHRoZW1lU25hcHNob3Quc2hvd1N0YXR1c1RhZ3MKICAgIHZhbCBlZmZlY3RpdmVTaG93VGhpbmtpbmdQcm9jZXNzID0gaWYgKGZvcmNlU2hvd1RoaW5raW5nUHJvY2VzcykgdHJ1ZSBlbHNlIHNob3dUaGlua2luZ1Byb2Nlc3MKICAgIAogICAgdmFsIHNob3dNb2RlbFByb3ZpZGVyID0gdGhlbWVTbmFwc2hvdC5zaG93TW9kZWxQcm92aWRlcgogICAgdmFsIHNob3dNb2RlbE5hbWUgPSB0aGVtZVNuYXBzaG90LnNob3dNb2RlbE5hbWUKICAgIHZhbCBzaG93Um9sZU5hbWUgPSB0aGVtZVNuYXBzaG90LnNob3dSb2xlTmFtZQogICAgdmFsIHRvb2xDb2xsYXBzZU1vZGUgYnkgZGlzcGxheVByZWZlcmVuY2VzTWFuYWdlci50b29sQ29sbGFwc2VNb2RlLmNvbGxlY3RBc1N0YXRlKGluaXRpYWwgPSBUb29sQ29sbGFwc2VNb2RlLkFMTCkKCiAgICAvLyDpk77mjqXpooTop4jlvLnnqpfnirbmgIEKICAgIHZhciBzaG93TGlua0RpYWxvZyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YXIgbGlua1RvUHJldmlldyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKCIiKSB9CiAgICAKICAgIC8vIOWIm+W7uuW5tuS/neWtmFN0cmVhbU1hcmtkb3duUmVuZGVyZXLnmoTnirbmgIHvvIzkvb/nlKhtZXNzYWdlLnRpbWVzdGFtcOS9nOS4umtleeehruS/neWQjOS4gOadoea2iOaBr+WFseS6q+eKtuaAgQogICAgdmFsIHJlbmRlcmVyU3RhdGUgPSByZW1lbWJlcihtZXNzYWdlLnRpbWVzdGFtcCkgeyBTdHJlYW1NYXJrZG93blJlbmRlcmVyU3RhdGUoKSB9CgogICAgLy8g5Yib5bu66Ieq5a6a5LmJWE1M5riy5p+T5ZmoCiAgICB2YWwgeG1sUmVuZGVyZXIgPSByZW1lbWJlcigKICAgICAgICBlZmZlY3RpdmVTaG93VGhpbmtpbmdQcm9jZXNzLAogICAgICAgIHNob3dTdGF0dXNUYWdzLAogICAgICAgIGluaXRpYWxUaGlua2luZ0V4cGFuZGVkLAogICAgICAgIGFsbG93RXhwYW5kZWRUaGlua2luZ0Z1bGxIZWlnaHQsCiAgICAgICAgZW5hYmxlRGlhbG9ncwogICAgKSB7CiAgICAgICAgQ3VzdG9tWG1sUmVuZGVyZXIoCiAgICAgICAgICAgIHNob3dUaGlua2luZ1Byb2Nlc3MgPSBlZmZlY3RpdmVTaG93VGhpbmtpbmdQcm9jZXNzLAogICAgICAgICAgICBzaG93U3RhdHVzVGFncyA9IHNob3dTdGF0dXNUYWdzLAogICAgICAgICAgICBpbml0aWFsVGhpbmtpbmdFeHBhbmRlZCA9IGluaXRpYWxUaGlua2luZ0V4cGFuZGVkLAogICAgICAgICAgICBhbGxvd0V4cGFuZGVkVGhpbmtpbmdGdWxsSGVpZ2h0ID0gYWxsb3dFeHBhbmRlZFRoaW5raW5nRnVsbEhlaWdodCwKICAgICAgICAgICAgZW5hYmxlRGlhbG9ncyA9IGVuYWJsZURpYWxvZ3MgIC8vIOS8oOmAkuW8ueeql+WQr+eUqOeKtuaAgQogICAgICAgICkKICAgIH0KCiAgICB2YWwgbm9kZUdyb3VwZXIgPSByZW1lbWJlcihlZmZlY3RpdmVTaG93VGhpbmtpbmdQcm9jZXNzLCB0b29sQ29sbGFwc2VNb2RlLCBleHBhbmRUaGlua1Rvb2xzR3JvdXBzKSB7CiAgICAgICAgVGhpbmtUb29sc1htbE5vZGVHcm91cGVyKAogICAgICAgICAgICBzaG93VGhpbmtpbmdQcm9jZXNzID0gZWZmZWN0aXZlU2hvd1RoaW5raW5nUHJvY2VzcywKICAgICAgICAgICAgZm9yY2VFeHBhbmRHcm91cHMgPSBleHBhbmRUaGlua1Rvb2xzR3JvdXBzLAogICAgICAgICAgICB0b29sQ29sbGFwc2VNb2RlID0gdG9vbENvbGxhcHNlTW9kZQogICAgICAgICkKICAgIH0KICAgIHZhbCByZW1lbWJlcmVkT25MaW5rQ2xpY2sgPSByZW1lbWJlcihjb250ZXh0LCBvbkxpbmtDbGljaywgZW5hYmxlRGlhbG9ncykgewogICAgICAgIG9uTGlua0NsaWNrID86IHsgdXJsIC0+CiAgICAgICAgICAgIC8vIOWmguaenOWQr+eUqOS6huW8ueeql++8jOaYvuekuumTvuaOpemihOiniO+8m+WQpuWImeS9v+eUqOezu+e7n+a1j+iniOWZqOaJk+W8gAogICAgICAgICAgICBpZiAoZW5hYmxlRGlhbG9ncykgewogICAgICAgICAgICAgICAgbGlua1RvUHJldmlldyA9IHVybAogICAgICAgICAgICAgICAgc2hvd0xpbmtEaWFsb2cgPSB0cnVlCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvLyDlnKhTZXJ2aWNl5bGC77yM55u05o6l5L2/55So57O757uf5rWP6KeI5Zmo5omT5byA6ZO+5o6lCiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHZhbCBpbnRlbnQgPSBJbnRlbnQoSW50ZW50LkFDVElPTl9WSUVXLCBVcmkucGFyc2UodXJsKSkKICAgICAgICAgICAgICAgICAgICBpbnRlbnQuYWRkRmxhZ3MoSW50ZW50LkZMQUdfQUNUSVZJVFlfTkVXX1RBU0spCiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5zdGFydEFjdGl2aXR5KGludGVudCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIC8vIOW/veeVpeaJk+W8gOWksei0pQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIFByb3ZpZGVBaU1hcmtkb3duVGV4dExheW91dFNldHRpbmdzIHsKICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgIG1vZGlmaWVyID0KICAgICAgICAgICAgICAgIE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcodmVydGljYWwgPSAyLmRwKQogICAgICAgICAgICAgICAgICAgIC5vblNpemVDaGFuZ2VkIHsgc2l6ZSAtPgogICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHRNZW1vcnk/LnVwZGF0ZU1lYXN1cmVkKG1lc3NhZ2UudGltZXN0YW1wLCBzaXplLmhlaWdodCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgKSB7CiAgICAgICAgLy8g5p6E5bu65qCH6aKYIC0g5YiG5bem5Y+z5Lik6YOo5YiG5pi+56S6CiAgICAgICAgUm93KAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgIC5wYWRkaW5nKHN0YXJ0ID0gMTYuZHAsIGVuZCA9IDE2LmRwLCBib3R0b20gPSA4LmRwKSwKICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuU3BhY2VCZXR3ZWVuLAogICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICAgICAgKSB7CiAgICAgICAgICAgIC8vIOW3puS+p++8mlJlc3BvbnNl5qCH6aKYCiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICB0ZXh0ID0gIlJlc3BvbnNlIiwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsU21hbGwsCiAgICAgICAgICAgICAgICBjb2xvciA9IHRleHRDb2xvci5jb3B5KGFscGhhID0gMC43ZikKICAgICAgICAgICAgKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5Y+z5L6n77ya6K+m57uG5L+h5oGv77yI6KeS6Imy5ZCN44CB5qih5Z6L5L+h5oGv77yJCiAgICAgICAgICAgIHZhbCBkZXRhaWxUZXh0ID0gYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgLy8g5qC55o2u55So5oi36K6+572u5pi+56S66KeS6Imy5ZCN56ewCiAgICAgICAgICAgICAgICBpZiAoc2hvd1JvbGVOYW1lICYmIG1lc3NhZ2Uucm9sZU5hbWUuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKG1lc3NhZ2Uucm9sZU5hbWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIOagueaNrueUqOaIt+iuvue9ruaYvuekuuaooeWei+S/oeaBrwogICAgICAgICAgICAgICAgdmFsIHNob3dNb2RlbCA9IHNob3dNb2RlbE5hbWUgJiYgbWVzc2FnZS5tb2RlbE5hbWUuaXNOb3RFbXB0eSgpCiAgICAgICAgICAgICAgICB2YWwgc2hvd1Byb3ZpZGVyID0gc2hvd01vZGVsUHJvdmlkZXIgJiYgbWVzc2FnZS5wcm92aWRlci5pc05vdEVtcHR5KCkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgaWYgKHNob3dNb2RlbCAmJiBzaG93UHJvdmlkZXIpIHsKICAgICAgICAgICAgICAgICAgICBpZiAoaXNOb3RFbXB0eSgpKSBhcHBlbmQoIiB8ICIpCiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCIke21lc3NhZ2UubW9kZWxOYW1lfSBieSAke21lc3NhZ2UucHJvdmlkZXJ9IikKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoc2hvd01vZGVsKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGlzTm90RW1wdHkoKSkgYXBwZW5kKCIgfCAiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZChtZXNzYWdlLm1vZGVsTmFtZSkKICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoc2hvd1Byb3ZpZGVyKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGlzTm90RW1wdHkoKSkgYXBwZW5kKCIgfCAiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZChtZXNzYWdlLnByb3ZpZGVyKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBpZiAoZGV0YWlsVGV4dC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGRldGFpbFRleHQsCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxTbWFsbCwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IHRleHRDb2xvci5jb3B5KGFscGhhID0gMC41ZikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8g5L2/55SoIG1lc3NhZ2UudGltZXN0YW1wIOS9nOS4uiBrZXnvvIznoa7kv53lnKjph43nu4TmnJ/pl7TvvIwKICAgICAgICAvLyDlj6ropoHmmK/lkIzkuIDmnaHmtojmga/vvIxTdHJlYW1NYXJrZG93blJlbmRlcmVy5bCx5LiN5Lya6KKr6ZSA5q+B5ZKM6YeN5bu644CCCiAgICAgICAgLy8g6L+Z5Y+v5Lul6Ziy5q2i5rWB6KKr5LiN5b+F6KaB5Zyw5Y+W5raI77yM5L+d6K+B5LqG5riy5p+T55qE6L+e57ut5oCn44CCCiAgICAgICAga2V5KG1lc3NhZ2UudGltZXN0YW1wKSB7CiAgICAgICAgICAgIHZhbCBzdHJlYW1Ub1JlbmRlciA9IHJlbWVtYmVyUmV2aXNhYmxlVGV4dFN0cmVhbShvdmVycmlkZVN0cmVhbSA/OiBtZXNzYWdlLmNvbnRlbnRTdHJlYW0pCiAgICAgICAgICAgIGlmIChzdHJlYW1Ub1JlbmRlciAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAvLyDlr7nkuo7mraPlnKjmtYHlvI/kvKDovpPnmoTmtojmga/vvIzkvb/nlKjmtYHlvI/muLLmn5PlmagKICAgICAgICAgICAgICAgIC8vIOWwhmNvbnRlbnRTdHJlYW3kv53lrZjliLDmnKzlnLDlj5jph4/ku6Xpgb/lhY3mmbrog73ovazmjaLpl67popgKICAgICAgICAgICAgICAgIHZhbCBjaGFyU3RyZWFtID0gcmVtZW1iZXIoc3RyZWFtVG9SZW5kZXIpIHsgc3RyZWFtVG9SZW5kZXIudG9DaGFyU3RyZWFtKCkgfQoKICAgICAgICAgICAgICAgIFN0cmVhbU1hcmtkb3duUmVuZGVyZXIoCiAgICAgICAgICAgICAgICAgICAgbWFya2Rvd25TdHJlYW0gPSBjaGFyU3RyZWFtLAogICAgICAgICAgICAgICAgICAgIHRleHRDb2xvciA9IHRleHRDb2xvciwKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3IgPSBiYWNrZ3JvdW5kQ29sb3IsCiAgICAgICAgICAgICAgICAgICAgb25MaW5rQ2xpY2sgPSByZW1lbWJlcmVkT25MaW5rQ2xpY2ssCiAgICAgICAgICAgICAgICAgICAgeG1sUmVuZGVyZXIgPSB4bWxSZW5kZXJlciwKICAgICAgICAgICAgICAgICAgICBub2RlR3JvdXBlciA9IG5vZGVHcm91cGVyLAogICAgICAgICAgICAgICAgICAgIGVuYWJsZURpYWxvZ3MgPSBlbmFibGVEaWFsb2dzLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZyhob3Jpem9udGFsID0gMTYuZHApLAogICAgICAgICAgICAgICAgICAgIHN0YXRlID0gcmVuZGVyZXJTdGF0ZSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIC8vIOWvueS6juW3suWujOaIkOeahOmdmeaAgea2iOaBr++8jOS9v+eUqOaWsOeahOWtl+espuS4sua4suafk+WZqOS7peaPkOmrmOaAp+iDvQogICAgICAgICAgICAgICAgLy8g5YWx5Lqr55u45ZCM55qEc3RhdGXvvIzpgb/lhY3ph43mlrDorqHnrpdub2Rlc+etieeKtuaAgQogICAgICAgICAgICAgICAgU3RyZWFtTWFya2Rvd25SZW5kZXJlcigKICAgICAgICAgICAgICAgICAgICBjb250ZW50ID0gbWVzc2FnZS5jb250ZW50LAogICAgICAgICAgICAgICAgICAgIHRleHRDb2xvciA9IHRleHRDb2xvciwKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3IgPSBiYWNrZ3JvdW5kQ29sb3IsCiAgICAgICAgICAgICAgICAgICAgb25MaW5rQ2xpY2sgPSByZW1lbWJlcmVkT25MaW5rQ2xpY2ssCiAgICAgICAgICAgICAgICAgICAgeG1sUmVuZGVyZXIgPSB4bWxSZW5kZXJlciwKICAgICAgICAgICAgICAgICAgICBub2RlR3JvdXBlciA9IG5vZGVHcm91cGVyLAogICAgICAgICAgICAgICAgICAgIGVuYWJsZURpYWxvZ3MgPSBlbmFibGVEaWFsb2dzLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZyhob3Jpem9udGFsID0gMTYuZHApLAogICAgICAgICAgICAgICAgICAgIHN0YXRlID0gcmVuZGVyZXJTdGF0ZSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAgICAgLy8g6ZO+5o6l6aKE6KeI5by556qXIC0g5LuF5Zyo5ZCv55So5by556qX5pe25pi+56S6CiAgICAgICAgaWYgKHNob3dMaW5rRGlhbG9nICYmIGxpbmtUb1ByZXZpZXcuaXNOb3RFbXB0eSgpICYmIGVuYWJsZURpYWxvZ3MpIHsKICAgICAgICAgICAgTGlua1ByZXZpZXdEaWFsb2coCiAgICAgICAgICAgICAgICB1cmwgPSBsaW5rVG9QcmV2aWV3LAogICAgICAgICAgICAgICAgb25EaXNtaXNzID0gewogICAgICAgICAgICAgICAgICAgIHNob3dMaW5rRGlhbG9nID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICBsaW5rVG9QcmV2aWV3ID0gIiIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.components.style.cursor
+
+import android.content.Intent
+import android.net.Uri
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.key
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import com.bslsjdk.operit.ui.common.markdown.StreamMarkdownRendererState
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.ui.common.markdown.StreamMarkdownRenderer
+import com.bslsjdk.operit.ui.features.chat.components.ChatMessageHeightMemory
+import com.bslsjdk.operit.ui.features.chat.components.rememberRevisableTextStream
+import com.bslsjdk.operit.ui.features.chat.components.part.CustomXmlRenderer
+import com.bslsjdk.operit.ui.features.chat.components.part.ThinkToolsXmlNodeGrouper
+import com.bslsjdk.operit.ui.features.chat.components.LinkPreviewDialog
+import com.bslsjdk.operit.util.markdown.toCharStream
+import com.bslsjdk.operit.util.stream.Stream
+import com.bslsjdk.operit.data.preferences.DisplayPreferencesManager
+import com.bslsjdk.operit.data.preferences.ToolCollapseMode
+import androidx.compose.runtime.collectAsState
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.layout.onSizeChanged
+import com.bslsjdk.operit.ui.theme.LocalThemePreferenceSnapshot
+import com.bslsjdk.operit.ui.theme.ProvideAiMarkdownTextLayoutSettings
+
+/**
+ * A composable function for rendering AI response messages in a Cursor IDE style. Supports text
+ * selection and copy on long press for different segments. Always uses collapsed execution mode for
+ * tool output display.
+ */
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+fun AiMessageComposable(
+    message: ChatMessage,
+    backgroundColor: Color,
+    textColor: Color,
+    onLinkClick: ((String) -> Unit)? = null,
+    initialThinkingExpanded: Boolean = false,
+    allowExpandedThinkingFullHeight: Boolean = false,
+    expandThinkToolsGroups: Boolean = false,
+    forceShowThinkingProcess: Boolean = false,
+    overrideStream: Stream<String>? = null,
+    heightMemory: ChatMessageHeightMemory? = null,
+    enableDialogs: Boolean = true,  // 新增参数：是否启用弹窗功能，默认启用
+) {
+    val context = LocalContext.current
+    val displayPreferencesManager = remember { DisplayPreferencesManager.getInstance(context) }
+    val themeSnapshot = LocalThemePreferenceSnapshot.current
+    val showThinkingProcess = themeSnapshot.showThinkingProcess
+    val showStatusTags = themeSnapshot.showStatusTags
+    val effectiveShowThinkingProcess = if (forceShowThinkingProcess) true else showThinkingProcess
+    
+    val showModelProvider = themeSnapshot.showModelProvider
+    val showModelName = themeSnapshot.showModelName
+    val showRoleName = themeSnapshot.showRoleName
+    val toolCollapseMode by displayPreferencesManager.toolCollapseMode.collectAsState(initial = ToolCollapseMode.ALL)
+
+    // 链接预览弹窗状态
+    var showLinkDialog by remember { mutableStateOf(false) }
+    var linkToPreview by remember { mutableStateOf("") }
+    
+    // 创建并保存StreamMarkdownRenderer的状态，使用message.timestamp作为key确保同一条消息共享状态
+    val rendererState = remember(message.timestamp) { StreamMarkdownRendererState() }
+
+    // 创建自定义XML渲染器
+    val xmlRenderer = remember(
+        effectiveShowThinkingProcess,
+        showStatusTags,
+        initialThinkingExpanded,
+        allowExpandedThinkingFullHeight,
+        enableDialogs
+    ) {
+        CustomXmlRenderer(
+            showThinkingProcess = effectiveShowThinkingProcess,
+            showStatusTags = showStatusTags,
+            initialThinkingExpanded = initialThinkingExpanded,
+            allowExpandedThinkingFullHeight = allowExpandedThinkingFullHeight,
+            enableDialogs = enableDialogs  // 传递弹窗启用状态
+        )
+    }
+
+    val nodeGrouper = remember(effectiveShowThinkingProcess, toolCollapseMode, expandThinkToolsGroups) {
+        ThinkToolsXmlNodeGrouper(
+            showThinkingProcess = effectiveShowThinkingProcess,
+            forceExpandGroups = expandThinkToolsGroups,
+            toolCollapseMode = toolCollapseMode
+        )
+    }
+    val rememberedOnLinkClick = remember(context, onLinkClick, enableDialogs) {
+        onLinkClick ?: { url ->
+            // 如果启用了弹窗，显示链接预览；否则使用系统浏览器打开
+            if (enableDialogs) {
+                linkToPreview = url
+                showLinkDialog = true
+            } else {
+                // 在Service层，直接使用系统浏览器打开链接
+                try {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+                    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    context.startActivity(intent)
+                } catch (e: Exception) {
+                    // 忽略打开失败
+                }
+            }
+        }
+    }
+
+    ProvideAiMarkdownTextLayoutSettings {
+        Column(
+            modifier =
+                Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 2.dp)
+                    .onSizeChanged { size ->
+                        heightMemory?.updateMeasured(message.timestamp, size.height)
+                    }
+        ) {
+        // 构建标题 - 分左右两部分显示
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(start = 16.dp, end = 16.dp, bottom = 8.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            // 左侧：Response标题
+            Text(
+                text = "Response",
+                style = MaterialTheme.typography.labelSmall,
+                color = textColor.copy(alpha = 0.7f)
+            )
+            
+            // 右侧：详细信息（角色名、模型信息）
+            val detailText = buildString {
+                // 根据用户设置显示角色名称
+                if (showRoleName && message.roleName.isNotEmpty()) {
+                    append(message.roleName)
+                }
+                
+                // 根据用户设置显示模型信息
+                val showModel = showModelName && message.modelName.isNotEmpty()
+                val showProvider = showModelProvider && message.provider.isNotEmpty()
+                
+                if (showModel && showProvider) {
+                    if (isNotEmpty()) append(" | ")
+                    append("${message.modelName} by ${message.provider}")
+                } else if (showModel) {
+                    if (isNotEmpty()) append(" | ")
+                    append(message.modelName)
+                } else if (showProvider) {
+                    if (isNotEmpty()) append(" | ")
+                    append(message.provider)
+                }
+            }
+            
+            if (detailText.isNotEmpty()) {
+                Text(
+                    text = detailText,
+                    style = MaterialTheme.typography.labelSmall,
+                    color = textColor.copy(alpha = 0.5f)
+                )
+            }
+        }
+
+        // 使用 message.timestamp 作为 key，确保在重组期间，
+        // 只要是同一条消息，StreamMarkdownRenderer就不会被销毁和重建。
+        // 这可以防止流被不必要地取消，保证了渲染的连续性。
+        key(message.timestamp) {
+            val streamToRender = rememberRevisableTextStream(overrideStream ?: message.contentStream)
+            if (streamToRender != null) {
+                // 对于正在流式传输的消息，使用流式渲染器
+                // 将contentStream保存到本地变量以避免智能转换问题
+                val charStream = remember(streamToRender) { streamToRender.toCharStream() }
+
+                StreamMarkdownRenderer(
+                    markdownStream = charStream,
+                    textColor = textColor,
+                    backgroundColor = backgroundColor,
+                    onLinkClick = rememberedOnLinkClick,
+                    xmlRenderer = xmlRenderer,
+                    nodeGrouper = nodeGrouper,
+                    enableDialogs = enableDialogs,
+                    modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
+                    state = rendererState,
+                )
+            } else {
+                // 对于已完成的静态消息，使用新的字符串渲染器以提高性能
+                // 共享相同的state，避免重新计算nodes等状态
+                StreamMarkdownRenderer(
+                    content = message.content,
+                    textColor = textColor,
+                    backgroundColor = backgroundColor,
+                    onLinkClick = rememberedOnLinkClick,
+                    xmlRenderer = xmlRenderer,
+                    nodeGrouper = nodeGrouper,
+                    enableDialogs = enableDialogs,
+                    modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
+                    state = rendererState,
+                )
+            }
+        }
+    }
+
+        // 链接预览弹窗 - 仅在启用弹窗时显示
+        if (showLinkDialog && linkToPreview.isNotEmpty() && enableDialogs) {
+            LinkPreviewDialog(
+                url = linkToPreview,
+                onDismiss = {
+                    showLinkDialog = false
+                    linkToPreview = ""
+                }
+            )
+        }
+    }
+}

@@ -1,1 +1,22 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgSnNSdW50aW1lVG9vbENhbGxUZXN0IHsKICAgIEBUZXN0CiAgICBmdW4gYHRvb2xDYWxsIGRpc3BhdGNoZXMgdGhyb3VnaCB0aGUgZ2VuZXJpYyBuYXRpdmUgYnJpZGdlYCgpIHsKICAgICAgICB2YWwgc291cmNlID0KICAgICAgICAgICAgYnVpbGRJbml0UnVudGltZU1vZHVsZXMoCiAgICAgICAgICAgICAgICBvcGVyaXREb3dubG9hZERpciA9ICIvb3Blcml0L2Rvd25sb2FkcyIsCiAgICAgICAgICAgICAgICBvcGVyaXRDbGVhbk9uRXhpdERpciA9ICIvb3Blcml0L2NsZWFuIgogICAgICAgICAgICApLmZpcnN0IHsgaXQuZmlsZU5hbWUgPT0gInF1aWNranMvaW5pdC9ydW50aW1lLXRvb2wtY2FsbC5qcyIgfS5zb3VyY2UKCiAgICAgICAgYXNzZXJ0VHJ1ZShzb3VyY2UuY29udGFpbnMoIidjYWxsVG9vbEFzeW5jJyIpKQogICAgICAgIGFzc2VydFRydWUoc291cmNlLmNvbnRhaW5zKCInY2FsbFRvb2xBc3luY1N0cmVhbWluZyciKSkKICAgICAgICBhc3NlcnRGYWxzZShzb3VyY2UuY29udGFpbnMoImNhbGxUb29sQXN5bmNGb3JDYWxsIikpCiAgICAgICAgYXNzZXJ0RmFsc2Uoc291cmNlLmNvbnRhaW5zKCJjYWxsVG9vbEFzeW5jU3RyZWFtaW5nRm9yQ2FsbCIpKQogICAgICAgIGFzc2VydEZhbHNlKHNvdXJjZS5jb250YWlucygidG9vbENhbGwgcmVxdWlyZXMgYW4gYWN0aXZlIGV4ZWN1dGlvbiBjYWxsIikpCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.javascript
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class JsRuntimeToolCallTest {
+    @Test
+    fun `toolCall dispatches through the generic native bridge`() {
+        val source =
+            buildInitRuntimeModules(
+                operitDownloadDir = "/operit/downloads",
+                operitCleanOnExitDir = "/operit/clean"
+            ).first { it.fileName == "quickjs/init/runtime-tool-call.js" }.source
+
+        assertTrue(source.contains("'callToolAsync'"))
+        assertTrue(source.contains("'callToolAsyncStreaming'"))
+        assertFalse(source.contains("callToolAsyncForCall"))
+        assertFalse(source.contains("callToolAsyncStreamingForCall"))
+        assertFalse(source.contains("toolCall requires an active execution call"))
+    }
+}

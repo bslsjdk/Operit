@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLmZhY3RvcnkKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5jb250cm9sLkF2YXRhckNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24ubW9kZWwuQXZhdGFyTW9kZWwKCi8qKgogKiBBbiBpbnRlcmZhY2UgZm9yIGEgZmFjdG9yeSB0aGF0IGNyZWF0ZXMgYXZhdGFyIHJlbmRlcmVycy4KICogVGhlIGNvbmNyZXRlIGltcGxlbWVudGF0aW9uIG9mIHRoaXMgZmFjdG9yeSB3aWxsIGxpdmUgaW4gdGhlIGltcGxlbWVudGF0aW9uIGxheWVyCiAqIGFuZCB3aWxsIGtub3cgYWJvdXQgYWxsIHRoZSBjb25jcmV0ZSByZW5kZXJlciBjbGFzc2VzLgogKi8KaW50ZXJmYWNlIEF2YXRhclJlbmRlcmVyRmFjdG9yeSB7CiAgICAvKioKICAgICAqIENyZWF0ZXMgYSByZW5kZXJlciBpbnN0YW5jZSBjYXBhYmxlIG9mIGRpc3BsYXlpbmcgdGhlIGdpdmVuIGF2YXRhciBtb2RlbC4KICAgICAqIEBwYXJhbSBtb2RlbCBUaGUgYXZhdGFyIGRhdGEgbW9kZWwuCiAgICAgKiBAcmV0dXJuIEEgY29tcG9zYWJsZSBmdW5jdGlvbiB0aGF0IHJlbmRlcnMgdGhlIGF2YXRhciwgb3IgbnVsbCBpZiB0aGUgbW9kZWwgdHlwZSBpcyBub3Qgc3VwcG9ydGVkLgogICAgICovCiAgICBAQ29tcG9zYWJsZQogICAgZnVuIGNyZWF0ZVJlbmRlcmVyKG1vZGVsOiBBdmF0YXJNb2RlbCk6IEBDb21wb3NhYmxlICgobW9kaWZpZXI6IE1vZGlmaWVyLCBjb250cm9sbGVyOiBBdmF0YXJDb250cm9sbGVyKSAtPiBVbml0KT8KfSA=
+package com.bslsjdk.operit.core.avatar.common.factory
+
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.common.model.AvatarModel
+
+/**
+ * An interface for a factory that creates avatar renderers.
+ * The concrete implementation of this factory will live in the implementation layer
+ * and will know about all the concrete renderer classes.
+ */
+interface AvatarRendererFactory {
+    /**
+     * Creates a renderer instance capable of displaying the given avatar model.
+     * @param model The avatar data model.
+     * @return A composable function that renders the avatar, or null if the model type is not supported.
+     */
+    @Composable
+    fun createRenderer(model: AvatarModel): @Composable ((modifier: Modifier, controller: AvatarController) -> Unit)?
+} 

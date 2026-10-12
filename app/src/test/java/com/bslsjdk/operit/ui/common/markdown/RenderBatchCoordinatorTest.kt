@@ -1,1 +1,136 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZUxpc3RPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU1hcE9mCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5tYXJrZG93bi5NYXJrZG93bk5vZGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLm1hcmtkb3duLk1hcmtkb3duTm9kZVN0YWJsZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwubWFya2Rvd24uTWFya2Rvd25Qcm9jZXNzb3JUeXBlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uU3RyZWFtCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRXhwZXJpbWVudGFsQ29yb3V0aW5lc0FwaQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnRlc3QuYWR2YW5jZVRpbWVCeQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnRlc3QuYWR2YW5jZVVudGlsSWRsZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnRlc3QucnVuVGVzdAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpAT3B0SW4oRXhwZXJpbWVudGFsQ29yb3V0aW5lc0FwaTo6Y2xhc3MpCmNsYXNzIFJlbmRlckJhdGNoQ29vcmRpbmF0b3JUZXN0IHsKICAgIEBUZXN0CiAgICBmdW4gcmVxdWVzdFdoaWxlQmF0Y2hJc1BlbmRpbmdfaXNJbmNsdWRlZFdpdGhvdXRBbm90aGVySW5wdXQoKSA9IHJ1blRlc3QgewogICAgICAgIHZhciBmbHVzaENvdW50ID0gMAogICAgICAgIHZhbCBjb29yZGluYXRvciA9CiAgICAgICAgICAgIFJlbmRlckJhdGNoQ29vcmRpbmF0b3IoCiAgICAgICAgICAgICAgICBzY29wZSA9IHRoaXMsCiAgICAgICAgICAgICAgICBpbnRlcnZhbE1zID0gMjAwLAogICAgICAgICAgICAgICAgb25GbHVzaCA9IHsgZmx1c2hDb3VudCsrIH0sCiAgICAgICAgICAgICkKCiAgICAgICAgY29vcmRpbmF0b3IucmVxdWVzdFVwZGF0ZSgpCiAgICAgICAgYWR2YW5jZVRpbWVCeSgxMDApCiAgICAgICAgY29vcmRpbmF0b3IucmVxdWVzdFVwZGF0ZSgpCiAgICAgICAgYWR2YW5jZVVudGlsSWRsZSgpCgogICAgICAgIGFzc2VydEVxdWFscygxLCBmbHVzaENvdW50KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gcmVxdWVzdER1cmluZ0ZsdXNoX2lzRHJhaW5lZEJlZm9yZUNvb3JkaW5hdG9yQmVjb21lc0lkbGUoKSA9IHJ1blRlc3QgewogICAgICAgIHZhciBmbHVzaENvdW50ID0gMAogICAgICAgIGxhdGVpbml0IHZhciBjb29yZGluYXRvcjogUmVuZGVyQmF0Y2hDb29yZGluYXRvcgogICAgICAgIGNvb3JkaW5hdG9yID0KICAgICAgICAgICAgUmVuZGVyQmF0Y2hDb29yZGluYXRvcigKICAgICAgICAgICAgICAgIHNjb3BlID0gdGhpcywKICAgICAgICAgICAgICAgIGludGVydmFsTXMgPSAyMDAsCiAgICAgICAgICAgICAgICBvbkZsdXNoID0gewogICAgICAgICAgICAgICAgICAgIGZsdXNoQ291bnQrKwogICAgICAgICAgICAgICAgICAgIGlmIChmbHVzaENvdW50ID09IDEpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY29vcmRpbmF0b3IucmVxdWVzdFVwZGF0ZSgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgKQoKICAgICAgICBjb29yZGluYXRvci5yZXF1ZXN0VXBkYXRlKCkKICAgICAgICBhZHZhbmNlVW50aWxJZGxlKCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIsIGZsdXNoQ291bnQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0b29sWG1sVGFpbE11dGF0aW9uX2lzUmVuZGVyZWRXaXRob3V0QW5vdGhlcklucHV0KCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgbm9kZXMgPSBtdXRhYmxlU3RhdGVMaXN0T2Y8TWFya2Rvd25Ob2RlPigpCiAgICAgICAgdmFsIHJlbmRlck5vZGVzID0gbXV0YWJsZVN0YXRlTGlzdE9mPE1hcmtkb3duTm9kZVN0YWJsZT4oKQogICAgICAgIHZhbCBub2RlQW5pbWF0aW9uU3RhdGVzID0gbXV0YWJsZVN0YXRlTWFwT2Y8U3RyaW5nLCBCb29sZWFuPigpCiAgICAgICAgdmFsIHVwZGF0ZXIgPQogICAgICAgICAgICBCYXRjaE5vZGVVcGRhdGVyKAogICAgICAgICAgICAgICAgbm9kZXMgPSBub2RlcywKICAgICAgICAgICAgICAgIHJlbmRlck5vZGVzID0gcmVuZGVyTm9kZXMsCiAgICAgICAgICAgICAgICBub2RlQW5pbWF0aW9uU3RhdGVzID0gbm9kZUFuaW1hdGlvblN0YXRlcywKICAgICAgICAgICAgICAgIHhtbE5vZGVTdHJlYW1zID0gbXV0YWJsZU1hcE9mPEludCwgU3RyZWFtPFN0cmluZz4+KCksCiAgICAgICAgICAgICAgICByZW5kZXJlcklkID0gInRvb2wteG1sLXRlc3QiLAogICAgICAgICAgICAgICAgc2NvcGUgPSB0aGlzLAogICAgICAgICAgICApCiAgICAgICAgdmFsIHRvb2xOb2RlID0gTWFya2Rvd25Ob2RlKHR5cGUgPSBNYXJrZG93blByb2Nlc3NvclR5cGUuWE1MX0JMT0NLKQogICAgICAgIG5vZGVzLmFkZCh0b29sTm9kZSkKCiAgICAgICAgdmFsIHByZWZpeCA9ICI8dG9vbCBuYW1lPVwic2hlbGxcIj48cGFyYW0gbmFtZT1cImNvbW1hbmRcIj5lY2hvIHBhciIKICAgICAgICB1cGRhdGVyLmFwcGVuZEJsb2NrQ2h1bmsodG9vbE5vZGUsIHByZWZpeCkKICAgICAgICBhZHZhbmNlVW50aWxJZGxlKCkKICAgICAgICBhc3NlcnRFcXVhbHMocHJlZml4LCByZW5kZXJOb2Rlcy5zaW5nbGUoKS5jb250ZW50KQoKICAgICAgICB2YWwgdGFpbCA9ICJ0aWFsPC9wYXJhbT48L3Rvb2w+IgogICAgICAgIHVwZGF0ZXIuYXBwZW5kQmxvY2tDaHVuayh0b29sTm9kZSwgdGFpbCkKICAgICAgICBhZHZhbmNlVW50aWxJZGxlKCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKHByZWZpeCArIHRhaWwsIHJlbmRlck5vZGVzLnNpbmdsZSgpLmNvbnRlbnQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBlcXVhbExlbmd0aEJsb2NrTm9kZVJlcGxhY2VtZW50X2lzUmVuZGVyZWQoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCBub2RlcyA9IG11dGFibGVTdGF0ZUxpc3RPZihNYXJrZG93bk5vZGUoTWFya2Rvd25Qcm9jZXNzb3JUeXBlLlBMQUlOX1RFWFQsICJ4IikpCiAgICAgICAgdmFsIHJlbmRlck5vZGVzID0gbXV0YWJsZVN0YXRlTGlzdE9mPE1hcmtkb3duTm9kZVN0YWJsZT4oKQogICAgICAgIHZhbCB1cGRhdGVyID0KICAgICAgICAgICAgQmF0Y2hOb2RlVXBkYXRlcigKICAgICAgICAgICAgICAgIG5vZGVzID0gbm9kZXMsCiAgICAgICAgICAgICAgICByZW5kZXJOb2RlcyA9IHJlbmRlck5vZGVzLAogICAgICAgICAgICAgICAgbm9kZUFuaW1hdGlvblN0YXRlcyA9IG11dGFibGVTdGF0ZU1hcE9mKCksCiAgICAgICAgICAgICAgICB4bWxOb2RlU3RyZWFtcyA9IG11dGFibGVNYXBPZjxJbnQsIFN0cmVhbTxTdHJpbmc+PigpLAogICAgICAgICAgICAgICAgcmVuZGVyZXJJZCA9ICJlcXVhbC1sZW5ndGgtYmxvY2stdGVzdCIsCiAgICAgICAgICAgICAgICBzY29wZSA9IHRoaXMsCiAgICAgICAgICAgICkKCiAgICAgICAgdXBkYXRlci5yZXF1ZXN0VXBkYXRlKCkKICAgICAgICBhZHZhbmNlVW50aWxJZGxlKCkKCiAgICAgICAgbm9kZXNbMF0gPSBNYXJrZG93bk5vZGUoTWFya2Rvd25Qcm9jZXNzb3JUeXBlLkJMT0NLX0xBVEVYLCAieCIpCiAgICAgICAgdXBkYXRlci5yZXF1ZXN0U3RydWN0dXJhbFVwZGF0ZSgpCiAgICAgICAgYWR2YW5jZVVudGlsSWRsZSgpCgogICAgICAgIGFzc2VydEVxdWFscyhNYXJrZG93blByb2Nlc3NvclR5cGUuQkxPQ0tfTEFURVgsIHJlbmRlck5vZGVzLnNpbmdsZSgpLnR5cGUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBlcXVhbExlbmd0aENoaWxkTm9kZVJlcGxhY2VtZW50X2lzUmVuZGVyZWQoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCBwYXJlbnQgPSBNYXJrZG93bk5vZGUoTWFya2Rvd25Qcm9jZXNzb3JUeXBlLlBMQUlOX1RFWFQsICJ4IikKICAgICAgICBwYXJlbnQuY2hpbGRyZW4uYWRkKE1hcmtkb3duTm9kZShNYXJrZG93blByb2Nlc3NvclR5cGUuUExBSU5fVEVYVCwgIngiKSkKICAgICAgICB2YWwgbm9kZXMgPSBtdXRhYmxlU3RhdGVMaXN0T2YocGFyZW50KQogICAgICAgIHZhbCByZW5kZXJOb2RlcyA9IG11dGFibGVTdGF0ZUxpc3RPZjxNYXJrZG93bk5vZGVTdGFibGU+KCkKICAgICAgICB2YWwgdXBkYXRlciA9CiAgICAgICAgICAgIEJhdGNoTm9kZVVwZGF0ZXIoCiAgICAgICAgICAgICAgICBub2RlcyA9IG5vZGVzLAogICAgICAgICAgICAgICAgcmVuZGVyTm9kZXMgPSByZW5kZXJOb2RlcywKICAgICAgICAgICAgICAgIG5vZGVBbmltYXRpb25TdGF0ZXMgPSBtdXRhYmxlU3RhdGVNYXBPZigpLAogICAgICAgICAgICAgICAgeG1sTm9kZVN0cmVhbXMgPSBtdXRhYmxlTWFwT2Y8SW50LCBTdHJlYW08U3RyaW5nPj4oKSwKICAgICAgICAgICAgICAgIHJlbmRlcmVySWQgPSAiZXF1YWwtbGVuZ3RoLWNoaWxkLXRlc3QiLAogICAgICAgICAgICAgICAgc2NvcGUgPSB0aGlzLAogICAgICAgICAgICApCgogICAgICAgIHVwZGF0ZXIucmVxdWVzdFVwZGF0ZSgpCiAgICAgICAgYWR2YW5jZVVudGlsSWRsZSgpCgogICAgICAgIHBhcmVudC5jaGlsZHJlblswXSA9IE1hcmtkb3duTm9kZShNYXJrZG93blByb2Nlc3NvclR5cGUuSU5MSU5FX0xBVEVYLCAieCIpCiAgICAgICAgdXBkYXRlci5yZXF1ZXN0U3RydWN0dXJhbFVwZGF0ZSgpCiAgICAgICAgYWR2YW5jZVVudGlsSWRsZSgpCgogICAgICAgIGFzc2VydEVxdWFscyhNYXJrZG93blByb2Nlc3NvclR5cGUuSU5MSU5FX0xBVEVYLCByZW5kZXJOb2Rlcy5zaW5nbGUoKS5jaGlsZHJlbi5zaW5nbGUoKS50eXBlKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.common.markdown
+
+import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateMapOf
+import com.bslsjdk.operit.util.markdown.MarkdownNode
+import com.bslsjdk.operit.util.markdown.MarkdownNodeStable
+import com.bslsjdk.operit.util.markdown.MarkdownProcessorType
+import com.bslsjdk.operit.util.stream.Stream
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.test.advanceTimeBy
+import kotlinx.coroutines.test.advanceUntilIdle
+import kotlinx.coroutines.test.runTest
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+@OptIn(ExperimentalCoroutinesApi::class)
+class RenderBatchCoordinatorTest {
+    @Test
+    fun requestWhileBatchIsPending_isIncludedWithoutAnotherInput() = runTest {
+        var flushCount = 0
+        val coordinator =
+            RenderBatchCoordinator(
+                scope = this,
+                intervalMs = 200,
+                onFlush = { flushCount++ },
+            )
+
+        coordinator.requestUpdate()
+        advanceTimeBy(100)
+        coordinator.requestUpdate()
+        advanceUntilIdle()
+
+        assertEquals(1, flushCount)
+    }
+
+    @Test
+    fun requestDuringFlush_isDrainedBeforeCoordinatorBecomesIdle() = runTest {
+        var flushCount = 0
+        lateinit var coordinator: RenderBatchCoordinator
+        coordinator =
+            RenderBatchCoordinator(
+                scope = this,
+                intervalMs = 200,
+                onFlush = {
+                    flushCount++
+                    if (flushCount == 1) {
+                        coordinator.requestUpdate()
+                    }
+                },
+            )
+
+        coordinator.requestUpdate()
+        advanceUntilIdle()
+
+        assertEquals(2, flushCount)
+    }
+
+    @Test
+    fun toolXmlTailMutation_isRenderedWithoutAnotherInput() = runTest {
+        val nodes = mutableStateListOf<MarkdownNode>()
+        val renderNodes = mutableStateListOf<MarkdownNodeStable>()
+        val nodeAnimationStates = mutableStateMapOf<String, Boolean>()
+        val updater =
+            BatchNodeUpdater(
+                nodes = nodes,
+                renderNodes = renderNodes,
+                nodeAnimationStates = nodeAnimationStates,
+                xmlNodeStreams = mutableMapOf<Int, Stream<String>>(),
+                rendererId = "tool-xml-test",
+                scope = this,
+            )
+        val toolNode = MarkdownNode(type = MarkdownProcessorType.XML_BLOCK)
+        nodes.add(toolNode)
+
+        val prefix = "<tool name=\"shell\"><param name=\"command\">echo par"
+        updater.appendBlockChunk(toolNode, prefix)
+        advanceUntilIdle()
+        assertEquals(prefix, renderNodes.single().content)
+
+        val tail = "tial</param></tool>"
+        updater.appendBlockChunk(toolNode, tail)
+        advanceUntilIdle()
+
+        assertEquals(prefix + tail, renderNodes.single().content)
+    }
+
+    @Test
+    fun equalLengthBlockNodeReplacement_isRendered() = runTest {
+        val nodes = mutableStateListOf(MarkdownNode(MarkdownProcessorType.PLAIN_TEXT, "x"))
+        val renderNodes = mutableStateListOf<MarkdownNodeStable>()
+        val updater =
+            BatchNodeUpdater(
+                nodes = nodes,
+                renderNodes = renderNodes,
+                nodeAnimationStates = mutableStateMapOf(),
+                xmlNodeStreams = mutableMapOf<Int, Stream<String>>(),
+                rendererId = "equal-length-block-test",
+                scope = this,
+            )
+
+        updater.requestUpdate()
+        advanceUntilIdle()
+
+        nodes[0] = MarkdownNode(MarkdownProcessorType.BLOCK_LATEX, "x")
+        updater.requestStructuralUpdate()
+        advanceUntilIdle()
+
+        assertEquals(MarkdownProcessorType.BLOCK_LATEX, renderNodes.single().type)
+    }
+
+    @Test
+    fun equalLengthChildNodeReplacement_isRendered() = runTest {
+        val parent = MarkdownNode(MarkdownProcessorType.PLAIN_TEXT, "x")
+        parent.children.add(MarkdownNode(MarkdownProcessorType.PLAIN_TEXT, "x"))
+        val nodes = mutableStateListOf(parent)
+        val renderNodes = mutableStateListOf<MarkdownNodeStable>()
+        val updater =
+            BatchNodeUpdater(
+                nodes = nodes,
+                renderNodes = renderNodes,
+                nodeAnimationStates = mutableStateMapOf(),
+                xmlNodeStreams = mutableMapOf<Int, Stream<String>>(),
+                rendererId = "equal-length-child-test",
+                scope = this,
+            )
+
+        updater.requestUpdate()
+        advanceUntilIdle()
+
+        parent.children[0] = MarkdownNode(MarkdownProcessorType.INLINE_LATEX, "x")
+        updater.requestStructuralUpdate()
+        advanceUntilIdle()
+
+        assertEquals(MarkdownProcessorType.INLINE_LATEX, renderNodes.single().children.single().type)
+    }
+}

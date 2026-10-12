@@ -1,1 +1,137 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgewogIGFzc2VydCwKICBhc3NlcnRFcSwKICB0ZXN0LAogIHJ1blN1aXRlLAp9ID0gcmVxdWlyZSgnLi9jb21tb24nKTsKCmNvbnN0IEFuZHJvaWRTaGVsbEV4ZWN1dG9yID0gSmF2YS5jb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uQW5kcm9pZFNoZWxsRXhlY3V0b3I7CmNvbnN0IFN0YW5kYXJkQWN0aW9uTGlzdGVuZXIgPSBKYXZhLmNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnN5c3RlbS5hY3Rpb24uU3RhbmRhcmRBY3Rpb25MaXN0ZW5lcjsKY29uc3QgU3RyZWFtQnVpbGRlcnNLdCA9IEphdmEudHlwZSgnY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLlN0cmVhbUJ1aWxkZXJzS3QnKTsKCmNvbnN0IFNVU1BFTkRfVElNRU9VVF9NUyA9IDIwMDA7CgpmdW5jdGlvbiB3aXRoVGltZW91dChwcm9taXNlLCBsYWJlbCkgewogIHJldHVybiBQcm9taXNlLnJhY2UoWwogICAgcHJvbWlzZSwKICAgIG5ldyBQcm9taXNlKGZ1bmN0aW9uIChfcmVzb2x2ZSwgcmVqZWN0KSB7CiAgICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gKCkgewogICAgICAgIHJlamVjdChuZXcgRXJyb3IoKGxhYmVsIHx8ICdzdXNwZW5kIGNhbGwnKSArICcgdGltZWQgb3V0IGFmdGVyICcgKyBTVVNQRU5EX1RJTUVPVVRfTVMgKyAnbXMnKSk7CiAgICAgIH0sIFNVU1BFTkRfVElNRU9VVF9NUyk7CiAgICB9KSwKICBdKTsKfQoKZnVuY3Rpb24gYXNzZXJ0Q29tbWFuZFJlc3VsdFByb3h5KHJlc3VsdCwgbGFiZWwpIHsKICBhc3NlcnQocmVzdWx0ICYmIHR5cGVvZiByZXN1bHQgPT09ICdvYmplY3QnLCAobGFiZWwgfHwgJ3Jlc3VsdCcpICsgJyBzaG91bGQgYmUgYW4gb2JqZWN0Jyk7CiAgYXNzZXJ0RXEoCiAgICBTdHJpbmcocmVzdWx0LmNsYXNzTmFtZSksCiAgICAnY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLkFuZHJvaWRTaGVsbEV4ZWN1dG9yJENvbW1hbmRSZXN1bHQnLAogICAgKGxhYmVsIHx8ICdyZXN1bHQnKSArICcgY2xhc3NOYW1lIG1pc21hdGNoJwogICk7CiAgYXNzZXJ0RXEodHlwZW9mIHJlc3VsdC5zdWNjZXNzLCAnYm9vbGVhbicsIChsYWJlbCB8fCAncmVzdWx0JykgKyAnIHN1Y2Nlc3Mgc2hvdWxkIGJlIGJvb2xlYW4nKTsKICBhc3NlcnRFcSh0eXBlb2YgcmVzdWx0LnN0ZG91dCwgJ3N0cmluZycsIChsYWJlbCB8fCAncmVzdWx0JykgKyAnIHN0ZG91dCBzaG91bGQgYmUgc3RyaW5nJyk7CiAgYXNzZXJ0RXEodHlwZW9mIHJlc3VsdC5zdGRlcnIsICdzdHJpbmcnLCAobGFiZWwgfHwgJ3Jlc3VsdCcpICsgJyBzdGRlcnIgc2hvdWxkIGJlIHN0cmluZycpOwogIGFzc2VydEVxKHR5cGVvZiByZXN1bHQuZXhpdENvZGUsICdudW1iZXInLCAobGFiZWwgfHwgJ3Jlc3VsdCcpICsgJyBleGl0Q29kZSBzaG91bGQgYmUgbnVtYmVyJyk7Cn0KCmFzeW5jIGZ1bmN0aW9uIGV4cGVjdFJlamVjdE1lc3NhZ2UoZmFjdG9yeSkgewogIHRyeSB7CiAgICBhd2FpdCB3aXRoVGltZW91dChmYWN0b3J5KCksICdleHBlY3RlZCByZWplY3Rpb24nKTsKICB9IGNhdGNoIChlcnJvcikgewogICAgcmV0dXJuIFN0cmluZyhlcnJvciAmJiBlcnJvci5tZXNzYWdlID8gZXJyb3IubWVzc2FnZSA6IGVycm9yKTsKICB9CiAgdGhyb3cgbmV3IEVycm9yKCdleHBlY3RlZCBwcm9taXNlIHJlamVjdGlvbicpOwp9CgpleHBvcnRzLnJ1biA9IGFzeW5jIGZ1bmN0aW9uIHJ1bigpIHsKICByZXR1cm4gcnVuU3VpdGUoWwogICAgdGVzdCgnSmF2YS5jYWxsU3VzcGVuZCBhd2FpdHMgY29tcGFuaW9uIHN1c3BlbmQgbWV0aG9kIGFuZCByZXR1cm5zIHByb3h5IHJlc3VsdCcsIGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgd2l0aFRpbWVvdXQoCiAgICAgICAgSmF2YS5jYWxsU3VzcGVuZCgKICAgICAgICAgICdjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uQW5kcm9pZFNoZWxsRXhlY3V0b3InLAogICAgICAgICAgJ2V4ZWN1dGVTaGVsbENvbW1hbmQnLAogICAgICAgICAgJ2VjaG8gYnJpZGdlLWNvbnRyYWN0LXN1c3BlbmQtdG9wLWxldmVsJwogICAgICAgICksCiAgICAgICAgJ0phdmEuY2FsbFN1c3BlbmQgY29tcGFuaW9uIHN1c3BlbmQgbWV0aG9kJwogICAgICApOwogICAgICBhc3NlcnRDb21tYW5kUmVzdWx0UHJveHkocmVzdWx0LCAnSmF2YS5jYWxsU3VzcGVuZCcpOwogICAgfSksCiAgICB0ZXN0KCdjbGFzcyBwcm94eSBjYWxsU3VzcGVuZCBhd2FpdHMgY29tcGFuaW9uIHN1c3BlbmQgbWV0aG9kIGFuZCByZXR1cm5zIHByb3h5IHJlc3VsdCcsIGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgd2l0aFRpbWVvdXQoCiAgICAgICAgQW5kcm9pZFNoZWxsRXhlY3V0b3IuY2FsbFN1c3BlbmQoCiAgICAgICAgICAnZXhlY3V0ZVNoZWxsQ29tbWFuZCcsCiAgICAgICAgICAnZWNobyBicmlkZ2UtY29udHJhY3Qtc3VzcGVuZC1jbGFzcycKICAgICAgICApLAogICAgICAgICdjbGFzcyBwcm94eSBjYWxsU3VzcGVuZCBjb21wYW5pb24gc3VzcGVuZCBtZXRob2QnCiAgICAgICk7CiAgICAgIGFzc2VydENvbW1hbmRSZXN1bHRQcm94eShyZXN1bHQsICdjbGFzcyBwcm94eSBjYWxsU3VzcGVuZCcpOwogICAgfSksCiAgICB0ZXN0KCdpbnN0YW5jZSBwcm94eSBjYWxsU3VzcGVuZCBhd2FpdHMgc3VzcGVuZCBtZXRob2QgYW5kIHVud3JhcHMgYm9vbGVhbiByZXN1bHQnLCBhc3luYyAoKSA9PiB7CiAgICAgIGNvbnN0IGxpc3RlbmVyID0gbmV3IFN0YW5kYXJkQWN0aW9uTGlzdGVuZXIoSmF2YS5nZXRBcHBsaWNhdGlvbkNvbnRleHQoKSk7CiAgICAgIGNvbnN0IGF2YWlsYWJsZSA9IGF3YWl0IHdpdGhUaW1lb3V0KAogICAgICAgIGxpc3RlbmVyLmNhbGxTdXNwZW5kKCdpc0F2YWlsYWJsZScpLAogICAgICAgICdpbnN0YW5jZSBwcm94eSBjYWxsU3VzcGVuZCBzdXNwZW5kIG1ldGhvZCcKICAgICAgKTsKICAgICAgYXNzZXJ0RXEodHlwZW9mIGF2YWlsYWJsZSwgJ2Jvb2xlYW4nKTsKICAgICAgYXNzZXJ0RXEoYXZhaWxhYmxlLCB0cnVlKTsKICAgIH0pLAogICAgdGVzdCgnUHJvbWlzZS5hbGwgY2FuIGF3YWl0IG11bHRpcGxlIHN1c3BlbmQgYnJpZGdlIGNhbGxzJywgYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBsaXN0ZW5lciA9IG5ldyBTdGFuZGFyZEFjdGlvbkxpc3RlbmVyKEphdmEuZ2V0QXBwbGljYXRpb25Db250ZXh0KCkpOwogICAgICBjb25zdCByZXN1bHRzID0gYXdhaXQgd2l0aFRpbWVvdXQoCiAgICAgICAgUHJvbWlzZS5hbGwoWwogICAgICAgICAgbGlzdGVuZXIuY2FsbFN1c3BlbmQoJ2lzQXZhaWxhYmxlJyksCiAgICAgICAgICBsaXN0ZW5lci5jYWxsU3VzcGVuZCgnaXNBdmFpbGFibGUnKSwKICAgICAgICAgIGxpc3RlbmVyLmNhbGxTdXNwZW5kKCdpc0F2YWlsYWJsZScpLAogICAgICAgIF0pLAogICAgICAgICdQcm9taXNlLmFsbCBzdXNwZW5kIGJyaWRnZSBiYXRjaCcKICAgICAgKTsKICAgICAgYXNzZXJ0RXEocmVzdWx0cy5sZW5ndGgsIDMpOwogICAgICBhc3NlcnRFcSh0eXBlb2YgcmVzdWx0c1swXSwgJ2Jvb2xlYW4nKTsKICAgICAgYXNzZXJ0RXEodHlwZW9mIHJlc3VsdHNbMV0sICdib29sZWFuJyk7CiAgICAgIGFzc2VydEVxKHR5cGVvZiByZXN1bHRzWzJdLCAnYm9vbGVhbicpOwogICAgICBhc3NlcnRFcShyZXN1bHRzWzBdLCB0cnVlKTsKICAgICAgYXNzZXJ0RXEocmVzdWx0c1sxXSwgdHJ1ZSk7CiAgICAgIGFzc2VydEVxKHJlc3VsdHNbMl0sIHRydWUpOwogICAgfSksCiAgICB0ZXN0KCdpbnN0YW5jZSBwcm94eSBjYWxsU3VzcGVuZCBjb2xsZWN0IHB1bXBzIEphdmEtdG8tSlMgY2FsbGJhY2tzIHdoaWxlIGF3YWl0aW5nIHN0cmVhbSBjb2xsZWN0aW9uJywgYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBzdHJlYW0gPSBTdHJlYW1CdWlsZGVyc0t0LnN0cmVhbU9mKCdhJywgJ2InLCAnYycpOwogICAgICBjb25zdCBjaHVua3MgPSBbXTsKCiAgICAgIGF3YWl0IHdpdGhUaW1lb3V0KAogICAgICAgIHN0cmVhbS5jYWxsU3VzcGVuZCgnY29sbGVjdCcsIHsKICAgICAgICAgIGVtaXQodmFsdWUpIHsKICAgICAgICAgICAgY2h1bmtzLnB1c2goU3RyaW5nKHZhbHVlKSk7CiAgICAgICAgICB9LAogICAgICAgIH0pLAogICAgICAgICdpbnN0YW5jZSBwcm94eSBjYWxsU3VzcGVuZCBzdHJlYW0gY29sbGVjdCcKICAgICAgKTsKCiAgICAgIGFzc2VydEVxKGNodW5rcy5sZW5ndGgsIDMpOwogICAgICBhc3NlcnRFcShjaHVua3Muam9pbignJyksICdhYmMnKTsKICAgIH0pLAogICAgdGVzdCgnSmF2YS5jYWxsU3VzcGVuZCByZWplY3RzIHdpdGggZXhwbGljaXQgbWVzc2FnZSBmb3Igbm9uLXN1c3BlbmQgbWV0aG9kcycsIGFzeW5jICgpID0+IHsKICAgICAgY29uc3QgbWVzc2FnZSA9IGF3YWl0IGV4cGVjdFJlamVjdE1lc3NhZ2UoYXN5bmMgZnVuY3Rpb24gKCkgewogICAgICAgIGF3YWl0IEphdmEuY2FsbFN1c3BlbmQoJ2phdmEubGFuZy5JbnRlZ2VyJywgJ3BhcnNlSW50JywgJzEnKTsKICAgICAgfSk7CiAgICAgIGFzc2VydCgKICAgICAgICBtZXNzYWdlLmluZGV4T2YoInN0YXRpYyBzdXNwZW5kIG1ldGhvZCAncGFyc2VJbnQnIG5vdCBmb3VuZCBvbiBqYXZhLmxhbmcuSW50ZWdlciIpID49IDAsCiAgICAgICAgJ21pc3Npbmcgbm9uLXN1c3BlbmQgcmVqZWN0aW9uIGRldGFpbDogJyArIG1lc3NhZ2UKICAgICAgKTsKICAgIH0pLAogICAgdGVzdCgnaW5zdGFuY2UgcHJveHkgY2FsbFN1c3BlbmQgcmVqZWN0cyB3aXRoIGV4cGxpY2l0IG1lc3NhZ2UgZm9yIG1pc3Npbmcgc3VzcGVuZCBtZXRob2RzJywgYXN5bmMgKCkgPT4gewogICAgICBjb25zdCBsaXN0ZW5lciA9IG5ldyBTdGFuZGFyZEFjdGlvbkxpc3RlbmVyKEphdmEuZ2V0QXBwbGljYXRpb25Db250ZXh0KCkpOwogICAgICBjb25zdCBtZXNzYWdlID0gYXdhaXQgZXhwZWN0UmVqZWN0TWVzc2FnZShhc3luYyBmdW5jdGlvbiAoKSB7CiAgICAgICAgYXdhaXQgbGlzdGVuZXIuY2FsbFN1c3BlbmQoJ21pc3NpbmdTdXNwZW5kTWV0aG9kJyk7CiAgICAgIH0pOwogICAgICBhc3NlcnQoCiAgICAgICAgbWVzc2FnZS5pbmRleE9mKAogICAgICAgICAgImluc3RhbmNlIHN1c3BlbmQgbWV0aG9kICdtaXNzaW5nU3VzcGVuZE1ldGhvZCcgbm90IGZvdW5kIG9uIGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnN5c3RlbS5hY3Rpb24uU3RhbmRhcmRBY3Rpb25MaXN0ZW5lciIKICAgICAgICApID49IDAsCiAgICAgICAgJ21pc3NpbmcgaW5zdGFuY2UgcmVqZWN0aW9uIGRldGFpbDogJyArIG1lc3NhZ2UKICAgICAgKTsKICAgIH0pLAogIF0pOwp9Owo=
+'use strict';
+
+const {
+  assert,
+  assertEq,
+  test,
+  runSuite,
+} = require('./common');
+
+const AndroidShellExecutor = Java.com.bslsjdk.operit.core.tools.system.AndroidShellExecutor;
+const StandardActionListener = Java.com.bslsjdk.operit.core.tools.system.action.StandardActionListener;
+const StreamBuildersKt = Java.type('com.bslsjdk.operit.util.stream.StreamBuildersKt');
+
+const SUSPEND_TIMEOUT_MS = 2000;
+
+function withTimeout(promise, label) {
+  return Promise.race([
+    promise,
+    new Promise(function (_resolve, reject) {
+      setTimeout(function () {
+        reject(new Error((label || 'suspend call') + ' timed out after ' + SUSPEND_TIMEOUT_MS + 'ms'));
+      }, SUSPEND_TIMEOUT_MS);
+    }),
+  ]);
+}
+
+function assertCommandResultProxy(result, label) {
+  assert(result && typeof result === 'object', (label || 'result') + ' should be an object');
+  assertEq(
+    String(result.className),
+    'com.bslsjdk.operit.core.tools.system.AndroidShellExecutor$CommandResult',
+    (label || 'result') + ' className mismatch'
+  );
+  assertEq(typeof result.success, 'boolean', (label || 'result') + ' success should be boolean');
+  assertEq(typeof result.stdout, 'string', (label || 'result') + ' stdout should be string');
+  assertEq(typeof result.stderr, 'string', (label || 'result') + ' stderr should be string');
+  assertEq(typeof result.exitCode, 'number', (label || 'result') + ' exitCode should be number');
+}
+
+async function expectRejectMessage(factory) {
+  try {
+    await withTimeout(factory(), 'expected rejection');
+  } catch (error) {
+    return String(error && error.message ? error.message : error);
+  }
+  throw new Error('expected promise rejection');
+}
+
+exports.run = async function run() {
+  return runSuite([
+    test('Java.callSuspend awaits companion suspend method and returns proxy result', async () => {
+      const result = await withTimeout(
+        Java.callSuspend(
+          'com.bslsjdk.operit.core.tools.system.AndroidShellExecutor',
+          'executeShellCommand',
+          'echo bridge-contract-suspend-top-level'
+        ),
+        'Java.callSuspend companion suspend method'
+      );
+      assertCommandResultProxy(result, 'Java.callSuspend');
+    }),
+    test('class proxy callSuspend awaits companion suspend method and returns proxy result', async () => {
+      const result = await withTimeout(
+        AndroidShellExecutor.callSuspend(
+          'executeShellCommand',
+          'echo bridge-contract-suspend-class'
+        ),
+        'class proxy callSuspend companion suspend method'
+      );
+      assertCommandResultProxy(result, 'class proxy callSuspend');
+    }),
+    test('instance proxy callSuspend awaits suspend method and unwraps boolean result', async () => {
+      const listener = new StandardActionListener(Java.getApplicationContext());
+      const available = await withTimeout(
+        listener.callSuspend('isAvailable'),
+        'instance proxy callSuspend suspend method'
+      );
+      assertEq(typeof available, 'boolean');
+      assertEq(available, true);
+    }),
+    test('Promise.all can await multiple suspend bridge calls', async () => {
+      const listener = new StandardActionListener(Java.getApplicationContext());
+      const results = await withTimeout(
+        Promise.all([
+          listener.callSuspend('isAvailable'),
+          listener.callSuspend('isAvailable'),
+          listener.callSuspend('isAvailable'),
+        ]),
+        'Promise.all suspend bridge batch'
+      );
+      assertEq(results.length, 3);
+      assertEq(typeof results[0], 'boolean');
+      assertEq(typeof results[1], 'boolean');
+      assertEq(typeof results[2], 'boolean');
+      assertEq(results[0], true);
+      assertEq(results[1], true);
+      assertEq(results[2], true);
+    }),
+    test('instance proxy callSuspend collect pumps Java-to-JS callbacks while awaiting stream collection', async () => {
+      const stream = StreamBuildersKt.streamOf('a', 'b', 'c');
+      const chunks = [];
+
+      await withTimeout(
+        stream.callSuspend('collect', {
+          emit(value) {
+            chunks.push(String(value));
+          },
+        }),
+        'instance proxy callSuspend stream collect'
+      );
+
+      assertEq(chunks.length, 3);
+      assertEq(chunks.join(''), 'abc');
+    }),
+    test('Java.callSuspend rejects with explicit message for non-suspend methods', async () => {
+      const message = await expectRejectMessage(async function () {
+        await Java.callSuspend('java.lang.Integer', 'parseInt', '1');
+      });
+      assert(
+        message.indexOf("static suspend method 'parseInt' not found on java.lang.Integer") >= 0,
+        'missing non-suspend rejection detail: ' + message
+      );
+    }),
+    test('instance proxy callSuspend rejects with explicit message for missing suspend methods', async () => {
+      const listener = new StandardActionListener(Java.getApplicationContext());
+      const message = await expectRejectMessage(async function () {
+        await listener.callSuspend('missingSuspendMethod');
+      });
+      assert(
+        message.indexOf(
+          "instance suspend method 'missingSuspendMethod' not found on com.bslsjdk.operit.core.tools.system.action.StandardActionListener"
+        ) >= 0,
+        'missing instance rejection detail: ' + message
+      );
+    }),
+  ]);
+};

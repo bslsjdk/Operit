@@ -1,1 +1,109 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DaGVjawppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuQ2xvc2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LlRleHRGaWVsZFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkud2luZG93LkRpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS53aW5kb3cuRGlhbG9nUHJvcGVydGllcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMuc3R5bGUuaW5wdXQuY29tbW9uLnJlbWVtYmVyTWVudGlvblZpc3VhbFRyYW5zZm9ybWF0aW9uCgpAQ29tcG9zYWJsZQpmdW4gRnVsbHNjcmVlbklucHV0RGlhbG9nKAogICAgdmFsdWU6IFRleHRGaWVsZFZhbHVlLAogICAgb25WYWx1ZUNoYW5nZTogKFRleHRGaWVsZFZhbHVlKSAtPiBVbml0LAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0LAogICAgb25Db25maXJtOiAoKSAtPiBVbml0CikgewogICAgdmFsIG1lbnRpb25WaXN1YWxUcmFuc2Zvcm1hdGlvbiA9CiAgICAgICAgcmVtZW1iZXJNZW50aW9uVmlzdWFsVHJhbnNmb3JtYXRpb24oTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlMYXJnZSkKICAgIHZhciBlZGl0b3JWYWx1ZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKHZhbHVlKSB9CgogICAgZnVuIGZpbmlzaEVkaXRpbmcoKSB7CiAgICAgICAgb25WYWx1ZUNoYW5nZShlZGl0b3JWYWx1ZSkKICAgICAgICBvbkRpc21pc3MoKQogICAgfQoKICAgIERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0geyBmaW5pc2hFZGl0aW5nKCkgfSwKICAgICAgICBwcm9wZXJ0aWVzID0gRGlhbG9nUHJvcGVydGllcyh1c2VQbGF0Zm9ybURlZmF1bHRXaWR0aCA9IGZhbHNlLCBkZWNvckZpdHNTeXN0ZW1XaW5kb3dzID0gZmFsc2UpCiAgICApIHsKICAgICAgICBTdXJmYWNlKAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCksCiAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlCiAgICAgICAgKSB7CiAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAgICAgICAgIC5zeXN0ZW1CYXJzUGFkZGluZygpCiAgICAgICAgICAgICAgICAgICAgLmltZVBhZGRpbmcoKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIC8vIEhlYWRlcgogICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSA4LmRwLCB2ZXJ0aWNhbCA9IDguZHApLAogICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHksCiAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuU3BhY2VCZXR3ZWVuCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBJY29uQnV0dG9uKG9uQ2xpY2sgPSB7IGZpbmlzaEVkaXRpbmcoKSB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuQ2xvc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jbG9zZSkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNoYXRfZnVsbHNjcmVlbl9pbnB1dCksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTWVkaXVtCiAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgICAgICBJY29uQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZShlZGl0b3JWYWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ29uZmlybSgpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5DaGVjaywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnNhdmUpCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgSG9yaXpvbnRhbERpdmlkZXIoKQoKICAgICAgICAgICAgICAgIC8vIElucHV0IEFyZWEKICAgICAgICAgICAgICAgIFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IGVkaXRvclZhbHVlLAogICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IGVkaXRvclZhbHVlID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICB2aXN1YWxUcmFuc2Zvcm1hdGlvbiA9IG1lbnRpb25WaXN1YWxUcmFuc2Zvcm1hdGlvbiwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgICAgICAgICAgICAgIC53ZWlnaHQoMWYpLAogICAgICAgICAgICAgICAgICAgIGNvbG9ycyA9IFRleHRGaWVsZERlZmF1bHRzLmNvbG9ycygKICAgICAgICAgICAgICAgICAgICAgICAgZm9jdXNlZENvbnRhaW5lckNvbG9yID0gQ29sb3IuVHJhbnNwYXJlbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIHVuZm9jdXNlZENvbnRhaW5lckNvbG9yID0gQ29sb3IuVHJhbnNwYXJlbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkQ29udGFpbmVyQ29sb3IgPSBDb2xvci5UcmFuc3BhcmVudCwKICAgICAgICAgICAgICAgICAgICAgICAgZm9jdXNlZEluZGljYXRvckNvbG9yID0gQ29sb3IuVHJhbnNwYXJlbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIHVuZm9jdXNlZEluZGljYXRvckNvbG9yID0gQ29sb3IuVHJhbnNwYXJlbnQKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIHRleHRTdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TGFyZ2UKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.features.chat.components.style.input.common.rememberMentionVisualTransformation
+
+@Composable
+fun FullscreenInputDialog(
+    value: TextFieldValue,
+    onValueChange: (TextFieldValue) -> Unit,
+    onDismiss: () -> Unit,
+    onConfirm: () -> Unit
+) {
+    val mentionVisualTransformation =
+        rememberMentionVisualTransformation(MaterialTheme.typography.bodyLarge)
+    var editorValue by remember { mutableStateOf(value) }
+
+    fun finishEditing() {
+        onValueChange(editorValue)
+        onDismiss()
+    }
+
+    Dialog(
+        onDismissRequest = { finishEditing() },
+        properties = DialogProperties(usePlatformDefaultWidth = false, decorFitsSystemWindows = false)
+    ) {
+        Surface(
+            modifier = Modifier.fillMaxSize(),
+            color = MaterialTheme.colorScheme.surface
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .systemBarsPadding()
+                    .imePadding()
+            ) {
+                // Header
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(horizontal = 8.dp, vertical = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween
+                ) {
+                    IconButton(onClick = { finishEditing() }) {
+                        Icon(
+                            imageVector = Icons.Default.Close,
+                            contentDescription = stringResource(R.string.workflow_close)
+                        )
+                    }
+
+                    Text(
+                        text = stringResource(R.string.chat_fullscreen_input),
+                        style = MaterialTheme.typography.titleMedium
+                    )
+
+                    IconButton(
+                        onClick = {
+                            onValueChange(editorValue)
+                            onConfirm()
+                        }
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.Check,
+                            contentDescription = stringResource(R.string.save)
+                        )
+                    }
+                }
+
+                HorizontalDivider()
+
+                // Input Area
+                TextField(
+                    value = editorValue,
+                    onValueChange = { editorValue = it },
+                    visualTransformation = mentionVisualTransformation,
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .weight(1f),
+                    colors = TextFieldDefaults.colors(
+                        focusedContainerColor = Color.Transparent,
+                        unfocusedContainerColor = Color.Transparent,
+                        disabledContainerColor = Color.Transparent,
+                        focusedIndicatorColor = Color.Transparent,
+                        unfocusedIndicatorColor = Color.Transparent
+                    ),
+                    textStyle = MaterialTheme.typography.bodyLarge
+                )
+            }
+        }
+    }
+}

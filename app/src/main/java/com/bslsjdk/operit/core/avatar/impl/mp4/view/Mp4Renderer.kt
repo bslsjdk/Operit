@@ -1,1 +1,135 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5tcDQudmlldwoKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5vZmZzZXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuRGlzcG9zYWJsZUVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuY29sbGVjdEFzU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXJVcGRhdGVkU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5zY2FsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS52aWV3aW50ZXJvcC5BbmRyb2lkVmlldwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5jb250cm9sLkF2YXRhckNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5pbXBsLm1wNC5jb250cm9sLk1wNEF2YXRhckNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5pbXBsLm1wNC5tb2RlbC5NcDRBdmF0YXJNb2RlbAppbXBvcnQgY29tLmdvb2dsZS5hbmRyb2lkLmV4b3BsYXllcjIuRXhvUGxheWVyCmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQuZXhvcGxheWVyMi5NZWRpYUl0ZW0KaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5leG9wbGF5ZXIyLlBsYXliYWNrRXhjZXB0aW9uCmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQuZXhvcGxheWVyMi5QbGF5ZXIKaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5leG9wbGF5ZXIyLnVpLkFzcGVjdFJhdGlvRnJhbWVMYXlvdXQKaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5leG9wbGF5ZXIyLnVpLlN0eWxlZFBsYXllclZpZXcKaW1wb3J0IGphdmEuaW8uRmlsZQoKQENvbXBvc2FibGUKZnVuIE1wNFJlbmRlcmVyKAogICAgbW9kaWZpZXI6IE1vZGlmaWVyLAogICAgbW9kZWw6IE1wNEF2YXRhck1vZGVsLAogICAgY29udHJvbGxlcjogQXZhdGFyQ29udHJvbGxlciwKICAgIG9uRXJyb3I6IChTdHJpbmcpIC0+IFVuaXQKKSB7CiAgICB2YWwgbXA0Q29udHJvbGxlciA9IGNvbnRyb2xsZXIgYXM/IE1wNEF2YXRhckNvbnRyb2xsZXIKICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIk1wNFJlbmRlcmVyIHJlcXVpcmVzIGEgTXA0QXZhdGFyQ29udHJvbGxlciIpCgogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgdmFsIGxhdGVzdE9uRXJyb3IgYnkgcmVtZW1iZXJVcGRhdGVkU3RhdGUob25FcnJvcikKCiAgICB2YWwgY29udHJvbGxlclN0YXRlIGJ5IG1wNENvbnRyb2xsZXIuc3RhdGUuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIHNjYWxlIGJ5IG1wNENvbnRyb2xsZXIuc2NhbGUuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIHRyYW5zbGF0ZVggYnkgbXA0Q29udHJvbGxlci50cmFuc2xhdGVYLmNvbGxlY3RBc1N0YXRlKCkKICAgIHZhbCB0cmFuc2xhdGVZIGJ5IG1wNENvbnRyb2xsZXIudHJhbnNsYXRlWS5jb2xsZWN0QXNTdGF0ZSgpCgogICAgdmFsIGFuaW1hdGlvbk5hbWUgPSBjb250cm9sbGVyU3RhdGUuY3VycmVudEFuaW1hdGlvbgogICAgdmFsIGFuaW1hdGlvblBhdGggPSBtb2RlbC5hbmltYXRpb25QYXRoRm9yKGFuaW1hdGlvbk5hbWUpCiAgICB2YWwgYW5pbWF0aW9uS2V5ID0KICAgICAgICBhbmltYXRpb25OYW1lCiAgICAgICAgICAgID86IG1vZGVsLmFuaW1hdGlvbkZpbGVGb3JFbW90aW9uKGNvbnRyb2xsZXJTdGF0ZS5lbW90aW9uKQogICAgICAgICAgICA/OiBtb2RlbC5hdmFpbGFibGVGaWxlcy5maXJzdE9yTnVsbCgpCgogICAgdmFsIGV4b1BsYXllciA9IHJlbWVtYmVyKG1vZGVsLmlkKSB7CiAgICAgICAgRXhvUGxheWVyLkJ1aWxkZXIoY29udGV4dCkuYnVpbGQoKS5hcHBseSB7CiAgICAgICAgICAgIHZvbHVtZSA9IDBmCiAgICAgICAgICAgIHBsYXlXaGVuUmVhZHkgPSB0cnVlCiAgICAgICAgfQogICAgfQoKICAgIERpc3Bvc2FibGVFZmZlY3QoZXhvUGxheWVyKSB7CiAgICAgICAgb25EaXNwb3NlIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGV4b1BsYXllci5zdG9wKCkKICAgICAgICAgICAgICAgIGV4b1BsYXllci5jbGVhck1lZGlhSXRlbXMoKQogICAgICAgICAgICAgICAgZXhvUGxheWVyLnJlbGVhc2UoKQogICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBMYXVuY2hlZEVmZmVjdChhbmltYXRpb25QYXRoLCBjb250cm9sbGVyU3RhdGUuaXNMb29waW5nLCBjb250cm9sbGVyU3RhdGUucGxheWJhY2tOb25jZSkgewogICAgICAgIGlmIChhbmltYXRpb25QYXRoLmlzQmxhbmsoKSkgewogICAgICAgICAgICBleG9QbGF5ZXIuc3RvcCgpCiAgICAgICAgICAgIGV4b1BsYXllci5jbGVhck1lZGlhSXRlbXMoKQogICAgICAgICAgICByZXR1cm5ATGF1bmNoZWRFZmZlY3QKICAgICAgICB9CgogICAgICAgIGV4b1BsYXllci5zZXRNZWRpYUl0ZW0oTWVkaWFJdGVtLmZyb21VcmkocmVzb2x2ZU1lZGlhVXJpKGFuaW1hdGlvblBhdGgpKSkKICAgICAgICBleG9QbGF5ZXIucmVwZWF0TW9kZSA9IGlmIChjb250cm9sbGVyU3RhdGUuaXNMb29waW5nKSBQbGF5ZXIuUkVQRUFUX01PREVfT05FIGVsc2UgUGxheWVyLlJFUEVBVF9NT0RFX09GRgogICAgICAgIGV4b1BsYXllci5wcmVwYXJlKCkKICAgICAgICBleG9QbGF5ZXIuc2Vla1RvKDBMKQogICAgICAgIGV4b1BsYXllci5wbGF5V2hlblJlYWR5ID0gdHJ1ZQogICAgfQoKICAgIERpc3Bvc2FibGVFZmZlY3QoZXhvUGxheWVyLCBhbmltYXRpb25LZXksIGNvbnRyb2xsZXJTdGF0ZS5pc0xvb3BpbmcpIHsKICAgICAgICB2YWwgbGlzdGVuZXIgPQogICAgICAgICAgICBvYmplY3QgOiBQbGF5ZXIuTGlzdGVuZXIgewogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uUGxheWJhY2tTdGF0ZUNoYW5nZWQocGxheWJhY2tTdGF0ZTogSW50KSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKHBsYXliYWNrU3RhdGUgPT0gUGxheWVyLlNUQVRFX0VOREVEICYmICFjb250cm9sbGVyU3RhdGUuaXNMb29waW5nKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbktleT8ubGV0KG1wNENvbnRyb2xsZXI6Om9uQW5pbWF0aW9uUGxheWJhY2tDb21wbGV0ZWQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvblBsYXllckVycm9yKGVycm9yOiBQbGF5YmFja0V4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIGxhdGVzdE9uRXJyb3IoIkZhaWxlZCB0byBsb2FkIGFuaW1hdGlvbjogJHtlcnJvci5tZXNzYWdlID86ICJ1bmtub3duIn0iKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgIGV4b1BsYXllci5hZGRMaXN0ZW5lcihsaXN0ZW5lcikKICAgICAgICBvbkRpc3Bvc2UgewogICAgICAgICAgICBleG9QbGF5ZXIucmVtb3ZlTGlzdGVuZXIobGlzdGVuZXIpCiAgICAgICAgfQogICAgfQoKICAgIEFuZHJvaWRWaWV3KAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIKICAgICAgICAgICAgLnNjYWxlKHNjYWxlKQogICAgICAgICAgICAub2Zmc2V0KHggPSB0cmFuc2xhdGVYLmRwLCB5ID0gdHJhbnNsYXRlWS5kcCksCiAgICAgICAgZmFjdG9yeSA9IHsgY3R4IC0+CiAgICAgICAgICAgIFN0eWxlZFBsYXllclZpZXcoY3R4KS5hcHBseSB7CiAgICAgICAgICAgICAgICBwbGF5ZXIgPSBleG9QbGF5ZXIKICAgICAgICAgICAgICAgIHVzZUNvbnRyb2xsZXIgPSBmYWxzZQogICAgICAgICAgICAgICAgcmVzaXplTW9kZSA9IEFzcGVjdFJhdGlvRnJhbWVMYXlvdXQuUkVTSVpFX01PREVfWk9PTQogICAgICAgICAgICAgICAgc2V0QmFja2dyb3VuZENvbG9yKENvbG9yLlRSQU5TUEFSRU5UKQogICAgICAgICAgICAgICAgc2V0U2h1dHRlckJhY2tncm91bmRDb2xvcihDb2xvci5UUkFOU1BBUkVOVCkKICAgICAgICAgICAgICAgIHNldEtlZXBDb250ZW50T25QbGF5ZXJSZXNldCh0cnVlKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICB1cGRhdGUgPSB7IHBsYXllclZpZXcgLT4KICAgICAgICAgICAgaWYgKHBsYXllclZpZXcucGxheWVyICE9PSBleG9QbGF5ZXIpIHsKICAgICAgICAgICAgICAgIHBsYXllclZpZXcucGxheWVyID0gZXhvUGxheWVyCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApCn0KCnByaXZhdGUgZnVuIHJlc29sdmVNZWRpYVVyaShhbmltYXRpb25QYXRoOiBTdHJpbmcpOiBVcmkgewogICAgdmFsIGZpbGUgPSBGaWxlKGFuaW1hdGlvblBhdGgpCiAgICByZXR1cm4gaWYgKGZpbGUuaXNBYnNvbHV0ZSkgewogICAgICAgIFVyaS5mcm9tRmlsZShmaWxlKQogICAgfSBlbHNlIHsKICAgICAgICBVcmkucGFyc2UoImFzc2V0Oi8vLyRhbmltYXRpb25QYXRoIikKICAgIH0KfQo=
+package com.bslsjdk.operit.core.avatar.impl.mp4.view
+
+import android.graphics.Color
+import android.net.Uri
+import androidx.compose.foundation.layout.offset
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.impl.mp4.control.Mp4AvatarController
+import com.bslsjdk.operit.core.avatar.impl.mp4.model.Mp4AvatarModel
+import com.google.android.exoplayer2.ExoPlayer
+import com.google.android.exoplayer2.MediaItem
+import com.google.android.exoplayer2.PlaybackException
+import com.google.android.exoplayer2.Player
+import com.google.android.exoplayer2.ui.AspectRatioFrameLayout
+import com.google.android.exoplayer2.ui.StyledPlayerView
+import java.io.File
+
+@Composable
+fun Mp4Renderer(
+    modifier: Modifier,
+    model: Mp4AvatarModel,
+    controller: AvatarController,
+    onError: (String) -> Unit
+) {
+    val mp4Controller = controller as? Mp4AvatarController
+        ?: throw IllegalArgumentException("Mp4Renderer requires a Mp4AvatarController")
+
+    val context = LocalContext.current
+    val latestOnError by rememberUpdatedState(onError)
+
+    val controllerState by mp4Controller.state.collectAsState()
+    val scale by mp4Controller.scale.collectAsState()
+    val translateX by mp4Controller.translateX.collectAsState()
+    val translateY by mp4Controller.translateY.collectAsState()
+
+    val animationName = controllerState.currentAnimation
+    val animationPath = model.animationPathFor(animationName)
+    val animationKey =
+        animationName
+            ?: model.animationFileForEmotion(controllerState.emotion)
+            ?: model.availableFiles.firstOrNull()
+
+    val exoPlayer = remember(model.id) {
+        ExoPlayer.Builder(context).build().apply {
+            volume = 0f
+            playWhenReady = true
+        }
+    }
+
+    DisposableEffect(exoPlayer) {
+        onDispose {
+            try {
+                exoPlayer.stop()
+                exoPlayer.clearMediaItems()
+                exoPlayer.release()
+            } catch (_: Exception) {
+            }
+        }
+    }
+
+    LaunchedEffect(animationPath, controllerState.isLooping, controllerState.playbackNonce) {
+        if (animationPath.isBlank()) {
+            exoPlayer.stop()
+            exoPlayer.clearMediaItems()
+            return@LaunchedEffect
+        }
+
+        exoPlayer.setMediaItem(MediaItem.fromUri(resolveMediaUri(animationPath)))
+        exoPlayer.repeatMode = if (controllerState.isLooping) Player.REPEAT_MODE_ONE else Player.REPEAT_MODE_OFF
+        exoPlayer.prepare()
+        exoPlayer.seekTo(0L)
+        exoPlayer.playWhenReady = true
+    }
+
+    DisposableEffect(exoPlayer, animationKey, controllerState.isLooping) {
+        val listener =
+            object : Player.Listener {
+                override fun onPlaybackStateChanged(playbackState: Int) {
+                    if (playbackState == Player.STATE_ENDED && !controllerState.isLooping) {
+                        animationKey?.let(mp4Controller::onAnimationPlaybackCompleted)
+                    }
+                }
+
+                override fun onPlayerError(error: PlaybackException) {
+                    latestOnError("Failed to load animation: ${error.message ?: "unknown"}")
+                }
+            }
+
+        exoPlayer.addListener(listener)
+        onDispose {
+            exoPlayer.removeListener(listener)
+        }
+    }
+
+    AndroidView(
+        modifier = modifier
+            .scale(scale)
+            .offset(x = translateX.dp, y = translateY.dp),
+        factory = { ctx ->
+            StyledPlayerView(ctx).apply {
+                player = exoPlayer
+                useController = false
+                resizeMode = AspectRatioFrameLayout.RESIZE_MODE_ZOOM
+                setBackgroundColor(Color.TRANSPARENT)
+                setShutterBackgroundColor(Color.TRANSPARENT)
+                setKeepContentOnPlayerReset(true)
+            }
+        },
+        update = { playerView ->
+            if (playerView.player !== exoPlayer) {
+                playerView.player = exoPlayer
+            }
+        }
+    )
+}
+
+private fun resolveMediaUri(animationPath: String): Uri {
+    val file = File(animationPath)
+    return if (file.isAbsolute) {
+        Uri.fromFile(file)
+    } else {
+        Uri.parse("asset:///$animationPath")
+    }
+}

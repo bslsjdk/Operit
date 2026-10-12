@@ -1,1 +1,6 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5kYW8KCmRhdGEgY2xhc3MgQ2hhdE1lc3NhZ2VDb3VudCgKICAgICAgICB2YWwgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgdmFsIGNvdW50OiBJbnQKKQo=
+package com.bslsjdk.operit.data.dao
+
+data class ChatMessageCount(
+        val chatId: String,
+        val count: Int
+)

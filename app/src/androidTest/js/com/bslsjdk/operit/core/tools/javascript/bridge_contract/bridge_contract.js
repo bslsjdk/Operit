@@ -1,1 +1,67 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgYmFzaWNTeW50YXggPSByZXF1aXJlKCcuL2Jhc2ljX3N5bnRheCcpOwpjb25zdCBob3N0UnVudGltZSA9IHJlcXVpcmUoJy4vaG9zdF9ydW50aW1lJyk7CmNvbnN0IGludGVyZmFjZXMgPSByZXF1aXJlKCcuL2ludGVyZmFjZXMnKTsKY29uc3QgamF2YVRvSnMgPSByZXF1aXJlKCcuL2phdmFfdG9fanMnKTsKY29uc3QganNUb0phdmEgPSByZXF1aXJlKCcuL2pzX3RvX2phdmEnKTsKY29uc3Qgc3VzcGVuZEF3YWl0ID0gcmVxdWlyZSgnLi9zdXNwZW5kX2F3YWl0Jyk7CgpmdW5jdGlvbiBzdW1tYXJpemVTdWl0ZXMoc3VpdGVzKSB7CiAgY29uc3Qgc3VtbWFyeSA9IHsKICAgIHN1Y2Nlc3M6IHRydWUsCiAgICBwYXNzZWQ6IDAsCiAgICBmYWlsZWQ6IDAsCiAgICBkdXJhdGlvbk1zOiAwLAogICAgZmFpbHVyZXM6IFtdLAogICAgc3VpdGVzOiBbXSwKICB9OwoKICBmb3IgKGNvbnN0IHN1aXRlIG9mIHN1aXRlcykgewogICAgY29uc3QgcmVzdWx0ID0gc3VpdGUucmVzdWx0OwogICAgc3VtbWFyeS5zdWNjZXNzID0gc3VtbWFyeS5zdWNjZXNzICYmIHJlc3VsdC5zdWNjZXNzOwogICAgc3VtbWFyeS5wYXNzZWQgKz0gcmVzdWx0LnBhc3NlZDsKICAgIHN1bW1hcnkuZmFpbGVkICs9IHJlc3VsdC5mYWlsZWQ7CiAgICBzdW1tYXJ5LmR1cmF0aW9uTXMgKz0gcmVzdWx0LmR1cmF0aW9uTXM7CiAgICBzdW1tYXJ5LnN1aXRlcy5wdXNoKHsKICAgICAgbmFtZTogc3VpdGUubmFtZSwKICAgICAgc3VjY2VzczogcmVzdWx0LnN1Y2Nlc3MsCiAgICAgIHBhc3NlZDogcmVzdWx0LnBhc3NlZCwKICAgICAgZmFpbGVkOiByZXN1bHQuZmFpbGVkLAogICAgICBkdXJhdGlvbk1zOiByZXN1bHQuZHVyYXRpb25NcywKICAgICAgZmFpbHVyZXM6IHJlc3VsdC5mYWlsdXJlcywKICAgIH0pOwogICAgZm9yIChjb25zdCBmYWlsdXJlIG9mIHJlc3VsdC5mYWlsdXJlcykgewogICAgICBzdW1tYXJ5LmZhaWx1cmVzLnB1c2goewogICAgICAgIG5hbWU6IHN1aXRlLm5hbWUgKyAnIDo6ICcgKyBmYWlsdXJlLm5hbWUsCiAgICAgICAgZXJyb3I6IGZhaWx1cmUuZXJyb3IsCiAgICAgIH0pOwogICAgfQogIH0KCiAgcmV0dXJuIHN1bW1hcnk7Cn0KCmV4cG9ydHMucnVuQmFzaWNTeW50YXggPSBiYXNpY1N5bnRheC5ydW47CmV4cG9ydHMucnVuSG9zdFJ1bnRpbWUgPSBob3N0UnVudGltZS5ydW47CmV4cG9ydHMucnVuSW50ZXJmYWNlcyA9IGludGVyZmFjZXMucnVuOwpleHBvcnRzLnJ1bkphdmFUb0pzID0gamF2YVRvSnMucnVuOwpleHBvcnRzLnJ1bkpzVG9KYXZhID0ganNUb0phdmEucnVuOwpleHBvcnRzLnJ1blN1c3BlbmRBd2FpdCA9IHN1c3BlbmRBd2FpdC5ydW47CgpleHBvcnRzLnJ1biA9IGFzeW5jIGZ1bmN0aW9uIHJ1bigpIHsKICBjb25zdCBiYXNpYyA9IGF3YWl0IGJhc2ljU3ludGF4LnJ1bigpOwogIGNvbnN0IHJ1bnRpbWUgPSBhd2FpdCBob3N0UnVudGltZS5ydW4oKTsKICBjb25zdCBpZmFjZSA9IGF3YWl0IGludGVyZmFjZXMucnVuKCk7CiAgY29uc3QgaW5ib3VuZCA9IGF3YWl0IGphdmFUb0pzLnJ1bigpOwogIGNvbnN0IG91dGJvdW5kID0gYXdhaXQganNUb0phdmEucnVuKCk7CiAgY29uc3Qgc3VzcGVuZCA9IGF3YWl0IHN1c3BlbmRBd2FpdC5ydW4oKTsKICByZXR1cm4gc3VtbWFyaXplU3VpdGVzKFsKICAgIHsgbmFtZTogJ2Jhc2ljX3N5bnRheCcsIHJlc3VsdDogYmFzaWMgfSwKICAgIHsgbmFtZTogJ2hvc3RfcnVudGltZScsIHJlc3VsdDogcnVudGltZSB9LAogICAgeyBuYW1lOiAnaW50ZXJmYWNlcycsIHJlc3VsdDogaWZhY2UgfSwKICAgIHsgbmFtZTogJ2phdmFfdG9fanMnLCByZXN1bHQ6IGluYm91bmQgfSwKICAgIHsgbmFtZTogJ2pzX3RvX2phdmEnLCByZXN1bHQ6IG91dGJvdW5kIH0sCiAgICB7IG5hbWU6ICdzdXNwZW5kX2F3YWl0JywgcmVzdWx0OiBzdXNwZW5kIH0sCiAgXSk7Cn07Cg==
+'use strict';
+
+const basicSyntax = require('./basic_syntax');
+const hostRuntime = require('./host_runtime');
+const interfaces = require('./interfaces');
+const javaToJs = require('./java_to_js');
+const jsToJava = require('./js_to_java');
+const suspendAwait = require('./suspend_await');
+
+function summarizeSuites(suites) {
+  const summary = {
+    success: true,
+    passed: 0,
+    failed: 0,
+    durationMs: 0,
+    failures: [],
+    suites: [],
+  };
+
+  for (const suite of suites) {
+    const result = suite.result;
+    summary.success = summary.success && result.success;
+    summary.passed += result.passed;
+    summary.failed += result.failed;
+    summary.durationMs += result.durationMs;
+    summary.suites.push({
+      name: suite.name,
+      success: result.success,
+      passed: result.passed,
+      failed: result.failed,
+      durationMs: result.durationMs,
+      failures: result.failures,
+    });
+    for (const failure of result.failures) {
+      summary.failures.push({
+        name: suite.name + ' :: ' + failure.name,
+        error: failure.error,
+      });
+    }
+  }
+
+  return summary;
+}
+
+exports.runBasicSyntax = basicSyntax.run;
+exports.runHostRuntime = hostRuntime.run;
+exports.runInterfaces = interfaces.run;
+exports.runJavaToJs = javaToJs.run;
+exports.runJsToJava = jsToJava.run;
+exports.runSuspendAwait = suspendAwait.run;
+
+exports.run = async function run() {
+  const basic = await basicSyntax.run();
+  const runtime = await hostRuntime.run();
+  const iface = await interfaces.run();
+  const inbound = await javaToJs.run();
+  const outbound = await jsToJava.run();
+  const suspend = await suspendAwait.run();
+  return summarizeSuites([
+    { name: 'basic_syntax', result: basic },
+    { name: 'host_runtime', result: runtime },
+    { name: 'interfaces', result: iface },
+    { name: 'java_to_js', result: inbound },
+    { name: 'js_to_java', result: outbound },
+    { name: 'suspend_await', result: suspend },
+  ]);
+};

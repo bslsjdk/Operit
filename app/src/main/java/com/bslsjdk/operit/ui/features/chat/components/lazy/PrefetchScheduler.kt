@@ -1,1 +1,112 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpAZmlsZTpTdXBwcmVzcygiREVQUkVDQVRJT04iKSAvLyBiLzQyMDU1MTUzNQoKcGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmxhenkKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uRXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaQoKLyoqCiAqIEltcGxlbWVudGF0aW9ucyBvZiB0aGlzIGludGVyZmFjZSBhY2NlcHQgcHJlZmV0Y2ggcmVxdWVzdHMgdmlhIFtzY2hlZHVsZVByZWZldGNoXSBhbmQgZGVjaWRlIHdoZW4KICogdG8gZXhlY3V0ZSB0aGVtIGluIGEgd2F5IHRoYXQgd2lsbCBoYXZlIG1pbmltYWwgaW1wYWN0IG9uIHVzZXIgZXhwZXJpZW5jZSwgZS5nLiBkdXJpbmcgZnJhbWUgaWRsZQogKiB0aW1lLgogKgogKiBSZXF1ZXN0cyBzaG91bGQgYmUgZXhlY3V0ZWQgYnkgaW52b2tpbmcgW1ByZWZldGNoUmVxdWVzdC5leGVjdXRlXS4gVGhlIGltcGxlbWVudGF0aW9uIG9mCiAqIFtQcmVmZXRjaFJlcXVlc3QuZXhlY3V0ZV0gd2lsbCByZXR1cm4gYGZhbHNlYCB3aGVuIGFsbCB3b3JrIGZvciB0aGF0IHJlcXVlc3QgaXMgZG9uZSwgb3IgYHRydWVgCiAqIHdoZW4gaXQgc3RpbGwgaGFzIG1vcmUgdG8gZG8gYnV0IGRvZXNuJ3QgdGhpbmsgaXQgY2FuIGNvbXBsZXRlIGl0IHdpdGhpbgogKiBbUHJlZmV0Y2hSZXF1ZXN0U2NvcGUuYXZhaWxhYmxlVGltZU5hbm9zXS4KICovCkBEZXByZWNhdGVkKAogICAgIkN1c3RvbWl6YXRpb24gb2YgUHJlZmV0Y2hTY2hlZHVsZXIgaXMgbm8gbG9uZ2VyIHN1cHBvcnRlZC4gTGF6eUxheW91dCB3aWxsIGF0dGFjaCAiICsKICAgICAgICAiYW4gYXBwcm9wcmlhdGUgc2NoZWR1bGVyIGludGVybmFsbHkuIElmIHlvdSBuZWVkZWQgdG8gY3VzdG9taXplIGl0IHBsZWFzZSBmaWxlIGEgRmVhdHVyZSAiICsKICAgICAgICAiUmVxdWVzdC4iCikKQEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGkKaW50ZXJmYWNlIFByZWZldGNoU2NoZWR1bGVyIHsKCiAgICAvKioKICAgICAqIEFjY2VwdHMgYSBwcmVmZXRjaCByZXF1ZXN0LiBJbXBsZW1lbnRhdGlvbnMgc2hvdWxkIGZpbmQgYSB0aW1lIHRvIGV4ZWN1dGUgdGhlbSB3aGljaCB3aWxsCiAgICAgKiBoYXZlIG1pbmltYWwgaW1wYWN0IG9uIHVzZXIgZXhwZXJpZW5jZS4KICAgICAqLwogICAgZnVuIHNjaGVkdWxlUHJlZmV0Y2gocHJlZmV0Y2hSZXF1ZXN0OiBQcmVmZXRjaFJlcXVlc3QpCn0KCi8qKgogKiBBIHJlcXVlc3QgZm9yIHByZWZldGNoIHdoaWNoIGNhbiBiZSBzdWJtaXR0ZWQgdG8gYSBbUHJlZmV0Y2hTY2hlZHVsZXJdIHRvIGV4ZWN1dGUgZHVyaW5nIGlkbGUKICogdGltZS4KICovCkBEZXByZWNhdGVkKAogICAgIkN1c3RvbWl6YXRpb24gb2YgUHJlZmV0Y2hTY2hlZHVsZXIgaXMgbm8gbG9uZ2VyIHN1cHBvcnRlZC4gTGF6eUxheW91dCB3aWxsIGF0dGFjaCAiICsKICAgICAgICAiYW4gYXBwcm9wcmlhdGUgc2NoZWR1bGVyIGludGVybmFsbHkuIElmIHlvdSBuZWVkZWQgdG8gY3VzdG9taXplIGl0IHBsZWFzZSBmaWxlIGEgRmVhdHVyZSAiICsKICAgICAgICAiUmVxdWVzdC4iCikKQEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGkKc2VhbGVkIGludGVyZmFjZSBQcmVmZXRjaFJlcXVlc3QgewoKICAgIC8qKgogICAgICogR2l2ZXMgdGhpcyByZXF1ZXN0IGEgY2hhbmNlIHRvIGV4ZWN1dGUgd29yay4gSXQgc2hvdWxkIG9ubHkgZG8gd29yayBpZiBpdCB0aGlua3MgaXQgY2FuCiAgICAgKiBmaW5pc2ggaXQgd2l0aGluIFtQcmVmZXRjaFJlcXVlc3RTY29wZS5hdmFpbGFibGVUaW1lTmFub3NdLgogICAgICoKICAgICAqIEByZXR1cm4gd2hldGhlciB0aGlzIHJlcXVlc3QgaGFzIG1vcmUgd29yayBpdCB3YW50cyB0byBkbywgYnV0IHJhbiBvdXQgb2YgdGltZS4gYHRydWVgCiAgICAgKiAgIGluZGljYXRlcyB0aGlzIHJlcXVlc3Qgd2FudHMgdG8gaGF2ZSBbZXhlY3V0ZV0gY2FsbGVkIGFnYWluIHRvIGRvIG1vcmUgd29yaywgd2hpbGUgYGZhbHNlYAogICAgICogICBpbmRpY2F0ZXMgaXRzIHdvcmsgaXMgY29tcGxldGUuCiAgICAgKi8KICAgIGZ1biBQcmVmZXRjaFJlcXVlc3RTY29wZS5leGVjdXRlKCk6IEJvb2xlYW4KfQoKLyoqCiAqIFNjb3BlIGZvciBbUHJlZmV0Y2hSZXF1ZXN0LmV4ZWN1dGVdLCBzdXBwbHlpbmcgaW5mbyBhYm91dCBob3cgbXVjaCB0aW1lIGl0IGhhcyB0byBleGVjdXRlCiAqIHJlcXVlc3RzIGFuZCB0aGUgdHlwZSBvZiBleGVjdXRpb24gbW9kZS4KICovCkBEZXByZWNhdGVkKAogICAgIkN1c3RvbWl6YXRpb24gb2YgUHJlZmV0Y2hTY2hlZHVsZXIgaXMgbm8gbG9uZ2VyIHN1cHBvcnRlZC4gTGF6eUxheW91dCB3aWxsIGF0dGFjaCAiICsKICAgICAgICAiYW4gYXBwcm9wcmlhdGUgc2NoZWR1bGVyIGludGVybmFsbHkuIElmIHlvdSBuZWVkZWQgdG8gY3VzdG9taXplIGl0IHBsZWFzZSBmaWxlIGEgRmVhdHVyZSAiICsKICAgICAgICAiUmVxdWVzdC4iCikKQEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGkKaW50ZXJmYWNlIFByZWZldGNoUmVxdWVzdFNjb3BlIHsKICAgIC8qKgogICAgICogSG93IG11Y2ggdGltZSBpcyBhdmFpbGFibGUgdG8gZG8gcHJlZmV0Y2ggd29yay4gSW1wbGVtZW50YXRpb25zIG9mIFtQcmVmZXRjaFJlcXVlc3RdIHNob3VsZAogICAgICogZG8gdGhlaXIgYmVzdCB0byBmaXQgdGhlaXIgd29yayBpbnRvIHRoaXMgdGltZSB3aXRob3V0IGdvaW5nIG92ZXIuCiAgICAgKi8KICAgIGZ1biBhdmFpbGFibGVUaW1lTmFub3MoKTogTG9uZwp9CgovKioKICogU3VwcG9ydCBpbnRlcm5hbCBpbnRlcmZhY2UgdG8gYWxsb3cgbGFuZGluZyBpZGxlIGRldGVjdGlvbiBmZWF0dXJlcyB0byB0aGUgZGVmYXVsdCBwcmVmZXRjaGVyLiBJdAogKiBhbHNvIHByb3ZpZGVzIHRoZSBhYmlsaXR5IHRvIHNjaGVkdWxlIHByaW9yaXR5IGJhc2VkIHJlcXVlc3RzLgogKi8KQEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGkKaW50ZXJuYWwgaW50ZXJmYWNlIFByaW9yaXR5UHJlZmV0Y2hTY2hlZHVsZXIgOiBQcmVmZXRjaFNjaGVkdWxlciB7CgogICAgb3ZlcnJpZGUgZnVuIHNjaGVkdWxlUHJlZmV0Y2gocHJlZmV0Y2hSZXF1ZXN0OiBQcmVmZXRjaFJlcXVlc3QpID0KICAgICAgICBzY2hlZHVsZUhpZ2hQcmlvcml0eVByZWZldGNoKHByZWZldGNoUmVxdWVzdCkKCiAgICAvKioKICAgICAqIEFjY2VwdHMgYSBwcmVmZXRjaCByZXF1ZXN0LiBJbXBsZW1lbnRhdGlvbnMgc2hvdWxkIGZpbmQgYSB0aW1lIHRvIGV4ZWN1dGUgdGhlbSB3aGljaCB3aWxsCiAgICAgKiBoYXZlIG1pbmltYWwgaW1wYWN0IG9uIHVzZXIgZXhwZXJpZW5jZS4gTG93IHByaW9yaXR5IHJlcXVlc3RzIHdpbGwgYmUgZXhlY3V0ZWQgYWZ0ZXIgaGlnaAogICAgICogcHJpb3JpdHkgb25lcy4KICAgICAqLwogICAgZnVuIHNjaGVkdWxlTG93UHJpb3JpdHlQcmVmZXRjaChwcmVmZXRjaFJlcXVlc3Q6IFByZWZldGNoUmVxdWVzdCkKCiAgICAvKioKICAgICAqIEFjY2VwdHMgYSBwcmVmZXRjaCByZXF1ZXN0LiBJbXBsZW1lbnRhdGlvbnMgc2hvdWxkIGZpbmQgYSB0aW1lIHRvIGV4ZWN1dGUgdGhlbSB3aGljaCB3aWxsCiAgICAgKiBoYXZlIG1pbmltYWwgaW1wYWN0IG9uIHVzZXIgZXhwZXJpZW5jZS4gSGlnaCBwcmlvcml0eSByZXF1ZXN0cyBpbnNlcnRlZCBhdCB0aGUgc3RhcnQgb2YgdGhlCiAgICAgKiBleGVjdXRpb24gcXVldWUuCiAgICAgKi8KICAgIGZ1biBzY2hlZHVsZUhpZ2hQcmlvcml0eVByZWZldGNoKHByZWZldGNoUmVxdWVzdDogUHJlZmV0Y2hSZXF1ZXN0KQp9Cg==
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@file:Suppress("DEPRECATION") // b/420551535
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.ExperimentalFoundationApi
+
+/**
+ * Implementations of this interface accept prefetch requests via [schedulePrefetch] and decide when
+ * to execute them in a way that will have minimal impact on user experience, e.g. during frame idle
+ * time.
+ *
+ * Requests should be executed by invoking [PrefetchRequest.execute]. The implementation of
+ * [PrefetchRequest.execute] will return `false` when all work for that request is done, or `true`
+ * when it still has more to do but doesn't think it can complete it within
+ * [PrefetchRequestScope.availableTimeNanos].
+ */
+@Deprecated(
+    "Customization of PrefetchScheduler is no longer supported. LazyLayout will attach " +
+        "an appropriate scheduler internally. If you needed to customize it please file a Feature " +
+        "Request."
+)
+@ExperimentalFoundationApi
+interface PrefetchScheduler {
+
+    /**
+     * Accepts a prefetch request. Implementations should find a time to execute them which will
+     * have minimal impact on user experience.
+     */
+    fun schedulePrefetch(prefetchRequest: PrefetchRequest)
+}
+
+/**
+ * A request for prefetch which can be submitted to a [PrefetchScheduler] to execute during idle
+ * time.
+ */
+@Deprecated(
+    "Customization of PrefetchScheduler is no longer supported. LazyLayout will attach " +
+        "an appropriate scheduler internally. If you needed to customize it please file a Feature " +
+        "Request."
+)
+@ExperimentalFoundationApi
+sealed interface PrefetchRequest {
+
+    /**
+     * Gives this request a chance to execute work. It should only do work if it thinks it can
+     * finish it within [PrefetchRequestScope.availableTimeNanos].
+     *
+     * @return whether this request has more work it wants to do, but ran out of time. `true`
+     *   indicates this request wants to have [execute] called again to do more work, while `false`
+     *   indicates its work is complete.
+     */
+    fun PrefetchRequestScope.execute(): Boolean
+}
+
+/**
+ * Scope for [PrefetchRequest.execute], supplying info about how much time it has to execute
+ * requests and the type of execution mode.
+ */
+@Deprecated(
+    "Customization of PrefetchScheduler is no longer supported. LazyLayout will attach " +
+        "an appropriate scheduler internally. If you needed to customize it please file a Feature " +
+        "Request."
+)
+@ExperimentalFoundationApi
+interface PrefetchRequestScope {
+    /**
+     * How much time is available to do prefetch work. Implementations of [PrefetchRequest] should
+     * do their best to fit their work into this time without going over.
+     */
+    fun availableTimeNanos(): Long
+}
+
+/**
+ * Support internal interface to allow landing idle detection features to the default prefetcher. It
+ * also provides the ability to schedule priority based requests.
+ */
+@ExperimentalFoundationApi
+internal interface PriorityPrefetchScheduler : PrefetchScheduler {
+
+    override fun schedulePrefetch(prefetchRequest: PrefetchRequest) =
+        scheduleHighPriorityPrefetch(prefetchRequest)
+
+    /**
+     * Accepts a prefetch request. Implementations should find a time to execute them which will
+     * have minimal impact on user experience. Low priority requests will be executed after high
+     * priority ones.
+     */
+    fun scheduleLowPriorityPrefetch(prefetchRequest: PrefetchRequest)
+
+    /**
+     * Accepts a prefetch request. Implementations should find a time to execute them which will
+     * have minimal impact on user experience. High priority requests inserted at the start of the
+     * execution queue.
+     */
+    fun scheduleHighPriorityPrefetch(prefetchRequest: PrefetchRequest)
+}

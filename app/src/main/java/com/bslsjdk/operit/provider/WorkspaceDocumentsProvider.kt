@@ -1,1 +1,294 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmRhdGFiYXNlLkN1cnNvcgppbXBvcnQgYW5kcm9pZC5kYXRhYmFzZS5NYXRyaXhDdXJzb3IKaW1wb3J0IGFuZHJvaWQub3MuQ2FuY2VsbGF0aW9uU2lnbmFsCmltcG9ydCBhbmRyb2lkLm9zLlBhcmNlbEZpbGVEZXNjcmlwdG9yCmltcG9ydCBhbmRyb2lkLnByb3ZpZGVyLkRvY3VtZW50c0NvbnRyYWN0CmltcG9ydCBhbmRyb2lkLnByb3ZpZGVyLkRvY3VtZW50c1Byb3ZpZGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWQud2Via2l0Lk1pbWVUeXBlTWFwCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uRmlsZU5vdEZvdW5kRXhjZXB0aW9uCgovKioKICogV29ya3NwYWNl55uu5b2V55qERG9jdW1lbnRzUHJvdmlkZXIKICogCiAqIOmAmui/h1N0b3JhZ2UgQWNjZXNzIEZyYW1ld29ya+aatOmcsuWGhemDqOWtmOWCqOeahHdvcmtzcGFjZeebruW9lQogKiDot6/lvoQ6IC9kYXRhL2RhdGEvY29tLmJzbHNqZGsub3Blcml0L2ZpbGVzL3dvcmtzcGFjZQogKi8KY2xhc3MgV29ya3NwYWNlRG9jdW1lbnRzUHJvdmlkZXIgOiBEb2N1bWVudHNQcm92aWRlcigpIHsKICAgIAogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIldvcmtzcGFjZURvY3VtZW50c1Byb3ZpZGVyIgogICAgICAgIAogICAgICAgIC8vIEF1dGhvcml0eeWcqEFuZHJvaWRNYW5pZmVzdC54bWzkuK3kvb/nlKgke2FwcGxpY2F0aW9uSWR9LmRvY3VtZW50cy53b3Jrc3BhY2Xlo7DmmI4KICAgICAgICAKICAgICAgICAvLyBSb290IElECiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgUk9PVF9JRCA9ICJ3b3Jrc3BhY2Vfcm9vdCIKICAgICAgICAKICAgICAgICAvLyDpu5jorqTmlofmoaPliJcKICAgICAgICBwcml2YXRlIHZhbCBERUZBVUxUX1JPT1RfUFJPSkVDVElPTiA9IGFycmF5T2YoCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LlJvb3QuQ09MVU1OX1JPT1RfSUQsCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LlJvb3QuQ09MVU1OX01JTUVfVFlQRVMsCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LlJvb3QuQ09MVU1OX0ZMQUdTLAogICAgICAgICAgICBEb2N1bWVudHNDb250cmFjdC5Sb290LkNPTFVNTl9JQ09OLAogICAgICAgICAgICBEb2N1bWVudHNDb250cmFjdC5Sb290LkNPTFVNTl9USVRMRSwKICAgICAgICAgICAgRG9jdW1lbnRzQ29udHJhY3QuUm9vdC5DT0xVTU5fU1VNTUFSWSwKICAgICAgICAgICAgRG9jdW1lbnRzQ29udHJhY3QuUm9vdC5DT0xVTU5fRE9DVU1FTlRfSUQsCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LlJvb3QuQ09MVU1OX0FWQUlMQUJMRV9CWVRFUwogICAgICAgICkKICAgICAgICAKICAgICAgICBwcml2YXRlIHZhbCBERUZBVUxUX0RPQ1VNRU5UX1BST0pFQ1RJT04gPSBhcnJheU9mKAogICAgICAgICAgICBEb2N1bWVudHNDb250cmFjdC5Eb2N1bWVudC5DT0xVTU5fRE9DVU1FTlRfSUQsCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50LkNPTFVNTl9NSU1FX1RZUEUsCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50LkNPTFVNTl9ESVNQTEFZX05BTUUsCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50LkNPTFVNTl9MQVNUX01PRElGSUVELAogICAgICAgICAgICBEb2N1bWVudHNDb250cmFjdC5Eb2N1bWVudC5DT0xVTU5fRkxBR1MsCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50LkNPTFVNTl9TSVpFCiAgICAgICAgKQogICAgfQogICAgCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciB3b3Jrc3BhY2VSb290OiBGaWxlCiAgICAKICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZSgpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGNvbnRleHQgPSBjb250ZXh0ID86IHJldHVybiBmYWxzZQogICAgICAgICAgICB3b3Jrc3BhY2VSb290ID0gRmlsZShjb250ZXh0LmZpbGVzRGlyLCAid29ya3NwYWNlIikKICAgICAgICAgICAgCiAgICAgICAgICAgIGlmICghd29ya3NwYWNlUm9vdC5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgd29ya3NwYWNlUm9vdC5ta2RpcnMoKQogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQ3JlYXRlZCB3b3Jrc3BhY2UgZGlyZWN0b3J5OiAke3dvcmtzcGFjZVJvb3QuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIldvcmtzcGFjZURvY3VtZW50c1Byb3ZpZGVyIGluaXRpYWxpemVkLCByb290OiAke3dvcmtzcGFjZVJvb3QuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIHRydWUKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGluaXRpYWxpemUgcHJvdmlkZXIiLCBlKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIHF1ZXJ5Um9vdHMocHJvamVjdGlvbjogQXJyYXk8b3V0IFN0cmluZz4/KTogQ3Vyc29yIHsKICAgICAgICB2YWwgcmVzdWx0ID0gTWF0cml4Q3Vyc29yKHByb2plY3Rpb24gPzogREVGQVVMVF9ST09UX1BST0pFQ1RJT04pCiAgICAgICAgCiAgICAgICAgdmFsIHJvdyA9IHJlc3VsdC5uZXdSb3coKQogICAgICAgIHJvdy5hZGQoRG9jdW1lbnRzQ29udHJhY3QuUm9vdC5DT0xVTU5fUk9PVF9JRCwgUk9PVF9JRCkKICAgICAgICByb3cuYWRkKERvY3VtZW50c0NvbnRyYWN0LlJvb3QuQ09MVU1OX01JTUVfVFlQRVMsICIqLyoiKQogICAgICAgIHJvdy5hZGQoCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LlJvb3QuQ09MVU1OX0ZMQUdTLAogICAgICAgICAgICBEb2N1bWVudHNDb250cmFjdC5Sb290LkZMQUdfU1VQUE9SVFNfQ1JFQVRFIG9yCiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LlJvb3QuRkxBR19TVVBQT1JUU19JU19DSElMRAogICAgICAgICkKICAgICAgICByb3cuYWRkKERvY3VtZW50c0NvbnRyYWN0LlJvb3QuQ09MVU1OX0lDT04sIGFuZHJvaWQuUi5kcmF3YWJsZS5pY19tZW51X3ZpZXcpCiAgICAgICAgcm93LmFkZChEb2N1bWVudHNDb250cmFjdC5Sb290LkNPTFVNTl9USVRMRSwgIk9wZXJpdCBXb3Jrc3BhY2UiKQogICAgICAgIHJvdy5hZGQoRG9jdW1lbnRzQ29udHJhY3QuUm9vdC5DT0xVTU5fU1VNTUFSWSwgIkFjY2VzcyB3b3Jrc3BhY2UgZmlsZXMiKQogICAgICAgIHJvdy5hZGQoRG9jdW1lbnRzQ29udHJhY3QuUm9vdC5DT0xVTU5fRE9DVU1FTlRfSUQsIGdldERvY0lkRm9yRmlsZSh3b3Jrc3BhY2VSb290KSkKICAgICAgICByb3cuYWRkKERvY3VtZW50c0NvbnRyYWN0LlJvb3QuQ09MVU1OX0FWQUlMQUJMRV9CWVRFUywgd29ya3NwYWNlUm9vdC5mcmVlU3BhY2UpCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgfQogICAgCiAgICBvdmVycmlkZSBmdW4gcXVlcnlEb2N1bWVudChkb2N1bWVudElkOiBTdHJpbmcsIHByb2plY3Rpb246IEFycmF5PG91dCBTdHJpbmc+Pyk6IEN1cnNvciB7CiAgICAgICAgdmFsIHJlc3VsdCA9IE1hdHJpeEN1cnNvcihwcm9qZWN0aW9uID86IERFRkFVTFRfRE9DVU1FTlRfUFJPSkVDVElPTikKICAgICAgICBpbmNsdWRlRmlsZShyZXN1bHQsIGRvY3VtZW50SWQpCiAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgfQogICAgCiAgICBvdmVycmlkZSBmdW4gcXVlcnlDaGlsZERvY3VtZW50cygKICAgICAgICBwYXJlbnREb2N1bWVudElkOiBTdHJpbmcsCiAgICAgICAgcHJvamVjdGlvbjogQXJyYXk8b3V0IFN0cmluZz4/LAogICAgICAgIHNvcnRPcmRlcjogU3RyaW5nPwogICAgKTogQ3Vyc29yIHsKICAgICAgICB2YWwgcmVzdWx0ID0gTWF0cml4Q3Vyc29yKHByb2plY3Rpb24gPzogREVGQVVMVF9ET0NVTUVOVF9QUk9KRUNUSU9OKQogICAgICAgIHZhbCBwYXJlbnQgPSBnZXRGaWxlRm9yRG9jSWQocGFyZW50RG9jdW1lbnRJZCkKICAgICAgICAKICAgICAgICBpZiAoIXBhcmVudC5pc0RpcmVjdG9yeSkgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJxdWVyeUNoaWxkRG9jdW1lbnRzIGNhbGxlZCBvbiBub24tZGlyZWN0b3J5OiAkcGFyZW50RG9jdW1lbnRJZCIpCiAgICAgICAgICAgIHJldHVybiByZXN1bHQKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgdmFsIGZpbGVzID0gcGFyZW50Lmxpc3RGaWxlcygpID86IGVtcHR5QXJyYXkoKQogICAgICAgIGZvciAoZmlsZSBpbiBmaWxlcykgewogICAgICAgICAgICBpbmNsdWRlRmlsZShyZXN1bHQsIGZpbGUpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHJldHVybiByZXN1bHQKICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIG9wZW5Eb2N1bWVudCgKICAgICAgICBkb2N1bWVudElkOiBTdHJpbmcsCiAgICAgICAgbW9kZTogU3RyaW5nLAogICAgICAgIHNpZ25hbDogQ2FuY2VsbGF0aW9uU2lnbmFsPwogICAgKTogUGFyY2VsRmlsZURlc2NyaXB0b3IgewogICAgICAgIHZhbCBmaWxlID0gZ2V0RmlsZUZvckRvY0lkKGRvY3VtZW50SWQpCiAgICAgICAgCiAgICAgICAgaWYgKCFmaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHRocm93IEZpbGVOb3RGb3VuZEV4Y2VwdGlvbigiRmlsZSBub3QgZm91bmQ6ICR7ZmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgdmFsIGFjY2Vzc01vZGUgPSBQYXJjZWxGaWxlRGVzY3JpcHRvci5wYXJzZU1vZGUobW9kZSkKICAgICAgICByZXR1cm4gUGFyY2VsRmlsZURlc2NyaXB0b3Iub3BlbihmaWxlLCBhY2Nlc3NNb2RlKQogICAgfQogICAgCiAgICBvdmVycmlkZSBmdW4gY3JlYXRlRG9jdW1lbnQoCiAgICAgICAgcGFyZW50RG9jdW1lbnRJZDogU3RyaW5nLAogICAgICAgIG1pbWVUeXBlOiBTdHJpbmcsCiAgICAgICAgZGlzcGxheU5hbWU6IFN0cmluZwogICAgKTogU3RyaW5nPyB7CiAgICAgICAgdmFsIHBhcmVudCA9IGdldEZpbGVGb3JEb2NJZChwYXJlbnREb2N1bWVudElkKQogICAgICAgIAogICAgICAgIGlmICghcGFyZW50LmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiUGFyZW50IGlzIG5vdCBhIGRpcmVjdG9yeSIpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHZhbCBmaWxlID0gRmlsZShwYXJlbnQsIGRpc3BsYXlOYW1lKQogICAgICAgIAogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChEb2N1bWVudHNDb250cmFjdC5Eb2N1bWVudC5NSU1FX1RZUEVfRElSID09IG1pbWVUeXBlKSB7CiAgICAgICAgICAgICAgICBpZiAoIWZpbGUubWtkaXIoKSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiRmFpbGVkIHRvIGNyZWF0ZSBkaXJlY3RvcnkiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgaWYgKCFmaWxlLmNyZWF0ZU5ld0ZpbGUoKSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiRmFpbGVkIHRvIGNyZWF0ZSBmaWxlIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgcmV0dXJuIGdldERvY0lkRm9yRmlsZShmaWxlKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gY3JlYXRlIGRvY3VtZW50IiwgZSkKICAgICAgICAgICAgdGhyb3cgZQogICAgICAgIH0KICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIGRlbGV0ZURvY3VtZW50KGRvY3VtZW50SWQ6IFN0cmluZykgewogICAgICAgIHZhbCBmaWxlID0gZ2V0RmlsZUZvckRvY0lkKGRvY3VtZW50SWQpCiAgICAgICAgCiAgICAgICAgaWYgKCFmaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHRocm93IEZpbGVOb3RGb3VuZEV4Y2VwdGlvbigiRmlsZSBub3QgZm91bmQ6ICR7ZmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgaWYgKCFmaWxlLmRlbGV0ZSgpKSB7CiAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiRmFpbGVkIHRvIGRlbGV0ZSBmaWxlIikKICAgICAgICB9CiAgICB9CiAgICAKICAgIG92ZXJyaWRlIGZ1biByZW5hbWVEb2N1bWVudChkb2N1bWVudElkOiBTdHJpbmcsIGRpc3BsYXlOYW1lOiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgc291cmNlRmlsZSA9IGdldEZpbGVGb3JEb2NJZChkb2N1bWVudElkKQogICAgICAgIHZhbCBkZXN0RmlsZSA9IEZpbGUoc291cmNlRmlsZS5wYXJlbnRGaWxlLCBkaXNwbGF5TmFtZSkKICAgICAgICAKICAgICAgICBpZiAoIXNvdXJjZUZpbGUucmVuYW1lVG8oZGVzdEZpbGUpKSB7CiAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiRmFpbGVkIHRvIHJlbmFtZSBmaWxlIikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgcmV0dXJuIGdldERvY0lkRm9yRmlsZShkZXN0RmlsZSkKICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIGlzQ2hpbGREb2N1bWVudChwYXJlbnREb2N1bWVudElkOiBTdHJpbmcsIGRvY3VtZW50SWQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHZhbCBwYXJlbnQgPSBnZXRGaWxlRm9yRG9jSWQocGFyZW50RG9jdW1lbnRJZCkKICAgICAgICB2YWwgY2hpbGQgPSBnZXRGaWxlRm9yRG9jSWQoZG9jdW1lbnRJZCkKICAgICAgICAKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgY2hpbGQuY2Fub25pY2FsUGF0aC5zdGFydHNXaXRoKHBhcmVudC5jYW5vbmljYWxQYXRoKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBjaGVja2luZyBjaGlsZCBkb2N1bWVudCIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOWwhuaWh+S7tuS/oeaBr+a3u+WKoOWIsGN1cnNvcgogICAgICovCiAgICBwcml2YXRlIGZ1biBpbmNsdWRlRmlsZShyZXN1bHQ6IE1hdHJpeEN1cnNvciwgZG9jdW1lbnRJZDogU3RyaW5nKSB7CiAgICAgICAgdmFsIGZpbGUgPSBnZXRGaWxlRm9yRG9jSWQoZG9jdW1lbnRJZCkKICAgICAgICBpbmNsdWRlRmlsZShyZXN1bHQsIGZpbGUpCiAgICB9CiAgICAKICAgIHByaXZhdGUgZnVuIGluY2x1ZGVGaWxlKHJlc3VsdDogTWF0cml4Q3Vyc29yLCBmaWxlOiBGaWxlKSB7CiAgICAgICAgdmFsIGRvY0lkID0gZ2V0RG9jSWRGb3JGaWxlKGZpbGUpCiAgICAgICAgCiAgICAgICAgdmFyIGZsYWdzID0gMAogICAgICAgIGlmIChmaWxlLmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgIC8vIOebruW9leaUr+aMgeWIm+W7uuWtkOaWh+S7tgogICAgICAgICAgICBpZiAoZmlsZS5jYW5Xcml0ZSgpKSB7CiAgICAgICAgICAgICAgICBmbGFncyA9IGZsYWdzIG9yIERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50LkZMQUdfRElSX1NVUFBPUlRTX0NSRUFURQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIGlmIChmaWxlLmNhbldyaXRlKCkpIHsKICAgICAgICAgICAgLy8g5paH5Lu25pSv5oyB5YaZ5YWl5ZKM5Yig6ZmkCiAgICAgICAgICAgIGZsYWdzID0gZmxhZ3Mgb3IgRG9jdW1lbnRzQ29udHJhY3QuRG9jdW1lbnQuRkxBR19TVVBQT1JUU19XUklURQogICAgICAgICAgICBmbGFncyA9IGZsYWdzIG9yIERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50LkZMQUdfU1VQUE9SVFNfREVMRVRFCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOaUr+aMgemHjeWRveWQjQogICAgICAgIGlmIChmaWxlLnBhcmVudEZpbGU/LmNhbldyaXRlKCkgPT0gdHJ1ZSkgewogICAgICAgICAgICBmbGFncyA9IGZsYWdzIG9yIERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50LkZMQUdfU1VQUE9SVFNfUkVOQU1FCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHZhbCBkaXNwbGF5TmFtZSA9IGZpbGUubmFtZQogICAgICAgIHZhbCBtaW1lVHlwZSA9IGlmIChmaWxlLmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgIERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50Lk1JTUVfVFlQRV9ESVIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBnZXRNaW1lVHlwZShmaWxlKQogICAgICAgIH0KICAgICAgICAKICAgICAgICB2YWwgcm93ID0gcmVzdWx0Lm5ld1JvdygpCiAgICAgICAgcm93LmFkZChEb2N1bWVudHNDb250cmFjdC5Eb2N1bWVudC5DT0xVTU5fRE9DVU1FTlRfSUQsIGRvY0lkKQogICAgICAgIHJvdy5hZGQoRG9jdW1lbnRzQ29udHJhY3QuRG9jdW1lbnQuQ09MVU1OX01JTUVfVFlQRSwgbWltZVR5cGUpCiAgICAgICAgcm93LmFkZChEb2N1bWVudHNDb250cmFjdC5Eb2N1bWVudC5DT0xVTU5fRElTUExBWV9OQU1FLCBkaXNwbGF5TmFtZSkKICAgICAgICByb3cuYWRkKERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50LkNPTFVNTl9MQVNUX01PRElGSUVELCBmaWxlLmxhc3RNb2RpZmllZCgpKQogICAgICAgIHJvdy5hZGQoRG9jdW1lbnRzQ29udHJhY3QuRG9jdW1lbnQuQ09MVU1OX0ZMQUdTLCBmbGFncykKICAgICAgICByb3cuYWRkKERvY3VtZW50c0NvbnRyYWN0LkRvY3VtZW50LkNPTFVNTl9TSVpFLCBmaWxlLmxlbmd0aCgpKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOagueaNruaWh+S7tuiOt+WPlkRvY3VtZW50IElECiAgICAgKiDkvb/nlKjnm7jlr7nkuo53b3Jrc3BhY2XmoLnnm67lvZXnmoTot6/lvoTkvZzkuLpJRAogICAgICovCiAgICBwcml2YXRlIGZ1biBnZXREb2NJZEZvckZpbGUoZmlsZTogRmlsZSk6IFN0cmluZyB7CiAgICAgICAgdmFsIHBhdGggPSBmaWxlLmFic29sdXRlUGF0aAogICAgICAgIHZhbCByb290UGF0aCA9IHdvcmtzcGFjZVJvb3QuYWJzb2x1dGVQYXRoCiAgICAgICAgCiAgICAgICAgcmV0dXJuIGlmIChwYXRoID09IHJvb3RQYXRoKSB7CiAgICAgICAgICAgICIvIgogICAgICAgIH0gZWxzZSBpZiAocGF0aC5zdGFydHNXaXRoKHJvb3RQYXRoKSkgewogICAgICAgICAgICBwYXRoLnN1YnN0cmluZyhyb290UGF0aC5sZW5ndGgpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJGaWxlIGlzIG5vdCB1bmRlciB3b3Jrc3BhY2Ugcm9vdDogJHBhdGgiKQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmoLnmja5Eb2N1bWVudCBJROiOt+WPluaWh+S7tgogICAgICovCiAgICBwcml2YXRlIGZ1biBnZXRGaWxlRm9yRG9jSWQoZG9jdW1lbnRJZDogU3RyaW5nKTogRmlsZSB7CiAgICAgICAgdmFsIGZpbGUgPSBpZiAoZG9jdW1lbnRJZCA9PSAiLyIpIHsKICAgICAgICAgICAgd29ya3NwYWNlUm9vdAogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIC8vIOenu+mZpOW8gOWktOeahC/vvIzmi7zmjqXliLB3b3Jrc3BhY2XmoLnnm67lvZUKICAgICAgICAgICAgdmFsIHJlbGF0aXZlUGF0aCA9IGRvY3VtZW50SWQudHJpbVN0YXJ0KCcvJykKICAgICAgICAgICAgRmlsZSh3b3Jrc3BhY2VSb290LCByZWxhdGl2ZVBhdGgpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIGlmICghZmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICB0aHJvdyBGaWxlTm90Rm91bmRFeGNlcHRpb24oIkZpbGUgbm90IGZvdW5kOiAke2ZpbGUuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHJldHVybiBmaWxlCiAgICB9CiAgICAKICAgIC8qKgogICAgICog6I635Y+W5paH5Lu255qETUlNReexu+WeiwogICAgICovCiAgICBwcml2YXRlIGZ1biBnZXRNaW1lVHlwZShmaWxlOiBGaWxlKTogU3RyaW5nIHsKICAgICAgICB2YWwgZXh0ZW5zaW9uID0gZmlsZS5leHRlbnNpb24ubG93ZXJjYXNlKCkKICAgICAgICAKICAgICAgICByZXR1cm4gd2hlbiB7CiAgICAgICAgICAgIGV4dGVuc2lvbi5pc0VtcHR5KCkgLT4gImFwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSIKICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICBNaW1lVHlwZU1hcC5nZXRTaW5nbGV0b24oKS5nZXRNaW1lVHlwZUZyb21FeHRlbnNpb24oZXh0ZW5zaW9uKQogICAgICAgICAgICAgICAgICAgID86ICJhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0iCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.provider
+
+import android.database.Cursor
+import android.database.MatrixCursor
+import android.os.CancellationSignal
+import android.os.ParcelFileDescriptor
+import android.provider.DocumentsContract
+import android.provider.DocumentsProvider
+import com.bslsjdk.operit.util.AppLogger
+import android.webkit.MimeTypeMap
+import java.io.File
+import java.io.FileNotFoundException
+
+/**
+ * Workspace目录的DocumentsProvider
+ * 
+ * 通过Storage Access Framework暴露内部存储的workspace目录
+ * 路径: /data/data/com.bslsjdk.operit/files/workspace
+ */
+class WorkspaceDocumentsProvider : DocumentsProvider() {
+    
+    companion object {
+        private const val TAG = "WorkspaceDocumentsProvider"
+        
+        // Authority在AndroidManifest.xml中使用${applicationId}.documents.workspace声明
+        
+        // Root ID
+        private const val ROOT_ID = "workspace_root"
+        
+        // 默认文档列
+        private val DEFAULT_ROOT_PROJECTION = arrayOf(
+            DocumentsContract.Root.COLUMN_ROOT_ID,
+            DocumentsContract.Root.COLUMN_MIME_TYPES,
+            DocumentsContract.Root.COLUMN_FLAGS,
+            DocumentsContract.Root.COLUMN_ICON,
+            DocumentsContract.Root.COLUMN_TITLE,
+            DocumentsContract.Root.COLUMN_SUMMARY,
+            DocumentsContract.Root.COLUMN_DOCUMENT_ID,
+            DocumentsContract.Root.COLUMN_AVAILABLE_BYTES
+        )
+        
+        private val DEFAULT_DOCUMENT_PROJECTION = arrayOf(
+            DocumentsContract.Document.COLUMN_DOCUMENT_ID,
+            DocumentsContract.Document.COLUMN_MIME_TYPE,
+            DocumentsContract.Document.COLUMN_DISPLAY_NAME,
+            DocumentsContract.Document.COLUMN_LAST_MODIFIED,
+            DocumentsContract.Document.COLUMN_FLAGS,
+            DocumentsContract.Document.COLUMN_SIZE
+        )
+    }
+    
+    private lateinit var workspaceRoot: File
+    
+    override fun onCreate(): Boolean {
+        return try {
+            val context = context ?: return false
+            workspaceRoot = File(context.filesDir, "workspace")
+            
+            if (!workspaceRoot.exists()) {
+                workspaceRoot.mkdirs()
+                AppLogger.d(TAG, "Created workspace directory: ${workspaceRoot.absolutePath}")
+            }
+            
+            AppLogger.d(TAG, "WorkspaceDocumentsProvider initialized, root: ${workspaceRoot.absolutePath}")
+            true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to initialize provider", e)
+            false
+        }
+    }
+    
+    override fun queryRoots(projection: Array<out String>?): Cursor {
+        val result = MatrixCursor(projection ?: DEFAULT_ROOT_PROJECTION)
+        
+        val row = result.newRow()
+        row.add(DocumentsContract.Root.COLUMN_ROOT_ID, ROOT_ID)
+        row.add(DocumentsContract.Root.COLUMN_MIME_TYPES, "*/*")
+        row.add(
+            DocumentsContract.Root.COLUMN_FLAGS,
+            DocumentsContract.Root.FLAG_SUPPORTS_CREATE or
+            DocumentsContract.Root.FLAG_SUPPORTS_IS_CHILD
+        )
+        row.add(DocumentsContract.Root.COLUMN_ICON, android.R.drawable.ic_menu_view)
+        row.add(DocumentsContract.Root.COLUMN_TITLE, "Operit Workspace")
+        row.add(DocumentsContract.Root.COLUMN_SUMMARY, "Access workspace files")
+        row.add(DocumentsContract.Root.COLUMN_DOCUMENT_ID, getDocIdForFile(workspaceRoot))
+        row.add(DocumentsContract.Root.COLUMN_AVAILABLE_BYTES, workspaceRoot.freeSpace)
+        
+        return result
+    }
+    
+    override fun queryDocument(documentId: String, projection: Array<out String>?): Cursor {
+        val result = MatrixCursor(projection ?: DEFAULT_DOCUMENT_PROJECTION)
+        includeFile(result, documentId)
+        return result
+    }
+    
+    override fun queryChildDocuments(
+        parentDocumentId: String,
+        projection: Array<out String>?,
+        sortOrder: String?
+    ): Cursor {
+        val result = MatrixCursor(projection ?: DEFAULT_DOCUMENT_PROJECTION)
+        val parent = getFileForDocId(parentDocumentId)
+        
+        if (!parent.isDirectory) {
+            AppLogger.w(TAG, "queryChildDocuments called on non-directory: $parentDocumentId")
+            return result
+        }
+        
+        val files = parent.listFiles() ?: emptyArray()
+        for (file in files) {
+            includeFile(result, file)
+        }
+        
+        return result
+    }
+    
+    override fun openDocument(
+        documentId: String,
+        mode: String,
+        signal: CancellationSignal?
+    ): ParcelFileDescriptor {
+        val file = getFileForDocId(documentId)
+        
+        if (!file.exists()) {
+            throw FileNotFoundException("File not found: ${file.absolutePath}")
+        }
+        
+        val accessMode = ParcelFileDescriptor.parseMode(mode)
+        return ParcelFileDescriptor.open(file, accessMode)
+    }
+    
+    override fun createDocument(
+        parentDocumentId: String,
+        mimeType: String,
+        displayName: String
+    ): String? {
+        val parent = getFileForDocId(parentDocumentId)
+        
+        if (!parent.isDirectory) {
+            throw IllegalArgumentException("Parent is not a directory")
+        }
+        
+        val file = File(parent, displayName)
+        
+        try {
+            if (DocumentsContract.Document.MIME_TYPE_DIR == mimeType) {
+                if (!file.mkdir()) {
+                    throw IllegalStateException("Failed to create directory")
+                }
+            } else {
+                if (!file.createNewFile()) {
+                    throw IllegalStateException("Failed to create file")
+                }
+            }
+            
+            return getDocIdForFile(file)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to create document", e)
+            throw e
+        }
+    }
+    
+    override fun deleteDocument(documentId: String) {
+        val file = getFileForDocId(documentId)
+        
+        if (!file.exists()) {
+            throw FileNotFoundException("File not found: ${file.absolutePath}")
+        }
+        
+        if (!file.delete()) {
+            throw IllegalStateException("Failed to delete file")
+        }
+    }
+    
+    override fun renameDocument(documentId: String, displayName: String): String? {
+        val sourceFile = getFileForDocId(documentId)
+        val destFile = File(sourceFile.parentFile, displayName)
+        
+        if (!sourceFile.renameTo(destFile)) {
+            throw IllegalStateException("Failed to rename file")
+        }
+        
+        return getDocIdForFile(destFile)
+    }
+    
+    override fun isChildDocument(parentDocumentId: String, documentId: String): Boolean {
+        val parent = getFileForDocId(parentDocumentId)
+        val child = getFileForDocId(documentId)
+        
+        return try {
+            child.canonicalPath.startsWith(parent.canonicalPath)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error checking child document", e)
+            false
+        }
+    }
+    
+    /**
+     * 将文件信息添加到cursor
+     */
+    private fun includeFile(result: MatrixCursor, documentId: String) {
+        val file = getFileForDocId(documentId)
+        includeFile(result, file)
+    }
+    
+    private fun includeFile(result: MatrixCursor, file: File) {
+        val docId = getDocIdForFile(file)
+        
+        var flags = 0
+        if (file.isDirectory) {
+            // 目录支持创建子文件
+            if (file.canWrite()) {
+                flags = flags or DocumentsContract.Document.FLAG_DIR_SUPPORTS_CREATE
+            }
+        } else if (file.canWrite()) {
+            // 文件支持写入和删除
+            flags = flags or DocumentsContract.Document.FLAG_SUPPORTS_WRITE
+            flags = flags or DocumentsContract.Document.FLAG_SUPPORTS_DELETE
+        }
+        
+        // 支持重命名
+        if (file.parentFile?.canWrite() == true) {
+            flags = flags or DocumentsContract.Document.FLAG_SUPPORTS_RENAME
+        }
+        
+        val displayName = file.name
+        val mimeType = if (file.isDirectory) {
+            DocumentsContract.Document.MIME_TYPE_DIR
+        } else {
+            getMimeType(file)
+        }
+        
+        val row = result.newRow()
+        row.add(DocumentsContract.Document.COLUMN_DOCUMENT_ID, docId)
+        row.add(DocumentsContract.Document.COLUMN_MIME_TYPE, mimeType)
+        row.add(DocumentsContract.Document.COLUMN_DISPLAY_NAME, displayName)
+        row.add(DocumentsContract.Document.COLUMN_LAST_MODIFIED, file.lastModified())
+        row.add(DocumentsContract.Document.COLUMN_FLAGS, flags)
+        row.add(DocumentsContract.Document.COLUMN_SIZE, file.length())
+    }
+    
+    /**
+     * 根据文件获取Document ID
+     * 使用相对于workspace根目录的路径作为ID
+     */
+    private fun getDocIdForFile(file: File): String {
+        val path = file.absolutePath
+        val rootPath = workspaceRoot.absolutePath
+        
+        return if (path == rootPath) {
+            "/"
+        } else if (path.startsWith(rootPath)) {
+            path.substring(rootPath.length)
+        } else {
+            throw IllegalArgumentException("File is not under workspace root: $path")
+        }
+    }
+    
+    /**
+     * 根据Document ID获取文件
+     */
+    private fun getFileForDocId(documentId: String): File {
+        val file = if (documentId == "/") {
+            workspaceRoot
+        } else {
+            // 移除开头的/，拼接到workspace根目录
+            val relativePath = documentId.trimStart('/')
+            File(workspaceRoot, relativePath)
+        }
+        
+        if (!file.exists()) {
+            throw FileNotFoundException("File not found: ${file.absolutePath}")
+        }
+        
+        return file
+    }
+    
+    /**
+     * 获取文件的MIME类型
+     */
+    private fun getMimeType(file: File): String {
+        val extension = file.extension.lowercase()
+        
+        return when {
+            extension.isEmpty() -> "application/octet-stream"
+            else -> {
+                MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension)
+                    ?: "application/octet-stream"
+            }
+        }
+    }
+}

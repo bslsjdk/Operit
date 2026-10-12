@@ -1,1 +1,428 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLnV0aWwuTG9nCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hcHBsaWNhdGlvbi5PcGVyaXRBcHBsaWNhdGlvbgppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkZpbGVXcml0ZXIKaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb24KaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuRXhlY3V0b3JzCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5SZWplY3RlZEV4ZWN1dGlvbkV4Y2VwdGlvbgppbXBvcnQgamF2YS51dGlsLnJlZ2V4LlBhdHRlcm4KCi8qKgogKiBBcHAtd2lkZSBsb2dnZXIgd2l0aCBhbiBBUEkgY2xvc2VseSBtaXJyb3JpbmcgW2NvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcl0uCiAqCiAqIEl0IGZvcndhcmRzIGFsbCBsb2dzIHRvIHRoZSBzeXN0ZW0gTG9nIGFuZCBhbHNvIHBlcnNpc3RzIHRoZW0gdG8KICogYW4gaW50ZXJuYWwgZmlsZSBzbyB0aGF0IHRoZSBhcHAgY2FuIGV4cG9ydCBsb2dzIGZvciBkZWJ1Z2dpbmcuCiAqLwpvYmplY3QgQXBwTG9nZ2VyIHsKCiAgICAvLyBNaXJyb3IgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyIHByaW9yaXR5IGNvbnN0YW50cwogICAgY29uc3QgdmFsIFZFUkJPU0U6IEludCA9IExvZy5WRVJCT1NFCiAgICBjb25zdCB2YWwgREVCVUc6IEludCA9IExvZy5ERUJVRwogICAgY29uc3QgdmFsIElORk86IEludCA9IExvZy5JTkZPCiAgICBjb25zdCB2YWwgV0FSTjogSW50ID0gTG9nLldBUk4KICAgIGNvbnN0IHZhbCBFUlJPUjogSW50ID0gTG9nLkVSUk9SCiAgICBjb25zdCB2YWwgQVNTRVJUOiBJbnQgPSBMb2cuQVNTRVJUCgogICAgLy8gTG9nIGZpbGUgY29uZmlndXJhdGlvbgogICAgcHJpdmF0ZSBjb25zdCB2YWwgTE9HX0RJUl9OQU1FID0gImxvZ3MiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBMT0dfRklMRV9OQU1FID0gIm9wZXJpdC5sb2ciCiAgICBwcml2YXRlIGNvbnN0IHZhbCBQQUNLQUdFX0xPR19ESVJfTkFNRSA9ICJwYWNrYWdlTG9ncyIKICAgIHByaXZhdGUgY29uc3QgdmFsIE1BWF9QQUNLQUdFX0xPR19GSUxFUyA9IDIwCiAgICBwcml2YXRlIGNvbnN0IHZhbCBUT09MUEtHX0xPR19UQUcgPSAiVG9vbFBrZyIKICAgIHByaXZhdGUgY29uc3QgdmFsIE1BWF9MT0dfTUVTU0FHRV9DSEFSUyA9IDEyXzAwMAogICAgcHJpdmF0ZSBjb25zdCB2YWwgTUFYX0xPR19USFJPV0FCTEVfQ0hBUlMgPSAyNF8wMDAKCiAgICAvLyBTaW1wbGUgZGF0ZSBmb3JtYXR0ZXIgZm9yIGxvZyBsaW5lcwogICAgcHJpdmF0ZSB2YWwgZGF0ZUZvcm1hdCA9IFNpbXBsZURhdGVGb3JtYXQoInl5eXktTU0tZGQgSEg6bW06c3MuU1NTIiwgTG9jYWxlLlVTKQogICAgcHJpdmF0ZSB2YWwgc3RhcnR1cEZpbGVEYXRlRm9ybWF0ID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eU1NZGRfSEhtbXNzX1NTUyIsIExvY2FsZS5VUykKICAgIHByaXZhdGUgdmFsIHBhY2thZ2VMb2dGaWxlTmFtZVBhdHRlcm4gPSBQYXR0ZXJuLmNvbXBpbGUoIlxcZHs4fV9cXGR7Nn1fXFxkezN9XFwubG9nIikKICAgIHByaXZhdGUgdmFsIHBhY2thZ2VJZFJlZ2V4ZXMgPSBsaXN0T2YoCiAgICAgICAgUGF0dGVybi5jb21waWxlKCIiIlxidG9vbFBrZ0lkPShbQS1aYS16MC05Ll86LV0rKVxiIiIiKSwKICAgICAgICBQYXR0ZXJuLmNvbXBpbGUoIiIiXGJwYWNrYWdlKD86L3N1YnBhY2thZ2UpPz0oW0EtWmEtejAtOS5fOi1dKylcYiIiIiksCiAgICAgICAgUGF0dGVybi5jb21waWxlKCIiIlxiY29udGFpbmVyPShbQS1aYS16MC05Ll86LV0rKVxiIiIiKSwKICAgICAgICBQYXR0ZXJuLmNvbXBpbGUoIiIiXGJ0YXJnZXQ9KFtBLVphLXowLTkuXzotXSspXGIiIiIpCiAgICApCiAgICBwcml2YXRlIHZhbCBzY3JpcHRSZWdleGVzID0gbGlzdE9mKAogICAgICAgIFBhdHRlcm4uY29tcGlsZSgiIiJcYnNjcmlwdD0oW15ccyxdKykiIiIpLAogICAgICAgIFBhdHRlcm4uY29tcGlsZSgiIiJcYnBhdGg9KFteXHMsXSspIiIiKSwKICAgICAgICBQYXR0ZXJuLmNvbXBpbGUoIiIiXGJzY3JlZW49KFteXHMsXSspIiIiKSwKICAgICAgICBQYXR0ZXJuLmNvbXBpbGUoIiIiXGJmdW5jdGlvbj0oW0EtWmEtejAtOV8uJDotXSspXGIiIiIpCiAgICApCiAgICBwcml2YXRlIHZhbCBwbHVnaW5SZWdleGVzID0gbGlzdE9mKAogICAgICAgIFBhdHRlcm4uY29tcGlsZSgiIiJcYnBsdWdpbj0oW0EtWmEtejAtOS5fOi1dKylcYiIiIiksCiAgICAgICAgUGF0dGVybi5jb21waWxlKCIiIlxicGx1Z2luSWQ9KFtBLVphLXowLTkuXzotXSspXGIiIiIpLAogICAgICAgIFBhdHRlcm4uY29tcGlsZSgiIiJcYmhvb2tJZD0oW0EtWmEtejAtOS5fOi1dKylcYiIiIikKICAgICkKCiAgICAvKioKICAgICAqIE9wdGlvbmFsIGV4dGVybmFsIHN3aXRjaCB0byBjb21wbGV0ZWx5IGRpc2FibGUgZmlsZSBsb2dnaW5nIGlmIG5lZWRlZC4KICAgICAqIFN5c3RlbSBBcHBMb2dnZXIuKiBjYWxscyB3aWxsIHN0aWxsIGJlIHBlcmZvcm1lZC4KICAgICAqLwogICAgQFZvbGF0aWxlCiAgICB2YXIgZW5hYmxlRmlsZUxvZ2dpbmc6IEJvb2xlYW4gPSB0cnVlCgogICAgLyoqCiAgICAgKiBKVk0g5Y2V5YWD5rWL6K+V5byA5YWz77ya5YWz6Zet5a+5IFthbmRyb2lkLnV0aWwuTG9nXSDnmoTosIPnlKjvvIjov5Tlm54gMC9mYWxzZe+8ie+8jOmBv+WFjQogICAgICog57qvIEpWTSDnjq/looPmipsgIm5vdCBtb2NrZWQiIOW8guW4uOOAguS4jiBbZW5hYmxlRmlsZUxvZ2dpbmddIOeLrOeri+KAlOKAlOaWh+S7tuaXpeW/l+eFp+W4uOOAggogICAgICovCiAgICBAVm9sYXRpbGUKICAgIHZhciBlbmFibGVTeXN0ZW1Mb2c6IEJvb2xlYW4gPSB0cnVlCgogICAgQFZvbGF0aWxlCiAgICBwcml2YXRlIHZhciBsb2dGaWxlOiBGaWxlPyA9IG51bGwKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgcGFja2FnZUxvZ0ZpbGU6IEZpbGU/ID0gbnVsbAoKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgYm91bmRDb250ZXh0OiBDb250ZXh0PyA9IG51bGwKICAgIHByaXZhdGUgdmFsIGZpbGVMb2dFeGVjdXRvciA9IEV4ZWN1dG9ycy5uZXdTaW5nbGVUaHJlYWRFeGVjdXRvciB7IHJ1bm5hYmxlIC0+CiAgICAgICAgVGhyZWFkKHJ1bm5hYmxlLCAiT3Blcml0QXBwTG9nZ2VyIikuYXBwbHkgewogICAgICAgICAgICBpc0RhZW1vbiA9IHRydWUKICAgICAgICB9CiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGJpbmRDb250ZXh0KGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICBpZiAoYm91bmRDb250ZXh0ID09IG51bGwpIHsKICAgICAgICAgICAgYm91bmRDb250ZXh0ID0gY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVzb2x2ZUxvZ0ZpbGUoKTogRmlsZT8gewogICAgICAgIHZhbCBleGlzdGluZyA9IGxvZ0ZpbGUKICAgICAgICBpZiAoZXhpc3RpbmcgIT0gbnVsbCkgcmV0dXJuIGV4aXN0aW5nCgogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgYXBwQ29udGV4dDogQ29udGV4dCA9IHRyeSB7CiAgICAgICAgICAgICAgICBPcGVyaXRBcHBsaWNhdGlvbi5pbnN0YW5jZS5hcHBsaWNhdGlvbkNvbnRleHQKICAgICAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgICAgICBib3VuZENvbnRleHQgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgZGlyID0gRmlsZShhcHBDb250ZXh0LmZpbGVzRGlyLCBMT0dfRElSX05BTUUpCiAgICAgICAgICAgIGlmICghZGlyLmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICBkaXIubWtkaXJzKCkKICAgICAgICAgICAgfQogICAgICAgICAgICBGaWxlKGRpciwgTE9HX0ZJTEVfTkFNRSkuYWxzbyB7IGZpbGUgLT4KICAgICAgICAgICAgICAgIGxvZ0ZpbGUgPSBmaWxlCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXNvbHZlUGFja2FnZUxvZ0ZpbGUoKTogRmlsZT8gewogICAgICAgIHZhbCBleGlzdGluZyA9IHBhY2thZ2VMb2dGaWxlCiAgICAgICAgaWYgKGV4aXN0aW5nICE9IG51bGwpIHJldHVybiBleGlzdGluZwoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGFwcENvbnRleHQ6IENvbnRleHQgPSB0cnkgewogICAgICAgICAgICAgICAgT3Blcml0QXBwbGljYXRpb24uaW5zdGFuY2UuYXBwbGljYXRpb25Db250ZXh0CiAgICAgICAgICAgIH0gY2F0Y2ggKF86IFRocm93YWJsZSkgewogICAgICAgICAgICAgICAgYm91bmRDb250ZXh0ID86IHJldHVybiBudWxsCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGRpciA9IEZpbGUoT3Blcml0UGF0aHMub3Blcml0Um9vdERpcigpLCBQQUNLQUdFX0xPR19ESVJfTkFNRSkKICAgICAgICAgICAgaWYgKCFkaXIuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIGRpci5ta2RpcnMoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBzdGFydHVwTXMgPSBPcGVyaXRBcHBsaWNhdGlvbi5hcHBTdGFydHVwVGltZU1zLnRha2VJZiB7IGl0ID4gMEwgfSA/OiBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICB2YWwgZmlsZU5hbWUgPSBzdGFydHVwRmlsZURhdGVGb3JtYXQuZm9ybWF0KERhdGUoc3RhcnR1cE1zKSkgKyAiLmxvZyIKICAgICAgICAgICAgRmlsZShkaXIsIGZpbGVOYW1lKS5hbHNvIHsgZmlsZSAtPgogICAgICAgICAgICAgICAgLy8gUHJ1bmUgYmVmb3JlIHRoZSBmaXJzdCB3cml0ZSBzbyB0aGUgbmV3IHN0YXJ0dXAgZmlsZSBmaXRzIHdpdGhpbiB0aGUgY2FwLgogICAgICAgICAgICAgICAgaWYgKCFmaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICAgICAgcHJ1bmVQYWNrYWdlTG9nRmlsZXMoZGlyKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcGFja2FnZUxvZ0ZpbGUgPSBmaWxlCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBwcnVuZVBhY2thZ2VMb2dGaWxlcyhkaXI6IEZpbGUpIHsKICAgICAgICB2YWwgZmlsZXMgPSBkaXIubGlzdEZpbGVzIHsgZmlsZSAtPgogICAgICAgICAgICBmaWxlLmlzRmlsZSAmJiBwYWNrYWdlTG9nRmlsZU5hbWVQYXR0ZXJuLm1hdGNoZXIoZmlsZS5uYW1lKS5tYXRjaGVzKCkKICAgICAgICB9Py5zb3J0ZWRCeSB7IGl0Lm5hbWUgfSA/OiByZXR1cm4KCiAgICAgICAgdmFyIHJlbWFpbmluZ0ZpbGVzID0gZmlsZXMuc2l6ZQogICAgICAgIGZvciAoZmlsZSBpbiBmaWxlcykgewogICAgICAgICAgICBpZiAocmVtYWluaW5nRmlsZXMgPCBNQVhfUEFDS0FHRV9MT0dfRklMRVMpIHsKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGZpbGUuZGVsZXRlKCkpIHsKICAgICAgICAgICAgICAgIHJlbWFpbmluZ0ZpbGVzIC09IDEKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyAtLS0gUHVibGljIEFQSSBtaXJyb3JpbmcgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyIC0tLQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biB2KHRhZzogU3RyaW5nLCBtc2c6IFN0cmluZyk6IEludCB7CiAgICAgICAgd3JpdGVUb0ZpbGUoVkVSQk9TRSwgdGFnLCBtc2csIG51bGwpCiAgICAgICAgcmV0dXJuIGlmIChlbmFibGVTeXN0ZW1Mb2cpIExvZy52KHRhZywgbXNnKSBlbHNlIDAKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gdih0YWc6IFN0cmluZywgbXNnOiBTdHJpbmcsIHRyOiBUaHJvd2FibGUpOiBJbnQgewogICAgICAgIHdyaXRlVG9GaWxlKFZFUkJPU0UsIHRhZywgbXNnLCB0cikKICAgICAgICByZXR1cm4gaWYgKGVuYWJsZVN5c3RlbUxvZykgTG9nLnYodGFnLCBtc2csIHRyKSBlbHNlIDAKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gZCh0YWc6IFN0cmluZywgbXNnOiBTdHJpbmcpOiBJbnQgewogICAgICAgIHdyaXRlVG9GaWxlKERFQlVHLCB0YWcsIG1zZywgbnVsbCkKICAgICAgICByZXR1cm4gaWYgKGVuYWJsZVN5c3RlbUxvZykgTG9nLmQodGFnLCBtc2cpIGVsc2UgMAogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBkKHRhZzogU3RyaW5nLCBtc2c6IFN0cmluZywgdHI6IFRocm93YWJsZSk6IEludCB7CiAgICAgICAgd3JpdGVUb0ZpbGUoREVCVUcsIHRhZywgbXNnLCB0cikKICAgICAgICByZXR1cm4gaWYgKGVuYWJsZVN5c3RlbUxvZykgTG9nLmQodGFnLCBtc2csIHRyKSBlbHNlIDAKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gaSh0YWc6IFN0cmluZywgbXNnOiBTdHJpbmcpOiBJbnQgewogICAgICAgIHdyaXRlVG9GaWxlKElORk8sIHRhZywgbXNnLCBudWxsKQogICAgICAgIHJldHVybiBpZiAoZW5hYmxlU3lzdGVtTG9nKSBMb2cuaSh0YWcsIG1zZykgZWxzZSAwCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGkodGFnOiBTdHJpbmcsIG1zZzogU3RyaW5nLCB0cjogVGhyb3dhYmxlKTogSW50IHsKICAgICAgICB3cml0ZVRvRmlsZShJTkZPLCB0YWcsIG1zZywgdHIpCiAgICAgICAgcmV0dXJuIGlmIChlbmFibGVTeXN0ZW1Mb2cpIExvZy5pKHRhZywgbXNnLCB0cikgZWxzZSAwCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIHcodGFnOiBTdHJpbmcsIG1zZzogU3RyaW5nKTogSW50IHsKICAgICAgICB3cml0ZVRvRmlsZShXQVJOLCB0YWcsIG1zZywgbnVsbCkKICAgICAgICByZXR1cm4gaWYgKGVuYWJsZVN5c3RlbUxvZykgTG9nLncodGFnLCBtc2cpIGVsc2UgMAogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biB3KHRhZzogU3RyaW5nLCBtc2c6IFN0cmluZywgdHI6IFRocm93YWJsZSk6IEludCB7CiAgICAgICAgd3JpdGVUb0ZpbGUoV0FSTiwgdGFnLCBtc2csIHRyKQogICAgICAgIHJldHVybiBpZiAoZW5hYmxlU3lzdGVtTG9nKSBMb2cudyh0YWcsIG1zZywgdHIpIGVsc2UgMAogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biB3KHRhZzogU3RyaW5nLCB0cjogVGhyb3dhYmxlKTogSW50IHsKICAgICAgICB3cml0ZVRvRmlsZShXQVJOLCB0YWcsICIiLCB0cikKICAgICAgICByZXR1cm4gaWYgKGVuYWJsZVN5c3RlbUxvZykgTG9nLncodGFnLCB0cikgZWxzZSAwCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGUodGFnOiBTdHJpbmcsIG1zZzogU3RyaW5nKTogSW50IHsKICAgICAgICB3cml0ZVRvRmlsZShFUlJPUiwgdGFnLCBtc2csIG51bGwpCiAgICAgICAgcmV0dXJuIGlmIChlbmFibGVTeXN0ZW1Mb2cpIExvZy5lKHRhZywgbXNnKSBlbHNlIDAKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gZSh0YWc6IFN0cmluZywgbXNnOiBTdHJpbmcsIHRyOiBUaHJvd2FibGUpOiBJbnQgewogICAgICAgIHdyaXRlVG9GaWxlKEVSUk9SLCB0YWcsIG1zZywgdHIpCiAgICAgICAgcmV0dXJuIGlmIChlbmFibGVTeXN0ZW1Mb2cpIExvZy5lKHRhZywgbXNnLCB0cikgZWxzZSAwCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIHd0Zih0YWc6IFN0cmluZywgbXNnOiBTdHJpbmcpOiBJbnQgewogICAgICAgIHdyaXRlVG9GaWxlKEFTU0VSVCwgdGFnLCBtc2csIG51bGwpCiAgICAgICAgcmV0dXJuIGlmIChlbmFibGVTeXN0ZW1Mb2cpIExvZy53dGYodGFnLCBtc2cpIGVsc2UgMAogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biB3dGYodGFnOiBTdHJpbmcsIG1zZzogU3RyaW5nLCB0cjogVGhyb3dhYmxlKTogSW50IHsKICAgICAgICB3cml0ZVRvRmlsZShBU1NFUlQsIHRhZywgbXNnLCB0cikKICAgICAgICByZXR1cm4gaWYgKGVuYWJsZVN5c3RlbUxvZykgTG9nLnd0Zih0YWcsIG1zZywgdHIpIGVsc2UgMAogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biB3dGYodGFnOiBTdHJpbmcsIHRyOiBUaHJvd2FibGUpOiBJbnQgewogICAgICAgIHdyaXRlVG9GaWxlKEFTU0VSVCwgdGFnLCAiIiwgdHIpCiAgICAgICAgcmV0dXJuIGlmIChlbmFibGVTeXN0ZW1Mb2cpIExvZy53dGYodGFnLCB0cikgZWxzZSAwCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGlzTG9nZ2FibGUodGFnOiBTdHJpbmcsIGxldmVsOiBJbnQpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gZW5hYmxlU3lzdGVtTG9nICYmIExvZy5pc0xvZ2dhYmxlKHRhZywgbGV2ZWwpCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIHByaW50bG4ocHJpb3JpdHk6IEludCwgdGFnOiBTdHJpbmcsIG1zZzogU3RyaW5nKTogSW50IHsKICAgICAgICB3cml0ZVRvRmlsZShwcmlvcml0eSwgdGFnLCBtc2csIG51bGwpCiAgICAgICAgcmV0dXJuIGlmIChlbmFibGVTeXN0ZW1Mb2cpIExvZy5wcmludGxuKHByaW9yaXR5LCB0YWcsIG1zZykgZWxzZSAwCiAgICB9CgogICAgQEp2bVN0YXRpYwogICAgZnVuIGdldFN0YWNrVHJhY2VTdHJpbmcodHI6IFRocm93YWJsZSk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFRocm93YWJsZVRleHRGb3JtYXR0ZXIuZm9ybWF0KHRyLCBNQVhfTE9HX1RIUk9XQUJMRV9DSEFSUykKICAgIH0KCiAgICAvKioKICAgICAqIFJldHVybnMgdGhlIGN1cnJlbnQgbG9nIGZpbGUgKGlmIGF2YWlsYWJsZSkgc28gdGhhdCBjYWxsZXJzIGNhbiBleHBvcnQgaXQuCiAgICAgKi8KICAgIEBKdm1TdGF0aWMKICAgIGZ1biBnZXRMb2dGaWxlKCk6IEZpbGU/ID0gcmVzb2x2ZUxvZ0ZpbGUoKQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biByZXNldExvZ0ZpbGUoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGFwcENvbnRleHQ6IENvbnRleHQgPSBPcGVyaXRBcHBsaWNhdGlvbi5pbnN0YW5jZS5hcHBsaWNhdGlvbkNvbnRleHQKICAgICAgICAgICAgdmFsIGRpciA9IEZpbGUoYXBwQ29udGV4dC5maWxlc0RpciwgTE9HX0RJUl9OQU1FKQogICAgICAgICAgICB2YWwgZmlsZSA9IEZpbGUoZGlyLCBMT0dfRklMRV9OQU1FKQogICAgICAgICAgICBpZiAoZmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgZmlsZS5kZWxldGUoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGxvZ0ZpbGUgPSBudWxsCiAgICAgICAgICAgIHBhY2thZ2VMb2dGaWxlID0gbnVsbAogICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICAvLyBJZ25vcmUgZXJyb3JzIGR1cmluZyByZXNldCB0byBhdm9pZCBjcmFzaGluZyBvbiBzdGFydHVwCiAgICAgICAgfQogICAgfQoKICAgIC8vIC0tLSBJbnRlcm5hbCBoZWxwZXJzIC0tLQoKICAgIHByaXZhdGUgZnVuIHdyaXRlVG9GaWxlKHByaW9yaXR5OiBJbnQsIHRhZzogU3RyaW5nLCBtc2c6IFN0cmluZywgdHI6IFRocm93YWJsZT8pIHsKICAgICAgICBpZiAoIWVuYWJsZUZpbGVMb2dnaW5nKSByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICBmaWxlTG9nRXhlY3V0b3IuZXhlY3V0ZSB7CiAgICAgICAgICAgICAgICB3cml0ZVRvRmlsZVN5bmMocHJpb3JpdHksIHRhZywgbXNnLCB0cikKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKF86IFJlamVjdGVkRXhlY3V0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHdyaXRlVG9GaWxlU3luYyhwcmlvcml0eTogSW50LCB0YWc6IFN0cmluZywgbXNnOiBTdHJpbmcsIHRyOiBUaHJvd2FibGU/KSB7CiAgICAgICAgaWYgKCFlbmFibGVGaWxlTG9nZ2luZykgcmV0dXJuCiAgICAgICAgdmFsIGZpbGUgPSByZXNvbHZlTG9nRmlsZSgpID86IHJldHVybgoKICAgICAgICB2YWwgdGltZSA9IGRhdGVGb3JtYXQuZm9ybWF0KERhdGUoKSkKICAgICAgICB2YWwgbm9ybWFsaXplZE1lc3NhZ2UgPSBub3JtYWxpemVMb2dNZXNzYWdlKG1zZykKICAgICAgICB2YWwgdGhyb3dhYmxlVGV4dCA9IHRyPy5sZXQgeyBUaHJvd2FibGVUZXh0Rm9ybWF0dGVyLmZvcm1hdChpdCwgTUFYX0xPR19USFJPV0FCTEVfQ0hBUlMpIH0KICAgICAgICB2YWwgbGV2ZWxDaGFyID0gd2hlbiAocHJpb3JpdHkpIHsKICAgICAgICAgICAgVkVSQk9TRSAtPiAnVicKICAgICAgICAgICAgREVCVUcgLT4gJ0QnCiAgICAgICAgICAgIElORk8gLT4gJ0knCiAgICAgICAgICAgIFdBUk4gLT4gJ1cnCiAgICAgICAgICAgIEVSUk9SIC0+ICdFJwogICAgICAgICAgICBBU1NFUlQgLT4gJ0EnCiAgICAgICAgICAgIGVsc2UgLT4gJz8nCiAgICAgICAgfQoKICAgICAgICB2YWwgYnVpbGRlciA9IFN0cmluZ0J1aWxkZXIoKQogICAgICAgIGJ1aWxkZXIuYXBwZW5kKHRpbWUpCiAgICAgICAgICAgIC5hcHBlbmQoIiAiKQogICAgICAgICAgICAuYXBwZW5kKGxldmVsQ2hhcikKICAgICAgICAgICAgLmFwcGVuZCgiLyIpCiAgICAgICAgICAgIC5hcHBlbmQodGFnKQogICAgICAgICAgICAuYXBwZW5kKCI6ICIpCiAgICAgICAgICAgIC5hcHBlbmQobm9ybWFsaXplZE1lc3NhZ2UpCgogICAgICAgIGlmICh0aHJvd2FibGVUZXh0ICE9IG51bGwpIHsKICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQoIlxuIikuYXBwZW5kKHRocm93YWJsZVRleHQpCiAgICAgICAgfQoKICAgICAgICBidWlsZGVyLmFwcGVuZCgnXG4nKQoKICAgICAgICB0cnkgewogICAgICAgICAgICBGaWxlV3JpdGVyKGZpbGUsIHRydWUpLnVzZSB7IHdyaXRlciAtPgogICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKGJ1aWxkZXIudG9TdHJpbmcoKSkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IElPRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIEF2b2lkIHJlY3Vyc2l2ZSBsb2dnaW5nIGhlcmU7IHN3YWxsb3cgdG8gcHJldmVudCBjcmFzaGVzCiAgICAgICAgfQoKICAgICAgICB3cml0ZVRvUGFja2FnZUxvZ0lmTmVlZGVkKAogICAgICAgICAgICB0YWcgPSB0YWcsCiAgICAgICAgICAgIG1zZyA9IG5vcm1hbGl6ZWRNZXNzYWdlLAogICAgICAgICAgICB0aHJvd2FibGVUZXh0ID0gdGhyb3dhYmxlVGV4dCwKICAgICAgICAgICAgdGltZSA9IHRpbWUsCiAgICAgICAgICAgIGxldmVsQ2hhciA9IGxldmVsQ2hhcgogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biB3cml0ZVRvUGFja2FnZUxvZ0lmTmVlZGVkKAogICAgICAgIHRhZzogU3RyaW5nLAogICAgICAgIG1zZzogU3RyaW5nLAogICAgICAgIHRocm93YWJsZVRleHQ6IFN0cmluZz8sCiAgICAgICAgdGltZTogU3RyaW5nLAogICAgICAgIGxldmVsQ2hhcjogQ2hhcgogICAgKSB7CiAgICAgICAgaWYgKCFzaG91bGRNaXJyb3JUb1BhY2thZ2VMb2codGFnLCBtc2cpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgZmlsZSA9IHJlc29sdmVQYWNrYWdlTG9nRmlsZSgpID86IHJldHVybgogICAgICAgIHZhbCBwYWNrYWdlSWQgPSBleHRyYWN0Rmlyc3RNYXRjaChtc2csIHBhY2thZ2VJZFJlZ2V4ZXMpCiAgICAgICAgdmFsIHNjcmlwdElkID0gZXh0cmFjdEZpcnN0TWF0Y2gobXNnLCBzY3JpcHRSZWdleGVzKQogICAgICAgIHZhbCBwbHVnaW5JZCA9IGV4dHJhY3RGaXJzdE1hdGNoKG1zZywgcGx1Z2luUmVnZXhlcykKCiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICBidWlsZGVyLmFwcGVuZCh0aW1lKQogICAgICAgICAgICAuYXBwZW5kKCIgIikKICAgICAgICAgICAgLmFwcGVuZChsZXZlbENoYXIpCiAgICAgICAgICAgIC5hcHBlbmQoIi8iKQogICAgICAgICAgICAuYXBwZW5kKFRPT0xQS0dfTE9HX1RBRykKICAgICAgICAgICAgLmFwcGVuZCgiICIpCgogICAgICAgIGlmICghcGFja2FnZUlkLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiW1BLRzoiKQogICAgICAgICAgICAgICAgLmFwcGVuZChwYWNrYWdlSWQpCiAgICAgICAgICAgICAgICAuYXBwZW5kKCJdIikKICAgICAgICB9CiAgICAgICAgaWYgKCFzY3JpcHRJZC5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQoIltTQ1JJUFQ6IikKICAgICAgICAgICAgICAgIC5hcHBlbmQoc2NyaXB0SWQpCiAgICAgICAgICAgICAgICAuYXBwZW5kKCJdIikKICAgICAgICB9CiAgICAgICAgaWYgKCFwbHVnaW5JZC5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQoIltQTFVHSU46IikKICAgICAgICAgICAgICAgIC5hcHBlbmQocGx1Z2luSWQpCiAgICAgICAgICAgICAgICAuYXBwZW5kKCJdIikKICAgICAgICB9CiAgICAgICAgaWYgKGJ1aWxkZXIuaXNOb3RFbXB0eSgpICYmIGJ1aWxkZXJbYnVpbGRlci5sZW5ndGggLSAxXSAhPSAnICcpIHsKICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQoIiAiKQogICAgICAgIH0KICAgICAgICBidWlsZGVyCiAgICAgICAgICAgIC5hcHBlbmQobXNnKQoKICAgICAgICBpZiAodGhyb3dhYmxlVGV4dCAhPSBudWxsKSB7CiAgICAgICAgICAgIGJ1aWxkZXIuYXBwZW5kKCJcbiIpLmFwcGVuZCh0aHJvd2FibGVUZXh0KQogICAgICAgIH0KICAgICAgICBidWlsZGVyLmFwcGVuZCgnXG4nKQoKICAgICAgICB0cnkgewogICAgICAgICAgICBGaWxlV3JpdGVyKGZpbGUsIHRydWUpLnVzZSB7IHdyaXRlciAtPgogICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKGJ1aWxkZXIudG9TdHJpbmcoKSkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKF86IElPRXhjZXB0aW9uKSB7CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNob3VsZE1pcnJvclRvUGFja2FnZUxvZyh0YWc6IFN0cmluZywgbXNnOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICBpZiAoIXRhZy5lcXVhbHMoVE9PTFBLR19MT0dfVEFHLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbm9ybWFsaXplTG9nTWVzc2FnZShtc2c6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIFRocm93YWJsZVRleHRGb3JtYXR0ZXIudHJ1bmNhdGVUZXh0KG1zZywgTUFYX0xPR19NRVNTQUdFX0NIQVJTKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV4dHJhY3RGaXJzdE1hdGNoKHRleHQ6IFN0cmluZywgcGF0dGVybnM6IExpc3Q8UGF0dGVybj4pOiBTdHJpbmc/IHsKICAgICAgICBmb3IgKHBhdHRlcm4gaW4gcGF0dGVybnMpIHsKICAgICAgICAgICAgdmFsIG1hdGNoZXIgPSBwYXR0ZXJuLm1hdGNoZXIodGV4dCkKICAgICAgICAgICAgaWYgKG1hdGNoZXIuZmluZCgpKSB7CiAgICAgICAgICAgICAgICB2YWwgdmFsdWUgPSBtYXRjaGVyLmdyb3VwKDEpPy50cmltKCkub3JFbXB0eSgpCiAgICAgICAgICAgICAgICBpZiAodmFsdWUuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHZhbHVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIG51bGwKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import android.util.Log
+import com.bslsjdk.operit.core.application.OperitApplication
+import java.io.File
+import java.io.FileWriter
+import java.io.IOException
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+import java.util.concurrent.Executors
+import java.util.concurrent.RejectedExecutionException
+import java.util.regex.Pattern
+
+/**
+ * App-wide logger with an API closely mirroring [com.bslsjdk.operit.util.AppLogger].
+ *
+ * It forwards all logs to the system Log and also persists them to
+ * an internal file so that the app can export logs for debugging.
+ */
+object AppLogger {
+
+    // Mirror com.bslsjdk.operit.util.AppLogger priority constants
+    const val VERBOSE: Int = Log.VERBOSE
+    const val DEBUG: Int = Log.DEBUG
+    const val INFO: Int = Log.INFO
+    const val WARN: Int = Log.WARN
+    const val ERROR: Int = Log.ERROR
+    const val ASSERT: Int = Log.ASSERT
+
+    // Log file configuration
+    private const val LOG_DIR_NAME = "logs"
+    private const val LOG_FILE_NAME = "operit.log"
+    private const val PACKAGE_LOG_DIR_NAME = "packageLogs"
+    private const val MAX_PACKAGE_LOG_FILES = 20
+    private const val TOOLPKG_LOG_TAG = "ToolPkg"
+    private const val MAX_LOG_MESSAGE_CHARS = 12_000
+    private const val MAX_LOG_THROWABLE_CHARS = 24_000
+
+    // Simple date formatter for log lines
+    private val dateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US)
+    private val startupFileDateFormat = SimpleDateFormat("yyyyMMdd_HHmmss_SSS", Locale.US)
+    private val packageLogFileNamePattern = Pattern.compile("\\d{8}_\\d{6}_\\d{3}\\.log")
+    private val packageIdRegexes = listOf(
+        Pattern.compile("""\btoolPkgId=([A-Za-z0-9._:-]+)\b"""),
+        Pattern.compile("""\bpackage(?:/subpackage)?=([A-Za-z0-9._:-]+)\b"""),
+        Pattern.compile("""\bcontainer=([A-Za-z0-9._:-]+)\b"""),
+        Pattern.compile("""\btarget=([A-Za-z0-9._:-]+)\b""")
+    )
+    private val scriptRegexes = listOf(
+        Pattern.compile("""\bscript=([^\s,]+)"""),
+        Pattern.compile("""\bpath=([^\s,]+)"""),
+        Pattern.compile("""\bscreen=([^\s,]+)"""),
+        Pattern.compile("""\bfunction=([A-Za-z0-9_.$:-]+)\b""")
+    )
+    private val pluginRegexes = listOf(
+        Pattern.compile("""\bplugin=([A-Za-z0-9._:-]+)\b"""),
+        Pattern.compile("""\bpluginId=([A-Za-z0-9._:-]+)\b"""),
+        Pattern.compile("""\bhookId=([A-Za-z0-9._:-]+)\b""")
+    )
+
+    /**
+     * Optional external switch to completely disable file logging if needed.
+     * System AppLogger.* calls will still be performed.
+     */
+    @Volatile
+    var enableFileLogging: Boolean = true
+
+    /**
+     * JVM 单元测试开关：关闭对 [android.util.Log] 的调用（返回 0/false），避免
+     * 纯 JVM 环境抛 "not mocked" 异常。与 [enableFileLogging] 独立——文件日志照常。
+     */
+    @Volatile
+    var enableSystemLog: Boolean = true
+
+    @Volatile
+    private var logFile: File? = null
+    @Volatile
+    private var packageLogFile: File? = null
+
+    @Volatile
+    private var boundContext: Context? = null
+    private val fileLogExecutor = Executors.newSingleThreadExecutor { runnable ->
+        Thread(runnable, "OperitAppLogger").apply {
+            isDaemon = true
+        }
+    }
+
+    @JvmStatic
+    fun bindContext(context: Context) {
+        if (boundContext == null) {
+            boundContext = context.applicationContext
+        }
+    }
+
+    private fun resolveLogFile(): File? {
+        val existing = logFile
+        if (existing != null) return existing
+
+        return try {
+            val appContext: Context = try {
+                OperitApplication.instance.applicationContext
+            } catch (_: Throwable) {
+                boundContext ?: return null
+            }
+            val dir = File(appContext.filesDir, LOG_DIR_NAME)
+            if (!dir.exists()) {
+                dir.mkdirs()
+            }
+            File(dir, LOG_FILE_NAME).also { file ->
+                logFile = file
+            }
+        } catch (e: Throwable) {
+            null
+        }
+    }
+
+    private fun resolvePackageLogFile(): File? {
+        val existing = packageLogFile
+        if (existing != null) return existing
+
+        return try {
+            val appContext: Context = try {
+                OperitApplication.instance.applicationContext
+            } catch (_: Throwable) {
+                boundContext ?: return null
+            }
+            val dir = File(OperitPaths.operitRootDir(), PACKAGE_LOG_DIR_NAME)
+            if (!dir.exists()) {
+                dir.mkdirs()
+            }
+            val startupMs = OperitApplication.appStartupTimeMs.takeIf { it > 0L } ?: System.currentTimeMillis()
+            val fileName = startupFileDateFormat.format(Date(startupMs)) + ".log"
+            File(dir, fileName).also { file ->
+                // Prune before the first write so the new startup file fits within the cap.
+                if (!file.exists()) {
+                    prunePackageLogFiles(dir)
+                }
+                packageLogFile = file
+            }
+        } catch (_: Throwable) {
+            null
+        }
+    }
+
+    private fun prunePackageLogFiles(dir: File) {
+        val files = dir.listFiles { file ->
+            file.isFile && packageLogFileNamePattern.matcher(file.name).matches()
+        }?.sortedBy { it.name } ?: return
+
+        var remainingFiles = files.size
+        for (file in files) {
+            if (remainingFiles < MAX_PACKAGE_LOG_FILES) {
+                break
+            }
+            if (file.delete()) {
+                remainingFiles -= 1
+            }
+        }
+    }
+
+    // --- Public API mirroring com.bslsjdk.operit.util.AppLogger ---
+
+    @JvmStatic
+    fun v(tag: String, msg: String): Int {
+        writeToFile(VERBOSE, tag, msg, null)
+        return if (enableSystemLog) Log.v(tag, msg) else 0
+    }
+
+    @JvmStatic
+    fun v(tag: String, msg: String, tr: Throwable): Int {
+        writeToFile(VERBOSE, tag, msg, tr)
+        return if (enableSystemLog) Log.v(tag, msg, tr) else 0
+    }
+
+    @JvmStatic
+    fun d(tag: String, msg: String): Int {
+        writeToFile(DEBUG, tag, msg, null)
+        return if (enableSystemLog) Log.d(tag, msg) else 0
+    }
+
+    @JvmStatic
+    fun d(tag: String, msg: String, tr: Throwable): Int {
+        writeToFile(DEBUG, tag, msg, tr)
+        return if (enableSystemLog) Log.d(tag, msg, tr) else 0
+    }
+
+    @JvmStatic
+    fun i(tag: String, msg: String): Int {
+        writeToFile(INFO, tag, msg, null)
+        return if (enableSystemLog) Log.i(tag, msg) else 0
+    }
+
+    @JvmStatic
+    fun i(tag: String, msg: String, tr: Throwable): Int {
+        writeToFile(INFO, tag, msg, tr)
+        return if (enableSystemLog) Log.i(tag, msg, tr) else 0
+    }
+
+    @JvmStatic
+    fun w(tag: String, msg: String): Int {
+        writeToFile(WARN, tag, msg, null)
+        return if (enableSystemLog) Log.w(tag, msg) else 0
+    }
+
+    @JvmStatic
+    fun w(tag: String, msg: String, tr: Throwable): Int {
+        writeToFile(WARN, tag, msg, tr)
+        return if (enableSystemLog) Log.w(tag, msg, tr) else 0
+    }
+
+    @JvmStatic
+    fun w(tag: String, tr: Throwable): Int {
+        writeToFile(WARN, tag, "", tr)
+        return if (enableSystemLog) Log.w(tag, tr) else 0
+    }
+
+    @JvmStatic
+    fun e(tag: String, msg: String): Int {
+        writeToFile(ERROR, tag, msg, null)
+        return if (enableSystemLog) Log.e(tag, msg) else 0
+    }
+
+    @JvmStatic
+    fun e(tag: String, msg: String, tr: Throwable): Int {
+        writeToFile(ERROR, tag, msg, tr)
+        return if (enableSystemLog) Log.e(tag, msg, tr) else 0
+    }
+
+    @JvmStatic
+    fun wtf(tag: String, msg: String): Int {
+        writeToFile(ASSERT, tag, msg, null)
+        return if (enableSystemLog) Log.wtf(tag, msg) else 0
+    }
+
+    @JvmStatic
+    fun wtf(tag: String, msg: String, tr: Throwable): Int {
+        writeToFile(ASSERT, tag, msg, tr)
+        return if (enableSystemLog) Log.wtf(tag, msg, tr) else 0
+    }
+
+    @JvmStatic
+    fun wtf(tag: String, tr: Throwable): Int {
+        writeToFile(ASSERT, tag, "", tr)
+        return if (enableSystemLog) Log.wtf(tag, tr) else 0
+    }
+
+    @JvmStatic
+    fun isLoggable(tag: String, level: Int): Boolean {
+        return enableSystemLog && Log.isLoggable(tag, level)
+    }
+
+    @JvmStatic
+    fun println(priority: Int, tag: String, msg: String): Int {
+        writeToFile(priority, tag, msg, null)
+        return if (enableSystemLog) Log.println(priority, tag, msg) else 0
+    }
+
+    @JvmStatic
+    fun getStackTraceString(tr: Throwable): String {
+        return ThrowableTextFormatter.format(tr, MAX_LOG_THROWABLE_CHARS)
+    }
+
+    /**
+     * Returns the current log file (if available) so that callers can export it.
+     */
+    @JvmStatic
+    fun getLogFile(): File? = resolveLogFile()
+
+    @JvmStatic
+    fun resetLogFile() {
+        try {
+            val appContext: Context = OperitApplication.instance.applicationContext
+            val dir = File(appContext.filesDir, LOG_DIR_NAME)
+            val file = File(dir, LOG_FILE_NAME)
+            if (file.exists()) {
+                file.delete()
+            }
+            logFile = null
+            packageLogFile = null
+        } catch (e: Throwable) {
+            // Ignore errors during reset to avoid crashing on startup
+        }
+    }
+
+    // --- Internal helpers ---
+
+    private fun writeToFile(priority: Int, tag: String, msg: String, tr: Throwable?) {
+        if (!enableFileLogging) return
+        try {
+            fileLogExecutor.execute {
+                writeToFileSync(priority, tag, msg, tr)
+            }
+        } catch (_: RejectedExecutionException) {
+        }
+    }
+
+    private fun writeToFileSync(priority: Int, tag: String, msg: String, tr: Throwable?) {
+        if (!enableFileLogging) return
+        val file = resolveLogFile() ?: return
+
+        val time = dateFormat.format(Date())
+        val normalizedMessage = normalizeLogMessage(msg)
+        val throwableText = tr?.let { ThrowableTextFormatter.format(it, MAX_LOG_THROWABLE_CHARS) }
+        val levelChar = when (priority) {
+            VERBOSE -> 'V'
+            DEBUG -> 'D'
+            INFO -> 'I'
+            WARN -> 'W'
+            ERROR -> 'E'
+            ASSERT -> 'A'
+            else -> '?'
+        }
+
+        val builder = StringBuilder()
+        builder.append(time)
+            .append(" ")
+            .append(levelChar)
+            .append("/")
+            .append(tag)
+            .append(": ")
+            .append(normalizedMessage)
+
+        if (throwableText != null) {
+            builder.append("\n").append(throwableText)
+        }
+
+        builder.append('\n')
+
+        try {
+            FileWriter(file, true).use { writer ->
+                writer.write(builder.toString())
+            }
+        } catch (e: IOException) {
+            // Avoid recursive logging here; swallow to prevent crashes
+        }
+
+        writeToPackageLogIfNeeded(
+            tag = tag,
+            msg = normalizedMessage,
+            throwableText = throwableText,
+            time = time,
+            levelChar = levelChar
+        )
+    }
+
+    private fun writeToPackageLogIfNeeded(
+        tag: String,
+        msg: String,
+        throwableText: String?,
+        time: String,
+        levelChar: Char
+    ) {
+        if (!shouldMirrorToPackageLog(tag, msg)) {
+            return
+        }
+        val file = resolvePackageLogFile() ?: return
+        val packageId = extractFirstMatch(msg, packageIdRegexes)
+        val scriptId = extractFirstMatch(msg, scriptRegexes)
+        val pluginId = extractFirstMatch(msg, pluginRegexes)
+
+        val builder = StringBuilder()
+        builder.append(time)
+            .append(" ")
+            .append(levelChar)
+            .append("/")
+            .append(TOOLPKG_LOG_TAG)
+            .append(" ")
+
+        if (!packageId.isNullOrBlank()) {
+            builder.append("[PKG:")
+                .append(packageId)
+                .append("]")
+        }
+        if (!scriptId.isNullOrBlank()) {
+            builder.append("[SCRIPT:")
+                .append(scriptId)
+                .append("]")
+        }
+        if (!pluginId.isNullOrBlank()) {
+            builder.append("[PLUGIN:")
+                .append(pluginId)
+                .append("]")
+        }
+        if (builder.isNotEmpty() && builder[builder.length - 1] != ' ') {
+            builder.append(" ")
+        }
+        builder
+            .append(msg)
+
+        if (throwableText != null) {
+            builder.append("\n").append(throwableText)
+        }
+        builder.append('\n')
+
+        try {
+            FileWriter(file, true).use { writer ->
+                writer.write(builder.toString())
+            }
+        } catch (_: IOException) {
+        }
+    }
+
+    private fun shouldMirrorToPackageLog(tag: String, msg: String): Boolean {
+        if (!tag.equals(TOOLPKG_LOG_TAG, ignoreCase = true)) {
+            return false
+        }
+        return true
+    }
+
+    private fun normalizeLogMessage(msg: String): String {
+        return ThrowableTextFormatter.truncateText(msg, MAX_LOG_MESSAGE_CHARS)
+    }
+
+    private fun extractFirstMatch(text: String, patterns: List<Pattern>): String? {
+        for (pattern in patterns) {
+            val matcher = pattern.matcher(text)
+            if (matcher.find()) {
+                val value = matcher.group(1)?.trim().orEmpty()
+                if (value.isNotEmpty()) {
+                    return value
+                }
+            }
+        }
+        return null
+    }
+}

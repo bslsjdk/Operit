@@ -1,1 +1,361 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnNxbHZpZXdlcgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLkNhbnZhcwppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5QYWludAppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5UeXBlZmFjZQppbXBvcnQgYW5kcm9pZC50ZXh0LlRleHRQYWludAppbXBvcnQgYW5kcm9pZC50ZXh0LlRleHRVdGlscwppbXBvcnQgYW5kcm9pZC51dGlsLkF0dHJpYnV0ZVNldAppbXBvcnQgYW5kcm9pZC52aWV3Lkdlc3R1cmVEZXRlY3RvcgppbXBvcnQgYW5kcm9pZC52aWV3Lk1vdGlvbkV2ZW50CmltcG9ydCBhbmRyb2lkLnZpZXcuU2NhbGVHZXN0dXJlRGV0ZWN0b3IKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3CmltcG9ydCBhbmRyb2lkLndpZGdldC5PdmVyU2Nyb2xsZXIKaW1wb3J0IGtvdGxpbi5tYXRoLnJvdW5kVG9JbnQKCmNsYXNzIFNxbFRhYmxlVmlldyBASnZtT3ZlcmxvYWRzIGNvbnN0cnVjdG9yKAogICAgY29udGV4dDogQ29udGV4dCwKICAgIGF0dHJzOiBBdHRyaWJ1dGVTZXQ/ID0gbnVsbAopIDogVmlldyhjb250ZXh0LCBhdHRycykgewogICAgcHJpdmF0ZSB2YWwgaGVhZGVyUGFpbnQgPSBUZXh0UGFpbnQoUGFpbnQuQU5USV9BTElBU19GTEFHKQogICAgcHJpdmF0ZSB2YWwgYm9keVBhaW50ID0gVGV4dFBhaW50KFBhaW50LkFOVElfQUxJQVNfRkxBRykKICAgIHByaXZhdGUgdmFsIGhlYWRlckJhY2tncm91bmRQYWludCA9IFBhaW50KFBhaW50LkFOVElfQUxJQVNfRkxBRykKICAgIHByaXZhdGUgdmFsIGdyaWRQYWludCA9IFBhaW50KFBhaW50LkFOVElfQUxJQVNfRkxBRykKCiAgICBwcml2YXRlIHZhbCBzY3JvbGxlciA9IE92ZXJTY3JvbGxlcihjb250ZXh0KQogICAgcHJpdmF0ZSB2YWwgZ2VzdHVyZURldGVjdG9yOiBHZXN0dXJlRGV0ZWN0b3IKICAgIHByaXZhdGUgdmFsIHNjYWxlRGV0ZWN0b3I6IFNjYWxlR2VzdHVyZURldGVjdG9yCgogICAgcHJpdmF0ZSB2YWwgZGVuc2l0eSA9IHJlc291cmNlcy5kaXNwbGF5TWV0cmljcy5kZW5zaXR5CiAgICBwcml2YXRlIHZhbCBzY2FsZWREZW5zaXR5ID0gcmVzb3VyY2VzLmRpc3BsYXlNZXRyaWNzLnNjYWxlZERlbnNpdHkKICAgIHByaXZhdGUgdmFsIGJhc2VDZWxsV2lkdGggPSAxNDBmICogZGVuc2l0eQogICAgcHJpdmF0ZSB2YWwgYmFzZVJvd0hlaWdodCA9IDMyZiAqIGRlbnNpdHkKICAgIHByaXZhdGUgdmFsIGJhc2VIZWFkZXJIZWlnaHQgPSAzNmYgKiBkZW5zaXR5CiAgICBwcml2YXRlIHZhbCBiYXNlUGFkZGluZ1ggPSA2ZiAqIGRlbnNpdHkKICAgIHByaXZhdGUgdmFsIGJhc2VQYWRkaW5nWSA9IDRmICogZGVuc2l0eQoKICAgIHByaXZhdGUgdmFyIGlzU2NhbGluZyA9IGZhbHNlCiAgICBwcml2YXRlIHZhciBmb2N1c1ggPSAwZgogICAgcHJpdmF0ZSB2YXIgZm9jdXNZID0gMGYKCiAgICBwcml2YXRlIHZhciB6b29tU2NhbGUgPSAxZgogICAgcHJpdmF0ZSB2YXIgb2Zmc2V0WCA9IDBmCiAgICBwcml2YXRlIHZhciBvZmZzZXRZID0gMGYKCiAgICB2YXIgY29sdW1uczogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCkKICAgICAgICBwcml2YXRlIHNldAoKICAgIHZhciByb3dzOiBMaXN0PExpc3Q8U3RyaW5nPj4gPSBlbXB0eUxpc3QoKQogICAgICAgIHByaXZhdGUgc2V0CgogICAgdmFyIGhlYWRlclRleHRDb2xvcjogSW50ID0gMHhGRjAwMDAwMC50b0ludCgpCiAgICB2YXIgYm9keVRleHRDb2xvcjogSW50ID0gMHhGRjAwMDAwMC50b0ludCgpCiAgICB2YXIgaGVhZGVyQmFja2dyb3VuZENvbG9yOiBJbnQgPSAweEZGRTBFMEUwLnRvSW50KCkKICAgIHZhciBncmlkTGluZUNvbG9yOiBJbnQgPSAweEZGQ0NDQ0NDLnRvSW50KCkKICAgIHZhciBoZWFkZXJGb250U2l6ZVNwOiBGbG9hdCA9IDEyZgogICAgdmFyIGJvZHlGb250U2l6ZVNwOiBGbG9hdCA9IDEyZgogICAgdmFyIG1pblNjYWxlOiBGbG9hdCA9IDAuNmYKICAgIHZhciBtYXhTY2FsZTogRmxvYXQgPSAyLjJmCgogICAgaW5pdCB7CiAgICAgICAgaGVhZGVyUGFpbnQudHlwZWZhY2UgPSBUeXBlZmFjZS5ERUZBVUxUX0JPTEQKICAgICAgICBib2R5UGFpbnQudHlwZWZhY2UgPSBUeXBlZmFjZS5ERUZBVUxUCgogICAgICAgIGdlc3R1cmVEZXRlY3RvciA9IEdlc3R1cmVEZXRlY3Rvcihjb250ZXh0LCBvYmplY3QgOiBHZXN0dXJlRGV0ZWN0b3IuU2ltcGxlT25HZXN0dXJlTGlzdGVuZXIoKSB7CiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkRvd24oZTogTW90aW9uRXZlbnQpOiBCb29sZWFuIHsKICAgICAgICAgICAgICAgIGlmICghc2Nyb2xsZXIuaXNGaW5pc2hlZCkgewogICAgICAgICAgICAgICAgICAgIHNjcm9sbGVyLmFib3J0QW5pbWF0aW9uKCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvblNjcm9sbCgKICAgICAgICAgICAgICAgIGUxOiBNb3Rpb25FdmVudD8sCiAgICAgICAgICAgICAgICBlMjogTW90aW9uRXZlbnQsCiAgICAgICAgICAgICAgICBkaXN0YW5jZVg6IEZsb2F0LAogICAgICAgICAgICAgICAgZGlzdGFuY2VZOiBGbG9hdAogICAgICAgICAgICApOiBCb29sZWFuIHsKICAgICAgICAgICAgICAgIGlmIChpc1NjYWxpbmcpIHJldHVybiBmYWxzZQogICAgICAgICAgICAgICAgc2Nyb2xsQnlEaXN0YW5jZShkaXN0YW5jZVgsIGRpc3RhbmNlWSkKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkZsaW5nKAogICAgICAgICAgICAgICAgZTE6IE1vdGlvbkV2ZW50PywKICAgICAgICAgICAgICAgIGUyOiBNb3Rpb25FdmVudCwKICAgICAgICAgICAgICAgIHZlbG9jaXR5WDogRmxvYXQsCiAgICAgICAgICAgICAgICB2ZWxvY2l0eVk6IEZsb2F0CiAgICAgICAgICAgICk6IEJvb2xlYW4gewogICAgICAgICAgICAgICAgaWYgKGlzU2NhbGluZykgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgICAgICBzdGFydEZsaW5nKHZlbG9jaXR5WCwgdmVsb2NpdHlZKQogICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgfQogICAgICAgIH0pCgogICAgICAgIHNjYWxlRGV0ZWN0b3IgPSBTY2FsZUdlc3R1cmVEZXRlY3Rvcihjb250ZXh0LCBvYmplY3QgOiBTY2FsZUdlc3R1cmVEZXRlY3Rvci5TaW1wbGVPblNjYWxlR2VzdHVyZUxpc3RlbmVyKCkgewogICAgICAgICAgICBvdmVycmlkZSBmdW4gb25TY2FsZUJlZ2luKGRldGVjdG9yOiBTY2FsZUdlc3R1cmVEZXRlY3Rvcik6IEJvb2xlYW4gewogICAgICAgICAgICAgICAgaXNTY2FsaW5nID0gdHJ1ZQogICAgICAgICAgICAgICAgaWYgKCFzY3JvbGxlci5pc0ZpbmlzaGVkKSB7CiAgICAgICAgICAgICAgICAgICAgc2Nyb2xsZXIuYWJvcnRBbmltYXRpb24oKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgfQoKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uU2NhbGUoZGV0ZWN0b3I6IFNjYWxlR2VzdHVyZURldGVjdG9yKTogQm9vbGVhbiB7CiAgICAgICAgICAgICAgICBmb2N1c1ggPSBkZXRlY3Rvci5mb2N1c1gKICAgICAgICAgICAgICAgIGZvY3VzWSA9IGRldGVjdG9yLmZvY3VzWQogICAgICAgICAgICAgICAgYXBwbHlTY2FsZShkZXRlY3Rvci5zY2FsZUZhY3RvcikKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvblNjYWxlRW5kKGRldGVjdG9yOiBTY2FsZUdlc3R1cmVEZXRlY3RvcikgewogICAgICAgICAgICAgICAgaXNTY2FsaW5nID0gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0pCiAgICB9CgogICAgZnVuIHVwZGF0ZVN0eWxlKAogICAgICAgIGhlYWRlclRleHRDb2xvcjogSW50LAogICAgICAgIGJvZHlUZXh0Q29sb3I6IEludCwKICAgICAgICBoZWFkZXJCYWNrZ3JvdW5kQ29sb3I6IEludCwKICAgICAgICBncmlkTGluZUNvbG9yOiBJbnQsCiAgICAgICAgaGVhZGVyRm9udFNpemVTcDogRmxvYXQsCiAgICAgICAgYm9keUZvbnRTaXplU3A6IEZsb2F0CiAgICApIHsKICAgICAgICB0aGlzLmhlYWRlclRleHRDb2xvciA9IGhlYWRlclRleHRDb2xvcgogICAgICAgIHRoaXMuYm9keVRleHRDb2xvciA9IGJvZHlUZXh0Q29sb3IKICAgICAgICB0aGlzLmhlYWRlckJhY2tncm91bmRDb2xvciA9IGhlYWRlckJhY2tncm91bmRDb2xvcgogICAgICAgIHRoaXMuZ3JpZExpbmVDb2xvciA9IGdyaWRMaW5lQ29sb3IKICAgICAgICB0aGlzLmhlYWRlckZvbnRTaXplU3AgPSBoZWFkZXJGb250U2l6ZVNwCiAgICAgICAgdGhpcy5ib2R5Rm9udFNpemVTcCA9IGJvZHlGb250U2l6ZVNwCiAgICAgICAgaW52YWxpZGF0ZSgpCiAgICB9CgogICAgZnVuIHNldERhdGEoY29sdW1uczogTGlzdDxTdHJpbmc+LCByb3dzOiBMaXN0PExpc3Q8U3RyaW5nPj4pIHsKICAgICAgICB0aGlzLmNvbHVtbnMgPSBjb2x1bW5zCiAgICAgICAgdGhpcy5yb3dzID0gcm93cwogICAgICAgIGNsYW1wT2Zmc2V0KCkKICAgICAgICBpbnZhbGlkYXRlKCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25TaXplQ2hhbmdlZCh3OiBJbnQsIGg6IEludCwgb2xkdzogSW50LCBvbGRoOiBJbnQpIHsKICAgICAgICBzdXBlci5vblNpemVDaGFuZ2VkKHcsIGgsIG9sZHcsIG9sZGgpCiAgICAgICAgY2xhbXBPZmZzZXQoKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblRvdWNoRXZlbnQoZXZlbnQ6IE1vdGlvbkV2ZW50KTogQm9vbGVhbiB7CiAgICAgICAgdmFsIHNjYWxlSGFuZGxlZCA9IHNjYWxlRGV0ZWN0b3Iub25Ub3VjaEV2ZW50KGV2ZW50KQogICAgICAgIHZhbCBnZXN0dXJlSGFuZGxlZCA9IGdlc3R1cmVEZXRlY3Rvci5vblRvdWNoRXZlbnQoZXZlbnQpCiAgICAgICAgcmV0dXJuIHNjYWxlSGFuZGxlZCB8fCBnZXN0dXJlSGFuZGxlZCB8fCBzdXBlci5vblRvdWNoRXZlbnQoZXZlbnQpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGNvbXB1dGVTY3JvbGwoKSB7CiAgICAgICAgaWYgKHNjcm9sbGVyLmNvbXB1dGVTY3JvbGxPZmZzZXQoKSkgewogICAgICAgICAgICBvZmZzZXRYID0gc2Nyb2xsZXIuY3VyclgudG9GbG9hdCgpCiAgICAgICAgICAgIG9mZnNldFkgPSBzY3JvbGxlci5jdXJyWS50b0Zsb2F0KCkKICAgICAgICAgICAgcG9zdEludmFsaWRhdGVPbkFuaW1hdGlvbigpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvbkRyYXcoY2FudmFzOiBDYW52YXMpIHsKICAgICAgICBzdXBlci5vbkRyYXcoY2FudmFzKQogICAgICAgIGlmICh3aWR0aCA9PSAwIHx8IGhlaWdodCA9PSAwKSByZXR1cm4KCiAgICAgICAgdmFsIGNlbGxXaWR0aCA9IGJhc2VDZWxsV2lkdGggKiB6b29tU2NhbGUKICAgICAgICB2YWwgcm93SGVpZ2h0ID0gYmFzZVJvd0hlaWdodCAqIHpvb21TY2FsZQogICAgICAgIHZhbCBoZWFkZXJIZWlnaHQgPSBiYXNlSGVhZGVySGVpZ2h0ICogem9vbVNjYWxlCiAgICAgICAgdmFsIHBhZGRpbmdYID0gYmFzZVBhZGRpbmdYICogem9vbVNjYWxlCiAgICAgICAgdmFsIHBhZGRpbmdZID0gYmFzZVBhZGRpbmdZICogem9vbVNjYWxlCgogICAgICAgIGhlYWRlclBhaW50LmNvbG9yID0gaGVhZGVyVGV4dENvbG9yCiAgICAgICAgYm9keVBhaW50LmNvbG9yID0gYm9keVRleHRDb2xvcgogICAgICAgIGhlYWRlclBhaW50LnRleHRTaXplID0gaGVhZGVyRm9udFNpemVTcCAqIHNjYWxlZERlbnNpdHkgKiB6b29tU2NhbGUKICAgICAgICBib2R5UGFpbnQudGV4dFNpemUgPSBib2R5Rm9udFNpemVTcCAqIHNjYWxlZERlbnNpdHkgKiB6b29tU2NhbGUKCiAgICAgICAgaGVhZGVyQmFja2dyb3VuZFBhaW50LmNvbG9yID0gaGVhZGVyQmFja2dyb3VuZENvbG9yCiAgICAgICAgZ3JpZFBhaW50LmNvbG9yID0gZ3JpZExpbmVDb2xvcgogICAgICAgIGdyaWRQYWludC5zdHJva2VXaWR0aCA9IDFmCgogICAgICAgIHZhbCBtYXhPZmZzZXQgPSBjb21wdXRlTWF4T2Zmc2V0KGNlbGxXaWR0aCwgcm93SGVpZ2h0LCBoZWFkZXJIZWlnaHQpCiAgICAgICAgdmFsIGNsYW1wZWRYID0gb2Zmc2V0WC5jb2VyY2VJbigwZiwgbWF4T2Zmc2V0LmZpcnN0KQogICAgICAgIHZhbCBjbGFtcGVkWSA9IG9mZnNldFkuY29lcmNlSW4oMGYsIG1heE9mZnNldC5zZWNvbmQpCiAgICAgICAgaWYgKGNsYW1wZWRYICE9IG9mZnNldFggfHwgY2xhbXBlZFkgIT0gb2Zmc2V0WSkgewogICAgICAgICAgICBvZmZzZXRYID0gY2xhbXBlZFgKICAgICAgICAgICAgb2Zmc2V0WSA9IGNsYW1wZWRZCiAgICAgICAgfQoKICAgICAgICB2YWwgdmlld3BvcnRXaWR0aCA9IHdpZHRoLnRvRmxvYXQoKQogICAgICAgIHZhbCBib2R5Vmlld3BvcnRIZWlnaHQgPSAoaGVpZ2h0LnRvRmxvYXQoKSAtIGhlYWRlckhlaWdodCkuY29lcmNlQXRMZWFzdCgwZikKCiAgICAgICAgY2FudmFzLmRyYXdSZWN0KDBmLCAwZiwgd2lkdGgudG9GbG9hdCgpLCBoZWFkZXJIZWlnaHQsIGhlYWRlckJhY2tncm91bmRQYWludCkKCiAgICAgICAgaWYgKGNvbHVtbnMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIHZhbCB2aXNpYmxlU3RhcnRDb2wgPSAoY2xhbXBlZFggLyBjZWxsV2lkdGgpLnRvSW50KCkuY29lcmNlQXRMZWFzdCgwKQogICAgICAgICAgICB2YWwgdmlzaWJsZUVuZENvbCA9ICgoY2xhbXBlZFggKyB2aWV3cG9ydFdpZHRoKSAvIGNlbGxXaWR0aCkKICAgICAgICAgICAgICAgIC50b0ludCgpCiAgICAgICAgICAgICAgICAuY29lcmNlQXRNb3N0KChjb2x1bW5zLnNpemUgLSAxKS5jb2VyY2VBdExlYXN0KDApKQoKICAgICAgICAgICAgZm9yIChjb2wgaW4gdmlzaWJsZVN0YXJ0Q29sLi52aXNpYmxlRW5kQ29sKSB7CiAgICAgICAgICAgICAgICB2YWwgeCA9IGNvbCAqIGNlbGxXaWR0aCAtIGNsYW1wZWRYCiAgICAgICAgICAgICAgICB2YWwgaGVhZGVyVGV4dCA9IGNvbHVtbnMuZ2V0T3JOdWxsKGNvbCkub3JFbXB0eSgpCiAgICAgICAgICAgICAgICBkcmF3Q2VsbFRleHQoCiAgICAgICAgICAgICAgICAgICAgY2FudmFzID0gY2FudmFzLAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBoZWFkZXJUZXh0LAogICAgICAgICAgICAgICAgICAgIHBhaW50ID0gaGVhZGVyUGFpbnQsCiAgICAgICAgICAgICAgICAgICAgY2VsbExlZnQgPSB4LAogICAgICAgICAgICAgICAgICAgIGNlbGxUb3AgPSAwZiwKICAgICAgICAgICAgICAgICAgICBjZWxsV2lkdGggPSBjZWxsV2lkdGgsCiAgICAgICAgICAgICAgICAgICAgY2VsbEhlaWdodCA9IGhlYWRlckhlaWdodCwKICAgICAgICAgICAgICAgICAgICBwYWRkaW5nWCA9IHBhZGRpbmdYLAogICAgICAgICAgICAgICAgICAgIHBhZGRpbmdZID0gcGFkZGluZ1kKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGNhbnZhcy5kcmF3TGluZSh4ICsgY2VsbFdpZHRoLCAwZiwgeCArIGNlbGxXaWR0aCwgaGVpZ2h0LnRvRmxvYXQoKSwgZ3JpZFBhaW50KQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBpZiAocm93cy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgdmFsIHZpc2libGVTdGFydFJvdyA9IChjbGFtcGVkWSAvIHJvd0hlaWdodCkudG9JbnQoKS5jb2VyY2VBdExlYXN0KDApCiAgICAgICAgICAgIHZhbCB2aXNpYmxlRW5kUm93ID0gKChjbGFtcGVkWSArIGJvZHlWaWV3cG9ydEhlaWdodCkgLyByb3dIZWlnaHQpCiAgICAgICAgICAgICAgICAudG9JbnQoKQogICAgICAgICAgICAgICAgLmNvZXJjZUF0TW9zdCgocm93cy5zaXplIC0gMSkuY29lcmNlQXRMZWFzdCgwKSkKCiAgICAgICAgICAgIHZhbCB2aXNpYmxlU3RhcnRDb2wgPSBpZiAoY29sdW1ucy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIChjbGFtcGVkWCAvIGNlbGxXaWR0aCkudG9JbnQoKS5jb2VyY2VBdExlYXN0KDApCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIHZpc2libGVFbmRDb2wgPSBpZiAoY29sdW1ucy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICgoY2xhbXBlZFggKyB2aWV3cG9ydFdpZHRoKSAvIGNlbGxXaWR0aCkKICAgICAgICAgICAgICAgICAgICAudG9JbnQoKQogICAgICAgICAgICAgICAgICAgIC5jb2VyY2VBdE1vc3QoKGNvbHVtbnMuc2l6ZSAtIDEpLmNvZXJjZUF0TGVhc3QoMCkpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAtMQogICAgICAgICAgICB9CgogICAgICAgICAgICBmb3IgKHJvd0luZGV4IGluIHZpc2libGVTdGFydFJvdy4udmlzaWJsZUVuZFJvdykgewogICAgICAgICAgICAgICAgdmFsIHJvd1RvcCA9IGhlYWRlckhlaWdodCArIHJvd0luZGV4ICogcm93SGVpZ2h0IC0gY2xhbXBlZFkKICAgICAgICAgICAgICAgIGNhbnZhcy5kcmF3TGluZSgwZiwgcm93VG9wICsgcm93SGVpZ2h0LCB3aWR0aC50b0Zsb2F0KCksIHJvd1RvcCArIHJvd0hlaWdodCwgZ3JpZFBhaW50KQogICAgICAgICAgICAgICAgdmFsIHJvdyA9IHJvd3MuZ2V0T3JOdWxsKHJvd0luZGV4KSA/OiBjb250aW51ZQogICAgICAgICAgICAgICAgaWYgKHZpc2libGVFbmRDb2wgPj0gdmlzaWJsZVN0YXJ0Q29sKSB7CiAgICAgICAgICAgICAgICAgICAgZm9yIChjb2xJbmRleCBpbiB2aXNpYmxlU3RhcnRDb2wuLnZpc2libGVFbmRDb2wpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNlbGxUZXh0ID0gcm93LmdldE9yTnVsbChjb2xJbmRleCkub3JFbXB0eSgpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB4ID0gY29sSW5kZXggKiBjZWxsV2lkdGggLSBjbGFtcGVkWAogICAgICAgICAgICAgICAgICAgICAgICBkcmF3Q2VsbFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYW52YXMgPSBjYW52YXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gY2VsbFRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWludCA9IGJvZHlQYWludCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNlbGxMZWZ0ID0geCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNlbGxUb3AgPSByb3dUb3AsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjZWxsV2lkdGggPSBjZWxsV2lkdGgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjZWxsSGVpZ2h0ID0gcm93SGVpZ2h0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZ1ggPSBwYWRkaW5nWCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmdZID0gcGFkZGluZ1kKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBhcHBseVNjYWxlKHNjYWxlRmFjdG9yOiBGbG9hdCkgewogICAgICAgIGlmICh3aWR0aCA9PSAwIHx8IGhlaWdodCA9PSAwKSByZXR1cm4KICAgICAgICB2YWwgbmV3U2NhbGUgPSAoem9vbVNjYWxlICogc2NhbGVGYWN0b3IpLmNvZXJjZUluKG1pblNjYWxlLCBtYXhTY2FsZSkKICAgICAgICBpZiAobmV3U2NhbGUgPT0gem9vbVNjYWxlKSByZXR1cm4KICAgICAgICB2YWwgc2NhbGVDaGFuZ2UgPSBuZXdTY2FsZSAvIHpvb21TY2FsZQogICAgICAgIHZhbCBuZXdPZmZzZXRYID0gKG9mZnNldFggKyBmb2N1c1gpICogc2NhbGVDaGFuZ2UgLSBmb2N1c1gKICAgICAgICB2YWwgbmV3T2Zmc2V0WSA9IChvZmZzZXRZICsgZm9jdXNZKSAqIHNjYWxlQ2hhbmdlIC0gZm9jdXNZCiAgICAgICAgem9vbVNjYWxlID0gbmV3U2NhbGUKICAgICAgICB2YWwgbWF4T2Zmc2V0ID0gY29tcHV0ZU1heE9mZnNldCgKICAgICAgICAgICAgYmFzZUNlbGxXaWR0aCAqIHpvb21TY2FsZSwKICAgICAgICAgICAgYmFzZVJvd0hlaWdodCAqIHpvb21TY2FsZSwKICAgICAgICAgICAgYmFzZUhlYWRlckhlaWdodCAqIHpvb21TY2FsZQogICAgICAgICkKICAgICAgICBvZmZzZXRYID0gbmV3T2Zmc2V0WC5jb2VyY2VJbigwZiwgbWF4T2Zmc2V0LmZpcnN0KQogICAgICAgIG9mZnNldFkgPSBuZXdPZmZzZXRZLmNvZXJjZUluKDBmLCBtYXhPZmZzZXQuc2Vjb25kKQogICAgICAgIGludmFsaWRhdGUoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNjcm9sbEJ5RGlzdGFuY2UoZGlzdGFuY2VYOiBGbG9hdCwgZGlzdGFuY2VZOiBGbG9hdCkgewogICAgICAgIHZhbCBtYXhPZmZzZXQgPSBjb21wdXRlTWF4T2Zmc2V0KAogICAgICAgICAgICBiYXNlQ2VsbFdpZHRoICogem9vbVNjYWxlLAogICAgICAgICAgICBiYXNlUm93SGVpZ2h0ICogem9vbVNjYWxlLAogICAgICAgICAgICBiYXNlSGVhZGVySGVpZ2h0ICogem9vbVNjYWxlCiAgICAgICAgKQogICAgICAgIG9mZnNldFggPSAob2Zmc2V0WCArIGRpc3RhbmNlWCkuY29lcmNlSW4oMGYsIG1heE9mZnNldC5maXJzdCkKICAgICAgICBvZmZzZXRZID0gKG9mZnNldFkgKyBkaXN0YW5jZVkpLmNvZXJjZUluKDBmLCBtYXhPZmZzZXQuc2Vjb25kKQogICAgICAgIGludmFsaWRhdGUoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHN0YXJ0RmxpbmcodmVsb2NpdHlYOiBGbG9hdCwgdmVsb2NpdHlZOiBGbG9hdCkgewogICAgICAgIHZhbCBtYXhPZmZzZXQgPSBjb21wdXRlTWF4T2Zmc2V0KAogICAgICAgICAgICBiYXNlQ2VsbFdpZHRoICogem9vbVNjYWxlLAogICAgICAgICAgICBiYXNlUm93SGVpZ2h0ICogem9vbVNjYWxlLAogICAgICAgICAgICBiYXNlSGVhZGVySGVpZ2h0ICogem9vbVNjYWxlCiAgICAgICAgKQogICAgICAgIGlmIChtYXhPZmZzZXQuZmlyc3QgPT0gMGYgJiYgbWF4T2Zmc2V0LnNlY29uZCA9PSAwZikgcmV0dXJuCiAgICAgICAgc2Nyb2xsZXIuZmxpbmcoCiAgICAgICAgICAgIG9mZnNldFgucm91bmRUb0ludCgpLAogICAgICAgICAgICBvZmZzZXRZLnJvdW5kVG9JbnQoKSwKICAgICAgICAgICAgKC12ZWxvY2l0eVgpLnJvdW5kVG9JbnQoKSwKICAgICAgICAgICAgKC12ZWxvY2l0eVkpLnJvdW5kVG9JbnQoKSwKICAgICAgICAgICAgMCwKICAgICAgICAgICAgbWF4T2Zmc2V0LmZpcnN0LnJvdW5kVG9JbnQoKSwKICAgICAgICAgICAgMCwKICAgICAgICAgICAgbWF4T2Zmc2V0LnNlY29uZC5yb3VuZFRvSW50KCkKICAgICAgICApCiAgICAgICAgcG9zdEludmFsaWRhdGVPbkFuaW1hdGlvbigpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY2xhbXBPZmZzZXQoKSB7CiAgICAgICAgdmFsIG1heE9mZnNldCA9IGNvbXB1dGVNYXhPZmZzZXQoCiAgICAgICAgICAgIGJhc2VDZWxsV2lkdGggKiB6b29tU2NhbGUsCiAgICAgICAgICAgIGJhc2VSb3dIZWlnaHQgKiB6b29tU2NhbGUsCiAgICAgICAgICAgIGJhc2VIZWFkZXJIZWlnaHQgKiB6b29tU2NhbGUKICAgICAgICApCiAgICAgICAgb2Zmc2V0WCA9IG9mZnNldFguY29lcmNlSW4oMGYsIG1heE9mZnNldC5maXJzdCkKICAgICAgICBvZmZzZXRZID0gb2Zmc2V0WS5jb2VyY2VJbigwZiwgbWF4T2Zmc2V0LnNlY29uZCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBjb21wdXRlTWF4T2Zmc2V0KAogICAgICAgIGNlbGxXaWR0aDogRmxvYXQsCiAgICAgICAgcm93SGVpZ2h0OiBGbG9hdCwKICAgICAgICBoZWFkZXJIZWlnaHQ6IEZsb2F0CiAgICApOiBQYWlyPEZsb2F0LCBGbG9hdD4gewogICAgICAgIGlmICh3aWR0aCA9PSAwIHx8IGhlaWdodCA9PSAwKSByZXR1cm4gMGYgdG8gMGYKICAgICAgICB2YWwgdmlld3BvcnRXaWR0aCA9IHdpZHRoLnRvRmxvYXQoKS5jb2VyY2VBdExlYXN0KDBmKQogICAgICAgIHZhbCB2aWV3cG9ydEhlaWdodCA9IGhlaWdodC50b0Zsb2F0KCkuY29lcmNlQXRMZWFzdCgwZikKICAgICAgICB2YWwgY29udGVudFdpZHRoID0gKGNvbHVtbnMuc2l6ZSAqIGNlbGxXaWR0aCkuY29lcmNlQXRMZWFzdCgwZikKICAgICAgICB2YWwgY29udGVudEhlaWdodCA9IChyb3dzLnNpemUgKiByb3dIZWlnaHQpLmNvZXJjZUF0TGVhc3QoMGYpCiAgICAgICAgdmFsIGJvZHlWaWV3cG9ydEhlaWdodCA9ICh2aWV3cG9ydEhlaWdodCAtIGhlYWRlckhlaWdodCkuY29lcmNlQXRMZWFzdCgwZikKICAgICAgICB2YWwgbWF4WCA9IChjb250ZW50V2lkdGggLSB2aWV3cG9ydFdpZHRoKS5jb2VyY2VBdExlYXN0KDBmKQogICAgICAgIHZhbCBtYXhZID0gKGNvbnRlbnRIZWlnaHQgLSBib2R5Vmlld3BvcnRIZWlnaHQpLmNvZXJjZUF0TGVhc3QoMGYpCiAgICAgICAgcmV0dXJuIG1heFggdG8gbWF4WQogICAgfQoKICAgIHByaXZhdGUgZnVuIGRyYXdDZWxsVGV4dCgKICAgICAgICBjYW52YXM6IENhbnZhcywKICAgICAgICB0ZXh0OiBTdHJpbmcsCiAgICAgICAgcGFpbnQ6IFRleHRQYWludCwKICAgICAgICBjZWxsTGVmdDogRmxvYXQsCiAgICAgICAgY2VsbFRvcDogRmxvYXQsCiAgICAgICAgY2VsbFdpZHRoOiBGbG9hdCwKICAgICAgICBjZWxsSGVpZ2h0OiBGbG9hdCwKICAgICAgICBwYWRkaW5nWDogRmxvYXQsCiAgICAgICAgcGFkZGluZ1k6IEZsb2F0CiAgICApIHsKICAgICAgICBpZiAodGV4dC5pc0VtcHR5KCkpIHJldHVybgogICAgICAgIHZhbCBtYXhXaWR0aCA9IGNlbGxXaWR0aCAtIHBhZGRpbmdYICogMgogICAgICAgIGlmIChtYXhXaWR0aCA8PSAwZikgcmV0dXJuCiAgICAgICAgdmFsIGRpc3BsYXlUZXh0ID0gaWYgKHBhaW50Lm1lYXN1cmVUZXh0KHRleHQpIDw9IG1heFdpZHRoKSB7CiAgICAgICAgICAgIHRleHQKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBUZXh0VXRpbHMuZWxsaXBzaXplKHRleHQsIHBhaW50LCBtYXhXaWR0aCwgVGV4dFV0aWxzLlRydW5jYXRlQXQuRU5EKS50b1N0cmluZygpCiAgICAgICAgfQogICAgICAgIHZhbCBiYXNlbGluZSA9IGNlbGxUb3AgKyBwYWRkaW5nWSAtIHBhaW50LmZvbnRNZXRyaWNzLmFzY2VudAogICAgICAgIGNhbnZhcy5zYXZlKCkKICAgICAgICBjYW52YXMuY2xpcFJlY3QoY2VsbExlZnQsIGNlbGxUb3AsIGNlbGxMZWZ0ICsgY2VsbFdpZHRoLCBjZWxsVG9wICsgY2VsbEhlaWdodCkKICAgICAgICBjYW52YXMuZHJhd1RleHQoZGlzcGxheVRleHQsIGNlbGxMZWZ0ICsgcGFkZGluZ1gsIGJhc2VsaW5lLCBwYWludCkKICAgICAgICBjYW52YXMucmVzdG9yZSgpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.toolbox.screens.sqlviewer
+
+import android.content.Context
+import android.graphics.Canvas
+import android.graphics.Paint
+import android.graphics.Typeface
+import android.text.TextPaint
+import android.text.TextUtils
+import android.util.AttributeSet
+import android.view.GestureDetector
+import android.view.MotionEvent
+import android.view.ScaleGestureDetector
+import android.view.View
+import android.widget.OverScroller
+import kotlin.math.roundToInt
+
+class SqlTableView @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null
+) : View(context, attrs) {
+    private val headerPaint = TextPaint(Paint.ANTI_ALIAS_FLAG)
+    private val bodyPaint = TextPaint(Paint.ANTI_ALIAS_FLAG)
+    private val headerBackgroundPaint = Paint(Paint.ANTI_ALIAS_FLAG)
+    private val gridPaint = Paint(Paint.ANTI_ALIAS_FLAG)
+
+    private val scroller = OverScroller(context)
+    private val gestureDetector: GestureDetector
+    private val scaleDetector: ScaleGestureDetector
+
+    private val density = resources.displayMetrics.density
+    private val scaledDensity = resources.displayMetrics.scaledDensity
+    private val baseCellWidth = 140f * density
+    private val baseRowHeight = 32f * density
+    private val baseHeaderHeight = 36f * density
+    private val basePaddingX = 6f * density
+    private val basePaddingY = 4f * density
+
+    private var isScaling = false
+    private var focusX = 0f
+    private var focusY = 0f
+
+    private var zoomScale = 1f
+    private var offsetX = 0f
+    private var offsetY = 0f
+
+    var columns: List<String> = emptyList()
+        private set
+
+    var rows: List<List<String>> = emptyList()
+        private set
+
+    var headerTextColor: Int = 0xFF000000.toInt()
+    var bodyTextColor: Int = 0xFF000000.toInt()
+    var headerBackgroundColor: Int = 0xFFE0E0E0.toInt()
+    var gridLineColor: Int = 0xFFCCCCCC.toInt()
+    var headerFontSizeSp: Float = 12f
+    var bodyFontSizeSp: Float = 12f
+    var minScale: Float = 0.6f
+    var maxScale: Float = 2.2f
+
+    init {
+        headerPaint.typeface = Typeface.DEFAULT_BOLD
+        bodyPaint.typeface = Typeface.DEFAULT
+
+        gestureDetector = GestureDetector(context, object : GestureDetector.SimpleOnGestureListener() {
+            override fun onDown(e: MotionEvent): Boolean {
+                if (!scroller.isFinished) {
+                    scroller.abortAnimation()
+                }
+                return true
+            }
+
+            override fun onScroll(
+                e1: MotionEvent?,
+                e2: MotionEvent,
+                distanceX: Float,
+                distanceY: Float
+            ): Boolean {
+                if (isScaling) return false
+                scrollByDistance(distanceX, distanceY)
+                return true
+            }
+
+            override fun onFling(
+                e1: MotionEvent?,
+                e2: MotionEvent,
+                velocityX: Float,
+                velocityY: Float
+            ): Boolean {
+                if (isScaling) return false
+                startFling(velocityX, velocityY)
+                return true
+            }
+        })
+
+        scaleDetector = ScaleGestureDetector(context, object : ScaleGestureDetector.SimpleOnScaleGestureListener() {
+            override fun onScaleBegin(detector: ScaleGestureDetector): Boolean {
+                isScaling = true
+                if (!scroller.isFinished) {
+                    scroller.abortAnimation()
+                }
+                return true
+            }
+
+            override fun onScale(detector: ScaleGestureDetector): Boolean {
+                focusX = detector.focusX
+                focusY = detector.focusY
+                applyScale(detector.scaleFactor)
+                return true
+            }
+
+            override fun onScaleEnd(detector: ScaleGestureDetector) {
+                isScaling = false
+            }
+        })
+    }
+
+    fun updateStyle(
+        headerTextColor: Int,
+        bodyTextColor: Int,
+        headerBackgroundColor: Int,
+        gridLineColor: Int,
+        headerFontSizeSp: Float,
+        bodyFontSizeSp: Float
+    ) {
+        this.headerTextColor = headerTextColor
+        this.bodyTextColor = bodyTextColor
+        this.headerBackgroundColor = headerBackgroundColor
+        this.gridLineColor = gridLineColor
+        this.headerFontSizeSp = headerFontSizeSp
+        this.bodyFontSizeSp = bodyFontSizeSp
+        invalidate()
+    }
+
+    fun setData(columns: List<String>, rows: List<List<String>>) {
+        this.columns = columns
+        this.rows = rows
+        clampOffset()
+        invalidate()
+    }
+
+    override fun onSizeChanged(w: Int, h: Int, oldw: Int, oldh: Int) {
+        super.onSizeChanged(w, h, oldw, oldh)
+        clampOffset()
+    }
+
+    override fun onTouchEvent(event: MotionEvent): Boolean {
+        val scaleHandled = scaleDetector.onTouchEvent(event)
+        val gestureHandled = gestureDetector.onTouchEvent(event)
+        return scaleHandled || gestureHandled || super.onTouchEvent(event)
+    }
+
+    override fun computeScroll() {
+        if (scroller.computeScrollOffset()) {
+            offsetX = scroller.currX.toFloat()
+            offsetY = scroller.currY.toFloat()
+            postInvalidateOnAnimation()
+        }
+    }
+
+    override fun onDraw(canvas: Canvas) {
+        super.onDraw(canvas)
+        if (width == 0 || height == 0) return
+
+        val cellWidth = baseCellWidth * zoomScale
+        val rowHeight = baseRowHeight * zoomScale
+        val headerHeight = baseHeaderHeight * zoomScale
+        val paddingX = basePaddingX * zoomScale
+        val paddingY = basePaddingY * zoomScale
+
+        headerPaint.color = headerTextColor
+        bodyPaint.color = bodyTextColor
+        headerPaint.textSize = headerFontSizeSp * scaledDensity * zoomScale
+        bodyPaint.textSize = bodyFontSizeSp * scaledDensity * zoomScale
+
+        headerBackgroundPaint.color = headerBackgroundColor
+        gridPaint.color = gridLineColor
+        gridPaint.strokeWidth = 1f
+
+        val maxOffset = computeMaxOffset(cellWidth, rowHeight, headerHeight)
+        val clampedX = offsetX.coerceIn(0f, maxOffset.first)
+        val clampedY = offsetY.coerceIn(0f, maxOffset.second)
+        if (clampedX != offsetX || clampedY != offsetY) {
+            offsetX = clampedX
+            offsetY = clampedY
+        }
+
+        val viewportWidth = width.toFloat()
+        val bodyViewportHeight = (height.toFloat() - headerHeight).coerceAtLeast(0f)
+
+        canvas.drawRect(0f, 0f, width.toFloat(), headerHeight, headerBackgroundPaint)
+
+        if (columns.isNotEmpty()) {
+            val visibleStartCol = (clampedX / cellWidth).toInt().coerceAtLeast(0)
+            val visibleEndCol = ((clampedX + viewportWidth) / cellWidth)
+                .toInt()
+                .coerceAtMost((columns.size - 1).coerceAtLeast(0))
+
+            for (col in visibleStartCol..visibleEndCol) {
+                val x = col * cellWidth - clampedX
+                val headerText = columns.getOrNull(col).orEmpty()
+                drawCellText(
+                    canvas = canvas,
+                    text = headerText,
+                    paint = headerPaint,
+                    cellLeft = x,
+                    cellTop = 0f,
+                    cellWidth = cellWidth,
+                    cellHeight = headerHeight,
+                    paddingX = paddingX,
+                    paddingY = paddingY
+                )
+                canvas.drawLine(x + cellWidth, 0f, x + cellWidth, height.toFloat(), gridPaint)
+            }
+        }
+
+        if (rows.isNotEmpty()) {
+            val visibleStartRow = (clampedY / rowHeight).toInt().coerceAtLeast(0)
+            val visibleEndRow = ((clampedY + bodyViewportHeight) / rowHeight)
+                .toInt()
+                .coerceAtMost((rows.size - 1).coerceAtLeast(0))
+
+            val visibleStartCol = if (columns.isNotEmpty()) {
+                (clampedX / cellWidth).toInt().coerceAtLeast(0)
+            } else {
+                0
+            }
+            val visibleEndCol = if (columns.isNotEmpty()) {
+                ((clampedX + viewportWidth) / cellWidth)
+                    .toInt()
+                    .coerceAtMost((columns.size - 1).coerceAtLeast(0))
+            } else {
+                -1
+            }
+
+            for (rowIndex in visibleStartRow..visibleEndRow) {
+                val rowTop = headerHeight + rowIndex * rowHeight - clampedY
+                canvas.drawLine(0f, rowTop + rowHeight, width.toFloat(), rowTop + rowHeight, gridPaint)
+                val row = rows.getOrNull(rowIndex) ?: continue
+                if (visibleEndCol >= visibleStartCol) {
+                    for (colIndex in visibleStartCol..visibleEndCol) {
+                        val cellText = row.getOrNull(colIndex).orEmpty()
+                        val x = colIndex * cellWidth - clampedX
+                        drawCellText(
+                            canvas = canvas,
+                            text = cellText,
+                            paint = bodyPaint,
+                            cellLeft = x,
+                            cellTop = rowTop,
+                            cellWidth = cellWidth,
+                            cellHeight = rowHeight,
+                            paddingX = paddingX,
+                            paddingY = paddingY
+                        )
+                    }
+                }
+            }
+        }
+    }
+
+    private fun applyScale(scaleFactor: Float) {
+        if (width == 0 || height == 0) return
+        val newScale = (zoomScale * scaleFactor).coerceIn(minScale, maxScale)
+        if (newScale == zoomScale) return
+        val scaleChange = newScale / zoomScale
+        val newOffsetX = (offsetX + focusX) * scaleChange - focusX
+        val newOffsetY = (offsetY + focusY) * scaleChange - focusY
+        zoomScale = newScale
+        val maxOffset = computeMaxOffset(
+            baseCellWidth * zoomScale,
+            baseRowHeight * zoomScale,
+            baseHeaderHeight * zoomScale
+        )
+        offsetX = newOffsetX.coerceIn(0f, maxOffset.first)
+        offsetY = newOffsetY.coerceIn(0f, maxOffset.second)
+        invalidate()
+    }
+
+    private fun scrollByDistance(distanceX: Float, distanceY: Float) {
+        val maxOffset = computeMaxOffset(
+            baseCellWidth * zoomScale,
+            baseRowHeight * zoomScale,
+            baseHeaderHeight * zoomScale
+        )
+        offsetX = (offsetX + distanceX).coerceIn(0f, maxOffset.first)
+        offsetY = (offsetY + distanceY).coerceIn(0f, maxOffset.second)
+        invalidate()
+    }
+
+    private fun startFling(velocityX: Float, velocityY: Float) {
+        val maxOffset = computeMaxOffset(
+            baseCellWidth * zoomScale,
+            baseRowHeight * zoomScale,
+            baseHeaderHeight * zoomScale
+        )
+        if (maxOffset.first == 0f && maxOffset.second == 0f) return
+        scroller.fling(
+            offsetX.roundToInt(),
+            offsetY.roundToInt(),
+            (-velocityX).roundToInt(),
+            (-velocityY).roundToInt(),
+            0,
+            maxOffset.first.roundToInt(),
+            0,
+            maxOffset.second.roundToInt()
+        )
+        postInvalidateOnAnimation()
+    }
+
+    private fun clampOffset() {
+        val maxOffset = computeMaxOffset(
+            baseCellWidth * zoomScale,
+            baseRowHeight * zoomScale,
+            baseHeaderHeight * zoomScale
+        )
+        offsetX = offsetX.coerceIn(0f, maxOffset.first)
+        offsetY = offsetY.coerceIn(0f, maxOffset.second)
+    }
+
+    private fun computeMaxOffset(
+        cellWidth: Float,
+        rowHeight: Float,
+        headerHeight: Float
+    ): Pair<Float, Float> {
+        if (width == 0 || height == 0) return 0f to 0f
+        val viewportWidth = width.toFloat().coerceAtLeast(0f)
+        val viewportHeight = height.toFloat().coerceAtLeast(0f)
+        val contentWidth = (columns.size * cellWidth).coerceAtLeast(0f)
+        val contentHeight = (rows.size * rowHeight).coerceAtLeast(0f)
+        val bodyViewportHeight = (viewportHeight - headerHeight).coerceAtLeast(0f)
+        val maxX = (contentWidth - viewportWidth).coerceAtLeast(0f)
+        val maxY = (contentHeight - bodyViewportHeight).coerceAtLeast(0f)
+        return maxX to maxY
+    }
+
+    private fun drawCellText(
+        canvas: Canvas,
+        text: String,
+        paint: TextPaint,
+        cellLeft: Float,
+        cellTop: Float,
+        cellWidth: Float,
+        cellHeight: Float,
+        paddingX: Float,
+        paddingY: Float
+    ) {
+        if (text.isEmpty()) return
+        val maxWidth = cellWidth - paddingX * 2
+        if (maxWidth <= 0f) return
+        val displayText = if (paint.measureText(text) <= maxWidth) {
+            text
+        } else {
+            TextUtils.ellipsize(text, paint, maxWidth, TextUtils.TruncateAt.END).toString()
+        }
+        val baseline = cellTop + paddingY - paint.fontMetrics.ascent
+        canvas.save()
+        canvas.clipRect(cellLeft, cellTop, cellLeft + cellWidth, cellTop + cellHeight)
+        canvas.drawText(displayText, cellLeft + paddingX, baseline, paint)
+        canvas.restore()
+    }
+}

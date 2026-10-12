@@ -1,1 +1,43 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGlicmFyeQoKaW1wb3J0IGphdmEudGltZS5JbnN0YW50CmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlCmltcG9ydCBqYXZhLnRpbWUuWm9uZUlkCmltcG9ydCBqYXZhLnRpbWUuWm9uZU9mZnNldAoKc2VhbGVkIGNsYXNzIENoYXRNZW1vcnlSZWJ1aWxkVGltZVNjb3BlIHsKICAgIGRhdGEgb2JqZWN0IEVudGlyZUNoYXQgOiBDaGF0TWVtb3J5UmVidWlsZFRpbWVTY29wZSgpCgogICAgZGF0YSBjbGFzcyBJbmNsdXNpdmVMb2NhbFJhbmdlKAogICAgICAgIHZhbCBzdGFydEluY2x1c2l2ZU1zOiBMb25nLAogICAgICAgIHZhbCBlbmRFeGNsdXNpdmVNczogTG9uZwogICAgKSA6IENoYXRNZW1vcnlSZWJ1aWxkVGltZVNjb3BlKCkgewogICAgICAgIGluaXQgewogICAgICAgICAgICByZXF1aXJlKGVuZEV4Y2x1c2l2ZU1zID4gc3RhcnRJbmNsdXNpdmVNcykgewogICAgICAgICAgICAgICAgIm1lbW9yeSByZWJ1aWxkIHJhbmdlIGVuZCBtdXN0IGJlIGFmdGVyIHN0YXJ0IgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBmdW4gY29udGFpbnModGltZXN0YW1wOiBMb25nKTogQm9vbGVhbiA9CiAgICAgICAgICAgIHRpbWVzdGFtcCA+PSBzdGFydEluY2x1c2l2ZU1zICYmIHRpbWVzdGFtcCA8IGVuZEV4Y2x1c2l2ZU1zCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIHV0Y01pZG5pZ2h0TWlsbGlzVG9Mb2NhbERhdGUodXRjTWlkbmlnaHRNczogTG9uZyk6IExvY2FsRGF0ZSA9CiAgICAgICAgICAgIEluc3RhbnQub2ZFcG9jaE1pbGxpKHV0Y01pZG5pZ2h0TXMpLmF0Wm9uZShab25lT2Zmc2V0LlVUQykudG9Mb2NhbERhdGUoKQoKICAgICAgICBmdW4gaW5jbHVzaXZlRGF0ZXMoCiAgICAgICAgICAgIHN0YXJ0OiBMb2NhbERhdGUsCiAgICAgICAgICAgIGVuZDogTG9jYWxEYXRlLAogICAgICAgICAgICB6b25lOiBab25lSWQKICAgICAgICApOiBJbmNsdXNpdmVMb2NhbFJhbmdlIHsKICAgICAgICAgICAgcmVxdWlyZSghZW5kLmlzQmVmb3JlKHN0YXJ0KSkgewogICAgICAgICAgICAgICAgIm1lbW9yeSByZWJ1aWxkIHJhbmdlIGVuZCBtdXN0IG5vdCBiZSBiZWZvcmUgc3RhcnQiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIEluY2x1c2l2ZUxvY2FsUmFuZ2UoCiAgICAgICAgICAgICAgICBzdGFydEluY2x1c2l2ZU1zID0gc3RhcnQuYXRTdGFydE9mRGF5KHpvbmUpLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpLAogICAgICAgICAgICAgICAgZW5kRXhjbHVzaXZlTXMgPSBlbmQucGx1c0RheXMoMSkuYXRTdGFydE9mRGF5KHpvbmUpLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.library
+
+import java.time.Instant
+import java.time.LocalDate
+import java.time.ZoneId
+import java.time.ZoneOffset
+
+sealed class ChatMemoryRebuildTimeScope {
+    data object EntireChat : ChatMemoryRebuildTimeScope()
+
+    data class InclusiveLocalRange(
+        val startInclusiveMs: Long,
+        val endExclusiveMs: Long
+    ) : ChatMemoryRebuildTimeScope() {
+        init {
+            require(endExclusiveMs > startInclusiveMs) {
+                "memory rebuild range end must be after start"
+            }
+        }
+
+        fun contains(timestamp: Long): Boolean =
+            timestamp >= startInclusiveMs && timestamp < endExclusiveMs
+    }
+
+    companion object {
+        fun utcMidnightMillisToLocalDate(utcMidnightMs: Long): LocalDate =
+            Instant.ofEpochMilli(utcMidnightMs).atZone(ZoneOffset.UTC).toLocalDate()
+
+        fun inclusiveDates(
+            start: LocalDate,
+            end: LocalDate,
+            zone: ZoneId
+        ): InclusiveLocalRange {
+            require(!end.isBefore(start)) {
+                "memory rebuild range end must not be before start"
+            }
+            return InclusiveLocalRange(
+                startInclusiveMs = start.atStartOfDay(zone).toInstant().toEpochMilli(),
+                endExclusiveMs = end.plusDays(1).atStartOfDay(zone).toInstant().toEpochMilli()
+            )
+        }
+    }
+}

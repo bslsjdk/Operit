@@ -1,1 +1,336 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGphdmEuc2VjdXJpdHkuU2VjdXJlUmFuZG9tCgpvYmplY3QgQ2hhdE1hcmt1cFJlZ2V4IHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRPT0xfVEFHX1NVRkZJWF9SRUdFWF9TT1VSQ0UgPSAiW0EtWmEtejAtOV9dKyIKICAgIHByaXZhdGUgY29uc3QgdmFsIEdFTUlOSV9USE9VR0hUX1NJR05BVFVSRV9QUk9WSURFUiA9ICJnZW1pbmk6dGhvdWdodF9zaWduYXR1cmUiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBPUEVOQUlfUkVTUE9OU0VTX1JFQVNPTklOR19QUk9WSURFUiA9ICJvcGVuYWk6cmVzcG9uc2VzX3JlYXNvbmluZyIKICAgIHByaXZhdGUgY29uc3QgdmFsIE9QRU5BSV9SRVNQT05TRVNfT1VUUFVUX0lURU1fUFJPVklERVIgPSAib3BlbmFpOnJlc3BvbnNlc19vdXRwdXRfaXRlbSIKICAgIGNvbnN0IHZhbCBUT09MX1RBR19OQU1FX1JFR0VYX1NPVVJDRSA9CiAgICAgICAgInRvb2woPzpfKD8hcmVzdWx0KD86X3xcXGIpKSRUT09MX1RBR19TVUZGSVhfUkVHRVhfU09VUkNFKT8iCiAgICBjb25zdCB2YWwgVE9PTF9SRVNVTFRfVEFHX05BTUVfUkVHRVhfU09VUkNFID0gInRvb2xfcmVzdWx0KD86XyR7VE9PTF9UQUdfU1VGRklYX1JFR0VYX1NPVVJDRX0pPyIKCiAgICBwcml2YXRlIHZhbCB0b29sVGFnTmFtZVJlZ2V4ID0gUmVnZXgoIl4kVE9PTF9UQUdfTkFNRV9SRUdFWF9TT1VSQ0UkIiwgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UpCiAgICBwcml2YXRlIHZhbCB0b29sUmVzdWx0VGFnTmFtZVJlZ2V4ID0gUmVnZXgoIl4kVE9PTF9SRVNVTFRfVEFHX05BTUVfUkVHRVhfU09VUkNFJCIsIFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFKQogICAgcHJpdmF0ZSB2YWwgb3BlbmluZ1RhZ05hbWVSZWdleCA9IFJlZ2V4KCI8KFtBLVphLXpdW0EtWmEtejAtOV9dKikiKQogICAgcHJpdmF0ZSB2YWwgdG9vbFN0YXJ0VGFnUmVnZXggPSBSZWdleCgiPCg/OiRUT09MX1RBR19OQU1FX1JFR0VYX1NPVVJDRSlcXGIiLCBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSkKICAgIHByaXZhdGUgdmFsIHRvb2xSZXN1bHRTdGFydFRhZ1JlZ2V4ID0gUmVnZXgoIjwoPzokVE9PTF9SRVNVTFRfVEFHX05BTUVfUkVHRVhfU09VUkNFKVxcYiIsIFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFKQogICAgcHJpdmF0ZSB2YWwgbWV0YVByb3ZpZGVyQXR0clJlZ2V4ID0gUmVnZXgoIiIiXGJwcm92aWRlclxzKj1ccypbIiddKFteIiddKylbIiddIiIiLCBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSkKICAgIHByaXZhdGUgdmFsIG1ldGFCb2R5UmVnZXggPSBSZWdleCgKICAgICAgICAiIiI8bWV0YVxiW14+XSo+KFtcc1xTXSo/KTwvbWV0YT4iIiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKICAgIHByaXZhdGUgdmFsIHJhbmRvbVRhZ0NvZGVDaGFycyA9ICJBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWmFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6MDEyMzQ1Njc4OSIKICAgIHByaXZhdGUgdmFsIHJhbmRvbVRhZ0NvZGVTb3VyY2UgPSBTZWN1cmVSYW5kb20oKQoKICAgIHZhbCB0b29sQ2FsbFBhdHRlcm4gPSBSZWdleCgKICAgICAgICAiIiI8KCRUT09MX1RBR19OQU1FX1JFR0VYX1NPVVJDRSlcYltePl0qbmFtZT0iKFteIl0rKSJbXj5dKj4oW1xzXFNdKj8pPC9cMT4iIiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICB2YWwgdG9vbFRhZyA9IFJlZ2V4KAogICAgICAgICIiIjwoJFRPT0xfVEFHX05BTUVfUkVHRVhfU09VUkNFKVxiW1xzXFNdKj88L1wxPiIiIiwKICAgICAgICBzZXRPZihSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSwgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMKQogICAgKQoKICAgIHZhbCB0b29sU2VsZkNsb3NpbmdUYWcgPSBSZWdleCgKICAgICAgICAiIiI8JHtUT09MX1RBR19OQU1FX1JFR0VYX1NPVVJDRX1cYltePl0qLz4iIiIsCiAgICAgICAgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UKICAgICkKCiAgICB2YWwgdG9vbFJlc3VsdFRhZyA9IFJlZ2V4KAogICAgICAgICIiIjwoJFRPT0xfUkVTVUxUX1RBR19OQU1FX1JFR0VYX1NPVVJDRSlcYltcc1xTXSo/PC9cMT4iIiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICB2YWwgdG9vbFJlc3VsdFNlbGZDbG9zaW5nVGFnID0gUmVnZXgoCiAgICAgICAgIiIiPCR7VE9PTF9SRVNVTFRfVEFHX05BTUVfUkVHRVhfU09VUkNFfVxiW14+XSovPiIiIiwKICAgICAgICBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRQogICAgKQoKICAgIHZhbCB0b29sUmVzdWx0VGFnV2l0aEF0dHJzID0gUmVnZXgoCiAgICAgICAgIiIiPCgkVE9PTF9SRVNVTFRfVEFHX05BTUVfUkVHRVhfU09VUkNFKVxiKFtePl0qKT4oW1xzXFNdKj8pPC9cMT4iIiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICB2YWwgdG9vbFJlc3VsdEFueVBhdHRlcm4gPSBSZWdleCgKICAgICAgICAiIiI8KCRUT09MX1JFU1VMVF9UQUdfTkFNRV9SRUdFWF9TT1VSQ0UpXGJbXj5dKj4oW1xzXFNdKj8pPC9cMT4iIiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICB2YWwgdG9vbFJlc3VsdFdpdGhOYW1lQW55UGF0dGVybiA9IFJlZ2V4KAogICAgICAgICIiIjwoJFRPT0xfUkVTVUxUX1RBR19OQU1FX1JFR0VYX1NPVVJDRSlcYltePl0qbmFtZT0iKFteIl0rKSJbXj5dKj4oW1xzXFNdKj8pPC9cMT4iIiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICB2YWwgdG9vbE9yVG9vbFJlc3VsdEJsb2NrID0gUmVnZXgoCiAgICAgICAgIiIiPCgkVE9PTF9SRVNVTFRfVEFHX05BTUVfUkVHRVhfU09VUkNFfCRUT09MX1RBR19OQU1FX1JFR0VYX1NPVVJDRSlcYltcc1xTXSo/PC9cMT4iIiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICB2YWwgeG1sU3RhdHVzUGF0dGVybiA9IFJlZ2V4KAogICAgICAgICI8c3RhdHVzXFxzK3R5cGU9XCIoW15cIl0rKVwiKD86XFxzK3V1aWQ9XCIoW15cIl0rKVwiKT8oPzpcXHMrdGl0bGU9XCIoW15cIl0rKVwiKT8oPzpcXHMrc3VidGl0bGU9XCIoW15cIl0rKVwiKT8+KFtcXHNcXFNdKj8pPC9zdGF0dXM+IgogICAgKQoKICAgIHZhbCB4bWxUb29sUmVzdWx0UGF0dGVybiA9IFJlZ2V4KAogICAgICAgICIiIjwoJFRPT0xfUkVTVUxUX1RBR19OQU1FX1JFR0VYX1NPVVJDRSlcYltePl0qbmFtZT0iKFteIl0rKSJbXj5dKnN0YXR1cz0iKFteIl0rKSJbXj5dKj5ccyo8Y29udGVudD4oW1xzXFNdKj8pPC9jb250ZW50PlxzKjwvXDE+IiIiLAogICAgICAgIHNldE9mKFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFLCBSZWdleE9wdGlvbi5ET1RfTUFUQ0hFU19BTEwpCiAgICApCgogICAgdmFsIHhtbFRvb2xSZXF1ZXN0UGF0dGVybiA9IFJlZ2V4KAogICAgICAgICIiIjwoJFRPT0xfVEFHX05BTUVfUkVHRVhfU09VUkNFKVxiW14+XSpuYW1lPSIoW14iXSspIig/OlxzK2Rlc2NyaXB0aW9uPSIoW14iXSspIik/W14+XSo+KFtcc1xTXSo/KTwvXDE+IiIiLAogICAgICAgIHNldE9mKFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFLCBSZWdleE9wdGlvbi5ET1RfTUFUQ0hFU19BTEwpCiAgICApCgogICAgdmFsIG5hbWVQYXR0ZXJuID0gUmVnZXgoCiAgICAgICAgIjwoPzokVE9PTF9UQUdfTkFNRV9SRUdFWF9TT1VSQ0UpXFxiW14+XSpuYW1lPVwiKFteXCJdKylcIiIsCiAgICAgICAgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UKICAgICkKCiAgICB2YWwgdG9vbFBhcmFtUGF0dGVybiA9IFJlZ2V4KCI8cGFyYW1cXHMrbmFtZT1cIihbXlwiXSspXCI+KFtcXHNcXFNdKj8pPC9wYXJhbT4iKQoKICAgIHZhbCBuYW1lQXR0ciA9IFJlZ2V4KCJuYW1lXFxzKj1cXHMqXCIoW15cIl0rKVwiIiwgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UpCgogICAgdmFsIHN0YXR1c0F0dHIgPSBSZWdleCgic3RhdHVzXFxzKj1cXHMqXCIoW15cIl0rKVwiIiwgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UpCgogICAgdmFsIHR5cGVBdHRyID0gUmVnZXgoInR5cGVcXHMqPVxccypcIihbXlwiXSspXCIiLCBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSkKCiAgICB2YWwgdGl0bGVBdHRyID0gUmVnZXgoInRpdGxlXFxzKj1cXHMqXCIoW15cIl0rKVwiIiwgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UpCgogICAgdmFsIHN1YnRpdGxlQXR0ciA9IFJlZ2V4KCJzdWJ0aXRsZVxccyo9XFxzKlwiKFteXCJdKylcIiIsIFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFKQoKICAgIHZhbCB0b29sQXR0ciA9IFJlZ2V4KCJ0b29sXFxzKj1cXHMqXCIoW15cIl0rKVwiIiwgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UpCgogICAgdmFsIHV1aWRBdHRyID0gUmVnZXgoInV1aWRcXHMqPVxccypcIihbXlwiXSspXCIiLCBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSkKCiAgICB2YWwgY29udGVudFRhZyA9IFJlZ2V4KAogICAgICAgICI8Y29udGVudD4oW1xcc1xcU10qPyk8L2NvbnRlbnQ+IiwKICAgICAgICBzZXRPZihSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSwgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMKQogICAgKQoKICAgIHZhbCBlcnJvclRhZyA9IFJlZ2V4KAogICAgICAgICI8ZXJyb3I+KFtcXHNcXFNdKj8pPC9lcnJvcj4iLAogICAgICAgIHNldE9mKFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFLCBSZWdleE9wdGlvbi5ET1RfTUFUQ0hFU19BTEwpCiAgICApCgogICAgdmFsIHN0YXR1c1RhZyA9IFJlZ2V4KAogICAgICAgICI8c3RhdHVzXFxiW1xcc1xcU10qPzwvc3RhdHVzPiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICB2YWwgc3RhdHVzU2VsZkNsb3NpbmdUYWcgPSBSZWdleCgKICAgICAgICAiPHN0YXR1c1xcYltePl0qLz4iLAogICAgICAgIFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFCiAgICApCgogICAgdmFsIHRoaW5rVGFnID0gUmVnZXgoCiAgICAgICAgIjx0aGluayg/OmluZyk/XFxiW1xcc1xcU10qPzwvdGhpbmsoPzppbmcpPz4iLAogICAgICAgIHNldE9mKFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFLCBSZWdleE9wdGlvbi5ET1RfTUFUQ0hFU19BTEwpCiAgICApCgogICAgdmFsIHRoaW5rU2VsZkNsb3NpbmdUYWcgPSBSZWdleCgKICAgICAgICAiPHRoaW5rKD86aW5nKT9cXGJbXj5dKi8+IiwKICAgICAgICBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRQogICAgKQoKICAgIHZhbCBzZWFyY2hUYWcgPSBSZWdleCgKICAgICAgICAiPHNlYXJjaFxcYltcXHNcXFNdKj88L3NlYXJjaD4iLAogICAgICAgIHNldE9mKFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFLCBSZWdleE9wdGlvbi5ET1RfTUFUQ0hFU19BTEwpCiAgICApCgogICAgdmFsIHNlYXJjaFNlbGZDbG9zaW5nVGFnID0gUmVnZXgoCiAgICAgICAgIjxzZWFyY2hcXGJbXj5dKi8+IiwKICAgICAgICBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRQogICAgKQoKICAgIHZhbCBtZXRhVGFnID0gUmVnZXgoCiAgICAgICAgIiIiPG1ldGFcYltePl0qPig/Oig/ITxtZXRhXGIpW1xzXFNdKSo/PC9tZXRhPiIiIiwKICAgICAgICBzZXRPZihSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSwgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMKQogICAgKQoKICAgIHZhbCBlbW90aW9uVGFnID0gUmVnZXgoCiAgICAgICAgIjxlbW90aW9uXFxiW1xcc1xcU10qPzwvZW1vdGlvbj4iLAogICAgICAgIHNldE9mKFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFLCBSZWdleE9wdGlvbi5ET1RfTUFUQ0hFU19BTEwpCiAgICApCgogICAgdmFsIG1lbW9yeVRhZyA9IFJlZ2V4KAogICAgICAgICI8bWVtb3J5Pi4qPzwvbWVtb3J5PiIsCiAgICAgICAgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMCiAgICApCgogICAgdmFsIHJlcGx5VG9UYWcgPSBSZWdleCgKICAgICAgICAiPHJlcGx5X3RvXFxzK3NlbmRlcj1cIihbXlwiXSspXCJcXHMrdGltZXN0YW1wPVwiKFteXCJdKylcIj4oW148XSopPC9yZXBseV90bz4iCiAgICApCgogICAgdmFsIGF0dGFjaG1lbnREYXRhVGFnID0gUmVnZXgoCiAgICAgICAgIjxhdHRhY2htZW50XFxzK2lkPVwiKFteXCJdKylcIlxccytmaWxlbmFtZT1cIihbXlwiXSspXCJcXHMrdHlwZT1cIihbXlwiXSspXCIoPzpcXHMrc2l6ZT1cIihbXlwiXSspXCIpP1xccyo+KFtcXHNcXFNdKj8pPC9hdHRhY2htZW50PiIKICAgICkKCiAgICB2YWwgYXR0YWNobWVudERhdGFTZWxmQ2xvc2luZ1RhZyA9IFJlZ2V4KAogICAgICAgICI8YXR0YWNobWVudFxccytpZD1cIihbXlwiXSspXCJcXHMrZmlsZW5hbWU9XCIoW15cIl0rKVwiXFxzK3R5cGU9XCIoW15cIl0rKVwiKD86XFxzK3NpemU9XCIoW15cIl0rKVwiKT8oPzpcXHMrY29udGVudD1cIiguKj8pXCIpP1xccyovPiIsCiAgICAgICAgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMCiAgICApCgogICAgdmFsIGF0dGFjaG1lbnRUYWcgPSBSZWdleCgKICAgICAgICAiPGF0dGFjaG1lbnRcXGJbXFxzXFxTXSo/PC9hdHRhY2htZW50PiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICB2YWwgYXR0YWNobWVudFNlbGZDbG9zaW5nVGFnID0gUmVnZXgoCiAgICAgICAgIjxhdHRhY2htZW50XFxiW1xcc1xcU10qPy8+IiwKICAgICAgICBzZXRPZihSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSwgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMKQogICAgKQoKICAgIHZhbCB3b3Jrc3BhY2VBdHRhY2htZW50VGFnID0gUmVnZXgoCiAgICAgICAgIjx3b3Jrc3BhY2VfYXR0YWNobWVudFxcYltcXHNcXFNdKj88L3dvcmtzcGFjZV9hdHRhY2htZW50PiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICB2YWwgcHJveHlTZW5kZXJUYWcgPSBSZWdleCgKICAgICAgICAiPHByb3h5X3NlbmRlclxccytuYW1lPVwiKFteXCJdKylcIlxccyovPiIsCiAgICAgICAgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UKICAgICkKCiAgICB2YWwgYW55WG1sVGFnID0gUmVnZXgoIjxbXj5dKj4iKQoKICAgIHZhbCBwcnVuZVRvb2xSZXN1bHRDb250ZW50UGF0dGVybiA9IFJlZ2V4KAogICAgICAgICIiIjwoJFRPT0xfUkVTVUxUX1RBR19OQU1FX1JFR0VYX1NPVVJDRSlcYiguKj8gc3RhdHVzPVsiJ10oLio/KVsiJ10uKj8pPiguKj8pPC9cMT4iIiIsCiAgICAgICAgc2V0T2YoUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UsIFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCkKICAgICkKCiAgICBmdW4gaXNUb29sVGFnTmFtZSh0YWdOYW1lOiBTdHJpbmc/KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHRhZ05hbWU/LmxldCB7IHRvb2xUYWdOYW1lUmVnZXgubWF0Y2hlcyhpdCkgfSA9PSB0cnVlCiAgICB9CgogICAgZnVuIGlzVG9vbFJlc3VsdFRhZ05hbWUodGFnTmFtZTogU3RyaW5nPyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0YWdOYW1lPy5sZXQgeyB0b29sUmVzdWx0VGFnTmFtZVJlZ2V4Lm1hdGNoZXMoaXQpIH0gPT0gdHJ1ZQogICAgfQoKICAgIGZ1biBub3JtYWxpemVUb29sTGlrZVRhZ05hbWUodGFnTmFtZTogU3RyaW5nPyk6IFN0cmluZz8gewogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgaXNUb29sVGFnTmFtZSh0YWdOYW1lKSAtPiAidG9vbCIKICAgICAgICAgICAgaXNUb29sUmVzdWx0VGFnTmFtZSh0YWdOYW1lKSAtPiAidG9vbF9yZXN1bHQiCiAgICAgICAgICAgIGVsc2UgLT4gdGFnTmFtZQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gY29udGFpbnNUb29sVGFnKGNvbnRlbnQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0b29sU3RhcnRUYWdSZWdleC5jb250YWluc01hdGNoSW4oY29udGVudCkKICAgIH0KCiAgICBmdW4gY29udGFpbnNUb29sUmVzdWx0VGFnKGNvbnRlbnQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0b29sUmVzdWx0U3RhcnRUYWdSZWdleC5jb250YWluc01hdGNoSW4oY29udGVudCkKICAgIH0KCiAgICBmdW4gY29udGFpbnNBbnlUb29sTGlrZVRhZyhjb250ZW50OiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gY29udGFpbnNUb29sVGFnKGNvbnRlbnQpIHx8IGNvbnRhaW5zVG9vbFJlc3VsdFRhZyhjb250ZW50KQogICAgfQoKICAgIGZ1biBleHRyYWN0T3BlbmluZ1RhZ05hbWUoeG1sOiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICByZXR1cm4gb3BlbmluZ1RhZ05hbWVSZWdleC5maW5kKHhtbC50cmltKCkpPy5ncm91cFZhbHVlcz8uZ2V0T3JOdWxsKDEpCiAgICB9CgogICAgZnVuIGdlbmVyYXRlUmFuZG9tVG9vbFRhZ05hbWUoKTogU3RyaW5nID0gInRvb2xfJHtnZW5lcmF0ZVJhbmRvbVRhZ0NvZGUoKX0iCgogICAgZnVuIGdlbmVyYXRlUmFuZG9tVG9vbFJlc3VsdFRhZ05hbWUoKTogU3RyaW5nID0gInRvb2xfcmVzdWx0XyR7Z2VuZXJhdGVSYW5kb21UYWdDb2RlKCl9IgoKICAgIGZ1biBnZW1pbmlUaG91Z2h0U2lnbmF0dXJlTWV0YVRhZyhzaWduYXR1cmVCYXNlNjQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICIiIjxtZXRhIHByb3ZpZGVyPSIkR0VNSU5JX1RIT1VHSFRfU0lHTkFUVVJFX1BST1ZJREVSIj4kc2lnbmF0dXJlQmFzZTY0PC9tZXRhPiIiIgogICAgfQoKICAgIGZ1biBvcGVuQWlSZXNwb25zZXNSZWFzb25pbmdNZXRhVGFnKHBheWxvYWRCYXNlNjQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICIiIjxtZXRhIHByb3ZpZGVyPSIkT1BFTkFJX1JFU1BPTlNFU19SRUFTT05JTkdfUFJPVklERVIiPiRwYXlsb2FkQmFzZTY0PC9tZXRhPiIiIgogICAgfQoKICAgIGZ1biBvcGVuQWlSZXNwb25zZXNPdXRwdXRJdGVtTWV0YVRhZyhwYXlsb2FkQmFzZTY0OiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiIiI8bWV0YSBwcm92aWRlcj0iJE9QRU5BSV9SRVNQT05TRVNfT1VUUFVUX0lURU1fUFJPVklERVIiPiRwYXlsb2FkQmFzZTY0PC9tZXRhPiIiIgogICAgfQoKICAgIGZ1biBleHRyYWN0R2VtaW5pVGhvdWdodFNpZ25hdHVyZShjb250ZW50OiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICByZXR1cm4gbWV0YVRhZy5maW5kQWxsKGNvbnRlbnQpCiAgICAgICAgICAgIC5tYXBOb3ROdWxsIHsgbWF0Y2ggLT4KICAgICAgICAgICAgICAgIHZhbCB0YWdDb250ZW50ID0gbWF0Y2gudmFsdWUKICAgICAgICAgICAgICAgIHZhbCBwcm92aWRlciA9IGV4dHJhY3RNZXRhUHJvdmlkZXIodGFnQ29udGVudCkKICAgICAgICAgICAgICAgIGlmICghcHJvdmlkZXIuZXF1YWxzKEdFTUlOSV9USE9VR0hUX1NJR05BVFVSRV9QUk9WSURFUiwgaWdub3JlQ2FzZSA9IHRydWUpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQG1hcE5vdE51bGwgbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbWV0YUJvZHlSZWdleC5maW5kKHRhZ0NvbnRlbnQpCiAgICAgICAgICAgICAgICAgICAgPy5ncm91cFZhbHVlcwogICAgICAgICAgICAgICAgICAgID8uZ2V0T3JOdWxsKDEpCiAgICAgICAgICAgICAgICAgICAgPy50cmltKCkKICAgICAgICAgICAgICAgICAgICA/LnRha2VJZiB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgLmxhc3RPck51bGwoKQogICAgfQoKICAgIGZ1biBleHRyYWN0T3BlbkFpUmVzcG9uc2VzUmVhc29uaW5nUGF5bG9hZHMoY29udGVudDogU3RyaW5nKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICByZXR1cm4gZXh0cmFjdE1ldGFQYXlsb2Fkcyhjb250ZW50LCBPUEVOQUlfUkVTUE9OU0VTX1JFQVNPTklOR19QUk9WSURFUikKICAgIH0KCiAgICBmdW4gZXh0cmFjdE9wZW5BaVJlc3BvbnNlc091dHB1dEl0ZW1QYXlsb2Fkcyhjb250ZW50OiBTdHJpbmcpOiBMaXN0PFN0cmluZz4gewogICAgICAgIHJldHVybiBleHRyYWN0TWV0YVBheWxvYWRzKGNvbnRlbnQsIE9QRU5BSV9SRVNQT05TRVNfT1VUUFVUX0lURU1fUFJPVklERVIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZXh0cmFjdE1ldGFQYXlsb2Fkcyhjb250ZW50OiBTdHJpbmcsIGV4cGVjdGVkUHJvdmlkZXI6IFN0cmluZyk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgcmV0dXJuIG1ldGFUYWcuZmluZEFsbChjb250ZW50KQogICAgICAgICAgICAubWFwTm90TnVsbCB7IG1hdGNoIC0+CiAgICAgICAgICAgICAgICB2YWwgdGFnQ29udGVudCA9IG1hdGNoLnZhbHVlCiAgICAgICAgICAgICAgICB2YWwgcHJvdmlkZXIgPSBleHRyYWN0TWV0YVByb3ZpZGVyKHRhZ0NvbnRlbnQpCiAgICAgICAgICAgICAgICBpZiAoIXByb3ZpZGVyLmVxdWFscyhleHBlY3RlZFByb3ZpZGVyLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm5AbWFwTm90TnVsbCBudWxsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBtZXRhQm9keVJlZ2V4LmZpbmQodGFnQ29udGVudCkKICAgICAgICAgICAgICAgICAgICA/Lmdyb3VwVmFsdWVzCiAgICAgICAgICAgICAgICAgICAgPy5nZXRPck51bGwoMSkKICAgICAgICAgICAgICAgICAgICA/LnRyaW0oKQogICAgICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RFbXB0eSgpIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAudG9MaXN0KCkKICAgIH0KCiAgICBmdW4gcmVtb3ZlR2VtaW5pVGhvdWdodFNpZ25hdHVyZU1ldGEoY29udGVudDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gcmVtb3ZlTWV0YUJ5UHJvdmlkZXIoY29udGVudCwgR0VNSU5JX1RIT1VHSFRfU0lHTkFUVVJFX1BST1ZJREVSKQogICAgfQoKICAgIGZ1biByZW1vdmVPcGVuQWlSZXNwb25zZXNSZWFzb25pbmdNZXRhKGNvbnRlbnQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHJlbW92ZU1ldGFCeVByb3ZpZGVyKGNvbnRlbnQsIE9QRU5BSV9SRVNQT05TRVNfUkVBU09OSU5HX1BST1ZJREVSKQogICAgfQoKICAgIGZ1biByZW1vdmVPcGVuQWlSZXNwb25zZXNPdXRwdXRJdGVtTWV0YShjb250ZW50OiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiByZW1vdmVNZXRhQnlQcm92aWRlcihjb250ZW50LCBPUEVOQUlfUkVTUE9OU0VTX09VVFBVVF9JVEVNX1BST1ZJREVSKQogICAgfQoKICAgIGZ1biByZW1vdmVPcGVuQWlSZXNwb25zZXNQcm90b2NvbE1ldGEoY29udGVudDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gcmVtb3ZlT3BlbkFpUmVzcG9uc2VzT3V0cHV0SXRlbU1ldGEocmVtb3ZlT3BlbkFpUmVzcG9uc2VzUmVhc29uaW5nTWV0YShjb250ZW50KSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZW1vdmVNZXRhQnlQcm92aWRlcihjb250ZW50OiBTdHJpbmcsIGV4cGVjdGVkUHJvdmlkZXI6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFyIHJlbW92ZWQgPSBmYWxzZQogICAgICAgIHZhbCByZXN1bHQgPSBtZXRhVGFnLnJlcGxhY2UoY29udGVudCkgeyBtYXRjaCAtPgogICAgICAgICAgICB2YWwgcHJvdmlkZXIgPSBleHRyYWN0TWV0YVByb3ZpZGVyKG1hdGNoLnZhbHVlKQogICAgICAgICAgICBpZiAocHJvdmlkZXIuZXF1YWxzKGV4cGVjdGVkUHJvdmlkZXIsIGlnbm9yZUNhc2UgPSB0cnVlKSkgewogICAgICAgICAgICAgICAgcmVtb3ZlZCA9IHRydWUKICAgICAgICAgICAgICAgICIiCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBtYXRjaC52YWx1ZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBpZiAocmVtb3ZlZCkgcmVzdWx0LnRyaW1FbmQoKSBlbHNlIHJlc3VsdAogICAgfQoKICAgIHByaXZhdGUgZnVuIGV4dHJhY3RNZXRhUHJvdmlkZXIobWV0YVRhZ0NvbnRlbnQ6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIHJldHVybiBtZXRhUHJvdmlkZXJBdHRyUmVnZXgKICAgICAgICAgICAgLmZpbmQobWV0YVRhZ0NvbnRlbnQuc3Vic3RyaW5nQmVmb3JlKCc+JykpCiAgICAgICAgICAgID8uZ3JvdXBWYWx1ZXMKICAgICAgICAgICAgPy5nZXRPck51bGwoMSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBnZW5lcmF0ZVJhbmRvbVRhZ0NvZGUobGVuZ3RoOiBJbnQgPSA0KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gYnVpbGRTdHJpbmcobGVuZ3RoKSB7CiAgICAgICAgICAgIHJlcGVhdChsZW5ndGgpIHsKICAgICAgICAgICAgICAgIGFwcGVuZChyYW5kb21UYWdDb2RlQ2hhcnNbcmFuZG9tVGFnQ29kZVNvdXJjZS5uZXh0SW50KHJhbmRvbVRhZ0NvZGVDaGFycy5sZW5ndGgpXSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import java.security.SecureRandom
+
+object ChatMarkupRegex {
+    private const val TOOL_TAG_SUFFIX_REGEX_SOURCE = "[A-Za-z0-9_]+"
+    private const val GEMINI_THOUGHT_SIGNATURE_PROVIDER = "gemini:thought_signature"
+    private const val OPENAI_RESPONSES_REASONING_PROVIDER = "openai:responses_reasoning"
+    private const val OPENAI_RESPONSES_OUTPUT_ITEM_PROVIDER = "openai:responses_output_item"
+    const val TOOL_TAG_NAME_REGEX_SOURCE =
+        "tool(?:_(?!result(?:_|\\b))$TOOL_TAG_SUFFIX_REGEX_SOURCE)?"
+    const val TOOL_RESULT_TAG_NAME_REGEX_SOURCE = "tool_result(?:_${TOOL_TAG_SUFFIX_REGEX_SOURCE})?"
+
+    private val toolTagNameRegex = Regex("^$TOOL_TAG_NAME_REGEX_SOURCE$", RegexOption.IGNORE_CASE)
+    private val toolResultTagNameRegex = Regex("^$TOOL_RESULT_TAG_NAME_REGEX_SOURCE$", RegexOption.IGNORE_CASE)
+    private val openingTagNameRegex = Regex("<([A-Za-z][A-Za-z0-9_]*)")
+    private val toolStartTagRegex = Regex("<(?:$TOOL_TAG_NAME_REGEX_SOURCE)\\b", RegexOption.IGNORE_CASE)
+    private val toolResultStartTagRegex = Regex("<(?:$TOOL_RESULT_TAG_NAME_REGEX_SOURCE)\\b", RegexOption.IGNORE_CASE)
+    private val metaProviderAttrRegex = Regex("""\bprovider\s*=\s*["']([^"']+)["']""", RegexOption.IGNORE_CASE)
+    private val metaBodyRegex = Regex(
+        """<meta\b[^>]*>([\s\S]*?)</meta>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+    private val randomTagCodeChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    private val randomTagCodeSource = SecureRandom()
+
+    val toolCallPattern = Regex(
+        """<($TOOL_TAG_NAME_REGEX_SOURCE)\b[^>]*name="([^"]+)"[^>]*>([\s\S]*?)</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val toolTag = Regex(
+        """<($TOOL_TAG_NAME_REGEX_SOURCE)\b[\s\S]*?</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val toolSelfClosingTag = Regex(
+        """<${TOOL_TAG_NAME_REGEX_SOURCE}\b[^>]*/>""",
+        RegexOption.IGNORE_CASE
+    )
+
+    val toolResultTag = Regex(
+        """<($TOOL_RESULT_TAG_NAME_REGEX_SOURCE)\b[\s\S]*?</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val toolResultSelfClosingTag = Regex(
+        """<${TOOL_RESULT_TAG_NAME_REGEX_SOURCE}\b[^>]*/>""",
+        RegexOption.IGNORE_CASE
+    )
+
+    val toolResultTagWithAttrs = Regex(
+        """<($TOOL_RESULT_TAG_NAME_REGEX_SOURCE)\b([^>]*)>([\s\S]*?)</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val toolResultAnyPattern = Regex(
+        """<($TOOL_RESULT_TAG_NAME_REGEX_SOURCE)\b[^>]*>([\s\S]*?)</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val toolResultWithNameAnyPattern = Regex(
+        """<($TOOL_RESULT_TAG_NAME_REGEX_SOURCE)\b[^>]*name="([^"]+)"[^>]*>([\s\S]*?)</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val toolOrToolResultBlock = Regex(
+        """<($TOOL_RESULT_TAG_NAME_REGEX_SOURCE|$TOOL_TAG_NAME_REGEX_SOURCE)\b[\s\S]*?</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val xmlStatusPattern = Regex(
+        "<status\\s+type=\"([^\"]+)\"(?:\\s+uuid=\"([^\"]+)\")?(?:\\s+title=\"([^\"]+)\")?(?:\\s+subtitle=\"([^\"]+)\")?>([\\s\\S]*?)</status>"
+    )
+
+    val xmlToolResultPattern = Regex(
+        """<($TOOL_RESULT_TAG_NAME_REGEX_SOURCE)\b[^>]*name="([^"]+)"[^>]*status="([^"]+)"[^>]*>\s*<content>([\s\S]*?)</content>\s*</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val xmlToolRequestPattern = Regex(
+        """<($TOOL_TAG_NAME_REGEX_SOURCE)\b[^>]*name="([^"]+)"(?:\s+description="([^"]+)")?[^>]*>([\s\S]*?)</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val namePattern = Regex(
+        "<(?:$TOOL_TAG_NAME_REGEX_SOURCE)\\b[^>]*name=\"([^\"]+)\"",
+        RegexOption.IGNORE_CASE
+    )
+
+    val toolParamPattern = Regex("<param\\s+name=\"([^\"]+)\">([\\s\\S]*?)</param>")
+
+    val nameAttr = Regex("name\\s*=\\s*\"([^\"]+)\"", RegexOption.IGNORE_CASE)
+
+    val statusAttr = Regex("status\\s*=\\s*\"([^\"]+)\"", RegexOption.IGNORE_CASE)
+
+    val typeAttr = Regex("type\\s*=\\s*\"([^\"]+)\"", RegexOption.IGNORE_CASE)
+
+    val titleAttr = Regex("title\\s*=\\s*\"([^\"]+)\"", RegexOption.IGNORE_CASE)
+
+    val subtitleAttr = Regex("subtitle\\s*=\\s*\"([^\"]+)\"", RegexOption.IGNORE_CASE)
+
+    val toolAttr = Regex("tool\\s*=\\s*\"([^\"]+)\"", RegexOption.IGNORE_CASE)
+
+    val uuidAttr = Regex("uuid\\s*=\\s*\"([^\"]+)\"", RegexOption.IGNORE_CASE)
+
+    val contentTag = Regex(
+        "<content>([\\s\\S]*?)</content>",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val errorTag = Regex(
+        "<error>([\\s\\S]*?)</error>",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val statusTag = Regex(
+        "<status\\b[\\s\\S]*?</status>",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val statusSelfClosingTag = Regex(
+        "<status\\b[^>]*/>",
+        RegexOption.IGNORE_CASE
+    )
+
+    val thinkTag = Regex(
+        "<think(?:ing)?\\b[\\s\\S]*?</think(?:ing)?>",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val thinkSelfClosingTag = Regex(
+        "<think(?:ing)?\\b[^>]*/>",
+        RegexOption.IGNORE_CASE
+    )
+
+    val searchTag = Regex(
+        "<search\\b[\\s\\S]*?</search>",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val searchSelfClosingTag = Regex(
+        "<search\\b[^>]*/>",
+        RegexOption.IGNORE_CASE
+    )
+
+    val metaTag = Regex(
+        """<meta\b[^>]*>(?:(?!<meta\b)[\s\S])*?</meta>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val emotionTag = Regex(
+        "<emotion\\b[\\s\\S]*?</emotion>",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val memoryTag = Regex(
+        "<memory>.*?</memory>",
+        RegexOption.DOT_MATCHES_ALL
+    )
+
+    val replyToTag = Regex(
+        "<reply_to\\s+sender=\"([^\"]+)\"\\s+timestamp=\"([^\"]+)\">([^<]*)</reply_to>"
+    )
+
+    val attachmentDataTag = Regex(
+        "<attachment\\s+id=\"([^\"]+)\"\\s+filename=\"([^\"]+)\"\\s+type=\"([^\"]+)\"(?:\\s+size=\"([^\"]+)\")?\\s*>([\\s\\S]*?)</attachment>"
+    )
+
+    val attachmentDataSelfClosingTag = Regex(
+        "<attachment\\s+id=\"([^\"]+)\"\\s+filename=\"([^\"]+)\"\\s+type=\"([^\"]+)\"(?:\\s+size=\"([^\"]+)\")?(?:\\s+content=\"(.*?)\")?\\s*/>",
+        RegexOption.DOT_MATCHES_ALL
+    )
+
+    val attachmentTag = Regex(
+        "<attachment\\b[\\s\\S]*?</attachment>",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val attachmentSelfClosingTag = Regex(
+        "<attachment\\b[\\s\\S]*?/>",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val workspaceAttachmentTag = Regex(
+        "<workspace_attachment\\b[\\s\\S]*?</workspace_attachment>",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    val proxySenderTag = Regex(
+        "<proxy_sender\\s+name=\"([^\"]+)\"\\s*/>",
+        RegexOption.IGNORE_CASE
+    )
+
+    val anyXmlTag = Regex("<[^>]*>")
+
+    val pruneToolResultContentPattern = Regex(
+        """<($TOOL_RESULT_TAG_NAME_REGEX_SOURCE)\b(.*? status=["'](.*?)["'].*?)>(.*?)</\1>""",
+        setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+    )
+
+    fun isToolTagName(tagName: String?): Boolean {
+        return tagName?.let { toolTagNameRegex.matches(it) } == true
+    }
+
+    fun isToolResultTagName(tagName: String?): Boolean {
+        return tagName?.let { toolResultTagNameRegex.matches(it) } == true
+    }
+
+    fun normalizeToolLikeTagName(tagName: String?): String? {
+        return when {
+            isToolTagName(tagName) -> "tool"
+            isToolResultTagName(tagName) -> "tool_result"
+            else -> tagName
+        }
+    }
+
+    fun containsToolTag(content: String): Boolean {
+        return toolStartTagRegex.containsMatchIn(content)
+    }
+
+    fun containsToolResultTag(content: String): Boolean {
+        return toolResultStartTagRegex.containsMatchIn(content)
+    }
+
+    fun containsAnyToolLikeTag(content: String): Boolean {
+        return containsToolTag(content) || containsToolResultTag(content)
+    }
+
+    fun extractOpeningTagName(xml: String): String? {
+        return openingTagNameRegex.find(xml.trim())?.groupValues?.getOrNull(1)
+    }
+
+    fun generateRandomToolTagName(): String = "tool_${generateRandomTagCode()}"
+
+    fun generateRandomToolResultTagName(): String = "tool_result_${generateRandomTagCode()}"
+
+    fun geminiThoughtSignatureMetaTag(signatureBase64: String): String {
+        return """<meta provider="$GEMINI_THOUGHT_SIGNATURE_PROVIDER">$signatureBase64</meta>"""
+    }
+
+    fun openAiResponsesReasoningMetaTag(payloadBase64: String): String {
+        return """<meta provider="$OPENAI_RESPONSES_REASONING_PROVIDER">$payloadBase64</meta>"""
+    }
+
+    fun openAiResponsesOutputItemMetaTag(payloadBase64: String): String {
+        return """<meta provider="$OPENAI_RESPONSES_OUTPUT_ITEM_PROVIDER">$payloadBase64</meta>"""
+    }
+
+    fun extractGeminiThoughtSignature(content: String): String? {
+        return metaTag.findAll(content)
+            .mapNotNull { match ->
+                val tagContent = match.value
+                val provider = extractMetaProvider(tagContent)
+                if (!provider.equals(GEMINI_THOUGHT_SIGNATURE_PROVIDER, ignoreCase = true)) {
+                    return@mapNotNull null
+                }
+                metaBodyRegex.find(tagContent)
+                    ?.groupValues
+                    ?.getOrNull(1)
+                    ?.trim()
+                    ?.takeIf { it.isNotEmpty() }
+            }
+            .lastOrNull()
+    }
+
+    fun extractOpenAiResponsesReasoningPayloads(content: String): List<String> {
+        return extractMetaPayloads(content, OPENAI_RESPONSES_REASONING_PROVIDER)
+    }
+
+    fun extractOpenAiResponsesOutputItemPayloads(content: String): List<String> {
+        return extractMetaPayloads(content, OPENAI_RESPONSES_OUTPUT_ITEM_PROVIDER)
+    }
+
+    private fun extractMetaPayloads(content: String, expectedProvider: String): List<String> {
+        return metaTag.findAll(content)
+            .mapNotNull { match ->
+                val tagContent = match.value
+                val provider = extractMetaProvider(tagContent)
+                if (!provider.equals(expectedProvider, ignoreCase = true)) {
+                    return@mapNotNull null
+                }
+                metaBodyRegex.find(tagContent)
+                    ?.groupValues
+                    ?.getOrNull(1)
+                    ?.trim()
+                    ?.takeIf { it.isNotEmpty() }
+            }
+            .toList()
+    }
+
+    fun removeGeminiThoughtSignatureMeta(content: String): String {
+        return removeMetaByProvider(content, GEMINI_THOUGHT_SIGNATURE_PROVIDER)
+    }
+
+    fun removeOpenAiResponsesReasoningMeta(content: String): String {
+        return removeMetaByProvider(content, OPENAI_RESPONSES_REASONING_PROVIDER)
+    }
+
+    fun removeOpenAiResponsesOutputItemMeta(content: String): String {
+        return removeMetaByProvider(content, OPENAI_RESPONSES_OUTPUT_ITEM_PROVIDER)
+    }
+
+    fun removeOpenAiResponsesProtocolMeta(content: String): String {
+        return removeOpenAiResponsesOutputItemMeta(removeOpenAiResponsesReasoningMeta(content))
+    }
+
+    private fun removeMetaByProvider(content: String, expectedProvider: String): String {
+        var removed = false
+        val result = metaTag.replace(content) { match ->
+            val provider = extractMetaProvider(match.value)
+            if (provider.equals(expectedProvider, ignoreCase = true)) {
+                removed = true
+                ""
+            } else {
+                match.value
+            }
+        }
+        return if (removed) result.trimEnd() else result
+    }
+
+    private fun extractMetaProvider(metaTagContent: String): String? {
+        return metaProviderAttrRegex
+            .find(metaTagContent.substringBefore('>'))
+            ?.groupValues
+            ?.getOrNull(1)
+    }
+
+    private fun generateRandomTagCode(length: Int = 4): String {
+        return buildString(length) {
+            repeat(length) {
+                append(randomTagCodeChars[randomTagCodeSource.nextInt(randomTagCodeChars.length)])
+            }
+        }
+    }
+}

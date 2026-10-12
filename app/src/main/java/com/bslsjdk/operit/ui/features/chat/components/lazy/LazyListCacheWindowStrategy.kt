@@ -1,1 +1,149 @@
-LyoKICogQ29weXJpZ2h0IDIwMjUgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5FeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmxhenkuQ2FjaGVXaW5kb3dMb2dpYwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkNhY2hlV2luZG93U2NvcGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5JbnZhbGlkSW5kZXgKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5MYXp5TGF5b3V0Q2FjaGVXaW5kb3cKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5MYXp5TGF5b3V0UHJlZmV0Y2hTdGF0ZS5QcmVmZXRjaEhhbmRsZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5Lk5lc3RlZFByZWZldGNoU2NvcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5EZW5zaXR5CmltcG9ydCBrb3RsaW4ubWF0aC5hYnNvbHV0ZVZhbHVlCgovKioKICogVGhpcyBpcyBhIHRyYW5zaXRpb24gY2xhc3MgYmFzZWQgb24gW2FuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlMaXN0UHJlZmV0Y2hTdHJhdGVneV0KICogd2hlcmUgd2Ugd2lsbCBwZXJmb3JtIGEgd2luZG93IGJhc2VkIHByZWZldGNoaW5nIGZvciBpdGVtcyBpbiB0aGUgZGlyZWN0aW9uIG9mIHRoZSBzY3JvbGwKICogbW92ZW1lbnQgKGFoZWFkKS4KICovCkBPcHRJbihFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpOjpjbGFzcykKaW50ZXJuYWwgY2xhc3MgTGF6eUxpc3RDYWNoZVdpbmRvd1N0cmF0ZWd5KGNhY2hlV2luZG93OiBMYXp5TGF5b3V0Q2FjaGVXaW5kb3cpIDoKICAgIENhY2hlV2luZG93TG9naWMoY2FjaGVXaW5kb3cpLCBMYXp5TGlzdFByZWZldGNoU3RyYXRlZ3kgewogICAgcHJpdmF0ZSB2YWwgY2FjaGVXaW5kb3dTY29wZSA9IExhenlMaXN0Q2FjaGVXaW5kb3dTY29wZSgpCgogICAgb3ZlcnJpZGUgZnVuIExhenlMaXN0UHJlZmV0Y2hTY29wZS5vblNjcm9sbChkZWx0YTogRmxvYXQsIGxheW91dEluZm86IExhenlMaXN0TGF5b3V0SW5mbykgewogICAgICAgIGFwcGx5V2luZG93U2NvcGUobGF5b3V0SW5mbykgeyBvblNjcm9sbChkZWx0YSkgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBMYXp5TGlzdFByZWZldGNoU2NvcGUub25WaXNpYmxlSXRlbXNVcGRhdGVkKGxheW91dEluZm86IExhenlMaXN0TGF5b3V0SW5mbykgewogICAgICAgIGFwcGx5V2luZG93U2NvcGUobGF5b3V0SW5mbykgeyBvblZpc2libGVJdGVtc1VwZGF0ZWQoKSB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIE5lc3RlZFByZWZldGNoU2NvcGUub25OZXN0ZWRQcmVmZXRjaChmaXJzdFZpc2libGVJdGVtSW5kZXg6IEludCkgewogICAgICAgIHZhbCByZXNvbHZlZE5lc3RlZFByZWZldGNoSXRlbUNvdW50ID0KICAgICAgICAgICAgaWYgKG5lc3RlZFByZWZldGNoSXRlbUNvdW50ID09IC0xKSB7CiAgICAgICAgICAgICAgICBEZWZhdWx0TmVzdGVkUHJlZmV0Y2hDb3VudAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgbmVzdGVkUHJlZmV0Y2hJdGVtQ291bnQKICAgICAgICAgICAgfQogICAgICAgIHJlcGVhdChyZXNvbHZlZE5lc3RlZFByZWZldGNoSXRlbUNvdW50KSB7CiAgICAgICAgICAgIHNjaGVkdWxlUHJlY29tcG9zaXRpb24oZmlyc3RWaXNpYmxlSXRlbUluZGV4ICsgaXQpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiBBZGFwdHMgdGhlIExhenlMaXN0UHJlZmV0Y2hTY29wZSBhbmQgTGF6eUxpc3RMYXlvdXRJbmZvIHRvIGEgc2luZ2xlIHNjb3BlLiAqLwogICAgcHJpdmF0ZSBpbmxpbmUgZnVuIExhenlMaXN0UHJlZmV0Y2hTY29wZS5hcHBseVdpbmRvd1Njb3BlKAogICAgICAgIGxheW91dEluZm86IExhenlMaXN0TGF5b3V0SW5mbywKICAgICAgICBibG9jazogQ2FjaGVXaW5kb3dTY29wZS4oKSAtPiBVbml0LAogICAgKSB7CiAgICAgICAgY2FjaGVXaW5kb3dTY29wZS5sYXlvdXRJbmZvID0gbGF5b3V0SW5mbwogICAgICAgIGNhY2hlV2luZG93U2NvcGUucHJlZmV0Y2hTY29wZSA9IHRoaXMKICAgICAgICBibG9jayhjYWNoZVdpbmRvd1Njb3BlKQogICAgfQp9CgpAT3B0SW4oRXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaTo6Y2xhc3MpCmludGVybmFsIGNsYXNzIExhenlMaXN0Q2FjaGVXaW5kb3dTY29wZSgpIDogQ2FjaGVXaW5kb3dTY29wZSB7CiAgICBsYXRlaW5pdCB2YXIgbGF5b3V0SW5mbzogTGF6eUxpc3RMYXlvdXRJbmZvCiAgICBsYXRlaW5pdCB2YXIgcHJlZmV0Y2hTY29wZTogTGF6eUxpc3RQcmVmZXRjaFNjb3BlCgogICAgb3ZlcnJpZGUgdmFsIHRvdGFsSXRlbXNDb3VudDogSW50CiAgICAgICAgZ2V0KCkgPSBsYXlvdXRJbmZvLnRvdGFsSXRlbXNDb3VudAoKICAgIG92ZXJyaWRlIHZhbCBoYXNWaXNpYmxlSXRlbXM6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IGxheW91dEluZm8udmlzaWJsZUl0ZW1zSW5mby5pc05vdEVtcHR5KCkKCiAgICBvdmVycmlkZSB2YWwgbWFpbkF4aXNFeHRyYVNwYWNlU3RhcnQ6IEludAogICAgICAgIGdldCgpIHsKICAgICAgICAgICAgdmFsIGZpcnN0VmlzaWJsZUl0ZW0gPSBsYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm8uZmlyc3QoKQogICAgICAgICAgICAvLyBob3cgbXVjaCBvZiB0aGUgZmlyc3QgaXRlbSBpcyBwZWVraW5nIG91dCBvZiB2aWV3IGF0IHRoZSBzdGFydCBvZiB0aGUgbGF5b3V0LgogICAgICAgICAgICB2YWwgZmlyc3RJdGVtT3ZlcmZsb3dPZmZzZXQgPQogICAgICAgICAgICAgICAgKGZpcnN0VmlzaWJsZUl0ZW0ub2Zmc2V0ICsgbGF5b3V0SW5mby5iZWZvcmVDb250ZW50UGFkZGluZykuY29lcmNlQXRNb3N0KDApCiAgICAgICAgICAgIC8vIGV4dHJhIHNwYWNlIGlzIGFsd2F5cyBwb3NpdGl2ZSBpbiB0aGlzIGNvbnRleHQKICAgICAgICAgICAgcmV0dXJuIGZpcnN0SXRlbU92ZXJmbG93T2Zmc2V0LmFic29sdXRlVmFsdWUKICAgICAgICB9CgogICAgb3ZlcnJpZGUgdmFsIG1haW5BeGlzRXh0cmFTcGFjZUVuZDogSW50CiAgICAgICAgZ2V0KCkgewogICAgICAgICAgICB2YWwgbGFzdFZpc2libGVJdGVtID0gbGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmxhc3QoKQogICAgICAgICAgICAvLyBob3cgbXVjaCBvZiB0aGUgbGFzdCBpdGVtIGlzIHBlZWtpbmcgb3V0IG9mIHZpZXcgYXQgdGhlIGVuZCBvZiB0aGUgbGF5b3V0CiAgICAgICAgICAgIHZhbCBsYXN0SXRlbU92ZXJmbG93T2Zmc2V0ID0KICAgICAgICAgICAgICAgIGxhc3RWaXNpYmxlSXRlbS5vZmZzZXQgKyBsYXN0VmlzaWJsZUl0ZW0uc2l6ZSArIGxheW91dEluZm8ubWFpbkF4aXNJdGVtU3BhY2luZwoKICAgICAgICAgICAgLy8gZXh0cmEgc3BhY2UgaXMgYWx3YXlzIHBvc2l0aXZlIGluIHRoaXMgY29udGV4dAogICAgICAgICAgICByZXR1cm4gKGxhc3RJdGVtT3ZlcmZsb3dPZmZzZXQgLSBsYXlvdXRJbmZvLnZpZXdwb3J0RW5kT2Zmc2V0KS5hYnNvbHV0ZVZhbHVlCiAgICAgICAgfQoKICAgIG92ZXJyaWRlIHZhbCBmaXJzdFZpc2libGVMaW5lSW5kZXg6IEludAogICAgICAgIGdldCgpID0gbGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmZpcnN0KCkuaW5kZXgKCiAgICBvdmVycmlkZSB2YWwgbGFzdFZpc2libGVMaW5lSW5kZXg6IEludAogICAgICAgIGdldCgpID0gbGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmxhc3QoKS5pbmRleAoKICAgIG92ZXJyaWRlIHZhbCBtYWluQXhpc1ZpZXdwb3J0U2l6ZTogSW50CiAgICAgICAgZ2V0KCkgPSBsYXlvdXRJbmZvLnNpbmdsZUF4aXNWaWV3cG9ydFNpemUKCiAgICBvdmVycmlkZSB2YWwgZGVuc2l0eTogRGVuc2l0eT8KICAgICAgICBnZXQoKSA9IChsYXlvdXRJbmZvIGFzPyBMYXp5TGlzdE1lYXN1cmVSZXN1bHQpPy5kZW5zaXR5CgogICAgb3ZlcnJpZGUgZnVuIHNjaGVkdWxlUHJlZmV0Y2goCiAgICAgICAgbGluZUluZGV4OiBJbnQsCiAgICAgICAgb25JdGVtUHJlZmV0Y2hlZDogKEludCwgSW50KSAtPiBVbml0LAogICAgKTogTGlzdDxQcmVmZXRjaEhhbmRsZT4gewogICAgICAgIHJldHVybiBsaXN0T2YoCiAgICAgICAgICAgIHByZWZldGNoU2NvcGUuc2NoZWR1bGVQcmVmZXRjaCgKICAgICAgICAgICAgICAgIGxpbmVJbmRleCwKICAgICAgICAgICAgICAgIHsgb25JdGVtUHJlZmV0Y2hlZC5pbnZva2UoaW5kZXgsIG1haW5BeGlzU2l6ZSkgfSwKICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KCiAgICBvdmVycmlkZSB2YWwgdmlzaWJsZUxpbmVDb3VudDogSW50CiAgICAgICAgZ2V0KCkgPSBsYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm8uc2l6ZQoKICAgIG92ZXJyaWRlIGZ1biBnZXRWaXNpYmxlSXRlbVNpemUoaW5kZXhJblZpc2libGVMaW5lczogSW50KTogSW50ID0KICAgICAgICBsYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm9baW5kZXhJblZpc2libGVMaW5lc10uc2l6ZQoKICAgIG92ZXJyaWRlIGZ1biBnZXRWaXNpYmxlSXRlbUxpbmUoaW5kZXhJblZpc2libGVMaW5lczogSW50KTogSW50ID0KICAgICAgICBsYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm9baW5kZXhJblZpc2libGVMaW5lc10uaW5kZXgKCiAgICBvdmVycmlkZSBmdW4gZ2V0TGFzdEluZGV4SW5MaW5lKGxpbmVJbmRleDogSW50KTogSW50ID0gbGluZUluZGV4CgogICAgb3ZlcnJpZGUgZnVuIGdldFZpc2libGVMaW5lS2V5KGluZGV4SW5WaXNpYmxlTGluZXM6IEludCk6IEFueSB7CiAgICAgICAgcmV0dXJuIGxheW91dEluZm8udmlzaWJsZUl0ZW1zSW5mb1tpbmRleEluVmlzaWJsZUxpbmVzXS5rZXkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZ2V0TGFzdExpbmVJbmRleCgpOiBJbnQgewogICAgICAgIGlmICh0b3RhbEl0ZW1zQ291bnQgPT0gMCkgcmV0dXJuIEludmFsaWRJbmRleAogICAgICAgIHJldHVybiB0b3RhbEl0ZW1zQ291bnQgLSAxCiAgICB9Cn0KCi8vIHdlIHVzZSAyIGhlcmUgYmVjYXVzZSBuZXN0ZWQgbGlzdCBoYXZlIHVzdWFsbHkgPiAxIHZpc2libGUgZWxlbWVudHMsIHNvIDIgaXMgdGhlIG1pbmltdW0KLy8gbG9naWNhbCB2YWx1ZSB3ZSBjb3VsZCB1c2UuCnByaXZhdGUgY29uc3QgdmFsIERlZmF1bHROZXN0ZWRQcmVmZXRjaENvdW50ID0gMgo=
+/*
+ * Copyright 2025 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.ExperimentalFoundationApi
+import com.bslsjdk.operit.ui.features.chat.components.lazy.CacheWindowLogic
+import com.bslsjdk.operit.ui.features.chat.components.lazy.CacheWindowScope
+import com.bslsjdk.operit.ui.features.chat.components.lazy.InvalidIndex
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutCacheWindow
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutPrefetchState.PrefetchHandle
+import com.bslsjdk.operit.ui.features.chat.components.lazy.NestedPrefetchScope
+import androidx.compose.ui.unit.Density
+import kotlin.math.absoluteValue
+
+/**
+ * This is a transition class based on [androidx.compose.foundation.lazy.LazyListPrefetchStrategy]
+ * where we will perform a window based prefetching for items in the direction of the scroll
+ * movement (ahead).
+ */
+@OptIn(ExperimentalFoundationApi::class)
+internal class LazyListCacheWindowStrategy(cacheWindow: LazyLayoutCacheWindow) :
+    CacheWindowLogic(cacheWindow), LazyListPrefetchStrategy {
+    private val cacheWindowScope = LazyListCacheWindowScope()
+
+    override fun LazyListPrefetchScope.onScroll(delta: Float, layoutInfo: LazyListLayoutInfo) {
+        applyWindowScope(layoutInfo) { onScroll(delta) }
+    }
+
+    override fun LazyListPrefetchScope.onVisibleItemsUpdated(layoutInfo: LazyListLayoutInfo) {
+        applyWindowScope(layoutInfo) { onVisibleItemsUpdated() }
+    }
+
+    override fun NestedPrefetchScope.onNestedPrefetch(firstVisibleItemIndex: Int) {
+        val resolvedNestedPrefetchItemCount =
+            if (nestedPrefetchItemCount == -1) {
+                DefaultNestedPrefetchCount
+            } else {
+                nestedPrefetchItemCount
+            }
+        repeat(resolvedNestedPrefetchItemCount) {
+            schedulePrecomposition(firstVisibleItemIndex + it)
+        }
+    }
+
+    /** Adapts the LazyListPrefetchScope and LazyListLayoutInfo to a single scope. */
+    private inline fun LazyListPrefetchScope.applyWindowScope(
+        layoutInfo: LazyListLayoutInfo,
+        block: CacheWindowScope.() -> Unit,
+    ) {
+        cacheWindowScope.layoutInfo = layoutInfo
+        cacheWindowScope.prefetchScope = this
+        block(cacheWindowScope)
+    }
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+internal class LazyListCacheWindowScope() : CacheWindowScope {
+    lateinit var layoutInfo: LazyListLayoutInfo
+    lateinit var prefetchScope: LazyListPrefetchScope
+
+    override val totalItemsCount: Int
+        get() = layoutInfo.totalItemsCount
+
+    override val hasVisibleItems: Boolean
+        get() = layoutInfo.visibleItemsInfo.isNotEmpty()
+
+    override val mainAxisExtraSpaceStart: Int
+        get() {
+            val firstVisibleItem = layoutInfo.visibleItemsInfo.first()
+            // how much of the first item is peeking out of view at the start of the layout.
+            val firstItemOverflowOffset =
+                (firstVisibleItem.offset + layoutInfo.beforeContentPadding).coerceAtMost(0)
+            // extra space is always positive in this context
+            return firstItemOverflowOffset.absoluteValue
+        }
+
+    override val mainAxisExtraSpaceEnd: Int
+        get() {
+            val lastVisibleItem = layoutInfo.visibleItemsInfo.last()
+            // how much of the last item is peeking out of view at the end of the layout
+            val lastItemOverflowOffset =
+                lastVisibleItem.offset + lastVisibleItem.size + layoutInfo.mainAxisItemSpacing
+
+            // extra space is always positive in this context
+            return (lastItemOverflowOffset - layoutInfo.viewportEndOffset).absoluteValue
+        }
+
+    override val firstVisibleLineIndex: Int
+        get() = layoutInfo.visibleItemsInfo.first().index
+
+    override val lastVisibleLineIndex: Int
+        get() = layoutInfo.visibleItemsInfo.last().index
+
+    override val mainAxisViewportSize: Int
+        get() = layoutInfo.singleAxisViewportSize
+
+    override val density: Density?
+        get() = (layoutInfo as? LazyListMeasureResult)?.density
+
+    override fun schedulePrefetch(
+        lineIndex: Int,
+        onItemPrefetched: (Int, Int) -> Unit,
+    ): List<PrefetchHandle> {
+        return listOf(
+            prefetchScope.schedulePrefetch(
+                lineIndex,
+                { onItemPrefetched.invoke(index, mainAxisSize) },
+            )
+        )
+    }
+
+    override val visibleLineCount: Int
+        get() = layoutInfo.visibleItemsInfo.size
+
+    override fun getVisibleItemSize(indexInVisibleLines: Int): Int =
+        layoutInfo.visibleItemsInfo[indexInVisibleLines].size
+
+    override fun getVisibleItemLine(indexInVisibleLines: Int): Int =
+        layoutInfo.visibleItemsInfo[indexInVisibleLines].index
+
+    override fun getLastIndexInLine(lineIndex: Int): Int = lineIndex
+
+    override fun getVisibleLineKey(indexInVisibleLines: Int): Any {
+        return layoutInfo.visibleItemsInfo[indexInVisibleLines].key
+    }
+
+    override fun getLastLineIndex(): Int {
+        if (totalItemsCount == 0) return InvalidIndex
+        return totalItemsCount - 1
+    }
+}
+
+// we use 2 here because nested list have usually > 1 visible elements, so 2 is the minimum
+// logical value we could use.
+private const val DefaultNestedPrefetchCount = 2

@@ -1,1 +1,338 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLlByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5ib29sZWFuUHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmVkaXQKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmludFByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5zdHJpbmdQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLnByZWZlcmVuY2VzRGF0YVN0b3JlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5maXJzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cubWFwCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMucnVuQmxvY2tpbmcKCi8vIERhdGFTdG9yZSDlrp7kvosKcHJpdmF0ZSB2YWwgQ29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmU6IERhdGFTdG9yZTxQcmVmZXJlbmNlcz4gYnkgcHJlZmVyZW5jZXNEYXRhU3RvcmUoCiAgICBuYW1lID0gImRpc3BsYXlfcHJlZmVyZW5jZXMiCikKCi8qKgogKiBEaXNwbGF5UHJlZmVyZW5jZXNNYW5hZ2VyCiAqIOeuoeeQhuezu+e7n+aYvuekuuS4juihjOS4uuebuOWFs+eahOWBj+Wlveiuvue9rgogKiDkvb/nlKjljZXkvovmqKHlvI/vvIzpgb/lhY3ph43lpI3liJvlu7rlrp7kvosKICovCmNsYXNzIERpc3BsYXlQcmVmZXJlbmNlc01hbmFnZXIgcHJpdmF0ZSBjb25zdHJ1Y3Rvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgSU5TVEFOQ0U6IERpc3BsYXlQcmVmZXJlbmNlc01hbmFnZXI/ID0gbnVsbAoKICAgICAgICBmdW4gZ2V0SW5zdGFuY2UoY29udGV4dDogQ29udGV4dCk6IERpc3BsYXlQcmVmZXJlbmNlc01hbmFnZXIgewogICAgICAgICAgICByZXR1cm4gSU5TVEFOQ0UgPzogc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgICAgIHZhbCBpbnN0YW5jZSA9IERpc3BsYXlQcmVmZXJlbmNlc01hbmFnZXIoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgICAgICBJTlNUQU5DRSA9IGluc3RhbmNlCiAgICAgICAgICAgICAgICBpbnN0YW5jZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyDmmL7npLrnm7jlhbPorr7nva7nmoQgS2V5CiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX1NIT1dfRlBTX0NPVU5URVIgPSBib29sZWFuUHJlZmVyZW5jZXNLZXkoInNob3dfZnBzX2NvdW50ZXIiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9FTkFCTEVfUkVQTFlfTk9USUZJQ0FUSU9OID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCJlbmFibGVfcmVwbHlfbm90aWZpY2F0aW9uIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfRU5BQkxFX1JFUExZX05PVElGSUNBVElPTl9TT1VORCA9CiAgICAgICAgICAgIGJvb2xlYW5QcmVmZXJlbmNlc0tleSgiZW5hYmxlX3JlcGx5X25vdGlmaWNhdGlvbl9zb3VuZCIpCiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX0VOQUJMRV9SRVBMWV9OT1RJRklDQVRJT05fVklCUkFUSU9OID0KICAgICAgICAgICAgYm9vbGVhblByZWZlcmVuY2VzS2V5KCJlbmFibGVfcmVwbHlfbm90aWZpY2F0aW9uX3ZpYnJhdGlvbiIpCiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX0VOQUJMRV9FTlRFUl9UT19TRU5EID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCJlbmFibGVfZW50ZXJfdG9fc2VuZCIpCiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX0VOQUJMRV9OQVZJR0FUSU9OX0FOSU1BVElPTiA9CiAgICAgICAgICAgIGJvb2xlYW5QcmVmZXJlbmNlc0tleSgiZW5hYmxlX25hdmlnYXRpb25fYW5pbWF0aW9uIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfU1RBUlRfV0lUSF9ORVdfQ0hBVCA9CiAgICAgICAgICAgIGJvb2xlYW5QcmVmZXJlbmNlc0tleSgic3RhcnRfd2l0aF9uZXdfY2hhdCIpCgogICAgICAgIC8vIOWFqOWxgOeUqOaIt+i1hOaWmeeahCBLZXkKICAgICAgICBwcml2YXRlIHZhbCBLRVlfR0xPQkFMX1VTRVJfQVZBVEFSX1VSSSA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJnbG9iYWxfdXNlcl9hdmF0YXJfdXJpIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfR0xPQkFMX1VTRVJfTkFNRSA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJnbG9iYWxfdXNlcl9uYW1lIikKCiAgICAgICAgLy8g6Ieq5Yqo5YyW5pi+56S65LiO6KGM5Li655u45YWz6K6+572u55qEIEtleQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9FTkFCTEVfQkFDS0dST1VORF9LRUVQX0FMSVZFID0KICAgICAgICAgICAgYm9vbGVhblByZWZlcmVuY2VzS2V5KCJlbmFibGVfYmFja2dyb3VuZF9rZWVwX2FsaXZlIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfRU5BQkxFX0VYUEVSSU1FTlRBTF9WSVJUVUFMX0RJU1BMQVkgPQogICAgICAgICAgICBib29sZWFuUHJlZmVyZW5jZXNLZXkoImVuYWJsZV9leHBlcmltZW50YWxfdmlydHVhbF9kaXNwbGF5IikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfSElERV9SVU5USU1FX1RBU0tfVklFVyA9CiAgICAgICAgICAgIGJvb2xlYW5QcmVmZXJlbmNlc0tleSgiaGlkZV9ydW50aW1lX3Rhc2tfdmlldyIpCgogICAgICAgIHByaXZhdGUgdmFsIEtFWV9TQ1JFRU5TSE9UX0ZPUk1BVCA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJzY3JlZW5zaG90X2Zvcm1hdCIpCiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX1NDUkVFTlNIT1RfUVVBTElUWSA9IGludFByZWZlcmVuY2VzS2V5KCJzY3JlZW5zaG90X3F1YWxpdHkiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9TQ1JFRU5TSE9UX1NDQUxFX1BFUkNFTlQgPSBpbnRQcmVmZXJlbmNlc0tleSgic2NyZWVuc2hvdF9zY2FsZV9wZXJjZW50IikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfVklTSVRfV0VCX1dBSVRfU0VDT05EUyA9IGludFByZWZlcmVuY2VzS2V5KCJ2aXNpdF93ZWJfd2FpdF9zZWNvbmRzIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfVE9PTFBLR19IT09LX1RJTUVPVVRfU0VDT05EUyA9IGludFByZWZlcmVuY2VzS2V5KCJ0b29scGtnX2hvb2tfdGltZW91dF9zZWNvbmRzIikKCiAgICAgICAgLy8g6Jma5ouf5bGP5bmV55u45YWz6K6+572u55qEIEtleQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9WSVJUVUFMX0RJU1BMQVlfQklUUkFURV9LQlBTID0gaW50UHJlZmVyZW5jZXNLZXkoInZpcnR1YWxfZGlzcGxheV9iaXRyYXRlX2ticHMiKQoKICAgICAgICAvLyDlt6Xlhbfmipjlj6Dorr7nva7vvIjlpJrkuKrlj6ror7vlt6XlhbcgLyDlpJrkuKrku7vmhI/lt6XlhbcgLyDlhajpg6jlt6XlhbfvvIkKICAgICAgICBwcml2YXRlIHZhbCBLRVlfVE9PTF9DT0xMQVBTRV9NT0RFID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoInRvb2xfY29sbGFwc2VfbW9kZSIpCiAgICB9CgogICAgLyoqCiAgICAgKiDmmK/lkKbmmL7npLpGUFPorqHmlbDlmagKICAgICAqIOm7mOiupOWAvO+8mmZhbHNlCiAgICAgKi8KICAgIHZhbCBzaG93RnBzQ291bnRlcjogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfU0hPV19GUFNfQ09VTlRFUl0gPzogZmFsc2UKICAgICAgICB9CgogICAgLyoqCiAgICAgKiDmmK/lkKblkK/nlKjlm57lpI3pgJrnn6UKICAgICAqIOm7mOiupOWAvO+8mnRydWUKICAgICAqLwogICAgdmFsIGVuYWJsZVJlcGx5Tm90aWZpY2F0aW9uOiBGbG93PEJvb2xlYW4+ID0KICAgICAgICBjb250ZXh0LmRpc3BsYXlQcmVmZXJlbmNlc0RhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9FTkFCTEVfUkVQTFlfTk9USUZJQ0FUSU9OXSA/OiB0cnVlCiAgICAgICAgfQoKICAgIC8qKgogICAgICog5piv5ZCm5ZCv55So5Zue5aSN6YCa55+l5o+Q56S66Z+zCiAgICAgKiDpu5jorqTlgLzvvJpmYWxzZQogICAgICovCiAgICB2YWwgZW5hYmxlUmVwbHlOb3RpZmljYXRpb25Tb3VuZDogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfRU5BQkxFX1JFUExZX05PVElGSUNBVElPTl9TT1VORF0gPzogZmFsc2UKICAgICAgICB9CgogICAgLyoqCiAgICAgKiDmmK/lkKblkK/nlKjlm57lpI3pgJrnn6XpnIfliqgKICAgICAqIOm7mOiupOWAvO+8mmZhbHNlCiAgICAgKi8KICAgIHZhbCBlbmFibGVSZXBseU5vdGlmaWNhdGlvblZpYnJhdGlvbjogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfRU5BQkxFX1JFUExZX05PVElGSUNBVElPTl9WSUJSQVRJT05dID86IGZhbHNlCiAgICAgICAgfQoKICAgIC8qKgogICAgICog5piv5ZCm5ZCv55So5Zue6L2m5Y+R6YCBCiAgICAgKiDpu5jorqTlgLzvvJpmYWxzZQogICAgICovCiAgICB2YWwgZW5hYmxlRW50ZXJUb1NlbmQ6IEZsb3c8Qm9vbGVhbj4gPQogICAgICAgIGNvbnRleHQuZGlzcGxheVByZWZlcmVuY2VzRGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0VOQUJMRV9FTlRFUl9UT19TRU5EXSA/OiBmYWxzZQogICAgICAgIH0KCiAgICAvKioKICAgICAqIOaYr+WQpuWQr+eUqOaWsOeJiOWvvOiIquWKqOeUuwogICAgICog6buY6K6k5YC877yadHJ1ZQogICAgICovCiAgICB2YWwgZW5hYmxlTmF2aWdhdGlvbkFuaW1hdGlvbjogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfRU5BQkxFX05BVklHQVRJT05fQU5JTUFUSU9OXSA/OiB0cnVlCiAgICAgICAgfQoKICAgIC8qKgogICAgICog5piv5ZCm5q+P5qyh5ZCv5Yqo5bqU55So5pe25paw5bu656m655m96IGK5aSpCiAgICAgKiDpu5jorqTlgLzvvJpmYWxzZQogICAgICovCiAgICB2YWwgc3RhcnRXaXRoTmV3Q2hhdDogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfU1RBUlRfV0lUSF9ORVdfQ0hBVF0gPzogZmFsc2UKICAgICAgICB9CgogICAgLyoqCiAgICAgKiDlhajlsYDnlKjmiLflpLTlg49VUkkKICAgICAqLwogICAgdmFsIGdsb2JhbFVzZXJBdmF0YXJVcmk6IEZsb3c8U3RyaW5nPz4gPQogICAgICAgIGNvbnRleHQuZGlzcGxheVByZWZlcmVuY2VzRGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0dMT0JBTF9VU0VSX0FWQVRBUl9VUkldCiAgICAgICAgfQoKICAgIC8qKgogICAgICog5YWo5bGA55So5oi35ZCN56ewCiAgICAgKi8KICAgIHZhbCBnbG9iYWxVc2VyTmFtZTogRmxvdzxTdHJpbmc/PiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfR0xPQkFMX1VTRVJfTkFNRV0KICAgICAgICB9CgogICAgdmFsIGVuYWJsZUJhY2tncm91bmRLZWVwQWxpdmU6IEZsb3c8Qm9vbGVhbj4gPQogICAgICAgIGNvbnRleHQuZGlzcGxheVByZWZlcmVuY2VzRGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0VOQUJMRV9CQUNLR1JPVU5EX0tFRVBfQUxJVkVdID86IGZhbHNlCiAgICAgICAgfQoKICAgIHZhbCBlbmFibGVFeHBlcmltZW50YWxWaXJ0dWFsRGlzcGxheTogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfRU5BQkxFX0VYUEVSSU1FTlRBTF9WSVJUVUFMX0RJU1BMQVldID86IHRydWUKICAgICAgICB9CgogICAgdmFsIGhpZGVSdW50aW1lVGFza1ZpZXc6IEZsb3c8Qm9vbGVhbj4gPQogICAgICAgIGNvbnRleHQuZGlzcGxheVByZWZlcmVuY2VzRGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0hJREVfUlVOVElNRV9UQVNLX1ZJRVddID86IGZhbHNlCiAgICAgICAgfQoKICAgIHZhbCBzY3JlZW5zaG90Rm9ybWF0OiBGbG93PFN0cmluZz4gPQogICAgICAgIGNvbnRleHQuZGlzcGxheVByZWZlcmVuY2VzRGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX1NDUkVFTlNIT1RfRk9STUFUXSA/OiAiSlBHIgogICAgICAgIH0KCiAgICB2YWwgc2NyZWVuc2hvdFF1YWxpdHk6IEZsb3c8SW50PiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfU0NSRUVOU0hPVF9RVUFMSVRZXSA/OiA3NQogICAgICAgIH0KCiAgICB2YWwgc2NyZWVuc2hvdFNjYWxlUGVyY2VudDogRmxvdzxJbnQ+ID0KICAgICAgICBjb250ZXh0LmRpc3BsYXlQcmVmZXJlbmNlc0RhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9TQ1JFRU5TSE9UX1NDQUxFX1BFUkNFTlRdID86IDc1CiAgICAgICAgfQoKICAgIHZhbCB2aXNpdFdlYldhaXRTZWNvbmRzOiBGbG93PEludD4gPQogICAgICAgIGNvbnRleHQuZGlzcGxheVByZWZlcmVuY2VzRGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX1ZJU0lUX1dFQl9XQUlUX1NFQ09ORFNdID86IDAKICAgICAgICB9CgogICAgdmFsIHRvb2xQa2dIb29rVGltZW91dFNlY29uZHM6IEZsb3c8SW50PiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfVE9PTFBLR19IT09LX1RJTUVPVVRfU0VDT05EU10gPzogMTAKICAgICAgICB9CgogICAgdmFsIHZpcnR1YWxEaXNwbGF5Qml0cmF0ZUticHM6IEZsb3c8SW50PiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfVklSVFVBTF9ESVNQTEFZX0JJVFJBVEVfS0JQU10gPzogMzAwMAogICAgICAgIH0KCiAgICB2YWwgdG9vbENvbGxhcHNlTW9kZTogRmxvdzxUb29sQ29sbGFwc2VNb2RlPiA9CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBUb29sQ29sbGFwc2VNb2RlLmZyb21WYWx1ZShwcmVmZXJlbmNlc1tLRVlfVE9PTF9DT0xMQVBTRV9NT0RFXSkKICAgICAgICB9CgogICAgLyoqCiAgICAgKiDkv53lrZjmmL7npLrorr7nva4KICAgICAqLwogICAgc3VzcGVuZCBmdW4gc2F2ZURpc3BsYXlTZXR0aW5ncygKICAgICAgICBzaG93RnBzQ291bnRlcjogQm9vbGVhbj8gPSBudWxsLAogICAgICAgIGVuYWJsZVJlcGx5Tm90aWZpY2F0aW9uOiBCb29sZWFuPyA9IG51bGwsCiAgICAgICAgZW5hYmxlUmVwbHlOb3RpZmljYXRpb25Tb3VuZDogQm9vbGVhbj8gPSBudWxsLAogICAgICAgIGVuYWJsZVJlcGx5Tm90aWZpY2F0aW9uVmlicmF0aW9uOiBCb29sZWFuPyA9IG51bGwsCiAgICAgICAgZW5hYmxlRW50ZXJUb1NlbmQ6IEJvb2xlYW4/ID0gbnVsbCwKICAgICAgICBlbmFibGVOYXZpZ2F0aW9uQW5pbWF0aW9uOiBCb29sZWFuPyA9IG51bGwsCiAgICAgICAgc3RhcnRXaXRoTmV3Q2hhdDogQm9vbGVhbj8gPSBudWxsLAogICAgICAgIGdsb2JhbFVzZXJBdmF0YXJVcmk6IFN0cmluZz8gPSBudWxsLAogICAgICAgIGdsb2JhbFVzZXJOYW1lOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICBlbmFibGVCYWNrZ3JvdW5kS2VlcEFsaXZlOiBCb29sZWFuPyA9IG51bGwsCiAgICAgICAgZW5hYmxlRXhwZXJpbWVudGFsVmlydHVhbERpc3BsYXk6IEJvb2xlYW4/ID0gbnVsbCwKICAgICAgICBoaWRlUnVudGltZVRhc2tWaWV3OiBCb29sZWFuPyA9IG51bGwsCiAgICAgICAgc2NyZWVuc2hvdEZvcm1hdDogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgc2NyZWVuc2hvdFF1YWxpdHk6IEludD8gPSBudWxsLAogICAgICAgIHNjcmVlbnNob3RTY2FsZVBlcmNlbnQ6IEludD8gPSBudWxsLAogICAgICAgIHZpc2l0V2ViV2FpdFNlY29uZHM6IEludD8gPSBudWxsLAogICAgICAgIHRvb2xQa2dIb29rVGltZW91dFNlY29uZHM6IEludD8gPSBudWxsLAogICAgICAgIHZpcnR1YWxEaXNwbGF5Qml0cmF0ZUticHM6IEludD8gPSBudWxsLAogICAgICAgIHRvb2xDb2xsYXBzZU1vZGU6IFRvb2xDb2xsYXBzZU1vZGU/ID0gbnVsbAogICAgKSB7CiAgICAgICAgY29udGV4dC5kaXNwbGF5UHJlZmVyZW5jZXNEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHNob3dGcHNDb3VudGVyPy5sZXQgeyBwcmVmZXJlbmNlc1tLRVlfU0hPV19GUFNfQ09VTlRFUl0gPSBpdCB9CiAgICAgICAgICAgIGVuYWJsZVJlcGx5Tm90aWZpY2F0aW9uPy5sZXQgeyBwcmVmZXJlbmNlc1tLRVlfRU5BQkxFX1JFUExZX05PVElGSUNBVElPTl0gPSBpdCB9CiAgICAgICAgICAgIGVuYWJsZVJlcGx5Tm90aWZpY2F0aW9uU291bmQ/LmxldCB7CiAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfRU5BQkxFX1JFUExZX05PVElGSUNBVElPTl9TT1VORF0gPSBpdAogICAgICAgICAgICB9CiAgICAgICAgICAgIGVuYWJsZVJlcGx5Tm90aWZpY2F0aW9uVmlicmF0aW9uPy5sZXQgewogICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0VOQUJMRV9SRVBMWV9OT1RJRklDQVRJT05fVklCUkFUSU9OXSA9IGl0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZW5hYmxlRW50ZXJUb1NlbmQ/LmxldCB7IHByZWZlcmVuY2VzW0tFWV9FTkFCTEVfRU5URVJfVE9fU0VORF0gPSBpdCB9CiAgICAgICAgICAgIGVuYWJsZU5hdmlnYXRpb25BbmltYXRpb24/LmxldCB7CiAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfRU5BQkxFX05BVklHQVRJT05fQU5JTUFUSU9OXSA9IGl0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgc3RhcnRXaXRoTmV3Q2hhdD8ubGV0IHsKICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9TVEFSVF9XSVRIX05FV19DSEFUXSA9IGl0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ2xvYmFsVXNlckF2YXRhclVyaT8ubGV0IHsgcHJlZmVyZW5jZXNbS0VZX0dMT0JBTF9VU0VSX0FWQVRBUl9VUkldID0gaXQgfQogICAgICAgICAgICBnbG9iYWxVc2VyTmFtZT8ubGV0IHsgcHJlZmVyZW5jZXNbS0VZX0dMT0JBTF9VU0VSX05BTUVdID0gaXQgfQogICAgICAgICAgICBlbmFibGVCYWNrZ3JvdW5kS2VlcEFsaXZlPy5sZXQgewogICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0VOQUJMRV9CQUNLR1JPVU5EX0tFRVBfQUxJVkVdID0gaXQKICAgICAgICAgICAgfQogICAgICAgICAgICBlbmFibGVFeHBlcmltZW50YWxWaXJ0dWFsRGlzcGxheT8ubGV0IHsKICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9FTkFCTEVfRVhQRVJJTUVOVEFMX1ZJUlRVQUxfRElTUExBWV0gPSBpdAogICAgICAgICAgICB9CiAgICAgICAgICAgIGhpZGVSdW50aW1lVGFza1ZpZXc/LmxldCB7CiAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfSElERV9SVU5USU1FX1RBU0tfVklFV10gPSBpdAogICAgICAgICAgICB9CiAgICAgICAgICAgIHNjcmVlbnNob3RGb3JtYXQ/LmxldCB7IHByZWZlcmVuY2VzW0tFWV9TQ1JFRU5TSE9UX0ZPUk1BVF0gPSBpdCB9CiAgICAgICAgICAgIHNjcmVlbnNob3RRdWFsaXR5Py5sZXQgeyBwcmVmZXJlbmNlc1tLRVlfU0NSRUVOU0hPVF9RVUFMSVRZXSA9IGl0IH0KICAgICAgICAgICAgc2NyZWVuc2hvdFNjYWxlUGVyY2VudD8ubGV0IHsgcHJlZmVyZW5jZXNbS0VZX1NDUkVFTlNIT1RfU0NBTEVfUEVSQ0VOVF0gPSBpdCB9CiAgICAgICAgICAgIHZpc2l0V2ViV2FpdFNlY29uZHM/LmxldCB7IHByZWZlcmVuY2VzW0tFWV9WSVNJVF9XRUJfV0FJVF9TRUNPTkRTXSA9IGl0LmNvZXJjZUF0TGVhc3QoMCkgfQogICAgICAgICAgICB0b29sUGtnSG9va1RpbWVvdXRTZWNvbmRzPy5sZXQgewogICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX1RPT0xQS0dfSE9PS19USU1FT1VUX1NFQ09ORFNdID0gaXQuY29lcmNlSW4oMSwgNjApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmlydHVhbERpc3BsYXlCaXRyYXRlS2Jwcz8ubGV0IHsgcHJlZmVyZW5jZXNbS0VZX1ZJUlRVQUxfRElTUExBWV9CSVRSQVRFX0tCUFNdID0gaXQgfQogICAgICAgICAgICB0b29sQ29sbGFwc2VNb2RlPy5sZXQgeyBwcmVmZXJlbmNlc1tLRVlfVE9PTF9DT0xMQVBTRV9NT0RFXSA9IGl0LnZhbHVlIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGlzRXhwZXJpbWVudGFsVmlydHVhbERpc3BsYXlFbmFibGVkKCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBydW5CbG9ja2luZyB7CiAgICAgICAgICAgIGVuYWJsZUV4cGVyaW1lbnRhbFZpcnR1YWxEaXNwbGF5LmZpcnN0KCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIGdldFNjcmVlbnNob3RGb3JtYXQoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gcnVuQmxvY2tpbmcgewogICAgICAgICAgICBzY3JlZW5zaG90Rm9ybWF0LmZpcnN0KCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIGdldFNjcmVlbnNob3RRdWFsaXR5KCk6IEludCB7CiAgICAgICAgcmV0dXJuIHJ1bkJsb2NraW5nIHsKICAgICAgICAgICAgc2NyZWVuc2hvdFF1YWxpdHkuZmlyc3QoKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gZ2V0U2NyZWVuc2hvdFNjYWxlUGVyY2VudCgpOiBJbnQgewogICAgICAgIHJldHVybiBydW5CbG9ja2luZyB7CiAgICAgICAgICAgIHNjcmVlbnNob3RTY2FsZVBlcmNlbnQuZmlyc3QoKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gZ2V0VmlzaXRXZWJXYWl0U2Vjb25kcygpOiBJbnQgewogICAgICAgIHJldHVybiBydW5CbG9ja2luZyB7CiAgICAgICAgICAgIHZpc2l0V2ViV2FpdFNlY29uZHMuZmlyc3QoKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gZ2V0VG9vbFBrZ0hvb2tUaW1lb3V0U2Vjb25kcygpOiBJbnQgewogICAgICAgIHJldHVybiBydW5CbG9ja2luZyB7CiAgICAgICAgICAgIHRvb2xQa2dIb29rVGltZW91dFNlY29uZHMuZmlyc3QoKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gZ2V0VmlydHVhbERpc3BsYXlCaXRyYXRlS2JwcygpOiBJbnQgewogICAgICAgIHJldHVybiBydW5CbG9ja2luZyB7CiAgICAgICAgICAgIHZpcnR1YWxEaXNwbGF5Qml0cmF0ZUticHMuZmlyc3QoKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOmHjee9ruaJgOacieaYvuekuuiuvue9ruS4uum7mOiupOWAvAogICAgICovCiAgICBzdXNwZW5kIGZ1biByZXNldERpc3BsYXlTZXR0aW5ncygpIHsKICAgICAgICBjb250ZXh0LmRpc3BsYXlQcmVmZXJlbmNlc0RhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX1NIT1dfRlBTX0NPVU5URVJdID0gZmFsc2UKICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0VOQUJMRV9SRVBMWV9OT1RJRklDQVRJT05dID0gdHJ1ZQogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfRU5BQkxFX1JFUExZX05PVElGSUNBVElPTl9TT1VORF0gPSBmYWxzZQogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfRU5BQkxFX1JFUExZX05PVElGSUNBVElPTl9WSUJSQVRJT05dID0gZmFsc2UKICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0VOQUJMRV9FTlRFUl9UT19TRU5EXSA9IGZhbHNlCiAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShLRVlfRU5BQkxFX05BVklHQVRJT05fQU5JTUFUSU9OKQogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfU1RBUlRfV0lUSF9ORVdfQ0hBVF0gPSBmYWxzZQogICAgICAgICAgICBwcmVmZXJlbmNlcy5yZW1vdmUoS0VZX0dMT0JBTF9VU0VSX0FWQVRBUl9VUkkpCiAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShLRVlfR0xPQkFMX1VTRVJfTkFNRSkKICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0VOQUJMRV9CQUNLR1JPVU5EX0tFRVBfQUxJVkVdID0gZmFsc2UKICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0VOQUJMRV9FWFBFUklNRU5UQUxfVklSVFVBTF9ESVNQTEFZXSA9IHRydWUKICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0hJREVfUlVOVElNRV9UQVNLX1ZJRVddID0gZmFsc2UKICAgICAgICAgICAgcHJlZmVyZW5jZXMucmVtb3ZlKEtFWV9TQ1JFRU5TSE9UX0ZPUk1BVCkKICAgICAgICAgICAgcHJlZmVyZW5jZXMucmVtb3ZlKEtFWV9TQ1JFRU5TSE9UX1FVQUxJVFkpCiAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShLRVlfU0NSRUVOU0hPVF9TQ0FMRV9QRVJDRU5UKQogICAgICAgICAgICBwcmVmZXJlbmNlcy5yZW1vdmUoS0VZX1ZJU0lUX1dFQl9XQUlUX1NFQ09ORFMpCiAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShLRVlfVE9PTFBLR19IT09LX1RJTUVPVVRfU0VDT05EUykKICAgICAgICAgICAgcHJlZmVyZW5jZXMucmVtb3ZlKEtFWV9WSVJUVUFMX0RJU1BMQVlfQklUUkFURV9LQlBTKQogICAgICAgICAgICBwcmVmZXJlbmNlcy5yZW1vdmUoS0VZX1RPT0xfQ09MTEFQU0VfTU9ERSkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.runBlocking
+
+// DataStore 实例
+private val Context.displayPreferencesDataStore: DataStore<Preferences> by preferencesDataStore(
+    name = "display_preferences"
+)
+
+/**
+ * DisplayPreferencesManager
+ * 管理系统显示与行为相关的偏好设置
+ * 使用单例模式，避免重复创建实例
+ */
+class DisplayPreferencesManager private constructor(private val context: Context) {
+
+    companion object {
+        @Volatile
+        private var INSTANCE: DisplayPreferencesManager? = null
+
+        fun getInstance(context: Context): DisplayPreferencesManager {
+            return INSTANCE ?: synchronized(this) {
+                val instance = DisplayPreferencesManager(context.applicationContext)
+                INSTANCE = instance
+                instance
+            }
+        }
+
+        // 显示相关设置的 Key
+        private val KEY_SHOW_FPS_COUNTER = booleanPreferencesKey("show_fps_counter")
+        private val KEY_ENABLE_REPLY_NOTIFICATION = booleanPreferencesKey("enable_reply_notification")
+        private val KEY_ENABLE_REPLY_NOTIFICATION_SOUND =
+            booleanPreferencesKey("enable_reply_notification_sound")
+        private val KEY_ENABLE_REPLY_NOTIFICATION_VIBRATION =
+            booleanPreferencesKey("enable_reply_notification_vibration")
+        private val KEY_ENABLE_ENTER_TO_SEND = booleanPreferencesKey("enable_enter_to_send")
+        private val KEY_ENABLE_NAVIGATION_ANIMATION =
+            booleanPreferencesKey("enable_navigation_animation")
+        private val KEY_START_WITH_NEW_CHAT =
+            booleanPreferencesKey("start_with_new_chat")
+
+        // 全局用户资料的 Key
+        private val KEY_GLOBAL_USER_AVATAR_URI = stringPreferencesKey("global_user_avatar_uri")
+        private val KEY_GLOBAL_USER_NAME = stringPreferencesKey("global_user_name")
+
+        // 自动化显示与行为相关设置的 Key
+        private val KEY_ENABLE_BACKGROUND_KEEP_ALIVE =
+            booleanPreferencesKey("enable_background_keep_alive")
+        private val KEY_ENABLE_EXPERIMENTAL_VIRTUAL_DISPLAY =
+            booleanPreferencesKey("enable_experimental_virtual_display")
+        private val KEY_HIDE_RUNTIME_TASK_VIEW =
+            booleanPreferencesKey("hide_runtime_task_view")
+
+        private val KEY_SCREENSHOT_FORMAT = stringPreferencesKey("screenshot_format")
+        private val KEY_SCREENSHOT_QUALITY = intPreferencesKey("screenshot_quality")
+        private val KEY_SCREENSHOT_SCALE_PERCENT = intPreferencesKey("screenshot_scale_percent")
+        private val KEY_VISIT_WEB_WAIT_SECONDS = intPreferencesKey("visit_web_wait_seconds")
+        private val KEY_TOOLPKG_HOOK_TIMEOUT_SECONDS = intPreferencesKey("toolpkg_hook_timeout_seconds")
+
+        // 虚拟屏幕相关设置的 Key
+        private val KEY_VIRTUAL_DISPLAY_BITRATE_KBPS = intPreferencesKey("virtual_display_bitrate_kbps")
+
+        // 工具折叠设置（多个只读工具 / 多个任意工具 / 全部工具）
+        private val KEY_TOOL_COLLAPSE_MODE = stringPreferencesKey("tool_collapse_mode")
+    }
+
+    /**
+     * 是否显示FPS计数器
+     * 默认值：false
+     */
+    val showFpsCounter: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_SHOW_FPS_COUNTER] ?: false
+        }
+
+    /**
+     * 是否启用回复通知
+     * 默认值：true
+     */
+    val enableReplyNotification: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_ENABLE_REPLY_NOTIFICATION] ?: true
+        }
+
+    /**
+     * 是否启用回复通知提示音
+     * 默认值：false
+     */
+    val enableReplyNotificationSound: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_ENABLE_REPLY_NOTIFICATION_SOUND] ?: false
+        }
+
+    /**
+     * 是否启用回复通知震动
+     * 默认值：false
+     */
+    val enableReplyNotificationVibration: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_ENABLE_REPLY_NOTIFICATION_VIBRATION] ?: false
+        }
+
+    /**
+     * 是否启用回车发送
+     * 默认值：false
+     */
+    val enableEnterToSend: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_ENABLE_ENTER_TO_SEND] ?: false
+        }
+
+    /**
+     * 是否启用新版导航动画
+     * 默认值：true
+     */
+    val enableNavigationAnimation: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_ENABLE_NAVIGATION_ANIMATION] ?: true
+        }
+
+    /**
+     * 是否每次启动应用时新建空白聊天
+     * 默认值：false
+     */
+    val startWithNewChat: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_START_WITH_NEW_CHAT] ?: false
+        }
+
+    /**
+     * 全局用户头像URI
+     */
+    val globalUserAvatarUri: Flow<String?> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_GLOBAL_USER_AVATAR_URI]
+        }
+
+    /**
+     * 全局用户名称
+     */
+    val globalUserName: Flow<String?> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_GLOBAL_USER_NAME]
+        }
+
+    val enableBackgroundKeepAlive: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_ENABLE_BACKGROUND_KEEP_ALIVE] ?: false
+        }
+
+    val enableExperimentalVirtualDisplay: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_ENABLE_EXPERIMENTAL_VIRTUAL_DISPLAY] ?: true
+        }
+
+    val hideRuntimeTaskView: Flow<Boolean> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_HIDE_RUNTIME_TASK_VIEW] ?: false
+        }
+
+    val screenshotFormat: Flow<String> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_SCREENSHOT_FORMAT] ?: "JPG"
+        }
+
+    val screenshotQuality: Flow<Int> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_SCREENSHOT_QUALITY] ?: 75
+        }
+
+    val screenshotScalePercent: Flow<Int> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_SCREENSHOT_SCALE_PERCENT] ?: 75
+        }
+
+    val visitWebWaitSeconds: Flow<Int> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_VISIT_WEB_WAIT_SECONDS] ?: 0
+        }
+
+    val toolPkgHookTimeoutSeconds: Flow<Int> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_TOOLPKG_HOOK_TIMEOUT_SECONDS] ?: 10
+        }
+
+    val virtualDisplayBitrateKbps: Flow<Int> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            preferences[KEY_VIRTUAL_DISPLAY_BITRATE_KBPS] ?: 3000
+        }
+
+    val toolCollapseMode: Flow<ToolCollapseMode> =
+        context.displayPreferencesDataStore.data.map { preferences ->
+            ToolCollapseMode.fromValue(preferences[KEY_TOOL_COLLAPSE_MODE])
+        }
+
+    /**
+     * 保存显示设置
+     */
+    suspend fun saveDisplaySettings(
+        showFpsCounter: Boolean? = null,
+        enableReplyNotification: Boolean? = null,
+        enableReplyNotificationSound: Boolean? = null,
+        enableReplyNotificationVibration: Boolean? = null,
+        enableEnterToSend: Boolean? = null,
+        enableNavigationAnimation: Boolean? = null,
+        startWithNewChat: Boolean? = null,
+        globalUserAvatarUri: String? = null,
+        globalUserName: String? = null,
+        enableBackgroundKeepAlive: Boolean? = null,
+        enableExperimentalVirtualDisplay: Boolean? = null,
+        hideRuntimeTaskView: Boolean? = null,
+        screenshotFormat: String? = null,
+        screenshotQuality: Int? = null,
+        screenshotScalePercent: Int? = null,
+        visitWebWaitSeconds: Int? = null,
+        toolPkgHookTimeoutSeconds: Int? = null,
+        virtualDisplayBitrateKbps: Int? = null,
+        toolCollapseMode: ToolCollapseMode? = null
+    ) {
+        context.displayPreferencesDataStore.edit { preferences ->
+            showFpsCounter?.let { preferences[KEY_SHOW_FPS_COUNTER] = it }
+            enableReplyNotification?.let { preferences[KEY_ENABLE_REPLY_NOTIFICATION] = it }
+            enableReplyNotificationSound?.let {
+                preferences[KEY_ENABLE_REPLY_NOTIFICATION_SOUND] = it
+            }
+            enableReplyNotificationVibration?.let {
+                preferences[KEY_ENABLE_REPLY_NOTIFICATION_VIBRATION] = it
+            }
+            enableEnterToSend?.let { preferences[KEY_ENABLE_ENTER_TO_SEND] = it }
+            enableNavigationAnimation?.let {
+                preferences[KEY_ENABLE_NAVIGATION_ANIMATION] = it
+            }
+            startWithNewChat?.let {
+                preferences[KEY_START_WITH_NEW_CHAT] = it
+            }
+            globalUserAvatarUri?.let { preferences[KEY_GLOBAL_USER_AVATAR_URI] = it }
+            globalUserName?.let { preferences[KEY_GLOBAL_USER_NAME] = it }
+            enableBackgroundKeepAlive?.let {
+                preferences[KEY_ENABLE_BACKGROUND_KEEP_ALIVE] = it
+            }
+            enableExperimentalVirtualDisplay?.let {
+                preferences[KEY_ENABLE_EXPERIMENTAL_VIRTUAL_DISPLAY] = it
+            }
+            hideRuntimeTaskView?.let {
+                preferences[KEY_HIDE_RUNTIME_TASK_VIEW] = it
+            }
+            screenshotFormat?.let { preferences[KEY_SCREENSHOT_FORMAT] = it }
+            screenshotQuality?.let { preferences[KEY_SCREENSHOT_QUALITY] = it }
+            screenshotScalePercent?.let { preferences[KEY_SCREENSHOT_SCALE_PERCENT] = it }
+            visitWebWaitSeconds?.let { preferences[KEY_VISIT_WEB_WAIT_SECONDS] = it.coerceAtLeast(0) }
+            toolPkgHookTimeoutSeconds?.let {
+                preferences[KEY_TOOLPKG_HOOK_TIMEOUT_SECONDS] = it.coerceIn(1, 60)
+            }
+            virtualDisplayBitrateKbps?.let { preferences[KEY_VIRTUAL_DISPLAY_BITRATE_KBPS] = it }
+            toolCollapseMode?.let { preferences[KEY_TOOL_COLLAPSE_MODE] = it.value }
+        }
+    }
+
+    fun isExperimentalVirtualDisplayEnabled(): Boolean {
+        return runBlocking {
+            enableExperimentalVirtualDisplay.first()
+        }
+    }
+
+    fun getScreenshotFormat(): String {
+        return runBlocking {
+            screenshotFormat.first()
+        }
+    }
+
+    fun getScreenshotQuality(): Int {
+        return runBlocking {
+            screenshotQuality.first()
+        }
+    }
+
+    fun getScreenshotScalePercent(): Int {
+        return runBlocking {
+            screenshotScalePercent.first()
+        }
+    }
+
+    fun getVisitWebWaitSeconds(): Int {
+        return runBlocking {
+            visitWebWaitSeconds.first()
+        }
+    }
+
+    fun getToolPkgHookTimeoutSeconds(): Int {
+        return runBlocking {
+            toolPkgHookTimeoutSeconds.first()
+        }
+    }
+
+    fun getVirtualDisplayBitrateKbps(): Int {
+        return runBlocking {
+            virtualDisplayBitrateKbps.first()
+        }
+    }
+
+    /**
+     * 重置所有显示设置为默认值
+     */
+    suspend fun resetDisplaySettings() {
+        context.displayPreferencesDataStore.edit { preferences ->
+            preferences[KEY_SHOW_FPS_COUNTER] = false
+            preferences[KEY_ENABLE_REPLY_NOTIFICATION] = true
+            preferences[KEY_ENABLE_REPLY_NOTIFICATION_SOUND] = false
+            preferences[KEY_ENABLE_REPLY_NOTIFICATION_VIBRATION] = false
+            preferences[KEY_ENABLE_ENTER_TO_SEND] = false
+            preferences.remove(KEY_ENABLE_NAVIGATION_ANIMATION)
+            preferences[KEY_START_WITH_NEW_CHAT] = false
+            preferences.remove(KEY_GLOBAL_USER_AVATAR_URI)
+            preferences.remove(KEY_GLOBAL_USER_NAME)
+            preferences[KEY_ENABLE_BACKGROUND_KEEP_ALIVE] = false
+            preferences[KEY_ENABLE_EXPERIMENTAL_VIRTUAL_DISPLAY] = true
+            preferences[KEY_HIDE_RUNTIME_TASK_VIEW] = false
+            preferences.remove(KEY_SCREENSHOT_FORMAT)
+            preferences.remove(KEY_SCREENSHOT_QUALITY)
+            preferences.remove(KEY_SCREENSHOT_SCALE_PERCENT)
+            preferences.remove(KEY_VISIT_WEB_WAIT_SECONDS)
+            preferences.remove(KEY_TOOLPKG_HOOK_TIMEOUT_SECONDS)
+            preferences.remove(KEY_VIRTUAL_DISPLAY_BITRATE_KBPS)
+            preferences.remove(KEY_TOOL_COLLAPSE_MODE)
+        }
+    }
+}

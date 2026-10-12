@@ -1,1 +1,136 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tcG9uZW50cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmdlc3R1cmVzLmRldGVjdERyYWdHZXN0dXJlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTGF1bmNoZWRFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5pbnB1dC5wb2ludGVyLnBvaW50ZXJJbnB1dAppbXBvcnQgY29tLmRyYWdvbmJvbmVzLkRyYWdvbkJvbmVzQ29udHJvbGxlcgppbXBvcnQgY29tLmRyYWdvbmJvbmVzLkRyYWdvbkJvbmVzTW9kZWwKaW1wb3J0IGNvbS5kcmFnb25ib25lcy5EcmFnb25Cb25lc1ZpZXdDb21wb3NlCmltcG9ydCBrb3RsaW4ucmFuZG9tLlJhbmRvbQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5Cgpwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiTWFuYWdlZERCVmlldyIKCi8vIC0tLSBBbmltYXRpb24gTmFtZXMgLS0tCi8vIENvbW1vbiBhbmltYXRpb25zIGFwcGxpY2FibGUgdG8gYWxsIG1vZGVsIHR5cGVzCmNvbnN0IHZhbCBJRExFX0FOSU1BVElPTl9OQU1FID0gImlkbGUiCgovLyBDb21tb24gcmFuZG9tIGFuaW1hdGlvbnMgZm9yIGlkbGUgc3RhdGUKdmFsIFJBTkRPTV9JRExFX0FOSU1BVElPTlMgPSBsaXN0T2YoImJsaW5rIiwgInNoYWtlX2hlYWQiLCAid2FnX3RhaWwiKQoKCi8vIC0tLSBBbmltYXRpb24gTGF5ZXJzIC0tLQpwcml2YXRlIGNvbnN0IHZhbCBCQVNFX0FOSU1BVElPTl9MQVlFUiA9IDAKcHJpdmF0ZSBjb25zdCB2YWwgV0FMS19BTklNQVRJT05fTEFZRVIgPSA1CnByaXZhdGUgY29uc3QgdmFsIFJBTkRPTV9BTklNQVRJT05fTEFZRVIgPSAxMAoKLy8gUmVzdG9yZWQgSUsgYm9uZSBuYW1lCmNvbnN0IHZhbCBJS19UQVJHRVRfQk9ORV9OQU1FID0gImlrX3RhcmdldCIKCi8qKgogKiBBIHVuaWZpZWQsIG1hbmFnZWQgd3JhcHBlciBmb3IgW0RyYWdvbkJvbmVzVmlld0NvbXBvc2VdIHRoYXQgaGFuZGxlcyBhIHNpbXBsZSwgcm9idXN0IGxheWVyaW5nCiAqIHN5c3RlbSBmb3IgYW5pbWF0aW9ucy4gSXQgcGxheXMgYSBiYXNlICdpZGxlJyBhbmltYXRpb24gYW5kIHBlcmlvZGljYWxseSBwbGF5cyByYW5kb20KICogYW5pbWF0aW9ucyBvbiBhIGhpZ2hlciBsYXllci4gSXQgYWxzbyBzdXBwb3J0cyBJSyBib25lIHRhcmdldGluZyB2aWEgZ2VzdHVyZXMuCiAqCiAqIEBwYXJhbSBtb2RlbCBUaGUgW0RyYWdvbkJvbmVzTW9kZWxdIHRvIGJlIGRpc3BsYXllZC4KICogQHBhcmFtIGNvbnRyb2xsZXIgVGhlIFtEcmFnb25Cb25lc0NvbnRyb2xsZXJdIHRvIGludGVyYWN0IHdpdGggdGhlIHZpZXcuCiAqIEBwYXJhbSBtb2RpZmllciBUaGUgbW9kaWZpZXIgdG8gYmUgYXBwbGllZCB0byB0aGUgY29tcG9uZW50LgogKiBAcGFyYW0gZW5hYmxlR2VzdHVyZXMgQSBib29sZWFuIGluZGljYXRpbmcgd2hldGhlciB0byBlbmFibGUgSUsgZ2VzdHVyZXMuCiAqIEBwYXJhbSB6T3JkZXJPblRvcCBXaGV0aGVyIHRoZSBzdXJmYWNlIHZpZXcgaXMgcGxhY2VkIG9uIHRvcCBvZiBpdHMgd2luZG93LgogKiBAcGFyYW0gb25FcnJvciBBIGNhbGxiYWNrIGZvciB3aGVuIGFuIGVycm9yIG9jY3VycyBkdXJpbmcgbG9hZGluZyBvciBwbGF5YmFjay4KICovCkBDb21wb3NhYmxlCmZ1biBNYW5hZ2VkRHJhZ29uQm9uZXNWaWV3KAogICAgbW9kZWw6IERyYWdvbkJvbmVzTW9kZWwsCiAgICBjb250cm9sbGVyOiBEcmFnb25Cb25lc0NvbnRyb2xsZXIsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIGVuYWJsZUdlc3R1cmVzOiBCb29sZWFuID0gdHJ1ZSwKICAgIHpPcmRlck9uVG9wOiBCb29sZWFuID0gdHJ1ZSwKICAgIG9uRXJyb3I6IChTdHJpbmcpIC0+IFVuaXQKKSB7CiAgICBCb3gobW9kaWZpZXIgPSBtb2RpZmllcikgewogICAgICAgIHZhbCBhbmltYXRpb25Mb2dpY0tleSA9IHJlbWVtYmVyKG1vZGVsKSB7IEFueSgpIH0KICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJSZWNvbXBvc2l0aW9uLiBNb2RlbDogJHttb2RlbC5za2VsZXRvblBhdGh9LCBLZXk6ICRhbmltYXRpb25Mb2dpY0tleSIpCgogICAgICAgIC8vIFNldHVwIGJhc2UgYW5kIHJhbmRvbSBhbmltYXRpb25zIG9uIHRoZWlyIHJlc3BlY3RpdmUgbGF5ZXJzCiAgICAgICAgTGF1bmNoZWRFZmZlY3QoYW5pbWF0aW9uTG9naWNLZXksIGNvbnRyb2xsZXIuYW5pbWF0aW9uTmFtZXMpIHsKICAgICAgICAgICAgdmFsIGFuaW1OYW1lcyA9IGNvbnRyb2xsZXIuYW5pbWF0aW9uTmFtZXMKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQW5pbWF0aW9uIGVmZmVjdCB0cmlnZ2VyZWQuIEtleTogJGFuaW1hdGlvbkxvZ2ljS2V5LCBOYW1lcyBjb3VudDogJHthbmltTmFtZXMuc2l6ZX0sIE5hbWVzOiAke2FuaW1OYW1lcy5qb2luVG9TdHJpbmcoIiwiKX0iKQoKICAgICAgICAgICAgaWYgKGFuaW1OYW1lcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkFuaW1hdGlvbiBlZmZlY3Q6IE5vIGFuaW1hdGlvbnMgYXZhaWxhYmxlLiBSZXR1cm5pbmcuIikKICAgICAgICAgICAgICAgIHJldHVybkBMYXVuY2hlZEVmZmVjdAogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBTdGFydCB0aGUgYmFzZSBpZGxlIGFuaW1hdGlvbiBvbiB0aGUgYmFzZSBsYXllciwgaW5maW5pdGVseSBsb29waW5nLgogICAgICAgICAgICBpZiAoYW5pbU5hbWVzLmNvbnRhaW5zKElETEVfQU5JTUFUSU9OX05BTUUpKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJBbmltYXRpb24gZWZmZWN0OiBQbGF5aW5nICckSURMRV9BTklNQVRJT05fTkFNRScuIikKICAgICAgICAgICAgICAgIGNvbnRyb2xsZXIuZmFkZUluQW5pbWF0aW9uKAogICAgICAgICAgICAgICAgICAgIElETEVfQU5JTUFUSU9OX05BTUUsCiAgICAgICAgICAgICAgICAgICAgbGF5ZXIgPSBCQVNFX0FOSU1BVElPTl9MQVlFUiwKICAgICAgICAgICAgICAgICAgICBsb29wID0gMAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBQbGF5IHJhbmRvbSBhbmltYXRpb25zIG9uIHRoZSB0b3AgbGF5ZXIuCiAgICAgICAgICAgIHZhbCBhdmFpbGFibGVBbmltcyA9IFJBTkRPTV9JRExFX0FOSU1BVElPTlMuZmlsdGVyIHsgYW5pbU5hbWVzLmNvbnRhaW5zKGl0KSB9CiAgICAgICAgICAgIGlmIChhdmFpbGFibGVBbmltcy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgZGVsYXkoUmFuZG9tLm5leHRMb25nKDIwMDAsIDgwMDApKQogICAgICAgICAgICAgICAgICAgIHZhbCByYW5kb21BbmltID0gYXZhaWxhYmxlQW5pbXMucmFuZG9tKCkKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJBbmltYXRpb24gZWZmZWN0OiBQbGF5aW5nIHJhbmRvbSBhbmltYXRpb24gJyRyYW5kb21BbmltJy4iKQogICAgICAgICAgICAgICAgICAgIGNvbnRyb2xsZXIuZmFkZUluQW5pbWF0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICByYW5kb21BbmltLAogICAgICAgICAgICAgICAgICAgICAgICBsYXllciA9IFJBTkRPTV9BTklNQVRJT05fTEFZRVIsCiAgICAgICAgICAgICAgICAgICAgICAgIGxvb3AgPSAxCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBHZXN0dXJlIGhhbmRsZXIgZm9yIElLCiAgICAgICAgdmFsIGdlc3R1cmVNb2RpZmllciA9IGlmIChlbmFibGVHZXN0dXJlcykgewogICAgICAgICAgICBNb2RpZmllci5wb2ludGVySW5wdXQoYW5pbWF0aW9uTG9naWNLZXkpIHsKICAgICAgICAgICAgICAgIGRldGVjdERyYWdHZXN0dXJlcygKICAgICAgICAgICAgICAgICAgICBvbkRyYWdTdGFydCA9IHsgb2Zmc2V0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250cm9sbGVyLm92ZXJyaWRlQm9uZVBvc2l0aW9uKElLX1RBUkdFVF9CT05FX05BTUUsIG9mZnNldC54LCBvZmZzZXQueSkKICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7IC8qIEJvbmUgbWlnaHQgbm90IGV4aXN0LCBpZ25vcmUgKi8gfQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgb25EcmFnID0geyBjaGFuZ2UsIF8gLT4KICAgICAgICAgICAgICAgICAgICAgICAgY2hhbmdlLmNvbnN1bWUoKQogICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udHJvbGxlci5vdmVycmlkZUJvbmVQb3NpdGlvbihJS19UQVJHRVRfQk9ORV9OQU1FLCBjaGFuZ2UucG9zaXRpb24ueCwgY2hhbmdlLnBvc2l0aW9uLnkpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgeyAvKiBCb25lIG1pZ2h0IG5vdCBleGlzdCwgaWdub3JlICovIH0KICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIG9uRHJhZ0VuZCA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRyb2xsZXIucmVzZXRCb25lKElLX1RBUkdFVF9CT05FX05BTUUpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgeyAvKiBCb25lIG1pZ2h0IG5vdCBleGlzdCwgaWdub3JlICovIH0KICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIG9uRHJhZ0NhbmNlbCA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRyb2xsZXIucmVzZXRCb25lKElLX1RBUkdFVF9CT05FX05BTUUpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgeyAvKiBCb25lIG1pZ2h0IG5vdCBleGlzdCwgaWdub3JlICovIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBNb2RpZmllcgogICAgICAgIH0KCiAgICAgICAgRHJhZ29uQm9uZXNWaWV3Q29tcG9zZSgKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4U2l6ZSgpLnRoZW4oZ2VzdHVyZU1vZGlmaWVyKSwKICAgICAgICAgICAgbW9kZWwgPSBtb2RlbCwKICAgICAgICAgICAgY29udHJvbGxlciA9IGNvbnRyb2xsZXIsCiAgICAgICAgICAgIHpPcmRlck9uVG9wID0gek9yZGVyT25Ub3AsCiAgICAgICAgICAgIG9uRXJyb3IgPSBvbkVycm9yCiAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.components
+
+import com.bslsjdk.operit.util.AppLogger
+import androidx.compose.foundation.gestures.detectDragGestures
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.input.pointer.pointerInput
+import com.dragonbones.DragonBonesController
+import com.dragonbones.DragonBonesModel
+import com.dragonbones.DragonBonesViewCompose
+import kotlin.random.Random
+import kotlinx.coroutines.delay
+
+private const val TAG = "ManagedDBView"
+
+// --- Animation Names ---
+// Common animations applicable to all model types
+const val IDLE_ANIMATION_NAME = "idle"
+
+// Common random animations for idle state
+val RANDOM_IDLE_ANIMATIONS = listOf("blink", "shake_head", "wag_tail")
+
+
+// --- Animation Layers ---
+private const val BASE_ANIMATION_LAYER = 0
+private const val WALK_ANIMATION_LAYER = 5
+private const val RANDOM_ANIMATION_LAYER = 10
+
+// Restored IK bone name
+const val IK_TARGET_BONE_NAME = "ik_target"
+
+/**
+ * A unified, managed wrapper for [DragonBonesViewCompose] that handles a simple, robust layering
+ * system for animations. It plays a base 'idle' animation and periodically plays random
+ * animations on a higher layer. It also supports IK bone targeting via gestures.
+ *
+ * @param model The [DragonBonesModel] to be displayed.
+ * @param controller The [DragonBonesController] to interact with the view.
+ * @param modifier The modifier to be applied to the component.
+ * @param enableGestures A boolean indicating whether to enable IK gestures.
+ * @param zOrderOnTop Whether the surface view is placed on top of its window.
+ * @param onError A callback for when an error occurs during loading or playback.
+ */
+@Composable
+fun ManagedDragonBonesView(
+    model: DragonBonesModel,
+    controller: DragonBonesController,
+    modifier: Modifier = Modifier,
+    enableGestures: Boolean = true,
+    zOrderOnTop: Boolean = true,
+    onError: (String) -> Unit
+) {
+    Box(modifier = modifier) {
+        val animationLogicKey = remember(model) { Any() }
+        AppLogger.d(TAG, "Recomposition. Model: ${model.skeletonPath}, Key: $animationLogicKey")
+
+        // Setup base and random animations on their respective layers
+        LaunchedEffect(animationLogicKey, controller.animationNames) {
+            val animNames = controller.animationNames
+            AppLogger.d(TAG, "Animation effect triggered. Key: $animationLogicKey, Names count: ${animNames.size}, Names: ${animNames.joinToString(",")}")
+
+            if (animNames.isEmpty()) {
+                AppLogger.d(TAG, "Animation effect: No animations available. Returning.")
+                return@LaunchedEffect
+            }
+
+            // Start the base idle animation on the base layer, infinitely looping.
+            if (animNames.contains(IDLE_ANIMATION_NAME)) {
+                AppLogger.d(TAG, "Animation effect: Playing '$IDLE_ANIMATION_NAME'.")
+                controller.fadeInAnimation(
+                    IDLE_ANIMATION_NAME,
+                    layer = BASE_ANIMATION_LAYER,
+                    loop = 0
+                )
+            }
+
+            // Play random animations on the top layer.
+            val availableAnims = RANDOM_IDLE_ANIMATIONS.filter { animNames.contains(it) }
+            if (availableAnims.isNotEmpty()) {
+                while (true) {
+                    delay(Random.nextLong(2000, 8000))
+                    val randomAnim = availableAnims.random()
+                    AppLogger.d(TAG, "Animation effect: Playing random animation '$randomAnim'.")
+                    controller.fadeInAnimation(
+                        randomAnim,
+                        layer = RANDOM_ANIMATION_LAYER,
+                        loop = 1
+                    )
+                }
+            }
+        }
+
+        // Gesture handler for IK
+        val gestureModifier = if (enableGestures) {
+            Modifier.pointerInput(animationLogicKey) {
+                detectDragGestures(
+                    onDragStart = { offset ->
+                        try {
+                            controller.overrideBonePosition(IK_TARGET_BONE_NAME, offset.x, offset.y)
+                        } catch (e: Exception) { /* Bone might not exist, ignore */ }
+                    },
+                    onDrag = { change, _ ->
+                        change.consume()
+                        try {
+                            controller.overrideBonePosition(IK_TARGET_BONE_NAME, change.position.x, change.position.y)
+                        } catch (e: Exception) { /* Bone might not exist, ignore */ }
+                    },
+                    onDragEnd = {
+                        try {
+                            controller.resetBone(IK_TARGET_BONE_NAME)
+                        } catch (e: Exception) { /* Bone might not exist, ignore */ }
+                    },
+                    onDragCancel = {
+                        try {
+                            controller.resetBone(IK_TARGET_BONE_NAME)
+                        } catch (e: Exception) { /* Bone might not exist, ignore */ }
+                    }
+                )
+            }
+        } else {
+            Modifier
+        }
+
+        DragonBonesViewCompose(
+            modifier = Modifier.fillMaxSize().then(gestureModifier),
+            model = model,
+            controller = controller,
+            zOrderOnTop = zOrderOnTop,
+            onError = onError
+        )
+    }
+}

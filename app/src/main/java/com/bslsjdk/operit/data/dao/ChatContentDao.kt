@@ -1,1 +1,471 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5kYW8KCmltcG9ydCBhbmRyb2lkeC5yb29tLkRhbwppbXBvcnQgYW5kcm9pZHgucm9vbS5FbWJlZGRlZAppbXBvcnQgYW5kcm9pZHgucm9vbS5RdWVyeQppbXBvcnQgYW5kcm9pZHgucm9vbS5UcmFuc2FjdGlvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTWVzc2FnZUVudGl0eQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTWVzc2FnZVZhcmlhbnRFbnRpdHkKCi8vIFNRTGl0ZSBMRU5HVEgvU1VCU1RSIGNvdW50IGNoYXJhY3RlcnMsIGFuZCB0aGlzIGJvdW5kIGtlZXBzIGV2ZXJ5IHJldHVybmVkIHRleHQgcm93IHdlbGwgYmVsb3cgQ3Vyc29yV2luZG93IHNpemUuCnByaXZhdGUgY29uc3QgdmFsIENPTlRFTlRfQ0hVTktfQ0hBUkFDVEVSX0NPVU5UID0gNjVfNTM2Cgpwcml2YXRlIGNvbnN0IHZhbCBNRVNTQUdFX0NPTlRFTlRfUk9XX1FVRVJZID0KICAgICIiIgogICAgU0VMRUNUCiAgICAgICAgbWVzc2FnZUlkLAogICAgICAgIGNoYXRJZCwKICAgICAgICBzZW5kZXIsCiAgICAgICAgU1VCU1RSKGNvbnRlbnQsIDEsICRDT05URU5UX0NIVU5LX0NIQVJBQ1RFUl9DT1VOVCkgQVMgY29udGVudCwKICAgICAgICB0aW1lc3RhbXAsCiAgICAgICAgb3JkZXJJbmRleCwKICAgICAgICByb2xlTmFtZSwKICAgICAgICBzZWxlY3RlZFZhcmlhbnRJbmRleCwKICAgICAgICBwcm92aWRlciwKICAgICAgICBtb2RlbE5hbWUsCiAgICAgICAgaW5wdXRUb2tlbnMsCiAgICAgICAgb3V0cHV0VG9rZW5zLAogICAgICAgIGNhY2hlZElucHV0VG9rZW5zLAogICAgICAgIHNlbnRBdCwKICAgICAgICBvdXRwdXREdXJhdGlvbk1zLAogICAgICAgIHdhaXREdXJhdGlvbk1zLAogICAgICAgIGNvbXBsZXRlZEF0LAogICAgICAgIGRpc3BsYXlNb2RlLAogICAgICAgIGlzRmF2b3JpdGUsCiAgICAgICAgTEVOR1RIKGNvbnRlbnQpIEFTIGNvbnRlbnRDaGFyYWN0ZXJDb3VudAogICAgRlJPTSBtZXNzYWdlcwogICAgIiIiCgpwcml2YXRlIGNvbnN0IHZhbCBNRVNTQUdFX1ZBUklBTlRfQ09OVEVOVF9ST1dfUVVFUlkgPQogICAgIiIiCiAgICBTRUxFQ1QKICAgICAgICB2YXJpYW50SWQsCiAgICAgICAgY2hhdElkLAogICAgICAgIG1lc3NhZ2VUaW1lc3RhbXAsCiAgICAgICAgdmFyaWFudEluZGV4LAogICAgICAgIFNVQlNUUihjb250ZW50LCAxLCAkQ09OVEVOVF9DSFVOS19DSEFSQUNURVJfQ09VTlQpIEFTIGNvbnRlbnQsCiAgICAgICAgcm9sZU5hbWUsCiAgICAgICAgcHJvdmlkZXIsCiAgICAgICAgbW9kZWxOYW1lLAogICAgICAgIGlucHV0VG9rZW5zLAogICAgICAgIG91dHB1dFRva2VucywKICAgICAgICBjYWNoZWRJbnB1dFRva2VucywKICAgICAgICBzZW50QXQsCiAgICAgICAgb3V0cHV0RHVyYXRpb25NcywKICAgICAgICB3YWl0RHVyYXRpb25NcywKICAgICAgICBjb21wbGV0ZWRBdCwKICAgICAgICBMRU5HVEgoY29udGVudCkgQVMgY29udGVudENoYXJhY3RlckNvdW50CiAgICBGUk9NIG1lc3NhZ2VfdmFyaWFudHMKICAgICIiIgoKZGF0YSBjbGFzcyBNZXNzYWdlQ29udGVudFJvdygKICAgIEBFbWJlZGRlZCB2YWwgbWVzc2FnZTogTWVzc2FnZUVudGl0eSwKICAgIHZhbCBjb250ZW50Q2hhcmFjdGVyQ291bnQ6IExvbmcsCikKCmRhdGEgY2xhc3MgTWVzc2FnZVZhcmlhbnRDb250ZW50Um93KAogICAgQEVtYmVkZGVkIHZhbCB2YXJpYW50OiBNZXNzYWdlVmFyaWFudEVudGl0eSwKICAgIHZhbCBjb250ZW50Q2hhcmFjdGVyQ291bnQ6IExvbmcsCikKCmRhdGEgY2xhc3MgQ2hhdENvbnRlbnRDaGFyYWN0ZXJDb3VudCgKICAgIHZhbCBjaGF0SWQ6IFN0cmluZywKICAgIHZhbCBjb250ZW50Q2hhcmFjdGVyQ291bnQ6IExvbmcsCikKCi8qKiBSZWFkcyBtZXNzYWdlIHRleHQgaW4gYm91bmRlZCByb3dzIHNvIGEgc2luZ2xlIGxhcmdlIG1lc3NhZ2UgY2Fubm90IG92ZXJmbG93IEN1cnNvcldpbmRvdy4gKi8KQERhbwphYnN0cmFjdCBjbGFzcyBDaGF0Q29udGVudERhbyB7CiAgICBAUXVlcnkoTUVTU0FHRV9DT05URU5UX1JPV19RVUVSWSArICIgV0hFUkUgY2hhdElkID0gOmNoYXRJZCBPUkRFUiBCWSB0aW1lc3RhbXAgQVNDIikKICAgIHByb3RlY3RlZCBhYnN0cmFjdCBzdXNwZW5kIGZ1biBxdWVyeU1lc3NhZ2VzRm9yQ2hhdChjaGF0SWQ6IFN0cmluZyk6IExpc3Q8TWVzc2FnZUNvbnRlbnRSb3c+CgogICAgQFF1ZXJ5KAogICAgICAgIE1FU1NBR0VfQ09OVEVOVF9ST1dfUVVFUlkgKwogICAgICAgICAgICAiIFdIRVJFIGNoYXRJZCA9IDpjaGF0SWQgQU5EIHRpbWVzdGFtcCA+PSA6c3RhcnRUaW1lc3RhbXBJbmNsdXNpdmUgT1JERVIgQlkgdGltZXN0YW1wIEFTQyIKICAgICkKICAgIHByb3RlY3RlZCBhYnN0cmFjdCBzdXNwZW5kIGZ1biBxdWVyeU1lc3NhZ2VzRm9yQ2hhdEZyb21UaW1lc3RhbXBBc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgc3RhcnRUaW1lc3RhbXBJbmNsdXNpdmU6IExvbmcsCiAgICApOiBMaXN0PE1lc3NhZ2VDb250ZW50Um93PgoKICAgIEBRdWVyeSgKICAgICAgICBNRVNTQUdFX0NPTlRFTlRfUk9XX1FVRVJZICsKICAgICAgICAgICAgIiBXSEVSRSBjaGF0SWQgPSA6Y2hhdElkIEFORCB0aW1lc3RhbXAgPj0gOnN0YXJ0VGltZXN0YW1wSW5jbHVzaXZlIiArCiAgICAgICAgICAgICIgQU5EIHRpbWVzdGFtcCA8PSA6ZW5kVGltZXN0YW1wSW5jbHVzaXZlIE9SREVSIEJZIHRpbWVzdGFtcCBBU0MiCiAgICApCiAgICBwcm90ZWN0ZWQgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gcXVlcnlNZXNzYWdlc0ZvckNoYXRXaW5kb3dBc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgc3RhcnRUaW1lc3RhbXBJbmNsdXNpdmU6IExvbmcsCiAgICAgICAgZW5kVGltZXN0YW1wSW5jbHVzaXZlOiBMb25nLAogICAgKTogTGlzdDxNZXNzYWdlQ29udGVudFJvdz4KCiAgICBAUXVlcnkoTUVTU0FHRV9DT05URU5UX1JPV19RVUVSWSArICIgV0hFUkUgY2hhdElkID0gOmNoYXRJZCBPUkRFUiBCWSB0aW1lc3RhbXAgQVNDIExJTUlUIDpsaW1pdCIpCiAgICBwcm90ZWN0ZWQgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gcXVlcnlNZXNzYWdlc0ZvckNoYXRBc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgbGltaXQ6IEludCwKICAgICk6IExpc3Q8TWVzc2FnZUNvbnRlbnRSb3c+CgogICAgQFF1ZXJ5KE1FU1NBR0VfQ09OVEVOVF9ST1dfUVVFUlkgKyAiIFdIRVJFIGNoYXRJZCA9IDpjaGF0SWQgT1JERVIgQlkgdGltZXN0YW1wIERFU0MgTElNSVQgOmxpbWl0IikKICAgIHByb3RlY3RlZCBhYnN0cmFjdCBzdXNwZW5kIGZ1biBxdWVyeU1lc3NhZ2VzRm9yQ2hhdERlc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgbGltaXQ6IEludCwKICAgICk6IExpc3Q8TWVzc2FnZUNvbnRlbnRSb3c+CgogICAgQFF1ZXJ5KAogICAgICAgIE1FU1NBR0VfQ09OVEVOVF9ST1dfUVVFUlkgKwogICAgICAgICAgICAiIFdIRVJFIGNoYXRJZCA9IDpjaGF0SWQgT1JERVIgQlkgdGltZXN0YW1wIEFTQyBMSU1JVCA6bGltaXQgT0ZGU0VUIDpvZmZzZXQiCiAgICApCiAgICBwcm90ZWN0ZWQgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gcXVlcnlNZXNzYWdlc0ZvckNoYXRBc2NSYW5nZSgKICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICBvZmZzZXQ6IEludCwKICAgICAgICBsaW1pdDogSW50LAogICAgKTogTGlzdDxNZXNzYWdlQ29udGVudFJvdz4KCiAgICBAUXVlcnkoCiAgICAgICAgTUVTU0FHRV9DT05URU5UX1JPV19RVUVSWSArCiAgICAgICAgICAgICIgV0hFUkUgY2hhdElkID0gOmNoYXRJZCBPUkRFUiBCWSB0aW1lc3RhbXAgREVTQyBMSU1JVCA6bGltaXQgT0ZGU0VUIDpvZmZzZXQiCiAgICApCiAgICBwcm90ZWN0ZWQgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gcXVlcnlNZXNzYWdlc0ZvckNoYXREZXNjUmFuZ2UoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgb2Zmc2V0OiBJbnQsCiAgICAgICAgbGltaXQ6IEludCwKICAgICk6IExpc3Q8TWVzc2FnZUNvbnRlbnRSb3c+CgogICAgQFF1ZXJ5KAogICAgICAgIE1FU1NBR0VfQ09OVEVOVF9ST1dfUVVFUlkgKwogICAgICAgICAgICAiIFdIRVJFIGNoYXRJZCA9IDpjaGF0SWQgQU5EIHRpbWVzdGFtcCA+IDphZnRlclRpbWVzdGFtcEV4Y2x1c2l2ZSIgKwogICAgICAgICAgICAiIE9SREVSIEJZIHRpbWVzdGFtcCBBU0MgTElNSVQgOmxpbWl0IgogICAgKQogICAgcHJvdGVjdGVkIGFic3RyYWN0IHN1c3BlbmQgZnVuIHF1ZXJ5TWVzc2FnZXNGb3JDaGF0QWZ0ZXJUaW1lc3RhbXBFeGNsdXNpdmVBc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgYWZ0ZXJUaW1lc3RhbXBFeGNsdXNpdmU6IExvbmcsCiAgICAgICAgbGltaXQ6IEludCwKICAgICk6IExpc3Q8TWVzc2FnZUNvbnRlbnRSb3c+CgogICAgQFF1ZXJ5KAogICAgICAgIE1FU1NBR0VfQ09OVEVOVF9ST1dfUVVFUlkgKwogICAgICAgICAgICAiIFdIRVJFIGNoYXRJZCA9IDpjaGF0SWQiICsKICAgICAgICAgICAgIiBBTkQgKDphZnRlclRpbWVzdGFtcEV4Y2x1c2l2ZSBJUyBOVUxMIE9SIHRpbWVzdGFtcCA+IDphZnRlclRpbWVzdGFtcEV4Y2x1c2l2ZSkiICsKICAgICAgICAgICAgIiBBTkQgKDpiZWZvcmVUaW1lc3RhbXBFeGNsdXNpdmUgSVMgTlVMTCBPUiB0aW1lc3RhbXAgPCA6YmVmb3JlVGltZXN0YW1wRXhjbHVzaXZlKSIgKwogICAgICAgICAgICAiIEFORCAoOnVwVG9UaW1lc3RhbXBJbmNsdXNpdmUgSVMgTlVMTCBPUiB0aW1lc3RhbXAgPD0gOnVwVG9UaW1lc3RhbXBJbmNsdXNpdmUpIiArCiAgICAgICAgICAgICIgT1JERVIgQlkgdGltZXN0YW1wIEFTQyIKICAgICkKICAgIHByb3RlY3RlZCBhYnN0cmFjdCBzdXNwZW5kIGZ1biBxdWVyeU1lc3NhZ2VzRm9yQ2hhdEluUmFuZ2VBc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgYWZ0ZXJUaW1lc3RhbXBFeGNsdXNpdmU6IExvbmc/LAogICAgICAgIGJlZm9yZVRpbWVzdGFtcEV4Y2x1c2l2ZTogTG9uZz8sCiAgICAgICAgdXBUb1RpbWVzdGFtcEluY2x1c2l2ZTogTG9uZz8sCiAgICApOiBMaXN0PE1lc3NhZ2VDb250ZW50Um93PgoKICAgIEBRdWVyeSgKICAgICAgICBNRVNTQUdFX0NPTlRFTlRfUk9XX1FVRVJZICsKICAgICAgICAgICAgIiBXSEVSRSBjaGF0SWQgPSA6Y2hhdElkIEFORCB0aW1lc3RhbXAgPD0gOm1heFRpbWVzdGFtcCIgKwogICAgICAgICAgICAiIE9SREVSIEJZIHRpbWVzdGFtcCBERVNDIExJTUlUIDpsaW1pdCIKICAgICkKICAgIHByb3RlY3RlZCBhYnN0cmFjdCBzdXNwZW5kIGZ1biBxdWVyeU1lc3NhZ2VzRm9yQ2hhdEJlZm9yZVRpbWVzdGFtcERlc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgbWF4VGltZXN0YW1wOiBMb25nLAogICAgICAgIGxpbWl0OiBJbnQsCiAgICApOiBMaXN0PE1lc3NhZ2VDb250ZW50Um93PgoKICAgIEBRdWVyeSgKICAgICAgICBNRVNTQUdFX0NPTlRFTlRfUk9XX1FVRVJZICsKICAgICAgICAgICAgIiBXSEVSRSBjaGF0SWQgPSA6Y2hhdElkIEFORCB0aW1lc3RhbXAgPCA6YmVmb3JlVGltZXN0YW1wRXhjbHVzaXZlIiArCiAgICAgICAgICAgICIgT1JERVIgQlkgdGltZXN0YW1wIERFU0MgTElNSVQgOmxpbWl0IgogICAgKQogICAgcHJvdGVjdGVkIGFic3RyYWN0IHN1c3BlbmQgZnVuIHF1ZXJ5TWVzc2FnZXNGb3JDaGF0QmVmb3JlVGltZXN0YW1wRXhjbHVzaXZlRGVzYygKICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICBiZWZvcmVUaW1lc3RhbXBFeGNsdXNpdmU6IExvbmcsCiAgICAgICAgbGltaXQ6IEludCwKICAgICk6IExpc3Q8TWVzc2FnZUNvbnRlbnRSb3c+CgogICAgQFF1ZXJ5KAogICAgICAgIE1FU1NBR0VfQ09OVEVOVF9ST1dfUVVFUlkgKwogICAgICAgICAgICAiIFdIRVJFIGNoYXRJZCA9IDpjaGF0SWQgQU5EIHRpbWVzdGFtcCA9IDp0aW1lc3RhbXAgTElNSVQgMSIKICAgICkKICAgIHByb3RlY3RlZCBhYnN0cmFjdCBzdXNwZW5kIGZ1biBxdWVyeU1lc3NhZ2VCeVRpbWVzdGFtcCgKICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICB0aW1lc3RhbXA6IExvbmcsCiAgICApOiBNZXNzYWdlQ29udGVudFJvdz8KCiAgICBAUXVlcnkoCiAgICAgICAgIlNFTEVDVCBTVUJTVFIoY29udGVudCwgOnN0YXJ0Q2hhcmFjdGVyLCA6Y2hhcmFjdGVyQ291bnQpIiArCiAgICAgICAgICAgICIgRlJPTSBtZXNzYWdlcyBXSEVSRSBtZXNzYWdlSWQgPSA6bWVzc2FnZUlkIgogICAgKQogICAgcHJvdGVjdGVkIGFic3RyYWN0IHN1c3BlbmQgZnVuIHF1ZXJ5TWVzc2FnZUNvbnRlbnRDaHVuaygKICAgICAgICBtZXNzYWdlSWQ6IExvbmcsCiAgICAgICAgc3RhcnRDaGFyYWN0ZXI6IExvbmcsCiAgICAgICAgY2hhcmFjdGVyQ291bnQ6IEludCwKICAgICk6IFN0cmluZz8KCiAgICBAUXVlcnkoCiAgICAgICAgTUVTU0FHRV9WQVJJQU5UX0NPTlRFTlRfUk9XX1FVRVJZICsKICAgICAgICAgICAgIiBXSEVSRSBjaGF0SWQgPSA6Y2hhdElkIE9SREVSIEJZIG1lc3NhZ2VUaW1lc3RhbXAgQVNDLCB2YXJpYW50SW5kZXggQVNDIgogICAgKQogICAgcHJvdGVjdGVkIGFic3RyYWN0IHN1c3BlbmQgZnVuIHF1ZXJ5VmFyaWFudHNGb3JDaGF0KGNoYXRJZDogU3RyaW5nKTogTGlzdDxNZXNzYWdlVmFyaWFudENvbnRlbnRSb3c+CgogICAgQFF1ZXJ5KAogICAgICAgIE1FU1NBR0VfVkFSSUFOVF9DT05URU5UX1JPV19RVUVSWSArCiAgICAgICAgICAgICIgV0hFUkUgY2hhdElkID0gOmNoYXRJZCIgKwogICAgICAgICAgICAiIEFORCBtZXNzYWdlVGltZXN0YW1wID49IDptaW5UaW1lc3RhbXAiICsKICAgICAgICAgICAgIiBBTkQgbWVzc2FnZVRpbWVzdGFtcCA8PSA6bWF4VGltZXN0YW1wIiArCiAgICAgICAgICAgICIgT1JERVIgQlkgbWVzc2FnZVRpbWVzdGFtcCBBU0MsIHZhcmlhbnRJbmRleCBBU0MiCiAgICApCiAgICBwcm90ZWN0ZWQgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gcXVlcnlWYXJpYW50c0Zvck1lc3NhZ2VSYW5nZSgKICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICBtaW5UaW1lc3RhbXA6IExvbmcsCiAgICAgICAgbWF4VGltZXN0YW1wOiBMb25nLAogICAgKTogTGlzdDxNZXNzYWdlVmFyaWFudENvbnRlbnRSb3c+CgogICAgQFF1ZXJ5KAogICAgICAgIE1FU1NBR0VfVkFSSUFOVF9DT05URU5UX1JPV19RVUVSWSArCiAgICAgICAgICAgICIgV0hFUkUgY2hhdElkID0gOmNoYXRJZCBBTkQgbWVzc2FnZVRpbWVzdGFtcCA9IDptZXNzYWdlVGltZXN0YW1wIiArCiAgICAgICAgICAgICIgT1JERVIgQlkgdmFyaWFudEluZGV4IEFTQyIKICAgICkKICAgIHByb3RlY3RlZCBhYnN0cmFjdCBzdXNwZW5kIGZ1biBxdWVyeVZhcmlhbnRzRm9yTWVzc2FnZSgKICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICBtZXNzYWdlVGltZXN0YW1wOiBMb25nLAogICAgKTogTGlzdDxNZXNzYWdlVmFyaWFudENvbnRlbnRSb3c+CgogICAgQFF1ZXJ5KAogICAgICAgIE1FU1NBR0VfVkFSSUFOVF9DT05URU5UX1JPV19RVUVSWSArCiAgICAgICAgICAgICIgV0hFUkUgY2hhdElkID0gOmNoYXRJZCBBTkQgbWVzc2FnZVRpbWVzdGFtcCA9IDptZXNzYWdlVGltZXN0YW1wIiArCiAgICAgICAgICAgICIgQU5EIHZhcmlhbnRJbmRleCA9IDp2YXJpYW50SW5kZXggTElNSVQgMSIKICAgICkKICAgIHByb3RlY3RlZCBhYnN0cmFjdCBzdXNwZW5kIGZ1biBxdWVyeVZhcmlhbnRGb3JNZXNzYWdlKAogICAgICAgIGNoYXRJZDogU3RyaW5nLAogICAgICAgIG1lc3NhZ2VUaW1lc3RhbXA6IExvbmcsCiAgICAgICAgdmFyaWFudEluZGV4OiBJbnQsCiAgICApOiBNZXNzYWdlVmFyaWFudENvbnRlbnRSb3c/CgogICAgQFF1ZXJ5KAogICAgICAgICJTRUxFQ1QgU1VCU1RSKGNvbnRlbnQsIDpzdGFydENoYXJhY3RlciwgOmNoYXJhY3RlckNvdW50KSIgKwogICAgICAgICAgICAiIEZST00gbWVzc2FnZV92YXJpYW50cyBXSEVSRSB2YXJpYW50SWQgPSA6dmFyaWFudElkIgogICAgKQogICAgcHJvdGVjdGVkIGFic3RyYWN0IHN1c3BlbmQgZnVuIHF1ZXJ5TWVzc2FnZVZhcmlhbnRDb250ZW50Q2h1bmsoCiAgICAgICAgdmFyaWFudElkOiBMb25nLAogICAgICAgIHN0YXJ0Q2hhcmFjdGVyOiBMb25nLAogICAgICAgIGNoYXJhY3RlckNvdW50OiBJbnQsCiAgICApOiBTdHJpbmc/CgogICAgQFF1ZXJ5KAogICAgICAgICIiIgogICAgICAgIFNFTEVDVAogICAgICAgICAgICBjaGF0cy5pZCBBUyBjaGF0SWQsCiAgICAgICAgICAgIENPQUxFU0NFKAogICAgICAgICAgICAgICAgU1VNKAogICAgICAgICAgICAgICAgICAgIENBU0UKICAgICAgICAgICAgICAgICAgICAgICAgV0hFTiBtZXNzYWdlcy5zZWxlY3RlZFZhcmlhbnRJbmRleCA9IDAgVEhFTiBMRU5HVEgobWVzc2FnZXMuY29udGVudCkKICAgICAgICAgICAgICAgICAgICAgICAgRUxTRSBMRU5HVEgoc2VsZWN0ZWRWYXJpYW50LmNvbnRlbnQpCiAgICAgICAgICAgICAgICAgICAgRU5ECiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgMAogICAgICAgICAgICApIEFTIGNvbnRlbnRDaGFyYWN0ZXJDb3VudAogICAgICAgIEZST00gY2hhdHMKICAgICAgICBMRUZUIEpPSU4gbWVzc2FnZXMKICAgICAgICAgICAgT04gbWVzc2FnZXMuY2hhdElkID0gY2hhdHMuaWQKICAgICAgICBMRUZUIEpPSU4gbWVzc2FnZV92YXJpYW50cyBBUyBzZWxlY3RlZFZhcmlhbnQKICAgICAgICAgICAgT04gc2VsZWN0ZWRWYXJpYW50LmNoYXRJZCA9IG1lc3NhZ2VzLmNoYXRJZAogICAgICAgICAgICBBTkQgc2VsZWN0ZWRWYXJpYW50Lm1lc3NhZ2VUaW1lc3RhbXAgPSBtZXNzYWdlcy50aW1lc3RhbXAKICAgICAgICAgICAgQU5EIHNlbGVjdGVkVmFyaWFudC52YXJpYW50SW5kZXggPSBtZXNzYWdlcy5zZWxlY3RlZFZhcmlhbnRJbmRleAogICAgICAgIEdST1VQIEJZIGNoYXRzLmlkCiAgICAgICAgIiIiCiAgICApCiAgICBhYnN0cmFjdCBzdXNwZW5kIGZ1biBnZXRTZWxlY3RlZENvbnRlbnRDaGFyYWN0ZXJDb3VudHNCeUNoYXQoKTogTGlzdDxDaGF0Q29udGVudENoYXJhY3RlckNvdW50PgoKICAgIEBUcmFuc2FjdGlvbgogICAgb3BlbiBzdXNwZW5kIGZ1biBnZXRNZXNzYWdlc0ZvckNoYXQoY2hhdElkOiBTdHJpbmcpOiBMaXN0PE1lc3NhZ2VFbnRpdHk+ID0KICAgICAgICBtYXRlcmlhbGl6ZU1lc3NhZ2VzKHF1ZXJ5TWVzc2FnZXNGb3JDaGF0KGNoYXRJZCkpCgogICAgQFRyYW5zYWN0aW9uCiAgICBvcGVuIHN1c3BlbmQgZnVuIGdldE1lc3NhZ2VzRm9yQ2hhdEZyb21UaW1lc3RhbXBBc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgc3RhcnRUaW1lc3RhbXBJbmNsdXNpdmU6IExvbmcsCiAgICApOiBMaXN0PE1lc3NhZ2VFbnRpdHk+ID0KICAgICAgICBtYXRlcmlhbGl6ZU1lc3NhZ2VzKHF1ZXJ5TWVzc2FnZXNGb3JDaGF0RnJvbVRpbWVzdGFtcEFzYyhjaGF0SWQsIHN0YXJ0VGltZXN0YW1wSW5jbHVzaXZlKSkKCiAgICBAVHJhbnNhY3Rpb24KICAgIG9wZW4gc3VzcGVuZCBmdW4gZ2V0TWVzc2FnZXNGb3JDaGF0V2luZG93QXNjKAogICAgICAgIGNoYXRJZDogU3RyaW5nLAogICAgICAgIHN0YXJ0VGltZXN0YW1wSW5jbHVzaXZlOiBMb25nLAogICAgICAgIGVuZFRpbWVzdGFtcEluY2x1c2l2ZTogTG9uZywKICAgICk6IExpc3Q8TWVzc2FnZUVudGl0eT4gPQogICAgICAgIG1hdGVyaWFsaXplTWVzc2FnZXMoCiAgICAgICAgICAgIHF1ZXJ5TWVzc2FnZXNGb3JDaGF0V2luZG93QXNjKGNoYXRJZCwgc3RhcnRUaW1lc3RhbXBJbmNsdXNpdmUsIGVuZFRpbWVzdGFtcEluY2x1c2l2ZSkKICAgICAgICApCgogICAgQFRyYW5zYWN0aW9uCiAgICBvcGVuIHN1c3BlbmQgZnVuIGdldE1lc3NhZ2VzRm9yQ2hhdEFzYyhjaGF0SWQ6IFN0cmluZywgbGltaXQ6IEludCk6IExpc3Q8TWVzc2FnZUVudGl0eT4gPQogICAgICAgIG1hdGVyaWFsaXplTWVzc2FnZXMocXVlcnlNZXNzYWdlc0ZvckNoYXRBc2MoY2hhdElkLCBsaW1pdCkpCgogICAgQFRyYW5zYWN0aW9uCiAgICBvcGVuIHN1c3BlbmQgZnVuIGdldE1lc3NhZ2VzRm9yQ2hhdERlc2MoY2hhdElkOiBTdHJpbmcsIGxpbWl0OiBJbnQpOiBMaXN0PE1lc3NhZ2VFbnRpdHk+ID0KICAgICAgICBtYXRlcmlhbGl6ZU1lc3NhZ2VzKHF1ZXJ5TWVzc2FnZXNGb3JDaGF0RGVzYyhjaGF0SWQsIGxpbWl0KSkKCiAgICBAVHJhbnNhY3Rpb24KICAgIG9wZW4gc3VzcGVuZCBmdW4gZ2V0TWVzc2FnZXNGb3JDaGF0QXNjUmFuZ2UoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgb2Zmc2V0OiBJbnQsCiAgICAgICAgbGltaXQ6IEludCwKICAgICk6IExpc3Q8TWVzc2FnZUVudGl0eT4gPSBtYXRlcmlhbGl6ZU1lc3NhZ2VzKHF1ZXJ5TWVzc2FnZXNGb3JDaGF0QXNjUmFuZ2UoY2hhdElkLCBvZmZzZXQsIGxpbWl0KSkKCiAgICBAVHJhbnNhY3Rpb24KICAgIG9wZW4gc3VzcGVuZCBmdW4gZ2V0TWVzc2FnZXNGb3JDaGF0RGVzY1JhbmdlKAogICAgICAgIGNoYXRJZDogU3RyaW5nLAogICAgICAgIG9mZnNldDogSW50LAogICAgICAgIGxpbWl0OiBJbnQsCiAgICApOiBMaXN0PE1lc3NhZ2VFbnRpdHk+ID0gbWF0ZXJpYWxpemVNZXNzYWdlcyhxdWVyeU1lc3NhZ2VzRm9yQ2hhdERlc2NSYW5nZShjaGF0SWQsIG9mZnNldCwgbGltaXQpKQoKICAgIEBUcmFuc2FjdGlvbgogICAgb3BlbiBzdXNwZW5kIGZ1biBnZXRNZXNzYWdlc0ZvckNoYXRBZnRlclRpbWVzdGFtcEV4Y2x1c2l2ZUFzYygKICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICBhZnRlclRpbWVzdGFtcEV4Y2x1c2l2ZTogTG9uZywKICAgICAgICBsaW1pdDogSW50LAogICAgKTogTGlzdDxNZXNzYWdlRW50aXR5PiA9CiAgICAgICAgbWF0ZXJpYWxpemVNZXNzYWdlcygKICAgICAgICAgICAgcXVlcnlNZXNzYWdlc0ZvckNoYXRBZnRlclRpbWVzdGFtcEV4Y2x1c2l2ZUFzYyhjaGF0SWQsIGFmdGVyVGltZXN0YW1wRXhjbHVzaXZlLCBsaW1pdCkKICAgICAgICApCgogICAgQFRyYW5zYWN0aW9uCiAgICBvcGVuIHN1c3BlbmQgZnVuIGdldE1lc3NhZ2VzRm9yQ2hhdEluUmFuZ2VBc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgYWZ0ZXJUaW1lc3RhbXBFeGNsdXNpdmU6IExvbmc/LAogICAgICAgIGJlZm9yZVRpbWVzdGFtcEV4Y2x1c2l2ZTogTG9uZz8sCiAgICAgICAgdXBUb1RpbWVzdGFtcEluY2x1c2l2ZTogTG9uZz8sCiAgICApOiBMaXN0PE1lc3NhZ2VFbnRpdHk+ID0KICAgICAgICBtYXRlcmlhbGl6ZU1lc3NhZ2VzKAogICAgICAgICAgICBxdWVyeU1lc3NhZ2VzRm9yQ2hhdEluUmFuZ2VBc2MoCiAgICAgICAgICAgICAgICBjaGF0SWQsCiAgICAgICAgICAgICAgICBhZnRlclRpbWVzdGFtcEV4Y2x1c2l2ZSwKICAgICAgICAgICAgICAgIGJlZm9yZVRpbWVzdGFtcEV4Y2x1c2l2ZSwKICAgICAgICAgICAgICAgIHVwVG9UaW1lc3RhbXBJbmNsdXNpdmUsCiAgICAgICAgICAgICkKICAgICAgICApCgogICAgQFRyYW5zYWN0aW9uCiAgICBvcGVuIHN1c3BlbmQgZnVuIGdldE1lc3NhZ2VzRm9yQ2hhdEJlZm9yZVRpbWVzdGFtcERlc2MoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgbWF4VGltZXN0YW1wOiBMb25nLAogICAgICAgIGxpbWl0OiBJbnQsCiAgICApOiBMaXN0PE1lc3NhZ2VFbnRpdHk+ID0KICAgICAgICBtYXRlcmlhbGl6ZU1lc3NhZ2VzKHF1ZXJ5TWVzc2FnZXNGb3JDaGF0QmVmb3JlVGltZXN0YW1wRGVzYyhjaGF0SWQsIG1heFRpbWVzdGFtcCwgbGltaXQpKQoKICAgIEBUcmFuc2FjdGlvbgogICAgb3BlbiBzdXNwZW5kIGZ1biBnZXRNZXNzYWdlc0ZvckNoYXRCZWZvcmVUaW1lc3RhbXBFeGNsdXNpdmVEZXNjKAogICAgICAgIGNoYXRJZDogU3RyaW5nLAogICAgICAgIGJlZm9yZVRpbWVzdGFtcEV4Y2x1c2l2ZTogTG9uZywKICAgICAgICBsaW1pdDogSW50LAogICAgKTogTGlzdDxNZXNzYWdlRW50aXR5PiA9CiAgICAgICAgbWF0ZXJpYWxpemVNZXNzYWdlcygKICAgICAgICAgICAgcXVlcnlNZXNzYWdlc0ZvckNoYXRCZWZvcmVUaW1lc3RhbXBFeGNsdXNpdmVEZXNjKGNoYXRJZCwgYmVmb3JlVGltZXN0YW1wRXhjbHVzaXZlLCBsaW1pdCkKICAgICAgICApCgogICAgQFRyYW5zYWN0aW9uCiAgICBvcGVuIHN1c3BlbmQgZnVuIGdldE1lc3NhZ2VCeVRpbWVzdGFtcChjaGF0SWQ6IFN0cmluZywgdGltZXN0YW1wOiBMb25nKTogTWVzc2FnZUVudGl0eT8gPQogICAgICAgIHF1ZXJ5TWVzc2FnZUJ5VGltZXN0YW1wKGNoYXRJZCwgdGltZXN0YW1wKT8ubGV0IHsgbWF0ZXJpYWxpemVNZXNzYWdlKGl0KSB9CgogICAgQFRyYW5zYWN0aW9uCiAgICBvcGVuIHN1c3BlbmQgZnVuIGdldFZhcmlhbnRzRm9yQ2hhdChjaGF0SWQ6IFN0cmluZyk6IExpc3Q8TWVzc2FnZVZhcmlhbnRFbnRpdHk+ID0KICAgICAgICBtYXRlcmlhbGl6ZVZhcmlhbnRzKHF1ZXJ5VmFyaWFudHNGb3JDaGF0KGNoYXRJZCkpCgogICAgQFRyYW5zYWN0aW9uCiAgICBvcGVuIHN1c3BlbmQgZnVuIGdldFZhcmlhbnRzRm9yTWVzc2FnZXMoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgbWVzc2FnZVRpbWVzdGFtcHM6IExpc3Q8TG9uZz4sCiAgICApOiBMaXN0PE1lc3NhZ2VWYXJpYW50RW50aXR5PiB7CiAgICAgICAgaWYgKG1lc3NhZ2VUaW1lc3RhbXBzLmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gZW1wdHlMaXN0KCkKICAgICAgICB9CgogICAgICAgIHZhbCByZXF1ZXN0ZWRUaW1lc3RhbXBzID0gbWVzc2FnZVRpbWVzdGFtcHMudG9IYXNoU2V0KCkKICAgICAgICB2YWwgbWluVGltZXN0YW1wID0gbWVzc2FnZVRpbWVzdGFtcHMubWluT3JOdWxsKCkgPzogcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgdmFsIG1heFRpbWVzdGFtcCA9IG1lc3NhZ2VUaW1lc3RhbXBzLm1heE9yTnVsbCgpID86IHJldHVybiBlbXB0eUxpc3QoKQoKICAgICAgICAvLyBQcmVzZXJ2ZSBleGFjdCB0aW1lc3RhbXAtc2V0IHNlbWFudGljcyB3aGlsZSBhdm9pZGluZyBSb29tIGV4cGFuZGluZyBhIGxhcmdlIGxpc3QgaW50byBTUUxpdGUgYmluZCB2YXJpYWJsZXMuCiAgICAgICAgdmFsIHJvd3MgPQogICAgICAgICAgICBxdWVyeVZhcmlhbnRzRm9yTWVzc2FnZVJhbmdlKAogICAgICAgICAgICAgICAgY2hhdElkID0gY2hhdElkLAogICAgICAgICAgICAgICAgbWluVGltZXN0YW1wID0gbWluVGltZXN0YW1wLAogICAgICAgICAgICAgICAgbWF4VGltZXN0YW1wID0gbWF4VGltZXN0YW1wLAogICAgICAgICAgICApLmZpbHRlciB7IHJvdyAtPiByb3cudmFyaWFudC5tZXNzYWdlVGltZXN0YW1wIGluIHJlcXVlc3RlZFRpbWVzdGFtcHMgfQogICAgICAgIHJldHVybiBtYXRlcmlhbGl6ZVZhcmlhbnRzKHJvd3MpCiAgICB9CgogICAgQFRyYW5zYWN0aW9uCiAgICBvcGVuIHN1c3BlbmQgZnVuIGdldFZhcmlhbnRzRm9yTWVzc2FnZSgKICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICBtZXNzYWdlVGltZXN0YW1wOiBMb25nLAogICAgKTogTGlzdDxNZXNzYWdlVmFyaWFudEVudGl0eT4gPQogICAgICAgIG1hdGVyaWFsaXplVmFyaWFudHMocXVlcnlWYXJpYW50c0Zvck1lc3NhZ2UoY2hhdElkLCBtZXNzYWdlVGltZXN0YW1wKSkKCiAgICBAVHJhbnNhY3Rpb24KICAgIG9wZW4gc3VzcGVuZCBmdW4gZ2V0VmFyaWFudEZvck1lc3NhZ2UoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgbWVzc2FnZVRpbWVzdGFtcDogTG9uZywKICAgICAgICB2YXJpYW50SW5kZXg6IEludCwKICAgICk6IE1lc3NhZ2VWYXJpYW50RW50aXR5PyA9CiAgICAgICAgcXVlcnlWYXJpYW50Rm9yTWVzc2FnZShjaGF0SWQsIG1lc3NhZ2VUaW1lc3RhbXAsIHZhcmlhbnRJbmRleCk/LmxldCB7CiAgICAgICAgICAgIG1hdGVyaWFsaXplVmFyaWFudChpdCkKICAgICAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBtYXRlcmlhbGl6ZU1lc3NhZ2VzKHJvd3M6IExpc3Q8TWVzc2FnZUNvbnRlbnRSb3c+KTogTGlzdDxNZXNzYWdlRW50aXR5PiA9CiAgICAgICAgcm93cy5tYXAgeyBtYXRlcmlhbGl6ZU1lc3NhZ2UoaXQpIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIG1hdGVyaWFsaXplTWVzc2FnZShyb3c6IE1lc3NhZ2VDb250ZW50Um93KTogTWVzc2FnZUVudGl0eSB7CiAgICAgICAgaWYgKHJvdy5jb250ZW50Q2hhcmFjdGVyQ291bnQgPD0gQ09OVEVOVF9DSFVOS19DSEFSQUNURVJfQ09VTlQpIHsKICAgICAgICAgICAgcmV0dXJuIHJvdy5tZXNzYWdlCiAgICAgICAgfQoKICAgICAgICB2YWwgY29udGVudCA9IFN0cmluZ0J1aWxkZXIocm93Lm1lc3NhZ2UuY29udGVudCkKICAgICAgICB2YXIgc3RhcnRDaGFyYWN0ZXIgPSBDT05URU5UX0NIVU5LX0NIQVJBQ1RFUl9DT1VOVC50b0xvbmcoKSArIDFMCiAgICAgICAgd2hpbGUgKHN0YXJ0Q2hhcmFjdGVyIDw9IHJvdy5jb250ZW50Q2hhcmFjdGVyQ291bnQpIHsKICAgICAgICAgICAgdmFsIGNodW5rID0KICAgICAgICAgICAgICAgIGNoZWNrTm90TnVsbCgKICAgICAgICAgICAgICAgICAgICBxdWVyeU1lc3NhZ2VDb250ZW50Q2h1bmsoCiAgICAgICAgICAgICAgICAgICAgICAgIHJvdy5tZXNzYWdlLm1lc3NhZ2VJZCwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhcnRDaGFyYWN0ZXIsCiAgICAgICAgICAgICAgICAgICAgICAgIENPTlRFTlRfQ0hVTktfQ0hBUkFDVEVSX0NPVU5ULAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICJNZXNzYWdlIGRpc2FwcGVhcmVkIHdoaWxlIHJlYWRpbmcgY29udGVudDogbWVzc2FnZUlkPSR7cm93Lm1lc3NhZ2UubWVzc2FnZUlkfSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgY2hlY2soY2h1bmsuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAiTWVzc2FnZSBjb250ZW50IGVuZGVkIGJlZm9yZSBpdHMgcmVjb3JkZWQgbGVuZ3RoOiBtZXNzYWdlSWQ9JHtyb3cubWVzc2FnZS5tZXNzYWdlSWR9IgogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnRlbnQuYXBwZW5kKGNodW5rKQogICAgICAgICAgICBzdGFydENoYXJhY3RlciArPSBDT05URU5UX0NIVU5LX0NIQVJBQ1RFUl9DT1VOVAogICAgICAgIH0KICAgICAgICByZXR1cm4gcm93Lm1lc3NhZ2UuY29weShjb250ZW50ID0gY29udGVudC50b1N0cmluZygpKQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gbWF0ZXJpYWxpemVWYXJpYW50cygKICAgICAgICByb3dzOiBMaXN0PE1lc3NhZ2VWYXJpYW50Q29udGVudFJvdz4KICAgICk6IExpc3Q8TWVzc2FnZVZhcmlhbnRFbnRpdHk+ID0gcm93cy5tYXAgeyBtYXRlcmlhbGl6ZVZhcmlhbnQoaXQpIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIG1hdGVyaWFsaXplVmFyaWFudChyb3c6IE1lc3NhZ2VWYXJpYW50Q29udGVudFJvdyk6IE1lc3NhZ2VWYXJpYW50RW50aXR5IHsKICAgICAgICBpZiAocm93LmNvbnRlbnRDaGFyYWN0ZXJDb3VudCA8PSBDT05URU5UX0NIVU5LX0NIQVJBQ1RFUl9DT1VOVCkgewogICAgICAgICAgICByZXR1cm4gcm93LnZhcmlhbnQKICAgICAgICB9CgogICAgICAgIHZhbCBjb250ZW50ID0gU3RyaW5nQnVpbGRlcihyb3cudmFyaWFudC5jb250ZW50KQogICAgICAgIHZhciBzdGFydENoYXJhY3RlciA9IENPTlRFTlRfQ0hVTktfQ0hBUkFDVEVSX0NPVU5ULnRvTG9uZygpICsgMUwKICAgICAgICB3aGlsZSAoc3RhcnRDaGFyYWN0ZXIgPD0gcm93LmNvbnRlbnRDaGFyYWN0ZXJDb3VudCkgewogICAgICAgICAgICB2YWwgY2h1bmsgPQogICAgICAgICAgICAgICAgY2hlY2tOb3ROdWxsKAogICAgICAgICAgICAgICAgICAgIHF1ZXJ5TWVzc2FnZVZhcmlhbnRDb250ZW50Q2h1bmsoCiAgICAgICAgICAgICAgICAgICAgICAgIHJvdy52YXJpYW50LnZhcmlhbnRJZCwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhcnRDaGFyYWN0ZXIsCiAgICAgICAgICAgICAgICAgICAgICAgIENPTlRFTlRfQ0hVTktfQ0hBUkFDVEVSX0NPVU5ULAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICJNZXNzYWdlIHZhcmlhbnQgZGlzYXBwZWFyZWQgd2hpbGUgcmVhZGluZyBjb250ZW50OiB2YXJpYW50SWQ9JHtyb3cudmFyaWFudC52YXJpYW50SWR9IgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBjaGVjayhjaHVuay5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICJNZXNzYWdlIHZhcmlhbnQgY29udGVudCBlbmRlZCBiZWZvcmUgaXRzIHJlY29yZGVkIGxlbmd0aDogdmFyaWFudElkPSR7cm93LnZhcmlhbnQudmFyaWFudElkfSIKICAgICAgICAgICAgfQogICAgICAgICAgICBjb250ZW50LmFwcGVuZChjaHVuaykKICAgICAgICAgICAgc3RhcnRDaGFyYWN0ZXIgKz0gQ09OVEVOVF9DSFVOS19DSEFSQUNURVJfQ09VTlQKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHJvdy52YXJpYW50LmNvcHkoY29udGVudCA9IGNvbnRlbnQudG9TdHJpbmcoKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.dao
+
+import androidx.room.Dao
+import androidx.room.Embedded
+import androidx.room.Query
+import androidx.room.Transaction
+import com.bslsjdk.operit.data.model.MessageEntity
+import com.bslsjdk.operit.data.model.MessageVariantEntity
+
+// SQLite LENGTH/SUBSTR count characters, and this bound keeps every returned text row well below CursorWindow size.
+private const val CONTENT_CHUNK_CHARACTER_COUNT = 65_536
+
+private const val MESSAGE_CONTENT_ROW_QUERY =
+    """
+    SELECT
+        messageId,
+        chatId,
+        sender,
+        SUBSTR(content, 1, $CONTENT_CHUNK_CHARACTER_COUNT) AS content,
+        timestamp,
+        orderIndex,
+        roleName,
+        selectedVariantIndex,
+        provider,
+        modelName,
+        inputTokens,
+        outputTokens,
+        cachedInputTokens,
+        sentAt,
+        outputDurationMs,
+        waitDurationMs,
+        completedAt,
+        displayMode,
+        isFavorite,
+        LENGTH(content) AS contentCharacterCount
+    FROM messages
+    """
+
+private const val MESSAGE_VARIANT_CONTENT_ROW_QUERY =
+    """
+    SELECT
+        variantId,
+        chatId,
+        messageTimestamp,
+        variantIndex,
+        SUBSTR(content, 1, $CONTENT_CHUNK_CHARACTER_COUNT) AS content,
+        roleName,
+        provider,
+        modelName,
+        inputTokens,
+        outputTokens,
+        cachedInputTokens,
+        sentAt,
+        outputDurationMs,
+        waitDurationMs,
+        completedAt,
+        LENGTH(content) AS contentCharacterCount
+    FROM message_variants
+    """
+
+data class MessageContentRow(
+    @Embedded val message: MessageEntity,
+    val contentCharacterCount: Long,
+)
+
+data class MessageVariantContentRow(
+    @Embedded val variant: MessageVariantEntity,
+    val contentCharacterCount: Long,
+)
+
+data class ChatContentCharacterCount(
+    val chatId: String,
+    val contentCharacterCount: Long,
+)
+
+/** Reads message text in bounded rows so a single large message cannot overflow CursorWindow. */
+@Dao
+abstract class ChatContentDao {
+    @Query(MESSAGE_CONTENT_ROW_QUERY + " WHERE chatId = :chatId ORDER BY timestamp ASC")
+    protected abstract suspend fun queryMessagesForChat(chatId: String): List<MessageContentRow>
+
+    @Query(
+        MESSAGE_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId AND timestamp >= :startTimestampInclusive ORDER BY timestamp ASC"
+    )
+    protected abstract suspend fun queryMessagesForChatFromTimestampAsc(
+        chatId: String,
+        startTimestampInclusive: Long,
+    ): List<MessageContentRow>
+
+    @Query(
+        MESSAGE_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId AND timestamp >= :startTimestampInclusive" +
+            " AND timestamp <= :endTimestampInclusive ORDER BY timestamp ASC"
+    )
+    protected abstract suspend fun queryMessagesForChatWindowAsc(
+        chatId: String,
+        startTimestampInclusive: Long,
+        endTimestampInclusive: Long,
+    ): List<MessageContentRow>
+
+    @Query(MESSAGE_CONTENT_ROW_QUERY + " WHERE chatId = :chatId ORDER BY timestamp ASC LIMIT :limit")
+    protected abstract suspend fun queryMessagesForChatAsc(
+        chatId: String,
+        limit: Int,
+    ): List<MessageContentRow>
+
+    @Query(MESSAGE_CONTENT_ROW_QUERY + " WHERE chatId = :chatId ORDER BY timestamp DESC LIMIT :limit")
+    protected abstract suspend fun queryMessagesForChatDesc(
+        chatId: String,
+        limit: Int,
+    ): List<MessageContentRow>
+
+    @Query(
+        MESSAGE_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId ORDER BY timestamp ASC LIMIT :limit OFFSET :offset"
+    )
+    protected abstract suspend fun queryMessagesForChatAscRange(
+        chatId: String,
+        offset: Int,
+        limit: Int,
+    ): List<MessageContentRow>
+
+    @Query(
+        MESSAGE_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId ORDER BY timestamp DESC LIMIT :limit OFFSET :offset"
+    )
+    protected abstract suspend fun queryMessagesForChatDescRange(
+        chatId: String,
+        offset: Int,
+        limit: Int,
+    ): List<MessageContentRow>
+
+    @Query(
+        MESSAGE_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId AND timestamp > :afterTimestampExclusive" +
+            " ORDER BY timestamp ASC LIMIT :limit"
+    )
+    protected abstract suspend fun queryMessagesForChatAfterTimestampExclusiveAsc(
+        chatId: String,
+        afterTimestampExclusive: Long,
+        limit: Int,
+    ): List<MessageContentRow>
+
+    @Query(
+        MESSAGE_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId" +
+            " AND (:afterTimestampExclusive IS NULL OR timestamp > :afterTimestampExclusive)" +
+            " AND (:beforeTimestampExclusive IS NULL OR timestamp < :beforeTimestampExclusive)" +
+            " AND (:upToTimestampInclusive IS NULL OR timestamp <= :upToTimestampInclusive)" +
+            " ORDER BY timestamp ASC"
+    )
+    protected abstract suspend fun queryMessagesForChatInRangeAsc(
+        chatId: String,
+        afterTimestampExclusive: Long?,
+        beforeTimestampExclusive: Long?,
+        upToTimestampInclusive: Long?,
+    ): List<MessageContentRow>
+
+    @Query(
+        MESSAGE_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId AND timestamp <= :maxTimestamp" +
+            " ORDER BY timestamp DESC LIMIT :limit"
+    )
+    protected abstract suspend fun queryMessagesForChatBeforeTimestampDesc(
+        chatId: String,
+        maxTimestamp: Long,
+        limit: Int,
+    ): List<MessageContentRow>
+
+    @Query(
+        MESSAGE_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId AND timestamp < :beforeTimestampExclusive" +
+            " ORDER BY timestamp DESC LIMIT :limit"
+    )
+    protected abstract suspend fun queryMessagesForChatBeforeTimestampExclusiveDesc(
+        chatId: String,
+        beforeTimestampExclusive: Long,
+        limit: Int,
+    ): List<MessageContentRow>
+
+    @Query(
+        MESSAGE_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId AND timestamp = :timestamp LIMIT 1"
+    )
+    protected abstract suspend fun queryMessageByTimestamp(
+        chatId: String,
+        timestamp: Long,
+    ): MessageContentRow?
+
+    @Query(
+        "SELECT SUBSTR(content, :startCharacter, :characterCount)" +
+            " FROM messages WHERE messageId = :messageId"
+    )
+    protected abstract suspend fun queryMessageContentChunk(
+        messageId: Long,
+        startCharacter: Long,
+        characterCount: Int,
+    ): String?
+
+    @Query(
+        MESSAGE_VARIANT_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId ORDER BY messageTimestamp ASC, variantIndex ASC"
+    )
+    protected abstract suspend fun queryVariantsForChat(chatId: String): List<MessageVariantContentRow>
+
+    @Query(
+        MESSAGE_VARIANT_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId" +
+            " AND messageTimestamp >= :minTimestamp" +
+            " AND messageTimestamp <= :maxTimestamp" +
+            " ORDER BY messageTimestamp ASC, variantIndex ASC"
+    )
+    protected abstract suspend fun queryVariantsForMessageRange(
+        chatId: String,
+        minTimestamp: Long,
+        maxTimestamp: Long,
+    ): List<MessageVariantContentRow>
+
+    @Query(
+        MESSAGE_VARIANT_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId AND messageTimestamp = :messageTimestamp" +
+            " ORDER BY variantIndex ASC"
+    )
+    protected abstract suspend fun queryVariantsForMessage(
+        chatId: String,
+        messageTimestamp: Long,
+    ): List<MessageVariantContentRow>
+
+    @Query(
+        MESSAGE_VARIANT_CONTENT_ROW_QUERY +
+            " WHERE chatId = :chatId AND messageTimestamp = :messageTimestamp" +
+            " AND variantIndex = :variantIndex LIMIT 1"
+    )
+    protected abstract suspend fun queryVariantForMessage(
+        chatId: String,
+        messageTimestamp: Long,
+        variantIndex: Int,
+    ): MessageVariantContentRow?
+
+    @Query(
+        "SELECT SUBSTR(content, :startCharacter, :characterCount)" +
+            " FROM message_variants WHERE variantId = :variantId"
+    )
+    protected abstract suspend fun queryMessageVariantContentChunk(
+        variantId: Long,
+        startCharacter: Long,
+        characterCount: Int,
+    ): String?
+
+    @Query(
+        """
+        SELECT
+            chats.id AS chatId,
+            COALESCE(
+                SUM(
+                    CASE
+                        WHEN messages.selectedVariantIndex = 0 THEN LENGTH(messages.content)
+                        ELSE LENGTH(selectedVariant.content)
+                    END
+                ),
+                0
+            ) AS contentCharacterCount
+        FROM chats
+        LEFT JOIN messages
+            ON messages.chatId = chats.id
+        LEFT JOIN message_variants AS selectedVariant
+            ON selectedVariant.chatId = messages.chatId
+            AND selectedVariant.messageTimestamp = messages.timestamp
+            AND selectedVariant.variantIndex = messages.selectedVariantIndex
+        GROUP BY chats.id
+        """
+    )
+    abstract suspend fun getSelectedContentCharacterCountsByChat(): List<ChatContentCharacterCount>
+
+    @Transaction
+    open suspend fun getMessagesForChat(chatId: String): List<MessageEntity> =
+        materializeMessages(queryMessagesForChat(chatId))
+
+    @Transaction
+    open suspend fun getMessagesForChatFromTimestampAsc(
+        chatId: String,
+        startTimestampInclusive: Long,
+    ): List<MessageEntity> =
+        materializeMessages(queryMessagesForChatFromTimestampAsc(chatId, startTimestampInclusive))
+
+    @Transaction
+    open suspend fun getMessagesForChatWindowAsc(
+        chatId: String,
+        startTimestampInclusive: Long,
+        endTimestampInclusive: Long,
+    ): List<MessageEntity> =
+        materializeMessages(
+            queryMessagesForChatWindowAsc(chatId, startTimestampInclusive, endTimestampInclusive)
+        )
+
+    @Transaction
+    open suspend fun getMessagesForChatAsc(chatId: String, limit: Int): List<MessageEntity> =
+        materializeMessages(queryMessagesForChatAsc(chatId, limit))
+
+    @Transaction
+    open suspend fun getMessagesForChatDesc(chatId: String, limit: Int): List<MessageEntity> =
+        materializeMessages(queryMessagesForChatDesc(chatId, limit))
+
+    @Transaction
+    open suspend fun getMessagesForChatAscRange(
+        chatId: String,
+        offset: Int,
+        limit: Int,
+    ): List<MessageEntity> = materializeMessages(queryMessagesForChatAscRange(chatId, offset, limit))
+
+    @Transaction
+    open suspend fun getMessagesForChatDescRange(
+        chatId: String,
+        offset: Int,
+        limit: Int,
+    ): List<MessageEntity> = materializeMessages(queryMessagesForChatDescRange(chatId, offset, limit))
+
+    @Transaction
+    open suspend fun getMessagesForChatAfterTimestampExclusiveAsc(
+        chatId: String,
+        afterTimestampExclusive: Long,
+        limit: Int,
+    ): List<MessageEntity> =
+        materializeMessages(
+            queryMessagesForChatAfterTimestampExclusiveAsc(chatId, afterTimestampExclusive, limit)
+        )
+
+    @Transaction
+    open suspend fun getMessagesForChatInRangeAsc(
+        chatId: String,
+        afterTimestampExclusive: Long?,
+        beforeTimestampExclusive: Long?,
+        upToTimestampInclusive: Long?,
+    ): List<MessageEntity> =
+        materializeMessages(
+            queryMessagesForChatInRangeAsc(
+                chatId,
+                afterTimestampExclusive,
+                beforeTimestampExclusive,
+                upToTimestampInclusive,
+            )
+        )
+
+    @Transaction
+    open suspend fun getMessagesForChatBeforeTimestampDesc(
+        chatId: String,
+        maxTimestamp: Long,
+        limit: Int,
+    ): List<MessageEntity> =
+        materializeMessages(queryMessagesForChatBeforeTimestampDesc(chatId, maxTimestamp, limit))
+
+    @Transaction
+    open suspend fun getMessagesForChatBeforeTimestampExclusiveDesc(
+        chatId: String,
+        beforeTimestampExclusive: Long,
+        limit: Int,
+    ): List<MessageEntity> =
+        materializeMessages(
+            queryMessagesForChatBeforeTimestampExclusiveDesc(chatId, beforeTimestampExclusive, limit)
+        )
+
+    @Transaction
+    open suspend fun getMessageByTimestamp(chatId: String, timestamp: Long): MessageEntity? =
+        queryMessageByTimestamp(chatId, timestamp)?.let { materializeMessage(it) }
+
+    @Transaction
+    open suspend fun getVariantsForChat(chatId: String): List<MessageVariantEntity> =
+        materializeVariants(queryVariantsForChat(chatId))
+
+    @Transaction
+    open suspend fun getVariantsForMessages(
+        chatId: String,
+        messageTimestamps: List<Long>,
+    ): List<MessageVariantEntity> {
+        if (messageTimestamps.isEmpty()) {
+            return emptyList()
+        }
+
+        val requestedTimestamps = messageTimestamps.toHashSet()
+        val minTimestamp = messageTimestamps.minOrNull() ?: return emptyList()
+        val maxTimestamp = messageTimestamps.maxOrNull() ?: return emptyList()
+
+        // Preserve exact timestamp-set semantics while avoiding Room expanding a large list into SQLite bind variables.
+        val rows =
+            queryVariantsForMessageRange(
+                chatId = chatId,
+                minTimestamp = minTimestamp,
+                maxTimestamp = maxTimestamp,
+            ).filter { row -> row.variant.messageTimestamp in requestedTimestamps }
+        return materializeVariants(rows)
+    }
+
+    @Transaction
+    open suspend fun getVariantsForMessage(
+        chatId: String,
+        messageTimestamp: Long,
+    ): List<MessageVariantEntity> =
+        materializeVariants(queryVariantsForMessage(chatId, messageTimestamp))
+
+    @Transaction
+    open suspend fun getVariantForMessage(
+        chatId: String,
+        messageTimestamp: Long,
+        variantIndex: Int,
+    ): MessageVariantEntity? =
+        queryVariantForMessage(chatId, messageTimestamp, variantIndex)?.let {
+            materializeVariant(it)
+        }
+
+    private suspend fun materializeMessages(rows: List<MessageContentRow>): List<MessageEntity> =
+        rows.map { materializeMessage(it) }
+
+    private suspend fun materializeMessage(row: MessageContentRow): MessageEntity {
+        if (row.contentCharacterCount <= CONTENT_CHUNK_CHARACTER_COUNT) {
+            return row.message
+        }
+
+        val content = StringBuilder(row.message.content)
+        var startCharacter = CONTENT_CHUNK_CHARACTER_COUNT.toLong() + 1L
+        while (startCharacter <= row.contentCharacterCount) {
+            val chunk =
+                checkNotNull(
+                    queryMessageContentChunk(
+                        row.message.messageId,
+                        startCharacter,
+                        CONTENT_CHUNK_CHARACTER_COUNT,
+                    )
+                ) {
+                    "Message disappeared while reading content: messageId=${row.message.messageId}"
+                }
+            check(chunk.isNotEmpty()) {
+                "Message content ended before its recorded length: messageId=${row.message.messageId}"
+            }
+            content.append(chunk)
+            startCharacter += CONTENT_CHUNK_CHARACTER_COUNT
+        }
+        return row.message.copy(content = content.toString())
+    }
+
+    private suspend fun materializeVariants(
+        rows: List<MessageVariantContentRow>
+    ): List<MessageVariantEntity> = rows.map { materializeVariant(it) }
+
+    private suspend fun materializeVariant(row: MessageVariantContentRow): MessageVariantEntity {
+        if (row.contentCharacterCount <= CONTENT_CHUNK_CHARACTER_COUNT) {
+            return row.variant
+        }
+
+        val content = StringBuilder(row.variant.content)
+        var startCharacter = CONTENT_CHUNK_CHARACTER_COUNT.toLong() + 1L
+        while (startCharacter <= row.contentCharacterCount) {
+            val chunk =
+                checkNotNull(
+                    queryMessageVariantContentChunk(
+                        row.variant.variantId,
+                        startCharacter,
+                        CONTENT_CHUNK_CHARACTER_COUNT,
+                    )
+                ) {
+                    "Message variant disappeared while reading content: variantId=${row.variant.variantId}"
+                }
+            check(chunk.isNotEmpty()) {
+                "Message variant content ended before its recorded length: variantId=${row.variant.variantId}"
+            }
+            content.append(chunk)
+            startCharacter += CONTENT_CHUNK_CHARACTER_COUNT
+        }
+        return row.variant.copy(content = content.toString())
+    }
+}

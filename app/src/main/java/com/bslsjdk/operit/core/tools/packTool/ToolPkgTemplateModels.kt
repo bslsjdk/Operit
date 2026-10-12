@@ -1,1 +1,37 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkxvY2FsaXplZFRleHQKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxOYW1lCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCgpAU2VyaWFsaXphYmxlCmludGVybmFsIGRhdGEgY2xhc3MgVG9vbFBrZ01hbmlmZXN0V29ya2Zsb3dUZW1wbGF0ZSgKICAgIHZhbCBpZDogU3RyaW5nLAogICAgQFNlcmlhbE5hbWUoImRpc3BsYXlfbmFtZSIpIHZhbCBkaXNwbGF5TmFtZTogTG9jYWxpemVkVGV4dCA9IExvY2FsaXplZFRleHQub2YoIiIpLAogICAgdmFsIGRlc2NyaXB0aW9uOiBMb2NhbGl6ZWRUZXh0ID0gTG9jYWxpemVkVGV4dC5vZigiIiksCiAgICBAU2VyaWFsTmFtZSgicmVzb3VyY2Vfa2V5IikgdmFsIHJlc291cmNlS2V5OiBTdHJpbmcKKQoKQFNlcmlhbGl6YWJsZQppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dNYW5pZmVzdFdvcmtzcGFjZVRlbXBsYXRlKAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICBAU2VyaWFsTmFtZSgiZGlzcGxheV9uYW1lIikgdmFsIGRpc3BsYXlOYW1lOiBMb2NhbGl6ZWRUZXh0ID0gTG9jYWxpemVkVGV4dC5vZigiIiksCiAgICB2YWwgZGVzY3JpcHRpb246IExvY2FsaXplZFRleHQgPSBMb2NhbGl6ZWRUZXh0Lm9mKCIiKSwKICAgIEBTZXJpYWxOYW1lKCJyZXNvdXJjZV9rZXkiKSB2YWwgcmVzb3VyY2VLZXk6IFN0cmluZywKICAgIEBTZXJpYWxOYW1lKCJwcm9qZWN0X3R5cGUiKSB2YWwgcHJvamVjdFR5cGU6IFN0cmluZyA9ICIiCikKCmludGVybmFsIGRhdGEgY2xhc3MgVG9vbFBrZ1dvcmtmbG93VGVtcGxhdGVSdW50aW1lKAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgZGlzcGxheU5hbWU6IExvY2FsaXplZFRleHQsCiAgICB2YWwgZGVzY3JpcHRpb246IExvY2FsaXplZFRleHQsCiAgICB2YWwgcmVzb3VyY2VLZXk6IFN0cmluZwopCgppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dXb3Jrc3BhY2VUZW1wbGF0ZVJ1bnRpbWUoCiAgICB2YWwgaWQ6IFN0cmluZywKICAgIHZhbCBkaXNwbGF5TmFtZTogTG9jYWxpemVkVGV4dCwKICAgIHZhbCBkZXNjcmlwdGlvbjogTG9jYWxpemVkVGV4dCwKICAgIHZhbCByZXNvdXJjZUtleTogU3RyaW5nLAogICAgdmFsIHByb2plY3RUeXBlOiBTdHJpbmcKKQo=
+package com.bslsjdk.operit.core.tools.packTool
+
+import com.bslsjdk.operit.core.tools.LocalizedText
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
+internal data class ToolPkgManifestWorkflowTemplate(
+    val id: String,
+    @SerialName("display_name") val displayName: LocalizedText = LocalizedText.of(""),
+    val description: LocalizedText = LocalizedText.of(""),
+    @SerialName("resource_key") val resourceKey: String
+)
+
+@Serializable
+internal data class ToolPkgManifestWorkspaceTemplate(
+    val id: String,
+    @SerialName("display_name") val displayName: LocalizedText = LocalizedText.of(""),
+    val description: LocalizedText = LocalizedText.of(""),
+    @SerialName("resource_key") val resourceKey: String,
+    @SerialName("project_type") val projectType: String = ""
+)
+
+internal data class ToolPkgWorkflowTemplateRuntime(
+    val id: String,
+    val displayName: LocalizedText,
+    val description: LocalizedText,
+    val resourceKey: String
+)
+
+internal data class ToolPkgWorkspaceTemplateRuntime(
+    val id: String,
+    val displayName: LocalizedText,
+    val description: LocalizedText,
+    val resourceKey: String,
+    val projectType: String
+)

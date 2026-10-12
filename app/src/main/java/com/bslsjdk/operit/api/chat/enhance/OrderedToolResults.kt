@@ -1,1 +1,44 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xSZXN1bHQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLk11dGV4CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy53aXRoTG9jawoKLyoqIFRoZSBzYW1lIGZpbmFsaXplZCBYTUwgaXMgcHVibGlzaGVkIHRvIHRoZSBzYXZlZCBzdHJlYW0gYW5kIHVzZWQgYnkgdGhlIG5leHQgbW9kZWwgcmVxdWVzdC4gKi8KZGF0YSBjbGFzcyBUb29sRXhlY3V0aW9uQmF0Y2godmFsIHJlc3VsdHM6IExpc3Q8VG9vbFJlc3VsdD4sIHZhbCBtZXNzYWdlOiBTdHJpbmcpCgovKioKICogRXhlY3V0aW9uIG1heSBmaW5pc2ggb3V0IG9mIG9yZGVyLCBidXQgc2F2ZWQgWE1MIGlzIG1hdGNoZWQgYnkgdG9vbCBuYW1lIHdoZW4gaGlzdG9yeSBpcyByZWJ1aWx0LgogKiBQdWJsaXNoIG9ubHkgYSBjb21wbGV0ZWQgcHJlZml4IG9mIHRoZSBvcmlnaW5hbCBjYWxscyBzbyBzYW1lLW5hbWUgcmVzdWx0cyBjYW5ub3QgZXhjaGFuZ2Ugb3duZXJzLgogKiBJbmRleGVzIGJlbG9uZyB0byB0aGlzIGJhdGNoLCBub3QgdG8gdG9vbCBuYW1lcyBvciBpbnZvY2F0aW9uIGVxdWFsaXR5LgogKi8KaW50ZXJuYWwgY2xhc3MgT3JkZXJlZFRvb2xSZXN1bHRzKAogICAgY291bnQ6IEludCwKICAgIHByaXZhdGUgdmFsIHB1Ymxpc2g6IHN1c3BlbmQgKFN0cmluZykgLT4gVW5pdAopIHsKICAgIHByaXZhdGUgdmFsIG11dGV4ID0gTXV0ZXgoKQogICAgcHJpdmF0ZSB2YWwgcmVzdWx0cyA9IGFycmF5T2ZOdWxsczxUb29sUmVzdWx0Pihjb3VudCkKICAgIHByaXZhdGUgdmFsIG1hcmt1cCA9IGFycmF5T2ZOdWxsczxTdHJpbmc+KGNvdW50KQogICAgcHJpdmF0ZSB2YXIgbmV4dCA9IDAKCiAgICBzdXNwZW5kIGZ1biBjb21wbGV0ZShpbmRleDogSW50LCByZXN1bHQ6IFRvb2xSZXN1bHQpIHsKICAgICAgICBtdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIGNoZWNrKHJlc3VsdHNbaW5kZXhdID09IG51bGwpIHsgIlRvb2wgcmVzdWx0IGFscmVhZHkgY29tcGxldGVkIGF0IGluZGV4ICRpbmRleCIgfQogICAgICAgICAgICByZXN1bHRzW2luZGV4XSA9IHJlc3VsdAogICAgICAgICAgICAvLyBHZW5lcmF0ZSB0aGUgcmFuZG9tIFhNTCB0YWcgYW5kIGJvdW5kIHRoZSBwYXlsb2FkIG9uY2UsIGZvciBib3RoIGNvbnN1bWVycy4KICAgICAgICAgICAgbWFya3VwW2luZGV4XSA9IENvbnZlcnNhdGlvbk1hcmt1cE1hbmFnZXIuZm9ybWF0VG9vbFJlc3VsdEZvck1lc3NhZ2UocmVzdWx0KQogICAgICAgICAgICB3aGlsZSAobmV4dCA8IHJlc3VsdHMuc2l6ZSAmJiByZXN1bHRzW25leHRdICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHB1Ymxpc2goY2hlY2tOb3ROdWxsKG1hcmt1cFtuZXh0XSkpCiAgICAgICAgICAgICAgICBuZXh0KysKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBmaW5pc2goKTogVG9vbEV4ZWN1dGlvbkJhdGNoID0gbXV0ZXgud2l0aExvY2sgewogICAgICAgIGNoZWNrKG5leHQgPT0gcmVzdWx0cy5zaXplKSB7ICJUb29sIGJhdGNoIGhhcyB1bnB1Ymxpc2hlZCByZXN1bHRzIiB9CiAgICAgICAgVG9vbEV4ZWN1dGlvbkJhdGNoKAogICAgICAgICAgICByZXN1bHRzID0gcmVzdWx0cy5tYXAgeyBjaGVja05vdE51bGwoaXQpIH0sCiAgICAgICAgICAgIG1lc3NhZ2UgPSBtYXJrdXAuam9pblRvU3RyaW5nKCJcbiIpIHsgY2hlY2tOb3ROdWxsKGl0KSB9CiAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.enhance
+
+import com.bslsjdk.operit.data.model.ToolResult
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+/** The same finalized XML is published to the saved stream and used by the next model request. */
+data class ToolExecutionBatch(val results: List<ToolResult>, val message: String)
+
+/**
+ * Execution may finish out of order, but saved XML is matched by tool name when history is rebuilt.
+ * Publish only a completed prefix of the original calls so same-name results cannot exchange owners.
+ * Indexes belong to this batch, not to tool names or invocation equality.
+ */
+internal class OrderedToolResults(
+    count: Int,
+    private val publish: suspend (String) -> Unit
+) {
+    private val mutex = Mutex()
+    private val results = arrayOfNulls<ToolResult>(count)
+    private val markup = arrayOfNulls<String>(count)
+    private var next = 0
+
+    suspend fun complete(index: Int, result: ToolResult) {
+        mutex.withLock {
+            check(results[index] == null) { "Tool result already completed at index $index" }
+            results[index] = result
+            // Generate the random XML tag and bound the payload once, for both consumers.
+            markup[index] = ConversationMarkupManager.formatToolResultForMessage(result)
+            while (next < results.size && results[next] != null) {
+                publish(checkNotNull(markup[next]))
+                next++
+            }
+        }
+    }
+
+    suspend fun finish(): ToolExecutionBatch = mutex.withLock {
+        check(next == results.size) { "Tool batch has unpublished results" }
+        ToolExecutionBatch(
+            results = results.map { checkNotNull(it) },
+            message = markup.joinToString("\n") { checkNotNull(it) }
+        )
+    }
+}

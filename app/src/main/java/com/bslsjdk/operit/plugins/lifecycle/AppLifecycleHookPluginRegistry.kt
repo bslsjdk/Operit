@@ -1,1 +1,146 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5saWZlY3ljbGUKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29weU9uV3JpdGVBcnJheUxpc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuU3VwZXJ2aXNvckpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5UT09MUEtHX0VWRU5UX0FDVElWSVRZX09OX0NSRUFURQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuVE9PTFBLR19FVkVOVF9BQ1RJVklUWV9PTl9ERVNUUk9ZCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5UT09MUEtHX0VWRU5UX0FDVElWSVRZX09OX1BBVVNFCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5UT09MUEtHX0VWRU5UX0FDVElWSVRZX09OX1JFU1VNRQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuVE9PTFBLR19FVkVOVF9BQ1RJVklUWV9PTl9TVEFSVAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuVE9PTFBLR19FVkVOVF9BQ1RJVklUWV9PTl9TVE9QCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5UT09MUEtHX0VWRU5UX0FQUExJQ0FUSU9OX09OX0JBQ0tHUk9VTkQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlRPT0xQS0dfRVZFTlRfQVBQTElDQVRJT05fT05fQ1JFQVRFCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5UT09MUEtHX0VWRU5UX0FQUExJQ0FUSU9OX09OX0ZPUkVHUk9VTkQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlRPT0xQS0dfRVZFTlRfQVBQTElDQVRJT05fT05fTE9XX01FTU9SWQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuVE9PTFBLR19FVkVOVF9BUFBMSUNBVElPTl9PTl9URVJNSU5BVEUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlRPT0xQS0dfRVZFTlRfQVBQTElDQVRJT05fT05fVFJJTV9NRU1PUlkKCmVudW0gY2xhc3MgQXBwTGlmZWN5Y2xlRXZlbnQodmFsIHdpcmVOYW1lOiBTdHJpbmcpIHsKICAgIEFQUExJQ0FUSU9OX0NSRUFURShUT09MUEtHX0VWRU5UX0FQUExJQ0FUSU9OX09OX0NSRUFURSksCiAgICBBUFBMSUNBVElPTl9GT1JFR1JPVU5EKFRPT0xQS0dfRVZFTlRfQVBQTElDQVRJT05fT05fRk9SRUdST1VORCksCiAgICBBUFBMSUNBVElPTl9CQUNLR1JPVU5EKFRPT0xQS0dfRVZFTlRfQVBQTElDQVRJT05fT05fQkFDS0dST1VORCksCiAgICBBUFBMSUNBVElPTl9MT1dfTUVNT1JZKFRPT0xQS0dfRVZFTlRfQVBQTElDQVRJT05fT05fTE9XX01FTU9SWSksCiAgICBBUFBMSUNBVElPTl9UUklNX01FTU9SWShUT09MUEtHX0VWRU5UX0FQUExJQ0FUSU9OX09OX1RSSU1fTUVNT1JZKSwKICAgIEFQUExJQ0FUSU9OX1RFUk1JTkFURShUT09MUEtHX0VWRU5UX0FQUExJQ0FUSU9OX09OX1RFUk1JTkFURSksCiAgICBBQ1RJVklUWV9DUkVBVEUoVE9PTFBLR19FVkVOVF9BQ1RJVklUWV9PTl9DUkVBVEUpLAogICAgQUNUSVZJVFlfU1RBUlQoVE9PTFBLR19FVkVOVF9BQ1RJVklUWV9PTl9TVEFSVCksCiAgICBBQ1RJVklUWV9SRVNVTUUoVE9PTFBLR19FVkVOVF9BQ1RJVklUWV9PTl9SRVNVTUUpLAogICAgQUNUSVZJVFlfUEFVU0UoVE9PTFBLR19FVkVOVF9BQ1RJVklUWV9PTl9QQVVTRSksCiAgICBBQ1RJVklUWV9TVE9QKFRPT0xQS0dfRVZFTlRfQUNUSVZJVFlfT05fU1RPUCksCiAgICBBQ1RJVklUWV9ERVNUUk9ZKFRPT0xQS0dfRVZFTlRfQUNUSVZJVFlfT05fREVTVFJPWSkKfQoKZGF0YSBjbGFzcyBBcHBMaWZlY3ljbGVIb29rUGFyYW1zKAogICAgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICB2YWwgZXh0cmFzOiBNYXA8U3RyaW5nLCBBbnk/PiA9IGVtcHR5TWFwKCkKKQoKZGF0YSBjbGFzcyBBcHBMaWZlY3ljbGVSZXBsYXlFdmVudCgKICAgIHZhbCBldmVudDogQXBwTGlmZWN5Y2xlRXZlbnQsCiAgICB2YWwgcGFyYW1zOiBBcHBMaWZlY3ljbGVIb29rUGFyYW1zCikKCmludGVyZmFjZSBBcHBMaWZlY3ljbGVIb29rUGx1Z2luIHsKICAgIHZhbCBpZDogU3RyaW5nCgogICAgc3VzcGVuZCBmdW4gb25FdmVudCgKICAgICAgICBldmVudDogQXBwTGlmZWN5Y2xlRXZlbnQsCiAgICAgICAgcGFyYW1zOiBBcHBMaWZlY3ljbGVIb29rUGFyYW1zCiAgICApCn0KCm9iamVjdCBBcHBMaWZlY3ljbGVIb29rUGx1Z2luUmVnaXN0cnkgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkFwcExpZmVjeWNsZUhvb2tzIgogICAgcHJpdmF0ZSB2YWwgcGx1Z2lucyA9IENvcHlPbldyaXRlQXJyYXlMaXN0PEFwcExpZmVjeWNsZUhvb2tQbHVnaW4+KCkKICAgIHByaXZhdGUgdmFsIGRpc3BhdGNoU2NvcGUgPSBDb3JvdXRpbmVTY29wZShTdXBlcnZpc29ySm9iKCkgKyBEaXNwYXRjaGVycy5EZWZhdWx0KQogICAgcHJpdmF0ZSB2YWwgc3RhdGVMb2NrID0gQW55KCkKICAgIHByaXZhdGUgdmFyIGFwcGxpY2F0aW9uQ3JlYXRlUGFyYW1zOiBBcHBMaWZlY3ljbGVIb29rUGFyYW1zPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIGFwcGxpY2F0aW9uRm9yZWdyb3VuZFBhcmFtczogQXBwTGlmZWN5Y2xlSG9va1BhcmFtcz8gPSBudWxsCgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHJlZ2lzdGVyKHBsdWdpbjogQXBwTGlmZWN5Y2xlSG9va1BsdWdpbikgewogICAgICAgIHVucmVnaXN0ZXIocGx1Z2luLmlkKQogICAgICAgIHBsdWdpbnMuYWRkKHBsdWdpbikKICAgIH0KCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gdW5yZWdpc3RlcihwbHVnaW5JZDogU3RyaW5nKSB7CiAgICAgICAgcGx1Z2lucy5yZW1vdmVBbGwgeyBpdC5pZCA9PSBwbHVnaW5JZCB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gZGlzcGF0Y2goCiAgICAgICAgZXZlbnQ6IEFwcExpZmVjeWNsZUV2ZW50LAogICAgICAgIHBhcmFtczogQXBwTGlmZWN5Y2xlSG9va1BhcmFtcwogICAgKSB7CiAgICAgICAgcmVjb3JkUmVwbGF5YWJsZVN0YXRlKGV2ZW50LCBwYXJhbXMpCiAgICAgICAgZm9yIChwbHVnaW4gaW4gcGx1Z2lucykgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgcGx1Z2luLm9uRXZlbnQoZXZlbnQsIHBhcmFtcykKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJBcHAgbGlmZWN5Y2xlIGhvb2sgcGx1Z2luIGZhaWxlZDogJHtwbHVnaW4uaWR9LCBldmVudD0ke2V2ZW50LndpcmVOYW1lfSIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGRpc3BhdGNoQXN5bmMoCiAgICAgICAgZXZlbnQ6IEFwcExpZmVjeWNsZUV2ZW50LAogICAgICAgIHBhcmFtczogQXBwTGlmZWN5Y2xlSG9va1BhcmFtcwogICAgKSB7CiAgICAgICAgZGlzcGF0Y2hTY29wZS5sYXVuY2ggewogICAgICAgICAgICBkaXNwYXRjaChldmVudCA9IGV2ZW50LCBwYXJhbXMgPSBwYXJhbXMpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBnZXRSZXBsYXlhYmxlQXBwbGljYXRpb25FdmVudHMoKTogTGlzdDxBcHBMaWZlY3ljbGVSZXBsYXlFdmVudD4gewogICAgICAgIHN5bmNocm9uaXplZChzdGF0ZUxvY2spIHsKICAgICAgICAgICAgdmFsIHJlcGxheUV2ZW50cyA9IG11dGFibGVMaXN0T2Y8QXBwTGlmZWN5Y2xlUmVwbGF5RXZlbnQ+KCkKICAgICAgICAgICAgYXBwbGljYXRpb25DcmVhdGVQYXJhbXM/LmxldCB7IHBhcmFtcyAtPgogICAgICAgICAgICAgICAgcmVwbGF5RXZlbnRzLmFkZCgKICAgICAgICAgICAgICAgICAgICBBcHBMaWZlY3ljbGVSZXBsYXlFdmVudCgKICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQgPSBBcHBMaWZlY3ljbGVFdmVudC5BUFBMSUNBVElPTl9DUkVBVEUsCiAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtcyA9IHBhcmFtcwogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICBhcHBsaWNhdGlvbkZvcmVncm91bmRQYXJhbXM/LmxldCB7IHBhcmFtcyAtPgogICAgICAgICAgICAgICAgcmVwbGF5RXZlbnRzLmFkZCgKICAgICAgICAgICAgICAgICAgICBBcHBMaWZlY3ljbGVSZXBsYXlFdmVudCgKICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQgPSBBcHBMaWZlY3ljbGVFdmVudC5BUFBMSUNBVElPTl9GT1JFR1JPVU5ELAogICAgICAgICAgICAgICAgICAgICAgICBwYXJhbXMgPSBwYXJhbXMKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHJlcGxheUV2ZW50cwogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWNvcmRSZXBsYXlhYmxlU3RhdGUoCiAgICAgICAgZXZlbnQ6IEFwcExpZmVjeWNsZUV2ZW50LAogICAgICAgIHBhcmFtczogQXBwTGlmZWN5Y2xlSG9va1BhcmFtcwogICAgKSB7CiAgICAgICAgc3luY2hyb25pemVkKHN0YXRlTG9jaykgewogICAgICAgICAgICB3aGVuIChldmVudCkgewogICAgICAgICAgICAgICAgQXBwTGlmZWN5Y2xlRXZlbnQuQVBQTElDQVRJT05fQ1JFQVRFIC0+IHsKICAgICAgICAgICAgICAgICAgICBhcHBsaWNhdGlvbkNyZWF0ZVBhcmFtcyA9IHBhcmFtcwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIEFwcExpZmVjeWNsZUV2ZW50LkFQUExJQ0FUSU9OX0ZPUkVHUk9VTkQgLT4gewogICAgICAgICAgICAgICAgICAgIGFwcGxpY2F0aW9uRm9yZWdyb3VuZFBhcmFtcyA9IHBhcmFtcwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIEFwcExpZmVjeWNsZUV2ZW50LkFQUExJQ0FUSU9OX0JBQ0tHUk9VTkQgLT4gewogICAgICAgICAgICAgICAgICAgIGFwcGxpY2F0aW9uRm9yZWdyb3VuZFBhcmFtcyA9IG51bGwKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgICAgICAvLyBObyByZXBsYXkgc3RhdGUgbmVlZGVkIGZvciBvdGhlciBsaWZlY3ljbGUgZXZlbnRzLgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.plugins.lifecycle
+
+import android.content.Context
+import java.util.concurrent.CopyOnWriteArrayList
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_ACTIVITY_ON_CREATE
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_ACTIVITY_ON_DESTROY
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_ACTIVITY_ON_PAUSE
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_ACTIVITY_ON_RESUME
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_ACTIVITY_ON_START
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_ACTIVITY_ON_STOP
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_APPLICATION_ON_BACKGROUND
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_APPLICATION_ON_CREATE
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_APPLICATION_ON_FOREGROUND
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_APPLICATION_ON_LOW_MEMORY
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_APPLICATION_ON_TERMINATE
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_APPLICATION_ON_TRIM_MEMORY
+
+enum class AppLifecycleEvent(val wireName: String) {
+    APPLICATION_CREATE(TOOLPKG_EVENT_APPLICATION_ON_CREATE),
+    APPLICATION_FOREGROUND(TOOLPKG_EVENT_APPLICATION_ON_FOREGROUND),
+    APPLICATION_BACKGROUND(TOOLPKG_EVENT_APPLICATION_ON_BACKGROUND),
+    APPLICATION_LOW_MEMORY(TOOLPKG_EVENT_APPLICATION_ON_LOW_MEMORY),
+    APPLICATION_TRIM_MEMORY(TOOLPKG_EVENT_APPLICATION_ON_TRIM_MEMORY),
+    APPLICATION_TERMINATE(TOOLPKG_EVENT_APPLICATION_ON_TERMINATE),
+    ACTIVITY_CREATE(TOOLPKG_EVENT_ACTIVITY_ON_CREATE),
+    ACTIVITY_START(TOOLPKG_EVENT_ACTIVITY_ON_START),
+    ACTIVITY_RESUME(TOOLPKG_EVENT_ACTIVITY_ON_RESUME),
+    ACTIVITY_PAUSE(TOOLPKG_EVENT_ACTIVITY_ON_PAUSE),
+    ACTIVITY_STOP(TOOLPKG_EVENT_ACTIVITY_ON_STOP),
+    ACTIVITY_DESTROY(TOOLPKG_EVENT_ACTIVITY_ON_DESTROY)
+}
+
+data class AppLifecycleHookParams(
+    val context: Context,
+    val extras: Map<String, Any?> = emptyMap()
+)
+
+data class AppLifecycleReplayEvent(
+    val event: AppLifecycleEvent,
+    val params: AppLifecycleHookParams
+)
+
+interface AppLifecycleHookPlugin {
+    val id: String
+
+    suspend fun onEvent(
+        event: AppLifecycleEvent,
+        params: AppLifecycleHookParams
+    )
+}
+
+object AppLifecycleHookPluginRegistry {
+    private const val TAG = "AppLifecycleHooks"
+    private val plugins = CopyOnWriteArrayList<AppLifecycleHookPlugin>()
+    private val dispatchScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+    private val stateLock = Any()
+    private var applicationCreateParams: AppLifecycleHookParams? = null
+    private var applicationForegroundParams: AppLifecycleHookParams? = null
+
+    @Synchronized
+    fun register(plugin: AppLifecycleHookPlugin) {
+        unregister(plugin.id)
+        plugins.add(plugin)
+    }
+
+    @Synchronized
+    fun unregister(pluginId: String) {
+        plugins.removeAll { it.id == pluginId }
+    }
+
+    suspend fun dispatch(
+        event: AppLifecycleEvent,
+        params: AppLifecycleHookParams
+    ) {
+        recordReplayableState(event, params)
+        for (plugin in plugins) {
+            try {
+                plugin.onEvent(event, params)
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "App lifecycle hook plugin failed: ${plugin.id}, event=${event.wireName}", e)
+            }
+        }
+    }
+
+    fun dispatchAsync(
+        event: AppLifecycleEvent,
+        params: AppLifecycleHookParams
+    ) {
+        dispatchScope.launch {
+            dispatch(event = event, params = params)
+        }
+    }
+
+    fun getReplayableApplicationEvents(): List<AppLifecycleReplayEvent> {
+        synchronized(stateLock) {
+            val replayEvents = mutableListOf<AppLifecycleReplayEvent>()
+            applicationCreateParams?.let { params ->
+                replayEvents.add(
+                    AppLifecycleReplayEvent(
+                        event = AppLifecycleEvent.APPLICATION_CREATE,
+                        params = params
+                    )
+                )
+            }
+            applicationForegroundParams?.let { params ->
+                replayEvents.add(
+                    AppLifecycleReplayEvent(
+                        event = AppLifecycleEvent.APPLICATION_FOREGROUND,
+                        params = params
+                    )
+                )
+            }
+            return replayEvents
+        }
+    }
+
+    private fun recordReplayableState(
+        event: AppLifecycleEvent,
+        params: AppLifecycleHookParams
+    ) {
+        synchronized(stateLock) {
+            when (event) {
+                AppLifecycleEvent.APPLICATION_CREATE -> {
+                    applicationCreateParams = params
+                }
+
+                AppLifecycleEvent.APPLICATION_FOREGROUND -> {
+                    applicationForegroundParams = params
+                }
+
+                AppLifecycleEvent.APPLICATION_BACKGROUND -> {
+                    applicationForegroundParams = null
+                }
+
+                else -> {
+                    // No replay state needed for other lifecycle events.
+                }
+            }
+        }
+    }
+}

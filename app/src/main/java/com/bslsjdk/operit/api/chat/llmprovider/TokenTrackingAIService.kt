@@ -1,1 +1,360 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5Qcm9tcHRUdXJuCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbE9wdGlvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTW9kZWxQYXJhbWV0ZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRva2VuVXNhZ2VSZWNvcmRFbnRpdHkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xQcm9tcHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlByb3ZpZGVyVXNhZ2VTbmFwc2hvdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuVG9rZW5Vc2FnZVJlcG9zaXRvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLlJldmlzYWJsZVRleHRTdHJlYW0KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5TaGFyZWRTdHJlYW0KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5TdHJlYW0KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5TdHJlYW1Db2xsZWN0b3IKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5UZXh0U3RyZWFtRXZlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5UZXh0U3RyZWFtRXZlbnRDYXJyaWVyCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0Jvb2xlYW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5DYW5jZWxsYXRpb25FeGNlcHRpb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLk5vbkNhbmNlbGxhYmxlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuY3VycmVudENvcm91dGluZUNvbnRleHQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5lbnN1cmVBY3RpdmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKLyoqIFJlY29yZHMgc3VjY2Vzc2Z1bCBmb3JtYWwtaW5mZXJlbmNlIHJlcXVlc3RzIHdpdGggcHJvdmlkZXItY29uZmlybWVkIHVzYWdlLiAqLwpjbGFzcyBUb2tlblRyYWNraW5nQUlTZXJ2aWNlKAogICAgcHJpdmF0ZSB2YWwgZGVsZWdhdGU6IEFJU2VydmljZSwKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBjb25maWdJZDogU3RyaW5nLAopIDogQUlTZXJ2aWNlIHsKICAgIHByaXZhdGUgdmFsIHJlcG9zaXRvcnkgPSBUb2tlblVzYWdlUmVwb3NpdG9yeS5nZXRJbnN0YW5jZShjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkKICAgIHByaXZhdGUgdmFsIGFjdGl2ZVJlcXVlc3RzID0gQ29uY3VycmVudEhhc2hNYXAubmV3S2V5U2V0PFJlcXVlc3RUcmFja2VyPigpCiAgICBwcml2YXRlIHZhbCBjYW5jZWxsYXRpb25Mb2NrID0gQW55KCkKICAgIHByaXZhdGUgdmFyIGNhbmNlbGxhdGlvbkVwb2NoID0gMEwKCiAgICBvdmVycmlkZSB2YWwgaW5wdXRUb2tlbkNvdW50OiBMb25nIGdldCgpID0gZGVsZWdhdGUuaW5wdXRUb2tlbkNvdW50CiAgICBvdmVycmlkZSB2YWwgY2FjaGVkSW5wdXRUb2tlbkNvdW50OiBMb25nIGdldCgpID0gZGVsZWdhdGUuY2FjaGVkSW5wdXRUb2tlbkNvdW50CiAgICBvdmVycmlkZSB2YWwgb3V0cHV0VG9rZW5Db3VudDogTG9uZyBnZXQoKSA9IGRlbGVnYXRlLm91dHB1dFRva2VuQ291bnQKICAgIG92ZXJyaWRlIHZhbCBwcm92aWRlck1vZGVsOiBTdHJpbmcgZ2V0KCkgPSBkZWxlZ2F0ZS5wcm92aWRlck1vZGVsCgogICAgb3ZlcnJpZGUgZnVuIHJlc2V0VG9rZW5Db3VudHMoKSA9IGRlbGVnYXRlLnJlc2V0VG9rZW5Db3VudHMoKQogICAgb3ZlcnJpZGUgZnVuIGNhbmNlbFN0cmVhbWluZygpIHsKICAgICAgICBzeW5jaHJvbml6ZWQoY2FuY2VsbGF0aW9uTG9jaykgewogICAgICAgICAgICBjYW5jZWxsYXRpb25FcG9jaCArPSAxCiAgICAgICAgICAgIGFjdGl2ZVJlcXVlc3RzLmZvckVhY2ggeyByZXF1ZXN0IC0+IHJlcXVlc3QuY2FuY2VsKCkgfQogICAgICAgIH0KICAgICAgICBkZWxlZ2F0ZS5jYW5jZWxTdHJlYW1pbmcoKQogICAgfQogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZ2V0TW9kZWxzTGlzdChjb250ZXh0OiBDb250ZXh0KTogUmVzdWx0PExpc3Q8TW9kZWxPcHRpb24+PiA9CiAgICAgICAgZGVsZWdhdGUuZ2V0TW9kZWxzTGlzdChjb250ZXh0KQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGNhbGN1bGF0ZUlucHV0VG9rZW5zKAogICAgICAgIGNoYXRIaXN0b3J5OiBMaXN0PFByb21wdFR1cm4+LAogICAgICAgIGF2YWlsYWJsZVRvb2xzOiBMaXN0PFRvb2xQcm9tcHQ+PywKICAgICk6IExvbmcgPSBkZWxlZ2F0ZS5jYWxjdWxhdGVJbnB1dFRva2VucyhjaGF0SGlzdG9yeSwgYXZhaWxhYmxlVG9vbHMpCgogICAgb3ZlcnJpZGUgZnVuIHJlbGVhc2UoKSA9IGRlbGVnYXRlLnJlbGVhc2UoKQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHNlbmRNZXNzYWdlKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgY2hhdEhpc3Rvcnk6IExpc3Q8UHJvbXB0VHVybj4sCiAgICAgICAgbW9kZWxQYXJhbWV0ZXJzOiBMaXN0PE1vZGVsUGFyYW1ldGVyPCo+PiwKICAgICAgICBlbmFibGVUaGlua2luZzogQm9vbGVhbiwKICAgICAgICBzdHJlYW06IEJvb2xlYW4sCiAgICAgICAgYXZhaWxhYmxlVG9vbHM6IExpc3Q8VG9vbFByb21wdD4/LAogICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3Rvcnk6IEJvb2xlYW4sCiAgICAgICAgb25Ub2tlbnNVcGRhdGVkOiBzdXNwZW5kIChpbnB1dDogTG9uZywgY2FjaGVkSW5wdXQ6IExvbmcsIG91dHB1dDogTG9uZykgLT4gVW5pdCwKICAgICAgICBvblVzYWdlUmVwb3J0ZWQ6IChzdXNwZW5kIChQcm92aWRlclVzYWdlU25hcHNob3QsIGF0dGVtcHQ6IEludCkgLT4gVW5pdCk/LAogICAgICAgIG9uTm9uRmF0YWxFcnJvcjogc3VzcGVuZCAoZXJyb3I6IFN0cmluZykgLT4gVW5pdCwKICAgICAgICBlbmFibGVSZXRyeTogQm9vbGVhbiwKICAgICAgICByZWNvcmRUb2tlblVzYWdlOiBCb29sZWFuLAogICAgICAgIG9uVXNhZ2VGaW5hbGl6ZWQ6IChzdXNwZW5kIChhdHRlbXB0OiBJbnQ/KSAtPiBVbml0KT8sCiAgICApOiBTdHJlYW08U3RyaW5nPiB7CiAgICAgICAgdmFsIHJlcXVlc3QgPSBSZXF1ZXN0VHJhY2tlcihjb25maWdJZCA9IGNvbmZpZ0lkLCBwcm92aWRlck1vZGVsID0gcHJvdmlkZXJNb2RlbCkKICAgICAgICB2YWwgcmVxdWVzdEVwb2NoID0gc3luY2hyb25pemVkKGNhbmNlbGxhdGlvbkxvY2spIHsgY2FuY2VsbGF0aW9uRXBvY2ggfQogICAgICAgIHZhbCBvblN0YXJ0ZWQ6ICgpIC0+IFVuaXQgPSB7CiAgICAgICAgICAgIHN5bmNocm9uaXplZChjYW5jZWxsYXRpb25Mb2NrKSB7CiAgICAgICAgICAgICAgICBpZiAoY2FuY2VsbGF0aW9uRXBvY2ggIT0gcmVxdWVzdEVwb2NoKSB7CiAgICAgICAgICAgICAgICAgICAgcmVxdWVzdC5jYW5jZWwoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYWN0aXZlUmVxdWVzdHMuYWRkKHJlcXVlc3QpCiAgICAgICAgICAgICAgICBVbml0CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgdmFsIG9uRmluaXNoZWQ6ICgpIC0+IFVuaXQgPSB7CiAgICAgICAgICAgIHN5bmNocm9uaXplZChjYW5jZWxsYXRpb25Mb2NrKSB7CiAgICAgICAgICAgICAgICBhY3RpdmVSZXF1ZXN0cy5yZW1vdmUocmVxdWVzdCkKICAgICAgICAgICAgICAgIFVuaXQKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICB2YWwgaW5uZXIgPQogICAgICAgICAgICBpZiAoIXJlY29yZFRva2VuVXNhZ2UpIHsKICAgICAgICAgICAgICAgIGRlbGVnYXRlLnNlbmRNZXNzYWdlKAogICAgICAgICAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgIGNoYXRIaXN0b3J5ID0gY2hhdEhpc3RvcnksCiAgICAgICAgICAgICAgICAgICAgbW9kZWxQYXJhbWV0ZXJzID0gbW9kZWxQYXJhbWV0ZXJzLAogICAgICAgICAgICAgICAgICAgIGVuYWJsZVRoaW5raW5nID0gZW5hYmxlVGhpbmtpbmcsCiAgICAgICAgICAgICAgICAgICAgc3RyZWFtID0gc3RyZWFtLAogICAgICAgICAgICAgICAgICAgIGF2YWlsYWJsZVRvb2xzID0gYXZhaWxhYmxlVG9vbHMsCiAgICAgICAgICAgICAgICAgICAgcHJlc2VydmVUaGlua0luSGlzdG9yeSA9IHByZXNlcnZlVGhpbmtJbkhpc3RvcnksCiAgICAgICAgICAgICAgICAgICAgb25Ub2tlbnNVcGRhdGVkID0gb25Ub2tlbnNVcGRhdGVkLAogICAgICAgICAgICAgICAgICAgIG9uVXNhZ2VSZXBvcnRlZCA9IG9uVXNhZ2VSZXBvcnRlZCwKICAgICAgICAgICAgICAgICAgICBvbk5vbkZhdGFsRXJyb3IgPSBvbk5vbkZhdGFsRXJyb3IsCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlUmV0cnkgPSBlbmFibGVSZXRyeSwKICAgICAgICAgICAgICAgICAgICByZWNvcmRUb2tlblVzYWdlID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgb25Vc2FnZUZpbmFsaXplZCA9IG9uVXNhZ2VGaW5hbGl6ZWQsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBkZWxlZ2F0ZS5zZW5kTWVzc2FnZSgKICAgICAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgICAgICAgICBjaGF0SGlzdG9yeSA9IGNoYXRIaXN0b3J5LAogICAgICAgICAgICAgICAgICAgIG1vZGVsUGFyYW1ldGVycyA9IG1vZGVsUGFyYW1ldGVycywKICAgICAgICAgICAgICAgICAgICBlbmFibGVUaGlua2luZyA9IGVuYWJsZVRoaW5raW5nLAogICAgICAgICAgICAgICAgICAgIHN0cmVhbSA9IHN0cmVhbSwKICAgICAgICAgICAgICAgICAgICBhdmFpbGFibGVUb29scyA9IGF2YWlsYWJsZVRvb2xzLAogICAgICAgICAgICAgICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3RvcnkgPSBwcmVzZXJ2ZVRoaW5rSW5IaXN0b3J5LAogICAgICAgICAgICAgICAgICAgIG9uVG9rZW5zVXBkYXRlZCA9IG9uVG9rZW5zVXBkYXRlZCwKICAgICAgICAgICAgICAgICAgICBvblVzYWdlUmVwb3J0ZWQgPSB7IHVzYWdlLCBhdHRlbXB0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVlc3Qub25Vc2FnZSh1c2FnZSwgYXR0ZW1wdCkKICAgICAgICAgICAgICAgICAgICAgICAgZm9yd2FyZFVzYWdlT2JzZXJ2ZXIob25Vc2FnZVJlcG9ydGVkLCB1c2FnZSwgYXR0ZW1wdCkKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIG9uTm9uRmF0YWxFcnJvciA9IG9uTm9uRmF0YWxFcnJvciwKICAgICAgICAgICAgICAgICAgICBlbmFibGVSZXRyeSA9IGVuYWJsZVJldHJ5LAogICAgICAgICAgICAgICAgICAgIHJlY29yZFRva2VuVXNhZ2UgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgIG9uVXNhZ2VGaW5hbGl6ZWQgPSB7IGF0dGVtcHQgLT4KICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWVzdC5vblN1Y2Nlc3MoYXR0ZW1wdCkKICAgICAgICAgICAgICAgICAgICAgICAgZm9yd2FyZFVzYWdlRmluYWxpemVkT2JzZXJ2ZXIob25Vc2FnZUZpbmFsaXplZCwgYXR0ZW1wdCkKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgcmV0dXJuIHdyYXBTdHJlYW0oCiAgICAgICAgICAgIGlubmVyID0gaW5uZXIsCiAgICAgICAgICAgIHJlcXVlc3QgPSByZXF1ZXN0LAogICAgICAgICAgICBvblN0YXJ0ZWQgPSBvblN0YXJ0ZWQsCiAgICAgICAgICAgIG9uRmluaXNoZWQgPSBvbkZpbmlzaGVkLAogICAgICAgICkKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biB0ZXN0Q29ubmVjdGlvbihjb250ZXh0OiBDb250ZXh0KTogUmVzdWx0PFN0cmluZz4gPQogICAgICAgIGRlbGVnYXRlLnRlc3RDb25uZWN0aW9uKGNvbnRleHQpCgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBmb3J3YXJkVXNhZ2VPYnNlcnZlcigKICAgICAgICBvYnNlcnZlcjogKHN1c3BlbmQgKFByb3ZpZGVyVXNhZ2VTbmFwc2hvdCwgSW50KSAtPiBVbml0KT8sCiAgICAgICAgdXNhZ2U6IFByb3ZpZGVyVXNhZ2VTbmFwc2hvdCwKICAgICAgICBhdHRlbXB0OiBJbnQsCiAgICApIHsKICAgICAgICB2YWwgY2FsbGJhY2sgPSBvYnNlcnZlciA/OiByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICBjYWxsYmFjayh1c2FnZSwgYXR0ZW1wdCkKICAgICAgICB9IGNhdGNoIChlOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgdGhyb3cgZQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJ1c2FnZSBvYnNlcnZlciBmYWlsZWQiLCBlKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGZvcndhcmRVc2FnZUZpbmFsaXplZE9ic2VydmVyKAogICAgICAgIG9ic2VydmVyOiAoc3VzcGVuZCAoSW50PykgLT4gVW5pdCk/LAogICAgICAgIGF0dGVtcHQ6IEludD8sCiAgICApIHsKICAgICAgICB2YWwgY2FsbGJhY2sgPSBvYnNlcnZlciA/OiByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICBjYWxsYmFjayhhdHRlbXB0KQogICAgICAgIH0gY2F0Y2ggKGU6IENhbmNlbGxhdGlvbkV4Y2VwdGlvbikgewogICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgInVzYWdlIGNvbXBsZXRpb24gb2JzZXJ2ZXIgZmFpbGVkIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gd3JhcFN0cmVhbSgKICAgICAgICBpbm5lcjogU3RyZWFtPFN0cmluZz4sCiAgICAgICAgcmVxdWVzdDogUmVxdWVzdFRyYWNrZXIsCiAgICAgICAgb25TdGFydGVkOiAoKSAtPiBVbml0LAogICAgICAgIG9uRmluaXNoZWQ6ICgpIC0+IFVuaXQsCiAgICApOiBTdHJlYW08U3RyaW5nPiA9CiAgICAgICAgaWYgKGlubmVyIGlzIFRleHRTdHJlYW1FdmVudENhcnJpZXIpIHsKICAgICAgICAgICAgVHJhY2tpbmdSZXZpc2FibGVTdHJlYW0oaW5uZXIsIGlubmVyLmV2ZW50Q2hhbm5lbCwgcmVxdWVzdCwgcmVwb3NpdG9yeSwgb25TdGFydGVkLCBvbkZpbmlzaGVkKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIFRyYWNraW5nU3RyZWFtKGlubmVyLCByZXF1ZXN0LCByZXBvc2l0b3J5LCBvblN0YXJ0ZWQsIG9uRmluaXNoZWQpCiAgICAgICAgfQoKICAgIHByaXZhdGUgY2xhc3MgVHJhY2tpbmdTdHJlYW0oCiAgICAgICAgcHJpdmF0ZSB2YWwgaW5uZXI6IFN0cmVhbTxTdHJpbmc+LAogICAgICAgIHByaXZhdGUgdmFsIHJlcXVlc3Q6IFJlcXVlc3RUcmFja2VyLAogICAgICAgIHByaXZhdGUgdmFsIHJlcG9zaXRvcnk6IFRva2VuVXNhZ2VSZXBvc2l0b3J5LAogICAgICAgIHByaXZhdGUgdmFsIG9uU3RhcnRlZDogKCkgLT4gVW5pdCwKICAgICAgICBwcml2YXRlIHZhbCBvbkZpbmlzaGVkOiAoKSAtPiBVbml0LAogICAgKSA6IFN0cmVhbTxTdHJpbmc+IHsKICAgICAgICBvdmVycmlkZSB2YWwgaXNMb2NrZWQ6IEJvb2xlYW4gZ2V0KCkgPSBpbm5lci5pc0xvY2tlZAogICAgICAgIG92ZXJyaWRlIHZhbCBidWZmZXJlZENvdW50OiBJbnQgZ2V0KCkgPSBpbm5lci5idWZmZXJlZENvdW50CiAgICAgICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gbG9jaygpID0gaW5uZXIubG9jaygpCiAgICAgICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gdW5sb2NrKCkgPSBpbm5lci51bmxvY2soKQogICAgICAgIG92ZXJyaWRlIGZ1biBjbGVhckJ1ZmZlcigpID0gaW5uZXIuY2xlYXJCdWZmZXIoKQoKICAgICAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBjb2xsZWN0KGNvbGxlY3RvcjogU3RyZWFtQ29sbGVjdG9yPFN0cmluZz4pIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIG9uU3RhcnRlZCgpCiAgICAgICAgICAgICAgICByZXF1ZXN0LnRocm93SWZDYW5jZWxsZWQoKQogICAgICAgICAgICAgICAgaW5uZXIuY29sbGVjdCB7IHZhbHVlIC0+IGNvbGxlY3Rvci5lbWl0KHZhbHVlKSB9CiAgICAgICAgICAgICAgICBjdXJyZW50Q29yb3V0aW5lQ29udGV4dCgpLmVuc3VyZUFjdGl2ZSgpCiAgICAgICAgICAgICAgICBwZXJzaXN0KHJlcG9zaXRvcnksIHJlcXVlc3QsIHJlcXVlc3QuZmluaXNoKCkpCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBvbkZpbmlzaGVkKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGNsYXNzIFRyYWNraW5nUmV2aXNhYmxlU3RyZWFtKAogICAgICAgIHByaXZhdGUgdmFsIGlubmVyOiBTdHJlYW08U3RyaW5nPiwKICAgICAgICBvdmVycmlkZSB2YWwgZXZlbnRDaGFubmVsOiBTaGFyZWRTdHJlYW08VGV4dFN0cmVhbUV2ZW50PiwKICAgICAgICBwcml2YXRlIHZhbCByZXF1ZXN0OiBSZXF1ZXN0VHJhY2tlciwKICAgICAgICBwcml2YXRlIHZhbCByZXBvc2l0b3J5OiBUb2tlblVzYWdlUmVwb3NpdG9yeSwKICAgICAgICBwcml2YXRlIHZhbCBvblN0YXJ0ZWQ6ICgpIC0+IFVuaXQsCiAgICAgICAgcHJpdmF0ZSB2YWwgb25GaW5pc2hlZDogKCkgLT4gVW5pdCwKICAgICkgOiBSZXZpc2FibGVUZXh0U3RyZWFtIHsKICAgICAgICBvdmVycmlkZSB2YWwgaXNMb2NrZWQ6IEJvb2xlYW4gZ2V0KCkgPSBpbm5lci5pc0xvY2tlZAogICAgICAgIG92ZXJyaWRlIHZhbCBidWZmZXJlZENvdW50OiBJbnQgZ2V0KCkgPSBpbm5lci5idWZmZXJlZENvdW50CiAgICAgICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gbG9jaygpID0gaW5uZXIubG9jaygpCiAgICAgICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gdW5sb2NrKCkgPSBpbm5lci51bmxvY2soKQogICAgICAgIG92ZXJyaWRlIGZ1biBjbGVhckJ1ZmZlcigpID0gaW5uZXIuY2xlYXJCdWZmZXIoKQoKICAgICAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBjb2xsZWN0KGNvbGxlY3RvcjogU3RyZWFtQ29sbGVjdG9yPFN0cmluZz4pIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIG9uU3RhcnRlZCgpCiAgICAgICAgICAgICAgICByZXF1ZXN0LnRocm93SWZDYW5jZWxsZWQoKQogICAgICAgICAgICAgICAgaW5uZXIuY29sbGVjdCB7IHZhbHVlIC0+IGNvbGxlY3Rvci5lbWl0KHZhbHVlKSB9CiAgICAgICAgICAgICAgICBjdXJyZW50Q29yb3V0aW5lQ29udGV4dCgpLmVuc3VyZUFjdGl2ZSgpCiAgICAgICAgICAgICAgICBwZXJzaXN0KHJlcG9zaXRvcnksIHJlcXVlc3QsIHJlcXVlc3QuZmluaXNoKCkpCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBvbkZpbmlzaGVkKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGNsYXNzIFJlcXVlc3RUcmFja2VyKAogICAgICAgIHByaXZhdGUgdmFsIGNvbmZpZ0lkOiBTdHJpbmcsCiAgICAgICAgcHJpdmF0ZSB2YWwgcHJvdmlkZXJNb2RlbDogU3RyaW5nLAogICAgKSB7CiAgICAgICAgcHJpdmF0ZSB2YWwgc3RhcnRlZEF0TXMgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIHByaXZhdGUgdmFsIGxvY2sgPSBBbnkoKQogICAgICAgIHByaXZhdGUgdmFsIGF0dGVtcHRzID0gbGlua2VkTWFwT2Y8SW50LCBQcm92aWRlclVzYWdlU25hcHNob3Q+KCkKICAgICAgICBwcml2YXRlIHZhbCBmaW5pc2hlZCA9IEF0b21pY0Jvb2xlYW4oZmFsc2UpCiAgICAgICAgcHJpdmF0ZSB2YWwgY2FuY2VsbGVkID0gQXRvbWljQm9vbGVhbihmYWxzZSkKICAgICAgICBwcml2YXRlIHZhciBzdWNjZXNzZnVsQXR0ZW1wdDogSW50PyA9IG51bGwKCiAgICAgICAgZnVuIG9uVXNhZ2UodXNhZ2U6IFByb3ZpZGVyVXNhZ2VTbmFwc2hvdCwgYXR0ZW1wdDogSW50KSB7CiAgICAgICAgICAgIHN5bmNocm9uaXplZChsb2NrKSB7CiAgICAgICAgICAgICAgICB2YWwga2V5ID0gYXR0ZW1wdC5jb2VyY2VBdExlYXN0KDEpCiAgICAgICAgICAgICAgICBhdHRlbXB0c1trZXldID0gbWVyZ2UoYXR0ZW1wdHNba2V5XSwgdXNhZ2UpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGZ1biBvblN1Y2Nlc3MoYXR0ZW1wdDogSW50PykgewogICAgICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICAgICAgc3VjY2Vzc2Z1bEF0dGVtcHQgPSBhdHRlbXB0Py5jb2VyY2VBdExlYXN0KDEpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGZ1biBjYW5jZWwoKSB7CiAgICAgICAgICAgIGNhbmNlbGxlZC5zZXQodHJ1ZSkKICAgICAgICB9CgogICAgICAgIGZ1biB0aHJvd0lmQ2FuY2VsbGVkKCkgewogICAgICAgICAgICBpZiAoY2FuY2VsbGVkLmdldCgpKSB0aHJvdyBDYW5jZWxsYXRpb25FeGNlcHRpb24oIkFJIHJlcXVlc3Qgd2FzIGNhbmNlbGxlZCIpCiAgICAgICAgfQoKICAgICAgICBmdW4gZmluaXNoKCk6IFRva2VuVXNhZ2VSZWNvcmRFbnRpdHk/IHsKICAgICAgICAgICAgaWYgKGNhbmNlbGxlZC5nZXQoKSkgcmV0dXJuIG51bGwKICAgICAgICAgICAgdmFsIHNuYXBzaG90ID0KICAgICAgICAgICAgICAgIHN5bmNocm9uaXplZChsb2NrKSB7CiAgICAgICAgICAgICAgICAgICAgc3VjY2Vzc2Z1bEF0dGVtcHQ/LmxldChhdHRlbXB0czo6Z2V0KQogICAgICAgICAgICAgICAgfSA/OiByZXR1cm4gbnVsbAogICAgICAgICAgICBpZiAoY2FuY2VsbGVkLmdldCgpKSByZXR1cm4gbnVsbAogICAgICAgICAgICBpZiAoIXNuYXBzaG90Lmhhc0tub3duRmllbGRzKCkpIHJldHVybiBudWxsCgogICAgICAgICAgICB2YWwgc2VwYXJhdG9yID0gcHJvdmlkZXJNb2RlbC5pbmRleE9mKCc6JykKICAgICAgICAgICAgcmVxdWlyZShzZXBhcmF0b3IgPiAwICYmIHNlcGFyYXRvciA8IHByb3ZpZGVyTW9kZWwubGFzdEluZGV4KSB7CiAgICAgICAgICAgICAgICAicHJvdmlkZXI6bW9kZWwgaXMgcmVxdWlyZWQgZm9yIHRva2VuIHVzYWdlIGV2ZW50cyIKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyDmjqjnkIbkuI3lho3kvZzkuLrni6znq4vnu5/orqHliJfokL3lupPvvJtwcm92aWRlciDmmI7noa7lsIblhbbni6znq4vkuo4gb3V0cHV0IOS4iuaKpeaXtu+8jAogICAgICAgICAgICAvLyDlhYjlubblhaXmjIHkuYXljJYgb3V0cHV077yM5L+d5oyB5oC76YeP5LiO6LS555So5Y+j5b6E5a6M5pW044CCCiAgICAgICAgICAgIHZhbCByZXBvcnRlZE91dHB1dFRva2VucyA9IHNuYXBzaG90Lm91dHB1dFRva2VucwogICAgICAgICAgICB2YWwgcGVyc2lzdGVkT3V0cHV0VG9rZW5zID0gd2hlbiB7CiAgICAgICAgICAgICAgICByZXBvcnRlZE91dHB1dFRva2VucyAhPSBudWxsICYmIHNuYXBzaG90LnJlYXNvbmluZ0luY2x1ZGVkSW5PdXRwdXQgPT0gZmFsc2UgLT4KICAgICAgICAgICAgICAgICAgICBzbmFwc2hvdC5yZWFzb25pbmdUb2tlbnM/LmxldCB7IHNhdHVyYXRlZEFkZChyZXBvcnRlZE91dHB1dFRva2VucywgaXQpIH0KICAgICAgICAgICAgICAgIHJlcG9ydGVkT3V0cHV0VG9rZW5zICE9IG51bGwgLT4gcmVwb3J0ZWRPdXRwdXRUb2tlbnMKICAgICAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChzbmFwc2hvdC51bmNhY2hlZElucHV0VG9rZW5zID09IG51bGwgJiYKICAgICAgICAgICAgICAgIHNuYXBzaG90LmNhY2hlZElucHV0VG9rZW5zID09IG51bGwgJiYKICAgICAgICAgICAgICAgIHNuYXBzaG90LmNhY2hlV3JpdGVUb2tlbnMgPT0gbnVsbCAmJgogICAgICAgICAgICAgICAgc25hcHNob3QudG90YWxJbnB1dFRva2VucyA9PSBudWxsICYmCiAgICAgICAgICAgICAgICBwZXJzaXN0ZWRPdXRwdXRUb2tlbnMgPT0gbnVsbAogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIFRva2VuVXNhZ2VSZWNvcmRFbnRpdHkoCiAgICAgICAgICAgICAgICBvY2N1cnJlZEF0TXMgPSBzdGFydGVkQXRNcywKICAgICAgICAgICAgICAgIGNvbmZpZ0lkID0gY29uZmlnSWQsCiAgICAgICAgICAgICAgICBwcm92aWRlciA9IHByb3ZpZGVyTW9kZWwuc3Vic3RyaW5nKDAsIHNlcGFyYXRvciksCiAgICAgICAgICAgICAgICBtb2RlbCA9IHByb3ZpZGVyTW9kZWwuc3Vic3RyaW5nKHNlcGFyYXRvciArIDEpLAogICAgICAgICAgICAgICAgcmVxdWVzdENvdW50ID0gMUwsCiAgICAgICAgICAgICAgICB1bmNhY2hlZElucHV0VG9rZW5zID0gc25hcHNob3QudW5jYWNoZWRJbnB1dFRva2VucywKICAgICAgICAgICAgICAgIGNhY2hlZElucHV0VG9rZW5zID0gc25hcHNob3QuY2FjaGVkSW5wdXRUb2tlbnMsCiAgICAgICAgICAgICAgICBjYWNoZVdyaXRlVG9rZW5zID0KICAgICAgICAgICAgICAgICAgICBpZiAoc25hcHNob3QuY2FjaGVXcml0ZVNlcGFyYXRlQmlsbGluZykgc25hcHNob3QuY2FjaGVXcml0ZVRva2VucyBlbHNlIDBMLAogICAgICAgICAgICAgICAgdG90YWxJbnB1dFRva2VucyA9IHNuYXBzaG90LnRvdGFsSW5wdXRUb2tlbnMsCiAgICAgICAgICAgICAgICBvdXRwdXRUb2tlbnMgPSBwZXJzaXN0ZWRPdXRwdXRUb2tlbnMsCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGZ1biBtYXJrUGVyc2lzdGVkKCk6IEJvb2xlYW4gPSAhY2FuY2VsbGVkLmdldCgpICYmIGZpbmlzaGVkLmNvbXBhcmVBbmRTZXQoZmFsc2UsIHRydWUpCgogICAgICAgIHByaXZhdGUgZnVuIG1lcmdlKAogICAgICAgICAgICBwcmV2aW91czogUHJvdmlkZXJVc2FnZVNuYXBzaG90PywKICAgICAgICAgICAgdXBkYXRlOiBQcm92aWRlclVzYWdlU25hcHNob3QsCiAgICAgICAgKTogUHJvdmlkZXJVc2FnZVNuYXBzaG90IHsKICAgICAgICAgICAgaWYgKHByZXZpb3VzID09IG51bGwgfHwgdXBkYXRlLmNvbXBsZXRlU25hcHNob3QpIHJldHVybiB1cGRhdGUKICAgICAgICAgICAgcmV0dXJuIHVwZGF0ZS5jb3B5KAogICAgICAgICAgICAgICAgdW5jYWNoZWRJbnB1dFRva2VucyA9IHVwZGF0ZS51bmNhY2hlZElucHV0VG9rZW5zID86IHByZXZpb3VzLnVuY2FjaGVkSW5wdXRUb2tlbnMsCiAgICAgICAgICAgICAgICBjYWNoZWRJbnB1dFRva2VucyA9IHVwZGF0ZS5jYWNoZWRJbnB1dFRva2VucyA/OiBwcmV2aW91cy5jYWNoZWRJbnB1dFRva2VucywKICAgICAgICAgICAgICAgIGNhY2hlV3JpdGVUb2tlbnMgPSB1cGRhdGUuY2FjaGVXcml0ZVRva2VucyA/OiBwcmV2aW91cy5jYWNoZVdyaXRlVG9rZW5zLAogICAgICAgICAgICAgICAgdG90YWxJbnB1dFRva2VucyA9IHVwZGF0ZS50b3RhbElucHV0VG9rZW5zID86IHByZXZpb3VzLnRvdGFsSW5wdXRUb2tlbnMsCiAgICAgICAgICAgICAgICBvdXRwdXRUb2tlbnMgPSB1cGRhdGUub3V0cHV0VG9rZW5zID86IHByZXZpb3VzLm91dHB1dFRva2VucywKICAgICAgICAgICAgICAgIHJlYXNvbmluZ1Rva2VucyA9IHVwZGF0ZS5yZWFzb25pbmdUb2tlbnMgPzogcHJldmlvdXMucmVhc29uaW5nVG9rZW5zLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJUb2tlblRyYWNraW5nQUlTZXJ2aWNlIgoKICAgICAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHBlcnNpc3QoCiAgICAgICAgICAgIHJlcG9zaXRvcnk6IFRva2VuVXNhZ2VSZXBvc2l0b3J5LAogICAgICAgICAgICByZXF1ZXN0OiBSZXF1ZXN0VHJhY2tlciwKICAgICAgICAgICAgcmVjb3JkOiBUb2tlblVzYWdlUmVjb3JkRW50aXR5PywKICAgICAgICApIHsKICAgICAgICAgICAgaWYgKHJlY29yZCAhPSBudWxsICYmIHJlcXVlc3QubWFya1BlcnNpc3RlZCgpKSBwZXJzaXN0KHJlcG9zaXRvcnksIHJlY29yZCkKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gcGVyc2lzdCgKICAgICAgICAgICAgcmVwb3NpdG9yeTogVG9rZW5Vc2FnZVJlcG9zaXRvcnksCiAgICAgICAgICAgIHJlY29yZDogVG9rZW5Vc2FnZVJlY29yZEVudGl0eSwKICAgICAgICApIHsKICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8gKyBOb25DYW5jZWxsYWJsZSkgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICByZXBvc2l0b3J5LnJlY29yZChyZWNvcmQpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJ0b2tlbiB1c2FnZSBpbnNlcnQgZmFpbGVkIiwgZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gc2F0dXJhdGVkQWRkKGxlZnQ6IExvbmcsIHJpZ2h0OiBMb25nKTogTG9uZyA9CiAgICAgICAgICAgIGlmIChMb25nLk1BWF9WQUxVRSAtIGxlZnQgPCByaWdodCkgTG9uZy5NQVhfVkFMVUUgZWxzZSBsZWZ0ICsgcmlnaHQKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.data.model.ModelOption
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.model.TokenUsageRecordEntity
+import com.bslsjdk.operit.data.model.ToolPrompt
+import com.bslsjdk.operit.data.stats.ProviderUsageSnapshot
+import com.bslsjdk.operit.data.stats.TokenUsageRepository
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.stream.RevisableTextStream
+import com.bslsjdk.operit.util.stream.SharedStream
+import com.bslsjdk.operit.util.stream.Stream
+import com.bslsjdk.operit.util.stream.StreamCollector
+import com.bslsjdk.operit.util.stream.TextStreamEvent
+import com.bslsjdk.operit.util.stream.TextStreamEventCarrier
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.atomic.AtomicBoolean
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.NonCancellable
+import kotlinx.coroutines.currentCoroutineContext
+import kotlinx.coroutines.ensureActive
+import kotlinx.coroutines.withContext
+
+/** Records successful formal-inference requests with provider-confirmed usage. */
+class TokenTrackingAIService(
+    private val delegate: AIService,
+    context: Context,
+    private val configId: String,
+) : AIService {
+    private val repository = TokenUsageRepository.getInstance(context.applicationContext)
+    private val activeRequests = ConcurrentHashMap.newKeySet<RequestTracker>()
+    private val cancellationLock = Any()
+    private var cancellationEpoch = 0L
+
+    override val inputTokenCount: Long get() = delegate.inputTokenCount
+    override val cachedInputTokenCount: Long get() = delegate.cachedInputTokenCount
+    override val outputTokenCount: Long get() = delegate.outputTokenCount
+    override val providerModel: String get() = delegate.providerModel
+
+    override fun resetTokenCounts() = delegate.resetTokenCounts()
+    override fun cancelStreaming() {
+        synchronized(cancellationLock) {
+            cancellationEpoch += 1
+            activeRequests.forEach { request -> request.cancel() }
+        }
+        delegate.cancelStreaming()
+    }
+    override suspend fun getModelsList(context: Context): Result<List<ModelOption>> =
+        delegate.getModelsList(context)
+
+    override suspend fun calculateInputTokens(
+        chatHistory: List<PromptTurn>,
+        availableTools: List<ToolPrompt>?,
+    ): Long = delegate.calculateInputTokens(chatHistory, availableTools)
+
+    override fun release() = delegate.release()
+
+    override suspend fun sendMessage(
+        context: Context,
+        chatHistory: List<PromptTurn>,
+        modelParameters: List<ModelParameter<*>>,
+        enableThinking: Boolean,
+        stream: Boolean,
+        availableTools: List<ToolPrompt>?,
+        preserveThinkInHistory: Boolean,
+        onTokensUpdated: suspend (input: Long, cachedInput: Long, output: Long) -> Unit,
+        onUsageReported: (suspend (ProviderUsageSnapshot, attempt: Int) -> Unit)?,
+        onNonFatalError: suspend (error: String) -> Unit,
+        enableRetry: Boolean,
+        recordTokenUsage: Boolean,
+        onUsageFinalized: (suspend (attempt: Int?) -> Unit)?,
+    ): Stream<String> {
+        val request = RequestTracker(configId = configId, providerModel = providerModel)
+        val requestEpoch = synchronized(cancellationLock) { cancellationEpoch }
+        val onStarted: () -> Unit = {
+            synchronized(cancellationLock) {
+                if (cancellationEpoch != requestEpoch) {
+                    request.cancel()
+                }
+                activeRequests.add(request)
+                Unit
+            }
+        }
+        val onFinished: () -> Unit = {
+            synchronized(cancellationLock) {
+                activeRequests.remove(request)
+                Unit
+            }
+        }
+        val inner =
+            if (!recordTokenUsage) {
+                delegate.sendMessage(
+                    context = context,
+                    chatHistory = chatHistory,
+                    modelParameters = modelParameters,
+                    enableThinking = enableThinking,
+                    stream = stream,
+                    availableTools = availableTools,
+                    preserveThinkInHistory = preserveThinkInHistory,
+                    onTokensUpdated = onTokensUpdated,
+                    onUsageReported = onUsageReported,
+                    onNonFatalError = onNonFatalError,
+                    enableRetry = enableRetry,
+                    recordTokenUsage = false,
+                    onUsageFinalized = onUsageFinalized,
+                )
+            } else {
+                delegate.sendMessage(
+                    context = context,
+                    chatHistory = chatHistory,
+                    modelParameters = modelParameters,
+                    enableThinking = enableThinking,
+                    stream = stream,
+                    availableTools = availableTools,
+                    preserveThinkInHistory = preserveThinkInHistory,
+                    onTokensUpdated = onTokensUpdated,
+                    onUsageReported = { usage, attempt ->
+                        request.onUsage(usage, attempt)
+                        forwardUsageObserver(onUsageReported, usage, attempt)
+                    },
+                    onNonFatalError = onNonFatalError,
+                    enableRetry = enableRetry,
+                    recordTokenUsage = true,
+                    onUsageFinalized = { attempt ->
+                        request.onSuccess(attempt)
+                        forwardUsageFinalizedObserver(onUsageFinalized, attempt)
+                    },
+                )
+            }
+        return wrapStream(
+            inner = inner,
+            request = request,
+            onStarted = onStarted,
+            onFinished = onFinished,
+        )
+    }
+
+    override suspend fun testConnection(context: Context): Result<String> =
+        delegate.testConnection(context)
+
+    private suspend fun forwardUsageObserver(
+        observer: (suspend (ProviderUsageSnapshot, Int) -> Unit)?,
+        usage: ProviderUsageSnapshot,
+        attempt: Int,
+    ) {
+        val callback = observer ?: return
+        try {
+            callback(usage, attempt)
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "usage observer failed", e)
+        }
+    }
+
+    private suspend fun forwardUsageFinalizedObserver(
+        observer: (suspend (Int?) -> Unit)?,
+        attempt: Int?,
+    ) {
+        val callback = observer ?: return
+        try {
+            callback(attempt)
+        } catch (e: CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "usage completion observer failed", e)
+        }
+    }
+
+    private fun wrapStream(
+        inner: Stream<String>,
+        request: RequestTracker,
+        onStarted: () -> Unit,
+        onFinished: () -> Unit,
+    ): Stream<String> =
+        if (inner is TextStreamEventCarrier) {
+            TrackingRevisableStream(inner, inner.eventChannel, request, repository, onStarted, onFinished)
+        } else {
+            TrackingStream(inner, request, repository, onStarted, onFinished)
+        }
+
+    private class TrackingStream(
+        private val inner: Stream<String>,
+        private val request: RequestTracker,
+        private val repository: TokenUsageRepository,
+        private val onStarted: () -> Unit,
+        private val onFinished: () -> Unit,
+    ) : Stream<String> {
+        override val isLocked: Boolean get() = inner.isLocked
+        override val bufferedCount: Int get() = inner.bufferedCount
+        override suspend fun lock() = inner.lock()
+        override suspend fun unlock() = inner.unlock()
+        override fun clearBuffer() = inner.clearBuffer()
+
+        override suspend fun collect(collector: StreamCollector<String>) {
+            try {
+                onStarted()
+                request.throwIfCancelled()
+                inner.collect { value -> collector.emit(value) }
+                currentCoroutineContext().ensureActive()
+                persist(repository, request, request.finish())
+            } finally {
+                onFinished()
+            }
+        }
+    }
+
+    private class TrackingRevisableStream(
+        private val inner: Stream<String>,
+        override val eventChannel: SharedStream<TextStreamEvent>,
+        private val request: RequestTracker,
+        private val repository: TokenUsageRepository,
+        private val onStarted: () -> Unit,
+        private val onFinished: () -> Unit,
+    ) : RevisableTextStream {
+        override val isLocked: Boolean get() = inner.isLocked
+        override val bufferedCount: Int get() = inner.bufferedCount
+        override suspend fun lock() = inner.lock()
+        override suspend fun unlock() = inner.unlock()
+        override fun clearBuffer() = inner.clearBuffer()
+
+        override suspend fun collect(collector: StreamCollector<String>) {
+            try {
+                onStarted()
+                request.throwIfCancelled()
+                inner.collect { value -> collector.emit(value) }
+                currentCoroutineContext().ensureActive()
+                persist(repository, request, request.finish())
+            } finally {
+                onFinished()
+            }
+        }
+    }
+
+    private class RequestTracker(
+        private val configId: String,
+        private val providerModel: String,
+    ) {
+        private val startedAtMs = System.currentTimeMillis()
+        private val lock = Any()
+        private val attempts = linkedMapOf<Int, ProviderUsageSnapshot>()
+        private val finished = AtomicBoolean(false)
+        private val cancelled = AtomicBoolean(false)
+        private var successfulAttempt: Int? = null
+
+        fun onUsage(usage: ProviderUsageSnapshot, attempt: Int) {
+            synchronized(lock) {
+                val key = attempt.coerceAtLeast(1)
+                attempts[key] = merge(attempts[key], usage)
+            }
+        }
+
+        fun onSuccess(attempt: Int?) {
+            synchronized(lock) {
+                successfulAttempt = attempt?.coerceAtLeast(1)
+            }
+        }
+
+        fun cancel() {
+            cancelled.set(true)
+        }
+
+        fun throwIfCancelled() {
+            if (cancelled.get()) throw CancellationException("AI request was cancelled")
+        }
+
+        fun finish(): TokenUsageRecordEntity? {
+            if (cancelled.get()) return null
+            val snapshot =
+                synchronized(lock) {
+                    successfulAttempt?.let(attempts::get)
+                } ?: return null
+            if (cancelled.get()) return null
+            if (!snapshot.hasKnownFields()) return null
+
+            val separator = providerModel.indexOf(':')
+            require(separator > 0 && separator < providerModel.lastIndex) {
+                "provider:model is required for token usage events"
+            }
+            // 推理不再作为独立统计列落库；provider 明确将其独立于 output 上报时，
+            // 先并入持久化 output，保持总量与费用口径完整。
+            val reportedOutputTokens = snapshot.outputTokens
+            val persistedOutputTokens = when {
+                reportedOutputTokens != null && snapshot.reasoningIncludedInOutput == false ->
+                    snapshot.reasoningTokens?.let { saturatedAdd(reportedOutputTokens, it) }
+                reportedOutputTokens != null -> reportedOutputTokens
+                else -> null
+            }
+            if (snapshot.uncachedInputTokens == null &&
+                snapshot.cachedInputTokens == null &&
+                snapshot.cacheWriteTokens == null &&
+                snapshot.totalInputTokens == null &&
+                persistedOutputTokens == null
+            ) {
+                return null
+            }
+            return TokenUsageRecordEntity(
+                occurredAtMs = startedAtMs,
+                configId = configId,
+                provider = providerModel.substring(0, separator),
+                model = providerModel.substring(separator + 1),
+                requestCount = 1L,
+                uncachedInputTokens = snapshot.uncachedInputTokens,
+                cachedInputTokens = snapshot.cachedInputTokens,
+                cacheWriteTokens =
+                    if (snapshot.cacheWriteSeparateBilling) snapshot.cacheWriteTokens else 0L,
+                totalInputTokens = snapshot.totalInputTokens,
+                outputTokens = persistedOutputTokens,
+            )
+        }
+
+        fun markPersisted(): Boolean = !cancelled.get() && finished.compareAndSet(false, true)
+
+        private fun merge(
+            previous: ProviderUsageSnapshot?,
+            update: ProviderUsageSnapshot,
+        ): ProviderUsageSnapshot {
+            if (previous == null || update.completeSnapshot) return update
+            return update.copy(
+                uncachedInputTokens = update.uncachedInputTokens ?: previous.uncachedInputTokens,
+                cachedInputTokens = update.cachedInputTokens ?: previous.cachedInputTokens,
+                cacheWriteTokens = update.cacheWriteTokens ?: previous.cacheWriteTokens,
+                totalInputTokens = update.totalInputTokens ?: previous.totalInputTokens,
+                outputTokens = update.outputTokens ?: previous.outputTokens,
+                reasoningTokens = update.reasoningTokens ?: previous.reasoningTokens,
+            )
+        }
+    }
+
+    companion object {
+        private const val TAG = "TokenTrackingAIService"
+
+        private suspend fun persist(
+            repository: TokenUsageRepository,
+            request: RequestTracker,
+            record: TokenUsageRecordEntity?,
+        ) {
+            if (record != null && request.markPersisted()) persist(repository, record)
+        }
+
+        private suspend fun persist(
+            repository: TokenUsageRepository,
+            record: TokenUsageRecordEntity,
+        ) {
+            withContext(Dispatchers.IO + NonCancellable) {
+                try {
+                    repository.record(record)
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "token usage insert failed", e)
+                }
+            }
+        }
+
+        private fun saturatedAdd(left: Long, right: Long): Long =
+            if (Long.MAX_VALUE - left < right) Long.MAX_VALUE else left + right
+    }
+}

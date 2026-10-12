@@ -1,1 +1,245 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucy5tY3Audmlld21vZGVsCgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbFByb3ZpZGVyCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUudmlld01vZGVsU2NvcGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1jcC5JbnN0YWxsUHJvZ3Jlc3MKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1jcC5JbnN0YWxsUmVzdWx0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tY3AuTUNQUmVwb3NpdG9yeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubWNwLk1DUExvY2FsU2VydmVyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgoKLyoqIFZpZXdNb2RlbCBmb3IgTUNQIOacjeWKoeWZqOeuoeeQhu+8jOWMheaLrOWuieijheOAgeWNuOi9veetieWKn+iDvSAqLwpjbGFzcyBNQ1BWaWV3TW9kZWwoCiAgICBwcml2YXRlIHZhbCByZXBvc2l0b3J5OiBNQ1BSZXBvc2l0b3J5LAogICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dAopIDogVmlld01vZGVsKCkgewoKICAgIC8vIOW9k+WJjeWuieijhei/m+W6pgogICAgcHJpdmF0ZSB2YWwgX2luc3RhbGxQcm9ncmVzcyA9IE11dGFibGVTdGF0ZUZsb3c8SW5zdGFsbFByb2dyZXNzPz4obnVsbCkKICAgIHZhbCBpbnN0YWxsUHJvZ3Jlc3M6IFN0YXRlRmxvdzxJbnN0YWxsUHJvZ3Jlc3M/PiA9IF9pbnN0YWxsUHJvZ3Jlc3MuYXNTdGF0ZUZsb3coKQoKICAgIC8vIOWuieijhee7k+aenAogICAgcHJpdmF0ZSB2YWwgX2luc3RhbGxSZXN1bHQgPSBNdXRhYmxlU3RhdGVGbG93PEluc3RhbGxSZXN1bHQ/PihudWxsKQogICAgdmFsIGluc3RhbGxSZXN1bHQ6IFN0YXRlRmxvdzxJbnN0YWxsUmVzdWx0Pz4gPSBfaW5zdGFsbFJlc3VsdC5hc1N0YXRlRmxvdygpCgogICAgLy8g5b2T5YmN5q2j5Zyo5pON5L2c55qE5pyN5Yqh5ZmoCiAgICBwcml2YXRlIHZhbCBfY3VycmVudFNlcnZlciA9IE11dGFibGVTdGF0ZUZsb3c8TUNQTG9jYWxTZXJ2ZXIuUGx1Z2luTWV0YWRhdGE/PihudWxsKQogICAgdmFsIGN1cnJlbnRTZXJ2ZXI6IFN0YXRlRmxvdzxNQ1BMb2NhbFNlcnZlci5QbHVnaW5NZXRhZGF0YT8+ID0gX2N1cnJlbnRTZXJ2ZXIuYXNTdGF0ZUZsb3coKQoKICAgIC8vIOaPkuS7tuW3suWuieijhei3r+W+hOe8k+WtmAogICAgcHJpdmF0ZSB2YWwgaW5zdGFsbGVkUGF0aHNDYWNoZSA9IG11dGFibGVNYXBPZjxTdHJpbmcsIFN0cmluZz8+KCkKICAgIAogICAgLy8g5a2Y5YKo6YCJ5Lit55qEWklQ5paH5Lu2VVJJCiAgICBwcml2YXRlIHZhciBzZWxlY3RlZFppcFVyaTogVXJpPyA9IG51bGwKCiAgICBpbml0IHsKICAgICAgICAvLyDlkIzmraXlt7Llronoo4XnirbmgIEKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggeyByZXBvc2l0b3J5LnN5bmNJbnN0YWxsZWRTdGF0dXMoKSB9CiAgICB9CgogICAgLyoqIOWuieijheacjeWKoeWZqOaPkuS7tiAqLwogICAgZnVuIGluc3RhbGxTZXJ2ZXIoc2VydmVyOiBNQ1BMb2NhbFNlcnZlci5QbHVnaW5NZXRhZGF0YSkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIF9jdXJyZW50U2VydmVyLnZhbHVlID0gc2VydmVyCiAgICAgICAgICAgIF9pbnN0YWxsUHJvZ3Jlc3MudmFsdWUgPSBJbnN0YWxsUHJvZ3Jlc3MuUHJlcGFyaW5nCiAgICAgICAgICAgIF9pbnN0YWxsUmVzdWx0LnZhbHVlID0gbnVsbAoKICAgICAgICAgICAgdmFsIHJlc3VsdCA9CiAgICAgICAgICAgICAgICAgICAgcmVwb3NpdG9yeS5pbnN0YWxsTUNQU2VydmVyKHNlcnZlci5pZCkgeyBwcm9ncmVzcyAtPgogICAgICAgICAgICAgICAgICAgICAgICBfaW5zdGFsbFByb2dyZXNzLnZhbHVlID0gcHJvZ3Jlc3MKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICBfaW5zdGFsbFJlc3VsdC52YWx1ZSA9IHJlc3VsdAoKICAgICAgICAgICAgLy8g5riF6Zmk57yT5a2YCiAgICAgICAgICAgIGluc3RhbGxlZFBhdGhzQ2FjaGUucmVtb3ZlKHNlcnZlci5pZCkKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKiDlronoo4XmnI3liqHlmajmj5Lku7YgLSDkvb/nlKjmnI3liqHlmajlr7nosaHvvIjnlKjkuo7lr7zlhaVHaXQgVVJM77yJICovCiAgICBmdW4gaW5zdGFsbFNlcnZlcldpdGhPYmplY3Qoc2VydmVyOiBNQ1BMb2NhbFNlcnZlci5QbHVnaW5NZXRhZGF0YSkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIF9jdXJyZW50U2VydmVyLnZhbHVlID0gc2VydmVyCiAgICAgICAgICAgIF9pbnN0YWxsUHJvZ3Jlc3MudmFsdWUgPSBJbnN0YWxsUHJvZ3Jlc3MuUHJlcGFyaW5nCiAgICAgICAgICAgIF9pbnN0YWxsUmVzdWx0LnZhbHVlID0gbnVsbAoKICAgICAgICAgICAgdmFsIHJlc3VsdCA9CiAgICAgICAgICAgICAgICAgICAgcmVwb3NpdG9yeS5pbnN0YWxsTUNQU2VydmVyV2l0aE9iamVjdChzZXJ2ZXIpIHsgcHJvZ3Jlc3MgLT4KICAgICAgICAgICAgICAgICAgICAgICAgX2luc3RhbGxQcm9ncmVzcy52YWx1ZSA9IHByb2dyZXNzCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgX2luc3RhbGxSZXN1bHQudmFsdWUgPSByZXN1bHQKCiAgICAgICAgICAgIC8vIOa4hemZpOe8k+WtmAogICAgICAgICAgICBpbnN0YWxsZWRQYXRoc0NhY2hlLnJlbW92ZShzZXJ2ZXIuaWQpCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKiog5LuOWklQ5paH5Lu25a6J6KOF5pyN5Yqh5Zmo5o+S5Lu2ICovCiAgICBmdW4gaW5zdGFsbFNlcnZlckZyb21aaXAoc2VydmVyOiBNQ1BMb2NhbFNlcnZlci5QbHVnaW5NZXRhZGF0YSwgemlwRmlsZVBhdGg6IFN0cmluZykgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIF9jdXJyZW50U2VydmVyLnZhbHVlID0gc2VydmVyCiAgICAgICAgICAgIF9pbnN0YWxsUHJvZ3Jlc3MudmFsdWUgPSBJbnN0YWxsUHJvZ3Jlc3MuUHJlcGFyaW5nCiAgICAgICAgICAgIF9pbnN0YWxsUmVzdWx0LnZhbHVlID0gbnVsbAogICAgICAgICAgICAKICAgICAgICAgICAgaWYgKHNlbGVjdGVkWmlwVXJpID09IG51bGwpIHsKICAgICAgICAgICAgICAgIF9pbnN0YWxsUmVzdWx0LnZhbHVlID0gSW5zdGFsbFJlc3VsdC5FcnJvcihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tY3BfZXJyb3Jfbm9femlwX3NlbGVjdGVkKSkKICAgICAgICAgICAgICAgIF9pbnN0YWxsUHJvZ3Jlc3MudmFsdWUgPSBJbnN0YWxsUHJvZ3Jlc3MuRmluaXNoZWQKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHJlcG9zaXRvcnkuaW5zdGFsbE1DUFNlcnZlckZyb21aaXAoCiAgICAgICAgICAgICAgICBzZXJ2ZXIuaWQsCiAgICAgICAgICAgICAgICBzZWxlY3RlZFppcFVyaSEhLAogICAgICAgICAgICAgICAgc2VydmVyLm5hbWUsCiAgICAgICAgICAgICAgICBzZXJ2ZXIuZGVzY3JpcHRpb24sCiAgICAgICAgICAgICAgICBzZXJ2ZXIuYXV0aG9yCiAgICAgICAgICAgICkgeyBwcm9ncmVzcyAtPgogICAgICAgICAgICAgICAgX2luc3RhbGxQcm9ncmVzcy52YWx1ZSA9IHByb2dyZXNzCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIF9pbnN0YWxsUmVzdWx0LnZhbHVlID0gcmVzdWx0CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDlronoo4XlrozmiJDlkI7muIXpmaRVUkkKICAgICAgICAgICAgc2VsZWN0ZWRaaXBVcmkgPSBudWxsCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDmuIXpmaTnvJPlrZgKICAgICAgICAgICAgaW5zdGFsbGVkUGF0aHNDYWNoZS5yZW1vdmUoc2VydmVyLmlkKQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqIOiuvue9rumAieS4reeahFpJUOaWh+S7tlVSSSAqLwogICAgZnVuIHNldFNlbGVjdGVkWmlwVXJpKHVyaTogVXJpKSB7CiAgICAgICAgc2VsZWN0ZWRaaXBVcmkgPSB1cmkKICAgIH0KCiAgICAvKiog5Y246L295pyN5Yqh5Zmo5o+S5Lu2ICovCiAgICBmdW4gdW5pbnN0YWxsU2VydmVyKHNlcnZlcjogTUNQTG9jYWxTZXJ2ZXIuUGx1Z2luTWV0YWRhdGEpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBfY3VycmVudFNlcnZlci52YWx1ZSA9IHNlcnZlcgogICAgICAgICAgICBfaW5zdGFsbFByb2dyZXNzLnZhbHVlID0gSW5zdGFsbFByb2dyZXNzLlByZXBhcmluZwogICAgICAgICAgICBfaW5zdGFsbFJlc3VsdC52YWx1ZSA9IG51bGwKCiAgICAgICAgICAgIHZhbCBzdWNjZXNzID0gaWYgKHNlcnZlci50eXBlID09ICJyZW1vdGUiKSB7CiAgICAgICAgICAgICAgICByZXBvc2l0b3J5LnJlbW92ZVJlbW90ZVNlcnZlcihzZXJ2ZXIuaWQpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByZXBvc2l0b3J5LnVuaW5zdGFsbE1DUFNlcnZlcihzZXJ2ZXIuaWQpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIF9pbnN0YWxsUmVzdWx0LnZhbHVlID0KICAgICAgICAgICAgICAgICAgICBpZiAoc3VjY2VzcykgewogICAgICAgICAgICAgICAgICAgICAgICBJbnN0YWxsUmVzdWx0LlN1Y2Nlc3MoIiIpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgSW5zdGFsbFJlc3VsdC5FcnJvcihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tY3BfdW5pbnN0YWxsX2ZhaWxlZCkpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgX2luc3RhbGxQcm9ncmVzcy52YWx1ZSA9IEluc3RhbGxQcm9ncmVzcy5GaW5pc2hlZAoKICAgICAgICAgICAgLy8g5riF6Zmk57yT5a2YCiAgICAgICAgICAgIGluc3RhbGxlZFBhdGhzQ2FjaGUucmVtb3ZlKHNlcnZlci5pZCkKICAgICAgICB9CiAgICB9CgogICAgLyoqIEFkZHMgYSByZW1vdGUgc2VydmVyIHRvIHRoZSByZXBvc2l0b3J5ICovCiAgICBmdW4gYWRkUmVtb3RlU2VydmVyKHNlcnZlcjogTUNQTG9jYWxTZXJ2ZXIuUGx1Z2luTWV0YWRhdGEpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICByZXBvc2l0b3J5LmFkZFJlbW90ZVNlcnZlcihzZXJ2ZXIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiBVcGRhdGVzIGEgcmVtb3RlIHNlcnZlcidzIG1ldGFkYXRhICovCiAgICBmdW4gdXBkYXRlUmVtb3RlU2VydmVyKHNlcnZlcjogTUNQTG9jYWxTZXJ2ZXIuUGx1Z2luTWV0YWRhdGEpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICByZXBvc2l0b3J5LnVwZGF0ZVJlbW90ZVNlcnZlcihzZXJ2ZXIpCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGdlbmVyYXRlUGx1Z2luRGVzY3JpcHRpb24oCiAgICAgICAgc2VydmVyOiBNQ1BMb2NhbFNlcnZlci5QbHVnaW5NZXRhZGF0YSwKICAgICAgICBwbHVnaW5OYW1lOiBTdHJpbmcKICAgICk6IFJlc3VsdDxTdHJpbmc+IHsKICAgICAgICByZXR1cm4gcmVwb3NpdG9yeS5nZW5lcmF0ZVBsdWdpbkRlc2NyaXB0aW9uKAogICAgICAgICAgICBwbHVnaW5JZCA9IHNlcnZlci5pZCwKICAgICAgICAgICAgcGx1Z2luTmFtZSA9IHBsdWdpbk5hbWUKICAgICAgICApCiAgICB9CgogICAgLyoqIOmHjee9ruWuieijheeKtuaAgSAqLwogICAgZnVuIHJlc2V0SW5zdGFsbFN0YXRlKCkgewogICAgICAgIF9pbnN0YWxsUHJvZ3Jlc3MudmFsdWUgPSBudWxsCiAgICAgICAgX2luc3RhbGxSZXN1bHQudmFsdWUgPSBudWxsCiAgICAgICAgX2N1cnJlbnRTZXJ2ZXIudmFsdWUgPSBudWxsCiAgICB9CgogICAgLyoqIOiOt+WPluW3suWuieijheaPkuS7tueahOi3r+W+hCAqLwogICAgZnVuIGdldEluc3RhbGxlZFBhdGgoc2VydmVySWQ6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIC8vIOWFiOafpee8k+WtmAogICAgICAgIGlmIChpbnN0YWxsZWRQYXRoc0NhY2hlLmNvbnRhaW5zS2V5KHNlcnZlcklkKSkgewogICAgICAgICAgICByZXR1cm4gaW5zdGFsbGVkUGF0aHNDYWNoZVtzZXJ2ZXJJZF0KICAgICAgICB9CgogICAgICAgIC8vIOS7juWtmOWCqOW6k+afpeivogogICAgICAgIHZhbCBwYXRoID0gcmVwb3NpdG9yeS5nZXRJbnN0YWxsZWRQbHVnaW5QYXRoKHNlcnZlcklkKQogICAgICAgIGluc3RhbGxlZFBhdGhzQ2FjaGVbc2VydmVySWRdID0gcGF0aAogICAgICAgIHJldHVybiBwYXRoCiAgICB9CgogICAgLyoqIOiOt+WPluacrOWcsOaPkuS7tuS/oeaBr++8jOaXoOmcgOe9kee7nOivt+axgiAqLwogICAgZnVuIGdldExvY2FsUGx1Z2luRGV0YWlscyhzZXJ2ZXJJZDogU3RyaW5nKTogTUNQTG9jYWxTZXJ2ZXIuUGx1Z2luTWV0YWRhdGE/IHsKICAgICAgICAvLyDlpoLmnpzmj5Lku7bmsqHmnInlronoo4XvvIzov5Tlm55udWxsCiAgICAgICAgaWYgKCFyZXBvc2l0b3J5LmlzUGx1Z2luSW5zdGFsbGVkKHNlcnZlcklkKSkgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KCiAgICAgICAgLy8g5LuO5b2T5YmN5YiX6KGo5Lit5p+l5om+77yM6L+Z6YeM55qE5L+h5oGv5bey57uP6YCa6L+HdXBkYXRlSW5zdGFsbGVkU3RhdHVz5pu05paw6L+H77yMCiAgICAgICAgLy8g5YyF5ZCr5LqG5pys5Zyw5YWD5pWw5o2uCiAgICAgICAgcmV0dXJuIHJlcG9zaXRvcnkubWNwU2VydmVycy52YWx1ZS5maW5kIHsgaXQuaWQgPT0gc2VydmVySWQgfQogICAgfQoKICAgIC8qKiDliLfmlrDmnKzlnLDmj5Lku7bliJfooaggKi8KICAgIGZ1biByZWZyZXNoTG9jYWxQbHVnaW5zKCkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHJlcG9zaXRvcnkuc3luY0luc3RhbGxlZFN0YXR1cygpCiAgICAgICAgICAgIC8vIOa4hemZpOi3r+W+hOe8k+WtmO+8jOW8uuWItumHjeaWsOivu+WPlgogICAgICAgICAgICBpbnN0YWxsZWRQYXRoc0NhY2hlLmNsZWFyKCkKICAgICAgICB9CiAgICB9CgogICAgLyoqIOWIt+aWsOaPkuS7tuWIl+ihqCAqLwogICAgZnVuIHJlZnJlc2hQbHVnaW5MaXN0KCkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHJlcG9zaXRvcnkuc3luY0luc3RhbGxlZFN0YXR1cygpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDmo4Dmn6Xmj5Lku7bmmK/lkKblt7Llronoo4UgKi8KICAgIGZ1biBpc1BsdWdpbkluc3RhbGxlZChzZXJ2ZXJJZDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHJlcG9zaXRvcnkuaXNQbHVnaW5JbnN0YWxsZWQoc2VydmVySWQpCiAgICB9CgogICAgLyoqIOWQjOatpeaJgOacieaPkuS7tueahOWuieijheeKtuaAgSAqLwogICAgZnVuIHN5bmNJbnN0YWxsZWRTdGF0dXMoKSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsgcmVwb3NpdG9yeS5zeW5jSW5zdGFsbGVkU3RhdHVzKCkgfQogICAgfQoKICAgIC8qKiBWaWV3TW9kZWwgRmFjdG9yeSAqLwogICAgY2xhc3MgRmFjdG9yeSgKICAgICAgICBwcml2YXRlIHZhbCByZXBvc2l0b3J5OiBNQ1BSZXBvc2l0b3J5LAogICAgICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQKICAgICkgOiBWaWV3TW9kZWxQcm92aWRlci5GYWN0b3J5IHsKICAgICAgICBAU3VwcHJlc3MoIlVOQ0hFQ0tFRF9DQVNUIikKICAgICAgICBvdmVycmlkZSBmdW4gPFQgOiBWaWV3TW9kZWw+IGNyZWF0ZShtb2RlbENsYXNzOiBDbGFzczxUPik6IFQgewogICAgICAgICAgICBpZiAobW9kZWxDbGFzcy5pc0Fzc2lnbmFibGVGcm9tKE1DUFZpZXdNb2RlbDo6Y2xhc3MuamF2YSkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBNQ1BWaWV3TW9kZWwocmVwb3NpdG9yeSwgY29udGV4dCkgYXMgVAogICAgICAgICAgICB9CiAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiVW5rbm93biBWaWV3TW9kZWwgY2xhc3MiKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.packages.screens.mcp.viewmodel
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.data.mcp.InstallProgress
+import com.bslsjdk.operit.data.mcp.InstallResult
+import com.bslsjdk.operit.data.mcp.MCPRepository
+import com.bslsjdk.operit.data.mcp.MCPLocalServer
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import android.net.Uri
+import android.content.Context
+import com.bslsjdk.operit.R
+
+/** ViewModel for MCP 服务器管理，包括安装、卸载等功能 */
+class MCPViewModel(
+    private val repository: MCPRepository,
+    private val context: Context
+) : ViewModel() {
+
+    // 当前安装进度
+    private val _installProgress = MutableStateFlow<InstallProgress?>(null)
+    val installProgress: StateFlow<InstallProgress?> = _installProgress.asStateFlow()
+
+    // 安装结果
+    private val _installResult = MutableStateFlow<InstallResult?>(null)
+    val installResult: StateFlow<InstallResult?> = _installResult.asStateFlow()
+
+    // 当前正在操作的服务器
+    private val _currentServer = MutableStateFlow<MCPLocalServer.PluginMetadata?>(null)
+    val currentServer: StateFlow<MCPLocalServer.PluginMetadata?> = _currentServer.asStateFlow()
+
+    // 插件已安装路径缓存
+    private val installedPathsCache = mutableMapOf<String, String?>()
+    
+    // 存储选中的ZIP文件URI
+    private var selectedZipUri: Uri? = null
+
+    init {
+        // 同步已安装状态
+        viewModelScope.launch { repository.syncInstalledStatus() }
+    }
+
+    /** 安装服务器插件 */
+    fun installServer(server: MCPLocalServer.PluginMetadata) {
+        viewModelScope.launch {
+            _currentServer.value = server
+            _installProgress.value = InstallProgress.Preparing
+            _installResult.value = null
+
+            val result =
+                    repository.installMCPServer(server.id) { progress ->
+                        _installProgress.value = progress
+                    }
+
+            _installResult.value = result
+
+            // 清除缓存
+            installedPathsCache.remove(server.id)
+        }
+    }
+    
+    /** 安装服务器插件 - 使用服务器对象（用于导入Git URL） */
+    fun installServerWithObject(server: MCPLocalServer.PluginMetadata) {
+        viewModelScope.launch {
+            _currentServer.value = server
+            _installProgress.value = InstallProgress.Preparing
+            _installResult.value = null
+
+            val result =
+                    repository.installMCPServerWithObject(server) { progress ->
+                        _installProgress.value = progress
+                    }
+
+            _installResult.value = result
+
+            // 清除缓存
+            installedPathsCache.remove(server.id)
+        }
+    }
+    
+    /** 从ZIP文件安装服务器插件 */
+    fun installServerFromZip(server: MCPLocalServer.PluginMetadata, zipFilePath: String) {
+        viewModelScope.launch {
+            _currentServer.value = server
+            _installProgress.value = InstallProgress.Preparing
+            _installResult.value = null
+            
+            if (selectedZipUri == null) {
+                _installResult.value = InstallResult.Error(context.getString(R.string.mcp_error_no_zip_selected))
+                _installProgress.value = InstallProgress.Finished
+                return@launch
+            }
+
+            val result = repository.installMCPServerFromZip(
+                server.id,
+                selectedZipUri!!,
+                server.name,
+                server.description,
+                server.author
+            ) { progress ->
+                _installProgress.value = progress
+            }
+
+            _installResult.value = result
+            
+            // 安装完成后清除URI
+            selectedZipUri = null
+            
+            // 清除缓存
+            installedPathsCache.remove(server.id)
+        }
+    }
+    
+    /** 设置选中的ZIP文件URI */
+    fun setSelectedZipUri(uri: Uri) {
+        selectedZipUri = uri
+    }
+
+    /** 卸载服务器插件 */
+    fun uninstallServer(server: MCPLocalServer.PluginMetadata) {
+        viewModelScope.launch {
+            _currentServer.value = server
+            _installProgress.value = InstallProgress.Preparing
+            _installResult.value = null
+
+            val success = if (server.type == "remote") {
+                repository.removeRemoteServer(server.id)
+            } else {
+                repository.uninstallMCPServer(server.id)
+            }
+
+            _installResult.value =
+                    if (success) {
+                        InstallResult.Success("")
+                    } else {
+                        InstallResult.Error(context.getString(R.string.mcp_uninstall_failed))
+                    }
+
+            _installProgress.value = InstallProgress.Finished
+
+            // 清除缓存
+            installedPathsCache.remove(server.id)
+        }
+    }
+
+    /** Adds a remote server to the repository */
+    fun addRemoteServer(server: MCPLocalServer.PluginMetadata) {
+        viewModelScope.launch {
+            repository.addRemoteServer(server)
+        }
+    }
+
+    /** Updates a remote server's metadata */
+    fun updateRemoteServer(server: MCPLocalServer.PluginMetadata) {
+        viewModelScope.launch {
+            repository.updateRemoteServer(server)
+        }
+    }
+
+    suspend fun generatePluginDescription(
+        server: MCPLocalServer.PluginMetadata,
+        pluginName: String
+    ): Result<String> {
+        return repository.generatePluginDescription(
+            pluginId = server.id,
+            pluginName = pluginName
+        )
+    }
+
+    /** 重置安装状态 */
+    fun resetInstallState() {
+        _installProgress.value = null
+        _installResult.value = null
+        _currentServer.value = null
+    }
+
+    /** 获取已安装插件的路径 */
+    fun getInstalledPath(serverId: String): String? {
+        // 先查缓存
+        if (installedPathsCache.containsKey(serverId)) {
+            return installedPathsCache[serverId]
+        }
+
+        // 从存储库查询
+        val path = repository.getInstalledPluginPath(serverId)
+        installedPathsCache[serverId] = path
+        return path
+    }
+
+    /** 获取本地插件信息，无需网络请求 */
+    fun getLocalPluginDetails(serverId: String): MCPLocalServer.PluginMetadata? {
+        // 如果插件没有安装，返回null
+        if (!repository.isPluginInstalled(serverId)) {
+            return null
+        }
+
+        // 从当前列表中查找，这里的信息已经通过updateInstalledStatus更新过，
+        // 包含了本地元数据
+        return repository.mcpServers.value.find { it.id == serverId }
+    }
+
+    /** 刷新本地插件列表 */
+    fun refreshLocalPlugins() {
+        viewModelScope.launch {
+            repository.syncInstalledStatus()
+            // 清除路径缓存，强制重新读取
+            installedPathsCache.clear()
+        }
+    }
+
+    /** 刷新插件列表 */
+    fun refreshPluginList() {
+        viewModelScope.launch {
+            repository.syncInstalledStatus()
+        }
+    }
+
+    /** 检查插件是否已安装 */
+    fun isPluginInstalled(serverId: String): Boolean {
+        return repository.isPluginInstalled(serverId)
+    }
+
+    /** 同步所有插件的安装状态 */
+    fun syncInstalledStatus() {
+        viewModelScope.launch { repository.syncInstalledStatus() }
+    }
+
+    /** ViewModel Factory */
+    class Factory(
+        private val repository: MCPRepository,
+        private val context: Context
+    ) : ViewModelProvider.Factory {
+        @Suppress("UNCHECKED_CAST")
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(MCPViewModel::class.java)) {
+                return MCPViewModel(repository, context) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+}

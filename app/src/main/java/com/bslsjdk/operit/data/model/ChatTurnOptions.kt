@@ -1,1 +1,8 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKZGF0YSBjbGFzcyBDaGF0VHVybk9wdGlvbnMoCiAgICB2YWwgcGVyc2lzdFR1cm46IEJvb2xlYW4gPSB0cnVlLAogICAgdmFsIG5vdGlmeVJlcGx5OiBCb29sZWFuPyA9IG51bGwsCiAgICB2YWwgaGlkZVVzZXJNZXNzYWdlOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgZGlzYWJsZVdhcm5pbmc6IEJvb2xlYW4gPSBmYWxzZQopCg==
+package com.bslsjdk.operit.data.model
+
+data class ChatTurnOptions(
+    val persistTurn: Boolean = true,
+    val notifyReply: Boolean? = null,
+    val hideUserMessage: Boolean = false,
+    val disableWarning: Boolean = false
+)

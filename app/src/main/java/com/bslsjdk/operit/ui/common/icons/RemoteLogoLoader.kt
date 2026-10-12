@@ -1,1 +1,124 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmljb25zCgppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5CaXRtYXAKaW1wb3J0IGFuZHJvaWQudXRpbC5McnVDYWNoZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnByb2R1Y2VTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5JbWFnZUJpdG1hcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5hc0ltYWdlQml0bWFwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnBhaW50ZXIuQml0bWFwUGFpbnRlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5wYWludGVyLlBhaW50ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxEZW5zaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLmlvLkJ5dGVBcnJheU91dHB1dFN0cmVhbQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBva2h0dHAzLkh0dHBVcmwuQ29tcGFuaW9uLnRvSHR0cFVybE9yTnVsbAppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdAoKcHJpdmF0ZSBkYXRhIGNsYXNzIENhY2hlZExvZ28oCiAgICB2YWwgYnl0ZXM6IEJ5dGVBcnJheSwKICAgIHZhbCBjb250ZW50VHlwZTogU3RyaW5nPwopCgpvYmplY3QgUmVtb3RlTG9nb0xvYWRlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiUmVtb3RlTG9nb0xvYWRlciIKICAgIHByaXZhdGUgY29uc3QgdmFsIE1BWF9MT0dPX0JZVEVTID0gNTEyICogMTAyNEwKICAgIHByaXZhdGUgY29uc3QgdmFsIE1BWF9DQUNIRV9CWVRFUyA9IDQgKiAxMDI0ICogMTAyNAoKICAgIHByaXZhdGUgdmFsIGNhY2hlID0KICAgICAgICBvYmplY3QgOiBMcnVDYWNoZTxTdHJpbmcsIENhY2hlZExvZ28+KE1BWF9DQUNIRV9CWVRFUykgewogICAgICAgICAgICBvdmVycmlkZSBmdW4gc2l6ZU9mKGtleTogU3RyaW5nLCB2YWx1ZTogQ2FjaGVkTG9nbyk6IEludCB7CiAgICAgICAgICAgICAgICByZXR1cm4gdmFsdWUuYnl0ZXMuc2l6ZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIHByaXZhdGUgdmFsIGNsaWVudCBieSBsYXp5IHsKICAgICAgICBPa0h0dHBDbGllbnQuQnVpbGRlcigpCiAgICAgICAgICAgIC5jb25uZWN0VGltZW91dCgxNSwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAgICAgLnJlYWRUaW1lb3V0KDIwLCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAuZm9sbG93UmVkaXJlY3RzKHRydWUpCiAgICAgICAgICAgIC5mb2xsb3dTc2xSZWRpcmVjdHMoZmFsc2UpCiAgICAgICAgICAgIC5idWlsZCgpCiAgICB9CgogICAgZnVuIGxvYWQodXJsOiBTdHJpbmcsIHNpemVQeDogSW50KTogQml0bWFwPyB7CiAgICAgICAgdmFsIHBhcnNlZFVybCA9IHVybC50cmltKCkudG9IdHRwVXJsT3JOdWxsKCkgPzogcmV0dXJuIG51bGwKICAgICAgICBpZiAocGFyc2VkVXJsLnNjaGVtZSAhPSAiaHR0cHMiKSByZXR1cm4gbnVsbAoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGNhY2hlZCA9IHN5bmNocm9uaXplZChjYWNoZSkgeyBjYWNoZS5nZXQocGFyc2VkVXJsLnRvU3RyaW5nKCkpIH0KICAgICAgICAgICAgdmFsIGxvZ28gPQogICAgICAgICAgICAgICAgY2FjaGVkID86IGZldGNoKHBhcnNlZFVybC50b1N0cmluZygpKS5hbHNvIHsgdmFsdWUgLT4KICAgICAgICAgICAgICAgICAgICBpZiAodmFsdWUgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICBzeW5jaHJvbml6ZWQoY2FjaGUpIHsgY2FjaGUucHV0KHBhcnNlZFVybC50b1N0cmluZygpLCB2YWx1ZSkgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgbG9nbz8ubGV0IHsgdmFsdWUgLT4KICAgICAgICAgICAgICAgIExvZ29CaXRtYXBMb2FkZXIubG9hZCgKICAgICAgICAgICAgICAgICAgICBieXRlcyA9IHZhbHVlLmJ5dGVzLAogICAgICAgICAgICAgICAgICAgIG1pbWVUeXBlID0gdmFsdWUuY29udGVudFR5cGUsCiAgICAgICAgICAgICAgICAgICAgZmlsZU5hbWUgPSBwYXJzZWRVcmwuZW5jb2RlZFBhdGgsCiAgICAgICAgICAgICAgICAgICAgc2l6ZVB4ID0gc2l6ZVB4CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBsb2FkIHJlbW90ZSBsb2dvIGhvc3Q9JHtwYXJzZWRVcmwuaG9zdH0iLCBlcnJvcikKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBmZXRjaCh1cmw6IFN0cmluZyk6IENhY2hlZExvZ28/IHsKICAgICAgICB2YWwgcmVxdWVzdCA9IFJlcXVlc3QuQnVpbGRlcigpLnVybCh1cmwpLmdldCgpLmJ1aWxkKCkKICAgICAgICBjbGllbnQubmV3Q2FsbChyZXF1ZXN0KS5leGVjdXRlKCkudXNlIHsgcmVzcG9uc2UgLT4KICAgICAgICAgICAgaWYgKCFyZXNwb25zZS5pc1N1Y2Nlc3NmdWwpIHJldHVybiBudWxsCiAgICAgICAgICAgIHZhbCBib2R5ID0gcmVzcG9uc2UuYm9keSA/OiByZXR1cm4gbnVsbAogICAgICAgICAgICBpZiAoYm9keS5jb250ZW50TGVuZ3RoKCkgPiBNQVhfTE9HT19CWVRFUykgcmV0dXJuIG51bGwKICAgICAgICAgICAgdmFsIGJ5dGVzID0KICAgICAgICAgICAgICAgIGJvZHkuYnl0ZVN0cmVhbSgpLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIG91dHB1dCA9IEJ5dGVBcnJheU91dHB1dFN0cmVhbSgpCiAgICAgICAgICAgICAgICAgICAgdmFsIGJ1ZmZlciA9IEJ5dGVBcnJheSg4ICogMTAyNCkKICAgICAgICAgICAgICAgICAgICB2YXIgdG90YWxCeXRlcyA9IDBMCiAgICAgICAgICAgICAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNvdW50ID0gaW5wdXQucmVhZChidWZmZXIpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjb3VudCA8IDApIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFsQnl0ZXMgKz0gY291bnQKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHRvdGFsQnl0ZXMgPiBNQVhfTE9HT19CWVRFUykgcmV0dXJuIG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0LndyaXRlKGJ1ZmZlciwgMCwgY291bnQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIG91dHB1dC50b0J5dGVBcnJheSgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBDYWNoZWRMb2dvKAogICAgICAgICAgICAgICAgYnl0ZXMgPSBieXRlcywKICAgICAgICAgICAgICAgIGNvbnRlbnRUeXBlID0gcmVzcG9uc2UuaGVhZGVyKCJDb250ZW50LVR5cGUiKT8uc3Vic3RyaW5nQmVmb3JlKCc7Jyk/LnRyaW0oKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgpAQ29tcG9zYWJsZQpmdW4gcmVtZW1iZXJSZW1vdGVMb2dvUGFpbnRlcigKICAgIGxvZ29Vcmw6IFN0cmluZz8sCiAgICBzaXplOiBEcCA9IDI0LmRwCik6IFBhaW50ZXI/IHsKICAgIHZhbCBkZW5zaXR5ID0gTG9jYWxEZW5zaXR5LmN1cnJlbnQKICAgIHZhbCBzaXplUHggPSB3aXRoKGRlbnNpdHkpIHsgc2l6ZS5yb3VuZFRvUHgoKSB9CiAgICB2YWwgYml0bWFwIGJ5CiAgICAgICAgcHJvZHVjZVN0YXRlPEltYWdlQml0bWFwPz4oaW5pdGlhbFZhbHVlID0gbnVsbCwgbG9nb1VybCwgc2l6ZVB4KSB7CiAgICAgICAgICAgIHZhbHVlID0KICAgICAgICAgICAgICAgIGxvZ29VcmwKICAgICAgICAgICAgICAgICAgICA/LnRyaW0oKQogICAgICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgICAgICA/LmxldCB7IHVybCAtPgogICAgICAgICAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgUmVtb3RlTG9nb0xvYWRlci5sb2FkKHVybCwgc2l6ZVB4KT8uYXNJbWFnZUJpdG1hcCgpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgfQogICAgcmV0dXJuIGJpdG1hcD8ubGV0IHsgQml0bWFwUGFpbnRlcihpdCkgfQp9Cg==
+package com.bslsjdk.operit.ui.common.icons
+
+import android.graphics.Bitmap
+import android.util.LruCache
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
+import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.graphics.painter.BitmapPainter
+import androidx.compose.ui.graphics.painter.Painter
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.util.AppLogger
+import java.io.ByteArrayOutputStream
+import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.HttpUrl.Companion.toHttpUrlOrNull
+import okhttp3.OkHttpClient
+import okhttp3.Request
+
+private data class CachedLogo(
+    val bytes: ByteArray,
+    val contentType: String?
+)
+
+object RemoteLogoLoader {
+    private const val TAG = "RemoteLogoLoader"
+    private const val MAX_LOGO_BYTES = 512 * 1024L
+    private const val MAX_CACHE_BYTES = 4 * 1024 * 1024
+
+    private val cache =
+        object : LruCache<String, CachedLogo>(MAX_CACHE_BYTES) {
+            override fun sizeOf(key: String, value: CachedLogo): Int {
+                return value.bytes.size
+            }
+        }
+
+    private val client by lazy {
+        OkHttpClient.Builder()
+            .connectTimeout(15, TimeUnit.SECONDS)
+            .readTimeout(20, TimeUnit.SECONDS)
+            .followRedirects(true)
+            .followSslRedirects(false)
+            .build()
+    }
+
+    fun load(url: String, sizePx: Int): Bitmap? {
+        val parsedUrl = url.trim().toHttpUrlOrNull() ?: return null
+        if (parsedUrl.scheme != "https") return null
+
+        return try {
+            val cached = synchronized(cache) { cache.get(parsedUrl.toString()) }
+            val logo =
+                cached ?: fetch(parsedUrl.toString()).also { value ->
+                    if (value != null) {
+                        synchronized(cache) { cache.put(parsedUrl.toString(), value) }
+                    }
+                }
+            logo?.let { value ->
+                LogoBitmapLoader.load(
+                    bytes = value.bytes,
+                    mimeType = value.contentType,
+                    fileName = parsedUrl.encodedPath,
+                    sizePx = sizePx
+                )
+            }
+        } catch (error: Exception) {
+            AppLogger.e(TAG, "Failed to load remote logo host=${parsedUrl.host}", error)
+            null
+        }
+    }
+
+    private fun fetch(url: String): CachedLogo? {
+        val request = Request.Builder().url(url).get().build()
+        client.newCall(request).execute().use { response ->
+            if (!response.isSuccessful) return null
+            val body = response.body ?: return null
+            if (body.contentLength() > MAX_LOGO_BYTES) return null
+            val bytes =
+                body.byteStream().use { input ->
+                    val output = ByteArrayOutputStream()
+                    val buffer = ByteArray(8 * 1024)
+                    var totalBytes = 0L
+                    while (true) {
+                        val count = input.read(buffer)
+                        if (count < 0) break
+                        totalBytes += count
+                        if (totalBytes > MAX_LOGO_BYTES) return null
+                        output.write(buffer, 0, count)
+                    }
+                    output.toByteArray()
+                }
+            return CachedLogo(
+                bytes = bytes,
+                contentType = response.header("Content-Type")?.substringBefore(';')?.trim()
+            )
+        }
+    }
+}
+
+@Composable
+fun rememberRemoteLogoPainter(
+    logoUrl: String?,
+    size: Dp = 24.dp
+): Painter? {
+    val density = LocalDensity.current
+    val sizePx = with(density) { size.roundToPx() }
+    val bitmap by
+        produceState<ImageBitmap?>(initialValue = null, logoUrl, sizePx) {
+            value =
+                logoUrl
+                    ?.trim()
+                    ?.takeIf { it.isNotBlank() }
+                    ?.let { url ->
+                        withContext(Dispatchers.IO) {
+                            RemoteLogoLoader.load(url, sizePx)?.asImageBitmap()
+                        }
+                    }
+        }
+    return bitmap?.let { BitmapPainter(it) }
+}

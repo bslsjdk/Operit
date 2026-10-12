@@ -1,1 +1,152 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnNwZWVjaAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgoKZGF0YSBjbGFzcyBXYWtlUGhyYXNlU25hcHNob3QoCiAgICB2YWwgcGhyYXNlOiBTdHJpbmcsCiAgICB2YWwgcmVnZXhFbmFibGVkOiBCb29sZWFuLAopCgpvYmplY3QgU3BlZWNoUHJlcm9sbFN0b3JlIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJTcGVlY2hQcmVyb2xsU3RvcmUiCgogICAgcHJpdmF0ZSBjb25zdCB2YWwgU0FNUExFX1JBVEUgPSAxNjAwMAogICAgcHJpdmF0ZSBjb25zdCB2YWwgQ0FQQUNJVFlfTVMgPSAyNTAwCgogICAgcHJpdmF0ZSB2YWwgbG9jayA9IEFueSgpCgogICAgcHJpdmF0ZSB2YWwgY2FwYWNpdHlTYW1wbGVzOiBJbnQgPSAoU0FNUExFX1JBVEUgKiBDQVBBQ0lUWV9NUykgLyAxMDAwCiAgICBwcml2YXRlIHZhbCByaW5nOiBTaG9ydEFycmF5ID0gU2hvcnRBcnJheShjYXBhY2l0eVNhbXBsZXMpCgogICAgcHJpdmF0ZSB2YXIgd3JpdGVQb3M6IEludCA9IDAKICAgIHByaXZhdGUgdmFyIGZpbGxlZDogSW50ID0gMAoKICAgIHByaXZhdGUgdmFyIHBlbmRpbmc6IFNob3J0QXJyYXk/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgcGVuZGluZ0NhcHR1cmVkQXRNczogTG9uZyA9IDBMCiAgICBwcml2YXRlIHZhciBwZW5kaW5nQXJtZWQ6IEJvb2xlYW4gPSBmYWxzZQoKICAgIHByaXZhdGUgdmFyIHBlbmRpbmdXYWtlUGhyYXNlOiBTdHJpbmc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgcGVuZGluZ1dha2VQaHJhc2VSZWdleEVuYWJsZWQ6IEJvb2xlYW4gPSBmYWxzZQogICAgcHJpdmF0ZSB2YXIgcGVuZGluZ1dha2VQaHJhc2VBdE1zOiBMb25nID0gMEwKCiAgICBmdW4gYXBwZW5kUGNtKHBjbTogU2hvcnRBcnJheSwgbGVuZ3RoOiBJbnQpIHsKICAgICAgICBpZiAobGVuZ3RoIDw9IDApIHJldHVybgogICAgICAgIHZhbCBuID0gbWluT2YobGVuZ3RoLCBwY20uc2l6ZSkKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICB2YXIgaWR4ID0gMAogICAgICAgICAgICB3aGlsZSAoaWR4IDwgbikgewogICAgICAgICAgICAgICAgdmFsIHRvQ29weSA9IG1pbk9mKG4gLSBpZHgsIGNhcGFjaXR5U2FtcGxlcyAtIHdyaXRlUG9zKQogICAgICAgICAgICAgICAgamF2YS5sYW5nLlN5c3RlbS5hcnJheWNvcHkocGNtLCBpZHgsIHJpbmcsIHdyaXRlUG9zLCB0b0NvcHkpCiAgICAgICAgICAgICAgICB3cml0ZVBvcyArPSB0b0NvcHkKICAgICAgICAgICAgICAgIGlmICh3cml0ZVBvcyA+PSBjYXBhY2l0eVNhbXBsZXMpIHdyaXRlUG9zID0gMAogICAgICAgICAgICAgICAgZmlsbGVkID0gbWluT2YoY2FwYWNpdHlTYW1wbGVzLCBmaWxsZWQgKyB0b0NvcHkpCiAgICAgICAgICAgICAgICBpZHggKz0gdG9Db3B5CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGNhcHR1cmVQZW5kaW5nKHdpbmRvd01zOiBJbnQgPSAxNjAwKSB7CiAgICAgICAgdmFsIG5vdyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgdmFsIHJlcXVlc3RlZCA9ICgoU0FNUExFX1JBVEUgKiB3aW5kb3dNcykgLyAxMDAwKS5jb2VyY2VBdExlYXN0KDApCiAgICAgICAgdmFsIHNuYXBzaG90OiBTaG9ydEFycmF5PwogICAgICAgIHN5bmNocm9uaXplZChsb2NrKSB7CiAgICAgICAgICAgIHZhbCBhdmFpbGFibGUgPSBmaWxsZWQKICAgICAgICAgICAgaWYgKGF2YWlsYWJsZSA8PSAwIHx8IHJlcXVlc3RlZCA8PSAwKSB7CiAgICAgICAgICAgICAgICBzbmFwc2hvdCA9IG51bGwKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHZhbCB0YWtlID0gbWluT2YoYXZhaWxhYmxlLCByZXF1ZXN0ZWQpCiAgICAgICAgICAgICAgICB2YWwgb3V0ID0gU2hvcnRBcnJheSh0YWtlKQogICAgICAgICAgICAgICAgdmFsIHN0YXJ0ID0gKCh3cml0ZVBvcyAtIHRha2UpICUgY2FwYWNpdHlTYW1wbGVzICsgY2FwYWNpdHlTYW1wbGVzKSAlIGNhcGFjaXR5U2FtcGxlcwogICAgICAgICAgICAgICAgdmFsIGZpcnN0TGVuID0gbWluT2YodGFrZSwgY2FwYWNpdHlTYW1wbGVzIC0gc3RhcnQpCiAgICAgICAgICAgICAgICBqYXZhLmxhbmcuU3lzdGVtLmFycmF5Y29weShyaW5nLCBzdGFydCwgb3V0LCAwLCBmaXJzdExlbikKICAgICAgICAgICAgICAgIHZhbCByZW1haW4gPSB0YWtlIC0gZmlyc3RMZW4KICAgICAgICAgICAgICAgIGlmIChyZW1haW4gPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgamF2YS5sYW5nLlN5c3RlbS5hcnJheWNvcHkocmluZywgMCwgb3V0LCBmaXJzdExlbiwgcmVtYWluKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgc25hcHNob3QgPSBvdXQKICAgICAgICAgICAgfQoKICAgICAgICAgICAgcGVuZGluZyA9IHNuYXBzaG90CiAgICAgICAgICAgIHBlbmRpbmdDYXB0dXJlZEF0TXMgPSBub3cKICAgICAgICAgICAgcGVuZGluZ0FybWVkID0gZmFsc2UKICAgICAgICB9CgogICAgICAgIGlmIChzbmFwc2hvdCAhPSBudWxsKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkNhcHR1cmVkIHBlbmRpbmcgcHJlcm9sbDogc2FtcGxlcz0ke3NuYXBzaG90LnNpemV9LCBtcz0ke3NuYXBzaG90LnNpemUgKiAxMDAwIC8gU0FNUExFX1JBVEV9IikKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJDYXB0dXJlZCBwZW5kaW5nIHByZXJvbGw6IGVtcHR5IikKICAgICAgICB9CiAgICB9CgogICAgZnVuIGNvbnN1bWVQZW5kaW5nKG1heEFnZU1zOiBMb25nID0gMTBfMDAwTCk6IFNob3J0QXJyYXk/IHsKICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICBpZiAoIXBlbmRpbmdBcm1lZCkgcmV0dXJuIG51bGwKICAgICAgICAgICAgdmFsIHAgPSBwZW5kaW5nID86IHJldHVybiBudWxsCiAgICAgICAgICAgIGlmIChub3cgLSBwZW5kaW5nQ2FwdHVyZWRBdE1zID4gbWF4QWdlTXMpIHsKICAgICAgICAgICAgICAgIHBlbmRpbmcgPSBudWxsCiAgICAgICAgICAgICAgICBwZW5kaW5nQ2FwdHVyZWRBdE1zID0gMEwKICAgICAgICAgICAgICAgIHBlbmRpbmdBcm1lZCA9IGZhbHNlCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgICAgIHBlbmRpbmcgPSBudWxsCiAgICAgICAgICAgIHBlbmRpbmdDYXB0dXJlZEF0TXMgPSAwTAogICAgICAgICAgICBwZW5kaW5nQXJtZWQgPSBmYWxzZQogICAgICAgICAgICByZXR1cm4gcAogICAgICAgIH0KICAgIH0KCiAgICBmdW4gYXJtUGVuZGluZygpIHsKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICBwZW5kaW5nQXJtZWQgPSBwZW5kaW5nICE9IG51bGwKICAgICAgICB9CiAgICB9CgogICAgZnVuIHNldFBlbmRpbmdXYWtlUGhyYXNlKHBocmFzZTogU3RyaW5nLCByZWdleEVuYWJsZWQ6IEJvb2xlYW4pIHsKICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICBwZW5kaW5nV2FrZVBocmFzZSA9IHBocmFzZQogICAgICAgICAgICBwZW5kaW5nV2FrZVBocmFzZVJlZ2V4RW5hYmxlZCA9IHJlZ2V4RW5hYmxlZAogICAgICAgICAgICBwZW5kaW5nV2FrZVBocmFzZUF0TXMgPSBub3cKICAgICAgICB9CiAgICB9CgogICAgZnVuIGNvbnN1bWVQZW5kaW5nV2FrZVBocmFzZShtYXhBZ2VNczogTG9uZyA9IDEwXzAwMEwpOiBXYWtlUGhyYXNlU25hcHNob3Q/IHsKICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICB2YWwgcGhyYXNlID0gcGVuZGluZ1dha2VQaHJhc2UgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgaWYgKG5vdyAtIHBlbmRpbmdXYWtlUGhyYXNlQXRNcyA+IG1heEFnZU1zKSB7CiAgICAgICAgICAgICAgICBwZW5kaW5nV2FrZVBocmFzZSA9IG51bGwKICAgICAgICAgICAgICAgIHBlbmRpbmdXYWtlUGhyYXNlQXRNcyA9IDBMCiAgICAgICAgICAgICAgICBwZW5kaW5nV2FrZVBocmFzZVJlZ2V4RW5hYmxlZCA9IGZhbHNlCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgICAgIHBlbmRpbmdXYWtlUGhyYXNlID0gbnVsbAogICAgICAgICAgICBwZW5kaW5nV2FrZVBocmFzZUF0TXMgPSAwTAogICAgICAgICAgICB2YWwgcmVnZXhFbmFibGVkID0gcGVuZGluZ1dha2VQaHJhc2VSZWdleEVuYWJsZWQKICAgICAgICAgICAgcGVuZGluZ1dha2VQaHJhc2VSZWdleEVuYWJsZWQgPSBmYWxzZQogICAgICAgICAgICByZXR1cm4gV2FrZVBocmFzZVNuYXBzaG90KHBocmFzZSA9IHBocmFzZSwgcmVnZXhFbmFibGVkID0gcmVnZXhFbmFibGVkKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gY2xlYXJQZW5kaW5nV2FrZVBocmFzZSgpIHsKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICBwZW5kaW5nV2FrZVBocmFzZSA9IG51bGwKICAgICAgICAgICAgcGVuZGluZ1dha2VQaHJhc2VSZWdleEVuYWJsZWQgPSBmYWxzZQogICAgICAgICAgICBwZW5kaW5nV2FrZVBocmFzZUF0TXMgPSAwTAogICAgICAgIH0KICAgIH0KCiAgICBmdW4gY2xlYXIoKSB7CiAgICAgICAgc3luY2hyb25pemVkKGxvY2spIHsKICAgICAgICAgICAgd3JpdGVQb3MgPSAwCiAgICAgICAgICAgIGZpbGxlZCA9IDAKICAgICAgICAgICAgcGVuZGluZyA9IG51bGwKICAgICAgICAgICAgcGVuZGluZ0NhcHR1cmVkQXRNcyA9IDBMCiAgICAgICAgICAgIHBlbmRpbmdBcm1lZCA9IGZhbHNlCiAgICAgICAgICAgIHBlbmRpbmdXYWtlUGhyYXNlID0gbnVsbAogICAgICAgICAgICBwZW5kaW5nV2FrZVBocmFzZVJlZ2V4RW5hYmxlZCA9IGZhbHNlCiAgICAgICAgICAgIHBlbmRpbmdXYWtlUGhyYXNlQXRNcyA9IDBMCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.speech
+
+import com.bslsjdk.operit.util.AppLogger
+
+data class WakePhraseSnapshot(
+    val phrase: String,
+    val regexEnabled: Boolean,
+)
+
+object SpeechPrerollStore {
+    private const val TAG = "SpeechPrerollStore"
+
+    private const val SAMPLE_RATE = 16000
+    private const val CAPACITY_MS = 2500
+
+    private val lock = Any()
+
+    private val capacitySamples: Int = (SAMPLE_RATE * CAPACITY_MS) / 1000
+    private val ring: ShortArray = ShortArray(capacitySamples)
+
+    private var writePos: Int = 0
+    private var filled: Int = 0
+
+    private var pending: ShortArray? = null
+    private var pendingCapturedAtMs: Long = 0L
+    private var pendingArmed: Boolean = false
+
+    private var pendingWakePhrase: String? = null
+    private var pendingWakePhraseRegexEnabled: Boolean = false
+    private var pendingWakePhraseAtMs: Long = 0L
+
+    fun appendPcm(pcm: ShortArray, length: Int) {
+        if (length <= 0) return
+        val n = minOf(length, pcm.size)
+        synchronized(lock) {
+            var idx = 0
+            while (idx < n) {
+                val toCopy = minOf(n - idx, capacitySamples - writePos)
+                java.lang.System.arraycopy(pcm, idx, ring, writePos, toCopy)
+                writePos += toCopy
+                if (writePos >= capacitySamples) writePos = 0
+                filled = minOf(capacitySamples, filled + toCopy)
+                idx += toCopy
+            }
+        }
+    }
+
+    fun capturePending(windowMs: Int = 1600) {
+        val now = System.currentTimeMillis()
+        val requested = ((SAMPLE_RATE * windowMs) / 1000).coerceAtLeast(0)
+        val snapshot: ShortArray?
+        synchronized(lock) {
+            val available = filled
+            if (available <= 0 || requested <= 0) {
+                snapshot = null
+            } else {
+                val take = minOf(available, requested)
+                val out = ShortArray(take)
+                val start = ((writePos - take) % capacitySamples + capacitySamples) % capacitySamples
+                val firstLen = minOf(take, capacitySamples - start)
+                java.lang.System.arraycopy(ring, start, out, 0, firstLen)
+                val remain = take - firstLen
+                if (remain > 0) {
+                    java.lang.System.arraycopy(ring, 0, out, firstLen, remain)
+                }
+                snapshot = out
+            }
+
+            pending = snapshot
+            pendingCapturedAtMs = now
+            pendingArmed = false
+        }
+
+        if (snapshot != null) {
+            AppLogger.d(TAG, "Captured pending preroll: samples=${snapshot.size}, ms=${snapshot.size * 1000 / SAMPLE_RATE}")
+        } else {
+            AppLogger.d(TAG, "Captured pending preroll: empty")
+        }
+    }
+
+    fun consumePending(maxAgeMs: Long = 10_000L): ShortArray? {
+        val now = System.currentTimeMillis()
+        synchronized(lock) {
+            if (!pendingArmed) return null
+            val p = pending ?: return null
+            if (now - pendingCapturedAtMs > maxAgeMs) {
+                pending = null
+                pendingCapturedAtMs = 0L
+                pendingArmed = false
+                return null
+            }
+            pending = null
+            pendingCapturedAtMs = 0L
+            pendingArmed = false
+            return p
+        }
+    }
+
+    fun armPending() {
+        synchronized(lock) {
+            pendingArmed = pending != null
+        }
+    }
+
+    fun setPendingWakePhrase(phrase: String, regexEnabled: Boolean) {
+        val now = System.currentTimeMillis()
+        synchronized(lock) {
+            pendingWakePhrase = phrase
+            pendingWakePhraseRegexEnabled = regexEnabled
+            pendingWakePhraseAtMs = now
+        }
+    }
+
+    fun consumePendingWakePhrase(maxAgeMs: Long = 10_000L): WakePhraseSnapshot? {
+        val now = System.currentTimeMillis()
+        synchronized(lock) {
+            val phrase = pendingWakePhrase ?: return null
+            if (now - pendingWakePhraseAtMs > maxAgeMs) {
+                pendingWakePhrase = null
+                pendingWakePhraseAtMs = 0L
+                pendingWakePhraseRegexEnabled = false
+                return null
+            }
+            pendingWakePhrase = null
+            pendingWakePhraseAtMs = 0L
+            val regexEnabled = pendingWakePhraseRegexEnabled
+            pendingWakePhraseRegexEnabled = false
+            return WakePhraseSnapshot(phrase = phrase, regexEnabled = regexEnabled)
+        }
+    }
+
+    fun clearPendingWakePhrase() {
+        synchronized(lock) {
+            pendingWakePhrase = null
+            pendingWakePhraseRegexEnabled = false
+            pendingWakePhraseAtMs = 0L
+        }
+    }
+
+    fun clear() {
+        synchronized(lock) {
+            writePos = 0
+            filled = 0
+            pending = null
+            pendingCapturedAtMs = 0L
+            pendingArmed = false
+            pendingWakePhrase = null
+            pendingWakePhraseRegexEnabled = false
+            pendingWakePhraseAtMs = 0L
+        }
+    }
+}

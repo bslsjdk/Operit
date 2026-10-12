@@ -1,1 +1,262 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5Qcm9tcHRUdXJuCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdFR1cm5LaW5kCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbFBhcmFtZXRlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFByb21wdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5JbWFnZVBvb2xNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5PcGVyaXRQYXRocwppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLm5pby5maWxlLkZpbGVzCmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudAppbXBvcnQgb2todHRwMy5SZXF1ZXN0Qm9keQppbXBvcnQgb2tpby5CdWZmZXIKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IG9yZy5qdW5pdC5BZnRlcgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LkJlZm9yZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5tb2NraXRvLmtvdGxpbi5tb2NrCgpjbGFzcyBEZWVwc2Vla1Byb3ZpZGVyTWVkaWFSb2xlVGVzdCB7CgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgaW1hZ2VQb29sUm9vdDogRmlsZQogICAgcHJpdmF0ZSB2YXIgcHJldmlvdXNTeXN0ZW1Mb2dFbmFibGVkID0gdHJ1ZQogICAgcHJpdmF0ZSB2YXIgcHJldmlvdXNGaWxlTG9nRW5hYmxlZCA9IHRydWUKCiAgICBAQmVmb3JlCiAgICBmdW4gc2V0VXBJbWFnZVBvb2woKSB7CiAgICAgICAgcHJldmlvdXNTeXN0ZW1Mb2dFbmFibGVkID0gQXBwTG9nZ2VyLmVuYWJsZVN5c3RlbUxvZwogICAgICAgIHByZXZpb3VzRmlsZUxvZ0VuYWJsZWQgPSBBcHBMb2dnZXIuZW5hYmxlRmlsZUxvZ2dpbmcKICAgICAgICBBcHBMb2dnZXIuZW5hYmxlU3lzdGVtTG9nID0gZmFsc2UKICAgICAgICBBcHBMb2dnZXIuZW5hYmxlRmlsZUxvZ2dpbmcgPSBmYWxzZQoKICAgICAgICBpbWFnZVBvb2xSb290ID0gRmlsZXMuY3JlYXRlVGVtcERpcmVjdG9yeSgiZGVlcHNlZWstbWVkaWEtcm9sZS10ZXN0IikudG9GaWxlKCkKICAgICAgICBJbWFnZVBvb2xNYW5hZ2VyLmluaXRpYWxpemUoaW1hZ2VQb29sUm9vdCwgcHJlbG9hZE5vdyA9IGZhbHNlKQogICAgICAgIHZhbCBwb29sRGlyZWN0b3J5ID0gT3Blcml0UGF0aHMuaW1hZ2VQb29sRGlyKGltYWdlUG9vbFJvb3QpCiAgICAgICAgRmlsZShwb29sRGlyZWN0b3J5LCAiJElNQUdFX0lELmRhdCIpLndyaXRlVGV4dChJTUFHRV9CQVNFNjQpCiAgICAgICAgRmlsZShwb29sRGlyZWN0b3J5LCAiJElNQUdFX0lELm1ldGEiKS53cml0ZVRleHQoCiAgICAgICAgICAgICIiInsibWltZVR5cGUiOiJpbWFnZS9wbmciLCJ3aWR0aCI6MSwiaGVpZ2h0IjoxfSIiIgogICAgICAgICkKICAgIH0KCiAgICBAQWZ0ZXIKICAgIGZ1biB0ZWFyRG93bkltYWdlUG9vbCgpIHsKICAgICAgICBJbWFnZVBvb2xNYW5hZ2VyLmNsZWFyKCkKICAgICAgICBpbWFnZVBvb2xSb290LmRlbGV0ZVJlY3Vyc2l2ZWx5KCkKICAgICAgICBBcHBMb2dnZXIuZW5hYmxlU3lzdGVtTG9nID0gcHJldmlvdXNTeXN0ZW1Mb2dFbmFibGVkCiAgICAgICAgQXBwTG9nZ2VyLmVuYWJsZUZpbGVMb2dnaW5nID0gcHJldmlvdXNGaWxlTG9nRW5hYmxlZAogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYERlZXBTZWVrIGtlZXBzIGhpc3RvcnkgaW1hZ2VzIHJlYWRhYmxlIHRocm91Z2ggdXNlciBpbWFnZSBpbnB1dHNgKCkgewogICAgICAgIHZhbCBoaXN0b3J5ID0KICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgUHJvbXB0VHVybigKICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuS2luZC5VU0VSLAogICAgICAgICAgICAgICAgICAgICJ1c2VyIHRleHQ8bGluayB0eXBlPVwiaW1hZ2VcIiBpZD1cIiRJTUFHRV9JRFwiPkltYWdlPC9saW5rPiIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm5LaW5kLkFTU0lTVEFOVCwKICAgICAgICAgICAgICAgICAgICAiYXNzaXN0YW50IHRleHQ8bGluayBpZD1cIiRJTUFHRV9JRFwiIHR5cGU9XCJpbWFnZVwiPkltYWdlPC9saW5rPiIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm5LaW5kLlRPT0xfUkVTVUxULAogICAgICAgICAgICAgICAgICAgICJ0b29sIHRleHQ8bGluayB0eXBlPVwiaW1hZ2VcIiBpZD1cIiRJTUFHRV9JRFwiPkltYWdlPC9saW5rPiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgICAgICB2YWwgcmVxdWVzdCA9IGJ1aWxkUmVxdWVzdEpzb24oaGlzdG9yeSkKICAgICAgICB2YWwgbWVzc2FnZXMgPSByZXF1ZXN0LmdldEpTT05BcnJheSgibWVzc2FnZXMiKQogICAgICAgIGFzc2VydEVxdWFscyg0LCBtZXNzYWdlcy5sZW5ndGgoKSkKCiAgICAgICAgdmFsIHVzZXJDb250ZW50ID0gbWVzc2FnZXMuZ2V0SlNPTk9iamVjdCgwKS5nZXRKU09OQXJyYXkoImNvbnRlbnQiKQogICAgICAgIGFzc2VydEVxdWFscygiaW1hZ2VfdXJsIiwgdXNlckNvbnRlbnQuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJkYXRhOmltYWdlL3BuZztiYXNlNjQsJElNQUdFX0JBU0U2NCIsCiAgICAgICAgICAgIHVzZXJDb250ZW50LmdldEpTT05PYmplY3QoMCkuZ2V0SlNPTk9iamVjdCgiaW1hZ2VfdXJsIikuZ2V0U3RyaW5nKCJ1cmwiKQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoInVzZXIgdGV4dCIsIHVzZXJDb250ZW50LmdldEpTT05PYmplY3QoMSkuZ2V0U3RyaW5nKCJ0ZXh0IikpCgogICAgICAgIHZhbCBhc3Npc3RhbnRNZXNzYWdlID0gbWVzc2FnZXMuZ2V0SlNPTk9iamVjdCgxKQogICAgICAgIGFzc2VydEVxdWFscygiYXNzaXN0YW50IiwgYXNzaXN0YW50TWVzc2FnZS5nZXRTdHJpbmcoInJvbGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImFzc2lzdGFudCB0ZXh0IiwgYXNzaXN0YW50TWVzc2FnZS5nZXRTdHJpbmcoImNvbnRlbnQiKSkKCiAgICAgICAgdmFsIGFzc2lzdGFudEltYWdlTWVzc2FnZSA9IG1lc3NhZ2VzLmdldEpTT05PYmplY3QoMikKICAgICAgICBhc3NlcnRFcXVhbHMoInVzZXIiLCBhc3Npc3RhbnRJbWFnZU1lc3NhZ2UuZ2V0U3RyaW5nKCJyb2xlIikpCiAgICAgICAgdmFsIGFzc2lzdGFudEltYWdlQ29udGVudCA9IGFzc2lzdGFudEltYWdlTWVzc2FnZS5nZXRKU09OQXJyYXkoImNvbnRlbnQiKQogICAgICAgIGFzc2VydEVxdWFscygidGV4dCIsIGFzc2lzdGFudEltYWdlQ29udGVudC5nZXRKU09OT2JqZWN0KDApLmdldFN0cmluZygidHlwZSIpKQogICAgICAgIGFzc2VydFRydWUoYXNzaXN0YW50SW1hZ2VDb250ZW50LmdldEpTT05PYmplY3QoMCkuZ2V0U3RyaW5nKCJ0ZXh0IikuY29udGFpbnMoImFzc2lzdGFudCIpKQogICAgICAgIGFzc2VydEVxdWFscygiaW1hZ2VfdXJsIiwgYXNzaXN0YW50SW1hZ2VDb250ZW50LmdldEpTT05PYmplY3QoMSkuZ2V0U3RyaW5nKCJ0eXBlIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LCRJTUFHRV9CQVNFNjQiLAogICAgICAgICAgICBhc3Npc3RhbnRJbWFnZUNvbnRlbnQuZ2V0SlNPTk9iamVjdCgxKS5nZXRKU09OT2JqZWN0KCJpbWFnZV91cmwiKS5nZXRTdHJpbmcoInVybCIpCiAgICAgICAgKQoKICAgICAgICB2YWwgdG9vbEhpc3RvcnlNZXNzYWdlID0gbWVzc2FnZXMuZ2V0SlNPTk9iamVjdCgzKQogICAgICAgIGFzc2VydEVxdWFscygidXNlciIsIHRvb2xIaXN0b3J5TWVzc2FnZS5nZXRTdHJpbmcoInJvbGUiKSkKICAgICAgICB2YWwgdG9vbEhpc3RvcnlDb250ZW50ID0gdG9vbEhpc3RvcnlNZXNzYWdlLmdldEpTT05BcnJheSgiY29udGVudCIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJpbWFnZV91cmwiLCB0b29sSGlzdG9yeUNvbnRlbnQuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJkYXRhOmltYWdlL3BuZztiYXNlNjQsJElNQUdFX0JBU0U2NCIsCiAgICAgICAgICAgIHRvb2xIaXN0b3J5Q29udGVudC5nZXRKU09OT2JqZWN0KDApLmdldEpTT05PYmplY3QoImltYWdlX3VybCIpLmdldFN0cmluZygidXJsIikKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0b29sIHRleHQiLCB0b29sSGlzdG9yeUNvbnRlbnQuZ2V0SlNPTk9iamVjdCgxKS5nZXRTdHJpbmcoInRleHQiKSkKCiAgICAgICAgYXNzZXJ0RmFsc2UocmVxdWVzdC50b1N0cmluZygpLmNvbnRhaW5zKCI8bGluayIpKQogICAgICAgIGFzc2VydFRydWUocmVxdWVzdC50b1N0cmluZygpLmNvbnRhaW5zKCJpbWFnZV91cmwiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBEZWVwU2VlayBlbWl0cyBzdHJ1Y3R1cmVkIHRvb2wgcmVzdWx0IGltYWdlcyBhcyByZWFkYWJsZSB1c2VyIGlucHV0YCgpIHsKICAgICAgICB2YWwgaGlzdG9yeSA9CiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIFByb21wdFR1cm4oCiAgICAgICAgICAgICAgICAgICAgUHJvbXB0VHVybktpbmQuVE9PTF9DQUxMLAogICAgICAgICAgICAgICAgICAgICIiIjx0b29sIG5hbWU9InJlYWRfZmlsZSI+PHBhcmFtIG5hbWU9InBhdGgiPi90bXAvaW1hZ2UucG5nPC9wYXJhbT48L3Rvb2w+IiIiCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgUHJvbXB0VHVybigKICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuS2luZC5UT09MX1JFU1VMVCwKICAgICAgICAgICAgICAgICAgICAiIiI8dG9vbF9yZXN1bHQgbmFtZT0icmVhZF9maWxlIj48Y29udGVudD50b29sIHRleHQ8bGluayB0eXBlPSJpbWFnZSIgaWQ9IiRJTUFHRV9JRCI+SW1hZ2U8L2xpbms+PC9jb250ZW50PjwvdG9vbF9yZXN1bHQ+IiIiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKCiAgICAgICAgdmFsIHJlcXVlc3QgPQogICAgICAgICAgICBidWlsZFJlcXVlc3RKc29uKAogICAgICAgICAgICAgICAgaGlzdG9yeSA9IGhpc3RvcnksCiAgICAgICAgICAgICAgICBlbmFibGVUb29sQ2FsbCA9IHRydWUsCiAgICAgICAgICAgICAgICBhdmFpbGFibGVUb29scyA9IGxpc3RPZihUb29sUHJvbXB0KG5hbWUgPSAicmVhZF9maWxlIiwgZGVzY3JpcHRpb24gPSAiUmVhZCBhIGZpbGUiKSkKICAgICAgICAgICAgKQogICAgICAgIHZhbCBtZXNzYWdlcyA9IHJlcXVlc3QuZ2V0SlNPTkFycmF5KCJtZXNzYWdlcyIpCiAgICAgICAgdmFsIHRvb2xNZXNzYWdlID0KICAgICAgICAgICAgKDAgdW50aWwgbWVzc2FnZXMubGVuZ3RoKCkpCiAgICAgICAgICAgICAgICAubWFwIHsgbWVzc2FnZXMuZ2V0SlNPTk9iamVjdChpdCkgfQogICAgICAgICAgICAgICAgLnNpbmdsZSB7IGl0LmdldFN0cmluZygicm9sZSIpID09ICJ0b29sIiB9CgogICAgICAgIGFzc2VydEVxdWFscygidG9vbCB0ZXh0IiwgdG9vbE1lc3NhZ2UuZ2V0U3RyaW5nKCJjb250ZW50IikpCgogICAgICAgIHZhbCBpbWFnZU1lc3NhZ2UgPQogICAgICAgICAgICAoMCB1bnRpbCBtZXNzYWdlcy5sZW5ndGgoKSkKICAgICAgICAgICAgICAgIC5tYXAgeyBtZXNzYWdlcy5nZXRKU09OT2JqZWN0KGl0KSB9CiAgICAgICAgICAgICAgICAuc2luZ2xlIHsKICAgICAgICAgICAgICAgICAgICBpdC5nZXRTdHJpbmcoInJvbGUiKSA9PSAidXNlciIgJiYKICAgICAgICAgICAgICAgICAgICAgICAgaXQub3B0SlNPTkFycmF5KCJjb250ZW50Iik/LnRvU3RyaW5nKCk/LmNvbnRhaW5zKCJpbWFnZV91cmwiKSA9PSB0cnVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgdmFsIGltYWdlQ29udGVudCA9IGltYWdlTWVzc2FnZS5nZXRKU09OQXJyYXkoImNvbnRlbnQiKQogICAgICAgIGFzc2VydEVxdWFscygidGV4dCIsIGltYWdlQ29udGVudC5nZXRKU09OT2JqZWN0KDApLmdldFN0cmluZygidHlwZSIpKQogICAgICAgIGFzc2VydFRydWUoaW1hZ2VDb250ZW50LmdldEpTT05PYmplY3QoMCkuZ2V0U3RyaW5nKCJ0ZXh0IikuY29udGFpbnMoInRvb2wgcmVzdWx0IikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJpbWFnZV91cmwiLCBpbWFnZUNvbnRlbnQuZ2V0SlNPTk9iamVjdCgxKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJkYXRhOmltYWdlL3BuZztiYXNlNjQsJElNQUdFX0JBU0U2NCIsCiAgICAgICAgICAgIGltYWdlQ29udGVudC5nZXRKU09OT2JqZWN0KDEpLmdldEpTT05PYmplY3QoImltYWdlX3VybCIpLmdldFN0cmluZygidXJsIikKICAgICAgICApCgogICAgICAgIGFzc2VydEZhbHNlKHJlcXVlc3QudG9TdHJpbmcoKS5jb250YWlucygiPGxpbmsiKSkKICAgICAgICBhc3NlcnRUcnVlKHJlcXVlc3QudG9TdHJpbmcoKS5jb250YWlucygiaW1hZ2VfdXJsIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgT3BlbkFJIFJlc3BvbnNlcyBrZWVwcyBzdHJ1Y3R1cmVkIHRvb2wgcmVzdWx0IGltYWdlcyBpbiBmdW5jdGlvbiBvdXRwdXRgKCkgewogICAgICAgIHZhbCBoaXN0b3J5ID0KICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgUHJvbXB0VHVybigKICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuS2luZC5UT09MX0NBTEwsCiAgICAgICAgICAgICAgICAgICAgIiIiPHRvb2wgbmFtZT0icmVhZF9maWxlIj48cGFyYW0gbmFtZT0icGF0aCI+L3RtcC9pbWFnZS5wbmc8L3BhcmFtPjwvdG9vbD4iIiIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm5LaW5kLlRPT0xfUkVTVUxULAogICAgICAgICAgICAgICAgICAgICIiIjx0b29sX3Jlc3VsdCBuYW1lPSJyZWFkX2ZpbGUiPjxjb250ZW50PnRvb2wgdGV4dDxsaW5rIHR5cGU9ImltYWdlIiBpZD0iJElNQUdFX0lEIj5JbWFnZTwvbGluaz48L2NvbnRlbnQ+PC90b29sX3Jlc3VsdD4iIiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgICAgICB2YWwgcmVxdWVzdCA9CiAgICAgICAgICAgIGJ1aWxkUmVzcG9uc2VzUmVxdWVzdEpzb24oCiAgICAgICAgICAgICAgICBoaXN0b3J5ID0gaGlzdG9yeSwKICAgICAgICAgICAgICAgIGF2YWlsYWJsZVRvb2xzID0gbGlzdE9mKFRvb2xQcm9tcHQobmFtZSA9ICJyZWFkX2ZpbGUiLCBkZXNjcmlwdGlvbiA9ICJSZWFkIGEgZmlsZSIpKQogICAgICAgICAgICApCiAgICAgICAgdmFsIGlucHV0ID0gcmVxdWVzdC5nZXRKU09OQXJyYXkoImlucHV0IikKICAgICAgICB2YWwgZnVuY3Rpb25PdXRwdXQgPQogICAgICAgICAgICAoMCB1bnRpbCBpbnB1dC5sZW5ndGgoKSkKICAgICAgICAgICAgICAgIC5tYXAgeyBpbnB1dC5nZXRKU09OT2JqZWN0KGl0KSB9CiAgICAgICAgICAgICAgICAuc2luZ2xlIHsgaXQuZ2V0U3RyaW5nKCJ0eXBlIikgPT0gImZ1bmN0aW9uX2NhbGxfb3V0cHV0IiB9CiAgICAgICAgdmFsIG91dHB1dCA9IGZ1bmN0aW9uT3V0cHV0LmdldEpTT05BcnJheSgib3V0cHV0IikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJpbnB1dF9pbWFnZSIsIG91dHB1dC5nZXRKU09OT2JqZWN0KDApLmdldFN0cmluZygidHlwZSIpKQogICAgICAgIGFzc2VydEVxdWFscygiZGF0YTppbWFnZS9wbmc7YmFzZTY0LCRJTUFHRV9CQVNFNjQiLCBvdXRwdXQuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoImltYWdlX3VybCIpKQogICAgICAgIGFzc2VydEVxdWFscygiaW5wdXRfdGV4dCIsIG91dHB1dC5nZXRKU09OT2JqZWN0KDEpLmdldFN0cmluZygidHlwZSIpKQogICAgICAgIGFzc2VydEVxdWFscygidG9vbCB0ZXh0Iiwgb3V0cHV0LmdldEpTT05PYmplY3QoMSkuZ2V0U3RyaW5nKCJ0ZXh0IikpCiAgICAgICAgYXNzZXJ0RmFsc2UocmVxdWVzdC50b1N0cmluZygpLmNvbnRhaW5zKCI8bGluayIpKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkUmVxdWVzdEpzb24oCiAgICAgICAgaGlzdG9yeTogTGlzdDxQcm9tcHRUdXJuPiwKICAgICAgICBlbmFibGVUb29sQ2FsbDogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIGF2YWlsYWJsZVRvb2xzOiBMaXN0PFRvb2xQcm9tcHQ+PyA9IG51bGwKICAgICk6IEpTT05PYmplY3QgewogICAgICAgIHZhbCBwcm92aWRlciA9CiAgICAgICAgICAgIERlZXBzZWVrUHJvdmlkZXIoCiAgICAgICAgICAgICAgICBhcGlFbmRwb2ludCA9ICJodHRwczovL2V4YW1wbGUudGVzdC92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgICAgIGFwaUtleVByb3ZpZGVyID0gU2luZ2xlQXBpS2V5UHJvdmlkZXIoInRlc3Qta2V5IiksCiAgICAgICAgICAgICAgICBtb2RlbE5hbWUgPSAiZGVlcHNlZWstdGVzdCIsCiAgICAgICAgICAgICAgICBjbGllbnQgPSBPa0h0dHBDbGllbnQoKSwKICAgICAgICAgICAgICAgIHN1cHBvcnRzVmlzaW9uID0gdHJ1ZSwKICAgICAgICAgICAgICAgIGVuYWJsZVRvb2xDYWxsID0gZW5hYmxlVG9vbENhbGwKICAgICAgICAgICAgKQogICAgICAgIHZhbCBtZXRob2QgPQogICAgICAgICAgICBEZWVwc2Vla1Byb3ZpZGVyOjpjbGFzcy5qYXZhLmRlY2xhcmVkTWV0aG9kcy5zaW5nbGUgewogICAgICAgICAgICAgICAgaXQubmFtZSA9PSAiY3JlYXRlUmVxdWVzdEJvZHkiICYmIGl0LnBhcmFtZXRlckNvdW50ID09IDcKICAgICAgICAgICAgfQogICAgICAgIG1ldGhvZC5pc0FjY2Vzc2libGUgPSB0cnVlCiAgICAgICAgdmFsIGJvZHkgPQogICAgICAgICAgICBtZXRob2QuaW52b2tlKAogICAgICAgICAgICAgICAgcHJvdmlkZXIsCiAgICAgICAgICAgICAgICBtb2NrPENvbnRleHQ+KCksCiAgICAgICAgICAgICAgICBoaXN0b3J5LAogICAgICAgICAgICAgICAgZW1wdHlMaXN0PE1vZGVsUGFyYW1ldGVyPCo+PigpLAogICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgIGF2YWlsYWJsZVRvb2xzLAogICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgKSBhcyBSZXF1ZXN0Qm9keQogICAgICAgIHZhbCBidWZmZXIgPSBCdWZmZXIoKQogICAgICAgIGJvZHkud3JpdGVUbyhidWZmZXIpCiAgICAgICAgcmV0dXJuIEpTT05PYmplY3QoYnVmZmVyLnJlYWRVdGY4KCkpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGRSZXNwb25zZXNSZXF1ZXN0SnNvbigKICAgICAgICBoaXN0b3J5OiBMaXN0PFByb21wdFR1cm4+LAogICAgICAgIGF2YWlsYWJsZVRvb2xzOiBMaXN0PFRvb2xQcm9tcHQ+CiAgICApOiBKU09OT2JqZWN0IHsKICAgICAgICB2YWwgcHJvdmlkZXIgPQogICAgICAgICAgICBPcGVuQUlSZXNwb25zZXNQcm92aWRlcigKICAgICAgICAgICAgICAgIHJlc3BvbnNlc0FwaUVuZHBvaW50ID0gImh0dHBzOi8vZXhhbXBsZS50ZXN0L3YxL3Jlc3BvbnNlcyIsCiAgICAgICAgICAgICAgICBhcGlLZXlQcm92aWRlciA9IFNpbmdsZUFwaUtleVByb3ZpZGVyKCJ0ZXN0LWtleSIpLAogICAgICAgICAgICAgICAgbW9kZWxOYW1lID0gIm9wZW5haS1yZXNwb25zZXMtdGVzdCIsCiAgICAgICAgICAgICAgICBjbGllbnQgPSBPa0h0dHBDbGllbnQoKSwKICAgICAgICAgICAgICAgIHN1cHBvcnRzVmlzaW9uID0gdHJ1ZSwKICAgICAgICAgICAgICAgIGVuYWJsZVRvb2xDYWxsID0gdHJ1ZQogICAgICAgICAgICApCiAgICAgICAgdmFsIGJvZHkgPQogICAgICAgICAgICBwcm92aWRlci5jcmVhdGVSZXF1ZXN0Qm9keSgKICAgICAgICAgICAgICAgIGNvbnRleHQgPSBtb2NrPENvbnRleHQ+KCksCiAgICAgICAgICAgICAgICBjaGF0SGlzdG9yeSA9IGhpc3RvcnksCiAgICAgICAgICAgICAgICBtb2RlbFBhcmFtZXRlcnMgPSBlbXB0eUxpc3Q8TW9kZWxQYXJhbWV0ZXI8Kj4+KCksCiAgICAgICAgICAgICAgICBlbmFibGVUaGlua2luZyA9IGZhbHNlLAogICAgICAgICAgICAgICAgc3RyZWFtID0gZmFsc2UsCiAgICAgICAgICAgICAgICBhdmFpbGFibGVUb29scyA9IGF2YWlsYWJsZVRvb2xzLAogICAgICAgICAgICAgICAgcHJlc2VydmVUaGlua0luSGlzdG9yeSA9IGZhbHNlCiAgICAgICAgICAgICkKICAgICAgICB2YWwgYnVmZmVyID0gQnVmZmVyKCkKICAgICAgICBib2R5LndyaXRlVG8oYnVmZmVyKQogICAgICAgIHJldHVybiBKU09OT2JqZWN0KGJ1ZmZlci5yZWFkVXRmOCgpKQogICAgfQoKICAgIHByaXZhdGUgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgY29uc3QgdmFsIElNQUdFX0lEID0gImltYWdlLXByZXNlbnQiCiAgICAgICAgY29uc3QgdmFsIElNQUdFX0JBU0U2NCA9ICJhVzFoWjJVPSIKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.core.chat.hooks.PromptTurnKind
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.model.ToolPrompt
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.ImagePoolManager
+import com.bslsjdk.operit.util.OperitPaths
+import java.io.File
+import java.nio.file.Files
+import okhttp3.OkHttpClient
+import okhttp3.RequestBody
+import okio.Buffer
+import org.json.JSONObject
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Before
+import org.junit.Test
+import org.mockito.kotlin.mock
+
+class DeepseekProviderMediaRoleTest {
+
+    private lateinit var imagePoolRoot: File
+    private var previousSystemLogEnabled = true
+    private var previousFileLogEnabled = true
+
+    @Before
+    fun setUpImagePool() {
+        previousSystemLogEnabled = AppLogger.enableSystemLog
+        previousFileLogEnabled = AppLogger.enableFileLogging
+        AppLogger.enableSystemLog = false
+        AppLogger.enableFileLogging = false
+
+        imagePoolRoot = Files.createTempDirectory("deepseek-media-role-test").toFile()
+        ImagePoolManager.initialize(imagePoolRoot, preloadNow = false)
+        val poolDirectory = OperitPaths.imagePoolDir(imagePoolRoot)
+        File(poolDirectory, "$IMAGE_ID.dat").writeText(IMAGE_BASE64)
+        File(poolDirectory, "$IMAGE_ID.meta").writeText(
+            """{"mimeType":"image/png","width":1,"height":1}"""
+        )
+    }
+
+    @After
+    fun tearDownImagePool() {
+        ImagePoolManager.clear()
+        imagePoolRoot.deleteRecursively()
+        AppLogger.enableSystemLog = previousSystemLogEnabled
+        AppLogger.enableFileLogging = previousFileLogEnabled
+    }
+
+    @Test
+    fun `DeepSeek keeps history images readable through user image inputs`() {
+        val history =
+            listOf(
+                PromptTurn(
+                    PromptTurnKind.USER,
+                    "user text<link type=\"image\" id=\"$IMAGE_ID\">Image</link>"
+                ),
+                PromptTurn(
+                    PromptTurnKind.ASSISTANT,
+                    "assistant text<link id=\"$IMAGE_ID\" type=\"image\">Image</link>"
+                ),
+                PromptTurn(
+                    PromptTurnKind.TOOL_RESULT,
+                    "tool text<link type=\"image\" id=\"$IMAGE_ID\">Image</link>"
+                )
+            )
+
+        val request = buildRequestJson(history)
+        val messages = request.getJSONArray("messages")
+        assertEquals(4, messages.length())
+
+        val userContent = messages.getJSONObject(0).getJSONArray("content")
+        assertEquals("image_url", userContent.getJSONObject(0).getString("type"))
+        assertEquals(
+            "data:image/png;base64,$IMAGE_BASE64",
+            userContent.getJSONObject(0).getJSONObject("image_url").getString("url")
+        )
+        assertEquals("user text", userContent.getJSONObject(1).getString("text"))
+
+        val assistantMessage = messages.getJSONObject(1)
+        assertEquals("assistant", assistantMessage.getString("role"))
+        assertEquals("assistant text", assistantMessage.getString("content"))
+
+        val assistantImageMessage = messages.getJSONObject(2)
+        assertEquals("user", assistantImageMessage.getString("role"))
+        val assistantImageContent = assistantImageMessage.getJSONArray("content")
+        assertEquals("text", assistantImageContent.getJSONObject(0).getString("type"))
+        assertTrue(assistantImageContent.getJSONObject(0).getString("text").contains("assistant"))
+        assertEquals("image_url", assistantImageContent.getJSONObject(1).getString("type"))
+        assertEquals(
+            "data:image/png;base64,$IMAGE_BASE64",
+            assistantImageContent.getJSONObject(1).getJSONObject("image_url").getString("url")
+        )
+
+        val toolHistoryMessage = messages.getJSONObject(3)
+        assertEquals("user", toolHistoryMessage.getString("role"))
+        val toolHistoryContent = toolHistoryMessage.getJSONArray("content")
+        assertEquals("image_url", toolHistoryContent.getJSONObject(0).getString("type"))
+        assertEquals(
+            "data:image/png;base64,$IMAGE_BASE64",
+            toolHistoryContent.getJSONObject(0).getJSONObject("image_url").getString("url")
+        )
+        assertEquals("tool text", toolHistoryContent.getJSONObject(1).getString("text"))
+
+        assertFalse(request.toString().contains("<link"))
+        assertTrue(request.toString().contains("image_url"))
+    }
+
+    @Test
+    fun `DeepSeek emits structured tool result images as readable user input`() {
+        val history =
+            listOf(
+                PromptTurn(
+                    PromptTurnKind.TOOL_CALL,
+                    """<tool name="read_file"><param name="path">/tmp/image.png</param></tool>"""
+                ),
+                PromptTurn(
+                    PromptTurnKind.TOOL_RESULT,
+                    """<tool_result name="read_file"><content>tool text<link type="image" id="$IMAGE_ID">Image</link></content></tool_result>"""
+                )
+            )
+
+        val request =
+            buildRequestJson(
+                history = history,
+                enableToolCall = true,
+                availableTools = listOf(ToolPrompt(name = "read_file", description = "Read a file"))
+            )
+        val messages = request.getJSONArray("messages")
+        val toolMessage =
+            (0 until messages.length())
+                .map { messages.getJSONObject(it) }
+                .single { it.getString("role") == "tool" }
+
+        assertEquals("tool text", toolMessage.getString("content"))
+
+        val imageMessage =
+            (0 until messages.length())
+                .map { messages.getJSONObject(it) }
+                .single {
+                    it.getString("role") == "user" &&
+                        it.optJSONArray("content")?.toString()?.contains("image_url") == true
+                }
+        val imageContent = imageMessage.getJSONArray("content")
+        assertEquals("text", imageContent.getJSONObject(0).getString("type"))
+        assertTrue(imageContent.getJSONObject(0).getString("text").contains("tool result"))
+        assertEquals("image_url", imageContent.getJSONObject(1).getString("type"))
+        assertEquals(
+            "data:image/png;base64,$IMAGE_BASE64",
+            imageContent.getJSONObject(1).getJSONObject("image_url").getString("url")
+        )
+
+        assertFalse(request.toString().contains("<link"))
+        assertTrue(request.toString().contains("image_url"))
+    }
+
+    @Test
+    fun `OpenAI Responses keeps structured tool result images in function output`() {
+        val history =
+            listOf(
+                PromptTurn(
+                    PromptTurnKind.TOOL_CALL,
+                    """<tool name="read_file"><param name="path">/tmp/image.png</param></tool>"""
+                ),
+                PromptTurn(
+                    PromptTurnKind.TOOL_RESULT,
+                    """<tool_result name="read_file"><content>tool text<link type="image" id="$IMAGE_ID">Image</link></content></tool_result>"""
+                )
+            )
+
+        val request =
+            buildResponsesRequestJson(
+                history = history,
+                availableTools = listOf(ToolPrompt(name = "read_file", description = "Read a file"))
+            )
+        val input = request.getJSONArray("input")
+        val functionOutput =
+            (0 until input.length())
+                .map { input.getJSONObject(it) }
+                .single { it.getString("type") == "function_call_output" }
+        val output = functionOutput.getJSONArray("output")
+
+        assertEquals("input_image", output.getJSONObject(0).getString("type"))
+        assertEquals("data:image/png;base64,$IMAGE_BASE64", output.getJSONObject(0).getString("image_url"))
+        assertEquals("input_text", output.getJSONObject(1).getString("type"))
+        assertEquals("tool text", output.getJSONObject(1).getString("text"))
+        assertFalse(request.toString().contains("<link"))
+    }
+
+    private fun buildRequestJson(
+        history: List<PromptTurn>,
+        enableToolCall: Boolean = false,
+        availableTools: List<ToolPrompt>? = null
+    ): JSONObject {
+        val provider =
+            DeepseekProvider(
+                apiEndpoint = "https://example.test/v1/chat/completions",
+                apiKeyProvider = SingleApiKeyProvider("test-key"),
+                modelName = "deepseek-test",
+                client = OkHttpClient(),
+                supportsVision = true,
+                enableToolCall = enableToolCall
+            )
+        val method =
+            DeepseekProvider::class.java.declaredMethods.single {
+                it.name == "createRequestBody" && it.parameterCount == 7
+            }
+        method.isAccessible = true
+        val body =
+            method.invoke(
+                provider,
+                mock<Context>(),
+                history,
+                emptyList<ModelParameter<*>>(),
+                false,
+                false,
+                availableTools,
+                false
+            ) as RequestBody
+        val buffer = Buffer()
+        body.writeTo(buffer)
+        return JSONObject(buffer.readUtf8())
+    }
+
+    private fun buildResponsesRequestJson(
+        history: List<PromptTurn>,
+        availableTools: List<ToolPrompt>
+    ): JSONObject {
+        val provider =
+            OpenAIResponsesProvider(
+                responsesApiEndpoint = "https://example.test/v1/responses",
+                apiKeyProvider = SingleApiKeyProvider("test-key"),
+                modelName = "openai-responses-test",
+                client = OkHttpClient(),
+                supportsVision = true,
+                enableToolCall = true
+            )
+        val body =
+            provider.createRequestBody(
+                context = mock<Context>(),
+                chatHistory = history,
+                modelParameters = emptyList<ModelParameter<*>>(),
+                enableThinking = false,
+                stream = false,
+                availableTools = availableTools,
+                preserveThinkInHistory = false
+            )
+        val buffer = Buffer()
+        body.writeTo(buffer)
+        return JSONObject(buffer.readUtf8())
+    }
+
+    private companion object {
+        const val IMAGE_ID = "image-present"
+        const val IMAGE_BASE64 = "aW1hZ2U="
+    }
+}

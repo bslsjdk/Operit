@@ -1,1 +1,55 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLmh0dHAKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmFwaS5jaGF0LkFJRm9yZWdyb3VuZFNlcnZpY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkV4dGVybmFsSHR0cEFwaVByZWZlcmVuY2VzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNCb29sZWFuCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCm9iamVjdCBFeHRlcm5hbENoYXRIdHRwQXV0b1N0YXJ0ZXIgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJFeHRlcm5hbENoYXRIdHRwQXV0b1N0YXJ0IgoKICAgIHByaXZhdGUgdmFsIHNjb3BlID0gQ29yb3V0aW5lU2NvcGUoU3VwZXJ2aXNvckpvYigpICsgRGlzcGF0Y2hlcnMuSU8pCiAgICBwcml2YXRlIHZhbCBlbnN1cmVJblByb2dyZXNzID0gQXRvbWljQm9vbGVhbihmYWxzZSkKCiAgICBmdW4gZW5zdXJlUnVubmluZ0lmRW5hYmxlZChjb250ZXh0OiBDb250ZXh0LCByZWFzb246IFN0cmluZykgewogICAgICAgIHZhbCBhcHBDb250ZXh0ID0gY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQKICAgICAgICBpZiAoIWVuc3VyZUluUHJvZ3Jlc3MuY29tcGFyZUFuZFNldChmYWxzZSwgdHJ1ZSkpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU2tpcCBlbnN1cmUgYmVjYXVzZSBhIHByZXZpb3VzIGNoZWNrIGlzIHN0aWxsIHJ1bm5pbmc6ICRyZWFzb24iKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcHJlZmVyZW5jZXMgPSBFeHRlcm5hbEh0dHBBcGlQcmVmZXJlbmNlcy5nZXRJbnN0YW5jZShhcHBDb250ZXh0KQogICAgICAgICAgICAgICAgdmFsIGNvbmZpZyA9IHByZWZlcmVuY2VzLmdldENvbmZpZygpCiAgICAgICAgICAgICAgICBpZiAoIWNvbmZpZy5lbmFibGVkKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiRXh0ZXJuYWwgSFRUUCBjaGF0IGRpc2FibGVkLCBza2lwIGF1dG8gc3RhcnQ6ICRyZWFzb24iKQogICAgICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICghRXh0ZXJuYWxIdHRwQXBpUHJlZmVyZW5jZXMuaXNWYWxpZFBvcnQoY29uZmlnLnBvcnQpKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiU2tpcCBhdXRvIHN0YXJ0IGJlY2F1c2UgY29uZmlndXJlZCBwb3J0IGlzIGludmFsaWQ6ICR7Y29uZmlnLnBvcnR9LCByZWFzb249JHJlYXNvbiIpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbCBjdXJyZW50U3RhdGUgPSBBSUZvcmVncm91bmRTZXJ2aWNlLmV4dGVybmFsSHR0cFN0YXRlLnZhbHVlCiAgICAgICAgICAgICAgICBpZiAoY3VycmVudFN0YXRlLmlzUnVubmluZyAmJiBjdXJyZW50U3RhdGUucG9ydCA9PSBjb25maWcucG9ydCkgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkV4dGVybmFsIEhUVFAgY2hhdCBzZXJ2aWNlIGFscmVhZHkgcnVubmluZyBvbiBwb3J0ICR7Y29uZmlnLnBvcnR9OiAkcmVhc29uIikKICAgICAgICAgICAgICAgICAgICByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmkoVEFHLCAiQXV0byBzdGFydGluZyBFeHRlcm5hbCBIVFRQIGNoYXQgc2VydmljZSBvbiBwb3J0ICR7Y29uZmlnLnBvcnR9OiAkcmVhc29uIikKICAgICAgICAgICAgICAgIEFJRm9yZWdyb3VuZFNlcnZpY2UuZW5zdXJlUnVubmluZ0ZvckV4dGVybmFsSHR0cChhcHBDb250ZXh0KQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBhdXRvIHN0YXJ0IEV4dGVybmFsIEhUVFAgY2hhdCBzZXJ2aWNlOiAkcmVhc29uIiwgZSkKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIGVuc3VyZUluUHJvZ3Jlc3Muc2V0KGZhbHNlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.integrations.http
+
+import android.content.Context
+import com.bslsjdk.operit.api.chat.AIForegroundService
+import com.bslsjdk.operit.data.preferences.ExternalHttpApiPreferences
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.atomic.AtomicBoolean
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
+
+object ExternalChatHttpAutoStarter {
+
+    private const val TAG = "ExternalChatHttpAutoStart"
+
+    private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val ensureInProgress = AtomicBoolean(false)
+
+    fun ensureRunningIfEnabled(context: Context, reason: String) {
+        val appContext = context.applicationContext
+        if (!ensureInProgress.compareAndSet(false, true)) {
+            AppLogger.d(TAG, "Skip ensure because a previous check is still running: $reason")
+            return
+        }
+
+        scope.launch {
+            try {
+                val preferences = ExternalHttpApiPreferences.getInstance(appContext)
+                val config = preferences.getConfig()
+                if (!config.enabled) {
+                    AppLogger.d(TAG, "External HTTP chat disabled, skip auto start: $reason")
+                    return@launch
+                }
+                if (!ExternalHttpApiPreferences.isValidPort(config.port)) {
+                    AppLogger.w(TAG, "Skip auto start because configured port is invalid: ${config.port}, reason=$reason")
+                    return@launch
+                }
+
+                val currentState = AIForegroundService.externalHttpState.value
+                if (currentState.isRunning && currentState.port == config.port) {
+                    AppLogger.d(TAG, "External HTTP chat service already running on port ${config.port}: $reason")
+                    return@launch
+                }
+
+                AppLogger.i(TAG, "Auto starting External HTTP chat service on port ${config.port}: $reason")
+                AIForegroundService.ensureRunningForExternalHttp(appContext)
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Failed to auto start External HTTP chat service: $reason", e)
+            } finally {
+                ensureInProgress.set(false)
+            }
+        }
+    }
+}

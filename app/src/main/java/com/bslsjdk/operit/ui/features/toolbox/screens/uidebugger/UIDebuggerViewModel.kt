@@ -1,1 +1,448 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnVpZGVidWdnZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5SZWN0CmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUudmlld01vZGVsU2NvcGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFJVG9vbEhhbmRsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlVJUGFnZVJlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFJVG9vbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLmFjdGlvbi5BY3Rpb25MaXN0ZW5lcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLmFjdGlvbi5BY3Rpb25MaXN0ZW5lckZhY3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUGFyYW1ldGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy51cGRhdGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgamF2YS51dGlsLlVVSUQKCi8qKiBVSeiwg+ivleW3peWFt+eahFZpZXdNb2RlbO+8jOi0n+i0o+WkhOeQhuS4jkFJVG9vbOeahOS6pOS6kiAqLwpjbGFzcyBVSURlYnVnZ2VyVmlld01vZGVsIDogVmlld01vZGVsKCkgewogICAgcHJpdmF0ZSB2YWwgX3VpU3RhdGUgPSBNdXRhYmxlU3RhdGVGbG93KFVJRGVidWdnZXJTdGF0ZSgpKQogICAgdmFsIHVpU3RhdGU6IFN0YXRlRmxvdzxVSURlYnVnZ2VyU3RhdGU+ID0gX3VpU3RhdGUuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIHRvb2xIYW5kbGVyOiBBSVRvb2xIYW5kbGVyCiAgICBwcml2YXRlIHZhciBzdGF0dXNCYXJIZWlnaHQ6IEludCA9IDAKICAgIHByaXZhdGUgdmFsIFRBRyA9ICJVSURlYnVnZ2VyVmlld01vZGVsIgogICAgcHJpdmF0ZSB2YXIgd2luZG93SW50ZXJhY3Rpb25Db250cm9sbGVyOiAoc3VzcGVuZCAoQm9vbGVhbikgLT4gVW5pdCk/ID0gbnVsbAogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgY29udGV4dDogQ29udGV4dAogICAgCiAgICAvLyBBY3Rpdml0eeebkeWQrOebuOWFswogICAgcHJpdmF0ZSB2YXIgY3VycmVudEFjdGlvbkxpc3RlbmVyOiBBY3Rpb25MaXN0ZW5lcj8gPSBudWxsCiAgICBwcml2YXRlIHZhciBsYXN0RXZlbnRUaW1lc3RhbXA6IExvbmcgPSAwCiAgICBwcml2YXRlIHZhciBjb25uZWN0aW9uQ2hlY2tKb2I6IGtvdGxpbnguY29yb3V0aW5lcy5Kb2I/ID0gbnVsbAoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHByaXZhdGUgdmFyIElOU1RBTkNFOiBVSURlYnVnZ2VyVmlld01vZGVsPyA9IG51bGwKICAgICAgICAKICAgICAgICAvKioKICAgICAgICAgKiDojrflj5bljZXkvovlrp7kvovvvIznoa7kv53kuLvlupTnlKjlkozmgqzmta7nqpfkvb/nlKjlkIzkuIDkuKpWaWV3TW9kZWwKICAgICAgICAgKi8KICAgICAgICBmdW4gZ2V0SW5zdGFuY2UoKTogVUlEZWJ1Z2dlclZpZXdNb2RlbCB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRSA/OiBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICAgICAgSU5TVEFOQ0UgPzogVUlEZWJ1Z2dlclZpZXdNb2RlbCgpLmFsc28geyBJTlNUQU5DRSA9IGl0IH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvKioKICAgICAgICAgKiDmuIXpmaTljZXkvovlrp7kvosKICAgICAgICAgKi8KICAgICAgICBmdW4gY2xlYXJJbnN0YW5jZSgpIHsKICAgICAgICAgICAgSU5TVEFOQ0UgPSBudWxsCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6K6+572u56qX5Y+j5Lqk5LqS5o6n5Yi25ZmoCiAgICAgKi8KICAgIGZ1biBzZXRXaW5kb3dJbnRlcmFjdGlvbkNvbnRyb2xsZXIoY29udHJvbGxlcjogKHN1c3BlbmQgKEJvb2xlYW4pIC0+IFVuaXQpPykgewogICAgICAgIHRoaXMud2luZG93SW50ZXJhY3Rpb25Db250cm9sbGVyID0gY29udHJvbGxlcgogICAgfQoKICAgIC8qKiDliJ3lp4vljJZWaWV3TW9kZWwgKi8KICAgIGZ1biBpbml0aWFsaXplKGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICB0aGlzLmNvbnRleHQgPSBjb250ZXh0CiAgICAgICAgdG9vbEhhbmRsZXIgPSBBSVRvb2xIYW5kbGVyLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICAgICAgdmFsIHJlc291cmNlSWQgPSBjb250ZXh0LnJlc291cmNlcy5nZXRJZGVudGlmaWVyKCJzdGF0dXNfYmFyX2hlaWdodCIsICJkaW1lbiIsICJhbmRyb2lkIikKICAgICAgICBpZiAocmVzb3VyY2VJZCA+IDApIHsKICAgICAgICAgICAgc3RhdHVzQmFySGVpZ2h0ID0gY29udGV4dC5yZXNvdXJjZXMuZ2V0RGltZW5zaW9uUGl4ZWxTaXplKHJlc291cmNlSWQpCiAgICAgICAgfQogICAgfQoKCgoKCgoKICAgIC8qKiDpgInmi6lVSeWFg+e0oCAqLwogICAgZnVuIHNlbGVjdEVsZW1lbnQoZWxlbWVudElkOiBTdHJpbmc/KSB7CiAgICAgICAgX3VpU3RhdGUudXBkYXRlIHsgaXQuY29weShzZWxlY3RlZEVsZW1lbnRJZCA9IGVsZW1lbnRJZCkgfQogICAgfQoKICAgIC8qKiDmiafooYzlhYPntKDmk43kvZwgKi8KICAgIGZ1biBwZXJmb3JtRWxlbWVudEFjdGlvbihlbGVtZW50OiBVSUVsZW1lbnQsIGFjdGlvbjogVUlFbGVtZW50QWN0aW9uKSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHdoZW4gKGFjdGlvbikgewogICAgICAgICAgICAgICAgICAgIFVJRWxlbWVudEFjdGlvbi5DTElDSyAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjbGlja1Rvb2wgPSBBSVRvb2woCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lID0gImNsaWNrX2VsZW1lbnQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1ldGVycyA9IGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb29sUGFyYW1ldGVyKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lID0gInNlbGVjdG9yX3R5cGUiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IGlmIChlbGVtZW50LnJlc291cmNlSWQgIT0gbnVsbCkgIkJ5UmVzb3VyY2VJZCIgZWxzZSAiQnlUZXh0IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZSA9ICJzZWxlY3Rvcl92YWx1ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gZWxlbWVudC5yZXNvdXJjZUlkID86IGVsZW1lbnQudGV4dAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvb2xIYW5kbGVyLmV4ZWN1dGVUb29sKGNsaWNrVG9vbCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBzaG93QWN0aW9uRmVlZGJhY2soCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MpIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfYWN0aW9uX2NsaWNrX3N1Y2Nlc3MpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfYWN0aW9uX2NsaWNrX2ZhaWxlZCkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBVSUVsZW1lbnRBY3Rpb24uSElHSExJR0hUIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0RWxlbWVudChlbGVtZW50LmlkKQogICAgICAgICAgICAgICAgICAgICAgICBzaG93QWN0aW9uRmVlZGJhY2soY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudWlkZWJ1Z2dlcl9hY3Rpb25faGlnaGxpZ2h0ZWQpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBVSUVsZW1lbnRBY3Rpb24uSU5TUEVDVCAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdEVsZW1lbnQoZWxlbWVudC5pZCkKICAgICAgICAgICAgICAgICAgICAgICAgc2hvd0FjdGlvbkZlZWRiYWNrKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfYWN0aW9uX3NlbGVjdGVkKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5omn6KGM5YWD57Sg5pON5L2c5aSx6LSlIiwgZSkKICAgICAgICAgICAgICAgIHNob3dBY3Rpb25GZWVkYmFjayhjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51aWRlYnVnZ2VyX2FjdGlvbl9mYWlsZWQpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKiDmmL7npLrmk43kvZzlj43ppoggKi8KICAgIHByaXZhdGUgZnVuIHNob3dBY3Rpb25GZWVkYmFjayhtZXNzYWdlOiBTdHJpbmcpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBfdWlTdGF0ZS51cGRhdGUgeyAKICAgICAgICAgICAgICAgIGl0LmNvcHkoCiAgICAgICAgICAgICAgICAgICAgc2hvd0FjdGlvbkZlZWRiYWNrID0gdHJ1ZSwgCiAgICAgICAgICAgICAgICAgICAgYWN0aW9uRmVlZGJhY2tNZXNzYWdlID0gbWVzc2FnZQogICAgICAgICAgICAgICAgKSAKICAgICAgICAgICAgfQogICAgICAgICAgICBkZWxheSgzMDAwKQogICAgICAgICAgICBfdWlTdGF0ZS51cGRhdGUgeyBpdC5jb3B5KHNob3dBY3Rpb25GZWVkYmFjayA9IGZhbHNlKSB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKiDliLfmlrBVSeWFg+e0oCAqLwogICAgZnVuIHJlZnJlc2hVSSgpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgd2luZG93SW50ZXJhY3Rpb25Db250cm9sbGVyPy5pbnZva2UoZmFsc2UpCiAgICAgICAgICAgICAgICBkZWxheSgzMDApCgogICAgICAgICAgICAgICAgdmFsIChlbGVtZW50cywgYWN0aXZpdHlJbmZvKSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHBhZ2VJbmZvVG9vbCA9IEFJVG9vbChuYW1lID0gImdldF9wYWdlX2luZm8iLCBwYXJhbWV0ZXJzID0gbGlzdE9mKCkpCiAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHRvb2xIYW5kbGVyLmV4ZWN1dGVUb29sKHBhZ2VJbmZvVG9vbCkKICAgICAgICAgICAgICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3VsdERhdGEgPSByZXN1bHQucmVzdWx0CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZXN1bHREYXRhIGlzIFVJUGFnZVJlc3VsdERhdGEpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjdXJyZW50QWN0aXZpdHlOYW1lID0gcmVzdWx0RGF0YS5hY3Rpdml0eU5hbWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjdXJyZW50UGFja2FnZU5hbWUgPSByZXN1bHREYXRhLnBhY2thZ2VOYW1lCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgZWxlbWVudHMgPSBjb252ZXJ0VG9VSUVsZW1lbnRzKHJlc3VsdERhdGEudWlFbGVtZW50cywgY3VycmVudEFjdGl2aXR5TmFtZSwgY3VycmVudFBhY2thZ2VOYW1lKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgUGFpcihlbGVtZW50cywgUGFpcihjdXJyZW50QWN0aXZpdHlOYW1lLCBjdXJyZW50UGFja2FnZU5hbWUpKQogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhyb3cgRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfZXJyb3Jfd3JvbmdfcmVzdWx0X3R5cGUpKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGhyb3cgRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfZXJyb3JfZmV0Y2hfdWlfZmFpbGVkKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgX3VpU3RhdGUudXBkYXRlIHsgCiAgICAgICAgICAgICAgICAgICAgaXQuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudHMgPSBlbGVtZW50cywgCiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJlbnRBbmFseXplZEFjdGl2aXR5TmFtZSA9IGFjdGl2aXR5SW5mby5maXJzdCwKICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudEFuYWx5emVkUGFja2FnZU5hbWUgPSBhY3Rpdml0eUluZm8uc2Vjb25kCiAgICAgICAgICAgICAgICAgICAgKSAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLliLfmlrBVSeWFg+e0oOWksei0pSIsIGUpCiAgICAgICAgICAgICAgICBfdWlTdGF0ZS51cGRhdGUgeyBpdC5jb3B5KGVycm9yTWVzc2FnZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfZXJyb3JfcmVmcmVzaF9mYWlsZWQpKSB9CiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICB3aW5kb3dJbnRlcmFjdGlvbkNvbnRyb2xsZXI/Lmludm9rZSh0cnVlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKCgoKCgogICAgcHJpdmF0ZSBmdW4gY29udmVydFRvVUlFbGVtZW50cygKICAgICAgICBub2RlOiBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5TaW1wbGlmaWVkVUlOb2RlLAogICAgICAgIGFjdGl2aXR5TmFtZTogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgcGFja2FnZU5hbWU6IFN0cmluZz8gPSBudWxsCiAgICApOiBMaXN0PFVJRWxlbWVudD4gewogICAgICAgIHZhbCBlbGVtZW50cyA9IG11dGFibGVMaXN0T2Y8VUlFbGVtZW50PigpCiAgICAgICAgcHJvY2Vzc05vZGUobm9kZSwgZWxlbWVudHMsIGFjdGl2aXR5TmFtZSwgcGFja2FnZU5hbWUpCiAgICAgICAgcmV0dXJuIGVsZW1lbnRzCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcHJvY2Vzc05vZGUoCiAgICAgICAgbm9kZTogY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuU2ltcGxpZmllZFVJTm9kZSwKICAgICAgICBlbGVtZW50czogTXV0YWJsZUxpc3Q8VUlFbGVtZW50PiwKICAgICAgICBhY3Rpdml0eU5hbWU6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHBhY2thZ2VOYW1lOiBTdHJpbmc/ID0gbnVsbAogICAgKSB7CiAgICAgICAgdmFsIGVsZW1lbnQgPSBjcmVhdGVVaUVsZW1lbnQobm9kZSwgYWN0aXZpdHlOYW1lLCBwYWNrYWdlTmFtZSkKICAgICAgICBlbGVtZW50cy5hZGQoZWxlbWVudCkKICAgICAgICBub2RlLmNoaWxkcmVuLmZvckVhY2ggeyBjaGlsZE5vZGUgLT4gcHJvY2Vzc05vZGUoY2hpbGROb2RlLCBlbGVtZW50cywgYWN0aXZpdHlOYW1lLCBwYWNrYWdlTmFtZSkgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNyZWF0ZVVpRWxlbWVudCgKICAgICAgICBub2RlOiBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5TaW1wbGlmaWVkVUlOb2RlLAogICAgICAgIGFjdGl2aXR5TmFtZTogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgcGFja2FnZU5hbWU6IFN0cmluZz8gPSBudWxsCiAgICApOiBVSUVsZW1lbnQgewogICAgICAgIHZhbCBib3VuZHMgPSBub2RlLmJvdW5kcz8ubGV0IHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBjb29yZHNQYXR0ZXJuID0gIlxcWyhcXGQrKSwoXFxkKylcXF1cXFsoXFxkKyksKFxcZCspXFxdIi50b1JlZ2V4KCkKICAgICAgICAgICAgICAgIHZhbCBtYXRjaFJlc3VsdCA9IGNvb3Jkc1BhdHRlcm4uZmluZChpdCkKICAgICAgICAgICAgICAgIGlmIChtYXRjaFJlc3VsdCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIChsZWZ0LCB0b3AsIHJpZ2h0LCBib3R0b20pID0gbWF0Y2hSZXN1bHQuZGVzdHJ1Y3R1cmVkCiAgICAgICAgICAgICAgICAgICAgUmVjdChsZWZ0LnRvSW50KCksIHRvcC50b0ludCgpIC0gc3RhdHVzQmFySGVpZ2h0LCByaWdodC50b0ludCgpLCBib3R0b20udG9JbnQoKSAtIHN0YXR1c0JhckhlaWdodCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuino+aekOi+ueeVjOWksei0pSIsIGUpCiAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBVSUVsZW1lbnQoCiAgICAgICAgICAgIGlkID0gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKSwKICAgICAgICAgICAgY2xhc3NOYW1lID0gbm9kZS5jbGFzc05hbWUgPzogIlVua25vd24iLAogICAgICAgICAgICByZXNvdXJjZUlkID0gbm9kZS5yZXNvdXJjZUlkLAogICAgICAgICAgICBjb250ZW50RGVzYyA9IG5vZGUuY29udGVudERlc2MsCiAgICAgICAgICAgIHRleHQgPSBub2RlLnRleHQgPzogIiIsCiAgICAgICAgICAgIGJvdW5kcyA9IGJvdW5kcywKICAgICAgICAgICAgaXNDbGlja2FibGUgPSBub2RlLmlzQ2xpY2thYmxlLAogICAgICAgICAgICBhY3Rpdml0eU5hbWUgPSBhY3Rpdml0eU5hbWUsCiAgICAgICAgICAgIHBhY2thZ2VOYW1lID0gcGFja2FnZU5hbWUKICAgICAgICApCiAgICB9CgogICAgLy8gQWN0aXZpdHnnm5HlkKznm7jlhbPmlrnms5UKCiAgICAvKioKICAgICAqIOWQr+WKqEFjdGl2aXR555uR5ZCsCiAgICAgKi8KICAgIGZ1biBzdGFydEFjdGl2aXR5TGlzdGVuaW5nKCkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlvIDlp4vlkK/liqhBY3Rpdml0eeebkeWQrC4uLiIpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIOWmguaenOW3sue7j+WcqOebkeWQrO+8jOebtOaOpei/lOWbngogICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRBY3Rpb25MaXN0ZW5lcj8uaXNMaXN0ZW5pbmcoKSA9PSB0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi55uR5ZCs5Zmo5bey5Zyo6L+Q6KGM77yM5ZCM5q2lVUnnirbmgIEiKQogICAgICAgICAgICAgICAgICAgIF91aVN0YXRlLnVwZGF0ZSB7IGl0LmNvcHkoaXNBY3Rpdml0eUxpc3RlbmluZyA9IHRydWUpIH0gLy8g5ZCM5q2lVUnnirbmgIEKICAgICAgICAgICAgICAgICAgICBzaG93QWN0aW9uRmVlZGJhY2soY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudWlkZWJ1Z2dlcl9hY3Rpdml0eV9tb25pdG9yX2FscmVhZHlfcnVubmluZykpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOWFiOWBnOatoueOsOacieeahOebkeWQrOWZqO+8jOmBv+WFjemHjeWkjeebkeWQrAogICAgICAgICAgICAgICAgY3VycmVudEFjdGlvbkxpc3RlbmVyPy5sZXQgeyBleGlzdGluZ0xpc3RlbmVyIC0+CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5YGc5q2i546w5pyJ55uR5ZCs5ZmoIikKICAgICAgICAgICAgICAgICAgICBleGlzdGluZ0xpc3RlbmVyLnN0b3BMaXN0ZW5pbmcoKQogICAgICAgICAgICAgICAgICAgIGN1cnJlbnRBY3Rpb25MaXN0ZW5lciA9IG51bGwKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLojrflj5bmnIDpq5jmnYPpmZDnmoTnm5HlkKzlmaguLi4iKQogICAgICAgICAgICAgICAgdmFsIChsaXN0ZW5lciwgc3RhdHVzKSA9IEFjdGlvbkxpc3RlbmVyRmFjdG9yeS5nZXRIaWdoZXN0QXZhaWxhYmxlTGlzdGVuZXIoY29udGV4dCkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuiOt+WPluWIsOebkeWQrOWZqOexu+WeizogJHtsaXN0ZW5lcjo6Y2xhc3Muc2ltcGxlTmFtZX0sIOadg+mZkOeKtuaAgTogJHtzdGF0dXMuZ3JhbnRlZH0iKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBpZiAoIXN0YXR1cy5ncmFudGVkKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAi5p2D6ZmQ5LiN6LazOiAke3N0YXR1cy5yZWFzb259IikKICAgICAgICAgICAgICAgICAgICBzaG93QWN0aW9uRmVlZGJhY2soCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcudWlkZWJ1Z2dlcl9hY3Rpdml0eV9tb25pdG9yX3Blcm1pc3Npb25faW5zdWZmaWNpZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzLnJlYXNvbgogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBjdXJyZW50QWN0aW9uTGlzdGVuZXIgPSBsaXN0ZW5lcgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5byA5aeL5ZCv5Yqo55uR5ZCs5ZmoLi4uIikKICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPSBsaXN0ZW5lci5zdGFydExpc3RlbmluZyB7IGV2ZW50IC0+CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLnYoVEFHLCAi55uR5ZCs5Zmo5Zue6LCD6Kem5Y+ROiAke2V2ZW50LmFjdGlvblR5cGV9IC0gJHtldmVudC5lbGVtZW50SW5mbz8ucGFja2FnZU5hbWV9IikKICAgICAgICAgICAgICAgICAgICAvLyDlpITnkIbnm5HlkKzliLDnmoTkuovku7YKICAgICAgICAgICAgICAgICAgICBoYW5kbGVBY3Rpb25FdmVudChldmVudCkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLnm5HlkKzlmajlkK/liqjmiJDlip8iKQogICAgICAgICAgICAgICAgICAgIF91aVN0YXRlLnVwZGF0ZSB7IAogICAgICAgICAgICAgICAgICAgICAgICBpdC5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNBY3Rpdml0eUxpc3RlbmluZyA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaG93QWN0aXZpdHlNb25pdG9yID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFjdGl2aXR5RXZlbnRzID0gZW1wdHlMaXN0KCkgLy8g5riF56m65LmL5YmN55qE5LqL5Lu2CiAgICAgICAgICAgICAgICAgICAgICAgICkgCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHNob3dBY3Rpb25GZWVkYmFjayhjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51aWRlYnVnZ2VyX2FjdGl2aXR5X21vbml0b3Jfc3RhcnRlZCkpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuebkeWQrOWZqOWQr+WKqOWksei0pTogJHtyZXN1bHQubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgICAgIHNob3dBY3Rpb25GZWVkYmFjaygKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBSLnN0cmluZy51aWRlYnVnZ2VyX2FjdGl2aXR5X21vbml0b3Jfc3RhcnRfZmFpbGVkX3dpdGhfcmVhc29uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0Lm1lc3NhZ2UKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLlkK/liqhBY3Rpdml0eeebkeWQrOWksei0pSIsIGUpCiAgICAgICAgICAgICAgICBzaG93QWN0aW9uRmVlZGJhY2soCiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoCiAgICAgICAgICAgICAgICAgICAgICAgIFIuc3RyaW5nLnVpZGVidWdnZXJfYWN0aXZpdHlfbW9uaXRvcl9zdGFydF9mYWlsZWRfd2l0aF9yZWFzb24sCiAgICAgICAgICAgICAgICAgICAgICAgIGUubWVzc2FnZSA/OiAiIgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWBnOatokFjdGl2aXR555uR5ZCsCiAgICAgKi8KICAgIGZ1biBzdG9wQWN0aXZpdHlMaXN0ZW5pbmcoKSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBzdG9wcGVkID0gY3VycmVudEFjdGlvbkxpc3RlbmVyPy5zdG9wTGlzdGVuaW5nKCkgPzogZmFsc2UKICAgICAgICAgICAgICAgIGlmIChzdG9wcGVkKSB7CiAgICAgICAgICAgICAgICAgICAgX3VpU3RhdGUudXBkYXRlIHsgCiAgICAgICAgICAgICAgICAgICAgICAgIGl0LmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc0FjdGl2aXR5TGlzdGVuaW5nID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgKSAKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgc2hvd0FjdGlvbkZlZWRiYWNrKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfYWN0aXZpdHlfbW9uaXRvcl9zdG9wcGVkKSkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgc2hvd0FjdGlvbkZlZWRiYWNrKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfYWN0aXZpdHlfbW9uaXRvcl9zdG9wX2ZhaWxlZCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjdXJyZW50QWN0aW9uTGlzdGVuZXIgPSBudWxsCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5YGc5q2iQWN0aXZpdHnnm5HlkKzlpLHotKUiLCBlKQogICAgICAgICAgICAgICAgc2hvd0FjdGlvbkZlZWRiYWNrKAogICAgICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKAogICAgICAgICAgICAgICAgICAgICAgICBSLnN0cmluZy51aWRlYnVnZ2VyX2FjdGl2aXR5X21vbml0b3Jfc3RvcF9mYWlsZWRfd2l0aF9yZWFzb24sCiAgICAgICAgICAgICAgICAgICAgICAgIGUubWVzc2FnZSA/OiAiIgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCgogICAgLyoqCiAgICAgKiDliIfmjaJBY3Rpdml0eeebkeWQrOaYvuekuueKtuaAgQogICAgICovCiAgICBmdW4gdG9nZ2xlQWN0aXZpdHlNb25pdG9yKCkgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuWIh+aNokFjdGl2aXR555uR5ZCs6Z2i5p2/5pi+56S654q25oCBIikKICAgICAgICBfdWlTdGF0ZS51cGRhdGUgeyBjdXJyZW50U3RhdGUgLT4KICAgICAgICAgICAgdmFsIG5ld1Nob3dTdGF0ZSA9ICFjdXJyZW50U3RhdGUuc2hvd0FjdGl2aXR5TW9uaXRvcgogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLpnaLmnb/mmL7npLrnirbmgIHku44gJHtjdXJyZW50U3RhdGUuc2hvd0FjdGl2aXR5TW9uaXRvcn0g5Y+Y5pu05Li6ICRuZXdTaG93U3RhdGUiKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5aaC5p6c6KaB5pi+56S66Z2i5p2/77yM5ZCM5q2l5qOA5p+l5a6e6ZmF55qE55uR5ZCs54q25oCBCiAgICAgICAgICAgIGlmIChuZXdTaG93U3RhdGUpIHsKICAgICAgICAgICAgICAgIHZhbCBhY3R1YWxMaXN0ZW5pbmdTdGF0ZSA9IGN1cnJlbnRBY3Rpb25MaXN0ZW5lcj8uaXNMaXN0ZW5pbmcoKSA9PSB0cnVlCiAgICAgICAgICAgICAgICB2YWwgZXZlbnRzQ291bnQgPSBjdXJyZW50U3RhdGUuYWN0aXZpdHlFdmVudHMuc2l6ZQogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5pi+56S66Z2i5p2/5pe25ZCM5q2l54q25oCBOiBjdXJyZW50QWN0aW9uTGlzdGVuZXI9JHtjdXJyZW50QWN0aW9uTGlzdGVuZXIgIT0gbnVsbH0sIGlzTGlzdGVuaW5nPSRhY3R1YWxMaXN0ZW5pbmdTdGF0ZSwgZXZlbnRzQ291bnQ9JGV2ZW50c0NvdW50IikKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g5qOA5p+lQUlETOi/nuaOpeeKtuaAgQogICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRBY3Rpb25MaXN0ZW5lciAhPSBudWxsICYmICFhY3R1YWxMaXN0ZW5pbmdTdGF0ZSkgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIuajgOa1i+WIsOebkeWQrOWZqOWtmOWcqOS9huacquebkeWQrO+8jOWPr+iDvUFJREzov57mjqXmlq3lvIAiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBjdXJyZW50U3RhdGUuY29weSgKICAgICAgICAgICAgICAgICAgICBzaG93QWN0aXZpdHlNb25pdG9yID0gbmV3U2hvd1N0YXRlLAogICAgICAgICAgICAgICAgICAgIGlzQWN0aXZpdHlMaXN0ZW5pbmcgPSBhY3R1YWxMaXN0ZW5pbmdTdGF0ZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi6ZqQ6JeP6Z2i5p2/77yM5L+d5oyB55uR5ZCs54q25oCB5LiN5Y+YIikKICAgICAgICAgICAgICAgIGN1cnJlbnRTdGF0ZS5jb3B5KHNob3dBY3Rpdml0eU1vbml0b3IgPSBuZXdTaG93U3RhdGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmuIXpmaRBY3Rpdml0eeS6i+S7tuiusOW9lQogICAgICovCiAgICBmdW4gY2xlYXJBY3Rpdml0eUV2ZW50cygpIHsKICAgICAgICBfdWlTdGF0ZS51cGRhdGUgeyAKICAgICAgICAgICAgaXQuY29weSgKICAgICAgICAgICAgICAgIGFjdGl2aXR5RXZlbnRzID0gZW1wdHlMaXN0KCksCiAgICAgICAgICAgICAgICBjdXJyZW50QWN0aXZpdHlOYW1lID0gbnVsbAogICAgICAgICAgICApIAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWkhOeQhuebkeWQrOWIsOeahEFjdGlvbuS6i+S7tgogICAgICovCiAgICBwcml2YXRlIGZ1biBoYW5kbGVBY3Rpb25FdmVudChldmVudDogQWN0aW9uTGlzdGVuZXIuQWN0aW9uRXZlbnQpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICAvLyDov4fmu6Tmjonoh6rlt7Hova/ku7bnmoTkuovku7YKICAgICAgICAgICAgdmFsIGN1cnJlbnRQYWNrYWdlTmFtZSA9IGNvbnRleHQucGFja2FnZU5hbWUKICAgICAgICAgICAgaWYgKGV2ZW50LmVsZW1lbnRJbmZvPy5wYWNrYWdlTmFtZSA9PSBjdXJyZW50UGFja2FnZU5hbWUpIHsKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQogICAgICAgICAgICBfdWlTdGF0ZS51cGRhdGUgeyBzdGF0ZSAtPgogICAgICAgICAgICAgICAgdmFsIG5ld0V2ZW50cyA9IChzdGF0ZS5hY3Rpdml0eUV2ZW50cyArIGV2ZW50KS50YWtlTGFzdCgxMDApIC8vIOS/neeVmeacgOi/kTEwMOS4quS6i+S7tgogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDmm7TmlrDlvZPliY3mtLvliqjlkI3np7AKICAgICAgICAgICAgICAgIHZhbCBjdXJyZW50QWN0aXZpdHkgPSBldmVudC5lbGVtZW50SW5mbz8ubGV0IHsgZWxlbWVudEluZm8gLT4KICAgICAgICAgICAgICAgICAgICBpZiAoZWxlbWVudEluZm8ucGFja2FnZU5hbWUgIT0gbnVsbCAmJiBlbGVtZW50SW5mby5jbGFzc05hbWUgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAiJHtlbGVtZW50SW5mby5wYWNrYWdlTmFtZX0vJHtlbGVtZW50SW5mby5jbGFzc05hbWV9IgogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnRJbmZvLnBhY2thZ2VOYW1lCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBzdGF0ZS5jb3B5KAogICAgICAgICAgICAgICAgICAgIGFjdGl2aXR5RXZlbnRzID0gbmV3RXZlbnRzLAogICAgICAgICAgICAgICAgICAgIGN1cnJlbnRBY3Rpdml0eU5hbWUgPSBjdXJyZW50QWN0aXZpdHkgPzogc3RhdGUuY3VycmVudEFjdGl2aXR5TmFtZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKCgoKCgogICAgLyoqCiAgICAgKiBWaWV3TW9kZWzmuIXnkIbml7blgZzmraLnm5HlkKwKICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIG9uQ2xlYXJlZCgpIHsKICAgICAgICBzdXBlci5vbkNsZWFyZWQoKQogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIGN1cnJlbnRBY3Rpb25MaXN0ZW5lcj8uc3RvcExpc3RlbmluZygpCiAgICAgICAgICAgIGN1cnJlbnRBY3Rpb25MaXN0ZW5lciA9IG51bGwKICAgICAgICB9CiAgICAgICAgLy8g5rOo5oSP77ya5LiN6KaB5Zyo6L+Z6YeM5riF6Zmk5Y2V5L6L5a6e5L6L77yM5Zug5Li65Y+v6IO95pyJ5YW25LuW5Zyw5pa56L+Y5Zyo5L2/55SoCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.toolbox.screens.uidebugger
+
+import android.content.Context
+import android.graphics.Rect
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.UIPageResultData
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.core.tools.system.action.ActionListener
+import com.bslsjdk.operit.core.tools.system.action.ActionListenerFactory
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.ToolParameter
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import java.util.UUID
+
+/** UI调试工具的ViewModel，负责处理与AITool的交互 */
+class UIDebuggerViewModel : ViewModel() {
+    private val _uiState = MutableStateFlow(UIDebuggerState())
+    val uiState: StateFlow<UIDebuggerState> = _uiState.asStateFlow()
+
+    private lateinit var toolHandler: AIToolHandler
+    private var statusBarHeight: Int = 0
+    private val TAG = "UIDebuggerViewModel"
+    private var windowInteractionController: (suspend (Boolean) -> Unit)? = null
+    private lateinit var context: Context
+    
+    // Activity监听相关
+    private var currentActionListener: ActionListener? = null
+    private var lastEventTimestamp: Long = 0
+    private var connectionCheckJob: kotlinx.coroutines.Job? = null
+
+    companion object {
+        @Volatile
+        private var INSTANCE: UIDebuggerViewModel? = null
+        
+        /**
+         * 获取单例实例，确保主应用和悬浮窗使用同一个ViewModel
+         */
+        fun getInstance(): UIDebuggerViewModel {
+            return INSTANCE ?: synchronized(this) {
+                INSTANCE ?: UIDebuggerViewModel().also { INSTANCE = it }
+            }
+        }
+        
+        /**
+         * 清除单例实例
+         */
+        fun clearInstance() {
+            INSTANCE = null
+        }
+    }
+
+    /**
+     * 设置窗口交互控制器
+     */
+    fun setWindowInteractionController(controller: (suspend (Boolean) -> Unit)?) {
+        this.windowInteractionController = controller
+    }
+
+    /** 初始化ViewModel */
+    fun initialize(context: Context) {
+        this.context = context
+        toolHandler = AIToolHandler.getInstance(context)
+        val resourceId = context.resources.getIdentifier("status_bar_height", "dimen", "android")
+        if (resourceId > 0) {
+            statusBarHeight = context.resources.getDimensionPixelSize(resourceId)
+        }
+    }
+
+
+
+
+
+
+
+    /** 选择UI元素 */
+    fun selectElement(elementId: String?) {
+        _uiState.update { it.copy(selectedElementId = elementId) }
+    }
+
+    /** 执行元素操作 */
+    fun performElementAction(element: UIElement, action: UIElementAction) {
+        viewModelScope.launch {
+            try {
+                when (action) {
+                    UIElementAction.CLICK -> {
+                        val clickTool = AITool(
+                            name = "click_element",
+                            parameters = listOf(
+                                ToolParameter(
+                                    name = "selector_type",
+                                    value = if (element.resourceId != null) "ByResourceId" else "ByText"
+                                ),
+                                ToolParameter(
+                                    name = "selector_value",
+                                    value = element.resourceId ?: element.text
+                                )
+                            )
+                        )
+                        val result = withContext(Dispatchers.IO) {
+                            toolHandler.executeTool(clickTool)
+                        }
+                        showActionFeedback(
+                            if (result.success) context.getString(R.string.uidebugger_action_click_success)
+                            else context.getString(R.string.uidebugger_action_click_failed)
+                        )
+                    }
+                    UIElementAction.HIGHLIGHT -> {
+                        selectElement(element.id)
+                        showActionFeedback(context.getString(R.string.uidebugger_action_highlighted))
+                    }
+                    UIElementAction.INSPECT -> {
+                        selectElement(element.id)
+                        showActionFeedback(context.getString(R.string.uidebugger_action_selected))
+                    }
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "执行元素操作失败", e)
+                showActionFeedback(context.getString(R.string.uidebugger_action_failed))
+            }
+        }
+    }
+
+    /** 显示操作反馈 */
+    private fun showActionFeedback(message: String) {
+        viewModelScope.launch {
+            _uiState.update { 
+                it.copy(
+                    showActionFeedback = true, 
+                    actionFeedbackMessage = message
+                ) 
+            }
+            delay(3000)
+            _uiState.update { it.copy(showActionFeedback = false) }
+        }
+    }
+
+    /** 刷新UI元素 */
+    fun refreshUI() {
+        viewModelScope.launch {
+            try {
+                windowInteractionController?.invoke(false)
+                delay(300)
+
+                val (elements, activityInfo) = withContext(Dispatchers.IO) {
+                    val pageInfoTool = AITool(name = "get_page_info", parameters = listOf())
+                    val result = toolHandler.executeTool(pageInfoTool)
+                    if (result.success) {
+                        val resultData = result.result
+                        if (resultData is UIPageResultData) {
+                            val currentActivityName = resultData.activityName
+                            val currentPackageName = resultData.packageName
+                            val elements = convertToUIElements(resultData.uiElements, currentActivityName, currentPackageName)
+                            Pair(elements, Pair(currentActivityName, currentPackageName))
+                        } else {
+                            throw Exception(context.getString(R.string.uidebugger_error_wrong_result_type))
+                        }
+                    } else {
+                        throw Exception(context.getString(R.string.uidebugger_error_fetch_ui_failed))
+                    }
+                }
+
+                _uiState.update { 
+                    it.copy(
+                        elements = elements, 
+                        errorMessage = null,
+                        currentAnalyzedActivityName = activityInfo.first,
+                        currentAnalyzedPackageName = activityInfo.second
+                    ) 
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "刷新UI元素失败", e)
+                _uiState.update { it.copy(errorMessage = context.getString(R.string.uidebugger_error_refresh_failed)) }
+            } finally {
+                windowInteractionController?.invoke(true)
+            }
+        }
+    }
+
+
+
+
+
+
+    private fun convertToUIElements(
+        node: com.bslsjdk.operit.core.tools.SimplifiedUINode,
+        activityName: String? = null,
+        packageName: String? = null
+    ): List<UIElement> {
+        val elements = mutableListOf<UIElement>()
+        processNode(node, elements, activityName, packageName)
+        return elements
+    }
+
+    private fun processNode(
+        node: com.bslsjdk.operit.core.tools.SimplifiedUINode,
+        elements: MutableList<UIElement>,
+        activityName: String? = null,
+        packageName: String? = null
+    ) {
+        val element = createUiElement(node, activityName, packageName)
+        elements.add(element)
+        node.children.forEach { childNode -> processNode(childNode, elements, activityName, packageName) }
+    }
+
+    private fun createUiElement(
+        node: com.bslsjdk.operit.core.tools.SimplifiedUINode,
+        activityName: String? = null,
+        packageName: String? = null
+    ): UIElement {
+        val bounds = node.bounds?.let {
+            try {
+                val coordsPattern = "\\[(\\d+),(\\d+)\\]\\[(\\d+),(\\d+)\\]".toRegex()
+                val matchResult = coordsPattern.find(it)
+                if (matchResult != null) {
+                    val (left, top, right, bottom) = matchResult.destructured
+                    Rect(left.toInt(), top.toInt() - statusBarHeight, right.toInt(), bottom.toInt() - statusBarHeight)
+                } else {
+                    null
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "解析边界失败", e)
+                null
+            }
+        }
+
+        return UIElement(
+            id = UUID.randomUUID().toString(),
+            className = node.className ?: "Unknown",
+            resourceId = node.resourceId,
+            contentDesc = node.contentDesc,
+            text = node.text ?: "",
+            bounds = bounds,
+            isClickable = node.isClickable,
+            activityName = activityName,
+            packageName = packageName
+        )
+    }
+
+    // Activity监听相关方法
+
+    /**
+     * 启动Activity监听
+     */
+    fun startActivityListening() {
+        viewModelScope.launch {
+            try {
+                AppLogger.d(TAG, "开始启动Activity监听...")
+                
+                // 如果已经在监听，直接返回
+                if (currentActionListener?.isListening() == true) {
+                    AppLogger.d(TAG, "监听器已在运行，同步UI状态")
+                    _uiState.update { it.copy(isActivityListening = true) } // 同步UI状态
+                    showActionFeedback(context.getString(R.string.uidebugger_activity_monitor_already_running))
+                    return@launch
+                }
+
+                // 先停止现有的监听器，避免重复监听
+                currentActionListener?.let { existingListener ->
+                    AppLogger.d(TAG, "停止现有监听器")
+                    existingListener.stopListening()
+                    currentActionListener = null
+                }
+
+                AppLogger.d(TAG, "获取最高权限的监听器...")
+                val (listener, status) = ActionListenerFactory.getHighestAvailableListener(context)
+                AppLogger.d(TAG, "获取到监听器类型: ${listener::class.simpleName}, 权限状态: ${status.granted}")
+                
+                if (!status.granted) {
+                    AppLogger.w(TAG, "权限不足: ${status.reason}")
+                    showActionFeedback(
+                        context.getString(
+                            R.string.uidebugger_activity_monitor_permission_insufficient,
+                            status.reason
+                        )
+                    )
+                    return@launch
+                }
+
+                currentActionListener = listener
+                AppLogger.d(TAG, "开始启动监听器...")
+                val result = listener.startListening { event ->
+                    AppLogger.v(TAG, "监听器回调触发: ${event.actionType} - ${event.elementInfo?.packageName}")
+                    // 处理监听到的事件
+                    handleActionEvent(event)
+                }
+
+                if (result.success) {
+                    AppLogger.d(TAG, "监听器启动成功")
+                    _uiState.update { 
+                        it.copy(
+                            isActivityListening = true,
+                            showActivityMonitor = true,
+                            activityEvents = emptyList() // 清空之前的事件
+                        ) 
+                    }
+                    showActionFeedback(context.getString(R.string.uidebugger_activity_monitor_started))
+                } else {
+                    AppLogger.e(TAG, "监听器启动失败: ${result.message}")
+                    showActionFeedback(
+                        context.getString(
+                            R.string.uidebugger_activity_monitor_start_failed_with_reason,
+                            result.message
+                        )
+                    )
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "启动Activity监听失败", e)
+                showActionFeedback(
+                    context.getString(
+                        R.string.uidebugger_activity_monitor_start_failed_with_reason,
+                        e.message ?: ""
+                    )
+                )
+            }
+        }
+    }
+
+    /**
+     * 停止Activity监听
+     */
+    fun stopActivityListening() {
+        viewModelScope.launch {
+            try {
+                val stopped = currentActionListener?.stopListening() ?: false
+                if (stopped) {
+                    _uiState.update { 
+                        it.copy(
+                            isActivityListening = false
+                        ) 
+                    }
+                    showActionFeedback(context.getString(R.string.uidebugger_activity_monitor_stopped))
+                } else {
+                    showActionFeedback(context.getString(R.string.uidebugger_activity_monitor_stop_failed))
+                }
+                currentActionListener = null
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "停止Activity监听失败", e)
+                showActionFeedback(
+                    context.getString(
+                        R.string.uidebugger_activity_monitor_stop_failed_with_reason,
+                        e.message ?: ""
+                    )
+                )
+            }
+        }
+    }
+
+
+    /**
+     * 切换Activity监听显示状态
+     */
+    fun toggleActivityMonitor() {
+        AppLogger.d(TAG, "切换Activity监听面板显示状态")
+        _uiState.update { currentState ->
+            val newShowState = !currentState.showActivityMonitor
+            AppLogger.d(TAG, "面板显示状态从 ${currentState.showActivityMonitor} 变更为 $newShowState")
+            
+            // 如果要显示面板，同步检查实际的监听状态
+            if (newShowState) {
+                val actualListeningState = currentActionListener?.isListening() == true
+                val eventsCount = currentState.activityEvents.size
+                AppLogger.d(TAG, "显示面板时同步状态: currentActionListener=${currentActionListener != null}, isListening=$actualListeningState, eventsCount=$eventsCount")
+                
+                // 检查AIDL连接状态
+                if (currentActionListener != null && !actualListeningState) {
+                    AppLogger.w(TAG, "检测到监听器存在但未监听，可能AIDL连接断开")
+                }
+                
+                currentState.copy(
+                    showActivityMonitor = newShowState,
+                    isActivityListening = actualListeningState
+                )
+            } else {
+                AppLogger.d(TAG, "隐藏面板，保持监听状态不变")
+                currentState.copy(showActivityMonitor = newShowState)
+            }
+        }
+    }
+
+    /**
+     * 清除Activity事件记录
+     */
+    fun clearActivityEvents() {
+        _uiState.update { 
+            it.copy(
+                activityEvents = emptyList(),
+                currentActivityName = null
+            ) 
+        }
+    }
+
+    /**
+     * 处理监听到的Action事件
+     */
+    private fun handleActionEvent(event: ActionListener.ActionEvent) {
+        viewModelScope.launch {
+            // 过滤掉自己软件的事件
+            val currentPackageName = context.packageName
+            if (event.elementInfo?.packageName == currentPackageName) {
+                return@launch
+            }
+            _uiState.update { state ->
+                val newEvents = (state.activityEvents + event).takeLast(100) // 保留最近100个事件
+                
+                // 更新当前活动名称
+                val currentActivity = event.elementInfo?.let { elementInfo ->
+                    if (elementInfo.packageName != null && elementInfo.className != null) {
+                        "${elementInfo.packageName}/${elementInfo.className}"
+                    } else {
+                        elementInfo.packageName
+                    }
+                }
+                
+                state.copy(
+                    activityEvents = newEvents,
+                    currentActivityName = currentActivity ?: state.currentActivityName
+                )
+            }
+        }
+    }
+
+
+
+
+
+
+    /**
+     * ViewModel清理时停止监听
+     */
+    override fun onCleared() {
+        super.onCleared()
+        viewModelScope.launch {
+            currentActionListener?.stopListening()
+            currentActionListener = null
+        }
+        // 注意：不要在这里清除单例实例，因为可能有其他地方还在使用
+    }
+}

@@ -1,1 +1,423 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZXBvc2l0b3J5CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZC5wcm92aWRlci5PcGVuYWJsZUNvbHVtbnMKaW1wb3J0IGFuZHJvaWQud2Via2l0Lk1pbWVUeXBlTWFwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQWN0aXZlUHJvbXB0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DdXN0b21FbW9qaQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuQWN0aXZlUHJvbXB0TWFuYWdlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuQ3VzdG9tRW1vamlQcmVmZXJlbmNlcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlT3V0cHV0U3RyZWFtCmltcG9ydCBqYXZhLnV0aWwuVVVJRAoKLyoqCiAqIOiHquWumuS5ieihqOaDhSBSZXBvc2l0b3J5CiAqCiAqIOeuoeeQhuaMieinkuiJsuWNoS/op5LoibLnu4TpmpTnprvnmoTooajmg4Xmlofku7blkozmlbDmja7mjIHkuYXljJbjgIIKICogLSDmlofku7blrZjlgqjlnKggZmlsZXNEaXIvY3VzdG9tX2Vtb2ppLzx0YXJnZXRfc2NvcGU+L3tjYXRlZ29yeX0ve3V1aWR9LntleHR9CiAqIC0g5YWD5pWw5o2u6YCa6L+HIEN1c3RvbUVtb2ppUHJlZmVyZW5jZXMg5oyJIHRhcmdldCDni6znq4vlrZjlgqjlnKggRGF0YVN0b3JlCiAqLwpjbGFzcyBDdXN0b21FbW9qaVJlcG9zaXRvcnkgcHJpdmF0ZSBjb25zdHJ1Y3Rvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgSU5TVEFOQ0U6IEN1c3RvbUVtb2ppUmVwb3NpdG9yeT8gPSBudWxsCgogICAgICAgIGZ1biBnZXRJbnN0YW5jZShjb250ZXh0OiBDb250ZXh0KTogQ3VzdG9tRW1vamlSZXBvc2l0b3J5IHsKICAgICAgICAgICAgcmV0dXJuIElOU1RBTkNFID86IHN5bmNocm9uaXplZCh0aGlzKSB7CiAgICAgICAgICAgICAgICBJTlNUQU5DRSA/OiBDdXN0b21FbW9qaVJlcG9zaXRvcnkoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpLmFsc28gewogICAgICAgICAgICAgICAgICAgIElOU1RBTkNFID0gaXQKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkN1c3RvbUVtb2ppUmVwb3NpdG9yeSIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBFTU9KSV9ESVIgPSAiY3VzdG9tX2Vtb2ppIgogICAgICAgIHByaXZhdGUgdmFsIFNVUFBPUlRFRF9FWFRFTlNJT05TID0gc2V0T2YoImpwZyIsICJqcGVnIiwgInBuZyIsICJnaWYiLCAid2VicCIpCiAgICB9CgogICAgcHJpdmF0ZSB2YWwgcHJlZmVyZW5jZXMgPSBDdXN0b21FbW9qaVByZWZlcmVuY2VzLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICBwcml2YXRlIHZhbCBhY3RpdmVQcm9tcHRNYW5hZ2VyIGJ5IGxhenkgeyBBY3RpdmVQcm9tcHRNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpIH0KICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgbGVnYWN5U3RvcmFnZVB1cmdlZCA9IGZhbHNlCgogICAgc3VzcGVuZCBmdW4gaW5pdGlhbGl6ZUJ1aWx0aW5FbW9qaXMoKSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgaW5pdGlhbGl6ZUJ1aWx0aW5FbW9qaXMoYWN0aXZlUHJvbXB0TWFuYWdlci5nZXRBY3RpdmVQcm9tcHQoKSkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBpbml0aWFsaXplQnVpbHRpbkVtb2ppcyh0YXJnZXQ6IEFjdGl2ZVByb21wdCkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHB1cmdlTGVnYWN5R2xvYmFsU3RvcmFnZSgpCiAgICAgICAgaWYgKHByZWZlcmVuY2VzLmlzQnVpbHRpbkVtb2ppc0luaXRpYWxpemVkKHRhcmdldCkuZmlyc3QoKSkgewogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQKICAgICAgICB9CgogICAgICAgIGNvcHlCdWlsdGluRW1vamlzRnJvbUFzc2V0cyh0YXJnZXQpCiAgICAgICAgcHJlZmVyZW5jZXMuc2V0QnVpbHRpbkVtb2ppc0luaXRpYWxpemVkKHRhcmdldCwgdHJ1ZSkKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJCdWlsdC1pbiBlbW9qaXMgaW5pdGlhbGl6ZWQgc3VjY2Vzc2Z1bGx5IGZvciB0YXJnZXQ6ICR0YXJnZXQiKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHJlc2V0VG9EZWZhdWx0KCkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHJlc2V0VG9EZWZhdWx0KGFjdGl2ZVByb21wdE1hbmFnZXIuZ2V0QWN0aXZlUHJvbXB0KCkpCiAgICB9CgogICAgLyoqCiAgICAgKiDph43nva7mjIflrprnm67moIfnmoTooajmg4XlupPkuLrpu5jorqTooajmg4XvvIjph43mlrDku44gYXNzZXRzIOWkjeWItu+8iQogICAgICovCiAgICBzdXNwZW5kIGZ1biByZXNldFRvRGVmYXVsdCh0YXJnZXQ6IEFjdGl2ZVByb21wdCkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHByZWZlcmVuY2VzLmNsZWFyQWxsRW1vamlzKHRhcmdldCkKICAgICAgICAgICAgZ2V0VGFyZ2V0QmFzZURpcih0YXJnZXQpLmRlbGV0ZVJlY3Vyc2l2ZWx5KCkKCiAgICAgICAgICAgIGNvcHlCdWlsdGluRW1vamlzRnJvbUFzc2V0cyh0YXJnZXQpCiAgICAgICAgICAgIHByZWZlcmVuY2VzLnNldEJ1aWx0aW5FbW9qaXNJbml0aWFsaXplZCh0YXJnZXQsIHRydWUpCgogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJSZXNldCBlbW9qaXMgdG8gZGVmYXVsdCBzdWNjZXNzZnVsbHkgZm9yIHRhcmdldDogJHRhcmdldCIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIHJlc2V0dGluZyBlbW9qaXMgZm9yIHRhcmdldDogJHRhcmdldCIsIGUpCiAgICAgICAgICAgIHRocm93IGUKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gYWRkQ3VzdG9tRW1vamkoY2F0ZWdvcnk6IFN0cmluZywgc291cmNlVXJpOiBVcmkpOiBSZXN1bHQ8Q3VzdG9tRW1vamk+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICBhZGRDdXN0b21FbW9qaShhY3RpdmVQcm9tcHRNYW5hZ2VyLmdldEFjdGl2ZVByb21wdCgpLCBjYXRlZ29yeSwgc291cmNlVXJpKQogICAgfQoKICAgIC8qKgogICAgICog5Li65oyH5a6a55uu5qCH5re75Yqg6Ieq5a6a5LmJ6KGo5oOFCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGFkZEN1c3RvbUVtb2ppKAogICAgICAgIHRhcmdldDogQWN0aXZlUHJvbXB0LAogICAgICAgIGNhdGVnb3J5OiBTdHJpbmcsCiAgICAgICAgc291cmNlVXJpOiBVcmkKICAgICk6IFJlc3VsdDxDdXN0b21FbW9qaT4gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGluaXRpYWxpemVCdWlsdGluRW1vamlzKHRhcmdldCkKCiAgICAgICAgICAgIHZhbCBleHRlbnNpb24gPSBnZXRGaWxlRXh0ZW5zaW9uKHNvdXJjZVVyaSkgPzogcmV0dXJuQHdpdGhDb250ZXh0IFJlc3VsdC5mYWlsdXJlKAogICAgICAgICAgICAgICAgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmVtb2ppX2Nhbm5vdF9kZXRlcm1pbmVfZXh0ZW5zaW9uKSkKICAgICAgICAgICAgKQoKICAgICAgICAgICAgaWYgKGV4dGVuc2lvbi5sb3dlcmNhc2UoKSAhaW4gU1VQUE9SVEVEX0VYVEVOU0lPTlMpIHsKICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBSZXN1bHQuZmFpbHVyZSgKICAgICAgICAgICAgICAgICAgICBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZW1vamlfdW5zdXBwb3J0ZWRfaW1hZ2VfZm9ybWF0LCBleHRlbnNpb24pKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgZmlsZU5hbWUgPSAiJHtVVUlELnJhbmRvbVVVSUQoKX0uJGV4dGVuc2lvbiIKICAgICAgICAgICAgdmFsIGNhdGVnb3J5RGlyID0gZ2V0Q2F0ZWdvcnlEaXIodGFyZ2V0LCBjYXRlZ29yeSkKICAgICAgICAgICAgaWYgKCFjYXRlZ29yeURpci5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgY2F0ZWdvcnlEaXIubWtkaXJzKCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHRhcmdldEZpbGUgPSBGaWxlKGNhdGVnb3J5RGlyLCBmaWxlTmFtZSkKICAgICAgICAgICAgY29udGV4dC5jb250ZW50UmVzb2x2ZXIub3BlbklucHV0U3RyZWFtKHNvdXJjZVVyaSk/LnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICBGaWxlT3V0cHV0U3RyZWFtKHRhcmdldEZpbGUpLnVzZSB7IG91dHB1dCAtPgogICAgICAgICAgICAgICAgICAgIGlucHV0LmNvcHlUbyhvdXRwdXQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gPzogcmV0dXJuQHdpdGhDb250ZXh0IFJlc3VsdC5mYWlsdXJlKAogICAgICAgICAgICAgICAgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmVtb2ppX2Nhbm5vdF9yZWFkX3NvdXJjZSkpCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIHZhbCBlbW9qaSA9IEN1c3RvbUVtb2ppKAogICAgICAgICAgICAgICAgZW1vdGlvbkNhdGVnb3J5ID0gY2F0ZWdvcnksCiAgICAgICAgICAgICAgICBmaWxlTmFtZSA9IGZpbGVOYW1lLAogICAgICAgICAgICAgICAgaXNCdWlsdEluQ2F0ZWdvcnkgPSBjYXRlZ29yeSBpbiBDdXN0b21FbW9qaVByZWZlcmVuY2VzLkJVSUxUSU5fRU1PVElPTlMKICAgICAgICAgICAgKQoKICAgICAgICAgICAgcHJlZmVyZW5jZXMuYWRkQ2F0ZWdvcnkodGFyZ2V0LCBjYXRlZ29yeSkKICAgICAgICAgICAgcHJlZmVyZW5jZXMuYWRkQ3VzdG9tRW1vamkodGFyZ2V0LCBlbW9qaSkKCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlN1Y2Nlc3NmdWxseSBhZGRlZCBlbW9qaTogJGZpbGVOYW1lIHRvIHRhcmdldDogJHRhcmdldCBjYXRlZ29yeTogJGNhdGVnb3J5IikKICAgICAgICAgICAgUmVzdWx0LnN1Y2Nlc3MoZW1vamkpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGFkZGluZyBjdXN0b20gZW1vamkgZm9yIHRhcmdldDogJHRhcmdldCIsIGUpCiAgICAgICAgICAgIFJlc3VsdC5mYWlsdXJlKGUpCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGRlbGV0ZUN1c3RvbUVtb2ppKGVtb2ppSWQ6IFN0cmluZyk6IFJlc3VsdDxVbml0PiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgZGVsZXRlQ3VzdG9tRW1vamkoYWN0aXZlUHJvbXB0TWFuYWdlci5nZXRBY3RpdmVQcm9tcHQoKSwgZW1vamlJZCkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBkZWxldGVDdXN0b21FbW9qaSh0YXJnZXQ6IEFjdGl2ZVByb21wdCwgZW1vamlJZDogU3RyaW5nKTogUmVzdWx0PFVuaXQ+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgZW1vamkgPSBwcmVmZXJlbmNlcy5nZXRDdXN0b21FbW9qaXNGbG93KHRhcmdldCkuZmlyc3QoKQogICAgICAgICAgICAgICAgLmZpbmQgeyBpdC5pZCA9PSBlbW9qaUlkIH0KICAgICAgICAgICAgICAgID86IHJldHVybkB3aXRoQ29udGV4dCBSZXN1bHQuZmFpbHVyZSgKICAgICAgICAgICAgICAgICAgICBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZW1vamlfbm90X2V4aXN0LCBlbW9qaUlkKSkKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgIHZhbCBmaWxlID0gZ2V0RW1vamlGaWxlKHRhcmdldCwgZW1vamkpCiAgICAgICAgICAgIGlmIChmaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICBmaWxlLmRlbGV0ZSgpCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJEZWxldGVkIGZpbGU6ICR7ZmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICAgICAgfQoKICAgICAgICAgICAgcHJlZmVyZW5jZXMuZGVsZXRlQ3VzdG9tRW1vamkodGFyZ2V0LCBlbW9qaUlkKQoKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU3VjY2Vzc2Z1bGx5IGRlbGV0ZWQgZW1vamk6ICRlbW9qaUlkIGZyb20gdGFyZ2V0OiAkdGFyZ2V0IikKICAgICAgICAgICAgUmVzdWx0LnN1Y2Nlc3MoVW5pdCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgZGVsZXRpbmcgY3VzdG9tIGVtb2ppIGZvciB0YXJnZXQ6ICR0YXJnZXQiLCBlKQogICAgICAgICAgICBSZXN1bHQuZmFpbHVyZShlKQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBkZWxldGVDYXRlZ29yeShjYXRlZ29yeTogU3RyaW5nKTogUmVzdWx0PFVuaXQ+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICBkZWxldGVDYXRlZ29yeShhY3RpdmVQcm9tcHRNYW5hZ2VyLmdldEFjdGl2ZVByb21wdCgpLCBjYXRlZ29yeSkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBkZWxldGVDYXRlZ29yeSh0YXJnZXQ6IEFjdGl2ZVByb21wdCwgY2F0ZWdvcnk6IFN0cmluZyk6IFJlc3VsdDxVbml0PiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGVtb2ppcyA9IHByZWZlcmVuY2VzLmdldEVtb2ppc0ZvckNhdGVnb3J5KHRhcmdldCwgY2F0ZWdvcnkpLmZpcnN0KCkKICAgICAgICAgICAgZW1vamlzLmZvckVhY2ggeyBlbW9qaSAtPgogICAgICAgICAgICAgICAgdmFsIGZpbGUgPSBnZXRFbW9qaUZpbGUodGFyZ2V0LCBlbW9qaSkKICAgICAgICAgICAgICAgIGlmIChmaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICAgICAgZmlsZS5kZWxldGUoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgY2F0ZWdvcnlEaXIgPSBnZXRDYXRlZ29yeURpcih0YXJnZXQsIGNhdGVnb3J5KQogICAgICAgICAgICBpZiAoY2F0ZWdvcnlEaXIuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIGNhdGVnb3J5RGlyLmRlbGV0ZVJlY3Vyc2l2ZWx5KCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgcHJlZmVyZW5jZXMuZGVsZXRlQ2F0ZWdvcnkodGFyZ2V0LCBjYXRlZ29yeSkKCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlN1Y2Nlc3NmdWxseSBkZWxldGVkIGNhdGVnb3J5OiAkY2F0ZWdvcnkgZnJvbSB0YXJnZXQ6ICR0YXJnZXQiKQogICAgICAgICAgICBSZXN1bHQuc3VjY2VzcyhVbml0KQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBkZWxldGluZyBjYXRlZ29yeSBmb3IgdGFyZ2V0OiAkdGFyZ2V0IiwgZSkKICAgICAgICAgICAgUmVzdWx0LmZhaWx1cmUoZSkKICAgICAgICB9CiAgICB9CgogICAgZnVuIGdldEVtb2ppRmlsZSh0YXJnZXQ6IEFjdGl2ZVByb21wdCwgZW1vamk6IEN1c3RvbUVtb2ppKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIEZpbGUoZ2V0Q2F0ZWdvcnlEaXIodGFyZ2V0LCBlbW9qaS5lbW90aW9uQ2F0ZWdvcnkpLCBlbW9qaS5maWxlTmFtZSkKICAgIH0KCiAgICBmdW4gZ2V0RW1vamlVcmkodGFyZ2V0OiBBY3RpdmVQcm9tcHQsIGVtb2ppOiBDdXN0b21FbW9qaSk6IFVyaSB7CiAgICAgICAgcmV0dXJuIFVyaS5mcm9tRmlsZShnZXRFbW9qaUZpbGUodGFyZ2V0LCBlbW9qaSkpCiAgICB9CgogICAgZnVuIGdldEVtb2ppc0ZvckNhdGVnb3J5KHRhcmdldDogQWN0aXZlUHJvbXB0LCBjYXRlZ29yeTogU3RyaW5nKTogRmxvdzxMaXN0PEN1c3RvbUVtb2ppPj4gewogICAgICAgIHJldHVybiBwcmVmZXJlbmNlcy5nZXRFbW9qaXNGb3JDYXRlZ29yeSh0YXJnZXQsIGNhdGVnb3J5KQogICAgfQoKICAgIGZ1biBnZXRBbGxDYXRlZ29yaWVzKHRhcmdldDogQWN0aXZlUHJvbXB0KTogRmxvdzxMaXN0PFN0cmluZz4+IHsKICAgICAgICByZXR1cm4gcHJlZmVyZW5jZXMuZ2V0QWxsQ2F0ZWdvcmllcyh0YXJnZXQpCiAgICB9CgogICAgZnVuIGdldEFsbEVtb2ppcyh0YXJnZXQ6IEFjdGl2ZVByb21wdCk6IEZsb3c8TGlzdDxDdXN0b21FbW9qaT4+IHsKICAgICAgICByZXR1cm4gcHJlZmVyZW5jZXMuZ2V0Q3VzdG9tRW1vamlzRmxvdyh0YXJnZXQpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gYWRkQ2F0ZWdvcnkodGFyZ2V0OiBBY3RpdmVQcm9tcHQsIGNhdGVnb3J5TmFtZTogU3RyaW5nKSB7CiAgICAgICAgaW5pdGlhbGl6ZUJ1aWx0aW5FbW9qaXModGFyZ2V0KQogICAgICAgIHByZWZlcmVuY2VzLmFkZENhdGVnb3J5KHRhcmdldCwgY2F0ZWdvcnlOYW1lKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGNhdGVnb3J5RXhpc3RzKHRhcmdldDogQWN0aXZlUHJvbXB0LCBjYXRlZ29yeU5hbWU6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIGluaXRpYWxpemVCdWlsdGluRW1vamlzKHRhcmdldCkKICAgICAgICByZXR1cm4gZ2V0QWxsQ2F0ZWdvcmllcyh0YXJnZXQpLmZpcnN0KCkuY29udGFpbnMoY2F0ZWdvcnlOYW1lKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGNsb25lRW1vamlTZXQoc291cmNlOiBBY3RpdmVQcm9tcHQsIHRhcmdldDogQWN0aXZlUHJvbXB0KSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgaWYgKHNvdXJjZSA9PSB0YXJnZXQpIHsKICAgICAgICAgICAgaW5pdGlhbGl6ZUJ1aWx0aW5FbW9qaXModGFyZ2V0KQogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQKICAgICAgICB9CgogICAgICAgIGluaXRpYWxpemVCdWlsdGluRW1vamlzKHNvdXJjZSkKICAgICAgICBkZWxldGVUYXJnZXQodGFyZ2V0KQoKICAgICAgICB2YWwgY2F0ZWdvcmllcyA9IHByZWZlcmVuY2VzLmdldEFsbENhdGVnb3JpZXMoc291cmNlKS5maXJzdCgpCiAgICAgICAgcHJlZmVyZW5jZXMuc2V0QWxsQ2F0ZWdvcmllcyh0YXJnZXQsIGNhdGVnb3JpZXMudG9TZXQoKSkKCiAgICAgICAgdmFsIGVtb2ppcyA9IHByZWZlcmVuY2VzLmdldEN1c3RvbUVtb2ppc0Zsb3coc291cmNlKS5maXJzdCgpCiAgICAgICAgdmFsIGNvcGllZEVtb2ppcyA9IG11dGFibGVMaXN0T2Y8Q3VzdG9tRW1vamk+KCkKICAgICAgICBlbW9qaXMuZm9yRWFjaCB7IGVtb2ppIC0+CiAgICAgICAgICAgIHZhbCBzb3VyY2VGaWxlID0gZ2V0RW1vamlGaWxlKHNvdXJjZSwgZW1vamkpCiAgICAgICAgICAgIGlmICghc291cmNlRmlsZS5leGlzdHMoKSkgcmV0dXJuQGZvckVhY2gKCiAgICAgICAgICAgIHZhbCB0YXJnZXREaXIgPSBnZXRDYXRlZ29yeURpcih0YXJnZXQsIGVtb2ppLmVtb3Rpb25DYXRlZ29yeSkKICAgICAgICAgICAgaWYgKCF0YXJnZXREaXIuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIHRhcmdldERpci5ta2RpcnMoKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgdGFyZ2V0RmlsZSA9IEZpbGUodGFyZ2V0RGlyLCBlbW9qaS5maWxlTmFtZSkKICAgICAgICAgICAgc291cmNlRmlsZS5jb3B5VG8odGFyZ2V0RmlsZSwgb3ZlcndyaXRlID0gdHJ1ZSkKICAgICAgICAgICAgY29waWVkRW1vamlzLmFkZChlbW9qaSkKICAgICAgICB9CgogICAgICAgIHByZWZlcmVuY2VzLnNldEN1c3RvbUVtb2ppcyh0YXJnZXQsIGNvcGllZEVtb2ppcykKICAgICAgICBwcmVmZXJlbmNlcy5zZXRCdWlsdGluRW1vamlzSW5pdGlhbGl6ZWQodGFyZ2V0LCB0cnVlKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGRlbGV0ZVRhcmdldCh0YXJnZXQ6IEFjdGl2ZVByb21wdCkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHByZWZlcmVuY2VzLmRlbGV0ZVRhcmdldCh0YXJnZXQpCiAgICAgICAgZ2V0VGFyZ2V0QmFzZURpcih0YXJnZXQpLmRlbGV0ZVJlY3Vyc2l2ZWx5KCkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBjbG9uZUVtb2ppc0JldHdlZW5DaGFyYWN0ZXJDYXJkcyhzb3VyY2VDaGFyYWN0ZXJDYXJkSWQ6IFN0cmluZywgdGFyZ2V0Q2hhcmFjdGVyQ2FyZElkOiBTdHJpbmcpIHsKICAgICAgICBjbG9uZUVtb2ppU2V0KAogICAgICAgICAgICBBY3RpdmVQcm9tcHQuQ2hhcmFjdGVyQ2FyZChzb3VyY2VDaGFyYWN0ZXJDYXJkSWQpLAogICAgICAgICAgICBBY3RpdmVQcm9tcHQuQ2hhcmFjdGVyQ2FyZCh0YXJnZXRDaGFyYWN0ZXJDYXJkSWQpCiAgICAgICAgKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGRlbGV0ZUNoYXJhY3RlckNhcmRFbW9qaXMoY2hhcmFjdGVyQ2FyZElkOiBTdHJpbmcpIHsKICAgICAgICBkZWxldGVUYXJnZXQoQWN0aXZlUHJvbXB0LkNoYXJhY3RlckNhcmQoY2hhcmFjdGVyQ2FyZElkKSkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBjbG9uZUVtb2ppc0JldHdlZW5DaGFyYWN0ZXJHcm91cHMoc291cmNlR3JvdXBJZDogU3RyaW5nLCB0YXJnZXRHcm91cElkOiBTdHJpbmcpIHsKICAgICAgICBjbG9uZUVtb2ppU2V0KAogICAgICAgICAgICBBY3RpdmVQcm9tcHQuQ2hhcmFjdGVyR3JvdXAoc291cmNlR3JvdXBJZCksCiAgICAgICAgICAgIEFjdGl2ZVByb21wdC5DaGFyYWN0ZXJHcm91cCh0YXJnZXRHcm91cElkKQogICAgICAgICkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBkZWxldGVDaGFyYWN0ZXJHcm91cEVtb2ppcyhjaGFyYWN0ZXJHcm91cElkOiBTdHJpbmcpIHsKICAgICAgICBkZWxldGVUYXJnZXQoQWN0aXZlUHJvbXB0LkNoYXJhY3Rlckdyb3VwKGNoYXJhY3Rlckdyb3VwSWQpKQogICAgfQoKICAgIGZ1biBpc1ZhbGlkQ2F0ZWdvcnlOYW1lKGNhdGVnb3J5TmFtZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGNhdGVnb3J5TmFtZS5tYXRjaGVzKFJlZ2V4KCJeW2EtejAtOV9dKyQiKSkKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGNvcHlCdWlsdGluRW1vamlzRnJvbUFzc2V0cyh0YXJnZXQ6IEFjdGl2ZVByb21wdCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBlbW9qaUFzc2V0c0RpciA9ICJlbW9qaSIKICAgICAgICAgICAgdmFsIGNhdGVnb3JpZXMgPSBjb250ZXh0LmFzc2V0cy5saXN0KGVtb2ppQXNzZXRzRGlyKQoKICAgICAgICAgICAgaWYgKGNhdGVnb3JpZXMuaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJObyBidWlsdC1pbiBlbW9qaSBjYXRlZ29yaWVzIGZvdW5kIGluIGFzc2V0cy4iKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHByZWZlcmVuY2VzLmFkZENhdGVnb3JpZXModGFyZ2V0LCBjYXRlZ29yaWVzLnRvTGlzdCgpKQoKICAgICAgICAgICAgY2F0ZWdvcmllcy5mb3JFYWNoIHsgY2F0ZWdvcnkgLT4KICAgICAgICAgICAgICAgIHZhbCBmaWxlcyA9IGNvbnRleHQuYXNzZXRzLmxpc3QoIiRlbW9qaUFzc2V0c0Rpci8kY2F0ZWdvcnkiKQogICAgICAgICAgICAgICAgZmlsZXM/LmZvckVhY2ggeyBmaWxlTmFtZSAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBleHRlbnNpb24gPSBmaWxlTmFtZS5zdWJzdHJpbmdBZnRlckxhc3QoJy4nLCAiIikKICAgICAgICAgICAgICAgICAgICBpZiAoZXh0ZW5zaW9uLmxvd2VyY2FzZSgpICFpbiBTVVBQT1JURURfRVhURU5TSU9OUykgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgdmFsIHRhcmdldERpciA9IGdldENhdGVnb3J5RGlyKHRhcmdldCwgY2F0ZWdvcnkpCiAgICAgICAgICAgICAgICAgICAgaWYgKCF0YXJnZXREaXIuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGFyZ2V0RGlyLm1rZGlycygpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB2YWwgdGFyZ2V0RmlsZU5hbWUgPSAiJHtVVUlELnJhbmRvbVVVSUQoKX0uJGV4dGVuc2lvbiIKICAgICAgICAgICAgICAgICAgICB2YWwgdGFyZ2V0RmlsZSA9IEZpbGUodGFyZ2V0RGlyLCB0YXJnZXRGaWxlTmFtZSkKCiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5hc3NldHMub3BlbigiJGVtb2ppQXNzZXRzRGlyLyRjYXRlZ29yeS8kZmlsZU5hbWUiKS51c2UgeyBpbnB1dCAtPgogICAgICAgICAgICAgICAgICAgICAgICBGaWxlT3V0cHV0U3RyZWFtKHRhcmdldEZpbGUpLnVzZSB7IG91dHB1dCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXQuY29weVRvKG91dHB1dCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgdmFsIGVtb2ppID0gQ3VzdG9tRW1vamkoCiAgICAgICAgICAgICAgICAgICAgICAgIGVtb3Rpb25DYXRlZ29yeSA9IGNhdGVnb3J5LAogICAgICAgICAgICAgICAgICAgICAgICBmaWxlTmFtZSA9IHRhcmdldEZpbGVOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBpc0J1aWx0SW5DYXRlZ29yeSA9IHRydWUKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgcHJlZmVyZW5jZXMuYWRkQ3VzdG9tRW1vamkodGFyZ2V0LCBlbW9qaSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBjb3B5aW5nIGJ1aWx0LWluIGVtb2ppcyBmb3IgdGFyZ2V0OiAkdGFyZ2V0IiwgZSkKICAgICAgICAgICAgdGhyb3cgZQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBnZXRUYXJnZXRTY29wZURpck5hbWUodGFyZ2V0OiBBY3RpdmVQcm9tcHQpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB3aGVuICh0YXJnZXQpIHsKICAgICAgICAgICAgaXMgQWN0aXZlUHJvbXB0LkNoYXJhY3RlckNhcmQgLT4gImNoYXJhY3Rlcl9jYXJkXyR7dGFyZ2V0LmlkfSIKICAgICAgICAgICAgaXMgQWN0aXZlUHJvbXB0LkNoYXJhY3Rlckdyb3VwIC0+ICJjaGFyYWN0ZXJfZ3JvdXBfJHt0YXJnZXQuaWR9IgogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHB1cmdlTGVnYWN5R2xvYmFsU3RvcmFnZSgpIHsKICAgICAgICBpZiAobGVnYWN5U3RvcmFnZVB1cmdlZCkgcmV0dXJuCgogICAgICAgIHByZWZlcmVuY2VzLmNsZWFyTGVnYWN5R2xvYmFsU3RvcmFnZSgpCgogICAgICAgIHZhbCBlbW9qaVJvb3REaXIgPSBGaWxlKGNvbnRleHQuZmlsZXNEaXIsIEVNT0pJX0RJUikKICAgICAgICBlbW9qaVJvb3REaXIubGlzdEZpbGVzKCk/LmZvckVhY2ggeyBjaGlsZCAtPgogICAgICAgICAgICB2YWwgaXNDdXJyZW50U2NvcGVEaXIgPSBjaGlsZC5pc0RpcmVjdG9yeSAmJgogICAgICAgICAgICAgICAgKGNoaWxkLm5hbWUuc3RhcnRzV2l0aCgiY2hhcmFjdGVyX2NhcmRfIikgfHwgY2hpbGQubmFtZS5zdGFydHNXaXRoKCJjaGFyYWN0ZXJfZ3JvdXBfIikpCiAgICAgICAgICAgIGlmICghaXNDdXJyZW50U2NvcGVEaXIpIHsKICAgICAgICAgICAgICAgIGNoaWxkLmRlbGV0ZVJlY3Vyc2l2ZWx5KCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgbGVnYWN5U3RvcmFnZVB1cmdlZCA9IHRydWUKICAgIH0KCiAgICBwcml2YXRlIGZ1biBnZXRUYXJnZXRCYXNlRGlyKHRhcmdldDogQWN0aXZlUHJvbXB0KTogRmlsZSB7CiAgICAgICAgcmV0dXJuIEZpbGUoY29udGV4dC5maWxlc0RpciwgIiRFTU9KSV9ESVIvJHtnZXRUYXJnZXRTY29wZURpck5hbWUodGFyZ2V0KX0iKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGdldENhdGVnb3J5RGlyKHRhcmdldDogQWN0aXZlUHJvbXB0LCBjYXRlZ29yeTogU3RyaW5nKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIEZpbGUoZ2V0VGFyZ2V0QmFzZURpcih0YXJnZXQpLCBjYXRlZ29yeSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBnZXRGaWxlRXh0ZW5zaW9uKHVyaTogVXJpKTogU3RyaW5nPyB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBleHRlbnNpb25Gcm9tTWltZVR5cGUgPQogICAgICAgICAgICAgICAgaWYgKCJjb250ZW50IiA9PSB1cmkuc2NoZW1lKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIG1pbWVUeXBlID0gY29udGV4dC5jb250ZW50UmVzb2x2ZXIuZ2V0VHlwZSh1cmkpCiAgICAgICAgICAgICAgICAgICAgTWltZVR5cGVNYXAuZ2V0U2luZ2xldG9uKCkuZ2V0RXh0ZW5zaW9uRnJvbU1pbWVUeXBlKG1pbWVUeXBlKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICBleHRlbnNpb25Gcm9tTWltZVR5cGUKICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgID8ubG93ZXJjYXNlKCkKICAgICAgICAgICAgICAgID86IGdldEZpbGVOYW1lRnJvbVVyaSh1cmkpCiAgICAgICAgICAgICAgICAgICAgPy5zdWJzdHJpbmdBZnRlckxhc3QoJy4nLCAiIikKICAgICAgICAgICAgICAgICAgICA/LnRha2VJZiB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICAgICAgICAgICAgICAgICAgPy5sb3dlcmNhc2UoKQogICAgICAgICAgICAgICAgPzogdXJpLnBhdGgKICAgICAgICAgICAgICAgICAgICA/LnN1YnN0cmluZ0FmdGVyTGFzdCgnLicsICIiKQogICAgICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RFbXB0eSgpIH0KICAgICAgICAgICAgICAgICAgICA/Lmxvd2VyY2FzZSgpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGdldHRpbmcgZmlsZSBleHRlbnNpb24iLCBlKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGdldEZpbGVOYW1lRnJvbVVyaSh1cmk6IFVyaSk6IFN0cmluZz8gewogICAgICAgIGlmICgiY29udGVudCIgIT0gdXJpLnNjaGVtZSkgewogICAgICAgICAgICByZXR1cm4gdXJpLmxhc3RQYXRoU2VnbWVudAogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGNvbnRleHQuY29udGVudFJlc29sdmVyLnF1ZXJ5KAogICAgICAgICAgICB1cmksCiAgICAgICAgICAgIGFycmF5T2YoT3BlbmFibGVDb2x1bW5zLkRJU1BMQVlfTkFNRSksCiAgICAgICAgICAgIG51bGwsCiAgICAgICAgICAgIG51bGwsCiAgICAgICAgICAgIG51bGwKICAgICAgICApPy51c2UgeyBjdXJzb3IgLT4KICAgICAgICAgICAgdmFsIGNvbHVtbkluZGV4ID0gY3Vyc29yLmdldENvbHVtbkluZGV4KE9wZW5hYmxlQ29sdW1ucy5ESVNQTEFZX05BTUUpCiAgICAgICAgICAgIGlmIChjb2x1bW5JbmRleCA+PSAwICYmIGN1cnNvci5tb3ZlVG9GaXJzdCgpKSB7CiAgICAgICAgICAgICAgICBjdXJzb3IuZ2V0U3RyaW5nKGNvbHVtbkluZGV4KQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.repository
+
+import android.content.Context
+import android.net.Uri
+import android.provider.OpenableColumns
+import android.webkit.MimeTypeMap
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.ActivePrompt
+import com.bslsjdk.operit.data.model.CustomEmoji
+import com.bslsjdk.operit.data.preferences.ActivePromptManager
+import com.bslsjdk.operit.data.preferences.CustomEmojiPreferences
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.withContext
+import java.io.File
+import java.io.FileOutputStream
+import java.util.UUID
+
+/**
+ * 自定义表情 Repository
+ *
+ * 管理按角色卡/角色组隔离的表情文件和数据持久化。
+ * - 文件存储在 filesDir/custom_emoji/<target_scope>/{category}/{uuid}.{ext}
+ * - 元数据通过 CustomEmojiPreferences 按 target 独立存储在 DataStore
+ */
+class CustomEmojiRepository private constructor(private val context: Context) {
+
+    companion object {
+        @Volatile
+        private var INSTANCE: CustomEmojiRepository? = null
+
+        fun getInstance(context: Context): CustomEmojiRepository {
+            return INSTANCE ?: synchronized(this) {
+                INSTANCE ?: CustomEmojiRepository(context.applicationContext).also {
+                    INSTANCE = it
+                }
+            }
+        }
+
+        private const val TAG = "CustomEmojiRepository"
+        private const val EMOJI_DIR = "custom_emoji"
+        private val SUPPORTED_EXTENSIONS = setOf("jpg", "jpeg", "png", "gif", "webp")
+    }
+
+    private val preferences = CustomEmojiPreferences.getInstance(context)
+    private val activePromptManager by lazy { ActivePromptManager.getInstance(context) }
+    @Volatile
+    private var legacyStoragePurged = false
+
+    suspend fun initializeBuiltinEmojis() = withContext(Dispatchers.IO) {
+        initializeBuiltinEmojis(activePromptManager.getActivePrompt())
+    }
+
+    suspend fun initializeBuiltinEmojis(target: ActivePrompt) = withContext(Dispatchers.IO) {
+        purgeLegacyGlobalStorage()
+        if (preferences.isBuiltinEmojisInitialized(target).first()) {
+            return@withContext
+        }
+
+        copyBuiltinEmojisFromAssets(target)
+        preferences.setBuiltinEmojisInitialized(target, true)
+        AppLogger.d(TAG, "Built-in emojis initialized successfully for target: $target")
+    }
+
+    suspend fun resetToDefault() = withContext(Dispatchers.IO) {
+        resetToDefault(activePromptManager.getActivePrompt())
+    }
+
+    /**
+     * 重置指定目标的表情库为默认表情（重新从 assets 复制）
+     */
+    suspend fun resetToDefault(target: ActivePrompt) = withContext(Dispatchers.IO) {
+        try {
+            preferences.clearAllEmojis(target)
+            getTargetBaseDir(target).deleteRecursively()
+
+            copyBuiltinEmojisFromAssets(target)
+            preferences.setBuiltinEmojisInitialized(target, true)
+
+            AppLogger.d(TAG, "Reset emojis to default successfully for target: $target")
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error resetting emojis for target: $target", e)
+            throw e
+        }
+    }
+
+    suspend fun addCustomEmoji(category: String, sourceUri: Uri): Result<CustomEmoji> = withContext(Dispatchers.IO) {
+        addCustomEmoji(activePromptManager.getActivePrompt(), category, sourceUri)
+    }
+
+    /**
+     * 为指定目标添加自定义表情
+     */
+    suspend fun addCustomEmoji(
+        target: ActivePrompt,
+        category: String,
+        sourceUri: Uri
+    ): Result<CustomEmoji> = withContext(Dispatchers.IO) {
+        try {
+            initializeBuiltinEmojis(target)
+
+            val extension = getFileExtension(sourceUri) ?: return@withContext Result.failure(
+                IllegalArgumentException(context.getString(R.string.emoji_cannot_determine_extension))
+            )
+
+            if (extension.lowercase() !in SUPPORTED_EXTENSIONS) {
+                return@withContext Result.failure(
+                    IllegalArgumentException(context.getString(R.string.emoji_unsupported_image_format, extension))
+                )
+            }
+
+            val fileName = "${UUID.randomUUID()}.$extension"
+            val categoryDir = getCategoryDir(target, category)
+            if (!categoryDir.exists()) {
+                categoryDir.mkdirs()
+            }
+
+            val targetFile = File(categoryDir, fileName)
+            context.contentResolver.openInputStream(sourceUri)?.use { input ->
+                FileOutputStream(targetFile).use { output ->
+                    input.copyTo(output)
+                }
+            } ?: return@withContext Result.failure(
+                IllegalStateException(context.getString(R.string.emoji_cannot_read_source))
+            )
+
+            val emoji = CustomEmoji(
+                emotionCategory = category,
+                fileName = fileName,
+                isBuiltInCategory = category in CustomEmojiPreferences.BUILTIN_EMOTIONS
+            )
+
+            preferences.addCategory(target, category)
+            preferences.addCustomEmoji(target, emoji)
+
+            AppLogger.d(TAG, "Successfully added emoji: $fileName to target: $target category: $category")
+            Result.success(emoji)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error adding custom emoji for target: $target", e)
+            Result.failure(e)
+        }
+    }
+
+    suspend fun deleteCustomEmoji(emojiId: String): Result<Unit> = withContext(Dispatchers.IO) {
+        deleteCustomEmoji(activePromptManager.getActivePrompt(), emojiId)
+    }
+
+    suspend fun deleteCustomEmoji(target: ActivePrompt, emojiId: String): Result<Unit> = withContext(Dispatchers.IO) {
+        try {
+            val emoji = preferences.getCustomEmojisFlow(target).first()
+                .find { it.id == emojiId }
+                ?: return@withContext Result.failure(
+                    IllegalArgumentException(context.getString(R.string.emoji_not_exist, emojiId))
+                )
+
+            val file = getEmojiFile(target, emoji)
+            if (file.exists()) {
+                file.delete()
+                AppLogger.d(TAG, "Deleted file: ${file.absolutePath}")
+            }
+
+            preferences.deleteCustomEmoji(target, emojiId)
+
+            AppLogger.d(TAG, "Successfully deleted emoji: $emojiId from target: $target")
+            Result.success(Unit)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error deleting custom emoji for target: $target", e)
+            Result.failure(e)
+        }
+    }
+
+    suspend fun deleteCategory(category: String): Result<Unit> = withContext(Dispatchers.IO) {
+        deleteCategory(activePromptManager.getActivePrompt(), category)
+    }
+
+    suspend fun deleteCategory(target: ActivePrompt, category: String): Result<Unit> = withContext(Dispatchers.IO) {
+        try {
+            val emojis = preferences.getEmojisForCategory(target, category).first()
+            emojis.forEach { emoji ->
+                val file = getEmojiFile(target, emoji)
+                if (file.exists()) {
+                    file.delete()
+                }
+            }
+
+            val categoryDir = getCategoryDir(target, category)
+            if (categoryDir.exists()) {
+                categoryDir.deleteRecursively()
+            }
+
+            preferences.deleteCategory(target, category)
+
+            AppLogger.d(TAG, "Successfully deleted category: $category from target: $target")
+            Result.success(Unit)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error deleting category for target: $target", e)
+            Result.failure(e)
+        }
+    }
+
+    fun getEmojiFile(target: ActivePrompt, emoji: CustomEmoji): File {
+        return File(getCategoryDir(target, emoji.emotionCategory), emoji.fileName)
+    }
+
+    fun getEmojiUri(target: ActivePrompt, emoji: CustomEmoji): Uri {
+        return Uri.fromFile(getEmojiFile(target, emoji))
+    }
+
+    fun getEmojisForCategory(target: ActivePrompt, category: String): Flow<List<CustomEmoji>> {
+        return preferences.getEmojisForCategory(target, category)
+    }
+
+    fun getAllCategories(target: ActivePrompt): Flow<List<String>> {
+        return preferences.getAllCategories(target)
+    }
+
+    fun getAllEmojis(target: ActivePrompt): Flow<List<CustomEmoji>> {
+        return preferences.getCustomEmojisFlow(target)
+    }
+
+    suspend fun addCategory(target: ActivePrompt, categoryName: String) {
+        initializeBuiltinEmojis(target)
+        preferences.addCategory(target, categoryName)
+    }
+
+    suspend fun categoryExists(target: ActivePrompt, categoryName: String): Boolean {
+        initializeBuiltinEmojis(target)
+        return getAllCategories(target).first().contains(categoryName)
+    }
+
+    suspend fun cloneEmojiSet(source: ActivePrompt, target: ActivePrompt) = withContext(Dispatchers.IO) {
+        if (source == target) {
+            initializeBuiltinEmojis(target)
+            return@withContext
+        }
+
+        initializeBuiltinEmojis(source)
+        deleteTarget(target)
+
+        val categories = preferences.getAllCategories(source).first()
+        preferences.setAllCategories(target, categories.toSet())
+
+        val emojis = preferences.getCustomEmojisFlow(source).first()
+        val copiedEmojis = mutableListOf<CustomEmoji>()
+        emojis.forEach { emoji ->
+            val sourceFile = getEmojiFile(source, emoji)
+            if (!sourceFile.exists()) return@forEach
+
+            val targetDir = getCategoryDir(target, emoji.emotionCategory)
+            if (!targetDir.exists()) {
+                targetDir.mkdirs()
+            }
+
+            val targetFile = File(targetDir, emoji.fileName)
+            sourceFile.copyTo(targetFile, overwrite = true)
+            copiedEmojis.add(emoji)
+        }
+
+        preferences.setCustomEmojis(target, copiedEmojis)
+        preferences.setBuiltinEmojisInitialized(target, true)
+    }
+
+    suspend fun deleteTarget(target: ActivePrompt) = withContext(Dispatchers.IO) {
+        preferences.deleteTarget(target)
+        getTargetBaseDir(target).deleteRecursively()
+    }
+
+    suspend fun cloneEmojisBetweenCharacterCards(sourceCharacterCardId: String, targetCharacterCardId: String) {
+        cloneEmojiSet(
+            ActivePrompt.CharacterCard(sourceCharacterCardId),
+            ActivePrompt.CharacterCard(targetCharacterCardId)
+        )
+    }
+
+    suspend fun deleteCharacterCardEmojis(characterCardId: String) {
+        deleteTarget(ActivePrompt.CharacterCard(characterCardId))
+    }
+
+    suspend fun cloneEmojisBetweenCharacterGroups(sourceGroupId: String, targetGroupId: String) {
+        cloneEmojiSet(
+            ActivePrompt.CharacterGroup(sourceGroupId),
+            ActivePrompt.CharacterGroup(targetGroupId)
+        )
+    }
+
+    suspend fun deleteCharacterGroupEmojis(characterGroupId: String) {
+        deleteTarget(ActivePrompt.CharacterGroup(characterGroupId))
+    }
+
+    fun isValidCategoryName(categoryName: String): Boolean {
+        return categoryName.matches(Regex("^[a-z0-9_]+$"))
+    }
+
+    private suspend fun copyBuiltinEmojisFromAssets(target: ActivePrompt) {
+        try {
+            val emojiAssetsDir = "emoji"
+            val categories = context.assets.list(emojiAssetsDir)
+
+            if (categories.isNullOrEmpty()) {
+                AppLogger.w(TAG, "No built-in emoji categories found in assets.")
+                return
+            }
+
+            preferences.addCategories(target, categories.toList())
+
+            categories.forEach { category ->
+                val files = context.assets.list("$emojiAssetsDir/$category")
+                files?.forEach { fileName ->
+                    val extension = fileName.substringAfterLast('.', "")
+                    if (extension.lowercase() !in SUPPORTED_EXTENSIONS) {
+                        return@forEach
+                    }
+
+                    val targetDir = getCategoryDir(target, category)
+                    if (!targetDir.exists()) {
+                        targetDir.mkdirs()
+                    }
+
+                    val targetFileName = "${UUID.randomUUID()}.$extension"
+                    val targetFile = File(targetDir, targetFileName)
+
+                    context.assets.open("$emojiAssetsDir/$category/$fileName").use { input ->
+                        FileOutputStream(targetFile).use { output ->
+                            input.copyTo(output)
+                        }
+                    }
+
+                    val emoji = CustomEmoji(
+                        emotionCategory = category,
+                        fileName = targetFileName,
+                        isBuiltInCategory = true
+                    )
+                    preferences.addCustomEmoji(target, emoji)
+                }
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error copying built-in emojis for target: $target", e)
+            throw e
+        }
+    }
+
+    private fun getTargetScopeDirName(target: ActivePrompt): String {
+        return when (target) {
+            is ActivePrompt.CharacterCard -> "character_card_${target.id}"
+            is ActivePrompt.CharacterGroup -> "character_group_${target.id}"
+        }
+    }
+
+    private suspend fun purgeLegacyGlobalStorage() {
+        if (legacyStoragePurged) return
+
+        preferences.clearLegacyGlobalStorage()
+
+        val emojiRootDir = File(context.filesDir, EMOJI_DIR)
+        emojiRootDir.listFiles()?.forEach { child ->
+            val isCurrentScopeDir = child.isDirectory &&
+                (child.name.startsWith("character_card_") || child.name.startsWith("character_group_"))
+            if (!isCurrentScopeDir) {
+                child.deleteRecursively()
+            }
+        }
+
+        legacyStoragePurged = true
+    }
+
+    private fun getTargetBaseDir(target: ActivePrompt): File {
+        return File(context.filesDir, "$EMOJI_DIR/${getTargetScopeDirName(target)}")
+    }
+
+    private fun getCategoryDir(target: ActivePrompt, category: String): File {
+        return File(getTargetBaseDir(target), category)
+    }
+
+    private fun getFileExtension(uri: Uri): String? {
+        return try {
+            val extensionFromMimeType =
+                if ("content" == uri.scheme) {
+                    val mimeType = context.contentResolver.getType(uri)
+                    MimeTypeMap.getSingleton().getExtensionFromMimeType(mimeType)
+                } else {
+                    null
+                }
+
+            extensionFromMimeType
+                ?.takeIf { it.isNotBlank() }
+                ?.lowercase()
+                ?: getFileNameFromUri(uri)
+                    ?.substringAfterLast('.', "")
+                    ?.takeIf { it.isNotEmpty() }
+                    ?.lowercase()
+                ?: uri.path
+                    ?.substringAfterLast('.', "")
+                    ?.takeIf { it.isNotEmpty() }
+                    ?.lowercase()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error getting file extension", e)
+            null
+        }
+    }
+
+    private fun getFileNameFromUri(uri: Uri): String? {
+        if ("content" != uri.scheme) {
+            return uri.lastPathSegment
+        }
+
+        return context.contentResolver.query(
+            uri,
+            arrayOf(OpenableColumns.DISPLAY_NAME),
+            null,
+            null,
+            null
+        )?.use { cursor ->
+            val columnIndex = cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME)
+            if (columnIndex >= 0 && cursor.moveToFirst()) {
+                cursor.getString(columnIndex)
+            } else {
+                null
+            }
+        }
+    }
+}

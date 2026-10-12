@@ -1,1 +1,181 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5tY3AKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuTG9jYWxpemVkVGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuUGFja2FnZVRvb2wKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlBhY2thZ2VUb29sUGFyYW1ldGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5Ub29sUGFja2FnZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCgovKioKICog6KGo56S6TUNQ5pyN5Yqh5Zmo5L2c5Li65bel5YW35YyFCiAqCiAqIOivpeexu+Wwhk1DUOacjeWKoeWZqOi9rOaNouS4uuagh+WHhlRvb2xQYWNrYWdl5qC85byP77yM5L2/5YW25Y+v5Lul5LiO546w5pyJ55qEUGFja2FnZU1hbmFnZXLml6DnvJ3pm4bmiJAKICovCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBNQ1BQYWNrYWdlKAogICAgICAgIHZhbCBzZXJ2ZXJDb25maWc6IE1DUFNlcnZlckNvbmZpZywKICAgICAgICB2YWwgbWNwVG9vbHM6IExpc3Q8TUNQVG9vbD4gPSBlbXB0eUxpc3QoKQopIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJNQ1BQYWNrYWdlIgoKICAgICAgICBkYXRhIGNsYXNzIExvYWRSZXN1bHQoCiAgICAgICAgICAgIHZhbCBtY3BQYWNrYWdlOiBNQ1BQYWNrYWdlPywKICAgICAgICAgICAgdmFsIGVycm9yTWVzc2FnZTogU3RyaW5nPyA9IG51bGwKICAgICAgICApCgogICAgICAgIC8qKgogICAgICAgICAqIOS7juacjeWKoeWZqOWIm+W7uk1DUOWMhQogICAgICAgICAqCiAgICAgICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgICAgICogQHBhcmFtIHNlcnZlckNvbmZpZyDmnI3liqHlmajphY3nva4KICAgICAgICAgKiBAcmV0dXJuIOWIm+W7uueahE1DUOWMhe+8jOWmguaenOi/nuaOpeWksei0peWImei/lOWbnm51bGwKICAgICAgICAgKi8KICAgICAgICBmdW4gZnJvbVNlcnZlcihjb250ZXh0OiBDb250ZXh0LCBzZXJ2ZXJDb25maWc6IE1DUFNlcnZlckNvbmZpZyk6IE1DUFBhY2thZ2U/IHsKICAgICAgICAgICAgcmV0dXJuIGxvYWRGcm9tU2VydmVyKGNvbnRleHQsIHNlcnZlckNvbmZpZykubWNwUGFja2FnZQogICAgICAgIH0KCiAgICAgICAgZnVuIGxvYWRGcm9tU2VydmVyKGNvbnRleHQ6IENvbnRleHQsIHNlcnZlckNvbmZpZzogTUNQU2VydmVyQ29uZmlnKTogTG9hZFJlc3VsdCB7CiAgICAgICAgICAgIHZhbCBtY3BNYW5hZ2VyID0gTUNQTWFuYWdlci5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgICAgICAgICB2YWwgc2Vzc2lvbiA9IG1jcE1hbmFnZXIuZ2V0T3JDcmVhdGVTZXNzaW9uKHNlcnZlckNvbmZpZy5uYW1lKQogICAgICAgICAgICAgICAgPzogcmV0dXJuIExvYWRSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgbWNwUGFja2FnZSA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gbWNwTWFuYWdlci5nZXRMYXN0Q29ubmVjdGlvbkZhaWx1cmVSZWFzb24oc2VydmVyQ29uZmlnLm5hbWUpCiAgICAgICAgICAgICAgICAgICAgICAgID86ICJDb25uZWN0aW9uIGZhaWxlZCIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyLmQoVEFHLCAi5q2j5Zyo6L+e5o6l5YiwTUNQ5pyN5Yqh5ZmoOiAke3NlcnZlckNvbmZpZy5uYW1lfSIpCgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGNvbm5lY3RlZCA9IHJ1bkJsb2NraW5nIHsgc2Vzc2lvbi5jb25uZWN0KCkgfQogICAgICAgICAgICAgICAgaWYgKCFjb25uZWN0ZWQpIHsKICAgICAgICAgICAgICAgICAgICBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIudyhUQUcsICLml6Dms5Xov57mjqXliLBNQ1DmnI3liqHlmag6ICR7c2VydmVyQ29uZmlnLm5hbWV9IikKICAgICAgICAgICAgICAgICAgICByZXR1cm4gTG9hZFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICAgICAgbWNwUGFja2FnZSA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IG1jcE1hbmFnZXIuZ2V0TGFzdENvbm5lY3Rpb25GYWlsdXJlUmVhc29uKHNlcnZlckNvbmZpZy5uYW1lKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPzogIkNvbm5lY3Rpb24gZmFpbGVkIgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIuZChUQUcsICLmiJDlip/ov57mjqXliLBNQ1DmnI3liqHlmag6ICR7c2VydmVyQ29uZmlnLm5hbWV977yM5byA5aeL6I635Y+W5bel5YW35YiX6KGoIikKCiAgICAgICAgICAgICAgICAvLyDojrflj5blt6XlhbfliJfooagKICAgICAgICAgICAgICAgIHZhbCBydW50aW1lVG9vbHMgPSBydW5CbG9ja2luZyB7IHNlc3Npb24ubGlzdFRvb2xzKCkgfQogICAgICAgICAgICAgICAgaWYgKHJ1bnRpbWVUb29scy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIudyhUQUcsICJNQ1DmnI3liqHlmaggJHtzZXJ2ZXJDb25maWcubmFtZX0g5rKh5pyJ5o+Q5L6b5Lu75L2V5bel5YW3IikKICAgICAgICAgICAgICAgICAgICAvLyDkuI3opoHlm6DkuLrmsqHmnInlt6XlhbflsLHov5Tlm55udWxsCiAgICAgICAgICAgICAgICAgICAgLy8g6L+U5Zue5LiA5Liq5YyF5ZCr56m65bel5YW35YiX6KGo55qE5pyJ5pWI5YyFCiAgICAgICAgICAgICAgICAgICAgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyLmQoVEFHLCAi5Yib5bu65LiN5YyF5ZCr5bel5YW355qETUNQ5YyFIC0g5pyN5Yqh5bey6L+e5o6l5L2G5rKh5pyJ5bel5YW3IikKICAgICAgICAgICAgICAgICAgICByZXR1cm4gTG9hZFJlc3VsdChtY3BQYWNrYWdlID0gTUNQUGFja2FnZShzZXJ2ZXJDb25maWcsIGVtcHR5TGlzdCgpKSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIuZChUQUcsICLmiJDlip/ku45NQ1DmnI3liqHlmajojrflj5YgJHtydW50aW1lVG9vbHMuc2l6ZX0g5Liq5bel5YW3IikKCiAgICAgICAgICAgICAgICAvLyDlsIbov5DooYzml7blt6XlhbfovazmjaLkuLpNQ1BUb29sCiAgICAgICAgICAgICAgICB2YWwgbWNwVG9vbHMgPQogICAgICAgICAgICAgICAgICAgICAgICBydW50aW1lVG9vbHMubWFwTm90TnVsbCB7IHJ1bnRpbWVUb29sIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBuYW1lID0gcnVudGltZVRvb2wubmFtZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBkZXNjcmlwdGlvbiA9IHJ1bnRpbWVUb29sLmRlc2NyaXB0aW9uCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChuYW1lLmlzRW1wdHkoKSkgcmV0dXJuQG1hcE5vdE51bGwgbnVsbAoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgcGFyYW1zID0gbXV0YWJsZUxpc3RPZjxNQ1BUb29sUGFyYW1ldGVyPigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGlucHV0U2NoZW1hID0gcnVudGltZVRvb2wuaW5wdXRTY2hlbWFPYmplY3QoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBwcm9wZXJ0aWVzT2JqID0gaW5wdXRTY2hlbWE/Lm9wdEpTT05PYmplY3QoInByb3BlcnRpZXMiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByZXF1aXJlZEFycmF5ID0gaW5wdXRTY2hlbWE/Lm9wdEpTT05BcnJheSgicmVxdWlyZWQiKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm9wZXJ0aWVzT2JqPy5rZXlzKCk/LmZvckVhY2ggeyBwYXJhbU5hbWUgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHBhcmFtT2JqID0gcHJvcGVydGllc09iai5vcHRKU09OT2JqZWN0KHBhcmFtTmFtZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHBhcmFtT2JqICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBwYXJhbURlc2NyaXB0aW9uID0gcGFyYW1PYmoub3B0U3RyaW5nKCJkZXNjcmlwdGlvbiIsICIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHBhcmFtVHlwZSA9IHBhcmFtT2JqLm9wdFN0cmluZygidHlwZSIsICJzdHJpbmciKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHBhcmFtUmVxdWlyZWQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXF1aXJlZEFycmF5Py5sZXQgeyByZXF1aXJlZCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKDAgdW50aWwgcmVxdWlyZWQubGVuZ3RoKCkpLmFueSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWlyZWQub3B0U3RyaW5nKGl0KSA9PSBwYXJhbU5hbWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IGZhbHNlCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1zLmFkZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTUNQVG9vbFBhcmFtZXRlcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lID0gcGFyYW1OYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gcGFyYW1EZXNjcmlwdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlID0gcGFyYW1UeXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVpcmVkID0gcGFyYW1SZXF1aXJlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1DUFRvb2wobmFtZSwgZGVzY3JpcHRpb24sIHBhcmFtcykKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlci5lKFRBRywgIuino+aekE1DUOW3peWFt+aXtuWHuumUmTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIuZChUQUcsICLmiJDlip/liJvlu7pNQ1DljIXvvIzljIXlkKsgJHttY3BUb29scy5zaXplfSDkuKrlt6XlhbfvvIzkv53mjIHov57mjqXmtLvot4MiKQogICAgICAgICAgICAgICAgcmV0dXJuIExvYWRSZXN1bHQobWNwUGFja2FnZSA9IE1DUFBhY2thZ2Uoc2VydmVyQ29uZmlnLCBtY3BUb29scykpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyLmUoVEFHLCAi5Yib5bu6TUNQ5YyF5pe25Ye66ZSZOiAke2UubWVzc2FnZX0iLCBlKQogICAgICAgICAgICAgICAgcmV0dXJuIExvYWRSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgbWNwUGFja2FnZSA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gZS5tZXNzYWdlID86ICJVbmV4cGVjdGVkIGV4Y2VwdGlvbiB3aGlsZSBjcmVhdGluZyBNQ1AgcGFja2FnZSIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKiog6L2s5o2i5Li65qCH5YeG5bel5YW35YyF5qC85byPIOWwhk1DUOWMhei9rOaNouS4uuS4jueOsOaciVBhY2thZ2VNYW5hZ2Vy5YW85a6555qEVG9vbFBhY2thZ2XmoLzlvI8gKi8KICAgIGZ1biB0b1Rvb2xQYWNrYWdlKCk6IFRvb2xQYWNrYWdlIHsKICAgICAgICAvLyDlsIZNQ1Dlt6XlhbfovazmjaLkuLrmoIflh4blt6XlhbfljIXlt6XlhbcKICAgICAgICB2YWwgdG9vbHMgPQogICAgICAgICAgICAgICAgbWNwVG9vbHMubWFwIHsgbWNwVG9vbCAtPgogICAgICAgICAgICAgICAgICAgIC8vIOWwhk1DUOW3peWFt+WPguaVsOi9rOaNouS4uuagh+WHhuW3peWFt+WMheWPguaVsAogICAgICAgICAgICAgICAgICAgIHZhbCBwYXJhbXMgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWNwVG9vbC5wYXJhbWV0ZXJzLm1hcCB7IG1jcFBhcmFtIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUGFja2FnZVRvb2xQYXJhbWV0ZXIoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lID0gbWNwUGFyYW0ubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gTG9jYWxpemVkVGV4dC5vZihtY3BQYXJhbS5kZXNjcmlwdGlvbiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXF1aXJlZCA9IG1jcFBhcmFtLnJlcXVpcmVkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZSA9IG1jcFBhcmFtLnR5cGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIC8vIOWIm+W7uuW3peWFt+WMheW3peWFtyAtIOWPquS9v+eUqOW3peWFt+WQjeensAogICAgICAgICAgICAgICAgICAgIFBhY2thZ2VUb29sKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZSA9IG1jcFRvb2wubmFtZSwgLy8g5Y+q5L2/55So5bel5YW35ZCNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IExvY2FsaXplZFRleHQub2YobWNwVG9vbC5kZXNjcmlwdGlvbiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJhbWV0ZXJzID0gcGFyYW1zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5rOo5oSP77yac2NyaXB05a2X5q6155So5LqO5a2Y5YKoTUNQ5pyN5Yqh5Zmo5ZKM5bel5YW355qE5L+h5oGv77yM55So5LqO6K+G5YirTUNQ5pyN5Yqh5ZmoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY3JpcHQgPSBnZW5lcmF0ZVNjcmlwdFBsYWNlaG9sZGVyKHNlcnZlckNvbmZpZy5uYW1lLCBtY3BUb29sLm5hbWUpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAvLyDliJvlu7rlrozmlbTnmoTlt6XlhbfljIXvvIzkvb/nlKjmnI3liqHlmajlkI3np7DkvZzkuLrljIXlkI3vvIzkuI3mt7vliqDku7vkvZXliY3nvIAKICAgICAgICByZXR1cm4gVG9vbFBhY2thZ2UoCiAgICAgICAgICAgICAgICBuYW1lID0gc2VydmVyQ29uZmlnLm5hbWUsIC8vIOebtOaOpeS9v+eUqOacjeWKoeWZqOWQjeensO+8jOS4jea3u+WKoG1jcDrliY3nvIAKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gTG9jYWxpemVkVGV4dC5vZihzZXJ2ZXJDb25maWcuZGVzY3JpcHRpb24pLAogICAgICAgICAgICAgICAgdG9vbHMgPSB0b29scywKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gIk1DUCIKICAgICAgICApCiAgICB9CgogICAgLyoqIOeUn+aIkOiEmuacrOWNoOS9jeespiDnlKjkuo7lnKhzY3JpcHTlrZfmrrXkuK3lrZjlgqhNQ1DmnI3liqHlmajlkozlt6XlhbfnmoTkv6Hmga/vvIzkvr/kuo7lkI7nu63or4bliKsgKi8KICAgIHByaXZhdGUgZnVuIGdlbmVyYXRlU2NyaXB0UGxhY2Vob2xkZXIoc2VydmVyTmFtZTogU3RyaW5nLCB0b29sTmFtZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIiIiCiAgICAgICAgICAgIC8qIE1DUEpTCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJzZXJ2ZXJOYW1lIjogIiRzZXJ2ZXJOYW1lIiwKICAgICAgICAgICAgICAgICJ0b29sTmFtZSI6ICIkdG9vbE5hbWUiLAogICAgICAgICAgICAgICAgImVuZHBvaW50IjogIiR7c2VydmVyQ29uZmlnLmVuZHBvaW50fSIKICAgICAgICAgICAgfQogICAgICAgICAgICAqLwogICAgICAgICAgICAvLyBNQ1Ag5bel5YW3IC0g5LiN5piv5a6e6ZmF55qESmF2YVNjcmlwdOiEmuacrAogICAgICAgICAgICAvLyDov5nmmK/kuIDkuKrljaDkvY3nrKbvvIznlKjkuo7lrZjlgqhNQ1DmnI3liqHlmajlkozlt6XlhbfnmoTkv6Hmga8KICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.mcp
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.LocalizedText
+import com.bslsjdk.operit.core.tools.PackageTool
+import com.bslsjdk.operit.core.tools.PackageToolParameter
+import com.bslsjdk.operit.core.tools.ToolPackage
+import kotlinx.coroutines.runBlocking
+import kotlinx.serialization.Serializable
+
+/**
+ * 表示MCP服务器作为工具包
+ *
+ * 该类将MCP服务器转换为标准ToolPackage格式，使其可以与现有的PackageManager无缝集成
+ */
+@Serializable
+data class MCPPackage(
+        val serverConfig: MCPServerConfig,
+        val mcpTools: List<MCPTool> = emptyList()
+) {
+    companion object {
+        private const val TAG = "MCPPackage"
+
+        data class LoadResult(
+            val mcpPackage: MCPPackage?,
+            val errorMessage: String? = null
+        )
+
+        /**
+         * 从服务器创建MCP包
+         *
+         * @param context 应用上下文
+         * @param serverConfig 服务器配置
+         * @return 创建的MCP包，如果连接失败则返回null
+         */
+        fun fromServer(context: Context, serverConfig: MCPServerConfig): MCPPackage? {
+            return loadFromServer(context, serverConfig).mcpPackage
+        }
+
+        fun loadFromServer(context: Context, serverConfig: MCPServerConfig): LoadResult {
+            val mcpManager = MCPManager.getInstance(context)
+            val session = mcpManager.getOrCreateSession(serverConfig.name)
+                ?: return LoadResult(
+                    mcpPackage = null,
+                    errorMessage = mcpManager.getLastConnectionFailureReason(serverConfig.name)
+                        ?: "Connection failed"
+                )
+            com.bslsjdk.operit.util.AppLogger.d(TAG, "正在连接到MCP服务器: ${serverConfig.name}")
+
+            try {
+                val connected = runBlocking { session.connect() }
+                if (!connected) {
+                    com.bslsjdk.operit.util.AppLogger.w(TAG, "无法连接到MCP服务器: ${serverConfig.name}")
+                    return LoadResult(
+                        mcpPackage = null,
+                        errorMessage = mcpManager.getLastConnectionFailureReason(serverConfig.name)
+                            ?: "Connection failed"
+                    )
+                }
+
+                com.bslsjdk.operit.util.AppLogger.d(TAG, "成功连接到MCP服务器: ${serverConfig.name}，开始获取工具列表")
+
+                // 获取工具列表
+                val runtimeTools = runBlocking { session.listTools() }
+                if (runtimeTools.isEmpty()) {
+                    com.bslsjdk.operit.util.AppLogger.w(TAG, "MCP服务器 ${serverConfig.name} 没有提供任何工具")
+                    // 不要因为没有工具就返回null
+                    // 返回一个包含空工具列表的有效包
+                    com.bslsjdk.operit.util.AppLogger.d(TAG, "创建不包含工具的MCP包 - 服务已连接但没有工具")
+                    return LoadResult(mcpPackage = MCPPackage(serverConfig, emptyList()))
+                }
+
+                com.bslsjdk.operit.util.AppLogger.d(TAG, "成功从MCP服务器获取 ${runtimeTools.size} 个工具")
+
+                // 将运行时工具转换为MCPTool
+                val mcpTools =
+                        runtimeTools.mapNotNull { runtimeTool ->
+                            try {
+                                val name = runtimeTool.name
+                                val description = runtimeTool.description
+
+                                if (name.isEmpty()) return@mapNotNull null
+
+                                val params = mutableListOf<MCPToolParameter>()
+                                val inputSchema = runtimeTool.inputSchemaObject()
+                                val propertiesObj = inputSchema?.optJSONObject("properties")
+                                val requiredArray = inputSchema?.optJSONArray("required")
+
+                                propertiesObj?.keys()?.forEach { paramName ->
+                                    val paramObj = propertiesObj.optJSONObject(paramName)
+                                    if (paramObj != null) {
+                                        val paramDescription = paramObj.optString("description", "")
+                                        val paramType = paramObj.optString("type", "string")
+                                        val paramRequired =
+                                                requiredArray?.let { required ->
+                                                    (0 until required.length()).any {
+                                                        required.optString(it) == paramName
+                                                    }
+                                                }
+                                                        ?: false
+
+                                        params.add(
+                                                MCPToolParameter(
+                                                        name = paramName,
+                                                        description = paramDescription,
+                                                        type = paramType,
+                                                        required = paramRequired
+                                                )
+                                        )
+                                    }
+                                }
+
+                                MCPTool(name, description, params)
+                            } catch (e: Exception) {
+                                com.bslsjdk.operit.util.AppLogger.e(TAG, "解析MCP工具时出错: ${e.message}")
+                                null
+                            }
+                        }
+
+                com.bslsjdk.operit.util.AppLogger.d(TAG, "成功创建MCP包，包含 ${mcpTools.size} 个工具，保持连接活跃")
+                return LoadResult(mcpPackage = MCPPackage(serverConfig, mcpTools))
+            } catch (e: Exception) {
+                com.bslsjdk.operit.util.AppLogger.e(TAG, "创建MCP包时出错: ${e.message}", e)
+                return LoadResult(
+                    mcpPackage = null,
+                    errorMessage = e.message ?: "Unexpected exception while creating MCP package"
+                )
+            }
+        }
+    }
+
+    /** 转换为标准工具包格式 将MCP包转换为与现有PackageManager兼容的ToolPackage格式 */
+    fun toToolPackage(): ToolPackage {
+        // 将MCP工具转换为标准工具包工具
+        val tools =
+                mcpTools.map { mcpTool ->
+                    // 将MCP工具参数转换为标准工具包参数
+                    val params =
+                            mcpTool.parameters.map { mcpParam ->
+                                PackageToolParameter(
+                                        name = mcpParam.name,
+                                        description = LocalizedText.of(mcpParam.description),
+                                        required = mcpParam.required,
+                                        type = mcpParam.type
+                                )
+                            }
+
+                    // 创建工具包工具 - 只使用工具名称
+                    PackageTool(
+                            name = mcpTool.name, // 只使用工具名
+                            description = LocalizedText.of(mcpTool.description),
+                            parameters = params,
+                            // 注意：script字段用于存储MCP服务器和工具的信息，用于识别MCP服务器
+                            script = generateScriptPlaceholder(serverConfig.name, mcpTool.name)
+                    )
+                }
+
+        // 创建完整的工具包，使用服务器名称作为包名，不添加任何前缀
+        return ToolPackage(
+                name = serverConfig.name, // 直接使用服务器名称，不添加mcp:前缀
+                description = LocalizedText.of(serverConfig.description),
+                tools = tools,
+                category = "MCP"
+        )
+    }
+
+    /** 生成脚本占位符 用于在script字段中存储MCP服务器和工具的信息，便于后续识别 */
+    private fun generateScriptPlaceholder(serverName: String, toolName: String): String {
+        return """
+            /* MCPJS
+            {
+                "serverName": "$serverName",
+                "toolName": "$toolName",
+                "endpoint": "${serverConfig.endpoint}"
+            }
+            */
+            // MCP 工具 - 不是实际的JavaScript脚本
+            // 这是一个占位符，用于存储MCP服务器和工具的信息
+        """.trimIndent()
+    }
+}

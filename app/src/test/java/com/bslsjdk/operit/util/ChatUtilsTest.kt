@@ -1,1 +1,145 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmNoYXQuaG9va3MuUHJvbXB0VHVybgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5Qcm9tcHRUdXJuS2luZAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENoYXRVdGlsc1Rlc3QgewoKICAgIEBUZXN0IGZ1biBzdHJpcEdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhX3JlbW92ZXNNYXRjaGluZ01ldGEoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJoZWxsbyIsIENoYXRVdGlscy5zdHJpcEdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhKCJoZWxsbzxtZXRhIHByb3ZpZGVyPVwiZ2VtaW5pOnRob3VnaHRfc2lnbmF0dXJlXCI+c2lnPC9tZXRhPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBzdHJpcEdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhX3ByZXNlcnZlc1BsYWluVGV4dCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoImhlbGxvIiwgQ2hhdFV0aWxzLnN0cmlwR2VtaW5pVGhvdWdodFNpZ25hdHVyZU1ldGEoImhlbGxvIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHN0cmlwR2VtaW5pVGhvdWdodFNpZ25hdHVyZU1ldGFfcGFpcnNPbmx5Q2hhbmdlQ29udGVudCgpIHsKICAgICAgICB2YWwgcmVzdWx0ID0gQ2hhdFV0aWxzLnN0cmlwR2VtaW5pVGhvdWdodFNpZ25hdHVyZU1ldGEobGlzdE9mKCJhc3Npc3RhbnQiIHRvICI8bWV0YSBwcm92aWRlcj1cImdlbWluaTp0aG91Z2h0X3NpZ25hdHVyZVwiPnNpZzwvbWV0YT5oZWxsbyIpKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImFzc2lzdGFudCIgdG8gImhlbGxvIiksIHJlc3VsdCkKICAgIH0KCiAgICBAVGVzdCBmdW4gc3RyaXBHZW1pbmlUaG91Z2h0U2lnbmF0dXJlTWV0YV90dXJuc09ubHlDaGFuZ2VDb250ZW50KCkgewogICAgICAgIHZhbCB0dXJucyA9IGxpc3RPZihQcm9tcHRUdXJuKFByb21wdFR1cm5LaW5kLkFTU0lTVEFOVCwgIjxtZXRhIHByb3ZpZGVyPVwiZ2VtaW5pOnRob3VnaHRfc2lnbmF0dXJlXCI+c2lnPC9tZXRhPmhlbGxvIikpCiAgICAgICAgdmFsIHJlc3VsdCA9IENoYXRVdGlscy5zdHJpcEdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhVHVybnModHVybnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJoZWxsbyIsIHJlc3VsdC5zaW5nbGUoKS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBnZW1pbmlQcm92aWRlck1vZGVsX3JlY29nbml6ZXNHb29nbGVQcmVmaXgoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0VXRpbHMuaXNHZW1pbmlQcm92aWRlck1vZGVsKCJHT09HTEU6Z2VtaW5pLTIuNSIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBnZW1pbmlQcm92aWRlck1vZGVsX3JlY29nbml6ZXNHZW5lcmljUHJlZml4KCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdFV0aWxzLmlzR2VtaW5pUHJvdmlkZXJNb2RlbCgiR0VNSU5JX0dFTkVSSUM6cHJveHkiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZ2VtaW5pUHJvdmlkZXJNb2RlbF9yZWplY3RzT3RoZXJQcmVmaXgoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ2hhdFV0aWxzLmlzR2VtaW5pUHJvdmlkZXJNb2RlbCgiT1BFTkFJOmdwdC00IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHN0cmlwT3BlbkFpUmVzcG9uc2VzUHJvdG9jb2xNYXJrdXBfcmVtb3Zlc01ldGFBbmRTZWFyY2hEaXNwbGF5KCkgewogICAgICAgIHZhbCBjb250ZW50ID0KICAgICAgICAgICAgIjxtZXRhIHByb3ZpZGVyPVwib3BlbmFpOnJlc3BvbnNlc19vdXRwdXRfaXRlbVwiPnBheWxvYWQ8L21ldGE+IiArCiAgICAgICAgICAgICAgICAiPHNlYXJjaCBwcm92aWRlcj1cImRlZXBzZWVrXCI+PHF1ZXJ5PnE8L3F1ZXJ5Pjwvc2VhcmNoPiIgKwogICAgICAgICAgICAgICAgImFuc3dlciIKCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJhbnN3ZXIiLCBDaGF0VXRpbHMuc3RyaXBPcGVuQWlSZXNwb25zZXNQcm90b2NvbE1hcmt1cChjb250ZW50KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlVGhpbmtpbmdDb250ZW50X3JlbW92ZXNUaGlua0Jsb2NrKCkgewogICAgICAgIGFzc2VydEVxdWFscygiYW5zd2VyIiwgQ2hhdFV0aWxzLnJlbW92ZVRoaW5raW5nQ29udGVudCgiPHRoaW5rPmRyYWZ0PC90aGluaz5hbnN3ZXIiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlVGhpbmtpbmdDb250ZW50X3JlbW92ZXNUaGlua2luZ0Jsb2NrKCkgewogICAgICAgIGFzc2VydEVxdWFscygiYW5zd2VyIiwgQ2hhdFV0aWxzLnJlbW92ZVRoaW5raW5nQ29udGVudCgiPHRoaW5raW5nPmRyYWZ0PC90aGlua2luZz5hbnN3ZXIiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlVGhpbmtpbmdDb250ZW50X3JlbW92ZXNTZWFyY2hCbG9jaygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoImFuc3dlciIsIENoYXRVdGlscy5yZW1vdmVUaGlua2luZ0NvbnRlbnQoIjxzZWFyY2g+c291cmNlPC9zZWFyY2g+YW5zd2VyIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHJlbW92ZVRoaW5raW5nQ29udGVudF9yZW1vdmVzU2VhcmNoQmxvY2tXaXRoQXR0cmlidXRlcygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJhbnN3ZXIiLAogICAgICAgICAgICBDaGF0VXRpbHMucmVtb3ZlVGhpbmtpbmdDb250ZW50KCI8c2VhcmNoIHByb3ZpZGVyPVwiZGVlcHNlZWtcIj48cXVlcnk+eDwvcXVlcnk+PC9zZWFyY2g+YW5zd2VyIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIHJlbW92ZVRoaW5raW5nQ29udGVudF9oYW5kbGVzVW5jbG9zZWRUaGluaygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoInByZWZpeCIsIENoYXRVdGlscy5yZW1vdmVUaGlua2luZ0NvbnRlbnQoInByZWZpeDx0aGluaz5kcmFmdCIpKQogICAgfQoKICAgIEBUZXN0IGZ1biByZW1vdmVUaGlua2luZ0NvbnRlbnRfaGFuZGxlc1VuY2xvc2VkU2VhcmNoKCkgewogICAgICAgIGFzc2VydEVxdWFscygicHJlZml4IiwgQ2hhdFV0aWxzLnJlbW92ZVRoaW5raW5nQ29udGVudCgicHJlZml4PHNlYXJjaD5zb3VyY2UiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdFRoaW5raW5nQ29udGVudF9yZXR1cm5zQ2xlYW5Db250ZW50KCkgewogICAgICAgIHZhbCByZXN1bHQgPSBDaGF0VXRpbHMuZXh0cmFjdFRoaW5raW5nQ29udGVudCgiPHRoaW5rPmRyYWZ0PC90aGluaz5hbnN3ZXIiKQogICAgICAgIGFzc2VydEVxdWFscygiYW5zd2VyIiwgcmVzdWx0LmZpcnN0KQogICAgICAgIGFzc2VydEVxdWFscygiZHJhZnQiLCByZXN1bHQuc2Vjb25kKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0VGhpbmtpbmdDb250ZW50X21lcmdlc011bHRpcGxlQmxvY2tzKCkgewogICAgICAgIHZhbCByZXN1bHQgPSBDaGF0VXRpbHMuZXh0cmFjdFRoaW5raW5nQ29udGVudCgiPHRoaW5rPmE8L3RoaW5rPm1pZDx0aGlua2luZz5iPC90aGlua2luZz5lbmQiKQogICAgICAgIGFzc2VydEVxdWFscygibWlkZW5kIiwgcmVzdWx0LmZpcnN0KQogICAgICAgIGFzc2VydEVxdWFscygiYVxuYiIsIHJlc3VsdC5zZWNvbmQpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RUaGlua2luZ0NvbnRlbnRfYWxzb1JlbW92ZXNTZWFyY2hCbG9ja3MoKSB7CiAgICAgICAgdmFsIHJlc3VsdCA9IENoYXRVdGlscy5leHRyYWN0VGhpbmtpbmdDb250ZW50KCI8c2VhcmNoPnM8L3NlYXJjaD48dGhpbms+YTwvdGhpbms+YW5zd2VyIikKICAgICAgICBhc3NlcnRFcXVhbHMoImFuc3dlciIsIHJlc3VsdC5maXJzdCkKICAgICAgICBhc3NlcnRFcXVhbHMoImEiLCByZXN1bHQuc2Vjb25kKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0VGhpbmtpbmdDb250ZW50X2Fsc29SZW1vdmVzU2VhcmNoQmxvY2tzV2l0aEF0dHJpYnV0ZXMoKSB7CiAgICAgICAgdmFsIHJlc3VsdCA9IENoYXRVdGlscy5leHRyYWN0VGhpbmtpbmdDb250ZW50KAogICAgICAgICAgICAiPHNlYXJjaCBwcm92aWRlcj1cImNvZGV4XCI+PHNvdXJjZSB1cmw9XCJodHRwczovL2V4YW1wbGUuY29tXCIgLz48L3NlYXJjaD48dGhpbms+YTwvdGhpbms+YW5zd2VyIgogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoImFuc3dlciIsIHJlc3VsdC5maXJzdCkKICAgICAgICBhc3NlcnRFcXVhbHMoImEiLCByZXN1bHQuc2Vjb25kKQogICAgfQoKICAgIEBUZXN0IGZ1biBlc3RpbWF0ZVRva2VuQ291bnRfY291bnRzRW5nbGlzaEFwcHJveGltYXRlbHkoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDFMLCBDaGF0VXRpbHMuZXN0aW1hdGVUb2tlbkNvdW50KCJhYmNkIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGVzdGltYXRlVG9rZW5Db3VudF9jb3VudHNDaGluZXNlQXBwcm94aW1hdGVseSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoM0wsIENoYXRVdGlscy5lc3RpbWF0ZVRva2VuQ291bnQoIuS9oOWlvSIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBlc3RpbWF0ZVRva2VuQ291bnRfY291bnRzTWl4ZWRUZXh0KCkgewogICAgICAgIGFzc2VydEVxdWFscygxTCwgQ2hhdFV0aWxzLmVzdGltYXRlVG9rZW5Db3VudCgi5L2gYSIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0SnNvbl9yZXR1cm5zRW1iZWRkZWRPYmplY3QoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ7XCJhXCI6MX0iLCBDaGF0VXRpbHMuZXh0cmFjdEpzb24oImJlZm9yZSB7XCJhXCI6MX0gYWZ0ZXIiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdEpzb25faGFuZGxlc01hcmtkb3duRmVuY2UoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ7XCJhXCI6MX0iLCBDaGF0VXRpbHMuZXh0cmFjdEpzb24oImBgYGpzb25cbntcImFcIjoxfVxuYGBgIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RKc29uX3JldHVybnNPcmlnaW5hbFdoZW5Ob09iamVjdEZvdW5kKCkgewogICAgICAgIGFzc2VydEVxdWFscygicGxhaW4gdGV4dCIsIENoYXRVdGlscy5leHRyYWN0SnNvbigicGxhaW4gdGV4dCIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0SnNvbkFycmF5X3JldHVybnNFbWJlZGRlZEFycmF5KCkgewogICAgICAgIGFzc2VydEVxdWFscygiWzEsMiwzXSIsIENoYXRVdGlscy5leHRyYWN0SnNvbkFycmF5KCJiZWZvcmUgWzEsMiwzXSBhZnRlciIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0SnNvbkFycmF5X2hhbmRsZXNNYXJrZG93bkZlbmNlKCkgewogICAgICAgIGFzc2VydEVxdWFscygiWzEsMiwzXSIsIENoYXRVdGlscy5leHRyYWN0SnNvbkFycmF5KCJgYGBqc29uXG5bMSwyLDNdXG5gYGAiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdEpzb25BcnJheV9yZXR1cm5zT3JpZ2luYWxXaGVuTm9BcnJheUZvdW5kKCkgewogICAgICAgIGFzc2VydEVxdWFscygicGxhaW4gdGV4dCIsIENoYXRVdGlscy5leHRyYWN0SnNvbkFycmF5KCJwbGFpbiB0ZXh0IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHN0cmlwR2VtaW5pVGhvdWdodFNpZ25hdHVyZU1ldGFfdHVybk9iamVjdElzUmV1c2VkV2hlblVuY2hhbmdlZCgpIHsKICAgICAgICB2YWwgdHVybiA9IFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuVVNFUiwgImhlbGxvIikKICAgICAgICBhc3NlcnRUcnVlKENoYXRVdGlscy5zdHJpcEdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhVHVybnMobGlzdE9mKHR1cm4pKS5zaW5nbGUoKSA9PT0gdHVybikKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.core.chat.hooks.PromptTurnKind
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatUtilsTest {
+
+    @Test fun stripGeminiThoughtSignatureMeta_removesMatchingMeta() {
+        assertEquals("hello", ChatUtils.stripGeminiThoughtSignatureMeta("hello<meta provider=\"gemini:thought_signature\">sig</meta>"))
+    }
+
+    @Test fun stripGeminiThoughtSignatureMeta_preservesPlainText() {
+        assertEquals("hello", ChatUtils.stripGeminiThoughtSignatureMeta("hello"))
+    }
+
+    @Test fun stripGeminiThoughtSignatureMeta_pairsOnlyChangeContent() {
+        val result = ChatUtils.stripGeminiThoughtSignatureMeta(listOf("assistant" to "<meta provider=\"gemini:thought_signature\">sig</meta>hello"))
+        assertEquals(listOf("assistant" to "hello"), result)
+    }
+
+    @Test fun stripGeminiThoughtSignatureMeta_turnsOnlyChangeContent() {
+        val turns = listOf(PromptTurn(PromptTurnKind.ASSISTANT, "<meta provider=\"gemini:thought_signature\">sig</meta>hello"))
+        val result = ChatUtils.stripGeminiThoughtSignatureMetaTurns(turns)
+        assertEquals("hello", result.single().content)
+    }
+
+    @Test fun geminiProviderModel_recognizesGooglePrefix() {
+        assertTrue(ChatUtils.isGeminiProviderModel("GOOGLE:gemini-2.5"))
+    }
+
+    @Test fun geminiProviderModel_recognizesGenericPrefix() {
+        assertTrue(ChatUtils.isGeminiProviderModel("GEMINI_GENERIC:proxy"))
+    }
+
+    @Test fun geminiProviderModel_rejectsOtherPrefix() {
+        assertFalse(ChatUtils.isGeminiProviderModel("OPENAI:gpt-4"))
+    }
+
+    @Test fun stripOpenAiResponsesProtocolMarkup_removesMetaAndSearchDisplay() {
+        val content =
+            "<meta provider=\"openai:responses_output_item\">payload</meta>" +
+                "<search provider=\"deepseek\"><query>q</query></search>" +
+                "answer"
+
+        assertEquals("answer", ChatUtils.stripOpenAiResponsesProtocolMarkup(content))
+    }
+
+    @Test fun removeThinkingContent_removesThinkBlock() {
+        assertEquals("answer", ChatUtils.removeThinkingContent("<think>draft</think>answer"))
+    }
+
+    @Test fun removeThinkingContent_removesThinkingBlock() {
+        assertEquals("answer", ChatUtils.removeThinkingContent("<thinking>draft</thinking>answer"))
+    }
+
+    @Test fun removeThinkingContent_removesSearchBlock() {
+        assertEquals("answer", ChatUtils.removeThinkingContent("<search>source</search>answer"))
+    }
+
+    @Test fun removeThinkingContent_removesSearchBlockWithAttributes() {
+        assertEquals(
+            "answer",
+            ChatUtils.removeThinkingContent("<search provider=\"deepseek\"><query>x</query></search>answer")
+        )
+    }
+
+    @Test fun removeThinkingContent_handlesUnclosedThink() {
+        assertEquals("prefix", ChatUtils.removeThinkingContent("prefix<think>draft"))
+    }
+
+    @Test fun removeThinkingContent_handlesUnclosedSearch() {
+        assertEquals("prefix", ChatUtils.removeThinkingContent("prefix<search>source"))
+    }
+
+    @Test fun extractThinkingContent_returnsCleanContent() {
+        val result = ChatUtils.extractThinkingContent("<think>draft</think>answer")
+        assertEquals("answer", result.first)
+        assertEquals("draft", result.second)
+    }
+
+    @Test fun extractThinkingContent_mergesMultipleBlocks() {
+        val result = ChatUtils.extractThinkingContent("<think>a</think>mid<thinking>b</thinking>end")
+        assertEquals("midend", result.first)
+        assertEquals("a\nb", result.second)
+    }
+
+    @Test fun extractThinkingContent_alsoRemovesSearchBlocks() {
+        val result = ChatUtils.extractThinkingContent("<search>s</search><think>a</think>answer")
+        assertEquals("answer", result.first)
+        assertEquals("a", result.second)
+    }
+
+    @Test fun extractThinkingContent_alsoRemovesSearchBlocksWithAttributes() {
+        val result = ChatUtils.extractThinkingContent(
+            "<search provider=\"codex\"><source url=\"https://example.com\" /></search><think>a</think>answer"
+        )
+        assertEquals("answer", result.first)
+        assertEquals("a", result.second)
+    }
+
+    @Test fun estimateTokenCount_countsEnglishApproximately() {
+        assertEquals(1L, ChatUtils.estimateTokenCount("abcd"))
+    }
+
+    @Test fun estimateTokenCount_countsChineseApproximately() {
+        assertEquals(3L, ChatUtils.estimateTokenCount("你好"))
+    }
+
+    @Test fun estimateTokenCount_countsMixedText() {
+        assertEquals(1L, ChatUtils.estimateTokenCount("你a"))
+    }
+
+    @Test fun extractJson_returnsEmbeddedObject() {
+        assertEquals("{\"a\":1}", ChatUtils.extractJson("before {\"a\":1} after"))
+    }
+
+    @Test fun extractJson_handlesMarkdownFence() {
+        assertEquals("{\"a\":1}", ChatUtils.extractJson("```json\n{\"a\":1}\n```"))
+    }
+
+    @Test fun extractJson_returnsOriginalWhenNoObjectFound() {
+        assertEquals("plain text", ChatUtils.extractJson("plain text"))
+    }
+
+    @Test fun extractJsonArray_returnsEmbeddedArray() {
+        assertEquals("[1,2,3]", ChatUtils.extractJsonArray("before [1,2,3] after"))
+    }
+
+    @Test fun extractJsonArray_handlesMarkdownFence() {
+        assertEquals("[1,2,3]", ChatUtils.extractJsonArray("```json\n[1,2,3]\n```"))
+    }
+
+    @Test fun extractJsonArray_returnsOriginalWhenNoArrayFound() {
+        assertEquals("plain text", ChatUtils.extractJsonArray("plain text"))
+    }
+
+    @Test fun stripGeminiThoughtSignatureMeta_turnObjectIsReusedWhenUnchanged() {
+        val turn = PromptTurn(PromptTurnKind.USER, "hello")
+        assertTrue(ChatUtils.stripGeminiThoughtSignatureMetaTurns(listOf(turn)).single() === turn)
+    }
+}

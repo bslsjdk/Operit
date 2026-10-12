@@ -1,1 +1,301 @@
-LyoKICogQ29weXJpZ2h0IDIwMjEgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQudmlldy5DaG9yZW9ncmFwaGVyCmltcG9ydCBhbmRyb2lkLnZpZXcuRGlzcGxheQppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5FeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uUgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbFZpZXcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudXRpbC50cmFjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51dGlsLnRyYWNlVmFsdWUKaW1wb3J0IGphdmEudXRpbC5Qcmlvcml0eVF1ZXVlCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdAppbXBvcnQga290bGluLm1hdGgubWF4CgpAU3VwcHJlc3MoIkRFUFJFQ0FUSU9OIikgLy8gYi80MjA1NTE1MzUKQEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGkKQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIHJlbWVtYmVyRGVmYXVsdFByZWZldGNoU2NoZWR1bGVyKCk6IFByZWZldGNoU2NoZWR1bGVyIHsKICAgIHJldHVybiBpZiAoUm9ib2xlY3RyaWNJbXBsICE9IG51bGwpIHsKICAgICAgICBSb2JvbGVjdHJpY0ltcGwKICAgIH0gZWxzZSB7CiAgICAgICAgdmFsIHZpZXcgPSBMb2NhbFZpZXcuY3VycmVudAogICAgICAgIHJlbWVtYmVyKHZpZXcpIHsKICAgICAgICAgICAgdmFsIGV4aXN0aW5nID0gdmlldy5nZXRUYWcoUi5pZC5jb21wb3NlX3ByZWZldGNoX3NjaGVkdWxlcikgYXM/IFByZWZldGNoU2NoZWR1bGVyCiAgICAgICAgICAgIGlmIChleGlzdGluZyA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICB2YWwgc2NoZWR1bGVyID0gQW5kcm9pZFByZWZldGNoU2NoZWR1bGVyKHZpZXcpCiAgICAgICAgICAgICAgICB2aWV3LnNldFRhZyhSLmlkLmNvbXBvc2VfcHJlZmV0Y2hfc2NoZWR1bGVyLCBzY2hlZHVsZXIpCiAgICAgICAgICAgICAgICBzY2hlZHVsZXIKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGV4aXN0aW5nCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8qKgogKiBBbmRyb2lkIHNwZWNpZmljIHByZWZldGNoIGltcGxlbWVudGF0aW9uLiBUaGUgb25seSBwbGF0Zm9ybSBzcGVjaWZpYyB0aGluZ3MgYXJlOgogKiAxKSBDYWxjdWxhdGluZyB0aGUgZGVhZGxpbmUKICogMikgUG9zdGluZyB0aGUgZGVsYXllZCBydW5uYWJsZSBUaGlzIGNvdWxkIGJlIHJlZmFjdG9yZWQgaW4gdGhlIGZ1dHVyZSBpbiBvcmRlciB0byBrZWVwIHRoZSBtb3N0CiAqICAgIGxvZ2ljIHBsYXRmb3JtIGFnbm9zdGljIHRvIGVuYWJsZSB0aGUgcHJlZmV0Y2hpbmcgb24gZGVza3RvcC4KICoKICogVGhlIGRpZmZlcmVuY2VzIHdpdGggdGhlIGltcGxlbWVudGF0aW9uIGluIFJlY3ljbGVyVmlldzoKICogMSkgUHJlZmV0Y2ggaXMgcGVyLWxpc3QtaW5kZXgsIGFuZCBwZXJmb3JtZWQgb24gd2hvbGUgaXRlbS4gV2l0aCBSZWN5Y2xlclZpZXcsIG5lc3RlZCBzY3JvbGxpbmcKICogICAgUmVjeWNsZXJWaWV3cyB3b3VsZCBwcmVmZXRjaCBpbmNyZW1lbnRhbGx5LCBlLmcuIGl0ZW1zIGxpa2UgdGhlIGZvbGxvd2luZyBpbiBhIHNjcm9sbGluZwogKiAgICB2ZXJ0aWNhbCBsaXN0IGNvdWxkIGJlIGJyb2tlbiB1cCB3aXRoaW4gYSBmcmFtZTogW1JvdzEgW2FdLCBbYl0sIFtjXV0gW1JvdzIgW2RdLCBbZV1dCiAqICAgIFtSb3czIFtmXSwgW2ddLCBbaF1dIFlvdSBjb3VsZCBoYXZlIGZyYW1lcyB0aGF0IGJyZWFrIHVwIHRoaXMgd29yayBhcmJpdHJhcmlseTogRnJhbWUgMSAtCiAqICAgIHByZWZldGNoIFthXSBGcmFtZSAyIC0gcHJlZmV0Y2ggW2JdLCBbY10gRnJhbWUgMyAtIHByZWZldGNoIFtkXSBGcmFtZSA0IC0gcHJlZmV0Y2ggW2VdLCBbZl0KICogICAgU29tZXRoaW5nIHNpbWlsYXIgaXMgbm90IHBvc3NpYmxlIHdpdGggTGF6eUNvbHVtbiB5ZXQuCiAqIDIpIFByZWZldGNoaW5nIHRpbWUgZXN0aW1hdGlvbiBvbmx5IGNhcHR1cmVkIGR1cmluZyB0aGUgcHJlZmV0Y2guIFdlIGN1cnJlbnRseSBkb24ndCB0cmFjayB0aGUKICogICAgdGltZSBvZiB0aGUgcmVndWxhciBzdWJjb21wb3NlIGNhbGwgaGFwcGVuZWQgZHVyaW5nIHRoZSByZWd1bGFyIG1lYXN1cmUgcGFzcywgb25seSB0aGUgb25lcwogKiAgICB3aGljaCBhcmUgZG9uZSBkdXJpbmcgdGhlIHByZWZldGNoaW5nLiBUaGUgZG93bnNpZGUgaXMgd2UgYnVpbGQgb3VyIHByZWZldGNoIGluZm9ybWF0aW9uIG9ubHkKICogICAgYWZ0ZXIgc2Nyb2xsaW5nIGhhcyBzdGFydGVkIGFuZCBpdGVtcyBhcmUgc2hvd2luZyB1cC4gWW91ciB2ZXJ5IGZpcnN0IHNjcm9sbCB3b24ndCBrbm93IGlmCiAqICAgIGl0J3Mgc2FmZSB0byBwcmVmZXRjaC4gV2h5OiBhKSBTdWJjb21wb3NlTGF5b3V0IGlzIG5vdCBleHBvc2luZyBhbiBBUEkgdG8gdW5kZXJzdGFuZCBpZgogKiAgICBzdWJjb21wb3NlKCkgY2FsbCBpcyBnb2luZyB0byBkbyB0aGUgcmVhbCB3b3JrLiBUaGUgd29yayBjb3VsZCBiZSBza2lwcGVkIGlmIHRoZSBzYW1lIGxhbWJkYQogKiAgICB3YXMgcGFzc2VkIGFzIGZvciB0aGUgcHJldmlvdXMgaW52b2NhdGlvbiBvciBpZiB0aGVyZSB3ZXJlIG5vIHJlY29tcG9zaXRpb25zIHNjaGVkdWxlZC4gV2UKICogICAgY291bGQgd29ya2Fyb3VuZCBpdCBieSBrZWVwaW5nIHRoZSBleHRyYSBzdGF0ZSBpbiBMYXp5TGlzdFN0YXRlIGFib3V0IHdoYXQgaXRlbXMgd2UgYWxyZWFkeQogKiAgICBjb21wb3NlZCBhbmQgdG8gb25seSBtZWFzdXJlIHRoZSBmaXJzdCBjb21wb3NpdGlvbiBmb3IgdGhlIGdpdmVuIHNsb3QsIG9yIGNvbnNpZGVyIGV4cG9zaW5nCiAqICAgIGV4dHJhIGluZm9ybWF0aW9uIGluIFN1YmNvbXBvc2VMYXlvdXRTdGF0ZSBBUEkuIGIpIEl0IGFsbG93cyB1cyB0byBuaWNlbHkgZGVjb3VwbGUgdGhlIGxvZ2ljLAogKiAgICBub3cgdGhlIHByZWZldGNoaW5nIGxvZ2ljIGlzIGJ1aWxkIG9uIHRvcCBvZiB0aGUgcmVndWxhciBMYXp5Q29sdW1uIG1lYXN1cmluZyBmdW5jdGlvbmFsbGl0eQogKiAgICBhbmQgdGhlIG1haW4gbG9naWMga25vd3Mgbm90aGluZyBhYm91dCBwcmVmZXRjaCBjKSBNYXliZSB0aGUgYmV0dGVyIGFwcHJvYWNoIHdvdWxkIGJlIHRvIHdhaXQKICogICAgdGlsbCB0aGUgbG93LWxldmVsIHJ1bnRpbWUgaW5mcmEgaXMgcmVhZHkgdG8gZG8gc3ViY29tcG9zaXRpb25zIG9uIHRoZSBkaWZmZXJlbnQgdGhyZWFkcyB3aGljaAogKiAgICBpbGx1bWluYXRlcyB0aGUgbmVlZCB0byBjYWxjdWxhdGUgdGhlIGRlYWRsaW5lcyBjb21wbGV0ZWx5LiBUcmFja2luZyBidWc6IGIvMTg3MzkzMzgxLgogKiAzKSBQcmVmZXRjaCBpcyBub3QgYXdhcmUgb2YgaXRlbSB0eXBlLiBSZWN5Y2xlclZpZXcgc2VwYXJhdGVzIHRpbWluZyBtZXRhZGF0YSBhYm91dCBkaWZmZXJlbnQKICogICAgaXRlbSB0eXBlcy4gRm9yIGV4YW1wbGUsIGluIHBsYXkgc3RvcmUgc3R5bGUgVUksIHRoaXMgYWxsb3dzIFJlY3ljbGVyVmlldyB0byBzZXBhcmF0ZWx5CiAqICAgIGVzdGltYXRlIHRoZSBjb3N0IG9mIGEgaGVhZGVyLCBzZXBhcmF0b3IsIGFuZCBpdGVtIHJvdy4gSW4gdGhpcyBpbXBsZW1lbnRhdGlvbiwgYWxsIG9mIHRoZXNlCiAqICAgIHdvdWxkIGJlIGF2ZXJhZ2VkIHRvZ2V0aGVyIGluIHRoZSBzYW1lIGVzdGltYXRpb24uIFRoZXJlIGlzIG5vIHZpZXcgdHlwZSBjb25jZXB0IGluIExhenlDb2x1bW4KICogICAgYXQgYWxsLiBXaGF0IGNhbiB3ZSBwb3NzaWJsZSBkbzogYSkgVGhpbmsgb2YgZGlmZmVyZW50IGl0ZW0vaXRlbXMgY2FsbHMgaW4gdGhlIGJ1aWxkZXIgZHNsIGFzCiAqICAgIGRpZmZlcmVudCB2aWV3IHR5cGVzIGF1dG9tYXRpY2FsbHkuIEl0IGlzIGNsb3NlIGVub3VnaCBidXQgc3RpbGwgbm90IGVudGlyZWx5IGNvcnJlY3QgaWYgdGhlCiAqICAgIHVzZXIgaGF2ZSBzb21ldGhpbmcgbGlrZSBhIGxpc3Qgb2YgZWxlbWVudHMgd2hpY2ggYXJlIG9iamVjdHMgb2Ygc29tZSBzZWFsZWQgY2xhc3NlcyBhbmQgdGhleQogKiAgICBjb25zaWRlciBkaWZmZXJlbnQgY2xhc3NlcyBhcyBjb21wbGV0ZWx5IGRpZmZlcmVudCB0eXBlcyBiKSBNYXliZSBpZiB3ZSB3b3VsZCBiZSBhYmxlIHRvCiAqICAgIHByZWNvbXBvc2Ugb24gdGhlIGRpZmZlcmVudCB0aHJlYWQgdGhpcyBpc3N1ZSBpcyBhbHNvIG5vdCBzbyBjcml0aWNhbCBnaXZlbiB0aGF0IHdlIGRvbid0IG5lZWQKICogICAgdG8gY2FsY3VsYXRlIHRoZSBkZWFkbGluZS4gVHJhY2tpbmcgYnVnOiAxODczOTM5MjIKICovCkBTdXBwcmVzcygiREVQUkVDQVRJT04iKSAvLyBiLzQyMDU1MTUzNQpARXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaQppbnRlcm5hbCBjbGFzcyBBbmRyb2lkUHJlZmV0Y2hTY2hlZHVsZXIocHJpdmF0ZSB2YWwgdmlldzogVmlldykgOgogICAgUHJlZmV0Y2hTY2hlZHVsZXIsCiAgICBQcmlvcml0eVByZWZldGNoU2NoZWR1bGVyLAogICAgVmlldy5PbkF0dGFjaFN0YXRlQ2hhbmdlTGlzdGVuZXIsCiAgICBSdW5uYWJsZSwKICAgIENob3Jlb2dyYXBoZXIuRnJhbWVDYWxsYmFjayB7CgogICAgLyoqCiAgICAgKiBUaGUgbGlzdCBvZiBjdXJyZW50bHkgbm90IHByb2Nlc3NlZCBwcmVmZXRjaCByZXF1ZXN0cy4gVGhlIHJlcXVlc3RzIHdpbGwgYmUgcHJvY2Vzc2VkIG9uZSBieQogICAgICogZHVyaW5nIHN1YnNlcXVlbnQgW3J1bl1zLgogICAgICovCiAgICBwcml2YXRlIHZhbCBwcmVmZXRjaFJlcXVlc3RzID0KICAgICAgICBQcmlvcml0eVF1ZXVlPFByaW9yaXR5VGFzaz4oMTEsIENvbXBhcmF0b3IgeyBhLCBiIC0+IGIucHJpb3JpdHkuY29tcGFyZVRvKGEucHJpb3JpdHkpIH0pCiAgICBwcml2YXRlIHZhciBwcmVmZXRjaFNjaGVkdWxlZCA9IGZhbHNlCiAgICBwcml2YXRlIHZhbCBjaG9yZW9ncmFwaGVyID0gQ2hvcmVvZ3JhcGhlci5nZXRJbnN0YW5jZSgpCiAgICBwcml2YXRlIHZhbCBzY29wZSA9IFByZWZldGNoUmVxdWVzdFNjb3BlSW1wbCgpCgogICAgLyoqIElzIHRydWUgd2hlbiBMYXp5TGlzdCB3YXMgY29tcG9zZWQgYW5kIG5vdCB5ZXQgZGlzcG9zZWQuICovCiAgICBwcml2YXRlIHZhciBpc0FjdGl2ZSA9IGZhbHNlCgogICAgcHJpdmF0ZSB2YXIgZnJhbWVTdGFydFRpbWVOYW5vcyA9IDBMCgogICAgaW5pdCB7CiAgICAgICAgY2FsY3VsYXRlRnJhbWVJbnRlcnZhbElmTmVlZGVkKHZpZXcpCiAgICAgICAgdmlldy5hZGRPbkF0dGFjaFN0YXRlQ2hhbmdlTGlzdGVuZXIodGhpcykKICAgICAgICAvLyBpZiB0aGUgdmlldyBpcyBhbHJlYWR5IGF0dGFjaGVkIHRvIGEgd2luZG93LCBjYWxsIG9uVmlld0F0dGFjaGVkVG9XaW5kb3cgaW1tZWRpYXRlbHkuCiAgICAgICAgaWYgKHZpZXcuaXNBdHRhY2hlZFRvV2luZG93KSBvblZpZXdBdHRhY2hlZFRvV2luZG93KHZpZXcpCiAgICB9CgogICAgLyoqCiAgICAgKiBDYWxsYmFjayB0byBiZSBleGVjdXRlZCB3aGVuIHRoZSBwcmVmZXRjaGluZyBpcyBuZWVkZWQuIFtwcmVmZXRjaFJlcXVlc3RzXSB3aWxsIGJlIHVzZWQgYXMgYW4KICAgICAqIGlucHV0LgogICAgICovCiAgICBvdmVycmlkZSBmdW4gcnVuKCkgewogICAgICAgIGlmICgKICAgICAgICAgICAgcHJlZmV0Y2hSZXF1ZXN0cy5pc0VtcHR5KCkgfHwKICAgICAgICAgICAgICAgICFwcmVmZXRjaFNjaGVkdWxlZCB8fAogICAgICAgICAgICAgICAgIWlzQWN0aXZlIHx8CiAgICAgICAgICAgICAgICB2aWV3LndpbmRvd1Zpc2liaWxpdHkgIT0gVmlldy5WSVNJQkxFCiAgICAgICAgKSB7CiAgICAgICAgICAgIC8vIGluY29ycmVjdCBpbnB1dC4gaWdub3JlCiAgICAgICAgICAgIHByZWZldGNoU2NoZWR1bGVkID0gZmFsc2UKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIC8vIFVzZSBib3RoIHRoZSB2aWV3IGRyYXdpbmcgdGltZSBvciB0aGUgZnJhbWVTdGFydFRpbWUgZ2l2ZW4gYnkgdGhlIGNob3Jlb2dyYXBoZXIuCiAgICAgICAgLy8gSW4gbW9zdCBjYXNlcyB0aGUgdmlldyBkcmF3aW5nIHRpbWUgc2hvdWxkIGJlIGVub3VnaCBhbmQgZXF1YWwgdG8gdGhlIGZyYW1lIHN0YXJ0CiAgICAgICAgLy8gdGltZSBnaXZlbiBieSB0aGUgY2hvcmVvZ3JhcGhlci4gVGhlc2UgYXJlIHRoZSBjYXNlcyB3aGVyZSB0aGV5IHNob3VsZCBkaWZmZXI6CiAgICAgICAgLy8gMSkgV2hlbiB0aGlzIGhhbmRsZXIgaXMgZXhlY3V0ZWQgaW4gdGhlIHNhbWUgZnJhbWUgYXMgaXQgd2FzIHNjaGVkdWxlZC4gSW4gdGhlc2UgY2FzZXMsCiAgICAgICAgLy8gdXNpbmcgdmlldyBkcmF3aW5nIHRpbWUgd2lsbCBiZSBjb3JyZWN0IGJlY2F1c2Ugc2NoZWR1bGluZyBpcyB1c3VhbGx5IGZvbGxvd2VkIGJ5IGEKICAgICAgICAvLyBkcmF3aW5nIG9wZXJhdGlvbiBhcyBpdCBoYXBwZW5zIGR1cmluZyBzY3JvbGwuCiAgICAgICAgLy8gMikgV2hlbiB0aGVyZSB3YXNuJ3QgZW5vdWdoIHRpbWUgdG8gY29tcGxldGUgYSByZXF1ZXN0IGluIHRoZSBjdXJyZW50IGZyYW1lLiBJZiB0aGVyZQogICAgICAgIC8vIGlzbid0IGVub3VnaCB0aW1lLCB0aGUgaGFuZGxlciB3aWxsIGJlIGV4ZWN1dGVkIGluIHRoZSBuZXh0IGZyYW1lIHdoZXJlIHRoZXJlIG1pZ2h0CiAgICAgICAgLy8gbm90IGhhdmUgYmVlbiBhIGRyYXdpbmcgb3BlcmF0aW9uLiBVc2luZyB0aGUgY2hvcmVvZ3JhcGhlciBmcmFtZSBzdGFydCB0aW1lIHdpbGwgYmUKICAgICAgICAvLyBzYWZlIGluIHRoZXNlIGNhc2VzLgogICAgICAgIHZhbCB2aWV3RHJhd1RpbWVOYW5vcyA9IFRpbWVVbml0Lk1JTExJU0VDT05EUy50b05hbm9zKHZpZXcuZHJhd2luZ1RpbWUpCgogICAgICAgIC8vIGVudGVyIGlkbGUgbW9kZSBpZiB0aGUgbGFzdCB0aW1lIHdlIGRyYXcgd2FzIDIgZnJhbWVzIGFnby4KICAgICAgICBzY29wZS5pc0ZyYW1lSWRsZSA9IChTeXN0ZW0ubmFub1RpbWUoKSA+IHZpZXdEcmF3VGltZU5hbm9zICsgMiAqIGZyYW1lSW50ZXJ2YWxOcykKICAgICAgICBzY29wZS5uZXh0RnJhbWVUaW1lTnMgPSBtYXhPZihmcmFtZVN0YXJ0VGltZU5hbm9zLCB2aWV3RHJhd1RpbWVOYW5vcykgKyBmcmFtZUludGVydmFsTnMKICAgICAgICB2YXIgc2NoZWR1bGVGb3JOZXh0RnJhbWUgPSBmYWxzZQogICAgICAgIHdoaWxlIChwcmVmZXRjaFJlcXVlc3RzLmlzTm90RW1wdHkoKSAmJiAhc2NoZWR1bGVGb3JOZXh0RnJhbWUpIHsKICAgICAgICAgICAgc2NoZWR1bGVGb3JOZXh0RnJhbWUgPQogICAgICAgICAgICAgICAgaWYgKHNjb3BlLmlzRnJhbWVJZGxlKSB7CiAgICAgICAgICAgICAgICAgICAgdHJhY2UoImNvbXBvc2U6bGF6eTpwcmVmZXRjaDppZGxlX2ZyYW1lIikgeyBydW5SZXF1ZXN0KCkgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBydW5SZXF1ZXN0KCkKICAgICAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGlmIChzY2hlZHVsZUZvck5leHRGcmFtZSkgewogICAgICAgICAgICAvLyB0aGVyZSBpcyBub3QgZW5vdWdoIHRpbWUgbGVmdCBpbiB0aGlzIGZyYW1lLiB3ZSBzY2hlZHVsZSBhIG5leHQgZnJhbWUgY2FsbGJhY2sKICAgICAgICAgICAgLy8gaW4gd2hpY2ggd2UgYXJlIGdvaW5nIHRvIHBvc3QgdGhlIG1lc3NhZ2UgaW4gdGhlIGhhbmRsZXIgYWdhaW4uCiAgICAgICAgICAgIGNob3Jlb2dyYXBoZXIucG9zdEZyYW1lQ2FsbGJhY2sodGhpcykKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBwcmVmZXRjaFNjaGVkdWxlZCA9IGZhbHNlCiAgICAgICAgfQogICAgICAgIHRyYWNlVmFsdWUoImNvbXBvc2U6bGF6eTpwcmVmZXRjaDphdmFpbGFibGVfdGltZV9uYW5vcyIsIDBMKSAvLyByZXNldCBjb3VudGVyCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcnVuUmVxdWVzdCgpOiBCb29sZWFuIHsKICAgICAgICB2YXIgc2NoZWR1bGVGb3JOZXh0RnJhbWUgPSBmYWxzZQogICAgICAgIHZhbCBhdmFpbGFibGVUaW1lTmFub3MgPSBzY29wZS5hdmFpbGFibGVUaW1lTmFub3MoKQogICAgICAgIHRyYWNlVmFsdWUoImNvbXBvc2U6bGF6eTpwcmVmZXRjaDphdmFpbGFibGVfdGltZV9uYW5vcyIsIGF2YWlsYWJsZVRpbWVOYW5vcykKICAgICAgICBpZiAoYXZhaWxhYmxlVGltZU5hbm9zID4gMCkgewogICAgICAgICAgICAvLyBhdCB0aGlzIHBvaW50IHdlIGtub3cgdGhhdCBwcmVmZXRjaFJlcXVlc3RzIGlzIG5vdCBlbXB0eS4KICAgICAgICAgICAgdmFsIHJlcXVlc3QgPSBwcmVmZXRjaFJlcXVlc3RzLnBlZWsoKSEhLnJlcXVlc3QKICAgICAgICAgICAgdmFsIGhhc01vcmVXb3JrVG9EbyA9IHdpdGgocmVxdWVzdCkgeyBzY29wZS5leGVjdXRlKCkgfQogICAgICAgICAgICBpZiAoaGFzTW9yZVdvcmtUb0RvKSB7CiAgICAgICAgICAgICAgICBzY2hlZHVsZUZvck5leHRGcmFtZSA9IHRydWUKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHByZWZldGNoUmVxdWVzdHMucG9sbCgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgc2NvcGUuaXNGcmFtZUlkbGUgPSBmYWxzZSAvLyByZXNldCBpZGxlIHN0YXRlIGZvciBzdWJzZXF1ZW50IHJlcXVlc3RzLgogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHNjaGVkdWxlRm9yTmV4dEZyYW1lID0gdHJ1ZQogICAgICAgIH0KICAgICAgICByZXR1cm4gc2NoZWR1bGVGb3JOZXh0RnJhbWUKICAgIH0KCiAgICAvKioKICAgICAqIENob3Jlb2dyYXBoZXIgZnJhbWUgY2FsbGJhY2suIEl0IHdpbGwgYmUgY2FsbGVkIHdoZW4gZHVyaW5nIHRoZSBwcmV2aW91cyBmcmFtZSB3ZSBkaWRuJ3QgaGF2ZQogICAgICogZW5vdWdoIHRpbWUgbGVmdC4gV2Ugd2lsbCBwb3N0IGEgbmV3IG1lc3NhZ2UgaW4gdGhlIGhhbmRsZXIgaW4gb3JkZXIgdG8gdHJ5IHRvIHByZWZldGNoIGFnYWluCiAgICAgKiBhZnRlciB0aGlzIGZyYW1lLgogICAgICovCiAgICBvdmVycmlkZSBmdW4gZG9GcmFtZShmcmFtZVRpbWVOYW5vczogTG9uZykgewogICAgICAgIGlmIChpc0FjdGl2ZSkgewogICAgICAgICAgICBmcmFtZVN0YXJ0VGltZU5hbm9zID0gZnJhbWVUaW1lTmFub3MKICAgICAgICAgICAgdmlldy5wb3N0KHRoaXMpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHN0YXJ0RXhlY3V0aW9uKCkgewogICAgICAgIGlmICghcHJlZmV0Y2hTY2hlZHVsZWQpIHsKICAgICAgICAgICAgcHJlZmV0Y2hTY2hlZHVsZWQgPSB0cnVlCiAgICAgICAgICAgIC8vIHNjaGVkdWxlIHRoZSBwcmVmZXRjaGluZwogICAgICAgICAgICB2aWV3LnBvc3QodGhpcykKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHNjaGVkdWxlTG93UHJpb3JpdHlQcmVmZXRjaChwcmVmZXRjaFJlcXVlc3Q6IFByZWZldGNoUmVxdWVzdCkgewogICAgICAgIHByZWZldGNoUmVxdWVzdHMuYWRkKFByaW9yaXR5VGFzayhQcmlvcml0eVRhc2suTG93LCBwcmVmZXRjaFJlcXVlc3QpKQogICAgICAgIHN0YXJ0RXhlY3V0aW9uKCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gc2NoZWR1bGVIaWdoUHJpb3JpdHlQcmVmZXRjaChwcmVmZXRjaFJlcXVlc3Q6IFByZWZldGNoUmVxdWVzdCkgewogICAgICAgIHByZWZldGNoUmVxdWVzdHMuYWRkKFByaW9yaXR5VGFzayhQcmlvcml0eVRhc2suSGlnaCwgcHJlZmV0Y2hSZXF1ZXN0KSkKICAgICAgICBzdGFydEV4ZWN1dGlvbigpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uVmlld0F0dGFjaGVkVG9XaW5kb3codjogVmlldykgewogICAgICAgIGlzQWN0aXZlID0gdHJ1ZQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblZpZXdEZXRhY2hlZEZyb21XaW5kb3codjogVmlldykgewogICAgICAgIGlzQWN0aXZlID0gZmFsc2UKICAgICAgICB2aWV3LnJlbW92ZUNhbGxiYWNrcyh0aGlzKQogICAgICAgIGNob3Jlb2dyYXBoZXIucmVtb3ZlRnJhbWVDYWxsYmFjayh0aGlzKQogICAgfQoKICAgIGNsYXNzIFByZWZldGNoUmVxdWVzdFNjb3BlSW1wbCgpIDogUHJlZmV0Y2hSZXF1ZXN0U2NvcGUgewoKICAgICAgICAvKioKICAgICAgICAgKiBJZiB0aGUgW1ByZWZldGNoUmVxdWVzdF0gZXhlY3V0aW9uIGNhbiBkbyAib3ZlcnRpbWUiLiBPdmVydGltZSBoZXJlIG1lYW5zIG1vcmUgdGltZSB0aGFuCiAgICAgICAgICogd2hhdCBpcyBhdmFpbGFibGUgaW4gdGhpcyBmcmFtZS4gSWYgdGhpcyBpcyB0cnVlLCBpdCBbYXZhaWxhYmxlVGltZU5hbm9zXSB3aWxsIHJldHVybgogICAgICAgICAqIFtMb25nLk1BWF9WQUxVRV0gaW5kaWNhdGluZyB0aGF0IGFueSB0aW1lIGNvbnN0cmFpbnRzIHRha2VuIGludG8gY29uc2lkZXJhdGlvbiB0byBleGVjdXRlCiAgICAgICAgICogdGhpcyB3aWxsIHJlcXVlc3Qgd2lsbCBiZSBpZ25vcmVkLgogICAgICAgICAqLwogICAgICAgIHZhciBpc0ZyYW1lSWRsZTogQm9vbGVhbiA9IGZhbHNlCgogICAgICAgIHZhciBuZXh0RnJhbWVUaW1lTnM6IExvbmcgPSAwTAoKICAgICAgICBvdmVycmlkZSBmdW4gYXZhaWxhYmxlVGltZU5hbm9zKCkgPQogICAgICAgICAgICBpZiAoaXNGcmFtZUlkbGUpIHsKICAgICAgICAgICAgICAgIExvbmcuTUFYX1ZBTFVFCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBtYXgoMCwgbmV4dEZyYW1lVGltZU5zIC0gU3lzdGVtLm5hbm9UaW1lKCkpCiAgICAgICAgICAgIH0KICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKCiAgICAgICAgLyoqCiAgICAgICAgICogVGhlIHN0YXRpYyBjYWNoZSBpbiBvcmRlciB0byBub3QgZ2F0aGVyIHRoZSBkaXNwbGF5IHJlZnJlc2ggcmF0ZSB0byBvZnRlbiAoZXhwZW5zaXZlCiAgICAgICAgICogb3BlcmF0aW9uKS4KICAgICAgICAgKi8KICAgICAgICBwcml2YXRlIHZhciBmcmFtZUludGVydmFsTnM6IExvbmcgPSAwCgogICAgICAgIHByaXZhdGUgZnVuIGNhbGN1bGF0ZUZyYW1lSW50ZXJ2YWxJZk5lZWRlZCh2aWV3OiBWaWV3KSB7CiAgICAgICAgICAgIC8vIHdlIG9ubHkgZG8gdGhpcyBxdWVyeSBvbmNlLCBzdGF0aWNhbGx5LCBiZWNhdXNlIGl0J3MgdmVyeSBleHBlbnNpdmUgKD4gMW1zKQogICAgICAgICAgICBpZiAoZnJhbWVJbnRlcnZhbE5zID09IDBMKSB7CiAgICAgICAgICAgICAgICB2YWwgZGlzcGxheTogRGlzcGxheT8gPSB2aWV3LmRpc3BsYXkKICAgICAgICAgICAgICAgIHZhciByZWZyZXNoUmF0ZSA9IDYwZgogICAgICAgICAgICAgICAgaWYgKCF2aWV3LmlzSW5FZGl0TW9kZSAmJiBkaXNwbGF5ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgZGlzcGxheVJlZnJlc2hSYXRlID0gZGlzcGxheS5yZWZyZXNoUmF0ZQogICAgICAgICAgICAgICAgICAgIGlmIChkaXNwbGF5UmVmcmVzaFJhdGUgPj0gMzBmKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIGJyZWFrIDYwIGZwcyBhc3N1bXB0aW9uIGlmIGRhdGEgZnJvbSBkaXNwbGF5IGFwcGVhcnMgdmFsaWQKICAgICAgICAgICAgICAgICAgICAgICAgcmVmcmVzaFJhdGUgPSBkaXNwbGF5UmVmcmVzaFJhdGUKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBmcmFtZUludGVydmFsTnMgPSAoMTAwMDAwMDAwMCAvIHJlZnJlc2hSYXRlKS50b0xvbmcoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgpAU3VwcHJlc3MoIkRFUFJFQ0FUSU9OIikgLy8gYi80MjA1NTE1MzUKQEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGkKcHJpdmF0ZSB2YWwgUm9ib2xlY3RyaWNJbXBsID0KICAgIGlmIChCdWlsZC5GSU5HRVJQUklOVCAhPSBudWxsICYmIEJ1aWxkLkZJTkdFUlBSSU5ULmxvd2VyY2FzZSgpID09ICJyb2JvbGVjdHJpYyIpIHsKICAgICAgICBvYmplY3QgOiBQcmVmZXRjaFNjaGVkdWxlciB7CiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBzY2hlZHVsZVByZWZldGNoKHByZWZldGNoUmVxdWVzdDogUHJlZmV0Y2hSZXF1ZXN0KSB7CiAgICAgICAgICAgICAgICAvLyBSb2JvbGVjdHJpYyBpcyByZXBvcnRpbmcgaW5jb3JyZWN0IGZyYW1lIHN0YXJ0IHRpbWUsIHNvIHdlIGhhdmUgdG8gY29tcGxldGVseQogICAgICAgICAgICAgICAgLy8gZGlzYWJsZSBwcmVmZXRjaCBvbiBpdC4KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0gZWxzZSB7CiAgICAgICAgbnVsbAogICAgfQoKQFN1cHByZXNzKCJERVBSRUNBVElPTiIpIC8vIGIvNDIwNTUxNTM1CkBFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCmludGVybmFsIGNsYXNzIFByaW9yaXR5VGFzayh2YWwgcHJpb3JpdHk6IEludCwgdmFsIHJlcXVlc3Q6IFByZWZldGNoUmVxdWVzdCkgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgdmFsIExvdyA9IDAKICAgICAgICB2YWwgSGlnaCA9IDEKICAgIH0KfQo=
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import android.os.Build
+import android.view.Choreographer
+import android.view.Display
+import android.view.View
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.R
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.util.trace
+import androidx.compose.ui.util.traceValue
+import java.util.PriorityQueue
+import java.util.concurrent.TimeUnit
+import kotlin.math.max
+
+@Suppress("DEPRECATION") // b/420551535
+@ExperimentalFoundationApi
+@Composable
+internal fun rememberDefaultPrefetchScheduler(): PrefetchScheduler {
+    return if (RobolectricImpl != null) {
+        RobolectricImpl
+    } else {
+        val view = LocalView.current
+        remember(view) {
+            val existing = view.getTag(R.id.compose_prefetch_scheduler) as? PrefetchScheduler
+            if (existing == null) {
+                val scheduler = AndroidPrefetchScheduler(view)
+                view.setTag(R.id.compose_prefetch_scheduler, scheduler)
+                scheduler
+            } else {
+                existing
+            }
+        }
+    }
+}
+
+/**
+ * Android specific prefetch implementation. The only platform specific things are:
+ * 1) Calculating the deadline
+ * 2) Posting the delayed runnable This could be refactored in the future in order to keep the most
+ *    logic platform agnostic to enable the prefetching on desktop.
+ *
+ * The differences with the implementation in RecyclerView:
+ * 1) Prefetch is per-list-index, and performed on whole item. With RecyclerView, nested scrolling
+ *    RecyclerViews would prefetch incrementally, e.g. items like the following in a scrolling
+ *    vertical list could be broken up within a frame: [Row1 [a], [b], [c]] [Row2 [d], [e]]
+ *    [Row3 [f], [g], [h]] You could have frames that break up this work arbitrarily: Frame 1 -
+ *    prefetch [a] Frame 2 - prefetch [b], [c] Frame 3 - prefetch [d] Frame 4 - prefetch [e], [f]
+ *    Something similar is not possible with LazyColumn yet.
+ * 2) Prefetching time estimation only captured during the prefetch. We currently don't track the
+ *    time of the regular subcompose call happened during the regular measure pass, only the ones
+ *    which are done during the prefetching. The downside is we build our prefetch information only
+ *    after scrolling has started and items are showing up. Your very first scroll won't know if
+ *    it's safe to prefetch. Why: a) SubcomposeLayout is not exposing an API to understand if
+ *    subcompose() call is going to do the real work. The work could be skipped if the same lambda
+ *    was passed as for the previous invocation or if there were no recompositions scheduled. We
+ *    could workaround it by keeping the extra state in LazyListState about what items we already
+ *    composed and to only measure the first composition for the given slot, or consider exposing
+ *    extra information in SubcomposeLayoutState API. b) It allows us to nicely decouple the logic,
+ *    now the prefetching logic is build on top of the regular LazyColumn measuring functionallity
+ *    and the main logic knows nothing about prefetch c) Maybe the better approach would be to wait
+ *    till the low-level runtime infra is ready to do subcompositions on the different threads which
+ *    illuminates the need to calculate the deadlines completely. Tracking bug: b/187393381.
+ * 3) Prefetch is not aware of item type. RecyclerView separates timing metadata about different
+ *    item types. For example, in play store style UI, this allows RecyclerView to separately
+ *    estimate the cost of a header, separator, and item row. In this implementation, all of these
+ *    would be averaged together in the same estimation. There is no view type concept in LazyColumn
+ *    at all. What can we possible do: a) Think of different item/items calls in the builder dsl as
+ *    different view types automatically. It is close enough but still not entirely correct if the
+ *    user have something like a list of elements which are objects of some sealed classes and they
+ *    consider different classes as completely different types b) Maybe if we would be able to
+ *    precompose on the different thread this issue is also not so critical given that we don't need
+ *    to calculate the deadline. Tracking bug: 187393922
+ */
+@Suppress("DEPRECATION") // b/420551535
+@ExperimentalFoundationApi
+internal class AndroidPrefetchScheduler(private val view: View) :
+    PrefetchScheduler,
+    PriorityPrefetchScheduler,
+    View.OnAttachStateChangeListener,
+    Runnable,
+    Choreographer.FrameCallback {
+
+    /**
+     * The list of currently not processed prefetch requests. The requests will be processed one by
+     * during subsequent [run]s.
+     */
+    private val prefetchRequests =
+        PriorityQueue<PriorityTask>(11, Comparator { a, b -> b.priority.compareTo(a.priority) })
+    private var prefetchScheduled = false
+    private val choreographer = Choreographer.getInstance()
+    private val scope = PrefetchRequestScopeImpl()
+
+    /** Is true when LazyList was composed and not yet disposed. */
+    private var isActive = false
+
+    private var frameStartTimeNanos = 0L
+
+    init {
+        calculateFrameIntervalIfNeeded(view)
+        view.addOnAttachStateChangeListener(this)
+        // if the view is already attached to a window, call onViewAttachedToWindow immediately.
+        if (view.isAttachedToWindow) onViewAttachedToWindow(view)
+    }
+
+    /**
+     * Callback to be executed when the prefetching is needed. [prefetchRequests] will be used as an
+     * input.
+     */
+    override fun run() {
+        if (
+            prefetchRequests.isEmpty() ||
+                !prefetchScheduled ||
+                !isActive ||
+                view.windowVisibility != View.VISIBLE
+        ) {
+            // incorrect input. ignore
+            prefetchScheduled = false
+            return
+        }
+        // Use both the view drawing time or the frameStartTime given by the choreographer.
+        // In most cases the view drawing time should be enough and equal to the frame start
+        // time given by the choreographer. These are the cases where they should differ:
+        // 1) When this handler is executed in the same frame as it was scheduled. In these cases,
+        // using view drawing time will be correct because scheduling is usually followed by a
+        // drawing operation as it happens during scroll.
+        // 2) When there wasn't enough time to complete a request in the current frame. If there
+        // isn't enough time, the handler will be executed in the next frame where there might
+        // not have been a drawing operation. Using the choreographer frame start time will be
+        // safe in these cases.
+        val viewDrawTimeNanos = TimeUnit.MILLISECONDS.toNanos(view.drawingTime)
+
+        // enter idle mode if the last time we draw was 2 frames ago.
+        scope.isFrameIdle = (System.nanoTime() > viewDrawTimeNanos + 2 * frameIntervalNs)
+        scope.nextFrameTimeNs = maxOf(frameStartTimeNanos, viewDrawTimeNanos) + frameIntervalNs
+        var scheduleForNextFrame = false
+        while (prefetchRequests.isNotEmpty() && !scheduleForNextFrame) {
+            scheduleForNextFrame =
+                if (scope.isFrameIdle) {
+                    trace("compose:lazy:prefetch:idle_frame") { runRequest() }
+                } else {
+                    runRequest()
+                }
+        }
+
+        if (scheduleForNextFrame) {
+            // there is not enough time left in this frame. we schedule a next frame callback
+            // in which we are going to post the message in the handler again.
+            choreographer.postFrameCallback(this)
+        } else {
+            prefetchScheduled = false
+        }
+        traceValue("compose:lazy:prefetch:available_time_nanos", 0L) // reset counter
+    }
+
+    private fun runRequest(): Boolean {
+        var scheduleForNextFrame = false
+        val availableTimeNanos = scope.availableTimeNanos()
+        traceValue("compose:lazy:prefetch:available_time_nanos", availableTimeNanos)
+        if (availableTimeNanos > 0) {
+            // at this point we know that prefetchRequests is not empty.
+            val request = prefetchRequests.peek()!!.request
+            val hasMoreWorkToDo = with(request) { scope.execute() }
+            if (hasMoreWorkToDo) {
+                scheduleForNextFrame = true
+            } else {
+                prefetchRequests.poll()
+            }
+            scope.isFrameIdle = false // reset idle state for subsequent requests.
+        } else {
+            scheduleForNextFrame = true
+        }
+        return scheduleForNextFrame
+    }
+
+    /**
+     * Choreographer frame callback. It will be called when during the previous frame we didn't have
+     * enough time left. We will post a new message in the handler in order to try to prefetch again
+     * after this frame.
+     */
+    override fun doFrame(frameTimeNanos: Long) {
+        if (isActive) {
+            frameStartTimeNanos = frameTimeNanos
+            view.post(this)
+        }
+    }
+
+    private fun startExecution() {
+        if (!prefetchScheduled) {
+            prefetchScheduled = true
+            // schedule the prefetching
+            view.post(this)
+        }
+    }
+
+    override fun scheduleLowPriorityPrefetch(prefetchRequest: PrefetchRequest) {
+        prefetchRequests.add(PriorityTask(PriorityTask.Low, prefetchRequest))
+        startExecution()
+    }
+
+    override fun scheduleHighPriorityPrefetch(prefetchRequest: PrefetchRequest) {
+        prefetchRequests.add(PriorityTask(PriorityTask.High, prefetchRequest))
+        startExecution()
+    }
+
+    override fun onViewAttachedToWindow(v: View) {
+        isActive = true
+    }
+
+    override fun onViewDetachedFromWindow(v: View) {
+        isActive = false
+        view.removeCallbacks(this)
+        choreographer.removeFrameCallback(this)
+    }
+
+    class PrefetchRequestScopeImpl() : PrefetchRequestScope {
+
+        /**
+         * If the [PrefetchRequest] execution can do "overtime". Overtime here means more time than
+         * what is available in this frame. If this is true, it [availableTimeNanos] will return
+         * [Long.MAX_VALUE] indicating that any time constraints taken into consideration to execute
+         * this will request will be ignored.
+         */
+        var isFrameIdle: Boolean = false
+
+        var nextFrameTimeNs: Long = 0L
+
+        override fun availableTimeNanos() =
+            if (isFrameIdle) {
+                Long.MAX_VALUE
+            } else {
+                max(0, nextFrameTimeNs - System.nanoTime())
+            }
+    }
+
+    companion object {
+
+        /**
+         * The static cache in order to not gather the display refresh rate to often (expensive
+         * operation).
+         */
+        private var frameIntervalNs: Long = 0
+
+        private fun calculateFrameIntervalIfNeeded(view: View) {
+            // we only do this query once, statically, because it's very expensive (> 1ms)
+            if (frameIntervalNs == 0L) {
+                val display: Display? = view.display
+                var refreshRate = 60f
+                if (!view.isInEditMode && display != null) {
+                    val displayRefreshRate = display.refreshRate
+                    if (displayRefreshRate >= 30f) {
+                        // break 60 fps assumption if data from display appears valid
+                        refreshRate = displayRefreshRate
+                    }
+                }
+                frameIntervalNs = (1000000000 / refreshRate).toLong()
+            }
+        }
+    }
+}
+
+@Suppress("DEPRECATION") // b/420551535
+@ExperimentalFoundationApi
+private val RobolectricImpl =
+    if (Build.FINGERPRINT != null && Build.FINGERPRINT.lowercase() == "robolectric") {
+        object : PrefetchScheduler {
+            override fun schedulePrefetch(prefetchRequest: PrefetchRequest) {
+                // Robolectric is reporting incorrect frame start time, so we have to completely
+                // disable prefetch on it.
+            }
+        }
+    } else {
+        null
+    }
+
+@Suppress("DEPRECATION") // b/420551535
+@ExperimentalFoundationApi
+internal class PriorityTask(val priority: Int, val request: PrefetchRequest) {
+    companion object {
+        val Low = 0
+        val High = 1
+    }
+}

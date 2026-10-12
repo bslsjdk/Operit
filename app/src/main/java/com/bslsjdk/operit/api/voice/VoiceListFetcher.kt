@@ -1,1 +1,167 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLm5ldC5VUkwKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdAppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CgpvYmplY3QgVm9pY2VMaXN0RmV0Y2hlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiVm9pY2VMaXN0RmV0Y2hlciIKCiAgICBwcml2YXRlIHZhbCBjbGllbnQgPQogICAgICAgIE9rSHR0cENsaWVudC5CdWlsZGVyKCkKICAgICAgICAgICAgLmNvbm5lY3RUaW1lb3V0KDMwLCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAucmVhZFRpbWVvdXQoMzAsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC53cml0ZVRpbWVvdXQoMzAsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgZnVuIGdldFZvaWNlc0xpc3RVcmwoZW5kcG9pbnRVcmw6IFN0cmluZyk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgdmFsIGJhc2UgPSBleHRyYWN0QmFzZVVybChlbmRwb2ludFVybCkKICAgICAgICByZXR1cm4gbGlzdE9mKAogICAgICAgICAgICAiJGJhc2UvdjEvYXVkaW8vdm9pY2VzIiwKICAgICAgICAgICAgIiRiYXNlL3YxL3ZvaWNlcyIsCiAgICAgICAgICAgICIkYmFzZS92b2ljZXMiCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV4dHJhY3RCYXNlVXJsKGZ1bGxVcmw6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCB1cmwgPSBVUkwoZnVsbFVybCkKICAgICAgICAgICAgdmFsIHBhdGggPSB1cmwucGF0aAogICAgICAgICAgICB2YWwgdmVyc2lvblBhdGhSZWdleCA9IFJlZ2V4KCIvdlxcZCsiKQogICAgICAgICAgICB2YWwgbWF0Y2ggPSB2ZXJzaW9uUGF0aFJlZ2V4LmZpbmQocGF0aCkKCiAgICAgICAgICAgIGlmIChtYXRjaCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICB2YWwgcGF0aEJlZm9yZVZlcnNpb24gPSBwYXRoLnN1YnN0cmluZygwLCBtYXRjaC5yYW5nZS5maXJzdCkKICAgICAgICAgICAgICAgICIke3VybC5wcm90b2NvbH06Ly8ke3VybC5hdXRob3JpdHl9JHBhdGhCZWZvcmVWZXJzaW9uIgogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgIiR7dXJsLnByb3RvY29sfTovLyR7dXJsLmF1dGhvcml0eX0iCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgZnVsbFVybAogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBnZXRWb2ljZXNMaXN0KAogICAgICAgIGFwaUtleTogU3RyaW5nLAogICAgICAgIHR0c0VuZHBvaW50VXJsOiBTdHJpbmcKICAgICk6IFJlc3VsdDxMaXN0PFZvaWNlU2VydmljZS5Wb2ljZT4+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICBpZiAoYXBpS2V5LmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgUmVzdWx0LmZhaWx1cmUoSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJhcGlLZXkgaXMgYmxhbmsiKSkKICAgICAgICB9CiAgICAgICAgaWYgKHR0c0VuZHBvaW50VXJsLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgUmVzdWx0LmZhaWx1cmUoSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJ0dHNFbmRwb2ludFVybCBpcyBibGFuayIpKQogICAgICAgIH0KCiAgICAgICAgdmFsIGNhbmRpZGF0ZXMgPSBnZXRWb2ljZXNMaXN0VXJsKHR0c0VuZHBvaW50VXJsKQogICAgICAgIHZhciBsYXN0RXJyb3I6IFRocm93YWJsZT8gPSBudWxsCgogICAgICAgIGZvciAodXJsIGluIGNhbmRpZGF0ZXMpIHsKICAgICAgICAgICAgdmFsIHJlcXVlc3QgPQogICAgICAgICAgICAgICAgUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgICAgICAgICAudXJsKHVybCkKICAgICAgICAgICAgICAgICAgICAuZ2V0KCkKICAgICAgICAgICAgICAgICAgICAuYWRkSGVhZGVyKCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAkYXBpS2V5IikKICAgICAgICAgICAgICAgICAgICAuYnVpbGQoKQoKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCByZXNwb25zZSA9IGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKQogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBpZiAoIXJlc3BvbnNlLmlzU3VjY2Vzc2Z1bCkgewogICAgICAgICAgICAgICAgICAgICAgICBsYXN0RXJyb3IgPSBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkhUVFAgJHtyZXNwb25zZS5jb2RlfSIpCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB2YWwgYm9keSA9IHJlc3BvbnNlLmJvZHk/LnN0cmluZygpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgICAgIHZhbCB2b2ljZXMgPSBwYXJzZVZvaWNlcyhib2R5KQogICAgICAgICAgICAgICAgICAgIGlmICh2b2ljZXMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBSZXN1bHQuc3VjY2Vzcyh2b2ljZXMpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBsYXN0RXJyb3IgPSBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkVtcHR5IHZvaWNlIGxpc3QiKQogICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICByZXNwb25zZS5jbG9zZSgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiRmV0Y2ggdm9pY2VzIGZhaWxlZDogJHVybCIsIGUpCiAgICAgICAgICAgICAgICBsYXN0RXJyb3IgPSBlCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIFJlc3VsdC5mYWlsdXJlKGxhc3RFcnJvciA/OiBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkZldGNoIHZvaWNlcyBmYWlsZWQiKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZVZvaWNlcyhqc29uOiBTdHJpbmcpOiBMaXN0PFZvaWNlU2VydmljZS5Wb2ljZT4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgcm9vdCA9IEpTT05PYmplY3QoanNvbikKICAgICAgICAgICAgdmFsIGRhdGEgPSByb290Lm9wdCgiZGF0YSIpCiAgICAgICAgICAgIHZhbCBhcnIgPSB3aGVuIChkYXRhKSB7CiAgICAgICAgICAgICAgICBpcyBKU09OQXJyYXkgLT4gZGF0YQogICAgICAgICAgICAgICAgZWxzZSAtPiByb290Lm9wdEpTT05BcnJheSgidm9pY2VzIikgPzogcm9vdC5vcHRKU09OQXJyYXkoImRhdGEiKQogICAgICAgICAgICB9ID86IHJldHVybiBlbXB0eUxpc3QoKQoKICAgICAgICAgICAgdmFsIHBhcnNlZFZvaWNlcyA9IGJ1aWxkTGlzdCB7CiAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBhcnIubGVuZ3RoKCkpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgb2JqID0gYXJyLm9wdEpTT05PYmplY3QoaSkgPzogY29udGludWUKICAgICAgICAgICAgICAgICAgICB2YWwgaWQgPSBvYmoub3B0U3RyaW5nKCJpZCIpLmlmQmxhbmsgeyBvYmoub3B0U3RyaW5nKCJ2b2ljZSIpIH0KICAgICAgICAgICAgICAgICAgICBpZiAoaWQuaXNCbGFuaygpKSBjb250aW51ZQogICAgICAgICAgICAgICAgICAgIHZhbCBuYW1lID0gb2JqLm9wdFN0cmluZygibmFtZSIpLmlmQmxhbmsgeyBpZCB9CiAgICAgICAgICAgICAgICAgICAgdmFsIGxvY2FsZSA9IG9iai5vcHRTdHJpbmcoImxvY2FsZSIpLmlmQmxhbmsgeyAiIiB9CiAgICAgICAgICAgICAgICAgICAgdmFsIGdlbmRlciA9IG9iai5vcHRTdHJpbmcoImdlbmRlciIpLmlmQmxhbmsgeyAiIiB9CiAgICAgICAgICAgICAgICAgICAgYWRkKFZvaWNlU2VydmljZS5Wb2ljZShpZCA9IGlkLCBuYW1lID0gbmFtZSwgbG9jYWxlID0gbG9jYWxlLCBnZW5kZXIgPSBnZW5kZXIpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZWR1cGVWb2ljZXNCeUlkKHBhcnNlZFZvaWNlcykKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgZW1wdHlMaXN0KCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZGVkdXBlVm9pY2VzQnlJZCh2b2ljZXM6IExpc3Q8Vm9pY2VTZXJ2aWNlLlZvaWNlPik6IExpc3Q8Vm9pY2VTZXJ2aWNlLlZvaWNlPiB7CiAgICAgICAgaWYgKHZvaWNlcy5pc0VtcHR5KCkpIHJldHVybiBlbXB0eUxpc3QoKQoKICAgICAgICB2YWwgZGVkdXBlZCA9IGxpbmtlZE1hcE9mPFN0cmluZywgVm9pY2VTZXJ2aWNlLlZvaWNlPigpCiAgICAgICAgdmFyIGR1cGxpY2F0ZUNvdW50ID0gMAoKICAgICAgICBmb3IgKHZvaWNlIGluIHZvaWNlcykgewogICAgICAgICAgICB2YWwgZXhpc3RpbmcgPSBkZWR1cGVkW3ZvaWNlLmlkXQogICAgICAgICAgICBpZiAoZXhpc3RpbmcgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgZGVkdXBlZFt2b2ljZS5pZF0gPSB2b2ljZQogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZHVwbGljYXRlQ291bnQrKwogICAgICAgICAgICBkZWR1cGVkW3ZvaWNlLmlkXSA9IHByZWZlclJpY2hlclZvaWNlKGV4aXN0aW5nLCB2b2ljZSkKICAgICAgICB9CgogICAgICAgIGlmIChkdXBsaWNhdGVDb3VudCA+IDApIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoCiAgICAgICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICAgICAiVm9pY2UgbGlzdCBjb250YWlucyBkdXBsaWNhdGUgaWRzLiBSZW1vdmVkIGR1cGxpY2F0ZXM6IGNvdW50PSRkdXBsaWNhdGVDb3VudCwgdW5pcXVlPSR7ZGVkdXBlZC5zaXplfSIKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGRlZHVwZWQudmFsdWVzLnRvTGlzdCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcHJlZmVyUmljaGVyVm9pY2UoCiAgICAgICAgY3VycmVudDogVm9pY2VTZXJ2aWNlLlZvaWNlLAogICAgICAgIGluY29taW5nOiBWb2ljZVNlcnZpY2UuVm9pY2UKICAgICk6IFZvaWNlU2VydmljZS5Wb2ljZSB7CiAgICAgICAgZnVuIHNjb3JlKHZvaWNlOiBWb2ljZVNlcnZpY2UuVm9pY2UpOiBJbnQgewogICAgICAgICAgICB2YXIgc2NvcmUgPSAwCiAgICAgICAgICAgIGlmICh2b2ljZS5uYW1lLmlzTm90QmxhbmsoKSAmJiB2b2ljZS5uYW1lICE9IHZvaWNlLmlkKSBzY29yZSArPSAyCiAgICAgICAgICAgIGlmICh2b2ljZS5sb2NhbGUuaXNOb3RCbGFuaygpKSBzY29yZSArPSAxCiAgICAgICAgICAgIGlmICh2b2ljZS5nZW5kZXIuaXNOb3RCbGFuaygpKSBzY29yZSArPSAxCiAgICAgICAgICAgIHJldHVybiBzY29yZQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGlmIChzY29yZShpbmNvbWluZykgPiBzY29yZShjdXJyZW50KSkgaW5jb21pbmcgZWxzZSBjdXJyZW50CiAgICB9Cn0K
+package com.bslsjdk.operit.api.voice
+
+import com.bslsjdk.operit.util.AppLogger
+import java.net.URL
+import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import org.json.JSONArray
+import org.json.JSONObject
+
+object VoiceListFetcher {
+    private const val TAG = "VoiceListFetcher"
+
+    private val client =
+        OkHttpClient.Builder()
+            .connectTimeout(30, TimeUnit.SECONDS)
+            .readTimeout(30, TimeUnit.SECONDS)
+            .writeTimeout(30, TimeUnit.SECONDS)
+            .build()
+
+    fun getVoicesListUrl(endpointUrl: String): List<String> {
+        val base = extractBaseUrl(endpointUrl)
+        return listOf(
+            "$base/v1/audio/voices",
+            "$base/v1/voices",
+            "$base/voices"
+        )
+    }
+
+    private fun extractBaseUrl(fullUrl: String): String {
+        return try {
+            val url = URL(fullUrl)
+            val path = url.path
+            val versionPathRegex = Regex("/v\\d+")
+            val match = versionPathRegex.find(path)
+
+            if (match != null) {
+                val pathBeforeVersion = path.substring(0, match.range.first)
+                "${url.protocol}://${url.authority}$pathBeforeVersion"
+            } else {
+                "${url.protocol}://${url.authority}"
+            }
+        } catch (e: Exception) {
+            fullUrl
+        }
+    }
+
+    suspend fun getVoicesList(
+        apiKey: String,
+        ttsEndpointUrl: String
+    ): Result<List<VoiceService.Voice>> = withContext(Dispatchers.IO) {
+        if (apiKey.isBlank()) {
+            return@withContext Result.failure(IllegalArgumentException("apiKey is blank"))
+        }
+        if (ttsEndpointUrl.isBlank()) {
+            return@withContext Result.failure(IllegalArgumentException("ttsEndpointUrl is blank"))
+        }
+
+        val candidates = getVoicesListUrl(ttsEndpointUrl)
+        var lastError: Throwable? = null
+
+        for (url in candidates) {
+            val request =
+                Request.Builder()
+                    .url(url)
+                    .get()
+                    .addHeader("Authorization", "Bearer $apiKey")
+                    .build()
+
+            try {
+                val response = client.newCall(request).execute()
+                try {
+                    if (!response.isSuccessful) {
+                        lastError = IllegalStateException("HTTP ${response.code}")
+                        continue
+                    }
+
+                    val body = response.body?.string().orEmpty()
+                    val voices = parseVoices(body)
+                    if (voices.isNotEmpty()) {
+                        return@withContext Result.success(voices)
+                    }
+
+                    lastError = IllegalStateException("Empty voice list")
+                } finally {
+                    response.close()
+                }
+            } catch (e: Exception) {
+                AppLogger.w(TAG, "Fetch voices failed: $url", e)
+                lastError = e
+            }
+        }
+
+        Result.failure(lastError ?: IllegalStateException("Fetch voices failed"))
+    }
+
+    private fun parseVoices(json: String): List<VoiceService.Voice> {
+        return try {
+            val root = JSONObject(json)
+            val data = root.opt("data")
+            val arr = when (data) {
+                is JSONArray -> data
+                else -> root.optJSONArray("voices") ?: root.optJSONArray("data")
+            } ?: return emptyList()
+
+            val parsedVoices = buildList {
+                for (i in 0 until arr.length()) {
+                    val obj = arr.optJSONObject(i) ?: continue
+                    val id = obj.optString("id").ifBlank { obj.optString("voice") }
+                    if (id.isBlank()) continue
+                    val name = obj.optString("name").ifBlank { id }
+                    val locale = obj.optString("locale").ifBlank { "" }
+                    val gender = obj.optString("gender").ifBlank { "" }
+                    add(VoiceService.Voice(id = id, name = name, locale = locale, gender = gender))
+                }
+            }
+
+            dedupeVoicesById(parsedVoices)
+        } catch (_: Exception) {
+            emptyList()
+        }
+    }
+
+    private fun dedupeVoicesById(voices: List<VoiceService.Voice>): List<VoiceService.Voice> {
+        if (voices.isEmpty()) return emptyList()
+
+        val deduped = linkedMapOf<String, VoiceService.Voice>()
+        var duplicateCount = 0
+
+        for (voice in voices) {
+            val existing = deduped[voice.id]
+            if (existing == null) {
+                deduped[voice.id] = voice
+                continue
+            }
+
+            duplicateCount++
+            deduped[voice.id] = preferRicherVoice(existing, voice)
+        }
+
+        if (duplicateCount > 0) {
+            AppLogger.w(
+                TAG,
+                "Voice list contains duplicate ids. Removed duplicates: count=$duplicateCount, unique=${deduped.size}"
+            )
+        }
+
+        return deduped.values.toList()
+    }
+
+    private fun preferRicherVoice(
+        current: VoiceService.Voice,
+        incoming: VoiceService.Voice
+    ): VoiceService.Voice {
+        fun score(voice: VoiceService.Voice): Int {
+            var score = 0
+            if (voice.name.isNotBlank() && voice.name != voice.id) score += 2
+            if (voice.locale.isNotBlank()) score += 1
+            if (voice.gender.isNotBlank()) score += 1
+            return score
+        }
+
+        return if (score(incoming) > score(current)) incoming else current
+    }
+}

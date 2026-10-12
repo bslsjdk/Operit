@@ -1,1 +1,70 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLlByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5lZGl0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5zdHJpbmdQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLnByZWZlcmVuY2VzRGF0YVN0b3JlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuQ29kZXhVc2FnZVNuYXBzaG90CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lm1hcAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlY29kZUZyb21TdHJpbmcKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKcHJpdmF0ZSB2YWwgQ29udGV4dC5jb2RleFVzYWdlRGF0YVN0b3JlOiBEYXRhU3RvcmU8UHJlZmVyZW5jZXM+IGJ5CiAgICBwcmVmZXJlbmNlc0RhdGFTdG9yZShuYW1lID0gImNvZGV4X3VzYWdlX3ByZWZlcmVuY2VzIikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBDb2RleFN0b3JlZFVzYWdlU25hcHNob3QoCiAgICB2YWwgYWNjb3VudElkOiBTdHJpbmcsCiAgICB2YWwgdXNhZ2U6IENvZGV4VXNhZ2VTbmFwc2hvdCwKICAgIHZhbCBmZXRjaGVkQXRNaWxsaXM6IExvbmcsCikKCmNsYXNzIENvZGV4VXNhZ2VQcmVmZXJlbmNlcyBwcml2YXRlIGNvbnN0cnVjdG9yKGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHByaXZhdGUgdmFsIGFwcENvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgcHJpdmF0ZSB2YWwganNvbiA9IEpzb24gewogICAgICAgIGlnbm9yZVVua25vd25LZXlzID0gdHJ1ZQogICAgICAgIGlzTGVuaWVudCA9IHRydWUKICAgIH0KCiAgICB2YWwgc25hcHNob3RGbG93OiBGbG93PENvZGV4U3RvcmVkVXNhZ2VTbmFwc2hvdD8+ID0KICAgICAgICBhcHBDb250ZXh0LmNvZGV4VXNhZ2VEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICB2YWwgZW5jb2RlZCA9IHByZWZlcmVuY2VzW1NOQVBTSE9UX0tFWV0gPzogcmV0dXJuQG1hcCBudWxsCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBqc29uLmRlY29kZUZyb21TdHJpbmc8Q29kZXhTdG9yZWRVc2FnZVNuYXBzaG90PihlbmNvZGVkKQogICAgICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gZGVjb2RlIHBlcnNpc3RlZCBDb2RleCB1c2FnZSBzbmFwc2hvdCIsIGVycm9yKQogICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmUoYWNjb3VudElkOiBTdHJpbmcsIHVzYWdlOiBDb2RleFVzYWdlU25hcHNob3QpIHsKICAgICAgICB2YWwgc25hcHNob3QgPSBDb2RleFN0b3JlZFVzYWdlU25hcHNob3QoCiAgICAgICAgICAgIGFjY291bnRJZCA9IGFjY291bnRJZCwKICAgICAgICAgICAgdXNhZ2UgPSB1c2FnZSwKICAgICAgICAgICAgZmV0Y2hlZEF0TWlsbGlzID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCiAgICAgICAgKQogICAgICAgIGFwcENvbnRleHQuY29kZXhVc2FnZURhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbU05BUFNIT1RfS0VZXSA9IGpzb24uZW5jb2RlVG9TdHJpbmcoc25hcHNob3QpCiAgICAgICAgfQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJDb2RleFVzYWdlUHJlZmVyZW5jZXMiCiAgICAgICAgcHJpdmF0ZSB2YWwgU05BUFNIT1RfS0VZID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoImxhdGVzdF9zbmFwc2hvdCIpCgogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHByaXZhdGUgdmFyIGluc3RhbmNlOiBDb2RleFVzYWdlUHJlZmVyZW5jZXM/ID0gbnVsbAoKICAgICAgICBmdW4gZ2V0SW5zdGFuY2UoY29udGV4dDogQ29udGV4dCk6IENvZGV4VXNhZ2VQcmVmZXJlbmNlcyB7CiAgICAgICAgICAgIHJldHVybiBpbnN0YW5jZSA/OiBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICAgICAgaW5zdGFuY2UgPzogQ29kZXhVc2FnZVByZWZlcmVuY2VzKGNvbnRleHQpLmFsc28geyBpbnN0YW5jZSA9IGl0IH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import com.bslsjdk.operit.data.api.CodexUsageSnapshot
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+private val Context.codexUsageDataStore: DataStore<Preferences> by
+    preferencesDataStore(name = "codex_usage_preferences")
+
+@Serializable
+data class CodexStoredUsageSnapshot(
+    val accountId: String,
+    val usage: CodexUsageSnapshot,
+    val fetchedAtMillis: Long,
+)
+
+class CodexUsagePreferences private constructor(context: Context) {
+    private val appContext = context.applicationContext
+    private val json = Json {
+        ignoreUnknownKeys = true
+        isLenient = true
+    }
+
+    val snapshotFlow: Flow<CodexStoredUsageSnapshot?> =
+        appContext.codexUsageDataStore.data.map { preferences ->
+            val encoded = preferences[SNAPSHOT_KEY] ?: return@map null
+            try {
+                json.decodeFromString<CodexStoredUsageSnapshot>(encoded)
+            } catch (error: Exception) {
+                AppLogger.e(TAG, "Failed to decode persisted Codex usage snapshot", error)
+                null
+            }
+        }
+
+    suspend fun save(accountId: String, usage: CodexUsageSnapshot) {
+        val snapshot = CodexStoredUsageSnapshot(
+            accountId = accountId,
+            usage = usage,
+            fetchedAtMillis = System.currentTimeMillis(),
+        )
+        appContext.codexUsageDataStore.edit { preferences ->
+            preferences[SNAPSHOT_KEY] = json.encodeToString(snapshot)
+        }
+    }
+
+    companion object {
+        private const val TAG = "CodexUsagePreferences"
+        private val SNAPSHOT_KEY = stringPreferencesKey("latest_snapshot")
+
+        @Volatile
+        private var instance: CodexUsagePreferences? = null
+
+        fun getInstance(context: Context): CodexUsagePreferences {
+            return instance ?: synchronized(this) {
+                instance ?: CodexUsagePreferences(context).also { instance = it }
+            }
+        }
+    }
+}

@@ -1,1 +1,91 @@
-LyoKICogQ29weXJpZ2h0IDIwMjQgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24ubXV0YWJsZUludE9iamVjdE1hcE9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5QbGFjZWFibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5Db25zdHJhaW50cwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkludE9mZnNldAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51dGlsLmZhc3RGb3JFYWNoCgppbnRlcm5hbCBpbnRlcmZhY2UgTGF6eUxheW91dE1lYXN1cmVkSXRlbSB7CiAgICB2YWwgaW5kZXg6IEludAogICAgdmFsIGtleTogQW55CiAgICB2YWwgaXNWZXJ0aWNhbDogQm9vbGVhbgogICAgdmFsIG1haW5BeGlzU2l6ZVdpdGhTcGFjaW5nczogSW50CiAgICB2YWwgcGxhY2VhYmxlc0NvdW50OiBJbnQKICAgIHZhciBub25TY3JvbGxhYmxlSXRlbTogQm9vbGVhbgogICAgdmFsIGNvbnN0cmFpbnRzOiBDb25zdHJhaW50cwogICAgdmFsIGxhbmU6IEludAogICAgdmFsIHNwYW46IEludAoKICAgIGZ1biBnZXRPZmZzZXQoaW5kZXg6IEludCk6IEludE9mZnNldAoKICAgIGZ1biBwb3NpdGlvbihtYWluQXhpc09mZnNldDogSW50LCBjcm9zc0F4aXNPZmZzZXQ6IEludCwgbGF5b3V0V2lkdGg6IEludCwgbGF5b3V0SGVpZ2h0OiBJbnQpCgogICAgZnVuIGdldFBhcmVudERhdGEoaW5kZXg6IEludCk6IEFueT8KfQoKaW50ZXJuYWwgYWJzdHJhY3QgY2xhc3MgTGF6eUxheW91dE1lYXN1cmVkSXRlbVByb3ZpZGVyPFQgOiBMYXp5TGF5b3V0TWVhc3VyZWRJdGVtPiB7CiAgICAvKioKICAgICAqIEEgY2FjaGUgb2YgdGhlIHByZXZpb3VzbHkgY29tcG9zZWQgaXRlbXMuIEl0IGFsbG93cyB1cyB0byBzdXBwb3J0IFtnZXRdIHJlLWV4ZWN1dGlvbnMgd2l0aAogICAgICogdGhlIHNhbWUgaW5kZXggZHVyaW5nIHRoZSBzYW1lIG1lYXN1cmUgcGFzcy4KICAgICAqLwogICAgcHJpdmF0ZSB2YWwgcGxhY2VhYmxlc0NhY2hlID0gbXV0YWJsZUludE9iamVjdE1hcE9mPExpc3Q8UGxhY2VhYmxlPj4oKQoKICAgIGFic3RyYWN0IGZ1biBnZXRBbmRNZWFzdXJlKGluZGV4OiBJbnQsIGxhbmU6IEludCwgc3BhbjogSW50LCBjb25zdHJhaW50czogQ29uc3RyYWludHMpOiBUCgogICAgZnVuIExhenlMYXlvdXRNZWFzdXJlU2NvcGUuZ2V0UGxhY2VhYmxlcygKICAgICAgICBpbmRleDogSW50LAogICAgICAgIGNvbnN0cmFpbnRzOiBDb25zdHJhaW50cywKICAgICk6IExpc3Q8UGxhY2VhYmxlPiB7CiAgICAgICAgdmFsIGNhY2hlZFBsYWNlYWJsZSA9IHBsYWNlYWJsZXNDYWNoZVtpbmRleF0KICAgICAgICByZXR1cm4gaWYgKGNhY2hlZFBsYWNlYWJsZSAhPSBudWxsKSB7CiAgICAgICAgICAgIGNhY2hlZFBsYWNlYWJsZQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHZhbCBtZW5zdXJhYmxlcyA9IGNvbXBvc2UoaW5kZXgpCiAgICAgICAgICAgIExpc3QobWVuc3VyYWJsZXMuc2l6ZSkgeyBpIC0+IG1lbnN1cmFibGVzW2ldLm1lYXN1cmUoY29uc3RyYWludHMpIH0KICAgICAgICAgICAgICAgIC5hbHNvIHsgcGxhY2VhYmxlc0NhY2hlW2luZGV4XSA9IGl0IH0KICAgICAgICB9CiAgICB9Cn0KCmludGVybmFsIGZ1biA8VCA6IExhenlMYXlvdXRNZWFzdXJlZEl0ZW0+IHVwZGF0ZWRWaXNpYmxlSXRlbXMoCiAgICBmaXJzdFZpc2libGVJbmRleDogSW50LAogICAgbGFzdFZpc2libGVJbmRleDogSW50LAogICAgcG9zaXRpb25lZEl0ZW1zOiBMaXN0PFQ+LAogICAgc3RpY2tpbmdJdGVtczogTGlzdDxUPiwKKTogTGlzdDxUPiB7CiAgICBpZiAocG9zaXRpb25lZEl0ZW1zLmlzRW1wdHkoKSkgcmV0dXJuIGVtcHR5TGlzdCgpCgogICAgdmFsIGZpbmFsVmlzaWJsZUl0ZW1zID0gc3RpY2tpbmdJdGVtcy50b011dGFibGVMaXN0KCkKCiAgICAvLyBwb3NpdGlvbmVkIGl0ZW1zIGJldHdlZW4gZmlyc3RWaXNpYmxlSW5kZXggYW5kIGxhc3RWaXNpYmxlSW5kZXgKICAgIHBvc2l0aW9uZWRJdGVtcy5mYXN0Rm9yRWFjaCB7CiAgICAgICAgaWYgKGl0LmluZGV4IGluIGZpcnN0VmlzaWJsZUluZGV4Li5sYXN0VmlzaWJsZUluZGV4KSBmaW5hbFZpc2libGVJdGVtcy5hZGQoaXQpCiAgICB9CgogICAgZmluYWxWaXNpYmxlSXRlbXMuc29ydFdpdGgoTGF6eUxheW91dE1lYXN1cmVkSXRlbUluZGV4Q29tcGFyYXRvcikKCiAgICByZXR1cm4gZmluYWxWaXNpYmxlSXRlbXMKfQoKcHJpdmF0ZSB2YWwgTGF6eUxheW91dE1lYXN1cmVkSXRlbS5tYWluQXhpc09mZnNldAogICAgZ2V0KCkgPSBnZXRPZmZzZXQoMCkubGV0IHsgaWYgKGlzVmVydGljYWwpIGl0LnkgZWxzZSBpdC54IH0KCnByaXZhdGUgdmFsIExhenlMYXlvdXRNZWFzdXJlZEl0ZW1JbmRleENvbXBhcmF0b3IgPQogICAgQ29tcGFyYXRvcjxMYXp5TGF5b3V0TWVhc3VyZWRJdGVtPiB7IGEsIGIgLT4gYS5pbmRleC5jb21wYXJlVG8oYi5pbmRleCkgfQo=
+/*
+ * Copyright 2024 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.collection.mutableIntObjectMapOf
+import androidx.compose.ui.layout.Placeable
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.IntOffset
+import androidx.compose.ui.util.fastForEach
+
+internal interface LazyLayoutMeasuredItem {
+    val index: Int
+    val key: Any
+    val isVertical: Boolean
+    val mainAxisSizeWithSpacings: Int
+    val placeablesCount: Int
+    var nonScrollableItem: Boolean
+    val constraints: Constraints
+    val lane: Int
+    val span: Int
+
+    fun getOffset(index: Int): IntOffset
+
+    fun position(mainAxisOffset: Int, crossAxisOffset: Int, layoutWidth: Int, layoutHeight: Int)
+
+    fun getParentData(index: Int): Any?
+}
+
+internal abstract class LazyLayoutMeasuredItemProvider<T : LazyLayoutMeasuredItem> {
+    /**
+     * A cache of the previously composed items. It allows us to support [get] re-executions with
+     * the same index during the same measure pass.
+     */
+    private val placeablesCache = mutableIntObjectMapOf<List<Placeable>>()
+
+    abstract fun getAndMeasure(index: Int, lane: Int, span: Int, constraints: Constraints): T
+
+    fun LazyLayoutMeasureScope.getPlaceables(
+        index: Int,
+        constraints: Constraints,
+    ): List<Placeable> {
+        val cachedPlaceable = placeablesCache[index]
+        return if (cachedPlaceable != null) {
+            cachedPlaceable
+        } else {
+            val mensurables = compose(index)
+            List(mensurables.size) { i -> mensurables[i].measure(constraints) }
+                .also { placeablesCache[index] = it }
+        }
+    }
+}
+
+internal fun <T : LazyLayoutMeasuredItem> updatedVisibleItems(
+    firstVisibleIndex: Int,
+    lastVisibleIndex: Int,
+    positionedItems: List<T>,
+    stickingItems: List<T>,
+): List<T> {
+    if (positionedItems.isEmpty()) return emptyList()
+
+    val finalVisibleItems = stickingItems.toMutableList()
+
+    // positioned items between firstVisibleIndex and lastVisibleIndex
+    positionedItems.fastForEach {
+        if (it.index in firstVisibleIndex..lastVisibleIndex) finalVisibleItems.add(it)
+    }
+
+    finalVisibleItems.sortWith(LazyLayoutMeasuredItemIndexComparator)
+
+    return finalVisibleItems
+}
+
+private val LazyLayoutMeasuredItem.mainAxisOffset
+    get() = getOffset(0).let { if (isVertical) it.y else it.x }
+
+private val LazyLayoutMeasuredItemIndexComparator =
+    Comparator<LazyLayoutMeasuredItem> { a, b -> a.index.compareTo(b.index) }

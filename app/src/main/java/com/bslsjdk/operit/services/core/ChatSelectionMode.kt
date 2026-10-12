@@ -1,1 +1,6 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuY29yZQoKZW51bSBjbGFzcyBDaGF0U2VsZWN0aW9uTW9kZSB7CiAgICBGT0xMT1dfR0xPQkFMLAogICAgTE9DQUxfT05MWQp9Cg==
+package com.bslsjdk.operit.services.core
+
+enum class ChatSelectionMode {
+    FOLLOW_GLOBAL,
+    LOCAL_ONLY
+}

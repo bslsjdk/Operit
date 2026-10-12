@@ -1,1 +1,248 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLmJyb3dzZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLlByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5ib29sZWFuUHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmVkaXQKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLnN0cmluZ1ByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMucHJlZmVyZW5jZXNEYXRhU3RvcmUKaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5tYXAKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlY29kZUZyb21TdHJpbmcKCnByaXZhdGUgdmFsIENvbnRleHQud2ViU2Vzc2lvbkhpc3RvcnlEYXRhU3RvcmU6IERhdGFTdG9yZTxQcmVmZXJlbmNlcz4gYnkKICAgIHByZWZlcmVuY2VzRGF0YVN0b3JlKG5hbWUgPSAid2ViX3Nlc3Npb25fYnJvd3Nlcl9zdG9yZSIpCgppbnRlcm5hbCBjbGFzcyBXZWJTZXNzaW9uSGlzdG9yeVN0b3JlIHByaXZhdGUgY29uc3RydWN0b3IocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgdmFsIEtFWV9CT09LTUFSS1MgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgiYm9va21hcmtzX2pzb24iKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9ISVNUT1JZID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoImhpc3RvcnlfanNvbiIpCiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX0RFU0tUT1BfTU9ERSA9IGJvb2xlYW5QcmVmZXJlbmNlc0tleSgiZGVza3RvcF9tb2RlIikKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBNQVhfSElTVE9SWV9FTlRSSUVTID0gNTAwCgogICAgICAgIEBWb2xhdGlsZSBwcml2YXRlIHZhciBpbnN0YW5jZTogV2ViU2Vzc2lvbkhpc3RvcnlTdG9yZT8gPSBudWxsCgogICAgICAgIGZ1biBnZXRJbnN0YW5jZShjb250ZXh0OiBDb250ZXh0KTogV2ViU2Vzc2lvbkhpc3RvcnlTdG9yZSB7CiAgICAgICAgICAgIHJldHVybiBpbnN0YW5jZSA/OiBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICAgICAgaW5zdGFuY2UgPzogV2ViU2Vzc2lvbkhpc3RvcnlTdG9yZShjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkuYWxzbyB7CiAgICAgICAgICAgICAgICAgICAgaW5zdGFuY2UgPSBpdAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIGpzb24gPSBKc29uIHsKICAgICAgICBpZ25vcmVVbmtub3duS2V5cyA9IHRydWUKICAgICAgICBlbmNvZGVEZWZhdWx0cyA9IHRydWUKICAgIH0KCiAgICB2YWwgYm9va21hcmtzRmxvdzogRmxvdzxMaXN0PFdlYlNlc3Npb25Cb29rbWFyaz4+ID0KICAgICAgICBjb250ZXh0LndlYlNlc3Npb25IaXN0b3J5RGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgZGVjb2RlQm9va21hcmtzKHByZWZlcmVuY2VzW0tFWV9CT09LTUFSS1NdKQogICAgICAgICAgICAgICAgLnNvcnRlZEJ5RGVzY2VuZGluZyB7IGl0LnVwZGF0ZWRBdCB9CiAgICAgICAgfQoKICAgIHZhbCBoaXN0b3J5RmxvdzogRmxvdzxMaXN0PFdlYlNlc3Npb25IaXN0b3J5RW50cnk+PiA9CiAgICAgICAgY29udGV4dC53ZWJTZXNzaW9uSGlzdG9yeURhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIGRlY29kZUhpc3RvcnkocHJlZmVyZW5jZXNbS0VZX0hJU1RPUlldKQogICAgICAgICAgICAgICAgLnNvcnRlZEJ5RGVzY2VuZGluZyB7IGl0LnZpc2l0ZWRBdCB9CiAgICAgICAgfQoKICAgIHZhbCBkZXNrdG9wTW9kZUZsb3c6IEZsb3c8Qm9vbGVhbj4gPQogICAgICAgIGNvbnRleHQud2ViU2Vzc2lvbkhpc3RvcnlEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfREVTS1RPUF9NT0RFXSA/OiB0cnVlCiAgICAgICAgfQoKICAgIHN1c3BlbmQgZnVuIHJlY29yZFZpc2l0KHVybDogU3RyaW5nLCB0aXRsZTogU3RyaW5nLCBpc1JlbG9hZDogQm9vbGVhbikgewogICAgICAgIHZhbCBub3JtYWxpemVkVXJsID0gbm9ybWFsaXplVXJsKHVybCkgPzogcmV0dXJuCiAgICAgICAgaWYgKGlzUmVsb2FkKSB7CiAgICAgICAgICAgIHVwZGF0ZVRpdGxlKG5vcm1hbGl6ZWRVcmwsIHRpdGxlKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZhbCBub3cgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIGNvbnRleHQud2ViU2Vzc2lvbkhpc3RvcnlEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHZhbCBjdXJyZW50ID0gZGVjb2RlSGlzdG9yeShwcmVmZXJlbmNlc1tLRVlfSElTVE9SWV0pCiAgICAgICAgICAgIHZhbCBub3JtYWxpemVkVGl0bGUgPSBub3JtYWxpemVUaXRsZSh0aXRsZSwgbm9ybWFsaXplZFVybCkKICAgICAgICAgICAgdmFsIHVwZGF0ZWQgPQogICAgICAgICAgICAgICAgaWYgKGN1cnJlbnQuZmlyc3RPck51bGwoKT8udXJsID09IG5vcm1hbGl6ZWRVcmwpIHsKICAgICAgICAgICAgICAgICAgICBjdXJyZW50LnRvTXV0YWJsZUxpc3QoKS5hbHNvIHsgbGlzdCAtPgogICAgICAgICAgICAgICAgICAgICAgICBsaXN0WzBdID0gbGlzdFswXS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSBub3JtYWxpemVkVGl0bGUuaWZCbGFuayB7IGxpc3RbMF0udGl0bGUgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZpc2l0ZWRBdCA9IG5vdwogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBidWlsZExpc3QgewogICAgICAgICAgICAgICAgICAgICAgICBhZGQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBXZWJTZXNzaW9uSGlzdG9yeUVudHJ5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVybCA9IG5vcm1hbGl6ZWRVcmwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSBub3JtYWxpemVkVGl0bGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlzaXRlZEF0ID0gbm93CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgYWRkQWxsKGN1cnJlbnQudGFrZShNQVhfSElTVE9SWV9FTlRSSUVTIC0gMSkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfSElTVE9SWV0gPSBqc29uLmVuY29kZVRvU3RyaW5nKHVwZGF0ZWQudGFrZShNQVhfSElTVE9SWV9FTlRSSUVTKSkKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gdXBkYXRlVGl0bGUodXJsOiBTdHJpbmcsIHRpdGxlOiBTdHJpbmcpIHsKICAgICAgICB2YWwgbm9ybWFsaXplZFVybCA9IG5vcm1hbGl6ZVVybCh1cmwpID86IHJldHVybgogICAgICAgIHZhbCBub3JtYWxpemVkVGl0bGUgPSBub3JtYWxpemVUaXRsZSh0aXRsZSwgbm9ybWFsaXplZFVybCkKCiAgICAgICAgY29udGV4dC53ZWJTZXNzaW9uSGlzdG9yeURhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgdmFsIGhpc3RvcnkgPQogICAgICAgICAgICAgICAgZGVjb2RlSGlzdG9yeShwcmVmZXJlbmNlc1tLRVlfSElTVE9SWV0pLm1hcCB7IGVudHJ5IC0+CiAgICAgICAgICAgICAgICAgICAgaWYgKGVudHJ5LnVybCA9PSBub3JtYWxpemVkVXJsICYmIG5vcm1hbGl6ZWRUaXRsZS5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkuY29weSh0aXRsZSA9IG5vcm1hbGl6ZWRUaXRsZSkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBlbnRyeQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBib29rbWFya3MgPQogICAgICAgICAgICAgICAgZGVjb2RlQm9va21hcmtzKHByZWZlcmVuY2VzW0tFWV9CT09LTUFSS1NdKS5tYXAgeyBib29rbWFyayAtPgogICAgICAgICAgICAgICAgICAgIGlmIChib29rbWFyay51cmwgPT0gbm9ybWFsaXplZFVybCAmJiBub3JtYWxpemVkVGl0bGUuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGJvb2ttYXJrLmNvcHkodGl0bGUgPSBub3JtYWxpemVkVGl0bGUsIHVwZGF0ZWRBdCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGJvb2ttYXJrCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0hJU1RPUlldID0ganNvbi5lbmNvZGVUb1N0cmluZyhoaXN0b3J5LnRha2UoTUFYX0hJU1RPUllfRU5UUklFUykpCiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9CT09LTUFSS1NdID0ganNvbi5lbmNvZGVUb1N0cmluZyhib29rbWFya3MpCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGFkZEJvb2ttYXJrKHVybDogU3RyaW5nLCB0aXRsZTogU3RyaW5nKSB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWRVcmwgPSBub3JtYWxpemVVcmwodXJsKSA/OiByZXR1cm4KICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB2YWwgbm9ybWFsaXplZFRpdGxlID0gbm9ybWFsaXplVGl0bGUodGl0bGUsIG5vcm1hbGl6ZWRVcmwpCgogICAgICAgIGNvbnRleHQud2ViU2Vzc2lvbkhpc3RvcnlEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHZhbCBjdXJyZW50ID0gZGVjb2RlQm9va21hcmtzKHByZWZlcmVuY2VzW0tFWV9CT09LTUFSS1NdKQogICAgICAgICAgICB2YWwgZXhpc3RpbmcgPSBjdXJyZW50LmZpcnN0T3JOdWxsIHsgaXQudXJsID09IG5vcm1hbGl6ZWRVcmwgfQogICAgICAgICAgICB2YWwgdXBkYXRlZCA9CiAgICAgICAgICAgICAgICBidWlsZExpc3QgewogICAgICAgICAgICAgICAgICAgIGFkZCgKICAgICAgICAgICAgICAgICAgICAgICAgZXhpc3Rpbmc/LmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aXRsZSA9IG5vcm1hbGl6ZWRUaXRsZS5pZkJsYW5rIHsgZXhpc3RpbmcudGl0bGUgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZWRBdCA9IG5vdwogICAgICAgICAgICAgICAgICAgICAgICApID86IFdlYlNlc3Npb25Cb29rbWFyaygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVybCA9IG5vcm1hbGl6ZWRVcmwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aXRsZSA9IG5vcm1hbGl6ZWRUaXRsZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNyZWF0ZWRBdCA9IG5vdywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZWRBdCA9IG5vdwogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIGFkZEFsbChjdXJyZW50LmZpbHRlck5vdCB7IGl0LnVybCA9PSBub3JtYWxpemVkVXJsIH0pCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9CT09LTUFSS1NdID0ganNvbi5lbmNvZGVUb1N0cmluZyh1cGRhdGVkKQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biByZW1vdmVCb29rbWFyayh1cmw6IFN0cmluZykgewogICAgICAgIHZhbCBub3JtYWxpemVkVXJsID0gbm9ybWFsaXplVXJsKHVybCkgPzogcmV0dXJuCiAgICAgICAgY29udGV4dC53ZWJTZXNzaW9uSGlzdG9yeURhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgdmFsIHVwZGF0ZWQgPSBkZWNvZGVCb29rbWFya3MocHJlZmVyZW5jZXNbS0VZX0JPT0tNQVJLU10pLmZpbHRlck5vdCB7IGl0LnVybCA9PSBub3JtYWxpemVkVXJsIH0KICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0JPT0tNQVJLU10gPSBqc29uLmVuY29kZVRvU3RyaW5nKHVwZGF0ZWQpCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHRvZ2dsZUJvb2ttYXJrKHVybDogU3RyaW5nLCB0aXRsZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWRVcmwgPSBub3JtYWxpemVVcmwodXJsKSA/OiByZXR1cm4gZmFsc2UKICAgICAgICByZXR1cm4gaWYgKGlzQm9va21hcmtlZChub3JtYWxpemVkVXJsKSkgewogICAgICAgICAgICByZW1vdmVCb29rbWFyayhub3JtYWxpemVkVXJsKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGFkZEJvb2ttYXJrKG5vcm1hbGl6ZWRVcmwsIHRpdGxlKQogICAgICAgICAgICB0cnVlCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGlzQm9va21hcmtlZCh1cmw6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHZhbCBub3JtYWxpemVkVXJsID0gbm9ybWFsaXplVXJsKHVybCkgPzogcmV0dXJuIGZhbHNlCiAgICAgICAgcmV0dXJuIGJvb2ttYXJrc0Zsb3cuZmlyc3QoKS5hbnkgeyBpdC51cmwgPT0gbm9ybWFsaXplZFVybCB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gY2xlYXJIaXN0b3J5KCkgewogICAgICAgIGNvbnRleHQud2ViU2Vzc2lvbkhpc3RvcnlEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9ISVNUT1JZXSA9IGpzb24uZW5jb2RlVG9TdHJpbmcoZW1wdHlMaXN0PFdlYlNlc3Npb25IaXN0b3J5RW50cnk+KCkpCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNldERlc2t0b3BNb2RlKGVuYWJsZWQ6IEJvb2xlYW4pIHsKICAgICAgICBjb250ZXh0LndlYlNlc3Npb25IaXN0b3J5RGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfREVTS1RPUF9NT0RFXSA9IGVuYWJsZWQKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZGVjb2RlQm9va21hcmtzKHJhdzogU3RyaW5nPyk6IExpc3Q8V2ViU2Vzc2lvbkJvb2ttYXJrPiB7CiAgICAgICAgcmV0dXJuIGlmIChyYXcuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgIGVtcHR5TGlzdCgpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBqc29uLmRlY29kZUZyb21TdHJpbmc8TGlzdDxXZWJTZXNzaW9uQm9va21hcms+PihyYXcpIH0uZ2V0T3JFbHNlIHsgZW1wdHlMaXN0KCkgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBkZWNvZGVIaXN0b3J5KHJhdzogU3RyaW5nPyk6IExpc3Q8V2ViU2Vzc2lvbkhpc3RvcnlFbnRyeT4gewogICAgICAgIHJldHVybiBpZiAocmF3LmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICBlbXB0eUxpc3QoKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsganNvbi5kZWNvZGVGcm9tU3RyaW5nPExpc3Q8V2ViU2Vzc2lvbkhpc3RvcnlFbnRyeT4+KHJhdykgfS5nZXRPckVsc2UgeyBlbXB0eUxpc3QoKSB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIG5vcm1hbGl6ZVVybChyYXc6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIHZhbCB0cmltbWVkID0gcmF3LnRyaW0oKQogICAgICAgIGlmICh0cmltbWVkLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgICAgICB2YWwgbG93ZXIgPSB0cmltbWVkLmxvd2VyY2FzZShMb2NhbGUuUk9PVCkKICAgICAgICBpZiAobG93ZXIuc3RhcnRzV2l0aCgiYWJvdXQ6IikgfHwgbG93ZXIuc3RhcnRzV2l0aCgiYmxvYjoiKSB8fCBsb3dlci5zdGFydHNXaXRoKCJkYXRhOiIpKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgICAgIGlmICghbG93ZXIuc3RhcnRzV2l0aCgiaHR0cDovLyIpICYmICFsb3dlci5zdGFydHNXaXRoKCJodHRwczovLyIpKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICB2YWwgdXJpID0gVXJpLnBhcnNlKHRyaW1tZWQpCiAgICAgICAgICAgIHZhbCBzY2hlbWUgPSB1cmkuc2NoZW1lPy5sb3dlcmNhc2UoTG9jYWxlLlJPT1QpID86IHJldHVybiBudWxsCiAgICAgICAgICAgIHZhbCBob3N0ID0gdXJpLmhvc3Q/Lmxvd2VyY2FzZShMb2NhbGUuUk9PVCkgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgdmFsIHBvcnRQYXJ0ID0KICAgICAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgICAgIHVyaS5wb3J0IDwgMCAtPiAiIgogICAgICAgICAgICAgICAgICAgIHNjaGVtZSA9PSAiaHR0cCIgJiYgdXJpLnBvcnQgPT0gODAgLT4gIiIKICAgICAgICAgICAgICAgICAgICBzY2hlbWUgPT0gImh0dHBzIiAmJiB1cmkucG9ydCA9PSA0NDMgLT4gIiIKICAgICAgICAgICAgICAgICAgICBlbHNlIC0+ICI6JHt1cmkucG9ydH0iCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBwYXRoID0gdXJpLmVuY29kZWRQYXRoPy5pZkJsYW5rIHsgIi8iIH0gPzogIi8iCiAgICAgICAgICAgIGJ1aWxkU3RyaW5nIHsKICAgICAgICAgICAgICAgIGFwcGVuZChzY2hlbWUpCiAgICAgICAgICAgICAgICBhcHBlbmQoIjovLyIpCiAgICAgICAgICAgICAgICBhcHBlbmQoaG9zdCkKICAgICAgICAgICAgICAgIGFwcGVuZChwb3J0UGFydCkKICAgICAgICAgICAgICAgIGFwcGVuZChwYXRoKQogICAgICAgICAgICAgICAgdXJpLmVuY29kZWRRdWVyeT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0/LmxldCB7CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCc/JykKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoaXQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LmdldE9yRWxzZSB7IHRyaW1tZWQgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIG5vcm1hbGl6ZVRpdGxlKHRpdGxlOiBTdHJpbmcsIGZhbGxiYWNrVXJsOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCB0cmltbWVkID0gdGl0bGUudHJpbSgpCiAgICAgICAgcmV0dXJuIGlmICh0cmltbWVkLmlzQmxhbmsoKSkgZmFsbGJhY2tVcmwgZWxzZSB0cmltbWVkCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.defaultTool.websession.browser
+
+import android.content.Context
+import android.net.Uri
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import java.util.Locale
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.decodeFromString
+
+private val Context.webSessionHistoryDataStore: DataStore<Preferences> by
+    preferencesDataStore(name = "web_session_browser_store")
+
+internal class WebSessionHistoryStore private constructor(private val context: Context) {
+
+    companion object {
+        private val KEY_BOOKMARKS = stringPreferencesKey("bookmarks_json")
+        private val KEY_HISTORY = stringPreferencesKey("history_json")
+        private val KEY_DESKTOP_MODE = booleanPreferencesKey("desktop_mode")
+        private const val MAX_HISTORY_ENTRIES = 500
+
+        @Volatile private var instance: WebSessionHistoryStore? = null
+
+        fun getInstance(context: Context): WebSessionHistoryStore {
+            return instance ?: synchronized(this) {
+                instance ?: WebSessionHistoryStore(context.applicationContext).also {
+                    instance = it
+                }
+            }
+        }
+    }
+
+    private val json = Json {
+        ignoreUnknownKeys = true
+        encodeDefaults = true
+    }
+
+    val bookmarksFlow: Flow<List<WebSessionBookmark>> =
+        context.webSessionHistoryDataStore.data.map { preferences ->
+            decodeBookmarks(preferences[KEY_BOOKMARKS])
+                .sortedByDescending { it.updatedAt }
+        }
+
+    val historyFlow: Flow<List<WebSessionHistoryEntry>> =
+        context.webSessionHistoryDataStore.data.map { preferences ->
+            decodeHistory(preferences[KEY_HISTORY])
+                .sortedByDescending { it.visitedAt }
+        }
+
+    val desktopModeFlow: Flow<Boolean> =
+        context.webSessionHistoryDataStore.data.map { preferences ->
+            preferences[KEY_DESKTOP_MODE] ?: true
+        }
+
+    suspend fun recordVisit(url: String, title: String, isReload: Boolean) {
+        val normalizedUrl = normalizeUrl(url) ?: return
+        if (isReload) {
+            updateTitle(normalizedUrl, title)
+            return
+        }
+
+        val now = System.currentTimeMillis()
+        context.webSessionHistoryDataStore.edit { preferences ->
+            val current = decodeHistory(preferences[KEY_HISTORY])
+            val normalizedTitle = normalizeTitle(title, normalizedUrl)
+            val updated =
+                if (current.firstOrNull()?.url == normalizedUrl) {
+                    current.toMutableList().also { list ->
+                        list[0] = list[0].copy(
+                            title = normalizedTitle.ifBlank { list[0].title },
+                            visitedAt = now
+                        )
+                    }
+                } else {
+                    buildList {
+                        add(
+                            WebSessionHistoryEntry(
+                                url = normalizedUrl,
+                                title = normalizedTitle,
+                                visitedAt = now
+                            )
+                        )
+                        addAll(current.take(MAX_HISTORY_ENTRIES - 1))
+                    }
+                }
+            preferences[KEY_HISTORY] = json.encodeToString(updated.take(MAX_HISTORY_ENTRIES))
+        }
+    }
+
+    suspend fun updateTitle(url: String, title: String) {
+        val normalizedUrl = normalizeUrl(url) ?: return
+        val normalizedTitle = normalizeTitle(title, normalizedUrl)
+
+        context.webSessionHistoryDataStore.edit { preferences ->
+            val history =
+                decodeHistory(preferences[KEY_HISTORY]).map { entry ->
+                    if (entry.url == normalizedUrl && normalizedTitle.isNotBlank()) {
+                        entry.copy(title = normalizedTitle)
+                    } else {
+                        entry
+                    }
+                }
+
+            val bookmarks =
+                decodeBookmarks(preferences[KEY_BOOKMARKS]).map { bookmark ->
+                    if (bookmark.url == normalizedUrl && normalizedTitle.isNotBlank()) {
+                        bookmark.copy(title = normalizedTitle, updatedAt = System.currentTimeMillis())
+                    } else {
+                        bookmark
+                    }
+                }
+
+            preferences[KEY_HISTORY] = json.encodeToString(history.take(MAX_HISTORY_ENTRIES))
+            preferences[KEY_BOOKMARKS] = json.encodeToString(bookmarks)
+        }
+    }
+
+    suspend fun addBookmark(url: String, title: String) {
+        val normalizedUrl = normalizeUrl(url) ?: return
+        val now = System.currentTimeMillis()
+        val normalizedTitle = normalizeTitle(title, normalizedUrl)
+
+        context.webSessionHistoryDataStore.edit { preferences ->
+            val current = decodeBookmarks(preferences[KEY_BOOKMARKS])
+            val existing = current.firstOrNull { it.url == normalizedUrl }
+            val updated =
+                buildList {
+                    add(
+                        existing?.copy(
+                            title = normalizedTitle.ifBlank { existing.title },
+                            updatedAt = now
+                        ) ?: WebSessionBookmark(
+                            url = normalizedUrl,
+                            title = normalizedTitle,
+                            createdAt = now,
+                            updatedAt = now
+                        )
+                    )
+                    addAll(current.filterNot { it.url == normalizedUrl })
+                }
+            preferences[KEY_BOOKMARKS] = json.encodeToString(updated)
+        }
+    }
+
+    suspend fun removeBookmark(url: String) {
+        val normalizedUrl = normalizeUrl(url) ?: return
+        context.webSessionHistoryDataStore.edit { preferences ->
+            val updated = decodeBookmarks(preferences[KEY_BOOKMARKS]).filterNot { it.url == normalizedUrl }
+            preferences[KEY_BOOKMARKS] = json.encodeToString(updated)
+        }
+    }
+
+    suspend fun toggleBookmark(url: String, title: String): Boolean {
+        val normalizedUrl = normalizeUrl(url) ?: return false
+        return if (isBookmarked(normalizedUrl)) {
+            removeBookmark(normalizedUrl)
+            false
+        } else {
+            addBookmark(normalizedUrl, title)
+            true
+        }
+    }
+
+    suspend fun isBookmarked(url: String): Boolean {
+        val normalizedUrl = normalizeUrl(url) ?: return false
+        return bookmarksFlow.first().any { it.url == normalizedUrl }
+    }
+
+    suspend fun clearHistory() {
+        context.webSessionHistoryDataStore.edit { preferences ->
+            preferences[KEY_HISTORY] = json.encodeToString(emptyList<WebSessionHistoryEntry>())
+        }
+    }
+
+    suspend fun setDesktopMode(enabled: Boolean) {
+        context.webSessionHistoryDataStore.edit { preferences ->
+            preferences[KEY_DESKTOP_MODE] = enabled
+        }
+    }
+
+    private fun decodeBookmarks(raw: String?): List<WebSessionBookmark> {
+        return if (raw.isNullOrBlank()) {
+            emptyList()
+        } else {
+            runCatching { json.decodeFromString<List<WebSessionBookmark>>(raw) }.getOrElse { emptyList() }
+        }
+    }
+
+    private fun decodeHistory(raw: String?): List<WebSessionHistoryEntry> {
+        return if (raw.isNullOrBlank()) {
+            emptyList()
+        } else {
+            runCatching { json.decodeFromString<List<WebSessionHistoryEntry>>(raw) }.getOrElse { emptyList() }
+        }
+    }
+
+    private fun normalizeUrl(raw: String): String? {
+        val trimmed = raw.trim()
+        if (trimmed.isBlank()) {
+            return null
+        }
+        val lower = trimmed.lowercase(Locale.ROOT)
+        if (lower.startsWith("about:") || lower.startsWith("blob:") || lower.startsWith("data:")) {
+            return null
+        }
+        if (!lower.startsWith("http://") && !lower.startsWith("https://")) {
+            return null
+        }
+
+        return runCatching {
+            val uri = Uri.parse(trimmed)
+            val scheme = uri.scheme?.lowercase(Locale.ROOT) ?: return null
+            val host = uri.host?.lowercase(Locale.ROOT) ?: return null
+            val portPart =
+                when {
+                    uri.port < 0 -> ""
+                    scheme == "http" && uri.port == 80 -> ""
+                    scheme == "https" && uri.port == 443 -> ""
+                    else -> ":${uri.port}"
+                }
+            val path = uri.encodedPath?.ifBlank { "/" } ?: "/"
+            buildString {
+                append(scheme)
+                append("://")
+                append(host)
+                append(portPart)
+                append(path)
+                uri.encodedQuery?.takeIf { it.isNotBlank() }?.let {
+                    append('?')
+                    append(it)
+                }
+            }
+        }.getOrElse { trimmed }
+    }
+
+    private fun normalizeTitle(title: String, fallbackUrl: String): String {
+        val trimmed = title.trim()
+        return if (trimmed.isBlank()) fallbackUrl else trimmed
+    }
+}

@@ -1,1 +1,16 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQud2lkZ2V0CgppbXBvcnQgYW5kcm9pZHguZ2xhbmNlLmFwcHdpZGdldC5HbGFuY2VBcHBXaWRnZXQKaW1wb3J0IGFuZHJvaWR4LmdsYW5jZS5hcHB3aWRnZXQuR2xhbmNlQXBwV2lkZ2V0UmVjZWl2ZXIKCi8qKgogKiBXaWRnZXQgUmVjZWl2ZXIgZm9yIFZvaWNlIEFzc2lzdGFudCBXaWRnZXQKICogCiAqIFRoaXMgcmVjZWl2ZXIgaGFuZGxlcyB3aWRnZXQgbGlmZWN5Y2xlIGV2ZW50cyBhbmQgYmluZHMgdG8gdGhlIEdsYW5jZSB3aWRnZXQuCiAqLwpjbGFzcyBWb2ljZUFzc2lzdGFudFdpZGdldFJlY2VpdmVyIDogR2xhbmNlQXBwV2lkZ2V0UmVjZWl2ZXIoKSB7CiAgICAKICAgIG92ZXJyaWRlIHZhbCBnbGFuY2VBcHBXaWRnZXQ6IEdsYW5jZUFwcFdpZGdldAogICAgICAgIGdldCgpID0gVm9pY2VBc3Npc3RhbnRHbGFuY2VXaWRnZXQoKQp9Cgo=
+package com.bslsjdk.operit.widget
+
+import androidx.glance.appwidget.GlanceAppWidget
+import androidx.glance.appwidget.GlanceAppWidgetReceiver
+
+/**
+ * Widget Receiver for Voice Assistant Widget
+ * 
+ * This receiver handles widget lifecycle events and binds to the Glance widget.
+ */
+class VoiceAssistantWidgetReceiver : GlanceAppWidgetReceiver() {
+    
+    override val glanceAppWidget: GlanceAppWidget
+        get() = VoiceAssistantGlanceWidget()
+}
+

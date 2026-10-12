@@ -1,1 +1,173 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IuY29tcGxldGlvbgoKLyoqCiAqIEhUTUzooaXlhajmj5DkvpvlmagKICovCmNsYXNzIEh0bWxDb21wbGV0aW9uUHJvdmlkZXIgOiBEZWZhdWx0Q29tcGxldGlvblByb3ZpZGVyKCkgewogICAgLy8gSFRNTOagh+etvgogICAgcHJpdmF0ZSB2YWwgaHRtbFRhZ3MgPSBsaXN0T2YoCiAgICAgICAgImh0bWwiLCAiaGVhZCIsICJib2R5IiwgImRpdiIsICJzcGFuIiwgInAiLCAiaDEiLCAiaDIiLCAiaDMiLCAiaDQiLCAiaDUiLCAiaDYiLAogICAgICAgICJhIiwgImltZyIsICJ1bCIsICJvbCIsICJsaSIsICJ0YWJsZSIsICJ0ciIsICJ0ZCIsICJ0aCIsICJmb3JtIiwgImlucHV0IiwgImJ1dHRvbiIsCiAgICAgICAgInNlbGVjdCIsICJvcHRpb24iLCAidGV4dGFyZWEiLCAic2NyaXB0IiwgInN0eWxlIiwgImxpbmsiLCAibWV0YSIsICJ0aXRsZSIsICJzZWN0aW9uIiwKICAgICAgICAiYXJ0aWNsZSIsICJoZWFkZXIiLCAiZm9vdGVyIiwgIm5hdiIsICJhc2lkZSIsICJtYWluIiwgImNhbnZhcyIsICJ2aWRlbyIsICJhdWRpbyIKICAgICkKICAgIAogICAgLy8gSFRNTOWxnuaApwogICAgcHJpdmF0ZSB2YWwgaHRtbEF0dHJpYnV0ZXMgPSBsaXN0T2YoCiAgICAgICAgImlkIiwgImNsYXNzIiwgInN0eWxlIiwgImhyZWYiLCAic3JjIiwgImFsdCIsICJ3aWR0aCIsICJoZWlnaHQiLCAidHlwZSIsICJ2YWx1ZSIsCiAgICAgICAgInBsYWNlaG9sZGVyIiwgIm5hbWUiLCAiYWN0aW9uIiwgIm1ldGhvZCIsICJ0YXJnZXQiLCAicmVsIiwgIm9uY2xpY2siLCAib25jaGFuZ2UiLAogICAgICAgICJvbnN1Ym1pdCIsICJvbmxvYWQiLCAidGl0bGUiLCAiZGlzYWJsZWQiLCAiY2hlY2tlZCIsICJzZWxlY3RlZCIsICJyZXF1aXJlZCIsICJyZWFkb25seSIKICAgICkKICAgIAogICAgb3ZlcnJpZGUgZnVuIGdldENvbXBsZXRpb25JdGVtcyh0ZXh0OiBDaGFyU2VxdWVuY2UsIHBvc2l0aW9uOiBJbnQpOiBMaXN0PENvbXBsZXRpb25JdGVtPiB7CiAgICAgICAgdmFsIHByZWZpeCA9IGdldFByZWZpeCh0ZXh0LCBwb3NpdGlvbikKICAgICAgICBpZiAocHJlZml4LmlzRW1wdHkoKSkgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgCiAgICAgICAgdmFsIGNvbXBsZXRpb25zID0gbXV0YWJsZUxpc3RPZjxDb21wbGV0aW9uSXRlbT4oKQogICAgICAgIAogICAgICAgIC8vIOWIpOaWreW9k+WJjeaYr+WQpuWcqOagh+etvuWGhemDqAogICAgICAgIHZhbCBpc0luVGFnQ29udGV4dCA9IGlzSW5UYWdDb250ZXh0KHRleHQsIHBvc2l0aW9uKQogICAgICAgIHZhbCBpc0luQXR0cmlidXRlQ29udGV4dCA9IGlzSW5BdHRyaWJ1dGVDb250ZXh0KHRleHQsIHBvc2l0aW9uKQogICAgICAgIAogICAgICAgIHdoZW4gewogICAgICAgICAgICAvLyDlnKjmoIfnrb7lvIDlp4vkvY3nva4gKOS+i+WmgjogPGRpfCkKICAgICAgICAgICAgaXNJblRhZ0NvbnRleHQgJiYgIWlzSW5BdHRyaWJ1dGVDb250ZXh0IC0+IHsKICAgICAgICAgICAgICAgIGh0bWxUYWdzLmZpbHRlciB7IGl0LnN0YXJ0c1dpdGgocHJlZml4KSB9LmZvckVhY2ggewogICAgICAgICAgICAgICAgICAgIGNvbXBsZXRpb25zLmFkZChDb21wbGV0aW9uSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSBpdCwKICAgICAgICAgICAgICAgICAgICAgICAgaW5zZXJ0VGV4dCA9IGl0LAogICAgICAgICAgICAgICAgICAgICAgICBraW5kID0gQ29tcGxldGlvbkl0ZW1LaW5kLktFWVdPUkQKICAgICAgICAgICAgICAgICAgICApKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDlnKjlsZ7mgKfkvY3nva4gKOS+i+WmgjogPGRpdiBjbHwpCiAgICAgICAgICAgIGlzSW5BdHRyaWJ1dGVDb250ZXh0IC0+IHsKICAgICAgICAgICAgICAgIGh0bWxBdHRyaWJ1dGVzLmZpbHRlciB7IGl0LnN0YXJ0c1dpdGgocHJlZml4KSB9LmZvckVhY2ggewogICAgICAgICAgICAgICAgICAgIGNvbXBsZXRpb25zLmFkZChDb21wbGV0aW9uSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSBpdCwKICAgICAgICAgICAgICAgICAgICAgICAgaW5zZXJ0VGV4dCA9ICIkaXQ9XCIkMVwiIiwKICAgICAgICAgICAgICAgICAgICAgICAga2luZCA9IENvbXBsZXRpb25JdGVtS2luZC5QUk9QRVJUWQogICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOaZrumAmuS9jee9ru+8jOaPkOS+m+agh+etvuihpeWFqAogICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgIGh0bWxUYWdzLmZpbHRlciB7IGl0LnN0YXJ0c1dpdGgocHJlZml4KSB9LmZvckVhY2ggewogICAgICAgICAgICAgICAgICAgIGNvbXBsZXRpb25zLmFkZChDb21wbGV0aW9uSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSBpdCwKICAgICAgICAgICAgICAgICAgICAgICAgaW5zZXJ0VGV4dCA9ICI8JGl0PiQxPC8kaXQ+IiwKICAgICAgICAgICAgICAgICAgICAgICAga2luZCA9IENvbXBsZXRpb25JdGVtS2luZC5TTklQUEVUCiAgICAgICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g5re75Yqg5LuO5paH5Lu25Lit5o+Q5Y+W55qESUTlkoznsbvlkI0KICAgICAgICAgICAgICAgIHZhbCBpZEFuZENsYXNzZXMgPSBleHRyYWN0SWRBbmRDbGFzc2VzKHRleHQudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgIGlkQW5kQ2xhc3Nlcy5maWx0ZXIgeyBpdC5zdGFydHNXaXRoKHByZWZpeCkgfS5mb3JFYWNoIHsKICAgICAgICAgICAgICAgICAgICBjb21wbGV0aW9ucy5hZGQoQ29tcGxldGlvbkl0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0gaXQsCiAgICAgICAgICAgICAgICAgICAgICAgIGluc2VydFRleHQgPSBpdCwKICAgICAgICAgICAgICAgICAgICAgICAga2luZCA9IENvbXBsZXRpb25JdGVtS2luZC5WQVJJQUJMRQogICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgcmV0dXJuIGNvbXBsZXRpb25zCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5Yik5pat5b2T5YmN5L2N572u5piv5ZCm5Zyo5qCH562+5YaF6YOoCiAgICAgKiDkvovlpoI6IDxkaXYgfD4g6L+U5ZuedHJ1ZQogICAgICovCiAgICBwcml2YXRlIGZ1biBpc0luVGFnQ29udGV4dCh0ZXh0OiBDaGFyU2VxdWVuY2UsIHBvc2l0aW9uOiBJbnQpOiBCb29sZWFuIHsKICAgICAgICBpZiAocG9zaXRpb24gPD0gMCkgcmV0dXJuIGZhbHNlCiAgICAgICAgCiAgICAgICAgdmFyIHN0YXJ0ID0gcG9zaXRpb24gLSAxCiAgICAgICAgdmFyIGZvdW5kT3BlbkJyYWNrZXQgPSBmYWxzZQogICAgICAgIAogICAgICAgIC8vIOWQkeWJjeafpeaJvu+8jOebtOWIsOaJvuWIsCA8IOaIliA+CiAgICAgICAgd2hpbGUgKHN0YXJ0ID49IDApIHsKICAgICAgICAgICAgd2hlbiAodGV4dFtzdGFydF0pIHsKICAgICAgICAgICAgICAgICc+JyAtPiByZXR1cm4gZmFsc2UgLy8g5om+5Yiw5LqG57uT5p2f5qCH562+77yM5LiN5Zyo5qCH562+5YaF6YOoCiAgICAgICAgICAgICAgICAnPCcgLT4gewogICAgICAgICAgICAgICAgICAgIGZvdW5kT3BlbkJyYWNrZXQgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBzdGFydC0tCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHJldHVybiBmb3VuZE9wZW5CcmFja2V0CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5Yik5pat5b2T5YmN5L2N572u5piv5ZCm5Zyo5bGe5oCn5LiK5LiL5paH5LitCiAgICAgKiDkvovlpoI6IDxkaXYgY2x8PiDov5Tlm550cnVlCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGlzSW5BdHRyaWJ1dGVDb250ZXh0KHRleHQ6IENoYXJTZXF1ZW5jZSwgcG9zaXRpb246IEludCk6IEJvb2xlYW4gewogICAgICAgIGlmIChwb3NpdGlvbiA8PSAwKSByZXR1cm4gZmFsc2UKICAgICAgICBpZiAoIWlzSW5UYWdDb250ZXh0KHRleHQsIHBvc2l0aW9uKSkgcmV0dXJuIGZhbHNlCiAgICAgICAgCiAgICAgICAgdmFyIHN0YXJ0ID0gcG9zaXRpb24gLSAxCiAgICAgICAgCiAgICAgICAgLy8g5ZCR5YmN5p+l5om+77yM55u05Yiw5om+5Yiw5qCH562+5ZCN5ZCO55qE56m65qC8CiAgICAgICAgd2hpbGUgKHN0YXJ0ID49IDApIHsKICAgICAgICAgICAgdmFsIGMgPSB0ZXh0W3N0YXJ0XQogICAgICAgICAgICBpZiAoYyA9PSAnPCcpIHJldHVybiBmYWxzZSAvLyDliLDovr7moIfnrb7lvIDlp4vvvIzor7TmmI7ov5jlnKjmoIfnrb7lkI3kuK0KICAgICAgICAgICAgaWYgKGMgPT0gJyAnKSByZXR1cm4gdHJ1ZSAvLyDmib7liLDnqbrmoLzvvIzor7TmmI7lnKjlsZ7mgKfkuIrkuIvmlofkuK0KICAgICAgICAgICAgc3RhcnQtLQogICAgICAgIH0KICAgICAgICAKICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDku45IVE1M5paH5pys5Lit5o+Q5Y+WSUTlkoznsbvlkI0KICAgICAqLwogICAgcHJpdmF0ZSBmdW4gZXh0cmFjdElkQW5kQ2xhc3Nlcyh0ZXh0OiBTdHJpbmcpOiBMaXN0PFN0cmluZz4gewogICAgICAgIHZhbCByZXN1bHQgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQogICAgICAgIAogICAgICAgIC8vIOaPkOWPlklEOiBpZD0ic29tZUlkIgogICAgICAgIHZhbCBpZFBhdHRlcm4gPSAiaWQ9W1wiJ10oW15cIiddKylbXCInXSIudG9SZWdleCgpCiAgICAgICAgaWRQYXR0ZXJuLmZpbmRBbGwodGV4dCkuZm9yRWFjaCB7IG1hdGNoUmVzdWx0IC0+CiAgICAgICAgICAgIHZhbCBpZCA9IG1hdGNoUmVzdWx0Lmdyb3VwVmFsdWVzWzFdCiAgICAgICAgICAgIGlmIChpZC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHJlc3VsdC5hZGQoaWQpCiAgICAgICAgICAgICAgICByZXN1bHQuYWRkKCIjJGlkIikgLy8g5re75YqgQ1NT6YCJ5oup5Zmo5b2i5byPCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5o+Q5Y+W57G75ZCNOiBjbGFzcz0iY2xhc3MxIGNsYXNzMiIKICAgICAgICB2YWwgY2xhc3NQYXR0ZXJuID0gImNsYXNzPVtcIiddKFteXCInXSspW1wiJ10iLnRvUmVnZXgoKQogICAgICAgIGNsYXNzUGF0dGVybi5maW5kQWxsKHRleHQpLmZvckVhY2ggeyBtYXRjaFJlc3VsdCAtPgogICAgICAgICAgICB2YWwgY2xhc3NOYW1lcyA9IG1hdGNoUmVzdWx0Lmdyb3VwVmFsdWVzWzFdLnNwbGl0KCIgIikKICAgICAgICAgICAgY2xhc3NOYW1lcy5mb3JFYWNoIHsgY2xhc3NOYW1lIC0+CiAgICAgICAgICAgICAgICBpZiAoY2xhc3NOYW1lLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgIHJlc3VsdC5hZGQoY2xhc3NOYW1lKQogICAgICAgICAgICAgICAgICAgIHJlc3VsdC5hZGQoIi4kY2xhc3NOYW1lIikgLy8g5re75YqgQ1NT6YCJ5oup5Zmo5b2i5byPCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgfQogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0VHJpZ2dlckNoYXJhY3RlcnMoKTogU2V0PENoYXI+ID0gc2V0T2YoJzwnLCAnICcsICciJywgJ1wnJywgJy4nKQogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0UHJlZml4KHRleHQ6IENoYXJTZXF1ZW5jZSwgcG9zaXRpb246IEludCk6IFN0cmluZyB7CiAgICAgICAgaWYgKHBvc2l0aW9uIDw9IDApIHJldHVybiAiIgogICAgICAgIAogICAgICAgIHZhciBzdGFydCA9IHBvc2l0aW9uIC0gMQogICAgICAgIHdoaWxlIChzdGFydCA+PSAwICYmICh0ZXh0W3N0YXJ0XS5pc0xldHRlck9yRGlnaXQoKSB8fCB0ZXh0W3N0YXJ0XSA9PSAnXycgfHwgdGV4dFtzdGFydF0gPT0gJy0nIHx8IHRleHRbc3RhcnRdID09ICcjJyB8fCB0ZXh0W3N0YXJ0XSA9PSAnLicpKSB7CiAgICAgICAgICAgIHN0YXJ0LS0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgcmV0dXJuIGlmIChzdGFydCA8IHBvc2l0aW9uIC0gMSkgewogICAgICAgICAgICB0ZXh0LnN1YlNlcXVlbmNlKHN0YXJ0ICsgMSwgcG9zaXRpb24pLnRvU3RyaW5nKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiIgogICAgICAgIH0KICAgIH0KfSA=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.completion
+
+/**
+ * HTML补全提供器
+ */
+class HtmlCompletionProvider : DefaultCompletionProvider() {
+    // HTML标签
+    private val htmlTags = listOf(
+        "html", "head", "body", "div", "span", "p", "h1", "h2", "h3", "h4", "h5", "h6",
+        "a", "img", "ul", "ol", "li", "table", "tr", "td", "th", "form", "input", "button",
+        "select", "option", "textarea", "script", "style", "link", "meta", "title", "section",
+        "article", "header", "footer", "nav", "aside", "main", "canvas", "video", "audio"
+    )
+    
+    // HTML属性
+    private val htmlAttributes = listOf(
+        "id", "class", "style", "href", "src", "alt", "width", "height", "type", "value",
+        "placeholder", "name", "action", "method", "target", "rel", "onclick", "onchange",
+        "onsubmit", "onload", "title", "disabled", "checked", "selected", "required", "readonly"
+    )
+    
+    override fun getCompletionItems(text: CharSequence, position: Int): List<CompletionItem> {
+        val prefix = getPrefix(text, position)
+        if (prefix.isEmpty()) return emptyList()
+        
+        val completions = mutableListOf<CompletionItem>()
+        
+        // 判断当前是否在标签内部
+        val isInTagContext = isInTagContext(text, position)
+        val isInAttributeContext = isInAttributeContext(text, position)
+        
+        when {
+            // 在标签开始位置 (例如: <di|)
+            isInTagContext && !isInAttributeContext -> {
+                htmlTags.filter { it.startsWith(prefix) }.forEach {
+                    completions.add(CompletionItem(
+                        label = it,
+                        insertText = it,
+                        kind = CompletionItemKind.KEYWORD
+                    ))
+                }
+            }
+            
+            // 在属性位置 (例如: <div cl|)
+            isInAttributeContext -> {
+                htmlAttributes.filter { it.startsWith(prefix) }.forEach {
+                    completions.add(CompletionItem(
+                        label = it,
+                        insertText = "$it=\"$1\"",
+                        kind = CompletionItemKind.PROPERTY
+                    ))
+                }
+            }
+            
+            // 普通位置，提供标签补全
+            else -> {
+                htmlTags.filter { it.startsWith(prefix) }.forEach {
+                    completions.add(CompletionItem(
+                        label = it,
+                        insertText = "<$it>$1</$it>",
+                        kind = CompletionItemKind.SNIPPET
+                    ))
+                }
+                
+                // 添加从文件中提取的ID和类名
+                val idAndClasses = extractIdAndClasses(text.toString())
+                idAndClasses.filter { it.startsWith(prefix) }.forEach {
+                    completions.add(CompletionItem(
+                        label = it,
+                        insertText = it,
+                        kind = CompletionItemKind.VARIABLE
+                    ))
+                }
+            }
+        }
+        
+        return completions
+    }
+    
+    /**
+     * 判断当前位置是否在标签内部
+     * 例如: <div |> 返回true
+     */
+    private fun isInTagContext(text: CharSequence, position: Int): Boolean {
+        if (position <= 0) return false
+        
+        var start = position - 1
+        var foundOpenBracket = false
+        
+        // 向前查找，直到找到 < 或 >
+        while (start >= 0) {
+            when (text[start]) {
+                '>' -> return false // 找到了结束标签，不在标签内部
+                '<' -> {
+                    foundOpenBracket = true
+                    break
+                }
+            }
+            start--
+        }
+        
+        return foundOpenBracket
+    }
+    
+    /**
+     * 判断当前位置是否在属性上下文中
+     * 例如: <div cl|> 返回true
+     */
+    private fun isInAttributeContext(text: CharSequence, position: Int): Boolean {
+        if (position <= 0) return false
+        if (!isInTagContext(text, position)) return false
+        
+        var start = position - 1
+        
+        // 向前查找，直到找到标签名后的空格
+        while (start >= 0) {
+            val c = text[start]
+            if (c == '<') return false // 到达标签开始，说明还在标签名中
+            if (c == ' ') return true // 找到空格，说明在属性上下文中
+            start--
+        }
+        
+        return false
+    }
+    
+    /**
+     * 从HTML文本中提取ID和类名
+     */
+    private fun extractIdAndClasses(text: String): List<String> {
+        val result = mutableListOf<String>()
+        
+        // 提取ID: id="someId"
+        val idPattern = "id=[\"']([^\"']+)[\"']".toRegex()
+        idPattern.findAll(text).forEach { matchResult ->
+            val id = matchResult.groupValues[1]
+            if (id.isNotEmpty()) {
+                result.add(id)
+                result.add("#$id") // 添加CSS选择器形式
+            }
+        }
+        
+        // 提取类名: class="class1 class2"
+        val classPattern = "class=[\"']([^\"']+)[\"']".toRegex()
+        classPattern.findAll(text).forEach { matchResult ->
+            val classNames = matchResult.groupValues[1].split(" ")
+            classNames.forEach { className ->
+                if (className.isNotEmpty()) {
+                    result.add(className)
+                    result.add(".$className") // 添加CSS选择器形式
+                }
+            }
+        }
+        
+        return result
+    }
+    
+    override fun getTriggerCharacters(): Set<Char> = setOf('<', ' ', '"', '\'', '.')
+    
+    override fun getPrefix(text: CharSequence, position: Int): String {
+        if (position <= 0) return ""
+        
+        var start = position - 1
+        while (start >= 0 && (text[start].isLetterOrDigit() || text[start] == '_' || text[start] == '-' || text[start] == '#' || text[start] == '.')) {
+            start--
+        }
+        
+        return if (start < position - 1) {
+            text.subSequence(start + 1, position).toString()
+        } else {
+            ""
+        }
+    }
+} 

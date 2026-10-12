@@ -1,1 +1,106 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IuY29tcGxldGlvbgoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LndlYnZpZXcud29ya3NwYWNlLmVkaXRvci5sYW5ndWFnZS5MYW5ndWFnZUZhY3RvcnkKCi8qKgogKiBEYXJ0IOihpeWFqOaPkOS+m+WZqAogKi8KY2xhc3MgRGFydENvbXBsZXRpb25Qcm92aWRlciA6IERlZmF1bHRDb21wbGV0aW9uUHJvdmlkZXIoKSB7CiAgICBwcml2YXRlIHZhbCBsYW5ndWFnZVN1cHBvcnQgPSBMYW5ndWFnZUZhY3RvcnkuZ2V0TGFuZ3VhZ2VTdXBwb3J0KCJkYXJ0IikKCiAgICBvdmVycmlkZSBmdW4gZ2V0Q29tcGxldGlvbkl0ZW1zKHRleHQ6IENoYXJTZXF1ZW5jZSwgcG9zaXRpb246IEludCk6IExpc3Q8Q29tcGxldGlvbkl0ZW0+IHsKICAgICAgICB2YWwgcHJlZml4ID0gZ2V0UHJlZml4KHRleHQsIHBvc2l0aW9uKQogICAgICAgIGlmIChwcmVmaXguaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBlbXB0eUxpc3QoKQogICAgICAgIH0KCiAgICAgICAgdmFsIGNvbXBsZXRpb25zID0gbXV0YWJsZUxpc3RPZjxDb21wbGV0aW9uSXRlbT4oKQoKICAgICAgICBsYW5ndWFnZVN1cHBvcnQ/LmdldEtleXdvcmRzKCk/LmZpbHRlciB7IGl0LnN0YXJ0c1dpdGgocHJlZml4KSB9Py5mb3JFYWNoIHsKICAgICAgICAgICAgY29tcGxldGlvbnMuYWRkKAogICAgICAgICAgICAgICAgQ29tcGxldGlvbkl0ZW0oCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSBpdCwKICAgICAgICAgICAgICAgICAgICBpbnNlcnRUZXh0ID0gaXQsCiAgICAgICAgICAgICAgICAgICAga2luZCA9IENvbXBsZXRpb25JdGVtS2luZC5LRVlXT1JECiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGxhbmd1YWdlU3VwcG9ydD8uZ2V0QnVpbHRJblR5cGVzKCk/LmZpbHRlciB7IGl0LnN0YXJ0c1dpdGgocHJlZml4KSB9Py5mb3JFYWNoIHsKICAgICAgICAgICAgY29tcGxldGlvbnMuYWRkKAogICAgICAgICAgICAgICAgQ29tcGxldGlvbkl0ZW0oCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSBpdCwKICAgICAgICAgICAgICAgICAgICBpbnNlcnRUZXh0ID0gaXQsCiAgICAgICAgICAgICAgICAgICAga2luZCA9IENvbXBsZXRpb25JdGVtS2luZC5DTEFTUwogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICBsYW5ndWFnZVN1cHBvcnQ/LmdldEJ1aWx0SW5GdW5jdGlvbnMoKT8uZmlsdGVyIHsgaXQuc3RhcnRzV2l0aChwcmVmaXgpIH0/LmZvckVhY2ggewogICAgICAgICAgICBjb21wbGV0aW9ucy5hZGQoCiAgICAgICAgICAgICAgICBDb21wbGV0aW9uSXRlbSgKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IGl0LAogICAgICAgICAgICAgICAgICAgIGluc2VydFRleHQgPSBpdCwKICAgICAgICAgICAgICAgICAgICBraW5kID0gQ29tcGxldGlvbkl0ZW1LaW5kLkZVTkNUSU9OCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGxhbmd1YWdlU3VwcG9ydD8uZ2V0QnVpbHRJblZhcmlhYmxlcygpPy5maWx0ZXIgeyBpdC5zdGFydHNXaXRoKHByZWZpeCkgfT8uZm9yRWFjaCB7CiAgICAgICAgICAgIGNvbXBsZXRpb25zLmFkZCgKICAgICAgICAgICAgICAgIENvbXBsZXRpb25JdGVtKAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0gaXQsCiAgICAgICAgICAgICAgICAgICAgaW5zZXJ0VGV4dCA9IGl0LAogICAgICAgICAgICAgICAgICAgIGtpbmQgPSBDb21wbGV0aW9uSXRlbUtpbmQuVkFSSUFCTEUKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgZXh0cmFjdFZhcmlhYmxlcyh0ZXh0LnRvU3RyaW5nKCkpLmZpbHRlciB7IGl0LnN0YXJ0c1dpdGgocHJlZml4KSB9LmZvckVhY2ggewogICAgICAgICAgICBjb21wbGV0aW9ucy5hZGQoCiAgICAgICAgICAgICAgICBDb21wbGV0aW9uSXRlbSgKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IGl0LAogICAgICAgICAgICAgICAgICAgIGluc2VydFRleHQgPSBpdCwKICAgICAgICAgICAgICAgICAgICBraW5kID0gQ29tcGxldGlvbkl0ZW1LaW5kLlZBUklBQkxFCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIHJldHVybiBjb21wbGV0aW9ucy5kaXN0aW5jdEJ5IHsgIiR7aXQua2luZH06JHtpdC5sYWJlbH0iIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZ2V0VHJpZ2dlckNoYXJhY3RlcnMoKTogU2V0PENoYXI+ID0gc2V0T2YoJy4nLCAnKCcsICc6JywgJz0nKQoKICAgIG92ZXJyaWRlIGZ1biBleHRyYWN0VmFyaWFibGVzKHRleHQ6IFN0cmluZyk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgdmFsIHZhcmlhYmxlcyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCgogICAgICAgIHZhbCB2YXJpYWJsZVBhdHRlcm4gPQogICAgICAgICAgICAiXFxiKD86ZmluYWx8dmFyfGNvbnN0fGxhdGUoPzpcXHMrZmluYWwpPylcXHMrKFthLXpBLVpfXVthLXpBLVowLTlfXSopIi50b1JlZ2V4KCkKICAgICAgICB2YXJpYWJsZVBhdHRlcm4uZmluZEFsbCh0ZXh0KS5mb3JFYWNoIHsgbWF0Y2ggLT4KICAgICAgICAgICAgdmFsIG5hbWUgPSBtYXRjaC5ncm91cFZhbHVlc1sxXQogICAgICAgICAgICBpZiAobmFtZS5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHZhcmlhYmxlcy5hZGQobmFtZSkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmFsIGZ1bmN0aW9uUGF0dGVybiA9CiAgICAgICAgICAgICJcXGIoPzp2b2lkfEZ1dHVyZTxbXj5dKz58RnV0dXJlfFN0cmVhbTxbXj5dKz58U3RyZWFtfGludHxkb3VibGV8bnVtfGJvb2x8U3RyaW5nfFdpZGdldCk/XFxzKihbYS16QS1aX11bYS16QS1aMC05X10qKVxccypcXCgiLnRvUmVnZXgoKQogICAgICAgIGZ1bmN0aW9uUGF0dGVybi5maW5kQWxsKHRleHQpLmZvckVhY2ggeyBtYXRjaCAtPgogICAgICAgICAgICB2YWwgbmFtZSA9IG1hdGNoLmdyb3VwVmFsdWVzWzFdCiAgICAgICAgICAgIGlmIChuYW1lLmlzTm90RW1wdHkoKSAmJiBuYW1lICFpbiBzZXRPZigiaWYiLCAiZm9yIiwgIndoaWxlIiwgInN3aXRjaCIpKSB7CiAgICAgICAgICAgICAgICB2YXJpYWJsZXMuYWRkKG5hbWUpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHZhbCB0eXBlUGF0dGVybiA9CiAgICAgICAgICAgICJcXGIoPzpjbGFzc3xlbnVtfG1peGlufGV4dGVuc2lvbnx0eXBlZGVmKVxccysoW2EtekEtWl9dW2EtekEtWjAtOV9dKikiLnRvUmVnZXgoKQogICAgICAgIHR5cGVQYXR0ZXJuLmZpbmRBbGwodGV4dCkuZm9yRWFjaCB7IG1hdGNoIC0+CiAgICAgICAgICAgIHZhbCBuYW1lID0gbWF0Y2guZ3JvdXBWYWx1ZXNbMV0KICAgICAgICAgICAgaWYgKG5hbWUuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICB2YXJpYWJsZXMuYWRkKG5hbWUpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiB2YXJpYWJsZXMKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.completion
+
+import com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language.LanguageFactory
+
+/**
+ * Dart 补全提供器
+ */
+class DartCompletionProvider : DefaultCompletionProvider() {
+    private val languageSupport = LanguageFactory.getLanguageSupport("dart")
+
+    override fun getCompletionItems(text: CharSequence, position: Int): List<CompletionItem> {
+        val prefix = getPrefix(text, position)
+        if (prefix.isEmpty()) {
+            return emptyList()
+        }
+
+        val completions = mutableListOf<CompletionItem>()
+
+        languageSupport?.getKeywords()?.filter { it.startsWith(prefix) }?.forEach {
+            completions.add(
+                CompletionItem(
+                    label = it,
+                    insertText = it,
+                    kind = CompletionItemKind.KEYWORD
+                )
+            )
+        }
+
+        languageSupport?.getBuiltInTypes()?.filter { it.startsWith(prefix) }?.forEach {
+            completions.add(
+                CompletionItem(
+                    label = it,
+                    insertText = it,
+                    kind = CompletionItemKind.CLASS
+                )
+            )
+        }
+
+        languageSupport?.getBuiltInFunctions()?.filter { it.startsWith(prefix) }?.forEach {
+            completions.add(
+                CompletionItem(
+                    label = it,
+                    insertText = it,
+                    kind = CompletionItemKind.FUNCTION
+                )
+            )
+        }
+
+        languageSupport?.getBuiltInVariables()?.filter { it.startsWith(prefix) }?.forEach {
+            completions.add(
+                CompletionItem(
+                    label = it,
+                    insertText = it,
+                    kind = CompletionItemKind.VARIABLE
+                )
+            )
+        }
+
+        extractVariables(text.toString()).filter { it.startsWith(prefix) }.forEach {
+            completions.add(
+                CompletionItem(
+                    label = it,
+                    insertText = it,
+                    kind = CompletionItemKind.VARIABLE
+                )
+            )
+        }
+
+        return completions.distinctBy { "${it.kind}:${it.label}" }
+    }
+
+    override fun getTriggerCharacters(): Set<Char> = setOf('.', '(', ':', '=')
+
+    override fun extractVariables(text: String): List<String> {
+        val variables = mutableListOf<String>()
+
+        val variablePattern =
+            "\\b(?:final|var|const|late(?:\\s+final)?)\\s+([a-zA-Z_][a-zA-Z0-9_]*)".toRegex()
+        variablePattern.findAll(text).forEach { match ->
+            val name = match.groupValues[1]
+            if (name.isNotEmpty()) {
+                variables.add(name)
+            }
+        }
+
+        val functionPattern =
+            "\\b(?:void|Future<[^>]+>|Future|Stream<[^>]+>|Stream|int|double|num|bool|String|Widget)?\\s*([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(".toRegex()
+        functionPattern.findAll(text).forEach { match ->
+            val name = match.groupValues[1]
+            if (name.isNotEmpty() && name !in setOf("if", "for", "while", "switch")) {
+                variables.add(name)
+            }
+        }
+
+        val typePattern =
+            "\\b(?:class|enum|mixin|extension|typedef)\\s+([a-zA-Z_][a-zA-Z0-9_]*)".toRegex()
+        typePattern.findAll(text).forEach { match ->
+            val name = match.groupValues[1]
+            if (name.isNotEmpty()) {
+                variables.add(name)
+            }
+        }
+
+        return variables
+    }
+}

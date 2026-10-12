@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CgpvYmplY3QgR2l0SHViQXV0aEJ1cyB7CiAgICBwcml2YXRlIHZhbCBfYXV0aENvZGUgPSBNdXRhYmxlU3RhdGVGbG93PFN0cmluZz8+KG51bGwpCiAgICB2YWwgYXV0aENvZGUgPSBfYXV0aENvZGUuYXNTdGF0ZUZsb3coKQoKICAgIGZ1biBwb3N0QXV0aENvZGUoY29kZTogU3RyaW5nPykgewogICAgICAgIF9hdXRoQ29kZS52YWx1ZSA9IGNvZGUKICAgIH0KfSA=
+package com.bslsjdk.operit.data.preferences
+
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+object GitHubAuthBus {
+    private val _authCode = MutableStateFlow<String?>(null)
+    val authCode = _authCode.asStateFlow()
+
+    fun postAuthCode(code: String?) {
+        _authCode.value = code
+    }
+} 

@@ -1,1 +1,143 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uU3RyaW5nUmVzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgoKLyoqCiAqIEEgZGF0YSBjbGFzcyB0byBob2xkIHRoZSBzdGF0aWMgZGVmaW5pdGlvbiBvZiBhIG1vZGVsIHBhcmFtZXRlci4KICogVGhpcyBzZXJ2ZXMgYXMgYSBzaW5nbGUgc291cmNlIG9mIHRydXRoIGZvciBzdGFuZGFyZCBwYXJhbWV0ZXJzLgogKgogKiBAcGFyYW0gVCBUaGUgdW5kZXJseWluZyBkYXRhIHR5cGUgb2YgdGhlIHBhcmFtZXRlcidzIHZhbHVlLgogKiBAcHJvcGVydHkgaWQgVW5pcXVlIGlkZW50aWZpZXIgZm9yIHRoZSBwYXJhbWV0ZXIuCiAqIEBwcm9wZXJ0eSBuYW1lIERlZmF1bHQsIG5vbi1sb2NhbGl6ZWQgbmFtZSBvZiB0aGUgcGFyYW1ldGVyLgogKiBAcHJvcGVydHkgbmFtZVJlc0lkIE9wdGlvbmFsIEFuZHJvaWQgc3RyaW5nIHJlc291cmNlIElEIGZvciB0aGUgcGFyYW1ldGVyIG5hbWUuCiAqIEBwcm9wZXJ0eSBhcGlOYW1lIFRoZSBuYW1lIHVzZWQgaW4gdGhlIEFQSSByZXF1ZXN0IGJvZHkuCiAqIEBwcm9wZXJ0eSBkZXNjcmlwdGlvbiBEZWZhdWx0LCBub24tbG9jYWxpemVkIGRlc2NyaXB0aW9uIG9mIHRoZSBwYXJhbWV0ZXIuCiAqIEBwcm9wZXJ0eSBkZXNjcmlwdGlvblJlc0lkIE9wdGlvbmFsIEFuZHJvaWQgc3RyaW5nIHJlc291cmNlIElEIGZvciB0aGUgcGFyYW1ldGVyIGRlc2NyaXB0aW9uLgogKiBAcHJvcGVydHkgZGVmYXVsdFZhbHVlIFRoZSBkZWZhdWx0IHZhbHVlIGZvciB0aGUgcGFyYW1ldGVyLgogKiBAcHJvcGVydHkgdmFsdWVUeXBlIFRoZSB0eXBlIG9mIHRoZSBwYXJhbWV0ZXIncyB2YWx1ZSAoZS5nLiwgSU5ULCBGTE9BVCkuCiAqIEBwcm9wZXJ0eSBjYXRlZ29yeSBUaGUgY2F0ZWdvcnkgdGhlIHBhcmFtZXRlciBiZWxvbmdzIHRvLgogKiBAcHJvcGVydHkgbWluVmFsdWUgT3B0aW9uYWwgbWluaW11bSBhbGxvd2VkIHZhbHVlLgogKiBAcHJvcGVydHkgbWF4VmFsdWUgT3B0aW9uYWwgbWF4aW11bSBhbGxvd2VkIHZhbHVlLgogKi8KZGF0YSBjbGFzcyBQYXJhbWV0ZXJEZWZpbml0aW9uPFQgOiBBbnk+KAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgQFN0cmluZ1JlcyB2YWwgbmFtZVJlc0lkOiBJbnQgPSAwLAogICAgdmFsIGFwaU5hbWU6IFN0cmluZywKICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nLAogICAgQFN0cmluZ1JlcyB2YWwgZGVzY3JpcHRpb25SZXNJZDogSW50ID0gMCwKICAgIHZhbCBkZWZhdWx0VmFsdWU6IFQsCiAgICB2YWwgdmFsdWVUeXBlOiBQYXJhbWV0ZXJWYWx1ZVR5cGUsCiAgICB2YWwgY2F0ZWdvcnk6IFBhcmFtZXRlckNhdGVnb3J5LAogICAgdmFsIG1pblZhbHVlOiBUPyA9IG51bGwsCiAgICB2YWwgbWF4VmFsdWU6IFQ/ID0gbnVsbAopCgovKioKICogQSBjZW50cmFsIHJlcG9zaXRvcnkgZm9yIHRoZSBkZWZpbml0aW9ucyBvZiBhbGwgc3RhbmRhcmQgbW9kZWwgcGFyYW1ldGVycy4KICovCm9iamVjdCBTdGFuZGFyZE1vZGVsUGFyYW1ldGVycyB7CiAgICAvLyBEZWZhdWx0IHZhbHVlcyBmb3Igc3RhbmRhcmQgbW9kZWwgcGFyYW1ldGVycwogICAgY29uc3QgdmFsIERFRkFVTFRfTUFYX1RPS0VOUyA9IDQwOTYKICAgIGNvbnN0IHZhbCBERUZBVUxUX1RFTVBFUkFUVVJFID0gMS4wZgogICAgY29uc3QgdmFsIERFRkFVTFRfVE9QX1AgPSAxLjBmCiAgICBjb25zdCB2YWwgREVGQVVMVF9UT1BfSyA9IDAKICAgIGNvbnN0IHZhbCBERUZBVUxUX1BSRVNFTkNFX1BFTkFMVFkgPSAwLjBmCiAgICBjb25zdCB2YWwgREVGQVVMVF9GUkVRVUVOQ1lfUEVOQUxUWSA9IDAuMGYKICAgIGNvbnN0IHZhbCBERUZBVUxUX1JFUEVUSVRJT05fUEVOQUxUWSA9IDEuMGYKCiAgICB2YWwgREVGSU5JVElPTlM6IExpc3Q8UGFyYW1ldGVyRGVmaW5pdGlvbjwqPj4gPQogICAgICAgIGxpc3RPZigKICAgICAgICAgICAgUGFyYW1ldGVyRGVmaW5pdGlvbigKICAgICAgICAgICAgICAgIGlkID0gIm1heF90b2tlbnMiLAogICAgICAgICAgICAgICAgbmFtZSA9ICJNYXggdG9rZW5zIiwKICAgICAgICAgICAgICAgIG5hbWVSZXNJZCA9IFIuc3RyaW5nLm1vZGVsX3BhcmFtX21heF90b2tlbnMsCiAgICAgICAgICAgICAgICBhcGlOYW1lID0gIm1heF90b2tlbnMiLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSAiTWF4aW11bSBudW1iZXIgb2YgdG9rZW5zIHRvIGdlbmVyYXRlIGluIG9uZSByZXNwb25zZSIsCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvblJlc0lkID0gUi5zdHJpbmcubW9kZWxfcGFyYW1fbWF4X3Rva2Vuc19kZXNjLAogICAgICAgICAgICAgICAgZGVmYXVsdFZhbHVlID0gREVGQVVMVF9NQVhfVE9LRU5TLAogICAgICAgICAgICAgICAgdmFsdWVUeXBlID0gUGFyYW1ldGVyVmFsdWVUeXBlLklOVCwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gUGFyYW1ldGVyQ2F0ZWdvcnkuR0VORVJBVElPTiwKICAgICAgICAgICAgICAgIG1pblZhbHVlID0gMQogICAgICAgICAgICApLAogICAgICAgICAgICBQYXJhbWV0ZXJEZWZpbml0aW9uKAogICAgICAgICAgICAgICAgaWQgPSAidGVtcGVyYXR1cmUiLAogICAgICAgICAgICAgICAgbmFtZSA9ICJUZW1wZXJhdHVyZSIsCiAgICAgICAgICAgICAgICBuYW1lUmVzSWQgPSBSLnN0cmluZy5tb2RlbF9wYXJhbV90ZW1wZXJhdHVyZSwKICAgICAgICAgICAgICAgIGFwaU5hbWUgPSAidGVtcGVyYXR1cmUiLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSAiQ29udHJvbHMgcmFuZG9tbmVzczogbG93ZXIgaXMgbW9yZSBkZXRlcm1pbmlzdGljLCBoaWdoZXIgaXMgbW9yZSByYW5kb20iLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb25SZXNJZCA9IFIuc3RyaW5nLm1vZGVsX3BhcmFtX3RlbXBlcmF0dXJlX2Rlc2MsCiAgICAgICAgICAgICAgICBkZWZhdWx0VmFsdWUgPSBERUZBVUxUX1RFTVBFUkFUVVJFLAogICAgICAgICAgICAgICAgdmFsdWVUeXBlID0gUGFyYW1ldGVyVmFsdWVUeXBlLkZMT0FULAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBQYXJhbWV0ZXJDYXRlZ29yeS5DUkVBVElWSVRZLAogICAgICAgICAgICAgICAgbWluVmFsdWUgPSAwLjBmLAogICAgICAgICAgICAgICAgbWF4VmFsdWUgPSAyLjBmCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFBhcmFtZXRlckRlZmluaXRpb24oCiAgICAgICAgICAgICAgICBpZCA9ICJ0b3BfcCIsCiAgICAgICAgICAgICAgICBuYW1lID0gIlRvcC1wIHNhbXBsaW5nIiwKICAgICAgICAgICAgICAgIG5hbWVSZXNJZCA9IFIuc3RyaW5nLm1vZGVsX3BhcmFtX3RvcF9wLAogICAgICAgICAgICAgICAgYXBpTmFtZSA9ICJ0b3BfcCIsCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9ICJBbHRlcm5hdGl2ZSB0byB0ZW1wZXJhdHVyZTogY29uc2lkZXIgb25seSB0b2tlbnMgd2l0aGluIGN1bXVsYXRpdmUgcHJvYmFiaWxpdHkgdG9wLXAiLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb25SZXNJZCA9IFIuc3RyaW5nLm1vZGVsX3BhcmFtX3RvcF9wX2Rlc2MsCiAgICAgICAgICAgICAgICBkZWZhdWx0VmFsdWUgPSBERUZBVUxUX1RPUF9QLAogICAgICAgICAgICAgICAgdmFsdWVUeXBlID0gUGFyYW1ldGVyVmFsdWVUeXBlLkZMT0FULAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBQYXJhbWV0ZXJDYXRlZ29yeS5DUkVBVElWSVRZLAogICAgICAgICAgICAgICAgbWluVmFsdWUgPSAwLjBmLAogICAgICAgICAgICAgICAgbWF4VmFsdWUgPSAxLjBmCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFBhcmFtZXRlckRlZmluaXRpb24oCiAgICAgICAgICAgICAgICBpZCA9ICJ0b3BfayIsCiAgICAgICAgICAgICAgICBuYW1lID0gIlRvcC1rIHNhbXBsaW5nIiwKICAgICAgICAgICAgICAgIG5hbWVSZXNJZCA9IFIuc3RyaW5nLm1vZGVsX3BhcmFtX3RvcF9rLAogICAgICAgICAgICAgICAgYXBpTmFtZSA9ICJ0b3BfayIsCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9ICJDb25zaWRlciBvbmx5IHRoZSB0b3AtayB0b2tlbnMgYnkgcHJvYmFiaWxpdHkuIDAgZGlzYWJsZXMiLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb25SZXNJZCA9IFIuc3RyaW5nLm1vZGVsX3BhcmFtX3RvcF9rX2Rlc2MsCiAgICAgICAgICAgICAgICBkZWZhdWx0VmFsdWUgPSBERUZBVUxUX1RPUF9LLAogICAgICAgICAgICAgICAgdmFsdWVUeXBlID0gUGFyYW1ldGVyVmFsdWVUeXBlLklOVCwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gUGFyYW1ldGVyQ2F0ZWdvcnkuQ1JFQVRJVklUWSwKICAgICAgICAgICAgICAgIG1pblZhbHVlID0gMCwKICAgICAgICAgICAgICAgIG1heFZhbHVlID0gMTAwCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFBhcmFtZXRlckRlZmluaXRpb24oCiAgICAgICAgICAgICAgICBpZCA9ICJwcmVzZW5jZV9wZW5hbHR5IiwKICAgICAgICAgICAgICAgIG5hbWUgPSAiUHJlc2VuY2UgcGVuYWx0eSIsCiAgICAgICAgICAgICAgICBuYW1lUmVzSWQgPSBSLnN0cmluZy5tb2RlbF9wYXJhbV9wcmVzZW5jZV9wZW5hbHR5LAogICAgICAgICAgICAgICAgYXBpTmFtZSA9ICJwcmVzZW5jZV9wZW5hbHR5IiwKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gIkVuY291cmFnZXMgbmV3IHRvcGljczogaGlnaGVyIHZhbHVlcyByZWR1Y2UgcmVwZXRpdGlvbiBvZiBleGlzdGluZyB0b2tlbnMiLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb25SZXNJZCA9IFIuc3RyaW5nLm1vZGVsX3BhcmFtX3ByZXNlbmNlX3BlbmFsdHlfZGVzYywKICAgICAgICAgICAgICAgIGRlZmF1bHRWYWx1ZSA9IERFRkFVTFRfUFJFU0VOQ0VfUEVOQUxUWSwKICAgICAgICAgICAgICAgIHZhbHVlVHlwZSA9IFBhcmFtZXRlclZhbHVlVHlwZS5GTE9BVCwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gUGFyYW1ldGVyQ2F0ZWdvcnkuUkVQRVRJVElPTiwKICAgICAgICAgICAgICAgIG1pblZhbHVlID0gLTIuMGYsCiAgICAgICAgICAgICAgICBtYXhWYWx1ZSA9IDIuMGYKICAgICAgICAgICAgKSwKICAgICAgICAgICAgUGFyYW1ldGVyRGVmaW5pdGlvbigKICAgICAgICAgICAgICAgIGlkID0gImZyZXF1ZW5jeV9wZW5hbHR5IiwKICAgICAgICAgICAgICAgIG5hbWUgPSAiRnJlcXVlbmN5IHBlbmFsdHkiLAogICAgICAgICAgICAgICAgbmFtZVJlc0lkID0gUi5zdHJpbmcubW9kZWxfcGFyYW1fZnJlcXVlbmN5X3BlbmFsdHksCiAgICAgICAgICAgICAgICBhcGlOYW1lID0gImZyZXF1ZW5jeV9wZW5hbHR5IiwKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gIlJlZHVjZXMgcmVwZXRpdGlvbjogaGlnaGVyIHZhbHVlcyBwZW5hbGl6ZSB0b2tlbnMgYmFzZWQgb24gZnJlcXVlbmN5IiwKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uUmVzSWQgPSBSLnN0cmluZy5tb2RlbF9wYXJhbV9mcmVxdWVuY3lfcGVuYWx0eV9kZXNjLAogICAgICAgICAgICAgICAgZGVmYXVsdFZhbHVlID0gREVGQVVMVF9GUkVRVUVOQ1lfUEVOQUxUWSwKICAgICAgICAgICAgICAgIHZhbHVlVHlwZSA9IFBhcmFtZXRlclZhbHVlVHlwZS5GTE9BVCwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gUGFyYW1ldGVyQ2F0ZWdvcnkuUkVQRVRJVElPTiwKICAgICAgICAgICAgICAgIG1pblZhbHVlID0gLTIuMGYsCiAgICAgICAgICAgICAgICBtYXhWYWx1ZSA9IDIuMGYKICAgICAgICAgICAgKSwKICAgICAgICAgICAgUGFyYW1ldGVyRGVmaW5pdGlvbigKICAgICAgICAgICAgICAgIGlkID0gInJlcGV0aXRpb25fcGVuYWx0eSIsCiAgICAgICAgICAgICAgICBuYW1lID0gIlJlcGV0aXRpb24gcGVuYWx0eSIsCiAgICAgICAgICAgICAgICBuYW1lUmVzSWQgPSBSLnN0cmluZy5tb2RlbF9wYXJhbV9yZXBldGl0aW9uX3BlbmFsdHksCiAgICAgICAgICAgICAgICBhcGlOYW1lID0gInJlcGV0aXRpb25fcGVuYWx0eSIsCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9ICJGdXJ0aGVyIHJlZHVjZXMgcmVwZXRpdGlvbjogMS4wIG1lYW5zIG5vIHBlbmFsdHk7IHZhbHVlcyA+IDEuMCBkaXNjb3VyYWdlIHJlcGV0aXRpb24iLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb25SZXNJZCA9IFIuc3RyaW5nLm1vZGVsX3BhcmFtX3JlcGV0aXRpb25fcGVuYWx0eV9kZXNjLAogICAgICAgICAgICAgICAgZGVmYXVsdFZhbHVlID0gREVGQVVMVF9SRVBFVElUSU9OX1BFTkFMVFksCiAgICAgICAgICAgICAgICB2YWx1ZVR5cGUgPSBQYXJhbWV0ZXJWYWx1ZVR5cGUuRkxPQVQsCiAgICAgICAgICAgICAgICBjYXRlZ29yeSA9IFBhcmFtZXRlckNhdGVnb3J5LlJFUEVUSVRJT04sCiAgICAgICAgICAgICAgICBtaW5WYWx1ZSA9IDAuMGYsCiAgICAgICAgICAgICAgICBtYXhWYWx1ZSA9IDIuMGYKICAgICAgICAgICAgKQogICAgICAgICkKfQ==
+package com.bslsjdk.operit.data.model
+
+import androidx.annotation.StringRes
+import com.bslsjdk.operit.R
+
+/**
+ * A data class to hold the static definition of a model parameter.
+ * This serves as a single source of truth for standard parameters.
+ *
+ * @param T The underlying data type of the parameter's value.
+ * @property id Unique identifier for the parameter.
+ * @property name Default, non-localized name of the parameter.
+ * @property nameResId Optional Android string resource ID for the parameter name.
+ * @property apiName The name used in the API request body.
+ * @property description Default, non-localized description of the parameter.
+ * @property descriptionResId Optional Android string resource ID for the parameter description.
+ * @property defaultValue The default value for the parameter.
+ * @property valueType The type of the parameter's value (e.g., INT, FLOAT).
+ * @property category The category the parameter belongs to.
+ * @property minValue Optional minimum allowed value.
+ * @property maxValue Optional maximum allowed value.
+ */
+data class ParameterDefinition<T : Any>(
+    val id: String,
+    val name: String,
+    @StringRes val nameResId: Int = 0,
+    val apiName: String,
+    val description: String,
+    @StringRes val descriptionResId: Int = 0,
+    val defaultValue: T,
+    val valueType: ParameterValueType,
+    val category: ParameterCategory,
+    val minValue: T? = null,
+    val maxValue: T? = null
+)
+
+/**
+ * A central repository for the definitions of all standard model parameters.
+ */
+object StandardModelParameters {
+    // Default values for standard model parameters
+    const val DEFAULT_MAX_TOKENS = 4096
+    const val DEFAULT_TEMPERATURE = 1.0f
+    const val DEFAULT_TOP_P = 1.0f
+    const val DEFAULT_TOP_K = 0
+    const val DEFAULT_PRESENCE_PENALTY = 0.0f
+    const val DEFAULT_FREQUENCY_PENALTY = 0.0f
+    const val DEFAULT_REPETITION_PENALTY = 1.0f
+
+    val DEFINITIONS: List<ParameterDefinition<*>> =
+        listOf(
+            ParameterDefinition(
+                id = "max_tokens",
+                name = "Max tokens",
+                nameResId = R.string.model_param_max_tokens,
+                apiName = "max_tokens",
+                description = "Maximum number of tokens to generate in one response",
+                descriptionResId = R.string.model_param_max_tokens_desc,
+                defaultValue = DEFAULT_MAX_TOKENS,
+                valueType = ParameterValueType.INT,
+                category = ParameterCategory.GENERATION,
+                minValue = 1
+            ),
+            ParameterDefinition(
+                id = "temperature",
+                name = "Temperature",
+                nameResId = R.string.model_param_temperature,
+                apiName = "temperature",
+                description = "Controls randomness: lower is more deterministic, higher is more random",
+                descriptionResId = R.string.model_param_temperature_desc,
+                defaultValue = DEFAULT_TEMPERATURE,
+                valueType = ParameterValueType.FLOAT,
+                category = ParameterCategory.CREATIVITY,
+                minValue = 0.0f,
+                maxValue = 2.0f
+            ),
+            ParameterDefinition(
+                id = "top_p",
+                name = "Top-p sampling",
+                nameResId = R.string.model_param_top_p,
+                apiName = "top_p",
+                description = "Alternative to temperature: consider only tokens within cumulative probability top-p",
+                descriptionResId = R.string.model_param_top_p_desc,
+                defaultValue = DEFAULT_TOP_P,
+                valueType = ParameterValueType.FLOAT,
+                category = ParameterCategory.CREATIVITY,
+                minValue = 0.0f,
+                maxValue = 1.0f
+            ),
+            ParameterDefinition(
+                id = "top_k",
+                name = "Top-k sampling",
+                nameResId = R.string.model_param_top_k,
+                apiName = "top_k",
+                description = "Consider only the top-k tokens by probability. 0 disables",
+                descriptionResId = R.string.model_param_top_k_desc,
+                defaultValue = DEFAULT_TOP_K,
+                valueType = ParameterValueType.INT,
+                category = ParameterCategory.CREATIVITY,
+                minValue = 0,
+                maxValue = 100
+            ),
+            ParameterDefinition(
+                id = "presence_penalty",
+                name = "Presence penalty",
+                nameResId = R.string.model_param_presence_penalty,
+                apiName = "presence_penalty",
+                description = "Encourages new topics: higher values reduce repetition of existing tokens",
+                descriptionResId = R.string.model_param_presence_penalty_desc,
+                defaultValue = DEFAULT_PRESENCE_PENALTY,
+                valueType = ParameterValueType.FLOAT,
+                category = ParameterCategory.REPETITION,
+                minValue = -2.0f,
+                maxValue = 2.0f
+            ),
+            ParameterDefinition(
+                id = "frequency_penalty",
+                name = "Frequency penalty",
+                nameResId = R.string.model_param_frequency_penalty,
+                apiName = "frequency_penalty",
+                description = "Reduces repetition: higher values penalize tokens based on frequency",
+                descriptionResId = R.string.model_param_frequency_penalty_desc,
+                defaultValue = DEFAULT_FREQUENCY_PENALTY,
+                valueType = ParameterValueType.FLOAT,
+                category = ParameterCategory.REPETITION,
+                minValue = -2.0f,
+                maxValue = 2.0f
+            ),
+            ParameterDefinition(
+                id = "repetition_penalty",
+                name = "Repetition penalty",
+                nameResId = R.string.model_param_repetition_penalty,
+                apiName = "repetition_penalty",
+                description = "Further reduces repetition: 1.0 means no penalty; values > 1.0 discourage repetition",
+                descriptionResId = R.string.model_param_repetition_penalty_desc,
+                defaultValue = DEFAULT_REPETITION_PENALTY,
+                valueType = ParameterValueType.FLOAT,
+                category = ParameterCategory.REPETITION,
+                minValue = 0.0f,
+                maxValue = 2.0f
+            )
+        )
+}

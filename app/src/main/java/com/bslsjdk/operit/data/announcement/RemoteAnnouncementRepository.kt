@@ -1,1 +1,261 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hbm5vdW5jZW1lbnQKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuQnVpbGRDb25maWcKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlY29kZUZyb21TdHJpbmcKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudAppbXBvcnQgb2todHRwMy5SZXF1ZXN0CmltcG9ydCBqYXZhLmlvLklPRXhjZXB0aW9uCmltcG9ydCBqYXZhLm5ldC5VUkkKaW1wb3J0IGphdmEudGltZS5JbnN0YW50CmltcG9ydCBqYXZhLnRpbWUuT2Zmc2V0RGF0ZVRpbWUKaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgQW5ub3VuY2VtZW50UG9pbnRlcigKICAgIHZhbCBzY2hlbWFWZXJzaW9uOiBJbnQgPSAxLAogICAgdmFsIGxhdGVzdFZlcnNpb246IEludCA9IDAsCiAgICB2YWwgbGF0ZXN0RmlsZTogU3RyaW5nID0gIiIsCiAgICB2YWwgdXBkYXRlZEF0OiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBub3RlczogU3RyaW5nPyA9IG51bGwKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFJlbW90ZUFubm91bmNlbWVudFBheWxvYWQoCiAgICB2YWwgc2NoZW1hVmVyc2lvbjogSW50ID0gMSwKICAgIHZhbCBpZDogU3RyaW5nID0gIiIsCiAgICB2YWwgdmVyc2lvbjogSW50ID0gMCwKICAgIHZhbCBlbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgdHlwZTogU3RyaW5nID0gIm1vZGFsIiwKICAgIHZhbCBwcmlvcml0eTogU3RyaW5nID0gIm5vcm1hbCIsCiAgICB2YWwgY291bnRkb3duU2VjOiBJbnQgPSAwLAogICAgdmFsIHRhcmdldDogQW5ub3VuY2VtZW50VGFyZ2V0ID0gQW5ub3VuY2VtZW50VGFyZ2V0KCksCiAgICB2YWwgc2NoZWR1bGU6IEFubm91bmNlbWVudFNjaGVkdWxlID0gQW5ub3VuY2VtZW50U2NoZWR1bGUoKSwKICAgIHZhbCBjb250ZW50OiBBbm5vdW5jZW1lbnRDb250ZW50ID0gQW5ub3VuY2VtZW50Q29udGVudCgpLAogICAgdmFsIG1ldGE6IEFubm91bmNlbWVudE1ldGEgPSBBbm5vdW5jZW1lbnRNZXRhKCkKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEFubm91bmNlbWVudFRhcmdldCgKICAgIHZhbCBtaW5BcHBWZXJzaW9uQ29kZTogSW50ID0gMCwKICAgIHZhbCBtYXhBcHBWZXJzaW9uQ29kZTogSW50PyA9IG51bGwsCiAgICB2YWwgY2hhbm5lbHM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGxvY2FsZTogU3RyaW5nID0gImFsbCIKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEFubm91bmNlbWVudFNjaGVkdWxlKAogICAgdmFsIHN0YXJ0QXQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGVuZEF0OiBTdHJpbmc/ID0gbnVsbAopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgQW5ub3VuY2VtZW50Q29udGVudCgKICAgIHZhbCBkZWZhdWx0TG9jYWxlOiBTdHJpbmcgPSAiemgtQ04iLAogICAgdmFsIGxvY2FsZXM6IE1hcDxTdHJpbmcsIEFubm91bmNlbWVudExvY2FsZUNvbnRlbnQ+ID0gZW1wdHlNYXAoKQopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgQW5ub3VuY2VtZW50TG9jYWxlQ29udGVudCgKICAgIHZhbCB0aXRsZTogU3RyaW5nID0gIiIsCiAgICB2YWwgYm9keTogU3RyaW5nID0gIiIsCiAgICB2YWwgYWNrbm93bGVkZ2U6IFN0cmluZyA9ICJPSyIKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEFubm91bmNlbWVudE1ldGEoCiAgICB2YWwgdXBkYXRlZEF0OiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBzb3VyY2U6IFN0cmluZz8gPSBudWxsCikKCmRhdGEgY2xhc3MgUmVtb3RlQW5ub3VuY2VtZW50RGlzcGxheSgKICAgIHZhbCBpZDogU3RyaW5nLAogICAgdmFsIHZlcnNpb246IEludCwKICAgIHZhbCB0aXRsZTogU3RyaW5nLAogICAgdmFsIGJvZHk6IFN0cmluZywKICAgIHZhbCBhY2tub3dsZWRnZVRleHQ6IFN0cmluZywKICAgIHZhbCBjb3VudGRvd25TZWM6IEludAopCgpjbGFzcyBSZW1vdGVBbm5vdW5jZW1lbnRSZXBvc2l0b3J5KAogICAgcHJpdmF0ZSB2YWwgcG9pbnRlclVybDogU3RyaW5nID0gREVGQVVMVF9QT0lOVEVSX1VSTAopIHsKICAgIHByaXZhdGUgdmFsIGpzb24gPSBKc29uIHsgaWdub3JlVW5rbm93bktleXMgPSB0cnVlIH0KCiAgICBwcml2YXRlIHZhbCBjbGllbnQ6IE9rSHR0cENsaWVudCA9IE9rSHR0cENsaWVudC5CdWlsZGVyKCkKICAgICAgICAuY29ubmVjdFRpbWVvdXQoOCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAucmVhZFRpbWVvdXQoOCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAud3JpdGVUaW1lb3V0KDgsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgLmJ1aWxkKCkKCiAgICBzdXNwZW5kIGZ1biBmZXRjaERpc3BsYXlhYmxlQW5ub3VuY2VtZW50KGxvY2FsZTogTG9jYWxlID0gTG9jYWxlLmdldERlZmF1bHQoKSk6IFJlbW90ZUFubm91bmNlbWVudERpc3BsYXk/IHsKICAgICAgICByZXR1cm4gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgdmFsIHBvaW50ZXIgPSBmZXRjaFBvaW50ZXIoKQogICAgICAgICAgICAgICAgaWYgKHBvaW50ZXIubGF0ZXN0RmlsZS5pc0JsYW5rKCkpIHJldHVybkBydW5DYXRjaGluZyBudWxsCgogICAgICAgICAgICAgICAgdmFsIHBheWxvYWQgPSBmZXRjaFBheWxvYWQocG9pbnRlci5sYXRlc3RGaWxlKQogICAgICAgICAgICAgICAgdG9EaXNwbGF5KHBheWxvYWQsIGxvY2FsZSkKICAgICAgICAgICAgfS5vbkZhaWx1cmUgeyBlcnJvciAtPgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiZmV0Y2hEaXNwbGF5YWJsZUFubm91bmNlbWVudCBmYWlsZWQiLCBlcnJvcikKICAgICAgICAgICAgfS5nZXRPck51bGwoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBmZXRjaFBvaW50ZXIoKTogQW5ub3VuY2VtZW50UG9pbnRlciB7CiAgICAgICAgdmFsIGJvZHkgPSBmZXRjaFRleHQoYWRkQ2FjaGVCdXN0KHBvaW50ZXJVcmwpKQogICAgICAgIHJldHVybiBqc29uLmRlY29kZUZyb21TdHJpbmcoYm9keSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBmZXRjaFBheWxvYWQobGF0ZXN0RmlsZTogU3RyaW5nKTogUmVtb3RlQW5ub3VuY2VtZW50UGF5bG9hZCB7CiAgICAgICAgdmFsIHJlc29sdmVkID0gcmVzb2x2ZUFubm91bmNlbWVudFVybChsYXRlc3RGaWxlKQogICAgICAgIHZhbCBib2R5ID0gZmV0Y2hUZXh0KGFkZENhY2hlQnVzdChyZXNvbHZlZCkpCiAgICAgICAgcmV0dXJuIGpzb24uZGVjb2RlRnJvbVN0cmluZyhib2R5KQogICAgfQoKICAgIHByaXZhdGUgZnVuIGZldGNoVGV4dCh1cmw6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHJlcXVlc3QgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAudXJsKHVybCkKICAgICAgICAgICAgLmdldCgpCiAgICAgICAgICAgIC5oZWFkZXIoIkNhY2hlLUNvbnRyb2wiLCAibm8tY2FjaGUiKQogICAgICAgICAgICAuYnVpbGQoKQoKICAgICAgICBjbGllbnQubmV3Q2FsbChyZXF1ZXN0KS5leGVjdXRlKCkudXNlIHsgcmVzcG9uc2UgLT4KICAgICAgICAgICAgaWYgKCFyZXNwb25zZS5pc1N1Y2Nlc3NmdWwpIHsKICAgICAgICAgICAgICAgIHRocm93IElPRXhjZXB0aW9uKCJSZXF1ZXN0IGZhaWxlZDogJHtyZXNwb25zZS5jb2RlfSAkdXJsIikKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2UuYm9keT8uc3RyaW5nKCkgPzogdGhyb3cgSU9FeGNlcHRpb24oIkVtcHR5IHJlc3BvbnNlIGJvZHk6ICR1cmwiKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biB0b0Rpc3BsYXkocGF5bG9hZDogUmVtb3RlQW5ub3VuY2VtZW50UGF5bG9hZCwgbG9jYWxlOiBMb2NhbGUpOiBSZW1vdGVBbm5vdW5jZW1lbnREaXNwbGF5PyB7CiAgICAgICAgaWYgKCFwYXlsb2FkLmVuYWJsZWQpIHJldHVybiBudWxsCiAgICAgICAgaWYgKHBheWxvYWQudmVyc2lvbiA8PSAwKSByZXR1cm4gbnVsbAogICAgICAgIGlmICghaXNWZXJzaW9uSW5SYW5nZShwYXlsb2FkLnRhcmdldCkpIHJldHVybiBudWxsCiAgICAgICAgaWYgKCFpc0NoYW5uZWxNYXRjaGVkKHBheWxvYWQudGFyZ2V0LmNoYW5uZWxzKSkgcmV0dXJuIG51bGwKICAgICAgICBpZiAoIWlzTG9jYWxlTWF0Y2hlZChwYXlsb2FkLnRhcmdldC5sb2NhbGUsIGxvY2FsZSkpIHJldHVybiBudWxsCiAgICAgICAgaWYgKCFpc1dpdGhpblNjaGVkdWxlKHBheWxvYWQuc2NoZWR1bGUpKSByZXR1cm4gbnVsbAoKICAgICAgICB2YWwgbG9jYWxpemVkID0gcGlja0xvY2FsaXplZENvbnRlbnQocGF5bG9hZC5jb250ZW50LCBsb2NhbGUpID86IHJldHVybiBudWxsCiAgICAgICAgaWYgKGxvY2FsaXplZC50aXRsZS5pc0JsYW5rKCkgfHwgbG9jYWxpemVkLmJvZHkuaXNCbGFuaygpKSByZXR1cm4gbnVsbAoKICAgICAgICByZXR1cm4gUmVtb3RlQW5ub3VuY2VtZW50RGlzcGxheSgKICAgICAgICAgICAgaWQgPSBwYXlsb2FkLmlkLmlmQmxhbmsgeyAiYW5ub3VuY2VtZW50LSR7cGF5bG9hZC52ZXJzaW9ufSIgfSwKICAgICAgICAgICAgdmVyc2lvbiA9IHBheWxvYWQudmVyc2lvbiwKICAgICAgICAgICAgdGl0bGUgPSBsb2NhbGl6ZWQudGl0bGUsCiAgICAgICAgICAgIGJvZHkgPSBsb2NhbGl6ZWQuYm9keSwKICAgICAgICAgICAgYWNrbm93bGVkZ2VUZXh0ID0gbG9jYWxpemVkLmFja25vd2xlZGdlLmlmQmxhbmsgeyAiT0siIH0sCiAgICAgICAgICAgIGNvdW50ZG93blNlYyA9IHBheWxvYWQuY291bnRkb3duU2VjLmNvZXJjZUluKDAsIDMwKQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc1ZlcnNpb25JblJhbmdlKHRhcmdldDogQW5ub3VuY2VtZW50VGFyZ2V0KTogQm9vbGVhbiB7CiAgICAgICAgdmFsIGFwcFZlcnNpb25Db2RlID0gQnVpbGRDb25maWcuVkVSU0lPTl9DT0RFCiAgICAgICAgdmFsIG1pbk9rID0gYXBwVmVyc2lvbkNvZGUgPj0gdGFyZ2V0Lm1pbkFwcFZlcnNpb25Db2RlCiAgICAgICAgdmFsIG1heE9rID0gdGFyZ2V0Lm1heEFwcFZlcnNpb25Db2RlPy5sZXQgeyBhcHBWZXJzaW9uQ29kZSA8PSBpdCB9ID86IHRydWUKICAgICAgICByZXR1cm4gbWluT2sgJiYgbWF4T2sKICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc0NoYW5uZWxNYXRjaGVkKGNoYW5uZWxzOiBMaXN0PFN0cmluZz4pOiBCb29sZWFuIHsKICAgICAgICBpZiAoY2hhbm5lbHMuaXNFbXB0eSgpKSByZXR1cm4gdHJ1ZQogICAgICAgIHZhbCBhY2NlcHRlZCA9IGN1cnJlbnRDaGFubmVsQWxpYXNlcygpCiAgICAgICAgcmV0dXJuIGNoYW5uZWxzLmFueSB7IGFjY2VwdGVkLmNvbnRhaW5zKGl0LnRyaW0oKS5sb3dlcmNhc2UoTG9jYWxlLlVTKSkgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGN1cnJlbnRDaGFubmVsQWxpYXNlcygpOiBTZXQ8U3RyaW5nPiB7CiAgICAgICAgdmFsIGJ1aWxkVHlwZSA9IEJ1aWxkQ29uZmlnLkJVSUxEX1RZUEUubG93ZXJjYXNlKExvY2FsZS5VUykKICAgICAgICB2YWwgYWxpYXNlcyA9IG11dGFibGVTZXRPZigiYWxsIiwgYnVpbGRUeXBlKQogICAgICAgIHdoZW4gKGJ1aWxkVHlwZSkgewogICAgICAgICAgICAicmVsZWFzZSIgLT4gYWxpYXNlcyArPSAic3RhYmxlIgogICAgICAgICAgICAibmlnaHRseSIgLT4gYWxpYXNlcyArPSAiYmV0YSIKICAgICAgICAgICAgImRlYnVnIiAtPiB7CiAgICAgICAgICAgICAgICBhbGlhc2VzICs9ICJzdGFibGUiCiAgICAgICAgICAgICAgICBhbGlhc2VzICs9ICJiZXRhIgogICAgICAgICAgICAgICAgYWxpYXNlcyArPSAiZGV2IgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBhbGlhc2VzCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaXNMb2NhbGVNYXRjaGVkKHRhcmdldExvY2FsZTogU3RyaW5nLCBsb2NhbGU6IExvY2FsZSk6IEJvb2xlYW4gewogICAgICAgIHZhbCBub3JtYWxpemVkID0gdGFyZ2V0TG9jYWxlLnRyaW0oKS5sb3dlcmNhc2UoTG9jYWxlLlVTKQogICAgICAgIGlmIChub3JtYWxpemVkLmlzQmxhbmsoKSB8fCBub3JtYWxpemVkID09ICJhbGwiKSByZXR1cm4gdHJ1ZQoKICAgICAgICB2YWwgbGFuZ3VhZ2UgPSBsb2NhbGUubGFuZ3VhZ2UubG93ZXJjYXNlKExvY2FsZS5VUykKICAgICAgICB2YWwgZnVsbFRhZyA9IGxvY2FsZS50b0xhbmd1YWdlVGFnKCkubG93ZXJjYXNlKExvY2FsZS5VUykKICAgICAgICByZXR1cm4gbm9ybWFsaXplZCA9PSBsYW5ndWFnZSB8fCBub3JtYWxpemVkID09IGZ1bGxUYWcKICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc1dpdGhpblNjaGVkdWxlKHNjaGVkdWxlOiBBbm5vdW5jZW1lbnRTY2hlZHVsZSk6IEJvb2xlYW4gewogICAgICAgIHZhbCBub3cgPSBJbnN0YW50Lm5vdygpCiAgICAgICAgdmFsIHN0YXJ0ID0gcGFyc2VJbnN0YW50KHNjaGVkdWxlLnN0YXJ0QXQpCiAgICAgICAgdmFsIGVuZCA9IHBhcnNlSW5zdGFudChzY2hlZHVsZS5lbmRBdCkKCiAgICAgICAgaWYgKHN0YXJ0ICE9IG51bGwgJiYgbm93LmlzQmVmb3JlKHN0YXJ0KSkgcmV0dXJuIGZhbHNlCiAgICAgICAgaWYgKGVuZCAhPSBudWxsICYmIG5vdy5pc0FmdGVyKGVuZCkpIHJldHVybiBmYWxzZQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGlja0xvY2FsaXplZENvbnRlbnQoY29udGVudDogQW5ub3VuY2VtZW50Q29udGVudCwgbG9jYWxlOiBMb2NhbGUpOiBBbm5vdW5jZW1lbnRMb2NhbGVDb250ZW50PyB7CiAgICAgICAgaWYgKGNvbnRlbnQubG9jYWxlcy5pc0VtcHR5KCkpIHJldHVybiBudWxsCgogICAgICAgIHZhbCBub3JtYWxpemVkTWFwID0gY29udGVudC5sb2NhbGVzLm1hcEtleXMgeyBpdC5rZXkubm9ybWFsaXplTG9jYWxlS2V5KCkgfQogICAgICAgIHZhbCBmdWxsVGFnID0gbG9jYWxlLnRvTGFuZ3VhZ2VUYWcoKS5ub3JtYWxpemVMb2NhbGVLZXkoKQogICAgICAgIHZhbCBsYW5ndWFnZSA9IGxvY2FsZS5sYW5ndWFnZS5ub3JtYWxpemVMb2NhbGVLZXkoKQogICAgICAgIHZhbCBkZWZhdWx0S2V5ID0gY29udGVudC5kZWZhdWx0TG9jYWxlLm5vcm1hbGl6ZUxvY2FsZUtleSgpCgogICAgICAgIHJldHVybiBub3JtYWxpemVkTWFwW2Z1bGxUYWddCiAgICAgICAgICAgID86IG5vcm1hbGl6ZWRNYXBbbGFuZ3VhZ2VdCiAgICAgICAgICAgID86IG5vcm1hbGl6ZWRNYXBbZGVmYXVsdEtleV0KICAgICAgICAgICAgPzogY29udGVudC5sb2NhbGVzLnZhbHVlcy5maXJzdE9yTnVsbCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VJbnN0YW50KHZhbHVlOiBTdHJpbmc/KTogSW5zdGFudD8gewogICAgICAgIGlmICh2YWx1ZS5pc051bGxPckJsYW5rKCkpIHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsgSW5zdGFudC5wYXJzZSh2YWx1ZSkgfQogICAgICAgICAgICAuZ2V0T3JFbHNlIHsKICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgT2Zmc2V0RGF0ZVRpbWUucGFyc2UodmFsdWUpLnRvSW5zdGFudCgpIH0uZ2V0T3JOdWxsKCkKICAgICAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc29sdmVBbm5vdW5jZW1lbnRVcmwobGF0ZXN0RmlsZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgdHJpbW1lZCA9IGxhdGVzdEZpbGUudHJpbSgpCiAgICAgICAgaWYgKHRyaW1tZWQuc3RhcnRzV2l0aCgiaHR0cDovLyIpIHx8IHRyaW1tZWQuc3RhcnRzV2l0aCgiaHR0cHM6Ly8iKSkgewogICAgICAgICAgICByZXR1cm4gdHJpbW1lZAogICAgICAgIH0KICAgICAgICByZXR1cm4gcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICBVUkkocG9pbnRlclVybCkucmVzb2x2ZSh0cmltbWVkKS50b1N0cmluZygpCiAgICAgICAgfS5nZXRPckVsc2UgewogICAgICAgICAgICB2YWwgYmFzZSA9IFVSSShwb2ludGVyVXJsKQogICAgICAgICAgICB2YWwgb3JpZ2luID0gYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgYXBwZW5kKGJhc2Uuc2NoZW1lKQogICAgICAgICAgICAgICAgYXBwZW5kKCI6Ly8iKQogICAgICAgICAgICAgICAgYXBwZW5kKGJhc2UuaG9zdCkKICAgICAgICAgICAgICAgIGlmIChiYXNlLnBvcnQgIT0gLTEpIHsKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoIjoiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZChiYXNlLnBvcnQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHRyaW1tZWQuc3RhcnRzV2l0aCgiLyIpKSAiJG9yaWdpbiR0cmltbWVkIiBlbHNlICIkb3JpZ2luLyR0cmltbWVkIgogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBhZGRDYWNoZUJ1c3QodXJsOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBzZXBhcmF0b3IgPSBpZiAodXJsLmNvbnRhaW5zKCI/IikpICImIiBlbHNlICI/IgogICAgICAgIHJldHVybiAiJHVybCR7c2VwYXJhdG9yfXRzPSR7U3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCl9IgogICAgfQoKICAgIHByaXZhdGUgZnVuIFN0cmluZy5ub3JtYWxpemVMb2NhbGVLZXkoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdHJpbSgpLnJlcGxhY2UoJ18nLCAnLScpLmxvd2VyY2FzZShMb2NhbGUuVVMpCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlJlbW90ZUFubm91bmNlbWVudFJlcG8iCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfUE9JTlRFUl9VUkwgPSAiaHR0cHM6Ly9vcGVyaXQuYXBwL2Fubm91bmNlbWVudHMvbGF0ZXN0Lmpzb24iCiAgICB9Cn0K
+package com.bslsjdk.operit.data.announcement
+
+import com.bslsjdk.operit.BuildConfig
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.json.Json
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import java.io.IOException
+import java.net.URI
+import java.time.Instant
+import java.time.OffsetDateTime
+import java.util.Locale
+import java.util.concurrent.TimeUnit
+
+@Serializable
+data class AnnouncementPointer(
+    val schemaVersion: Int = 1,
+    val latestVersion: Int = 0,
+    val latestFile: String = "",
+    val updatedAt: String? = null,
+    val notes: String? = null
+)
+
+@Serializable
+data class RemoteAnnouncementPayload(
+    val schemaVersion: Int = 1,
+    val id: String = "",
+    val version: Int = 0,
+    val enabled: Boolean = false,
+    val type: String = "modal",
+    val priority: String = "normal",
+    val countdownSec: Int = 0,
+    val target: AnnouncementTarget = AnnouncementTarget(),
+    val schedule: AnnouncementSchedule = AnnouncementSchedule(),
+    val content: AnnouncementContent = AnnouncementContent(),
+    val meta: AnnouncementMeta = AnnouncementMeta()
+)
+
+@Serializable
+data class AnnouncementTarget(
+    val minAppVersionCode: Int = 0,
+    val maxAppVersionCode: Int? = null,
+    val channels: List<String> = emptyList(),
+    val locale: String = "all"
+)
+
+@Serializable
+data class AnnouncementSchedule(
+    val startAt: String? = null,
+    val endAt: String? = null
+)
+
+@Serializable
+data class AnnouncementContent(
+    val defaultLocale: String = "zh-CN",
+    val locales: Map<String, AnnouncementLocaleContent> = emptyMap()
+)
+
+@Serializable
+data class AnnouncementLocaleContent(
+    val title: String = "",
+    val body: String = "",
+    val acknowledge: String = "OK"
+)
+
+@Serializable
+data class AnnouncementMeta(
+    val updatedAt: String? = null,
+    val source: String? = null
+)
+
+data class RemoteAnnouncementDisplay(
+    val id: String,
+    val version: Int,
+    val title: String,
+    val body: String,
+    val acknowledgeText: String,
+    val countdownSec: Int
+)
+
+class RemoteAnnouncementRepository(
+    private val pointerUrl: String = DEFAULT_POINTER_URL
+) {
+    private val json = Json { ignoreUnknownKeys = true }
+
+    private val client: OkHttpClient = OkHttpClient.Builder()
+        .connectTimeout(8, TimeUnit.SECONDS)
+        .readTimeout(8, TimeUnit.SECONDS)
+        .writeTimeout(8, TimeUnit.SECONDS)
+        .build()
+
+    suspend fun fetchDisplayableAnnouncement(locale: Locale = Locale.getDefault()): RemoteAnnouncementDisplay? {
+        return withContext(Dispatchers.IO) {
+            runCatching {
+                val pointer = fetchPointer()
+                if (pointer.latestFile.isBlank()) return@runCatching null
+
+                val payload = fetchPayload(pointer.latestFile)
+                toDisplay(payload, locale)
+            }.onFailure { error ->
+                AppLogger.w(TAG, "fetchDisplayableAnnouncement failed", error)
+            }.getOrNull()
+        }
+    }
+
+    private fun fetchPointer(): AnnouncementPointer {
+        val body = fetchText(addCacheBust(pointerUrl))
+        return json.decodeFromString(body)
+    }
+
+    private fun fetchPayload(latestFile: String): RemoteAnnouncementPayload {
+        val resolved = resolveAnnouncementUrl(latestFile)
+        val body = fetchText(addCacheBust(resolved))
+        return json.decodeFromString(body)
+    }
+
+    private fun fetchText(url: String): String {
+        val request = Request.Builder()
+            .url(url)
+            .get()
+            .header("Cache-Control", "no-cache")
+            .build()
+
+        client.newCall(request).execute().use { response ->
+            if (!response.isSuccessful) {
+                throw IOException("Request failed: ${response.code} $url")
+            }
+            return response.body?.string() ?: throw IOException("Empty response body: $url")
+        }
+    }
+
+    private fun toDisplay(payload: RemoteAnnouncementPayload, locale: Locale): RemoteAnnouncementDisplay? {
+        if (!payload.enabled) return null
+        if (payload.version <= 0) return null
+        if (!isVersionInRange(payload.target)) return null
+        if (!isChannelMatched(payload.target.channels)) return null
+        if (!isLocaleMatched(payload.target.locale, locale)) return null
+        if (!isWithinSchedule(payload.schedule)) return null
+
+        val localized = pickLocalizedContent(payload.content, locale) ?: return null
+        if (localized.title.isBlank() || localized.body.isBlank()) return null
+
+        return RemoteAnnouncementDisplay(
+            id = payload.id.ifBlank { "announcement-${payload.version}" },
+            version = payload.version,
+            title = localized.title,
+            body = localized.body,
+            acknowledgeText = localized.acknowledge.ifBlank { "OK" },
+            countdownSec = payload.countdownSec.coerceIn(0, 30)
+        )
+    }
+
+    private fun isVersionInRange(target: AnnouncementTarget): Boolean {
+        val appVersionCode = BuildConfig.VERSION_CODE
+        val minOk = appVersionCode >= target.minAppVersionCode
+        val maxOk = target.maxAppVersionCode?.let { appVersionCode <= it } ?: true
+        return minOk && maxOk
+    }
+
+    private fun isChannelMatched(channels: List<String>): Boolean {
+        if (channels.isEmpty()) return true
+        val accepted = currentChannelAliases()
+        return channels.any { accepted.contains(it.trim().lowercase(Locale.US)) }
+    }
+
+    private fun currentChannelAliases(): Set<String> {
+        val buildType = BuildConfig.BUILD_TYPE.lowercase(Locale.US)
+        val aliases = mutableSetOf("all", buildType)
+        when (buildType) {
+            "release" -> aliases += "stable"
+            "nightly" -> aliases += "beta"
+            "debug" -> {
+                aliases += "stable"
+                aliases += "beta"
+                aliases += "dev"
+            }
+        }
+        return aliases
+    }
+
+    private fun isLocaleMatched(targetLocale: String, locale: Locale): Boolean {
+        val normalized = targetLocale.trim().lowercase(Locale.US)
+        if (normalized.isBlank() || normalized == "all") return true
+
+        val language = locale.language.lowercase(Locale.US)
+        val fullTag = locale.toLanguageTag().lowercase(Locale.US)
+        return normalized == language || normalized == fullTag
+    }
+
+    private fun isWithinSchedule(schedule: AnnouncementSchedule): Boolean {
+        val now = Instant.now()
+        val start = parseInstant(schedule.startAt)
+        val end = parseInstant(schedule.endAt)
+
+        if (start != null && now.isBefore(start)) return false
+        if (end != null && now.isAfter(end)) return false
+        return true
+    }
+
+    private fun pickLocalizedContent(content: AnnouncementContent, locale: Locale): AnnouncementLocaleContent? {
+        if (content.locales.isEmpty()) return null
+
+        val normalizedMap = content.locales.mapKeys { it.key.normalizeLocaleKey() }
+        val fullTag = locale.toLanguageTag().normalizeLocaleKey()
+        val language = locale.language.normalizeLocaleKey()
+        val defaultKey = content.defaultLocale.normalizeLocaleKey()
+
+        return normalizedMap[fullTag]
+            ?: normalizedMap[language]
+            ?: normalizedMap[defaultKey]
+            ?: content.locales.values.firstOrNull()
+    }
+
+    private fun parseInstant(value: String?): Instant? {
+        if (value.isNullOrBlank()) return null
+        return runCatching { Instant.parse(value) }
+            .getOrElse {
+                runCatching { OffsetDateTime.parse(value).toInstant() }.getOrNull()
+            }
+    }
+
+    private fun resolveAnnouncementUrl(latestFile: String): String {
+        val trimmed = latestFile.trim()
+        if (trimmed.startsWith("http://") || trimmed.startsWith("https://")) {
+            return trimmed
+        }
+        return runCatching {
+            URI(pointerUrl).resolve(trimmed).toString()
+        }.getOrElse {
+            val base = URI(pointerUrl)
+            val origin = buildString {
+                append(base.scheme)
+                append("://")
+                append(base.host)
+                if (base.port != -1) {
+                    append(":")
+                    append(base.port)
+                }
+            }
+            if (trimmed.startsWith("/")) "$origin$trimmed" else "$origin/$trimmed"
+        }
+    }
+
+    private fun addCacheBust(url: String): String {
+        val separator = if (url.contains("?")) "&" else "?"
+        return "$url${separator}ts=${System.currentTimeMillis()}"
+    }
+
+    private fun String.normalizeLocaleKey(): String {
+        return trim().replace('_', '-').lowercase(Locale.US)
+    }
+
+    companion object {
+        private const val TAG = "RemoteAnnouncementRepo"
+        const val DEFAULT_POINTER_URL = "https://operit.app/announcements/latest.json"
+    }
+}

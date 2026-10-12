@@ -1,1 +1,470 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnBhcnQKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uQ2FudmFzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uY2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uaW5kaWNhdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmludGVyYWN0aW9uLk11dGFibGVJbnRlcmFjdGlvblNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94V2l0aENvbnN0cmFpbnRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhIZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5vZmZzZXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQud2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkNoZWNrCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DbG9zZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuQ29udGVudENvcHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlN1YmRpcmVjdG9yeUFycm93UmlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLnJpcHBsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5nZW9tZXRyeS5PZmZzZXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ2VvbWV0cnkuU2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvckZpbHRlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5kcmF3c2NvcGUuU3Ryb2tlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLmRyYXdzY29wZS50cmFuc2xhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MudmVjdG9yLkltYWdlVmVjdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnZlY3Rvci5yZW1lbWJlclZlY3RvclBhaW50ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxEZW5zaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnNlbWFudGljcy5Sb2xlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnNlbWFudGljcy5jb250ZW50RGVzY3JpcHRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLnJvbGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLnNlbWFudGljcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LkFubm90YXRlZFN0cmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmRyYXdUZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQucmVtZW1iZXJUZXh0TWVhc3VyZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0T3ZlcmZsb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5Db25zdHJhaW50cwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnV0aWwuZmFzdENvZXJjZUF0TGVhc3QKaW1wb3J0IGtvdGxpbi5tYXRoLm1heAoKcHJpdmF0ZSBjb25zdCB2YWwgQ0FOVkFTX1NJTkdMRV9MSU5FX1RFWFRfTElNSVQgPSAxNjAKCkBDb21wb3NhYmxlCmludGVybmFsIGZ1biBDYW52YXNUb29sU3VtbWFyeVJvdygKICAgIHRvb2xOYW1lOiBTdHJpbmcsCiAgICBzdW1tYXJ5OiBTdHJpbmcsCiAgICBzZW1hbnRpY0Rlc2NyaXB0aW9uOiBTdHJpbmcsCiAgICBsZWFkaW5nSWNvbjogSW1hZ2VWZWN0b3IsCiAgICB0aXRsZUNvbG9yOiBDb2xvciwKICAgIHN1bW1hcnlDb2xvcjogQ29sb3IsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIG9uQ2xpY2s6ICgoKSAtPiBVbml0KT8gPSBudWxsLAopIHsKICAgIHZhbCBkZW5zaXR5ID0gTG9jYWxEZW5zaXR5LmN1cnJlbnQKICAgIHZhbCB0ZXh0TWVhc3VyZXIgPSByZW1lbWJlclRleHRNZWFzdXJlcigpCiAgICB2YWwgaWNvblBhaW50ZXIgPSByZW1lbWJlclZlY3RvclBhaW50ZXIobGVhZGluZ0ljb24pCiAgICB2YWwgdGl0bGVTdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbE1lZGl1bS5jb3B5KGNvbG9yID0gdGl0bGVDb2xvcikKICAgIHZhbCBzdW1tYXJ5U3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLmNvcHkoY29sb3IgPSBzdW1tYXJ5Q29sb3IpCiAgICB2YWwgbWVhc3VyZWRTdW1tYXJ5ID0gcmVtZW1iZXIoc3VtbWFyeSkgeyBzdW1tYXJ5LnRvQ2FudmFzU2luZ2xlTGluZVRleHQoKSB9CiAgICB2YWwgaW50ZXJhY3Rpb25Tb3VyY2UgPSByZW1lbWJlciB7IE11dGFibGVJbnRlcmFjdGlvblNvdXJjZSgpIH0KICAgIHZhbCBjbGlja2FibGVNb2RpZmllciA9CiAgICAgICAgaWYgKG9uQ2xpY2sgIT0gbnVsbCkgewogICAgICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAgICAgLnNlbWFudGljcyB7CiAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gc2VtYW50aWNEZXNjcmlwdGlvbgogICAgICAgICAgICAgICAgICAgIHJvbGUgPSBSb2xlLkJ1dHRvbgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLmNsaWNrYWJsZSgKICAgICAgICAgICAgICAgICAgICBpbnRlcmFjdGlvblNvdXJjZSA9IGludGVyYWN0aW9uU291cmNlLAogICAgICAgICAgICAgICAgICAgIGluZGljYXRpb24gPSByaXBwbGUoKSwKICAgICAgICAgICAgICAgICAgICByb2xlID0gUm9sZS5CdXR0b24sCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IG9uQ2xpY2ssCiAgICAgICAgICAgICAgICApCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgTW9kaWZpZXIuc2VtYW50aWNzIHsgY29udGVudERlc2NyaXB0aW9uID0gc2VtYW50aWNEZXNjcmlwdGlvbiB9CiAgICAgICAgfQoKICAgIEJveFdpdGhDb25zdHJhaW50cyhtb2RpZmllciA9IG1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLnRoZW4oY2xpY2thYmxlTW9kaWZpZXIpKSB7CiAgICAgICAgdmFsIHdpZHRoUHggPSB3aXRoKGRlbnNpdHkpIHsgbWF4V2lkdGgucm91bmRUb1B4KCkgfS5mYXN0Q29lcmNlQXRMZWFzdCgxKQogICAgICAgIHZhbCB0b3BQYWRkaW5nUHggPSB3aXRoKGRlbnNpdHkpIHsgNC5kcC5yb3VuZFRvUHgoKSB9CiAgICAgICAgdmFsIGljb25TaXplUHggPSB3aXRoKGRlbnNpdHkpIHsgMTYuZHAucm91bmRUb1B4KCkudG9GbG9hdCgpIH0KICAgICAgICB2YWwgZ2FwMVB4ID0gd2l0aChkZW5zaXR5KSB7IDguZHAucm91bmRUb1B4KCkudG9GbG9hdCgpIH0KICAgICAgICB2YWwgZ2FwMlB4ID0gd2l0aChkZW5zaXR5KSB7IDguZHAucm91bmRUb1B4KCkudG9GbG9hdCgpIH0KICAgICAgICB2YWwgdGl0bGVNaW5XaWR0aFB4ID0gd2l0aChkZW5zaXR5KSB7IDgwLmRwLnJvdW5kVG9QeCgpIH0KICAgICAgICB2YWwgdGl0bGVNYXhXaWR0aFB4ID0gd2l0aChkZW5zaXR5KSB7IDEyMC5kcC5yb3VuZFRvUHgoKSB9CgogICAgICAgIHZhbCB1bmNvbnN0cmFpbmVkVGl0bGVMYXlvdXQgPQogICAgICAgICAgICByZW1lbWJlcih0b29sTmFtZSwgdGl0bGVTdHlsZSwgdGV4dE1lYXN1cmVyKSB7CiAgICAgICAgICAgICAgICB0ZXh0TWVhc3VyZXIubWVhc3VyZSgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gQW5ub3RhdGVkU3RyaW5nKHRvb2xOYW1lKSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IHRpdGxlU3R5bGUsCiAgICAgICAgICAgICAgICAgICAgbWF4TGluZXMgPSAxLAogICAgICAgICAgICAgICAgICAgIG92ZXJmbG93ID0gVGV4dE92ZXJmbG93LkVsbGlwc2lzLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgdmFsIHRpdGxlV2lkdGhQeCA9CiAgICAgICAgICAgIHVuY29uc3RyYWluZWRUaXRsZUxheW91dC5zaXplLndpZHRoCiAgICAgICAgICAgICAgICAuY29lcmNlQXRMZWFzdCh0aXRsZU1pbldpZHRoUHgpCiAgICAgICAgICAgICAgICAuY29lcmNlQXRNb3N0KHRpdGxlTWF4V2lkdGhQeCkKICAgICAgICB2YWwgdGl0bGVMYXlvdXQgPQogICAgICAgICAgICByZW1lbWJlcih0b29sTmFtZSwgdGl0bGVTdHlsZSwgdGV4dE1lYXN1cmVyLCB0aXRsZVdpZHRoUHgpIHsKICAgICAgICAgICAgICAgIHRleHRNZWFzdXJlci5tZWFzdXJlKAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBBbm5vdGF0ZWRTdHJpbmcodG9vbE5hbWUpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gdGl0bGVTdHlsZSwKICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMsCiAgICAgICAgICAgICAgICAgICAgY29uc3RyYWludHMgPSBDb25zdHJhaW50cyhtYXhXaWR0aCA9IHRpdGxlV2lkdGhQeCksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgdmFsIHN1bW1hcnlNYXhXaWR0aCA9CiAgICAgICAgICAgICh3aWR0aFB4IC0gaWNvblNpemVQeC50b0ludCgpIC0gZ2FwMVB4LnRvSW50KCkgLSB0aXRsZVdpZHRoUHggLSBnYXAyUHgudG9JbnQoKSkKICAgICAgICAgICAgICAgIC5mYXN0Q29lcmNlQXRMZWFzdCgwKQogICAgICAgIHZhbCBzdW1tYXJ5TGF5b3V0ID0KICAgICAgICAgICAgcmVtZW1iZXIobWVhc3VyZWRTdW1tYXJ5LCBzdW1tYXJ5U3R5bGUsIHRleHRNZWFzdXJlciwgc3VtbWFyeU1heFdpZHRoKSB7CiAgICAgICAgICAgICAgICB0ZXh0TWVhc3VyZXIubWVhc3VyZSgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gQW5ub3RhdGVkU3RyaW5nKG1lYXN1cmVkU3VtbWFyeSksCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBzdW1tYXJ5U3R5bGUsCiAgICAgICAgICAgICAgICAgICAgbWF4TGluZXMgPSAxLAogICAgICAgICAgICAgICAgICAgIG92ZXJmbG93ID0gVGV4dE92ZXJmbG93LkVsbGlwc2lzLAogICAgICAgICAgICAgICAgICAgIGNvbnN0cmFpbnRzID0gQ29uc3RyYWludHMobWF4V2lkdGggPSBzdW1tYXJ5TWF4V2lkdGgpLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgIHZhbCBjb250ZW50SGVpZ2h0UHggPQogICAgICAgICAgICBtYXgoCiAgICAgICAgICAgICAgICBpY29uU2l6ZVB4LnRvSW50KCksCiAgICAgICAgICAgICAgICBtYXgodGl0bGVMYXlvdXQuc2l6ZS5oZWlnaHQsIHN1bW1hcnlMYXlvdXQuc2l6ZS5oZWlnaHQpLAogICAgICAgICAgICApCiAgICAgICAgdmFsIHRvdGFsSGVpZ2h0UHggPSB0b3BQYWRkaW5nUHggKyBjb250ZW50SGVpZ2h0UHgKCiAgICAgICAgQ2FudmFzKAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLmhlaWdodCh3aXRoKGRlbnNpdHkpIHsgdG90YWxIZWlnaHRQeC50b0RwKCkgfSkKICAgICAgICApIHsKICAgICAgICAgICAgdmFsIGljb25Ub3AgPSB0b3BQYWRkaW5nUHggKyAoY29udGVudEhlaWdodFB4IC0gaWNvblNpemVQeCkgLyAyZgogICAgICAgICAgICB0cmFuc2xhdGUodG9wID0gaWNvblRvcCkgewogICAgICAgICAgICAgICAgd2l0aChpY29uUGFpbnRlcikgewogICAgICAgICAgICAgICAgICAgIGRyYXcoCiAgICAgICAgICAgICAgICAgICAgICAgIHNpemUgPSBTaXplKGljb25TaXplUHgsIGljb25TaXplUHgpLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvckZpbHRlciA9IENvbG9yRmlsdGVyLnRpbnQodGl0bGVDb2xvci5jb3B5KGFscGhhID0gMC43ZikpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHRleHRUb3BCYXNlID0gdG9wUGFkZGluZ1B4LnRvRmxvYXQoKQogICAgICAgICAgICB2YWwgdGl0bGVYID0gaWNvblNpemVQeCArIGdhcDFQeAogICAgICAgICAgICB2YWwgdGl0bGVZID0gdGV4dFRvcEJhc2UgKyAoY29udGVudEhlaWdodFB4IC0gdGl0bGVMYXlvdXQuc2l6ZS5oZWlnaHQpIC8gMmYKICAgICAgICAgICAgZHJhd1RleHQodGl0bGVMYXlvdXQsIHRvcExlZnQgPSBPZmZzZXQodGl0bGVYLCB0aXRsZVkpKQoKICAgICAgICAgICAgdmFsIHN1bW1hcnlYID0gdGl0bGVYICsgdGl0bGVXaWR0aFB4ICsgZ2FwMlB4CiAgICAgICAgICAgIHZhbCBzdW1tYXJ5WSA9IHRleHRUb3BCYXNlICsgKGNvbnRlbnRIZWlnaHRQeCAtIHN1bW1hcnlMYXlvdXQuc2l6ZS5oZWlnaHQpIC8gMmYKICAgICAgICAgICAgZHJhd1RleHQoc3VtbWFyeUxheW91dCwgdG9wTGVmdCA9IE9mZnNldChzdW1tYXJ5WCwgc3VtbWFyeVkpKQogICAgICAgIH0KICAgIH0KfQoKcHJpdmF0ZSBmdW4gU3RyaW5nLnRvQ2FudmFzU2luZ2xlTGluZVRleHQoKTogU3RyaW5nIHsKICAgIHZhbCBub3JtYWxpemVkID0gcmVwbGFjZSgnXHInLCAnICcpLnJlcGxhY2UoJ1xuJywgJyAnKS50cmltKCkKICAgIHJldHVybiBpZiAobm9ybWFsaXplZC5sZW5ndGggPD0gQ0FOVkFTX1NJTkdMRV9MSU5FX1RFWFRfTElNSVQpIHsKICAgICAgICBub3JtYWxpemVkCiAgICB9IGVsc2UgewogICAgICAgIG5vcm1hbGl6ZWQudGFrZShDQU5WQVNfU0lOR0xFX0xJTkVfVEVYVF9MSU1JVCkgKyAiLi4uIgogICAgfQp9CgpAQ29tcG9zYWJsZQppbnRlcm5hbCBmdW4gQ2FudmFzVG9vbFJlc3VsdFJvdygKICAgIHN1bW1hcnk6IFN0cmluZywKICAgIGlzU3VjY2VzczogQm9vbGVhbiwKICAgIHNlbWFudGljRGVzY3JpcHRpb246IFN0cmluZywKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAogICAgZW1waGFzaXplU3VtbWFyeTogQm9vbGVhbiA9IGZhbHNlLAogICAgb25DbGljazogKCgpIC0+IFVuaXQpPyA9IG51bGwsCiAgICBvbkNvcHlDbGljazogKCgpIC0+IFVuaXQpPyA9IG51bGwsCikgewogICAgdmFsIGRlbnNpdHkgPSBMb2NhbERlbnNpdHkuY3VycmVudAogICAgdmFsIHRleHRNZWFzdXJlciA9IHJlbWVtYmVyVGV4dE1lYXN1cmVyKCkKICAgIHZhbCBhcnJvd1BhaW50ZXIgPSByZW1lbWJlclZlY3RvclBhaW50ZXIoSWNvbnMuRGVmYXVsdC5TdWJkaXJlY3RvcnlBcnJvd1JpZ2h0KQogICAgdmFsIHN0YXR1c1BhaW50ZXIgPQogICAgICAgIHJlbWVtYmVyVmVjdG9yUGFpbnRlcigKICAgICAgICAgICAgaWYgKGlzU3VjY2VzcykgewogICAgICAgICAgICAgICAgSWNvbnMuRGVmYXVsdC5DaGVjawogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgSWNvbnMuRGVmYXVsdC5DbG9zZQogICAgICAgICAgICB9CiAgICAgICAgKQogICAgdmFsIGNvcHlQYWludGVyID0gcmVtZW1iZXJWZWN0b3JQYWludGVyKEljb25zLkRlZmF1bHQuQ29udGVudENvcHkpCiAgICB2YWwgc3VtbWFyeUNvbG9yID0KICAgICAgICBpZiAoaXNTdWNjZXNzKSB7CiAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlLmNvcHkoYWxwaGEgPSAwLjhmKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IuY29weShhbHBoYSA9IDAuOGYpCiAgICAgICAgfQogICAgdmFsIHN1bW1hcnlTdHlsZSA9CiAgICAgICAgTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbC5jb3B5KAogICAgICAgICAgICBjb2xvciA9IHN1bW1hcnlDb2xvciwKICAgICAgICApCiAgICB2YWwgbGVhZGluZ1RpbnQgPQogICAgICAgIGlmIChpc1N1Y2Nlc3MpIHsKICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LmNvcHkoYWxwaGEgPSAwLjdmKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IuY29weShhbHBoYSA9IDAuN2YpCiAgICAgICAgfQogICAgdmFsIHN0YXR1c1RpbnQgPQogICAgICAgIGlmIChpc1N1Y2Nlc3MpIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSBlbHNlIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IKICAgIHZhbCBjb3B5VGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeS5jb3B5KGFscGhhID0gMC42ZikKICAgIHZhbCByb3dJbnRlcmFjdGlvblNvdXJjZSA9IHJlbWVtYmVyIHsgTXV0YWJsZUludGVyYWN0aW9uU291cmNlKCkgfQogICAgdmFsIGNvcHlJbnRlcmFjdGlvblNvdXJjZSA9IHJlbWVtYmVyIHsgTXV0YWJsZUludGVyYWN0aW9uU291cmNlKCkgfQogICAgdmFsIHJvd01vZGlmaWVyID0KICAgICAgICBpZiAob25DbGljayAhPSBudWxsKSB7CiAgICAgICAgICAgIE1vZGlmaWVyCiAgICAgICAgICAgICAgICAuc2VtYW50aWNzIHsKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzZW1hbnRpY0Rlc2NyaXB0aW9uCiAgICAgICAgICAgICAgICAgICAgcm9sZSA9IFJvbGUuQnV0dG9uCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAuaW5kaWNhdGlvbihyb3dJbnRlcmFjdGlvblNvdXJjZSwgcmlwcGxlKCkpCiAgICAgICAgICAgICAgICAuY2xpY2thYmxlKAogICAgICAgICAgICAgICAgICAgIGludGVyYWN0aW9uU291cmNlID0gcm93SW50ZXJhY3Rpb25Tb3VyY2UsCiAgICAgICAgICAgICAgICAgICAgaW5kaWNhdGlvbiA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgcm9sZSA9IFJvbGUuQnV0dG9uLAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkNsaWNrLAogICAgICAgICAgICAgICAgKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIE1vZGlmaWVyLnNlbWFudGljcyB7IGNvbnRlbnREZXNjcmlwdGlvbiA9IHNlbWFudGljRGVzY3JpcHRpb24gfQogICAgICAgIH0KCiAgICBCb3hXaXRoQ29uc3RyYWludHMoCiAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICBtb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAudGhlbihyb3dNb2RpZmllcikKICAgICkgewogICAgICAgIHZhbCB3aWR0aFB4ID0gd2l0aChkZW5zaXR5KSB7IG1heFdpZHRoLnJvdW5kVG9QeCgpIH0uZmFzdENvZXJjZUF0TGVhc3QoMSkKICAgICAgICB2YWwgc3RhcnRQYWRkaW5nUHggPSB3aXRoKGRlbnNpdHkpIHsgMjQuZHAucm91bmRUb1B4KCkgfQogICAgICAgIHZhbCBlbmRQYWRkaW5nUHggPSB3aXRoKGRlbnNpdHkpIHsgMTYuZHAucm91bmRUb1B4KCkgfQogICAgICAgIHZhbCB2ZXJ0aWNhbFBhZGRpbmdQeCA9IHdpdGgoZGVuc2l0eSkgeyAyLmRwLnJvdW5kVG9QeCgpIH0KICAgICAgICB2YWwgYXJyb3dTaXplUHggPSB3aXRoKGRlbnNpdHkpIHsgMTguZHAucm91bmRUb1B4KCkudG9GbG9hdCgpIH0KICAgICAgICB2YWwgc3RhdHVzU2l6ZVB4ID0gd2l0aChkZW5zaXR5KSB7IDE0LmRwLnJvdW5kVG9QeCgpLnRvRmxvYXQoKSB9CiAgICAgICAgdmFsIGdhcFB4ID0gd2l0aChkZW5zaXR5KSB7IDguZHAucm91bmRUb1B4KCkudG9GbG9hdCgpIH0KICAgICAgICB2YWwgdHJhaWxpbmdTbG90UHggPSBpZiAob25Db3B5Q2xpY2sgIT0gbnVsbCkgd2l0aChkZW5zaXR5KSB7IDI0LmRwLnJvdW5kVG9QeCgpIH0gZWxzZSAwCiAgICAgICAgdmFsIHRyYWlsaW5nSWNvblB4ID0gd2l0aChkZW5zaXR5KSB7IDE0LmRwLnJvdW5kVG9QeCgpLnRvRmxvYXQoKSB9CgogICAgICAgIHZhbCBzdW1tYXJ5V2lkdGhQeCA9CiAgICAgICAgICAgICh3aWR0aFB4IC0gc3RhcnRQYWRkaW5nUHggLSBlbmRQYWRkaW5nUHggLSBhcnJvd1NpemVQeC50b0ludCgpIC0gZ2FwUHgudG9JbnQoKSAtCiAgICAgICAgICAgICAgICBzdGF0dXNTaXplUHgudG9JbnQoKSAtIGdhcFB4LnRvSW50KCkgLSB0cmFpbGluZ1Nsb3RQeCkKICAgICAgICAgICAgICAgIC5mYXN0Q29lcmNlQXRMZWFzdCgwKQogICAgICAgIHZhbCBzdW1tYXJ5TGF5b3V0ID0KICAgICAgICAgICAgcmVtZW1iZXIoc3VtbWFyeSwgc3VtbWFyeVN0eWxlLCB0ZXh0TWVhc3VyZXIsIHN1bW1hcnlXaWR0aFB4KSB7CiAgICAgICAgICAgICAgICB0ZXh0TWVhc3VyZXIubWVhc3VyZSgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gQW5ub3RhdGVkU3RyaW5nKHN1bW1hcnkpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gc3VtbWFyeVN0eWxlLAogICAgICAgICAgICAgICAgICAgIG1heExpbmVzID0gMSwKICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdyA9IFRleHRPdmVyZmxvdy5FbGxpcHNpcywKICAgICAgICAgICAgICAgICAgICBjb25zdHJhaW50cyA9IENvbnN0cmFpbnRzKG1heFdpZHRoID0gc3VtbWFyeVdpZHRoUHgpLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgIHZhbCBjb250ZW50SGVpZ2h0UHggPQogICAgICAgICAgICBtYXgoCiAgICAgICAgICAgICAgICBtYXgoYXJyb3dTaXplUHgudG9JbnQoKSwgc3RhdHVzU2l6ZVB4LnRvSW50KCkpLAogICAgICAgICAgICAgICAgbWF4KHN1bW1hcnlMYXlvdXQuc2l6ZS5oZWlnaHQsIHRyYWlsaW5nU2xvdFB4KSwKICAgICAgICAgICAgKQogICAgICAgIHZhbCB0b3RhbEhlaWdodFB4ID0gdmVydGljYWxQYWRkaW5nUHggKiAyICsgY29udGVudEhlaWdodFB4CiAgICAgICAgdmFsIHRyYWlsaW5nU3RhcnRQeCA9IHdpZHRoUHggLSBlbmRQYWRkaW5nUHggLSB0cmFpbGluZ1Nsb3RQeAoKICAgICAgICBCb3goCiAgICAgICAgICAgIG1vZGlmaWVyID0KICAgICAgICAgICAgICAgIE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgLmhlaWdodCh3aXRoKGRlbnNpdHkpIHsgdG90YWxIZWlnaHRQeC50b0RwKCkgfSkKICAgICAgICApIHsKICAgICAgICAgICAgQ2FudmFzKG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkuZmlsbE1heEhlaWdodCgpKSB7CiAgICAgICAgICAgICAgICB2YWwgY29udGVudFRvcCA9IHZlcnRpY2FsUGFkZGluZ1B4LnRvRmxvYXQoKQogICAgICAgICAgICAgICAgdmFsIGFycm93VG9wID0gY29udGVudFRvcCArIChjb250ZW50SGVpZ2h0UHggLSBhcnJvd1NpemVQeCkgLyAyZgogICAgICAgICAgICAgICAgdHJhbnNsYXRlKGxlZnQgPSBzdGFydFBhZGRpbmdQeC50b0Zsb2F0KCksIHRvcCA9IGFycm93VG9wKSB7CiAgICAgICAgICAgICAgICAgICAgd2l0aChhcnJvd1BhaW50ZXIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZHJhdygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemUgPSBTaXplKGFycm93U2l6ZVB4LCBhcnJvd1NpemVQeCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvckZpbHRlciA9IENvbG9yRmlsdGVyLnRpbnQobGVhZGluZ1RpbnQpLAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbCBzdGF0dXNMZWZ0ID0gc3RhcnRQYWRkaW5nUHggKyBhcnJvd1NpemVQeCArIGdhcFB4CiAgICAgICAgICAgICAgICB2YWwgc3RhdHVzVG9wID0gY29udGVudFRvcCArIChjb250ZW50SGVpZ2h0UHggLSBzdGF0dXNTaXplUHgpIC8gMmYKICAgICAgICAgICAgICAgIHRyYW5zbGF0ZShsZWZ0ID0gc3RhdHVzTGVmdCwgdG9wID0gc3RhdHVzVG9wKSB7CiAgICAgICAgICAgICAgICAgICAgd2l0aChzdGF0dXNQYWludGVyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRyYXcoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplID0gU2l6ZShzdGF0dXNTaXplUHgsIHN0YXR1c1NpemVQeCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvckZpbHRlciA9IENvbG9yRmlsdGVyLnRpbnQoc3RhdHVzVGludCksCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdmFsIHRleHRYID0gc3RhdHVzTGVmdCArIHN0YXR1c1NpemVQeCArIGdhcFB4CiAgICAgICAgICAgICAgICB2YWwgdGV4dFkgPSBjb250ZW50VG9wICsgKGNvbnRlbnRIZWlnaHRQeCAtIHN1bW1hcnlMYXlvdXQuc2l6ZS5oZWlnaHQpIC8gMmYKICAgICAgICAgICAgICAgIGRyYXdUZXh0KHN1bW1hcnlMYXlvdXQsIHRvcExlZnQgPSBPZmZzZXQodGV4dFgsIHRleHRZKSkKCiAgICAgICAgICAgICAgICBpZiAob25Db3B5Q2xpY2sgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHZhbCBjb3B5TGVmdCA9IHdpZHRoUHggLSBlbmRQYWRkaW5nUHggLSB0cmFpbGluZ1Nsb3RQeCArICh0cmFpbGluZ1Nsb3RQeCAtIHRyYWlsaW5nSWNvblB4KSAvIDJmCiAgICAgICAgICAgICAgICAgICAgdmFsIGNvcHlUb3AgPSBjb250ZW50VG9wICsgKGNvbnRlbnRIZWlnaHRQeCAtIHRyYWlsaW5nSWNvblB4KSAvIDJmCiAgICAgICAgICAgICAgICAgICAgdHJhbnNsYXRlKGxlZnQgPSBjb3B5TGVmdCwgdG9wID0gY29weVRvcCkgewogICAgICAgICAgICAgICAgICAgICAgICB3aXRoKGNvcHlQYWludGVyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkcmF3KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemUgPSBTaXplKHRyYWlsaW5nSWNvblB4LCB0cmFpbGluZ0ljb25QeCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3JGaWx0ZXIgPSBDb2xvckZpbHRlci50aW50KGNvcHlUaW50KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKG9uQ29weUNsaWNrICE9IG51bGwgJiYgdHJhaWxpbmdTbG90UHggPiAwKSB7CiAgICAgICAgICAgICAgICBCb3goCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgLm9mZnNldCh4ID0gd2l0aChkZW5zaXR5KSB7IHRyYWlsaW5nU3RhcnRQeC50b0RwKCkgfSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC53aWR0aCh3aXRoKGRlbnNpdHkpIHsgdHJhaWxpbmdTbG90UHgudG9EcCgpIH0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heEhlaWdodCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc2VtYW50aWNzIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSAiJHNlbWFudGljRGVzY3JpcHRpb24sIGNvcHkiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9sZSA9IFJvbGUuQnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaW5kaWNhdGlvbihjb3B5SW50ZXJhY3Rpb25Tb3VyY2UsIHJpcHBsZShib3VuZGVkID0gZmFsc2UpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNsaWNrYWJsZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnRlcmFjdGlvblNvdXJjZSA9IGNvcHlJbnRlcmFjdGlvblNvdXJjZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbmRpY2F0aW9uID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByb2xlID0gUm9sZS5CdXR0b24sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IG9uQ29weUNsaWNrLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgpAQ29tcG9zYWJsZQppbnRlcm5hbCBmdW4gQ2FudmFzU3RhdHVzQ2FyZCgKICAgIHRleHQ6IFN0cmluZywKICAgIHRleHRDb2xvcjogQ29sb3IsCiAgICBiYWNrZ3JvdW5kQ29sb3I6IENvbG9yLAogICAgYm9yZGVyQ29sb3I6IENvbG9yLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCikgewogICAgdmFsIGRlbnNpdHkgPSBMb2NhbERlbnNpdHkuY3VycmVudAogICAgdmFsIHRleHRNZWFzdXJlciA9IHJlbWVtYmVyVGV4dE1lYXN1cmVyKCkKICAgIHZhbCB0ZXh0U3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLmNvcHkoY29sb3IgPSB0ZXh0Q29sb3IpCgogICAgQm94V2l0aENvbnN0cmFpbnRzKG1vZGlmaWVyID0gbW9kaWZpZXIuZmlsbE1heFdpZHRoKCkpIHsKICAgICAgICB2YWwgd2lkdGhQeCA9IHdpdGgoZGVuc2l0eSkgeyBtYXhXaWR0aC5yb3VuZFRvUHgoKSB9LmZhc3RDb2VyY2VBdExlYXN0KDEpCiAgICAgICAgdmFsIGhvcml6b250YWxQYWRkaW5nUHggPSB3aXRoKGRlbnNpdHkpIHsgMTIuZHAucm91bmRUb1B4KCkgfQogICAgICAgIHZhbCB2ZXJ0aWNhbFBhZGRpbmdQeCA9IHdpdGgoZGVuc2l0eSkgeyAxMi5kcC5yb3VuZFRvUHgoKSB9CiAgICAgICAgdmFsIG91dGVyVmVydGljYWxQeCA9IHdpdGgoZGVuc2l0eSkgeyA0LmRwLnJvdW5kVG9QeCgpIH0KICAgICAgICB2YWwgY29ybmVyUmFkaXVzUHggPSB3aXRoKGRlbnNpdHkpIHsgOC5kcC50b1B4KCkgfQogICAgICAgIHZhbCBib3JkZXJXaWR0aFB4ID0gd2l0aChkZW5zaXR5KSB7IDEuZHAudG9QeCgpIH0KCiAgICAgICAgdmFsIHRleHRMYXlvdXQgPQogICAgICAgICAgICByZW1lbWJlcih0ZXh0LCB0ZXh0U3R5bGUsIHRleHRNZWFzdXJlciwgd2lkdGhQeCwgaG9yaXpvbnRhbFBhZGRpbmdQeCkgewogICAgICAgICAgICAgICAgdGV4dE1lYXN1cmVyLm1lYXN1cmUoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IEFubm90YXRlZFN0cmluZyh0ZXh0KSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IHRleHRTdHlsZSwKICAgICAgICAgICAgICAgICAgICBjb25zdHJhaW50cyA9IENvbnN0cmFpbnRzKG1heFdpZHRoID0gKHdpZHRoUHggLSBob3Jpem9udGFsUGFkZGluZ1B4ICogMikuZmFzdENvZXJjZUF0TGVhc3QoMCkpLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgdmFsIGNhcmRIZWlnaHRQeCA9IHRleHRMYXlvdXQuc2l6ZS5oZWlnaHQgKyB2ZXJ0aWNhbFBhZGRpbmdQeCAqIDIKICAgICAgICB2YWwgdG90YWxIZWlnaHRQeCA9IGNhcmRIZWlnaHRQeCArIG91dGVyVmVydGljYWxQeCAqIDIKCiAgICAgICAgQ2FudmFzKG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkuaGVpZ2h0KHdpdGgoZGVuc2l0eSkgeyB0b3RhbEhlaWdodFB4LnRvRHAoKSB9KSkgewogICAgICAgICAgICB2YWwgY2FyZFRvcCA9IG91dGVyVmVydGljYWxQeC50b0Zsb2F0KCkKICAgICAgICAgICAgZHJhd1JvdW5kUmVjdCgKICAgICAgICAgICAgICAgIGNvbG9yID0gYmFja2dyb3VuZENvbG9yLAogICAgICAgICAgICAgICAgdG9wTGVmdCA9IE9mZnNldCgwZiwgY2FyZFRvcCksCiAgICAgICAgICAgICAgICBzaXplID0gU2l6ZShzaXplLndpZHRoLCBjYXJkSGVpZ2h0UHgudG9GbG9hdCgpKSwKICAgICAgICAgICAgICAgIGNvcm5lclJhZGl1cyA9IGFuZHJvaWR4LmNvbXBvc2UudWkuZ2VvbWV0cnkuQ29ybmVyUmFkaXVzKGNvcm5lclJhZGl1c1B4LCBjb3JuZXJSYWRpdXNQeCksCiAgICAgICAgICAgICkKICAgICAgICAgICAgZHJhd1JvdW5kUmVjdCgKICAgICAgICAgICAgICAgIGNvbG9yID0gYm9yZGVyQ29sb3IsCiAgICAgICAgICAgICAgICB0b3BMZWZ0ID0gT2Zmc2V0KDBmLCBjYXJkVG9wKSwKICAgICAgICAgICAgICAgIHNpemUgPSBTaXplKHNpemUud2lkdGgsIGNhcmRIZWlnaHRQeC50b0Zsb2F0KCkpLAogICAgICAgICAgICAgICAgY29ybmVyUmFkaXVzID0gYW5kcm9pZHguY29tcG9zZS51aS5nZW9tZXRyeS5Db3JuZXJSYWRpdXMoY29ybmVyUmFkaXVzUHgsIGNvcm5lclJhZGl1c1B4KSwKICAgICAgICAgICAgICAgIHN0eWxlID0gU3Ryb2tlKHdpZHRoID0gYm9yZGVyV2lkdGhQeCksCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIGRyYXdUZXh0KAogICAgICAgICAgICAgICAgdGV4dExheW91dCwKICAgICAgICAgICAgICAgIHRvcExlZnQgPSBPZmZzZXQoaG9yaXpvbnRhbFBhZGRpbmdQeC50b0Zsb2F0KCksIGNhcmRUb3AgKyB2ZXJ0aWNhbFBhZGRpbmdQeCksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCkBDb21wb3NhYmxlCmludGVybmFsIGZ1biBDYW52YXNXYXJuaW5nU3RhdHVzUm93KAogICAgc3VtbWFyeVRleHQ6IFN0cmluZywKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAogICAgb25DbGljazogKCgpIC0+IFVuaXQpPyA9IG51bGwsCikgewogICAgdmFsIGRlbnNpdHkgPSBMb2NhbERlbnNpdHkuY3VycmVudAogICAgdmFsIHRleHRNZWFzdXJlciA9IHJlbWVtYmVyVGV4dE1lYXN1cmVyKCkKICAgIHZhbCBiYXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IuY29weShhbHBoYSA9IDAuN2YpCiAgICB2YWwgdGV4dENvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvci5jb3B5KGFscGhhID0gMC45ZikKICAgIHZhbCB0ZXh0U3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLmNvcHkoY29sb3IgPSB0ZXh0Q29sb3IpCiAgICB2YWwgaW50ZXJhY3Rpb25Tb3VyY2UgPSByZW1lbWJlciB7IE11dGFibGVJbnRlcmFjdGlvblNvdXJjZSgpIH0KICAgIHZhbCBjbGlja2FibGVNb2RpZmllciA9CiAgICAgICAgaWYgKG9uQ2xpY2sgIT0gbnVsbCkgewogICAgICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAgICAgLnNlbWFudGljcyB7IHJvbGUgPSBSb2xlLkJ1dHRvbiB9CiAgICAgICAgICAgICAgICAuY2xpY2thYmxlKAogICAgICAgICAgICAgICAgICAgIGludGVyYWN0aW9uU291cmNlID0gaW50ZXJhY3Rpb25Tb3VyY2UsCiAgICAgICAgICAgICAgICAgICAgaW5kaWNhdGlvbiA9IHJpcHBsZSgpLAogICAgICAgICAgICAgICAgICAgIHJvbGUgPSBSb2xlLkJ1dHRvbiwKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25DbGljaywKICAgICAgICAgICAgICAgICkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBNb2RpZmllcgogICAgICAgIH0KCiAgICBCb3hXaXRoQ29uc3RyYWludHMoCiAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICBtb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAudGhlbihjbGlja2FibGVNb2RpZmllcikKICAgICkgewogICAgICAgIHZhbCB3aWR0aFB4ID0gd2l0aChkZW5zaXR5KSB7IG1heFdpZHRoLnJvdW5kVG9QeCgpIH0uZmFzdENvZXJjZUF0TGVhc3QoMSkKICAgICAgICB2YWwgYmFyV2lkdGhQeCA9IHdpdGgoZGVuc2l0eSkgeyAyLmRwLnRvUHgoKSB9CiAgICAgICAgdmFsIGJhckhlaWdodFB4ID0gd2l0aChkZW5zaXR5KSB7IDE2LmRwLnRvUHgoKSB9CiAgICAgICAgdmFsIGdhcFB4ID0gd2l0aChkZW5zaXR5KSB7IDguZHAucm91bmRUb1B4KCkudG9GbG9hdCgpIH0KICAgICAgICB2YWwgdmVydGljYWxQYWRkaW5nUHggPSB3aXRoKGRlbnNpdHkpIHsgNi5kcC5yb3VuZFRvUHgoKSB9CiAgICAgICAgdmFsIGNvcm5lclJhZGl1c1B4ID0gd2l0aChkZW5zaXR5KSB7IDk5OS5kcC50b1B4KCkgfQoKICAgICAgICB2YWwgdGV4dExheW91dCA9CiAgICAgICAgICAgIHJlbWVtYmVyKHN1bW1hcnlUZXh0LCB0ZXh0U3R5bGUsIHRleHRNZWFzdXJlciwgd2lkdGhQeCwgZ2FwUHgsIGJhcldpZHRoUHgpIHsKICAgICAgICAgICAgICAgIHRleHRNZWFzdXJlci5tZWFzdXJlKAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBBbm5vdGF0ZWRTdHJpbmcoc3VtbWFyeVRleHQpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gdGV4dFN0eWxlLAogICAgICAgICAgICAgICAgICAgIG1heExpbmVzID0gMSwKICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdyA9IFRleHRPdmVyZmxvdy5FbGxpcHNpcywKICAgICAgICAgICAgICAgICAgICBjb25zdHJhaW50cyA9CiAgICAgICAgICAgICAgICAgICAgICAgIENvbnN0cmFpbnRzKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4V2lkdGggPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICh3aWR0aFB4IC0gYmFyV2lkdGhQeC50b0ludCgpIC0gZ2FwUHgudG9JbnQoKSkuZmFzdENvZXJjZUF0TGVhc3QoMCkKICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQoKICAgICAgICB2YWwgY29udGVudEhlaWdodFB4ID0gbWF4KGJhckhlaWdodFB4LnRvSW50KCksIHRleHRMYXlvdXQuc2l6ZS5oZWlnaHQpCiAgICAgICAgdmFsIHRvdGFsSGVpZ2h0UHggPSB2ZXJ0aWNhbFBhZGRpbmdQeCAqIDIgKyBjb250ZW50SGVpZ2h0UHgKCiAgICAgICAgQ2FudmFzKG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkuaGVpZ2h0KHdpdGgoZGVuc2l0eSkgeyB0b3RhbEhlaWdodFB4LnRvRHAoKSB9KSkgewogICAgICAgICAgICB2YWwgdG9wID0gdmVydGljYWxQYWRkaW5nUHgudG9GbG9hdCgpCiAgICAgICAgICAgIHZhbCBiYXJUb3AgPSB0b3AgKyAoY29udGVudEhlaWdodFB4IC0gYmFySGVpZ2h0UHgpIC8gMmYKICAgICAgICAgICAgZHJhd1JvdW5kUmVjdCgKICAgICAgICAgICAgICAgIGNvbG9yID0gYmFyQ29sb3IsCiAgICAgICAgICAgICAgICB0b3BMZWZ0ID0gT2Zmc2V0KDBmLCBiYXJUb3ApLAogICAgICAgICAgICAgICAgc2l6ZSA9IFNpemUoYmFyV2lkdGhQeCwgYmFySGVpZ2h0UHgpLAogICAgICAgICAgICAgICAgY29ybmVyUmFkaXVzID0gYW5kcm9pZHguY29tcG9zZS51aS5nZW9tZXRyeS5Db3JuZXJSYWRpdXMoY29ybmVyUmFkaXVzUHgsIGNvcm5lclJhZGl1c1B4KSwKICAgICAgICAgICAgKQoKICAgICAgICAgICAgZHJhd1RleHQoCiAgICAgICAgICAgICAgICB0ZXh0TGF5b3V0LAogICAgICAgICAgICAgICAgdG9wTGVmdCA9IE9mZnNldChiYXJXaWR0aFB4ICsgZ2FwUHgsIHRvcCArIChjb250ZW50SGVpZ2h0UHggLSB0ZXh0TGF5b3V0LnNpemUuaGVpZ2h0KSAvIDJmKSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.components.part
+
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.indication
+import androidx.compose.foundation.interaction.MutableInteractionSource
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.ContentCopy
+import androidx.compose.material.icons.filled.SubdirectoryArrowRight
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ripple
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.drawscope.translate
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.rememberVectorPainter
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.semantics.Role
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.role
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.drawText
+import androidx.compose.ui.text.rememberTextMeasurer
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.util.fastCoerceAtLeast
+import kotlin.math.max
+
+private const val CANVAS_SINGLE_LINE_TEXT_LIMIT = 160
+
+@Composable
+internal fun CanvasToolSummaryRow(
+    toolName: String,
+    summary: String,
+    semanticDescription: String,
+    leadingIcon: ImageVector,
+    titleColor: Color,
+    summaryColor: Color,
+    modifier: Modifier = Modifier,
+    onClick: (() -> Unit)? = null,
+) {
+    val density = LocalDensity.current
+    val textMeasurer = rememberTextMeasurer()
+    val iconPainter = rememberVectorPainter(leadingIcon)
+    val titleStyle = MaterialTheme.typography.labelMedium.copy(color = titleColor)
+    val summaryStyle = MaterialTheme.typography.bodySmall.copy(color = summaryColor)
+    val measuredSummary = remember(summary) { summary.toCanvasSingleLineText() }
+    val interactionSource = remember { MutableInteractionSource() }
+    val clickableModifier =
+        if (onClick != null) {
+            Modifier
+                .semantics {
+                    contentDescription = semanticDescription
+                    role = Role.Button
+                }
+                .clickable(
+                    interactionSource = interactionSource,
+                    indication = ripple(),
+                    role = Role.Button,
+                    onClick = onClick,
+                )
+        } else {
+            Modifier.semantics { contentDescription = semanticDescription }
+        }
+
+    BoxWithConstraints(modifier = modifier.fillMaxWidth().then(clickableModifier)) {
+        val widthPx = with(density) { maxWidth.roundToPx() }.fastCoerceAtLeast(1)
+        val topPaddingPx = with(density) { 4.dp.roundToPx() }
+        val iconSizePx = with(density) { 16.dp.roundToPx().toFloat() }
+        val gap1Px = with(density) { 8.dp.roundToPx().toFloat() }
+        val gap2Px = with(density) { 8.dp.roundToPx().toFloat() }
+        val titleMinWidthPx = with(density) { 80.dp.roundToPx() }
+        val titleMaxWidthPx = with(density) { 120.dp.roundToPx() }
+
+        val unconstrainedTitleLayout =
+            remember(toolName, titleStyle, textMeasurer) {
+                textMeasurer.measure(
+                    text = AnnotatedString(toolName),
+                    style = titleStyle,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                )
+            }
+        val titleWidthPx =
+            unconstrainedTitleLayout.size.width
+                .coerceAtLeast(titleMinWidthPx)
+                .coerceAtMost(titleMaxWidthPx)
+        val titleLayout =
+            remember(toolName, titleStyle, textMeasurer, titleWidthPx) {
+                textMeasurer.measure(
+                    text = AnnotatedString(toolName),
+                    style = titleStyle,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    constraints = Constraints(maxWidth = titleWidthPx),
+                )
+            }
+
+        val summaryMaxWidth =
+            (widthPx - iconSizePx.toInt() - gap1Px.toInt() - titleWidthPx - gap2Px.toInt())
+                .fastCoerceAtLeast(0)
+        val summaryLayout =
+            remember(measuredSummary, summaryStyle, textMeasurer, summaryMaxWidth) {
+                textMeasurer.measure(
+                    text = AnnotatedString(measuredSummary),
+                    style = summaryStyle,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    constraints = Constraints(maxWidth = summaryMaxWidth),
+                )
+            }
+
+        val contentHeightPx =
+            max(
+                iconSizePx.toInt(),
+                max(titleLayout.size.height, summaryLayout.size.height),
+            )
+        val totalHeightPx = topPaddingPx + contentHeightPx
+
+        Canvas(
+            modifier = Modifier.fillMaxWidth().height(with(density) { totalHeightPx.toDp() })
+        ) {
+            val iconTop = topPaddingPx + (contentHeightPx - iconSizePx) / 2f
+            translate(top = iconTop) {
+                with(iconPainter) {
+                    draw(
+                        size = Size(iconSizePx, iconSizePx),
+                        colorFilter = ColorFilter.tint(titleColor.copy(alpha = 0.7f)),
+                    )
+                }
+            }
+
+            val textTopBase = topPaddingPx.toFloat()
+            val titleX = iconSizePx + gap1Px
+            val titleY = textTopBase + (contentHeightPx - titleLayout.size.height) / 2f
+            drawText(titleLayout, topLeft = Offset(titleX, titleY))
+
+            val summaryX = titleX + titleWidthPx + gap2Px
+            val summaryY = textTopBase + (contentHeightPx - summaryLayout.size.height) / 2f
+            drawText(summaryLayout, topLeft = Offset(summaryX, summaryY))
+        }
+    }
+}
+
+private fun String.toCanvasSingleLineText(): String {
+    val normalized = replace('\r', ' ').replace('\n', ' ').trim()
+    return if (normalized.length <= CANVAS_SINGLE_LINE_TEXT_LIMIT) {
+        normalized
+    } else {
+        normalized.take(CANVAS_SINGLE_LINE_TEXT_LIMIT) + "..."
+    }
+}
+
+@Composable
+internal fun CanvasToolResultRow(
+    summary: String,
+    isSuccess: Boolean,
+    semanticDescription: String,
+    modifier: Modifier = Modifier,
+    emphasizeSummary: Boolean = false,
+    onClick: (() -> Unit)? = null,
+    onCopyClick: (() -> Unit)? = null,
+) {
+    val density = LocalDensity.current
+    val textMeasurer = rememberTextMeasurer()
+    val arrowPainter = rememberVectorPainter(Icons.Default.SubdirectoryArrowRight)
+    val statusPainter =
+        rememberVectorPainter(
+            if (isSuccess) {
+                Icons.Default.Check
+            } else {
+                Icons.Default.Close
+            }
+        )
+    val copyPainter = rememberVectorPainter(Icons.Default.ContentCopy)
+    val summaryColor =
+        if (isSuccess) {
+            MaterialTheme.colorScheme.onSurface.copy(alpha = 0.8f)
+        } else {
+            MaterialTheme.colorScheme.error.copy(alpha = 0.8f)
+        }
+    val summaryStyle =
+        MaterialTheme.typography.bodySmall.copy(
+            color = summaryColor,
+        )
+    val leadingTint =
+        if (isSuccess) {
+            MaterialTheme.colorScheme.primary.copy(alpha = 0.7f)
+        } else {
+            MaterialTheme.colorScheme.error.copy(alpha = 0.7f)
+        }
+    val statusTint =
+        if (isSuccess) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error
+    val copyTint = MaterialTheme.colorScheme.primary.copy(alpha = 0.6f)
+    val rowInteractionSource = remember { MutableInteractionSource() }
+    val copyInteractionSource = remember { MutableInteractionSource() }
+    val rowModifier =
+        if (onClick != null) {
+            Modifier
+                .semantics {
+                    contentDescription = semanticDescription
+                    role = Role.Button
+                }
+                .indication(rowInteractionSource, ripple())
+                .clickable(
+                    interactionSource = rowInteractionSource,
+                    indication = null,
+                    role = Role.Button,
+                    onClick = onClick,
+                )
+        } else {
+            Modifier.semantics { contentDescription = semanticDescription }
+        }
+
+    BoxWithConstraints(
+        modifier =
+            modifier
+                .fillMaxWidth()
+                .then(rowModifier)
+    ) {
+        val widthPx = with(density) { maxWidth.roundToPx() }.fastCoerceAtLeast(1)
+        val startPaddingPx = with(density) { 24.dp.roundToPx() }
+        val endPaddingPx = with(density) { 16.dp.roundToPx() }
+        val verticalPaddingPx = with(density) { 2.dp.roundToPx() }
+        val arrowSizePx = with(density) { 18.dp.roundToPx().toFloat() }
+        val statusSizePx = with(density) { 14.dp.roundToPx().toFloat() }
+        val gapPx = with(density) { 8.dp.roundToPx().toFloat() }
+        val trailingSlotPx = if (onCopyClick != null) with(density) { 24.dp.roundToPx() } else 0
+        val trailingIconPx = with(density) { 14.dp.roundToPx().toFloat() }
+
+        val summaryWidthPx =
+            (widthPx - startPaddingPx - endPaddingPx - arrowSizePx.toInt() - gapPx.toInt() -
+                statusSizePx.toInt() - gapPx.toInt() - trailingSlotPx)
+                .fastCoerceAtLeast(0)
+        val summaryLayout =
+            remember(summary, summaryStyle, textMeasurer, summaryWidthPx) {
+                textMeasurer.measure(
+                    text = AnnotatedString(summary),
+                    style = summaryStyle,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    constraints = Constraints(maxWidth = summaryWidthPx),
+                )
+            }
+
+        val contentHeightPx =
+            max(
+                max(arrowSizePx.toInt(), statusSizePx.toInt()),
+                max(summaryLayout.size.height, trailingSlotPx),
+            )
+        val totalHeightPx = verticalPaddingPx * 2 + contentHeightPx
+        val trailingStartPx = widthPx - endPaddingPx - trailingSlotPx
+
+        Box(
+            modifier =
+                Modifier
+                    .fillMaxWidth()
+                    .height(with(density) { totalHeightPx.toDp() })
+        ) {
+            Canvas(modifier = Modifier.fillMaxWidth().fillMaxHeight()) {
+                val contentTop = verticalPaddingPx.toFloat()
+                val arrowTop = contentTop + (contentHeightPx - arrowSizePx) / 2f
+                translate(left = startPaddingPx.toFloat(), top = arrowTop) {
+                    with(arrowPainter) {
+                        draw(
+                            size = Size(arrowSizePx, arrowSizePx),
+                            colorFilter = ColorFilter.tint(leadingTint),
+                        )
+                    }
+                }
+
+                val statusLeft = startPaddingPx + arrowSizePx + gapPx
+                val statusTop = contentTop + (contentHeightPx - statusSizePx) / 2f
+                translate(left = statusLeft, top = statusTop) {
+                    with(statusPainter) {
+                        draw(
+                            size = Size(statusSizePx, statusSizePx),
+                            colorFilter = ColorFilter.tint(statusTint),
+                        )
+                    }
+                }
+
+                val textX = statusLeft + statusSizePx + gapPx
+                val textY = contentTop + (contentHeightPx - summaryLayout.size.height) / 2f
+                drawText(summaryLayout, topLeft = Offset(textX, textY))
+
+                if (onCopyClick != null) {
+                    val copyLeft = widthPx - endPaddingPx - trailingSlotPx + (trailingSlotPx - trailingIconPx) / 2f
+                    val copyTop = contentTop + (contentHeightPx - trailingIconPx) / 2f
+                    translate(left = copyLeft, top = copyTop) {
+                        with(copyPainter) {
+                            draw(
+                                size = Size(trailingIconPx, trailingIconPx),
+                                colorFilter = ColorFilter.tint(copyTint),
+                            )
+                        }
+                    }
+                }
+            }
+
+            if (onCopyClick != null && trailingSlotPx > 0) {
+                Box(
+                    modifier =
+                        Modifier
+                            .offset(x = with(density) { trailingStartPx.toDp() })
+                            .width(with(density) { trailingSlotPx.toDp() })
+                            .fillMaxHeight()
+                            .semantics {
+                                contentDescription = "$semanticDescription, copy"
+                                role = Role.Button
+                            }
+                            .indication(copyInteractionSource, ripple(bounded = false))
+                            .clickable(
+                                interactionSource = copyInteractionSource,
+                                indication = null,
+                                role = Role.Button,
+                                onClick = onCopyClick,
+                            )
+                )
+            }
+        }
+    }
+}
+
+@Composable
+internal fun CanvasStatusCard(
+    text: String,
+    textColor: Color,
+    backgroundColor: Color,
+    borderColor: Color,
+    modifier: Modifier = Modifier,
+) {
+    val density = LocalDensity.current
+    val textMeasurer = rememberTextMeasurer()
+    val textStyle = MaterialTheme.typography.bodySmall.copy(color = textColor)
+
+    BoxWithConstraints(modifier = modifier.fillMaxWidth()) {
+        val widthPx = with(density) { maxWidth.roundToPx() }.fastCoerceAtLeast(1)
+        val horizontalPaddingPx = with(density) { 12.dp.roundToPx() }
+        val verticalPaddingPx = with(density) { 12.dp.roundToPx() }
+        val outerVerticalPx = with(density) { 4.dp.roundToPx() }
+        val cornerRadiusPx = with(density) { 8.dp.toPx() }
+        val borderWidthPx = with(density) { 1.dp.toPx() }
+
+        val textLayout =
+            remember(text, textStyle, textMeasurer, widthPx, horizontalPaddingPx) {
+                textMeasurer.measure(
+                    text = AnnotatedString(text),
+                    style = textStyle,
+                    constraints = Constraints(maxWidth = (widthPx - horizontalPaddingPx * 2).fastCoerceAtLeast(0)),
+                )
+            }
+        val cardHeightPx = textLayout.size.height + verticalPaddingPx * 2
+        val totalHeightPx = cardHeightPx + outerVerticalPx * 2
+
+        Canvas(modifier = Modifier.fillMaxWidth().height(with(density) { totalHeightPx.toDp() })) {
+            val cardTop = outerVerticalPx.toFloat()
+            drawRoundRect(
+                color = backgroundColor,
+                topLeft = Offset(0f, cardTop),
+                size = Size(size.width, cardHeightPx.toFloat()),
+                cornerRadius = androidx.compose.ui.geometry.CornerRadius(cornerRadiusPx, cornerRadiusPx),
+            )
+            drawRoundRect(
+                color = borderColor,
+                topLeft = Offset(0f, cardTop),
+                size = Size(size.width, cardHeightPx.toFloat()),
+                cornerRadius = androidx.compose.ui.geometry.CornerRadius(cornerRadiusPx, cornerRadiusPx),
+                style = Stroke(width = borderWidthPx),
+            )
+
+            drawText(
+                textLayout,
+                topLeft = Offset(horizontalPaddingPx.toFloat(), cardTop + verticalPaddingPx),
+            )
+        }
+    }
+}
+
+@Composable
+internal fun CanvasWarningStatusRow(
+    summaryText: String,
+    modifier: Modifier = Modifier,
+    onClick: (() -> Unit)? = null,
+) {
+    val density = LocalDensity.current
+    val textMeasurer = rememberTextMeasurer()
+    val barColor = MaterialTheme.colorScheme.error.copy(alpha = 0.7f)
+    val textColor = MaterialTheme.colorScheme.error.copy(alpha = 0.9f)
+    val textStyle = MaterialTheme.typography.bodySmall.copy(color = textColor)
+    val interactionSource = remember { MutableInteractionSource() }
+    val clickableModifier =
+        if (onClick != null) {
+            Modifier
+                .semantics { role = Role.Button }
+                .clickable(
+                    interactionSource = interactionSource,
+                    indication = ripple(),
+                    role = Role.Button,
+                    onClick = onClick,
+                )
+        } else {
+            Modifier
+        }
+
+    BoxWithConstraints(
+        modifier =
+            modifier
+                .fillMaxWidth()
+                .then(clickableModifier)
+    ) {
+        val widthPx = with(density) { maxWidth.roundToPx() }.fastCoerceAtLeast(1)
+        val barWidthPx = with(density) { 2.dp.toPx() }
+        val barHeightPx = with(density) { 16.dp.toPx() }
+        val gapPx = with(density) { 8.dp.roundToPx().toFloat() }
+        val verticalPaddingPx = with(density) { 6.dp.roundToPx() }
+        val cornerRadiusPx = with(density) { 999.dp.toPx() }
+
+        val textLayout =
+            remember(summaryText, textStyle, textMeasurer, widthPx, gapPx, barWidthPx) {
+                textMeasurer.measure(
+                    text = AnnotatedString(summaryText),
+                    style = textStyle,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    constraints =
+                        Constraints(
+                            maxWidth =
+                                (widthPx - barWidthPx.toInt() - gapPx.toInt()).fastCoerceAtLeast(0)
+                        ),
+                )
+            }
+
+        val contentHeightPx = max(barHeightPx.toInt(), textLayout.size.height)
+        val totalHeightPx = verticalPaddingPx * 2 + contentHeightPx
+
+        Canvas(modifier = Modifier.fillMaxWidth().height(with(density) { totalHeightPx.toDp() })) {
+            val top = verticalPaddingPx.toFloat()
+            val barTop = top + (contentHeightPx - barHeightPx) / 2f
+            drawRoundRect(
+                color = barColor,
+                topLeft = Offset(0f, barTop),
+                size = Size(barWidthPx, barHeightPx),
+                cornerRadius = androidx.compose.ui.geometry.CornerRadius(cornerRadiusPx, cornerRadiusPx),
+            )
+
+            drawText(
+                textLayout,
+                topLeft = Offset(barWidthPx + gapPx, top + (contentHeightPx - textLayout.size.height) / 2f),
+            )
+        }
+    }
+}

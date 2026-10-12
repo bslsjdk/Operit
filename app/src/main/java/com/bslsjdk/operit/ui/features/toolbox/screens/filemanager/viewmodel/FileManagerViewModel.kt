@@ -1,1 +1,491 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmZpbGVtYW5hZ2VyLnZpZXdtb2RlbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZUxpc3RPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU1hcE9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5BSVRvb2xIYW5kbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5EaXJlY3RvcnlMaXN0aW5nRGF0YQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuRmlsZUluZm9EYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5GaW5kRmlsZXNSZXN1bHREYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BSVRvb2wKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xQYXJhbWV0ZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmZpbGVtYW5hZ2VyLmNvbXBvbmVudHMuRGlzcGxheU1vZGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy50b29sYm94LnNjcmVlbnMuZmlsZW1hbmFnZXIubW9kZWxzLkZpbGVJdGVtCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmZpbGVtYW5hZ2VyLm1vZGVscy5UYWJJdGVtCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKY2xhc3MgRmlsZU1hbmFnZXJWaWV3TW9kZWwocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgOiBWaWV3TW9kZWwoKSB7CiAgICAvLyDot6/lvoTlkozlr7zoiKrnirbmgIEKICAgIHZhciBjdXJyZW50UGF0aCBieSBtdXRhYmxlU3RhdGVPZigiL3NkY2FyZCIpCiAgICAgICAgcHJpdmF0ZSBzZXQKICAgIHZhciBjdXJyZW50RW52aXJvbm1lbnQgYnkgbXV0YWJsZVN0YXRlT2Y8U3RyaW5nPz4obnVsbCkKICAgICAgICBwcml2YXRlIHNldAogICAgdmFyIGZpbGVzID0gbXV0YWJsZVN0YXRlTGlzdE9mPEZpbGVJdGVtPigpCiAgICB2YXIgaXNMb2FkaW5nIGJ5IG11dGFibGVTdGF0ZU9mKGZhbHNlKQogICAgdmFyIGVycm9yIGJ5IG11dGFibGVTdGF0ZU9mPFN0cmluZz8+KG51bGwpCgogICAgLy8g6YCJ5oup54q25oCBCiAgICB2YXIgc2VsZWN0ZWRGaWxlIGJ5IG11dGFibGVTdGF0ZU9mPEZpbGVJdGVtPz4obnVsbCkKICAgIHZhciBzZWxlY3RlZEZpbGVzID0gbXV0YWJsZVN0YXRlTGlzdE9mPEZpbGVJdGVtPigpCiAgICB2YXIgaXNNdWx0aVNlbGVjdE1vZGUgYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCgogICAgLy8g5Ymq6LS05p2/54q25oCBCiAgICB2YXIgY2xpcGJvYXJkRmlsZXMgPSBtdXRhYmxlU3RhdGVMaXN0T2Y8RmlsZUl0ZW0+KCkKICAgIHZhciBpc0N1dE9wZXJhdGlvbiBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgIHZhciBjbGlwYm9hcmRTb3VyY2VQYXRoIGJ5IG11dGFibGVTdGF0ZU9mPFN0cmluZz8+KG51bGwpCgogICAgLy8g5pi+56S654q25oCBCiAgICB2YXIgaXRlbVNpemUgYnkgbXV0YWJsZVN0YXRlT2YoMWYpCiAgICB2YWwgbWluSXRlbVNpemUgPSAwLjVmCiAgICB2YWwgbWF4SXRlbVNpemUgPSAxLjNmCiAgICB2YWwgaXRlbVNpemVTdGVwID0gMC4xZgogICAgdmFyIGRpc3BsYXlNb2RlIGJ5IG11dGFibGVTdGF0ZU9mKERpc3BsYXlNb2RlLlNJTkdMRV9DT0xVTU4pCgogICAgLy8g5rua5Yqo54q25oCBCiAgICB2YWwgc2Nyb2xsUG9zaXRpb25zID0gbXV0YWJsZVN0YXRlTWFwT2Y8U3RyaW5nLCBJbnQ+KCkKICAgIHZhciBwZW5kaW5nU2Nyb2xsUG9zaXRpb24gYnkgbXV0YWJsZVN0YXRlT2Y8UGFpcjxTdHJpbmcsIEludD4/PihudWxsKQoKICAgIC8vIOagh+etvumhteeKtuaAgQogICAgdmFyIHRhYnMgPSBtdXRhYmxlU3RhdGVMaXN0T2YoVGFiSXRlbSgiL3NkY2FyZCIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfbWFuYWdlcl9ob21lKSwgbnVsbCkpCiAgICB2YXIgYWN0aXZlVGFiSW5kZXggYnkgbXV0YWJsZVN0YXRlT2YoMCkKCiAgICAvLyDkuIrkuIvmlofoj5zljZXnirbmgIEKICAgIHZhciBzaG93Qm90dG9tQWN0aW9uTWVudSBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgIHZhciBjb250ZXh0TWVudUZpbGUgYnkgbXV0YWJsZVN0YXRlT2Y8RmlsZUl0ZW0/PihudWxsKQoKICAgIC8vIOWvueivneahhueKtuaAgQogICAgdmFyIHNob3dOZXdGb2xkZXJEaWFsb2cgYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICB2YXIgbmV3Rm9sZGVyTmFtZSBieSBtdXRhYmxlU3RhdGVPZigiIikKICAgIHZhciBzaG93Q29tcHJlc3NEaWFsb2cgYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICB2YXIgY29tcHJlc3NGaWxlTmFtZSBieSBtdXRhYmxlU3RhdGVPZigiIikKCiAgICAvLyDmkJzntKLnirbmgIEKICAgIHZhciBzZWFyY2hRdWVyeSBieSBtdXRhYmxlU3RhdGVPZigiIikKICAgIHZhciBpc1NlYXJjaGluZyBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgIHZhciBzZWFyY2hSZXN1bHRzID0gbXV0YWJsZVN0YXRlTGlzdE9mPEZpbGVJdGVtPigpCiAgICB2YXIgc2hvd1NlYXJjaERpYWxvZyBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgIHZhciBzZWFyY2hEaWFsb2dRdWVyeSBieSBtdXRhYmxlU3RhdGVPZigiIikKICAgIHZhciBzaG93U2VhcmNoUmVzdWx0c0RpYWxvZyBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgIHZhciBpc0Nhc2VTZW5zaXRpdmUgYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICB2YXIgdXNlV2lsZGNhcmQgYnkgbXV0YWJsZVN0YXRlT2YodHJ1ZSkKCiAgICBwcml2YXRlIHZhbCB0b29sSGFuZGxlciBieSBsYXp5IHsgQUlUb29sSGFuZGxlci5nZXRJbnN0YW5jZShjb250ZXh0KSB9CgogICAgcHJpdmF0ZSBmdW4gd2l0aEVudlBhcmFtcyhiYXNlOiBMaXN0PFRvb2xQYXJhbWV0ZXI+LCBlbnZpcm9ubWVudDogU3RyaW5nPyA9IGN1cnJlbnRFbnZpcm9ubWVudCk6IExpc3Q8VG9vbFBhcmFtZXRlcj4gewogICAgICAgIGlmIChlbnZpcm9ubWVudC5pc051bGxPckJsYW5rKCkpIHJldHVybiBiYXNlCiAgICAgICAgcmV0dXJuIGJhc2UgKyBUb29sUGFyYW1ldGVyKCJlbnZpcm9ubWVudCIsIGVudmlyb25tZW50KQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzU2FmRW52KGVudmlyb25tZW50OiBTdHJpbmc/KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGVudmlyb25tZW50Py5zdGFydHNXaXRoKCJyZXBvOiIsIGlnbm9yZUNhc2UgPSB0cnVlKSA9PSB0cnVlCiAgICB9CgogICAgLy8g5Yqg6L295b2T5YmN55uu5b2V5YaF5a65CiAgICBmdW4gbG9hZEN1cnJlbnREaXJlY3RvcnkocGF0aDogU3RyaW5nID0gY3VycmVudFBhdGgsIGVudmlyb25tZW50OiBTdHJpbmc/ID0gY3VycmVudEVudmlyb25tZW50KSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgaXNMb2FkaW5nID0gdHJ1ZQogICAgICAgICAgICBlcnJvciA9IG51bGwKCiAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHZhbCBsaXN0RmlsZXNUb29sID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFJVG9vbCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZSA9ICJsaXN0X2ZpbGVzIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1ldGVycyA9IHdpdGhFbnZQYXJhbXMobGlzdE9mKFRvb2xQYXJhbWV0ZXIoInBhdGgiLCBwYXRoKSksIGVudmlyb25tZW50KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKCJUb29sYm94RmlsZU1hbmFnZXIiLCAiZXhlY3V0ZSBsaXN0X2ZpbGVzIHBhdGg9JHBhdGggZW52PSRlbnZpcm9ubWVudCIpCiAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHRvb2xIYW5kbGVyLmV4ZWN1dGVUb29sKGxpc3RGaWxlc1Rvb2wpCiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIlRvb2xib3hGaWxlTWFuYWdlciIsICJyZXN1bHQgbGlzdF9maWxlcyBzdWNjZXNzPSR7cmVzdWx0LnN1Y2Nlc3N9IGVycm9yPSR7cmVzdWx0LmVycm9yfSIpCiAgICAgICAgICAgICAgICAgICAgaWYgKHJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBkaXJlY3RvcnlMaXN0aW5nID0gcmVzdWx0LnJlc3VsdCBhcyBEaXJlY3RvcnlMaXN0aW5nRGF0YQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZmlsZUxpc3QgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpcmVjdG9yeUxpc3RpbmcuZW50cmllcy5tYXAgeyBlbnRyeSAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBGaWxlSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lID0gZW50cnkubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc0RpcmVjdG9yeSA9IGVudHJ5LmlzRGlyZWN0b3J5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemUgPSBlbnRyeS5zaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhc3RNb2RpZmllZCA9IGVudHJ5Lmxhc3RNb2RpZmllZC50b0xvbmdPck51bGwoKSA/OiAwCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLk1haW4pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbGVzLmNsZWFyKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbGVzLmFkZChGaWxlSXRlbSgiLi4iLCB0cnVlLCAwLCAwKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbGVzLmFkZEFsbChmaWxlTGlzdCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLk1haW4pIHsgZXJyb3IgPSByZXN1bHQuZXJyb3IgPzogIlVua25vd24gZXJyb3IiIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgiRmlsZU1hbmFnZXJWaWV3TW9kZWwiLCAiRXJyb3IgbG9hZGluZyBkaXJlY3RvcnkiLCBlKQogICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLk1haW4pIHsgZXJyb3IgPSAiRXJyb3I6ICR7ZS5tZXNzYWdlfSIgfQogICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5NYWluKSB7IGlzTG9hZGluZyA9IGZhbHNlIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyDlr7zoiKrliLDnm67lvZUKICAgIGZ1biBuYXZpZ2F0ZVRvRGlyZWN0b3J5KGRpcjogRmlsZUl0ZW0pIHsKICAgICAgICBpZiAoZGlyLmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgIC8vIOS/neWtmOW9k+WJjea7muWKqOS9jee9rgogICAgICAgICAgICB2YWwgbmV3UGF0aCA9CiAgICAgICAgICAgICAgICAgICAgaWYgKGRpci5uYW1lID09ICIuLiIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgbmF2aWdhdGVVcCgpCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGJ1aWxkUGF0aChjdXJyZW50UGF0aCwgZGlyLm5hbWUpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g6K6+572u6ZyA6KaB5oGi5aSN55qE5rua5Yqo5L2N572uCiAgICAgICAgICAgIHBlbmRpbmdTY3JvbGxQb3NpdGlvbiA9IG5ld1BhdGggdG8gKHNjcm9sbFBvc2l0aW9uc1tuZXdQYXRoXSA/OiAwKQoKICAgICAgICAgICAgY3VycmVudFBhdGggPSBuZXdQYXRoCiAgICAgICAgICAgIGlmIChhY3RpdmVUYWJJbmRleCA8IHRhYnMuc2l6ZSkgewogICAgICAgICAgICAgICAgdmFsIHVwZGF0ZWRUYWJzID0gdGFicy50b011dGFibGVMaXN0KCkKICAgICAgICAgICAgICAgIHVwZGF0ZWRUYWJzW2FjdGl2ZVRhYkluZGV4XSA9IHVwZGF0ZWRUYWJzW2FjdGl2ZVRhYkluZGV4XS5jb3B5KHBhdGggPSBuZXdQYXRoKQogICAgICAgICAgICAgICAgdGFicy5jbGVhcigpCiAgICAgICAgICAgICAgICB0YWJzLmFkZEFsbCh1cGRhdGVkVGFicykKICAgICAgICAgICAgfQoKICAgICAgICAgICAgbG9hZEN1cnJlbnREaXJlY3RvcnkoKQogICAgICAgIH0KICAgIH0KCiAgICAvLyDlr7zoiKrliLDniLbnm67lvZUKICAgIGZ1biBuYXZpZ2F0ZVVwKCk6IEJvb2xlYW4gewogICAgICAgIGlmIChjdXJyZW50UGF0aCAhPSAiLyIpIHsKICAgICAgICAgICAgdmFsIHBhcmVudFBhdGggPQogICAgICAgICAgICAgICAgICAgIGlmIChjdXJyZW50UGF0aC5jb3VudCB7IGl0ID09ICcvJyB9IDw9IDEpIHsKICAgICAgICAgICAgICAgICAgICAgICAgIi8iCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudFBhdGguc3Vic3RyaW5nQmVmb3JlTGFzdCgiLyIpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g6K6+572u6ZyA6KaB5oGi5aSN55qE5rua5Yqo5L2N572uCiAgICAgICAgICAgIHBlbmRpbmdTY3JvbGxQb3NpdGlvbiA9IHBhcmVudFBhdGggdG8gKHNjcm9sbFBvc2l0aW9uc1twYXJlbnRQYXRoXSA/OiAwKQoKICAgICAgICAgICAgY3VycmVudFBhdGggPSBwYXJlbnRQYXRoCiAgICAgICAgICAgIGlmIChhY3RpdmVUYWJJbmRleCA8IHRhYnMuc2l6ZSkgewogICAgICAgICAgICAgICAgdmFsIHVwZGF0ZWRUYWJzID0gdGFicy50b011dGFibGVMaXN0KCkKICAgICAgICAgICAgICAgIHVwZGF0ZWRUYWJzW2FjdGl2ZVRhYkluZGV4XSA9IHVwZGF0ZWRUYWJzW2FjdGl2ZVRhYkluZGV4XS5jb3B5KHBhdGggPSBwYXJlbnRQYXRoKQogICAgICAgICAgICAgICAgdGFicy5jbGVhcigpCiAgICAgICAgICAgICAgICB0YWJzLmFkZEFsbCh1cGRhdGVkVGFicykKICAgICAgICAgICAgfQoKICAgICAgICAgICAgbG9hZEN1cnJlbnREaXJlY3RvcnkoKQogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICAvLyDnm7TmjqXlr7zoiKrliLDmjIflrprot6/lvoQKICAgIGZ1biBuYXZpZ2F0ZVRvUGF0aChwYXRoOiBTdHJpbmcsIGVudmlyb25tZW50OiBTdHJpbmc/ID0gY3VycmVudEVudmlyb25tZW50KSB7CiAgICAgICAgaWYgKHBhdGguaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIHZhbCBub3JtYWxpemVkUGF0aCA9CiAgICAgICAgICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHBhdGggPT0gIi8iIC0+ICIvIgogICAgICAgICAgICAgICAgICAgICAgICBwYXRoLmVuZHNXaXRoKCIvIikgLT4gcGF0aC5zdWJzdHJpbmcoMCwgcGF0aC5sZW5ndGggLSAxKQogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHBhdGgKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDorr7nva7pnIDopoHmgaLlpI3nmoTmu5rliqjkvY3nva4KICAgICAgICAgICAgcGVuZGluZ1Njcm9sbFBvc2l0aW9uID0gbm9ybWFsaXplZFBhdGggdG8gKHNjcm9sbFBvc2l0aW9uc1tub3JtYWxpemVkUGF0aF0gPzogMCkKCiAgICAgICAgICAgIGN1cnJlbnRFbnZpcm9ubWVudCA9IGVudmlyb25tZW50CiAgICAgICAgICAgIGN1cnJlbnRQYXRoID0gbm9ybWFsaXplZFBhdGgKICAgICAgICAgICAgaWYgKGFjdGl2ZVRhYkluZGV4IDwgdGFicy5zaXplKSB7CiAgICAgICAgICAgICAgICB2YWwgdXBkYXRlZFRhYnMgPSB0YWJzLnRvTXV0YWJsZUxpc3QoKQogICAgICAgICAgICAgICAgdXBkYXRlZFRhYnNbYWN0aXZlVGFiSW5kZXhdID0KICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlZFRhYnNbYWN0aXZlVGFiSW5kZXhdLmNvcHkocGF0aCA9IG5vcm1hbGl6ZWRQYXRoLCBlbnZpcm9ubWVudCA9IGVudmlyb25tZW50KQogICAgICAgICAgICAgICAgdGFicy5jbGVhcigpCiAgICAgICAgICAgICAgICB0YWJzLmFkZEFsbCh1cGRhdGVkVGFicykKICAgICAgICAgICAgfQoKICAgICAgICAgICAgbG9hZEN1cnJlbnREaXJlY3Rvcnkobm9ybWFsaXplZFBhdGgsIGVudmlyb25tZW50KQogICAgICAgIH0KICAgIH0KCiAgICAvLyDmt7vliqDmlrDmoIfnrb4KICAgIGZ1biBhZGRUYWIocGF0aDogU3RyaW5nID0gIi9zZGNhcmQiLCB0aXRsZTogU3RyaW5nID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV9tYW5hZ2VyX25ld190YWIpKSB7CiAgICAgICAgdGFicy5hZGQoVGFiSXRlbShwYXRoLCB0aXRsZSwgbnVsbCkpCiAgICAgICAgYWN0aXZlVGFiSW5kZXggPSB0YWJzLnNpemUgLSAxCiAgICAgICAgY3VycmVudFBhdGggPSBwYXRoCiAgICAgICAgY3VycmVudEVudmlyb25tZW50ID0gbnVsbAogICAgICAgIGxvYWRDdXJyZW50RGlyZWN0b3J5KCkKICAgIH0KCiAgICAvLyDlhbPpl63moIfnrb4KICAgIGZ1biBjbG9zZVRhYihpbmRleDogSW50KSB7CiAgICAgICAgaWYgKHRhYnMuc2l6ZSA+IDEpIHsKICAgICAgICAgICAgdGFicy5yZW1vdmVBdChpbmRleCkKICAgICAgICAgICAgaWYgKGFjdGl2ZVRhYkluZGV4ID49IHRhYnMuc2l6ZSkgewogICAgICAgICAgICAgICAgYWN0aXZlVGFiSW5kZXggPSB0YWJzLnNpemUgLSAxCiAgICAgICAgICAgIH0KICAgICAgICAgICAgY3VycmVudFBhdGggPSB0YWJzW2FjdGl2ZVRhYkluZGV4XS5wYXRoCiAgICAgICAgICAgIGN1cnJlbnRFbnZpcm9ubWVudCA9IHRhYnNbYWN0aXZlVGFiSW5kZXhdLmVudmlyb25tZW50CiAgICAgICAgICAgIGxvYWRDdXJyZW50RGlyZWN0b3J5KCkKICAgICAgICB9CiAgICB9CgogICAgLy8g5YiH5o2i5qCH562+CiAgICBmdW4gc3dpdGNoVGFiKGluZGV4OiBJbnQpIHsKICAgICAgICBpZiAoaW5kZXggPCB0YWJzLnNpemUpIHsKICAgICAgICAgICAgYWN0aXZlVGFiSW5kZXggPSBpbmRleAogICAgICAgICAgICBjdXJyZW50UGF0aCA9IHRhYnNbaW5kZXhdLnBhdGgKICAgICAgICAgICAgY3VycmVudEVudmlyb25tZW50ID0gdGFic1tpbmRleF0uZW52aXJvbm1lbnQKICAgICAgICAgICAgbG9hZEN1cnJlbnREaXJlY3RvcnkoKQogICAgICAgIH0KICAgIH0KCiAgICAvLyDliJvlu7rmlrDmlofku7blpLkKICAgIGZ1biBjcmVhdGVOZXdGb2xkZXIoZm9sZGVyTmFtZTogU3RyaW5nKSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIOWkhOeQhui3r+W+hO+8jOS9v+eUqOe7n+S4gOeahGJ1aWxkUGF0aOaWueazlQogICAgICAgICAgICAgICAgdmFsIGZ1bGxQYXRoID0gYnVpbGRQYXRoKGN1cnJlbnRQYXRoLCBmb2xkZXJOYW1lKQoKICAgICAgICAgICAgICAgIHZhbCBjcmVhdGVGb2xkZXJUb29sID0KICAgICAgICAgICAgICAgICAgICAgICAgQUlUb29sKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWUgPSAibWFrZV9kaXJlY3RvcnkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMgPSB3aXRoRW52UGFyYW1zKGxpc3RPZihUb29sUGFyYW1ldGVyKCJwYXRoIiwgZnVsbFBhdGgpKSkKICAgICAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKCJUb29sYm94RmlsZU1hbmFnZXIiLCAiZXhlY3V0ZSBtYWtlX2RpcmVjdG9yeSBwYXRoPSRmdWxsUGF0aCBlbnY9JGN1cnJlbnRFbnZpcm9ubWVudCIpCiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gdG9vbEhhbmRsZXIuZXhlY3V0ZVRvb2woY3JlYXRlRm9sZGVyVG9vbCkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKCJUb29sYm94RmlsZU1hbmFnZXIiLCAicmVzdWx0IG1ha2VfZGlyZWN0b3J5IHN1Y2Nlc3M9JHtyZXN1bHQuc3VjY2Vzc30gZXJyb3I9JHtyZXN1bHQuZXJyb3J9IikKCiAgICAgICAgICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgICAgICAvLyDliLfmlrDlvZPliY3nm67lvZUKICAgICAgICAgICAgICAgICAgICBsb2FkQ3VycmVudERpcmVjdG9yeSgpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGVycm9yID0gcmVzdWx0LmVycm9yID86ICJVbmtub3duIGVycm9yIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKCJGaWxlTWFuYWdlclZpZXdNb2RlbCIsICJFcnJvciBjcmVhdGluZyBmb2xkZXIiLCBlKQogICAgICAgICAgICAgICAgZXJyb3IgPSAiRXJyb3I6ICR7ZS5tZXNzYWdlfSIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyDmkJzntKLmlofku7YKICAgIGZ1biBzZWFyY2hGaWxlcyhxdWVyeTogU3RyaW5nKSB7CiAgICAgICAgaWYgKHF1ZXJ5LmlzQmxhbmsoKSkgewogICAgICAgICAgICBpc1NlYXJjaGluZyA9IGZhbHNlCiAgICAgICAgICAgIHNlYXJjaFJlc3VsdHMuY2xlYXIoKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIGlzTG9hZGluZyA9IHRydWUKICAgICAgICAgICAgZXJyb3IgPSBudWxsCiAgICAgICAgICAgIGlzU2VhcmNoaW5nID0gdHJ1ZQoKICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5aSE55CG6YCa6YWN56ymCiAgICAgICAgICAgICAgICAgICAgdmFsIHNlYXJjaFBhdHRlcm4gPSBpZiAodXNlV2lsZGNhcmQpICIqJHF1ZXJ5KiIgZWxzZSBxdWVyeQoKICAgICAgICAgICAgICAgICAgICB2YWwgc2VhcmNoVG9vbCA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBSVRvb2woCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWUgPSAiZmluZF9maWxlcyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpdGhFbnZQYXJhbXMobGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigicGF0aCIsIGN1cnJlbnRQYXRoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRvb2xQYXJhbWV0ZXIoInBhdHRlcm4iLCBzZWFyY2hQYXR0ZXJuKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRvb2xQYXJhbWV0ZXIoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJjYXNlX3NlbnNpdGl2ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzQ2FzZVNlbnNpdGl2ZS50b1N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIlRvb2xib3hGaWxlTWFuYWdlciIsICJleGVjdXRlIGZpbmRfZmlsZXMgcGF0aD0kY3VycmVudFBhdGggZW52PSRjdXJyZW50RW52aXJvbm1lbnQgcGF0dGVybj0kc2VhcmNoUGF0dGVybiIpCiAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHRvb2xIYW5kbGVyLmV4ZWN1dGVUb29sKHNlYXJjaFRvb2wpCiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIlRvb2xib3hGaWxlTWFuYWdlciIsICJyZXN1bHQgZmluZF9maWxlcyBzdWNjZXNzPSR7cmVzdWx0LnN1Y2Nlc3N9IGVycm9yPSR7cmVzdWx0LmVycm9yfSIpCiAgICAgICAgICAgICAgICAgICAgaWYgKHJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOS9v+eUqOato+ehrueahEZpbmRGaWxlc1Jlc3VsdERhdGHnsbvlnovop6PmnpDnu5PmnpwKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGZpbmRSZXN1bHQgPSByZXN1bHQucmVzdWx0IGFzIEZpbmRGaWxlc1Jlc3VsdERhdGEKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGZpbGVMaXN0ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaW5kUmVzdWx0LmZpbGVzLm1hcCB7IGZpbGVQYXRoIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOS7juWujOaVtOi3r+W+hOS4reaPkOWPluaWh+S7tuWQjQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgZmlsZU5hbWUgPSBmaWxlUGF0aC5zdWJzdHJpbmdBZnRlckxhc3QoIi8iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDmo4Dmn6XmmK/lkKbkuLrnm67lvZUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGlzRGlyID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgZmlsZUluZm9Ub29sID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBSVRvb2woCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lID0gImZpbGVfaW5mbyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJhbWV0ZXJzID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2l0aEVudlBhcmFtcyhsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwYXRoIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbGVQYXRoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGZpbGVJbmZvUmVzdWx0ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b29sSGFuZGxlci5leGVjdXRlVG9vbChmaWxlSW5mb1Rvb2wpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChmaWxlSW5mb1Jlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgZmlsZUluZm8gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaWxlSW5mb1Jlc3VsdC5yZXN1bHQgYXMgRmlsZUluZm9EYXRhCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaWxlSW5mby5maWxlVHlwZSA9PSAiZGlyZWN0b3J5IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWIm+W7ukZpbGVJdGVt77yM5L+d5a2Y5a6M5pW06Lev5b6ECiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEZpbGVJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWUgPSBmaWxlTmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc0RpcmVjdG9yeSA9IGlzRGlyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemUgPSAwLCAvLyDlpKflsI/kv6Hmga/mmoLml7bkuI3ojrflj5YKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYXN0TW9kaWZpZWQgPSAwLCAvLyDkv67mlLnml7bpl7TmmoLml7bkuI3ojrflj5YKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmdWxsUGF0aCA9IGZpbGVQYXRoIC8vIOS/neWtmOWujOaVtOi3r+W+hAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VhcmNoUmVzdWx0cy5jbGVhcigpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWFyY2hSZXN1bHRzLmFkZEFsbChmaWxlTGlzdCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNob3dTZWFyY2hSZXN1bHRzRGlhbG9nID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSByZXN1bHQuZXJyb3IgPzogY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV9tYW5hZ2VyX3NlYXJjaF9mYWlsZWQpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgiRmlsZU1hbmFnZXJWaWV3TW9kZWwiLCAiRXJyb3Igc2VhcmNoaW5nIGZpbGVzIiwgZSkKICAgICAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5NYWluKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV9tYW5hZ2VyX3NlYXJjaF9lcnJvciwgZS5tZXNzYWdlID86ICJVbmtub3duIikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLk1haW4pIHsgaXNMb2FkaW5nID0gZmFsc2UgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8vIOWvvOiIquWIsOaWh+S7tuaJgOWcqOebruW9lQogICAgZnVuIG5hdmlnYXRlVG9GaWxlRGlyZWN0b3J5KGZpbGVQYXRoOiBTdHJpbmcpIHsKICAgICAgICB2YWwgZGlyZWN0b3J5UGF0aCA9IGZpbGVQYXRoLnN1YnN0cmluZ0JlZm9yZUxhc3QoIi8iKQogICAgICAgIGlmIChkaXJlY3RvcnlQYXRoLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAvLyDorr7nva7pnIDopoHmgaLlpI3nmoTmu5rliqjkvY3nva4KICAgICAgICAgICAgcGVuZGluZ1Njcm9sbFBvc2l0aW9uID0gZGlyZWN0b3J5UGF0aCB0byAoc2Nyb2xsUG9zaXRpb25zW2RpcmVjdG9yeVBhdGhdID86IDApCgogICAgICAgICAgICBjdXJyZW50UGF0aCA9IGRpcmVjdG9yeVBhdGgKICAgICAgICAgICAgaWYgKGFjdGl2ZVRhYkluZGV4IDwgdGFicy5zaXplKSB7CiAgICAgICAgICAgICAgICB2YWwgdXBkYXRlZFRhYnMgPSB0YWJzLnRvTXV0YWJsZUxpc3QoKQogICAgICAgICAgICAgICAgdXBkYXRlZFRhYnNbYWN0aXZlVGFiSW5kZXhdID0gdXBkYXRlZFRhYnNbYWN0aXZlVGFiSW5kZXhdLmNvcHkocGF0aCA9IGRpcmVjdG9yeVBhdGgpCiAgICAgICAgICAgICAgICB0YWJzLmNsZWFyKCkKICAgICAgICAgICAgICAgIHRhYnMuYWRkQWxsKHVwZGF0ZWRUYWJzKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDlhbPpl63mkJzntKLnu5Pmnpzlr7nor53moYYKICAgICAgICAgICAgc2hvd1NlYXJjaFJlc3VsdHNEaWFsb2cgPSBmYWxzZQogICAgICAgICAgICBpc1NlYXJjaGluZyA9IGZhbHNlCgogICAgICAgICAgICBsb2FkQ3VycmVudERpcmVjdG9yeSgpCiAgICAgICAgfQogICAgfQoKICAgIC8vIOWkjeWIti/liarliIcv57KY6LS05pON5L2cCiAgICBmdW4gc2V0Q2xpcGJvYXJkKGZpbGVzOiBMaXN0PEZpbGVJdGVtPiwgaXNDdXQ6IEJvb2xlYW4pIHsKICAgICAgICBjbGlwYm9hcmRGaWxlcy5jbGVhcigpCiAgICAgICAgY2xpcGJvYXJkRmlsZXMuYWRkQWxsKGZpbGVzKQogICAgICAgIGNsaXBib2FyZFNvdXJjZVBhdGggPSBjdXJyZW50UGF0aAogICAgICAgIGlzQ3V0T3BlcmF0aW9uID0gaXNDdXQKICAgIH0KCiAgICAvLyDnspjotLTmlofku7YKICAgIGZ1biBwYXN0ZUZpbGVzKCkgewogICAgICAgIGlmIChjbGlwYm9hcmRGaWxlcy5pc0VtcHR5KCkgfHwgY2xpcGJvYXJkU291cmNlUGF0aCA9PSBudWxsKSByZXR1cm4KCiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGlzTG9hZGluZyA9IHRydWUKICAgICAgICAgICAgICAgIGVycm9yID0gbnVsbAoKICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgY2xpcGJvYXJkRmlsZXMuZm9yRWFjaCB7IGZpbGUgLT4KICAgICAgICAgICAgICAgICAgICAgICAgLy8g5aSE55CG5rqQ6Lev5b6E5ZKM55uu5qCH6Lev5b6E77yM5L2/55So57uf5LiA55qEYnVpbGRQYXRo5pa55rOVCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBmdWxsU291cmNlUGF0aCA9IGJ1aWxkUGF0aChjbGlwYm9hcmRTb3VyY2VQYXRoISEsIGZpbGUubmFtZSkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGZ1bGxUYXJnZXRQYXRoID0gYnVpbGRQYXRoKGN1cnJlbnRQYXRoLCBmaWxlLm5hbWUpCgogICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29weVRvb2wgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFJVG9vbCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWUgPSAiY29weV9maWxlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aXRoRW52UGFyYW1zKGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb29sUGFyYW1ldGVyKCJzb3VyY2UiLCBmdWxsU291cmNlUGF0aCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigiZGVzdGluYXRpb24iLCBmdWxsVGFyZ2V0UGF0aCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJUb29sYm94RmlsZU1hbmFnZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImV4ZWN1dGUgY29weV9maWxlIHNyYz0kZnVsbFNvdXJjZVBhdGggZHN0PSRmdWxsVGFyZ2V0UGF0aCBlbnY9JGN1cnJlbnRFbnZpcm9ubWVudCIKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gdG9vbEhhbmRsZXIuZXhlY3V0ZVRvb2woY29weVRvb2wpCiAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKCJUb29sYm94RmlsZU1hbmFnZXIiLCAicmVzdWx0IGNvcHlfZmlsZSBzdWNjZXNzPSR7cmVzdWx0LnN1Y2Nlc3N9IGVycm9yPSR7cmVzdWx0LmVycm9yfSIpCgogICAgICAgICAgICAgICAgICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0N1dE9wZXJhdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBkZWxldGVUb29sID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFJVG9vbCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZSA9ICJkZWxldGVfZmlsZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpdGhFbnZQYXJhbXMobGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInBhdGgiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmdWxsU291cmNlUGF0aAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9vbEhhbmRsZXIuZXhlY3V0ZVRvb2woZGVsZXRlVG9vbCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLk1haW4pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvciA9IHJlc3VsdC5lcnJvciA/OiAiVW5rbm93biBlcnJvciIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyDliLfmlrDlvZPliY3nm67lvZUKICAgICAgICAgICAgICAgIGxvYWRDdXJyZW50RGlyZWN0b3J5KCkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgiRmlsZU1hbmFnZXJWaWV3TW9kZWwiLCAiRXJyb3IgcGVyZm9ybWluZyBmaWxlIG9wZXJhdGlvbiIsIGUpCiAgICAgICAgICAgICAgICBlcnJvciA9ICJFcnJvcjogJHtlLm1lc3NhZ2V9IgogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgaXNMb2FkaW5nID0gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyDliJ3lp4vljJYKICAgIGluaXQgewogICAgICAgIGxvYWRDdXJyZW50RGlyZWN0b3J5KCkKICAgIH0KCiAgICAvLyDovoXliqnmlrnms5XvvJrmnoTlu7rmraPnoa7nmoTmlofku7bot6/lvoTvvIzpgb/lhY3lh7rnjrAvL+eahOaDheWGtQogICAgcHJpdmF0ZSBmdW4gYnVpbGRQYXRoKHBhcmVudFBhdGg6IFN0cmluZywgY2hpbGROYW1lOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBpZiAocGFyZW50UGF0aCA9PSAiLyIpIHsKICAgICAgICAgICAgIi8kY2hpbGROYW1lIgogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICIkcGFyZW50UGF0aC8kY2hpbGROYW1lIgogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.viewmodel
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateMapOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.DirectoryListingData
+import com.bslsjdk.operit.core.tools.FileInfoData
+import com.bslsjdk.operit.core.tools.FindFilesResultData
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolParameter
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.components.DisplayMode
+import com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.models.FileItem
+import com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.models.TabItem
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+class FileManagerViewModel(private val context: Context) : ViewModel() {
+    // 路径和导航状态
+    var currentPath by mutableStateOf("/sdcard")
+        private set
+    var currentEnvironment by mutableStateOf<String?>(null)
+        private set
+    var files = mutableStateListOf<FileItem>()
+    var isLoading by mutableStateOf(false)
+    var error by mutableStateOf<String?>(null)
+
+    // 选择状态
+    var selectedFile by mutableStateOf<FileItem?>(null)
+    var selectedFiles = mutableStateListOf<FileItem>()
+    var isMultiSelectMode by mutableStateOf(false)
+
+    // 剪贴板状态
+    var clipboardFiles = mutableStateListOf<FileItem>()
+    var isCutOperation by mutableStateOf(false)
+    var clipboardSourcePath by mutableStateOf<String?>(null)
+
+    // 显示状态
+    var itemSize by mutableStateOf(1f)
+    val minItemSize = 0.5f
+    val maxItemSize = 1.3f
+    val itemSizeStep = 0.1f
+    var displayMode by mutableStateOf(DisplayMode.SINGLE_COLUMN)
+
+    // 滚动状态
+    val scrollPositions = mutableStateMapOf<String, Int>()
+    var pendingScrollPosition by mutableStateOf<Pair<String, Int>?>(null)
+
+    // 标签页状态
+    var tabs = mutableStateListOf(TabItem("/sdcard", context.getString(R.string.file_manager_home), null))
+    var activeTabIndex by mutableStateOf(0)
+
+    // 上下文菜单状态
+    var showBottomActionMenu by mutableStateOf(false)
+    var contextMenuFile by mutableStateOf<FileItem?>(null)
+
+    // 对话框状态
+    var showNewFolderDialog by mutableStateOf(false)
+    var newFolderName by mutableStateOf("")
+    var showCompressDialog by mutableStateOf(false)
+    var compressFileName by mutableStateOf("")
+
+    // 搜索状态
+    var searchQuery by mutableStateOf("")
+    var isSearching by mutableStateOf(false)
+    var searchResults = mutableStateListOf<FileItem>()
+    var showSearchDialog by mutableStateOf(false)
+    var searchDialogQuery by mutableStateOf("")
+    var showSearchResultsDialog by mutableStateOf(false)
+    var isCaseSensitive by mutableStateOf(false)
+    var useWildcard by mutableStateOf(true)
+
+    private val toolHandler by lazy { AIToolHandler.getInstance(context) }
+
+    private fun withEnvParams(base: List<ToolParameter>, environment: String? = currentEnvironment): List<ToolParameter> {
+        if (environment.isNullOrBlank()) return base
+        return base + ToolParameter("environment", environment)
+    }
+
+    private fun isSafEnv(environment: String?): Boolean {
+        return environment?.startsWith("repo:", ignoreCase = true) == true
+    }
+
+    // 加载当前目录内容
+    fun loadCurrentDirectory(path: String = currentPath, environment: String? = currentEnvironment) {
+        viewModelScope.launch {
+            isLoading = true
+            error = null
+
+            withContext(Dispatchers.IO) {
+                try {
+                    val listFilesTool =
+                            AITool(
+                                    name = "list_files",
+                                    parameters = withEnvParams(listOf(ToolParameter("path", path)), environment)
+                            )
+                    AppLogger.d("ToolboxFileManager", "execute list_files path=$path env=$environment")
+                    val result = toolHandler.executeTool(listFilesTool)
+                    AppLogger.d("ToolboxFileManager", "result list_files success=${result.success} error=${result.error}")
+                    if (result.success) {
+                        val directoryListing = result.result as DirectoryListingData
+                        val fileList =
+                                directoryListing.entries.map { entry ->
+                                    FileItem(
+                                            name = entry.name,
+                                            isDirectory = entry.isDirectory,
+                                            size = entry.size,
+                                            lastModified = entry.lastModified.toLongOrNull() ?: 0
+                                    )
+                                }
+                        withContext(Dispatchers.Main) {
+                            files.clear()
+                            files.add(FileItem("..", true, 0, 0))
+                            files.addAll(fileList)
+                        }
+                    } else {
+                        withContext(Dispatchers.Main) { error = result.error ?: "Unknown error" }
+                    }
+                } catch (e: Exception) {
+                    AppLogger.e("FileManagerViewModel", "Error loading directory", e)
+                    withContext(Dispatchers.Main) { error = "Error: ${e.message}" }
+                } finally {
+                    withContext(Dispatchers.Main) { isLoading = false }
+                }
+            }
+        }
+    }
+
+    // 导航到目录
+    fun navigateToDirectory(dir: FileItem) {
+        if (dir.isDirectory) {
+            // 保存当前滚动位置
+            val newPath =
+                    if (dir.name == "..") {
+                        navigateUp()
+                        return
+                    } else {
+                        buildPath(currentPath, dir.name)
+                    }
+
+            // 设置需要恢复的滚动位置
+            pendingScrollPosition = newPath to (scrollPositions[newPath] ?: 0)
+
+            currentPath = newPath
+            if (activeTabIndex < tabs.size) {
+                val updatedTabs = tabs.toMutableList()
+                updatedTabs[activeTabIndex] = updatedTabs[activeTabIndex].copy(path = newPath)
+                tabs.clear()
+                tabs.addAll(updatedTabs)
+            }
+
+            loadCurrentDirectory()
+        }
+    }
+
+    // 导航到父目录
+    fun navigateUp(): Boolean {
+        if (currentPath != "/") {
+            val parentPath =
+                    if (currentPath.count { it == '/' } <= 1) {
+                        "/"
+                    } else {
+                        currentPath.substringBeforeLast("/")
+                    }
+
+            // 设置需要恢复的滚动位置
+            pendingScrollPosition = parentPath to (scrollPositions[parentPath] ?: 0)
+
+            currentPath = parentPath
+            if (activeTabIndex < tabs.size) {
+                val updatedTabs = tabs.toMutableList()
+                updatedTabs[activeTabIndex] = updatedTabs[activeTabIndex].copy(path = parentPath)
+                tabs.clear()
+                tabs.addAll(updatedTabs)
+            }
+
+            loadCurrentDirectory()
+            return true
+        }
+        return false
+    }
+
+    // 直接导航到指定路径
+    fun navigateToPath(path: String, environment: String? = currentEnvironment) {
+        if (path.isNotEmpty()) {
+            val normalizedPath =
+                    when {
+                        path == "/" -> "/"
+                        path.endsWith("/") -> path.substring(0, path.length - 1)
+                        else -> path
+                    }
+
+            // 设置需要恢复的滚动位置
+            pendingScrollPosition = normalizedPath to (scrollPositions[normalizedPath] ?: 0)
+
+            currentEnvironment = environment
+            currentPath = normalizedPath
+            if (activeTabIndex < tabs.size) {
+                val updatedTabs = tabs.toMutableList()
+                updatedTabs[activeTabIndex] =
+                        updatedTabs[activeTabIndex].copy(path = normalizedPath, environment = environment)
+                tabs.clear()
+                tabs.addAll(updatedTabs)
+            }
+
+            loadCurrentDirectory(normalizedPath, environment)
+        }
+    }
+
+    // 添加新标签
+    fun addTab(path: String = "/sdcard", title: String = context.getString(R.string.file_manager_new_tab)) {
+        tabs.add(TabItem(path, title, null))
+        activeTabIndex = tabs.size - 1
+        currentPath = path
+        currentEnvironment = null
+        loadCurrentDirectory()
+    }
+
+    // 关闭标签
+    fun closeTab(index: Int) {
+        if (tabs.size > 1) {
+            tabs.removeAt(index)
+            if (activeTabIndex >= tabs.size) {
+                activeTabIndex = tabs.size - 1
+            }
+            currentPath = tabs[activeTabIndex].path
+            currentEnvironment = tabs[activeTabIndex].environment
+            loadCurrentDirectory()
+        }
+    }
+
+    // 切换标签
+    fun switchTab(index: Int) {
+        if (index < tabs.size) {
+            activeTabIndex = index
+            currentPath = tabs[index].path
+            currentEnvironment = tabs[index].environment
+            loadCurrentDirectory()
+        }
+    }
+
+    // 创建新文件夹
+    fun createNewFolder(folderName: String) {
+        viewModelScope.launch {
+            try {
+                // 处理路径，使用统一的buildPath方法
+                val fullPath = buildPath(currentPath, folderName)
+
+                val createFolderTool =
+                        AITool(
+                                name = "make_directory",
+                                parameters = withEnvParams(listOf(ToolParameter("path", fullPath)))
+                        )
+
+                AppLogger.d("ToolboxFileManager", "execute make_directory path=$fullPath env=$currentEnvironment")
+                val result = toolHandler.executeTool(createFolderTool)
+                AppLogger.d("ToolboxFileManager", "result make_directory success=${result.success} error=${result.error}")
+
+                if (result.success) {
+                    // 刷新当前目录
+                    loadCurrentDirectory()
+                } else {
+                    error = result.error ?: "Unknown error"
+                }
+            } catch (e: Exception) {
+                AppLogger.e("FileManagerViewModel", "Error creating folder", e)
+                error = "Error: ${e.message}"
+            }
+        }
+    }
+
+    // 搜索文件
+    fun searchFiles(query: String) {
+        if (query.isBlank()) {
+            isSearching = false
+            searchResults.clear()
+            return
+        }
+
+        viewModelScope.launch {
+            isLoading = true
+            error = null
+            isSearching = true
+
+            withContext(Dispatchers.IO) {
+                try {
+                    // 处理通配符
+                    val searchPattern = if (useWildcard) "*$query*" else query
+
+                    val searchTool =
+                            AITool(
+                                    name = "find_files",
+                                    parameters =
+                                            withEnvParams(listOf(
+                                                    ToolParameter("path", currentPath),
+                                                    ToolParameter("pattern", searchPattern),
+                                                    ToolParameter(
+                                                            "case_sensitive",
+                                                            isCaseSensitive.toString()
+                                                    )
+                                            ))
+                            )
+
+                    AppLogger.d("ToolboxFileManager", "execute find_files path=$currentPath env=$currentEnvironment pattern=$searchPattern")
+                    val result = toolHandler.executeTool(searchTool)
+                    AppLogger.d("ToolboxFileManager", "result find_files success=${result.success} error=${result.error}")
+                    if (result.success) {
+                        // 使用正确的FindFilesResultData类型解析结果
+                        val findResult = result.result as FindFilesResultData
+                        val fileList =
+                                findResult.files.map { filePath ->
+                                    // 从完整路径中提取文件名
+                                    val fileName = filePath.substringAfterLast("/")
+                                    // 检查是否为目录
+                                    val isDir =
+                                            try {
+                                                val fileInfoTool =
+                                                        AITool(
+                                                                name = "file_info",
+                                                                parameters =
+                                                                        withEnvParams(listOf(
+                                                                                ToolParameter(
+                                                                                        "path",
+                                                                                        filePath
+                                                                                )
+                                                                        ))
+                                                        )
+                                                val fileInfoResult =
+                                                        toolHandler.executeTool(fileInfoTool)
+                                                if (fileInfoResult.success) {
+                                                    val fileInfo =
+                                                            fileInfoResult.result as FileInfoData
+                                                    fileInfo.fileType == "directory"
+                                                } else {
+                                                    false
+                                                }
+                                            } catch (e: Exception) {
+                                                false
+                                            }
+
+                                    // 创建FileItem，保存完整路径
+                                    FileItem(
+                                            name = fileName,
+                                            isDirectory = isDir,
+                                            size = 0, // 大小信息暂时不获取
+                                            lastModified = 0, // 修改时间暂时不获取
+                                            fullPath = filePath // 保存完整路径
+                                    )
+                                }
+
+                        withContext(Dispatchers.Main) {
+                            searchResults.clear()
+                            searchResults.addAll(fileList)
+                            showSearchResultsDialog = true
+                        }
+                    } else {
+                        withContext(Dispatchers.Main) {
+                            error = result.error ?: context.getString(R.string.file_manager_search_failed)
+                        }
+                    }
+                } catch (e: Exception) {
+                    AppLogger.e("FileManagerViewModel", "Error searching files", e)
+                    withContext(Dispatchers.Main) {
+                        error = context.getString(R.string.file_manager_search_error, e.message ?: "Unknown")
+                    }
+                } finally {
+                    withContext(Dispatchers.Main) { isLoading = false }
+                }
+            }
+        }
+    }
+
+    // 导航到文件所在目录
+    fun navigateToFileDirectory(filePath: String) {
+        val directoryPath = filePath.substringBeforeLast("/")
+        if (directoryPath.isNotEmpty()) {
+            // 设置需要恢复的滚动位置
+            pendingScrollPosition = directoryPath to (scrollPositions[directoryPath] ?: 0)
+
+            currentPath = directoryPath
+            if (activeTabIndex < tabs.size) {
+                val updatedTabs = tabs.toMutableList()
+                updatedTabs[activeTabIndex] = updatedTabs[activeTabIndex].copy(path = directoryPath)
+                tabs.clear()
+                tabs.addAll(updatedTabs)
+            }
+
+            // 关闭搜索结果对话框
+            showSearchResultsDialog = false
+            isSearching = false
+
+            loadCurrentDirectory()
+        }
+    }
+
+    // 复制/剪切/粘贴操作
+    fun setClipboard(files: List<FileItem>, isCut: Boolean) {
+        clipboardFiles.clear()
+        clipboardFiles.addAll(files)
+        clipboardSourcePath = currentPath
+        isCutOperation = isCut
+    }
+
+    // 粘贴文件
+    fun pasteFiles() {
+        if (clipboardFiles.isEmpty() || clipboardSourcePath == null) return
+
+        viewModelScope.launch {
+            try {
+                isLoading = true
+                error = null
+
+                withContext(Dispatchers.IO) {
+                    clipboardFiles.forEach { file ->
+                        // 处理源路径和目标路径，使用统一的buildPath方法
+                        val fullSourcePath = buildPath(clipboardSourcePath!!, file.name)
+                        val fullTargetPath = buildPath(currentPath, file.name)
+
+                        val copyTool =
+                                AITool(
+                                        name = "copy_file",
+                                        parameters =
+                                                withEnvParams(listOf(
+                                                        ToolParameter("source", fullSourcePath),
+                                                        ToolParameter("destination", fullTargetPath)
+                                                ))
+                                )
+
+                        AppLogger.d(
+                            "ToolboxFileManager",
+                            "execute copy_file src=$fullSourcePath dst=$fullTargetPath env=$currentEnvironment"
+                        )
+                        val result = toolHandler.executeTool(copyTool)
+                        AppLogger.d("ToolboxFileManager", "result copy_file success=${result.success} error=${result.error}")
+
+                        if (result.success) {
+                            if (isCutOperation) {
+                                val deleteTool =
+                                        AITool(
+                                                name = "delete_file",
+                                                parameters =
+                                                        withEnvParams(listOf(
+                                                                ToolParameter(
+                                                                        "path",
+                                                                        fullSourcePath
+                                                                )
+                                                        ))
+                                        )
+                                toolHandler.executeTool(deleteTool)
+                            }
+                        } else {
+                            withContext(Dispatchers.Main) {
+                                error = result.error ?: "Unknown error"
+                            }
+                        }
+                    }
+                }
+
+                // 刷新当前目录
+                loadCurrentDirectory()
+            } catch (e: Exception) {
+                AppLogger.e("FileManagerViewModel", "Error performing file operation", e)
+                error = "Error: ${e.message}"
+            } finally {
+                isLoading = false
+            }
+        }
+    }
+
+    // 初始化
+    init {
+        loadCurrentDirectory()
+    }
+
+    // 辅助方法：构建正确的文件路径，避免出现//的情况
+    private fun buildPath(parentPath: String, childName: String): String {
+        return if (parentPath == "/") {
+            "/$childName"
+        } else {
+            "$parentPath/$childName"
+        }
+    }
+}

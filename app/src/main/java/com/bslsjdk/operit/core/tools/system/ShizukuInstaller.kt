@@ -1,1 +1,297 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLlBhY2thZ2VJbmZvCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucG0uUGFja2FnZU1hbmFnZXIKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBhbmRyb2lkeC5jb3JlLmNvbnRlbnQuRmlsZVByb3ZpZGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkZpbGVPdXRwdXRTdHJlYW0KaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb24KCi8qKgogKiDnlKjkuo7nrqHnkIblhoXnva5TaGl6dWt15bqU55So55qE5a6J6KOFCiAqLwpjbGFzcyBTaGl6dWt1SW5zdGFsbGVyIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJTaGl6dWt1SW5zdGFsbGVyIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFNISVpVS1VfQVBLX0ZJTEVOQU1FID0gInNoaXp1a3UuYXBrIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFNISVpVS1VfUEFDS0FHRV9OQU1FID0gIm1vZS5zaGl6dWt1LnByaXZpbGVnZWQuYXBpIgogICAgICAgIAogICAgICAgIC8vIOe8k+WtmOeJiOacrOS/oeaBr++8jOmBv+WFjemHjeWkjeiuoeeulwogICAgICAgIHByaXZhdGUgdmFyIGNhY2hlZEluc3RhbGxlZFZlcnNpb246IFN0cmluZz8gPSBudWxsCiAgICAgICAgcHJpdmF0ZSB2YXIgY2FjaGVkQnVuZGxlZFZlcnNpb246IFN0cmluZz8gPSBudWxsCiAgICAgICAgcHJpdmF0ZSB2YXIgY2FjaGVkVXBkYXRlTmVlZGVkOiBCb29sZWFuPyA9IG51bGwKICAgICAgICBwcml2YXRlIHZhciBsYXN0Q2hlY2tUaW1lOiBMb25nID0gMAogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIENBQ0hFX0VYUElSRV9USU1FID0gNjAgKiAxMDAwIC8vIOe8k+WtmOacieaViOacnzHliIbpkp8KICAgICAgICAKICAgICAgICAvKioKICAgICAgICAgKiDku45hc3NldHPnm67lvZXlpI3liLZTaGl6dWt1IEFQS+WIsOW6lOeUqOengeacieebruW9lQogICAgICAgICAqIEBwYXJhbSBjb250ZXh0IEFuZHJvaWTkuIrkuIvmlocKICAgICAgICAgKiBAcmV0dXJuIOi/lOWbnuebruagh0FQS+aWh+S7tuWvueixoe+8jOWmguaenOWksei0peWImei/lOWbnm51bGwKICAgICAgICAgKi8KICAgICAgICBmdW4gZXh0cmFjdEFwa0Zyb21Bc3NldHMoY29udGV4dDogQ29udGV4dCk6IEZpbGU/IHsKICAgICAgICAgICAgdmFsIGFwa0ZpbGUgPSBGaWxlKGNvbnRleHQuY2FjaGVEaXIsIFNISVpVS1VfQVBLX0ZJTEVOQU1FKQogICAgICAgICAgICAKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGNvbnRleHQuYXNzZXRzLm9wZW4oU0hJWlVLVV9BUEtfRklMRU5BTUUpLnVzZSB7IGlucHV0U3RyZWFtIC0+CiAgICAgICAgICAgICAgICAgICAgRmlsZU91dHB1dFN0cmVhbShhcGtGaWxlKS51c2UgeyBvdXRwdXRTdHJlYW0gLT4KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGJ1ZmZlciA9IEJ5dGVBcnJheSg0ICogMTAyNCkKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHJlYWQ6IEludAogICAgICAgICAgICAgICAgICAgICAgICB3aGlsZSAoaW5wdXRTdHJlYW0ucmVhZChidWZmZXIpLmFsc28geyByZWFkID0gaXQgfSAhPSAtMSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0U3RyZWFtLndyaXRlKGJ1ZmZlciwgMCwgcmVhZCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBvdXRwdXRTdHJlYW0uZmx1c2goKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybiBhcGtGaWxlCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IElPRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gZXh0cmFjdCBTaGl6dWt1IEFQSyBmcm9tIGFzc2V0cyIsIGUpCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8qKgogICAgICAgICAqIOajgOafpeW6lOeUqOengeacieebruW9leS4reaYr+WQpuWtmOWcqOaPkOWPlueahEFQS+aWh+S7tgogICAgICAgICAqIEBwYXJhbSBjb250ZXh0IEFuZHJvaWTkuIrkuIvmlocKICAgICAgICAgKiBAcmV0dXJuIOaYr+WQpuWtmOWcqEFQS+aWh+S7tgogICAgICAgICAqLwogICAgICAgIGZ1biBpc0Fwa0V4dHJhY3RlZChjb250ZXh0OiBDb250ZXh0KTogQm9vbGVhbiB7CiAgICAgICAgICAgIHZhbCBhcGtGaWxlID0gRmlsZShjb250ZXh0LmNhY2hlRGlyLCBTSElaVUtVX0FQS19GSUxFTkFNRSkKICAgICAgICAgICAgcmV0dXJuIGFwa0ZpbGUuZXhpc3RzKCkgJiYgYXBrRmlsZS5sZW5ndGgoKSA+IDAKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLyoqCiAgICAgICAgICog5a6J6KOF5oiW5pu05paw5YaF572u55qEU2hpenVrdSBBUEsKICAgICAgICAgKiBAcGFyYW0gY29udGV4dCBBbmRyb2lk5LiK5LiL5paHCiAgICAgICAgICogQHJldHVybiDmmK/lkKbmiJDlip/lkK/liqjlronoo4XnlYzpnaIKICAgICAgICAgKi8KICAgICAgICBmdW4gaW5zdGFsbEJ1bmRsZWRTaGl6dWt1KGNvbnRleHQ6IENvbnRleHQpOiBCb29sZWFuIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIOiusOW9leaYr+Wuieijhei/mOaYr+abtOaWsAogICAgICAgICAgICAgICAgdmFsIGlzVXBkYXRlID0gU2hpenVrdUF1dGhvcml6ZXIuaXNTaGl6dWt1SW5zdGFsbGVkKGNvbnRleHQpCiAgICAgICAgICAgICAgICB2YWwgYWN0aW9uID0gaWYgKGlzVXBkYXRlKSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGl6dWt1X2luc3RhbGxfdXBkYXRlKSBlbHNlIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoaXp1a3VfaW5zdGFsbF9pbnN0YWxsKQoKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuW8gOWniyR7YWN0aW9ufeWGhee9rlNoaXp1a3UiKQoKICAgICAgICAgICAgICAgIC8vIOS7jmFzc2V0c+ebruW9leaPkOWPlkFQSwogICAgICAgICAgICAgICAgdmFsIGFwa0ZpbGUgPSBleHRyYWN0QXBrRnJvbUFzc2V0cyhjb250ZXh0KQogICAgICAgICAgICAgICAgaWYgKGFwa0ZpbGUgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuaPkOWPlkFQS+Wksei0pSIpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQVBL5o+Q5Y+W5oiQ5YqfOiAke2Fwa0ZpbGUuYWJzb2x1dGVQYXRofSwg5aSn5bCPOiAke2Fwa0ZpbGUubGVuZ3RoKCl9IOWtl+iKgiIpCgogICAgICAgICAgICAgICAgLy8g55Sf5oiQQVBL55qEVVJJ77yM6ICD6JmR5paH5Lu25o+Q5L6b6ICF5p2D6ZmQCiAgICAgICAgICAgICAgICB2YWwgYXBrVXJpID0gaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk4pIHsKICAgICAgICAgICAgICAgICAgICBGaWxlUHJvdmlkZXIuZ2V0VXJpRm9yRmlsZSgKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCwKICAgICAgICAgICAgICAgICAgICAgICAgIiR7Y29udGV4dC5wYWNrYWdlTmFtZX0uZmlsZXByb3ZpZGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgYXBrRmlsZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgVXJpLmZyb21GaWxlKGFwa0ZpbGUpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi55Sf5oiQQVBLIFVSSTogJGFwa1VyaSIpCgogICAgICAgICAgICAgICAgLy8g5Yib5bu65a6J6KOF5oSP5Zu+CiAgICAgICAgICAgICAgICB2YWwgaW5zdGFsbEludGVudCA9IEludGVudChJbnRlbnQuQUNUSU9OX1ZJRVcpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICBzZXREYXRhQW5kVHlwZShhcGtVcmksICJhcHBsaWNhdGlvbi92bmQuYW5kcm9pZC5wYWNrYWdlLWFyY2hpdmUiKQogICAgICAgICAgICAgICAgICAgIGZsYWdzID0gSW50ZW50LkZMQUdfQUNUSVZJVFlfTkVXX1RBU0sKICAgICAgICAgICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTikgewogICAgICAgICAgICAgICAgICAgICAgICBhZGRGbGFncyhJbnRlbnQuRkxBR19HUkFOVF9SRUFEX1VSSV9QRVJNSVNTSU9OKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlkK/liqgke2FjdGlvbn3nlYzpnaIiKQoKICAgICAgICAgICAgICAgIC8vIOWQr+WKqOWuieijheeVjOmdogogICAgICAgICAgICAgICAgY29udGV4dC5zdGFydEFjdGl2aXR5KGluc3RhbGxJbnRlbnQpCgogICAgICAgICAgICAgICAgLy8g5riF6Zmk57yT5a2Y77yM5by65Yi25LiL5qyh5qOA5rWL6YeN5paw6K6h566XCiAgICAgICAgICAgICAgICBjbGVhckNhY2hlKCkKCiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBpbnN0YWxsIGJ1bmRsZWQgU2hpenVrdSIsIGUpCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvKioKICAgICAgICAgKiDojrflj5blhoXnva5TaGl6dWt1IEFQS+eJiOacrOS/oeaBrwogICAgICAgICAqIEBwYXJhbSBjb250ZXh0IEFuZHJvaWTkuIrkuIvmlocKICAgICAgICAgKiBAcmV0dXJuIOWGhee9rkFQS+eahOeJiOacrOWQjeensO+8jOWmguaenOaXoOazleiOt+WPluWImei/lOWbniLmnKrnn6UiCiAgICAgICAgICovCiAgICAgICAgZnVuIGdldEJ1bmRsZWRTaGl6dWt1VmVyc2lvbihjb250ZXh0OiBDb250ZXh0KTogU3RyaW5nIHsKICAgICAgICAgICAgLy8g5LyY5YWI5L2/55So57yT5a2YCiAgICAgICAgICAgIGlmIChjYWNoZWRCdW5kbGVkVmVyc2lvbiAhPSBudWxsICYmICFpc0NhY2hlRXhwaXJlZCgpKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuaShUQUcsICLku47nvJPlrZjojrflj5blhoXnva5TaGl6dWt154mI5pysOiAkY2FjaGVkQnVuZGxlZFZlcnNpb24iKQogICAgICAgICAgICAgICAgcmV0dXJuIGNhY2hlZEJ1bmRsZWRWZXJzaW9uISEKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIOS7jmFzc2V0c+ivu+WPlueJiOacrOS/oeaBr+aWh+S7tgogICAgICAgICAgICAgICAgdmFsIHZlcnNpb25JbmZvID0gY29udGV4dC5hc3NldHMub3Blbigic2hpenVrdV92ZXJzaW9uLnR4dCIpLnVzZSB7IGlucHV0U3RyZWFtIC0+CiAgICAgICAgICAgICAgICAgICAgaW5wdXRTdHJlYW0uYnVmZmVyZWRSZWFkZXIoKS5yZWFkVGV4dCgpLnRyaW0oKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmkoVEFHLCAi6I635Y+W5YaF572uU2hpenVrdeeJiOacrDogJHZlcnNpb25JbmZvIikKICAgICAgICAgICAgICAgIGNhY2hlZEJ1bmRsZWRWZXJzaW9uID0gdmVyc2lvbkluZm8KICAgICAgICAgICAgICAgIHJldHVybiB2ZXJzaW9uSW5mbwogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuiOt+WPluWGhee9rlNoaXp1a3XniYjmnKzlpLHotKUiLCBlKQogICAgICAgICAgICAgICAgdmFsIHVua25vd24gPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGl6dWt1X2luc3RhbGxfdW5rbm93bikKICAgICAgICAgICAgICAgIGNhY2hlZEJ1bmRsZWRWZXJzaW9uID0gdW5rbm93bgogICAgICAgICAgICAgICAgcmV0dXJuIHVua25vd24KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvKioKICAgICAgICAgKiDojrflj5blt7Llronoo4XnmoRTaGl6dWt154mI5pysCiAgICAgICAgICogQHBhcmFtIGNvbnRleHQgQW5kcm9pZOS4iuS4i+aWhwogICAgICAgICAqIEByZXR1cm4g5bey5a6J6KOF55qEU2hpenVrdeeJiOacrOWQjeensO+8jOWmguaenOacquWuieijheWImei/lOWbnm51bGwKICAgICAgICAgKi8KICAgICAgICBmdW4gZ2V0SW5zdGFsbGVkU2hpenVrdVZlcnNpb24oY29udGV4dDogQ29udGV4dCk6IFN0cmluZz8gewogICAgICAgICAgICAvLyDkvJjlhYjkvb/nlKjnvJPlrZgKICAgICAgICAgICAgaWYgKGNhY2hlZEluc3RhbGxlZFZlcnNpb24gIT0gbnVsbCAmJiAhaXNDYWNoZUV4cGlyZWQoKSkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmkoVEFHLCAi5LuO57yT5a2Y6I635Y+W5bey5a6J6KOFU2hpenVrdeeJiOacrDogJGNhY2hlZEluc3RhbGxlZFZlcnNpb24iKQogICAgICAgICAgICAgICAgcmV0dXJuIGNhY2hlZEluc3RhbGxlZFZlcnNpb24KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBwYWNrYWdlTWFuYWdlciA9IGNvbnRleHQucGFja2FnZU1hbmFnZXIKICAgICAgICAgICAgICAgIHZhbCBwYWNrYWdlSW5mbzogUGFja2FnZUluZm8gPSBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuVElSQU1JU1UpIHsKICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTWFuYWdlci5nZXRQYWNrYWdlSW5mbyhTSElaVUtVX1BBQ0tBR0VfTkFNRSwgUGFja2FnZU1hbmFnZXIuUGFja2FnZUluZm9GbGFncy5vZigwKSkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgQFN1cHByZXNzKCJERVBSRUNBVElPTiIpCiAgICAgICAgICAgICAgICAgICAgcGFja2FnZU1hbmFnZXIuZ2V0UGFja2FnZUluZm8oU0hJWlVLVV9QQUNLQUdFX05BTUUsIDApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgdmVyc2lvbk5hbWUgPSBwYWNrYWdlSW5mby52ZXJzaW9uTmFtZQogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmkoVEFHLCAi6I635Y+W5bey5a6J6KOFU2hpenVrdeeJiOacrDogJHZlcnNpb25OYW1lIikKICAgICAgICAgICAgICAgIGNhY2hlZEluc3RhbGxlZFZlcnNpb24gPSB2ZXJzaW9uTmFtZQogICAgICAgICAgICAgICAgcmV0dXJuIHZlcnNpb25OYW1lCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IFBhY2thZ2VNYW5hZ2VyLk5hbWVOb3RGb3VuZEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgLy8g5pyq5a6J6KOFU2hpenVrdQogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmkoVEFHLCAi5pyq5qOA5rWL5Yiw5bey5a6J6KOF55qEU2hpenVrdSIpCiAgICAgICAgICAgICAgICBjYWNoZWRJbnN0YWxsZWRWZXJzaW9uID0gbnVsbAogICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLojrflj5blt7Llronoo4VTaGl6dWt154mI5pys5Ye66ZSZIiwgZSkKICAgICAgICAgICAgICAgIGNhY2hlZEluc3RhbGxlZFZlcnNpb24gPSBudWxsCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8qKgogICAgICAgICAqIOajgOafpeaYr+WQpumcgOimgeabtOaWsFNoaXp1a3UKICAgICAgICAgKiBAcGFyYW0gY29udGV4dCBBbmRyb2lk5LiK5LiL5paHCiAgICAgICAgICogQHJldHVybiDlpoLmnpzpnIDopoHmm7TmlrDov5Tlm550cnVl77yM5ZCm5YiZ6L+U5ZueZmFsc2UKICAgICAgICAgKi8KICAgICAgICBmdW4gaXNTaGl6dWt1VXBkYXRlTmVlZGVkKGNvbnRleHQ6IENvbnRleHQpOiBCb29sZWFuIHsKICAgICAgICAgICAgLy8g5LyY5YWI5L2/55So57yT5a2YCiAgICAgICAgICAgIGlmIChjYWNoZWRVcGRhdGVOZWVkZWQgIT0gbnVsbCAmJiAhaXNDYWNoZUV4cGlyZWQoKSkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5LuO57yT5a2Y6I635Y+WU2hpenVrdeabtOaWsOeKtuaAgTogJGNhY2hlZFVwZGF0ZU5lZWRlZCIpCiAgICAgICAgICAgICAgICByZXR1cm4gY2FjaGVkVXBkYXRlTmVlZGVkISEKICAgICAgICAgICAgfQoKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5byA5aeL5qOA5p+lU2hpenVrdeaYr+WQpumcgOimgeabtOaWsC4uLiIpCgogICAgICAgICAgICB2YWwgaW5zdGFsbGVkVmVyc2lvbiA9IGdldEluc3RhbGxlZFNoaXp1a3VWZXJzaW9uKGNvbnRleHQpCiAgICAgICAgICAgIGlmIChpbnN0YWxsZWRWZXJzaW9uID09IG51bGwpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuacquWuieijhVNoaXp1a3XvvIzkuI3pnIDopoHmm7TmlrAiKQogICAgICAgICAgICAgICAgY2FjaGVkVXBkYXRlTmVlZGVkID0gZmFsc2UKICAgICAgICAgICAgICAgIHVwZGF0ZUNhY2hlVGltZXN0YW1wKCkKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgYnVuZGxlZFZlcnNpb24gPSBnZXRCdW5kbGVkU2hpenVrdVZlcnNpb24oY29udGV4dCkKICAgICAgICAgICAgdmFsIHVua25vd24gPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGl6dWt1X2luc3RhbGxfdW5rbm93bikKICAgICAgICAgICAgaWYgKGJ1bmRsZWRWZXJzaW9uID09IHVua25vd24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuaXoOazleiOt+WPluWGhee9rueJiOacrOS/oeaBr++8jOS4jeW7uuiuruabtOaWsCIpCiAgICAgICAgICAgICAgICBjYWNoZWRVcGRhdGVOZWVkZWQgPSBmYWxzZQogICAgICAgICAgICAgICAgdXBkYXRlQ2FjaGVUaW1lc3RhbXAoKQogICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAvLyDmj5Dlj5bkuLvniYjmnKzlj7fpg6jliIYgKOS+i+WmgiAiMTMuNS4wLnIxMjM0IiAtPiAiMTMuNS4wIikKICAgICAgICAgICAgICAgIHZhbCBpbnN0YWxsZWRNYWluVmVyc2lvbiA9IGV4dHJhY3RNYWluVmVyc2lvbihpbnN0YWxsZWRWZXJzaW9uKQogICAgICAgICAgICAgICAgdmFsIGJ1bmRsZWRNYWluVmVyc2lvbiA9IGV4dHJhY3RNYWluVmVyc2lvbihidW5kbGVkVmVyc2lvbikKICAgICAgICAgICAgICAgIC8vIOWwhueJiOacrOWPt+WIhuWJsuS4uuaVsOWtl+aVsOe7hAogICAgICAgICAgICAgICAgdmFsIGluc3RhbGxlZCA9IGluc3RhbGxlZE1haW5WZXJzaW9uLnNwbGl0KCIuIikubWFwIHsgaXQudG9JbnRPck51bGwoKSA/OiAwIH0KICAgICAgICAgICAgICAgIHZhbCBidW5kbGVkID0gYnVuZGxlZE1haW5WZXJzaW9uLnNwbGl0KCIuIikubWFwIHsgaXQudG9JbnRPck51bGwoKSA/OiAwIH0KCiAgICAgICAgICAgICAgICAvLyDmr5TovoPkuLvopoHniYjmnKzlj7cKICAgICAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIG1pbk9mKGluc3RhbGxlZC5zaXplLCBidW5kbGVkLnNpemUpKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGJ1bmRsZWRbaV0gPiBpbnN0YWxsZWRbaV0pIHsKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi6ZyA6KaB5pu05pawOiDlhoXnva7niYjmnKwgJHtidW5kbGVkW2ldfSA+IOW3suWuieijheeJiOacrCAke2luc3RhbGxlZFtpXX0gKOS9jee9rjogJGkpIikKICAgICAgICAgICAgICAgICAgICAgICAgY2FjaGVkVXBkYXRlTmVlZGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICB1cGRhdGVDYWNoZVRpbWVzdGFtcCgpCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmIChidW5kbGVkW2ldIDwgaW5zdGFsbGVkW2ldKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuS4jemcgOimgeabtOaWsDog5YaF572u54mI5pysICR7YnVuZGxlZFtpXX0gPCDlt7Llronoo4XniYjmnKwgJHtpbnN0YWxsZWRbaV19ICjkvY3nva46ICRpKSIpCiAgICAgICAgICAgICAgICAgICAgICAgIGNhY2hlZFVwZGF0ZU5lZWRlZCA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZUNhY2hlVGltZXN0YW1wKCkKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOWmguaenOWJjemdoueahOeJiOacrOWPt+mDveebuOWQjO+8jOS9hmJ1bmRsZWTmnInmm7TlpJrnmoTniYjmnKzlj7fmrrXvvIzliJnorqTkuLrpnIDopoHmm7TmlrAKICAgICAgICAgICAgICAgIHZhbCB1cGRhdGVOZWVkZWQgPSBidW5kbGVkLnNpemUgPiBpbnN0YWxsZWQuc2l6ZQogICAgICAgICAgICAgICAgY2FjaGVkVXBkYXRlTmVlZGVkID0gdXBkYXRlTmVlZGVkCiAgICAgICAgICAgICAgICB1cGRhdGVDYWNoZVRpbWVzdGFtcCgpCiAgICAgICAgICAgICAgICByZXR1cm4gdXBkYXRlTmVlZGVkCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5q+U6L6DU2hpenVrdeeJiOacrOaXtuWHuumUmSIsIGUpCiAgICAgICAgICAgICAgICBjYWNoZWRVcGRhdGVOZWVkZWQgPSBmYWxzZQogICAgICAgICAgICAgICAgdXBkYXRlQ2FjaGVUaW1lc3RhbXAoKQogICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLyoqCiAgICAgICAgICog5LuO5a6M5pW054mI5pys5Y+35Lit5o+Q5Y+W5Li754mI5pys5Y+36YOo5YiGCiAgICAgICAgICog5L6L5aaCOiAiMTMuNS4wLnIxMjM0IiAtPiAiMTMuNS4wIgogICAgICAgICAqLwogICAgICAgIHByaXZhdGUgZnVuIGV4dHJhY3RNYWluVmVyc2lvbih2ZXJzaW9uOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgICAgICAvLyDmraPliJnooajovr7lvI/ljLnphY3kuLvniYjmnKzlj7fpg6jliIYgKHgueS56KQogICAgICAgICAgICB2YWwgbWFpblZlcnNpb25SZWdleCA9ICIiIl4oXGQrKVwuKFxkKylcLihcZCspIiIiLnRvUmVnZXgoKQogICAgICAgICAgICB2YWwgbWF0Y2hSZXN1bHQgPSBtYWluVmVyc2lvblJlZ2V4LmZpbmQodmVyc2lvbikKICAgICAgICAgICAgCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBtYXRjaFJlc3VsdD8udmFsdWUgPzogdmVyc2lvbi5zcGxpdCgiLSIsICIuIiwgIisiLCAiICIpLnRha2UoMykuam9pblRvU3RyaW5nKCIuIikKICAgICAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgICAgIH0KICAgICAgICAKICAgICAgICAvKioKICAgICAgICAgKiDmm7TmlrDnvJPlrZjml7bpl7TmiLMKICAgICAgICAgKi8KICAgICAgICBwcml2YXRlIGZ1biB1cGRhdGVDYWNoZVRpbWVzdGFtcCgpIHsKICAgICAgICAgICAgbGFzdENoZWNrVGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8qKgogICAgICAgICAqIOajgOafpee8k+WtmOaYr+WQpuW3sui/h+acnwogICAgICAgICAqLwogICAgICAgIHByaXZhdGUgZnVuIGlzQ2FjaGVFeHBpcmVkKCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLSBsYXN0Q2hlY2tUaW1lID4gQ0FDSEVfRVhQSVJFX1RJTUUKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLyoqCiAgICAgICAgICog5riF6Zmk5omA5pyJ57yT5a2YCiAgICAgICAgICovCiAgICAgICAgZnVuIGNsZWFyQ2FjaGUoKSB7CiAgICAgICAgICAgIGNhY2hlZEluc3RhbGxlZFZlcnNpb24gPSBudWxsCiAgICAgICAgICAgIGNhY2hlZEJ1bmRsZWRWZXJzaW9uID0gbnVsbAogICAgICAgICAgICBjYWNoZWRVcGRhdGVOZWVkZWQgPSBudWxsCiAgICAgICAgICAgIGxhc3RDaGVja1RpbWUgPSAwCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNoaXp1a3XniYjmnKznvJPlrZjlt7LmuIXpmaQiKQogICAgICAgIH0KICAgIH0KfSAK
+package com.bslsjdk.operit.core.tools.system
+
+import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageInfo
+import android.content.pm.PackageManager
+import android.net.Uri
+import android.os.Build
+import com.bslsjdk.operit.util.AppLogger
+import androidx.core.content.FileProvider
+import com.bslsjdk.operit.R
+import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
+
+/**
+ * 用于管理内置Shizuku应用的安装
+ */
+class ShizukuInstaller {
+    companion object {
+        private const val TAG = "ShizukuInstaller"
+        private const val SHIZUKU_APK_FILENAME = "shizuku.apk"
+        private const val SHIZUKU_PACKAGE_NAME = "moe.shizuku.privileged.api"
+        
+        // 缓存版本信息，避免重复计算
+        private var cachedInstalledVersion: String? = null
+        private var cachedBundledVersion: String? = null
+        private var cachedUpdateNeeded: Boolean? = null
+        private var lastCheckTime: Long = 0
+        private const val CACHE_EXPIRE_TIME = 60 * 1000 // 缓存有效期1分钟
+        
+        /**
+         * 从assets目录复制Shizuku APK到应用私有目录
+         * @param context Android上下文
+         * @return 返回目标APK文件对象，如果失败则返回null
+         */
+        fun extractApkFromAssets(context: Context): File? {
+            val apkFile = File(context.cacheDir, SHIZUKU_APK_FILENAME)
+            
+            try {
+                context.assets.open(SHIZUKU_APK_FILENAME).use { inputStream ->
+                    FileOutputStream(apkFile).use { outputStream ->
+                        val buffer = ByteArray(4 * 1024)
+                        var read: Int
+                        while (inputStream.read(buffer).also { read = it } != -1) {
+                            outputStream.write(buffer, 0, read)
+                        }
+                        outputStream.flush()
+                    }
+                }
+                return apkFile
+            } catch (e: IOException) {
+                AppLogger.e(TAG, "Failed to extract Shizuku APK from assets", e)
+                return null
+            }
+        }
+        
+        /**
+         * 检查应用私有目录中是否存在提取的APK文件
+         * @param context Android上下文
+         * @return 是否存在APK文件
+         */
+        fun isApkExtracted(context: Context): Boolean {
+            val apkFile = File(context.cacheDir, SHIZUKU_APK_FILENAME)
+            return apkFile.exists() && apkFile.length() > 0
+        }
+        
+        /**
+         * 安装或更新内置的Shizuku APK
+         * @param context Android上下文
+         * @return 是否成功启动安装界面
+         */
+        fun installBundledShizuku(context: Context): Boolean {
+            try {
+                // 记录是安装还是更新
+                val isUpdate = ShizukuAuthorizer.isShizukuInstalled(context)
+                val action = if (isUpdate) context.getString(R.string.shizuku_install_update) else context.getString(R.string.shizuku_install_install)
+
+                AppLogger.d(TAG, "开始${action}内置Shizuku")
+
+                // 从assets目录提取APK
+                val apkFile = extractApkFromAssets(context)
+                if (apkFile == null) {
+                    AppLogger.e(TAG, "提取APK失败")
+                    return false
+                }
+
+                AppLogger.d(TAG, "APK提取成功: ${apkFile.absolutePath}, 大小: ${apkFile.length()} 字节")
+
+                // 生成APK的URI，考虑文件提供者权限
+                val apkUri = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    FileProvider.getUriForFile(
+                        context,
+                        "${context.packageName}.fileprovider",
+                        apkFile
+                    )
+                } else {
+                    Uri.fromFile(apkFile)
+                }
+
+                AppLogger.d(TAG, "生成APK URI: $apkUri")
+
+                // 创建安装意图
+                val installIntent = Intent(Intent.ACTION_VIEW).apply {
+                    setDataAndType(apkUri, "application/vnd.android.package-archive")
+                    flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                        addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                    }
+                }
+
+                AppLogger.d(TAG, "启动${action}界面")
+
+                // 启动安装界面
+                context.startActivity(installIntent)
+
+                // 清除缓存，强制下次检测重新计算
+                clearCache()
+
+                return true
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Failed to install bundled Shizuku", e)
+                return false
+            }
+        }
+        
+        /**
+         * 获取内置Shizuku APK版本信息
+         * @param context Android上下文
+         * @return 内置APK的版本名称，如果无法获取则返回"未知"
+         */
+        fun getBundledShizukuVersion(context: Context): String {
+            // 优先使用缓存
+            if (cachedBundledVersion != null && !isCacheExpired()) {
+                AppLogger.i(TAG, "从缓存获取内置Shizuku版本: $cachedBundledVersion")
+                return cachedBundledVersion!!
+            }
+
+            try {
+                // 从assets读取版本信息文件
+                val versionInfo = context.assets.open("shizuku_version.txt").use { inputStream ->
+                    inputStream.bufferedReader().readText().trim()
+                }
+                AppLogger.i(TAG, "获取内置Shizuku版本: $versionInfo")
+                cachedBundledVersion = versionInfo
+                return versionInfo
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "获取内置Shizuku版本失败", e)
+                val unknown = context.getString(R.string.shizuku_install_unknown)
+                cachedBundledVersion = unknown
+                return unknown
+            }
+        }
+        
+        /**
+         * 获取已安装的Shizuku版本
+         * @param context Android上下文
+         * @return 已安装的Shizuku版本名称，如果未安装则返回null
+         */
+        fun getInstalledShizukuVersion(context: Context): String? {
+            // 优先使用缓存
+            if (cachedInstalledVersion != null && !isCacheExpired()) {
+                AppLogger.i(TAG, "从缓存获取已安装Shizuku版本: $cachedInstalledVersion")
+                return cachedInstalledVersion
+            }
+            
+            try {
+                val packageManager = context.packageManager
+                val packageInfo: PackageInfo = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    packageManager.getPackageInfo(SHIZUKU_PACKAGE_NAME, PackageManager.PackageInfoFlags.of(0))
+                } else {
+                    @Suppress("DEPRECATION")
+                    packageManager.getPackageInfo(SHIZUKU_PACKAGE_NAME, 0)
+                }
+                val versionName = packageInfo.versionName
+                AppLogger.i(TAG, "获取已安装Shizuku版本: $versionName")
+                cachedInstalledVersion = versionName
+                return versionName
+            } catch (e: PackageManager.NameNotFoundException) {
+                // 未安装Shizuku
+                AppLogger.i(TAG, "未检测到已安装的Shizuku")
+                cachedInstalledVersion = null
+                return null
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "获取已安装Shizuku版本出错", e)
+                cachedInstalledVersion = null
+                return null
+            }
+        }
+        
+        /**
+         * 检查是否需要更新Shizuku
+         * @param context Android上下文
+         * @return 如果需要更新返回true，否则返回false
+         */
+        fun isShizukuUpdateNeeded(context: Context): Boolean {
+            // 优先使用缓存
+            if (cachedUpdateNeeded != null && !isCacheExpired()) {
+                AppLogger.d(TAG, "从缓存获取Shizuku更新状态: $cachedUpdateNeeded")
+                return cachedUpdateNeeded!!
+            }
+
+            AppLogger.d(TAG, "开始检查Shizuku是否需要更新...")
+
+            val installedVersion = getInstalledShizukuVersion(context)
+            if (installedVersion == null) {
+                AppLogger.d(TAG, "未安装Shizuku，不需要更新")
+                cachedUpdateNeeded = false
+                updateCacheTimestamp()
+                return false
+            }
+
+            val bundledVersion = getBundledShizukuVersion(context)
+            val unknown = context.getString(R.string.shizuku_install_unknown)
+            if (bundledVersion == unknown) {
+                AppLogger.d(TAG, "无法获取内置版本信息，不建议更新")
+                cachedUpdateNeeded = false
+                updateCacheTimestamp()
+                return false
+            }
+
+            try {
+                // 提取主版本号部分 (例如 "13.5.0.r1234" -> "13.5.0")
+                val installedMainVersion = extractMainVersion(installedVersion)
+                val bundledMainVersion = extractMainVersion(bundledVersion)
+                // 将版本号分割为数字数组
+                val installed = installedMainVersion.split(".").map { it.toIntOrNull() ?: 0 }
+                val bundled = bundledMainVersion.split(".").map { it.toIntOrNull() ?: 0 }
+
+                // 比较主要版本号
+                for (i in 0 until minOf(installed.size, bundled.size)) {
+                    if (bundled[i] > installed[i]) {
+                        AppLogger.d(TAG, "需要更新: 内置版本 ${bundled[i]} > 已安装版本 ${installed[i]} (位置: $i)")
+                        cachedUpdateNeeded = true
+                        updateCacheTimestamp()
+                        return true
+                    }
+                    if (bundled[i] < installed[i]) {
+                        AppLogger.d(TAG, "不需要更新: 内置版本 ${bundled[i]} < 已安装版本 ${installed[i]} (位置: $i)")
+                        cachedUpdateNeeded = false
+                        updateCacheTimestamp()
+                        return false
+                    }
+                }
+
+                // 如果前面的版本号都相同，但bundled有更多的版本号段，则认为需要更新
+                val updateNeeded = bundled.size > installed.size
+                cachedUpdateNeeded = updateNeeded
+                updateCacheTimestamp()
+                return updateNeeded
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "比较Shizuku版本时出错", e)
+                cachedUpdateNeeded = false
+                updateCacheTimestamp()
+                return false
+            }
+        }
+        
+        /**
+         * 从完整版本号中提取主版本号部分
+         * 例如: "13.5.0.r1234" -> "13.5.0"
+         */
+        private fun extractMainVersion(version: String): String {
+            // 正则表达式匹配主版本号部分 (x.y.z)
+            val mainVersionRegex = """^(\d+)\.(\d+)\.(\d+)""".toRegex()
+            val matchResult = mainVersionRegex.find(version)
+            
+            val result = matchResult?.value ?: version.split("-", ".", "+", " ").take(3).joinToString(".")
+            return result
+        }
+        
+        /**
+         * 更新缓存时间戳
+         */
+        private fun updateCacheTimestamp() {
+            lastCheckTime = System.currentTimeMillis()
+        }
+        
+        /**
+         * 检查缓存是否已过期
+         */
+        private fun isCacheExpired(): Boolean {
+            return System.currentTimeMillis() - lastCheckTime > CACHE_EXPIRE_TIME
+        }
+        
+        /**
+         * 清除所有缓存
+         */
+        fun clearCache() {
+            cachedInstalledVersion = null
+            cachedBundledVersion = null
+            cachedUpdateNeeded = null
+            lastCheckTime = 0
+            AppLogger.d(TAG, "Shizuku版本缓存已清除")
+        }
+    }
+} 

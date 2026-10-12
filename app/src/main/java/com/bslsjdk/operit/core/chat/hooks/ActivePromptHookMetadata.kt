@@ -1,1 +1,98 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFjdGl2ZVByb21wdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdEhpc3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkFjdGl2ZVByb21wdE1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkNoYXJhY3RlckNhcmRNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5DaGFyYWN0ZXJHcm91cENhcmRNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZXBvc2l0b3J5LkNoYXRIaXN0b3J5TWFuYWdlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmlyc3QKCnByaXZhdGUgY29uc3QgdmFsIEFDVElWRV9QUk9NUFRfVFlQRV9DSEFSQUNURVJfQ0FSRCA9ICJjaGFyYWN0ZXJfY2FyZCIKcHJpdmF0ZSBjb25zdCB2YWwgQUNUSVZFX1BST01QVF9UWVBFX0NIQVJBQ1RFUl9HUk9VUCA9ICJjaGFyYWN0ZXJfZ3JvdXAiCgpzdXNwZW5kIGZ1biBidWlsZEFjdGl2ZVByb21wdEhvb2tNZXRhZGF0YSgKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBjaGF0SWQ6IFN0cmluZz8gPSBudWxsLAogICAgcm9sZUNhcmRJZDogU3RyaW5nPyA9IG51bGwKKTogTWFwPFN0cmluZywgQW55Pz4gewogICAgdmFsIGFwcENvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgdmFsIGFjdGl2ZVByb21wdCA9IHJlc29sdmVIb29rQWN0aXZlUHJvbXB0KGFwcENvbnRleHQsIGNoYXRJZCwgcm9sZUNhcmRJZCkKICAgIHJldHVybiBtYXBPZigiYWN0aXZlUHJvbXB0IiB0byBhY3RpdmVQcm9tcHRUb01ldGFkYXRhKGFwcENvbnRleHQsIGFjdGl2ZVByb21wdCkpCn0KCnByaXZhdGUgc3VzcGVuZCBmdW4gcmVzb2x2ZUhvb2tBY3RpdmVQcm9tcHQoCiAgICBjb250ZXh0OiBDb250ZXh0LAogICAgY2hhdElkOiBTdHJpbmc/LAogICAgcm9sZUNhcmRJZDogU3RyaW5nPwopOiBBY3RpdmVQcm9tcHQgewogICAgdmFsIGJvdW5kQ2hhdCA9IHJlc29sdmVCb3VuZENoYXQoY29udGV4dCwgY2hhdElkKQogICAgdmFsIGJvdW5kR3JvdXBJZCA9IGJvdW5kQ2hhdD8uY2hhcmFjdGVyR3JvdXBJZD8udHJpbSgpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgaWYgKGJvdW5kR3JvdXBJZCAhPSBudWxsKSB7CiAgICAgICAgcmV0dXJuIEFjdGl2ZVByb21wdC5DaGFyYWN0ZXJHcm91cChib3VuZEdyb3VwSWQpCiAgICB9CgogICAgdmFsIHJlc29sdmVkUm9sZUNhcmRJZCA9IHJvbGVDYXJkSWQ/LnRyaW0oKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgIGlmIChyZXNvbHZlZFJvbGVDYXJkSWQgIT0gbnVsbCkgewogICAgICAgIHJldHVybiBBY3RpdmVQcm9tcHQuQ2hhcmFjdGVyQ2FyZChyZXNvbHZlZFJvbGVDYXJkSWQpCiAgICB9CgogICAgdmFsIGJvdW5kQ2FyZE5hbWUgPSBib3VuZENoYXQ/LmNoYXJhY3RlckNhcmROYW1lPy50cmltKCk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICBpZiAoYm91bmRDYXJkTmFtZSAhPSBudWxsKSB7CiAgICAgICAgdmFsIGJvdW5kQ2FyZElkID0KICAgICAgICAgICAgQ2hhcmFjdGVyQ2FyZE1hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dCkKICAgICAgICAgICAgICAgIC5maW5kQ2hhcmFjdGVyQ2FyZEJ5TmFtZShib3VuZENhcmROYW1lKQogICAgICAgICAgICAgICAgPy5pZAogICAgICAgICAgICAgICAgPy50cmltKCkKICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICBpZiAoYm91bmRDYXJkSWQgIT0gbnVsbCkgewogICAgICAgICAgICByZXR1cm4gQWN0aXZlUHJvbXB0LkNoYXJhY3RlckNhcmQoYm91bmRDYXJkSWQpCiAgICAgICAgfQogICAgfQoKICAgIHJldHVybiBBY3RpdmVQcm9tcHRNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpLmdldEFjdGl2ZVByb21wdCgpCn0KCnByaXZhdGUgc3VzcGVuZCBmdW4gcmVzb2x2ZUJvdW5kQ2hhdCgKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBjaGF0SWQ6IFN0cmluZz8KKTogQ2hhdEhpc3Rvcnk/IHsKICAgIHZhbCBub3JtYWxpemVkQ2hhdElkID0gY2hhdElkPy50cmltKCk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9ID86IHJldHVybiBudWxsCiAgICByZXR1cm4gQ2hhdEhpc3RvcnlNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICAgICAgLmNoYXRIaXN0b3JpZXNGbG93CiAgICAgICAgLmZpcnN0KCkKICAgICAgICAuZmlyc3RPck51bGwgeyBpdC5pZCA9PSBub3JtYWxpemVkQ2hhdElkIH0KfQoKcHJpdmF0ZSBzdXNwZW5kIGZ1biBhY3RpdmVQcm9tcHRUb01ldGFkYXRhKAogICAgY29udGV4dDogQ29udGV4dCwKICAgIGFjdGl2ZVByb21wdDogQWN0aXZlUHJvbXB0Cik6IE1hcDxTdHJpbmcsIEFueT8+IHsKICAgIHJldHVybiB3aGVuIChhY3RpdmVQcm9tcHQpIHsKICAgICAgICBpcyBBY3RpdmVQcm9tcHQuQ2hhcmFjdGVyQ2FyZCAtPiB7CiAgICAgICAgICAgIHZhbCBuYW1lID0KICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgICAgICBDaGFyYWN0ZXJDYXJkTWFuYWdlci5nZXRJbnN0YW5jZShjb250ZXh0KS5nZXRDaGFyYWN0ZXJDYXJkKGFjdGl2ZVByb21wdC5pZCkubmFtZQogICAgICAgICAgICAgICAgfS5nZXRPckRlZmF1bHQoIiIpCiAgICAgICAgICAgIG1hcE9mKAogICAgICAgICAgICAgICAgInR5cGUiIHRvIEFDVElWRV9QUk9NUFRfVFlQRV9DSEFSQUNURVJfQ0FSRCwKICAgICAgICAgICAgICAgICJpZCIgdG8gYWN0aXZlUHJvbXB0LmlkLAogICAgICAgICAgICAgICAgIm5hbWUiIHRvIG5hbWUKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgaXMgQWN0aXZlUHJvbXB0LkNoYXJhY3Rlckdyb3VwIC0+IHsKICAgICAgICAgICAgdmFsIG5hbWUgPQogICAgICAgICAgICAgICAgQ2hhcmFjdGVyR3JvdXBDYXJkTWFuYWdlci5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgICAgICAgICAgICAgICAgIC5nZXRDaGFyYWN0ZXJHcm91cENhcmQoYWN0aXZlUHJvbXB0LmlkKQogICAgICAgICAgICAgICAgICAgID8ubmFtZQogICAgICAgICAgICAgICAgICAgIC5vckVtcHR5KCkKICAgICAgICAgICAgbWFwT2YoCiAgICAgICAgICAgICAgICAidHlwZSIgdG8gQUNUSVZFX1BST01QVF9UWVBFX0NIQVJBQ1RFUl9HUk9VUCwKICAgICAgICAgICAgICAgICJpZCIgdG8gYWN0aXZlUHJvbXB0LmlkLAogICAgICAgICAgICAgICAgIm5hbWUiIHRvIG5hbWUKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.chat.hooks
+
+import android.content.Context
+import com.bslsjdk.operit.data.model.ActivePrompt
+import com.bslsjdk.operit.data.model.ChatHistory
+import com.bslsjdk.operit.data.preferences.ActivePromptManager
+import com.bslsjdk.operit.data.preferences.CharacterCardManager
+import com.bslsjdk.operit.data.preferences.CharacterGroupCardManager
+import com.bslsjdk.operit.data.repository.ChatHistoryManager
+import kotlinx.coroutines.flow.first
+
+private const val ACTIVE_PROMPT_TYPE_CHARACTER_CARD = "character_card"
+private const val ACTIVE_PROMPT_TYPE_CHARACTER_GROUP = "character_group"
+
+suspend fun buildActivePromptHookMetadata(
+    context: Context,
+    chatId: String? = null,
+    roleCardId: String? = null
+): Map<String, Any?> {
+    val appContext = context.applicationContext
+    val activePrompt = resolveHookActivePrompt(appContext, chatId, roleCardId)
+    return mapOf("activePrompt" to activePromptToMetadata(appContext, activePrompt))
+}
+
+private suspend fun resolveHookActivePrompt(
+    context: Context,
+    chatId: String?,
+    roleCardId: String?
+): ActivePrompt {
+    val boundChat = resolveBoundChat(context, chatId)
+    val boundGroupId = boundChat?.characterGroupId?.trim()?.takeIf { it.isNotBlank() }
+    if (boundGroupId != null) {
+        return ActivePrompt.CharacterGroup(boundGroupId)
+    }
+
+    val resolvedRoleCardId = roleCardId?.trim()?.takeIf { it.isNotBlank() }
+    if (resolvedRoleCardId != null) {
+        return ActivePrompt.CharacterCard(resolvedRoleCardId)
+    }
+
+    val boundCardName = boundChat?.characterCardName?.trim()?.takeIf { it.isNotBlank() }
+    if (boundCardName != null) {
+        val boundCardId =
+            CharacterCardManager.getInstance(context)
+                .findCharacterCardByName(boundCardName)
+                ?.id
+                ?.trim()
+                ?.takeIf { it.isNotBlank() }
+        if (boundCardId != null) {
+            return ActivePrompt.CharacterCard(boundCardId)
+        }
+    }
+
+    return ActivePromptManager.getInstance(context).getActivePrompt()
+}
+
+private suspend fun resolveBoundChat(
+    context: Context,
+    chatId: String?
+): ChatHistory? {
+    val normalizedChatId = chatId?.trim()?.takeIf { it.isNotBlank() } ?: return null
+    return ChatHistoryManager.getInstance(context)
+        .chatHistoriesFlow
+        .first()
+        .firstOrNull { it.id == normalizedChatId }
+}
+
+private suspend fun activePromptToMetadata(
+    context: Context,
+    activePrompt: ActivePrompt
+): Map<String, Any?> {
+    return when (activePrompt) {
+        is ActivePrompt.CharacterCard -> {
+            val name =
+                runCatching {
+                    CharacterCardManager.getInstance(context).getCharacterCard(activePrompt.id).name
+                }.getOrDefault("")
+            mapOf(
+                "type" to ACTIVE_PROMPT_TYPE_CHARACTER_CARD,
+                "id" to activePrompt.id,
+                "name" to name
+            )
+        }
+
+        is ActivePrompt.CharacterGroup -> {
+            val name =
+                CharacterGroupCardManager.getInstance(context)
+                    .getCharacterGroupCard(activePrompt.id)
+                    ?.name
+                    .orEmpty()
+            mapOf(
+                "type" to ACTIVE_PROMPT_TYPE_CHARACTER_GROUP,
+                "id" to activePrompt.id,
+                "name" to name
+            )
+        }
+    }
+}

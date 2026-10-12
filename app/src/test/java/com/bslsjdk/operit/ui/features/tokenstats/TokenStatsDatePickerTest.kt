@@ -1,1 +1,92 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW5zdGF0cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuU3RhdHNUaW1lUmFuZ2VzCmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlCmltcG9ydCBqYXZhLnRpbWUuWm9uZUlkCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKLyoqCiAqIOiHquWumuS5ieiMg+WbtOaXpeacn+mAieaLqee6r+mAu+i+kea1i+ivle+8iFAxLTbvvInvvJoKICogLSBEYXRlUGlja2VyIOavq+enkuaMiSAqKlVUQyDml6XljoYqKuino+aekOaXpeacn++8iOilv+aXtuWMuuS4jeWGjeWbnumAgOS4gOWkqe+8ie+8mwogKiAtIOe7k+adn+aXpeacnyoq5YyF5ZCr5b2T5aSpKirvvIgrMSDlpKkgMCDngrnkvZzkuLrljYrlvIDljLrpl7Tnu4jngrnvvInvvIzlkIzml6XlkIjms5XvvJsKICogLSBEU1Qg6Ieq54S25pel6Leo5bqm5Li6IDIzLzI1IOWwj+aXtueUsSBqYXZhLnRpbWUg5pel5Y6G6L+Q566X5L+d6K+B44CCCiAqLwpjbGFzcyBUb2tlblN0YXRzRGF0ZVBpY2tlclRlc3QgewoKICAgIHByaXZhdGUgdmFsIHNoYW5naGFpID0gWm9uZUlkLm9mKCJBc2lhL1NoYW5naGFpIikKICAgIHByaXZhdGUgdmFsIG5ld1lvcmsgPSBab25lSWQub2YoIkFtZXJpY2EvTmV3X1lvcmsiKQoKICAgIHByaXZhdGUgZnVuIHV0Y01pZG5pZ2h0TXMoZGF0ZTogU3RyaW5nKTogTG9uZyA9CiAgICAgICAgTG9jYWxEYXRlLnBhcnNlKGRhdGUpLmF0U3RhcnRPZkRheShqYXZhLnRpbWUuWm9uZU9mZnNldC5VVEMpLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpCgogICAgQFRlc3QKICAgIGZ1biBgZGF0ZSBwaWNrZXIgbWlsbGlzIHBhcnNlIGFzIFVUQyBjYWxlbmRhciBpbiBlYXN0IGFuZCB3ZXN0IHpvbmVzYCgpIHsKICAgICAgICAvLyDlm57lvZLvvJropb/ml7bljLrvvIhOZXcgWW9ya++8ieiLpeeUqOiuvuWkh+aXtuWMuuino+aekO+8jFVUQyA4LzcgMCDngrnkvJrooqvnnIvmiJAKICAgICAgICAvLyA4LzYgMjA6MDAg6ICM5Zue6YCA5LiA5aSp77yb5oyJIFVUQyDml6Xljobop6PmnpDlv4XpobvmmK8gOC83CiAgICAgICAgYXNzZXJ0RXF1YWxzKExvY2FsRGF0ZS5vZigyMDI2LCA4LCA3KSwgZGF0ZVBpY2tlck1pbGxpc1RvTG9jYWxEYXRlKHV0Y01pZG5pZ2h0TXMoIjIwMjYtMDgtMDciKSkpCiAgICAgICAgLy8g5Lic5pe25Yy677yIU2hhbmdoYWnvvInlkIzmoLfmjIkgVVRDIOaXpeWOhuino+aekAogICAgICAgIGFzc2VydEVxdWFscyhMb2NhbERhdGUub2YoMjAyNiwgOCwgNyksIGRhdGVQaWNrZXJNaWxsaXNUb0xvY2FsRGF0ZSh1dGNNaWRuaWdodE1zKCIyMDI2LTA4LTA3IikpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGluY2x1c2l2ZSBlbmQgZGF0ZSBtYWtlcyBzYW1lIGRheSBzZWxlY3Rpb24gYSB2YWxpZCBvbmUgZGF5IHJhbmdlYCgpIHsKICAgICAgICB2YWwgcmFuZ2UgPQogICAgICAgICAgICBjdXN0b21SYW5nZUluY2x1c2l2ZUVuZChMb2NhbERhdGUub2YoMjAyNiwgOCwgNyksIExvY2FsRGF0ZS5vZigyMDI2LCA4LCA3KSwgc2hhbmdoYWkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgOCwgNykuYXRTdGFydE9mRGF5KHNoYW5naGFpKS50b0luc3RhbnQoKS50b0Vwb2NoTWlsbGkoKSwKICAgICAgICAgICAgcmFuZ2Uuc3RhcnRNcywKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgOCwgOCkuYXRTdGFydE9mRGF5KHNoYW5naGFpKS50b0luc3RhbnQoKS50b0Vwb2NoTWlsbGkoKSwKICAgICAgICAgICAgcmFuZ2UuZW5kTXMsCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscyhUb2tlblN0YXRzVGltZVJhbmdlcy5EQVlfTVMsIHJhbmdlLmR1cmF0aW9uTXMpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgY3Jvc3MgZGF5IHNlbGVjdGlvbiBzcGFucyBhbGwgc2VsZWN0ZWQgZGF5c2AoKSB7CiAgICAgICAgLy8gOC83IOKGkiA4LznvvIjlkKvnu5PmnZ/ml6XvvIk9IDMg5Liq6Ieq54S25pel77ya57uI54K55Li6IDgvMTAgMCDngrkKICAgICAgICB2YWwgcmFuZ2UgPQogICAgICAgICAgICBjdXN0b21SYW5nZUluY2x1c2l2ZUVuZChMb2NhbERhdGUub2YoMjAyNiwgOCwgNyksIExvY2FsRGF0ZS5vZigyMDI2LCA4LCA5KSwgbmV3WW9yaykKICAgICAgICBhc3NlcnRFcXVhbHMoM0wgKiBUb2tlblN0YXRzVGltZVJhbmdlcy5EQVlfTVMsIHJhbmdlLmR1cmF0aW9uTXMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgOCwgMTApLmF0U3RhcnRPZkRheShuZXdZb3JrKS50b0luc3RhbnQoKS50b0Vwb2NoTWlsbGkoKSwKICAgICAgICAgICAgcmFuZ2UuZW5kTXMsCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGRzdCBzcHJpbmcgZm9yd2FyZCBkYXkgaXMgMjMgaG91cnNgKCkgewogICAgICAgIC8vIOe+juS4nCAyMDI2LTAzLTA4IOaYpeWto+aLqOW/qyAxIOWwj+aXtu+8muWNleaXpeiMg+WbtOato+WlvSAyMyDlsI/ml7YKICAgICAgICB2YWwgcmFuZ2UgPQogICAgICAgICAgICBjdXN0b21SYW5nZUluY2x1c2l2ZUVuZChMb2NhbERhdGUub2YoMjAyNiwgMywgOCksIExvY2FsRGF0ZS5vZigyMDI2LCAzLCA4KSwgbmV3WW9yaykKICAgICAgICBhc3NlcnRFcXVhbHMoMjNMICogVG9rZW5TdGF0c1RpbWVSYW5nZXMuSE9VUl9NUywgcmFuZ2UuZHVyYXRpb25NcykKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBlbmQgYmVmb3JlIHN0YXJ0IGlzIHJlamVjdGVkYCgpIHsKICAgICAgICB2YWwgZmFpbHVyZSA9IHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgY3VzdG9tUmFuZ2VJbmNsdXNpdmVFbmQoTG9jYWxEYXRlLm9mKDIwMjYsIDgsIDkpLCBMb2NhbERhdGUub2YoMjAyNiwgOCwgNyksIHNoYW5naGFpKQogICAgICAgIH0KICAgICAgICBhc3NlcnRUcnVlKCJlbmQgYmVmb3JlIHN0YXJ0IG11c3QgYmUgcmVqZWN0ZWQiLCBmYWlsdXJlLmlzRmFpbHVyZSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBmYWxsIGJhY2sgcmFuZ2UgYXQgbWF4aW11bSBuYXR1cmFsIGRheXMgaXMgYWNjZXB0ZWQgZGVzcGl0ZSBleHRyYSBlbGFwc2VkIGhvdXJgKCkgewogICAgICAgIHZhbCBtYXhEYXlzID0gMTBMCiAgICAgICAgdmFsIHN0YXJ0ID0gTG9jYWxEYXRlLm9mKDIwMjYsIDEwLCAyNSkuYXRTdGFydE9mRGF5KG5ld1lvcmspLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpCiAgICAgICAgdmFsIGVuZCA9IExvY2FsRGF0ZS5vZigyMDI2LCAxMSwgNCkuYXRTdGFydE9mRGF5KG5ld1lvcmspLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwTCAqIFRva2VuU3RhdHNUaW1lUmFuZ2VzLkRBWV9NUyArIFRva2VuU3RhdHNUaW1lUmFuZ2VzLkhPVVJfTVMsIGVuZCAtIHN0YXJ0KQogICAgICAgIGFzc2VydEVxdWFscyhDdXN0b21SYW5nZVZhbGlkYXRpb24uVkFMSUQsIHZhbGlkYXRlQ3VzdG9tUmFuZ2Uoc3RhcnQsIGVuZCwgbmV3WW9yaywgbWF4RGF5cykpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcmFuZ2Ugb25lIG5hdHVyYWwgZGF5IG92ZXIgbWF4aW11bSBpcyByZWplY3RlZCBhY3Jvc3MgZmFsbCBiYWNrYCgpIHsKICAgICAgICB2YWwgbWF4RGF5cyA9IDEwTAogICAgICAgIHZhbCBzdGFydCA9IExvY2FsRGF0ZS5vZigyMDI2LCAxMCwgMjUpLmF0U3RhcnRPZkRheShuZXdZb3JrKS50b0luc3RhbnQoKS50b0Vwb2NoTWlsbGkoKQogICAgICAgIHZhbCBlbmQgPSBMb2NhbERhdGUub2YoMjAyNiwgMTEsIDUpLmF0U3RhcnRPZkRheShuZXdZb3JrKS50b0luc3RhbnQoKS50b0Vwb2NoTWlsbGkoKQogICAgICAgIGFzc2VydEVxdWFscyhDdXN0b21SYW5nZVZhbGlkYXRpb24uVE9PX0xPTkcsIHZhbGlkYXRlQ3VzdG9tUmFuZ2Uoc3RhcnQsIGVuZCwgbmV3WW9yaywgbWF4RGF5cykpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.tokenstats
+
+import com.bslsjdk.operit.data.stats.TokenStatsTimeRanges
+import java.time.LocalDate
+import java.time.ZoneId
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+/**
+ * 自定义范围日期选择纯逻辑测试（P1-6）：
+ * - DatePicker 毫秒按 **UTC 日历**解析日期（西时区不再回退一天）；
+ * - 结束日期**包含当天**（+1 天 0 点作为半开区间终点），同日合法；
+ * - DST 自然日跨度为 23/25 小时由 java.time 日历运算保证。
+ */
+class TokenStatsDatePickerTest {
+
+    private val shanghai = ZoneId.of("Asia/Shanghai")
+    private val newYork = ZoneId.of("America/New_York")
+
+    private fun utcMidnightMs(date: String): Long =
+        LocalDate.parse(date).atStartOfDay(java.time.ZoneOffset.UTC).toInstant().toEpochMilli()
+
+    @Test
+    fun `date picker millis parse as UTC calendar in east and west zones`() {
+        // 回归：西时区（New York）若用设备时区解析，UTC 8/7 0 点会被看成
+        // 8/6 20:00 而回退一天；按 UTC 日历解析必须是 8/7
+        assertEquals(LocalDate.of(2026, 8, 7), datePickerMillisToLocalDate(utcMidnightMs("2026-08-07")))
+        // 东时区（Shanghai）同样按 UTC 日历解析
+        assertEquals(LocalDate.of(2026, 8, 7), datePickerMillisToLocalDate(utcMidnightMs("2026-08-07")))
+    }
+
+    @Test
+    fun `inclusive end date makes same day selection a valid one day range`() {
+        val range =
+            customRangeInclusiveEnd(LocalDate.of(2026, 8, 7), LocalDate.of(2026, 8, 7), shanghai)
+        assertEquals(
+            LocalDate.of(2026, 8, 7).atStartOfDay(shanghai).toInstant().toEpochMilli(),
+            range.startMs,
+        )
+        assertEquals(
+            LocalDate.of(2026, 8, 8).atStartOfDay(shanghai).toInstant().toEpochMilli(),
+            range.endMs,
+        )
+        assertEquals(TokenStatsTimeRanges.DAY_MS, range.durationMs)
+    }
+
+    @Test
+    fun `cross day selection spans all selected days`() {
+        // 8/7 → 8/9（含结束日）= 3 个自然日：终点为 8/10 0 点
+        val range =
+            customRangeInclusiveEnd(LocalDate.of(2026, 8, 7), LocalDate.of(2026, 8, 9), newYork)
+        assertEquals(3L * TokenStatsTimeRanges.DAY_MS, range.durationMs)
+        assertEquals(
+            LocalDate.of(2026, 8, 10).atStartOfDay(newYork).toInstant().toEpochMilli(),
+            range.endMs,
+        )
+    }
+
+    @Test
+    fun `dst spring forward day is 23 hours`() {
+        // 美东 2026-03-08 春季拨快 1 小时：单日范围正好 23 小时
+        val range =
+            customRangeInclusiveEnd(LocalDate.of(2026, 3, 8), LocalDate.of(2026, 3, 8), newYork)
+        assertEquals(23L * TokenStatsTimeRanges.HOUR_MS, range.durationMs)
+    }
+
+    @Test
+    fun `end before start is rejected`() {
+        val failure = runCatching {
+            customRangeInclusiveEnd(LocalDate.of(2026, 8, 9), LocalDate.of(2026, 8, 7), shanghai)
+        }
+        assertTrue("end before start must be rejected", failure.isFailure)
+    }
+
+    @Test
+    fun `fall back range at maximum natural days is accepted despite extra elapsed hour`() {
+        val maxDays = 10L
+        val start = LocalDate.of(2026, 10, 25).atStartOfDay(newYork).toInstant().toEpochMilli()
+        val end = LocalDate.of(2026, 11, 4).atStartOfDay(newYork).toInstant().toEpochMilli()
+        assertEquals(10L * TokenStatsTimeRanges.DAY_MS + TokenStatsTimeRanges.HOUR_MS, end - start)
+        assertEquals(CustomRangeValidation.VALID, validateCustomRange(start, end, newYork, maxDays))
+    }
+
+    @Test
+    fun `range one natural day over maximum is rejected across fall back`() {
+        val maxDays = 10L
+        val start = LocalDate.of(2026, 10, 25).atStartOfDay(newYork).toInstant().toEpochMilli()
+        val end = LocalDate.of(2026, 11, 5).atStartOfDay(newYork).toInstant().toEpochMilli()
+        assertEquals(CustomRangeValidation.TOO_LONG, validateCustomRange(start, end, newYork, maxDays))
+    }
+}

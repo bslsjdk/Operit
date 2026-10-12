@@ -1,1 +1,9 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCkBTZXJpYWxpemFibGUKZW51bSBjbGFzcyBDaGF0TWVzc2FnZURpc3BsYXlNb2RlIHsKICAgIE5PUk1BTCwKICAgIEhJRERFTl9QTEFDRUhPTERFUgp9Cg==
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+
+@Serializable
+enum class ChatMessageDisplayMode {
+    NORMAL,
+    HIDDEN_PLACEHOLDER
+}

@@ -1,1 +1,467 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMud29ya2Zsb3cuY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eUNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eUxpc3RTY29wZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuaXRlbXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkFkZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRGVsZXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5FZGl0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Db25kaXRpb25Ob2RlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Mb2dpY05vZGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLldvcmtmbG93Tm9kZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuV29ya2Zsb3dOb2RlQ29ubmVjdGlvbgoKLyoqCiAqIOi/nuaOpeiPnOWNleWvueivneahhgogKiDmmL7npLrlj6/ov57mjqXnmoTnm67moIfoioLngrnliJfooajvvIzmlK/mjIHliJvlu7rlkozliKDpmaTov57mjqUKICovCkBDb21wb3NhYmxlCmZ1biBDb25uZWN0aW9uTWVudURpYWxvZygKICAgIHNvdXJjZU5vZGU6IFdvcmtmbG93Tm9kZSwKICAgIGFsbE5vZGVzOiBMaXN0PFdvcmtmbG93Tm9kZT4sCiAgICBleGlzdGluZ0Nvbm5lY3Rpb25zOiBMaXN0PFdvcmtmbG93Tm9kZUNvbm5lY3Rpb24+LAogICAgb25DcmVhdGVDb25uZWN0aW9uOiAodGFyZ2V0Tm9kZUlkOiBTdHJpbmcpIC0+IFVuaXQsCiAgICBvbkRlbGV0ZUNvbm5lY3Rpb246IChjb25uZWN0aW9uSWQ6IFN0cmluZykgLT4gVW5pdCwKICAgIG9uVXBkYXRlQ29ubmVjdGlvbkNvbmRpdGlvbjogKGNvbm5lY3Rpb25JZDogU3RyaW5nLCBjb25kaXRpb246IFN0cmluZz8pIC0+IFVuaXQsCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQKKSB7CiAgICAvLyDojrflj5bku47mupDoioLngrnlh7rlj5HnmoTmiYDmnInov57mjqUKICAgIHZhbCBjb25uZWN0aW9uc0Zyb21Tb3VyY2UgPSBleGlzdGluZ0Nvbm5lY3Rpb25zLmZpbHRlciB7IAogICAgICAgIGl0LnNvdXJjZU5vZGVJZCA9PSBzb3VyY2VOb2RlLmlkIAogICAgfQogICAgCiAgICAvLyDojrflj5blj6/ku6Xov57mjqXnmoTnm67moIfoioLngrnvvIjmjpLpmaToh6rlt7Hlkozlt7Lov57mjqXnmoToioLngrnvvIkKICAgIHZhbCBjb25uZWN0ZWRUYXJnZXRJZHMgPSBjb25uZWN0aW9uc0Zyb21Tb3VyY2UubWFwIHsgaXQudGFyZ2V0Tm9kZUlkIH0udG9TZXQoKQogICAgdmFsIGF2YWlsYWJsZVRhcmdldHMgPSBhbGxOb2Rlcy5maWx0ZXIgeyAKICAgICAgICBpdC5pZCAhPSBzb3VyY2VOb2RlLmlkICYmIGl0LmlkICFpbiBjb25uZWN0ZWRUYXJnZXRJZHMKICAgIH0KCiAgICB2YXIgZWRpdGluZ0Nvbm5lY3Rpb25JZCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mPFN0cmluZz8+KG51bGwpIH0KICAgIAogICAgQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzcywKICAgICAgICB0aXRsZSA9IHsKICAgICAgICAgICAgQ29sdW1uIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfbWFuYWdlX2Nvbm5lY3Rpb25zKSkKICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg0LmRwKSkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X3NvdXJjZV9ub2RlX2Zvcm1hdCwgc291cmNlTm9kZS5uYW1lKSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIHRleHQgPSB7CiAgICAgICAgICAgIENvbm5lY3Rpb25NZW51Q29udGVudCgKICAgICAgICAgICAgICAgIHNvdXJjZU5vZGUgPSBzb3VyY2VOb2RlLAogICAgICAgICAgICAgICAgYWxsTm9kZXMgPSBhbGxOb2RlcywKICAgICAgICAgICAgICAgIGNvbm5lY3Rpb25zRnJvbVNvdXJjZSA9IGNvbm5lY3Rpb25zRnJvbVNvdXJjZSwKICAgICAgICAgICAgICAgIGF2YWlsYWJsZVRhcmdldHMgPSBhdmFpbGFibGVUYXJnZXRzLAogICAgICAgICAgICAgICAgb25FZGl0Q29ubmVjdGlvbiA9IHsgZWRpdGluZ0Nvbm5lY3Rpb25JZCA9IGl0IH0sCiAgICAgICAgICAgICAgICBvbkRlbGV0ZUNvbm5lY3Rpb24gPSBvbkRlbGV0ZUNvbm5lY3Rpb24sCiAgICAgICAgICAgICAgICBvbkNyZWF0ZUNvbm5lY3Rpb24gPSBvbkNyZWF0ZUNvbm5lY3Rpb24sCiAgICAgICAgICAgICkKICAgICAgICB9LAogICAgICAgIGNvbmZpcm1CdXR0b24gPSB7CiAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IG9uRGlzbWlzcykgewogICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jbG9zZSkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApCgogICAgdmFsIGVkaXRpbmdDb25uZWN0aW9uID0gZWRpdGluZ0Nvbm5lY3Rpb25JZD8ubGV0IHsgaWQgLT4KICAgICAgICBjb25uZWN0aW9uc0Zyb21Tb3VyY2UuZmlyc3RPck51bGwgeyBpdC5pZCA9PSBpZCB9CiAgICB9CiAgICBlZGl0aW5nQ29ubmVjdGlvbj8ubGV0IHsgY29ubmVjdGlvbiAtPgogICAgICAgIHZhbCB0YXJnZXROb2RlID0gYWxsTm9kZXMuZmluZCB7IGl0LmlkID09IGNvbm5lY3Rpb24udGFyZ2V0Tm9kZUlkIH0KICAgICAgICBpZiAodGFyZ2V0Tm9kZSAhPSBudWxsKSB7CiAgICAgICAgICAgIENvbm5lY3Rpb25Db25kaXRpb25EaWFsb2coCiAgICAgICAgICAgICAgICBzb3VyY2VOb2RlID0gc291cmNlTm9kZSwKICAgICAgICAgICAgICAgIHRhcmdldE5vZGUgPSB0YXJnZXROb2RlLAogICAgICAgICAgICAgICAgaW5pdGlhbENvbmRpdGlvbiA9IGNvbm5lY3Rpb24uY29uZGl0aW9uLAogICAgICAgICAgICAgICAgb25Db25maXJtID0geyBuZXdDb25kaXRpb24gLT4KICAgICAgICAgICAgICAgICAgICBvblVwZGF0ZUNvbm5lY3Rpb25Db25kaXRpb24oY29ubmVjdGlvbi5pZCwgbmV3Q29uZGl0aW9uKQogICAgICAgICAgICAgICAgICAgIGVkaXRpbmdDb25uZWN0aW9uSWQgPSBudWxsCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgb25EaXNtaXNzID0geyBlZGl0aW5nQ29ubmVjdGlvbklkID0gbnVsbCB9CiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCi8vIFNwbGl0IHRoZSBsaXN0IHNlY3Rpb25zIHNvIG9uZSBDb21wb3NlIGxhbWJkYSBkb2VzIG5vdCBleGhhdXN0IEtvdGxpbiBjb2RlZ2VuIG1lbW9yeS4KQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gQ29ubmVjdGlvbk1lbnVDb250ZW50KAogICAgc291cmNlTm9kZTogV29ya2Zsb3dOb2RlLAogICAgYWxsTm9kZXM6IExpc3Q8V29ya2Zsb3dOb2RlPiwKICAgIGNvbm5lY3Rpb25zRnJvbVNvdXJjZTogTGlzdDxXb3JrZmxvd05vZGVDb25uZWN0aW9uPiwKICAgIGF2YWlsYWJsZVRhcmdldHM6IExpc3Q8V29ya2Zsb3dOb2RlPiwKICAgIG9uRWRpdENvbm5lY3Rpb246IChTdHJpbmcpIC0+IFVuaXQsCiAgICBvbkRlbGV0ZUNvbm5lY3Rpb246IChTdHJpbmcpIC0+IFVuaXQsCiAgICBvbkNyZWF0ZUNvbm5lY3Rpb246IChTdHJpbmcpIC0+IFVuaXQsCikgewogICAgTGF6eUNvbHVtbigKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAuaGVpZ2h0SW4obWF4ID0gNDAwLmRwKSwKICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCksCiAgICApIHsKICAgICAgICBleGlzdGluZ0Nvbm5lY3Rpb25zU2VjdGlvbigKICAgICAgICAgICAgc291cmNlTm9kZSA9IHNvdXJjZU5vZGUsCiAgICAgICAgICAgIGFsbE5vZGVzID0gYWxsTm9kZXMsCiAgICAgICAgICAgIGNvbm5lY3Rpb25zRnJvbVNvdXJjZSA9IGNvbm5lY3Rpb25zRnJvbVNvdXJjZSwKICAgICAgICAgICAgb25FZGl0Q29ubmVjdGlvbiA9IG9uRWRpdENvbm5lY3Rpb24sCiAgICAgICAgICAgIG9uRGVsZXRlQ29ubmVjdGlvbiA9IG9uRGVsZXRlQ29ubmVjdGlvbiwKICAgICAgICApCiAgICAgICAgYXZhaWxhYmxlVGFyZ2V0c1NlY3Rpb24oCiAgICAgICAgICAgIGF2YWlsYWJsZVRhcmdldHMgPSBhdmFpbGFibGVUYXJnZXRzLAogICAgICAgICAgICBjb25uZWN0aW9uc0Zyb21Tb3VyY2UgPSBjb25uZWN0aW9uc0Zyb21Tb3VyY2UsCiAgICAgICAgICAgIG9uQ3JlYXRlQ29ubmVjdGlvbiA9IG9uQ3JlYXRlQ29ubmVjdGlvbiwKICAgICAgICApCiAgICB9Cn0KCnByaXZhdGUgZnVuIExhenlMaXN0U2NvcGUuZXhpc3RpbmdDb25uZWN0aW9uc1NlY3Rpb24oCiAgICBzb3VyY2VOb2RlOiBXb3JrZmxvd05vZGUsCiAgICBhbGxOb2RlczogTGlzdDxXb3JrZmxvd05vZGU+LAogICAgY29ubmVjdGlvbnNGcm9tU291cmNlOiBMaXN0PFdvcmtmbG93Tm9kZUNvbm5lY3Rpb24+LAogICAgb25FZGl0Q29ubmVjdGlvbjogKFN0cmluZykgLT4gVW5pdCwKICAgIG9uRGVsZXRlQ29ubmVjdGlvbjogKFN0cmluZykgLT4gVW5pdCwKKSB7CiAgICBpZiAoY29ubmVjdGlvbnNGcm9tU291cmNlLmlzRW1wdHkoKSkgewogICAgICAgIHJldHVybgogICAgfQoKICAgIGl0ZW0gewogICAgICAgIFRleHQoCiAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19leGlzdGluZ19jb25uZWN0aW9ucyksCiAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlU21hbGwsCiAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LAogICAgICAgICkKICAgIH0KCiAgICBpdGVtcyhjb25uZWN0aW9uc0Zyb21Tb3VyY2UpIHsgY29ubmVjdGlvbiAtPgogICAgICAgIHZhbCB0YXJnZXROb2RlID0gYWxsTm9kZXMuZmluZCB7IGl0LmlkID09IGNvbm5lY3Rpb24udGFyZ2V0Tm9kZUlkIH0KICAgICAgICBpZiAodGFyZ2V0Tm9kZSAhPSBudWxsKSB7CiAgICAgICAgICAgIEV4aXN0aW5nQ29ubmVjdGlvbkl0ZW0oCiAgICAgICAgICAgICAgICBzb3VyY2VOb2RlID0gc291cmNlTm9kZSwKICAgICAgICAgICAgICAgIGNvbm5lY3Rpb24gPSBjb25uZWN0aW9uLAogICAgICAgICAgICAgICAgdGFyZ2V0Tm9kZSA9IHRhcmdldE5vZGUsCiAgICAgICAgICAgICAgICBvbkVkaXRDb25kaXRpb24gPSB7IG9uRWRpdENvbm5lY3Rpb24oY29ubmVjdGlvbi5pZCkgfSwKICAgICAgICAgICAgICAgIG9uRGVsZXRlID0geyBvbkRlbGV0ZUNvbm5lY3Rpb24oY29ubmVjdGlvbi5pZCkgfSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBpdGVtIHsKICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgSG9yaXpvbnRhbERpdmlkZXIoKQogICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgIH0KfQoKcHJpdmF0ZSBmdW4gTGF6eUxpc3RTY29wZS5hdmFpbGFibGVUYXJnZXRzU2VjdGlvbigKICAgIGF2YWlsYWJsZVRhcmdldHM6IExpc3Q8V29ya2Zsb3dOb2RlPiwKICAgIGNvbm5lY3Rpb25zRnJvbVNvdXJjZTogTGlzdDxXb3JrZmxvd05vZGVDb25uZWN0aW9uPiwKICAgIG9uQ3JlYXRlQ29ubmVjdGlvbjogKFN0cmluZykgLT4gVW5pdCwKKSB7CiAgICBpZiAoYXZhaWxhYmxlVGFyZ2V0cy5pc05vdEVtcHR5KCkpIHsKICAgICAgICBpdGVtIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19zZWxlY3RfdGFyZ2V0X25vZGUpLAogICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVTbWFsbCwKICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICBpdGVtcyhhdmFpbGFibGVUYXJnZXRzKSB7IHRhcmdldE5vZGUgLT4KICAgICAgICAgICAgQXZhaWxhYmxlVGFyZ2V0SXRlbSgKICAgICAgICAgICAgICAgIHRhcmdldE5vZGUgPSB0YXJnZXROb2RlLAogICAgICAgICAgICAgICAgb25Db25uZWN0ID0geyBvbkNyZWF0ZUNvbm5lY3Rpb24odGFyZ2V0Tm9kZS5pZCkgfSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0gZWxzZSBpZiAoY29ubmVjdGlvbnNGcm9tU291cmNlLmlzRW1wdHkoKSkgewogICAgICAgIGl0ZW0gewogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X25vX2Nvbm5lY3RhYmxlX25vZGVzKSwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKLyoqCiAqIOW3suaciei/nuaOpemhuQogKi8KQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gRXhpc3RpbmdDb25uZWN0aW9uSXRlbSgKICAgIHNvdXJjZU5vZGU6IFdvcmtmbG93Tm9kZSwKICAgIGNvbm5lY3Rpb246IFdvcmtmbG93Tm9kZUNvbm5lY3Rpb24sCiAgICB0YXJnZXROb2RlOiBXb3JrZmxvd05vZGUsCiAgICBvbkVkaXRDb25kaXRpb246ICgpIC0+IFVuaXQsCiAgICBvbkRlbGV0ZTogKCkgLT4gVW5pdAopIHsKICAgIENhcmQoCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICBjb2xvcnMgPSBDYXJkRGVmYXVsdHMuY2FyZENvbG9ycygKICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yQ29udGFpbmVyLmNvcHkoYWxwaGEgPSAwLjNmKQogICAgICAgICkKICAgICkgewogICAgICAgIFJvdygKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAucGFkZGluZygxMi5kcCksCiAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LlNwYWNlQmV0d2VlbiwKICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICkgewogICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5LAogICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCksCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBpZiAodGFyZ2V0Tm9kZS50eXBlID09ICJ0cmlnZ2VyIikgIvCfjq8iIGVsc2UgIuKame+4jyIsCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keUxhcmdlCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBDb2x1bW4gewogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSB0YXJnZXROb2RlLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcud29ya2Zsb3dfY29ubmVjdGlvbl9jb25kaXRpb25fYXJyb3dfZm9ybWF0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZGl0aW9uVG9EaXNwbGF5VGV4dChzb3VyY2VOb2RlLCBjb25uZWN0aW9uLmNvbmRpdGlvbikKICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIEljb25CdXR0b24oCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IG9uRWRpdENvbmRpdGlvbgogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgSWNvbnMuRGVmYXVsdC5FZGl0LAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19lZGl0X2Nvbm5lY3Rpb25fY29uZGl0aW9uKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBJY29uQnV0dG9uKAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkRlbGV0ZSwKICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBJY29uQnV0dG9uRGVmYXVsdHMuaWNvbkJ1dHRvbkNvbG9ycygKICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudENvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvcgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgIEljb25zLkRlZmF1bHQuRGVsZXRlLAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19kZWxldGVfY29ubmVjdGlvbikKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCnByaXZhdGUgZW51bSBjbGFzcyBDb25uZWN0aW9uQ29uZGl0aW9uTW9kZSB7CiAgICBERUZBVUxULAogICAgRkFMU0UsCiAgICBDVVNUT00KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gY29uZGl0aW9uVG9EaXNwbGF5VGV4dChzb3VyY2VOb2RlOiBXb3JrZmxvd05vZGUsIGNvbmRpdGlvbjogU3RyaW5nPyk6IFN0cmluZyB7CiAgICB2YWwgYyA9IGNvbmRpdGlvbj8udHJpbSgpLm9yRW1wdHkoKQogICAgdmFsIGlzQ29uZGl0aW9uTGlrZSA9IHNvdXJjZU5vZGUgaXMgQ29uZGl0aW9uTm9kZSB8fCBzb3VyY2VOb2RlIGlzIExvZ2ljTm9kZQoKICAgIGlmIChjLmlzQmxhbmsoKSkgewogICAgICAgIHJldHVybiBpZiAoaXNDb25kaXRpb25MaWtlKSB7CiAgICAgICAgICAgIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X2Nvbm5lY3Rpb25fY29uZGl0aW9uX2RlZmF1bHRfdHJ1ZSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jb25uZWN0aW9uX2NvbmRpdGlvbl9kZWZhdWx0X25vbmUpCiAgICAgICAgfQogICAgfQoKICAgIHJldHVybiB3aGVuIChjLmxvd2VyY2FzZSgpKSB7CiAgICAgICAgInRydWUiIC0+ICJ0cnVlIgogICAgICAgICJmYWxzZSIgLT4gImZhbHNlIgogICAgICAgIGVsc2UgLT4gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfY29ubmVjdGlvbl9jb25kaXRpb25fcmVnZXhfZm9ybWF0LCBjKQogICAgfQp9CgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBDb25uZWN0aW9uQ29uZGl0aW9uRGlhbG9nKAogICAgc291cmNlTm9kZTogV29ya2Zsb3dOb2RlLAogICAgdGFyZ2V0Tm9kZTogV29ya2Zsb3dOb2RlLAogICAgaW5pdGlhbENvbmRpdGlvbjogU3RyaW5nPywKICAgIG9uQ29uZmlybTogKFN0cmluZz8pIC0+IFVuaXQsCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQKKSB7CiAgICB2YWwgaW5pdGlhbFRyaW1tZWQgPSBpbml0aWFsQ29uZGl0aW9uPy50cmltKCkub3JFbXB0eSgpCiAgICB2YWwgaW5pdGlhbE1vZGUgPSB3aGVuIHsKICAgICAgICBpbml0aWFsVHJpbW1lZC5pc0JsYW5rKCkgLT4gQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuREVGQVVMVAogICAgICAgIGluaXRpYWxUcmltbWVkLmVxdWFscygiZmFsc2UiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuRkFMU0UKICAgICAgICBlbHNlIC0+IENvbm5lY3Rpb25Db25kaXRpb25Nb2RlLkNVU1RPTQogICAgfQoKICAgIHZhciBtb2RlIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbE1vZGUpIH0KICAgIHZhciBjdXN0b20gYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihpZiAoaW5pdGlhbE1vZGUgPT0gQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuQ1VTVE9NKSBpbml0aWFsVHJpbW1lZCBlbHNlICIiKSB9CgogICAgQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzcywKICAgICAgICB0aXRsZSA9IHsKICAgICAgICAgICAgQ29sdW1uIHsKICAgICAgICAgICAgICAgIFRleHQodGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X2VkaXRfY29ubmVjdGlvbl9jb25kaXRpb25fdGl0bGUpKQogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDQuZHApKQogICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gIiR7c291cmNlTm9kZS5uYW1lfSDihpIgJHt0YXJnZXROb2RlLm5hbWV9IiwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIHRleHQgPSB7CiAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTIuZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgdmFsIGRlZmF1bHRMYWJlbCA9CiAgICAgICAgICAgICAgICAgICAgaWYgKHNvdXJjZU5vZGUgaXMgQ29uZGl0aW9uTm9kZSB8fCBzb3VyY2VOb2RlIGlzIExvZ2ljTm9kZSkgewogICAgICAgICAgICAgICAgICAgICAgICBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jb25uZWN0aW9uX2NvbmRpdGlvbl9kZWZhdWx0X3RydWVfYnJhbmNoKQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndvcmtmbG93X2Nvbm5lY3Rpb25fY29uZGl0aW9uX2RlZmF1bHRfbm9fY29uZGl0aW9uKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBSb3codmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSkgewogICAgICAgICAgICAgICAgICAgIFJhZGlvQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCA9IG1vZGUgPT0gQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuREVGQVVMVCwKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgbW9kZSA9IENvbm5lY3Rpb25Db25kaXRpb25Nb2RlLkRFRkFVTFQgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg4LmRwKSkKICAgICAgICAgICAgICAgICAgICBUZXh0KGRlZmF1bHRMYWJlbCkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBSb3codmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSkgewogICAgICAgICAgICAgICAgICAgIFJhZGlvQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCA9IG1vZGUgPT0gQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuRkFMU0UsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IG1vZGUgPSBDb25uZWN0aW9uQ29uZGl0aW9uTW9kZS5GQUxTRSB9CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDguZHApKQogICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfY29ubmVjdGlvbl9jb25kaXRpb25fZmFsc2VfYnJhbmNoKSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBSb3codmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSkgewogICAgICAgICAgICAgICAgICAgIFJhZGlvQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCA9IG1vZGUgPT0gQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuQ1VTVE9NLAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBtb2RlID0gQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuQ1VTVE9NIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53b3JrZmxvd19jb25uZWN0aW9uX2NvbmRpdGlvbl9jdXN0b20pKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgIHZhbHVlID0gY3VzdG9tLAogICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IGN1c3RvbSA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlZCA9IG1vZGUgPT0gQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuQ1VTVE9NLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHdoZW4gKG1vZGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuREVGQVVMVCAtPiBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgIENvbm5lY3Rpb25Db25kaXRpb25Nb2RlLkZBTFNFIC0+ICJmYWxzZSIKICAgICAgICAgICAgICAgICAgICAgICAgQ29ubmVjdGlvbkNvbmRpdGlvbk1vZGUuQ1VTVE9NIC0+IGN1c3RvbS50cmltKCkuaWZCbGFuayB7IG51bGwgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBvbkNvbmZpcm0ocmVzdWx0KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY29uZmlybSkpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IG9uRGlzbWlzcykgewogICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5jYW5jZWxfYWN0aW9uKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkKfQoKLyoqCiAqIOWPr+i/nuaOpeeahOebruagh+iKgueCuemhuQogKi8KQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gQXZhaWxhYmxlVGFyZ2V0SXRlbSgKICAgIHRhcmdldE5vZGU6IFdvcmtmbG93Tm9kZSwKICAgIG9uQ29ubmVjdDogKCkgLT4gVW5pdAopIHsKICAgIENhcmQoCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICBjb2xvcnMgPSBDYXJkRGVmYXVsdHMuY2FyZENvbG9ycygKICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VWYXJpYW50CiAgICAgICAgKQogICAgKSB7CiAgICAgICAgUm93KAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgIC5wYWRkaW5nKDEyLmRwKSwKICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuU3BhY2VCZXR3ZWVuLAogICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICAgICAgKSB7CiAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHksCiAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGlmICh0YXJnZXROb2RlLnR5cGUgPT0gInRyaWdnZXIiKSAi8J+OryIgZWxzZSAi4pqZ77iPIiwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TGFyZ2UKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIENvbHVtbiB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHRhcmdldE5vZGUubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBpZiAodGFyZ2V0Tm9kZS5kZXNjcmlwdGlvbi5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSB0YXJnZXROb2RlLmRlc2NyaXB0aW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgSWNvbkJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkNvbm5lY3QsCiAgICAgICAgICAgICAgICBjb2xvcnMgPSBJY29uQnV0dG9uRGVmYXVsdHMuaWNvbkJ1dHRvbkNvbG9ycygKICAgICAgICAgICAgICAgICAgICBjb250YWluZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeUNvbnRhaW5lciwKICAgICAgICAgICAgICAgICAgICBjb250ZW50Q29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uUHJpbWFyeUNvbnRhaW5lcgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgSWNvbnMuRGVmYXVsdC5BZGQsCiAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud29ya2Zsb3dfY3JlYXRlX2Nvbm5lY3Rpb24pCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.workflow.components
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListScope
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Edit
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.ConditionNode
+import com.bslsjdk.operit.data.model.LogicNode
+import com.bslsjdk.operit.data.model.WorkflowNode
+import com.bslsjdk.operit.data.model.WorkflowNodeConnection
+
+/**
+ * 连接菜单对话框
+ * 显示可连接的目标节点列表，支持创建和删除连接
+ */
+@Composable
+fun ConnectionMenuDialog(
+    sourceNode: WorkflowNode,
+    allNodes: List<WorkflowNode>,
+    existingConnections: List<WorkflowNodeConnection>,
+    onCreateConnection: (targetNodeId: String) -> Unit,
+    onDeleteConnection: (connectionId: String) -> Unit,
+    onUpdateConnectionCondition: (connectionId: String, condition: String?) -> Unit,
+    onDismiss: () -> Unit
+) {
+    // 获取从源节点出发的所有连接
+    val connectionsFromSource = existingConnections.filter { 
+        it.sourceNodeId == sourceNode.id 
+    }
+    
+    // 获取可以连接的目标节点（排除自己和已连接的节点）
+    val connectedTargetIds = connectionsFromSource.map { it.targetNodeId }.toSet()
+    val availableTargets = allNodes.filter { 
+        it.id != sourceNode.id && it.id !in connectedTargetIds
+    }
+
+    var editingConnectionId by remember { mutableStateOf<String?>(null) }
+    
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = {
+            Column {
+                Text(stringResource(R.string.workflow_manage_connections))
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(
+                    text = stringResource(R.string.workflow_source_node_format, sourceNode.name),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        },
+        text = {
+            ConnectionMenuContent(
+                sourceNode = sourceNode,
+                allNodes = allNodes,
+                connectionsFromSource = connectionsFromSource,
+                availableTargets = availableTargets,
+                onEditConnection = { editingConnectionId = it },
+                onDeleteConnection = onDeleteConnection,
+                onCreateConnection = onCreateConnection,
+            )
+        },
+        confirmButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.workflow_close))
+            }
+        }
+    )
+
+    val editingConnection = editingConnectionId?.let { id ->
+        connectionsFromSource.firstOrNull { it.id == id }
+    }
+    editingConnection?.let { connection ->
+        val targetNode = allNodes.find { it.id == connection.targetNodeId }
+        if (targetNode != null) {
+            ConnectionConditionDialog(
+                sourceNode = sourceNode,
+                targetNode = targetNode,
+                initialCondition = connection.condition,
+                onConfirm = { newCondition ->
+                    onUpdateConnectionCondition(connection.id, newCondition)
+                    editingConnectionId = null
+                },
+                onDismiss = { editingConnectionId = null }
+            )
+        }
+    }
+}
+
+// Split the list sections so one Compose lambda does not exhaust Kotlin codegen memory.
+@Composable
+private fun ConnectionMenuContent(
+    sourceNode: WorkflowNode,
+    allNodes: List<WorkflowNode>,
+    connectionsFromSource: List<WorkflowNodeConnection>,
+    availableTargets: List<WorkflowNode>,
+    onEditConnection: (String) -> Unit,
+    onDeleteConnection: (String) -> Unit,
+    onCreateConnection: (String) -> Unit,
+) {
+    LazyColumn(
+        modifier = Modifier
+            .fillMaxWidth()
+            .heightIn(max = 400.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        existingConnectionsSection(
+            sourceNode = sourceNode,
+            allNodes = allNodes,
+            connectionsFromSource = connectionsFromSource,
+            onEditConnection = onEditConnection,
+            onDeleteConnection = onDeleteConnection,
+        )
+        availableTargetsSection(
+            availableTargets = availableTargets,
+            connectionsFromSource = connectionsFromSource,
+            onCreateConnection = onCreateConnection,
+        )
+    }
+}
+
+private fun LazyListScope.existingConnectionsSection(
+    sourceNode: WorkflowNode,
+    allNodes: List<WorkflowNode>,
+    connectionsFromSource: List<WorkflowNodeConnection>,
+    onEditConnection: (String) -> Unit,
+    onDeleteConnection: (String) -> Unit,
+) {
+    if (connectionsFromSource.isEmpty()) {
+        return
+    }
+
+    item {
+        Text(
+            text = stringResource(R.string.workflow_existing_connections),
+            style = MaterialTheme.typography.titleSmall,
+            color = MaterialTheme.colorScheme.primary,
+        )
+    }
+
+    items(connectionsFromSource) { connection ->
+        val targetNode = allNodes.find { it.id == connection.targetNodeId }
+        if (targetNode != null) {
+            ExistingConnectionItem(
+                sourceNode = sourceNode,
+                connection = connection,
+                targetNode = targetNode,
+                onEditCondition = { onEditConnection(connection.id) },
+                onDelete = { onDeleteConnection(connection.id) },
+            )
+        }
+    }
+
+    item {
+        Spacer(modifier = Modifier.height(8.dp))
+        HorizontalDivider()
+        Spacer(modifier = Modifier.height(8.dp))
+    }
+}
+
+private fun LazyListScope.availableTargetsSection(
+    availableTargets: List<WorkflowNode>,
+    connectionsFromSource: List<WorkflowNodeConnection>,
+    onCreateConnection: (String) -> Unit,
+) {
+    if (availableTargets.isNotEmpty()) {
+        item {
+            Text(
+                text = stringResource(R.string.workflow_select_target_node),
+                style = MaterialTheme.typography.titleSmall,
+                color = MaterialTheme.colorScheme.primary,
+            )
+        }
+
+        items(availableTargets) { targetNode ->
+            AvailableTargetItem(
+                targetNode = targetNode,
+                onConnect = { onCreateConnection(targetNode.id) },
+            )
+        }
+    } else if (connectionsFromSource.isEmpty()) {
+        item {
+            Text(
+                text = stringResource(R.string.workflow_no_connectable_nodes),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+    }
+}
+
+/**
+ * 已有连接项
+ */
+@Composable
+private fun ExistingConnectionItem(
+    sourceNode: WorkflowNode,
+    connection: WorkflowNodeConnection,
+    targetNode: WorkflowNode,
+    onEditCondition: () -> Unit,
+    onDelete: () -> Unit
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.3f)
+        )
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(
+                    text = if (targetNode.type == "trigger") "🎯" else "⚙️",
+                    style = MaterialTheme.typography.bodyLarge
+                )
+                Column {
+                    Text(
+                        text = targetNode.name,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    Text(
+                        text = stringResource(
+                            R.string.workflow_connection_condition_arrow_format,
+                            conditionToDisplayText(sourceNode, connection.condition)
+                        ),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+
+            Row(
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                IconButton(
+                    onClick = onEditCondition
+                ) {
+                    Icon(
+                        Icons.Default.Edit,
+                        contentDescription = stringResource(R.string.workflow_edit_connection_condition)
+                    )
+                }
+
+                IconButton(
+                    onClick = onDelete,
+                    colors = IconButtonDefaults.iconButtonColors(
+                        contentColor = MaterialTheme.colorScheme.error
+                    )
+                ) {
+                    Icon(
+                        Icons.Default.Delete,
+                        contentDescription = stringResource(R.string.workflow_delete_connection)
+                    )
+                }
+            }
+        }
+    }
+}
+
+private enum class ConnectionConditionMode {
+    DEFAULT,
+    FALSE,
+    CUSTOM
+}
+
+@Composable
+private fun conditionToDisplayText(sourceNode: WorkflowNode, condition: String?): String {
+    val c = condition?.trim().orEmpty()
+    val isConditionLike = sourceNode is ConditionNode || sourceNode is LogicNode
+
+    if (c.isBlank()) {
+        return if (isConditionLike) {
+            stringResource(R.string.workflow_connection_condition_default_true)
+        } else {
+            stringResource(R.string.workflow_connection_condition_default_none)
+        }
+    }
+
+    return when (c.lowercase()) {
+        "true" -> "true"
+        "false" -> "false"
+        else -> stringResource(R.string.workflow_connection_condition_regex_format, c)
+    }
+}
+
+@Composable
+private fun ConnectionConditionDialog(
+    sourceNode: WorkflowNode,
+    targetNode: WorkflowNode,
+    initialCondition: String?,
+    onConfirm: (String?) -> Unit,
+    onDismiss: () -> Unit
+) {
+    val initialTrimmed = initialCondition?.trim().orEmpty()
+    val initialMode = when {
+        initialTrimmed.isBlank() -> ConnectionConditionMode.DEFAULT
+        initialTrimmed.equals("false", ignoreCase = true) -> ConnectionConditionMode.FALSE
+        else -> ConnectionConditionMode.CUSTOM
+    }
+
+    var mode by remember { mutableStateOf(initialMode) }
+    var custom by remember { mutableStateOf(if (initialMode == ConnectionConditionMode.CUSTOM) initialTrimmed else "") }
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = {
+            Column {
+                Text(text = stringResource(R.string.workflow_edit_connection_condition_title))
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(
+                    text = "${sourceNode.name} → ${targetNode.name}",
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        },
+        text = {
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                val defaultLabel =
+                    if (sourceNode is ConditionNode || sourceNode is LogicNode) {
+                        stringResource(R.string.workflow_connection_condition_default_true_branch)
+                    } else {
+                        stringResource(R.string.workflow_connection_condition_default_no_condition)
+                    }
+
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    RadioButton(
+                        selected = mode == ConnectionConditionMode.DEFAULT,
+                        onClick = { mode = ConnectionConditionMode.DEFAULT }
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(defaultLabel)
+                }
+
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    RadioButton(
+                        selected = mode == ConnectionConditionMode.FALSE,
+                        onClick = { mode = ConnectionConditionMode.FALSE }
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(stringResource(R.string.workflow_connection_condition_false_branch))
+                }
+
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    RadioButton(
+                        selected = mode == ConnectionConditionMode.CUSTOM,
+                        onClick = { mode = ConnectionConditionMode.CUSTOM }
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(stringResource(R.string.workflow_connection_condition_custom))
+                }
+
+                OutlinedTextField(
+                    value = custom,
+                    onValueChange = { custom = it },
+                    enabled = mode == ConnectionConditionMode.CUSTOM,
+                    modifier = Modifier.fillMaxWidth(),
+                    singleLine = true
+                )
+            }
+        },
+        confirmButton = {
+            TextButton(
+                onClick = {
+                    val result = when (mode) {
+                        ConnectionConditionMode.DEFAULT -> null
+                        ConnectionConditionMode.FALSE -> "false"
+                        ConnectionConditionMode.CUSTOM -> custom.trim().ifBlank { null }
+                    }
+                    onConfirm(result)
+                }
+            ) {
+                Text(stringResource(R.string.confirm))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.cancel_action))
+            }
+        }
+    )
+}
+
+/**
+ * 可连接的目标节点项
+ */
+@Composable
+private fun AvailableTargetItem(
+    targetNode: WorkflowNode,
+    onConnect: () -> Unit
+) {
+    Card(
+        modifier = Modifier.fillMaxWidth(),
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.surfaceVariant
+        )
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            horizontalArrangement = Arrangement.SpaceBetween,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                modifier = Modifier.weight(1f)
+            ) {
+                Text(
+                    text = if (targetNode.type == "trigger") "🎯" else "⚙️",
+                    style = MaterialTheme.typography.bodyLarge
+                )
+                Column {
+                    Text(
+                        text = targetNode.name,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                    if (targetNode.description.isNotEmpty()) {
+                        Text(
+                            text = targetNode.description,
+                            style = MaterialTheme.typography.bodySmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            maxLines = 1
+                        )
+                    }
+                }
+            }
+            
+            IconButton(
+                onClick = onConnect,
+                colors = IconButtonDefaults.iconButtonColors(
+                    containerColor = MaterialTheme.colorScheme.primaryContainer,
+                    contentColor = MaterialTheme.colorScheme.onPrimaryContainer
+                )
+            ) {
+                Icon(
+                    Icons.Default.Add,
+                    contentDescription = stringResource(R.string.workflow_create_connection)
+                )
+            }
+        }
+    }
+}

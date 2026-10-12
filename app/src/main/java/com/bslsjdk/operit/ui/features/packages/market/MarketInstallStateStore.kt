@@ -1,1 +1,54 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwoKZW51bSBjbGFzcyBNYXJrZXRJbnN0YWxsU3RhZ2UgewogICAgQ09OTkVDVElORywKICAgIEZFVENISU5HX01FVEFEQVRBLAogICAgQ0hFQ0tJTkdfTE9DQUwsCiAgICBET1dOTE9BRElORywKICAgIFZFUklGWUlORywKICAgIElNUE9SVElOR19SRVBPU0lUT1JZLAogICAgSU1QT1JUSU5HX0NPTkZJRywKICAgIElOU1RBTExJTkcsCiAgICBSRUNPUkRJTkcKfQoKZGF0YSBjbGFzcyBNYXJrZXRJbnN0YWxsUHJvZ3Jlc3MoCiAgICB2YWwgZW50cnlJZDogU3RyaW5nLAogICAgdmFsIHN0YWdlOiBNYXJrZXRJbnN0YWxsU3RhZ2UsCiAgICB2YWwgcHJvZ3Jlc3M6IEZsb2F0PyA9IG51bGwKKQoKdHlwZWFsaWFzIE1hcmtldEluc3RhbGxQcm9ncmVzc1JlcG9ydGVyID0gKE1hcmtldEluc3RhbGxTdGFnZSwgRmxvYXQ/KSAtPiBVbml0CgpvYmplY3QgTWFya2V0SW5zdGFsbFN0YXRlU3RvcmUgewogICAgcHJpdmF0ZSB2YWwgX2luc3RhbGxTdGF0ZXMgPSBNdXRhYmxlU3RhdGVGbG93PE1hcDxTdHJpbmcsIE1hcmtldEluc3RhbGxQcm9ncmVzcz4+KGVtcHR5TWFwKCkpCiAgICB2YWwgaW5zdGFsbFN0YXRlczogU3RhdGVGbG93PE1hcDxTdHJpbmcsIE1hcmtldEluc3RhbGxQcm9ncmVzcz4+ID0gX2luc3RhbGxTdGF0ZXMuYXNTdGF0ZUZsb3coKQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBzdGFydChlbnRyeUlkOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwgaWQgPSBlbnRyeUlkLnRyaW0oKQogICAgICAgIGlmIChpZC5pc0JsYW5rKCkgfHwgX2luc3RhbGxTdGF0ZXMudmFsdWUuY29udGFpbnNLZXkoaWQpKSByZXR1cm4gZmFsc2UKICAgICAgICBfaW5zdGFsbFN0YXRlcy52YWx1ZSA9CiAgICAgICAgICAgIF9pbnN0YWxsU3RhdGVzLnZhbHVlICsgKGlkIHRvIE1hcmtldEluc3RhbGxQcm9ncmVzcyhpZCwgTWFya2V0SW5zdGFsbFN0YWdlLkNPTk5FQ1RJTkcpKQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHVwZGF0ZShlbnRyeUlkOiBTdHJpbmcsIHN0YWdlOiBNYXJrZXRJbnN0YWxsU3RhZ2UsIHByb2dyZXNzOiBGbG9hdD8gPSBudWxsKSB7CiAgICAgICAgdmFsIGlkID0gZW50cnlJZC50cmltKCkKICAgICAgICBpZiAoaWQuaXNCbGFuaygpIHx8ICFfaW5zdGFsbFN0YXRlcy52YWx1ZS5jb250YWluc0tleShpZCkpIHJldHVybgogICAgICAgIF9pbnN0YWxsU3RhdGVzLnZhbHVlID0KICAgICAgICAgICAgX2luc3RhbGxTdGF0ZXMudmFsdWUgKyAoaWQgdG8gTWFya2V0SW5zdGFsbFByb2dyZXNzKGlkLCBzdGFnZSwgcHJvZ3Jlc3M/LmNvZXJjZUluKDBmLCAxZikpKQogICAgfQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBmaW5pc2goZW50cnlJZDogU3RyaW5nKSB7CiAgICAgICAgdmFsIGlkID0gZW50cnlJZC50cmltKCkKICAgICAgICBpZiAoaWQuaXNCbGFuaygpIHx8ICFfaW5zdGFsbFN0YXRlcy52YWx1ZS5jb250YWluc0tleShpZCkpIHJldHVybgogICAgICAgIF9pbnN0YWxsU3RhdGVzLnZhbHVlID0gX2luc3RhbGxTdGF0ZXMudmFsdWUgLSBpZAogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.packages.market
+
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+enum class MarketInstallStage {
+    CONNECTING,
+    FETCHING_METADATA,
+    CHECKING_LOCAL,
+    DOWNLOADING,
+    VERIFYING,
+    IMPORTING_REPOSITORY,
+    IMPORTING_CONFIG,
+    INSTALLING,
+    RECORDING
+}
+
+data class MarketInstallProgress(
+    val entryId: String,
+    val stage: MarketInstallStage,
+    val progress: Float? = null
+)
+
+typealias MarketInstallProgressReporter = (MarketInstallStage, Float?) -> Unit
+
+object MarketInstallStateStore {
+    private val _installStates = MutableStateFlow<Map<String, MarketInstallProgress>>(emptyMap())
+    val installStates: StateFlow<Map<String, MarketInstallProgress>> = _installStates.asStateFlow()
+
+    @Synchronized
+    fun start(entryId: String): Boolean {
+        val id = entryId.trim()
+        if (id.isBlank() || _installStates.value.containsKey(id)) return false
+        _installStates.value =
+            _installStates.value + (id to MarketInstallProgress(id, MarketInstallStage.CONNECTING))
+        return true
+    }
+
+    @Synchronized
+    fun update(entryId: String, stage: MarketInstallStage, progress: Float? = null) {
+        val id = entryId.trim()
+        if (id.isBlank() || !_installStates.value.containsKey(id)) return
+        _installStates.value =
+            _installStates.value + (id to MarketInstallProgress(id, stage, progress?.coerceIn(0f, 1f)))
+    }
+
+    @Synchronized
+    fun finish(entryId: String) {
+        val id = entryId.trim()
+        if (id.isBlank() || !_installStates.value.containsKey(id)) return
+        _installStates.value = _installStates.value - id
+    }
+}

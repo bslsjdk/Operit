@@ -1,1 +1,62 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jYWxjdWxhdG9yCgppbXBvcnQgamF2YS51dGlsLkRhdGUKCi8qKiBDYWxjdWxhdG9y57G777yM5L2c5Li65a+5SnNDYWxjdWxhdG9y55qE6YCC6YWN5Zmo77yM5L+d5oyBQVBJ5YW85a655oCnICovCmNsYXNzIENhbGN1bGF0b3IgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgLyoqIOiuoeeul+ihqOi+vuW8jyAqLwogICAgICAgIGZ1biBldmFsRXhwcmVzc2lvbihleHByZXNzaW9uOiBTdHJpbmcpOiBEb3VibGUgewogICAgICAgICAgICByZXR1cm4gSnNDYWxjdWxhdG9yLmV2YWx1YXRlKGV4cHJlc3Npb24pCiAgICAgICAgfQoKICAgICAgICAvKiog6I635Y+W5Y+Y6YeP5YC8ICovCiAgICAgICAgZnVuIGdldFZhcmlhYmxlKG5hbWU6IFN0cmluZyk6IERvdWJsZT8gewogICAgICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgICAgIEpzQ2FsY3VsYXRvci5nZXRWYXJpYWJsZShuYW1lKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLyoqIOiuvue9ruWPmOmHj+WAvCAqLwogICAgICAgIGZ1biBzZXRWYXJpYWJsZShuYW1lOiBTdHJpbmcsIHZhbHVlOiBEb3VibGUpIHsKICAgICAgICAgICAgSnNDYWxjdWxhdG9yLnNldFZhcmlhYmxlKG5hbWUsIHZhbHVlKQogICAgICAgIH0KCiAgICAgICAgLyoqIOa4hemZpOaJgOacieWPmOmHjyAqLwogICAgICAgIGZ1biBjbGVhclZhcmlhYmxlcygpIHsKICAgICAgICAgICAgSnNDYWxjdWxhdG9yLmNsZWFyVmFyaWFibGVzKCkKICAgICAgICB9CgogICAgICAgIC8qKiDmoLzlvI/ljJbml6XmnJ8gKi8KICAgICAgICBmdW4gZm9ybWF0RGF0ZShkYXRlOiBEYXRlLCBmb3JtYXQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgICAgIHJldHVybiBKc0NhbGN1bGF0b3IuZm9ybWF0RGF0ZShkYXRlLCBmb3JtYXQpCiAgICAgICAgfQoKICAgICAgICAvKiog5qC85byP5YyW57uT5p6cICovCiAgICAgICAgZnVuIGZvcm1hdFJlc3VsdChyZXN1bHQ6IERvdWJsZSk6IFN0cmluZyB7CiAgICAgICAgICAgIHJldHVybiBKc0NhbGN1bGF0b3IuZm9ybWF0UmVzdWx0KHJlc3VsdCkKICAgICAgICB9CgogICAgICAgIC8qKiDojrflj5bmlK/mjIHnmoTljZXkvY3liJfooaggKi8KICAgICAgICBmdW4gZ2V0U3VwcG9ydGVkVW5pdHMoKTogTWFwPFN0cmluZywgTGlzdDxTdHJpbmc+PiB7CiAgICAgICAgICAgIHJldHVybiBKc0NhbGN1bGF0b3IuZ2V0U3VwcG9ydGVkVW5pdHMoKQogICAgICAgIH0KCiAgICAgICAgLyoqIOiOt+WPluaUr+aMgeeahOaXpeacn+WHveaVsCAqLwogICAgICAgIGZ1biBnZXRTdXBwb3J0ZWREYXRlRnVuY3Rpb25zKCk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgICAgIHJldHVybiBKc0NhbGN1bGF0b3IuZ2V0U3VwcG9ydGVkRGF0ZUZ1bmN0aW9ucygpCiAgICAgICAgfQoKICAgICAgICAvKiog6I635Y+W5pSv5oyB55qE57uf6K6h5Ye95pWwICovCiAgICAgICAgZnVuIGdldFN1cHBvcnRlZFN0YXRGdW5jdGlvbnMoKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICAgICAgcmV0dXJuIEpzQ2FsY3VsYXRvci5nZXRTdXBwb3J0ZWRTdGF0RnVuY3Rpb25zKCkKICAgICAgICB9CgogICAgICAgIC8qKiDojrflj5bmlK/mjIHnmoRKYXZhU2NyaXB054m55oCnICovCiAgICAgICAgZnVuIGdldFN1cHBvcnRlZEpzRmVhdHVyZXMoKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICAgICAgcmV0dXJuIEpzQ2FsY3VsYXRvci5nZXRTdXBwb3J0ZWRKc0ZlYXR1cmVzKCkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.calculator
+
+import java.util.Date
+
+/** Calculator类，作为对JsCalculator的适配器，保持API兼容性 */
+class Calculator {
+    companion object {
+        /** 计算表达式 */
+        fun evalExpression(expression: String): Double {
+            return JsCalculator.evaluate(expression)
+        }
+
+        /** 获取变量值 */
+        fun getVariable(name: String): Double? {
+            return try {
+                JsCalculator.getVariable(name)
+            } catch (e: Exception) {
+                null
+            }
+        }
+
+        /** 设置变量值 */
+        fun setVariable(name: String, value: Double) {
+            JsCalculator.setVariable(name, value)
+        }
+
+        /** 清除所有变量 */
+        fun clearVariables() {
+            JsCalculator.clearVariables()
+        }
+
+        /** 格式化日期 */
+        fun formatDate(date: Date, format: String): String {
+            return JsCalculator.formatDate(date, format)
+        }
+
+        /** 格式化结果 */
+        fun formatResult(result: Double): String {
+            return JsCalculator.formatResult(result)
+        }
+
+        /** 获取支持的单位列表 */
+        fun getSupportedUnits(): Map<String, List<String>> {
+            return JsCalculator.getSupportedUnits()
+        }
+
+        /** 获取支持的日期函数 */
+        fun getSupportedDateFunctions(): List<String> {
+            return JsCalculator.getSupportedDateFunctions()
+        }
+
+        /** 获取支持的统计函数 */
+        fun getSupportedStatFunctions(): List<String> {
+            return JsCalculator.getSupportedStatFunctions()
+        }
+
+        /** 获取支持的JavaScript特性 */
+        fun getSupportedJsFeatures(): List<String> {
+            return JsCalculator.getSupportedJsFeatures()
+        }
+    }
+}

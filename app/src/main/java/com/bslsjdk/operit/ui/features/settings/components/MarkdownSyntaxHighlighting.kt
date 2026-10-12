@@ -1,1 +1,600 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3MuY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi50ZXh0LmlucHV0Lk91dHB1dFRyYW5zZm9ybWF0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuU3BhblN0eWxlCgovLyBPdXRwdXQgdHJhbnNmb3JtYXRpb25zIHJ1biB3aGlsZSB0aGUgZmllbGQgaXMgcHJlc2VudGluZyBlZGl0cywgc28gbWFsZm9ybWVkIGRlbGltaXRlcnMgbXVzdAovLyBub3QgdHJpZ2dlciByZXBlYXRlZCB3aG9sZS1saW5lIHNlYXJjaGVzLgpwcml2YXRlIGNvbnN0IHZhbCBNQVhfSU5MSU5FX1RPS0VOX0xFTkdUSCA9IDUxMgoKaW50ZXJuYWwgZW51bSBjbGFzcyBNYXJrZG93blN5bnRheEtpbmQgewogICAgSEVBRElORywKICAgIEVNUEhBU0lTLAogICAgQ09ERSwKICAgIExJTkssCiAgICBRVU9URSwKICAgIE1BUktFUiwKICAgIENPTU1FTlQsCiAgICBIVE1MLAp9Cgpwcml2YXRlIGRhdGEgY2xhc3MgTWFya2Rvd25TeW50YXhDb2xvcnMoCiAgICB2YWwgaGVhZGluZzogQ29sb3IsCiAgICB2YWwgZW1waGFzaXM6IENvbG9yLAogICAgdmFsIGNvZGU6IENvbG9yLAogICAgdmFsIGxpbms6IENvbG9yLAogICAgdmFsIHF1b3RlOiBDb2xvciwKICAgIHZhbCBtYXJrZXI6IENvbG9yLAogICAgdmFsIGNvbW1lbnQ6IENvbG9yLAogICAgdmFsIGh0bWw6IENvbG9yLAopIHsKICAgIGZ1biBjb2xvckZvcihraW5kOiBNYXJrZG93blN5bnRheEtpbmQpOiBDb2xvciA9CiAgICAgICAgd2hlbiAoa2luZCkgewogICAgICAgICAgICBNYXJrZG93blN5bnRheEtpbmQuSEVBRElORyAtPiBoZWFkaW5nCiAgICAgICAgICAgIE1hcmtkb3duU3ludGF4S2luZC5FTVBIQVNJUyAtPiBlbXBoYXNpcwogICAgICAgICAgICBNYXJrZG93blN5bnRheEtpbmQuQ09ERSAtPiBjb2RlCiAgICAgICAgICAgIE1hcmtkb3duU3ludGF4S2luZC5MSU5LIC0+IGxpbmsKICAgICAgICAgICAgTWFya2Rvd25TeW50YXhLaW5kLlFVT1RFIC0+IHF1b3RlCiAgICAgICAgICAgIE1hcmtkb3duU3ludGF4S2luZC5NQVJLRVIgLT4gbWFya2VyCiAgICAgICAgICAgIE1hcmtkb3duU3ludGF4S2luZC5DT01NRU5UIC0+IGNvbW1lbnQKICAgICAgICAgICAgTWFya2Rvd25TeW50YXhLaW5kLkhUTUwgLT4gaHRtbAogICAgICAgIH0KfQoKQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIHJlbWVtYmVyTWFya2Rvd25TeW50YXhPdXRwdXRUcmFuc2Zvcm1hdGlvbigpOiBPdXRwdXRUcmFuc2Zvcm1hdGlvbiB7CiAgICB2YWwgY29sb3JTY2hlbWUgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lCiAgICB2YWwgY29sb3JzID0KICAgICAgICByZW1lbWJlcigKICAgICAgICAgICAgY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICAgICAgY29sb3JTY2hlbWUuc2Vjb25kYXJ5LAogICAgICAgICAgICBjb2xvclNjaGVtZS50ZXJ0aWFyeSwKICAgICAgICAgICAgY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICApIHsKICAgICAgICAgICAgTWFya2Rvd25TeW50YXhDb2xvcnMoCiAgICAgICAgICAgICAgICBoZWFkaW5nID0gY29sb3JTY2hlbWUudGVydGlhcnksCiAgICAgICAgICAgICAgICBlbXBoYXNpcyA9IGNvbG9yU2NoZW1lLnRlcnRpYXJ5LAogICAgICAgICAgICAgICAgY29kZSA9IGNvbG9yU2NoZW1lLnByaW1hcnksCiAgICAgICAgICAgICAgICBsaW5rID0gY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICAgICAgICAgIHF1b3RlID0gY29sb3JTY2hlbWUuc2Vjb25kYXJ5LAogICAgICAgICAgICAgICAgbWFya2VyID0gY29sb3JTY2hlbWUuc2Vjb25kYXJ5LAogICAgICAgICAgICAgICAgY29tbWVudCA9IGNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQsCiAgICAgICAgICAgICAgICBodG1sID0gY29sb3JTY2hlbWUuc2Vjb25kYXJ5LAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgIHJldHVybiByZW1lbWJlcihjb2xvcnMpIHsKICAgICAgICBPdXRwdXRUcmFuc2Zvcm1hdGlvbiB7CiAgICAgICAgICAgIC8vIFN0eWxlIGFubm90YXRpb25zIHByZXNlcnZlIHNvdXJjZSBvZmZzZXRzLCBzbyBzZWxlY3Rpb24sIElNRSBjb21wb3NpdGlvbiwgYW5kIHRoZQogICAgICAgICAgICAvLyBmaWVsZCdzIG93biBzY3JvbGwgc3RhdGUgY29udGludWUgdG8gdXNlIHRoZSBzYW1lIHRleHQgbGF5b3V0LgogICAgICAgICAgICBzY2FuTWFya2Rvd25TeW50YXgoYXNDaGFyU2VxdWVuY2UoKSkgeyBraW5kLCBzdGFydCwgZW5kIC0+CiAgICAgICAgICAgICAgICBhZGRTdHlsZShTcGFuU3R5bGUoY29sb3IgPSBjb2xvcnMuY29sb3JGb3Ioa2luZCkpLCBzdGFydCwgZW5kKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgppbnRlcm5hbCBmdW4gc2Nhbk1hcmtkb3duU3ludGF4KAogICAgc291cmNlOiBDaGFyU2VxdWVuY2UsCiAgICBlbWl0OiAoa2luZDogTWFya2Rvd25TeW50YXhLaW5kLCBzdGFydDogSW50LCBlbmQ6IEludCkgLT4gVW5pdCwKKSB7CiAgICB2YXIgbGluZVN0YXJ0ID0gMAogICAgdmFyIGZlbmNlTWFya2VyOiBDaGFyPyA9IG51bGwKICAgIHZhciBmZW5jZUxlbmd0aCA9IDAKICAgIHZhciBpbkh0bWxDb21tZW50ID0gZmFsc2UKCiAgICB3aGlsZSAobGluZVN0YXJ0IDwgc291cmNlLmxlbmd0aCkgewogICAgICAgIHZhbCBuZXdsaW5lID0gc291cmNlLmZpbmRDaGFyKCdcbicsIGxpbmVTdGFydCkKICAgICAgICB2YWwgcmF3TGluZUVuZCA9IGlmIChuZXdsaW5lID49IDApIG5ld2xpbmUgZWxzZSBzb3VyY2UubGVuZ3RoCiAgICAgICAgdmFsIGxpbmVFbmQgPQogICAgICAgICAgICBpZiAocmF3TGluZUVuZCA+IGxpbmVTdGFydCAmJiBzb3VyY2VbcmF3TGluZUVuZCAtIDFdID09ICdccicpIHsKICAgICAgICAgICAgICAgIHJhd0xpbmVFbmQgLSAxCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByYXdMaW5lRW5kCiAgICAgICAgICAgIH0KCiAgICAgICAgaWYgKGluSHRtbENvbW1lbnQpIHsKICAgICAgICAgICAgdmFsIGNvbW1lbnRFbmQgPSBzb3VyY2UuZmluZFNlcXVlbmNlKCItLT4iLCBsaW5lU3RhcnQsIGxpbmVFbmQpCiAgICAgICAgICAgIGlmIChjb21tZW50RW5kIDwgMCkgewogICAgICAgICAgICAgICAgZW1pdFJhbmdlKGVtaXQsIE1hcmtkb3duU3ludGF4S2luZC5DT01NRU5ULCBsaW5lU3RhcnQsIGxpbmVFbmQpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB2YWwgYWZ0ZXJDb21tZW50ID0gY29tbWVudEVuZCArIDMKICAgICAgICAgICAgICAgIGVtaXRSYW5nZShlbWl0LCBNYXJrZG93blN5bnRheEtpbmQuQ09NTUVOVCwgbGluZVN0YXJ0LCBhZnRlckNvbW1lbnQpCiAgICAgICAgICAgICAgICBpbkh0bWxDb21tZW50ID0gc2NhbklubGluZVN5bnRheChzb3VyY2UsIGFmdGVyQ29tbWVudCwgbGluZUVuZCwgZW1pdCkKICAgICAgICAgICAgfQogICAgICAgICAgICBsaW5lU3RhcnQgPSBuZXh0TGluZVN0YXJ0KG5ld2xpbmUsIHNvdXJjZS5sZW5ndGgpCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgfQoKICAgICAgICB2YWwgYmxvY2tTdGFydCA9IHNvdXJjZS5ibG9ja1N0YXJ0KGxpbmVTdGFydCwgbGluZUVuZCkKICAgICAgICB2YWwgYWN0aXZlRmVuY2VNYXJrZXIgPSBmZW5jZU1hcmtlcgogICAgICAgIGlmIChhY3RpdmVGZW5jZU1hcmtlciAhPSBudWxsKSB7CiAgICAgICAgICAgIGVtaXRSYW5nZShlbWl0LCBNYXJrZG93blN5bnRheEtpbmQuQ09ERSwgbGluZVN0YXJ0LCBsaW5lRW5kKQogICAgICAgICAgICBpZiAoCiAgICAgICAgICAgICAgICBibG9ja1N0YXJ0ID49IDAgJiYKICAgICAgICAgICAgICAgICAgICBzb3VyY2UuaXNDbG9zaW5nRmVuY2UoYmxvY2tTdGFydCwgbGluZUVuZCwgYWN0aXZlRmVuY2VNYXJrZXIsIGZlbmNlTGVuZ3RoKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIGZlbmNlTWFya2VyID0gbnVsbAogICAgICAgICAgICAgICAgZmVuY2VMZW5ndGggPSAwCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGluZVN0YXJ0ID0gbmV4dExpbmVTdGFydChuZXdsaW5lLCBzb3VyY2UubGVuZ3RoKQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIH0KCiAgICAgICAgaWYgKGJsb2NrU3RhcnQgPj0gMCkgewogICAgICAgICAgICB2YWwgb3BlbmluZ0ZlbmNlTGVuZ3RoID0gc291cmNlLmZlbmNlUnVuTGVuZ3RoKGJsb2NrU3RhcnQsIGxpbmVFbmQpCiAgICAgICAgICAgIHZhbCBtYXJrZXIgPSBpZiAoYmxvY2tTdGFydCA8IGxpbmVFbmQpIHNvdXJjZVtibG9ja1N0YXJ0XSBlbHNlIG51bGwKICAgICAgICAgICAgdmFsIHZhbGlkSW5mb1N0cmluZyA9CiAgICAgICAgICAgICAgICBtYXJrZXIgIT0gJ2AnIHx8ICFzb3VyY2UuY29udGFpbnMoJ2AnLCBibG9ja1N0YXJ0ICsgb3BlbmluZ0ZlbmNlTGVuZ3RoLCBsaW5lRW5kKQogICAgICAgICAgICBpZiAob3BlbmluZ0ZlbmNlTGVuZ3RoID49IDMgJiYgdmFsaWRJbmZvU3RyaW5nKSB7CiAgICAgICAgICAgICAgICBmZW5jZU1hcmtlciA9IHNvdXJjZVtibG9ja1N0YXJ0XQogICAgICAgICAgICAgICAgZmVuY2VMZW5ndGggPSBvcGVuaW5nRmVuY2VMZW5ndGgKICAgICAgICAgICAgICAgIGVtaXRSYW5nZShlbWl0LCBNYXJrZG93blN5bnRheEtpbmQuQ09ERSwgbGluZVN0YXJ0LCBsaW5lRW5kKQogICAgICAgICAgICAgICAgbGluZVN0YXJ0ID0gbmV4dExpbmVTdGFydChuZXdsaW5lLCBzb3VyY2UubGVuZ3RoKQogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaW5IdG1sQ29tbWVudCA9IHNjYW5NYXJrZG93bkxpbmUoc291cmNlLCBsaW5lU3RhcnQsIGxpbmVFbmQsIGJsb2NrU3RhcnQsIGVtaXQpCiAgICAgICAgbGluZVN0YXJ0ID0gbmV4dExpbmVTdGFydChuZXdsaW5lLCBzb3VyY2UubGVuZ3RoKQogICAgfQp9Cgpwcml2YXRlIGZ1biBzY2FuTWFya2Rvd25MaW5lKAogICAgc291cmNlOiBDaGFyU2VxdWVuY2UsCiAgICBsaW5lU3RhcnQ6IEludCwKICAgIGxpbmVFbmQ6IEludCwKICAgIGJsb2NrU3RhcnQ6IEludCwKICAgIGVtaXQ6IChNYXJrZG93blN5bnRheEtpbmQsIEludCwgSW50KSAtPiBVbml0LAopOiBCb29sZWFuIHsKICAgIGlmIChibG9ja1N0YXJ0IDwgMCB8fCBibG9ja1N0YXJ0ID49IGxpbmVFbmQpIHsKICAgICAgICByZXR1cm4gc2NhbklubGluZVN5bnRheChzb3VyY2UsIGxpbmVTdGFydCwgbGluZUVuZCwgZW1pdCkKICAgIH0KCiAgICB2YXIgY29udGVudFN0YXJ0ID0gYmxvY2tTdGFydAogICAgaWYgKHNvdXJjZVtjb250ZW50U3RhcnRdID09ICc+JykgewogICAgICAgIHZhbCBxdW90ZVN0YXJ0ID0gY29udGVudFN0YXJ0CiAgICAgICAgZG8gewogICAgICAgICAgICBjb250ZW50U3RhcnQrKwogICAgICAgICAgICBpZiAoY29udGVudFN0YXJ0IDwgbGluZUVuZCAmJiBzb3VyY2VbY29udGVudFN0YXJ0XSA9PSAnICcpIHsKICAgICAgICAgICAgICAgIGNvbnRlbnRTdGFydCsrCiAgICAgICAgICAgIH0KICAgICAgICB9IHdoaWxlIChjb250ZW50U3RhcnQgPCBsaW5lRW5kICYmIHNvdXJjZVtjb250ZW50U3RhcnRdID09ICc+JykKICAgICAgICBlbWl0UmFuZ2UoZW1pdCwgTWFya2Rvd25TeW50YXhLaW5kLlFVT1RFLCBxdW90ZVN0YXJ0LCBjb250ZW50U3RhcnQpCiAgICAgICAgY29udGVudFN0YXJ0ID0gc291cmNlLnNraXBXaGl0ZXNwYWNlKGNvbnRlbnRTdGFydCwgbGluZUVuZCkKICAgIH0KCiAgICB2YWwgaGVhZGluZ0VuZCA9IHNvdXJjZS5oZWFkaW5nTWFya2VyRW5kKGNvbnRlbnRTdGFydCwgbGluZUVuZCkKICAgIGlmIChoZWFkaW5nRW5kID4gY29udGVudFN0YXJ0KSB7CiAgICAgICAgZW1pdFJhbmdlKGVtaXQsIE1hcmtkb3duU3ludGF4S2luZC5NQVJLRVIsIGNvbnRlbnRTdGFydCwgaGVhZGluZ0VuZCkKICAgICAgICB2YWwgaGVhZGluZ1RleHRTdGFydCA9IHNvdXJjZS5za2lwV2hpdGVzcGFjZShoZWFkaW5nRW5kLCBsaW5lRW5kKQogICAgICAgIGVtaXRSYW5nZShlbWl0LCBNYXJrZG93blN5bnRheEtpbmQuSEVBRElORywgaGVhZGluZ1RleHRTdGFydCwgbGluZUVuZCkKICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICBpZiAoc291cmNlLmlzVGhlbWF0aWNCcmVhayhjb250ZW50U3RhcnQsIGxpbmVFbmQpKSB7CiAgICAgICAgZW1pdFJhbmdlKGVtaXQsIE1hcmtkb3duU3ludGF4S2luZC5NQVJLRVIsIGNvbnRlbnRTdGFydCwgbGluZUVuZCkKICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICB2YWwgbGlzdE1hcmtlckVuZCA9IHNvdXJjZS5saXN0TWFya2VyRW5kKGNvbnRlbnRTdGFydCwgbGluZUVuZCkKICAgIGlmIChsaXN0TWFya2VyRW5kID4gY29udGVudFN0YXJ0KSB7CiAgICAgICAgZW1pdFJhbmdlKGVtaXQsIE1hcmtkb3duU3ludGF4S2luZC5NQVJLRVIsIGNvbnRlbnRTdGFydCwgbGlzdE1hcmtlckVuZCkKICAgICAgICBjb250ZW50U3RhcnQgPSBzb3VyY2Uuc2tpcFdoaXRlc3BhY2UobGlzdE1hcmtlckVuZCwgbGluZUVuZCkKICAgICAgICB2YWwgdGFza01hcmtlckVuZCA9IHNvdXJjZS50YXNrTWFya2VyRW5kKGNvbnRlbnRTdGFydCwgbGluZUVuZCkKICAgICAgICBpZiAodGFza01hcmtlckVuZCA+IGNvbnRlbnRTdGFydCkgewogICAgICAgICAgICBlbWl0UmFuZ2UoZW1pdCwgTWFya2Rvd25TeW50YXhLaW5kLk1BUktFUiwgY29udGVudFN0YXJ0LCB0YXNrTWFya2VyRW5kKQogICAgICAgICAgICBjb250ZW50U3RhcnQgPSBzb3VyY2Uuc2tpcFdoaXRlc3BhY2UodGFza01hcmtlckVuZCwgbGluZUVuZCkKICAgICAgICB9CiAgICB9CgogICAgcmV0dXJuIHNjYW5JbmxpbmVTeW50YXgoc291cmNlLCBjb250ZW50U3RhcnQsIGxpbmVFbmQsIGVtaXQpCn0KCnByaXZhdGUgZnVuIHNjYW5JbmxpbmVTeW50YXgoCiAgICBzb3VyY2U6IENoYXJTZXF1ZW5jZSwKICAgIHN0YXJ0OiBJbnQsCiAgICBlbmQ6IEludCwKICAgIGVtaXQ6IChNYXJrZG93blN5bnRheEtpbmQsIEludCwgSW50KSAtPiBVbml0LAopOiBCb29sZWFuIHsKICAgIHZhciBpbmRleCA9IHN0YXJ0CiAgICB3aGlsZSAoaW5kZXggPCBlbmQpIHsKICAgICAgICB3aGVuIHsKICAgICAgICAgICAgc291cmNlW2luZGV4XSA9PSAnXFwnIC0+IHsKICAgICAgICAgICAgICAgIGluZGV4ID0gKGluZGV4ICsgMikuY29lcmNlQXRNb3N0KGVuZCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgc291cmNlLmhhc1ByZWZpeCgiPCEtLSIsIGluZGV4LCBlbmQpIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBjb21tZW50RW5kID0gc291cmNlLmZpbmRTZXF1ZW5jZSgiLS0+IiwgaW5kZXggKyA0LCBlbmQpCiAgICAgICAgICAgICAgICBpZiAoY29tbWVudEVuZCA8IDApIHsKICAgICAgICAgICAgICAgICAgICBlbWl0UmFuZ2UoZW1pdCwgTWFya2Rvd25TeW50YXhLaW5kLkNPTU1FTlQsIGluZGV4LCBlbmQpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhbCBhZnRlckNvbW1lbnQgPSBjb21tZW50RW5kICsgMwogICAgICAgICAgICAgICAgZW1pdFJhbmdlKGVtaXQsIE1hcmtkb3duU3ludGF4S2luZC5DT01NRU5ULCBpbmRleCwgYWZ0ZXJDb21tZW50KQogICAgICAgICAgICAgICAgaW5kZXggPSBhZnRlckNvbW1lbnQKICAgICAgICAgICAgfQoKICAgICAgICAgICAgc291cmNlW2luZGV4XSA9PSAnYCcgLT4gewogICAgICAgICAgICAgICAgdmFsIG1hcmtlckxlbmd0aCA9IHNvdXJjZS5ydW5MZW5ndGgoaW5kZXgsIGVuZCwgJ2AnKQogICAgICAgICAgICAgICAgdmFsIHNlYXJjaEVuZCA9IGlubGluZVRva2VuRW5kKGluZGV4LCBlbmQpCiAgICAgICAgICAgICAgICB2YWwgY2xvc2luZ1N0YXJ0ID0KICAgICAgICAgICAgICAgICAgICBzb3VyY2UuZmluZE1hdGNoaW5nUnVuKCdgJywgbWFya2VyTGVuZ3RoLCBpbmRleCArIG1hcmtlckxlbmd0aCwgc2VhcmNoRW5kKQogICAgICAgICAgICAgICAgaWYgKGNsb3NpbmdTdGFydCA+PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGNvZGVFbmQgPSBjbG9zaW5nU3RhcnQgKyBtYXJrZXJMZW5ndGgKICAgICAgICAgICAgICAgICAgICBlbWl0UmFuZ2UoZW1pdCwgTWFya2Rvd25TeW50YXhLaW5kLkNPREUsIGluZGV4LCBjb2RlRW5kKQogICAgICAgICAgICAgICAgICAgIGluZGV4ID0gY29kZUVuZAogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBpbmRleCArPSBtYXJrZXJMZW5ndGgKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgc291cmNlW2luZGV4XSA9PSAnWycgfHwKICAgICAgICAgICAgICAgIChzb3VyY2VbaW5kZXhdID09ICchJyAmJiBpbmRleCArIDEgPCBlbmQgJiYgc291cmNlW2luZGV4ICsgMV0gPT0gJ1snKSAtPiB7CiAgICAgICAgICAgICAgICB2YWwgbGlua0VuZCA9IHNvdXJjZS5saW5rRW5kKGluZGV4LCBlbmQpCiAgICAgICAgICAgICAgICBpZiAobGlua0VuZCA+IGluZGV4KSB7CiAgICAgICAgICAgICAgICAgICAgZW1pdFJhbmdlKGVtaXQsIE1hcmtkb3duU3ludGF4S2luZC5MSU5LLCBpbmRleCwgbGlua0VuZCkKICAgICAgICAgICAgICAgICAgICBpbmRleCA9IGxpbmtFbmQKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgaW5kZXgrKwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBzb3VyY2VbaW5kZXhdID09ICc8JyAtPiB7CiAgICAgICAgICAgICAgICB2YWwgYXV0b2xpbmtFbmQgPSBzb3VyY2UuYXV0b2xpbmtFbmQoaW5kZXgsIGVuZCkKICAgICAgICAgICAgICAgIGlmIChhdXRvbGlua0VuZCA+IGluZGV4KSB7CiAgICAgICAgICAgICAgICAgICAgZW1pdFJhbmdlKGVtaXQsIE1hcmtkb3duU3ludGF4S2luZC5MSU5LLCBpbmRleCwgYXV0b2xpbmtFbmQpCiAgICAgICAgICAgICAgICAgICAgaW5kZXggPSBhdXRvbGlua0VuZAogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICB2YWwgaHRtbEVuZCA9IHNvdXJjZS5odG1sVGFnRW5kKGluZGV4LCBlbmQpCiAgICAgICAgICAgICAgICAgICAgaWYgKGh0bWxFbmQgPiBpbmRleCkgewogICAgICAgICAgICAgICAgICAgICAgICBlbWl0UmFuZ2UoZW1pdCwgTWFya2Rvd25TeW50YXhLaW5kLkhUTUwsIGluZGV4LCBodG1sRW5kKQogICAgICAgICAgICAgICAgICAgICAgICBpbmRleCA9IGh0bWxFbmQKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBpbmRleCsrCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBzb3VyY2VbaW5kZXhdID09ICcqJyB8fCBzb3VyY2VbaW5kZXhdID09ICdfJyB8fCBzb3VyY2VbaW5kZXhdID09ICd+JyAtPiB7CiAgICAgICAgICAgICAgICB2YWwgbWFya2VyID0gc291cmNlW2luZGV4XQogICAgICAgICAgICAgICAgdmFsIG1hcmtlclJ1bkxlbmd0aCA9IHNvdXJjZS5ydW5MZW5ndGgoaW5kZXgsIGVuZCwgbWFya2VyKQogICAgICAgICAgICAgICAgdmFsIG1hcmtlckxlbmd0aCA9IGVtcGhhc2lzTWFya2VyTGVuZ3RoKG1hcmtlciwgbWFya2VyUnVuTGVuZ3RoKQogICAgICAgICAgICAgICAgaWYgKAogICAgICAgICAgICAgICAgICAgIG1hcmtlckxlbmd0aCA+IDAgJiYKICAgICAgICAgICAgICAgICAgICAgICAgc291cmNlLmNhbk9wZW5FbXBoYXNpcyhpbmRleCwgbWFya2VyTGVuZ3RoLCBlbmQpCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICB2YWwgZW1waGFzaXNFbmQgPSBzb3VyY2UuZW1waGFzaXNFbmQoaW5kZXgsIG1hcmtlckxlbmd0aCwgZW5kKQogICAgICAgICAgICAgICAgICAgIGlmIChlbXBoYXNpc0VuZCA+IGluZGV4KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGVtaXRSYW5nZShlbWl0LCBNYXJrZG93blN5bnRheEtpbmQuRU1QSEFTSVMsIGluZGV4LCBlbXBoYXNpc0VuZCkKICAgICAgICAgICAgICAgICAgICAgICAgaW5kZXggPSBlbXBoYXNpc0VuZAogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGluZGV4ICs9IG1hcmtlclJ1bkxlbmd0aAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgaW5kZXggKz0gbWFya2VyUnVuTGVuZ3RoCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHNvdXJjZVtpbmRleF0gPT0gJ3wnIC0+IHsKICAgICAgICAgICAgICAgIGVtaXRSYW5nZShlbWl0LCBNYXJrZG93blN5bnRheEtpbmQuTUFSS0VSLCBpbmRleCwgaW5kZXggKyAxKQogICAgICAgICAgICAgICAgaW5kZXgrKwogICAgICAgICAgICB9CgogICAgICAgICAgICBlbHNlIC0+IGluZGV4KysKICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gZmFsc2UKfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmJsb2NrU3RhcnQoc3RhcnQ6IEludCwgZW5kOiBJbnQpOiBJbnQgewogICAgdmFyIGluZGV4ID0gc3RhcnQKICAgIHZhciBzcGFjZXMgPSAwCiAgICB3aGlsZSAoaW5kZXggPCBlbmQgJiYgdGhpc1tpbmRleF0gPT0gJyAnICYmIHNwYWNlcyA8IDQpIHsKICAgICAgICBpbmRleCsrCiAgICAgICAgc3BhY2VzKysKICAgIH0KICAgIHJldHVybiBpZiAoc3BhY2VzIDw9IDMpIGluZGV4IGVsc2UgLTEKfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmZlbmNlUnVuTGVuZ3RoKHN0YXJ0OiBJbnQsIGVuZDogSW50KTogSW50IHsKICAgIGlmIChzdGFydCA+PSBlbmQgfHwgKHRoaXNbc3RhcnRdICE9ICdgJyAmJiB0aGlzW3N0YXJ0XSAhPSAnficpKSByZXR1cm4gMAogICAgcmV0dXJuIHJ1bkxlbmd0aChzdGFydCwgZW5kLCB0aGlzW3N0YXJ0XSkKfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmlzQ2xvc2luZ0ZlbmNlKAogICAgc3RhcnQ6IEludCwKICAgIGVuZDogSW50LAogICAgbWFya2VyOiBDaGFyLAogICAgb3BlbmluZ0xlbmd0aDogSW50LAopOiBCb29sZWFuIHsKICAgIGlmIChzdGFydCA+PSBlbmQgfHwgdGhpc1tzdGFydF0gIT0gbWFya2VyKSByZXR1cm4gZmFsc2UKICAgIHZhbCBydW5MZW5ndGggPSBydW5MZW5ndGgoc3RhcnQsIGVuZCwgbWFya2VyKQogICAgaWYgKHJ1bkxlbmd0aCA8IG9wZW5pbmdMZW5ndGgpIHJldHVybiBmYWxzZQogICAgdmFyIGluZGV4ID0gc3RhcnQgKyBydW5MZW5ndGgKICAgIHdoaWxlIChpbmRleCA8IGVuZCkgewogICAgICAgIGlmICghdGhpc1tpbmRleF0uaXNXaGl0ZXNwYWNlKCkpIHJldHVybiBmYWxzZQogICAgICAgIGluZGV4KysKICAgIH0KICAgIHJldHVybiB0cnVlCn0KCnByaXZhdGUgZnVuIENoYXJTZXF1ZW5jZS5oZWFkaW5nTWFya2VyRW5kKHN0YXJ0OiBJbnQsIGVuZDogSW50KTogSW50IHsKICAgIHZhciBpbmRleCA9IHN0YXJ0CiAgICB3aGlsZSAoaW5kZXggPCBlbmQgJiYgdGhpc1tpbmRleF0gPT0gJyMnICYmIGluZGV4IC0gc3RhcnQgPCA2KSB7CiAgICAgICAgaW5kZXgrKwogICAgfQogICAgdmFsIG1hcmtlckxlbmd0aCA9IGluZGV4IC0gc3RhcnQKICAgIHJldHVybiBpZiAobWFya2VyTGVuZ3RoIGluIDEuLjYgJiYgKGluZGV4ID09IGVuZCB8fCB0aGlzW2luZGV4XS5pc1doaXRlc3BhY2UoKSkpIGluZGV4IGVsc2UgLTEKfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmlzVGhlbWF0aWNCcmVhayhzdGFydDogSW50LCBlbmQ6IEludCk6IEJvb2xlYW4gewogICAgaWYgKHN0YXJ0ID49IGVuZCB8fCB0aGlzW3N0YXJ0XSAhaW4gY2hhckFycmF5T2YoJyonLCAnLScsICdfJykpIHJldHVybiBmYWxzZQogICAgdmFsIG1hcmtlciA9IHRoaXNbc3RhcnRdCiAgICB2YXIgbWFya2VyQ291bnQgPSAwCiAgICBmb3IgKGluZGV4IGluIHN0YXJ0IHVudGlsIGVuZCkgewogICAgICAgIHdoZW4gewogICAgICAgICAgICB0aGlzW2luZGV4XSA9PSBtYXJrZXIgLT4gbWFya2VyQ291bnQrKwogICAgICAgICAgICB0aGlzW2luZGV4XSA9PSAnICcgfHwgdGhpc1tpbmRleF0gPT0gJ1x0JyAtPiBVbml0CiAgICAgICAgICAgIGVsc2UgLT4gcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIG1hcmtlckNvdW50ID49IDMKfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmxpc3RNYXJrZXJFbmQoc3RhcnQ6IEludCwgZW5kOiBJbnQpOiBJbnQgewogICAgaWYgKHN0YXJ0ID49IGVuZCkgcmV0dXJuIC0xCiAgICBpZiAoCiAgICAgICAgdGhpc1tzdGFydF0gaW4gY2hhckFycmF5T2YoJy0nLCAnKycsICcqJykgJiYKICAgICAgICAgICAgc3RhcnQgKyAxIDwgZW5kICYmCiAgICAgICAgICAgIHRoaXNbc3RhcnQgKyAxXS5pc1doaXRlc3BhY2UoKQogICAgKSB7CiAgICAgICAgcmV0dXJuIHN0YXJ0ICsgMQogICAgfQoKICAgIHZhciBpbmRleCA9IHN0YXJ0CiAgICB3aGlsZSAoaW5kZXggPCBlbmQgJiYgdGhpc1tpbmRleF0uaXNEaWdpdCgpICYmIGluZGV4IC0gc3RhcnQgPCA5KSB7CiAgICAgICAgaW5kZXgrKwogICAgfQogICAgaWYgKAogICAgICAgIGluZGV4ID4gc3RhcnQgJiYKICAgICAgICAgICAgaW5kZXggPCBlbmQgJiYKICAgICAgICAgICAgdGhpc1tpbmRleF0gaW4gY2hhckFycmF5T2YoJy4nLCAnKScpICYmCiAgICAgICAgICAgIGluZGV4ICsgMSA8IGVuZCAmJgogICAgICAgICAgICB0aGlzW2luZGV4ICsgMV0uaXNXaGl0ZXNwYWNlKCkKICAgICkgewogICAgICAgIHJldHVybiBpbmRleCArIDEKICAgIH0KICAgIHJldHVybiAtMQp9Cgpwcml2YXRlIGZ1biBDaGFyU2VxdWVuY2UudGFza01hcmtlckVuZChzdGFydDogSW50LCBlbmQ6IEludCk6IEludCB7CiAgICBpZiAoCiAgICAgICAgc3RhcnQgKyAyIDwgZW5kICYmCiAgICAgICAgICAgIHRoaXNbc3RhcnRdID09ICdbJyAmJgogICAgICAgICAgICB0aGlzW3N0YXJ0ICsgMV0gaW4gY2hhckFycmF5T2YoJyAnLCAneCcsICdYJykgJiYKICAgICAgICAgICAgdGhpc1tzdGFydCArIDJdID09ICddJyAmJgogICAgICAgICAgICAoc3RhcnQgKyAzID09IGVuZCB8fCB0aGlzW3N0YXJ0ICsgM10uaXNXaGl0ZXNwYWNlKCkpCiAgICApIHsKICAgICAgICByZXR1cm4gc3RhcnQgKyAzCiAgICB9CiAgICByZXR1cm4gLTEKfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmxpbmtFbmQoc3RhcnQ6IEludCwgZW5kOiBJbnQpOiBJbnQgewogICAgdmFsIHNlYXJjaEVuZCA9IGlubGluZVRva2VuRW5kKHN0YXJ0LCBlbmQpCiAgICB2YWwgb3BlbmluZ0JyYWNrZXQgPSBpZiAodGhpc1tzdGFydF0gPT0gJyEnKSBzdGFydCArIDEgZWxzZSBzdGFydAogICAgdmFsIGxhYmVsRW5kID0gZmluZFVuZXNjYXBlZCgnXScsIG9wZW5pbmdCcmFja2V0ICsgMSwgc2VhcmNoRW5kKQogICAgaWYgKGxhYmVsRW5kIDwgMCB8fCBsYWJlbEVuZCArIDEgPj0gc2VhcmNoRW5kKSByZXR1cm4gLTEKCiAgICByZXR1cm4gd2hlbiAodGhpc1tsYWJlbEVuZCArIDFdKSB7CiAgICAgICAgJygnIC0+IGNsb3NpbmdQYXJlbnRoZXNpc0VuZChsYWJlbEVuZCArIDEsIHNlYXJjaEVuZCkKICAgICAgICAnWycgLT4gewogICAgICAgICAgICB2YWwgcmVmZXJlbmNlRW5kID0gZmluZFVuZXNjYXBlZCgnXScsIGxhYmVsRW5kICsgMiwgc2VhcmNoRW5kKQogICAgICAgICAgICBpZiAocmVmZXJlbmNlRW5kID49IDApIHJlZmVyZW5jZUVuZCArIDEgZWxzZSAtMQogICAgICAgIH0KICAgICAgICBlbHNlIC0+IC0xCiAgICB9Cn0KCnByaXZhdGUgZnVuIENoYXJTZXF1ZW5jZS5jbG9zaW5nUGFyZW50aGVzaXNFbmQoc3RhcnQ6IEludCwgZW5kOiBJbnQpOiBJbnQgewogICAgdmFyIGluZGV4ID0gc3RhcnQKICAgIHZhciBkZXB0aCA9IDAKICAgIHZhciBxdW90ZTogQ2hhcj8gPSBudWxsCiAgICB3aGlsZSAoaW5kZXggPCBlbmQpIHsKICAgICAgICB2YWwgY3VycmVudCA9IHRoaXNbaW5kZXhdCiAgICAgICAgaWYgKGN1cnJlbnQgPT0gJ1xcJykgewogICAgICAgICAgICBpbmRleCArPSAyCiAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgfQogICAgICAgIHZhbCBhY3RpdmVRdW90ZSA9IHF1b3RlCiAgICAgICAgaWYgKGFjdGl2ZVF1b3RlICE9IG51bGwpIHsKICAgICAgICAgICAgaWYgKGN1cnJlbnQgPT0gYWN0aXZlUXVvdGUpIHF1b3RlID0gbnVsbAogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHdoZW4gKGN1cnJlbnQpIHsKICAgICAgICAgICAgICAgICdcJycsICciJyAtPiBxdW90ZSA9IGN1cnJlbnQKICAgICAgICAgICAgICAgICcoJyAtPiBkZXB0aCsrCiAgICAgICAgICAgICAgICAnKScgLT4gewogICAgICAgICAgICAgICAgICAgIGRlcHRoLS0KICAgICAgICAgICAgICAgICAgICBpZiAoZGVwdGggPT0gMCkgcmV0dXJuIGluZGV4ICsgMQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGluZGV4KysKICAgIH0KICAgIHJldHVybiAtMQp9Cgpwcml2YXRlIGZ1biBDaGFyU2VxdWVuY2UuaHRtbFRhZ0VuZChzdGFydDogSW50LCBlbmQ6IEludCk6IEludCB7CiAgICB2YWwgc2VhcmNoRW5kID0gaW5saW5lVG9rZW5FbmQoc3RhcnQsIGVuZCkKICAgIGlmIChzdGFydCArIDEgPj0gc2VhcmNoRW5kKSByZXR1cm4gLTEKICAgIHZhbCBmaXJzdCA9IHRoaXNbc3RhcnQgKyAxXQogICAgaWYgKCEoZmlyc3QuaXNMZXR0ZXIoKSB8fCBmaXJzdCBpbiBjaGFyQXJyYXlPZignLycsICchJywgJz8nKSkpIHJldHVybiAtMQoKICAgIHZhciBpbmRleCA9IHN0YXJ0ICsgMgogICAgdmFyIHF1b3RlOiBDaGFyPyA9IG51bGwKICAgIHdoaWxlIChpbmRleCA8IHNlYXJjaEVuZCkgewogICAgICAgIHZhbCBjdXJyZW50ID0gdGhpc1tpbmRleF0KICAgICAgICBpZiAoY3VycmVudCA9PSAnXFwnKSB7CiAgICAgICAgICAgIGluZGV4ICs9IDIKICAgICAgICAgICAgY29udGludWUKICAgICAgICB9CiAgICAgICAgdmFsIGFjdGl2ZVF1b3RlID0gcXVvdGUKICAgICAgICBpZiAoYWN0aXZlUXVvdGUgIT0gbnVsbCkgewogICAgICAgICAgICBpZiAoY3VycmVudCA9PSBhY3RpdmVRdW90ZSkgcXVvdGUgPSBudWxsCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgd2hlbiAoY3VycmVudCkgewogICAgICAgICAgICAgICAgJ1wnJywgJyInIC0+IHF1b3RlID0gY3VycmVudAogICAgICAgICAgICAgICAgJz4nIC0+IHJldHVybiBpbmRleCArIDEKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBpbmRleCsrCiAgICB9CiAgICByZXR1cm4gLTEKfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmF1dG9saW5rRW5kKHN0YXJ0OiBJbnQsIGVuZDogSW50KTogSW50IHsKICAgIHZhbCBjbG9zaW5nQnJhY2tldCA9IGZpbmRVbmVzY2FwZWQoJz4nLCBzdGFydCArIDEsIGlubGluZVRva2VuRW5kKHN0YXJ0LCBlbmQpKQogICAgaWYgKGNsb3NpbmdCcmFja2V0IDwgMCkgcmV0dXJuIC0xCgogICAgdmFyIGhhc1NjaGVtZVNlcGFyYXRvciA9IGZhbHNlCiAgICB2YXIgaGFzRW1haWxTZXBhcmF0b3IgPSBmYWxzZQogICAgZm9yIChpbmRleCBpbiBzdGFydCArIDEgdW50aWwgY2xvc2luZ0JyYWNrZXQpIHsKICAgICAgICB2YWwgY3VycmVudCA9IHRoaXNbaW5kZXhdCiAgICAgICAgaWYgKGN1cnJlbnQuaXNXaGl0ZXNwYWNlKCkgfHwgY3VycmVudCA9PSAnPCcpIHJldHVybiAtMQogICAgICAgIGlmIChjdXJyZW50ID09ICc6JykgaGFzU2NoZW1lU2VwYXJhdG9yID0gdHJ1ZQogICAgICAgIGlmIChjdXJyZW50ID09ICdAJykgaGFzRW1haWxTZXBhcmF0b3IgPSB0cnVlCiAgICB9CiAgICByZXR1cm4gaWYgKGhhc1NjaGVtZVNlcGFyYXRvciB8fCBoYXNFbWFpbFNlcGFyYXRvcikgY2xvc2luZ0JyYWNrZXQgKyAxIGVsc2UgLTEKfQoKcHJpdmF0ZSBmdW4gZW1waGFzaXNNYXJrZXJMZW5ndGgobWFya2VyOiBDaGFyLCBhdmFpbGFibGVSdW46IEludCk6IEludCB7CiAgICByZXR1cm4gd2hlbiAobWFya2VyKSB7CiAgICAgICAgJ34nIC0+IGlmIChhdmFpbGFibGVSdW4gPj0gMikgMiBlbHNlIC0xCiAgICAgICAgJyonLCAnXycgLT4gYXZhaWxhYmxlUnVuLmNvZXJjZUF0TW9zdCgzKQogICAgICAgIGVsc2UgLT4gLTEKICAgIH0KfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmNhbk9wZW5FbXBoYXNpcyhzdGFydDogSW50LCBtYXJrZXJMZW5ndGg6IEludCwgZW5kOiBJbnQpOiBCb29sZWFuIHsKICAgIHZhbCBjb250ZW50U3RhcnQgPSBzdGFydCArIG1hcmtlckxlbmd0aAogICAgaWYgKGNvbnRlbnRTdGFydCA+PSBlbmQgfHwgdGhpc1tjb250ZW50U3RhcnRdLmlzV2hpdGVzcGFjZSgpKSByZXR1cm4gZmFsc2UKICAgIGlmICh0aGlzW3N0YXJ0XSA9PSAnXycgJiYgc3RhcnQgPiAwICYmIHRoaXNbc3RhcnQgLSAxXS5pc0xldHRlck9yRGlnaXQoKSkgcmV0dXJuIGZhbHNlCiAgICByZXR1cm4gdHJ1ZQp9Cgpwcml2YXRlIGZ1biBDaGFyU2VxdWVuY2UuZW1waGFzaXNFbmQoc3RhcnQ6IEludCwgbWFya2VyTGVuZ3RoOiBJbnQsIGVuZDogSW50KTogSW50IHsKICAgIHZhbCBtYXJrZXIgPSB0aGlzW3N0YXJ0XQogICAgdmFsIGNvbnRlbnRTdGFydCA9IHN0YXJ0ICsgbWFya2VyTGVuZ3RoCiAgICB2YWwgc2VhcmNoRW5kID0gaW5saW5lVG9rZW5FbmQoc3RhcnQsIGVuZCkKICAgIHZhciBjbG9zaW5nU3RhcnQgPSBmaW5kTWF0Y2hpbmdSdW4obWFya2VyLCBtYXJrZXJMZW5ndGgsIGNvbnRlbnRTdGFydCwgc2VhcmNoRW5kKQogICAgd2hpbGUgKGNsb3NpbmdTdGFydCA+PSAwKSB7CiAgICAgICAgdmFsIGFmdGVyQ2xvc2luZyA9IGNsb3NpbmdTdGFydCArIG1hcmtlckxlbmd0aAogICAgICAgIHZhbCB2YWxpZENsb3NpbmcgPQogICAgICAgICAgICBjbG9zaW5nU3RhcnQgPiBjb250ZW50U3RhcnQgJiYKICAgICAgICAgICAgICAgICF0aGlzW2Nsb3NpbmdTdGFydCAtIDFdLmlzV2hpdGVzcGFjZSgpICYmCiAgICAgICAgICAgICAgICAobWFya2VyICE9ICdfJyB8fCBhZnRlckNsb3NpbmcgPT0gZW5kIHx8ICF0aGlzW2FmdGVyQ2xvc2luZ10uaXNMZXR0ZXJPckRpZ2l0KCkpCiAgICAgICAgaWYgKHZhbGlkQ2xvc2luZykgcmV0dXJuIGFmdGVyQ2xvc2luZwogICAgICAgIGNsb3NpbmdTdGFydCA9IGZpbmRNYXRjaGluZ1J1bihtYXJrZXIsIG1hcmtlckxlbmd0aCwgYWZ0ZXJDbG9zaW5nLCBzZWFyY2hFbmQpCiAgICB9CiAgICByZXR1cm4gLTEKfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmZpbmRNYXRjaGluZ1J1bigKICAgIG1hcmtlcjogQ2hhciwKICAgIGxlbmd0aDogSW50LAogICAgc3RhcnQ6IEludCwKICAgIGVuZDogSW50LAopOiBJbnQgewogICAgdmFyIGluZGV4ID0gc3RhcnQKICAgIHdoaWxlIChpbmRleCA8IGVuZCkgewogICAgICAgIGlmICh0aGlzW2luZGV4XSA9PSAnXFwnKSB7CiAgICAgICAgICAgIGluZGV4ICs9IDIKICAgICAgICAgICAgY29udGludWUKICAgICAgICB9CiAgICAgICAgaWYgKHRoaXNbaW5kZXhdID09IG1hcmtlcikgewogICAgICAgICAgICB2YWwgY2FuZGlkYXRlTGVuZ3RoID0gcnVuTGVuZ3RoKGluZGV4LCBlbmQsIG1hcmtlcikKICAgICAgICAgICAgaWYgKGNhbmRpZGF0ZUxlbmd0aCA9PSBsZW5ndGgpIHJldHVybiBpbmRleAogICAgICAgICAgICBpbmRleCArPSBjYW5kaWRhdGVMZW5ndGgKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBpbmRleCsrCiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIC0xCn0KCnByaXZhdGUgZnVuIENoYXJTZXF1ZW5jZS5maW5kVW5lc2NhcGVkKHRhcmdldDogQ2hhciwgc3RhcnQ6IEludCwgZW5kOiBJbnQpOiBJbnQgewogICAgdmFyIGluZGV4ID0gc3RhcnQKICAgIHdoaWxlIChpbmRleCA8IGVuZCkgewogICAgICAgIGlmICh0aGlzW2luZGV4XSA9PSAnXFwnKSB7CiAgICAgICAgICAgIGluZGV4ICs9IDIKICAgICAgICB9IGVsc2UgaWYgKHRoaXNbaW5kZXhdID09IHRhcmdldCkgewogICAgICAgICAgICByZXR1cm4gaW5kZXgKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBpbmRleCsrCiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIC0xCn0KCnByaXZhdGUgZnVuIENoYXJTZXF1ZW5jZS5jb250YWlucyh0YXJnZXQ6IENoYXIsIHN0YXJ0OiBJbnQsIGVuZDogSW50KTogQm9vbGVhbiB7CiAgICBmb3IgKGluZGV4IGluIHN0YXJ0IHVudGlsIGVuZCkgewogICAgICAgIGlmICh0aGlzW2luZGV4XSA9PSB0YXJnZXQpIHJldHVybiB0cnVlCiAgICB9CiAgICByZXR1cm4gZmFsc2UKfQoKcHJpdmF0ZSBmdW4gQ2hhclNlcXVlbmNlLmZpbmRDaGFyKHRhcmdldDogQ2hhciwgc3RhcnQ6IEludCk6IEludCB7CiAgICBmb3IgKGluZGV4IGluIHN0YXJ0IHVudGlsIGxlbmd0aCkgewogICAgICAgIGlmICh0aGlzW2luZGV4XSA9PSB0YXJnZXQpIHJldHVybiBpbmRleAogICAgfQogICAgcmV0dXJuIC0xCn0KCnByaXZhdGUgZnVuIENoYXJTZXF1ZW5jZS5maW5kU2VxdWVuY2UodGFyZ2V0OiBTdHJpbmcsIHN0YXJ0OiBJbnQsIGVuZDogSW50KTogSW50IHsKICAgIHZhciBpbmRleCA9IHN0YXJ0CiAgICB3aGlsZSAoaW5kZXggKyB0YXJnZXQubGVuZ3RoIDw9IGVuZCkgewogICAgICAgIGlmIChoYXNQcmVmaXgodGFyZ2V0LCBpbmRleCwgZW5kKSkgcmV0dXJuIGluZGV4CiAgICAgICAgaW5kZXgrKwogICAgfQogICAgcmV0dXJuIC0xCn0KCnByaXZhdGUgZnVuIENoYXJTZXF1ZW5jZS5oYXNQcmVmaXgodGFyZ2V0OiBTdHJpbmcsIHN0YXJ0OiBJbnQsIGVuZDogSW50KTogQm9vbGVhbiB7CiAgICBpZiAoc3RhcnQgPCAwIHx8IHN0YXJ0ICsgdGFyZ2V0Lmxlbmd0aCA+IGVuZCkgcmV0dXJuIGZhbHNlCiAgICBmb3IgKG9mZnNldCBpbiB0YXJnZXQuaW5kaWNlcykgewogICAgICAgIGlmICh0aGlzW3N0YXJ0ICsgb2Zmc2V0XSAhPSB0YXJnZXRbb2Zmc2V0XSkgcmV0dXJuIGZhbHNlCiAgICB9CiAgICByZXR1cm4gdHJ1ZQp9Cgpwcml2YXRlIGZ1biBDaGFyU2VxdWVuY2UucnVuTGVuZ3RoKHN0YXJ0OiBJbnQsIGVuZDogSW50LCBtYXJrZXI6IENoYXIpOiBJbnQgewogICAgdmFyIGluZGV4ID0gc3RhcnQKICAgIHdoaWxlIChpbmRleCA8IGVuZCAmJiB0aGlzW2luZGV4XSA9PSBtYXJrZXIpIGluZGV4KysKICAgIHJldHVybiBpbmRleCAtIHN0YXJ0Cn0KCnByaXZhdGUgZnVuIENoYXJTZXF1ZW5jZS5za2lwV2hpdGVzcGFjZShzdGFydDogSW50LCBlbmQ6IEludCk6IEludCB7CiAgICB2YXIgaW5kZXggPSBzdGFydAogICAgd2hpbGUgKGluZGV4IDwgZW5kICYmIHRoaXNbaW5kZXhdLmlzV2hpdGVzcGFjZSgpKSBpbmRleCsrCiAgICByZXR1cm4gaW5kZXgKfQoKcHJpdmF0ZSBmdW4gZW1pdFJhbmdlKAogICAgZW1pdDogKE1hcmtkb3duU3ludGF4S2luZCwgSW50LCBJbnQpIC0+IFVuaXQsCiAgICBraW5kOiBNYXJrZG93blN5bnRheEtpbmQsCiAgICBzdGFydDogSW50LAogICAgZW5kOiBJbnQsCikgewogICAgaWYgKHN0YXJ0IDwgZW5kKSBlbWl0KGtpbmQsIHN0YXJ0LCBlbmQpCn0KCnByaXZhdGUgZnVuIG5leHRMaW5lU3RhcnQobmV3bGluZTogSW50LCB0ZXh0TGVuZ3RoOiBJbnQpOiBJbnQgPQogICAgaWYgKG5ld2xpbmUgPj0gMCkgbmV3bGluZSArIDEgZWxzZSB0ZXh0TGVuZ3RoCgpwcml2YXRlIGZ1biBpbmxpbmVUb2tlbkVuZChzdGFydDogSW50LCBsaW5lRW5kOiBJbnQpOiBJbnQgPQogICAgKHN0YXJ0ICsgTUFYX0lOTElORV9UT0tFTl9MRU5HVEgpLmNvZXJjZUF0TW9zdChsaW5lRW5kKQo=
+package com.bslsjdk.operit.ui.features.settings.components
+
+import androidx.compose.foundation.text.input.OutputTransformation
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.SpanStyle
+
+// Output transformations run while the field is presenting edits, so malformed delimiters must
+// not trigger repeated whole-line searches.
+private const val MAX_INLINE_TOKEN_LENGTH = 512
+
+internal enum class MarkdownSyntaxKind {
+    HEADING,
+    EMPHASIS,
+    CODE,
+    LINK,
+    QUOTE,
+    MARKER,
+    COMMENT,
+    HTML,
+}
+
+private data class MarkdownSyntaxColors(
+    val heading: Color,
+    val emphasis: Color,
+    val code: Color,
+    val link: Color,
+    val quote: Color,
+    val marker: Color,
+    val comment: Color,
+    val html: Color,
+) {
+    fun colorFor(kind: MarkdownSyntaxKind): Color =
+        when (kind) {
+            MarkdownSyntaxKind.HEADING -> heading
+            MarkdownSyntaxKind.EMPHASIS -> emphasis
+            MarkdownSyntaxKind.CODE -> code
+            MarkdownSyntaxKind.LINK -> link
+            MarkdownSyntaxKind.QUOTE -> quote
+            MarkdownSyntaxKind.MARKER -> marker
+            MarkdownSyntaxKind.COMMENT -> comment
+            MarkdownSyntaxKind.HTML -> html
+        }
+}
+
+@Composable
+internal fun rememberMarkdownSyntaxOutputTransformation(): OutputTransformation {
+    val colorScheme = MaterialTheme.colorScheme
+    val colors =
+        remember(
+            colorScheme.primary,
+            colorScheme.secondary,
+            colorScheme.tertiary,
+            colorScheme.onSurfaceVariant,
+        ) {
+            MarkdownSyntaxColors(
+                heading = colorScheme.tertiary,
+                emphasis = colorScheme.tertiary,
+                code = colorScheme.primary,
+                link = colorScheme.primary,
+                quote = colorScheme.secondary,
+                marker = colorScheme.secondary,
+                comment = colorScheme.onSurfaceVariant,
+                html = colorScheme.secondary,
+            )
+        }
+
+    return remember(colors) {
+        OutputTransformation {
+            // Style annotations preserve source offsets, so selection, IME composition, and the
+            // field's own scroll state continue to use the same text layout.
+            scanMarkdownSyntax(asCharSequence()) { kind, start, end ->
+                addStyle(SpanStyle(color = colors.colorFor(kind)), start, end)
+            }
+        }
+    }
+}
+
+internal fun scanMarkdownSyntax(
+    source: CharSequence,
+    emit: (kind: MarkdownSyntaxKind, start: Int, end: Int) -> Unit,
+) {
+    var lineStart = 0
+    var fenceMarker: Char? = null
+    var fenceLength = 0
+    var inHtmlComment = false
+
+    while (lineStart < source.length) {
+        val newline = source.findChar('\n', lineStart)
+        val rawLineEnd = if (newline >= 0) newline else source.length
+        val lineEnd =
+            if (rawLineEnd > lineStart && source[rawLineEnd - 1] == '\r') {
+                rawLineEnd - 1
+            } else {
+                rawLineEnd
+            }
+
+        if (inHtmlComment) {
+            val commentEnd = source.findSequence("-->", lineStart, lineEnd)
+            if (commentEnd < 0) {
+                emitRange(emit, MarkdownSyntaxKind.COMMENT, lineStart, lineEnd)
+            } else {
+                val afterComment = commentEnd + 3
+                emitRange(emit, MarkdownSyntaxKind.COMMENT, lineStart, afterComment)
+                inHtmlComment = scanInlineSyntax(source, afterComment, lineEnd, emit)
+            }
+            lineStart = nextLineStart(newline, source.length)
+            continue
+        }
+
+        val blockStart = source.blockStart(lineStart, lineEnd)
+        val activeFenceMarker = fenceMarker
+        if (activeFenceMarker != null) {
+            emitRange(emit, MarkdownSyntaxKind.CODE, lineStart, lineEnd)
+            if (
+                blockStart >= 0 &&
+                    source.isClosingFence(blockStart, lineEnd, activeFenceMarker, fenceLength)
+            ) {
+                fenceMarker = null
+                fenceLength = 0
+            }
+            lineStart = nextLineStart(newline, source.length)
+            continue
+        }
+
+        if (blockStart >= 0) {
+            val openingFenceLength = source.fenceRunLength(blockStart, lineEnd)
+            val marker = if (blockStart < lineEnd) source[blockStart] else null
+            val validInfoString =
+                marker != '`' || !source.contains('`', blockStart + openingFenceLength, lineEnd)
+            if (openingFenceLength >= 3 && validInfoString) {
+                fenceMarker = source[blockStart]
+                fenceLength = openingFenceLength
+                emitRange(emit, MarkdownSyntaxKind.CODE, lineStart, lineEnd)
+                lineStart = nextLineStart(newline, source.length)
+                continue
+            }
+        }
+
+        inHtmlComment = scanMarkdownLine(source, lineStart, lineEnd, blockStart, emit)
+        lineStart = nextLineStart(newline, source.length)
+    }
+}
+
+private fun scanMarkdownLine(
+    source: CharSequence,
+    lineStart: Int,
+    lineEnd: Int,
+    blockStart: Int,
+    emit: (MarkdownSyntaxKind, Int, Int) -> Unit,
+): Boolean {
+    if (blockStart < 0 || blockStart >= lineEnd) {
+        return scanInlineSyntax(source, lineStart, lineEnd, emit)
+    }
+
+    var contentStart = blockStart
+    if (source[contentStart] == '>') {
+        val quoteStart = contentStart
+        do {
+            contentStart++
+            if (contentStart < lineEnd && source[contentStart] == ' ') {
+                contentStart++
+            }
+        } while (contentStart < lineEnd && source[contentStart] == '>')
+        emitRange(emit, MarkdownSyntaxKind.QUOTE, quoteStart, contentStart)
+        contentStart = source.skipWhitespace(contentStart, lineEnd)
+    }
+
+    val headingEnd = source.headingMarkerEnd(contentStart, lineEnd)
+    if (headingEnd > contentStart) {
+        emitRange(emit, MarkdownSyntaxKind.MARKER, contentStart, headingEnd)
+        val headingTextStart = source.skipWhitespace(headingEnd, lineEnd)
+        emitRange(emit, MarkdownSyntaxKind.HEADING, headingTextStart, lineEnd)
+        return false
+    }
+
+    if (source.isThematicBreak(contentStart, lineEnd)) {
+        emitRange(emit, MarkdownSyntaxKind.MARKER, contentStart, lineEnd)
+        return false
+    }
+
+    val listMarkerEnd = source.listMarkerEnd(contentStart, lineEnd)
+    if (listMarkerEnd > contentStart) {
+        emitRange(emit, MarkdownSyntaxKind.MARKER, contentStart, listMarkerEnd)
+        contentStart = source.skipWhitespace(listMarkerEnd, lineEnd)
+        val taskMarkerEnd = source.taskMarkerEnd(contentStart, lineEnd)
+        if (taskMarkerEnd > contentStart) {
+            emitRange(emit, MarkdownSyntaxKind.MARKER, contentStart, taskMarkerEnd)
+            contentStart = source.skipWhitespace(taskMarkerEnd, lineEnd)
+        }
+    }
+
+    return scanInlineSyntax(source, contentStart, lineEnd, emit)
+}
+
+private fun scanInlineSyntax(
+    source: CharSequence,
+    start: Int,
+    end: Int,
+    emit: (MarkdownSyntaxKind, Int, Int) -> Unit,
+): Boolean {
+    var index = start
+    while (index < end) {
+        when {
+            source[index] == '\\' -> {
+                index = (index + 2).coerceAtMost(end)
+            }
+
+            source.hasPrefix("<!--", index, end) -> {
+                val commentEnd = source.findSequence("-->", index + 4, end)
+                if (commentEnd < 0) {
+                    emitRange(emit, MarkdownSyntaxKind.COMMENT, index, end)
+                    return true
+                }
+                val afterComment = commentEnd + 3
+                emitRange(emit, MarkdownSyntaxKind.COMMENT, index, afterComment)
+                index = afterComment
+            }
+
+            source[index] == '`' -> {
+                val markerLength = source.runLength(index, end, '`')
+                val searchEnd = inlineTokenEnd(index, end)
+                val closingStart =
+                    source.findMatchingRun('`', markerLength, index + markerLength, searchEnd)
+                if (closingStart >= 0) {
+                    val codeEnd = closingStart + markerLength
+                    emitRange(emit, MarkdownSyntaxKind.CODE, index, codeEnd)
+                    index = codeEnd
+                } else {
+                    index += markerLength
+                }
+            }
+
+            source[index] == '[' ||
+                (source[index] == '!' && index + 1 < end && source[index + 1] == '[') -> {
+                val linkEnd = source.linkEnd(index, end)
+                if (linkEnd > index) {
+                    emitRange(emit, MarkdownSyntaxKind.LINK, index, linkEnd)
+                    index = linkEnd
+                } else {
+                    index++
+                }
+            }
+
+            source[index] == '<' -> {
+                val autolinkEnd = source.autolinkEnd(index, end)
+                if (autolinkEnd > index) {
+                    emitRange(emit, MarkdownSyntaxKind.LINK, index, autolinkEnd)
+                    index = autolinkEnd
+                } else {
+                    val htmlEnd = source.htmlTagEnd(index, end)
+                    if (htmlEnd > index) {
+                        emitRange(emit, MarkdownSyntaxKind.HTML, index, htmlEnd)
+                        index = htmlEnd
+                    } else {
+                        index++
+                    }
+                }
+            }
+
+            source[index] == '*' || source[index] == '_' || source[index] == '~' -> {
+                val marker = source[index]
+                val markerRunLength = source.runLength(index, end, marker)
+                val markerLength = emphasisMarkerLength(marker, markerRunLength)
+                if (
+                    markerLength > 0 &&
+                        source.canOpenEmphasis(index, markerLength, end)
+                ) {
+                    val emphasisEnd = source.emphasisEnd(index, markerLength, end)
+                    if (emphasisEnd > index) {
+                        emitRange(emit, MarkdownSyntaxKind.EMPHASIS, index, emphasisEnd)
+                        index = emphasisEnd
+                    } else {
+                        index += markerRunLength
+                    }
+                } else {
+                    index += markerRunLength
+                }
+            }
+
+            source[index] == '|' -> {
+                emitRange(emit, MarkdownSyntaxKind.MARKER, index, index + 1)
+                index++
+            }
+
+            else -> index++
+        }
+    }
+    return false
+}
+
+private fun CharSequence.blockStart(start: Int, end: Int): Int {
+    var index = start
+    var spaces = 0
+    while (index < end && this[index] == ' ' && spaces < 4) {
+        index++
+        spaces++
+    }
+    return if (spaces <= 3) index else -1
+}
+
+private fun CharSequence.fenceRunLength(start: Int, end: Int): Int {
+    if (start >= end || (this[start] != '`' && this[start] != '~')) return 0
+    return runLength(start, end, this[start])
+}
+
+private fun CharSequence.isClosingFence(
+    start: Int,
+    end: Int,
+    marker: Char,
+    openingLength: Int,
+): Boolean {
+    if (start >= end || this[start] != marker) return false
+    val runLength = runLength(start, end, marker)
+    if (runLength < openingLength) return false
+    var index = start + runLength
+    while (index < end) {
+        if (!this[index].isWhitespace()) return false
+        index++
+    }
+    return true
+}
+
+private fun CharSequence.headingMarkerEnd(start: Int, end: Int): Int {
+    var index = start
+    while (index < end && this[index] == '#' && index - start < 6) {
+        index++
+    }
+    val markerLength = index - start
+    return if (markerLength in 1..6 && (index == end || this[index].isWhitespace())) index else -1
+}
+
+private fun CharSequence.isThematicBreak(start: Int, end: Int): Boolean {
+    if (start >= end || this[start] !in charArrayOf('*', '-', '_')) return false
+    val marker = this[start]
+    var markerCount = 0
+    for (index in start until end) {
+        when {
+            this[index] == marker -> markerCount++
+            this[index] == ' ' || this[index] == '\t' -> Unit
+            else -> return false
+        }
+    }
+    return markerCount >= 3
+}
+
+private fun CharSequence.listMarkerEnd(start: Int, end: Int): Int {
+    if (start >= end) return -1
+    if (
+        this[start] in charArrayOf('-', '+', '*') &&
+            start + 1 < end &&
+            this[start + 1].isWhitespace()
+    ) {
+        return start + 1
+    }
+
+    var index = start
+    while (index < end && this[index].isDigit() && index - start < 9) {
+        index++
+    }
+    if (
+        index > start &&
+            index < end &&
+            this[index] in charArrayOf('.', ')') &&
+            index + 1 < end &&
+            this[index + 1].isWhitespace()
+    ) {
+        return index + 1
+    }
+    return -1
+}
+
+private fun CharSequence.taskMarkerEnd(start: Int, end: Int): Int {
+    if (
+        start + 2 < end &&
+            this[start] == '[' &&
+            this[start + 1] in charArrayOf(' ', 'x', 'X') &&
+            this[start + 2] == ']' &&
+            (start + 3 == end || this[start + 3].isWhitespace())
+    ) {
+        return start + 3
+    }
+    return -1
+}
+
+private fun CharSequence.linkEnd(start: Int, end: Int): Int {
+    val searchEnd = inlineTokenEnd(start, end)
+    val openingBracket = if (this[start] == '!') start + 1 else start
+    val labelEnd = findUnescaped(']', openingBracket + 1, searchEnd)
+    if (labelEnd < 0 || labelEnd + 1 >= searchEnd) return -1
+
+    return when (this[labelEnd + 1]) {
+        '(' -> closingParenthesisEnd(labelEnd + 1, searchEnd)
+        '[' -> {
+            val referenceEnd = findUnescaped(']', labelEnd + 2, searchEnd)
+            if (referenceEnd >= 0) referenceEnd + 1 else -1
+        }
+        else -> -1
+    }
+}
+
+private fun CharSequence.closingParenthesisEnd(start: Int, end: Int): Int {
+    var index = start
+    var depth = 0
+    var quote: Char? = null
+    while (index < end) {
+        val current = this[index]
+        if (current == '\\') {
+            index += 2
+            continue
+        }
+        val activeQuote = quote
+        if (activeQuote != null) {
+            if (current == activeQuote) quote = null
+        } else {
+            when (current) {
+                '\'', '"' -> quote = current
+                '(' -> depth++
+                ')' -> {
+                    depth--
+                    if (depth == 0) return index + 1
+                }
+            }
+        }
+        index++
+    }
+    return -1
+}
+
+private fun CharSequence.htmlTagEnd(start: Int, end: Int): Int {
+    val searchEnd = inlineTokenEnd(start, end)
+    if (start + 1 >= searchEnd) return -1
+    val first = this[start + 1]
+    if (!(first.isLetter() || first in charArrayOf('/', '!', '?'))) return -1
+
+    var index = start + 2
+    var quote: Char? = null
+    while (index < searchEnd) {
+        val current = this[index]
+        if (current == '\\') {
+            index += 2
+            continue
+        }
+        val activeQuote = quote
+        if (activeQuote != null) {
+            if (current == activeQuote) quote = null
+        } else {
+            when (current) {
+                '\'', '"' -> quote = current
+                '>' -> return index + 1
+            }
+        }
+        index++
+    }
+    return -1
+}
+
+private fun CharSequence.autolinkEnd(start: Int, end: Int): Int {
+    val closingBracket = findUnescaped('>', start + 1, inlineTokenEnd(start, end))
+    if (closingBracket < 0) return -1
+
+    var hasSchemeSeparator = false
+    var hasEmailSeparator = false
+    for (index in start + 1 until closingBracket) {
+        val current = this[index]
+        if (current.isWhitespace() || current == '<') return -1
+        if (current == ':') hasSchemeSeparator = true
+        if (current == '@') hasEmailSeparator = true
+    }
+    return if (hasSchemeSeparator || hasEmailSeparator) closingBracket + 1 else -1
+}
+
+private fun emphasisMarkerLength(marker: Char, availableRun: Int): Int {
+    return when (marker) {
+        '~' -> if (availableRun >= 2) 2 else -1
+        '*', '_' -> availableRun.coerceAtMost(3)
+        else -> -1
+    }
+}
+
+private fun CharSequence.canOpenEmphasis(start: Int, markerLength: Int, end: Int): Boolean {
+    val contentStart = start + markerLength
+    if (contentStart >= end || this[contentStart].isWhitespace()) return false
+    if (this[start] == '_' && start > 0 && this[start - 1].isLetterOrDigit()) return false
+    return true
+}
+
+private fun CharSequence.emphasisEnd(start: Int, markerLength: Int, end: Int): Int {
+    val marker = this[start]
+    val contentStart = start + markerLength
+    val searchEnd = inlineTokenEnd(start, end)
+    var closingStart = findMatchingRun(marker, markerLength, contentStart, searchEnd)
+    while (closingStart >= 0) {
+        val afterClosing = closingStart + markerLength
+        val validClosing =
+            closingStart > contentStart &&
+                !this[closingStart - 1].isWhitespace() &&
+                (marker != '_' || afterClosing == end || !this[afterClosing].isLetterOrDigit())
+        if (validClosing) return afterClosing
+        closingStart = findMatchingRun(marker, markerLength, afterClosing, searchEnd)
+    }
+    return -1
+}
+
+private fun CharSequence.findMatchingRun(
+    marker: Char,
+    length: Int,
+    start: Int,
+    end: Int,
+): Int {
+    var index = start
+    while (index < end) {
+        if (this[index] == '\\') {
+            index += 2
+            continue
+        }
+        if (this[index] == marker) {
+            val candidateLength = runLength(index, end, marker)
+            if (candidateLength == length) return index
+            index += candidateLength
+        } else {
+            index++
+        }
+    }
+    return -1
+}
+
+private fun CharSequence.findUnescaped(target: Char, start: Int, end: Int): Int {
+    var index = start
+    while (index < end) {
+        if (this[index] == '\\') {
+            index += 2
+        } else if (this[index] == target) {
+            return index
+        } else {
+            index++
+        }
+    }
+    return -1
+}
+
+private fun CharSequence.contains(target: Char, start: Int, end: Int): Boolean {
+    for (index in start until end) {
+        if (this[index] == target) return true
+    }
+    return false
+}
+
+private fun CharSequence.findChar(target: Char, start: Int): Int {
+    for (index in start until length) {
+        if (this[index] == target) return index
+    }
+    return -1
+}
+
+private fun CharSequence.findSequence(target: String, start: Int, end: Int): Int {
+    var index = start
+    while (index + target.length <= end) {
+        if (hasPrefix(target, index, end)) return index
+        index++
+    }
+    return -1
+}
+
+private fun CharSequence.hasPrefix(target: String, start: Int, end: Int): Boolean {
+    if (start < 0 || start + target.length > end) return false
+    for (offset in target.indices) {
+        if (this[start + offset] != target[offset]) return false
+    }
+    return true
+}
+
+private fun CharSequence.runLength(start: Int, end: Int, marker: Char): Int {
+    var index = start
+    while (index < end && this[index] == marker) index++
+    return index - start
+}
+
+private fun CharSequence.skipWhitespace(start: Int, end: Int): Int {
+    var index = start
+    while (index < end && this[index].isWhitespace()) index++
+    return index
+}
+
+private fun emitRange(
+    emit: (MarkdownSyntaxKind, Int, Int) -> Unit,
+    kind: MarkdownSyntaxKind,
+    start: Int,
+    end: Int,
+) {
+    if (start < end) emit(kind, start, end)
+}
+
+private fun nextLineStart(newline: Int, textLength: Int): Int =
+    if (newline >= 0) newline + 1 else textLength
+
+private fun inlineTokenEnd(start: Int, lineEnd: Int): Int =
+    (start + MAX_INLINE_TOKEN_LENGTH).coerceAtMost(lineEnd)

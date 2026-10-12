@@ -1,1 +1,87 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDaGF0TWVzc2FnZVRpbWVzdGFtcEFsbG9jYXRvclRlc3QgewoKICAgIEBUZXN0IGZ1biBgbmV4dCByZXR1cm5zIHBvc2l0aXZlIHRpbWVzdGFtcGAoKSB7CiAgICAgICAgdmFsIHRzID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0cyA+IDApCiAgICB9CgogICAgQFRlc3QgZnVuIGBuZXh0IHJldHVybnMgbW9ub3RvbmljYWxseSBpbmNyZWFzaW5nIHZhbHVlc2AoKSB7CiAgICAgICAgdmFsIHQxID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgpCiAgICAgICAgdmFsIHQyID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgpCiAgICAgICAgdmFsIHQzID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0MiA+IHQxKQogICAgICAgIGFzc2VydFRydWUodDMgPiB0MikKICAgIH0KCiAgICBAVGVzdCBmdW4gYG5leHQgd2l0aCBleHBsaWNpdCBiYXNlIHRpbWVzdGFtcGAoKSB7CiAgICAgICAgdmFsIGJhc2UgPSAxMDAwTAogICAgICAgIHZhbCB0cyA9IENoYXRNZXNzYWdlVGltZXN0YW1wQWxsb2NhdG9yLm5leHQoYmFzZSkKICAgICAgICBhc3NlcnRUcnVlKHRzID49IGJhc2UpCiAgICB9CgogICAgQFRlc3QgZnVuIGBuZXh0IHJlc3BlY3RzIGxhcmdlciBleHBsaWNpdCBiYXNlYCgpIHsKICAgICAgICB2YWwgdHMgPSBDaGF0TWVzc2FnZVRpbWVzdGFtcEFsbG9jYXRvci5uZXh0KDk5OTk5OTk5OUwpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0cyA+PSA5OTk5OTk5OTlMKQogICAgfQoKICAgIEBUZXN0IGZ1biBgb2JzZXJ2ZSBpbmNyZWFzZXMgbWF4IHRpbWVzdGFtcGAoKSB7CiAgICAgICAgdmFsIGxhcmdlID0gOTg3NjU0MzIxTAogICAgICAgIENoYXRNZXNzYWdlVGltZXN0YW1wQWxsb2NhdG9yLm9ic2VydmUobGFyZ2UpCiAgICAgICAgdmFsIG5leHQgPSBDaGF0TWVzc2FnZVRpbWVzdGFtcEFsbG9jYXRvci5uZXh0KCkKICAgICAgICBhc3NlcnRUcnVlKG5leHQgPiBsYXJnZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG9ic2VydmUgd2l0aCBzbWFsbGVyIHZhbHVlIGRvZXMgbm90aGluZ2AoKSB7CiAgICAgICAgdmFsIHQxID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgpCiAgICAgICAgQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3Iub2JzZXJ2ZSh0MSAtIDEpCiAgICAgICAgdmFsIHQyID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0MiA+IHQxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29uY3VycmVudCBuZXh0IGNhbGxzIHByb2R1Y2UgdW5pcXVlIHZhbHVlc2AoKSB7CiAgICAgICAgdmFsIHRpbWVzdGFtcHMgPSAoMS4uMTAwKS5tYXAgeyBDaGF0TWVzc2FnZVRpbWVzdGFtcEFsbG9jYXRvci5uZXh0KCkgfQogICAgICAgIHZhbCB1bmlxdWUgPSB0aW1lc3RhbXBzLnRvU2V0KCkKICAgICAgICBhc3NlcnRFcXVhbHMoMTAwLCB1bmlxdWUuc2l6ZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG5leHQgaGFuZGxlcyBiYXNlIHRpbWVzdGFtcCBzbWFsbGVyIHRoYW4gY3VycmVudGAoKSB7CiAgICAgICAgdmFsIHQxID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgpCiAgICAgICAgdmFsIHQyID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCh0MSAtIDEwKQogICAgICAgIGFzc2VydFRydWUodDIgPiB0MSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG5leHQgd2l0aCBjdXJyZW50IHRpbWUgYmFzZWAoKSB7CiAgICAgICAgdmFsIGJlZm9yZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgdmFsIHRzID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgpCiAgICAgICAgdmFsIGFmdGVyID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICBhc3NlcnRUcnVlKHRzID49IGJlZm9yZSAtIDEgfHwgdHMgPj0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgwKSkgLy8ganVzdCB2ZXJpZnkgaXQgc3VjY2VlZHMKICAgICAgICBhc3NlcnRUcnVlKHRzID4gMCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG9ic2VydmUgdGhlbiBuZXh0IGlzIG1vbm90b25pY2AoKSB7CiAgICAgICAgQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3Iub2JzZXJ2ZSg1MDBMKQogICAgICAgIHZhbCB0cyA9IENoYXRNZXNzYWdlVGltZXN0YW1wQWxsb2NhdG9yLm5leHQoKQogICAgICAgIGFzc2VydFRydWUodHMgPj0gNTAwTCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHJlcGVhdGVkIG9ic2VydmUgd2l0aCBpbmNyZWFzaW5nIHZhbHVlc2AoKSB7CiAgICAgICAgQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3Iub2JzZXJ2ZSgxMDBMKQogICAgICAgIENoYXRNZXNzYWdlVGltZXN0YW1wQWxsb2NhdG9yLm9ic2VydmUoMjAwTCkKICAgICAgICBDaGF0TWVzc2FnZVRpbWVzdGFtcEFsbG9jYXRvci5vYnNlcnZlKDMwMEwpCiAgICAgICAgdmFsIHRzID0gQ2hhdE1lc3NhZ2VUaW1lc3RhbXBBbGxvY2F0b3IubmV4dCgpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0cyA+PSAzMDBMKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbmV4dCB3aXRob3V0IGV4cGxpY2l0IGJhc2UgaXMgbmVhciBjdXJyZW50IHRpbWVgKCkgewogICAgICAgIHZhbCBub3cgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIHZhbCB0cyA9IENoYXRNZXNzYWdlVGltZXN0YW1wQWxsb2NhdG9yLm5leHQoKQogICAgICAgIHZhbCBkaWZmID0gdHMgLSBub3cKICAgICAgICBhc3NlcnRUcnVlKGRpZmYgPj0gLTEpIC8vIHRpbWVzdGFtcCBzaG91bGQgYmUgPj0gbm93IChhcHByb3hpbWF0ZWx5KQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMessageTimestampAllocatorTest {
+
+    @Test fun `next returns positive timestamp`() {
+        val ts = ChatMessageTimestampAllocator.next()
+        assertTrue(ts > 0)
+    }
+
+    @Test fun `next returns monotonically increasing values`() {
+        val t1 = ChatMessageTimestampAllocator.next()
+        val t2 = ChatMessageTimestampAllocator.next()
+        val t3 = ChatMessageTimestampAllocator.next()
+        assertTrue(t2 > t1)
+        assertTrue(t3 > t2)
+    }
+
+    @Test fun `next with explicit base timestamp`() {
+        val base = 1000L
+        val ts = ChatMessageTimestampAllocator.next(base)
+        assertTrue(ts >= base)
+    }
+
+    @Test fun `next respects larger explicit base`() {
+        val ts = ChatMessageTimestampAllocator.next(999999999L)
+        assertTrue(ts >= 999999999L)
+    }
+
+    @Test fun `observe increases max timestamp`() {
+        val large = 987654321L
+        ChatMessageTimestampAllocator.observe(large)
+        val next = ChatMessageTimestampAllocator.next()
+        assertTrue(next > large)
+    }
+
+    @Test fun `observe with smaller value does nothing`() {
+        val t1 = ChatMessageTimestampAllocator.next()
+        ChatMessageTimestampAllocator.observe(t1 - 1)
+        val t2 = ChatMessageTimestampAllocator.next()
+        assertTrue(t2 > t1)
+    }
+
+    @Test fun `concurrent next calls produce unique values`() {
+        val timestamps = (1..100).map { ChatMessageTimestampAllocator.next() }
+        val unique = timestamps.toSet()
+        assertEquals(100, unique.size)
+    }
+
+    @Test fun `next handles base timestamp smaller than current`() {
+        val t1 = ChatMessageTimestampAllocator.next()
+        val t2 = ChatMessageTimestampAllocator.next(t1 - 10)
+        assertTrue(t2 > t1)
+    }
+
+    @Test fun `next with current time base`() {
+        val before = System.currentTimeMillis()
+        val ts = ChatMessageTimestampAllocator.next()
+        val after = System.currentTimeMillis()
+        assertTrue(ts >= before - 1 || ts >= ChatMessageTimestampAllocator.next(0)) // just verify it succeeds
+        assertTrue(ts > 0)
+    }
+
+    @Test fun `observe then next is monotonic`() {
+        ChatMessageTimestampAllocator.observe(500L)
+        val ts = ChatMessageTimestampAllocator.next()
+        assertTrue(ts >= 500L)
+    }
+
+    @Test fun `repeated observe with increasing values`() {
+        ChatMessageTimestampAllocator.observe(100L)
+        ChatMessageTimestampAllocator.observe(200L)
+        ChatMessageTimestampAllocator.observe(300L)
+        val ts = ChatMessageTimestampAllocator.next()
+        assertTrue(ts >= 300L)
+    }
+
+    @Test fun `next without explicit base is near current time`() {
+        val now = System.currentTimeMillis()
+        val ts = ChatMessageTimestampAllocator.next()
+        val diff = ts - now
+        assertTrue(diff >= -1) // timestamp should be >= now (approximately)
+    }
+}

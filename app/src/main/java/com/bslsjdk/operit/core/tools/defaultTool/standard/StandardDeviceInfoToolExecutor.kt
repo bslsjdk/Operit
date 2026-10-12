@@ -1,1 +1,178 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5zdGFuZGFyZAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50RmlsdGVyCmltcG9ydCBhbmRyb2lkLm9zLkJhdHRlcnlNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkLm9zLkVudmlyb25tZW50CmltcG9ydCBhbmRyb2lkLm9zLlN0YXRGcwppbXBvcnQgYW5kcm9pZC5wcm92aWRlci5TZXR0aW5ncwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuRGV2aWNlSW5mb1Jlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlN0cmluZ1Jlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlRvb2xFeGVjdXRvcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQUlUb29sCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUmVzdWx0CgovKioKICogRGV2aWNlIGluZm9ybWF0aW9uIHRvb2wgdGhhdCBjb2xsZWN0cyBjb21wcmVoZW5zaXZlIHN5c3RlbSBkZXRhaWxzIFByb3ZpZGVzIGluZm9ybWF0aW9uIGFib3V0CiAqIGhhcmR3YXJlLCBzb2Z0d2FyZSwgbmV0d29yaywgYW5kIGN1cnJlbnQgZGV2aWNlIHN0YXRlCiAqLwpvcGVuIGNsYXNzIFN0YW5kYXJkRGV2aWNlSW5mb1Rvb2xFeGVjdXRvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IFRvb2xFeGVjdXRvciB7CiAgICBvdmVycmlkZSBmdW4gaW52b2tlKHRvb2w6IEFJVG9vbCk6IFRvb2xSZXN1bHQgewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICAvLyBHZXQgYmFzaWMgZGV2aWNlIGluZm9ybWF0aW9uCiAgICAgICAgICAgIHZhbCBkZXZpY2VJZCA9CiAgICAgICAgICAgICAgICAgICAgU2V0dGluZ3MuU2VjdXJlLmdldFN0cmluZyhjb250ZXh0LmNvbnRlbnRSZXNvbHZlciwgU2V0dGluZ3MuU2VjdXJlLkFORFJPSURfSUQpCgogICAgICAgICAgICAvLyBHZXQgZGV2aWNlIG1vZGVsIGFuZCBtYW51ZmFjdHVyZXIKICAgICAgICAgICAgdmFsIG1vZGVsID0gQnVpbGQuTU9ERUwKICAgICAgICAgICAgdmFsIG1hbnVmYWN0dXJlciA9IEJ1aWxkLk1BTlVGQUNUVVJFUgoKICAgICAgICAgICAgLy8gR2V0IEFuZHJvaWQgdmVyc2lvbgogICAgICAgICAgICB2YWwgYW5kcm9pZFZlcnNpb24gPSBCdWlsZC5WRVJTSU9OLlJFTEVBU0UKICAgICAgICAgICAgdmFsIHNka1ZlcnNpb24gPSBCdWlsZC5WRVJTSU9OLlNES19JTlQKCiAgICAgICAgICAgIC8vIEdldCBzY3JlZW4gaW5mb3JtYXRpb24KICAgICAgICAgICAgdmFsIGRpc3BsYXlNZXRyaWNzID0gY29udGV4dC5yZXNvdXJjZXMuZGlzcGxheU1ldHJpY3MKICAgICAgICAgICAgdmFsIHNjcmVlbldpZHRoID0gZGlzcGxheU1ldHJpY3Mud2lkdGhQaXhlbHMKICAgICAgICAgICAgdmFsIHNjcmVlbkhlaWdodCA9IGRpc3BsYXlNZXRyaWNzLmhlaWdodFBpeGVscwogICAgICAgICAgICB2YWwgc2NyZWVuUmVzb2x1dGlvbiA9ICIke3NjcmVlbldpZHRofXgke3NjcmVlbkhlaWdodH0iCiAgICAgICAgICAgIHZhbCBzY3JlZW5EZW5zaXR5ID0gZGlzcGxheU1ldHJpY3MuZGVuc2l0eQoKICAgICAgICAgICAgLy8gR2V0IG1lbW9yeSBpbmZvcm1hdGlvbgogICAgICAgICAgICB2YWwgYWN0aXZpdHlNYW5hZ2VyID0KICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoQ29udGV4dC5BQ1RJVklUWV9TRVJWSUNFKSBhcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZC5hcHAuQWN0aXZpdHlNYW5hZ2VyCiAgICAgICAgICAgIHZhbCBtZW1vcnlJbmZvID0gYW5kcm9pZC5hcHAuQWN0aXZpdHlNYW5hZ2VyLk1lbW9yeUluZm8oKQogICAgICAgICAgICBhY3Rpdml0eU1hbmFnZXIuZ2V0TWVtb3J5SW5mbyhtZW1vcnlJbmZvKQogICAgICAgICAgICB2YWwgYXZhaWxhYmxlTWVtb3J5ID0gZm9ybWF0U2l6ZShtZW1vcnlJbmZvLmF2YWlsTWVtKQogICAgICAgICAgICB2YWwgdG90YWxNZW1vcnkgPSBmb3JtYXRTaXplKG1lbW9yeUluZm8udG90YWxNZW0pCgogICAgICAgICAgICAvLyBHZXQgc3RvcmFnZSBpbmZvcm1hdGlvbgogICAgICAgICAgICB2YWwgc3RhdEZzID0gU3RhdEZzKEVudmlyb25tZW50LmdldEV4dGVybmFsU3RvcmFnZURpcmVjdG9yeSgpLnBhdGgpCiAgICAgICAgICAgIHZhbCBhdmFpbGFibGVCbG9ja3MgPSBzdGF0RnMuYXZhaWxhYmxlQmxvY2tzTG9uZwogICAgICAgICAgICB2YWwgYmxvY2tTaXplID0gc3RhdEZzLmJsb2NrU2l6ZUxvbmcKICAgICAgICAgICAgdmFsIHRvdGFsQmxvY2tzID0gc3RhdEZzLmJsb2NrQ291bnRMb25nCiAgICAgICAgICAgIHZhbCBhdmFpbGFibGVTdG9yYWdlID0gZm9ybWF0U2l6ZShhdmFpbGFibGVCbG9ja3MgKiBibG9ja1NpemUpCiAgICAgICAgICAgIHZhbCB0b3RhbFN0b3JhZ2UgPSBmb3JtYXRTaXplKHRvdGFsQmxvY2tzICogYmxvY2tTaXplKQoKICAgICAgICAgICAgLy8gR2V0IGJhdHRlcnkgaW5mb3JtYXRpb24KICAgICAgICAgICAgdmFyIGJhdHRlcnlMZXZlbCA9IDAKICAgICAgICAgICAgdmFyIGlzQ2hhcmdpbmcgPSBmYWxzZQoKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBiYXR0ZXJ5SW50ZW50ID0KICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5yZWdpc3RlclJlY2VpdmVyKG51bGwsIEludGVudEZpbHRlcihJbnRlbnQuQUNUSU9OX0JBVFRFUllfQ0hBTkdFRCkpCiAgICAgICAgICAgICAgICBpZiAoYmF0dGVyeUludGVudCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGxldmVsID0gYmF0dGVyeUludGVudC5nZXRJbnRFeHRyYShCYXR0ZXJ5TWFuYWdlci5FWFRSQV9MRVZFTCwgLTEpCiAgICAgICAgICAgICAgICAgICAgdmFsIHNjYWxlID0gYmF0dGVyeUludGVudC5nZXRJbnRFeHRyYShCYXR0ZXJ5TWFuYWdlci5FWFRSQV9TQ0FMRSwgLTEpCiAgICAgICAgICAgICAgICAgICAgYmF0dGVyeUxldmVsID0gKGxldmVsICogMTAwIC8gc2NhbGUudG9GbG9hdCgpKS50b0ludCgpCgogICAgICAgICAgICAgICAgICAgIHZhbCBzdGF0dXMgPSBiYXR0ZXJ5SW50ZW50LmdldEludEV4dHJhKEJhdHRlcnlNYW5hZ2VyLkVYVFJBX1NUQVRVUywgLTEpCiAgICAgICAgICAgICAgICAgICAgaXNDaGFyZ2luZyA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPT0gQmF0dGVyeU1hbmFnZXIuQkFUVEVSWV9TVEFUVVNfQ0hBUkdJTkcgfHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID09IEJhdHRlcnlNYW5hZ2VyLkJBVFRFUllfU1RBVFVTX0ZVTEwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAvLyBCYXR0ZXJ5IGluZm8gY291bGRuJ3QgYmUgcmV0cmlldmVkCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIEdldCBDUFUgaW5mb3JtYXRpb24KICAgICAgICAgICAgdmFsIGNwdUluZm8gPQogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBwcm9jZXNzQnVpbGRlciA9IFByb2Nlc3NCdWlsZGVyKCJnZXRwcm9wIiwgInJvLnByb2R1Y3QuY3B1LmFiaSIpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBwcm9jZXNzID0gcHJvY2Vzc0J1aWxkZXIuc3RhcnQoKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmVhZGVyID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBqYXZhLmlvLkJ1ZmZlcmVkUmVhZGVyKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgamF2YS5pby5JbnB1dFN0cmVhbVJlYWRlcihwcm9jZXNzLmlucHV0U3RyZWFtKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNwdUFiaSA9IHJlYWRlci5yZWFkTGluZSgpID86ICJVbmtub3duIgogICAgICAgICAgICAgICAgICAgICAgICBwcm9jZXNzLndhaXRGb3IoKQogICAgICAgICAgICAgICAgICAgICAgICByZWFkZXIuY2xvc2UoKQogICAgICAgICAgICAgICAgICAgICAgICBjcHVBYmkKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgIlVua25vd24iCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gR2V0IG5ldHdvcmsgaW5mb3JtYXRpb24KICAgICAgICAgICAgdmFsIGNvbm5lY3Rpdml0eU1hbmFnZXIgPQogICAgICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LkNPTk5FQ1RJVklUWV9TRVJWSUNFKSBhcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZC5uZXQuQ29ubmVjdGl2aXR5TWFuYWdlcgogICAgICAgICAgICB2YWwgYWN0aXZlTmV0d29yayA9IGNvbm5lY3Rpdml0eU1hbmFnZXIuYWN0aXZlTmV0d29yawogICAgICAgICAgICB2YWwgbmV0d29ya0NhcGFiaWxpdGllcyA9IGNvbm5lY3Rpdml0eU1hbmFnZXIuZ2V0TmV0d29ya0NhcGFiaWxpdGllcyhhY3RpdmVOZXR3b3JrKQoKICAgICAgICAgICAgdmFsIG5ldHdvcmtUeXBlID0KICAgICAgICAgICAgICAgICAgICB3aGVuIHsKICAgICAgICAgICAgICAgICAgICAgICAgbmV0d29ya0NhcGFiaWxpdGllcyA9PSBudWxsIC0+ICJObyBjb25uZWN0aW9uIgogICAgICAgICAgICAgICAgICAgICAgICBuZXR3b3JrQ2FwYWJpbGl0aWVzLmhhc1RyYW5zcG9ydCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkLm5ldC5OZXR3b3JrQ2FwYWJpbGl0aWVzLlRSQU5TUE9SVF9XSUZJCiAgICAgICAgICAgICAgICAgICAgICAgICkgLT4gIldpRmkiCiAgICAgICAgICAgICAgICAgICAgICAgIG5ldHdvcmtDYXBhYmlsaXRpZXMuaGFzVHJhbnNwb3J0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuZHJvaWQubmV0Lk5ldHdvcmtDYXBhYmlsaXRpZXMuVFJBTlNQT1JUX0NFTExVTEFSCiAgICAgICAgICAgICAgICAgICAgICAgICkgLT4gIk1vYmlsZSBkYXRhIgogICAgICAgICAgICAgICAgICAgICAgICBuZXR3b3JrQ2FwYWJpbGl0aWVzLmhhc1RyYW5zcG9ydCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkLm5ldC5OZXR3b3JrQ2FwYWJpbGl0aWVzLlRSQU5TUE9SVF9CTFVFVE9PVEgKICAgICAgICAgICAgICAgICAgICAgICAgKSAtPiAiQmx1ZXRvb3RoIgogICAgICAgICAgICAgICAgICAgICAgICBuZXR3b3JrQ2FwYWJpbGl0aWVzLmhhc1RyYW5zcG9ydCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmRyb2lkLm5ldC5OZXR3b3JrQ2FwYWJpbGl0aWVzLlRSQU5TUE9SVF9FVEhFUk5FVAogICAgICAgICAgICAgICAgICAgICAgICApIC0+ICJFdGhlcm5ldCIKICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiAiT3RoZXIiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gQ29sbGVjdCBhZGRpdGlvbmFsIHN5c3RlbSBwcm9wZXJ0aWVzCiAgICAgICAgICAgIHZhbCBhZGRpdGlvbmFsSW5mbyA9IG11dGFibGVNYXBPZjxTdHJpbmcsIFN0cmluZz4oKQogICAgICAgICAgICBhZGRpdGlvbmFsSW5mb1siRGV2aWNlIG5hbWUiXSA9IEJ1aWxkLkRFVklDRQogICAgICAgICAgICBhZGRpdGlvbmFsSW5mb1siUHJvZHVjdCBuYW1lIl0gPSBCdWlsZC5QUk9EVUNUCiAgICAgICAgICAgIGFkZGl0aW9uYWxJbmZvWyJIYXJkd2FyZSBuYW1lIl0gPSBCdWlsZC5IQVJEV0FSRQogICAgICAgICAgICBhZGRpdGlvbmFsSW5mb1siQnVpbGQgZmluZ2VycHJpbnQiXSA9IEJ1aWxkLkZJTkdFUlBSSU5UCiAgICAgICAgICAgIGFkZGl0aW9uYWxJbmZvWyJCdWlsZCB0aW1lIl0gPSBqYXZhLnV0aWwuRGF0ZShCdWlsZC5USU1FKS50b1N0cmluZygpCgogICAgICAgICAgICAvLyBDcmVhdGUgcmVzdWx0IGRhdGEgb2JqZWN0CiAgICAgICAgICAgIHZhbCBkZXZpY2VJbmZvUmVzdWx0ID0KICAgICAgICAgICAgICAgICAgICBEZXZpY2VJbmZvUmVzdWx0RGF0YSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRldmljZUlkID0gZGV2aWNlSWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RlbCA9IG1vZGVsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFudWZhY3R1cmVyID0gbWFudWZhY3R1cmVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5kcm9pZFZlcnNpb24gPSBhbmRyb2lkVmVyc2lvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNka1ZlcnNpb24gPSBzZGtWZXJzaW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NyZWVuUmVzb2x1dGlvbiA9IHNjcmVlblJlc29sdXRpb24sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY3JlZW5EZW5zaXR5ID0gc2NyZWVuRGVuc2l0eSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFsTWVtb3J5ID0gdG90YWxNZW1vcnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdmFpbGFibGVNZW1vcnkgPSBhdmFpbGFibGVNZW1vcnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3RhbFN0b3JhZ2UgPSB0b3RhbFN0b3JhZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdmFpbGFibGVTdG9yYWdlID0gYXZhaWxhYmxlU3RvcmFnZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhdHRlcnlMZXZlbCA9IGJhdHRlcnlMZXZlbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhdHRlcnlDaGFyZ2luZyA9IGlzQ2hhcmdpbmcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcHVJbmZvID0gY3B1SW5mbywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5ldHdvcmtUeXBlID0gbmV0d29ya1R5cGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZGRpdGlvbmFsSW5mbyA9IGFkZGl0aW9uYWxJbmZvCiAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgVG9vbFJlc3VsdCh0b29sTmFtZSA9IHRvb2wubmFtZSwgc3VjY2VzcyA9IHRydWUsIHJlc3VsdCA9IGRldmljZUluZm9SZXN1bHQpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgICAgIGVycm9yID0gIkVycm9yIHJldHJpZXZpbmcgZGV2aWNlIGluZm86ICR7ZS5tZXNzYWdlfSIKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICAvKiogRm9ybWF0cyBhIGJ5dGUgc2l6ZSBpbnRvIGEgaHVtYW4tcmVhZGFibGUgc3RyaW5nIHdpdGggYXBwcm9wcmlhdGUgdW5pdCAoS0IsIE1CLCBHQikgKi8KICAgIHByaXZhdGUgZnVuIGZvcm1hdFNpemUoc2l6ZTogTG9uZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGtiID0gMTAyNC4wCiAgICAgICAgdmFsIG1iID0ga2IgKiAxMDI0CiAgICAgICAgdmFsIGdiID0gbWIgKiAxMDI0CiAgICAgICAgdmFsIHRiID0gZ2IgKiAxMDI0CgogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgc2l6ZSA8IGtiIC0+ICIkc2l6ZSBCIgogICAgICAgICAgICBzaXplIDwgbWIgLT4gU3RyaW5nLmZvcm1hdCgiJS4yZiBLQiIsIHNpemUgLyBrYikKICAgICAgICAgICAgc2l6ZSA8IGdiIC0+IFN0cmluZy5mb3JtYXQoIiUuMmYgTUIiLCBzaXplIC8gbWIpCiAgICAgICAgICAgIHNpemUgPCB0YiAtPiBTdHJpbmcuZm9ybWF0KCIlLjJmIEdCIiwgc2l6ZSAvIGdiKQogICAgICAgICAgICBlbHNlIC0+IFN0cmluZy5mb3JtYXQoIiUuMmYgVEIiLCBzaXplIC8gdGIpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.standard
+
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.os.BatteryManager
+import android.os.Build
+import android.os.Environment
+import android.os.StatFs
+import android.provider.Settings
+import com.bslsjdk.operit.core.tools.DeviceInfoResultData
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.core.tools.ToolExecutor
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolResult
+
+/**
+ * Device information tool that collects comprehensive system details Provides information about
+ * hardware, software, network, and current device state
+ */
+open class StandardDeviceInfoToolExecutor(private val context: Context) : ToolExecutor {
+    override fun invoke(tool: AITool): ToolResult {
+        return try {
+            // Get basic device information
+            val deviceId =
+                    Settings.Secure.getString(context.contentResolver, Settings.Secure.ANDROID_ID)
+
+            // Get device model and manufacturer
+            val model = Build.MODEL
+            val manufacturer = Build.MANUFACTURER
+
+            // Get Android version
+            val androidVersion = Build.VERSION.RELEASE
+            val sdkVersion = Build.VERSION.SDK_INT
+
+            // Get screen information
+            val displayMetrics = context.resources.displayMetrics
+            val screenWidth = displayMetrics.widthPixels
+            val screenHeight = displayMetrics.heightPixels
+            val screenResolution = "${screenWidth}x${screenHeight}"
+            val screenDensity = displayMetrics.density
+
+            // Get memory information
+            val activityManager =
+                    context.getSystemService(Context.ACTIVITY_SERVICE) as
+                            android.app.ActivityManager
+            val memoryInfo = android.app.ActivityManager.MemoryInfo()
+            activityManager.getMemoryInfo(memoryInfo)
+            val availableMemory = formatSize(memoryInfo.availMem)
+            val totalMemory = formatSize(memoryInfo.totalMem)
+
+            // Get storage information
+            val statFs = StatFs(Environment.getExternalStorageDirectory().path)
+            val availableBlocks = statFs.availableBlocksLong
+            val blockSize = statFs.blockSizeLong
+            val totalBlocks = statFs.blockCountLong
+            val availableStorage = formatSize(availableBlocks * blockSize)
+            val totalStorage = formatSize(totalBlocks * blockSize)
+
+            // Get battery information
+            var batteryLevel = 0
+            var isCharging = false
+
+            try {
+                val batteryIntent =
+                        context.registerReceiver(null, IntentFilter(Intent.ACTION_BATTERY_CHANGED))
+                if (batteryIntent != null) {
+                    val level = batteryIntent.getIntExtra(BatteryManager.EXTRA_LEVEL, -1)
+                    val scale = batteryIntent.getIntExtra(BatteryManager.EXTRA_SCALE, -1)
+                    batteryLevel = (level * 100 / scale.toFloat()).toInt()
+
+                    val status = batteryIntent.getIntExtra(BatteryManager.EXTRA_STATUS, -1)
+                    isCharging =
+                            status == BatteryManager.BATTERY_STATUS_CHARGING ||
+                                    status == BatteryManager.BATTERY_STATUS_FULL
+                }
+            } catch (e: Exception) {
+                // Battery info couldn't be retrieved
+            }
+
+            // Get CPU information
+            val cpuInfo =
+                    try {
+                        val processBuilder = ProcessBuilder("getprop", "ro.product.cpu.abi")
+                        val process = processBuilder.start()
+                        val reader =
+                                java.io.BufferedReader(
+                                        java.io.InputStreamReader(process.inputStream)
+                                )
+                        val cpuAbi = reader.readLine() ?: "Unknown"
+                        process.waitFor()
+                        reader.close()
+                        cpuAbi
+                    } catch (e: Exception) {
+                        "Unknown"
+                    }
+
+            // Get network information
+            val connectivityManager =
+                    context.getSystemService(Context.CONNECTIVITY_SERVICE) as
+                            android.net.ConnectivityManager
+            val activeNetwork = connectivityManager.activeNetwork
+            val networkCapabilities = connectivityManager.getNetworkCapabilities(activeNetwork)
+
+            val networkType =
+                    when {
+                        networkCapabilities == null -> "No connection"
+                        networkCapabilities.hasTransport(
+                                android.net.NetworkCapabilities.TRANSPORT_WIFI
+                        ) -> "WiFi"
+                        networkCapabilities.hasTransport(
+                                android.net.NetworkCapabilities.TRANSPORT_CELLULAR
+                        ) -> "Mobile data"
+                        networkCapabilities.hasTransport(
+                                android.net.NetworkCapabilities.TRANSPORT_BLUETOOTH
+                        ) -> "Bluetooth"
+                        networkCapabilities.hasTransport(
+                                android.net.NetworkCapabilities.TRANSPORT_ETHERNET
+                        ) -> "Ethernet"
+                        else -> "Other"
+                    }
+
+            // Collect additional system properties
+            val additionalInfo = mutableMapOf<String, String>()
+            additionalInfo["Device name"] = Build.DEVICE
+            additionalInfo["Product name"] = Build.PRODUCT
+            additionalInfo["Hardware name"] = Build.HARDWARE
+            additionalInfo["Build fingerprint"] = Build.FINGERPRINT
+            additionalInfo["Build time"] = java.util.Date(Build.TIME).toString()
+
+            // Create result data object
+            val deviceInfoResult =
+                    DeviceInfoResultData(
+                            deviceId = deviceId,
+                            model = model,
+                            manufacturer = manufacturer,
+                            androidVersion = androidVersion,
+                            sdkVersion = sdkVersion,
+                            screenResolution = screenResolution,
+                            screenDensity = screenDensity,
+                            totalMemory = totalMemory,
+                            availableMemory = availableMemory,
+                            totalStorage = totalStorage,
+                            availableStorage = availableStorage,
+                            batteryLevel = batteryLevel,
+                            batteryCharging = isCharging,
+                            cpuInfo = cpuInfo,
+                            networkType = networkType,
+                            additionalInfo = additionalInfo
+                    )
+
+            ToolResult(toolName = tool.name, success = true, result = deviceInfoResult)
+        } catch (e: Exception) {
+            ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Error retrieving device info: ${e.message}"
+            )
+        }
+    }
+
+    /** Formats a byte size into a human-readable string with appropriate unit (KB, MB, GB) */
+    private fun formatSize(size: Long): String {
+        val kb = 1024.0
+        val mb = kb * 1024
+        val gb = mb * 1024
+        val tb = gb * 1024
+
+        return when {
+            size < kb -> "$size B"
+            size < mb -> String.format("%.2f KB", size / kb)
+            size < gb -> String.format("%.2f MB", size / mb)
+            size < tb -> String.format("%.2f GB", size / gb)
+            else -> String.format("%.2f TB", size / tb)
+        }
+    }
+}

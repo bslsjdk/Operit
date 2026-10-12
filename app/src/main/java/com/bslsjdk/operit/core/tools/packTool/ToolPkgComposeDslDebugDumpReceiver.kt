@@ -1,1 +1,40 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Ccm9hZGNhc3RSZWNlaXZlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5jb21tb24uY29tcG9zZWRzbC5Ub29sUGtnQ29tcG9zZURzbERlYnVnU25hcHNob3RTdG9yZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKY2xhc3MgVG9vbFBrZ0NvbXBvc2VEc2xEZWJ1Z0R1bXBSZWNlaXZlciA6IEJyb2FkY2FzdFJlY2VpdmVyKCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJUb29sUGtnQ29tcG9zZURzbERlYnVnRHVtcFJlY2VpdmVyIgoKICAgICAgICBjb25zdCB2YWwgQUNUSU9OX0RVTVBfQ09NUE9TRV9EU0xfVUkgPSAiY29tLmJzbHNqZGsub3Blcml0LkRVTVBfQ09NUE9TRV9EU0xfVUkiCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uUmVjZWl2ZShjb250ZXh0OiBDb250ZXh0LCBpbnRlbnQ6IEludGVudCkgewogICAgICAgIGlmIChpbnRlbnQuYWN0aW9uICE9IEFDVElPTl9EVU1QX0NPTVBPU0VfRFNMX1VJKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFsIHBlbmRpbmdSZXN1bHQgPSBnb0FzeW5jKCkKICAgICAgICBDb3JvdXRpbmVTY29wZShEaXNwYXRjaGVycy5JTykubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBvdXRwdXREaXIgPSBUb29sUGtnQ29tcG9zZURzbERlYnVnU25hcHNob3RTdG9yZS5kdW1wQ3VycmVudFNuYXBzaG90KGNvbnRleHQpCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICAgICAgICAgImNvbXBvc2VfZHNsIGRlYnVnIGR1bXAgd3JpdHRlbiB0byAke291dHB1dERpci5hYnNvbHV0ZVBhdGh9IgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJjb21wb3NlX2RzbCBkZWJ1ZyBkdW1wIGZhaWxlZCIsIGVycm9yKQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgcGVuZGluZ1Jlc3VsdC5maW5pc2goKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.packTool
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.ui.common.composedsl.ToolPkgComposeDslDebugSnapshotStore
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+class ToolPkgComposeDslDebugDumpReceiver : BroadcastReceiver() {
+
+    companion object {
+        private const val TAG = "ToolPkgComposeDslDebugDumpReceiver"
+
+        const val ACTION_DUMP_COMPOSE_DSL_UI = "com.bslsjdk.operit.DUMP_COMPOSE_DSL_UI"
+    }
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action != ACTION_DUMP_COMPOSE_DSL_UI) {
+            return
+        }
+
+        val pendingResult = goAsync()
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val outputDir = ToolPkgComposeDslDebugSnapshotStore.dumpCurrentSnapshot(context)
+                AppLogger.d(
+                    TAG,
+                    "compose_dsl debug dump written to ${outputDir.absolutePath}"
+                )
+            } catch (error: Exception) {
+                AppLogger.e(TAG, "compose_dsl debug dump failed", error)
+            } finally {
+                pendingResult.finish()
+            }
+        }
+    }
+}

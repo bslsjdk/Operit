@@ -1,1 +1,205 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5TdHJlYW0KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5zdHJlYW0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5ydW5CbG9ja2luZwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LkFzc3VtZS5hc3N1bWVOb0V4Y2VwdGlvbgppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIFdhaWZ1TWVzc2FnZVByb2Nlc3NvclRlc3QgewogICAgQFRlc3QKICAgIGZ1biBjYWxjdWxhdGVUeXBpbmdEZWxheU1zX2ZpcnN0U2VnbWVudElzSW1tZWRpYXRlKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgMEwsCiAgICAgICAgICAgIFdhaWZ1TWVzc2FnZVByb2Nlc3Nvci5jYWxjdWxhdGVUeXBpbmdEZWxheU1zKAogICAgICAgICAgICAgICAgc2VnbWVudExlbmd0aCA9IDgwLAogICAgICAgICAgICAgICAgY2hhckRlbGF5TXMgPSAyNDAsCiAgICAgICAgICAgICAgICBpc0ZpcnN0U2VnbWVudCA9IHRydWUsCiAgICAgICAgICAgICkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBjYWxjdWxhdGVUeXBpbmdEZWxheU1zX3VzZXNDdXJyZW50U2VnbWVudExlbmd0aEZvclNob3J0VGFpbCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIDcyMEwsCiAgICAgICAgICAgIFdhaWZ1TWVzc2FnZVByb2Nlc3Nvci5jYWxjdWxhdGVUeXBpbmdEZWxheU1zKAogICAgICAgICAgICAgICAgc2VnbWVudExlbmd0aCA9IDMsCiAgICAgICAgICAgICAgICBjaGFyRGVsYXlNcyA9IDI0MCwKICAgICAgICAgICAgICAgIGlzRmlyc3RTZWdtZW50ID0gZmFsc2UsCiAgICAgICAgICAgICkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBjYWxjdWxhdGVUeXBpbmdEZWxheU1zX2NhcHNMb25nU2VnbWVudERlbGF5KCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgMzAwMEwsCiAgICAgICAgICAgIFdhaWZ1TWVzc2FnZVByb2Nlc3Nvci5jYWxjdWxhdGVUeXBpbmdEZWxheU1zKAogICAgICAgICAgICAgICAgc2VnbWVudExlbmd0aCA9IDgwLAogICAgICAgICAgICAgICAgY2hhckRlbGF5TXMgPSAyNDAsCiAgICAgICAgICAgICAgICBpc0ZpcnN0U2VnbWVudCA9IGZhbHNlLAogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gY2FsY3VsYXRlVHlwaW5nRGVsYXlNc19ub25Qb3NpdGl2ZURlbGF5SXNJbW1lZGlhdGUoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAwTCwKICAgICAgICAgICAgV2FpZnVNZXNzYWdlUHJvY2Vzc29yLmNhbGN1bGF0ZVR5cGluZ0RlbGF5TXMoCiAgICAgICAgICAgICAgICBzZWdtZW50TGVuZ3RoID0gMTAsCiAgICAgICAgICAgICAgICBjaGFyRGVsYXlNcyA9IDAsCiAgICAgICAgICAgICAgICBpc0ZpcnN0U2VnbWVudCA9IGZhbHNlLAogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZW5zdXJlQmxvY2tMYXRleERlbGltaXRlcnNfd3JhcHNEb2xsYXJXaGVuTWlzc2luZygpIHsKICAgICAgICB2YWwgYm9keSA9ICJcXGNvbG9yYm94e3Bpbmt9e1xcdGV4dHvml6nor6Xor7Tov5nlj6V9fSIKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICIkJCIgKyBib2R5ICsgIiQkIiwKICAgICAgICAgICAgV2FpZnVNZXNzYWdlUHJvY2Vzc29yLmVuc3VyZUJsb2NrTGF0ZXhEZWxpbWl0ZXJzKGJvZHkpCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZW5zdXJlQmxvY2tMYXRleERlbGltaXRlcnNfcHJlc2VydmVzRXhpc3RpbmdEb2xsYXJEZWxpbWl0ZXJzKCkgewogICAgICAgIHZhbCBhbHJlYWR5ID0gIlwkXCR4XjIgKyB5XjIgPSB6XjJcJFwkIgogICAgICAgIGFzc2VydEVxdWFscyhhbHJlYWR5LCBXYWlmdU1lc3NhZ2VQcm9jZXNzb3IuZW5zdXJlQmxvY2tMYXRleERlbGltaXRlcnMoYWxyZWFkeSkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBlbnN1cmVCbG9ja0xhdGV4RGVsaW1pdGVyc19wcmVzZXJ2ZXNCcmFja2V0RGVsaW1pdGVycygpIHsKICAgICAgICB2YWwgYWxyZWFkeSA9ICJcXFtFID0gbWNeMlxcXSIKICAgICAgICBhc3NlcnRFcXVhbHMoYWxyZWFkeSwgV2FpZnVNZXNzYWdlUHJvY2Vzc29yLmVuc3VyZUJsb2NrTGF0ZXhEZWxpbWl0ZXJzKGFscmVhZHkpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZW5zdXJlQmxvY2tMYXRleERlbGltaXRlcnNfa2VlcHNPdXRlcldoaXRlc3BhY2UoKSB7CiAgICAgICAgdmFsIGJvZHkgPSAiXFxmcmFjezF9ezJ9IgogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgIlxuJCQiICsgYm9keSArICIkJFxuIiwKICAgICAgICAgICAgV2FpZnVNZXNzYWdlUHJvY2Vzc29yLmVuc3VyZUJsb2NrTGF0ZXhEZWxpbWl0ZXJzKCJcbiIgKyBib2R5ICsgIlxuIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBlbnN1cmVCbG9ja0xhdGV4RGVsaW1pdGVyc19yZXR1cm5zQmxhbmtJbnB1dFVuY2hhbmdlZCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIiIsIFdhaWZ1TWVzc2FnZVByb2Nlc3Nvci5lbnN1cmVCbG9ja0xhdGV4RGVsaW1pdGVycygiIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIgICBcbiIsIFdhaWZ1TWVzc2FnZVByb2Nlc3Nvci5lbnN1cmVCbG9ja0xhdGV4RGVsaW1pdGVycygiICAgXG4iKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGVuc3VyZUJsb2NrTGF0ZXhEZWxpbWl0ZXJzX2RvZXNOb3REb3VibGVXcmFwRW1wdHlCb2R5KCkgewogICAgICAgIC8vIEEgc3RyYXkgYCQkYCBvbiBpdHMgb3duIHNob3VsZCBub3QgYmVjb21lIGAkJCQkJCRgLgogICAgICAgIGFzc2VydEVxdWFscygiJCQiLCBXYWlmdU1lc3NhZ2VQcm9jZXNzb3IuZW5zdXJlQmxvY2tMYXRleERlbGltaXRlcnMoIiQkIikpCiAgICB9CgogICAgLy8gLS0tLSBJbnRlZ3JhdGlvbiB0ZXN0cyBiZWxvdyBydW4gdGhlIG5hdGl2ZSBibG9jayBzcGxpdHRlciBhbmQgbmVlZCBsaWJzdHJlYW1uYXRpdmUuc28uCiAgICAvLyAtLS0tIFRoZXkgc2tpcCBjbGVhbmx5IHdoZW4gdGhlIG5hdGl2ZSBsaWJyYXJ5IGlzIHVuYXZhaWxhYmxlIG9uIHRoZSBob3N0IEpWTSwKICAgIC8vIC0tLS0gZS5nLiBwbGFpbiBKVk0gdW5pdCB0ZXN0cyB3aXRob3V0IHRoZSBBbmRyb2lkIGpuaUxpYnMgb24gamF2YS5saWJyYXJ5LnBhdGguCgogICAgcHJpdmF0ZSBmdW4gcmVxdWlyZU5hdGl2ZVN0cmVhbVNwbGl0dGVyKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIFN5c3RlbS5sb2FkTGlicmFyeSgic3RyZWFtbmF0aXZlIikKICAgICAgICB9IGNhdGNoIChlOiBVbnNhdGlzZmllZExpbmtFcnJvcikgewogICAgICAgICAgICBhc3N1bWVOb0V4Y2VwdGlvbihlKQogICAgICAgIH0KICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHNwbGl0TWVzc2FnZUJ5U2VudGVuY2VzX3ByZXNlcnZlc0RvbGxhckJsb2NrTGF0ZXgoKSB7CiAgICAgICAgcmVxdWlyZU5hdGl2ZVN0cmVhbVNwbGl0dGVyKCkKICAgICAgICB2YWwgY29udGVudCA9ICLml6nor6Xor7Tov5nlj6XvvJokJFxcY29sb3Jib3h7cGlua317XFx0ZXh0e+aXqeivpeivtOi/meWPpX19JCQg5bCx6L+Z5qC344CCIgogICAgICAgIHZhbCBzZWdtZW50cyA9IFdhaWZ1TWVzc2FnZVByb2Nlc3Nvci5zcGxpdE1lc3NhZ2VCeVNlbnRlbmNlcyhjb250ZW50KQogICAgICAgIHZhbCBsYXRleFNlZ21lbnQgPSBzZWdtZW50cy5zaW5nbGVPck51bGwgeyBpdC5jb250YWlucygiY29sb3Jib3giKSB9CiAgICAgICAgICAgID86IGVycm9yKCJFeHBlY3RlZCBleGFjdGx5IG9uZSBzZWdtZW50IGNvbnRhaW5pbmcgdGhlIExhVGVYIGJvZHksIGdvdCAkc2VnbWVudHMiKQogICAgICAgIGFzc2VydFRydWUoCiAgICAgICAgICAgICJMYVRlWCBzZWdtZW50IG11c3Qga2VlcCB0aGUgYCQkYCBkZWxpbWl0ZXJzIHNvIHRoZSBjaGF0IGJ1YmJsZSByZW5kZXJzIGl0IGFzIExhVGVYOiAkbGF0ZXhTZWdtZW50IiwKICAgICAgICAgICAgbGF0ZXhTZWdtZW50LnN0YXJ0c1dpdGgoIiQkIikgJiYgbGF0ZXhTZWdtZW50LmVuZHNXaXRoKCIkJCIpCiAgICAgICAgKQogICAgICAgIGFzc2VydFRydWUoCiAgICAgICAgICAgICJMYVRlWCBib2R5IG11c3Qgbm90IGJlIHNwbGl0IGJ5IHNlbnRlbmNlIHJ1bGVzOiAkbGF0ZXhTZWdtZW50IiwKICAgICAgICAgICAgbGF0ZXhTZWdtZW50LmNvbnRhaW5zKCJcXGNvbG9yYm94e3Bpbmt9e1xcdGV4dHvml6nor6Xor7Tov5nlj6V9fSIpCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gc3BsaXRNZXNzYWdlQnlTZW50ZW5jZXNfcHJlc2VydmVzQnJhY2tldEJsb2NrTGF0ZXgoKSB7CiAgICAgICAgcmVxdWlyZU5hdGl2ZVN0cmVhbVNwbGl0dGVyKCkKICAgICAgICB2YWwgY29udGVudCA9ICLnnIvov5nph4zvvJpcXFtcXGNvbG9yYm94e3Bpbmt9e1xcdGV4dHvml6nor6Xor7Tov5nlj6V9fVxcXSDlsLHov5nmoLfjgIIiCiAgICAgICAgdmFsIHNlZ21lbnRzID0gV2FpZnVNZXNzYWdlUHJvY2Vzc29yLnNwbGl0TWVzc2FnZUJ5U2VudGVuY2VzKGNvbnRlbnQpCiAgICAgICAgdmFsIGxhdGV4U2VnbWVudCA9IHNlZ21lbnRzLnNpbmdsZU9yTnVsbCB7IGl0LmNvbnRhaW5zKCJjb2xvcmJveCIpIH0KICAgICAgICAgICAgPzogZXJyb3IoIkV4cGVjdGVkIGV4YWN0bHkgb25lIHNlZ21lbnQgY29udGFpbmluZyB0aGUgTGFUZVggYm9keSwgZ290ICRzZWdtZW50cyIpCiAgICAgICAgYXNzZXJ0VHJ1ZSgKICAgICAgICAgICAgIkJyYWNrZXQtZGVsaW1pdGVkIExhVGVYIG11c3Qgc3Vydml2ZSBpbnRhY3Q6ICRsYXRleFNlZ21lbnQiLAogICAgICAgICAgICBsYXRleFNlZ21lbnQuc3RhcnRzV2l0aCgiXFxbIikgJiYgbGF0ZXhTZWdtZW50LmVuZHNXaXRoKCJcXF0iKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHNwbGl0TWVzc2FnZUJ5U2VudGVuY2VzX2RvZXNOb3RTcGxpdEJsb2NrTGF0ZXhJbnRlcmlvcigpIHsKICAgICAgICByZXF1aXJlTmF0aXZlU3RyZWFtU3BsaXR0ZXIoKQogICAgICAgIC8vIEEgcGVyaW9kIGluc2lkZSB0aGUgTGFUZVggYm9keSBwcmV2aW91c2x5IGNob3BwZWQgdGhlIGJsb2NrIGluIHR3by4KICAgICAgICB2YWwgY29udGVudCA9ICLnu5PmnpzvvJpcJFwkeCA9IDEuNSBcXGNkb3QgeVwkXCQiCiAgICAgICAgdmFsIHNlZ21lbnRzID0gV2FpZnVNZXNzYWdlUHJvY2Vzc29yLnNwbGl0TWVzc2FnZUJ5U2VudGVuY2VzKGNvbnRlbnQpCiAgICAgICAgdmFsIGxhdGV4U2VnbWVudCA9IHNlZ21lbnRzLnNpbmdsZU9yTnVsbCB7IGl0LmNvbnRhaW5zKCJjZG90IikgfQogICAgICAgICAgICA/OiBlcnJvcigiRXhwZWN0ZWQgZXhhY3RseSBvbmUgc2VnbWVudCBjb250YWluaW5nIHRoZSBMYVRlWCBib2R5LCBnb3QgJHNlZ21lbnRzIikKICAgICAgICBhc3NlcnRFcXVhbHMoIlwkXCR4ID0gMS41IFxcY2RvdCB5XCRcJCIsIGxhdGV4U2VnbWVudCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHNwbGl0TWVzc2FnZUJ5U2VudGVuY2VzX2tlZXBzT3JkZXJBcm91bmRCbG9ja0xhdGV4KCkgewogICAgICAgIHJlcXVpcmVOYXRpdmVTdHJlYW1TcGxpdHRlcigpCiAgICAgICAgdmFsIGNvbnRlbnQgPSAi5byA5aS044CCXCRcJGErYlwkXCQg57uT5bC+44CCIgogICAgICAgIHZhbCBzZWdtZW50cyA9IFdhaWZ1TWVzc2FnZVByb2Nlc3Nvci5zcGxpdE1lc3NhZ2VCeVNlbnRlbmNlcyhjb250ZW50KQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoIuW8gOWktOOAgiIsICJcJFwkYStiXCRcJCIsICLnu5PlsL7jgIIiKSwgc2VnbWVudHMpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBzdHJlYW1TZWdtZW50c19wcmVzZXJ2ZXNEb2xsYXJCbG9ja0xhdGV4QWNyb3NzQ2h1bmtzKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgcmVxdWlyZU5hdGl2ZVN0cmVhbVNwbGl0dGVyKCkKICAgICAgICAvLyBTcGxpdCB0aGUgTGFUZVggYmxvY2sgYWNyb3NzIG1hbnkgc21hbGwgY2h1bmtzIHRvIHNpbXVsYXRlIG1vZGVsIHN0cmVhbWluZy4KICAgICAgICB2YWwgZnVsbFRleHQgPSAi5pep6K+l6K+06L+Z5Y+l77yaJCRcXGNvbG9yYm94e3Bpbmt9e1xcdGV4dHvml6nor6Xor7Tov5nlj6V9fSQkIOWwsei/meagt+OAgiIKICAgICAgICB2YWwgY2h1bmtzID0gZnVsbFRleHQuY2h1bmtlZCgzKQogICAgICAgIHZhbCBjaHVua1N0cmVhbTogU3RyZWFtPFN0cmluZz4gPSBzdHJlYW0gewogICAgICAgICAgICBjaHVua3MuZm9yRWFjaCB7IGVtaXQoaXQpIH0KICAgICAgICB9CiAgICAgICAgdmFsIGNvbGxlY3RlZCA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgV2FpZnVNZXNzYWdlUHJvY2Vzc29yLnN0cmVhbVNlZ21lbnRzKGNodW5rU3RyZWFtKS5jb2xsZWN0IHsgY29sbGVjdGVkLmFkZChpdCkgfQoKICAgICAgICB2YWwgbGF0ZXhTZWdtZW50ID0gY29sbGVjdGVkLnNpbmdsZU9yTnVsbCB7IGl0LmNvbnRhaW5zKCJjb2xvcmJveCIpIH0KICAgICAgICAgICAgPzogZXJyb3IoIkV4cGVjdGVkIGV4YWN0bHkgb25lIHNlZ21lbnQgY29udGFpbmluZyB0aGUgTGFUZVggYm9keSwgZ290ICRjb2xsZWN0ZWQiKQogICAgICAgIGFzc2VydFRydWUoCiAgICAgICAgICAgICJTdHJlYW1lZCBMYVRlWCBtdXN0IGJlIHdyYXBwZWQgaW4gYCQkYCBmb3IgdGhlIGJ1YmJsZSByZW5kZXJlcjogJGxhdGV4U2VnbWVudCIsCiAgICAgICAgICAgIGxhdGV4U2VnbWVudC5zdGFydHNXaXRoKCIkJCIpICYmIGxhdGV4U2VnbWVudC5lbmRzV2l0aCgiJCQiKQogICAgICAgICkKICAgICAgICBhc3NlcnRUcnVlKAogICAgICAgICAgICAiU3RyZWFtZWQgTGFUZVggYm9keSBtdXN0IHJlbWFpbiBpbiBvbmUgc2VnbWVudDogJGxhdGV4U2VnbWVudCIsCiAgICAgICAgICAgIGxhdGV4U2VnbWVudC5jb250YWlucygiXFxjb2xvcmJveHtwaW5rfXtcXHRleHR75pep6K+l6K+06L+Z5Y+lfX0iKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHN0cmVhbVNlZ21lbnRzX3ByZXNlcnZlc0JyYWNrZXRCbG9ja0xhdGV4QWNyb3NzQ2h1bmtzKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgcmVxdWlyZU5hdGl2ZVN0cmVhbVNwbGl0dGVyKCkKICAgICAgICB2YWwgZnVsbFRleHQgPSAi5byA5aS077yaXFxbYV4yICsgYl4yID0gY14yXFxdIOe7k+WwvuOAgiIKICAgICAgICB2YWwgY2h1bmtzID0gZnVsbFRleHQuY2h1bmtlZCg0KQogICAgICAgIHZhbCBjaHVua1N0cmVhbTogU3RyZWFtPFN0cmluZz4gPSBzdHJlYW0gewogICAgICAgICAgICBjaHVua3MuZm9yRWFjaCB7IGVtaXQoaXQpIH0KICAgICAgICB9CiAgICAgICAgdmFsIGNvbGxlY3RlZCA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgV2FpZnVNZXNzYWdlUHJvY2Vzc29yLnN0cmVhbVNlZ21lbnRzKGNodW5rU3RyZWFtKS5jb2xsZWN0IHsgY29sbGVjdGVkLmFkZChpdCkgfQoKICAgICAgICB2YWwgbGF0ZXhTZWdtZW50ID0gY29sbGVjdGVkLnNpbmdsZU9yTnVsbCB7IGl0LmNvbnRhaW5zKCJhXjIiKSB9CiAgICAgICAgICAgID86IGVycm9yKCJFeHBlY3RlZCBleGFjdGx5IG9uZSBzZWdtZW50IGNvbnRhaW5pbmcgdGhlIExhVGVYIGJvZHksIGdvdCAkY29sbGVjdGVkIikKICAgICAgICBhc3NlcnRUcnVlKAogICAgICAgICAgICAiQnJhY2tldC1kZWxpbWl0ZWQgTGFUZVggbXVzdCBzdXJ2aXZlIHN0cmVhbWluZyBpbnRhY3Q6ICRsYXRleFNlZ21lbnQiLAogICAgICAgICAgICBsYXRleFNlZ21lbnQuc3RhcnRzV2l0aCgiXFxbIikgJiYgbGF0ZXhTZWdtZW50LmVuZHNXaXRoKCJcXF0iKQogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import com.bslsjdk.operit.util.stream.Stream
+import com.bslsjdk.operit.util.stream.stream
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Assume.assumeNoException
+import org.junit.Test
+
+class WaifuMessageProcessorTest {
+    @Test
+    fun calculateTypingDelayMs_firstSegmentIsImmediate() {
+        assertEquals(
+            0L,
+            WaifuMessageProcessor.calculateTypingDelayMs(
+                segmentLength = 80,
+                charDelayMs = 240,
+                isFirstSegment = true,
+            )
+        )
+    }
+
+    @Test
+    fun calculateTypingDelayMs_usesCurrentSegmentLengthForShortTail() {
+        assertEquals(
+            720L,
+            WaifuMessageProcessor.calculateTypingDelayMs(
+                segmentLength = 3,
+                charDelayMs = 240,
+                isFirstSegment = false,
+            )
+        )
+    }
+
+    @Test
+    fun calculateTypingDelayMs_capsLongSegmentDelay() {
+        assertEquals(
+            3000L,
+            WaifuMessageProcessor.calculateTypingDelayMs(
+                segmentLength = 80,
+                charDelayMs = 240,
+                isFirstSegment = false,
+            )
+        )
+    }
+
+    @Test
+    fun calculateTypingDelayMs_nonPositiveDelayIsImmediate() {
+        assertEquals(
+            0L,
+            WaifuMessageProcessor.calculateTypingDelayMs(
+                segmentLength = 10,
+                charDelayMs = 0,
+                isFirstSegment = false,
+            )
+        )
+    }
+
+    @Test
+    fun ensureBlockLatexDelimiters_wrapsDollarWhenMissing() {
+        val body = "\\colorbox{pink}{\\text{早该说这句}}"
+        assertEquals(
+            "$$" + body + "$$",
+            WaifuMessageProcessor.ensureBlockLatexDelimiters(body)
+        )
+    }
+
+    @Test
+    fun ensureBlockLatexDelimiters_preservesExistingDollarDelimiters() {
+        val already = "\$\$x^2 + y^2 = z^2\$\$"
+        assertEquals(already, WaifuMessageProcessor.ensureBlockLatexDelimiters(already))
+    }
+
+    @Test
+    fun ensureBlockLatexDelimiters_preservesBracketDelimiters() {
+        val already = "\\[E = mc^2\\]"
+        assertEquals(already, WaifuMessageProcessor.ensureBlockLatexDelimiters(already))
+    }
+
+    @Test
+    fun ensureBlockLatexDelimiters_keepsOuterWhitespace() {
+        val body = "\\frac{1}{2}"
+        assertEquals(
+            "\n$$" + body + "$$\n",
+            WaifuMessageProcessor.ensureBlockLatexDelimiters("\n" + body + "\n")
+        )
+    }
+
+    @Test
+    fun ensureBlockLatexDelimiters_returnsBlankInputUnchanged() {
+        assertEquals("", WaifuMessageProcessor.ensureBlockLatexDelimiters(""))
+        assertEquals("   \n", WaifuMessageProcessor.ensureBlockLatexDelimiters("   \n"))
+    }
+
+    @Test
+    fun ensureBlockLatexDelimiters_doesNotDoubleWrapEmptyBody() {
+        // A stray `$$` on its own should not become `$$$$$$`.
+        assertEquals("$$", WaifuMessageProcessor.ensureBlockLatexDelimiters("$$"))
+    }
+
+    // ---- Integration tests below run the native block splitter and need libstreamnative.so.
+    // ---- They skip cleanly when the native library is unavailable on the host JVM,
+    // ---- e.g. plain JVM unit tests without the Android jniLibs on java.library.path.
+
+    private fun requireNativeStreamSplitter() {
+        try {
+            System.loadLibrary("streamnative")
+        } catch (e: UnsatisfiedLinkError) {
+            assumeNoException(e)
+        }
+    }
+
+    @Test
+    fun splitMessageBySentences_preservesDollarBlockLatex() {
+        requireNativeStreamSplitter()
+        val content = "早该说这句：$$\\colorbox{pink}{\\text{早该说这句}}$$ 就这样。"
+        val segments = WaifuMessageProcessor.splitMessageBySentences(content)
+        val latexSegment = segments.singleOrNull { it.contains("colorbox") }
+            ?: error("Expected exactly one segment containing the LaTeX body, got $segments")
+        assertTrue(
+            "LaTeX segment must keep the `$$` delimiters so the chat bubble renders it as LaTeX: $latexSegment",
+            latexSegment.startsWith("$$") && latexSegment.endsWith("$$")
+        )
+        assertTrue(
+            "LaTeX body must not be split by sentence rules: $latexSegment",
+            latexSegment.contains("\\colorbox{pink}{\\text{早该说这句}}")
+        )
+    }
+
+    @Test
+    fun splitMessageBySentences_preservesBracketBlockLatex() {
+        requireNativeStreamSplitter()
+        val content = "看这里：\\[\\colorbox{pink}{\\text{早该说这句}}\\] 就这样。"
+        val segments = WaifuMessageProcessor.splitMessageBySentences(content)
+        val latexSegment = segments.singleOrNull { it.contains("colorbox") }
+            ?: error("Expected exactly one segment containing the LaTeX body, got $segments")
+        assertTrue(
+            "Bracket-delimited LaTeX must survive intact: $latexSegment",
+            latexSegment.startsWith("\\[") && latexSegment.endsWith("\\]")
+        )
+    }
+
+    @Test
+    fun splitMessageBySentences_doesNotSplitBlockLatexInterior() {
+        requireNativeStreamSplitter()
+        // A period inside the LaTeX body previously chopped the block in two.
+        val content = "结果：\$\$x = 1.5 \\cdot y\$\$"
+        val segments = WaifuMessageProcessor.splitMessageBySentences(content)
+        val latexSegment = segments.singleOrNull { it.contains("cdot") }
+            ?: error("Expected exactly one segment containing the LaTeX body, got $segments")
+        assertEquals("\$\$x = 1.5 \\cdot y\$\$", latexSegment)
+    }
+
+    @Test
+    fun splitMessageBySentences_keepsOrderAroundBlockLatex() {
+        requireNativeStreamSplitter()
+        val content = "开头。\$\$a+b\$\$ 结尾。"
+        val segments = WaifuMessageProcessor.splitMessageBySentences(content)
+        assertEquals(listOf("开头。", "\$\$a+b\$\$", "结尾。"), segments)
+    }
+
+    @Test
+    fun streamSegments_preservesDollarBlockLatexAcrossChunks() = runBlocking {
+        requireNativeStreamSplitter()
+        // Split the LaTeX block across many small chunks to simulate model streaming.
+        val fullText = "早该说这句：$$\\colorbox{pink}{\\text{早该说这句}}$$ 就这样。"
+        val chunks = fullText.chunked(3)
+        val chunkStream: Stream<String> = stream {
+            chunks.forEach { emit(it) }
+        }
+        val collected = mutableListOf<String>()
+        WaifuMessageProcessor.streamSegments(chunkStream).collect { collected.add(it) }
+
+        val latexSegment = collected.singleOrNull { it.contains("colorbox") }
+            ?: error("Expected exactly one segment containing the LaTeX body, got $collected")
+        assertTrue(
+            "Streamed LaTeX must be wrapped in `$$` for the bubble renderer: $latexSegment",
+            latexSegment.startsWith("$$") && latexSegment.endsWith("$$")
+        )
+        assertTrue(
+            "Streamed LaTeX body must remain in one segment: $latexSegment",
+            latexSegment.contains("\\colorbox{pink}{\\text{早该说这句}}")
+        )
+    }
+
+    @Test
+    fun streamSegments_preservesBracketBlockLatexAcrossChunks() = runBlocking {
+        requireNativeStreamSplitter()
+        val fullText = "开头：\\[a^2 + b^2 = c^2\\] 结尾。"
+        val chunks = fullText.chunked(4)
+        val chunkStream: Stream<String> = stream {
+            chunks.forEach { emit(it) }
+        }
+        val collected = mutableListOf<String>()
+        WaifuMessageProcessor.streamSegments(chunkStream).collect { collected.add(it) }
+
+        val latexSegment = collected.singleOrNull { it.contains("a^2") }
+            ?: error("Expected exactly one segment containing the LaTeX body, got $collected")
+        assertTrue(
+            "Bracket-delimited LaTeX must survive streaming intact: $latexSegment",
+            latexSegment.startsWith("\\[") && latexSegment.endsWith("\\]")
+        )
+    }
+}

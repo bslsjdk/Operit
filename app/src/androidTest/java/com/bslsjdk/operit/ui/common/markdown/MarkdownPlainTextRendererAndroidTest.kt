@@ -1,1 +1,204 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duCgppbXBvcnQgYW5kcm9pZHgudGVzdC5leHQuanVuaXQucnVubmVycy5BbmRyb2lkSlVuaXQ0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMucnVuQmxvY2tpbmcKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBNYXJrZG93blBsYWluVGV4dFJlbmRlcmVyQW5kcm9pZFRlc3QgewoKICAgIHByaXZhdGUgZnVuIHJlbmRlcigKICAgICAgICBtYXJrZG93bjogU3RyaW5nLAogICAgICAgIGxhdGV4VG9QbGFpblRleHQ6IChMaXN0PFN0cmluZz4pIC0+IExpc3Q8U3RyaW5nPiA9IHsgaXQgfSwKICAgICk6IFN0cmluZyA9IHJ1bkJsb2NraW5nIHsgbWFya2Rvd25Ub1BsYWluVGV4dEZvckNvcHkobWFya2Rvd24sIGxhdGV4VG9QbGFpblRleHQpIH0KCiAgICBAVGVzdCBmdW4gbWFya2Rvd25Ub1BsYWluVGV4dEZvckNvcHlfcHJlc2VydmVzU2luZ2xlTGluZVVzZXJUZXh0KCkgewogICAgICAgIGFzc2VydEVxdWFscygiMyIsIHJlbmRlcigiMyIpKQogICAgICAgIGFzc2VydEVxdWFscygicGxhaW4gdXNlciBtZXNzYWdlIiwgcmVuZGVyKCJwbGFpbiB1c2VyIG1lc3NhZ2UiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbWFya2Rvd25Ub1BsYWluVGV4dEZvckNvcHlfcmVtb3Zlc0Zvcm1hdHRpbmdNYXJrZXJzKCkgewogICAgICAgIHZhbCBjb250ZW50ID0KICAgICAgICAgICAgIiIiCiAgICAgICAgICAgICMjIOagh+mimAoKICAgICAgICAgICAg6L+Z5pivICoq57KX5L2TKirjgIEq5pac5L2TKuOAgX5+5Yig6Zmk57q/fn4g5ZKMIFvpk77mjqVdKGh0dHBzOi8vZXhhbXBsZS5jb20p44CCCiAgICAgICAgICAgIC0tLQogICAgICAgICAgICAtIOesrOS4gOmhuQogICAgICAgICAgICAxLiDnrKzkuozpobkKICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICIiIgogICAgICAgICAgICDmoIfpopgKCiAgICAgICAgICAgIOi/meaYryDnspfkvZPjgIHmlpzkvZPjgIHliKDpmaTnur8g5ZKMIOmTvuaOpSAoaHR0cHM6Ly9leGFtcGxlLmNvbSnjgIIKCiAgICAgICAgICAgIOKAoiDnrKzkuIDpobkKICAgICAgICAgICAgMS4g56ys5LqM6aG5CiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCksCiAgICAgICAgICAgIHJlbmRlcihjb250ZW50KQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gbWFya2Rvd25Ub1BsYWluVGV4dEZvckNvcHlfcHJlc2VydmVzQ29kZUJsb2NrQ29udGVudCgpIHsKICAgICAgICB2YWwgY29udGVudCA9CiAgICAgICAgICAgICIiIgogICAgICAgICAgICBgYGBrb3RsaW4KICAgICAgICAgICAgdmFsIHBpcGUgPSAiYSB8IGIiCiAgICAgICAgICAgIHZhbCBtYXJrZG93biA9ICIqKnRleHQqKiIKICAgICAgICAgICAgYGBgCiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiIiIKICAgICAgICAgICAgLS0tLWtvdGxpbi0tLS0tCiAgICAgICAgICAgIHZhbCBwaXBlID0gImEgfCBiIgogICAgICAgICAgICB2YWwgbWFya2Rvd24gPSAiKip0ZXh0KioiCiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCksCiAgICAgICAgICAgIHJlbmRlcihjb250ZW50KQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gbWFya2Rvd25Ub1BsYWluVGV4dEZvckNvcHlfY29udmVydHNUYWJsZVRvVGFiYmVkVGV4dCgpIHsKICAgICAgICB2YWwgY29udGVudCA9CiAgICAgICAgICAgICIiIgogICAgICAgICAgICB8IOWQjeensCB8IOaVsOmHjyB8CiAgICAgICAgICAgIHwgLS0tIHwgLS0tOiB8CiAgICAgICAgICAgIHwg6Iu55p6cIHwgKioyKiogfAogICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIGFzc2VydEVxdWFscygi5ZCN56ewXHTmlbDph49cbuiLueaenFx0MiIsIHJlbmRlcihjb250ZW50KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbWFya2Rvd25Ub1BsYWluVGV4dEZvckNvcHlfcHJlc2VydmVzTGF0ZXhDb250ZW50KCkgewogICAgICAgIHZhbCBjb250ZW50ID0KICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIOe7k+aenOaYryAqKuWFrOW8jyoq77yaJHsnJCd9eF8xJHsnJCd944CCCiAgICAgICAgICAgIOihjOWGheaLrOWPt++8mlwoeF4yK3leMlwp44CCCgogICAgICAgICAgICAkeyckJ30keyckJ30KICAgICAgICAgICAgXGZyYWN7eF8xK1xzcXJ0e3l9fXsyfQogICAgICAgICAgICAkeyckJ30keyckJ30KCiAgICAgICAgICAgIFxbCiAgICAgICAgICAgIFxzcXJ0e3h9CiAgICAgICAgICAgIFxdCiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiIiIKICAgICAgICAgICAg57uT5p6c5pivIOWFrOW8j++8mnhfMeOAggogICAgICAgICAgICDooYzlhoXmi6zlj7fvvJp4XjIreV4y44CCCgogICAgICAgICAgICBcZnJhY3t4XzErXHNxcnR7eX19ezJ9CgogICAgICAgICAgICBcc3FydHt4fQogICAgICAgICAgICAiIiIudHJpbUluZGVudCgpLAogICAgICAgICAgICByZW5kZXIoY29udGVudCkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIG1hcmtkb3duVG9QbGFpblRleHRGb3JDb3B5X2RvZXNOb3RDb252ZXJ0TGF0ZXhJbnNpZGVDb2RlKCkgewogICAgICAgIHZhbCBjb250ZW50ID0KICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIGBgYHB5dGhvbgogICAgICAgICAgICBmb3JtdWxhID0gIiR7JyQnfXhfMSR7JyQnfSIKICAgICAgICAgICAgYGBgCiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiIiIKICAgICAgICAgICAgLS0tLXB5dGhvbi0tLS0tCiAgICAgICAgICAgIGZvcm11bGEgPSAiJHsnJCd9eF8xJHsnJCd9IgogICAgICAgICAgICAiIiIudHJpbUluZGVudCgpLAogICAgICAgICAgICByZW5kZXIoY29udGVudCkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIG1hcmtkb3duVG9QbGFpblRleHRGb3JDb3B5X2JhdGNoZXNBbGxMYXRleEZyb21DbGFzc2ljRm9ybXVsYVNhbXBsZSgpIHsKICAgICAgICB2YWwgY29udGVudCA9CiAgICAgICAgICAgICIiIgogICAgICAgICAgICDku6XkuIvmmK/kuIDkupvnu4/lhbjkuJTlupTnlKjlub/ms5vnmoTmlbDlrablhazlvI/vvIzmtrXnm5bku6PmlbDjgIHlh6DkvZXjgIHkuInop5LlrabjgIHlvq7np6/liIbnrYnpoobln5/vvIzph4fnlKjmoIflh4YgTGFUZVgg5qC85byP5ZGI546w77yM5pa55L6/6ZiF6K+75LiO5aSN6L+w44CCCgogICAgICAgICAgICAtLS0KCiAgICAgICAgICAgICMjIyAxLiDkuozmrKHmlrnnqIvmsYLmoLnlhazlvI8KICAgICAgICAgICAg5a+55LqO5LiA5YWD5LqM5qyh5pa556iLIFwoYXheMiArIGJ4ICsgYyA9IDBcKe+8iFwoYSBcbmVxIDBcKe+8ie+8mgogICAgICAgICAgICBcWwogICAgICAgICAgICB4ID0gXGZyYWN7LWIgXHBtIFxzcXJ0e2JeMiAtIDRhY319ezJhfQogICAgICAgICAgICBcXQoKICAgICAgICAgICAgLS0tCgogICAgICAgICAgICAjIyMgMi4g5Yu+6IKh5a6a55CGCiAgICAgICAgICAgIOWcqOebtOinkuS4ieinkuW9ouS4re+8jOebtOinkui+uSBcKGEsIGJcKSDkuI7mlpzovrkgXChjXCkg5ruh6Laz77yaCiAgICAgICAgICAgIFxbCiAgICAgICAgICAgIGFeMiArIGJeMiA9IGNeMgogICAgICAgICAgICBcXQoKICAgICAgICAgICAgLS0tCgogICAgICAgICAgICAjIyMgMy4g5qyn5ouJ5YWs5byPCiAgICAgICAgICAgIOWkjeWIhuaekOS4reeahOaguOW/g+aBkuetieW8j++8mgogICAgICAgICAgICBcWwogICAgICAgICAgICBlXntpXHRoZXRhfSA9IFxjb3NcdGhldGEgKyBpXHNpblx0aGV0YQogICAgICAgICAgICBcXQogICAgICAgICAgICDnibnliKvlnLDvvIzlvZMgXChcdGhldGEgPSBccGlcKSDml7bvvIzlvpfliLDmrKfmi4nmgZLnrYnlvI/vvJoKICAgICAgICAgICAgXFsKICAgICAgICAgICAgZV57aVxwaX0gKyAxID0gMAogICAgICAgICAgICBcXQoKICAgICAgICAgICAgLS0tCgogICAgICAgICAgICAjIyMgNC4g5b6u56ev5YiG5Z+65pys5a6a55CG77yI54mb6aG/LeiOseW4g+WwvOiMqOWFrOW8j++8iQogICAgICAgICAgICDoi6UgXChGJyh4KSA9IGYoeClcKSDkuJQgXChmXCkg5ZyoIFwoW2EsYl1cKSDkuIrov57nu63vvIzliJnvvJoKICAgICAgICAgICAgXFsKICAgICAgICAgICAgXGludF9hXmIgZih4KVwsZHggPSBGKGIpIC0gRihhKQogICAgICAgICAgICBcXQoKICAgICAgICAgICAgLS0tCgogICAgICAgICAgICAjIyMgNS4g5rOw5YuS57qn5pWw5bGV5byACiAgICAgICAgICAgIOWHveaVsCBcKGYoeClcKSDlnKjngrkgXChhXCkg6ZmE6L+R5Y+v5bGV5byA5Li677yaCiAgICAgICAgICAgIFxbCiAgICAgICAgICAgIGYoeCkgPSBcc3VtX3tuPTB9XntcaW5mdHl9IFxmcmFje2ZeeyhuKX0oYSl9e24hfSAoeCAtIGEpXm4KICAgICAgICAgICAgXF0KCiAgICAgICAgICAgIC0tLQoKICAgICAgICAgICAgIyMjIDYuIOato+aAgeWIhuW4g+amgueOh+WvhuW6puWHveaVsAogICAgICAgICAgICBcWwogICAgICAgICAgICBmKHgpID0gXGZyYWN7MX17XHNpZ21hXHNxcnR7MlxwaX19IFxleHBcbGVmdCggLVxmcmFjeyh4LVxtdSleMn17MlxzaWdtYV4yfSBccmlnaHQpCiAgICAgICAgICAgIFxdCgogICAgICAgICAgICAtLS0KCiAgICAgICAgICAgICMjIyA3LiDoh6rnhLbmlbDmsYLlkozlhazlvI/vvIjnrYnlt67mlbDliJfvvIkKICAgICAgICAgICAgXFsKICAgICAgICAgICAgMSArIDIgKyAzICsgXGNkb3RzICsgbiA9IFxmcmFje24obisxKX17Mn0KICAgICAgICAgICAgXF0KICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICB2YXIgYmF0Y2hDYWxscyA9IDAKICAgICAgICB2YXIgY2FwdHVyZWRGb3JtdWxhcyA9IGVtcHR5TGlzdDxTdHJpbmc+KCkKICAgICAgICB2YWwgcmVzdWx0ID0KICAgICAgICAgICAgcmVuZGVyKGNvbnRlbnQpIHsgZm9ybXVsYXMgLT4KICAgICAgICAgICAgICAgIGJhdGNoQ2FsbHMrKwogICAgICAgICAgICAgICAgY2FwdHVyZWRGb3JtdWxhcyA9IGZvcm11bGFzCiAgICAgICAgICAgICAgICBmb3JtdWxhcy5pbmRpY2VzLm1hcCB7IGluZGV4IC0+ICJGT1JNVUxBXyRpbmRleCIgfQogICAgICAgICAgICB9CgogICAgICAgIGFzc2VydEVxdWFscygxLCBiYXRjaENhbGxzKQogICAgICAgIGFzc2VydEVxdWFscygxOCwgY2FwdHVyZWRGb3JtdWxhcy5zaXplKQogICAgICAgIGFzc2VydFRydWUoY2FwdHVyZWRGb3JtdWxhcy5jb250YWlucygiIiJmKHgpID0gXHN1bV97bj0wfV57XGluZnR5fSBcZnJhY3tmXnsobil9KGEpfXtuIX0gKHggLSBhKV5uIiIiKSkKICAgICAgICBhc3NlcnRUcnVlKGNhcHR1cmVkRm9ybXVsYXMuY29udGFpbnMoIiIiZih4KSA9IFxmcmFjezF9e1xzaWdtYVxzcXJ0ezJccGl9fSBcZXhwXGxlZnQoIC1cZnJhY3soeC1cbXUpXjJ9ezJcc2lnbWFeMn0gXHJpZ2h0KSIiIikpCiAgICAgICAgYXNzZXJ0VHJ1ZShjYXB0dXJlZEZvcm11bGFzLmNvbnRhaW5zKCIiIjEgKyAyICsgMyArIFxjZG90cyArIG4gPSBcZnJhY3tuKG4rMSl9ezJ9IiIiKSkKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdC5jb250YWlucygiRk9STVVMQV8xNyIpKQogICAgICAgIGFzc2VydEZhbHNlKHJlc3VsdC5jb250YWlucygiXFxmcmFjIikpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.common.markdown
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class MarkdownPlainTextRendererAndroidTest {
+
+    private fun render(
+        markdown: String,
+        latexToPlainText: (List<String>) -> List<String> = { it },
+    ): String = runBlocking { markdownToPlainTextForCopy(markdown, latexToPlainText) }
+
+    @Test fun markdownToPlainTextForCopy_preservesSingleLineUserText() {
+        assertEquals("3", render("3"))
+        assertEquals("plain user message", render("plain user message"))
+    }
+
+    @Test fun markdownToPlainTextForCopy_removesFormattingMarkers() {
+        val content =
+            """
+            ## 标题
+
+            这是 **粗体**、*斜体*、~~删除线~~ 和 [链接](https://example.com)。
+            ---
+            - 第一项
+            1. 第二项
+            """.trimIndent()
+
+        assertEquals(
+            """
+            标题
+
+            这是 粗体、斜体、删除线 和 链接 (https://example.com)。
+
+            • 第一项
+            1. 第二项
+            """.trimIndent(),
+            render(content)
+        )
+    }
+
+    @Test fun markdownToPlainTextForCopy_preservesCodeBlockContent() {
+        val content =
+            """
+            ```kotlin
+            val pipe = "a | b"
+            val markdown = "**text**"
+            ```
+            """.trimIndent()
+
+        assertEquals(
+            """
+            ----kotlin-----
+            val pipe = "a | b"
+            val markdown = "**text**"
+            """.trimIndent(),
+            render(content)
+        )
+    }
+
+    @Test fun markdownToPlainTextForCopy_convertsTableToTabbedText() {
+        val content =
+            """
+            | 名称 | 数量 |
+            | --- | ---: |
+            | 苹果 | **2** |
+            """.trimIndent()
+
+        assertEquals("名称\t数量\n苹果\t2", render(content))
+    }
+
+    @Test fun markdownToPlainTextForCopy_preservesLatexContent() {
+        val content =
+            """
+            结果是 **公式**：${'$'}x_1${'$'}。
+            行内括号：\(x^2+y^2\)。
+
+            ${'$'}${'$'}
+            \frac{x_1+\sqrt{y}}{2}
+            ${'$'}${'$'}
+
+            \[
+            \sqrt{x}
+            \]
+            """.trimIndent()
+
+        assertEquals(
+            """
+            结果是 公式：x_1。
+            行内括号：x^2+y^2。
+
+            \frac{x_1+\sqrt{y}}{2}
+
+            \sqrt{x}
+            """.trimIndent(),
+            render(content)
+        )
+    }
+
+    @Test fun markdownToPlainTextForCopy_doesNotConvertLatexInsideCode() {
+        val content =
+            """
+            ```python
+            formula = "${'$'}x_1${'$'}"
+            ```
+            """.trimIndent()
+
+        assertEquals(
+            """
+            ----python-----
+            formula = "${'$'}x_1${'$'}"
+            """.trimIndent(),
+            render(content)
+        )
+    }
+
+    @Test fun markdownToPlainTextForCopy_batchesAllLatexFromClassicFormulaSample() {
+        val content =
+            """
+            以下是一些经典且应用广泛的数学公式，涵盖代数、几何、三角学、微积分等领域，采用标准 LaTeX 格式呈现，方便阅读与复述。
+
+            ---
+
+            ### 1. 二次方程求根公式
+            对于一元二次方程 \(ax^2 + bx + c = 0\)（\(a \neq 0\)）：
+            \[
+            x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+            \]
+
+            ---
+
+            ### 2. 勾股定理
+            在直角三角形中，直角边 \(a, b\) 与斜边 \(c\) 满足：
+            \[
+            a^2 + b^2 = c^2
+            \]
+
+            ---
+
+            ### 3. 欧拉公式
+            复分析中的核心恒等式：
+            \[
+            e^{i\theta} = \cos\theta + i\sin\theta
+            \]
+            特别地，当 \(\theta = \pi\) 时，得到欧拉恒等式：
+            \[
+            e^{i\pi} + 1 = 0
+            \]
+
+            ---
+
+            ### 4. 微积分基本定理（牛顿-莱布尼茨公式）
+            若 \(F'(x) = f(x)\) 且 \(f\) 在 \([a,b]\) 上连续，则：
+            \[
+            \int_a^b f(x)\,dx = F(b) - F(a)
+            \]
+
+            ---
+
+            ### 5. 泰勒级数展开
+            函数 \(f(x)\) 在点 \(a\) 附近可展开为：
+            \[
+            f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x - a)^n
+            \]
+
+            ---
+
+            ### 6. 正态分布概率密度函数
+            \[
+            f(x) = \frac{1}{\sigma\sqrt{2\pi}} \exp\left( -\frac{(x-\mu)^2}{2\sigma^2} \right)
+            \]
+
+            ---
+
+            ### 7. 自然数求和公式（等差数列）
+            \[
+            1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}
+            \]
+            """.trimIndent()
+
+        var batchCalls = 0
+        var capturedFormulas = emptyList<String>()
+        val result =
+            render(content) { formulas ->
+                batchCalls++
+                capturedFormulas = formulas
+                formulas.indices.map { index -> "FORMULA_$index" }
+            }
+
+        assertEquals(1, batchCalls)
+        assertEquals(18, capturedFormulas.size)
+        assertTrue(capturedFormulas.contains("""f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!} (x - a)^n"""))
+        assertTrue(capturedFormulas.contains("""f(x) = \frac{1}{\sigma\sqrt{2\pi}} \exp\left( -\frac{(x-\mu)^2}{2\sigma^2} \right)"""))
+        assertTrue(capturedFormulas.contains("""1 + 2 + 3 + \cdots + n = \frac{n(n+1)}{2}"""))
+        assertTrue(result.contains("FORMULA_17"))
+        assertFalse(result.contains("\\frac"))
+    }
+}

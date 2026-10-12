@@ -1,1 +1,114 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlN0cmluZ1Jlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xSZXN1bHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkNoYXRNYXJrdXBSZWdleAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvbXBsZXRhYmxlRGVmZXJyZWQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5DYW5jZWxsYXRpb25FeGNlcHRpb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5hc3luYwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZW1wdHlGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5mbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5mbG93T2YKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5ydW5CbG9ja2luZwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC4qCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgT3JkZXJlZFRvb2xSZXN1bHRzVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIGBzYW1lLW5hbWUgY2FsbHMgcHVibGlzaCBpbiBpbnZvY2F0aW9uIG9yZGVyIGRlc3BpdGUgcmV2ZXJzZWQgY29tcGxldGlvbmAoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgZW1pdHRlZCA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgdmFsIG9yZGVyZWQgPSBPcmRlcmVkVG9vbFJlc3VsdHMoMykgeyBlbWl0dGVkLmFkZChpdCkgfQogICAgICAgIHZhbCBzZWNvbmRGaW5pc2hlZCA9IENvbXBsZXRhYmxlRGVmZXJyZWQ8VW5pdD4oKQogICAgICAgIHZhbCBmaXJzdCA9IGFzeW5jIHsKICAgICAgICAgICAgc2Vjb25kRmluaXNoZWQuYXdhaXQoKQogICAgICAgICAgICBhc3NlcnRUcnVlKGVtaXR0ZWQuaXNFbXB0eSgpKQogICAgICAgICAgICBvcmRlcmVkLmNvbXBsZXRlKDAsIHJlc3VsdCgiYSIpKQogICAgICAgIH0KICAgICAgICB2YWwgc2Vjb25kID0gYXN5bmMgewogICAgICAgICAgICBvcmRlcmVkLmNvbXBsZXRlKDEsIHJlc3VsdCgiYiIpKQogICAgICAgICAgICBzZWNvbmRGaW5pc2hlZC5jb21wbGV0ZShVbml0KQogICAgICAgIH0KICAgICAgICBmaXJzdC5hd2FpdCgpCiAgICAgICAgc2Vjb25kLmF3YWl0KCkKICAgICAgICAvLyBQdWJsaXNoIGEgcmVhZHkgcHJlZml4IHdpdGhvdXQgd2FpdGluZyBmb3IgdGhlIGZpbmFsIGNhbGwgb2YgdGhlIGJhdGNoLgogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImEiLCAiYiIpLCBlbWl0dGVkLm1hcCg6OmNvbnRlbnQpKQogICAgICAgIG9yZGVyZWQuY29tcGxldGUoMiwgcmVzdWx0KCJjIikpCiAgICAgICAgdmFsIGJhdGNoID0gb3JkZXJlZC5maW5pc2goKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImEiLCAiYiIsICJjIiksIGJhdGNoLnJlc3VsdHMubWFwIHsgaXQucmVzdWx0LnRvU3RyaW5nKCkgfSkKICAgICAgICBhc3NlcnRFcXVhbHMoZW1pdHRlZC5qb2luVG9TdHJpbmcoIlxuIiksIGJhdGNoLm1lc3NhZ2UpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZGVuaWFscyBrZWVwIG9yaWdpbmFsIHBvc2l0aW9ucyBhbmQgaWRlbnRpY2FsIGNhbGxzIHJldGFpbiBzZXBhcmF0ZSBzbG90c2AoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgZW1pdHRlZCA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgdmFsIG9yZGVyZWQgPSBPcmRlcmVkVG9vbFJlc3VsdHMoMykgeyBlbWl0dGVkLmFkZChpdCkgfQogICAgICAgIHZhbCBkZW5pZWQgPSBUb29sUmVzdWx0KCJyZWFkX2ZpbGUiLCBmYWxzZSwgU3RyaW5nUmVzdWx0RGF0YSgiIiksICJkZW5pZWQiKQogICAgICAgIG9yZGVyZWQuY29tcGxldGUoMSwgZGVuaWVkKQogICAgICAgIG9yZGVyZWQuY29tcGxldGUoMiwgcmVzdWx0KCJpZGVudGljYWwiKSkKICAgICAgICBhc3NlcnRUcnVlKGVtaXR0ZWQuaXNFbXB0eSgpKQogICAgICAgIG9yZGVyZWQuY29tcGxldGUoMCwgcmVzdWx0KCJpZGVudGljYWwiKSkKICAgICAgICB2YWwgYmF0Y2ggPSBvcmRlcmVkLmZpbmlzaCgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMsIGVtaXR0ZWQuc2l6ZSkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKHRydWUsIGZhbHNlLCB0cnVlKSwgYmF0Y2gucmVzdWx0cy5tYXAgeyBpdC5zdWNjZXNzIH0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJpZGVudGljYWwiLCBjb250ZW50KGVtaXR0ZWRbMF0pKQogICAgICAgIGFzc2VydEVxdWFscygiPGVycm9yPmRlbmllZDwvZXJyb3I+IiwgY29udGVudChlbWl0dGVkWzFdKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImlkZW50aWNhbCIsIGNvbnRlbnQoZW1pdHRlZFsyXSkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgbXVsdGktcGFydCB0b29sIGVtaXRzIG9uZSBhZ2dyZWdhdGUgc2hhcmVkIHdpdGggbW9kZWwgaGlzdG9yeWAoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgZW1pdHRlZCA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgdmFsIG9yZGVyZWQgPSBPcmRlcmVkVG9vbFJlc3VsdHMoMSkgeyBlbWl0dGVkLmFkZChpdCkgfQogICAgICAgIHZhbCBmaW5hbFJlc3VsdCA9IFRvb2xFeGVjdXRpb25NYW5hZ2VyLmFnZ3JlZ2F0ZVRvb2xSZXN1bHRzKAogICAgICAgICAgICAicmVhZF9maWxlIiwgZmxvd09mKHJlc3VsdCgiZmlyc3QgcGFydCIpLCByZXN1bHQoInNlY29uZCBwYXJ0IikpCiAgICAgICAgKQogICAgICAgIG9yZGVyZWQuY29tcGxldGUoMCwgZmluYWxSZXN1bHQpCiAgICAgICAgdmFsIGJhdGNoID0gb3JkZXJlZC5maW5pc2goKQogICAgICAgIGFzc2VydEVxdWFscygxLCBDaGF0TWFya3VwUmVnZXgudG9vbFJlc3VsdEFueVBhdHRlcm4uZmluZEFsbChiYXRjaC5tZXNzYWdlKS5jb3VudCgpKQogICAgICAgIGFzc2VydEVxdWFscygiZmlyc3QgcGFydFxuc2Vjb25kIHBhcnQiLCBjb250ZW50KGVtaXR0ZWQuc2luZ2xlKCkpKQogICAgICAgIGFzc2VydEVxdWFscyhlbWl0dGVkLnNpbmdsZSgpLCBiYXRjaC5tZXNzYWdlKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGVtcHR5IHRvb2wgYW5kIGZhaWxlZCB0b29sIGJvdGggcHVibGlzaCBhIGZpbmFsIHJlc3VsdGAoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgZW1pdHRlZCA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgdmFsIG9yZGVyZWQgPSBPcmRlcmVkVG9vbFJlc3VsdHMoMikgeyBlbWl0dGVkLmFkZChpdCkgfQogICAgICAgIHZhbCBlbXB0eSA9IFRvb2xFeGVjdXRpb25NYW5hZ2VyLmFnZ3JlZ2F0ZVRvb2xSZXN1bHRzKCJyZWFkX2ZpbGUiLCBlbXB0eUZsb3coKSkKICAgICAgICB2YWwgZmFpbGVkID0gVG9vbEV4ZWN1dGlvbk1hbmFnZXIuYWdncmVnYXRlVG9vbFJlc3VsdHMoCiAgICAgICAgICAgICJyZWFkX2ZpbGUiLAogICAgICAgICAgICBmbG93T2YocmVzdWx0KCJwYXJ0aWFsIiksIFRvb2xSZXN1bHQoInJlYWRfZmlsZSIsIGZhbHNlLCBTdHJpbmdSZXN1bHREYXRhKCIiKSwgImZhaWxlZCIpKQogICAgICAgICkKICAgICAgICBvcmRlcmVkLmNvbXBsZXRlKDEsIGZhaWxlZCkKICAgICAgICBvcmRlcmVkLmNvbXBsZXRlKDAsIGVtcHR5KQogICAgICAgIHZhbCBiYXRjaCA9IG9yZGVyZWQuZmluaXNoKCkKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgZW1pdHRlZC5zaXplKQogICAgICAgIGFzc2VydFRydWUoYmF0Y2gucmVzdWx0cy5hbGwgeyAhaXQuc3VjY2VzcyB9KQogICAgICAgIGFzc2VydEVxdWFscygiVGhlIHRvb2wgZXhlY3V0aW9uIHJldHVybmVkIG5vIHJlc3VsdHMuIiwgZW1wdHkuZXJyb3IpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwYXJ0aWFsXG5TdGVwIGVycm9yOiBmYWlsZWQiLCBmYWlsZWQucmVzdWx0LnRvU3RyaW5nKCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGVtaXR0ZWQuam9pblRvU3RyaW5nKCJcbiIpLCBiYXRjaC5tZXNzYWdlKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGNhbmNlbGxhdGlvbiBkb2VzIG5vdCBmYWJyaWNhdGUgYSBjb21wbGV0ZWQgcmVzdWx0IGZyb20gcGFydGlhbCBvdXRwdXRgKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgVG9vbEV4ZWN1dGlvbk1hbmFnZXIuYWdncmVnYXRlVG9vbFJlc3VsdHMoInJlYWRfZmlsZSIsIGZsb3cgewogICAgICAgICAgICAgICAgZW1pdChyZXN1bHQoInBhcnRpYWwiKSkKICAgICAgICAgICAgICAgIHRocm93IENhbmNlbGxhdGlvbkV4Y2VwdGlvbigiY2FuY2VsbGVkIikKICAgICAgICAgICAgfSkKICAgICAgICAgICAgZmFpbCgiRXhwZWN0ZWQgY2FuY2VsbGF0aW9uIikKICAgICAgICB9IGNhdGNoIChleHBlY3RlZDogQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGFzc2VydEVxdWFscygiY2FuY2VsbGVkIiwgZXhwZWN0ZWQubWVzc2FnZSkKICAgICAgICB9CiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZW1wdHkgYmF0Y2ggY29udGFpbnMgbm8gbWFya3VwYCgpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBiYXRjaCA9IE9yZGVyZWRUb29sUmVzdWx0cygwKSB7IGVycm9yKCJVbmV4cGVjdGVkIG91dHB1dCIpIH0uZmluaXNoKCkKICAgICAgICBhc3NlcnRUcnVlKGJhdGNoLnJlc3VsdHMuaXNFbXB0eSgpKQogICAgICAgIGFzc2VydEVxdWFscygiIiwgYmF0Y2gubWVzc2FnZSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXN1bHQodGV4dDogU3RyaW5nKSA9IFRvb2xSZXN1bHQoInJlYWRfZmlsZSIsIHRydWUsIFN0cmluZ1Jlc3VsdERhdGEodGV4dCkpCiAgICBwcml2YXRlIGZ1biBjb250ZW50KHhtbDogU3RyaW5nKTogU3RyaW5nID0KICAgICAgICBjaGVja05vdE51bGwoQ2hhdE1hcmt1cFJlZ2V4LmNvbnRlbnRUYWcuZmluZCh4bWwpKS5ncm91cFZhbHVlc1sxXQp9Cg==
+package com.bslsjdk.operit.api.chat.enhance
+
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.util.ChatMarkupRegex
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.async
+import kotlinx.coroutines.flow.emptyFlow
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.*
+import org.junit.Test
+
+class OrderedToolResultsTest {
+    @Test
+    fun `same-name calls publish in invocation order despite reversed completion`() = runBlocking {
+        val emitted = mutableListOf<String>()
+        val ordered = OrderedToolResults(3) { emitted.add(it) }
+        val secondFinished = CompletableDeferred<Unit>()
+        val first = async {
+            secondFinished.await()
+            assertTrue(emitted.isEmpty())
+            ordered.complete(0, result("a"))
+        }
+        val second = async {
+            ordered.complete(1, result("b"))
+            secondFinished.complete(Unit)
+        }
+        first.await()
+        second.await()
+        // Publish a ready prefix without waiting for the final call of the batch.
+        assertEquals(listOf("a", "b"), emitted.map(::content))
+        ordered.complete(2, result("c"))
+        val batch = ordered.finish()
+        assertEquals(listOf("a", "b", "c"), batch.results.map { it.result.toString() })
+        assertEquals(emitted.joinToString("\n"), batch.message)
+    }
+
+    @Test
+    fun `denials keep original positions and identical calls retain separate slots`() = runBlocking {
+        val emitted = mutableListOf<String>()
+        val ordered = OrderedToolResults(3) { emitted.add(it) }
+        val denied = ToolResult("read_file", false, StringResultData(""), "denied")
+        ordered.complete(1, denied)
+        ordered.complete(2, result("identical"))
+        assertTrue(emitted.isEmpty())
+        ordered.complete(0, result("identical"))
+        val batch = ordered.finish()
+        assertEquals(3, emitted.size)
+        assertEquals(listOf(true, false, true), batch.results.map { it.success })
+        assertEquals("identical", content(emitted[0]))
+        assertEquals("<error>denied</error>", content(emitted[1]))
+        assertEquals("identical", content(emitted[2]))
+    }
+
+    @Test
+    fun `multi-part tool emits one aggregate shared with model history`() = runBlocking {
+        val emitted = mutableListOf<String>()
+        val ordered = OrderedToolResults(1) { emitted.add(it) }
+        val finalResult = ToolExecutionManager.aggregateToolResults(
+            "read_file", flowOf(result("first part"), result("second part"))
+        )
+        ordered.complete(0, finalResult)
+        val batch = ordered.finish()
+        assertEquals(1, ChatMarkupRegex.toolResultAnyPattern.findAll(batch.message).count())
+        assertEquals("first part\nsecond part", content(emitted.single()))
+        assertEquals(emitted.single(), batch.message)
+    }
+
+    @Test
+    fun `empty tool and failed tool both publish a final result`() = runBlocking {
+        val emitted = mutableListOf<String>()
+        val ordered = OrderedToolResults(2) { emitted.add(it) }
+        val empty = ToolExecutionManager.aggregateToolResults("read_file", emptyFlow())
+        val failed = ToolExecutionManager.aggregateToolResults(
+            "read_file",
+            flowOf(result("partial"), ToolResult("read_file", false, StringResultData(""), "failed"))
+        )
+        ordered.complete(1, failed)
+        ordered.complete(0, empty)
+        val batch = ordered.finish()
+        assertEquals(2, emitted.size)
+        assertTrue(batch.results.all { !it.success })
+        assertEquals("The tool execution returned no results.", empty.error)
+        assertEquals("partial\nStep error: failed", failed.result.toString())
+        assertEquals(emitted.joinToString("\n"), batch.message)
+    }
+
+    @Test
+    fun `cancellation does not fabricate a completed result from partial output`() = runBlocking {
+        try {
+            ToolExecutionManager.aggregateToolResults("read_file", flow {
+                emit(result("partial"))
+                throw CancellationException("cancelled")
+            })
+            fail("Expected cancellation")
+        } catch (expected: CancellationException) {
+            assertEquals("cancelled", expected.message)
+        }
+    }
+
+    @Test
+    fun `empty batch contains no markup`() = runBlocking {
+        val batch = OrderedToolResults(0) { error("Unexpected output") }.finish()
+        assertTrue(batch.results.isEmpty())
+        assertEquals("", batch.message)
+    }
+
+    private fun result(text: String) = ToolResult("read_file", true, StringResultData(text))
+    private fun content(xml: String): String =
+        checkNotNull(ChatMarkupRegex.contentTag.find(xml)).groupValues[1]
+}

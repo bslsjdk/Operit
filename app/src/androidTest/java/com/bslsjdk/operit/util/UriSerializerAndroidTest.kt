@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZHgudGVzdC5leHQuanVuaXQucnVubmVycy5BbmRyb2lkSlVuaXQ0CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAoKQFJ1bldpdGgoQW5kcm9pZEpVbml0NDo6Y2xhc3MpCmNsYXNzIFVyaVNlcmlhbGl6ZXJBbmRyb2lkVGVzdCB7CgogICAgQFRlc3QgZnVuIGZpbGVVcmlfcm91bmRUcmlwcygpIHsKICAgICAgICB2YWwgb3JpZ2luYWwgPSBVcmkucGFyc2UoImZpbGU6Ly8vc2RjYXJkL3Rlc3QudHh0IikKICAgICAgICB2YWwgZW5jb2RlZCA9IEpzb24uZW5jb2RlVG9TdHJpbmcoVXJpU2VyaWFsaXplciwgb3JpZ2luYWwpCiAgICAgICAgdmFsIGRlY29kZWQgPSBKc29uLmRlY29kZUZyb21TdHJpbmcoVXJpU2VyaWFsaXplciwgZW5jb2RlZCkKICAgICAgICBhc3NlcnRFcXVhbHMob3JpZ2luYWwsIGRlY29kZWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGN1c3RvbVNjaGVtZV9yb3VuZFRyaXBzKCkgewogICAgICAgIHZhbCBvcmlnaW5hbCA9IFVyaS5wYXJzZSgib3Blcml0Oi8vb3Blbi9jaGF0IikKICAgICAgICB2YWwgZW5jb2RlZCA9IEpzb24uZW5jb2RlVG9TdHJpbmcoVXJpU2VyaWFsaXplciwgb3JpZ2luYWwpCiAgICAgICAgdmFsIGRlY29kZWQgPSBKc29uLmRlY29kZUZyb21TdHJpbmcoVXJpU2VyaWFsaXplciwgZW5jb2RlZCkKICAgICAgICBhc3NlcnRFcXVhbHMob3JpZ2luYWwsIGRlY29kZWQpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import android.net.Uri
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import kotlinx.serialization.json.Json
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class UriSerializerAndroidTest {
+
+    @Test fun fileUri_roundTrips() {
+        val original = Uri.parse("file:///sdcard/test.txt")
+        val encoded = Json.encodeToString(UriSerializer, original)
+        val decoded = Json.decodeFromString(UriSerializer, encoded)
+        assertEquals(original, decoded)
+    }
+
+    @Test fun customScheme_roundTrips() {
+        val original = Uri.parse("operit://open/chat")
+        val encoded = Json.encodeToString(UriSerializer, original)
+        val decoded = Json.decodeFromString(UriSerializer, encoded)
+        assertEquals(original, decoded)
+    }
+}

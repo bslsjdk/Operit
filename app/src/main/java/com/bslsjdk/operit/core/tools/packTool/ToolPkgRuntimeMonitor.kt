@@ -1,1 +1,415 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGFuZHJvaWQub3MuU3lzdGVtQ2xvY2sKaW1wb3J0IGphdmEudXRpbC5BcnJheURlcXVlCgppbnRlcm5hbCBvYmplY3QgVG9vbFBrZ1J1bnRpbWVNb25pdG9yIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIE1BWF9MT0dfRU5UUklFU19QRVJfUEFDS0FHRSA9IDEyMAogICAgcHJpdmF0ZSBjb25zdCB2YWwgTUFYX0xPR19NRVNTQUdFX0NIQVJTID0gNF8wMDAKICAgIHByaXZhdGUgY29uc3QgdmFsIFJFR0lTVFJBVElPTl9QTFVHSU5fUFJFRklYID0gInJlZ2lzdGVyVG9vbFBrZzoiCgogICAgZGF0YSBjbGFzcyBNZW1vcnlTYW1wbGUoCiAgICAgICAgdmFsIHRpbWVzdGFtcE1zOiBMb25nLAogICAgICAgIHZhbCBqc0hlYXBVc2VkS2I6IExvbmcsCiAgICAgICAgdmFsIGpzTWFsbG9jVXNlZEtiOiBMb25nLAogICAgICAgIHZhbCBqc1BlYWtNYWxsb2NVc2VkS2I6IExvbmcKICAgICkKCiAgICBkYXRhIGNsYXNzIExvZ0VudHJ5KAogICAgICAgIHZhbCBzZXF1ZW5jZTogTG9uZywKICAgICAgICB2YWwgdGltZXN0YW1wTXM6IExvbmcsCiAgICAgICAgdmFsIGxldmVsOiBTdHJpbmcsCiAgICAgICAgdmFsIGV2ZW50OiBTdHJpbmc/LAogICAgICAgIHZhbCBmdW5jdGlvbk5hbWU6IFN0cmluZywKICAgICAgICB2YWwgcGx1Z2luSWQ6IFN0cmluZz8sCiAgICAgICAgdmFsIG1lc3NhZ2U6IFN0cmluZwogICAgKQoKICAgIGRhdGEgY2xhc3MgU25hcHNob3QoCiAgICAgICAgdmFsIHBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICAgICAgdmFsIGFjdGl2ZUNhbGxzOiBJbnQsCiAgICAgICAgdmFsIHN0YXJ0ZWRDYWxsczogTG9uZywKICAgICAgICB2YWwgY29tcGxldGVkQ2FsbHM6IExvbmcsCiAgICAgICAgdmFsIGZhaWxlZENhbGxzOiBMb25nLAogICAgICAgIHZhbCBsYXN0RHVyYXRpb25NczogTG9uZz8sCiAgICAgICAgdmFsIGF2ZXJhZ2VEdXJhdGlvbk1zOiBMb25nPywKICAgICAgICB2YWwgbWF4RHVyYXRpb25NczogTG9uZz8sCiAgICAgICAgdmFsIGN1cnJlbnRNZW1vcnlEZWx0YUtiOiBMb25nPywKICAgICAgICB2YWwgY3VycmVudE1lbW9yeVBlYWtEZWx0YUtiOiBMb25nPywKICAgICAgICB2YWwgbGFzdE1lbW9yeURlbHRhS2I6IExvbmc/LAogICAgICAgIHZhbCBsYXN0TWVtb3J5UGVha0RlbHRhS2I6IExvbmc/LAogICAgICAgIHZhbCBwZWFrTWVtb3J5RGVsdGFLYjogTG9uZz8sCiAgICAgICAgdmFsIHBlYWtNZW1vcnlQZWFrRGVsdGFLYjogTG9uZz8sCiAgICAgICAgdmFsIGN1cnJlbnRNZW1vcnk6IE1lbW9yeVNhbXBsZT8sCiAgICAgICAgdmFsIGxhc3RNZW1vcnk6IE1lbW9yeVNhbXBsZT8sCiAgICAgICAgdmFsIGxhc3RTdGFydGVkQXRNczogTG9uZz8sCiAgICAgICAgdmFsIGxhc3RGaW5pc2hlZEF0TXM6IExvbmc/LAogICAgICAgIHZhbCBsYXN0RnVuY3Rpb25OYW1lOiBTdHJpbmc/LAogICAgICAgIHZhbCBsYXN0RXZlbnQ6IFN0cmluZz8sCiAgICAgICAgdmFsIGxhc3RQbHVnaW5JZDogU3RyaW5nPywKICAgICAgICB2YWwgbG9nczogTGlzdDxMb2dFbnRyeT4KICAgICkKCiAgICBkYXRhIGNsYXNzIENhbGxIYW5kbGUgaW50ZXJuYWwgY29uc3RydWN0b3IodmFsIGNhbGxJZDogU3RyaW5nKQoKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBBY3RpdmVDYWxsKAogICAgICAgIHZhbCBjYWxsSWQ6IFN0cmluZywKICAgICAgICB2YWwgcGFja2FnZU5hbWU6IFN0cmluZywKICAgICAgICB2YWwgcGx1Z2luSWQ6IFN0cmluZz8sCiAgICAgICAgdmFsIGV2ZW50OiBTdHJpbmc/LAogICAgICAgIHZhbCBmdW5jdGlvbk5hbWU6IFN0cmluZywKICAgICAgICB2YWwgc3RhcnRlZEF0TXM6IExvbmcsCiAgICAgICAgdmFsIHN0YXJ0ZWRBdEVsYXBzZWRNczogTG9uZywKICAgICAgICB2YWwgc3RhcnRNZW1vcnk6IE1lbW9yeVNhbXBsZT8KICAgICkKCiAgICBwcml2YXRlIGNsYXNzIE11dGFibGVQYWNrYWdlU3RhdHModmFsIHBhY2thZ2VOYW1lOiBTdHJpbmcpIHsKICAgICAgICB2YXIgc3RhcnRlZENhbGxzOiBMb25nID0gMEwKICAgICAgICB2YXIgY29tcGxldGVkQ2FsbHM6IExvbmcgPSAwTAogICAgICAgIHZhciBmYWlsZWRDYWxsczogTG9uZyA9IDBMCiAgICAgICAgdmFyIHRvdGFsRHVyYXRpb25NczogTG9uZyA9IDBMCiAgICAgICAgdmFyIGxhc3REdXJhdGlvbk1zOiBMb25nPyA9IG51bGwKICAgICAgICB2YXIgbWF4RHVyYXRpb25NczogTG9uZz8gPSBudWxsCiAgICAgICAgdmFyIGxhc3RNZW1vcnlEZWx0YUtiOiBMb25nPyA9IG51bGwKICAgICAgICB2YXIgbGFzdE1lbW9yeVBlYWtEZWx0YUtiOiBMb25nPyA9IG51bGwKICAgICAgICB2YXIgcGVha01lbW9yeURlbHRhS2I6IExvbmc/ID0gbnVsbAogICAgICAgIHZhciBwZWFrTWVtb3J5UGVha0RlbHRhS2I6IExvbmc/ID0gbnVsbAogICAgICAgIHZhciBjdXJyZW50TWVtb3J5OiBNZW1vcnlTYW1wbGU/ID0gbnVsbAogICAgICAgIHZhciBsYXN0TWVtb3J5OiBNZW1vcnlTYW1wbGU/ID0gbnVsbAogICAgICAgIHZhciBsYXN0U3RhcnRlZEF0TXM6IExvbmc/ID0gbnVsbAogICAgICAgIHZhciBsYXN0RmluaXNoZWRBdE1zOiBMb25nPyA9IG51bGwKICAgICAgICB2YXIgbGFzdEZ1bmN0aW9uTmFtZTogU3RyaW5nPyA9IG51bGwKICAgICAgICB2YXIgbGFzdEV2ZW50OiBTdHJpbmc/ID0gbnVsbAogICAgICAgIHZhciBsYXN0UGx1Z2luSWQ6IFN0cmluZz8gPSBudWxsCiAgICAgICAgdmFsIGxvZ3M6IEFycmF5RGVxdWU8TG9nRW50cnk+ID0gQXJyYXlEZXF1ZSgpCiAgICB9CgogICAgcHJpdmF0ZSB2YWwgbG9jayA9IEFueSgpCiAgICBwcml2YXRlIHZhbCBzdGF0c0J5UGFja2FnZSA9IGxpbmtlZE1hcE9mPFN0cmluZywgTXV0YWJsZVBhY2thZ2VTdGF0cz4oKQogICAgcHJpdmF0ZSB2YWwgYWN0aXZlQ2FsbHMgPSBsaW5rZWRNYXBPZjxTdHJpbmcsIEFjdGl2ZUNhbGw+KCkKICAgIHByaXZhdGUgdmFyIG5leHRMb2dTZXF1ZW5jZSA9IDFMCgogICAgZnVuIGJlZ2luQ2FsbCgKICAgICAgICBjYWxsSWQ6IFN0cmluZywKICAgICAgICBmdW5jdGlvbk5hbWU6IFN0cmluZywKICAgICAgICBwYXJhbXM6IE1hcDxTdHJpbmcsIEFueT8+LAogICAgICAgIHN0YXJ0TWVtb3J5OiBNZW1vcnlTYW1wbGU/ID0gbnVsbAogICAgKTogQ2FsbEhhbmRsZT8gewogICAgICAgIHZhbCBwYWNrYWdlTmFtZSA9IHJlc29sdmVQYWNrYWdlTmFtZShwYXJhbXMpID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIG5vcm1hbGl6ZWRDYWxsSWQgPSBjYWxsSWQudHJpbSgpCiAgICAgICAgaWYgKG5vcm1hbGl6ZWRDYWxsSWQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB2YWwgYWN0aXZlQ2FsbCA9CiAgICAgICAgICAgIEFjdGl2ZUNhbGwoCiAgICAgICAgICAgICAgICBjYWxsSWQgPSBub3JtYWxpemVkQ2FsbElkLAogICAgICAgICAgICAgICAgcGFja2FnZU5hbWUgPSBwYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgIHBsdWdpbklkID0gcmVzb2x2ZVBsdWdpbklkKHBhcmFtcyksCiAgICAgICAgICAgICAgICBldmVudCA9IGZpcnN0Tm9uQmxhbmsocGFyYW1zWyJldmVudE5hbWUiXSwgcGFyYW1zWyJldmVudCJdKSwKICAgICAgICAgICAgICAgIGZ1bmN0aW9uTmFtZSA9IGZ1bmN0aW9uTmFtZS50cmltKCkuaWZCbGFuayB7ICJydW50aW1lIiB9LAogICAgICAgICAgICAgICAgc3RhcnRlZEF0TXMgPSBub3csCiAgICAgICAgICAgICAgICBzdGFydGVkQXRFbGFwc2VkTXMgPSBTeXN0ZW1DbG9jay5lbGFwc2VkUmVhbHRpbWUoKSwKICAgICAgICAgICAgICAgIHN0YXJ0TWVtb3J5ID0gc3RhcnRNZW1vcnkKICAgICAgICAgICAgKQoKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICBhY3RpdmVDYWxsc1tub3JtYWxpemVkQ2FsbElkXSA9IGFjdGl2ZUNhbGwKICAgICAgICAgICAgc3RhdHNGb3IocGFja2FnZU5hbWUpLmFwcGx5IHsKICAgICAgICAgICAgICAgIHN0YXJ0ZWRDYWxscyArPSAxCiAgICAgICAgICAgICAgICBsYXN0U3RhcnRlZEF0TXMgPSBhY3RpdmVDYWxsLnN0YXJ0ZWRBdE1zCiAgICAgICAgICAgICAgICBsYXN0RnVuY3Rpb25OYW1lID0gYWN0aXZlQ2FsbC5mdW5jdGlvbk5hbWUKICAgICAgICAgICAgICAgIGxhc3RFdmVudCA9IGFjdGl2ZUNhbGwuZXZlbnQKICAgICAgICAgICAgICAgIGxhc3RQbHVnaW5JZCA9IGFjdGl2ZUNhbGwucGx1Z2luSWQKICAgICAgICAgICAgICAgIGN1cnJlbnRNZW1vcnkgPSBzdGFydE1lbW9yeQogICAgICAgICAgICAgICAgbGFzdE1lbW9yeSA9IHN0YXJ0TWVtb3J5CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBDYWxsSGFuZGxlKG5vcm1hbGl6ZWRDYWxsSWQpCiAgICB9CgogICAgZnVuIGZpbmlzaENhbGwoCiAgICAgICAgaGFuZGxlOiBDYWxsSGFuZGxlPywKICAgICAgICBzdWNjZXNzOiBCb29sZWFuLAogICAgICAgIG1lc3NhZ2U6IFN0cmluZz8gPSBudWxsLAogICAgICAgIGVuZE1lbW9yeTogTWVtb3J5U2FtcGxlPyA9IG51bGwKICAgICkgewogICAgICAgIGlmIChoYW5kbGUgPT0gbnVsbCkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZhbCBub3cgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIHZhbCBub3dFbGFwc2VkID0gU3lzdGVtQ2xvY2suZWxhcHNlZFJlYWx0aW1lKCkKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICB2YWwgYWN0aXZlQ2FsbCA9IGFjdGl2ZUNhbGxzLnJlbW92ZShoYW5kbGUuY2FsbElkKSA/OiByZXR1cm4KICAgICAgICAgICAgdmFsIGR1cmF0aW9uTXMgPSAobm93RWxhcHNlZCAtIGFjdGl2ZUNhbGwuc3RhcnRlZEF0RWxhcHNlZE1zKS5jb2VyY2VBdExlYXN0KDBMKQogICAgICAgICAgICB2YWwgbWVtb3J5ID0gZW5kTWVtb3J5ID86IGFjdGl2ZUNhbGwuc3RhcnRNZW1vcnkKICAgICAgICAgICAgdmFsIG1lbW9yeURlbHRhS2IgPQogICAgICAgICAgICAgICAgaWYgKG1lbW9yeSAhPSBudWxsICYmIGFjdGl2ZUNhbGwuc3RhcnRNZW1vcnkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIG1lbW9yeS5qc01hbGxvY1VzZWRLYiAtIGFjdGl2ZUNhbGwuc3RhcnRNZW1vcnkuanNNYWxsb2NVc2VkS2IKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgbWVtb3J5UGVha0RlbHRhS2IgPQogICAgICAgICAgICAgICAgaWYgKG1lbW9yeSAhPSBudWxsICYmIGFjdGl2ZUNhbGwuc3RhcnRNZW1vcnkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIG1lbW9yeS5qc1BlYWtNYWxsb2NVc2VkS2IgLSBhY3RpdmVDYWxsLnN0YXJ0TWVtb3J5LmpzTWFsbG9jVXNlZEtiCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgc3RhdHNGb3IoYWN0aXZlQ2FsbC5wYWNrYWdlTmFtZSkuYXBwbHkgewogICAgICAgICAgICAgICAgY29tcGxldGVkQ2FsbHMgKz0gMQogICAgICAgICAgICAgICAgaWYgKCFzdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgZmFpbGVkQ2FsbHMgKz0gMQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdG90YWxEdXJhdGlvbk1zICs9IGR1cmF0aW9uTXMKICAgICAgICAgICAgICAgIGxhc3REdXJhdGlvbk1zID0gZHVyYXRpb25NcwogICAgICAgICAgICAgICAgbWF4RHVyYXRpb25NcyA9IG1heE9mKG1heER1cmF0aW9uTXMgPzogZHVyYXRpb25NcywgZHVyYXRpb25NcykKICAgICAgICAgICAgICAgIGxhc3RNZW1vcnlEZWx0YUtiID0gbWVtb3J5RGVsdGFLYgogICAgICAgICAgICAgICAgbGFzdE1lbW9yeVBlYWtEZWx0YUtiID0gbWVtb3J5UGVha0RlbHRhS2IKICAgICAgICAgICAgICAgIGlmIChtZW1vcnlEZWx0YUtiICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBwZWFrTWVtb3J5RGVsdGFLYiA9IG1heE9mKHBlYWtNZW1vcnlEZWx0YUtiID86IG1lbW9yeURlbHRhS2IsIG1lbW9yeURlbHRhS2IpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAobWVtb3J5UGVha0RlbHRhS2IgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHBlYWtNZW1vcnlQZWFrRGVsdGFLYiA9CiAgICAgICAgICAgICAgICAgICAgICAgIG1heE9mKHBlYWtNZW1vcnlQZWFrRGVsdGFLYiA/OiBtZW1vcnlQZWFrRGVsdGFLYiwgbWVtb3J5UGVha0RlbHRhS2IpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAobWVtb3J5ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBjdXJyZW50TWVtb3J5ID0gbWVtb3J5CiAgICAgICAgICAgICAgICAgICAgbGFzdE1lbW9yeSA9IG1lbW9yeQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbGFzdEZpbmlzaGVkQXRNcyA9IG5vdwogICAgICAgICAgICAgICAgbGFzdEZ1bmN0aW9uTmFtZSA9IGFjdGl2ZUNhbGwuZnVuY3Rpb25OYW1lCiAgICAgICAgICAgICAgICBsYXN0RXZlbnQgPSBhY3RpdmVDYWxsLmV2ZW50CiAgICAgICAgICAgICAgICBsYXN0UGx1Z2luSWQgPSBhY3RpdmVDYWxsLnBsdWdpbklkCiAgICAgICAgICAgICAgICBpZiAoIXN1Y2Nlc3MgJiYgIW1lc3NhZ2UuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kTG9nTG9ja2VkKAogICAgICAgICAgICAgICAgICAgICAgICBzdGF0cyA9IHRoaXMsCiAgICAgICAgICAgICAgICAgICAgICAgIHRpbWVzdGFtcE1zID0gbm93LAogICAgICAgICAgICAgICAgICAgICAgICBsZXZlbCA9ICJlcnJvciIsCiAgICAgICAgICAgICAgICAgICAgICAgIGV2ZW50ID0gYWN0aXZlQ2FsbC5ldmVudCwKICAgICAgICAgICAgICAgICAgICAgICAgZnVuY3Rpb25OYW1lID0gYWN0aXZlQ2FsbC5mdW5jdGlvbk5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIHBsdWdpbklkID0gYWN0aXZlQ2FsbC5wbHVnaW5JZCwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9IG1lc3NhZ2UudGFrZShNQVhfTE9HX01FU1NBR0VfQ0hBUlMpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biByZWNvcmRDdXJyZW50TWVtb3J5KHBhY2thZ2VOYW1lOiBTdHJpbmcsIG1lbW9yeTogTWVtb3J5U2FtcGxlKSB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWRQYWNrYWdlTmFtZSA9IHBhY2thZ2VOYW1lLnRyaW0oKQogICAgICAgIGlmIChub3JtYWxpemVkUGFja2FnZU5hbWUuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICBzdGF0c0Zvcihub3JtYWxpemVkUGFja2FnZU5hbWUpLmN1cnJlbnRNZW1vcnkgPSBtZW1vcnkKICAgICAgICB9CiAgICB9CgogICAgZnVuIHJlY29yZExvZygKICAgICAgICBoYW5kbGU6IENhbGxIYW5kbGU/LAogICAgICAgIGxldmVsOiBTdHJpbmcsCiAgICAgICAgbWVzc2FnZTogU3RyaW5nCiAgICApIHsKICAgICAgICBpZiAoaGFuZGxlID09IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB2YWwgbm9ybWFsaXplZE1lc3NhZ2UgPSBtZXNzYWdlLnRyaW0oKQogICAgICAgIGlmIChub3JtYWxpemVkTWVzc2FnZS5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICB2YWwgYWN0aXZlQ2FsbCA9IGFjdGl2ZUNhbGxzW2hhbmRsZS5jYWxsSWRdID86IHJldHVybgogICAgICAgICAgICBhcHBlbmRMb2dMb2NrZWQoCiAgICAgICAgICAgICAgICBzdGF0cyA9IHN0YXRzRm9yKGFjdGl2ZUNhbGwucGFja2FnZU5hbWUpLAogICAgICAgICAgICAgICAgdGltZXN0YW1wTXMgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSwKICAgICAgICAgICAgICAgIGxldmVsID0gbm9ybWFsaXplTGV2ZWwobGV2ZWwpLAogICAgICAgICAgICAgICAgZXZlbnQgPSBhY3RpdmVDYWxsLmV2ZW50LAogICAgICAgICAgICAgICAgZnVuY3Rpb25OYW1lID0gYWN0aXZlQ2FsbC5mdW5jdGlvbk5hbWUsCiAgICAgICAgICAgICAgICBwbHVnaW5JZCA9IGFjdGl2ZUNhbGwucGx1Z2luSWQsCiAgICAgICAgICAgICAgICBtZXNzYWdlID0gbm9ybWFsaXplZE1lc3NhZ2UudGFrZShNQVhfTE9HX01FU1NBR0VfQ0hBUlMpCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgZnVuIHNuYXBzaG90KHBhY2thZ2VOYW1lOiBTdHJpbmcpOiBTbmFwc2hvdCB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWRQYWNrYWdlTmFtZSA9IHBhY2thZ2VOYW1lLnRyaW0oKQogICAgICAgIHN5bmNocm9uaXplZChsb2NrKSB7CiAgICAgICAgICAgIHZhbCBzdGF0cyA9IHN0YXRzQnlQYWNrYWdlW25vcm1hbGl6ZWRQYWNrYWdlTmFtZV0KICAgICAgICAgICAgdmFsIHBhY2thZ2VBY3RpdmVDYWxscyA9CiAgICAgICAgICAgICAgICBhY3RpdmVDYWxscy52YWx1ZXMuZmlsdGVyIHsgYWN0aXZlQ2FsbCAtPgogICAgICAgICAgICAgICAgICAgIGFjdGl2ZUNhbGwucGFja2FnZU5hbWUgPT0gbm9ybWFsaXplZFBhY2thZ2VOYW1lCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBjdXJyZW50TWVtb3J5ID0gc3RhdHM/LmN1cnJlbnRNZW1vcnkKICAgICAgICAgICAgdmFsIGN1cnJlbnRNZW1vcnlEZWx0YUtiID0KICAgICAgICAgICAgICAgIGN1cnJlbnRNZW1vcnk/LmxldCB7IG1lbW9yeSAtPgogICAgICAgICAgICAgICAgICAgIHBhY2thZ2VBY3RpdmVDYWxscwogICAgICAgICAgICAgICAgICAgICAgICAubWFwTm90TnVsbCB7IGFjdGl2ZUNhbGwgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFjdGl2ZUNhbGwuc3RhcnRNZW1vcnk/LmxldCB7IHN0YXJ0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWVtb3J5LmpzTWFsbG9jVXNlZEtiIC0gc3RhcnQuanNNYWxsb2NVc2VkS2IKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAubWF4T3JOdWxsKCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGN1cnJlbnRNZW1vcnlQZWFrRGVsdGFLYiA9CiAgICAgICAgICAgICAgICBjdXJyZW50TWVtb3J5Py5sZXQgeyBtZW1vcnkgLT4KICAgICAgICAgICAgICAgICAgICBwYWNrYWdlQWN0aXZlQ2FsbHMKICAgICAgICAgICAgICAgICAgICAgICAgLm1hcE5vdE51bGwgeyBhY3RpdmVDYWxsIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY3RpdmVDYWxsLnN0YXJ0TWVtb3J5Py5sZXQgeyBzdGFydCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1lbW9yeS5qc1BlYWtNYWxsb2NVc2VkS2IgLSBzdGFydC5qc01hbGxvY1VzZWRLYgogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIC5tYXhPck51bGwoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoc3RhdHMgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgcmV0dXJuIFNuYXBzaG90KAogICAgICAgICAgICAgICAgICAgIHBhY2thZ2VOYW1lID0gbm9ybWFsaXplZFBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgICAgIGFjdGl2ZUNhbGxzID0gcGFja2FnZUFjdGl2ZUNhbGxzLnNpemUsCiAgICAgICAgICAgICAgICAgICAgc3RhcnRlZENhbGxzID0gMEwsCiAgICAgICAgICAgICAgICAgICAgY29tcGxldGVkQ2FsbHMgPSAwTCwKICAgICAgICAgICAgICAgICAgICBmYWlsZWRDYWxscyA9IDBMLAogICAgICAgICAgICAgICAgICAgIGxhc3REdXJhdGlvbk1zID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICBhdmVyYWdlRHVyYXRpb25NcyA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgbWF4RHVyYXRpb25NcyA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgY3VycmVudE1lbW9yeURlbHRhS2IgPSBjdXJyZW50TWVtb3J5RGVsdGFLYiwKICAgICAgICAgICAgICAgICAgICBjdXJyZW50TWVtb3J5UGVha0RlbHRhS2IgPSBjdXJyZW50TWVtb3J5UGVha0RlbHRhS2IsCiAgICAgICAgICAgICAgICAgICAgbGFzdE1lbW9yeURlbHRhS2IgPSBudWxsLAogICAgICAgICAgICAgICAgICAgIGxhc3RNZW1vcnlQZWFrRGVsdGFLYiA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgcGVha01lbW9yeURlbHRhS2IgPSBudWxsLAogICAgICAgICAgICAgICAgICAgIHBlYWtNZW1vcnlQZWFrRGVsdGFLYiA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgY3VycmVudE1lbW9yeSA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgbGFzdE1lbW9yeSA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgbGFzdFN0YXJ0ZWRBdE1zID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICBsYXN0RmluaXNoZWRBdE1zID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICBsYXN0RnVuY3Rpb25OYW1lID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICBsYXN0RXZlbnQgPSBudWxsLAogICAgICAgICAgICAgICAgICAgIGxhc3RQbHVnaW5JZCA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgbG9ncyA9IGVtcHR5TGlzdCgpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiBTbmFwc2hvdCgKICAgICAgICAgICAgICAgIHBhY2thZ2VOYW1lID0gbm9ybWFsaXplZFBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgYWN0aXZlQ2FsbHMgPSBwYWNrYWdlQWN0aXZlQ2FsbHMuc2l6ZSwKICAgICAgICAgICAgICAgIHN0YXJ0ZWRDYWxscyA9IHN0YXRzLnN0YXJ0ZWRDYWxscywKICAgICAgICAgICAgICAgIGNvbXBsZXRlZENhbGxzID0gc3RhdHMuY29tcGxldGVkQ2FsbHMsCiAgICAgICAgICAgICAgICBmYWlsZWRDYWxscyA9IHN0YXRzLmZhaWxlZENhbGxzLAogICAgICAgICAgICAgICAgbGFzdER1cmF0aW9uTXMgPSBzdGF0cy5sYXN0RHVyYXRpb25NcywKICAgICAgICAgICAgICAgIGF2ZXJhZ2VEdXJhdGlvbk1zID0KICAgICAgICAgICAgICAgICAgICBpZiAoc3RhdHMuY29tcGxldGVkQ2FsbHMgPiAwTCkgewogICAgICAgICAgICAgICAgICAgICAgICBzdGF0cy50b3RhbER1cmF0aW9uTXMgLyBzdGF0cy5jb21wbGV0ZWRDYWxscwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgbWF4RHVyYXRpb25NcyA9IHN0YXRzLm1heER1cmF0aW9uTXMsCiAgICAgICAgICAgICAgICBjdXJyZW50TWVtb3J5RGVsdGFLYiA9IGN1cnJlbnRNZW1vcnlEZWx0YUtiLAogICAgICAgICAgICAgICAgY3VycmVudE1lbW9yeVBlYWtEZWx0YUtiID0gY3VycmVudE1lbW9yeVBlYWtEZWx0YUtiLAogICAgICAgICAgICAgICAgbGFzdE1lbW9yeURlbHRhS2IgPSBzdGF0cy5sYXN0TWVtb3J5RGVsdGFLYiwKICAgICAgICAgICAgICAgIGxhc3RNZW1vcnlQZWFrRGVsdGFLYiA9IHN0YXRzLmxhc3RNZW1vcnlQZWFrRGVsdGFLYiwKICAgICAgICAgICAgICAgIHBlYWtNZW1vcnlEZWx0YUtiID0gc3RhdHMucGVha01lbW9yeURlbHRhS2IsCiAgICAgICAgICAgICAgICBwZWFrTWVtb3J5UGVha0RlbHRhS2IgPSBzdGF0cy5wZWFrTWVtb3J5UGVha0RlbHRhS2IsCiAgICAgICAgICAgICAgICBjdXJyZW50TWVtb3J5ID0gc3RhdHMuY3VycmVudE1lbW9yeSwKICAgICAgICAgICAgICAgIGxhc3RNZW1vcnkgPSBzdGF0cy5sYXN0TWVtb3J5LAogICAgICAgICAgICAgICAgbGFzdFN0YXJ0ZWRBdE1zID0gc3RhdHMubGFzdFN0YXJ0ZWRBdE1zLAogICAgICAgICAgICAgICAgbGFzdEZpbmlzaGVkQXRNcyA9IHN0YXRzLmxhc3RGaW5pc2hlZEF0TXMsCiAgICAgICAgICAgICAgICBsYXN0RnVuY3Rpb25OYW1lID0gc3RhdHMubGFzdEZ1bmN0aW9uTmFtZSwKICAgICAgICAgICAgICAgIGxhc3RFdmVudCA9IHN0YXRzLmxhc3RFdmVudCwKICAgICAgICAgICAgICAgIGxhc3RQbHVnaW5JZCA9IHN0YXRzLmxhc3RQbHVnaW5JZCwKICAgICAgICAgICAgICAgIGxvZ3MgPSBzdGF0cy5sb2dzLnRvTGlzdCgpCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgZnVuIGNsZWFyTG9ncyhwYWNrYWdlTmFtZTogU3RyaW5nKSB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWRQYWNrYWdlTmFtZSA9IHBhY2thZ2VOYW1lLnRyaW0oKQogICAgICAgIGlmIChub3JtYWxpemVkUGFja2FnZU5hbWUuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICBzdGF0c0J5UGFja2FnZVtub3JtYWxpemVkUGFja2FnZU5hbWVdPy5sb2dzPy5jbGVhcigpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGFwcGVuZExvZ0xvY2tlZCgKICAgICAgICBzdGF0czogTXV0YWJsZVBhY2thZ2VTdGF0cywKICAgICAgICB0aW1lc3RhbXBNczogTG9uZywKICAgICAgICBsZXZlbDogU3RyaW5nLAogICAgICAgIGV2ZW50OiBTdHJpbmc/LAogICAgICAgIGZ1bmN0aW9uTmFtZTogU3RyaW5nLAogICAgICAgIHBsdWdpbklkOiBTdHJpbmc/LAogICAgICAgIG1lc3NhZ2U6IFN0cmluZwogICAgKSB7CiAgICAgICAgdmFsIGVudHJ5ID0KICAgICAgICAgICAgTG9nRW50cnkoCiAgICAgICAgICAgICAgICBzZXF1ZW5jZSA9IG5leHRMb2dTZXF1ZW5jZSsrLAogICAgICAgICAgICAgICAgdGltZXN0YW1wTXMgPSB0aW1lc3RhbXBNcywKICAgICAgICAgICAgICAgIGxldmVsID0gbGV2ZWwsCiAgICAgICAgICAgICAgICBldmVudCA9IGV2ZW50LAogICAgICAgICAgICAgICAgZnVuY3Rpb25OYW1lID0gZnVuY3Rpb25OYW1lLAogICAgICAgICAgICAgICAgcGx1Z2luSWQgPSBwbHVnaW5JZCwKICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBtZXNzYWdlCiAgICAgICAgICAgICkKICAgICAgICBzdGF0cy5sb2dzLmFkZExhc3QoZW50cnkpCiAgICAgICAgd2hpbGUgKHN0YXRzLmxvZ3Muc2l6ZSA+IE1BWF9MT0dfRU5UUklFU19QRVJfUEFDS0FHRSkgewogICAgICAgICAgICBzdGF0cy5sb2dzLnJlbW92ZUZpcnN0KCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc3RhdHNGb3IocGFja2FnZU5hbWU6IFN0cmluZyk6IE11dGFibGVQYWNrYWdlU3RhdHMgewogICAgICAgIHJldHVybiBzdGF0c0J5UGFja2FnZS5nZXRPclB1dChwYWNrYWdlTmFtZSkgeyBNdXRhYmxlUGFja2FnZVN0YXRzKHBhY2thZ2VOYW1lKSB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVzb2x2ZVBhY2thZ2VOYW1lKHBhcmFtczogTWFwPFN0cmluZywgQW55Pz4pOiBTdHJpbmc/IHsKICAgICAgICBmaXJzdE5vbkJsYW5rKAogICAgICAgICAgICBwYXJhbXNbInRvb2xQa2dJZCJdLAogICAgICAgICAgICBwYXJhbXNbImNvbnRhaW5lclBhY2thZ2VOYW1lIl0sCiAgICAgICAgICAgIHBhcmFtc1siX19vcGVyaXRfdWlfcGFja2FnZV9uYW1lIl0sCiAgICAgICAgICAgIHBhcmFtc1siX19vcGVyaXRfdWlfdG9vbHBrZ19pZCJdLAogICAgICAgICAgICBwYXJhbXNbIl9fb3Blcml0X3BhY2thZ2VfbmFtZSJdLAogICAgICAgICAgICBwYXJhbXNbInBhY2thZ2VOYW1lIl0KICAgICAgICApPy5sZXQgeyByZXR1cm4gaXQgfQoKICAgICAgICB2YWwgcmVnaXN0cmF0aW9uUGx1Z2luSWQgPSBmaXJzdE5vbkJsYW5rKHBhcmFtc1siX19vcGVyaXRfcGx1Z2luX2lkIl0pCiAgICAgICAgaWYgKHJlZ2lzdHJhdGlvblBsdWdpbklkICE9IG51bGwgJiYgcmVnaXN0cmF0aW9uUGx1Z2luSWQuc3RhcnRzV2l0aChSRUdJU1RSQVRJT05fUExVR0lOX1BSRUZJWCkpIHsKICAgICAgICAgICAgdmFsIHBhY2thZ2VOYW1lID0gcmVnaXN0cmF0aW9uUGx1Z2luSWQucmVtb3ZlUHJlZml4KFJFR0lTVFJBVElPTl9QTFVHSU5fUFJFRklYKS50cmltKCkKICAgICAgICAgICAgaWYgKHBhY2thZ2VOYW1lLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHBhY2thZ2VOYW1lCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBudWxsCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVzb2x2ZVBsdWdpbklkKHBhcmFtczogTWFwPFN0cmluZywgQW55Pz4pOiBTdHJpbmc/IHsKICAgICAgICB2YWwgcGx1Z2luSWQgPQogICAgICAgICAgICBmaXJzdE5vbkJsYW5rKAogICAgICAgICAgICAgICAgcGFyYW1zWyJwbHVnaW5JZCJdLAogICAgICAgICAgICAgICAgcGFyYW1zWyJob29rSWQiXSwKICAgICAgICAgICAgICAgIHBhcmFtc1siX19vcGVyaXRfcGx1Z2luX2lkIl0KICAgICAgICAgICAgKQogICAgICAgIGlmIChwbHVnaW5JZCAhPSBudWxsICYmIHBsdWdpbklkLnN0YXJ0c1dpdGgoUkVHSVNUUkFUSU9OX1BMVUdJTl9QUkVGSVgpKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgICAgIHJldHVybiBwbHVnaW5JZAogICAgfQoKICAgIHByaXZhdGUgZnVuIG5vcm1hbGl6ZUxldmVsKGxldmVsOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB3aGVuIChsZXZlbC50cmltKCkubG93ZXJjYXNlKCkpIHsKICAgICAgICAgICAgImVycm9yIiAtPiAiZXJyb3IiCiAgICAgICAgICAgICJ3YXJuIiwgIndhcm5pbmciIC0+ICJ3YXJuIgogICAgICAgICAgICAiZGVidWciIC0+ICJkZWJ1ZyIKICAgICAgICAgICAgZWxzZSAtPiAiaW5mbyIKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZmlyc3ROb25CbGFuayh2YXJhcmcgdmFsdWVzOiBBbnk/KTogU3RyaW5nPyB7CiAgICAgICAgcmV0dXJuIHZhbHVlcwogICAgICAgICAgICAuYXNTZXF1ZW5jZSgpCiAgICAgICAgICAgIC5tYXBOb3ROdWxsIHsgdmFsdWUgLT4gdmFsdWU/LnRvU3RyaW5nKCk/LnRyaW0oKSB9CiAgICAgICAgICAgIC5maXJzdE9yTnVsbCB7IHZhbHVlIC0+IHZhbHVlLmlzTm90QmxhbmsoKSB9CiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.packTool
+
+import android.os.SystemClock
+import java.util.ArrayDeque
+
+internal object ToolPkgRuntimeMonitor {
+    private const val MAX_LOG_ENTRIES_PER_PACKAGE = 120
+    private const val MAX_LOG_MESSAGE_CHARS = 4_000
+    private const val REGISTRATION_PLUGIN_PREFIX = "registerToolPkg:"
+
+    data class MemorySample(
+        val timestampMs: Long,
+        val jsHeapUsedKb: Long,
+        val jsMallocUsedKb: Long,
+        val jsPeakMallocUsedKb: Long
+    )
+
+    data class LogEntry(
+        val sequence: Long,
+        val timestampMs: Long,
+        val level: String,
+        val event: String?,
+        val functionName: String,
+        val pluginId: String?,
+        val message: String
+    )
+
+    data class Snapshot(
+        val packageName: String,
+        val activeCalls: Int,
+        val startedCalls: Long,
+        val completedCalls: Long,
+        val failedCalls: Long,
+        val lastDurationMs: Long?,
+        val averageDurationMs: Long?,
+        val maxDurationMs: Long?,
+        val currentMemoryDeltaKb: Long?,
+        val currentMemoryPeakDeltaKb: Long?,
+        val lastMemoryDeltaKb: Long?,
+        val lastMemoryPeakDeltaKb: Long?,
+        val peakMemoryDeltaKb: Long?,
+        val peakMemoryPeakDeltaKb: Long?,
+        val currentMemory: MemorySample?,
+        val lastMemory: MemorySample?,
+        val lastStartedAtMs: Long?,
+        val lastFinishedAtMs: Long?,
+        val lastFunctionName: String?,
+        val lastEvent: String?,
+        val lastPluginId: String?,
+        val logs: List<LogEntry>
+    )
+
+    data class CallHandle internal constructor(val callId: String)
+
+    private data class ActiveCall(
+        val callId: String,
+        val packageName: String,
+        val pluginId: String?,
+        val event: String?,
+        val functionName: String,
+        val startedAtMs: Long,
+        val startedAtElapsedMs: Long,
+        val startMemory: MemorySample?
+    )
+
+    private class MutablePackageStats(val packageName: String) {
+        var startedCalls: Long = 0L
+        var completedCalls: Long = 0L
+        var failedCalls: Long = 0L
+        var totalDurationMs: Long = 0L
+        var lastDurationMs: Long? = null
+        var maxDurationMs: Long? = null
+        var lastMemoryDeltaKb: Long? = null
+        var lastMemoryPeakDeltaKb: Long? = null
+        var peakMemoryDeltaKb: Long? = null
+        var peakMemoryPeakDeltaKb: Long? = null
+        var currentMemory: MemorySample? = null
+        var lastMemory: MemorySample? = null
+        var lastStartedAtMs: Long? = null
+        var lastFinishedAtMs: Long? = null
+        var lastFunctionName: String? = null
+        var lastEvent: String? = null
+        var lastPluginId: String? = null
+        val logs: ArrayDeque<LogEntry> = ArrayDeque()
+    }
+
+    private val lock = Any()
+    private val statsByPackage = linkedMapOf<String, MutablePackageStats>()
+    private val activeCalls = linkedMapOf<String, ActiveCall>()
+    private var nextLogSequence = 1L
+
+    fun beginCall(
+        callId: String,
+        functionName: String,
+        params: Map<String, Any?>,
+        startMemory: MemorySample? = null
+    ): CallHandle? {
+        val packageName = resolvePackageName(params) ?: return null
+        val normalizedCallId = callId.trim()
+        if (normalizedCallId.isBlank()) {
+            return null
+        }
+
+        val now = System.currentTimeMillis()
+        val activeCall =
+            ActiveCall(
+                callId = normalizedCallId,
+                packageName = packageName,
+                pluginId = resolvePluginId(params),
+                event = firstNonBlank(params["eventName"], params["event"]),
+                functionName = functionName.trim().ifBlank { "runtime" },
+                startedAtMs = now,
+                startedAtElapsedMs = SystemClock.elapsedRealtime(),
+                startMemory = startMemory
+            )
+
+        synchronized(lock) {
+            activeCalls[normalizedCallId] = activeCall
+            statsFor(packageName).apply {
+                startedCalls += 1
+                lastStartedAtMs = activeCall.startedAtMs
+                lastFunctionName = activeCall.functionName
+                lastEvent = activeCall.event
+                lastPluginId = activeCall.pluginId
+                currentMemory = startMemory
+                lastMemory = startMemory
+            }
+        }
+
+        return CallHandle(normalizedCallId)
+    }
+
+    fun finishCall(
+        handle: CallHandle?,
+        success: Boolean,
+        message: String? = null,
+        endMemory: MemorySample? = null
+    ) {
+        if (handle == null) {
+            return
+        }
+
+        val now = System.currentTimeMillis()
+        val nowElapsed = SystemClock.elapsedRealtime()
+        synchronized(lock) {
+            val activeCall = activeCalls.remove(handle.callId) ?: return
+            val durationMs = (nowElapsed - activeCall.startedAtElapsedMs).coerceAtLeast(0L)
+            val memory = endMemory ?: activeCall.startMemory
+            val memoryDeltaKb =
+                if (memory != null && activeCall.startMemory != null) {
+                    memory.jsMallocUsedKb - activeCall.startMemory.jsMallocUsedKb
+                } else {
+                    null
+                }
+            val memoryPeakDeltaKb =
+                if (memory != null && activeCall.startMemory != null) {
+                    memory.jsPeakMallocUsedKb - activeCall.startMemory.jsMallocUsedKb
+                } else {
+                    null
+                }
+            statsFor(activeCall.packageName).apply {
+                completedCalls += 1
+                if (!success) {
+                    failedCalls += 1
+                }
+                totalDurationMs += durationMs
+                lastDurationMs = durationMs
+                maxDurationMs = maxOf(maxDurationMs ?: durationMs, durationMs)
+                lastMemoryDeltaKb = memoryDeltaKb
+                lastMemoryPeakDeltaKb = memoryPeakDeltaKb
+                if (memoryDeltaKb != null) {
+                    peakMemoryDeltaKb = maxOf(peakMemoryDeltaKb ?: memoryDeltaKb, memoryDeltaKb)
+                }
+                if (memoryPeakDeltaKb != null) {
+                    peakMemoryPeakDeltaKb =
+                        maxOf(peakMemoryPeakDeltaKb ?: memoryPeakDeltaKb, memoryPeakDeltaKb)
+                }
+                if (memory != null) {
+                    currentMemory = memory
+                    lastMemory = memory
+                }
+                lastFinishedAtMs = now
+                lastFunctionName = activeCall.functionName
+                lastEvent = activeCall.event
+                lastPluginId = activeCall.pluginId
+                if (!success && !message.isNullOrBlank()) {
+                    appendLogLocked(
+                        stats = this,
+                        timestampMs = now,
+                        level = "error",
+                        event = activeCall.event,
+                        functionName = activeCall.functionName,
+                        pluginId = activeCall.pluginId,
+                        message = message.take(MAX_LOG_MESSAGE_CHARS)
+                    )
+                }
+            }
+        }
+    }
+
+    fun recordCurrentMemory(packageName: String, memory: MemorySample) {
+        val normalizedPackageName = packageName.trim()
+        if (normalizedPackageName.isBlank()) {
+            return
+        }
+        synchronized(lock) {
+            statsFor(normalizedPackageName).currentMemory = memory
+        }
+    }
+
+    fun recordLog(
+        handle: CallHandle?,
+        level: String,
+        message: String
+    ) {
+        if (handle == null) {
+            return
+        }
+
+        val normalizedMessage = message.trim()
+        if (normalizedMessage.isBlank()) {
+            return
+        }
+
+        synchronized(lock) {
+            val activeCall = activeCalls[handle.callId] ?: return
+            appendLogLocked(
+                stats = statsFor(activeCall.packageName),
+                timestampMs = System.currentTimeMillis(),
+                level = normalizeLevel(level),
+                event = activeCall.event,
+                functionName = activeCall.functionName,
+                pluginId = activeCall.pluginId,
+                message = normalizedMessage.take(MAX_LOG_MESSAGE_CHARS)
+            )
+        }
+    }
+
+    fun snapshot(packageName: String): Snapshot {
+        val normalizedPackageName = packageName.trim()
+        synchronized(lock) {
+            val stats = statsByPackage[normalizedPackageName]
+            val packageActiveCalls =
+                activeCalls.values.filter { activeCall ->
+                    activeCall.packageName == normalizedPackageName
+                }
+            val currentMemory = stats?.currentMemory
+            val currentMemoryDeltaKb =
+                currentMemory?.let { memory ->
+                    packageActiveCalls
+                        .mapNotNull { activeCall ->
+                            activeCall.startMemory?.let { start ->
+                                memory.jsMallocUsedKb - start.jsMallocUsedKb
+                            }
+                        }
+                        .maxOrNull()
+                }
+            val currentMemoryPeakDeltaKb =
+                currentMemory?.let { memory ->
+                    packageActiveCalls
+                        .mapNotNull { activeCall ->
+                            activeCall.startMemory?.let { start ->
+                                memory.jsPeakMallocUsedKb - start.jsMallocUsedKb
+                            }
+                        }
+                        .maxOrNull()
+                }
+            if (stats == null) {
+                return Snapshot(
+                    packageName = normalizedPackageName,
+                    activeCalls = packageActiveCalls.size,
+                    startedCalls = 0L,
+                    completedCalls = 0L,
+                    failedCalls = 0L,
+                    lastDurationMs = null,
+                    averageDurationMs = null,
+                    maxDurationMs = null,
+                    currentMemoryDeltaKb = currentMemoryDeltaKb,
+                    currentMemoryPeakDeltaKb = currentMemoryPeakDeltaKb,
+                    lastMemoryDeltaKb = null,
+                    lastMemoryPeakDeltaKb = null,
+                    peakMemoryDeltaKb = null,
+                    peakMemoryPeakDeltaKb = null,
+                    currentMemory = null,
+                    lastMemory = null,
+                    lastStartedAtMs = null,
+                    lastFinishedAtMs = null,
+                    lastFunctionName = null,
+                    lastEvent = null,
+                    lastPluginId = null,
+                    logs = emptyList()
+                )
+            }
+
+            return Snapshot(
+                packageName = normalizedPackageName,
+                activeCalls = packageActiveCalls.size,
+                startedCalls = stats.startedCalls,
+                completedCalls = stats.completedCalls,
+                failedCalls = stats.failedCalls,
+                lastDurationMs = stats.lastDurationMs,
+                averageDurationMs =
+                    if (stats.completedCalls > 0L) {
+                        stats.totalDurationMs / stats.completedCalls
+                    } else {
+                        null
+                    },
+                maxDurationMs = stats.maxDurationMs,
+                currentMemoryDeltaKb = currentMemoryDeltaKb,
+                currentMemoryPeakDeltaKb = currentMemoryPeakDeltaKb,
+                lastMemoryDeltaKb = stats.lastMemoryDeltaKb,
+                lastMemoryPeakDeltaKb = stats.lastMemoryPeakDeltaKb,
+                peakMemoryDeltaKb = stats.peakMemoryDeltaKb,
+                peakMemoryPeakDeltaKb = stats.peakMemoryPeakDeltaKb,
+                currentMemory = stats.currentMemory,
+                lastMemory = stats.lastMemory,
+                lastStartedAtMs = stats.lastStartedAtMs,
+                lastFinishedAtMs = stats.lastFinishedAtMs,
+                lastFunctionName = stats.lastFunctionName,
+                lastEvent = stats.lastEvent,
+                lastPluginId = stats.lastPluginId,
+                logs = stats.logs.toList()
+            )
+        }
+    }
+
+    fun clearLogs(packageName: String) {
+        val normalizedPackageName = packageName.trim()
+        if (normalizedPackageName.isBlank()) {
+            return
+        }
+        synchronized(lock) {
+            statsByPackage[normalizedPackageName]?.logs?.clear()
+        }
+    }
+
+    private fun appendLogLocked(
+        stats: MutablePackageStats,
+        timestampMs: Long,
+        level: String,
+        event: String?,
+        functionName: String,
+        pluginId: String?,
+        message: String
+    ) {
+        val entry =
+            LogEntry(
+                sequence = nextLogSequence++,
+                timestampMs = timestampMs,
+                level = level,
+                event = event,
+                functionName = functionName,
+                pluginId = pluginId,
+                message = message
+            )
+        stats.logs.addLast(entry)
+        while (stats.logs.size > MAX_LOG_ENTRIES_PER_PACKAGE) {
+            stats.logs.removeFirst()
+        }
+    }
+
+    private fun statsFor(packageName: String): MutablePackageStats {
+        return statsByPackage.getOrPut(packageName) { MutablePackageStats(packageName) }
+    }
+
+    private fun resolvePackageName(params: Map<String, Any?>): String? {
+        firstNonBlank(
+            params["toolPkgId"],
+            params["containerPackageName"],
+            params["__operit_ui_package_name"],
+            params["__operit_ui_toolpkg_id"],
+            params["__operit_package_name"],
+            params["packageName"]
+        )?.let { return it }
+
+        val registrationPluginId = firstNonBlank(params["__operit_plugin_id"])
+        if (registrationPluginId != null && registrationPluginId.startsWith(REGISTRATION_PLUGIN_PREFIX)) {
+            val packageName = registrationPluginId.removePrefix(REGISTRATION_PLUGIN_PREFIX).trim()
+            if (packageName.isNotBlank()) {
+                return packageName
+            }
+        }
+
+        return null
+    }
+
+    private fun resolvePluginId(params: Map<String, Any?>): String? {
+        val pluginId =
+            firstNonBlank(
+                params["pluginId"],
+                params["hookId"],
+                params["__operit_plugin_id"]
+            )
+        if (pluginId != null && pluginId.startsWith(REGISTRATION_PLUGIN_PREFIX)) {
+            return null
+        }
+        return pluginId
+    }
+
+    private fun normalizeLevel(level: String): String {
+        return when (level.trim().lowercase()) {
+            "error" -> "error"
+            "warn", "warning" -> "warn"
+            "debug" -> "debug"
+            else -> "info"
+        }
+    }
+
+    private fun firstNonBlank(vararg values: Any?): String? {
+        return values
+            .asSequence()
+            .mapNotNull { value -> value?.toString()?.trim() }
+            .firstOrNull { value -> value.isNotBlank() }
+    }
+}

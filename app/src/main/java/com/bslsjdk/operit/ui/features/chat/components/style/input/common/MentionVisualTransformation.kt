@@ -1,1 +1,67 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnN0eWxlLmlucHV0LmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5Bbm5vdGF0ZWRTdHJpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5TcGFuU3R5bGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5UZXh0U3R5bGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5idWlsZEFubm90YXRlZFN0cmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0Lk9mZnNldE1hcHBpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5pbnB1dC5UcmFuc2Zvcm1lZFRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5pbnB1dC5WaXN1YWxUcmFuc2Zvcm1hdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LlRleHRVbml0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuaXNVbnNwZWNpZmllZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC51dGlsLmZpbmRDb21taXR0ZWRNZW50aW9uVG9rZW5zCgpAQ29tcG9zYWJsZQpmdW4gcmVtZW1iZXJNZW50aW9uVmlzdWFsVHJhbnNmb3JtYXRpb24odGV4dFN0eWxlOiBUZXh0U3R5bGUpOiBWaXN1YWxUcmFuc2Zvcm1hdGlvbiB7CiAgICB2YWwgY29sb3JzID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZQogICAgdmFsIGJhc2VGb250U2l6ZSA9CiAgICAgICAgaWYgKHRleHRTdHlsZS5mb250U2l6ZS5pc1Vuc3BlY2lmaWVkKSB7CiAgICAgICAgICAgIDE0LnNwCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdGV4dFN0eWxlLmZvbnRTaXplCiAgICAgICAgfQogICAgcmV0dXJuIHJlbWVtYmVyKGJhc2VGb250U2l6ZSwgY29sb3JzLnByaW1hcnkpIHsKICAgICAgICBNZW50aW9uVmlzdWFsVHJhbnNmb3JtYXRpb24oCiAgICAgICAgICAgIG1lbnRpb25Gb250U2l6ZSA9IGJhc2VGb250U2l6ZSAqIDAuODhmLAogICAgICAgICAgICBtZW50aW9uQ29sb3IgPSBjb2xvcnMucHJpbWFyeSwKICAgICAgICAgICAgbWVudGlvbkJhY2tncm91bmQgPSBjb2xvcnMucHJpbWFyeS5jb3B5KGFscGhhID0gMC4xNGYpLAogICAgICAgICkKICAgIH0KfQoKcHJpdmF0ZSBjbGFzcyBNZW50aW9uVmlzdWFsVHJhbnNmb3JtYXRpb24oCiAgICBwcml2YXRlIHZhbCBtZW50aW9uRm9udFNpemU6IFRleHRVbml0LAogICAgcHJpdmF0ZSB2YWwgbWVudGlvbkNvbG9yOiBDb2xvciwKICAgIHByaXZhdGUgdmFsIG1lbnRpb25CYWNrZ3JvdW5kOiBDb2xvciwKKSA6IFZpc3VhbFRyYW5zZm9ybWF0aW9uIHsKICAgIG92ZXJyaWRlIGZ1biBmaWx0ZXIodGV4dDogQW5ub3RhdGVkU3RyaW5nKTogVHJhbnNmb3JtZWRUZXh0IHsKICAgICAgICB2YWwgbWVudGlvblRva2VucyA9IGZpbmRDb21taXR0ZWRNZW50aW9uVG9rZW5zKHRleHQudGV4dCkKICAgICAgICBpZiAobWVudGlvblRva2Vucy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIFRyYW5zZm9ybWVkVGV4dCh0ZXh0LCBPZmZzZXRNYXBwaW5nLklkZW50aXR5KQogICAgICAgIH0KCiAgICAgICAgdmFsIHRyYW5zZm9ybWVkID0KICAgICAgICAgICAgYnVpbGRBbm5vdGF0ZWRTdHJpbmcgewogICAgICAgICAgICAgICAgYXBwZW5kKHRleHQpCiAgICAgICAgICAgICAgICBtZW50aW9uVG9rZW5zLmZvckVhY2ggeyB0b2tlbiAtPgogICAgICAgICAgICAgICAgICAgIGFkZFN0eWxlKAogICAgICAgICAgICAgICAgICAgICAgICBTcGFuU3R5bGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IG1lbnRpb25Db2xvciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQgPSBtZW50aW9uQmFja2dyb3VuZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gbWVudGlvbkZvbnRTaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLAogICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICB0b2tlbi5zdGFydCwKICAgICAgICAgICAgICAgICAgICAgICAgdG9rZW4uY29udGVudEVuZEV4Y2x1c2l2ZSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICByZXR1cm4gVHJhbnNmb3JtZWRUZXh0KHRyYW5zZm9ybWVkLCBPZmZzZXRNYXBwaW5nLklkZW50aXR5KQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components.style.input.common
+
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.OffsetMapping
+import androidx.compose.ui.text.input.TransformedText
+import androidx.compose.ui.text.input.VisualTransformation
+import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.isUnspecified
+import androidx.compose.ui.unit.sp
+import com.bslsjdk.operit.ui.features.chat.util.findCommittedMentionTokens
+
+@Composable
+fun rememberMentionVisualTransformation(textStyle: TextStyle): VisualTransformation {
+    val colors = MaterialTheme.colorScheme
+    val baseFontSize =
+        if (textStyle.fontSize.isUnspecified) {
+            14.sp
+        } else {
+            textStyle.fontSize
+        }
+    return remember(baseFontSize, colors.primary) {
+        MentionVisualTransformation(
+            mentionFontSize = baseFontSize * 0.88f,
+            mentionColor = colors.primary,
+            mentionBackground = colors.primary.copy(alpha = 0.14f),
+        )
+    }
+}
+
+private class MentionVisualTransformation(
+    private val mentionFontSize: TextUnit,
+    private val mentionColor: Color,
+    private val mentionBackground: Color,
+) : VisualTransformation {
+    override fun filter(text: AnnotatedString): TransformedText {
+        val mentionTokens = findCommittedMentionTokens(text.text)
+        if (mentionTokens.isEmpty()) {
+            return TransformedText(text, OffsetMapping.Identity)
+        }
+
+        val transformed =
+            buildAnnotatedString {
+                append(text)
+                mentionTokens.forEach { token ->
+                    addStyle(
+                        SpanStyle(
+                            color = mentionColor,
+                            background = mentionBackground,
+                            fontSize = mentionFontSize,
+                            fontWeight = FontWeight.Medium,
+                        ),
+                        token.start,
+                        token.contentEndExclusive,
+                    )
+                }
+            }
+        return TransformedText(transformed, OffsetMapping.Identity)
+    }
+}

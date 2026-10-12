@@ -1,1 +1,10 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5hY2Nlc3NiaWxpdHkKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuZGVmYXVsdFRvb2wuc3RhbmRhcmQuU3RhbmRhcmRTeXN0ZW1PcGVyYXRpb25Ub29scwoKLyoqIOaXoOmanOeijee6p+WIq+eahOezu+e7n+aTjeS9nOW3peWFt++8jOe7p+aJv+agh+WHhueJiOacrCAqLwpvcGVuIGNsYXNzIEFjY2Vzc2liaWxpdHlTeXN0ZW1PcGVyYXRpb25Ub29scyhjb250ZXh0OiBDb250ZXh0KSA6CiAgICAgICAgU3RhbmRhcmRTeXN0ZW1PcGVyYXRpb25Ub29scyhjb250ZXh0KSB7CiAgICAvLyDlvZPliY3pmLbmrrXkuI3mt7vliqDmlrDlip/og73vvIzku4Xnu6fmib/moIflh4blrp7njrAKfQo=
+package com.bslsjdk.operit.core.tools.defaultTool.accessbility
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.defaultTool.standard.StandardSystemOperationTools
+
+/** 无障碍级别的系统操作工具，继承标准版本 */
+open class AccessibilitySystemOperationTools(context: Context) :
+        StandardSystemOperationTools(context) {
+    // 当前阶段不添加新功能，仅继承标准实现
+}

@@ -1,1 +1,72 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZHgudGVzdC5leHQuanVuaXQucnVubmVycy5BbmRyb2lkSlVuaXQ0CmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlVGltZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0TnVsbAppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAoKQFJ1bldpdGgoQW5kcm9pZEpVbml0NDo6Y2xhc3MpCmNsYXNzIFNlcmlhbGl6ZXJBbmRyb2lkVGVzdCB7CgogICAgQFRlc3QgZnVuIHVyaVNlcmlhbGl6ZXJfc2VyaWFsaXplc05vbk51bGxVcmkoKSB7CiAgICAgICAgdmFsIHZhbHVlID0gSnNvbi5lbmNvZGVUb1N0cmluZyhVcmlTZXJpYWxpemVyLCBVcmkucGFyc2UoImh0dHBzOi8vZXhhbXBsZS5jb20vYSIpKQogICAgICAgIGFzc2VydEVxdWFscygiXCJodHRwczovL2V4YW1wbGUuY29tL2FcIiIsIHZhbHVlKQogICAgfQoKICAgIEBUZXN0IGZ1biB1cmlTZXJpYWxpemVyX3NlcmlhbGl6ZXNOdWxsQXNFbXB0eVN0cmluZygpIHsKICAgICAgICB2YWwgdmFsdWUgPSBKc29uLmVuY29kZVRvU3RyaW5nKFVyaVNlcmlhbGl6ZXIsIG51bGwpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJcIlwiIiwgdmFsdWUpCiAgICB9CgogICAgQFRlc3QgZnVuIHVyaVNlcmlhbGl6ZXJfZGVzZXJpYWxpemVzRW1wdHlTdHJpbmdUb051bGwoKSB7CiAgICAgICAgYXNzZXJ0TnVsbChKc29uLmRlY29kZUZyb21TdHJpbmcoVXJpU2VyaWFsaXplciwgIlwiXCIiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gdXJpU2VyaWFsaXplcl9kZXNlcmlhbGl6ZXNIdHRwVXJpKCkgewogICAgICAgIHZhbCB2YWx1ZSA9IEpzb24uZGVjb2RlRnJvbVN0cmluZyhVcmlTZXJpYWxpemVyLCAiXCJodHRwczovL2V4YW1wbGUuY29tL2FcIiIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFVyaS5wYXJzZSgiaHR0cHM6Ly9leGFtcGxlLmNvbS9hIiksIHZhbHVlKQogICAgfQoKICAgIEBUZXN0IGZ1biBpbnRSYW5nZVNlcmlhbGl6ZXJfc2VyaWFsaXplc1JhbmdlKCkgewogICAgICAgIHZhbCB2YWx1ZSA9IEpzb24uZW5jb2RlVG9TdHJpbmcoSW50UmFuZ2VTZXJpYWxpemVyLCAxLi4zKQogICAgICAgIGFzc2VydEVxdWFscygie1wic3RhcnRcIjoxLFwiZW5kSW5jbHVzaXZlXCI6M30iLCB2YWx1ZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gaW50UmFuZ2VTZXJpYWxpemVyX2Rlc2VyaWFsaXplc1JhbmdlKCkgewogICAgICAgIHZhbCB2YWx1ZSA9IEpzb24uZGVjb2RlRnJvbVN0cmluZyhJbnRSYW5nZVNlcmlhbGl6ZXIsICJ7XCJzdGFydFwiOjEsXCJlbmRJbmNsdXNpdmVcIjozfSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEuLjMsIHZhbHVlKQogICAgfQoKICAgIEBUZXN0IGZ1biBpbnRSYW5nZVNlcmlhbGl6ZXJfZGVzZXJpYWxpemVzTmVnYXRpdmVSYW5nZSgpIHsKICAgICAgICB2YWwgdmFsdWUgPSBKc29uLmRlY29kZUZyb21TdHJpbmcoSW50UmFuZ2VTZXJpYWxpemVyLCAie1wic3RhcnRcIjotMyxcImVuZEluY2x1c2l2ZVwiOi0xfSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKC0zLi4tMSwgdmFsdWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGxvY2FsRGF0ZVRpbWVTZXJpYWxpemVyX3NlcmlhbGl6ZXNJc29TdHJpbmcoKSB7CiAgICAgICAgdmFsIHZhbHVlID0gSnNvbi5lbmNvZGVUb1N0cmluZyhMb2NhbERhdGVUaW1lU2VyaWFsaXplciwgTG9jYWxEYXRlVGltZS5vZigyMDI0LCAxLCAyLCAzLCA0LCA1KSkKICAgICAgICBhc3NlcnRFcXVhbHMoIlwiMjAyNC0wMS0wMlQwMzowNDowNVwiIiwgdmFsdWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGxvY2FsRGF0ZVRpbWVTZXJpYWxpemVyX2Rlc2VyaWFsaXplc0lzb1N0cmluZygpIHsKICAgICAgICB2YWwgdmFsdWUgPSBKc29uLmRlY29kZUZyb21TdHJpbmcoTG9jYWxEYXRlVGltZVNlcmlhbGl6ZXIsICJcIjIwMjQtMDEtMDJUMDM6MDQ6MDVcIiIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKExvY2FsRGF0ZVRpbWUub2YoMjAyNCwgMSwgMiwgMywgNCwgNSksIHZhbHVlKQogICAgfQoKICAgIEBUZXN0IGZ1biBsb2NhbERhdGVUaW1lU2VyaWFsaXplcl9yb3VuZFRyaXBzRnJhY3Rpb25hbFNlY29uZHMoKSB7CiAgICAgICAgdmFsIG9yaWdpbmFsID0gTG9jYWxEYXRlVGltZS5vZigyMDI0LCAxLCAyLCAzLCA0LCA1LCAxMjNfMDAwXzAwMCkKICAgICAgICB2YWwgZW5jb2RlZCA9IEpzb24uZW5jb2RlVG9TdHJpbmcoTG9jYWxEYXRlVGltZVNlcmlhbGl6ZXIsIG9yaWdpbmFsKQogICAgICAgIHZhbCBkZWNvZGVkID0gSnNvbi5kZWNvZGVGcm9tU3RyaW5nKExvY2FsRGF0ZVRpbWVTZXJpYWxpemVyLCBlbmNvZGVkKQogICAgICAgIGFzc2VydEVxdWFscyhvcmlnaW5hbCwgZGVjb2RlZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gdXJpU2VyaWFsaXplcl9yb3VuZFRyaXBzQ29udGVudFVyaSgpIHsKICAgICAgICB2YWwgb3JpZ2luYWwgPSBVcmkucGFyc2UoImNvbnRlbnQ6Ly9jb20uYnNsc2pkay5vcGVyaXQvaXRlbS8xIikKICAgICAgICB2YWwgZW5jb2RlZCA9IEpzb24uZW5jb2RlVG9TdHJpbmcoVXJpU2VyaWFsaXplciwgb3JpZ2luYWwpCiAgICAgICAgdmFsIGRlY29kZWQgPSBKc29uLmRlY29kZUZyb21TdHJpbmcoVXJpU2VyaWFsaXplciwgZW5jb2RlZCkKICAgICAgICBhc3NlcnRFcXVhbHMob3JpZ2luYWwsIGRlY29kZWQpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import android.net.Uri
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import java.time.LocalDateTime
+import kotlinx.serialization.json.Json
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class SerializerAndroidTest {
+
+    @Test fun uriSerializer_serializesNonNullUri() {
+        val value = Json.encodeToString(UriSerializer, Uri.parse("https://example.com/a"))
+        assertEquals("\"https://example.com/a\"", value)
+    }
+
+    @Test fun uriSerializer_serializesNullAsEmptyString() {
+        val value = Json.encodeToString(UriSerializer, null)
+        assertEquals("\"\"", value)
+    }
+
+    @Test fun uriSerializer_deserializesEmptyStringToNull() {
+        assertNull(Json.decodeFromString(UriSerializer, "\"\""))
+    }
+
+    @Test fun uriSerializer_deserializesHttpUri() {
+        val value = Json.decodeFromString(UriSerializer, "\"https://example.com/a\"")
+        assertEquals(Uri.parse("https://example.com/a"), value)
+    }
+
+    @Test fun intRangeSerializer_serializesRange() {
+        val value = Json.encodeToString(IntRangeSerializer, 1..3)
+        assertEquals("{\"start\":1,\"endInclusive\":3}", value)
+    }
+
+    @Test fun intRangeSerializer_deserializesRange() {
+        val value = Json.decodeFromString(IntRangeSerializer, "{\"start\":1,\"endInclusive\":3}")
+        assertEquals(1..3, value)
+    }
+
+    @Test fun intRangeSerializer_deserializesNegativeRange() {
+        val value = Json.decodeFromString(IntRangeSerializer, "{\"start\":-3,\"endInclusive\":-1}")
+        assertEquals(-3..-1, value)
+    }
+
+    @Test fun localDateTimeSerializer_serializesIsoString() {
+        val value = Json.encodeToString(LocalDateTimeSerializer, LocalDateTime.of(2024, 1, 2, 3, 4, 5))
+        assertEquals("\"2024-01-02T03:04:05\"", value)
+    }
+
+    @Test fun localDateTimeSerializer_deserializesIsoString() {
+        val value = Json.decodeFromString(LocalDateTimeSerializer, "\"2024-01-02T03:04:05\"")
+        assertEquals(LocalDateTime.of(2024, 1, 2, 3, 4, 5), value)
+    }
+
+    @Test fun localDateTimeSerializer_roundTripsFractionalSeconds() {
+        val original = LocalDateTime.of(2024, 1, 2, 3, 4, 5, 123_000_000)
+        val encoded = Json.encodeToString(LocalDateTimeSerializer, original)
+        val decoded = Json.decodeFromString(LocalDateTimeSerializer, encoded)
+        assertEquals(original, decoded)
+    }
+
+    @Test fun uriSerializer_roundTripsContentUri() {
+        val original = Uri.parse("content://com.bslsjdk.operit/item/1")
+        val encoded = Json.encodeToString(UriSerializer, original)
+        val decoded = Json.decodeFromString(UriSerializer, encoded)
+        assertEquals(original, decoded)
+    }
+}

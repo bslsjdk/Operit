@@ -1,1 +1,334 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uYWN0aW9uCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnN5c3RlbS5BbmRyb2lkUGVybWlzc2lvbkxldmVsCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uc2hlbGwuU2hlbGxFeGVjdXRvckZhY3RvcnkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5pc0FjdGl2ZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljQm9vbGVhbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLnNoZWxsLlNoZWxsUHJvY2VzcwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cubGF1bmNoSW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lm9uRWFjaAoKLyoqIOWfuuS6jlJvb3TmnYPpmZDnmoRVSeaTjeS9nOebkeWQrOWZqCDlrp7njrBST09U5p2D6ZmQ57qn5Yir55qE5pON5L2c55uR5ZCsICovCmNsYXNzIFJvb3RBY3Rpb25MaXN0ZW5lcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IEFjdGlvbkxpc3RlbmVyIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJSb290QWN0aW9uTGlzdGVuZXIiCiAgICAgICAgcHJpdmF0ZSB2YXIgcm9vdEF2YWlsYWJsZTogQm9vbGVhbj8gPSBudWxsCiAgICB9CgogICAgcHJpdmF0ZSB2YWwgaXNMaXN0ZW5pbmcgPSBBdG9taWNCb29sZWFuKGZhbHNlKQogICAgcHJpdmF0ZSB2YXIgYWN0aW9uQ2FsbGJhY2s6ICgoQWN0aW9uTGlzdGVuZXIuQWN0aW9uRXZlbnQpIC0+IFVuaXQpPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIG1vbml0b3JpbmdKb2I6IEpvYj8gPSBudWxsCiAgICBwcml2YXRlIHZhciBwcm9jZXNzOiBTaGVsbFByb2Nlc3M/ID0gbnVsbAogICAgcHJpdmF0ZSB2YWwgc2hlbGxFeGVjdXRvciBieSBsYXp5IHsgCiAgICAgICAgU2hlbGxFeGVjdXRvckZhY3RvcnkuZ2V0RXhlY3V0b3IoY29udGV4dCwgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5ST09UKSAKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZ2V0UGVybWlzc2lvbkxldmVsKCk6IEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwgPSBBbmRyb2lkUGVybWlzc2lvbkxldmVsLlJPT1QKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBpc0F2YWlsYWJsZSgpOiBCb29sZWFuIHsKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyDlpoLmnpzlt7Lnu4/mo4Dmn6Xov4fvvIznm7TmjqXov5Tlm57nvJPlrZjnu5PmnpwKICAgICAgICAgICAgcm9vdEF2YWlsYWJsZT8ubGV0IHsgcmV0dXJuIGl0IH0KCiAgICAgICAgICAgIC8vIOajgOafpVJvb3TmnYPpmZAKICAgICAgICAgICAgdmFsIGhhc1Jvb3QgPSBzaGVsbEV4ZWN1dG9yLmlzQXZhaWxhYmxlKCkKICAgICAgICAgICAgcm9vdEF2YWlsYWJsZSA9IGhhc1Jvb3QKICAgICAgICAgICAgCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlJvb3TmnYPpmZDmo4Dmn6U6ICRoYXNSb290IikKICAgICAgICAgICAgcmV0dXJuIGhhc1Jvb3QKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5qOA5p+lUm9vdOadg+mZkOaXtuWHuumUmSIsIGUpCiAgICAgICAgICAgIHJvb3RBdmFpbGFibGUgPSBmYWxzZQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gaGFzUGVybWlzc2lvbigpOiBBY3Rpb25MaXN0ZW5lci5QZXJtaXNzaW9uU3RhdHVzIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgYXZhaWxhYmxlID0gaXNBdmFpbGFibGUoKQogICAgICAgICAgICByZXR1cm4gaWYgKGF2YWlsYWJsZSkgewogICAgICAgICAgICAgICAgQWN0aW9uTGlzdGVuZXIuUGVybWlzc2lvblN0YXR1cy5ncmFudGVkKCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEFjdGlvbkxpc3RlbmVyLlBlcm1pc3Npb25TdGF0dXMuZGVuaWVkKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnJvb3Rfbm9fcm9vdF9wZXJtaXNzaW9uKSkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLmo4Dmn6VSb2905p2D6ZmQ54q25oCB5pe25Ye66ZSZIiwgZSkKICAgICAgICAgICAgcmV0dXJuIEFjdGlvbkxpc3RlbmVyLlBlcm1pc3Npb25TdGF0dXMuZGVuaWVkKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnJvb3RfY2hlY2tfcGVybWlzc2lvbl9lcnJvciwgZS5tZXNzYWdlID86ICIiKSkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcmVxdWVzdFBlcm1pc3Npb24ob25SZXN1bHQ6IChCb29sZWFuKSAtPiBVbml0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8gUm9vdOadg+mZkOaXoOazlemAmui/h+S7o+eggeivt+axgu+8jOWPquiDveaPkOekuueUqOaItwogICAgICAgICAgICB2YWwgaGFzUm9vdCA9IGlzQXZhaWxhYmxlKCkKICAgICAgICAgICAgb25SZXN1bHQoaGFzUm9vdCkKCiAgICAgICAgICAgIGlmICghaGFzUm9vdCkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5peg5rOV5Lul57yW56iL5pa55byP6K+35rGCUm9vdOadg+mZkCIpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6K+35rGCUm9vdOadg+mZkOaXtuWHuumUmSIsIGUpCiAgICAgICAgICAgIG9uUmVzdWx0KGZhbHNlKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaXNMaXN0ZW5pbmcoKTogQm9vbGVhbiA9IGlzTGlzdGVuaW5nLmdldCgpCgogICAgb3ZlcnJpZGUgZnVuIGluaXRpYWxpemUoKSB7CiAgICAgICAgLy8gTm8tb3AKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBzdGFydExpc3RlbmluZyhvbkFjdGlvbjogKEFjdGlvbkxpc3RlbmVyLkFjdGlvbkV2ZW50KSAtPiBVbml0KTogQWN0aW9uTGlzdGVuZXIuTGlzdGVuaW5nUmVzdWx0ID0KICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHBlcm1TdGF0dXMgPSBoYXNQZXJtaXNzaW9uKCkKICAgICAgICAgICAgICAgIGlmICghcGVybVN0YXR1cy5ncmFudGVkKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IEFjdGlvbkxpc3RlbmVyLkxpc3RlbmluZ1Jlc3VsdC5mYWlsdXJlKHBlcm1TdGF0dXMucmVhc29uKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGlmIChpc0xpc3RlbmluZy5nZXQoKSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBBY3Rpb25MaXN0ZW5lci5MaXN0ZW5pbmdSZXN1bHQuZmFpbHVyZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hZG1pbl9hbHJlYWR5X2xpc3RlbmluZykpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgYWN0aW9uQ2FsbGJhY2sgPSBvbkFjdGlvbgogICAgICAgICAgICAgICAgaXNMaXN0ZW5pbmcuc2V0KHRydWUpCgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5byA5aeLUm9vdOadg+mZkOe6p+WIq+eahFVJ5pON5L2c55uR5ZCsIikKCiAgICAgICAgICAgICAgICAvLyDlkK/liqjlupXlsYLns7vnu5/kuovku7bnm5HmjqcKICAgICAgICAgICAgICAgIHN0YXJ0Um9vdExldmVsTW9uaXRvcmluZygpCgogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IEFjdGlvbkxpc3RlbmVyLkxpc3RlbmluZ1Jlc3VsdC5zdWNjZXNzKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnJvb3RfdWlfbGlzdGVuZXJfc3RhcnRlZCkpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5ZCv5YqoUm9vdCBVSeaTjeS9nOebkeWQrOWksei0pSIsIGUpCiAgICAgICAgICAgICAgICBpc0xpc3RlbmluZy5zZXQoZmFsc2UpCiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgQWN0aW9uTGlzdGVuZXIuTGlzdGVuaW5nUmVzdWx0LmZhaWx1cmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYWRtaW5fc3RhcnRfZmFpbGVkLCBlLm1lc3NhZ2UgPzogIiIpKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHN0b3BMaXN0ZW5pbmcoKTogQm9vbGVhbiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKCFpc0xpc3RlbmluZy5nZXQoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IHRydWUKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaXNMaXN0ZW5pbmcuc2V0KGZhbHNlKQogICAgICAgICAgICBhY3Rpb25DYWxsYmFjayA9IG51bGwKCiAgICAgICAgICAgIC8vIOWBnOatouebkeaOp+S7u+WKoQogICAgICAgICAgICBtb25pdG9yaW5nSm9iPy5jYW5jZWwoKQogICAgICAgICAgICBtb25pdG9yaW5nSm9iID0gbnVsbAogICAgICAgICAgICAKICAgICAgICAgICAgc3RvcFJvb3RMZXZlbE1vbml0b3JpbmcoKQoKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUm9vdCBVSeaTjeS9nOebkeWQrOW3suWBnOatoiIpCiAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCB0cnVlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuWBnOatolJvb3QgVUnmk43kvZznm5HlkKzlpLHotKUiLCBlKQogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlvIDlp4tSb29057qn5Yir55qE57O757uf55uR5o6nCiAgICAgKiDlj6/ku6Xnm5HlkKzmnIDlupXlsYLnmoTovpPlhaXorr7lpIfkuovku7bjgIHlhoXmoLjkuovku7bnrYkKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gc3RhcnRSb290TGV2ZWxNb25pdG9yaW5nKCkgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuW8gOWni1Jvb3TnuqfliKvns7vnu5/nm5HmjqcgLSDnm7TmjqXnm5HlkKzlhoXmoLjovpPlhaXorr7lpIflkozns7vnu5/kuovku7YiKQogICAgICAgIAogICAgICAgIG1vbml0b3JpbmdKb2IgPSBDb3JvdXRpbmVTY29wZShEaXNwYXRjaGVycy5JTykubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHByb2Nlc3MgPSBzaGVsbEV4ZWN1dG9yLnN0YXJ0UHJvY2VzcygiZ2V0ZXZlbnQgLWwiKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBwcm9jZXNzPy5zdGRvdXQ/Lm9uRWFjaCB7IGxpbmUgLT4KICAgICAgICAgICAgICAgICAgICBwYXJzZVRvdWNoRXZlbnQobGluZSkKICAgICAgICAgICAgICAgIH0/LmxhdW5jaEluKHRoaXMpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIHByb2Nlc3M/LnN0ZGVycj8ub25FYWNoIHsgbGluZSAtPgogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgImdldGV2ZW50IHN0ZGVycjogJGxpbmUiKQogICAgICAgICAgICAgICAgfT8ubGF1bmNoSW4odGhpcykKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgdmFsIGV4aXRDb2RlID0gcHJvY2Vzcz8ud2FpdEZvcigpCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJnZXRldmVudCBwcm9jZXNzIGV4aXRlZCB3aXRoIGNvZGUgJGV4aXRDb2RlIikKCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiUm9vdOe6p+WIq+ebkeaOp+S7u+WKoeWHuumUmSIsIGUpCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBpZiAoaXNBY3RpdmUpIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJSZXN0YXJ0aW5nIHJvb3QgbW9uaXRvcmluZyBwcm9jZXNzLi4uIikKICAgICAgICAgICAgICAgICAgICBzdGFydFJvb3RMZXZlbE1vbml0b3JpbmcoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5YGc5q2iUm9vdOe6p+WIq+eahOezu+e7n+ebkeaOpwogICAgICovCiAgICBwcml2YXRlIGZ1biBzdG9wUm9vdExldmVsTW9uaXRvcmluZygpIHsKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlgZzmraJSb29057qn5Yir57O757uf55uR5o6nIikKICAgICAgICBtb25pdG9yaW5nSm9iPy5jYW5jZWwoKQogICAgICAgIHByb2Nlc3M/LmRlc3Ryb3koKQogICAgICAgIHByb2Nlc3MgPSBudWxsCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VUb3VjaEV2ZW50KGxpbmU6IFN0cmluZykgewogICAgICAgIC8vIEEgc2ltcGxlIHBhcnNlciBmb3IgYGdldGV2ZW50IC1sYCBvdXRwdXQuCiAgICAgICAgLy8gVGhpcyBpcyBhIHBsYWNlaG9sZGVyIGFuZCBuZWVkcyB0byBiZSBpbXBsZW1lbnRlZCBwcm9wZXJseS4KICAgICAgICBBcHBMb2dnZXIudihUQUcsICJJbnB1dCBldmVudDogJGxpbmUiKQogICAgICAgIGlmIChsaW5lLmNvbnRhaW5zKCJBQlNfTVRfUE9TSVRJT05fWCIpKSB7CiAgICAgICAgICAgIC8vIEhhbmRsZSBYIGNvb3JkaW5hdGUKICAgICAgICB9IGVsc2UgaWYgKGxpbmUuY29udGFpbnMoIkFCU19NVF9QT1NJVElPTl9ZIikpIHsKICAgICAgICAgICAgLy8gSGFuZGxlIFkgY29vcmRpbmF0ZQogICAgICAgIH0gZWxzZSBpZiAobGluZS5jb250YWlucygiQlROX1RPVUNIIikgJiYgbGluZS5jb250YWlucygiRE9XTiIpKSB7CiAgICAgICAgICAgIC8vIEhhbmRsZSB0b3VjaCBkb3duCiAgICAgICAgfSBlbHNlIGlmIChsaW5lLmNvbnRhaW5zKCJCVE5fVE9VQ0giKSAmJiBsaW5lLmNvbnRhaW5zKCJVUCIpKSB7CiAgICAgICAgICAgIC8vIEhhbmRsZSB0b3VjaCB1cAogICAgICAgICAgICBhY3Rpb25DYWxsYmFjaz8uaW52b2tlKAogICAgICAgICAgICAgICAgQWN0aW9uTGlzdGVuZXIuQWN0aW9uRXZlbnQoCiAgICAgICAgICAgICAgICAgICAgdGltZXN0YW1wID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCiAgICAgICAgICAgICAgICAgICAgYWN0aW9uVHlwZSA9IEFjdGlvbkxpc3RlbmVyLkFjdGlvblR5cGUuQ0xJQ0ssCiAgICAgICAgICAgICAgICAgICAgYWRkaXRpb25hbERhdGEgPSBtYXBPZigic291cmNlIiB0byAiZ2V0ZXZlbnQiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog55uR5ZCs5Y6f5aeL6L6T5YWl6K6+5aSH5LqL5Lu2CiAgICAgKiDnm7TmjqXor7vlj5YgL2Rldi9pbnB1dC9ldmVudCog6K6+5aSH5paH5Lu2CiAgICAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gbW9uaXRvclJhd0lucHV0RXZlbnRzKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8vIOS9v+eUqFJvb3TmnYPpmZDnm7TmjqXor7vlj5bovpPlhaXorr7lpIcKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHNoZWxsRXhlY3V0b3IuZXhlY3V0ZUNvbW1hbmQoImNhdCAvcHJvYy9idXMvaW5wdXQvZGV2aWNlcyB8IGdyZXAgLUUgJ05hbWV8SGFuZGxlcnMnIikKICAgICAgICAgICAgaWYgKHJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgICAgICAgICBwYXJzZUlucHV0RGV2aWNlSW5mbyhyZXN1bHQuc3Rkb3V0KQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDnm5HlkKzlrp7ml7bop6bmkbjkuovku7YgLSDov5nph4zlj6rmmK/npLrkvovvvIzlrp7pmYXpnIDopoHop6PmnpDkuozov5vliLbkuovku7bmlbDmja4KICAgICAgICAgICAgLy8gdmFsIHRvdWNoUmVzdWx0ID0gc2hlbGxFeGVjdXRvci5leGVjdXRlQ29tbWFuZCgidGltZW91dCAwLjEgZ2V0ZXZlbnQiKQogICAgICAgICAgICAvLyBpZiAodG91Y2hSZXN1bHQuc3VjY2VzcykgewogICAgICAgICAgICAvLyAgICAgcGFyc2VUb3VjaEV2ZW50cyh0b3VjaFJlc3VsdC5zdGRvdXQpCiAgICAgICAgICAgIC8vIH0KICAgICAgICAgICAgCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuebkeWQrOWOn+Wni+i+k+WFpeS6i+S7tuWksei0pSIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog55uR5ZCs5YaF5qC45LqL5Lu2CiAgICAgKiDpgJrov4dkbWVzZ+aIli9wcm9jL2ttc2fnm5HlkKzlhoXmoLjnuqfliKvnmoTkuovku7YKICAgICAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBtb25pdG9yS2VybmVsRXZlbnRzKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8vIOivu+WPluacgOaWsOeahOWGheaguOa2iOaBrwogICAgICAgICAgICB2YWwgcmVzdWx0ID0gc2hlbGxFeGVjdXRvci5leGVjdXRlQ29tbWFuZCgiZG1lc2cgLVQgfCB0YWlsIC01IikKICAgICAgICAgICAgaWYgKHJlc3VsdC5zdWNjZXNzICYmIHJlc3VsdC5zdGRvdXQuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBwYXJzZUtlcm5lbEV2ZW50cyhyZXN1bHQuc3Rkb3V0KQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuebkeWQrOWGheaguOS6i+S7tuWksei0pSIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog55uR5ZCs6L+b56iL54q25oCB5Y+Y5YyWCiAgICAgKiDnm5HlkKzlupTnlKjlkK/liqjjgIHlhbPpl63nrYnov5vnqIvnuqfkuovku7YKICAgICAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBtb25pdG9yUHJvY2Vzc0V2ZW50cygpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICAvLyDojrflj5blvZPliY3ov5DooYznmoTlupTnlKjov5vnqIsKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHNoZWxsRXhlY3V0b3IuZXhlY3V0ZUNvbW1hbmQoInBzIC1BIHwgZ3JlcCAtdiAnXFxbJyB8IHRhaWwgLTEwIikKICAgICAgICAgICAgaWYgKHJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgICAgICAgICBwYXJzZVByb2Nlc3NFdmVudHMocmVzdWx0LnN0ZG91dCkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLnm5HlkKzov5vnqIvkuovku7blpLHotKUiLCBlKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOino+aekOi+k+WFpeiuvuWkh+S/oeaBrwogICAgICogQHBhcmFtIGRldmljZUluZm8g6K6+5aSH5L+h5oGv6L6T5Ye6CiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHBhcnNlSW5wdXREZXZpY2VJbmZvKGRldmljZUluZm86IFN0cmluZykgewogICAgICAgIC8vIOino+aekOi+k+WFpeiuvuWkh+S/oeaBr++8jOivhuWIq+inpuaRuOWxj+etieiuvuWkhwogICAgICAgIEFwcExvZ2dlci52KFRBRywgIuino+aekOi+k+WFpeiuvuWkh+S/oeaBrzogJGRldmljZUluZm8iKQogICAgfQoKICAgIC8qKgogICAgICog6Kej5p6Q6Kem5pG45LqL5Lu25pWw5o2uCiAgICAgKiBAcGFyYW0gZXZlbnREYXRhIGdldGV2ZW505ZG95Luk6L6T5Ye655qE5Y6f5aeL5LqL5Lu25pWw5o2uCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHBhcnNlVG91Y2hFdmVudHMoZXZlbnREYXRhOiBTdHJpbmcpIHsKICAgICAgICAvLyDop6PmnpBnZXRldmVudOi+k+WHuueahOS6jOi/m+WItuinpuaRuOS6i+S7tuaVsOaNrgogICAgICAgIC8vIOi9rOaNouS4ukFjdGlvbkV2ZW505bm25Zue6LCDCiAgICAgICAgQXBwTG9nZ2VyLnYoVEFHLCAi6Kej5p6Q6Kem5pG45LqL5Lu2OiAkZXZlbnREYXRhIikKICAgIH0KCiAgICAvKioKICAgICAqIOino+aekOWGheaguOS6i+S7tgogICAgICogQHBhcmFtIGtlcm5lbExvZyDlhoXmoLjml6Xlv5fovpPlh7oKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gcGFyc2VLZXJuZWxFdmVudHMoa2VybmVsTG9nOiBTdHJpbmcpIHsKICAgICAgICAvLyDop6PmnpDlhoXmoLjml6Xlv5fkuK3nmoTnm7jlhbPkuovku7YKICAgICAgICBpZiAoa2VybmVsTG9nLmNvbnRhaW5zKCJpbnB1dCIpIHx8IGtlcm5lbExvZy5jb250YWlucygidG91Y2giKSkgewogICAgICAgICAgICBBcHBMb2dnZXIudihUQUcsICLmo4DmtYvliLDovpPlhaXnm7jlhbPlhoXmoLjkuovku7YiKQogICAgICAgICAgICAKICAgICAgICAgICAgYWN0aW9uQ2FsbGJhY2s/LmxldCB7IGNhbGxiYWNrIC0+CiAgICAgICAgICAgICAgICB2YWwgZXZlbnQgPSBBY3Rpb25MaXN0ZW5lci5BY3Rpb25FdmVudCgKICAgICAgICAgICAgICAgICAgICB0aW1lc3RhbXAgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSwKICAgICAgICAgICAgICAgICAgICBhY3Rpb25UeXBlID0gQWN0aW9uTGlzdGVuZXIuQWN0aW9uVHlwZS5TWVNURU1fRVZFTlQsCiAgICAgICAgICAgICAgICAgICAgYWRkaXRpb25hbERhdGEgPSBtYXBPZigKICAgICAgICAgICAgICAgICAgICAgICAgInNvdXJjZSIgdG8gImtlcm5lbF9sb2ciLAogICAgICAgICAgICAgICAgICAgICAgICAiZXZlbnQiIHRvICJpbnB1dF9kZXZpY2VfYWN0aXZpdHkiCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgY2FsbGJhY2soZXZlbnQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDop6PmnpDov5vnqIvkuovku7YKICAgICAqIEBwYXJhbSBwcm9jZXNzSW5mbyDov5vnqIvkv6Hmga/ovpPlh7oKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gcGFyc2VQcm9jZXNzRXZlbnRzKHByb2Nlc3NJbmZvOiBTdHJpbmcpIHsKICAgICAgICAvLyDop6PmnpDov5vnqIvnirbmgIHlj5jljJbvvIzmo4DmtYvlupTnlKjlkK/liqgv5YWz6ZetCiAgICAgICAgQXBwTG9nZ2VyLnYoVEFHLCAi6Kej5p6Q6L+b56iL5LqL5Lu2OiAke3Byb2Nlc3NJbmZvLnRha2UoMTAwKX0uLi4iKQogICAgfQoKICAgIC8qKgogICAgICog5aSE55CG5qOA5rWL5Yiw55qE5Y6f5aeL6Kem5pG45LqL5Lu2CiAgICAgKiBAcGFyYW0gZGV2aWNlUGF0aCDovpPlhaXorr7lpIfot6/lvoQKICAgICAqIEBwYXJhbSB4IOinpuaRuFjlnZDmoIcKICAgICAqIEBwYXJhbSB5IOinpuaRuFnlnZDmoIcKICAgICAqIEBwYXJhbSBwcmVzc3VyZSDljovlipvlgLwKICAgICAqLwogICAgZnVuIGhhbmRsZVJhd1RvdWNoRXZlbnQoZGV2aWNlUGF0aDogU3RyaW5nLCB4OiBJbnQsIHk6IEludCwgcHJlc3N1cmU6IEludCkgewogICAgICAgIGlmIChpc0xpc3RlbmluZy5nZXQoKSAmJiBhY3Rpb25DYWxsYmFjayAhPSBudWxsKSB7CiAgICAgICAgICAgIHZhbCBldmVudCA9IEFjdGlvbkxpc3RlbmVyLkFjdGlvbkV2ZW50KAogICAgICAgICAgICAgICAgdGltZXN0YW1wID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCiAgICAgICAgICAgICAgICBhY3Rpb25UeXBlID0gQWN0aW9uTGlzdGVuZXIuQWN0aW9uVHlwZS5DTElDSywKICAgICAgICAgICAgICAgIGNvb3JkaW5hdGVzID0gUGFpcih4LCB5KSwKICAgICAgICAgICAgICAgIGFkZGl0aW9uYWxEYXRhID0gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgImRldmljZVBhdGgiIHRvIGRldmljZVBhdGgsCiAgICAgICAgICAgICAgICAgICAgInByZXNzdXJlIiB0byBwcmVzc3VyZSwKICAgICAgICAgICAgICAgICAgICAic291cmNlIiB0byAicmF3X2lucHV0X2RldmljZSIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICAgICBhY3Rpb25DYWxsYmFjaz8uaW52b2tlKGV2ZW50KQogICAgICAgIH0KICAgIH0KfSA=
+package com.bslsjdk.operit.core.tools.system.action
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+import com.bslsjdk.operit.core.tools.system.shell.ShellExecutorFactory
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import java.util.concurrent.atomic.AtomicBoolean
+import com.bslsjdk.operit.core.tools.system.shell.ShellProcess
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
+
+/** 基于Root权限的UI操作监听器 实现ROOT权限级别的操作监听 */
+class RootActionListener(private val context: Context) : ActionListener {
+    companion object {
+        private const val TAG = "RootActionListener"
+        private var rootAvailable: Boolean? = null
+    }
+
+    private val isListening = AtomicBoolean(false)
+    private var actionCallback: ((ActionListener.ActionEvent) -> Unit)? = null
+    private var monitoringJob: Job? = null
+    private var process: ShellProcess? = null
+    private val shellExecutor by lazy { 
+        ShellExecutorFactory.getExecutor(context, AndroidPermissionLevel.ROOT) 
+    }
+
+    override fun getPermissionLevel(): AndroidPermissionLevel = AndroidPermissionLevel.ROOT
+
+    override suspend fun isAvailable(): Boolean {
+        try {
+            // 如果已经检查过，直接返回缓存结果
+            rootAvailable?.let { return it }
+
+            // 检查Root权限
+            val hasRoot = shellExecutor.isAvailable()
+            rootAvailable = hasRoot
+            
+            AppLogger.d(TAG, "Root权限检查: $hasRoot")
+            return hasRoot
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "检查Root权限时出错", e)
+            rootAvailable = false
+            return false
+        }
+    }
+
+    override suspend fun hasPermission(): ActionListener.PermissionStatus {
+        try {
+            val available = isAvailable()
+            return if (available) {
+                ActionListener.PermissionStatus.granted()
+            } else {
+                ActionListener.PermissionStatus.denied(context.getString(R.string.root_no_root_permission))
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "检查Root权限状态时出错", e)
+            return ActionListener.PermissionStatus.denied(context.getString(R.string.root_check_permission_error, e.message ?: ""))
+        }
+    }
+
+    override suspend fun requestPermission(onResult: (Boolean) -> Unit) {
+        try {
+            // Root权限无法通过代码请求，只能提示用户
+            val hasRoot = isAvailable()
+            onResult(hasRoot)
+
+            if (!hasRoot) {
+                AppLogger.d(TAG, "无法以编程方式请求Root权限")
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "请求Root权限时出错", e)
+            onResult(false)
+        }
+    }
+
+    override fun isListening(): Boolean = isListening.get()
+
+    override fun initialize() {
+        // No-op
+    }
+
+    override suspend fun startListening(onAction: (ActionListener.ActionEvent) -> Unit): ActionListener.ListeningResult =
+        withContext(Dispatchers.IO) {
+            try {
+                val permStatus = hasPermission()
+                if (!permStatus.granted) {
+                    return@withContext ActionListener.ListeningResult.failure(permStatus.reason)
+                }
+
+                if (isListening.get()) {
+                    return@withContext ActionListener.ListeningResult.failure(context.getString(R.string.admin_already_listening))
+                }
+
+                actionCallback = onAction
+                isListening.set(true)
+
+                AppLogger.d(TAG, "开始Root权限级别的UI操作监听")
+
+                // 启动底层系统事件监控
+                startRootLevelMonitoring()
+
+                return@withContext ActionListener.ListeningResult.success(context.getString(R.string.root_ui_listener_started))
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "启动Root UI操作监听失败", e)
+                isListening.set(false)
+                return@withContext ActionListener.ListeningResult.failure(context.getString(R.string.admin_start_failed, e.message ?: ""))
+            }
+        }
+
+    override suspend fun stopListening(): Boolean = withContext(Dispatchers.IO) {
+        try {
+            if (!isListening.get()) {
+                return@withContext true
+            }
+
+            isListening.set(false)
+            actionCallback = null
+
+            // 停止监控任务
+            monitoringJob?.cancel()
+            monitoringJob = null
+            
+            stopRootLevelMonitoring()
+
+            AppLogger.d(TAG, "Root UI操作监听已停止")
+            return@withContext true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "停止Root UI操作监听失败", e)
+            return@withContext false
+        }
+    }
+
+    /**
+     * 开始Root级别的系统监控
+     * 可以监听最底层的输入设备事件、内核事件等
+     */
+    private fun startRootLevelMonitoring() {
+        AppLogger.d(TAG, "开始Root级别系统监控 - 直接监听内核输入设备和系统事件")
+        
+        monitoringJob = CoroutineScope(Dispatchers.IO).launch {
+            try {
+                process = shellExecutor.startProcess("getevent -l")
+                
+                process?.stdout?.onEach { line ->
+                    parseTouchEvent(line)
+                }?.launchIn(this)
+                
+                process?.stderr?.onEach { line ->
+                    AppLogger.w(TAG, "getevent stderr: $line")
+                }?.launchIn(this)
+                
+                val exitCode = process?.waitFor()
+                AppLogger.d(TAG, "getevent process exited with code $exitCode")
+
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Root级别监控任务出错", e)
+            } finally {
+                if (isActive) {
+                    AppLogger.d(TAG, "Restarting root monitoring process...")
+                    startRootLevelMonitoring()
+                }
+            }
+        }
+    }
+
+    /**
+     * 停止Root级别的系统监控
+     */
+    private fun stopRootLevelMonitoring() {
+        AppLogger.d(TAG, "停止Root级别系统监控")
+        monitoringJob?.cancel()
+        process?.destroy()
+        process = null
+    }
+
+    private fun parseTouchEvent(line: String) {
+        // A simple parser for `getevent -l` output.
+        // This is a placeholder and needs to be implemented properly.
+        AppLogger.v(TAG, "Input event: $line")
+        if (line.contains("ABS_MT_POSITION_X")) {
+            // Handle X coordinate
+        } else if (line.contains("ABS_MT_POSITION_Y")) {
+            // Handle Y coordinate
+        } else if (line.contains("BTN_TOUCH") && line.contains("DOWN")) {
+            // Handle touch down
+        } else if (line.contains("BTN_TOUCH") && line.contains("UP")) {
+            // Handle touch up
+            actionCallback?.invoke(
+                ActionListener.ActionEvent(
+                    timestamp = System.currentTimeMillis(),
+                    actionType = ActionListener.ActionType.CLICK,
+                    additionalData = mapOf("source" to "getevent")
+                )
+            )
+        }
+    }
+
+    /**
+     * 监听原始输入设备事件
+     * 直接读取 /dev/input/event* 设备文件
+     */
+    private suspend fun monitorRawInputEvents() {
+        try {
+            // 使用Root权限直接读取输入设备
+            val result = shellExecutor.executeCommand("cat /proc/bus/input/devices | grep -E 'Name|Handlers'")
+            if (result.success) {
+                parseInputDeviceInfo(result.stdout)
+            }
+            
+            // 监听实时触摸事件 - 这里只是示例，实际需要解析二进制事件数据
+            // val touchResult = shellExecutor.executeCommand("timeout 0.1 getevent")
+            // if (touchResult.success) {
+            //     parseTouchEvents(touchResult.stdout)
+            // }
+            
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "监听原始输入事件失败", e)
+        }
+    }
+
+    /**
+     * 监听内核事件
+     * 通过dmesg或/proc/kmsg监听内核级别的事件
+     */
+    private suspend fun monitorKernelEvents() {
+        try {
+            // 读取最新的内核消息
+            val result = shellExecutor.executeCommand("dmesg -T | tail -5")
+            if (result.success && result.stdout.isNotEmpty()) {
+                parseKernelEvents(result.stdout)
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "监听内核事件失败", e)
+        }
+    }
+
+    /**
+     * 监听进程状态变化
+     * 监听应用启动、关闭等进程级事件
+     */
+    private suspend fun monitorProcessEvents() {
+        try {
+            // 获取当前运行的应用进程
+            val result = shellExecutor.executeCommand("ps -A | grep -v '\\[' | tail -10")
+            if (result.success) {
+                parseProcessEvents(result.stdout)
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "监听进程事件失败", e)
+        }
+    }
+
+    /**
+     * 解析输入设备信息
+     * @param deviceInfo 设备信息输出
+     */
+    private fun parseInputDeviceInfo(deviceInfo: String) {
+        // 解析输入设备信息，识别触摸屏等设备
+        AppLogger.v(TAG, "解析输入设备信息: $deviceInfo")
+    }
+
+    /**
+     * 解析触摸事件数据
+     * @param eventData getevent命令输出的原始事件数据
+     */
+    private fun parseTouchEvents(eventData: String) {
+        // 解析getevent输出的二进制触摸事件数据
+        // 转换为ActionEvent并回调
+        AppLogger.v(TAG, "解析触摸事件: $eventData")
+    }
+
+    /**
+     * 解析内核事件
+     * @param kernelLog 内核日志输出
+     */
+    private fun parseKernelEvents(kernelLog: String) {
+        // 解析内核日志中的相关事件
+        if (kernelLog.contains("input") || kernelLog.contains("touch")) {
+            AppLogger.v(TAG, "检测到输入相关内核事件")
+            
+            actionCallback?.let { callback ->
+                val event = ActionListener.ActionEvent(
+                    timestamp = System.currentTimeMillis(),
+                    actionType = ActionListener.ActionType.SYSTEM_EVENT,
+                    additionalData = mapOf(
+                        "source" to "kernel_log",
+                        "event" to "input_device_activity"
+                    )
+                )
+                callback(event)
+            }
+        }
+    }
+
+    /**
+     * 解析进程事件
+     * @param processInfo 进程信息输出
+     */
+    private fun parseProcessEvents(processInfo: String) {
+        // 解析进程状态变化，检测应用启动/关闭
+        AppLogger.v(TAG, "解析进程事件: ${processInfo.take(100)}...")
+    }
+
+    /**
+     * 处理检测到的原始触摸事件
+     * @param devicePath 输入设备路径
+     * @param x 触摸X坐标
+     * @param y 触摸Y坐标
+     * @param pressure 压力值
+     */
+    fun handleRawTouchEvent(devicePath: String, x: Int, y: Int, pressure: Int) {
+        if (isListening.get() && actionCallback != null) {
+            val event = ActionListener.ActionEvent(
+                timestamp = System.currentTimeMillis(),
+                actionType = ActionListener.ActionType.CLICK,
+                coordinates = Pair(x, y),
+                additionalData = mapOf(
+                    "devicePath" to devicePath,
+                    "pressure" to pressure,
+                    "source" to "raw_input_device"
+                )
+            )
+            actionCallback?.invoke(event)
+        }
+    }
+} 

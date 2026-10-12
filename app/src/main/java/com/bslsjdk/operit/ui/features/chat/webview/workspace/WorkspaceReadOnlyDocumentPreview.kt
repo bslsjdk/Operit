@@ -1,1 +1,508 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZQoKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQml0bWFwCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLnBkZi5QZGZSZW5kZXJlcgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkLm9zLlBhcmNlbEZpbGVEZXNjcmlwdG9yCmltcG9ydCBhbmRyb2lkLnV0aWwuQmFzZTY0CmltcG9ydCBhbmRyb2lkLnZpZXcuTW90aW9uRXZlbnQKaW1wb3J0IGFuZHJvaWQud2Via2l0LldlYlZpZXcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5JbWFnZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlBhZGRpbmdWYWx1ZXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlDb2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TdXJmYWNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLlN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5wcm9kdWNlU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLmFzSW1hZ2VCaXRtYXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LkNvbnRlbnRTY2FsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0QWxpZ24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS52aWV3aW50ZXJvcC5BbmRyb2lkVmlldwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFJVG9vbEhhbmRsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkJpbmFyeUZpbGVDb250ZW50RGF0YQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQUlUb29sCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUGFyYW1ldGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkRvY3VtZW50Q29udmVyc2lvblV0aWwKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlT3V0cHV0U3RyZWFtCmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKcHJpdmF0ZSBjb25zdCB2YWwgRE9DVU1FTlRfUFJFVklFV19UQUcgPSAiV29ya3NwYWNlRG9jUHJldmlldyIKCmludGVybmFsIGRhdGEgY2xhc3MgV29ya3NwYWNlUHJldmlld0ZpbGVTdGF0ZSgKICAgIHZhbCBsb2FkaW5nOiBCb29sZWFuID0gdHJ1ZSwKICAgIHZhbCBmaWxlOiBGaWxlPyA9IG51bGwsCiAgICB2YWwgZXJyb3JNZXNzYWdlOiBTdHJpbmc/ID0gbnVsbAopCgpwcml2YXRlIGRhdGEgY2xhc3MgV29ya3NwYWNlSHRtbFByZXZpZXdTdGF0ZSgKICAgIHZhbCBsb2FkaW5nOiBCb29sZWFuID0gdHJ1ZSwKICAgIHZhbCBodG1sOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBlcnJvck1lc3NhZ2U6IFN0cmluZz8gPSBudWxsCikKCnByaXZhdGUgZGF0YSBjbGFzcyBXb3Jrc3BhY2VQZGZQcmV2aWV3U3RhdGUoCiAgICB2YWwgbG9hZGluZzogQm9vbGVhbiA9IHRydWUsCiAgICB2YWwgcGFnZUNvdW50OiBJbnQgPSAwLAogICAgdmFsIGVycm9yTWVzc2FnZTogU3RyaW5nPyA9IG51bGwKKQoKQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIFdvcmtzcGFjZVJlYWRPbmx5RG9jdW1lbnRQcmV2aWV3KAogICAgZmlsZUluZm86IE9wZW5GaWxlSW5mbywKICAgIHdvcmtzcGFjZUVudjogU3RyaW5nPywKICAgIHRvb2xIYW5kbGVyOiBBSVRvb2xIYW5kbGVyLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgcHJldmlld0ZpbGVTdGF0ZSBieSByZW1lbWJlcldvcmtzcGFjZVByZXZpZXdGaWxlU3RhdGUoCiAgICAgICAgZmlsZUluZm8gPSBmaWxlSW5mbywKICAgICAgICB3b3Jrc3BhY2VFbnYgPSB3b3Jrc3BhY2VFbnYsCiAgICAgICAgdG9vbEhhbmRsZXIgPSB0b29sSGFuZGxlcgogICAgKQoKICAgIHdoZW4gewogICAgICAgIHByZXZpZXdGaWxlU3RhdGUubG9hZGluZyAtPiB7CiAgICAgICAgICAgIFByZXZpZXdMb2FkaW5nQm94KG1vZGlmaWVyID0gbW9kaWZpZXIpCiAgICAgICAgfQoKICAgICAgICBwcmV2aWV3RmlsZVN0YXRlLmZpbGUgPT0gbnVsbCAtPiB7CiAgICAgICAgICAgIFByZXZpZXdFcnJvckJveCgKICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBwcmV2aWV3RmlsZVN0YXRlLmVycm9yTWVzc2FnZQogICAgICAgICAgICAgICAgICAgID86IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmNhbm5vdF9vcGVuX2ZpbGUsIGZpbGVJbmZvLm5hbWUpLAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllcgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICBmaWxlSW5mby5pc1BkZiAtPiB7CiAgICAgICAgICAgIFdvcmtzcGFjZVBkZlByZXZpZXcoCiAgICAgICAgICAgICAgICBzb3VyY2VGaWxlID0gcHJldmlld0ZpbGVTdGF0ZS5maWxlLAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllcgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICBmaWxlSW5mby5pc1dvcmREb2N1bWVudCB8fCBmaWxlSW5mby5pc1NwcmVhZHNoZWV0RG9jdW1lbnQgLT4gewogICAgICAgICAgICBXb3Jrc3BhY2VIdG1sRG9jdW1lbnRQcmV2aWV3KAogICAgICAgICAgICAgICAgZmlsZUluZm8gPSBmaWxlSW5mbywKICAgICAgICAgICAgICAgIHNvdXJjZUZpbGUgPSBwcmV2aWV3RmlsZVN0YXRlLmZpbGUsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICBQcmV2aWV3RXJyb3JCb3goCiAgICAgICAgICAgICAgICBtZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY2Fubm90X29wZW5fZmlsZSwgZmlsZUluZm8ubmFtZSksCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCkBDb21wb3NhYmxlCmludGVybmFsIGZ1biByZW1lbWJlcldvcmtzcGFjZVByZXZpZXdGaWxlU3RhdGUoCiAgICBmaWxlSW5mbzogT3BlbkZpbGVJbmZvLAogICAgd29ya3NwYWNlRW52OiBTdHJpbmc/LAogICAgdG9vbEhhbmRsZXI6IEFJVG9vbEhhbmRsZXIKKTogU3RhdGU8V29ya3NwYWNlUHJldmlld0ZpbGVTdGF0ZT4gewogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgcmV0dXJuIHByb2R1Y2VTdGF0ZSgKICAgICAgICBpbml0aWFsVmFsdWUgPSBXb3Jrc3BhY2VQcmV2aWV3RmlsZVN0YXRlKCksCiAgICAgICAga2V5MSA9IGZpbGVJbmZvLnBhdGgsCiAgICAgICAga2V5MiA9IGZpbGVJbmZvLmxhc3RNb2RpZmllZCwKICAgICAgICBrZXkzID0gd29ya3NwYWNlRW52CiAgICApIHsKICAgICAgICB2YWx1ZSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHJlc29sdmVQcmV2aWV3U291cmNlRmlsZShjb250ZXh0LCB0b29sSGFuZGxlciwgZmlsZUluZm8sIHdvcmtzcGFjZUVudikKICAgICAgICB9CiAgICB9Cn0KCmludGVybmFsIGZ1biB3b3Jrc3BhY2VQcmV2aWV3VXJpRnJvbUZpbGUoZmlsZTogRmlsZT8pOiBVcmk/ID0gZmlsZT8ubGV0IHsgVXJpLmZyb21GaWxlKGl0KSB9CgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBXb3Jrc3BhY2VIdG1sRG9jdW1lbnRQcmV2aWV3KAogICAgZmlsZUluZm86IE9wZW5GaWxlSW5mbywKICAgIHNvdXJjZUZpbGU6IEZpbGU/LAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgaHRtbFByZXZpZXdTdGF0ZSBieSBwcm9kdWNlU3RhdGUoCiAgICAgICAgaW5pdGlhbFZhbHVlID0gV29ya3NwYWNlSHRtbFByZXZpZXdTdGF0ZSgpLAogICAgICAgIGtleTEgPSBzb3VyY2VGaWxlPy5hYnNvbHV0ZVBhdGgsCiAgICAgICAga2V5MiA9IHNvdXJjZUZpbGU/Lmxhc3RNb2RpZmllZCgpLAogICAgICAgIGtleTMgPSBmaWxlSW5mby5yZXNvbHZlZE1pbWVUeXBlCiAgICApIHsKICAgICAgICB2YWx1ZSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIGJ1aWxkSHRtbFByZXZpZXdTdGF0ZShjb250ZXh0LCBzb3VyY2VGaWxlLCBmaWxlSW5mbykKICAgICAgICB9CiAgICB9CgogICAgd2hlbiB7CiAgICAgICAgaHRtbFByZXZpZXdTdGF0ZS5sb2FkaW5nIC0+IHsKICAgICAgICAgICAgUHJldmlld0xvYWRpbmdCb3gobW9kaWZpZXIgPSBtb2RpZmllcikKICAgICAgICB9CgogICAgICAgIGh0bWxQcmV2aWV3U3RhdGUuaHRtbCA9PSBudWxsIC0+IHsKICAgICAgICAgICAgUHJldmlld0Vycm9yQm94KAogICAgICAgICAgICAgICAgbWVzc2FnZSA9IGh0bWxQcmV2aWV3U3RhdGUuZXJyb3JNZXNzYWdlCiAgICAgICAgICAgICAgICAgICAgPzogY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY2Fubm90X29wZW5fZmlsZSwgZmlsZUluZm8ubmFtZSksCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICBSZWFkT25seUh0bWxXZWJWaWV3KAogICAgICAgICAgICAgICAgaHRtbCA9IGh0bWxQcmV2aWV3U3RhdGUuaHRtbCwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gV29ya3NwYWNlUGRmUHJldmlldygKICAgIHNvdXJjZUZpbGU6IEZpbGU/LAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgcGRmUHJldmlld1N0YXRlIGJ5IHByb2R1Y2VTdGF0ZSgKICAgICAgICBpbml0aWFsVmFsdWUgPSBXb3Jrc3BhY2VQZGZQcmV2aWV3U3RhdGUoKSwKICAgICAgICBrZXkxID0gc291cmNlRmlsZT8uYWJzb2x1dGVQYXRoLAogICAgICAgIGtleTIgPSBzb3VyY2VGaWxlPy5sYXN0TW9kaWZpZWQoKQogICAgKSB7CiAgICAgICAgdmFsdWUgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICByZXNvbHZlUGRmUHJldmlld1N0YXRlKHNvdXJjZUZpbGUpCiAgICAgICAgfQogICAgfQoKICAgIHdoZW4gewogICAgICAgIHBkZlByZXZpZXdTdGF0ZS5sb2FkaW5nIC0+IHsKICAgICAgICAgICAgUHJldmlld0xvYWRpbmdCb3gobW9kaWZpZXIgPSBtb2RpZmllcikKICAgICAgICB9CgogICAgICAgIHBkZlByZXZpZXdTdGF0ZS5wYWdlQ291bnQgPD0gMCAtPiB7CiAgICAgICAgICAgIFByZXZpZXdFcnJvckJveCgKICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBwZGZQcmV2aWV3U3RhdGUuZXJyb3JNZXNzYWdlCiAgICAgICAgICAgICAgICAgICAgPzogY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY2Fubm90X29wZW5fZmlsZSwgc291cmNlRmlsZT8ubmFtZSA/OiAiIiksCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICB2YWwgcGFnZUluZGV4ZXMgPSBMaXN0KHBkZlByZXZpZXdTdGF0ZS5wYWdlQ291bnQpIHsgaXQgfQogICAgICAgICAgICBMYXp5Q29sdW1uKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllci5iYWNrZ3JvdW5kKENvbG9yKDB4RkZFNUU3RUIpKSwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxMi5kcCksCiAgICAgICAgICAgICAgICBjb250ZW50UGFkZGluZyA9IFBhZGRpbmdWYWx1ZXMoMTYuZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgaXRlbXMocGFnZUluZGV4ZXMpIHsgcGFnZUluZGV4IC0+CiAgICAgICAgICAgICAgICAgICAgV29ya3NwYWNlUGRmUGFnZSgKICAgICAgICAgICAgICAgICAgICAgICAgc291cmNlRmlsZSA9IHNvdXJjZUZpbGUsCiAgICAgICAgICAgICAgICAgICAgICAgIHBhZ2VJbmRleCA9IHBhZ2VJbmRleAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gV29ya3NwYWNlUGRmUGFnZSgKICAgIHNvdXJjZUZpbGU6IEZpbGU/LAogICAgcGFnZUluZGV4OiBJbnQKKSB7CiAgICB2YWwgYml0bWFwIGJ5IHByb2R1Y2VTdGF0ZTxCaXRtYXA/PigKICAgICAgICBpbml0aWFsVmFsdWUgPSBudWxsLAogICAgICAgIGtleTEgPSBzb3VyY2VGaWxlPy5hYnNvbHV0ZVBhdGgsCiAgICAgICAga2V5MiA9IHNvdXJjZUZpbGU/Lmxhc3RNb2RpZmllZCgpLAogICAgICAgIGtleTMgPSBwYWdlSW5kZXgKICAgICkgewogICAgICAgIHZhbHVlID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgcmVuZGVyUGRmUGFnZShzb3VyY2VGaWxlLCBwYWdlSW5kZXgpCiAgICAgICAgfQogICAgfQoKICAgIFN1cmZhY2UoCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICBjb2xvciA9IENvbG9yLldoaXRlLAogICAgICAgIHNoYWRvd0VsZXZhdGlvbiA9IDIuZHAKICAgICkgewogICAgICAgIEJveCgKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgY29udGVudEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXIKICAgICAgICApIHsKICAgICAgICAgICAgaWYgKGJpdG1hcCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBJbWFnZSgKICAgICAgICAgICAgICAgICAgICBiaXRtYXAgPSBiaXRtYXAhIS5hc0ltYWdlQml0bWFwKCksCiAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRTY2FsZSA9IENvbnRlbnRTY2FsZS5GaWxsV2lkdGgKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIENpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IobW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKDI0LmRwKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gUmVhZE9ubHlIdG1sV2ViVmlldygKICAgIGh0bWw6IFN0cmluZz8sCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllcgopIHsKICAgIEFuZHJvaWRWaWV3KAogICAgICAgIGZhY3RvcnkgPSB7IGFuZHJvaWRDb250ZXh0IC0+CiAgICAgICAgICAgIFdlYlZpZXcoYW5kcm9pZENvbnRleHQpLmFwcGx5IHsKICAgICAgICAgICAgICAgIGluc3RhbGxEb2N1bWVudFByZXZpZXdUb3VjaEludGVyY2VwdG9yKCkKICAgICAgICAgICAgICAgIHNldHRpbmdzLmphdmFTY3JpcHRFbmFibGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgc2V0dGluZ3MuZG9tU3RvcmFnZUVuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgICAgICBzZXR0aW5ncy51c2VXaWRlVmlld1BvcnQgPSB0cnVlCiAgICAgICAgICAgICAgICBzZXR0aW5ncy5sb2FkV2l0aE92ZXJ2aWV3TW9kZSA9IHRydWUKICAgICAgICAgICAgICAgIHNldHRpbmdzLmJ1aWx0SW5ab29tQ29udHJvbHMgPSB0cnVlCiAgICAgICAgICAgICAgICBzZXR0aW5ncy5kaXNwbGF5Wm9vbUNvbnRyb2xzID0gZmFsc2UKICAgICAgICAgICAgICAgIHNldHRpbmdzLmFsbG93RmlsZUFjY2VzcyA9IHRydWUKICAgICAgICAgICAgICAgIHNldHRpbmdzLmFsbG93Q29udGVudEFjY2VzcyA9IHRydWUKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgdXBkYXRlID0geyB3ZWJWaWV3IC0+CiAgICAgICAgICAgIHdlYlZpZXcubG9hZERhdGFXaXRoQmFzZVVSTCgKICAgICAgICAgICAgICAgICJodHRwczovL3dvcmtzcGFjZS1wcmV2aWV3LmxvY2FsLyIsCiAgICAgICAgICAgICAgICBodG1sLm9yRW1wdHkoKSwKICAgICAgICAgICAgICAgICJ0ZXh0L2h0bWwiLAogICAgICAgICAgICAgICAgIlVURi04IiwKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgKQogICAgICAgIH0sCiAgICAgICAgb25SZWxlYXNlID0geyB3ZWJWaWV3IC0+CiAgICAgICAgICAgIHdlYlZpZXcuc3RvcExvYWRpbmcoKQogICAgICAgICAgICB3ZWJWaWV3LnJlbW92ZUFsbFZpZXdzKCkKICAgICAgICAgICAgd2ViVmlldy5kZXN0cm95KCkKICAgICAgICB9LAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIKICAgICkKfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gUHJldmlld0xvYWRpbmdCb3gobW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIpIHsKICAgIEJveCgKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyLmZpbGxNYXhTaXplKCksCiAgICAgICAgY29udGVudEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXIKICAgICkgewogICAgICAgIENpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IoKQogICAgfQp9CgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBQcmV2aWV3RXJyb3JCb3goCiAgICBtZXNzYWdlOiBTdHJpbmcsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllcgopIHsKICAgIEJveCgKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgIC5wYWRkaW5nKDI0LmRwKSwKICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcgogICAgKSB7CiAgICAgICAgVGV4dCgKICAgICAgICAgICAgdGV4dCA9IG1lc3NhZ2UsCiAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgIHRleHRBbGlnbiA9IFRleHRBbGlnbi5DZW50ZXIKICAgICAgICApCiAgICB9Cn0KCnByaXZhdGUgZnVuIHJlc29sdmVQcmV2aWV3U291cmNlRmlsZSgKICAgIGNvbnRleHQ6IGFuZHJvaWQuY29udGVudC5Db250ZXh0LAogICAgdG9vbEhhbmRsZXI6IEFJVG9vbEhhbmRsZXIsCiAgICBmaWxlSW5mbzogT3BlbkZpbGVJbmZvLAogICAgd29ya3NwYWNlRW52OiBTdHJpbmc/Cik6IFdvcmtzcGFjZVByZXZpZXdGaWxlU3RhdGUgewogICAgcmV0dXJuIHRyeSB7CiAgICAgICAgaWYgKHdvcmtzcGFjZUVudi5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgdmFsIGxvY2FsRmlsZSA9IEZpbGUoZmlsZUluZm8ucGF0aCkKICAgICAgICAgICAgcmV0dXJuIGlmIChsb2NhbEZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIFdvcmtzcGFjZVByZXZpZXdGaWxlU3RhdGUobG9hZGluZyA9IGZhbHNlLCBmaWxlID0gbG9jYWxGaWxlKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgV29ya3NwYWNlUHJldmlld0ZpbGVTdGF0ZSgKICAgICAgICAgICAgICAgICAgICBsb2FkaW5nID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY2Fubm90X29wZW5fZmlsZSwgZmlsZUluZm8ubmFtZSkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmFsIHJlc3VsdCA9IHRvb2xIYW5kbGVyLmV4ZWN1dGVUb29sKAogICAgICAgICAgICBBSVRvb2woCiAgICAgICAgICAgICAgICAicmVhZF9maWxlX2JpbmFyeSIsCiAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigicGF0aCIsIGZpbGVJbmZvLnBhdGgpLAogICAgICAgICAgICAgICAgICAgIFRvb2xQYXJhbWV0ZXIoImVudmlyb25tZW50Iiwgd29ya3NwYWNlRW52KQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgKQoKICAgICAgICBpZiAoIXJlc3VsdC5zdWNjZXNzIHx8IHJlc3VsdC5yZXN1bHQgIWlzIEJpbmFyeUZpbGVDb250ZW50RGF0YSkgewogICAgICAgICAgICByZXR1cm4gV29ya3NwYWNlUHJldmlld0ZpbGVTdGF0ZSgKICAgICAgICAgICAgICAgIGxvYWRpbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IHJlc3VsdC5lcnJvciA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jYW5ub3Rfb3Blbl9maWxlLCBmaWxlSW5mby5uYW1lKQogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgYmluYXJ5RGF0YSA9IHJlc3VsdC5yZXN1bHQgYXMgQmluYXJ5RmlsZUNvbnRlbnREYXRhCiAgICAgICAgdmFsIGJ5dGVzID0gQmFzZTY0LmRlY29kZShiaW5hcnlEYXRhLmNvbnRlbnRCYXNlNjQsIEJhc2U2NC5ERUZBVUxUKQogICAgICAgIHZhbCBwcmV2aWV3RGlyID0gRmlsZShjb250ZXh0LmNhY2hlRGlyLCAid29ya3NwYWNlX2RvY3VtZW50X3ByZXZpZXciKS5hcHBseSB7IG1rZGlycygpIH0KICAgICAgICB2YWwgZXh0ZW5zaW9uID0gZmlsZUluZm8ubmFtZS5zdWJzdHJpbmdBZnRlckxhc3QoJy4nLCAiYmluIikuaWZCbGFuayB7ICJiaW4iIH0KICAgICAgICB2YWwgcHJldmlld0ZpbGUgPSBGaWxlKAogICAgICAgICAgICBwcmV2aWV3RGlyLAogICAgICAgICAgICAiJHtmaWxlSW5mby5wYXRoLmhhc2hDb2RlKCl9XyR7ZmlsZUluZm8ubGFzdE1vZGlmaWVkfS4kZXh0ZW5zaW9uIgogICAgICAgICkKICAgICAgICBGaWxlT3V0cHV0U3RyZWFtKHByZXZpZXdGaWxlKS51c2UgeyBvdXRwdXQgLT4KICAgICAgICAgICAgb3V0cHV0LndyaXRlKGJ5dGVzKQogICAgICAgIH0KICAgICAgICBXb3Jrc3BhY2VQcmV2aWV3RmlsZVN0YXRlKGxvYWRpbmcgPSBmYWxzZSwgZmlsZSA9IHByZXZpZXdGaWxlKQogICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgQXBwTG9nZ2VyLmUoRE9DVU1FTlRfUFJFVklFV19UQUcsICJGYWlsZWQgdG8gcmVzb2x2ZSBwcmV2aWV3IHNvdXJjZSBmaWxlIiwgZSkKICAgICAgICBXb3Jrc3BhY2VQcmV2aWV3RmlsZVN0YXRlKAogICAgICAgICAgICBsb2FkaW5nID0gZmFsc2UsCiAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmNhbm5vdF9vcGVuX2ZpbGUsIGZpbGVJbmZvLm5hbWUpCiAgICAgICAgKQogICAgfQp9Cgpwcml2YXRlIGZ1biBidWlsZEh0bWxQcmV2aWV3U3RhdGUoCiAgICBjb250ZXh0OiBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dCwKICAgIHNvdXJjZUZpbGU6IEZpbGU/LAogICAgZmlsZUluZm86IE9wZW5GaWxlSW5mbwopOiBXb3Jrc3BhY2VIdG1sUHJldmlld1N0YXRlIHsKICAgIGlmIChzb3VyY2VGaWxlID09IG51bGwgfHwgIXNvdXJjZUZpbGUuZXhpc3RzKCkpIHsKICAgICAgICByZXR1cm4gV29ya3NwYWNlSHRtbFByZXZpZXdTdGF0ZSgKICAgICAgICAgICAgbG9hZGluZyA9IGZhbHNlLAogICAgICAgICAgICBlcnJvck1lc3NhZ2UgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jYW5ub3Rfb3Blbl9maWxlLCBmaWxlSW5mby5uYW1lKQogICAgICAgICkKICAgIH0KCiAgICByZXR1cm4gdHJ5IHsKICAgICAgICB2YWwgaHRtbERpciA9IEZpbGUoY29udGV4dC5jYWNoZURpciwgIndvcmtzcGFjZV9kb2N1bWVudF9odG1sIikuYXBwbHkgeyBta2RpcnMoKSB9CiAgICAgICAgdmFsIGh0bWxGaWxlID0gRmlsZSgKICAgICAgICAgICAgaHRtbERpciwKICAgICAgICAgICAgIiR7c291cmNlRmlsZS5hYnNvbHV0ZVBhdGguaGFzaENvZGUoKX1fJHtzb3VyY2VGaWxlLmxhc3RNb2RpZmllZCgpfS5odG1sIgogICAgICAgICkKCiAgICAgICAgdmFsIGV4dGVuc2lvbiA9IHNvdXJjZUZpbGUuZXh0ZW5zaW9uLmxvd2VyY2FzZShMb2NhbGUuUk9PVCkKICAgICAgICB2YWwgc3VjY2VzcyA9IHdoZW4gewogICAgICAgICAgICBmaWxlSW5mby5pc1dvcmREb2N1bWVudCAtPiB7CiAgICAgICAgICAgICAgICBEb2N1bWVudENvbnZlcnNpb25VdGlsLmNvbnZlcnRUb0h0bWwoY29udGV4dCwgc291cmNlRmlsZSwgaHRtbEZpbGUsIGV4dGVuc2lvbikKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZmlsZUluZm8uaXNTcHJlYWRzaGVldERvY3VtZW50IC0+IHsKICAgICAgICAgICAgICAgIERvY3VtZW50Q29udmVyc2lvblV0aWwuY29udmVydFNwcmVhZHNoZWV0VG9IdG1sKHNvdXJjZUZpbGUsIGh0bWxGaWxlKQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbHNlIC0+IGZhbHNlCiAgICAgICAgfQoKICAgICAgICBpZiAoIXN1Y2Nlc3MgfHwgIWh0bWxGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHJldHVybiBXb3Jrc3BhY2VIdG1sUHJldmlld1N0YXRlKAogICAgICAgICAgICAgICAgbG9hZGluZyA9IGZhbHNlLAogICAgICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY2Fubm90X29wZW5fZmlsZSwgZmlsZUluZm8ubmFtZSkKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgV29ya3NwYWNlSHRtbFByZXZpZXdTdGF0ZSgKICAgICAgICAgICAgbG9hZGluZyA9IGZhbHNlLAogICAgICAgICAgICBodG1sID0gaHRtbEZpbGUucmVhZFRleHQoKQogICAgICAgICkKICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgIEFwcExvZ2dlci5lKERPQ1VNRU5UX1BSRVZJRVdfVEFHLCAiRmFpbGVkIHRvIGJ1aWxkIEhUTUwgZG9jdW1lbnQgcHJldmlldyIsIGUpCiAgICAgICAgV29ya3NwYWNlSHRtbFByZXZpZXdTdGF0ZSgKICAgICAgICAgICAgbG9hZGluZyA9IGZhbHNlLAogICAgICAgICAgICBlcnJvck1lc3NhZ2UgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jYW5ub3Rfb3Blbl9maWxlLCBmaWxlSW5mby5uYW1lKQogICAgICAgICkKICAgIH0KfQoKcHJpdmF0ZSBmdW4gcmVzb2x2ZVBkZlByZXZpZXdTdGF0ZShzb3VyY2VGaWxlOiBGaWxlPyk6IFdvcmtzcGFjZVBkZlByZXZpZXdTdGF0ZSB7CiAgICBpZiAoc291cmNlRmlsZSA9PSBudWxsIHx8ICFzb3VyY2VGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgcmV0dXJuIFdvcmtzcGFjZVBkZlByZXZpZXdTdGF0ZSgKICAgICAgICAgICAgbG9hZGluZyA9IGZhbHNlLAogICAgICAgICAgICBlcnJvck1lc3NhZ2UgPSAiUERGIGZpbGUgdW5hdmFpbGFibGUiCiAgICAgICAgKQogICAgfQoKICAgIHJldHVybiB0cnkgewogICAgICAgIFBhcmNlbEZpbGVEZXNjcmlwdG9yLm9wZW4oc291cmNlRmlsZSwgUGFyY2VsRmlsZURlc2NyaXB0b3IuTU9ERV9SRUFEX09OTFkpLnVzZSB7IGRlc2NyaXB0b3IgLT4KICAgICAgICAgICAgUGRmUmVuZGVyZXIoZGVzY3JpcHRvcikudXNlIHsgcmVuZGVyZXIgLT4KICAgICAgICAgICAgICAgIFdvcmtzcGFjZVBkZlByZXZpZXdTdGF0ZSgKICAgICAgICAgICAgICAgICAgICBsb2FkaW5nID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgcGFnZUNvdW50ID0gcmVuZGVyZXIucGFnZUNvdW50LAogICAgICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IGlmIChyZW5kZXJlci5wYWdlQ291bnQgPD0gMCkgIkVtcHR5IFBERiBkb2N1bWVudCIgZWxzZSBudWxsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICBBcHBMb2dnZXIuZShET0NVTUVOVF9QUkVWSUVXX1RBRywgIkZhaWxlZCB0byBpbnNwZWN0IFBERiBwcmV2aWV3IiwgZSkKICAgICAgICBXb3Jrc3BhY2VQZGZQcmV2aWV3U3RhdGUoCiAgICAgICAgICAgIGxvYWRpbmcgPSBmYWxzZSwKICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gIlVuYWJsZSB0byByZW5kZXIgUERGIgogICAgICAgICkKICAgIH0KfQoKcHJpdmF0ZSBmdW4gcmVuZGVyUGRmUGFnZShzb3VyY2VGaWxlOiBGaWxlPywgcGFnZUluZGV4OiBJbnQpOiBCaXRtYXA/IHsKICAgIGlmIChzb3VyY2VGaWxlID09IG51bGwgfHwgIXNvdXJjZUZpbGUuZXhpc3RzKCkpIHJldHVybiBudWxsCgogICAgcmV0dXJuIHRyeSB7CiAgICAgICAgUGFyY2VsRmlsZURlc2NyaXB0b3Iub3Blbihzb3VyY2VGaWxlLCBQYXJjZWxGaWxlRGVzY3JpcHRvci5NT0RFX1JFQURfT05MWSkudXNlIHsgZGVzY3JpcHRvciAtPgogICAgICAgICAgICBQZGZSZW5kZXJlcihkZXNjcmlwdG9yKS51c2UgeyByZW5kZXJlciAtPgogICAgICAgICAgICAgICAgaWYgKHBhZ2VJbmRleCAhaW4gMCB1bnRpbCByZW5kZXJlci5wYWdlQ291bnQpIHJldHVybiBudWxsCgogICAgICAgICAgICAgICAgcmVuZGVyZXIub3BlblBhZ2UocGFnZUluZGV4KS51c2UgeyBwYWdlIC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIHNjYWxlID0gMgogICAgICAgICAgICAgICAgICAgIHZhbCBiaXRtYXAgPQogICAgICAgICAgICAgICAgICAgICAgICBCaXRtYXAuY3JlYXRlQml0bWFwKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFnZS53aWR0aCAqIHNjYWxlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFnZS5oZWlnaHQgKiBzY2FsZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEJpdG1hcC5Db25maWcuQVJHQl84ODg4CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBiaXRtYXAuZXJhc2VDb2xvcihhbmRyb2lkLmdyYXBoaWNzLkNvbG9yLldISVRFKQogICAgICAgICAgICAgICAgICAgIHBhZ2UucmVuZGVyKGJpdG1hcCwgbnVsbCwgbnVsbCwgUGRmUmVuZGVyZXIuUGFnZS5SRU5ERVJfTU9ERV9GT1JfRElTUExBWSkKICAgICAgICAgICAgICAgICAgICBiaXRtYXAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgIEFwcExvZ2dlci5lKERPQ1VNRU5UX1BSRVZJRVdfVEFHLCAiRmFpbGVkIHRvIHJlbmRlciBQREYgcGFnZSAkcGFnZUluZGV4IiwgZSkKICAgICAgICBudWxsCiAgICB9Cn0KCnByaXZhdGUgZnVuIFdlYlZpZXcuaW5zdGFsbERvY3VtZW50UHJldmlld1RvdWNoSW50ZXJjZXB0b3IoKSB7CiAgICBzZXRPblRvdWNoTGlzdGVuZXIgeyB2aWV3LCBldmVudCAtPgogICAgICAgIHdoZW4gKGV2ZW50LmFjdGlvbk1hc2tlZCkgewogICAgICAgICAgICBNb3Rpb25FdmVudC5BQ1RJT05fRE9XTiAtPiB2aWV3LnBhcmVudD8ucmVxdWVzdERpc2FsbG93SW50ZXJjZXB0VG91Y2hFdmVudCh0cnVlKQogICAgICAgICAgICBNb3Rpb25FdmVudC5BQ1RJT05fVVAsIE1vdGlvbkV2ZW50LkFDVElPTl9DQU5DRUwgLT4gewogICAgICAgICAgICAgICAgdmlldy5wYXJlbnQ/LnJlcXVlc3REaXNhbGxvd0ludGVyY2VwdFRvdWNoRXZlbnQoZmFsc2UpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgZmFsc2UKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace
+
+import android.graphics.Bitmap
+import android.graphics.pdf.PdfRenderer
+import android.net.Uri
+import android.os.ParcelFileDescriptor
+import android.util.Base64
+import android.view.MotionEvent
+import android.webkit.WebView
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.State
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.BinaryFileContentData
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolParameter
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.DocumentConversionUtil
+import java.io.File
+import java.io.FileOutputStream
+import java.util.Locale
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+private const val DOCUMENT_PREVIEW_TAG = "WorkspaceDocPreview"
+
+internal data class WorkspacePreviewFileState(
+    val loading: Boolean = true,
+    val file: File? = null,
+    val errorMessage: String? = null
+)
+
+private data class WorkspaceHtmlPreviewState(
+    val loading: Boolean = true,
+    val html: String? = null,
+    val errorMessage: String? = null
+)
+
+private data class WorkspacePdfPreviewState(
+    val loading: Boolean = true,
+    val pageCount: Int = 0,
+    val errorMessage: String? = null
+)
+
+@Composable
+internal fun WorkspaceReadOnlyDocumentPreview(
+    fileInfo: OpenFileInfo,
+    workspaceEnv: String?,
+    toolHandler: AIToolHandler,
+    modifier: Modifier = Modifier
+) {
+    val context = LocalContext.current
+    val previewFileState by rememberWorkspacePreviewFileState(
+        fileInfo = fileInfo,
+        workspaceEnv = workspaceEnv,
+        toolHandler = toolHandler
+    )
+
+    when {
+        previewFileState.loading -> {
+            PreviewLoadingBox(modifier = modifier)
+        }
+
+        previewFileState.file == null -> {
+            PreviewErrorBox(
+                message = previewFileState.errorMessage
+                    ?: context.getString(R.string.cannot_open_file, fileInfo.name),
+                modifier = modifier
+            )
+        }
+
+        fileInfo.isPdf -> {
+            WorkspacePdfPreview(
+                sourceFile = previewFileState.file,
+                modifier = modifier
+            )
+        }
+
+        fileInfo.isWordDocument || fileInfo.isSpreadsheetDocument -> {
+            WorkspaceHtmlDocumentPreview(
+                fileInfo = fileInfo,
+                sourceFile = previewFileState.file,
+                modifier = modifier
+            )
+        }
+
+        else -> {
+            PreviewErrorBox(
+                message = context.getString(R.string.cannot_open_file, fileInfo.name),
+                modifier = modifier
+            )
+        }
+    }
+}
+
+@Composable
+internal fun rememberWorkspacePreviewFileState(
+    fileInfo: OpenFileInfo,
+    workspaceEnv: String?,
+    toolHandler: AIToolHandler
+): State<WorkspacePreviewFileState> {
+    val context = LocalContext.current
+    return produceState(
+        initialValue = WorkspacePreviewFileState(),
+        key1 = fileInfo.path,
+        key2 = fileInfo.lastModified,
+        key3 = workspaceEnv
+    ) {
+        value = withContext(Dispatchers.IO) {
+            resolvePreviewSourceFile(context, toolHandler, fileInfo, workspaceEnv)
+        }
+    }
+}
+
+internal fun workspacePreviewUriFromFile(file: File?): Uri? = file?.let { Uri.fromFile(it) }
+
+@Composable
+private fun WorkspaceHtmlDocumentPreview(
+    fileInfo: OpenFileInfo,
+    sourceFile: File?,
+    modifier: Modifier = Modifier
+) {
+    val context = LocalContext.current
+    val htmlPreviewState by produceState(
+        initialValue = WorkspaceHtmlPreviewState(),
+        key1 = sourceFile?.absolutePath,
+        key2 = sourceFile?.lastModified(),
+        key3 = fileInfo.resolvedMimeType
+    ) {
+        value = withContext(Dispatchers.IO) {
+            buildHtmlPreviewState(context, sourceFile, fileInfo)
+        }
+    }
+
+    when {
+        htmlPreviewState.loading -> {
+            PreviewLoadingBox(modifier = modifier)
+        }
+
+        htmlPreviewState.html == null -> {
+            PreviewErrorBox(
+                message = htmlPreviewState.errorMessage
+                    ?: context.getString(R.string.cannot_open_file, fileInfo.name),
+                modifier = modifier
+            )
+        }
+
+        else -> {
+            ReadOnlyHtmlWebView(
+                html = htmlPreviewState.html,
+                modifier = modifier
+            )
+        }
+    }
+}
+
+@Composable
+private fun WorkspacePdfPreview(
+    sourceFile: File?,
+    modifier: Modifier = Modifier
+) {
+    val context = LocalContext.current
+    val pdfPreviewState by produceState(
+        initialValue = WorkspacePdfPreviewState(),
+        key1 = sourceFile?.absolutePath,
+        key2 = sourceFile?.lastModified()
+    ) {
+        value = withContext(Dispatchers.IO) {
+            resolvePdfPreviewState(sourceFile)
+        }
+    }
+
+    when {
+        pdfPreviewState.loading -> {
+            PreviewLoadingBox(modifier = modifier)
+        }
+
+        pdfPreviewState.pageCount <= 0 -> {
+            PreviewErrorBox(
+                message = pdfPreviewState.errorMessage
+                    ?: context.getString(R.string.cannot_open_file, sourceFile?.name ?: ""),
+                modifier = modifier
+            )
+        }
+
+        else -> {
+            val pageIndexes = List(pdfPreviewState.pageCount) { it }
+            LazyColumn(
+                modifier = modifier.background(Color(0xFFE5E7EB)),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+                contentPadding = PaddingValues(16.dp)
+            ) {
+                items(pageIndexes) { pageIndex ->
+                    WorkspacePdfPage(
+                        sourceFile = sourceFile,
+                        pageIndex = pageIndex
+                    )
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun WorkspacePdfPage(
+    sourceFile: File?,
+    pageIndex: Int
+) {
+    val bitmap by produceState<Bitmap?>(
+        initialValue = null,
+        key1 = sourceFile?.absolutePath,
+        key2 = sourceFile?.lastModified(),
+        key3 = pageIndex
+    ) {
+        value = withContext(Dispatchers.IO) {
+            renderPdfPage(sourceFile, pageIndex)
+        }
+    }
+
+    Surface(
+        modifier = Modifier.fillMaxWidth(),
+        color = Color.White,
+        shadowElevation = 2.dp
+    ) {
+        Box(
+            modifier = Modifier.fillMaxWidth(),
+            contentAlignment = Alignment.Center
+        ) {
+            if (bitmap != null) {
+                Image(
+                    bitmap = bitmap!!.asImageBitmap(),
+                    contentDescription = null,
+                    modifier = Modifier.fillMaxWidth(),
+                    contentScale = ContentScale.FillWidth
+                )
+            } else {
+                CircularProgressIndicator(modifier = Modifier.padding(24.dp))
+            }
+        }
+    }
+}
+
+@Composable
+private fun ReadOnlyHtmlWebView(
+    html: String?,
+    modifier: Modifier = Modifier
+) {
+    AndroidView(
+        factory = { androidContext ->
+            WebView(androidContext).apply {
+                installDocumentPreviewTouchInterceptor()
+                settings.javaScriptEnabled = true
+                settings.domStorageEnabled = true
+                settings.useWideViewPort = true
+                settings.loadWithOverviewMode = true
+                settings.builtInZoomControls = true
+                settings.displayZoomControls = false
+                settings.allowFileAccess = true
+                settings.allowContentAccess = true
+            }
+        },
+        update = { webView ->
+            webView.loadDataWithBaseURL(
+                "https://workspace-preview.local/",
+                html.orEmpty(),
+                "text/html",
+                "UTF-8",
+                null
+            )
+        },
+        onRelease = { webView ->
+            webView.stopLoading()
+            webView.removeAllViews()
+            webView.destroy()
+        },
+        modifier = modifier
+    )
+}
+
+@Composable
+private fun PreviewLoadingBox(modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
+        CircularProgressIndicator()
+    }
+}
+
+@Composable
+private fun PreviewErrorBox(
+    message: String,
+    modifier: Modifier = Modifier
+) {
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .padding(24.dp),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = message,
+            style = MaterialTheme.typography.bodyMedium,
+            textAlign = TextAlign.Center
+        )
+    }
+}
+
+private fun resolvePreviewSourceFile(
+    context: android.content.Context,
+    toolHandler: AIToolHandler,
+    fileInfo: OpenFileInfo,
+    workspaceEnv: String?
+): WorkspacePreviewFileState {
+    return try {
+        if (workspaceEnv.isNullOrBlank()) {
+            val localFile = File(fileInfo.path)
+            return if (localFile.exists()) {
+                WorkspacePreviewFileState(loading = false, file = localFile)
+            } else {
+                WorkspacePreviewFileState(
+                    loading = false,
+                    errorMessage = context.getString(R.string.cannot_open_file, fileInfo.name)
+                )
+            }
+        }
+
+        val result = toolHandler.executeTool(
+            AITool(
+                "read_file_binary",
+                listOf(
+                    ToolParameter("path", fileInfo.path),
+                    ToolParameter("environment", workspaceEnv)
+                )
+            )
+        )
+
+        if (!result.success || result.result !is BinaryFileContentData) {
+            return WorkspacePreviewFileState(
+                loading = false,
+                errorMessage = result.error ?: context.getString(R.string.cannot_open_file, fileInfo.name)
+            )
+        }
+
+        val binaryData = result.result as BinaryFileContentData
+        val bytes = Base64.decode(binaryData.contentBase64, Base64.DEFAULT)
+        val previewDir = File(context.cacheDir, "workspace_document_preview").apply { mkdirs() }
+        val extension = fileInfo.name.substringAfterLast('.', "bin").ifBlank { "bin" }
+        val previewFile = File(
+            previewDir,
+            "${fileInfo.path.hashCode()}_${fileInfo.lastModified}.$extension"
+        )
+        FileOutputStream(previewFile).use { output ->
+            output.write(bytes)
+        }
+        WorkspacePreviewFileState(loading = false, file = previewFile)
+    } catch (e: Exception) {
+        AppLogger.e(DOCUMENT_PREVIEW_TAG, "Failed to resolve preview source file", e)
+        WorkspacePreviewFileState(
+            loading = false,
+            errorMessage = context.getString(R.string.cannot_open_file, fileInfo.name)
+        )
+    }
+}
+
+private fun buildHtmlPreviewState(
+    context: android.content.Context,
+    sourceFile: File?,
+    fileInfo: OpenFileInfo
+): WorkspaceHtmlPreviewState {
+    if (sourceFile == null || !sourceFile.exists()) {
+        return WorkspaceHtmlPreviewState(
+            loading = false,
+            errorMessage = context.getString(R.string.cannot_open_file, fileInfo.name)
+        )
+    }
+
+    return try {
+        val htmlDir = File(context.cacheDir, "workspace_document_html").apply { mkdirs() }
+        val htmlFile = File(
+            htmlDir,
+            "${sourceFile.absolutePath.hashCode()}_${sourceFile.lastModified()}.html"
+        )
+
+        val extension = sourceFile.extension.lowercase(Locale.ROOT)
+        val success = when {
+            fileInfo.isWordDocument -> {
+                DocumentConversionUtil.convertToHtml(context, sourceFile, htmlFile, extension)
+            }
+
+            fileInfo.isSpreadsheetDocument -> {
+                DocumentConversionUtil.convertSpreadsheetToHtml(sourceFile, htmlFile)
+            }
+
+            else -> false
+        }
+
+        if (!success || !htmlFile.exists()) {
+            return WorkspaceHtmlPreviewState(
+                loading = false,
+                errorMessage = context.getString(R.string.cannot_open_file, fileInfo.name)
+            )
+        }
+
+        WorkspaceHtmlPreviewState(
+            loading = false,
+            html = htmlFile.readText()
+        )
+    } catch (e: Exception) {
+        AppLogger.e(DOCUMENT_PREVIEW_TAG, "Failed to build HTML document preview", e)
+        WorkspaceHtmlPreviewState(
+            loading = false,
+            errorMessage = context.getString(R.string.cannot_open_file, fileInfo.name)
+        )
+    }
+}
+
+private fun resolvePdfPreviewState(sourceFile: File?): WorkspacePdfPreviewState {
+    if (sourceFile == null || !sourceFile.exists()) {
+        return WorkspacePdfPreviewState(
+            loading = false,
+            errorMessage = "PDF file unavailable"
+        )
+    }
+
+    return try {
+        ParcelFileDescriptor.open(sourceFile, ParcelFileDescriptor.MODE_READ_ONLY).use { descriptor ->
+            PdfRenderer(descriptor).use { renderer ->
+                WorkspacePdfPreviewState(
+                    loading = false,
+                    pageCount = renderer.pageCount,
+                    errorMessage = if (renderer.pageCount <= 0) "Empty PDF document" else null
+                )
+            }
+        }
+    } catch (e: Exception) {
+        AppLogger.e(DOCUMENT_PREVIEW_TAG, "Failed to inspect PDF preview", e)
+        WorkspacePdfPreviewState(
+            loading = false,
+            errorMessage = "Unable to render PDF"
+        )
+    }
+}
+
+private fun renderPdfPage(sourceFile: File?, pageIndex: Int): Bitmap? {
+    if (sourceFile == null || !sourceFile.exists()) return null
+
+    return try {
+        ParcelFileDescriptor.open(sourceFile, ParcelFileDescriptor.MODE_READ_ONLY).use { descriptor ->
+            PdfRenderer(descriptor).use { renderer ->
+                if (pageIndex !in 0 until renderer.pageCount) return null
+
+                renderer.openPage(pageIndex).use { page ->
+                    val scale = 2
+                    val bitmap =
+                        Bitmap.createBitmap(
+                            page.width * scale,
+                            page.height * scale,
+                            Bitmap.Config.ARGB_8888
+                        )
+                    bitmap.eraseColor(android.graphics.Color.WHITE)
+                    page.render(bitmap, null, null, PdfRenderer.Page.RENDER_MODE_FOR_DISPLAY)
+                    bitmap
+                }
+            }
+        }
+    } catch (e: Exception) {
+        AppLogger.e(DOCUMENT_PREVIEW_TAG, "Failed to render PDF page $pageIndex", e)
+        null
+    }
+}
+
+private fun WebView.installDocumentPreviewTouchInterceptor() {
+    setOnTouchListener { view, event ->
+        when (event.actionMasked) {
+            MotionEvent.ACTION_DOWN -> view.parent?.requestDisallowInterceptTouchEvent(true)
+            MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                view.parent?.requestDisallowInterceptTouchEvent(false)
+            }
+        }
+        false
+    }
+}

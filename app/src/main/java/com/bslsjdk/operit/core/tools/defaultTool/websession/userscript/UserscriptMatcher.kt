@@ -1,1 +1,160 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQKCmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKCmludGVybmFsIG9iamVjdCBVc2Vyc2NyaXB0TWF0Y2hlciB7CiAgICBmdW4gbWF0Y2hlcygKICAgICAgICBtZXRhZGF0YTogUGFyc2VkVXNlcnNjcmlwdE1ldGFkYXRhLAogICAgICAgIHBhZ2VVcmw6IFN0cmluZywKICAgICAgICBpc1RvcEZyYW1lOiBCb29sZWFuCiAgICApOiBCb29sZWFuIHsKICAgICAgICBpZiAobWV0YWRhdGEubm9GcmFtZXMgJiYgIWlzVG9wRnJhbWUpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIGlmIChwYWdlVXJsLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgaWYgKG1ldGFkYXRhLmV4Y2x1ZGVNYXRjaGVzLmFueSB7IG1hdGNoUGF0dGVybihpdCwgcGFnZVVybCkgfSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgaWYgKG1ldGFkYXRhLmV4Y2x1ZGVzLmFueSB7IGdsb2JQYXR0ZXJuKGl0LCBwYWdlVXJsKSB9KSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgdmFsIGhhc1Bvc2l0aXZlUnVsZXMgPSBtZXRhZGF0YS5tYXRjaGVzLmlzTm90RW1wdHkoKSB8fCBtZXRhZGF0YS5pbmNsdWRlcy5pc05vdEVtcHR5KCkKICAgICAgICBpZiAoIWhhc1Bvc2l0aXZlUnVsZXMpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIGlmIChtZXRhZGF0YS5tYXRjaGVzLmFueSB7IG1hdGNoUGF0dGVybihpdCwgcGFnZVVybCkgfSkgewogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICBpZiAobWV0YWRhdGEuaW5jbHVkZXMuYW55IHsgZ2xvYlBhdHRlcm4oaXQsIHBhZ2VVcmwpIH0pIHsKICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZhbHNlCiAgICB9CgogICAgZnVuIGlzQ29ubmVjdEFsbG93ZWQoCiAgICAgICAgbWV0YWRhdGE6IFBhcnNlZFVzZXJzY3JpcHRNZXRhZGF0YSwKICAgICAgICBwYWdlVXJsOiBTdHJpbmcsCiAgICAgICAgdGFyZ2V0VXJsOiBTdHJpbmcKICAgICk6IEJvb2xlYW4gewogICAgICAgIHZhbCBwYWdlVXJpID0gVXJpLnBhcnNlKHBhZ2VVcmwpCiAgICAgICAgdmFsIHRhcmdldFVyaSA9IFVyaS5wYXJzZSh0YXJnZXRVcmwpCiAgICAgICAgdmFsIHBhZ2VPcmlnaW4gPSBvcmlnaW5PZihwYWdlVXJpKQogICAgICAgIHZhbCB0YXJnZXRPcmlnaW4gPSBvcmlnaW5PZih0YXJnZXRVcmkpCiAgICAgICAgaWYgKHBhZ2VPcmlnaW4gIT0gbnVsbCAmJiB0YXJnZXRPcmlnaW4gIT0gbnVsbCAmJiBwYWdlT3JpZ2luID09IHRhcmdldE9yaWdpbikgewogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICBpZiAobWV0YWRhdGEuY29ubmVjdHMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICB2YWwgdGFyZ2V0SG9zdCA9IHRhcmdldFVyaS5ob3N0Py5sb3dlcmNhc2UoTG9jYWxlLlJPT1QpLm9yRW1wdHkoKQogICAgICAgIHJldHVybiBtZXRhZGF0YS5jb25uZWN0cy5hbnkgeyBydWxlIC0+CiAgICAgICAgICAgIHdoZW4gKHZhbCBub3JtYWxpemVkID0gcnVsZS50cmltKCkubG93ZXJjYXNlKExvY2FsZS5ST09UKSkgewogICAgICAgICAgICAgICAgIioiIC0+IHRydWUKICAgICAgICAgICAgICAgICJzZWxmIiAtPiBwYWdlT3JpZ2luICE9IG51bGwgJiYgcGFnZU9yaWdpbiA9PSB0YXJnZXRPcmlnaW4KICAgICAgICAgICAgICAgIHRhcmdldEhvc3QgLT4gdHJ1ZQogICAgICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKG5vcm1hbGl6ZWQuc3RhcnRzV2l0aCgiKi4iKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgc3VmZml4ID0gbm9ybWFsaXplZC5yZW1vdmVQcmVmaXgoIiouIikKICAgICAgICAgICAgICAgICAgICAgICAgdGFyZ2V0SG9zdCA9PSBzdWZmaXggfHwgdGFyZ2V0SG9zdC5lbmRzV2l0aCgiLiRzdWZmaXgiKQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGZhbHNlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIG1hdGNoUGF0dGVybihwYXR0ZXJuOiBTdHJpbmcsIHVybDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIHRyaW1tZWQgPSBwYXR0ZXJuLnRyaW0oKQogICAgICAgIGlmICh0cmltbWVkLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgdmFsIHVyaSA9IFVyaS5wYXJzZSh1cmwpCiAgICAgICAgICAgIHZhbCBzY2hlbWUgPSB1cmkuc2NoZW1lPy5sb3dlcmNhc2UoTG9jYWxlLlJPT1QpLm9yRW1wdHkoKQogICAgICAgICAgICB2YWwgaG9zdCA9IHVyaS5ob3N0Py5sb3dlcmNhc2UoTG9jYWxlLlJPT1QpLm9yRW1wdHkoKQogICAgICAgICAgICB2YWwgZnVsbFBhdGggPQogICAgICAgICAgICAgICAgYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgICAgIGFwcGVuZCh1cmkuZW5jb2RlZFBhdGggPzogIi8iKQogICAgICAgICAgICAgICAgICAgIHVyaS5lbmNvZGVkUXVlcnk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9Py5sZXQgewogICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmQoJz8nKQogICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmQoaXQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHVyaS5lbmNvZGVkRnJhZ21lbnQ/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9Py5sZXQgewogICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmQoJyMnKQogICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmQoaXQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHNjaGVtZVBhcnQgPSB0cmltbWVkLnN1YnN0cmluZ0JlZm9yZSgiOi8vIikKICAgICAgICAgICAgdmFsIGFmdGVyU2NoZW1lID0gdHJpbW1lZC5zdWJzdHJpbmdBZnRlcigiOi8vIiwgIiIpCiAgICAgICAgICAgIHZhbCBob3N0UGFydCA9IGFmdGVyU2NoZW1lLnN1YnN0cmluZ0JlZm9yZSgiLyIpCiAgICAgICAgICAgIHZhbCBwYXRoUGFydCA9IGFmdGVyU2NoZW1lLnN1YnN0cmluZ0FmdGVyKCIvIiwgIiIpCgogICAgICAgICAgICB2YWwgc2NoZW1lTWF0Y2hlcyA9CiAgICAgICAgICAgICAgICB3aGVuIChzY2hlbWVQYXJ0KSB7CiAgICAgICAgICAgICAgICAgICAgIioiIC0+IHNjaGVtZSA9PSAiaHR0cCIgfHwgc2NoZW1lID09ICJodHRwcyIKICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHNjaGVtZVBhcnQuZXF1YWxzKHNjaGVtZSwgaWdub3JlQ2FzZSA9IHRydWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICghc2NoZW1lTWF0Y2hlcykgewogICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBub3JtYWxpemVkSG9zdCA9IGhvc3RQYXJ0Lmxvd2VyY2FzZShMb2NhbGUuUk9PVCkKICAgICAgICAgICAgdmFsIGhvc3RNYXRjaGVzID0KICAgICAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWRIb3N0ID09ICIqIiAtPiBob3N0LmlzTm90QmxhbmsoKQogICAgICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWRIb3N0LnN0YXJ0c1dpdGgoIiouIikgLT4gewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgc3VmZml4ID0gbm9ybWFsaXplZEhvc3QucmVtb3ZlUHJlZml4KCIqLiIpCiAgICAgICAgICAgICAgICAgICAgICAgIGhvc3QgPT0gc3VmZml4IHx8IGhvc3QuZW5kc1dpdGgoIi4kc3VmZml4IikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBob3N0ID09IG5vcm1hbGl6ZWRIb3N0CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICghaG9zdE1hdGNoZXMpIHsKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgcmVnZXggPSBnbG9iVG9SZWdleCgiLyRwYXRoUGFydCIpCiAgICAgICAgICAgIHJlZ2V4Lm1hdGNoZXMoZnVsbFBhdGguaWZCbGFuayB7ICIvIiB9KQogICAgICAgIH0uZ2V0T3JEZWZhdWx0KGZhbHNlKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGdsb2JQYXR0ZXJuKHBhdHRlcm46IFN0cmluZywgdXJsOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwgdHJpbW1lZCA9IHBhdHRlcm4udHJpbSgpCiAgICAgICAgaWYgKHRyaW1tZWQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICByZXR1cm4gZ2xvYlRvUmVnZXgodHJpbW1lZCkubWF0Y2hlcyh1cmwpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZ2xvYlRvUmVnZXgocGF0dGVybjogU3RyaW5nKTogUmVnZXggewogICAgICAgIHZhbCBidWlsZGVyID0gU3RyaW5nQnVpbGRlcigiXiIpCiAgICAgICAgcGF0dGVybi5mb3JFYWNoIHsgY2ggLT4KICAgICAgICAgICAgd2hlbiAoY2gpIHsKICAgICAgICAgICAgICAgICcqJyAtPiBidWlsZGVyLmFwcGVuZCgiLioiKQogICAgICAgICAgICAgICAgJy4nLCAnPycsICcrJywgJygnLCAnKScsICdbJywgJ10nLCAneycsICd9JywgJ14nLCAnJCcsICd8JywgJ1xcJyAtPgogICAgICAgICAgICAgICAgICAgIGJ1aWxkZXIuYXBwZW5kKCdcXCcpLmFwcGVuZChjaCkKICAgICAgICAgICAgICAgIGVsc2UgLT4gYnVpbGRlci5hcHBlbmQoY2gpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgYnVpbGRlci5hcHBlbmQoJyQnKQogICAgICAgIHJldHVybiBSZWdleChidWlsZGVyLnRvU3RyaW5nKCksIHNldE9mKFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBvcmlnaW5PZih1cmk6IFVyaSk6IFN0cmluZz8gewogICAgICAgIHZhbCBzY2hlbWUgPSB1cmkuc2NoZW1lPy5sb3dlcmNhc2UoTG9jYWxlLlJPT1QpID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIGhvc3QgPSB1cmkuaG9zdD8ubG93ZXJjYXNlKExvY2FsZS5ST09UKSA/OiByZXR1cm4gbnVsbAogICAgICAgIHZhbCBwb3J0UGFydCA9CiAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgdXJpLnBvcnQgPCAwIC0+ICIiCiAgICAgICAgICAgICAgICBzY2hlbWUgPT0gImh0dHAiICYmIHVyaS5wb3J0ID09IDgwIC0+ICIiCiAgICAgICAgICAgICAgICBzY2hlbWUgPT0gImh0dHBzIiAmJiB1cmkucG9ydCA9PSA0NDMgLT4gIiIKICAgICAgICAgICAgICAgIGVsc2UgLT4gIjoke3VyaS5wb3J0fSIKICAgICAgICAgICAgfQogICAgICAgIHJldHVybiAiJHNjaGVtZTovLyRob3N0JHBvcnRQYXJ0IgogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript
+
+import android.net.Uri
+import java.util.Locale
+
+internal object UserscriptMatcher {
+    fun matches(
+        metadata: ParsedUserscriptMetadata,
+        pageUrl: String,
+        isTopFrame: Boolean
+    ): Boolean {
+        if (metadata.noFrames && !isTopFrame) {
+            return false
+        }
+        if (pageUrl.isBlank()) {
+            return false
+        }
+        if (metadata.excludeMatches.any { matchPattern(it, pageUrl) }) {
+            return false
+        }
+        if (metadata.excludes.any { globPattern(it, pageUrl) }) {
+            return false
+        }
+
+        val hasPositiveRules = metadata.matches.isNotEmpty() || metadata.includes.isNotEmpty()
+        if (!hasPositiveRules) {
+            return false
+        }
+        if (metadata.matches.any { matchPattern(it, pageUrl) }) {
+            return true
+        }
+        if (metadata.includes.any { globPattern(it, pageUrl) }) {
+            return true
+        }
+        return false
+    }
+
+    fun isConnectAllowed(
+        metadata: ParsedUserscriptMetadata,
+        pageUrl: String,
+        targetUrl: String
+    ): Boolean {
+        val pageUri = Uri.parse(pageUrl)
+        val targetUri = Uri.parse(targetUrl)
+        val pageOrigin = originOf(pageUri)
+        val targetOrigin = originOf(targetUri)
+        if (pageOrigin != null && targetOrigin != null && pageOrigin == targetOrigin) {
+            return true
+        }
+        if (metadata.connects.isEmpty()) {
+            return false
+        }
+        val targetHost = targetUri.host?.lowercase(Locale.ROOT).orEmpty()
+        return metadata.connects.any { rule ->
+            when (val normalized = rule.trim().lowercase(Locale.ROOT)) {
+                "*" -> true
+                "self" -> pageOrigin != null && pageOrigin == targetOrigin
+                targetHost -> true
+                else -> {
+                    if (normalized.startsWith("*.")) {
+                        val suffix = normalized.removePrefix("*.")
+                        targetHost == suffix || targetHost.endsWith(".$suffix")
+                    } else {
+                        false
+                    }
+                }
+            }
+        }
+    }
+
+    private fun matchPattern(pattern: String, url: String): Boolean {
+        val trimmed = pattern.trim()
+        if (trimmed.isBlank()) {
+            return false
+        }
+        return runCatching {
+            val uri = Uri.parse(url)
+            val scheme = uri.scheme?.lowercase(Locale.ROOT).orEmpty()
+            val host = uri.host?.lowercase(Locale.ROOT).orEmpty()
+            val fullPath =
+                buildString {
+                    append(uri.encodedPath ?: "/")
+                    uri.encodedQuery?.takeIf { it.isNotBlank() }?.let {
+                        append('?')
+                        append(it)
+                    }
+                    uri.encodedFragment?.takeIf { it.isNotBlank() }?.let {
+                        append('#')
+                        append(it)
+                    }
+                }
+
+            val schemePart = trimmed.substringBefore("://")
+            val afterScheme = trimmed.substringAfter("://", "")
+            val hostPart = afterScheme.substringBefore("/")
+            val pathPart = afterScheme.substringAfter("/", "")
+
+            val schemeMatches =
+                when (schemePart) {
+                    "*" -> scheme == "http" || scheme == "https"
+                    else -> schemePart.equals(scheme, ignoreCase = true)
+                }
+            if (!schemeMatches) {
+                return false
+            }
+
+            val normalizedHost = hostPart.lowercase(Locale.ROOT)
+            val hostMatches =
+                when {
+                    normalizedHost == "*" -> host.isNotBlank()
+                    normalizedHost.startsWith("*.") -> {
+                        val suffix = normalizedHost.removePrefix("*.")
+                        host == suffix || host.endsWith(".$suffix")
+                    }
+                    else -> host == normalizedHost
+                }
+            if (!hostMatches) {
+                return false
+            }
+
+            val regex = globToRegex("/$pathPart")
+            regex.matches(fullPath.ifBlank { "/" })
+        }.getOrDefault(false)
+    }
+
+    private fun globPattern(pattern: String, url: String): Boolean {
+        val trimmed = pattern.trim()
+        if (trimmed.isBlank()) {
+            return false
+        }
+        return globToRegex(trimmed).matches(url)
+    }
+
+    private fun globToRegex(pattern: String): Regex {
+        val builder = StringBuilder("^")
+        pattern.forEach { ch ->
+            when (ch) {
+                '*' -> builder.append(".*")
+                '.', '?', '+', '(', ')', '[', ']', '{', '}', '^', '$', '|', '\\' ->
+                    builder.append('\\').append(ch)
+                else -> builder.append(ch)
+            }
+        }
+        builder.append('$')
+        return Regex(builder.toString(), setOf(RegexOption.IGNORE_CASE))
+    }
+
+    private fun originOf(uri: Uri): String? {
+        val scheme = uri.scheme?.lowercase(Locale.ROOT) ?: return null
+        val host = uri.host?.lowercase(Locale.ROOT) ?: return null
+        val portPart =
+            when {
+                uri.port < 0 -> ""
+                scheme == "http" && uri.port == 80 -> ""
+                scheme == "https" && uri.port == 443 -> ""
+                else -> ":${uri.port}"
+            }
+        return "$scheme://$host$portPart"
+    }
+}

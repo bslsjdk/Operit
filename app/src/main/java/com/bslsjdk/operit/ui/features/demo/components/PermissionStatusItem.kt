@@ -1,1 +1,55 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuZGVtby5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5jbGlja2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCgpAQ29tcG9zYWJsZQpmdW4gUGVybWlzc2lvblN0YXR1c0l0ZW0oCiAgICAgICAgdGl0bGU6IFN0cmluZywgCiAgICAgICAgaXNHcmFudGVkOiBCb29sZWFuLCAKICAgICAgICBvbkNsaWNrOiAoKSAtPiBVbml0LAogICAgICAgIGlzSGlnaGxpZ2h0ZWQ6IEJvb2xlYW4gPSBmYWxzZQopIHsKICAgIFJvdygKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKHZlcnRpY2FsID0gNC5kcCkKICAgICAgICAgICAgICAgICAgICAuY2xpcChSb3VuZGVkQ29ybmVyU2hhcGUoNC5kcCkpCiAgICAgICAgICAgICAgICAgICAgLmxldCB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0hpZ2hsaWdodGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpdC5iYWNrZ3JvdW5kKE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeUNvbnRhaW5lci5jb3B5KGFscGhhID0gMC4zZikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDQuZHApCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpdAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIC5jbGlja2FibGUob25DbGljayA9IG9uQ2xpY2spLAogICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICApIHsKICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHRpdGxlLAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpLAogICAgICAgICAgICAgICAgc3R5bGUgPSBpZiAoaXNIaWdobGlnaHRlZCkgCiAgICAgICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0uY29weShmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Cb2xkKQogICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtCiAgICAgICAgKQoKICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IGlmIChpc0dyYW50ZWQpICJBdXRob3JpemVkIiBlbHNlICJVbmF1dGhvcml6ZWQiLAogICAgICAgICAgICAgICAgY29sb3IgPSBpZiAoaXNHcmFudGVkKSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yLAogICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bQogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.demo.components
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+
+@Composable
+fun PermissionStatusItem(
+        title: String, 
+        isGranted: Boolean, 
+        onClick: () -> Unit,
+        isHighlighted: Boolean = false
+) {
+    Row(
+            modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(vertical = 4.dp)
+                    .clip(RoundedCornerShape(4.dp))
+                    .let {
+                        if (isHighlighted) {
+                            it.background(MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f))
+                                .padding(horizontal = 4.dp)
+                        } else {
+                            it
+                        }
+                    }
+                    .clickable(onClick = onClick),
+            verticalAlignment = Alignment.CenterVertically
+    ) {
+        Text(
+                text = title,
+                modifier = Modifier.weight(1f),
+                style = if (isHighlighted) 
+                    MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold)
+                else
+                    MaterialTheme.typography.bodyMedium
+        )
+
+        Text(
+                text = if (isGranted) "Authorized" else "Unauthorized",
+                color = if (isGranted) MaterialTheme.colorScheme.primary
+                        else MaterialTheme.colorScheme.error,
+                style = MaterialTheme.typography.bodyMedium
+        )
+    }
+}

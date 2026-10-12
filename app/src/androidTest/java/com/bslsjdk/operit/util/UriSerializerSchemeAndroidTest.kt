@@ -1,1 +1,22 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZHgudGVzdC5leHQuanVuaXQucnVubmVycy5BbmRyb2lkSlVuaXQ0CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAoKQFJ1bldpdGgoQW5kcm9pZEpVbml0NDo6Y2xhc3MpCmNsYXNzIFVyaVNlcmlhbGl6ZXJTY2hlbWVBbmRyb2lkVGVzdCB7CgogICAgQFRlc3QgZnVuIGNvbnRlbnRTY2hlbWVfaXNQcmVzZXJ2ZWQoKSB7CiAgICAgICAgdmFsIHVyaSA9IFVyaS5wYXJzZSgiY29udGVudDovL2EvYiIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKHVyaSwgSnNvbi5kZWNvZGVGcm9tU3RyaW5nKFVyaVNlcmlhbGl6ZXIsIEpzb24uZW5jb2RlVG9TdHJpbmcoVXJpU2VyaWFsaXplciwgdXJpKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGZpbGVTY2hlbWVfaXNQcmVzZXJ2ZWQoKSB7CiAgICAgICAgdmFsIHVyaSA9IFVyaS5wYXJzZSgiZmlsZTovLy9hL2IiKQogICAgICAgIGFzc2VydEVxdWFscyh1cmksIEpzb24uZGVjb2RlRnJvbVN0cmluZyhVcmlTZXJpYWxpemVyLCBKc29uLmVuY29kZVRvU3RyaW5nKFVyaVNlcmlhbGl6ZXIsIHVyaSkpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import android.net.Uri
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import kotlinx.serialization.json.Json
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class UriSerializerSchemeAndroidTest {
+
+    @Test fun contentScheme_isPreserved() {
+        val uri = Uri.parse("content://a/b")
+        assertEquals(uri, Json.decodeFromString(UriSerializer, Json.encodeToString(UriSerializer, uri)))
+    }
+
+    @Test fun fileScheme_isPreserved() {
+        val uri = Uri.parse("file:///a/b")
+        assertEquals(uri, Json.decodeFromString(UriSerializer, Json.encodeToString(UriSerializer, uri)))
+    }
+}

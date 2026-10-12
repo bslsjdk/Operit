@@ -1,1 +1,32 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGlvLm9iamVjdGJveC5hbm5vdGF0aW9uLkVudGl0eQppbXBvcnQgaW8ub2JqZWN0Ym94LmFubm90YXRpb24uSWQKaW1wb3J0IGlvLm9iamVjdGJveC5hbm5vdGF0aW9uLkluZGV4CmltcG9ydCBqYXZhLnV0aWwuRGF0ZQoKQEVudGl0eQpkYXRhIGNsYXNzIE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlKAogICAgQElkIHZhciBpZDogTG9uZyA9IDAsCiAgICBASW5kZXggdmFyIGNoYXRJZDogU3RyaW5nID0gIiIsCiAgICB2YXIgdHJpZ2dlck1lc3NhZ2VUaW1lc3RhbXA6IExvbmcgPSAwTCwKICAgIHZhciBjcmVhdGVkQXQ6IERhdGUgPSBEYXRlKCksCiAgICB2YXIgdXBkYXRlZEF0OiBEYXRlID0gRGF0ZSgpLAogICAgdmFyIHN0YXR1czogU3RyaW5nID0gU1RBVFVTX1BFTkRJTkcsCiAgICB2YXIgYXR0ZW1wdENvdW50OiBJbnQgPSAwLAogICAgdmFyIGxhc3RFcnJvcjogU3RyaW5nID0gIiIsCiAgICB2YXIgc291cmNlVHlwZTogU3RyaW5nID0gU09VUkNFX1RZUEVfUkVQTFlfRklOQUxJWkVEX0FVVE8KKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgU1RBVFVTX1BFTkRJTkcgPSAicGVuZGluZyIKICAgICAgICBjb25zdCB2YWwgU1RBVFVTX1BST0NFU1NJTkcgPSAicHJvY2Vzc2luZyIKICAgICAgICBjb25zdCB2YWwgU1RBVFVTX0ZBSUxFRCA9ICJmYWlsZWQiCgogICAgICAgIGNvbnN0IHZhbCBTT1VSQ0VfVFlQRV9SRVBMWV9GSU5BTElaRURfQVVUTyA9ICJyZXBseV9maW5hbGl6ZWRfYXV0byIKICAgICAgICBjb25zdCB2YWwgU09VUkNFX1RZUEVfU0VMRUNURURfVVNFUl9NRVNTQUdFID0gInNlbGVjdGVkX3VzZXJfbWVzc2FnZSIKCiAgICAgICAgZnVuIGlzU2VsZWN0ZWRVc2VyTWVzc2FnZVNvdXJjZShzb3VyY2VUeXBlOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICAgICAgcmV0dXJuIHNvdXJjZVR5cGUgPT0gU09VUkNFX1RZUEVfU0VMRUNURURfVVNFUl9NRVNTQUdFCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+import io.objectbox.annotation.Entity
+import io.objectbox.annotation.Id
+import io.objectbox.annotation.Index
+import java.util.Date
+
+@Entity
+data class MemoryAutoSaveCandidate(
+    @Id var id: Long = 0,
+    @Index var chatId: String = "",
+    var triggerMessageTimestamp: Long = 0L,
+    var createdAt: Date = Date(),
+    var updatedAt: Date = Date(),
+    var status: String = STATUS_PENDING,
+    var attemptCount: Int = 0,
+    var lastError: String = "",
+    var sourceType: String = SOURCE_TYPE_REPLY_FINALIZED_AUTO
+) {
+    companion object {
+        const val STATUS_PENDING = "pending"
+        const val STATUS_PROCESSING = "processing"
+        const val STATUS_FAILED = "failed"
+
+        const val SOURCE_TYPE_REPLY_FINALIZED_AUTO = "reply_finalized_auto"
+        const val SOURCE_TYPE_SELECTED_USER_MESSAGE = "selected_user_message"
+
+        fun isSelectedUserMessageSource(sourceType: String): Boolean {
+            return sourceType == SOURCE_TYPE_SELECTED_USER_MESSAGE
+        }
+    }
+}

@@ -1,1 +1,87 @@
-IApwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5zZXR0aW5ncy5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uSW1hZ2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5iYWNrZ3JvdW5kCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYm9yZGVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uY2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5DaXJjbGVTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuUGVyc29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5SZWZyZXNoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5Db250ZW50U2NhbGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvaWwuY29tcG9zZS5yZW1lbWJlckFzeW5jSW1hZ2VQYWludGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgoKQENvbXBvc2FibGUKZnVuIEF2YXRhclBpY2tlcigKICAgIGxhYmVsOiBTdHJpbmcsCiAgICBhdmF0YXJVcmk6IFN0cmluZz8sCiAgICBvbkF2YXRhckNoYW5nZTogKCkgLT4gVW5pdCwKICAgIG9uQXZhdGFyUmVzZXQ6ICgpIC0+IFVuaXQKKSB7CiAgICBDb2x1bW4oCiAgICAgICAgaG9yaXpvbnRhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJIb3Jpem9udGFsbHksCiAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDYuZHApCiAgICApIHsKICAgICAgICBUZXh0KAogICAgICAgICAgICB0ZXh0ID0gbGFiZWwsIAogICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZVNtYWxsLAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDQuZHApCiAgICAgICAgKQoKICAgICAgICBCb3goCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgIC5zaXplKDcwLmRwKQogICAgICAgICAgICAgICAgLmNsaXAoQ2lyY2xlU2hhcGUpCiAgICAgICAgICAgICAgICAuYmFja2dyb3VuZChNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VWYXJpYW50KQogICAgICAgICAgICAgICAgLmNsaWNrYWJsZShvbkNsaWNrID0gb25BdmF0YXJDaGFuZ2UpCiAgICAgICAgICAgICAgICAuYm9yZGVyKDIuZHAsIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwgQ2lyY2xlU2hhcGUpLAogICAgICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcgogICAgICAgICkgewogICAgICAgICAgICBpZiAoYXZhdGFyVXJpICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIEltYWdlKAogICAgICAgICAgICAgICAgICAgIHBhaW50ZXIgPSByZW1lbWJlckFzeW5jSW1hZ2VQYWludGVyKG1vZGVsID0gVXJpLnBhcnNlKGF2YXRhclVyaSkpLAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9ICIkbGFiZWwgQXZhdGFyIiwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCksCiAgICAgICAgICAgICAgICAgICAgY29udGVudFNjYWxlID0gQ29udGVudFNjYWxlLkNyb3AKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LlBlcnNvbiwKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSAiRGVmYXVsdCBBdmF0YXIiLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgzNS5kcCksCiAgICAgICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBPdXRsaW5lZEJ1dHRvbigKICAgICAgICAgICAgb25DbGljayA9IG9uQXZhdGFyUmVzZXQsCiAgICAgICAgICAgIGVuYWJsZWQgPSBhdmF0YXJVcmkgIT0gbnVsbCwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLmhlaWdodCgzMi5kcCkKICAgICAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSA0LmRwKQogICAgICAgICkgewogICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LlJlZnJlc2gsIAogICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gIlJlc2V0IEF2YXRhciIsIAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDE2LmRwKQogICAgICAgICAgICApCiAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDMuZHApKQogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmF2YXRhcl9yZXNldCksCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfSA=
+ 
+package com.bslsjdk.operit.ui.features.settings.components
+
+import android.net.Uri
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import coil.compose.rememberAsyncImagePainter
+import com.bslsjdk.operit.R
+
+@Composable
+fun AvatarPicker(
+    label: String,
+    avatarUri: String?,
+    onAvatarChange: () -> Unit,
+    onAvatarReset: () -> Unit
+) {
+    Column(
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(6.dp)
+    ) {
+        Text(
+            text = label, 
+            style = MaterialTheme.typography.titleSmall,
+            modifier = Modifier.padding(horizontal = 4.dp)
+        )
+
+        Box(
+            modifier = Modifier
+                .size(70.dp)
+                .clip(CircleShape)
+                .background(MaterialTheme.colorScheme.surfaceVariant)
+                .clickable(onClick = onAvatarChange)
+                .border(2.dp, MaterialTheme.colorScheme.primary, CircleShape),
+            contentAlignment = Alignment.Center
+        ) {
+            if (avatarUri != null) {
+                Image(
+                    painter = rememberAsyncImagePainter(model = Uri.parse(avatarUri)),
+                    contentDescription = "$label Avatar",
+                    modifier = Modifier.fillMaxSize(),
+                    contentScale = ContentScale.Crop
+                )
+            } else {
+                Icon(
+                    imageVector = Icons.Default.Person,
+                    contentDescription = "Default Avatar",
+                    modifier = Modifier.size(35.dp),
+                    tint = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        }
+
+        OutlinedButton(
+            onClick = onAvatarReset,
+            enabled = avatarUri != null,
+            modifier = Modifier
+                .height(32.dp)
+                .padding(horizontal = 4.dp)
+        ) {
+            Icon(
+                imageVector = Icons.Default.Refresh, 
+                contentDescription = "Reset Avatar", 
+                modifier = Modifier.size(16.dp)
+            )
+            Spacer(modifier = Modifier.width(3.dp))
+            Text(
+                text = stringResource(R.string.avatar_reset),
+                style = MaterialTheme.typography.bodySmall
+            )
+        }
+    }
+} 

@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgRW5kcG9pbnRDb21wbGV0ZXJUcmltVGVzdCB7CgogICAgQFRlc3QgZnVuIGRlZmF1bHRDb21wbGV0aW9uX3RyaW1zT3V0ZXJXaGl0ZXNwYWNlKCkgewogICAgICAgIGFzc2VydEVxdWFscygiaHR0cHM6Ly94L3YxL2NoYXQvY29tcGxldGlvbnMiLCBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KCIgIGh0dHBzOi8veCAgIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHJlc3BvbnNlc0NvbXBsZXRpb25fdHJpbXNPdXRlcldoaXRlc3BhY2UoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJodHRwczovL3gvdjEvcmVzcG9uc2VzIiwgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludCgiICBodHRwczovL3ggICIsIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYW50aHJvcGljQ29tcGxldGlvbl90cmltc091dGVyV2hpdGVzcGFjZSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoImh0dHBzOi8veC92MS9tZXNzYWdlcyIsIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoIiAgaHR0cHM6Ly94ICAiLCBBcGlQcm92aWRlclR5cGUuQU5USFJPUElDKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class EndpointCompleterTrimTest {
+
+    @Test fun defaultCompletion_trimsOuterWhitespace() {
+        assertEquals("https://x/v1/chat/completions", EndpointCompleter.completeEndpoint("  https://x  "))
+    }
+
+    @Test fun responsesCompletion_trimsOuterWhitespace() {
+        assertEquals("https://x/v1/responses", EndpointCompleter.completeEndpoint("  https://x  ", ApiProviderType.OPENAI_RESPONSES))
+    }
+
+    @Test fun anthropicCompletion_trimsOuterWhitespace() {
+        assertEquals("https://x/v1/messages", EndpointCompleter.completeEndpoint("  https://x  ", ApiProviderType.ANTHROPIC))
+    }
+}

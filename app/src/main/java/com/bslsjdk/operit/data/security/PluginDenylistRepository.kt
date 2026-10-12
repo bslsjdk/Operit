@@ -1,1 +1,216 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zZWN1cml0eQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLnV0aWwuQXRvbWljRmlsZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb24KaW1wb3J0IGphdmEubmV0LlVSSQppbXBvcnQgamF2YS5zZWN1cml0eS5NZXNzYWdlRGlnZXN0CmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5kZWNvZGVGcm9tU3RyaW5nCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uCmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudAppbXBvcnQgb2todHRwMy5SZXF1ZXN0CgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgUGx1Z2luRGVueWxpc3RQb2ludGVyKAogICAgdmFsIHNjaGVtYVZlcnNpb246IEludCA9IDEsCiAgICB2YWwgbGF0ZXN0VmVyc2lvbjogSW50ID0gMCwKICAgIHZhbCBsYXRlc3RGaWxlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB1cGRhdGVkQXQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIG5vdGVzOiBTdHJpbmc/ID0gbnVsbAopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgUGx1Z2luRGVueWxpc3RQYXlsb2FkKAogICAgdmFsIHNjaGVtYVZlcnNpb246IEludCA9IDEsCiAgICB2YWwgdmVyc2lvbjogSW50ID0gMCwKICAgIHZhbCB1cGRhdGVkQXQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGhhc2hBbGdvcml0aG06IFN0cmluZyA9ICIiLAogICAgdmFsIG1hdGNoOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBhY3Rpb246IFN0cmluZyA9ICIiLAogICAgdmFsIGVudHJpZXM6IExpc3Q8UGx1Z2luRGVueWxpc3RFbnRyeT4gPSBlbXB0eUxpc3QoKQopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgUGx1Z2luRGVueWxpc3RFbnRyeSgKICAgIHZhbCBzaGEyNTY6IFN0cmluZyA9ICIiLAogICAgdmFsIG5vdGU6IFN0cmluZz8gPSBudWxsCikKCmNsYXNzIFBsdWdpbkRlbnlsaXN0UmVwb3NpdG9yeSgKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBwb2ludGVyVXJsOiBTdHJpbmcgPSBERUZBVUxUX1BPSU5URVJfVVJMCikgewogICAgcHJpdmF0ZSB2YWwgYXBwQ29udGV4dCA9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0CiAgICBwcml2YXRlIHZhbCBqc29uID0gSnNvbiB7IGlnbm9yZVVua25vd25LZXlzID0gdHJ1ZSB9CiAgICBwcml2YXRlIHZhbCBjbGllbnQgPQogICAgICAgIE9rSHR0cENsaWVudC5CdWlsZGVyKCkKICAgICAgICAgICAgLmNvbm5lY3RUaW1lb3V0KDgsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC5yZWFkVGltZW91dCg4LCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAud3JpdGVUaW1lb3V0KDgsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgc3VzcGVuZCBmdW4gcmVmcmVzaEZyb21SZW1vdGUoKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgIHZhbCBwb2ludGVyID0ganNvbi5kZWNvZGVGcm9tU3RyaW5nPFBsdWdpbkRlbnlsaXN0UG9pbnRlcj4oZmV0Y2hUZXh0KGFkZENhY2hlQnVzdChwb2ludGVyVXJsKSkpCiAgICAgICAgICAgICAgICB2YWxpZGF0ZVBvaW50ZXIocG9pbnRlcikKCiAgICAgICAgICAgICAgICB2YWwgcGF5bG9hZFRleHQgPSBmZXRjaFRleHQoYWRkQ2FjaGVCdXN0KHJlc29sdmVVcmwocG9pbnRlci5sYXRlc3RGaWxlKSkpCiAgICAgICAgICAgICAgICB2YWwgcGF5bG9hZCA9IGpzb24uZGVjb2RlRnJvbVN0cmluZzxQbHVnaW5EZW55bGlzdFBheWxvYWQ+KHBheWxvYWRUZXh0KQogICAgICAgICAgICAgICAgdmFsaWRhdGVQYXlsb2FkKHBvaW50ZXIsIHBheWxvYWQpCiAgICAgICAgICAgICAgICB3cml0ZUNhY2hlZFBheWxvYWQocGF5bG9hZFRleHQudG9CeXRlQXJyYXkoQ2hhcnNldHMuVVRGXzgpKQogICAgICAgICAgICAgICAgdHJ1ZQogICAgICAgICAgICB9Lm9uRmFpbHVyZSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJQbHVnaW4gZGVueWxpc3QgcmVmcmVzaCBmYWlsZWQiLCBlcnJvcikKICAgICAgICAgICAgfS5nZXRPckRlZmF1bHQoZmFsc2UpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBmaW5kRGVuaWVkSW1wb3J0KGZpbGU6IEZpbGUpOiBQbHVnaW5EZW55bGlzdEVudHJ5PyB7CiAgICAgICAgaWYgKCFmaWxlLmlzRmlsZSB8fCAhZmlsZS5jYW5SZWFkKCkpIHJldHVybiBudWxsCgogICAgICAgIHJldHVybiBydW5DYXRjaGluZyB7CiAgICAgICAgICAgIHZhbCBwYXlsb2FkID0gcmVhZENhY2hlZFBheWxvYWQoKSA/OiByZXR1cm5AcnVuQ2F0Y2hpbmcgbnVsbAogICAgICAgICAgICB2YWwgc2hhMjU2ID0gc2hhMjU2SGV4KGZpbGUpCiAgICAgICAgICAgIHBheWxvYWQuZW50cmllcy5maXJzdE9yTnVsbCB7IGVudHJ5IC0+IGVudHJ5LnNoYTI1NiA9PSBzaGEyNTYgfQogICAgICAgIH0ub25GYWlsdXJlIHsgZXJyb3IgLT4KICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiUGx1Z2luIGRlbnlsaXN0IGNoZWNrIGZhaWxlZCBmb3IgJHtmaWxlLmFic29sdXRlUGF0aH0iLCBlcnJvcikKICAgICAgICB9LmdldE9yTnVsbCgpCiAgICB9CgogICAgZnVuIGNhY2hlU2lnbmF0dXJlKCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGZpbGUgPSBjYWNoZUZpbGUoKQogICAgICAgIHZhbCByZWFkYWJsZUZpbGUgPQogICAgICAgICAgICB3aGVuIHsKICAgICAgICAgICAgICAgIGZpbGUuZXhpc3RzKCkgJiYgZmlsZS5pc0ZpbGUgLT4gZmlsZQogICAgICAgICAgICAgICAgYXRvbWljQmFja3VwRmlsZShmaWxlKS5leGlzdHMoKSAtPiBhdG9taWNCYWNrdXBGaWxlKGZpbGUpCiAgICAgICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICAgICAgfQogICAgICAgIHJldHVybiBpZiAocmVhZGFibGVGaWxlICE9IG51bGwpIHsKICAgICAgICAgICAgIiR7cmVhZGFibGVGaWxlLmxlbmd0aCgpfToke3JlYWRhYmxlRmlsZS5sYXN0TW9kaWZpZWQoKX0iCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgIm5vbmUiCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlYWRDYWNoZWRQYXlsb2FkKCk6IFBsdWdpbkRlbnlsaXN0UGF5bG9hZD8gewogICAgICAgIHZhbCBmaWxlID0gY2FjaGVGaWxlKCkKICAgICAgICBpZiAoIWZpbGUuZXhpc3RzKCkgJiYgIWF0b21pY0JhY2t1cEZpbGUoZmlsZSkuZXhpc3RzKCkpIHJldHVybiBudWxsCgogICAgICAgIHJldHVybiBydW5DYXRjaGluZyB7CiAgICAgICAgICAgIHZhbCBjb250ZW50ID0gQXRvbWljRmlsZShmaWxlKS5vcGVuUmVhZCgpLnVzZSB7IGlucHV0IC0+IGlucHV0LnJlYWRCeXRlcygpLnRvU3RyaW5nKENoYXJzZXRzLlVURl84KSB9CiAgICAgICAgICAgIHZhbCBwYXlsb2FkID0ganNvbi5kZWNvZGVGcm9tU3RyaW5nPFBsdWdpbkRlbnlsaXN0UGF5bG9hZD4oY29udGVudCkKICAgICAgICAgICAgdmFsaWRhdGVQYXlsb2FkKHBvaW50ZXIgPSBudWxsLCBwYXlsb2FkID0gcGF5bG9hZCkKICAgICAgICAgICAgcGF5bG9hZAogICAgICAgIH0ub25GYWlsdXJlIHsgZXJyb3IgLT4KICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiSWdub3JpbmcgaW52YWxpZCBjYWNoZWQgcGx1Z2luIGRlbnlsaXN0IiwgZXJyb3IpCiAgICAgICAgfS5nZXRPck51bGwoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHdyaXRlQ2FjaGVkUGF5bG9hZChieXRlczogQnl0ZUFycmF5KSB7CiAgICAgICAgdmFsIGZpbGUgPSBjYWNoZUZpbGUoKQogICAgICAgIHZhbCBwYXJlbnQgPSBmaWxlLnBhcmVudEZpbGUgPzogdGhyb3cgSU9FeGNlcHRpb24oIlBsdWdpbiBkZW55bGlzdCBjYWNoZSBoYXMgbm8gcGFyZW50IGRpcmVjdG9yeSIpCiAgICAgICAgaWYgKCFwYXJlbnQuZXhpc3RzKCkgJiYgIXBhcmVudC5ta2RpcnMoKSkgewogICAgICAgICAgICB0aHJvdyBJT0V4Y2VwdGlvbigiRmFpbGVkIHRvIGNyZWF0ZSBwbHVnaW4gZGVueWxpc3QgY2FjaGUgZGlyZWN0b3J5OiAke3BhcmVudC5hYnNvbHV0ZVBhdGh9IikKICAgICAgICB9CgogICAgICAgIHZhbCBhdG9taWNGaWxlID0gQXRvbWljRmlsZShmaWxlKQogICAgICAgIHZhbCBvdXRwdXQgPSBhdG9taWNGaWxlLnN0YXJ0V3JpdGUoKQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIG91dHB1dC53cml0ZShieXRlcykKICAgICAgICAgICAgYXRvbWljRmlsZS5maW5pc2hXcml0ZShvdXRwdXQpCiAgICAgICAgfSBjYXRjaCAoZXJyb3I6IFRocm93YWJsZSkgewogICAgICAgICAgICBhdG9taWNGaWxlLmZhaWxXcml0ZShvdXRwdXQpCiAgICAgICAgICAgIHRocm93IGVycm9yCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHZhbGlkYXRlUG9pbnRlcihwb2ludGVyOiBQbHVnaW5EZW55bGlzdFBvaW50ZXIpIHsKICAgICAgICByZXF1aXJlKHBvaW50ZXIuc2NoZW1hVmVyc2lvbiA9PSBTQ0hFTUFfVkVSU0lPTikgeyAiVW5zdXBwb3J0ZWQgZGVueWxpc3QgcG9pbnRlciBzY2hlbWEiIH0KICAgICAgICByZXF1aXJlKHBvaW50ZXIubGF0ZXN0VmVyc2lvbiA+IDApIHsgIkRlbnlsaXN0IHBvaW50ZXIgaGFzIG5vIHZlcnNpb24iIH0KICAgICAgICByZXF1aXJlKHBvaW50ZXIubGF0ZXN0RmlsZS5pc05vdEJsYW5rKCkpIHsgIkRlbnlsaXN0IHBvaW50ZXIgaGFzIG5vIHBheWxvYWQgcGF0aCIgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHZhbGlkYXRlUGF5bG9hZChwb2ludGVyOiBQbHVnaW5EZW55bGlzdFBvaW50ZXI/LCBwYXlsb2FkOiBQbHVnaW5EZW55bGlzdFBheWxvYWQpIHsKICAgICAgICByZXF1aXJlKHBheWxvYWQuc2NoZW1hVmVyc2lvbiA9PSBTQ0hFTUFfVkVSU0lPTikgeyAiVW5zdXBwb3J0ZWQgZGVueWxpc3QgcGF5bG9hZCBzY2hlbWEiIH0KICAgICAgICByZXF1aXJlKHBheWxvYWQudmVyc2lvbiA+IDApIHsgIkRlbnlsaXN0IHBheWxvYWQgaGFzIG5vIHZlcnNpb24iIH0KICAgICAgICBpZiAocG9pbnRlciAhPSBudWxsKSB7CiAgICAgICAgICAgIHJlcXVpcmUocGF5bG9hZC52ZXJzaW9uID09IHBvaW50ZXIubGF0ZXN0VmVyc2lvbikgeyAiRGVueWxpc3QgcG9pbnRlciBhbmQgcGF5bG9hZCB2ZXJzaW9ucyBkaWZmZXIiIH0KICAgICAgICB9CiAgICAgICAgcmVxdWlyZShwYXlsb2FkLmhhc2hBbGdvcml0aG0gPT0gSEFTSF9BTEdPUklUSE0pIHsgIlVuc3VwcG9ydGVkIGRlbnlsaXN0IGhhc2ggYWxnb3JpdGhtIiB9CiAgICAgICAgcmVxdWlyZShwYXlsb2FkLm1hdGNoID09IE1BVENIX01PREUpIHsgIlVuc3VwcG9ydGVkIGRlbnlsaXN0IG1hdGNoIG1vZGUiIH0KICAgICAgICByZXF1aXJlKHBheWxvYWQuYWN0aW9uID09IEFDVElPTikgeyAiVW5zdXBwb3J0ZWQgZGVueWxpc3QgYWN0aW9uIiB9CgogICAgICAgIHZhbCBoYXNoZXMgPSBIYXNoU2V0PFN0cmluZz4oKQogICAgICAgIHBheWxvYWQuZW50cmllcy5mb3JFYWNoSW5kZXhlZCB7IGluZGV4LCBlbnRyeSAtPgogICAgICAgICAgICByZXF1aXJlKFNIQTI1Nl9QQVRURVJOLm1hdGNoZXMoZW50cnkuc2hhMjU2KSkgeyAiSW52YWxpZCBTSEEtMjU2IGF0IGRlbnlsaXN0IGVudHJ5ICRpbmRleCIgfQogICAgICAgICAgICByZXF1aXJlKGhhc2hlcy5hZGQoZW50cnkuc2hhMjU2KSkgeyAiRHVwbGljYXRlIFNIQS0yNTYgYXQgZGVueWxpc3QgZW50cnkgJGluZGV4IiB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGZldGNoVGV4dCh1cmw6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHJlcXVlc3QgPQogICAgICAgICAgICBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLnVybCh1cmwpCiAgICAgICAgICAgICAgICAuZ2V0KCkKICAgICAgICAgICAgICAgIC5oZWFkZXIoIkNhY2hlLUNvbnRyb2wiLCAibm8tY2FjaGUiKQogICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICBjbGllbnQubmV3Q2FsbChyZXF1ZXN0KS5leGVjdXRlKCkudXNlIHsgcmVzcG9uc2UgLT4KICAgICAgICAgICAgaWYgKCFyZXNwb25zZS5pc1N1Y2Nlc3NmdWwpIHsKICAgICAgICAgICAgICAgIHRocm93IElPRXhjZXB0aW9uKCJSZXF1ZXN0IGZhaWxlZDogJHtyZXNwb25zZS5jb2RlfSAkdXJsIikKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gcmVzcG9uc2UuYm9keT8uc3RyaW5nKCkgPzogdGhyb3cgSU9FeGNlcHRpb24oIkVtcHR5IHJlc3BvbnNlIGJvZHk6ICR1cmwiKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXNvbHZlVXJsKGxhdGVzdEZpbGU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHRyaW1tZWQgPSBsYXRlc3RGaWxlLnRyaW0oKQogICAgICAgIGlmICh0cmltbWVkLnN0YXJ0c1dpdGgoImh0dHA6Ly8iKSB8fCB0cmltbWVkLnN0YXJ0c1dpdGgoImh0dHBzOi8vIikpIHJldHVybiB0cmltbWVkCgogICAgICAgIHJldHVybiBVUkkocG9pbnRlclVybCkucmVzb2x2ZSh0cmltbWVkKS50b1N0cmluZygpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYWRkQ2FjaGVCdXN0KHVybDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgc2VwYXJhdG9yID0gaWYgKHVybC5jb250YWlucygnPycpKSAiJiIgZWxzZSAiPyIKICAgICAgICByZXR1cm4gIiR1cmwke3NlcGFyYXRvcn10cz0ke1N5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpfSIKICAgIH0KCiAgICBwcml2YXRlIGZ1biBjYWNoZUZpbGUoKTogRmlsZSA9IEZpbGUoRmlsZShhcHBDb250ZXh0LmZpbGVzRGlyLCBDQUNIRV9ESVJFQ1RPUlkpLCBDQUNIRV9GSUxFX05BTUUpCgogICAgcHJpdmF0ZSBmdW4gYXRvbWljQmFja3VwRmlsZShmaWxlOiBGaWxlKTogRmlsZSA9IEZpbGUoZmlsZS5wYXJlbnRGaWxlLCAiJHtmaWxlLm5hbWV9LmJhayIpCgogICAgcHJpdmF0ZSBmdW4gc2hhMjU2SGV4KGZpbGU6IEZpbGUpOiBTdHJpbmcgewogICAgICAgIHZhbCBkaWdlc3QgPSBNZXNzYWdlRGlnZXN0LmdldEluc3RhbmNlKCJTSEEtMjU2IikKICAgICAgICBmaWxlLmlucHV0U3RyZWFtKCkudXNlIHsgaW5wdXQgLT4KICAgICAgICAgICAgdmFsIGJ1ZmZlciA9IEJ5dGVBcnJheShERUZBVUxUX0JVRkZFUl9TSVpFKQogICAgICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICAgICAgdmFsIGNvdW50ID0gaW5wdXQucmVhZChidWZmZXIpCiAgICAgICAgICAgICAgICBpZiAoY291bnQgPD0gMCkgYnJlYWsKICAgICAgICAgICAgICAgIGRpZ2VzdC51cGRhdGUoYnVmZmVyLCAwLCBjb3VudCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gZGlnZXN0LmRpZ2VzdCgpLmpvaW5Ub1N0cmluZygiIikgeyBieXRlIC0+CiAgICAgICAgICAgIFN0cmluZy5mb3JtYXQoTG9jYWxlLlVTLCAiJTAyeCIsIGJ5dGUudG9JbnQoKSBhbmQgMHhmZikKICAgICAgICB9CiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlBsdWdpbkRlbnlsaXN0UmVwbyIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBDQUNIRV9ESVJFQ1RPUlkgPSAicGx1Z2luX2RlbnlsaXN0IgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIENBQ0hFX0ZJTEVfTkFNRSA9ICJkZW55bGlzdC5qc29uIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFNDSEVNQV9WRVJTSU9OID0gMQogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEhBU0hfQUxHT1JJVEhNID0gInNoYTI1NiIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBNQVRDSF9NT0RFID0gInJhd19maWxlX2J5dGVzIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEFDVElPTiA9ICJyZWplY3RfaW1wb3J0IgogICAgICAgIHByaXZhdGUgdmFsIFNIQTI1Nl9QQVRURVJOID0gUmVnZXgoIlswLTlhLWZdezY0fSIpCgogICAgICAgIGNvbnN0IHZhbCBERUZBVUxUX1BPSU5URVJfVVJMID0gImh0dHBzOi8vb3Blcml0LmFwcC9wbHVnaW4tZGVueWxpc3QvbGF0ZXN0Lmpzb24iCiAgICB9Cn0K
+package com.bslsjdk.operit.data.security
+
+import android.content.Context
+import android.util.AtomicFile
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+import java.io.IOException
+import java.net.URI
+import java.security.MessageDigest
+import java.util.Locale
+import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.json.Json
+import okhttp3.OkHttpClient
+import okhttp3.Request
+
+@Serializable
+data class PluginDenylistPointer(
+    val schemaVersion: Int = 1,
+    val latestVersion: Int = 0,
+    val latestFile: String = "",
+    val updatedAt: String? = null,
+    val notes: String? = null
+)
+
+@Serializable
+data class PluginDenylistPayload(
+    val schemaVersion: Int = 1,
+    val version: Int = 0,
+    val updatedAt: String? = null,
+    val hashAlgorithm: String = "",
+    val match: String = "",
+    val action: String = "",
+    val entries: List<PluginDenylistEntry> = emptyList()
+)
+
+@Serializable
+data class PluginDenylistEntry(
+    val sha256: String = "",
+    val note: String? = null
+)
+
+class PluginDenylistRepository(
+    context: Context,
+    private val pointerUrl: String = DEFAULT_POINTER_URL
+) {
+    private val appContext = context.applicationContext
+    private val json = Json { ignoreUnknownKeys = true }
+    private val client =
+        OkHttpClient.Builder()
+            .connectTimeout(8, TimeUnit.SECONDS)
+            .readTimeout(8, TimeUnit.SECONDS)
+            .writeTimeout(8, TimeUnit.SECONDS)
+            .build()
+
+    suspend fun refreshFromRemote(): Boolean {
+        return withContext(Dispatchers.IO) {
+            runCatching {
+                val pointer = json.decodeFromString<PluginDenylistPointer>(fetchText(addCacheBust(pointerUrl)))
+                validatePointer(pointer)
+
+                val payloadText = fetchText(addCacheBust(resolveUrl(pointer.latestFile)))
+                val payload = json.decodeFromString<PluginDenylistPayload>(payloadText)
+                validatePayload(pointer, payload)
+                writeCachedPayload(payloadText.toByteArray(Charsets.UTF_8))
+                true
+            }.onFailure { error ->
+                AppLogger.w(TAG, "Plugin denylist refresh failed", error)
+            }.getOrDefault(false)
+        }
+    }
+
+    fun findDeniedImport(file: File): PluginDenylistEntry? {
+        if (!file.isFile || !file.canRead()) return null
+
+        return runCatching {
+            val payload = readCachedPayload() ?: return@runCatching null
+            val sha256 = sha256Hex(file)
+            payload.entries.firstOrNull { entry -> entry.sha256 == sha256 }
+        }.onFailure { error ->
+            AppLogger.w(TAG, "Plugin denylist check failed for ${file.absolutePath}", error)
+        }.getOrNull()
+    }
+
+    fun cacheSignature(): String {
+        val file = cacheFile()
+        val readableFile =
+            when {
+                file.exists() && file.isFile -> file
+                atomicBackupFile(file).exists() -> atomicBackupFile(file)
+                else -> null
+            }
+        return if (readableFile != null) {
+            "${readableFile.length()}:${readableFile.lastModified()}"
+        } else {
+            "none"
+        }
+    }
+
+    private fun readCachedPayload(): PluginDenylistPayload? {
+        val file = cacheFile()
+        if (!file.exists() && !atomicBackupFile(file).exists()) return null
+
+        return runCatching {
+            val content = AtomicFile(file).openRead().use { input -> input.readBytes().toString(Charsets.UTF_8) }
+            val payload = json.decodeFromString<PluginDenylistPayload>(content)
+            validatePayload(pointer = null, payload = payload)
+            payload
+        }.onFailure { error ->
+            AppLogger.w(TAG, "Ignoring invalid cached plugin denylist", error)
+        }.getOrNull()
+    }
+
+    private fun writeCachedPayload(bytes: ByteArray) {
+        val file = cacheFile()
+        val parent = file.parentFile ?: throw IOException("Plugin denylist cache has no parent directory")
+        if (!parent.exists() && !parent.mkdirs()) {
+            throw IOException("Failed to create plugin denylist cache directory: ${parent.absolutePath}")
+        }
+
+        val atomicFile = AtomicFile(file)
+        val output = atomicFile.startWrite()
+        try {
+            output.write(bytes)
+            atomicFile.finishWrite(output)
+        } catch (error: Throwable) {
+            atomicFile.failWrite(output)
+            throw error
+        }
+    }
+
+    private fun validatePointer(pointer: PluginDenylistPointer) {
+        require(pointer.schemaVersion == SCHEMA_VERSION) { "Unsupported denylist pointer schema" }
+        require(pointer.latestVersion > 0) { "Denylist pointer has no version" }
+        require(pointer.latestFile.isNotBlank()) { "Denylist pointer has no payload path" }
+    }
+
+    private fun validatePayload(pointer: PluginDenylistPointer?, payload: PluginDenylistPayload) {
+        require(payload.schemaVersion == SCHEMA_VERSION) { "Unsupported denylist payload schema" }
+        require(payload.version > 0) { "Denylist payload has no version" }
+        if (pointer != null) {
+            require(payload.version == pointer.latestVersion) { "Denylist pointer and payload versions differ" }
+        }
+        require(payload.hashAlgorithm == HASH_ALGORITHM) { "Unsupported denylist hash algorithm" }
+        require(payload.match == MATCH_MODE) { "Unsupported denylist match mode" }
+        require(payload.action == ACTION) { "Unsupported denylist action" }
+
+        val hashes = HashSet<String>()
+        payload.entries.forEachIndexed { index, entry ->
+            require(SHA256_PATTERN.matches(entry.sha256)) { "Invalid SHA-256 at denylist entry $index" }
+            require(hashes.add(entry.sha256)) { "Duplicate SHA-256 at denylist entry $index" }
+        }
+    }
+
+    private fun fetchText(url: String): String {
+        val request =
+            Request.Builder()
+                .url(url)
+                .get()
+                .header("Cache-Control", "no-cache")
+                .build()
+        client.newCall(request).execute().use { response ->
+            if (!response.isSuccessful) {
+                throw IOException("Request failed: ${response.code} $url")
+            }
+            return response.body?.string() ?: throw IOException("Empty response body: $url")
+        }
+    }
+
+    private fun resolveUrl(latestFile: String): String {
+        val trimmed = latestFile.trim()
+        if (trimmed.startsWith("http://") || trimmed.startsWith("https://")) return trimmed
+
+        return URI(pointerUrl).resolve(trimmed).toString()
+    }
+
+    private fun addCacheBust(url: String): String {
+        val separator = if (url.contains('?')) "&" else "?"
+        return "$url${separator}ts=${System.currentTimeMillis()}"
+    }
+
+    private fun cacheFile(): File = File(File(appContext.filesDir, CACHE_DIRECTORY), CACHE_FILE_NAME)
+
+    private fun atomicBackupFile(file: File): File = File(file.parentFile, "${file.name}.bak")
+
+    private fun sha256Hex(file: File): String {
+        val digest = MessageDigest.getInstance("SHA-256")
+        file.inputStream().use { input ->
+            val buffer = ByteArray(DEFAULT_BUFFER_SIZE)
+            while (true) {
+                val count = input.read(buffer)
+                if (count <= 0) break
+                digest.update(buffer, 0, count)
+            }
+        }
+        return digest.digest().joinToString("") { byte ->
+            String.format(Locale.US, "%02x", byte.toInt() and 0xff)
+        }
+    }
+
+    companion object {
+        private const val TAG = "PluginDenylistRepo"
+        private const val CACHE_DIRECTORY = "plugin_denylist"
+        private const val CACHE_FILE_NAME = "denylist.json"
+        private const val SCHEMA_VERSION = 1
+        private const val HASH_ALGORITHM = "sha256"
+        private const val MATCH_MODE = "raw_file_bytes"
+        private const val ACTION = "reject_import"
+        private val SHA256_PATTERN = Regex("[0-9a-f]{64}")
+
+        const val DEFAULT_POINTER_URL = "https://operit.app/plugin-denylist/latest.json"
+    }
+}

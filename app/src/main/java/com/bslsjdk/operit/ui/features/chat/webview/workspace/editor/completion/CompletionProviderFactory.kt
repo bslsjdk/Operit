@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IuY29tcGxldGlvbgoKLyoqCiAqIOihpeWFqOaPkOS+m+WZqOW3peWOggogKiDmoLnmja7or63oqIDnsbvlnovov5Tlm57lr7nlupTnmoTooaXlhajmj5DkvpvlmagKICovCm9iamVjdCBDb21wbGV0aW9uUHJvdmlkZXJGYWN0b3J5IHsKICAgIC8qKgogICAgICog6I635Y+W6KGl5YWo5o+Q5L6b5ZmoCiAgICAgKiBAcGFyYW0gbGFuZ3VhZ2Ug6K+t6KiA57G75Z6LCiAgICAgKi8KICAgIGZ1biBnZXRQcm92aWRlcihsYW5ndWFnZTogU3RyaW5nKTogQ29tcGxldGlvblByb3ZpZGVyIHsKICAgICAgICByZXR1cm4gd2hlbiAobGFuZ3VhZ2UubG93ZXJjYXNlKCkpIHsKICAgICAgICAgICAgImphdmFzY3JpcHQiIC0+IEphdmFTY3JpcHRDb21wbGV0aW9uUHJvdmlkZXIoKQogICAgICAgICAgICAia290bGluIiAtPiBLb3RsaW5Db21wbGV0aW9uUHJvdmlkZXIoKQogICAgICAgICAgICAiaHRtbCIgLT4gSHRtbENvbXBsZXRpb25Qcm92aWRlcigpCiAgICAgICAgICAgICJkYXJ0IiAtPiBEYXJ0Q29tcGxldGlvblByb3ZpZGVyKCkKICAgICAgICAgICAgZWxzZSAtPiBEZWZhdWx0Q29tcGxldGlvblByb3ZpZGVyKCkKICAgICAgICB9CiAgICB9Cn0gCg==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.completion
+
+/**
+ * 补全提供器工厂
+ * 根据语言类型返回对应的补全提供器
+ */
+object CompletionProviderFactory {
+    /**
+     * 获取补全提供器
+     * @param language 语言类型
+     */
+    fun getProvider(language: String): CompletionProvider {
+        return when (language.lowercase()) {
+            "javascript" -> JavaScriptCompletionProvider()
+            "kotlin" -> KotlinCompletionProvider()
+            "html" -> HtmlCompletionProvider()
+            "dart" -> DartCompletionProvider()
+            else -> DefaultCompletionProvider()
+        }
+    }
+} 

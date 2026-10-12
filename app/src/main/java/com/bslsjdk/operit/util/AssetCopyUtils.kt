@@ -1,1 +1,119 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uRmlsZU91dHB1dFN0cmVhbQppbXBvcnQgamF2YS5pby5JT0V4Y2VwdGlvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCgpvYmplY3QgQXNzZXRDb3B5VXRpbHMgewogICAgZnVuIGNvcHlBc3NldFRvQ2FjaGUoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICBhc3NldFBhdGg6IFN0cmluZywKICAgICAgICBvdmVyd3JpdGU6IEJvb2xlYW4gPSBmYWxzZQogICAgKTogRmlsZSB7CiAgICAgICAgdmFsIGNhY2hlRmlsZSA9IEZpbGUoY29udGV4dC5jYWNoZURpciwgYXNzZXRQYXRoKQogICAgICAgIHJldHVybiBjb3B5QXNzZXRUb0ZpbGUoY29udGV4dCwgYXNzZXRQYXRoLCBjYWNoZUZpbGUsIG92ZXJ3cml0ZSkKICAgIH0KCiAgICBmdW4gY29weUFzc2V0VG9GaWxlKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgYXNzZXRQYXRoOiBTdHJpbmcsCiAgICAgICAgb3V0cHV0RmlsZTogRmlsZSwKICAgICAgICBvdmVyd3JpdGU6IEJvb2xlYW4gPSBmYWxzZQogICAgKTogRmlsZSB7CiAgICAgICAgaWYgKG91dHB1dEZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgaWYgKCFvdmVyd3JpdGUpIHsKICAgICAgICAgICAgICAgIHJldHVybiBvdXRwdXRGaWxlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgb3V0cHV0RmlsZS5kZWxldGUoKQogICAgICAgIH0KCiAgICAgICAgdmFsIHBhcmVudCA9IG91dHB1dEZpbGUucGFyZW50RmlsZQogICAgICAgIGlmIChwYXJlbnQgIT0gbnVsbCAmJiAhcGFyZW50LmV4aXN0cygpKSB7CiAgICAgICAgICAgIHBhcmVudC5ta2RpcnMoKQogICAgICAgIH0KCiAgICAgICAgY29udGV4dC5hc3NldHMub3Blbihhc3NldFBhdGgpLnVzZSB7IGlucHV0U3RyZWFtIC0+CiAgICAgICAgICAgIEZpbGVPdXRwdXRTdHJlYW0ob3V0cHV0RmlsZSkudXNlIHsgb3V0cHV0U3RyZWFtIC0+CiAgICAgICAgICAgICAgICBpbnB1dFN0cmVhbS5jb3B5VG8ob3V0cHV0U3RyZWFtKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gb3V0cHV0RmlsZQogICAgfQoKICAgIEBUaHJvd3MoSU9FeGNlcHRpb246OmNsYXNzKQogICAgZnVuIGNvcHlBc3NldERpclRvQ2FjaGUoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICBhc3NldERpcjogU3RyaW5nLAogICAgICAgIHRhcmdldERpcjogRmlsZSwKICAgICAgICBvdmVyd3JpdGU6IEJvb2xlYW4gPSBmYWxzZQogICAgKTogRmlsZSB7CiAgICAgICAgaWYgKCFvdmVyd3JpdGUgJiYgdGFyZ2V0RGlyLmV4aXN0cygpICYmIHRhcmdldERpci5saXN0KCk/LmlzTm90RW1wdHkoKSA9PSB0cnVlKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKCJBc3NldENvcHlVdGlscyIsICJBc3NldHMgYWxyZWFkeSBleGlzdCBpbiBjYWNoZTogJHt0YXJnZXREaXIuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIHJldHVybiB0YXJnZXREaXIKICAgICAgICB9CgogICAgICAgIHRhcmdldERpci5ta2RpcnMoKQogICAgICAgIHZhbCBhc3NldE1hbmFnZXIgPSBjb250ZXh0LmFzc2V0cwogICAgICAgIHZhbCBmaWxlTGlzdCA9IGFzc2V0TWFuYWdlci5saXN0KGFzc2V0RGlyKQogICAgICAgIGlmIChmaWxlTGlzdC5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgdGhyb3cgSU9FeGNlcHRpb24oIkFzc2V0IGRpcmVjdG9yeSAnJGFzc2V0RGlyJyBpcyBlbXB0eSBvciBkb2VzIG5vdCBleGlzdC4iKQogICAgICAgIH0KCiAgICAgICAgZmlsZUxpc3QuZm9yRWFjaCB7IGZpbGVOYW1lIC0+CiAgICAgICAgICAgIHZhbCBhc3NldFBhdGggPSAiJGFzc2V0RGlyLyRmaWxlTmFtZSIKICAgICAgICAgICAgdmFsIHRhcmdldEZpbGUgPSBGaWxlKHRhcmdldERpciwgZmlsZU5hbWUpCiAgICAgICAgICAgIGFzc2V0TWFuYWdlci5vcGVuKGFzc2V0UGF0aCkudXNlIHsgaW5wdXRTdHJlYW0gLT4KICAgICAgICAgICAgICAgIEZpbGVPdXRwdXRTdHJlYW0odGFyZ2V0RmlsZSkudXNlIHsgb3V0cHV0U3RyZWFtIC0+CiAgICAgICAgICAgICAgICAgICAgaW5wdXRTdHJlYW0uY29weVRvKG91dHB1dFN0cmVhbSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRhcmdldERpcgogICAgfQoKICAgIEBUaHJvd3MoSU9FeGNlcHRpb246OmNsYXNzKQogICAgZnVuIGNvcHlBc3NldERpclJlY3Vyc2l2ZSgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGFzc2V0RGlyOiBTdHJpbmcsCiAgICAgICAgdGFyZ2V0RGlyOiBGaWxlLAogICAgICAgIG92ZXJ3cml0ZTogQm9vbGVhbiA9IGZhbHNlCiAgICApOiBGaWxlIHsKICAgICAgICBpZiAob3ZlcndyaXRlICYmIHRhcmdldERpci5leGlzdHMoKSkgewogICAgICAgICAgICB0YXJnZXREaXIuZGVsZXRlUmVjdXJzaXZlbHkoKQogICAgICAgIH0gZWxzZSBpZiAoIW92ZXJ3cml0ZSAmJiB0YXJnZXREaXIuZXhpc3RzKCkgJiYgdGFyZ2V0RGlyLmxpc3QoKT8uaXNOb3RFbXB0eSgpID09IHRydWUpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIkFzc2V0Q29weVV0aWxzIiwgIkFzc2V0cyBhbHJlYWR5IGV4aXN0IGluIGNhY2hlOiAke3RhcmdldERpci5hYnNvbHV0ZVBhdGh9IikKICAgICAgICAgICAgcmV0dXJuIHRhcmdldERpcgogICAgICAgIH0KCiAgICAgICAgaWYgKCF0YXJnZXREaXIuZXhpc3RzKCkgJiYgIXRhcmdldERpci5ta2RpcnMoKSkgewogICAgICAgICAgICB0aHJvdyBJT0V4Y2VwdGlvbigiRmFpbGVkIHRvIGNyZWF0ZSB0YXJnZXQgZGlyZWN0b3J5OiAke3RhcmdldERpci5hYnNvbHV0ZVBhdGh9IikKICAgICAgICB9CgogICAgICAgIHZhbCBhc3NldE1hbmFnZXIgPSBjb250ZXh0LmFzc2V0cwogICAgICAgIHZhbCBlbnRyaWVzID0gYXNzZXRNYW5hZ2VyLmxpc3QoYXNzZXREaXIpCiAgICAgICAgaWYgKGVudHJpZXMuaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgIHRocm93IElPRXhjZXB0aW9uKCJBc3NldCBkaXJlY3RvcnkgJyRhc3NldERpcicgaXMgZW1wdHkgb3IgZG9lcyBub3QgZXhpc3QuIikKICAgICAgICB9CgogICAgICAgIGVudHJpZXMuZm9yRWFjaCB7IGVudHJ5IC0+CiAgICAgICAgICAgIHZhbCBhc3NldFBhdGggPSAiJGFzc2V0RGlyLyRlbnRyeSIKICAgICAgICAgICAgdmFsIG91dHB1dEZpbGUgPSBGaWxlKHRhcmdldERpciwgZW50cnkpCiAgICAgICAgICAgIHZhbCBjaGlsZHJlbiA9IGFzc2V0TWFuYWdlci5saXN0KGFzc2V0UGF0aCkKICAgICAgICAgICAgaWYgKCFjaGlsZHJlbi5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIGNvcHlBc3NldERpclJlY3Vyc2l2ZShjb250ZXh0LCBhc3NldFBhdGgsIG91dHB1dEZpbGUsIG92ZXJ3cml0ZSA9IHRydWUpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBhc3NldE1hbmFnZXIub3Blbihhc3NldFBhdGgpLnVzZSB7IGlucHV0U3RyZWFtIC0+CiAgICAgICAgICAgICAgICAgICAgRmlsZU91dHB1dFN0cmVhbShvdXRwdXRGaWxlKS51c2UgeyBvdXRwdXRTdHJlYW0gLT4KICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRTdHJlYW0uY29weVRvKG91dHB1dFN0cmVhbSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiB0YXJnZXREaXIKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
+import com.bslsjdk.operit.util.AppLogger
+
+object AssetCopyUtils {
+    fun copyAssetToCache(
+        context: Context,
+        assetPath: String,
+        overwrite: Boolean = false
+    ): File {
+        val cacheFile = File(context.cacheDir, assetPath)
+        return copyAssetToFile(context, assetPath, cacheFile, overwrite)
+    }
+
+    fun copyAssetToFile(
+        context: Context,
+        assetPath: String,
+        outputFile: File,
+        overwrite: Boolean = false
+    ): File {
+        if (outputFile.exists()) {
+            if (!overwrite) {
+                return outputFile
+            }
+            outputFile.delete()
+        }
+
+        val parent = outputFile.parentFile
+        if (parent != null && !parent.exists()) {
+            parent.mkdirs()
+        }
+
+        context.assets.open(assetPath).use { inputStream ->
+            FileOutputStream(outputFile).use { outputStream ->
+                inputStream.copyTo(outputStream)
+            }
+        }
+
+        return outputFile
+    }
+
+    @Throws(IOException::class)
+    fun copyAssetDirToCache(
+        context: Context,
+        assetDir: String,
+        targetDir: File,
+        overwrite: Boolean = false
+    ): File {
+        if (!overwrite && targetDir.exists() && targetDir.list()?.isNotEmpty() == true) {
+            AppLogger.d("AssetCopyUtils", "Assets already exist in cache: ${targetDir.absolutePath}")
+            return targetDir
+        }
+
+        targetDir.mkdirs()
+        val assetManager = context.assets
+        val fileList = assetManager.list(assetDir)
+        if (fileList.isNullOrEmpty()) {
+            throw IOException("Asset directory '$assetDir' is empty or does not exist.")
+        }
+
+        fileList.forEach { fileName ->
+            val assetPath = "$assetDir/$fileName"
+            val targetFile = File(targetDir, fileName)
+            assetManager.open(assetPath).use { inputStream ->
+                FileOutputStream(targetFile).use { outputStream ->
+                    inputStream.copyTo(outputStream)
+                }
+            }
+        }
+
+        return targetDir
+    }
+
+    @Throws(IOException::class)
+    fun copyAssetDirRecursive(
+        context: Context,
+        assetDir: String,
+        targetDir: File,
+        overwrite: Boolean = false
+    ): File {
+        if (overwrite && targetDir.exists()) {
+            targetDir.deleteRecursively()
+        } else if (!overwrite && targetDir.exists() && targetDir.list()?.isNotEmpty() == true) {
+            AppLogger.d("AssetCopyUtils", "Assets already exist in cache: ${targetDir.absolutePath}")
+            return targetDir
+        }
+
+        if (!targetDir.exists() && !targetDir.mkdirs()) {
+            throw IOException("Failed to create target directory: ${targetDir.absolutePath}")
+        }
+
+        val assetManager = context.assets
+        val entries = assetManager.list(assetDir)
+        if (entries.isNullOrEmpty()) {
+            throw IOException("Asset directory '$assetDir' is empty or does not exist.")
+        }
+
+        entries.forEach { entry ->
+            val assetPath = "$assetDir/$entry"
+            val outputFile = File(targetDir, entry)
+            val children = assetManager.list(assetPath)
+            if (!children.isNullOrEmpty()) {
+                copyAssetDirRecursive(context, assetPath, outputFile, overwrite = true)
+            } else {
+                assetManager.open(assetPath).use { inputStream ->
+                    FileOutputStream(outputFile).use { outputStream ->
+                        inputStream.copyTo(outputStream)
+                    }
+                }
+            }
+        }
+
+        return targetDir
+    }
+}

@@ -1,1 +1,87 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMud2Vic2Vzc2lvbi5icm93c2VyCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5TaGFyZWRQcmVmZXJlbmNlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ29sb3JTY2hlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlR5cG9ncmFwaHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuRGlzcG9zYWJsZUVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuU2VyaWFsaXphYmxlQ29sb3JTY2hlbWUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlNlcmlhbGl6YWJsZVR5cG9ncmFwaHkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLnRvQ29tcG9zZUNvbG9yU2NoZW1lCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC50b0NvbXBvc2VUeXBvZ3JhcGh5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuRmxvYXRpbmdDaGF0U2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZsb2F0aW5nLkZsb2F0aW5nV2luZG93VGhlbWUKaW1wb3J0IGNvbS5nb29nbGUuZ3Nvbi5Hc29uCgpwcml2YXRlIGNvbnN0IHZhbCBGTE9BVElOR19QUkVGU19OQU1FID0gImZsb2F0aW5nX2NoYXRfcHJlZnMiCnByaXZhdGUgY29uc3QgdmFsIFBSRUZfS0VZX0NPTE9SX1NDSEVNRSA9ICJmbG9hdGluZ19jb2xvcl9zY2hlbWVfanNvbiIKcHJpdmF0ZSBjb25zdCB2YWwgUFJFRl9LRVlfVFlQT0dSQVBIWSA9ICJmbG9hdGluZ190eXBvZ3JhcGh5X2pzb24iCgpwcml2YXRlIGRhdGEgY2xhc3MgV2ViU2Vzc2lvbkZsb2F0aW5nVGhlbWVTbmFwc2hvdCgKICAgIHZhbCBjb2xvclNjaGVtZTogQ29sb3JTY2hlbWU/ID0gbnVsbCwKICAgIHZhbCB0eXBvZ3JhcGh5OiBUeXBvZ3JhcGh5PyA9IG51bGwKKQoKQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIFdlYlNlc3Npb25GbG9hdGluZ1RoZW1lKGNvbnRlbnQ6IEBDb21wb3NhYmxlICgpIC0+IFVuaXQpIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQuYXBwbGljYXRpb25Db250ZXh0CiAgICB2YWwgZ3NvbiA9IHJlbWVtYmVyIHsgR3NvbigpIH0KICAgIHZhciBzbmFwc2hvdCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGxvYWRGbG9hdGluZ1RoZW1lU25hcHNob3QoY29udGV4dCwgZ3NvbikpIH0KCiAgICBEaXNwb3NhYmxlRWZmZWN0KGNvbnRleHQpIHsKICAgICAgICB2YWwgcHJlZnMgPSBjb250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKEZMT0FUSU5HX1BSRUZTX05BTUUsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgICAgIHZhbCBsaXN0ZW5lciA9CiAgICAgICAgICAgIFNoYXJlZFByZWZlcmVuY2VzLk9uU2hhcmVkUHJlZmVyZW5jZUNoYW5nZUxpc3RlbmVyIHsgXywga2V5IC0+CiAgICAgICAgICAgICAgICBpZiAoa2V5ID09IFBSRUZfS0VZX0NPTE9SX1NDSEVNRSB8fCBrZXkgPT0gUFJFRl9LRVlfVFlQT0dSQVBIWSkgewogICAgICAgICAgICAgICAgICAgIHNuYXBzaG90ID0gbG9hZEZsb2F0aW5nVGhlbWVTbmFwc2hvdChjb250ZXh0LCBnc29uKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgcHJlZnMucmVnaXN0ZXJPblNoYXJlZFByZWZlcmVuY2VDaGFuZ2VMaXN0ZW5lcihsaXN0ZW5lcikKICAgICAgICBvbkRpc3Bvc2UgewogICAgICAgICAgICBwcmVmcy51bnJlZ2lzdGVyT25TaGFyZWRQcmVmZXJlbmNlQ2hhbmdlTGlzdGVuZXIobGlzdGVuZXIpCiAgICAgICAgfQogICAgfQoKICAgIHZhbCBsaXZlU2VydmljZSA9IEZsb2F0aW5nQ2hhdFNlcnZpY2UuZ2V0SW5zdGFuY2UoKQogICAgRmxvYXRpbmdXaW5kb3dUaGVtZSgKICAgICAgICBjb2xvclNjaGVtZSA9IGxpdmVTZXJ2aWNlPy5nZXRDb2xvclNjaGVtZSgpID86IHNuYXBzaG90LmNvbG9yU2NoZW1lLAogICAgICAgIHR5cG9ncmFwaHkgPSBsaXZlU2VydmljZT8uZ2V0VHlwb2dyYXBoeSgpID86IHNuYXBzaG90LnR5cG9ncmFwaHkKICAgICkgewogICAgICAgIGNvbnRlbnQoKQogICAgfQp9Cgpwcml2YXRlIGZ1biBsb2FkRmxvYXRpbmdUaGVtZVNuYXBzaG90KAogICAgY29udGV4dDogQ29udGV4dCwKICAgIGdzb246IEdzb24KKTogV2ViU2Vzc2lvbkZsb2F0aW5nVGhlbWVTbmFwc2hvdCB7CiAgICB2YWwgcHJlZnMgPSBjb250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKEZMT0FUSU5HX1BSRUZTX05BTUUsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgdmFsIGNvbG9yU2NoZW1lID0KICAgICAgICBwcmVmcwogICAgICAgICAgICAuZ2V0U3RyaW5nKFBSRUZfS0VZX0NPTE9SX1NDSEVNRSwgbnVsbCkKICAgICAgICAgICAgPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgICAgICA/LmxldCB7IHJhdyAtPgogICAgICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgICAgIGdzb24uZnJvbUpzb24ocmF3LCBTZXJpYWxpemFibGVDb2xvclNjaGVtZTo6Y2xhc3MuamF2YSkudG9Db21wb3NlQ29sb3JTY2hlbWUoKQogICAgICAgICAgICAgICAgfS5nZXRPck51bGwoKQogICAgICAgICAgICB9CiAgICB2YWwgdHlwb2dyYXBoeSA9CiAgICAgICAgcHJlZnMKICAgICAgICAgICAgLmdldFN0cmluZyhQUkVGX0tFWV9UWVBPR1JBUEhZLCBudWxsKQogICAgICAgICAgICA/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgID8ubGV0IHsgcmF3IC0+CiAgICAgICAgICAgICAgICBydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICAgICAgZ3Nvbi5mcm9tSnNvbihyYXcsIFNlcmlhbGl6YWJsZVR5cG9ncmFwaHk6OmNsYXNzLmphdmEpLnRvQ29tcG9zZVR5cG9ncmFwaHkoKQogICAgICAgICAgICAgICAgfS5nZXRPck51bGwoKQogICAgICAgICAgICB9CiAgICByZXR1cm4gV2ViU2Vzc2lvbkZsb2F0aW5nVGhlbWVTbmFwc2hvdCgKICAgICAgICBjb2xvclNjaGVtZSA9IGNvbG9yU2NoZW1lLAogICAgICAgIHR5cG9ncmFwaHkgPSB0eXBvZ3JhcGh5CiAgICApCn0K
+package com.bslsjdk.operit.ui.features.websession.browser
+
+import android.content.Context
+import android.content.SharedPreferences
+import androidx.compose.material3.ColorScheme
+import androidx.compose.material3.Typography
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.platform.LocalContext
+import com.bslsjdk.operit.data.model.SerializableColorScheme
+import com.bslsjdk.operit.data.model.SerializableTypography
+import com.bslsjdk.operit.data.model.toComposeColorScheme
+import com.bslsjdk.operit.data.model.toComposeTypography
+import com.bslsjdk.operit.services.FloatingChatService
+import com.bslsjdk.operit.ui.floating.FloatingWindowTheme
+import com.google.gson.Gson
+
+private const val FLOATING_PREFS_NAME = "floating_chat_prefs"
+private const val PREF_KEY_COLOR_SCHEME = "floating_color_scheme_json"
+private const val PREF_KEY_TYPOGRAPHY = "floating_typography_json"
+
+private data class WebSessionFloatingThemeSnapshot(
+    val colorScheme: ColorScheme? = null,
+    val typography: Typography? = null
+)
+
+@Composable
+internal fun WebSessionFloatingTheme(content: @Composable () -> Unit) {
+    val context = LocalContext.current.applicationContext
+    val gson = remember { Gson() }
+    var snapshot by remember { mutableStateOf(loadFloatingThemeSnapshot(context, gson)) }
+
+    DisposableEffect(context) {
+        val prefs = context.getSharedPreferences(FLOATING_PREFS_NAME, Context.MODE_PRIVATE)
+        val listener =
+            SharedPreferences.OnSharedPreferenceChangeListener { _, key ->
+                if (key == PREF_KEY_COLOR_SCHEME || key == PREF_KEY_TYPOGRAPHY) {
+                    snapshot = loadFloatingThemeSnapshot(context, gson)
+                }
+            }
+        prefs.registerOnSharedPreferenceChangeListener(listener)
+        onDispose {
+            prefs.unregisterOnSharedPreferenceChangeListener(listener)
+        }
+    }
+
+    val liveService = FloatingChatService.getInstance()
+    FloatingWindowTheme(
+        colorScheme = liveService?.getColorScheme() ?: snapshot.colorScheme,
+        typography = liveService?.getTypography() ?: snapshot.typography
+    ) {
+        content()
+    }
+}
+
+private fun loadFloatingThemeSnapshot(
+    context: Context,
+    gson: Gson
+): WebSessionFloatingThemeSnapshot {
+    val prefs = context.getSharedPreferences(FLOATING_PREFS_NAME, Context.MODE_PRIVATE)
+    val colorScheme =
+        prefs
+            .getString(PREF_KEY_COLOR_SCHEME, null)
+            ?.takeIf { it.isNotBlank() }
+            ?.let { raw ->
+                runCatching {
+                    gson.fromJson(raw, SerializableColorScheme::class.java).toComposeColorScheme()
+                }.getOrNull()
+            }
+    val typography =
+        prefs
+            .getString(PREF_KEY_TYPOGRAPHY, null)
+            ?.takeIf { it.isNotBlank() }
+            ?.let { raw ->
+                runCatching {
+                    gson.fromJson(raw, SerializableTypography::class.java).toComposeTypography()
+                }.getOrNull()
+            }
+    return WebSessionFloatingThemeSnapshot(
+        colorScheme = colorScheme,
+        typography = typography
+    )
+}

@@ -1,1 +1,154 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlBhY2thZ2VNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0VjJFbnRyeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubWNwLk1DUExvY2FsU2VydmVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5za2lsbC5Ta2lsbFJlcG9zaXRvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmdvb2dsZS5nc29uLkdzb24KaW1wb3J0IGphdmEuaW8uRmlsZQoKZGF0YSBjbGFzcyBNYXJrZXRJbnN0YWxsTWFya2VyKAogICAgdmFsIGVudHJ5SWQ6IFN0cmluZywKICAgIHZhbCB2ZXJzaW9uSWQ6IFN0cmluZwopCgplbnVtIGNsYXNzIE1hcmtldExvY2FsSW5zdGFsbFN0YXRlS2luZCB7CiAgICBOT1RfSU5TVEFMTEVELAogICAgSU5TVEFMTEVELAogICAgVVBEQVRFX0FWQUlMQUJMRQp9CgpkYXRhIGNsYXNzIE1hcmtldExvY2FsSW5zdGFsbFN0YXRlKAogICAgdmFsIGVudHJ5SWQ6IFN0cmluZywKICAgIHZhbCBraW5kOiBNYXJrZXRMb2NhbEluc3RhbGxTdGF0ZUtpbmQKKQoKZnVuIHdyaXRlTWFya2V0SW5zdGFsbE1hcmtlcihyb290OiBGaWxlLCBlbnRyeTogTWFya2V0VjJFbnRyeSkgewogICAgdmFsIHZlcnNpb25JZCA9IGVudHJ5LmxhdGVzdFZlcnNpb24/LmlkPy50cmltKCkub3JFbXB0eSgpCiAgICBpZiAoZW50cnkuaWQuaXNCbGFuaygpIHx8IHZlcnNpb25JZC5pc0JsYW5rKCkpIHsKICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIk1hcmtldCBlbnRyeS92ZXJzaW9uIGlkIGlzIG1pc3NpbmciKQogICAgfQogICAgdmFsIG1hcmtlckRpciA9IEZpbGUocm9vdCwgTUFSS0VUX01BUktFUl9ESVJfTkFNRSkKICAgIGlmICghbWFya2VyRGlyLmV4aXN0cygpICYmICFtYXJrZXJEaXIubWtkaXJzKCkpIHsKICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkZhaWxlZCB0byBjcmVhdGUgbWFya2V0IG1hcmtlciBkaXI6ICR7bWFya2VyRGlyLmFic29sdXRlUGF0aH0iKQogICAgfQogICAgRmlsZShtYXJrZXJEaXIsIE1BUktFVF9NQVJLRVJfRklMRV9OQU1FKS53cml0ZVRleHQoCiAgICAgICAgR3NvbigpLnRvSnNvbihNYXJrZXRJbnN0YWxsTWFya2VyKGVudHJ5SWQgPSBlbnRyeS5pZCwgdmVyc2lvbklkID0gdmVyc2lvbklkKSkKICAgICkKfQoKZnVuIHJlc29sdmVNYXJrZXRMb2NhbEluc3RhbGxTdGF0ZXMoCiAgICBjb250ZXh0OiBDb250ZXh0LAogICAgcGFja2FnZU1hbmFnZXI6IFBhY2thZ2VNYW5hZ2VyLAogICAgZW50cmllczogTGlzdDxNYXJrZXRWMkVudHJ5PgopOiBNYXA8U3RyaW5nLCBNYXJrZXRMb2NhbEluc3RhbGxTdGF0ZT4gewogICAgdmFsIG1hcmtlcnMgPSByZWFkSW5zdGFsbGVkTWFya2V0TWFya2VyUm9vdHMoY29udGV4dCwgcGFja2FnZU1hbmFnZXIpLmFzc29jaWF0ZUJ5IHsgbWFya2VyUm9vdCAtPiBtYXJrZXJSb290Lm1hcmtlci5lbnRyeUlkIH0KICAgIHJldHVybiBlbnRyaWVzLmFzc29jaWF0ZSB7IGVudHJ5IC0+CiAgICAgICAgdmFsIG1hcmtlciA9IG1hcmtlcnNbZW50cnkuaWRdPy5tYXJrZXIKICAgICAgICB2YWwgY3VycmVudFZlcnNpb25JZCA9IGVudHJ5LmxhdGVzdFZlcnNpb24/LmlkLm9yRW1wdHkoKQogICAgICAgIHZhbCBraW5kID0KICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICBtYXJrZXIgPT0gbnVsbCAtPiBNYXJrZXRMb2NhbEluc3RhbGxTdGF0ZUtpbmQuTk9UX0lOU1RBTExFRAogICAgICAgICAgICAgICAgbWFya2VyLnZlcnNpb25JZCA9PSBjdXJyZW50VmVyc2lvbklkIC0+IE1hcmtldExvY2FsSW5zdGFsbFN0YXRlS2luZC5JTlNUQUxMRUQKICAgICAgICAgICAgICAgIGVsc2UgLT4gTWFya2V0TG9jYWxJbnN0YWxsU3RhdGVLaW5kLlVQREFURV9BVkFJTEFCTEUKICAgICAgICAgICAgfQogICAgICAgIGVudHJ5LmlkIHRvIE1hcmtldExvY2FsSW5zdGFsbFN0YXRlKGVudHJ5SWQgPSBlbnRyeS5pZCwga2luZCA9IGtpbmQpCiAgICB9Cn0KCmZ1biBmaW5kSW5zdGFsbGVkTWFya2V0TWFya2VyUm9vdCgKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBwYWNrYWdlTWFuYWdlcjogUGFja2FnZU1hbmFnZXIsCiAgICBlbnRyeUlkOiBTdHJpbmcKKTogRmlsZT8gewogICAgcmV0dXJuIGZpbmRJbnN0YWxsZWRNYXJrZXRNYXJrZXJSb290cyhjb250ZXh0LCBwYWNrYWdlTWFuYWdlciwgZW50cnlJZCkuZmlyc3RPck51bGwoKQp9CgpmdW4gZmluZEluc3RhbGxlZE1hcmtldE1hcmtlclJvb3RzKAogICAgY29udGV4dDogQ29udGV4dCwKICAgIHBhY2thZ2VNYW5hZ2VyOiBQYWNrYWdlTWFuYWdlciwKICAgIGVudHJ5SWQ6IFN0cmluZwopOiBMaXN0PEZpbGU+IHsKICAgIHJldHVybiByZWFkSW5zdGFsbGVkTWFya2V0TWFya2VyUm9vdHMoY29udGV4dCwgcGFja2FnZU1hbmFnZXIpCiAgICAgICAgLmZpbHRlciB7IG1hcmtlclJvb3QgLT4gbWFya2VyUm9vdC5tYXJrZXIuZW50cnlJZCA9PSBlbnRyeUlkIH0KICAgICAgICAubWFwIHsgbWFya2VyUm9vdCAtPiBtYXJrZXJSb290LnJvb3QgfQp9CgpmdW4gYXJ0aWZhY3RNYXJrZXRNYXJrZXJSb290KHBhY2thZ2VNYW5hZ2VyOiBQYWNrYWdlTWFuYWdlciwgcGFja2FnZU5hbWU6IFN0cmluZyk6IEZpbGUgewogICAgdmFsIHBhdGggPSBwYWNrYWdlTWFuYWdlci5nZXRQbHVnaW5Db25maWdEaXJQYXRoKHBhY2thZ2VOYW1lKQogICAgaWYgKHBhdGguaXNCbGFuaygpKSB7CiAgICAgICAgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJBcnRpZmFjdCBwYWNrYWdlIG5hbWUgaXMgbWlzc2luZyIpCiAgICB9CiAgICByZXR1cm4gRmlsZShwYXRoKQp9CgpmdW4gbWNwQ29uZmlnTWFya2V0TWFya2VyUm9vdChjb250ZXh0OiBDb250ZXh0LCBzZXJ2ZXJJZDogU3RyaW5nKTogRmlsZSB7CiAgICB2YWwgc2FmZVNlcnZlcklkID0KICAgICAgICBzZXJ2ZXJJZAogICAgICAgICAgICAudHJpbSgpCiAgICAgICAgICAgIC5yZXBsYWNlKFJlZ2V4KCIiIltcXC86Kj8iPD58XHUwMDAwLVx1MDAxRl0iIiIpLCAiXyIpCiAgICAgICAgICAgIC50cmltKCcuJywgJyAnKQogICAgICAgICAgICAuaWZCbGFuayB7IHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiTUNQIHNlcnZlciBpZCBpcyBtaXNzaW5nIikgfQogICAgcmV0dXJuIEZpbGUoY29udGV4dC5maWxlc0RpciwgIm1hcmtldF9pbnN0YWxsX21hcmtlcnMvbWNwX2NvbmZpZy8kc2FmZVNlcnZlcklkIikKfQoKcHJpdmF0ZSBkYXRhIGNsYXNzIE1hcmtldEluc3RhbGxNYXJrZXJSb290KAogICAgdmFsIG1hcmtlcjogTWFya2V0SW5zdGFsbE1hcmtlciwKICAgIHZhbCByb290OiBGaWxlCikKCnByaXZhdGUgZnVuIHJlYWRJbnN0YWxsZWRNYXJrZXRNYXJrZXJSb290cygKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBwYWNrYWdlTWFuYWdlcjogUGFja2FnZU1hbmFnZXIKKTogTGlzdDxNYXJrZXRJbnN0YWxsTWFya2VyUm9vdD4gewogICAgdmFsIHJvb3RzID0gYnVpbGRMaXN0IHsKICAgICAgICB2YWwgc2tpbGxSb290ID0gRmlsZShTa2lsbFJlcG9zaXRvcnkuZ2V0SW5zdGFuY2UoY29udGV4dCkuZ2V0U2tpbGxzRGlyZWN0b3J5UGF0aCgpKQogICAgICAgIGFkZEFsbChza2lsbFJvb3QubGlzdEZpbGVzKCk/LmZpbHRlciB7IGl0LmlzRGlyZWN0b3J5IH0ub3JFbXB0eSgpKQoKICAgICAgICB2YWwgbG9jYWxTZXJ2ZXIgPSBNQ1BMb2NhbFNlcnZlci5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgICAgIGxvY2FsU2VydmVyLmdldEFsbFBsdWdpbk1ldGFkYXRhKCkudmFsdWVzLmZvckVhY2ggeyBtZXRhZGF0YSAtPgogICAgICAgICAgICBtZXRhZGF0YS5pbnN0YWxsZWRQYXRoPy50cmltKCk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9Py5sZXQgeyBhZGQoRmlsZShpdCkpIH0KICAgICAgICB9CiAgICAgICAgbG9jYWxTZXJ2ZXIuZ2V0QWxsTUNQU2VydmVycygpLmtleXMuZm9yRWFjaCB7IHNlcnZlcklkIC0+CiAgICAgICAgICAgIGFkZChtY3BDb25maWdNYXJrZXRNYXJrZXJSb290KGNvbnRleHQsIHNlcnZlcklkKSkKICAgICAgICB9CgogICAgICAgIHBhY2thZ2VNYW5hZ2VyLmdldFB1Ymxpc2hhYmxlUGFja2FnZVNvdXJjZXMoKS5mb3JFYWNoIHsgc291cmNlIC0+CiAgICAgICAgICAgIGFkZChhcnRpZmFjdE1hcmtldE1hcmtlclJvb3QocGFja2FnZU1hbmFnZXIsIHNvdXJjZS5wYWNrYWdlTmFtZSkpCiAgICAgICAgfQogICAgfQoKICAgIHJldHVybiByb290cwogICAgICAgIC5hc1NlcXVlbmNlKCkKICAgICAgICAubWFwTm90TnVsbCB7IHJvb3QgLT4KICAgICAgICAgICAgcmVhZE1hcmtldEluc3RhbGxNYXJrZXIocm9vdCk/LmxldCB7IG1hcmtlciAtPgogICAgICAgICAgICAgICAgTWFya2V0SW5zdGFsbE1hcmtlclJvb3QobWFya2VyID0gbWFya2VyLCByb290ID0gcm9vdCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAudG9MaXN0KCkKfQoKcHJpdmF0ZSBmdW4gcmVhZE1hcmtldEluc3RhbGxNYXJrZXIocm9vdDogRmlsZSk6IE1hcmtldEluc3RhbGxNYXJrZXI/IHsKICAgIHZhbCBtYXJrZXJGaWxlID0gRmlsZShGaWxlKHJvb3QsIE1BUktFVF9NQVJLRVJfRElSX05BTUUpLCBNQVJLRVRfTUFSS0VSX0ZJTEVfTkFNRSkKICAgIHJldHVybiB0cnkgewogICAgICAgIC8vIEEgc3RhbGUgZXh0ZXJuYWwtc3RvcmFnZSBtYXJrZXIgbXVzdCBub3QgYWJvcnQgdGhlIG1hcmtldCBzY2FuIGZvciBldmVyeSBlbnRyeS4KICAgICAgICBpZiAoIW1hcmtlckZpbGUuZXhpc3RzKCkgfHwgIW1hcmtlckZpbGUuaXNGaWxlKSByZXR1cm4gbnVsbAogICAgICAgIEdzb24oKS5mcm9tSnNvbihtYXJrZXJGaWxlLnJlYWRUZXh0KCksIE1hcmtldEluc3RhbGxNYXJrZXI6OmNsYXNzLmphdmEpCiAgICAgICAgICAgIC50YWtlSWYgeyBtYXJrZXIgLT4KICAgICAgICAgICAgICAgIG1hcmtlci5lbnRyeUlkLmlzTm90QmxhbmsoKSAmJiBtYXJrZXIudmVyc2lvbklkLmlzTm90QmxhbmsoKQogICAgICAgICAgICB9CiAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgQXBwTG9nZ2VyLncoCiAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgIlNraXBwaW5nIHVucmVhZGFibGUgbWFya2V0IGluc3RhbGwgbWFya2VyOiAke21hcmtlckZpbGUuYWJzb2x1dGVQYXRofSIsCiAgICAgICAgICAgIGVycm9yCiAgICAgICAgKQogICAgICAgIG51bGwKICAgIH0KfQoKcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIk1hcmtldEluc3RhbGxNYXJrZXIiCnByaXZhdGUgY29uc3QgdmFsIE1BUktFVF9NQVJLRVJfRElSX05BTUUgPSAiLm9wZXJpdCIKcHJpdmF0ZSBjb25zdCB2YWwgTUFSS0VUX01BUktFUl9GSUxFX05BTUUgPSAibWFya2V0Lmpzb24iCg==
+package com.bslsjdk.operit.ui.features.packages.market
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.data.api.MarketV2Entry
+import com.bslsjdk.operit.data.mcp.MCPLocalServer
+import com.bslsjdk.operit.data.skill.SkillRepository
+import com.bslsjdk.operit.util.AppLogger
+import com.google.gson.Gson
+import java.io.File
+
+data class MarketInstallMarker(
+    val entryId: String,
+    val versionId: String
+)
+
+enum class MarketLocalInstallStateKind {
+    NOT_INSTALLED,
+    INSTALLED,
+    UPDATE_AVAILABLE
+}
+
+data class MarketLocalInstallState(
+    val entryId: String,
+    val kind: MarketLocalInstallStateKind
+)
+
+fun writeMarketInstallMarker(root: File, entry: MarketV2Entry) {
+    val versionId = entry.latestVersion?.id?.trim().orEmpty()
+    if (entry.id.isBlank() || versionId.isBlank()) {
+        throw IllegalStateException("Market entry/version id is missing")
+    }
+    val markerDir = File(root, MARKET_MARKER_DIR_NAME)
+    if (!markerDir.exists() && !markerDir.mkdirs()) {
+        throw IllegalStateException("Failed to create market marker dir: ${markerDir.absolutePath}")
+    }
+    File(markerDir, MARKET_MARKER_FILE_NAME).writeText(
+        Gson().toJson(MarketInstallMarker(entryId = entry.id, versionId = versionId))
+    )
+}
+
+fun resolveMarketLocalInstallStates(
+    context: Context,
+    packageManager: PackageManager,
+    entries: List<MarketV2Entry>
+): Map<String, MarketLocalInstallState> {
+    val markers = readInstalledMarketMarkerRoots(context, packageManager).associateBy { markerRoot -> markerRoot.marker.entryId }
+    return entries.associate { entry ->
+        val marker = markers[entry.id]?.marker
+        val currentVersionId = entry.latestVersion?.id.orEmpty()
+        val kind =
+            when {
+                marker == null -> MarketLocalInstallStateKind.NOT_INSTALLED
+                marker.versionId == currentVersionId -> MarketLocalInstallStateKind.INSTALLED
+                else -> MarketLocalInstallStateKind.UPDATE_AVAILABLE
+            }
+        entry.id to MarketLocalInstallState(entryId = entry.id, kind = kind)
+    }
+}
+
+fun findInstalledMarketMarkerRoot(
+    context: Context,
+    packageManager: PackageManager,
+    entryId: String
+): File? {
+    return findInstalledMarketMarkerRoots(context, packageManager, entryId).firstOrNull()
+}
+
+fun findInstalledMarketMarkerRoots(
+    context: Context,
+    packageManager: PackageManager,
+    entryId: String
+): List<File> {
+    return readInstalledMarketMarkerRoots(context, packageManager)
+        .filter { markerRoot -> markerRoot.marker.entryId == entryId }
+        .map { markerRoot -> markerRoot.root }
+}
+
+fun artifactMarketMarkerRoot(packageManager: PackageManager, packageName: String): File {
+    val path = packageManager.getPluginConfigDirPath(packageName)
+    if (path.isBlank()) {
+        throw IllegalStateException("Artifact package name is missing")
+    }
+    return File(path)
+}
+
+fun mcpConfigMarketMarkerRoot(context: Context, serverId: String): File {
+    val safeServerId =
+        serverId
+            .trim()
+            .replace(Regex("""[\\/:*?"<>|\u0000-\u001F]"""), "_")
+            .trim('.', ' ')
+            .ifBlank { throw IllegalStateException("MCP server id is missing") }
+    return File(context.filesDir, "market_install_markers/mcp_config/$safeServerId")
+}
+
+private data class MarketInstallMarkerRoot(
+    val marker: MarketInstallMarker,
+    val root: File
+)
+
+private fun readInstalledMarketMarkerRoots(
+    context: Context,
+    packageManager: PackageManager
+): List<MarketInstallMarkerRoot> {
+    val roots = buildList {
+        val skillRoot = File(SkillRepository.getInstance(context).getSkillsDirectoryPath())
+        addAll(skillRoot.listFiles()?.filter { it.isDirectory }.orEmpty())
+
+        val localServer = MCPLocalServer.getInstance(context)
+        localServer.getAllPluginMetadata().values.forEach { metadata ->
+            metadata.installedPath?.trim()?.takeIf { it.isNotBlank() }?.let { add(File(it)) }
+        }
+        localServer.getAllMCPServers().keys.forEach { serverId ->
+            add(mcpConfigMarketMarkerRoot(context, serverId))
+        }
+
+        packageManager.getPublishablePackageSources().forEach { source ->
+            add(artifactMarketMarkerRoot(packageManager, source.packageName))
+        }
+    }
+
+    return roots
+        .asSequence()
+        .mapNotNull { root ->
+            readMarketInstallMarker(root)?.let { marker ->
+                MarketInstallMarkerRoot(marker = marker, root = root)
+            }
+        }
+        .toList()
+}
+
+private fun readMarketInstallMarker(root: File): MarketInstallMarker? {
+    val markerFile = File(File(root, MARKET_MARKER_DIR_NAME), MARKET_MARKER_FILE_NAME)
+    return try {
+        // A stale external-storage marker must not abort the market scan for every entry.
+        if (!markerFile.exists() || !markerFile.isFile) return null
+        Gson().fromJson(markerFile.readText(), MarketInstallMarker::class.java)
+            .takeIf { marker ->
+                marker.entryId.isNotBlank() && marker.versionId.isNotBlank()
+            }
+    } catch (error: Exception) {
+        AppLogger.w(
+            TAG,
+            "Skipping unreadable market install marker: ${markerFile.absolutePath}",
+            error
+        )
+        null
+    }
+}
+
+private const val TAG = "MarketInstallMarker"
+private const val MARKET_MARKER_DIR_NAME = ".operit"
+private const val MARKET_MARKER_FILE_NAME = "market.json"

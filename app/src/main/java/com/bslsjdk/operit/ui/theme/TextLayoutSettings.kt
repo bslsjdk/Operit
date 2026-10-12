@@ -1,1 +1,48 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkudGhlbWUKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2l0aW9uTG9jYWxQcm92aWRlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmNvbGxlY3RBc1N0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmNvbXBvc2l0aW9uTG9jYWxPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLlVzZXJQcmVmZXJlbmNlc01hbmFnZXIKCi8qKgogKiBBSSBNYXJrZG93biDmlofmnKzluIPlsYDorr7nva7jgIIKICoKICogLSBsaW5lSGVpZ2h0TXVsdGlwbGllcu+8mumineWkluihjOi3neWAjeeOh++8jDFmIOS4uum7mOiupOWAvAogKiAtIGxldHRlclNwYWNpbmdTcO+8mumineWkluWtl+i3ne+8jOWNleS9jSBzcAogKiAtIHBhcmFncmFwaFNwYWNpbmdEcO+8muauteiQveS5i+mXtOmineWkluWinuWKoOeahOmXtOi3ne+8jOWNleS9jSBkcAogKi8KZGF0YSBjbGFzcyBBaU1hcmtkb3duVGV4dExheW91dFNldHRpbmdzKAogICAgdmFsIGxpbmVIZWlnaHRNdWx0aXBsaWVyOiBGbG9hdCA9IDFmLAogICAgdmFsIGxldHRlclNwYWNpbmdTcDogRmxvYXQgPSAwZiwKICAgIHZhbCBwYXJhZ3JhcGhTcGFjaW5nRHA6IEZsb2F0ID0gMTJmCikKCnZhbCBMb2NhbEFpTWFya2Rvd25UZXh0TGF5b3V0U2V0dGluZ3MgPSBjb21wb3NpdGlvbkxvY2FsT2YgewogICAgQWlNYXJrZG93blRleHRMYXlvdXRTZXR0aW5ncygpCn0KCkBDb21wb3NhYmxlCmZ1biBQcm92aWRlQWlNYXJrZG93blRleHRMYXlvdXRTZXR0aW5ncyhjb250ZW50OiBAQ29tcG9zYWJsZSAoKSAtPiBVbml0KSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgcHJlZmVyZW5jZXNNYW5hZ2VyID0gcmVtZW1iZXIgeyBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpIH0KICAgIHZhbCBsaW5lSGVpZ2h0TXVsdGlwbGllciBieSBwcmVmZXJlbmNlc01hbmFnZXIuYWlNYXJrZG93bkxpbmVIZWlnaHRNdWx0aXBsaWVyLmNvbGxlY3RBc1N0YXRlKGluaXRpYWwgPSAxZikKICAgIHZhbCBsZXR0ZXJTcGFjaW5nIGJ5IHByZWZlcmVuY2VzTWFuYWdlci5haU1hcmtkb3duTGV0dGVyU3BhY2luZy5jb2xsZWN0QXNTdGF0ZShpbml0aWFsID0gMGYpCiAgICB2YWwgcGFyYWdyYXBoU3BhY2luZyBieSBwcmVmZXJlbmNlc01hbmFnZXIuYWlNYXJrZG93blBhcmFncmFwaFNwYWNpbmcuY29sbGVjdEFzU3RhdGUoaW5pdGlhbCA9IDEyZikKCiAgICB2YWwgc2V0dGluZ3MgPSByZW1lbWJlcihsaW5lSGVpZ2h0TXVsdGlwbGllciwgbGV0dGVyU3BhY2luZywgcGFyYWdyYXBoU3BhY2luZykgewogICAgICAgIEFpTWFya2Rvd25UZXh0TGF5b3V0U2V0dGluZ3MoCiAgICAgICAgICAgIGxpbmVIZWlnaHRNdWx0aXBsaWVyID0gbGluZUhlaWdodE11bHRpcGxpZXIsCiAgICAgICAgICAgIGxldHRlclNwYWNpbmdTcCA9IGxldHRlclNwYWNpbmcsCiAgICAgICAgICAgIHBhcmFncmFwaFNwYWNpbmdEcCA9IHBhcmFncmFwaFNwYWNpbmcKICAgICAgICApCiAgICB9CgogICAgQ29tcG9zaXRpb25Mb2NhbFByb3ZpZGVyKExvY2FsQWlNYXJrZG93blRleHRMYXlvdXRTZXR0aW5ncyBwcm92aWRlcyBzZXR0aW5ncykgewogICAgICAgIGNvbnRlbnQoKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.theme
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.compositionLocalOf
+import androidx.compose.ui.platform.LocalContext
+import com.bslsjdk.operit.data.preferences.UserPreferencesManager
+
+/**
+ * AI Markdown 文本布局设置。
+ *
+ * - lineHeightMultiplier：额外行距倍率，1f 为默认值
+ * - letterSpacingSp：额外字距，单位 sp
+ * - paragraphSpacingDp：段落之间额外增加的间距，单位 dp
+ */
+data class AiMarkdownTextLayoutSettings(
+    val lineHeightMultiplier: Float = 1f,
+    val letterSpacingSp: Float = 0f,
+    val paragraphSpacingDp: Float = 12f
+)
+
+val LocalAiMarkdownTextLayoutSettings = compositionLocalOf {
+    AiMarkdownTextLayoutSettings()
+}
+
+@Composable
+fun ProvideAiMarkdownTextLayoutSettings(content: @Composable () -> Unit) {
+    val context = LocalContext.current
+    val preferencesManager = remember { UserPreferencesManager.getInstance(context) }
+    val lineHeightMultiplier by preferencesManager.aiMarkdownLineHeightMultiplier.collectAsState(initial = 1f)
+    val letterSpacing by preferencesManager.aiMarkdownLetterSpacing.collectAsState(initial = 0f)
+    val paragraphSpacing by preferencesManager.aiMarkdownParagraphSpacing.collectAsState(initial = 12f)
+
+    val settings = remember(lineHeightMultiplier, letterSpacing, paragraphSpacing) {
+        AiMarkdownTextLayoutSettings(
+            lineHeightMultiplier = lineHeightMultiplier,
+            letterSpacingSp = letterSpacing,
+            paragraphSpacingDp = paragraphSpacing
+        )
+    }
+
+    CompositionLocalProvider(LocalAiMarkdownTextLayoutSettings provides settings) {
+        content()
+    }
+}

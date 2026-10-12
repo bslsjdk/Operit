@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5hZ2VudAoKaW1wb3J0IGNvbS5haS5hc3Npc3RhbmNlLnNob3dlci5JU2hvd2VyU2VydmljZQppbXBvcnQgY29tLmFpLmFzc2lzdGFuY2Uuc2hvd2VyY2xpZW50LlNob3dlckJpbmRlclJlZ2lzdHJ5IGFzIENvcmVTaG93ZXJCaW5kZXJSZWdpc3RyeQoKLyoqCiAqIEFwcC1sZXZlbCBmYWNhZGUgb3ZlciB0aGUgc2hhcmVkIFNob3dlciBjbGllbnQgYmluZGVyIHJlZ2lzdHJ5LgogKi8Kb2JqZWN0IFNob3dlckJpbmRlclJlZ2lzdHJ5IHsKCiAgICBmdW4gc2V0U2VydmljZShuZXdTZXJ2aWNlOiBJU2hvd2VyU2VydmljZT8pIHsKICAgICAgICBDb3JlU2hvd2VyQmluZGVyUmVnaXN0cnkuc2V0U2VydmljZShuZXdTZXJ2aWNlKQogICAgfQoKICAgIGZ1biBnZXRTZXJ2aWNlKCk6IElTaG93ZXJTZXJ2aWNlPyA9IENvcmVTaG93ZXJCaW5kZXJSZWdpc3RyeS5nZXRTZXJ2aWNlKCkKCiAgICBmdW4gaGFzQWxpdmVTZXJ2aWNlKCk6IEJvb2xlYW4gPSBDb3JlU2hvd2VyQmluZGVyUmVnaXN0cnkuaGFzQWxpdmVTZXJ2aWNlKCkKfQo=
+package com.bslsjdk.operit.core.tools.agent
+
+import com.ai.assistance.shower.IShowerService
+import com.ai.assistance.showerclient.ShowerBinderRegistry as CoreShowerBinderRegistry
+
+/**
+ * App-level facade over the shared Shower client binder registry.
+ */
+object ShowerBinderRegistry {
+
+    fun setService(newService: IShowerService?) {
+        CoreShowerBinderRegistry.setService(newService)
+    }
+
+    fun getService(): IShowerService? = CoreShowerBinderRegistry.getService()
+
+    fun hasAliveService(): Boolean = CoreShowerBinderRegistry.hasAliveService()
+}

@@ -1,1 +1,99 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZXBvc2l0b3J5CgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5tb2RlbC5BdmF0YXJUeXBlCmltcG9ydCBjb20uZ29vZ2xlLmdzb24uR3NvbgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBBdmF0YXJDb25maWdQZXJzaXN0ZW5jZVRlc3QgewoKICAgIHByaXZhdGUgdmFsIGdzb24gPSBHc29uKCkKCiAgICBAVGVzdAogICAgZnVuIGRlY29kZVBlcnNpc3RlZEF2YXRhckNvbmZpZ3NfcmVqZWN0c0VudHJpZXNXaXRoTnVsbE9yTWlzc2luZ0RhdGEoKSB7CiAgICAgICAgdmFsIGpzb24gPQogICAgICAgICAgICAiIiIKICAgICAgICAgICAgWwogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJpZCI6ICJ2YWxpZCIsCiAgICAgICAgICAgICAgICAibmFtZSI6ICJWYWxpZCIsCiAgICAgICAgICAgICAgICAidHlwZSI6ICJXRUJQIiwKICAgICAgICAgICAgICAgICJpc0J1aWx0SW4iOiBmYWxzZSwKICAgICAgICAgICAgICAgICJkYXRhIjogeyJmb2xkZXJQYXRoIjogIi9hdmF0YXJzL3ZhbGlkIn0KICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJpZCI6ICJudWxsLWRhdGEiLAogICAgICAgICAgICAgICAgIm5hbWUiOiAiTnVsbCBkYXRhIiwKICAgICAgICAgICAgICAgICJ0eXBlIjogIldFQlAiLAogICAgICAgICAgICAgICAgImlzQnVpbHRJbiI6IGZhbHNlLAogICAgICAgICAgICAgICAgImRhdGEiOiBudWxsCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiaWQiOiAibWlzc2luZy1kYXRhIiwKICAgICAgICAgICAgICAgICJuYW1lIjogIk1pc3NpbmcgZGF0YSIsCiAgICAgICAgICAgICAgICAidHlwZSI6ICJXRUJQIiwKICAgICAgICAgICAgICAgICJpc0J1aWx0SW4iOiBmYWxzZQogICAgICAgICAgICAgIH0KICAgICAgICAgICAgXQogICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCByZXN1bHQgPSBkZWNvZGVQZXJzaXN0ZWRBdmF0YXJDb25maWdzKGpzb24sIGdzb24pCgogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoMSwgMiksIHJlc3VsdC5pbnZhbGlkRW50cnlJbmRleGVzKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoInZhbGlkIiksIHJlc3VsdC5jb25maWdzLm1hcCB7IGl0LmlkIH0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIvYXZhdGFycy92YWxpZCIsIHJlc3VsdC5jb25maWdzLnNpbmdsZSgpLmdldEJhc2VQYXRoKCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBkZWNvZGVQZXJzaXN0ZWRBdmF0YXJDb25maWdzX3ByZXNlcnZlc1ZhbGlkU2F2ZWRDb25maWcoKSB7CiAgICAgICAgdmFsIG9yaWdpbmFsID0KICAgICAgICAgICAgQXZhdGFyQ29uZmlnKAogICAgICAgICAgICAgICAgaWQgPSAic2F2ZWQiLAogICAgICAgICAgICAgICAgbmFtZSA9ICJTYXZlZCBhdmF0YXIiLAogICAgICAgICAgICAgICAgdHlwZSA9IEF2YXRhclR5cGUuR0xURiwKICAgICAgICAgICAgICAgIGlzQnVpbHRJbiA9IHRydWUsCiAgICAgICAgICAgICAgICBkYXRhID0gbWFwT2YoImJhc2VQYXRoIiB0byAiL2F2YXRhcnMvc2F2ZWQiKQogICAgICAgICAgICApCgogICAgICAgIHZhbCByZXN1bHQgPSBkZWNvZGVQZXJzaXN0ZWRBdmF0YXJDb25maWdzKGdzb24udG9Kc29uKGxpc3RPZihvcmlnaW5hbCkpLCBnc29uKQoKICAgICAgICBhc3NlcnRFcXVhbHMoZW1wdHlMaXN0PEludD4oKSwgcmVzdWx0LmludmFsaWRFbnRyeUluZGV4ZXMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZihvcmlnaW5hbCksIHJlc3VsdC5jb25maWdzKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZGVjb2RlUGVyc2lzdGVkQXZhdGFyQ29uZmlnc19yZWplY3RzTWFsZm9ybWVkRW50cnlXaXRob3V0RGlzY2FyZGluZ1ZhbGlkU2libGluZ3MoKSB7CiAgICAgICAgdmFsIGpzb24gPQogICAgICAgICAgICAiIiIKICAgICAgICAgICAgWwogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJpZCI6ICJmaXJzdCIsCiAgICAgICAgICAgICAgICAibmFtZSI6ICJGaXJzdCIsCiAgICAgICAgICAgICAgICAidHlwZSI6ICJXRUJQIiwKICAgICAgICAgICAgICAgICJpc0J1aWx0SW4iOiBmYWxzZSwKICAgICAgICAgICAgICAgICJkYXRhIjogeyJmb2xkZXJQYXRoIjogIi9hdmF0YXJzL2ZpcnN0In0KICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJpZCI6ICJ3cm9uZy1kYXRhLXR5cGUiLAogICAgICAgICAgICAgICAgIm5hbWUiOiAiV3JvbmcgZGF0YSB0eXBlIiwKICAgICAgICAgICAgICAgICJ0eXBlIjogIldFQlAiLAogICAgICAgICAgICAgICAgImlzQnVpbHRJbiI6IGZhbHNlLAogICAgICAgICAgICAgICAgImRhdGEiOiA0MgogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgNDIsCiAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgImlkIjogImxhc3QiLAogICAgICAgICAgICAgICAgIm5hbWUiOiAiTGFzdCIsCiAgICAgICAgICAgICAgICAidHlwZSI6ICJHTFRGIiwKICAgICAgICAgICAgICAgICJpc0J1aWx0SW4iOiBmYWxzZSwKICAgICAgICAgICAgICAgICJkYXRhIjogeyJiYXNlUGF0aCI6ICIvYXZhdGFycy9sYXN0In0KICAgICAgICAgICAgICB9CiAgICAgICAgICAgIF0KICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICB2YWwgcmVzdWx0ID0gZGVjb2RlUGVyc2lzdGVkQXZhdGFyQ29uZmlncyhqc29uLCBnc29uKQoKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKDEsIDIpLCByZXN1bHQuaW52YWxpZEVudHJ5SW5kZXhlcykKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJmaXJzdCIsICJsYXN0IiksIHJlc3VsdC5jb25maWdzLm1hcCB7IGl0LmlkIH0pCiAgICB9Cn0K
+package com.bslsjdk.operit.data.repository
+
+import com.bslsjdk.operit.core.avatar.common.model.AvatarType
+import com.google.gson.Gson
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class AvatarConfigPersistenceTest {
+
+    private val gson = Gson()
+
+    @Test
+    fun decodePersistedAvatarConfigs_rejectsEntriesWithNullOrMissingData() {
+        val json =
+            """
+            [
+              {
+                "id": "valid",
+                "name": "Valid",
+                "type": "WEBP",
+                "isBuiltIn": false,
+                "data": {"folderPath": "/avatars/valid"}
+              },
+              {
+                "id": "null-data",
+                "name": "Null data",
+                "type": "WEBP",
+                "isBuiltIn": false,
+                "data": null
+              },
+              {
+                "id": "missing-data",
+                "name": "Missing data",
+                "type": "WEBP",
+                "isBuiltIn": false
+              }
+            ]
+            """.trimIndent()
+
+        val result = decodePersistedAvatarConfigs(json, gson)
+
+        assertEquals(listOf(1, 2), result.invalidEntryIndexes)
+        assertEquals(listOf("valid"), result.configs.map { it.id })
+        assertEquals("/avatars/valid", result.configs.single().getBasePath())
+    }
+
+    @Test
+    fun decodePersistedAvatarConfigs_preservesValidSavedConfig() {
+        val original =
+            AvatarConfig(
+                id = "saved",
+                name = "Saved avatar",
+                type = AvatarType.GLTF,
+                isBuiltIn = true,
+                data = mapOf("basePath" to "/avatars/saved")
+            )
+
+        val result = decodePersistedAvatarConfigs(gson.toJson(listOf(original)), gson)
+
+        assertEquals(emptyList<Int>(), result.invalidEntryIndexes)
+        assertEquals(listOf(original), result.configs)
+    }
+
+    @Test
+    fun decodePersistedAvatarConfigs_rejectsMalformedEntryWithoutDiscardingValidSiblings() {
+        val json =
+            """
+            [
+              {
+                "id": "first",
+                "name": "First",
+                "type": "WEBP",
+                "isBuiltIn": false,
+                "data": {"folderPath": "/avatars/first"}
+              },
+              {
+                "id": "wrong-data-type",
+                "name": "Wrong data type",
+                "type": "WEBP",
+                "isBuiltIn": false,
+                "data": 42
+              },
+              42,
+              {
+                "id": "last",
+                "name": "Last",
+                "type": "GLTF",
+                "isBuiltIn": false,
+                "data": {"basePath": "/avatars/last"}
+              }
+            ]
+            """.trimIndent()
+
+        val result = decodePersistedAvatarConfigs(json, gson)
+
+        assertEquals(listOf(1, 2), result.invalidEntryIndexes)
+        assertEquals(listOf("first", "last"), result.configs.map { it.id })
+    }
+}

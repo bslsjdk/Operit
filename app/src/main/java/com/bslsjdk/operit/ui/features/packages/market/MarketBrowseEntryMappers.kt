@@ -1,1 +1,104 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5NYXJrZXRWMkVudHJ5Cgp2YWwgVW5pZmllZE1hcmtldEJyb3dzZUNvbmZpZyA9CiAgICBNYXJrZXRCcm93c2VTZWN0aW9uQ29uZmlnKAogICAgICAgIHNlYXJjaFBsYWNlaG9sZGVyUmVzID0gUi5zdHJpbmcuYXJ0aWZhY3RfbWFya2V0X3NlYXJjaF9wbGFjZWhvbGRlciwKICAgICAgICBoZWFkZXJUaXRsZVJlcyA9IFIuc3RyaW5nLmF2YWlsYWJsZV9hcnRpZmFjdHNfbWFya2V0LAogICAgICAgIGVtcHR5U2VhcmNoVGl0bGVSZXMgPSBSLnN0cmluZy5ub19tYXRjaGluZ19hcnRpZmFjdHNfZm91bmQsCiAgICAgICAgZW1wdHlEZWZhdWx0VGl0bGVSZXMgPSBSLnN0cmluZy5ub19hcnRpZmFjdHNfYXZhaWxhYmxlLAogICAgICAgIHNvcnRPcHRpb25zID0gbGlzdE9mKAogICAgICAgICAgICBNYXJrZXRTb3J0T3B0aW9uLlVQREFURUQsCiAgICAgICAgICAgIE1hcmtldFNvcnRPcHRpb24uRE9XTkxPQURTLAogICAgICAgICAgICBNYXJrZXRTb3J0T3B0aW9uLkxJS0VTCiAgICAgICAgKQogICAgKQoKdmFsIFVuaWZpZWRNYXJrZXRDYXRlZ29yeUNvbmZpZyA9CiAgICBNYXJrZXRCcm93c2VTZWN0aW9uQ29uZmlnKAogICAgICAgIHNlYXJjaFBsYWNlaG9sZGVyUmVzID0gUi5zdHJpbmcuYXJ0aWZhY3RfbWFya2V0X3NlYXJjaF9wbGFjZWhvbGRlciwKICAgICAgICBoZWFkZXJUaXRsZVJlcyA9IFIuc3RyaW5nLmF2YWlsYWJsZV9hcnRpZmFjdHNfbWFya2V0LAogICAgICAgIGVtcHR5U2VhcmNoVGl0bGVSZXMgPSBSLnN0cmluZy5ub19tYXRjaGluZ19hcnRpZmFjdHNfZm91bmQsCiAgICAgICAgZW1wdHlEZWZhdWx0VGl0bGVSZXMgPSBSLnN0cmluZy5ub19hcnRpZmFjdHNfYXZhaWxhYmxlLAogICAgICAgIHNvcnRPcHRpb25zID0gbGlzdE9mKAogICAgICAgICAgICBNYXJrZXRTb3J0T3B0aW9uLlVQREFURUQsCiAgICAgICAgICAgIE1hcmtldFNvcnRPcHRpb24uRE9XTkxPQURTLAogICAgICAgICAgICBNYXJrZXRTb3J0T3B0aW9uLkxJS0VTCiAgICAgICAgKQogICAgKQoKZnVuIE1hcmtldFYyRW50cnkudG9VbmlmaWVkTWFya2V0QnJvd3NlRW50cnkoCiAgICBpbnN0YWxsU3RhdGVzOiBNYXA8U3RyaW5nLCBNYXJrZXRJbnN0YWxsUHJvZ3Jlc3M+LAogICAgbG9jYWxJbnN0YWxsU3RhdGVzOiBNYXA8U3RyaW5nLCBNYXJrZXRMb2NhbEluc3RhbGxTdGF0ZT4sCiAgICBvblZpZXdEZXRhaWxzOiAoTWFya2V0VjJFbnRyeSkgLT4gVW5pdCwKICAgIG9uSW5zdGFsbEVudHJ5OiAoTWFya2V0VjJFbnRyeSkgLT4gVW5pdAopOiBNYXJrZXRCcm93c2VFbnRyeSB7CiAgICB2YWwgaW5zdGFsbFN0YXRlID0gaW5zdGFsbFN0YXRlc1tpZF0KICAgIHZhbCBsb2NhbFN0YXRlID0gbG9jYWxJbnN0YWxsU3RhdGVzW2lkXQogICAgdmFsIGlzQ3VycmVudEFwcFZlcnNpb25VbnN1cHBvcnRlZCA9IGlzVW5zdXBwb3J0ZWRCeUN1cnJlbnRBcHBWZXJzaW9uKCkKICAgIHJldHVybiBNYXJrZXRCcm93c2VFbnRyeSgKICAgICAgICBtb2RlbCA9CiAgICAgICAgICAgIE1hcmtldEJyb3dzZUNhcmRNb2RlbCgKICAgICAgICAgICAgICAgIHRpdGxlID0gdGl0bGUsCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IGRldGFpbC5pZkJsYW5rIHsgZGVzY3JpcHRpb24gfS50cnVuY2F0ZU1hcmtldEJyb3dzZURlc2NyaXB0aW9uKCksCiAgICAgICAgICAgICAgICBsb2dvVXJsID0gbG9nb1VybCwKICAgICAgICAgICAgICAgIHRvb2xQa2dBcGlWZXJzaW9uID0KICAgICAgICAgICAgICAgICAgICBsYXRlc3RWZXJzaW9uCiAgICAgICAgICAgICAgICAgICAgICAgID8udGFrZUlmIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFB1Ymxpc2hBcnRpZmFjdFR5cGUuZnJvbVdpcmVWYWx1ZSh0eXBlKSA9PSBQdWJsaXNoQXJ0aWZhY3RUeXBlLlBBQ0tBR0UKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICA/LmVmZmVjdGl2ZVRvb2xQa2dBcGlWZXJzaW9uKCksCiAgICAgICAgICAgICAgICBvd25lclVzZXJuYW1lID0gcHVibGlzaGVyTG9naW4oKSwKICAgICAgICAgICAgICAgIHRodW1ic1VwQ291bnQgPSBsaWtlQ291bnQoKSwKICAgICAgICAgICAgICAgIGhlYXJ0Q291bnQgPSAwLAogICAgICAgICAgICAgICAgZG93bmxvYWRzID0gZG93bmxvYWRDb3VudFZhbHVlKCksCiAgICAgICAgICAgICAgICBzaG93QWN0aW9uID0gY2FuSW5zdGFsbEZyb21VbmlmaWVkTWFya2V0KCksCiAgICAgICAgICAgICAgICBhY3Rpb25TdGF0ZSA9CiAgICAgICAgICAgICAgICAgICAgaWYgKGluc3RhbGxTdGF0ZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE1hcmtldEJyb3dzZUFjdGlvblN0YXRlLkluc3RhbGxpbmcoaW5zdGFsbFN0YXRlLnByb2dyZXNzKQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoaXNDdXJyZW50QXBwVmVyc2lvblVuc3VwcG9ydGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE1hcmtldEJyb3dzZUFjdGlvblN0YXRlLlVuYXZhaWxhYmxlKE1hcmtldFVuYXZhaWxhYmxlS2luZC5XYXJuaW5nKQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxvY2FsU3RhdGUudG9Ccm93c2VBY3Rpb25TdGF0ZSgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICApLAogICAgICAgIG9uVmlld0RldGFpbHMgPSB7IG9uVmlld0RldGFpbHModGhpcykgfSwKICAgICAgICBvbkluc3RhbGwgPSB7IG9uSW5zdGFsbEVudHJ5KHRoaXMpIH0KICAgICkKfQoKcHJpdmF0ZSBmdW4gTWFya2V0TG9jYWxJbnN0YWxsU3RhdGU/LnRvQnJvd3NlQWN0aW9uU3RhdGUoKTogTWFya2V0QnJvd3NlQWN0aW9uU3RhdGUgewogICAgcmV0dXJuIHdoZW4gKHRoaXM/LmtpbmQpIHsKICAgICAgICBNYXJrZXRMb2NhbEluc3RhbGxTdGF0ZUtpbmQuSU5TVEFMTEVEIC0+IE1hcmtldEJyb3dzZUFjdGlvblN0YXRlLkluc3RhbGxlZAogICAgICAgIE1hcmtldExvY2FsSW5zdGFsbFN0YXRlS2luZC5VUERBVEVfQVZBSUxBQkxFIC0+IE1hcmtldEJyb3dzZUFjdGlvblN0YXRlLlVwZGF0YWJsZQogICAgICAgIE1hcmtldExvY2FsSW5zdGFsbFN0YXRlS2luZC5OT1RfSU5TVEFMTEVELAogICAgICAgIG51bGwgLT4gTWFya2V0QnJvd3NlQWN0aW9uU3RhdGUuQXZhaWxhYmxlCiAgICB9Cn0KCnByaXZhdGUgZnVuIE1hcmtldFYyRW50cnkucHVibGlzaGVyTG9naW4oKTogU3RyaW5nIHsKICAgIHJldHVybiBwdWJsaXNoZXI/LmxvZ2luPy5pZkJsYW5rIHsgYXV0aG9yPy5sb2dpbi5vckVtcHR5KCkgfQogICAgICAgID8uaWZCbGFuayB7IHB1Ymxpc2hlcklkLnJlbW92ZVByZWZpeCgiZ2hfIikuaWZCbGFuayB7IGF1dGhvcklkLnJlbW92ZVByZWZpeCgiZ2hfIikgfSB9CiAgICAgICAgLm9yRW1wdHkoKQp9Cgpwcml2YXRlIGZ1biBNYXJrZXRWMkVudHJ5LmRvd25sb2FkQ291bnRWYWx1ZSgpOiBJbnQgewogICAgcmV0dXJuIHN0YXRzPy5kb3dubG9hZHMgPzogZG93bmxvYWRDb3VudC50YWtlSWYgeyBpdCA+IDAgfSA/OiBkb3dubG9hZHMKfQoKcHJpdmF0ZSBmdW4gTWFya2V0VjJFbnRyeS5saWtlQ291bnQoKTogSW50IHsKICAgIHJldHVybiBzdGF0cz8ubGlrZXMgPzogcmVhY3Rpb25zLnN1bU9mIHsgcmVhY3Rpb24gLT4KICAgICAgICB2YWwga2V5ID0gcmVhY3Rpb24ucmVhY3Rpb24uaWZCbGFuayB7IHJlYWN0aW9uLmNvbnRlbnQgfQogICAgICAgIGlmIChrZXkgPT0gIisxIiB8fCBrZXkuZXF1YWxzKCJsaWtlIiwgaWdub3JlQ2FzZSA9IHRydWUpKSByZWFjdGlvbi50b3RhbC5jb2VyY2VBdExlYXN0KDEpIGVsc2UgMAogICAgfQp9Cgpwcml2YXRlIGZ1biBTdHJpbmcudHJ1bmNhdGVNYXJrZXRCcm93c2VEZXNjcmlwdGlvbihtYXhMZW5ndGg6IEludCA9IDEwMCk6IFN0cmluZyB7CiAgICByZXR1cm4gaWYgKGxlbmd0aCA+IG1heExlbmd0aCkgewogICAgICAgIHRha2UobWF4TGVuZ3RoKSArICIuLi4iCiAgICB9IGVsc2UgewogICAgICAgIHRoaXMKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.packages.market
+
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.api.MarketV2Entry
+
+val UnifiedMarketBrowseConfig =
+    MarketBrowseSectionConfig(
+        searchPlaceholderRes = R.string.artifact_market_search_placeholder,
+        headerTitleRes = R.string.available_artifacts_market,
+        emptySearchTitleRes = R.string.no_matching_artifacts_found,
+        emptyDefaultTitleRes = R.string.no_artifacts_available,
+        sortOptions = listOf(
+            MarketSortOption.UPDATED,
+            MarketSortOption.DOWNLOADS,
+            MarketSortOption.LIKES
+        )
+    )
+
+val UnifiedMarketCategoryConfig =
+    MarketBrowseSectionConfig(
+        searchPlaceholderRes = R.string.artifact_market_search_placeholder,
+        headerTitleRes = R.string.available_artifacts_market,
+        emptySearchTitleRes = R.string.no_matching_artifacts_found,
+        emptyDefaultTitleRes = R.string.no_artifacts_available,
+        sortOptions = listOf(
+            MarketSortOption.UPDATED,
+            MarketSortOption.DOWNLOADS,
+            MarketSortOption.LIKES
+        )
+    )
+
+fun MarketV2Entry.toUnifiedMarketBrowseEntry(
+    installStates: Map<String, MarketInstallProgress>,
+    localInstallStates: Map<String, MarketLocalInstallState>,
+    onViewDetails: (MarketV2Entry) -> Unit,
+    onInstallEntry: (MarketV2Entry) -> Unit
+): MarketBrowseEntry {
+    val installState = installStates[id]
+    val localState = localInstallStates[id]
+    val isCurrentAppVersionUnsupported = isUnsupportedByCurrentAppVersion()
+    return MarketBrowseEntry(
+        model =
+            MarketBrowseCardModel(
+                title = title,
+                description = detail.ifBlank { description }.truncateMarketBrowseDescription(),
+                logoUrl = logoUrl,
+                toolPkgApiVersion =
+                    latestVersion
+                        ?.takeIf {
+                            PublishArtifactType.fromWireValue(type) == PublishArtifactType.PACKAGE
+                        }
+                        ?.effectiveToolPkgApiVersion(),
+                ownerUsername = publisherLogin(),
+                thumbsUpCount = likeCount(),
+                heartCount = 0,
+                downloads = downloadCountValue(),
+                showAction = canInstallFromUnifiedMarket(),
+                actionState =
+                    if (installState != null) {
+                        MarketBrowseActionState.Installing(installState.progress)
+                    } else if (isCurrentAppVersionUnsupported) {
+                        MarketBrowseActionState.Unavailable(MarketUnavailableKind.Warning)
+                    } else {
+                        localState.toBrowseActionState()
+                    }
+            ),
+        onViewDetails = { onViewDetails(this) },
+        onInstall = { onInstallEntry(this) }
+    )
+}
+
+private fun MarketLocalInstallState?.toBrowseActionState(): MarketBrowseActionState {
+    return when (this?.kind) {
+        MarketLocalInstallStateKind.INSTALLED -> MarketBrowseActionState.Installed
+        MarketLocalInstallStateKind.UPDATE_AVAILABLE -> MarketBrowseActionState.Updatable
+        MarketLocalInstallStateKind.NOT_INSTALLED,
+        null -> MarketBrowseActionState.Available
+    }
+}
+
+private fun MarketV2Entry.publisherLogin(): String {
+    return publisher?.login?.ifBlank { author?.login.orEmpty() }
+        ?.ifBlank { publisherId.removePrefix("gh_").ifBlank { authorId.removePrefix("gh_") } }
+        .orEmpty()
+}
+
+private fun MarketV2Entry.downloadCountValue(): Int {
+    return stats?.downloads ?: downloadCount.takeIf { it > 0 } ?: downloads
+}
+
+private fun MarketV2Entry.likeCount(): Int {
+    return stats?.likes ?: reactions.sumOf { reaction ->
+        val key = reaction.reaction.ifBlank { reaction.content }
+        if (key == "+1" || key.equals("like", ignoreCase = true)) reaction.total.coerceAtLeast(1) else 0
+    }
+}
+
+private fun String.truncateMarketBrowseDescription(maxLength: Int = 100): String {
+    return if (length > maxLength) {
+        take(maxLength) + "..."
+    } else {
+        this
+    }
+}

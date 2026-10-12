@@ -1,1 +1,106 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgRmlsZSA9IEphdmEudHlwZSgnamF2YS5pby5GaWxlJyk7CmNvbnN0IEZpbGVPdXRwdXRTdHJlYW0gPSBKYXZhLnR5cGUoJ2phdmEuaW8uRmlsZU91dHB1dFN0cmVhbScpOwpjb25zdCBPdXRwdXRTdHJlYW1Xcml0ZXIgPSBKYXZhLnR5cGUoJ2phdmEuaW8uT3V0cHV0U3RyZWFtV3JpdGVyJyk7CmNvbnN0IENoYXJzZXQgPSBKYXZhLnR5cGUoJ2phdmEubmlvLmNoYXJzZXQuQ2hhcnNldCcpOwoKY29uc3QgVVRGOCA9IENoYXJzZXQuZm9yTmFtZSgnVVRGLTgnKTsKY29uc3QgQkFTRV9ESVIgPSAnL3NkY2FyZC9Eb3dubG9hZC9PcGVyaXQvYnJvd3Nlcl90b29sX3N1aXRlJzsKY29uc3QgUEFHRV9QQVRIID0gQkFTRV9ESVIgKyAnL2Jyb3dzZXJfdG9vbF9wcm9iZS5odG1sJzsKY29uc3QgUEFHRV9VUkwgPSAnZmlsZTovLycgKyBQQUdFX1BBVEg7CgpmdW5jdGlvbiBlbnN1cmVEaXIocGF0aCkgewogIGNvbnN0IGRpciA9IG5ldyBGaWxlKFN0cmluZyhwYXRoKSk7CiAgaWYgKCFkaXIuZXhpc3RzKCkpIHsKICAgIGRpci5ta2RpcnMoKTsKICB9CiAgcmV0dXJuIGRpcjsKfQoKZnVuY3Rpb24gd3JpdGVUZXh0KHBhdGgsIHRleHQpIHsKICBjb25zdCBmaWxlID0gbmV3IEZpbGUoU3RyaW5nKHBhdGgpKTsKICBjb25zdCBwYXJlbnQgPSBmaWxlLmdldFBhcmVudEZpbGUoKTsKICBpZiAocGFyZW50ICE9IG51bGwpIHsKICAgIGVuc3VyZURpcihwYXJlbnQuZ2V0QWJzb2x1dGVQYXRoKCkpOwogIH0KICBjb25zdCB3cml0ZXIgPSBuZXcgT3V0cHV0U3RyZWFtV3JpdGVyKG5ldyBGaWxlT3V0cHV0U3RyZWFtKGZpbGUsIGZhbHNlKSwgVVRGOCk7CiAgdHJ5IHsKICAgIHdyaXRlci53cml0ZShTdHJpbmcodGV4dCkpOwogIH0gZmluYWxseSB7CiAgICB3cml0ZXIuY2xvc2UoKTsKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIGNhbGxUb29sKG5hbWUsIHBhcmFtcykgewogIHRyeSB7CiAgICBjb25zdCB2YWx1ZSA9IGF3YWl0IHRvb2xDYWxsKCdkZWZhdWx0JywgbmFtZSwgcGFyYW1zIHx8IHt9KTsKICAgIHJldHVybiB7IG9rOiB0cnVlLCB2YWx1ZSB9OwogIH0gY2F0Y2ggKGUpIHsKICAgIHJldHVybiB7CiAgICAgIG9rOiBmYWxzZSwKICAgICAgZXJyb3I6IFN0cmluZyhlICYmIGUubWVzc2FnZSA/IGUubWVzc2FnZSA6IGUpLAogICAgICBkYXRhOiBlICYmIHR5cGVvZiBlID09PSAnb2JqZWN0JyAmJiAnZGF0YScgaW4gZSA/IGUuZGF0YSA6IG51bGwsCiAgICB9OwogIH0KfQoKZnVuY3Rpb24gY291bnRUYWJzKG91dHB1dCkgewogIGNvbnN0IG1hdGNoZXMgPSBTdHJpbmcob3V0cHV0IHx8ICcnKS5tYXRjaCgvXi0gXFtcZCtcXS9nbSk7CiAgcmV0dXJuIG1hdGNoZXMgPyBtYXRjaGVzLmxlbmd0aCA6IDA7Cn0KCmFzeW5jIGZ1bmN0aW9uIHRyeVRvb2wobmFtZSwgcGFyYW1zKSB7CiAgdHJ5IHsKICAgIHJldHVybiBhd2FpdCB0b29sQ2FsbCgnZGVmYXVsdCcsIG5hbWUsIHBhcmFtcyB8fCB7fSk7CiAgfSBjYXRjaCAoX2lnbm9yZWQpIHsKICAgIHJldHVybiBudWxsOwogIH0KfQoKYXN5bmMgZnVuY3Rpb24gcmVzZXRCcm93c2VyU3RhdGUoKSB7CiAgYXdhaXQgdHJ5VG9vbCgnYnJvd3Nlcl9oYW5kbGVfZGlhbG9nJywgeyBhY2NlcHQ6IHRydWUgfSk7CiAgYXdhaXQgdHJ5VG9vbCgnYnJvd3Nlcl9maWxlX3VwbG9hZCcsIHt9KTsKICBhd2FpdCB0cnlUb29sKCdicm93c2VyX2Nsb3NlX2FsbCcsIHt9KTsKfQoKZnVuY3Rpb24gaHRtbCgpIHsKICByZXR1cm4gWwogICAgJzwhZG9jdHlwZSBodG1sPicsCiAgICAnPGh0bWw+PGhlYWQ+PG1ldGEgY2hhcnNldD0idXRmLTgiIC8+PHRpdGxlPkJyb3dzZXIgUHJvYmU8L3RpdGxlPjwvaGVhZD4nLAogICAgJzxib2R5PicsCiAgICAnPGJ1dHRvbiBpZD0iY2xpY2tCdG4iPkNsaWNrIEFjdGlvbjwvYnV0dG9uPicsCiAgICAnPGlucHV0IGlkPSJ0eXBlSW5wdXQiIGFyaWEtbGFiZWw9IlR5cGUgSW5wdXQiIHR5cGU9InRleHQiIC8+JywKICAgICc8c2VsZWN0IGlkPSJzZWxlY3RJbnB1dCIgYXJpYS1sYWJlbD0iU2VsZWN0IElucHV0Ij48b3B0aW9uIHZhbHVlPSJhIj5BbHBoYTwvb3B0aW9uPjxvcHRpb24gdmFsdWU9ImIiPkJldGE8L29wdGlvbj48L3NlbGVjdD4nLAogICAgJzwvYm9keT48L2h0bWw+JywKICBdLmpvaW4oJ1xuJyk7Cn0KCmV4cG9ydHMucnVuID0gYXN5bmMgZnVuY3Rpb24gcnVuKHBhcmFtcykgewogIGVuc3VyZURpcihCQVNFX0RJUik7CiAgd3JpdGVUZXh0KFBBR0VfUEFUSCwgaHRtbCgpKTsKICBhd2FpdCByZXNldEJyb3dzZXJTdGF0ZSgpOwoKICBjb25zdCBtb2RlID0gcGFyYW1zICYmIHBhcmFtcy5tb2RlID8gU3RyaW5nKHBhcmFtcy5tb2RlKSA6ICdzbmFwc2hvdCc7CiAgY29uc3QgcmVzdWx0cyA9IFtdOwoKICByZXN1bHRzLnB1c2goeyBzdGVwOiAnbmF2aWdhdGUnLCBvdXQ6IGF3YWl0IGNhbGxUb29sKCdicm93c2VyX25hdmlnYXRlJywgeyB1cmw6IFBBR0VfVVJMIH0pIH0pOwoKICBpZiAobW9kZSA9PT0gJ3NuYXBzaG90JykgewogICAgcmVzdWx0cy5wdXNoKHsgc3RlcDogJ3NuYXBzaG90Jywgb3V0OiBhd2FpdCBjYWxsVG9vbCgnYnJvd3Nlcl9zbmFwc2hvdCcsIHsgZGVwdGg6IDYgfSkgfSk7CiAgfSBlbHNlIGlmIChtb2RlID09PSAncmVzaXplJykgewogICAgcmVzdWx0cy5wdXNoKHsgc3RlcDogJ3Jlc2l6ZScsIG91dDogYXdhaXQgY2FsbFRvb2woJ2Jyb3dzZXJfcmVzaXplJywgeyB3aWR0aDogNzIwLCBoZWlnaHQ6IDEyODAgfSkgfSk7CiAgfSBlbHNlIGlmIChtb2RlID09PSAndGFicycpIHsKICAgIHJlc3VsdHMucHVzaCh7IHN0ZXA6ICd0YWJzLWxpc3QnLCBvdXQ6IGF3YWl0IGNhbGxUb29sKCdicm93c2VyX3RhYnMnLCB7IGFjdGlvbjogJ2xpc3QnIH0pIH0pOwogICAgcmVzdWx0cy5wdXNoKHsgc3RlcDogJ3RhYnMtY3JlYXRlJywgb3V0OiBhd2FpdCBjYWxsVG9vbCgnYnJvd3Nlcl90YWJzJywgeyBhY3Rpb246ICdjcmVhdGUnIH0pIH0pOwogICAgcmVzdWx0cy5wdXNoKHsgc3RlcDogJ3RhYnMtc2VsZWN0MCcsIG91dDogYXdhaXQgY2FsbFRvb2woJ2Jyb3dzZXJfdGFicycsIHsgYWN0aW9uOiAnc2VsZWN0JywgaW5kZXg6IDAgfSkgfSk7CiAgfSBlbHNlIGlmIChtb2RlID09PSAncnVuX2NvZGUnKSB7CiAgICByZXN1bHRzLnB1c2goeyBzdGVwOiAncnVuX2NvZGUnLCBvdXQ6IGF3YWl0IGNhbGxUb29sKCdicm93c2VyX3J1bl9jb2RlJywgeyBjb2RlOiAnYXN5bmMgKHBhZ2UpID0+IHsgcmV0dXJuIGF3YWl0IHBhZ2UudGl0bGUoKTsgfScgfSkgfSk7CiAgfQoKICByZXR1cm4gewogICAgc3VjY2VzczogdHJ1ZSwKICAgIG1vZGUsCiAgICByZXN1bHRzLAogIH07Cn07Cg==
+'use strict';
+
+const File = Java.type('java.io.File');
+const FileOutputStream = Java.type('java.io.FileOutputStream');
+const OutputStreamWriter = Java.type('java.io.OutputStreamWriter');
+const Charset = Java.type('java.nio.charset.Charset');
+
+const UTF8 = Charset.forName('UTF-8');
+const BASE_DIR = '/sdcard/Download/Operit/browser_tool_suite';
+const PAGE_PATH = BASE_DIR + '/browser_tool_probe.html';
+const PAGE_URL = 'file://' + PAGE_PATH;
+
+function ensureDir(path) {
+  const dir = new File(String(path));
+  if (!dir.exists()) {
+    dir.mkdirs();
+  }
+  return dir;
+}
+
+function writeText(path, text) {
+  const file = new File(String(path));
+  const parent = file.getParentFile();
+  if (parent != null) {
+    ensureDir(parent.getAbsolutePath());
+  }
+  const writer = new OutputStreamWriter(new FileOutputStream(file, false), UTF8);
+  try {
+    writer.write(String(text));
+  } finally {
+    writer.close();
+  }
+}
+
+async function callTool(name, params) {
+  try {
+    const value = await toolCall('default', name, params || {});
+    return { ok: true, value };
+  } catch (e) {
+    return {
+      ok: false,
+      error: String(e && e.message ? e.message : e),
+      data: e && typeof e === 'object' && 'data' in e ? e.data : null,
+    };
+  }
+}
+
+function countTabs(output) {
+  const matches = String(output || '').match(/^- \[\d+\]/gm);
+  return matches ? matches.length : 0;
+}
+
+async function tryTool(name, params) {
+  try {
+    return await toolCall('default', name, params || {});
+  } catch (_ignored) {
+    return null;
+  }
+}
+
+async function resetBrowserState() {
+  await tryTool('browser_handle_dialog', { accept: true });
+  await tryTool('browser_file_upload', {});
+  await tryTool('browser_close_all', {});
+}
+
+function html() {
+  return [
+    '<!doctype html>',
+    '<html><head><meta charset="utf-8" /><title>Browser Probe</title></head>',
+    '<body>',
+    '<button id="clickBtn">Click Action</button>',
+    '<input id="typeInput" aria-label="Type Input" type="text" />',
+    '<select id="selectInput" aria-label="Select Input"><option value="a">Alpha</option><option value="b">Beta</option></select>',
+    '</body></html>',
+  ].join('\n');
+}
+
+exports.run = async function run(params) {
+  ensureDir(BASE_DIR);
+  writeText(PAGE_PATH, html());
+  await resetBrowserState();
+
+  const mode = params && params.mode ? String(params.mode) : 'snapshot';
+  const results = [];
+
+  results.push({ step: 'navigate', out: await callTool('browser_navigate', { url: PAGE_URL }) });
+
+  if (mode === 'snapshot') {
+    results.push({ step: 'snapshot', out: await callTool('browser_snapshot', { depth: 6 }) });
+  } else if (mode === 'resize') {
+    results.push({ step: 'resize', out: await callTool('browser_resize', { width: 720, height: 1280 }) });
+  } else if (mode === 'tabs') {
+    results.push({ step: 'tabs-list', out: await callTool('browser_tabs', { action: 'list' }) });
+    results.push({ step: 'tabs-create', out: await callTool('browser_tabs', { action: 'create' }) });
+    results.push({ step: 'tabs-select0', out: await callTool('browser_tabs', { action: 'select', index: 0 }) });
+  } else if (mode === 'run_code') {
+    results.push({ step: 'run_code', out: await callTool('browser_run_code', { code: 'async (page) => { return await page.title(); }' }) });
+  }
+
+  return {
+    success: true,
+    mode,
+    results,
+  };
+};

@@ -1,1 +1,142 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgewogIGFzc2VydEVxLAogIHRlc3QsCiAgcnVuU3VpdGUsCiAgcnVuVGhyZWFkQW5kSm9pbiwKICBydW5GdXR1cmVUYXNrLAogIFJ1bm5hYmxlLAogIENhbGxhYmxlLAogIFRpbWVVbml0LAp9ID0gcmVxdWlyZSgnLi9jb21tb24nKTsKCmV4cG9ydHMucnVuID0gYXN5bmMgZnVuY3Rpb24gcnVuKCkgewogIHJldHVybiBydW5TdWl0ZShbCiAgICB0ZXN0KCdKYXZhLmltcGxlbWVudCBzdXBwb3J0cyBjbGFzcyBwcm94eSBwbHVzIG9iamVjdCBpbXBsZW1lbnRhdGlvbicsICgpID0+IHsKICAgICAgbGV0IGNvdW50ID0gMDsKICAgICAgY29uc3QgcnVubmFibGUgPSBKYXZhLmltcGxlbWVudChSdW5uYWJsZSwgewogICAgICAgIHJ1bjogZnVuY3Rpb24gKCkgewogICAgICAgICAgY291bnQgKz0gMTsKICAgICAgICB9LAogICAgICB9KTsKICAgICAgcnVuVGhyZWFkQW5kSm9pbihydW5uYWJsZSk7CiAgICAgIGFzc2VydEVxKGNvdW50LCAxKTsKICAgIH0pLAogICAgdGVzdCgnSmF2YS5pbXBsZW1lbnQgc3VwcG9ydHMgc3RyaW5nIGludGVyZmFjZSBwbHVzIFNBTSBmdW5jdGlvbicsICgpID0+IHsKICAgICAgbGV0IGNvdW50ID0gMDsKICAgICAgY29uc3QgcnVubmFibGUgPSBKYXZhLmltcGxlbWVudCgnamF2YS5sYW5nLlJ1bm5hYmxlJywgZnVuY3Rpb24gKCkgewogICAgICAgIGNvdW50ICs9IDE7CiAgICAgIH0pOwogICAgICBydW5UaHJlYWRBbmRKb2luKHJ1bm5hYmxlKTsKICAgICAgYXNzZXJ0RXEoY291bnQsIDEpOwogICAgfSksCiAgICB0ZXN0KCdKYXZhLmltcGxlbWVudCBzdXBwb3J0cyBTQU0gc2hvcnRoYW5kIHdpdGhvdXQgZXhwbGljaXQgaW50ZXJmYWNlIG5hbWUnLCAoKSA9PiB7CiAgICAgIGxldCBjb3VudCA9IDA7CiAgICAgIGNvbnN0IHJ1bm5hYmxlID0gSmF2YS5pbXBsZW1lbnQoZnVuY3Rpb24gKCkgewogICAgICAgIGNvdW50ICs9IDE7CiAgICAgIH0pOwogICAgICBydW5UaHJlYWRBbmRKb2luKHJ1bm5hYmxlKTsKICAgICAgYXNzZXJ0RXEoY291bnQsIDEpOwogICAgfSksCiAgICB0ZXN0KCdKYXZhLnByb3h5IGFsaWFzIHN1cHBvcnRzIG9iamVjdCBpbXBsZW1lbnRhdGlvbicsICgpID0+IHsKICAgICAgbGV0IGNvdW50ID0gMDsKICAgICAgY29uc3QgcnVubmFibGUgPSBKYXZhLnByb3h5KFJ1bm5hYmxlLCB7CiAgICAgICAgcnVuOiBmdW5jdGlvbiAoKSB7CiAgICAgICAgICBjb3VudCArPSAxOwogICAgICAgIH0sCiAgICAgIH0pOwogICAgICBydW5UaHJlYWRBbmRKb2luKHJ1bm5hYmxlKTsKICAgICAgYXNzZXJ0RXEoY291bnQsIDEpOwogICAgfSksCiAgICB0ZXN0KCdjYWxsYmFjayBwb3NpdGlvbiBhY2NlcHRzIHBsYWluIG9iamVjdCBmb3IgUnVubmFibGUnLCAoKSA9PiB7CiAgICAgIGxldCBjb3VudCA9IDA7CiAgICAgIHJ1blRocmVhZEFuZEpvaW4oewogICAgICAgIHJ1bjogZnVuY3Rpb24gKCkgewogICAgICAgICAgY291bnQgKz0gMTsKICAgICAgICB9LAogICAgICB9KTsKICAgICAgYXNzZXJ0RXEoY291bnQsIDEpOwogICAgfSksCiAgICB0ZXN0KCdjYWxsYmFjayBwb3NpdGlvbiBhY2NlcHRzIHBsYWluIGZ1bmN0aW9uIGZvciBSdW5uYWJsZScsICgpID0+IHsKICAgICAgbGV0IGNvdW50ID0gMDsKICAgICAgcnVuVGhyZWFkQW5kSm9pbihmdW5jdGlvbiAoKSB7CiAgICAgICAgY291bnQgKz0gMTsKICAgICAgfSk7CiAgICAgIGFzc2VydEVxKGNvdW50LCAxKTsKICAgIH0pLAogICAgdGVzdCgnaW50ZXJmYWNlIGNsYXNzIHByb3h5IGNhbGwgYWNjZXB0cyBwbGFpbiBvYmplY3QgaW1wbGVtZW50YXRpb24nLCAoKSA9PiB7CiAgICAgIGxldCBjb3VudCA9IDA7CiAgICAgIGNvbnN0IHJ1bm5hYmxlID0gUnVubmFibGUoewogICAgICAgIHJ1bjogZnVuY3Rpb24gKCkgewogICAgICAgICAgY291bnQgKz0gMTsKICAgICAgICB9LAogICAgICB9KTsKICAgICAgcnVuVGhyZWFkQW5kSm9pbihydW5uYWJsZSk7CiAgICAgIGFzc2VydEVxKGNvdW50LCAxKTsKICAgIH0pLAogICAgdGVzdCgnaW50ZXJmYWNlIGNsYXNzIHByb3h5IGNhbGwgYWNjZXB0cyBwbGFpbiBmdW5jdGlvbiBpbXBsZW1lbnRhdGlvbicsICgpID0+IHsKICAgICAgbGV0IGNvdW50ID0gMDsKICAgICAgY29uc3QgcnVubmFibGUgPSBSdW5uYWJsZShmdW5jdGlvbiAoKSB7CiAgICAgICAgY291bnQgKz0gMTsKICAgICAgfSk7CiAgICAgIHJ1blRocmVhZEFuZEpvaW4ocnVubmFibGUpOwogICAgICBhc3NlcnRFcShjb3VudCwgMSk7CiAgICB9KSwKICAgIHRlc3QoJ0phdmEucHJveHkgc3VwcG9ydHMgc3RyaW5nIGludGVyZmFjZSBwbHVzIFNBTSBmdW5jdGlvbicsICgpID0+IHsKICAgICAgbGV0IGNvdW50ID0gMDsKICAgICAgY29uc3QgcnVubmFibGUgPSBKYXZhLnByb3h5KCdqYXZhLmxhbmcuUnVubmFibGUnLCBmdW5jdGlvbiAoKSB7CiAgICAgICAgY291bnQgKz0gMTsKICAgICAgfSk7CiAgICAgIHJ1blRocmVhZEFuZEpvaW4ocnVubmFibGUpOwogICAgICBhc3NlcnRFcShjb3VudCwgMSk7CiAgICB9KSwKICAgIHRlc3QoJ0phdmEuaW1wbGVtZW50IHN1cHBvcnRzIG5vbi12b2lkIHJldHVybiB2YWx1ZXMgdGhyb3VnaCBDYWxsYWJsZSBvYmplY3QnLCAoKSA9PiB7CiAgICAgIGNvbnN0IGNhbGxhYmxlID0gSmF2YS5pbXBsZW1lbnQoQ2FsbGFibGUsIHsKICAgICAgICBjYWxsOiBmdW5jdGlvbiAoKSB7CiAgICAgICAgICByZXR1cm4gJ2NhbGxhYmxlLW9iamVjdC1yZXN1bHQnOwogICAgICAgIH0sCiAgICAgIH0pOwogICAgICBhc3NlcnRFcShTdHJpbmcocnVuRnV0dXJlVGFzayhjYWxsYWJsZSkpLCAnY2FsbGFibGUtb2JqZWN0LXJlc3VsdCcpOwogICAgfSksCiAgICB0ZXN0KCdjYWxsYmFjayBwb3NpdGlvbiBhY2NlcHRzIHBsYWluIG9iamVjdCBmb3IgQ2FsbGFibGUgcmV0dXJuJywgKCkgPT4gewogICAgICBjb25zdCB2YWx1ZSA9IHJ1bkZ1dHVyZVRhc2soewogICAgICAgIGNhbGw6IGZ1bmN0aW9uICgpIHsKICAgICAgICAgIHJldHVybiAnY2FsbGFibGUtcGxhaW4tb2JqZWN0JzsKICAgICAgICB9LAogICAgICB9KTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKHZhbHVlKSwgJ2NhbGxhYmxlLXBsYWluLW9iamVjdCcpOwogICAgfSksCiAgICB0ZXN0KCdjYWxsYmFjayBwb3NpdGlvbiBhY2NlcHRzIHBsYWluIGZ1bmN0aW9uIGZvciBDYWxsYWJsZSByZXR1cm4nLCAoKSA9PiB7CiAgICAgIGNvbnN0IHZhbHVlID0gcnVuRnV0dXJlVGFzayhmdW5jdGlvbiAoKSB7CiAgICAgICAgcmV0dXJuICdjYWxsYWJsZS1wbGFpbi1mdW5jdGlvbic7CiAgICAgIH0pOwogICAgICBhc3NlcnRFcShTdHJpbmcodmFsdWUpLCAnY2FsbGFibGUtcGxhaW4tZnVuY3Rpb24nKTsKICAgIH0pLAogICAgdGVzdCgnQ2FsbGFibGUgY2xhc3MgcHJveHkgY2FsbCBhY2NlcHRzIHBsYWluIGZ1bmN0aW9uIGltcGxlbWVudGF0aW9uJywgKCkgPT4gewogICAgICBjb25zdCBjYWxsYWJsZSA9IENhbGxhYmxlKGZ1bmN0aW9uICgpIHsKICAgICAgICByZXR1cm4gJ2NhbGxhYmxlLWNsYXNzLXByb3h5LWZ1bmN0aW9uJzsKICAgICAgfSk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhydW5GdXR1cmVUYXNrKGNhbGxhYmxlKSksICdjYWxsYWJsZS1jbGFzcy1wcm94eS1mdW5jdGlvbicpOwogICAgfSksCiAgICB0ZXN0KCdDYWxsYWJsZSBnZXQodGltZW91dCwgdW5pdCkgcmVzb2x2ZXMgdGhyb3VnaCBjYWxsYmFjayBwdW1waW5nJywgKCkgPT4gewogICAgICBjb25zdCB0YXNrID0gbmV3IEphdmEuamF2YS51dGlsLmNvbmN1cnJlbnQuRnV0dXJlVGFzayhmdW5jdGlvbiAoKSB7CiAgICAgICAgcmV0dXJuICd0aW1lZC1jYWxsYWJsZS1yZXN1bHQnOwogICAgICB9KTsKICAgICAgY29uc3Qgd29ya2VyID0gbmV3IEphdmEuamF2YS5sYW5nLlRocmVhZCh0YXNrKTsKICAgICAgd29ya2VyLnN0YXJ0KCk7CiAgICAgIGNvbnN0IHZhbHVlID0gdGFzay5nZXQoMiwgVGltZVVuaXQuU0VDT05EUyk7CiAgICAgIHdvcmtlci5qb2luKDIwMDApOwogICAgICBhc3NlcnRFcShTdHJpbmcodmFsdWUpLCAndGltZWQtY2FsbGFibGUtcmVzdWx0Jyk7CiAgICB9KSwKICAgIHRlc3QoJ2Nsb3N1cmUgc3RhdGUgcmVtYWlucyB2aXNpYmxlIGFjcm9zcyByZXBlYXRlZCBSdW5uYWJsZSBpbnZvY2F0aW9ucycsICgpID0+IHsKICAgICAgbGV0IGNvdW50ID0gMDsKICAgICAgY29uc3QgcnVubmFibGUgPSBSdW5uYWJsZShmdW5jdGlvbiAoKSB7CiAgICAgICAgY291bnQgKz0gMTsKICAgICAgfSk7CiAgICAgIHJ1blRocmVhZEFuZEpvaW4ocnVubmFibGUpOwogICAgICBydW5UaHJlYWRBbmRKb2luKHJ1bm5hYmxlKTsKICAgICAgYXNzZXJ0RXEoY291bnQsIDIpOwogICAgfSksCiAgXSk7Cn07Cg==
+'use strict';
+
+const {
+  assertEq,
+  test,
+  runSuite,
+  runThreadAndJoin,
+  runFutureTask,
+  Runnable,
+  Callable,
+  TimeUnit,
+} = require('./common');
+
+exports.run = async function run() {
+  return runSuite([
+    test('Java.implement supports class proxy plus object implementation', () => {
+      let count = 0;
+      const runnable = Java.implement(Runnable, {
+        run: function () {
+          count += 1;
+        },
+      });
+      runThreadAndJoin(runnable);
+      assertEq(count, 1);
+    }),
+    test('Java.implement supports string interface plus SAM function', () => {
+      let count = 0;
+      const runnable = Java.implement('java.lang.Runnable', function () {
+        count += 1;
+      });
+      runThreadAndJoin(runnable);
+      assertEq(count, 1);
+    }),
+    test('Java.implement supports SAM shorthand without explicit interface name', () => {
+      let count = 0;
+      const runnable = Java.implement(function () {
+        count += 1;
+      });
+      runThreadAndJoin(runnable);
+      assertEq(count, 1);
+    }),
+    test('Java.proxy alias supports object implementation', () => {
+      let count = 0;
+      const runnable = Java.proxy(Runnable, {
+        run: function () {
+          count += 1;
+        },
+      });
+      runThreadAndJoin(runnable);
+      assertEq(count, 1);
+    }),
+    test('callback position accepts plain object for Runnable', () => {
+      let count = 0;
+      runThreadAndJoin({
+        run: function () {
+          count += 1;
+        },
+      });
+      assertEq(count, 1);
+    }),
+    test('callback position accepts plain function for Runnable', () => {
+      let count = 0;
+      runThreadAndJoin(function () {
+        count += 1;
+      });
+      assertEq(count, 1);
+    }),
+    test('interface class proxy call accepts plain object implementation', () => {
+      let count = 0;
+      const runnable = Runnable({
+        run: function () {
+          count += 1;
+        },
+      });
+      runThreadAndJoin(runnable);
+      assertEq(count, 1);
+    }),
+    test('interface class proxy call accepts plain function implementation', () => {
+      let count = 0;
+      const runnable = Runnable(function () {
+        count += 1;
+      });
+      runThreadAndJoin(runnable);
+      assertEq(count, 1);
+    }),
+    test('Java.proxy supports string interface plus SAM function', () => {
+      let count = 0;
+      const runnable = Java.proxy('java.lang.Runnable', function () {
+        count += 1;
+      });
+      runThreadAndJoin(runnable);
+      assertEq(count, 1);
+    }),
+    test('Java.implement supports non-void return values through Callable object', () => {
+      const callable = Java.implement(Callable, {
+        call: function () {
+          return 'callable-object-result';
+        },
+      });
+      assertEq(String(runFutureTask(callable)), 'callable-object-result');
+    }),
+    test('callback position accepts plain object for Callable return', () => {
+      const value = runFutureTask({
+        call: function () {
+          return 'callable-plain-object';
+        },
+      });
+      assertEq(String(value), 'callable-plain-object');
+    }),
+    test('callback position accepts plain function for Callable return', () => {
+      const value = runFutureTask(function () {
+        return 'callable-plain-function';
+      });
+      assertEq(String(value), 'callable-plain-function');
+    }),
+    test('Callable class proxy call accepts plain function implementation', () => {
+      const callable = Callable(function () {
+        return 'callable-class-proxy-function';
+      });
+      assertEq(String(runFutureTask(callable)), 'callable-class-proxy-function');
+    }),
+    test('Callable get(timeout, unit) resolves through callback pumping', () => {
+      const task = new Java.java.util.concurrent.FutureTask(function () {
+        return 'timed-callable-result';
+      });
+      const worker = new Java.java.lang.Thread(task);
+      worker.start();
+      const value = task.get(2, TimeUnit.SECONDS);
+      worker.join(2000);
+      assertEq(String(value), 'timed-callable-result');
+    }),
+    test('closure state remains visible across repeated Runnable invocations', () => {
+      let count = 0;
+      const runnable = Runnable(function () {
+        count += 1;
+      });
+      runThreadAndJoin(runnable);
+      runThreadAndJoin(runnable);
+      assertEq(count, 2);
+    }),
+  ]);
+};

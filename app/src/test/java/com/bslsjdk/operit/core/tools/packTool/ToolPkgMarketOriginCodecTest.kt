@@ -1,1 +1,71 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBUb29sUGtnTWFya2V0T3JpZ2luQ29kZWNUZXN0IHsKICAgIEBUZXN0CiAgICBmdW4gYGVuY29kZXMgYW4gYXNjaWkgeG9yIG1hcmtlciB3aXRob3V0IHJlYWRhYmxlIGF1dGhvciBkYXRhYCgpIHsKICAgICAgICB2YWwgb3JpZ2luID0KICAgICAgICAgICAgVG9vbFBrZ01hcmtldE9yaWdpbigKICAgICAgICAgICAgICAgIG1hcmtldCA9ICJPcGVyaXQiLAogICAgICAgICAgICAgICAgdG9vbHBrZ0lkID0gInV1aWQtZ2VuZXJhdG9yIiwKICAgICAgICAgICAgICAgIHZlcnNpb24gPSAiMS4wLjIiLAogICAgICAgICAgICAgICAgYXV0aG9yID0gbGlzdE9mKCJPcmlnaW5hbCBBdXRob3IiKQogICAgICAgICAgICApCgogICAgICAgIHZhbCBtYXJrZXIgPSBUb29sUGtnTWFya2V0T3JpZ2luQ29kZWMuZW5jb2RlKG9yaWdpbikKCiAgICAgICAgYXNzZXJ0RmFsc2UobWFya2VyLmNvbnRhaW5zKCJPcmlnaW5hbCBBdXRob3IiKSkKICAgICAgICBhc3NlcnRGYWxzZShtYXJrZXIuY29udGFpbnMoInV1aWQtZ2VuZXJhdG9yIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJUb29sUGtnLl9tIiwgbWFya2VyLnN1YnN0cmluZ0JlZm9yZSgnKCcpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHBhcnNlcyBhbmQgdmFsaWRhdGVzIG1hcmtldHBsYWNlIG9yaWdpbiBmb3IgbWF0Y2hpbmcgcGFja2FnZWAoKSB7CiAgICAgICAgdmFsIG9yaWdpbiA9CiAgICAgICAgICAgIFRvb2xQa2dNYXJrZXRPcmlnaW5Db2RlYy5wYXJzZSgKICAgICAgICAgICAgICAgICJ7XCJtYXJrZXRcIjpcIk9wZXJpdFwiLFwidG9vbHBrZ0lkXCI6XCJ1dWlkLWdlbmVyYXRvclwiLFwidmVyc2lvblwiOlwiIDEuMC4yIFwiLFwiYXV0aG9yXCI6W1wiIE9yaWdpbmFsIEF1dGhvciBcIixcIlwiXX0iCiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBUb29sUGtnTWFya2V0T3JpZ2luKAogICAgICAgICAgICAgICAgbWFya2V0ID0gIk9wZXJpdCIsCiAgICAgICAgICAgICAgICB0b29scGtnSWQgPSAidXVpZC1nZW5lcmF0b3IiLAogICAgICAgICAgICAgICAgdmVyc2lvbiA9ICIxLjAuMiIsCiAgICAgICAgICAgICAgICBhdXRob3IgPSBsaXN0T2YoIk9yaWdpbmFsIEF1dGhvciIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFRvb2xQa2dNYXJrZXRPcmlnaW5Db2RlYy52YWxpZGF0ZUZvclBhY2thZ2Uob3JpZ2luLCAidXVpZC1nZW5lcmF0b3IiKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBkb2VzIG5vdCB0cnVzdCBhbiBpbnZhbGlkIG1hcmtlciBvciBhIG1hcmtlciBmb3IgYW5vdGhlciBwYWNrYWdlYCgpIHsKICAgICAgICB2YWwgaW52YWxpZCA9IFRvb2xQa2dNYXJrZXRPcmlnaW5Db2RlYy5wYXJzZSgie1wibWFya2V0XCI6XCJPcGVyaXRcIn0iKQogICAgICAgIHZhbCBtaXNtYXRjaGVkID0KICAgICAgICAgICAgVG9vbFBrZ01hcmtldE9yaWdpbkNvZGVjLnBhcnNlKAogICAgICAgICAgICAgICAgIntcIm1hcmtldFwiOlwiT3Blcml0XCIsXCJ0b29scGtnSWRcIjpcIm90aGVyXCIsXCJ2ZXJzaW9uXCI6XCIxLjAuMlwiLFwiYXV0aG9yXCI6W119IgogICAgICAgICAgICApCgogICAgICAgIGFzc2VydE51bGwoaW52YWxpZCkKICAgICAgICBhc3NlcnROdWxsKFRvb2xQa2dNYXJrZXRPcmlnaW5Db2RlYy52YWxpZGF0ZUZvclBhY2thZ2UobWlzbWF0Y2hlZCwgInV1aWQtZ2VuZXJhdG9yIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcm91bmQgdHJpcHMgbWV0YWRhdGEgbWFya2VyIHdpdGhvdXQgcmVhZGFibGUgYXV0aG9yIGRhdGFgKCkgewogICAgICAgIHZhbCBvcmlnaW4gPQogICAgICAgICAgICBUb29sUGtnTWFya2V0T3JpZ2luKAogICAgICAgICAgICAgICAgbWFya2V0ID0gIk9wZXJpdCIsCiAgICAgICAgICAgICAgICB0b29scGtnSWQgPSAidXVpZC1nZW5lcmF0b3IiLAogICAgICAgICAgICAgICAgdmVyc2lvbiA9ICIxLjAuMiIsCiAgICAgICAgICAgICAgICBhdXRob3IgPSBsaXN0T2YoIk9yaWdpbmFsIEF1dGhvciIpCiAgICAgICAgICAgICkKCiAgICAgICAgdmFsIG1hcmtlciA9IFRvb2xQa2dNYXJrZXRPcmlnaW5Db2RlYy5lbmNvZGVGb3JNZXRhZGF0YShvcmlnaW4pCgogICAgICAgIGFzc2VydEZhbHNlKG1hcmtlci5jb250YWlucygiT3JpZ2luYWwgQXV0aG9yIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG9yaWdpbiwgVG9vbFBrZ01hcmtldE9yaWdpbkNvZGVjLmRlY29kZU1ldGFkYXRhKG1hcmtlcikpCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.packTool
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNull
+import org.junit.Test
+
+class ToolPkgMarketOriginCodecTest {
+    @Test
+    fun `encodes an ascii xor marker without readable author data`() {
+        val origin =
+            ToolPkgMarketOrigin(
+                market = "Operit",
+                toolpkgId = "uuid-generator",
+                version = "1.0.2",
+                author = listOf("Original Author")
+            )
+
+        val marker = ToolPkgMarketOriginCodec.encode(origin)
+
+        assertFalse(marker.contains("Original Author"))
+        assertFalse(marker.contains("uuid-generator"))
+        assertEquals("ToolPkg._m", marker.substringBefore('('))
+    }
+
+    @Test
+    fun `parses and validates marketplace origin for matching package`() {
+        val origin =
+            ToolPkgMarketOriginCodec.parse(
+                "{\"market\":\"Operit\",\"toolpkgId\":\"uuid-generator\",\"version\":\" 1.0.2 \",\"author\":[\" Original Author \",\"\"]}"
+            )
+
+        assertEquals(
+            ToolPkgMarketOrigin(
+                market = "Operit",
+                toolpkgId = "uuid-generator",
+                version = "1.0.2",
+                author = listOf("Original Author")
+            ),
+            ToolPkgMarketOriginCodec.validateForPackage(origin, "uuid-generator")
+        )
+    }
+
+    @Test
+    fun `does not trust an invalid marker or a marker for another package`() {
+        val invalid = ToolPkgMarketOriginCodec.parse("{\"market\":\"Operit\"}")
+        val mismatched =
+            ToolPkgMarketOriginCodec.parse(
+                "{\"market\":\"Operit\",\"toolpkgId\":\"other\",\"version\":\"1.0.2\",\"author\":[]}"
+            )
+
+        assertNull(invalid)
+        assertNull(ToolPkgMarketOriginCodec.validateForPackage(mismatched, "uuid-generator"))
+    }
+
+    @Test
+    fun `round trips metadata marker without readable author data`() {
+        val origin =
+            ToolPkgMarketOrigin(
+                market = "Operit",
+                toolpkgId = "uuid-generator",
+                version = "1.0.2",
+                author = listOf("Original Author")
+            )
+
+        val marker = ToolPkgMarketOriginCodec.encodeForMetadata(origin)
+
+        assertFalse(marker.contains("Original Author"))
+        assertEquals(origin, ToolPkgMarketOriginCodec.decodeMetadata(marker))
+    }
+}

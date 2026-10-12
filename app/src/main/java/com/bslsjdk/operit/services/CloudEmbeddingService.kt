@@ -1,1 +1,189 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNsb3VkRW1iZWRkaW5nQ29uZmlnCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5FbWJlZGRpbmcKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS5uZXQuVVJMCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9raHR0cDMuTWVkaWFUeXBlLkNvbXBhbmlvbi50b01lZGlhVHlwZQppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdAppbXBvcnQgb2todHRwMy5SZXF1ZXN0Qm9keS5Db21wYW5pb24udG9SZXF1ZXN0Qm9keQppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CgpjbGFzcyBDbG91ZEVtYmVkZGluZ1NlcnZpY2UoCiAgICBwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0CikgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJDbG91ZEVtYmVkZGluZ1NlcnZpY2UiCiAgICB9CgogICAgY2xhc3MgQ2xvdWRFbWJlZGRpbmdFeGNlcHRpb24obWVzc2FnZTogU3RyaW5nLCBjYXVzZTogVGhyb3dhYmxlPyA9IG51bGwpIDogSWxsZWdhbFN0YXRlRXhjZXB0aW9uKG1lc3NhZ2UsIGNhdXNlKQoKICAgIHByaXZhdGUgdmFsIGh0dHBDbGllbnQ6IE9rSHR0cENsaWVudCBieSBsYXp5IHsKICAgICAgICBPa0h0dHBDbGllbnQuQnVpbGRlcigpCiAgICAgICAgICAgIC5jb25uZWN0VGltZW91dCgzMCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAgICAgLnJlYWRUaW1lb3V0KDYwLCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAud3JpdGVUaW1lb3V0KDYwLCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAuYnVpbGQoKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGdlbmVyYXRlRW1iZWRkaW5nKGNvbmZpZzogQ2xvdWRFbWJlZGRpbmdDb25maWcsIHRleHQ6IFN0cmluZyk6IEVtYmVkZGluZz8gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHZhbCBub3JtYWxpemVkID0gY29uZmlnLm5vcm1hbGl6ZWQoKQogICAgICAgIGlmICghbm9ybWFsaXplZC5pc1JlYWR5KCkgfHwgdGV4dC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgICAgICB9CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHJlcXVlc3RFbWJlZGRpbmcobm9ybWFsaXplZCwgdGV4dCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRW1iZWRkaW5nIHJlcXVlc3QgZXhjZXB0aW9uIiwgZSkKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBnZW5lcmF0ZUVtYmVkZGluZ09yVGhyb3coY29uZmlnOiBDbG91ZEVtYmVkZGluZ0NvbmZpZywgdGV4dDogU3RyaW5nKTogRW1iZWRkaW5nID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB2YWwgbm9ybWFsaXplZCA9IGNvbmZpZy5ub3JtYWxpemVkKCkKICAgICAgICBpZiAoIW5vcm1hbGl6ZWQuaXNSZWFkeSgpKSB7CiAgICAgICAgICAgIHRocm93IENsb3VkRW1iZWRkaW5nRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1lbW9yeV9lbWJlZGRpbmdfZXJyb3JfY29uZmlnX2luY29tcGxldGUpKQogICAgICAgIH0KICAgICAgICBpZiAodGV4dC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgdGhyb3cgQ2xvdWRFbWJlZGRpbmdFeGNlcHRpb24oY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWVtb3J5X2VtYmVkZGluZ19lcnJvcl9pbnB1dF9lbXB0eSkpCiAgICAgICAgfQoKICAgICAgICByZXF1ZXN0RW1iZWRkaW5nKG5vcm1hbGl6ZWQsIHRleHQpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVxdWVzdEVtYmVkZGluZyhjb25maWc6IENsb3VkRW1iZWRkaW5nQ29uZmlnLCB0ZXh0OiBTdHJpbmcpOiBFbWJlZGRpbmcgewogICAgICAgIHZhbCByZXF1ZXN0Qm9keUpzb24gPSBKU09OT2JqZWN0KCkKICAgICAgICAgICAgLnB1dCgibW9kZWwiLCBjb25maWcubW9kZWwpCiAgICAgICAgICAgIC5wdXQoImlucHV0IiwgdGV4dCkKICAgICAgICAgICAgLnRvU3RyaW5nKCkKCiAgICAgICAgdmFsIHJlcXVlc3QgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAudXJsKGNvbXBsZXRlRW1iZWRkaW5nc0VuZHBvaW50KGNvbmZpZy5lbmRwb2ludCkpCiAgICAgICAgICAgIC5wb3N0KHJlcXVlc3RCb2R5SnNvbi50b1JlcXVlc3RCb2R5KCJhcHBsaWNhdGlvbi9qc29uIi50b01lZGlhVHlwZSgpKSkKICAgICAgICAgICAgLmFkZEhlYWRlcigiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgJHtjb25maWcuYXBpS2V5fSIpCiAgICAgICAgICAgIC5hZGRIZWFkZXIoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgaHR0cENsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwb25zZSAtPgogICAgICAgICAgICB2YWwgcmVzcG9uc2VCb2R5ID0gcmVzcG9uc2UuYm9keT8uc3RyaW5nKCkub3JFbXB0eSgpCiAgICAgICAgICAgIGlmICghcmVzcG9uc2UuaXNTdWNjZXNzZnVsKSB7CiAgICAgICAgICAgICAgICB2YWwgZGV0YWlsID0gZXh0cmFjdEVycm9yTWVzc2FnZShyZXNwb25zZUJvZHkpLmlmQmxhbmsgeyByZXNwb25zZS5tZXNzYWdlLmlmQmxhbmsgeyAi6K+35rGC5aSx6LSlIiB9IH0KICAgICAgICAgICAgICAgIHZhbCBtZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWVtb3J5X2VtYmVkZGluZ19lcnJvcl9odHRwLCByZXNwb25zZS5jb2RlLCBkZXRhaWwpCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICIkbWVzc2FnZSwgYm9keT0kcmVzcG9uc2VCb2R5IikKICAgICAgICAgICAgICAgIHRocm93IENsb3VkRW1iZWRkaW5nRXhjZXB0aW9uKG1lc3NhZ2UpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiBwYXJzZUVtYmVkZGluZyhyZXNwb25zZUJvZHkpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBhcnNlRW1iZWRkaW5nKHJlc3BvbnNlQm9keTogU3RyaW5nKTogRW1iZWRkaW5nIHsKICAgICAgICBpZiAocmVzcG9uc2VCb2R5LmlzQmxhbmsoKSkgewogICAgICAgICAgICB0aHJvdyBDbG91ZEVtYmVkZGluZ0V4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tZW1vcnlfZW1iZWRkaW5nX2Vycm9yX2VtcHR5X3Jlc3BvbnNlKSkKICAgICAgICB9CgogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgcm9vdCA9IEpTT05PYmplY3QocmVzcG9uc2VCb2R5KQogICAgICAgICAgICB2YWwgZGF0YSA9IHJvb3Qub3B0SlNPTkFycmF5KCJkYXRhIikKICAgICAgICAgICAgICAgID86IHRocm93IENsb3VkRW1iZWRkaW5nRXhjZXB0aW9uKAogICAgICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1lbW9yeV9lbWJlZGRpbmdfZXJyb3JfbWlzc2luZ19kYXRhLCB0cnVuY2F0ZShyZXNwb25zZUJvZHkpKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICBpZiAoZGF0YS5sZW5ndGgoKSA8PSAwKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBDbG91ZEVtYmVkZGluZ0V4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tZW1vcnlfZW1iZWRkaW5nX2Vycm9yX2VtcHR5X2RhdGEsIHRydW5jYXRlKHJlc3BvbnNlQm9keSkpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBmaXJzdCA9IGRhdGEub3B0SlNPTk9iamVjdCgwKQogICAgICAgICAgICAgICAgPzogdGhyb3cgQ2xvdWRFbWJlZGRpbmdFeGNlcHRpb24oCiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWVtb3J5X2VtYmVkZGluZ19lcnJvcl9pbnZhbGlkX2ZpcnN0X2l0ZW0sIHRydW5jYXRlKHJlc3BvbnNlQm9keSkpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIHZhbCBlbWJlZGRpbmdKc29uID0gZmlyc3Qub3B0SlNPTkFycmF5KCJlbWJlZGRpbmciKQogICAgICAgICAgICAgICAgPzogdGhyb3cgQ2xvdWRFbWJlZGRpbmdFeGNlcHRpb24oCiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWVtb3J5X2VtYmVkZGluZ19lcnJvcl9taXNzaW5nX2VtYmVkZGluZywgdHJ1bmNhdGUocmVzcG9uc2VCb2R5KSkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgaWYgKGVtYmVkZGluZ0pzb24ubGVuZ3RoKCkgPD0gMCkgewogICAgICAgICAgICAgICAgdGhyb3cgQ2xvdWRFbWJlZGRpbmdFeGNlcHRpb24oCiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWVtb3J5X2VtYmVkZGluZ19lcnJvcl9lbXB0eV9lbWJlZGRpbmcsIHRydW5jYXRlKHJlc3BvbnNlQm9keSkpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCB2ZWN0b3IgPSBGbG9hdEFycmF5KGVtYmVkZGluZ0pzb24ubGVuZ3RoKCkpIHsgaW5kZXggLT4KICAgICAgICAgICAgICAgIGVtYmVkZGluZ0pzb24ub3B0RG91YmxlKGluZGV4LCAwLjApLnRvRmxvYXQoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIEVtYmVkZGluZyh2ZWN0b3IpCiAgICAgICAgfSBjYXRjaCAoZTogQ2xvdWRFbWJlZGRpbmdFeGNlcHRpb24pIHsKICAgICAgICAgICAgdGhyb3cgZQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gcGFyc2UgZW1iZWRkaW5nIHJlc3BvbnNlIiwgZSkKICAgICAgICAgICAgdGhyb3cgQ2xvdWRFbWJlZGRpbmdFeGNlcHRpb24oCiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tZW1vcnlfZW1iZWRkaW5nX2Vycm9yX3BhcnNlX2ZhaWxlZCwgdHJ1bmNhdGUocmVzcG9uc2VCb2R5KSksCiAgICAgICAgICAgICAgICBlCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZXh0cmFjdEVycm9yTWVzc2FnZShyZXNwb25zZUJvZHk6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgaWYgKHJlc3BvbnNlQm9keS5pc0JsYW5rKCkpIHJldHVybiAiIgoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIHJvb3QgPSBKU09OT2JqZWN0KHJlc3BvbnNlQm9keSkKICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICByb290LmhhcygiZXJyb3IiKSAtPiBwYXJzZUVycm9yTm9kZShyb290Lm9wdCgiZXJyb3IiKSkKICAgICAgICAgICAgICAgIHJvb3QuaGFzKCJtZXNzYWdlIikgLT4gcm9vdC5vcHRTdHJpbmcoIm1lc3NhZ2UiKQogICAgICAgICAgICAgICAgcm9vdC5oYXMoImRldGFpbCIpIC0+IHJvb3Qub3B0U3RyaW5nKCJkZXRhaWwiKQogICAgICAgICAgICAgICAgZWxzZSAtPiB0cnVuY2F0ZShyZXNwb25zZUJvZHkpCiAgICAgICAgICAgIH0udHJpbSgpCiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHRydW5jYXRlKHJlc3BvbnNlQm9keSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VFcnJvck5vZGUoZXJyb3JOb2RlOiBBbnk/KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gd2hlbiAoZXJyb3JOb2RlKSB7CiAgICAgICAgICAgIGlzIEpTT05PYmplY3QgLT4gbGlzdE9mKAogICAgICAgICAgICAgICAgZXJyb3JOb2RlLm9wdFN0cmluZygibWVzc2FnZSIpLAogICAgICAgICAgICAgICAgZXJyb3JOb2RlLm9wdFN0cmluZygidHlwZSIpLAogICAgICAgICAgICAgICAgZXJyb3JOb2RlLm9wdFN0cmluZygiY29kZSIpCiAgICAgICAgICAgICkuZmlyc3RPck51bGwgeyBpdC5pc05vdEJsYW5rKCkgfSA/OiB0cnVuY2F0ZShlcnJvck5vZGUudG9TdHJpbmcoKSkKICAgICAgICAgICAgaXMgSlNPTkFycmF5IC0+IHRydW5jYXRlKGVycm9yTm9kZS50b1N0cmluZygpKQogICAgICAgICAgICBpcyBTdHJpbmcgLT4gZXJyb3JOb2RlCiAgICAgICAgICAgIG51bGwgLT4gIiIKICAgICAgICAgICAgZWxzZSAtPiB0cnVuY2F0ZShlcnJvck5vZGUudG9TdHJpbmcoKSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdHJ1bmNhdGUodGV4dDogU3RyaW5nLCBtYXhMZW5ndGg6IEludCA9IDIwMCk6IFN0cmluZyB7CiAgICAgICAgdmFsIHNpbmdsZUxpbmUgPSB0ZXh0LnJlcGxhY2UoJ1xuJywgJyAnKS5yZXBsYWNlKCdccicsICcgJykudHJpbSgpCiAgICAgICAgcmV0dXJuIGlmIChzaW5nbGVMaW5lLmxlbmd0aCA8PSBtYXhMZW5ndGgpIHNpbmdsZUxpbmUgZWxzZSBzaW5nbGVMaW5lLnRha2UobWF4TGVuZ3RoKSArICIuLi4iCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY29tcGxldGVFbWJlZGRpbmdzRW5kcG9pbnQoZW5kcG9pbnQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHRyaW1tZWQgPSBlbmRwb2ludC50cmltKCkKICAgICAgICBpZiAodHJpbW1lZC5lbmRzV2l0aCgiIyIpKSB7CiAgICAgICAgICAgIHJldHVybiB0cmltbWVkLnJlbW92ZVN1ZmZpeCgiIyIpCiAgICAgICAgfQoKICAgICAgICB2YWwgd2l0aG91dFNsYXNoID0gdHJpbW1lZC5yZW1vdmVTdWZmaXgoIi8iKQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIHBhdGggPSBVUkwodHJpbW1lZCkucGF0aC5yZW1vdmVTdWZmaXgoIi8iKQogICAgICAgICAgICB3aGVuIHsKICAgICAgICAgICAgICAgIHBhdGguaXNFbXB0eSgpIC0+ICIkd2l0aG91dFNsYXNoL3YxL2VtYmVkZGluZ3MiCiAgICAgICAgICAgICAgICBwYXRoLmVuZHNXaXRoKCIvdjEiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gIiR3aXRob3V0U2xhc2gvZW1iZWRkaW5ncyIKICAgICAgICAgICAgICAgIGVsc2UgLT4gdHJpbW1lZAogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHRyaW1tZWQKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.services
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.CloudEmbeddingConfig
+import com.bslsjdk.operit.data.model.Embedding
+import com.bslsjdk.operit.util.AppLogger
+import java.net.URL
+import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+import org.json.JSONArray
+import org.json.JSONObject
+
+class CloudEmbeddingService(
+    private val context: Context
+) {
+
+    companion object {
+        private const val TAG = "CloudEmbeddingService"
+    }
+
+    class CloudEmbeddingException(message: String, cause: Throwable? = null) : IllegalStateException(message, cause)
+
+    private val httpClient: OkHttpClient by lazy {
+        OkHttpClient.Builder()
+            .connectTimeout(30, TimeUnit.SECONDS)
+            .readTimeout(60, TimeUnit.SECONDS)
+            .writeTimeout(60, TimeUnit.SECONDS)
+            .build()
+    }
+
+    suspend fun generateEmbedding(config: CloudEmbeddingConfig, text: String): Embedding? = withContext(Dispatchers.IO) {
+        val normalized = config.normalized()
+        if (!normalized.isReady() || text.isBlank()) {
+            return@withContext null
+        }
+
+        try {
+            requestEmbedding(normalized, text)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Embedding request exception", e)
+            null
+        }
+    }
+
+    suspend fun generateEmbeddingOrThrow(config: CloudEmbeddingConfig, text: String): Embedding = withContext(Dispatchers.IO) {
+        val normalized = config.normalized()
+        if (!normalized.isReady()) {
+            throw CloudEmbeddingException(context.getString(R.string.memory_embedding_error_config_incomplete))
+        }
+        if (text.isBlank()) {
+            throw CloudEmbeddingException(context.getString(R.string.memory_embedding_error_input_empty))
+        }
+
+        requestEmbedding(normalized, text)
+    }
+
+    private fun requestEmbedding(config: CloudEmbeddingConfig, text: String): Embedding {
+        val requestBodyJson = JSONObject()
+            .put("model", config.model)
+            .put("input", text)
+            .toString()
+
+        val request = Request.Builder()
+            .url(completeEmbeddingsEndpoint(config.endpoint))
+            .post(requestBodyJson.toRequestBody("application/json".toMediaType()))
+            .addHeader("Authorization", "Bearer ${config.apiKey}")
+            .addHeader("Content-Type", "application/json")
+            .build()
+
+        httpClient.newCall(request).execute().use { response ->
+            val responseBody = response.body?.string().orEmpty()
+            if (!response.isSuccessful) {
+                val detail = extractErrorMessage(responseBody).ifBlank { response.message.ifBlank { "请求失败" } }
+                val message = context.getString(R.string.memory_embedding_error_http, response.code, detail)
+                AppLogger.w(TAG, "$message, body=$responseBody")
+                throw CloudEmbeddingException(message)
+            }
+
+            return parseEmbedding(responseBody)
+        }
+    }
+
+    private fun parseEmbedding(responseBody: String): Embedding {
+        if (responseBody.isBlank()) {
+            throw CloudEmbeddingException(context.getString(R.string.memory_embedding_error_empty_response))
+        }
+
+        return try {
+            val root = JSONObject(responseBody)
+            val data = root.optJSONArray("data")
+                ?: throw CloudEmbeddingException(
+                    context.getString(R.string.memory_embedding_error_missing_data, truncate(responseBody))
+                )
+            if (data.length() <= 0) {
+                throw CloudEmbeddingException(
+                    context.getString(R.string.memory_embedding_error_empty_data, truncate(responseBody))
+                )
+            }
+
+            val first = data.optJSONObject(0)
+                ?: throw CloudEmbeddingException(
+                    context.getString(R.string.memory_embedding_error_invalid_first_item, truncate(responseBody))
+                )
+            val embeddingJson = first.optJSONArray("embedding")
+                ?: throw CloudEmbeddingException(
+                    context.getString(R.string.memory_embedding_error_missing_embedding, truncate(responseBody))
+                )
+            if (embeddingJson.length() <= 0) {
+                throw CloudEmbeddingException(
+                    context.getString(R.string.memory_embedding_error_empty_embedding, truncate(responseBody))
+                )
+            }
+
+            val vector = FloatArray(embeddingJson.length()) { index ->
+                embeddingJson.optDouble(index, 0.0).toFloat()
+            }
+            Embedding(vector)
+        } catch (e: CloudEmbeddingException) {
+            throw e
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to parse embedding response", e)
+            throw CloudEmbeddingException(
+                context.getString(R.string.memory_embedding_error_parse_failed, truncate(responseBody)),
+                e
+            )
+        }
+    }
+
+    private fun extractErrorMessage(responseBody: String): String {
+        if (responseBody.isBlank()) return ""
+
+        return try {
+            val root = JSONObject(responseBody)
+            when {
+                root.has("error") -> parseErrorNode(root.opt("error"))
+                root.has("message") -> root.optString("message")
+                root.has("detail") -> root.optString("detail")
+                else -> truncate(responseBody)
+            }.trim()
+        } catch (_: Exception) {
+            truncate(responseBody)
+        }
+    }
+
+    private fun parseErrorNode(errorNode: Any?): String {
+        return when (errorNode) {
+            is JSONObject -> listOf(
+                errorNode.optString("message"),
+                errorNode.optString("type"),
+                errorNode.optString("code")
+            ).firstOrNull { it.isNotBlank() } ?: truncate(errorNode.toString())
+            is JSONArray -> truncate(errorNode.toString())
+            is String -> errorNode
+            null -> ""
+            else -> truncate(errorNode.toString())
+        }
+    }
+
+    private fun truncate(text: String, maxLength: Int = 200): String {
+        val singleLine = text.replace('\n', ' ').replace('\r', ' ').trim()
+        return if (singleLine.length <= maxLength) singleLine else singleLine.take(maxLength) + "..."
+    }
+
+    private fun completeEmbeddingsEndpoint(endpoint: String): String {
+        val trimmed = endpoint.trim()
+        if (trimmed.endsWith("#")) {
+            return trimmed.removeSuffix("#")
+        }
+
+        val withoutSlash = trimmed.removeSuffix("/")
+
+        return try {
+            val path = URL(trimmed).path.removeSuffix("/")
+            when {
+                path.isEmpty() -> "$withoutSlash/v1/embeddings"
+                path.endsWith("/v1", ignoreCase = true) -> "$withoutSlash/embeddings"
+                else -> trimmed
+            }
+        } catch (_: Exception) {
+            trimmed
+        }
+    }
+}

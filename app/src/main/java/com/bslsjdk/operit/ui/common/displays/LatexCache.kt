@@ -1,1 +1,237 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmRpc3BsYXlzCgppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5CaXRtYXAKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQ2FudmFzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWQudXRpbC5McnVDYWNoZQppbXBvcnQgcnUubm90aWVzLmpsYXRleG1hdGguSkxhdGV4TWF0aERyYXdhYmxlCgovKioKICogQ2FjaGUgZm9yIExhVGVYIGRyYXdhYmxlIG9iamVjdHMgdG8gaW1wcm92ZSByZW5kZXJpbmcgcGVyZm9ybWFuY2UuIFRoaXMgY2xhc3MgaW1wbGVtZW50cyBhbiBMUlUKICogKExlYXN0IFJlY2VudGx5IFVzZWQpIGNhY2hlIGZvciBMYVRlWCBmb3JtdWxhcyB0byBhdm9pZCByZS1yZW5kZXJpbmcgdGhlIHNhbWUgZm9ybXVsYXMgbXVsdGlwbGUKICogdGltZXMuCiAqLwpvYmplY3QgTGF0ZXhDYWNoZSB7CiAgICAvLyBDYWNoZSBzaXplOiA1MCBlbnRyaWVzIHNob3VsZCBiZSBlbm91Z2ggZm9yIG1vc3QgdXNlIGNhc2VzCiAgICBwcml2YXRlIGNvbnN0IHZhbCBDQUNIRV9TSVpFID0gNTAKCiAgICAvLyDorqHnrpflupTnlKjlj6/nlKjlhoXlrZjnmoTlpKflsI8KICAgIHByaXZhdGUgdmFsIG1heE1lbW9yeSA9IChSdW50aW1lLmdldFJ1bnRpbWUoKS5tYXhNZW1vcnkoKSAvIDEwMjQpLnRvSW50KCkKCiAgICAvLyDkvb/nlKjlj6/nlKjlhoXlrZjnmoQxLzjkvZzkuLrlm77niYfnvJPlrZgKICAgIHByaXZhdGUgdmFsIEJJVE1BUF9DQUNIRV9TSVpFID0gbWF4TWVtb3J5IC8gOAoKICAgIC8vIExSVSBjYWNoZSBmb3IgTGFUZVggZHJhd2FibGVzCiAgICBwcml2YXRlIHZhbCBjYWNoZSA9IExydUNhY2hlPFN0cmluZywgSkxhdGV4TWF0aERyYXdhYmxlPihDQUNIRV9TSVpFKQoKICAgIC8vIExSVSBjYWNoZSBmb3IgYml0bWFwIHJlcHJlc2VudGF0aW9ucyBvZiByZW5kZXJlZCBMYVRlWAogICAgcHJpdmF0ZSB2YWwgYml0bWFwQ2FjaGUgPQogICAgICAgICAgICBvYmplY3QgOiBMcnVDYWNoZTxTdHJpbmcsIEJpdG1hcD4oQklUTUFQX0NBQ0hFX1NJWkUpIHsKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBzaXplT2Yoa2V5OiBTdHJpbmcsIGJpdG1hcDogQml0bWFwKTogSW50IHsKICAgICAgICAgICAgICAgICAgICAvLyDov5Tlm55iaXRtYXDnmoTlpKflsI/vvIhLQuS4uuWNleS9je+8iQogICAgICAgICAgICAgICAgICAgIHJldHVybiBiaXRtYXAuYnl0ZUNvdW50IC8gMTAyNAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBlbnRyeVJlbW92ZWQoCiAgICAgICAgICAgICAgICAgICAgICAgIGV2aWN0ZWQ6IEJvb2xlYW4sCiAgICAgICAgICAgICAgICAgICAgICAgIGtleTogU3RyaW5nLAogICAgICAgICAgICAgICAgICAgICAgICBvbGRWYWx1ZTogQml0bWFwLAogICAgICAgICAgICAgICAgICAgICAgICBuZXdWYWx1ZTogQml0bWFwPwogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6cQml0bWFw6KKr56e75Ye657yT5a2Y77yM56Gu5L+d5Zue5pS25YaF5a2YCiAgICAgICAgICAgICAgICAgICAgaWYgKGV2aWN0ZWQgJiYgbmV3VmFsdWUgPT0gbnVsbCAmJiAhb2xkVmFsdWUuaXNSZWN5Y2xlZCkgewogICAgICAgICAgICAgICAgICAgICAgICBvbGRWYWx1ZS5yZWN5Y2xlKCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAvKioKICAgICAqIEdldCBhIGNhY2hlZCBMYVRlWCBkcmF3YWJsZSBvciBjcmVhdGUgYW5kIGNhY2hlIGEgbmV3IG9uZQogICAgICoKICAgICAqIEBwYXJhbSBmb3JtdWxhIFRoZSBMYVRlWCBmb3JtdWxhIHRvIHJlbmRlcgogICAgICogQHBhcmFtIGJ1aWxkZXIgQSBjb25maWd1cmVkIGJ1aWxkZXIgZm9yIGNyZWF0aW5nIHRoZSBkcmF3YWJsZSBpZiBub3QgY2FjaGVkCiAgICAgKiBAcmV0dXJuIFRoZSBjYWNoZWQgb3IgbmV3bHkgY3JlYXRlZCBKTGF0ZXhNYXRoRHJhd2FibGUKICAgICAqLwogICAgQFN5bmNocm9uaXplZAogICAgZnVuIGdldERyYXdhYmxlKGZvcm11bGE6IFN0cmluZywgYnVpbGRlcjogSkxhdGV4TWF0aERyYXdhYmxlLkJ1aWxkZXIpOiBKTGF0ZXhNYXRoRHJhd2FibGUgewogICAgICAgIEpMYXRleE1hdGhDb21wYXRpYmlsaXR5LmVuc3VyZVJlZ2lzdGVyZWQoKQoKICAgICAgICAvLyBDcmVhdGUgYSBjYWNoZSBrZXkgdGhhdCBpbmNsdWRlcyB0aGUgZm9ybXVsYSBhbmQgcmVuZGVyaW5nIHByb3BlcnRpZXMKICAgICAgICB2YWwgY2FjaGVLZXkgPSBidWlsZENhY2hlS2V5KGZvcm11bGEsIGJ1aWxkZXIpCgogICAgICAgIC8vIFRyeSB0byBnZXQgZnJvbSBjYWNoZQogICAgICAgIHZhciBkcmF3YWJsZSA9IGNhY2hlLmdldChjYWNoZUtleSkKCiAgICAgICAgaWYgKGRyYXdhYmxlID09IG51bGwpIHsKICAgICAgICAgICAgLy8gTm90IGluIGNhY2hlLCBjcmVhdGUgbmV3IGRyYXdhYmxlCiAgICAgICAgICAgIGRyYXdhYmxlID0gYnVpbGRlci5idWlsZCgpCgogICAgICAgICAgICAvLyBTdG9yZSBpbiBjYWNoZQogICAgICAgICAgICBjYWNoZS5wdXQoY2FjaGVLZXksIGRyYXdhYmxlKQogICAgICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgICAgICAgICAiTGF0ZXhDYWNoZSIsCiAgICAgICAgICAgICAgICAgICAgIkNhY2hlIG1pc3MgZm9yIGZvcm11bGE6ICR7Zm9ybXVsYS50YWtlKDIwKX0ke2lmIChmb3JtdWxhLmxlbmd0aCA+IDIwKSAiLi4uIiBlbHNlICIifSIKICAgICAgICAgICAgKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKAogICAgICAgICAgICAgICAgICAgICJMYXRleENhY2hlIiwKICAgICAgICAgICAgICAgICAgICAiQ2FjaGUgaGl0IGZvciBmb3JtdWxhOiAke2Zvcm11bGEudGFrZSgyMCl9JHtpZiAoZm9ybXVsYS5sZW5ndGggPiAyMCkgIi4uLiIgZWxzZSAiIn0iCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIHJldHVybiBkcmF3YWJsZQogICAgfQoKICAgIC8qKgogICAgICogR2V0IGEgY2FjaGVkIGJpdG1hcCBvZiByZW5kZXJlZCBMYVRlWCBvciBjcmVhdGUgYW5kIGNhY2hlIGEgbmV3IG9uZQogICAgICoKICAgICAqIEBwYXJhbSBmb3JtdWxhIFRoZSBMYVRlWCBmb3JtdWxhIHRvIHJlbmRlcgogICAgICogQHBhcmFtIGJ1aWxkZXIgQSBjb25maWd1cmVkIGJ1aWxkZXIgZm9yIGNyZWF0aW5nIHRoZSBkcmF3YWJsZSBpZiBiaXRtYXAgbm90IGNhY2hlZAogICAgICogQHJldHVybiBUaGUgY2FjaGVkIG9yIG5ld2x5IGNyZWF0ZWQgQml0bWFwCiAgICAgKi8KICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBnZXRMYXRleEJpdG1hcChmb3JtdWxhOiBTdHJpbmcsIGJ1aWxkZXI6IEpMYXRleE1hdGhEcmF3YWJsZS5CdWlsZGVyKTogQml0bWFwIHsKICAgICAgICB2YWwgY2FjaGVLZXkgPSAiYml0bWFwXyR7YnVpbGRDYWNoZUtleShmb3JtdWxhLCBidWlsZGVyKX0iCgogICAgICAgIC8vIFRyeSB0byBnZXQgZnJvbSBiaXRtYXAgY2FjaGUgZmlyc3QKICAgICAgICB2YXIgYml0bWFwID0gYml0bWFwQ2FjaGUuZ2V0KGNhY2hlS2V5KQoKICAgICAgICBpZiAoYml0bWFwID09IG51bGwpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoCiAgICAgICAgICAgICAgICAgICAgIkxhdGV4Q2FjaGUiLAogICAgICAgICAgICAgICAgICAgICJCaXRtYXAgY2FjaGUgbWlzcywgcmVuZGVyaW5nOiAke2Zvcm11bGEudGFrZSgyMCl9JHtpZiAoZm9ybXVsYS5sZW5ndGggPiAyMCkgIi4uLiIgZWxzZSAiIn0iCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIC8vIEdldCB0aGUgZHJhd2FibGUgKGZyb20gY2FjaGUgb3IgY3JlYXRlIG5ldykKICAgICAgICAgICAgdmFsIGRyYXdhYmxlID0gZ2V0RHJhd2FibGUoZm9ybXVsYSwgYnVpbGRlcikKCiAgICAgICAgICAgIC8vIFJlbmRlciBkcmF3YWJsZSB0byBiaXRtYXAKICAgICAgICAgICAgYml0bWFwID0gcmVuZGVyVG9CaXRtYXAoZHJhd2FibGUpCgogICAgICAgICAgICAvLyBTdG9yZSBpbiBiaXRtYXAgY2FjaGUKICAgICAgICAgICAgYml0bWFwQ2FjaGUucHV0KGNhY2hlS2V5LCBiaXRtYXApCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoCiAgICAgICAgICAgICAgICAgICAgIkxhdGV4Q2FjaGUiLAogICAgICAgICAgICAgICAgICAgICJCaXRtYXAgY2FjaGUgaGl0OiAke2Zvcm11bGEudGFrZSgyMCl9JHtpZiAoZm9ybXVsYS5sZW5ndGggPiAyMCkgIi4uLiIgZWxzZSAiIn0iCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIHJldHVybiBiaXRtYXAKICAgIH0KCiAgICAvKioKICAgICAqIFJlbmRlcnMgYSBMYVRlWCBkcmF3YWJsZSB0byBiaXRtYXAgZm9yIGZhc3RlciBkaXNwbGF5CiAgICAgKgogICAgICogQHBhcmFtIGRyYXdhYmxlIFRoZSBKTGF0ZXhNYXRoRHJhd2FibGUgdG8gcmVuZGVyCiAgICAgKiBAcmV0dXJuIEEgYml0bWFwIHJlcHJlc2VudGF0aW9uIG9mIHRoZSByZW5kZXJlZCBMYVRlWAogICAgICovCiAgICBwcml2YXRlIGZ1biByZW5kZXJUb0JpdG1hcChkcmF3YWJsZTogSkxhdGV4TWF0aERyYXdhYmxlKTogQml0bWFwIHsKICAgICAgICB2YWwgd2lkdGggPSBkcmF3YWJsZS5pbnRyaW5zaWNXaWR0aAogICAgICAgIHZhbCBoZWlnaHQgPSBkcmF3YWJsZS5pbnRyaW5zaWNIZWlnaHQKCiAgICAgICAgLy8gTWFrZSBzdXJlIHdlIGhhdmUgdmFsaWQgZGltZW5zaW9ucwogICAgICAgIHZhbCBzYWZlV2lkdGggPSBpZiAod2lkdGggPD0gMCkgMSBlbHNlIHdpZHRoCiAgICAgICAgdmFsIHNhZmVIZWlnaHQgPSBpZiAoaGVpZ2h0IDw9IDApIDEgZWxzZSBoZWlnaHQKCiAgICAgICAgLy8gQ3JlYXRlIGJpdG1hcCB3aXRoIG9wdGltYWwgY29uZmlndXJhdGlvbiBmb3IgdGV4dAogICAgICAgIHZhbCBiaXRtYXAgPSBCaXRtYXAuY3JlYXRlQml0bWFwKHNhZmVXaWR0aCwgc2FmZUhlaWdodCwgQml0bWFwLkNvbmZpZy5BUkdCXzg4ODgpCgogICAgICAgIC8vIENyZWF0ZSBjYW52YXMgYW5kIGRyYXcgdGhlIGRyYXdhYmxlCiAgICAgICAgdmFsIGNhbnZhcyA9IENhbnZhcyhiaXRtYXApCiAgICAgICAgZHJhd2FibGUuc2V0Qm91bmRzKDAsIDAsIHNhZmVXaWR0aCwgc2FmZUhlaWdodCkKICAgICAgICBkcmF3YWJsZS5kcmF3KGNhbnZhcykKCiAgICAgICAgcmV0dXJuIGJpdG1hcAogICAgfQoKICAgIC8qKiBDbGVhciB0aGUgZW50aXJlIGNhY2hlICovCiAgICBmdW4gY2xlYXJDYWNoZSgpIHsKICAgICAgICBjYWNoZS5ldmljdEFsbCgpCgogICAgICAgIC8vIEFsc28gY2xlYXIgYml0bWFwIGNhY2hlCiAgICAgICAgdmFsIGJpdG1hcENvdW50ID0gYml0bWFwQ2FjaGUuc2l6ZSgpCiAgICAgICAgYml0bWFwQ2FjaGUuZXZpY3RBbGwoKQoKICAgICAgICBBcHBMb2dnZXIuZCgiTGF0ZXhDYWNoZSIsICJBbGwgY2FjaGVzIGNsZWFyZWQuIEZyZWVkICR7Yml0bWFwQ291bnR9IGJpdG1hcHMiKQogICAgfQoKICAgIC8qKiBCdWlsZCBhIGNhY2hlIGtleSB0aGF0IHVuaXF1ZWx5IGlkZW50aWZpZXMgYSBmb3JtdWxhIHdpdGggaXRzIHN0eWxpbmcgcGFyYW1ldGVycyAqLwogICAgcHJpdmF0ZSBmdW4gYnVpbGRDYWNoZUtleShmb3JtdWxhOiBTdHJpbmcsIGJ1aWxkZXI6IEpMYXRleE1hdGhEcmF3YWJsZS5CdWlsZGVyKTogU3RyaW5nIHsKICAgICAgICAvLyBXZSBuZWVkIHRvIGNyZWF0ZSBhIGNhY2hlIGtleSB0aGF0IGluY2x1ZGVzIGJvdGggdGhlIGZvcm11bGEKICAgICAgICAvLyBhbmQgaW1wb3J0YW50IHN0eWxpbmcgcGFyYW1ldGVycyB0byBlbnN1cmUgY29ycmVjdCByZW5kZXJpbmcKCiAgICAgICAgLy8gRXh0cmFjdCBrZXkgcHJvcGVydGllcyBmcm9tIGJ1aWxkZXIgaWYgcG9zc2libGUgdXNpbmcgcmVmbGVjdGlvbgogICAgICAgIHZhbCBidWlsZGVyQ2xhc3MgPSBidWlsZGVyLmphdmFDbGFzcwoKICAgICAgICAvLyBEZWZhdWx0IGNhY2hlIGtleSBjb21wb25lbnRzCiAgICAgICAgdmFyIHRleHRTaXplID0gMGYKICAgICAgICB2YXIgdGV4dENvbG9yID0gMAogICAgICAgIHZhciBhbGlnbiA9IDAKICAgICAgICB2YXIgcGFkZGluZyA9IDAKICAgICAgICB2YXIgYmFja2dyb3VuZCA9IDAKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5bel5YW35Ye95pWw77ya5a6J5YWo6I635Y+W5a2X5q615YC8CiAgICAgICAgICAgIGZ1biBzYWZlR2V0RmllbGQoZmllbGROYW1lOiBTdHJpbmcpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgYnVpbGRlckNsYXNzLmdldERlY2xhcmVkRmllbGQoZmllbGROYW1lKS5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlzQWNjZXNzaWJsZSA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgd2hlbiAoZmllbGROYW1lKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidGV4dFNpemUiIC0+IHRleHRTaXplID0gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsgZ2V0RmxvYXQoYnVpbGRlcikgfSAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYXRjaCAoZTogRXhjZXB0aW9uKSB7IGdldChidWlsZGVyKT8uaGFzaENvZGUoKT8udG9GbG9hdCgpID86IDBmIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICJjb2xvciIgLT4gdGV4dENvbG9yID0gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsgZ2V0SW50KGJ1aWxkZXIpIH0gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2F0Y2ggKGU6IEV4Y2VwdGlvbikgeyBnZXQoYnVpbGRlcik/Lmhhc2hDb2RlKCkgPzogMCB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiYWxpZ24iIC0+IGFsaWduID0gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsgZ2V0SW50KGJ1aWxkZXIpIH0gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2F0Y2ggKGU6IEV4Y2VwdGlvbikgeyBnZXQoYnVpbGRlcik/Lmhhc2hDb2RlKCkgPzogMCB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicGFkZGluZyIgLT4gcGFkZGluZyA9IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7IGdldEludChidWlsZGVyKSB9IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhdGNoIChlOiBFeGNlcHRpb24pIHsgZ2V0KGJ1aWxkZXIpPy5oYXNoQ29kZSgpID86IDAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmQiIC0+IGJhY2tncm91bmQgPSAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnkgeyBnZXRJbnQoYnVpbGRlcikgfSAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYXRjaCAoZTogRXhjZXB0aW9uKSB7IGdldChidWlsZGVyKT8uaGFzaENvZGUoKSA/OiAwIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IE5vU3VjaEZpZWxkRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5a2X5q615LiN5a2Y5Zyo77yM5b+955WlCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAvLyDlhbbku5blvILluLjvvIzkvb/nlKjml6Xlv5fkvYbnu6fnu63miafooYwKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgiTGF0ZXhDYWNoZSIsICJFcnJvciBhY2Nlc3NpbmcgJGZpZWxkTmFtZTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g6I635Y+W5omA5pyJ6ZyA6KaB55qE5a2X5q61CiAgICAgICAgICAgIHNhZmVHZXRGaWVsZCgidGV4dFNpemUiKQogICAgICAgICAgICBzYWZlR2V0RmllbGQoImNvbG9yIikKICAgICAgICAgICAgc2FmZUdldEZpZWxkKCJhbGlnbiIpIAogICAgICAgICAgICBzYWZlR2V0RmllbGQoInBhZGRpbmciKQogICAgICAgICAgICBzYWZlR2V0RmllbGQoImJhY2tncm91bmQiKQogICAgICAgICAgICAKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoIkxhdGV4Q2FjaGUiLCAiRXJyb3IgYWNjZXNzaW5nIGJ1aWxkZXIgcHJvcGVydGllczogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgLy8gRmFsbGJhY2sgdG8gZm9ybXVsYS1vbmx5IGtleSBpZiByZWZsZWN0aW9uIGZhaWxzCiAgICAgICAgICAgIHJldHVybiBmb3JtdWxhCiAgICAgICAgfQoKICAgICAgICAvLyBDb21iaW5lIGFsbCBwYXJhbWV0ZXJzIGludG8gYSBzaW5nbGUga2V5CiAgICAgICAgcmV0dXJuICIke2Zvcm11bGEuaGFzaENvZGUoKX06JHRleHRTaXplOiR0ZXh0Q29sb3I6JGFsaWduOiRwYWRkaW5nOiRiYWNrZ3JvdW5kIgogICAgfQoKICAgIC8qKgogICAgICogR2V0IGNhY2hlIHN0YXRpc3RpY3MKICAgICAqIEByZXR1cm4gQSBzdHJpbmcgd2l0aCBjYWNoZSBoaXQgY291bnQsIG1pc3MgY291bnQsIGV0Yy4KICAgICAqLwogICAgZnVuIGdldFN0YXRzKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICJEcmF3YWJsZSBjYWNoZTogc2l6ZT0ke2NhY2hlLnNpemUoKX0sICIgKwogICAgICAgICAgICAgICAgIm1heD0ke2NhY2hlLm1heFNpemUoKX0sICIgKwogICAgICAgICAgICAgICAgImhpdHM9JHtjYWNoZS5oaXRDb3VudCgpfSwgIiArCiAgICAgICAgICAgICAgICAibWlzc2VzPSR7Y2FjaGUubWlzc0NvdW50KCl9IHwgIiArCiAgICAgICAgICAgICAgICAiQml0bWFwIGNhY2hlOiBzaXplPSR7Yml0bWFwQ2FjaGUuc2l6ZSgpfSwgIiArCiAgICAgICAgICAgICAgICAibWF4PSR7Yml0bWFwQ2FjaGUubWF4U2l6ZSgpfSwgIiArCiAgICAgICAgICAgICAgICAiaGl0cz0ke2JpdG1hcENhY2hlLmhpdENvdW50KCl9LCAiICsKICAgICAgICAgICAgICAgICJtaXNzZXM9JHtiaXRtYXBDYWNoZS5taXNzQ291bnQoKX0iCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.common.displays
+
+import android.graphics.Bitmap
+import android.graphics.Canvas
+import com.bslsjdk.operit.util.AppLogger
+import android.util.LruCache
+import ru.noties.jlatexmath.JLatexMathDrawable
+
+/**
+ * Cache for LaTeX drawable objects to improve rendering performance. This class implements an LRU
+ * (Least Recently Used) cache for LaTeX formulas to avoid re-rendering the same formulas multiple
+ * times.
+ */
+object LatexCache {
+    // Cache size: 50 entries should be enough for most use cases
+    private const val CACHE_SIZE = 50
+
+    // 计算应用可用内存的大小
+    private val maxMemory = (Runtime.getRuntime().maxMemory() / 1024).toInt()
+
+    // 使用可用内存的1/8作为图片缓存
+    private val BITMAP_CACHE_SIZE = maxMemory / 8
+
+    // LRU cache for LaTeX drawables
+    private val cache = LruCache<String, JLatexMathDrawable>(CACHE_SIZE)
+
+    // LRU cache for bitmap representations of rendered LaTeX
+    private val bitmapCache =
+            object : LruCache<String, Bitmap>(BITMAP_CACHE_SIZE) {
+                override fun sizeOf(key: String, bitmap: Bitmap): Int {
+                    // 返回bitmap的大小（KB为单位）
+                    return bitmap.byteCount / 1024
+                }
+
+                override fun entryRemoved(
+                        evicted: Boolean,
+                        key: String,
+                        oldValue: Bitmap,
+                        newValue: Bitmap?
+                ) {
+                    // 如果Bitmap被移出缓存，确保回收内存
+                    if (evicted && newValue == null && !oldValue.isRecycled) {
+                        oldValue.recycle()
+                    }
+                }
+            }
+
+    /**
+     * Get a cached LaTeX drawable or create and cache a new one
+     *
+     * @param formula The LaTeX formula to render
+     * @param builder A configured builder for creating the drawable if not cached
+     * @return The cached or newly created JLatexMathDrawable
+     */
+    @Synchronized
+    fun getDrawable(formula: String, builder: JLatexMathDrawable.Builder): JLatexMathDrawable {
+        JLatexMathCompatibility.ensureRegistered()
+
+        // Create a cache key that includes the formula and rendering properties
+        val cacheKey = buildCacheKey(formula, builder)
+
+        // Try to get from cache
+        var drawable = cache.get(cacheKey)
+
+        if (drawable == null) {
+            // Not in cache, create new drawable
+            drawable = builder.build()
+
+            // Store in cache
+            cache.put(cacheKey, drawable)
+            AppLogger.d(
+                    "LatexCache",
+                    "Cache miss for formula: ${formula.take(20)}${if (formula.length > 20) "..." else ""}"
+            )
+        } else {
+            AppLogger.d(
+                    "LatexCache",
+                    "Cache hit for formula: ${formula.take(20)}${if (formula.length > 20) "..." else ""}"
+            )
+        }
+
+        return drawable
+    }
+
+    /**
+     * Get a cached bitmap of rendered LaTeX or create and cache a new one
+     *
+     * @param formula The LaTeX formula to render
+     * @param builder A configured builder for creating the drawable if bitmap not cached
+     * @return The cached or newly created Bitmap
+     */
+    @Synchronized
+    fun getLatexBitmap(formula: String, builder: JLatexMathDrawable.Builder): Bitmap {
+        val cacheKey = "bitmap_${buildCacheKey(formula, builder)}"
+
+        // Try to get from bitmap cache first
+        var bitmap = bitmapCache.get(cacheKey)
+
+        if (bitmap == null) {
+            AppLogger.d(
+                    "LatexCache",
+                    "Bitmap cache miss, rendering: ${formula.take(20)}${if (formula.length > 20) "..." else ""}"
+            )
+
+            // Get the drawable (from cache or create new)
+            val drawable = getDrawable(formula, builder)
+
+            // Render drawable to bitmap
+            bitmap = renderToBitmap(drawable)
+
+            // Store in bitmap cache
+            bitmapCache.put(cacheKey, bitmap)
+        } else {
+            AppLogger.d(
+                    "LatexCache",
+                    "Bitmap cache hit: ${formula.take(20)}${if (formula.length > 20) "..." else ""}"
+            )
+        }
+
+        return bitmap
+    }
+
+    /**
+     * Renders a LaTeX drawable to bitmap for faster display
+     *
+     * @param drawable The JLatexMathDrawable to render
+     * @return A bitmap representation of the rendered LaTeX
+     */
+    private fun renderToBitmap(drawable: JLatexMathDrawable): Bitmap {
+        val width = drawable.intrinsicWidth
+        val height = drawable.intrinsicHeight
+
+        // Make sure we have valid dimensions
+        val safeWidth = if (width <= 0) 1 else width
+        val safeHeight = if (height <= 0) 1 else height
+
+        // Create bitmap with optimal configuration for text
+        val bitmap = Bitmap.createBitmap(safeWidth, safeHeight, Bitmap.Config.ARGB_8888)
+
+        // Create canvas and draw the drawable
+        val canvas = Canvas(bitmap)
+        drawable.setBounds(0, 0, safeWidth, safeHeight)
+        drawable.draw(canvas)
+
+        return bitmap
+    }
+
+    /** Clear the entire cache */
+    fun clearCache() {
+        cache.evictAll()
+
+        // Also clear bitmap cache
+        val bitmapCount = bitmapCache.size()
+        bitmapCache.evictAll()
+
+        AppLogger.d("LatexCache", "All caches cleared. Freed ${bitmapCount} bitmaps")
+    }
+
+    /** Build a cache key that uniquely identifies a formula with its styling parameters */
+    private fun buildCacheKey(formula: String, builder: JLatexMathDrawable.Builder): String {
+        // We need to create a cache key that includes both the formula
+        // and important styling parameters to ensure correct rendering
+
+        // Extract key properties from builder if possible using reflection
+        val builderClass = builder.javaClass
+
+        // Default cache key components
+        var textSize = 0f
+        var textColor = 0
+        var align = 0
+        var padding = 0
+        var background = 0
+
+        try {
+            // 工具函数：安全获取字段值
+            fun safeGetField(fieldName: String) {
+                try {
+                    builderClass.getDeclaredField(fieldName).apply {
+                        isAccessible = true
+                        when (fieldName) {
+                            "textSize" -> textSize = 
+                                try { getFloat(builder) } 
+                                catch (e: Exception) { get(builder)?.hashCode()?.toFloat() ?: 0f }
+                            "color" -> textColor = 
+                                try { getInt(builder) } 
+                                catch (e: Exception) { get(builder)?.hashCode() ?: 0 }
+                            "align" -> align = 
+                                try { getInt(builder) } 
+                                catch (e: Exception) { get(builder)?.hashCode() ?: 0 }
+                            "padding" -> padding = 
+                                try { getInt(builder) } 
+                                catch (e: Exception) { get(builder)?.hashCode() ?: 0 }
+                            "background" -> background = 
+                                try { getInt(builder) } 
+                                catch (e: Exception) { get(builder)?.hashCode() ?: 0 }
+                        }
+                    }
+                } catch (e: NoSuchFieldException) {
+                    // 字段不存在，忽略
+                } catch (e: Exception) {
+                    // 其他异常，使用日志但继续执行
+                    AppLogger.d("LatexCache", "Error accessing $fieldName: ${e.message}")
+                }
+            }
+            
+            // 获取所有需要的字段
+            safeGetField("textSize")
+            safeGetField("color")
+            safeGetField("align") 
+            safeGetField("padding")
+            safeGetField("background")
+            
+        } catch (e: Exception) {
+            AppLogger.w("LatexCache", "Error accessing builder properties: ${e.message}")
+            // Fallback to formula-only key if reflection fails
+            return formula
+        }
+
+        // Combine all parameters into a single key
+        return "${formula.hashCode()}:$textSize:$textColor:$align:$padding:$background"
+    }
+
+    /**
+     * Get cache statistics
+     * @return A string with cache hit count, miss count, etc.
+     */
+    fun getStats(): String {
+        return "Drawable cache: size=${cache.size()}, " +
+                "max=${cache.maxSize()}, " +
+                "hits=${cache.hitCount()}, " +
+                "misses=${cache.missCount()} | " +
+                "Bitmap cache: size=${bitmapCache.size()}, " +
+                "max=${bitmapCache.maxSize()}, " +
+                "hits=${bitmapCache.hitCount()}, " +
+                "misses=${bitmapCache.missCount()}"
+    }
+}

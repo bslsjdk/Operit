@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0TnVsbAppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENoYXRBcmVhVG9rZW5TcGVlZFRlc3QgewogICAgQFRlc3QKICAgIGZ1biBjYWxjdWxhdGVzT3V0cHV0VG9rZW5zUGVyU2Vjb25kKCkgewogICAgICAgIGFzc2VydEVxdWFscygyNS4wLCBjYWxjdWxhdGVNZXNzYWdlVG9rZW5TcGVlZCgxMDBMLCA0XzAwMEwpISEsIDAuMDAxKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gcmV0dXJuc051bGxXaGVuT3V0cHV0VG9rZW5zQXJlTm90UG9zaXRpdmUoKSB7CiAgICAgICAgYXNzZXJ0TnVsbChjYWxjdWxhdGVNZXNzYWdlVG9rZW5TcGVlZCgwTCwgNF8wMDBMKSkKICAgICAgICBhc3NlcnROdWxsKGNhbGN1bGF0ZU1lc3NhZ2VUb2tlblNwZWVkKC0xTCwgNF8wMDBMKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHJldHVybnNOdWxsV2hlbk91dHB1dER1cmF0aW9uSXNOb3RQb3NpdGl2ZSgpIHsKICAgICAgICBhc3NlcnROdWxsKGNhbGN1bGF0ZU1lc3NhZ2VUb2tlblNwZWVkKDEwMEwsIDBMKSkKICAgICAgICBhc3NlcnROdWxsKGNhbGN1bGF0ZU1lc3NhZ2VUb2tlblNwZWVkKDEwMEwsIC0xTCkpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.chat.components
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+
+class ChatAreaTokenSpeedTest {
+    @Test
+    fun calculatesOutputTokensPerSecond() {
+        assertEquals(25.0, calculateMessageTokenSpeed(100L, 4_000L)!!, 0.001)
+    }
+
+    @Test
+    fun returnsNullWhenOutputTokensAreNotPositive() {
+        assertNull(calculateMessageTokenSpeed(0L, 4_000L))
+        assertNull(calculateMessageTokenSpeed(-1L, 4_000L))
+    }
+
+    @Test
+    fun returnsNullWhenOutputDurationIsNotPositive() {
+        assertNull(calculateMessageTokenSpeed(100L, 0L))
+        assertNull(calculateMessageTokenSpeed(100L, -1L))
+    }
+}

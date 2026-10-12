@@ -1,1 +1,98 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmNvbGxlY3RzLlByaWNpbmdDdXJyZW5jeQoKZGF0YSBjbGFzcyBUb2tlblN0YXRzUXVlcnlQYXJhbXMoCiAgICB2YWwgdGFyZ2V0Q3VycmVuY3k6IFByaWNpbmdDdXJyZW5jeSA9IFByaWNpbmdDdXJyZW5jeS5DTlksCiAgICB2YWwgbWFudWFsUmF0ZTogRG91YmxlID0gVG9rZW5Db3N0Q3VycmVuY3kuREVGQVVMVF9VU0RfVE9fQ05ZX1JBVEUsCiAgICB2YWwgcHJvdmlkZXJNb2RlbHM6IFNldDxTdHJpbmc+PyA9IG51bGwsCikKCmRhdGEgY2xhc3MgVG9rZW5TdGF0c0Nvc3RTdW1tYXJ5KAogICAgdmFsIGN1cnJlbmN5OiBQcmljaW5nQ3VycmVuY3ksCiAgICB2YWwga25vd25BbW91bnQ6IERvdWJsZSwKICAgIHZhbCB1bmtub3duQ29udHJpYnV0aW9uQ291bnQ6IExvbmcsCiAgICB2YWwgdG90YWxDb250cmlidXRpb25Db3VudDogTG9uZywKICAgIHZhbCByYXRlVXNlZDogRG91YmxlLAogICAgdmFsIG9yaWdpbmFsQ3VycmVuY3lBbW91bnRzOiBNYXA8UHJpY2luZ0N1cnJlbmN5LCBEb3VibGU+LAopCgpkYXRhIGNsYXNzIFRva2VuU3RhdHNUb2tlbkFnZ3JlZ2F0ZSgKICAgIHZhbCBrbm93blN1bTogTG9uZywKICAgIHZhbCBrbm93bkV2ZW50Q291bnQ6IExvbmcsCiAgICB2YWwgdW5rbm93bkV2ZW50Q291bnQ6IExvbmcsCiAgICB2YWwgdG90YWxFdmVudENvdW50OiBMb25nLAopIHsKICAgIHZhbCBpc0Z1bGx5S25vd246IEJvb2xlYW4gZ2V0KCkgPSB1bmtub3duRXZlbnRDb3VudCA9PSAwTAp9CgpkYXRhIGNsYXNzIFRva2VuU3RhdHNUb3RhbHMoCiAgICB2YWwgcmVxdWVzdHM6IExvbmcsCiAgICB2YWwgdW5jYWNoZWRJbnB1dDogVG9rZW5TdGF0c1Rva2VuQWdncmVnYXRlLAogICAgdmFsIGNhY2hlZElucHV0OiBUb2tlblN0YXRzVG9rZW5BZ2dyZWdhdGUsCiAgICB2YWwgdG90YWxJbnB1dDogVG9rZW5TdGF0c1Rva2VuQWdncmVnYXRlLAogICAgdmFsIG91dHB1dDogVG9rZW5TdGF0c1Rva2VuQWdncmVnYXRlLAogICAgdmFsIHRvdGFsVG9rZW5zOiBUb2tlblN0YXRzVG9rZW5BZ2dyZWdhdGUsCiAgICB2YWwgY29zdDogVG9rZW5TdGF0c0Nvc3RTdW1tYXJ5LAopCgpkYXRhIGNsYXNzIFRva2VuU3RhdHNMaWZldGltZU92ZXJ2aWV3KAogICAgdmFsIHRvdGFsczogVG9rZW5TdGF0c1RvdGFscywKICAgIHZhbCBkaXNwbGF5TW9kZWxzOiBMaXN0PFRva2VuU3RhdHNEaXNwbGF5TW9kZWxCcmVha2Rvd24+LAopCgpkYXRhIGNsYXNzIFRva2VuU3RhdHNUcmVuZEJ1Y2tldCgKICAgIHZhbCBidWNrZXRTdGFydE1zOiBMb25nLAogICAgdmFsIGJ1Y2tldEVuZE1zOiBMb25nLAogICAgdmFsIHRvdGFsczogVG9rZW5TdGF0c1RvdGFscywKICAgIHZhbCBieU1vZGVsOiBNYXA8U3RyaW5nLCBUb2tlblN0YXRzTW9kZWxCdWNrZXQ+LAopCgpkYXRhIGNsYXNzIFRva2VuU3RhdHNNb2RlbEJ1Y2tldCgKICAgIHZhbCByZXF1ZXN0czogTG9uZywKICAgIHZhbCB1bmNhY2hlZElucHV0OiBMb25nLAogICAgdmFsIGNhY2hlZElucHV0OiBMb25nLAogICAgdmFsIG91dHB1dDogTG9uZywKICAgIHZhbCB0b3RhbFRva2VuczogTG9uZywKICAgIHZhbCB0b3RhbFRva2Vuc1Vua25vd25FdmVudENvdW50OiBMb25nLAogICAgdmFsIHVua25vd25Ub2tlbkV2ZW50Q291bnQ6IExvbmcsCiAgICB2YWwgY29zdDogVG9rZW5TdGF0c0Nvc3RTdW1tYXJ5LAopCgpkYXRhIGNsYXNzIFRva2VuU3RhdHNJZGVudGl0eUJyZWFrZG93bigKICAgIHZhbCBjb25maWdJZDogU3RyaW5nLAogICAgdmFsIHByb3ZpZGVyOiBTdHJpbmcsCiAgICB2YWwgbW9kZWw6IFN0cmluZywKICAgIHZhbCB0b3RhbHM6IFRva2VuU3RhdHNUb3RhbHMsCikKCmRhdGEgY2xhc3MgVG9rZW5TdGF0c0Rpc3BsYXlNb2RlbEJyZWFrZG93bigKICAgIHZhbCBkaXNwbGF5TW9kZWxJZDogU3RyaW5nLAogICAgdmFsIGRpc3BsYXlOYW1lOiBTdHJpbmcsCiAgICB2YWwgbm9ybWFsaXplZE1vZGVsOiBTdHJpbmcsCiAgICB2YWwgdG90YWxzOiBUb2tlblN0YXRzVG90YWxzLAogICAgdmFsIGlkZW50aXRpZXM6IExpc3Q8VG9rZW5TdGF0c0lkZW50aXR5QnJlYWtkb3duPiwKICAgIHZhbCBwcm92aWRlck1vZGVsczogTGlzdDxTdHJpbmc+LAopCgpkYXRhIGNsYXNzIFRva2VuU3RhdHNSYW5nZURhdGEoCiAgICB2YWwgcmFuZ2U6IFRva2VuU3RhdHNUaW1lUmFuZ2UsCiAgICB2YWwgZ3JhbnVsYXJpdHk6IFRva2VuU3RhdHNHcmFudWxhcml0eSwKICAgIHZhbCBldmVudENvdW50OiBMb25nLAogICAgdmFsIHN1bW1hcnk6IFRva2VuU3RhdHNUb3RhbHMsCiAgICB2YWwgYnVja2V0czogTGlzdDxUb2tlblN0YXRzVHJlbmRCdWNrZXQ+LAogICAgdmFsIGRpc3BsYXlNb2RlbHM6IExpc3Q8VG9rZW5TdGF0c0Rpc3BsYXlNb2RlbEJyZWFrZG93bj4sCikKCmludGVybmFsIHZhbCBUb2tlblN0YXRzVG90YWxzLmNhY2hlUmF0ZTogRG91YmxlPwogICAgZ2V0KCkgewogICAgICAgIGlmICgKICAgICAgICAgICAgIWNhY2hlZElucHV0LmlzRnVsbHlLbm93biB8fAogICAgICAgICAgICAgICAgIXRvdGFsSW5wdXQuaXNGdWxseUtub3duIHx8CiAgICAgICAgICAgICAgICB0b3RhbElucHV0Lmtub3duU3VtIDw9IDBMIHx8CiAgICAgICAgICAgICAgICBjYWNoZWRJbnB1dC5rbm93blN1bSAhaW4gMEwuLnRvdGFsSW5wdXQua25vd25TdW0KICAgICAgICApIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNhY2hlZElucHV0Lmtub3duU3VtLnRvRG91YmxlKCkgLyB0b3RhbElucHV0Lmtub3duU3VtLnRvRG91YmxlKCkKICAgIH0K
+package com.bslsjdk.operit.data.stats
+
+import com.bslsjdk.operit.data.collects.PricingCurrency
+
+data class TokenStatsQueryParams(
+    val targetCurrency: PricingCurrency = PricingCurrency.CNY,
+    val manualRate: Double = TokenCostCurrency.DEFAULT_USD_TO_CNY_RATE,
+    val providerModels: Set<String>? = null,
+)
+
+data class TokenStatsCostSummary(
+    val currency: PricingCurrency,
+    val knownAmount: Double,
+    val unknownContributionCount: Long,
+    val totalContributionCount: Long,
+    val rateUsed: Double,
+    val originalCurrencyAmounts: Map<PricingCurrency, Double>,
+)
+
+data class TokenStatsTokenAggregate(
+    val knownSum: Long,
+    val knownEventCount: Long,
+    val unknownEventCount: Long,
+    val totalEventCount: Long,
+) {
+    val isFullyKnown: Boolean get() = unknownEventCount == 0L
+}
+
+data class TokenStatsTotals(
+    val requests: Long,
+    val uncachedInput: TokenStatsTokenAggregate,
+    val cachedInput: TokenStatsTokenAggregate,
+    val totalInput: TokenStatsTokenAggregate,
+    val output: TokenStatsTokenAggregate,
+    val totalTokens: TokenStatsTokenAggregate,
+    val cost: TokenStatsCostSummary,
+)
+
+data class TokenStatsLifetimeOverview(
+    val totals: TokenStatsTotals,
+    val displayModels: List<TokenStatsDisplayModelBreakdown>,
+)
+
+data class TokenStatsTrendBucket(
+    val bucketStartMs: Long,
+    val bucketEndMs: Long,
+    val totals: TokenStatsTotals,
+    val byModel: Map<String, TokenStatsModelBucket>,
+)
+
+data class TokenStatsModelBucket(
+    val requests: Long,
+    val uncachedInput: Long,
+    val cachedInput: Long,
+    val output: Long,
+    val totalTokens: Long,
+    val totalTokensUnknownEventCount: Long,
+    val unknownTokenEventCount: Long,
+    val cost: TokenStatsCostSummary,
+)
+
+data class TokenStatsIdentityBreakdown(
+    val configId: String,
+    val provider: String,
+    val model: String,
+    val totals: TokenStatsTotals,
+)
+
+data class TokenStatsDisplayModelBreakdown(
+    val displayModelId: String,
+    val displayName: String,
+    val normalizedModel: String,
+    val totals: TokenStatsTotals,
+    val identities: List<TokenStatsIdentityBreakdown>,
+    val providerModels: List<String>,
+)
+
+data class TokenStatsRangeData(
+    val range: TokenStatsTimeRange,
+    val granularity: TokenStatsGranularity,
+    val eventCount: Long,
+    val summary: TokenStatsTotals,
+    val buckets: List<TokenStatsTrendBucket>,
+    val displayModels: List<TokenStatsDisplayModelBreakdown>,
+)
+
+internal val TokenStatsTotals.cacheRate: Double?
+    get() {
+        if (
+            !cachedInput.isFullyKnown ||
+                !totalInput.isFullyKnown ||
+                totalInput.knownSum <= 0L ||
+                cachedInput.knownSum !in 0L..totalInput.knownSum
+        ) {
+            return null
+        }
+        return cachedInput.knownSum.toDouble() / totalInput.knownSum.toDouble()
+    }

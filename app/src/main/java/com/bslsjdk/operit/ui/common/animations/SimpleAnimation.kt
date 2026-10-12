@@ -1,1 +1,31 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmFuaW1hdGlvbnMKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLmFuaW1hdGVGbG9hdEFzU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5kcmF3LmFscGhhCgovKioKICogQSBzaW1wbGlmaWVkIHZlcnNpb24gb2YgQW5pbWF0ZWRWaXNpYmlsaXR5IHRoYXQganVzdCB1c2VzIGFscGhhIGFuaW1hdGlvbgogKiB0byBhdm9pZCBjb21wbGV4IGFuaW1hdGlvbiBpbXBsZW1lbnRhdGlvbnMgdGhhdCBtaWdodCBoYXZlIGNvbXBhdGliaWxpdHkgaXNzdWVzLgogKi8KQENvbXBvc2FibGUKZnVuIFNpbXBsZUFuaW1hdGVkVmlzaWJpbGl0eSgKICAgIHZpc2libGU6IEJvb2xlYW4sCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIGNvbnRlbnQ6IEBDb21wb3NhYmxlICgpIC0+IFVuaXQKKSB7CiAgICB2YWwgYWxwaGEgYnkgYW5pbWF0ZUZsb2F0QXNTdGF0ZSgKICAgICAgICB0YXJnZXRWYWx1ZSA9IGlmICh2aXNpYmxlKSAxZiBlbHNlIDBmLAogICAgICAgIGxhYmVsID0gIlZpc2liaWxpdHkgQW5pbWF0aW9uIgogICAgKQogICAgCiAgICBpZiAoYWxwaGEgPiAwZikgewogICAgICAgIEJveCgKICAgICAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllci5hbHBoYShhbHBoYSkKICAgICAgICApIHsKICAgICAgICAgICAgY29udGVudCgpCiAgICAgICAgfQogICAgfQp9IA==
+package com.bslsjdk.operit.ui.common.animations
+
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.foundation.layout.Box
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
+
+/**
+ * A simplified version of AnimatedVisibility that just uses alpha animation
+ * to avoid complex animation implementations that might have compatibility issues.
+ */
+@Composable
+fun SimpleAnimatedVisibility(
+    visible: Boolean,
+    modifier: Modifier = Modifier,
+    content: @Composable () -> Unit
+) {
+    val alpha by animateFloatAsState(
+        targetValue = if (visible) 1f else 0f,
+        label = "Visibility Animation"
+    )
+    
+    if (alpha > 0f) {
+        Box(
+            modifier = modifier.alpha(alpha)
+        ) {
+            content()
+        }
+    }
+} 

@@ -1,1 +1,160 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmNoYXQuaG9va3MuUHJvbXB0VHVybgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy53aXRoQ29udGVudAoKLyoqIFV0aWxpdHkgZnVuY3Rpb25zIGZvciBjaGF0IG1lc3NhZ2UgaGFuZGxpbmcgKi8Kb2JqZWN0IENoYXRVdGlscyB7CiAgICAvLyBnZXRNZW1vcnlGcm9tTWVzc2FnZXMg5Lya5a+55q+P5p2hIEFJIOa2iOaBr+iwg+eUqCByZW1vdmVUaGlua2luZ0NvbnRlbnTjgIIKICAgIC8vIOavj+asoSB0b1JlZ2V4KCkg6YO95Lya6LWwIElDVSBQYXR0ZXJuLmNvbXBpbGXvvIzplb/kvJror53kvJrmiorkuLvnur/nqIvljaHmrbvjgIIKICAgIHByaXZhdGUgdmFsIHRoaW5rQ29udGVudFBhdHRlcm4gPQogICAgICAgIFJlZ2V4KCI8dGhpbmsoPzppbmcpPz4uKj8oPC90aGluayg/OmluZyk/PnxcXHopIiwgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMKQogICAgcHJpdmF0ZSB2YWwgc2VhcmNoQ29udGVudFBhdHRlcm4gPQogICAgICAgIFJlZ2V4KAogICAgICAgICAgICAiPHNlYXJjaFxcYltcXHNcXFNdKj8oPC9zZWFyY2g+fFxceikiLAogICAgICAgICAgICBzZXRPZihSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSwgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMKQogICAgICAgICkKICAgIHByaXZhdGUgdmFsIHRoaW5rQ2FwdHVyZVBhdHRlcm4gPQogICAgICAgIFJlZ2V4KCI8dGhpbmsoPzppbmcpPz4oW1xcc1xcU10qPyk8L3RoaW5rKD86aW5nKT8+IiwgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMKQoKICAgIGZ1biBzdHJpcEdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhKGNvbnRlbnQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIENoYXRNYXJrdXBSZWdleC5yZW1vdmVHZW1pbmlUaG91Z2h0U2lnbmF0dXJlTWV0YShjb250ZW50KQogICAgfQoKICAgIGZ1biBzdHJpcEdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhKG1lc3NhZ2VzOiBMaXN0PFBhaXI8U3RyaW5nLCBTdHJpbmc+Pik6IExpc3Q8UGFpcjxTdHJpbmcsIFN0cmluZz4+IHsKICAgICAgICByZXR1cm4gbWVzc2FnZXMubWFwIHsgKHJvbGUsIGNvbnRlbnQpIC0+CiAgICAgICAgICAgIHJvbGUgdG8gc3RyaXBHZW1pbmlUaG91Z2h0U2lnbmF0dXJlTWV0YShjb250ZW50KQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gc3RyaXBHZW1pbmlUaG91Z2h0U2lnbmF0dXJlTWV0YVR1cm5zKG1lc3NhZ2VzOiBMaXN0PFByb21wdFR1cm4+KTogTGlzdDxQcm9tcHRUdXJuPiB7CiAgICAgICAgcmV0dXJuIG1lc3NhZ2VzLm1hcCB7IHR1cm4gLT4KICAgICAgICAgICAgdHVybi53aXRoQ29udGVudChzdHJpcEdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhKHR1cm4uY29udGVudCkpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzdHJpcE9wZW5BaVJlc3BvbnNlc1JlYXNvbmluZ01ldGEoY29udGVudDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gQ2hhdE1hcmt1cFJlZ2V4LnJlbW92ZU9wZW5BaVJlc3BvbnNlc1JlYXNvbmluZ01ldGEoY29udGVudCkKICAgIH0KCiAgICBmdW4gc3RyaXBPcGVuQWlSZXNwb25zZXNSZWFzb25pbmdNZXRhVHVybnMobWVzc2FnZXM6IExpc3Q8UHJvbXB0VHVybj4pOiBMaXN0PFByb21wdFR1cm4+IHsKICAgICAgICByZXR1cm4gbWVzc2FnZXMubWFwIHsgdHVybiAtPgogICAgICAgICAgICB0dXJuLndpdGhDb250ZW50KHN0cmlwT3BlbkFpUmVzcG9uc2VzUmVhc29uaW5nTWV0YSh0dXJuLmNvbnRlbnQpKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gc3RyaXBPcGVuQWlSZXNwb25zZXNQcm90b2NvbE1ldGEoY29udGVudDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gQ2hhdE1hcmt1cFJlZ2V4LnJlbW92ZU9wZW5BaVJlc3BvbnNlc1Byb3RvY29sTWV0YShjb250ZW50KQogICAgfQoKICAgIGZ1biBzdHJpcE9wZW5BaVJlc3BvbnNlc1Byb3RvY29sTWFya3VwKGNvbnRlbnQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHN0cmlwT3BlbkFpUmVzcG9uc2VzUHJvdG9jb2xNZXRhKGNvbnRlbnQpCiAgICAgICAgICAgIC5yZXBsYWNlKENoYXRNYXJrdXBSZWdleC5zZWFyY2hUYWcsICIiKQogICAgICAgICAgICAucmVwbGFjZShDaGF0TWFya3VwUmVnZXguc2VhcmNoU2VsZkNsb3NpbmdUYWcsICIiKQogICAgICAgICAgICAudHJpbSgpCiAgICB9CgogICAgZnVuIHN0cmlwT3BlbkFpUmVzcG9uc2VzUHJvdG9jb2xNYXJrdXBUdXJucyhtZXNzYWdlczogTGlzdDxQcm9tcHRUdXJuPik6IExpc3Q8UHJvbXB0VHVybj4gewogICAgICAgIHJldHVybiBtZXNzYWdlcy5tYXAgeyB0dXJuIC0+CiAgICAgICAgICAgIHR1cm4ud2l0aENvbnRlbnQoc3RyaXBPcGVuQWlSZXNwb25zZXNQcm90b2NvbE1hcmt1cCh0dXJuLmNvbnRlbnQpKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gaXNHZW1pbmlQcm92aWRlck1vZGVsKHByb3ZpZGVyTW9kZWw6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB3aGVuIChwcm92aWRlck1vZGVsLnN1YnN0cmluZ0JlZm9yZSgiOiIpLnVwcGVyY2FzZSgpKSB7CiAgICAgICAgICAgICJHT09HTEUiLCAiR0VNSU5JX0dFTkVSSUMiIC0+IHRydWUKICAgICAgICAgICAgZWxzZSAtPiBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICAvKiog6L+H5ruk5o6J5YaF5a655Lit55qE5oCd6ICD6YOo5YiG5ZKM5pCc57Si5p2l5rqQIOenu+mZpDx0aGluaz48L3RoaW5rPuOAgTx0aGlua2luZz48L3RoaW5raW5nPuWSjDxzZWFyY2g+PC9zZWFyY2g+5qCH562+5Y+K5YW25Lit55qE5YaF5a6577yM5bm25aSE55CG5pyq6Zet5ZCI55qE5oOF5Ya1ICovCiAgICBmdW4gcmVtb3ZlVGhpbmtpbmdDb250ZW50KGNvbnRlbnQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgaWYgKCFjb250YWluc1RoaW5rT3JTZWFyY2hNYXJrdXAoY29udGVudCkpIHsKICAgICAgICAgICAgcmV0dXJuIGNvbnRlbnQudHJpbSgpCiAgICAgICAgfQogICAgICAgIHJldHVybiBjb250ZW50LnJlcGxhY2UodGhpbmtDb250ZW50UGF0dGVybiwgIiIpLnJlcGxhY2Uoc2VhcmNoQ29udGVudFBhdHRlcm4sICIiKS50cmltKCkKICAgIH0KCiAgICAvKioKICAgICAqIOaPkOWPlnRoaW5r5qCH562+5YaF55qE5YaF5a6577yI55So5LqORGVlcFNlZWvnmoRyZWFzb25pbmdfY29udGVudO+8iQogICAgICogQHBhcmFtIGNvbnRlbnQg5YyF5ZCrdGhpbmvmoIfnrb7nmoTlhoXlrrkKICAgICAqIEByZXR1cm4gUGFpcijnp7vpmaR0aGlua+agh+etvuWQjueahOWGheWuuSwgdGhpbmvmoIfnrb7lhoXnmoTlhoXlrrkpCiAgICAgKi8KICAgIGZ1biBleHRyYWN0VGhpbmtpbmdDb250ZW50KGNvbnRlbnQ6IFN0cmluZyk6IFBhaXI8U3RyaW5nLCBTdHJpbmc+IHsKICAgICAgICBpZiAoIWNvbnRhaW5zVGhpbmtPclNlYXJjaE1hcmt1cChjb250ZW50KSkgewogICAgICAgICAgICByZXR1cm4gUGFpcihjb250ZW50LnRyaW0oKSwgIiIpCiAgICAgICAgfQogICAgICAgIHZhbCB0aGlua01hdGNoZXMgPSB0aGlua0NhcHR1cmVQYXR0ZXJuLmZpbmRBbGwoY29udGVudCkKICAgICAgICB2YWwgdGhpbmtpbmdDb250ZW50ID0gdGhpbmtNYXRjaGVzLmpvaW5Ub1N0cmluZygiXG4iKSB7IGl0Lmdyb3VwVmFsdWVzWzFdLnRyaW0oKSB9CiAgICAgICAgdmFsIGNvbnRlbnRXaXRob3V0VGhpbmsgPQogICAgICAgICAgICBjb250ZW50LnJlcGxhY2UodGhpbmtDYXB0dXJlUGF0dGVybiwgIiIpLnJlcGxhY2Uoc2VhcmNoQ29udGVudFBhdHRlcm4sICIiKS50cmltKCkKICAgICAgICByZXR1cm4gUGFpcihjb250ZW50V2l0aG91dFRoaW5rLCB0aGlua2luZ0NvbnRlbnQpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY29udGFpbnNUaGlua09yU2VhcmNoTWFya3VwKGNvbnRlbnQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBjb250ZW50LmNvbnRhaW5zKCI8dGhpbmsiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgY29udGVudC5jb250YWlucygiPHNlYXJjaCIsIGlnbm9yZUNhc2UgPSB0cnVlKQogICAgfQoKICAgIC8qKgogICAgICog5Lyw566X57uZ5a6a5paH5pys55qEdG9rZW7mlbDph48KICAgICAqIEBwYXJhbSB0ZXh0IOimgeS8sOeul3Rva2Vu55qE5paH5pysCiAgICAgKiBAcmV0dXJuIOS8sOeul+eahHRva2Vu5pWw6YePCiAgICAgKi8KICAgIGZ1biBlc3RpbWF0ZVRva2VuQ291bnQodGV4dDogU3RyaW5nKTogTG9uZyB7CiAgICAgICAgLy8g566A5Y2V5Lyw566X77ya5Lit5paH5q+P5Liq5a2X57qmMS415LiqdG9rZW7vvIzoi7Hmlofmr4805Liq5a2X56ym57qmMeS4qnRva2VuCiAgICAgICAgdmFsIGNoaW5lc2VDaGFyQ291bnQgPSB0ZXh0LmNvdW50IHsgaXQuY29kZSBpbiAweDRFMDAuLjB4OUZGRiB9CiAgICAgICAgdmFsIG90aGVyQ2hhckNvdW50ID0gdGV4dC5sZW5ndGggLSBjaGluZXNlQ2hhckNvdW50CiAgICAgICAgcmV0dXJuIChjaGluZXNlQ2hhckNvdW50ICogMS41ICsgb3RoZXJDaGFyQ291bnQgKiAwLjI1KS50b0xvbmcoKQogICAgfQoKICAgIC8qKgogICAgICog5LuOIEFJIOWTjeW6lOS4reaPkOWPliBKU09OIOWvueixoemDqOWIhgogICAgICogQUkg5Y+v6IO95Lya5ZyoIEpTT04g5YmN5ZCO5re75Yqg6K+05piO5paH5a2X5oiW5L2/55SoIGBgYGpzb24g5Luj56CB5Z2X77yM6ZyA6KaB5o+Q5Y+W5Ye657qv5YeA55qEIEpTT04KICAgICAqLwogICAgZnVuIGV4dHJhY3RKc29uKHJlc3BvbnNlOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhciB0ZXh0ID0gcmVzcG9uc2UudHJpbSgpCiAgICAgICAgCiAgICAgICAgLy8g5aSE55CGIG1hcmtkb3duIOS7o+eggeWdl+agvOW8jyBgYGBqc29uIC4uLiBgYGAKICAgICAgICBpZiAodGV4dC5zdGFydHNXaXRoKCJgYGAiKSkgewogICAgICAgICAgICB2YWwgbGluZXMgPSB0ZXh0LmxpbmVzKCkKICAgICAgICAgICAgdGV4dCA9IGxpbmVzLmRyb3AoMSkuZHJvcExhc3QoMSkuam9pblRvU3RyaW5nKCJcbiIpLnRyaW0oKQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDlr7vmib7nrKzkuIDkuKogeyDlkozmnIDlkI7kuIDkuKogfQogICAgICAgIHZhbCBmaXJzdEJyYWNlID0gdGV4dC5pbmRleE9mKCd7JykKICAgICAgICB2YWwgbGFzdEJyYWNlID0gdGV4dC5sYXN0SW5kZXhPZignfScpCiAgICAgICAgCiAgICAgICAgcmV0dXJuIGlmIChmaXJzdEJyYWNlICE9IC0xICYmIGxhc3RCcmFjZSAhPSAtMSAmJiBmaXJzdEJyYWNlIDwgbGFzdEJyYWNlKSB7CiAgICAgICAgICAgIHRleHQuc3Vic3RyaW5nKGZpcnN0QnJhY2UsIGxhc3RCcmFjZSArIDEpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgLy8g5aaC5p6c5rKh5om+5Yiw5a6M5pW055qEIEpTT04g57uT5p6E77yM6L+U5Zue5Y6f5aeL5a2X56ym5LiyCiAgICAgICAgICAgIHRleHQKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDku44gQUkg5ZON5bqU5Lit5o+Q5Y+WIEpTT04g5pWw57uE6YOo5YiGCiAgICAgKiBBSSDlj6/og73kvJrlnKggSlNPTiDliY3lkI7mt7vliqDor7TmmI7mloflrZfmiJbkvb/nlKggYGBganNvbiDku6PnoIHlnZfvvIzpnIDopoHmj5Dlj5blh7rnuq/lh4DnmoQgSlNPTgogICAgICovCiAgICBmdW4gZXh0cmFjdEpzb25BcnJheShyZXNwb25zZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YXIgdGV4dCA9IHJlc3BvbnNlLnRyaW0oKQogICAgICAgIAogICAgICAgIC8vIOWkhOeQhiBtYXJrZG93biDku6PnoIHlnZfmoLzlvI8gYGBganNvbiAuLi4gYGBgCiAgICAgICAgaWYgKHRleHQuc3RhcnRzV2l0aCgiYGBgIikpIHsKICAgICAgICAgICAgdmFsIGxpbmVzID0gdGV4dC5saW5lcygpCiAgICAgICAgICAgIHRleHQgPSBsaW5lcy5kcm9wKDEpLmRyb3BMYXN0KDEpLmpvaW5Ub1N0cmluZygiXG4iKS50cmltKCkKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5a+75om+56ys5LiA5LiqIFsg5ZKM5pyA5ZCO5LiA5LiqIF0KICAgICAgICB2YWwgZmlyc3RCcmFja2V0ID0gdGV4dC5pbmRleE9mKCdbJykKICAgICAgICB2YWwgbGFzdEJyYWNrZXQgPSB0ZXh0Lmxhc3RJbmRleE9mKCddJykKICAgICAgICAKICAgICAgICByZXR1cm4gaWYgKGZpcnN0QnJhY2tldCAhPSAtMSAmJiBsYXN0QnJhY2tldCAhPSAtMSAmJiBmaXJzdEJyYWNrZXQgPCBsYXN0QnJhY2tldCkgewogICAgICAgICAgICB0ZXh0LnN1YnN0cmluZyhmaXJzdEJyYWNrZXQsIGxhc3RCcmFja2V0ICsgMSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAvLyDlpoLmnpzmsqHmib7liLDlrozmlbTnmoQgSlNPTiDnu5PmnoTvvIzov5Tlm57ljp/lp4vlrZfnrKbkuLIKICAgICAgICAgICAgdGV4dAogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.core.chat.hooks.withContent
+
+/** Utility functions for chat message handling */
+object ChatUtils {
+    // getMemoryFromMessages 会对每条 AI 消息调用 removeThinkingContent。
+    // 每次 toRegex() 都会走 ICU Pattern.compile，长会话会把主线程卡死。
+    private val thinkContentPattern =
+        Regex("<think(?:ing)?>.*?(</think(?:ing)?>|\\z)", RegexOption.DOT_MATCHES_ALL)
+    private val searchContentPattern =
+        Regex(
+            "<search\\b[\\s\\S]*?(</search>|\\z)",
+            setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+        )
+    private val thinkCapturePattern =
+        Regex("<think(?:ing)?>([\\s\\S]*?)</think(?:ing)?>", RegexOption.DOT_MATCHES_ALL)
+
+    fun stripGeminiThoughtSignatureMeta(content: String): String {
+        return ChatMarkupRegex.removeGeminiThoughtSignatureMeta(content)
+    }
+
+    fun stripGeminiThoughtSignatureMeta(messages: List<Pair<String, String>>): List<Pair<String, String>> {
+        return messages.map { (role, content) ->
+            role to stripGeminiThoughtSignatureMeta(content)
+        }
+    }
+
+    fun stripGeminiThoughtSignatureMetaTurns(messages: List<PromptTurn>): List<PromptTurn> {
+        return messages.map { turn ->
+            turn.withContent(stripGeminiThoughtSignatureMeta(turn.content))
+        }
+    }
+
+    fun stripOpenAiResponsesReasoningMeta(content: String): String {
+        return ChatMarkupRegex.removeOpenAiResponsesReasoningMeta(content)
+    }
+
+    fun stripOpenAiResponsesReasoningMetaTurns(messages: List<PromptTurn>): List<PromptTurn> {
+        return messages.map { turn ->
+            turn.withContent(stripOpenAiResponsesReasoningMeta(turn.content))
+        }
+    }
+
+    fun stripOpenAiResponsesProtocolMeta(content: String): String {
+        return ChatMarkupRegex.removeOpenAiResponsesProtocolMeta(content)
+    }
+
+    fun stripOpenAiResponsesProtocolMarkup(content: String): String {
+        return stripOpenAiResponsesProtocolMeta(content)
+            .replace(ChatMarkupRegex.searchTag, "")
+            .replace(ChatMarkupRegex.searchSelfClosingTag, "")
+            .trim()
+    }
+
+    fun stripOpenAiResponsesProtocolMarkupTurns(messages: List<PromptTurn>): List<PromptTurn> {
+        return messages.map { turn ->
+            turn.withContent(stripOpenAiResponsesProtocolMarkup(turn.content))
+        }
+    }
+
+    fun isGeminiProviderModel(providerModel: String): Boolean {
+        return when (providerModel.substringBefore(":").uppercase()) {
+            "GOOGLE", "GEMINI_GENERIC" -> true
+            else -> false
+        }
+    }
+
+    /** 过滤掉内容中的思考部分和搜索来源 移除<think></think>、<thinking></thinking>和<search></search>标签及其中的内容，并处理未闭合的情况 */
+    fun removeThinkingContent(content: String): String {
+        if (!containsThinkOrSearchMarkup(content)) {
+            return content.trim()
+        }
+        return content.replace(thinkContentPattern, "").replace(searchContentPattern, "").trim()
+    }
+
+    /**
+     * 提取think标签内的内容（用于DeepSeek的reasoning_content）
+     * @param content 包含think标签的内容
+     * @return Pair(移除think标签后的内容, think标签内的内容)
+     */
+    fun extractThinkingContent(content: String): Pair<String, String> {
+        if (!containsThinkOrSearchMarkup(content)) {
+            return Pair(content.trim(), "")
+        }
+        val thinkMatches = thinkCapturePattern.findAll(content)
+        val thinkingContent = thinkMatches.joinToString("\n") { it.groupValues[1].trim() }
+        val contentWithoutThink =
+            content.replace(thinkCapturePattern, "").replace(searchContentPattern, "").trim()
+        return Pair(contentWithoutThink, thinkingContent)
+    }
+
+    private fun containsThinkOrSearchMarkup(content: String): Boolean {
+        return content.contains("<think", ignoreCase = true) ||
+            content.contains("<search", ignoreCase = true)
+    }
+
+    /**
+     * 估算给定文本的token数量
+     * @param text 要估算token的文本
+     * @return 估算的token数量
+     */
+    fun estimateTokenCount(text: String): Long {
+        // 简单估算：中文每个字约1.5个token，英文每4个字符约1个token
+        val chineseCharCount = text.count { it.code in 0x4E00..0x9FFF }
+        val otherCharCount = text.length - chineseCharCount
+        return (chineseCharCount * 1.5 + otherCharCount * 0.25).toLong()
+    }
+
+    /**
+     * 从 AI 响应中提取 JSON 对象部分
+     * AI 可能会在 JSON 前后添加说明文字或使用 ```json 代码块，需要提取出纯净的 JSON
+     */
+    fun extractJson(response: String): String {
+        var text = response.trim()
+        
+        // 处理 markdown 代码块格式 ```json ... ```
+        if (text.startsWith("```")) {
+            val lines = text.lines()
+            text = lines.drop(1).dropLast(1).joinToString("\n").trim()
+        }
+        
+        // 寻找第一个 { 和最后一个 }
+        val firstBrace = text.indexOf('{')
+        val lastBrace = text.lastIndexOf('}')
+        
+        return if (firstBrace != -1 && lastBrace != -1 && firstBrace < lastBrace) {
+            text.substring(firstBrace, lastBrace + 1)
+        } else {
+            // 如果没找到完整的 JSON 结构，返回原始字符串
+            text
+        }
+    }
+
+    /**
+     * 从 AI 响应中提取 JSON 数组部分
+     * AI 可能会在 JSON 前后添加说明文字或使用 ```json 代码块，需要提取出纯净的 JSON
+     */
+    fun extractJsonArray(response: String): String {
+        var text = response.trim()
+        
+        // 处理 markdown 代码块格式 ```json ... ```
+        if (text.startsWith("```")) {
+            val lines = text.lines()
+            text = lines.drop(1).dropLast(1).joinToString("\n").trim()
+        }
+        
+        // 寻找第一个 [ 和最后一个 ]
+        val firstBracket = text.indexOf('[')
+        val lastBracket = text.lastIndexOf(']')
+        
+        return if (firstBracket != -1 && lastBracket != -1 && firstBracket < lastBracket) {
+            text.substring(firstBracket, lastBracket + 1)
+        } else {
+            // 如果没找到完整的 JSON 结构，返回原始字符串
+            text
+        }
+    }
+}

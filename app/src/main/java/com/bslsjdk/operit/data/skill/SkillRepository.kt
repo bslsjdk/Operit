@@ -1,1 +1,438 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5za2lsbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQucHJvdmlkZXIuT3BlbmFibGVDb2x1bW5zCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc2tpbGwuU2tpbGxNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5za2lsbC5Ta2lsbFBhY2thZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLlNraWxsVmlzaWJpbGl0eVByZWZlcmVuY2VzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLlNraWxsUmVwb1ppcFBvb2xNYW5hZ2VyCmltcG9ydCBjb20uZ29vZ2xlLmdzb24uSnNvblBhcnNlcgppbXBvcnQgamF2YS5pby5CdWZmZXJlZElucHV0U3RyZWFtCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uRmlsZU91dHB1dFN0cmVhbQppbXBvcnQgamF2YS5uZXQuSHR0cFVSTENvbm5lY3Rpb24KaW1wb3J0IGphdmEubmV0LlVSSQppbXBvcnQgamF2YS5uZXQuVVJMCmltcG9ydCBqYXZhLm5ldC5VUkxFbmNvZGVyCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKCmNsYXNzIFNraWxsUmVwb3NpdG9yeSBwcml2YXRlIGNvbnN0cnVjdG9yKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBAVm9sYXRpbGUgcHJpdmF0ZSB2YXIgSU5TVEFOQ0U6IFNraWxsUmVwb3NpdG9yeT8gPSBudWxsCgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJTa2lsbFJlcG9zaXRvcnkiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgQ09OTkVDVF9USU1FT1VUID0gMTVfMDAwCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgUkVBRF9USU1FT1VUID0gMzBfMDAwCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgQlVGRkVSX1NJWkUgPSA2NCAqIDEwMjQKICAgICAgICBwcml2YXRlIHZhbCBTS0lMTF9JRF9QQVRURVJOID0gUmVnZXgoIl5bQS1aYS16MC05Ll8tXSskIikKCiAgICAgICAgZnVuIGdldEluc3RhbmNlKGNvbnRleHQ6IENvbnRleHQpOiBTa2lsbFJlcG9zaXRvcnkgewogICAgICAgICAgICByZXR1cm4gSU5TVEFOQ0UgPzogc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgICAgIElOU1RBTkNFID86IFNraWxsUmVwb3NpdG9yeShjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkuYWxzbyB7IElOU1RBTkNFID0gaXQgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIHNraWxsTWFuYWdlciBieSBsYXp5IHsgU2tpbGxNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpIH0KCiAgICBwcml2YXRlIHZhbCBza2lsbFZpc2liaWxpdHlQcmVmZXJlbmNlcyBieSBsYXp5IHsgU2tpbGxWaXNpYmlsaXR5UHJlZmVyZW5jZXMuZ2V0SW5zdGFuY2UoY29udGV4dCkgfQoKICAgIHByaXZhdGUgdmFsIGRlZmF1bHRCcmFuY2hDYWNoZSA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgU3RyaW5nPigpCgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIEdpdEh1YlNraWxsVGFyZ2V0KAogICAgICAgIHZhbCBvd25lcjogU3RyaW5nLAogICAgICAgIHZhbCByZXBvOiBTdHJpbmcsCiAgICAgICAgdmFsIHJlZjogU3RyaW5nPywKICAgICAgICB2YWwgc3ViRGlyOiBTdHJpbmc/CiAgICApCgogICAgZnVuIGdldFNraWxsc0RpcmVjdG9yeVBhdGgoKTogU3RyaW5nID0gc2tpbGxNYW5hZ2VyLmdldFNraWxsc0RpcmVjdG9yeVBhdGgoKQoKICAgIGZ1biBnZXRBdmFpbGFibGVTa2lsbFBhY2thZ2VzKCk6IE1hcDxTdHJpbmcsIFNraWxsUGFja2FnZT4gPSBza2lsbE1hbmFnZXIuZ2V0QXZhaWxhYmxlU2tpbGxzKCkKCiAgICBmdW4gZ2V0QXZhaWxhYmxlU2tpbGxQYWNrYWdlc1NuYXBzaG90KCk6IFBhaXI8TWFwPFN0cmluZywgU2tpbGxQYWNrYWdlPiwgTWFwPFN0cmluZywgU3RyaW5nPj4gPQogICAgICAgIHNraWxsTWFuYWdlci5nZXRBdmFpbGFibGVTa2lsbHNTbmFwc2hvdCgpCgogICAgZnVuIGdldFNraWxsTG9hZEVycm9ycygpOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gc2tpbGxNYW5hZ2VyLmdldFNraWxsTG9hZEVycm9ycygpCgogICAgZnVuIGdldEFpVmlzaWJsZVNraWxsUGFja2FnZXMoKTogTWFwPFN0cmluZywgU2tpbGxQYWNrYWdlPiB7CiAgICAgICAgcmV0dXJuIHNraWxsTWFuYWdlci5nZXRBdmFpbGFibGVTa2lsbHMoKS5maWx0ZXIgeyAoc2tpbGxOYW1lLCBfKSAtPgogICAgICAgICAgICBza2lsbFZpc2liaWxpdHlQcmVmZXJlbmNlcy5pc1NraWxsVmlzaWJsZVRvQWkoc2tpbGxOYW1lKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gcmVhZFNraWxsQ29udGVudChza2lsbE5hbWU6IFN0cmluZyk6IFN0cmluZz8gPSBza2lsbE1hbmFnZXIucmVhZFNraWxsQ29udGVudChza2lsbE5hbWUpCgogICAgZnVuIGRlbGV0ZVNraWxsKHNraWxsTmFtZTogU3RyaW5nKTogQm9vbGVhbiA9IHNraWxsTWFuYWdlci5kZWxldGVTa2lsbChza2lsbE5hbWUpCgogICAgc3VzcGVuZCBmdW4gaW1wb3J0U2tpbGxGcm9tWmlwKHppcEZpbGU6IEZpbGUpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICBza2lsbE1hbmFnZXIuaW1wb3J0U2tpbGxGcm9tWmlwKHppcEZpbGUpCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGltcG9ydFNraWxsRnJvbUdpdEh1YlJlcG8ocmVwb1VybDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gaW1wb3J0U2tpbGxGcm9tR2l0SHViUmVwb0RldGFpbGVkKHJlcG9VcmwpLm1lc3NhZ2UKICAgIH0KCiAgICBkYXRhIGNsYXNzIFNraWxsUmVwb0ltcG9ydFJlc3VsdCgKICAgICAgICB2YWwgbWVzc2FnZTogU3RyaW5nLAogICAgICAgIHZhbCBpbnN0YWxsZWREaXI6IEZpbGU/CiAgICApCgogICAgc3VzcGVuZCBmdW4gaW1wb3J0U2tpbGxGcm9tR2l0SHViUmVwb0RldGFpbGVkKHJlcG9Vcmw6IFN0cmluZyk6IFNraWxsUmVwb0ltcG9ydFJlc3VsdCB7CiAgICAgICAgcmV0dXJuIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHZhbCB0YXJnZXQgPSBwYXJzZUdpdEh1YlNraWxsVGFyZ2V0KHJlcG9VcmwpCiAgICAgICAgICAgICAgICA/OiByZXR1cm5Ad2l0aENvbnRleHQgU2tpbGxSZXBvSW1wb3J0UmVzdWx0KGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2ludmFsaWRfZ2l0aHViX3VybCksIG51bGwpCgogICAgICAgICAgICB2YWwgb3duZXIgPSB0YXJnZXQub3duZXIKICAgICAgICAgICAgdmFsIHJlcG9OYW1lID0gdGFyZ2V0LnJlcG8KICAgICAgICAgICAgdmFsIHJlcG9LZXkgPSAiJG93bmVyLyRyZXBvTmFtZSIKICAgICAgICAgICAgdmFsIHJlZiA9IHRhcmdldC5yZWYKICAgICAgICAgICAgICAgID86IGRlZmF1bHRCcmFuY2hDYWNoZVtyZXBvS2V5XQogICAgICAgICAgICAgICAgPzogZ2V0R2l0aHViRGVmYXVsdEJyYW5jaChvd25lciwgcmVwb05hbWUpPy5hbHNvIHsgZGVmYXVsdEJyYW5jaENhY2hlW3JlcG9LZXldID0gaXQgfQogICAgICAgICAgICAgICAgPzogcmV0dXJuQHdpdGhDb250ZXh0IFNraWxsUmVwb0ltcG9ydFJlc3VsdChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbF9jYW5ub3RfZGV0ZXJtaW5lX2RlZmF1bHRfYnJhbmNoLCAiJG93bmVyLyRyZXBvTmFtZSIpLCBudWxsKQoKICAgICAgICAgICAgdmFsIGVuY29kZWRSZWYgPSBlbmNvZGVQYXRoU2VnbWVudChyZWYpCiAgICAgICAgICAgIHZhbCB6aXBVcmwgPSAiaHR0cHM6Ly9jb2RlbG9hZC5naXRodWIuY29tLyRvd25lci8kcmVwb05hbWUvemlwLyRlbmNvZGVkUmVmIgogICAgICAgICAgICB2YWwgcmVwb1JlZktleSA9ICIkb3duZXIvJHJlcG9OYW1lQCRyZWYiCiAgICAgICAgICAgIHZhbCBwb29sZWRaaXAgPSBTa2lsbFJlcG9aaXBQb29sTWFuYWdlci5nZXRPckRvd25sb2FkWmlwKHJlcG9SZWZLZXkpIHsgb3V0RmlsZSAtPgogICAgICAgICAgICAgICAgZG93bmxvYWRGcm9tVXJsKHppcFVybCwgb3V0RmlsZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHN1ZmZpeCA9ICh0YXJnZXQuc3ViRGlyID86ICJyZXBvIikKICAgICAgICAgICAgICAgIC5yZXBsYWNlKCcvJywgJ18nKQogICAgICAgICAgICAgICAgLnRha2UoNjApCiAgICAgICAgICAgIHZhbCBmYWxsYmFja1RlbXBGaWxlID0gRmlsZShjb250ZXh0LmNhY2hlRGlyLCAic2tpbGxfJHtvd25lcn1fJHtyZXBvTmFtZX1fJHN1ZmZpeC56aXAiKQogICAgICAgICAgICBpZiAocG9vbGVkWmlwID09IG51bGwpIHsKICAgICAgICAgICAgICAgIGlmIChmYWxsYmFja1RlbXBGaWxlLmV4aXN0cygpKSBmYWxsYmFja1RlbXBGaWxlLmRlbGV0ZSgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgemlwRmlsZSA9IGlmIChwb29sZWRaaXAgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHBvb2xlZFppcAogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICB2YWwgZG93bmxvYWRlZCA9IGRvd25sb2FkRnJvbVVybCh6aXBVcmwsIGZhbGxiYWNrVGVtcEZpbGUpCiAgICAgICAgICAgICAgICAgICAgaWYgKCFkb3dubG9hZGVkIHx8ICFmYWxsYmFja1RlbXBGaWxlLmV4aXN0cygpIHx8IGZhbGxiYWNrVGVtcEZpbGUubGVuZ3RoKCkgPD0gMEwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGZhbGxiYWNrVGVtcEZpbGUuZXhpc3RzKCkpIGZhbGxiYWNrVGVtcEZpbGUuZGVsZXRlKCkKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFNraWxsUmVwb0ltcG9ydFJlc3VsdChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbF9kb3dubG9hZF96aXBfZmFpbGVkKSwgbnVsbCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZmFsbGJhY2tUZW1wRmlsZQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPSBza2lsbE1hbmFnZXIuaW1wb3J0U2tpbGxGcm9tWmlwRGV0YWlsZWQoemlwRmlsZSwgdGFyZ2V0LnN1YkRpcikKCiAgICAgICAgICAgICAgICBpZiAocG9vbGVkWmlwID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBydW5DYXRjaGluZyB7IGZhbGxiYWNrVGVtcEZpbGUuZGVsZXRlKCkgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIFNraWxsUmVwb0ltcG9ydFJlc3VsdChyZXN1bHQubWVzc2FnZSwgcmVzdWx0Lmluc3RhbGxlZERpcikKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gaW1wb3J0IHNraWxsIGZyb20gR2l0SHViIHJlcG8iLCBlKQogICAgICAgICAgICAgICAgaWYgKHBvb2xlZFppcCA9PSBudWxsICYmIGZhbGxiYWNrVGVtcEZpbGUuZXhpc3RzKCkpIGZhbGxiYWNrVGVtcEZpbGUuZGVsZXRlKCkKICAgICAgICAgICAgICAgIFNraWxsUmVwb0ltcG9ydFJlc3VsdChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbF9pbXBvcnRfZmFpbGVkLCBlLm1lc3NhZ2UgPzogIlVua25vd24gZXJyb3IiKSwgbnVsbCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBpbXBvcnRTa2lsbEZyb21EaXJlY3RJbnB1dCgKICAgICAgICBza2lsbElkOiBTdHJpbmcsCiAgICAgICAgZGVzY3JpcHRpb246IFN0cmluZywKICAgICAgICBjb250ZW50OiBTdHJpbmcsCiAgICAgICAgYXR0YWNobWVudFVyaXM6IExpc3Q8VXJpPiA9IGVtcHR5TGlzdCgpCiAgICApOiBTdHJpbmcgewogICAgICAgIHJldHVybiB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICB2YWwgdHJpbW1lZElkID0gc2tpbGxJZC50cmltKCkKICAgICAgICAgICAgdmFsIHRyaW1tZWREZXNjcmlwdGlvbiA9IGRlc2NyaXB0aW9uLnRyaW0oKQogICAgICAgICAgICB2YWwgdHJpbW1lZENvbnRlbnQgPSBjb250ZW50LnRyaW0oKQoKICAgICAgICAgICAgaWYgKHRyaW1tZWRJZC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbG1ncl9kaXJlY3Rfc2tpbGxfaWRfcmVxdWlyZWQpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKCFpc1ZhbGlkU2tpbGxJZCh0cmltbWVkSWQpKSB7CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2tpbGxtZ3JfZGlyZWN0X3NraWxsX2lkX2ludmFsaWQpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHRyaW1tZWRDb250ZW50LmlzQmxhbmsoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsbWdyX2RpcmVjdF9jb250ZW50X3JlcXVpcmVkKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgc2tpbGxzUm9vdERpciA9IEZpbGUoZ2V0U2tpbGxzRGlyZWN0b3J5UGF0aCgpKQogICAgICAgICAgICBpZiAoIXNraWxsc1Jvb3REaXIuZXhpc3RzKCkgJiYgIXNraWxsc1Jvb3REaXIubWtkaXJzKCkpIHsKICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBjb250ZXh0LmdldFN0cmluZygKICAgICAgICAgICAgICAgICAgICBSLnN0cmluZy5za2lsbG1ncl9kaXJlY3RfY3JlYXRlX2Rpcl9mYWlsZWQsCiAgICAgICAgICAgICAgICAgICAgc2tpbGxzUm9vdERpci5hYnNvbHV0ZVBhdGgKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIGZpbmFsRGlyID0gRmlsZShza2lsbHNSb290RGlyLCB0cmltbWVkSWQpCiAgICAgICAgICAgIGlmIChmaW5hbERpci5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2Vycm9yX2ltcG9ydF9kdXBsaWNhdGVfbmFtZSwgZmluYWxEaXIubmFtZSkKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoIWZpbmFsRGlyLm1rZGlycygpKSB7CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgY29udGV4dC5nZXRTdHJpbmcoCiAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcuc2tpbGxtZ3JfZGlyZWN0X2NyZWF0ZV9kaXJfZmFpbGVkLAogICAgICAgICAgICAgICAgICAgIGZpbmFsRGlyLmFic29sdXRlUGF0aAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgRmlsZShmaW5hbERpciwgIlNLSUxMLm1kIikud3JpdGVUZXh0KAogICAgICAgICAgICAgICAgICAgIGJ1aWxkRGlyZWN0U2tpbGxNYXJrZG93bigKICAgICAgICAgICAgICAgICAgICAgICAgc2tpbGxJZCA9IHRyaW1tZWRJZCwKICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSB0cmltbWVkRGVzY3JpcHRpb24sCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQgPSB0cmltbWVkQ29udGVudAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICBpZiAoYXR0YWNobWVudFVyaXMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGFzc2V0c0RpciA9IEZpbGUoZmluYWxEaXIsICJhc3NldHMiKQogICAgICAgICAgICAgICAgICAgIGlmICghYXNzZXRzRGlyLmV4aXN0cygpICYmICFhc3NldHNEaXIubWtkaXJzKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2tpbGxtZ3JfZGlyZWN0X2NyZWF0ZV9kaXJfZmFpbGVkLCBhc3NldHNEaXIuYWJzb2x1dGVQYXRoKQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB2YWwgdXNlZEZpbGVOYW1lcyA9IG11dGFibGVTZXRPZjxTdHJpbmc+KCkKICAgICAgICAgICAgICAgICAgICBhdHRhY2htZW50VXJpcy5mb3JFYWNoSW5kZXhlZCB7IGluZGV4LCB1cmkgLT4KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGRpc3BsYXlOYW1lID0gcmVzb2x2ZUF0dGFjaG1lbnREaXNwbGF5TmFtZSh1cmkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA/OiAiYXR0YWNobWVudF8ke2luZGV4ICsgMX0iCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBzYWZlTmFtZSA9IGVuc3VyZVVuaXF1ZUZpbGVOYW1lKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2FuaXRpemVBdHRhY2htZW50TmFtZShkaXNwbGF5TmFtZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1c2VkRmlsZU5hbWVzCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG91dEZpbGUgPSBGaWxlKGFzc2V0c0Rpciwgc2FmZU5hbWUpCgogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmNvbnRlbnRSZXNvbHZlci5vcGVuSW5wdXRTdHJlYW0odXJpKT8udXNlIHsgaW5wdXQgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dEZpbGUub3V0cHV0U3RyZWFtKCkudXNlIHsgb3V0cHV0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXQuY29weVRvKG91dHB1dCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSA/OiB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbG1ncl9kaXJlY3RfYXR0YWNobWVudF9yZWFkX2ZhaWxlZCwgZGlzcGxheU5hbWUpCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgc2tpbGxNYW5hZ2VyLnJlZnJlc2hBdmFpbGFibGVTa2lsbHMoKQoKICAgICAgICAgICAgICAgIGlmICh0cmltbWVkRGVzY3JpcHRpb24uaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2tpbGxfaW1wb3J0ZWRfd2l0aF9kZXNjLCBmaW5hbERpci5uYW1lLCB0cmltbWVkRGVzY3JpcHRpb24pCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2ltcG9ydGVkLCBmaW5hbERpci5uYW1lKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBpbXBvcnQgc2tpbGwgZnJvbSBkaXJlY3QgaW5wdXQiLCBlKQogICAgICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBmaW5hbERpci5kZWxldGVSZWN1cnNpdmVseSgpIH0KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2ltcG9ydF9mYWlsZWQsIGUubWVzc2FnZSA/OiAiVW5rbm93biBlcnJvciIpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGREaXJlY3RTa2lsbE1hcmtkb3duKHNraWxsSWQ6IFN0cmluZywgZGVzY3JpcHRpb246IFN0cmluZywgY29udGVudDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgZXNjYXBlZE5hbWUgPSBlc2NhcGVGcm9udE1hdHRlclZhbHVlKHNraWxsSWQpCiAgICAgICAgdmFsIGVzY2FwZWREZXNjcmlwdGlvbiA9IGVzY2FwZUZyb250TWF0dGVyVmFsdWUoZGVzY3JpcHRpb24pCiAgICAgICAgcmV0dXJuIGJ1aWxkU3RyaW5nIHsKICAgICAgICAgICAgYXBwZW5kTGluZSgiLS0tIikKICAgICAgICAgICAgYXBwZW5kTGluZSgibmFtZTogXCIkZXNjYXBlZE5hbWVcIiIpCiAgICAgICAgICAgIGFwcGVuZExpbmUoImRlc2NyaXB0aW9uOiBcIiRlc2NhcGVkRGVzY3JpcHRpb25cIiIpCiAgICAgICAgICAgIGFwcGVuZExpbmUoIi0tLSIpCiAgICAgICAgICAgIGFwcGVuZExpbmUoKQogICAgICAgICAgICBhcHBlbmQoY29udGVudC50cmltRW5kKCkpCiAgICAgICAgICAgIGFwcGVuZExpbmUoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBlc2NhcGVGcm9udE1hdHRlclZhbHVlKHZhbHVlOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB2YWx1ZQogICAgICAgICAgICAucmVwbGFjZSgiXFwiLCAiXFxcXCIpCiAgICAgICAgICAgIC5yZXBsYWNlKCJcIiIsICJcXFwiIikKICAgICAgICAgICAgLnJlcGxhY2UoIlxyXG4iLCAiXG4iKQogICAgICAgICAgICAucmVwbGFjZSgiXG4iLCAiXFxuIikKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXNvbHZlQXR0YWNobWVudERpc3BsYXlOYW1lKHVyaTogVXJpKTogU3RyaW5nPyB7CiAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgY29udGV4dC5jb250ZW50UmVzb2x2ZXIucXVlcnkoCiAgICAgICAgICAgICAgICB1cmksCiAgICAgICAgICAgICAgICBhcnJheU9mKE9wZW5hYmxlQ29sdW1ucy5ESVNQTEFZX05BTUUpLAogICAgICAgICAgICAgICAgbnVsbCwKICAgICAgICAgICAgICAgIG51bGwsCiAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICk/LnVzZSB7IGN1cnNvciAtPgogICAgICAgICAgICAgICAgdmFsIG5hbWVJbmRleCA9IGN1cnNvci5nZXRDb2x1bW5JbmRleChPcGVuYWJsZUNvbHVtbnMuRElTUExBWV9OQU1FKQogICAgICAgICAgICAgICAgaWYgKGN1cnNvci5tb3ZlVG9GaXJzdCgpICYmIG5hbWVJbmRleCA+PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgY3Vyc29yLmdldFN0cmluZyhuYW1lSW5kZXgpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0uZ2V0T3JOdWxsKCkgPzogdXJpLmxhc3RQYXRoU2VnbWVudD8uc3Vic3RyaW5nQWZ0ZXJMYXN0KCcvJykKICAgIH0KCiAgICBwcml2YXRlIGZ1biBzYW5pdGl6ZUF0dGFjaG1lbnROYW1lKHJhd05hbWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHNhbml0aXplZCA9IHJhd05hbWUudHJpbSgpLnJlcGxhY2UoUmVnZXgoIltcXFxcLzoqP1wiPD58XSIpLCAiXyIpCiAgICAgICAgcmV0dXJuIHNhbml0aXplZC5pZkJsYW5rIHsgImF0dGFjaG1lbnQiIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc1ZhbGlkU2tpbGxJZChza2lsbElkOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gU0tJTExfSURfUEFUVEVSTi5tYXRjaGVzKHNraWxsSWQpICYmIHNraWxsSWQgIT0gIi4iICYmIHNraWxsSWQgIT0gIi4uIgogICAgfQoKICAgIHByaXZhdGUgZnVuIGVuc3VyZVVuaXF1ZUZpbGVOYW1lKGJhc2VOYW1lOiBTdHJpbmcsIHVzZWROYW1lczogTXV0YWJsZVNldDxTdHJpbmc+KTogU3RyaW5nIHsKICAgICAgICB2YXIgY2FuZGlkYXRlID0gYmFzZU5hbWUKICAgICAgICB2YWwgZG90SW5kZXggPSBiYXNlTmFtZS5sYXN0SW5kZXhPZignLicpLnRha2VJZiB7IGl0ID4gMCB9ID86IC0xCiAgICAgICAgdmFsIHByZWZpeCA9IGlmIChkb3RJbmRleCA+IDApIGJhc2VOYW1lLnN1YnN0cmluZygwLCBkb3RJbmRleCkgZWxzZSBiYXNlTmFtZQogICAgICAgIHZhbCBleHRlbnNpb24gPSBpZiAoZG90SW5kZXggPiAwKSBiYXNlTmFtZS5zdWJzdHJpbmcoZG90SW5kZXgpIGVsc2UgIiIKICAgICAgICB2YXIgc3VmZml4ID0gMQogICAgICAgIHdoaWxlICh1c2VkTmFtZXMuY29udGFpbnMoY2FuZGlkYXRlKSkgewogICAgICAgICAgICBjYW5kaWRhdGUgPSAiJHtwcmVmaXh9XyRzdWZmaXgkZXh0ZW5zaW9uIgogICAgICAgICAgICBzdWZmaXggKz0gMQogICAgICAgIH0KICAgICAgICB1c2VkTmFtZXMgKz0gY2FuZGlkYXRlCiAgICAgICAgcmV0dXJuIGNhbmRpZGF0ZQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBhcnNlR2l0SHViU2tpbGxUYXJnZXQoaW5wdXRVcmxSYXc6IFN0cmluZyk6IEdpdEh1YlNraWxsVGFyZ2V0PyB7CiAgICAgICAgdmFsIGlucHV0VXJsID0gaW5wdXRVcmxSYXcudHJpbSgpCiAgICAgICAgaWYgKGlucHV0VXJsLmlzQmxhbmsoKSkgcmV0dXJuIG51bGwKCiAgICAgICAgdmFsIHVybFdpdGhTY2hlbWUgPSBpZiAoaW5wdXRVcmwuc3RhcnRzV2l0aCgiaHR0cDovLyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fCBpbnB1dFVybC5zdGFydHNXaXRoKCJodHRwczovLyIsIGlnbm9yZUNhc2UgPSB0cnVlKSkgewogICAgICAgICAgICBpbnB1dFVybAogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICJodHRwczovLyRpbnB1dFVybCIKICAgICAgICB9CgogICAgICAgIHZhbCB1cmxOb0ZyYWdtZW50ID0gdXJsV2l0aFNjaGVtZS5zdWJzdHJpbmdCZWZvcmUoJyMnKQogICAgICAgIHZhbCB1cmkgPSB0cnkgewogICAgICAgICAgICBVUkkodXJsTm9GcmFnbWVudCkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIHZhbCBob3N0ID0gdXJpLmhvc3Q/Lmxvd2VyY2FzZSgpID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIHBhdGggPSB1cmkucGF0aC5vckVtcHR5KCkKICAgICAgICB2YWwgc2VnbWVudHMgPSBwYXRoLnNwbGl0KCcvJykuZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICBpZiAoc2VnbWVudHMuc2l6ZSA8IDIpIHJldHVybiBudWxsCgogICAgICAgIGZ1biBjbGVhblJlcG9OYW1lKHJlcG9SYXc6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgICAgIHJldHVybiByZXBvUmF3LnJlbW92ZVN1ZmZpeCgiLmdpdCIpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gd2hlbiB7CiAgICAgICAgICAgIGhvc3QgPT0gImdpdGh1Yi5jb20iIHx8IGhvc3QuZW5kc1dpdGgoIi5naXRodWIuY29tIikgLT4gewogICAgICAgICAgICAgICAgdmFsIG93bmVyID0gc2VnbWVudHNbMF0KICAgICAgICAgICAgICAgIHZhbCByZXBvID0gY2xlYW5SZXBvTmFtZShzZWdtZW50c1sxXSkKICAgICAgICAgICAgICAgIGlmIChvd25lci5pc0JsYW5rKCkgfHwgcmVwby5pc0JsYW5rKCkpIHJldHVybiBudWxsCgogICAgICAgICAgICAgICAgdmFyIHJlZjogU3RyaW5nPyA9IG51bGwKICAgICAgICAgICAgICAgIHZhciBzdWJEaXI6IFN0cmluZz8gPSBudWxsCgogICAgICAgICAgICAgICAgaWYgKHNlZ21lbnRzLnNpemUgPj0gNCAmJiAoc2VnbWVudHNbMl0gPT0gInRyZWUiIHx8IHNlZ21lbnRzWzJdID09ICJibG9iIikpIHsKICAgICAgICAgICAgICAgICAgICByZWYgPSBzZWdtZW50c1szXQogICAgICAgICAgICAgICAgICAgIHZhbCByZW1haW5kZXIgPSBpZiAoc2VnbWVudHMuc2l6ZSA+IDQpIHNlZ21lbnRzLnN1Ykxpc3QoNCwgc2VnbWVudHMuc2l6ZSkuam9pblRvU3RyaW5nKCIvIikgZWxzZSAiIgogICAgICAgICAgICAgICAgICAgIGlmIChyZW1haW5kZXIuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHN1YkRpciA9IGlmIChzZWdtZW50c1syXSA9PSAiYmxvYiIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZW1haW5kZXIuZW5kc1dpdGgoIlNLSUxMLm1kIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8IHJlbWFpbmRlci5lbmRzV2l0aCgic2tpbGwubWQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZW1haW5kZXIuc3Vic3RyaW5nQmVmb3JlTGFzdCgnLycpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlbWFpbmRlci5zdWJzdHJpbmdCZWZvcmVMYXN0KCcvJykuaWZCbGFuayB7IG51bGwgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVtYWluZGVyCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgR2l0SHViU2tpbGxUYXJnZXQob3duZXIgPSBvd25lciwgcmVwbyA9IHJlcG8sIHJlZiA9IHJlZiwgc3ViRGlyID0gc3ViRGlyKQogICAgICAgICAgICB9CgogICAgICAgICAgICBob3N0ID09ICJyYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiAtPiB7CiAgICAgICAgICAgICAgICBpZiAoc2VnbWVudHMuc2l6ZSA8IDQpIHJldHVybiBudWxsCiAgICAgICAgICAgICAgICB2YWwgb3duZXIgPSBzZWdtZW50c1swXQogICAgICAgICAgICAgICAgdmFsIHJlcG8gPSBjbGVhblJlcG9OYW1lKHNlZ21lbnRzWzFdKQogICAgICAgICAgICAgICAgdmFsIHJlZiA9IHNlZ21lbnRzWzJdCiAgICAgICAgICAgICAgICB2YWwgcmVtYWluZGVyID0gc2VnbWVudHMuc3ViTGlzdCgzLCBzZWdtZW50cy5zaXplKS5qb2luVG9TdHJpbmcoIi8iKQogICAgICAgICAgICAgICAgdmFsIHN1YkRpciA9IGlmIChyZW1haW5kZXIuZW5kc1dpdGgoIlNLSUxMLm1kIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8IHJlbWFpbmRlci5lbmRzV2l0aCgic2tpbGwubWQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHsKICAgICAgICAgICAgICAgICAgICByZW1haW5kZXIuc3Vic3RyaW5nQmVmb3JlTGFzdCgnLycpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHJlbWFpbmRlci5zdWJzdHJpbmdCZWZvcmVMYXN0KCcvJykuaWZCbGFuayB7IG51bGwgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgR2l0SHViU2tpbGxUYXJnZXQob3duZXIgPSBvd25lciwgcmVwbyA9IHJlcG8sIHJlZiA9IHJlZiwgc3ViRGlyID0gc3ViRGlyKQogICAgICAgICAgICB9CgogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZW5jb2RlUGF0aFNlZ21lbnQodmFsdWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIFVSTEVuY29kZXIuZW5jb2RlKHZhbHVlLCAiVVRGLTgiKS5yZXBsYWNlKCIrIiwgIiUyMCIpCiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHZhbHVlCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGRvd25sb2FkRnJvbVVybCh6aXBVcmw6IFN0cmluZywgb3V0RmlsZTogRmlsZSk6IEJvb2xlYW4gewogICAgICAgIHZhbCB1cmwgPSBVUkwoemlwVXJsKQogICAgICAgIHZhbCBjb25uZWN0aW9uID0gKHVybC5vcGVuQ29ubmVjdGlvbigpIGFzIEh0dHBVUkxDb25uZWN0aW9uKS5hcHBseSB7CiAgICAgICAgICAgIGNvbm5lY3RUaW1lb3V0ID0gQ09OTkVDVF9USU1FT1VUCiAgICAgICAgICAgIHJlYWRUaW1lb3V0ID0gUkVBRF9USU1FT1VUCiAgICAgICAgICAgIGRvSW5wdXQgPSB0cnVlCiAgICAgICAgICAgIHNldFJlcXVlc3RQcm9wZXJ0eSgKICAgICAgICAgICAgICAgICJVc2VyLUFnZW50IiwKICAgICAgICAgICAgICAgICJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYiCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGNvbm5lY3Rpb24uY29ubmVjdCgpCiAgICAgICAgaWYgKGNvbm5lY3Rpb24ucmVzcG9uc2VDb2RlICE9IEh0dHBVUkxDb25uZWN0aW9uLkhUVFBfT0spIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRG93bmxvYWQgZmFpbGVkLCBIVFRQICR7Y29ubmVjdGlvbi5yZXNwb25zZUNvZGV9IikKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICBCdWZmZXJlZElucHV0U3RyZWFtKGNvbm5lY3Rpb24uaW5wdXRTdHJlYW0pLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgIEZpbGVPdXRwdXRTdHJlYW0ob3V0RmlsZSkudXNlIHsgb3V0cHV0IC0+CiAgICAgICAgICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KEJVRkZFUl9TSVpFKQogICAgICAgICAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgcmVhZCA9IGlucHV0LnJlYWQoYnVmZmVyKQogICAgICAgICAgICAgICAgICAgIGlmIChyZWFkIDw9IDApIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgb3V0cHV0LndyaXRlKGJ1ZmZlciwgMCwgcmVhZCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIG91dHB1dC5mbHVzaCgpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZ2V0R2l0aHViRGVmYXVsdEJyYW5jaChvd25lcjogU3RyaW5nLCByZXBvTmFtZTogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgdmFsIGFwaVVybCA9ICJodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zLyRvd25lci8kcmVwb05hbWUiCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCB1cmwgPSBVUkwoYXBpVXJsKQogICAgICAgICAgICB2YWwgY29ubmVjdGlvbiA9ICh1cmwub3BlbkNvbm5lY3Rpb24oKSBhcyBIdHRwVVJMQ29ubmVjdGlvbikuYXBwbHkgewogICAgICAgICAgICAgICAgcmVxdWVzdE1ldGhvZCA9ICJHRVQiCiAgICAgICAgICAgICAgICBzZXRSZXF1ZXN0UHJvcGVydHkoIkFjY2VwdCIsICJhcHBsaWNhdGlvbi92bmQuZ2l0aHViLnYzK2pzb24iKQogICAgICAgICAgICAgICAgY29ubmVjdFRpbWVvdXQgPSBDT05ORUNUX1RJTUVPVVQKICAgICAgICAgICAgICAgIHJlYWRUaW1lb3V0ID0gUkVBRF9USU1FT1VUCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChjb25uZWN0aW9uLnJlc3BvbnNlQ29kZSA9PSBIdHRwVVJMQ29ubmVjdGlvbi5IVFRQX09LKSB7CiAgICAgICAgICAgICAgICB2YWwgcmVzcG9uc2UgPSBjb25uZWN0aW9uLmlucHV0U3RyZWFtLmJ1ZmZlcmVkUmVhZGVyKCkudXNlIHsgaXQucmVhZFRleHQoKSB9CiAgICAgICAgICAgICAgICB2YWwganNvbk9iamVjdCA9IEpzb25QYXJzZXIucGFyc2VTdHJpbmcocmVzcG9uc2UpLmFzSnNvbk9iamVjdAogICAgICAgICAgICAgICAganNvbk9iamVjdC5nZXQoImRlZmF1bHRfYnJhbmNoIik/LmFzU3RyaW5nCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJHaXRIdWIgQVBJIGZhaWxlZCwgSFRUUCAke2Nvbm5lY3Rpb24ucmVzcG9uc2VDb2RlfSIpCiAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGZldGNoIEdpdEh1YiBkZWZhdWx0IGJyYW5jaCIsIGUpCiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.data.skill
+
+import android.content.Context
+import android.net.Uri
+import android.provider.OpenableColumns
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.tools.skill.SkillManager
+import com.bslsjdk.operit.core.tools.skill.SkillPackage
+import com.bslsjdk.operit.data.preferences.SkillVisibilityPreferences
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.SkillRepoZipPoolManager
+import com.google.gson.JsonParser
+import java.io.BufferedInputStream
+import java.io.File
+import java.io.FileOutputStream
+import java.net.HttpURLConnection
+import java.net.URI
+import java.net.URL
+import java.net.URLEncoder
+import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+class SkillRepository private constructor(private val context: Context) {
+
+    companion object {
+        @Volatile private var INSTANCE: SkillRepository? = null
+
+        private const val TAG = "SkillRepository"
+        private const val CONNECT_TIMEOUT = 15_000
+        private const val READ_TIMEOUT = 30_000
+        private const val BUFFER_SIZE = 64 * 1024
+        private val SKILL_ID_PATTERN = Regex("^[A-Za-z0-9._-]+$")
+
+        fun getInstance(context: Context): SkillRepository {
+            return INSTANCE ?: synchronized(this) {
+                INSTANCE ?: SkillRepository(context.applicationContext).also { INSTANCE = it }
+            }
+        }
+    }
+
+    private val skillManager by lazy { SkillManager.getInstance(context) }
+
+    private val skillVisibilityPreferences by lazy { SkillVisibilityPreferences.getInstance(context) }
+
+    private val defaultBranchCache = ConcurrentHashMap<String, String>()
+
+    private data class GitHubSkillTarget(
+        val owner: String,
+        val repo: String,
+        val ref: String?,
+        val subDir: String?
+    )
+
+    fun getSkillsDirectoryPath(): String = skillManager.getSkillsDirectoryPath()
+
+    fun getAvailableSkillPackages(): Map<String, SkillPackage> = skillManager.getAvailableSkills()
+
+    fun getAvailableSkillPackagesSnapshot(): Pair<Map<String, SkillPackage>, Map<String, String>> =
+        skillManager.getAvailableSkillsSnapshot()
+
+    fun getSkillLoadErrors(): Map<String, String> = skillManager.getSkillLoadErrors()
+
+    fun getAiVisibleSkillPackages(): Map<String, SkillPackage> {
+        return skillManager.getAvailableSkills().filter { (skillName, _) ->
+            skillVisibilityPreferences.isSkillVisibleToAi(skillName)
+        }
+    }
+
+    fun readSkillContent(skillName: String): String? = skillManager.readSkillContent(skillName)
+
+    fun deleteSkill(skillName: String): Boolean = skillManager.deleteSkill(skillName)
+
+    suspend fun importSkillFromZip(zipFile: File): String {
+        return withContext(Dispatchers.IO) {
+            skillManager.importSkillFromZip(zipFile)
+        }
+    }
+
+    suspend fun importSkillFromGitHubRepo(repoUrl: String): String {
+        return importSkillFromGitHubRepoDetailed(repoUrl).message
+    }
+
+    data class SkillRepoImportResult(
+        val message: String,
+        val installedDir: File?
+    )
+
+    suspend fun importSkillFromGitHubRepoDetailed(repoUrl: String): SkillRepoImportResult {
+        return withContext(Dispatchers.IO) {
+            val target = parseGitHubSkillTarget(repoUrl)
+                ?: return@withContext SkillRepoImportResult(context.getString(R.string.skill_invalid_github_url), null)
+
+            val owner = target.owner
+            val repoName = target.repo
+            val repoKey = "$owner/$repoName"
+            val ref = target.ref
+                ?: defaultBranchCache[repoKey]
+                ?: getGithubDefaultBranch(owner, repoName)?.also { defaultBranchCache[repoKey] = it }
+                ?: return@withContext SkillRepoImportResult(context.getString(R.string.skill_cannot_determine_default_branch, "$owner/$repoName"), null)
+
+            val encodedRef = encodePathSegment(ref)
+            val zipUrl = "https://codeload.github.com/$owner/$repoName/zip/$encodedRef"
+            val repoRefKey = "$owner/$repoName@$ref"
+            val pooledZip = SkillRepoZipPoolManager.getOrDownloadZip(repoRefKey) { outFile ->
+                downloadFromUrl(zipUrl, outFile)
+            }
+
+            val suffix = (target.subDir ?: "repo")
+                .replace('/', '_')
+                .take(60)
+            val fallbackTempFile = File(context.cacheDir, "skill_${owner}_${repoName}_$suffix.zip")
+            if (pooledZip == null) {
+                if (fallbackTempFile.exists()) fallbackTempFile.delete()
+            }
+
+            try {
+                val zipFile = if (pooledZip != null) {
+                    pooledZip
+                } else {
+                    val downloaded = downloadFromUrl(zipUrl, fallbackTempFile)
+                    if (!downloaded || !fallbackTempFile.exists() || fallbackTempFile.length() <= 0L) {
+                        if (fallbackTempFile.exists()) fallbackTempFile.delete()
+                        return@withContext SkillRepoImportResult(context.getString(R.string.skill_download_zip_failed), null)
+                    }
+                    fallbackTempFile
+                }
+
+                val result = skillManager.importSkillFromZipDetailed(zipFile, target.subDir)
+
+                if (pooledZip == null) {
+                    runCatching { fallbackTempFile.delete() }
+                }
+
+                SkillRepoImportResult(result.message, result.installedDir)
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Failed to import skill from GitHub repo", e)
+                if (pooledZip == null && fallbackTempFile.exists()) fallbackTempFile.delete()
+                SkillRepoImportResult(context.getString(R.string.skill_import_failed, e.message ?: "Unknown error"), null)
+            }
+        }
+    }
+
+    suspend fun importSkillFromDirectInput(
+        skillId: String,
+        description: String,
+        content: String,
+        attachmentUris: List<Uri> = emptyList()
+    ): String {
+        return withContext(Dispatchers.IO) {
+            val trimmedId = skillId.trim()
+            val trimmedDescription = description.trim()
+            val trimmedContent = content.trim()
+
+            if (trimmedId.isBlank()) {
+                return@withContext context.getString(R.string.skillmgr_direct_skill_id_required)
+            }
+            if (!isValidSkillId(trimmedId)) {
+                return@withContext context.getString(R.string.skillmgr_direct_skill_id_invalid)
+            }
+            if (trimmedContent.isBlank()) {
+                return@withContext context.getString(R.string.skillmgr_direct_content_required)
+            }
+
+            val skillsRootDir = File(getSkillsDirectoryPath())
+            if (!skillsRootDir.exists() && !skillsRootDir.mkdirs()) {
+                return@withContext context.getString(
+                    R.string.skillmgr_direct_create_dir_failed,
+                    skillsRootDir.absolutePath
+                )
+            }
+
+            val finalDir = File(skillsRootDir, trimmedId)
+            if (finalDir.exists()) {
+                return@withContext context.getString(R.string.skill_error_import_duplicate_name, finalDir.name)
+            }
+            if (!finalDir.mkdirs()) {
+                return@withContext context.getString(
+                    R.string.skillmgr_direct_create_dir_failed,
+                    finalDir.absolutePath
+                )
+            }
+
+            try {
+                File(finalDir, "SKILL.md").writeText(
+                    buildDirectSkillMarkdown(
+                        skillId = trimmedId,
+                        description = trimmedDescription,
+                        content = trimmedContent
+                    )
+                )
+
+                if (attachmentUris.isNotEmpty()) {
+                    val assetsDir = File(finalDir, "assets")
+                    if (!assetsDir.exists() && !assetsDir.mkdirs()) {
+                        throw IllegalStateException(
+                            context.getString(R.string.skillmgr_direct_create_dir_failed, assetsDir.absolutePath)
+                        )
+                    }
+
+                    val usedFileNames = mutableSetOf<String>()
+                    attachmentUris.forEachIndexed { index, uri ->
+                        val displayName = resolveAttachmentDisplayName(uri)
+                            ?.takeIf { it.isNotBlank() }
+                            ?: "attachment_${index + 1}"
+                        val safeName = ensureUniqueFileName(
+                            sanitizeAttachmentName(displayName),
+                            usedFileNames
+                        )
+                        val outFile = File(assetsDir, safeName)
+
+                        context.contentResolver.openInputStream(uri)?.use { input ->
+                            outFile.outputStream().use { output ->
+                                input.copyTo(output)
+                            }
+                        } ?: throw IllegalStateException(
+                            context.getString(R.string.skillmgr_direct_attachment_read_failed, displayName)
+                        )
+                    }
+                }
+
+                skillManager.refreshAvailableSkills()
+
+                if (trimmedDescription.isNotBlank()) {
+                    context.getString(R.string.skill_imported_with_desc, finalDir.name, trimmedDescription)
+                } else {
+                    context.getString(R.string.skill_imported, finalDir.name)
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Failed to import skill from direct input", e)
+                runCatching { finalDir.deleteRecursively() }
+                context.getString(R.string.skill_import_failed, e.message ?: "Unknown error")
+            }
+        }
+    }
+
+    private fun buildDirectSkillMarkdown(skillId: String, description: String, content: String): String {
+        val escapedName = escapeFrontMatterValue(skillId)
+        val escapedDescription = escapeFrontMatterValue(description)
+        return buildString {
+            appendLine("---")
+            appendLine("name: \"$escapedName\"")
+            appendLine("description: \"$escapedDescription\"")
+            appendLine("---")
+            appendLine()
+            append(content.trimEnd())
+            appendLine()
+        }
+    }
+
+    private fun escapeFrontMatterValue(value: String): String {
+        return value
+            .replace("\\", "\\\\")
+            .replace("\"", "\\\"")
+            .replace("\r\n", "\n")
+            .replace("\n", "\\n")
+    }
+
+    private fun resolveAttachmentDisplayName(uri: Uri): String? {
+        return runCatching {
+            context.contentResolver.query(
+                uri,
+                arrayOf(OpenableColumns.DISPLAY_NAME),
+                null,
+                null,
+                null
+            )?.use { cursor ->
+                val nameIndex = cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME)
+                if (cursor.moveToFirst() && nameIndex >= 0) {
+                    cursor.getString(nameIndex)
+                } else {
+                    null
+                }
+            }
+        }.getOrNull() ?: uri.lastPathSegment?.substringAfterLast('/')
+    }
+
+    private fun sanitizeAttachmentName(rawName: String): String {
+        val sanitized = rawName.trim().replace(Regex("[\\\\/:*?\"<>|]"), "_")
+        return sanitized.ifBlank { "attachment" }
+    }
+
+    private fun isValidSkillId(skillId: String): Boolean {
+        return SKILL_ID_PATTERN.matches(skillId) && skillId != "." && skillId != ".."
+    }
+
+    private fun ensureUniqueFileName(baseName: String, usedNames: MutableSet<String>): String {
+        var candidate = baseName
+        val dotIndex = baseName.lastIndexOf('.').takeIf { it > 0 } ?: -1
+        val prefix = if (dotIndex > 0) baseName.substring(0, dotIndex) else baseName
+        val extension = if (dotIndex > 0) baseName.substring(dotIndex) else ""
+        var suffix = 1
+        while (usedNames.contains(candidate)) {
+            candidate = "${prefix}_$suffix$extension"
+            suffix += 1
+        }
+        usedNames += candidate
+        return candidate
+    }
+
+    private fun parseGitHubSkillTarget(inputUrlRaw: String): GitHubSkillTarget? {
+        val inputUrl = inputUrlRaw.trim()
+        if (inputUrl.isBlank()) return null
+
+        val urlWithScheme = if (inputUrl.startsWith("http://", ignoreCase = true) || inputUrl.startsWith("https://", ignoreCase = true)) {
+            inputUrl
+        } else {
+            "https://$inputUrl"
+        }
+
+        val urlNoFragment = urlWithScheme.substringBefore('#')
+        val uri = try {
+            URI(urlNoFragment)
+        } catch (_: Exception) {
+            return null
+        }
+
+        val host = uri.host?.lowercase() ?: return null
+        val path = uri.path.orEmpty()
+        val segments = path.split('/').filter { it.isNotBlank() }
+        if (segments.size < 2) return null
+
+        fun cleanRepoName(repoRaw: String): String {
+            return repoRaw.removeSuffix(".git")
+        }
+
+        return when {
+            host == "github.com" || host.endsWith(".github.com") -> {
+                val owner = segments[0]
+                val repo = cleanRepoName(segments[1])
+                if (owner.isBlank() || repo.isBlank()) return null
+
+                var ref: String? = null
+                var subDir: String? = null
+
+                if (segments.size >= 4 && (segments[2] == "tree" || segments[2] == "blob")) {
+                    ref = segments[3]
+                    val remainder = if (segments.size > 4) segments.subList(4, segments.size).joinToString("/") else ""
+                    if (remainder.isNotBlank()) {
+                        subDir = if (segments[2] == "blob") {
+                            if (remainder.endsWith("SKILL.md", ignoreCase = true) || remainder.endsWith("skill.md", ignoreCase = true)) {
+                                remainder.substringBeforeLast('/')
+                            } else {
+                                remainder.substringBeforeLast('/').ifBlank { null }
+                            }
+                        } else {
+                            remainder
+                        }
+                    }
+                }
+
+                GitHubSkillTarget(owner = owner, repo = repo, ref = ref, subDir = subDir)
+            }
+
+            host == "raw.githubusercontent.com" -> {
+                if (segments.size < 4) return null
+                val owner = segments[0]
+                val repo = cleanRepoName(segments[1])
+                val ref = segments[2]
+                val remainder = segments.subList(3, segments.size).joinToString("/")
+                val subDir = if (remainder.endsWith("SKILL.md", ignoreCase = true) || remainder.endsWith("skill.md", ignoreCase = true)) {
+                    remainder.substringBeforeLast('/')
+                } else {
+                    remainder.substringBeforeLast('/').ifBlank { null }
+                }
+                GitHubSkillTarget(owner = owner, repo = repo, ref = ref, subDir = subDir)
+            }
+
+            else -> null
+        }
+    }
+
+    private fun encodePathSegment(value: String): String {
+        return try {
+            URLEncoder.encode(value, "UTF-8").replace("+", "%20")
+        } catch (_: Exception) {
+            value
+        }
+    }
+
+    private fun downloadFromUrl(zipUrl: String, outFile: File): Boolean {
+        val url = URL(zipUrl)
+        val connection = (url.openConnection() as HttpURLConnection).apply {
+            connectTimeout = CONNECT_TIMEOUT
+            readTimeout = READ_TIMEOUT
+            doInput = true
+            setRequestProperty(
+                "User-Agent",
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+            )
+        }
+
+        connection.connect()
+        if (connection.responseCode != HttpURLConnection.HTTP_OK) {
+            AppLogger.e(TAG, "Download failed, HTTP ${connection.responseCode}")
+            return false
+        }
+
+        BufferedInputStream(connection.inputStream).use { input ->
+            FileOutputStream(outFile).use { output ->
+                val buffer = ByteArray(BUFFER_SIZE)
+                while (true) {
+                    val read = input.read(buffer)
+                    if (read <= 0) break
+                    output.write(buffer, 0, read)
+                }
+                output.flush()
+            }
+        }
+
+        return true
+    }
+
+    private fun getGithubDefaultBranch(owner: String, repoName: String): String? {
+        val apiUrl = "https://api.github.com/repos/$owner/$repoName"
+        return try {
+            val url = URL(apiUrl)
+            val connection = (url.openConnection() as HttpURLConnection).apply {
+                requestMethod = "GET"
+                setRequestProperty("Accept", "application/vnd.github.v3+json")
+                connectTimeout = CONNECT_TIMEOUT
+                readTimeout = READ_TIMEOUT
+            }
+
+            if (connection.responseCode == HttpURLConnection.HTTP_OK) {
+                val response = connection.inputStream.bufferedReader().use { it.readText() }
+                val jsonObject = JsonParser.parseString(response).asJsonObject
+                jsonObject.get("default_branch")?.asString
+            } else {
+                AppLogger.e(TAG, "GitHub API failed, HTTP ${connection.responseCode}")
+                null
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to fetch GitHub default branch", e)
+            null
+        }
+    }
+}

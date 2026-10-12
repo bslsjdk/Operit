@@ -1,1 +1,109 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGFuZHJvaWQub3MuUGFyY2VsCmltcG9ydCBhbmRyb2lkLm9zLlBhcmNlbGFibGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5TdHJlYW0KaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5UcmFuc2llbnQKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBDaGF0TWVzc2FnZSgKICAgICAgICB2YWwgc2VuZGVyOiBTdHJpbmcsIC8vICJ1c2VyIiBvciAiYWkiCiAgICAgICAgdmFyIGNvbnRlbnQ6IFN0cmluZyA9ICIiLAogICAgICAgIHZhbCB0aW1lc3RhbXA6IExvbmcgPSBDaGF0TWVzc2FnZVRpbWVzdGFtcEFsbG9jYXRvci5uZXh0KCksCiAgICAgICAgdmFsIHJvbGVOYW1lOiBTdHJpbmcgPSAiIiwgLy8g6KeS6Imy5ZCN5a2X5a2X5q61CiAgICAgICAgdmFsIHNlbGVjdGVkVmFyaWFudEluZGV4OiBJbnQgPSAwLCAvLyDlvZPliY3pgInkuK3nmoTlm57nrZTniYjmnKzvvIwwIOihqOekuuWOn+Wni+WbnuetlAogICAgICAgIHZhbCB2YXJpYW50Q291bnQ6IEludCA9IDEsIC8vIOW9k+WJjea2iOaBr+WPr+WIh+aNoueahOWbnuetlOeJiOacrOaVsOmHjwogICAgICAgIHZhbCBwcm92aWRlcjogU3RyaW5nID0gIiIsIC8vIOS+m+W6lOWVhgogICAgICAgIHZhbCBtb2RlbE5hbWU6IFN0cmluZyA9ICIiLCAvLyDmqKHlnovlkI3np7AKICAgICAgICB2YWwgaW5wdXRUb2tlbnM6IExvbmcgPSAwTCwgLy8g5pys6L2u6L6T5YWlIHRva2VuCiAgICAgICAgdmFsIG91dHB1dFRva2VuczogTG9uZyA9IDBMLCAvLyDmnKzova7ovpPlh7ogdG9rZW4KICAgICAgICB2YWwgY2FjaGVkSW5wdXRUb2tlbnM6IExvbmcgPSAwTCwgLy8g5pys6L2u57yT5a2Y5ZG95Lit55qE6L6T5YWlIHRva2VuCiAgICAgICAgdmFsIHNlbnRBdDogTG9uZyA9IDBMLCAvLyDmnKzova7or7fmsYLlj5HpgIHml7bpl7TvvIjml7bpl7TmiLPvvIkKICAgICAgICB2YWwgb3V0cHV0RHVyYXRpb25NczogTG9uZyA9IDBMLCAvLyDmnKzova7ovpPlh7rogJfml7YKICAgICAgICB2YWwgd2FpdER1cmF0aW9uTXM6IExvbmcgPSAwTCwgLy8g5pys6L2u562J5b6F6aaW5YyF6ICX5pe2CiAgICAgICAgdmFsIGNvbXBsZXRlZEF0OiBMb25nID0gMEwsIC8vIOacrOi9rua2iOaBr+WujOaIkOaXtumXtO+8iOaXtumXtOaIs++8iQogICAgICAgIHZhbCBkaXNwbGF5TW9kZTogQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZSA9IENoYXRNZXNzYWdlRGlzcGxheU1vZGUuTk9STUFMLAogICAgICAgIHZhbCBpc0Zhdm9yaXRlOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgQFRyYW5zaWVudAogICAgICAgIHZhbCBpc1ZhcmlhbnRQcmV2aWV3OiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgQFRyYW5zaWVudAogICAgICAgIHZhciBjb250ZW50U3RyZWFtOiBTdHJlYW08U3RyaW5nPj8gPQogICAgICAgICAgICAgICAgbnVsbCAvLyDkv67mlLnkuLpTdHJlYW08U3RyaW5nPuexu+Wei++8jOS4jkVuaGFuY2VkQUlTZXJ2aWNlLnNlbmRNZXNzYWdl6L+U5Zue57G75Z6L5Yy56YWNCikgOiBQYXJjZWxhYmxlIHsKICAgIGluaXQgewogICAgICAgIENoYXRNZXNzYWdlVGltZXN0YW1wQWxsb2NhdG9yLm9ic2VydmUodGltZXN0YW1wKQogICAgfQoKICAgIGNvbnN0cnVjdG9yKAogICAgICAgICAgICBwYXJjZWw6IFBhcmNlbAogICAgKSA6IHRoaXMoCiAgICAgICAgc2VuZGVyID0gcGFyY2VsLnJlYWRTdHJpbmcoKSA/OiAiIiwKICAgICAgICBjb250ZW50ID0gcGFyY2VsLnJlYWRTdHJpbmcoKSA/OiAiIiwKICAgICAgICB0aW1lc3RhbXAgPSBwYXJjZWwucmVhZExvbmcoKSwKICAgICAgICByb2xlTmFtZSA9IHBhcmNlbC5yZWFkU3RyaW5nKCkgPzogIiIsCiAgICAgICAgc2VsZWN0ZWRWYXJpYW50SW5kZXggPSBwYXJjZWwucmVhZEludCgpLAogICAgICAgIHZhcmlhbnRDb3VudCA9IHBhcmNlbC5yZWFkSW50KCksCiAgICAgICAgcHJvdmlkZXIgPSBwYXJjZWwucmVhZFN0cmluZygpID86ICIiLAogICAgICAgIG1vZGVsTmFtZSA9IHBhcmNlbC5yZWFkU3RyaW5nKCkgPzogIiIsCiAgICAgICAgaW5wdXRUb2tlbnMgPSBwYXJjZWwucmVhZExvbmcoKSwKICAgICAgICBvdXRwdXRUb2tlbnMgPSBwYXJjZWwucmVhZExvbmcoKSwKICAgICAgICBjYWNoZWRJbnB1dFRva2VucyA9IHBhcmNlbC5yZWFkTG9uZygpLAogICAgICAgIHNlbnRBdCA9IHBhcmNlbC5yZWFkTG9uZygpLAogICAgICAgIG91dHB1dER1cmF0aW9uTXMgPSBwYXJjZWwucmVhZExvbmcoKSwKICAgICAgICB3YWl0RHVyYXRpb25NcyA9IHBhcmNlbC5yZWFkTG9uZygpLAogICAgICAgIGRpc3BsYXlNb2RlID0gcmVhZERpc3BsYXlNb2RlRnJvbVBhcmNlbChwYXJjZWwpLAogICAgICAgIGlzRmF2b3JpdGUgPSByZWFkQm9vbGVhbkZyb21QYXJjZWwocGFyY2VsKSwKICAgICAgICBjb21wbGV0ZWRBdCA9IGlmIChwYXJjZWwuZGF0YUF2YWlsKCkgPiAwKSBwYXJjZWwucmVhZExvbmcoKSBlbHNlIDBMLAogICAgKQoKICAgIG92ZXJyaWRlIGZ1biB3cml0ZVRvUGFyY2VsKHBhcmNlbDogUGFyY2VsLCBmbGFnczogSW50KSB7CiAgICAgICAgcGFyY2VsLndyaXRlU3RyaW5nKHNlbmRlcikKICAgICAgICBwYXJjZWwud3JpdGVTdHJpbmcoY29udGVudCkKICAgICAgICBwYXJjZWwud3JpdGVMb25nKHRpbWVzdGFtcCkKICAgICAgICBwYXJjZWwud3JpdGVTdHJpbmcocm9sZU5hbWUpCiAgICAgICAgcGFyY2VsLndyaXRlSW50KHNlbGVjdGVkVmFyaWFudEluZGV4KQogICAgICAgIHBhcmNlbC53cml0ZUludCh2YXJpYW50Q291bnQpCiAgICAgICAgcGFyY2VsLndyaXRlU3RyaW5nKHByb3ZpZGVyKQogICAgICAgIHBhcmNlbC53cml0ZVN0cmluZyhtb2RlbE5hbWUpCiAgICAgICAgcGFyY2VsLndyaXRlTG9uZyhpbnB1dFRva2VucykKICAgICAgICBwYXJjZWwud3JpdGVMb25nKG91dHB1dFRva2VucykKICAgICAgICBwYXJjZWwud3JpdGVMb25nKGNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIHBhcmNlbC53cml0ZUxvbmcoc2VudEF0KQogICAgICAgIHBhcmNlbC53cml0ZUxvbmcob3V0cHV0RHVyYXRpb25NcykKICAgICAgICBwYXJjZWwud3JpdGVMb25nKHdhaXREdXJhdGlvbk1zKQogICAgICAgIHBhcmNlbC53cml0ZVN0cmluZyhkaXNwbGF5TW9kZS5uYW1lKQogICAgICAgIHBhcmNlbC53cml0ZUludChpZiAoaXNGYXZvcml0ZSkgMSBlbHNlIDApCiAgICAgICAgcGFyY2VsLndyaXRlTG9uZyhjb21wbGV0ZWRBdCkKICAgICAgICAvLyDkuI3pnIDopoHluo/liJfljJZjb250ZW50U3RyZWFt77yM5Zug5Li65a6D5piv5pqC5pe25oCn55qECiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGRlc2NyaWJlQ29udGVudHMoKTogSW50IHsKICAgICAgICByZXR1cm4gMAogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgQ1JFQVRPUiA6IFBhcmNlbGFibGUuQ3JlYXRvcjxDaGF0TWVzc2FnZT4gewogICAgICAgIHByaXZhdGUgZnVuIHJlYWREaXNwbGF5TW9kZUZyb21QYXJjZWwocGFyY2VsOiBQYXJjZWwpOiBDaGF0TWVzc2FnZURpc3BsYXlNb2RlIHsKICAgICAgICAgICAgaWYgKHBhcmNlbC5kYXRhQXZhaWwoKSA8PSAwKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS5OT1JNQUwKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS52YWx1ZU9mKAogICAgICAgICAgICAgICAgICAgIHBhcmNlbC5yZWFkU3RyaW5nKCkgPzogQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS5OT1JNQUwubmFtZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9LmdldE9yRGVmYXVsdChDaGF0TWVzc2FnZURpc3BsYXlNb2RlLk5PUk1BTCkKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIHJlYWRCb29sZWFuRnJvbVBhcmNlbChwYXJjZWw6IFBhcmNlbCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gcGFyY2VsLmRhdGFBdmFpbCgpID4gMCAmJiBwYXJjZWwucmVhZEludCgpICE9IDAKICAgICAgICB9CgogICAgICAgIG92ZXJyaWRlIGZ1biBjcmVhdGVGcm9tUGFyY2VsKHBhcmNlbDogUGFyY2VsKTogQ2hhdE1lc3NhZ2UgewogICAgICAgICAgICByZXR1cm4gQ2hhdE1lc3NhZ2UocGFyY2VsKQogICAgICAgIH0KCiAgICAgICAgb3ZlcnJpZGUgZnVuIG5ld0FycmF5KHNpemU6IEludCk6IEFycmF5PENoYXRNZXNzYWdlPz4gewogICAgICAgICAgICByZXR1cm4gYXJyYXlPZk51bGxzKHNpemUpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+import android.os.Parcel
+import android.os.Parcelable
+import com.bslsjdk.operit.util.stream.Stream
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.Transient
+
+@Serializable
+data class ChatMessage(
+        val sender: String, // "user" or "ai"
+        var content: String = "",
+        val timestamp: Long = ChatMessageTimestampAllocator.next(),
+        val roleName: String = "", // 角色名字字段
+        val selectedVariantIndex: Int = 0, // 当前选中的回答版本，0 表示原始回答
+        val variantCount: Int = 1, // 当前消息可切换的回答版本数量
+        val provider: String = "", // 供应商
+        val modelName: String = "", // 模型名称
+        val inputTokens: Long = 0L, // 本轮输入 token
+        val outputTokens: Long = 0L, // 本轮输出 token
+        val cachedInputTokens: Long = 0L, // 本轮缓存命中的输入 token
+        val sentAt: Long = 0L, // 本轮请求发送时间（时间戳）
+        val outputDurationMs: Long = 0L, // 本轮输出耗时
+        val waitDurationMs: Long = 0L, // 本轮等待首包耗时
+        val completedAt: Long = 0L, // 本轮消息完成时间（时间戳）
+        val displayMode: ChatMessageDisplayMode = ChatMessageDisplayMode.NORMAL,
+        val isFavorite: Boolean = false,
+        @Transient
+        val isVariantPreview: Boolean = false,
+        @Transient
+        var contentStream: Stream<String>? =
+                null // 修改为Stream<String>类型，与EnhancedAIService.sendMessage返回类型匹配
+) : Parcelable {
+    init {
+        ChatMessageTimestampAllocator.observe(timestamp)
+    }
+
+    constructor(
+            parcel: Parcel
+    ) : this(
+        sender = parcel.readString() ?: "",
+        content = parcel.readString() ?: "",
+        timestamp = parcel.readLong(),
+        roleName = parcel.readString() ?: "",
+        selectedVariantIndex = parcel.readInt(),
+        variantCount = parcel.readInt(),
+        provider = parcel.readString() ?: "",
+        modelName = parcel.readString() ?: "",
+        inputTokens = parcel.readLong(),
+        outputTokens = parcel.readLong(),
+        cachedInputTokens = parcel.readLong(),
+        sentAt = parcel.readLong(),
+        outputDurationMs = parcel.readLong(),
+        waitDurationMs = parcel.readLong(),
+        displayMode = readDisplayModeFromParcel(parcel),
+        isFavorite = readBooleanFromParcel(parcel),
+        completedAt = if (parcel.dataAvail() > 0) parcel.readLong() else 0L,
+    )
+
+    override fun writeToParcel(parcel: Parcel, flags: Int) {
+        parcel.writeString(sender)
+        parcel.writeString(content)
+        parcel.writeLong(timestamp)
+        parcel.writeString(roleName)
+        parcel.writeInt(selectedVariantIndex)
+        parcel.writeInt(variantCount)
+        parcel.writeString(provider)
+        parcel.writeString(modelName)
+        parcel.writeLong(inputTokens)
+        parcel.writeLong(outputTokens)
+        parcel.writeLong(cachedInputTokens)
+        parcel.writeLong(sentAt)
+        parcel.writeLong(outputDurationMs)
+        parcel.writeLong(waitDurationMs)
+        parcel.writeString(displayMode.name)
+        parcel.writeInt(if (isFavorite) 1 else 0)
+        parcel.writeLong(completedAt)
+        // 不需要序列化contentStream，因为它是暂时性的
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    companion object CREATOR : Parcelable.Creator<ChatMessage> {
+        private fun readDisplayModeFromParcel(parcel: Parcel): ChatMessageDisplayMode {
+            if (parcel.dataAvail() <= 0) {
+                return ChatMessageDisplayMode.NORMAL
+            }
+            return runCatching {
+                ChatMessageDisplayMode.valueOf(
+                    parcel.readString() ?: ChatMessageDisplayMode.NORMAL.name
+                )
+            }.getOrDefault(ChatMessageDisplayMode.NORMAL)
+        }
+
+        private fun readBooleanFromParcel(parcel: Parcel): Boolean {
+            return parcel.dataAvail() > 0 && parcel.readInt() != 0
+        }
+
+        override fun createFromParcel(parcel: Parcel): ChatMessage {
+            return ChatMessage(parcel)
+        }
+
+        override fun newArray(size: Int): Array<ChatMessage?> {
+            return arrayOfNulls(size)
+        }
+    }
+}

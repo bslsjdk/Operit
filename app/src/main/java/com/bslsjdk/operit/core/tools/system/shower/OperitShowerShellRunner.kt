@@ -1,1 +1,30 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uc2hvd2VyCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLkFuZHJvaWRTaGVsbEV4ZWN1dG9yCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uU2hlbGxJZGVudGl0eSBhcyBBcHBTaGVsbElkZW50aXR5CmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5zaG93ZXJjbGllbnQuU2hlbGxDb21tYW5kUmVzdWx0CmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5zaG93ZXJjbGllbnQuU2hlbGxJZGVudGl0eQppbXBvcnQgY29tLmFpLmFzc2lzdGFuY2Uuc2hvd2VyY2xpZW50LlNoZWxsUnVubmVyCgovKioKICogQnJpZGdlIGltcGxlbWVudGF0aW9uIG9mIFtTaGVsbFJ1bm5lcl0gdGhhdCBkZWxlZ2F0ZXMgdG8gdGhlIGFwcCdzCiAqIFtBbmRyb2lkU2hlbGxFeGVjdXRvcl0sIG1hcHBpbmcgaWRlbnRpdGllcyBiZXR3ZWVuIHRoZSBsaWJyYXJ5IGFuZCBhcHAuCiAqLwpvYmplY3QgT3Blcml0U2hvd2VyU2hlbGxSdW5uZXIgOiBTaGVsbFJ1bm5lciB7CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcnVuKGNvbW1hbmQ6IFN0cmluZywgaWRlbnRpdHk6IFNoZWxsSWRlbnRpdHkpOiBTaGVsbENvbW1hbmRSZXN1bHQgewogICAgICAgIHZhbCBhcHBJZGVudGl0eSA9IHdoZW4gKGlkZW50aXR5KSB7CiAgICAgICAgICAgIFNoZWxsSWRlbnRpdHkuREVGQVVMVCAtPiBBcHBTaGVsbElkZW50aXR5LkRFRkFVTFQKICAgICAgICAgICAgU2hlbGxJZGVudGl0eS5TSEVMTCAtPiBBcHBTaGVsbElkZW50aXR5LlNIRUxMCiAgICAgICAgICAgIFNoZWxsSWRlbnRpdHkuUk9PVCAtPiBBcHBTaGVsbElkZW50aXR5LlJPT1QKICAgICAgICB9CgogICAgICAgIHZhbCByZXN1bHQgPSBBbmRyb2lkU2hlbGxFeGVjdXRvci5leGVjdXRlU2hlbGxDb21tYW5kKGNvbW1hbmQsIGFwcElkZW50aXR5KQogICAgICAgIHJldHVybiBTaGVsbENvbW1hbmRSZXN1bHQoCiAgICAgICAgICAgIHN1Y2Nlc3MgPSByZXN1bHQuc3VjY2VzcywKICAgICAgICAgICAgc3Rkb3V0ID0gcmVzdWx0LnN0ZG91dCwKICAgICAgICAgICAgc3RkZXJyID0gcmVzdWx0LnN0ZGVyciwKICAgICAgICAgICAgZXhpdENvZGUgPSByZXN1bHQuZXhpdENvZGUsCiAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.system.shower
+
+import com.bslsjdk.operit.core.tools.system.AndroidShellExecutor
+import com.bslsjdk.operit.core.tools.system.ShellIdentity as AppShellIdentity
+import com.ai.assistance.showerclient.ShellCommandResult
+import com.ai.assistance.showerclient.ShellIdentity
+import com.ai.assistance.showerclient.ShellRunner
+
+/**
+ * Bridge implementation of [ShellRunner] that delegates to the app's
+ * [AndroidShellExecutor], mapping identities between the library and app.
+ */
+object OperitShowerShellRunner : ShellRunner {
+
+    override suspend fun run(command: String, identity: ShellIdentity): ShellCommandResult {
+        val appIdentity = when (identity) {
+            ShellIdentity.DEFAULT -> AppShellIdentity.DEFAULT
+            ShellIdentity.SHELL -> AppShellIdentity.SHELL
+            ShellIdentity.ROOT -> AppShellIdentity.ROOT
+        }
+
+        val result = AndroidShellExecutor.executeShellCommand(command, appIdentity)
+        return ShellCommandResult(
+            success = result.success,
+            stdout = result.stdout,
+            stderr = result.stderr,
+            exitCode = result.exitCode,
+        )
+    }
+}

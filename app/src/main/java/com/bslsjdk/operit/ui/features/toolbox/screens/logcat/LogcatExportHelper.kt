@@ -1,1 +1,161 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmxvZ2NhdAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZW50VmFsdWVzCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZC5vcy5FbnZpcm9ubWVudAppbXBvcnQgYW5kcm9pZC5wcm92aWRlci5NZWRpYVN0b3JlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uRmlsZVdyaXRlcgppbXBvcnQgamF2YS5pby5Xcml0ZXIKaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKCmRhdGEgY2xhc3MgTG9nY2F0RXhwb3J0UmVzdWx0KAogICAgdmFsIG1lc3NhZ2U6IFN0cmluZywKICAgIHZhbCBzdWNjZXNzOiBCb29sZWFuCikKCm9iamVjdCBMb2djYXRFeHBvcnRIZWxwZXIgewoKICAgIHN1c3BlbmQgZnVuIGV4cG9ydExvZ3MoY29udGV4dDogQ29udGV4dCk6IExvZ2NhdEV4cG9ydFJlc3VsdCA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGxvZ0ZpbGUgPSBBcHBMb2dnZXIuZ2V0TG9nRmlsZSgpCiAgICAgICAgICAgIGlmIChsb2dGaWxlID09IG51bGwgfHwgIWxvZ0ZpbGUuZXhpc3RzKCkgfHwgbG9nRmlsZS5sZW5ndGgoKSA9PSAwTCkgewogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IExvZ2NhdEV4cG9ydFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubG9nY2F0X25vX2xvZ3NfdG9fc2F2ZSksCiAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBsb2dMaW5lQ291bnQgPSBjb3VudEV4cG9ydGFibGVMb2dMaW5lcyhsb2dGaWxlKQogICAgICAgICAgICBpZiAobG9nTGluZUNvdW50ID09IDBMKSB7CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgTG9nY2F0RXhwb3J0UmVzdWx0KAogICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5sb2djYXRfbm9fbG9nc190b19zYXZlKSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHRpbWVzdGFtcCA9IFNpbXBsZURhdGVGb3JtYXQoInl5eXlNTWRkX0hIbW1zcyIsIExvY2FsZS5nZXREZWZhdWx0KCkpLmZvcm1hdChEYXRlKCkpCiAgICAgICAgICAgIHZhbCBmaWxlTmFtZSA9ICJvcGVyaXRfbG9nXyR0aW1lc3RhbXAudHh0IgogICAgICAgICAgICB2YWwgZmlsZVBhdGggPSBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuUSkgewogICAgICAgICAgICAgICAgc2F2ZVVzaW5nTWVkaWFTdG9yZShjb250ZXh0LCBmaWxlTmFtZSwgbG9nRmlsZSwgbG9nTGluZUNvdW50KQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgc2F2ZVVzaW5nRmlsZVN5c3RlbShjb250ZXh0LCBmaWxlTmFtZSwgbG9nRmlsZSwgbG9nTGluZUNvdW50KQogICAgICAgICAgICB9CgogICAgICAgICAgICBMb2djYXRFeHBvcnRSZXN1bHQoCiAgICAgICAgICAgICAgICBtZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubG9nY2F0X3NhdmVkX3RvLCBmaWxlUGF0aCksCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZQogICAgICAgICAgICApCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIExvZ2NhdEV4cG9ydFJlc3VsdCgKICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBjb250ZXh0LmdldFN0cmluZygKICAgICAgICAgICAgICAgICAgICBSLnN0cmluZy5sb2djYXRfc2F2ZV9mYWlsZWQsCiAgICAgICAgICAgICAgICAgICAgZS5tZXNzYWdlID86IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmxvZ2NhdF91bmtub3duX2Vycm9yKQogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNvdW50RXhwb3J0YWJsZUxvZ0xpbmVzKGxvZ0ZpbGU6IEZpbGUpOiBMb25nIHsKICAgICAgICB2YXIgY291bnQgPSAwTAogICAgICAgIGxvZ0ZpbGUuYnVmZmVyZWRSZWFkZXIoKS51c2VMaW5lcyB7IGxpbmVzIC0+CiAgICAgICAgICAgIGxpbmVzLmZvckVhY2ggeyBsaW5lIC0+CiAgICAgICAgICAgICAgICBpZiAobGluZS5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICBjb3VudCsrCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvdW50CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gd3JpdGVMb2dDb250ZW50KAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgd3JpdGVyOiBXcml0ZXIsCiAgICAgICAgbG9nRmlsZTogRmlsZSwKICAgICAgICBsb2dMaW5lQ291bnQ6IExvbmcKICAgICkgewogICAgICAgIHZhbCBleHBvcnRUaW1lID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eS1NTS1kZCBISDptbTpzcyIsIExvY2FsZS5nZXREZWZhdWx0KCkpLmZvcm1hdChEYXRlKCkpCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubG9nY2F0X2hlYWRlcikpCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubG9nY2F0X2RhdGUsIGV4cG9ydFRpbWUpKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmxvZ2NhdF90b3RhbF9jb3VudCwgbG9nTGluZUNvdW50KSkKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZSgiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKCkKCiAgICAgICAgbG9nRmlsZS5idWZmZXJlZFJlYWRlcigpLnVzZUxpbmVzIHsgbGluZXMgLT4KICAgICAgICAgICAgbGluZXMuZm9yRWFjaCB7IGxpbmUgLT4KICAgICAgICAgICAgICAgIGlmIChsaW5lLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKGxpbmUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgQGFuZHJvaWR4LmFubm90YXRpb24uUmVxdWlyZXNBcGkoQnVpbGQuVkVSU0lPTl9DT0RFUy5RKQogICAgcHJpdmF0ZSBmdW4gc2F2ZVVzaW5nTWVkaWFTdG9yZSgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGZpbGVOYW1lOiBTdHJpbmcsCiAgICAgICAgbG9nRmlsZTogRmlsZSwKICAgICAgICBsb2dMaW5lQ291bnQ6IExvbmcKICAgICk6IFN0cmluZyB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGNvbnRlbnRWYWx1ZXMgPSBDb250ZW50VmFsdWVzKCkuYXBwbHkgewogICAgICAgICAgICAgICAgcHV0KE1lZGlhU3RvcmUuTWVkaWFDb2x1bW5zLkRJU1BMQVlfTkFNRSwgZmlsZU5hbWUpCiAgICAgICAgICAgICAgICBwdXQoTWVkaWFTdG9yZS5NZWRpYUNvbHVtbnMuTUlNRV9UWVBFLCAidGV4dC9wbGFpbiIpCiAgICAgICAgICAgICAgICBwdXQoTWVkaWFTdG9yZS5NZWRpYUNvbHVtbnMuUkVMQVRJVkVfUEFUSCwgIiR7RW52aXJvbm1lbnQuRElSRUNUT1JZX0RPV05MT0FEU30vb3Blcml0IikKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgdXJpID0gY29udGV4dC5jb250ZW50UmVzb2x2ZXIuaW5zZXJ0KAogICAgICAgICAgICAgICAgTWVkaWFTdG9yZS5Eb3dubG9hZHMuRVhURVJOQUxfQ09OVEVOVF9VUkksCiAgICAgICAgICAgICAgICBjb250ZW50VmFsdWVzCiAgICAgICAgICAgICkgPzogdGhyb3cgRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmxvZ2NhdF9jYW5ub3RfY3JlYXRlX2ZpbGUpKQoKICAgICAgICAgICAgY29udGV4dC5jb250ZW50UmVzb2x2ZXIub3Blbk91dHB1dFN0cmVhbSh1cmkpPy51c2UgeyBvdXRwdXRTdHJlYW0gLT4KICAgICAgICAgICAgICAgIG91dHB1dFN0cmVhbS5idWZmZXJlZFdyaXRlcigpLnVzZSB7IHdyaXRlciAtPgogICAgICAgICAgICAgICAgICAgIHdyaXRlTG9nQ29udGVudChjb250ZXh0LCB3cml0ZXIsIGxvZ0ZpbGUsIGxvZ0xpbmVDb3VudCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSA/OiB0aHJvdyBFeGNlcHRpb24oY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubG9nY2F0X2Nhbm5vdF9vcGVuX291dHB1dF9zdHJlYW0pKQoKICAgICAgICAgICAgdmFsIGRvd25sb2Fkc0RpciA9CiAgICAgICAgICAgICAgICBFbnZpcm9ubWVudC5nZXRFeHRlcm5hbFN0b3JhZ2VQdWJsaWNEaXJlY3RvcnkoRW52aXJvbm1lbnQuRElSRUNUT1JZX0RPV05MT0FEUykKICAgICAgICAgICAgcmV0dXJuICIke2Rvd25sb2Fkc0Rpci5hYnNvbHV0ZVBhdGh9L29wZXJpdC8kZmlsZU5hbWUiCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHRocm93IEV4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5sb2djYXRfbWVkaWVzdG9yZV9zYXZlX2ZhaWxlZCwgZS5tZXNzYWdlID86ICIiKSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2F2ZVVzaW5nRmlsZVN5c3RlbSgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGZpbGVOYW1lOiBTdHJpbmcsCiAgICAgICAgbG9nRmlsZTogRmlsZSwKICAgICAgICBsb2dMaW5lQ291bnQ6IExvbmcKICAgICk6IFN0cmluZyB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGRvd25sb2Fkc0RpciA9CiAgICAgICAgICAgICAgICBFbnZpcm9ubWVudC5nZXRFeHRlcm5hbFN0b3JhZ2VQdWJsaWNEaXJlY3RvcnkoRW52aXJvbm1lbnQuRElSRUNUT1JZX0RPV05MT0FEUykKICAgICAgICAgICAgaWYgKGRvd25sb2Fkc0RpciA9PSBudWxsIHx8ICFkb3dubG9hZHNEaXIuZXhpc3RzKCkgJiYgIWRvd25sb2Fkc0Rpci5ta2RpcnMoKSkgewogICAgICAgICAgICAgICAgdGhyb3cgRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmxvZ2NhdF9jYW5ub3RfY3JlYXRlX2Rvd25sb2FkX2RpcikpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIG9wZXJpdERpciA9IEZpbGUoZG93bmxvYWRzRGlyLCAib3Blcml0IikKICAgICAgICAgICAgaWYgKCFvcGVyaXREaXIuZXhpc3RzKCkgJiYgIW9wZXJpdERpci5ta2RpcnMoKSkgewogICAgICAgICAgICAgICAgdGhyb3cgRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmxvZ2NhdF9jYW5ub3RfY3JlYXRlX29wZXJpdF9kaXIpKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBmaWxlID0gRmlsZShvcGVyaXREaXIsIGZpbGVOYW1lKQogICAgICAgICAgICBGaWxlV3JpdGVyKGZpbGUpLnVzZSB7IHdyaXRlciAtPgogICAgICAgICAgICAgICAgd3JpdGVMb2dDb250ZW50KGNvbnRleHQsIHdyaXRlciwgbG9nRmlsZSwgbG9nTGluZUNvdW50KQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICghZmlsZS5leGlzdHMoKSB8fCBmaWxlLmxlbmd0aCgpID09IDBMKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBFeGNlcHRpb24oY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubG9nY2F0X2ZpbGVfY3JlYXRlX2ZhaWxlZCkpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGZpbGUuYWJzb2x1dGVQYXRoCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHRocm93IEV4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5sb2djYXRfZmlsZXN5c3RlbV9zYXZlX2ZhaWxlZCwgZS5tZXNzYWdlID86ICIiKSkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.toolbox.screens.logcat
+
+import android.content.ContentValues
+import android.content.Context
+import android.os.Build
+import android.os.Environment
+import android.provider.MediaStore
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+import java.io.FileWriter
+import java.io.Writer
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+data class LogcatExportResult(
+    val message: String,
+    val success: Boolean
+)
+
+object LogcatExportHelper {
+
+    suspend fun exportLogs(context: Context): LogcatExportResult = withContext(Dispatchers.IO) {
+        try {
+            val logFile = AppLogger.getLogFile()
+            if (logFile == null || !logFile.exists() || logFile.length() == 0L) {
+                return@withContext LogcatExportResult(
+                    message = context.getString(R.string.logcat_no_logs_to_save),
+                    success = false
+                )
+            }
+
+            val logLineCount = countExportableLogLines(logFile)
+            if (logLineCount == 0L) {
+                return@withContext LogcatExportResult(
+                    message = context.getString(R.string.logcat_no_logs_to_save),
+                    success = false
+                )
+            }
+
+            val timestamp = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault()).format(Date())
+            val fileName = "operit_log_$timestamp.txt"
+            val filePath = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                saveUsingMediaStore(context, fileName, logFile, logLineCount)
+            } else {
+                saveUsingFileSystem(context, fileName, logFile, logLineCount)
+            }
+
+            LogcatExportResult(
+                message = context.getString(R.string.logcat_saved_to, filePath),
+                success = true
+            )
+        } catch (e: Exception) {
+            LogcatExportResult(
+                message = context.getString(
+                    R.string.logcat_save_failed,
+                    e.message ?: context.getString(R.string.logcat_unknown_error)
+                ),
+                success = false
+            )
+        }
+    }
+
+    private fun countExportableLogLines(logFile: File): Long {
+        var count = 0L
+        logFile.bufferedReader().useLines { lines ->
+            lines.forEach { line ->
+                if (line.isNotBlank()) {
+                    count++
+                }
+            }
+        }
+        return count
+    }
+
+    private fun writeLogContent(
+        context: Context,
+        writer: Writer,
+        logFile: File,
+        logLineCount: Long
+    ) {
+        val exportTime = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(Date())
+        writer.appendLine(context.getString(R.string.logcat_header))
+        writer.appendLine(context.getString(R.string.logcat_date, exportTime))
+        writer.appendLine(context.getString(R.string.logcat_total_count, logLineCount))
+        writer.appendLine("===================================")
+        writer.appendLine()
+
+        logFile.bufferedReader().useLines { lines ->
+            lines.forEach { line ->
+                if (line.isNotBlank()) {
+                    writer.appendLine(line)
+                }
+            }
+        }
+    }
+
+    @androidx.annotation.RequiresApi(Build.VERSION_CODES.Q)
+    private fun saveUsingMediaStore(
+        context: Context,
+        fileName: String,
+        logFile: File,
+        logLineCount: Long
+    ): String {
+        try {
+            val contentValues = ContentValues().apply {
+                put(MediaStore.MediaColumns.DISPLAY_NAME, fileName)
+                put(MediaStore.MediaColumns.MIME_TYPE, "text/plain")
+                put(MediaStore.MediaColumns.RELATIVE_PATH, "${Environment.DIRECTORY_DOWNLOADS}/operit")
+            }
+            val uri = context.contentResolver.insert(
+                MediaStore.Downloads.EXTERNAL_CONTENT_URI,
+                contentValues
+            ) ?: throw Exception(context.getString(R.string.logcat_cannot_create_file))
+
+            context.contentResolver.openOutputStream(uri)?.use { outputStream ->
+                outputStream.bufferedWriter().use { writer ->
+                    writeLogContent(context, writer, logFile, logLineCount)
+                }
+            } ?: throw Exception(context.getString(R.string.logcat_cannot_open_output_stream))
+
+            val downloadsDir =
+                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+            return "${downloadsDir.absolutePath}/operit/$fileName"
+        } catch (e: Exception) {
+            throw Exception(context.getString(R.string.logcat_mediestore_save_failed, e.message ?: ""))
+        }
+    }
+
+    private fun saveUsingFileSystem(
+        context: Context,
+        fileName: String,
+        logFile: File,
+        logLineCount: Long
+    ): String {
+        try {
+            val downloadsDir =
+                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+            if (downloadsDir == null || !downloadsDir.exists() && !downloadsDir.mkdirs()) {
+                throw Exception(context.getString(R.string.logcat_cannot_create_download_dir))
+            }
+            val operitDir = File(downloadsDir, "operit")
+            if (!operitDir.exists() && !operitDir.mkdirs()) {
+                throw Exception(context.getString(R.string.logcat_cannot_create_operit_dir))
+            }
+            val file = File(operitDir, fileName)
+            FileWriter(file).use { writer ->
+                writeLogContent(context, writer, logFile, logLineCount)
+            }
+            if (!file.exists() || file.length() == 0L) {
+                throw Exception(context.getString(R.string.logcat_file_create_failed))
+            }
+            return file.absolutePath
+        } catch (e: Exception) {
+            throw Exception(context.getString(R.string.logcat_filesystem_save_failed, e.message ?: ""))
+        }
+    }
+}

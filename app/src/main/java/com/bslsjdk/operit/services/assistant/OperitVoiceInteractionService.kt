@@ -1,1 +1,53 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuYXNzaXN0YW50CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5vcy5CdW5kbGUKaW1wb3J0IGFuZHJvaWQuc2VydmljZS52b2ljZS5Wb2ljZUludGVyYWN0aW9uU2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCgovKioKICogT3Blcml0IOivremfs+S6pOS6kuacjeWKoQogKiAKICog6L+Z5piv6K6pIE9wZXJpdCDog73lpJ/ooqsgQW5kcm9pZCDns7vnu5/or4bliKvkuLrmlbDlrZfliqnnkIblupTnlKjnmoTmoLjlv4PmnI3liqHjgIIKICog5b2T55So5oi36ZW/5oyJIEhvbWUg6ZSu5oiW6Kem5Y+R5YW25LuW5Yqp5omL6LCD55So5pa55byP5pe277yM57O757uf5Lya5ZCv5Yqo6L+Z5Liq5pyN5Yqh44CCCiAqLwpjbGFzcyBPcGVyaXRWb2ljZUludGVyYWN0aW9uU2VydmljZSA6IFZvaWNlSW50ZXJhY3Rpb25TZXJ2aWNlKCkgewogICAgCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiT3Blcml0Vm9pY2VJbnRlcmFjdGlvbiIKICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKCkgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKCkKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJWb2ljZUludGVyYWN0aW9uU2VydmljZSBjcmVhdGVkIikKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDlvZPmnI3liqHlh4blpIflsLHnu6rml7bosIPnlKgKICAgICAqIOi/memHjOWPr+S7pei/m+ihjOS4gOS6m+WIneWni+WMluaTjeS9nAogICAgICovCiAgICBvdmVycmlkZSBmdW4gb25SZWFkeSgpIHsKICAgICAgICBzdXBlci5vblJlYWR5KCkKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJWb2ljZUludGVyYWN0aW9uU2VydmljZSByZWFkeSIpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog57O757uf6K+35rGC5ZCv5Yqo6K+G5Yir5Lya6K+d5pe26LCD55SoCiAgICAgKiDov5nph4zlupTor6Xov5Tlm54gdHJ1ZSDooajnpLrmiJHku6zlj6/ku6XlpITnkIbov5nkuKror7fmsYIKICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIG9uR2V0U3VwcG9ydGVkVm9pY2VBY3Rpb25zKHZvaWNlQWN0aW9uczogTXV0YWJsZVNldDxTdHJpbmc+KTogTXV0YWJsZVNldDxTdHJpbmc+IHsKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJvbkdldFN1cHBvcnRlZFZvaWNlQWN0aW9uczogJHZvaWNlQWN0aW9ucyIpCiAgICAgICAgcmV0dXJuIHN1cGVyLm9uR2V0U3VwcG9ydGVkVm9pY2VBY3Rpb25zKHZvaWNlQWN0aW9ucykKICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIG9uU2h1dGRvd24oKSB7CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiVm9pY2VJbnRlcmFjdGlvblNlcnZpY2Ugc2h1dHRpbmcgZG93biIpCiAgICAgICAgc3VwZXIub25TaHV0ZG93bigpCiAgICB9CiAgICAKICAgIG92ZXJyaWRlIGZ1biBvbkRlc3Ryb3koKSB7CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiVm9pY2VJbnRlcmFjdGlvblNlcnZpY2UgZGVzdHJveWVkIikKICAgICAgICBzdXBlci5vbkRlc3Ryb3koKQogICAgfQp9Cgo=
+package com.bslsjdk.operit.services.assistant
+
+import android.content.Intent
+import android.os.Bundle
+import android.service.voice.VoiceInteractionService
+import com.bslsjdk.operit.util.AppLogger
+
+/**
+ * Operit 语音交互服务
+ * 
+ * 这是让 Operit 能够被 Android 系统识别为数字助理应用的核心服务。
+ * 当用户长按 Home 键或触发其他助手调用方式时，系统会启动这个服务。
+ */
+class OperitVoiceInteractionService : VoiceInteractionService() {
+    
+    companion object {
+        private const val TAG = "OperitVoiceInteraction"
+    }
+    
+    override fun onCreate() {
+        super.onCreate()
+        AppLogger.d(TAG, "VoiceInteractionService created")
+    }
+    
+    /**
+     * 当服务准备就绪时调用
+     * 这里可以进行一些初始化操作
+     */
+    override fun onReady() {
+        super.onReady()
+        AppLogger.d(TAG, "VoiceInteractionService ready")
+    }
+    
+    /**
+     * 系统请求启动识别会话时调用
+     * 这里应该返回 true 表示我们可以处理这个请求
+     */
+    override fun onGetSupportedVoiceActions(voiceActions: MutableSet<String>): MutableSet<String> {
+        AppLogger.d(TAG, "onGetSupportedVoiceActions: $voiceActions")
+        return super.onGetSupportedVoiceActions(voiceActions)
+    }
+    
+    override fun onShutdown() {
+        AppLogger.d(TAG, "VoiceInteractionService shutting down")
+        super.onShutdown()
+    }
+    
+    override fun onDestroy() {
+        AppLogger.d(TAG, "VoiceInteractionService destroyed")
+        super.onDestroy()
+    }
+}
+

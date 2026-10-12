@@ -1,1 +1,48 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuY29yZQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uZW1wdHlTdHJlYW0KaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBNZXNzYWdlUHJvY2Vzc2luZ0RlbGVnYXRlVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIGNvbXBsZXRlSW50ZXJydXB0ZWRNZXNzYWdlX2FwcGxpZXNUdXJuU25hcHNob3RBbmRDb21wbGV0ZXNQYXJ0aWFsQ29udGVudCgpIHsKICAgICAgICB2YWwgbWVzc2FnZSA9CiAgICAgICAgICAgIENoYXRNZXNzYWdlKAogICAgICAgICAgICAgICAgc2VuZGVyID0gImFpIiwKICAgICAgICAgICAgICAgIGNvbnRlbnQgPSAic3RhbGUiLAogICAgICAgICAgICAgICAgdGltZXN0YW1wID0gMTBMLAogICAgICAgICAgICAgICAgc2VudEF0ID0gMjBMLAogICAgICAgICAgICAgICAgY29udGVudFN0cmVhbSA9IGVtcHR5U3RyZWFtKCksCiAgICAgICAgICAgICkKICAgICAgICB2YWwgc25hcHNob3QgPQogICAgICAgICAgICBNZXNzYWdlUHJvY2Vzc2luZ0RlbGVnYXRlLlR1cm5DYW5jZWxsYXRpb25TbmFwc2hvdCgKICAgICAgICAgICAgICAgIGlucHV0VG9rZW5zID0gMTIwTCwKICAgICAgICAgICAgICAgIG91dHB1dFRva2VucyA9IDM0TCwKICAgICAgICAgICAgICAgIGNhY2hlZElucHV0VG9rZW5zID0gNTZMLAogICAgICAgICAgICAgICAgc2VudEF0ID0gMzBMLAogICAgICAgICAgICAgICAgb3V0cHV0RHVyYXRpb25NcyA9IDRfMDAwTCwKICAgICAgICAgICAgICAgIHdhaXREdXJhdGlvbk1zID0gNTAwTCwKICAgICAgICAgICAgKQoKICAgICAgICB2YWwgcmVzdWx0ID0KICAgICAgICAgICAgTWVzc2FnZVByb2Nlc3NpbmdEZWxlZ2F0ZS5jb21wbGV0ZUludGVycnVwdGVkTWVzc2FnZSgKICAgICAgICAgICAgICAgIHN0cmVhbWluZ01lc3NhZ2UgPSBtZXNzYWdlLAogICAgICAgICAgICAgICAgZmluYWxDb250ZW50ID0gInBhcnRpYWwgcmVzcG9uc2UiLAogICAgICAgICAgICAgICAgc25hcHNob3QgPSBzbmFwc2hvdCwKICAgICAgICAgICAgICAgIGNvbXBsZXRlZEF0ID0gNV8wMDBMLAogICAgICAgICAgICApCgogICAgICAgIGFzc2VydEVxdWFscygicGFydGlhbCByZXNwb25zZSIsIHJlc3VsdC5jb250ZW50KQogICAgICAgIGFzc2VydE51bGwocmVzdWx0LmNvbnRlbnRTdHJlYW0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEyMEwsIHJlc3VsdC5pbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMzRMLCByZXN1bHQub3V0cHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscyg1NkwsIHJlc3VsdC5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMzBMLCByZXN1bHQuc2VudEF0KQogICAgICAgIGFzc2VydEVxdWFscyg0XzAwMEwsIHJlc3VsdC5vdXRwdXREdXJhdGlvbk1zKQogICAgICAgIGFzc2VydEVxdWFscyg1MDBMLCByZXN1bHQud2FpdER1cmF0aW9uTXMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDVfMDAwTCwgcmVzdWx0LmNvbXBsZXRlZEF0KQogICAgfQp9Cg==
+package com.bslsjdk.operit.services.core
+
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.util.stream.emptyStream
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+
+class MessageProcessingDelegateTest {
+    @Test
+    fun completeInterruptedMessage_appliesTurnSnapshotAndCompletesPartialContent() {
+        val message =
+            ChatMessage(
+                sender = "ai",
+                content = "stale",
+                timestamp = 10L,
+                sentAt = 20L,
+                contentStream = emptyStream(),
+            )
+        val snapshot =
+            MessageProcessingDelegate.TurnCancellationSnapshot(
+                inputTokens = 120L,
+                outputTokens = 34L,
+                cachedInputTokens = 56L,
+                sentAt = 30L,
+                outputDurationMs = 4_000L,
+                waitDurationMs = 500L,
+            )
+
+        val result =
+            MessageProcessingDelegate.completeInterruptedMessage(
+                streamingMessage = message,
+                finalContent = "partial response",
+                snapshot = snapshot,
+                completedAt = 5_000L,
+            )
+
+        assertEquals("partial response", result.content)
+        assertNull(result.contentStream)
+        assertEquals(120L, result.inputTokens)
+        assertEquals(34L, result.outputTokens)
+        assertEquals(56L, result.cachedInputTokens)
+        assertEquals(30L, result.sentAt)
+        assertEquals(4_000L, result.outputDurationMs)
+        assertEquals(500L, result.waitDurationMs)
+        assertEquals(5_000L, result.completedAt)
+    }
+}

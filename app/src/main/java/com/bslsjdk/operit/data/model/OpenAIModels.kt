@@ -1,1 +1,12 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCi8qKgogKiDmj5Dkvpvnu5lVSeWIl+ihqOaYvuekuueahOaooeWei+S/oeaBrwogKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIE1vZGVsT3B0aW9uKAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgbmFtZTogU3RyaW5nCikK
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+
+/**
+ * 提供给UI列表显示的模型信息
+ */
+@Serializable
+data class ModelOption(
+    val id: String,
+    val name: String
+)

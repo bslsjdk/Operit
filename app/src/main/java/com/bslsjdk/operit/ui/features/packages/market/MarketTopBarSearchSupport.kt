@@ -1,1 +1,230 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5TdHJpbmdSZXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi50ZXh0LktleWJvYXJkQWN0aW9ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnRleHQuS2V5Ym9hcmRPcHRpb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DbG9zZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuU2VhcmNoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0RmllbGQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHRGaWVsZERlZmF1bHRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXJVcGRhdGVkU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zYXZlYWJsZS5yZW1lbWJlclNhdmVhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZm9jdXMuRm9jdXNSZXF1ZXN0ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZm9jdXMuZm9jdXNSZXF1ZXN0ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxGb2N1c01hbmFnZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxTb2Z0d2FyZUtleWJvYXJkQ29udHJvbGxlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5UZXh0UmFuZ2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5pbnB1dC5JbWVBY3Rpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5pbnB1dC5UZXh0RmllbGRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLm1haW4uTG9jYWxUb3BCYXJBY3Rpb25zCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5Mb2NhbFRvcEJhclRpdGxlQ29udGVudAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLm1haW4uVG9wQmFyVGl0bGVDb250ZW50CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5jb21wb25lbnRzLkxvY2FsQXBwQmFyQ29udGVudENvbG9yCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5jb21wb25lbnRzLkxvY2FsSXNDdXJyZW50U2NyZWVuCgpAQ29tcG9zYWJsZQpmdW4gQmluZE1hcmtldFNlYXJjaFRvVG9wQmFyKAogICAgZW5hYmxlZDogQm9vbGVhbiwKICAgIHNlYXJjaFF1ZXJ5OiBTdHJpbmcsCiAgICBvblNlYXJjaFF1ZXJ5Q2hhbmdlZDogKFN0cmluZykgLT4gVW5pdCwKICAgIEBTdHJpbmdSZXMgc2VhcmNoUGxhY2Vob2xkZXJSZXM6IEludCwKICAgIGlzU2VhcmNoaW5nOiBCb29sZWFuID0gZmFsc2UKKSB7CiAgICB2YWwgc2V0VG9wQmFyQWN0aW9ucyA9IExvY2FsVG9wQmFyQWN0aW9ucy5jdXJyZW50CiAgICB2YWwgc2V0VG9wQmFyVGl0bGVDb250ZW50ID0gTG9jYWxUb3BCYXJUaXRsZUNvbnRlbnQuY3VycmVudAogICAgdmFsIGlzQ3VycmVudFNjcmVlbiA9IExvY2FsSXNDdXJyZW50U2NyZWVuLmN1cnJlbnQKICAgIHZhbCBhcHBCYXJDb250ZW50Q29sb3IgPSBMb2NhbEFwcEJhckNvbnRlbnRDb2xvci5jdXJyZW50CiAgICB2YWwgbGF0ZXN0U2VhcmNoUXVlcnkgPSByZW1lbWJlclVwZGF0ZWRTdGF0ZShzZWFyY2hRdWVyeSkKICAgIHZhbCBsYXRlc3RTZWFyY2hQbGFjZWhvbGRlclJlcyA9IHJlbWVtYmVyVXBkYXRlZFN0YXRlKHNlYXJjaFBsYWNlaG9sZGVyUmVzKQogICAgdmFsIGxhdGVzdElzU2VhcmNoaW5nID0gcmVtZW1iZXJVcGRhdGVkU3RhdGUoaXNTZWFyY2hpbmcpCiAgICB2YWwgbGF0ZXN0QXBwQmFyQ29udGVudENvbG9yID0gcmVtZW1iZXJVcGRhdGVkU3RhdGUoYXBwQmFyQ29udGVudENvbG9yKQogICAgdmFsIGxhdGVzdE9uU2VhcmNoUXVlcnlDaGFuZ2VkID0gcmVtZW1iZXJVcGRhdGVkU3RhdGUob25TZWFyY2hRdWVyeUNoYW5nZWQpCiAgICB2YXIgaXNTZWFyY2hFeHBhbmRlZCBieSByZW1lbWJlclNhdmVhYmxlIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIHZhbCBpc1NlYXJjaEFjdGl2ZSA9IGVuYWJsZWQgJiYgKGlzU2VhcmNoRXhwYW5kZWQgfHwgc2VhcmNoUXVlcnkuaXNOb3RCbGFuaygpKQoKICAgIGZ1biBjbG9zZVNlYXJjaChjbGVhclF1ZXJ5OiBCb29sZWFuKSB7CiAgICAgICAgaXNTZWFyY2hFeHBhbmRlZCA9IGZhbHNlCiAgICAgICAgaWYgKGNsZWFyUXVlcnkgJiYgbGF0ZXN0U2VhcmNoUXVlcnkudmFsdWUuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIGxhdGVzdE9uU2VhcmNoUXVlcnlDaGFuZ2VkLnZhbHVlKCIiKQogICAgICAgIH0KICAgIH0KCiAgICBMYXVuY2hlZEVmZmVjdChpc0N1cnJlbnRTY3JlZW4sIGVuYWJsZWQpIHsKICAgICAgICBpZiAoaXNDdXJyZW50U2NyZWVuICYmICFlbmFibGVkICYmIChpc1NlYXJjaEV4cGFuZGVkIHx8IHNlYXJjaFF1ZXJ5LmlzTm90QmxhbmsoKSkpIHsKICAgICAgICAgICAgY2xvc2VTZWFyY2goY2xlYXJRdWVyeSA9IHRydWUpCiAgICAgICAgfQogICAgfQoKICAgIExhdW5jaGVkRWZmZWN0KAogICAgICAgIGlzQ3VycmVudFNjcmVlbiwKICAgICAgICBlbmFibGVkLAogICAgICAgIGlzU2VhcmNoQWN0aXZlLAogICAgICAgIHNlYXJjaFF1ZXJ5LAogICAgICAgIHNlYXJjaFBsYWNlaG9sZGVyUmVzLAogICAgICAgIGlzU2VhcmNoaW5nCiAgICApIHsKICAgICAgICBpZiAoIWlzQ3VycmVudFNjcmVlbikgewogICAgICAgICAgICByZXR1cm5ATGF1bmNoZWRFZmZlY3QKICAgICAgICB9CgogICAgICAgIGlmICghZW5hYmxlZCkgewogICAgICAgICAgICBzZXRUb3BCYXJBY3Rpb25zIHt9CiAgICAgICAgICAgIHNldFRvcEJhclRpdGxlQ29udGVudChudWxsKQogICAgICAgICAgICByZXR1cm5ATGF1bmNoZWRFZmZlY3QKICAgICAgICB9CgogICAgICAgIHNldFRvcEJhckFjdGlvbnMgewogICAgICAgICAgICBpZiAoIWlzU2VhcmNoQWN0aXZlKSB7CiAgICAgICAgICAgICAgICBJY29uQnV0dG9uKG9uQ2xpY2sgPSB7IGlzU2VhcmNoRXhwYW5kZWQgPSB0cnVlIH0pIHsKICAgICAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuU2VhcmNoLAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5zZWFyY2gpLAogICAgICAgICAgICAgICAgICAgICAgICB0aW50ID0gbGF0ZXN0QXBwQmFyQ29udGVudENvbG9yLnZhbHVlCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzZXRUb3BCYXJUaXRsZUNvbnRlbnQoCiAgICAgICAgICAgIGlmIChpc1NlYXJjaEFjdGl2ZSkgewogICAgICAgICAgICAgICAgVG9wQmFyVGl0bGVDb250ZW50IHsKICAgICAgICAgICAgICAgICAgICBNYXJrZXRUb3BCYXJTZWFyY2hGaWVsZCgKICAgICAgICAgICAgICAgICAgICAgICAgc2VhcmNoUXVlcnkgPSBsYXRlc3RTZWFyY2hRdWVyeS52YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgb25TZWFyY2hRdWVyeUNoYW5nZWQgPSBsYXRlc3RPblNlYXJjaFF1ZXJ5Q2hhbmdlZC52YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgb25DbG9zZVNlYXJjaCA9IHsgY2xvc2VTZWFyY2goY2xlYXJRdWVyeSA9IHRydWUpIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIHNlYXJjaFBsYWNlaG9sZGVyUmVzID0gbGF0ZXN0U2VhcmNoUGxhY2Vob2xkZXJSZXMudmFsdWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnRDb2xvciA9IGxhdGVzdEFwcEJhckNvbnRlbnRDb2xvci52YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgaXNTZWFyY2hpbmcgPSBsYXRlc3RJc1NlYXJjaGluZy52YWx1ZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfQogICAgICAgICkKICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gTWFya2V0VG9wQmFyU2VhcmNoRmllbGQoCiAgICBzZWFyY2hRdWVyeTogU3RyaW5nLAogICAgb25TZWFyY2hRdWVyeUNoYW5nZWQ6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBvbkNsb3NlU2VhcmNoOiAoKSAtPiBVbml0LAogICAgQFN0cmluZ1JlcyBzZWFyY2hQbGFjZWhvbGRlclJlczogSW50LAogICAgY29udGVudENvbG9yOiBDb2xvciwKICAgIGlzU2VhcmNoaW5nOiBCb29sZWFuCikgewogICAgdmFsIGZvY3VzUmVxdWVzdGVyID0gcmVtZW1iZXIgeyBGb2N1c1JlcXVlc3RlcigpIH0KICAgIHZhbCBmb2N1c01hbmFnZXIgPSBMb2NhbEZvY3VzTWFuYWdlci5jdXJyZW50CiAgICB2YWwga2V5Ym9hcmRDb250cm9sbGVyID0gTG9jYWxTb2Z0d2FyZUtleWJvYXJkQ29udHJvbGxlci5jdXJyZW50CiAgICB2YXIgdGV4dEZpZWxkVmFsdWUgYnkgcmVtZW1iZXJTYXZlYWJsZShzdGF0ZVNhdmVyID0gVGV4dEZpZWxkVmFsdWUuU2F2ZXIpIHsKICAgICAgICBtdXRhYmxlU3RhdGVPZigKICAgICAgICAgICAgVGV4dEZpZWxkVmFsdWUoCiAgICAgICAgICAgICAgICB0ZXh0ID0gc2VhcmNoUXVlcnksCiAgICAgICAgICAgICAgICBzZWxlY3Rpb24gPSBUZXh0UmFuZ2Uoc2VhcmNoUXVlcnkubGVuZ3RoKQogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIExhdW5jaGVkRWZmZWN0KHNlYXJjaFF1ZXJ5KSB7CiAgICAgICAgaWYgKHNlYXJjaFF1ZXJ5ICE9IHRleHRGaWVsZFZhbHVlLnRleHQpIHsKICAgICAgICAgICAgdGV4dEZpZWxkVmFsdWUgPQogICAgICAgICAgICAgICAgVGV4dEZpZWxkVmFsdWUoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHNlYXJjaFF1ZXJ5LAogICAgICAgICAgICAgICAgICAgIHNlbGVjdGlvbiA9IFRleHRSYW5nZShzZWFyY2hRdWVyeS5sZW5ndGgpCiAgICAgICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIExhdW5jaGVkRWZmZWN0KFVuaXQpIHsKICAgICAgICBmb2N1c1JlcXVlc3Rlci5yZXF1ZXN0Rm9jdXMoKQogICAgICAgIGtleWJvYXJkQ29udHJvbGxlcj8uc2hvdygpCiAgICB9CgogICAgVGV4dEZpZWxkKAogICAgICAgIHZhbHVlID0gdGV4dEZpZWxkVmFsdWUsCiAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgbmV3VmFsdWUgLT4KICAgICAgICAgICAgdGV4dEZpZWxkVmFsdWUgPSBuZXdWYWx1ZQogICAgICAgICAgICBpZiAobmV3VmFsdWUudGV4dCAhPSBzZWFyY2hRdWVyeSkgewogICAgICAgICAgICAgICAgb25TZWFyY2hRdWVyeUNoYW5nZWQobmV3VmFsdWUudGV4dCkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgLmZvY3VzUmVxdWVzdGVyKGZvY3VzUmVxdWVzdGVyKSwKICAgICAgICB0ZXh0U3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSwKICAgICAgICBwbGFjZWhvbGRlciA9IHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShzZWFyY2hQbGFjZWhvbGRlclJlcyksCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtCiAgICAgICAgICAgICkKICAgICAgICB9LAogICAgICAgIGxlYWRpbmdJY29uID0gewogICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LlNlYXJjaCwKICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwKICAgICAgICAgICAgKQogICAgICAgIH0sCiAgICAgICAgdHJhaWxpbmdJY29uID0gewogICAgICAgICAgICBpZiAoaXNTZWFyY2hpbmcpIHsKICAgICAgICAgICAgICAgIENpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IoCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDE4LmRwKSwKICAgICAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCA9IDIuZHAsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBjb250ZW50Q29sb3IuY29weShhbHBoYSA9IDAuOWYpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBJY29uQnV0dG9uKG9uQ2xpY2sgPSBvbkNsb3NlU2VhcmNoKSB7CiAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LkNsb3NlLAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5jYW5jZWwpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICBrZXlib2FyZE9wdGlvbnMgPSBLZXlib2FyZE9wdGlvbnMoaW1lQWN0aW9uID0gSW1lQWN0aW9uLlNlYXJjaCksCiAgICAgICAga2V5Ym9hcmRBY3Rpb25zID0gS2V5Ym9hcmRBY3Rpb25zKAogICAgICAgICAgICBvblNlYXJjaCA9IHsKICAgICAgICAgICAgICAgIGZvY3VzTWFuYWdlci5jbGVhckZvY3VzKCkKICAgICAgICAgICAgICAgIGtleWJvYXJkQ29udHJvbGxlcj8uaGlkZSgpCiAgICAgICAgICAgIH0KICAgICAgICApLAogICAgICAgIGNvbG9ycyA9IFRleHRGaWVsZERlZmF1bHRzLmNvbG9ycygKICAgICAgICAgICAgZm9jdXNlZFRleHRDb2xvciA9IGNvbnRlbnRDb2xvciwKICAgICAgICAgICAgdW5mb2N1c2VkVGV4dENvbG9yID0gY29udGVudENvbG9yLAogICAgICAgICAgICBmb2N1c2VkQ29udGFpbmVyQ29sb3IgPSBDb2xvci5UcmFuc3BhcmVudCwKICAgICAgICAgICAgdW5mb2N1c2VkQ29udGFpbmVyQ29sb3IgPSBDb2xvci5UcmFuc3BhcmVudCwKICAgICAgICAgICAgZGlzYWJsZWRDb250YWluZXJDb2xvciA9IENvbG9yLlRyYW5zcGFyZW50LAogICAgICAgICAgICBlcnJvckNvbnRhaW5lckNvbG9yID0gQ29sb3IuVHJhbnNwYXJlbnQsCiAgICAgICAgICAgIGN1cnNvckNvbG9yID0gY29udGVudENvbG9yLAogICAgICAgICAgICBmb2N1c2VkSW5kaWNhdG9yQ29sb3IgPSBDb2xvci5UcmFuc3BhcmVudCwKICAgICAgICAgICAgdW5mb2N1c2VkSW5kaWNhdG9yQ29sb3IgPSBDb2xvci5UcmFuc3BhcmVudCwKICAgICAgICAgICAgZGlzYWJsZWRJbmRpY2F0b3JDb2xvciA9IENvbG9yLlRyYW5zcGFyZW50LAogICAgICAgICAgICBlcnJvckluZGljYXRvckNvbG9yID0gQ29sb3IuVHJhbnNwYXJlbnQsCiAgICAgICAgICAgIGZvY3VzZWRQbGFjZWhvbGRlckNvbG9yID0gY29udGVudENvbG9yLmNvcHkoYWxwaGEgPSAwLjcyZiksCiAgICAgICAgICAgIHVuZm9jdXNlZFBsYWNlaG9sZGVyQ29sb3IgPSBjb250ZW50Q29sb3IuY29weShhbHBoYSA9IDAuNzJmKSwKICAgICAgICAgICAgZm9jdXNlZExlYWRpbmdJY29uQ29sb3IgPSBjb250ZW50Q29sb3IuY29weShhbHBoYSA9IDAuOWYpLAogICAgICAgICAgICB1bmZvY3VzZWRMZWFkaW5nSWNvbkNvbG9yID0gY29udGVudENvbG9yLmNvcHkoYWxwaGEgPSAwLjlmKSwKICAgICAgICAgICAgZm9jdXNlZFRyYWlsaW5nSWNvbkNvbG9yID0gY29udGVudENvbG9yLmNvcHkoYWxwaGEgPSAwLjlmKSwKICAgICAgICAgICAgdW5mb2N1c2VkVHJhaWxpbmdJY29uQ29sb3IgPSBjb250ZW50Q29sb3IuY29weShhbHBoYSA9IDAuOWYpCiAgICAgICAgKQogICAgKQp9Cg==
+package com.bslsjdk.operit.ui.features.packages.market
+
+import androidx.annotation.StringRes
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextField
+import androidx.compose.material3.TextFieldDefaults
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.TextRange
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.input.TextFieldValue
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.main.LocalTopBarActions
+import com.bslsjdk.operit.ui.main.LocalTopBarTitleContent
+import com.bslsjdk.operit.ui.main.TopBarTitleContent
+import com.bslsjdk.operit.ui.main.components.LocalAppBarContentColor
+import com.bslsjdk.operit.ui.main.components.LocalIsCurrentScreen
+
+@Composable
+fun BindMarketSearchToTopBar(
+    enabled: Boolean,
+    searchQuery: String,
+    onSearchQueryChanged: (String) -> Unit,
+    @StringRes searchPlaceholderRes: Int,
+    isSearching: Boolean = false
+) {
+    val setTopBarActions = LocalTopBarActions.current
+    val setTopBarTitleContent = LocalTopBarTitleContent.current
+    val isCurrentScreen = LocalIsCurrentScreen.current
+    val appBarContentColor = LocalAppBarContentColor.current
+    val latestSearchQuery = rememberUpdatedState(searchQuery)
+    val latestSearchPlaceholderRes = rememberUpdatedState(searchPlaceholderRes)
+    val latestIsSearching = rememberUpdatedState(isSearching)
+    val latestAppBarContentColor = rememberUpdatedState(appBarContentColor)
+    val latestOnSearchQueryChanged = rememberUpdatedState(onSearchQueryChanged)
+    var isSearchExpanded by rememberSaveable { mutableStateOf(false) }
+    val isSearchActive = enabled && (isSearchExpanded || searchQuery.isNotBlank())
+
+    fun closeSearch(clearQuery: Boolean) {
+        isSearchExpanded = false
+        if (clearQuery && latestSearchQuery.value.isNotEmpty()) {
+            latestOnSearchQueryChanged.value("")
+        }
+    }
+
+    LaunchedEffect(isCurrentScreen, enabled) {
+        if (isCurrentScreen && !enabled && (isSearchExpanded || searchQuery.isNotBlank())) {
+            closeSearch(clearQuery = true)
+        }
+    }
+
+    LaunchedEffect(
+        isCurrentScreen,
+        enabled,
+        isSearchActive,
+        searchQuery,
+        searchPlaceholderRes,
+        isSearching
+    ) {
+        if (!isCurrentScreen) {
+            return@LaunchedEffect
+        }
+
+        if (!enabled) {
+            setTopBarActions {}
+            setTopBarTitleContent(null)
+            return@LaunchedEffect
+        }
+
+        setTopBarActions {
+            if (!isSearchActive) {
+                IconButton(onClick = { isSearchExpanded = true }) {
+                    Icon(
+                        imageVector = Icons.Default.Search,
+                        contentDescription = stringResource(R.string.search),
+                        tint = latestAppBarContentColor.value
+                    )
+                }
+            }
+        }
+
+        setTopBarTitleContent(
+            if (isSearchActive) {
+                TopBarTitleContent {
+                    MarketTopBarSearchField(
+                        searchQuery = latestSearchQuery.value,
+                        onSearchQueryChanged = latestOnSearchQueryChanged.value,
+                        onCloseSearch = { closeSearch(clearQuery = true) },
+                        searchPlaceholderRes = latestSearchPlaceholderRes.value,
+                        contentColor = latestAppBarContentColor.value,
+                        isSearching = latestIsSearching.value
+                    )
+                }
+            } else {
+                null
+            }
+        )
+    }
+}
+
+@Composable
+private fun MarketTopBarSearchField(
+    searchQuery: String,
+    onSearchQueryChanged: (String) -> Unit,
+    onCloseSearch: () -> Unit,
+    @StringRes searchPlaceholderRes: Int,
+    contentColor: Color,
+    isSearching: Boolean
+) {
+    val focusRequester = remember { FocusRequester() }
+    val focusManager = LocalFocusManager.current
+    val keyboardController = LocalSoftwareKeyboardController.current
+    var textFieldValue by rememberSaveable(stateSaver = TextFieldValue.Saver) {
+        mutableStateOf(
+            TextFieldValue(
+                text = searchQuery,
+                selection = TextRange(searchQuery.length)
+            )
+        )
+    }
+
+    LaunchedEffect(searchQuery) {
+        if (searchQuery != textFieldValue.text) {
+            textFieldValue =
+                TextFieldValue(
+                    text = searchQuery,
+                    selection = TextRange(searchQuery.length)
+                )
+        }
+    }
+
+    LaunchedEffect(Unit) {
+        focusRequester.requestFocus()
+        keyboardController?.show()
+    }
+
+    TextField(
+        value = textFieldValue,
+        onValueChange = { newValue ->
+            textFieldValue = newValue
+            if (newValue.text != searchQuery) {
+                onSearchQueryChanged(newValue.text)
+            }
+        },
+        modifier = Modifier
+            .fillMaxWidth()
+            .focusRequester(focusRequester),
+        textStyle = MaterialTheme.typography.bodyMedium,
+        placeholder = {
+            Text(
+                text = stringResource(searchPlaceholderRes),
+                style = MaterialTheme.typography.bodyMedium
+            )
+        },
+        leadingIcon = {
+            Icon(
+                imageVector = Icons.Default.Search,
+                contentDescription = null
+            )
+        },
+        trailingIcon = {
+            if (isSearching) {
+                CircularProgressIndicator(
+                    modifier = Modifier.size(18.dp),
+                    strokeWidth = 2.dp,
+                    color = contentColor.copy(alpha = 0.9f)
+                )
+            } else {
+                IconButton(onClick = onCloseSearch) {
+                    Icon(
+                        imageVector = Icons.Default.Close,
+                        contentDescription = stringResource(R.string.cancel)
+                    )
+                }
+            }
+        },
+        singleLine = true,
+        keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
+        keyboardActions = KeyboardActions(
+            onSearch = {
+                focusManager.clearFocus()
+                keyboardController?.hide()
+            }
+        ),
+        colors = TextFieldDefaults.colors(
+            focusedTextColor = contentColor,
+            unfocusedTextColor = contentColor,
+            focusedContainerColor = Color.Transparent,
+            unfocusedContainerColor = Color.Transparent,
+            disabledContainerColor = Color.Transparent,
+            errorContainerColor = Color.Transparent,
+            cursorColor = contentColor,
+            focusedIndicatorColor = Color.Transparent,
+            unfocusedIndicatorColor = Color.Transparent,
+            disabledIndicatorColor = Color.Transparent,
+            errorIndicatorColor = Color.Transparent,
+            focusedPlaceholderColor = contentColor.copy(alpha = 0.72f),
+            unfocusedPlaceholderColor = contentColor.copy(alpha = 0.72f),
+            focusedLeadingIconColor = contentColor.copy(alpha = 0.9f),
+            unfocusedLeadingIconColor = contentColor.copy(alpha = 0.9f),
+            focusedTrailingIconColor = contentColor.copy(alpha = 0.9f),
+            unfocusedTrailingIconColor = contentColor.copy(alpha = 0.9f)
+        )
+    )
+}

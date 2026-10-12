@@ -1,1 +1,15 @@
-J3VzZSBzdHJpY3QnOwoKZnVuY3Rpb24gZGVsYXkobXMpIHsKICByZXR1cm4gbmV3IFByb21pc2UoZnVuY3Rpb24gKHJlc29sdmUpIHsKICAgIHNldFRpbWVvdXQocmVzb2x2ZSwgbXMpOwogIH0pOwp9CgpkZWxheSg1MCkudGhlbihmdW5jdGlvbiAoKSB7CiAgY29tcGxldGUoewogICAgc3VjY2VzczogdHJ1ZSwKICAgIG1vZGU6ICdzY3JpcHQtbW9kZS1kZWxheWVkLWNvbXBsZXRlJywKICAgIHdhaXRlZE1zOiA1MCwKICB9KTsKfSk7Cg==
+'use strict';
+
+function delay(ms) {
+  return new Promise(function (resolve) {
+    setTimeout(resolve, ms);
+  });
+}
+
+delay(50).then(function () {
+  complete({
+    success: true,
+    mode: 'script-mode-delayed-complete',
+    waitedMs: 50,
+  });
+});

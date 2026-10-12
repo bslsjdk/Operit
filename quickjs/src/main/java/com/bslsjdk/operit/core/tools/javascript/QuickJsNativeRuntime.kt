@@ -1,1 +1,190 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgamF2YS5pby5DbG9zZWFibGUKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNCb29sZWFuCmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CgppbnRlcm5hbCBvYmplY3QgUXVpY2tKc05hdGl2ZUJyaWRnZSB7CiAgICBpbml0IHsKICAgICAgICBTeXN0ZW0ubG9hZExpYnJhcnkoInF1aWNranNqbmkiKQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGV4dGVybmFsIGZ1biBuYXRpdmVDcmVhdGUoaG9zdEJyaWRnZTogUXVpY2tKc05hdGl2ZVJ1bnRpbWUuSG9zdEJyaWRnZSk6IExvbmcKCiAgICBASnZtU3RhdGljCiAgICBleHRlcm5hbCBmdW4gbmF0aXZlRGVzdHJveShoYW5kbGU6IExvbmcpCgogICAgQEp2bVN0YXRpYwogICAgZXh0ZXJuYWwgZnVuIG5hdGl2ZUV2YWx1YXRlKGhhbmRsZTogTG9uZywgc2NyaXB0OiBTdHJpbmcsIGZpbGVOYW1lOiBTdHJpbmcpOiBTdHJpbmcKCiAgICBASnZtU3RhdGljCiAgICBleHRlcm5hbCBmdW4gbmF0aXZlQ2FsbEZ1bmN0aW9uKAogICAgICAgIGhhbmRsZTogTG9uZywKICAgICAgICBmdW5jdGlvbk5hbWU6IFN0cmluZywKICAgICAgICBhcmdzSnNvbjogU3RyaW5nLAogICAgICAgIGNhbGxTaXRlOiBTdHJpbmcKICAgICk6IFN0cmluZwoKICAgIEBKdm1TdGF0aWMKICAgIGV4dGVybmFsIGZ1biBuYXRpdmVFeGVjdXRlUGVuZGluZ0pvYnMoaGFuZGxlOiBMb25nLCBtYXhKb2JzOiBJbnQpOiBJbnQKCiAgICBASnZtU3RhdGljCiAgICBleHRlcm5hbCBmdW4gbmF0aXZlR2V0TWVtb3J5VXNhZ2UoaGFuZGxlOiBMb25nKTogU3RyaW5nCgogICAgQEp2bVN0YXRpYwogICAgZXh0ZXJuYWwgZnVuIG5hdGl2ZVJlc2V0TWVtb3J5UGVhayhoYW5kbGU6IExvbmcpCgogICAgQEp2bVN0YXRpYwogICAgZXh0ZXJuYWwgZnVuIG5hdGl2ZUludGVycnVwdChoYW5kbGU6IExvbmcpCn0KCmRhdGEgY2xhc3MgUXVpY2tKc01lbW9yeVVzYWdlKAogICAgdmFsIG1hbGxvY1NpemVCeXRlczogTG9uZywKICAgIHZhbCBtZW1vcnlVc2VkQnl0ZXM6IExvbmcsCiAgICB2YWwgcGVha01hbGxvY1NpemVCeXRlczogTG9uZwopCgpjbGFzcyBRdWlja0pzTmF0aXZlUnVudGltZSBwcml2YXRlIGNvbnN0cnVjdG9yKAogICAgcHJpdmF0ZSB2YWwgaGFuZGxlOiBMb25nLAogICAgQFN1cHByZXNzKCJ1bnVzZWQiKSBwcml2YXRlIHZhbCBob3N0QnJpZGdlOiBIb3N0QnJpZGdlCikgOiBDbG9zZWFibGUgewoKICAgIGludGVyZmFjZSBIb3N0QnJpZGdlIHsKICAgICAgICBmdW4gb25DYWxsKG1ldGhvZDogU3RyaW5nLCBhcmdzSnNvbjogU3RyaW5nPyk6IFN0cmluZz8KICAgIH0KCiAgICBkYXRhIGNsYXNzIEV2YWxSZXN1bHQoCiAgICAgICAgdmFsIHN1Y2Nlc3M6IEJvb2xlYW4sCiAgICAgICAgdmFsIHZhbHVlSnNvbjogU3RyaW5nPywKICAgICAgICB2YWwgZXJyb3JNZXNzYWdlOiBTdHJpbmc/LAogICAgICAgIHZhbCBlcnJvclN0YWNrOiBTdHJpbmc/LAogICAgICAgIHZhbCBlcnJvckRldGFpbHNKc29uOiBTdHJpbmc/CiAgICApCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIGNyZWF0ZShob3N0QnJpZGdlOiBIb3N0QnJpZGdlKTogUXVpY2tKc05hdGl2ZVJ1bnRpbWUgewogICAgICAgICAgICB2YWwgaGFuZGxlID0gUXVpY2tKc05hdGl2ZUJyaWRnZS5uYXRpdmVDcmVhdGUoaG9zdEJyaWRnZSkKICAgICAgICAgICAgcmVxdWlyZShoYW5kbGUgIT0gMEwpIHsgIkZhaWxlZCB0byBjcmVhdGUgUXVpY2tKUyBydW50aW1lIiB9CiAgICAgICAgICAgIHJldHVybiBRdWlja0pzTmF0aXZlUnVudGltZShoYW5kbGUsIGhvc3RCcmlkZ2UpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIGNsb3NlZCA9IEF0b21pY0Jvb2xlYW4oZmFsc2UpCiAgICBwcml2YXRlIHZhbCBsaWZlY3ljbGVMb2NrID0gQW55KCkKCiAgICBmdW4gZXZhbChzY3JpcHQ6IFN0cmluZywgZmlsZU5hbWU6IFN0cmluZyA9ICI8ZXZhbD4iKTogRXZhbFJlc3VsdCB7CiAgICAgICAgdmFsIHJlc3VsdEpzb24gPSBRdWlja0pzTmF0aXZlQnJpZGdlLm5hdGl2ZUV2YWx1YXRlKHJlcXVpcmVIYW5kbGUoKSwgc2NyaXB0LCBmaWxlTmFtZSkKICAgICAgICByZXR1cm4gcGFyc2VFdmFsUmVzdWx0KHJlc3VsdEpzb24pCiAgICB9CgogICAgZnVuIGNhbGxGdW5jdGlvbigKICAgICAgICBmdW5jdGlvbk5hbWU6IFN0cmluZywKICAgICAgICBhcmdzSnNvbjogU3RyaW5nLAogICAgICAgIGNhbGxTaXRlOiBTdHJpbmcgPSAiPGNhbGw6JGZ1bmN0aW9uTmFtZT4iCiAgICApOiBFdmFsUmVzdWx0IHsKICAgICAgICB2YWwgcmVzdWx0SnNvbiA9CiAgICAgICAgICAgIFF1aWNrSnNOYXRpdmVCcmlkZ2UubmF0aXZlQ2FsbEZ1bmN0aW9uKAogICAgICAgICAgICAgICAgcmVxdWlyZUhhbmRsZSgpLAogICAgICAgICAgICAgICAgZnVuY3Rpb25OYW1lLAogICAgICAgICAgICAgICAgYXJnc0pzb24sCiAgICAgICAgICAgICAgICBjYWxsU2l0ZQogICAgICAgICAgICApCiAgICAgICAgcmV0dXJuIHBhcnNlRXZhbFJlc3VsdChyZXN1bHRKc29uKQogICAgfQoKICAgIGZ1biBpbnN0YWxsQ29tcGF0TGF5ZXJPclRocm93KCkgewogICAgICAgIHZhbCByZXN1bHQgPSBldmFsKAogICAgICAgICAgICBzY3JpcHQgPSBidWlsZFF1aWNrSnNDb21wYXRTY3JpcHQoKSwKICAgICAgICAgICAgZmlsZU5hbWUgPSAiPHF1aWNranMtY29tcGF0PiIKICAgICAgICApCiAgICAgICAgZXhlY3V0ZVBlbmRpbmdKb2JzKCkKICAgICAgICBjaGVjayhyZXN1bHQuc3VjY2VzcykgewogICAgICAgICAgICByZXN1bHQuZGVzY3JpYmVGYWlsdXJlKCJGYWlsZWQgdG8gaW5pdGlhbGl6ZSBRdWlja0pTIGNvbXBhdCBsYXllciIpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBleGVjdXRlUGVuZGluZ0pvYnMobWF4Sm9iczogSW50ID0gMTI4KTogSW50IHsKICAgICAgICByZXF1aXJlKG1heEpvYnMgPiAwKSB7ICJtYXhKb2JzIG11c3QgYmUgPiAwIiB9CiAgICAgICAgcmV0dXJuIFF1aWNrSnNOYXRpdmVCcmlkZ2UubmF0aXZlRXhlY3V0ZVBlbmRpbmdKb2JzKHJlcXVpcmVIYW5kbGUoKSwgbWF4Sm9icykKICAgIH0KCiAgICBmdW4gZ2V0TWVtb3J5VXNhZ2UoKTogUXVpY2tKc01lbW9yeVVzYWdlIHsKICAgICAgICB2YWwgcGF5bG9hZCA9IEpTT05PYmplY3QoUXVpY2tKc05hdGl2ZUJyaWRnZS5uYXRpdmVHZXRNZW1vcnlVc2FnZShyZXF1aXJlSGFuZGxlKCkpKQogICAgICAgIHJldHVybiBRdWlja0pzTWVtb3J5VXNhZ2UoCiAgICAgICAgICAgIG1hbGxvY1NpemVCeXRlcyA9IHBheWxvYWQub3B0TG9uZygibWFsbG9jU2l6ZUJ5dGVzIiwgMEwpLAogICAgICAgICAgICBtZW1vcnlVc2VkQnl0ZXMgPSBwYXlsb2FkLm9wdExvbmcoIm1lbW9yeVVzZWRCeXRlcyIsIDBMKSwKICAgICAgICAgICAgcGVha01hbGxvY1NpemVCeXRlcyA9IHBheWxvYWQub3B0TG9uZygicGVha01hbGxvY1NpemVCeXRlcyIsIDBMKQogICAgICAgICkKICAgIH0KCiAgICBmdW4gcmVzZXRNZW1vcnlQZWFrKCkgewogICAgICAgIFF1aWNrSnNOYXRpdmVCcmlkZ2UubmF0aXZlUmVzZXRNZW1vcnlQZWFrKHJlcXVpcmVIYW5kbGUoKSkKICAgIH0KCiAgICBmdW4gZGlzcGF0Y2hUaW1lcih0aW1lcklkOiBJbnQpOiBFdmFsUmVzdWx0IHsKICAgICAgICByZXR1cm4gZXZhbCgKICAgICAgICAgICAgc2NyaXB0ID0gIihmdW5jdGlvbigpeyByZXR1cm4gZ2xvYmFsVGhpcy5fX29wZXJpdERpc3BhdGNoVGltZXIoJHRpbWVySWQpOyB9KSgpIiwKICAgICAgICAgICAgZmlsZU5hbWUgPSAiPHRpbWVyOiR0aW1lcklkPiIKICAgICAgICApCiAgICB9CgogICAgZnVuIGNsZWFyQWxsVGltZXJzKCk6IEV2YWxSZXN1bHQgewogICAgICAgIHJldHVybiBldmFsKAogICAgICAgICAgICBzY3JpcHQgPSAiKGZ1bmN0aW9uKCl7IGlmICh0eXBlb2YgZ2xvYmFsVGhpcy5fX29wZXJpdENsZWFyQWxsVGltZXJzID09PSAnZnVuY3Rpb24nKSB7IGdsb2JhbFRoaXMuX19vcGVyaXRDbGVhckFsbFRpbWVycygpOyB9IHJldHVybiBudWxsOyB9KSgpIiwKICAgICAgICAgICAgZmlsZU5hbWUgPSAiPGNsZWFyLWFsbC10aW1lcnM+IgogICAgICAgICkKICAgIH0KCiAgICBmdW4gaW50ZXJydXB0KCkgewogICAgICAgIHN5bmNocm9uaXplZChsaWZlY3ljbGVMb2NrKSB7CiAgICAgICAgICAgIGlmICghY2xvc2VkLmdldCgpKSB7CiAgICAgICAgICAgICAgICBRdWlja0pzTmF0aXZlQnJpZGdlLm5hdGl2ZUludGVycnVwdChoYW5kbGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGNsb3NlKCkgewogICAgICAgIHN5bmNocm9uaXplZChsaWZlY3ljbGVMb2NrKSB7CiAgICAgICAgICAgIGlmIChjbG9zZWQuY29tcGFyZUFuZFNldChmYWxzZSwgdHJ1ZSkpIHsKICAgICAgICAgICAgICAgIFF1aWNrSnNOYXRpdmVCcmlkZ2UubmF0aXZlRGVzdHJveShoYW5kbGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVxdWlyZUhhbmRsZSgpOiBMb25nIHsKICAgICAgICBjaGVjayghY2xvc2VkLmdldCgpKSB7ICJRdWlja0pTIHJ1bnRpbWUgYWxyZWFkeSBjbG9zZWQiIH0KICAgICAgICByZXR1cm4gaGFuZGxlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VFdmFsUmVzdWx0KHJlc3VsdEpzb246IFN0cmluZyk6IEV2YWxSZXN1bHQgewogICAgICAgIHZhbCBwYXlsb2FkID0gSlNPTk9iamVjdChyZXN1bHRKc29uKQogICAgICAgIHJldHVybiBFdmFsUmVzdWx0KAogICAgICAgICAgICBzdWNjZXNzID0gcGF5bG9hZC5vcHRCb29sZWFuKCJzdWNjZXNzIiwgZmFsc2UpLAogICAgICAgICAgICB2YWx1ZUpzb24gPSBwYXlsb2FkLm9wdE51bGxhYmxlU3RyaW5nKCJ2YWx1ZUpzb24iKSwKICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gcGF5bG9hZC5vcHROdWxsYWJsZVN0cmluZygiZXJyb3JNZXNzYWdlIiksCiAgICAgICAgICAgIGVycm9yU3RhY2sgPSBwYXlsb2FkLm9wdE51bGxhYmxlU3RyaW5nKCJlcnJvclN0YWNrIiksCiAgICAgICAgICAgIGVycm9yRGV0YWlsc0pzb24gPSBwYXlsb2FkLm9wdE51bGxhYmxlU3RyaW5nKCJlcnJvckRldGFpbHNKc29uIikKICAgICAgICApCiAgICB9Cn0KCmludGVybmFsIGZ1biBRdWlja0pzTmF0aXZlUnVudGltZS5FdmFsUmVzdWx0LmRlc2NyaWJlRmFpbHVyZShkZWZhdWx0TWVzc2FnZTogU3RyaW5nKTogU3RyaW5nIHsKICAgIHJldHVybiBidWlsZFN0cmluZyB7CiAgICAgICAgYXBwZW5kKGVycm9yTWVzc2FnZSA/OiBkZWZhdWx0TWVzc2FnZSkKICAgICAgICBpZiAoIWVycm9yU3RhY2suaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgIGFwcGVuZCgnXG4nKS5hcHBlbmQoZXJyb3JTdGFjaykKICAgICAgICB9CiAgICAgICAgaWYgKCFlcnJvckRldGFpbHNKc29uLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICBhcHBlbmQoIlxuUXVpY2tKUyBkZXRhaWxzOiAiKS5hcHBlbmQoZXJyb3JEZXRhaWxzSnNvbikKICAgICAgICB9CiAgICB9Cn0KCnByaXZhdGUgZnVuIEpTT05PYmplY3Qub3B0TnVsbGFibGVTdHJpbmcobmFtZTogU3RyaW5nKTogU3RyaW5nPyB7CiAgICByZXR1cm4gaWYgKCFoYXMobmFtZSkgfHwgaXNOdWxsKG5hbWUpKSB7CiAgICAgICAgbnVsbAogICAgfSBlbHNlIHsKICAgICAgICBnZXRTdHJpbmcobmFtZSkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.javascript
+
+import java.io.Closeable
+import java.util.concurrent.atomic.AtomicBoolean
+import org.json.JSONObject
+
+internal object QuickJsNativeBridge {
+    init {
+        System.loadLibrary("quickjsjni")
+    }
+
+    @JvmStatic
+    external fun nativeCreate(hostBridge: QuickJsNativeRuntime.HostBridge): Long
+
+    @JvmStatic
+    external fun nativeDestroy(handle: Long)
+
+    @JvmStatic
+    external fun nativeEvaluate(handle: Long, script: String, fileName: String): String
+
+    @JvmStatic
+    external fun nativeCallFunction(
+        handle: Long,
+        functionName: String,
+        argsJson: String,
+        callSite: String
+    ): String
+
+    @JvmStatic
+    external fun nativeExecutePendingJobs(handle: Long, maxJobs: Int): Int
+
+    @JvmStatic
+    external fun nativeGetMemoryUsage(handle: Long): String
+
+    @JvmStatic
+    external fun nativeResetMemoryPeak(handle: Long)
+
+    @JvmStatic
+    external fun nativeInterrupt(handle: Long)
+}
+
+data class QuickJsMemoryUsage(
+    val mallocSizeBytes: Long,
+    val memoryUsedBytes: Long,
+    val peakMallocSizeBytes: Long
+)
+
+class QuickJsNativeRuntime private constructor(
+    private val handle: Long,
+    @Suppress("unused") private val hostBridge: HostBridge
+) : Closeable {
+
+    interface HostBridge {
+        fun onCall(method: String, argsJson: String?): String?
+    }
+
+    data class EvalResult(
+        val success: Boolean,
+        val valueJson: String?,
+        val errorMessage: String?,
+        val errorStack: String?,
+        val errorDetailsJson: String?
+    )
+
+    companion object {
+        fun create(hostBridge: HostBridge): QuickJsNativeRuntime {
+            val handle = QuickJsNativeBridge.nativeCreate(hostBridge)
+            require(handle != 0L) { "Failed to create QuickJS runtime" }
+            return QuickJsNativeRuntime(handle, hostBridge)
+        }
+    }
+
+    private val closed = AtomicBoolean(false)
+    private val lifecycleLock = Any()
+
+    fun eval(script: String, fileName: String = "<eval>"): EvalResult {
+        val resultJson = QuickJsNativeBridge.nativeEvaluate(requireHandle(), script, fileName)
+        return parseEvalResult(resultJson)
+    }
+
+    fun callFunction(
+        functionName: String,
+        argsJson: String,
+        callSite: String = "<call:$functionName>"
+    ): EvalResult {
+        val resultJson =
+            QuickJsNativeBridge.nativeCallFunction(
+                requireHandle(),
+                functionName,
+                argsJson,
+                callSite
+            )
+        return parseEvalResult(resultJson)
+    }
+
+    fun installCompatLayerOrThrow() {
+        val result = eval(
+            script = buildQuickJsCompatScript(),
+            fileName = "<quickjs-compat>"
+        )
+        executePendingJobs()
+        check(result.success) {
+            result.describeFailure("Failed to initialize QuickJS compat layer")
+        }
+    }
+
+    fun executePendingJobs(maxJobs: Int = 128): Int {
+        require(maxJobs > 0) { "maxJobs must be > 0" }
+        return QuickJsNativeBridge.nativeExecutePendingJobs(requireHandle(), maxJobs)
+    }
+
+    fun getMemoryUsage(): QuickJsMemoryUsage {
+        val payload = JSONObject(QuickJsNativeBridge.nativeGetMemoryUsage(requireHandle()))
+        return QuickJsMemoryUsage(
+            mallocSizeBytes = payload.optLong("mallocSizeBytes", 0L),
+            memoryUsedBytes = payload.optLong("memoryUsedBytes", 0L),
+            peakMallocSizeBytes = payload.optLong("peakMallocSizeBytes", 0L)
+        )
+    }
+
+    fun resetMemoryPeak() {
+        QuickJsNativeBridge.nativeResetMemoryPeak(requireHandle())
+    }
+
+    fun dispatchTimer(timerId: Int): EvalResult {
+        return eval(
+            script = "(function(){ return globalThis.__operitDispatchTimer($timerId); })()",
+            fileName = "<timer:$timerId>"
+        )
+    }
+
+    fun clearAllTimers(): EvalResult {
+        return eval(
+            script = "(function(){ if (typeof globalThis.__operitClearAllTimers === 'function') { globalThis.__operitClearAllTimers(); } return null; })()",
+            fileName = "<clear-all-timers>"
+        )
+    }
+
+    fun interrupt() {
+        synchronized(lifecycleLock) {
+            if (!closed.get()) {
+                QuickJsNativeBridge.nativeInterrupt(handle)
+            }
+        }
+    }
+
+    override fun close() {
+        synchronized(lifecycleLock) {
+            if (closed.compareAndSet(false, true)) {
+                QuickJsNativeBridge.nativeDestroy(handle)
+            }
+        }
+    }
+
+    private fun requireHandle(): Long {
+        check(!closed.get()) { "QuickJS runtime already closed" }
+        return handle
+    }
+
+    private fun parseEvalResult(resultJson: String): EvalResult {
+        val payload = JSONObject(resultJson)
+        return EvalResult(
+            success = payload.optBoolean("success", false),
+            valueJson = payload.optNullableString("valueJson"),
+            errorMessage = payload.optNullableString("errorMessage"),
+            errorStack = payload.optNullableString("errorStack"),
+            errorDetailsJson = payload.optNullableString("errorDetailsJson")
+        )
+    }
+}
+
+internal fun QuickJsNativeRuntime.EvalResult.describeFailure(defaultMessage: String): String {
+    return buildString {
+        append(errorMessage ?: defaultMessage)
+        if (!errorStack.isNullOrBlank()) {
+            append('\n').append(errorStack)
+        }
+        if (!errorDetailsJson.isNullOrBlank()) {
+            append("\nQuickJS details: ").append(errorDetailsJson)
+        }
+    }
+}
+
+private fun JSONObject.optNullableString(name: String): String? {
+    return if (!has(name) || isNull(name)) {
+        null
+    } else {
+        getString(name)
+    }
+}

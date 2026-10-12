@@ -1,1 +1,118 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jYWxjdWxhdG9yCgppbXBvcnQgb3JnLmp1bml0LkFmdGVyCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROdWxsCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDYWxjdWxhdG9yVGVzdCB7CgogICAgQEFmdGVyCiAgICBmdW4gdGVhckRvd24oKSB7CiAgICAgICAgQ2FsY3VsYXRvci5jbGVhclZhcmlhYmxlcygpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsRXhwcmVzc2lvbiBzaW1wbGUgYWRkaXRpb25gKCkgewogICAgICAgIGFzc2VydEVxdWFscyg1LjAsIENhbGN1bGF0b3IuZXZhbEV4cHJlc3Npb24oIjIgKyAzIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZXZhbEV4cHJlc3Npb24gd2l0aCBtdWx0aXBsaWNhdGlvbmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDEyLjAsIENhbGN1bGF0b3IuZXZhbEV4cHJlc3Npb24oIjMgKiA0IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZXZhbEV4cHJlc3Npb24gd2l0aCBwYXJlbnRoZXNlc2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDIwLjAsIENhbGN1bGF0b3IuZXZhbEV4cHJlc3Npb24oIigyICsgMykgKiA0IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZXZhbEV4cHJlc3Npb24gd2l0aCBmdW5jdGlvbiBjYWxsYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoNS4wLCBDYWxjdWxhdG9yLmV2YWxFeHByZXNzaW9uKCJhYnMoLTUpIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZXZhbEV4cHJlc3Npb24gd2l0aCBuZWdhdGl2ZSByZXN1bHRgKCkgewogICAgICAgIGFzc2VydEVxdWFscygtMS4wLCBDYWxjdWxhdG9yLmV2YWxFeHByZXNzaW9uKCIyIC0gMyIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWxFeHByZXNzaW9uIGRpdmlzaW9uYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMi41LCBDYWxjdWxhdG9yLmV2YWxFeHByZXNzaW9uKCI1IC8gMiIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHNldFZhcmlhYmxlIGFuZCBnZXRWYXJpYWJsZSByb3VuZCB0cmlwYCgpIHsKICAgICAgICBDYWxjdWxhdG9yLnNldFZhcmlhYmxlKCJ4IiwgNDIuMCkKICAgICAgICB2YWwgcmVzdWx0ID0gQ2FsY3VsYXRvci5nZXRWYXJpYWJsZSgieCIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDQyLjAsIHJlc3VsdCA/OiAwLjAsIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZ2V0VmFyaWFibGUgcmV0dXJucyBudWxsIGZvciB1bmRlZmluZWRgKCkgewogICAgICAgIGFzc2VydE51bGwoQ2FsY3VsYXRvci5nZXRWYXJpYWJsZSgibm9uZXhpc3RlbnQiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNsZWFyVmFyaWFibGVzIHJlc2V0cyBzdGF0ZWAoKSB7CiAgICAgICAgQ2FsY3VsYXRvci5zZXRWYXJpYWJsZSgieCIsIDEwMC4wKQogICAgICAgIENhbGN1bGF0b3IuY2xlYXJWYXJpYWJsZXMoKQogICAgICAgIHZhbCBwaSA9IENhbGN1bGF0b3IuZ2V0VmFyaWFibGUoIlBJIikKICAgICAgICBhc3NlcnRFcXVhbHMoTWF0aC5QSSwgcGkgPzogMC4wLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGZvcm1hdFJlc3VsdCBpbnRlZ2VyYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIjQyIiwgQ2FsY3VsYXRvci5mb3JtYXRSZXN1bHQoNDIuMCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBmb3JtYXRSZXN1bHQgZGVjaW1hbGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCIzLjE0IiwgQ2FsY3VsYXRvci5mb3JtYXRSZXN1bHQoMy4xNCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBmb3JtYXRSZXN1bHQgemVyb2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCIwIiwgQ2FsY3VsYXRvci5mb3JtYXRSZXN1bHQoMC4wKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWxFeHByZXNzaW9uIHdpdGggdmFyaWFibGVgKCkgewogICAgICAgIENhbGN1bGF0b3Iuc2V0VmFyaWFibGUoIngiLCAxMC4wKQogICAgICAgIGFzc2VydEVxdWFscygxNS4wLCBDYWxjdWxhdG9yLmV2YWxFeHByZXNzaW9uKCJ4ICsgNSIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWxFeHByZXNzaW9uIHdpdGggYXNzaWdubWVudGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDcuMCwgQ2FsY3VsYXRvci5ldmFsRXhwcmVzc2lvbigieT03IiksIDAuMDAxKQogICAgICAgIHZhbCB5ID0gQ2FsY3VsYXRvci5nZXRWYXJpYWJsZSgieSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDcuMCwgeSA/OiAwLjAsIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZ2V0U3VwcG9ydGVkVW5pdHMgcmV0dXJucyB1bml0cyBtYXBgKCkgewogICAgICAgIHZhbCB1bml0cyA9IENhbGN1bGF0b3IuZ2V0U3VwcG9ydGVkVW5pdHMoKQogICAgICAgIGFzc2VydFRydWUodW5pdHMuY29udGFpbnNLZXkoIlRlbXBlcmF0dXJlIikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh1bml0cy5jb250YWluc0tleSgiTGVuZ3RoIikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh1bml0cy5jb250YWluc0tleSgiV2VpZ2h0IikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh1bml0cy5jb250YWluc0tleSgiVm9sdW1lIikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh1bml0cy5jb250YWluc0tleSgiU3BlZWQiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGdldFN1cHBvcnRlZERhdGVGdW5jdGlvbnMgcmV0dXJucyBsaXN0YCgpIHsKICAgICAgICB2YWwgZnVuY3MgPSBDYWxjdWxhdG9yLmdldFN1cHBvcnRlZERhdGVGdW5jdGlvbnMoKQogICAgICAgIGFzc2VydFRydWUoZnVuY3MuaXNOb3RFbXB0eSgpKQogICAgICAgIGFzc2VydFRydWUoZnVuY3MuYW55IHsgaXQuY29udGFpbnMoInRvZGF5IikgfSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGdldFN1cHBvcnRlZFN0YXRGdW5jdGlvbnMgcmV0dXJucyBsaXN0YCgpIHsKICAgICAgICB2YWwgZnVuY3MgPSBDYWxjdWxhdG9yLmdldFN1cHBvcnRlZFN0YXRGdW5jdGlvbnMoKQogICAgICAgIGFzc2VydFRydWUoZnVuY3MuaXNOb3RFbXB0eSgpKQogICAgICAgIGFzc2VydFRydWUoZnVuY3MuYW55IHsgaXQuY29udGFpbnMoInN0YXRzLm1lYW4iKSB9KQogICAgfQoKICAgIEBUZXN0IGZ1biBgZ2V0U3VwcG9ydGVkSnNGZWF0dXJlcyByZXR1cm5zIGxpc3RgKCkgewogICAgICAgIHZhbCBmZWF0dXJlcyA9IENhbGN1bGF0b3IuZ2V0U3VwcG9ydGVkSnNGZWF0dXJlcygpCiAgICAgICAgYXNzZXJ0VHJ1ZShmZWF0dXJlcy5pc05vdEVtcHR5KCkpCiAgICAgICAgYXNzZXJ0VHJ1ZShmZWF0dXJlcy5hbnkgeyBpdC5jb250YWlucygiVGVybmFyeSIpIH0pCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsRXhwcmVzc2lvbiB0ZXJuYXJ5YCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMTAuMCwgQ2FsY3VsYXRvci5ldmFsRXhwcmVzc2lvbigiMSA/IDEwIDogMjAiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsRXhwcmVzc2lvbiBjb21wYXJpc29uYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBDYWxjdWxhdG9yLmV2YWxFeHByZXNzaW9uKCI1ID4gMyIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWxFeHByZXNzaW9uIGxvZ2ljYWxgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxLjAsIENhbGN1bGF0b3IuZXZhbEV4cHJlc3Npb24oIjEgJiYgMSIpLCAwLjAwMSkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.calculator
+
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class CalculatorTest {
+
+    @After
+    fun tearDown() {
+        Calculator.clearVariables()
+    }
+
+    @Test fun `evalExpression simple addition`() {
+        assertEquals(5.0, Calculator.evalExpression("2 + 3"), 0.001)
+    }
+
+    @Test fun `evalExpression with multiplication`() {
+        assertEquals(12.0, Calculator.evalExpression("3 * 4"), 0.001)
+    }
+
+    @Test fun `evalExpression with parentheses`() {
+        assertEquals(20.0, Calculator.evalExpression("(2 + 3) * 4"), 0.001)
+    }
+
+    @Test fun `evalExpression with function call`() {
+        assertEquals(5.0, Calculator.evalExpression("abs(-5)"), 0.001)
+    }
+
+    @Test fun `evalExpression with negative result`() {
+        assertEquals(-1.0, Calculator.evalExpression("2 - 3"), 0.001)
+    }
+
+    @Test fun `evalExpression division`() {
+        assertEquals(2.5, Calculator.evalExpression("5 / 2"), 0.001)
+    }
+
+    @Test fun `setVariable and getVariable round trip`() {
+        Calculator.setVariable("x", 42.0)
+        val result = Calculator.getVariable("x")
+        assertEquals(42.0, result ?: 0.0, 0.001)
+    }
+
+    @Test fun `getVariable returns null for undefined`() {
+        assertNull(Calculator.getVariable("nonexistent"))
+    }
+
+    @Test fun `clearVariables resets state`() {
+        Calculator.setVariable("x", 100.0)
+        Calculator.clearVariables()
+        val pi = Calculator.getVariable("PI")
+        assertEquals(Math.PI, pi ?: 0.0, 0.001)
+    }
+
+    @Test fun `formatResult integer`() {
+        assertEquals("42", Calculator.formatResult(42.0))
+    }
+
+    @Test fun `formatResult decimal`() {
+        assertEquals("3.14", Calculator.formatResult(3.14))
+    }
+
+    @Test fun `formatResult zero`() {
+        assertEquals("0", Calculator.formatResult(0.0))
+    }
+
+    @Test fun `evalExpression with variable`() {
+        Calculator.setVariable("x", 10.0)
+        assertEquals(15.0, Calculator.evalExpression("x + 5"), 0.001)
+    }
+
+    @Test fun `evalExpression with assignment`() {
+        assertEquals(7.0, Calculator.evalExpression("y=7"), 0.001)
+        val y = Calculator.getVariable("y")
+        assertEquals(7.0, y ?: 0.0, 0.001)
+    }
+
+    @Test fun `getSupportedUnits returns units map`() {
+        val units = Calculator.getSupportedUnits()
+        assertTrue(units.containsKey("Temperature"))
+        assertTrue(units.containsKey("Length"))
+        assertTrue(units.containsKey("Weight"))
+        assertTrue(units.containsKey("Volume"))
+        assertTrue(units.containsKey("Speed"))
+    }
+
+    @Test fun `getSupportedDateFunctions returns list`() {
+        val funcs = Calculator.getSupportedDateFunctions()
+        assertTrue(funcs.isNotEmpty())
+        assertTrue(funcs.any { it.contains("today") })
+    }
+
+    @Test fun `getSupportedStatFunctions returns list`() {
+        val funcs = Calculator.getSupportedStatFunctions()
+        assertTrue(funcs.isNotEmpty())
+        assertTrue(funcs.any { it.contains("stats.mean") })
+    }
+
+    @Test fun `getSupportedJsFeatures returns list`() {
+        val features = Calculator.getSupportedJsFeatures()
+        assertTrue(features.isNotEmpty())
+        assertTrue(features.any { it.contains("Ternary") })
+    }
+
+    @Test fun `evalExpression ternary`() {
+        assertEquals(10.0, Calculator.evalExpression("1 ? 10 : 20"), 0.001)
+    }
+
+    @Test fun `evalExpression comparison`() {
+        assertEquals(1.0, Calculator.evalExpression("5 > 3"), 0.001)
+    }
+
+    @Test fun `evalExpression logical`() {
+        assertEquals(1.0, Calculator.evalExpression("1 && 1"), 0.001)
+    }
+}

@@ -1,1 +1,164 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgRW5kcG9pbnRDb21wbGV0ZXJUZXN0IHsKCiAgICBAVGVzdCBmdW4gcm9vdFVybF9hcHBlbmRzQ2hhdENvbXBsZXRpb25zKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tL3YxL2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KCJodHRwczovL2FwaS5leGFtcGxlLmNvbSIpCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0IGZ1biByb290VXJsV2l0aFRyYWlsaW5nU2xhc2hfYXBwZW5kc0NoYXRDb21wbGV0aW9ucygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJodHRwczovL2FwaS5leGFtcGxlLmNvbS92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludCgiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIHYxUGF0aF9hcHBlbmRzQ2hhdENvbXBsZXRpb25zU3VmZml4KCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tL2N1c3RvbS92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludCgiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vY3VzdG9tL3YxIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIHYxUGF0aFdpdGhUcmFpbGluZ1NsYXNoX2FwcGVuZHNDaGF0Q29tcGxldGlvbnNTdWZmaXgoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vY3VzdG9tL3YxL2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KCJodHRwczovL2FwaS5leGFtcGxlLmNvbS9jdXN0b20vdjEvIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIGN1c3RvbU5vblYxUGF0aF9pc1VuY2hhbmdlZCgpIHsKICAgICAgICB2YWwgZW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vY3VzdG9tL2NoYXQiCiAgICAgICAgYXNzZXJ0RXF1YWxzKGVuZHBvaW50LCBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KGVuZHBvaW50KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gaW52YWxpZFVybF9pc1VuY2hhbmdlZCgpIHsKICAgICAgICB2YWwgZW5kcG9pbnQgPSAibm90IGEgdXJsIgogICAgICAgIGFzc2VydEVxdWFscyhlbmRwb2ludCwgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludChlbmRwb2ludCkpCiAgICB9CgogICAgQFRlc3QgZnVuIHRyYWlsaW5nSGFzaF9kaXNhYmxlc0NvbXBsZXRpb24oKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJodHRwczovL2FwaS5leGFtcGxlLmNvbSIsIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tIyIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBvcGVuQWlSZXNwb25zZXNSb290X2FwcGVuZHNSZXNwb25zZXNQYXRoKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tL3YxL3Jlc3BvbnNlcyIsCiAgICAgICAgICAgIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tIiwgQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9SRVNQT05TRVMpCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0IGZ1biBvcGVuQWlSZXNwb25zZXNWMVBhdGhfYXBwZW5kc1Jlc3BvbnNlc1N1ZmZpeCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJodHRwczovL2FwaS5leGFtcGxlLmNvbS9wcm94eS92MS9yZXNwb25zZXMiLAogICAgICAgICAgICBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KCJodHRwczovL2FwaS5leGFtcGxlLmNvbS9wcm94eS92MSIsIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gb3BlbkFpUmVzcG9uc2VzQ3VzdG9tUGF0aF9pc1VuY2hhbmdlZCgpIHsKICAgICAgICB2YWwgZW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vY3VzdG9tL3Jlc3BvbnNlcyIKICAgICAgICBhc3NlcnRFcXVhbHMoZW5kcG9pbnQsIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoZW5kcG9pbnQsIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gb3BlbkFpUmVzcG9uc2VzVHJhaWxpbmdIYXNoX2Rpc2FibGVzQ29tcGxldGlvbigpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJodHRwczovL2FwaS5leGFtcGxlLmNvbSIsCiAgICAgICAgICAgIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tIyIsIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gYW50aHJvcGljUm9vdF9hcHBlbmRzTWVzc2FnZXNQYXRoKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImh0dHBzOi8vYXBpLmFudGhyb3BpYy5jb20vdjEvbWVzc2FnZXMiLAogICAgICAgICAgICBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KCJodHRwczovL2FwaS5hbnRocm9waWMuY29tIiwgQXBpUHJvdmlkZXJUeXBlLkFOVEhST1BJQykKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIGFudGhyb3BpY0Jhc2VQYXRoX2FwcGVuZHNNZXNzYWdlc1BhdGgoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiaHR0cHM6Ly9wcm94eS5leGFtcGxlLmNvbS9hbnRocm9waWMvdjEvbWVzc2FnZXMiLAogICAgICAgICAgICBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KCJodHRwczovL3Byb3h5LmV4YW1wbGUuY29tL2FudGhyb3BpYyIsIEFwaVByb3ZpZGVyVHlwZS5BTlRIUk9QSUMpCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0IGZ1biBhbnRocm9waWNWMVBhdGhfYXBwZW5kc01lc3NhZ2VzU3VmZml4KCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImh0dHBzOi8vcHJveHkuZXhhbXBsZS5jb20vY3VzdG9tL3YxL21lc3NhZ2VzIiwKICAgICAgICAgICAgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludCgiaHR0cHM6Ly9wcm94eS5leGFtcGxlLmNvbS9jdXN0b20vdjEiLCBBcGlQcm92aWRlclR5cGUuQU5USFJPUElDKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gYW50aHJvcGljQ3VzdG9tUGF0aF9pc1VuY2hhbmdlZCgpIHsKICAgICAgICB2YWwgZW5kcG9pbnQgPSAiaHR0cHM6Ly9wcm94eS5leGFtcGxlLmNvbS9jdXN0b20vbWVzc2FnZXMiCiAgICAgICAgYXNzZXJ0RXF1YWxzKGVuZHBvaW50LCBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KGVuZHBvaW50LCBBcGlQcm92aWRlclR5cGUuQU5USFJPUElDKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYW50aHJvcGljSW52YWxpZFVybF9pc1VuY2hhbmdlZCgpIHsKICAgICAgICB2YWwgZW5kcG9pbnQgPSAiYW50aHJvcGljIGxvY2FsIgogICAgICAgIGFzc2VydEVxdWFscyhlbmRwb2ludCwgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludChlbmRwb2ludCwgQXBpUHJvdmlkZXJUeXBlLkFOVEhST1BJQykpCiAgICB9CgogICAgQFRlc3QgZnVuIGdvb2dsZVByb3ZpZGVyX2xlYXZlc0VuZHBvaW50VW50b3VjaGVkKCkgewogICAgICAgIHZhbCBlbmRwb2ludCA9ICJodHRwczovL2dlbmVyYXRpdmVsYW5ndWFnZS5nb29nbGVhcGlzLmNvbS92MWJldGEvbW9kZWxzIgogICAgICAgIGFzc2VydEVxdWFscyhlbmRwb2ludCwgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludChlbmRwb2ludCwgQXBpUHJvdmlkZXJUeXBlLkdPT0dMRSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGdlbWluaUdlbmVyaWNQcm92aWRlcl9sZWF2ZXNFbmRwb2ludFVudG91Y2hlZCgpIHsKICAgICAgICB2YWwgZW5kcG9pbnQgPSAiaHR0cHM6Ly9wcm94eS5leGFtcGxlLmNvbS9nb29nbGUiCiAgICAgICAgYXNzZXJ0RXF1YWxzKGVuZHBvaW50LCBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KGVuZHBvaW50LCBBcGlQcm92aWRlclR5cGUuR0VNSU5JX0dFTkVSSUMpKQogICAgfQoKICAgIEBUZXN0IGZ1biBtbm5Qcm92aWRlcl9sZWF2ZXNFbmRwb2ludFVudG91Y2hlZCgpIHsKICAgICAgICB2YWwgZW5kcG9pbnQgPSAiaHR0cDovLzEyNy4wLjAuMTo4MDgwIgogICAgICAgIGFzc2VydEVxdWFscyhlbmRwb2ludCwgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludChlbmRwb2ludCwgQXBpUHJvdmlkZXJUeXBlLk1OTikpCiAgICB9CgogICAgQFRlc3QgZnVuIG9wZW5BaUdlbmVyaWNfdXNlc0RlZmF1bHRDb21wbGV0aW9uTG9naWMoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vdjEvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tIiwgQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9HRU5FUklDKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gb3RoZXJQcm92aWRlcl91c2VzRGVmYXVsdENvbXBsZXRpb25Mb2dpYygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJodHRwczovL2FwaS5leGFtcGxlLmNvbS92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludCgiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20iLCBBcGlQcm92aWRlclR5cGUuT1RIRVIpCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0IGZ1biB3aGl0ZXNwYWNlQXJvdW5kVXJsX3ByZXNlcnZlc1RyaW1tZWRDb21wbGV0aW9uKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tL3YxL2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KCIgIGh0dHBzOi8vYXBpLmV4YW1wbGUuY29tICAiKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gb3BlbkFpUmVzcG9uc2VzV2hpdGVzcGFjZUFyb3VuZFVybF9wcmVzZXJ2ZXNUcmltbWVkQ29tcGxldGlvbigpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJodHRwczovL2FwaS5leGFtcGxlLmNvbS92MS9yZXNwb25zZXMiLAogICAgICAgICAgICBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KCIgIGh0dHBzOi8vYXBpLmV4YW1wbGUuY29tICAiLCBBcGlQcm92aWRlclR5cGUuT1BFTkFJX1JFU1BPTlNFUykKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIGFudGhyb3BpY1RyYWlsaW5nSGFzaF9kaXNhYmxlc0NvbXBsZXRpb24oKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiaHR0cHM6Ly9hcGkuYW50aHJvcGljLmNvbSIsCiAgICAgICAgICAgIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoImh0dHBzOi8vYXBpLmFudGhyb3BpYy5jb20jIiwgQXBpUHJvdmlkZXJUeXBlLkFOVEhST1BJQykKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIHF1ZXJ5T25seVJvb3RVcmxfc3RpbGxDb21wbGV0ZXNGcm9tRW1wdHlQYXRoKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImh0dHBzOi8vYXBpLmV4YW1wbGUuY29tP3Y9MS92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludCgiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20/dj0xIikKICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class EndpointCompleterTest {
+
+    @Test fun rootUrl_appendsChatCompletions() {
+        assertEquals(
+            "https://api.example.com/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("https://api.example.com")
+        )
+    }
+
+    @Test fun rootUrlWithTrailingSlash_appendsChatCompletions() {
+        assertEquals(
+            "https://api.example.com/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("https://api.example.com/")
+        )
+    }
+
+    @Test fun v1Path_appendsChatCompletionsSuffix() {
+        assertEquals(
+            "https://api.example.com/custom/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("https://api.example.com/custom/v1")
+        )
+    }
+
+    @Test fun v1PathWithTrailingSlash_appendsChatCompletionsSuffix() {
+        assertEquals(
+            "https://api.example.com/custom/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("https://api.example.com/custom/v1/")
+        )
+    }
+
+    @Test fun customNonV1Path_isUnchanged() {
+        val endpoint = "https://api.example.com/custom/chat"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint))
+    }
+
+    @Test fun invalidUrl_isUnchanged() {
+        val endpoint = "not a url"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint))
+    }
+
+    @Test fun trailingHash_disablesCompletion() {
+        assertEquals("https://api.example.com", EndpointCompleter.completeEndpoint("https://api.example.com#"))
+    }
+
+    @Test fun openAiResponsesRoot_appendsResponsesPath() {
+        assertEquals(
+            "https://api.example.com/v1/responses",
+            EndpointCompleter.completeEndpoint("https://api.example.com", ApiProviderType.OPENAI_RESPONSES)
+        )
+    }
+
+    @Test fun openAiResponsesV1Path_appendsResponsesSuffix() {
+        assertEquals(
+            "https://api.example.com/proxy/v1/responses",
+            EndpointCompleter.completeEndpoint("https://api.example.com/proxy/v1", ApiProviderType.OPENAI_RESPONSES)
+        )
+    }
+
+    @Test fun openAiResponsesCustomPath_isUnchanged() {
+        val endpoint = "https://api.example.com/custom/responses"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint, ApiProviderType.OPENAI_RESPONSES))
+    }
+
+    @Test fun openAiResponsesTrailingHash_disablesCompletion() {
+        assertEquals(
+            "https://api.example.com",
+            EndpointCompleter.completeEndpoint("https://api.example.com#", ApiProviderType.OPENAI_RESPONSES)
+        )
+    }
+
+    @Test fun anthropicRoot_appendsMessagesPath() {
+        assertEquals(
+            "https://api.anthropic.com/v1/messages",
+            EndpointCompleter.completeEndpoint("https://api.anthropic.com", ApiProviderType.ANTHROPIC)
+        )
+    }
+
+    @Test fun anthropicBasePath_appendsMessagesPath() {
+        assertEquals(
+            "https://proxy.example.com/anthropic/v1/messages",
+            EndpointCompleter.completeEndpoint("https://proxy.example.com/anthropic", ApiProviderType.ANTHROPIC)
+        )
+    }
+
+    @Test fun anthropicV1Path_appendsMessagesSuffix() {
+        assertEquals(
+            "https://proxy.example.com/custom/v1/messages",
+            EndpointCompleter.completeEndpoint("https://proxy.example.com/custom/v1", ApiProviderType.ANTHROPIC)
+        )
+    }
+
+    @Test fun anthropicCustomPath_isUnchanged() {
+        val endpoint = "https://proxy.example.com/custom/messages"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint, ApiProviderType.ANTHROPIC))
+    }
+
+    @Test fun anthropicInvalidUrl_isUnchanged() {
+        val endpoint = "anthropic local"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint, ApiProviderType.ANTHROPIC))
+    }
+
+    @Test fun googleProvider_leavesEndpointUntouched() {
+        val endpoint = "https://generativelanguage.googleapis.com/v1beta/models"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint, ApiProviderType.GOOGLE))
+    }
+
+    @Test fun geminiGenericProvider_leavesEndpointUntouched() {
+        val endpoint = "https://proxy.example.com/google"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint, ApiProviderType.GEMINI_GENERIC))
+    }
+
+    @Test fun mnnProvider_leavesEndpointUntouched() {
+        val endpoint = "http://127.0.0.1:8080"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint, ApiProviderType.MNN))
+    }
+
+    @Test fun openAiGeneric_usesDefaultCompletionLogic() {
+        assertEquals(
+            "https://api.example.com/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("https://api.example.com", ApiProviderType.OPENAI_GENERIC)
+        )
+    }
+
+    @Test fun otherProvider_usesDefaultCompletionLogic() {
+        assertEquals(
+            "https://api.example.com/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("https://api.example.com", ApiProviderType.OTHER)
+        )
+    }
+
+    @Test fun whitespaceAroundUrl_preservesTrimmedCompletion() {
+        assertEquals(
+            "https://api.example.com/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("  https://api.example.com  ")
+        )
+    }
+
+    @Test fun openAiResponsesWhitespaceAroundUrl_preservesTrimmedCompletion() {
+        assertEquals(
+            "https://api.example.com/v1/responses",
+            EndpointCompleter.completeEndpoint("  https://api.example.com  ", ApiProviderType.OPENAI_RESPONSES)
+        )
+    }
+
+    @Test fun anthropicTrailingHash_disablesCompletion() {
+        assertEquals(
+            "https://api.anthropic.com",
+            EndpointCompleter.completeEndpoint("https://api.anthropic.com#", ApiProviderType.ANTHROPIC)
+        )
+    }
+
+    @Test fun queryOnlyRootUrl_stillCompletesFromEmptyPath() {
+        assertEquals(
+            "https://api.example.com?v=1/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("https://api.example.com?v=1")
+        )
+    }
+}

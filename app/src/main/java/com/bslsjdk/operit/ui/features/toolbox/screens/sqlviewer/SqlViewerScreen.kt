@@ -1,1 +1,443 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnNxbHZpZXdlcgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLlBhaW50CmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLlR5cGVmYWNlCmltcG9ydCBhbmRyb2lkLnRleHQuVGV4dFBhaW50CmltcG9ydCBhbmRyb2lkLnRleHQuVGV4dFV0aWxzCmltcG9ydCBhbmRyb2lkLnZpZXcuR2VzdHVyZURldGVjdG9yCmltcG9ydCBhbmRyb2lkLnZpZXcuTW90aW9uRXZlbnQKaW1wb3J0IGFuZHJvaWQudmlldy5TY2FsZUdlc3R1cmVEZXRlY3RvcgppbXBvcnQgYW5kcm9pZC53aWRnZXQuT3ZlclNjcm9sbGVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uQ2FudmFzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkZsb3dSb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuRXhwZXJpbWVudGFsTGF5b3V0QXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdlb21ldHJ5Lk9mZnNldAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5nZW9tZXRyeS5TaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DbGVhcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuUGxheUFycm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5UdW5lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuRXhwZXJpbWVudGFsQ29tcG9zZVVpQXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcFRvQm91bmRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmlucHV0LnBvaW50ZXIucG9pbnRlckludGVyb3BGaWx0ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0Lm9uU2l6ZUNoYW5nZWQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxEZW5zaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbFZpZXcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLm5hdGl2ZUNhbnZhcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udEZhbWlseQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy50b0FyZ2IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5JbnRTaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5UZXh0VW5pdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnZpZXdpbnRlcm9wLkFuZHJvaWRWaWV3CmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUudmlld21vZGVsLmNvbXBvc2Uudmlld01vZGVsCmltcG9ydCBhbmRyb2lkeC5uYXZpZ2F0aW9uLk5hdkNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW4ubWF0aC5yb3VuZFRvSW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUud2l0aEZyYW1lTmFub3MKCnByaXZhdGUgdmFsIGRlZmF1bHRUYWJsZXMgPSBsaXN0T2YoImNoYXRzIiwgIm1lc3NhZ2VzIikKCkBPcHRJbihFeHBlcmltZW50YWxNYXRlcmlhbDNBcGk6OmNsYXNzLCBFeHBlcmltZW50YWxMYXlvdXRBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gU3FsVmlld2VyU2NyZWVuKG5hdkNvbnRyb2xsZXI6IE5hdkNvbnRyb2xsZXI/ID0gbnVsbCkgewogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgdmFsIHZpZXdNb2RlbDogU3FsVmlld2VyVmlld01vZGVsID0gdmlld01vZGVsKGZhY3RvcnkgPSBTcWxWaWV3ZXJWaWV3TW9kZWwuRmFjdG9yeShjb250ZXh0KSkKICAgIHZhbCBzdGF0ZSBieSB2aWV3TW9kZWwuc3RhdGUuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIHNoZWV0U3RhdGUgPSByZW1lbWJlck1vZGFsQm90dG9tU2hlZXRTdGF0ZShza2lwUGFydGlhbGx5RXhwYW5kZWQgPSB0cnVlKQogICAgdmFyIHNob3dDb250cm9sc1NoZWV0IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KCiAgICB2YXIgc3FsVGV4dCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKCJTRUxFQ1QgKiBGUk9NIGNoYXRzIikgfQogICAgdmFyIHBhZ2VTaXplVGV4dCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKHN0YXRlLnBhZ2VTaXplLnRvU3RyaW5nKCkpIH0KICAgIHZhciBlbmFibGVQYWdpbmcgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZih0cnVlKSB9CiAgICB2YXIgbGFzdEV4ZWN1dGVkU3FsIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0KCiAgICB2YWwgcGFnZVNpemUgPSBwYWdlU2l6ZVRleHQudG9JbnRPck51bGwoKT8uY29lcmNlQXRMZWFzdCgxKSA/OiA1MAogICAgdmFsIGNhbkxvYWRNb3JlID0KICAgICAgICBzdGF0ZS5yZXN1bHQgIT0gbnVsbCAmJiBlbmFibGVQYWdpbmcgJiYgc3RhdGUubGFzdEZldGNoQ291bnQgPj0gcGFnZVNpemUgJiYgIXN0YXRlLmlzUnVubmluZwoKICAgIEJveChtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCkpIHsKICAgICAgICAgICAgaWYgKHN0YXRlLnJlc3VsdCA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZygyNC5kcCksCiAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LkNlbnRlciwKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnNxbF92aWV3ZXJfZW1wdHlfc3RhdGUpLAogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHN0YXRlLnJlc3VsdD8ubGV0IHsgcmVzdWx0IC0+CiAgICAgICAgICAgICAgICAgICAgU3FsUmVzdWx0VGFibGUoCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbHVtbnMgPSByZXN1bHQuY29sdW1ucywKICAgICAgICAgICAgICAgICAgICAgICAgcm93cyA9IHJlc3VsdC5yb3dzLAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHN0YXRlLnJlc3VsdD8ubGV0IHsgcmVzdWx0IC0+CiAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAuYWxpZ24oQWxpZ25tZW50LkJvdHRvbUNlbnRlcikKICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgIC5iYWNrZ3JvdW5kKE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZS5jb3B5KGFscGhhID0gMC45ZikpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSAxMi5kcCwgdmVydGljYWwgPSA4LmRwKSwKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5TcGFjZUJldHdlZW4sCiAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnNxbF92aWV3ZXJfcm93X2NvdW50LCByZXN1bHQucm93cy5zaXplLCByZXN1bHQuY29sdW1ucy5zaXplKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBiYXNlUXVlcnkgPSBpZiAoc3RhdGUubGFzdEJhc2VRdWVyeS5pc05vdEJsYW5rKCkpIHN0YXRlLmxhc3RCYXNlUXVlcnkgZWxzZSBsYXN0RXhlY3V0ZWRTcWwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChiYXNlUXVlcnkuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlld01vZGVsLnJ1blF1ZXJ5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYXNlUXVlcnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZ2VTaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZS5jdXJyZW50T2Zmc2V0ICsgcGFnZVNpemUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuYWJsZVBhZ2luZywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgZW5hYmxlZCA9IGNhbkxvYWRNb3JlCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuc3FsX3ZpZXdlcl9sb2FkX21vcmUpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgSWNvbkJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IHNob3dDb250cm9sc1NoZWV0ID0gdHJ1ZSB9LAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5hbGlnbihBbGlnbm1lbnQuVG9wRW5kKQogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKDguZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuVHVuZSwKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5zcWxfdmlld2VyX2NvbnRyb2xzKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIGlmIChzaG93Q29udHJvbHNTaGVldCkgewogICAgICAgIE1vZGFsQm90dG9tU2hlZXQoCiAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSB7IHNob3dDb250cm9sc1NoZWV0ID0gZmFsc2UgfSwKICAgICAgICAgICAgc2hlZXRTdGF0ZSA9IHNoZWV0U3RhdGUKICAgICAgICApIHsKICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSAxNi5kcCkKICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhib3R0b20gPSAyNC5kcCksCiAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTIuZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgRmxvd1JvdygKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg2LmRwKSwKICAgICAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoNi5kcCkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIGRlZmF1bHRUYWJsZXMuZm9yRWFjaCB7IHRhYmxlTmFtZSAtPgogICAgICAgICAgICAgICAgICAgICAgICBTdWdnZXN0aW9uQ2hpcCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IHNxbFRleHQgPSAiU0VMRUNUICogRlJPTSAkdGFibGVOYW1lIiB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQodGFibGVOYW1lKSB9CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU3VnZ2VzdGlvbkNoaXAoCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IHNxbFRleHQgPSAiU0VMRUNUIG5hbWUgRlJPTSBzcWxpdGVfbWFzdGVyIFdIRVJFIHR5cGU9J3RhYmxlJyIgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuc3FsX3ZpZXdlcl90YWJsZXNfY2hpcCkpIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgU3VnZ2VzdGlvbkNoaXAoCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IHNxbFRleHQgPSAiUFJBR01BIHRhYmxlX2luZm8oY2hhdHMpIiB9LAogICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5zcWxfdmlld2VyX3NjaGVtYV9jaGlwKSkgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHNxbFRleHQsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgc3FsVGV4dCA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuc3FsX3ZpZXdlcl9pbnB1dF9sYWJlbCkpIH0sCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICB0ZXh0U3R5bGUgPSBMb2NhbFRleHRTdHlsZS5jdXJyZW50LmNvcHkoZm9udEZhbWlseSA9IEZvbnRGYW1pbHkuTW9ub3NwYWNlKSwKICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDYKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwKICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkKICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgRmlsbGVkVG9uYWxCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhc3RFeGVjdXRlZFNxbCA9IHNxbFRleHQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2aWV3TW9kZWwucnVuUXVlcnkoc3FsVGV4dCwgcGFnZVNpemUsIDAsIGVuYWJsZVBhZ2luZywgYXBwZW5kID0gZmFsc2UpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5hYmxlZCA9ICFzdGF0ZS5pc1J1bm5pbmcKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuUGxheUFycm93LCBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsLCBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMTguZHApKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoNi5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnNxbF92aWV3ZXJfcnVuKSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBPdXRsaW5lZEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3FsVGV4dCA9ICIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFzdEV4ZWN1dGVkU3FsID0gIiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuQ2xlYXIsIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgxOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg2LmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuc3FsX3ZpZXdlcl9jbGVhcikpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5LAogICAgICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKQogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnNxbF92aWV3ZXJfcGFnZV9zaXplKSkKICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSkKICAgICAgICAgICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHBhZ2VTaXplVGV4dCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IHBhZ2VTaXplVGV4dCA9IGl0LmZpbHRlcihDaGFyOjppc0RpZ2l0KS50YWtlKDQpIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDgwLmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpbmdsZUxpbmUgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgU3dpdGNoKAogICAgICAgICAgICAgICAgICAgICAgICBjaGVja2VkID0gZW5hYmxlUGFnaW5nLAogICAgICAgICAgICAgICAgICAgICAgICBvbkNoZWNrZWRDaGFuZ2UgPSB7IGVuYWJsZVBhZ2luZyA9IGl0IH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5zcWxfdmlld2VyX3BhZ2luZyksIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsU21hbGwpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgc3RhdGUuZXJyb3I/LmxldCB7CiAgICAgICAgICAgICAgICAgICAgQXNzaXN0Q2hpcCgKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHt9LAogICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChpdCkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3JzID0gQXNzaXN0Q2hpcERlZmF1bHRzLmFzc2lzdENoaXBDb2xvcnMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250YWluZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3JDb250YWluZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYWJlbENvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vbkVycm9yQ29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgc3RhdGUubWVzc2FnZT8ubGV0IHsKICAgICAgICAgICAgICAgICAgICBBc3Npc3RDaGlwKG9uQ2xpY2sgPSB7fSwgbGFiZWwgPSB7IFRleHQoaXQpIH0pCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgc3RhdGUuYWZmZWN0ZWRSb3dzPy5sZXQgeyBjb3VudCAtPgogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5zcWxfdmlld2VyX2FmZmVjdGVkX3Jvd3MsIGNvdW50KSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCnByaXZhdGUgZnVuIGNsYW1wT2Zmc2V0KAogICAgb2Zmc2V0OiBPZmZzZXQsCiAgICB2aWV3cG9ydFNpemU6IEludFNpemUsCiAgICBjb2x1bW5zOiBJbnQsCiAgICByb3dzOiBJbnQsCiAgICBoZWFkZXJIZWlnaHQ6IEZsb2F0LAogICAgY2VsbFdpZHRoOiBGbG9hdCwKICAgIHJvd0hlaWdodDogRmxvYXQKKTogT2Zmc2V0IHsKICAgIHZhbCBtYXhPZmZzZXQgPSBjYWxjdWxhdGVNYXhPZmZzZXQoCiAgICAgICAgdmlld3BvcnRTaXplID0gdmlld3BvcnRTaXplLAogICAgICAgIGNvbHVtbnMgPSBjb2x1bW5zLAogICAgICAgIHJvd3MgPSByb3dzLAogICAgICAgIGhlYWRlckhlaWdodCA9IGhlYWRlckhlaWdodCwKICAgICAgICBjZWxsV2lkdGggPSBjZWxsV2lkdGgsCiAgICAgICAgcm93SGVpZ2h0ID0gcm93SGVpZ2h0CiAgICApCiAgICByZXR1cm4gT2Zmc2V0KAogICAgICAgIHggPSBvZmZzZXQueC5jb2VyY2VJbigwZiwgbWF4T2Zmc2V0LngpLAogICAgICAgIHkgPSBvZmZzZXQueS5jb2VyY2VJbigwZiwgbWF4T2Zmc2V0LnkpCiAgICApCn0KCnByaXZhdGUgZnVuIGNhbGN1bGF0ZU1heE9mZnNldCgKICAgIHZpZXdwb3J0U2l6ZTogSW50U2l6ZSwKICAgIGNvbHVtbnM6IEludCwKICAgIHJvd3M6IEludCwKICAgIGhlYWRlckhlaWdodDogRmxvYXQsCiAgICBjZWxsV2lkdGg6IEZsb2F0LAogICAgcm93SGVpZ2h0OiBGbG9hdAopOiBPZmZzZXQgewogICAgdmFsIHZpZXdwb3J0V2lkdGggPSB2aWV3cG9ydFNpemUud2lkdGgudG9GbG9hdCgpLmNvZXJjZUF0TGVhc3QoMGYpCiAgICB2YWwgdmlld3BvcnRIZWlnaHQgPSB2aWV3cG9ydFNpemUuaGVpZ2h0LnRvRmxvYXQoKS5jb2VyY2VBdExlYXN0KDBmKQogICAgdmFsIGNvbnRlbnRXaWR0aCA9IChjb2x1bW5zICogY2VsbFdpZHRoKS5jb2VyY2VBdExlYXN0KDBmKQogICAgdmFsIGNvbnRlbnRIZWlnaHQgPSAocm93cyAqIHJvd0hlaWdodCkuY29lcmNlQXRMZWFzdCgwZikKICAgIHZhbCBib2R5Vmlld3BvcnRIZWlnaHQgPSAodmlld3BvcnRIZWlnaHQgLSBoZWFkZXJIZWlnaHQpLmNvZXJjZUF0TGVhc3QoMGYpCiAgICByZXR1cm4gT2Zmc2V0KAogICAgICAgIHggPSAoY29udGVudFdpZHRoIC0gdmlld3BvcnRXaWR0aCkuY29lcmNlQXRMZWFzdCgwZiksCiAgICAgICAgeSA9IChjb250ZW50SGVpZ2h0IC0gYm9keVZpZXdwb3J0SGVpZ2h0KS5jb2VyY2VBdExlYXN0KDBmKQogICAgKQp9CgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBTcWxSZXN1bHRUYWJsZSgKICAgIGNvbHVtbnM6IExpc3Q8U3RyaW5nPiwKICAgIHJvd3M6IExpc3Q8TGlzdDxTdHJpbmc+PiwKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyCikgewogICAgdmFsIGNvbG9yU2NoZW1lID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZQogICAgdmFsIHR5cG9ncmFwaHkgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkKICAgIHZhbCBkZWZhdWx0SGVhZGVyU2l6ZSA9IGlmICh0eXBvZ3JhcGh5LmxhYmVsU21hbGwuZm9udFNpemUgPT0gVGV4dFVuaXQuVW5zcGVjaWZpZWQpIDEyLnNwIGVsc2UgdHlwb2dyYXBoeS5sYWJlbFNtYWxsLmZvbnRTaXplCiAgICB2YWwgZGVmYXVsdEJvZHlTaXplID0gaWYgKHR5cG9ncmFwaHkuYm9keVNtYWxsLmZvbnRTaXplID09IFRleHRVbml0LlVuc3BlY2lmaWVkKSAxMi5zcCBlbHNlIHR5cG9ncmFwaHkuYm9keVNtYWxsLmZvbnRTaXplCiAgICB2YWwgaGVhZGVyVGV4dENvbG9yID0gY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgdmFsIGJvZHlUZXh0Q29sb3IgPSBjb2xvclNjaGVtZS5vblN1cmZhY2UKICAgIHZhbCBoZWFkZXJCYWNrZ3JvdW5kID0gY29sb3JTY2hlbWUuc3VyZmFjZVZhcmlhbnQKICAgIHZhbCBncmlkTGluZUNvbG9yID0gY29sb3JTY2hlbWUub3V0bGluZVZhcmlhbnQKICAgIHZhbCBoZWFkZXJGb250U2l6ZSA9IGRlZmF1bHRIZWFkZXJTaXplLnZhbHVlCiAgICB2YWwgYm9keUZvbnRTaXplID0gZGVmYXVsdEJvZHlTaXplLnZhbHVlCgogICAgQW5kcm9pZFZpZXcoCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllciwKICAgICAgICBmYWN0b3J5ID0geyBjb250ZXh0IC0+CiAgICAgICAgICAgIFNxbFRhYmxlVmlldyhjb250ZXh0KS5hcHBseSB7CiAgICAgICAgICAgICAgICB1cGRhdGVTdHlsZSgKICAgICAgICAgICAgICAgICAgICBoZWFkZXJUZXh0Q29sb3IgPSBoZWFkZXJUZXh0Q29sb3IudG9BcmdiKCksCiAgICAgICAgICAgICAgICAgICAgYm9keVRleHRDb2xvciA9IGJvZHlUZXh0Q29sb3IudG9BcmdiKCksCiAgICAgICAgICAgICAgICAgICAgaGVhZGVyQmFja2dyb3VuZENvbG9yID0gaGVhZGVyQmFja2dyb3VuZC50b0FyZ2IoKSwKICAgICAgICAgICAgICAgICAgICBncmlkTGluZUNvbG9yID0gZ3JpZExpbmVDb2xvci50b0FyZ2IoKSwKICAgICAgICAgICAgICAgICAgICBoZWFkZXJGb250U2l6ZVNwID0gaGVhZGVyRm9udFNpemUsCiAgICAgICAgICAgICAgICAgICAgYm9keUZvbnRTaXplU3AgPSBib2R5Rm9udFNpemUKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHNldERhdGEoY29sdW1ucywgcm93cykKICAgICAgICAgICAgICAgIHNldE9uVG91Y2hMaXN0ZW5lciB7IHYsIGV2ZW50IC0+CiAgICAgICAgICAgICAgICAgICAgd2hlbiAoZXZlbnQuYWN0aW9uTWFza2VkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE1vdGlvbkV2ZW50LkFDVElPTl9ET1dOIC0+IHYucGFyZW50Py5yZXF1ZXN0RGlzYWxsb3dJbnRlcmNlcHRUb3VjaEV2ZW50KHRydWUpCiAgICAgICAgICAgICAgICAgICAgICAgIE1vdGlvbkV2ZW50LkFDVElPTl9VUCwgTW90aW9uRXZlbnQuQUNUSU9OX0NBTkNFTCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdi5wYXJlbnQ/LnJlcXVlc3REaXNhbGxvd0ludGVyY2VwdFRvdWNoRXZlbnQoZmFsc2UpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGZhbHNlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIHVwZGF0ZSA9IHsgdmlldyAtPgogICAgICAgICAgICB2aWV3LnVwZGF0ZVN0eWxlKAogICAgICAgICAgICAgICAgaGVhZGVyVGV4dENvbG9yID0gaGVhZGVyVGV4dENvbG9yLnRvQXJnYigpLAogICAgICAgICAgICAgICAgYm9keVRleHRDb2xvciA9IGJvZHlUZXh0Q29sb3IudG9BcmdiKCksCiAgICAgICAgICAgICAgICBoZWFkZXJCYWNrZ3JvdW5kQ29sb3IgPSBoZWFkZXJCYWNrZ3JvdW5kLnRvQXJnYigpLAogICAgICAgICAgICAgICAgZ3JpZExpbmVDb2xvciA9IGdyaWRMaW5lQ29sb3IudG9BcmdiKCksCiAgICAgICAgICAgICAgICBoZWFkZXJGb250U2l6ZVNwID0gaGVhZGVyRm9udFNpemUsCiAgICAgICAgICAgICAgICBib2R5Rm9udFNpemVTcCA9IGJvZHlGb250U2l6ZQogICAgICAgICAgICApCiAgICAgICAgICAgIHZpZXcuc2V0RGF0YShjb2x1bW5zLCByb3dzKQogICAgICAgIH0KICAgICkKfQoKcHJpdmF0ZSBmdW4gZHJhd0NlbGxUZXh0KAogICAgY2FudmFzOiBhbmRyb2lkLmdyYXBoaWNzLkNhbnZhcywKICAgIHRleHQ6IFN0cmluZywKICAgIHBhaW50OiBUZXh0UGFpbnQsCiAgICBjZWxsTGVmdDogRmxvYXQsCiAgICBjZWxsVG9wOiBGbG9hdCwKICAgIGNlbGxXaWR0aDogRmxvYXQsCiAgICBjZWxsSGVpZ2h0OiBGbG9hdCwKICAgIHBhZGRpbmdYOiBGbG9hdCwKICAgIHBhZGRpbmdZOiBGbG9hdAopIHsKICAgIGlmICh0ZXh0LmlzRW1wdHkoKSkgcmV0dXJuCiAgICB2YWwgbWF4V2lkdGggPSBjZWxsV2lkdGggLSBwYWRkaW5nWCAqIDIKICAgIGlmIChtYXhXaWR0aCA8PSAwZikgcmV0dXJuCiAgICB2YWwgZGlzcGxheVRleHQgPSBpZiAocGFpbnQubWVhc3VyZVRleHQodGV4dCkgPD0gbWF4V2lkdGgpIHsKICAgICAgICB0ZXh0CiAgICB9IGVsc2UgewogICAgICAgIFRleHRVdGlscy5lbGxpcHNpemUodGV4dCwgcGFpbnQsIG1heFdpZHRoLCBUZXh0VXRpbHMuVHJ1bmNhdGVBdC5FTkQpLnRvU3RyaW5nKCkKICAgIH0KICAgIHZhbCBiYXNlbGluZSA9IGNlbGxUb3AgKyBwYWRkaW5nWSAtIHBhaW50LmZvbnRNZXRyaWNzLmFzY2VudAogICAgY2FudmFzLnNhdmUoKQogICAgY2FudmFzLmNsaXBSZWN0KGNlbGxMZWZ0LCBjZWxsVG9wLCBjZWxsTGVmdCArIGNlbGxXaWR0aCwgY2VsbFRvcCArIGNlbGxIZWlnaHQpCiAgICBjYW52YXMuZHJhd1RleHQoZGlzcGxheVRleHQsIGNlbGxMZWZ0ICsgcGFkZGluZ1gsIGJhc2VsaW5lLCBwYWludCkKICAgIGNhbnZhcy5yZXN0b3JlKCkKfQoKcHJpdmF0ZSBjbGFzcyBTcWxUYWJsZUdlc3R1cmVIYW5kbGVyKGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHZhciBvblNjYWxlOiAoRmxvYXQpIC0+IFVuaXQgPSB7fQogICAgdmFyIG9uU2Nyb2xsOiAoRmxvYXQsIEZsb2F0KSAtPiBVbml0ID0geyBfLCBfIC0+IH0KICAgIHZhciBvbkZsaW5nOiAoRmxvYXQsIEZsb2F0KSAtPiBVbml0ID0geyBfLCBfIC0+IH0KCiAgICB2YXIgbGFzdEZvY3VzOiBPZmZzZXQgPSBPZmZzZXQuWmVybwogICAgICAgIHByaXZhdGUgc2V0CgogICAgcHJpdmF0ZSB2YXIgaXNTY2FsaW5nID0gZmFsc2UKICAgIHByaXZhdGUgdmFsIHNjYWxlRGV0ZWN0b3IgPSBTY2FsZUdlc3R1cmVEZXRlY3Rvcihjb250ZXh0LCBvYmplY3QgOiBTY2FsZUdlc3R1cmVEZXRlY3Rvci5TaW1wbGVPblNjYWxlR2VzdHVyZUxpc3RlbmVyKCkgewogICAgICAgIG92ZXJyaWRlIGZ1biBvblNjYWxlKGRldGVjdG9yOiBTY2FsZUdlc3R1cmVEZXRlY3Rvcik6IEJvb2xlYW4gewogICAgICAgICAgICBsYXN0Rm9jdXMgPSBPZmZzZXQoZGV0ZWN0b3IuZm9jdXNYLCBkZXRlY3Rvci5mb2N1c1kpCiAgICAgICAgICAgIG9uU2NhbGUoZGV0ZWN0b3Iuc2NhbGVGYWN0b3IpCiAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgfQoKICAgICAgICBvdmVycmlkZSBmdW4gb25TY2FsZUJlZ2luKGRldGVjdG9yOiBTY2FsZUdlc3R1cmVEZXRlY3Rvcik6IEJvb2xlYW4gewogICAgICAgICAgICBsYXN0Rm9jdXMgPSBPZmZzZXQoZGV0ZWN0b3IuZm9jdXNYLCBkZXRlY3Rvci5mb2N1c1kpCiAgICAgICAgICAgIGlzU2NhbGluZyA9IHRydWUKICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICB9CgogICAgICAgIG92ZXJyaWRlIGZ1biBvblNjYWxlRW5kKGRldGVjdG9yOiBTY2FsZUdlc3R1cmVEZXRlY3RvcikgewogICAgICAgICAgICBpc1NjYWxpbmcgPSBmYWxzZQogICAgICAgIH0KICAgIH0pCgogICAgcHJpdmF0ZSB2YWwgZ2VzdHVyZURldGVjdG9yID0gR2VzdHVyZURldGVjdG9yKGNvbnRleHQsIG9iamVjdCA6IEdlc3R1cmVEZXRlY3Rvci5TaW1wbGVPbkdlc3R1cmVMaXN0ZW5lcigpIHsKICAgICAgICBvdmVycmlkZSBmdW4gb25Eb3duKGU6IE1vdGlvbkV2ZW50KTogQm9vbGVhbiA9IHRydWUKCiAgICAgICAgb3ZlcnJpZGUgZnVuIG9uU2Nyb2xsKGUxOiBNb3Rpb25FdmVudD8sIGUyOiBNb3Rpb25FdmVudCwgZGlzdGFuY2VYOiBGbG9hdCwgZGlzdGFuY2VZOiBGbG9hdCk6IEJvb2xlYW4gewogICAgICAgICAgICBpZiAoIWlzU2NhbGluZykgewogICAgICAgICAgICAgICAgb25TY3JvbGwoZGlzdGFuY2VYLCBkaXN0YW5jZVkpCiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgb3ZlcnJpZGUgZnVuIG9uRmxpbmcoZTE6IE1vdGlvbkV2ZW50PywgZTI6IE1vdGlvbkV2ZW50LCB2ZWxvY2l0eVg6IEZsb2F0LCB2ZWxvY2l0eVk6IEZsb2F0KTogQm9vbGVhbiB7CiAgICAgICAgICAgIGlmICghaXNTY2FsaW5nKSB7CiAgICAgICAgICAgICAgICBvbkZsaW5nKHZlbG9jaXR5WCwgdmVsb2NpdHlZKQogICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICB9KQoKICAgIGZ1biBvblRvdWNoRXZlbnQoZXZlbnQ6IE1vdGlvbkV2ZW50KTogQm9vbGVhbiB7CiAgICAgICAgdmFsIHNjYWxlSGFuZGxlZCA9IHNjYWxlRGV0ZWN0b3Iub25Ub3VjaEV2ZW50KGV2ZW50KQogICAgICAgIHZhbCBnZXN0dXJlSGFuZGxlZCA9IGdlc3R1cmVEZXRlY3Rvci5vblRvdWNoRXZlbnQoZXZlbnQpCiAgICAgICAgcmV0dXJuIHNjYWxlSGFuZGxlZCB8fCBnZXN0dXJlSGFuZGxlZAogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.toolbox.screens.sqlviewer
+
+import android.content.Context
+import android.graphics.Paint
+import android.graphics.Typeface
+import android.text.TextPaint
+import android.text.TextUtils
+import android.view.GestureDetector
+import android.view.MotionEvent
+import android.view.ScaleGestureDetector
+import android.widget.OverScroller
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.Tune
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.ExperimentalComposeUiApi
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clipToBounds
+import androidx.compose.ui.input.pointer.pointerInteropFilter
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.graphics.nativeCanvas
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
+import com.bslsjdk.operit.R
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
+import kotlin.math.roundToInt
+import androidx.compose.runtime.withFrameNanos
+
+private val defaultTables = listOf("chats", "messages")
+
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
+@Composable
+fun SqlViewerScreen(navController: NavController? = null) {
+    val context = LocalContext.current
+    val viewModel: SqlViewerViewModel = viewModel(factory = SqlViewerViewModel.Factory(context))
+    val state by viewModel.state.collectAsState()
+    val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+    var showControlsSheet by remember { mutableStateOf(false) }
+
+    var sqlText by remember { mutableStateOf("SELECT * FROM chats") }
+    var pageSizeText by remember { mutableStateOf(state.pageSize.toString()) }
+    var enablePaging by remember { mutableStateOf(true) }
+    var lastExecutedSql by remember { mutableStateOf("") }
+
+    val pageSize = pageSizeText.toIntOrNull()?.coerceAtLeast(1) ?: 50
+    val canLoadMore =
+        state.result != null && enablePaging && state.lastFetchCount >= pageSize && !state.isRunning
+
+    Box(modifier = Modifier.fillMaxSize()) {
+            if (state.result == null) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(24.dp),
+                    verticalArrangement = Arrangement.Center,
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(
+                        text = stringResource(R.string.sql_viewer_empty_state),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            } else {
+                state.result?.let { result ->
+                    SqlResultTable(
+                        columns = result.columns,
+                        rows = result.rows,
+                        modifier = Modifier.fillMaxSize()
+                    )
+                }
+            }
+
+            state.result?.let { result ->
+                Row(
+                    modifier = Modifier
+                        .align(Alignment.BottomCenter)
+                        .fillMaxWidth()
+                        .background(MaterialTheme.colorScheme.surface.copy(alpha = 0.9f))
+                        .padding(horizontal = 12.dp, vertical = 8.dp),
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = stringResource(R.string.sql_viewer_row_count, result.rows.size, result.columns.size),
+                        style = MaterialTheme.typography.labelMedium
+                    )
+                    TextButton(
+                        onClick = {
+                            val baseQuery = if (state.lastBaseQuery.isNotBlank()) state.lastBaseQuery else lastExecutedSql
+                            if (baseQuery.isNotBlank()) {
+                                viewModel.runQuery(
+                                    baseQuery,
+                                    pageSize,
+                                    state.currentOffset + pageSize,
+                                    enablePaging,
+                                    append = true
+                                )
+                            }
+                        },
+                        enabled = canLoadMore
+                    ) {
+                        Text(stringResource(R.string.sql_viewer_load_more))
+                    }
+                }
+            }
+
+            IconButton(
+                onClick = { showControlsSheet = true },
+                modifier = Modifier
+                    .align(Alignment.TopEnd)
+                    .padding(8.dp)
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Tune,
+                    contentDescription = stringResource(R.string.sql_viewer_controls)
+                )
+            }
+        }
+
+    if (showControlsSheet) {
+        ModalBottomSheet(
+            onDismissRequest = { showControlsSheet = false },
+            sheetState = sheetState
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp)
+                    .padding(bottom = 24.dp),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                FlowRow(
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
+                    verticalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                    defaultTables.forEach { tableName ->
+                        SuggestionChip(
+                            onClick = { sqlText = "SELECT * FROM $tableName" },
+                            label = { Text(tableName) }
+                        )
+                    }
+                    SuggestionChip(
+                        onClick = { sqlText = "SELECT name FROM sqlite_master WHERE type='table'" },
+                        label = { Text(stringResource(R.string.sql_viewer_tables_chip)) }
+                    )
+                    SuggestionChip(
+                        onClick = { sqlText = "PRAGMA table_info(chats)" },
+                        label = { Text(stringResource(R.string.sql_viewer_schema_chip)) }
+                    )
+                }
+
+                OutlinedTextField(
+                    value = sqlText,
+                    onValueChange = { sqlText = it },
+                    label = { Text(stringResource(R.string.sql_viewer_input_label)) },
+                    modifier = Modifier.fillMaxWidth(),
+                    textStyle = LocalTextStyle.current.copy(fontFamily = FontFamily.Monospace),
+                    maxLines = 6
+                )
+
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        FilledTonalButton(
+                            onClick = {
+                                lastExecutedSql = sqlText
+                                viewModel.runQuery(sqlText, pageSize, 0, enablePaging, append = false)
+                            },
+                            enabled = !state.isRunning
+                        ) {
+                            Icon(Icons.Default.PlayArrow, contentDescription = null, modifier = Modifier.size(18.dp))
+                            Spacer(modifier = Modifier.width(6.dp))
+                            Text(stringResource(R.string.sql_viewer_run))
+                        }
+                        OutlinedButton(
+                            onClick = {
+                                sqlText = ""
+                                lastExecutedSql = ""
+                            }
+                        ) {
+                            Icon(Icons.Default.Clear, contentDescription = null, modifier = Modifier.size(18.dp))
+                            Spacer(modifier = Modifier.width(6.dp))
+                            Text(stringResource(R.string.sql_viewer_clear))
+                        }
+                    }
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                    ) {
+                        Text(stringResource(R.string.sql_viewer_page_size))
+                        Spacer(modifier = Modifier.weight(1f))
+                        OutlinedTextField(
+                            value = pageSizeText,
+                            onValueChange = { pageSizeText = it.filter(Char::isDigit).take(4) },
+                            modifier = Modifier.width(80.dp),
+                            singleLine = true
+                        )
+                    }
+                }
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Switch(
+                        checked = enablePaging,
+                        onCheckedChange = { enablePaging = it }
+                    )
+                    Text(stringResource(R.string.sql_viewer_paging), style = MaterialTheme.typography.labelSmall)
+                }
+
+                state.error?.let {
+                    AssistChip(
+                        onClick = {},
+                        label = { Text(it) },
+                        colors = AssistChipDefaults.assistChipColors(
+                            containerColor = MaterialTheme.colorScheme.errorContainer,
+                            labelColor = MaterialTheme.colorScheme.onErrorContainer
+                        )
+                    )
+                }
+
+                state.message?.let {
+                    AssistChip(onClick = {}, label = { Text(it) })
+                }
+
+                state.affectedRows?.let { count ->
+                    Text(
+                        text = stringResource(R.string.sql_viewer_affected_rows, count),
+                        style = MaterialTheme.typography.labelMedium
+                    )
+                }
+            }
+        }
+    }
+}
+
+private fun clampOffset(
+    offset: Offset,
+    viewportSize: IntSize,
+    columns: Int,
+    rows: Int,
+    headerHeight: Float,
+    cellWidth: Float,
+    rowHeight: Float
+): Offset {
+    val maxOffset = calculateMaxOffset(
+        viewportSize = viewportSize,
+        columns = columns,
+        rows = rows,
+        headerHeight = headerHeight,
+        cellWidth = cellWidth,
+        rowHeight = rowHeight
+    )
+    return Offset(
+        x = offset.x.coerceIn(0f, maxOffset.x),
+        y = offset.y.coerceIn(0f, maxOffset.y)
+    )
+}
+
+private fun calculateMaxOffset(
+    viewportSize: IntSize,
+    columns: Int,
+    rows: Int,
+    headerHeight: Float,
+    cellWidth: Float,
+    rowHeight: Float
+): Offset {
+    val viewportWidth = viewportSize.width.toFloat().coerceAtLeast(0f)
+    val viewportHeight = viewportSize.height.toFloat().coerceAtLeast(0f)
+    val contentWidth = (columns * cellWidth).coerceAtLeast(0f)
+    val contentHeight = (rows * rowHeight).coerceAtLeast(0f)
+    val bodyViewportHeight = (viewportHeight - headerHeight).coerceAtLeast(0f)
+    return Offset(
+        x = (contentWidth - viewportWidth).coerceAtLeast(0f),
+        y = (contentHeight - bodyViewportHeight).coerceAtLeast(0f)
+    )
+}
+
+@Composable
+private fun SqlResultTable(
+    columns: List<String>,
+    rows: List<List<String>>,
+    modifier: Modifier = Modifier
+) {
+    val colorScheme = MaterialTheme.colorScheme
+    val typography = MaterialTheme.typography
+    val defaultHeaderSize = if (typography.labelSmall.fontSize == TextUnit.Unspecified) 12.sp else typography.labelSmall.fontSize
+    val defaultBodySize = if (typography.bodySmall.fontSize == TextUnit.Unspecified) 12.sp else typography.bodySmall.fontSize
+    val headerTextColor = colorScheme.onSurfaceVariant
+    val bodyTextColor = colorScheme.onSurface
+    val headerBackground = colorScheme.surfaceVariant
+    val gridLineColor = colorScheme.outlineVariant
+    val headerFontSize = defaultHeaderSize.value
+    val bodyFontSize = defaultBodySize.value
+
+    AndroidView(
+        modifier = modifier,
+        factory = { context ->
+            SqlTableView(context).apply {
+                updateStyle(
+                    headerTextColor = headerTextColor.toArgb(),
+                    bodyTextColor = bodyTextColor.toArgb(),
+                    headerBackgroundColor = headerBackground.toArgb(),
+                    gridLineColor = gridLineColor.toArgb(),
+                    headerFontSizeSp = headerFontSize,
+                    bodyFontSizeSp = bodyFontSize
+                )
+                setData(columns, rows)
+                setOnTouchListener { v, event ->
+                    when (event.actionMasked) {
+                        MotionEvent.ACTION_DOWN -> v.parent?.requestDisallowInterceptTouchEvent(true)
+                        MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL ->
+                            v.parent?.requestDisallowInterceptTouchEvent(false)
+                    }
+                    false
+                }
+            }
+        },
+        update = { view ->
+            view.updateStyle(
+                headerTextColor = headerTextColor.toArgb(),
+                bodyTextColor = bodyTextColor.toArgb(),
+                headerBackgroundColor = headerBackground.toArgb(),
+                gridLineColor = gridLineColor.toArgb(),
+                headerFontSizeSp = headerFontSize,
+                bodyFontSizeSp = bodyFontSize
+            )
+            view.setData(columns, rows)
+        }
+    )
+}
+
+private fun drawCellText(
+    canvas: android.graphics.Canvas,
+    text: String,
+    paint: TextPaint,
+    cellLeft: Float,
+    cellTop: Float,
+    cellWidth: Float,
+    cellHeight: Float,
+    paddingX: Float,
+    paddingY: Float
+) {
+    if (text.isEmpty()) return
+    val maxWidth = cellWidth - paddingX * 2
+    if (maxWidth <= 0f) return
+    val displayText = if (paint.measureText(text) <= maxWidth) {
+        text
+    } else {
+        TextUtils.ellipsize(text, paint, maxWidth, TextUtils.TruncateAt.END).toString()
+    }
+    val baseline = cellTop + paddingY - paint.fontMetrics.ascent
+    canvas.save()
+    canvas.clipRect(cellLeft, cellTop, cellLeft + cellWidth, cellTop + cellHeight)
+    canvas.drawText(displayText, cellLeft + paddingX, baseline, paint)
+    canvas.restore()
+}
+
+private class SqlTableGestureHandler(context: Context) {
+    var onScale: (Float) -> Unit = {}
+    var onScroll: (Float, Float) -> Unit = { _, _ -> }
+    var onFling: (Float, Float) -> Unit = { _, _ -> }
+
+    var lastFocus: Offset = Offset.Zero
+        private set
+
+    private var isScaling = false
+    private val scaleDetector = ScaleGestureDetector(context, object : ScaleGestureDetector.SimpleOnScaleGestureListener() {
+        override fun onScale(detector: ScaleGestureDetector): Boolean {
+            lastFocus = Offset(detector.focusX, detector.focusY)
+            onScale(detector.scaleFactor)
+            return true
+        }
+
+        override fun onScaleBegin(detector: ScaleGestureDetector): Boolean {
+            lastFocus = Offset(detector.focusX, detector.focusY)
+            isScaling = true
+            return true
+        }
+
+        override fun onScaleEnd(detector: ScaleGestureDetector) {
+            isScaling = false
+        }
+    })
+
+    private val gestureDetector = GestureDetector(context, object : GestureDetector.SimpleOnGestureListener() {
+        override fun onDown(e: MotionEvent): Boolean = true
+
+        override fun onScroll(e1: MotionEvent?, e2: MotionEvent, distanceX: Float, distanceY: Float): Boolean {
+            if (!isScaling) {
+                onScroll(distanceX, distanceY)
+                return true
+            }
+            return false
+        }
+
+        override fun onFling(e1: MotionEvent?, e2: MotionEvent, velocityX: Float, velocityY: Float): Boolean {
+            if (!isScaling) {
+                onFling(velocityX, velocityY)
+                return true
+            }
+            return false
+        }
+    })
+
+    fun onTouchEvent(event: MotionEvent): Boolean {
+        val scaleHandled = scaleDetector.onTouchEvent(event)
+        val gestureHandled = gestureDetector.onTouchEvent(event)
+        return scaleHandled || gestureHandled
+    }
+}

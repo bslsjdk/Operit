@@ -1,1 +1,166 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE5vdE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0TnVsbAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ2hhdE1hcmt1cFJlZ2V4VGVzdCB7CgogICAgQFRlc3QgZnVuIHRvb2xUYWdOYW1lX2FjY2VwdHNCYXNlVG9vbCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC5pc1Rvb2xUYWdOYW1lKCJ0b29sIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHRvb2xUYWdOYW1lX2FjY2VwdHNTdWZmaXgoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0TWFya3VwUmVnZXguaXNUb29sVGFnTmFtZSgidG9vbF9jb2RlIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHRvb2xUYWdOYW1lX3JlamVjdHNUb29sUmVzdWx0KCkgewogICAgICAgIGFzc2VydEZhbHNlKENoYXRNYXJrdXBSZWdleC5pc1Rvb2xUYWdOYW1lKCJ0b29sX3Jlc3VsdCIpKQogICAgfQoKICAgIEBUZXN0IGZ1biB0b29sUmVzdWx0VGFnTmFtZV9hY2NlcHRzQmFzZVRvb2xSZXN1bHQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0TWFya3VwUmVnZXguaXNUb29sUmVzdWx0VGFnTmFtZSgidG9vbF9yZXN1bHQiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gdG9vbFJlc3VsdFRhZ05hbWVfYWNjZXB0c1N1ZmZpeCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC5pc1Rvb2xSZXN1bHRUYWdOYW1lKCJ0b29sX3Jlc3VsdF9leGVjIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHRvb2xSZXN1bHRUYWdOYW1lX3JlamVjdHNQbGFpblRvb2woKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ2hhdE1hcmt1cFJlZ2V4LmlzVG9vbFJlc3VsdFRhZ05hbWUoInRvb2wiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbm9ybWFsaXplVG9vbExpa2VUYWdOYW1lX25vcm1hbGl6ZXNUb29sU3VmZml4KCkgewogICAgICAgIGFzc2VydEVxdWFscygidG9vbCIsIENoYXRNYXJrdXBSZWdleC5ub3JtYWxpemVUb29sTGlrZVRhZ05hbWUoInRvb2xfZXhlYyIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBub3JtYWxpemVUb29sTGlrZVRhZ05hbWVfbm9ybWFsaXplc1Rvb2xSZXN1bHRTdWZmaXgoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0b29sX3Jlc3VsdCIsIENoYXRNYXJrdXBSZWdleC5ub3JtYWxpemVUb29sTGlrZVRhZ05hbWUoInRvb2xfcmVzdWx0X2V4ZWMiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbm9ybWFsaXplVG9vbExpa2VUYWdOYW1lX3ByZXNlcnZlc1Vua25vd25UYWcoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJzdGF0dXMiLCBDaGF0TWFya3VwUmVnZXgubm9ybWFsaXplVG9vbExpa2VUYWdOYW1lKCJzdGF0dXMiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gY29udGFpbnNUb29sVGFnX2RldGVjdHNPcGVuaW5nVGFnKCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LmNvbnRhaW5zVG9vbFRhZygiPHRvb2wgbmFtZT1cInJ1blwiPjwvdG9vbD4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gY29udGFpbnNUb29sVGFnX3JlamVjdHNUb29sUmVzdWx0KCkgewogICAgICAgIGFzc2VydEZhbHNlKENoYXRNYXJrdXBSZWdleC5jb250YWluc1Rvb2xUYWcoIjx0b29sX3Jlc3VsdCBuYW1lPVwicnVuXCI+PC90b29sX3Jlc3VsdD4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gY29udGFpbnNUb29sUmVzdWx0VGFnX2RldGVjdHNPcGVuaW5nVGFnKCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LmNvbnRhaW5zVG9vbFJlc3VsdFRhZygiPHRvb2xfcmVzdWx0IG5hbWU9XCJydW5cIj48L3Rvb2xfcmVzdWx0PiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBjb250YWluc0FueVRvb2xMaWtlVGFnX2RldGVjdHNFaXRoZXJWYXJpYW50KCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LmNvbnRhaW5zQW55VG9vbExpa2VUYWcoIjx0b29sX3Jlc3VsdCBuYW1lPVwicnVuXCI+PC90b29sX3Jlc3VsdD4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdE9wZW5pbmdUYWdOYW1lX3JlYWRzRmlyc3RUYWcoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0b29sIiwgQ2hhdE1hcmt1cFJlZ2V4LmV4dHJhY3RPcGVuaW5nVGFnTmFtZSgiICA8dG9vbCBuYW1lPVwicnVuXCI+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RPcGVuaW5nVGFnTmFtZV9yZXR1cm5zTnVsbEZvclBsYWluVGV4dCgpIHsKICAgICAgICBhc3NlcnROdWxsKENoYXRNYXJrdXBSZWdleC5leHRyYWN0T3BlbmluZ1RhZ05hbWUoInBsYWluIHRleHQiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZ2VuZXJhdGVSYW5kb21Ub29sVGFnTmFtZV91c2VzVG9vbFByZWZpeCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC5nZW5lcmF0ZVJhbmRvbVRvb2xUYWdOYW1lKCkuc3RhcnRzV2l0aCgidG9vbF8iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZ2VuZXJhdGVSYW5kb21Ub29sUmVzdWx0VGFnTmFtZV91c2VzVG9vbFJlc3VsdFByZWZpeCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC5nZW5lcmF0ZVJhbmRvbVRvb2xSZXN1bHRUYWdOYW1lKCkuc3RhcnRzV2l0aCgidG9vbF9yZXN1bHRfIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGdlbWluaU1ldGFUYWdfd3JhcHNTaWduYXR1cmUoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiPG1ldGEgcHJvdmlkZXI9XCJnZW1pbmk6dGhvdWdodF9zaWduYXR1cmVcIj5hYmMxMjM8L21ldGE+IiwKICAgICAgICAgICAgQ2hhdE1hcmt1cFJlZ2V4LmdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhVGFnKCJhYmMxMjMiKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdEdlbWluaVRob3VnaHRTaWduYXR1cmVfcmVhZHNTaW5nbGVTaWduYXR1cmUoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiYWJjMTIzIiwKICAgICAgICAgICAgQ2hhdE1hcmt1cFJlZ2V4LmV4dHJhY3RHZW1pbmlUaG91Z2h0U2lnbmF0dXJlKCI8bWV0YSBwcm92aWRlcj1cImdlbWluaTp0aG91Z2h0X3NpZ25hdHVyZVwiPmFiYzEyMzwvbWV0YT4iKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdEdlbWluaVRob3VnaHRTaWduYXR1cmVfdXNlc0xhc3RNYXRjaGluZ1NpZ25hdHVyZSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJzZWNvbmQiLAogICAgICAgICAgICBDaGF0TWFya3VwUmVnZXguZXh0cmFjdEdlbWluaVRob3VnaHRTaWduYXR1cmUoCiAgICAgICAgICAgICAgICAiPG1ldGEgcHJvdmlkZXI9XCJnZW1pbmk6dGhvdWdodF9zaWduYXR1cmVcIj5maXJzdDwvbWV0YT4iICsKICAgICAgICAgICAgICAgICAgICAiPG1ldGEgcHJvdmlkZXI9XCJnZW1pbmk6dGhvdWdodF9zaWduYXR1cmVcIj5zZWNvbmQ8L21ldGE+IgogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0R2VtaW5pVGhvdWdodFNpZ25hdHVyZV9pZ25vcmVzT3RoZXJQcm92aWRlcnMoKSB7CiAgICAgICAgYXNzZXJ0TnVsbChDaGF0TWFya3VwUmVnZXguZXh0cmFjdEdlbWluaVRob3VnaHRTaWduYXR1cmUoIjxtZXRhIHByb3ZpZGVyPVwib3RoZXJcIj52YWx1ZTwvbWV0YT4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdEdlbWluaVRob3VnaHRTaWduYXR1cmVfdHJpbXNCb2R5V2hpdGVzcGFjZSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJhYmMxMjMiLAogICAgICAgICAgICBDaGF0TWFya3VwUmVnZXguZXh0cmFjdEdlbWluaVRob3VnaHRTaWduYXR1cmUoIjxtZXRhIHByb3ZpZGVyPVwiZ2VtaW5pOnRob3VnaHRfc2lnbmF0dXJlXCI+ICBhYmMxMjMgIDwvbWV0YT4iKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlR2VtaW5pVGhvdWdodFNpZ25hdHVyZU1ldGFfcmVtb3Zlc01hdGNoaW5nVGFnKCkgewogICAgICAgIGFzc2VydEVxdWFscygiY29udGVudCIsIENoYXRNYXJrdXBSZWdleC5yZW1vdmVHZW1pbmlUaG91Z2h0U2lnbmF0dXJlTWV0YSgiY29udGVudDxtZXRhIHByb3ZpZGVyPVwiZ2VtaW5pOnRob3VnaHRfc2lnbmF0dXJlXCI+YWJjPC9tZXRhPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biByZW1vdmVHZW1pbmlUaG91Z2h0U2lnbmF0dXJlTWV0YV9rZWVwc090aGVyTWV0YSgpIHsKICAgICAgICB2YWwgdGV4dCA9ICI8bWV0YSBwcm92aWRlcj1cIm90aGVyXCI+eDwvbWV0YT4iCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRleHQsIENoYXRNYXJrdXBSZWdleC5yZW1vdmVHZW1pbmlUaG91Z2h0U2lnbmF0dXJlTWV0YSh0ZXh0KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlR2VtaW5pVGhvdWdodFNpZ25hdHVyZU1ldGFfaXNDYXNlSW5zZW5zaXRpdmVPblByb3ZpZGVyKCkgewogICAgICAgIGFzc2VydEVxdWFscygiIiwgQ2hhdE1hcmt1cFJlZ2V4LnJlbW92ZUdlbWluaVRob3VnaHRTaWduYXR1cmVNZXRhKCI8bWV0YSBwcm92aWRlcj1cIkdFTUlOSTpUSE9VR0hUX1NJR05BVFVSRVwiPng8L21ldGE+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHRvb2xDYWxsUGF0dGVybl9leHRyYWN0c05hbWVBbmRCb2R5KCkgewogICAgICAgIHZhbCBtYXRjaCA9IENoYXRNYXJrdXBSZWdleC50b29sQ2FsbFBhdHRlcm4uZmluZCgiPHRvb2wgbmFtZT1cInJ1blwiPnB3ZDwvdG9vbD4iKQogICAgICAgIGFzc2VydE5vdE51bGwobWF0Y2gpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJydW4iLCBtYXRjaCEhLmdyb3VwVmFsdWVzWzJdKQogICAgICAgIGFzc2VydEVxdWFscygicHdkIiwgbWF0Y2guZ3JvdXBWYWx1ZXNbM10pCiAgICB9CgogICAgQFRlc3QgZnVuIHRvb2xUYWdfbWF0Y2hlc1N1ZmZpeFZhcmlhbnQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0TWFya3VwUmVnZXgudG9vbFRhZy5jb250YWluc01hdGNoSW4oIjx0b29sX2V4ZWMgbmFtZT1cInJ1blwiPnB3ZDwvdG9vbF9leGVjPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biB0b29sU2VsZkNsb3NpbmdUYWdfbWF0Y2hlc1N1ZmZpeFZhcmlhbnQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0TWFya3VwUmVnZXgudG9vbFNlbGZDbG9zaW5nVGFnLmNvbnRhaW5zTWF0Y2hJbigiPHRvb2xfZXhlYyBuYW1lPVwicnVuXCIgLz4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gdG9vbFJlc3VsdFRhZ1dpdGhBdHRyc19leHRyYWN0c1N0YXR1c0Jsb2NrKCkgewogICAgICAgIHZhbCBtYXRjaCA9IENoYXRNYXJrdXBSZWdleC50b29sUmVzdWx0VGFnV2l0aEF0dHJzLmZpbmQoIjx0b29sX3Jlc3VsdF9leGVjIHN0YXR1cz1cIm9rXCI+ZG9uZTwvdG9vbF9yZXN1bHRfZXhlYz4iKQogICAgICAgIGFzc2VydE5vdE51bGwobWF0Y2gpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJkb25lIiwgbWF0Y2ghIS5ncm91cFZhbHVlc1szXSkKICAgIH0KCiAgICBAVGVzdCBmdW4geG1sVG9vbFJlcXVlc3RQYXR0ZXJuX2V4dHJhY3RzRGVzY3JpcHRpb25XaGVuUHJlc2VudCgpIHsKICAgICAgICB2YWwgbWF0Y2ggPSBDaGF0TWFya3VwUmVnZXgueG1sVG9vbFJlcXVlc3RQYXR0ZXJuLmZpbmQoIjx0b29sIG5hbWU9XCJydW5cIiBkZXNjcmlwdGlvbj1cImRlc2NcIj5ib2R5PC90b29sPiIpCiAgICAgICAgYXNzZXJ0Tm90TnVsbChtYXRjaCkKICAgICAgICBhc3NlcnRFcXVhbHMoInJ1biIsIG1hdGNoISEuZ3JvdXBWYWx1ZXNbMl0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJkZXNjIiwgbWF0Y2guZ3JvdXBWYWx1ZXNbM10pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJib2R5IiwgbWF0Y2guZ3JvdXBWYWx1ZXNbNF0pCiAgICB9CgogICAgQFRlc3QgZnVuIHhtbFRvb2xSZXN1bHRQYXR0ZXJuX2V4dHJhY3RzQ29udGVudEFuZFN0YXR1cygpIHsKICAgICAgICB2YWwgbWF0Y2ggPSBDaGF0TWFya3VwUmVnZXgueG1sVG9vbFJlc3VsdFBhdHRlcm4uZmluZCgKICAgICAgICAgICAgIjx0b29sX3Jlc3VsdCBuYW1lPVwicnVuXCIgc3RhdHVzPVwib2tcIj48Y29udGVudD5kb25lPC9jb250ZW50PjwvdG9vbF9yZXN1bHQ+IgogICAgICAgICkKICAgICAgICBhc3NlcnROb3ROdWxsKG1hdGNoKQogICAgICAgIGFzc2VydEVxdWFscygicnVuIiwgbWF0Y2ghIS5ncm91cFZhbHVlc1syXSkKICAgICAgICBhc3NlcnRFcXVhbHMoIm9rIiwgbWF0Y2guZ3JvdXBWYWx1ZXNbM10pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJkb25lIiwgbWF0Y2guZ3JvdXBWYWx1ZXNbNF0pCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMarkupRegexTest {
+
+    @Test fun toolTagName_acceptsBaseTool() {
+        assertTrue(ChatMarkupRegex.isToolTagName("tool"))
+    }
+
+    @Test fun toolTagName_acceptsSuffix() {
+        assertTrue(ChatMarkupRegex.isToolTagName("tool_code"))
+    }
+
+    @Test fun toolTagName_rejectsToolResult() {
+        assertFalse(ChatMarkupRegex.isToolTagName("tool_result"))
+    }
+
+    @Test fun toolResultTagName_acceptsBaseToolResult() {
+        assertTrue(ChatMarkupRegex.isToolResultTagName("tool_result"))
+    }
+
+    @Test fun toolResultTagName_acceptsSuffix() {
+        assertTrue(ChatMarkupRegex.isToolResultTagName("tool_result_exec"))
+    }
+
+    @Test fun toolResultTagName_rejectsPlainTool() {
+        assertFalse(ChatMarkupRegex.isToolResultTagName("tool"))
+    }
+
+    @Test fun normalizeToolLikeTagName_normalizesToolSuffix() {
+        assertEquals("tool", ChatMarkupRegex.normalizeToolLikeTagName("tool_exec"))
+    }
+
+    @Test fun normalizeToolLikeTagName_normalizesToolResultSuffix() {
+        assertEquals("tool_result", ChatMarkupRegex.normalizeToolLikeTagName("tool_result_exec"))
+    }
+
+    @Test fun normalizeToolLikeTagName_preservesUnknownTag() {
+        assertEquals("status", ChatMarkupRegex.normalizeToolLikeTagName("status"))
+    }
+
+    @Test fun containsToolTag_detectsOpeningTag() {
+        assertTrue(ChatMarkupRegex.containsToolTag("<tool name=\"run\"></tool>"))
+    }
+
+    @Test fun containsToolTag_rejectsToolResult() {
+        assertFalse(ChatMarkupRegex.containsToolTag("<tool_result name=\"run\"></tool_result>"))
+    }
+
+    @Test fun containsToolResultTag_detectsOpeningTag() {
+        assertTrue(ChatMarkupRegex.containsToolResultTag("<tool_result name=\"run\"></tool_result>"))
+    }
+
+    @Test fun containsAnyToolLikeTag_detectsEitherVariant() {
+        assertTrue(ChatMarkupRegex.containsAnyToolLikeTag("<tool_result name=\"run\"></tool_result>"))
+    }
+
+    @Test fun extractOpeningTagName_readsFirstTag() {
+        assertEquals("tool", ChatMarkupRegex.extractOpeningTagName("  <tool name=\"run\">"))
+    }
+
+    @Test fun extractOpeningTagName_returnsNullForPlainText() {
+        assertNull(ChatMarkupRegex.extractOpeningTagName("plain text"))
+    }
+
+    @Test fun generateRandomToolTagName_usesToolPrefix() {
+        assertTrue(ChatMarkupRegex.generateRandomToolTagName().startsWith("tool_"))
+    }
+
+    @Test fun generateRandomToolResultTagName_usesToolResultPrefix() {
+        assertTrue(ChatMarkupRegex.generateRandomToolResultTagName().startsWith("tool_result_"))
+    }
+
+    @Test fun geminiMetaTag_wrapsSignature() {
+        assertEquals(
+            "<meta provider=\"gemini:thought_signature\">abc123</meta>",
+            ChatMarkupRegex.geminiThoughtSignatureMetaTag("abc123")
+        )
+    }
+
+    @Test fun extractGeminiThoughtSignature_readsSingleSignature() {
+        assertEquals(
+            "abc123",
+            ChatMarkupRegex.extractGeminiThoughtSignature("<meta provider=\"gemini:thought_signature\">abc123</meta>")
+        )
+    }
+
+    @Test fun extractGeminiThoughtSignature_usesLastMatchingSignature() {
+        assertEquals(
+            "second",
+            ChatMarkupRegex.extractGeminiThoughtSignature(
+                "<meta provider=\"gemini:thought_signature\">first</meta>" +
+                    "<meta provider=\"gemini:thought_signature\">second</meta>"
+            )
+        )
+    }
+
+    @Test fun extractGeminiThoughtSignature_ignoresOtherProviders() {
+        assertNull(ChatMarkupRegex.extractGeminiThoughtSignature("<meta provider=\"other\">value</meta>"))
+    }
+
+    @Test fun extractGeminiThoughtSignature_trimsBodyWhitespace() {
+        assertEquals(
+            "abc123",
+            ChatMarkupRegex.extractGeminiThoughtSignature("<meta provider=\"gemini:thought_signature\">  abc123  </meta>")
+        )
+    }
+
+    @Test fun removeGeminiThoughtSignatureMeta_removesMatchingTag() {
+        assertEquals("content", ChatMarkupRegex.removeGeminiThoughtSignatureMeta("content<meta provider=\"gemini:thought_signature\">abc</meta>"))
+    }
+
+    @Test fun removeGeminiThoughtSignatureMeta_keepsOtherMeta() {
+        val text = "<meta provider=\"other\">x</meta>"
+        assertEquals(text, ChatMarkupRegex.removeGeminiThoughtSignatureMeta(text))
+    }
+
+    @Test fun removeGeminiThoughtSignatureMeta_isCaseInsensitiveOnProvider() {
+        assertEquals("", ChatMarkupRegex.removeGeminiThoughtSignatureMeta("<meta provider=\"GEMINI:THOUGHT_SIGNATURE\">x</meta>"))
+    }
+
+    @Test fun toolCallPattern_extractsNameAndBody() {
+        val match = ChatMarkupRegex.toolCallPattern.find("<tool name=\"run\">pwd</tool>")
+        assertNotNull(match)
+        assertEquals("run", match!!.groupValues[2])
+        assertEquals("pwd", match.groupValues[3])
+    }
+
+    @Test fun toolTag_matchesSuffixVariant() {
+        assertTrue(ChatMarkupRegex.toolTag.containsMatchIn("<tool_exec name=\"run\">pwd</tool_exec>"))
+    }
+
+    @Test fun toolSelfClosingTag_matchesSuffixVariant() {
+        assertTrue(ChatMarkupRegex.toolSelfClosingTag.containsMatchIn("<tool_exec name=\"run\" />"))
+    }
+
+    @Test fun toolResultTagWithAttrs_extractsStatusBlock() {
+        val match = ChatMarkupRegex.toolResultTagWithAttrs.find("<tool_result_exec status=\"ok\">done</tool_result_exec>")
+        assertNotNull(match)
+        assertEquals("done", match!!.groupValues[3])
+    }
+
+    @Test fun xmlToolRequestPattern_extractsDescriptionWhenPresent() {
+        val match = ChatMarkupRegex.xmlToolRequestPattern.find("<tool name=\"run\" description=\"desc\">body</tool>")
+        assertNotNull(match)
+        assertEquals("run", match!!.groupValues[2])
+        assertEquals("desc", match.groupValues[3])
+        assertEquals("body", match.groupValues[4])
+    }
+
+    @Test fun xmlToolResultPattern_extractsContentAndStatus() {
+        val match = ChatMarkupRegex.xmlToolResultPattern.find(
+            "<tool_result name=\"run\" status=\"ok\"><content>done</content></tool_result>"
+        )
+        assertNotNull(match)
+        assertEquals("run", match!!.groupValues[2])
+        assertEquals("ok", match.groupValues[3])
+        assertEquals("done", match.groupValues[4])
+    }
+}

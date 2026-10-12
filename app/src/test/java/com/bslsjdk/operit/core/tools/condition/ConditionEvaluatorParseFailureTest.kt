@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jb25kaXRpb24KCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcubW9ja2l0by5Nb2NraXRvCgpjbGFzcyBDb25kaXRpb25FdmFsdWF0b3JQYXJzZUZhaWx1cmVUZXN0IHsKCiAgICBAVGVzdCBmdW4gbG9uZU9wZXJhdG9yX3JldHVybnNGYWxzZSgpIHsKICAgICAgICBhc3NlcnRJbnZhbGlkRXhwcmVzc2lvbigiJiYiKQogICAgfQoKICAgIEBUZXN0IGZ1biBicm9rZW5BcnJheUxpdGVyYWxfcmV0dXJuc0ZhbHNlKCkgewogICAgICAgIGFzc2VydEludmFsaWRFeHByZXNzaW9uKCJbMSxdIikKICAgIH0KCiAgICBAVGVzdCBmdW4gdW5leHBlY3RlZENsb3NpbmdQYXJlbl9yZXR1cm5zRmFsc2UoKSB7CiAgICAgICAgYXNzZXJ0SW52YWxpZEV4cHJlc3Npb24oIikiKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGFzc2VydEludmFsaWRFeHByZXNzaW9uKGV4cHJlc3Npb246IFN0cmluZykgewogICAgICAgIE1vY2tpdG8ubW9ja1N0YXRpYyhBcHBMb2dnZXI6OmNsYXNzLmphdmEpLnVzZSB7CiAgICAgICAgICAgIGFzc2VydEZhbHNlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZShleHByZXNzaW9uLCBlbXB0eU1hcCgpKSkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.condition
+
+import com.bslsjdk.operit.util.AppLogger
+import org.junit.Assert.assertFalse
+import org.junit.Test
+import org.mockito.Mockito
+
+class ConditionEvaluatorParseFailureTest {
+
+    @Test fun loneOperator_returnsFalse() {
+        assertInvalidExpression("&&")
+    }
+
+    @Test fun brokenArrayLiteral_returnsFalse() {
+        assertInvalidExpression("[1,]")
+    }
+
+    @Test fun unexpectedClosingParen_returnsFalse() {
+        assertInvalidExpression(")")
+    }
+
+    private fun assertInvalidExpression(expression: String) {
+        Mockito.mockStatic(AppLogger::class.java).use {
+            assertFalse(ConditionEvaluator.evaluate(expression, emptyMap()))
+        }
+    }
+}

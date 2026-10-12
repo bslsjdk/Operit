@@ -1,1 +1,189 @@
-Y29uc3QgU2FuZGJveFBhY2thZ2VEZXZJbnN0YWxsZXJTdGF0ZSA9IHsKICBsb2dzOiBbXQp9OwoKY29uc3QgU2FuZGJveFBhY2thZ2VEZXZJbnN0YWxsZXIgPSAoZnVuY3Rpb24gKCkgewogIGNvbnN0IEVOVklST05NRU5UID0gImFuZHJvaWQiOwogIGNvbnN0IFNLSUxMX05BTUUgPSAiU2FuZGJveFBhY2thZ2VfREVWIjsKICBjb25zdCBTS0lMTF9ST09UID0gYC9zZGNhcmQvRG93bmxvYWQvT3Blcml0L3NraWxscy8ke1NLSUxMX05BTUV9YDsKICBjb25zdCBSRUZFUkVOQ0VTX0RJUiA9IGAke1NLSUxMX1JPT1R9L3JlZmVyZW5jZXNgOwogIGNvbnN0IFRZUEVTX0RJUiA9IGAke1NLSUxMX1JPT1R9L3R5cGVzYDsKICBjb25zdCBTQ1JJUFRTX0RJUiA9IGAke1NLSUxMX1JPT1R9L3NjcmlwdHNgOwogIGNvbnN0IEVYQU1QTEVTX0RJUiA9IGAke1NLSUxMX1JPT1R9L2V4YW1wbGVzYDsKICBjb25zdCBFWEFNUExFX1BBQ0tBR0VTX0RJUiA9IGAke0VYQU1QTEVTX0RJUn0vcGFja2FnZXNgOwogIGNvbnN0IEJVSUxUSU5fUEFDS0FHRVNfQVNTRVRfRElSID0gInBhY2thZ2VzIjsKICBjb25zdCBDRE5fQkFTRSA9ICJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvQUFzd29yZG1hbi9PcGVyaXRAbWFpbiI7CiAgY29uc3QgTUFYX0RPV05MT0FEX0NPTkNVUlJFTkNZID0gODsKICBjb25zdCBUWVBFX0ZJTEVTID0gWwogICAgImFuZHJvaWQuZC50cyIsCiAgICAiY2hhdC5kLnRzIiwKICAgICJjb21wb3NlLWRzbC5kLnRzIiwKICAgICJjb21wb3NlLWRzbC5tYXRlcmlhbDMuZ2VuZXJhdGVkLmQudHMiLAogICAgImNvcmUuZC50cyIsCiAgICAiY3J5cHRvanMuZC50cyIsCiAgICAiZmZtcGVnLmQudHMiLAogICAgImZpbGVzLmQudHMiLAogICAgImluZGV4LmQudHMiLAogICAgImphdmEtYnJpZGdlLmQudHMiLAogICAgImppbXAuZC50cyIsCiAgICAibWVtb3J5LmQudHMiLAogICAgIm5ldHdvcmsuZC50cyIsCiAgICAib2todHRwLmQudHMiLAogICAgInBha28uZC50cyIsCiAgICAicXVpY2tqcy1ydW50aW1lLmQudHMiLAogICAgInJlc3VsdHMuZC50cyIsCiAgICAic29mdHdhcmVfc2V0dGluZ3MuZC50cyIsCiAgICAic3lzdGVtLmQudHMiLAogICAgInRhc2tlci5kLnRzIiwKICAgICJ0b29sLXR5cGVzLmQudHMiLAogICAgInRvb2xwa2cuZC50cyIsCiAgICAidWkuZC50cyIsCiAgICAid29ya2Zsb3cuZC50cyIKICBdOwoKICBjb25zdCBET1dOTE9BRFMgPSBbCiAgICB7CiAgICAgIHVybDogYCR7Q0ROX0JBU0V9L2RvY3MvU0NSSVBUX0RFVl9TS0lMTC5tZGAsCiAgICAgIGRlc3RpbmF0aW9uOiBgJHtTS0lMTF9ST09UfS9TS0lMTC5tZGAKICAgIH0sCiAgICB7CiAgICAgIHVybDogYCR7Q0ROX0JBU0V9L2RvY3MvU0NSSVBUX0RFVl9HVUlERS5tZGAsCiAgICAgIGRlc3RpbmF0aW9uOiBgJHtSRUZFUkVOQ0VTX0RJUn0vU0NSSVBUX0RFVl9HVUlERS5tZGAKICAgIH0sCiAgICB7CiAgICAgIHVybDogYCR7Q0ROX0JBU0V9L2RvY3MvVE9PTFBLR19GT1JNQVRfR1VJREUubWRgLAogICAgICBkZXN0aW5hdGlvbjogYCR7UkVGRVJFTkNFU19ESVJ9L1RPT0xQS0dfRk9STUFUX0dVSURFLm1kYAogICAgfQogIF0uY29uY2F0KAogICAgVFlQRV9GSUxFUy5tYXAoKGZpbGVOYW1lKSA9PiAoewogICAgICB1cmw6IGAke0NETl9CQVNFfS9leGFtcGxlcy90eXBlcy8ke2ZpbGVOYW1lfWAsCiAgICAgIGRlc3RpbmF0aW9uOiBgJHtUWVBFU19ESVJ9LyR7ZmlsZU5hbWV9YAogICAgfSkpCiAgKTsKCiAgZnVuY3Rpb24gbG9nU3RlcChtZXNzYWdlKSB7CiAgICBTYW5kYm94UGFja2FnZURldkluc3RhbGxlclN0YXRlLmxvZ3MucHVzaChtZXNzYWdlKTsKICAgIGNvbnNvbGUubG9nKG1lc3NhZ2UpOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gbWFrZURpcmVjdG9yeShwYXRoKSB7CiAgICByZXR1cm4gYXdhaXQgVG9vbHMuRmlsZXMubWtkaXIocGF0aCwgdHJ1ZSwgRU5WSVJPTk1FTlQpOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gZG93bmxvYWRGaWxlQXN5bmModXJsLCBkZXN0aW5hdGlvbikgewogICAgcmV0dXJuIGF3YWl0IFRvb2xzLkZpbGVzLmRvd25sb2FkKHVybCwgZGVzdGluYXRpb24sIEVOVklST05NRU5UKTsKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGRvd25sb2FkQWxsRmlsZXMoKSB7CiAgICBsZXQgbmV4dEluZGV4ID0gMDsKCiAgICBhc3luYyBmdW5jdGlvbiB3b3JrZXIoKSB7CiAgICAgIHdoaWxlIChuZXh0SW5kZXggPCBET1dOTE9BRFMubGVuZ3RoKSB7CiAgICAgICAgY29uc3QgaXRlbSA9IERPV05MT0FEU1tuZXh0SW5kZXhdOwogICAgICAgIG5leHRJbmRleCArPSAxOwogICAgICAgIGxvZ1N0ZXAoYERvd25sb2FkaW5nIC0+ICR7aXRlbS5kZXN0aW5hdGlvbn1gKTsKICAgICAgICBhd2FpdCBkb3dubG9hZEZpbGVBc3luYyhpdGVtLnVybCwgaXRlbS5kZXN0aW5hdGlvbik7CiAgICAgIH0KICAgIH0KCiAgICBjb25zdCB3b3JrZXJDb3VudCA9IE1hdGgubWluKE1BWF9ET1dOTE9BRF9DT05DVVJSRU5DWSwgRE9XTkxPQURTLmxlbmd0aCk7CiAgICBjb25zdCB3b3JrZXJzID0gW107CiAgICBmb3IgKGxldCBpbmRleCA9IDA7IGluZGV4IDwgd29ya2VyQ291bnQ7IGluZGV4ICs9IDEpIHsKICAgICAgd29ya2Vycy5wdXNoKHdvcmtlcigpKTsKICAgIH0KICAgIGF3YWl0IFByb21pc2UuYWxsKHdvcmtlcnMpOwogIH0KCiAgZnVuY3Rpb24gY29sbGVjdFJlbGF0aXZlRmlsZXMoZGlyZWN0b3J5LCByZWxhdGl2ZVByZWZpeCwgY29sbGVjdGVkRmlsZXMpIHsKICAgIGNvbnN0IGNoaWxkcmVuID0gZGlyZWN0b3J5Lmxpc3RGaWxlcygpOwogICAgaWYgKCFjaGlsZHJlbikgewogICAgICByZXR1cm47CiAgICB9CgogICAgZm9yIChsZXQgaW5kZXggPSAwOyBpbmRleCA8IGNoaWxkcmVuLmxlbmd0aDsgaW5kZXggKz0gMSkgewogICAgICBjb25zdCBjaGlsZCA9IGNoaWxkcmVuW2luZGV4XTsKICAgICAgY29uc3QgcmVsYXRpdmVQYXRoID0gcmVsYXRpdmVQcmVmaXgKICAgICAgICA/IGAke3JlbGF0aXZlUHJlZml4fS8ke1N0cmluZyhjaGlsZC5nZXROYW1lKCkpfWAKICAgICAgICA6IFN0cmluZyhjaGlsZC5nZXROYW1lKCkpOwoKICAgICAgaWYgKGNoaWxkLmlzRGlyZWN0b3J5KCkpIHsKICAgICAgICBjb2xsZWN0UmVsYXRpdmVGaWxlcyhjaGlsZCwgcmVsYXRpdmVQYXRoLCBjb2xsZWN0ZWRGaWxlcyk7CiAgICAgICAgY29udGludWU7CiAgICAgIH0KCiAgICAgIGNvbGxlY3RlZEZpbGVzLnB1c2gocmVsYXRpdmVQYXRoKTsKICAgIH0KICB9CgogIGZ1bmN0aW9uIHN5bmNCdWlsdEluUGFja2FnZUV4YW1wbGVzKCkgewogICAgY29uc3QgRmlsZSA9IEphdmEudHlwZSgiamF2YS5pby5GaWxlIik7CiAgICBjb25zdCBBc3NldENvcHlVdGlscyA9IEphdmEudHlwZSgiY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXNzZXRDb3B5VXRpbHMiKTsKICAgIGNvbnN0IGNvbnRleHQgPSBKYXZhLmdldEFwcGxpY2F0aW9uQ29udGV4dCgpOwogICAgY29uc3Qgb3V0cHV0RGlyID0gbmV3IEZpbGUoRVhBTVBMRV9QQUNLQUdFU19ESVIpOwogICAgY29uc3QgY29waWVkRmlsZXMgPSBbXTsKCiAgICBBc3NldENvcHlVdGlscy5JTlNUQU5DRS5jb3B5QXNzZXREaXJSZWN1cnNpdmUoCiAgICAgIGNvbnRleHQsCiAgICAgIEJVSUxUSU5fUEFDS0FHRVNfQVNTRVRfRElSLAogICAgICBvdXRwdXREaXIsCiAgICAgIHRydWUKICAgICk7CgogICAgY29sbGVjdFJlbGF0aXZlRmlsZXMob3V0cHV0RGlyLCAiIiwgY29waWVkRmlsZXMpOwogICAgY29waWVkRmlsZXMuc29ydCgpOwogICAgcmV0dXJuIGNvcGllZEZpbGVzOwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gcnVuKCkgewogICAgbG9nU3RlcChgUHJlcGFyaW5nIHNraWxsIHJvb3QgLT4gJHtTS0lMTF9ST09UfWApOwogICAgYXdhaXQgbWFrZURpcmVjdG9yeSgiL3NkY2FyZC9Eb3dubG9hZC9PcGVyaXQvc2tpbGxzIik7CiAgICBhd2FpdCBtYWtlRGlyZWN0b3J5KFNLSUxMX1JPT1QpOwogICAgYXdhaXQgbWFrZURpcmVjdG9yeShSRUZFUkVOQ0VTX0RJUik7CiAgICBhd2FpdCBtYWtlRGlyZWN0b3J5KFRZUEVTX0RJUik7CiAgICBhd2FpdCBtYWtlRGlyZWN0b3J5KFNDUklQVFNfRElSKTsKICAgIGF3YWl0IG1ha2VEaXJlY3RvcnkoRVhBTVBMRVNfRElSKTsKICAgIGF3YWl0IGRvd25sb2FkQWxsRmlsZXMoKTsKCiAgICBsb2dTdGVwKGBTeW5jaW5nIGJ1aWx0LWluIHBhY2thZ2UgZXhhbXBsZXMgLT4gJHtFWEFNUExFX1BBQ0tBR0VTX0RJUn1gKTsKICAgIGNvbnN0IGNvcGllZEV4YW1wbGVGaWxlcyA9IHN5bmNCdWlsdEluUGFja2FnZUV4YW1wbGVzKCk7CiAgICBsb2dTdGVwKGBCdWlsdC1pbiBwYWNrYWdlIGV4YW1wbGVzIHN5bmNlZCAtPiAke2NvcGllZEV4YW1wbGVGaWxlcy5sZW5ndGh9IGZpbGVzYCk7CgogICAgcmV0dXJuIHsKICAgICAgc3VjY2VzczogdHJ1ZSwKICAgICAgbWVzc2FnZTogYCR7U0tJTExfTkFNRX0gaW5zdGFsbGVkIG9yIHVwZGF0ZWQgc3VjY2Vzc2Z1bGx5LmAsCiAgICAgIGRhdGE6IHsKICAgICAgICBza2lsbF9uYW1lOiBTS0lMTF9OQU1FLAogICAgICAgIHNraWxsX3Jvb3Q6IFNLSUxMX1JPT1QsCiAgICAgICAgcmVmZXJlbmNlc19kaXI6IFJFRkVSRU5DRVNfRElSLAogICAgICAgIHR5cGVzX2RpcjogVFlQRVNfRElSLAogICAgICAgIHNjcmlwdHNfZGlyOiBTQ1JJUFRTX0RJUiwKICAgICAgICBleGFtcGxlc19kaXI6IEVYQU1QTEVTX0RJUiwKICAgICAgICBleGFtcGxlc19wYWNrYWdlc19kaXI6IEVYQU1QTEVfUEFDS0FHRVNfRElSLAogICAgICAgIGRvd25sb2FkZWRfY291bnQ6IERPV05MT0FEUy5sZW5ndGgsCiAgICAgICAgdHlwZV9jb3VudDogVFlQRV9GSUxFUy5sZW5ndGgsCiAgICAgICAgYnVpbHRpbl9leGFtcGxlX2NvdW50OiBjb3BpZWRFeGFtcGxlRmlsZXMubGVuZ3RoLAogICAgICAgIGJ1aWx0aW5fZXhhbXBsZV9maWxlczogY29waWVkRXhhbXBsZUZpbGVzLAogICAgICAgIGxvZ3M6IFNhbmRib3hQYWNrYWdlRGV2SW5zdGFsbGVyU3RhdGUubG9ncwogICAgICB9CiAgICB9OwogIH0KCiAgcmV0dXJuIHsKICAgIHJ1bgogIH07Cn0pKCk7CgpTYW5kYm94UGFja2FnZURldkluc3RhbGxlci5ydW4oKQogIC50aGVuKChyZXN1bHQpID0+IHsKICAgIGNvbXBsZXRlKHJlc3VsdCk7CiAgfSkKICAuY2F0Y2goKGVycm9yKSA9PiB7CiAgICBjb21wbGV0ZSh7CiAgICAgIHN1Y2Nlc3M6IGZhbHNlLAogICAgICBtZXNzYWdlOiBTdHJpbmcoZXJyb3IgJiYgZXJyb3IubWVzc2FnZSA/IGVycm9yLm1lc3NhZ2UgOiBlcnJvciksCiAgICAgIGRhdGE6IHsKICAgICAgICBza2lsbF9uYW1lOiAiU2FuZGJveFBhY2thZ2VfREVWIiwKICAgICAgICBsb2dzOiBTYW5kYm94UGFja2FnZURldkluc3RhbGxlclN0YXRlLmxvZ3MKICAgICAgfQogICAgfSk7CiAgfSk7Cg==
+const SandboxPackageDevInstallerState = {
+  logs: []
+};
+
+const SandboxPackageDevInstaller = (function () {
+  const ENVIRONMENT = "android";
+  const SKILL_NAME = "SandboxPackage_DEV";
+  const SKILL_ROOT = `/sdcard/Download/Operit/skills/${SKILL_NAME}`;
+  const REFERENCES_DIR = `${SKILL_ROOT}/references`;
+  const TYPES_DIR = `${SKILL_ROOT}/types`;
+  const SCRIPTS_DIR = `${SKILL_ROOT}/scripts`;
+  const EXAMPLES_DIR = `${SKILL_ROOT}/examples`;
+  const EXAMPLE_PACKAGES_DIR = `${EXAMPLES_DIR}/packages`;
+  const BUILTIN_PACKAGES_ASSET_DIR = "packages";
+  const CDN_BASE = "https://cdn.jsdelivr.net/gh/AAswordman/Operit@main";
+  const MAX_DOWNLOAD_CONCURRENCY = 8;
+  const TYPE_FILES = [
+    "android.d.ts",
+    "chat.d.ts",
+    "compose-dsl.d.ts",
+    "compose-dsl.material3.generated.d.ts",
+    "core.d.ts",
+    "cryptojs.d.ts",
+    "ffmpeg.d.ts",
+    "files.d.ts",
+    "index.d.ts",
+    "java-bridge.d.ts",
+    "jimp.d.ts",
+    "memory.d.ts",
+    "network.d.ts",
+    "okhttp.d.ts",
+    "pako.d.ts",
+    "quickjs-runtime.d.ts",
+    "results.d.ts",
+    "software_settings.d.ts",
+    "system.d.ts",
+    "tasker.d.ts",
+    "tool-types.d.ts",
+    "toolpkg.d.ts",
+    "ui.d.ts",
+    "workflow.d.ts"
+  ];
+
+  const DOWNLOADS = [
+    {
+      url: `${CDN_BASE}/docs/SCRIPT_DEV_SKILL.md`,
+      destination: `${SKILL_ROOT}/SKILL.md`
+    },
+    {
+      url: `${CDN_BASE}/docs/SCRIPT_DEV_GUIDE.md`,
+      destination: `${REFERENCES_DIR}/SCRIPT_DEV_GUIDE.md`
+    },
+    {
+      url: `${CDN_BASE}/docs/TOOLPKG_FORMAT_GUIDE.md`,
+      destination: `${REFERENCES_DIR}/TOOLPKG_FORMAT_GUIDE.md`
+    }
+  ].concat(
+    TYPE_FILES.map((fileName) => ({
+      url: `${CDN_BASE}/examples/types/${fileName}`,
+      destination: `${TYPES_DIR}/${fileName}`
+    }))
+  );
+
+  function logStep(message) {
+    SandboxPackageDevInstallerState.logs.push(message);
+    console.log(message);
+  }
+
+  async function makeDirectory(path) {
+    return await Tools.Files.mkdir(path, true, ENVIRONMENT);
+  }
+
+  async function downloadFileAsync(url, destination) {
+    return await Tools.Files.download(url, destination, ENVIRONMENT);
+  }
+
+  async function downloadAllFiles() {
+    let nextIndex = 0;
+
+    async function worker() {
+      while (nextIndex < DOWNLOADS.length) {
+        const item = DOWNLOADS[nextIndex];
+        nextIndex += 1;
+        logStep(`Downloading -> ${item.destination}`);
+        await downloadFileAsync(item.url, item.destination);
+      }
+    }
+
+    const workerCount = Math.min(MAX_DOWNLOAD_CONCURRENCY, DOWNLOADS.length);
+    const workers = [];
+    for (let index = 0; index < workerCount; index += 1) {
+      workers.push(worker());
+    }
+    await Promise.all(workers);
+  }
+
+  function collectRelativeFiles(directory, relativePrefix, collectedFiles) {
+    const children = directory.listFiles();
+    if (!children) {
+      return;
+    }
+
+    for (let index = 0; index < children.length; index += 1) {
+      const child = children[index];
+      const relativePath = relativePrefix
+        ? `${relativePrefix}/${String(child.getName())}`
+        : String(child.getName());
+
+      if (child.isDirectory()) {
+        collectRelativeFiles(child, relativePath, collectedFiles);
+        continue;
+      }
+
+      collectedFiles.push(relativePath);
+    }
+  }
+
+  function syncBuiltInPackageExamples() {
+    const File = Java.type("java.io.File");
+    const AssetCopyUtils = Java.type("com.bslsjdk.operit.util.AssetCopyUtils");
+    const context = Java.getApplicationContext();
+    const outputDir = new File(EXAMPLE_PACKAGES_DIR);
+    const copiedFiles = [];
+
+    AssetCopyUtils.INSTANCE.copyAssetDirRecursive(
+      context,
+      BUILTIN_PACKAGES_ASSET_DIR,
+      outputDir,
+      true
+    );
+
+    collectRelativeFiles(outputDir, "", copiedFiles);
+    copiedFiles.sort();
+    return copiedFiles;
+  }
+
+  async function run() {
+    logStep(`Preparing skill root -> ${SKILL_ROOT}`);
+    await makeDirectory("/sdcard/Download/Operit/skills");
+    await makeDirectory(SKILL_ROOT);
+    await makeDirectory(REFERENCES_DIR);
+    await makeDirectory(TYPES_DIR);
+    await makeDirectory(SCRIPTS_DIR);
+    await makeDirectory(EXAMPLES_DIR);
+    await downloadAllFiles();
+
+    logStep(`Syncing built-in package examples -> ${EXAMPLE_PACKAGES_DIR}`);
+    const copiedExampleFiles = syncBuiltInPackageExamples();
+    logStep(`Built-in package examples synced -> ${copiedExampleFiles.length} files`);
+
+    return {
+      success: true,
+      message: `${SKILL_NAME} installed or updated successfully.`,
+      data: {
+        skill_name: SKILL_NAME,
+        skill_root: SKILL_ROOT,
+        references_dir: REFERENCES_DIR,
+        types_dir: TYPES_DIR,
+        scripts_dir: SCRIPTS_DIR,
+        examples_dir: EXAMPLES_DIR,
+        examples_packages_dir: EXAMPLE_PACKAGES_DIR,
+        downloaded_count: DOWNLOADS.length,
+        type_count: TYPE_FILES.length,
+        builtin_example_count: copiedExampleFiles.length,
+        builtin_example_files: copiedExampleFiles,
+        logs: SandboxPackageDevInstallerState.logs
+      }
+    };
+  }
+
+  return {
+    run
+  };
+})();
+
+SandboxPackageDevInstaller.run()
+  .then((result) => {
+    complete(result);
+  })
+  .catch((error) => {
+    complete({
+      success: false,
+      message: String(error && error.message ? error.message : error),
+      data: {
+        skill_name: "SandboxPackage_DEV",
+        logs: SandboxPackageDevInstallerState.logs
+      }
+    });
+  });

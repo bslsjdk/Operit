@@ -1,1 +1,245 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCi8qKiBBUEnmj5DkvpvllYbnsbvlnovmnprkuL4gKi8KQFNlcmlhbGl6YWJsZQplbnVtIGNsYXNzIEFwaVByb3ZpZGVyVHlwZSB7CiAgICAgICAgT1BFTkFJLCAvLyBPcGVuQUkgKEdQVOezu+WIlykKICAgICAgICBYQUksIC8vIHhBSSAoR3JvaykKICAgICAgICBPUEVOQUlfUkVTUE9OU0VTLCAvLyBPcGVuQUkgUmVzcG9uc2VzIEFQSQogICAgICAgIE9QRU5BSV9DT0RFWCwgLy8gQ29kZXjvvIhDaGF0R1BUIE9BdXRo77yJCiAgICAgICAgT1BFTkFJX1JFU1BPTlNFU19HRU5FUklDLCAvLyBPcGVuQUkgUmVzcG9uc2Vz6YCa55So77yI6Ieq5a6a5LmJ56uv54K577yJCiAgICAgICAgT1BFTkFJX0dFTkVSSUMsIC8vIE9wZW5BSemAmueUqO+8iOiHquWumuS5ieerr+eCue+8iQogICAgICAgIEFOVEhST1BJQywgLy8gQW50aHJvcGljIChDbGF1ZGXns7vliJcpCiAgICAgICAgQU5USFJPUElDX0dFTkVSSUMsIC8vIEFudGhyb3BpY+mAmueUqO+8iOiHquWumuS5ieerr+eCue+8iQogICAgICAgIEdPT0dMRSwgLy8gR29vZ2xlIChHZW1pbmnns7vliJcpCiAgICAgICAgR0VNSU5JX0dFTkVSSUMsIC8vIEdlbWluaemAmueUqO+8iOiHquWumuS5ieerr+eCue+8iQogICAgICAgIEJBSURVLCAvLyDnmb7luqYgKOaWh+W/g+S4gOiogOezu+WIlykKICAgICAgICBBTElZVU4sIC8vIOmYv+mHjOS6kSAo6YCa5LmJ5Y2D6Zeu57O75YiXKQogICAgICAgIFhVTkZFSSwgLy8g6K6v6aOeICjmmJ/ngavorqTnn6Xns7vliJcpCiAgICAgICAgWkhJUFUsIC8vIOaZuuiwsUFJIChDaGF0R0xN57O75YiXKQogICAgICAgIEJBSUNIVUFOLCAvLyDnmb7lt53lpKfmqKHlnosKICAgICAgICBNT09OU0hPVCwgLy8g5pyI5LmL5pqX6Z2i5aSn5qih5Z6LCiAgICAgICAgTUlNTywgLy8gWGlhb21pIE1pTW8KICAgICAgICBERUVQU0VFSywgLy8gRGVlcHNlZWvlpKfmqKHlnosKICAgICAgICBNSVNUUkFMLCAvLyBNaXN0cmFsIEFJIChDb2Rlc3RyYWznrYkpCiAgICAgICAgU0lMSUNPTkZMT1csIC8vIOehheWfuua1geWKqAogICAgICAgIElGTE9XLCAvLyBpRmxvdwogICAgICAgIE9QRU5ST1VURVIsIC8vIE9wZW5Sb3V0ZXIgKOWkmuaooeWei+iBmuWQiCkKICAgICAgICBPUEVOQ09ERSwgLy8gT3BlbkNvZGUgWmVuL0dvICjmjInln7rnoYDot6/lvoTpgInmi6nmnI3liqHvvIzmjInmqKHlnotJROmAieaLqeWNj+iurikKICAgICAgICBGT1VSX1JPVVRFUiwgLy8gNFJvdXRlcgogICAgICAgIE5PVVNfUE9SVEFMLCAvLyBOb3VzIFBvcnRhbCAvIEluZmVyZW5jZSBBUEkKICAgICAgICBJTkZJTklBSSwgLy8g5peg6Zeu6Iqv56m5CiAgICAgICAgQUxJUEFZX0JBSUxJTkcsIC8vIOaUr+S7mOWuneeZvueBteWkp+aooeWeiwogICAgICAgIERPVUJBTywgLy8g6LGG5YyF77yI54Gr5bGx5qih5Z6L77yJCiAgICAgICAgTlZJRElBLCAvLyBOVklESUEgQVBJIENhdGFsb2cgLyBOSU0KICAgICAgICBMTVNUVURJTywgLy8gTE0gU3R1ZGlv5pys5Zyw5qih5Z6L5pyN5YqhCiAgICAgICAgT0xMQU1BLCAvLyBPbGxhbWEg5pys5ZywL+engeaciemDqOe9suacjeWKoe+8iE9wZW5BSeWFvOWuue+8iQogICAgICAgIE9QRU5BSV9MT0NBTCwgLy8gT3BlbkFJ5YW85a655pys5Zyw5qih5Z6L5pyN5YqhCiAgICAgICAgTU5OLCAvLyBNTk7mnKzlnLDmjqjnkIblvJXmk44KICAgICAgICBMTEFNQV9DUFAsIC8vIGxsYW1hLmNwcCDmnKzlnLDmjqjnkIblvJXmk44KICAgICAgICBQUElORlJBLCAvLyDmtL7mrKfkupEKICAgICAgICBOT1ZJVEEsIC8vIE5vdml0YSBBSQogICAgICAgIE1JTklNQVgsIC8vIE1pbmlNYXgKICAgICAgICBPVEhFUjsgLy8g5YW25LuW5o+Q5L6b5ZWG77yI6Ieq5a6a5LmJ56uv54K577yJCgogICAgICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgICAgICAgICAgZnVuIGZyb21Qcm92aWRlclR5cGVJZChwcm92aWRlclR5cGVJZDogU3RyaW5nKTogQXBpUHJvdmlkZXJUeXBlPyB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBub3JtYWxpemVkID0gcHJvdmlkZXJUeXBlSWQudHJpbSgpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChub3JtYWxpemVkLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHZhbHVlcygpLmZpcnN0T3JOdWxsIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpdC5uYW1lLmVxdWFscyhub3JtYWxpemVkLCBpZ25vcmVDYXNlID0gdHJ1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgIH0KfQoKb2JqZWN0IE1vZGVsQ29uZmlnRGVmYXVsdHMgewogICAgICAgIGNvbnN0IHZhbCBERUZBVUxUX0NPTlRFWFRfTEVOR1RIID0gNjQuMGYKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9NQVhfQ09OVEVYVF9MRU5HVEggPSAyMDAuMGYKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9FTkFCTEVfTUFYX0NPTlRFWFRfTU9ERSA9IGZhbHNlCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfRU5BQkxFX1RPT0xfQ0FMTCA9IHRydWUKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9TVU1NQVJZX1RPS0VOX1RIUkVTSE9MRCA9IDAuNzBmCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfRU5BQkxFX1NVTU1BUlkgPSB0cnVlCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfRU5BQkxFX1NVTU1BUllfQllfTUVTU0FHRV9DT1VOVCA9IHRydWUKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9TVU1NQVJZX01FU1NBR0VfQ09VTlRfVEhSRVNIT0xEID0gMTYKfQoKZGF0YSBjbGFzcyBTdW1tYXJ5U2VjdGlvbkNvbmZpZygKICAgICAgICB2YWwgaWQ6IFN0cmluZywKICAgICAgICB2YWwgZW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgdmFsIHRpdGxlOiBTdHJpbmcgPSAiIiwKICAgICAgICB2YWwgaW5zdHJ1Y3Rpb246IFN0cmluZyA9ICIiCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBTdW1tYXJ5U2VjdGlvbk92ZXJyaWRlKAogICAgICAgIHZhbCBpZDogU3RyaW5nLAogICAgICAgIHZhbCBlbmFibGVkOiBCb29sZWFuPyA9IG51bGwsCiAgICAgICAgdmFsIHRpdGxlOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICB2YWwgaW5zdHJ1Y3Rpb246IFN0cmluZz8gPSBudWxsCikKCmRhdGEgY2xhc3MgQ29udmVyc2F0aW9uU3VtbWFyeUNvbmZpZygKICAgICAgICB2YWwgZ2xvYmFsUnVsZXM6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHZhbCBzZWN0aW9uT3ZlcnJpZGVzOiBMaXN0PFN1bW1hcnlTZWN0aW9uT3ZlcnJpZGU+ID0gZW1wdHlMaXN0KCksCiAgICAgICAgdmFsIGRpYWxvZ3VlUmV2aWV3RW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgdmFsIGRpYWxvZ3VlUmV2aWV3VGl0bGU6IFN0cmluZyA9ICIiCikKCi8qKiDooajnpLrlrozmlbTnmoTmqKHlnovphY3nva7vvIzljIXmi6xBUEnorr7nva7lkozmqKHlnovlj4LmlbAgKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIE1vZGVsQ29uZmlnRGF0YSgKICAgICAgICB2YWwgaWQ6IFN0cmluZywKICAgICAgICB2YWwgbmFtZTogU3RyaW5nLAoKICAgICAgICAvLyBBUEnorr7nva4KICAgICAgICB2YWwgYXBpS2V5OiBTdHJpbmcgPSAiIiwKICAgICAgICB2YWwgYXBpRW5kcG9pbnQ6IFN0cmluZyA9ICIiLAogICAgICAgIHZhbCBtb2RlbE5hbWU6IFN0cmluZyA9ICIiLAogICAgICAgIHZhbCBhcGlQcm92aWRlclR5cGU6IEFwaVByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5ERUVQU0VFSywKICAgICAgICB2YWwgYXBpUHJvdmlkZXJUeXBlSWQ6IFN0cmluZyA9IGFwaVByb3ZpZGVyVHlwZS5uYW1lLAoKICAgICAgICAvLyDlpJpBUEkgS2V55pSv5oyBCiAgICAgICAgdmFsIHVzZU11bHRpcGxlQXBpS2V5czogQm9vbGVhbiA9IGZhbHNlLCAvLyDmmK/lkKblkK/nlKjlpJpBUEkgS2V55qih5byPCiAgICAgICAgdmFsIGFwaUtleVBvb2w6IExpc3Q8QXBpS2V5SW5mbz4gPSBlbXB0eUxpc3QoKSwgLy8gQVBJIEtleeaxoAogICAgICAgIHZhbCBjdXJyZW50S2V5SW5kZXg6IEludCA9IDAsIC8vIOW9k+WJjeS9v+eUqOeahEtleee0ouW8lQogICAgICAgIHZhbCBrZXlSb3RhdGlvbk1vZGU6IFN0cmluZyA9ICJST1VORF9ST0JJTiIsIC8vIOi9ruivouaooeW8jzogUk9VTkRfUk9CSU4gLyBSQU5ET00KCiAgICAgICAgLy8g5piv5ZCm5YyF5ZCr6Ieq5a6a5LmJ5Y+C5pWwCiAgICAgICAgdmFsIGhhc0N1c3RvbVBhcmFtZXRlcnM6IEJvb2xlYW4gPSBmYWxzZSwKCiAgICAgICAgLy8g5qih5Z6L5Y+C5pWw55qEZW5hYmxlZOeKtuaAgQogICAgICAgIHZhbCBtYXhUb2tlbnNFbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmFsIHRlbXBlcmF0dXJlRW5hYmxlZDogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHZhbCB0b3BQRW5hYmxlZDogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHZhbCB0b3BLRW5hYmxlZDogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHZhbCBwcmVzZW5jZVBlbmFsdHlFbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmFsIGZyZXF1ZW5jeVBlbmFsdHlFbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmFsIHJlcGV0aXRpb25QZW5hbHR5RW5hYmxlZDogQm9vbGVhbiA9IGZhbHNlLAoKICAgICAgICAvLyDmqKHlnovlj4LmlbDlgLwKICAgICAgICB2YWwgbWF4VG9rZW5zOiBJbnQgPSA0MDk2LAogICAgICAgIHZhbCB0ZW1wZXJhdHVyZTogRmxvYXQgPSAxLjBmLAogICAgICAgIHZhbCB0b3BQOiBGbG9hdCA9IDEuMGYsCiAgICAgICAgdmFsIHRvcEs6IEludCA9IDAsCiAgICAgICAgdmFsIHByZXNlbmNlUGVuYWx0eTogRmxvYXQgPSAwLjBmLAogICAgICAgIHZhbCBmcmVxdWVuY3lQZW5hbHR5OiBGbG9hdCA9IDAuMGYsCiAgICAgICAgdmFsIHJlcGV0aXRpb25QZW5hbHR5OiBGbG9hdCA9IDEuMGYsCgogICAgICAgIC8vIOiHquWumuS5ieWPguaVsEpTT07lrZfnrKbkuLIKICAgICAgICB2YWwgY3VzdG9tUGFyYW1ldGVyczogU3RyaW5nID0gIltdIiwKCiAgICAgICAgLy8g5b2T5YmN5qih5Z6L6YWN572u55qE5oCd6ICD6KeE5YiZ77yb5YaF572u6YCC6YWN6KeE5YiZ55SxZGF0YS5jb2xsZWN0c+mbhuS4ree7tOaKpOW5tuWcqOmFjee9ruWIm+W7uuaIluS+m+W6lOWVhuWIh+aNouaXtuWGmeWFpQogICAgICAgIHZhbCB0aGlua2luZ0NvbmZpZ3VyYXRpb25zOiBTdHJpbmcgPSAiW10iLAoKICAgICAgICAvLyDlvZPliY3mqKHlnovphY3nva7pgInkuK3nmoTmgJ3ogIPmoaPkvY0KICAgICAgICB2YWwgdGhpbmtpbmdPcHRpb25JZDogU3RyaW5nID0gIiIsCgogICAgICAgIC8vIOiHquWumuS5ieivt+axguWktEpTT07lrZfnrKbkuLIKICAgICAgICB2YWwgY3VzdG9tSGVhZGVyczogU3RyaW5nID0gInt9IiwKCiAgICAgICAgLy8g5LiK5LiL5paHL+aAu+e7k+mFjee9rgogICAgICAgIHZhbCBjb250ZXh0TGVuZ3RoOiBGbG9hdCA9IE1vZGVsQ29uZmlnRGVmYXVsdHMuREVGQVVMVF9DT05URVhUX0xFTkdUSCwKICAgICAgICB2YWwgbWF4Q29udGV4dExlbmd0aDogRmxvYXQgPSBNb2RlbENvbmZpZ0RlZmF1bHRzLkRFRkFVTFRfTUFYX0NPTlRFWFRfTEVOR1RILAogICAgICAgIHZhbCBlbmFibGVNYXhDb250ZXh0TW9kZTogQm9vbGVhbiA9IE1vZGVsQ29uZmlnRGVmYXVsdHMuREVGQVVMVF9FTkFCTEVfTUFYX0NPTlRFWFRfTU9ERSwKICAgICAgICB2YWwgc3VtbWFyeVRva2VuVGhyZXNob2xkOiBGbG9hdCA9IE1vZGVsQ29uZmlnRGVmYXVsdHMuREVGQVVMVF9TVU1NQVJZX1RPS0VOX1RIUkVTSE9MRCwKICAgICAgICB2YWwgZW5hYmxlU3VtbWFyeTogQm9vbGVhbiA9IE1vZGVsQ29uZmlnRGVmYXVsdHMuREVGQVVMVF9FTkFCTEVfU1VNTUFSWSwKICAgICAgICB2YWwgZW5hYmxlU3VtbWFyeUJ5TWVzc2FnZUNvdW50OiBCb29sZWFuID0KICAgICAgICAgICAgICAgIE1vZGVsQ29uZmlnRGVmYXVsdHMuREVGQVVMVF9FTkFCTEVfU1VNTUFSWV9CWV9NRVNTQUdFX0NPVU5ULAogICAgICAgIHZhbCBzdW1tYXJ5TWVzc2FnZUNvdW50VGhyZXNob2xkOiBJbnQgPQogICAgICAgICAgICAgICAgTW9kZWxDb25maWdEZWZhdWx0cy5ERUZBVUxUX1NVTU1BUllfTUVTU0FHRV9DT1VOVF9USFJFU0hPTEQsCiAgICAgICAgLy8g6Ieq5a6a5LmJ5oC757uT6KeE5YiZCiAgICAgICAgdmFsIHN1bW1hcnlDdXN0b21SdWxlczogU3RyaW5nID0gIiIsCiAgICAgICAgdmFsIHN1bW1hcnlTZWN0aW9uT3ZlcnJpZGVzOiBMaXN0PFN1bW1hcnlTZWN0aW9uT3ZlcnJpZGU+ID0gZW1wdHlMaXN0KCksCiAgICAgICAgdmFsIGVuYWJsZVN1bW1hcnlEaWFsb2d1ZVJldmlldzogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgdmFsIHN1bW1hcnlEaWFsb2d1ZVJldmlld1RpdGxlOiBTdHJpbmcgPSAiIiwKCiAgICAgICAgLy8gTU5O54m55a6a6YWN572uCiAgICAgICAgLy8g5rOo5oSP77yaTU5O5qih5Z6L6Lev5b6E5Lya5qC55o2ubW9kZWxOYW1l6Ieq5Yqo5p6E5bu677yM5LiN6ZyA6KaB5Y2V54us5a2Y5YKoCiAgICAgICAgdmFsIG1ubkZvcndhcmRUeXBlOiBJbnQgPSAwLCAvLyDliY3lkJHorqHnrpfnsbvlnosgKENQVS9HUFXnrYkpCiAgICAgICAgdmFsIG1ublRocmVhZENvdW50OiBJbnQgPSA0LCAvLyDmjqjnkIbnur/nqIvmlbAKCiAgICAgICAgLy8gbGxhbWEuY3BwIOeJueWumumFjee9rgogICAgICAgIHZhbCBsbGFtYVRocmVhZENvdW50OiBJbnQgPSA0LCAvLyDmjqjnkIbnur/nqIvmlbAKICAgICAgICB2YWwgbGxhbWFDb250ZXh0U2l6ZTogSW50ID0gMjA0OCwgLy8gbl9jdHgKICAgICAgICB2YWwgbGxhbWFCYXRjaFNpemU6IEludCA9IDUxMiwgLy8gbl9iYXRjaAogICAgICAgIHZhbCBsbGFtYVVCYXRjaFNpemU6IEludCA9IDUxMiwgLy8gbl91YmF0Y2gKICAgICAgICB2YWwgbGxhbWFHcHVMYXllcnM6IEludCA9IDAsIC8vIG5fZ3B1X2xheWVycwogICAgICAgIHZhbCBsbGFtYVVzZU1tYXA6IEJvb2xlYW4gPSBmYWxzZSwgLy8gQW5kcm9pZOS4ium7mOiupOWFs+mXre+8jOWHj+WwkW1tYXDlr7zoh7TnmoTlhbzlrrnmgKfpl67popgKICAgICAgICB2YWwgbGxhbWFGbGFzaEF0dGVudGlvbjogQm9vbGVhbiA9IGZhbHNlLCAvLyBBbmRyb2lk5LiK6buY6K6k5YWz6Zet77yM5pu05o6l6L+RUG9ja2V0UGFs5a6J5YWo5YC8CiAgICAgICAgdmFsIGxsYW1hS3ZVbmlmaWVkOiBCb29sZWFuID0gdHJ1ZSwgLy8g5Y2V5bm25Y+R6IGK5aSp6buY6K6k5byA5ZCv57uf5LiAS1bnvJPlrZgKICAgICAgICB2YWwgbGxhbWFPZmZsb2FkS3F2OiBCb29sZWFuID0gZmFsc2UsIC8vIOS7heWcqOWQr+eUqEdQVeWxguaXtuacieaEj+S5iQoKICAgICAgICAvLyDlm77niYflpITnkIbphY3nva4KICAgICAgICB2YWwgZW5hYmxlRGlyZWN0SW1hZ2VQcm9jZXNzaW5nOiBCb29sZWFuID0gZmFsc2UsIC8vIOaYr+WQpuWQr+eUqOebtOaOpeWbvueJh+WkhOeQhgoKICAgICAgICAvLyDpn7PpopEv6KeG6aKR5aSE55CG6YWN572uCiAgICAgICAgdmFsIGVuYWJsZURpcmVjdEF1ZGlvUHJvY2Vzc2luZzogQm9vbGVhbiA9IGZhbHNlLCAvLyDmmK/lkKblkK/nlKjnm7TmjqXpn7PpopHlpITnkIYKICAgICAgICB2YWwgZW5hYmxlRGlyZWN0VmlkZW9Qcm9jZXNzaW5nOiBCb29sZWFuID0gZmFsc2UsIC8vIOaYr+WQpuWQr+eUqOebtOaOpeinhumikeWkhOeQhgoKICAgICAgICAvLyBHZW1pbmnnibnlrprphY3nva4KICAgICAgICB2YWwgZW5hYmxlR29vZ2xlU2VhcmNoOiBCb29sZWFuID0gZmFsc2UsIC8vIOaYr+WQpuWQr+eUqEdvb2dsZSBTZWFyY2ggR3JvdW5kaW5nICjku4VHZW1pbmnmlK/mjIEpCgogICAgICAgIC8vIERlZXBTZWVr54m55a6a6YWN572uCiAgICAgICAgdmFsIGVuYWJsZURlZXBTZWVrV2ViU2VhcmNoOiBCb29sZWFuID0gZmFsc2UsIC8vIOaYr+WQpuWQr+eUqERlZXBTZWVrIFJlc3BvbnNlc+acjeWKoeerr+aQnOe0ogoKICAgICAgICAvLyBDb2RleOeJueWumumFjee9rgogICAgICAgIHZhbCBlbmFibGVDb2RleFdlYlNlYXJjaDogQm9vbGVhbiA9IGZhbHNlLCAvLyDmmK/lkKblkK/nlKhDb2RleOiupOivgeeZu+W9leS4i+eahOacjeWKoeerr+e9kee7nOaQnOe0ogoKICAgICAgICAvLyBDbGF1ZGXnibnlrprphY3nva4KICAgICAgICB2YWwgZW5hYmxlQ2xhdWRlMWhQcm9tcHRDYWNoZTogQm9vbGVhbiA9IGZhbHNlLCAvLyDmmK/lkKblkK/nlKgx5bCP5pe25o+Q56S657yT5a2YVFRMICjku4VDbGF1ZGXmlK/mjIEpCgogICAgICAgIC8vIFRvb2wgQ2FsbOmFjee9rgogICAgICAgIHZhbCBlbmFibGVUb29sQ2FsbDogQm9vbGVhbiA9IE1vZGVsQ29uZmlnRGVmYXVsdHMuREVGQVVMVF9FTkFCTEVfVE9PTF9DQUxMLCAvLyDmmK/lkKblkK/nlKhUb29sIENhbGzmjqXlj6PosIPnlKjlt6XlhbfvvIjkvb/nlKjmqKHlnovljp/nlJ/lt6XlhbfosIPnlKjogIzpnZ5YTUzmoLzlvI/vvIkKCiAgICAgICAgLy8g6K+35rGC6aKR546H6ZmQ5Yi26YWN572uCiAgICAgICAgdmFsIHJlcXVlc3RMaW1pdFBlck1pbnV0ZTogSW50ID0gMCwgLy8g5q+P5YiG6ZKf5pyA5aSn6K+35rGC5qyh5pWw77yMMOihqOekuuS4jemZkOa1gQogICAgICAgIHZhbCBtYXhDb25jdXJyZW50UmVxdWVzdHM6IEludCA9IDAgLy8g5pyA5aSn5bm25Y+R6K+35rGC5pWw77yMMOihqOekuuS4jemZkOWItgopCgovKiog566A5YyW54mI55qE5qih5Z6L6YWN572u5pWw5o2u77yM55So5LqO5YiX6KGo5pi+56S6ICovCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBNb2RlbENvbmZpZ1N1bW1hcnkoCiAgICAgICAgdmFsIGlkOiBTdHJpbmcsCiAgICAgICAgdmFsIG5hbWU6IFN0cmluZywKICAgICAgICB2YWwgbW9kZWxOYW1lOiBTdHJpbmcgPSAiIiwKICAgICAgICB2YWwgYXBpRW5kcG9pbnQ6IFN0cmluZyA9ICIiLAogICAgICAgIHZhbCBhcGlQcm92aWRlclR5cGU6IEFwaVByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5ERUVQU0VFSywKICAgICAgICB2YWwgYXBpUHJvdmlkZXJUeXBlSWQ6IFN0cmluZyA9IGFwaVByb3ZpZGVyVHlwZS5uYW1lLAogICAgICAgIHZhbCB0aGlua2luZ0NvbmZpZ3VyYXRpb25zOiBTdHJpbmcgPSAiW10iLAogICAgICAgIHZhbCB0aGlua2luZ09wdGlvbklkOiBTdHJpbmcgPSAiIiwKICAgICAgICB2YWwgbW9kZWxJbmRleDogSW50ID0gMCAvLyDlvZNtb2RlbE5hbWXljIXlkKvlpJrkuKrmqKHlnovvvIjpgJflj7fliIbpmpTvvInml7bvvIzpgInmi6nnrKzlh6DkuKrmqKHlnovvvIjku44w5byA5aeL77yJCikKCi8qKiDku47pgJflj7fliIbpmpTnmoTmqKHlnovlkI3np7DlrZfnrKbkuLLkuK3moLnmja7ntKLlvJXojrflj5blhbfkvZPmqKHlnosgKi8KZnVuIGdldE1vZGVsQnlJbmRleChtb2RlbE5hbWU6IFN0cmluZywgaW5kZXg6IEludCk6IFN0cmluZyB7CiAgICBpZiAobW9kZWxOYW1lLmlzRW1wdHkoKSkgcmV0dXJuICIiCiAgICB2YWwgbW9kZWxzID0gbW9kZWxOYW1lLnNwbGl0KCIsIikubWFwIHsgaXQudHJpbSgpIH0uZmlsdGVyIHsgaXQuaXNOb3RFbXB0eSgpIH0KICAgIHJldHVybiBpZiAoaW5kZXggPj0gMCAmJiBpbmRleCA8IG1vZGVscy5zaXplKSBtb2RlbHNbaW5kZXhdIGVsc2UgbW9kZWxzLmdldE9yTnVsbCgwKSA/OiAiIgp9CgovKiog6I635Y+W5qih5Z6L5YiX6KGoICovCmZ1biBnZXRNb2RlbExpc3QobW9kZWxOYW1lOiBTdHJpbmcpOiBMaXN0PFN0cmluZz4gewogICAgaWYgKG1vZGVsTmFtZS5pc0VtcHR5KCkpIHJldHVybiBlbXB0eUxpc3QoKQogICAgcmV0dXJuIG1vZGVsTmFtZS5zcGxpdCgiLCIpLm1hcCB7IGl0LnRyaW0oKSB9LmZpbHRlciB7IGl0LmlzTm90RW1wdHkoKSB9Cn0KCi8qKiAKICog6K6h566X5pyJ5pWI55qE5qih5Z6L57Si5byV77yI5aSE55CG6LaK55WM5oOF5Ya177yJCiAqIOWmguaenOe0ouW8lei2heWHuuiMg+WbtO+8jOiHquWKqOi/lOWbnjDvvIjnrKzkuIDkuKrmqKHlnovvvIkKICogQHBhcmFtIG1vZGVsTmFtZSDpgJflj7fliIbpmpTnmoTmqKHlnovlkI3np7DlrZfnrKbkuLIKICogQHBhcmFtIHJlcXVlc3RlZEluZGV4IOivt+axgueahOe0ouW8lQogKiBAcmV0dXJuIOacieaViOeahOe0ouW8leWAvO+8iDDliLDmqKHlnovmlbDph48tMeS5i+mXtO+8iQogKi8KZnVuIGdldFZhbGlkTW9kZWxJbmRleChtb2RlbE5hbWU6IFN0cmluZywgcmVxdWVzdGVkSW5kZXg6IEludCk6IEludCB7CiAgICB2YWwgbW9kZWxMaXN0ID0gZ2V0TW9kZWxMaXN0KG1vZGVsTmFtZSkKICAgIHJldHVybiBpZiAocmVxdWVzdGVkSW5kZXggPj0gMCAmJiByZXF1ZXN0ZWRJbmRleCA8IG1vZGVsTGlzdC5zaXplKSB7CiAgICAgICAgcmVxdWVzdGVkSW5kZXgKICAgIH0gZWxzZSB7CiAgICAgICAgMCAvLyDntKLlvJXotornlYzml7bkvb/nlKjnrKzkuIDkuKoKICAgIH0KfQo=
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+
+/** API提供商类型枚举 */
+@Serializable
+enum class ApiProviderType {
+        OPENAI, // OpenAI (GPT系列)
+        XAI, // xAI (Grok)
+        OPENAI_RESPONSES, // OpenAI Responses API
+        OPENAI_CODEX, // Codex（ChatGPT OAuth）
+        OPENAI_RESPONSES_GENERIC, // OpenAI Responses通用（自定义端点）
+        OPENAI_GENERIC, // OpenAI通用（自定义端点）
+        ANTHROPIC, // Anthropic (Claude系列)
+        ANTHROPIC_GENERIC, // Anthropic通用（自定义端点）
+        GOOGLE, // Google (Gemini系列)
+        GEMINI_GENERIC, // Gemini通用（自定义端点）
+        BAIDU, // 百度 (文心一言系列)
+        ALIYUN, // 阿里云 (通义千问系列)
+        XUNFEI, // 讯飞 (星火认知系列)
+        ZHIPU, // 智谱AI (ChatGLM系列)
+        BAICHUAN, // 百川大模型
+        MOONSHOT, // 月之暗面大模型
+        MIMO, // Xiaomi MiMo
+        DEEPSEEK, // Deepseek大模型
+        MISTRAL, // Mistral AI (Codestral等)
+        SILICONFLOW, // 硅基流动
+        IFLOW, // iFlow
+        OPENROUTER, // OpenRouter (多模型聚合)
+        OPENCODE, // OpenCode Zen/Go (按基础路径选择服务，按模型ID选择协议)
+        FOUR_ROUTER, // 4Router
+        NOUS_PORTAL, // Nous Portal / Inference API
+        INFINIAI, // 无问芯穹
+        ALIPAY_BAILING, // 支付宝百灵大模型
+        DOUBAO, // 豆包（火山模型）
+        NVIDIA, // NVIDIA API Catalog / NIM
+        LMSTUDIO, // LM Studio本地模型服务
+        OLLAMA, // Ollama 本地/私有部署服务（OpenAI兼容）
+        OPENAI_LOCAL, // OpenAI兼容本地模型服务
+        MNN, // MNN本地推理引擎
+        LLAMA_CPP, // llama.cpp 本地推理引擎
+        PPINFRA, // 派欧云
+        NOVITA, // Novita AI
+        MINIMAX, // MiniMax
+        OTHER; // 其他提供商（自定义端点）
+
+        companion object {
+                fun fromProviderTypeId(providerTypeId: String): ApiProviderType? {
+                        val normalized = providerTypeId.trim()
+                        if (normalized.isEmpty()) {
+                                return null
+                        }
+                        return values().firstOrNull {
+                                it.name.equals(normalized, ignoreCase = true)
+                        }
+                }
+        }
+}
+
+object ModelConfigDefaults {
+        const val DEFAULT_CONTEXT_LENGTH = 64.0f
+        const val DEFAULT_MAX_CONTEXT_LENGTH = 200.0f
+        const val DEFAULT_ENABLE_MAX_CONTEXT_MODE = false
+        const val DEFAULT_ENABLE_TOOL_CALL = true
+        const val DEFAULT_SUMMARY_TOKEN_THRESHOLD = 0.70f
+        const val DEFAULT_ENABLE_SUMMARY = true
+        const val DEFAULT_ENABLE_SUMMARY_BY_MESSAGE_COUNT = true
+        const val DEFAULT_SUMMARY_MESSAGE_COUNT_THRESHOLD = 16
+}
+
+data class SummarySectionConfig(
+        val id: String,
+        val enabled: Boolean = true,
+        val title: String = "",
+        val instruction: String = ""
+)
+
+@Serializable
+data class SummarySectionOverride(
+        val id: String,
+        val enabled: Boolean? = null,
+        val title: String? = null,
+        val instruction: String? = null
+)
+
+data class ConversationSummaryConfig(
+        val globalRules: String? = null,
+        val sectionOverrides: List<SummarySectionOverride> = emptyList(),
+        val dialogueReviewEnabled: Boolean = true,
+        val dialogueReviewTitle: String = ""
+)
+
+/** 表示完整的模型配置，包括API设置和模型参数 */
+@Serializable
+data class ModelConfigData(
+        val id: String,
+        val name: String,
+
+        // API设置
+        val apiKey: String = "",
+        val apiEndpoint: String = "",
+        val modelName: String = "",
+        val apiProviderType: ApiProviderType = ApiProviderType.DEEPSEEK,
+        val apiProviderTypeId: String = apiProviderType.name,
+
+        // 多API Key支持
+        val useMultipleApiKeys: Boolean = false, // 是否启用多API Key模式
+        val apiKeyPool: List<ApiKeyInfo> = emptyList(), // API Key池
+        val currentKeyIndex: Int = 0, // 当前使用的Key索引
+        val keyRotationMode: String = "ROUND_ROBIN", // 轮询模式: ROUND_ROBIN / RANDOM
+
+        // 是否包含自定义参数
+        val hasCustomParameters: Boolean = false,
+
+        // 模型参数的enabled状态
+        val maxTokensEnabled: Boolean = false,
+        val temperatureEnabled: Boolean = false,
+        val topPEnabled: Boolean = false,
+        val topKEnabled: Boolean = false,
+        val presencePenaltyEnabled: Boolean = false,
+        val frequencyPenaltyEnabled: Boolean = false,
+        val repetitionPenaltyEnabled: Boolean = false,
+
+        // 模型参数值
+        val maxTokens: Int = 4096,
+        val temperature: Float = 1.0f,
+        val topP: Float = 1.0f,
+        val topK: Int = 0,
+        val presencePenalty: Float = 0.0f,
+        val frequencyPenalty: Float = 0.0f,
+        val repetitionPenalty: Float = 1.0f,
+
+        // 自定义参数JSON字符串
+        val customParameters: String = "[]",
+
+        // 当前模型配置的思考规则；内置适配规则由data.collects集中维护并在配置创建或供应商切换时写入
+        val thinkingConfigurations: String = "[]",
+
+        // 当前模型配置选中的思考档位
+        val thinkingOptionId: String = "",
+
+        // 自定义请求头JSON字符串
+        val customHeaders: String = "{}",
+
+        // 上下文/总结配置
+        val contextLength: Float = ModelConfigDefaults.DEFAULT_CONTEXT_LENGTH,
+        val maxContextLength: Float = ModelConfigDefaults.DEFAULT_MAX_CONTEXT_LENGTH,
+        val enableMaxContextMode: Boolean = ModelConfigDefaults.DEFAULT_ENABLE_MAX_CONTEXT_MODE,
+        val summaryTokenThreshold: Float = ModelConfigDefaults.DEFAULT_SUMMARY_TOKEN_THRESHOLD,
+        val enableSummary: Boolean = ModelConfigDefaults.DEFAULT_ENABLE_SUMMARY,
+        val enableSummaryByMessageCount: Boolean =
+                ModelConfigDefaults.DEFAULT_ENABLE_SUMMARY_BY_MESSAGE_COUNT,
+        val summaryMessageCountThreshold: Int =
+                ModelConfigDefaults.DEFAULT_SUMMARY_MESSAGE_COUNT_THRESHOLD,
+        // 自定义总结规则
+        val summaryCustomRules: String = "",
+        val summarySectionOverrides: List<SummarySectionOverride> = emptyList(),
+        val enableSummaryDialogueReview: Boolean = true,
+        val summaryDialogueReviewTitle: String = "",
+
+        // MNN特定配置
+        // 注意：MNN模型路径会根据modelName自动构建，不需要单独存储
+        val mnnForwardType: Int = 0, // 前向计算类型 (CPU/GPU等)
+        val mnnThreadCount: Int = 4, // 推理线程数
+
+        // llama.cpp 特定配置
+        val llamaThreadCount: Int = 4, // 推理线程数
+        val llamaContextSize: Int = 2048, // n_ctx
+        val llamaBatchSize: Int = 512, // n_batch
+        val llamaUBatchSize: Int = 512, // n_ubatch
+        val llamaGpuLayers: Int = 0, // n_gpu_layers
+        val llamaUseMmap: Boolean = false, // Android上默认关闭，减少mmap导致的兼容性问题
+        val llamaFlashAttention: Boolean = false, // Android上默认关闭，更接近PocketPal安全值
+        val llamaKvUnified: Boolean = true, // 单并发聊天默认开启统一KV缓存
+        val llamaOffloadKqv: Boolean = false, // 仅在启用GPU层时有意义
+
+        // 图片处理配置
+        val enableDirectImageProcessing: Boolean = false, // 是否启用直接图片处理
+
+        // 音频/视频处理配置
+        val enableDirectAudioProcessing: Boolean = false, // 是否启用直接音频处理
+        val enableDirectVideoProcessing: Boolean = false, // 是否启用直接视频处理
+
+        // Gemini特定配置
+        val enableGoogleSearch: Boolean = false, // 是否启用Google Search Grounding (仅Gemini支持)
+
+        // DeepSeek特定配置
+        val enableDeepSeekWebSearch: Boolean = false, // 是否启用DeepSeek Responses服务端搜索
+
+        // Codex特定配置
+        val enableCodexWebSearch: Boolean = false, // 是否启用Codex认证登录下的服务端网络搜索
+
+        // Claude特定配置
+        val enableClaude1hPromptCache: Boolean = false, // 是否启用1小时提示缓存TTL (仅Claude支持)
+
+        // Tool Call配置
+        val enableToolCall: Boolean = ModelConfigDefaults.DEFAULT_ENABLE_TOOL_CALL, // 是否启用Tool Call接口调用工具（使用模型原生工具调用而非XML格式）
+
+        // 请求频率限制配置
+        val requestLimitPerMinute: Int = 0, // 每分钟最大请求次数，0表示不限流
+        val maxConcurrentRequests: Int = 0 // 最大并发请求数，0表示不限制
+)
+
+/** 简化版的模型配置数据，用于列表显示 */
+@Serializable
+data class ModelConfigSummary(
+        val id: String,
+        val name: String,
+        val modelName: String = "",
+        val apiEndpoint: String = "",
+        val apiProviderType: ApiProviderType = ApiProviderType.DEEPSEEK,
+        val apiProviderTypeId: String = apiProviderType.name,
+        val thinkingConfigurations: String = "[]",
+        val thinkingOptionId: String = "",
+        val modelIndex: Int = 0 // 当modelName包含多个模型（逗号分隔）时，选择第几个模型（从0开始）
+)
+
+/** 从逗号分隔的模型名称字符串中根据索引获取具体模型 */
+fun getModelByIndex(modelName: String, index: Int): String {
+    if (modelName.isEmpty()) return ""
+    val models = modelName.split(",").map { it.trim() }.filter { it.isNotEmpty() }
+    return if (index >= 0 && index < models.size) models[index] else models.getOrNull(0) ?: ""
+}
+
+/** 获取模型列表 */
+fun getModelList(modelName: String): List<String> {
+    if (modelName.isEmpty()) return emptyList()
+    return modelName.split(",").map { it.trim() }.filter { it.isNotEmpty() }
+}
+
+/** 
+ * 计算有效的模型索引（处理越界情况）
+ * 如果索引超出范围，自动返回0（第一个模型）
+ * @param modelName 逗号分隔的模型名称字符串
+ * @param requestedIndex 请求的索引
+ * @return 有效的索引值（0到模型数量-1之间）
+ */
+fun getValidModelIndex(modelName: String, requestedIndex: Int): Int {
+    val modelList = getModelList(modelName)
+    return if (requestedIndex >= 0 && requestedIndex < modelList.size) {
+        requestedIndex
+    } else {
+        0 // 索引越界时使用第一个
+    }
+}

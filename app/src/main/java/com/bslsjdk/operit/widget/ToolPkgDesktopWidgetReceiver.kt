@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQud2lkZ2V0CgppbXBvcnQgYW5kcm9pZC5hcHB3aWRnZXQuQXBwV2lkZ2V0TWFuYWdlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmdsYW5jZS5hcHB3aWRnZXQuR2xhbmNlQXBwV2lkZ2V0CmltcG9ydCBhbmRyb2lkeC5nbGFuY2UuYXBwd2lkZ2V0LkdsYW5jZUFwcFdpZGdldFJlY2VpdmVyCgpjbGFzcyBUb29sUGtnRGVza3RvcFdpZGdldFJlY2VpdmVyIDogR2xhbmNlQXBwV2lkZ2V0UmVjZWl2ZXIoKSB7CiAgICBvdmVycmlkZSB2YWwgZ2xhbmNlQXBwV2lkZ2V0OiBHbGFuY2VBcHBXaWRnZXQKICAgICAgICBnZXQoKSA9IFRvb2xQa2dEZXNrdG9wR2xhbmNlV2lkZ2V0KCkKCiAgICBvdmVycmlkZSBmdW4gb25EZWxldGVkKGNvbnRleHQ6IENvbnRleHQsIGFwcFdpZGdldElkczogSW50QXJyYXkpIHsKICAgICAgICBzdXBlci5vbkRlbGV0ZWQoY29udGV4dCwgYXBwV2lkZ2V0SWRzKQogICAgICAgIGFwcFdpZGdldElkcy5mb3JFYWNoIHsgYXBwV2lkZ2V0SWQgLT4KICAgICAgICAgICAgaWYgKGFwcFdpZGdldElkICE9IEFwcFdpZGdldE1hbmFnZXIuSU5WQUxJRF9BUFBXSURHRVRfSUQpIHsKICAgICAgICAgICAgICAgIFRvb2xQa2dEZXNrdG9wV2lkZ2V0SG9zdC5jbGVhclNlbGVjdGlvbihjb250ZXh0LCBhcHBXaWRnZXRJZCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.widget
+
+import android.appwidget.AppWidgetManager
+import android.content.Context
+import androidx.glance.appwidget.GlanceAppWidget
+import androidx.glance.appwidget.GlanceAppWidgetReceiver
+
+class ToolPkgDesktopWidgetReceiver : GlanceAppWidgetReceiver() {
+    override val glanceAppWidget: GlanceAppWidget
+        get() = ToolPkgDesktopGlanceWidget()
+
+    override fun onDeleted(context: Context, appWidgetIds: IntArray) {
+        super.onDeleted(context, appWidgetIds)
+        appWidgetIds.forEach { appWidgetId ->
+            if (appWidgetId != AppWidgetManager.INVALID_APPWIDGET_ID) {
+                ToolPkgDesktopWidgetHost.clearSelection(context, appWidgetId)
+            }
+        }
+    }
+}

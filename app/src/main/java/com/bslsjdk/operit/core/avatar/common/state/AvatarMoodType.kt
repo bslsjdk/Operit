@@ -1,1 +1,106 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLnN0YXRlCgpkYXRhIGNsYXNzIEF2YXRhckN1c3RvbU1vb2REZWZpbml0aW9uKAogICAgdmFsIGtleTogU3RyaW5nLAogICAgdmFsIHByb21wdEhpbnQ6IFN0cmluZwopCgpkYXRhIGNsYXNzIEF2YXRhck1vb2RUeXBlRGVmaW5pdGlvbigKICAgIHZhbCBrZXk6IFN0cmluZywKICAgIHZhbCBkaXNwbGF5TmFtZTogU3RyaW5nLAogICAgdmFsIHByb21wdEhpbnQ6IFN0cmluZywKICAgIHZhbCBmYWxsYmFja0Vtb3Rpb246IEF2YXRhckVtb3Rpb24/ID0gbnVsbCwKICAgIHZhbCBidWlsdEluOiBCb29sZWFuID0gZmFsc2UKKQoKb2JqZWN0IEF2YXRhck1vb2RUeXBlcyB7CiAgICB2YWwgYnVpbHRJbkRlZmluaXRpb25zOiBMaXN0PEF2YXRhck1vb2RUeXBlRGVmaW5pdGlvbj4gPQogICAgICAgIGxpc3RPZigKICAgICAgICAgICAgQXZhdGFyTW9vZFR5cGVEZWZpbml0aW9uKAogICAgICAgICAgICAgICAga2V5ID0gImFuZ3J5IiwKICAgICAgICAgICAgICAgIGRpc3BsYXlOYW1lID0gIkFuZ3J5IiwKICAgICAgICAgICAgICAgIHByb21wdEhpbnQgPSAi55So5oi36KGo6L6+5L6u6L6x44CB5LiN5YWs44CB6LSj5aSH44CB55Sf5rCU5oiW5by654OI5LiN5ruh5pe25L2/55So44CCIiwKICAgICAgICAgICAgICAgIGZhbGxiYWNrRW1vdGlvbiA9IEF2YXRhckVtb3Rpb24uU0FELAogICAgICAgICAgICAgICAgYnVpbHRJbiA9IHRydWUKICAgICAgICAgICAgKSwKICAgICAgICAgICAgQXZhdGFyTW9vZFR5cGVEZWZpbml0aW9uKAogICAgICAgICAgICAgICAga2V5ID0gImhhcHB5IiwKICAgICAgICAgICAgICAgIGRpc3BsYXlOYW1lID0gIkhhcHB5IiwKICAgICAgICAgICAgICAgIHByb21wdEhpbnQgPSAi55So5oi36KGo6L6+5piO56Gu6KGo5oms44CB6L6+5oiQ55uu5qCH44CB5pS25Yiw56S854mp5oiW5piO5pi+5byA5b+D5pe25L2/55So44CCIiwKICAgICAgICAgICAgICAgIGZhbGxiYWNrRW1vdGlvbiA9IEF2YXRhckVtb3Rpb24uSEFQUFksCiAgICAgICAgICAgICAgICBidWlsdEluID0gdHJ1ZQogICAgICAgICAgICApLAogICAgICAgICAgICBBdmF0YXJNb29kVHlwZURlZmluaXRpb24oCiAgICAgICAgICAgICAgICBrZXkgPSAic2h5IiwKICAgICAgICAgICAgICAgIGRpc3BsYXlOYW1lID0gIlNoeSIsCiAgICAgICAgICAgICAgICBwcm9tcHRIaW50ID0gIueUqOaIt+WkuOWlluOAgeaap+aYp+OAgeaIs+S4reWPr+eIseeCue+8jOinkuiJsuihqOeOsOWus+e+nuaXtuS9v+eUqOOAgiIsCiAgICAgICAgICAgICAgICBmYWxsYmFja0Vtb3Rpb24gPSBBdmF0YXJFbW90aW9uLkNPTkZVU0VELAogICAgICAgICAgICAgICAgYnVpbHRJbiA9IHRydWUKICAgICAgICAgICAgKSwKICAgICAgICAgICAgQXZhdGFyTW9vZFR5cGVEZWZpbml0aW9uKAogICAgICAgICAgICAgICAga2V5ID0gImFvamlhbyIsCiAgICAgICAgICAgICAgICBkaXNwbGF5TmFtZSA9ICJBb2ppYW8iLAogICAgICAgICAgICAgICAgcHJvbXB0SGludCA9ICLnlKjmiLfosIPkvoPjgIHovbvlvq7kuonmiafjgIHop5LoibLlmLTnoazlj4jova/ljJbml7bkvb/nlKjjgIIiLAogICAgICAgICAgICAgICAgZmFsbGJhY2tFbW90aW9uID0gQXZhdGFyRW1vdGlvbi5DT05GVVNFRCwKICAgICAgICAgICAgICAgIGJ1aWx0SW4gPSB0cnVlCiAgICAgICAgICAgICksCiAgICAgICAgICAgIEF2YXRhck1vb2RUeXBlRGVmaW5pdGlvbigKICAgICAgICAgICAgICAgIGtleSA9ICJjcnkiLAogICAgICAgICAgICAgICAgZGlzcGxheU5hbWUgPSAiQ3J5IiwKICAgICAgICAgICAgICAgIHByb21wdEhpbnQgPSAi55So5oi35aSx6JC944CB6Zq+6L+H44CB5Y+X5oyr44CB5ZOt6K+J5oiW6YGT5q2J5ZCO5L2O6JC95pe25L2/55So44CCIiwKICAgICAgICAgICAgICAgIGZhbGxiYWNrRW1vdGlvbiA9IEF2YXRhckVtb3Rpb24uU0FELAogICAgICAgICAgICAgICAgYnVpbHRJbiA9IHRydWUKICAgICAgICAgICAgKQogICAgICAgICkKCiAgICBwcml2YXRlIHZhbCByZXNlcnZlZEtleXM6IFNldDxTdHJpbmc+ID0KICAgICAgICBidWlsdEluRGVmaW5pdGlvbnMubWFwIHsgaXQua2V5IH0udG9TZXQoKSArCiAgICAgICAgICAgIEF2YXRhckVtb3Rpb24udmFsdWVzKCkubWFwIHsgaXQubmFtZS5sb3dlcmNhc2UoKSB9LnRvU2V0KCkKCiAgICBwcml2YXRlIHZhbCBjdXN0b21LZXlSZWdleCA9IFJlZ2V4KCJeW2Etel1bYS16MC05X1xcLV17MCwzMX0kIikKCiAgICBmdW4gbm9ybWFsaXplS2V5KHJhdzogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gcmF3CiAgICAgICAgICAgIC50cmltKCkKICAgICAgICAgICAgLmxvd2VyY2FzZSgpCiAgICAgICAgICAgIC5yZXBsYWNlKCcgJywgJ18nKQogICAgICAgICAgICAucmVwbGFjZShSZWdleCgiW15hLXowLTlfXFwtXSIpLCAiXyIpCiAgICAgICAgICAgIC5yZXBsYWNlKFJlZ2V4KCJfKyIpLCAiXyIpCiAgICAgICAgICAgIC50cmltKCdfJywgJy0nKQogICAgfQoKICAgIGZ1biBpc1ZhbGlkQ3VzdG9tS2V5KGtleTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGN1c3RvbUtleVJlZ2V4Lm1hdGNoZXMoa2V5KSAmJiBrZXkgIWluIHJlc2VydmVkS2V5cwogICAgfQoKICAgIGZ1biBmaW5kQnVpbHRJbkRlZmluaXRpb24oa2V5OiBTdHJpbmcpOiBBdmF0YXJNb29kVHlwZURlZmluaXRpb24/IHsKICAgICAgICB2YWwgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZUtleShrZXkpCiAgICAgICAgcmV0dXJuIGJ1aWx0SW5EZWZpbml0aW9ucy5maXJzdE9yTnVsbCB7IGl0LmtleSA9PSBub3JtYWxpemVkIH0KICAgIH0KCiAgICBmdW4gYnVpbHRJbkZhbGxiYWNrRW1vdGlvbihrZXk6IFN0cmluZyk6IEF2YXRhckVtb3Rpb24/IHsKICAgICAgICByZXR1cm4gZmluZEJ1aWx0SW5EZWZpbml0aW9uKGtleSk/LmZhbGxiYWNrRW1vdGlvbgogICAgfQoKICAgIGZ1biBzYW5pdGl6ZUN1c3RvbURlZmluaXRpb25zKAogICAgICAgIGRlZmluaXRpb25zOiBMaXN0PEF2YXRhckN1c3RvbU1vb2REZWZpbml0aW9uPgogICAgKTogTGlzdDxBdmF0YXJDdXN0b21Nb29kRGVmaW5pdGlvbj4gewogICAgICAgIHZhbCBub3JtYWxpemVkS2V5cyA9IExpbmtlZEhhc2hTZXQ8U3RyaW5nPigpCiAgICAgICAgdmFsIHJlc3VsdCA9IG11dGFibGVMaXN0T2Y8QXZhdGFyQ3VzdG9tTW9vZERlZmluaXRpb24+KCkKICAgICAgICBkZWZpbml0aW9ucy5mb3JFYWNoIHsgZGVmaW5pdGlvbiAtPgogICAgICAgICAgICB2YWwgbm9ybWFsaXplZEtleSA9IG5vcm1hbGl6ZUtleShkZWZpbml0aW9uLmtleSkKICAgICAgICAgICAgdmFsIG5vcm1hbGl6ZWRIaW50ID0gZGVmaW5pdGlvbi5wcm9tcHRIaW50LnRyaW0oKQogICAgICAgICAgICBpZiAoIWlzVmFsaWRDdXN0b21LZXkobm9ybWFsaXplZEtleSkgfHwgbm9ybWFsaXplZEhpbnQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICghbm9ybWFsaXplZEtleXMuYWRkKG5vcm1hbGl6ZWRLZXkpKSB7CiAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICB9CiAgICAgICAgICAgIHJlc3VsdCArPSBBdmF0YXJDdXN0b21Nb29kRGVmaW5pdGlvbigKICAgICAgICAgICAgICAgIGtleSA9IG5vcm1hbGl6ZWRLZXksCiAgICAgICAgICAgICAgICBwcm9tcHRIaW50ID0gbm9ybWFsaXplZEhpbnQKICAgICAgICAgICAgKQogICAgICAgIH0KICAgICAgICByZXR1cm4gcmVzdWx0CiAgICB9Cn0K
+package com.bslsjdk.operit.core.avatar.common.state
+
+data class AvatarCustomMoodDefinition(
+    val key: String,
+    val promptHint: String
+)
+
+data class AvatarMoodTypeDefinition(
+    val key: String,
+    val displayName: String,
+    val promptHint: String,
+    val fallbackEmotion: AvatarEmotion? = null,
+    val builtIn: Boolean = false
+)
+
+object AvatarMoodTypes {
+    val builtInDefinitions: List<AvatarMoodTypeDefinition> =
+        listOf(
+            AvatarMoodTypeDefinition(
+                key = "angry",
+                displayName = "Angry",
+                promptHint = "用户表达侮辱、不公、责备、生气或强烈不满时使用。",
+                fallbackEmotion = AvatarEmotion.SAD,
+                builtIn = true
+            ),
+            AvatarMoodTypeDefinition(
+                key = "happy",
+                displayName = "Happy",
+                promptHint = "用户表达明确表扬、达成目标、收到礼物或明显开心时使用。",
+                fallbackEmotion = AvatarEmotion.HAPPY,
+                builtIn = true
+            ),
+            AvatarMoodTypeDefinition(
+                key = "shy",
+                displayName = "Shy",
+                promptHint = "用户夸奖、暧昧、戳中可爱点，角色表现害羞时使用。",
+                fallbackEmotion = AvatarEmotion.CONFUSED,
+                builtIn = true
+            ),
+            AvatarMoodTypeDefinition(
+                key = "aojiao",
+                displayName = "Aojiao",
+                promptHint = "用户调侃、轻微争执、角色嘴硬又软化时使用。",
+                fallbackEmotion = AvatarEmotion.CONFUSED,
+                builtIn = true
+            ),
+            AvatarMoodTypeDefinition(
+                key = "cry",
+                displayName = "Cry",
+                promptHint = "用户失落、难过、受挫、哭诉或道歉后低落时使用。",
+                fallbackEmotion = AvatarEmotion.SAD,
+                builtIn = true
+            )
+        )
+
+    private val reservedKeys: Set<String> =
+        builtInDefinitions.map { it.key }.toSet() +
+            AvatarEmotion.values().map { it.name.lowercase() }.toSet()
+
+    private val customKeyRegex = Regex("^[a-z][a-z0-9_\\-]{0,31}$")
+
+    fun normalizeKey(raw: String): String {
+        return raw
+            .trim()
+            .lowercase()
+            .replace(' ', '_')
+            .replace(Regex("[^a-z0-9_\\-]"), "_")
+            .replace(Regex("_+"), "_")
+            .trim('_', '-')
+    }
+
+    fun isValidCustomKey(key: String): Boolean {
+        return customKeyRegex.matches(key) && key !in reservedKeys
+    }
+
+    fun findBuiltInDefinition(key: String): AvatarMoodTypeDefinition? {
+        val normalized = normalizeKey(key)
+        return builtInDefinitions.firstOrNull { it.key == normalized }
+    }
+
+    fun builtInFallbackEmotion(key: String): AvatarEmotion? {
+        return findBuiltInDefinition(key)?.fallbackEmotion
+    }
+
+    fun sanitizeCustomDefinitions(
+        definitions: List<AvatarCustomMoodDefinition>
+    ): List<AvatarCustomMoodDefinition> {
+        val normalizedKeys = LinkedHashSet<String>()
+        val result = mutableListOf<AvatarCustomMoodDefinition>()
+        definitions.forEach { definition ->
+            val normalizedKey = normalizeKey(definition.key)
+            val normalizedHint = definition.promptHint.trim()
+            if (!isValidCustomKey(normalizedKey) || normalizedHint.isBlank()) {
+                return@forEach
+            }
+            if (!normalizedKeys.add(normalizedKey)) {
+                return@forEach
+            }
+            result += AvatarCustomMoodDefinition(
+                key = normalizedKey,
+                promptHint = normalizedHint
+            )
+        }
+        return result
+    }
+}

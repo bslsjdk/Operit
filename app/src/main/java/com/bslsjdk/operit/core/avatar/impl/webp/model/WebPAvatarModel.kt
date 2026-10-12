@@ -1,1 +1,105 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC53ZWJwLm1vZGVsCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5tb2RlbC5BdmF0YXJUeXBlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsLklGcmFtZVNlcXVlbmNlQXZhdGFyTW9kZWwKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24uc3RhdGUuQXZhdGFyRW1vdGlvbgoKLyoqCiAqIEEgY29uY3JldGUgaW1wbGVtZW50YXRpb24gb2YgW0lGcmFtZVNlcXVlbmNlQXZhdGFyTW9kZWxdIGZvciBXZWJQIGF2YXRhcnMuCiAqIFRoaXMgY2xhc3MgcmVwcmVzZW50cyBhIFdlYlAtYmFzZWQgYXZhdGFyIHRoYXQgc3VwcG9ydHMgZnJhbWUgc2VxdWVuY2UgYW5pbWF0aW9uLgogKgogKiBAcHJvcGVydHkgaWQgVGhlIHVuaXF1ZSBpZGVudGlmaWVyIGZvciB0aGlzIGF2YXRhci4KICogQHByb3BlcnR5IG5hbWUgVGhlIGRpc3BsYXkgbmFtZSBvZiB0aGUgYXZhdGFyLgogKiBAcHJvcGVydHkgYmFzZVBhdGggVGhlIGJhc2UgcGF0aCBpbiBhc3NldHMgd2hlcmUgV2ViUCBmaWxlcyBhcmUgc3RvcmVkLgogKiBAcHJvcGVydHkgZW1vdGlvblRvRmlsZU1hcCBBIG1hcHBpbmcgZnJvbSBlbW90aW9ucyB0byBjb3JyZXNwb25kaW5nIFdlYlAgZmlsZSBuYW1lcy4KICogQHByb3BlcnR5IGF2YWlsYWJsZUZpbGVzIEFsbCBkaXNjb3ZlcmFibGUgV2ViUCBmaWxlcyBmb3IgdGhpcyBhdmF0YXIuCiAqIEBwcm9wZXJ0eSBjdXJyZW50RW1vdGlvbiBUaGUgY3VycmVudGx5IGFjdGl2ZSBlbW90aW9uICh1c2VkIHRvIGRldGVybWluZSBhbmltYXRpb24gcGF0aCkuCiAqLwpkYXRhIGNsYXNzIFdlYlBBdmF0YXJNb2RlbCgKICAgIG92ZXJyaWRlIHZhbCBpZDogU3RyaW5nLAogICAgb3ZlcnJpZGUgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCBiYXNlUGF0aDogU3RyaW5nLAogICAgdmFsIGVtb3Rpb25Ub0ZpbGVNYXA6IE1hcDxBdmF0YXJFbW90aW9uLCBTdHJpbmc+LAogICAgdmFsIGF2YWlsYWJsZUZpbGVzOiBMaXN0PFN0cmluZz4gPQogICAgICAgIGVtb3Rpb25Ub0ZpbGVNYXAudmFsdWVzCiAgICAgICAgICAgIC5tYXAgeyBpdC50cmltKCkgfQogICAgICAgICAgICAuZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgLmRpc3RpbmN0KCksCiAgICB2YWwgY3VycmVudEVtb3Rpb246IEF2YXRhckVtb3Rpb24gPSBBdmF0YXJFbW90aW9uLklETEUKKSA6IElGcmFtZVNlcXVlbmNlQXZhdGFyTW9kZWwgewoKICAgIG92ZXJyaWRlIHZhbCB0eXBlOiBBdmF0YXJUeXBlCiAgICAgICAgZ2V0KCkgPSBBdmF0YXJUeXBlLldFQlAKCiAgICBvdmVycmlkZSB2YWwgYW5pbWF0aW9uUGF0aDogU3RyaW5nCiAgICAgICAgZ2V0KCkgPSBhbmltYXRpb25QYXRoRm9yKG51bGwpCgogICAgZnVuIGFuaW1hdGlvblBhdGhGb3IoYW5pbWF0aW9uRmlsZTogU3RyaW5nPyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGZpbGVOYW1lID0KICAgICAgICAgICAgYW5pbWF0aW9uRmlsZT8udHJpbSgpPy50YWtlSWYgeyBpdC5pc05vdEVtcHR5KCkgfQogICAgICAgICAgICAgICAgPzogYW5pbWF0aW9uRmlsZUZvckVtb3Rpb24oY3VycmVudEVtb3Rpb24pCiAgICAgICAgICAgICAgICA/OiBhbmltYXRpb25GaWxlRm9yRW1vdGlvbihBdmF0YXJFbW90aW9uLklETEUpCiAgICAgICAgICAgICAgICA/OiBhdmFpbGFibGVGaWxlcy5maXJzdE9yTnVsbCgpCiAgICAgICAgICAgICAgICA/OiAiIgogICAgICAgIHJldHVybiBpZiAoZmlsZU5hbWUuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICIkYmFzZVBhdGgvJGZpbGVOYW1lIgogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICIiCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBhbmltYXRpb25GaWxlRm9yRW1vdGlvbihlbW90aW9uOiBBdmF0YXJFbW90aW9uKTogU3RyaW5nPyB7CiAgICAgICAgcmV0dXJuIGVtb3Rpb25Ub0ZpbGVNYXBbZW1vdGlvbl0KICAgICAgICAgICAgPy50cmltKCkKICAgICAgICAgICAgPy50YWtlSWYgeyBpdC5pc05vdEVtcHR5KCkgfQogICAgfQoKICAgIG92ZXJyaWRlIHZhbCBzaG91bGRMb29wOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB0cnVlCgogICAgb3ZlcnJpZGUgdmFsIHJlcGVhdENvdW50OiBJbnQKICAgICAgICBnZXQoKSA9IDAKCiAgICAvKioKICAgICAqIENyZWF0ZXMgYSBuZXcgaW5zdGFuY2Ugd2l0aCB0aGUgc3BlY2lmaWVkIGVtb3Rpb24uCiAgICAgKi8KICAgIGZ1biB3aXRoRW1vdGlvbihlbW90aW9uOiBBdmF0YXJFbW90aW9uKTogV2ViUEF2YXRhck1vZGVsIHsKICAgICAgICByZXR1cm4gY29weShjdXJyZW50RW1vdGlvbiA9IGVtb3Rpb24pCiAgICB9CgogICAgLyoqCiAgICAgKiBHZXRzIGFsbCBhdmFpbGFibGUgZW1vdGlvbnMgZm9yIHRoaXMgYXZhdGFyLgogICAgICovCiAgICB2YWwgYXZhaWxhYmxlRW1vdGlvbnM6IFNldDxBdmF0YXJFbW90aW9uPgogICAgICAgIGdldCgpID0gZW1vdGlvblRvRmlsZU1hcC5rZXlzCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgLyoqCiAgICAgICAgICogQ3JlYXRlcyBhIFdlYlAgYXZhdGFyIG1vZGVsIHdpdGggYSBzdGFuZGFyZCBlbW90aW9uLXRvLWZpbGUgbWFwcGluZy4KICAgICAgICAgKiBUaGlzIGFzc3VtZXMgYSBjb252ZW50aW9uYWwgZmlsZSBuYW1pbmcgc2NoZW1lLgogICAgICAgICAqLwogICAgICAgIGZ1biBjcmVhdGVTdGFuZGFyZCgKICAgICAgICAgICAgaWQ6IFN0cmluZywKICAgICAgICAgICAgbmFtZTogU3RyaW5nLAogICAgICAgICAgICBiYXNlUGF0aDogU3RyaW5nLAogICAgICAgICAgICBmaWxlRXh0ZW5zaW9uOiBTdHJpbmcgPSAid2VicCIKICAgICAgICApOiBXZWJQQXZhdGFyTW9kZWwgewogICAgICAgICAgICB2YWwgZW1vdGlvbk1hcCA9IG1hcE9mKAogICAgICAgICAgICAgICAgQXZhdGFyRW1vdGlvbi5JRExFIHRvICJpZGxlLiRmaWxlRXh0ZW5zaW9uIiwKICAgICAgICAgICAgICAgIEF2YXRhckVtb3Rpb24uTElTVEVOSU5HIHRvICJsaXN0ZW5pbmcuJGZpbGVFeHRlbnNpb24iLAogICAgICAgICAgICAgICAgQXZhdGFyRW1vdGlvbi5USElOS0lORyB0byAidGhpbmtpbmcuJGZpbGVFeHRlbnNpb24iLAogICAgICAgICAgICAgICAgQXZhdGFyRW1vdGlvbi5IQVBQWSB0byAiaGFwcHkuJGZpbGVFeHRlbnNpb24iLAogICAgICAgICAgICAgICAgQXZhdGFyRW1vdGlvbi5TQUQgdG8gInNhZC4kZmlsZUV4dGVuc2lvbiIsCiAgICAgICAgICAgICAgICBBdmF0YXJFbW90aW9uLkNPTkZVU0VEIHRvICJjb25mdXNlZC4kZmlsZUV4dGVuc2lvbiIsCiAgICAgICAgICAgICAgICBBdmF0YXJFbW90aW9uLlNVUlBSSVNFRCB0byAic3VycHJpc2VkLiRmaWxlRXh0ZW5zaW9uIgogICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybiBXZWJQQXZhdGFyTW9kZWwoCiAgICAgICAgICAgICAgICBpZCA9IGlkLAogICAgICAgICAgICAgICAgbmFtZSA9IG5hbWUsCiAgICAgICAgICAgICAgICBiYXNlUGF0aCA9IGJhc2VQYXRoLAogICAgICAgICAgICAgICAgZW1vdGlvblRvRmlsZU1hcCA9IGVtb3Rpb25NYXAsCiAgICAgICAgICAgICAgICBhdmFpbGFibGVGaWxlcyA9IGVtb3Rpb25NYXAudmFsdWVzLnRvTGlzdCgpCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.core.avatar.impl.webp.model
+
+import com.bslsjdk.operit.core.avatar.common.model.AvatarType
+import com.bslsjdk.operit.core.avatar.common.model.IFrameSequenceAvatarModel
+import com.bslsjdk.operit.core.avatar.common.state.AvatarEmotion
+
+/**
+ * A concrete implementation of [IFrameSequenceAvatarModel] for WebP avatars.
+ * This class represents a WebP-based avatar that supports frame sequence animation.
+ *
+ * @property id The unique identifier for this avatar.
+ * @property name The display name of the avatar.
+ * @property basePath The base path in assets where WebP files are stored.
+ * @property emotionToFileMap A mapping from emotions to corresponding WebP file names.
+ * @property availableFiles All discoverable WebP files for this avatar.
+ * @property currentEmotion The currently active emotion (used to determine animation path).
+ */
+data class WebPAvatarModel(
+    override val id: String,
+    override val name: String,
+    val basePath: String,
+    val emotionToFileMap: Map<AvatarEmotion, String>,
+    val availableFiles: List<String> =
+        emotionToFileMap.values
+            .map { it.trim() }
+            .filter { it.isNotBlank() }
+            .distinct(),
+    val currentEmotion: AvatarEmotion = AvatarEmotion.IDLE
+) : IFrameSequenceAvatarModel {
+
+    override val type: AvatarType
+        get() = AvatarType.WEBP
+
+    override val animationPath: String
+        get() = animationPathFor(null)
+
+    fun animationPathFor(animationFile: String?): String {
+        val fileName =
+            animationFile?.trim()?.takeIf { it.isNotEmpty() }
+                ?: animationFileForEmotion(currentEmotion)
+                ?: animationFileForEmotion(AvatarEmotion.IDLE)
+                ?: availableFiles.firstOrNull()
+                ?: ""
+        return if (fileName.isNotEmpty()) {
+            "$basePath/$fileName"
+        } else {
+            ""
+        }
+    }
+
+    fun animationFileForEmotion(emotion: AvatarEmotion): String? {
+        return emotionToFileMap[emotion]
+            ?.trim()
+            ?.takeIf { it.isNotEmpty() }
+    }
+
+    override val shouldLoop: Boolean
+        get() = true
+
+    override val repeatCount: Int
+        get() = 0
+
+    /**
+     * Creates a new instance with the specified emotion.
+     */
+    fun withEmotion(emotion: AvatarEmotion): WebPAvatarModel {
+        return copy(currentEmotion = emotion)
+    }
+
+    /**
+     * Gets all available emotions for this avatar.
+     */
+    val availableEmotions: Set<AvatarEmotion>
+        get() = emotionToFileMap.keys
+
+    companion object {
+        /**
+         * Creates a WebP avatar model with a standard emotion-to-file mapping.
+         * This assumes a conventional file naming scheme.
+         */
+        fun createStandard(
+            id: String,
+            name: String,
+            basePath: String,
+            fileExtension: String = "webp"
+        ): WebPAvatarModel {
+            val emotionMap = mapOf(
+                AvatarEmotion.IDLE to "idle.$fileExtension",
+                AvatarEmotion.LISTENING to "listening.$fileExtension",
+                AvatarEmotion.THINKING to "thinking.$fileExtension",
+                AvatarEmotion.HAPPY to "happy.$fileExtension",
+                AvatarEmotion.SAD to "sad.$fileExtension",
+                AvatarEmotion.CONFUSED to "confused.$fileExtension",
+                AvatarEmotion.SURPRISED to "surprised.$fileExtension"
+            )
+            return WebPAvatarModel(
+                id = id,
+                name = name,
+                basePath = basePath,
+                emotionToFileMap = emotionMap,
+                availableFiles = emotionMap.values.toList()
+            )
+        }
+    }
+}

@@ -1,1 +1,45 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIE1lZGlhTGlua1BhcnNlclRhZ09yZGVyVGVzdCB7CiAgICBAVGVzdCBmdW4gZXh0cmFjdEltYWdlTGlua0lkc19zdXBwb3J0c0F0dHJpYnV0ZXNJbkVpdGhlck9yZGVyKCkgewogICAgICAgIHZhbCBpbnB1dCA9ICI8bGluayBpZD1cImkxXCIgZGF0YT1cInVudXNlZFwiIHR5cGU9XCJpbWFnZVwiPkk8L2xpbms+IgogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImkxIiksIE1lZGlhTGlua1BhcnNlci5leHRyYWN0SW1hZ2VMaW5rSWRzKGlucHV0KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlSW1hZ2VMaW5rc19yZW1vdmVzTWlzc2luZ1Bvb2xFbnRyaWVzKCkgewogICAgICAgIHZhbCBpbnB1dCA9ICJiZWZvcmU8bGluayB0eXBlPVwiaW1hZ2VcIiBpZD1cIm1pc3NpbmdcIj5JPC9saW5rPmFmdGVyIgogICAgICAgIGFzc2VydEVxdWFscygiYmVmb3JlYWZ0ZXIiLCBNZWRpYUxpbmtQYXJzZXIucmVtb3ZlSW1hZ2VMaW5rcyhpbnB1dCkpCiAgICB9CgogICAgQFRlc3QgZnVuIHJlbW92ZU1lZGlhTGlua3Nfc3VwcG9ydHNFc2NhcGVkQW5kUmVvcmRlcmVkQXR0cmlidXRlcygpIHsKICAgICAgICB2YWwgaW5wdXQgPSAiYmVmb3JlPGxpbmsgaWQ9XFxcImExXFxcIiB0eXBlPVxcXCJhdWRpb1xcXCI+QTwvbGluaz5hZnRlciIKICAgICAgICBhc3NlcnRFcXVhbHMoImJlZm9yZWFmdGVyIiwgTWVkaWFMaW5rUGFyc2VyLnJlbW92ZU1lZGlhTGlua3MoaW5wdXQpKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0TWVkaWFMaW5rVGFnc19wcmVzZXJ2ZXNFbmNvdW50ZXJPcmRlcigpIHsKICAgICAgICB2YWwgaW5wdXQgPSAiPGxpbmsgdHlwZT1cInZpZGVvXCIgaWQ9XCJ2MVwiPlY8L2xpbms+PGxpbmsgdHlwZT1cImF1ZGlvXCIgaWQ9XCJhMVwiPkE8L2xpbms+IgogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoTWVkaWFMaW5rVGFnKCJ2aWRlbyIsICJ2MSIpLCBNZWRpYUxpbmtUYWcoImF1ZGlvIiwgImExIikpLCBNZWRpYUxpbmtQYXJzZXIuZXh0cmFjdE1lZGlhTGlua1RhZ3MoaW5wdXQpKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0TWVkaWFMaW5rVGFnc19wcmVzZXJ2ZXNGaWxlQW5kTWVkaWFFbmNvdW50ZXJPcmRlcigpIHsKICAgICAgICB2YWwgaW5wdXQgPSAiPGxpbmsgZmlsZW5hbWU9XCJhLnBkZlwiIGlkPVwiZjFcIiB0eXBlPVwiZmlsZVwiPkY8L2xpbms+IiArCiAgICAgICAgICAgICI8bGluayB0eXBlPVwiYXVkaW9cIiBpZD1cImExXCI+QTwvbGluaz4iICsKICAgICAgICAgICAgIjxsaW5rIHR5cGU9XCJmaWxlXCIgaWQ9XCJmMlwiIGZpbGVuYW1lPVwiYi5wZGZcIj5GPC9saW5rPiIKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIE1lZGlhTGlua1RhZygiZmlsZSIsICJmMSIsICJhLnBkZiIpLAogICAgICAgICAgICAgICAgTWVkaWFMaW5rVGFnKCJhdWRpbyIsICJhMSIpLAogICAgICAgICAgICAgICAgTWVkaWFMaW5rVGFnKCJmaWxlIiwgImYyIiwgImIucGRmIiksCiAgICAgICAgICAgICksCiAgICAgICAgICAgIE1lZGlhTGlua1BhcnNlci5leHRyYWN0TWVkaWFMaW5rVGFncyhpbnB1dCksCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0SW1hZ2VMaW5rSWRzX3ByZXNlcnZlc0VuY291bnRlck9yZGVyKCkgewogICAgICAgIHZhbCBpbnB1dCA9ICI8bGluayB0eXBlPVwiaW1hZ2VcIiBpZD1cImkxXCI+STwvbGluaz48bGluayB0eXBlPVwiaW1hZ2VcIiBpZD1cImkyXCI+STwvbGluaz4iCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigiaTEiLCAiaTIiKSwgTWVkaWFMaW5rUGFyc2VyLmV4dHJhY3RJbWFnZUxpbmtJZHMoaW5wdXQpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class MediaLinkParserTagOrderTest {
+    @Test fun extractImageLinkIds_supportsAttributesInEitherOrder() {
+        val input = "<link id=\"i1\" data=\"unused\" type=\"image\">I</link>"
+        assertEquals(listOf("i1"), MediaLinkParser.extractImageLinkIds(input))
+    }
+
+    @Test fun removeImageLinks_removesMissingPoolEntries() {
+        val input = "before<link type=\"image\" id=\"missing\">I</link>after"
+        assertEquals("beforeafter", MediaLinkParser.removeImageLinks(input))
+    }
+
+    @Test fun removeMediaLinks_supportsEscapedAndReorderedAttributes() {
+        val input = "before<link id=\\\"a1\\\" type=\\\"audio\\\">A</link>after"
+        assertEquals("beforeafter", MediaLinkParser.removeMediaLinks(input))
+    }
+
+    @Test fun extractMediaLinkTags_preservesEncounterOrder() {
+        val input = "<link type=\"video\" id=\"v1\">V</link><link type=\"audio\" id=\"a1\">A</link>"
+        assertEquals(listOf(MediaLinkTag("video", "v1"), MediaLinkTag("audio", "a1")), MediaLinkParser.extractMediaLinkTags(input))
+    }
+
+    @Test fun extractMediaLinkTags_preservesFileAndMediaEncounterOrder() {
+        val input = "<link filename=\"a.pdf\" id=\"f1\" type=\"file\">F</link>" +
+            "<link type=\"audio\" id=\"a1\">A</link>" +
+            "<link type=\"file\" id=\"f2\" filename=\"b.pdf\">F</link>"
+        assertEquals(
+            listOf(
+                MediaLinkTag("file", "f1", "a.pdf"),
+                MediaLinkTag("audio", "a1"),
+                MediaLinkTag("file", "f2", "b.pdf"),
+            ),
+            MediaLinkParser.extractMediaLinkTags(input),
+        )
+    }
+
+    @Test fun extractImageLinkIds_preservesEncounterOrder() {
+        val input = "<link type=\"image\" id=\"i1\">I</link><link type=\"image\" id=\"i2\">I</link>"
+        assertEquals(listOf("i1", "i2"), MediaLinkParser.extractImageLinkIds(input))
+    }
+}

@@ -1,1 +1,134 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmZpbGVtYW5hZ2VyLnV0aWxzCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MudmVjdG9yLkltYWdlVmVjdG9yCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5EaXJlY3RvcnlMaXN0aW5nRGF0YQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnRvb2xib3guc2NyZWVucy5maWxlbWFuYWdlci5tb2RlbHMuRmlsZUl0ZW0KaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuKgppbXBvcnQga290bGluLm1hdGgubG9nMTAKaW1wb3J0IGtvdGxpbi5tYXRoLnBvdwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKLyoqIOiOt+WPluaWh+S7tuWbvuaghyAqLwpmdW4gZ2V0RmlsZUljb24oZmlsZTogRmlsZUl0ZW0pOiBJbWFnZVZlY3RvciB7CiAgICByZXR1cm4gaWYgKGZpbGUuaXNEaXJlY3RvcnkpIHsKICAgICAgICBJY29ucy5EZWZhdWx0LkZvbGRlcgogICAgfSBlbHNlIHsKICAgICAgICB3aGVuIHsKICAgICAgICAgICAgZmlsZS5uYW1lLmVuZHNXaXRoKCIucGRmIikgLT4gSWNvbnMuRGVmYXVsdC5QaWN0dXJlQXNQZGYKICAgICAgICAgICAgZmlsZS5uYW1lLmVuZHNXaXRoKCIuanBnIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgICAgICAgICAgICAgZmlsZS5uYW1lLmVuZHNXaXRoKCIuanBlZyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLnBuZyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLmdpZiIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLmJtcCIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBJY29ucy5EZWZhdWx0LkltYWdlCiAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLm1wMyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLndhdiIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLm9nZyIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBJY29ucy5EZWZhdWx0LkF1ZGlvRmlsZQogICAgICAgICAgICBmaWxlLm5hbWUuZW5kc1dpdGgoIi5tcDQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgICAgICAgICBmaWxlLm5hbWUuZW5kc1dpdGgoIi5hdmkiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgICAgICAgICBmaWxlLm5hbWUuZW5kc1dpdGgoIi5ta3YiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgICAgICAgICBmaWxlLm5hbWUuZW5kc1dpdGgoIi5tb3YiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gSWNvbnMuRGVmYXVsdC5WaWRlb0ZpbGUKICAgICAgICAgICAgZmlsZS5uYW1lLmVuZHNXaXRoKCIuemlwIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgICAgICAgICAgICAgZmlsZS5uYW1lLmVuZHNXaXRoKCIucmFyIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgICAgICAgICAgICAgZmlsZS5uYW1lLmVuZHNXaXRoKCIuN3oiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgICAgICAgICBmaWxlLm5hbWUuZW5kc1dpdGgoIi50YXIiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gSWNvbnMuRGVmYXVsdC5Gb2xkZXJaaXAKICAgICAgICAgICAgZmlsZS5uYW1lLmVuZHNXaXRoKCIudHh0IiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IEljb25zLkRlZmF1bHQuVGV4dFNuaXBwZXQKICAgICAgICAgICAgZmlsZS5uYW1lLmVuZHNXaXRoKCIuZG9jIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgICAgICAgICAgICAgZmlsZS5uYW1lLmVuZHNXaXRoKCIuZG9jeCIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBJY29ucy5EZWZhdWx0LkRlc2NyaXB0aW9uCiAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLnhscyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLnhsc3giLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gSWNvbnMuRGVmYXVsdC5UYWJsZUNoYXJ0CiAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLnBwdCIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgICAgIGZpbGUubmFtZS5lbmRzV2l0aCgiLnBwdHgiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gSWNvbnMuRGVmYXVsdC5QaWN0dXJlQXNQZGYKICAgICAgICAgICAgZWxzZSAtPiBJY29ucy5EZWZhdWx0Lkluc2VydERyaXZlRmlsZQogICAgICAgIH0KICAgIH0KfQoKLyoqIOiOt+WPluaWh+S7tuexu+Wei+aPj+i/sCAqLwpmdW4gZ2V0RmlsZVR5cGUoY29udGV4dDogQ29udGV4dCwgZmlsZU5hbWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICByZXR1cm4gd2hlbiB7CiAgICAgICAgZmlsZU5hbWUuZW5kc1dpdGgoIi5wZGYiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV90eXBlX3BkZikKICAgICAgICBmaWxlTmFtZS5lbmRzV2l0aCgiLmpwZyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgZmlsZU5hbWUuZW5kc1dpdGgoIi5qcGVnIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfdHlwZV9qcGVnKQogICAgICAgIGZpbGVOYW1lLmVuZHNXaXRoKCIucG5nIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfdHlwZV9wbmcpCiAgICAgICAgZmlsZU5hbWUuZW5kc1dpdGgoIi5naWYiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV90eXBlX2dpZikKICAgICAgICBmaWxlTmFtZS5lbmRzV2l0aCgiLmJtcCIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5maWxlX3R5cGVfYm1wKQogICAgICAgIGZpbGVOYW1lLmVuZHNXaXRoKCIubXAzIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfdHlwZV9tcDMpCiAgICAgICAgZmlsZU5hbWUuZW5kc1dpdGgoIi53YXYiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV90eXBlX3dhdikKICAgICAgICBmaWxlTmFtZS5lbmRzV2l0aCgiLm9nZyIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5maWxlX3R5cGVfb2dnKQogICAgICAgIGZpbGVOYW1lLmVuZHNXaXRoKCIubXA0IiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfdHlwZV9tcDQpCiAgICAgICAgZmlsZU5hbWUuZW5kc1dpdGgoIi5hdmkiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV90eXBlX2F2aSkKICAgICAgICBmaWxlTmFtZS5lbmRzV2l0aCgiLm1rdiIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5maWxlX3R5cGVfbWt2KQogICAgICAgIGZpbGVOYW1lLmVuZHNXaXRoKCIubW92IiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfdHlwZV9tb3YpCiAgICAgICAgZmlsZU5hbWUuZW5kc1dpdGgoIi56aXAiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV90eXBlX3ppcCkKICAgICAgICBmaWxlTmFtZS5lbmRzV2l0aCgiLnJhciIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5maWxlX3R5cGVfcmFyKQogICAgICAgIGZpbGVOYW1lLmVuZHNXaXRoKCIuN3oiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV90eXBlXzd6KQogICAgICAgIGZpbGVOYW1lLmVuZHNXaXRoKCIudGFyIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfdHlwZV90YXIpCiAgICAgICAgZmlsZU5hbWUuZW5kc1dpdGgoIi50eHQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV90eXBlX3R4dCkKICAgICAgICBmaWxlTmFtZS5lbmRzV2l0aCgiLmRvYyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgZmlsZU5hbWUuZW5kc1dpdGgoIi5kb2N4IiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfdHlwZV9kb2MpCiAgICAgICAgZmlsZU5hbWUuZW5kc1dpdGgoIi54bHMiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgICAgIGZpbGVOYW1lLmVuZHNXaXRoKCIueGxzeCIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5maWxlX3R5cGVfeGxzKQogICAgICAgIGZpbGVOYW1lLmVuZHNXaXRoKCIucHB0IiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgICAgICAgICBmaWxlTmFtZS5lbmRzV2l0aCgiLnBwdHgiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV90eXBlX3BwdCkKICAgICAgICBlbHNlIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfdHlwZV91bmtub3duKQogICAgfQp9CgovKiog5qC85byP5YyW5paH5Lu25aSn5bCPICovCmZ1biBmb3JtYXRGaWxlU2l6ZShzaXplOiBMb25nKTogU3RyaW5nIHsKICAgIGlmIChzaXplIDw9IDApIHJldHVybiAiMCBCIgoKICAgIHZhbCB1bml0cyA9IGFycmF5T2YoIkIiLCAiS0IiLCAiTUIiLCAiR0IiLCAiVEIiKQogICAgdmFsIGRpZ2l0R3JvdXBzID0gKGxvZzEwKHNpemUudG9Eb3VibGUoKSkgLyBsb2cxMCgxMDI0LjApKS50b0ludCgpCgogICAgcmV0dXJuIFN0cmluZy5mb3JtYXQoIiUuMWYgJXMiLCBzaXplIC8gMTAyNC4wLnBvdyhkaWdpdEdyb3Vwcy50b0RvdWJsZSgpKSwgdW5pdHNbZGlnaXRHcm91cHNdKQp9CgovKiog5qC85byP5YyW5pel5pyfICovCmZ1biBmb3JtYXREYXRlKGRhdGVTdHJpbmc6IFN0cmluZyk6IFN0cmluZyB7CiAgICByZXR1cm4gdHJ5IHsKICAgICAgICB2YWwgc2ltcGxlRGF0ZUZvcm1hdCA9IFNpbXBsZURhdGVGb3JtYXQoIk1NTSBkZCBISDptbSIsIExvY2FsZS5FTkdMSVNIKQogICAgICAgIHZhbCBkYXRlID0gc2ltcGxlRGF0ZUZvcm1hdC5wYXJzZShkYXRlU3RyaW5nKQogICAgICAgIGlmIChkYXRlICE9IG51bGwpIHsKICAgICAgICAgICAgdmFsIG91dHB1dEZvcm1hdCA9IFNpbXBsZURhdGVGb3JtYXQoInl5eXktTU0tZGQgSEg6bW0iLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKQogICAgICAgICAgICBvdXRwdXRGb3JtYXQuZm9ybWF0KGRhdGUpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGF0ZVN0cmluZwogICAgICAgIH0KICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgIGRhdGVTdHJpbmcKICAgIH0KfQoKLyoqIOino+aekOaWh+S7tuWIl+ihqCAqLwpmdW4gcGFyc2VGaWxlTGlzdChyZXN1bHQ6IFN0cmluZyk6IExpc3Q8RmlsZUl0ZW0+IHsKICAgIHJldHVybiB0cnkgewogICAgICAgIGlmIChyZXN1bHQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKCJGaWxlVXRpbHMiLCAiRW1wdHkgcmVzdWx0IHN0cmluZyIpCiAgICAgICAgICAgIHJldHVybiBlbXB0eUxpc3QoKQogICAgICAgIH0KCiAgICAgICAgQXBwTG9nZ2VyLmQoIkZpbGVVdGlscyIsICJQYXJzaW5nIGRpcmVjdG9yeSBsaXN0aW5nOiAkcmVzdWx0IikKCiAgICAgICAgdmFsIGRpcmVjdG9yeUxpc3RpbmcgPSBKc29uLmRlY29kZUZyb21TdHJpbmc8RGlyZWN0b3J5TGlzdGluZ0RhdGE+KHJlc3VsdCkKICAgICAgICBBcHBMb2dnZXIuZCgiRmlsZVV0aWxzIiwgIlBhcnNlZCBkaXJlY3RvcnkgbGlzdGluZzogJGRpcmVjdG9yeUxpc3RpbmciKQoKICAgICAgICBkaXJlY3RvcnlMaXN0aW5nLmVudHJpZXMubWFwIHsgZW50cnkgLT4KICAgICAgICAgICAgRmlsZUl0ZW0oCiAgICAgICAgICAgICAgICAgICAgbmFtZSA9IGVudHJ5Lm5hbWUsCiAgICAgICAgICAgICAgICAgICAgaXNEaXJlY3RvcnkgPSBlbnRyeS5pc0RpcmVjdG9yeSwKICAgICAgICAgICAgICAgICAgICBzaXplID0gZW50cnkuc2l6ZSwKICAgICAgICAgICAgICAgICAgICBsYXN0TW9kaWZpZWQgPSBlbnRyeS5sYXN0TW9kaWZpZWQudG9Mb25nT3JOdWxsKCkgPzogMAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgQXBwTG9nZ2VyLmUoIkZpbGVVdGlscyIsICJFcnJvciBwYXJzaW5nIGZpbGUgbGlzdCIsIGUpCiAgICAgICAgZW1wdHlMaXN0KCkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.utils
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.ui.graphics.vector.ImageVector
+import com.bslsjdk.operit.core.tools.DirectoryListingData
+import com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.models.FileItem
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlin.math.log10
+import kotlin.math.pow
+import kotlinx.serialization.json.Json
+
+/** 获取文件图标 */
+fun getFileIcon(file: FileItem): ImageVector {
+    return if (file.isDirectory) {
+        Icons.Default.Folder
+    } else {
+        when {
+            file.name.endsWith(".pdf") -> Icons.Default.PictureAsPdf
+            file.name.endsWith(".jpg", ignoreCase = true) ||
+                    file.name.endsWith(".jpeg", ignoreCase = true) ||
+                    file.name.endsWith(".png", ignoreCase = true) ||
+                    file.name.endsWith(".gif", ignoreCase = true) ||
+                    file.name.endsWith(".bmp", ignoreCase = true) -> Icons.Default.Image
+            file.name.endsWith(".mp3", ignoreCase = true) ||
+                    file.name.endsWith(".wav", ignoreCase = true) ||
+                    file.name.endsWith(".ogg", ignoreCase = true) -> Icons.Default.AudioFile
+            file.name.endsWith(".mp4", ignoreCase = true) ||
+                    file.name.endsWith(".avi", ignoreCase = true) ||
+                    file.name.endsWith(".mkv", ignoreCase = true) ||
+                    file.name.endsWith(".mov", ignoreCase = true) -> Icons.Default.VideoFile
+            file.name.endsWith(".zip", ignoreCase = true) ||
+                    file.name.endsWith(".rar", ignoreCase = true) ||
+                    file.name.endsWith(".7z", ignoreCase = true) ||
+                    file.name.endsWith(".tar", ignoreCase = true) -> Icons.Default.FolderZip
+            file.name.endsWith(".txt", ignoreCase = true) -> Icons.Default.TextSnippet
+            file.name.endsWith(".doc", ignoreCase = true) ||
+                    file.name.endsWith(".docx", ignoreCase = true) -> Icons.Default.Description
+            file.name.endsWith(".xls", ignoreCase = true) ||
+                    file.name.endsWith(".xlsx", ignoreCase = true) -> Icons.Default.TableChart
+            file.name.endsWith(".ppt", ignoreCase = true) ||
+                    file.name.endsWith(".pptx", ignoreCase = true) -> Icons.Default.PictureAsPdf
+            else -> Icons.Default.InsertDriveFile
+        }
+    }
+}
+
+/** 获取文件类型描述 */
+fun getFileType(context: Context, fileName: String): String {
+    return when {
+        fileName.endsWith(".pdf", ignoreCase = true) -> context.getString(R.string.file_type_pdf)
+        fileName.endsWith(".jpg", ignoreCase = true) ||
+                fileName.endsWith(".jpeg", ignoreCase = true) -> context.getString(R.string.file_type_jpeg)
+        fileName.endsWith(".png", ignoreCase = true) -> context.getString(R.string.file_type_png)
+        fileName.endsWith(".gif", ignoreCase = true) -> context.getString(R.string.file_type_gif)
+        fileName.endsWith(".bmp", ignoreCase = true) -> context.getString(R.string.file_type_bmp)
+        fileName.endsWith(".mp3", ignoreCase = true) -> context.getString(R.string.file_type_mp3)
+        fileName.endsWith(".wav", ignoreCase = true) -> context.getString(R.string.file_type_wav)
+        fileName.endsWith(".ogg", ignoreCase = true) -> context.getString(R.string.file_type_ogg)
+        fileName.endsWith(".mp4", ignoreCase = true) -> context.getString(R.string.file_type_mp4)
+        fileName.endsWith(".avi", ignoreCase = true) -> context.getString(R.string.file_type_avi)
+        fileName.endsWith(".mkv", ignoreCase = true) -> context.getString(R.string.file_type_mkv)
+        fileName.endsWith(".mov", ignoreCase = true) -> context.getString(R.string.file_type_mov)
+        fileName.endsWith(".zip", ignoreCase = true) -> context.getString(R.string.file_type_zip)
+        fileName.endsWith(".rar", ignoreCase = true) -> context.getString(R.string.file_type_rar)
+        fileName.endsWith(".7z", ignoreCase = true) -> context.getString(R.string.file_type_7z)
+        fileName.endsWith(".tar", ignoreCase = true) -> context.getString(R.string.file_type_tar)
+        fileName.endsWith(".txt", ignoreCase = true) -> context.getString(R.string.file_type_txt)
+        fileName.endsWith(".doc", ignoreCase = true) ||
+                fileName.endsWith(".docx", ignoreCase = true) -> context.getString(R.string.file_type_doc)
+        fileName.endsWith(".xls", ignoreCase = true) ||
+                fileName.endsWith(".xlsx", ignoreCase = true) -> context.getString(R.string.file_type_xls)
+        fileName.endsWith(".ppt", ignoreCase = true) ||
+                fileName.endsWith(".pptx", ignoreCase = true) -> context.getString(R.string.file_type_ppt)
+        else -> context.getString(R.string.file_type_unknown)
+    }
+}
+
+/** 格式化文件大小 */
+fun formatFileSize(size: Long): String {
+    if (size <= 0) return "0 B"
+
+    val units = arrayOf("B", "KB", "MB", "GB", "TB")
+    val digitGroups = (log10(size.toDouble()) / log10(1024.0)).toInt()
+
+    return String.format("%.1f %s", size / 1024.0.pow(digitGroups.toDouble()), units[digitGroups])
+}
+
+/** 格式化日期 */
+fun formatDate(dateString: String): String {
+    return try {
+        val simpleDateFormat = SimpleDateFormat("MMM dd HH:mm", Locale.ENGLISH)
+        val date = simpleDateFormat.parse(dateString)
+        if (date != null) {
+            val outputFormat = SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.getDefault())
+            outputFormat.format(date)
+        } else {
+            dateString
+        }
+    } catch (e: Exception) {
+        dateString
+    }
+}
+
+/** 解析文件列表 */
+fun parseFileList(result: String): List<FileItem> {
+    return try {
+        if (result.isBlank()) {
+            AppLogger.d("FileUtils", "Empty result string")
+            return emptyList()
+        }
+
+        AppLogger.d("FileUtils", "Parsing directory listing: $result")
+
+        val directoryListing = Json.decodeFromString<DirectoryListingData>(result)
+        AppLogger.d("FileUtils", "Parsed directory listing: $directoryListing")
+
+        directoryListing.entries.map { entry ->
+            FileItem(
+                    name = entry.name,
+                    isDirectory = entry.isDirectory,
+                    size = entry.size,
+                    lastModified = entry.lastModified.toLongOrNull() ?: 0
+            )
+        }
+    } catch (e: Exception) {
+        AppLogger.e("FileUtils", "Error parsing file list", e)
+        emptyList()
+    }
+}

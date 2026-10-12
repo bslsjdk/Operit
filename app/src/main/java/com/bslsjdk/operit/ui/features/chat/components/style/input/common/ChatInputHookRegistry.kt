@@ -1,1 +1,130 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnN0eWxlLmlucHV0LmNvbW1vbgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvcHlPbldyaXRlQXJyYXlMaXN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCnByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJDaGF0SW5wdXRIb29rUmVnaXN0cnkiCgpvYmplY3QgQ2hhdElucHV0RXZlbnRzIHsKICAgIGNvbnN0IHZhbCBJTlBVVF9DSEFOR0VEID0gImlucHV0X2NoYW5nZWQiCiAgICBjb25zdCB2YWwgU1VCTUlUX1JFUVVFU1RFRCA9ICJzdWJtaXRfcmVxdWVzdGVkIgogICAgY29uc3QgdmFsIFNVQk1JVFRFRCA9ICJzdWJtaXR0ZWQiCn0KCm9iamVjdCBDaGF0SW5wdXRTdWJtaXRBY3Rpb25zIHsKICAgIGNvbnN0IHZhbCBBTExPVyA9ICJhbGxvdyIKICAgIGNvbnN0IHZhbCBCTE9DSyA9ICJibG9jayIKICAgIGNvbnN0IHZhbCBSRVBMQUNFID0gInJlcGxhY2UiCiAgICBjb25zdCB2YWwgQ09OU1VNRSA9ICJjb25zdW1lIgp9CgpkYXRhIGNsYXNzIENoYXRJbnB1dEhvb2tDb250ZXh0KAogICAgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICB2YWwgZXZlbnROYW1lOiBTdHJpbmcsCiAgICB2YWwgY2hhdElkOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCB0ZXh0OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBzZWxlY3Rpb25TdGFydDogSW50ID0gMCwKICAgIHZhbCBzZWxlY3Rpb25FbmQ6IEludCA9IDAsCiAgICB2YWwgaGFzQXR0YWNobWVudHM6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBhdHRhY2htZW50Q291bnQ6IEludCA9IDAsCiAgICB2YWwgaXNQcm9jZXNzaW5nOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgaW5wdXRTdHlsZTogU3RyaW5nID0gIiIsCiAgICB2YWwgc291cmNlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBzdWJtaXRTb3VyY2U6IFN0cmluZyA9ICIiCikKCmRhdGEgY2xhc3MgQ2hhdElucHV0SG9va1Jlc3VsdCgKICAgIHZhbCBhY3Rpb246IFN0cmluZyA9IENoYXRJbnB1dFN1Ym1pdEFjdGlvbnMuQUxMT1csCiAgICB2YWwgdGV4dDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgbWVzc2FnZTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgbm90aWNlTWVzc2FnZTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgY2xlYXJJbnB1dDogQm9vbGVhbiA9IGZhbHNlLAogICAgdmFsIG1ldGFkYXRhOiBNYXA8U3RyaW5nLCBBbnk/PiA9IGVtcHR5TWFwKCkKKQoKaW50ZXJmYWNlIENoYXRJbnB1dEhvb2sgewogICAgdmFsIGlkOiBTdHJpbmcKCiAgICBzdXNwZW5kIGZ1biBvbkV2ZW50KGNvbnRleHQ6IENoYXRJbnB1dEhvb2tDb250ZXh0KTogQ2hhdElucHV0SG9va1Jlc3VsdD8gPSBudWxsCn0KCm9iamVjdCBDaGF0SW5wdXRIb29rUmVnaXN0cnkgewogICAgcHJpdmF0ZSB2YWwgaG9va3MgPSBDb3B5T25Xcml0ZUFycmF5TGlzdDxDaGF0SW5wdXRIb29rPigpCiAgICBwcml2YXRlIHZhbCBub3RpZmljYXRpb25TY29wZSA9IENvcm91dGluZVNjb3BlKFN1cGVydmlzb3JKb2IoKSArIERpc3BhdGNoZXJzLklPKQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biByZWdpc3Rlcihob29rOiBDaGF0SW5wdXRIb29rKSB7CiAgICAgICAgdW5yZWdpc3Rlcihob29rLmlkKQogICAgICAgIGhvb2tzLmFkZChob29rKQogICAgfQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biB1bnJlZ2lzdGVyKGhvb2tJZDogU3RyaW5nKSB7CiAgICAgICAgaG9va3MucmVtb3ZlQWxsIHsgaXQuaWQgPT0gaG9va0lkIH0KICAgIH0KCiAgICBmdW4gZGlzcGF0Y2hOb3RpZmljYXRpb24oY29udGV4dDogQ2hhdElucHV0SG9va0NvbnRleHQpIHsKICAgICAgICB2YWwgc25hcHNob3QgPSBob29rcy50b0xpc3QoKQogICAgICAgIGlmIChzbmFwc2hvdC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIHNuYXBzaG90LmZvckVhY2ggeyBob29rIC0+CiAgICAgICAgICAgIG5vdGlmaWNhdGlvblNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICBydW5DYXRjaGluZyB7IGhvb2sub25FdmVudChjb250ZXh0KSB9CiAgICAgICAgICAgICAgICAgICAgLm9uRmFpbHVyZSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNoYXQgaW5wdXQgaG9vayBub3RpZmljYXRpb24gZmFpbGVkOiBob29rPSR7aG9vay5pZH0sIGV2ZW50PSR7Y29udGV4dC5ldmVudE5hbWV9IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gZGlzcGF0Y2hTdWJtaXRSZXF1ZXN0ZWQoCiAgICAgICAgY29udGV4dDogQ2hhdElucHV0SG9va0NvbnRleHQKICAgICk6IENoYXRJbnB1dEhvb2tSZXN1bHQgewogICAgICAgIHZhciBjdXJyZW50ID0gY29udGV4dC5jb3B5KGV2ZW50TmFtZSA9IENoYXRJbnB1dEV2ZW50cy5TVUJNSVRfUkVRVUVTVEVEKQogICAgICAgIHZhciBub3RpY2VNZXNzYWdlOiBTdHJpbmc/ID0gbnVsbAogICAgICAgIGZvciAoaG9vayBpbiBob29rcykgewogICAgICAgICAgICB2YWwgcmVzdWx0T3JOdWxsID0KICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgaG9vay5vbkV2ZW50KGN1cnJlbnQpIH0KICAgICAgICAgICAgICAgICAgICAuZ2V0T3JFbHNlIHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiQ2hhdCBpbnB1dCBzdWJtaXQgaG9vayBmYWlsZWQ6IGhvb2s9JHtob29rLmlkfSIsIGVycm9yKQogICAgICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAocmVzdWx0T3JOdWxsID09IG51bGwpIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHJlc3VsdE9yTnVsbAogICAgICAgICAgICBpZiAoIXJlc3VsdC5ub3RpY2VNZXNzYWdlLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgbm90aWNlTWVzc2FnZSA9IHJlc3VsdC5ub3RpY2VNZXNzYWdlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHdoZW4gKHJlc3VsdC5hY3Rpb24udHJpbSgpLmxvd2VyY2FzZSgpKSB7CiAgICAgICAgICAgICAgICBDaGF0SW5wdXRTdWJtaXRBY3Rpb25zLkJMT0NLIC0+IHJldHVybiByZXN1bHQuY29weShhY3Rpb24gPSBDaGF0SW5wdXRTdWJtaXRBY3Rpb25zLkJMT0NLKQogICAgICAgICAgICAgICAgQ2hhdElucHV0U3VibWl0QWN0aW9ucy5DT05TVU1FIC0+IHJldHVybiByZXN1bHQuY29weShhY3Rpb24gPSBDaGF0SW5wdXRTdWJtaXRBY3Rpb25zLkNPTlNVTUUpCiAgICAgICAgICAgICAgICBDaGF0SW5wdXRTdWJtaXRBY3Rpb25zLlJFUExBQ0UgLT4gewogICAgICAgICAgICAgICAgICAgIHZhbCByZXBsYWNlbWVudCA9IHJlc3VsdC50ZXh0ID86IGN1cnJlbnQudGV4dAogICAgICAgICAgICAgICAgICAgIGN1cnJlbnQgPQogICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50LmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gcmVwbGFjZW1lbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3Rpb25TdGFydCA9IHJlcGxhY2VtZW50Lmxlbmd0aCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGlvbkVuZCA9IHJlcGxhY2VtZW50Lmxlbmd0aAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIENoYXRJbnB1dEhvb2tSZXN1bHQoCiAgICAgICAgICAgIGFjdGlvbiA9IENoYXRJbnB1dFN1Ym1pdEFjdGlvbnMuQUxMT1csCiAgICAgICAgICAgIHRleHQgPSBjdXJyZW50LnRleHQsCiAgICAgICAgICAgIG5vdGljZU1lc3NhZ2UgPSBub3RpY2VNZXNzYWdlCiAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components.style.input.common
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.CopyOnWriteArrayList
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
+
+private const val TAG = "ChatInputHookRegistry"
+
+object ChatInputEvents {
+    const val INPUT_CHANGED = "input_changed"
+    const val SUBMIT_REQUESTED = "submit_requested"
+    const val SUBMITTED = "submitted"
+}
+
+object ChatInputSubmitActions {
+    const val ALLOW = "allow"
+    const val BLOCK = "block"
+    const val REPLACE = "replace"
+    const val CONSUME = "consume"
+}
+
+data class ChatInputHookContext(
+    val context: Context,
+    val eventName: String,
+    val chatId: String? = null,
+    val text: String = "",
+    val selectionStart: Int = 0,
+    val selectionEnd: Int = 0,
+    val hasAttachments: Boolean = false,
+    val attachmentCount: Int = 0,
+    val isProcessing: Boolean = false,
+    val inputStyle: String = "",
+    val source: String = "",
+    val submitSource: String = ""
+)
+
+data class ChatInputHookResult(
+    val action: String = ChatInputSubmitActions.ALLOW,
+    val text: String? = null,
+    val message: String? = null,
+    val noticeMessage: String? = null,
+    val clearInput: Boolean = false,
+    val metadata: Map<String, Any?> = emptyMap()
+)
+
+interface ChatInputHook {
+    val id: String
+
+    suspend fun onEvent(context: ChatInputHookContext): ChatInputHookResult? = null
+}
+
+object ChatInputHookRegistry {
+    private val hooks = CopyOnWriteArrayList<ChatInputHook>()
+    private val notificationScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+
+    @Synchronized
+    fun register(hook: ChatInputHook) {
+        unregister(hook.id)
+        hooks.add(hook)
+    }
+
+    @Synchronized
+    fun unregister(hookId: String) {
+        hooks.removeAll { it.id == hookId }
+    }
+
+    fun dispatchNotification(context: ChatInputHookContext) {
+        val snapshot = hooks.toList()
+        if (snapshot.isEmpty()) {
+            return
+        }
+        snapshot.forEach { hook ->
+            notificationScope.launch {
+                runCatching { hook.onEvent(context) }
+                    .onFailure { error ->
+                        AppLogger.e(
+                            TAG,
+                            "Chat input hook notification failed: hook=${hook.id}, event=${context.eventName}",
+                            error
+                        )
+                    }
+            }
+        }
+    }
+
+    suspend fun dispatchSubmitRequested(
+        context: ChatInputHookContext
+    ): ChatInputHookResult {
+        var current = context.copy(eventName = ChatInputEvents.SUBMIT_REQUESTED)
+        var noticeMessage: String? = null
+        for (hook in hooks) {
+            val resultOrNull =
+                runCatching { hook.onEvent(current) }
+                    .getOrElse { error ->
+                        AppLogger.e(TAG, "Chat input submit hook failed: hook=${hook.id}", error)
+                        null
+                    }
+            if (resultOrNull == null) {
+                continue
+            }
+            val result = resultOrNull
+            if (!result.noticeMessage.isNullOrBlank()) {
+                noticeMessage = result.noticeMessage
+            }
+
+            when (result.action.trim().lowercase()) {
+                ChatInputSubmitActions.BLOCK -> return result.copy(action = ChatInputSubmitActions.BLOCK)
+                ChatInputSubmitActions.CONSUME -> return result.copy(action = ChatInputSubmitActions.CONSUME)
+                ChatInputSubmitActions.REPLACE -> {
+                    val replacement = result.text ?: current.text
+                    current =
+                        current.copy(
+                            text = replacement,
+                            selectionStart = replacement.length,
+                            selectionEnd = replacement.length
+                        )
+                }
+            }
+        }
+        return ChatInputHookResult(
+            action = ChatInputSubmitActions.ALLOW,
+            text = current.text,
+            noticeMessage = noticeMessage
+        )
+    }
+}

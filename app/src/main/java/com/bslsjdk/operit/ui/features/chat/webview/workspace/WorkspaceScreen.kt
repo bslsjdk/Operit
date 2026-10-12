@@ -1,1 +1,61 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5iYWNrZ3JvdW5kCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlVwbG9hZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbERlbnNpdHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRIaXN0b3J5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC52aWV3bW9kZWwuQ2hhdFZpZXdNb2RlbAppbXBvcnQgamF2YS5pby5GaWxlCgovKioKICog5Li75bel5L2c5Yy65bGP5bmV57uE5Lu2CiAqIOagueaNruiBiuWkqeeKtuaAgeaYvuekuuS4jeWQjOeahOW3peS9nOWMuueVjOmdogogKi8KQENvbXBvc2FibGUKZnVuIFdvcmtzcGFjZVNjcmVlbigKICAgIGFjdHVhbFZpZXdNb2RlbDogQ2hhdFZpZXdNb2RlbCwKICAgIGN1cnJlbnRDaGF0OiBDaGF0SGlzdG9yeT8sCiAgICBpc1Zpc2libGU6IEJvb2xlYW4sCiAgICBvbkV4cG9ydENsaWNrOiAod29ya0RpcjogRmlsZSkgLT4gVW5pdAopIHsKICAgIGlmIChjdXJyZW50Q2hhdD8ud29ya3NwYWNlICE9IG51bGwpIHsKICAgICAgICB2YWwgd29ya3NwYWNlUGF0aCA9IGN1cnJlbnRDaGF0LndvcmtzcGFjZQogICAgICAgIFdvcmtzcGFjZU1hbmFnZXIoCiAgICAgICAgICAgICAgICBhY3R1YWxWaWV3TW9kZWwgPSBhY3R1YWxWaWV3TW9kZWwsCiAgICAgICAgICAgICAgICBjdXJyZW50Q2hhdCA9IGN1cnJlbnRDaGF0LAogICAgICAgICAgICAgICAgd29ya3NwYWNlUGF0aCA9IHdvcmtzcGFjZVBhdGgsCiAgICAgICAgICAgICAgICB3b3Jrc3BhY2VFbnYgPSBjdXJyZW50Q2hhdC53b3Jrc3BhY2VFbnYsCiAgICAgICAgICAgICAgICBpc1Zpc2libGUgPSBpc1Zpc2libGUsCiAgICAgICAgICAgICAgICBvbkV4cG9ydENsaWNrID0gb25FeHBvcnRDbGljawogICAgICAgICAgICApCiAgICAgICAgCiAgICB9IGVsc2UgaWYgKGN1cnJlbnRDaGF0ICE9IG51bGwpIHsKICAgICAgICBXb3Jrc3BhY2VTZXR1cCgKICAgICAgICAgICAgY2hhdElkID0gY3VycmVudENoYXQuaWQsCiAgICAgICAgICAgIG9uQmluZFdvcmtzcGFjZSA9IHsgd29ya3NwYWNlUGF0aCwgd29ya3NwYWNlRW52IC0+CiAgICAgICAgICAgICAgICBhY3R1YWxWaWV3TW9kZWwuYmluZENoYXRUb1dvcmtzcGFjZShjdXJyZW50Q2hhdC5pZCwgd29ya3NwYWNlUGF0aCwgd29ya3NwYWNlRW52KQogICAgICAgICAgICB9CiAgICAgICAgKQogICAgfSBlbHNlIHsKICAgICAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICAgICAgQ29sdW1uKAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAgICAgLmJhY2tncm91bmQoTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlKQogICAgICAgICAgICAgICAgLnBhZGRpbmcoMTYuZHApLAogICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuQ2VudGVyLAogICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseQogICAgICAgICkgewogICAgICAgICAgICBUZXh0KHRleHQgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5wbGVhc2Vfc2VsZWN0X29yX2NyZWF0ZV9jb252ZXJzYXRpb24pLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5oZWFkbGluZU1lZGl1bSkKICAgICAgICB9CiAgICB9Cn0=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Upload
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.ChatHistory
+import com.bslsjdk.operit.ui.features.chat.viewmodel.ChatViewModel
+import java.io.File
+
+/**
+ * 主工作区屏幕组件
+ * 根据聊天状态显示不同的工作区界面
+ */
+@Composable
+fun WorkspaceScreen(
+    actualViewModel: ChatViewModel,
+    currentChat: ChatHistory?,
+    isVisible: Boolean,
+    onExportClick: (workDir: File) -> Unit
+) {
+    if (currentChat?.workspace != null) {
+        val workspacePath = currentChat.workspace
+        WorkspaceManager(
+                actualViewModel = actualViewModel,
+                currentChat = currentChat,
+                workspacePath = workspacePath,
+                workspaceEnv = currentChat.workspaceEnv,
+                isVisible = isVisible,
+                onExportClick = onExportClick
+            )
+        
+    } else if (currentChat != null) {
+        WorkspaceSetup(
+            chatId = currentChat.id,
+            onBindWorkspace = { workspacePath, workspaceEnv ->
+                actualViewModel.bindChatToWorkspace(currentChat.id, workspacePath, workspaceEnv)
+            }
+        )
+    } else {
+        val context = LocalContext.current
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(MaterialTheme.colorScheme.surface)
+                .padding(16.dp),
+            verticalArrangement = Arrangement.Center,
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(text = context.getString(R.string.please_select_or_create_conversation), style = MaterialTheme.typography.headlineMedium)
+        }
+    }
+}

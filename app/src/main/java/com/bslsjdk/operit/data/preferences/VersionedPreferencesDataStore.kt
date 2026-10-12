@@ -1,1 +1,111 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhTWlncmF0aW9uCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLk11dGFibGVQcmVmZXJlbmNlcwppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuUHJlZmVyZW5jZXMKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLnN0cmluZ1ByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMucHJlZmVyZW5jZXNEYXRhU3RvcmUKaW1wb3J0IGtvdGxpbi5wcm9wZXJ0aWVzLlJlYWRPbmx5UHJvcGVydHkKCnByaXZhdGUgdmFsIFBSRUZFUkVOQ0VTX1NDSEVNQV9WRVJTSU9OX0tFWSA9CiAgICBzdHJpbmdQcmVmZXJlbmNlc0tleSgiX19vcGVyaXRfcHJlZmVyZW5jZXNfc2NoZW1hX3ZlcnNpb24iKQoKaW50ZXJuYWwgaW50ZXJmYWNlIFByZWZlcmVuY2VzU2NoZW1hTWlncmF0aW9uIHsKICAgIHN1c3BlbmQgZnVuIG1pZ3JhdGUodmVyc2lvbjogSW50LCBwcmVmZXJlbmNlczogTXV0YWJsZVByZWZlcmVuY2VzKQoKICAgIHN1c3BlbmQgZnVuIGNsZWFuVXAoKSA9IFVuaXQKfQoKaW50ZXJuYWwgZnVuIHByZWZlcmVuY2VTY2hlbWFNaWdyYXRpb24oCiAgICBtaWdyYXRlOiBzdXNwZW5kICh2ZXJzaW9uOiBJbnQsIHByZWZlcmVuY2VzOiBNdXRhYmxlUHJlZmVyZW5jZXMpIC0+IFVuaXQsCik6IFByZWZlcmVuY2VzU2NoZW1hTWlncmF0aW9uID0KICAgIG9iamVjdCA6IFByZWZlcmVuY2VzU2NoZW1hTWlncmF0aW9uIHsKICAgICAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBtaWdyYXRlKHZlcnNpb246IEludCwgcHJlZmVyZW5jZXM6IE11dGFibGVQcmVmZXJlbmNlcykgewogICAgICAgICAgICBtaWdyYXRlKHZlcnNpb24sIHByZWZlcmVuY2VzKQogICAgICAgIH0KICAgIH0KCmludGVybmFsIGZ1biB2ZXJzaW9uZWRQcmVmZXJlbmNlc0RhdGFTdG9yZSgKICAgIG5hbWU6IFN0cmluZywKICAgIGN1cnJlbnRWZXJzaW9uOiBJbnQsCiAgICBjcmVhdGVNaWdyYXRpb246IChDb250ZXh0KSAtPiBQcmVmZXJlbmNlc1NjaGVtYU1pZ3JhdGlvbiwKKTogUmVhZE9ubHlQcm9wZXJ0eTxDb250ZXh0LCBEYXRhU3RvcmU8UHJlZmVyZW5jZXM+PiB7CiAgICByZXF1aXJlKGN1cnJlbnRWZXJzaW9uID49IDApIHsgIlByZWZlcmVuY2Ugc2NoZW1hIHZlcnNpb24gbXVzdCBiZSBub24tbmVnYXRpdmU6ICRjdXJyZW50VmVyc2lvbiIgfQogICAgcmV0dXJuIHByZWZlcmVuY2VzRGF0YVN0b3JlKAogICAgICAgIG5hbWUgPSBuYW1lLAogICAgICAgIHByb2R1Y2VNaWdyYXRpb25zID0geyBjb250ZXh0IC0+CiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIFByZWZlcmVuY2VzU2NoZW1hRGF0YU1pZ3JhdGlvbigKICAgICAgICAgICAgICAgICAgICBjdXJyZW50VmVyc2lvbiA9IGN1cnJlbnRWZXJzaW9uLAogICAgICAgICAgICAgICAgICAgIG1pZ3JhdGlvbiA9IGNyZWF0ZU1pZ3JhdGlvbihjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9LAogICAgKQp9CgppbnRlcm5hbCBmdW4gdmVyc2lvbmVkUHJlZmVyZW5jZXNEYXRhU3RvcmUoCiAgICBuYW1lOiBTdHJpbmcsCiAgICBjdXJyZW50VmVyc2lvbjogSW50LAogICAgbWlncmF0ZTogc3VzcGVuZCAodmVyc2lvbjogSW50LCBwcmVmZXJlbmNlczogTXV0YWJsZVByZWZlcmVuY2VzKSAtPiBVbml0LAopOiBSZWFkT25seVByb3BlcnR5PENvbnRleHQsIERhdGFTdG9yZTxQcmVmZXJlbmNlcz4+ID0KICAgIHZlcnNpb25lZFByZWZlcmVuY2VzRGF0YVN0b3JlKAogICAgICAgIG5hbWUgPSBuYW1lLAogICAgICAgIGN1cnJlbnRWZXJzaW9uID0gY3VycmVudFZlcnNpb24sCiAgICApIHsKICAgICAgICBwcmVmZXJlbmNlU2NoZW1hTWlncmF0aW9uKG1pZ3JhdGUpCiAgICB9CgppbnRlcm5hbCBmdW4gbWlzc2luZ1ByZWZlcmVuY2VzU2NoZW1hTWlncmF0aW9uKGZyb206IEludCk6IE5vdGhpbmcgewogICAgdGhyb3cgTWlzc2luZ1ByZWZlcmVuY2VzU2NoZW1hTWlncmF0aW9uRXhjZXB0aW9uKGZyb20sIGZyb20gKyAxKQp9Cgpwcml2YXRlIGNsYXNzIFByZWZlcmVuY2VzU2NoZW1hRGF0YU1pZ3JhdGlvbigKICAgIHByaXZhdGUgdmFsIGN1cnJlbnRWZXJzaW9uOiBJbnQsCiAgICBwcml2YXRlIHZhbCBtaWdyYXRpb246IFByZWZlcmVuY2VzU2NoZW1hTWlncmF0aW9uLAopIDogRGF0YU1pZ3JhdGlvbjxQcmVmZXJlbmNlcz4gewogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc2hvdWxkTWlncmF0ZShjdXJyZW50RGF0YTogUHJlZmVyZW5jZXMpOiBCb29sZWFuIHsKICAgICAgICB2YWwgdmVyc2lvbiA9IHJlYWRTY2hlbWFWZXJzaW9uKGN1cnJlbnREYXRhKQogICAgICAgIGlmICh2ZXJzaW9uID4gY3VycmVudFZlcnNpb24pIHsKICAgICAgICAgICAgdGhyb3cgUHJlZmVyZW5jZXNTY2hlbWFWZXJzaW9uVG9vTmV3RXhjZXB0aW9uKHZlcnNpb24sIGN1cnJlbnRWZXJzaW9uKQogICAgICAgIH0KICAgICAgICByZXR1cm4gdmVyc2lvbiA8IGN1cnJlbnRWZXJzaW9uCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gbWlncmF0ZShjdXJyZW50RGF0YTogUHJlZmVyZW5jZXMpOiBQcmVmZXJlbmNlcyB7CiAgICAgICAgdmFsIHByZWZlcmVuY2VzID0gY3VycmVudERhdGEudG9NdXRhYmxlUHJlZmVyZW5jZXMoKQogICAgICAgIHZhciB2ZXJzaW9uID0gcmVhZFNjaGVtYVZlcnNpb24ocHJlZmVyZW5jZXMpCiAgICAgICAgaWYgKHZlcnNpb24gPiBjdXJyZW50VmVyc2lvbikgewogICAgICAgICAgICB0aHJvdyBQcmVmZXJlbmNlc1NjaGVtYVZlcnNpb25Ub29OZXdFeGNlcHRpb24odmVyc2lvbiwgY3VycmVudFZlcnNpb24pCiAgICAgICAgfQoKICAgICAgICB3aGlsZSAodmVyc2lvbiA8IGN1cnJlbnRWZXJzaW9uKSB7CiAgICAgICAgICAgIG1pZ3JhdGlvbi5taWdyYXRlKHZlcnNpb24sIHByZWZlcmVuY2VzKQogICAgICAgICAgICB2ZXJzaW9uICs9IDEKICAgICAgICB9CiAgICAgICAgcHJlZmVyZW5jZXNbUFJFRkVSRU5DRVNfU0NIRU1BX1ZFUlNJT05fS0VZXSA9IGN1cnJlbnRWZXJzaW9uLnRvU3RyaW5nKCkKICAgICAgICByZXR1cm4gcHJlZmVyZW5jZXMKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBjbGVhblVwKCkgewogICAgICAgIG1pZ3JhdGlvbi5jbGVhblVwKCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWFkU2NoZW1hVmVyc2lvbihwcmVmZXJlbmNlczogUHJlZmVyZW5jZXMpOiBJbnQgewogICAgICAgIHZhbCByYXcgPSBwcmVmZXJlbmNlc1tQUkVGRVJFTkNFU19TQ0hFTUFfVkVSU0lPTl9LRVldID86IHJldHVybiAwCiAgICAgICAgcmV0dXJuIHJhdy50b0ludE9yTnVsbCgpID86IHRocm93IEludmFsaWRQcmVmZXJlbmNlc1NjaGVtYVZlcnNpb25FeGNlcHRpb24ocmF3KQogICAgfQp9CgppbnRlcm5hbCBjbGFzcyBJbnZhbGlkUHJlZmVyZW5jZXNTY2hlbWFWZXJzaW9uRXhjZXB0aW9uKHZhbHVlOiBTdHJpbmcpIDoKICAgIElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiSW52YWxpZCBwcmVmZXJlbmNlcyBzY2hlbWEgdmVyc2lvbjogJHZhbHVlIikKCmludGVybmFsIGNsYXNzIFByZWZlcmVuY2VzU2NoZW1hVmVyc2lvblRvb05ld0V4Y2VwdGlvbihhY3R1YWw6IEludCwgZXhwZWN0ZWQ6IEludCkgOgogICAgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKAogICAgICAgICJQcmVmZXJlbmNlcyBzY2hlbWEgdmVyc2lvbiAkYWN0dWFsIGlzIG5ld2VyIHRoYW4gcnVudGltZSB2ZXJzaW9uICRleHBlY3RlZCIKICAgICkKCmludGVybmFsIGNsYXNzIE1pc3NpbmdQcmVmZXJlbmNlc1NjaGVtYU1pZ3JhdGlvbkV4Y2VwdGlvbihmcm9tOiBJbnQsIHRvOiBJbnQpIDoKICAgIElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiTWlzc2luZyBwcmVmZXJlbmNlcyBtaWdyYXRpb24gZnJvbSB2ZXJzaW9uICRmcm9tIHRvICR0byIpCg==
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataMigration
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.MutablePreferences
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import kotlin.properties.ReadOnlyProperty
+
+private val PREFERENCES_SCHEMA_VERSION_KEY =
+    stringPreferencesKey("__operit_preferences_schema_version")
+
+internal interface PreferencesSchemaMigration {
+    suspend fun migrate(version: Int, preferences: MutablePreferences)
+
+    suspend fun cleanUp() = Unit
+}
+
+internal fun preferenceSchemaMigration(
+    migrate: suspend (version: Int, preferences: MutablePreferences) -> Unit,
+): PreferencesSchemaMigration =
+    object : PreferencesSchemaMigration {
+        override suspend fun migrate(version: Int, preferences: MutablePreferences) {
+            migrate(version, preferences)
+        }
+    }
+
+internal fun versionedPreferencesDataStore(
+    name: String,
+    currentVersion: Int,
+    createMigration: (Context) -> PreferencesSchemaMigration,
+): ReadOnlyProperty<Context, DataStore<Preferences>> {
+    require(currentVersion >= 0) { "Preference schema version must be non-negative: $currentVersion" }
+    return preferencesDataStore(
+        name = name,
+        produceMigrations = { context ->
+            listOf(
+                PreferencesSchemaDataMigration(
+                    currentVersion = currentVersion,
+                    migration = createMigration(context.applicationContext),
+                )
+            )
+        },
+    )
+}
+
+internal fun versionedPreferencesDataStore(
+    name: String,
+    currentVersion: Int,
+    migrate: suspend (version: Int, preferences: MutablePreferences) -> Unit,
+): ReadOnlyProperty<Context, DataStore<Preferences>> =
+    versionedPreferencesDataStore(
+        name = name,
+        currentVersion = currentVersion,
+    ) {
+        preferenceSchemaMigration(migrate)
+    }
+
+internal fun missingPreferencesSchemaMigration(from: Int): Nothing {
+    throw MissingPreferencesSchemaMigrationException(from, from + 1)
+}
+
+private class PreferencesSchemaDataMigration(
+    private val currentVersion: Int,
+    private val migration: PreferencesSchemaMigration,
+) : DataMigration<Preferences> {
+    override suspend fun shouldMigrate(currentData: Preferences): Boolean {
+        val version = readSchemaVersion(currentData)
+        if (version > currentVersion) {
+            throw PreferencesSchemaVersionTooNewException(version, currentVersion)
+        }
+        return version < currentVersion
+    }
+
+    override suspend fun migrate(currentData: Preferences): Preferences {
+        val preferences = currentData.toMutablePreferences()
+        var version = readSchemaVersion(preferences)
+        if (version > currentVersion) {
+            throw PreferencesSchemaVersionTooNewException(version, currentVersion)
+        }
+
+        while (version < currentVersion) {
+            migration.migrate(version, preferences)
+            version += 1
+        }
+        preferences[PREFERENCES_SCHEMA_VERSION_KEY] = currentVersion.toString()
+        return preferences
+    }
+
+    override suspend fun cleanUp() {
+        migration.cleanUp()
+    }
+
+    private fun readSchemaVersion(preferences: Preferences): Int {
+        val raw = preferences[PREFERENCES_SCHEMA_VERSION_KEY] ?: return 0
+        return raw.toIntOrNull() ?: throw InvalidPreferencesSchemaVersionException(raw)
+    }
+}
+
+internal class InvalidPreferencesSchemaVersionException(value: String) :
+    IllegalStateException("Invalid preferences schema version: $value")
+
+internal class PreferencesSchemaVersionTooNewException(actual: Int, expected: Int) :
+    IllegalStateException(
+        "Preferences schema version $actual is newer than runtime version $expected"
+    )
+
+internal class MissingPreferencesSchemaMigrationException(from: Int, to: Int) :
+    IllegalStateException("Missing preferences migration from version $from to $to")

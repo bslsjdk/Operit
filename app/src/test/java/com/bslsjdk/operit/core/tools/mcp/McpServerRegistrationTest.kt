@@ -1,1 +1,100 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5tY3AKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5tb2NraXRvLmtvdGxpbi5tb2NrCgovKioKICogR3VhcmRzIHRoZSByZWdpc3RyYXRpb24gc3VyZmFjZSByZW1vdGUgTUNQIHBsdWdpbnMgZGVwZW5kIG9uIChpc3N1ZSAjOTA3KS4KICoKICogQnJpbmdpbmcgYSByZW1vdGUgcGx1Z2luIHVwIG9ubHkgaW5zdGFsbHMgYSBydW50aW1lIGRlc2NyaXB0b3IuIFRoZSBBSSBjYW4gcmVhY2ggaXQgb25seSBvbmNlCiAqIHRoZSBwbHVnaW4gaXMgYWxzbyByZWdpc3RlcmVkIGFzIGEgc2VydmVyLCBiZWNhdXNlIHRoZSAiQXZhaWxhYmxlIHBhY2thZ2VzIiBwcm9tcHQgc2VjdGlvbiBhbmQKICogdGhlIHBhY2thZ2UgYXV0by1hY3RpdmF0aW9uIHBhdGggYm90aCByZWFkIFtNQ1BNYW5hZ2VyLmdldFJlZ2lzdGVyZWRTZXJ2ZXJzXS4KICovCmNsYXNzIE1jcFNlcnZlclJlZ2lzdHJhdGlvblRlc3QgewoKICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQgPSBtb2NrKCkKCiAgICBwcml2YXRlIHZhbCByZW1vdGVEZXNjcmlwdG9yID0gTWNwUnVudGltZURlc2NyaXB0b3IuUmVtb3RlKAogICAgICAgIGVuZHBvaW50ID0gImh0dHBzOi8vZXhhbXBsZS5pbnZhbGlkL21jcCIsCiAgICAgICAgY29ubmVjdGlvblR5cGUgPSAiaHR0cFN0cmVhbSIsCiAgICAgICAgYmVhcmVyVG9rZW4gPSAidG9rZW4iLAogICAgICAgIGhlYWRlcnMgPSBtYXBPZigiWC1DbGllbnQiIHRvICJPcGVyaXQiKQogICAgKQoKICAgIHByaXZhdGUgZnVuIHJlbW90ZVNlcnZlckNvbmZpZygpID0gTUNQU2VydmVyQ29uZmlnKAogICAgICAgIG5hbWUgPSBQTFVHSU5fSUQsCiAgICAgICAgZW5kcG9pbnQgPSByZW1vdGVEZXNjcmlwdG9yLmVuZHBvaW50LAogICAgICAgIGRlc2NyaXB0aW9uID0gIlJlbW90ZSBNQ1Agc2VydmljZSIsCiAgICAgICAgY2FwYWJpbGl0aWVzID0gbGlzdE9mKCJ0b29scyIpLAogICAgICAgIGV4dHJhRGF0YSA9IGVtcHR5TWFwKCkKICAgICkKCiAgICBAVGVzdAogICAgZnVuIGBjb25uZWN0aW5nIGEgcmVtb3RlIHJ1bnRpbWUgZG9lcyBub3QgZXhwb3NlIHRoZSBzZXJ2ZXIgdG8gdGhlIEFJYCgpIHsKICAgICAgICB2YWwgbWFuYWdlciA9IE1DUE1hbmFnZXIoY29udGV4dCkKCiAgICAgICAgbWFuYWdlci5yZWdpc3RlclJ1bnRpbWUoUExVR0lOX0lELCByZW1vdGVEZXNjcmlwdG9yKQoKICAgICAgICBhc3NlcnRGYWxzZShtYW5hZ2VyLmlzU2VydmVyUmVnaXN0ZXJlZChQTFVHSU5fSUQpKQogICAgICAgIGFzc2VydFRydWUobWFuYWdlci5nZXRSZWdpc3RlcmVkU2VydmVycygpLmlzRW1wdHkoKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGByZWdpc3RlcmluZyB0aGUgc2VydmVyIGV4cG9zZXMgdGhlIHJlbW90ZSBlbmRwb2ludCB0byB0aGUgQUlgKCkgewogICAgICAgIHZhbCBtYW5hZ2VyID0gTUNQTWFuYWdlcihjb250ZXh0KQoKICAgICAgICBtYW5hZ2VyLnJlZ2lzdGVyU2VydmVyKFBMVUdJTl9JRCwgcmVtb3RlU2VydmVyQ29uZmlnKCksIHJlbW90ZURlc2NyaXB0b3IpCgogICAgICAgIGFzc2VydFRydWUobWFuYWdlci5pc1NlcnZlclJlZ2lzdGVyZWQoUExVR0lOX0lEKSkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIHJlbW90ZURlc2NyaXB0b3IuZW5kcG9pbnQsCiAgICAgICAgICAgIG1hbmFnZXIuZ2V0UmVnaXN0ZXJlZFNlcnZlcnMoKS5nZXRWYWx1ZShQTFVHSU5fSUQpLmVuZHBvaW50CiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHJlcGVhdGVkIHJlZ2lzdHJhdGlvbiBrZWVwcyBhIHNpbmdsZSBzZXJ2ZXIgZW50cnlgKCkgewogICAgICAgIHZhbCBtYW5hZ2VyID0gTUNQTWFuYWdlcihjb250ZXh0KQoKICAgICAgICByZXBlYXQoMykgewogICAgICAgICAgICBtYW5hZ2VyLnJlZ2lzdGVyU2VydmVyKFBMVUdJTl9JRCwgcmVtb3RlU2VydmVyQ29uZmlnKCksIHJlbW90ZURlc2NyaXB0b3IuY29weSgpKQogICAgICAgIH0KCiAgICAgICAgYXNzZXJ0RXF1YWxzKHNldE9mKFBMVUdJTl9JRCksIG1hbmFnZXIuZ2V0UmVnaXN0ZXJlZFNlcnZlcnMoKS5rZXlzKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGRlc2NyaXB0b3JzIHJlYnVpbHQgZnJvbSB0aGUgc2FtZSBtZXRhZGF0YSBjb21wYXJlIGVxdWFsYCgpIHsKICAgICAgICAvLyByZWdpc3RlclJ1bnRpbWUgY2xvc2VzIHRoZSBjYWNoZWQgc2Vzc2lvbiB3aGVuZXZlciB0aGUgaW5jb21pbmcgZGVzY3JpcHRvciBkaWZmZXJzIGZyb20KICAgICAgICAvLyB0aGUgcHJldmlvdXMgb25lLiBSZWdpc3RyYXRpb24gcnVucyBmcm9tIHNldmVyYWwgbGlmZWN5Y2xlIHBvaW50cywgc28gdW5jaGFuZ2VkIHBsdWdpbgogICAgICAgIC8vIG1ldGFkYXRhIGhhcyB0byBrZWVwIHByb2R1Y2luZyBhbiBlcXVhbCBkZXNjcmlwdG9yIG9yIGEgbGl2ZSBzZXNzaW9uIGdldHMgdG9ybiBkb3duIG9uCiAgICAgICAgLy8gZXZlcnkgcmVmcmVzaC4KICAgICAgICB2YWwgcmVidWlsdCA9IE1jcFJ1bnRpbWVEZXNjcmlwdG9yLlJlbW90ZSgKICAgICAgICAgICAgZW5kcG9pbnQgPSAiaHR0cHM6Ly9leGFtcGxlLmludmFsaWQvbWNwIiwKICAgICAgICAgICAgY29ubmVjdGlvblR5cGUgPSAiaHR0cFN0cmVhbSIsCiAgICAgICAgICAgIGJlYXJlclRva2VuID0gInRva2VuIiwKICAgICAgICAgICAgaGVhZGVycyA9IG1hcE9mKCJYLUNsaWVudCIgdG8gIk9wZXJpdCIpCiAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMocmVtb3RlRGVzY3JpcHRvciwgcmVidWlsdCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGB1bnJlZ2lzdGVyaW5nIGEgc2VydmVyIGhpZGVzIGl0IGZyb20gdGhlIEFJIGFnYWluYCgpIHsKICAgICAgICB2YWwgbWFuYWdlciA9IE1DUE1hbmFnZXIoY29udGV4dCkKICAgICAgICBtYW5hZ2VyLnJlZ2lzdGVyU2VydmVyKFBMVUdJTl9JRCwgcmVtb3RlU2VydmVyQ29uZmlnKCksIHJlbW90ZURlc2NyaXB0b3IpCgogICAgICAgIG1hbmFnZXIudW5yZWdpc3RlclNlcnZlcihQTFVHSU5fSUQpCgogICAgICAgIGFzc2VydEZhbHNlKG1hbmFnZXIuaXNTZXJ2ZXJSZWdpc3RlcmVkKFBMVUdJTl9JRCkpCiAgICAgICAgYXNzZXJ0VHJ1ZShtYW5hZ2VyLmdldFJlZ2lzdGVyZWRTZXJ2ZXJzKCkuaXNFbXB0eSgpKQogICAgfQoKICAgIHByaXZhdGUgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgY29uc3QgdmFsIFBMVUdJTl9JRCA9ICJnYWxhdGVhLWdhcmRlbiIKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.mcp
+
+import android.content.Context
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.mockito.kotlin.mock
+
+/**
+ * Guards the registration surface remote MCP plugins depend on (issue #907).
+ *
+ * Bringing a remote plugin up only installs a runtime descriptor. The AI can reach it only once
+ * the plugin is also registered as a server, because the "Available packages" prompt section and
+ * the package auto-activation path both read [MCPManager.getRegisteredServers].
+ */
+class McpServerRegistrationTest {
+
+    private val context: Context = mock()
+
+    private val remoteDescriptor = McpRuntimeDescriptor.Remote(
+        endpoint = "https://example.invalid/mcp",
+        connectionType = "httpStream",
+        bearerToken = "token",
+        headers = mapOf("X-Client" to "Operit")
+    )
+
+    private fun remoteServerConfig() = MCPServerConfig(
+        name = PLUGIN_ID,
+        endpoint = remoteDescriptor.endpoint,
+        description = "Remote MCP service",
+        capabilities = listOf("tools"),
+        extraData = emptyMap()
+    )
+
+    @Test
+    fun `connecting a remote runtime does not expose the server to the AI`() {
+        val manager = MCPManager(context)
+
+        manager.registerRuntime(PLUGIN_ID, remoteDescriptor)
+
+        assertFalse(manager.isServerRegistered(PLUGIN_ID))
+        assertTrue(manager.getRegisteredServers().isEmpty())
+    }
+
+    @Test
+    fun `registering the server exposes the remote endpoint to the AI`() {
+        val manager = MCPManager(context)
+
+        manager.registerServer(PLUGIN_ID, remoteServerConfig(), remoteDescriptor)
+
+        assertTrue(manager.isServerRegistered(PLUGIN_ID))
+        assertEquals(
+            remoteDescriptor.endpoint,
+            manager.getRegisteredServers().getValue(PLUGIN_ID).endpoint
+        )
+    }
+
+    @Test
+    fun `repeated registration keeps a single server entry`() {
+        val manager = MCPManager(context)
+
+        repeat(3) {
+            manager.registerServer(PLUGIN_ID, remoteServerConfig(), remoteDescriptor.copy())
+        }
+
+        assertEquals(setOf(PLUGIN_ID), manager.getRegisteredServers().keys)
+    }
+
+    @Test
+    fun `descriptors rebuilt from the same metadata compare equal`() {
+        // registerRuntime closes the cached session whenever the incoming descriptor differs from
+        // the previous one. Registration runs from several lifecycle points, so unchanged plugin
+        // metadata has to keep producing an equal descriptor or a live session gets torn down on
+        // every refresh.
+        val rebuilt = McpRuntimeDescriptor.Remote(
+            endpoint = "https://example.invalid/mcp",
+            connectionType = "httpStream",
+            bearerToken = "token",
+            headers = mapOf("X-Client" to "Operit")
+        )
+
+        assertEquals(remoteDescriptor, rebuilt)
+    }
+
+    @Test
+    fun `unregistering a server hides it from the AI again`() {
+        val manager = MCPManager(context)
+        manager.registerServer(PLUGIN_ID, remoteServerConfig(), remoteDescriptor)
+
+        manager.unregisterServer(PLUGIN_ID)
+
+        assertFalse(manager.isServerRegistered(PLUGIN_ID))
+        assertTrue(manager.getRegisteredServers().isEmpty())
+    }
+
+    private companion object {
+        const val PLUGIN_ID = "galatea-garden"
+    }
+}

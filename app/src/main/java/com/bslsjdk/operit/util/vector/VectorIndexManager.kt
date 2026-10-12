@@ -1,1 +1,91 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC52ZWN0b3IKCmltcG9ydCBjb20uZ2l0aHViLmplbG1lcmsuaG5zd2xpYi5jb3JlLkRpc3RhbmNlRnVuY3Rpb25zCmltcG9ydCBjb20uZ2l0aHViLmplbG1lcmsuaG5zd2xpYi5jb3JlLkl0ZW0KaW1wb3J0IGNvbS5naXRodWIuamVsbWVyay5obnN3bGliLmNvcmUuaG5zdy5IbnN3SW5kZXgKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5PYmplY3RJbnB1dFN0cmVhbQppbXBvcnQgamF2YS5pby5PYmplY3RPdXRwdXRTdHJlYW0KaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb24KCi8qKgogKiDnsr7nroDnmoRITlNX5ZCR6YeP57Si5byV566h55CG5Zmo77yM5pSv5oyB5Yid5aeL5YyW44CB5re75Yqg44CB5p+l6K+i44CB5L+d5a2Y44CB5Yqg6L2944CCCiAqLwpjbGFzcyBWZWN0b3JJbmRleE1hbmFnZXI8VCA6IEl0ZW08SWQsIEZsb2F0QXJyYXk+LCBJZCA6IEFueT4oCiAgICBwcml2YXRlIHZhbCBkaW1lbnNpb25zOiBJbnQsCiAgICBwcml2YXRlIHZhbCBtYXhFbGVtZW50czogSW50LAogICAgcHJpdmF0ZSB2YWwgaW5kZXhGaWxlOiBGaWxlPyA9IG51bGwKKSB7CiAgICBwcml2YXRlIHZhciBpbmRleDogSG5zd0luZGV4PElkLCBGbG9hdEFycmF5LCBULCBGbG9hdD4/ID0gbnVsbAoKICAgIGluaXQgewogICAgICAgIGluaXRJbmRleCgpCiAgICB9CgogICAgLyoqIOWIneWni+WMlue0ouW8le+8iOaWsOW7uuaIluWKoOi9ve+8iSAqLwogICAgZnVuIGluaXRJbmRleCgpIHsKICAgICAgICBpbmRleCA9IGlmIChpbmRleEZpbGUgIT0gbnVsbCAmJiBpbmRleEZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIE9iamVjdElucHV0U3RyZWFtKGluZGV4RmlsZS5pbnB1dFN0cmVhbSgpKS51c2UgeyBpdC5yZWFkT2JqZWN0KCkgYXMgSG5zd0luZGV4PElkLCBGbG9hdEFycmF5LCBULCBGbG9hdD4gfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlci5lKCJWZWN0b3JJbmRleE1hbmFnZXIiLCAiRmFpbGVkIHRvIGxvYWQgaW5kZXgsIGNyZWF0aW5nIG5ldyBvbmUuIiwgZSkKICAgICAgICAgICAgICAgIC8vIOWmguaenOWKoOi9veWksei0pe+8jOWIoOmZpOWPr+iDveW3suaNn+Wdj+eahOaWh+S7tuW5tuWIm+W7uuS4gOS4quaWsOeahAogICAgICAgICAgICAgICAgaW5kZXhGaWxlLmRlbGV0ZSgpCiAgICAgICAgICAgICAgICBIbnN3SW5kZXgKICAgICAgICAgICAgICAgICAgICAubmV3QnVpbGRlcihkaW1lbnNpb25zLCBEaXN0YW5jZUZ1bmN0aW9ucy5GTE9BVF9DT1NJTkVfRElTVEFOQ0UsIG1heEVsZW1lbnRzKQogICAgICAgICAgICAgICAgICAgIC53aXRoUmVtb3ZlRW5hYmxlZCgpCiAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIEhuc3dJbmRleAogICAgICAgICAgICAgICAgLm5ld0J1aWxkZXIoZGltZW5zaW9ucywgRGlzdGFuY2VGdW5jdGlvbnMuRkxPQVRfQ09TSU5FX0RJU1RBTkNFLCBtYXhFbGVtZW50cykKICAgICAgICAgICAgICAgIC53aXRoUmVtb3ZlRW5hYmxlZCgpCiAgICAgICAgICAgICAgICAuYnVpbGQoKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5re75Yqg5LiA5Liq5ZCR6YeP6aG5ICovCiAgICBmdW4gYWRkSXRlbShpdGVtOiBUKSB7CiAgICAgICAgZW5zdXJlQ2FwYWNpdHkoc2l6ZSgpICsgMSkKICAgICAgICBpbmRleD8uYWRkKGl0ZW0pCiAgICB9CgogICAgLyoqIOWIoOmZpOS4gOS4quWQkemHj+mhueOAgiAqLwogICAgZnVuIHJlbW92ZUl0ZW0oaWQ6IElkLCB2ZXJzaW9uOiBMb25nID0gTG9uZy5NQVhfVkFMVUUpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gaW5kZXg/LnJlbW92ZShpZCwgdmVyc2lvbikgPzogZmFsc2UKICAgIH0KCiAgICAvKiog5p+l6K+i5pyA6L+R55qES+S4qumCu+WxhSAqLwogICAgZnVuIGZpbmROZWFyZXN0KHF1ZXJ5OiBGbG9hdEFycmF5LCBrOiBJbnQpOiBMaXN0PFQ+IHsKICAgICAgICByZXR1cm4gaW5kZXg/LmZpbmROZWFyZXN0KHF1ZXJ5LCBrKT8ubWFwIHsgaXQuaXRlbSgpIH0gPzogZW1wdHlMaXN0KCkKICAgIH0KCiAgICBmdW4gc2l6ZSgpOiBJbnQgPSBpbmRleD8uc2l6ZSgpID86IDAKCiAgICBmdW4gbWF4SXRlbUNvdW50KCk6IEludCA9IGluZGV4Py5tYXhJdGVtQ291bnQgPzogbWF4RWxlbWVudHMKCiAgICBmdW4gZW5zdXJlQ2FwYWNpdHkobWluQ2FwYWNpdHk6IEludCkgewogICAgICAgIHZhbCBjdXJyZW50ID0gaW5kZXggPzogcmV0dXJuCiAgICAgICAgaWYgKG1pbkNhcGFjaXR5ID4gY3VycmVudC5tYXhJdGVtQ291bnQpIHsKICAgICAgICAgICAgY3VycmVudC5yZXNpemUobWluQ2FwYWNpdHkpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDkv53lrZjntKLlvJXliLDmlofku7YgKi8KICAgIGZ1biBzYXZlKCkgewogICAgICAgIGlmIChpbmRleEZpbGUgIT0gbnVsbCAmJiBpbmRleCAhPSBudWxsKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAvLyDnoa7kv53niLbnm67lvZXlrZjlnKgKICAgICAgICAgICAgICAgIGluZGV4RmlsZS5wYXJlbnRGaWxlPy5ta2RpcnMoKQogICAgICAgICAgICAgICAgT2JqZWN0T3V0cHV0U3RyZWFtKGluZGV4RmlsZS5vdXRwdXRTdHJlYW0oKSkudXNlIHsgaXQud3JpdGVPYmplY3QoaW5kZXgpIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogSU9FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlci5lKCJWZWN0b3JJbmRleE1hbmFnZXIiLCAiRmFpbGVkIHRvIHNhdmUgaW5kZXggdG8gJHtpbmRleEZpbGUuYWJzb2x1dGVQYXRofSIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqIOWFs+mXree0ouW8le+8iOWPr+mAie+8iSAqLwogICAgZnVuIGNsb3NlKCkgewogICAgICAgIGluZGV4ID0gbnVsbAogICAgfQp9IAo=
+package com.bslsjdk.operit.util.vector
+
+import com.github.jelmerk.hnswlib.core.DistanceFunctions
+import com.github.jelmerk.hnswlib.core.Item
+import com.github.jelmerk.hnswlib.core.hnsw.HnswIndex
+import java.io.File
+import java.io.ObjectInputStream
+import java.io.ObjectOutputStream
+import java.io.IOException
+
+/**
+ * 精简的HNSW向量索引管理器，支持初始化、添加、查询、保存、加载。
+ */
+class VectorIndexManager<T : Item<Id, FloatArray>, Id : Any>(
+    private val dimensions: Int,
+    private val maxElements: Int,
+    private val indexFile: File? = null
+) {
+    private var index: HnswIndex<Id, FloatArray, T, Float>? = null
+
+    init {
+        initIndex()
+    }
+
+    /** 初始化索引（新建或加载） */
+    fun initIndex() {
+        index = if (indexFile != null && indexFile.exists()) {
+            try {
+                ObjectInputStream(indexFile.inputStream()).use { it.readObject() as HnswIndex<Id, FloatArray, T, Float> }
+            } catch (e: Exception) {
+                com.bslsjdk.operit.util.AppLogger.e("VectorIndexManager", "Failed to load index, creating new one.", e)
+                // 如果加载失败，删除可能已损坏的文件并创建一个新的
+                indexFile.delete()
+                HnswIndex
+                    .newBuilder(dimensions, DistanceFunctions.FLOAT_COSINE_DISTANCE, maxElements)
+                    .withRemoveEnabled()
+                    .build()
+            }
+        } else {
+            HnswIndex
+                .newBuilder(dimensions, DistanceFunctions.FLOAT_COSINE_DISTANCE, maxElements)
+                .withRemoveEnabled()
+                .build()
+        }
+    }
+
+    /** 添加一个向量项 */
+    fun addItem(item: T) {
+        ensureCapacity(size() + 1)
+        index?.add(item)
+    }
+
+    /** 删除一个向量项。 */
+    fun removeItem(id: Id, version: Long = Long.MAX_VALUE): Boolean {
+        return index?.remove(id, version) ?: false
+    }
+
+    /** 查询最近的K个邻居 */
+    fun findNearest(query: FloatArray, k: Int): List<T> {
+        return index?.findNearest(query, k)?.map { it.item() } ?: emptyList()
+    }
+
+    fun size(): Int = index?.size() ?: 0
+
+    fun maxItemCount(): Int = index?.maxItemCount ?: maxElements
+
+    fun ensureCapacity(minCapacity: Int) {
+        val current = index ?: return
+        if (minCapacity > current.maxItemCount) {
+            current.resize(minCapacity)
+        }
+    }
+
+    /** 保存索引到文件 */
+    fun save() {
+        if (indexFile != null && index != null) {
+            try {
+                // 确保父目录存在
+                indexFile.parentFile?.mkdirs()
+                ObjectOutputStream(indexFile.outputStream()).use { it.writeObject(index) }
+            } catch (e: IOException) {
+                com.bslsjdk.operit.util.AppLogger.e("VectorIndexManager", "Failed to save index to ${indexFile.absolutePath}", e)
+            }
+        }
+    }
+
+    /** 关闭索引（可选） */
+    fun close() {
+        index = null
+    }
+} 

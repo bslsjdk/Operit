@@ -1,1 +1,125 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5Qcm9tcHRUdXJuCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLk1vZGVsUGFyYW1ldGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUHJvbXB0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uU3RyZWFtCmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudAppbXBvcnQgb2todHRwMy5SZXF1ZXN0Qm9keQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKLyoqCiAqIOmSiOWvuemYv+mHjOW3tOW3tFF3ZW7vvIjpgJrkuYnljYPpl67vvInmqKHlnovnmoTnibnlrppBUEkgUHJvdmlkZXLjgIIKICog57un5om/6IeqT3BlbkFJUHJvdmlkZXLvvIzku6Xph43nlKjlpKfpg6jliIblhbzlrrnpgLvovpHvvIzkvYbnibnliKvlpITnkIbkuoZgZW5hYmxlX3RoaW5raW5nYOWPguaVsOOAggogKi8KY2xhc3MgUXdlbkFJUHJvdmlkZXIoCiAgICBhcGlFbmRwb2ludDogU3RyaW5nLAogICAgYXBpS2V5UHJvdmlkZXI6IEFwaUtleVByb3ZpZGVyLAogICAgbW9kZWxOYW1lOiBTdHJpbmcsCiAgICBjbGllbnQ6IE9rSHR0cENsaWVudCwKICAgIGN1c3RvbUhlYWRlcnM6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpLAogICAgcHJpdmF0ZSB2YWwgcXdlblByb3ZpZGVyVHlwZTogQXBpUHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLkFMSVlVTiwKICAgIHN1cHBvcnRzVmlzaW9uOiBCb29sZWFuID0gZmFsc2UsCiAgICBzdXBwb3J0c0F1ZGlvOiBCb29sZWFuID0gZmFsc2UsCiAgICBzdXBwb3J0c1ZpZGVvOiBCb29sZWFuID0gZmFsc2UsCiAgICBlbmFibGVUb29sQ2FsbDogQm9vbGVhbiA9IGZhbHNlLAogICAgdGhpbmtpbmdDb25maWd1cmF0aW9uczogU3RyaW5nID0gIiIsCiAgICB0aGlua2luZ09wdGlvbklkOiBTdHJpbmcgPSAiIgopIDogT3BlbkFJUHJvdmlkZXIoCiAgICAgICAgYXBpRW5kcG9pbnQgPSBhcGlFbmRwb2ludCwKICAgICAgICBhcGlLZXlQcm92aWRlciA9IGFwaUtleVByb3ZpZGVyLAogICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZSwKICAgICAgICBjbGllbnQgPSBjbGllbnQsCiAgICAgICAgY3VzdG9tSGVhZGVycyA9IGN1c3RvbUhlYWRlcnMsCiAgICAgICAgcHJvdmlkZXJUeXBlID0gcXdlblByb3ZpZGVyVHlwZSwKICAgICAgICBzdXBwb3J0c1Zpc2lvbiA9IHN1cHBvcnRzVmlzaW9uLAogICAgICAgIHN1cHBvcnRzQXVkaW8gPSBzdXBwb3J0c0F1ZGlvLAogICAgICAgIHN1cHBvcnRzVmlkZW8gPSBzdXBwb3J0c1ZpZGVvLAogICAgICAgIGVuYWJsZVRvb2xDYWxsID0gZW5hYmxlVG9vbENhbGwsCiAgICAgICAgdGhpbmtpbmdDb25maWd1cmF0aW9ucyA9IHRoaW5raW5nQ29uZmlndXJhdGlvbnMsCiAgICAgICAgdGhpbmtpbmdPcHRpb25JZCA9IHRoaW5raW5nT3B0aW9uSWQKICAgICkgewogICAgcHJpdmF0ZSB2YWwgY29uZmlndXJlZEFwaUVuZHBvaW50ID0gYXBpRW5kcG9pbnQKCiAgICBvdmVycmlkZSBmdW4gYnVpbGRJbnB1dEF1ZGlvUGF5bG9hZChsaW5rOiBNZWRpYUxpbmspOiBKU09OT2JqZWN0IHsKICAgICAgICB2YWwgcGF5bG9hZCA9IHN1cGVyLmJ1aWxkSW5wdXRBdWRpb1BheWxvYWQobGluaykKICAgICAgICBpZiAocXdlblByb3ZpZGVyVHlwZSA9PSBBcGlQcm92aWRlclR5cGUuQUxJWVVOKSB7CiAgICAgICAgICAgIHBheWxvYWQucHV0KCJkYXRhIiwgImRhdGE6JHtsaW5rLm1pbWVUeXBlfTtiYXNlNjQsJHtsaW5rLmJhc2U2NERhdGF9IikKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHBheWxvYWQKICAgIH0KCiAgICAvKioKICAgICAqIOmHjeWGmeWIm+W7uuivt+axguS9k+eahOaWueazle+8jOS7peaUr+aMgVF3ZW7nmoRgZW5hYmxlX3RoaW5raW5nYOWPguaVsOOAggogICAgICovCiAgICBvdmVycmlkZSBmdW4gY3JlYXRlUmVxdWVzdEJvZHkoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICBjaGF0SGlzdG9yeTogTGlzdDxQcm9tcHRUdXJuPiwKICAgICAgICBtb2RlbFBhcmFtZXRlcnM6IExpc3Q8TW9kZWxQYXJhbWV0ZXI8Kj4+LAogICAgICAgIGVuYWJsZVRoaW5raW5nOiBCb29sZWFuLAogICAgICAgIHN0cmVhbTogQm9vbGVhbiwKICAgICAgICBhdmFpbGFibGVUb29sczogTGlzdDxUb29sUHJvbXB0Pj8sCiAgICAgICAgcHJlc2VydmVUaGlua0luSGlzdG9yeTogQm9vbGVhbgogICAgKTogUmVxdWVzdEJvZHkgewogICAgICAgIC8vIOmmluWFiO+8jOiwg+eUqOeItuexu+eahOWunueOsOadpeiOt+WPluS4gOS4quagh+WHhueahE9wZW5BSeagvOW8j+eahOivt+axguS9k0pTT07lr7nosaEKICAgICAgICB2YWwgYmFzZVJlcXVlc3RCb2R5SnNvbiA9IHN1cGVyLmNyZWF0ZVJlcXVlc3RCb2R5SW50ZXJuYWwoY29udGV4dCwgY2hhdEhpc3RvcnksIG1vZGVsUGFyYW1ldGVycywgc3RyZWFtLCBhdmFpbGFibGVUb29scywgcHJlc2VydmVUaGlua0luSGlzdG9yeSkKICAgICAgICB2YWwganNvbk9iamVjdCA9IEpTT05PYmplY3QoYmFzZVJlcXVlc3RCb2R5SnNvbikKCiAgICAgICAgYXBwbHlRd2VuUmVhc29uaW5nU2V0dGluZ3MoCiAgICAgICAgICAgIHJlcXVlc3RKc29uID0ganNvbk9iamVjdCwKICAgICAgICAgICAgZW5hYmxlVGhpbmtpbmcgPSBlbmFibGVUaGlua2luZwogICAgICAgICkKCiAgICAgICAgLy8g6K6w5b2V5pyA57uI55qE6K+35rGC5L2T77yI55yB55Wl6L+H6ZW/55qEdG9vbHPlrZfmrrXvvIkKICAgICAgICB2YWwgbG9nSnNvbiA9IEpTT05PYmplY3QoanNvbk9iamVjdC50b1N0cmluZygpKQogICAgICAgIGlmIChsb2dKc29uLmhhcygidG9vbHMiKSkgewogICAgICAgICAgICB2YWwgdG9vbHNBcnJheSA9IGxvZ0pzb24uZ2V0SlNPTkFycmF5KCJ0b29scyIpCiAgICAgICAgICAgIGxvZ0pzb24ucHV0KCJ0b29scyIsICJbJHt0b29sc0FycmF5Lmxlbmd0aCgpfSB0b29scyBvbWl0dGVkIGZvciBicmV2aXR5XSIpCiAgICAgICAgfQogICAgICAgIHZhbCBzYW5pdGl6ZWRMb2dKc29uID0gc2FuaXRpemVJbWFnZURhdGFGb3JMb2dnaW5nKGxvZ0pzb24pCiAgICAgICAgbG9nTGFyZ2VTdHJpbmcoCiAgICAgICAgICAgICJRd2VuQUlQcm92aWRlciIsCiAgICAgICAgICAgIHNhbml0aXplZExvZ0pzb24udG9TdHJpbmcoNCksCiAgICAgICAgICAgICJGaW5hbCBRd2VuLWNvbXBhdGlibGUgcmVxdWVzdCBib2R5OiAiCiAgICAgICAgKQoKICAgICAgICAvLyDkvb/nlKjmm7TmlrDlkI7nmoRKU09OT2JqZWN05Yib5bu65paw55qEUmVxdWVzdEJvZHkKICAgICAgICByZXR1cm4gY3JlYXRlSnNvblJlcXVlc3RCb2R5KGpzb25PYmplY3QudG9TdHJpbmcoKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBhcHBseVF3ZW5SZWFzb25pbmdTZXR0aW5ncygKICAgICAgICByZXF1ZXN0SnNvbjogSlNPTk9iamVjdCwKICAgICAgICBlbmFibGVUaGlua2luZzogQm9vbGVhbgogICAgKSB7CiAgICAgICAgVGhpbmtpbmdDb25maWd1cmF0aW9uQXBwbGllci5hcHBseSgKICAgICAgICAgICAgcmVxdWVzdEpzb24gPSByZXF1ZXN0SnNvbiwKICAgICAgICAgICAgcHJvdmlkZXJUeXBlSWQgPSBxd2VuUHJvdmlkZXJUeXBlLm5hbWUsCiAgICAgICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZSwKICAgICAgICAgICAgYXBpRW5kcG9pbnQgPSBjb25maWd1cmVkQXBpRW5kcG9pbnQsCiAgICAgICAgICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnMgPSB0aGlua2luZ0NvbmZpZ3VyYXRpb25zLAogICAgICAgICAgICBlbmFibGVUaGlua2luZyA9IGVuYWJsZVRoaW5raW5nLAogICAgICAgICAgICBvcHRpb25JZCA9IHRoaW5raW5nT3B0aW9uSWQsCiAgICAgICAgKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHNlbmRNZXNzYWdlKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgY2hhdEhpc3Rvcnk6IExpc3Q8UHJvbXB0VHVybj4sCiAgICAgICAgbW9kZWxQYXJhbWV0ZXJzOiBMaXN0PE1vZGVsUGFyYW1ldGVyPCo+PiwKICAgICAgICBlbmFibGVUaGlua2luZzogQm9vbGVhbiwKICAgICAgICBzdHJlYW06IEJvb2xlYW4sCiAgICAgICAgYXZhaWxhYmxlVG9vbHM6IExpc3Q8VG9vbFByb21wdD4/LAogICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3Rvcnk6IEJvb2xlYW4sCiAgICAgICAgb25Ub2tlbnNVcGRhdGVkOiBzdXNwZW5kIChpbnB1dDogTG9uZywgY2FjaGVkSW5wdXQ6IExvbmcsIG91dHB1dDogTG9uZykgLT4gVW5pdCwKICAgICAgICBvblVzYWdlUmVwb3J0ZWQ6IChzdXNwZW5kIChjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Qcm92aWRlclVzYWdlU25hcHNob3QsIGF0dGVtcHQ6IEludCkgLT4gVW5pdCk/LAogICAgICAgIG9uTm9uRmF0YWxFcnJvcjogc3VzcGVuZCAoZXJyb3I6IFN0cmluZykgLT4gVW5pdCwKICAgICAgICBlbmFibGVSZXRyeTogQm9vbGVhbiwKICAgICAgICByZWNvcmRUb2tlblVzYWdlOiBCb29sZWFuLAogICAgICAgIG9uVXNhZ2VGaW5hbGl6ZWQ6IChzdXNwZW5kIChhdHRlbXB0OiBJbnQ/KSAtPiBVbml0KT8sCiAgICApOiBTdHJlYW08U3RyaW5nPiB7CiAgICAgICAgLy8g55u05o6l6LCD55So54i257G755qEc2VuZE1lc3NhZ2Xlrp7njrDvvIzlroPlt7Lnu4/ljIXlkKvkuobnu63lhpnpgLvovpHlkoxzdHJlYW3lj4LmlbDlpITnkIYKICAgICAgICByZXR1cm4gc3VwZXIuc2VuZE1lc3NhZ2UoY29udGV4dCwgY2hhdEhpc3RvcnksIG1vZGVsUGFyYW1ldGVycywgZW5hYmxlVGhpbmtpbmcsIHN0cmVhbSwgYXZhaWxhYmxlVG9vbHMsIHByZXNlcnZlVGhpbmtJbkhpc3RvcnksIG9uVG9rZW5zVXBkYXRlZCwgb25Vc2FnZVJlcG9ydGVkLCBvbk5vbkZhdGFsRXJyb3IsIGVuYWJsZVJldHJ5LCByZWNvcmRUb2tlblVzYWdlLCBvblVzYWdlRmluYWxpemVkKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.model.ToolPrompt
+import com.bslsjdk.operit.util.stream.Stream
+import okhttp3.OkHttpClient
+import okhttp3.RequestBody
+import org.json.JSONObject
+
+/**
+ * 针对阿里巴巴Qwen（通义千问）模型的特定API Provider。
+ * 继承自OpenAIProvider，以重用大部分兼容逻辑，但特别处理了`enable_thinking`参数。
+ */
+class QwenAIProvider(
+    apiEndpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String> = emptyMap(),
+    private val qwenProviderType: ApiProviderType = ApiProviderType.ALIYUN,
+    supportsVision: Boolean = false,
+    supportsAudio: Boolean = false,
+    supportsVideo: Boolean = false,
+    enableToolCall: Boolean = false,
+    thinkingConfigurations: String = "",
+    thinkingOptionId: String = ""
+) : OpenAIProvider(
+        apiEndpoint = apiEndpoint,
+        apiKeyProvider = apiKeyProvider,
+        modelName = modelName,
+        client = client,
+        customHeaders = customHeaders,
+        providerType = qwenProviderType,
+        supportsVision = supportsVision,
+        supportsAudio = supportsAudio,
+        supportsVideo = supportsVideo,
+        enableToolCall = enableToolCall,
+        thinkingConfigurations = thinkingConfigurations,
+        thinkingOptionId = thinkingOptionId
+    ) {
+    private val configuredApiEndpoint = apiEndpoint
+
+    override fun buildInputAudioPayload(link: MediaLink): JSONObject {
+        val payload = super.buildInputAudioPayload(link)
+        if (qwenProviderType == ApiProviderType.ALIYUN) {
+            payload.put("data", "data:${link.mimeType};base64,${link.base64Data}")
+        }
+        return payload
+    }
+
+    /**
+     * 重写创建请求体的方法，以支持Qwen的`enable_thinking`参数。
+     */
+    override fun createRequestBody(
+        context: Context,
+        chatHistory: List<PromptTurn>,
+        modelParameters: List<ModelParameter<*>>,
+        enableThinking: Boolean,
+        stream: Boolean,
+        availableTools: List<ToolPrompt>?,
+        preserveThinkInHistory: Boolean
+    ): RequestBody {
+        // 首先，调用父类的实现来获取一个标准的OpenAI格式的请求体JSON对象
+        val baseRequestBodyJson = super.createRequestBodyInternal(context, chatHistory, modelParameters, stream, availableTools, preserveThinkInHistory)
+        val jsonObject = JSONObject(baseRequestBodyJson)
+
+        applyQwenReasoningSettings(
+            requestJson = jsonObject,
+            enableThinking = enableThinking
+        )
+
+        // 记录最终的请求体（省略过长的tools字段）
+        val logJson = JSONObject(jsonObject.toString())
+        if (logJson.has("tools")) {
+            val toolsArray = logJson.getJSONArray("tools")
+            logJson.put("tools", "[${toolsArray.length()} tools omitted for brevity]")
+        }
+        val sanitizedLogJson = sanitizeImageDataForLogging(logJson)
+        logLargeString(
+            "QwenAIProvider",
+            sanitizedLogJson.toString(4),
+            "Final Qwen-compatible request body: "
+        )
+
+        // 使用更新后的JSONObject创建新的RequestBody
+        return createJsonRequestBody(jsonObject.toString())
+    }
+
+    private fun applyQwenReasoningSettings(
+        requestJson: JSONObject,
+        enableThinking: Boolean
+    ) {
+        ThinkingConfigurationApplier.apply(
+            requestJson = requestJson,
+            providerTypeId = qwenProviderType.name,
+            modelName = modelName,
+            apiEndpoint = configuredApiEndpoint,
+            thinkingConfigurations = thinkingConfigurations,
+            enableThinking = enableThinking,
+            optionId = thinkingOptionId,
+        )
+    }
+
+    override suspend fun sendMessage(
+        context: Context,
+        chatHistory: List<PromptTurn>,
+        modelParameters: List<ModelParameter<*>>,
+        enableThinking: Boolean,
+        stream: Boolean,
+        availableTools: List<ToolPrompt>?,
+        preserveThinkInHistory: Boolean,
+        onTokensUpdated: suspend (input: Long, cachedInput: Long, output: Long) -> Unit,
+        onUsageReported: (suspend (com.bslsjdk.operit.data.stats.ProviderUsageSnapshot, attempt: Int) -> Unit)?,
+        onNonFatalError: suspend (error: String) -> Unit,
+        enableRetry: Boolean,
+        recordTokenUsage: Boolean,
+        onUsageFinalized: (suspend (attempt: Int?) -> Unit)?,
+    ): Stream<String> {
+        // 直接调用父类的sendMessage实现，它已经包含了续写逻辑和stream参数处理
+        return super.sendMessage(context, chatHistory, modelParameters, enableThinking, stream, availableTools, preserveThinkInHistory, onTokensUpdated, onUsageReported, onNonFatalError, enableRetry, recordTokenUsage, onUsageFinalized)
+    }
+}

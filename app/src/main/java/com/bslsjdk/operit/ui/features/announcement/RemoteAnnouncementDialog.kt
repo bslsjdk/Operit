@@ -1,1 +1,66 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuYW5ub3VuY2VtZW50CgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbWVtYmVyU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi52ZXJ0aWNhbFNjcm9sbAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodEluCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQoKQENvbXBvc2FibGUKZnVuIFJlbW90ZUFubm91bmNlbWVudERpYWxvZygKICAgIHRpdGxlOiBTdHJpbmcsCiAgICBib2R5OiBTdHJpbmcsCiAgICBhY2tub3dsZWRnZVRleHQ6IFN0cmluZywKICAgIG9uQWNrbm93bGVkZ2U6ICgpIC0+IFVuaXQsCiAgICBjb3VudGRvd25TZWNvbmRzOiBJbnQgPSA1CikgewogICAgdmFyIHJlbWFpbmluZ1NlY29uZHMgYnkgcmVtZW1iZXIoY291bnRkb3duU2Vjb25kcykgeyBtdXRhYmxlU3RhdGVPZihjb3VudGRvd25TZWNvbmRzLmNvZXJjZUF0TGVhc3QoMCkpIH0KCiAgICBMYXVuY2hlZEVmZmVjdChjb3VudGRvd25TZWNvbmRzKSB7CiAgICAgICAgd2hpbGUgKHJlbWFpbmluZ1NlY29uZHMgPiAwKSB7CiAgICAgICAgICAgIGRlbGF5KDEwMDApCiAgICAgICAgICAgIHJlbWFpbmluZ1NlY29uZHMtLQogICAgICAgIH0KICAgIH0KCiAgICB2YWwgYWNrbm93bGVkZ2VFbmFibGVkID0gcmVtYWluaW5nU2Vjb25kcyA9PSAwCiAgICB2YWwgbGFiZWwgPSBpZiAoYWNrbm93bGVkZ2VFbmFibGVkKSB7CiAgICAgICAgYWNrbm93bGVkZ2VUZXh0CiAgICB9IGVsc2UgewogICAgICAgICIkYWNrbm93bGVkZ2VUZXh0ICgke3JlbWFpbmluZ1NlY29uZHN9cykiCiAgICB9CgogICAgdmFsIGJvZHlTY3JvbGxTdGF0ZSA9IHJlbWVtYmVyU2Nyb2xsU3RhdGUoKQoKICAgIEFsZXJ0RGlhbG9nKAogICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSB7fSwKICAgICAgICB0aXRsZSA9IHsgVGV4dCh0ZXh0ID0gdGl0bGUpIH0sCiAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgIC5oZWlnaHRJbihtYXggPSAzMjAuZHApCiAgICAgICAgICAgICAgICAgICAgLnZlcnRpY2FsU2Nyb2xsKGJvZHlTY3JvbGxTdGF0ZSkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSBib2R5KQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSBvbkFja25vd2xlZGdlLCBlbmFibGVkID0gYWNrbm93bGVkZ2VFbmFibGVkKSB7CiAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSBsYWJlbCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkKfQo=
+package com.bslsjdk.operit.ui.features.announcement
+
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.delay
+
+@Composable
+fun RemoteAnnouncementDialog(
+    title: String,
+    body: String,
+    acknowledgeText: String,
+    onAcknowledge: () -> Unit,
+    countdownSeconds: Int = 5
+) {
+    var remainingSeconds by remember(countdownSeconds) { mutableStateOf(countdownSeconds.coerceAtLeast(0)) }
+
+    LaunchedEffect(countdownSeconds) {
+        while (remainingSeconds > 0) {
+            delay(1000)
+            remainingSeconds--
+        }
+    }
+
+    val acknowledgeEnabled = remainingSeconds == 0
+    val label = if (acknowledgeEnabled) {
+        acknowledgeText
+    } else {
+        "$acknowledgeText (${remainingSeconds}s)"
+    }
+
+    val bodyScrollState = rememberScrollState()
+
+    AlertDialog(
+        onDismissRequest = {},
+        title = { Text(text = title) },
+        text = {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(max = 320.dp)
+                    .verticalScroll(bodyScrollState)
+            ) {
+                Text(text = body)
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = onAcknowledge, enabled = acknowledgeEnabled) {
+                Text(text = label)
+            }
+        }
+    )
+}

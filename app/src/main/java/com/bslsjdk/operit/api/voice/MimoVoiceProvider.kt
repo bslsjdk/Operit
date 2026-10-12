@@ -1,1 +1,151 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5TcGVlY2hTZXJ2aWNlc1ByZWZlcmVuY2VzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CgpjbGFzcyBNaW1vVm9pY2VQcm92aWRlcigKICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBjb25maWc6IFNwZWVjaFNlcnZpY2VzUHJlZmVyZW5jZXMuVHRzSHR0cENvbmZpZwopIDogVm9pY2VTZXJ2aWNlIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9FTkRQT0lOVF9VUkwgPSAiaHR0cHM6Ly9hcGkueGlhb21pbWltby5jb20vdjEvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9NT0RFTF9OQU1FID0gIm1pbW8tdjIuNS10dHMiCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfVk9JQ0VfSUQgPSAibWltb19kZWZhdWx0IgoKICAgICAgICB2YWwgQVZBSUxBQkxFX1ZPSUNFUyA9CiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIFZvaWNlU2VydmljZS5Wb2ljZSgKICAgICAgICAgICAgICAgICAgICBpZCA9IERFRkFVTFRfVk9JQ0VfSUQsCiAgICAgICAgICAgICAgICAgICAgbmFtZSA9ICJNaU1vIERlZmF1bHQiLAogICAgICAgICAgICAgICAgICAgIGxvY2FsZSA9ICJtdWx0aSIsCiAgICAgICAgICAgICAgICAgICAgZ2VuZGVyID0gIk5FVVRSQUwiCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgVm9pY2VTZXJ2aWNlLlZvaWNlKGlkID0gIuWGsOezliIsIG5hbWUgPSAi5Yaw57OWIiwgbG9jYWxlID0gInpoLUNOIiwgZ2VuZGVyID0gIkZFTUFMRSIpLAogICAgICAgICAgICAgICAgVm9pY2VTZXJ2aWNlLlZvaWNlKGlkID0gIuiMieiOiSIsIG5hbWUgPSAi6IyJ6I6JIiwgbG9jYWxlID0gInpoLUNOIiwgZ2VuZGVyID0gIkZFTUFMRSIpLAogICAgICAgICAgICAgICAgVm9pY2VTZXJ2aWNlLlZvaWNlKGlkID0gIuiLj+aJkyIsIG5hbWUgPSAi6IuP5omTIiwgbG9jYWxlID0gInpoLUNOIiwgZ2VuZGVyID0gIk1BTEUiKSwKICAgICAgICAgICAgICAgIFZvaWNlU2VydmljZS5Wb2ljZShpZCA9ICLnmb3moaYiLCBuYW1lID0gIueZveahpiIsIGxvY2FsZSA9ICJ6aC1DTiIsIGdlbmRlciA9ICJNQUxFIiksCiAgICAgICAgICAgICAgICBWb2ljZVNlcnZpY2UuVm9pY2UoaWQgPSAiTWlhIiwgbmFtZSA9ICJNaWEiLCBsb2NhbGUgPSAiZW4tVVMiLCBnZW5kZXIgPSAiRkVNQUxFIiksCiAgICAgICAgICAgICAgICBWb2ljZVNlcnZpY2UuVm9pY2UoaWQgPSAiQ2hsb2UiLCBuYW1lID0gIkNobG9lIiwgbG9jYWxlID0gImVuLVVTIiwgZ2VuZGVyID0gIkZFTUFMRSIpLAogICAgICAgICAgICAgICAgVm9pY2VTZXJ2aWNlLlZvaWNlKGlkID0gIk1pbG8iLCBuYW1lID0gIk1pbG8iLCBsb2NhbGUgPSAiZW4tVVMiLCBnZW5kZXIgPSAiTUFMRSIpLAogICAgICAgICAgICAgICAgVm9pY2VTZXJ2aWNlLlZvaWNlKGlkID0gIkRlYW4iLCBuYW1lID0gIkRlYW4iLCBsb2NhbGUgPSAiZW4tVVMiLCBnZW5kZXIgPSAiTUFMRSIpCiAgICAgICAgICAgICkKCiAgICAgICAgcHJpdmF0ZSB2YWwgREVGQVVMVF9SRVNQT05TRV9QSVBFTElORSA9CiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIEh0dHBUdHNSZXNwb25zZVBpcGVsaW5lU3RlcCh0eXBlID0gSHR0cFR0c1Jlc3BvbnNlUGlwZWxpbmVTdGVwLlRZUEVfUEFSU0VfSlNPTiksCiAgICAgICAgICAgICAgICBIdHRwVHRzUmVzcG9uc2VQaXBlbGluZVN0ZXAoCiAgICAgICAgICAgICAgICAgICAgdHlwZSA9IEh0dHBUdHNSZXNwb25zZVBpcGVsaW5lU3RlcC5UWVBFX1BJQ0ssCiAgICAgICAgICAgICAgICAgICAgcGF0aCA9ICJjaG9pY2VzWzBdLm1lc3NhZ2UuYXVkaW8uZGF0YSIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBIdHRwVHRzUmVzcG9uc2VQaXBlbGluZVN0ZXAodHlwZSA9IEh0dHBUdHNSZXNwb25zZVBpcGVsaW5lU3RlcC5UWVBFX0JBU0U2NF9ERUNPREUpCiAgICAgICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIHZhbCBkZWxlZ2F0ZSA9IEh0dHBWb2ljZVByb3ZpZGVyKGNvbnRleHQpCiAgICBwcml2YXRlIHZhciBzZWxlY3RlZFZvaWNlSWQ6IFN0cmluZyA9IGNvbmZpZy52b2ljZUlkLmlmQmxhbmsgeyBERUZBVUxUX1ZPSUNFX0lEIH0KCiAgICBvdmVycmlkZSB2YWwgaXNJbml0aWFsaXplZDogQm9vbGVhbgogICAgICAgIGdldCgpID0gZGVsZWdhdGUuaXNJbml0aWFsaXplZAoKICAgIG92ZXJyaWRlIHZhbCBpc1NwZWFraW5nOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSBkZWxlZ2F0ZS5pc1NwZWFraW5nCgogICAgb3ZlcnJpZGUgdmFsIHNwZWFraW5nU3RhdGVGbG93OiBGbG93PEJvb2xlYW4+CiAgICAgICAgZ2V0KCkgPSBkZWxlZ2F0ZS5zcGVha2luZ1N0YXRlRmxvdwoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGluaXRpYWxpemUoKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKGNvbmZpZy5hcGlLZXkuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHRocm93IFR0c0V4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5taW1vX3R0c19lcnJvcl9hcGlfa2V5X25vdF9zZXQpKQogICAgICAgIH0KCiAgICAgICAgZGVsZWdhdGUuc2V0Q29uZmlndXJhdGlvbihidWlsZEh0dHBDb25maWcoKSkKICAgICAgICByZXR1cm4gZGVsZWdhdGUuaW5pdGlhbGl6ZSgpCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc3BlYWsoCiAgICAgICAgdGV4dDogU3RyaW5nLAogICAgICAgIGludGVycnVwdDogQm9vbGVhbiwKICAgICAgICByYXRlOiBGbG9hdD8sCiAgICAgICAgcGl0Y2g6IEZsb2F0PywKICAgICAgICBleHRyYVBhcmFtczogTWFwPFN0cmluZywgU3RyaW5nPgogICAgKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKGNvbmZpZy5hcGlLZXkuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHRocm93IFR0c0V4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5taW1vX3R0c19lcnJvcl9hcGlfa2V5X25vdF9zZXQpKQogICAgICAgIH0KCiAgICAgICAgZGVsZWdhdGUuc2V0Q29uZmlndXJhdGlvbihidWlsZEh0dHBDb25maWcoKSkKCiAgICAgICAgdmFsIHJlc29sdmVkVm9pY2VJZCA9IGV4dHJhUGFyYW1zWyJ2b2ljZSJdPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSA/OiBzZWxlY3RlZFZvaWNlSWQKICAgICAgICB2YWwgcmVzb2x2ZWRNb2RlbE5hbWUgPQogICAgICAgICAgICBleHRyYVBhcmFtc1sibW9kZWwiXT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgID86IGNvbmZpZy5tb2RlbE5hbWUudGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgID86IERFRkFVTFRfTU9ERUxfTkFNRQoKICAgICAgICByZXR1cm4gZGVsZWdhdGUuc3BlYWsoCiAgICAgICAgICAgIHRleHQgPSB0ZXh0LAogICAgICAgICAgICBpbnRlcnJ1cHQgPSBpbnRlcnJ1cHQsCiAgICAgICAgICAgIHJhdGUgPSByYXRlLAogICAgICAgICAgICBwaXRjaCA9IHBpdGNoLAogICAgICAgICAgICBleHRyYVBhcmFtcyA9CiAgICAgICAgICAgICAgICBleHRyYVBhcmFtcyArCiAgICAgICAgICAgICAgICAgICAgbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgICAgICJtb2RlbCIgdG8gcmVzb2x2ZWRNb2RlbE5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICJ2b2ljZV9pZCIgdG8gcmVzb2x2ZWRWb2ljZUlkCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBzdG9wKCk6IEJvb2xlYW4gPSBkZWxlZ2F0ZS5zdG9wKCkKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBwYXVzZSgpOiBCb29sZWFuID0gZGVsZWdhdGUucGF1c2UoKQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHJlc3VtZSgpOiBCb29sZWFuID0gZGVsZWdhdGUucmVzdW1lKCkKCiAgICBvdmVycmlkZSBmdW4gc2h1dGRvd24oKSB7CiAgICAgICAgZGVsZWdhdGUuc2h1dGRvd24oKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGdldEF2YWlsYWJsZVZvaWNlcygpOiBMaXN0PFZvaWNlU2VydmljZS5Wb2ljZT4gPSBBVkFJTEFCTEVfVk9JQ0VTCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc2V0Vm9pY2Uodm9pY2VJZDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgc2VsZWN0ZWRWb2ljZUlkID0gdm9pY2VJZC5pZkJsYW5rIHsgREVGQVVMVF9WT0lDRV9JRCB9CiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZEh0dHBDb25maWcoKTogU3BlZWNoU2VydmljZXNQcmVmZXJlbmNlcy5UdHNIdHRwQ29uZmlnIHsKICAgICAgICByZXR1cm4gU3BlZWNoU2VydmljZXNQcmVmZXJlbmNlcy5UdHNIdHRwQ29uZmlnKAogICAgICAgICAgICB1cmxUZW1wbGF0ZSA9IGNvbmZpZy51cmxUZW1wbGF0ZS5pZkJsYW5rIHsgREVGQVVMVF9FTkRQT0lOVF9VUkwgfSwKICAgICAgICAgICAgYXBpS2V5ID0gIiIsCiAgICAgICAgICAgIGhlYWRlcnMgPSBjb25maWcuaGVhZGVycyArIG1hcE9mKCJhcGkta2V5IiB0byBjb25maWcuYXBpS2V5LnRyaW0oKSksCiAgICAgICAgICAgIGh0dHBNZXRob2QgPSAiUE9TVCIsCiAgICAgICAgICAgIHJlcXVlc3RCb2R5ID0KICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kZWwiOiAie21vZGVsfSIsCiAgICAgICAgICAgICAgICAgICJtZXNzYWdlcyI6IFsKICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAicm9sZSI6ICJ1c2VyIiwKICAgICAgICAgICAgICAgICAgICAgICJjb250ZW50IjogIuivt+iHqueEtuacl+ivu+OAguivremAn+iuvue9ru+8mntyYXRlfXjvvIzpn7Ppq5jorr7nva7vvJp7cGl0Y2h9eOOAgiIKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICJyb2xlIjogImFzc2lzdGFudCIsCiAgICAgICAgICAgICAgICAgICAgICAiY29udGVudCI6ICJ7dGV4dH0iCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAiYXVkaW8iOiB7CiAgICAgICAgICAgICAgICAgICAgImZvcm1hdCI6ICJ3YXYiLAogICAgICAgICAgICAgICAgICAgICJ2b2ljZSI6ICJ7dm9pY2VfaWR9IgogICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAic3RyZWFtIjogZmFsc2UKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICIiIi50cmltSW5kZW50KCksCiAgICAgICAgICAgIGNvbnRlbnRUeXBlID0gImFwcGxpY2F0aW9uL2pzb24iLAogICAgICAgICAgICB2b2ljZUlkID0gc2VsZWN0ZWRWb2ljZUlkLAogICAgICAgICAgICBtb2RlbE5hbWUgPSBjb25maWcubW9kZWxOYW1lLmlmQmxhbmsgeyBERUZBVUxUX01PREVMX05BTUUgfSwKICAgICAgICAgICAgcmVzcG9uc2VQaXBlbGluZSA9IERFRkFVTFRfUkVTUE9OU0VfUElQRUxJTkUKICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.api.voice
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.preferences.SpeechServicesPreferences
+import kotlinx.coroutines.flow.Flow
+
+class MimoVoiceProvider(
+    private val context: Context,
+    private val config: SpeechServicesPreferences.TtsHttpConfig
+) : VoiceService {
+
+    companion object {
+        const val DEFAULT_ENDPOINT_URL = "https://api.xiaomimimo.com/v1/chat/completions"
+        const val DEFAULT_MODEL_NAME = "mimo-v2.5-tts"
+        const val DEFAULT_VOICE_ID = "mimo_default"
+
+        val AVAILABLE_VOICES =
+            listOf(
+                VoiceService.Voice(
+                    id = DEFAULT_VOICE_ID,
+                    name = "MiMo Default",
+                    locale = "multi",
+                    gender = "NEUTRAL"
+                ),
+                VoiceService.Voice(id = "冰糖", name = "冰糖", locale = "zh-CN", gender = "FEMALE"),
+                VoiceService.Voice(id = "茉莉", name = "茉莉", locale = "zh-CN", gender = "FEMALE"),
+                VoiceService.Voice(id = "苏打", name = "苏打", locale = "zh-CN", gender = "MALE"),
+                VoiceService.Voice(id = "白桦", name = "白桦", locale = "zh-CN", gender = "MALE"),
+                VoiceService.Voice(id = "Mia", name = "Mia", locale = "en-US", gender = "FEMALE"),
+                VoiceService.Voice(id = "Chloe", name = "Chloe", locale = "en-US", gender = "FEMALE"),
+                VoiceService.Voice(id = "Milo", name = "Milo", locale = "en-US", gender = "MALE"),
+                VoiceService.Voice(id = "Dean", name = "Dean", locale = "en-US", gender = "MALE")
+            )
+
+        private val DEFAULT_RESPONSE_PIPELINE =
+            listOf(
+                HttpTtsResponsePipelineStep(type = HttpTtsResponsePipelineStep.TYPE_PARSE_JSON),
+                HttpTtsResponsePipelineStep(
+                    type = HttpTtsResponsePipelineStep.TYPE_PICK,
+                    path = "choices[0].message.audio.data"
+                ),
+                HttpTtsResponsePipelineStep(type = HttpTtsResponsePipelineStep.TYPE_BASE64_DECODE)
+            )
+    }
+
+    private val delegate = HttpVoiceProvider(context)
+    private var selectedVoiceId: String = config.voiceId.ifBlank { DEFAULT_VOICE_ID }
+
+    override val isInitialized: Boolean
+        get() = delegate.isInitialized
+
+    override val isSpeaking: Boolean
+        get() = delegate.isSpeaking
+
+    override val speakingStateFlow: Flow<Boolean>
+        get() = delegate.speakingStateFlow
+
+    override suspend fun initialize(): Boolean {
+        if (config.apiKey.isBlank()) {
+            throw TtsException(context.getString(R.string.mimo_tts_error_api_key_not_set))
+        }
+
+        delegate.setConfiguration(buildHttpConfig())
+        return delegate.initialize()
+    }
+
+    override suspend fun speak(
+        text: String,
+        interrupt: Boolean,
+        rate: Float?,
+        pitch: Float?,
+        extraParams: Map<String, String>
+    ): Boolean {
+        if (config.apiKey.isBlank()) {
+            throw TtsException(context.getString(R.string.mimo_tts_error_api_key_not_set))
+        }
+
+        delegate.setConfiguration(buildHttpConfig())
+
+        val resolvedVoiceId = extraParams["voice"]?.takeIf { it.isNotBlank() } ?: selectedVoiceId
+        val resolvedModelName =
+            extraParams["model"]?.takeIf { it.isNotBlank() }
+                ?: config.modelName.takeIf { it.isNotBlank() }
+                ?: DEFAULT_MODEL_NAME
+
+        return delegate.speak(
+            text = text,
+            interrupt = interrupt,
+            rate = rate,
+            pitch = pitch,
+            extraParams =
+                extraParams +
+                    mapOf(
+                        "model" to resolvedModelName,
+                        "voice_id" to resolvedVoiceId
+                    )
+        )
+    }
+
+    override suspend fun stop(): Boolean = delegate.stop()
+
+    override suspend fun pause(): Boolean = delegate.pause()
+
+    override suspend fun resume(): Boolean = delegate.resume()
+
+    override fun shutdown() {
+        delegate.shutdown()
+    }
+
+    override suspend fun getAvailableVoices(): List<VoiceService.Voice> = AVAILABLE_VOICES
+
+    override suspend fun setVoice(voiceId: String): Boolean {
+        selectedVoiceId = voiceId.ifBlank { DEFAULT_VOICE_ID }
+        return true
+    }
+
+    private fun buildHttpConfig(): SpeechServicesPreferences.TtsHttpConfig {
+        return SpeechServicesPreferences.TtsHttpConfig(
+            urlTemplate = config.urlTemplate.ifBlank { DEFAULT_ENDPOINT_URL },
+            apiKey = "",
+            headers = config.headers + mapOf("api-key" to config.apiKey.trim()),
+            httpMethod = "POST",
+            requestBody =
+                """
+                {
+                  "model": "{model}",
+                  "messages": [
+                    {
+                      "role": "user",
+                      "content": "请自然朗读。语速设置：{rate}x，音高设置：{pitch}x。"
+                    },
+                    {
+                      "role": "assistant",
+                      "content": "{text}"
+                    }
+                  ],
+                  "audio": {
+                    "format": "wav",
+                    "voice": "{voice_id}"
+                  },
+                  "stream": false
+                }
+                """.trimIndent(),
+            contentType = "application/json",
+            voiceId = selectedVoiceId,
+            modelName = config.modelName.ifBlank { DEFAULT_MODEL_NAME },
+            responsePipeline = DEFAULT_RESPONSE_PIPELINE
+        )
+    }
+}

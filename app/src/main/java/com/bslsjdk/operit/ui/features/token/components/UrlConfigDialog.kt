@@ -1,1 +1,164 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW4uY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucmVtZW1iZXJTY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnZlcnRpY2FsU2Nyb2xsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5PdXRsaW5lZFRleHRGaWVsZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy50b2tlbi5tb2RlbC5UYWJDb25maWcKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy50b2tlbi5tb2RlbC5VcmxDb25maWcKCkBDb21wb3NhYmxlCmZ1biBVcmxDb25maWdEaWFsb2coCiAgICBjdXJyZW50Q29uZmlnOiBVcmxDb25maWcsCiAgICBvblNhdmU6IChVcmxDb25maWcpIC0+IFVuaXQsCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQKKSB7CiAgICB2YXIgbmFtZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGN1cnJlbnRDb25maWcubmFtZSkgfQogICAgdmFyIHNpZ25JblVybCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGN1cnJlbnRDb25maWcuc2lnbkluVXJsKSB9CiAgICB2YXIgdGFiMVRpdGxlIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoY3VycmVudENvbmZpZy50YWJzLmdldE9yTnVsbCgwKT8udGl0bGUgPzogIiIpIH0KICAgIHZhciB0YWIxVXJsIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoY3VycmVudENvbmZpZy50YWJzLmdldE9yTnVsbCgwKT8udXJsID86ICIiKSB9CiAgICB2YXIgdGFiMlRpdGxlIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoY3VycmVudENvbmZpZy50YWJzLmdldE9yTnVsbCgxKT8udGl0bGUgPzogIiIpIH0KICAgIHZhciB0YWIyVXJsIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoY3VycmVudENvbmZpZy50YWJzLmdldE9yTnVsbCgxKT8udXJsID86ICIiKSB9CiAgICB2YXIgdGFiM1RpdGxlIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoY3VycmVudENvbmZpZy50YWJzLmdldE9yTnVsbCgyKT8udGl0bGUgPzogIiIpIH0KICAgIHZhciB0YWIzVXJsIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoY3VycmVudENvbmZpZy50YWJzLmdldE9yTnVsbCgyKT8udXJsID86ICIiKSB9CiAgICB2YXIgdGFiNFRpdGxlIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoY3VycmVudENvbmZpZy50YWJzLmdldE9yTnVsbCgzKT8udGl0bGUgPzogIiIpIH0KICAgIHZhciB0YWI0VXJsIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoY3VycmVudENvbmZpZy50YWJzLmdldE9yTnVsbCgzKT8udXJsID86ICIiKSB9CgogICAgQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzcywKICAgICAgICB0aXRsZSA9IHsKICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5jdXN0b21fdXJsX2NvbmZpZykpCiAgICAgICAgfSwKICAgICAgICB0ZXh0ID0gewogICAgICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgLnZlcnRpY2FsU2Nyb2xsKHJlbWVtYmVyU2Nyb2xsU3RhdGUoKSksCiAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTIuZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBuYW1lLAogICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IG5hbWUgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNvbmZpZ19uYW1lX2xhYmVsKSkgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBzaWduSW5VcmwsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgc2lnbkluVXJsID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5zaWduaW5fdXJsKSkgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudGFiX2NvbmZpZyksCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVNZWRpdW0KICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICAvLyBUYWIgMQogICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy50YWJfbnVtYmVyLCAxKSwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0pCiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHRhYjFUaXRsZSwKICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyB0YWIxVGl0bGUgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnRpdGxlX2xhYmVsKSkgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHRhYjFVcmwsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgdGFiMVVybCA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudXJsX2xhYmVsKSkgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgLy8gVGFiIDIKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudGFiX251bWJlciwgMiksIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsTWVkaXVtKQogICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSB0YWIyVGl0bGUsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgdGFiMlRpdGxlID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy50aXRsZV9sYWJlbCkpIH0sCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSB0YWIyVXJsLAogICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IHRhYjJVcmwgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnVybF9sYWJlbCkpIH0sCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIC8vIFRhYiAzCiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnRhYl9udW1iZXIsIDMpLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbE1lZGl1bSkKICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgIHZhbHVlID0gdGFiM1RpdGxlLAogICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IHRhYjNUaXRsZSA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudGl0bGVfbGFiZWwpKSB9LAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgIHZhbHVlID0gdGFiM1VybCwKICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyB0YWIzVXJsID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy51cmxfbGFiZWwpKSB9LAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICAvLyBUYWIgNAogICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy50YWJfbnVtYmVyLCA0KSwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0pCiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHRhYjRUaXRsZSwKICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyB0YWI0VGl0bGUgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnRpdGxlX2xhYmVsKSkgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHRhYjRVcmwsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgdGFiNFVybCA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudXJsX2xhYmVsKSkgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGNvbmZpcm1CdXR0b24gPSB7CiAgICAgICAgICAgIEJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIG5ld0NvbmZpZyA9IFVybENvbmZpZygKICAgICAgICAgICAgICAgICAgICAgICAgbmFtZSA9IG5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIHNpZ25JblVybCA9IHNpZ25JblVybCwKICAgICAgICAgICAgICAgICAgICAgICAgdGFicyA9IGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRhYkNvbmZpZyh0YWIxVGl0bGUsIHRhYjFVcmwpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgVGFiQ29uZmlnKHRhYjJUaXRsZSwgdGFiMlVybCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUYWJDb25maWcodGFiM1RpdGxlLCB0YWIzVXJsKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRhYkNvbmZpZyh0YWI0VGl0bGUsIHRhYjRVcmwpCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgb25TYXZlKG5ld0NvbmZpZykKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnNhdmUpKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBkaXNtaXNzQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3MpIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY2FuY2VsKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkKfSA=
+package com.bslsjdk.operit.ui.features.token.components
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.features.token.model.TabConfig
+import com.bslsjdk.operit.ui.features.token.model.UrlConfig
+
+@Composable
+fun UrlConfigDialog(
+    currentConfig: UrlConfig,
+    onSave: (UrlConfig) -> Unit,
+    onDismiss: () -> Unit
+) {
+    var name by remember { mutableStateOf(currentConfig.name) }
+    var signInUrl by remember { mutableStateOf(currentConfig.signInUrl) }
+    var tab1Title by remember { mutableStateOf(currentConfig.tabs.getOrNull(0)?.title ?: "") }
+    var tab1Url by remember { mutableStateOf(currentConfig.tabs.getOrNull(0)?.url ?: "") }
+    var tab2Title by remember { mutableStateOf(currentConfig.tabs.getOrNull(1)?.title ?: "") }
+    var tab2Url by remember { mutableStateOf(currentConfig.tabs.getOrNull(1)?.url ?: "") }
+    var tab3Title by remember { mutableStateOf(currentConfig.tabs.getOrNull(2)?.title ?: "") }
+    var tab3Url by remember { mutableStateOf(currentConfig.tabs.getOrNull(2)?.url ?: "") }
+    var tab4Title by remember { mutableStateOf(currentConfig.tabs.getOrNull(3)?.title ?: "") }
+    var tab4Url by remember { mutableStateOf(currentConfig.tabs.getOrNull(3)?.url ?: "") }
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = {
+            Text(stringResource(R.string.custom_url_config))
+        },
+        text = {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                OutlinedTextField(
+                    value = name,
+                    onValueChange = { name = it },
+                    label = { Text(stringResource(R.string.config_name_label)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                OutlinedTextField(
+                    value = signInUrl,
+                    onValueChange = { signInUrl = it },
+                    label = { Text(stringResource(R.string.signin_url)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                Text(
+                    text = stringResource(R.string.tab_config),
+                    style = MaterialTheme.typography.titleMedium
+                )
+
+                // Tab 1
+                Text(stringResource(R.string.tab_number, 1), style = MaterialTheme.typography.labelMedium)
+                OutlinedTextField(
+                    value = tab1Title,
+                    onValueChange = { tab1Title = it },
+                    label = { Text(stringResource(R.string.title_label)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+                OutlinedTextField(
+                    value = tab1Url,
+                    onValueChange = { tab1Url = it },
+                    label = { Text(stringResource(R.string.url_label)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                // Tab 2
+                Text(stringResource(R.string.tab_number, 2), style = MaterialTheme.typography.labelMedium)
+                OutlinedTextField(
+                    value = tab2Title,
+                    onValueChange = { tab2Title = it },
+                    label = { Text(stringResource(R.string.title_label)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+                OutlinedTextField(
+                    value = tab2Url,
+                    onValueChange = { tab2Url = it },
+                    label = { Text(stringResource(R.string.url_label)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                // Tab 3
+                Text(stringResource(R.string.tab_number, 3), style = MaterialTheme.typography.labelMedium)
+                OutlinedTextField(
+                    value = tab3Title,
+                    onValueChange = { tab3Title = it },
+                    label = { Text(stringResource(R.string.title_label)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+                OutlinedTextField(
+                    value = tab3Url,
+                    onValueChange = { tab3Url = it },
+                    label = { Text(stringResource(R.string.url_label)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+
+                // Tab 4
+                Text(stringResource(R.string.tab_number, 4), style = MaterialTheme.typography.labelMedium)
+                OutlinedTextField(
+                    value = tab4Title,
+                    onValueChange = { tab4Title = it },
+                    label = { Text(stringResource(R.string.title_label)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+                OutlinedTextField(
+                    value = tab4Url,
+                    onValueChange = { tab4Url = it },
+                    label = { Text(stringResource(R.string.url_label)) },
+                    modifier = Modifier.fillMaxWidth()
+                )
+            }
+        },
+        confirmButton = {
+            Button(
+                onClick = {
+                    val newConfig = UrlConfig(
+                        name = name,
+                        signInUrl = signInUrl,
+                        tabs = listOf(
+                            TabConfig(tab1Title, tab1Url),
+                            TabConfig(tab2Title, tab2Url),
+                            TabConfig(tab3Title, tab3Url),
+                            TabConfig(tab4Title, tab4Url)
+                        )
+                    )
+                    onSave(newConfig)
+                }
+            ) {
+                Text(stringResource(R.string.save))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.cancel))
+            }
+        }
+    )
+} 

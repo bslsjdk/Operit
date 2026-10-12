@@ -1,1 +1,101 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHRJbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbWVtYmVyU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi52ZXJ0aWNhbFNjcm9sbAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQWxlcnREaWFsb2cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHRCdXR0b24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTGF1bmNoZWRFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLk1hcmtldEFncmVlbWVudFByZWZlcmVuY2VzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKCkBDb21wb3NhYmxlCmZ1biBNYXJrZXRBZ3JlZW1lbnREaWFsb2coCiAgICBtYW5kYXRvcnk6IEJvb2xlYW4sCiAgICBvbkRpc21pc3NSZXF1ZXN0OiAoKSAtPiBVbml0LAogICAgb25BY2NlcHQ6ICgpIC0+IFVuaXQKKSB7CiAgICB2YWwgc2Nyb2xsU3RhdGUgPSByZW1lbWJlclNjcm9sbFN0YXRlKCkKICAgIHZhciBpc0FjY2VwdEVuYWJsZWQgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQogICAgdmFyIHJlbWFpbmluZ1NlY29uZHMgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZig1KSB9CgogICAgTGF1bmNoZWRFZmZlY3QoVW5pdCkgewogICAgICAgIHJlcGVhdCg1KSB7CiAgICAgICAgICAgIGRlbGF5KDEwMDApCiAgICAgICAgICAgIHJlbWFpbmluZ1NlY29uZHMtLQogICAgICAgIH0KICAgICAgICBpc0FjY2VwdEVuYWJsZWQgPSB0cnVlCiAgICB9CgogICAgQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IHsKICAgICAgICAgICAgaWYgKCFtYW5kYXRvcnkpIG9uRGlzbWlzc1JlcXVlc3QoKQogICAgICAgIH0sCiAgICAgICAgdGl0bGUgPSB7CiAgICAgICAgICAgIFRleHQodGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1hcmtldF9hZ3JlZW1lbnRfdGl0bGUpKQogICAgICAgIH0sCiAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgIC5oZWlnaHRJbihtYXggPSA1MjAuZHApCiAgICAgICAgICAgICAgICAgICAgLnZlcnRpY2FsU2Nyb2xsKHNjcm9sbFN0YXRlKSwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxMi5kcCkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tYXJrZXRfYWdyZWVtZW50X3N1YnRpdGxlKSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZSgKICAgICAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcubWFya2V0X2FncmVlbWVudF92ZXJzaW9uLAogICAgICAgICAgICAgICAgICAgICAgICBNYXJrZXRBZ3JlZW1lbnRQcmVmZXJlbmNlcy5DVVJSRU5UX01BUktFVF9BR1JFRU1FTlRfVkVSU0lPTgogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tYXJrZXRfYWdyZWVtZW50X2NvbnRlbnQpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKAogICAgICAgICAgICAgICAgb25DbGljayA9IG9uQWNjZXB0LAogICAgICAgICAgICAgICAgZW5hYmxlZCA9IGlzQWNjZXB0RW5hYmxlZAogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGlmIChpc0FjY2VwdEVuYWJsZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYWdyZWVtZW50X2FjY2VwdCkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5hZ3JlZW1lbnRfd2FpdCwgcmVtYWluaW5nU2Vjb25kcykKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGRpc21pc3NCdXR0b24gPSBpZiAoIW1hbmRhdG9yeSkgewogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3NSZXF1ZXN0KSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCh0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY2FuY2VsKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICApCn0K
+package com.bslsjdk.operit.ui.features.packages.screens
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.preferences.MarketAgreementPreferences
+import kotlinx.coroutines.delay
+
+@Composable
+fun MarketAgreementDialog(
+    mandatory: Boolean,
+    onDismissRequest: () -> Unit,
+    onAccept: () -> Unit
+) {
+    val scrollState = rememberScrollState()
+    var isAcceptEnabled by remember { mutableStateOf(false) }
+    var remainingSeconds by remember { mutableStateOf(5) }
+
+    LaunchedEffect(Unit) {
+        repeat(5) {
+            delay(1000)
+            remainingSeconds--
+        }
+        isAcceptEnabled = true
+    }
+
+    AlertDialog(
+        onDismissRequest = {
+            if (!mandatory) onDismissRequest()
+        },
+        title = {
+            Text(text = stringResource(R.string.market_agreement_title))
+        },
+        text = {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(max = 520.dp)
+                    .verticalScroll(scrollState),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                Text(
+                    text = stringResource(R.string.market_agreement_subtitle),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Text(
+                    text = stringResource(
+                        R.string.market_agreement_version,
+                        MarketAgreementPreferences.CURRENT_MARKET_AGREEMENT_VERSION
+                    ),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Text(
+                    text = stringResource(R.string.market_agreement_content),
+                    style = MaterialTheme.typography.bodySmall
+                )
+            }
+        },
+        confirmButton = {
+            TextButton(
+                onClick = onAccept,
+                enabled = isAcceptEnabled
+            ) {
+                Text(
+                    text = if (isAcceptEnabled) {
+                        stringResource(R.string.agreement_accept)
+                    } else {
+                        stringResource(R.string.agreement_wait, remainingSeconds)
+                    }
+                )
+            }
+        },
+        dismissButton = if (!mandatory) {
+            {
+                TextButton(onClick = onDismissRequest) {
+                    Text(text = stringResource(R.string.cancel))
+                }
+            }
+        } else {
+            null
+        }
+    )
+}

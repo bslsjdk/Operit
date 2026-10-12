@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQgYW5kcm9pZHgudGVzdC5wbGF0Zm9ybS5hcHAuSW5zdHJ1bWVudGF0aW9uUmVnaXN0cnkKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBQYXRoTWFwcGVyUmVzb2x2ZUFuZHJvaWRUZXN0IHsKCiAgICBwcml2YXRlIHZhbCBjb250ZXh0ID0gSW5zdHJ1bWVudGF0aW9uUmVnaXN0cnkuZ2V0SW5zdHJ1bWVudGF0aW9uKCkudGFyZ2V0Q29udGV4dAogICAgcHJpdmF0ZSB2YWwgdWJ1bnR1Um9vdCA9IEZpbGUoY29udGV4dC5maWxlc0RpciwgInVzci92YXIvbGliL3Byb290LWRpc3Ryby9pbnN0YWxsZWQtcm9vdGZzL3VidW50dSIpLmFic29sdXRlUGF0aAoKICAgIEBUZXN0IGZ1biByZXNvbHZlUGF0aF9saW51eENhc2VJbnNlbnNpdGl2ZV9tYXBzUGF0aCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIiR1YnVudHVSb290L2Jpbi9zaCIsIFBhdGhNYXBwZXIucmVzb2x2ZVBhdGgoY29udGV4dCwgIi9iaW4vc2giLCAiTGlOdVgiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVzb2x2ZVBhdGhfbnVsbEVudmlyb25tZW50X3JldHVybnNPcmlnaW5hbCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIi9kYXRhL2xvY2FsL3RtcCIsIFBhdGhNYXBwZXIucmVzb2x2ZVBhdGgoY29udGV4dCwgIi9kYXRhL2xvY2FsL3RtcCIsIG51bGwpKQogICAgfQoKICAgIEBUZXN0IGZ1biByZXNvbHZlUGF0aF9ibGFua0Vudmlyb25tZW50X3JldHVybnNPcmlnaW5hbCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIi9kYXRhL2xvY2FsL3RtcCIsIFBhdGhNYXBwZXIucmVzb2x2ZVBhdGgoY29udGV4dCwgIi9kYXRhL2xvY2FsL3RtcCIsICIiKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import java.io.File
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class PathMapperResolveAndroidTest {
+
+    private val context = InstrumentationRegistry.getInstrumentation().targetContext
+    private val ubuntuRoot = File(context.filesDir, "usr/var/lib/proot-distro/installed-rootfs/ubuntu").absolutePath
+
+    @Test fun resolvePath_linuxCaseInsensitive_mapsPath() {
+        assertEquals("$ubuntuRoot/bin/sh", PathMapper.resolvePath(context, "/bin/sh", "LiNuX"))
+    }
+
+    @Test fun resolvePath_nullEnvironment_returnsOriginal() {
+        assertEquals("/data/local/tmp", PathMapper.resolvePath(context, "/data/local/tmp", null))
+    }
+
+    @Test fun resolvePath_blankEnvironment_returnsOriginal() {
+        assertEquals("/data/local/tmp", PathMapper.resolvePath(context, "/data/local/tmp", ""))
+    }
+}

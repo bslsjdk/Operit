@@ -1,1 +1,111 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE5vdE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IGphdmEudXRpbC5EYXRlCgpjbGFzcyBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZVRlc3QgewoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIHdpdGggZGVmYXVsdHNgKCkgewogICAgICAgIHZhbCBjYW5kaWRhdGUgPSBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZSgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBjYW5kaWRhdGUuaWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCBjYW5kaWRhdGUuY2hhdElkKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgY2FuZGlkYXRlLnRyaWdnZXJNZXNzYWdlVGltZXN0YW1wKQogICAgICAgIGFzc2VydE5vdE51bGwoY2FuZGlkYXRlLmNyZWF0ZWRBdCkKICAgICAgICBhc3NlcnROb3ROdWxsKGNhbmRpZGF0ZS51cGRhdGVkQXQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlLlNUQVRVU19QRU5ESU5HLCBjYW5kaWRhdGUuc3RhdHVzKQogICAgICAgIGFzc2VydEVxdWFscygwLCBjYW5kaWRhdGUuYXR0ZW1wdENvdW50KQogICAgICAgIGFzc2VydEVxdWFscygiIiwgY2FuZGlkYXRlLmxhc3RFcnJvcikKICAgICAgICBhc3NlcnRFcXVhbHMoTWVtb3J5QXV0b1NhdmVDYW5kaWRhdGUuU09VUkNFX1RZUEVfUkVQTFlfRklOQUxJWkVEX0FVVE8sIGNhbmRpZGF0ZS5zb3VyY2VUeXBlKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIHdpdGggY2hhdCBpZGAoKSB7CiAgICAgICAgdmFsIGNhbmRpZGF0ZSA9IE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlKGNoYXRJZCA9ICJjaGF0MTIzIikKICAgICAgICBhc3NlcnRFcXVhbHMoImNoYXQxMjMiLCBjYW5kaWRhdGUuY2hhdElkKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIHdpdGggdHJpZ2dlciB0aW1lc3RhbXBgKCkgewogICAgICAgIHZhbCBjYW5kaWRhdGUgPSBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZSh0cmlnZ2VyTWVzc2FnZVRpbWVzdGFtcCA9IDEwMDBMKQogICAgICAgIGFzc2VydEVxdWFscygxMDAwTCwgY2FuZGlkYXRlLnRyaWdnZXJNZXNzYWdlVGltZXN0YW1wKQogICAgfQoKICAgIEBUZXN0IGZ1biBgaWQgY2FuIGJlIHNldGAoKSB7CiAgICAgICAgdmFsIGNhbmRpZGF0ZSA9IE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlKGlkID0gNDJMKQogICAgICAgIGFzc2VydEVxdWFscyg0MkwsIGNhbmRpZGF0ZS5pZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHN0YXR1cyBjYW4gYmUgc2V0IHRvIHByb2Nlc3NpbmdgKCkgewogICAgICAgIHZhbCBjYW5kaWRhdGUgPSBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZShzdGF0dXMgPSBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZS5TVEFUVVNfUFJPQ0VTU0lORykKICAgICAgICBhc3NlcnRFcXVhbHMoTWVtb3J5QXV0b1NhdmVDYW5kaWRhdGUuU1RBVFVTX1BST0NFU1NJTkcsIGNhbmRpZGF0ZS5zdGF0dXMpCiAgICB9CgogICAgQFRlc3QgZnVuIGBzdGF0dXMgY2FuIGJlIHNldCB0byBmYWlsZWRgKCkgewogICAgICAgIHZhbCBjYW5kaWRhdGUgPSBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZShzdGF0dXMgPSBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZS5TVEFUVVNfRkFJTEVEKQogICAgICAgIGFzc2VydEVxdWFscyhNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZS5TVEFUVVNfRkFJTEVELCBjYW5kaWRhdGUuc3RhdHVzKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYXR0ZW1wdCBjb3VudCBjYW4gYmUgaW5jcmVtZW50ZWQgdmlhIGNvcHlgKCkgewogICAgICAgIHZhbCBjYW5kaWRhdGUgPSBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZShhdHRlbXB0Q291bnQgPSAxKQogICAgICAgIHZhbCB1cGRhdGVkID0gY2FuZGlkYXRlLmNvcHkoYXR0ZW1wdENvdW50ID0gMikKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgdXBkYXRlZC5hdHRlbXB0Q291bnQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEsIGNhbmRpZGF0ZS5hdHRlbXB0Q291bnQpIC8vIG9yaWdpbmFsIHVuY2hhbmdlZAogICAgfQoKICAgIEBUZXN0IGZ1biBgbGFzdCBlcnJvciBpcyBzdG9yZWRgKCkgewogICAgICAgIHZhbCBjYW5kaWRhdGUgPSBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZShsYXN0RXJyb3IgPSAiTmV0d29yayBlcnJvciIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJOZXR3b3JrIGVycm9yIiwgY2FuZGlkYXRlLmxhc3RFcnJvcikKICAgIH0KCiAgICBAVGVzdCBmdW4gYHNvdXJjZSB0eXBlIGNhbiBiZSBzZWxlY3RlZCB1c2VyIG1lc3NhZ2VgKCkgewogICAgICAgIHZhbCBjYW5kaWRhdGUgPSBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZSgKICAgICAgICAgICAgc291cmNlVHlwZSA9IE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlLlNPVVJDRV9UWVBFX1NFTEVDVEVEX1VTRVJfTUVTU0FHRQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoTWVtb3J5QXV0b1NhdmVDYW5kaWRhdGUuU09VUkNFX1RZUEVfU0VMRUNURURfVVNFUl9NRVNTQUdFLCBjYW5kaWRhdGUuc291cmNlVHlwZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGlzU2VsZWN0ZWRVc2VyTWVzc2FnZVNvdXJjZSByZXR1cm5zIHRydWUgZm9yIHVzZXIgbWVzc2FnZWAoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZS5pc1NlbGVjdGVkVXNlck1lc3NhZ2VTb3VyY2UoCiAgICAgICAgICAgIE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlLlNPVVJDRV9UWVBFX1NFTEVDVEVEX1VTRVJfTUVTU0FHRQogICAgICAgICkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBpc1NlbGVjdGVkVXNlck1lc3NhZ2VTb3VyY2UgcmV0dXJucyBmYWxzZSBmb3IgYXV0b2AoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoTWVtb3J5QXV0b1NhdmVDYW5kaWRhdGUuaXNTZWxlY3RlZFVzZXJNZXNzYWdlU291cmNlKAogICAgICAgICAgICBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZS5TT1VSQ0VfVFlQRV9SRVBMWV9GSU5BTElaRURfQVVUTwogICAgICAgICkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBpc1NlbGVjdGVkVXNlck1lc3NhZ2VTb3VyY2UgcmV0dXJucyBmYWxzZSBmb3IgdW5rbm93bmAoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoTWVtb3J5QXV0b1NhdmVDYW5kaWRhdGUuaXNTZWxlY3RlZFVzZXJNZXNzYWdlU291cmNlKCJ1bmtub3duIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGBzdGF0dXMgY29uc3RhbnRzIGFyZSBkZWZpbmVkYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoInBlbmRpbmciLCBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZS5TVEFUVVNfUEVORElORykKICAgICAgICBhc3NlcnRFcXVhbHMoInByb2Nlc3NpbmciLCBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZS5TVEFUVVNfUFJPQ0VTU0lORykKICAgICAgICBhc3NlcnRFcXVhbHMoImZhaWxlZCIsIE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlLlNUQVRVU19GQUlMRUQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBzb3VyY2UgdHlwZSBjb25zdGFudHMgYXJlIGRlZmluZWRgKCkgewogICAgICAgIGFzc2VydEVxdWFscygicmVwbHlfZmluYWxpemVkX2F1dG8iLCBNZW1vcnlBdXRvU2F2ZUNhbmRpZGF0ZS5TT1VSQ0VfVFlQRV9SRVBMWV9GSU5BTElaRURfQVVUTykKICAgICAgICBhc3NlcnRFcXVhbHMoInNlbGVjdGVkX3VzZXJfbWVzc2FnZSIsIE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlLlNPVVJDRV9UWVBFX1NFTEVDVEVEX1VTRVJfTUVTU0FHRSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNyZWF0ZWQgYXQgYW5kIHVwZGF0ZWQgYXQgYXJlIHNldCBpbmRlcGVuZGVudGx5YCgpIHsKICAgICAgICB2YWwgY2FuZGlkYXRlID0gTWVtb3J5QXV0b1NhdmVDYW5kaWRhdGUoCiAgICAgICAgICAgIGNyZWF0ZWRBdCA9IERhdGUoMTAwMEwpLAogICAgICAgICAgICB1cGRhdGVkQXQgPSBEYXRlKDIwMDBMKSwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMDBMLCBjYW5kaWRhdGUuY3JlYXRlZEF0LnRpbWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIwMDBMLCBjYW5kaWRhdGUudXBkYXRlZEF0LnRpbWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjb3B5IHdpdGggbmV3IHN0YXR1c2AoKSB7CiAgICAgICAgdmFsIGNhbmRpZGF0ZSA9IE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlKHN0YXR1cyA9IE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlLlNUQVRVU19QRU5ESU5HKQogICAgICAgIHZhbCB1cGRhdGVkID0gY2FuZGlkYXRlLmNvcHkoc3RhdHVzID0gTWVtb3J5QXV0b1NhdmVDYW5kaWRhdGUuU1RBVFVTX1BST0NFU1NJTkcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKE1lbW9yeUF1dG9TYXZlQ2FuZGlkYXRlLlNUQVRVU19QUk9DRVNTSU5HLCB1cGRhdGVkLnN0YXR1cykKICAgICAgICBhc3NlcnRFcXVhbHMoTWVtb3J5QXV0b1NhdmVDYW5kaWRhdGUuU1RBVFVTX1BFTkRJTkcsIGNhbmRpZGF0ZS5zdGF0dXMpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import java.util.Date
+
+class MemoryAutoSaveCandidateTest {
+
+    @Test fun `create with defaults`() {
+        val candidate = MemoryAutoSaveCandidate()
+        assertEquals(0L, candidate.id)
+        assertEquals("", candidate.chatId)
+        assertEquals(0L, candidate.triggerMessageTimestamp)
+        assertNotNull(candidate.createdAt)
+        assertNotNull(candidate.updatedAt)
+        assertEquals(MemoryAutoSaveCandidate.STATUS_PENDING, candidate.status)
+        assertEquals(0, candidate.attemptCount)
+        assertEquals("", candidate.lastError)
+        assertEquals(MemoryAutoSaveCandidate.SOURCE_TYPE_REPLY_FINALIZED_AUTO, candidate.sourceType)
+    }
+
+    @Test fun `create with chat id`() {
+        val candidate = MemoryAutoSaveCandidate(chatId = "chat123")
+        assertEquals("chat123", candidate.chatId)
+    }
+
+    @Test fun `create with trigger timestamp`() {
+        val candidate = MemoryAutoSaveCandidate(triggerMessageTimestamp = 1000L)
+        assertEquals(1000L, candidate.triggerMessageTimestamp)
+    }
+
+    @Test fun `id can be set`() {
+        val candidate = MemoryAutoSaveCandidate(id = 42L)
+        assertEquals(42L, candidate.id)
+    }
+
+    @Test fun `status can be set to processing`() {
+        val candidate = MemoryAutoSaveCandidate(status = MemoryAutoSaveCandidate.STATUS_PROCESSING)
+        assertEquals(MemoryAutoSaveCandidate.STATUS_PROCESSING, candidate.status)
+    }
+
+    @Test fun `status can be set to failed`() {
+        val candidate = MemoryAutoSaveCandidate(status = MemoryAutoSaveCandidate.STATUS_FAILED)
+        assertEquals(MemoryAutoSaveCandidate.STATUS_FAILED, candidate.status)
+    }
+
+    @Test fun `attempt count can be incremented via copy`() {
+        val candidate = MemoryAutoSaveCandidate(attemptCount = 1)
+        val updated = candidate.copy(attemptCount = 2)
+        assertEquals(2, updated.attemptCount)
+        assertEquals(1, candidate.attemptCount) // original unchanged
+    }
+
+    @Test fun `last error is stored`() {
+        val candidate = MemoryAutoSaveCandidate(lastError = "Network error")
+        assertEquals("Network error", candidate.lastError)
+    }
+
+    @Test fun `source type can be selected user message`() {
+        val candidate = MemoryAutoSaveCandidate(
+            sourceType = MemoryAutoSaveCandidate.SOURCE_TYPE_SELECTED_USER_MESSAGE
+        )
+        assertEquals(MemoryAutoSaveCandidate.SOURCE_TYPE_SELECTED_USER_MESSAGE, candidate.sourceType)
+    }
+
+    @Test fun `isSelectedUserMessageSource returns true for user message`() {
+        assertTrue(MemoryAutoSaveCandidate.isSelectedUserMessageSource(
+            MemoryAutoSaveCandidate.SOURCE_TYPE_SELECTED_USER_MESSAGE
+        ))
+    }
+
+    @Test fun `isSelectedUserMessageSource returns false for auto`() {
+        assertFalse(MemoryAutoSaveCandidate.isSelectedUserMessageSource(
+            MemoryAutoSaveCandidate.SOURCE_TYPE_REPLY_FINALIZED_AUTO
+        ))
+    }
+
+    @Test fun `isSelectedUserMessageSource returns false for unknown`() {
+        assertFalse(MemoryAutoSaveCandidate.isSelectedUserMessageSource("unknown"))
+    }
+
+    @Test fun `status constants are defined`() {
+        assertEquals("pending", MemoryAutoSaveCandidate.STATUS_PENDING)
+        assertEquals("processing", MemoryAutoSaveCandidate.STATUS_PROCESSING)
+        assertEquals("failed", MemoryAutoSaveCandidate.STATUS_FAILED)
+    }
+
+    @Test fun `source type constants are defined`() {
+        assertEquals("reply_finalized_auto", MemoryAutoSaveCandidate.SOURCE_TYPE_REPLY_FINALIZED_AUTO)
+        assertEquals("selected_user_message", MemoryAutoSaveCandidate.SOURCE_TYPE_SELECTED_USER_MESSAGE)
+    }
+
+    @Test fun `created at and updated at are set independently`() {
+        val candidate = MemoryAutoSaveCandidate(
+            createdAt = Date(1000L),
+            updatedAt = Date(2000L),
+        )
+        assertEquals(1000L, candidate.createdAt.time)
+        assertEquals(2000L, candidate.updatedAt.time)
+    }
+
+    @Test fun `copy with new status`() {
+        val candidate = MemoryAutoSaveCandidate(status = MemoryAutoSaveCandidate.STATUS_PENDING)
+        val updated = candidate.copy(status = MemoryAutoSaveCandidate.STATUS_PROCESSING)
+        assertEquals(MemoryAutoSaveCandidate.STATUS_PROCESSING, updated.status)
+        assertEquals(MemoryAutoSaveCandidate.STATUS_PENDING, candidate.status)
+    }
+}

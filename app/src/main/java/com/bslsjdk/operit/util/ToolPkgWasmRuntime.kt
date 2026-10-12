@@ -1,1 +1,109 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGphdmEuc2VjdXJpdHkuTWVzc2FnZURpZ2VzdAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXAKCmludGVybmFsIG9iamVjdCBUb29sUGtnV2FzbVJ1bnRpbWUgewogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIExvYWRlZE1vZHVsZSgKICAgICAgICB2YWwgaGFuZGxlOiBMb25nLAogICAgICAgIHZhbCBmaW5nZXJwcmludDogU3RyaW5nCiAgICApCgogICAgcHJpdmF0ZSB2YWwgbW9kdWxlcyA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgTG9hZGVkTW9kdWxlPigpCiAgICBwcml2YXRlIHZhbCBtb2R1bGVMb2NrID0gQW55KCkKICAgIHByaXZhdGUgdmFsIGhleERpZ2l0cyA9ICIwMTIzNDU2Nzg5YWJjZGVmIi50b0NoYXJBcnJheSgpCgogICAgZnVuIGNhbGwoCiAgICAgICAgY2FjaGVLZXk6IFN0cmluZywKICAgICAgICB3YXNtQnl0ZXM6IEJ5dGVBcnJheSwKICAgICAgICBleHBvcnROYW1lOiBTdHJpbmcsCiAgICAgICAgYXJnVHlwZXM6IEludEFycmF5LAogICAgICAgIGFyZ0JpdHM6IExvbmdBcnJheQogICAgKTogU3RyaW5nIHsKICAgICAgICB2YWwgbG9hZGVkID0gcmVzb2x2ZUxvYWRlZE1vZHVsZShjYWNoZUtleSwgd2FzbUJ5dGVzKQogICAgICAgIHJldHVybiBUb29sUGtnV2FzbU5hdGl2ZS5jYWxsKAogICAgICAgICAgICBoYW5kbGUgPSBsb2FkZWQuaGFuZGxlLAogICAgICAgICAgICBmdW5jdGlvbk5hbWUgPSBleHBvcnROYW1lLAogICAgICAgICAgICBhcmdUeXBlcyA9IGFyZ1R5cGVzLAogICAgICAgICAgICBhcmdCaXRzID0gYXJnQml0cwogICAgICAgICkKICAgIH0KCiAgICBmdW4gY2xvc2UoY2FjaGVLZXk6IFN0cmluZykgewogICAgICAgIHZhbCBub3JtYWxpemVkS2V5ID0gY2FjaGVLZXkudHJpbSgpCiAgICAgICAgaWYgKG5vcm1hbGl6ZWRLZXkuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgbG9hZGVkID0gbW9kdWxlcy5yZW1vdmUobm9ybWFsaXplZEtleSkgPzogcmV0dXJuCiAgICAgICAgVG9vbFBrZ1dhc21OYXRpdmUuY2xvc2UobG9hZGVkLmhhbmRsZSkKICAgIH0KCiAgICBmdW4gY2xvc2VBbGxGb3JQYWNrYWdlKHBhY2thZ2VOYW1lOiBTdHJpbmcpIHsKICAgICAgICB2YWwgcHJlZml4ID0gIiR7cGFja2FnZU5hbWUudHJpbSgpfToiCiAgICAgICAgaWYgKHByZWZpeC5sZW5ndGggPD0gMSkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgdmFsIGtleXMgPSBtb2R1bGVzLmtleXMuZmlsdGVyIHsga2V5IC0+IGtleS5zdGFydHNXaXRoKHByZWZpeCkgfQogICAgICAgIGtleXMuZm9yRWFjaCg6OmNsb3NlKQogICAgfQoKICAgIGZ1biBjbG9zZUFsbCgpIHsKICAgICAgICB2YWwga2V5cyA9IG1vZHVsZXMua2V5cy50b0xpc3QoKQogICAgICAgIGtleXMuZm9yRWFjaCg6OmNsb3NlKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc29sdmVMb2FkZWRNb2R1bGUoY2FjaGVLZXk6IFN0cmluZywgd2FzbUJ5dGVzOiBCeXRlQXJyYXkpOiBMb2FkZWRNb2R1bGUgewogICAgICAgIHZhbCBub3JtYWxpemVkS2V5ID0gY2FjaGVLZXkudHJpbSgpCiAgICAgICAgcmVxdWlyZShub3JtYWxpemVkS2V5LmlzTm90RW1wdHkoKSkgeyAiV0FTTSBjYWNoZSBrZXkgaXMgcmVxdWlyZWQiIH0KICAgICAgICByZXF1aXJlKHdhc21CeXRlcy5pc05vdEVtcHR5KCkpIHsgIldBU00gbW9kdWxlIGJ5dGVzIGFyZSBlbXB0eSIgfQoKICAgICAgICB2YWwgZmluZ2VycHJpbnQgPSBzaGEyNTZIZXgod2FzbUJ5dGVzKQogICAgICAgIHN5bmNocm9uaXplZChtb2R1bGVMb2NrKSB7CiAgICAgICAgICAgIHZhbCBjdXJyZW50ID0gbW9kdWxlc1tub3JtYWxpemVkS2V5XQogICAgICAgICAgICBpZiAoY3VycmVudCAhPSBudWxsICYmIGN1cnJlbnQuZmluZ2VycHJpbnQgPT0gZmluZ2VycHJpbnQpIHsKICAgICAgICAgICAgICAgIHJldHVybiBjdXJyZW50CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGN1cnJlbnQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgVG9vbFBrZ1dhc21OYXRpdmUuY2xvc2UoY3VycmVudC5oYW5kbGUpCiAgICAgICAgICAgICAgICBtb2R1bGVzLnJlbW92ZShub3JtYWxpemVkS2V5KQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgbmF0aXZlSGFuZGxlID0gVG9vbFBrZ1dhc21OYXRpdmUubG9hZCh3YXNtQnl0ZXMpCiAgICAgICAgICAgIHJlcXVpcmUobmF0aXZlSGFuZGxlICE9IDBMKSB7ICJXQVNNIG1vZHVsZSBsb2FkIHJldHVybmVkIGFuIGVtcHR5IGhhbmRsZSIgfQogICAgICAgICAgICB2YWwgbG9hZGVkID0gTG9hZGVkTW9kdWxlKAogICAgICAgICAgICAgICAgaGFuZGxlID0gbmF0aXZlSGFuZGxlLAogICAgICAgICAgICAgICAgZmluZ2VycHJpbnQgPSBmaW5nZXJwcmludAogICAgICAgICAgICApCiAgICAgICAgICAgIG1vZHVsZXNbbm9ybWFsaXplZEtleV0gPSBsb2FkZWQKICAgICAgICAgICAgcmV0dXJuIGxvYWRlZAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBzaGEyNTZIZXgoYnl0ZXM6IEJ5dGVBcnJheSk6IFN0cmluZyB7CiAgICAgICAgdmFsIGRpZ2VzdCA9IE1lc3NhZ2VEaWdlc3QuZ2V0SW5zdGFuY2UoIlNIQS0yNTYiKS5kaWdlc3QoYnl0ZXMpCiAgICAgICAgdmFsIG91dCA9IENoYXJBcnJheShkaWdlc3Quc2l6ZSAqIDIpCiAgICAgICAgZGlnZXN0LmZvckVhY2hJbmRleGVkIHsgaW5kZXgsIHZhbHVlIC0+CiAgICAgICAgICAgIHZhbCB1bnNpZ25lZCA9IHZhbHVlLnRvSW50KCkgYW5kIDB4ZmYKICAgICAgICAgICAgb3V0W2luZGV4ICogMl0gPSBoZXhEaWdpdHNbdW5zaWduZWQgdXNociA0XQogICAgICAgICAgICBvdXRbaW5kZXggKiAyICsgMV0gPSBoZXhEaWdpdHNbdW5zaWduZWQgYW5kIDB4MGZdCiAgICAgICAgfQogICAgICAgIHJldHVybiBTdHJpbmcob3V0KQogICAgfQp9CgppbnRlcm5hbCBvYmplY3QgVG9vbFBrZ1dhc21OYXRpdmUgewogICAgaW5pdCB7CiAgICAgICAgU3lzdGVtLmxvYWRMaWJyYXJ5KCJ0b29scGtnd2FzbSIpCiAgICB9CgogICAgZXh0ZXJuYWwgZnVuIGxvYWQoYnl0ZXM6IEJ5dGVBcnJheSk6IExvbmcKCiAgICBleHRlcm5hbCBmdW4gY2FsbCgKICAgICAgICBoYW5kbGU6IExvbmcsCiAgICAgICAgZnVuY3Rpb25OYW1lOiBTdHJpbmcsCiAgICAgICAgYXJnVHlwZXM6IEludEFycmF5LAogICAgICAgIGFyZ0JpdHM6IExvbmdBcnJheQogICAgKTogU3RyaW5nCgogICAgZXh0ZXJuYWwgZnVuIGNsb3NlKGhhbmRsZTogTG9uZykKfQo=
+package com.bslsjdk.operit.util
+
+import java.security.MessageDigest
+import java.util.concurrent.ConcurrentHashMap
+
+internal object ToolPkgWasmRuntime {
+    private data class LoadedModule(
+        val handle: Long,
+        val fingerprint: String
+    )
+
+    private val modules = ConcurrentHashMap<String, LoadedModule>()
+    private val moduleLock = Any()
+    private val hexDigits = "0123456789abcdef".toCharArray()
+
+    fun call(
+        cacheKey: String,
+        wasmBytes: ByteArray,
+        exportName: String,
+        argTypes: IntArray,
+        argBits: LongArray
+    ): String {
+        val loaded = resolveLoadedModule(cacheKey, wasmBytes)
+        return ToolPkgWasmNative.call(
+            handle = loaded.handle,
+            functionName = exportName,
+            argTypes = argTypes,
+            argBits = argBits
+        )
+    }
+
+    fun close(cacheKey: String) {
+        val normalizedKey = cacheKey.trim()
+        if (normalizedKey.isEmpty()) {
+            return
+        }
+        val loaded = modules.remove(normalizedKey) ?: return
+        ToolPkgWasmNative.close(loaded.handle)
+    }
+
+    fun closeAllForPackage(packageName: String) {
+        val prefix = "${packageName.trim()}:"
+        if (prefix.length <= 1) {
+            return
+        }
+        val keys = modules.keys.filter { key -> key.startsWith(prefix) }
+        keys.forEach(::close)
+    }
+
+    fun closeAll() {
+        val keys = modules.keys.toList()
+        keys.forEach(::close)
+    }
+
+    private fun resolveLoadedModule(cacheKey: String, wasmBytes: ByteArray): LoadedModule {
+        val normalizedKey = cacheKey.trim()
+        require(normalizedKey.isNotEmpty()) { "WASM cache key is required" }
+        require(wasmBytes.isNotEmpty()) { "WASM module bytes are empty" }
+
+        val fingerprint = sha256Hex(wasmBytes)
+        synchronized(moduleLock) {
+            val current = modules[normalizedKey]
+            if (current != null && current.fingerprint == fingerprint) {
+                return current
+            }
+            if (current != null) {
+                ToolPkgWasmNative.close(current.handle)
+                modules.remove(normalizedKey)
+            }
+
+            val nativeHandle = ToolPkgWasmNative.load(wasmBytes)
+            require(nativeHandle != 0L) { "WASM module load returned an empty handle" }
+            val loaded = LoadedModule(
+                handle = nativeHandle,
+                fingerprint = fingerprint
+            )
+            modules[normalizedKey] = loaded
+            return loaded
+        }
+    }
+
+    private fun sha256Hex(bytes: ByteArray): String {
+        val digest = MessageDigest.getInstance("SHA-256").digest(bytes)
+        val out = CharArray(digest.size * 2)
+        digest.forEachIndexed { index, value ->
+            val unsigned = value.toInt() and 0xff
+            out[index * 2] = hexDigits[unsigned ushr 4]
+            out[index * 2 + 1] = hexDigits[unsigned and 0x0f]
+        }
+        return String(out)
+    }
+}
+
+internal object ToolPkgWasmNative {
+    init {
+        System.loadLibrary("toolpkgwasm")
+    }
+
+    external fun load(bytes: ByteArray): Long
+
+    external fun call(
+        handle: Long,
+        functionName: String,
+        argTypes: IntArray,
+        argBits: LongArray
+    ): String
+
+    external fun close(handle: Long)
+}

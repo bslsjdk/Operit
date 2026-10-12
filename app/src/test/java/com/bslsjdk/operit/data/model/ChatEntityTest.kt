@@ -1,1 +1,201 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE5vdE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0TnVsbAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZVRpbWUKCmNsYXNzIENoYXRFbnRpdHlUZXN0IHsKCiAgICBAVGVzdCBmdW4gYGNyZWF0ZSB3aXRoIHJlcXVpcmVkIGZpZWxkc2AoKSB7CiAgICAgICAgdmFsIGVudGl0eSA9IENoYXRFbnRpdHkodGl0bGUgPSAiVGVzdCBDaGF0IikKICAgICAgICBhc3NlcnRFcXVhbHMoIlRlc3QgQ2hhdCIsIGVudGl0eS50aXRsZSkKICAgICAgICBhc3NlcnROb3ROdWxsKGVudGl0eS5pZCkKICAgICAgICBhc3NlcnRUcnVlKGVudGl0eS5pZC5pc05vdEVtcHR5KCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBpZCBpcyByYW5kb21seSBnZW5lcmF0ZWRgKCkgewogICAgICAgIHZhbCBlMSA9IENoYXRFbnRpdHkodGl0bGUgPSAiQSIpCiAgICAgICAgdmFsIGUyID0gQ2hhdEVudGl0eSh0aXRsZSA9ICJCIikKICAgICAgICBhc3NlcnRGYWxzZShlMS5pZCA9PSBlMi5pZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNyZWF0ZWQgYXQgZGVmYXVsdHMgdG8gY3VycmVudCB0aW1lYCgpIHsKICAgICAgICB2YWwgYmVmb3JlID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eSh0aXRsZSA9ICJUZXN0IikKICAgICAgICB2YWwgYWZ0ZXIgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIGFzc2VydFRydWUoZW50aXR5LmNyZWF0ZWRBdCA+PSBiZWZvcmUpCiAgICAgICAgYXNzZXJ0VHJ1ZShlbnRpdHkuY3JlYXRlZEF0IDw9IGFmdGVyICsgMTAwMCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHVwZGF0ZWQgYXQgZGVmYXVsdHMgdG8gY3VycmVudCB0aW1lYCgpIHsKICAgICAgICB2YWwgYmVmb3JlID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eSh0aXRsZSA9ICJUZXN0IikKICAgICAgICB2YWwgYWZ0ZXIgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIGFzc2VydFRydWUoZW50aXR5LnVwZGF0ZWRBdCA+PSBiZWZvcmUpCiAgICAgICAgYXNzZXJ0VHJ1ZShlbnRpdHkudXBkYXRlZEF0IDw9IGFmdGVyICsgMTAwMCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGlucHV0IHRva2VucyBkZWZhdWx0cyB0byB6ZXJvYCgpIHsKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eSh0aXRsZSA9ICJUZXN0IikKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgZW50aXR5LmlucHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0IGZ1biBgb3V0cHV0IHRva2VucyBkZWZhdWx0cyB0byB6ZXJvYCgpIHsKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eSh0aXRsZSA9ICJUZXN0IikKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgZW50aXR5Lm91dHB1dFRva2VucykKICAgIH0KCiAgICBAVGVzdCBmdW4gYGN1cnJlbnQgd2luZG93IHNpemUgZGVmYXVsdHMgdG8gemVyb2AoKSB7CiAgICAgICAgdmFsIGVudGl0eSA9IENoYXRFbnRpdHkodGl0bGUgPSAiVGVzdCIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIGVudGl0eS5jdXJyZW50V2luZG93U2l6ZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGdyb3VwIGRlZmF1bHRzIHRvIG51bGxgKCkgewogICAgICAgIHZhbCBlbnRpdHkgPSBDaGF0RW50aXR5KHRpdGxlID0gIlRlc3QiKQogICAgICAgIGFzc2VydE51bGwoZW50aXR5Lmdyb3VwKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZGlzcGxheSBvcmRlciBkZWZhdWx0cyB0byBuZWdhdGl2ZSBjcmVhdGVkQXRgKCkgewogICAgICAgIHZhbCBlbnRpdHkgPSBDaGF0RW50aXR5KHRpdGxlID0gIlRlc3QiKQogICAgICAgIGFzc2VydEVxdWFscygtZW50aXR5LmNyZWF0ZWRBdCwgZW50aXR5LmRpc3BsYXlPcmRlcikKICAgIH0KCiAgICBAVGVzdCBmdW4gYHdvcmtzcGFjZSBkZWZhdWx0cyB0byBudWxsYCgpIHsKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eSh0aXRsZSA9ICJUZXN0IikKICAgICAgICBhc3NlcnROdWxsKGVudGl0eS53b3Jrc3BhY2UpCiAgICB9CgogICAgQFRlc3QgZnVuIGBwYXJlbnQgY2hhdCBpZCBkZWZhdWx0cyB0byBudWxsYCgpIHsKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eSh0aXRsZSA9ICJUZXN0IikKICAgICAgICBhc3NlcnROdWxsKGVudGl0eS5wYXJlbnRDaGF0SWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjaGFyYWN0ZXIgY2FyZCBuYW1lIGRlZmF1bHRzIHRvIG51bGxgKCkgewogICAgICAgIHZhbCBlbnRpdHkgPSBDaGF0RW50aXR5KHRpdGxlID0gIlRlc3QiKQogICAgICAgIGFzc2VydE51bGwoZW50aXR5LmNoYXJhY3RlckNhcmROYW1lKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbG9ja2VkIGRlZmF1bHRzIHRvIGZhbHNlYCgpIHsKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eSh0aXRsZSA9ICJUZXN0IikKICAgICAgICBhc3NlcnRGYWxzZShlbnRpdHkubG9ja2VkKQogICAgfQoKICAgIEBUZXN0IGZ1biBgcGlubmVkIGRlZmF1bHRzIHRvIGZhbHNlYCgpIHsKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eSh0aXRsZSA9ICJUZXN0IikKICAgICAgICBhc3NlcnRGYWxzZShlbnRpdHkucGlubmVkKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdG9DaGF0SGlzdG9yeSBjcmVhdGVzIGNvcnJlY3Qgb2JqZWN0YCgpIHsKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eSgKICAgICAgICAgICAgaWQgPSAidGVzdC1pZCIsCiAgICAgICAgICAgIHRpdGxlID0gIk15IENoYXQiLAogICAgICAgICAgICBpbnB1dFRva2VucyA9IDEwMCwKICAgICAgICAgICAgb3V0cHV0VG9rZW5zID0gNTAsCiAgICAgICAgICAgIGN1cnJlbnRXaW5kb3dTaXplID0gMTAsCiAgICAgICAgICAgIGdyb3VwID0gImdyb3VwMSIsCiAgICAgICAgICAgIHdvcmtzcGFjZSA9ICJ3b3Jrc3BhY2UxIiwKICAgICAgICAgICAgcGFyZW50Q2hhdElkID0gInBhcmVudDEiLAogICAgICAgICAgICBjaGFyYWN0ZXJDYXJkTmFtZSA9ICJjaGFyMSIsCiAgICAgICAgICAgIGxvY2tlZCA9IHRydWUsCiAgICAgICAgICAgIHBpbm5lZCA9IHRydWUsCiAgICAgICAgKQogICAgICAgIHZhbCBoaXN0b3J5ID0gZW50aXR5LnRvQ2hhdEhpc3RvcnkoZW1wdHlMaXN0KCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0ZXN0LWlkIiwgaGlzdG9yeS5pZCkKICAgICAgICBhc3NlcnRFcXVhbHMoIk15IENoYXQiLCBoaXN0b3J5LnRpdGxlKQogICAgICAgIGFzc2VydEVxdWFscygwLCBoaXN0b3J5Lm1lc3NhZ2VzLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMCwgaGlzdG9yeS5pbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoNTAsIGhpc3Rvcnkub3V0cHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygxMCwgaGlzdG9yeS5jdXJyZW50V2luZG93U2l6ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoImdyb3VwMSIsIGhpc3RvcnkuZ3JvdXApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ3b3Jrc3BhY2UxIiwgaGlzdG9yeS53b3Jrc3BhY2UpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwYXJlbnQxIiwgaGlzdG9yeS5wYXJlbnRDaGF0SWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJjaGFyMSIsIGhpc3RvcnkuY2hhcmFjdGVyQ2FyZE5hbWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRydWUsIGhpc3RvcnkubG9ja2VkKQogICAgICAgIGFzc2VydEVxdWFscyh0cnVlLCBoaXN0b3J5LnBpbm5lZCkKICAgICAgICBhc3NlcnROb3ROdWxsKGhpc3RvcnkuY3JlYXRlZEF0KQogICAgICAgIGFzc2VydE5vdE51bGwoaGlzdG9yeS51cGRhdGVkQXQpCiAgICB9CgogICAgQFRlc3QgZnVuIGB0b0NoYXRIaXN0b3J5IHByZXNlcnZlcyBtZXNzYWdlc2AoKSB7CiAgICAgICAgdmFsIGVudGl0eSA9IENoYXRFbnRpdHkodGl0bGUgPSAiQ2hhdCIpCiAgICAgICAgdmFsIG1lc3NhZ2VzID0gbGlzdE9mKAogICAgICAgICAgICBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIsIGNvbnRlbnQgPSAiSGkiKSwKICAgICAgICAgICAgQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gImFpIiwgY29udGVudCA9ICJIZWxsbyIpLAogICAgICAgICkKICAgICAgICB2YWwgaGlzdG9yeSA9IGVudGl0eS50b0NoYXRIaXN0b3J5KG1lc3NhZ2VzKQogICAgICAgIGFzc2VydEVxdWFscygyLCBoaXN0b3J5Lm1lc3NhZ2VzLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJIaSIsIGhpc3RvcnkubWVzc2FnZXNbMF0uY29udGVudCkKICAgICAgICBhc3NlcnRFcXVhbHMoIkhlbGxvIiwgaGlzdG9yeS5tZXNzYWdlc1sxXS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgZnJvbUNoYXRIaXN0b3J5IHJvdW5kIHRyaXBgKCkgewogICAgICAgIHZhbCBvcmlnaW5hbCA9IENoYXRFbnRpdHkoCiAgICAgICAgICAgIGlkID0gInJvdW5kLXRyaXAtaWQiLAogICAgICAgICAgICB0aXRsZSA9ICJSb3VuZCBUcmlwIiwKICAgICAgICAgICAgaW5wdXRUb2tlbnMgPSA1MCwKICAgICAgICAgICAgb3V0cHV0VG9rZW5zID0gMjUsCiAgICAgICAgICAgIGdyb3VwID0gInRlc3QtZ3JvdXAiLAogICAgICAgICkKICAgICAgICB2YWwgaGlzdG9yeSA9IG9yaWdpbmFsLnRvQ2hhdEhpc3RvcnkoZW1wdHlMaXN0KCkpCiAgICAgICAgdmFsIHJvdW5kVHJpcHBlZCA9IENoYXRFbnRpdHkuZnJvbUNoYXRIaXN0b3J5KGhpc3RvcnkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG9yaWdpbmFsLmlkLCByb3VuZFRyaXBwZWQuaWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG9yaWdpbmFsLnRpdGxlLCByb3VuZFRyaXBwZWQudGl0bGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG9yaWdpbmFsLmlucHV0VG9rZW5zLCByb3VuZFRyaXBwZWQuaW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG9yaWdpbmFsLm91dHB1dFRva2Vucywgcm91bmRUcmlwcGVkLm91dHB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMob3JpZ2luYWwuZ3JvdXAsIHJvdW5kVHJpcHBlZC5ncm91cCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGZyb21DaGF0SGlzdG9yeSBjb21wdXRlcyBkaXNwbGF5T3JkZXIgd2hlbiB6ZXJvYCgpIHsKICAgICAgICB2YWwgaGlzdG9yeSA9IENoYXRIaXN0b3J5KAogICAgICAgICAgICBpZCA9ICJ0ZXN0IiwgdGl0bGUgPSAiVGVzdCIsIG1lc3NhZ2VzID0gZW1wdHlMaXN0KCksCiAgICAgICAgICAgIGNyZWF0ZWRBdCA9IExvY2FsRGF0ZVRpbWUubm93KCksIHVwZGF0ZWRBdCA9IExvY2FsRGF0ZVRpbWUubm93KCksCiAgICAgICAgICAgIGRpc3BsYXlPcmRlciA9IDBMLAogICAgICAgICkKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eS5mcm9tQ2hhdEhpc3RvcnkoaGlzdG9yeSkKICAgICAgICBhc3NlcnRUcnVlKGVudGl0eS5kaXNwbGF5T3JkZXIgPCAwKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZnJvbUNoYXRIaXN0b3J5IHByZXNlcnZlcyBub24temVybyBkaXNwbGF5T3JkZXJgKCkgewogICAgICAgIHZhbCBoaXN0b3J5ID0gQ2hhdEhpc3RvcnkoCiAgICAgICAgICAgIGlkID0gInRlc3QiLCB0aXRsZSA9ICJUZXN0IiwgbWVzc2FnZXMgPSBlbXB0eUxpc3QoKSwKICAgICAgICAgICAgY3JlYXRlZEF0ID0gTG9jYWxEYXRlVGltZS5ub3coKSwgdXBkYXRlZEF0ID0gTG9jYWxEYXRlVGltZS5ub3coKSwKICAgICAgICAgICAgZGlzcGxheU9yZGVyID0gNDJMLAogICAgICAgICkKICAgICAgICB2YWwgZW50aXR5ID0gQ2hhdEVudGl0eS5mcm9tQ2hhdEhpc3RvcnkoaGlzdG9yeSkKICAgICAgICBhc3NlcnRFcXVhbHMoNDJMLCBlbnRpdHkuZGlzcGxheU9yZGVyKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZXhwbGljaXQgZmllbGRzIGFyZSBzdG9yZWRgKCkgewogICAgICAgIHZhbCBlbnRpdHkgPSBDaGF0RW50aXR5KAogICAgICAgICAgICBpZCA9ICJleHBsaWNpdC1pZCIsCiAgICAgICAgICAgIHRpdGxlID0gIkV4cGxpY2l0IiwKICAgICAgICAgICAgY3JlYXRlZEF0ID0gMTAwMEwsCiAgICAgICAgICAgIHVwZGF0ZWRBdCA9IDIwMDBMLAogICAgICAgICAgICBpbnB1dFRva2VucyA9IDEwLAogICAgICAgICAgICBvdXRwdXRUb2tlbnMgPSAyMCwKICAgICAgICAgICAgY3VycmVudFdpbmRvd1NpemUgPSA1LAogICAgICAgICAgICBncm91cCA9ICJleHBsaWNpdC1ncm91cCIsCiAgICAgICAgICAgIGRpc3BsYXlPcmRlciA9IDk5TCwKICAgICAgICAgICAgd29ya3NwYWNlID0gImV4cGxpY2l0LXdzIiwKICAgICAgICAgICAgY2hhcmFjdGVyQ2FyZE5hbWUgPSAiZXhwbGljaXQtY2hhciIsCiAgICAgICAgICAgIGxvY2tlZCA9IHRydWUsCiAgICAgICAgICAgIHBpbm5lZCA9IHRydWUsCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygiZXhwbGljaXQtaWQiLCBlbnRpdHkuaWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMDBMLCBlbnRpdHkuY3JlYXRlZEF0KQogICAgICAgIGFzc2VydEVxdWFscygyMDAwTCwgZW50aXR5LnVwZGF0ZWRBdCkKICAgICAgICBhc3NlcnRFcXVhbHMoMTAsIGVudGl0eS5pbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMjAsIGVudGl0eS5vdXRwdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDUsIGVudGl0eS5jdXJyZW50V2luZG93U2l6ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoImV4cGxpY2l0LWdyb3VwIiwgZW50aXR5Lmdyb3VwKQogICAgICAgIGFzc2VydEVxdWFscyg5OUwsIGVudGl0eS5kaXNwbGF5T3JkZXIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJleHBsaWNpdC13cyIsIGVudGl0eS53b3Jrc3BhY2UpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJleHBsaWNpdC1jaGFyIiwgZW50aXR5LmNoYXJhY3RlckNhcmROYW1lKQogICAgICAgIGFzc2VydFRydWUoZW50aXR5LmxvY2tlZCkKICAgICAgICBhc3NlcnRUcnVlKGVudGl0eS5waW5uZWQpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import java.time.LocalDateTime
+
+class ChatEntityTest {
+
+    @Test fun `create with required fields`() {
+        val entity = ChatEntity(title = "Test Chat")
+        assertEquals("Test Chat", entity.title)
+        assertNotNull(entity.id)
+        assertTrue(entity.id.isNotEmpty())
+    }
+
+    @Test fun `id is randomly generated`() {
+        val e1 = ChatEntity(title = "A")
+        val e2 = ChatEntity(title = "B")
+        assertFalse(e1.id == e2.id)
+    }
+
+    @Test fun `created at defaults to current time`() {
+        val before = System.currentTimeMillis()
+        val entity = ChatEntity(title = "Test")
+        val after = System.currentTimeMillis()
+        assertTrue(entity.createdAt >= before)
+        assertTrue(entity.createdAt <= after + 1000)
+    }
+
+    @Test fun `updated at defaults to current time`() {
+        val before = System.currentTimeMillis()
+        val entity = ChatEntity(title = "Test")
+        val after = System.currentTimeMillis()
+        assertTrue(entity.updatedAt >= before)
+        assertTrue(entity.updatedAt <= after + 1000)
+    }
+
+    @Test fun `input tokens defaults to zero`() {
+        val entity = ChatEntity(title = "Test")
+        assertEquals(0, entity.inputTokens)
+    }
+
+    @Test fun `output tokens defaults to zero`() {
+        val entity = ChatEntity(title = "Test")
+        assertEquals(0, entity.outputTokens)
+    }
+
+    @Test fun `current window size defaults to zero`() {
+        val entity = ChatEntity(title = "Test")
+        assertEquals(0, entity.currentWindowSize)
+    }
+
+    @Test fun `group defaults to null`() {
+        val entity = ChatEntity(title = "Test")
+        assertNull(entity.group)
+    }
+
+    @Test fun `display order defaults to negative createdAt`() {
+        val entity = ChatEntity(title = "Test")
+        assertEquals(-entity.createdAt, entity.displayOrder)
+    }
+
+    @Test fun `workspace defaults to null`() {
+        val entity = ChatEntity(title = "Test")
+        assertNull(entity.workspace)
+    }
+
+    @Test fun `parent chat id defaults to null`() {
+        val entity = ChatEntity(title = "Test")
+        assertNull(entity.parentChatId)
+    }
+
+    @Test fun `character card name defaults to null`() {
+        val entity = ChatEntity(title = "Test")
+        assertNull(entity.characterCardName)
+    }
+
+    @Test fun `locked defaults to false`() {
+        val entity = ChatEntity(title = "Test")
+        assertFalse(entity.locked)
+    }
+
+    @Test fun `pinned defaults to false`() {
+        val entity = ChatEntity(title = "Test")
+        assertFalse(entity.pinned)
+    }
+
+    @Test fun `toChatHistory creates correct object`() {
+        val entity = ChatEntity(
+            id = "test-id",
+            title = "My Chat",
+            inputTokens = 100,
+            outputTokens = 50,
+            currentWindowSize = 10,
+            group = "group1",
+            workspace = "workspace1",
+            parentChatId = "parent1",
+            characterCardName = "char1",
+            locked = true,
+            pinned = true,
+        )
+        val history = entity.toChatHistory(emptyList())
+        assertEquals("test-id", history.id)
+        assertEquals("My Chat", history.title)
+        assertEquals(0, history.messages.size)
+        assertEquals(100, history.inputTokens)
+        assertEquals(50, history.outputTokens)
+        assertEquals(10, history.currentWindowSize)
+        assertEquals("group1", history.group)
+        assertEquals("workspace1", history.workspace)
+        assertEquals("parent1", history.parentChatId)
+        assertEquals("char1", history.characterCardName)
+        assertEquals(true, history.locked)
+        assertEquals(true, history.pinned)
+        assertNotNull(history.createdAt)
+        assertNotNull(history.updatedAt)
+    }
+
+    @Test fun `toChatHistory preserves messages`() {
+        val entity = ChatEntity(title = "Chat")
+        val messages = listOf(
+            ChatMessage(sender = "user", content = "Hi"),
+            ChatMessage(sender = "ai", content = "Hello"),
+        )
+        val history = entity.toChatHistory(messages)
+        assertEquals(2, history.messages.size)
+        assertEquals("Hi", history.messages[0].content)
+        assertEquals("Hello", history.messages[1].content)
+    }
+
+    @Test fun `fromChatHistory round trip`() {
+        val original = ChatEntity(
+            id = "round-trip-id",
+            title = "Round Trip",
+            inputTokens = 50,
+            outputTokens = 25,
+            group = "test-group",
+        )
+        val history = original.toChatHistory(emptyList())
+        val roundTripped = ChatEntity.fromChatHistory(history)
+        assertEquals(original.id, roundTripped.id)
+        assertEquals(original.title, roundTripped.title)
+        assertEquals(original.inputTokens, roundTripped.inputTokens)
+        assertEquals(original.outputTokens, roundTripped.outputTokens)
+        assertEquals(original.group, roundTripped.group)
+    }
+
+    @Test fun `fromChatHistory computes displayOrder when zero`() {
+        val history = ChatHistory(
+            id = "test", title = "Test", messages = emptyList(),
+            createdAt = LocalDateTime.now(), updatedAt = LocalDateTime.now(),
+            displayOrder = 0L,
+        )
+        val entity = ChatEntity.fromChatHistory(history)
+        assertTrue(entity.displayOrder < 0)
+    }
+
+    @Test fun `fromChatHistory preserves non-zero displayOrder`() {
+        val history = ChatHistory(
+            id = "test", title = "Test", messages = emptyList(),
+            createdAt = LocalDateTime.now(), updatedAt = LocalDateTime.now(),
+            displayOrder = 42L,
+        )
+        val entity = ChatEntity.fromChatHistory(history)
+        assertEquals(42L, entity.displayOrder)
+    }
+
+    @Test fun `explicit fields are stored`() {
+        val entity = ChatEntity(
+            id = "explicit-id",
+            title = "Explicit",
+            createdAt = 1000L,
+            updatedAt = 2000L,
+            inputTokens = 10,
+            outputTokens = 20,
+            currentWindowSize = 5,
+            group = "explicit-group",
+            displayOrder = 99L,
+            workspace = "explicit-ws",
+            characterCardName = "explicit-char",
+            locked = true,
+            pinned = true,
+        )
+        assertEquals("explicit-id", entity.id)
+        assertEquals(1000L, entity.createdAt)
+        assertEquals(2000L, entity.updatedAt)
+        assertEquals(10, entity.inputTokens)
+        assertEquals(20, entity.outputTokens)
+        assertEquals(5, entity.currentWindowSize)
+        assertEquals("explicit-group", entity.group)
+        assertEquals(99L, entity.displayOrder)
+        assertEquals("explicit-ws", entity.workspace)
+        assertEquals("explicit-char", entity.characterCardName)
+        assertTrue(entity.locked)
+        assertTrue(entity.pinned)
+    }
+}

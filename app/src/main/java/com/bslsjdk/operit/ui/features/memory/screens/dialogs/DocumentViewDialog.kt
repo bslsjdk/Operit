@@ -1,1 +1,145 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMubWVtb3J5LnNjcmVlbnMuZGlhbG9ncwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Sb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heEhlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4U2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eUNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuaXRlbXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi50ZXh0LktleWJvYXJkQWN0aW9ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnRleHQuS2V5Ym9hcmRPcHRpb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5TZWFyY2gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkFsZXJ0RGlhbG9nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5CdXR0b24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkJ1dHRvbkRlZmF1bHRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5PdXRsaW5lZEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuT3V0bGluZWRUZXh0RmllbGQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbFNvZnR3YXJlS2V5Ym9hcmRDb250cm9sbGVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LkltZUFjdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuRG9jdW1lbnRDaHVuawppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTWVtb3J5CgpAQ29tcG9zYWJsZQpmdW4gRG9jdW1lbnRWaWV3RGlhbG9nKAogICAgbWVtb3J5VGl0bGU6IFN0cmluZywKICAgIG9uVGl0bGVDaGFuZ2U6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBjaHVua3M6IExpc3Q8RG9jdW1lbnRDaHVuaz4sCiAgICBjaHVua1N0YXRlczogTWFwPExvbmcsIFN0cmluZz4sCiAgICBvbkNodW5rQ2hhbmdlOiAoTG9uZywgU3RyaW5nKSAtPiBVbml0LAogICAgc2VhcmNoUXVlcnk6IFN0cmluZywKICAgIG9uU2VhcmNoUXVlcnlDaGFuZ2U6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBvblBlcmZvcm1TZWFyY2g6ICgpIC0+IFVuaXQsCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQsCiAgICBvblNhdmU6ICgpIC0+IFVuaXQsCiAgICBvbkRlbGV0ZTogKCkgLT4gVW5pdCwKICAgIGZvbGRlclBhdGg6IFN0cmluZyA9ICIiIC8vIOa3u+WKoOaWh+S7tuWkuei3r+W+hOWPguaVsAopIHsKICAgIHZhbCBrZXlib2FyZENvbnRyb2xsZXIgPSBMb2NhbFNvZnR3YXJlS2V5Ym9hcmRDb250cm9sbGVyLmN1cnJlbnQKCiAgICBBbGVydERpYWxvZygKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhIZWlnaHQoMC44NWYpLAogICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MsCiAgICAgICAgdGl0bGUgPSB7CiAgICAgICAgICAgIENvbHVtbih2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoNC5kcCkpIHsKICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgIHZhbHVlID0gbWVtb3J5VGl0bGUsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IG9uVGl0bGVDaGFuZ2UsCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2RvY3VtZW50X3RpdGxlKSkgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgIHRleHRTdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBpZiAoZm9sZGVyUGF0aC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gIiR7c3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2ZvbGRlcl9sYWJlbCl9OiAkZm9sZGVyUGF0aCIsCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyhzdGFydCA9IDQuZHApCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICB0ZXh0ID0gewogICAgICAgICAgICBDb2x1bW4obW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4U2l6ZSgpKSB7CiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHNlYXJjaFF1ZXJ5LAogICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSBvblNlYXJjaFF1ZXJ5Q2hhbmdlLAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9zZWFyY2hfaW5fZG9jdW1lbnQpKSB9LAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZyhib3R0b20gPSA4LmRwKSwKICAgICAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICB0cmFpbGluZ0ljb24gPSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEljb25CdXR0b24ob25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uUGVyZm9ybVNlYXJjaCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXlib2FyZENvbnRyb2xsZXI/LmhpZGUoKQogICAgICAgICAgICAgICAgICAgICAgICB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuU2VhcmNoLCBjb250ZW50RGVzY3JpcHRpb24gPSAiU2VhcmNoIikKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAga2V5Ym9hcmRPcHRpb25zID0gS2V5Ym9hcmRPcHRpb25zLkRlZmF1bHQuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgaW1lQWN0aW9uID0gSW1lQWN0aW9uLlNlYXJjaAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAga2V5Ym9hcmRBY3Rpb25zID0gS2V5Ym9hcmRBY3Rpb25zKAogICAgICAgICAgICAgICAgICAgICAgICBvblNlYXJjaCA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uUGVyZm9ybVNlYXJjaCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXlib2FyZENvbnRyb2xsZXI/LmhpZGUoKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgaWYgKGNodW5rcy5pc0VtcHR5KCkgJiYgc2VhcmNoUXVlcnkuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgQm94KG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFNpemUoKSwgY29udGVudEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5kb2N1bWVudF9ub19jb250ZW50X2ZvdW5kKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIExhenlDb2x1bW4obW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4U2l6ZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGl0ZW1zKGNodW5rcywga2V5ID0geyBpdC5pZCB9KSB7IGNodW5rIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29udGVudCA9IGNodW5rU3RhdGVzW2NodW5rLmlkXSA/OiAiIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBjb250ZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IG5ld0NvbnRlbnQgLT4gb25DaHVua0NoYW5nZShjaHVuay5pZCwgbmV3Q29udGVudCkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZyh2ZXJ0aWNhbCA9IDQuZHApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmRvY3VtZW50X2Jsb2NrX2xhYmVsLCBjaHVuay5jaHVua0luZGV4ICsgMSkpIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgZGlzbWlzc0J1dHRvbiA9IHsKICAgICAgICAgICAgIE91dGxpbmVkQnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3MpIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2Nsb3NlKSkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHAsIEFsaWdubWVudC5TdGFydCkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBCdXR0b24ob25DbGljayA9IG9uU2F2ZSkgewogICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X3NhdmVfYWxsKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25EZWxldGUsCiAgICAgICAgICAgICAgICAgICAgY29sb3JzID0gQnV0dG9uRGVmYXVsdHMuYnV0dG9uQ29sb3JzKGNvbnRhaW5lckNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvcikKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2RlbGV0ZV9kb2N1bWVudCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApCn0g
+package com.bslsjdk.operit.ui.features.memory.screens.dialogs
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.DocumentChunk
+import com.bslsjdk.operit.data.model.Memory
+
+@Composable
+fun DocumentViewDialog(
+    memoryTitle: String,
+    onTitleChange: (String) -> Unit,
+    chunks: List<DocumentChunk>,
+    chunkStates: Map<Long, String>,
+    onChunkChange: (Long, String) -> Unit,
+    searchQuery: String,
+    onSearchQueryChange: (String) -> Unit,
+    onPerformSearch: () -> Unit,
+    onDismiss: () -> Unit,
+    onSave: () -> Unit,
+    onDelete: () -> Unit,
+    folderPath: String = "" // 添加文件夹路径参数
+) {
+    val keyboardController = LocalSoftwareKeyboardController.current
+
+    AlertDialog(
+        modifier = Modifier.fillMaxHeight(0.85f),
+        onDismissRequest = onDismiss,
+        title = {
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                OutlinedTextField(
+                    value = memoryTitle,
+                    onValueChange = onTitleChange,
+                    label = { Text(stringResource(R.string.memory_document_title)) },
+                    modifier = Modifier.fillMaxWidth(),
+                    textStyle = MaterialTheme.typography.bodyMedium
+                )
+                if (folderPath.isNotEmpty()) {
+                    Text(
+                        text = "${stringResource(R.string.memory_folder_label)}: $folderPath",
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        modifier = Modifier.padding(start = 4.dp)
+                    )
+                }
+            }
+        },
+        text = {
+            Column(modifier = Modifier.fillMaxSize()) {
+                OutlinedTextField(
+                    value = searchQuery,
+                    onValueChange = onSearchQueryChange,
+                    label = { Text(stringResource(R.string.memory_search_in_document)) },
+                    modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp),
+                    singleLine = true,
+                    trailingIcon = {
+                        IconButton(onClick = {
+                            onPerformSearch()
+                            keyboardController?.hide()
+                        }) {
+                            Icon(Icons.Default.Search, contentDescription = "Search")
+                        }
+                    },
+                    keyboardOptions = KeyboardOptions.Default.copy(
+                        imeAction = ImeAction.Search
+                    ),
+                    keyboardActions = KeyboardActions(
+                        onSearch = {
+                            onPerformSearch()
+                            keyboardController?.hide()
+                        }
+                    )
+                )
+                if (chunks.isEmpty() && searchQuery.isNotEmpty()) {
+                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                        Text(stringResource(R.string.document_no_content_found))
+                    }
+                } else {
+                    LazyColumn(modifier = Modifier.fillMaxSize()) {
+                        items(chunks, key = { it.id }) { chunk ->
+                            val content = chunkStates[chunk.id] ?: ""
+                            OutlinedTextField(
+                                value = content,
+                                onValueChange = { newContent -> onChunkChange(chunk.id, newContent) },
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .padding(vertical = 4.dp),
+                                label = { Text(stringResource(R.string.document_block_label, chunk.chunkIndex + 1)) }
+                            )
+                        }
+                    }
+                }
+            }
+        },
+        dismissButton = {
+             OutlinedButton(onClick = onDismiss) {
+                Text(stringResource(R.string.memory_close))
+            }
+        },
+        confirmButton = {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.Start)
+            ) {
+                Button(onClick = onSave) {
+                    Text(stringResource(R.string.memory_save_all))
+                }
+                Button(
+                    onClick = onDelete,
+                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                ) {
+                    Text(stringResource(R.string.memory_delete_document))
+                }
+            }
+        }
+    )
+} 

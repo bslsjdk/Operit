@@ -1,1 +1,102 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY29kZXgKCmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5Db2RleE9BdXRoUHJvdG9jb2wKaW1wb3J0IGphdmEubmV0LkluZXRBZGRyZXNzCmltcG9ydCBqYXZhLm5ldC5TZXJ2ZXJTb2NrZXQKaW1wb3J0IGphdmEubmV0LlNvY2tldAppbXBvcnQgamF2YS5uaW8uY2hhcnNldC5TdGFuZGFyZENoYXJzZXRzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKaW50ZXJuYWwgY2xhc3MgQ29kZXhPQXV0aExvb3BiYWNrQ2FsbGJhY2tTZXJ2ZXIgcHJpdmF0ZSBjb25zdHJ1Y3RvcigKICAgIHByaXZhdGUgdmFsIHNlcnZlclNvY2tldDogU2VydmVyU29ja2V0LAopIHsKICAgIHZhbCBwb3J0OiBJbnQgPSBzZXJ2ZXJTb2NrZXQubG9jYWxQb3J0CiAgICB2YWwgcmVkaXJlY3RVcmk6IFN0cmluZyA9ICJodHRwOi8vbG9jYWxob3N0OiRwb3J0JHtDb2RleE9BdXRoUHJvdG9jb2wuQ0FMTEJBQ0tfUEFUSH0iCgogICAgc3VzcGVuZCBmdW4gYXdhaXRDYWxsYmFjaygpOiBVcmkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHdoaWxlICghc2VydmVyU29ja2V0LmlzQ2xvc2VkKSB7CiAgICAgICAgICAgIHZhbCBzb2NrZXQgPSBzZXJ2ZXJTb2NrZXQuYWNjZXB0KCkKICAgICAgICAgICAgc29ja2V0LnVzZSB7CiAgICAgICAgICAgICAgICBzb2NrZXQuc29UaW1lb3V0ID0gUkVRVUVTVF9SRUFEX1RJTUVPVVRfTUlMTElTCiAgICAgICAgICAgICAgICB2YWwgY2FsbGJhY2sgPSByZWFkQ2FsbGJhY2tVcmkoc29ja2V0KQogICAgICAgICAgICAgICAgaWYgKGNhbGxiYWNrID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICB3cml0ZVJlc3BvbnNlKHNvY2tldCwgTk9UX0ZPVU5EX1JFU1BPTlNFKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICB3cml0ZVJlc3BvbnNlKHNvY2tldCwgU1VDQ0VTU19SRVNQT05TRSkKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgY2FsbGJhY2sKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkNvZGV4IE9BdXRoIGNhbGxiYWNrIHNlcnZlciBzdG9wcGVkIGJlZm9yZSByZWNlaXZpbmcgYSBjYWxsYmFjayIpCiAgICB9CgogICAgZnVuIGNsb3NlKCkgewogICAgICAgIGlmICghc2VydmVyU29ja2V0LmlzQ2xvc2VkKSB7CiAgICAgICAgICAgIHNlcnZlclNvY2tldC5jbG9zZSgpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlYWRDYWxsYmFja1VyaShzb2NrZXQ6IFNvY2tldCk6IFVyaT8gewogICAgICAgIHZhbCByZXF1ZXN0TGluZSA9IHNvY2tldC5nZXRJbnB1dFN0cmVhbSgpCiAgICAgICAgICAgIC5idWZmZXJlZFJlYWRlcihTdGFuZGFyZENoYXJzZXRzLlVTX0FTQ0lJKQogICAgICAgICAgICAucmVhZExpbmUoKQogICAgICAgICAgICA/OiByZXR1cm4gbnVsbAogICAgICAgIHZhbCByZXF1ZXN0UGFydHMgPSByZXF1ZXN0TGluZS5zcGxpdCgnICcsIGxpbWl0ID0gMykKICAgICAgICBpZiAocmVxdWVzdFBhcnRzLnNpemUgIT0gMyB8fCByZXF1ZXN0UGFydHNbMF0gIT0gIkdFVCIpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIHZhbCByZXF1ZXN0VXJpID0gVXJpLnBhcnNlKHJlcXVlc3RQYXJ0c1sxXSkKICAgICAgICBpZiAocmVxdWVzdFVyaS5zY2hlbWUgIT0gbnVsbCB8fCByZXF1ZXN0VXJpLmF1dGhvcml0eSAhPSBudWxsKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgICAgIGlmIChyZXF1ZXN0VXJpLnBhdGggIT0gQ29kZXhPQXV0aFByb3RvY29sLkNBTExCQUNLX1BBVEgpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIHJldHVybiBVcmkucGFyc2UocmVkaXJlY3RVcmkpLmJ1aWxkVXBvbigpCiAgICAgICAgICAgIC5lbmNvZGVkUXVlcnkocmVxdWVzdFVyaS5lbmNvZGVkUXVlcnkpCiAgICAgICAgICAgIC5idWlsZCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gd3JpdGVSZXNwb25zZShzb2NrZXQ6IFNvY2tldCwgcmVzcG9uc2U6IEh0dHBSZXNwb25zZSkgewogICAgICAgIHZhbCBib2R5ID0gcmVzcG9uc2UuYm9keS50b0J5dGVBcnJheShTdGFuZGFyZENoYXJzZXRzLlVURl84KQogICAgICAgIHZhbCBoZWFkZXIgPSBidWlsZFN0cmluZyB7CiAgICAgICAgICAgIGFwcGVuZCgiSFRUUC8xLjEgIikuYXBwZW5kKHJlc3BvbnNlLnN0YXR1cykuYXBwZW5kKCJcclxuIikKICAgICAgICAgICAgYXBwZW5kKCJDb250ZW50LVR5cGU6IHRleHQvaHRtbDsgY2hhcnNldD11dGYtOFxyXG4iKQogICAgICAgICAgICBhcHBlbmQoIkNvbnRlbnQtTGVuZ3RoOiAiKS5hcHBlbmQoYm9keS5zaXplKS5hcHBlbmQoIlxyXG4iKQogICAgICAgICAgICBhcHBlbmQoIkNvbm5lY3Rpb246IGNsb3NlXHJcblxyXG4iKQogICAgICAgIH0udG9CeXRlQXJyYXkoU3RhbmRhcmRDaGFyc2V0cy5VU19BU0NJSSkKICAgICAgICBzb2NrZXQuZ2V0T3V0cHV0U3RyZWFtKCkudXNlIHsgb3V0cHV0IC0+CiAgICAgICAgICAgIG91dHB1dC53cml0ZShoZWFkZXIpCiAgICAgICAgICAgIG91dHB1dC53cml0ZShib2R5KQogICAgICAgICAgICBvdXRwdXQuZmx1c2goKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgSHR0cFJlc3BvbnNlKHZhbCBzdGF0dXM6IFN0cmluZywgdmFsIGJvZHk6IFN0cmluZykKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBMT09QQkFDS19IT1NUID0gIjEyNy4wLjAuMSIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVFVRVNUX1JFQURfVElNRU9VVF9NSUxMSVMgPSA1XzAwMAogICAgICAgIHByaXZhdGUgdmFsIFNVQ0NFU1NfUkVTUE9OU0UgPSBIdHRwUmVzcG9uc2UoCiAgICAgICAgICAgIHN0YXR1cyA9ICIyMDAgT0siLAogICAgICAgICAgICBib2R5ID0gIjxodG1sPjxib2R5PkNvZGV4IGxvZ2luIGNvbXBsZXRlLiBSZXR1cm4gdG8gT3Blcml0LjwvYm9keT48L2h0bWw+IiwKICAgICAgICApCiAgICAgICAgcHJpdmF0ZSB2YWwgTk9UX0ZPVU5EX1JFU1BPTlNFID0gSHR0cFJlc3BvbnNlKAogICAgICAgICAgICBzdGF0dXMgPSAiNDA0IE5vdCBGb3VuZCIsCiAgICAgICAgICAgIGJvZHkgPSAiPGh0bWw+PGJvZHk+Tm90IGZvdW5kLjwvYm9keT48L2h0bWw+IiwKICAgICAgICApCgogICAgICAgIGZ1biBvcGVuKCk6IENvZGV4T0F1dGhMb29wYmFja0NhbGxiYWNrU2VydmVyIHsKICAgICAgICAgICAgdmFsIHNvY2tldCA9IFNlcnZlclNvY2tldCgKICAgICAgICAgICAgICAgIENvZGV4T0F1dGhQcm90b2NvbC5QUklNQVJZX0NBTExCQUNLX1BPUlQsCiAgICAgICAgICAgICAgICAxLAogICAgICAgICAgICAgICAgSW5ldEFkZHJlc3MuZ2V0QnlOYW1lKExPT1BCQUNLX0hPU1QpLAogICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybiBDb2RleE9BdXRoTG9vcGJhY2tDYWxsYmFja1NlcnZlcihzb2NrZXQpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.codex
+
+import android.net.Uri
+import com.bslsjdk.operit.data.api.CodexOAuthProtocol
+import java.net.InetAddress
+import java.net.ServerSocket
+import java.net.Socket
+import java.nio.charset.StandardCharsets
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+internal class CodexOAuthLoopbackCallbackServer private constructor(
+    private val serverSocket: ServerSocket,
+) {
+    val port: Int = serverSocket.localPort
+    val redirectUri: String = "http://localhost:$port${CodexOAuthProtocol.CALLBACK_PATH}"
+
+    suspend fun awaitCallback(): Uri = withContext(Dispatchers.IO) {
+        while (!serverSocket.isClosed) {
+            val socket = serverSocket.accept()
+            socket.use {
+                socket.soTimeout = REQUEST_READ_TIMEOUT_MILLIS
+                val callback = readCallbackUri(socket)
+                if (callback == null) {
+                    writeResponse(socket, NOT_FOUND_RESPONSE)
+                } else {
+                    writeResponse(socket, SUCCESS_RESPONSE)
+                    return@withContext callback
+                }
+            }
+        }
+        throw IllegalStateException("Codex OAuth callback server stopped before receiving a callback")
+    }
+
+    fun close() {
+        if (!serverSocket.isClosed) {
+            serverSocket.close()
+        }
+    }
+
+    private fun readCallbackUri(socket: Socket): Uri? {
+        val requestLine = socket.getInputStream()
+            .bufferedReader(StandardCharsets.US_ASCII)
+            .readLine()
+            ?: return null
+        val requestParts = requestLine.split(' ', limit = 3)
+        if (requestParts.size != 3 || requestParts[0] != "GET") {
+            return null
+        }
+
+        val requestUri = Uri.parse(requestParts[1])
+        if (requestUri.scheme != null || requestUri.authority != null) {
+            return null
+        }
+        if (requestUri.path != CodexOAuthProtocol.CALLBACK_PATH) {
+            return null
+        }
+
+        return Uri.parse(redirectUri).buildUpon()
+            .encodedQuery(requestUri.encodedQuery)
+            .build()
+    }
+
+    private fun writeResponse(socket: Socket, response: HttpResponse) {
+        val body = response.body.toByteArray(StandardCharsets.UTF_8)
+        val header = buildString {
+            append("HTTP/1.1 ").append(response.status).append("\r\n")
+            append("Content-Type: text/html; charset=utf-8\r\n")
+            append("Content-Length: ").append(body.size).append("\r\n")
+            append("Connection: close\r\n\r\n")
+        }.toByteArray(StandardCharsets.US_ASCII)
+        socket.getOutputStream().use { output ->
+            output.write(header)
+            output.write(body)
+            output.flush()
+        }
+    }
+
+    private data class HttpResponse(val status: String, val body: String)
+
+    companion object {
+        private const val LOOPBACK_HOST = "127.0.0.1"
+        private const val REQUEST_READ_TIMEOUT_MILLIS = 5_000
+        private val SUCCESS_RESPONSE = HttpResponse(
+            status = "200 OK",
+            body = "<html><body>Codex login complete. Return to Operit.</body></html>",
+        )
+        private val NOT_FOUND_RESPONSE = HttpResponse(
+            status = "404 Not Found",
+            body = "<html><body>Not found.</body></html>",
+        )
+
+        fun open(): CodexOAuthLoopbackCallbackServer {
+            val socket = ServerSocket(
+                CodexOAuthProtocol.PRIMARY_CALLBACK_PORT,
+                1,
+                InetAddress.getByName(LOOPBACK_HOST),
+            )
+            return CodexOAuthLoopbackCallbackServer(socket)
+        }
+    }
+}

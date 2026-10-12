@@ -1,1 +1,118 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBBcGlLZXlJbmZvVGVzdCB7CgogICAgQFRlc3QgZnVuIGBjcmVhdGUgd2l0aCByZXF1aXJlZCBmaWVsZHNgKCkgewogICAgICAgIHZhbCBpbmZvID0gQXBpS2V5SW5mbyhpZCA9ICJrZXkxIiwga2V5ID0gInNrLWFiYzEyMyIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJrZXkxIiwgaW5mby5pZCkKICAgICAgICBhc3NlcnRFcXVhbHMoInNrLWFiYzEyMyIsIGluZm8ua2V5KQogICAgfQoKICAgIEBUZXN0IGZ1biBgbmFtZSBkZWZhdWx0cyB0byBlbXB0eWAoKSB7CiAgICAgICAgdmFsIGluZm8gPSBBcGlLZXlJbmZvKGlkID0gImsxIiwga2V5ID0gInNrLWtleSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCBpbmZvLm5hbWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGBpcyBlbmFibGVkIGRlZmF1bHRzIHRvIHRydWVgKCkgewogICAgICAgIHZhbCBpbmZvID0gQXBpS2V5SW5mbyhpZCA9ICJrMSIsIGtleSA9ICJzay1rZXkiKQogICAgICAgIGFzc2VydFRydWUoaW5mby5pc0VuYWJsZWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBhdmFpbGFiaWxpdHkgc3RhdHVzIGRlZmF1bHRzIHRvIFVOVEVTVEVEYCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEFwaUtleUluZm8oaWQgPSAiazEiLCBrZXkgPSAic2sta2V5IikKICAgICAgICBhc3NlcnRFcXVhbHMoQXBpS2V5QXZhaWxhYmlsaXR5U3RhdHVzLlVOVEVTVEVELCBpbmZvLmF2YWlsYWJpbGl0eVN0YXR1cykKICAgIH0KCiAgICBAVGVzdCBmdW4gYHVzYWdlIGNvdW50IGRlZmF1bHRzIHRvIHplcm9gKCkgewogICAgICAgIHZhbCBpbmZvID0gQXBpS2V5SW5mbyhpZCA9ICJrMSIsIGtleSA9ICJzay1rZXkiKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgaW5mby51c2FnZUNvdW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgbGFzdCB1c2VkIGRlZmF1bHRzIHRvIHplcm9gKCkgewogICAgICAgIHZhbCBpbmZvID0gQXBpS2V5SW5mbyhpZCA9ICJrMSIsIGtleSA9ICJzay1rZXkiKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgaW5mby5sYXN0VXNlZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGVycm9yIGNvdW50IGRlZmF1bHRzIHRvIHplcm9gKCkgewogICAgICAgIHZhbCBpbmZvID0gQXBpS2V5SW5mbyhpZCA9ICJrMSIsIGtleSA9ICJzay1rZXkiKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgaW5mby5lcnJvckNvdW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgY2FuIHNldCBuYW1lYCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEFwaUtleUluZm8oaWQgPSAiazEiLCBrZXkgPSAic2sta2V5IiwgbmFtZSA9ICJNeSBLZXkiKQogICAgICAgIGFzc2VydEVxdWFscygiTXkgS2V5IiwgaW5mby5uYW1lKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY2FuIGRpc2FibGUga2V5YCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEFwaUtleUluZm8oaWQgPSAiazEiLCBrZXkgPSAic2sta2V5IiwgaXNFbmFibGVkID0gZmFsc2UpCiAgICAgICAgYXNzZXJ0RmFsc2UoaW5mby5pc0VuYWJsZWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjYW4gc2V0IGF2YWlsYWJpbGl0eSB0byBBVkFJTEFCTEVgKCkgewogICAgICAgIHZhbCBpbmZvID0gQXBpS2V5SW5mbyhpZCA9ICJrMSIsIGtleSA9ICJzay1rZXkiLCBhdmFpbGFiaWxpdHlTdGF0dXMgPSBBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMuQVZBSUxBQkxFKQogICAgICAgIGFzc2VydEVxdWFscyhBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMuQVZBSUxBQkxFLCBpbmZvLmF2YWlsYWJpbGl0eVN0YXR1cykKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNhbiBzZXQgYXZhaWxhYmlsaXR5IHRvIFVOQVZBSUxBQkxFYCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEFwaUtleUluZm8oaWQgPSAiazEiLCBrZXkgPSAic2sta2V5IiwgYXZhaWxhYmlsaXR5U3RhdHVzID0gQXBpS2V5QXZhaWxhYmlsaXR5U3RhdHVzLlVOQVZBSUxBQkxFKQogICAgICAgIGFzc2VydEVxdWFscyhBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMuVU5BVkFJTEFCTEUsIGluZm8uYXZhaWxhYmlsaXR5U3RhdHVzKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY2FuIHNldCB1c2FnZSBjb3VudGAoKSB7CiAgICAgICAgdmFsIGluZm8gPSBBcGlLZXlJbmZvKGlkID0gImsxIiwga2V5ID0gInNrLWtleSIsIHVzYWdlQ291bnQgPSA0MikKICAgICAgICBhc3NlcnRFcXVhbHMoNDJMLCBpbmZvLnVzYWdlQ291bnQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjYW4gc2V0IGxhc3QgdXNlZGAoKSB7CiAgICAgICAgdmFsIGluZm8gPSBBcGlLZXlJbmZvKGlkID0gImsxIiwga2V5ID0gInNrLWtleSIsIGxhc3RVc2VkID0gMTIzNDU2Nzg5TCkKICAgICAgICBhc3NlcnRFcXVhbHMoMTIzNDU2Nzg5TCwgaW5mby5sYXN0VXNlZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNhbiBzZXQgZXJyb3IgY291bnRgKCkgewogICAgICAgIHZhbCBpbmZvID0gQXBpS2V5SW5mbyhpZCA9ICJrMSIsIGtleSA9ICJzay1rZXkiLCBlcnJvckNvdW50ID0gMykKICAgICAgICBhc3NlcnRFcXVhbHMoM0wsIGluZm8uZXJyb3JDb3VudCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNvcHkgd2l0aCBkaWZmZXJlbnQgaWQgYW5kIGtleWAoKSB7CiAgICAgICAgdmFsIGluZm8gPSBBcGlLZXlJbmZvKGlkID0gImsxIiwga2V5ID0gInNrLWtleTEiLCBuYW1lID0gIktleSAxIikKICAgICAgICB2YWwgY29weSA9IGluZm8uY29weShpZCA9ICJrMiIsIGtleSA9ICJzay1rZXkyIikKICAgICAgICBhc3NlcnRFcXVhbHMoImsyIiwgY29weS5pZCkKICAgICAgICBhc3NlcnRFcXVhbHMoInNrLWtleTIiLCBjb3B5LmtleSkKICAgICAgICBhc3NlcnRFcXVhbHMoIktleSAxIiwgY29weS5uYW1lKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSB3aXRoIHVwZGF0ZWQgc3RhdHVzYCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEFwaUtleUluZm8oaWQgPSAiazEiLCBrZXkgPSAic2sta2V5IiwgYXZhaWxhYmlsaXR5U3RhdHVzID0gQXBpS2V5QXZhaWxhYmlsaXR5U3RhdHVzLlVOVEVTVEVEKQogICAgICAgIHZhbCBjb3B5ID0gaW5mby5jb3B5KGF2YWlsYWJpbGl0eVN0YXR1cyA9IEFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cy5BVkFJTEFCTEUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKEFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cy5BVkFJTEFCTEUsIGNvcHkuYXZhaWxhYmlsaXR5U3RhdHVzKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSBpbmNyZW1lbnRzIHVzYWdlIGNvdW50YCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEFwaUtleUluZm8oaWQgPSAiazEiLCBrZXkgPSAic2sta2V5IiwgdXNhZ2VDb3VudCA9IDUpCiAgICAgICAgdmFsIGNvcHkgPSBpbmZvLmNvcHkodXNhZ2VDb3VudCA9IDYpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDZMLCBjb3B5LnVzYWdlQ291bnQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjb3B5IHdpdGggZGlzYWJsZWQgc3RhdGVgKCkgewogICAgICAgIHZhbCBpbmZvID0gQXBpS2V5SW5mbyhpZCA9ICJrMSIsIGtleSA9ICJzay1rZXkiLCBpc0VuYWJsZWQgPSB0cnVlKQogICAgICAgIHZhbCBjb3B5ID0gaW5mby5jb3B5KGlzRW5hYmxlZCA9IGZhbHNlKQogICAgICAgIGFzc2VydEZhbHNlKGNvcHkuaXNFbmFibGVkKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYXBpIGtleSB3aXRoIGVtcHR5IGtleSBpcyB2YWxpZCBkYXRhIGNsYXNzYCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEFwaUtleUluZm8oaWQgPSAiZW1wdHkiLCBrZXkgPSAiIikKICAgICAgICBhc3NlcnRFcXVhbHMoIiIsIGluZm8ua2V5KQogICAgfQoKICAgIEBUZXN0IGZ1biBgYXBpIGtleSBhdmFpbGFiaWxpdHkgc3RhdHVzIGVudW0gdmFsdWVzYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMywgQXBpS2V5QXZhaWxhYmlsaXR5U3RhdHVzLnZhbHVlcygpLnNpemUpCiAgICAgICAgYXNzZXJ0VHJ1ZShBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMudmFsdWVzKCkuY29udGFpbnMoQXBpS2V5QXZhaWxhYmlsaXR5U3RhdHVzLlVOVEVTVEVEKSkKICAgICAgICBhc3NlcnRUcnVlKEFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cy52YWx1ZXMoKS5jb250YWlucyhBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMuQVZBSUxBQkxFKSkKICAgICAgICBhc3NlcnRUcnVlKEFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cy52YWx1ZXMoKS5jb250YWlucyhBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMuVU5BVkFJTEFCTEUpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ApiKeyInfoTest {
+
+    @Test fun `create with required fields`() {
+        val info = ApiKeyInfo(id = "key1", key = "sk-abc123")
+        assertEquals("key1", info.id)
+        assertEquals("sk-abc123", info.key)
+    }
+
+    @Test fun `name defaults to empty`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key")
+        assertEquals("", info.name)
+    }
+
+    @Test fun `is enabled defaults to true`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key")
+        assertTrue(info.isEnabled)
+    }
+
+    @Test fun `availability status defaults to UNTESTED`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key")
+        assertEquals(ApiKeyAvailabilityStatus.UNTESTED, info.availabilityStatus)
+    }
+
+    @Test fun `usage count defaults to zero`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key")
+        assertEquals(0L, info.usageCount)
+    }
+
+    @Test fun `last used defaults to zero`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key")
+        assertEquals(0L, info.lastUsed)
+    }
+
+    @Test fun `error count defaults to zero`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key")
+        assertEquals(0L, info.errorCount)
+    }
+
+    @Test fun `can set name`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", name = "My Key")
+        assertEquals("My Key", info.name)
+    }
+
+    @Test fun `can disable key`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", isEnabled = false)
+        assertFalse(info.isEnabled)
+    }
+
+    @Test fun `can set availability to AVAILABLE`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", availabilityStatus = ApiKeyAvailabilityStatus.AVAILABLE)
+        assertEquals(ApiKeyAvailabilityStatus.AVAILABLE, info.availabilityStatus)
+    }
+
+    @Test fun `can set availability to UNAVAILABLE`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", availabilityStatus = ApiKeyAvailabilityStatus.UNAVAILABLE)
+        assertEquals(ApiKeyAvailabilityStatus.UNAVAILABLE, info.availabilityStatus)
+    }
+
+    @Test fun `can set usage count`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", usageCount = 42)
+        assertEquals(42L, info.usageCount)
+    }
+
+    @Test fun `can set last used`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", lastUsed = 123456789L)
+        assertEquals(123456789L, info.lastUsed)
+    }
+
+    @Test fun `can set error count`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", errorCount = 3)
+        assertEquals(3L, info.errorCount)
+    }
+
+    @Test fun `copy with different id and key`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key1", name = "Key 1")
+        val copy = info.copy(id = "k2", key = "sk-key2")
+        assertEquals("k2", copy.id)
+        assertEquals("sk-key2", copy.key)
+        assertEquals("Key 1", copy.name)
+    }
+
+    @Test fun `copy with updated status`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", availabilityStatus = ApiKeyAvailabilityStatus.UNTESTED)
+        val copy = info.copy(availabilityStatus = ApiKeyAvailabilityStatus.AVAILABLE)
+        assertEquals(ApiKeyAvailabilityStatus.AVAILABLE, copy.availabilityStatus)
+    }
+
+    @Test fun `copy increments usage count`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", usageCount = 5)
+        val copy = info.copy(usageCount = 6)
+        assertEquals(6L, copy.usageCount)
+    }
+
+    @Test fun `copy with disabled state`() {
+        val info = ApiKeyInfo(id = "k1", key = "sk-key", isEnabled = true)
+        val copy = info.copy(isEnabled = false)
+        assertFalse(copy.isEnabled)
+    }
+
+    @Test fun `api key with empty key is valid data class`() {
+        val info = ApiKeyInfo(id = "empty", key = "")
+        assertEquals("", info.key)
+    }
+
+    @Test fun `api key availability status enum values`() {
+        assertEquals(3, ApiKeyAvailabilityStatus.values().size)
+        assertTrue(ApiKeyAvailabilityStatus.values().contains(ApiKeyAvailabilityStatus.UNTESTED))
+        assertTrue(ApiKeyAvailabilityStatus.values().contains(ApiKeyAvailabilityStatus.AVAILABLE))
+        assertTrue(ApiKeyAvailabilityStatus.values().contains(ApiKeyAvailabilityStatus.UNAVAILABLE))
+    }
+}

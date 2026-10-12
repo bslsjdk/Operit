@@ -1,1 +1,144 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucy5tY3AuY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eUNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuaXRlbXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Sb3VuZGVkQ29ybmVyU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkFkZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRGVsZXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkud2luZG93LkRpYWxvZwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKCi8qKgogKiDnjq/looPlj5jph4/nrqHnkIblr7nor53moYYKICoKICog55So5LqO5re75Yqg44CB57yW6L6R5ZKM5Yig6ZmkTUNQ5o+S5Lu255qE546v5aKD5Y+Y6YePCiAqCiAqIEBwYXJhbSBlbnZpcm9ubWVudFZhcmlhYmxlcyDlvZPliY3nmoTnjq/looPlj5jph48KICogQHBhcmFtIG9uRGlzbWlzcyDlhbPpl63lr7nor53moYbnmoTlm57osIMKICogQHBhcmFtIG9uQ29uZmlybSDmj5DkuqTnjq/looPlj5jph4/nmoTlm57osIMKICovCkBPcHRJbihFeHBlcmltZW50YWxNYXRlcmlhbDNBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gTUNQRW52aXJvbm1lbnRWYXJpYWJsZXNEaWFsb2coCiAgICAgICAgZW52aXJvbm1lbnRWYXJpYWJsZXM6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICAgICAgb25EaXNtaXNzOiAoKSAtPiBVbml0LAogICAgICAgIG9uQ29uZmlybTogKE1hcDxTdHJpbmcsIFN0cmluZz4pIC0+IFVuaXQKKSB7CiAgICAvLyDkvb/nlKggbXV0YWJsZVN0YXRlTGlzdE9mIOadpeeuoeeQhueOr+Wig+WPmOmHj+WIl+ihqAogICAgdmFsIGVudlZhcnNMaXN0ID0gcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVMaXN0T2Y8UGFpcjxTdHJpbmcsIFN0cmluZz4+KCkgfQoKICAgIC8vIOWIneWni+WMlueOr+Wig+WPmOmHj+WIl+ihqAogICAgTGF1bmNoZWRFZmZlY3QoZW52aXJvbm1lbnRWYXJpYWJsZXMpIHsKICAgICAgICBlbnZWYXJzTGlzdC5jbGVhcigpCiAgICAgICAgZW52VmFyc0xpc3QuYWRkQWxsKGVudmlyb25tZW50VmFyaWFibGVzLnRvTGlzdCgpKQogICAgfQoKICAgIC8vIOaWsOWPmOmHj+eahOmUruWSjOWAvAogICAgdmFyIG5ld0tleSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKCIiKSB9CiAgICB2YXIgbmV3VmFsdWUgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiIikgfQoKICAgIERpYWxvZyhvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzKSB7CiAgICAgICAgU3VyZmFjZSgKICAgICAgICAgICAgICAgIHNoYXBlID0gUm91bmRlZENvcm5lclNoYXBlKDE2LmRwKSwKICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlLAogICAgICAgICAgICAgICAgdG9uYWxFbGV2YXRpb24gPSA2LmRwLAogICAgICAgICAgICAgICAgc2hhZG93RWxldmF0aW9uID0gOC5kcCwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZygxNi5kcCkKICAgICAgICApIHsKICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZygxNi5kcCkuZmlsbE1heFdpZHRoKCkpIHsKICAgICAgICAgICAgICAgIFRleHQodGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1jcF9tYW5hZ2VfZW52X3ZhcmlhYmxlcyksIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmhlYWRsaW5lU21hbGwpCgogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDE2LmRwKSkKCiAgICAgICAgICAgICAgICAvLyDnjq/looPlj5jph4/liJfooagKICAgICAgICAgICAgICAgIGlmIChlbnZWYXJzTGlzdC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBMYXp5Q29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmLCBmYWxzZSkuZmlsbE1heFdpZHRoKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaXRlbXMoZW52VmFyc0xpc3QpIHsgKGtleSwgdmFsdWUpIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZyh2ZXJ0aWNhbCA9IDQuZHApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBDb2x1bW4obW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9IGtleSwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gdmFsdWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSWNvbkJ1dHRvbihvbkNsaWNrID0geyBlbnZWYXJzTGlzdC5yZW1vdmUoUGFpcihrZXksIHZhbHVlKSkgfSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5EZWxldGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuZGVsZXRlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGtleSAhPSBlbnZWYXJzTGlzdC5sYXN0KCkuZmlyc3QpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBIb3Jpem9udGFsRGl2aWRlcihtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcodmVydGljYWwgPSA0LmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDE2LmRwKSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyDmt7vliqDmlrDnjq/looPlj5jph48KICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IG5ld0tleSwKICAgICAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgbmV3S2V5ID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWNwX3Zhcl9uYW1lKSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCgogICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gbmV3VmFsdWUsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IG5ld1ZhbHVlID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWNwX3Zhcl92YWx1ZSkpIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICAgICAgICAgIHNpbmdsZUxpbmUgPSB0cnVlCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDguZHApKQoKICAgICAgICAgICAgICAgIEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChuZXdLZXkuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW52VmFyc0xpc3QuYWRkKFBhaXIobmV3S2V5LCBuZXdWYWx1ZSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV3S2V5ID0gIiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuZXdWYWx1ZSA9ICIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuYWxpZ24oQWxpZ25tZW50LkVuZCkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIEljb24oaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LkFkZCwgY29udGVudERlc2NyaXB0aW9uID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYWRkKSkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg0LmRwKSkKICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1jcF9hZGRfdmFyKSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoMTYuZHApKQoKICAgICAgICAgICAgICAgIC8vIOaMiemSruihjAogICAgICAgICAgICAgICAgUm93KG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LkVuZCkgewogICAgICAgICAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IG9uRGlzbWlzcykgeyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNvbW1vbl9jYW5jZWwpKSB9CgogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDguZHApKQoKICAgICAgICAgICAgICAgICAgICBCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBvbkNvbmZpcm0oZW52VmFyc0xpc3QuYXNzb2NpYXRlIHsgaXQuZmlyc3QgdG8gaXQuc2Vjb25kIH0pIH0KICAgICAgICAgICAgICAgICAgICApIHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tY3BfY29uZmlybSkpIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.packages.screens.mcp.components
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.window.Dialog
+import com.bslsjdk.operit.R
+
+/**
+ * 环境变量管理对话框
+ *
+ * 用于添加、编辑和删除MCP插件的环境变量
+ *
+ * @param environmentVariables 当前的环境变量
+ * @param onDismiss 关闭对话框的回调
+ * @param onConfirm 提交环境变量的回调
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun MCPEnvironmentVariablesDialog(
+        environmentVariables: Map<String, String>,
+        onDismiss: () -> Unit,
+        onConfirm: (Map<String, String>) -> Unit
+) {
+    // 使用 mutableStateListOf 来管理环境变量列表
+    val envVarsList = remember { mutableStateListOf<Pair<String, String>>() }
+
+    // 初始化环境变量列表
+    LaunchedEffect(environmentVariables) {
+        envVarsList.clear()
+        envVarsList.addAll(environmentVariables.toList())
+    }
+
+    // 新变量的键和值
+    var newKey by remember { mutableStateOf("") }
+    var newValue by remember { mutableStateOf("") }
+
+    Dialog(onDismissRequest = onDismiss) {
+        Surface(
+                shape = RoundedCornerShape(16.dp),
+                color = MaterialTheme.colorScheme.surface,
+                tonalElevation = 6.dp,
+                shadowElevation = 8.dp,
+                modifier = Modifier.fillMaxWidth().padding(16.dp)
+        ) {
+            Column(modifier = Modifier.padding(16.dp).fillMaxWidth()) {
+                Text(text = stringResource(R.string.mcp_manage_env_variables), style = MaterialTheme.typography.headlineSmall)
+
+                Spacer(modifier = Modifier.height(16.dp))
+
+                // 环境变量列表
+                if (envVarsList.isNotEmpty()) {
+                    LazyColumn(modifier = Modifier.weight(1f, false).fillMaxWidth()) {
+                        items(envVarsList) { (key, value) ->
+                            Row(
+                                    modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
+                                    verticalAlignment = Alignment.CenterVertically
+                            ) {
+                                Column(modifier = Modifier.weight(1f)) {
+                                    Text(text = key, style = MaterialTheme.typography.bodyMedium)
+                                    Text(
+                                            text = value,
+                                            style = MaterialTheme.typography.bodySmall,
+                                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                                    )
+                                }
+                                IconButton(onClick = { envVarsList.remove(Pair(key, value)) }) {
+                                    Icon(
+                                            imageVector = Icons.Default.Delete,
+                                            contentDescription = stringResource(R.string.delete)
+                                    )
+                                }
+                            }
+                            if (key != envVarsList.last().first) {
+                                HorizontalDivider(modifier = Modifier.padding(vertical = 4.dp))
+                            }
+                        }
+                    }
+
+                    Spacer(modifier = Modifier.height(16.dp))
+                }
+
+                // 添加新环境变量
+                OutlinedTextField(
+                        value = newKey,
+                        onValueChange = { newKey = it },
+                        label = { Text(stringResource(R.string.mcp_var_name)) },
+                        modifier = Modifier.fillMaxWidth(),
+                        singleLine = true
+                )
+
+                Spacer(modifier = Modifier.height(8.dp))
+
+                OutlinedTextField(
+                        value = newValue,
+                        onValueChange = { newValue = it },
+                        label = { Text(stringResource(R.string.mcp_var_value)) },
+                        modifier = Modifier.fillMaxWidth(),
+                        singleLine = true
+                )
+
+                Spacer(modifier = Modifier.height(8.dp))
+
+                Button(
+                        onClick = {
+                            if (newKey.isNotBlank()) {
+                                envVarsList.add(Pair(newKey, newValue))
+                                newKey = ""
+                                newValue = ""
+                            }
+                        },
+                        modifier = Modifier.align(Alignment.End)
+                ) {
+                    Icon(imageVector = Icons.Default.Add, contentDescription = stringResource(R.string.add))
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text(stringResource(R.string.mcp_add_var))
+                }
+
+                Spacer(modifier = Modifier.height(16.dp))
+
+                // 按钮行
+                Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
+                    TextButton(onClick = onDismiss) { Text(stringResource(R.string.common_cancel)) }
+
+                    Spacer(modifier = Modifier.width(8.dp))
+
+                    Button(
+                            onClick = { onConfirm(envVarsList.associate { it.first to it.second }) }
+                    ) { Text(stringResource(R.string.mcp_confirm)) }
+                }
+            }
+        }
+    }
+}

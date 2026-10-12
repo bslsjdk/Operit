@@ -1,1 +1,95 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGFuZHJvaWQub3MuUGFyY2VsYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVHlwb2dyYXBoeQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LlRleHRTdHlsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udEZhbWlseQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBrb3RsaW54LnBhcmNlbGl6ZS5QYXJjZWxpemUKCkBQYXJjZWxpemUKZGF0YSBjbGFzcyBTZXJpYWxpemFibGVUeXBvZ3JhcGh5KAogICAgdmFsIGRpc3BsYXlMYXJnZTogU2VyaWFsaXphYmxlVGV4dFN0eWxlLAogICAgdmFsIGRpc3BsYXlNZWRpdW06IFNlcmlhbGl6YWJsZVRleHRTdHlsZSwKICAgIHZhbCBkaXNwbGF5U21hbGw6IFNlcmlhbGl6YWJsZVRleHRTdHlsZSwKICAgIHZhbCBoZWFkbGluZUxhcmdlOiBTZXJpYWxpemFibGVUZXh0U3R5bGUsCiAgICB2YWwgaGVhZGxpbmVNZWRpdW06IFNlcmlhbGl6YWJsZVRleHRTdHlsZSwKICAgIHZhbCBoZWFkbGluZVNtYWxsOiBTZXJpYWxpemFibGVUZXh0U3R5bGUsCiAgICB2YWwgdGl0bGVMYXJnZTogU2VyaWFsaXphYmxlVGV4dFN0eWxlLAogICAgdmFsIHRpdGxlTWVkaXVtOiBTZXJpYWxpemFibGVUZXh0U3R5bGUsCiAgICB2YWwgdGl0bGVTbWFsbDogU2VyaWFsaXphYmxlVGV4dFN0eWxlLAogICAgdmFsIGJvZHlMYXJnZTogU2VyaWFsaXphYmxlVGV4dFN0eWxlLAogICAgdmFsIGJvZHlNZWRpdW06IFNlcmlhbGl6YWJsZVRleHRTdHlsZSwKICAgIHZhbCBib2R5U21hbGw6IFNlcmlhbGl6YWJsZVRleHRTdHlsZSwKICAgIHZhbCBsYWJlbExhcmdlOiBTZXJpYWxpemFibGVUZXh0U3R5bGUsCiAgICB2YWwgbGFiZWxNZWRpdW06IFNlcmlhbGl6YWJsZVRleHRTdHlsZSwKICAgIHZhbCBsYWJlbFNtYWxsOiBTZXJpYWxpemFibGVUZXh0U3R5bGUKKSA6IFBhcmNlbGFibGUKCkBQYXJjZWxpemUKZGF0YSBjbGFzcyBTZXJpYWxpemFibGVUZXh0U3R5bGUoCiAgICB2YWwgZm9udFNpemU6IEZsb2F0LAogICAgdmFsIGxpbmVIZWlnaHQ6IEZsb2F0LAogICAgdmFsIGxldHRlclNwYWNpbmc6IEZsb2F0LAogICAgdmFsIGZvbnRXZWlnaHQ6IEludAopIDogUGFyY2VsYWJsZQoKZnVuIFR5cG9ncmFwaHkudG9TZXJpYWxpemFibGUoKTogU2VyaWFsaXphYmxlVHlwb2dyYXBoeSB7CiAgICByZXR1cm4gU2VyaWFsaXphYmxlVHlwb2dyYXBoeSgKICAgICAgICBkaXNwbGF5TGFyZ2UgPSB0aGlzLmRpc3BsYXlMYXJnZS50b1NlcmlhbGl6YWJsZSgpLAogICAgICAgIGRpc3BsYXlNZWRpdW0gPSB0aGlzLmRpc3BsYXlNZWRpdW0udG9TZXJpYWxpemFibGUoKSwKICAgICAgICBkaXNwbGF5U21hbGwgPSB0aGlzLmRpc3BsYXlTbWFsbC50b1NlcmlhbGl6YWJsZSgpLAogICAgICAgIGhlYWRsaW5lTGFyZ2UgPSB0aGlzLmhlYWRsaW5lTGFyZ2UudG9TZXJpYWxpemFibGUoKSwKICAgICAgICBoZWFkbGluZU1lZGl1bSA9IHRoaXMuaGVhZGxpbmVNZWRpdW0udG9TZXJpYWxpemFibGUoKSwKICAgICAgICBoZWFkbGluZVNtYWxsID0gdGhpcy5oZWFkbGluZVNtYWxsLnRvU2VyaWFsaXphYmxlKCksCiAgICAgICAgdGl0bGVMYXJnZSA9IHRoaXMudGl0bGVMYXJnZS50b1NlcmlhbGl6YWJsZSgpLAogICAgICAgIHRpdGxlTWVkaXVtID0gdGhpcy50aXRsZU1lZGl1bS50b1NlcmlhbGl6YWJsZSgpLAogICAgICAgIHRpdGxlU21hbGwgPSB0aGlzLnRpdGxlU21hbGwudG9TZXJpYWxpemFibGUoKSwKICAgICAgICBib2R5TGFyZ2UgPSB0aGlzLmJvZHlMYXJnZS50b1NlcmlhbGl6YWJsZSgpLAogICAgICAgIGJvZHlNZWRpdW0gPSB0aGlzLmJvZHlNZWRpdW0udG9TZXJpYWxpemFibGUoKSwKICAgICAgICBib2R5U21hbGwgPSB0aGlzLmJvZHlTbWFsbC50b1NlcmlhbGl6YWJsZSgpLAogICAgICAgIGxhYmVsTGFyZ2UgPSB0aGlzLmxhYmVsTGFyZ2UudG9TZXJpYWxpemFibGUoKSwKICAgICAgICBsYWJlbE1lZGl1bSA9IHRoaXMubGFiZWxNZWRpdW0udG9TZXJpYWxpemFibGUoKSwKICAgICAgICBsYWJlbFNtYWxsID0gdGhpcy5sYWJlbFNtYWxsLnRvU2VyaWFsaXphYmxlKCkKICAgICkKfQoKZnVuIFRleHRTdHlsZS50b1NlcmlhbGl6YWJsZSgpOiBTZXJpYWxpemFibGVUZXh0U3R5bGUgewogICAgcmV0dXJuIFNlcmlhbGl6YWJsZVRleHRTdHlsZSgKICAgICAgICBmb250U2l6ZSA9IHRoaXMuZm9udFNpemUudmFsdWUsCiAgICAgICAgbGluZUhlaWdodCA9IHRoaXMubGluZUhlaWdodC52YWx1ZSwKICAgICAgICBsZXR0ZXJTcGFjaW5nID0gdGhpcy5sZXR0ZXJTcGFjaW5nLnZhbHVlLAogICAgICAgIGZvbnRXZWlnaHQgPSB0aGlzLmZvbnRXZWlnaHQ/LndlaWdodCA/OiBGb250V2VpZ2h0Lk5vcm1hbC53ZWlnaHQKICAgICkKfQoKZnVuIFNlcmlhbGl6YWJsZVR5cG9ncmFwaHkudG9Db21wb3NlVHlwb2dyYXBoeSgpOiBUeXBvZ3JhcGh5IHsKICAgIHJldHVybiBUeXBvZ3JhcGh5KAogICAgICAgIGRpc3BsYXlMYXJnZSA9IHRoaXMuZGlzcGxheUxhcmdlLnRvQ29tcG9zZVRleHRTdHlsZSgpLAogICAgICAgIGRpc3BsYXlNZWRpdW0gPSB0aGlzLmRpc3BsYXlNZWRpdW0udG9Db21wb3NlVGV4dFN0eWxlKCksCiAgICAgICAgZGlzcGxheVNtYWxsID0gdGhpcy5kaXNwbGF5U21hbGwudG9Db21wb3NlVGV4dFN0eWxlKCksCiAgICAgICAgaGVhZGxpbmVMYXJnZSA9IHRoaXMuaGVhZGxpbmVMYXJnZS50b0NvbXBvc2VUZXh0U3R5bGUoKSwKICAgICAgICBoZWFkbGluZU1lZGl1bSA9IHRoaXMuaGVhZGxpbmVNZWRpdW0udG9Db21wb3NlVGV4dFN0eWxlKCksCiAgICAgICAgaGVhZGxpbmVTbWFsbCA9IHRoaXMuaGVhZGxpbmVTbWFsbC50b0NvbXBvc2VUZXh0U3R5bGUoKSwKICAgICAgICB0aXRsZUxhcmdlID0gdGhpcy50aXRsZUxhcmdlLnRvQ29tcG9zZVRleHRTdHlsZSgpLAogICAgICAgIHRpdGxlTWVkaXVtID0gdGhpcy50aXRsZU1lZGl1bS50b0NvbXBvc2VUZXh0U3R5bGUoKSwKICAgICAgICB0aXRsZVNtYWxsID0gdGhpcy50aXRsZVNtYWxsLnRvQ29tcG9zZVRleHRTdHlsZSgpLAogICAgICAgIGJvZHlMYXJnZSA9IHRoaXMuYm9keUxhcmdlLnRvQ29tcG9zZVRleHRTdHlsZSgpLAogICAgICAgIGJvZHlNZWRpdW0gPSB0aGlzLmJvZHlNZWRpdW0udG9Db21wb3NlVGV4dFN0eWxlKCksCiAgICAgICAgYm9keVNtYWxsID0gdGhpcy5ib2R5U21hbGwudG9Db21wb3NlVGV4dFN0eWxlKCksCiAgICAgICAgbGFiZWxMYXJnZSA9IHRoaXMubGFiZWxMYXJnZS50b0NvbXBvc2VUZXh0U3R5bGUoKSwKICAgICAgICBsYWJlbE1lZGl1bSA9IHRoaXMubGFiZWxNZWRpdW0udG9Db21wb3NlVGV4dFN0eWxlKCksCiAgICAgICAgbGFiZWxTbWFsbCA9IHRoaXMubGFiZWxTbWFsbC50b0NvbXBvc2VUZXh0U3R5bGUoKQogICAgKQp9CgpmdW4gU2VyaWFsaXphYmxlVGV4dFN0eWxlLnRvQ29tcG9zZVRleHRTdHlsZSgpOiBUZXh0U3R5bGUgewogICAgcmV0dXJuIFRleHRTdHlsZSgKICAgICAgICBmb250U2l6ZSA9IHRoaXMuZm9udFNpemUuc3AsCiAgICAgICAgbGluZUhlaWdodCA9IHRoaXMubGluZUhlaWdodC5zcCwKICAgICAgICBsZXR0ZXJTcGFjaW5nID0gdGhpcy5sZXR0ZXJTcGFjaW5nLnNwLAogICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0KHRoaXMuZm9udFdlaWdodCksCiAgICAgICAgZm9udEZhbWlseSA9IEZvbnRGYW1pbHkuRGVmYXVsdAogICAgKQp9IA==
+package com.bslsjdk.operit.data.model
+
+import android.os.Parcelable
+import androidx.compose.material3.Typography
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+data class SerializableTypography(
+    val displayLarge: SerializableTextStyle,
+    val displayMedium: SerializableTextStyle,
+    val displaySmall: SerializableTextStyle,
+    val headlineLarge: SerializableTextStyle,
+    val headlineMedium: SerializableTextStyle,
+    val headlineSmall: SerializableTextStyle,
+    val titleLarge: SerializableTextStyle,
+    val titleMedium: SerializableTextStyle,
+    val titleSmall: SerializableTextStyle,
+    val bodyLarge: SerializableTextStyle,
+    val bodyMedium: SerializableTextStyle,
+    val bodySmall: SerializableTextStyle,
+    val labelLarge: SerializableTextStyle,
+    val labelMedium: SerializableTextStyle,
+    val labelSmall: SerializableTextStyle
+) : Parcelable
+
+@Parcelize
+data class SerializableTextStyle(
+    val fontSize: Float,
+    val lineHeight: Float,
+    val letterSpacing: Float,
+    val fontWeight: Int
+) : Parcelable
+
+fun Typography.toSerializable(): SerializableTypography {
+    return SerializableTypography(
+        displayLarge = this.displayLarge.toSerializable(),
+        displayMedium = this.displayMedium.toSerializable(),
+        displaySmall = this.displaySmall.toSerializable(),
+        headlineLarge = this.headlineLarge.toSerializable(),
+        headlineMedium = this.headlineMedium.toSerializable(),
+        headlineSmall = this.headlineSmall.toSerializable(),
+        titleLarge = this.titleLarge.toSerializable(),
+        titleMedium = this.titleMedium.toSerializable(),
+        titleSmall = this.titleSmall.toSerializable(),
+        bodyLarge = this.bodyLarge.toSerializable(),
+        bodyMedium = this.bodyMedium.toSerializable(),
+        bodySmall = this.bodySmall.toSerializable(),
+        labelLarge = this.labelLarge.toSerializable(),
+        labelMedium = this.labelMedium.toSerializable(),
+        labelSmall = this.labelSmall.toSerializable()
+    )
+}
+
+fun TextStyle.toSerializable(): SerializableTextStyle {
+    return SerializableTextStyle(
+        fontSize = this.fontSize.value,
+        lineHeight = this.lineHeight.value,
+        letterSpacing = this.letterSpacing.value,
+        fontWeight = this.fontWeight?.weight ?: FontWeight.Normal.weight
+    )
+}
+
+fun SerializableTypography.toComposeTypography(): Typography {
+    return Typography(
+        displayLarge = this.displayLarge.toComposeTextStyle(),
+        displayMedium = this.displayMedium.toComposeTextStyle(),
+        displaySmall = this.displaySmall.toComposeTextStyle(),
+        headlineLarge = this.headlineLarge.toComposeTextStyle(),
+        headlineMedium = this.headlineMedium.toComposeTextStyle(),
+        headlineSmall = this.headlineSmall.toComposeTextStyle(),
+        titleLarge = this.titleLarge.toComposeTextStyle(),
+        titleMedium = this.titleMedium.toComposeTextStyle(),
+        titleSmall = this.titleSmall.toComposeTextStyle(),
+        bodyLarge = this.bodyLarge.toComposeTextStyle(),
+        bodyMedium = this.bodyMedium.toComposeTextStyle(),
+        bodySmall = this.bodySmall.toComposeTextStyle(),
+        labelLarge = this.labelLarge.toComposeTextStyle(),
+        labelMedium = this.labelMedium.toComposeTextStyle(),
+        labelSmall = this.labelSmall.toComposeTextStyle()
+    )
+}
+
+fun SerializableTextStyle.toComposeTextStyle(): TextStyle {
+    return TextStyle(
+        fontSize = this.fontSize.sp,
+        lineHeight = this.lineHeight.sp,
+        letterSpacing = this.letterSpacing.sp,
+        fontWeight = FontWeight(this.fontWeight),
+        fontFamily = FontFamily.Default
+    )
+} 

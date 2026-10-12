@@ -1,1 +1,159 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm9zLkVudmlyb25tZW50CmltcG9ydCBqYXZhLmlvLkZpbGUKCm9iamVjdCBPcGVyaXRQYXRocyB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgT1BFUklUX0RJUl9OQU1FID0gIk9wZXJpdCIKICAgIHByaXZhdGUgY29uc3QgdmFsIENMRUFOX09OX0VYSVRfRElSX05BTUUgPSAiY2xlYW5PbkV4aXQiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBQTFVHSU5TX0RJUl9OQU1FID0gInBsdWdpbnMiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBNQ1BfUExVR0lOU19ESVJfTkFNRSA9ICJtY3BfcGx1Z2lucyIKICAgIHByaXZhdGUgY29uc3QgdmFsIEJSSURHRV9ESVJfTkFNRSA9ICJicmlkZ2UiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBFWFBPUlRTX0RJUl9OQU1FID0gImV4cG9ydHMiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBXT1JLU1BBQ0VfRElSX05BTUUgPSAid29ya3NwYWNlIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEVTVF9ESVJfTkFNRSA9ICJ0ZXN0IgogICAgcHJpdmF0ZSBjb25zdCB2YWwgV0VCU0VTU0lPTl9ESVJfTkFNRSA9ICJ3ZWJzZXNzaW9uIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVVNFUlNDUklQVFNfRElSX05BTUUgPSAidXNlcnNjcmlwdHMiCgogICAgY29uc3QgdmFsIFNIRVJQQV9OQ05OX01PREVMU19ESVJfTkFNRSA9ICIuc2hlcnBhX25jbm5fbW9kZWxzIgogICAgY29uc3QgdmFsIFZFQ1RPUl9JTkRFWF9ESVJfTkFNRSA9ICIudmVjdG9yX2luZGV4IgoKICAgIGNvbnN0IHZhbCBJTUFHRV9QT09MX0RJUl9OQU1FID0gImltYWdlX3Bvb2wiCiAgICBjb25zdCB2YWwgTUVESUFfUE9PTF9ESVJfTkFNRSA9ICJtZWRpYV9wb29sIgogICAgY29uc3QgdmFsIFNLSUxMX1JFUE9fWklQX1BPT0xfRElSX05BTUUgPSAic2tpbGxfcmVwb196aXBfcG9vbCIKCiAgICBmdW4gZG93bmxvYWRzRGlyKCk6IEZpbGUgewogICAgICAgIHJldHVybiBFbnZpcm9ubWVudC5nZXRFeHRlcm5hbFN0b3JhZ2VQdWJsaWNEaXJlY3RvcnkoRW52aXJvbm1lbnQuRElSRUNUT1JZX0RPV05MT0FEUykKICAgIH0KCiAgICBmdW4gb3Blcml0Um9vdERpcigpOiBGaWxlIHsKICAgICAgICByZXR1cm4gZW5zdXJlRGlyKEZpbGUoZG93bmxvYWRzRGlyKCksIE9QRVJJVF9ESVJfTkFNRSkpCiAgICB9CgogICAgZnVuIGNsZWFuT25FeGl0RGlyKCk6IEZpbGUgewogICAgICAgIHJldHVybiBlbnN1cmVEaXIoRmlsZShvcGVyaXRSb290RGlyKCksIENMRUFOX09OX0VYSVRfRElSX05BTUUpKQogICAgfQoKICAgIGZ1biBwbHVnaW5zRGlyKCk6IEZpbGUgewogICAgICAgIHJldHVybiBlbnN1cmVEaXIoRmlsZShvcGVyaXRSb290RGlyKCksIFBMVUdJTlNfRElSX05BTUUpKQogICAgfQoKICAgIGZ1biBwbHVnaW5Db25maWdEaXIocGx1Z2luSWQ6IFN0cmluZyk6IEZpbGUgewogICAgICAgIHZhbCB0cmltbWVkID0gcGx1Z2luSWQudHJpbSgpCiAgICAgICAgdmFsIHNhZmVCYXNlTmFtZSA9CiAgICAgICAgICAgIHRyaW1tZWQKICAgICAgICAgICAgICAgIC5yZXBsYWNlKFJlZ2V4KCIiIltcXC86Kj8iPD58XHUwMDAwLVx1MDAxRl0iIiIpLCAiXyIpCiAgICAgICAgICAgICAgICAudHJpbSgnLicsICcgJykKICAgICAgICAgICAgICAgIC5pZkJsYW5rIHsgInBsdWdpbiIgfQogICAgICAgIHZhbCBzYWZlTmFtZSA9CiAgICAgICAgICAgIGlmIChzYWZlQmFzZU5hbWUgPT0gdHJpbW1lZCkgewogICAgICAgICAgICAgICAgc2FmZUJhc2VOYW1lCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAiJHNhZmVCYXNlTmFtZS0ke0ludGVnZXIudG9IZXhTdHJpbmcodHJpbW1lZC5oYXNoQ29kZSgpKX0iCiAgICAgICAgICAgIH0KICAgICAgICByZXR1cm4gZW5zdXJlRGlyKEZpbGUocGx1Z2luc0RpcigpLCBzYWZlTmFtZSkpCiAgICB9CgogICAgZnVuIGNsZWFuT25FeGl0SW50ZXJuYWxEaXIoY29udGV4dDogQ29udGV4dCk6IEZpbGUgewogICAgICAgIHJldHVybiBlbnN1cmVEaXIoRmlsZShlbnN1cmVEaXIoRmlsZShjb250ZXh0LmNhY2hlRGlyLCBPUEVSSVRfRElSX05BTUUpKSwgQ0xFQU5fT05fRVhJVF9ESVJfTkFNRSkpCiAgICB9CgogICAgZnVuIG1jcFBsdWdpbnNEaXIoKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIGVuc3VyZURpcihGaWxlKG9wZXJpdFJvb3REaXIoKSwgTUNQX1BMVUdJTlNfRElSX05BTUUpKQogICAgfQoKICAgIGZ1biBicmlkZ2VEaXIoKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIGVuc3VyZURpcihGaWxlKG9wZXJpdFJvb3REaXIoKSwgQlJJREdFX0RJUl9OQU1FKSkKICAgIH0KCiAgICBmdW4gZXhwb3J0c0RpcigpOiBGaWxlIHsKICAgICAgICByZXR1cm4gZW5zdXJlRGlyKEZpbGUob3Blcml0Um9vdERpcigpLCBFWFBPUlRTX0RJUl9OQU1FKSkKICAgIH0KCiAgICBmdW4gd29ya3NwYWNlRGlyKCk6IEZpbGUgewogICAgICAgIHJldHVybiBlbnN1cmVEaXIoRmlsZShvcGVyaXRSb290RGlyKCksIFdPUktTUEFDRV9ESVJfTkFNRSkpCiAgICB9CgogICAgZnVuIHRlc3REaXIoKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIGVuc3VyZURpcihGaWxlKG9wZXJpdFJvb3REaXIoKSwgVEVTVF9ESVJfTkFNRSkpCiAgICB9CgogICAgZnVuIHdlYlNlc3Npb25EaXIoKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIGVuc3VyZURpcihGaWxlKG9wZXJpdFJvb3REaXIoKSwgV0VCU0VTU0lPTl9ESVJfTkFNRSkpCiAgICB9CgogICAgZnVuIHdlYlNlc3Npb25Vc2Vyc2NyaXB0c0RpcigpOiBGaWxlIHsKICAgICAgICByZXR1cm4gZW5zdXJlRGlyKEZpbGUod2ViU2Vzc2lvbkRpcigpLCBVU0VSU0NSSVBUU19ESVJfTkFNRSkpCiAgICB9CgogICAgZnVuIHNoZXJwYU5jbm5Nb2RlbHNEaXIoY29udGV4dDogQ29udGV4dCk6IEZpbGUgewogICAgICAgIHJldHVybiBlbnN1cmVEaXIoRmlsZShjb250ZXh0LmZpbGVzRGlyLCBTSEVSUEFfTkNOTl9NT0RFTFNfRElSX05BTUUpKQogICAgfQoKICAgIGZ1biB2ZWN0b3JJbmRleERpcihjb250ZXh0OiBDb250ZXh0KTogRmlsZSB7CiAgICAgICAgcmV0dXJuIGVuc3VyZURpcihGaWxlKGNvbnRleHQuZmlsZXNEaXIsIFZFQ1RPUl9JTkRFWF9ESVJfTkFNRSkpCiAgICB9CgogICAgZnVuIGltYWdlUG9vbERpcihiYXNlRGlyOiBGaWxlKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIGVuc3VyZURpcihGaWxlKGJhc2VEaXIsIElNQUdFX1BPT0xfRElSX05BTUUpKQogICAgfQoKICAgIGZ1biBtZWRpYVBvb2xEaXIoYmFzZURpcjogRmlsZSk6IEZpbGUgewogICAgICAgIHJldHVybiBlbnN1cmVEaXIoRmlsZShiYXNlRGlyLCBNRURJQV9QT09MX0RJUl9OQU1FKSkKICAgIH0KCiAgICBmdW4gc2tpbGxSZXBvWmlwUG9vbERpcihiYXNlRGlyOiBGaWxlKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIGVuc3VyZURpcihGaWxlKGJhc2VEaXIsIFNLSUxMX1JFUE9fWklQX1BPT0xfRElSX05BTUUpKQogICAgfQoKICAgIGZ1biByYXdTbmFwc2hvdEV4Y2x1ZGVkRmlsZXNUb3BMZXZlbERpck5hbWVzKCk6IFNldDxTdHJpbmc+IHsKICAgICAgICByZXR1cm4gc2V0T2YoCiAgICAgICAgICAgIFNIRVJQQV9OQ05OX01PREVMU19ESVJfTkFNRSwKICAgICAgICAgICAgVkVDVE9SX0lOREVYX0RJUl9OQU1FLAogICAgICAgICAgICBJTUFHRV9QT09MX0RJUl9OQU1FLAogICAgICAgICAgICBNRURJQV9QT09MX0RJUl9OQU1FLAogICAgICAgICAgICBTS0lMTF9SRVBPX1pJUF9QT09MX0RJUl9OQU1FLAogICAgICAgICkKICAgIH0KCiAgICBmdW4gb3Blcml0Um9vdFBhdGhTZGNhcmQoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIi9zZGNhcmQvRG93bmxvYWQvJE9QRVJJVF9ESVJfTkFNRSIKICAgIH0KCiAgICBmdW4gY2xlYW5PbkV4aXRQYXRoU2RjYXJkKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICIke29wZXJpdFJvb3RQYXRoU2RjYXJkKCl9LyRDTEVBTl9PTl9FWElUX0RJUl9OQU1FIgogICAgfQoKICAgIGZ1biBwbHVnaW5zUGF0aFNkY2FyZCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiJHtvcGVyaXRSb290UGF0aFNkY2FyZCgpfS8kUExVR0lOU19ESVJfTkFNRSIKICAgIH0KCiAgICBmdW4gYnJpZGdlUGF0aFNkY2FyZCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiJHtvcGVyaXRSb290UGF0aFNkY2FyZCgpfS8kQlJJREdFX0RJUl9OQU1FIgogICAgfQoKICAgIGZ1biBleHBvcnRzUGF0aFNkY2FyZCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiJHtvcGVyaXRSb290UGF0aFNkY2FyZCgpfS8kRVhQT1JUU19ESVJfTkFNRSIKICAgIH0KCiAgICBmdW4gd29ya3NwYWNlUGF0aFNkY2FyZChjaGF0SWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICIke29wZXJpdFJvb3RQYXRoU2RjYXJkKCl9LyRXT1JLU1BBQ0VfRElSX05BTUUvJGNoYXRJZCIKICAgIH0KCiAgICBmdW4gdGVzdFBhdGhTZGNhcmQoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIiR7b3Blcml0Um9vdFBhdGhTZGNhcmQoKX0vJFRFU1RfRElSX05BTUUiCiAgICB9CgogICAgZnVuIHdlYlNlc3Npb25Vc2Vyc2NyaXB0c1BhdGhTZGNhcmQoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIiR7b3Blcml0Um9vdFBhdGhTZGNhcmQoKX0vJFdFQlNFU1NJT05fRElSX05BTUUvJFVTRVJTQ1JJUFRTX0RJUl9OQU1FIgogICAgfQoKICAgIHByaXZhdGUgZnVuIGVuc3VyZURpcihkaXI6IEZpbGUpOiBGaWxlIHsKICAgICAgICBpZiAoIWRpci5leGlzdHMoKSkgewogICAgICAgICAgICBkaXIubWtkaXJzKCkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGRpcgogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import android.os.Environment
+import java.io.File
+
+object OperitPaths {
+
+    private const val OPERIT_DIR_NAME = "Operit"
+    private const val CLEAN_ON_EXIT_DIR_NAME = "cleanOnExit"
+    private const val PLUGINS_DIR_NAME = "plugins"
+    private const val MCP_PLUGINS_DIR_NAME = "mcp_plugins"
+    private const val BRIDGE_DIR_NAME = "bridge"
+    private const val EXPORTS_DIR_NAME = "exports"
+    private const val WORKSPACE_DIR_NAME = "workspace"
+    private const val TEST_DIR_NAME = "test"
+    private const val WEBSESSION_DIR_NAME = "websession"
+    private const val USERSCRIPTS_DIR_NAME = "userscripts"
+
+    const val SHERPA_NCNN_MODELS_DIR_NAME = ".sherpa_ncnn_models"
+    const val VECTOR_INDEX_DIR_NAME = ".vector_index"
+
+    const val IMAGE_POOL_DIR_NAME = "image_pool"
+    const val MEDIA_POOL_DIR_NAME = "media_pool"
+    const val SKILL_REPO_ZIP_POOL_DIR_NAME = "skill_repo_zip_pool"
+
+    fun downloadsDir(): File {
+        return Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+    }
+
+    fun operitRootDir(): File {
+        return ensureDir(File(downloadsDir(), OPERIT_DIR_NAME))
+    }
+
+    fun cleanOnExitDir(): File {
+        return ensureDir(File(operitRootDir(), CLEAN_ON_EXIT_DIR_NAME))
+    }
+
+    fun pluginsDir(): File {
+        return ensureDir(File(operitRootDir(), PLUGINS_DIR_NAME))
+    }
+
+    fun pluginConfigDir(pluginId: String): File {
+        val trimmed = pluginId.trim()
+        val safeBaseName =
+            trimmed
+                .replace(Regex("""[\\/:*?"<>|\u0000-\u001F]"""), "_")
+                .trim('.', ' ')
+                .ifBlank { "plugin" }
+        val safeName =
+            if (safeBaseName == trimmed) {
+                safeBaseName
+            } else {
+                "$safeBaseName-${Integer.toHexString(trimmed.hashCode())}"
+            }
+        return ensureDir(File(pluginsDir(), safeName))
+    }
+
+    fun cleanOnExitInternalDir(context: Context): File {
+        return ensureDir(File(ensureDir(File(context.cacheDir, OPERIT_DIR_NAME)), CLEAN_ON_EXIT_DIR_NAME))
+    }
+
+    fun mcpPluginsDir(): File {
+        return ensureDir(File(operitRootDir(), MCP_PLUGINS_DIR_NAME))
+    }
+
+    fun bridgeDir(): File {
+        return ensureDir(File(operitRootDir(), BRIDGE_DIR_NAME))
+    }
+
+    fun exportsDir(): File {
+        return ensureDir(File(operitRootDir(), EXPORTS_DIR_NAME))
+    }
+
+    fun workspaceDir(): File {
+        return ensureDir(File(operitRootDir(), WORKSPACE_DIR_NAME))
+    }
+
+    fun testDir(): File {
+        return ensureDir(File(operitRootDir(), TEST_DIR_NAME))
+    }
+
+    fun webSessionDir(): File {
+        return ensureDir(File(operitRootDir(), WEBSESSION_DIR_NAME))
+    }
+
+    fun webSessionUserscriptsDir(): File {
+        return ensureDir(File(webSessionDir(), USERSCRIPTS_DIR_NAME))
+    }
+
+    fun sherpaNcnnModelsDir(context: Context): File {
+        return ensureDir(File(context.filesDir, SHERPA_NCNN_MODELS_DIR_NAME))
+    }
+
+    fun vectorIndexDir(context: Context): File {
+        return ensureDir(File(context.filesDir, VECTOR_INDEX_DIR_NAME))
+    }
+
+    fun imagePoolDir(baseDir: File): File {
+        return ensureDir(File(baseDir, IMAGE_POOL_DIR_NAME))
+    }
+
+    fun mediaPoolDir(baseDir: File): File {
+        return ensureDir(File(baseDir, MEDIA_POOL_DIR_NAME))
+    }
+
+    fun skillRepoZipPoolDir(baseDir: File): File {
+        return ensureDir(File(baseDir, SKILL_REPO_ZIP_POOL_DIR_NAME))
+    }
+
+    fun rawSnapshotExcludedFilesTopLevelDirNames(): Set<String> {
+        return setOf(
+            SHERPA_NCNN_MODELS_DIR_NAME,
+            VECTOR_INDEX_DIR_NAME,
+            IMAGE_POOL_DIR_NAME,
+            MEDIA_POOL_DIR_NAME,
+            SKILL_REPO_ZIP_POOL_DIR_NAME,
+        )
+    }
+
+    fun operitRootPathSdcard(): String {
+        return "/sdcard/Download/$OPERIT_DIR_NAME"
+    }
+
+    fun cleanOnExitPathSdcard(): String {
+        return "${operitRootPathSdcard()}/$CLEAN_ON_EXIT_DIR_NAME"
+    }
+
+    fun pluginsPathSdcard(): String {
+        return "${operitRootPathSdcard()}/$PLUGINS_DIR_NAME"
+    }
+
+    fun bridgePathSdcard(): String {
+        return "${operitRootPathSdcard()}/$BRIDGE_DIR_NAME"
+    }
+
+    fun exportsPathSdcard(): String {
+        return "${operitRootPathSdcard()}/$EXPORTS_DIR_NAME"
+    }
+
+    fun workspacePathSdcard(chatId: String): String {
+        return "${operitRootPathSdcard()}/$WORKSPACE_DIR_NAME/$chatId"
+    }
+
+    fun testPathSdcard(): String {
+        return "${operitRootPathSdcard()}/$TEST_DIR_NAME"
+    }
+
+    fun webSessionUserscriptsPathSdcard(): String {
+        return "${operitRootPathSdcard()}/$WEBSESSION_DIR_NAME/$USERSCRIPTS_DIR_NAME"
+    }
+
+    private fun ensureDir(dir: File): File {
+        if (!dir.exists()) {
+            dir.mkdirs()
+        }
+        return dir
+    }
+}

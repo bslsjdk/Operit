@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jb25kaXRpb24KCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDb25kaXRpb25FdmFsdWF0b3JDb21wYXJpc29uVGVzdCB7CgogICAgQFRlc3QgZnVuIG51bWVyaWNMZXNzRXF1YWxfZmFsc2VXaGVuR3JlYXRlcigpIHsKICAgICAgICBhc3NlcnRGYWxzZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoInNjb3JlIDw9IDIiLCBtYXBPZigic2NvcmUiIHRvIDMpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbnVtZXJpY0dyZWF0ZXJfZmFsc2VXaGVuU21hbGxlcigpIHsKICAgICAgICBhc3NlcnRGYWxzZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoInNjb3JlID4gMyIsIG1hcE9mKCJzY29yZSIgdG8gMikpKQogICAgfQoKICAgIEBUZXN0IGZ1biBzdHJpbmdFcXVhbGl0eV9mYWxzZVdoZW5EaWZmZXJlbnQoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCJuYW1lID09ICdiJyIsIG1hcE9mKCJuYW1lIiB0byAiYSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gc3RyaW5nSW5lcXVhbGl0eV90cnVlV2hlbkRpZmZlcmVudCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgibmFtZSAhPSAnYiciLCBtYXBPZigibmFtZSIgdG8gImEiKSkpCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.condition
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ConditionEvaluatorComparisonTest {
+
+    @Test fun numericLessEqual_falseWhenGreater() {
+        assertFalse(ConditionEvaluator.evaluate("score <= 2", mapOf("score" to 3)))
+    }
+
+    @Test fun numericGreater_falseWhenSmaller() {
+        assertFalse(ConditionEvaluator.evaluate("score > 3", mapOf("score" to 2)))
+    }
+
+    @Test fun stringEquality_falseWhenDifferent() {
+        assertFalse(ConditionEvaluator.evaluate("name == 'b'", mapOf("name" to "a")))
+    }
+
+    @Test fun stringInequality_trueWhenDifferent() {
+        assertTrue(ConditionEvaluator.evaluate("name != 'b'", mapOf("name" to "a")))
+    }
+}

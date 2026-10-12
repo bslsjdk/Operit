@@ -1,1 +1,139 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLlNwZWVjaFNlcnZpY2VQcm9maWxlc1ByZWZlcmVuY2VzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMucnVuQmxvY2tpbmcKCi8qKiDor63pn7PmnI3liqHlt6XljoLvvIznlKjkuo7liJvlu7rkuI3lkIznsbvlnovnmoTor63pn7PmnI3liqHlrp7kvosgKi8Kb2JqZWN0IFZvaWNlU2VydmljZUZhY3RvcnkgewogICAgLyoqIOivremfs+acjeWKoeexu+Wei+aemuS4viAqLwogICAgZW51bSBjbGFzcyBWb2ljZVNlcnZpY2VUeXBlIHsKICAgICAgICAvKiog5Z+65LqOQW5kcm9pZOezu+e7n1RUU+eahOeugOWNleivremfs+WunueOsCAqLwogICAgICAgIFNJTVBMRV9UVFMsCiAgICAgICAgLyoqIOWfuuS6jkhUVFDor7fmsYLnmoRUVFPlrp7njrAgKi8KICAgICAgICBIVFRQX1RUUywKICAgICAgICAvKiog5Z+65LqOIE9wZW5BSSBSZWFsdGltZSBXZWJTb2NrZXQg55qEIFRUUyDlrp7njrAgKi8KICAgICAgICBPUEVOQUlfV1NfVFRTLAogICAgICAgIC8qKiDnoYXln7rmtYHliqhUVFPmnI3liqEgKi8KICAgICAgICBTSUxJQ09ORkxPV19UVFMsCiAgICAgICAgLyoqIE1pbmlNYXggVFRTIOacjeWKoSAqLwogICAgICAgIE1JTklNQVhfVFRTLAogICAgICAgIC8qKiBNaU1vIFRUUyDmnI3liqEgKi8KICAgICAgICBNSU1PX1RUUywKICAgICAgICAvKiog6LGG5YyFIFRUUyDmnI3liqEgKi8KICAgICAgICBET1VCQU9fVFRTLAogICAgICAgIE9QRU5BSV9UVFMsCiAgICAgICAgLyoqIOWfuuS6jiBWSVRTL1BpcGVyIE9OTlggUnVudGltZSDmjqjnkIblvaLmgIHnmoTmnKzlnLAgVFRTIOacjeWKoSAqLwogICAgICAgIFZJVFNfVFRTLAogICAgfQoKICAgIC8qKgogICAgICog5Yib5bu66K+t6Z+z5pyN5Yqh5a6e5L6LICjnjrDlnKjku45QcmVmZXJlbmNlc+S4reivu+WPlumFjee9rikKICAgICAqCiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4g5a+55bqU57G75Z6L55qEVm9pY2VTZXJ2aWNl5a6e5L6LCiAgICAgKi8KICAgIGZ1biBjcmVhdGVWb2ljZVNlcnZpY2UoCiAgICAgICAgY29udGV4dDogQ29udGV4dAogICAgKTogVm9pY2VTZXJ2aWNlIHsKICAgICAgICB2YWwgcHJvZmlsZXMgPSBTcGVlY2hTZXJ2aWNlUHJvZmlsZXNQcmVmZXJlbmNlcyhjb250ZXh0KQogICAgICAgIC8vIOS9v+eUqHJ1bkJsb2NraW5n5ZCM5q2l6I635Y+W6YWN572u77yM6L+Z5Zyo5bel5Y6C5pa55rOV5Lit5piv5Y+v5o6l5Y+X55qECiAgICAgICAgcmV0dXJuIHJ1bkJsb2NraW5nIHsKICAgICAgICAgICAgdmFsIHByb2ZpbGUgPSBwcm9maWxlcy5nZXRDdXJyZW50VHRzUHJvZmlsZSgpCgogICAgICAgICAgICB3aGVuIChwcm9maWxlLnNlcnZpY2VUeXBlKSB7CiAgICAgICAgICAgICAgICBWb2ljZVNlcnZpY2VUeXBlLlNJTVBMRV9UVFMgLT4gewogICAgICAgICAgICAgICAgICAgIFNpbXBsZVZvaWNlUHJvdmlkZXIoCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICBpbml0aWFsTG9jYWxlVGFnID0gcHJvZmlsZS5odHRwQ29uZmlnLmxvY2FsZVRhZywKICAgICAgICAgICAgICAgICAgICAgICAgaW5pdGlhbFZvaWNlSWQgPSBwcm9maWxlLmh0dHBDb25maWcudm9pY2VJZAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFZvaWNlU2VydmljZVR5cGUuSFRUUF9UVFMgLT4gewogICAgICAgICAgICAgICAgICAgIEh0dHBWb2ljZVByb3ZpZGVyKGNvbnRleHQpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICAgICAgc2V0Q29uZmlndXJhdGlvbihwcm9maWxlLmh0dHBDb25maWcpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgVm9pY2VTZXJ2aWNlVHlwZS5PUEVOQUlfV1NfVFRTIC0+IHsKICAgICAgICAgICAgICAgICAgICBPcGVuQUlSZWFsdGltZVZvaWNlUHJvdmlkZXIoCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICBlbmRwb2ludFVybCA9IHByb2ZpbGUuaHR0cENvbmZpZy51cmxUZW1wbGF0ZSwKICAgICAgICAgICAgICAgICAgICAgICAgYXBpS2V5ID0gcHJvZmlsZS5odHRwQ29uZmlnLmFwaUtleSwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kZWwgPSBwcm9maWxlLmh0dHBDb25maWcubW9kZWxOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBpbml0aWFsVm9pY2VJZCA9IHByb2ZpbGUuaHR0cENvbmZpZy52b2ljZUlkCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgVm9pY2VTZXJ2aWNlVHlwZS5TSUxJQ09ORkxPV19UVFMgLT4gewogICAgICAgICAgICAgICAgICAgIFNpbGljb25GbG93Vm9pY2VQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGFwaUtleSA9IHByb2ZpbGUuaHR0cENvbmZpZy5hcGlLZXksCiAgICAgICAgICAgICAgICAgICAgICAgIGluaXRpYWxWb2ljZUlkID0gcHJvZmlsZS5odHRwQ29uZmlnLnZvaWNlSWQsCiAgICAgICAgICAgICAgICAgICAgICAgIGluaXRpYWxNb2RlbE5hbWUgPSBwcm9maWxlLmh0dHBDb25maWcubW9kZWxOYW1lCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgVm9pY2VTZXJ2aWNlVHlwZS5NSU5JTUFYX1RUUyAtPiB7CiAgICAgICAgICAgICAgICAgICAgTWluaU1heFZvaWNlUHJvdmlkZXIoCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICBjb25maWcgPSBwcm9maWxlLmh0dHBDb25maWcKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBWb2ljZVNlcnZpY2VUeXBlLk1JTU9fVFRTIC0+IHsKICAgICAgICAgICAgICAgICAgICBNaW1vVm9pY2VQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbmZpZyA9IHByb2ZpbGUuaHR0cENvbmZpZwogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFZvaWNlU2VydmljZVR5cGUuRE9VQkFPX1RUUyAtPiB7CiAgICAgICAgICAgICAgICAgICAgRG91YmFvVm9pY2VQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbmZpZyA9IHByb2ZpbGUuaHR0cENvbmZpZwogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFZvaWNlU2VydmljZVR5cGUuT1BFTkFJX1RUUyAtPiB7CiAgICAgICAgICAgICAgICAgICAgT3BlbkFJVm9pY2VQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGVuZHBvaW50VXJsID0gcHJvZmlsZS5odHRwQ29uZmlnLnVybFRlbXBsYXRlLAogICAgICAgICAgICAgICAgICAgICAgICBhcGlLZXkgPSBwcm9maWxlLmh0dHBDb25maWcuYXBpS2V5LAogICAgICAgICAgICAgICAgICAgICAgICBtb2RlbCA9IHByb2ZpbGUuaHR0cENvbmZpZy5tb2RlbE5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGluaXRpYWxWb2ljZUlkID0gcHJvZmlsZS5odHRwQ29uZmlnLnZvaWNlSWQKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBWb2ljZVNlcnZpY2VUeXBlLlZJVFNfVFRTIC0+IHsKICAgICAgICAgICAgICAgICAgICBWaXRzVm9pY2VQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbmZpZyA9IHByb2ZpbGUudml0c0NvbmZpZwogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyDljZXkvovlrp7kvovnvJPlrZgKICAgIHByaXZhdGUgdmFyIGluc3RhbmNlOiBWb2ljZVNlcnZpY2U/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgY3VycmVudFByb2ZpbGVJZDogU3RyaW5nPyA9IG51bGwKCiAgICAvKioKICAgICAqIOiOt+WPluivremfs+acjeWKoeWNleS+i+WunuS+iwogICAgICoKICAgICAqIEBwYXJhbSBjb250ZXh0IOW6lOeUqOS4iuS4i+aWhwogICAgICogQHJldHVybiBWb2ljZVNlcnZpY2Xlrp7kvosKICAgICAqLwogICAgZnVuIGdldEluc3RhbmNlKGNvbnRleHQ6IENvbnRleHQpOiBWb2ljZVNlcnZpY2UgewogICAgICAgIHZhbCBwcm9maWxlcyA9IFNwZWVjaFNlcnZpY2VQcm9maWxlc1ByZWZlcmVuY2VzKGNvbnRleHQpCiAgICAgICAgdmFsIHNlbGVjdGVkUHJvZmlsZUlkID0gcnVuQmxvY2tpbmcgeyBwcm9maWxlcy5nZXRDdXJyZW50VHRzUHJvZmlsZSgpLmlkIH0KCiAgICAgICAgaWYgKGluc3RhbmNlID09IG51bGwgfHwgc2VsZWN0ZWRQcm9maWxlSWQgIT0gY3VycmVudFByb2ZpbGVJZCkgewogICAgICAgICAgICBpbnN0YW5jZT8uc2h1dGRvd24oKQogICAgICAgICAgICBpbnN0YW5jZSA9IGNyZWF0ZVZvaWNlU2VydmljZShjb250ZXh0KQogICAgICAgICAgICBjdXJyZW50UHJvZmlsZUlkID0gc2VsZWN0ZWRQcm9maWxlSWQKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGluc3RhbmNlISEKICAgIH0KCiAgICAvKiog6YeN572u5Y2V5L6L5a6e5L6LIOWcqOmcgOimgeabtOaUueivremfs+acjeWKoeexu+Wei+aIlumHiuaUvui1hOa6kOaXtuiwg+eUqCAqLwogICAgZnVuIHJlc2V0SW5zdGFuY2UoKSB7CiAgICAgICAgaW5zdGFuY2U/LnNodXRkb3duKCkKICAgICAgICBpbnN0YW5jZSA9IG51bGwKICAgICAgICBjdXJyZW50UHJvZmlsZUlkID0gbnVsbAogICAgfQp9Cg==
+package com.bslsjdk.operit.api.voice
+
+import android.content.Context
+import com.bslsjdk.operit.data.preferences.SpeechServiceProfilesPreferences
+import kotlinx.coroutines.runBlocking
+
+/** 语音服务工厂，用于创建不同类型的语音服务实例 */
+object VoiceServiceFactory {
+    /** 语音服务类型枚举 */
+    enum class VoiceServiceType {
+        /** 基于Android系统TTS的简单语音实现 */
+        SIMPLE_TTS,
+        /** 基于HTTP请求的TTS实现 */
+        HTTP_TTS,
+        /** 基于 OpenAI Realtime WebSocket 的 TTS 实现 */
+        OPENAI_WS_TTS,
+        /** 硅基流动TTS服务 */
+        SILICONFLOW_TTS,
+        /** MiniMax TTS 服务 */
+        MINIMAX_TTS,
+        /** MiMo TTS 服务 */
+        MIMO_TTS,
+        /** 豆包 TTS 服务 */
+        DOUBAO_TTS,
+        OPENAI_TTS,
+        /** 基于 VITS/Piper ONNX Runtime 推理形态的本地 TTS 服务 */
+        VITS_TTS,
+    }
+
+    /**
+     * 创建语音服务实例 (现在从Preferences中读取配置)
+     *
+     * @param context 应用上下文
+     * @return 对应类型的VoiceService实例
+     */
+    fun createVoiceService(
+        context: Context
+    ): VoiceService {
+        val profiles = SpeechServiceProfilesPreferences(context)
+        // 使用runBlocking同步获取配置，这在工厂方法中是可接受的
+        return runBlocking {
+            val profile = profiles.getCurrentTtsProfile()
+
+            when (profile.serviceType) {
+                VoiceServiceType.SIMPLE_TTS -> {
+                    SimpleVoiceProvider(
+                        context = context,
+                        initialLocaleTag = profile.httpConfig.localeTag,
+                        initialVoiceId = profile.httpConfig.voiceId
+                    )
+                }
+                VoiceServiceType.HTTP_TTS -> {
+                    HttpVoiceProvider(context).apply {
+                        setConfiguration(profile.httpConfig)
+                    }
+                }
+                VoiceServiceType.OPENAI_WS_TTS -> {
+                    OpenAIRealtimeVoiceProvider(
+                        context = context,
+                        endpointUrl = profile.httpConfig.urlTemplate,
+                        apiKey = profile.httpConfig.apiKey,
+                        model = profile.httpConfig.modelName,
+                        initialVoiceId = profile.httpConfig.voiceId
+                    )
+                }
+                VoiceServiceType.SILICONFLOW_TTS -> {
+                    SiliconFlowVoiceProvider(
+                        context = context,
+                        apiKey = profile.httpConfig.apiKey,
+                        initialVoiceId = profile.httpConfig.voiceId,
+                        initialModelName = profile.httpConfig.modelName
+                    )
+                }
+                VoiceServiceType.MINIMAX_TTS -> {
+                    MiniMaxVoiceProvider(
+                        context = context,
+                        config = profile.httpConfig
+                    )
+                }
+                VoiceServiceType.MIMO_TTS -> {
+                    MimoVoiceProvider(
+                        context = context,
+                        config = profile.httpConfig
+                    )
+                }
+                VoiceServiceType.DOUBAO_TTS -> {
+                    DoubaoVoiceProvider(
+                        context = context,
+                        config = profile.httpConfig
+                    )
+                }
+                VoiceServiceType.OPENAI_TTS -> {
+                    OpenAIVoiceProvider(
+                        context = context,
+                        endpointUrl = profile.httpConfig.urlTemplate,
+                        apiKey = profile.httpConfig.apiKey,
+                        model = profile.httpConfig.modelName,
+                        initialVoiceId = profile.httpConfig.voiceId
+                    )
+                }
+                VoiceServiceType.VITS_TTS -> {
+                    VitsVoiceProvider(
+                        context = context,
+                        config = profile.vitsConfig
+                    )
+                }
+            }
+        }
+    }
+
+    // 单例实例缓存
+    private var instance: VoiceService? = null
+    private var currentProfileId: String? = null
+
+    /**
+     * 获取语音服务单例实例
+     *
+     * @param context 应用上下文
+     * @return VoiceService实例
+     */
+    fun getInstance(context: Context): VoiceService {
+        val profiles = SpeechServiceProfilesPreferences(context)
+        val selectedProfileId = runBlocking { profiles.getCurrentTtsProfile().id }
+
+        if (instance == null || selectedProfileId != currentProfileId) {
+            instance?.shutdown()
+            instance = createVoiceService(context)
+            currentProfileId = selectedProfileId
+        }
+        return instance!!
+    }
+
+    /** 重置单例实例 在需要更改语音服务类型或释放资源时调用 */
+    fun resetInstance() {
+        instance?.shutdown()
+        instance = null
+        currentProfileId = null
+    }
+}

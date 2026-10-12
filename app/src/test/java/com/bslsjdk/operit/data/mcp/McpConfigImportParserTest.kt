@@ -1,1 +1,94 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tY3AKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgTWNwQ29uZmlnSW1wb3J0UGFyc2VyVGVzdCB7CgogICAgQFRlc3QKICAgIGZ1biBwYXJzZV9jbGFzc2lmaWVzU3RkaW9BbmRSZW1vdGVUcmFuc3BvcnRzKCkgewogICAgICAgIHZhbCBjb25maWcgPQogICAgICAgICAgICAiIiIKICAgICAgICAgICAgewogICAgICAgICAgICAgICJtY3BTZXJ2ZXJzIjogewogICAgICAgICAgICAgICAgImZpbGVzeXN0ZW0iOiB7CiAgICAgICAgICAgICAgICAgICJjb21tYW5kIjogIm5weCIsCiAgICAgICAgICAgICAgICAgICJhcmdzIjogWyIteSIsICJAbW9kZWxjb250ZXh0cHJvdG9jb2wvc2VydmVyLWZpbGVzeXN0ZW0iXSwKICAgICAgICAgICAgICAgICAgImVudiI6IHsiSE9NRSI6ICIvZGF0YS9sb2NhbC90bXAifSwKICAgICAgICAgICAgICAgICAgImF1dG9BcHByb3ZlIjogWyJyZWFkX2ZpbGUiXQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICJmZXRjaCI6IHsKICAgICAgICAgICAgICAgICAgInR5cGUiOiAic3RyZWFtYWJsZV9odHRwIiwKICAgICAgICAgICAgICAgICAgInVybCI6ICJodHRwczovL2V4YW1wbGUuY29tL21jcCIsCiAgICAgICAgICAgICAgICAgICJoZWFkZXJzIjogeyJYLUNsaWVudCI6ICJPcGVyaXQifSwKICAgICAgICAgICAgICAgICAgImRpc2FibGVkIjogdHJ1ZQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICJldmVudHMiOiB7CiAgICAgICAgICAgICAgICAgICJ0eXBlIjogInNzZSIsCiAgICAgICAgICAgICAgICAgICJ1cmwiOiAiaHR0cHM6Ly9leGFtcGxlLmNvbS9zc2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgdmFsIHBhcnNlZCA9IE1jcENvbmZpZ0ltcG9ydFBhcnNlci5wYXJzZShjb25maWcpCgogICAgICAgIHZhbCBzdGRpbyA9IHBhcnNlZC5zZXJ2ZXJzLmZpbHRlcklzSW5zdGFuY2U8U3RkaW9NY3BJbXBvcnRlZFNlcnZlcj4oKS5zaW5nbGUoKQogICAgICAgIGFzc2VydEVxdWFscygiZmlsZXN5c3RlbSIsIHN0ZGlvLmlkKQogICAgICAgIGFzc2VydEVxdWFscygibnB4Iiwgc3RkaW8uY29tbWFuZCkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCIteSIsICJAbW9kZWxjb250ZXh0cHJvdG9jb2wvc2VydmVyLWZpbGVzeXN0ZW0iKSwgc3RkaW8uYXJncykKICAgICAgICBhc3NlcnRFcXVhbHMobWFwT2YoIkhPTUUiIHRvICIvZGF0YS9sb2NhbC90bXAiKSwgc3RkaW8uZW52KQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoInJlYWRfZmlsZSIpLCBzdGRpby5hdXRvQXBwcm92ZSkKCiAgICAgICAgdmFsIHJlbW90ZVNlcnZlcnMgPSBwYXJzZWQuc2VydmVycy5maWx0ZXJJc0luc3RhbmNlPFJlbW90ZU1jcEltcG9ydGVkU2VydmVyPigpCiAgICAgICAgICAgIC5hc3NvY2lhdGVCeSB7IGl0LmlkIH0KICAgICAgICBhc3NlcnRFcXVhbHMoImh0dHBTdHJlYW0iLCByZW1vdGVTZXJ2ZXJzLmdldFZhbHVlKCJmZXRjaCIpLmNvbm5lY3Rpb25UeXBlKQogICAgICAgIGFzc2VydEVxdWFscyhtYXBPZigiWC1DbGllbnQiIHRvICJPcGVyaXQiKSwgcmVtb3RlU2VydmVycy5nZXRWYWx1ZSgiZmV0Y2giKS5oZWFkZXJzKQogICAgICAgIGFzc2VydFRydWUocmVtb3RlU2VydmVycy5nZXRWYWx1ZSgiZmV0Y2giKS5kaXNhYmxlZCkKICAgICAgICBhc3NlcnRFcXVhbHMoInNzZSIsIHJlbW90ZVNlcnZlcnMuZ2V0VmFsdWUoImV2ZW50cyIpLmNvbm5lY3Rpb25UeXBlKQogICAgICAgIGFzc2VydEZhbHNlKHJlbW90ZVNlcnZlcnMuZ2V0VmFsdWUoImV2ZW50cyIpLmRpc2FibGVkKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gcGFyc2VfcmVqZWN0c01pc3NpbmdUcmFuc3BvcnREZWNsYXJhdGlvbigpIHsKICAgICAgICB2YWwgY29uZmlnID0KICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAibWNwU2VydmVycyI6IHsKICAgICAgICAgICAgICAgICJmZXRjaCI6IHsidXJsIjogImh0dHBzOi8vZXhhbXBsZS5jb20vbWNwIn0KICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICBhc3NlcnRQYXJzZUZhaWxzKGNvbmZpZykKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHBhcnNlX3JlamVjdHNBbWJpZ3VvdXNTdGRpb0FuZFJlbW90ZUNvbmZpZ3VyYXRpb24oKSB7CiAgICAgICAgdmFsIGNvbmZpZyA9CiAgICAgICAgICAgICIiIgogICAgICAgICAgICB7CiAgICAgICAgICAgICAgIm1jcFNlcnZlcnMiOiB7CiAgICAgICAgICAgICAgICAiZmV0Y2giOiB7CiAgICAgICAgICAgICAgICAgICJjb21tYW5kIjogIm5vZGUiLAogICAgICAgICAgICAgICAgICAidHlwZSI6ICJzdHJlYW1hYmxlX2h0dHAiLAogICAgICAgICAgICAgICAgICAidXJsIjogImh0dHBzOi8vZXhhbXBsZS5jb20vbWNwIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIGFzc2VydFBhcnNlRmFpbHMoY29uZmlnKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGFzc2VydFBhcnNlRmFpbHMoY29uZmlnOiBTdHJpbmcpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBNY3BDb25maWdJbXBvcnRQYXJzZXIucGFyc2UoY29uZmlnKQogICAgICAgIH0gY2F0Y2ggKF86IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbikgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgdGhyb3cgQXNzZXJ0aW9uRXJyb3IoIkV4cGVjdGVkIE1DUCBjb25maWd1cmF0aW9uIHBhcnNpbmcgdG8gZmFpbCIpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.mcp
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class McpConfigImportParserTest {
+
+    @Test
+    fun parse_classifiesStdioAndRemoteTransports() {
+        val config =
+            """
+            {
+              "mcpServers": {
+                "filesystem": {
+                  "command": "npx",
+                  "args": ["-y", "@modelcontextprotocol/server-filesystem"],
+                  "env": {"HOME": "/data/local/tmp"},
+                  "autoApprove": ["read_file"]
+                },
+                "fetch": {
+                  "type": "streamable_http",
+                  "url": "https://example.com/mcp",
+                  "headers": {"X-Client": "Operit"},
+                  "disabled": true
+                },
+                "events": {
+                  "type": "sse",
+                  "url": "https://example.com/sse"
+                }
+              }
+            }
+            """.trimIndent()
+
+        val parsed = McpConfigImportParser.parse(config)
+
+        val stdio = parsed.servers.filterIsInstance<StdioMcpImportedServer>().single()
+        assertEquals("filesystem", stdio.id)
+        assertEquals("npx", stdio.command)
+        assertEquals(listOf("-y", "@modelcontextprotocol/server-filesystem"), stdio.args)
+        assertEquals(mapOf("HOME" to "/data/local/tmp"), stdio.env)
+        assertEquals(listOf("read_file"), stdio.autoApprove)
+
+        val remoteServers = parsed.servers.filterIsInstance<RemoteMcpImportedServer>()
+            .associateBy { it.id }
+        assertEquals("httpStream", remoteServers.getValue("fetch").connectionType)
+        assertEquals(mapOf("X-Client" to "Operit"), remoteServers.getValue("fetch").headers)
+        assertTrue(remoteServers.getValue("fetch").disabled)
+        assertEquals("sse", remoteServers.getValue("events").connectionType)
+        assertFalse(remoteServers.getValue("events").disabled)
+    }
+
+    @Test
+    fun parse_rejectsMissingTransportDeclaration() {
+        val config =
+            """
+            {
+              "mcpServers": {
+                "fetch": {"url": "https://example.com/mcp"}
+              }
+            }
+            """.trimIndent()
+
+        assertParseFails(config)
+    }
+
+    @Test
+    fun parse_rejectsAmbiguousStdioAndRemoteConfiguration() {
+        val config =
+            """
+            {
+              "mcpServers": {
+                "fetch": {
+                  "command": "node",
+                  "type": "streamable_http",
+                  "url": "https://example.com/mcp"
+                }
+              }
+            }
+            """.trimIndent()
+
+        assertParseFails(config)
+    }
+
+    private fun assertParseFails(config: String) {
+        try {
+            McpConfigImportParser.parse(config)
+        } catch (_: IllegalArgumentException) {
+            return
+        }
+        throw AssertionError("Expected MCP configuration parsing to fail")
+    }
+}

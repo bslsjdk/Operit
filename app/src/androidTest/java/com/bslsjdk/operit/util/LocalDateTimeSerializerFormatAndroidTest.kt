@@ -1,1 +1,22 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZVRpbWUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb24KaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAoKQFJ1bldpdGgoQW5kcm9pZEpVbml0NDo6Y2xhc3MpCmNsYXNzIExvY2FsRGF0ZVRpbWVTZXJpYWxpemVyRm9ybWF0QW5kcm9pZFRlc3QgewoKICAgIEBUZXN0IGZ1biBzZXJpYWxpemVkRGF0ZVRpbWVVc2VzSXNvU2VwYXJhdG9yVCgpIHsKICAgICAgICB2YWwgZW5jb2RlZCA9IEpzb24uZW5jb2RlVG9TdHJpbmcoTG9jYWxEYXRlVGltZVNlcmlhbGl6ZXIsIExvY2FsRGF0ZVRpbWUub2YoMjAyNCwgMSwgMSwgMSwgMiwgMykpCiAgICAgICAgYXNzZXJ0VHJ1ZShlbmNvZGVkLmNvbnRhaW5zKCJUIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHNlcmlhbGl6ZWREYXRlVGltZUNvbnRhaW5zWWVhclByZWZpeCgpIHsKICAgICAgICB2YWwgZW5jb2RlZCA9IEpzb24uZW5jb2RlVG9TdHJpbmcoTG9jYWxEYXRlVGltZVNlcmlhbGl6ZXIsIExvY2FsRGF0ZVRpbWUub2YoMjAyNCwgMSwgMSwgMSwgMiwgMykpCiAgICAgICAgYXNzZXJ0VHJ1ZShlbmNvZGVkLmNvbnRhaW5zKCIyMDI0LSIpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import java.time.LocalDateTime
+import kotlinx.serialization.json.Json
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class LocalDateTimeSerializerFormatAndroidTest {
+
+    @Test fun serializedDateTimeUsesIsoSeparatorT() {
+        val encoded = Json.encodeToString(LocalDateTimeSerializer, LocalDateTime.of(2024, 1, 1, 1, 2, 3))
+        assertTrue(encoded.contains("T"))
+    }
+
+    @Test fun serializedDateTimeContainsYearPrefix() {
+        val encoded = Json.encodeToString(LocalDateTimeSerializer, LocalDateTime.of(2024, 1, 1, 1, 2, 3))
+        assertTrue(encoded.contains("2024-"))
+    }
+}

@@ -1,1 +1,442 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmNvbXBvc2Vkc2wKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuVG9vbFBrZ0NvbXBvc2VEc2xOb2RlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5Ub29sUGtnQ29tcG9zZURzbFJlbmRlclJlc3VsdAppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CmltcG9ydCBvcmcuanNvbi5KU09OVG9rZW5lcgppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLm5pby5jaGFyc2V0LlN0YW5kYXJkQ2hhcnNldHMKaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLkxpbmtlZEhhc2hNYXAKaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKCmRhdGEgY2xhc3MgVG9vbFBrZ0NvbXBvc2VEc2xEZWJ1Z1NuYXBzaG90KAogICAgdmFsIHJvdXRlSW5zdGFuY2VJZDogU3RyaW5nLAogICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICB2YWwgdWlNb2R1bGVJZDogU3RyaW5nLAogICAgdmFsIGZhbGxiYWNrVGl0bGU6IFN0cmluZywKICAgIHZhbCBzY3JpcHRTY3JlZW5QYXRoOiBTdHJpbmc/LAogICAgdmFsIHNjcmlwdFNvdXJjZTogU3RyaW5nPywKICAgIHZhbCBwaGFzZTogU3RyaW5nLAogICAgdmFsIHJhd1JlbmRlclJlc3VsdFRleHQ6IFN0cmluZz8sCiAgICB2YWwgcmVuZGVyUmVzdWx0OiBUb29sUGtnQ29tcG9zZURzbFJlbmRlclJlc3VsdD8sCiAgICB2YWwgZXJyb3JNZXNzYWdlOiBTdHJpbmc/LAogICAgdmFsIGlzTG9hZGluZzogQm9vbGVhbiwKICAgIHZhbCBpc0Rpc3BhdGNoaW5nOiBCb29sZWFuLAogICAgdmFsIHVwZGF0ZWRBdE1pbGxpczogTG9uZwopCgpkYXRhIGNsYXNzIFRvb2xQa2dDb21wb3NlRHNsTGF5b3V0U25hcHNob3QoCiAgICB2YWwgcm91dGVJbnN0YW5jZUlkOiBTdHJpbmcsCiAgICB2YWwgbm9kZVBhdGg6IFN0cmluZywKICAgIHZhbCBub2RlVHlwZTogU3RyaW5nLAogICAgdmFsIG5vZGVLZXk6IFN0cmluZz8sCiAgICB2YWwgcm9vdFg6IEZsb2F0LAogICAgdmFsIHJvb3RZOiBGbG9hdCwKICAgIHZhbCB3aWR0aDogRmxvYXQsCiAgICB2YWwgaGVpZ2h0OiBGbG9hdCwKICAgIHZhbCB3aW5kb3dYOiBGbG9hdCwKICAgIHZhbCB3aW5kb3dZOiBGbG9hdCwKICAgIHZhbCB1cGRhdGVkQXRNaWxsaXM6IExvbmcKKQoKb2JqZWN0IFRvb2xQa2dDb21wb3NlRHNsRGVidWdTbmFwc2hvdFN0b3JlIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIERFQlVHX0RJUiA9ICJkZWJ1Zy9jb21wb3NlX2RzbF9kdW1wL2N1cnJlbnQiCiAgICBwcml2YXRlIHZhbCBsb2NrID0gQW55KCkKICAgIHByaXZhdGUgdmFsIHNuYXBzaG90cyA9IExpbmtlZEhhc2hNYXA8U3RyaW5nLCBUb29sUGtnQ29tcG9zZURzbERlYnVnU25hcHNob3Q+KCkKICAgIHByaXZhdGUgdmFsIGxheW91dFNuYXBzaG90cyA9CiAgICAgICAgTGlua2VkSGFzaE1hcDxTdHJpbmcsIExpbmtlZEhhc2hNYXA8U3RyaW5nLCBUb29sUGtnQ29tcG9zZURzbExheW91dFNuYXBzaG90Pj4oKQogICAgcHJpdmF0ZSB2YXIgYWN0aXZlUm91dGVJbnN0YW5jZUlkOiBTdHJpbmc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgbGF0ZXN0Um91dGVJbnN0YW5jZUlkOiBTdHJpbmc/ID0gbnVsbAoKICAgIGZ1biB1cGRhdGUoc25hcHNob3Q6IFRvb2xQa2dDb21wb3NlRHNsRGVidWdTbmFwc2hvdCkgewogICAgICAgIHN5bmNocm9uaXplZChsb2NrKSB7CiAgICAgICAgICAgIHNuYXBzaG90c1tzbmFwc2hvdC5yb3V0ZUluc3RhbmNlSWRdID0gc25hcHNob3QKICAgICAgICAgICAgdmFsIHZhbGlkTm9kZVBhdGhzID0gc25hcHNob3QucmVuZGVyUmVzdWx0Py5sZXQgeyBjb2xsZWN0Tm9kZVBhdGhzKGl0LnRyZWUsICIwIikgfQogICAgICAgICAgICBpZiAodmFsaWROb2RlUGF0aHMgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgbGF5b3V0U25hcHNob3RzW3NuYXBzaG90LnJvdXRlSW5zdGFuY2VJZF0/LmVudHJpZXM/LnJlbW92ZUFsbCB7IChub2RlUGF0aCwgXykgLT4KICAgICAgICAgICAgICAgICAgICBub2RlUGF0aCAhaW4gdmFsaWROb2RlUGF0aHMKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBhY3RpdmVSb3V0ZUluc3RhbmNlSWQgPSBzbmFwc2hvdC5yb3V0ZUluc3RhbmNlSWQKICAgICAgICAgICAgbGF0ZXN0Um91dGVJbnN0YW5jZUlkID0gc25hcHNob3Qucm91dGVJbnN0YW5jZUlkCiAgICAgICAgfQogICAgfQoKICAgIGZ1biB1cGRhdGVMYXlvdXQoc25hcHNob3Q6IFRvb2xQa2dDb21wb3NlRHNsTGF5b3V0U25hcHNob3QpIHsKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICB2YWwgcm91dGVMYXlvdXRzID0KICAgICAgICAgICAgICAgIGxheW91dFNuYXBzaG90cy5nZXRPclB1dChzbmFwc2hvdC5yb3V0ZUluc3RhbmNlSWQpIHsgTGlua2VkSGFzaE1hcCgpIH0KICAgICAgICAgICAgcm91dGVMYXlvdXRzW3NuYXBzaG90Lm5vZGVQYXRoXSA9IHNuYXBzaG90CiAgICAgICAgICAgIGFjdGl2ZVJvdXRlSW5zdGFuY2VJZCA9IHNuYXBzaG90LnJvdXRlSW5zdGFuY2VJZAogICAgICAgICAgICBsYXRlc3RSb3V0ZUluc3RhbmNlSWQgPSBzbmFwc2hvdC5yb3V0ZUluc3RhbmNlSWQKICAgICAgICB9CiAgICB9CgogICAgZnVuIGNsZWFyKHJvdXRlSW5zdGFuY2VJZDogU3RyaW5nKSB7CiAgICAgICAgc3luY2hyb25pemVkKGxvY2spIHsKICAgICAgICAgICAgc25hcHNob3RzLnJlbW92ZShyb3V0ZUluc3RhbmNlSWQpCiAgICAgICAgICAgIGxheW91dFNuYXBzaG90cy5yZW1vdmUocm91dGVJbnN0YW5jZUlkKQogICAgICAgICAgICBpZiAoYWN0aXZlUm91dGVJbnN0YW5jZUlkID09IHJvdXRlSW5zdGFuY2VJZCkgewogICAgICAgICAgICAgICAgYWN0aXZlUm91dGVJbnN0YW5jZUlkID0gc25hcHNob3RzLmtleXMubGFzdE9yTnVsbCgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGxhdGVzdFJvdXRlSW5zdGFuY2VJZCA9PSByb3V0ZUluc3RhbmNlSWQpIHsKICAgICAgICAgICAgICAgIGxhdGVzdFJvdXRlSW5zdGFuY2VJZCA9IHNuYXBzaG90cy5rZXlzLmxhc3RPck51bGwoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBkdW1wQ3VycmVudFNuYXBzaG90KGNvbnRleHQ6IENvbnRleHQpOiBGaWxlIHsKICAgICAgICB2YWwgZXh0ZXJuYWxGaWxlc0RpciA9IHJlcXVpcmVOb3ROdWxsKGNvbnRleHQuZ2V0RXh0ZXJuYWxGaWxlc0RpcihudWxsKSkgewogICAgICAgICAgICAiRXh0ZXJuYWwgZmlsZXMgZGlyZWN0b3J5IGlzIHVuYXZhaWxhYmxlIgogICAgICAgIH0KICAgICAgICB2YWwgb3V0cHV0RGlyID0KICAgICAgICAgICAgRmlsZShleHRlcm5hbEZpbGVzRGlyLCBERUJVR19ESVIpLmFwcGx5IHsKICAgICAgICAgICAgICAgIGRlbGV0ZVJlY3Vyc2l2ZWx5KCkKICAgICAgICAgICAgICAgIG1rZGlycygpCiAgICAgICAgICAgIH0KICAgICAgICB2YWwgc25hcHNob3QgPSBjdXJyZW50U25hcHNob3QoKQogICAgICAgIGlmIChzbmFwc2hvdCA9PSBudWxsKSB7CiAgICAgICAgICAgIHdyaXRlVGV4dCgKICAgICAgICAgICAgICAgIEZpbGUob3V0cHV0RGlyLCAiZHVtcF9tYW5pZmVzdC5qc29uIiksCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KAogICAgICAgICAgICAgICAgICAgIGxpbmtlZE1hcE9mKAogICAgICAgICAgICAgICAgICAgICAgICAic3VjY2VzcyIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICJlcnJvciIgdG8gIk5vIGFjdGl2ZSBjb21wb3NlX2RzbCBzbmFwc2hvdCBhdmFpbGFibGUiCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKS50b1N0cmluZygyKQogICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybiBvdXRwdXREaXIKICAgICAgICB9CgogICAgICAgIHZhbCB0aW1lc3RhbXAgPQogICAgICAgICAgICBTaW1wbGVEYXRlRm9ybWF0KCJ5eXl5LU1NLWRkIEhIOm1tOnNzLlNTUyIsIExvY2FsZS5ST09UKS5mb3JtYXQoRGF0ZShzbmFwc2hvdC51cGRhdGVkQXRNaWxsaXMpKQogICAgICAgIHZhbCBtZXRhZGF0YSA9CiAgICAgICAgICAgIGxpbmtlZE1hcE9mKAogICAgICAgICAgICAgICAgInN1Y2Nlc3MiIHRvIHRydWUsCiAgICAgICAgICAgICAgICAicm91dGVJbnN0YW5jZUlkIiB0byBzbmFwc2hvdC5yb3V0ZUluc3RhbmNlSWQsCiAgICAgICAgICAgICAgICAiY29udGFpbmVyUGFja2FnZU5hbWUiIHRvIHNuYXBzaG90LmNvbnRhaW5lclBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgInVpTW9kdWxlSWQiIHRvIHNuYXBzaG90LnVpTW9kdWxlSWQsCiAgICAgICAgICAgICAgICAiZmFsbGJhY2tUaXRsZSIgdG8gc25hcHNob3QuZmFsbGJhY2tUaXRsZSwKICAgICAgICAgICAgICAgICJzY3JpcHRTY3JlZW5QYXRoIiB0byBzbmFwc2hvdC5zY3JpcHRTY3JlZW5QYXRoLAogICAgICAgICAgICAgICAgInBoYXNlIiB0byBzbmFwc2hvdC5waGFzZSwKICAgICAgICAgICAgICAgICJpc0xvYWRpbmciIHRvIHNuYXBzaG90LmlzTG9hZGluZywKICAgICAgICAgICAgICAgICJpc0Rpc3BhdGNoaW5nIiB0byBzbmFwc2hvdC5pc0Rpc3BhdGNoaW5nLAogICAgICAgICAgICAgICAgImVycm9yTWVzc2FnZSIgdG8gc25hcHNob3QuZXJyb3JNZXNzYWdlLAogICAgICAgICAgICAgICAgInVwZGF0ZWRBdE1pbGxpcyIgdG8gc25hcHNob3QudXBkYXRlZEF0TWlsbGlzLAogICAgICAgICAgICAgICAgInVwZGF0ZWRBdCIgdG8gdGltZXN0YW1wCiAgICAgICAgICAgICkKICAgICAgICB3cml0ZVRleHQoRmlsZShvdXRwdXREaXIsICJkdW1wX21hbmlmZXN0Lmpzb24iKSwgSlNPTk9iamVjdChtZXRhZGF0YSBhcyBNYXA8KiwgKj4pLnRvU3RyaW5nKDIpKQoKICAgICAgICB2YWwgcm91dGVMYXlvdXRzID0KICAgICAgICAgICAgc3luY2hyb25pemVkKGxvY2spIHsKICAgICAgICAgICAgICAgIGxheW91dFNuYXBzaG90c1tzbmFwc2hvdC5yb3V0ZUluc3RhbmNlSWRdCiAgICAgICAgICAgICAgICAgICAgPy52YWx1ZXMKICAgICAgICAgICAgICAgICAgICA/LnNvcnRlZEJ5IHsgaXQubm9kZVBhdGggfQogICAgICAgICAgICAgICAgICAgIC5vckVtcHR5KCkKICAgICAgICAgICAgfQogICAgICAgIHdyaXRlVGV4dCgKICAgICAgICAgICAgRmlsZShvdXRwdXREaXIsICJsYXlvdXRfbm9kZXMuanNvbiIpLAogICAgICAgICAgICBKU09OQXJyYXkoKS5hcHBseSB7CiAgICAgICAgICAgICAgICByb3V0ZUxheW91dHMuZm9yRWFjaCB7IHB1dChsYXlvdXRUb0pzb24oaXQpKSB9CiAgICAgICAgICAgIH0udG9TdHJpbmcoMikKICAgICAgICApCiAgICAgICAgd3JpdGVUZXh0KEZpbGUob3V0cHV0RGlyLCAibGF5b3V0X25vZGVzLnR4dCIpLCBidWlsZExheW91dExpc3Rpbmcocm91dGVMYXlvdXRzKSkKCiAgICAgICAgc25hcHNob3Quc2NyaXB0U291cmNlPy5sZXQgeyB3cml0ZVRleHQoRmlsZShvdXRwdXREaXIsICJzb3VyY2Vfc2NyaXB0LmpzIiksIGl0KSB9CiAgICAgICAgc25hcHNob3QucmF3UmVuZGVyUmVzdWx0VGV4dD8ubGV0IHsgcmF3VGV4dCAtPgogICAgICAgICAgICB3cml0ZVRleHQoRmlsZShvdXRwdXREaXIsICJyYXdfcmVuZGVyX3Jlc3VsdC50eHQiKSwgcmF3VGV4dCkKICAgICAgICAgICAgcGFyc2VKc29uU3RyaW5nKHJhd1RleHQpPy5sZXQgeyBwYXJzZWRSYXcgLT4KICAgICAgICAgICAgICAgIHZhbCBwcmV0dHlSYXcgPQogICAgICAgICAgICAgICAgICAgIHdoZW4gKHBhcnNlZFJhdykgewogICAgICAgICAgICAgICAgICAgICAgICBpcyBKU09OT2JqZWN0IC0+IHBhcnNlZFJhdy50b1N0cmluZygyKQogICAgICAgICAgICAgICAgICAgICAgICBpcyBKU09OQXJyYXkgLT4gcGFyc2VkUmF3LnRvU3RyaW5nKDIpCiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gcGFyc2VkUmF3LnRvU3RyaW5nKCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB3cml0ZVRleHQoRmlsZShvdXRwdXREaXIsICJyYXdfcmVuZGVyX3Jlc3VsdC5qc29uIiksIHByZXR0eVJhdykKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc25hcHNob3QucmVuZGVyUmVzdWx0Py5sZXQgeyByZW5kZXJSZXN1bHQgLT4KICAgICAgICAgICAgd3JpdGVUZXh0KAogICAgICAgICAgICAgICAgRmlsZShvdXRwdXREaXIsICJwYXJzZWRfcmVuZGVyX3Jlc3VsdC5qc29uIiksCiAgICAgICAgICAgICAgICByZW5kZXJSZXN1bHRUb0pzb24ocmVuZGVyUmVzdWx0KS50b1N0cmluZygyKQogICAgICAgICAgICApCiAgICAgICAgICAgIHdyaXRlVGV4dChGaWxlKG91dHB1dERpciwgInN0YXRlLmpzb24iKSwgbWFwVG9Kc29uKHJlbmRlclJlc3VsdC5zdGF0ZSkudG9TdHJpbmcoMikpCiAgICAgICAgICAgIHdyaXRlVGV4dChGaWxlKG91dHB1dERpciwgIm1lbW8uanNvbiIpLCBtYXBUb0pzb24ocmVuZGVyUmVzdWx0Lm1lbW8pLnRvU3RyaW5nKDIpKQogICAgICAgICAgICB3cml0ZVRleHQoRmlsZShvdXRwdXREaXIsICJjb21wb3NlX3RyZWUuanNvbiIpLCBub2RlVG9Kc29uKHJlbmRlclJlc3VsdC50cmVlKS50b1N0cmluZygyKSkKICAgICAgICAgICAgd3JpdGVUZXh0KEZpbGUob3V0cHV0RGlyLCAiY29tcG9zZV90cmVlLnR4dCIpLCBidWlsZFJlYWRhYmxlVHJlZShyZW5kZXJSZXN1bHQudHJlZSkpCiAgICAgICAgICAgIHdyaXRlVGV4dCgKICAgICAgICAgICAgICAgIEZpbGUob3V0cHV0RGlyLCAiY29tcG9zZV9sYXlvdXRfdHJlZS50eHQiKSwKICAgICAgICAgICAgICAgIGJ1aWxkUmVhZGFibGVMYXlvdXRUcmVlKAogICAgICAgICAgICAgICAgICAgIG5vZGUgPSByZW5kZXJSZXN1bHQudHJlZSwKICAgICAgICAgICAgICAgICAgICBub2RlUGF0aCA9ICIwIiwKICAgICAgICAgICAgICAgICAgICBsYXlvdXRCeVBhdGggPSByb3V0ZUxheW91dHMuYXNzb2NpYXRlQnkgeyBpdC5ub2RlUGF0aCB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIHJldHVybiBvdXRwdXREaXIKICAgIH0KCiAgICBwcml2YXRlIGZ1biBjdXJyZW50U25hcHNob3QoKTogVG9vbFBrZ0NvbXBvc2VEc2xEZWJ1Z1NuYXBzaG90PyB7CiAgICAgICAgc3luY2hyb25pemVkKGxvY2spIHsKICAgICAgICAgICAgdmFsIGFjdGl2ZVNuYXBzaG90ID0gYWN0aXZlUm91dGVJbnN0YW5jZUlkPy5sZXQoc25hcHNob3RzOjpnZXQpCiAgICAgICAgICAgIGlmIChhY3RpdmVTbmFwc2hvdCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gYWN0aXZlU25hcHNob3QKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gbGF0ZXN0Um91dGVJbnN0YW5jZUlkPy5sZXQoc25hcHNob3RzOjpnZXQpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHdyaXRlVGV4dChmaWxlOiBGaWxlLCBjb250ZW50OiBTdHJpbmcpIHsKICAgICAgICBmaWxlLnBhcmVudEZpbGU/Lm1rZGlycygpCiAgICAgICAgZmlsZS53cml0ZVRleHQoY29udGVudCwgU3RhbmRhcmRDaGFyc2V0cy5VVEZfOCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBjb2xsZWN0Tm9kZVBhdGhzKAogICAgICAgIG5vZGU6IFRvb2xQa2dDb21wb3NlRHNsTm9kZSwKICAgICAgICBub2RlUGF0aDogU3RyaW5nCiAgICApOiBTZXQ8U3RyaW5nPiB7CiAgICAgICAgdmFsIHBhdGhzID0gTGlua2VkSGFzaFNldDxTdHJpbmc+KCkKICAgICAgICBjb2xsZWN0Tm9kZVBhdGhzSW50byhub2RlID0gbm9kZSwgbm9kZVBhdGggPSBub2RlUGF0aCwgc2luayA9IHBhdGhzKQogICAgICAgIHJldHVybiBwYXRocwogICAgfQoKICAgIHByaXZhdGUgZnVuIGNvbGxlY3ROb2RlUGF0aHNJbnRvKAogICAgICAgIG5vZGU6IFRvb2xQa2dDb21wb3NlRHNsTm9kZSwKICAgICAgICBub2RlUGF0aDogU3RyaW5nLAogICAgICAgIHNpbms6IE11dGFibGVTZXQ8U3RyaW5nPgogICAgKSB7CiAgICAgICAgc2luayArPSBub2RlUGF0aAogICAgICAgIG5vZGUuY2hpbGRyZW4uZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgY2hpbGQgLT4KICAgICAgICAgICAgY29sbGVjdE5vZGVQYXRoc0ludG8oCiAgICAgICAgICAgICAgICBub2RlID0gY2hpbGQsCiAgICAgICAgICAgICAgICBub2RlUGF0aCA9ICIkbm9kZVBhdGgvJGluZGV4IiwKICAgICAgICAgICAgICAgIHNpbmsgPSBzaW5rCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgbm9kZS5zbG90cy5mb3JFYWNoIHsgKHNsb3ROYW1lLCBzbG90Q2hpbGRyZW4pIC0+CiAgICAgICAgICAgIHNsb3RDaGlsZHJlbi5mb3JFYWNoSW5kZXhlZCB7IGluZGV4LCBjaGlsZCAtPgogICAgICAgICAgICAgICAgY29sbGVjdE5vZGVQYXRoc0ludG8oCiAgICAgICAgICAgICAgICAgICAgbm9kZSA9IGNoaWxkLAogICAgICAgICAgICAgICAgICAgIG5vZGVQYXRoID0gIiRub2RlUGF0aDokc2xvdE5hbWUvJGluZGV4IiwKICAgICAgICAgICAgICAgICAgICBzaW5rID0gc2luawogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBhcnNlSnNvblN0cmluZyhyYXc6IFN0cmluZyk6IEFueT8gewogICAgICAgIHZhbCB0cmltbWVkID0gcmF3LnRyaW0oKQogICAgICAgIGlmICh0cmltbWVkLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgICAgICByZXR1cm4gcnVuQ2F0Y2hpbmcgeyBKU09OVG9rZW5lcih0cmltbWVkKS5uZXh0VmFsdWUoKSB9LmdldE9yTnVsbCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVuZGVyUmVzdWx0VG9Kc29uKHJlbmRlclJlc3VsdDogVG9vbFBrZ0NvbXBvc2VEc2xSZW5kZXJSZXN1bHQpOiBKU09OT2JqZWN0IHsKICAgICAgICByZXR1cm4gSlNPTk9iamVjdCgKICAgICAgICAgICAgbGlua2VkTWFwT2YoCiAgICAgICAgICAgICAgICAidHJlZSIgdG8gbm9kZVRvSnNvbihyZW5kZXJSZXN1bHQudHJlZSksCiAgICAgICAgICAgICAgICAic3RhdGUiIHRvIG1hcFRvSnNvbihyZW5kZXJSZXN1bHQuc3RhdGUpLAogICAgICAgICAgICAgICAgIm1lbW8iIHRvIG1hcFRvSnNvbihyZW5kZXJSZXN1bHQubWVtbykKICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBub2RlVG9Kc29uKG5vZGU6IFRvb2xQa2dDb21wb3NlRHNsTm9kZSk6IEpTT05PYmplY3QgewogICAgICAgIHZhbCBqc29uID0gSlNPTk9iamVjdCgpCiAgICAgICAganNvbi5wdXQoInR5cGUiLCBub2RlLnR5cGUpCiAgICAgICAganNvbi5wdXQoInByb3BzIiwgbWFwVG9Kc29uKG5vZGUucHJvcHMpKQogICAgICAgIGpzb24ucHV0KCJjaGlsZHJlbiIsIEpTT05BcnJheSgpLmFwcGx5IHsgbm9kZS5jaGlsZHJlbi5mb3JFYWNoIHsgcHV0KG5vZGVUb0pzb24oaXQpKSB9IH0pCiAgICAgICAganNvbi5wdXQoCiAgICAgICAgICAgICJzbG90cyIsCiAgICAgICAgICAgIEpTT05PYmplY3QoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBub2RlLnNsb3RzLmZvckVhY2ggeyAoc2xvdE5hbWUsIHNsb3RDaGlsZHJlbikgLT4KICAgICAgICAgICAgICAgICAgICBwdXQoCiAgICAgICAgICAgICAgICAgICAgICAgIHNsb3ROYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBKU09OQXJyYXkoKS5hcHBseSB7IHNsb3RDaGlsZHJlbi5mb3JFYWNoIHsgcHV0KG5vZGVUb0pzb24oaXQpKSB9IH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICApCiAgICAgICAgcmV0dXJuIGpzb24KICAgIH0KCiAgICBwcml2YXRlIGZ1biBtYXBUb0pzb24obWFwOiBNYXA8U3RyaW5nLCBBbnk/Pik6IEpTT05PYmplY3QgewogICAgICAgIHJldHVybiBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgICAgICBtYXAuZm9yRWFjaCB7IChrZXksIHZhbHVlKSAtPgogICAgICAgICAgICAgICAgcHV0KGtleSwgdmFsdWVUb0pzb24odmFsdWUpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGxpc3RUb0pzb24obGlzdDogTGlzdDxBbnk/Pik6IEpTT05BcnJheSB7CiAgICAgICAgcmV0dXJuIEpTT05BcnJheSgpLmFwcGx5IHsKICAgICAgICAgICAgbGlzdC5mb3JFYWNoIHsgdmFsdWUgLT4KICAgICAgICAgICAgICAgIHB1dCh2YWx1ZVRvSnNvbih2YWx1ZSkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdmFsdWVUb0pzb24odmFsdWU6IEFueT8pOiBBbnk/IHsKICAgICAgICByZXR1cm4gd2hlbiAodmFsdWUpIHsKICAgICAgICAgICAgbnVsbCAtPiBKU09OT2JqZWN0Lk5VTEwKICAgICAgICAgICAgaXMgSlNPTk9iamVjdCAtPiB2YWx1ZQogICAgICAgICAgICBpcyBKU09OQXJyYXkgLT4gdmFsdWUKICAgICAgICAgICAgaXMgVG9vbFBrZ0NvbXBvc2VEc2xOb2RlIC0+IG5vZGVUb0pzb24odmFsdWUpCiAgICAgICAgICAgIGlzIE1hcDwqLCAqPiAtPiB7CiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgIHZhbHVlLmZvckVhY2ggeyAoa2V5LCBpdGVtVmFsdWUpIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHB1dChrZXk/LnRvU3RyaW5nKCkub3JFbXB0eSgpLCB2YWx1ZVRvSnNvbihpdGVtVmFsdWUpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBpcyBMaXN0PCo+IC0+IGxpc3RUb0pzb24odmFsdWUpCiAgICAgICAgICAgIGlzIEFycmF5PCo+IC0+IGxpc3RUb0pzb24odmFsdWUudG9MaXN0KCkpCiAgICAgICAgICAgIGlzIEJvb2xlYW4sIGlzIE51bWJlciwgaXMgU3RyaW5nIC0+IHZhbHVlCiAgICAgICAgICAgIGVsc2UgLT4gdmFsdWUudG9TdHJpbmcoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZFJlYWRhYmxlVHJlZShub2RlOiBUb29sUGtnQ29tcG9zZURzbE5vZGUpOiBTdHJpbmcgewogICAgICAgIHZhbCBsaW5lcyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgYXBwZW5kTm9kZShsaW5lcyA9IGxpbmVzLCBub2RlID0gbm9kZSwgaW5kZW50ID0gIiIpCiAgICAgICAgcmV0dXJuIGxpbmVzLmpvaW5Ub1N0cmluZyhzZXBhcmF0b3IgPSAiXG4iKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkUmVhZGFibGVMYXlvdXRUcmVlKAogICAgICAgIG5vZGU6IFRvb2xQa2dDb21wb3NlRHNsTm9kZSwKICAgICAgICBub2RlUGF0aDogU3RyaW5nLAogICAgICAgIGxheW91dEJ5UGF0aDogTWFwPFN0cmluZywgVG9vbFBrZ0NvbXBvc2VEc2xMYXlvdXRTbmFwc2hvdD4KICAgICk6IFN0cmluZyB7CiAgICAgICAgdmFsIGxpbmVzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKICAgICAgICBhcHBlbmRMYXlvdXROb2RlKAogICAgICAgICAgICBsaW5lcyA9IGxpbmVzLAogICAgICAgICAgICBub2RlID0gbm9kZSwKICAgICAgICAgICAgbm9kZVBhdGggPSBub2RlUGF0aCwKICAgICAgICAgICAgaW5kZW50ID0gIiIsCiAgICAgICAgICAgIGxheW91dEJ5UGF0aCA9IGxheW91dEJ5UGF0aAogICAgICAgICkKICAgICAgICByZXR1cm4gbGluZXMuam9pblRvU3RyaW5nKHNlcGFyYXRvciA9ICJcbiIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwZW5kTGF5b3V0Tm9kZSgKICAgICAgICBsaW5lczogTXV0YWJsZUxpc3Q8U3RyaW5nPiwKICAgICAgICBub2RlOiBUb29sUGtnQ29tcG9zZURzbE5vZGUsCiAgICAgICAgbm9kZVBhdGg6IFN0cmluZywKICAgICAgICBpbmRlbnQ6IFN0cmluZywKICAgICAgICBsYXlvdXRCeVBhdGg6IE1hcDxTdHJpbmcsIFRvb2xQa2dDb21wb3NlRHNsTGF5b3V0U25hcHNob3Q+CiAgICApIHsKICAgICAgICB2YWwgbGF5b3V0ID0gbGF5b3V0QnlQYXRoW25vZGVQYXRoXQogICAgICAgIHZhbCBsYXlvdXRTdW1tYXJ5ID0KICAgICAgICAgICAgaWYgKGxheW91dCA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAiIGxheW91dD08bWlzc2luZz4iCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAiIGxheW91dD1yb290KCR7bGF5b3V0LnJvb3RYLmZvcm1hdDIoKX0sICR7bGF5b3V0LnJvb3RZLmZvcm1hdDIoKX0pIHNpemUoJHtsYXlvdXQud2lkdGguZm9ybWF0MigpfSB4ICR7bGF5b3V0LmhlaWdodC5mb3JtYXQyKCl9KSIKICAgICAgICAgICAgfQogICAgICAgIHZhbCBrZXlTdW1tYXJ5ID0gbGF5b3V0Py5ub2RlS2V5Py50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfT8ubGV0IHsgIiBrZXk9JGl0IiB9Lm9yRW1wdHkoKQogICAgICAgIGxpbmVzICs9ICIkaW5kZW50LSBbJG5vZGVQYXRoXSAke25vZGUudHlwZX0ka2V5U3VtbWFyeSRsYXlvdXRTdW1tYXJ5IgogICAgICAgIG5vZGUuY2hpbGRyZW4uZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgY2hpbGQgLT4KICAgICAgICAgICAgYXBwZW5kTGF5b3V0Tm9kZSgKICAgICAgICAgICAgICAgIGxpbmVzID0gbGluZXMsCiAgICAgICAgICAgICAgICBub2RlID0gY2hpbGQsCiAgICAgICAgICAgICAgICBub2RlUGF0aCA9ICIkbm9kZVBhdGgvJGluZGV4IiwKICAgICAgICAgICAgICAgIGluZGVudCA9ICIkaW5kZW50ICAiLAogICAgICAgICAgICAgICAgbGF5b3V0QnlQYXRoID0gbGF5b3V0QnlQYXRoCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgbm9kZS5zbG90cy5mb3JFYWNoIHsgKHNsb3ROYW1lLCBzbG90Q2hpbGRyZW4pIC0+CiAgICAgICAgICAgIGxpbmVzICs9ICIkaW5kZW50ICBAJHNsb3ROYW1lIgogICAgICAgICAgICBzbG90Q2hpbGRyZW4uZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgY2hpbGQgLT4KICAgICAgICAgICAgICAgIGFwcGVuZExheW91dE5vZGUoCiAgICAgICAgICAgICAgICAgICAgbGluZXMgPSBsaW5lcywKICAgICAgICAgICAgICAgICAgICBub2RlID0gY2hpbGQsCiAgICAgICAgICAgICAgICAgICAgbm9kZVBhdGggPSAiJG5vZGVQYXRoOiRzbG90TmFtZS8kaW5kZXgiLAogICAgICAgICAgICAgICAgICAgIGluZGVudCA9ICIkaW5kZW50ICAgICIsCiAgICAgICAgICAgICAgICAgICAgbGF5b3V0QnlQYXRoID0gbGF5b3V0QnlQYXRoCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGRMYXlvdXRMaXN0aW5nKGxheW91dHM6IExpc3Q8VG9vbFBrZ0NvbXBvc2VEc2xMYXlvdXRTbmFwc2hvdD4pOiBTdHJpbmcgewogICAgICAgIGlmIChsYXlvdXRzLmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gIjxubyBsYXlvdXQgbm9kZXMgY2FwdHVyZWQ+IgogICAgICAgIH0KICAgICAgICByZXR1cm4gbGF5b3V0cy5qb2luVG9TdHJpbmcoc2VwYXJhdG9yID0gIlxuIikgeyBsYXlvdXQgLT4KICAgICAgICAgICAgYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgYXBwZW5kKCJbIikKICAgICAgICAgICAgICAgIGFwcGVuZChsYXlvdXQubm9kZVBhdGgpCiAgICAgICAgICAgICAgICBhcHBlbmQoIl0gIikKICAgICAgICAgICAgICAgIGFwcGVuZChsYXlvdXQubm9kZVR5cGUpCiAgICAgICAgICAgICAgICBsYXlvdXQubm9kZUtleT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0/LmxldCB7CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCIga2V5PSIpCiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKGl0KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYXBwZW5kKCIgcm9vdD0oIikKICAgICAgICAgICAgICAgIGFwcGVuZChsYXlvdXQucm9vdFguZm9ybWF0MigpKQogICAgICAgICAgICAgICAgYXBwZW5kKCIsICIpCiAgICAgICAgICAgICAgICBhcHBlbmQobGF5b3V0LnJvb3RZLmZvcm1hdDIoKSkKICAgICAgICAgICAgICAgIGFwcGVuZCgiKSIpCiAgICAgICAgICAgICAgICBhcHBlbmQoIiBzaXplPSgiKQogICAgICAgICAgICAgICAgYXBwZW5kKGxheW91dC53aWR0aC5mb3JtYXQyKCkpCiAgICAgICAgICAgICAgICBhcHBlbmQoIiB4ICIpCiAgICAgICAgICAgICAgICBhcHBlbmQobGF5b3V0LmhlaWdodC5mb3JtYXQyKCkpCiAgICAgICAgICAgICAgICBhcHBlbmQoIikiKQogICAgICAgICAgICAgICAgYXBwZW5kKCIgd2luZG93PSgiKQogICAgICAgICAgICAgICAgYXBwZW5kKGxheW91dC53aW5kb3dYLmZvcm1hdDIoKSkKICAgICAgICAgICAgICAgIGFwcGVuZCgiLCAiKQogICAgICAgICAgICAgICAgYXBwZW5kKGxheW91dC53aW5kb3dZLmZvcm1hdDIoKSkKICAgICAgICAgICAgICAgIGFwcGVuZCgiKSIpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwZW5kTm9kZSgKICAgICAgICBsaW5lczogTXV0YWJsZUxpc3Q8U3RyaW5nPiwKICAgICAgICBub2RlOiBUb29sUGtnQ29tcG9zZURzbE5vZGUsCiAgICAgICAgaW5kZW50OiBTdHJpbmcKICAgICkgewogICAgICAgIHZhbCBwcm9wc1N1bW1hcnkgPQogICAgICAgICAgICBpZiAobm9kZS5wcm9wcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICIiCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAiIHByb3BzPSR7bm9kZS5wcm9wcy5rZXlzLmpvaW5Ub1N0cmluZyhwcmVmaXggPSAiWyIsIHBvc3RmaXggPSAiXSIpfSIKICAgICAgICAgICAgfQogICAgICAgIGxpbmVzICs9ICIkaW5kZW50LSAke25vZGUudHlwZX0kcHJvcHNTdW1tYXJ5IgogICAgICAgIG5vZGUuY2hpbGRyZW4uZm9yRWFjaCB7IGNoaWxkIC0+CiAgICAgICAgICAgIGFwcGVuZE5vZGUobGluZXMgPSBsaW5lcywgbm9kZSA9IGNoaWxkLCBpbmRlbnQgPSAiJGluZGVudCAgIikKICAgICAgICB9CiAgICAgICAgbm9kZS5zbG90cy5mb3JFYWNoIHsgKHNsb3ROYW1lLCBzbG90Q2hpbGRyZW4pIC0+CiAgICAgICAgICAgIGxpbmVzICs9ICIkaW5kZW50ICBAJHNsb3ROYW1lIgogICAgICAgICAgICBzbG90Q2hpbGRyZW4uZm9yRWFjaCB7IGNoaWxkIC0+CiAgICAgICAgICAgICAgICBhcHBlbmROb2RlKGxpbmVzID0gbGluZXMsIG5vZGUgPSBjaGlsZCwgaW5kZW50ID0gIiRpbmRlbnQgICAgIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBsYXlvdXRUb0pzb24obGF5b3V0OiBUb29sUGtnQ29tcG9zZURzbExheW91dFNuYXBzaG90KTogSlNPTk9iamVjdCB7CiAgICAgICAgcmV0dXJuIEpTT05PYmplY3QoCiAgICAgICAgICAgIGxpbmtlZE1hcE9mKAogICAgICAgICAgICAgICAgInJvdXRlSW5zdGFuY2VJZCIgdG8gbGF5b3V0LnJvdXRlSW5zdGFuY2VJZCwKICAgICAgICAgICAgICAgICJub2RlUGF0aCIgdG8gbGF5b3V0Lm5vZGVQYXRoLAogICAgICAgICAgICAgICAgIm5vZGVUeXBlIiB0byBsYXlvdXQubm9kZVR5cGUsCiAgICAgICAgICAgICAgICAibm9kZUtleSIgdG8gbGF5b3V0Lm5vZGVLZXksCiAgICAgICAgICAgICAgICAicm9vdFgiIHRvIGxheW91dC5yb290WCwKICAgICAgICAgICAgICAgICJyb290WSIgdG8gbGF5b3V0LnJvb3RZLAogICAgICAgICAgICAgICAgIndpZHRoIiB0byBsYXlvdXQud2lkdGgsCiAgICAgICAgICAgICAgICAiaGVpZ2h0IiB0byBsYXlvdXQuaGVpZ2h0LAogICAgICAgICAgICAgICAgIndpbmRvd1giIHRvIGxheW91dC53aW5kb3dYLAogICAgICAgICAgICAgICAgIndpbmRvd1kiIHRvIGxheW91dC53aW5kb3dZLAogICAgICAgICAgICAgICAgInVwZGF0ZWRBdE1pbGxpcyIgdG8gbGF5b3V0LnVwZGF0ZWRBdE1pbGxpcwogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIEZsb2F0LmZvcm1hdDIoKTogU3RyaW5nID0gU3RyaW5nLmZvcm1hdChMb2NhbGUuUk9PVCwgIiUuMmYiLCB0aGlzKQp9Cg==
+package com.bslsjdk.operit.ui.common.composedsl
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgComposeDslNode
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgComposeDslRenderResult
+import org.json.JSONArray
+import org.json.JSONObject
+import org.json.JSONTokener
+import java.io.File
+import java.nio.charset.StandardCharsets
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.LinkedHashMap
+import java.util.Locale
+
+data class ToolPkgComposeDslDebugSnapshot(
+    val routeInstanceId: String,
+    val containerPackageName: String,
+    val uiModuleId: String,
+    val fallbackTitle: String,
+    val scriptScreenPath: String?,
+    val scriptSource: String?,
+    val phase: String,
+    val rawRenderResultText: String?,
+    val renderResult: ToolPkgComposeDslRenderResult?,
+    val errorMessage: String?,
+    val isLoading: Boolean,
+    val isDispatching: Boolean,
+    val updatedAtMillis: Long
+)
+
+data class ToolPkgComposeDslLayoutSnapshot(
+    val routeInstanceId: String,
+    val nodePath: String,
+    val nodeType: String,
+    val nodeKey: String?,
+    val rootX: Float,
+    val rootY: Float,
+    val width: Float,
+    val height: Float,
+    val windowX: Float,
+    val windowY: Float,
+    val updatedAtMillis: Long
+)
+
+object ToolPkgComposeDslDebugSnapshotStore {
+    private const val DEBUG_DIR = "debug/compose_dsl_dump/current"
+    private val lock = Any()
+    private val snapshots = LinkedHashMap<String, ToolPkgComposeDslDebugSnapshot>()
+    private val layoutSnapshots =
+        LinkedHashMap<String, LinkedHashMap<String, ToolPkgComposeDslLayoutSnapshot>>()
+    private var activeRouteInstanceId: String? = null
+    private var latestRouteInstanceId: String? = null
+
+    fun update(snapshot: ToolPkgComposeDslDebugSnapshot) {
+        synchronized(lock) {
+            snapshots[snapshot.routeInstanceId] = snapshot
+            val validNodePaths = snapshot.renderResult?.let { collectNodePaths(it.tree, "0") }
+            if (validNodePaths != null) {
+                layoutSnapshots[snapshot.routeInstanceId]?.entries?.removeAll { (nodePath, _) ->
+                    nodePath !in validNodePaths
+                }
+            }
+            activeRouteInstanceId = snapshot.routeInstanceId
+            latestRouteInstanceId = snapshot.routeInstanceId
+        }
+    }
+
+    fun updateLayout(snapshot: ToolPkgComposeDslLayoutSnapshot) {
+        synchronized(lock) {
+            val routeLayouts =
+                layoutSnapshots.getOrPut(snapshot.routeInstanceId) { LinkedHashMap() }
+            routeLayouts[snapshot.nodePath] = snapshot
+            activeRouteInstanceId = snapshot.routeInstanceId
+            latestRouteInstanceId = snapshot.routeInstanceId
+        }
+    }
+
+    fun clear(routeInstanceId: String) {
+        synchronized(lock) {
+            snapshots.remove(routeInstanceId)
+            layoutSnapshots.remove(routeInstanceId)
+            if (activeRouteInstanceId == routeInstanceId) {
+                activeRouteInstanceId = snapshots.keys.lastOrNull()
+            }
+            if (latestRouteInstanceId == routeInstanceId) {
+                latestRouteInstanceId = snapshots.keys.lastOrNull()
+            }
+        }
+    }
+
+    fun dumpCurrentSnapshot(context: Context): File {
+        val externalFilesDir = requireNotNull(context.getExternalFilesDir(null)) {
+            "External files directory is unavailable"
+        }
+        val outputDir =
+            File(externalFilesDir, DEBUG_DIR).apply {
+                deleteRecursively()
+                mkdirs()
+            }
+        val snapshot = currentSnapshot()
+        if (snapshot == null) {
+            writeText(
+                File(outputDir, "dump_manifest.json"),
+                JSONObject(
+                    linkedMapOf(
+                        "success" to false,
+                        "error" to "No active compose_dsl snapshot available"
+                    )
+                ).toString(2)
+            )
+            return outputDir
+        }
+
+        val timestamp =
+            SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.ROOT).format(Date(snapshot.updatedAtMillis))
+        val metadata =
+            linkedMapOf(
+                "success" to true,
+                "routeInstanceId" to snapshot.routeInstanceId,
+                "containerPackageName" to snapshot.containerPackageName,
+                "uiModuleId" to snapshot.uiModuleId,
+                "fallbackTitle" to snapshot.fallbackTitle,
+                "scriptScreenPath" to snapshot.scriptScreenPath,
+                "phase" to snapshot.phase,
+                "isLoading" to snapshot.isLoading,
+                "isDispatching" to snapshot.isDispatching,
+                "errorMessage" to snapshot.errorMessage,
+                "updatedAtMillis" to snapshot.updatedAtMillis,
+                "updatedAt" to timestamp
+            )
+        writeText(File(outputDir, "dump_manifest.json"), JSONObject(metadata as Map<*, *>).toString(2))
+
+        val routeLayouts =
+            synchronized(lock) {
+                layoutSnapshots[snapshot.routeInstanceId]
+                    ?.values
+                    ?.sortedBy { it.nodePath }
+                    .orEmpty()
+            }
+        writeText(
+            File(outputDir, "layout_nodes.json"),
+            JSONArray().apply {
+                routeLayouts.forEach { put(layoutToJson(it)) }
+            }.toString(2)
+        )
+        writeText(File(outputDir, "layout_nodes.txt"), buildLayoutListing(routeLayouts))
+
+        snapshot.scriptSource?.let { writeText(File(outputDir, "source_script.js"), it) }
+        snapshot.rawRenderResultText?.let { rawText ->
+            writeText(File(outputDir, "raw_render_result.txt"), rawText)
+            parseJsonString(rawText)?.let { parsedRaw ->
+                val prettyRaw =
+                    when (parsedRaw) {
+                        is JSONObject -> parsedRaw.toString(2)
+                        is JSONArray -> parsedRaw.toString(2)
+                        else -> parsedRaw.toString()
+                    }
+                writeText(File(outputDir, "raw_render_result.json"), prettyRaw)
+            }
+        }
+
+        snapshot.renderResult?.let { renderResult ->
+            writeText(
+                File(outputDir, "parsed_render_result.json"),
+                renderResultToJson(renderResult).toString(2)
+            )
+            writeText(File(outputDir, "state.json"), mapToJson(renderResult.state).toString(2))
+            writeText(File(outputDir, "memo.json"), mapToJson(renderResult.memo).toString(2))
+            writeText(File(outputDir, "compose_tree.json"), nodeToJson(renderResult.tree).toString(2))
+            writeText(File(outputDir, "compose_tree.txt"), buildReadableTree(renderResult.tree))
+            writeText(
+                File(outputDir, "compose_layout_tree.txt"),
+                buildReadableLayoutTree(
+                    node = renderResult.tree,
+                    nodePath = "0",
+                    layoutByPath = routeLayouts.associateBy { it.nodePath }
+                )
+            )
+        }
+
+        return outputDir
+    }
+
+    private fun currentSnapshot(): ToolPkgComposeDslDebugSnapshot? {
+        synchronized(lock) {
+            val activeSnapshot = activeRouteInstanceId?.let(snapshots::get)
+            if (activeSnapshot != null) {
+                return activeSnapshot
+            }
+            return latestRouteInstanceId?.let(snapshots::get)
+        }
+    }
+
+    private fun writeText(file: File, content: String) {
+        file.parentFile?.mkdirs()
+        file.writeText(content, StandardCharsets.UTF_8)
+    }
+
+    private fun collectNodePaths(
+        node: ToolPkgComposeDslNode,
+        nodePath: String
+    ): Set<String> {
+        val paths = LinkedHashSet<String>()
+        collectNodePathsInto(node = node, nodePath = nodePath, sink = paths)
+        return paths
+    }
+
+    private fun collectNodePathsInto(
+        node: ToolPkgComposeDslNode,
+        nodePath: String,
+        sink: MutableSet<String>
+    ) {
+        sink += nodePath
+        node.children.forEachIndexed { index, child ->
+            collectNodePathsInto(
+                node = child,
+                nodePath = "$nodePath/$index",
+                sink = sink
+            )
+        }
+        node.slots.forEach { (slotName, slotChildren) ->
+            slotChildren.forEachIndexed { index, child ->
+                collectNodePathsInto(
+                    node = child,
+                    nodePath = "$nodePath:$slotName/$index",
+                    sink = sink
+                )
+            }
+        }
+    }
+
+    private fun parseJsonString(raw: String): Any? {
+        val trimmed = raw.trim()
+        if (trimmed.isBlank()) {
+            return null
+        }
+        return runCatching { JSONTokener(trimmed).nextValue() }.getOrNull()
+    }
+
+    private fun renderResultToJson(renderResult: ToolPkgComposeDslRenderResult): JSONObject {
+        return JSONObject(
+            linkedMapOf(
+                "tree" to nodeToJson(renderResult.tree),
+                "state" to mapToJson(renderResult.state),
+                "memo" to mapToJson(renderResult.memo)
+            )
+        )
+    }
+
+    private fun nodeToJson(node: ToolPkgComposeDslNode): JSONObject {
+        val json = JSONObject()
+        json.put("type", node.type)
+        json.put("props", mapToJson(node.props))
+        json.put("children", JSONArray().apply { node.children.forEach { put(nodeToJson(it)) } })
+        json.put(
+            "slots",
+            JSONObject().apply {
+                node.slots.forEach { (slotName, slotChildren) ->
+                    put(
+                        slotName,
+                        JSONArray().apply { slotChildren.forEach { put(nodeToJson(it)) } }
+                    )
+                }
+            }
+        )
+        return json
+    }
+
+    private fun mapToJson(map: Map<String, Any?>): JSONObject {
+        return JSONObject().apply {
+            map.forEach { (key, value) ->
+                put(key, valueToJson(value))
+            }
+        }
+    }
+
+    private fun listToJson(list: List<Any?>): JSONArray {
+        return JSONArray().apply {
+            list.forEach { value ->
+                put(valueToJson(value))
+            }
+        }
+    }
+
+    private fun valueToJson(value: Any?): Any? {
+        return when (value) {
+            null -> JSONObject.NULL
+            is JSONObject -> value
+            is JSONArray -> value
+            is ToolPkgComposeDslNode -> nodeToJson(value)
+            is Map<*, *> -> {
+                JSONObject().apply {
+                    value.forEach { (key, itemValue) ->
+                        put(key?.toString().orEmpty(), valueToJson(itemValue))
+                    }
+                }
+            }
+            is List<*> -> listToJson(value)
+            is Array<*> -> listToJson(value.toList())
+            is Boolean, is Number, is String -> value
+            else -> value.toString()
+        }
+    }
+
+    private fun buildReadableTree(node: ToolPkgComposeDslNode): String {
+        val lines = mutableListOf<String>()
+        appendNode(lines = lines, node = node, indent = "")
+        return lines.joinToString(separator = "\n")
+    }
+
+    private fun buildReadableLayoutTree(
+        node: ToolPkgComposeDslNode,
+        nodePath: String,
+        layoutByPath: Map<String, ToolPkgComposeDslLayoutSnapshot>
+    ): String {
+        val lines = mutableListOf<String>()
+        appendLayoutNode(
+            lines = lines,
+            node = node,
+            nodePath = nodePath,
+            indent = "",
+            layoutByPath = layoutByPath
+        )
+        return lines.joinToString(separator = "\n")
+    }
+
+    private fun appendLayoutNode(
+        lines: MutableList<String>,
+        node: ToolPkgComposeDslNode,
+        nodePath: String,
+        indent: String,
+        layoutByPath: Map<String, ToolPkgComposeDslLayoutSnapshot>
+    ) {
+        val layout = layoutByPath[nodePath]
+        val layoutSummary =
+            if (layout == null) {
+                " layout=<missing>"
+            } else {
+                " layout=root(${layout.rootX.format2()}, ${layout.rootY.format2()}) size(${layout.width.format2()} x ${layout.height.format2()})"
+            }
+        val keySummary = layout?.nodeKey?.takeIf { it.isNotBlank() }?.let { " key=$it" }.orEmpty()
+        lines += "$indent- [$nodePath] ${node.type}$keySummary$layoutSummary"
+        node.children.forEachIndexed { index, child ->
+            appendLayoutNode(
+                lines = lines,
+                node = child,
+                nodePath = "$nodePath/$index",
+                indent = "$indent  ",
+                layoutByPath = layoutByPath
+            )
+        }
+        node.slots.forEach { (slotName, slotChildren) ->
+            lines += "$indent  @$slotName"
+            slotChildren.forEachIndexed { index, child ->
+                appendLayoutNode(
+                    lines = lines,
+                    node = child,
+                    nodePath = "$nodePath:$slotName/$index",
+                    indent = "$indent    ",
+                    layoutByPath = layoutByPath
+                )
+            }
+        }
+    }
+
+    private fun buildLayoutListing(layouts: List<ToolPkgComposeDslLayoutSnapshot>): String {
+        if (layouts.isEmpty()) {
+            return "<no layout nodes captured>"
+        }
+        return layouts.joinToString(separator = "\n") { layout ->
+            buildString {
+                append("[")
+                append(layout.nodePath)
+                append("] ")
+                append(layout.nodeType)
+                layout.nodeKey?.takeIf { it.isNotBlank() }?.let {
+                    append(" key=")
+                    append(it)
+                }
+                append(" root=(")
+                append(layout.rootX.format2())
+                append(", ")
+                append(layout.rootY.format2())
+                append(")")
+                append(" size=(")
+                append(layout.width.format2())
+                append(" x ")
+                append(layout.height.format2())
+                append(")")
+                append(" window=(")
+                append(layout.windowX.format2())
+                append(", ")
+                append(layout.windowY.format2())
+                append(")")
+            }
+        }
+    }
+
+    private fun appendNode(
+        lines: MutableList<String>,
+        node: ToolPkgComposeDslNode,
+        indent: String
+    ) {
+        val propsSummary =
+            if (node.props.isEmpty()) {
+                ""
+            } else {
+                " props=${node.props.keys.joinToString(prefix = "[", postfix = "]")}"
+            }
+        lines += "$indent- ${node.type}$propsSummary"
+        node.children.forEach { child ->
+            appendNode(lines = lines, node = child, indent = "$indent  ")
+        }
+        node.slots.forEach { (slotName, slotChildren) ->
+            lines += "$indent  @$slotName"
+            slotChildren.forEach { child ->
+                appendNode(lines = lines, node = child, indent = "$indent    ")
+            }
+        }
+    }
+
+    private fun layoutToJson(layout: ToolPkgComposeDslLayoutSnapshot): JSONObject {
+        return JSONObject(
+            linkedMapOf(
+                "routeInstanceId" to layout.routeInstanceId,
+                "nodePath" to layout.nodePath,
+                "nodeType" to layout.nodeType,
+                "nodeKey" to layout.nodeKey,
+                "rootX" to layout.rootX,
+                "rootY" to layout.rootY,
+                "width" to layout.width,
+                "height" to layout.height,
+                "windowX" to layout.windowX,
+                "windowY" to layout.windowY,
+                "updatedAtMillis" to layout.updatedAtMillis
+            )
+        )
+    }
+
+    private fun Float.format2(): String = String.format(Locale.ROOT, "%.2f", this)
+}

@@ -1,1 +1,134 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Qcm92aWRlclVzYWdlTm9ybWFsaXplcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuUHJvdmlkZXJVc2FnZVNuYXBzaG90CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5leGNlcHRpb25zLlVzZXJDYW5jZWxsYXRpb25FeGNlcHRpb24KaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5ydW5CbG9ja2luZwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5mYWlsCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKLyoqCiAqIOacrOWcsCBwcm92aWRlciDnlJ/miJDnu5PmnZ/pobrluo/lpZHnuqbmtYvor5XvvIjor4TlrqEgUDItM++8ie+8mgogKiDlj5bmtojlv4XpobvlnKjlt6XlhbfnvJPlhrLovazmjaIvZW1pdCDkuYvliY3liKTlrprigJTigJTlj5bmtojml7bml6Dlt6Xlhbfnu5PmnpwgZW1pdOOAgQogKiDml6AgdXNhZ2Ug5LiK5oql44CBQ0FOQ0VMTEVE77yIVXNlckNhbmNlbGxhdGlvbkV4Y2VwdGlvbu+8ieS8oOaSre+8mwogKiDlpLHotKXot6/lvoTlkIzmoLfnu53kuI0gZW1pdCDlt6XlhbfnvJPlhrLmiJbkuIrmiqUgdXNhZ2XjgIIKICovCmNsYXNzIExvY2FsR2VuZXJhdGlvbkVuZFRlc3QgewoKICAgIEBUZXN0CiAgICBmdW4gYGNhbmNlbCB0aHJvd3Mgd2l0aG91dCBlbWl0dGluZyB0b29sIHJlc3VsdCBvciByZXBvcnRpbmcgdXNhZ2VgKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIHVzYWdlUmVwb3J0cyA9IG11dGFibGVMaXN0T2Y8UHJvdmlkZXJVc2FnZVNuYXBzaG90PigpCiAgICAgICAgdmFsIHJlcG9ydGVyID0gTG9jYWxVc2FnZVJlcG9ydGVyKFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLlNPVVJDRV9MTEFNQSkgeyB1c2FnZSwgYXR0ZW1wdCAtPgogICAgICAgICAgICBhc3NlcnRFcXVhbHMoMSwgYXR0ZW1wdCkKICAgICAgICAgICAgdXNhZ2VSZXBvcnRzLmFkZCh1c2FnZSkKICAgICAgICB9CiAgICAgICAgdmFyIHRvb2xFbWl0dGVkID0gZmFsc2UKICAgICAgICB0cnkgewogICAgICAgICAgICBMb2NhbEdlbmVyYXRpb25FbmQuZW5kKAogICAgICAgICAgICAgICAgY2FuY2VsbGVkID0gdHJ1ZSwKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgIGlucHV0VG9rZW5zID0gMzAwLAogICAgICAgICAgICAgICAgb3V0cHV0VG9rZW5zID0gMTIsCiAgICAgICAgICAgICAgICB1c2FnZVJlcG9ydGVyID0gcmVwb3J0ZXIsCiAgICAgICAgICAgICAgICBjYW5jZWxNZXNzYWdlID0gImNhbmNlbGxlZCBieSB1c2VyIiwKICAgICAgICAgICAgICAgIGVtaXRUb29sUmVzdWx0ID0geyB0b29sRW1pdHRlZCA9IHRydWUgfSwKICAgICAgICAgICAgICAgIGZhaWxXaXRoID0geyBmYWlsKCJjYW5jZWwgcGF0aCBtdXN0IG5vdCByZWFjaCBmYWlsV2l0aCIpIH0sCiAgICAgICAgICAgICkKICAgICAgICAgICAgZmFpbCgiY2FuY2VsbGF0aW9uIG11c3QgcHJvcGFnYXRlIikKICAgICAgICB9IGNhdGNoIChlOiBVc2VyQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGFzc2VydEVxdWFscygiY2FuY2VsbGVkIGJ5IHVzZXIiLCBlLm1lc3NhZ2UpCiAgICAgICAgfQogICAgICAgIC8vIOWPlua2iOaXtue7neS4jSBlbWl0IOS4jeWujOaVtOeahOW3peWFtyBYTUwKICAgICAgICBhc3NlcnRGYWxzZSgidG9vbCBidWZmZXIgbXVzdCBub3QgYmUgZW1pdHRlZCBvbiBjYW5jZWwiLCB0b29sRW1pdHRlZCkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgdXNhZ2VSZXBvcnRzLnNpemUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgc3VjY2VzcyBlbWl0cyB0b29sIHJlc3VsdCBhbmQgcmVwb3J0cyB1c2FnZSB3aXRob3V0IHRocm93aW5nYCgpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCB1c2FnZVJlcG9ydHMgPSBtdXRhYmxlTGlzdE9mPFByb3ZpZGVyVXNhZ2VTbmFwc2hvdD4oKQogICAgICAgIHZhbCByZXBvcnRlciA9IExvY2FsVXNhZ2VSZXBvcnRlcihQcm92aWRlclVzYWdlTm9ybWFsaXplci5TT1VSQ0VfTU5OKSB7IHVzYWdlLCBfIC0+IHVzYWdlUmVwb3J0cy5hZGQodXNhZ2UpIH0KICAgICAgICB2YXIgdG9vbEVtaXR0ZWQgPSBmYWxzZQogICAgICAgIExvY2FsR2VuZXJhdGlvbkVuZC5lbmQoCiAgICAgICAgICAgIGNhbmNlbGxlZCA9IGZhbHNlLAogICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZSwKICAgICAgICAgICAgaW5wdXRUb2tlbnMgPSAxMDAsCiAgICAgICAgICAgIG91dHB1dFRva2VucyA9IDMwLAogICAgICAgICAgICB1c2FnZVJlcG9ydGVyID0gcmVwb3J0ZXIsCiAgICAgICAgICAgIGNhbmNlbE1lc3NhZ2UgPSAiY2FuY2VsbGVkIiwKICAgICAgICAgICAgZW1pdFRvb2xSZXN1bHQgPSB7IHRvb2xFbWl0dGVkID0gdHJ1ZSB9LAogICAgICAgICAgICBmYWlsV2l0aCA9IHsgZmFpbCgic3VjY2VzcyBwYXRoIG11c3Qgbm90IGZhaWwiKSB9LAogICAgICAgICkKICAgICAgICBhc3NlcnRUcnVlKCJ0b29sIHJlc3VsdCBtdXN0IGJlIGVtaXR0ZWQgd2hlbiBub3QgY2FuY2VsbGVkIiwgdG9vbEVtaXR0ZWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEsIHVzYWdlUmVwb3J0cy5zaXplKQogICAgICAgIGFzc2VydEVxdWFscygxMDBMLCB1c2FnZVJlcG9ydHNbMF0udW5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMzBMLCB1c2FnZVJlcG9ydHNbMF0ub3V0cHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGZhaWx1cmUgZmFpbHMgd2l0aG91dCBlbWl0dGluZyB0b29sIHJlc3VsdCBvciByZXBvcnRpbmcgdXNhZ2VgKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIHVzYWdlUmVwb3J0cyA9IG11dGFibGVMaXN0T2Y8UHJvdmlkZXJVc2FnZVNuYXBzaG90PigpCiAgICAgICAgdmFsIHJlcG9ydGVyID0gTG9jYWxVc2FnZVJlcG9ydGVyKFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLlNPVVJDRV9MTEFNQSkgeyB1c2FnZSwgXyAtPiB1c2FnZVJlcG9ydHMuYWRkKHVzYWdlKSB9CiAgICAgICAgdmFyIHRvb2xFbWl0dGVkID0gZmFsc2UKICAgICAgICB0cnkgewogICAgICAgICAgICBMb2NhbEdlbmVyYXRpb25FbmQuZW5kKAogICAgICAgICAgICAgICAgY2FuY2VsbGVkID0gZmFsc2UsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICBpbnB1dFRva2VucyA9IDIwMCwKICAgICAgICAgICAgICAgIG91dHB1dFRva2VucyA9IDUsCiAgICAgICAgICAgICAgICB1c2FnZVJlcG9ydGVyID0gcmVwb3J0ZXIsCiAgICAgICAgICAgICAgICBjYW5jZWxNZXNzYWdlID0gImNhbmNlbGxlZCIsCiAgICAgICAgICAgICAgICBlbWl0VG9vbFJlc3VsdCA9IHsgdG9vbEVtaXR0ZWQgPSB0cnVlIH0sCiAgICAgICAgICAgICAgICBmYWlsV2l0aCA9IHsgdGhyb3cgSU9FeGNlcHRpb24oImluZmVyZW5jZSBmYWlsZWQiKSB9LAogICAgICAgICAgICApCiAgICAgICAgICAgIGZhaWwoImZhaWx1cmUgbXVzdCBwcm9wYWdhdGUiKQogICAgICAgIH0gY2F0Y2ggKGU6IElPRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGFzc2VydEVxdWFscygiaW5mZXJlbmNlIGZhaWxlZCIsIGUubWVzc2FnZSkKICAgICAgICB9CiAgICAgICAgLy8g5aSx6LSl6Lev5b6E57ud5LiN6L2s5o2iL2VtaXQg5LiN5a6M5pW055qE5bel5YW3IFhNTAogICAgICAgIGFzc2VydEZhbHNlKCJ0b29sIGJ1ZmZlciBtdXN0IG5vdCBiZSBlbWl0dGVkIG9uIGZhaWx1cmUiLCB0b29sRW1pdHRlZCkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgdXNhZ2VSZXBvcnRzLnNpemUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZmFpbHVyZSBuZXZlciBlbWl0cyB0b29sIHJlc3VsdCBldmVuIGlmIGZhaWxXaXRoIHJldHVybnMgbm9ybWFsbHlgKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIHVzYWdlUmVwb3J0cyA9IG11dGFibGVMaXN0T2Y8UHJvdmlkZXJVc2FnZVNuYXBzaG90PigpCiAgICAgICAgdmFsIHJlcG9ydGVyID0gTG9jYWxVc2FnZVJlcG9ydGVyKFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLlNPVVJDRV9NTk4pIHsgdXNhZ2UsIF8gLT4gdXNhZ2VSZXBvcnRzLmFkZCh1c2FnZSkgfQogICAgICAgIHZhciB0b29sRW1pdHRlZCA9IGZhbHNlCiAgICAgICAgTG9jYWxHZW5lcmF0aW9uRW5kLmVuZCgKICAgICAgICAgICAgY2FuY2VsbGVkID0gZmFsc2UsCiAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgaW5wdXRUb2tlbnMgPSA4MCwKICAgICAgICAgICAgb3V0cHV0VG9rZW5zID0gMiwKICAgICAgICAgICAgdXNhZ2VSZXBvcnRlciA9IHJlcG9ydGVyLAogICAgICAgICAgICBjYW5jZWxNZXNzYWdlID0gImNhbmNlbGxlZCIsCiAgICAgICAgICAgIGVtaXRUb29sUmVzdWx0ID0geyB0b29sRW1pdHRlZCA9IHRydWUgfSwKICAgICAgICAgICAgZmFpbFdpdGggPSB7fSwKICAgICAgICApCiAgICAgICAgLy8gZmFpbFdpdGgg5q2j5bi46L+U5Zue77yI5pyq5oqb5byC5bi477yJ5pe277yM5aSx6LSl6Lev5b6E5Lmf5b+F6aG75bCx5q2k57uT5p2f77yM57ud5LiN6JC95YWlIGVtaXQKICAgICAgICBhc3NlcnRGYWxzZSgidG9vbCBidWZmZXIgbXVzdCBuZXZlciBiZSBlbWl0dGVkIG9uIGZhaWx1cmUiLCB0b29sRW1pdHRlZCkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgdXNhZ2VSZXBvcnRzLnNpemUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdXNhZ2UgY2FsbGJhY2sgZmFpbHVyZSBjYW5ub3QgbWFzayBzdWNjZXNzZnVsIG91dHB1dGAoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgcmVwb3J0ZXIgPSBMb2NhbFVzYWdlUmVwb3J0ZXIoUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIuU09VUkNFX0xMQU1BKSB7IF8sIF8gLT4KICAgICAgICAgICAgdGhyb3cgSU9FeGNlcHRpb24oImxlZGdlciB1bmF2YWlsYWJsZSIpCiAgICAgICAgfQogICAgICAgIHZhciB0b29sRW1pdHRlZCA9IGZhbHNlCiAgICAgICAgTG9jYWxHZW5lcmF0aW9uRW5kLmVuZCgKICAgICAgICAgICAgY2FuY2VsbGVkID0gZmFsc2UsCiAgICAgICAgICAgIHN1Y2Nlc3MgPSB0cnVlLAogICAgICAgICAgICB1c2FnZVJlcG9ydGVyID0gcmVwb3J0ZXIsCiAgICAgICAgICAgIGlucHV0VG9rZW5zID0gMTAsCiAgICAgICAgICAgIG91dHB1dFRva2VucyA9IDIsCiAgICAgICAgICAgIGNhbmNlbE1lc3NhZ2UgPSAiY2FuY2VsbGVkIiwKICAgICAgICAgICAgZW1pdFRvb2xSZXN1bHQgPSB7IHRvb2xFbWl0dGVkID0gdHJ1ZSB9LAogICAgICAgICAgICBmYWlsV2l0aCA9IHsgZmFpbCgic3VjY2VzcyBtdXN0IG5vdCBmYWlsIikgfSwKICAgICAgICApCiAgICAgICAgYXNzZXJ0VHJ1ZSh0b29sRW1pdHRlZCkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.stats.ProviderUsageNormalizer
+import com.bslsjdk.operit.data.stats.ProviderUsageSnapshot
+import com.bslsjdk.operit.util.exceptions.UserCancellationException
+import java.io.IOException
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Assert.fail
+import org.junit.Test
+
+/**
+ * 本地 provider 生成结束顺序契约测试（评审 P2-3）：
+ * 取消必须在工具缓冲转换/emit 之前判定——取消时无工具结果 emit、
+ * 无 usage 上报、CANCELLED（UserCancellationException）传播；
+ * 失败路径同样绝不 emit 工具缓冲或上报 usage。
+ */
+class LocalGenerationEndTest {
+
+    @Test
+    fun `cancel throws without emitting tool result or reporting usage`() = runBlocking {
+        val usageReports = mutableListOf<ProviderUsageSnapshot>()
+        val reporter = LocalUsageReporter(ProviderUsageNormalizer.SOURCE_LLAMA) { usage, attempt ->
+            assertEquals(1, attempt)
+            usageReports.add(usage)
+        }
+        var toolEmitted = false
+        try {
+            LocalGenerationEnd.end(
+                cancelled = true,
+                success = false,
+                inputTokens = 300,
+                outputTokens = 12,
+                usageReporter = reporter,
+                cancelMessage = "cancelled by user",
+                emitToolResult = { toolEmitted = true },
+                failWith = { fail("cancel path must not reach failWith") },
+            )
+            fail("cancellation must propagate")
+        } catch (e: UserCancellationException) {
+            assertEquals("cancelled by user", e.message)
+        }
+        // 取消时绝不 emit 不完整的工具 XML
+        assertFalse("tool buffer must not be emitted on cancel", toolEmitted)
+        assertEquals(0, usageReports.size)
+    }
+
+    @Test
+    fun `success emits tool result and reports usage without throwing`() = runBlocking {
+        val usageReports = mutableListOf<ProviderUsageSnapshot>()
+        val reporter = LocalUsageReporter(ProviderUsageNormalizer.SOURCE_MNN) { usage, _ -> usageReports.add(usage) }
+        var toolEmitted = false
+        LocalGenerationEnd.end(
+            cancelled = false,
+            success = true,
+            inputTokens = 100,
+            outputTokens = 30,
+            usageReporter = reporter,
+            cancelMessage = "cancelled",
+            emitToolResult = { toolEmitted = true },
+            failWith = { fail("success path must not fail") },
+        )
+        assertTrue("tool result must be emitted when not cancelled", toolEmitted)
+        assertEquals(1, usageReports.size)
+        assertEquals(100L, usageReports[0].uncachedInputTokens)
+        assertEquals(30L, usageReports[0].outputTokens)
+    }
+
+    @Test
+    fun `failure fails without emitting tool result or reporting usage`() = runBlocking {
+        val usageReports = mutableListOf<ProviderUsageSnapshot>()
+        val reporter = LocalUsageReporter(ProviderUsageNormalizer.SOURCE_LLAMA) { usage, _ -> usageReports.add(usage) }
+        var toolEmitted = false
+        try {
+            LocalGenerationEnd.end(
+                cancelled = false,
+                success = false,
+                inputTokens = 200,
+                outputTokens = 5,
+                usageReporter = reporter,
+                cancelMessage = "cancelled",
+                emitToolResult = { toolEmitted = true },
+                failWith = { throw IOException("inference failed") },
+            )
+            fail("failure must propagate")
+        } catch (e: IOException) {
+            assertEquals("inference failed", e.message)
+        }
+        // 失败路径绝不转换/emit 不完整的工具 XML
+        assertFalse("tool buffer must not be emitted on failure", toolEmitted)
+        assertEquals(0, usageReports.size)
+    }
+
+    @Test
+    fun `failure never emits tool result even if failWith returns normally`() = runBlocking {
+        val usageReports = mutableListOf<ProviderUsageSnapshot>()
+        val reporter = LocalUsageReporter(ProviderUsageNormalizer.SOURCE_MNN) { usage, _ -> usageReports.add(usage) }
+        var toolEmitted = false
+        LocalGenerationEnd.end(
+            cancelled = false,
+            success = false,
+            inputTokens = 80,
+            outputTokens = 2,
+            usageReporter = reporter,
+            cancelMessage = "cancelled",
+            emitToolResult = { toolEmitted = true },
+            failWith = {},
+        )
+        // failWith 正常返回（未抛异常）时，失败路径也必须就此结束，绝不落入 emit
+        assertFalse("tool buffer must never be emitted on failure", toolEmitted)
+        assertEquals(0, usageReports.size)
+    }
+
+    @Test
+    fun `usage callback failure cannot mask successful output`() = runBlocking {
+        val reporter = LocalUsageReporter(ProviderUsageNormalizer.SOURCE_LLAMA) { _, _ ->
+            throw IOException("ledger unavailable")
+        }
+        var toolEmitted = false
+        LocalGenerationEnd.end(
+            cancelled = false,
+            success = true,
+            usageReporter = reporter,
+            inputTokens = 10,
+            outputTokens = 2,
+            cancelMessage = "cancelled",
+            emitToolResult = { toolEmitted = true },
+            failWith = { fail("success must not fail") },
+        )
+        assertTrue(toolEmitted)
+    }
+}

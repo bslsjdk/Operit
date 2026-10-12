@@ -1,1 +1,48 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLmJ1aWxkQWN0aXZlUHJvbXB0SG9va01ldGFkYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdEhvb2tDb250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdEhvb2tSZWdpc3RyeQoKLyoqCiAqIFV0aWxpdHkgY2xhc3MgZm9yIHByb2Nlc3NpbmcgdXNlciBpbnB1dAogKi8Kb2JqZWN0IElucHV0UHJvY2Vzc29yIHsKICAgIAogICAgLyoqCiAgICAgKiBQcm9jZXNzIHVzZXIgaW5wdXQgd2l0aCBhIHNtYWxsIGRlbGF5IHRvIHNob3cgcHJvY2Vzc2luZyBmZWVkYmFjawogICAgICogCiAgICAgKiBAcGFyYW0gaW5wdXQgVGhlIGlucHV0IHRleHQgdG8gcHJvY2VzcwogICAgICogQHJldHVybiBUaGUgcHJvY2Vzc2VkIGlucHV0IHRleHQKICAgICAqLwogICAgc3VzcGVuZCBmdW4gcHJvY2Vzc1VzZXJJbnB1dCgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGlucHV0OiBTdHJpbmcsCiAgICAgICAgY2hhdElkOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICByb2xlQ2FyZElkOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICBvbkhvb2tUaW1lb3V0OiAoKFN0cmluZykgLT4gVW5pdCk/ID0gbnVsbAogICAgKTogU3RyaW5nIHsKICAgICAgICB2YWwgYWN0aXZlUHJvbXB0TWV0YWRhdGEgPSBidWlsZEFjdGl2ZVByb21wdEhvb2tNZXRhZGF0YShjb250ZXh0LCBjaGF0SWQsIHJvbGVDYXJkSWQpCiAgICAgICAgdmFsIGJlZm9yZUNvbnRleHQgPQogICAgICAgICAgICBQcm9tcHRIb29rUmVnaXN0cnkuZGlzcGF0Y2hQcm9tcHRJbnB1dEhvb2tzKAogICAgICAgICAgICAgICAgUHJvbXB0SG9va0NvbnRleHQoCiAgICAgICAgICAgICAgICAgICAgc3RhZ2UgPSAiYmVmb3JlX3Byb2Nlc3MiLAogICAgICAgICAgICAgICAgICAgIGNoYXRJZCA9IGNoYXRJZCwKICAgICAgICAgICAgICAgICAgICByYXdJbnB1dCA9IGlucHV0LAogICAgICAgICAgICAgICAgICAgIHByb2Nlc3NlZElucHV0ID0gaW5wdXQsCiAgICAgICAgICAgICAgICAgICAgbWV0YWRhdGEgPSBhY3RpdmVQcm9tcHRNZXRhZGF0YSwKICAgICAgICAgICAgICAgICAgICBvbkhvb2tUaW1lb3V0ID0gb25Ib29rVGltZW91dAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgdmFsIHByb2Nlc3NlZElucHV0ID0gYmVmb3JlQ29udGV4dC5wcm9jZXNzZWRJbnB1dCA/OiBiZWZvcmVDb250ZXh0LnJhd0lucHV0ID86IGlucHV0CiAgICAgICAgdmFsIGFmdGVyQ29udGV4dCA9CiAgICAgICAgICAgIFByb21wdEhvb2tSZWdpc3RyeS5kaXNwYXRjaFByb21wdElucHV0SG9va3MoCiAgICAgICAgICAgICAgICBiZWZvcmVDb250ZXh0LmNvcHkoCiAgICAgICAgICAgICAgICAgICAgc3RhZ2UgPSAiYWZ0ZXJfcHJvY2VzcyIsCiAgICAgICAgICAgICAgICAgICAgcHJvY2Vzc2VkSW5wdXQgPSBwcm9jZXNzZWRJbnB1dAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgcmV0dXJuIGFmdGVyQ29udGV4dC5wcm9jZXNzZWRJbnB1dCA/OiBwcm9jZXNzZWRJbnB1dAogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.enhance
+
+import android.content.Context
+import com.bslsjdk.operit.core.chat.hooks.buildActivePromptHookMetadata
+import com.bslsjdk.operit.core.chat.hooks.PromptHookContext
+import com.bslsjdk.operit.core.chat.hooks.PromptHookRegistry
+
+/**
+ * Utility class for processing user input
+ */
+object InputProcessor {
+    
+    /**
+     * Process user input with a small delay to show processing feedback
+     * 
+     * @param input The input text to process
+     * @return The processed input text
+     */
+    suspend fun processUserInput(
+        context: Context,
+        input: String,
+        chatId: String? = null,
+        roleCardId: String? = null,
+        onHookTimeout: ((String) -> Unit)? = null
+    ): String {
+        val activePromptMetadata = buildActivePromptHookMetadata(context, chatId, roleCardId)
+        val beforeContext =
+            PromptHookRegistry.dispatchPromptInputHooks(
+                PromptHookContext(
+                    stage = "before_process",
+                    chatId = chatId,
+                    rawInput = input,
+                    processedInput = input,
+                    metadata = activePromptMetadata,
+                    onHookTimeout = onHookTimeout
+                )
+            )
+        val processedInput = beforeContext.processedInput ?: beforeContext.rawInput ?: input
+        val afterContext =
+            PromptHookRegistry.dispatchPromptInputHooks(
+                beforeContext.copy(
+                    stage = "after_process",
+                    processedInput = processedInput
+                )
+            )
+        return afterContext.processedInput ?: processedInput
+    }
+}

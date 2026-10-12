@@ -1,1 +1,130 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLmh0dHAuYnJpZGdlCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5pbnRlZ3JhdGlvbnMuaHR0cC5XZWJJbnB1dFNldHRpbmdzU3RhdGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5pbnRlZ3JhdGlvbnMuaHR0cC5XZWJVcGRhdGVJbnB1dFNldHRpbmdzUmVxdWVzdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnNlcnZpY2VzLkNoYXRTZXJ2aWNlQ29yZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLnBlcm1pc3Npb25zLlBlcm1pc3Npb25MZXZlbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLnBlcm1pc3Npb25zLlRvb2xQZXJtaXNzaW9uU3lzdGVtCmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CgppbnRlcm5hbCBjbGFzcyBXZWJDaGF0SW5wdXRTZXR0aW5nc0JyaWRnZSgKICAgIHByaXZhdGUgdmFsIGFwcENvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBjb3JlOiBDaGF0U2VydmljZUNvcmUKKSB7CiAgICBzdXNwZW5kIGZ1biByZXNvbHZlU3RhdGUoKTogV2ViSW5wdXRTZXR0aW5nc1N0YXRlIHsKICAgICAgICB2YWwgYXBpQ29uZmlnRGVsZWdhdGUgPSBjb3JlLmdldEFwaUNvbmZpZ0RlbGVnYXRlKCkKICAgICAgICB2YWwgcGVybWlzc2lvbkxldmVsID0gY29yZS5nZXRVaVN0YXRlRGVsZWdhdGUoKS5tYXN0ZXJQZXJtaXNzaW9uTGV2ZWwuZmlyc3QoKQogICAgICAgIHZhbCBjdXJyZW50V2luZG93VG9rZW5zID0gY29yZS5jdXJyZW50V2luZG93U2l6ZUZsb3cuZmlyc3QoKQogICAgICAgIHZhbCBiYXNlQ29udGV4dExlbmd0aEsgPSBhcGlDb25maWdEZWxlZ2F0ZS5lZmZlY3RpdmVCYXNlQ29udGV4dExlbmd0aC5maXJzdCgpCiAgICAgICAgdmFsIG1heENvbnRleHRMZW5ndGhLID0gYXBpQ29uZmlnRGVsZWdhdGUuZWZmZWN0aXZlTWF4Q29udGV4dExlbmd0aFNldHRpbmcuZmlyc3QoKQogICAgICAgIHZhbCBhY3RpdmVDb250ZXh0TGVuZ3RoSyA9IGFwaUNvbmZpZ0RlbGVnYXRlLmVmZmVjdGl2ZUNvbnRleHRMZW5ndGguZmlyc3QoKQogICAgICAgIHJldHVybiBXZWJJbnB1dFNldHRpbmdzU3RhdGUoCiAgICAgICAgICAgIGVuYWJsZVRoaW5raW5nTW9kZSA9IGFwaUNvbmZpZ0RlbGVnYXRlLmVuYWJsZVRoaW5raW5nTW9kZS5maXJzdCgpLAogICAgICAgICAgICB0aGlua2luZ09wdGlvbklkID0gYXBpQ29uZmlnRGVsZWdhdGUudGhpbmtpbmdPcHRpb25JZC5maXJzdCgpLAogICAgICAgICAgICBlbmFibGVNZW1vcnlBdXRvVXBkYXRlID0gYXBpQ29uZmlnRGVsZWdhdGUuZW5hYmxlTWVtb3J5QXV0b1VwZGF0ZS5maXJzdCgpLAogICAgICAgICAgICBlbmFibGVBdXRvUmVhZCA9IGFwaUNvbmZpZ0RlbGVnYXRlLmVuYWJsZUF1dG9SZWFkLmZpcnN0KCksCiAgICAgICAgICAgIGVuYWJsZU1heENvbnRleHRNb2RlID0gYXBpQ29uZmlnRGVsZWdhdGUuZWZmZWN0aXZlRW5hYmxlTWF4Q29udGV4dE1vZGUuZmlyc3QoKSwKICAgICAgICAgICAgZW5hYmxlVG9vbHMgPSBhcGlDb25maWdEZWxlZ2F0ZS5lbmFibGVUb29scy5maXJzdCgpLAogICAgICAgICAgICBkaXNhYmxlU3RyZWFtT3V0cHV0ID0gYXBpQ29uZmlnRGVsZWdhdGUuZGlzYWJsZVN0cmVhbU91dHB1dC5maXJzdCgpLAogICAgICAgICAgICBkaXNhYmxlVXNlclByZWZlcmVuY2VEZXNjcmlwdGlvbiA9IGFwaUNvbmZpZ0RlbGVnYXRlLmRpc2FibGVVc2VyUHJlZmVyZW5jZURlc2NyaXB0aW9uLmZpcnN0KCksCiAgICAgICAgICAgIHBlcm1pc3Npb25MZXZlbCA9IHBlcm1pc3Npb25MZXZlbC5uYW1lLAogICAgICAgICAgICBjdXJyZW50V2luZG93VG9rZW5zID0gY3VycmVudFdpbmRvd1Rva2VucywKICAgICAgICAgICAgYmFzZUNvbnRleHRMZW5ndGhLID0gYmFzZUNvbnRleHRMZW5ndGhLLAogICAgICAgICAgICBtYXhDb250ZXh0TGVuZ3RoSyA9IG1heENvbnRleHRMZW5ndGhLLAogICAgICAgICAgICBhY3RpdmVDb250ZXh0TGVuZ3RoSyA9IGFjdGl2ZUNvbnRleHRMZW5ndGhLLAogICAgICAgICAgICBtYXhXaW5kb3dUb2tlbnMgPSAoYWN0aXZlQ29udGV4dExlbmd0aEsgKiAxMDI0KS50b0xvbmcoKS5jb2VyY2VBdExlYXN0KDBMKQogICAgICAgICkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biB1cGRhdGUocmVxdWVzdDogV2ViVXBkYXRlSW5wdXRTZXR0aW5nc1JlcXVlc3QpOiBXZWJJbnB1dFNldHRpbmdzU3RhdGUgewogICAgICAgIHZhbCBhcGlDb25maWdEZWxlZ2F0ZSA9IGNvcmUuZ2V0QXBpQ29uZmlnRGVsZWdhdGUoKQogICAgICAgIHZhbCB1aVN0YXRlRGVsZWdhdGUgPSBjb3JlLmdldFVpU3RhdGVEZWxlZ2F0ZSgpCiAgICAgICAgdmFsIHRvb2xQZXJtaXNzaW9uU3lzdGVtID0gVG9vbFBlcm1pc3Npb25TeXN0ZW0uZ2V0SW5zdGFuY2UoYXBwQ29udGV4dCkKCiAgICAgICAgcmVxdWVzdC5lbmFibGVUaGlua2luZ01vZGU/LmxldCB7IHRhcmdldCAtPgogICAgICAgICAgICBpZiAoYXBpQ29uZmlnRGVsZWdhdGUuZW5hYmxlVGhpbmtpbmdNb2RlLnZhbHVlICE9IHRhcmdldCkgewogICAgICAgICAgICAgICAgYXBpQ29uZmlnRGVsZWdhdGUudG9nZ2xlVGhpbmtpbmdNb2RlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXF1ZXN0LnRoaW5raW5nT3B0aW9uSWQ/LmxldCB7IHRhcmdldCAtPgogICAgICAgICAgICBpZiAoYXBpQ29uZmlnRGVsZWdhdGUudGhpbmtpbmdPcHRpb25JZC52YWx1ZSAhPSB0YXJnZXQpIHsKICAgICAgICAgICAgICAgIGFwaUNvbmZpZ0RlbGVnYXRlLnVwZGF0ZVRoaW5raW5nT3B0aW9uSWQodGFyZ2V0KQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJlcXVlc3QuZW5hYmxlTWVtb3J5QXV0b1VwZGF0ZT8ubGV0IHsgdGFyZ2V0IC0+CiAgICAgICAgICAgIGlmIChhcGlDb25maWdEZWxlZ2F0ZS5lbmFibGVNZW1vcnlBdXRvVXBkYXRlLnZhbHVlICE9IHRhcmdldCkgewogICAgICAgICAgICAgICAgYXBpQ29uZmlnRGVsZWdhdGUudG9nZ2xlTWVtb3J5QXV0b1VwZGF0ZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmVxdWVzdC5lbmFibGVBdXRvUmVhZD8ubGV0IHsgdGFyZ2V0IC0+CiAgICAgICAgICAgIGlmIChhcGlDb25maWdEZWxlZ2F0ZS5lbmFibGVBdXRvUmVhZC52YWx1ZSAhPSB0YXJnZXQpIHsKICAgICAgICAgICAgICAgIGFwaUNvbmZpZ0RlbGVnYXRlLnRvZ2dsZUF1dG9SZWFkKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXF1ZXN0LmVuYWJsZU1heENvbnRleHRNb2RlPy5sZXQgeyB0YXJnZXQgLT4KICAgICAgICAgICAgaWYgKGFwaUNvbmZpZ0RlbGVnYXRlLmVmZmVjdGl2ZUVuYWJsZU1heENvbnRleHRNb2RlLnZhbHVlICE9IHRhcmdldCkgewogICAgICAgICAgICAgICAgYXBpQ29uZmlnRGVsZWdhdGUudG9nZ2xlRW5hYmxlTWF4Q29udGV4dE1vZGUoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJlcXVlc3QuZW5hYmxlVG9vbHM/LmxldCB7IHRhcmdldCAtPgogICAgICAgICAgICBpZiAoYXBpQ29uZmlnRGVsZWdhdGUuZW5hYmxlVG9vbHMudmFsdWUgIT0gdGFyZ2V0KSB7CiAgICAgICAgICAgICAgICBhcGlDb25maWdEZWxlZ2F0ZS50b2dnbGVUb29scygpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmVxdWVzdC5kaXNhYmxlU3RyZWFtT3V0cHV0Py5sZXQgeyB0YXJnZXQgLT4KICAgICAgICAgICAgaWYgKGFwaUNvbmZpZ0RlbGVnYXRlLmRpc2FibGVTdHJlYW1PdXRwdXQudmFsdWUgIT0gdGFyZ2V0KSB7CiAgICAgICAgICAgICAgICBhcGlDb25maWdEZWxlZ2F0ZS50b2dnbGVEaXNhYmxlU3RyZWFtT3V0cHV0KCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXF1ZXN0LmRpc2FibGVVc2VyUHJlZmVyZW5jZURlc2NyaXB0aW9uPy5sZXQgeyB0YXJnZXQgLT4KICAgICAgICAgICAgaWYgKGFwaUNvbmZpZ0RlbGVnYXRlLmRpc2FibGVVc2VyUHJlZmVyZW5jZURlc2NyaXB0aW9uLnZhbHVlICE9IHRhcmdldCkgewogICAgICAgICAgICAgICAgYXBpQ29uZmlnRGVsZWdhdGUudG9nZ2xlRGlzYWJsZVVzZXJQcmVmZXJlbmNlRGVzY3JpcHRpb24oKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJlcXVlc3QucGVybWlzc2lvbkxldmVsPy50cmltKCk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9Py5sZXQgeyByYXdWYWx1ZSAtPgogICAgICAgICAgICB2YWwgdGFyZ2V0ID0gUGVybWlzc2lvbkxldmVsLmZyb21TdHJpbmcocmF3VmFsdWUudXBwZXJjYXNlKExvY2FsZS5VUykpCiAgICAgICAgICAgIGlmICh1aVN0YXRlRGVsZWdhdGUubWFzdGVyUGVybWlzc2lvbkxldmVsLnZhbHVlICE9IHRhcmdldCkgewogICAgICAgICAgICAgICAgdG9vbFBlcm1pc3Npb25TeXN0ZW0uc2F2ZU1hc3RlclN3aXRjaCh0YXJnZXQpCiAgICAgICAgICAgICAgICB1aVN0YXRlRGVsZWdhdGUudXBkYXRlTWFzdGVyUGVybWlzc2lvbkxldmVsKHRhcmdldCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHdhaXRGb3JVcGRhdGUocmVxdWVzdCkKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHdhaXRGb3JVcGRhdGUoCiAgICAgICAgcmVxdWVzdDogV2ViVXBkYXRlSW5wdXRTZXR0aW5nc1JlcXVlc3QKICAgICk6IFdlYklucHV0U2V0dGluZ3NTdGF0ZSB7CiAgICAgICAgcmVwZWF0KDEyKSB7CiAgICAgICAgICAgIHZhbCBzbmFwc2hvdCA9IHJlc29sdmVTdGF0ZSgpCiAgICAgICAgICAgIHZhbCBtYXRjaGVzID0KICAgICAgICAgICAgICAgIChyZXF1ZXN0LmVuYWJsZVRoaW5raW5nTW9kZSA9PSBudWxsIHx8IHNuYXBzaG90LmVuYWJsZVRoaW5raW5nTW9kZSA9PSByZXF1ZXN0LmVuYWJsZVRoaW5raW5nTW9kZSkgJiYKICAgICAgICAgICAgICAgICAgICAocmVxdWVzdC50aGlua2luZ09wdGlvbklkID09IG51bGwgfHwgc25hcHNob3QudGhpbmtpbmdPcHRpb25JZCA9PSByZXF1ZXN0LnRoaW5raW5nT3B0aW9uSWQpICYmCiAgICAgICAgICAgICAgICAgICAgKHJlcXVlc3QuZW5hYmxlTWVtb3J5QXV0b1VwZGF0ZSA9PSBudWxsIHx8IHNuYXBzaG90LmVuYWJsZU1lbW9yeUF1dG9VcGRhdGUgPT0gcmVxdWVzdC5lbmFibGVNZW1vcnlBdXRvVXBkYXRlKSAmJgogICAgICAgICAgICAgICAgICAgIChyZXF1ZXN0LmVuYWJsZUF1dG9SZWFkID09IG51bGwgfHwgc25hcHNob3QuZW5hYmxlQXV0b1JlYWQgPT0gcmVxdWVzdC5lbmFibGVBdXRvUmVhZCkgJiYKICAgICAgICAgICAgICAgICAgICAocmVxdWVzdC5lbmFibGVNYXhDb250ZXh0TW9kZSA9PSBudWxsIHx8IHNuYXBzaG90LmVuYWJsZU1heENvbnRleHRNb2RlID09IHJlcXVlc3QuZW5hYmxlTWF4Q29udGV4dE1vZGUpICYmCiAgICAgICAgICAgICAgICAgICAgKHJlcXVlc3QuZW5hYmxlVG9vbHMgPT0gbnVsbCB8fCBzbmFwc2hvdC5lbmFibGVUb29scyA9PSByZXF1ZXN0LmVuYWJsZVRvb2xzKSAmJgogICAgICAgICAgICAgICAgICAgIChyZXF1ZXN0LmRpc2FibGVTdHJlYW1PdXRwdXQgPT0gbnVsbCB8fCBzbmFwc2hvdC5kaXNhYmxlU3RyZWFtT3V0cHV0ID09IHJlcXVlc3QuZGlzYWJsZVN0cmVhbU91dHB1dCkgJiYKICAgICAgICAgICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVlc3QuZGlzYWJsZVVzZXJQcmVmZXJlbmNlRGVzY3JpcHRpb24gPT0gbnVsbCB8fAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc25hcHNob3QuZGlzYWJsZVVzZXJQcmVmZXJlbmNlRGVzY3JpcHRpb24gPT0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXF1ZXN0LmRpc2FibGVVc2VyUHJlZmVyZW5jZURlc2NyaXB0aW9uCiAgICAgICAgICAgICAgICAgICAgKSAmJgogICAgICAgICAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWVzdC5wZXJtaXNzaW9uTGV2ZWwuaXNOdWxsT3JCbGFuaygpIHx8CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzbmFwc2hvdC5wZXJtaXNzaW9uTGV2ZWwgPT0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBQZXJtaXNzaW9uTGV2ZWwuZnJvbVN0cmluZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWVzdC5wZXJtaXNzaW9uTGV2ZWw/LnVwcGVyY2FzZShMb2NhbGUuVVMpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKS5uYW1lCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICBpZiAobWF0Y2hlcykgewogICAgICAgICAgICAgICAgcmV0dXJuIHNuYXBzaG90CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGVsYXkoMzApCiAgICAgICAgfQogICAgICAgIHJldHVybiByZXNvbHZlU3RhdGUoKQogICAgfQp9Cg==
+package com.bslsjdk.operit.integrations.http.bridge
+
+import android.content.Context
+import com.bslsjdk.operit.integrations.http.WebInputSettingsState
+import com.bslsjdk.operit.integrations.http.WebUpdateInputSettingsRequest
+import com.bslsjdk.operit.services.ChatServiceCore
+import com.bslsjdk.operit.ui.permissions.PermissionLevel
+import com.bslsjdk.operit.ui.permissions.ToolPermissionSystem
+import java.util.Locale
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.first
+
+internal class WebChatInputSettingsBridge(
+    private val appContext: Context,
+    private val core: ChatServiceCore
+) {
+    suspend fun resolveState(): WebInputSettingsState {
+        val apiConfigDelegate = core.getApiConfigDelegate()
+        val permissionLevel = core.getUiStateDelegate().masterPermissionLevel.first()
+        val currentWindowTokens = core.currentWindowSizeFlow.first()
+        val baseContextLengthK = apiConfigDelegate.effectiveBaseContextLength.first()
+        val maxContextLengthK = apiConfigDelegate.effectiveMaxContextLengthSetting.first()
+        val activeContextLengthK = apiConfigDelegate.effectiveContextLength.first()
+        return WebInputSettingsState(
+            enableThinkingMode = apiConfigDelegate.enableThinkingMode.first(),
+            thinkingOptionId = apiConfigDelegate.thinkingOptionId.first(),
+            enableMemoryAutoUpdate = apiConfigDelegate.enableMemoryAutoUpdate.first(),
+            enableAutoRead = apiConfigDelegate.enableAutoRead.first(),
+            enableMaxContextMode = apiConfigDelegate.effectiveEnableMaxContextMode.first(),
+            enableTools = apiConfigDelegate.enableTools.first(),
+            disableStreamOutput = apiConfigDelegate.disableStreamOutput.first(),
+            disableUserPreferenceDescription = apiConfigDelegate.disableUserPreferenceDescription.first(),
+            permissionLevel = permissionLevel.name,
+            currentWindowTokens = currentWindowTokens,
+            baseContextLengthK = baseContextLengthK,
+            maxContextLengthK = maxContextLengthK,
+            activeContextLengthK = activeContextLengthK,
+            maxWindowTokens = (activeContextLengthK * 1024).toLong().coerceAtLeast(0L)
+        )
+    }
+
+    suspend fun update(request: WebUpdateInputSettingsRequest): WebInputSettingsState {
+        val apiConfigDelegate = core.getApiConfigDelegate()
+        val uiStateDelegate = core.getUiStateDelegate()
+        val toolPermissionSystem = ToolPermissionSystem.getInstance(appContext)
+
+        request.enableThinkingMode?.let { target ->
+            if (apiConfigDelegate.enableThinkingMode.value != target) {
+                apiConfigDelegate.toggleThinkingMode()
+            }
+        }
+        request.thinkingOptionId?.let { target ->
+            if (apiConfigDelegate.thinkingOptionId.value != target) {
+                apiConfigDelegate.updateThinkingOptionId(target)
+            }
+        }
+        request.enableMemoryAutoUpdate?.let { target ->
+            if (apiConfigDelegate.enableMemoryAutoUpdate.value != target) {
+                apiConfigDelegate.toggleMemoryAutoUpdate()
+            }
+        }
+        request.enableAutoRead?.let { target ->
+            if (apiConfigDelegate.enableAutoRead.value != target) {
+                apiConfigDelegate.toggleAutoRead()
+            }
+        }
+        request.enableMaxContextMode?.let { target ->
+            if (apiConfigDelegate.effectiveEnableMaxContextMode.value != target) {
+                apiConfigDelegate.toggleEnableMaxContextMode()
+            }
+        }
+        request.enableTools?.let { target ->
+            if (apiConfigDelegate.enableTools.value != target) {
+                apiConfigDelegate.toggleTools()
+            }
+        }
+        request.disableStreamOutput?.let { target ->
+            if (apiConfigDelegate.disableStreamOutput.value != target) {
+                apiConfigDelegate.toggleDisableStreamOutput()
+            }
+        }
+        request.disableUserPreferenceDescription?.let { target ->
+            if (apiConfigDelegate.disableUserPreferenceDescription.value != target) {
+                apiConfigDelegate.toggleDisableUserPreferenceDescription()
+            }
+        }
+        request.permissionLevel?.trim()?.takeIf { it.isNotBlank() }?.let { rawValue ->
+            val target = PermissionLevel.fromString(rawValue.uppercase(Locale.US))
+            if (uiStateDelegate.masterPermissionLevel.value != target) {
+                toolPermissionSystem.saveMasterSwitch(target)
+                uiStateDelegate.updateMasterPermissionLevel(target)
+            }
+        }
+
+        return waitForUpdate(request)
+    }
+
+    private suspend fun waitForUpdate(
+        request: WebUpdateInputSettingsRequest
+    ): WebInputSettingsState {
+        repeat(12) {
+            val snapshot = resolveState()
+            val matches =
+                (request.enableThinkingMode == null || snapshot.enableThinkingMode == request.enableThinkingMode) &&
+                    (request.thinkingOptionId == null || snapshot.thinkingOptionId == request.thinkingOptionId) &&
+                    (request.enableMemoryAutoUpdate == null || snapshot.enableMemoryAutoUpdate == request.enableMemoryAutoUpdate) &&
+                    (request.enableAutoRead == null || snapshot.enableAutoRead == request.enableAutoRead) &&
+                    (request.enableMaxContextMode == null || snapshot.enableMaxContextMode == request.enableMaxContextMode) &&
+                    (request.enableTools == null || snapshot.enableTools == request.enableTools) &&
+                    (request.disableStreamOutput == null || snapshot.disableStreamOutput == request.disableStreamOutput) &&
+                    (
+                        request.disableUserPreferenceDescription == null ||
+                            snapshot.disableUserPreferenceDescription ==
+                                request.disableUserPreferenceDescription
+                    ) &&
+                    (
+                        request.permissionLevel.isNullOrBlank() ||
+                            snapshot.permissionLevel ==
+                                PermissionLevel.fromString(
+                                    request.permissionLevel?.uppercase(Locale.US)
+                                ).name
+                    )
+            if (matches) {
+                return snapshot
+            }
+            delay(30)
+        }
+        return resolveState()
+    }
+}

@@ -1,1 +1,208 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmJyb3dzZXIKCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLkJpdG1hcAppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkLnZpZXcuVmlld0dyb3VwCmltcG9ydCBhbmRyb2lkLndlYmtpdC5XZWJSZXNvdXJjZVJlcXVlc3QKaW1wb3J0IGFuZHJvaWQud2Via2l0LldlYlZpZXcKaW1wb3J0IGFuZHJvaWQud2Via2l0LldlYlZpZXdDbGllbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhTaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DbG9zZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuUmVmcmVzaAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRXhwZXJpbWVudGFsTWF0ZXJpYWwzQXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5MaW5lYXJQcm9ncmVzc0luZGljYXRvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuU3VyZmFjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVG9wQXBwQmFyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkRpc3Bvc2FibGVFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS52aWV3aW50ZXJvcC5BbmRyb2lkVmlldwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS53aW5kb3cuRGlhbG9nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLndpbmRvdy5EaWFsb2dQcm9wZXJ0aWVzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tcG9uZW50cy5DdXN0b21TY2FmZm9sZAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnRva2VuLndlYnZpZXcuV2ViVmlld0NvbmZpZwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKCi8qKgogKiBQcmVzZW50cyBvbmUgaG9zdC1vd25lZCBicm93c2VyIGZsb3cgYW5kIHJlcG9ydHMgbmF2aWdhdGlvbiB0byBpdHMgcmVnaXN0ZXJlZCBjYWxsYmFjayBkZXN0aW5hdGlvbi4KICovCkBPcHRJbihFeHBlcmltZW50YWxNYXRlcmlhbDNBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gQnJvd3NlckNhbGxiYWNrRGlhbG9nKAogICAgdGl0bGU6IFN0cmluZywKICAgIGF1dGhvcml6YXRpb25Vcmw6IFN0cmluZywKICAgIGNvbXBsZXRpb25SZWRpcmVjdFVyaTogVXJpLAogICAgZXhwaXJlc0F0OiBMb25nLAogICAgb25Db21wbGV0aW9uOiAoVXJpKSAtPiBVbml0LAogICAgb25DYW5jZWxsZWQ6ICgpIC0+IFVuaXQsCiAgICBvbkZhaWx1cmU6IChUaHJvd2FibGUpIC0+IFVuaXQKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgd2ViVmlldyA9IHJlbWVtYmVyIHsKICAgICAgICBXZWJWaWV3Q29uZmlnLmNyZWF0ZVdlYlZpZXcoY29udGV4dCkuYXBwbHkgewogICAgICAgICAgICBzZXR0aW5ncy5zZXRTdXBwb3J0TXVsdGlwbGVXaW5kb3dzKGZhbHNlKQogICAgICAgICAgICBzZXR0aW5ncy5qYXZhU2NyaXB0Q2FuT3BlbldpbmRvd3NBdXRvbWF0aWNhbGx5ID0gZmFsc2UKICAgICAgICB9CiAgICB9CiAgICB2YXIgaXNMb2FkaW5nIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YodHJ1ZSkgfQogICAgdmFyIGlzQ29tcGxldGluZyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YXIgY29tcGxldGlvbkhhbmRsZWQgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQoKICAgIGZ1biBjYXB0dXJlQ29tcGxldGlvbih1cmk6IFVyaSk6IEJvb2xlYW4gewogICAgICAgIGlmICghbWF0Y2hlc0NhbGxiYWNrRGVzdGluYXRpb24odXJpLCBjb21wbGV0aW9uUmVkaXJlY3RVcmkpKSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICBpZiAoIWNvbXBsZXRpb25IYW5kbGVkKSB7CiAgICAgICAgICAgIGNvbXBsZXRpb25IYW5kbGVkID0gdHJ1ZQogICAgICAgICAgICBpc0NvbXBsZXRpbmcgPSB0cnVlCiAgICAgICAgICAgIG9uQ29tcGxldGlvbih1cmkpCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgRGlzcG9zYWJsZUVmZmVjdCh3ZWJWaWV3KSB7CiAgICAgICAgd2ViVmlldy53ZWJWaWV3Q2xpZW50ID0gb2JqZWN0IDogV2ViVmlld0NsaWVudCgpIHsKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIHNob3VsZE92ZXJyaWRlVXJsTG9hZGluZygKICAgICAgICAgICAgICAgIHZpZXc6IFdlYlZpZXc/LAogICAgICAgICAgICAgICAgcmVxdWVzdDogV2ViUmVzb3VyY2VSZXF1ZXN0PwogICAgICAgICAgICApOiBCb29sZWFuIHsKICAgICAgICAgICAgICAgIHZhbCB1cmkgPSByZXF1ZXN0Py51cmwgPzogcmV0dXJuIGZhbHNlCiAgICAgICAgICAgICAgICByZXR1cm4gY2FwdHVyZUNvbXBsZXRpb24odXJpKQogICAgICAgICAgICB9CgogICAgICAgICAgICBvdmVycmlkZSBmdW4gb25QYWdlU3RhcnRlZCh2aWV3OiBXZWJWaWV3PywgdXJsOiBTdHJpbmc/LCBmYXZpY29uOiBCaXRtYXA/KSB7CiAgICAgICAgICAgICAgICBzdXBlci5vblBhZ2VTdGFydGVkKHZpZXcsIHVybCwgZmF2aWNvbikKICAgICAgICAgICAgICAgIGlzTG9hZGluZyA9IHRydWUKICAgICAgICAgICAgICAgIHZhbCB1cmkgPSB1cmw/LmxldChVcmk6OnBhcnNlKSA/OiByZXR1cm4KICAgICAgICAgICAgICAgIGlmIChjYXB0dXJlQ29tcGxldGlvbih1cmkpKSB7CiAgICAgICAgICAgICAgICAgICAgdmlldz8uc3RvcExvYWRpbmcoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBvdmVycmlkZSBmdW4gb25QYWdlRmluaXNoZWQodmlldzogV2ViVmlldz8sIHVybDogU3RyaW5nPykgewogICAgICAgICAgICAgICAgc3VwZXIub25QYWdlRmluaXNoZWQodmlldywgdXJsKQogICAgICAgICAgICAgICAgaWYgKCFpc0NvbXBsZXRpbmcpIHsKICAgICAgICAgICAgICAgICAgICBpc0xvYWRpbmcgPSBmYWxzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIG9uRGlzcG9zZSB7CiAgICAgICAgICAgIHJlbGVhc2VCcm93c2VyQ2FsbGJhY2tXZWJWaWV3KHdlYlZpZXcpCiAgICAgICAgfQogICAgfQoKICAgIExhdW5jaGVkRWZmZWN0KGF1dGhvcml6YXRpb25VcmwpIHsKICAgICAgICB3ZWJWaWV3LmxvYWRVcmwoYXV0aG9yaXphdGlvblVybCkKICAgIH0KCiAgICBMYXVuY2hlZEVmZmVjdChleHBpcmVzQXQpIHsKICAgICAgICB2YWwgcmVtYWluaW5nTWlsbGlzID0gZXhwaXJlc0F0IC0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICBpZiAocmVtYWluaW5nTWlsbGlzIDw9IDBMKSB7CiAgICAgICAgICAgIGlmICghY29tcGxldGlvbkhhbmRsZWQpIHsKICAgICAgICAgICAgICAgIGNvbXBsZXRpb25IYW5kbGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgb25GYWlsdXJlKElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiQnJvd3NlciBjYWxsYmFjayB0aW1lZCBvdXQiKSkKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm5ATGF1bmNoZWRFZmZlY3QKICAgICAgICB9CiAgICAgICAgZGVsYXkocmVtYWluaW5nTWlsbGlzKQogICAgICAgIGlmICghY29tcGxldGlvbkhhbmRsZWQpIHsKICAgICAgICAgICAgY29tcGxldGlvbkhhbmRsZWQgPSB0cnVlCiAgICAgICAgICAgIG9uRmFpbHVyZShJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkJyb3dzZXIgY2FsbGJhY2sgdGltZWQgb3V0IikpCiAgICAgICAgfQogICAgfQoKICAgIERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gewogICAgICAgICAgICBpZiAoIWlzQ29tcGxldGluZykgewogICAgICAgICAgICAgICAgb25DYW5jZWxsZWQoKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBwcm9wZXJ0aWVzID0gRGlhbG9nUHJvcGVydGllcygKICAgICAgICAgICAgdXNlUGxhdGZvcm1EZWZhdWx0V2lkdGggPSBmYWxzZSwKICAgICAgICAgICAgZGlzbWlzc09uQ2xpY2tPdXRzaWRlID0gZmFsc2UKICAgICAgICApCiAgICApIHsKICAgICAgICBTdXJmYWNlKAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCksCiAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5iYWNrZ3JvdW5kCiAgICAgICAgKSB7CiAgICAgICAgICAgIEN1c3RvbVNjYWZmb2xkKAogICAgICAgICAgICAgICAgdG9wQmFyID0gewogICAgICAgICAgICAgICAgICAgIFRvcEFwcEJhcigKICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSB7IFRleHQodGl0bGUpIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIG5hdmlnYXRpb25JY29uID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgSWNvbkJ1dHRvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25DYW5jZWxsZWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5hYmxlZCA9ICFpc0NvbXBsZXRpbmcKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb24oSWNvbnMuRGVmYXVsdC5DbG9zZSwgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgYWN0aW9ucyA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb25CdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgd2ViVmlldy5yZWxvYWQoKSB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuYWJsZWQgPSAhaXNDb21wbGV0aW5nCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuUmVmcmVzaCwgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKSB7IHBhZGRpbmdWYWx1ZXMgLT4KICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKHBhZGRpbmdWYWx1ZXMpCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBBbmRyb2lkVmlldygKICAgICAgICAgICAgICAgICAgICAgICAgZmFjdG9yeSA9IHsgd2ViVmlldyB9LAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgaWYgKGlzTG9hZGluZyB8fCBpc0NvbXBsZXRpbmcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgTGluZWFyUHJvZ3Jlc3NJbmRpY2F0b3IoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8qKiBDaGVja3Mgd2hldGhlciBhIGJyb3dzZXIgVVJMIHJlYWNoZWQgdGhlIHNjaGVtZSwgaG9zdCwgcG9ydCwgYW5kIHBhdGggcmVnaXN0ZXJlZCBieSB0aGUgY2FsbGVyLiAqLwpwcml2YXRlIGZ1biBtYXRjaGVzQ2FsbGJhY2tEZXN0aW5hdGlvbihjdXJyZW50OiBVcmksIGV4cGVjdGVkOiBVcmkpOiBCb29sZWFuIHsKICAgIHJldHVybiBjdXJyZW50LnNjaGVtZSA9PSBleHBlY3RlZC5zY2hlbWUgJiYKICAgICAgICBjdXJyZW50Lmhvc3QgPT0gZXhwZWN0ZWQuaG9zdCAmJgogICAgICAgIGN1cnJlbnQucG9ydCA9PSBleHBlY3RlZC5wb3J0ICYmCiAgICAgICAgY3VycmVudC5wYXRoID09IGV4cGVjdGVkLnBhdGgKfQoKLyoqIFJlbGVhc2VzIHRoZSBXZWJWaWV3IHRoYXQgd2FzIGFsbG9jYXRlZCBmb3Igb25lIGJyb3dzZXIgY2FsbGJhY2sgZmxvdy4gKi8KcHJpdmF0ZSBmdW4gcmVsZWFzZUJyb3dzZXJDYWxsYmFja1dlYlZpZXcod2ViVmlldzogV2ViVmlldykgewogICAgdHJ5IHsKICAgICAgICB3ZWJWaWV3LnN0b3BMb2FkaW5nKCkKICAgICAgICB3ZWJWaWV3LmxvYWRVcmwoImFib3V0OmJsYW5rIikKICAgICAgICB3ZWJWaWV3LmNsZWFySGlzdG9yeSgpCiAgICAgICAgd2ViVmlldy5yZW1vdmVBbGxWaWV3cygpCiAgICAgICAgKHdlYlZpZXcucGFyZW50IGFzPyBWaWV3R3JvdXApPy5yZW1vdmVWaWV3KHdlYlZpZXcpCiAgICAgICAgd2ViVmlldy5kZXN0cm95KCkKICAgIH0gY2F0Y2ggKGVycm9yOiBFeGNlcHRpb24pIHsKICAgICAgICBBcHBMb2dnZXIuZSgiQnJvd3NlckNhbGxiYWNrIiwgIkZhaWxlZCB0byByZWxlYXNlIGJyb3dzZXIgY2FsbGJhY2sgV2ViVmlldyIsIGVycm9yKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.common.browser
+
+import android.graphics.Bitmap
+import android.net.Uri
+import android.view.ViewGroup
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
+import android.webkit.WebViewClient
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Refresh
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import com.bslsjdk.operit.ui.components.CustomScaffold
+import com.bslsjdk.operit.ui.features.token.webview.WebViewConfig
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.delay
+
+/**
+ * Presents one host-owned browser flow and reports navigation to its registered callback destination.
+ */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun BrowserCallbackDialog(
+    title: String,
+    authorizationUrl: String,
+    completionRedirectUri: Uri,
+    expiresAt: Long,
+    onCompletion: (Uri) -> Unit,
+    onCancelled: () -> Unit,
+    onFailure: (Throwable) -> Unit
+) {
+    val context = LocalContext.current
+    val webView = remember {
+        WebViewConfig.createWebView(context).apply {
+            settings.setSupportMultipleWindows(false)
+            settings.javaScriptCanOpenWindowsAutomatically = false
+        }
+    }
+    var isLoading by remember { mutableStateOf(true) }
+    var isCompleting by remember { mutableStateOf(false) }
+    var completionHandled by remember { mutableStateOf(false) }
+
+    fun captureCompletion(uri: Uri): Boolean {
+        if (!matchesCallbackDestination(uri, completionRedirectUri)) {
+            return false
+        }
+        if (!completionHandled) {
+            completionHandled = true
+            isCompleting = true
+            onCompletion(uri)
+        }
+        return true
+    }
+
+    DisposableEffect(webView) {
+        webView.webViewClient = object : WebViewClient() {
+            override fun shouldOverrideUrlLoading(
+                view: WebView?,
+                request: WebResourceRequest?
+            ): Boolean {
+                val uri = request?.url ?: return false
+                return captureCompletion(uri)
+            }
+
+            override fun onPageStarted(view: WebView?, url: String?, favicon: Bitmap?) {
+                super.onPageStarted(view, url, favicon)
+                isLoading = true
+                val uri = url?.let(Uri::parse) ?: return
+                if (captureCompletion(uri)) {
+                    view?.stopLoading()
+                }
+            }
+
+            override fun onPageFinished(view: WebView?, url: String?) {
+                super.onPageFinished(view, url)
+                if (!isCompleting) {
+                    isLoading = false
+                }
+            }
+        }
+        onDispose {
+            releaseBrowserCallbackWebView(webView)
+        }
+    }
+
+    LaunchedEffect(authorizationUrl) {
+        webView.loadUrl(authorizationUrl)
+    }
+
+    LaunchedEffect(expiresAt) {
+        val remainingMillis = expiresAt - System.currentTimeMillis()
+        if (remainingMillis <= 0L) {
+            if (!completionHandled) {
+                completionHandled = true
+                onFailure(IllegalStateException("Browser callback timed out"))
+            }
+            return@LaunchedEffect
+        }
+        delay(remainingMillis)
+        if (!completionHandled) {
+            completionHandled = true
+            onFailure(IllegalStateException("Browser callback timed out"))
+        }
+    }
+
+    Dialog(
+        onDismissRequest = {
+            if (!isCompleting) {
+                onCancelled()
+            }
+        },
+        properties = DialogProperties(
+            usePlatformDefaultWidth = false,
+            dismissOnClickOutside = false
+        )
+    ) {
+        Surface(
+            modifier = Modifier.fillMaxSize(),
+            color = MaterialTheme.colorScheme.background
+        ) {
+            CustomScaffold(
+                topBar = {
+                    TopAppBar(
+                        title = { Text(title) },
+                        navigationIcon = {
+                            IconButton(
+                                onClick = onCancelled,
+                                enabled = !isCompleting
+                            ) {
+                                Icon(Icons.Default.Close, contentDescription = null)
+                            }
+                        },
+                        actions = {
+                            IconButton(
+                                onClick = { webView.reload() },
+                                enabled = !isCompleting
+                            ) {
+                                Icon(Icons.Default.Refresh, contentDescription = null)
+                            }
+                        }
+                    )
+                }
+            ) { paddingValues ->
+                Box(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(paddingValues)
+                ) {
+                    AndroidView(
+                        factory = { webView },
+                        modifier = Modifier.fillMaxSize()
+                    )
+                    if (isLoading || isCompleting) {
+                        LinearProgressIndicator(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+/** Checks whether a browser URL reached the scheme, host, port, and path registered by the caller. */
+private fun matchesCallbackDestination(current: Uri, expected: Uri): Boolean {
+    return current.scheme == expected.scheme &&
+        current.host == expected.host &&
+        current.port == expected.port &&
+        current.path == expected.path
+}
+
+/** Releases the WebView that was allocated for one browser callback flow. */
+private fun releaseBrowserCallbackWebView(webView: WebView) {
+    try {
+        webView.stopLoading()
+        webView.loadUrl("about:blank")
+        webView.clearHistory()
+        webView.removeAllViews()
+        (webView.parent as? ViewGroup)?.removeView(webView)
+        webView.destroy()
+    } catch (error: Exception) {
+        AppLogger.e("BrowserCallback", "Failed to release browser callback WebView", error)
+    }
+}

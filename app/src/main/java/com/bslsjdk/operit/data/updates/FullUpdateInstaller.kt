@@ -1,1 +1,232 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS51cGRhdGVzCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5hc3luYwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmF3YWl0QWxsCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuY29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZW5zdXJlQWN0aXZlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuaXNBY3RpdmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdAppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLlJhbmRvbUFjY2Vzc0ZpbGUKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljQm9vbGVhbgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0xvbmcKaW1wb3J0IGtvdGxpbi5jb3JvdXRpbmVzLmNvcm91dGluZUNvbnRleHQKCm9iamVjdCBGdWxsVXBkYXRlSW5zdGFsbGVyIHsKICAgIGVudW0gY2xhc3MgU3RhZ2UgewogICAgICAgIERPV05MT0FESU5HX0FQSywKICAgICAgICBSRUFEWV9UT19JTlNUQUxMCiAgICB9CgogICAgc2VhbGVkIGNsYXNzIFByb2dyZXNzRXZlbnQgewogICAgICAgIGRhdGEgY2xhc3MgU3RhZ2VDaGFuZ2VkKHZhbCBzdGFnZTogU3RhZ2UsIHZhbCBtZXNzYWdlOiBTdHJpbmcpIDogUHJvZ3Jlc3NFdmVudCgpCiAgICAgICAgZGF0YSBjbGFzcyBEb3dubG9hZFByb2dyZXNzKAogICAgICAgICAgICB2YWwgcmVhZEJ5dGVzOiBMb25nLAogICAgICAgICAgICB2YWwgdG90YWxCeXRlczogTG9uZz8sCiAgICAgICAgICAgIHZhbCBzcGVlZEJ5dGVzUGVyU2VjOiBMb25nCiAgICAgICAgKSA6IFByb2dyZXNzRXZlbnQoKQogICAgfQoKICAgIHByaXZhdGUgdmFsIGh0dHBDbGllbnQgPSBPa0h0dHBDbGllbnQuQnVpbGRlcigpCiAgICAgICAgLmNvbm5lY3RUaW1lb3V0KDMwLCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgIC5yZWFkVGltZW91dCgxMjAsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgLndyaXRlVGltZW91dCgzMCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAuYnVpbGQoKQoKICAgIHByaXZhdGUgY29uc3QgdmFsIFdPUktfRElSX05BTUUgPSAiZnVsbF91cGRhdGUiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBET1dOTE9BRF9USFJFQURfQ09VTlQgPSA2CgogICAgc3VzcGVuZCBmdW4gZG93bmxvYWRBbmRQcmVwYXJlVXBkYXRlKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgYXBrVXJsOiBTdHJpbmcsCiAgICAgICAgZG93bmxvYWRNZXNzYWdlOiBTdHJpbmcsCiAgICAgICAgcmVhZHlNZXNzYWdlOiBTdHJpbmcsCiAgICAgICAgb25FdmVudDogKFByb2dyZXNzRXZlbnQpIC0+IFVuaXQKICAgICk6IEZpbGUgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHZhbCB3b3JrRGlyID0gcHJlcGFyZUNsZWFuV29ya0Rpcihjb250ZXh0KQogICAgICAgIHZhbCBhcGtGaWxlID0gRmlsZSh3b3JrRGlyLCAidXBkYXRlLmFwayIpCgogICAgICAgIG9uRXZlbnQoUHJvZ3Jlc3NFdmVudC5TdGFnZUNoYW5nZWQoU3RhZ2UuRE9XTkxPQURJTkdfQVBLLCBkb3dubG9hZE1lc3NhZ2UpKQogICAgICAgIGRvd25sb2FkVG9GaWxlKAogICAgICAgICAgICB1cmwgPSBhcGtVcmwsCiAgICAgICAgICAgIG91dCA9IGFwa0ZpbGUsCiAgICAgICAgICAgIG9uRXZlbnQgPSBvbkV2ZW50CiAgICAgICAgKQoKICAgICAgICBvbkV2ZW50KFByb2dyZXNzRXZlbnQuU3RhZ2VDaGFuZ2VkKFN0YWdlLlJFQURZX1RPX0lOU1RBTEwsIHJlYWR5TWVzc2FnZSkpCiAgICAgICAgYXBrRmlsZQogICAgfQoKICAgIHByaXZhdGUgZnVuIHByZXBhcmVDbGVhbldvcmtEaXIoY29udGV4dDogQ29udGV4dCk6IEZpbGUgewogICAgICAgIHZhbCB3b3JrRGlyID0gRmlsZShjb250ZXh0LmNhY2hlRGlyLCBXT1JLX0RJUl9OQU1FKQogICAgICAgIGlmICh3b3JrRGlyLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgd29ya0Rpci5kZWxldGVSZWN1cnNpdmVseSgpIH0KICAgICAgICB9CiAgICAgICAgd29ya0Rpci5ta2RpcnMoKQogICAgICAgIHJldHVybiB3b3JrRGlyCiAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBkb3dubG9hZFRvRmlsZSgKICAgICAgICB1cmw6IFN0cmluZywKICAgICAgICBvdXQ6IEZpbGUsCiAgICAgICAgb25FdmVudDogKFByb2dyZXNzRXZlbnQpIC0+IFVuaXQKICAgICkgewogICAgICAgIHZhbCB0b3RhbEJ5dGVzID0gZmV0Y2hDb250ZW50TGVuZ3RoKHVybCkKICAgICAgICB2ZXJpZnlSYW5nZURvd25sb2FkU3VwcG9ydGVkKHVybCkKCiAgICAgICAgb3V0LnBhcmVudEZpbGU/Lm1rZGlycygpCiAgICAgICAgaWYgKG91dC5leGlzdHMoKSkgewogICAgICAgICAgICBydW5DYXRjaGluZyB7IG91dC5kZWxldGUoKSB9CiAgICAgICAgfQogICAgICAgIFJhbmRvbUFjY2Vzc0ZpbGUob3V0LCAicnciKS51c2UgeyByYWYgLT4KICAgICAgICAgICAgcmFmLnNldExlbmd0aCh0b3RhbEJ5dGVzKQogICAgICAgIH0KCiAgICAgICAgdmFsIGRvd25sb2FkZWRCeXRlcyA9IEF0b21pY0xvbmcoMEwpCiAgICAgICAgdmFsIGZpbmlzaGVkID0gQXRvbWljQm9vbGVhbihmYWxzZSkKCiAgICAgICAgb25FdmVudCgKICAgICAgICAgICAgUHJvZ3Jlc3NFdmVudC5Eb3dubG9hZFByb2dyZXNzKAogICAgICAgICAgICAgICAgcmVhZEJ5dGVzID0gMEwsCiAgICAgICAgICAgICAgICB0b3RhbEJ5dGVzID0gdG90YWxCeXRlcywKICAgICAgICAgICAgICAgIHNwZWVkQnl0ZXNQZXJTZWMgPSAwTAogICAgICAgICAgICApCiAgICAgICAgKQoKICAgICAgICBjb3JvdXRpbmVTY29wZSB7CiAgICAgICAgICAgIHZhbCByZXBvcnRlciA9IGxhdW5jaChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgdmFyIGxhc3RCeXRlcyA9IDBMCiAgICAgICAgICAgICAgICB2YXIgbGFzdEF0ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgICAgIHdoaWxlIChpc0FjdGl2ZSAmJiAhZmluaXNoZWQuZ2V0KCkpIHsKICAgICAgICAgICAgICAgICAgICBkZWxheSgzMDApCiAgICAgICAgICAgICAgICAgICAgdmFsIG5vdyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgICAgICAgICAgdmFsIGN1cnJlbnRCeXRlcyA9IGRvd25sb2FkZWRCeXRlcy5nZXQoKQogICAgICAgICAgICAgICAgICAgIHZhbCBkZWx0YSA9IChjdXJyZW50Qnl0ZXMgLSBsYXN0Qnl0ZXMpLmNvZXJjZUF0TGVhc3QoMEwpCiAgICAgICAgICAgICAgICAgICAgdmFsIGVsYXBzZWQgPSAobm93IC0gbGFzdEF0KS5jb2VyY2VBdExlYXN0KDFMKQogICAgICAgICAgICAgICAgICAgIHZhbCBzcGVlZCA9IChkZWx0YSAqIDEwMDBMKSAvIGVsYXBzZWQKCiAgICAgICAgICAgICAgICAgICAgb25FdmVudCgKICAgICAgICAgICAgICAgICAgICAgICAgUHJvZ3Jlc3NFdmVudC5Eb3dubG9hZFByb2dyZXNzKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVhZEJ5dGVzID0gY3VycmVudEJ5dGVzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG90YWxCeXRlcyA9IHRvdGFsQnl0ZXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcGVlZEJ5dGVzUGVyU2VjID0gc3BlZWQKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICAgICAgbGFzdEJ5dGVzID0gY3VycmVudEJ5dGVzCiAgICAgICAgICAgICAgICAgICAgbGFzdEF0ID0gbm93CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcmFuZ2VzID0gc3BsaXRSYW5nZXModG90YWxCeXRlcywgRE9XTkxPQURfVEhSRUFEX0NPVU5UKQogICAgICAgICAgICAgICAgcmFuZ2VzLm1hcCB7IChzdGFydCwgZW5kKSAtPgogICAgICAgICAgICAgICAgICAgIGFzeW5jKERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRvd25sb2FkUmFuZ2VUb0ZpbGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1cmwgPSB1cmwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdXQgPSBvdXQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGFydCA9IHN0YXJ0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5kID0gZW5kLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZG93bmxvYWRlZEJ5dGVzID0gZG93bmxvYWRlZEJ5dGVzCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9LmF3YWl0QWxsKCkKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIGZpbmlzaGVkLnNldCh0cnVlKQogICAgICAgICAgICAgICAgcmVwb3J0ZXIuY2FuY2VsKCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgb25FdmVudCgKICAgICAgICAgICAgUHJvZ3Jlc3NFdmVudC5Eb3dubG9hZFByb2dyZXNzKAogICAgICAgICAgICAgICAgcmVhZEJ5dGVzID0gdG90YWxCeXRlcywKICAgICAgICAgICAgICAgIHRvdGFsQnl0ZXMgPSB0b3RhbEJ5dGVzLAogICAgICAgICAgICAgICAgc3BlZWRCeXRlc1BlclNlYyA9IDBMCiAgICAgICAgICAgICkKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZmV0Y2hDb250ZW50TGVuZ3RoKHVybDogU3RyaW5nKTogTG9uZyB7CiAgICAgICAgdmFsIHJlcSA9IFJlcXVlc3QuQnVpbGRlcigpLnVybCh1cmwpLmJ1aWxkKCkKICAgICAgICBodHRwQ2xpZW50Lm5ld0NhbGwocmVxKS5leGVjdXRlKCkudXNlIHsgcmVzcCAtPgogICAgICAgICAgICBpZiAoIXJlc3AuaXNTdWNjZXNzZnVsKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkhUVFAgJHtyZXNwLmNvZGV9OiAke3Jlc3AubWVzc2FnZX0iKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBib2R5ID0gcmVzcC5ib2R5ID86IHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiRW1wdHkgcmVzcG9uc2UgYm9keSIpCiAgICAgICAgICAgIHZhbCB0b3RhbEJ5dGVzID0gYm9keS5jb250ZW50TGVuZ3RoKCkKICAgICAgICAgICAgaWYgKHRvdGFsQnl0ZXMgPD0gMEwpIHsKICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiU2VydmVyIG11c3QgcHJvdmlkZSBhIHZhbGlkIENvbnRlbnQtTGVuZ3RoIGZvciA2LXRocmVhZCBkb3dubG9hZCIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHRvdGFsQnl0ZXMKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdmVyaWZ5UmFuZ2VEb3dubG9hZFN1cHBvcnRlZCh1cmw6IFN0cmluZykgewogICAgICAgIHZhbCByZXEgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAudXJsKHVybCkKICAgICAgICAgICAgLmFkZEhlYWRlcigiUmFuZ2UiLCAiYnl0ZXM9MC0wIikKICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICBodHRwQ2xpZW50Lm5ld0NhbGwocmVxKS5leGVjdXRlKCkudXNlIHsgcmVzcCAtPgogICAgICAgICAgICBpZiAocmVzcC5jb2RlICE9IDIwNikgewogICAgICAgICAgICAgICAgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJTZXJ2ZXIgZG9lcyBub3Qgc3VwcG9ydCBIVFRQIFJhbmdlIChyZXF1aXJlZCBmb3IgNi10aHJlYWQgZG93bmxvYWQpIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBzcGxpdFJhbmdlcyh0b3RhbEJ5dGVzOiBMb25nLCB0aHJlYWRDb3VudDogSW50KTogTGlzdDxQYWlyPExvbmcsIExvbmc+PiB7CiAgICAgICAgdmFsIHJhbmdlcyA9IEFycmF5TGlzdDxQYWlyPExvbmcsIExvbmc+Pih0aHJlYWRDb3VudCkKICAgICAgICB2YWwgYmFzZVNpemUgPSB0b3RhbEJ5dGVzIC8gdGhyZWFkQ291bnQKICAgICAgICB2YWwgcmVtYWluZGVyID0gdG90YWxCeXRlcyAlIHRocmVhZENvdW50CiAgICAgICAgdmFyIHN0YXJ0ID0gMEwKCiAgICAgICAgZm9yIChpIGluIDAgdW50aWwgdGhyZWFkQ291bnQpIHsKICAgICAgICAgICAgdmFsIGNodW5rU2l6ZSA9IGJhc2VTaXplICsgaWYgKGkgPCByZW1haW5kZXIpIDFMIGVsc2UgMEwKICAgICAgICAgICAgaWYgKGNodW5rU2l6ZSA8PSAwTCkgY29udGludWUKICAgICAgICAgICAgdmFsIGVuZCA9IHN0YXJ0ICsgY2h1bmtTaXplIC0gMUwKICAgICAgICAgICAgcmFuZ2VzLmFkZChzdGFydCB0byBlbmQpCiAgICAgICAgICAgIHN0YXJ0ID0gZW5kICsgMUwKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHJhbmdlcwogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZG93bmxvYWRSYW5nZVRvRmlsZSgKICAgICAgICB1cmw6IFN0cmluZywKICAgICAgICBvdXQ6IEZpbGUsCiAgICAgICAgc3RhcnQ6IExvbmcsCiAgICAgICAgZW5kOiBMb25nLAogICAgICAgIGRvd25sb2FkZWRCeXRlczogQXRvbWljTG9uZwogICAgKSB7CiAgICAgICAgdmFsIHJlcSA9IFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgIC51cmwodXJsKQogICAgICAgICAgICAuYWRkSGVhZGVyKCJSYW5nZSIsICJieXRlcz0kc3RhcnQtJGVuZCIpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgICAgIGh0dHBDbGllbnQubmV3Q2FsbChyZXEpLmV4ZWN1dGUoKS51c2UgeyByZXNwIC0+CiAgICAgICAgICAgIGlmIChyZXNwLmNvZGUgIT0gMjA2KSB7CiAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkhUVFAgJHtyZXNwLmNvZGV9OiBSYW5nZSByZXF1ZXN0IGZhaWxlZCBmb3IgYnl0ZXM9JHN0YXJ0LSRlbmQiKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBib2R5ID0gcmVzcC5ib2R5ID86IHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiRW1wdHkgcmVzcG9uc2UgYm9keSBmb3IgYnl0ZXM9JHN0YXJ0LSRlbmQiKQoKICAgICAgICAgICAgUmFuZG9tQWNjZXNzRmlsZShvdXQsICJydyIpLnVzZSB7IHJhZiAtPgogICAgICAgICAgICAgICAgcmFmLnNlZWsoc3RhcnQpCiAgICAgICAgICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KDEyOCAqIDEwMjQpCiAgICAgICAgICAgICAgICBib2R5LmJ5dGVTdHJlYW0oKS51c2UgeyBpbnMgLT4KICAgICAgICAgICAgICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICBjb3JvdXRpbmVDb250ZXh0LmVuc3VyZUFjdGl2ZSgpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBuID0gaW5zLnJlYWQoYnVmZmVyKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAobiA8PSAwKSBicmVhawogICAgICAgICAgICAgICAgICAgICAgICByYWYud3JpdGUoYnVmZmVyLCAwLCBuKQogICAgICAgICAgICAgICAgICAgICAgICBkb3dubG9hZGVkQnl0ZXMuYWRkQW5kR2V0KG4udG9Mb25nKCkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.updates
+
+import android.content.Context
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ensureActive
+import kotlinx.coroutines.isActive
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import java.io.File
+import java.io.RandomAccessFile
+import java.util.concurrent.TimeUnit
+import java.util.concurrent.atomic.AtomicBoolean
+import java.util.concurrent.atomic.AtomicLong
+import kotlin.coroutines.coroutineContext
+
+object FullUpdateInstaller {
+    enum class Stage {
+        DOWNLOADING_APK,
+        READY_TO_INSTALL
+    }
+
+    sealed class ProgressEvent {
+        data class StageChanged(val stage: Stage, val message: String) : ProgressEvent()
+        data class DownloadProgress(
+            val readBytes: Long,
+            val totalBytes: Long?,
+            val speedBytesPerSec: Long
+        ) : ProgressEvent()
+    }
+
+    private val httpClient = OkHttpClient.Builder()
+        .connectTimeout(30, TimeUnit.SECONDS)
+        .readTimeout(120, TimeUnit.SECONDS)
+        .writeTimeout(30, TimeUnit.SECONDS)
+        .build()
+
+    private const val WORK_DIR_NAME = "full_update"
+    private const val DOWNLOAD_THREAD_COUNT = 6
+
+    suspend fun downloadAndPrepareUpdate(
+        context: Context,
+        apkUrl: String,
+        downloadMessage: String,
+        readyMessage: String,
+        onEvent: (ProgressEvent) -> Unit
+    ): File = withContext(Dispatchers.IO) {
+        val workDir = prepareCleanWorkDir(context)
+        val apkFile = File(workDir, "update.apk")
+
+        onEvent(ProgressEvent.StageChanged(Stage.DOWNLOADING_APK, downloadMessage))
+        downloadToFile(
+            url = apkUrl,
+            out = apkFile,
+            onEvent = onEvent
+        )
+
+        onEvent(ProgressEvent.StageChanged(Stage.READY_TO_INSTALL, readyMessage))
+        apkFile
+    }
+
+    private fun prepareCleanWorkDir(context: Context): File {
+        val workDir = File(context.cacheDir, WORK_DIR_NAME)
+        if (workDir.exists()) {
+            runCatching { workDir.deleteRecursively() }
+        }
+        workDir.mkdirs()
+        return workDir
+    }
+
+    private suspend fun downloadToFile(
+        url: String,
+        out: File,
+        onEvent: (ProgressEvent) -> Unit
+    ) {
+        val totalBytes = fetchContentLength(url)
+        verifyRangeDownloadSupported(url)
+
+        out.parentFile?.mkdirs()
+        if (out.exists()) {
+            runCatching { out.delete() }
+        }
+        RandomAccessFile(out, "rw").use { raf ->
+            raf.setLength(totalBytes)
+        }
+
+        val downloadedBytes = AtomicLong(0L)
+        val finished = AtomicBoolean(false)
+
+        onEvent(
+            ProgressEvent.DownloadProgress(
+                readBytes = 0L,
+                totalBytes = totalBytes,
+                speedBytesPerSec = 0L
+            )
+        )
+
+        coroutineScope {
+            val reporter = launch(Dispatchers.IO) {
+                var lastBytes = 0L
+                var lastAt = System.currentTimeMillis()
+                while (isActive && !finished.get()) {
+                    delay(300)
+                    val now = System.currentTimeMillis()
+                    val currentBytes = downloadedBytes.get()
+                    val delta = (currentBytes - lastBytes).coerceAtLeast(0L)
+                    val elapsed = (now - lastAt).coerceAtLeast(1L)
+                    val speed = (delta * 1000L) / elapsed
+
+                    onEvent(
+                        ProgressEvent.DownloadProgress(
+                            readBytes = currentBytes,
+                            totalBytes = totalBytes,
+                            speedBytesPerSec = speed
+                        )
+                    )
+
+                    lastBytes = currentBytes
+                    lastAt = now
+                }
+            }
+
+            try {
+                val ranges = splitRanges(totalBytes, DOWNLOAD_THREAD_COUNT)
+                ranges.map { (start, end) ->
+                    async(Dispatchers.IO) {
+                        downloadRangeToFile(
+                            url = url,
+                            out = out,
+                            start = start,
+                            end = end,
+                            downloadedBytes = downloadedBytes
+                        )
+                    }
+                }.awaitAll()
+            } finally {
+                finished.set(true)
+                reporter.cancel()
+            }
+        }
+
+        onEvent(
+            ProgressEvent.DownloadProgress(
+                readBytes = totalBytes,
+                totalBytes = totalBytes,
+                speedBytesPerSec = 0L
+            )
+        )
+    }
+
+    private fun fetchContentLength(url: String): Long {
+        val req = Request.Builder().url(url).build()
+        httpClient.newCall(req).execute().use { resp ->
+            if (!resp.isSuccessful) {
+                throw IllegalStateException("HTTP ${resp.code}: ${resp.message}")
+            }
+            val body = resp.body ?: throw IllegalStateException("Empty response body")
+            val totalBytes = body.contentLength()
+            if (totalBytes <= 0L) {
+                throw IllegalStateException("Server must provide a valid Content-Length for 6-thread download")
+            }
+            return totalBytes
+        }
+    }
+
+    private fun verifyRangeDownloadSupported(url: String) {
+        val req = Request.Builder()
+            .url(url)
+            .addHeader("Range", "bytes=0-0")
+            .build()
+        httpClient.newCall(req).execute().use { resp ->
+            if (resp.code != 206) {
+                throw IllegalStateException("Server does not support HTTP Range (required for 6-thread download)")
+            }
+        }
+    }
+
+    private fun splitRanges(totalBytes: Long, threadCount: Int): List<Pair<Long, Long>> {
+        val ranges = ArrayList<Pair<Long, Long>>(threadCount)
+        val baseSize = totalBytes / threadCount
+        val remainder = totalBytes % threadCount
+        var start = 0L
+
+        for (i in 0 until threadCount) {
+            val chunkSize = baseSize + if (i < remainder) 1L else 0L
+            if (chunkSize <= 0L) continue
+            val end = start + chunkSize - 1L
+            ranges.add(start to end)
+            start = end + 1L
+        }
+        return ranges
+    }
+
+    private suspend fun downloadRangeToFile(
+        url: String,
+        out: File,
+        start: Long,
+        end: Long,
+        downloadedBytes: AtomicLong
+    ) {
+        val req = Request.Builder()
+            .url(url)
+            .addHeader("Range", "bytes=$start-$end")
+            .build()
+
+        httpClient.newCall(req).execute().use { resp ->
+            if (resp.code != 206) {
+                throw IllegalStateException("HTTP ${resp.code}: Range request failed for bytes=$start-$end")
+            }
+            val body = resp.body ?: throw IllegalStateException("Empty response body for bytes=$start-$end")
+
+            RandomAccessFile(out, "rw").use { raf ->
+                raf.seek(start)
+                val buffer = ByteArray(128 * 1024)
+                body.byteStream().use { ins ->
+                    while (true) {
+                        coroutineContext.ensureActive()
+                        val n = ins.read(buffer)
+                        if (n <= 0) break
+                        raf.write(buffer, 0, n)
+                        downloadedBytes.addAndGet(n.toLong())
+                    }
+                }
+            }
+        }
+    }
+}

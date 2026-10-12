@@ -1,1 +1,240 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnNoZWxsZXhlY3V0b3IKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LlNoYXJlZFByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnZlY3Rvci5JbWFnZVZlY3RvcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnN5c3RlbS5BbmRyb2lkU2hlbGxFeGVjdXRvcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGphdmEudXRpbC4qCgovKioKICogU2hlbGzlkb3ku6TnrqHnkIblmaggLSDotJ/otKPlkb3ku6TmiafooYzjgIHljoblj7LorrDlvZXnrqHnkIbnrYkKICovCmNsYXNzIFNoZWxsQ29tbWFuZE1hbmFnZXIocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewogICAgCiAgICBwcml2YXRlIHZhbCBQUkVGU19OQU1FID0gInNoZWxsX2V4ZWN1dG9yX3ByZWZzIgogICAgcHJpdmF0ZSB2YWwgS0VZX0NPTU1BTkRfSElTVE9SWSA9ICJjb21tYW5kX2hpc3RvcnkiCiAgICBwcml2YXRlIHZhbCBNQVhfSElTVE9SWV9TSVpFID0gMTAwCiAgICAKICAgIHByaXZhdGUgdmFsIHByZWZzOiBTaGFyZWRQcmVmZXJlbmNlcyBieSBsYXp5IHsKICAgICAgICBjb250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKFBSRUZTX05BTUUsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOiOt+WPlumihOiuvuWRveS7pOWIl+ihqAogICAgICovCiAgICBmdW4gZ2V0UHJlc2V0Q29tbWFuZHMoKTogTGlzdDxQcmVzZXRDb21tYW5kPiB7CiAgICAgICAgcmV0dXJuIGxpc3RPZigKICAgICAgICAgICAgUHJlc2V0Q29tbWFuZCgKICAgICAgICAgICAgICAgIG5hbWUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfdGVzdCksCiAgICAgICAgICAgICAgICBjb21tYW5kID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX3Rlc3RfY29tbWFuZCksCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF90ZXN0X2Rlc2MpLAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBDb21tYW5kQ2F0ZWdvcnkuU1lTVEVNLAogICAgICAgICAgICAgICAgaWNvbiA9IEljb25zLkRlZmF1bHQuQ2hlY2sKICAgICAgICAgICAgKSwKICAgICAgICAgICAgUHJlc2V0Q29tbWFuZCgKICAgICAgICAgICAgICAgIG5hbWUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfc3lzX2luZm8pLAogICAgICAgICAgICAgICAgY29tbWFuZCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9zeXNfaW5mb19jbWQpLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfc3lzX2luZm9fZGVzYyksCiAgICAgICAgICAgICAgICBjYXRlZ29yeSA9IENvbW1hbmRDYXRlZ29yeS5TWVNURU0sCiAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuRGVmYXVsdC5JbmZvCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFByZXNldENvbW1hbmQoCiAgICAgICAgICAgICAgICBuYW1lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX2Rpc2spLAogICAgICAgICAgICAgICAgY29tbWFuZCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9kaXNrX2NtZCksCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9kaXNrX2Rlc2MpLAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBDb21tYW5kQ2F0ZWdvcnkuU1lTVEVNLAogICAgICAgICAgICAgICAgaWNvbiA9IEljb25zLkRlZmF1bHQuU3RvcmFnZQogICAgICAgICAgICApLAogICAgICAgICAgICBQcmVzZXRDb21tYW5kKAogICAgICAgICAgICAgICAgbmFtZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9tZW1vcnkpLAogICAgICAgICAgICAgICAgY29tbWFuZCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9tZW1vcnlfY21kKSwKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX21lbW9yeV9kZXNjKSwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gQ29tbWFuZENhdGVnb3J5LkhBUkRXQVJFLAogICAgICAgICAgICAgICAgaWNvbiA9IEljb25zLkRlZmF1bHQuTWVtb3J5CiAgICAgICAgICAgICksCiAgICAgICAgICAgIFByZXNldENvbW1hbmQoCiAgICAgICAgICAgICAgICBuYW1lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX2NwdSksCiAgICAgICAgICAgICAgICBjb21tYW5kID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX2NwdV9jbWQpLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfY3B1X2Rlc2MpLAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBDb21tYW5kQ2F0ZWdvcnkuSEFSRFdBUkUsCiAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuRGVmYXVsdC5TZXR0aW5nc0FwcGxpY2F0aW9ucwogICAgICAgICAgICApLAogICAgICAgICAgICBQcmVzZXRDb21tYW5kKAogICAgICAgICAgICAgICAgbmFtZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9uZXR3b3JrKSwKICAgICAgICAgICAgICAgIGNvbW1hbmQgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfbmV0d29ya19jbWQpLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfbmV0d29ya19kZXNjKSwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gQ29tbWFuZENhdGVnb3J5Lk5FVFdPUkssCiAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuRGVmYXVsdC5XaWZpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFByZXNldENvbW1hbmQoCiAgICAgICAgICAgICAgICBuYW1lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX3JvdXRlKSwKICAgICAgICAgICAgICAgIGNvbW1hbmQgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfcm91dGVfY21kKSwKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX3JvdXRlX2Rlc2MpLAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBDb21tYW5kQ2F0ZWdvcnkuTkVUV09SSywKICAgICAgICAgICAgICAgIGljb24gPSBJY29ucy5EZWZhdWx0LlJvdXRlcgogICAgICAgICAgICApLAogICAgICAgICAgICBQcmVzZXRDb21tYW5kKAogICAgICAgICAgICAgICAgbmFtZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9jb25uZWN0aW9uKSwKICAgICAgICAgICAgICAgIGNvbW1hbmQgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfY29ubmVjdGlvbl9jbWQpLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfY29ubmVjdGlvbl9kZXNjKSwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gQ29tbWFuZENhdGVnb3J5Lk5FVFdPUkssCiAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuRGVmYXVsdC5OZXR3b3JrQ2hlY2sKICAgICAgICAgICAgKSwKICAgICAgICAgICAgUHJlc2V0Q29tbWFuZCgKICAgICAgICAgICAgICAgIG5hbWUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfaW5zdGFsbGVkX2FwcHMpLAogICAgICAgICAgICAgICAgY29tbWFuZCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9pbnN0YWxsZWRfYXBwc19jbWQpLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfaW5zdGFsbGVkX2FwcHNfZGVzYyksCiAgICAgICAgICAgICAgICBjYXRlZ29yeSA9IENvbW1hbmRDYXRlZ29yeS5QQUNLQUdFLAogICAgICAgICAgICAgICAgaWNvbiA9IEljb25zLkRlZmF1bHQuQXBwcwogICAgICAgICAgICApLAogICAgICAgICAgICBQcmVzZXRDb21tYW5kKAogICAgICAgICAgICAgICAgbmFtZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9zeXN0ZW1fYXBwcyksCiAgICAgICAgICAgICAgICBjb21tYW5kID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX3N5c3RlbV9hcHBzX2NtZCksCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9zeXN0ZW1fYXBwc19kZXNjKSwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gQ29tbWFuZENhdGVnb3J5LlBBQ0tBR0UsCiAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuRGVmYXVsdC5BbmRyb2lkCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFByZXNldENvbW1hbmQoCiAgICAgICAgICAgICAgICBuYW1lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kXzNyZF9hcHBzKSwKICAgICAgICAgICAgICAgIGNvbW1hbmQgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfM3JkX2FwcHNfY21kKSwKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kXzNyZF9hcHBzX2Rlc2MpLAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBDb21tYW5kQ2F0ZWdvcnkuUEFDS0FHRSwKICAgICAgICAgICAgICAgIGljb24gPSBJY29ucy5EZWZhdWx0LkFwcFNob3J0Y3V0CiAgICAgICAgICAgICksCiAgICAgICAgICAgIFByZXNldENvbW1hbmQoCiAgICAgICAgICAgICAgICBuYW1lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX2N1cnJlbnRfZGlyKSwKICAgICAgICAgICAgICAgIGNvbW1hbmQgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfY3VycmVudF9kaXJfY21kKSwKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX2N1cnJlbnRfZGlyX2Rlc2MpLAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBDb21tYW5kQ2F0ZWdvcnkuRklMRSwKICAgICAgICAgICAgICAgIGljb24gPSBJY29ucy5EZWZhdWx0LkZvbGRlcgogICAgICAgICAgICApLAogICAgICAgICAgICBQcmVzZXRDb21tYW5kKAogICAgICAgICAgICAgICAgbmFtZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9yb290X2RpciksCiAgICAgICAgICAgICAgICBjb21tYW5kID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX3Jvb3RfZGlyX2NtZCksCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9yb290X2Rpcl9kZXNjKSwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gQ29tbWFuZENhdGVnb3J5LkZJTEUsCiAgICAgICAgICAgICAgICBpY29uID0gSWNvbnMuRGVmYXVsdC5Gb2xkZXJPcGVuCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFByZXNldENvbW1hbmQoCiAgICAgICAgICAgICAgICBuYW1lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX3N0b3JhZ2UpLAogICAgICAgICAgICAgICAgY29tbWFuZCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9zdG9yYWdlX2NtZCksCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9zdG9yYWdlX2Rlc2MpLAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBDb21tYW5kQ2F0ZWdvcnkuRklMRSwKICAgICAgICAgICAgICAgIGljb24gPSBJY29ucy5EZWZhdWx0LlNkQ2FyZAogICAgICAgICAgICApLAogICAgICAgICAgICBQcmVzZXRDb21tYW5kKAogICAgICAgICAgICAgICAgbmFtZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9wcm9jZXNzKSwKICAgICAgICAgICAgICAgIGNvbW1hbmQgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfcHJvY2Vzc19jbWQpLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGVsbF9jbWRfcHJvY2Vzc19kZXNjKSwKICAgICAgICAgICAgICAgIGNhdGVnb3J5ID0gQ29tbWFuZENhdGVnb3J5LlNZU1RFTSwKICAgICAgICAgICAgICAgIGljb24gPSBJY29ucy5EZWZhdWx0LlZpZXdMaXN0CiAgICAgICAgICAgICksCiAgICAgICAgICAgIFByZXNldENvbW1hbmQoCiAgICAgICAgICAgICAgICBuYW1lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hlbGxfY21kX3Byb3BlcnRpZXMpLAogICAgICAgICAgICAgICAgY29tbWFuZCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9wcm9wZXJ0aWVzX2NtZCksCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoZWxsX2NtZF9wcm9wZXJ0aWVzX2Rlc2MpLAogICAgICAgICAgICAgICAgY2F0ZWdvcnkgPSBDb21tYW5kQ2F0ZWdvcnkuU1lTVEVNLAogICAgICAgICAgICAgICAgaWNvbiA9IEljb25zLkRlZmF1bHQuU2V0dGluZ3MKICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmt7vliqDoh6rlrprkuYnpooTorr7lkb3ku6QKICAgICAqLwogICAgc3VzcGVuZCBmdW4gYWRkQ3VzdG9tUHJlc2V0Q29tbWFuZChjb21tYW5kOiBQcmVzZXRDb21tYW5kKSB7CiAgICAgICAgLy8g5a6e546w5L+d5a2Y6Ieq5a6a5LmJ6aKE6K6+5ZG95Luk55qE6YC76L6RCiAgICB9CiAgICAKICAgIC8qKgogICAgICog6I635Y+W5ZG95Luk5Y6G5Y+y6K6w5b2VCiAgICAgKi8KICAgIGZ1biBnZXRDb21tYW5kSGlzdG9yeSgpOiBMaXN0PENvbW1hbmRSZWNvcmQ+IHsKICAgICAgICB2YWwgaGlzdG9yeUpzb24gPSBwcmVmcy5nZXRTdHJpbmcoS0VZX0NPTU1BTkRfSElTVE9SWSwgbnVsbCkgPzogcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIC8vIOWcqOWunumZheWunueOsOS4re+8jOS9v+eUqEpTT07op6PmnpDlupPlpoJHc29u5oiWTW9zaGnmnaXop6PmnpDljoblj7LorrDlvZUKICAgICAgICAgICAgLy8g5q2k5aSE5Li6566A5YyW77yM6L+U5Zue56m65YiX6KGoCiAgICAgICAgICAgIGVtcHR5TGlzdCgpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGVtcHR5TGlzdCgpCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOaJp+ihjFNoZWxs5ZG95LukCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGV4ZWN1dGVDb21tYW5kKGNvbW1hbmQ6IFN0cmluZyk6IENvbW1hbmRSZWNvcmQgewogICAgICAgIHZhbCByZXN1bHQgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICBBbmRyb2lkU2hlbGxFeGVjdXRvci5leGVjdXRlU2hlbGxDb21tYW5kKGNvbW1hbmQpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHZhbCByZWNvcmQgPSBDb21tYW5kUmVjb3JkKAogICAgICAgICAgICBjb21tYW5kID0gY29tbWFuZCwKICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0LAogICAgICAgICAgICB0aW1lc3RhbXAgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICkKICAgICAgICAKICAgICAgICAvLyDkv53lrZjliLDljoblj7LorrDlvZUKICAgICAgICBzYXZlQ29tbWFuZFRvSGlzdG9yeShyZWNvcmQpCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHJlY29yZAogICAgfQogICAgCiAgICAvKioKICAgICAqIOS/neWtmOWRveS7pOWIsOWOhuWPsuiusOW9lQogICAgICovCiAgICBwcml2YXRlIGZ1biBzYXZlQ29tbWFuZFRvSGlzdG9yeShyZWNvcmQ6IENvbW1hbmRSZWNvcmQpIHsKICAgICAgICB2YWwgaGlzdG9yeSA9IGdldENvbW1hbmRIaXN0b3J5KCkudG9NdXRhYmxlTGlzdCgpCiAgICAgICAgCiAgICAgICAgLy8g5aaC5p6c5bey5a2Y5Zyo55u45ZCM5ZG95Luk77yM56e76Zmk5pen6K6w5b2VCiAgICAgICAgaGlzdG9yeS5yZW1vdmVBbGwgeyBpdC5jb21tYW5kID09IHJlY29yZC5jb21tYW5kIH0KICAgICAgICAKICAgICAgICAvLyDmt7vliqDmlrDorrDlvZXliLDliJfooajlpLTpg6gKICAgICAgICBoaXN0b3J5LmFkZCgwLCByZWNvcmQpCiAgICAgICAgCiAgICAgICAgLy8g6ZmQ5Yi25Y6G5Y+y6K6w5b2V5aSn5bCPCiAgICAgICAgdmFsIHRyaW1tZWRIaXN0b3J5ID0gaGlzdG9yeS50YWtlKE1BWF9ISVNUT1JZX1NJWkUpCiAgICAgICAgCiAgICAgICAgLy8g5L+d5a2Y5YiwU2hhcmVkUHJlZmVyZW5jZXMKICAgICAgICAvLyDlnKjlrp7pmYXlrp7njrDkuK3vvIzkvb/nlKhKU09O5bqP5YiX5YyW5bqT5bCG5Y6G5Y+y6K6w5b2V6L2s5o2i5Li6SlNPTuWtl+espuS4sgogICAgICAgIC8vIHByZWZzLmVkaXQoKS5wdXRTdHJpbmcoS0VZX0NPTU1BTkRfSElTVE9SWSwganNvblN0cmluZykuYXBwbHkoKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOa4hemZpOWRveS7pOWOhuWPsgogICAgICovCiAgICBmdW4gY2xlYXJDb21tYW5kSGlzdG9yeSgpIHsKICAgICAgICBwcmVmcy5lZGl0KCkucmVtb3ZlKEtFWV9DT01NQU5EX0hJU1RPUlkpLmFwcGx5KCkKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDku47ljoblj7LorrDlvZXkuK3np7vpmaTmjIflrprlkb3ku6QKICAgICAqLwogICAgZnVuIHJlbW92ZUNvbW1hbmRGcm9tSGlzdG9yeShjb21tYW5kOiBTdHJpbmcpIHsKICAgICAgICB2YWwgaGlzdG9yeSA9IGdldENvbW1hbmRIaXN0b3J5KCkudG9NdXRhYmxlTGlzdCgpCiAgICAgICAgaGlzdG9yeS5yZW1vdmVBbGwgeyBpdC5jb21tYW5kID09IGNvbW1hbmQgfQogICAgICAgIAogICAgICAgIC8vIOS/neWtmOWIsFNoYXJlZFByZWZlcmVuY2VzCiAgICAgICAgLy8g5Zyo5a6e6ZmF5a6e546w5Lit77yM5L2/55SoSlNPTuW6j+WIl+WMluW6k+WwhuWOhuWPsuiusOW9lei9rOaNouS4ukpTT07lrZfnrKbkuLIKICAgICAgICAvLyBwcmVmcy5lZGl0KCkucHV0U3RyaW5nKEtFWV9DT01NQU5EX0hJU1RPUlksIGpzb25TdHJpbmcpLmFwcGx5KCkKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDojrflj5blu7rorq7nmoTlkb3ku6TliJfooajvvIjln7rkuo7ljoblj7LorrDlvZXlkozovpPlhaXnmoTliY3nvIDvvIkKICAgICAqLwogICAgZnVuIGdldFN1Z2dlc3RlZENvbW1hbmRzKHByZWZpeDogU3RyaW5nKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICBpZiAocHJlZml4LmlzQmxhbmsoKSkgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgCiAgICAgICAgdmFsIGhpc3RvcnkgPSBnZXRDb21tYW5kSGlzdG9yeSgpCiAgICAgICAgcmV0dXJuIGhpc3RvcnkKICAgICAgICAgICAgLm1hcCB7IGl0LmNvbW1hbmQgfQogICAgICAgICAgICAuZGlzdGluY3QoKQogICAgICAgICAgICAuZmlsdGVyIHsgaXQuc3RhcnRzV2l0aChwcmVmaXgsIGlnbm9yZUNhc2UgPSB0cnVlKSB9CiAgICAgICAgICAgIC50YWtlKDUpCiAgICB9Cn0g
+package com.bslsjdk.operit.ui.features.toolbox.screens.shellexecutor
+
+import android.content.Context
+import android.content.SharedPreferences
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.ui.graphics.vector.ImageVector
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.tools.system.AndroidShellExecutor
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import java.util.*
+
+/**
+ * Shell命令管理器 - 负责命令执行、历史记录管理等
+ */
+class ShellCommandManager(private val context: Context) {
+    
+    private val PREFS_NAME = "shell_executor_prefs"
+    private val KEY_COMMAND_HISTORY = "command_history"
+    private val MAX_HISTORY_SIZE = 100
+    
+    private val prefs: SharedPreferences by lazy {
+        context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+    }
+    
+    /**
+     * 获取预设命令列表
+     */
+    fun getPresetCommands(): List<PresetCommand> {
+        return listOf(
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_test),
+                command = context.getString(R.string.shell_cmd_test_command),
+                description = context.getString(R.string.shell_cmd_test_desc),
+                category = CommandCategory.SYSTEM,
+                icon = Icons.Default.Check
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_sys_info),
+                command = context.getString(R.string.shell_cmd_sys_info_cmd),
+                description = context.getString(R.string.shell_cmd_sys_info_desc),
+                category = CommandCategory.SYSTEM,
+                icon = Icons.Default.Info
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_disk),
+                command = context.getString(R.string.shell_cmd_disk_cmd),
+                description = context.getString(R.string.shell_cmd_disk_desc),
+                category = CommandCategory.SYSTEM,
+                icon = Icons.Default.Storage
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_memory),
+                command = context.getString(R.string.shell_cmd_memory_cmd),
+                description = context.getString(R.string.shell_cmd_memory_desc),
+                category = CommandCategory.HARDWARE,
+                icon = Icons.Default.Memory
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_cpu),
+                command = context.getString(R.string.shell_cmd_cpu_cmd),
+                description = context.getString(R.string.shell_cmd_cpu_desc),
+                category = CommandCategory.HARDWARE,
+                icon = Icons.Default.SettingsApplications
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_network),
+                command = context.getString(R.string.shell_cmd_network_cmd),
+                description = context.getString(R.string.shell_cmd_network_desc),
+                category = CommandCategory.NETWORK,
+                icon = Icons.Default.Wifi
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_route),
+                command = context.getString(R.string.shell_cmd_route_cmd),
+                description = context.getString(R.string.shell_cmd_route_desc),
+                category = CommandCategory.NETWORK,
+                icon = Icons.Default.Router
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_connection),
+                command = context.getString(R.string.shell_cmd_connection_cmd),
+                description = context.getString(R.string.shell_cmd_connection_desc),
+                category = CommandCategory.NETWORK,
+                icon = Icons.Default.NetworkCheck
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_installed_apps),
+                command = context.getString(R.string.shell_cmd_installed_apps_cmd),
+                description = context.getString(R.string.shell_cmd_installed_apps_desc),
+                category = CommandCategory.PACKAGE,
+                icon = Icons.Default.Apps
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_system_apps),
+                command = context.getString(R.string.shell_cmd_system_apps_cmd),
+                description = context.getString(R.string.shell_cmd_system_apps_desc),
+                category = CommandCategory.PACKAGE,
+                icon = Icons.Default.Android
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_3rd_apps),
+                command = context.getString(R.string.shell_cmd_3rd_apps_cmd),
+                description = context.getString(R.string.shell_cmd_3rd_apps_desc),
+                category = CommandCategory.PACKAGE,
+                icon = Icons.Default.AppShortcut
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_current_dir),
+                command = context.getString(R.string.shell_cmd_current_dir_cmd),
+                description = context.getString(R.string.shell_cmd_current_dir_desc),
+                category = CommandCategory.FILE,
+                icon = Icons.Default.Folder
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_root_dir),
+                command = context.getString(R.string.shell_cmd_root_dir_cmd),
+                description = context.getString(R.string.shell_cmd_root_dir_desc),
+                category = CommandCategory.FILE,
+                icon = Icons.Default.FolderOpen
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_storage),
+                command = context.getString(R.string.shell_cmd_storage_cmd),
+                description = context.getString(R.string.shell_cmd_storage_desc),
+                category = CommandCategory.FILE,
+                icon = Icons.Default.SdCard
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_process),
+                command = context.getString(R.string.shell_cmd_process_cmd),
+                description = context.getString(R.string.shell_cmd_process_desc),
+                category = CommandCategory.SYSTEM,
+                icon = Icons.Default.ViewList
+            ),
+            PresetCommand(
+                name = context.getString(R.string.shell_cmd_properties),
+                command = context.getString(R.string.shell_cmd_properties_cmd),
+                description = context.getString(R.string.shell_cmd_properties_desc),
+                category = CommandCategory.SYSTEM,
+                icon = Icons.Default.Settings
+            )
+        )
+    }
+    
+    /**
+     * 添加自定义预设命令
+     */
+    suspend fun addCustomPresetCommand(command: PresetCommand) {
+        // 实现保存自定义预设命令的逻辑
+    }
+    
+    /**
+     * 获取命令历史记录
+     */
+    fun getCommandHistory(): List<CommandRecord> {
+        val historyJson = prefs.getString(KEY_COMMAND_HISTORY, null) ?: return emptyList()
+        return try {
+            // 在实际实现中，使用JSON解析库如Gson或Moshi来解析历史记录
+            // 此处为简化，返回空列表
+            emptyList()
+        } catch (e: Exception) {
+            emptyList()
+        }
+    }
+    
+    /**
+     * 执行Shell命令
+     */
+    suspend fun executeCommand(command: String): CommandRecord {
+        val result = withContext(Dispatchers.IO) {
+            AndroidShellExecutor.executeShellCommand(command)
+        }
+        
+        val record = CommandRecord(
+            command = command,
+            result = result,
+            timestamp = System.currentTimeMillis()
+        )
+        
+        // 保存到历史记录
+        saveCommandToHistory(record)
+        
+        return record
+    }
+    
+    /**
+     * 保存命令到历史记录
+     */
+    private fun saveCommandToHistory(record: CommandRecord) {
+        val history = getCommandHistory().toMutableList()
+        
+        // 如果已存在相同命令，移除旧记录
+        history.removeAll { it.command == record.command }
+        
+        // 添加新记录到列表头部
+        history.add(0, record)
+        
+        // 限制历史记录大小
+        val trimmedHistory = history.take(MAX_HISTORY_SIZE)
+        
+        // 保存到SharedPreferences
+        // 在实际实现中，使用JSON序列化库将历史记录转换为JSON字符串
+        // prefs.edit().putString(KEY_COMMAND_HISTORY, jsonString).apply()
+    }
+    
+    /**
+     * 清除命令历史
+     */
+    fun clearCommandHistory() {
+        prefs.edit().remove(KEY_COMMAND_HISTORY).apply()
+    }
+    
+    /**
+     * 从历史记录中移除指定命令
+     */
+    fun removeCommandFromHistory(command: String) {
+        val history = getCommandHistory().toMutableList()
+        history.removeAll { it.command == command }
+        
+        // 保存到SharedPreferences
+        // 在实际实现中，使用JSON序列化库将历史记录转换为JSON字符串
+        // prefs.edit().putString(KEY_COMMAND_HISTORY, jsonString).apply()
+    }
+    
+    /**
+     * 获取建议的命令列表（基于历史记录和输入的前缀）
+     */
+    fun getSuggestedCommands(prefix: String): List<String> {
+        if (prefix.isBlank()) return emptyList()
+        
+        val history = getCommandHistory()
+        return history
+            .map { it.command }
+            .distinct()
+            .filter { it.startsWith(prefix, ignoreCase = true) }
+            .take(5)
+    }
+} 

@@ -1,1 +1,149 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uc2hlbGwKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uQW5kcm9pZFBlcm1pc3Npb25MZXZlbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuYW5kcm9pZFBlcm1pc3Npb25QcmVmZXJlbmNlcwoKLyoqIFNoZWxs5omn6KGM5Zmo5bel5Y6C57G7IOagueaNruadg+mZkOe6p+WIq+aPkOS+m+ebuOW6lOeahOaJp+ihjOWZqOWunuS+iyAqLwpjbGFzcyBTaGVsbEV4ZWN1dG9yRmFjdG9yeSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiU2hlbGxFeGVjdXRvckZhY3RvcnkiCgogICAgICAgIC8vIOe8k+WtmOW3suWIm+W7uueahOaJp+ihjOWZqOWunuS+iwogICAgICAgIHByaXZhdGUgdmFsIGV4ZWN1dG9ycyA9IG11dGFibGVNYXBPZjxBbmRyb2lkUGVybWlzc2lvbkxldmVsLCBTaGVsbEV4ZWN1dG9yPigpCgogICAgICAgIC8qKgogICAgICAgICAqIOiOt+WPluaMh+Wumuadg+mZkOe6p+WIq+eahFNoZWxs5omn6KGM5ZmoCiAgICAgICAgICogQHBhcmFtIGNvbnRleHQgQW5kcm9pZOS4iuS4i+aWhwogICAgICAgICAqIEBwYXJhbSBwZXJtaXNzaW9uTGV2ZWwg5omA6ZyA5p2D6ZmQ57qn5YirCiAgICAgICAgICogQHJldHVybiDlr7nlupTnmoRTaGVsbOaJp+ihjOWZqAogICAgICAgICAqLwogICAgICAgIGZ1biBnZXRFeGVjdXRvcihjb250ZXh0OiBDb250ZXh0LCBwZXJtaXNzaW9uTGV2ZWw6IEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwpOiBTaGVsbEV4ZWN1dG9yIHsKICAgICAgICAgICAgLy8gQXBwTG9nZ2VyLmQoVEFHLCAiUmVxdWVzdGVkIHNoZWxsIGV4ZWN1dG9yIGZvciBwZXJtaXNzaW9uIGxldmVsOiAkcGVybWlzc2lvbkxldmVsIikKCiAgICAgICAgICAgIC8vIOajgOafpee8k+WtmOS4reaYr+WQpuW3suacieivpee6p+WIq+eahOaJp+ihjOWZqAogICAgICAgICAgICBleGVjdXRvcnNbcGVybWlzc2lvbkxldmVsXT8ubGV0IHsKICAgICAgICAgICAgICAgIC8vIEFwcExvZ2dlci5kKFRBRywgIlJldHVybmluZyBjYWNoZWQgZXhlY3V0b3IgZm9yIGxldmVsOiAkcGVybWlzc2lvbkxldmVsIikKICAgICAgICAgICAgICAgIHJldHVybiBpdAogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDliJvlu7rmlrDnmoTmiafooYzlmajlrp7kvosKICAgICAgICAgICAgdmFsIGV4ZWN1dG9yID0KICAgICAgICAgICAgICAgICAgICB3aGVuIChwZXJtaXNzaW9uTGV2ZWwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5ST09UIC0+IFJvb3RTaGVsbEV4ZWN1dG9yKGNvbnRleHQpCiAgICAgICAgICAgICAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuQURNSU4gLT4gQWRtaW5TaGVsbEV4ZWN1dG9yKGNvbnRleHQpCiAgICAgICAgICAgICAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuREVCVUdHRVIgLT4gRGVidWdnZXJTaGVsbEV4ZWN1dG9yKGNvbnRleHQpCiAgICAgICAgICAgICAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuQUNDRVNTSUJJTElUWSAtPiBBY2Nlc3NpYmlsaXR5U2hlbGxFeGVjdXRvcihjb250ZXh0KQogICAgICAgICAgICAgICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLlNUQU5EQVJEIC0+IFN0YW5kYXJkU2hlbGxFeGVjdXRvcihjb250ZXh0KQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOWIneWni+WMluaJp+ihjOWZqAogICAgICAgICAgICBleGVjdXRvci5pbml0aWFsaXplKCkKCiAgICAgICAgICAgIC8vIOe8k+WtmOaJp+ihjOWZqAogICAgICAgICAgICBleGVjdXRvcnNbcGVybWlzc2lvbkxldmVsXSA9IGV4ZWN1dG9yCgogICAgICAgICAgICByZXR1cm4gZXhlY3V0b3IKICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOiOt+WPluW9k+WJjeiuvuWkh+aUr+aMgeeahOacgOmrmOadg+mZkOe6p+WIq+eahOaJp+ihjOWZqCDmjInmnYPpmZDku47pq5jliLDkvY7lsJ3or5XvvIzov5Tlm57nrKzkuIDkuKrlj6/nlKjnmoTmiafooYzlmagKICAgICAgICAgKiBAcGFyYW0gY29udGV4dCBBbmRyb2lk5LiK5LiL5paHCiAgICAgICAgICogQHJldHVybiDlj6/nlKjnmoTmnIDpq5jmnYPpmZBTaGVsbOaJp+ihjOWZqO+8jOS7peWPiuadg+mZkOeKtuaAgQogICAgICAgICAqLwogICAgICAgIGZ1biBnZXRIaWdoZXN0QXZhaWxhYmxlRXhlY3V0b3IoCiAgICAgICAgICAgICAgICBjb250ZXh0OiBDb250ZXh0CiAgICAgICAgKTogUGFpcjxTaGVsbEV4ZWN1dG9yLCBTaGVsbEV4ZWN1dG9yLlBlcm1pc3Npb25TdGF0dXM+IHsKCiAgICAgICAgICAgIC8vIOaMieadg+mZkOS7jumrmOWIsOS9juWwneivlQogICAgICAgICAgICB2YWwgbGV2ZWxzID0KICAgICAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLlJPT1QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLkFETUlOLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5ERUJVR0dFUiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuQUNDRVNTSUJJTElUWSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuU1RBTkRBUkQKICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICBmb3IgKGxldmVsIGluIGxldmVscykgewogICAgICAgICAgICAgICAgdmFsIGV4ZWN1dG9yID0gZ2V0RXhlY3V0b3IoY29udGV4dCwgbGV2ZWwpCiAgICAgICAgICAgICAgICB2YWwgcGVybVN0YXR1cyA9IGV4ZWN1dG9yLmhhc1Blcm1pc3Npb24oKQoKICAgICAgICAgICAgICAgIGlmIChleGVjdXRvci5pc0F2YWlsYWJsZSgpICYmIHBlcm1TdGF0dXMuZ3JhbnRlZCkgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkZvdW5kIGhpZ2hlc3QgYXZhaWxhYmxlIGV4ZWN1dG9yOiAke2V4ZWN1dG9yLmdldFBlcm1pc3Npb25MZXZlbCgpfSIpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFBhaXIoZXhlY3V0b3IsIHBlcm1TdGF0dXMpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOWmguaenOayoeacieaJvuWIsOWPr+eUqOeahOaJp+ihjOWZqO+8jOi/lOWbnuagh+WHhuaJp+ihjOWZqO+8iOiHs+WwkeiDveaJp+ihjOWfuuacrOWRveS7pO+8iQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJObyBhdmFpbGFibGUgZXhlY3V0b3IgZm91bmQsIGZhbGxpbmcgYmFjayB0byBTVEFOREFSRCIpCiAgICAgICAgICAgIHZhbCBzdGFuZGFyZEV4ZWN1dG9yID0gZ2V0RXhlY3V0b3IoY29udGV4dCwgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5TVEFOREFSRCkKICAgICAgICAgICAgcmV0dXJuIFBhaXIoc3RhbmRhcmRFeGVjdXRvciwgc3RhbmRhcmRFeGVjdXRvci5oYXNQZXJtaXNzaW9uKCkpCiAgICAgICAgfQoKICAgICAgICAvKioKICAgICAgICAgKiDojrflj5bnlKjmiLfpppbpgInnmoRTaGVsbOaJp+ihjOWZqO+8jOW/veeVpeWPr+eUqOaAp+ajgOafpQogICAgICAgICAqIEBwYXJhbSBjb250ZXh0IEFuZHJvaWTkuIrkuIvmlocKICAgICAgICAgKiBAcmV0dXJuIOeUqOaIt+mmlumAieeahFNoZWxs5omn6KGM5ZmoCiAgICAgICAgICovCiAgICAgICAgZnVuIGdldFVzZXJQcmVmZXJyZWRFeGVjdXRvcihjb250ZXh0OiBDb250ZXh0KTogU2hlbGxFeGVjdXRvciB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcHJlZmVycmVkTGV2ZWwgPSBhbmRyb2lkUGVybWlzc2lvblByZWZlcmVuY2VzLmdldFByZWZlcnJlZFBlcm1pc3Npb25MZXZlbCgpCiAgICAgICAgICAgICAgICAvLyDlpoLmnpxwcmVmZXJyZWRMZXZlbOS4um51bGzvvIzkvb/nlKjmoIflh4bmnYPpmZDnuqfliKsKICAgICAgICAgICAgICAgIHZhbCBhY3R1YWxMZXZlbCA9IHByZWZlcnJlZExldmVsID86IEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuU1RBTkRBUkQKICAgICAgICAgICAgICAgIHJldHVybiBnZXRFeGVjdXRvcihjb250ZXh0LCBhY3R1YWxMZXZlbCkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBnZXR0aW5nIHByZWZlcnJlZCBwZXJtaXNzaW9uIGxldmVsLCBmYWxsaW5nIGJhY2sgdG8gU1RBTkRBUkQiLCBlKQogICAgICAgICAgICAgICAgcmV0dXJuIGdldEV4ZWN1dG9yKGNvbnRleHQsIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuU1RBTkRBUkQpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOiOt+WPluWPr+eUqOeahOacgOmrmOadg+mZkFNoZWxs5omn6KGM5Zmo77yM55So5LqO5ZCR5ZCO5YW85a65CiAgICAgICAgICogQHBhcmFtIGNvbnRleHQgQW5kcm9pZOS4iuS4i+aWhwogICAgICAgICAqIEByZXR1cm4g5Y+v55So55qE5pyA6auY5p2D6ZmQU2hlbGzmiafooYzlmagKICAgICAgICAgKi8KICAgICAgICBmdW4gZ2V0SGlnaGVzdEF2YWlsYWJsZUV4ZWN1dG9yTGVnYWN5KGNvbnRleHQ6IENvbnRleHQpOiBTaGVsbEV4ZWN1dG9yIHsKICAgICAgICAgICAgdmFsIChleGVjdXRvciwgXykgPSBnZXRIaWdoZXN0QXZhaWxhYmxlRXhlY3V0b3IoY29udGV4dCkKICAgICAgICAgICAgcmV0dXJuIGV4ZWN1dG9yCiAgICAgICAgfQoKICAgICAgICAvKioKICAgICAgICAgKiDmuIXpmaTnibnlrprnuqfliKvnmoTmiafooYzlmajnvJPlrZgKICAgICAgICAgKiBAcGFyYW0gcGVybWlzc2lvbkxldmVsIOimgea4hemZpOeahOadg+mZkOe6p+WIq++8jG51bGzooajnpLrmuIXpmaTmiYDmnIkKICAgICAgICAgKi8KICAgICAgICBmdW4gY2xlYXJDYWNoZShwZXJtaXNzaW9uTGV2ZWw6IEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWw/ID0gbnVsbCkgewogICAgICAgICAgICBpZiAocGVybWlzc2lvbkxldmVsICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGV4ZWN1dG9ycy5yZW1vdmUocGVybWlzc2lvbkxldmVsKQogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQ2xlYXJlZCBleGVjdXRvciBjYWNoZSBmb3IgbGV2ZWw6ICRwZXJtaXNzaW9uTGV2ZWwiKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgZXhlY3V0b3JzLmNsZWFyKCkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkNsZWFyZWQgYWxsIGV4ZWN1dG9yIGNhY2hlcyIpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOiOt+WPluaJgOacieWPr+eUqOeahOaJp+ihjOWZqOWPiuWFtuadg+mZkOeKtuaAgSDov5nlr7nkuo7osIPor5XlkozmmL7npLrnu5nnlKjmiLfpgInmi6nlj6/nlKjnmoTmiafooYzmlrnlvI/lvojmnInnlKgKICAgICAgICAgKiBAcGFyYW0gY29udGV4dCBBbmRyb2lk5LiK5LiL5paHCiAgICAgICAgICogQHJldHVybiDmnYPpmZDnuqfliKvliLDmiafooYzlmajlkozmnYPpmZDnirbmgIHnmoTmmKDlsIQKICAgICAgICAgKi8KICAgICAgICBmdW4gZ2V0QXZhaWxhYmxlRXhlY3V0b3JzKAogICAgICAgICAgICAgICAgY29udGV4dDogQ29udGV4dAogICAgICAgICk6IE1hcDxBbmRyb2lkUGVybWlzc2lvbkxldmVsLCBQYWlyPFNoZWxsRXhlY3V0b3IsIFNoZWxsRXhlY3V0b3IuUGVybWlzc2lvblN0YXR1cz4+IHsKICAgICAgICAgICAgdmFsIHJlc3VsdCA9CiAgICAgICAgICAgICAgICAgICAgbXV0YWJsZU1hcE9mPAogICAgICAgICAgICAgICAgICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFBhaXI8U2hlbGxFeGVjdXRvciwgU2hlbGxFeGVjdXRvci5QZXJtaXNzaW9uU3RhdHVzPj4oKQoKICAgICAgICAgICAgZm9yIChsZXZlbCBpbiBBbmRyb2lkUGVybWlzc2lvbkxldmVsLnZhbHVlcygpKSB7CiAgICAgICAgICAgICAgICB2YWwgZXhlY3V0b3IgPSBnZXRFeGVjdXRvcihjb250ZXh0LCBsZXZlbCkKICAgICAgICAgICAgICAgIHZhbCBzdGF0dXMgPSBleGVjdXRvci5oYXNQZXJtaXNzaW9uKCkKCiAgICAgICAgICAgICAgICByZXN1bHRbbGV2ZWxdID0gUGFpcihleGVjdXRvciwgc3RhdHVzKQogICAgICAgICAgICB9CgogICAgICAgICAgICByZXR1cm4gcmVzdWx0CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.system.shell
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+import com.bslsjdk.operit.data.preferences.androidPermissionPreferences
+
+/** Shell执行器工厂类 根据权限级别提供相应的执行器实例 */
+class ShellExecutorFactory {
+    companion object {
+        private const val TAG = "ShellExecutorFactory"
+
+        // 缓存已创建的执行器实例
+        private val executors = mutableMapOf<AndroidPermissionLevel, ShellExecutor>()
+
+        /**
+         * 获取指定权限级别的Shell执行器
+         * @param context Android上下文
+         * @param permissionLevel 所需权限级别
+         * @return 对应的Shell执行器
+         */
+        fun getExecutor(context: Context, permissionLevel: AndroidPermissionLevel): ShellExecutor {
+            // AppLogger.d(TAG, "Requested shell executor for permission level: $permissionLevel")
+
+            // 检查缓存中是否已有该级别的执行器
+            executors[permissionLevel]?.let {
+                // AppLogger.d(TAG, "Returning cached executor for level: $permissionLevel")
+                return it
+            }
+
+            // 创建新的执行器实例
+            val executor =
+                    when (permissionLevel) {
+                        AndroidPermissionLevel.ROOT -> RootShellExecutor(context)
+                        AndroidPermissionLevel.ADMIN -> AdminShellExecutor(context)
+                        AndroidPermissionLevel.DEBUGGER -> DebuggerShellExecutor(context)
+                        AndroidPermissionLevel.ACCESSIBILITY -> AccessibilityShellExecutor(context)
+                        AndroidPermissionLevel.STANDARD -> StandardShellExecutor(context)
+                    }
+
+            // 初始化执行器
+            executor.initialize()
+
+            // 缓存执行器
+            executors[permissionLevel] = executor
+
+            return executor
+        }
+
+        /**
+         * 获取当前设备支持的最高权限级别的执行器 按权限从高到低尝试，返回第一个可用的执行器
+         * @param context Android上下文
+         * @return 可用的最高权限Shell执行器，以及权限状态
+         */
+        fun getHighestAvailableExecutor(
+                context: Context
+        ): Pair<ShellExecutor, ShellExecutor.PermissionStatus> {
+
+            // 按权限从高到低尝试
+            val levels =
+                    listOf(
+                            AndroidPermissionLevel.ROOT,
+                            AndroidPermissionLevel.ADMIN,
+                            AndroidPermissionLevel.DEBUGGER,
+                            AndroidPermissionLevel.ACCESSIBILITY,
+                            AndroidPermissionLevel.STANDARD
+                    )
+
+            for (level in levels) {
+                val executor = getExecutor(context, level)
+                val permStatus = executor.hasPermission()
+
+                if (executor.isAvailable() && permStatus.granted) {
+                    AppLogger.d(TAG, "Found highest available executor: ${executor.getPermissionLevel()}")
+                    return Pair(executor, permStatus)
+                }
+            }
+
+            // 如果没有找到可用的执行器，返回标准执行器（至少能执行基本命令）
+            AppLogger.d(TAG, "No available executor found, falling back to STANDARD")
+            val standardExecutor = getExecutor(context, AndroidPermissionLevel.STANDARD)
+            return Pair(standardExecutor, standardExecutor.hasPermission())
+        }
+
+        /**
+         * 获取用户首选的Shell执行器，忽略可用性检查
+         * @param context Android上下文
+         * @return 用户首选的Shell执行器
+         */
+        fun getUserPreferredExecutor(context: Context): ShellExecutor {
+            try {
+                val preferredLevel = androidPermissionPreferences.getPreferredPermissionLevel()
+                // 如果preferredLevel为null，使用标准权限级别
+                val actualLevel = preferredLevel ?: AndroidPermissionLevel.STANDARD
+                return getExecutor(context, actualLevel)
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error getting preferred permission level, falling back to STANDARD", e)
+                return getExecutor(context, AndroidPermissionLevel.STANDARD)
+            }
+        }
+
+        /**
+         * 获取可用的最高权限Shell执行器，用于向后兼容
+         * @param context Android上下文
+         * @return 可用的最高权限Shell执行器
+         */
+        fun getHighestAvailableExecutorLegacy(context: Context): ShellExecutor {
+            val (executor, _) = getHighestAvailableExecutor(context)
+            return executor
+        }
+
+        /**
+         * 清除特定级别的执行器缓存
+         * @param permissionLevel 要清除的权限级别，null表示清除所有
+         */
+        fun clearCache(permissionLevel: AndroidPermissionLevel? = null) {
+            if (permissionLevel != null) {
+                executors.remove(permissionLevel)
+                AppLogger.d(TAG, "Cleared executor cache for level: $permissionLevel")
+            } else {
+                executors.clear()
+                AppLogger.d(TAG, "Cleared all executor caches")
+            }
+        }
+
+        /**
+         * 获取所有可用的执行器及其权限状态 这对于调试和显示给用户选择可用的执行方式很有用
+         * @param context Android上下文
+         * @return 权限级别到执行器和权限状态的映射
+         */
+        fun getAvailableExecutors(
+                context: Context
+        ): Map<AndroidPermissionLevel, Pair<ShellExecutor, ShellExecutor.PermissionStatus>> {
+            val result =
+                    mutableMapOf<
+                            AndroidPermissionLevel,
+                            Pair<ShellExecutor, ShellExecutor.PermissionStatus>>()
+
+            for (level in AndroidPermissionLevel.values()) {
+                val executor = getExecutor(context, level)
+                val status = executor.hasPermission()
+
+                result[level] = Pair(executor, status)
+            }
+
+            return result
+        }
+    }
+}

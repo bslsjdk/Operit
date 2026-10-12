@@ -1,1 +1,325 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLk11dGFibGVQcmVmZXJlbmNlcwppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuUHJlZmVyZW5jZXMKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmJvb2xlYW5QcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuZWRpdAppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuaW50UHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLnN0cmluZ1ByZWZlcmVuY2VzS2V5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXBwbGljYXRpb24uT3Blcml0QXBwbGljYXRpb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lm1hcAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlY29kZUZyb21TdHJpbmcKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKcHJpdmF0ZSB2YWwgQ29udGV4dC53YWtlV29yZFByZWZlcmVuY2VzRGF0YVN0b3JlOiBEYXRhU3RvcmU8UHJlZmVyZW5jZXM+IGJ5CiAgICB2ZXJzaW9uZWRQcmVmZXJlbmNlc0RhdGFTdG9yZSgKICAgICAgICBuYW1lID0gIndha2Vfd29yZF9wcmVmZXJlbmNlcyIsCiAgICAgICAgY3VycmVudFZlcnNpb24gPSAxLAogICAgKSB7IGFwcENvbnRleHQgLT4KICAgICAgICBXYWtlV29yZFByZWZlcmVuY2VzLnNjaGVtYU1pZ3JhdGlvbihhcHBDb250ZXh0KQogICAgfQoKY2xhc3MgV2FrZVdvcmRQcmVmZXJlbmNlcyhwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CgogICAgcHJpdmF0ZSB2YWwgZGF0YVN0b3JlID0gY29udGV4dC53YWtlV29yZFByZWZlcmVuY2VzRGF0YVN0b3JlCgogICAgcHJpdmF0ZSB2YWwganNvbiA9IFdha2VXb3JkUHJlZmVyZW5jZXMuanNvbgoKICAgIEBTZXJpYWxpemFibGUKICAgIGVudW0gY2xhc3MgV2FrZVJlY29nbml0aW9uTW9kZSB7CiAgICAgICAgU1RULAogICAgICAgIFBFUlNPTkFMX1RFTVBMQVRFLAogICAgfQoKICAgIEBTZXJpYWxpemFibGUKICAgIGRhdGEgY2xhc3MgUGVyc29uYWxXYWtlVGVtcGxhdGUoCiAgICAgICAgdmFsIGZlYXR1cmVzOiBMaXN0PEZsb2F0PiwKICAgICkKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIHZhbCBLRVlfQUxXQVlTX0xJU1RFTklOR19FTkFCTEVEID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCJhbHdheXNfbGlzdGVuaW5nX2VuYWJsZWQiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9XQUtFX1BIUkFTRSA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJ3YWtlX3BocmFzZSIpCiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX1dBS0VfUEhSQVNFX1JFR0VYX0VOQUJMRUQgPSBib29sZWFuUHJlZmVyZW5jZXNLZXkoIndha2VfcGhyYXNlX3JlZ2V4X2VuYWJsZWQiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9XQUtFX1JFQ09HTklUSU9OX01PREUgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgid2FrZV9yZWNvZ25pdGlvbl9tb2RlIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfUEVSU09OQUxfV0FLRV9URU1QTEFURVNfSlNPTiA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJwZXJzb25hbF93YWtlX3RlbXBsYXRlc19qc29uIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfVk9JQ0VfQ0FMTF9JTkFDVElWSVRZX1RJTUVPVVRfU0VDT05EUyA9CiAgICAgICAgICAgIGludFByZWZlcmVuY2VzS2V5KCJ2b2ljZV9jYWxsX2luYWN0aXZpdHlfdGltZW91dF9zZWNvbmRzIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfV0FLRV9HUkVFVElOR19FTkFCTEVEID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCJ3YWtlX2dyZWV0aW5nX2VuYWJsZWQiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9XQUtFX0dSRUVUSU5HX1RFWFQgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgid2FrZV9ncmVldGluZ190ZXh0IikKCiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX1dBS0VfQ1JFQVRFX05FV19DSEFUX09OX1dBS0VfRU5BQkxFRCA9CiAgICAgICAgICAgIGJvb2xlYW5QcmVmZXJlbmNlc0tleSgid2FrZV9jcmVhdGVfbmV3X2NoYXRfb25fd2FrZV9lbmFibGVkIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfQVVUT19ORVdfQ0hBVF9HUk9VUCA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJhdXRvX25ld19jaGF0X2dyb3VwIikKCiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZX1ZPSUNFX0FVVE9fQVRUQUNIX0VOQUJMRUQgPSBib29sZWFuUHJlZmVyZW5jZXNLZXkoInZvaWNlX2F1dG9fYXR0YWNoX2VuYWJsZWQiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9WT0lDRV9BVVRPX0FUVEFDSF9JVEVNU19KU09OID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoInZvaWNlX2F1dG9fYXR0YWNoX2l0ZW1zX2pzb24iKQoKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9XQUtFX1BIUkFTRV9SRUdFWF9FTkFCTEVEID0gZmFsc2UKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9BTFdBWVNfTElTVEVOSU5HX0VOQUJMRUQgPSBmYWxzZQogICAgICAgIGNvbnN0IHZhbCBERUZBVUxUX1dBS0VfUkVDT0dOSVRJT05fTU9ERSA9ICJzdHQiCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfVk9JQ0VfQ0FMTF9JTkFDVElWSVRZX1RJTUVPVVRfU0VDT05EUyA9IDUKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9XQUtFX0dSRUVUSU5HX0VOQUJMRUQgPSB0cnVlCgogICAgICAgIGNvbnN0IHZhbCBERUZBVUxUX1dBS0VfQ1JFQVRFX05FV19DSEFUX09OX1dBS0VfRU5BQkxFRCA9IGZhbHNlCgogICAgICAgIC8vIERlZmF1bHQgc3RyaW5nIHZhbHVlcyB1c2luZyBSLnN0cmluZyByZWZlcmVuY2VzCiAgICAgICAgdmFsIERFRkFVTFRfV0FLRV9QSFJBU0U6IFN0cmluZyBieSBsYXp5IHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBPcGVyaXRBcHBsaWNhdGlvbi5pbnN0YW5jZS5nZXRTdHJpbmcoUi5zdHJpbmcud2FrZV93b3JkX2RlZmF1bHQpIH0KICAgICAgICAgICAgICAgIC5nZXRPckRlZmF1bHQoIiIpCiAgICAgICAgfQogICAgICAgIHZhbCBERUZBVUxUX1dBS0VfR1JFRVRJTkdfVEVYVDogU3RyaW5nIGJ5IGxhenkgewogICAgICAgICAgICBydW5DYXRjaGluZyB7IE9wZXJpdEFwcGxpY2F0aW9uLmluc3RhbmNlLmdldFN0cmluZyhSLnN0cmluZy53YWtlX3dvcmRfcmVzcG9uc2UpIH0KICAgICAgICAgICAgICAgIC5nZXRPckRlZmF1bHQoIiIpCiAgICAgICAgfQogICAgICAgIHZhbCBERUZBVUxUX0FVVE9fTkVXX0NIQVRfR1JPVVA6IFN0cmluZyBieSBsYXp5IHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBPcGVyaXRBcHBsaWNhdGlvbi5pbnN0YW5jZS5nZXRTdHJpbmcoUi5zdHJpbmcud2FrZV93b3JkX2dsb2JhbF9hc3Npc3RhbnQpIH0KICAgICAgICAgICAgICAgIC5nZXRPckRlZmF1bHQoIiIpCiAgICAgICAgfQoKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9WT0lDRV9BVVRPX0FUVEFDSF9FTkFCTEVEID0gdHJ1ZQoKICAgICAgICBpbnRlcm5hbCB2YWwganNvbiA9IEpzb24gewogICAgICAgICAgICBpZ25vcmVVbmtub3duS2V5cyA9IHRydWUKICAgICAgICAgICAgZW5jb2RlRGVmYXVsdHMgPSB0cnVlCiAgICAgICAgICAgIGV4cGxpY2l0TnVsbHMgPSBmYWxzZQogICAgICAgIH0KCiAgICAgICAgZnVuIGdldERlZmF1bHRWb2ljZUF1dG9BdHRhY2hJdGVtcyhjb250ZXh0OiBDb250ZXh0KTogTGlzdDxWb2ljZUF1dG9BdHRhY2hJdGVtPiA9CiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIFZvaWNlQXV0b0F0dGFjaEl0ZW0oCiAgICAgICAgICAgICAgICAgICAgaWQgPSAic2NyZWVuX29jciIsCiAgICAgICAgICAgICAgICAgICAgdHlwZSA9IFZvaWNlQXV0b0F0dGFjaFR5cGUuU0NSRUVOX09DUiwKICAgICAgICAgICAgICAgICAgICBlbmFibGVkID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICBrZXl3b3JkcyA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLndha2Vfd29yZF9zY3JlZW4pCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgVm9pY2VBdXRvQXR0YWNoSXRlbSgKICAgICAgICAgICAgICAgICAgICBpZCA9ICJub3RpZmljYXRpb25zIiwKICAgICAgICAgICAgICAgICAgICB0eXBlID0gVm9pY2VBdXRvQXR0YWNoVHlwZS5OT1RJRklDQVRJT05TLAogICAgICAgICAgICAgICAgICAgIGVuYWJsZWQgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgIGtleXdvcmRzID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcud2FrZV93b3JkX25vdGlmaWNhdGlvbikKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBWb2ljZUF1dG9BdHRhY2hJdGVtKAogICAgICAgICAgICAgICAgICAgIGlkID0gImxvY2F0aW9uIiwKICAgICAgICAgICAgICAgICAgICB0eXBlID0gVm9pY2VBdXRvQXR0YWNoVHlwZS5MT0NBVElPTiwKICAgICAgICAgICAgICAgICAgICBlbmFibGVkID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICBrZXl3b3JkcyA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLndha2Vfd29yZF93aGljaF9sb2NhdGlvbikKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBWb2ljZUF1dG9BdHRhY2hJdGVtKAogICAgICAgICAgICAgICAgICAgIGlkID0gInRpbWUiLAogICAgICAgICAgICAgICAgICAgIHR5cGUgPSBWb2ljZUF1dG9BdHRhY2hUeXBlLlRJTUUsCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlZCA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAga2V5d29yZHMgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy53YWtlX3dvcmRfdGltZV9xdWVyeSkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgICAgICBpbnRlcm5hbCBmdW4gc2NoZW1hTWlncmF0aW9uKGNvbnRleHQ6IENvbnRleHQpOiBQcmVmZXJlbmNlc1NjaGVtYU1pZ3JhdGlvbiB7CiAgICAgICAgICAgIHJldHVybiBwcmVmZXJlbmNlU2NoZW1hTWlncmF0aW9uIHsgdmVyc2lvbiwgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgICAgIHdoZW4gKHZlcnNpb24pIHsKICAgICAgICAgICAgICAgICAgICAwIC0+IG1pZ3JhdGVQcmVmZXJlbmNlc0Zyb21WZXJzaW9uWmVybyhjb250ZXh0LCBwcmVmZXJlbmNlcykKICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IG1pc3NpbmdQcmVmZXJlbmNlc1NjaGVtYU1pZ3JhdGlvbih2ZXJzaW9uKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biBtaWdyYXRlUHJlZmVyZW5jZXNGcm9tVmVyc2lvblplcm8oCiAgICAgICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgICAgIHByZWZlcmVuY2VzOiBNdXRhYmxlUHJlZmVyZW5jZXMsCiAgICAgICAgKSB7CiAgICAgICAgICAgIHZhbCByYXcgPSBwcmVmZXJlbmNlc1tLRVlfVk9JQ0VfQVVUT19BVFRBQ0hfSVRFTVNfSlNPTl0KICAgICAgICAgICAgaWYgKHJhdy5pc051bGxPckJsYW5rKCkpIHJldHVybgoKICAgICAgICAgICAgdmFsIGV4aXN0aW5nSXRlbXMgPSBydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICBqc29uLmRlY29kZUZyb21TdHJpbmc8TGlzdDxWb2ljZUF1dG9BdHRhY2hJdGVtPj4ocmF3KQogICAgICAgICAgICB9LmdldE9yTnVsbCgpID86IHJldHVybgogICAgICAgICAgICB2YWwgdXNlZFR5cGVzID0gZXhpc3RpbmdJdGVtcy5tYXAgeyBpdC50eXBlIH0udG9TZXQoKQogICAgICAgICAgICB2YWwgbWlzc2luZ0RlZmF1bHRzID0gZ2V0RGVmYXVsdFZvaWNlQXV0b0F0dGFjaEl0ZW1zKGNvbnRleHQpCiAgICAgICAgICAgICAgICAuZmlsdGVyTm90IHsgdXNlZFR5cGVzLmNvbnRhaW5zKGl0LnR5cGUpIH0KCiAgICAgICAgICAgIGlmIChtaXNzaW5nRGVmYXVsdHMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfVk9JQ0VfQVVUT19BVFRBQ0hfSVRFTVNfSlNPTl0gPQogICAgICAgICAgICAgICAgICAgIGpzb24uZW5jb2RlVG9TdHJpbmcoZXhpc3RpbmdJdGVtcyArIG1pc3NpbmdEZWZhdWx0cykKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBAU2VyaWFsaXphYmxlCiAgICBlbnVtIGNsYXNzIFZvaWNlQXV0b0F0dGFjaFR5cGUgewogICAgICAgIFNDUkVFTl9PQ1IsCiAgICAgICAgTk9USUZJQ0FUSU9OUywKICAgICAgICBMT0NBVElPTiwKICAgICAgICBUSU1FCiAgICB9CgogICAgQFNlcmlhbGl6YWJsZQogICAgZGF0YSBjbGFzcyBWb2ljZUF1dG9BdHRhY2hJdGVtKAogICAgICAgIHZhbCBpZDogU3RyaW5nLAogICAgICAgIHZhbCB0eXBlOiBWb2ljZUF1dG9BdHRhY2hUeXBlLAogICAgICAgIHZhbCBlbmFibGVkOiBCb29sZWFuID0gdHJ1ZSwKICAgICAgICB2YWwga2V5d29yZHM6IFN0cmluZyA9ICIiLAogICAgICAgIHZhbCBwYXJhbXM6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpCiAgICApCgogICAgdmFsIGFsd2F5c0xpc3RlbmluZ0VuYWJsZWRGbG93OiBGbG93PEJvb2xlYW4+ID0KICAgICAgICBkYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tLRVlfQUxXQVlTX0xJU1RFTklOR19FTkFCTEVEXSA/OiBERUZBVUxUX0FMV0FZU19MSVNURU5JTkdfRU5BQkxFRAogICAgICAgIH0KCiAgICB2YWwgd2FrZVBocmFzZUZsb3c6IEZsb3c8U3RyaW5nPiA9CiAgICAgICAgZGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZnMgLT4KICAgICAgICAgICAgcHJlZnNbS0VZX1dBS0VfUEhSQVNFXSA/OiBERUZBVUxUX1dBS0VfUEhSQVNFCiAgICAgICAgfQoKICAgIHZhbCB3YWtlUGhyYXNlUmVnZXhFbmFibGVkRmxvdzogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgZGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZnMgLT4KICAgICAgICAgICAgcHJlZnNbS0VZX1dBS0VfUEhSQVNFX1JFR0VYX0VOQUJMRURdID86IERFRkFVTFRfV0FLRV9QSFJBU0VfUkVHRVhfRU5BQkxFRAogICAgICAgIH0KCiAgICB2YWwgd2FrZVJlY29nbml0aW9uTW9kZUZsb3c6IEZsb3c8V2FrZVJlY29nbml0aW9uTW9kZT4gPQogICAgICAgIGRhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZzIC0+CiAgICAgICAgICAgIHZhbCByYXcgPSBwcmVmc1tLRVlfV0FLRV9SRUNPR05JVElPTl9NT0RFXSA/OiBERUZBVUxUX1dBS0VfUkVDT0dOSVRJT05fTU9ERQogICAgICAgICAgICB3aGVuIChyYXcubG93ZXJjYXNlKCkpIHsKICAgICAgICAgICAgICAgICJwZXJzb25hbF90ZW1wbGF0ZSIgLT4gV2FrZVJlY29nbml0aW9uTW9kZS5QRVJTT05BTF9URU1QTEFURQogICAgICAgICAgICAgICAgInN0dCIgLT4gV2FrZVJlY29nbml0aW9uTW9kZS5TVFQKICAgICAgICAgICAgICAgIGVsc2UgLT4gV2FrZVJlY29nbml0aW9uTW9kZS5TVFQKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICB2YWwgcGVyc29uYWxXYWtlVGVtcGxhdGVzRmxvdzogRmxvdzxMaXN0PFBlcnNvbmFsV2FrZVRlbXBsYXRlPj4gPQogICAgICAgIGRhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZzIC0+CiAgICAgICAgICAgIHZhbCByYXcgPSBwcmVmc1tLRVlfUEVSU09OQUxfV0FLRV9URU1QTEFURVNfSlNPTl0KICAgICAgICAgICAgaWYgKHJhdy5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgIGVtcHR5TGlzdCgpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBydW5DYXRjaGluZyB7IGpzb24uZGVjb2RlRnJvbVN0cmluZzxMaXN0PFBlcnNvbmFsV2FrZVRlbXBsYXRlPj4ocmF3KSB9CiAgICAgICAgICAgICAgICAgICAgLmdldE9yRGVmYXVsdChlbXB0eUxpc3QoKSkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICB2YWwgdm9pY2VDYWxsSW5hY3Rpdml0eVRpbWVvdXRTZWNvbmRzRmxvdzogRmxvdzxJbnQ+ID0KICAgICAgICBkYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tLRVlfVk9JQ0VfQ0FMTF9JTkFDVElWSVRZX1RJTUVPVVRfU0VDT05EU10KICAgICAgICAgICAgICAgID86IERFRkFVTFRfVk9JQ0VfQ0FMTF9JTkFDVElWSVRZX1RJTUVPVVRfU0VDT05EUwogICAgICAgIH0KCiAgICB2YWwgd2FrZUdyZWV0aW5nRW5hYmxlZEZsb3c6IEZsb3c8Qm9vbGVhbj4gPQogICAgICAgIGRhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZzIC0+CiAgICAgICAgICAgIHByZWZzW0tFWV9XQUtFX0dSRUVUSU5HX0VOQUJMRURdID86IERFRkFVTFRfV0FLRV9HUkVFVElOR19FTkFCTEVECiAgICAgICAgfQoKICAgIHZhbCB3YWtlR3JlZXRpbmdUZXh0RmxvdzogRmxvdzxTdHJpbmc+ID0KICAgICAgICBkYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tLRVlfV0FLRV9HUkVFVElOR19URVhUXSA/OiBERUZBVUxUX1dBS0VfR1JFRVRJTkdfVEVYVAogICAgICAgIH0KCiAgICB2YWwgd2FrZUNyZWF0ZU5ld0NoYXRPbldha2VFbmFibGVkRmxvdzogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgZGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZnMgLT4KICAgICAgICAgICAgcHJlZnNbS0VZX1dBS0VfQ1JFQVRFX05FV19DSEFUX09OX1dBS0VfRU5BQkxFRF0KICAgICAgICAgICAgICAgID86IERFRkFVTFRfV0FLRV9DUkVBVEVfTkVXX0NIQVRfT05fV0FLRV9FTkFCTEVECiAgICAgICAgfQoKICAgIHZhbCBhdXRvTmV3Q2hhdEdyb3VwRmxvdzogRmxvdzxTdHJpbmc+ID0KICAgICAgICBkYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tLRVlfQVVUT19ORVdfQ0hBVF9HUk9VUF0gPzogREVGQVVMVF9BVVRPX05FV19DSEFUX0dST1VQCiAgICAgICAgfQoKICAgIHZhbCB2b2ljZUF1dG9BdHRhY2hFbmFibGVkRmxvdzogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgZGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZnMgLT4KICAgICAgICAgICAgcHJlZnNbS0VZX1ZPSUNFX0FVVE9fQVRUQUNIX0VOQUJMRURdID86IERFRkFVTFRfVk9JQ0VfQVVUT19BVFRBQ0hfRU5BQkxFRAogICAgICAgIH0KCiAgICB2YWwgdm9pY2VBdXRvQXR0YWNoSXRlbXNGbG93OiBGbG93PExpc3Q8Vm9pY2VBdXRvQXR0YWNoSXRlbT4+ID0KICAgICAgICBkYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmcyAtPgogICAgICAgICAgICB2YWwgcmF3ID0gcHJlZnNbS0VZX1ZPSUNFX0FVVE9fQVRUQUNIX0lURU1TX0pTT05dCiAgICAgICAgICAgIHZhbCBkZWZhdWx0SXRlbXMgPSBnZXREZWZhdWx0Vm9pY2VBdXRvQXR0YWNoSXRlbXMoY29udGV4dCkKICAgICAgICAgICAgaWYgKHJhdy5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgIGRlZmF1bHRJdGVtcwogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBqc29uLmRlY29kZUZyb21TdHJpbmc8TGlzdDxWb2ljZUF1dG9BdHRhY2hJdGVtPj4ocmF3KSB9CiAgICAgICAgICAgICAgICAgICAgLmdldE9yRGVmYXVsdChkZWZhdWx0SXRlbXMpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZUFsd2F5c0xpc3RlbmluZ0VuYWJsZWQoZW5hYmxlZDogQm9vbGVhbikgewogICAgICAgIGRhdGFTdG9yZS5lZGl0IHsgcHJlZnMgLT4KICAgICAgICAgICAgcHJlZnNbS0VZX0FMV0FZU19MSVNURU5JTkdfRU5BQkxFRF0gPSBlbmFibGVkCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVXYWtlUGhyYXNlKHBocmFzZTogU3RyaW5nKSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tLRVlfV0FLRV9QSFJBU0VdID0gcGhyYXNlCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVXYWtlUGhyYXNlUmVnZXhFbmFibGVkKGVuYWJsZWQ6IEJvb2xlYW4pIHsKICAgICAgICBkYXRhU3RvcmUuZWRpdCB7IHByZWZzIC0+CiAgICAgICAgICAgIHByZWZzW0tFWV9XQUtFX1BIUkFTRV9SRUdFWF9FTkFCTEVEXSA9IGVuYWJsZWQKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZVdha2VSZWNvZ25pdGlvbk1vZGUobW9kZTogV2FrZVJlY29nbml0aW9uTW9kZSkgewogICAgICAgIGRhdGFTdG9yZS5lZGl0IHsgcHJlZnMgLT4KICAgICAgICAgICAgcHJlZnNbS0VZX1dBS0VfUkVDT0dOSVRJT05fTU9ERV0gPQogICAgICAgICAgICAgICAgd2hlbiAobW9kZSkgewogICAgICAgICAgICAgICAgICAgIFdha2VSZWNvZ25pdGlvbk1vZGUuU1RUIC0+ICJzdHQiCiAgICAgICAgICAgICAgICAgICAgV2FrZVJlY29nbml0aW9uTW9kZS5QRVJTT05BTF9URU1QTEFURSAtPiAicGVyc29uYWxfdGVtcGxhdGUiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVQZXJzb25hbFdha2VUZW1wbGF0ZXModGVtcGxhdGVzOiBMaXN0PFBlcnNvbmFsV2FrZVRlbXBsYXRlPikgewogICAgICAgIHZhbCByYXcgPSBqc29uLmVuY29kZVRvU3RyaW5nKHRlbXBsYXRlcykKICAgICAgICBkYXRhU3RvcmUuZWRpdCB7IHByZWZzIC0+CiAgICAgICAgICAgIHByZWZzW0tFWV9QRVJTT05BTF9XQUtFX1RFTVBMQVRFU19KU09OXSA9IHJhdwogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlVm9pY2VDYWxsSW5hY3Rpdml0eVRpbWVvdXRTZWNvbmRzKHNlY29uZHM6IEludCkgewogICAgICAgIGRhdGFTdG9yZS5lZGl0IHsgcHJlZnMgLT4KICAgICAgICAgICAgcHJlZnNbS0VZX1ZPSUNFX0NBTExfSU5BQ1RJVklUWV9USU1FT1VUX1NFQ09ORFNdID0gc2Vjb25kcwogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlV2FrZUdyZWV0aW5nRW5hYmxlZChlbmFibGVkOiBCb29sZWFuKSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tLRVlfV0FLRV9HUkVFVElOR19FTkFCTEVEXSA9IGVuYWJsZWQKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZVdha2VHcmVldGluZ1RleHQodGV4dDogU3RyaW5nKSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tLRVlfV0FLRV9HUkVFVElOR19URVhUXSA9IHRleHQKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZVdha2VDcmVhdGVOZXdDaGF0T25XYWtlRW5hYmxlZChlbmFibGVkOiBCb29sZWFuKSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tLRVlfV0FLRV9DUkVBVEVfTkVXX0NIQVRfT05fV0FLRV9FTkFCTEVEXSA9IGVuYWJsZWQKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZUF1dG9OZXdDaGF0R3JvdXAoZ3JvdXA6IFN0cmluZykgewogICAgICAgIGRhdGFTdG9yZS5lZGl0IHsgcHJlZnMgLT4KICAgICAgICAgICAgcHJlZnNbS0VZX0FVVE9fTkVXX0NIQVRfR1JPVVBdID0gZ3JvdXAKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZVZvaWNlQXV0b0F0dGFjaEVuYWJsZWQoZW5hYmxlZDogQm9vbGVhbikgewogICAgICAgIGRhdGFTdG9yZS5lZGl0IHsgcHJlZnMgLT4KICAgICAgICAgICAgcHJlZnNbS0VZX1ZPSUNFX0FVVE9fQVRUQUNIX0VOQUJMRURdID0gZW5hYmxlZAogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlVm9pY2VBdXRvQXR0YWNoSXRlbXMoaXRlbXM6IExpc3Q8Vm9pY2VBdXRvQXR0YWNoSXRlbT4pIHsKICAgICAgICB2YWwgcmF3ID0ganNvbi5lbmNvZGVUb1N0cmluZyhpdGVtcykKICAgICAgICBkYXRhU3RvcmUuZWRpdCB7IHByZWZzIC0+CiAgICAgICAgICAgIHByZWZzW0tFWV9WT0lDRV9BVVRPX0FUVEFDSF9JVEVNU19KU09OXSA9IHJhdwogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.MutablePreferences
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.application.OperitApplication
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+private val Context.wakeWordPreferencesDataStore: DataStore<Preferences> by
+    versionedPreferencesDataStore(
+        name = "wake_word_preferences",
+        currentVersion = 1,
+    ) { appContext ->
+        WakeWordPreferences.schemaMigration(appContext)
+    }
+
+class WakeWordPreferences(private val context: Context) {
+
+    private val dataStore = context.wakeWordPreferencesDataStore
+
+    private val json = WakeWordPreferences.json
+
+    @Serializable
+    enum class WakeRecognitionMode {
+        STT,
+        PERSONAL_TEMPLATE,
+    }
+
+    @Serializable
+    data class PersonalWakeTemplate(
+        val features: List<Float>,
+    )
+
+    companion object {
+        private val KEY_ALWAYS_LISTENING_ENABLED = booleanPreferencesKey("always_listening_enabled")
+        private val KEY_WAKE_PHRASE = stringPreferencesKey("wake_phrase")
+        private val KEY_WAKE_PHRASE_REGEX_ENABLED = booleanPreferencesKey("wake_phrase_regex_enabled")
+        private val KEY_WAKE_RECOGNITION_MODE = stringPreferencesKey("wake_recognition_mode")
+        private val KEY_PERSONAL_WAKE_TEMPLATES_JSON = stringPreferencesKey("personal_wake_templates_json")
+        private val KEY_VOICE_CALL_INACTIVITY_TIMEOUT_SECONDS =
+            intPreferencesKey("voice_call_inactivity_timeout_seconds")
+        private val KEY_WAKE_GREETING_ENABLED = booleanPreferencesKey("wake_greeting_enabled")
+        private val KEY_WAKE_GREETING_TEXT = stringPreferencesKey("wake_greeting_text")
+
+        private val KEY_WAKE_CREATE_NEW_CHAT_ON_WAKE_ENABLED =
+            booleanPreferencesKey("wake_create_new_chat_on_wake_enabled")
+        private val KEY_AUTO_NEW_CHAT_GROUP = stringPreferencesKey("auto_new_chat_group")
+
+        private val KEY_VOICE_AUTO_ATTACH_ENABLED = booleanPreferencesKey("voice_auto_attach_enabled")
+        private val KEY_VOICE_AUTO_ATTACH_ITEMS_JSON = stringPreferencesKey("voice_auto_attach_items_json")
+
+        const val DEFAULT_WAKE_PHRASE_REGEX_ENABLED = false
+        const val DEFAULT_ALWAYS_LISTENING_ENABLED = false
+        const val DEFAULT_WAKE_RECOGNITION_MODE = "stt"
+        const val DEFAULT_VOICE_CALL_INACTIVITY_TIMEOUT_SECONDS = 5
+        const val DEFAULT_WAKE_GREETING_ENABLED = true
+
+        const val DEFAULT_WAKE_CREATE_NEW_CHAT_ON_WAKE_ENABLED = false
+
+        // Default string values using R.string references
+        val DEFAULT_WAKE_PHRASE: String by lazy {
+            runCatching { OperitApplication.instance.getString(R.string.wake_word_default) }
+                .getOrDefault("")
+        }
+        val DEFAULT_WAKE_GREETING_TEXT: String by lazy {
+            runCatching { OperitApplication.instance.getString(R.string.wake_word_response) }
+                .getOrDefault("")
+        }
+        val DEFAULT_AUTO_NEW_CHAT_GROUP: String by lazy {
+            runCatching { OperitApplication.instance.getString(R.string.wake_word_global_assistant) }
+                .getOrDefault("")
+        }
+
+        const val DEFAULT_VOICE_AUTO_ATTACH_ENABLED = true
+
+        internal val json = Json {
+            ignoreUnknownKeys = true
+            encodeDefaults = true
+            explicitNulls = false
+        }
+
+        fun getDefaultVoiceAutoAttachItems(context: Context): List<VoiceAutoAttachItem> =
+            listOf(
+                VoiceAutoAttachItem(
+                    id = "screen_ocr",
+                    type = VoiceAutoAttachType.SCREEN_OCR,
+                    enabled = true,
+                    keywords = context.getString(R.string.wake_word_screen)
+                ),
+                VoiceAutoAttachItem(
+                    id = "notifications",
+                    type = VoiceAutoAttachType.NOTIFICATIONS,
+                    enabled = true,
+                    keywords = context.getString(R.string.wake_word_notification)
+                ),
+                VoiceAutoAttachItem(
+                    id = "location",
+                    type = VoiceAutoAttachType.LOCATION,
+                    enabled = true,
+                    keywords = context.getString(R.string.wake_word_which_location)
+                ),
+                VoiceAutoAttachItem(
+                    id = "time",
+                    type = VoiceAutoAttachType.TIME,
+                    enabled = true,
+                    keywords = context.getString(R.string.wake_word_time_query)
+                )
+            )
+
+        internal fun schemaMigration(context: Context): PreferencesSchemaMigration {
+            return preferenceSchemaMigration { version, preferences ->
+                when (version) {
+                    0 -> migratePreferencesFromVersionZero(context, preferences)
+                    else -> missingPreferencesSchemaMigration(version)
+                }
+            }
+        }
+
+        private fun migratePreferencesFromVersionZero(
+            context: Context,
+            preferences: MutablePreferences,
+        ) {
+            val raw = preferences[KEY_VOICE_AUTO_ATTACH_ITEMS_JSON]
+            if (raw.isNullOrBlank()) return
+
+            val existingItems = runCatching {
+                json.decodeFromString<List<VoiceAutoAttachItem>>(raw)
+            }.getOrNull() ?: return
+            val usedTypes = existingItems.map { it.type }.toSet()
+            val missingDefaults = getDefaultVoiceAutoAttachItems(context)
+                .filterNot { usedTypes.contains(it.type) }
+
+            if (missingDefaults.isNotEmpty()) {
+                preferences[KEY_VOICE_AUTO_ATTACH_ITEMS_JSON] =
+                    json.encodeToString(existingItems + missingDefaults)
+            }
+        }
+    }
+
+    @Serializable
+    enum class VoiceAutoAttachType {
+        SCREEN_OCR,
+        NOTIFICATIONS,
+        LOCATION,
+        TIME
+    }
+
+    @Serializable
+    data class VoiceAutoAttachItem(
+        val id: String,
+        val type: VoiceAutoAttachType,
+        val enabled: Boolean = true,
+        val keywords: String = "",
+        val params: Map<String, String> = emptyMap()
+    )
+
+    val alwaysListeningEnabledFlow: Flow<Boolean> =
+        dataStore.data.map { prefs ->
+            prefs[KEY_ALWAYS_LISTENING_ENABLED] ?: DEFAULT_ALWAYS_LISTENING_ENABLED
+        }
+
+    val wakePhraseFlow: Flow<String> =
+        dataStore.data.map { prefs ->
+            prefs[KEY_WAKE_PHRASE] ?: DEFAULT_WAKE_PHRASE
+        }
+
+    val wakePhraseRegexEnabledFlow: Flow<Boolean> =
+        dataStore.data.map { prefs ->
+            prefs[KEY_WAKE_PHRASE_REGEX_ENABLED] ?: DEFAULT_WAKE_PHRASE_REGEX_ENABLED
+        }
+
+    val wakeRecognitionModeFlow: Flow<WakeRecognitionMode> =
+        dataStore.data.map { prefs ->
+            val raw = prefs[KEY_WAKE_RECOGNITION_MODE] ?: DEFAULT_WAKE_RECOGNITION_MODE
+            when (raw.lowercase()) {
+                "personal_template" -> WakeRecognitionMode.PERSONAL_TEMPLATE
+                "stt" -> WakeRecognitionMode.STT
+                else -> WakeRecognitionMode.STT
+            }
+        }
+
+    val personalWakeTemplatesFlow: Flow<List<PersonalWakeTemplate>> =
+        dataStore.data.map { prefs ->
+            val raw = prefs[KEY_PERSONAL_WAKE_TEMPLATES_JSON]
+            if (raw.isNullOrBlank()) {
+                emptyList()
+            } else {
+                runCatching { json.decodeFromString<List<PersonalWakeTemplate>>(raw) }
+                    .getOrDefault(emptyList())
+            }
+        }
+
+    val voiceCallInactivityTimeoutSecondsFlow: Flow<Int> =
+        dataStore.data.map { prefs ->
+            prefs[KEY_VOICE_CALL_INACTIVITY_TIMEOUT_SECONDS]
+                ?: DEFAULT_VOICE_CALL_INACTIVITY_TIMEOUT_SECONDS
+        }
+
+    val wakeGreetingEnabledFlow: Flow<Boolean> =
+        dataStore.data.map { prefs ->
+            prefs[KEY_WAKE_GREETING_ENABLED] ?: DEFAULT_WAKE_GREETING_ENABLED
+        }
+
+    val wakeGreetingTextFlow: Flow<String> =
+        dataStore.data.map { prefs ->
+            prefs[KEY_WAKE_GREETING_TEXT] ?: DEFAULT_WAKE_GREETING_TEXT
+        }
+
+    val wakeCreateNewChatOnWakeEnabledFlow: Flow<Boolean> =
+        dataStore.data.map { prefs ->
+            prefs[KEY_WAKE_CREATE_NEW_CHAT_ON_WAKE_ENABLED]
+                ?: DEFAULT_WAKE_CREATE_NEW_CHAT_ON_WAKE_ENABLED
+        }
+
+    val autoNewChatGroupFlow: Flow<String> =
+        dataStore.data.map { prefs ->
+            prefs[KEY_AUTO_NEW_CHAT_GROUP] ?: DEFAULT_AUTO_NEW_CHAT_GROUP
+        }
+
+    val voiceAutoAttachEnabledFlow: Flow<Boolean> =
+        dataStore.data.map { prefs ->
+            prefs[KEY_VOICE_AUTO_ATTACH_ENABLED] ?: DEFAULT_VOICE_AUTO_ATTACH_ENABLED
+        }
+
+    val voiceAutoAttachItemsFlow: Flow<List<VoiceAutoAttachItem>> =
+        dataStore.data.map { prefs ->
+            val raw = prefs[KEY_VOICE_AUTO_ATTACH_ITEMS_JSON]
+            val defaultItems = getDefaultVoiceAutoAttachItems(context)
+            if (raw.isNullOrBlank()) {
+                defaultItems
+            } else {
+                runCatching { json.decodeFromString<List<VoiceAutoAttachItem>>(raw) }
+                    .getOrDefault(defaultItems)
+            }
+        }
+
+    suspend fun saveAlwaysListeningEnabled(enabled: Boolean) {
+        dataStore.edit { prefs ->
+            prefs[KEY_ALWAYS_LISTENING_ENABLED] = enabled
+        }
+    }
+
+    suspend fun saveWakePhrase(phrase: String) {
+        dataStore.edit { prefs ->
+            prefs[KEY_WAKE_PHRASE] = phrase
+        }
+    }
+
+    suspend fun saveWakePhraseRegexEnabled(enabled: Boolean) {
+        dataStore.edit { prefs ->
+            prefs[KEY_WAKE_PHRASE_REGEX_ENABLED] = enabled
+        }
+    }
+
+    suspend fun saveWakeRecognitionMode(mode: WakeRecognitionMode) {
+        dataStore.edit { prefs ->
+            prefs[KEY_WAKE_RECOGNITION_MODE] =
+                when (mode) {
+                    WakeRecognitionMode.STT -> "stt"
+                    WakeRecognitionMode.PERSONAL_TEMPLATE -> "personal_template"
+                }
+        }
+    }
+
+    suspend fun savePersonalWakeTemplates(templates: List<PersonalWakeTemplate>) {
+        val raw = json.encodeToString(templates)
+        dataStore.edit { prefs ->
+            prefs[KEY_PERSONAL_WAKE_TEMPLATES_JSON] = raw
+        }
+    }
+
+    suspend fun saveVoiceCallInactivityTimeoutSeconds(seconds: Int) {
+        dataStore.edit { prefs ->
+            prefs[KEY_VOICE_CALL_INACTIVITY_TIMEOUT_SECONDS] = seconds
+        }
+    }
+
+    suspend fun saveWakeGreetingEnabled(enabled: Boolean) {
+        dataStore.edit { prefs ->
+            prefs[KEY_WAKE_GREETING_ENABLED] = enabled
+        }
+    }
+
+    suspend fun saveWakeGreetingText(text: String) {
+        dataStore.edit { prefs ->
+            prefs[KEY_WAKE_GREETING_TEXT] = text
+        }
+    }
+
+    suspend fun saveWakeCreateNewChatOnWakeEnabled(enabled: Boolean) {
+        dataStore.edit { prefs ->
+            prefs[KEY_WAKE_CREATE_NEW_CHAT_ON_WAKE_ENABLED] = enabled
+        }
+    }
+
+    suspend fun saveAutoNewChatGroup(group: String) {
+        dataStore.edit { prefs ->
+            prefs[KEY_AUTO_NEW_CHAT_GROUP] = group
+        }
+    }
+
+    suspend fun saveVoiceAutoAttachEnabled(enabled: Boolean) {
+        dataStore.edit { prefs ->
+            prefs[KEY_VOICE_AUTO_ATTACH_ENABLED] = enabled
+        }
+    }
+
+    suspend fun saveVoiceAutoAttachItems(items: List<VoiceAutoAttachItem>) {
+        val raw = json.encodeToString(items)
+        dataStore.edit { prefs ->
+            prefs[KEY_VOICE_AUTO_ATTACH_ITEMS_JSON] = raw
+        }
+    }
+}

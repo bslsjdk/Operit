@@ -1,1 +1,475 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkucGVybWlzc2lvbnMKCmltcG9ydCBhbmRyb2lkLmFwcC5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZC5vcy5IYW5kbGVyCmltcG9ydCBhbmRyb2lkLm9zLkxvb3BlcgppbXBvcnQgYW5kcm9pZC5wcm92aWRlci5TZXR0aW5ncwppbXBvcnQgYW5kcm9pZC53aWRnZXQuVG9hc3QKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZC52aWV3LkdyYXZpdHkKaW1wb3J0IGFuZHJvaWQudmlldy5XaW5kb3dNYW5hZ2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5BbmltYXRlZFZpc2liaWxpdHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUudHdlZW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmZhZGVJbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uc2NhbGVJbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5ib3JkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5Cb3JkZXJTdHJva2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5jbGlja2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Sb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhIZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQud2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5yZW1lbWJlclNjcm9sbFN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udmVydGljYWxTY3JvbGwKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlNoaWVsZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5CdXR0b25EZWZhdWx0cwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ2FyZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ2FyZERlZmF1bHRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5Db2xvclNjaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRWxldmF0ZWRDYXJkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5FeHBlcmltZW50YWxNYXRlcmlhbDNBcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk91dGxpbmVkQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TdXJmYWNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5saWdodENvbG9yU2NoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5CcnVzaAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Db21wb3NlVmlldwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5WaWV3Q29tcG9zaXRpb25TdHJhdGVneQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMucGFpbnRlclJlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRBbGlnbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuc3AKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5MaWZlY3ljbGUKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5zZXRWaWV3VHJlZUxpZmVjeWNsZU93bmVyCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuc2V0Vmlld1RyZWVWaWV3TW9kZWxTdG9yZU93bmVyCmltcG9ydCBhbmRyb2lkeC5zYXZlZHN0YXRlLnNldFZpZXdUcmVlU2F2ZWRTdGF0ZVJlZ2lzdHJ5T3duZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BSVRvb2wKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xQYXJhbWV0ZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5zZXJ2aWNlcy5TZXJ2aWNlTGlmZWN5Y2xlT3duZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mbG9hdGluZy5GbG9hdGluZ1dpbmRvd1RoZW1lCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKCgpAT3B0SW4oRXhwZXJpbWVudGFsTWF0ZXJpYWwzQXBpOjpjbGFzcykKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gUGVybWlzc2lvblJlcXVlc3RDb250ZW50KAogICAgdG9vbE5hbWU6IFN0cmluZywKICAgIG9wZXJhdGlvbkRlc2NyaXB0aW9uOiBTdHJpbmcsCiAgICBvbkFsbG93OiAoKSAtPiBVbml0LAogICAgb25EZW55OiAoKSAtPiBVbml0LAogICAgb25BbHdheXNBbGxvdzogKCkgLT4gVW5pdCwKICAgIGNvbG9yU2NoZW1lOiBDb2xvclNjaGVtZT8gPSBudWxsLAogICAgdG9vbDogQUlUb29sPyA9IG51bGwKKSB7CiAgICB2YXIgdmlzaWJsZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CgogICAgTGF1bmNoZWRFZmZlY3QoVW5pdCkgewogICAgICAgIGRlbGF5KDEwMCkKICAgICAgICB2aXNpYmxlID0gdHJ1ZQogICAgfQoKICAgIHZhbCBjb250ZW50U2Nyb2xsU3RhdGUgPSByZW1lbWJlclNjcm9sbFN0YXRlKCkKCiAgICBGbG9hdGluZ1dpbmRvd1RoZW1lKGNvbG9yU2NoZW1lID0gY29sb3JTY2hlbWUpIHsKICAgICAgICBCb3goCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgICAgICAuYmFja2dyb3VuZChDb2xvci5CbGFjay5jb3B5KGFscGhhID0gMC42ZikpLAogICAgICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcgogICAgICAgICkgewogICAgICAgICAgICBBbmltYXRlZFZpc2liaWxpdHkoCiAgICAgICAgICAgICAgICB2aXNpYmxlID0gdmlzaWJsZSwKICAgICAgICAgICAgICAgIGVudGVyID0gZmFkZUluKHR3ZWVuKDMwMCkpICsgc2NhbGVJbih0d2VlbigzMDApLCBpbml0aWFsU2NhbGUgPSAwLjlmKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIEVsZXZhdGVkQ2FyZCgKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoMC44NWYpCiAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4SGVpZ2h0KDAuNjVmKQogICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZygxNi5kcCksCiAgICAgICAgICAgICAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMjQuZHApLAogICAgICAgICAgICAgICAgICAgIGNvbG9ycyA9IENhcmREZWZhdWx0cy5lbGV2YXRlZENhcmRDb2xvcnMoCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlQ29udGFpbmVySGlnaAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgZWxldmF0aW9uID0gQ2FyZERlZmF1bHRzLmVsZXZhdGVkQ2FyZEVsZXZhdGlvbihkZWZhdWx0RWxldmF0aW9uID0gNi5kcCkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKGhvcml6b250YWwgPSAyMC5kcCwgdmVydGljYWwgPSAyMC5kcCksCiAgICAgICAgICAgICAgICAgICAgICAgIGhvcml6b250YWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVySG9yaXpvbnRhbGx5CiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAud2VpZ2h0KDFmKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC52ZXJ0aWNhbFNjcm9sbChjb250ZW50U2Nyb2xsU3RhdGUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJIb3Jpem9udGFsbHkKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5TaGllbGQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gIlBlcm1pc3Npb24gSWNvbiIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMzYuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDguZHApKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnBlcm1pc3Npb25fcmVxdWVzdCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVMYXJnZS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IDIwLnNwCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Cb2xkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoNC5kcCkpCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYWlfYXNzaXN0YW50X3JlcXVlc3RzX29wZXJhdGlvbiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IDE1LnNwCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0QWxpZ24gPSBUZXh0QWxpZ24uQ2VudGVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDE2LmRwKSkKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBQZXJtaXNzaW9uRGV0YWlscygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcGVyYXRpb25EZXNjcmlwdGlvbiA9IG9wZXJhdGlvbkRlc2NyaXB0aW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbE5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9vbFBhcmFtZXRlcnMgPSB0b29sPy5wYXJhbWV0ZXJzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgxNi5kcCkpCgogICAgICAgICAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTIuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgT3V0bGluZWRCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IG9uRGVueSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC53ZWlnaHQoMWYpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oZWlnaHQoNDQuZHApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYXBlID0gUm91bmRlZENvcm5lclNoYXBlKDEyLmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXIgPSBCb3JkZXJTdHJva2UoMS5kcCwgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vdXRsaW5lKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcucGVybWlzc2lvbl9yZXF1ZXN0X2RlbnkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbExhcmdlLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IDE1LnNwCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25BbGxvdywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuaGVpZ2h0KDQ0LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMTIuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5wZXJtaXNzaW9uX3JlcXVlc3RfYWxsb3cpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxMYXJnZS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gMTUuc3AKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnBlcm1pc3Npb25fcmVxdWVzdF9hbHdheXNfYWxsb3cpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gMTIuc3AKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jbGlja2FibGUgeyBvbkFsd2F5c0FsbG93KCkgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcodmVydGljYWwgPSA0LmRwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDguZHApKQoKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5wZXJtaXNzaW9uX2NoYW5nZV9yZW1pbmRlciksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IDEyLnNwCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0QWxpZ24gPSBUZXh0QWxpZ24uQ2VudGVyCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIFBlcm1pc3Npb25EZXRhaWxzKAogICAgb3BlcmF0aW9uRGVzY3JpcHRpb246IFN0cmluZywKICAgIHRvb2xOYW1lOiBTdHJpbmcsCiAgICB0b29sUGFyYW1ldGVyczogTGlzdDxUb29sUGFyYW1ldGVyPj8gPSBudWxsCikgewogICAgQ29sdW1uKAogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgIC5jbGlwKFJvdW5kZWRDb3JuZXJTaGFwZSgxNi5kcCkpCiAgICAgICAgICAgIC5iYWNrZ3JvdW5kKE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZUNvbnRhaW5lcikKICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDE2LmRwLCB2ZXJ0aWNhbCA9IDE2LmRwKSwKICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTYuZHApCiAgICApIHsKICAgICAgICBEZXRhaWxJdGVtKGxhYmVsID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcucmVxdWVzdGVkX29wZXJhdGlvbiksIHZhbHVlID0gb3BlcmF0aW9uRGVzY3JpcHRpb24pCiAgICAgICAgRGV0YWlsSXRlbShsYWJlbCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnVzZWRfdG9vbCksIHZhbHVlID0gdG9vbE5hbWUpCiAgICAgICAgCiAgICAgICAgaWYgKCF0b29sUGFyYW1ldGVycy5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5wYXJhbWV0ZXJfZGV0YWlscyksCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bS5jb3B5KAogICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gMTcuc3AKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlLAogICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtCiAgICAgICAgICAgICkKICAgICAgICAgICAgCiAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAuY2xpcChSb3VuZGVkQ29ybmVyU2hhcGUoMTIuZHApKQogICAgICAgICAgICAgICAgICAgIC5iYWNrZ3JvdW5kKE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZUNvbnRhaW5lckxvdykKICAgICAgICAgICAgICAgICAgICAucGFkZGluZygxMC5kcCksCiAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICB0b29sUGFyYW1ldGVycy5mb3JFYWNoIHsgcGFyYW0gLT4KICAgICAgICAgICAgICAgICAgICBQYXJhbWV0ZXJJdGVtKHBhcmFtID0gcGFyYW0pCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIERldGFpbEl0ZW0obGFiZWw6IFN0cmluZywgdmFsdWU6IFN0cmluZykgewogICAgQ29sdW1uKHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg0LmRwKSkgewogICAgICAgIFRleHQoCiAgICAgICAgICAgIHRleHQgPSBsYWJlbCwKICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0uY29weSgKICAgICAgICAgICAgICAgIGZvbnRTaXplID0gMTUuc3AKICAgICAgICAgICAgKSwKICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICApCiAgICAgICAgVGV4dCgKICAgICAgICAgICAgdGV4dCA9IHZhbHVlLAogICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TGFyZ2UuY29weSgKICAgICAgICAgICAgICAgIGZvbnRTaXplID0gMTcuc3AKICAgICAgICAgICAgKSwKICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLAogICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlCiAgICAgICAgKQogICAgfQp9CgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBQYXJhbWV0ZXJJdGVtKHBhcmFtOiBUb29sUGFyYW1ldGVyKSB7CiAgICBDb2x1bW4gewogICAgICAgIFRleHQoCiAgICAgICAgICAgIHRleHQgPSBwYXJhbS5uYW1lLAogICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbE1lZGl1bS5jb3B5KAogICAgICAgICAgICAgICAgZm9udFNpemUgPSAxNS5zcAogICAgICAgICAgICApLAogICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtCiAgICAgICAgKQogICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgyLmRwKSkKICAgICAgICBUZXh0KAogICAgICAgICAgICB0ZXh0ID0gcGFyYW0udmFsdWUsCiAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0uY29weSgKICAgICAgICAgICAgICAgIGZvbnRTaXplID0gMTUuc3AKICAgICAgICAgICAgKSwKICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICApCiAgICB9Cn0KCmNsYXNzIFBlcm1pc3Npb25SZXF1ZXN0T3ZlcmxheShwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CiAgICBwcml2YXRlIHZhbCBUQUcgPSAiUGVybWlzc2lvblJlcXVlc3RPdmVybGF5IgogICAgcHJpdmF0ZSB2YXIgd2luZG93TWFuYWdlcjogV2luZG93TWFuYWdlcj8gPSBudWxsCiAgICBwcml2YXRlIHZhciBvdmVybGF5VmlldzogQ29tcG9zZVZpZXc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgbGlmZWN5Y2xlT3duZXI6IFNlcnZpY2VMaWZlY3ljbGVPd25lcj8gPSBudWxsCiAgICBwcml2YXRlIHZhciBjb2xvclNjaGVtZTogQ29sb3JTY2hlbWU/ID0gbnVsbAoKICAgIC8qKgogICAgICog6K6+572u6aKc6Imy5pa55qGICiAgICAgKi8KICAgIGZ1biBzZXRDb2xvclNjaGVtZShjb2xvclNjaGVtZTogQ29sb3JTY2hlbWU/KSB7CiAgICAgICAgdGhpcy5jb2xvclNjaGVtZSA9IGNvbG9yU2NoZW1lCiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6XmmK/lkKbmnInmgqzmta7nqpfmnYPpmZAKICAgICAqLwogICAgZnVuIGhhc092ZXJsYXlQZXJtaXNzaW9uKCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBTZXR0aW5ncy5jYW5EcmF3T3ZlcmxheXMoY29udGV4dCkKICAgIH0KCiAgICAvKioKICAgICAqIOivt+axguaCrOa1rueql+adg+mZkAogICAgICovCiAgICBmdW4gcmVxdWVzdE92ZXJsYXlQZXJtaXNzaW9uKCkgewogICAgICAgIGlmICghaGFzT3ZlcmxheVBlcm1pc3Npb24oKSkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgLy8g5LiN5L2/55So5a+56K+d5qGG77yM55u05o6l6Lez6L2s5Yiw6K6+572u6aG16Z2iCiAgICAgICAgICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KAogICAgICAgICAgICAgICAgICAgIFNldHRpbmdzLkFDVElPTl9NQU5BR0VfT1ZFUkxBWV9QRVJNSVNTSU9OLAogICAgICAgICAgICAgICAgICAgIFVyaS5wYXJzZSgicGFja2FnZToke2NvbnRleHQucGFja2FnZU5hbWV9IikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGludGVudC5hZGRGbGFncyhJbnRlbnQuRkxBR19BQ1RJVklUWV9ORVdfVEFTSykKICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eShpbnRlbnQpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIOWPr+mAie+8muS9v+eUqFRvYXN05o+Q56S655So5oi3CiAgICAgICAgICAgICAgICBIYW5kbGVyKExvb3Blci5nZXRNYWluTG9vcGVyKCkpLnBvc3QgewogICAgICAgICAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5vdmVybGF5X3Blcm1pc3Npb25fZ3JhbnRfaGludCksCiAgICAgICAgICAgICAgICAgICAgICAgIFRvYXN0LkxFTkdUSF9MT05HCiAgICAgICAgICAgICAgICAgICAgKS5zaG93KCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciByZXF1ZXN0aW5nIG92ZXJsYXkgcGVybWlzc2lvbiIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIHNob3coCiAgICAgICAgdG9vbDogQUlUb29sLAogICAgICAgIG9wZXJhdGlvbkRlc2NyaXB0aW9uOiBTdHJpbmcsCiAgICAgICAgb25SZXN1bHQ6IChQZXJtaXNzaW9uUmVxdWVzdFJlc3VsdCkgLT4gVW5pdAogICAgKSB7CiAgICAgICAgaWYgKG92ZXJsYXlWaWV3ICE9IG51bGwpIHJldHVybgoKICAgICAgICBpZiAoIWhhc092ZXJsYXlQZXJtaXNzaW9uKCkpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiQ2Fubm90IHNob3cgb3ZlcmxheSB3aXRob3V0IHBlcm1pc3Npb24iKQogICAgICAgICAgICBvblJlc3VsdChQZXJtaXNzaW9uUmVxdWVzdFJlc3VsdC5ERU5ZKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHdpbmRvd01hbmFnZXIgPSBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoQ29udGV4dC5XSU5ET1dfU0VSVklDRSkgYXMgV2luZG93TWFuYWdlcgoKICAgICAgICB2YWwgcGFyYW1zID0gV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMoKS5hcHBseSB7CiAgICAgICAgICAgIHdpZHRoID0gV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5UCiAgICAgICAgICAgIGhlaWdodCA9IFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVAogICAgICAgICAgICB0eXBlID0gaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk8pIHsKICAgICAgICAgICAgICAgIFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLlRZUEVfQVBQTElDQVRJT05fT1ZFUkxBWQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMuVFlQRV9QSE9ORQogICAgICAgICAgICB9CiAgICAgICAgICAgIGZsYWdzID0gV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMuRkxBR19OT1RfRk9DVVNBQkxFIG9yCiAgICAgICAgICAgICAgICAgICAgV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMuRkxBR19MQVlPVVRfSU5fU0NSRUVOIG9yCiAgICAgICAgICAgICAgICAgICAgV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMuRkxBR19MQVlPVVRfTk9fTElNSVRTCiAgICAgICAgICAgIGZvcm1hdCA9IGFuZHJvaWQuZ3JhcGhpY3MuUGl4ZWxGb3JtYXQuVFJBTlNMVUNFTlQKICAgICAgICAgICAgZ3Jhdml0eSA9IEdyYXZpdHkuVE9QIG9yIEdyYXZpdHkuU1RBUlQKICAgICAgICB9CgogICAgICAgIG92ZXJsYXlWaWV3ID0gQ29tcG9zZVZpZXcoY29udGV4dCkuYXBwbHkgewogICAgICAgICAgICBzZXRWaWV3Q29tcG9zaXRpb25TdHJhdGVneShWaWV3Q29tcG9zaXRpb25TdHJhdGVneS5EaXNwb3NlT25EZXRhY2hlZEZyb21XaW5kb3cpCiAgICAgICAgICAgIHNldENvbnRlbnQgewogICAgICAgICAgICAgICAgUGVybWlzc2lvblJlcXVlc3RDb250ZW50KAogICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgIG9wZXJhdGlvbkRlc2NyaXB0aW9uID0gb3BlcmF0aW9uRGVzY3JpcHRpb24sCiAgICAgICAgICAgICAgICAgICAgY29sb3JTY2hlbWUgPSBjb2xvclNjaGVtZSwKICAgICAgICAgICAgICAgICAgICB0b29sID0gdG9vbCwKICAgICAgICAgICAgICAgICAgICBvbkFsbG93ID0gewogICAgICAgICAgICAgICAgICAgICAgICBvblJlc3VsdChQZXJtaXNzaW9uUmVxdWVzdFJlc3VsdC5BTExPVykKICAgICAgICAgICAgICAgICAgICAgICAgZGlzbWlzcygpCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICBvbkRlbnkgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG9uUmVzdWx0KFBlcm1pc3Npb25SZXF1ZXN0UmVzdWx0LkRFTlkpCiAgICAgICAgICAgICAgICAgICAgICAgIGRpc21pc3MoKQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgb25BbHdheXNBbGxvdyA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgb25SZXN1bHQoUGVybWlzc2lvblJlcXVlc3RSZXN1bHQuQUxXQVlTX0FMTE9XKQogICAgICAgICAgICAgICAgICAgICAgICBkaXNtaXNzKCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGxpZmVjeWNsZU93bmVyID0gU2VydmljZUxpZmVjeWNsZU93bmVyKCkuYXBwbHkgewogICAgICAgICAgICBoYW5kbGVMaWZlY3ljbGVFdmVudChMaWZlY3ljbGUuRXZlbnQuT05fQ1JFQVRFKQogICAgICAgICAgICBoYW5kbGVMaWZlY3ljbGVFdmVudChMaWZlY3ljbGUuRXZlbnQuT05fU1RBUlQpCiAgICAgICAgICAgIGhhbmRsZUxpZmVjeWNsZUV2ZW50KExpZmVjeWNsZS5FdmVudC5PTl9SRVNVTUUpCiAgICAgICAgfQoKICAgICAgICBvdmVybGF5Vmlldz8uYXBwbHkgewogICAgICAgICAgICBzZXRWaWV3VHJlZUxpZmVjeWNsZU93bmVyKGxpZmVjeWNsZU93bmVyKQogICAgICAgICAgICBzZXRWaWV3VHJlZVZpZXdNb2RlbFN0b3JlT3duZXIobGlmZWN5Y2xlT3duZXIpCiAgICAgICAgICAgIHNldFZpZXdUcmVlU2F2ZWRTdGF0ZVJlZ2lzdHJ5T3duZXIobGlmZWN5Y2xlT3duZXIpCiAgICAgICAgfQoKICAgICAgICB0cnkgewogICAgICAgICAgICB3aW5kb3dNYW5hZ2VyPy5hZGRWaWV3KG92ZXJsYXlWaWV3LCBwYXJhbXMpCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIk92ZXJsYXkgdmlldyBhZGRlZCBzdWNjZXNzZnVsbHkiKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBhZGRpbmcgb3ZlcmxheSB2aWV3IiwgZSkKICAgICAgICAgICAgb25SZXN1bHQoUGVybWlzc2lvblJlcXVlc3RSZXN1bHQuREVOWSkKICAgICAgICAgICAgZGlzbWlzcygpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBkaXNtaXNzKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIG92ZXJsYXlWaWV3Py5sZXQgeyB2aWV3IC0+CiAgICAgICAgICAgICAgICAvLyDmuIXnkIbnlJ/lkb3lkajmnJ/otYTmupAKICAgICAgICAgICAgICAgIGxpZmVjeWNsZU93bmVyPy5oYW5kbGVMaWZlY3ljbGVFdmVudChMaWZlY3ljbGUuRXZlbnQuT05fUEFVU0UpCiAgICAgICAgICAgICAgICBsaWZlY3ljbGVPd25lcj8uaGFuZGxlTGlmZWN5Y2xlRXZlbnQoTGlmZWN5Y2xlLkV2ZW50Lk9OX1NUT1ApCiAgICAgICAgICAgICAgICBsaWZlY3ljbGVPd25lcj8uaGFuZGxlTGlmZWN5Y2xlRXZlbnQoTGlmZWN5Y2xlLkV2ZW50Lk9OX0RFU1RST1kpCgogICAgICAgICAgICAgICAgd2luZG93TWFuYWdlcj8ucmVtb3ZlVmlldyh2aWV3KQogICAgICAgICAgICAgICAgb3ZlcmxheVZpZXcgPSBudWxsCiAgICAgICAgICAgICAgICBsaWZlY3ljbGVPd25lciA9IG51bGwKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIk92ZXJsYXkgdmlldyBkaXNtaXNzZWQiKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGRpc21pc3Npbmcgb3ZlcmxheSB2aWV3IiwgZSkKICAgICAgICB9CiAgICAgICAgd2luZG93TWFuYWdlciA9IG51bGwKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.permissions
+
+import android.app.AlertDialog
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.os.Build
+import android.os.Handler
+import android.os.Looper
+import android.provider.Settings
+import android.widget.Toast
+import com.bslsjdk.operit.util.AppLogger
+import android.view.Gravity
+import android.view.WindowManager
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.scaleIn
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Shield
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ColorScheme
+import androidx.compose.material3.ElevatedCard
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.platform.ViewCompositionStrategy
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.setViewTreeLifecycleOwner
+import androidx.lifecycle.setViewTreeViewModelStoreOwner
+import androidx.savedstate.setViewTreeSavedStateRegistryOwner
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolParameter
+import com.bslsjdk.operit.services.ServiceLifecycleOwner
+import com.bslsjdk.operit.ui.floating.FloatingWindowTheme
+import kotlinx.coroutines.delay
+
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun PermissionRequestContent(
+    toolName: String,
+    operationDescription: String,
+    onAllow: () -> Unit,
+    onDeny: () -> Unit,
+    onAlwaysAllow: () -> Unit,
+    colorScheme: ColorScheme? = null,
+    tool: AITool? = null
+) {
+    var visible by remember { mutableStateOf(false) }
+
+    LaunchedEffect(Unit) {
+        delay(100)
+        visible = true
+    }
+
+    val contentScrollState = rememberScrollState()
+
+    FloatingWindowTheme(colorScheme = colorScheme) {
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(Color.Black.copy(alpha = 0.6f)),
+            contentAlignment = Alignment.Center
+        ) {
+            AnimatedVisibility(
+                visible = visible,
+                enter = fadeIn(tween(300)) + scaleIn(tween(300), initialScale = 0.9f)
+            ) {
+                ElevatedCard(
+                    modifier = Modifier
+                        .fillMaxWidth(0.85f)
+                        .fillMaxHeight(0.65f)
+                        .padding(16.dp),
+                    shape = RoundedCornerShape(24.dp),
+                    colors = CardDefaults.elevatedCardColors(
+                        containerColor = MaterialTheme.colorScheme.surfaceContainerHigh
+                    ),
+                    elevation = CardDefaults.elevatedCardElevation(defaultElevation = 6.dp)
+                ) {
+                    Column(
+                        modifier = Modifier.padding(horizontal = 20.dp, vertical = 20.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        Column(
+                            modifier = Modifier
+                                .weight(1f)
+                                .fillMaxWidth()
+                                .verticalScroll(contentScrollState),
+                            horizontalAlignment = Alignment.CenterHorizontally
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Shield,
+                                contentDescription = "Permission Icon",
+                                tint = MaterialTheme.colorScheme.primary,
+                                modifier = Modifier.size(36.dp)
+                            )
+
+                            Spacer(modifier = Modifier.height(8.dp))
+
+                            Text(
+                                text = stringResource(R.string.permission_request),
+                                style = MaterialTheme.typography.titleLarge.copy(
+                                    fontSize = 20.sp
+                                ),
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+
+                            Spacer(modifier = Modifier.height(4.dp))
+
+                            Text(
+                                text = stringResource(R.string.ai_assistant_requests_operation),
+                                style = MaterialTheme.typography.bodyMedium.copy(
+                                    fontSize = 15.sp
+                                ),
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                textAlign = TextAlign.Center
+                            )
+
+                            Spacer(modifier = Modifier.height(16.dp))
+
+                            PermissionDetails(
+                                operationDescription = operationDescription,
+                                toolName = toolName,
+                                toolParameters = tool?.parameters
+                            )
+                        }
+
+                        Spacer(modifier = Modifier.height(16.dp))
+
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.spacedBy(12.dp)
+                        ) {
+                            OutlinedButton(
+                                onClick = onDeny,
+                                modifier = Modifier
+                                    .weight(1f)
+                                    .height(44.dp),
+                                shape = RoundedCornerShape(12.dp),
+                                border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline)
+                            ) {
+                                Text(
+                                    stringResource(R.string.permission_request_deny),
+                                    style = MaterialTheme.typography.labelLarge.copy(
+                                        fontSize = 15.sp
+                                    )
+                                )
+                            }
+
+                            Column(
+                                modifier = Modifier.weight(1f),
+                                horizontalAlignment = Alignment.CenterHorizontally
+                            ) {
+                                Button(
+                                    onClick = onAllow,
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .height(44.dp),
+                                    shape = RoundedCornerShape(12.dp)
+                                ) {
+                                    Text(
+                                        stringResource(R.string.permission_request_allow),
+                                        style = MaterialTheme.typography.labelLarge.copy(
+                                            fontSize = 15.sp
+                                        )
+                                    )
+                                }
+                                Spacer(modifier = Modifier.height(8.dp))
+                                Text(
+                                    text = stringResource(R.string.permission_request_always_allow),
+                                    style = MaterialTheme.typography.bodySmall.copy(
+                                        fontSize = 12.sp
+                                    ),
+                                    color = MaterialTheme.colorScheme.primary,
+                                    modifier = Modifier
+                                        .clickable { onAlwaysAllow() }
+                                        .padding(vertical = 4.dp)
+                                )
+                            }
+                        }
+
+                        Spacer(modifier = Modifier.height(8.dp))
+
+                        Text(
+                            text = stringResource(R.string.permission_change_reminder),
+                            style = MaterialTheme.typography.bodySmall.copy(
+                                fontSize = 12.sp
+                            ),
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            textAlign = TextAlign.Center
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun PermissionDetails(
+    operationDescription: String,
+    toolName: String,
+    toolParameters: List<ToolParameter>? = null
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(16.dp))
+            .background(MaterialTheme.colorScheme.surfaceContainer)
+            .padding(horizontal = 16.dp, vertical = 16.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp)
+    ) {
+        DetailItem(label = stringResource(R.string.requested_operation), value = operationDescription)
+        DetailItem(label = stringResource(R.string.used_tool), value = toolName)
+        
+        if (!toolParameters.isNullOrEmpty()) {
+            Text(
+                text = stringResource(R.string.parameter_details),
+                style = MaterialTheme.typography.titleMedium.copy(
+                    fontSize = 17.sp
+                ),
+                color = MaterialTheme.colorScheme.onSurface,
+                fontWeight = FontWeight.Medium
+            )
+            
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clip(RoundedCornerShape(12.dp))
+                    .background(MaterialTheme.colorScheme.surfaceContainerLow)
+                    .padding(10.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                toolParameters.forEach { param ->
+                    ParameterItem(param = param)
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun DetailItem(label: String, value: String) {
+    Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Text(
+            text = label,
+            style = MaterialTheme.typography.labelMedium.copy(
+                fontSize = 15.sp
+            ),
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+        Text(
+            text = value,
+            style = MaterialTheme.typography.bodyLarge.copy(
+                fontSize = 17.sp
+            ),
+            fontWeight = FontWeight.Medium,
+            color = MaterialTheme.colorScheme.onSurface
+        )
+    }
+}
+
+@Composable
+private fun ParameterItem(param: ToolParameter) {
+    Column {
+        Text(
+            text = param.name,
+            style = MaterialTheme.typography.labelMedium.copy(
+                fontSize = 15.sp
+            ),
+            color = MaterialTheme.colorScheme.primary,
+            fontWeight = FontWeight.Medium
+        )
+        Spacer(modifier = Modifier.height(2.dp))
+        Text(
+            text = param.value,
+            style = MaterialTheme.typography.bodyMedium.copy(
+                fontSize = 15.sp
+            ),
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+    }
+}
+
+class PermissionRequestOverlay(private val context: Context) {
+    private val TAG = "PermissionRequestOverlay"
+    private var windowManager: WindowManager? = null
+    private var overlayView: ComposeView? = null
+    private var lifecycleOwner: ServiceLifecycleOwner? = null
+    private var colorScheme: ColorScheme? = null
+
+    /**
+     * 设置颜色方案
+     */
+    fun setColorScheme(colorScheme: ColorScheme?) {
+        this.colorScheme = colorScheme
+    }
+
+    /**
+     * 检查是否有悬浮窗权限
+     */
+    fun hasOverlayPermission(): Boolean {
+        return Settings.canDrawOverlays(context)
+    }
+
+    /**
+     * 请求悬浮窗权限
+     */
+    fun requestOverlayPermission() {
+        if (!hasOverlayPermission()) {
+            try {
+                // 不使用对话框，直接跳转到设置页面
+                val intent = Intent(
+                    Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                    Uri.parse("package:${context.packageName}")
+                )
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                context.startActivity(intent)
+                
+                // 可选：使用Toast提示用户
+                Handler(Looper.getMainLooper()).post {
+                    Toast.makeText(
+                        context,
+                        context.getString(R.string.overlay_permission_grant_hint),
+                        Toast.LENGTH_LONG
+                    ).show()
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error requesting overlay permission", e)
+            }
+        }
+    }
+
+    fun show(
+        tool: AITool,
+        operationDescription: String,
+        onResult: (PermissionRequestResult) -> Unit
+    ) {
+        if (overlayView != null) return
+
+        if (!hasOverlayPermission()) {
+            AppLogger.e(TAG, "Cannot show overlay without permission")
+            onResult(PermissionRequestResult.DENY)
+            return
+        }
+
+        windowManager = context.getSystemService(Context.WINDOW_SERVICE) as WindowManager
+
+        val params = WindowManager.LayoutParams().apply {
+            width = WindowManager.LayoutParams.MATCH_PARENT
+            height = WindowManager.LayoutParams.MATCH_PARENT
+            type = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY
+            } else {
+                WindowManager.LayoutParams.TYPE_PHONE
+            }
+            flags = WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or
+                    WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN or
+                    WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+            format = android.graphics.PixelFormat.TRANSLUCENT
+            gravity = Gravity.TOP or Gravity.START
+        }
+
+        overlayView = ComposeView(context).apply {
+            setViewCompositionStrategy(ViewCompositionStrategy.DisposeOnDetachedFromWindow)
+            setContent {
+                PermissionRequestContent(
+                    toolName = tool.name,
+                    operationDescription = operationDescription,
+                    colorScheme = colorScheme,
+                    tool = tool,
+                    onAllow = {
+                        onResult(PermissionRequestResult.ALLOW)
+                        dismiss()
+                    },
+                    onDeny = {
+                        onResult(PermissionRequestResult.DENY)
+                        dismiss()
+                    },
+                    onAlwaysAllow = {
+                        onResult(PermissionRequestResult.ALWAYS_ALLOW)
+                        dismiss()
+                    }
+                )
+            }
+        }
+
+        lifecycleOwner = ServiceLifecycleOwner().apply {
+            handleLifecycleEvent(Lifecycle.Event.ON_CREATE)
+            handleLifecycleEvent(Lifecycle.Event.ON_START)
+            handleLifecycleEvent(Lifecycle.Event.ON_RESUME)
+        }
+
+        overlayView?.apply {
+            setViewTreeLifecycleOwner(lifecycleOwner)
+            setViewTreeViewModelStoreOwner(lifecycleOwner)
+            setViewTreeSavedStateRegistryOwner(lifecycleOwner)
+        }
+
+        try {
+            windowManager?.addView(overlayView, params)
+            AppLogger.d(TAG, "Overlay view added successfully")
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error adding overlay view", e)
+            onResult(PermissionRequestResult.DENY)
+            dismiss()
+        }
+    }
+
+    fun dismiss() {
+        try {
+            overlayView?.let { view ->
+                // 清理生命周期资源
+                lifecycleOwner?.handleLifecycleEvent(Lifecycle.Event.ON_PAUSE)
+                lifecycleOwner?.handleLifecycleEvent(Lifecycle.Event.ON_STOP)
+                lifecycleOwner?.handleLifecycleEvent(Lifecycle.Event.ON_DESTROY)
+
+                windowManager?.removeView(view)
+                overlayView = null
+                lifecycleOwner = null
+                AppLogger.d(TAG, "Overlay view dismissed")
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error dismissing overlay view", e)
+        }
+        windowManager = null
+    }
+}

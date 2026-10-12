@@ -1,1 +1,71 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgoKb2JqZWN0IFR0c0NsZWFuZXIgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlR0c0NsZWFuZXIiCgogICAgLyoqCiAgICAgKiBDbGVhbnMgYSBnaXZlbiB0ZXh0IGJ5IHJlbW92aW5nIGFsbCBwYXJ0cyB0aGF0IG1hdGNoIHRoZSBwcm92aWRlZCByZWdleCBwYXR0ZXJuLgogICAgICoKICAgICAqIEBwYXJhbSB0ZXh0IFRoZSBpbnB1dCB0ZXh0IHRvIGNsZWFuLgogICAgICogQHBhcmFtIHJlZ2V4UGF0dGVybiBUaGUgcmVnZXggcGF0dGVybiB0byB1c2UgZm9yIGNsZWFuaW5nLiBJZiB0aGUgcGF0dGVybiBpcyBibGFuaywKICAgICAqICAgICAgICAgICAgICAgICAgICAgdGhlIG9yaWdpbmFsIHRleHQgd2lsbCBiZSByZXR1cm5lZC4KICAgICAqIEByZXR1cm4gVGhlIGNsZWFuZWQgdGV4dC4KICAgICAqLwogICAgZnVuIGNsZWFuKHRleHQ6IFN0cmluZywgcmVnZXhQYXR0ZXJuOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIGlmIChyZWdleFBhdHRlcm4uaXNCbGFuaygpKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgImNsZWFuKHNpbmdsZSk6IEVtcHR5IHJlZ2V4IHBhdHRlcm4sIHJldHVybmluZyBvcmlnaW5hbCB0ZXh0IikKICAgICAgICAgICAgcmV0dXJuIHRleHQKICAgICAgICB9CgogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgcmVnZXggPSBSZWdleChyZWdleFBhdHRlcm4pCiAgICAgICAgICAgIHZhbCBjbGVhbmVkVGV4dCA9IHRleHQucmVwbGFjZShyZWdleCwgIiIpCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgImNsZWFuKHNpbmdsZSk6IE9yaWdpbmFsPSckdGV4dCcgfCBQYXR0ZXJuPSckcmVnZXhQYXR0ZXJuJyB8IENsZWFuZWQ9JyRjbGVhbmVkVGV4dCciKQogICAgICAgICAgICBjbGVhbmVkVGV4dAogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJjbGVhbihzaW5nbGUpOiBJbnZhbGlkIHJlZ2V4IHBhdHRlcm4gJyRyZWdleFBhdHRlcm4nLCByZXR1cm5pbmcgb3JpZ2luYWwgdGV4dCIsIGUpCiAgICAgICAgICAgIHRleHQKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBDbGVhbnMgYSBnaXZlbiB0ZXh0IGJ5IHJlbW92aW5nIGFsbCBwYXJ0cyB0aGF0IG1hdGNoIGFueSBvZiB0aGUgcHJvdmlkZWQgcmVnZXggcGF0dGVybnMuCiAgICAgKgogICAgICogQHBhcmFtIHRleHQgVGhlIGlucHV0IHRleHQgdG8gY2xlYW4uCiAgICAgKiBAcGFyYW0gcmVnZXhQYXR0ZXJucyBUaGUgbGlzdCBvZiByZWdleCBwYXR0ZXJucyB0byB1c2UgZm9yIGNsZWFuaW5nLiBFbXB0eSBvciBibGFuayBwYXR0ZXJucyBhcmUgc2tpcHBlZC4KICAgICAqIEByZXR1cm4gVGhlIGNsZWFuZWQgdGV4dC4KICAgICAqLwogICAgZnVuIGNsZWFuKHRleHQ6IFN0cmluZywgcmVnZXhQYXR0ZXJuczogTGlzdDxTdHJpbmc+KTogU3RyaW5nIHsKICAgICAgICBpZiAocmVnZXhQYXR0ZXJucy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiY2xlYW4obGlzdCk6IEVtcHR5IHBhdHRlcm4gbGlzdCwgcmV0dXJuaW5nIG9yaWdpbmFsIHRleHQiKQogICAgICAgICAgICByZXR1cm4gdGV4dAogICAgICAgIH0KCiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiY2xlYW4obGlzdCk6IFN0YXJ0aW5nIHdpdGggdGV4dD0nJHRleHQnIHwgUGF0dGVybnMgY291bnQ9JHtyZWdleFBhdHRlcm5zLnNpemV9IikKICAgICAgICAKICAgICAgICB2YXIgY2xlYW5lZFRleHQgPSB0ZXh0CiAgICAgICAgcmVnZXhQYXR0ZXJucy5mb3JFYWNoSW5kZXhlZCB7IGluZGV4LCBwYXR0ZXJuIC0+CiAgICAgICAgICAgIGlmIChwYXR0ZXJuLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICB2YWwgcmVnZXggPSBSZWdleChwYXR0ZXJuKQogICAgICAgICAgICAgICAgICAgIHZhbCBiZWZvcmVDbGVhbiA9IGNsZWFuZWRUZXh0CiAgICAgICAgICAgICAgICAgICAgY2xlYW5lZFRleHQgPSBjbGVhbmVkVGV4dC5yZXBsYWNlKHJlZ2V4LCAiIikKICAgICAgICAgICAgICAgICAgICBpZiAoYmVmb3JlQ2xlYW4gIT0gY2xlYW5lZFRleHQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiY2xlYW4obGlzdCk6IFBhdHRlcm5bJGluZGV4XT0nJHBhdHRlcm4nIG1hdGNoZWQgfCBCZWZvcmU9JyRiZWZvcmVDbGVhbicgfCBBZnRlcj0nJGNsZWFuZWRUZXh0JyIpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiY2xlYW4obGlzdCk6IFBhdHRlcm5bJGluZGV4XT0nJHBhdHRlcm4nIG5vIG1hdGNoIikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJjbGVhbihsaXN0KTogSW52YWxpZCByZWdleCBwYXR0ZXJuWyRpbmRleF09JyRwYXR0ZXJuJywgc2tpcHBpbmciLCBlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiY2xlYW4obGlzdCk6IFBhdHRlcm5bJGluZGV4XSBpcyBibGFuaywgc2tpcHBpbmciKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIEFwcExvZ2dlci5kKFRBRywgImNsZWFuKGxpc3QpOiBGaW5hbCByZXN1bHQ9JyRjbGVhbmVkVGV4dCciKQogICAgICAgIHJldHVybiBjbGVhbmVkVGV4dAogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import com.bslsjdk.operit.util.AppLogger
+
+object TtsCleaner {
+    private const val TAG = "TtsCleaner"
+
+    /**
+     * Cleans a given text by removing all parts that match the provided regex pattern.
+     *
+     * @param text The input text to clean.
+     * @param regexPattern The regex pattern to use for cleaning. If the pattern is blank,
+     *                     the original text will be returned.
+     * @return The cleaned text.
+     */
+    fun clean(text: String, regexPattern: String): String {
+        if (regexPattern.isBlank()) {
+            AppLogger.d(TAG, "clean(single): Empty regex pattern, returning original text")
+            return text
+        }
+
+        return try {
+            val regex = Regex(regexPattern)
+            val cleanedText = text.replace(regex, "")
+            AppLogger.d(TAG, "clean(single): Original='$text' | Pattern='$regexPattern' | Cleaned='$cleanedText'")
+            cleanedText
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "clean(single): Invalid regex pattern '$regexPattern', returning original text", e)
+            text
+        }
+    }
+
+    /**
+     * Cleans a given text by removing all parts that match any of the provided regex patterns.
+     *
+     * @param text The input text to clean.
+     * @param regexPatterns The list of regex patterns to use for cleaning. Empty or blank patterns are skipped.
+     * @return The cleaned text.
+     */
+    fun clean(text: String, regexPatterns: List<String>): String {
+        if (regexPatterns.isEmpty()) {
+            AppLogger.d(TAG, "clean(list): Empty pattern list, returning original text")
+            return text
+        }
+
+        AppLogger.d(TAG, "clean(list): Starting with text='$text' | Patterns count=${regexPatterns.size}")
+        
+        var cleanedText = text
+        regexPatterns.forEachIndexed { index, pattern ->
+            if (pattern.isNotBlank()) {
+                try {
+                    val regex = Regex(pattern)
+                    val beforeClean = cleanedText
+                    cleanedText = cleanedText.replace(regex, "")
+                    if (beforeClean != cleanedText) {
+                        AppLogger.d(TAG, "clean(list): Pattern[$index]='$pattern' matched | Before='$beforeClean' | After='$cleanedText'")
+                    } else {
+                        AppLogger.d(TAG, "clean(list): Pattern[$index]='$pattern' no match")
+                    }
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "clean(list): Invalid regex pattern[$index]='$pattern', skipping", e)
+                }
+            } else {
+                AppLogger.d(TAG, "clean(list): Pattern[$index] is blank, skipping")
+            }
+        }
+        
+        AppLogger.d(TAG, "clean(list): Final result='$cleanedText'")
+        return cleanedText
+    }
+}

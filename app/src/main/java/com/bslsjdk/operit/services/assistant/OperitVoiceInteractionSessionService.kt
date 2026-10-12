@@ -1,1 +1,83 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuYXNzaXN0YW50CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBhbmRyb2lkLnNlcnZpY2Uudm9pY2UuVm9pY2VJbnRlcmFjdGlvblNlc3Npb24KaW1wb3J0IGFuZHJvaWQuc2VydmljZS52b2ljZS5Wb2ljZUludGVyYWN0aW9uU2Vzc2lvblNlcnZpY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXcKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkZyYW1lTGF5b3V0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuRmxvYXRpbmdDaGF0U2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZsb2F0aW5nLkZsb2F0aW5nTW9kZQoKLyoqCiAqIE9wZXJpdCDor63pn7PkuqTkupLkvJror53mnI3liqEKICogCiAqIOW9k+eUqOaIt+inpuWPkeWKqeaJi+aXtu+8iOWmgumVv+aMiSBIb21lIOmUru+8ie+8jOezu+e7n+S8muWIm+W7uui/meS4quacjeWKoeeahOS8muivneWunuS+i+OAggogKiDmiJHku6zlnKjov5nph4zlkK/liqjmgqzmta7nqpfmnaXmj5DkvpsgQUkg5Yqp5omL5Yqf6IO944CCCiAqLwpjbGFzcyBPcGVyaXRWb2ljZUludGVyYWN0aW9uU2Vzc2lvblNlcnZpY2UgOiBWb2ljZUludGVyYWN0aW9uU2Vzc2lvblNlcnZpY2UoKSB7CiAgICAKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJPcGVyaXRTZXNzaW9uU2VydmljZSIKICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIG9uTmV3U2Vzc2lvbihhcmdzOiBCdW5kbGU/KTogVm9pY2VJbnRlcmFjdGlvblNlc3Npb24gewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkNyZWF0aW5nIG5ldyB2b2ljZSBpbnRlcmFjdGlvbiBzZXNzaW9uIikKICAgICAgICByZXR1cm4gT3Blcml0Vm9pY2VJbnRlcmFjdGlvblNlc3Npb24odGhpcykKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiBPcGVyaXQg55qE6K+t6Z+z5Lqk5LqS5Lya6K+d5a6e546wCiAgICAgKi8KICAgIHByaXZhdGUgY2xhc3MgT3Blcml0Vm9pY2VJbnRlcmFjdGlvblNlc3Npb24oY29udGV4dDogQ29udGV4dCkgOiBWb2ljZUludGVyYWN0aW9uU2Vzc2lvbihjb250ZXh0KSB7CiAgICAgICAgCiAgICAgICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJPcGVyaXRTZXNzaW9uIgogICAgICAgIH0KICAgICAgICAKICAgICAgICBvdmVycmlkZSBmdW4gb25TaG93KGFyZ3M6IEJ1bmRsZT8sIHNob3dGbGFnczogSW50KSB7CiAgICAgICAgICAgIHN1cGVyLm9uU2hvdyhhcmdzLCBzaG93RmxhZ3MpCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNlc3Npb24gc2hvdyByZXF1ZXN0ZWQgd2l0aCBmbGFnczogJHNob3dGbGFncyIpCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDlkK/liqjmgqzmta7nqpfmnI3liqHmnaXmj5DkvpsgQUkg5Yqp5omL5Yqf6IO9CiAgICAgICAgICAgIHN0YXJ0RmxvYXRpbmdDaGF0U2VydmljZSgpCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDnq4vljbPnu5PmnZ/kvJror53vvIzlm6DkuLrmiJHku6zkvb/nlKjmgqzmta7nqpfogIzkuI3mmK/ns7vnu5/opobnm5blsYIKICAgICAgICAgICAgZmluaXNoKCkKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgb3ZlcnJpZGUgZnVuIG9uSGlkZSgpIHsKICAgICAgICAgICAgc3VwZXIub25IaWRlKCkKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU2Vzc2lvbiBoaWRlIHJlcXVlc3RlZCIpCiAgICAgICAgICAgIGZpbmlzaCgpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIG92ZXJyaWRlIGZ1biBvbkRlc3Ryb3koKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNlc3Npb24gZGVzdHJveWVkIikKICAgICAgICAgICAgc3VwZXIub25EZXN0cm95KCkKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLyoqCiAgICAgICAgICog5ZCv5Yqo5oKs5rWu56qX6IGK5aSp5pyN5YqhCiAgICAgICAgICovCiAgICAgICAgcHJpdmF0ZSBmdW4gc3RhcnRGbG9hdGluZ0NoYXRTZXJ2aWNlKCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGludGVudCA9IEludGVudChjb250ZXh0LCBGbG9hdGluZ0NoYXRTZXJ2aWNlOjpjbGFzcy5qYXZhKS5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgcHV0RXh0cmEoIklOSVRJQUxfTU9ERSIsIEZsb2F0aW5nTW9kZS5GVUxMU0NSRUVOLm5hbWUpCiAgICAgICAgICAgICAgICAgICAgcHV0RXh0cmEoRmxvYXRpbmdDaGF0U2VydmljZS5FWFRSQV9BVVRPX0VOVEVSX1ZPSUNFX0NIQVQsIHRydWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTykgewogICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRGb3JlZ3JvdW5kU2VydmljZShpbnRlbnQpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRTZXJ2aWNlKGludGVudCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkZsb2F0aW5nIGNoYXQgc2VydmljZSBzdGFydGVkIikKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gc3RhcnQgZmxvYXRpbmcgY2hhdCBzZXJ2aWNlIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.services.assistant
+
+import android.content.Context
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import android.service.voice.VoiceInteractionSession
+import android.service.voice.VoiceInteractionSessionService
+import com.bslsjdk.operit.util.AppLogger
+import android.view.View
+import android.widget.FrameLayout
+import com.bslsjdk.operit.services.FloatingChatService
+import com.bslsjdk.operit.ui.floating.FloatingMode
+
+/**
+ * Operit 语音交互会话服务
+ * 
+ * 当用户触发助手时（如长按 Home 键），系统会创建这个服务的会话实例。
+ * 我们在这里启动悬浮窗来提供 AI 助手功能。
+ */
+class OperitVoiceInteractionSessionService : VoiceInteractionSessionService() {
+    
+    companion object {
+        private const val TAG = "OperitSessionService"
+    }
+    
+    override fun onNewSession(args: Bundle?): VoiceInteractionSession {
+        AppLogger.d(TAG, "Creating new voice interaction session")
+        return OperitVoiceInteractionSession(this)
+    }
+    
+    /**
+     * Operit 的语音交互会话实现
+     */
+    private class OperitVoiceInteractionSession(context: Context) : VoiceInteractionSession(context) {
+        
+        companion object {
+            private const val TAG = "OperitSession"
+        }
+        
+        override fun onShow(args: Bundle?, showFlags: Int) {
+            super.onShow(args, showFlags)
+            AppLogger.d(TAG, "Session show requested with flags: $showFlags")
+            
+            // 启动悬浮窗服务来提供 AI 助手功能
+            startFloatingChatService()
+            
+            // 立即结束会话，因为我们使用悬浮窗而不是系统覆盖层
+            finish()
+        }
+        
+        override fun onHide() {
+            super.onHide()
+            AppLogger.d(TAG, "Session hide requested")
+            finish()
+        }
+        
+        override fun onDestroy() {
+            AppLogger.d(TAG, "Session destroyed")
+            super.onDestroy()
+        }
+        
+        /**
+         * 启动悬浮窗聊天服务
+         */
+        private fun startFloatingChatService() {
+            try {
+                val intent = Intent(context, FloatingChatService::class.java).apply {
+                    putExtra("INITIAL_MODE", FloatingMode.FULLSCREEN.name)
+                    putExtra(FloatingChatService.EXTRA_AUTO_ENTER_VOICE_CHAT, true)
+                }
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    context.startForegroundService(intent)
+                } else {
+                    context.startService(intent)
+                }
+                AppLogger.d(TAG, "Floating chat service started")
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Failed to start floating chat service", e)
+            }
+        }
+    }
+}

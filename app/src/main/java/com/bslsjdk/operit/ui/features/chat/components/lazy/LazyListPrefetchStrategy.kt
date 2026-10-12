@@ -1,1 +1,277 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpAZmlsZTpTdXBwcmVzcygiREVQUkVDQVRJT04iKSAvLyBiLzQyMDU1MTUzNQoKcGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmxhenkKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uRXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMYXlvdXRQcmVmZXRjaFN0YXRlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmxhenkuTmVzdGVkUHJlZmV0Y2hTY29wZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LlByZWZldGNoU2NoZWR1bGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmxhenkuVW5zcGVjaWZpZWROZXN0ZWRQcmVmZXRjaENvdW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuU3RhYmxlCgovKioKICogSW1wbGVtZW50YXRpb25zIG9mIHRoaXMgaW50ZXJmYWNlIGNvbnRyb2wgd2hpY2ggaW5kaWNlcyBvZiBhIExhenlMaXN0IHNob3VsZCBiZSBwcmVmZXRjaGVkCiAqIChwcmVjb21wb3NlZCBhbmQgcHJlbWVhc3VyZWQgZHVyaW5nIGlkbGUgdGltZSkgYXMgdGhlIHVzZXIgaW50ZXJhY3RzIHdpdGggaXQuCiAqCiAqIEltcGxlbWVudGF0aW9ucyBzaG91bGQgaW52b2tlIFtMYXp5TGlzdFByZWZldGNoU2NvcGUuc2NoZWR1bGVQcmVmZXRjaF0gdG8gc2NoZWR1bGUgcHJlZmV0Y2hlcwogKiBmcm9tIHRoZSBbb25TY3JvbGxdIGFuZCBbb25WaXNpYmxlSXRlbXNVcGRhdGVkXSBjYWxsYmFja3MuIElmIGFueSBvZiB0aGUgcmV0dXJuZWQgUHJlZmV0Y2hIYW5kbGVzCiAqIG5vIGxvbmdlciBuZWVkIHRvIGJlIHByZWZldGNoZWQsIHVzZSBbTGF6eUxheW91dFByZWZldGNoU3RhdGUuUHJlZmV0Y2hIYW5kbGUuY2FuY2VsXSB0byBjYW5jZWwKICogdGhlIHJlcXVlc3QuCiAqLwpARXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaQppbnRlcmZhY2UgTGF6eUxpc3RQcmVmZXRjaFN0cmF0ZWd5IHsKCiAgICAvKioKICAgICAqIEEgW1ByZWZldGNoU2NoZWR1bGVyXSBpbXBsZW1lbnRhdGlvbiB3aGljaCB3aWxsIGJlIHVzZWQgdG8gZXhlY3V0ZSBwcmVmZXRjaCByZXF1ZXN0cyBmb3IgdGhpcwogICAgICogc3RyYXRlZ3kgaW1wbGVtZW50YXRpb24uIElmIG51bGwsIHRoZSBkZWZhdWx0IFtQcmVmZXRjaFNjaGVkdWxlcl0gZm9yIHRoZSBwbGF0Zm9ybSB3aWxsIGJlCiAgICAgKiB1c2VkLgogICAgICovCiAgICBARGVwcmVjYXRlZCgKICAgICAgICAiQ3VzdG9taXphdGlvbiBvZiBQcmVmZXRjaFNjaGVkdWxlciBpcyBubyBsb25nZXIgc3VwcG9ydGVkLiBMYXp5TGF5b3V0IHdpbGwgYXR0YWNoICIgKwogICAgICAgICAgICAiYW4gYXBwcm9wcmlhdGUgc2NoZWR1bGVyIGludGVybmFsbHkuIgogICAgKQogICAgdmFsIHByZWZldGNoU2NoZWR1bGVyOiBQcmVmZXRjaFNjaGVkdWxlcj8KICAgICAgICBnZXQoKSA9IG51bGwKCiAgICAvKioKICAgICAqIG9uU2Nyb2xsIGlzIGludm9rZWQgd2hlbiB0aGUgTGF6eUxpc3Qgc2Nyb2xscywgd2hldGhlciBvciBub3QgdGhlIHZpc2libGUgaXRlbXMgaGF2ZSBjaGFuZ2VkLgogICAgICogSWYgdGhlIHZpc2libGUgaXRlbXMgaGF2ZSBhbHNvIGNoYW5nZWQsIHRoZW4gdGhpcyB3aWxsIGJlIGludm9rZWQgaW4gdGhlIHNhbWUgZnJhbWUgKmFmdGVyKgogICAgICogW29uVmlzaWJsZUl0ZW1zVXBkYXRlZF0uCiAgICAgKgogICAgICogQHBhcmFtIGRlbHRhIHRoZSBjaGFuZ2UgaW4gc2Nyb2xsIGRpcmVjdGlvbi4gRGVsdGEgPCAwIGluZGljYXRlcyBzY3JvbGxpbmcgZG93biB3aGlsZSBkZWx0YSA+CiAgICAgKiAgIDAgaW5kaWNhdGVzIHNjcm9sbGluZyB1cC4KICAgICAqIEBwYXJhbSBsYXlvdXRJbmZvIHRoZSBjdXJyZW50IFtMYXp5TGlzdExheW91dEluZm9dCiAgICAgKi8KICAgIGZ1biBMYXp5TGlzdFByZWZldGNoU2NvcGUub25TY3JvbGwoZGVsdGE6IEZsb2F0LCBsYXlvdXRJbmZvOiBMYXp5TGlzdExheW91dEluZm8pCgogICAgLyoqCiAgICAgKiBvblZpc2libGVJdGVtc1VwZGF0ZWQgaXMgaW52b2tlZCB3aGVuIHRoZSBMYXp5TGlzdCBzY3JvbGxzIGlmIHRoZSB2aXNpYmxlIGl0ZW1zIGhhdmUgY2hhbmdlZC4KICAgICAqCiAgICAgKiBAcGFyYW0gbGF5b3V0SW5mbyB0aGUgY3VycmVudCBbTGF6eUxpc3RMYXlvdXRJbmZvXS4gSW5mbyBhYm91dCB0aGUgdXBkYXRlZCB2aXNpYmxlIGl0ZW1zIGNhbgogICAgICogICBiZSBmb3VuZCBpbiBbTGF6eUxpc3RMYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm9dLgogICAgICovCiAgICBmdW4gTGF6eUxpc3RQcmVmZXRjaFNjb3BlLm9uVmlzaWJsZUl0ZW1zVXBkYXRlZChsYXlvdXRJbmZvOiBMYXp5TGlzdExheW91dEluZm8pCgogICAgLyoqCiAgICAgKiBvbk5lc3RlZFByZWZldGNoIGlzIGludm9rZWQgd2hlbiBhIHBhcmVudCBMYXp5TGF5b3V0IGhhcyBwcmVmZXRjaGVkIGNvbnRlbnQgd2hpY2ggY29udGFpbnMKICAgICAqIHRoaXMgTGF6eUxpc3QuIEl0IGdpdmVzIHRoaXMgTGF6eUxpc3QgYSBjaGFuY2UgdG8gcmVxdWVzdCBwcmVmZXRjaCBmb3Igc29tZSBvZiBpdHMgb3duCiAgICAgKiBjaGlsZHJlbiBiZWZvcmUgY29taW5nIG9udG8gc2NyZWVuLgogICAgICoKICAgICAqIEltcGxlbWVudGF0aW9ucyBjYW4gdXNlIFtOZXN0ZWRQcmVmZXRjaFNjb3BlLnNjaGVkdWxlUHJlZmV0Y2hdIHRvIHNjaGVkdWxlIGNoaWxkIHByZWZldGNoZXMuCiAgICAgKiBGb3IgZXhhbXBsZSwgdGhpcyBpcyB1c2VmdWwgaWYgdGhpcyBMYXp5TGlzdCBpcyBhIExhenlSb3cgdGhhdCBpcyBhIGNoaWxkIG9mIGEgTGF6eUNvbHVtbjogaW4KICAgICAqIHRoYXQgY2FzZSwgW29uTmVzdGVkUHJlZmV0Y2hdIGNhbiBzY2hlZHVsZSB0aGUgY2hpbGRyZW4gaXQgZXhwZWN0cyB0byBiZSB2aXNpYmxlIHdoZW4gaXQKICAgICAqIGNvbWVzIG9udG8gc2NyZWVuLCBnaXZpbmcgdGhlIExhenlMYXlvdXQgaW5mcmEgYSBjaGFuY2UgdG8gY29tcG9zZSB0aGVzZSBjaGlsZHJlbiBhaGVhZCBvZgogICAgICogdGltZSBhbmQgcmVkdWNlIGphbmsuCiAgICAgKgogICAgICogR2VuZXJhbGx5IHNwZWFraW5nLCBbb25OZXN0ZWRQcmVmZXRjaF0gc2hvdWxkIG9ubHkgcmVxdWVzdCBwcmVmZXRjaCBmb3IgY2hpbGRyZW4gdGhhdCBpdAogICAgICogZXhwZWN0cyB0byBhY3R1YWxseSBiZSB2aXNpYmxlIHdoZW4gdGhpcyBsaXN0IGlzIHNjcm9sbGVkIGludG8gdmlldy4KICAgICAqCiAgICAgKiBAcGFyYW0gZmlyc3RWaXNpYmxlSXRlbUluZGV4IHRoZSBpbmRleCBvZiB0aGUgZmlyc3QgdmlzaWJsZSBpdGVtLiBJdCBzaG91bGQgYmUgdXNlZCB0byBzdGFydAogICAgICogICBwcmVmZXRjaGluZyBmcm9tIHRoZSBjb3JyZWN0IGluZGV4IGluIGNhc2UgdGhlIGxpc3QgaGFzIGJlZW4gY3JlYXRlZCBhdCBhIG5vbi16ZXJvIG9mZnNldC4KICAgICAqLwogICAgZnVuIE5lc3RlZFByZWZldGNoU2NvcGUub25OZXN0ZWRQcmVmZXRjaChmaXJzdFZpc2libGVJdGVtSW5kZXg6IEludCkKfQoKLyoqIFNjb3BlIGZvciBjYWxsYmFja3MgaW4gW0xhenlMaXN0UHJlZmV0Y2hTdHJhdGVneV0gd2hpY2ggYWxsb3dzIHByZWZldGNoZXMgdG8gYmUgcmVxdWVzdGVkLiAqLwpARXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaQppbnRlcmZhY2UgTGF6eUxpc3RQcmVmZXRjaFNjb3BlIHsKCiAgICAvKioKICAgICAqIFNjaGVkdWxlcyBhIHByZWZldGNoIGZvciB0aGUgZ2l2ZW4gaW5kZXguIFJlcXVlc3RzIGFyZSBleGVjdXRlZCBpbiB0aGUgb3JkZXIgdGhleSdyZQogICAgICogcmVxdWVzdGVkLiBJZiBhIHJlcXVlc3RlZCBwcmVmZXRjaCBpcyBubyBsb25nZXIgbmVjZXNzYXJ5IChmb3IgZXhhbXBsZSwgZHVlIHRvIGNoYW5naW5nCiAgICAgKiBzY3JvbGwgZGlyZWN0aW9uKSwgdGhlIHJlcXVlc3Qgc2hvdWxkIGJlIGNhbmNlbGVkIHZpYQogICAgICogW0xhenlMYXlvdXRQcmVmZXRjaFN0YXRlLlByZWZldGNoSGFuZGxlLmNhbmNlbF0uCiAgICAgKgogICAgICogU2VlIFtQcmVmZXRjaFNjaGVkdWxlcl0uCiAgICAgKgogICAgICogQHBhcmFtIGluZGV4IHRoZSBpbmRleCBvZiB0aGUgY2hpbGQgdG8gcHJlZmV0Y2gKICAgICAqIEBwYXJhbSBvblByZWZldGNoRmluaXNoZWQgQSBjYWxsYmFjayB0aGF0IHdpbGwgYmUgaW52b2tlZCB3aGVuIHRoZSBwcmVmZXRjaGluZyBvZiB0aGlzIGl0ZW0KICAgICAqICAgaXMgY29tcGxldGVkLiBUaGlzIG1lYW5zIHByZWNvbXBvc2l0aW9uIGFuZCBwcmVtZWFzdXJpbmcuIElmIHRoZSByZXF1ZXN0IGlzIGNhbmNlbGVkIGJlZm9yZQogICAgICogICBlaXRoZXIgcGhhc2VzIGNhbiBjb21wbGV0ZSwgdGhpcyBjYWxsYmFjayB3b24ndCBiZSBjYWxsZWQuIFRoZSBpdGVtIGluZGV4IGFuZCB0aGUgbWFpbiBheGlzCiAgICAgKiAgIHNpemUgaW4gcGl4ZWxzIG9mIHRoZSBwcmVmZXRjaGVkIGl0ZW0gaXMgYXZhaWxhYmxlIGFzIGEgcGFyYW1ldGVyIG9mIHRoaXMgY2FsbGJhY2suIFNlZQogICAgICogICBbTGF6eUxpc3RQcmVmZXRjaFJlc3VsdFNjb3BlXSBmb3IgYWRkaXRpb25hbCBpbmZvcm1hdGlvbiBhYm91dCB0aGUgcHJlZmV0Y2hlZCBpdGVtLgogICAgICovCiAgICBmdW4gc2NoZWR1bGVQcmVmZXRjaCgKICAgICAgICBpbmRleDogSW50LAogICAgICAgIG9uUHJlZmV0Y2hGaW5pc2hlZDogKExhenlMaXN0UHJlZmV0Y2hSZXN1bHRTY29wZS4oKSAtPiBVbml0KT8gPSBudWxsLAogICAgKTogTGF6eUxheW91dFByZWZldGNoU3RhdGUuUHJlZmV0Y2hIYW5kbGUKfQoKLyoqCiAqIENyZWF0ZXMgYW4gaW5zdGFuY2Ugb2YgdGhlIGRlZmF1bHQgW0xhenlMaXN0UHJlZmV0Y2hTdHJhdGVneV0sIGFsbG93aW5nIGZvciBjdXN0b21pemF0aW9uIG9mIHRoZQogKiBuZXN0ZWQgcHJlZmV0Y2ggY291bnQuCiAqCiAqIEBwYXJhbSBuZXN0ZWRQcmVmZXRjaEl0ZW1Db3VudCBzcGVjaWZpZXMgaG93IG1hbnkgaW5uZXIgaXRlbXMgc2hvdWxkIGJlIHByZWZldGNoZWQgd2hlbiB0aGlzCiAqICAgTGF6eUxpc3QgaXMgbmVzdGVkIGluc2lkZSBhbm90aGVyIExhenlMYXlvdXQuIEZvciBleGFtcGxlLCBpZiB0aGlzIGlzIHRoZSBzdGF0ZSBmb3IgYQogKiAgIGhvcml6b250YWwgTGF6eUxpc3QgbmVzdGVkIGluIGEgdmVydGljYWwgTGF6eUxpc3QsIHlvdSBtaWdodCB3YW50IHRvIHNldCB0aGlzIHRvIHRoZSBudW1iZXIgb2YKICogICBpdGVtcyB0aGF0IHdpbGwgYmUgdmlzaWJsZSB3aGVuIHRoaXMgbGlzdCBpcyBzY3JvbGxlZCBpbnRvIHZpZXcuIElmIGF1dG9tYXRpYyBuZXN0ZWQgcHJlZmV0Y2gKICogICBpcyBlbmFibGVkLCB0aGlzIHZhbHVlIHdpbGwgYmUgdXNlZCBhcyB0aGUgaW5pdGlhbCBjb3VudCBhbmQgdGhlIHN0cmF0ZWd5IHdpbGwgYWRhcHQgdGhlIGNvdW50CiAqICAgYXV0b21hdGljYWxseS4KICovCkBFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCmZ1biBMYXp5TGlzdFByZWZldGNoU3RyYXRlZ3kobmVzdGVkUHJlZmV0Y2hJdGVtQ291bnQ6IEludCA9IDIpOiBMYXp5TGlzdFByZWZldGNoU3RyYXRlZ3kgPQogICAgRGVmYXVsdExhenlMaXN0UHJlZmV0Y2hTdHJhdGVneShuZXN0ZWRQcmVmZXRjaEl0ZW1Db3VudCkKCi8qKgogKiBUaGUgZGVmYXVsdCBwcmVmZXRjaGluZyBzdHJhdGVneSBmb3IgTGF6eUxpc3RzIC0gdGhpcyB3aWxsIGJlIHVzZWQgYXV0b21hdGljYWxseSBpZiBubyBvdGhlcgogKiBzdHJhdGVneSBpcyBwcm92aWRlZC4KICovCkBPcHRJbihFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpOjpjbGFzcykKQFN0YWJsZQpwcml2YXRlIGNsYXNzIERlZmF1bHRMYXp5TGlzdFByZWZldGNoU3RyYXRlZ3kocHJpdmF0ZSB2YWwgaW5pdGlhbE5lc3RlZFByZWZldGNoSXRlbUNvdW50OiBJbnQgPSAyKSA6CiAgICBMYXp5TGlzdFByZWZldGNoU3RyYXRlZ3kgewoKICAgIC8qKgogICAgICogVGhlIGluZGV4IHNjaGVkdWxlZCB0byBiZSBwcmVmZXRjaGVkIChvciB0aGUgbGFzdCBwcmVmZXRjaGVkIGluZGV4IGlmIHRoZSBwcmVmZXRjaCBpcyBkb25lKS4KICAgICAqLwogICAgcHJpdmF0ZSB2YXIgaW5kZXhUb1ByZWZldGNoID0gLTEKCiAgICAvKiogVGhlIGhhbmRsZSBhc3NvY2lhdGVkIHdpdGggdGhlIGN1cnJlbnQgaW5kZXggZnJvbSBbaW5kZXhUb1ByZWZldGNoXS4gKi8KICAgIHByaXZhdGUgdmFyIGN1cnJlbnRQcmVmZXRjaEhhbmRsZTogTGF6eUxheW91dFByZWZldGNoU3RhdGUuUHJlZmV0Y2hIYW5kbGU/ID0gbnVsbAoKICAgIC8qKgogICAgICogS2VlcHMgdGhlIHNjcm9sbGluZyBkaXJlY3Rpb24gZHVyaW5nIHRoZSBwcmV2aW91cyBjYWxjdWxhdGlvbiBpbiBvcmRlciB0byBiZSBhYmxlIHRvIGRldGVjdAogICAgICogdGhlIHNjcm9sbGluZyBkaXJlY3Rpb24gY2hhbmdlLgogICAgICovCiAgICBwcml2YXRlIHZhciB3YXNTY3JvbGxpbmdGb3J3YXJkID0gZmFsc2UKCiAgICBwcml2YXRlIHZhciBwcmV2aW91c1Bhc3NJdGVtQ291bnQgPSBVbnNldEl0ZW1Db3VudAogICAgcHJpdmF0ZSB2YXIgcHJldmlvdXNQYXNzRGVsdGEgPSAwZgoKICAgIG92ZXJyaWRlIGZ1biBMYXp5TGlzdFByZWZldGNoU2NvcGUub25TY3JvbGwoZGVsdGE6IEZsb2F0LCBsYXlvdXRJbmZvOiBMYXp5TGlzdExheW91dEluZm8pIHsKICAgICAgICBpZiAobGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICB2YWwgc2Nyb2xsaW5nRm9yd2FyZCA9IGRlbHRhIDwgMAogICAgICAgICAgICB2YWwgaW5kZXhUb1ByZWZldGNoID0gbGF5b3V0SW5mby5jYWxjdWxhdGVJbmRleFRvUHJlZmV0Y2goc2Nyb2xsaW5nRm9yd2FyZCkKICAgICAgICAgICAgaWYgKGluZGV4VG9QcmVmZXRjaCBpbiAwIHVudGlsIGxheW91dEluZm8udG90YWxJdGVtc0NvdW50KSB7CiAgICAgICAgICAgICAgICBpZiAoaW5kZXhUb1ByZWZldGNoICE9IHRoaXNARGVmYXVsdExhenlMaXN0UHJlZmV0Y2hTdHJhdGVneS5pbmRleFRvUHJlZmV0Y2gpIHsKICAgICAgICAgICAgICAgICAgICBpZiAod2FzU2Nyb2xsaW5nRm9yd2FyZCAhPSBzY3JvbGxpbmdGb3J3YXJkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIHRoZSBzY3JvbGxpbmcgZGlyZWN0aW9uIGhhcyBiZWVuIGNoYW5nZWQgd2hpY2ggbWVhbnMgdGhlIGxhc3QgcHJlZmV0Y2hlZAogICAgICAgICAgICAgICAgICAgICAgICAvLyBpcyBub3QgZ29pbmcgdG8gYmUgcmVhY2hlZCBhbnl0aW1lIHNvb24gc28gaXQgaXMgc2FmZXIgdG8gZGlzcG9zZSBpdC4KICAgICAgICAgICAgICAgICAgICAgICAgLy8gaWYgdGhpcyBpdGVtIGlzIGFscmVhZHkgdmlzaWJsZSBpdCBpcyBzYWZlIHRvIGNhbGwgdGhlIG1ldGhvZCBhbnl3YXkKICAgICAgICAgICAgICAgICAgICAgICAgLy8gYXMgaXQgd2lsbCBiZSBuby1vcAogICAgICAgICAgICAgICAgICAgICAgICByZXNldFByZWZldGNoU3RhdGUoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB0aGlzQERlZmF1bHRMYXp5TGlzdFByZWZldGNoU3RyYXRlZ3kud2FzU2Nyb2xsaW5nRm9yd2FyZCA9IHNjcm9sbGluZ0ZvcndhcmQKICAgICAgICAgICAgICAgICAgICB0aGlzQERlZmF1bHRMYXp5TGlzdFByZWZldGNoU3RyYXRlZ3kuaW5kZXhUb1ByZWZldGNoID0gaW5kZXhUb1ByZWZldGNoCiAgICAgICAgICAgICAgICAgICAgY3VycmVudFByZWZldGNoSGFuZGxlID0gc2NoZWR1bGVQcmVmZXRjaChpbmRleFRvUHJlZmV0Y2gpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoc2Nyb2xsaW5nRm9yd2FyZCkgewogICAgICAgICAgICAgICAgICAgIHZhbCBsYXN0SXRlbSA9IGxheW91dEluZm8udmlzaWJsZUl0ZW1zSW5mby5sYXN0KCkKICAgICAgICAgICAgICAgICAgICB2YWwgc3BhY2luZyA9IGxheW91dEluZm8ubWFpbkF4aXNJdGVtU3BhY2luZwogICAgICAgICAgICAgICAgICAgIHZhbCBkaXN0YW5jZVRvUHJlZmV0Y2hJdGVtID0KICAgICAgICAgICAgICAgICAgICAgICAgbGFzdEl0ZW0ub2Zmc2V0ICsgbGFzdEl0ZW0uc2l6ZSArIHNwYWNpbmcgLSBsYXlvdXRJbmZvLnZpZXdwb3J0RW5kT2Zmc2V0CiAgICAgICAgICAgICAgICAgICAgLy8gaWYgaW4gdGhlIG5leHQgZnJhbWUgd2Ugd2lsbCBnZXQgdGhlIHNhbWUgZGVsdGEgd2lsbCB3ZSByZWFjaCB0aGUgaXRlbT8KICAgICAgICAgICAgICAgICAgICBpZiAoZGlzdGFuY2VUb1ByZWZldGNoSXRlbSA8IC1kZWx0YSkgewogICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50UHJlZmV0Y2hIYW5kbGU/Lm1hcmtBc1VyZ2VudCgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICB2YWwgZmlyc3RJdGVtID0gbGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmZpcnN0KCkKICAgICAgICAgICAgICAgICAgICB2YWwgZGlzdGFuY2VUb1ByZWZldGNoSXRlbSA9IGxheW91dEluZm8udmlld3BvcnRTdGFydE9mZnNldCAtIGZpcnN0SXRlbS5vZmZzZXQKICAgICAgICAgICAgICAgICAgICAvLyBpZiBpbiB0aGUgbmV4dCBmcmFtZSB3ZSB3aWxsIGdldCB0aGUgc2FtZSBkZWx0YSB3aWxsIHdlIHJlYWNoIHRoZSBpdGVtPwogICAgICAgICAgICAgICAgICAgIGlmIChkaXN0YW5jZVRvUHJlZmV0Y2hJdGVtIDwgZGVsdGEpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudFByZWZldGNoSGFuZGxlPy5tYXJrQXNVcmdlbnQoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBwcmV2aW91c1Bhc3NEZWx0YSA9IGRlbHRhCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIExhenlMaXN0UHJlZmV0Y2hTY29wZS5vblZpc2libGVJdGVtc1VwZGF0ZWQobGF5b3V0SW5mbzogTGF6eUxpc3RMYXlvdXRJbmZvKSB7CgogICAgICAgIGxheW91dEluZm8uZXZhbHVhdGVQcmVmZXRjaEZvckNhbmNlbGxhdGlvbihpbmRleFRvUHJlZmV0Y2gsIHdhc1Njcm9sbGluZ0ZvcndhcmQpCgogICAgICAgIHZhbCBjdXJyZW50UGFzc0l0ZW1Db3VudCA9IGxheW91dEluZm8udG90YWxJdGVtc0NvdW50CiAgICAgICAgLy8gdG90YWwgaXRlbSBjb3VudCBjaGFuZ2VkLCByZS10cmlnZ2VyIHByZWZldGNoLgogICAgICAgIGlmICgKICAgICAgICAgICAgcHJldmlvdXNQYXNzSXRlbUNvdW50ICE9IFVuc2V0SXRlbUNvdW50ICYmIC8vIHdlIGFscmVhZHkgaGF2ZSBpbmZvIGFib3V0IHRoZSBpdGVtIGNvdW50CiAgICAgICAgICAgICAgICBwcmV2aW91c1Bhc3NEZWx0YSAhPSAwLjBmICYmIC8vIGFuZCBzY3JvbGwgZGlyZWN0aW9uCiAgICAgICAgICAgICAgICBwcmV2aW91c1Bhc3NJdGVtQ291bnQgIT0gY3VycmVudFBhc3NJdGVtQ291bnQgJiYgLy8gYW5kIHRoZSBpdGVtIGNvdW50IGNoYW5nZWQKICAgICAgICAgICAgICAgIGxheW91dEluZm8udmlzaWJsZUl0ZW1zSW5mby5pc05vdEVtcHR5KCkKICAgICAgICApIHsKICAgICAgICAgICAgdmFsIGluZGV4VG9QcmVmZXRjaCA9IGxheW91dEluZm8uY2FsY3VsYXRlSW5kZXhUb1ByZWZldGNoKHByZXZpb3VzUGFzc0RlbHRhIDwgMCkKICAgICAgICAgICAgaWYgKGluZGV4VG9QcmVmZXRjaCBpbiAwIHVudGlsIGN1cnJlbnRQYXNzSXRlbUNvdW50KSB7CiAgICAgICAgICAgICAgICB0aGlzQERlZmF1bHRMYXp5TGlzdFByZWZldGNoU3RyYXRlZ3kuaW5kZXhUb1ByZWZldGNoID0gaW5kZXhUb1ByZWZldGNoCiAgICAgICAgICAgICAgICBjdXJyZW50UHJlZmV0Y2hIYW5kbGUgPSBzY2hlZHVsZVByZWZldGNoKGluZGV4VG9QcmVmZXRjaCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHJldmlvdXNQYXNzSXRlbUNvdW50ID0gY3VycmVudFBhc3NJdGVtQ291bnQKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gTmVzdGVkUHJlZmV0Y2hTY29wZS5vbk5lc3RlZFByZWZldGNoKGZpcnN0VmlzaWJsZUl0ZW1JbmRleDogSW50KSB7CiAgICAgICAgdmFsIHJlc29sdmVkTmVzdGVkUHJlZmV0Y2hJdGVtQ291bnQgPQogICAgICAgICAgICBpZiAobmVzdGVkUHJlZmV0Y2hJdGVtQ291bnQgPT0gVW5zcGVjaWZpZWROZXN0ZWRQcmVmZXRjaENvdW50KSB7CiAgICAgICAgICAgICAgICBpbml0aWFsTmVzdGVkUHJlZmV0Y2hJdGVtQ291bnQKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG5lc3RlZFByZWZldGNoSXRlbUNvdW50CiAgICAgICAgICAgIH0KICAgICAgICByZXBlYXQocmVzb2x2ZWROZXN0ZWRQcmVmZXRjaEl0ZW1Db3VudCkgeyBpIC0+CiAgICAgICAgICAgIHNjaGVkdWxlUHJlY29tcG9zaXRpb24oZmlyc3RWaXNpYmxlSXRlbUluZGV4ICsgaSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVzZXRQcmVmZXRjaFN0YXRlKCkgewogICAgICAgIGluZGV4VG9QcmVmZXRjaCA9IC0xCiAgICAgICAgY3VycmVudFByZWZldGNoSGFuZGxlPy5jYW5jZWwoKQogICAgICAgIGN1cnJlbnRQcmVmZXRjaEhhbmRsZSA9IG51bGwKICAgIH0KCiAgICBwcml2YXRlIGZ1biBMYXp5TGlzdExheW91dEluZm8uY2FsY3VsYXRlSW5kZXhUb1ByZWZldGNoKHNjcm9sbGluZ0ZvcndhcmQ6IEJvb2xlYW4pOiBJbnQgewogICAgICAgIHJldHVybiBpZiAoc2Nyb2xsaW5nRm9yd2FyZCkgewogICAgICAgICAgICB2aXNpYmxlSXRlbXNJbmZvLmxhc3QoKS5pbmRleCArIDEKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB2aXNpYmxlSXRlbXNJbmZvLmZpcnN0KCkuaW5kZXggLSAxCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIExhenlMaXN0TGF5b3V0SW5mby5ldmFsdWF0ZVByZWZldGNoRm9yQ2FuY2VsbGF0aW9uKAogICAgICAgIGN1cnJlbnRQcmVmZXRjaGluZ0luZGV4OiBJbnQsCiAgICAgICAgc2Nyb2xsaW5nRm9yd2FyZDogQm9vbGVhbiwKICAgICkgewogICAgICAgIGlmIChjdXJyZW50UHJlZmV0Y2hpbmdJbmRleCAhPSAtMSAmJiB2aXNpYmxlSXRlbXNJbmZvLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICB2YWwgZXhwZWN0ZWRQcmVmZXRjaEluZGV4ID0gY2FsY3VsYXRlSW5kZXhUb1ByZWZldGNoKHNjcm9sbGluZ0ZvcndhcmQpCiAgICAgICAgICAgIGlmIChjdXJyZW50UHJlZmV0Y2hpbmdJbmRleCAhPSBleHBlY3RlZFByZWZldGNoSW5kZXgpIHsKICAgICAgICAgICAgICAgIHJlc2V0UHJlZmV0Y2hTdGF0ZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8qKgogKiBBIHNjb3BlIGZvciBbTGF6eUxpc3RQcmVmZXRjaFNjb3BlLnNjaGVkdWxlUHJlZmV0Y2hdIGNhbGxiYWNrcy4gVGhlIHNjb3BlIHByb3ZpZGVzIGFkZGl0aW9uYWwKICogaW5mb3JtYXRpb24gYWJvdXQgYSBwcmVmZXRjaGVkIGl0ZW0uCiAqLwpARXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaQpzZWFsZWQgaW50ZXJmYWNlIExhenlMaXN0UHJlZmV0Y2hSZXN1bHRTY29wZSB7CgogICAgLyoqIFRoZSBpbmRleCBvZiB0aGUgcHJlZmV0Y2hlZCBpdGVtICovCiAgICB2YWwgaW5kZXg6IEludAoKICAgIC8qKiBUaGUgbWFpbiBheGlzIHNpemUgaW4gcGl4ZWxzIG9mIHRoZSBwcmVmZXRjaGVkIGl0ZW0gKi8KICAgIHZhbCBtYWluQXhpc1NpemU6IEludAp9CgpAT3B0SW4oRXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaTo6Y2xhc3MpCmludGVybmFsIGNsYXNzIExhenlMaXN0UHJlZmV0Y2hSZXN1bHRTY29wZUltcGwoCiAgICBvdmVycmlkZSB2YWwgaW5kZXg6IEludCwKICAgIG92ZXJyaWRlIHZhbCBtYWluQXhpc1NpemU6IEludCwKKSA6IExhenlMaXN0UHJlZmV0Y2hSZXN1bHRTY29wZQoKcHJpdmF0ZSBjb25zdCB2YWwgVW5zZXRJdGVtQ291bnQgPSAtMQo=
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@file:Suppress("DEPRECATION") // b/420551535
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.ExperimentalFoundationApi
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutPrefetchState
+import com.bslsjdk.operit.ui.features.chat.components.lazy.NestedPrefetchScope
+import com.bslsjdk.operit.ui.features.chat.components.lazy.PrefetchScheduler
+import com.bslsjdk.operit.ui.features.chat.components.lazy.UnspecifiedNestedPrefetchCount
+import androidx.compose.runtime.Stable
+
+/**
+ * Implementations of this interface control which indices of a LazyList should be prefetched
+ * (precomposed and premeasured during idle time) as the user interacts with it.
+ *
+ * Implementations should invoke [LazyListPrefetchScope.schedulePrefetch] to schedule prefetches
+ * from the [onScroll] and [onVisibleItemsUpdated] callbacks. If any of the returned PrefetchHandles
+ * no longer need to be prefetched, use [LazyLayoutPrefetchState.PrefetchHandle.cancel] to cancel
+ * the request.
+ */
+@ExperimentalFoundationApi
+interface LazyListPrefetchStrategy {
+
+    /**
+     * A [PrefetchScheduler] implementation which will be used to execute prefetch requests for this
+     * strategy implementation. If null, the default [PrefetchScheduler] for the platform will be
+     * used.
+     */
+    @Deprecated(
+        "Customization of PrefetchScheduler is no longer supported. LazyLayout will attach " +
+            "an appropriate scheduler internally."
+    )
+    val prefetchScheduler: PrefetchScheduler?
+        get() = null
+
+    /**
+     * onScroll is invoked when the LazyList scrolls, whether or not the visible items have changed.
+     * If the visible items have also changed, then this will be invoked in the same frame *after*
+     * [onVisibleItemsUpdated].
+     *
+     * @param delta the change in scroll direction. Delta < 0 indicates scrolling down while delta >
+     *   0 indicates scrolling up.
+     * @param layoutInfo the current [LazyListLayoutInfo]
+     */
+    fun LazyListPrefetchScope.onScroll(delta: Float, layoutInfo: LazyListLayoutInfo)
+
+    /**
+     * onVisibleItemsUpdated is invoked when the LazyList scrolls if the visible items have changed.
+     *
+     * @param layoutInfo the current [LazyListLayoutInfo]. Info about the updated visible items can
+     *   be found in [LazyListLayoutInfo.visibleItemsInfo].
+     */
+    fun LazyListPrefetchScope.onVisibleItemsUpdated(layoutInfo: LazyListLayoutInfo)
+
+    /**
+     * onNestedPrefetch is invoked when a parent LazyLayout has prefetched content which contains
+     * this LazyList. It gives this LazyList a chance to request prefetch for some of its own
+     * children before coming onto screen.
+     *
+     * Implementations can use [NestedPrefetchScope.schedulePrefetch] to schedule child prefetches.
+     * For example, this is useful if this LazyList is a LazyRow that is a child of a LazyColumn: in
+     * that case, [onNestedPrefetch] can schedule the children it expects to be visible when it
+     * comes onto screen, giving the LazyLayout infra a chance to compose these children ahead of
+     * time and reduce jank.
+     *
+     * Generally speaking, [onNestedPrefetch] should only request prefetch for children that it
+     * expects to actually be visible when this list is scrolled into view.
+     *
+     * @param firstVisibleItemIndex the index of the first visible item. It should be used to start
+     *   prefetching from the correct index in case the list has been created at a non-zero offset.
+     */
+    fun NestedPrefetchScope.onNestedPrefetch(firstVisibleItemIndex: Int)
+}
+
+/** Scope for callbacks in [LazyListPrefetchStrategy] which allows prefetches to be requested. */
+@ExperimentalFoundationApi
+interface LazyListPrefetchScope {
+
+    /**
+     * Schedules a prefetch for the given index. Requests are executed in the order they're
+     * requested. If a requested prefetch is no longer necessary (for example, due to changing
+     * scroll direction), the request should be canceled via
+     * [LazyLayoutPrefetchState.PrefetchHandle.cancel].
+     *
+     * See [PrefetchScheduler].
+     *
+     * @param index the index of the child to prefetch
+     * @param onPrefetchFinished A callback that will be invoked when the prefetching of this item
+     *   is completed. This means precomposition and premeasuring. If the request is canceled before
+     *   either phases can complete, this callback won't be called. The item index and the main axis
+     *   size in pixels of the prefetched item is available as a parameter of this callback. See
+     *   [LazyListPrefetchResultScope] for additional information about the prefetched item.
+     */
+    fun schedulePrefetch(
+        index: Int,
+        onPrefetchFinished: (LazyListPrefetchResultScope.() -> Unit)? = null,
+    ): LazyLayoutPrefetchState.PrefetchHandle
+}
+
+/**
+ * Creates an instance of the default [LazyListPrefetchStrategy], allowing for customization of the
+ * nested prefetch count.
+ *
+ * @param nestedPrefetchItemCount specifies how many inner items should be prefetched when this
+ *   LazyList is nested inside another LazyLayout. For example, if this is the state for a
+ *   horizontal LazyList nested in a vertical LazyList, you might want to set this to the number of
+ *   items that will be visible when this list is scrolled into view. If automatic nested prefetch
+ *   is enabled, this value will be used as the initial count and the strategy will adapt the count
+ *   automatically.
+ */
+@ExperimentalFoundationApi
+fun LazyListPrefetchStrategy(nestedPrefetchItemCount: Int = 2): LazyListPrefetchStrategy =
+    DefaultLazyListPrefetchStrategy(nestedPrefetchItemCount)
+
+/**
+ * The default prefetching strategy for LazyLists - this will be used automatically if no other
+ * strategy is provided.
+ */
+@OptIn(ExperimentalFoundationApi::class)
+@Stable
+private class DefaultLazyListPrefetchStrategy(private val initialNestedPrefetchItemCount: Int = 2) :
+    LazyListPrefetchStrategy {
+
+    /**
+     * The index scheduled to be prefetched (or the last prefetched index if the prefetch is done).
+     */
+    private var indexToPrefetch = -1
+
+    /** The handle associated with the current index from [indexToPrefetch]. */
+    private var currentPrefetchHandle: LazyLayoutPrefetchState.PrefetchHandle? = null
+
+    /**
+     * Keeps the scrolling direction during the previous calculation in order to be able to detect
+     * the scrolling direction change.
+     */
+    private var wasScrollingForward = false
+
+    private var previousPassItemCount = UnsetItemCount
+    private var previousPassDelta = 0f
+
+    override fun LazyListPrefetchScope.onScroll(delta: Float, layoutInfo: LazyListLayoutInfo) {
+        if (layoutInfo.visibleItemsInfo.isNotEmpty()) {
+            val scrollingForward = delta < 0
+            val indexToPrefetch = layoutInfo.calculateIndexToPrefetch(scrollingForward)
+            if (indexToPrefetch in 0 until layoutInfo.totalItemsCount) {
+                if (indexToPrefetch != this@DefaultLazyListPrefetchStrategy.indexToPrefetch) {
+                    if (wasScrollingForward != scrollingForward) {
+                        // the scrolling direction has been changed which means the last prefetched
+                        // is not going to be reached anytime soon so it is safer to dispose it.
+                        // if this item is already visible it is safe to call the method anyway
+                        // as it will be no-op
+                        resetPrefetchState()
+                    }
+                    this@DefaultLazyListPrefetchStrategy.wasScrollingForward = scrollingForward
+                    this@DefaultLazyListPrefetchStrategy.indexToPrefetch = indexToPrefetch
+                    currentPrefetchHandle = schedulePrefetch(indexToPrefetch)
+                }
+                if (scrollingForward) {
+                    val lastItem = layoutInfo.visibleItemsInfo.last()
+                    val spacing = layoutInfo.mainAxisItemSpacing
+                    val distanceToPrefetchItem =
+                        lastItem.offset + lastItem.size + spacing - layoutInfo.viewportEndOffset
+                    // if in the next frame we will get the same delta will we reach the item?
+                    if (distanceToPrefetchItem < -delta) {
+                        currentPrefetchHandle?.markAsUrgent()
+                    }
+                } else {
+                    val firstItem = layoutInfo.visibleItemsInfo.first()
+                    val distanceToPrefetchItem = layoutInfo.viewportStartOffset - firstItem.offset
+                    // if in the next frame we will get the same delta will we reach the item?
+                    if (distanceToPrefetchItem < delta) {
+                        currentPrefetchHandle?.markAsUrgent()
+                    }
+                }
+            }
+        }
+        previousPassDelta = delta
+    }
+
+    override fun LazyListPrefetchScope.onVisibleItemsUpdated(layoutInfo: LazyListLayoutInfo) {
+
+        layoutInfo.evaluatePrefetchForCancellation(indexToPrefetch, wasScrollingForward)
+
+        val currentPassItemCount = layoutInfo.totalItemsCount
+        // total item count changed, re-trigger prefetch.
+        if (
+            previousPassItemCount != UnsetItemCount && // we already have info about the item count
+                previousPassDelta != 0.0f && // and scroll direction
+                previousPassItemCount != currentPassItemCount && // and the item count changed
+                layoutInfo.visibleItemsInfo.isNotEmpty()
+        ) {
+            val indexToPrefetch = layoutInfo.calculateIndexToPrefetch(previousPassDelta < 0)
+            if (indexToPrefetch in 0 until currentPassItemCount) {
+                this@DefaultLazyListPrefetchStrategy.indexToPrefetch = indexToPrefetch
+                currentPrefetchHandle = schedulePrefetch(indexToPrefetch)
+            }
+        }
+
+        previousPassItemCount = currentPassItemCount
+    }
+
+    override fun NestedPrefetchScope.onNestedPrefetch(firstVisibleItemIndex: Int) {
+        val resolvedNestedPrefetchItemCount =
+            if (nestedPrefetchItemCount == UnspecifiedNestedPrefetchCount) {
+                initialNestedPrefetchItemCount
+            } else {
+                nestedPrefetchItemCount
+            }
+        repeat(resolvedNestedPrefetchItemCount) { i ->
+            schedulePrecomposition(firstVisibleItemIndex + i)
+        }
+    }
+
+    private fun resetPrefetchState() {
+        indexToPrefetch = -1
+        currentPrefetchHandle?.cancel()
+        currentPrefetchHandle = null
+    }
+
+    private fun LazyListLayoutInfo.calculateIndexToPrefetch(scrollingForward: Boolean): Int {
+        return if (scrollingForward) {
+            visibleItemsInfo.last().index + 1
+        } else {
+            visibleItemsInfo.first().index - 1
+        }
+    }
+
+    private fun LazyListLayoutInfo.evaluatePrefetchForCancellation(
+        currentPrefetchingIndex: Int,
+        scrollingForward: Boolean,
+    ) {
+        if (currentPrefetchingIndex != -1 && visibleItemsInfo.isNotEmpty()) {
+            val expectedPrefetchIndex = calculateIndexToPrefetch(scrollingForward)
+            if (currentPrefetchingIndex != expectedPrefetchIndex) {
+                resetPrefetchState()
+            }
+        }
+    }
+}
+
+/**
+ * A scope for [LazyListPrefetchScope.schedulePrefetch] callbacks. The scope provides additional
+ * information about a prefetched item.
+ */
+@ExperimentalFoundationApi
+sealed interface LazyListPrefetchResultScope {
+
+    /** The index of the prefetched item */
+    val index: Int
+
+    /** The main axis size in pixels of the prefetched item */
+    val mainAxisSize: Int
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+internal class LazyListPrefetchResultScopeImpl(
+    override val index: Int,
+    override val mainAxisSize: Int,
+) : LazyListPrefetchResultScope
+
+private const val UnsetItemCount = -1

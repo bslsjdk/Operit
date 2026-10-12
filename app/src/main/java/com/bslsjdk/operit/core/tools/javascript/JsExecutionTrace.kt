@@ -1,1 +1,256 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuU2FuZGJveFNjcmlwdEV4ZWN1dGlvblJlc3VsdERhdGEKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmVuY29kZVRvU3RyaW5nCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uQXJyYXkKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb25FbGVtZW50CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uTnVsbAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbk9iamVjdAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvblByaW1pdGl2ZQoKaW50ZXJuYWwgaW50ZXJmYWNlIEpzRXhlY3V0aW9uTGlzdGVuZXIgewogICAgZnVuIG9uQ2FsbExvZyhjYWxsSWQ6IFN0cmluZywgbGV2ZWw6IFN0cmluZywgbWVzc2FnZTogU3RyaW5nKSB7fQoKICAgIGZ1biBvbkludGVybWVkaWF0ZVJlc3VsdChjYWxsSWQ6IFN0cmluZywgdmFsdWU6IEFueT8pIHt9CgogICAgZnVuIG9uQ29tcGxldGVkKGNhbGxJZDogU3RyaW5nLCByZXN1bHQ6IFN0cmluZykge30KCiAgICBmdW4gb25GYWlsZWQoY2FsbElkOiBTdHJpbmcsIGVycm9yOiBTdHJpbmcpIHt9Cn0KCmludGVybmFsIGNsYXNzIEpzRXhlY3V0aW9uVHJhY2VSZWNvcmRlcigKICAgIHByaXZhdGUgdmFsIHNjcmlwdFBhdGg6IFN0cmluZywKICAgIHByaXZhdGUgdmFsIGZ1bmN0aW9uTmFtZTogU3RyaW5nLAogICAgcHJpdmF0ZSB2YWwgcGFyYW1zSnNvbjogU3RyaW5nLAogICAgcHJpdmF0ZSB2YWwgZW52RmlsZVBhdGg6IFN0cmluZz8KKSA6IEpzRXhlY3V0aW9uTGlzdGVuZXIgewogICAgcHJpdmF0ZSB2YWwgc3RhcnRlZEF0TXMgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgcHJpdmF0ZSB2YWwgZXZlbnRzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKCiAgICBAU3luY2hyb25pemVkCiAgICBvdmVycmlkZSBmdW4gb25DYWxsTG9nKGNhbGxJZDogU3RyaW5nLCBsZXZlbDogU3RyaW5nLCBtZXNzYWdlOiBTdHJpbmcpIHsKICAgICAgICB2YWwgbm9ybWFsaXplZExldmVsID0gbGV2ZWwudHJpbSgpLnVwcGVyY2FzZSgpCiAgICAgICAgdmFsIG5vcm1hbGl6ZWRNZXNzYWdlID0gY29sbGFwc2VXaGl0ZXNwYWNlKG1lc3NhZ2UpCiAgICAgICAgaWYgKG5vcm1hbGl6ZWRNZXNzYWdlLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBldmVudHMgKz0KICAgICAgICAgICAgICAgIGlmIChub3JtYWxpemVkTGV2ZWwuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgIiRub3JtYWxpemVkTGV2ZWw6ICRub3JtYWxpemVkTWVzc2FnZSIKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgbm9ybWFsaXplZE1lc3NhZ2UKICAgICAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgb3ZlcnJpZGUgZnVuIG9uSW50ZXJtZWRpYXRlUmVzdWx0KGNhbGxJZDogU3RyaW5nLCB2YWx1ZTogQW55PykgewogICAgICAgIHZhbCBzdW1tYXJ5ID0gc3VtbWFyaXplVmFsdWUodmFsdWUpCiAgICAgICAgaWYgKHN1bW1hcnkuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIGV2ZW50cyArPSAiaW50ZXJtZWRpYXRlOiAkc3VtbWFyeSIKICAgICAgICB9CiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgb3ZlcnJpZGUgZnVuIG9uQ29tcGxldGVkKGNhbGxJZDogU3RyaW5nLCByZXN1bHQ6IFN0cmluZykgewogICAgICAgIHZhbCBzdW1tYXJ5ID0gc3VtbWFyaXplVmFsdWUocmVzdWx0KQogICAgICAgIGlmIChzdW1tYXJ5LmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBldmVudHMgKz0gImNvbXBsZXRlZDogJHN1bW1hcnkiCiAgICAgICAgfQogICAgfQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIG92ZXJyaWRlIGZ1biBvbkZhaWxlZChjYWxsSWQ6IFN0cmluZywgZXJyb3I6IFN0cmluZykgewogICAgICAgIHZhbCBub3JtYWxpemVkRXJyb3IgPSBjb2xsYXBzZVdoaXRlc3BhY2UoZXJyb3IpCiAgICAgICAgaWYgKG5vcm1hbGl6ZWRFcnJvci5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgZXZlbnRzICs9ICJmYWlsZWQ6ICRub3JtYWxpemVkRXJyb3IiCiAgICAgICAgfQogICAgfQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBidWlsZFBheWxvYWQoCiAgICAgICAgc3VjY2VzczogQm9vbGVhbiwKICAgICAgICByZXN1bHQ6IEFueT8sCiAgICAgICAgZXJyb3I6IFN0cmluZz8gPSBudWxsCiAgICApOiBTYW5kYm94U2NyaXB0RXhlY3V0aW9uUmVzdWx0RGF0YSB7CiAgICAgICAgcmV0dXJuIGJ1aWxkUmVzdWx0RGF0YSgKICAgICAgICAgICAgc3VjY2VzcyA9IHN1Y2Nlc3MsCiAgICAgICAgICAgIHJlc3VsdCA9IHJlc3VsdCwKICAgICAgICAgICAgZXJyb3IgPSBlcnJvcgogICAgICAgICkKICAgIH0KCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gYnVpbGRSZXN1bHREYXRhKAogICAgICAgIHN1Y2Nlc3M6IEJvb2xlYW4sCiAgICAgICAgcmVzdWx0OiBBbnk/LAogICAgICAgIGVycm9yOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICBleGVjdXRpb25Nb2RlOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICBzY3JpcHRMYWJlbDogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgcmVxdWVzdGVkV2FpdE1zOiBMb25nPyA9IG51bGwKICAgICk6IFNhbmRib3hTY3JpcHRFeGVjdXRpb25SZXN1bHREYXRhIHsKICAgICAgICB2YWwgZmluaXNoZWRBdE1zID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICByZXR1cm4gU2FuZGJveFNjcmlwdEV4ZWN1dGlvblJlc3VsdERhdGEoCiAgICAgICAgICAgIHN1Y2Nlc3MgPSBzdWNjZXNzLAogICAgICAgICAgICBzY3JpcHRQYXRoID0gc2NyaXB0UGF0aCwKICAgICAgICAgICAgZnVuY3Rpb25OYW1lID0gZnVuY3Rpb25OYW1lLAogICAgICAgICAgICBwYXJhbXMgPSBwYXJzZUpzb25UZXh0KHBhcmFtc0pzb24pLAogICAgICAgICAgICBlbnZGaWxlUGF0aCA9IGVudkZpbGVQYXRoLAogICAgICAgICAgICBzdGFydGVkQXRNcyA9IHN0YXJ0ZWRBdE1zLAogICAgICAgICAgICBmaW5pc2hlZEF0TXMgPSBmaW5pc2hlZEF0TXMsCiAgICAgICAgICAgIGR1cmF0aW9uTXMgPSBmaW5pc2hlZEF0TXMgLSBzdGFydGVkQXRNcywKICAgICAgICAgICAgcmVzdWx0ID0gdG9Kc29uRWxlbWVudChyZXN1bHQpLAogICAgICAgICAgICBlcnJvciA9IGVycm9yPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSwKICAgICAgICAgICAgZXZlbnRzID0gZXZlbnRzLnRvTGlzdCgpLAogICAgICAgICAgICBleGVjdXRpb25Nb2RlID0gZXhlY3V0aW9uTW9kZSwKICAgICAgICAgICAgc2NyaXB0TGFiZWwgPSBzY3JpcHRMYWJlbCwKICAgICAgICAgICAgcmVxdWVzdGVkV2FpdE1zID0gcmVxdWVzdGVkV2FpdE1zCiAgICAgICAgKQogICAgfQoKICAgIGZ1biB3cml0ZVRvKGZpbGU6IEZpbGUsIHBheWxvYWQ6IFNhbmRib3hTY3JpcHRFeGVjdXRpb25SZXN1bHREYXRhKSB7CiAgICAgICAgdmFsIHBhcmVudCA9IGZpbGUucGFyZW50RmlsZQogICAgICAgIGlmIChwYXJlbnQgIT0gbnVsbCAmJiAhcGFyZW50LmV4aXN0cygpKSB7CiAgICAgICAgICAgIHBhcmVudC5ta2RpcnMoKQogICAgICAgIH0KICAgICAgICBmaWxlLndyaXRlVGV4dCgKICAgICAgICAgICAgSnNvbiB7IHByZXR0eVByaW50ID0gdHJ1ZSB9LmVuY29kZVRvU3RyaW5nKAogICAgICAgICAgICAgICAgU2FuZGJveFNjcmlwdEV4ZWN1dGlvblJlc3VsdERhdGEuc2VyaWFsaXplcigpLAogICAgICAgICAgICAgICAgcGF5bG9hZAogICAgICAgICAgICApLAogICAgICAgICAgICBDaGFyc2V0cy5VVEZfOAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZUpzb25UZXh0KHRleHQ6IFN0cmluZyk6IEpzb25FbGVtZW50PyB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSB0ZXh0LnRyaW0oKQogICAgICAgIGlmIChub3JtYWxpemVkLmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gSnNvbk9iamVjdChlbXB0eU1hcCgpKQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgSnNvbi5wYXJzZVRvSnNvbkVsZW1lbnQobm9ybWFsaXplZCkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgSnNvblByaW1pdGl2ZShub3JtYWxpemVkKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biB0b0pzb25FbGVtZW50KHZhbHVlOiBBbnk/KTogSnNvbkVsZW1lbnQ/IHsKICAgICAgICByZXR1cm4gd2hlbiAodmFsdWUpIHsKICAgICAgICAgICAgbnVsbCAtPiBudWxsCiAgICAgICAgICAgIGlzIEpzb25FbGVtZW50IC0+IHZhbHVlCiAgICAgICAgICAgIGlzIE1hcDwqLCAqPiAtPiB7CiAgICAgICAgICAgICAgICB2YWwgY29udGVudCA9IExpbmtlZEhhc2hNYXA8U3RyaW5nLCBKc29uRWxlbWVudD4oKQogICAgICAgICAgICAgICAgdmFsdWUuZm9yRWFjaCB7IChrZXksIGl0ZW0pIC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIG5vcm1hbGl6ZWRLZXkgPSBrZXk/LnRvU3RyaW5nKCkgPzogcmV0dXJuQGZvckVhY2gKICAgICAgICAgICAgICAgICAgICBjb250ZW50W25vcm1hbGl6ZWRLZXldID0gdG9Kc29uRWxlbWVudChpdGVtKSA/OiBKc29uTnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgSnNvbk9iamVjdChjb250ZW50KQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlzIEl0ZXJhYmxlPCo+IC0+IEpzb25BcnJheSh2YWx1ZS5tYXAgeyB0b0pzb25FbGVtZW50KGl0KSA/OiBKc29uTnVsbCB9KQogICAgICAgICAgICBpcyBCb29sZWFuIC0+IEpzb25QcmltaXRpdmUodmFsdWUpCiAgICAgICAgICAgIGlzIE51bWJlciAtPiBKc29uUHJpbWl0aXZlKHZhbHVlKQogICAgICAgICAgICBpcyBDaGFyIC0+IEpzb25QcmltaXRpdmUodmFsdWUudG9TdHJpbmcoKSkKICAgICAgICAgICAgaXMgQ2hhclNlcXVlbmNlIC0+IHBhcnNlSnNvblRleHQodmFsdWUudG9TdHJpbmcoKSkgPzogSnNvblByaW1pdGl2ZSh2YWx1ZS50b1N0cmluZygpKQogICAgICAgICAgICBlbHNlIC0+IEpzb25QcmltaXRpdmUodmFsdWUudG9TdHJpbmcoKSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc3VtbWFyaXplVmFsdWUodmFsdWU6IEFueT8sIG1heExlbmd0aDogSW50ID0gMjQwLCBkZXB0aDogSW50ID0gMCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHdoZW4gKHZhbHVlKSB7CiAgICAgICAgICAgIG51bGwgLT4gIiIKICAgICAgICAgICAgaXMgU3RyaW5nIC0+IHRydW5jYXRlVGV4dChjb2xsYXBzZVdoaXRlc3BhY2UodmFsdWUpLCBtYXhMZW5ndGgpCiAgICAgICAgICAgIGlzIENoYXJTZXF1ZW5jZSAtPiB0cnVuY2F0ZVRleHQoY29sbGFwc2VXaGl0ZXNwYWNlKHZhbHVlLnRvU3RyaW5nKCkpLCBtYXhMZW5ndGgpCiAgICAgICAgICAgIGlzIE51bWJlciwgaXMgQm9vbGVhbiwgaXMgQ2hhciAtPiB2YWx1ZS50b1N0cmluZygpCiAgICAgICAgICAgIGlzIEpzb25FbGVtZW50IC0+IHN1bW1hcml6ZUpzb25FbGVtZW50KHZhbHVlLCBtYXhMZW5ndGgsIGRlcHRoKQogICAgICAgICAgICBpcyBNYXA8KiwgKj4gLT4gc3VtbWFyaXplTWFwKHZhbHVlLCBtYXhMZW5ndGgsIGRlcHRoKQogICAgICAgICAgICBpcyBJdGVyYWJsZTwqPiAtPiBzdW1tYXJpemVJdGVyYWJsZSh2YWx1ZS50b0xpc3QoKSwgbWF4TGVuZ3RoLCBkZXB0aCkKICAgICAgICAgICAgaXMgQXJyYXk8Kj4gLT4gc3VtbWFyaXplSXRlcmFibGUodmFsdWUudG9MaXN0KCksIG1heExlbmd0aCwgZGVwdGgpCiAgICAgICAgICAgIGVsc2UgLT4gdHJ1bmNhdGVUZXh0KGNvbGxhcHNlV2hpdGVzcGFjZSh2YWx1ZS50b1N0cmluZygpKSwgbWF4TGVuZ3RoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBzdW1tYXJpemVKc29uRWxlbWVudCgKICAgICAgICBlbGVtZW50OiBKc29uRWxlbWVudCwKICAgICAgICBtYXhMZW5ndGg6IEludCwKICAgICAgICBkZXB0aDogSW50CiAgICApOiBTdHJpbmcgewogICAgICAgIHJldHVybiB3aGVuIChlbGVtZW50KSB7CiAgICAgICAgICAgIGlzIEpzb25OdWxsIC0+ICJudWxsIgogICAgICAgICAgICBpcyBKc29uUHJpbWl0aXZlIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBjb250ZW50ID0KICAgICAgICAgICAgICAgICAgICBpZiAoZWxlbWVudC5pc1N0cmluZykgewogICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50LmNvbnRlbnQKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50LnRvU3RyaW5nKCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB0cnVuY2F0ZVRleHQoY29sbGFwc2VXaGl0ZXNwYWNlKGNvbnRlbnQpLCBtYXhMZW5ndGgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaXMgSnNvbkFycmF5IC0+IHN1bW1hcml6ZUl0ZXJhYmxlKGVsZW1lbnQsIG1heExlbmd0aCwgZGVwdGgpCiAgICAgICAgICAgIGlzIEpzb25PYmplY3QgLT4gc3VtbWFyaXplTWFwKGVsZW1lbnQsIG1heExlbmd0aCwgZGVwdGgpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHN1bW1hcml6ZUl0ZXJhYmxlKAogICAgICAgIHZhbHVlczogTGlzdDxBbnk/PiwKICAgICAgICBtYXhMZW5ndGg6IEludCwKICAgICAgICBkZXB0aDogSW50CiAgICApOiBTdHJpbmcgewogICAgICAgIGlmIChkZXB0aCA+PSAyKSB7CiAgICAgICAgICAgIHJldHVybiAiWyR7dmFsdWVzLnNpemV9IGl0ZW1zXSIKICAgICAgICB9CiAgICAgICAgdmFsIGl0ZW1zID0KICAgICAgICAgICAgdmFsdWVzCiAgICAgICAgICAgICAgICAudGFrZSgzKQogICAgICAgICAgICAgICAgLm1hcCB7IHN1bW1hcml6ZVZhbHVlKGl0LCA4MCwgZGVwdGggKyAxKSB9CiAgICAgICAgICAgICAgICAuZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICB2YWwgc3VmZml4ID0gaWYgKHZhbHVlcy5zaXplID4gMykgIiwgKyR7dmFsdWVzLnNpemUgLSAzfSBtb3JlIiBlbHNlICIiCiAgICAgICAgcmV0dXJuIHRydW5jYXRlVGV4dCgiWyR7aXRlbXMuam9pblRvU3RyaW5nKCIsICIpfSRzdWZmaXhdIiwgbWF4TGVuZ3RoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHN1bW1hcml6ZU1hcCgKICAgICAgICB2YWx1ZXM6IE1hcDwqLCAqPiwKICAgICAgICBtYXhMZW5ndGg6IEludCwKICAgICAgICBkZXB0aDogSW50CiAgICApOiBTdHJpbmcgewogICAgICAgIHZhbCBlbnRyaWVzID0KICAgICAgICAgICAgdmFsdWVzLmVudHJpZXMubWFwTm90TnVsbCB7IGVudHJ5IC0+CiAgICAgICAgICAgICAgICB2YWwga2V5ID0gZW50cnkua2V5Py50b1N0cmluZygpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSA/OiByZXR1cm5AbWFwTm90TnVsbCBudWxsCiAgICAgICAgICAgICAgICBrZXkgdG8gZW50cnkudmFsdWUKICAgICAgICAgICAgfQogICAgICAgIGlmIChlbnRyaWVzLmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gInt9IgogICAgICAgIH0KICAgICAgICBpZiAoZGVwdGggPj0gMikgewogICAgICAgICAgICB2YWwgcHJldmlldyA9IGVudHJpZXMudGFrZSgzKS5qb2luVG9TdHJpbmcoIiwgIikgeyBpdC5maXJzdCB9CiAgICAgICAgICAgIHJldHVybiAieyR7cHJldmlld30ke2lmIChlbnRyaWVzLnNpemUgPiAzKSAiLCAuLi4iIGVsc2UgIiJ9fSIKICAgICAgICB9CgogICAgICAgIHZhbCBwYXJ0cyA9CiAgICAgICAgICAgIGVudHJpZXMKICAgICAgICAgICAgICAgIC50YWtlKDQpCiAgICAgICAgICAgICAgICAubWFwTm90TnVsbCB7IChrZXksIHZhbHVlKSAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBzdW1tYXJ5ID0gc3VtbWFyaXplVmFsdWUodmFsdWUsIDEyMCwgZGVwdGggKyAxKQogICAgICAgICAgICAgICAgICAgIGlmIChzdW1tYXJ5LmlzQmxhbmsoKSkgbnVsbCBlbHNlICIka2V5PSRzdW1tYXJ5IgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLnRvTXV0YWJsZUxpc3QoKQogICAgICAgIGlmIChwYXJ0cy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgdmFsIHByZXZpZXcgPSBlbnRyaWVzLnRha2UoMykuam9pblRvU3RyaW5nKCIsICIpIHsgaXQuZmlyc3QgfQogICAgICAgICAgICByZXR1cm4gInske3ByZXZpZXd9JHtpZiAoZW50cmllcy5zaXplID4gMykgIiwgLi4uIiBlbHNlICIifX0iCiAgICAgICAgfQogICAgICAgIGlmIChlbnRyaWVzLnNpemUgPiA0KSB7CiAgICAgICAgICAgIHBhcnRzICs9ICIrJHtlbnRyaWVzLnNpemUgLSA0fSBtb3JlIgogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ1bmNhdGVUZXh0KHBhcnRzLmpvaW5Ub1N0cmluZygiOyAiKSwgbWF4TGVuZ3RoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNvbGxhcHNlV2hpdGVzcGFjZSh0ZXh0OiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB0ZXh0LnJlcGxhY2UoUmVnZXgoIlxccysiKSwgIiAiKS50cmltKCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biB0cnVuY2F0ZVRleHQodGV4dDogU3RyaW5nLCBtYXhMZW5ndGg6IEludCk6IFN0cmluZyB7CiAgICAgICAgaWYgKHRleHQubGVuZ3RoIDw9IG1heExlbmd0aCkgewogICAgICAgICAgICByZXR1cm4gdGV4dAogICAgICAgIH0KICAgICAgICByZXR1cm4gdGV4dC50YWtlKChtYXhMZW5ndGggLSAzKS5jb2VyY2VBdExlYXN0KDApKSArICIuLi4iCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.javascript
+
+import com.bslsjdk.operit.core.tools.SandboxScriptExecutionResultData
+import java.io.File
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonArray
+import kotlinx.serialization.json.JsonElement
+import kotlinx.serialization.json.JsonNull
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+
+internal interface JsExecutionListener {
+    fun onCallLog(callId: String, level: String, message: String) {}
+
+    fun onIntermediateResult(callId: String, value: Any?) {}
+
+    fun onCompleted(callId: String, result: String) {}
+
+    fun onFailed(callId: String, error: String) {}
+}
+
+internal class JsExecutionTraceRecorder(
+    private val scriptPath: String,
+    private val functionName: String,
+    private val paramsJson: String,
+    private val envFilePath: String?
+) : JsExecutionListener {
+    private val startedAtMs = System.currentTimeMillis()
+    private val events = mutableListOf<String>()
+
+    @Synchronized
+    override fun onCallLog(callId: String, level: String, message: String) {
+        val normalizedLevel = level.trim().uppercase()
+        val normalizedMessage = collapseWhitespace(message)
+        if (normalizedMessage.isNotEmpty()) {
+            events +=
+                if (normalizedLevel.isNotEmpty()) {
+                    "$normalizedLevel: $normalizedMessage"
+                } else {
+                    normalizedMessage
+                }
+        }
+    }
+
+    @Synchronized
+    override fun onIntermediateResult(callId: String, value: Any?) {
+        val summary = summarizeValue(value)
+        if (summary.isNotEmpty()) {
+            events += "intermediate: $summary"
+        }
+    }
+
+    @Synchronized
+    override fun onCompleted(callId: String, result: String) {
+        val summary = summarizeValue(result)
+        if (summary.isNotEmpty()) {
+            events += "completed: $summary"
+        }
+    }
+
+    @Synchronized
+    override fun onFailed(callId: String, error: String) {
+        val normalizedError = collapseWhitespace(error)
+        if (normalizedError.isNotEmpty()) {
+            events += "failed: $normalizedError"
+        }
+    }
+
+    @Synchronized
+    fun buildPayload(
+        success: Boolean,
+        result: Any?,
+        error: String? = null
+    ): SandboxScriptExecutionResultData {
+        return buildResultData(
+            success = success,
+            result = result,
+            error = error
+        )
+    }
+
+    @Synchronized
+    fun buildResultData(
+        success: Boolean,
+        result: Any?,
+        error: String? = null,
+        executionMode: String? = null,
+        scriptLabel: String? = null,
+        requestedWaitMs: Long? = null
+    ): SandboxScriptExecutionResultData {
+        val finishedAtMs = System.currentTimeMillis()
+        return SandboxScriptExecutionResultData(
+            success = success,
+            scriptPath = scriptPath,
+            functionName = functionName,
+            params = parseJsonText(paramsJson),
+            envFilePath = envFilePath,
+            startedAtMs = startedAtMs,
+            finishedAtMs = finishedAtMs,
+            durationMs = finishedAtMs - startedAtMs,
+            result = toJsonElement(result),
+            error = error?.takeIf { it.isNotBlank() },
+            events = events.toList(),
+            executionMode = executionMode,
+            scriptLabel = scriptLabel,
+            requestedWaitMs = requestedWaitMs
+        )
+    }
+
+    fun writeTo(file: File, payload: SandboxScriptExecutionResultData) {
+        val parent = file.parentFile
+        if (parent != null && !parent.exists()) {
+            parent.mkdirs()
+        }
+        file.writeText(
+            Json { prettyPrint = true }.encodeToString(
+                SandboxScriptExecutionResultData.serializer(),
+                payload
+            ),
+            Charsets.UTF_8
+        )
+    }
+
+    private fun parseJsonText(text: String): JsonElement? {
+        val normalized = text.trim()
+        if (normalized.isEmpty()) {
+            return JsonObject(emptyMap())
+        }
+        return try {
+            Json.parseToJsonElement(normalized)
+        } catch (_: Exception) {
+            JsonPrimitive(normalized)
+        }
+    }
+
+    private fun toJsonElement(value: Any?): JsonElement? {
+        return when (value) {
+            null -> null
+            is JsonElement -> value
+            is Map<*, *> -> {
+                val content = LinkedHashMap<String, JsonElement>()
+                value.forEach { (key, item) ->
+                    val normalizedKey = key?.toString() ?: return@forEach
+                    content[normalizedKey] = toJsonElement(item) ?: JsonNull
+                }
+                JsonObject(content)
+            }
+            is Iterable<*> -> JsonArray(value.map { toJsonElement(it) ?: JsonNull })
+            is Boolean -> JsonPrimitive(value)
+            is Number -> JsonPrimitive(value)
+            is Char -> JsonPrimitive(value.toString())
+            is CharSequence -> parseJsonText(value.toString()) ?: JsonPrimitive(value.toString())
+            else -> JsonPrimitive(value.toString())
+        }
+    }
+
+    private fun summarizeValue(value: Any?, maxLength: Int = 240, depth: Int = 0): String {
+        return when (value) {
+            null -> ""
+            is String -> truncateText(collapseWhitespace(value), maxLength)
+            is CharSequence -> truncateText(collapseWhitespace(value.toString()), maxLength)
+            is Number, is Boolean, is Char -> value.toString()
+            is JsonElement -> summarizeJsonElement(value, maxLength, depth)
+            is Map<*, *> -> summarizeMap(value, maxLength, depth)
+            is Iterable<*> -> summarizeIterable(value.toList(), maxLength, depth)
+            is Array<*> -> summarizeIterable(value.toList(), maxLength, depth)
+            else -> truncateText(collapseWhitespace(value.toString()), maxLength)
+        }
+    }
+
+    private fun summarizeJsonElement(
+        element: JsonElement,
+        maxLength: Int,
+        depth: Int
+    ): String {
+        return when (element) {
+            is JsonNull -> "null"
+            is JsonPrimitive -> {
+                val content =
+                    if (element.isString) {
+                        element.content
+                    } else {
+                        element.toString()
+                    }
+                truncateText(collapseWhitespace(content), maxLength)
+            }
+            is JsonArray -> summarizeIterable(element, maxLength, depth)
+            is JsonObject -> summarizeMap(element, maxLength, depth)
+        }
+    }
+
+    private fun summarizeIterable(
+        values: List<Any?>,
+        maxLength: Int,
+        depth: Int
+    ): String {
+        if (depth >= 2) {
+            return "[${values.size} items]"
+        }
+        val items =
+            values
+                .take(3)
+                .map { summarizeValue(it, 80, depth + 1) }
+                .filter { it.isNotBlank() }
+        val suffix = if (values.size > 3) ", +${values.size - 3} more" else ""
+        return truncateText("[${items.joinToString(", ")}$suffix]", maxLength)
+    }
+
+    private fun summarizeMap(
+        values: Map<*, *>,
+        maxLength: Int,
+        depth: Int
+    ): String {
+        val entries =
+            values.entries.mapNotNull { entry ->
+                val key = entry.key?.toString()?.takeIf { it.isNotBlank() } ?: return@mapNotNull null
+                key to entry.value
+            }
+        if (entries.isEmpty()) {
+            return "{}"
+        }
+        if (depth >= 2) {
+            val preview = entries.take(3).joinToString(", ") { it.first }
+            return "{${preview}${if (entries.size > 3) ", ..." else ""}}"
+        }
+
+        val parts =
+            entries
+                .take(4)
+                .mapNotNull { (key, value) ->
+                    val summary = summarizeValue(value, 120, depth + 1)
+                    if (summary.isBlank()) null else "$key=$summary"
+                }
+                .toMutableList()
+        if (parts.isEmpty()) {
+            val preview = entries.take(3).joinToString(", ") { it.first }
+            return "{${preview}${if (entries.size > 3) ", ..." else ""}}"
+        }
+        if (entries.size > 4) {
+            parts += "+${entries.size - 4} more"
+        }
+        return truncateText(parts.joinToString("; "), maxLength)
+    }
+
+    private fun collapseWhitespace(text: String): String {
+        return text.replace(Regex("\\s+"), " ").trim()
+    }
+
+    private fun truncateText(text: String, maxLength: Int): String {
+        if (text.length <= maxLength) {
+            return text
+        }
+        return text.take((maxLength - 3).coerceAtLeast(0)) + "..."
+    }
+}

@@ -1,1 +1,154 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jYWxjdWxhdG9yCgovKiog6KGo6L6+5byP6K+t5rOV5qCR55qE5Z+656GA6IqC54K55o6l5Y+jICovCnNlYWxlZCBpbnRlcmZhY2UgRXhwcmVzc2lvbk5vZGUgewogICAgLyoqIOiuoeeul+iKgueCueeahOWAvCAqLwogICAgZnVuIGV2YWx1YXRlKCk6IERvdWJsZQp9CgovKiog5bi46YeP6IqC54K577yI5pWw5a2X5a2X6Z2i6YeP77yJICovCmRhdGEgY2xhc3MgTnVtYmVyTm9kZSh2YWwgdmFsdWU6IERvdWJsZSkgOiBFeHByZXNzaW9uTm9kZSB7CiAgICBvdmVycmlkZSBmdW4gZXZhbHVhdGUoKTogRG91YmxlID0gdmFsdWUKfQoKLyoqIOWPmOmHj+W8leeUqOiKgueCuSAqLwpkYXRhIGNsYXNzIFZhcmlhYmxlTm9kZSh2YWwgbmFtZTogU3RyaW5nKSA6IEV4cHJlc3Npb25Ob2RlIHsKICAgIG92ZXJyaWRlIGZ1biBldmFsdWF0ZSgpOiBEb3VibGUgewogICAgICAgIHJldHVybiBFeHByZXNzaW9uQ29udGV4dC5nZXRWYXJpYWJsZShuYW1lKQogICAgfQp9CgovKiog5LqM5YWD5pON5L2c56ym6IqC54K5ICovCmRhdGEgY2xhc3MgQmluYXJ5T3BlcmF0aW9uTm9kZSgKICAgICAgICB2YWwgbGVmdDogRXhwcmVzc2lvbk5vZGUsCiAgICAgICAgdmFsIG9wZXJhdG9yOiBTdHJpbmcsCiAgICAgICAgdmFsIHJpZ2h0OiBFeHByZXNzaW9uTm9kZQopIDogRXhwcmVzc2lvbk5vZGUgewogICAgb3ZlcnJpZGUgZnVuIGV2YWx1YXRlKCk6IERvdWJsZSB7CiAgICAgICAgdmFsIGxlZnRWYWx1ZSA9IGxlZnQuZXZhbHVhdGUoKQogICAgICAgIHZhbCByaWdodFZhbHVlID0gcmlnaHQuZXZhbHVhdGUoKQoKICAgICAgICByZXR1cm4gd2hlbiAob3BlcmF0b3IpIHsKICAgICAgICAgICAgIisiIC0+IGxlZnRWYWx1ZSArIHJpZ2h0VmFsdWUKICAgICAgICAgICAgIi0iIC0+IGxlZnRWYWx1ZSAtIHJpZ2h0VmFsdWUKICAgICAgICAgICAgIioiIC0+IGxlZnRWYWx1ZSAqIHJpZ2h0VmFsdWUKICAgICAgICAgICAgIi8iIC0+IGxlZnRWYWx1ZSAvIHJpZ2h0VmFsdWUKICAgICAgICAgICAgIioqIiwgIl4iIC0+IE1hdGgucG93KGxlZnRWYWx1ZSwgcmlnaHRWYWx1ZSkKICAgICAgICAgICAgIiUiIC0+IGxlZnRWYWx1ZSAlIHJpZ2h0VmFsdWUKICAgICAgICAgICAgIj09IiAtPiBpZiAobGVmdFZhbHVlID09IHJpZ2h0VmFsdWUpIDEuMCBlbHNlIDAuMAogICAgICAgICAgICAiIT0iIC0+IGlmIChsZWZ0VmFsdWUgIT0gcmlnaHRWYWx1ZSkgMS4wIGVsc2UgMC4wCiAgICAgICAgICAgICI+IiAtPiBpZiAobGVmdFZhbHVlID4gcmlnaHRWYWx1ZSkgMS4wIGVsc2UgMC4wCiAgICAgICAgICAgICI+PSIgLT4gaWYgKGxlZnRWYWx1ZSA+PSByaWdodFZhbHVlKSAxLjAgZWxzZSAwLjAKICAgICAgICAgICAgIjwiIC0+IGlmIChsZWZ0VmFsdWUgPCByaWdodFZhbHVlKSAxLjAgZWxzZSAwLjAKICAgICAgICAgICAgIjw9IiAtPiBpZiAobGVmdFZhbHVlIDw9IHJpZ2h0VmFsdWUpIDEuMCBlbHNlIDAuMAogICAgICAgICAgICAiJiYiIC0+IGlmIChsZWZ0VmFsdWUgIT0gMC4wICYmIHJpZ2h0VmFsdWUgIT0gMC4wKSAxLjAgZWxzZSAwLjAKICAgICAgICAgICAgInx8IiAtPiBpZiAobGVmdFZhbHVlICE9IDAuMCB8fCByaWdodFZhbHVlICE9IDAuMCkgMS4wIGVsc2UgMC4wCiAgICAgICAgICAgIGVsc2UgLT4gdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmtub3duIG9wZXJhdG9yOiAkb3BlcmF0b3IiKQogICAgICAgIH0KICAgIH0KfQoKLyoqIOS4gOWFg+aTjeS9nOespuiKgueCuSAqLwpkYXRhIGNsYXNzIFVuYXJ5T3BlcmF0aW9uTm9kZSh2YWwgb3BlcmF0b3I6IFN0cmluZywgdmFsIG9wZXJhbmQ6IEV4cHJlc3Npb25Ob2RlKSA6IEV4cHJlc3Npb25Ob2RlIHsKICAgIG92ZXJyaWRlIGZ1biBldmFsdWF0ZSgpOiBEb3VibGUgewogICAgICAgIHZhbCB2YWx1ZSA9IG9wZXJhbmQuZXZhbHVhdGUoKQoKICAgICAgICByZXR1cm4gd2hlbiAob3BlcmF0b3IpIHsKICAgICAgICAgICAgIisiIC0+IHZhbHVlCiAgICAgICAgICAgICItIiAtPiAtdmFsdWUKICAgICAgICAgICAgIiEiIC0+IGlmICh2YWx1ZSA9PSAwLjApIDEuMCBlbHNlIDAuMAogICAgICAgICAgICBlbHNlIC0+IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiVW5rbm93biB1bmFyeSBvcGVyYXRvcjogJG9wZXJhdG9yIikKICAgICAgICB9CiAgICB9Cn0KCi8qKiDlh73mlbDosIPnlKjoioLngrkgKi8KZGF0YSBjbGFzcyBGdW5jdGlvbkNhbGxOb2RlKHZhbCBuYW1lOiBTdHJpbmcsIHZhbCBhcmd1bWVudHM6IExpc3Q8RXhwcmVzc2lvbk5vZGU+KSA6CiAgICAgICAgRXhwcmVzc2lvbk5vZGUgewogICAgb3ZlcnJpZGUgZnVuIGV2YWx1YXRlKCk6IERvdWJsZSB7CiAgICAgICAgdmFsIGV2YWx1YXRlZEFyZ3MgPSBhcmd1bWVudHMubWFwIHsgaXQuZXZhbHVhdGUoKSB9CiAgICAgICAgcmV0dXJuIEV4cHJlc3Npb25Db250ZXh0LmNhbGxGdW5jdGlvbihuYW1lLCBldmFsdWF0ZWRBcmdzKQogICAgfQp9CgovKiog5LiJ5YWD6L+Q566X56ym6IqC54K5IChjb25kaXRpb24gPyB0cnVlRXhwciA6IGZhbHNlRXhwcikgKi8KZGF0YSBjbGFzcyBUZXJuYXJ5T3BlcmF0aW9uTm9kZSgKICAgICAgICB2YWwgY29uZGl0aW9uOiBFeHByZXNzaW9uTm9kZSwKICAgICAgICB2YWwgdHJ1ZUV4cHJlc3Npb246IEV4cHJlc3Npb25Ob2RlLAogICAgICAgIHZhbCBmYWxzZUV4cHJlc3Npb246IEV4cHJlc3Npb25Ob2RlCikgOiBFeHByZXNzaW9uTm9kZSB7CiAgICBvdmVycmlkZSBmdW4gZXZhbHVhdGUoKTogRG91YmxlIHsKICAgICAgICB2YWwgY29uZGl0aW9uVmFsdWUgPSBjb25kaXRpb24uZXZhbHVhdGUoKQogICAgICAgIHJldHVybiBpZiAoY29uZGl0aW9uVmFsdWUgIT0gMC4wKSB7CiAgICAgICAgICAgIHRydWVFeHByZXNzaW9uLmV2YWx1YXRlKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBmYWxzZUV4cHJlc3Npb24uZXZhbHVhdGUoKQogICAgICAgIH0KICAgIH0KfQoKLyoqIOWPmOmHj+i1i+WAvOiKgueCuSAqLwpkYXRhIGNsYXNzIEFzc2lnbm1lbnROb2RlKHZhbCB2YXJpYWJsZU5hbWU6IFN0cmluZywgdmFsIHZhbHVlOiBFeHByZXNzaW9uTm9kZSkgOiBFeHByZXNzaW9uTm9kZSB7CiAgICBvdmVycmlkZSBmdW4gZXZhbHVhdGUoKTogRG91YmxlIHsKICAgICAgICB2YWwgcmVzdWx0ID0gdmFsdWUuZXZhbHVhdGUoKQogICAgICAgIEV4cHJlc3Npb25Db250ZXh0LnNldFZhcmlhYmxlKHZhcmlhYmxlTmFtZSwgcmVzdWx0KQogICAgICAgIHJldHVybiByZXN1bHQKICAgIH0KfQoKLyoqIOWkjeWQiOi1i+WAvOiKgueCuSAoKz0sIC09LCAqPSwgLz0pICovCmRhdGEgY2xhc3MgQ29tcG91bmRBc3NpZ25tZW50Tm9kZSgKICAgICAgICB2YWwgdmFyaWFibGVOYW1lOiBTdHJpbmcsCiAgICAgICAgdmFsIG9wZXJhdG9yOiBTdHJpbmcsCiAgICAgICAgdmFsIHZhbHVlOiBFeHByZXNzaW9uTm9kZQopIDogRXhwcmVzc2lvbk5vZGUgewogICAgb3ZlcnJpZGUgZnVuIGV2YWx1YXRlKCk6IERvdWJsZSB7CiAgICAgICAgdmFsIGN1cnJlbnRWYWx1ZSA9IEV4cHJlc3Npb25Db250ZXh0LmdldFZhcmlhYmxlKHZhcmlhYmxlTmFtZSkKICAgICAgICB2YWwgcmlnaHRWYWx1ZSA9IHZhbHVlLmV2YWx1YXRlKCkKCiAgICAgICAgdmFsIHJlc3VsdCA9CiAgICAgICAgICAgICAgICB3aGVuIChvcGVyYXRvcikgewogICAgICAgICAgICAgICAgICAgICIrPSIgLT4gY3VycmVudFZhbHVlICsgcmlnaHRWYWx1ZQogICAgICAgICAgICAgICAgICAgICItPSIgLT4gY3VycmVudFZhbHVlIC0gcmlnaHRWYWx1ZQogICAgICAgICAgICAgICAgICAgICIqPSIgLT4gY3VycmVudFZhbHVlICogcmlnaHRWYWx1ZQogICAgICAgICAgICAgICAgICAgICIvPSIgLT4gY3VycmVudFZhbHVlIC8gcmlnaHRWYWx1ZQogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlVua25vd24gY29tcG91bmQgYXNzaWdubWVudCBvcGVyYXRvcjogJG9wZXJhdG9yIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQoKICAgICAgICBFeHByZXNzaW9uQ29udGV4dC5zZXRWYXJpYWJsZSh2YXJpYWJsZU5hbWUsIHJlc3VsdCkKICAgICAgICByZXR1cm4gcmVzdWx0CiAgICB9Cn0KCi8qKiDmlbDnu4TlhYPntKDorr/pl67oioLngrkgKi8KZGF0YSBjbGFzcyBBcnJheUFjY2Vzc05vZGUodmFsIGFycmF5OiBFeHByZXNzaW9uTm9kZSwgdmFsIGluZGV4OiBFeHByZXNzaW9uTm9kZSkgOiBFeHByZXNzaW9uTm9kZSB7CiAgICBvdmVycmlkZSBmdW4gZXZhbHVhdGUoKTogRG91YmxlIHsKICAgICAgICByZXR1cm4gRXhwcmVzc2lvbkNvbnRleHQuZ2V0QXJyYXlFbGVtZW50KGFycmF5LCBpbmRleCkKICAgIH0KfQoKLyoqIOWtl+espuS4suaooeadv+iKgueCuSAqLwpkYXRhIGNsYXNzIFRlbXBsYXRlU3RyaW5nTm9kZSgKICAgICAgICB2YWwgcGFydHM6IExpc3Q8QW55PiAvLyBTdHJpbmcg5oiWIEV4cHJlc3Npb25Ob2RlCikgOiBFeHByZXNzaW9uTm9kZSB7CiAgICBvdmVycmlkZSBmdW4gZXZhbHVhdGUoKTogRG91YmxlIHsKICAgICAgICB2YWwgcmVzdWx0ID0KICAgICAgICAgICAgICAgIHBhcnRzLmpvaW5Ub1N0cmluZygiIikgeyBwYXJ0IC0+CiAgICAgICAgICAgICAgICAgICAgd2hlbiAocGFydCkgewogICAgICAgICAgICAgICAgICAgICAgICBpcyBTdHJpbmcgLT4gcGFydAogICAgICAgICAgICAgICAgICAgICAgICBpcyBFeHByZXNzaW9uTm9kZSAtPiBwYXJ0LmV2YWx1YXRlKCkudG9TdHJpbmcoKQogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHBhcnQudG9TdHJpbmcoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHJlc3VsdC50b0RvdWJsZSgpCiAgICAgICAgfSBjYXRjaCAoZTogTnVtYmVyRm9ybWF0RXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIEpT55qE6KGM5Li65piv6L+U5ZueTmFOCiAgICAgICAgICAgIERvdWJsZS5OYU4KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.calculator
+
+/** 表达式语法树的基础节点接口 */
+sealed interface ExpressionNode {
+    /** 计算节点的值 */
+    fun evaluate(): Double
+}
+
+/** 常量节点（数字字面量） */
+data class NumberNode(val value: Double) : ExpressionNode {
+    override fun evaluate(): Double = value
+}
+
+/** 变量引用节点 */
+data class VariableNode(val name: String) : ExpressionNode {
+    override fun evaluate(): Double {
+        return ExpressionContext.getVariable(name)
+    }
+}
+
+/** 二元操作符节点 */
+data class BinaryOperationNode(
+        val left: ExpressionNode,
+        val operator: String,
+        val right: ExpressionNode
+) : ExpressionNode {
+    override fun evaluate(): Double {
+        val leftValue = left.evaluate()
+        val rightValue = right.evaluate()
+
+        return when (operator) {
+            "+" -> leftValue + rightValue
+            "-" -> leftValue - rightValue
+            "*" -> leftValue * rightValue
+            "/" -> leftValue / rightValue
+            "**", "^" -> Math.pow(leftValue, rightValue)
+            "%" -> leftValue % rightValue
+            "==" -> if (leftValue == rightValue) 1.0 else 0.0
+            "!=" -> if (leftValue != rightValue) 1.0 else 0.0
+            ">" -> if (leftValue > rightValue) 1.0 else 0.0
+            ">=" -> if (leftValue >= rightValue) 1.0 else 0.0
+            "<" -> if (leftValue < rightValue) 1.0 else 0.0
+            "<=" -> if (leftValue <= rightValue) 1.0 else 0.0
+            "&&" -> if (leftValue != 0.0 && rightValue != 0.0) 1.0 else 0.0
+            "||" -> if (leftValue != 0.0 || rightValue != 0.0) 1.0 else 0.0
+            else -> throw IllegalArgumentException("Unknown operator: $operator")
+        }
+    }
+}
+
+/** 一元操作符节点 */
+data class UnaryOperationNode(val operator: String, val operand: ExpressionNode) : ExpressionNode {
+    override fun evaluate(): Double {
+        val value = operand.evaluate()
+
+        return when (operator) {
+            "+" -> value
+            "-" -> -value
+            "!" -> if (value == 0.0) 1.0 else 0.0
+            else -> throw IllegalArgumentException("Unknown unary operator: $operator")
+        }
+    }
+}
+
+/** 函数调用节点 */
+data class FunctionCallNode(val name: String, val arguments: List<ExpressionNode>) :
+        ExpressionNode {
+    override fun evaluate(): Double {
+        val evaluatedArgs = arguments.map { it.evaluate() }
+        return ExpressionContext.callFunction(name, evaluatedArgs)
+    }
+}
+
+/** 三元运算符节点 (condition ? trueExpr : falseExpr) */
+data class TernaryOperationNode(
+        val condition: ExpressionNode,
+        val trueExpression: ExpressionNode,
+        val falseExpression: ExpressionNode
+) : ExpressionNode {
+    override fun evaluate(): Double {
+        val conditionValue = condition.evaluate()
+        return if (conditionValue != 0.0) {
+            trueExpression.evaluate()
+        } else {
+            falseExpression.evaluate()
+        }
+    }
+}
+
+/** 变量赋值节点 */
+data class AssignmentNode(val variableName: String, val value: ExpressionNode) : ExpressionNode {
+    override fun evaluate(): Double {
+        val result = value.evaluate()
+        ExpressionContext.setVariable(variableName, result)
+        return result
+    }
+}
+
+/** 复合赋值节点 (+=, -=, *=, /=) */
+data class CompoundAssignmentNode(
+        val variableName: String,
+        val operator: String,
+        val value: ExpressionNode
+) : ExpressionNode {
+    override fun evaluate(): Double {
+        val currentValue = ExpressionContext.getVariable(variableName)
+        val rightValue = value.evaluate()
+
+        val result =
+                when (operator) {
+                    "+=" -> currentValue + rightValue
+                    "-=" -> currentValue - rightValue
+                    "*=" -> currentValue * rightValue
+                    "/=" -> currentValue / rightValue
+                    else ->
+                            throw IllegalArgumentException(
+                                    "Unknown compound assignment operator: $operator"
+                            )
+                }
+
+        ExpressionContext.setVariable(variableName, result)
+        return result
+    }
+}
+
+/** 数组元素访问节点 */
+data class ArrayAccessNode(val array: ExpressionNode, val index: ExpressionNode) : ExpressionNode {
+    override fun evaluate(): Double {
+        return ExpressionContext.getArrayElement(array, index)
+    }
+}
+
+/** 字符串模板节点 */
+data class TemplateStringNode(
+        val parts: List<Any> // String 或 ExpressionNode
+) : ExpressionNode {
+    override fun evaluate(): Double {
+        val result =
+                parts.joinToString("") { part ->
+                    when (part) {
+                        is String -> part
+                        is ExpressionNode -> part.evaluate().toString()
+                        else -> part.toString()
+                    }
+                }
+
+        return try {
+            result.toDouble()
+        } catch (e: NumberFormatException) {
+            // JS的行为是返回NaN
+            Double.NaN
+        }
+    }
+}

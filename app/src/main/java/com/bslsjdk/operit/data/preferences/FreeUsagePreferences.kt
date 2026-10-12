@@ -1,1 +1,183 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuU2hhcmVkUHJlZmVyZW5jZXMKaW1wb3J0IGFuZHJvaWQub3MuRW52aXJvbm1lbnQKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlSW5wdXRTdHJlYW0KaW1wb3J0IGphdmEuaW8uRmlsZU91dHB1dFN0cmVhbQppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZQppbXBvcnQgamF2YS50aW1lLmZvcm1hdC5EYXRlVGltZUZvcm1hdHRlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwoKLyoqIE1hbmFnZXMgZnJlZSBBUEkgdXNhZ2UgbGltaXRzIGJhc2VkIG9uIGEgY3VtdWxhdGl2ZSB3YWl0aW5nIHBlcmlvZC4gKi8KY2xhc3MgRnJlZVVzYWdlUHJlZmVyZW5jZXMocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewogICAgcHJpdmF0ZSB2YWwgUFJFRlNfTkFNRSA9ICJmcmVlX3VzYWdlX3ByZWZlcmVuY2VzIgogICAgcHJpdmF0ZSB2YWwgS0VZX1RPVEFMX1VTQUdFX0NPVU5UID0gInRvdGFsX3VzYWdlX2NvdW50IgogICAgcHJpdmF0ZSB2YWwgS0VZX05FWFRfQVZBSUxBQkxFX0RBVEUgPSAibmV4dF9hdmFpbGFibGVfZGF0ZSIKCiAgICAvLyDlpJbpg6jmlofku7blrZjlgqjnm7jlhbMKICAgIHByaXZhdGUgdmFsIEVYVEVSTkFMX1ZFUklGWV9GSUxFTkFNRSA9ICJ1c2FnZV92ZXJpZmljYXRpb24uZGF0IgogICAgcHJpdmF0ZSB2YWwgRVhURVJOQUxfRElSRUNUT1JZID0gIk9wZXJpdCIKCiAgICBwcml2YXRlIHZhbCBwcmVmczogU2hhcmVkUHJlZmVyZW5jZXMgPQogICAgICAgICAgICBjb250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKFBSRUZTX05BTUUsIENvbnRleHQuTU9ERV9QUklWQVRFKQoKICAgIHByaXZhdGUgdmFsIF9uZXh0QXZhaWxhYmxlRGF0ZUZsb3cgPSBNdXRhYmxlU3RhdGVGbG93KGdldE5leHRBdmFpbGFibGVEYXRlKCkpCiAgICB2YWwgbmV4dEF2YWlsYWJsZURhdGVGbG93OiBTdGF0ZUZsb3c8TG9jYWxEYXRlPiA9IF9uZXh0QXZhaWxhYmxlRGF0ZUZsb3cuYXNTdGF0ZUZsb3coKQoKICAgIGluaXQgewogICAgICAgIC8vIOWIneWni+WMluaXtuajgOafpeWklumDqOmqjOivgeaWh+S7tu+8jOehruS/neeKtuaAgeS4gOiHtOaApwogICAgICAgIGNoZWNrRXh0ZXJuYWxWZXJpZmljYXRpb24oKQogICAgfQoKICAgIC8qKiDojrflj5bkuIvmrKHlj6/nlKjml6XmnJ8gKi8KICAgIHByaXZhdGUgZnVuIGdldE5leHRBdmFpbGFibGVEYXRlKCk6IExvY2FsRGF0ZSB7CiAgICAgICAgdmFsIGRhdGVTdHIgPSBwcmVmcy5nZXRTdHJpbmcoS0VZX05FWFRfQVZBSUxBQkxFX0RBVEUsICIiKSA/OiAiIgogICAgICAgIHJldHVybiBpZiAoZGF0ZVN0ci5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgTG9jYWxEYXRlLnBhcnNlKGRhdGVTdHIsIERhdGVUaW1lRm9ybWF0dGVyLklTT19MT0NBTF9EQVRFKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIC8vIOm7mOiupOaYr+S7iuWkqe+8jOaEj+WRs+edgOaWsOeUqOaIt+WPr+S7peebtOaOpeS9v+eUqAogICAgICAgICAgICBMb2NhbERhdGUubm93KCkKICAgICAgICB9CiAgICB9CgogICAgLyoqIOajgOafpeWklumDqOmqjOivgeaWh+S7tuS4jlNoYXJlZFByZWZlcmVuY2Vz5piv5ZCm5LiA6Ie0ICovCiAgICBwcml2YXRlIGZ1biBjaGVja0V4dGVybmFsVmVyaWZpY2F0aW9uKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBleHRlcm5hbEZpbGUgPSBnZXRFeHRlcm5hbFZlcmlmaWNhdGlvbkZpbGUoKQoKICAgICAgICAgICAgaWYgKGV4dGVybmFsRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgdmFsIGV4dGVybmFsRGF0YSA9IEZpbGVJbnB1dFN0cmVhbShleHRlcm5hbEZpbGUpLnVzZSB7IGl0LnJlYWRCeXRlcygpIH0KICAgICAgICAgICAgICAgIHZhbCB0b3RhbFVzYWdlID0gcHJlZnMuZ2V0SW50KEtFWV9UT1RBTF9VU0FHRV9DT1VOVCwgMCkKICAgICAgICAgICAgICAgIHZhbCBuZXh0RGF0ZSA9IHByZWZzLmdldFN0cmluZyhLRVlfTkVYVF9BVkFJTEFCTEVfREFURSwgIiIpID86ICIiCgogICAgICAgICAgICAgICAgdmFsIGV4cGVjdGVkSGFzaCA9IGdlbmVyYXRlVmVyaWZpY2F0aW9uSGFzaCh0b3RhbFVzYWdlLCBuZXh0RGF0ZSkKICAgICAgICAgICAgICAgIHZhbCBhY3R1YWxIYXNoID0gZXh0ZXJuYWxEYXRhLnRvU3RyaW5nKENoYXJzZXRzLlVURl84KQoKICAgICAgICAgICAgICAgIC8vIOWmguaenOWTiOW4jOS4jeWMuemFje+8jOWPr+iDveaYr+eUqOaIt+a4hemZpOS6huW6lOeUqOaVsOaNru+8jOi/m+ihjOaBouWkjQogICAgICAgICAgICAgICAgaWYgKGFjdHVhbEhhc2ggIT0gZXhwZWN0ZWRIYXNoKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHBhcnRzID0gYWN0dWFsSGFzaC5zcGxpdCgifCIpCiAgICAgICAgICAgICAgICAgICAgaWYgKHBhcnRzLnNpemUgPj0gMikgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZXh0VG90YWxVc2FnZSA9IHBhcnRzWzBdLnRvSW50T3JOdWxsKCkgPzogMAogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZXh0TmV4dERhdGUgPSBwYXJ0c1sxXQoKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGN1cnJlbnRUb3RhbFVzYWdlID0gcHJlZnMuZ2V0SW50KEtFWV9UT1RBTF9VU0FHRV9DT1VOVCwgMCkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHVwZGF0ZWRUb3RhbFVzYWdlID0gbWF4T2YoZXh0VG90YWxVc2FnZSwgY3VycmVudFRvdGFsVXNhZ2UpCgogICAgICAgICAgICAgICAgICAgICAgICBwcmVmcy5lZGl0KCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucHV0SW50KEtFWV9UT1RBTF9VU0FHRV9DT1VOVCwgdXBkYXRlZFRvdGFsVXNhZ2UpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnB1dFN0cmluZyhLRVlfTkVYVF9BVkFJTEFCTEVfREFURSwgZXh0TmV4dERhdGUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFwcGx5KCkKCiAgICAgICAgICAgICAgICAgICAgICAgIF9uZXh0QXZhaWxhYmxlRGF0ZUZsb3cudmFsdWUgPSBnZXROZXh0QXZhaWxhYmxlRGF0ZSgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdXBkYXRlRXh0ZXJuYWxWZXJpZmljYXRpb25GaWxlKCkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdXBkYXRlRXh0ZXJuYWxWZXJpZmljYXRpb25GaWxlKCkKICAgICAgICAgICAgfSBjYXRjaCAoZXg6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgLy8gSWdub3JlIGVycm9ycwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKiDojrflj5blpJbpg6jpqozor4Hmlofku7YgKi8KICAgIHByaXZhdGUgZnVuIGdldEV4dGVybmFsVmVyaWZpY2F0aW9uRmlsZSgpOiBGaWxlIHsKICAgICAgICB2YWwgZG93bmxvYWRzRGlyID0KICAgICAgICAgICAgICAgIEVudmlyb25tZW50LmdldEV4dGVybmFsU3RvcmFnZVB1YmxpY0RpcmVjdG9yeShFbnZpcm9ubWVudC5ESVJFQ1RPUllfRE9XTkxPQURTKQogICAgICAgIHZhbCBvcGVyaXREaXIgPSBGaWxlKGRvd25sb2Fkc0RpciwgRVhURVJOQUxfRElSRUNUT1JZKQogICAgICAgIGlmICghb3Blcml0RGlyLmV4aXN0cygpKSB7CiAgICAgICAgICAgIG9wZXJpdERpci5ta2RpcnMoKQogICAgICAgIH0KICAgICAgICByZXR1cm4gRmlsZShvcGVyaXREaXIsIEVYVEVSTkFMX1ZFUklGWV9GSUxFTkFNRSkKICAgIH0KCiAgICAvKiog5pu05paw5aSW6YOo6aqM6K+B5paH5Lu2ICovCiAgICBwcml2YXRlIGZ1biB1cGRhdGVFeHRlcm5hbFZlcmlmaWNhdGlvbkZpbGUoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHRvdGFsVXNhZ2UgPSBwcmVmcy5nZXRJbnQoS0VZX1RPVEFMX1VTQUdFX0NPVU5ULCAwKQogICAgICAgICAgICB2YWwgbmV4dERhdGUgPSBwcmVmcy5nZXRTdHJpbmcoS0VZX05FWFRfQVZBSUxBQkxFX0RBVEUsICIiKSA/OiAiIgoKICAgICAgICAgICAgdmFsIGhhc2ggPSBnZW5lcmF0ZVZlcmlmaWNhdGlvbkhhc2godG90YWxVc2FnZSwgbmV4dERhdGUpCgogICAgICAgICAgICB2YWwgZXh0ZXJuYWxGaWxlID0gZ2V0RXh0ZXJuYWxWZXJpZmljYXRpb25GaWxlKCkKICAgICAgICAgICAgRmlsZU91dHB1dFN0cmVhbShleHRlcm5hbEZpbGUpLnVzZSB7CiAgICAgICAgICAgICAgICBpdC53cml0ZShoYXNoLnRvQnl0ZUFycmF5KENoYXJzZXRzLlVURl84KSkKICAgICAgICAgICAgICAgIGl0LmZsdXNoKCkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAvLyBJZ25vcmUgZXJyb3JzCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDnlJ/miJDpqozor4Hlk4jluIzlgLwgKi8KICAgIHByaXZhdGUgZnVuIGdlbmVyYXRlVmVyaWZpY2F0aW9uSGFzaCh0b3RhbFVzYWdlOiBJbnQsIG5leHREYXRlOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiJHRvdGFsVXNhZ2V8JG5leHREYXRlIgogICAgfQoKICAgIC8qKiBDaGVjayBpZiB0aGUgdXNlciBjYW4gdXNlIHRoZSBmcmVlIEFQSS4gKi8KICAgIGZ1biBjYW5Vc2VGcmVlVGllcigpOiBCb29sZWFuIHsKICAgICAgICB2YWwgdG9kYXkgPSBMb2NhbERhdGUubm93KCkKICAgICAgICB2YWwgbmV4dEF2YWlsYWJsZURhdGUgPSBnZXROZXh0QXZhaWxhYmxlRGF0ZSgpCiAgICAgICAgLy8g5aaC5p6c5LuK5aSp5Zyo5LiL5qyh5Y+v55So5pel5pyf5LmL5YmN77yM5YiZ5LiN6IO95L2/55SoCiAgICAgICAgcmV0dXJuICF0b2RheS5pc0JlZm9yZShuZXh0QXZhaWxhYmxlRGF0ZSkKICAgIH0KCiAgICAvKioKICAgICAqIFJlY29yZHMgYSB1c2FnZSBvZiB0aGUgZnJlZSBBUEkgYW5kIGNhbGN1bGF0ZXMgdGhlIG5leHQgYXZhaWxhYmxlIGRhdGUuCiAgICAgKi8KICAgIGZ1biByZWNvcmRVc2FnZSgpIHsKICAgICAgICB2YWwgdG90YWxVc2FnZUNvdW50ID0gcHJlZnMuZ2V0SW50KEtFWV9UT1RBTF9VU0FHRV9DT1VOVCwgMCkgKyAxCgogICAgICAgIC8vIOiuoeeul+S4i+asoeWPr+eUqOaXpeacn++8iOaMh+aVsOmAgOmBv++8iQogICAgICAgIC8vIOesrDHmrKHkvb/nlKjlkI7nrYkx5aSpLCDnrKwy5qyh562JMuWkqSwg56ysM+asoeetiTTlpKkuLi4KICAgICAgICB2YWwgd2FpdERheXMgPSAxTCBzaGwgKHRvdGFsVXNhZ2VDb3VudCAtIDEpCiAgICAgICAgdmFsIG5leHRBdmFpbGFibGVEYXRlID0gTG9jYWxEYXRlLm5vdygpLnBsdXNEYXlzKHdhaXREYXlzKQoKICAgICAgICAvLyBVcGRhdGUgcHJlZmVyZW5jZXMKICAgICAgICBwcmVmcy5lZGl0KCkKICAgICAgICAgICAgICAgIC5wdXRJbnQoS0VZX1RPVEFMX1VTQUdFX0NPVU5ULCB0b3RhbFVzYWdlQ291bnQpCiAgICAgICAgICAgICAgICAucHV0U3RyaW5nKEtFWV9ORVhUX0FWQUlMQUJMRV9EQVRFLCBuZXh0QXZhaWxhYmxlRGF0ZS5mb3JtYXQoRGF0ZVRpbWVGb3JtYXR0ZXIuSVNPX0xPQ0FMX0RBVEUpKQogICAgICAgICAgICAgICAgLmFwcGx5KCkKCiAgICAgICAgLy8g5pu05paw5aSW6YOo6aqM6K+B5paH5Lu25ZKMRmxvdwogICAgICAgIHVwZGF0ZUV4dGVybmFsVmVyaWZpY2F0aW9uRmlsZSgpCiAgICAgICAgX25leHRBdmFpbGFibGVEYXRlRmxvdy52YWx1ZSA9IG5leHRBdmFpbGFibGVEYXRlCiAgICB9CgogICAgLyoqIOiOt+WPluS4i+asoeWPr+S9v+eUqOaXpeacnyAqLwogICAgZnVuIGdldE5leHRBdmFpbGFibGVEYXRlU3RyaW5nKCk6IFN0cmluZyB7CiAgICAgICAgdmFsIG5leHREYXRlID0gZ2V0TmV4dEF2YWlsYWJsZURhdGUoKQogICAgICAgIHJldHVybiBuZXh0RGF0ZS5mb3JtYXQoRGF0ZVRpbWVGb3JtYXR0ZXIuSVNPX0xPQ0FMX0RBVEUpCiAgICB9CgogICAgLyoqIOmHjee9ruS9v+eUqOiusOW9le+8iOS7heeUqOS6juiwg+ivle+8iSAqLwogICAgZnVuIHJlc2V0VXNhZ2UoKSB7CiAgICAgICAgcHJlZnMuZWRpdCgpCiAgICAgICAgICAgICAgICAucHV0SW50KEtFWV9UT1RBTF9VU0FHRV9DT1VOVCwgMCkKICAgICAgICAgICAgICAgIC5wdXRTdHJpbmcoS0VZX05FWFRfQVZBSUxBQkxFX0RBVEUsICIiKQogICAgICAgICAgICAgICAgLmFwcGx5KCkKCiAgICAgICAgLy8g5pu05paw5aSW6YOo6aqM6K+B5paH5Lu25ZKMRmxvdwogICAgICAgIHVwZGF0ZUV4dGVybmFsVmVyaWZpY2F0aW9uRmlsZSgpCiAgICAgICAgX25leHRBdmFpbGFibGVEYXRlRmxvdy52YWx1ZSA9IExvY2FsRGF0ZS5ub3coKQogICAgfQoKICAgIC8qKiDojrflj5bnrYnlvoXlpKnmlbAgKi8KICAgIGZ1biBnZXRXYWl0RGF5cygpOiBJbnQgewogICAgICAgIHZhbCB0b2RheSA9IExvY2FsRGF0ZS5ub3coKQogICAgICAgIHZhbCBuZXh0QXZhaWxhYmxlID0gZ2V0TmV4dEF2YWlsYWJsZURhdGUoKQoKICAgICAgICBpZiAoIXRvZGF5LmlzQmVmb3JlKG5leHRBdmFpbGFibGUpKSB7CiAgICAgICAgICAgIHJldHVybiAwCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdG9kYXkudW50aWwobmV4dEF2YWlsYWJsZSkuZGF5cwogICAgfQp9Cg==
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import android.content.SharedPreferences
+import android.os.Environment
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+/** Manages free API usage limits based on a cumulative waiting period. */
+class FreeUsagePreferences(private val context: Context) {
+    private val PREFS_NAME = "free_usage_preferences"
+    private val KEY_TOTAL_USAGE_COUNT = "total_usage_count"
+    private val KEY_NEXT_AVAILABLE_DATE = "next_available_date"
+
+    // 外部文件存储相关
+    private val EXTERNAL_VERIFY_FILENAME = "usage_verification.dat"
+    private val EXTERNAL_DIRECTORY = "Operit"
+
+    private val prefs: SharedPreferences =
+            context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+
+    private val _nextAvailableDateFlow = MutableStateFlow(getNextAvailableDate())
+    val nextAvailableDateFlow: StateFlow<LocalDate> = _nextAvailableDateFlow.asStateFlow()
+
+    init {
+        // 初始化时检查外部验证文件，确保状态一致性
+        checkExternalVerification()
+    }
+
+    /** 获取下次可用日期 */
+    private fun getNextAvailableDate(): LocalDate {
+        val dateStr = prefs.getString(KEY_NEXT_AVAILABLE_DATE, "") ?: ""
+        return if (dateStr.isNotBlank()) {
+            LocalDate.parse(dateStr, DateTimeFormatter.ISO_LOCAL_DATE)
+        } else {
+            // 默认是今天，意味着新用户可以直接使用
+            LocalDate.now()
+        }
+    }
+
+    /** 检查外部验证文件与SharedPreferences是否一致 */
+    private fun checkExternalVerification() {
+        try {
+            val externalFile = getExternalVerificationFile()
+
+            if (externalFile.exists()) {
+                val externalData = FileInputStream(externalFile).use { it.readBytes() }
+                val totalUsage = prefs.getInt(KEY_TOTAL_USAGE_COUNT, 0)
+                val nextDate = prefs.getString(KEY_NEXT_AVAILABLE_DATE, "") ?: ""
+
+                val expectedHash = generateVerificationHash(totalUsage, nextDate)
+                val actualHash = externalData.toString(Charsets.UTF_8)
+
+                // 如果哈希不匹配，可能是用户清除了应用数据，进行恢复
+                if (actualHash != expectedHash) {
+                    val parts = actualHash.split("|")
+                    if (parts.size >= 2) {
+                        val extTotalUsage = parts[0].toIntOrNull() ?: 0
+                        val extNextDate = parts[1]
+
+                        val currentTotalUsage = prefs.getInt(KEY_TOTAL_USAGE_COUNT, 0)
+                        val updatedTotalUsage = maxOf(extTotalUsage, currentTotalUsage)
+
+                        prefs.edit()
+                                .putInt(KEY_TOTAL_USAGE_COUNT, updatedTotalUsage)
+                                .putString(KEY_NEXT_AVAILABLE_DATE, extNextDate)
+                                .apply()
+
+                        _nextAvailableDateFlow.value = getNextAvailableDate()
+                    }
+                }
+            } else {
+                updateExternalVerificationFile()
+            }
+        } catch (e: Exception) {
+            try {
+                updateExternalVerificationFile()
+            } catch (ex: Exception) {
+                // Ignore errors
+            }
+        }
+    }
+
+    /** 获取外部验证文件 */
+    private fun getExternalVerificationFile(): File {
+        val downloadsDir =
+                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+        val operitDir = File(downloadsDir, EXTERNAL_DIRECTORY)
+        if (!operitDir.exists()) {
+            operitDir.mkdirs()
+        }
+        return File(operitDir, EXTERNAL_VERIFY_FILENAME)
+    }
+
+    /** 更新外部验证文件 */
+    private fun updateExternalVerificationFile() {
+        try {
+            val totalUsage = prefs.getInt(KEY_TOTAL_USAGE_COUNT, 0)
+            val nextDate = prefs.getString(KEY_NEXT_AVAILABLE_DATE, "") ?: ""
+
+            val hash = generateVerificationHash(totalUsage, nextDate)
+
+            val externalFile = getExternalVerificationFile()
+            FileOutputStream(externalFile).use {
+                it.write(hash.toByteArray(Charsets.UTF_8))
+                it.flush()
+            }
+        } catch (e: Exception) {
+            // Ignore errors
+        }
+    }
+
+    /** 生成验证哈希值 */
+    private fun generateVerificationHash(totalUsage: Int, nextDate: String): String {
+        return "$totalUsage|$nextDate"
+    }
+
+    /** Check if the user can use the free API. */
+    fun canUseFreeTier(): Boolean {
+        val today = LocalDate.now()
+        val nextAvailableDate = getNextAvailableDate()
+        // 如果今天在下次可用日期之前，则不能使用
+        return !today.isBefore(nextAvailableDate)
+    }
+
+    /**
+     * Records a usage of the free API and calculates the next available date.
+     */
+    fun recordUsage() {
+        val totalUsageCount = prefs.getInt(KEY_TOTAL_USAGE_COUNT, 0) + 1
+
+        // 计算下次可用日期（指数退避）
+        // 第1次使用后等1天, 第2次等2天, 第3次等4天...
+        val waitDays = 1L shl (totalUsageCount - 1)
+        val nextAvailableDate = LocalDate.now().plusDays(waitDays)
+
+        // Update preferences
+        prefs.edit()
+                .putInt(KEY_TOTAL_USAGE_COUNT, totalUsageCount)
+                .putString(KEY_NEXT_AVAILABLE_DATE, nextAvailableDate.format(DateTimeFormatter.ISO_LOCAL_DATE))
+                .apply()
+
+        // 更新外部验证文件和Flow
+        updateExternalVerificationFile()
+        _nextAvailableDateFlow.value = nextAvailableDate
+    }
+
+    /** 获取下次可使用日期 */
+    fun getNextAvailableDateString(): String {
+        val nextDate = getNextAvailableDate()
+        return nextDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
+    }
+
+    /** 重置使用记录（仅用于调试） */
+    fun resetUsage() {
+        prefs.edit()
+                .putInt(KEY_TOTAL_USAGE_COUNT, 0)
+                .putString(KEY_NEXT_AVAILABLE_DATE, "")
+                .apply()
+
+        // 更新外部验证文件和Flow
+        updateExternalVerificationFile()
+        _nextAvailableDateFlow.value = LocalDate.now()
+    }
+
+    /** 获取等待天数 */
+    fun getWaitDays(): Int {
+        val today = LocalDate.now()
+        val nextAvailable = getNextAvailableDate()
+
+        if (!today.isBefore(nextAvailable)) {
+            return 0
+        }
+
+        return today.until(nextAvailable).days
+    }
+}

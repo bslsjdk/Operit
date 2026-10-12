@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKZW51bSBjbGFzcyBNZW1vcnlTY29yZU1vZGUgewogICAgQkFMQU5DRUQsCiAgICBLRVlXT1JEX0ZJUlNULAogICAgU0VNQU5USUNfRklSU1QKfQoKZGF0YSBjbGFzcyBNZW1vcnlTZWFyY2hDb25maWcoCiAgICB2YWwgc2NvcmVNb2RlOiBNZW1vcnlTY29yZU1vZGUgPSBNZW1vcnlTY29yZU1vZGUuQkFMQU5DRUQsCiAgICB2YWwga2V5d29yZFdlaWdodDogRmxvYXQgPSAxMC4wZiwKICAgIHZhbCB0YWdXZWlnaHQ6IEZsb2F0ID0gMC4wZiwKICAgIHZhbCB2ZWN0b3JXZWlnaHQ6IEZsb2F0ID0gMC4wZiwKICAgIHZhbCBlZGdlV2VpZ2h0OiBGbG9hdCA9IDAuNGYKKSB7CiAgICBmdW4gbm9ybWFsaXplZCgpOiBNZW1vcnlTZWFyY2hDb25maWcgewogICAgICAgIHJldHVybiBjb3B5KAogICAgICAgICAgICBrZXl3b3JkV2VpZ2h0ID0ga2V5d29yZFdlaWdodC5jb2VyY2VBdExlYXN0KDAuMGYpLAogICAgICAgICAgICB0YWdXZWlnaHQgPSB0YWdXZWlnaHQuY29lcmNlQXRMZWFzdCgwLjBmKSwKICAgICAgICAgICAgdmVjdG9yV2VpZ2h0ID0gdmVjdG9yV2VpZ2h0LmNvZXJjZUF0TGVhc3QoMC4wZiksCiAgICAgICAgICAgIGVkZ2VXZWlnaHQgPSBlZGdlV2VpZ2h0LmNvZXJjZUF0TGVhc3QoMC4wZikKICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.data.model
+
+enum class MemoryScoreMode {
+    BALANCED,
+    KEYWORD_FIRST,
+    SEMANTIC_FIRST
+}
+
+data class MemorySearchConfig(
+    val scoreMode: MemoryScoreMode = MemoryScoreMode.BALANCED,
+    val keywordWeight: Float = 10.0f,
+    val tagWeight: Float = 0.0f,
+    val vectorWeight: Float = 0.0f,
+    val edgeWeight: Float = 0.4f
+) {
+    fun normalized(): MemorySearchConfig {
+        return copy(
+            keywordWeight = keywordWeight.coerceAtLeast(0.0f),
+            tagWeight = tagWeight.coerceAtLeast(0.0f),
+            vectorWeight = vectorWeight.coerceAtLeast(0.0f),
+            edgeWeight = edgeWeight.coerceAtLeast(0.0f)
+        )
+    }
+}

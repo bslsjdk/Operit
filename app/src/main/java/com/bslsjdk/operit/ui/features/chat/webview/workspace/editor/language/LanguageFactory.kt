@@ -1,1 +1,42 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IubGFuZ3VhZ2UKCi8qKgogKiDor63oqIDlt6XljoLnsbvvvIznlKjkuo7liJ3lp4vljJblkozojrflj5bmiYDmnInor63oqIDmlK/mjIEKICovCm9iamVjdCBMYW5ndWFnZUZhY3RvcnkgewogICAgLyoqCiAgICAgKiDliJ3lp4vljJbmiYDmnInor63oqIDmlK/mjIEKICAgICAqLwogICAgZnVuIGluaXQoKSB7CiAgICAgICAgLy8g6Kem5Y+R5omA5pyJ6K+t6KiA5pSv5oyB57G755qE6Z2Z5oCB5Yid5aeL5YyWCiAgICAgICAgSmF2YVNjcmlwdFN1cHBvcnQKICAgICAgICBLb3RsaW5TdXBwb3J0CiAgICAgICAgSHRtbFN1cHBvcnQKICAgICAgICBEYXJ0U3VwcG9ydAogICAgICAgIC8vIOacquadpea3u+WKoOabtOWkmuivreiogOaUr+aMgeaXtu+8jOWcqOi/memHjOa3u+WKoAogICAgICAgIAogICAgICAgIC8vIOWIneWni+WMluivreiogOazqOWGjOihqAogICAgICAgIExhbmd1YWdlU3VwcG9ydFJlZ2lzdHJ5LmluaXQoKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOagueaNruaWh+S7tuWQjeiOt+WPluivreiogOaUr+aMgQogICAgICovCiAgICBmdW4gZ2V0TGFuZ3VhZ2VTdXBwb3J0Rm9yRmlsZShmaWxlTmFtZTogU3RyaW5nKTogTGFuZ3VhZ2VTdXBwb3J0PyB7CiAgICAgICAgcmV0dXJuIExhbmd1YWdlU3VwcG9ydFJlZ2lzdHJ5LmdldExhbmd1YWdlU3VwcG9ydEZvckZpbGUoZmlsZU5hbWUpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5qC55o2u6K+t6KiA5ZCN56ew6I635Y+W6K+t6KiA5pSv5oyBCiAgICAgKi8KICAgIGZ1biBnZXRMYW5ndWFnZVN1cHBvcnQobGFuZ3VhZ2U6IFN0cmluZyk6IExhbmd1YWdlU3VwcG9ydD8gewogICAgICAgIHJldHVybiBMYW5ndWFnZVN1cHBvcnRSZWdpc3RyeS5nZXRMYW5ndWFnZVN1cHBvcnQobGFuZ3VhZ2UpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog6I635Y+W5omA5pyJ5pSv5oyB55qE6K+t6KiACiAgICAgKi8KICAgIGZ1biBnZXRTdXBwb3J0ZWRMYW5ndWFnZXMoKTogU2V0PFN0cmluZz4gewogICAgICAgIHJldHVybiBMYW5ndWFnZVN1cHBvcnRSZWdpc3RyeS5nZXRTdXBwb3J0ZWRMYW5ndWFnZXMoKQogICAgfQp9IAo=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language
+
+/**
+ * 语言工厂类，用于初始化和获取所有语言支持
+ */
+object LanguageFactory {
+    /**
+     * 初始化所有语言支持
+     */
+    fun init() {
+        // 触发所有语言支持类的静态初始化
+        JavaScriptSupport
+        KotlinSupport
+        HtmlSupport
+        DartSupport
+        // 未来添加更多语言支持时，在这里添加
+        
+        // 初始化语言注册表
+        LanguageSupportRegistry.init()
+    }
+    
+    /**
+     * 根据文件名获取语言支持
+     */
+    fun getLanguageSupportForFile(fileName: String): LanguageSupport? {
+        return LanguageSupportRegistry.getLanguageSupportForFile(fileName)
+    }
+    
+    /**
+     * 根据语言名称获取语言支持
+     */
+    fun getLanguageSupport(language: String): LanguageSupport? {
+        return LanguageSupportRegistry.getLanguageSupport(language)
+    }
+    
+    /**
+     * 获取所有支持的语言
+     */
+    fun getSupportedLanguages(): Set<String> {
+        return LanguageSupportRegistry.getSupportedLanguages()
+    }
+} 

@@ -1,1 +1,94 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCi8qKgogKiBDbG9zZWQtZm9ybSBtZWRpYSBwcm9iZXMgZm9yIG1vZGVsLWNvbmZpZyAvIGZ1bmN0aW9uLWNvbmZpZyB0ZXN0cy4KICoKICogVGhlIGV4cGVjdGVkIGNvZGVzIGxpdmUgaW4gdGhlIHRlc3QgYXNzZXRzLCBub3QgaW4gdGhlIHByb21wdC4gQ2hhdCBhbmFseXNpcwogKiBwcm9tcHRzIGFyZSBsZWZ0IHVuY2hhbmdlZDsgb25seSB0aGVzZSBwcm9iZXMgYXNrIGZvciB0aGUgbWFya2VyLgogKi8Kb2JqZWN0IE1lZGlhQ2FwYWJpbGl0eVByb2JlIHsKICAgIGNvbnN0IHZhbCBJTUFHRV9BU1NFVF9QQVRIID0gInRlc3QvMS5qcGciCiAgICBjb25zdCB2YWwgQVVESU9fQVNTRVRfUEFUSCA9ICJ0ZXN0LzEubXAzIgogICAgY29uc3QgdmFsIFZJREVPX0FTU0VUX1BBVEggPSAidGVzdC8xLm1wNCIKCiAgICBjb25zdCB2YWwgSU1BR0VfQ09ERSA9ICI3SzJRIgogICAgY29uc3QgdmFsIEFVRElPX0NPREUgPSAiMzc1IgogICAgY29uc3QgdmFsIFZJREVPX0NPREUgPSAiTTRYUCIKCiAgICBjb25zdCB2YWwgSU1BR0VfUFJPTVBUID0KICAgICAgICAiQSBzaG9ydCBjb2RlIGlzIHNob3duIGluIHRoaXMgaW1hZ2UuIFJlcGx5IHdpdGggb25seSB0aGF0IGNvZGUuIERvIG5vdCBkZXNjcmliZSB0aGUgaW1hZ2UuIgogICAgY29uc3QgdmFsIEFVRElPX1BST01QVCA9CiAgICAgICAgIlRoaXMgYXVkaW8gc2F5cyB0aHJlZSBkaWdpdHMgaW4gRW5nbGlzaCwgb25lIGFmdGVyIGFub3RoZXIuIFJlcGx5IHdpdGggb25seSB0aG9zZSB0aHJlZSBkaWdpdHMgYW5kIG5vdGhpbmcgZWxzZS4iCiAgICBjb25zdCB2YWwgVklERU9fUFJPTVBUID0KICAgICAgICAiQSBzaG9ydCBjb2RlIGlzIHNob3duIG9uIHNjcmVlbiB0aHJvdWdob3V0IHRoaXMgdmlkZW8uIFJlcGx5IHdpdGggb25seSB0aGF0IGNvZGUuIERvIG5vdCBkZXNjcmliZSB0aGUgdmlkZW8uIgoKICAgIHByaXZhdGUgdmFsIERJR0lUX1dPUkRTID0KICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICJ6ZXJvIiB0byAiMCIsCiAgICAgICAgICAgICJvbmUiIHRvICIxIiwKICAgICAgICAgICAgInR3byIgdG8gIjIiLAogICAgICAgICAgICAidGhyZWUiIHRvICIzIiwKICAgICAgICAgICAgImZvdXIiIHRvICI0IiwKICAgICAgICAgICAgImZpdmUiIHRvICI1IiwKICAgICAgICAgICAgInNpeCIgdG8gIjYiLAogICAgICAgICAgICAic2V2ZW4iIHRvICI3IiwKICAgICAgICAgICAgImVpZ2h0IiB0byAiOCIsCiAgICAgICAgICAgICJuaW5lIiB0byAiOSIKICAgICAgICApCgogICAgZnVuIG1hdGNoZXNJbWFnZShyZXNwb25zZTogU3RyaW5nKTogQm9vbGVhbiA9IGFsbnVtVXBwZXIocmVzcG9uc2UpID09IElNQUdFX0NPREUKCiAgICBmdW4gbWF0Y2hlc1ZpZGVvKHJlc3BvbnNlOiBTdHJpbmcpOiBCb29sZWFuID0gYWxudW1VcHBlcihyZXNwb25zZSkgPT0gVklERU9fQ09ERQoKICAgIGZ1biBtYXRjaGVzQXVkaW8ocmVzcG9uc2U6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIGlmIChhbG51bVVwcGVyKHJlc3BvbnNlKSA9PSBBVURJT19DT0RFKSB7CiAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgfQogICAgICAgIHJldHVybiBleHRyYWN0U3RyaWN0RGlnaXRXb3JkcyhyZXNwb25zZSkgPT0gQVVESU9fQ09ERQogICAgfQoKICAgIGludGVybmFsIGZ1biBhbG51bVVwcGVyKHRleHQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJpbmdCdWlsZGVyKHRleHQubGVuZ3RoKQogICAgICAgIGZvciAoY2ggaW4gdGV4dCkgewogICAgICAgICAgICBpZiAoY2guaXNMZXR0ZXJPckRpZ2l0KCkpIHsKICAgICAgICAgICAgICAgIGJ1aWxkZXIuYXBwZW5kKGNoLnVwcGVyY2FzZUNoYXIoKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gYnVpbGRlci50b1N0cmluZygpCiAgICB9CgogICAgaW50ZXJuYWwgZnVuIGV4dHJhY3RTdHJpY3REaWdpdFdvcmRzKHRleHQ6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIHZhbCBsb3dlciA9IHRleHQubG93ZXJjYXNlKCkKICAgICAgICB2YWwgYnVpbGRlciA9IFN0cmluZ0J1aWxkZXIoKQogICAgICAgIHZhciBpbmRleCA9IDAKICAgICAgICB3aGlsZSAoaW5kZXggPCBsb3dlci5sZW5ndGgpIHsKICAgICAgICAgICAgdmFsIGNoID0gbG93ZXJbaW5kZXhdCiAgICAgICAgICAgIGlmIChjaC5pc0RpZ2l0KCkpIHsKICAgICAgICAgICAgICAgIGJ1aWxkZXIuYXBwZW5kKGNoKQogICAgICAgICAgICAgICAgaW5kZXgrKwogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoIWNoLmlzTGV0dGVyKCkpIHsKICAgICAgICAgICAgICAgIGluZGV4KysKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFyIG1hdGNoZWQgPSBmYWxzZQogICAgICAgICAgICBmb3IgKCh3b3JkLCBkaWdpdCkgaW4gRElHSVRfV09SRFMpIHsKICAgICAgICAgICAgICAgIGlmIChsb3dlci5zdGFydHNXaXRoKHdvcmQsIGluZGV4KSkgewogICAgICAgICAgICAgICAgICAgIHZhbCBlbmQgPSBpbmRleCArIHdvcmQubGVuZ3RoCiAgICAgICAgICAgICAgICAgICAgdmFsIGJvdW5kYXJ5T2sgPSBlbmQgPT0gbG93ZXIubGVuZ3RoIHx8ICFsb3dlcltlbmRdLmlzTGV0dGVyKCkKICAgICAgICAgICAgICAgICAgICBpZiAoYm91bmRhcnlPaykgewogICAgICAgICAgICAgICAgICAgICAgICBidWlsZGVyLmFwcGVuZChkaWdpdCkKICAgICAgICAgICAgICAgICAgICAgICAgaW5kZXggPSBlbmQKICAgICAgICAgICAgICAgICAgICAgICAgbWF0Y2hlZCA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKCFtYXRjaGVkKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBidWlsZGVyLnRvU3RyaW5nKCkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+/**
+ * Closed-form media probes for model-config / function-config tests.
+ *
+ * The expected codes live in the test assets, not in the prompt. Chat analysis
+ * prompts are left unchanged; only these probes ask for the marker.
+ */
+object MediaCapabilityProbe {
+    const val IMAGE_ASSET_PATH = "test/1.jpg"
+    const val AUDIO_ASSET_PATH = "test/1.mp3"
+    const val VIDEO_ASSET_PATH = "test/1.mp4"
+
+    const val IMAGE_CODE = "7K2Q"
+    const val AUDIO_CODE = "375"
+    const val VIDEO_CODE = "M4XP"
+
+    const val IMAGE_PROMPT =
+        "A short code is shown in this image. Reply with only that code. Do not describe the image."
+    const val AUDIO_PROMPT =
+        "This audio says three digits in English, one after another. Reply with only those three digits and nothing else."
+    const val VIDEO_PROMPT =
+        "A short code is shown on screen throughout this video. Reply with only that code. Do not describe the video."
+
+    private val DIGIT_WORDS =
+        listOf(
+            "zero" to "0",
+            "one" to "1",
+            "two" to "2",
+            "three" to "3",
+            "four" to "4",
+            "five" to "5",
+            "six" to "6",
+            "seven" to "7",
+            "eight" to "8",
+            "nine" to "9"
+        )
+
+    fun matchesImage(response: String): Boolean = alnumUpper(response) == IMAGE_CODE
+
+    fun matchesVideo(response: String): Boolean = alnumUpper(response) == VIDEO_CODE
+
+    fun matchesAudio(response: String): Boolean {
+        if (alnumUpper(response) == AUDIO_CODE) {
+            return true
+        }
+        return extractStrictDigitWords(response) == AUDIO_CODE
+    }
+
+    internal fun alnumUpper(text: String): String {
+        val builder = StringBuilder(text.length)
+        for (ch in text) {
+            if (ch.isLetterOrDigit()) {
+                builder.append(ch.uppercaseChar())
+            }
+        }
+        return builder.toString()
+    }
+
+    internal fun extractStrictDigitWords(text: String): String? {
+        val lower = text.lowercase()
+        val builder = StringBuilder()
+        var index = 0
+        while (index < lower.length) {
+            val ch = lower[index]
+            if (ch.isDigit()) {
+                builder.append(ch)
+                index++
+                continue
+            }
+            if (!ch.isLetter()) {
+                index++
+                continue
+            }
+            var matched = false
+            for ((word, digit) in DIGIT_WORDS) {
+                if (lower.startsWith(word, index)) {
+                    val end = index + word.length
+                    val boundaryOk = end == lower.length || !lower[end].isLetter()
+                    if (boundaryOk) {
+                        builder.append(digit)
+                        index = end
+                        matched = true
+                        break
+                    }
+                }
+            }
+            if (!matched) {
+                return null
+            }
+        }
+        return builder.toString()
+    }
+}

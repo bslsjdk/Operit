@@ -1,1 +1,42 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmljb25zCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy52ZWN0b3IuSW1hZ2VWZWN0b3IKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCgpvYmplY3QgTWF0ZXJpYWxJY29uTmFtZVJlc29sdmVyIHsKICAgIHByaXZhdGUgdmFsIGljb25DYWNoZSA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgSW1hZ2VWZWN0b3I+KCkKCiAgICBmdW4gcmVzb2x2ZU9yTnVsbChpY29uTmFtZTogU3RyaW5nPyk6IEltYWdlVmVjdG9yPyB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWROYW1lID0gaWNvbk5hbWU/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICBpZiAobm9ybWFsaXplZE5hbWUuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgICAgIGljb25DYWNoZVtub3JtYWxpemVkTmFtZV0/LmxldCB7IHJldHVybiBpdCB9CiAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgdmFsIHBhc2NhbENhc2VOYW1lID0KICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWROYW1lCiAgICAgICAgICAgICAgICAgICAgLnNwbGl0KFJlZ2V4KCJbXkEtWmEtejAtOV0rIikpCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgICAgICAgICAgLmpvaW5Ub1N0cmluZyhzZXBhcmF0b3IgPSAiIikgeyBzZWdtZW50IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHNlZ21lbnQucmVwbGFjZUZpcnN0Q2hhciB7IGNoYXIgLT4gY2hhci51cHBlcmNhc2VDaGFyKCkgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAuaWZCbGFuayB7CiAgICAgICAgICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWROYW1lLnJlcGxhY2VGaXJzdENoYXIgeyBjaGFyIC0+IGNoYXIudXBwZXJjYXNlQ2hhcigpIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHJlcXVpcmUocGFzY2FsQ2FzZU5hbWUuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAiaWNvbiBuYW1lIGlzIGludmFsaWQ6ICRub3JtYWxpemVkTmFtZSIKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgaWNvbkt0Q2xhc3MgPQogICAgICAgICAgICAgICAgQ2xhc3MuZm9yTmFtZSgiYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuJHtwYXNjYWxDYXNlTmFtZX1LdCIpCiAgICAgICAgICAgIHZhbCBnZXR0ZXJNZXRob2QgPQogICAgICAgICAgICAgICAgaWNvbkt0Q2xhc3MuZ2V0TWV0aG9kKCJnZXQkcGFzY2FsQ2FzZU5hbWUiLCBJY29ucy5EZWZhdWx0OjpjbGFzcy5qYXZhKQogICAgICAgICAgICAoZ2V0dGVyTWV0aG9kLmludm9rZShudWxsLCBJY29ucy5EZWZhdWx0KSBhcyBJbWFnZVZlY3RvcikKICAgICAgICAgICAgICAgIC5hbHNvIHsgaWNvbkNhY2hlW25vcm1hbGl6ZWROYW1lXSA9IGl0IH0KICAgICAgICB9LmdldE9yTnVsbCgpCiAgICB9CgogICAgZnVuIHJlc29sdmVPckRlZmF1bHQoaWNvbk5hbWU6IFN0cmluZz8sIGZhbGxiYWNrOiBJbWFnZVZlY3Rvcik6IEltYWdlVmVjdG9yIHsKICAgICAgICByZXR1cm4gcnVuQ2F0Y2hpbmcgeyByZXNvbHZlT3JOdWxsKGljb25OYW1lKSB9LmdldE9yTnVsbCgpID86IGZhbGxiYWNrCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.common.icons
+
+import androidx.compose.material.icons.Icons
+import androidx.compose.ui.graphics.vector.ImageVector
+import java.util.concurrent.ConcurrentHashMap
+
+object MaterialIconNameResolver {
+    private val iconCache = ConcurrentHashMap<String, ImageVector>()
+
+    fun resolveOrNull(iconName: String?): ImageVector? {
+        val normalizedName = iconName?.trim().orEmpty()
+        if (normalizedName.isEmpty()) {
+            return null
+        }
+        iconCache[normalizedName]?.let { return it }
+        return runCatching {
+            val pascalCaseName =
+                normalizedName
+                    .split(Regex("[^A-Za-z0-9]+"))
+                    .filter { it.isNotBlank() }
+                    .joinToString(separator = "") { segment ->
+                        segment.replaceFirstChar { char -> char.uppercaseChar() }
+                    }
+                    .ifBlank {
+                        normalizedName.replaceFirstChar { char -> char.uppercaseChar() }
+                    }
+            require(pascalCaseName.isNotEmpty()) {
+                "icon name is invalid: $normalizedName"
+            }
+            val iconKtClass =
+                Class.forName("androidx.compose.material.icons.filled.${pascalCaseName}Kt")
+            val getterMethod =
+                iconKtClass.getMethod("get$pascalCaseName", Icons.Default::class.java)
+            (getterMethod.invoke(null, Icons.Default) as ImageVector)
+                .also { iconCache[normalizedName] = it }
+        }.getOrNull()
+    }
+
+    fun resolveOrDefault(iconName: String?, fallback: ImageVector): ImageVector {
+        return runCatching { resolveOrNull(iconName) }.getOrNull() ?: fallback
+    }
+}

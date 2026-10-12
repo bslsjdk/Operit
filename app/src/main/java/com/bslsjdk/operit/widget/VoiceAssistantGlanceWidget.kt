@@ -1,1 +1,122 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQud2lkZ2V0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5zcAppbXBvcnQgYW5kcm9pZHguZ2xhbmNlLkdsYW5jZUlkCmltcG9ydCBhbmRyb2lkeC5nbGFuY2UuR2xhbmNlTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmdsYW5jZS5HbGFuY2VUaGVtZQppbXBvcnQgYW5kcm9pZHguZ2xhbmNlLkltYWdlCmltcG9ydCBhbmRyb2lkeC5nbGFuY2UuSW1hZ2VQcm92aWRlcgppbXBvcnQgYW5kcm9pZHguZ2xhbmNlLmFjdGlvbi5jbGlja2FibGUKaW1wb3J0IGFuZHJvaWR4LmdsYW5jZS5hcHB3aWRnZXQuR2xhbmNlQXBwV2lkZ2V0CmltcG9ydCBhbmRyb2lkeC5nbGFuY2UuYXBwd2lkZ2V0LnByb3ZpZGVDb250ZW50CmltcG9ydCBhbmRyb2lkeC5nbGFuY2UuYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguZ2xhbmNlLmNvbG9yLkNvbG9yUHJvdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmdsYW5jZS5sYXlvdXQuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5nbGFuY2UubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguZ2xhbmNlLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmdsYW5jZS5sYXlvdXQuU3BhY2VyCmltcG9ydCBhbmRyb2lkeC5nbGFuY2UubGF5b3V0LmZpbGxNYXhTaXplCmltcG9ydCBhbmRyb2lkeC5nbGFuY2UubGF5b3V0LmhlaWdodAppbXBvcnQgYW5kcm9pZHguZ2xhbmNlLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5nbGFuY2UubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmdsYW5jZS50ZXh0LlRleHQKaW1wb3J0IGFuZHJvaWR4LmdsYW5jZS50ZXh0LlRleHRTdHlsZQppbXBvcnQgYW5kcm9pZHguZ2xhbmNlLnVuaXQuQ29sb3JQcm92aWRlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5zZXJ2aWNlcy5GbG9hdGluZ0NoYXRTZXJ2aWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcuRmxvYXRpbmdNb2RlCgovKioKICogVm9pY2UgQXNzaXN0YW50IFdpZGdldCB1c2luZyBHbGFuY2UgKEpldHBhY2sgQ29tcG9zZSBmb3IgV2lkZ2V0cykKICogCiAqIFRoaXMgd2lkZ2V0IHByb3ZpZGVzIGEgcXVpY2sgbGF1bmNoZXIgZm9yIHRoZSB2b2ljZSBhc3Npc3RhbnQgZnVsbHNjcmVlbiBtb2RlLgogKiBVc2VycyBjYW4gYWRkIGl0IHRvIHRoZWlyIGhvbWUgc2NyZWVuIGFuZCB0YXAgdG8gaW5zdGFudGx5IGxhdW5jaCB0aGUgdm9pY2UgYXNzaXN0YW50LgogKiAKICogVGhlIHdpZGdldCBkaXJlY3RseSBzdGFydHMgdGhlIEZsb2F0aW5nQ2hhdFNlcnZpY2Ugd2l0aG91dCBnb2luZyB0aHJvdWdoIE1haW5BY3Rpdml0eSwKICogd2hpY2ggc2ltcGxpZmllcyB0aGUgbGF1bmNoIHByb2Nlc3MgYW5kIGltcHJvdmVzIHBlcmZvcm1hbmNlLgogKi8KY2xhc3MgVm9pY2VBc3Npc3RhbnRHbGFuY2VXaWRnZXQgOiBHbGFuY2VBcHBXaWRnZXQoKSB7CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcHJvdmlkZUdsYW5jZShjb250ZXh0OiBDb250ZXh0LCBpZDogR2xhbmNlSWQpIHsKICAgICAgICBwcm92aWRlQ29udGVudCB7CiAgICAgICAgICAgIFZvaWNlQXNzaXN0YW50V2lkZ2V0Q29udGVudChjb250ZXh0KQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKZnVuIFZvaWNlQXNzaXN0YW50V2lkZ2V0Q29udGVudChjb250ZXh0OiBDb250ZXh0KSB7CiAgICBHbGFuY2VUaGVtZSB7CiAgICAgICAgQm94KAogICAgICAgICAgICBtb2RpZmllciA9IEdsYW5jZU1vZGlmaWVyCiAgICAgICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAgICAgLmJhY2tncm91bmQoCiAgICAgICAgICAgICAgICAgICAgLy8g5L2/55So5Y2K6YCP5piO6IOM5pmv77yM6YCC6YWN5rex6ImyL+a1heiJsuS4u+mimAogICAgICAgICAgICAgICAgICAgIENvbG9yUHJvdmlkZXIoCiAgICAgICAgICAgICAgICAgICAgICAgIGRheSA9IENvbG9yKDB4Q0MyMTk2RjMpLCAvLyDok53oibLvvIw3MCUg5LiN6YCP5piO5bqmCiAgICAgICAgICAgICAgICAgICAgICAgIG5pZ2h0ID0gQ29sb3IoMHhDQzE5NzZEMikgIC8vIOa3seiTneiJsu+8jDcwJSDkuI3pgI/mmI7luqYKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAucGFkZGluZygxNi5kcCkKICAgICAgICAgICAgICAgIC5jbGlja2FibGUgewogICAgICAgICAgICAgICAgICAgIC8vIOebtOaOpeWQr+WKqCBGbG9hdGluZ0NoYXRTZXJ2aWNl77yM5LiN6ZyA6KaB57uP6L+HIE1haW5BY3Rpdml0eQogICAgICAgICAgICAgICAgICAgIHZhbCBpbnRlbnQgPSBJbnRlbnQoY29udGV4dCwgRmxvYXRpbmdDaGF0U2VydmljZTo6Y2xhc3MuamF2YSkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyDorr7nva7liJ3lp4vmqKHlvI/kuLrlhajlsY/or63pn7PmqKHlvI8KICAgICAgICAgICAgICAgICAgICAgICAgcHV0RXh0cmEoIklOSVRJQUxfTU9ERSIsIEZsb2F0aW5nTW9kZS5GVUxMU0NSRUVOLm5hbWUpCiAgICAgICAgICAgICAgICAgICAgICAgIHB1dEV4dHJhKEZsb2F0aW5nQ2hhdFNlcnZpY2UuRVhUUkFfQVVUT19FTlRFUl9WT0lDRV9DSEFULCB0cnVlKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAvLyDlkK/liqjliY3lj7DmnI3liqEKICAgICAgICAgICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTykgewogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LnN0YXJ0Rm9yZWdyb3VuZFNlcnZpY2UoaW50ZW50KQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRTZXJ2aWNlKGludGVudCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcgogICAgICAgICkgewogICAgICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gR2xhbmNlTW9kaWZpZXIuZmlsbE1heFNpemUoKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IEdsYW5jZU1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g6bqm5YWL6aOO5Zu+5qCHCiAgICAgICAgICAgICAgICBJbWFnZSgKICAgICAgICAgICAgICAgICAgICBwcm92aWRlciA9IEltYWdlUHJvdmlkZXIoUi5kcmF3YWJsZS5pY19taWNyb3Bob25lKSwKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy52b2ljZV9hc3Npc3RhbnRfd2lkZ2V0X3RpdGxlKSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IEdsYW5jZU1vZGlmaWVyLnNpemUoNDguZHApCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gR2xhbmNlTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKCiAgICAgICAgICAgICAgICAvLyDmoIfpopjmloflrZcKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9ICJPcGVyaXQiLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gVGV4dFN0eWxlKAogICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IDE2LnNwLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IENvbG9yUHJvdmlkZXIoQ29sb3IuV2hpdGUpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IEdsYW5jZU1vZGlmaWVyLmhlaWdodCg0LmRwKSkKCiAgICAgICAgICAgICAgICAvLyDlia/moIfpopgKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnZvaWNlX2Fzc2lzdGFudF93aWRnZXRfdGl0bGUpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gVGV4dFN0eWxlKAogICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IDEyLnNwLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IENvbG9yUHJvdmlkZXIoQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IDAuOWYpKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoK
+package com.bslsjdk.operit.widget
+
+import android.content.Context
+import android.content.Intent
+import android.os.Build
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.glance.GlanceId
+import androidx.glance.GlanceModifier
+import androidx.glance.GlanceTheme
+import androidx.glance.Image
+import androidx.glance.ImageProvider
+import androidx.glance.action.clickable
+import androidx.glance.appwidget.GlanceAppWidget
+import androidx.glance.appwidget.provideContent
+import androidx.glance.background
+import androidx.glance.color.ColorProvider
+import androidx.glance.layout.Alignment
+import androidx.glance.layout.Box
+import androidx.glance.layout.Column
+import androidx.glance.layout.Spacer
+import androidx.glance.layout.fillMaxSize
+import androidx.glance.layout.height
+import androidx.glance.layout.padding
+import androidx.glance.layout.size
+import androidx.glance.text.Text
+import androidx.glance.text.TextStyle
+import androidx.glance.unit.ColorProvider
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.services.FloatingChatService
+import com.bslsjdk.operit.ui.floating.FloatingMode
+
+/**
+ * Voice Assistant Widget using Glance (Jetpack Compose for Widgets)
+ * 
+ * This widget provides a quick launcher for the voice assistant fullscreen mode.
+ * Users can add it to their home screen and tap to instantly launch the voice assistant.
+ * 
+ * The widget directly starts the FloatingChatService without going through MainActivity,
+ * which simplifies the launch process and improves performance.
+ */
+class VoiceAssistantGlanceWidget : GlanceAppWidget() {
+
+    override suspend fun provideGlance(context: Context, id: GlanceId) {
+        provideContent {
+            VoiceAssistantWidgetContent(context)
+        }
+    }
+}
+
+@Composable
+fun VoiceAssistantWidgetContent(context: Context) {
+    GlanceTheme {
+        Box(
+            modifier = GlanceModifier
+                .fillMaxSize()
+                .background(
+                    // 使用半透明背景，适配深色/浅色主题
+                    ColorProvider(
+                        day = Color(0xCC2196F3), // 蓝色，70% 不透明度
+                        night = Color(0xCC1976D2)  // 深蓝色，70% 不透明度
+                    )
+                )
+                .padding(16.dp)
+                .clickable {
+                    // 直接启动 FloatingChatService，不需要经过 MainActivity
+                    val intent = Intent(context, FloatingChatService::class.java).apply {
+                        // 设置初始模式为全屏语音模式
+                        putExtra("INITIAL_MODE", FloatingMode.FULLSCREEN.name)
+                        putExtra(FloatingChatService.EXTRA_AUTO_ENTER_VOICE_CHAT, true)
+                    }
+                    
+                    // 启动前台服务
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                        context.startForegroundService(intent)
+                    } else {
+                        context.startService(intent)
+                    }
+                },
+            contentAlignment = Alignment.Center
+        ) {
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = GlanceModifier.fillMaxSize()
+            ) {
+                Spacer(modifier = GlanceModifier.height(8.dp))
+                
+                // 麦克风图标
+                Image(
+                    provider = ImageProvider(R.drawable.ic_microphone),
+                    contentDescription = context.getString(R.string.voice_assistant_widget_title),
+                    modifier = GlanceModifier.size(48.dp)
+                )
+
+                Spacer(modifier = GlanceModifier.height(12.dp))
+
+                // 标题文字
+                Text(
+                    text = "Operit",
+                    style = TextStyle(
+                        fontSize = 16.sp,
+                        color = ColorProvider(Color.White)
+                    )
+                )
+
+                Spacer(modifier = GlanceModifier.height(4.dp))
+
+                // 副标题
+                Text(
+                    text = context.getString(R.string.voice_assistant_widget_title),
+                    style = TextStyle(
+                        fontSize = 12.sp,
+                        color = ColorProvider(Color.White.copy(alpha = 0.9f))
+                    )
+                )
+            }
+        }
+    }
+}
+

@@ -1,1 +1,107 @@
-LyoKICogQ29weXJpZ2h0IDIwMjEgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24uSW50TGlzdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMYXlvdXRJdGVtUHJvdmlkZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5MYXp5TGF5b3V0S2V5SW5kZXhNYXAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5MYXp5TGF5b3V0UGlubmFibGVJdGVtCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmxhenkuTmVhcmVzdFJhbmdlS2V5SW5kZXhNYXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZGVyaXZlZFN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZWZlcmVudGlhbEVxdWFsaXR5UG9saWN5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlclVwZGF0ZWRTdGF0ZQoKaW50ZXJuYWwgaW50ZXJmYWNlIExhenlMaXN0SXRlbVByb3ZpZGVyIDogTGF6eUxheW91dEl0ZW1Qcm92aWRlciB7CiAgICB2YWwga2V5SW5kZXhNYXA6IExhenlMYXlvdXRLZXlJbmRleE1hcAogICAgLyoqIFRoZSBsaXN0IG9mIGluZGV4ZXMgb2YgdGhlIHN0aWNreSBoZWFkZXIgaXRlbXMgKi8KICAgIHZhbCBoZWFkZXJJbmRleGVzOiBJbnRMaXN0CiAgICAvKiogVGhlIHNjb3BlIHVzZWQgYnkgdGhlIGl0ZW0gY29udGVudCBsYW1iZGFzICovCiAgICB2YWwgaXRlbVNjb3BlOiBMYXp5SXRlbVNjb3BlSW1wbAp9CgpAQ29tcG9zYWJsZQppbnRlcm5hbCBmdW4gcmVtZW1iZXJMYXp5TGlzdEl0ZW1Qcm92aWRlckxhbWJkYSgKICAgIHN0YXRlOiBMYXp5TGlzdFN0YXRlLAogICAgY29udGVudDogTGF6eUxpc3RTY29wZS4oKSAtPiBVbml0LAopOiAoKSAtPiBMYXp5TGlzdEl0ZW1Qcm92aWRlciB7CiAgICB2YWwgbGF0ZXN0Q29udGVudCA9IHJlbWVtYmVyVXBkYXRlZFN0YXRlKGNvbnRlbnQpCiAgICByZXR1cm4gcmVtZW1iZXIoc3RhdGUpIHsKICAgICAgICB2YWwgc2NvcGUgPSBMYXp5SXRlbVNjb3BlSW1wbCgpCiAgICAgICAgdmFsIGludGVydmFsQ29udGVudFN0YXRlID0KICAgICAgICAgICAgZGVyaXZlZFN0YXRlT2YocmVmZXJlbnRpYWxFcXVhbGl0eVBvbGljeSgpKSB7CiAgICAgICAgICAgICAgICBMYXp5TGlzdEludGVydmFsQ29udGVudChsYXRlc3RDb250ZW50LnZhbHVlKQogICAgICAgICAgICB9CiAgICAgICAgdmFsIGl0ZW1Qcm92aWRlclN0YXRlID0KICAgICAgICAgICAgZGVyaXZlZFN0YXRlT2YocmVmZXJlbnRpYWxFcXVhbGl0eVBvbGljeSgpKSB7CiAgICAgICAgICAgICAgICB2YWwgaW50ZXJ2YWxDb250ZW50ID0gaW50ZXJ2YWxDb250ZW50U3RhdGUudmFsdWUKICAgICAgICAgICAgICAgIHZhbCBtYXAgPSBOZWFyZXN0UmFuZ2VLZXlJbmRleE1hcChzdGF0ZS5uZWFyZXN0UmFuZ2UsIGludGVydmFsQ29udGVudCkKICAgICAgICAgICAgICAgIExhenlMaXN0SXRlbVByb3ZpZGVySW1wbCgKICAgICAgICAgICAgICAgICAgICBzdGF0ZSA9IHN0YXRlLAogICAgICAgICAgICAgICAgICAgIGludGVydmFsQ29udGVudCA9IGludGVydmFsQ29udGVudCwKICAgICAgICAgICAgICAgICAgICBpdGVtU2NvcGUgPSBzY29wZSwKICAgICAgICAgICAgICAgICAgICBrZXlJbmRleE1hcCA9IG1hcCwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIGl0ZW1Qcm92aWRlclN0YXRlOjp2YWx1ZQogICAgfQp9Cgpwcml2YXRlIGNsYXNzIExhenlMaXN0SXRlbVByb3ZpZGVySW1wbApjb25zdHJ1Y3RvcigKICAgIHByaXZhdGUgdmFsIHN0YXRlOiBMYXp5TGlzdFN0YXRlLAogICAgcHJpdmF0ZSB2YWwgaW50ZXJ2YWxDb250ZW50OiBMYXp5TGlzdEludGVydmFsQ29udGVudCwKICAgIG92ZXJyaWRlIHZhbCBpdGVtU2NvcGU6IExhenlJdGVtU2NvcGVJbXBsLAogICAgb3ZlcnJpZGUgdmFsIGtleUluZGV4TWFwOiBMYXp5TGF5b3V0S2V5SW5kZXhNYXAsCikgOiBMYXp5TGlzdEl0ZW1Qcm92aWRlciB7CgogICAgb3ZlcnJpZGUgdmFsIGl0ZW1Db3VudDogSW50CiAgICAgICAgZ2V0KCkgPSBpbnRlcnZhbENvbnRlbnQuaXRlbUNvdW50CgogICAgQENvbXBvc2FibGUKICAgIG92ZXJyaWRlIGZ1biBJdGVtKGluZGV4OiBJbnQsIGtleTogQW55KSB7CiAgICAgICAgTGF6eUxheW91dFBpbm5hYmxlSXRlbShrZXksIGluZGV4LCBzdGF0ZS5waW5uZWRJdGVtcykgewogICAgICAgICAgICBpbnRlcnZhbENvbnRlbnQud2l0aEludGVydmFsKGluZGV4KSB7IGxvY2FsSW5kZXgsIGNvbnRlbnQgLT4KICAgICAgICAgICAgICAgIGNvbnRlbnQuaXRlbShpdGVtU2NvcGUsIGxvY2FsSW5kZXgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldEtleShpbmRleDogSW50KTogQW55ID0KICAgICAgICBrZXlJbmRleE1hcC5nZXRLZXkoaW5kZXgpID86IGludGVydmFsQ29udGVudC5nZXRLZXkoaW5kZXgpCgogICAgb3ZlcnJpZGUgZnVuIGdldENvbnRlbnRUeXBlKGluZGV4OiBJbnQpOiBBbnk/ID0gaW50ZXJ2YWxDb250ZW50LmdldENvbnRlbnRUeXBlKGluZGV4KQoKICAgIG92ZXJyaWRlIHZhbCBoZWFkZXJJbmRleGVzOiBJbnRMaXN0CiAgICAgICAgZ2V0KCkgPSBpbnRlcnZhbENvbnRlbnQuaGVhZGVySW5kZXhlcwoKICAgIG92ZXJyaWRlIGZ1biBnZXRJbmRleChrZXk6IEFueSk6IEludCA9IGtleUluZGV4TWFwLmdldEluZGV4KGtleSkKCiAgICBvdmVycmlkZSBmdW4gZXF1YWxzKG90aGVyOiBBbnk/KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKHRoaXMgPT09IG90aGVyKSByZXR1cm4gdHJ1ZQogICAgICAgIGlmIChvdGhlciAhaXMgTGF6eUxpc3RJdGVtUHJvdmlkZXJJbXBsKSByZXR1cm4gZmFsc2UKCiAgICAgICAgLy8gdGhlIGlkZW50aXR5IG9mIHRoaXMgY2xhc3MgaXMgcmVwcmVzZW50ZWQgYnkgaW50ZXJ2YWxDb250ZW50IG9iamVjdC4KICAgICAgICAvLyBoYXZpbmcgZXF1YWxzKCkgYWxsb3dzIHVzIHRvIHNraXAgaXRlbXMgcmVjb21wb3NpdGlvbiB3aGVuIGludGVydmFsQ29udGVudCBkaWRuJ3QgY2hhbmdlCiAgICAgICAgcmV0dXJuIGludGVydmFsQ29udGVudCA9PSBvdGhlci5pbnRlcnZhbENvbnRlbnQKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaGFzaENvZGUoKTogSW50IHsKICAgICAgICByZXR1cm4gaW50ZXJ2YWxDb250ZW50Lmhhc2hDb2RlKCkKICAgIH0KfQo=
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.collection.IntList
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutItemProvider
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutKeyIndexMap
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutPinnableItem
+import com.bslsjdk.operit.ui.features.chat.components.lazy.NearestRangeKeyIndexMap
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.derivedStateOf
+import androidx.compose.runtime.referentialEqualityPolicy
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
+
+internal interface LazyListItemProvider : LazyLayoutItemProvider {
+    val keyIndexMap: LazyLayoutKeyIndexMap
+    /** The list of indexes of the sticky header items */
+    val headerIndexes: IntList
+    /** The scope used by the item content lambdas */
+    val itemScope: LazyItemScopeImpl
+}
+
+@Composable
+internal fun rememberLazyListItemProviderLambda(
+    state: LazyListState,
+    content: LazyListScope.() -> Unit,
+): () -> LazyListItemProvider {
+    val latestContent = rememberUpdatedState(content)
+    return remember(state) {
+        val scope = LazyItemScopeImpl()
+        val intervalContentState =
+            derivedStateOf(referentialEqualityPolicy()) {
+                LazyListIntervalContent(latestContent.value)
+            }
+        val itemProviderState =
+            derivedStateOf(referentialEqualityPolicy()) {
+                val intervalContent = intervalContentState.value
+                val map = NearestRangeKeyIndexMap(state.nearestRange, intervalContent)
+                LazyListItemProviderImpl(
+                    state = state,
+                    intervalContent = intervalContent,
+                    itemScope = scope,
+                    keyIndexMap = map,
+                )
+            }
+        itemProviderState::value
+    }
+}
+
+private class LazyListItemProviderImpl
+constructor(
+    private val state: LazyListState,
+    private val intervalContent: LazyListIntervalContent,
+    override val itemScope: LazyItemScopeImpl,
+    override val keyIndexMap: LazyLayoutKeyIndexMap,
+) : LazyListItemProvider {
+
+    override val itemCount: Int
+        get() = intervalContent.itemCount
+
+    @Composable
+    override fun Item(index: Int, key: Any) {
+        LazyLayoutPinnableItem(key, index, state.pinnedItems) {
+            intervalContent.withInterval(index) { localIndex, content ->
+                content.item(itemScope, localIndex)
+            }
+        }
+    }
+
+    override fun getKey(index: Int): Any =
+        keyIndexMap.getKey(index) ?: intervalContent.getKey(index)
+
+    override fun getContentType(index: Int): Any? = intervalContent.getContentType(index)
+
+    override val headerIndexes: IntList
+        get() = intervalContent.headerIndexes
+
+    override fun getIndex(key: Any): Int = keyIndexMap.getIndex(key)
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other !is LazyListItemProviderImpl) return false
+
+        // the identity of this class is represented by intervalContent object.
+        // having equals() allows us to skip items recomposition when intervalContent didn't change
+        return intervalContent == other.intervalContent
+    }
+
+    override fun hashCode(): Int {
+        return intervalContent.hashCode()
+    }
+}

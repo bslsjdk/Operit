@@ -1,1 +1,91 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgamF2YS5pby5DbG9zZWFibGUKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5FeGVjdXRvcnMKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlNjaGVkdWxlZEZ1dHVyZQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQKaW1wb3J0IGtvdGxpbi5tYXRoLm1heAppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CgpjbGFzcyBRdWlja0pzTmF0aXZlSG9zdERpc3BhdGNoZXIoCiAgICBwcml2YXRlIHZhbCBkaXNwYXRjaFRpbWVyOiAoSW50KSAtPiBVbml0LAogICAgcHJpdmF0ZSB2YWwgZm9yd2FyZENhbGw6IChTdHJpbmcsIFN0cmluZz8pIC0+IFN0cmluZz8KKSA6IFF1aWNrSnNOYXRpdmVSdW50aW1lLkhvc3RCcmlkZ2UsIENsb3NlYWJsZSB7CgogICAgcHJpdmF0ZSB2YWwgc2NoZWR1bGVyID0gRXhlY3V0b3JzLm5ld1NpbmdsZVRocmVhZFNjaGVkdWxlZEV4ZWN1dG9yIHsgcnVubmFibGUgLT4KICAgICAgICBUaHJlYWQocnVubmFibGUsICJRdWlja0pzTmF0aXZlVGltZXIiKS5hcHBseSB7IGlzRGFlbW9uID0gdHJ1ZSB9CiAgICB9CiAgICBwcml2YXRlIHZhbCB0aW1lclRhc2tzID0gQ29uY3VycmVudEhhc2hNYXA8SW50LCBTY2hlZHVsZWRGdXR1cmU8Kj4+KCkKCiAgICBvdmVycmlkZSBmdW4gb25DYWxsKG1ldGhvZDogU3RyaW5nLCBhcmdzSnNvbjogU3RyaW5nPyk6IFN0cmluZz8gewogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgbWV0aG9kLnN0YXJ0c1dpdGgoImNvbnNvbGUuIikgLT4gbnVsbAogICAgICAgICAgICBtZXRob2QgPT0gInNjaGVkdWxlVGltZXIiIC0+IHsKICAgICAgICAgICAgICAgIHNjaGVkdWxlKGFyZ3NKc29uKQogICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICB9CiAgICAgICAgICAgIG1ldGhvZCA9PSAiY2FuY2VsVGltZXIiIC0+IHsKICAgICAgICAgICAgICAgIGNhbmNlbChhcmdzSnNvbikKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIC0+IGZvcndhcmRDYWxsKG1ldGhvZCwgYXJnc0pzb24pCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBjbG9zZSgpIHsKICAgICAgICB0aW1lclRhc2tzLnZhbHVlcy5mb3JFYWNoIHsgaXQuY2FuY2VsKGZhbHNlKSB9CiAgICAgICAgdGltZXJUYXNrcy5jbGVhcigpCiAgICAgICAgc2NoZWR1bGVyLnNodXRkb3duTm93KCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBzY2hlZHVsZShhcmdzSnNvbjogU3RyaW5nPykgewogICAgICAgIHZhbCBhcmdzID0gcGFyc2VBcmdzKGFyZ3NKc29uKQogICAgICAgIHZhbCB0aW1lcklkID0gYXJncy5nZXRPck51bGwoMCk/LnRvSW50T3JOdWxsKCkgPzogcmV0dXJuCiAgICAgICAgdmFsIGRlbGF5TXMgPSBtYXgoMEwsIGFyZ3MuZ2V0T3JOdWxsKDEpPy50b0xvbmdPck51bGwoKSA/OiAwTCkKICAgICAgICB2YWwgcmVwZWF0ID0gYXJncy5nZXRPck51bGwoMik/LmxldCg6OnBhcnNlQm9vbGVhbikgPzogZmFsc2UKCiAgICAgICAgdGltZXJUYXNrcy5yZW1vdmUodGltZXJJZCk/LmNhbmNlbChmYWxzZSkKICAgICAgICB2YWwgdGFzayA9CiAgICAgICAgICAgIGlmIChyZXBlYXQpIHsKICAgICAgICAgICAgICAgIHZhbCBzYWZlUGVyaW9kID0gbWF4KDFMLCBkZWxheU1zKQogICAgICAgICAgICAgICAgc2NoZWR1bGVyLnNjaGVkdWxlQXRGaXhlZFJhdGUoCiAgICAgICAgICAgICAgICAgICAgeyBkaXNwYXRjaFRpbWVyKHRpbWVySWQpIH0sCiAgICAgICAgICAgICAgICAgICAgc2FmZVBlcmlvZCwKICAgICAgICAgICAgICAgICAgICBzYWZlUGVyaW9kLAogICAgICAgICAgICAgICAgICAgIFRpbWVVbml0Lk1JTExJU0VDT05EUwogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgc2NoZWR1bGVyLnNjaGVkdWxlKAogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGltZXJUYXNrcy5yZW1vdmUodGltZXJJZCkKICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGF0Y2hUaW1lcih0aW1lcklkKQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgZGVsYXlNcywKICAgICAgICAgICAgICAgICAgICBUaW1lVW5pdC5NSUxMSVNFQ09ORFMKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIHRpbWVyVGFza3NbdGltZXJJZF0gPSB0YXNrCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY2FuY2VsKGFyZ3NKc29uOiBTdHJpbmc/KSB7CiAgICAgICAgdmFsIHRpbWVySWQgPSBwYXJzZUFyZ3MoYXJnc0pzb24pLmZpcnN0T3JOdWxsKCk/LnRvSW50T3JOdWxsKCkgPzogcmV0dXJuCiAgICAgICAgdGltZXJUYXNrcy5yZW1vdmUodGltZXJJZCk/LmNhbmNlbChmYWxzZSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZUFyZ3MoYXJnc0pzb246IFN0cmluZz8pOiBMaXN0PFN0cmluZz4gewogICAgICAgIGlmIChhcmdzSnNvbi5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgfQogICAgICAgIHZhbCBhcnJheSA9IEpTT05BcnJheShhcmdzSnNvbikKICAgICAgICByZXR1cm4gYnVpbGRMaXN0KGFycmF5Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgIGZvciAoaW5kZXggaW4gMCB1bnRpbCBhcnJheS5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgYWRkKGFycmF5Lm9wdFN0cmluZyhpbmRleCkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VCb29sZWFuKHZhbHVlOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gdmFsdWUudG9Cb29sZWFuU3RyaWN0T3JOdWxsKCkgPzogKHZhbHVlLnRvSW50T3JOdWxsKCkgPzogMCkgIT0gMAogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.javascript
+
+import java.io.Closeable
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.Executors
+import java.util.concurrent.ScheduledFuture
+import java.util.concurrent.TimeUnit
+import kotlin.math.max
+import org.json.JSONArray
+
+class QuickJsNativeHostDispatcher(
+    private val dispatchTimer: (Int) -> Unit,
+    private val forwardCall: (String, String?) -> String?
+) : QuickJsNativeRuntime.HostBridge, Closeable {
+
+    private val scheduler = Executors.newSingleThreadScheduledExecutor { runnable ->
+        Thread(runnable, "QuickJsNativeTimer").apply { isDaemon = true }
+    }
+    private val timerTasks = ConcurrentHashMap<Int, ScheduledFuture<*>>()
+
+    override fun onCall(method: String, argsJson: String?): String? {
+        return when {
+            method.startsWith("console.") -> null
+            method == "scheduleTimer" -> {
+                schedule(argsJson)
+                null
+            }
+            method == "cancelTimer" -> {
+                cancel(argsJson)
+                null
+            }
+            else -> forwardCall(method, argsJson)
+        }
+    }
+
+    override fun close() {
+        timerTasks.values.forEach { it.cancel(false) }
+        timerTasks.clear()
+        scheduler.shutdownNow()
+    }
+
+    private fun schedule(argsJson: String?) {
+        val args = parseArgs(argsJson)
+        val timerId = args.getOrNull(0)?.toIntOrNull() ?: return
+        val delayMs = max(0L, args.getOrNull(1)?.toLongOrNull() ?: 0L)
+        val repeat = args.getOrNull(2)?.let(::parseBoolean) ?: false
+
+        timerTasks.remove(timerId)?.cancel(false)
+        val task =
+            if (repeat) {
+                val safePeriod = max(1L, delayMs)
+                scheduler.scheduleAtFixedRate(
+                    { dispatchTimer(timerId) },
+                    safePeriod,
+                    safePeriod,
+                    TimeUnit.MILLISECONDS
+                )
+            } else {
+                scheduler.schedule(
+                    {
+                        timerTasks.remove(timerId)
+                        dispatchTimer(timerId)
+                    },
+                    delayMs,
+                    TimeUnit.MILLISECONDS
+                )
+            }
+        timerTasks[timerId] = task
+    }
+
+    private fun cancel(argsJson: String?) {
+        val timerId = parseArgs(argsJson).firstOrNull()?.toIntOrNull() ?: return
+        timerTasks.remove(timerId)?.cancel(false)
+    }
+
+    private fun parseArgs(argsJson: String?): List<String> {
+        if (argsJson.isNullOrBlank()) {
+            return emptyList()
+        }
+        val array = JSONArray(argsJson)
+        return buildList(array.length()) {
+            for (index in 0 until array.length()) {
+                add(array.optString(index))
+            }
+        }
+    }
+
+    private fun parseBoolean(value: String): Boolean {
+        return value.toBooleanStrictOrNull() ?: (value.toIntOrNull() ?: 0) != 0
+    }
+}

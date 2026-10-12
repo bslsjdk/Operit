@@ -1,1 +1,268 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlCgppbXBvcnQgYW5kcm9pZC5tZWRpYS5BdWRpb0F0dHJpYnV0ZXMKaW1wb3J0IGFuZHJvaWQubWVkaWEuTWVkaWFQbGF5ZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkZpbGVJbnB1dFN0cmVhbQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0Jvb2xlYW4KaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNMb25nCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29tcGxldGFibGVEZWZlcnJlZAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5TdXBlcnZpc29ySm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuY2FuY2VsCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuY2hhbm5lbHMuQ2hhbm5lbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CgppbnRlcm5hbCBjbGFzcyBRdWV1ZWRUdHNQbGF5YmFjaygKICAgIHByaXZhdGUgdmFsIHRhZzogU3RyaW5nLAogICAgcHJpdmF0ZSB2YWwgcHJlcGFyZUF1ZGlvRmlsZTogc3VzcGVuZCAoUmVxdWVzdCkgLT4gRmlsZT8sCikgewogICAgZGF0YSBjbGFzcyBSZXF1ZXN0KAogICAgICAgIHZhbCB0ZXh0OiBTdHJpbmcsCiAgICAgICAgdmFsIHJhdGU6IEZsb2F0PywKICAgICAgICB2YWwgcGl0Y2g6IEZsb2F0PywKICAgICAgICB2YWwgZXh0cmFQYXJhbXM6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICAgICAgdmFsIGdlbmVyYXRpb246IExvbmcsCiAgICAgICAgdmFsIGNvbXBsZXRpb246IENvbXBsZXRhYmxlRGVmZXJyZWQ8Qm9vbGVhbj4sCiAgICApCgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIFByZXBhcmVkUmVxdWVzdCgKICAgICAgICB2YWwgcmVxdWVzdDogUmVxdWVzdCwKICAgICAgICB2YWwgYXVkaW9GaWxlOiBGaWxlLAogICAgKQoKICAgIHByaXZhdGUgdmFsIHNjb3BlID0gQ29yb3V0aW5lU2NvcGUoU3VwZXJ2aXNvckpvYigpICsgRGlzcGF0Y2hlcnMuSU8pCiAgICBwcml2YXRlIHZhbCBzcGVha1F1ZXVlID0gQ2hhbm5lbDxSZXF1ZXN0PihDaGFubmVsLlVOTElNSVRFRCkKICAgIHByaXZhdGUgdmFsIHBsYXliYWNrUXVldWUgPSBDaGFubmVsPFByZXBhcmVkUmVxdWVzdD4oY2FwYWNpdHkgPSAxKQogICAgcHJpdmF0ZSB2YWwgc3RvcEdlbmVyYXRpb24gPSBBdG9taWNMb25nKDApCiAgICBwcml2YXRlIHZhbCBpc1BhdXNlZCA9IEF0b21pY0Jvb2xlYW4oZmFsc2UpCiAgICBwcml2YXRlIHZhbCBfaXNTcGVha2luZyA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICBwcml2YXRlIHZhciBtZWRpYVBsYXllcjogTWVkaWFQbGF5ZXI/ID0gbnVsbAoKICAgIHZhbCBzcGVha2luZ1N0YXRlRmxvdzogRmxvdzxCb29sZWFuPiA9IF9pc1NwZWFraW5nLmFzU3RhdGVGbG93KCkKICAgIHZhbCBpc1NwZWFraW5nOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSBfaXNTcGVha2luZy52YWx1ZQoKICAgIGluaXQgewogICAgICAgIHNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIGZvciAocmVxdWVzdCBpbiBzcGVha1F1ZXVlKSB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHZhbCBhdWRpb0ZpbGUgPSBwcmVwYXJlQXVkaW9GaWxlKHJlcXVlc3QpCiAgICAgICAgICAgICAgICAgICAgaWYgKGF1ZGlvRmlsZSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVlc3QuY29tcGxldGlvbi5jb21wbGV0ZShmYWxzZSkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBwbGF5YmFja1F1ZXVlLnNlbmQoUHJlcGFyZWRSZXF1ZXN0KHJlcXVlc3QsIGF1ZGlvRmlsZSkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgcmVxdWVzdC5jb21wbGV0aW9uLmNvbXBsZXRlRXhjZXB0aW9uYWxseShlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICBmb3IgKHByZXBhcmVkIGluIHBsYXliYWNrUXVldWUpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHBsYXlQcmVwYXJlZFJlcXVlc3QocHJlcGFyZWQpCiAgICAgICAgICAgICAgICAgICAgcHJlcGFyZWQucmVxdWVzdC5jb21wbGV0aW9uLmNvbXBsZXRlKHJlc3VsdCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIHByZXBhcmVkLnJlcXVlc3QuY29tcGxldGlvbi5jb21wbGV0ZUV4Y2VwdGlvbmFsbHkoZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzcGVhaygKICAgICAgICB0ZXh0OiBTdHJpbmcsCiAgICAgICAgaW50ZXJydXB0OiBCb29sZWFuLAogICAgICAgIHJhdGU6IEZsb2F0PywKICAgICAgICBwaXRjaDogRmxvYXQ/LAogICAgICAgIGV4dHJhUGFyYW1zOiBNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgKTogQm9vbGVhbiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgaWYgKGludGVycnVwdCkgewogICAgICAgICAgICBjbGVhckZvckludGVycnVwdCgpCiAgICAgICAgfQoKICAgICAgICB2YWwgY29tcGxldGlvbiA9IENvbXBsZXRhYmxlRGVmZXJyZWQ8Qm9vbGVhbj4oKQogICAgICAgIHZhbCByZXF1ZXN0ID0gUmVxdWVzdCgKICAgICAgICAgICAgdGV4dCA9IHRleHQsCiAgICAgICAgICAgIHJhdGUgPSByYXRlLAogICAgICAgICAgICBwaXRjaCA9IHBpdGNoLAogICAgICAgICAgICBleHRyYVBhcmFtcyA9IGV4dHJhUGFyYW1zLAogICAgICAgICAgICBnZW5lcmF0aW9uID0gc3RvcEdlbmVyYXRpb24uZ2V0KCksCiAgICAgICAgICAgIGNvbXBsZXRpb24gPSBjb21wbGV0aW9uLAogICAgICAgICkKICAgICAgICBzcGVha1F1ZXVlLnNlbmQocmVxdWVzdCkKICAgICAgICBjb21wbGV0aW9uLmF3YWl0KCkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzdG9wKCk6IEJvb2xlYW4gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHN0b3BHZW5lcmF0aW9uLmluY3JlbWVudEFuZEdldCgpCiAgICAgICAgaXNQYXVzZWQuc2V0KGZhbHNlKQogICAgICAgIGNsZWFyUGVuZGluZ1JlcXVlc3RzKCkKICAgICAgICBjbGVhclBlbmRpbmdQbGF5YmFjaygpCiAgICAgICAgc3RvcFBsYXliYWNrT25seSgpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gcGF1c2UoKTogQm9vbGVhbiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgbWVkaWFQbGF5ZXI/LmxldCB7CiAgICAgICAgICAgICAgICBpZiAoaXQuaXNQbGF5aW5nKSB7CiAgICAgICAgICAgICAgICAgICAgaXQucGF1c2UoKQogICAgICAgICAgICAgICAgICAgIGlzUGF1c2VkLnNldCh0cnVlKQogICAgICAgICAgICAgICAgICAgIF9pc1NwZWFraW5nLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKHRhZywgIuaaguWBnFRUU+aSreaUvuWksei0pSIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHJlc3VtZSgpOiBCb29sZWFuID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBtZWRpYVBsYXllcj8ubGV0IHsKICAgICAgICAgICAgICAgIGlmICghaXQuaXNQbGF5aW5nKSB7CiAgICAgICAgICAgICAgICAgICAgaXQuc3RhcnQoKQogICAgICAgICAgICAgICAgICAgIGlzUGF1c2VkLnNldChmYWxzZSkKICAgICAgICAgICAgICAgICAgICBfaXNTcGVha2luZy52YWx1ZSA9IHRydWUKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKHRhZywgIuaBouWkjVRUU+aSreaUvuWksei0pSIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzaHV0ZG93bigpIHsKICAgICAgICBzdG9wR2VuZXJhdGlvbi5pbmNyZW1lbnRBbmRHZXQoKQogICAgICAgIGlzUGF1c2VkLnNldChmYWxzZSkKICAgICAgICBjbGVhclBlbmRpbmdSZXF1ZXN0cygpCiAgICAgICAgY2xlYXJQZW5kaW5nUGxheWJhY2soKQogICAgICAgIHN0b3BQbGF5YmFja09ubHkoKQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIG1lZGlhUGxheWVyPy5yZWxlYXNlKCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncodGFnLCAi6YeK5pS+VFRT5pKt5pS+5Zmo5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICAgICAgbWVkaWFQbGF5ZXIgPSBudWxsCiAgICAgICAgc2NvcGUuY2FuY2VsKCkKICAgICAgICBzcGVha1F1ZXVlLmNsb3NlKCkKICAgICAgICBwbGF5YmFja1F1ZXVlLmNsb3NlKCkKICAgIH0KCiAgICBmdW4gaXNDdXJyZW50KHJlcXVlc3Q6IFJlcXVlc3QpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gcmVxdWVzdC5nZW5lcmF0aW9uID09IHN0b3BHZW5lcmF0aW9uLmdldCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY2xlYXJQZW5kaW5nUmVxdWVzdHMoKSB7CiAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgdmFsIHJlcXVlc3QgPSBzcGVha1F1ZXVlLnRyeVJlY2VpdmUoKS5nZXRPck51bGwoKSA/OiBicmVhawogICAgICAgICAgICByZXF1ZXN0LmNvbXBsZXRpb24uY29tcGxldGUoZmFsc2UpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNsZWFyUGVuZGluZ1BsYXliYWNrKCkgewogICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgIHZhbCBwcmVwYXJlZCA9IHBsYXliYWNrUXVldWUudHJ5UmVjZWl2ZSgpLmdldE9yTnVsbCgpID86IGJyZWFrCiAgICAgICAgICAgIHByZXBhcmVkLnJlcXVlc3QuY29tcGxldGlvbi5jb21wbGV0ZShmYWxzZSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY2xlYXJGb3JJbnRlcnJ1cHQoKSB7CiAgICAgICAgc3RvcEdlbmVyYXRpb24uaW5jcmVtZW50QW5kR2V0KCkKICAgICAgICBpc1BhdXNlZC5zZXQoZmFsc2UpCiAgICAgICAgY2xlYXJQZW5kaW5nUmVxdWVzdHMoKQogICAgICAgIGNsZWFyUGVuZGluZ1BsYXliYWNrKCkKICAgICAgICBzdG9wUGxheWJhY2tPbmx5KCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBzdG9wUGxheWJhY2tPbmx5KCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBpc1BhdXNlZC5zZXQoZmFsc2UpCiAgICAgICAgICAgIG1lZGlhUGxheWVyPy5sZXQgewogICAgICAgICAgICAgICAgaWYgKGl0LmlzUGxheWluZykgewogICAgICAgICAgICAgICAgICAgIGl0LnN0b3AoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaXQucmVzZXQoKQogICAgICAgICAgICAgICAgX2lzU3BlYWtpbmcudmFsdWUgPSBmYWxzZQogICAgICAgICAgICAgICAgdHJ1ZQogICAgICAgICAgICB9ID86IGZhbHNlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKHRhZywgIuWBnOatolRUU+aSreaUvuWksei0pSIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gcGxheVByZXBhcmVkUmVxdWVzdChwcmVwYXJlZDogUHJlcGFyZWRSZXF1ZXN0KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKCFpc0N1cnJlbnQocHJlcGFyZWQucmVxdWVzdCkpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIHBsYXlBdWRpb0ZpbGUocHJlcGFyZWQuYXVkaW9GaWxlKQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBwbGF5QXVkaW9GaWxlKGF1ZGlvRmlsZTogRmlsZSkgewogICAgICAgIGlmICghYXVkaW9GaWxlLmV4aXN0cygpIHx8IGF1ZGlvRmlsZS5sZW5ndGgoKSA9PSAwTCkgewogICAgICAgICAgICBBcHBMb2dnZXIuZSh0YWcsICJBdWRpbyBmaWxlIGlzIGludmFsaWQ6ICR7YXVkaW9GaWxlLmFic29sdXRlUGF0aH0iKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICBpc1BhdXNlZC5zZXQoZmFsc2UpCiAgICAgICAgICAgICAgICBGaWxlSW5wdXRTdHJlYW0oYXVkaW9GaWxlKS51c2UgeyBmaXMgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgbXAgPSBNZWRpYVBsYXllcigpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICAgICAgc2V0QXVkaW9BdHRyaWJ1dGVzKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgQXVkaW9BdHRyaWJ1dGVzLkJ1aWxkZXIoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zZXRDb250ZW50VHlwZShBdWRpb0F0dHJpYnV0ZXMuQ09OVEVOVF9UWVBFX1NQRUVDSCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc2V0VXNhZ2UoQXVkaW9BdHRyaWJ1dGVzLlVTQUdFX01FRElBKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgc2V0RGF0YVNvdXJjZShmaXMuZmQpCiAgICAgICAgICAgICAgICAgICAgICAgIHByZXBhcmUoKQogICAgICAgICAgICAgICAgICAgICAgICBzdGFydCgpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBtZWRpYVBsYXllcj8ucmVsZWFzZSgpCiAgICAgICAgICAgICAgICAgICAgbWVkaWFQbGF5ZXIgPSBtcAogICAgICAgICAgICAgICAgICAgIF9pc1NwZWFraW5nLnZhbHVlID0gdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBtZWRpYVBsYXllcj8ubGV0IHsKICAgICAgICAgICAgICAgIHdoaWxlIChpdC5pc1BsYXlpbmcgfHwgaXNQYXVzZWQuZ2V0KCkpIHsKICAgICAgICAgICAgICAgICAgICBkZWxheSgxMDApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUodGFnLCAi5pKt5pS+VFRT6Z+z6aKR5aSx6LSlIiwgZSkKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBfaXNTcGVha2luZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIGlzUGF1c2VkLnNldChmYWxzZSkKICAgICAgICAgICAgbWVkaWFQbGF5ZXI/LmFwcGx5IHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGlzUGxheWluZykgewogICAgICAgICAgICAgICAgICAgICAgICBzdG9wKCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgcmVsZWFzZSgpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBtZWRpYVBsYXllciA9IG51bGwKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.api.voice
+
+import android.media.AudioAttributes
+import android.media.MediaPlayer
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+import java.io.FileInputStream
+import java.util.concurrent.atomic.AtomicBoolean
+import java.util.concurrent.atomic.AtomicLong
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+internal class QueuedTtsPlayback(
+    private val tag: String,
+    private val prepareAudioFile: suspend (Request) -> File?,
+) {
+    data class Request(
+        val text: String,
+        val rate: Float?,
+        val pitch: Float?,
+        val extraParams: Map<String, String>,
+        val generation: Long,
+        val completion: CompletableDeferred<Boolean>,
+    )
+
+    private data class PreparedRequest(
+        val request: Request,
+        val audioFile: File,
+    )
+
+    private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val speakQueue = Channel<Request>(Channel.UNLIMITED)
+    private val playbackQueue = Channel<PreparedRequest>(capacity = 1)
+    private val stopGeneration = AtomicLong(0)
+    private val isPaused = AtomicBoolean(false)
+    private val _isSpeaking = MutableStateFlow(false)
+    private var mediaPlayer: MediaPlayer? = null
+
+    val speakingStateFlow: Flow<Boolean> = _isSpeaking.asStateFlow()
+    val isSpeaking: Boolean
+        get() = _isSpeaking.value
+
+    init {
+        scope.launch {
+            for (request in speakQueue) {
+                try {
+                    val audioFile = prepareAudioFile(request)
+                    if (audioFile == null) {
+                        request.completion.complete(false)
+                    } else {
+                        playbackQueue.send(PreparedRequest(request, audioFile))
+                    }
+                } catch (e: Exception) {
+                    request.completion.completeExceptionally(e)
+                }
+            }
+        }
+
+        scope.launch {
+            for (prepared in playbackQueue) {
+                try {
+                    val result = playPreparedRequest(prepared)
+                    prepared.request.completion.complete(result)
+                } catch (e: Exception) {
+                    prepared.request.completion.completeExceptionally(e)
+                }
+            }
+        }
+    }
+
+    suspend fun speak(
+        text: String,
+        interrupt: Boolean,
+        rate: Float?,
+        pitch: Float?,
+        extraParams: Map<String, String>,
+    ): Boolean = withContext(Dispatchers.IO) {
+        if (interrupt) {
+            clearForInterrupt()
+        }
+
+        val completion = CompletableDeferred<Boolean>()
+        val request = Request(
+            text = text,
+            rate = rate,
+            pitch = pitch,
+            extraParams = extraParams,
+            generation = stopGeneration.get(),
+            completion = completion,
+        )
+        speakQueue.send(request)
+        completion.await()
+    }
+
+    suspend fun stop(): Boolean = withContext(Dispatchers.IO) {
+        stopGeneration.incrementAndGet()
+        isPaused.set(false)
+        clearPendingRequests()
+        clearPendingPlayback()
+        stopPlaybackOnly()
+    }
+
+    suspend fun pause(): Boolean = withContext(Dispatchers.IO) {
+        try {
+            mediaPlayer?.let {
+                if (it.isPlaying) {
+                    it.pause()
+                    isPaused.set(true)
+                    _isSpeaking.value = false
+                    return@withContext true
+                }
+            }
+            false
+        } catch (e: Exception) {
+            AppLogger.e(tag, "暂停TTS播放失败", e)
+            false
+        }
+    }
+
+    suspend fun resume(): Boolean = withContext(Dispatchers.IO) {
+        try {
+            mediaPlayer?.let {
+                if (!it.isPlaying) {
+                    it.start()
+                    isPaused.set(false)
+                    _isSpeaking.value = true
+                    return@withContext true
+                }
+            }
+            false
+        } catch (e: Exception) {
+            AppLogger.e(tag, "恢复TTS播放失败", e)
+            false
+        }
+    }
+
+    fun shutdown() {
+        stopGeneration.incrementAndGet()
+        isPaused.set(false)
+        clearPendingRequests()
+        clearPendingPlayback()
+        stopPlaybackOnly()
+        try {
+            mediaPlayer?.release()
+        } catch (e: Exception) {
+            AppLogger.w(tag, "释放TTS播放器失败", e)
+        }
+        mediaPlayer = null
+        scope.cancel()
+        speakQueue.close()
+        playbackQueue.close()
+    }
+
+    fun isCurrent(request: Request): Boolean {
+        return request.generation == stopGeneration.get()
+    }
+
+    private fun clearPendingRequests() {
+        while (true) {
+            val request = speakQueue.tryReceive().getOrNull() ?: break
+            request.completion.complete(false)
+        }
+    }
+
+    private fun clearPendingPlayback() {
+        while (true) {
+            val prepared = playbackQueue.tryReceive().getOrNull() ?: break
+            prepared.request.completion.complete(false)
+        }
+    }
+
+    private fun clearForInterrupt() {
+        stopGeneration.incrementAndGet()
+        isPaused.set(false)
+        clearPendingRequests()
+        clearPendingPlayback()
+        stopPlaybackOnly()
+    }
+
+    private fun stopPlaybackOnly(): Boolean {
+        return try {
+            isPaused.set(false)
+            mediaPlayer?.let {
+                if (it.isPlaying) {
+                    it.stop()
+                }
+                it.reset()
+                _isSpeaking.value = false
+                true
+            } ?: false
+        } catch (e: Exception) {
+            AppLogger.e(tag, "停止TTS播放失败", e)
+            false
+        }
+    }
+
+    private suspend fun playPreparedRequest(prepared: PreparedRequest): Boolean {
+        if (!isCurrent(prepared.request)) {
+            return false
+        }
+        playAudioFile(prepared.audioFile)
+        return true
+    }
+
+    private suspend fun playAudioFile(audioFile: File) {
+        if (!audioFile.exists() || audioFile.length() == 0L) {
+            AppLogger.e(tag, "Audio file is invalid: ${audioFile.absolutePath}")
+            return
+        }
+
+        try {
+            withContext(Dispatchers.IO) {
+                isPaused.set(false)
+                FileInputStream(audioFile).use { fis ->
+                    val mp = MediaPlayer().apply {
+                        setAudioAttributes(
+                            AudioAttributes.Builder()
+                                .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
+                                .setUsage(AudioAttributes.USAGE_MEDIA)
+                                .build()
+                        )
+                        setDataSource(fis.fd)
+                        prepare()
+                        start()
+                    }
+
+                    mediaPlayer?.release()
+                    mediaPlayer = mp
+                    _isSpeaking.value = true
+                }
+            }
+
+            mediaPlayer?.let {
+                while (it.isPlaying || isPaused.get()) {
+                    delay(100)
+                }
+            }
+        } catch (e: Exception) {
+            AppLogger.e(tag, "播放TTS音频失败", e)
+        } finally {
+            _isSpeaking.value = false
+            isPaused.set(false)
+            mediaPlayer?.apply {
+                try {
+                    if (isPlaying) {
+                        stop()
+                    }
+                } catch (_: Exception) {
+                }
+                try {
+                    release()
+                } catch (_: Exception) {
+                }
+            }
+            mediaPlayer = null
+        }
+    }
+}

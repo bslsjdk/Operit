@@ -1,1 +1,312 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLnV0aWwuQXRvbWljRmlsZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTGVnYWN5VXNlclByb2ZpbGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkZpbGVPdXRwdXRTdHJlYW0KaW1wb3J0IGphdmEubmlvLmNoYXJzZXQuU3RhbmRhcmRDaGFyc2V0cwppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQKaW1wb3J0IGphdmEudXRpbC5EYXRlCmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5maXJzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMuTXV0ZXgKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLndpdGhMb2NrCgovKiogU3RvcmVzIHRoZSBNYXJrZG93biBwcm9maWxlIG93bmVkIGJ5IG9uZSBtZW1vcnkgc3BhY2UuICovCmNsYXNzIE1lbW9yeVNwYWNlUHJvZmlsZURvY3VtZW50UmVwb3NpdG9yeSBwcml2YXRlIGNvbnN0cnVjdG9yKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGNvbnN0IHZhbCBNQVhfQ09OVEVOVF9DSEFSUyA9IDEyXzAwMAogICAgICAgIGNvbnN0IHZhbCBVU0VSX0ZJTEVfTkFNRSA9ICJ1c2VyLm1kIgoKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBTVE9SQUdFX0RJUkVDVE9SWSA9ICJtZW1vcnktc3BhY2UtcHJvZmlsZXMiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgUFVCTElTSEVEX0dMT0JBTF9VU0VSX0ZJTEVfTkFNRSA9ICJ1c2VyLm1kIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFBVQkxJU0hFRF9MRUdBQ1lfQVJDSElWRV9GSUxFX05BTUUgPSAibGVnYWN5LXVzZXItcHJvZmlsZXMubWQiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgTUlHUkFUSU9OX1BSRUZFUkVOQ0VTID0gIm1lbW9yeV9zcGFjZV9wcm9maWxlX2RvY3VtZW50cyIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBTQ0hFTUFfVkVSU0lPTl9LRVkgPSAic2NoZW1hX3ZlcnNpb24iCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgQ1VSUkVOVF9TQ0hFTUFfVkVSU0lPTiA9IDIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiTWVtb3J5U3BhY2VQcm9maWxlRG9jcyIKCiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgaW5zdGFuY2U6IE1lbW9yeVNwYWNlUHJvZmlsZURvY3VtZW50UmVwb3NpdG9yeT8gPSBudWxsCgogICAgICAgIGZ1biBnZXRJbnN0YW5jZShjb250ZXh0OiBDb250ZXh0KTogTWVtb3J5U3BhY2VQcm9maWxlRG9jdW1lbnRSZXBvc2l0b3J5IHsKICAgICAgICAgICAgcmV0dXJuIGluc3RhbmNlID86IHN5bmNocm9uaXplZCh0aGlzKSB7CiAgICAgICAgICAgICAgICBpbnN0YW5jZQogICAgICAgICAgICAgICAgICAgID86IE1lbW9yeVNwYWNlUHJvZmlsZURvY3VtZW50UmVwb3NpdG9yeShjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCA/OiBjb250ZXh0KS5hbHNvIHsKICAgICAgICAgICAgICAgICAgICAgICAgaW5zdGFuY2UgPSBpdAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZhbCBwcm9maWxlUm9vdCA9IEZpbGUoY29udGV4dC5maWxlc0RpciwgU1RPUkFHRV9ESVJFQ1RPUlkpCiAgICBwcml2YXRlIHZhbCBwdWJsaXNoZWRHbG9iYWxVc2VyRmlsZSA9IEZpbGUoY29udGV4dC5maWxlc0RpciwgUFVCTElTSEVEX0dMT0JBTF9VU0VSX0ZJTEVfTkFNRSkKICAgIHByaXZhdGUgdmFsIHB1Ymxpc2hlZExlZ2FjeUFyY2hpdmVGaWxlID0KICAgICAgICBGaWxlKGNvbnRleHQuZmlsZXNEaXIsIFBVQkxJU0hFRF9MRUdBQ1lfQVJDSElWRV9GSUxFX05BTUUpCiAgICBwcml2YXRlIHZhbCBtaWdyYXRpb25QcmVmZXJlbmNlcyA9CiAgICAgICAgY29udGV4dC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhNSUdSQVRJT05fUFJFRkVSRU5DRVMsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgcHJpdmF0ZSB2YWwgaW5pdGlhbGl6YXRpb25NdXRleCA9IE11dGV4KCkKICAgIHByaXZhdGUgdmFsIHdyaXRlTXV0ZXggPSBNdXRleCgpCiAgICBwcml2YXRlIHZhciBpbml0aWFsaXplZCA9IGZhbHNlCgogICAgc3VzcGVuZCBmdW4gaW5pdGlhbGl6ZSgpIHsKICAgICAgICBpbml0aWFsaXphdGlvbk11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgaWYgKGluaXRpYWxpemVkKSByZXR1cm4KCiAgICAgICAgICAgIHZhbCBzY2hlbWFWZXJzaW9uID0gbWlncmF0aW9uUHJlZmVyZW5jZXMuZ2V0SW50KFNDSEVNQV9WRVJTSU9OX0tFWSwgMCkKICAgICAgICAgICAgaWYgKHNjaGVtYVZlcnNpb24gPCBDVVJSRU5UX1NDSEVNQV9WRVJTSU9OKSB7CiAgICAgICAgICAgICAgICBtaWdyYXRlUmVsZWFzZWREYXRhKCkKICAgICAgICAgICAgICAgIGNoZWNrKAogICAgICAgICAgICAgICAgICAgIG1pZ3JhdGlvblByZWZlcmVuY2VzLmVkaXQoKQogICAgICAgICAgICAgICAgICAgICAgICAucHV0SW50KFNDSEVNQV9WRVJTSU9OX0tFWSwgQ1VSUkVOVF9TQ0hFTUFfVkVSU0lPTikKICAgICAgICAgICAgICAgICAgICAgICAgLmNvbW1pdCgpCiAgICAgICAgICAgICAgICApIHsgIkZhaWxlZCB0byBwZXJzaXN0IG1lbW9yeS1zcGFjZSBwcm9maWxlIGRvY3VtZW50IG1pZ3JhdGlvbiB2ZXJzaW9uIiB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHByb2ZpbGVSb290Lm1rZGlycygpCiAgICAgICAgICAgIGluaXRpYWxpemVkID0gdHJ1ZQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBsb2FkKG1lbW9yeVNwYWNlSWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgaW5pdGlhbGl6ZSgpCiAgICAgICAgdmFsIGZpbGUgPSBkb2N1bWVudEZpbGUobWVtb3J5U3BhY2VJZCkKICAgICAgICBpZiAoIWZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgd3JpdGVNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgICAgICBpZiAoIWZpbGUuZXhpc3RzKCkpIHdyaXRlQXRvbWljYWxseShmaWxlLCAiIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gZmlsZS5yZWFkVGV4dChTdGFuZGFyZENoYXJzZXRzLlVURl84KQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmUobWVtb3J5U3BhY2VJZDogU3RyaW5nLCBtYXJrZG93bjogU3RyaW5nKSB7CiAgICAgICAgcmVxdWlyZShtYXJrZG93bi5sZW5ndGggPD0gTUFYX0NPTlRFTlRfQ0hBUlMpIHsKICAgICAgICAgICAgInVzZXIubWQgZXhjZWVkcyB0aGUgJE1BWF9DT05URU5UX0NIQVJTIGNoYXJhY3RlciBsaW1pdCIKICAgICAgICB9CiAgICAgICAgaW5pdGlhbGl6ZSgpCiAgICAgICAgd3JpdGVNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIHdyaXRlQXRvbWljYWxseShkb2N1bWVudEZpbGUobWVtb3J5U3BhY2VJZCksIG1hcmtkb3duKQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlQXV0b21hdGljKG1lbW9yeVNwYWNlSWQ6IFN0cmluZywgbWFya2Rvd246IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIGluaXRpYWxpemUoKQogICAgICAgIHZhbCBzcGFjZSA9IFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dCkuZ2V0TWVtb3J5U3BhY2VGbG93KG1lbW9yeVNwYWNlSWQpLmZpcnN0KCkKICAgICAgICBpZiAoIXNwYWNlLnByb2ZpbGVBdXRvVXBkYXRlRW5hYmxlZCB8fCBzcGFjZS5wcm9maWxlQXV0b1VwZGF0ZUxvY2tlZCkgcmV0dXJuIGZhbHNlCiAgICAgICAgc2F2ZShtZW1vcnlTcGFjZUlkLCBtYXJrZG93bikKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHJlc2V0KG1lbW9yeVNwYWNlSWQ6IFN0cmluZykgewogICAgICAgIHNhdmUobWVtb3J5U3BhY2VJZCwgIiIpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gZGVsZXRlKG1lbW9yeVNwYWNlSWQ6IFN0cmluZykgewogICAgICAgIGluaXRpYWxpemUoKQogICAgICAgIHdyaXRlTXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICBkb2N1bWVudEZpbGUobWVtb3J5U3BhY2VJZCkuZGVsZXRlKCkKICAgICAgICAgICAgcHJvZmlsZURpcmVjdG9yeShtZW1vcnlTcGFjZUlkKS5kZWxldGUoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIG1pZ3JhdGVSZWxlYXNlZERhdGEoKSB7CiAgICAgICAgdmFsIG1hbmFnZXIgPSBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICAgICAgLy8gcHJvZmlsZV9saXN0IGlzIHRoZSBjb21wbGV0ZSArNCBzb3VyY2Ugb2YgdHJ1dGguIEl0IGNhbiBjb2V4aXN0IHdpdGggYSBkZWZhdWx0CiAgICAgICAgLy8gbWVtb3J5LXNwYWNlIHJlY29yZCBhZnRlciByYXcgc25hcHNob3QgcmVjb3ZlcnksIHNvIG1ldGFkYXRhIGFsb25lIGNhbm5vdCBpZGVudGlmeSArNS4KICAgICAgICBpZiAobWFuYWdlci5oYXNMZWdhY3lVc2VyUHJvZmlsZU1ldGFkYXRhKCkpIHsKICAgICAgICAgICAgbWlncmF0ZUxlZ2FjeVN0cnVjdHVyZWRQcm9maWxlcyhtYW5hZ2VyKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgaWYgKG1hbmFnZXIuaGFzTWVtb3J5U3BhY2VNZXRhZGF0YSgpKSB7CiAgICAgICAgICAgIG1pZ3JhdGVQdWJsaXNoZWRHbG9iYWxEb2N1bWVudHMobWFuYWdlcikKICAgICAgICAgICAgbWFuYWdlci5tZW1vcnlTcGFjZUxpc3RGbG93LmZpcnN0KCkuZm9yRWFjaCB7IGVuc3VyZURvY3VtZW50KGl0KSB9CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgbWlncmF0ZUxlZ2FjeVN0cnVjdHVyZWRQcm9maWxlcyhtYW5hZ2VyKQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gbWlncmF0ZUxlZ2FjeVN0cnVjdHVyZWRQcm9maWxlcyhtYW5hZ2VyOiBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyKSB7CiAgICAgICAgdmFsIHNuYXBzaG90ID0gbWFuYWdlci5yZWFkTGVnYWN5VXNlclByb2ZpbGVzKCkKICAgICAgICBzbmFwc2hvdC5wcm9maWxlcy5mb3JFYWNoIHsgcHJvZmlsZSAtPgogICAgICAgICAgICB3cml0ZUF0b21pY2FsbHkoCiAgICAgICAgICAgICAgICBkb2N1bWVudEZpbGUocHJvZmlsZS5pZCksCiAgICAgICAgICAgICAgICBwcm9maWxlLnRvVXNlck1hcmtkb3duKCkKICAgICAgICAgICAgKQogICAgICAgIH0KICAgICAgICBtYW5hZ2VyLm1pZ3JhdGVMZWdhY3lQcm9maWxlc1RvTWVtb3J5U3BhY2VzKHNuYXBzaG90KQogICAgfQoKICAgIC8qKgogICAgICogUmVsZWFzZSArNSByZXRhaW5lZCB0aGUgZm9ybWVyIG11bHRpLXByb2ZpbGUgcGF5bG9hZCBhcyBvbmUgYWN0aXZlIHVzZXIubWQgcGx1cyBhbiBhcmNoaXZlCiAgICAgKiBvZiB0aGUgb3RoZXIgcHJvZmlsZXMuIFRoZSByb290IGZpbGUgaGFzIG5vIG93bmVyIGlkLCBhbmQgYWN0aXZlX21lbW9yeV9zcGFjZV9pZCBtYXkgaGF2ZQogICAgICogY2hhbmdlZCBhZnRlciArNSdzIG1pZ3JhdGlvbi4gVGhlIGFyY2hpdmUgcHJlc2VydmVzICs0J3MgcHJvZmlsZS1saXN0IG9yZGVyLCBzbyB0aGUgcm9vdAogICAgICogb3duZXIgaXMgdGhlIHVuaXF1ZSBzcGFjZSB3aG9zZSByZW1vdmFsIGxlYXZlcyBhbiBhcmNoaXZlLW5hbWUgc3Vic2VxdWVuY2UuCiAgICAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gbWlncmF0ZVB1Ymxpc2hlZEdsb2JhbERvY3VtZW50cyhtYW5hZ2VyOiBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyKSB7CiAgICAgICAgdmFsIG1lbW9yeVNwYWNlSWRzID0gbWFuYWdlci5tZW1vcnlTcGFjZUxpc3RGbG93LmZpcnN0KCkKICAgICAgICB2YWwgc3BhY2VzID0gbWVtb3J5U3BhY2VJZHMubWFwIHsgaWQgLT4gbWFuYWdlci5nZXRNZW1vcnlTcGFjZUZsb3coaWQpLmZpcnN0KCkgfQogICAgICAgIHZhbCBhY3RpdmVEb2N1bWVudCA9CiAgICAgICAgICAgIHB1Ymxpc2hlZEdsb2JhbFVzZXJGaWxlCiAgICAgICAgICAgICAgICAudGFrZUlmKEZpbGU6OmlzRmlsZSkKICAgICAgICAgICAgICAgID8ucmVhZFRleHQoU3RhbmRhcmRDaGFyc2V0cy5VVEZfOCkKCiAgICAgICAgdmFsIGFyY2hpdmVDb250ZW50ID0KICAgICAgICAgICAgcHVibGlzaGVkTGVnYWN5QXJjaGl2ZUZpbGUKICAgICAgICAgICAgICAgIC50YWtlSWYoRmlsZTo6aXNGaWxlKQogICAgICAgICAgICAgICAgPy5yZWFkVGV4dChTdGFuZGFyZENoYXJzZXRzLlVURl84KQogICAgICAgIHZhbCBhcmNoaXZlRG9jdW1lbnRzID0gYXJjaGl2ZUNvbnRlbnQ/LmxldCg6OnBhcnNlUHVibGlzaGVkQXJjaGl2ZSkub3JFbXB0eSgpCiAgICAgICAgdmFsIGFyY2hpdmVOYW1lcyA9IGFyY2hpdmVEb2N1bWVudHMubWFwKEFyY2hpdmVkUHJvZmlsZURvY3VtZW50OjpuYW1lKQogICAgICAgIHZhbCByb290RG9jdW1lbnRDYW5kaWRhdGVzID0KICAgICAgICAgICAgaWYgKGFjdGl2ZURvY3VtZW50LmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgZW1wdHlMaXN0KCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHNwYWNlcy5maWx0ZXJJbmRleGVkIHsgcm9vdEluZGV4LCBfIC0+CiAgICAgICAgICAgICAgICAgICAgYXJjaGl2ZU5hbWVzLmlzU3Vic2VxdWVuY2VPZigKICAgICAgICAgICAgICAgICAgICAgICAgc3BhY2VzLmZpbHRlckluZGV4ZWQgeyBpbmRleCwgXyAtPiBpbmRleCAhPSByb290SW5kZXggfS5tYXAgeyBpdC5uYW1lIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICBpZiAocm9vdERvY3VtZW50Q2FuZGlkYXRlcy5zaXplID4gMSkgewogICAgICAgICAgICBBcHBMb2dnZXIudygKICAgICAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgICAgICJDYW5ub3QgdW5pcXVlbHkgZGV0ZXJtaW5lIHRoZSBvd25lciBvZiB0aGUgcHVibGlzaGVkIHJvb3QgdXNlci5tZDsgIiArCiAgICAgICAgICAgICAgICAgICAgInJldGFpbmluZyBzb3VyY2UgZmlsZXMiCiAgICAgICAgICAgICkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB2YWwgcm9vdERvY3VtZW50U3BhY2UgPSByb290RG9jdW1lbnRDYW5kaWRhdGVzLnNpbmdsZU9yTnVsbCgpCiAgICAgICAgdmFsIHJlbWFpbmluZ1NwYWNlcyA9IHNwYWNlcy5maWx0ZXIgeyBpdC5pZCAhPSByb290RG9jdW1lbnRTcGFjZT8uaWQgfS50b011dGFibGVMaXN0KCkKICAgICAgICBhcmNoaXZlRG9jdW1lbnRzLmZvckVhY2ggeyBkb2N1bWVudCAtPgogICAgICAgICAgICB2YWwgdGFyZ2V0SW5kZXggPSByZW1haW5pbmdTcGFjZXMuaW5kZXhPZkZpcnN0IHsgaXQubmFtZSA9PSBkb2N1bWVudC5uYW1lIH0KICAgICAgICAgICAgaWYgKHRhcmdldEluZGV4ID09IC0xKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJObyBtZW1vcnkgc3BhY2UgZm91bmQgZm9yIGFyY2hpdmVkIHByb2ZpbGU6ICR7ZG9jdW1lbnQubmFtZX0iKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdmFsIHRhcmdldFNwYWNlID0gcmVtYWluaW5nU3BhY2VzLnJlbW92ZUF0KHRhcmdldEluZGV4KQogICAgICAgICAgICAgICAgd3JpdGVJZkRvY3VtZW50RW1wdHkodGFyZ2V0U3BhY2UuaWQsIGRvY3VtZW50LnRvVXNlck1hcmtkb3duKCkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgaWYgKHJvb3REb2N1bWVudFNwYWNlICE9IG51bGwpIHsKICAgICAgICAgICAgd3JpdGVJZkRvY3VtZW50RW1wdHkocm9vdERvY3VtZW50U3BhY2UuaWQsIHJlcXVpcmVOb3ROdWxsKGFjdGl2ZURvY3VtZW50KSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gTGlzdDxTdHJpbmc+LmlzU3Vic2VxdWVuY2VPZih2YWx1ZXM6IExpc3Q8U3RyaW5nPik6IEJvb2xlYW4gewogICAgICAgIHZhciBuZXh0VmFsdWVJbmRleCA9IDAKICAgICAgICB2YWx1ZXMuZm9yRWFjaCB7IHZhbHVlIC0+CiAgICAgICAgICAgIGlmIChuZXh0VmFsdWVJbmRleCA8IHNpemUgJiYgdGhpc1tuZXh0VmFsdWVJbmRleF0gPT0gdmFsdWUpIHsKICAgICAgICAgICAgICAgIG5leHRWYWx1ZUluZGV4KysKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gbmV4dFZhbHVlSW5kZXggPT0gc2l6ZQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZW5zdXJlRG9jdW1lbnQobWVtb3J5U3BhY2VJZDogU3RyaW5nKSB7CiAgICAgICAgdmFsIGZpbGUgPSBkb2N1bWVudEZpbGUobWVtb3J5U3BhY2VJZCkKICAgICAgICBpZiAoIWZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgd3JpdGVNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgICAgICBpZiAoIWZpbGUuZXhpc3RzKCkpIHdyaXRlQXRvbWljYWxseShmaWxlLCAiIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biB3cml0ZUlmRG9jdW1lbnRFbXB0eShtZW1vcnlTcGFjZUlkOiBTdHJpbmcsIG1hcmtkb3duOiBTdHJpbmcpIHsKICAgICAgICB2YWwgZmlsZSA9IGRvY3VtZW50RmlsZShtZW1vcnlTcGFjZUlkKQogICAgICAgIGlmICghZmlsZS5leGlzdHMoKSB8fCBmaWxlLnJlYWRUZXh0KFN0YW5kYXJkQ2hhcnNldHMuVVRGXzgpLmlzQmxhbmsoKSkgewogICAgICAgICAgICB3cml0ZUF0b21pY2FsbHkoZmlsZSwgbWFya2Rvd24pCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHByb2ZpbGVEaXJlY3RvcnkobWVtb3J5U3BhY2VJZDogU3RyaW5nKTogRmlsZSB7CiAgICAgICAgcmV0dXJuIEZpbGUocHJvZmlsZVJvb3QsIG1lbW9yeVNwYWNlSWQpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZG9jdW1lbnRGaWxlKG1lbW9yeVNwYWNlSWQ6IFN0cmluZyk6IEZpbGUgewogICAgICAgIHJlcXVpcmUobWVtb3J5U3BhY2VJZC5pc05vdEJsYW5rKCkpIHsgIk1lbW9yeSBzcGFjZSBJRCBjYW5ub3QgYmUgYmxhbmsiIH0KICAgICAgICByZXR1cm4gRmlsZShwcm9maWxlRGlyZWN0b3J5KG1lbW9yeVNwYWNlSWQpLCBVU0VSX0ZJTEVfTkFNRSkKICAgIH0KCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgQXJjaGl2ZWRQcm9maWxlRG9jdW1lbnQodmFsIG5hbWU6IFN0cmluZywgdmFsIGNvbnRlbnQ6IFN0cmluZykgewogICAgICAgIGZ1biB0b1VzZXJNYXJrZG93bigpOiBTdHJpbmcgewogICAgICAgICAgICByZXR1cm4gIiMgQWJvdXQgbWVcblxuJHtjb250ZW50LnRyaW0oKX1cbiIKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VQdWJsaXNoZWRBcmNoaXZlKGFyY2hpdmVDb250ZW50OiBTdHJpbmcpOiBMaXN0PEFyY2hpdmVkUHJvZmlsZURvY3VtZW50PiB7CiAgICAgICAgdmFsIHNlY3Rpb25OYW1lcyA9CiAgICAgICAgICAgIHNldE9mKCJCYXNpYyBpbmZvcm1hdGlvbiIsICJQZXJzb25hbGl0eSIsICJQcmVmZXJyZWQgYXNzaXN0YW50IHN0eWxlIikKICAgICAgICB2YWwgaGVhZGVycyA9CiAgICAgICAgICAgIFJlZ2V4KCIoP20pXiMjIChbXlxcclxcbl0rKVxccj8kIikKICAgICAgICAgICAgICAgIC5maW5kQWxsKGFyY2hpdmVDb250ZW50KQogICAgICAgICAgICAgICAgLmZpbHRlciB7IGl0Lmdyb3VwVmFsdWVzWzFdICFpbiBzZWN0aW9uTmFtZXMgfQogICAgICAgICAgICAgICAgLnRvTGlzdCgpCiAgICAgICAgcmV0dXJuIGhlYWRlcnMubWFwSW5kZXhlZE5vdE51bGwgeyBpbmRleCwgaGVhZGVyIC0+CiAgICAgICAgICAgIHZhbCBjb250ZW50U3RhcnQgPSBoZWFkZXIucmFuZ2UubGFzdCArIDEKICAgICAgICAgICAgdmFsIGNvbnRlbnRFbmQgPSBoZWFkZXJzLmdldE9yTnVsbChpbmRleCArIDEpPy5yYW5nZT8uZmlyc3QgPzogYXJjaGl2ZUNvbnRlbnQubGVuZ3RoCiAgICAgICAgICAgIHZhbCBjb250ZW50ID0gYXJjaGl2ZUNvbnRlbnQuc3Vic3RyaW5nKGNvbnRlbnRTdGFydCwgY29udGVudEVuZCkudHJpbSgpCiAgICAgICAgICAgIGNvbnRlbnQudGFrZUlmKFN0cmluZzo6aXNOb3RCbGFuayk/LmxldCB7CiAgICAgICAgICAgICAgICBBcmNoaXZlZFByb2ZpbGVEb2N1bWVudChuYW1lID0gaGVhZGVyLmdyb3VwVmFsdWVzWzFdLCBjb250ZW50ID0gaXQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gTGVnYWN5VXNlclByb2ZpbGUudG9Vc2VyTWFya2Rvd24oKTogU3RyaW5nIHsKICAgICAgICBpZiAoIWhhc1N0cnVjdHVyZWRVc2VyQ29udGVudCgpKSByZXR1cm4gIiIKICAgICAgICByZXR1cm4gYnVpbGRTdHJpbmcgewogICAgICAgICAgICBhcHBlbmRMaW5lKCIjIEFib3V0IG1lIikKICAgICAgICAgICAgYXBwZW5kTGluZSgpCiAgICAgICAgICAgIGFwcGVuZFByb2ZpbGVTZWN0aW9ucyh0aGlzQHRvVXNlck1hcmtkb3duKQogICAgICAgIH0udHJpbUVuZCgpICsgIlxuIgogICAgfQoKICAgIHByaXZhdGUgZnVuIExlZ2FjeVVzZXJQcm9maWxlLmhhc1N0cnVjdHVyZWRVc2VyQ29udGVudCgpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gYmlydGhEYXRlID4gMEwgfHwgZ2VuZGVyLmlzTm90QmxhbmsoKSB8fCBwZXJzb25hbGl0eS5pc05vdEJsYW5rKCkgfHwKICAgICAgICAgICAgaWRlbnRpdHkuaXNOb3RCbGFuaygpIHx8IG9jY3VwYXRpb24uaXNOb3RCbGFuaygpIHx8IGFpU3R5bGUuaXNOb3RCbGFuaygpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gU3RyaW5nQnVpbGRlci5hcHBlbmRQcm9maWxlU2VjdGlvbnMocHJvZmlsZTogTGVnYWN5VXNlclByb2ZpbGUpIHsKICAgICAgICB2YWwgYmFzaWNJdGVtcyA9IGJ1aWxkTGlzdCB7CiAgICAgICAgICAgIGlmIChwcm9maWxlLmdlbmRlci5pc05vdEJsYW5rKCkpIGFkZCgiR2VuZGVyOiAke3Byb2ZpbGUuZ2VuZGVyfSIpCiAgICAgICAgICAgIGlmIChwcm9maWxlLmJpcnRoRGF0ZSA+IDBMKSB7CiAgICAgICAgICAgICAgICB2YWwgZm9ybWF0dGVyID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eS1NTS1kZCIsIExvY2FsZS5ST09UKQogICAgICAgICAgICAgICAgYWRkKCJCaXJ0aCBkYXRlOiAke2Zvcm1hdHRlci5mb3JtYXQoRGF0ZShwcm9maWxlLmJpcnRoRGF0ZSkpfSIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHByb2ZpbGUuaWRlbnRpdHkuaXNOb3RCbGFuaygpKSBhZGQoIklkZW50aXR5OiAke3Byb2ZpbGUuaWRlbnRpdHl9IikKICAgICAgICAgICAgaWYgKHByb2ZpbGUub2NjdXBhdGlvbi5pc05vdEJsYW5rKCkpIGFkZCgiT2NjdXBhdGlvbjogJHtwcm9maWxlLm9jY3VwYXRpb259IikKICAgICAgICB9CiAgICAgICAgaWYgKGJhc2ljSXRlbXMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIGFwcGVuZExpbmUoIiMjIEJhc2ljIGluZm9ybWF0aW9uIikKICAgICAgICAgICAgYXBwZW5kTGluZSgpCiAgICAgICAgICAgIGJhc2ljSXRlbXMuZm9yRWFjaCB7IGFwcGVuZExpbmUoIi0gJGl0IikgfQogICAgICAgIH0KICAgICAgICBpZiAocHJvZmlsZS5wZXJzb25hbGl0eS5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgaWYgKGJhc2ljSXRlbXMuaXNOb3RFbXB0eSgpKSBhcHBlbmRMaW5lKCkKICAgICAgICAgICAgYXBwZW5kTGluZSgiIyMgUGVyc29uYWxpdHkiKQogICAgICAgICAgICBhcHBlbmRMaW5lKCkKICAgICAgICAgICAgYXBwZW5kTGluZShwcm9maWxlLnBlcnNvbmFsaXR5KQogICAgICAgIH0KICAgICAgICBpZiAocHJvZmlsZS5haVN0eWxlLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICBpZiAoYmFzaWNJdGVtcy5pc05vdEVtcHR5KCkgfHwgcHJvZmlsZS5wZXJzb25hbGl0eS5pc05vdEJsYW5rKCkpIGFwcGVuZExpbmUoKQogICAgICAgICAgICBhcHBlbmRMaW5lKCIjIyBQcmVmZXJyZWQgYXNzaXN0YW50IHN0eWxlIikKICAgICAgICAgICAgYXBwZW5kTGluZSgpCiAgICAgICAgICAgIGFwcGVuZExpbmUocHJvZmlsZS5haVN0eWxlKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biB3cml0ZUF0b21pY2FsbHkodGFyZ2V0OiBGaWxlLCBjb250ZW50OiBTdHJpbmcpIHsKICAgICAgICB0YXJnZXQucGFyZW50RmlsZT8ubWtkaXJzKCkKICAgICAgICB2YWwgYXRvbWljRmlsZSA9IEF0b21pY0ZpbGUodGFyZ2V0KQogICAgICAgIHZhciBvdXRwdXQ6IEZpbGVPdXRwdXRTdHJlYW0/ID0gbnVsbAogICAgICAgIHRyeSB7CiAgICAgICAgICAgIG91dHB1dCA9IGF0b21pY0ZpbGUuc3RhcnRXcml0ZSgpCiAgICAgICAgICAgIG91dHB1dC53cml0ZShjb250ZW50LnRvQnl0ZUFycmF5KFN0YW5kYXJkQ2hhcnNldHMuVVRGXzgpKQogICAgICAgICAgICBhdG9taWNGaWxlLmZpbmlzaFdyaXRlKG91dHB1dCkKICAgICAgICB9IGNhdGNoIChlcnJvcjogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIG91dHB1dD8ubGV0KGF0b21pY0ZpbGU6OmZhaWxXcml0ZSkKICAgICAgICAgICAgdGhyb3cgZXJyb3IKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import android.util.AtomicFile
+import com.bslsjdk.operit.data.model.LegacyUserProfile
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+import java.io.FileOutputStream
+import java.nio.charset.StandardCharsets
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+/** Stores the Markdown profile owned by one memory space. */
+class MemorySpaceProfileDocumentRepository private constructor(private val context: Context) {
+    companion object {
+        const val MAX_CONTENT_CHARS = 12_000
+        const val USER_FILE_NAME = "user.md"
+
+        private const val STORAGE_DIRECTORY = "memory-space-profiles"
+        private const val PUBLISHED_GLOBAL_USER_FILE_NAME = "user.md"
+        private const val PUBLISHED_LEGACY_ARCHIVE_FILE_NAME = "legacy-user-profiles.md"
+        private const val MIGRATION_PREFERENCES = "memory_space_profile_documents"
+        private const val SCHEMA_VERSION_KEY = "schema_version"
+        private const val CURRENT_SCHEMA_VERSION = 2
+        private const val TAG = "MemorySpaceProfileDocs"
+
+        @Volatile
+        private var instance: MemorySpaceProfileDocumentRepository? = null
+
+        fun getInstance(context: Context): MemorySpaceProfileDocumentRepository {
+            return instance ?: synchronized(this) {
+                instance
+                    ?: MemorySpaceProfileDocumentRepository(context.applicationContext ?: context).also {
+                        instance = it
+                    }
+            }
+        }
+    }
+
+    private val profileRoot = File(context.filesDir, STORAGE_DIRECTORY)
+    private val publishedGlobalUserFile = File(context.filesDir, PUBLISHED_GLOBAL_USER_FILE_NAME)
+    private val publishedLegacyArchiveFile =
+        File(context.filesDir, PUBLISHED_LEGACY_ARCHIVE_FILE_NAME)
+    private val migrationPreferences =
+        context.getSharedPreferences(MIGRATION_PREFERENCES, Context.MODE_PRIVATE)
+    private val initializationMutex = Mutex()
+    private val writeMutex = Mutex()
+    private var initialized = false
+
+    suspend fun initialize() {
+        initializationMutex.withLock {
+            if (initialized) return
+
+            val schemaVersion = migrationPreferences.getInt(SCHEMA_VERSION_KEY, 0)
+            if (schemaVersion < CURRENT_SCHEMA_VERSION) {
+                migrateReleasedData()
+                check(
+                    migrationPreferences.edit()
+                        .putInt(SCHEMA_VERSION_KEY, CURRENT_SCHEMA_VERSION)
+                        .commit()
+                ) { "Failed to persist memory-space profile document migration version" }
+            }
+
+            profileRoot.mkdirs()
+            initialized = true
+        }
+    }
+
+    suspend fun load(memorySpaceId: String): String {
+        initialize()
+        val file = documentFile(memorySpaceId)
+        if (!file.exists()) {
+            writeMutex.withLock {
+                if (!file.exists()) writeAtomically(file, "")
+            }
+        }
+        return file.readText(StandardCharsets.UTF_8)
+    }
+
+    suspend fun save(memorySpaceId: String, markdown: String) {
+        require(markdown.length <= MAX_CONTENT_CHARS) {
+            "user.md exceeds the $MAX_CONTENT_CHARS character limit"
+        }
+        initialize()
+        writeMutex.withLock {
+            writeAtomically(documentFile(memorySpaceId), markdown)
+        }
+    }
+
+    suspend fun saveAutomatic(memorySpaceId: String, markdown: String): Boolean {
+        initialize()
+        val space = UserPreferencesManager.getInstance(context).getMemorySpaceFlow(memorySpaceId).first()
+        if (!space.profileAutoUpdateEnabled || space.profileAutoUpdateLocked) return false
+        save(memorySpaceId, markdown)
+        return true
+    }
+
+    suspend fun reset(memorySpaceId: String) {
+        save(memorySpaceId, "")
+    }
+
+    suspend fun delete(memorySpaceId: String) {
+        initialize()
+        writeMutex.withLock {
+            documentFile(memorySpaceId).delete()
+            profileDirectory(memorySpaceId).delete()
+        }
+    }
+
+    private suspend fun migrateReleasedData() {
+        val manager = UserPreferencesManager.getInstance(context)
+        // profile_list is the complete +4 source of truth. It can coexist with a default
+        // memory-space record after raw snapshot recovery, so metadata alone cannot identify +5.
+        if (manager.hasLegacyUserProfileMetadata()) {
+            migrateLegacyStructuredProfiles(manager)
+            return
+        }
+        if (manager.hasMemorySpaceMetadata()) {
+            migratePublishedGlobalDocuments(manager)
+            manager.memorySpaceListFlow.first().forEach { ensureDocument(it) }
+            return
+        }
+
+        migrateLegacyStructuredProfiles(manager)
+    }
+
+    private suspend fun migrateLegacyStructuredProfiles(manager: UserPreferencesManager) {
+        val snapshot = manager.readLegacyUserProfiles()
+        snapshot.profiles.forEach { profile ->
+            writeAtomically(
+                documentFile(profile.id),
+                profile.toUserMarkdown()
+            )
+        }
+        manager.migrateLegacyProfilesToMemorySpaces(snapshot)
+    }
+
+    /**
+     * Release +5 retained the former multi-profile payload as one active user.md plus an archive
+     * of the other profiles. The root file has no owner id, and active_memory_space_id may have
+     * changed after +5's migration. The archive preserves +4's profile-list order, so the root
+     * owner is the unique space whose removal leaves an archive-name subsequence.
+     */
+    private suspend fun migratePublishedGlobalDocuments(manager: UserPreferencesManager) {
+        val memorySpaceIds = manager.memorySpaceListFlow.first()
+        val spaces = memorySpaceIds.map { id -> manager.getMemorySpaceFlow(id).first() }
+        val activeDocument =
+            publishedGlobalUserFile
+                .takeIf(File::isFile)
+                ?.readText(StandardCharsets.UTF_8)
+
+        val archiveContent =
+            publishedLegacyArchiveFile
+                .takeIf(File::isFile)
+                ?.readText(StandardCharsets.UTF_8)
+        val archiveDocuments = archiveContent?.let(::parsePublishedArchive).orEmpty()
+        val archiveNames = archiveDocuments.map(ArchivedProfileDocument::name)
+        val rootDocumentCandidates =
+            if (activeDocument.isNullOrBlank()) {
+                emptyList()
+            } else {
+                spaces.filterIndexed { rootIndex, _ ->
+                    archiveNames.isSubsequenceOf(
+                        spaces.filterIndexed { index, _ -> index != rootIndex }.map { it.name }
+                    )
+                }
+            }
+        if (rootDocumentCandidates.size > 1) {
+            AppLogger.w(
+                TAG,
+                "Cannot uniquely determine the owner of the published root user.md; " +
+                    "retaining source files"
+            )
+            return
+        }
+
+        val rootDocumentSpace = rootDocumentCandidates.singleOrNull()
+        val remainingSpaces = spaces.filter { it.id != rootDocumentSpace?.id }.toMutableList()
+        archiveDocuments.forEach { document ->
+            val targetIndex = remainingSpaces.indexOfFirst { it.name == document.name }
+            if (targetIndex == -1) {
+                AppLogger.w(TAG, "No memory space found for archived profile: ${document.name}")
+            } else {
+                val targetSpace = remainingSpaces.removeAt(targetIndex)
+                writeIfDocumentEmpty(targetSpace.id, document.toUserMarkdown())
+            }
+        }
+        if (rootDocumentSpace != null) {
+            writeIfDocumentEmpty(rootDocumentSpace.id, requireNotNull(activeDocument))
+        }
+    }
+
+    private fun List<String>.isSubsequenceOf(values: List<String>): Boolean {
+        var nextValueIndex = 0
+        values.forEach { value ->
+            if (nextValueIndex < size && this[nextValueIndex] == value) {
+                nextValueIndex++
+            }
+        }
+        return nextValueIndex == size
+    }
+
+    private suspend fun ensureDocument(memorySpaceId: String) {
+        val file = documentFile(memorySpaceId)
+        if (!file.exists()) {
+            writeMutex.withLock {
+                if (!file.exists()) writeAtomically(file, "")
+            }
+        }
+    }
+
+    private fun writeIfDocumentEmpty(memorySpaceId: String, markdown: String) {
+        val file = documentFile(memorySpaceId)
+        if (!file.exists() || file.readText(StandardCharsets.UTF_8).isBlank()) {
+            writeAtomically(file, markdown)
+        }
+    }
+
+    private fun profileDirectory(memorySpaceId: String): File {
+        return File(profileRoot, memorySpaceId)
+    }
+
+    private fun documentFile(memorySpaceId: String): File {
+        require(memorySpaceId.isNotBlank()) { "Memory space ID cannot be blank" }
+        return File(profileDirectory(memorySpaceId), USER_FILE_NAME)
+    }
+
+    private data class ArchivedProfileDocument(val name: String, val content: String) {
+        fun toUserMarkdown(): String {
+            return "# About me\n\n${content.trim()}\n"
+        }
+    }
+
+    private fun parsePublishedArchive(archiveContent: String): List<ArchivedProfileDocument> {
+        val sectionNames =
+            setOf("Basic information", "Personality", "Preferred assistant style")
+        val headers =
+            Regex("(?m)^## ([^\\r\\n]+)\\r?$")
+                .findAll(archiveContent)
+                .filter { it.groupValues[1] !in sectionNames }
+                .toList()
+        return headers.mapIndexedNotNull { index, header ->
+            val contentStart = header.range.last + 1
+            val contentEnd = headers.getOrNull(index + 1)?.range?.first ?: archiveContent.length
+            val content = archiveContent.substring(contentStart, contentEnd).trim()
+            content.takeIf(String::isNotBlank)?.let {
+                ArchivedProfileDocument(name = header.groupValues[1], content = it)
+            }
+        }
+    }
+
+    private fun LegacyUserProfile.toUserMarkdown(): String {
+        if (!hasStructuredUserContent()) return ""
+        return buildString {
+            appendLine("# About me")
+            appendLine()
+            appendProfileSections(this@toUserMarkdown)
+        }.trimEnd() + "\n"
+    }
+
+    private fun LegacyUserProfile.hasStructuredUserContent(): Boolean {
+        return birthDate > 0L || gender.isNotBlank() || personality.isNotBlank() ||
+            identity.isNotBlank() || occupation.isNotBlank() || aiStyle.isNotBlank()
+    }
+
+    private fun StringBuilder.appendProfileSections(profile: LegacyUserProfile) {
+        val basicItems = buildList {
+            if (profile.gender.isNotBlank()) add("Gender: ${profile.gender}")
+            if (profile.birthDate > 0L) {
+                val formatter = SimpleDateFormat("yyyy-MM-dd", Locale.ROOT)
+                add("Birth date: ${formatter.format(Date(profile.birthDate))}")
+            }
+            if (profile.identity.isNotBlank()) add("Identity: ${profile.identity}")
+            if (profile.occupation.isNotBlank()) add("Occupation: ${profile.occupation}")
+        }
+        if (basicItems.isNotEmpty()) {
+            appendLine("## Basic information")
+            appendLine()
+            basicItems.forEach { appendLine("- $it") }
+        }
+        if (profile.personality.isNotBlank()) {
+            if (basicItems.isNotEmpty()) appendLine()
+            appendLine("## Personality")
+            appendLine()
+            appendLine(profile.personality)
+        }
+        if (profile.aiStyle.isNotBlank()) {
+            if (basicItems.isNotEmpty() || profile.personality.isNotBlank()) appendLine()
+            appendLine("## Preferred assistant style")
+            appendLine()
+            appendLine(profile.aiStyle)
+        }
+    }
+
+    private fun writeAtomically(target: File, content: String) {
+        target.parentFile?.mkdirs()
+        val atomicFile = AtomicFile(target)
+        var output: FileOutputStream? = null
+        try {
+            output = atomicFile.startWrite()
+            output.write(content.toByteArray(StandardCharsets.UTF_8))
+            atomicFile.finishWrite(output)
+        } catch (error: Throwable) {
+            output?.let(atomicFile::failWrite)
+            throw error
+        }
+    }
+}

@@ -1,1 +1,297 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTW9kZWxDb25maWdEYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUGFyYW1ldGVyU2NoZW1hCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUHJvbXB0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5nZXRNb2RlbEJ5SW5kZXgKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLmdldFZhbGlkTW9kZWxJbmRleAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuTW9kZWxDb25maWdNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdFR1cm4KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmNoYXQuaG9va3MuUHJvbXB0VHVybktpbmQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmNoYXQuaG9va3MudG9Qcm9tcHRUdXJucwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXNzZXRDb3B5VXRpbHMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkNoYXRNYXJrdXBSZWdleAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuSW1hZ2VQb29sTWFuYWdlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuTWVkaWFQb29sTWFuYWdlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNhbmNlbGxhdGlvbkV4Y2VwdGlvbgoKZW51bSBjbGFzcyBNb2RlbENvbm5lY3Rpb25UZXN0VHlwZSB7CiAgICBDSEFULAogICAgVE9PTF9DQUxMLAogICAgSU1BR0UsCiAgICBBVURJTywKICAgIFZJREVPCn0KCmVudW0gY2xhc3MgTW9kZWxDb25uZWN0aW9uVGVzdE91dGNvbWUgewogICAgUEFTU0VELAogICAgVU5WRVJJRklFRCwKICAgIEZBSUxFRAp9CgpkYXRhIGNsYXNzIE1vZGVsQ29ubmVjdGlvblRlc3RJdGVtKAogICAgdmFsIHR5cGU6IE1vZGVsQ29ubmVjdGlvblRlc3RUeXBlLAogICAgdmFsIG91dGNvbWU6IE1vZGVsQ29ubmVjdGlvblRlc3RPdXRjb21lLAogICAgdmFsIGVycm9yOiBTdHJpbmc/ID0gbnVsbAopIHsKICAgIHZhbCBzdWNjZXNzOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSBvdXRjb21lID09IE1vZGVsQ29ubmVjdGlvblRlc3RPdXRjb21lLlBBU1NFRAp9CgpkYXRhIGNsYXNzIE1vZGVsQ29ubmVjdGlvblRlc3RSZXBvcnQoCiAgICB2YWwgY29uZmlnSWQ6IFN0cmluZywKICAgIHZhbCBjb25maWdOYW1lOiBTdHJpbmcsCiAgICB2YWwgcHJvdmlkZXJUeXBlOiBTdHJpbmcsCiAgICB2YWwgcmVxdWVzdGVkTW9kZWxJbmRleDogSW50LAogICAgdmFsIGFjdHVhbE1vZGVsSW5kZXg6IEludCwKICAgIHZhbCB0ZXN0ZWRNb2RlbE5hbWU6IFN0cmluZywKICAgIHZhbCBpdGVtczogTGlzdDxNb2RlbENvbm5lY3Rpb25UZXN0SXRlbT4KKSB7CiAgICB2YWwgc3VjY2VzczogQm9vbGVhbgogICAgICAgIGdldCgpID0gaXRlbXMubm9uZSB7IGl0Lm91dGNvbWUgPT0gTW9kZWxDb25uZWN0aW9uVGVzdE91dGNvbWUuRkFJTEVEIH0KCiAgICB2YWwgdmVyaWZpZWQ6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IGl0ZW1zLmlzTm90RW1wdHkoKSAmJiBpdGVtcy5hbGwgeyBpdC5vdXRjb21lID09IE1vZGVsQ29ubmVjdGlvblRlc3RPdXRjb21lLlBBU1NFRCB9Cn0KCm9iamVjdCBNb2RlbENvbmZpZ0Nvbm5lY3Rpb25UZXN0ZXIgewogICAgLyoqCiAgICAgKiBPbmUgY29tcGxldGUgdG9vbC1jYWxsIHJvdW5kIHRyaXAgZm9yIHRoZSBUb29sIENhbGwgcHJvYmU6IHRoZSB1c2VyIGFza3MsIHRoZSBhc3Npc3RhbnQgY2FsbHMKICAgICAqIHRoZSB0b29sLCB0aGUgdG9vbCBhbnN3ZXJzLgogICAgICoKICAgICAqIFRoZSB0dXJuIGtpbmRzIG1hdHRlci4gVGhlIGFuc3dlciBoYXMgdG8gYmUgYSBbUHJvbXB0VHVybktpbmQuVE9PTF9SRVNVTFRdIHR1cm4gc28gdGhhdCB0aGUKICAgICAqIHByb3ZpZGVyIHBhaXJzIGl0IHdpdGggdGhlIGNhbGwgaW5zdGVhZCBvZiByZXBvcnRpbmcgdGhlIGNhbGwgYXMgbmV2ZXIgYW5zd2VyZWQsIGFuZCB0aGUKICAgICAqIHByb2JlIGhhcyB0byBvcGVuIHdpdGggYSB1c2VyIHR1cm4gYmVjYXVzZSBnYXRld2F5cyB0aGF0IHRyYW5zbGF0ZSB0aGUgT3BlbkFJIHBheWxvYWQgaW50bwogICAgICogYW5vdGhlciBwcm90b2NvbCAoUG9lIG9udG8gQW50aHJvcGljLCBmb3IgaW5zdGFuY2UpIHJlamVjdCBhIGNvbnZlcnNhdGlvbiB0aGF0IHN0YXJ0cyB3aXRoIGFuCiAgICAgKiBhc3Npc3RhbnQgbWVzc2FnZSBhbmQgbGVhdmUgaXRzIGB0b29sX3Jlc3VsdGAgd2l0aG91dCBhIG1hdGNoaW5nIGB0b29sX3VzZWAuCiAgICAgKi8KICAgIGludGVybmFsIGZ1biBidWlsZFRvb2xDYWxsUHJvYmVIaXN0b3J5KHRvb2xOYW1lOiBTdHJpbmcpOiBMaXN0PFByb21wdFR1cm4+IHsKICAgICAgICB2YWwgdG9vbFRhZ05hbWUgPSBDaGF0TWFya3VwUmVnZXguZ2VuZXJhdGVSYW5kb21Ub29sVGFnTmFtZSgpCiAgICAgICAgdmFsIHRvb2xSZXN1bHRUYWdOYW1lID0gQ2hhdE1hcmt1cFJlZ2V4LmdlbmVyYXRlUmFuZG9tVG9vbFJlc3VsdFRhZ05hbWUoKQogICAgICAgIHJldHVybiBsaXN0T2YoCiAgICAgICAgICAgICJzeXN0ZW0iIHRvICJZb3UgYXJlIGEgaGVscGZ1bCBhc3Npc3RhbnQuIiwKICAgICAgICAgICAgInVzZXIiIHRvICJDYWxsIHRoZSAkdG9vbE5hbWUgdG9vbCB3aXRoIHRoZSB0ZXh0IFwicGluZ1wiLiIsCiAgICAgICAgICAgICJhc3Npc3RhbnQiIHRvCiAgICAgICAgICAgICAgICAiPCR0b29sVGFnTmFtZSBuYW1lPVwiJHRvb2xOYW1lXCI+PHBhcmFtIG5hbWU9XCJ0ZXh0XCI+cGluZzwvcGFyYW0+PC8kdG9vbFRhZ05hbWU+IiwKICAgICAgICAgICAgInRvb2xfcmVzdWx0IiB0bwogICAgICAgICAgICAgICAgIjwkdG9vbFJlc3VsdFRhZ05hbWUgbmFtZT1cIiR0b29sTmFtZVwiIHN0YXR1cz1cInN1Y2Nlc3NcIj48Y29udGVudD5wb25nPC9jb250ZW50PjwvJHRvb2xSZXN1bHRUYWdOYW1lPiIKICAgICAgICApLnRvUHJvbXB0VHVybnMoKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHJ1bigKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIG1vZGVsQ29uZmlnTWFuYWdlcjogTW9kZWxDb25maWdNYW5hZ2VyLAogICAgICAgIGNvbmZpZzogTW9kZWxDb25maWdEYXRhLAogICAgICAgIHJlcXVlc3RlZE1vZGVsSW5kZXg6IEludCA9IDAsCiAgICAgICAgb25BY3RpdmVTZXJ2aWNlQ2hhbmdlZDogKEFJU2VydmljZT8pIC0+IFVuaXQgPSB7fQogICAgKTogTW9kZWxDb25uZWN0aW9uVGVzdFJlcG9ydCB7CiAgICAgICAgdmFsIGFjdHVhbE1vZGVsSW5kZXggPSBnZXRWYWxpZE1vZGVsSW5kZXgoY29uZmlnLm1vZGVsTmFtZSwgcmVxdWVzdGVkTW9kZWxJbmRleCkKICAgICAgICB2YWwgdGVzdGVkTW9kZWxOYW1lID0gZ2V0TW9kZWxCeUluZGV4KGNvbmZpZy5tb2RlbE5hbWUsIGFjdHVhbE1vZGVsSW5kZXgpCiAgICAgICAgdmFsIGNvbmZpZ0ZvclRlc3QgPSBjb25maWcuY29weShtb2RlbE5hbWUgPSB0ZXN0ZWRNb2RlbE5hbWUpCiAgICAgICAgdmFsIGl0ZW1zID0gbXV0YWJsZUxpc3RPZjxNb2RlbENvbm5lY3Rpb25UZXN0SXRlbT4oKQoKICAgICAgICB2YWwgc2VydmljZSA9CiAgICAgICAgICAgIEFJU2VydmljZUZhY3RvcnkuY3JlYXRlU2VydmljZSgKICAgICAgICAgICAgICAgIGNvbmZpZyA9IGNvbmZpZ0ZvclRlc3QsCiAgICAgICAgICAgICAgICBtb2RlbENvbmZpZ01hbmFnZXIgPSBtb2RlbENvbmZpZ01hbmFnZXIsCiAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dAogICAgICAgICAgICApCiAgICAgICAgb25BY3RpdmVTZXJ2aWNlQ2hhbmdlZChzZXJ2aWNlKQoKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgcGFyYW1ldGVycyA9IG1vZGVsQ29uZmlnTWFuYWdlci5nZXRNb2RlbFBhcmFtZXRlcnNGb3JDb25maWcoY29uZmlnRm9yVGVzdC5pZCkKCiAgICAgICAgICAgIHN1c3BlbmQgZnVuIGNvbGxlY3RSZXNwb25zZShoaXN0b3J5OiBMaXN0PFByb21wdFR1cm4+KTogU3RyaW5nIHsKICAgICAgICAgICAgICAgIHZhbCBidWZmZXIgPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICAgICAgICAgIHNlcnZpY2Uuc2VuZE1lc3NhZ2UoCiAgICAgICAgICAgICAgICAgICAgY29udGV4dCwKICAgICAgICAgICAgICAgICAgICBoaXN0b3J5LAogICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMsCiAgICAgICAgICAgICAgICAgICAgc3RyZWFtID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlUmV0cnkgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICByZWNvcmRUb2tlblVzYWdlID0gZmFsc2UsCiAgICAgICAgICAgICAgICApLmNvbGxlY3QgeyBjaHVuayAtPiBidWZmZXIuYXBwZW5kKGNodW5rKSB9CiAgICAgICAgICAgICAgICByZXR1cm4gYnVmZmVyLnRvU3RyaW5nKCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgc3VzcGVuZCBmdW4gcnVuQ2FzZSgKICAgICAgICAgICAgICAgIHR5cGU6IE1vZGVsQ29ubmVjdGlvblRlc3RUeXBlLAogICAgICAgICAgICAgICAgYmxvY2s6IHN1c3BlbmQgKCkgLT4gTW9kZWxDb25uZWN0aW9uVGVzdE91dGNvbWUKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICB2YWwgaXRlbSA9CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgTW9kZWxDb25uZWN0aW9uVGVzdEl0ZW0odHlwZSA9IHR5cGUsIG91dGNvbWUgPSBibG9jaygpKQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IENhbmNlbGxhdGlvbkV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE1vZGVsQ29ubmVjdGlvblRlc3RJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZSA9IHR5cGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdXRjb21lID0gTW9kZWxDb25uZWN0aW9uVGVzdE91dGNvbWUuRkFJTEVELAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSBlLm1lc3NhZ2UKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGl0ZW1zLmFkZChpdGVtKQogICAgICAgICAgICB9CgogICAgICAgICAgICBydW5DYXNlKE1vZGVsQ29ubmVjdGlvblRlc3RUeXBlLkNIQVQpIHsKICAgICAgICAgICAgICAgIGNvbGxlY3RSZXNwb25zZShsaXN0T2YoUHJvbXB0VHVybihraW5kID0gUHJvbXB0VHVybktpbmQuVVNFUiwgY29udGVudCA9ICJIaSIpKSkKICAgICAgICAgICAgICAgIE1vZGVsQ29ubmVjdGlvblRlc3RPdXRjb21lLlBBU1NFRAogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoY29uZmlnRm9yVGVzdC5lbmFibGVUb29sQ2FsbCkgewogICAgICAgICAgICAgICAgcnVuQ2FzZShNb2RlbENvbm5lY3Rpb25UZXN0VHlwZS5UT09MX0NBTEwpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgYXZhaWxhYmxlVG9vbHMgPQogICAgICAgICAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb29sUHJvbXB0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWUgPSAiZWNobyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSAiRWNob2VzIHRoZSBwcm92aWRlZCB0ZXh0LiIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1ldGVyc1N0cnVjdHVyZWQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb29sUGFyYW1ldGVyU2NoZW1hKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWUgPSAidGV4dCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZSA9ICJzdHJpbmciLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gIlRleHQgdG8gZWNoby4iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVpcmVkID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICAgICAgc3VzcGVuZCBmdW4gcnVuVG9vbENhbGxUZXN0KHRvb2xOYW1lOiBTdHJpbmcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2VydmljZS5zZW5kTWVzc2FnZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBidWlsZFRvb2xDYWxsUHJvYmVIaXN0b3J5KHRvb2xOYW1lKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtZXRlcnMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJlYW0gPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF2YWlsYWJsZVRvb2xzID0gYXZhaWxhYmxlVG9vbHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbmFibGVSZXRyeSA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVjb3JkVG9rZW5Vc2FnZSA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICApLmNvbGxlY3QgeyB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJ1blRvb2xDYWxsVGVzdCgiZWNobyIpCiAgICAgICAgICAgICAgICAgICAgTW9kZWxDb25uZWN0aW9uVGVzdE91dGNvbWUuUEFTU0VECiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChjb25maWdGb3JUZXN0LmVuYWJsZURpcmVjdEltYWdlUHJvY2Vzc2luZykgewogICAgICAgICAgICAgICAgcnVuQ2FzZShNb2RlbENvbm5lY3Rpb25UZXN0VHlwZS5JTUFHRSkgewogICAgICAgICAgICAgICAgICAgIHZhbCBpbWFnZUZpbGUgPQogICAgICAgICAgICAgICAgICAgICAgICBBc3NldENvcHlVdGlscy5jb3B5QXNzZXRUb0NhY2hlKGNvbnRleHQsIE1lZGlhQ2FwYWJpbGl0eVByb2JlLklNQUdFX0FTU0VUX1BBVEgpCiAgICAgICAgICAgICAgICAgICAgdmFsIGltYWdlSWQgPSBJbWFnZVBvb2xNYW5hZ2VyLmFkZEltYWdlKGltYWdlRmlsZS5hYnNvbHV0ZVBhdGgpCiAgICAgICAgICAgICAgICAgICAgaWYgKGltYWdlSWQgPT0gImVycm9yIikgewogICAgICAgICAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkZhaWxlZCB0byBjcmVhdGUgdGVzdCBpbWFnZSIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBwcm9tcHQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZChNZWRpYUxpbmtCdWlsZGVyLmltYWdlKGNvbnRleHQsIGltYWdlSWQpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZCgiXG4iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZChNZWRpYUNhcGFiaWxpdHlQcm9iZS5JTUFHRV9QUk9NUFQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByZXNwb25zZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xsZWN0UmVzcG9uc2UoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGlzdE9mKFByb21wdFR1cm4oa2luZCA9IFByb21wdFR1cm5LaW5kLlVTRVIsIGNvbnRlbnQgPSBwcm9tcHQpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc0ltYWdlKHJlc3BvbnNlKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgTW9kZWxDb25uZWN0aW9uVGVzdE91dGNvbWUuUEFTU0VECiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBNb2RlbENvbm5lY3Rpb25UZXN0T3V0Y29tZS5VTlZFUklGSUVECiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgICAgICAgICBJbWFnZVBvb2xNYW5hZ2VyLnJlbW92ZUltYWdlKGltYWdlSWQpCiAgICAgICAgICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgaW1hZ2VGaWxlLmRlbGV0ZSgpIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChjb25maWdGb3JUZXN0LmVuYWJsZURpcmVjdEF1ZGlvUHJvY2Vzc2luZykgewogICAgICAgICAgICAgICAgcnVuQ2FzZShNb2RlbENvbm5lY3Rpb25UZXN0VHlwZS5BVURJTykgewogICAgICAgICAgICAgICAgICAgIHZhbCBhdWRpb0ZpbGUgPQogICAgICAgICAgICAgICAgICAgICAgICBBc3NldENvcHlVdGlscy5jb3B5QXNzZXRUb0NhY2hlKGNvbnRleHQsIE1lZGlhQ2FwYWJpbGl0eVByb2JlLkFVRElPX0FTU0VUX1BBVEgpCiAgICAgICAgICAgICAgICAgICAgdmFsIGF1ZGlvSWQgPSBNZWRpYVBvb2xNYW5hZ2VyLmFkZE1lZGlhKGF1ZGlvRmlsZS5hYnNvbHV0ZVBhdGgsICJhdWRpby9tcGVnIikKICAgICAgICAgICAgICAgICAgICBpZiAoYXVkaW9JZCA9PSAiZXJyb3IiKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiRmFpbGVkIHRvIGNyZWF0ZSB0ZXN0IGF1ZGlvIikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHByb21wdCA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBidWlsZFN0cmluZyB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kKE1lZGlhTGlua0J1aWxkZXIuYXVkaW8oY29udGV4dCwgYXVkaW9JZCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCJcbiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kKE1lZGlhQ2FwYWJpbGl0eVByb2JlLkFVRElPX1BST01QVCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3BvbnNlID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbGxlY3RSZXNwb25zZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsaXN0T2YoUHJvbXB0VHVybihraW5kID0gUHJvbXB0VHVybktpbmQuVVNFUiwgY29udGVudCA9IHByb21wdCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChNZWRpYUNhcGFiaWxpdHlQcm9iZS5tYXRjaGVzQXVkaW8ocmVzcG9uc2UpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBNb2RlbENvbm5lY3Rpb25UZXN0T3V0Y29tZS5QQVNTRUQKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1vZGVsQ29ubmVjdGlvblRlc3RPdXRjb21lLlVOVkVSSUZJRUQKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE1lZGlhUG9vbE1hbmFnZXIucmVtb3ZlTWVkaWEoYXVkaW9JZCkKICAgICAgICAgICAgICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBhdWRpb0ZpbGUuZGVsZXRlKCkgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKGNvbmZpZ0ZvclRlc3QuZW5hYmxlRGlyZWN0VmlkZW9Qcm9jZXNzaW5nKSB7CiAgICAgICAgICAgICAgICBydW5DYXNlKE1vZGVsQ29ubmVjdGlvblRlc3RUeXBlLlZJREVPKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHZpZGVvRmlsZSA9CiAgICAgICAgICAgICAgICAgICAgICAgIEFzc2V0Q29weVV0aWxzLmNvcHlBc3NldFRvQ2FjaGUoY29udGV4dCwgTWVkaWFDYXBhYmlsaXR5UHJvYmUuVklERU9fQVNTRVRfUEFUSCkKICAgICAgICAgICAgICAgICAgICB2YWwgdmlkZW9JZCA9IE1lZGlhUG9vbE1hbmFnZXIuYWRkTWVkaWEodmlkZW9GaWxlLmFic29sdXRlUGF0aCwgInZpZGVvL21wNCIpCiAgICAgICAgICAgICAgICAgICAgaWYgKHZpZGVvSWQgPT0gImVycm9yIikgewogICAgICAgICAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkZhaWxlZCB0byBjcmVhdGUgdGVzdCB2aWRlbyIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBwcm9tcHQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZChNZWRpYUxpbmtCdWlsZGVyLnZpZGVvKGNvbnRleHQsIHZpZGVvSWQpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZCgiXG4iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZChNZWRpYUNhcGFiaWxpdHlQcm9iZS5WSURFT19QUk9NUFQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByZXNwb25zZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xsZWN0UmVzcG9uc2UoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGlzdE9mKFByb21wdFR1cm4oa2luZCA9IFByb21wdFR1cm5LaW5kLlVTRVIsIGNvbnRlbnQgPSBwcm9tcHQpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc1ZpZGVvKHJlc3BvbnNlKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgTW9kZWxDb25uZWN0aW9uVGVzdE91dGNvbWUuUEFTU0VECiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBNb2RlbENvbm5lY3Rpb25UZXN0T3V0Y29tZS5VTlZFUklGSUVECiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgICAgICAgICBNZWRpYVBvb2xNYW5hZ2VyLnJlbW92ZU1lZGlhKHZpZGVvSWQpCiAgICAgICAgICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgdmlkZW9GaWxlLmRlbGV0ZSgpIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBzZXJ2aWNlLmNhbmNlbFN0cmVhbWluZygpIH0KICAgICAgICAgICAgdGhyb3cgZQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBpZiAoaXRlbXMubm9uZSB7IGl0LnR5cGUgPT0gTW9kZWxDb25uZWN0aW9uVGVzdFR5cGUuQ0hBVCB9KSB7CiAgICAgICAgICAgICAgICBpdGVtcy5hZGQoCiAgICAgICAgICAgICAgICAgICAgTW9kZWxDb25uZWN0aW9uVGVzdEl0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGUgPSBNb2RlbENvbm5lY3Rpb25UZXN0VHlwZS5DSEFULAogICAgICAgICAgICAgICAgICAgICAgICBvdXRjb21lID0gTW9kZWxDb25uZWN0aW9uVGVzdE91dGNvbWUuRkFJTEVELAogICAgICAgICAgICAgICAgICAgICAgICBlcnJvciA9IGUubWVzc2FnZSA/OiAiVW5rbm93biBlcnJvciIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBvbkFjdGl2ZVNlcnZpY2VDaGFuZ2VkKG51bGwpCiAgICAgICAgICAgIHNlcnZpY2UucmVsZWFzZSgpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gTW9kZWxDb25uZWN0aW9uVGVzdFJlcG9ydCgKICAgICAgICAgICAgY29uZmlnSWQgPSBjb25maWdGb3JUZXN0LmlkLAogICAgICAgICAgICBjb25maWdOYW1lID0gY29uZmlnRm9yVGVzdC5uYW1lLAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBjb25maWdGb3JUZXN0LmFwaVByb3ZpZGVyVHlwZUlkLAogICAgICAgICAgICByZXF1ZXN0ZWRNb2RlbEluZGV4ID0gcmVxdWVzdGVkTW9kZWxJbmRleCwKICAgICAgICAgICAgYWN0dWFsTW9kZWxJbmRleCA9IGFjdHVhbE1vZGVsSW5kZXgsCiAgICAgICAgICAgIHRlc3RlZE1vZGVsTmFtZSA9IHRlc3RlZE1vZGVsTmFtZSwKICAgICAgICAgICAgaXRlbXMgPSBpdGVtcwogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.data.model.ModelConfigData
+import com.bslsjdk.operit.data.model.ToolParameterSchema
+import com.bslsjdk.operit.data.model.ToolPrompt
+import com.bslsjdk.operit.data.model.getModelByIndex
+import com.bslsjdk.operit.data.model.getValidModelIndex
+import com.bslsjdk.operit.data.preferences.ModelConfigManager
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.core.chat.hooks.PromptTurnKind
+import com.bslsjdk.operit.core.chat.hooks.toPromptTurns
+import com.bslsjdk.operit.util.AssetCopyUtils
+import com.bslsjdk.operit.util.ChatMarkupRegex
+import com.bslsjdk.operit.util.ImagePoolManager
+import com.bslsjdk.operit.util.MediaPoolManager
+import kotlinx.coroutines.CancellationException
+
+enum class ModelConnectionTestType {
+    CHAT,
+    TOOL_CALL,
+    IMAGE,
+    AUDIO,
+    VIDEO
+}
+
+enum class ModelConnectionTestOutcome {
+    PASSED,
+    UNVERIFIED,
+    FAILED
+}
+
+data class ModelConnectionTestItem(
+    val type: ModelConnectionTestType,
+    val outcome: ModelConnectionTestOutcome,
+    val error: String? = null
+) {
+    val success: Boolean
+        get() = outcome == ModelConnectionTestOutcome.PASSED
+}
+
+data class ModelConnectionTestReport(
+    val configId: String,
+    val configName: String,
+    val providerType: String,
+    val requestedModelIndex: Int,
+    val actualModelIndex: Int,
+    val testedModelName: String,
+    val items: List<ModelConnectionTestItem>
+) {
+    val success: Boolean
+        get() = items.none { it.outcome == ModelConnectionTestOutcome.FAILED }
+
+    val verified: Boolean
+        get() = items.isNotEmpty() && items.all { it.outcome == ModelConnectionTestOutcome.PASSED }
+}
+
+object ModelConfigConnectionTester {
+    /**
+     * One complete tool-call round trip for the Tool Call probe: the user asks, the assistant calls
+     * the tool, the tool answers.
+     *
+     * The turn kinds matter. The answer has to be a [PromptTurnKind.TOOL_RESULT] turn so that the
+     * provider pairs it with the call instead of reporting the call as never answered, and the
+     * probe has to open with a user turn because gateways that translate the OpenAI payload into
+     * another protocol (Poe onto Anthropic, for instance) reject a conversation that starts with an
+     * assistant message and leave its `tool_result` without a matching `tool_use`.
+     */
+    internal fun buildToolCallProbeHistory(toolName: String): List<PromptTurn> {
+        val toolTagName = ChatMarkupRegex.generateRandomToolTagName()
+        val toolResultTagName = ChatMarkupRegex.generateRandomToolResultTagName()
+        return listOf(
+            "system" to "You are a helpful assistant.",
+            "user" to "Call the $toolName tool with the text \"ping\".",
+            "assistant" to
+                "<$toolTagName name=\"$toolName\"><param name=\"text\">ping</param></$toolTagName>",
+            "tool_result" to
+                "<$toolResultTagName name=\"$toolName\" status=\"success\"><content>pong</content></$toolResultTagName>"
+        ).toPromptTurns()
+    }
+
+    suspend fun run(
+        context: Context,
+        modelConfigManager: ModelConfigManager,
+        config: ModelConfigData,
+        requestedModelIndex: Int = 0,
+        onActiveServiceChanged: (AIService?) -> Unit = {}
+    ): ModelConnectionTestReport {
+        val actualModelIndex = getValidModelIndex(config.modelName, requestedModelIndex)
+        val testedModelName = getModelByIndex(config.modelName, actualModelIndex)
+        val configForTest = config.copy(modelName = testedModelName)
+        val items = mutableListOf<ModelConnectionTestItem>()
+
+        val service =
+            AIServiceFactory.createService(
+                config = configForTest,
+                modelConfigManager = modelConfigManager,
+                context = context
+            )
+        onActiveServiceChanged(service)
+
+        try {
+            val parameters = modelConfigManager.getModelParametersForConfig(configForTest.id)
+
+            suspend fun collectResponse(history: List<PromptTurn>): String {
+                val buffer = StringBuilder()
+                service.sendMessage(
+                    context,
+                    history,
+                    parameters,
+                    stream = false,
+                    enableRetry = false,
+                    recordTokenUsage = false,
+                ).collect { chunk -> buffer.append(chunk) }
+                return buffer.toString()
+            }
+
+            suspend fun runCase(
+                type: ModelConnectionTestType,
+                block: suspend () -> ModelConnectionTestOutcome
+            ) {
+                val item =
+                    try {
+                        ModelConnectionTestItem(type = type, outcome = block())
+                    } catch (e: CancellationException) {
+                        throw e
+                    } catch (e: Exception) {
+                        ModelConnectionTestItem(
+                            type = type,
+                            outcome = ModelConnectionTestOutcome.FAILED,
+                            error = e.message
+                        )
+                    }
+                items.add(item)
+            }
+
+            runCase(ModelConnectionTestType.CHAT) {
+                collectResponse(listOf(PromptTurn(kind = PromptTurnKind.USER, content = "Hi")))
+                ModelConnectionTestOutcome.PASSED
+            }
+
+            if (configForTest.enableToolCall) {
+                runCase(ModelConnectionTestType.TOOL_CALL) {
+                    val availableTools =
+                        listOf(
+                            ToolPrompt(
+                                name = "echo",
+                                description = "Echoes the provided text.",
+                                parametersStructured =
+                                    listOf(
+                                        ToolParameterSchema(
+                                            name = "text",
+                                            type = "string",
+                                            description = "Text to echo.",
+                                            required = true
+                                        )
+                                    )
+                            )
+                        )
+
+                    suspend fun runToolCallTest(toolName: String) {
+                        service.sendMessage(
+                            context,
+                            buildToolCallProbeHistory(toolName),
+                            parameters,
+                            stream = false,
+                            availableTools = availableTools,
+                            enableRetry = false,
+                            recordTokenUsage = false,
+                        ).collect { }
+                    }
+                    runToolCallTest("echo")
+                    ModelConnectionTestOutcome.PASSED
+                }
+            }
+
+            if (configForTest.enableDirectImageProcessing) {
+                runCase(ModelConnectionTestType.IMAGE) {
+                    val imageFile =
+                        AssetCopyUtils.copyAssetToCache(context, MediaCapabilityProbe.IMAGE_ASSET_PATH)
+                    val imageId = ImagePoolManager.addImage(imageFile.absolutePath)
+                    if (imageId == "error") {
+                        throw IllegalStateException("Failed to create test image")
+                    }
+                    try {
+                        val prompt =
+                            buildString {
+                                append(MediaLinkBuilder.image(context, imageId))
+                                append("\n")
+                                append(MediaCapabilityProbe.IMAGE_PROMPT)
+                            }
+                        val response =
+                            collectResponse(
+                                listOf(PromptTurn(kind = PromptTurnKind.USER, content = prompt))
+                            )
+                        if (MediaCapabilityProbe.matchesImage(response)) {
+                            ModelConnectionTestOutcome.PASSED
+                        } else {
+                            ModelConnectionTestOutcome.UNVERIFIED
+                        }
+                    } finally {
+                        ImagePoolManager.removeImage(imageId)
+                        runCatching { imageFile.delete() }
+                    }
+                }
+            }
+
+            if (configForTest.enableDirectAudioProcessing) {
+                runCase(ModelConnectionTestType.AUDIO) {
+                    val audioFile =
+                        AssetCopyUtils.copyAssetToCache(context, MediaCapabilityProbe.AUDIO_ASSET_PATH)
+                    val audioId = MediaPoolManager.addMedia(audioFile.absolutePath, "audio/mpeg")
+                    if (audioId == "error") {
+                        throw IllegalStateException("Failed to create test audio")
+                    }
+                    try {
+                        val prompt =
+                            buildString {
+                                append(MediaLinkBuilder.audio(context, audioId))
+                                append("\n")
+                                append(MediaCapabilityProbe.AUDIO_PROMPT)
+                            }
+                        val response =
+                            collectResponse(
+                                listOf(PromptTurn(kind = PromptTurnKind.USER, content = prompt))
+                            )
+                        if (MediaCapabilityProbe.matchesAudio(response)) {
+                            ModelConnectionTestOutcome.PASSED
+                        } else {
+                            ModelConnectionTestOutcome.UNVERIFIED
+                        }
+                    } finally {
+                        MediaPoolManager.removeMedia(audioId)
+                        runCatching { audioFile.delete() }
+                    }
+                }
+            }
+
+            if (configForTest.enableDirectVideoProcessing) {
+                runCase(ModelConnectionTestType.VIDEO) {
+                    val videoFile =
+                        AssetCopyUtils.copyAssetToCache(context, MediaCapabilityProbe.VIDEO_ASSET_PATH)
+                    val videoId = MediaPoolManager.addMedia(videoFile.absolutePath, "video/mp4")
+                    if (videoId == "error") {
+                        throw IllegalStateException("Failed to create test video")
+                    }
+                    try {
+                        val prompt =
+                            buildString {
+                                append(MediaLinkBuilder.video(context, videoId))
+                                append("\n")
+                                append(MediaCapabilityProbe.VIDEO_PROMPT)
+                            }
+                        val response =
+                            collectResponse(
+                                listOf(PromptTurn(kind = PromptTurnKind.USER, content = prompt))
+                            )
+                        if (MediaCapabilityProbe.matchesVideo(response)) {
+                            ModelConnectionTestOutcome.PASSED
+                        } else {
+                            ModelConnectionTestOutcome.UNVERIFIED
+                        }
+                    } finally {
+                        MediaPoolManager.removeMedia(videoId)
+                        runCatching { videoFile.delete() }
+                    }
+                }
+            }
+        } catch (e: CancellationException) {
+            runCatching { service.cancelStreaming() }
+            throw e
+        } catch (e: Exception) {
+            if (items.none { it.type == ModelConnectionTestType.CHAT }) {
+                items.add(
+                    ModelConnectionTestItem(
+                        type = ModelConnectionTestType.CHAT,
+                        outcome = ModelConnectionTestOutcome.FAILED,
+                        error = e.message ?: "Unknown error"
+                    )
+                )
+            }
+        } finally {
+            onActiveServiceChanged(null)
+            service.release()
+        }
+
+        return ModelConnectionTestReport(
+            configId = configForTest.id,
+            configName = configForTest.name,
+            providerType = configForTest.apiProviderTypeId,
+            requestedModelIndex = requestedModelIndex,
+            actualModelIndex = actualModelIndex,
+            testedModelName = testedModelName,
+            items = items
+        )
+    }
+}

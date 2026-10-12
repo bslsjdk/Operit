@@ -1,1 +1,473 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS53b3JrZmxvdwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWR4LndvcmsuKgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVHJpZ2dlck5vZGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLldvcmtmbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQKaW1wb3J0IGphdmEudXRpbC4qCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdAoKLyoqCiAqIFdvcmtmbG93U2NoZWR1bGVyIG1hbmFnZXMgc2NoZWR1bGluZyB3b3JrZmxvd3MgdXNpbmcgV29ya01hbmFnZXIKICogCiAqIFN1cHBvcnRzIHRocmVlIHNjaGVkdWxpbmcgdHlwZXM6CiAqIC0gaW50ZXJ2YWw6IEZpeGVkIGludGVydmFsIGV4ZWN1dGlvbiAoZS5nLiwgZXZlcnkgMTUgbWludXRlcykKICogLSBzcGVjaWZpY190aW1lOiBPbmUtdGltZSBleGVjdXRpb24gYXQgYSBzcGVjaWZpYyB0aW1lCiAqIC0gY3JvbjogQ3Jvbi1iYXNlZCBzY2hlZHVsaW5nIChzaW1wbGlmaWVkIGltcGxlbWVudGF0aW9uKQogKi8KY2xhc3MgV29ya2Zsb3dTY2hlZHVsZXIocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJXb3JrZmxvd1NjaGVkdWxlciIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBXT1JLX05BTUVfUFJFRklYID0gIndvcmtmbG93XyIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVRSWV9CQUNLT0ZGX0RFTEFZX01JTlVURVMgPSAxTAogICAgICAgIAogICAgICAgIC8vIFNjaGVkdWxlIHR5cGVzCiAgICAgICAgY29uc3QgdmFsIFNDSEVEVUxFX1RZUEVfSU5URVJWQUwgPSAiaW50ZXJ2YWwiCiAgICAgICAgY29uc3QgdmFsIFNDSEVEVUxFX1RZUEVfU1BFQ0lGSUNfVElNRSA9ICJzcGVjaWZpY190aW1lIgogICAgICAgIGNvbnN0IHZhbCBTQ0hFRFVMRV9UWVBFX0NST04gPSAiY3JvbiIKICAgICAgICAKICAgICAgICAvLyBDb25maWcga2V5cwogICAgICAgIGNvbnN0IHZhbCBDT05GSUdfU0NIRURVTEVfVFlQRSA9ICJzY2hlZHVsZV90eXBlIgogICAgICAgIGNvbnN0IHZhbCBDT05GSUdfSU5URVJWQUxfTVMgPSAiaW50ZXJ2YWxfbXMiCiAgICAgICAgY29uc3QgdmFsIENPTkZJR19TUEVDSUZJQ19USU1FID0gInNwZWNpZmljX3RpbWUiCiAgICAgICAgY29uc3QgdmFsIENPTkZJR19DUk9OX0VYUFJFU1NJT04gPSAiY3Jvbl9leHByZXNzaW9uIgogICAgICAgIGNvbnN0IHZhbCBDT05GSUdfUkVQRUFUID0gInJlcGVhdCIKICAgICAgICBjb25zdCB2YWwgQ09ORklHX0VORF9USU1FID0gImVuZF90aW1lIgogICAgICAgIGNvbnN0IHZhbCBDT05GSUdfRU5BQkxFRCA9ICJlbmFibGVkIgogICAgICAgIAogICAgICAgIC8vIFdvcmtNYW5hZ2VyIGRhdGEga2V5cwogICAgICAgIGNvbnN0IHZhbCBLRVlfVFJJR0dFUl9OT0RFX0lEID0gInRyaWdnZXJfbm9kZV9pZCIKICAgIH0KCiAgICBwcml2YXRlIHZhbCB3b3JrTWFuYWdlcjogV29ya01hbmFnZXIgYnkgbGF6eSB7IAogICAgICAgIFdvcmtNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KQogICAgfQoKICAgIC8qKgogICAgICogU2NoZWR1bGUgYSB3b3JrZmxvdyBiYXNlZCBvbiBpdHMgdHJpZ2dlciBjb25maWd1cmF0aW9uCiAgICAgKi8KICAgIGZ1biBzY2hlZHVsZVdvcmtmbG93KHdvcmtmbG93OiBXb3JrZmxvdyk6IEJvb2xlYW4gewogICAgICAgIC8vIEZpbmQgdGhlIHRyaWdnZXIgbm9kZQogICAgICAgIHZhbCB0cmlnZ2VyTm9kZSA9IHdvcmtmbG93Lm5vZGVzLmZpbHRlcklzSW5zdGFuY2U8VHJpZ2dlck5vZGU+KCkKICAgICAgICAgICAgLmZpcnN0T3JOdWxsIHsgaXQudHJpZ2dlclR5cGUgPT0gInNjaGVkdWxlIiB9CgogICAgICAgIGlmICh0cmlnZ2VyTm9kZSA9PSBudWxsKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIk5vIHNjaGVkdWxlIHRyaWdnZXIgZm91bmQgZm9yIHdvcmtmbG93OiAke3dvcmtmbG93LmlkfSIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgdmFsIGNvbmZpZyA9IHRyaWdnZXJOb2RlLnRyaWdnZXJDb25maWcKICAgICAgICB2YWwgc2NoZWR1bGVUeXBlID0gY29uZmlnW0NPTkZJR19TQ0hFRFVMRV9UWVBFXSA/OiByZXR1cm4gZmFsc2UKICAgICAgICB2YWwgZW5hYmxlZCA9IGNvbmZpZ1tDT05GSUdfRU5BQkxFRF0/LnRvQm9vbGVhbigpID86IHRydWUKCiAgICAgICAgaWYgKCFlbmFibGVkKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNjaGVkdWxlIGlzIGRpc2FibGVkIGZvciB3b3JrZmxvdzogJHt3b3JrZmxvdy5pZH0iKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CgogICAgICAgIHJldHVybiB3aGVuIChzY2hlZHVsZVR5cGUpIHsKICAgICAgICAgICAgU0NIRURVTEVfVFlQRV9JTlRFUlZBTCAtPiBzY2hlZHVsZUludGVydmFsV29ya2Zsb3cod29ya2Zsb3cuaWQsIHRyaWdnZXJOb2RlLmlkLCBjb25maWcpCiAgICAgICAgICAgIFNDSEVEVUxFX1RZUEVfU1BFQ0lGSUNfVElNRSAtPiBzY2hlZHVsZU9uZVRpbWVXb3JrZmxvdyh3b3JrZmxvdy5pZCwgdHJpZ2dlck5vZGUuaWQsIGNvbmZpZykKICAgICAgICAgICAgU0NIRURVTEVfVFlQRV9DUk9OIC0+IHNjaGVkdWxlQ3JvbldvcmtmbG93KHdvcmtmbG93LmlkLCB0cmlnZ2VyTm9kZS5pZCwgY29uZmlnKQogICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlVua25vd24gc2NoZWR1bGUgdHlwZTogJHNjaGVkdWxlVHlwZSIpCiAgICAgICAgICAgICAgICBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogU2NoZWR1bGUgd29ya2Zsb3cgd2l0aCBmaXhlZCBpbnRlcnZhbAogICAgICovCiAgICBwcml2YXRlIGZ1biBzY2hlZHVsZUludGVydmFsV29ya2Zsb3cod29ya2Zsb3dJZDogU3RyaW5nLCB0cmlnZ2VyTm9kZUlkOiBTdHJpbmcsIGNvbmZpZzogTWFwPFN0cmluZywgU3RyaW5nPik6IEJvb2xlYW4gewogICAgICAgIHZhbCBpbnRlcnZhbE1zID0gY29uZmlnW0NPTkZJR19JTlRFUlZBTF9NU10/LnRvTG9uZ09yTnVsbCgpID86IHJldHVybiBmYWxzZQogICAgICAgIHZhbCByZXBlYXQgPSBjb25maWdbQ09ORklHX1JFUEVBVF0/LnRvQm9vbGVhbigpID86IHRydWUKCiAgICAgICAgaWYgKCFyZXBlYXQpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiSW50ZXJ2YWwgc2NoZWR1bGluZyByZXF1aXJlcyByZXBlYXQ9dHJ1ZSIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgLy8gTWluaW11bSBpbnRlcnZhbCBpcyAxNSBtaW51dGVzIHBlciBXb3JrTWFuYWdlciByZXN0cmljdGlvbnMKICAgICAgICB2YWwgaW50ZXJ2YWxNaW51dGVzID0gKGludGVydmFsTXMgLyA2MDAwMCkuY29lcmNlQXRMZWFzdCgxNSkKCiAgICAgICAgdmFsIGNvbnN0cmFpbnRzID0gQ29uc3RyYWludHMuQnVpbGRlcigpCiAgICAgICAgICAgIC5zZXRSZXF1aXJlc0JhdHRlcnlOb3RMb3coZmFsc2UpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgICAgIHZhbCB3b3JrUmVxdWVzdCA9IFBlcmlvZGljV29ya1JlcXVlc3RCdWlsZGVyPFdvcmtmbG93V29ya2VyPigKICAgICAgICAgICAgaW50ZXJ2YWxNaW51dGVzLCBUaW1lVW5pdC5NSU5VVEVTCiAgICAgICAgKQogICAgICAgICAgICAuc2V0Q29uc3RyYWludHMoY29uc3RyYWludHMpCiAgICAgICAgICAgIC5zZXRCYWNrb2ZmQ3JpdGVyaWEoCiAgICAgICAgICAgICAgICBCYWNrb2ZmUG9saWN5LkVYUE9ORU5USUFMLAogICAgICAgICAgICAgICAgUkVUUllfQkFDS09GRl9ERUxBWV9NSU5VVEVTLAogICAgICAgICAgICAgICAgVGltZVVuaXQuTUlOVVRFUwogICAgICAgICAgICApCiAgICAgICAgICAgIC5zZXRJbnB1dERhdGEoCiAgICAgICAgICAgICAgICB3b3JrRGF0YU9mKAogICAgICAgICAgICAgICAgICAgIFdvcmtmbG93V29ya2VyLktFWV9XT1JLRkxPV19JRCB0byB3b3JrZmxvd0lkLAogICAgICAgICAgICAgICAgICAgIEtFWV9UUklHR0VSX05PREVfSUQgdG8gdHJpZ2dlck5vZGVJZAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgICAgIC5hZGRUYWcod29ya2Zsb3dJZCkKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgd29ya01hbmFnZXIuZW5xdWV1ZVVuaXF1ZVBlcmlvZGljV29yaygKICAgICAgICAgICAgZ2V0V29ya05hbWUod29ya2Zsb3dJZCksCiAgICAgICAgICAgIEV4aXN0aW5nUGVyaW9kaWNXb3JrUG9saWN5LlJFUExBQ0UsCiAgICAgICAgICAgIHdvcmtSZXF1ZXN0CiAgICAgICAgKQoKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTY2hlZHVsZWQgaW50ZXJ2YWwgd29ya2Zsb3c6ICR3b3JrZmxvd0lkLCB0cmlnZ2VyOiAkdHJpZ2dlck5vZGVJZCwgaW50ZXJ2YWw6ICRpbnRlcnZhbE1pbnV0ZXMgbWludXRlcyIpCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICAvKioKICAgICAqIFNjaGVkdWxlIHdvcmtmbG93IGZvciBzcGVjaWZpYyB0aW1lCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHNjaGVkdWxlT25lVGltZVdvcmtmbG93KHdvcmtmbG93SWQ6IFN0cmluZywgdHJpZ2dlck5vZGVJZDogU3RyaW5nLCBjb25maWc6IE1hcDxTdHJpbmcsIFN0cmluZz4pOiBCb29sZWFuIHsKICAgICAgICB2YWwgc3BlY2lmaWNUaW1lU3RyID0gY29uZmlnW0NPTkZJR19TUEVDSUZJQ19USU1FXSA/OiByZXR1cm4gZmFsc2UKICAgICAgICB2YWwgcmVwZWF0ID0gY29uZmlnW0NPTkZJR19SRVBFQVRdPy50b0Jvb2xlYW4oKSA/OiBmYWxzZQoKICAgICAgICB2YWwgdGFyZ2V0VGltZSA9IHRyeSB7CiAgICAgICAgICAgIHBhcnNlRGF0ZVRpbWUoc3BlY2lmaWNUaW1lU3RyKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gcGFyc2Ugc3BlY2lmaWNfdGltZTogJHNwZWNpZmljVGltZVN0ciIsIGUpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgdmFsIGN1cnJlbnRUaW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB2YWwgZGVsYXkgPSB0YXJnZXRUaW1lIC0gY3VycmVudFRpbWUKCiAgICAgICAgaWYgKGRlbGF5IDwgMCkgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJTcGVjaWZpYyB0aW1lIGlzIGluIHRoZSBwYXN0OiAkc3BlY2lmaWNUaW1lU3RyIikKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICB2YWwgY29uc3RyYWludHMgPSBDb25zdHJhaW50cy5CdWlsZGVyKCkKICAgICAgICAgICAgLnNldFJlcXVpcmVzQmF0dGVyeU5vdExvdyhmYWxzZSkKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgdmFsIHdvcmtSZXF1ZXN0ID0gT25lVGltZVdvcmtSZXF1ZXN0QnVpbGRlcjxXb3JrZmxvd1dvcmtlcj4oKQogICAgICAgICAgICAuc2V0Q29uc3RyYWludHMoY29uc3RyYWludHMpCiAgICAgICAgICAgIC5zZXRCYWNrb2ZmQ3JpdGVyaWEoCiAgICAgICAgICAgICAgICBCYWNrb2ZmUG9saWN5LkVYUE9ORU5USUFMLAogICAgICAgICAgICAgICAgUkVUUllfQkFDS09GRl9ERUxBWV9NSU5VVEVTLAogICAgICAgICAgICAgICAgVGltZVVuaXQuTUlOVVRFUwogICAgICAgICAgICApCiAgICAgICAgICAgIC5zZXRJbnB1dERhdGEoCiAgICAgICAgICAgICAgICB3b3JrRGF0YU9mKAogICAgICAgICAgICAgICAgICAgIFdvcmtmbG93V29ya2VyLktFWV9XT1JLRkxPV19JRCB0byB3b3JrZmxvd0lkLAogICAgICAgICAgICAgICAgICAgIEtFWV9UUklHR0VSX05PREVfSUQgdG8gdHJpZ2dlck5vZGVJZAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgICAgIC5zZXRJbml0aWFsRGVsYXkoZGVsYXksIFRpbWVVbml0Lk1JTExJU0VDT05EUykKICAgICAgICAgICAgLmFkZFRhZyh3b3JrZmxvd0lkKQogICAgICAgICAgICAuYnVpbGQoKQoKICAgICAgICB3b3JrTWFuYWdlci5lbnF1ZXVlVW5pcXVlV29yaygKICAgICAgICAgICAgZ2V0V29ya05hbWUod29ya2Zsb3dJZCksCiAgICAgICAgICAgIEV4aXN0aW5nV29ya1BvbGljeS5SRVBMQUNFLAogICAgICAgICAgICB3b3JrUmVxdWVzdAogICAgICAgICkKCiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU2NoZWR1bGVkIG9uZS10aW1lIHdvcmtmbG93OiAkd29ya2Zsb3dJZCwgdHJpZ2dlcjogJHRyaWdnZXJOb2RlSWQsIHRpbWU6ICRzcGVjaWZpY1RpbWVTdHIsIGRlbGF5OiAke2RlbGF5fW1zIikKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIC8qKgogICAgICogU2NoZWR1bGUgd29ya2Zsb3cgdXNpbmcgY3JvbiBleHByZXNzaW9uCiAgICAgKiAKICAgICAqIFNpbXBsaWZpZWQgY3JvbiBpbXBsZW1lbnRhdGlvbiB0aGF0IGNhbGN1bGF0ZXMgbmV4dCBleGVjdXRpb24gdGltZQogICAgICovCiAgICBwcml2YXRlIGZ1biBzY2hlZHVsZUNyb25Xb3JrZmxvdyh3b3JrZmxvd0lkOiBTdHJpbmcsIHRyaWdnZXJOb2RlSWQ6IFN0cmluZywgY29uZmlnOiBNYXA8U3RyaW5nLCBTdHJpbmc+KTogQm9vbGVhbiB7CiAgICAgICAgdmFsIGNyb25FeHByZXNzaW9uID0gY29uZmlnW0NPTkZJR19DUk9OX0VYUFJFU1NJT05dID86IHJldHVybiBmYWxzZQogICAgICAgIHZhbCByZXBlYXQgPSBjb25maWdbQ09ORklHX1JFUEVBVF0/LnRvQm9vbGVhbigpID86IHRydWUKCiAgICAgICAgdmFsIG5leHRFeGVjdXRpb25UaW1lID0gY2FsY3VsYXRlTmV4dENyb25UaW1lKGNyb25FeHByZXNzaW9uKQogICAgICAgIGlmIChuZXh0RXhlY3V0aW9uVGltZSA9PSBudWxsKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBjYWxjdWxhdGUgbmV4dCBjcm9uIHRpbWUgZm9yOiAkY3JvbkV4cHJlc3Npb24iKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CgogICAgICAgIHZhbCBjdXJyZW50VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgdmFsIGRlbGF5ID0gbmV4dEV4ZWN1dGlvblRpbWUgLSBjdXJyZW50VGltZQoKICAgICAgICBpZiAoZGVsYXkgPCAwKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIkNhbGN1bGF0ZWQgY3JvbiB0aW1lIGlzIGluIHRoZSBwYXN0IikKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICB2YWwgY29uc3RyYWludHMgPSBDb25zdHJhaW50cy5CdWlsZGVyKCkKICAgICAgICAgICAgLnNldFJlcXVpcmVzQmF0dGVyeU5vdExvdyhmYWxzZSkKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgaWYgKHJlcGVhdCkgewogICAgICAgICAgICAvLyBGb3IgcmVwZWF0ZWQgY3Jvbiwgd2UgdXNlIHRoZSBpbnRlcnZhbCBiZXR3ZWVuIGV4ZWN1dGlvbnMKICAgICAgICAgICAgLy8gVGhpcyBpcyBhIHNpbXBsaWZpZWQgYXBwcm9hY2ggLSBpZGVhbGx5IHdlJ2QgcmVzY2hlZHVsZSBhZnRlciBlYWNoIGV4ZWN1dGlvbgogICAgICAgICAgICB2YWwgaW50ZXJ2YWxNcyA9IGNhbGN1bGF0ZUNyb25JbnRlcnZhbChjcm9uRXhwcmVzc2lvbikKICAgICAgICAgICAgaWYgKGludGVydmFsTXMgIT0gbnVsbCAmJiBpbnRlcnZhbE1zID49IDE1ICogNjAgKiAxMDAwKSB7CiAgICAgICAgICAgICAgICB2YWwgaW50ZXJ2YWxNaW51dGVzID0gaW50ZXJ2YWxNcyAvIDYwMDAwCiAgICAgICAgICAgICAgICB2YWwgd29ya1JlcXVlc3QgPSBQZXJpb2RpY1dvcmtSZXF1ZXN0QnVpbGRlcjxXb3JrZmxvd1dvcmtlcj4oCiAgICAgICAgICAgICAgICAgICAgaW50ZXJ2YWxNaW51dGVzLCBUaW1lVW5pdC5NSU5VVEVTCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgLnNldENvbnN0cmFpbnRzKGNvbnN0cmFpbnRzKQogICAgICAgICAgICAgICAgICAgIC5zZXRCYWNrb2ZmQ3JpdGVyaWEoCiAgICAgICAgICAgICAgICAgICAgICAgIEJhY2tvZmZQb2xpY3kuRVhQT05FTlRJQUwsCiAgICAgICAgICAgICAgICAgICAgICAgIFJFVFJZX0JBQ0tPRkZfREVMQVlfTUlOVVRFUywKICAgICAgICAgICAgICAgICAgICAgICAgVGltZVVuaXQuTUlOVVRFUwogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAuc2V0SW5wdXREYXRhKAogICAgICAgICAgICAgICAgICAgICAgICB3b3JrRGF0YU9mKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgV29ya2Zsb3dXb3JrZXIuS0VZX1dPUktGTE9XX0lEIHRvIHdvcmtmbG93SWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBLRVlfVFJJR0dFUl9OT0RFX0lEIHRvIHRyaWdnZXJOb2RlSWQKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAuc2V0SW5pdGlhbERlbGF5KGRlbGF5LCBUaW1lVW5pdC5NSUxMSVNFQ09ORFMpCiAgICAgICAgICAgICAgICAgICAgLmFkZFRhZyh3b3JrZmxvd0lkKQogICAgICAgICAgICAgICAgICAgIC5idWlsZCgpCgogICAgICAgICAgICAgICAgd29ya01hbmFnZXIuZW5xdWV1ZVVuaXF1ZVBlcmlvZGljV29yaygKICAgICAgICAgICAgICAgICAgICBnZXRXb3JrTmFtZSh3b3JrZmxvd0lkKSwKICAgICAgICAgICAgICAgICAgICBFeGlzdGluZ1BlcmlvZGljV29ya1BvbGljeS5SRVBMQUNFLAogICAgICAgICAgICAgICAgICAgIHdvcmtSZXF1ZXN0CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTY2hlZHVsZWQgY3JvbiB3b3JrZmxvdyAocGVyaW9kaWMpOiAkd29ya2Zsb3dJZCwgdHJpZ2dlcjogJHRyaWdnZXJOb2RlSWQsIGV4cHJlc3Npb246ICRjcm9uRXhwcmVzc2lvbiIpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvLyBGYWxsYmFjayB0byBvbmUtdGltZSBmb3IgY29tcGxleCBjcm9uIHBhdHRlcm5zCiAgICAgICAgICAgICAgICBzY2hlZHVsZU9uZVRpbWVXb3JrZmxvd1dpdGhEZWxheSh3b3JrZmxvd0lkLCB0cmlnZ2VyTm9kZUlkLCBkZWxheSkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNjaGVkdWxlZCBjcm9uIHdvcmtmbG93IChvbmUtdGltZSk6ICR3b3JrZmxvd0lkLCB0cmlnZ2VyOiAkdHJpZ2dlck5vZGVJZCwgZXhwcmVzc2lvbjogJGNyb25FeHByZXNzaW9uIikKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHNjaGVkdWxlT25lVGltZVdvcmtmbG93V2l0aERlbGF5KHdvcmtmbG93SWQsIHRyaWdnZXJOb2RlSWQsIGRlbGF5KQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTY2hlZHVsZWQgY3JvbiB3b3JrZmxvdyAob25lLXRpbWUpOiAkd29ya2Zsb3dJZCwgdHJpZ2dlcjogJHRyaWdnZXJOb2RlSWQsIGV4cHJlc3Npb246ICRjcm9uRXhwcmVzc2lvbiIpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIC8qKgogICAgICogSGVscGVyIHRvIHNjaGVkdWxlIG9uZS10aW1lIHdvcmsgd2l0aCBkZWxheQogICAgICovCiAgICBwcml2YXRlIGZ1biBzY2hlZHVsZU9uZVRpbWVXb3JrZmxvd1dpdGhEZWxheSh3b3JrZmxvd0lkOiBTdHJpbmcsIHRyaWdnZXJOb2RlSWQ6IFN0cmluZywgZGVsYXlNczogTG9uZykgewogICAgICAgIHZhbCBjb25zdHJhaW50cyA9IENvbnN0cmFpbnRzLkJ1aWxkZXIoKQogICAgICAgICAgICAuc2V0UmVxdWlyZXNCYXR0ZXJ5Tm90TG93KGZhbHNlKQogICAgICAgICAgICAuYnVpbGQoKQoKICAgICAgICB2YWwgd29ya1JlcXVlc3QgPSBPbmVUaW1lV29ya1JlcXVlc3RCdWlsZGVyPFdvcmtmbG93V29ya2VyPigpCiAgICAgICAgICAgIC5zZXRDb25zdHJhaW50cyhjb25zdHJhaW50cykKICAgICAgICAgICAgLnNldEJhY2tvZmZDcml0ZXJpYSgKICAgICAgICAgICAgICAgIEJhY2tvZmZQb2xpY3kuRVhQT05FTlRJQUwsCiAgICAgICAgICAgICAgICBSRVRSWV9CQUNLT0ZGX0RFTEFZX01JTlVURVMsCiAgICAgICAgICAgICAgICBUaW1lVW5pdC5NSU5VVEVTCiAgICAgICAgICAgICkKICAgICAgICAgICAgLnNldElucHV0RGF0YSgKICAgICAgICAgICAgICAgIHdvcmtEYXRhT2YoCiAgICAgICAgICAgICAgICAgICAgV29ya2Zsb3dXb3JrZXIuS0VZX1dPUktGTE9XX0lEIHRvIHdvcmtmbG93SWQsCiAgICAgICAgICAgICAgICAgICAgS0VZX1RSSUdHRVJfTk9ERV9JRCB0byB0cmlnZ2VyTm9kZUlkCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICAgICAgLnNldEluaXRpYWxEZWxheShkZWxheU1zLCBUaW1lVW5pdC5NSUxMSVNFQ09ORFMpCiAgICAgICAgICAgIC5hZGRUYWcod29ya2Zsb3dJZCkKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgd29ya01hbmFnZXIuZW5xdWV1ZVVuaXF1ZVdvcmsoCiAgICAgICAgICAgIGdldFdvcmtOYW1lKHdvcmtmbG93SWQpLAogICAgICAgICAgICBFeGlzdGluZ1dvcmtQb2xpY3kuUkVQTEFDRSwKICAgICAgICAgICAgd29ya1JlcXVlc3QKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiBDYW5jZWwgc2NoZWR1bGVkIHdvcmtmbG93CiAgICAgKi8KICAgIGZ1biBjYW5jZWxXb3JrZmxvdyh3b3JrZmxvd0lkOiBTdHJpbmcpIHsKICAgICAgICB3b3JrTWFuYWdlci5jYW5jZWxVbmlxdWVXb3JrKGdldFdvcmtOYW1lKHdvcmtmbG93SWQpKQogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkNhbmNlbGxlZCB3b3JrZmxvdyBzY2hlZHVsZTogJHdvcmtmbG93SWQiKQogICAgfQoKICAgIC8qKgogICAgICogQ2hlY2sgaWYgd29ya2Zsb3cgaXMgc2NoZWR1bGVkCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGlzV29ya2Zsb3dTY2hlZHVsZWQod29ya2Zsb3dJZDogU3RyaW5nKTogQm9vbGVhbiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHdvcmtJbmZvcyA9IHdvcmtNYW5hZ2VyLmdldFdvcmtJbmZvc0ZvclVuaXF1ZVdvcmsoZ2V0V29ya05hbWUod29ya2Zsb3dJZCkpLmF3YWl0KCkKICAgICAgICAgICAgd29ya0luZm9zLmFueSB7IGl0LnN0YXRlID09IFdvcmtJbmZvLlN0YXRlLkVOUVVFVUVEIHx8IGl0LnN0YXRlID09IFdvcmtJbmZvLlN0YXRlLlJVTk5JTkcgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBjaGVja2luZyB3b3JrZmxvdyBzY2hlZHVsZSBzdGF0dXMiLCBlKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIEdldCB3b3JrIG5hbWUgZm9yIHdvcmtmbG93CiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGdldFdvcmtOYW1lKHdvcmtmbG93SWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICIkV09SS19OQU1FX1BSRUZJWCR3b3JrZmxvd0lkIgogICAgfQoKICAgIC8qKgogICAgICogUGFyc2UgZGF0ZXRpbWUgc3RyaW5nIChJU08gODYwMSBvciBjb21tb24gZm9ybWF0cykKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gcGFyc2VEYXRlVGltZShkYXRlVGltZVN0cjogU3RyaW5nKTogTG9uZyB7CiAgICAgICAgdmFsIGZvcm1hdHMgPSBsaXN0T2YoCiAgICAgICAgICAgICJ5eXl5LU1NLWRkJ1QnSEg6bW06c3MiLAogICAgICAgICAgICAieXl5eS1NTS1kZCBISDptbTpzcyIsCiAgICAgICAgICAgICJ5eXl5LU1NLWRkIEhIOm1tIiwKICAgICAgICAgICAgInl5eXktTU0tZGQiCiAgICAgICAgKQoKICAgICAgICBmb3IgKGZvcm1hdCBpbiBmb3JtYXRzKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgc2RmID0gU2ltcGxlRGF0ZUZvcm1hdChmb3JtYXQsIExvY2FsZS5nZXREZWZhdWx0KCkpCiAgICAgICAgICAgICAgICB2YWwgZGF0ZSA9IHNkZi5wYXJzZShkYXRlVGltZVN0cikKICAgICAgICAgICAgICAgIGlmIChkYXRlICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZGF0ZS50aW1lCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgLy8gVHJ5IG5leHQgZm9ybWF0CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiVW5zdXBwb3J0ZWQgZGF0ZXRpbWUgZm9ybWF0OiAkZGF0ZVRpbWVTdHIiKQogICAgfQoKICAgIC8qKgogICAgICogQ2FsY3VsYXRlIG5leHQgZXhlY3V0aW9uIHRpbWUgZm9yIGNyb24gZXhwcmVzc2lvbgogICAgICogCiAgICAgKiBTaW1wbGlmaWVkIGNyb24gcGFyc2VyIHN1cHBvcnRpbmcgYmFzaWMgcGF0dGVybnM6CiAgICAgKiAtIDAgMCAqICogKiAoZGFpbHkgYXQgbWlkbmlnaHQpCiAgICAgKiAtIDAgMiAqICogKiAoZXZlcnkgMiBob3VycykKICAgICAqIC0gMTUgKiAqICogKiAoZXZlcnkgMTUgbWludXRlcykKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gY2FsY3VsYXRlTmV4dENyb25UaW1lKGNyb25FeHByZXNzaW9uOiBTdHJpbmcpOiBMb25nPyB7CiAgICAgICAgdmFsIHBhcnRzID0gY3JvbkV4cHJlc3Npb24udHJpbSgpLnNwbGl0KCJcXHMrIi50b1JlZ2V4KCkpCiAgICAgICAgaWYgKHBhcnRzLnNpemUgPCA1KSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkludmFsaWQgY3JvbiBleHByZXNzaW9uOiAkY3JvbkV4cHJlc3Npb24iKQogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KCiAgICAgICAgdmFsIG1pbnV0ZSA9IHBhcnRzWzBdCiAgICAgICAgdmFsIGhvdXIgPSBwYXJ0c1sxXQogICAgICAgIHZhbCBkYXlPZk1vbnRoID0gcGFydHNbMl0KICAgICAgICB2YWwgbW9udGggPSBwYXJ0c1szXQogICAgICAgIHZhbCBkYXlPZldlZWsgPSBwYXJ0c1s0XQoKICAgICAgICB2YWwgY2FsZW5kYXIgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpCiAgICAgICAgY2FsZW5kYXIuYWRkKENhbGVuZGFyLk1JTlVURSwgMSkgLy8gU3RhcnQgZnJvbSBuZXh0IG1pbnV0ZQoKICAgICAgICAvLyBTaW1wbGUgY3JvbiBwYXR0ZXJuIG1hdGNoaW5nCiAgICAgICAgcmV0dXJuIHdoZW4gewogICAgICAgICAgICAvLyBEYWlseSBhdCBzcGVjaWZpYyB0aW1lOiAiMCAwICogKiAqIgogICAgICAgICAgICBtaW51dGUubWF0Y2hlcygiXFxkKyIudG9SZWdleCgpKSAmJiBob3VyLm1hdGNoZXMoIlxcZCsiLnRvUmVnZXgoKSkgJiYgCiAgICAgICAgICAgIGRheU9mTW9udGggPT0gIioiICYmIG1vbnRoID09ICIqIiAmJiBkYXlPZldlZWsgPT0gIioiIC0+IHsKICAgICAgICAgICAgICAgIGNhbGN1bGF0ZURhaWx5VGltZShtaW51dGUudG9JbnQoKSwgaG91ci50b0ludCgpKQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIEV2ZXJ5IE4gaG91cnM6ICIwICovTiAqICogKiIKICAgICAgICAgICAgbWludXRlID09ICIwIiAmJiBob3VyLnN0YXJ0c1dpdGgoIiovIikgJiYgCiAgICAgICAgICAgIGRheU9mTW9udGggPT0gIioiICYmIG1vbnRoID09ICIqIiAmJiBkYXlPZldlZWsgPT0gIioiIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBob3VySW50ZXJ2YWwgPSBob3VyLnN1YnN0cmluZygyKS50b0ludE9yTnVsbCgpID86IHJldHVybiBudWxsCiAgICAgICAgICAgICAgICB2YWwgbmV4dFRpbWUgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpCiAgICAgICAgICAgICAgICBuZXh0VGltZS5hZGQoQ2FsZW5kYXIuSE9VUl9PRl9EQVksIGhvdXJJbnRlcnZhbCkKICAgICAgICAgICAgICAgIG5leHRUaW1lLnNldChDYWxlbmRhci5NSU5VVEUsIDApCiAgICAgICAgICAgICAgICBuZXh0VGltZS5zZXQoQ2FsZW5kYXIuU0VDT05ELCAwKQogICAgICAgICAgICAgICAgbmV4dFRpbWUudGltZUluTWlsbGlzCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLy8gRXZlcnkgTiBtaW51dGVzOiAiKi9OICogKiAqICoiCiAgICAgICAgICAgIG1pbnV0ZS5zdGFydHNXaXRoKCIqLyIpICYmIGhvdXIgPT0gIioiICYmIAogICAgICAgICAgICBkYXlPZk1vbnRoID09ICIqIiAmJiBtb250aCA9PSAiKiIgJiYgZGF5T2ZXZWVrID09ICIqIiAtPiB7CiAgICAgICAgICAgICAgICB2YWwgbWludXRlSW50ZXJ2YWwgPSBtaW51dGUuc3Vic3RyaW5nKDIpLnRvSW50T3JOdWxsKCkgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgICAgIHZhbCBuZXh0VGltZSA9IENhbGVuZGFyLmdldEluc3RhbmNlKCkKICAgICAgICAgICAgICAgIG5leHRUaW1lLmFkZChDYWxlbmRhci5NSU5VVEUsIG1pbnV0ZUludGVydmFsKQogICAgICAgICAgICAgICAgbmV4dFRpbWUuc2V0KENhbGVuZGFyLlNFQ09ORCwgMCkKICAgICAgICAgICAgICAgIG5leHRUaW1lLnRpbWVJbk1pbGxpcwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiVW5zdXBwb3J0ZWQgY3JvbiBwYXR0ZXJuOiAkY3JvbkV4cHJlc3Npb24iKQogICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogQ2FsY3VsYXRlIG5leHQgZGFpbHkgZXhlY3V0aW9uIHRpbWUKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gY2FsY3VsYXRlRGFpbHlUaW1lKG1pbnV0ZTogSW50LCBob3VyOiBJbnQpOiBMb25nIHsKICAgICAgICB2YWwgY2FsZW5kYXIgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpCiAgICAgICAgY2FsZW5kYXIuc2V0KENhbGVuZGFyLkhPVVJfT0ZfREFZLCBob3VyKQogICAgICAgIGNhbGVuZGFyLnNldChDYWxlbmRhci5NSU5VVEUsIG1pbnV0ZSkKICAgICAgICBjYWxlbmRhci5zZXQoQ2FsZW5kYXIuU0VDT05ELCAwKQogICAgICAgIGNhbGVuZGFyLnNldChDYWxlbmRhci5NSUxMSVNFQ09ORCwgMCkKCiAgICAgICAgLy8gSWYgdGltZSBoYXMgcGFzc2VkIHRvZGF5LCBzY2hlZHVsZSBmb3IgdG9tb3Jyb3cKICAgICAgICBpZiAoY2FsZW5kYXIudGltZUluTWlsbGlzIDw9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKSB7CiAgICAgICAgICAgIGNhbGVuZGFyLmFkZChDYWxlbmRhci5EQVlfT0ZfTU9OVEgsIDEpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gY2FsZW5kYXIudGltZUluTWlsbGlzCiAgICB9CgogICAgLyoqCiAgICAgKiBDYWxjdWxhdGUgaW50ZXJ2YWwgaW4gbWlsbGlzZWNvbmRzIGZvciBjcm9uIGV4cHJlc3Npb24KICAgICAqIFJldHVybnMgbnVsbCBmb3IgY29tcGxleCBwYXR0ZXJucwogICAgICovCiAgICBwcml2YXRlIGZ1biBjYWxjdWxhdGVDcm9uSW50ZXJ2YWwoY3JvbkV4cHJlc3Npb246IFN0cmluZyk6IExvbmc/IHsKICAgICAgICB2YWwgcGFydHMgPSBjcm9uRXhwcmVzc2lvbi50cmltKCkuc3BsaXQoIlxccysiLnRvUmVnZXgoKSkKICAgICAgICBpZiAocGFydHMuc2l6ZSA8IDUpIHJldHVybiBudWxsCgogICAgICAgIHZhbCBtaW51dGUgPSBwYXJ0c1swXQogICAgICAgIHZhbCBob3VyID0gcGFydHNbMV0KCiAgICAgICAgcmV0dXJuIHdoZW4gewogICAgICAgICAgICAvLyBEYWlseQogICAgICAgICAgICBtaW51dGUubWF0Y2hlcygiXFxkKyIudG9SZWdleCgpKSAmJiBob3VyLm1hdGNoZXMoIlxcZCsiLnRvUmVnZXgoKSkgLT4gewogICAgICAgICAgICAgICAgMjQgKiA2MCAqIDYwICogMTAwMEwKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBFdmVyeSBOIGhvdXJzCiAgICAgICAgICAgIG1pbnV0ZSA9PSAiMCIgJiYgaG91ci5zdGFydHNXaXRoKCIqLyIpIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBob3VySW50ZXJ2YWwgPSBob3VyLnN1YnN0cmluZygyKS50b0xvbmdPck51bGwoKSA/OiByZXR1cm4gbnVsbAogICAgICAgICAgICAgICAgaG91ckludGVydmFsICogNjAgKiA2MCAqIDEwMDAKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBFdmVyeSBOIG1pbnV0ZXMKICAgICAgICAgICAgbWludXRlLnN0YXJ0c1dpdGgoIiovIikgJiYgaG91ciA9PSAiKiIgLT4gewogICAgICAgICAgICAgICAgdmFsIG1pbnV0ZUludGVydmFsID0gbWludXRlLnN1YnN0cmluZygyKS50b0xvbmdPck51bGwoKSA/OiByZXR1cm4gbnVsbAogICAgICAgICAgICAgICAgbWludXRlSW50ZXJ2YWwgKiA2MCAqIDEwMDAKICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBHZXQgbmV4dCBleGVjdXRpb24gdGltZSBmb3IgYSB3b3JrZmxvdwogICAgICovCiAgICBmdW4gZ2V0TmV4dEV4ZWN1dGlvblRpbWUod29ya2Zsb3c6IFdvcmtmbG93KTogTG9uZz8gewogICAgICAgIHZhbCB0cmlnZ2VyTm9kZSA9IHdvcmtmbG93Lm5vZGVzLmZpbHRlcklzSW5zdGFuY2U8VHJpZ2dlck5vZGU+KCkKICAgICAgICAgICAgLmZpcnN0T3JOdWxsIHsgaXQudHJpZ2dlclR5cGUgPT0gInNjaGVkdWxlIiB9CiAgICAgICAgICAgID86IHJldHVybiBudWxsCgogICAgICAgIHZhbCBjb25maWcgPSB0cmlnZ2VyTm9kZS50cmlnZ2VyQ29uZmlnCiAgICAgICAgdmFsIHNjaGVkdWxlVHlwZSA9IGNvbmZpZ1tDT05GSUdfU0NIRURVTEVfVFlQRV0gPzogcmV0dXJuIG51bGwKCiAgICAgICAgcmV0dXJuIHdoZW4gKHNjaGVkdWxlVHlwZSkgewogICAgICAgICAgICBTQ0hFRFVMRV9UWVBFX1NQRUNJRklDX1RJTUUgLT4gewogICAgICAgICAgICAgICAgY29uZmlnW0NPTkZJR19TUEVDSUZJQ19USU1FXT8ubGV0IHsgcGFyc2VEYXRlVGltZShpdCkgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIFNDSEVEVUxFX1RZUEVfQ1JPTiAtPiB7CiAgICAgICAgICAgICAgICBjb25maWdbQ09ORklHX0NST05fRVhQUkVTU0lPTl0/LmxldCB7IGNhbGN1bGF0ZU5leHRDcm9uVGltZShpdCkgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIFNDSEVEVUxFX1RZUEVfSU5URVJWQUwgLT4gewogICAgICAgICAgICAgICAgLy8gRm9yIGludGVydmFsLCBuZXh0IGV4ZWN1dGlvbiBpcyBpbnRlcnZhbCBmcm9tIG5vdwogICAgICAgICAgICAgICAgdmFsIGludGVydmFsTXMgPSBjb25maWdbQ09ORklHX0lOVEVSVkFMX01TXT8udG9Mb25nT3JOdWxsKCkgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgICAgIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpICsgaW50ZXJ2YWxNcwogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgIH0KICAgIH0KfQoK
+package com.bslsjdk.operit.core.workflow
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import androidx.work.*
+import com.bslsjdk.operit.data.model.TriggerNode
+import com.bslsjdk.operit.data.model.Workflow
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import java.text.SimpleDateFormat
+import java.util.*
+import java.util.concurrent.TimeUnit
+
+/**
+ * WorkflowScheduler manages scheduling workflows using WorkManager
+ * 
+ * Supports three scheduling types:
+ * - interval: Fixed interval execution (e.g., every 15 minutes)
+ * - specific_time: One-time execution at a specific time
+ * - cron: Cron-based scheduling (simplified implementation)
+ */
+class WorkflowScheduler(private val context: Context) {
+
+    companion object {
+        private const val TAG = "WorkflowScheduler"
+        private const val WORK_NAME_PREFIX = "workflow_"
+        private const val RETRY_BACKOFF_DELAY_MINUTES = 1L
+        
+        // Schedule types
+        const val SCHEDULE_TYPE_INTERVAL = "interval"
+        const val SCHEDULE_TYPE_SPECIFIC_TIME = "specific_time"
+        const val SCHEDULE_TYPE_CRON = "cron"
+        
+        // Config keys
+        const val CONFIG_SCHEDULE_TYPE = "schedule_type"
+        const val CONFIG_INTERVAL_MS = "interval_ms"
+        const val CONFIG_SPECIFIC_TIME = "specific_time"
+        const val CONFIG_CRON_EXPRESSION = "cron_expression"
+        const val CONFIG_REPEAT = "repeat"
+        const val CONFIG_END_TIME = "end_time"
+        const val CONFIG_ENABLED = "enabled"
+        
+        // WorkManager data keys
+        const val KEY_TRIGGER_NODE_ID = "trigger_node_id"
+    }
+
+    private val workManager: WorkManager by lazy { 
+        WorkManager.getInstance(context.applicationContext)
+    }
+
+    /**
+     * Schedule a workflow based on its trigger configuration
+     */
+    fun scheduleWorkflow(workflow: Workflow): Boolean {
+        // Find the trigger node
+        val triggerNode = workflow.nodes.filterIsInstance<TriggerNode>()
+            .firstOrNull { it.triggerType == "schedule" }
+
+        if (triggerNode == null) {
+            AppLogger.d(TAG, "No schedule trigger found for workflow: ${workflow.id}")
+            return false
+        }
+
+        val config = triggerNode.triggerConfig
+        val scheduleType = config[CONFIG_SCHEDULE_TYPE] ?: return false
+        val enabled = config[CONFIG_ENABLED]?.toBoolean() ?: true
+
+        if (!enabled) {
+            AppLogger.d(TAG, "Schedule is disabled for workflow: ${workflow.id}")
+            return false
+        }
+
+        return when (scheduleType) {
+            SCHEDULE_TYPE_INTERVAL -> scheduleIntervalWorkflow(workflow.id, triggerNode.id, config)
+            SCHEDULE_TYPE_SPECIFIC_TIME -> scheduleOneTimeWorkflow(workflow.id, triggerNode.id, config)
+            SCHEDULE_TYPE_CRON -> scheduleCronWorkflow(workflow.id, triggerNode.id, config)
+            else -> {
+                AppLogger.e(TAG, "Unknown schedule type: $scheduleType")
+                false
+            }
+        }
+    }
+
+    /**
+     * Schedule workflow with fixed interval
+     */
+    private fun scheduleIntervalWorkflow(workflowId: String, triggerNodeId: String, config: Map<String, String>): Boolean {
+        val intervalMs = config[CONFIG_INTERVAL_MS]?.toLongOrNull() ?: return false
+        val repeat = config[CONFIG_REPEAT]?.toBoolean() ?: true
+
+        if (!repeat) {
+            AppLogger.w(TAG, "Interval scheduling requires repeat=true")
+            return false
+        }
+
+        // Minimum interval is 15 minutes per WorkManager restrictions
+        val intervalMinutes = (intervalMs / 60000).coerceAtLeast(15)
+
+        val constraints = Constraints.Builder()
+            .setRequiresBatteryNotLow(false)
+            .build()
+
+        val workRequest = PeriodicWorkRequestBuilder<WorkflowWorker>(
+            intervalMinutes, TimeUnit.MINUTES
+        )
+            .setConstraints(constraints)
+            .setBackoffCriteria(
+                BackoffPolicy.EXPONENTIAL,
+                RETRY_BACKOFF_DELAY_MINUTES,
+                TimeUnit.MINUTES
+            )
+            .setInputData(
+                workDataOf(
+                    WorkflowWorker.KEY_WORKFLOW_ID to workflowId,
+                    KEY_TRIGGER_NODE_ID to triggerNodeId
+                )
+            )
+            .addTag(workflowId)
+            .build()
+
+        workManager.enqueueUniquePeriodicWork(
+            getWorkName(workflowId),
+            ExistingPeriodicWorkPolicy.REPLACE,
+            workRequest
+        )
+
+        AppLogger.d(TAG, "Scheduled interval workflow: $workflowId, trigger: $triggerNodeId, interval: $intervalMinutes minutes")
+        return true
+    }
+
+    /**
+     * Schedule workflow for specific time
+     */
+    private fun scheduleOneTimeWorkflow(workflowId: String, triggerNodeId: String, config: Map<String, String>): Boolean {
+        val specificTimeStr = config[CONFIG_SPECIFIC_TIME] ?: return false
+        val repeat = config[CONFIG_REPEAT]?.toBoolean() ?: false
+
+        val targetTime = try {
+            parseDateTime(specificTimeStr)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to parse specific_time: $specificTimeStr", e)
+            return false
+        }
+
+        val currentTime = System.currentTimeMillis()
+        val delay = targetTime - currentTime
+
+        if (delay < 0) {
+            AppLogger.w(TAG, "Specific time is in the past: $specificTimeStr")
+            return false
+        }
+
+        val constraints = Constraints.Builder()
+            .setRequiresBatteryNotLow(false)
+            .build()
+
+        val workRequest = OneTimeWorkRequestBuilder<WorkflowWorker>()
+            .setConstraints(constraints)
+            .setBackoffCriteria(
+                BackoffPolicy.EXPONENTIAL,
+                RETRY_BACKOFF_DELAY_MINUTES,
+                TimeUnit.MINUTES
+            )
+            .setInputData(
+                workDataOf(
+                    WorkflowWorker.KEY_WORKFLOW_ID to workflowId,
+                    KEY_TRIGGER_NODE_ID to triggerNodeId
+                )
+            )
+            .setInitialDelay(delay, TimeUnit.MILLISECONDS)
+            .addTag(workflowId)
+            .build()
+
+        workManager.enqueueUniqueWork(
+            getWorkName(workflowId),
+            ExistingWorkPolicy.REPLACE,
+            workRequest
+        )
+
+        AppLogger.d(TAG, "Scheduled one-time workflow: $workflowId, trigger: $triggerNodeId, time: $specificTimeStr, delay: ${delay}ms")
+        return true
+    }
+
+    /**
+     * Schedule workflow using cron expression
+     * 
+     * Simplified cron implementation that calculates next execution time
+     */
+    private fun scheduleCronWorkflow(workflowId: String, triggerNodeId: String, config: Map<String, String>): Boolean {
+        val cronExpression = config[CONFIG_CRON_EXPRESSION] ?: return false
+        val repeat = config[CONFIG_REPEAT]?.toBoolean() ?: true
+
+        val nextExecutionTime = calculateNextCronTime(cronExpression)
+        if (nextExecutionTime == null) {
+            AppLogger.e(TAG, "Failed to calculate next cron time for: $cronExpression")
+            return false
+        }
+
+        val currentTime = System.currentTimeMillis()
+        val delay = nextExecutionTime - currentTime
+
+        if (delay < 0) {
+            AppLogger.w(TAG, "Calculated cron time is in the past")
+            return false
+        }
+
+        val constraints = Constraints.Builder()
+            .setRequiresBatteryNotLow(false)
+            .build()
+
+        if (repeat) {
+            // For repeated cron, we use the interval between executions
+            // This is a simplified approach - ideally we'd reschedule after each execution
+            val intervalMs = calculateCronInterval(cronExpression)
+            if (intervalMs != null && intervalMs >= 15 * 60 * 1000) {
+                val intervalMinutes = intervalMs / 60000
+                val workRequest = PeriodicWorkRequestBuilder<WorkflowWorker>(
+                    intervalMinutes, TimeUnit.MINUTES
+                )
+                    .setConstraints(constraints)
+                    .setBackoffCriteria(
+                        BackoffPolicy.EXPONENTIAL,
+                        RETRY_BACKOFF_DELAY_MINUTES,
+                        TimeUnit.MINUTES
+                    )
+                    .setInputData(
+                        workDataOf(
+                            WorkflowWorker.KEY_WORKFLOW_ID to workflowId,
+                            KEY_TRIGGER_NODE_ID to triggerNodeId
+                        )
+                    )
+                    .setInitialDelay(delay, TimeUnit.MILLISECONDS)
+                    .addTag(workflowId)
+                    .build()
+
+                workManager.enqueueUniquePeriodicWork(
+                    getWorkName(workflowId),
+                    ExistingPeriodicWorkPolicy.REPLACE,
+                    workRequest
+                )
+                AppLogger.d(TAG, "Scheduled cron workflow (periodic): $workflowId, trigger: $triggerNodeId, expression: $cronExpression")
+            } else {
+                // Fallback to one-time for complex cron patterns
+                scheduleOneTimeWorkflowWithDelay(workflowId, triggerNodeId, delay)
+                AppLogger.d(TAG, "Scheduled cron workflow (one-time): $workflowId, trigger: $triggerNodeId, expression: $cronExpression")
+            }
+        } else {
+            scheduleOneTimeWorkflowWithDelay(workflowId, triggerNodeId, delay)
+            AppLogger.d(TAG, "Scheduled cron workflow (one-time): $workflowId, trigger: $triggerNodeId, expression: $cronExpression")
+        }
+
+        return true
+    }
+
+    /**
+     * Helper to schedule one-time work with delay
+     */
+    private fun scheduleOneTimeWorkflowWithDelay(workflowId: String, triggerNodeId: String, delayMs: Long) {
+        val constraints = Constraints.Builder()
+            .setRequiresBatteryNotLow(false)
+            .build()
+
+        val workRequest = OneTimeWorkRequestBuilder<WorkflowWorker>()
+            .setConstraints(constraints)
+            .setBackoffCriteria(
+                BackoffPolicy.EXPONENTIAL,
+                RETRY_BACKOFF_DELAY_MINUTES,
+                TimeUnit.MINUTES
+            )
+            .setInputData(
+                workDataOf(
+                    WorkflowWorker.KEY_WORKFLOW_ID to workflowId,
+                    KEY_TRIGGER_NODE_ID to triggerNodeId
+                )
+            )
+            .setInitialDelay(delayMs, TimeUnit.MILLISECONDS)
+            .addTag(workflowId)
+            .build()
+
+        workManager.enqueueUniqueWork(
+            getWorkName(workflowId),
+            ExistingWorkPolicy.REPLACE,
+            workRequest
+        )
+    }
+
+    /**
+     * Cancel scheduled workflow
+     */
+    fun cancelWorkflow(workflowId: String) {
+        workManager.cancelUniqueWork(getWorkName(workflowId))
+        AppLogger.d(TAG, "Cancelled workflow schedule: $workflowId")
+    }
+
+    /**
+     * Check if workflow is scheduled
+     */
+    suspend fun isWorkflowScheduled(workflowId: String): Boolean = withContext(Dispatchers.IO) {
+        try {
+            val workInfos = workManager.getWorkInfosForUniqueWork(getWorkName(workflowId)).await()
+            workInfos.any { it.state == WorkInfo.State.ENQUEUED || it.state == WorkInfo.State.RUNNING }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error checking workflow schedule status", e)
+            false
+        }
+    }
+
+    /**
+     * Get work name for workflow
+     */
+    private fun getWorkName(workflowId: String): String {
+        return "$WORK_NAME_PREFIX$workflowId"
+    }
+
+    /**
+     * Parse datetime string (ISO 8601 or common formats)
+     */
+    private fun parseDateTime(dateTimeStr: String): Long {
+        val formats = listOf(
+            "yyyy-MM-dd'T'HH:mm:ss",
+            "yyyy-MM-dd HH:mm:ss",
+            "yyyy-MM-dd HH:mm",
+            "yyyy-MM-dd"
+        )
+
+        for (format in formats) {
+            try {
+                val sdf = SimpleDateFormat(format, Locale.getDefault())
+                val date = sdf.parse(dateTimeStr)
+                if (date != null) {
+                    return date.time
+                }
+            } catch (e: Exception) {
+                // Try next format
+            }
+        }
+
+        throw IllegalArgumentException("Unsupported datetime format: $dateTimeStr")
+    }
+
+    /**
+     * Calculate next execution time for cron expression
+     * 
+     * Simplified cron parser supporting basic patterns:
+     * - 0 0 * * * (daily at midnight)
+     * - 0 2 * * * (every 2 hours)
+     * - 15 * * * * (every 15 minutes)
+     */
+    private fun calculateNextCronTime(cronExpression: String): Long? {
+        val parts = cronExpression.trim().split("\\s+".toRegex())
+        if (parts.size < 5) {
+            AppLogger.e(TAG, "Invalid cron expression: $cronExpression")
+            return null
+        }
+
+        val minute = parts[0]
+        val hour = parts[1]
+        val dayOfMonth = parts[2]
+        val month = parts[3]
+        val dayOfWeek = parts[4]
+
+        val calendar = Calendar.getInstance()
+        calendar.add(Calendar.MINUTE, 1) // Start from next minute
+
+        // Simple cron pattern matching
+        return when {
+            // Daily at specific time: "0 0 * * *"
+            minute.matches("\\d+".toRegex()) && hour.matches("\\d+".toRegex()) && 
+            dayOfMonth == "*" && month == "*" && dayOfWeek == "*" -> {
+                calculateDailyTime(minute.toInt(), hour.toInt())
+            }
+            // Every N hours: "0 */N * * *"
+            minute == "0" && hour.startsWith("*/") && 
+            dayOfMonth == "*" && month == "*" && dayOfWeek == "*" -> {
+                val hourInterval = hour.substring(2).toIntOrNull() ?: return null
+                val nextTime = Calendar.getInstance()
+                nextTime.add(Calendar.HOUR_OF_DAY, hourInterval)
+                nextTime.set(Calendar.MINUTE, 0)
+                nextTime.set(Calendar.SECOND, 0)
+                nextTime.timeInMillis
+            }
+            // Every N minutes: "*/N * * * *"
+            minute.startsWith("*/") && hour == "*" && 
+            dayOfMonth == "*" && month == "*" && dayOfWeek == "*" -> {
+                val minuteInterval = minute.substring(2).toIntOrNull() ?: return null
+                val nextTime = Calendar.getInstance()
+                nextTime.add(Calendar.MINUTE, minuteInterval)
+                nextTime.set(Calendar.SECOND, 0)
+                nextTime.timeInMillis
+            }
+            else -> {
+                AppLogger.w(TAG, "Unsupported cron pattern: $cronExpression")
+                null
+            }
+        }
+    }
+
+    /**
+     * Calculate next daily execution time
+     */
+    private fun calculateDailyTime(minute: Int, hour: Int): Long {
+        val calendar = Calendar.getInstance()
+        calendar.set(Calendar.HOUR_OF_DAY, hour)
+        calendar.set(Calendar.MINUTE, minute)
+        calendar.set(Calendar.SECOND, 0)
+        calendar.set(Calendar.MILLISECOND, 0)
+
+        // If time has passed today, schedule for tomorrow
+        if (calendar.timeInMillis <= System.currentTimeMillis()) {
+            calendar.add(Calendar.DAY_OF_MONTH, 1)
+        }
+
+        return calendar.timeInMillis
+    }
+
+    /**
+     * Calculate interval in milliseconds for cron expression
+     * Returns null for complex patterns
+     */
+    private fun calculateCronInterval(cronExpression: String): Long? {
+        val parts = cronExpression.trim().split("\\s+".toRegex())
+        if (parts.size < 5) return null
+
+        val minute = parts[0]
+        val hour = parts[1]
+
+        return when {
+            // Daily
+            minute.matches("\\d+".toRegex()) && hour.matches("\\d+".toRegex()) -> {
+                24 * 60 * 60 * 1000L
+            }
+            // Every N hours
+            minute == "0" && hour.startsWith("*/") -> {
+                val hourInterval = hour.substring(2).toLongOrNull() ?: return null
+                hourInterval * 60 * 60 * 1000
+            }
+            // Every N minutes
+            minute.startsWith("*/") && hour == "*" -> {
+                val minuteInterval = minute.substring(2).toLongOrNull() ?: return null
+                minuteInterval * 60 * 1000
+            }
+            else -> null
+        }
+    }
+
+    /**
+     * Get next execution time for a workflow
+     */
+    fun getNextExecutionTime(workflow: Workflow): Long? {
+        val triggerNode = workflow.nodes.filterIsInstance<TriggerNode>()
+            .firstOrNull { it.triggerType == "schedule" }
+            ?: return null
+
+        val config = triggerNode.triggerConfig
+        val scheduleType = config[CONFIG_SCHEDULE_TYPE] ?: return null
+
+        return when (scheduleType) {
+            SCHEDULE_TYPE_SPECIFIC_TIME -> {
+                config[CONFIG_SPECIFIC_TIME]?.let { parseDateTime(it) }
+            }
+            SCHEDULE_TYPE_CRON -> {
+                config[CONFIG_CRON_EXPRESSION]?.let { calculateNextCronTime(it) }
+            }
+            SCHEDULE_TYPE_INTERVAL -> {
+                // For interval, next execution is interval from now
+                val intervalMs = config[CONFIG_INTERVAL_MS]?.toLongOrNull() ?: return null
+                System.currentTimeMillis() + intervalMs
+            }
+            else -> null
+        }
+    }
+}
+

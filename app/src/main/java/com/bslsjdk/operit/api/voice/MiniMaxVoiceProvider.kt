@@ -1,1 +1,144 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5TcGVlY2hTZXJ2aWNlc1ByZWZlcmVuY2VzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CgpjbGFzcyBNaW5pTWF4Vm9pY2VQcm92aWRlcigKICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBjb25maWc6IFNwZWVjaFNlcnZpY2VzUHJlZmVyZW5jZXMuVHRzSHR0cENvbmZpZwopIDogVm9pY2VTZXJ2aWNlIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9FTkRQT0lOVF9VUkwgPSAiaHR0cHM6Ly9hcGkubWluaW1heGkuY29tL3YxL3QyYV92MiIKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9NT0RFTF9OQU1FID0gInNwZWVjaC0yLjgtaGQiCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfVk9JQ0VfSUQgPSAibWFsZS1xbi1xaW5nc2UiCgogICAgICAgIHZhbCBBVkFJTEFCTEVfVk9JQ0VTID0KICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgVm9pY2VTZXJ2aWNlLlZvaWNlKAogICAgICAgICAgICAgICAgICAgIGlkID0gREVGQVVMVF9WT0lDRV9JRCwKICAgICAgICAgICAgICAgICAgICBuYW1lID0gREVGQVVMVF9WT0lDRV9JRCwKICAgICAgICAgICAgICAgICAgICBsb2NhbGUgPSAiemgtQ04iLAogICAgICAgICAgICAgICAgICAgIGdlbmRlciA9ICJNQUxFIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCgogICAgICAgIHByaXZhdGUgdmFsIERFRkFVTFRfUkVTUE9OU0VfUElQRUxJTkUgPQogICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICBIdHRwVHRzUmVzcG9uc2VQaXBlbGluZVN0ZXAodHlwZSA9IEh0dHBUdHNSZXNwb25zZVBpcGVsaW5lU3RlcC5UWVBFX1BBUlNFX0pTT04pLAogICAgICAgICAgICAgICAgSHR0cFR0c1Jlc3BvbnNlUGlwZWxpbmVTdGVwKAogICAgICAgICAgICAgICAgICAgIHR5cGUgPSBIdHRwVHRzUmVzcG9uc2VQaXBlbGluZVN0ZXAuVFlQRV9QSUNLLAogICAgICAgICAgICAgICAgICAgIHBhdGggPSAiZGF0YS5hdWRpbyIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBIdHRwVHRzUmVzcG9uc2VQaXBlbGluZVN0ZXAodHlwZSA9IEh0dHBUdHNSZXNwb25zZVBpcGVsaW5lU3RlcC5UWVBFX0hUVFBfR0VUKQogICAgICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSB2YWwgZGVsZWdhdGUgPSBIdHRwVm9pY2VQcm92aWRlcihjb250ZXh0KQogICAgcHJpdmF0ZSB2YXIgc2VsZWN0ZWRWb2ljZUlkOiBTdHJpbmcgPSBjb25maWcudm9pY2VJZC5pZkJsYW5rIHsgREVGQVVMVF9WT0lDRV9JRCB9CgogICAgb3ZlcnJpZGUgdmFsIGlzSW5pdGlhbGl6ZWQ6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IGRlbGVnYXRlLmlzSW5pdGlhbGl6ZWQKCiAgICBvdmVycmlkZSB2YWwgaXNTcGVha2luZzogQm9vbGVhbgogICAgICAgIGdldCgpID0gZGVsZWdhdGUuaXNTcGVha2luZwoKICAgIG92ZXJyaWRlIHZhbCBzcGVha2luZ1N0YXRlRmxvdzogRmxvdzxCb29sZWFuPgogICAgICAgIGdldCgpID0gZGVsZWdhdGUuc3BlYWtpbmdTdGF0ZUZsb3cKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBpbml0aWFsaXplKCk6IEJvb2xlYW4gewogICAgICAgIGlmIChjb25maWcuYXBpS2V5LmlzQmxhbmsoKSkgewogICAgICAgICAgICB0aHJvdyBUdHNFeGNlcHRpb24oY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWluaW1heF90dHNfZXJyb3JfYXBpX2tleV9ub3Rfc2V0KSkKICAgICAgICB9CgogICAgICAgIGRlbGVnYXRlLnNldENvbmZpZ3VyYXRpb24oYnVpbGRIdHRwQ29uZmlnKCkpCiAgICAgICAgcmV0dXJuIGRlbGVnYXRlLmluaXRpYWxpemUoKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHNwZWFrKAogICAgICAgIHRleHQ6IFN0cmluZywKICAgICAgICBpbnRlcnJ1cHQ6IEJvb2xlYW4sCiAgICAgICAgcmF0ZTogRmxvYXQ/LAogICAgICAgIHBpdGNoOiBGbG9hdD8sCiAgICAgICAgZXh0cmFQYXJhbXM6IE1hcDxTdHJpbmcsIFN0cmluZz4KICAgICk6IEJvb2xlYW4gewogICAgICAgIGlmIChjb25maWcuYXBpS2V5LmlzQmxhbmsoKSkgewogICAgICAgICAgICB0aHJvdyBUdHNFeGNlcHRpb24oY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWluaW1heF90dHNfZXJyb3JfYXBpX2tleV9ub3Rfc2V0KSkKICAgICAgICB9CgogICAgICAgIGRlbGVnYXRlLnNldENvbmZpZ3VyYXRpb24oYnVpbGRIdHRwQ29uZmlnKCkpCgogICAgICAgIHZhbCByZXNvbHZlZFZvaWNlSWQgPSBleHRyYVBhcmFtc1sidm9pY2UiXT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0gPzogc2VsZWN0ZWRWb2ljZUlkCiAgICAgICAgdmFsIHJlc29sdmVkTW9kZWxOYW1lID0KICAgICAgICAgICAgZXh0cmFQYXJhbXNbIm1vZGVsIl0/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgICAgICA/OiBjb25maWcubW9kZWxOYW1lLnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgICAgICA/OiBERUZBVUxUX01PREVMX05BTUUKCiAgICAgICAgcmV0dXJuIGRlbGVnYXRlLnNwZWFrKAogICAgICAgICAgICB0ZXh0ID0gdGV4dCwKICAgICAgICAgICAgaW50ZXJydXB0ID0gaW50ZXJydXB0LAogICAgICAgICAgICByYXRlID0gcmF0ZSwKICAgICAgICAgICAgcGl0Y2ggPSBwaXRjaCwKICAgICAgICAgICAgZXh0cmFQYXJhbXMgPQogICAgICAgICAgICAgICAgZXh0cmFQYXJhbXMgKwogICAgICAgICAgICAgICAgICAgIG1hcE9mKAogICAgICAgICAgICAgICAgICAgICAgICAibW9kZWwiIHRvIHJlc29sdmVkTW9kZWxOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAidm9pY2VfaWQiIHRvIHJlc29sdmVkVm9pY2VJZAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICApCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc3RvcCgpOiBCb29sZWFuID0gZGVsZWdhdGUuc3RvcCgpCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcGF1c2UoKTogQm9vbGVhbiA9IGRlbGVnYXRlLnBhdXNlKCkKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biByZXN1bWUoKTogQm9vbGVhbiA9IGRlbGVnYXRlLnJlc3VtZSgpCgogICAgb3ZlcnJpZGUgZnVuIHNodXRkb3duKCkgewogICAgICAgIGRlbGVnYXRlLnNodXRkb3duKCkKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBnZXRBdmFpbGFibGVWb2ljZXMoKTogTGlzdDxWb2ljZVNlcnZpY2UuVm9pY2U+ID0gQVZBSUxBQkxFX1ZPSUNFUwoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHNldFZvaWNlKHZvaWNlSWQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHNlbGVjdGVkVm9pY2VJZCA9IHZvaWNlSWQuaWZCbGFuayB7IERFRkFVTFRfVk9JQ0VfSUQgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGRIdHRwQ29uZmlnKCk6IFNwZWVjaFNlcnZpY2VzUHJlZmVyZW5jZXMuVHRzSHR0cENvbmZpZyB7CiAgICAgICAgcmV0dXJuIFNwZWVjaFNlcnZpY2VzUHJlZmVyZW5jZXMuVHRzSHR0cENvbmZpZygKICAgICAgICAgICAgdXJsVGVtcGxhdGUgPSBjb25maWcudXJsVGVtcGxhdGUuaWZCbGFuayB7IERFRkFVTFRfRU5EUE9JTlRfVVJMIH0sCiAgICAgICAgICAgIGFwaUtleSA9IGNvbmZpZy5hcGlLZXkudHJpbSgpLAogICAgICAgICAgICBoZWFkZXJzID0gY29uZmlnLmhlYWRlcnMsCiAgICAgICAgICAgIGh0dHBNZXRob2QgPSAiUE9TVCIsCiAgICAgICAgICAgIHJlcXVlc3RCb2R5ID0KICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibW9kZWwiOiAie21vZGVsfSIsCiAgICAgICAgICAgICAgICAgICJ0ZXh0IjogInt0ZXh0fSIsCiAgICAgICAgICAgICAgICAgICJzdHJlYW0iOiBmYWxzZSwKICAgICAgICAgICAgICAgICAgIm91dHB1dF9mb3JtYXQiOiAidXJsIiwKICAgICAgICAgICAgICAgICAgInZvaWNlX3NldHRpbmciOiB7CiAgICAgICAgICAgICAgICAgICAgInZvaWNlX2lkIjogInt2b2ljZV9pZH0iLAogICAgICAgICAgICAgICAgICAgICJzcGVlZCI6IHtyYXRlfSwKICAgICAgICAgICAgICAgICAgICAidm9sIjogMSwKICAgICAgICAgICAgICAgICAgICAicGl0Y2giOiAwCiAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICJhdWRpb19zZXR0aW5nIjogewogICAgICAgICAgICAgICAgICAgICJzYW1wbGVfcmF0ZSI6IDMyMDAwLAogICAgICAgICAgICAgICAgICAgICJiaXRyYXRlIjogMTI4MDAwLAogICAgICAgICAgICAgICAgICAgICJmb3JtYXQiOiAibXAzIiwKICAgICAgICAgICAgICAgICAgICAiY2hhbm5lbCI6IDEKICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgInN1YnRpdGxlX2VuYWJsZSI6IGZhbHNlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAiIiIudHJpbUluZGVudCgpLAogICAgICAgICAgICBjb250ZW50VHlwZSA9ICJhcHBsaWNhdGlvbi9qc29uIiwKICAgICAgICAgICAgdm9pY2VJZCA9IHNlbGVjdGVkVm9pY2VJZCwKICAgICAgICAgICAgbW9kZWxOYW1lID0gY29uZmlnLm1vZGVsTmFtZS5pZkJsYW5rIHsgREVGQVVMVF9NT0RFTF9OQU1FIH0sCiAgICAgICAgICAgIHJlc3BvbnNlUGlwZWxpbmUgPSBERUZBVUxUX1JFU1BPTlNFX1BJUEVMSU5FCiAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.voice
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.preferences.SpeechServicesPreferences
+import kotlinx.coroutines.flow.Flow
+
+class MiniMaxVoiceProvider(
+    private val context: Context,
+    private val config: SpeechServicesPreferences.TtsHttpConfig
+) : VoiceService {
+
+    companion object {
+        const val DEFAULT_ENDPOINT_URL = "https://api.minimaxi.com/v1/t2a_v2"
+        const val DEFAULT_MODEL_NAME = "speech-2.8-hd"
+        const val DEFAULT_VOICE_ID = "male-qn-qingse"
+
+        val AVAILABLE_VOICES =
+            listOf(
+                VoiceService.Voice(
+                    id = DEFAULT_VOICE_ID,
+                    name = DEFAULT_VOICE_ID,
+                    locale = "zh-CN",
+                    gender = "MALE"
+                )
+            )
+
+        private val DEFAULT_RESPONSE_PIPELINE =
+            listOf(
+                HttpTtsResponsePipelineStep(type = HttpTtsResponsePipelineStep.TYPE_PARSE_JSON),
+                HttpTtsResponsePipelineStep(
+                    type = HttpTtsResponsePipelineStep.TYPE_PICK,
+                    path = "data.audio"
+                ),
+                HttpTtsResponsePipelineStep(type = HttpTtsResponsePipelineStep.TYPE_HTTP_GET)
+            )
+    }
+
+    private val delegate = HttpVoiceProvider(context)
+    private var selectedVoiceId: String = config.voiceId.ifBlank { DEFAULT_VOICE_ID }
+
+    override val isInitialized: Boolean
+        get() = delegate.isInitialized
+
+    override val isSpeaking: Boolean
+        get() = delegate.isSpeaking
+
+    override val speakingStateFlow: Flow<Boolean>
+        get() = delegate.speakingStateFlow
+
+    override suspend fun initialize(): Boolean {
+        if (config.apiKey.isBlank()) {
+            throw TtsException(context.getString(R.string.minimax_tts_error_api_key_not_set))
+        }
+
+        delegate.setConfiguration(buildHttpConfig())
+        return delegate.initialize()
+    }
+
+    override suspend fun speak(
+        text: String,
+        interrupt: Boolean,
+        rate: Float?,
+        pitch: Float?,
+        extraParams: Map<String, String>
+    ): Boolean {
+        if (config.apiKey.isBlank()) {
+            throw TtsException(context.getString(R.string.minimax_tts_error_api_key_not_set))
+        }
+
+        delegate.setConfiguration(buildHttpConfig())
+
+        val resolvedVoiceId = extraParams["voice"]?.takeIf { it.isNotBlank() } ?: selectedVoiceId
+        val resolvedModelName =
+            extraParams["model"]?.takeIf { it.isNotBlank() }
+                ?: config.modelName.takeIf { it.isNotBlank() }
+                ?: DEFAULT_MODEL_NAME
+
+        return delegate.speak(
+            text = text,
+            interrupt = interrupt,
+            rate = rate,
+            pitch = pitch,
+            extraParams =
+                extraParams +
+                    mapOf(
+                        "model" to resolvedModelName,
+                        "voice_id" to resolvedVoiceId
+                    )
+        )
+    }
+
+    override suspend fun stop(): Boolean = delegate.stop()
+
+    override suspend fun pause(): Boolean = delegate.pause()
+
+    override suspend fun resume(): Boolean = delegate.resume()
+
+    override fun shutdown() {
+        delegate.shutdown()
+    }
+
+    override suspend fun getAvailableVoices(): List<VoiceService.Voice> = AVAILABLE_VOICES
+
+    override suspend fun setVoice(voiceId: String): Boolean {
+        selectedVoiceId = voiceId.ifBlank { DEFAULT_VOICE_ID }
+        return true
+    }
+
+    private fun buildHttpConfig(): SpeechServicesPreferences.TtsHttpConfig {
+        return SpeechServicesPreferences.TtsHttpConfig(
+            urlTemplate = config.urlTemplate.ifBlank { DEFAULT_ENDPOINT_URL },
+            apiKey = config.apiKey.trim(),
+            headers = config.headers,
+            httpMethod = "POST",
+            requestBody =
+                """
+                {
+                  "model": "{model}",
+                  "text": "{text}",
+                  "stream": false,
+                  "output_format": "url",
+                  "voice_setting": {
+                    "voice_id": "{voice_id}",
+                    "speed": {rate},
+                    "vol": 1,
+                    "pitch": 0
+                  },
+                  "audio_setting": {
+                    "sample_rate": 32000,
+                    "bitrate": 128000,
+                    "format": "mp3",
+                    "channel": 1
+                  },
+                  "subtitle_enable": false
+                }
+                """.trimIndent(),
+            contentType = "application/json",
+            voiceId = selectedVoiceId,
+            modelName = config.modelName.ifBlank { DEFAULT_MODEL_NAME },
+            responsePipeline = DEFAULT_RESPONSE_PIPELINE
+        )
+    }
+}

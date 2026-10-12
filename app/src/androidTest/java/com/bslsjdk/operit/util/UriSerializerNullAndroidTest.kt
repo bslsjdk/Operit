@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0TnVsbAppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAoKQFJ1bldpdGgoQW5kcm9pZEpVbml0NDo6Y2xhc3MpCmNsYXNzIFVyaVNlcmlhbGl6ZXJOdWxsQW5kcm9pZFRlc3QgewoKICAgIEBUZXN0IGZ1biBzZXJpYWxpemVOdWxsX3JldHVybnNFbXB0eVN0cmluZ1BheWxvYWQoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJcIlwiIiwgSnNvbi5lbmNvZGVUb1N0cmluZyhVcmlTZXJpYWxpemVyLCBudWxsKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZGVzZXJpYWxpemVFbXB0eVN0cmluZ19yZXR1cm5zTnVsbCgpIHsKICAgICAgICBhc3NlcnROdWxsKEpzb24uZGVjb2RlRnJvbVN0cmluZyhVcmlTZXJpYWxpemVyLCAiXCJcIiIpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import kotlinx.serialization.json.Json
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class UriSerializerNullAndroidTest {
+
+    @Test fun serializeNull_returnsEmptyStringPayload() {
+        assertEquals("\"\"", Json.encodeToString(UriSerializer, null))
+    }
+
+    @Test fun deserializeEmptyString_returnsNull() {
+        assertNull(Json.decodeFromString(UriSerializer, "\"\""))
+    }
+}

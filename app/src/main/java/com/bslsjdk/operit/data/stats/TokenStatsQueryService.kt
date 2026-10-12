@@ -1,1 +1,293 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cy5QcmljaW5nQ3VycmVuY3kKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmRhby5Ub2tlblVzYWdlQWN0aXZpdHlEYXlSb3cKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmRhby5Ub2tlblVzYWdlTW9kZWxBZ2dyZWdhdGVSb3cKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRva2VuU3RhdHNNb2RlbEVudGl0eQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwubm9ybWFsaXplUHJvdmlkZXJNb2RlbAppbXBvcnQgamF2YS50aW1lLkluc3RhbnQKaW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGUKaW1wb3J0IGphdmEudGltZS5ab25lSWQKCi8qKiBTUUwtYmFja2VkIHN0YXRpc3RpY3MgcXVlcmllcy4gT25seSBhZ2dyZWdhdGUgcm93cyBsZWF2ZSBSb29tLiAqLwpvYmplY3QgVG9rZW5TdGF0c1F1ZXJ5U2VydmljZSB7CiAgICBzdXNwZW5kIGZ1biBsaWZldGltZU92ZXJ2aWV3KAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgcGFyYW1zOiBUb2tlblN0YXRzUXVlcnlQYXJhbXMsCiAgICApOiBUb2tlblN0YXRzTGlmZXRpbWVPdmVydmlldyB7CiAgICAgICAgdmFsIHJlcG9zaXRvcnkgPSBUb2tlblVzYWdlUmVwb3NpdG9yeS5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgICAgIHJldHVybiByZXBvc2l0b3J5LndpdGhEYW8geyBkYW8gLT4KICAgICAgICAgICAgdmFsIHJlcXVlc3RSb3dzID0gZGFvLmFnZ3JlZ2F0ZU1vZGVsc0ZvckxpZmV0aW1lKAogICAgICAgICAgICAgICAgcHJvdmlkZXJNb2RlbHMgPSBwYXJhbXMucHJvdmlkZXJNb2RlbHMucXVlcnlWYWx1ZXMoKSwKICAgICAgICAgICAgICAgIGFsbE1vZGVscyA9IHBhcmFtcy5wcm92aWRlck1vZGVscyA9PSBudWxsLAogICAgICAgICAgICApCiAgICAgICAgICAgIHZhbCBwcmljZXMgPSBkYW8uZ2V0QWxsU3RhdHNNb2RlbHMoKS50b1ByaWNlU25hcHNob3QoKQogICAgICAgICAgICBUb2tlblN0YXRzTGlmZXRpbWVPdmVydmlldygKICAgICAgICAgICAgICAgIHRvdGFscyA9IGNvbWJpbmVUb3RhbHMocmVxdWVzdFJvd3MubWFwIHsgaXQudG9Ub3RhbHMocHJpY2VzLCBwYXJhbXMpIH0sIHBhcmFtcyksCiAgICAgICAgICAgICAgICBkaXNwbGF5TW9kZWxzID0gYnVpbGREaXNwbGF5TW9kZWxzKHJlcXVlc3RSb3dzLCBwcmljZXMsIHBhcmFtcyksCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gcmFuZ2VEYXRhKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgcmFuZ2U6IFRva2VuU3RhdHNUaW1lUmFuZ2UsCiAgICAgICAgcGFyYW1zOiBUb2tlblN0YXRzUXVlcnlQYXJhbXMsCiAgICAgICAgem9uZTogWm9uZUlkLAogICAgKTogVG9rZW5TdGF0c1JhbmdlRGF0YSB7CiAgICAgICAgdmFsIHJlcG9zaXRvcnkgPSBUb2tlblVzYWdlUmVwb3NpdG9yeS5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgICAgIHJldHVybiByZXBvc2l0b3J5LndpdGhEYW8geyBkYW8gLT4KICAgICAgICAgICAgdmFsIHByaWNlcyA9IGRhby5nZXRBbGxTdGF0c01vZGVscygpLnRvUHJpY2VTbmFwc2hvdCgpCiAgICAgICAgICAgIHZhbCBtb2RlbFJvd3MgPSBkYW8uYWdncmVnYXRlTW9kZWxzSW5SYW5nZSgKICAgICAgICAgICAgICAgIHN0YXJ0TXMgPSByYW5nZS5zdGFydE1zLAogICAgICAgICAgICAgICAgZW5kTXMgPSByYW5nZS5lbmRNcywKICAgICAgICAgICAgICAgIHByb3ZpZGVyTW9kZWxzID0gcGFyYW1zLnByb3ZpZGVyTW9kZWxzLnF1ZXJ5VmFsdWVzKCksCiAgICAgICAgICAgICAgICBhbGxNb2RlbHMgPSBwYXJhbXMucHJvdmlkZXJNb2RlbHMgPT0gbnVsbCwKICAgICAgICAgICAgKQogICAgICAgICAgICB2YWwgZGlzcGxheU1vZGVscyA9IGJ1aWxkRGlzcGxheU1vZGVscyhtb2RlbFJvd3MsIHByaWNlcywgcGFyYW1zKQogICAgICAgICAgICB2YWwgc3VtbWFyeSA9IGNvbWJpbmVUb3RhbHMoZGlzcGxheU1vZGVscy5tYXAoVG9rZW5TdGF0c0Rpc3BsYXlNb2RlbEJyZWFrZG93bjo6dG90YWxzKSwgcGFyYW1zKQogICAgICAgICAgICB2YWwgZ3JhbnVsYXJpdHkgPSBUb2tlblN0YXRzVGltZVJhbmdlcy5ncmFudWxhcml0eUZvcihyYW5nZSkKICAgICAgICAgICAgdmFsIHN0YXJ0cyA9IFRva2VuU3RhdHNUaW1lUmFuZ2VzLmJ1Y2tldFN0YXJ0cyhyYW5nZSwgZ3JhbnVsYXJpdHksIHpvbmUpCiAgICAgICAgICAgIHZhbCBidWNrZXRzID0gc3RhcnRzLm1hcEluZGV4ZWQgeyBpbmRleCwgYnVja2V0U3RhcnQgLT4KICAgICAgICAgICAgICAgIHZhbCBidWNrZXRFbmQgPSBtaW5PZigKICAgICAgICAgICAgICAgICAgICByYW5nZS5lbmRNcywKICAgICAgICAgICAgICAgICAgICBUb2tlblN0YXRzVGltZVJhbmdlcy5idWNrZXRFbmRNcyhzdGFydHMsIGluZGV4LCBncmFudWxhcml0eSwgem9uZSksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB2YWwgYnVja2V0Um93cyA9IGRhby5hZ2dyZWdhdGVNb2RlbHNJblJhbmdlKAogICAgICAgICAgICAgICAgICAgIHN0YXJ0TXMgPSBtYXhPZihyYW5nZS5zdGFydE1zLCBidWNrZXRTdGFydCksCiAgICAgICAgICAgICAgICAgICAgZW5kTXMgPSBidWNrZXRFbmQsCiAgICAgICAgICAgICAgICAgICAgcHJvdmlkZXJNb2RlbHMgPSBwYXJhbXMucHJvdmlkZXJNb2RlbHMucXVlcnlWYWx1ZXMoKSwKICAgICAgICAgICAgICAgICAgICBhbGxNb2RlbHMgPSBwYXJhbXMucHJvdmlkZXJNb2RlbHMgPT0gbnVsbCwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHZhbCBtb2RlbHMgPSBidWlsZERpc3BsYXlNb2RlbHMoYnVja2V0Um93cywgcHJpY2VzLCBwYXJhbXMpCiAgICAgICAgICAgICAgICBUb2tlblN0YXRzVHJlbmRCdWNrZXQoCiAgICAgICAgICAgICAgICAgICAgYnVja2V0U3RhcnRNcyA9IGJ1Y2tldFN0YXJ0LAogICAgICAgICAgICAgICAgICAgIGJ1Y2tldEVuZE1zID0gYnVja2V0RW5kLAogICAgICAgICAgICAgICAgICAgIHRvdGFscyA9IGNvbWJpbmVUb3RhbHMobW9kZWxzLm1hcChUb2tlblN0YXRzRGlzcGxheU1vZGVsQnJlYWtkb3duOjp0b3RhbHMpLCBwYXJhbXMpLAogICAgICAgICAgICAgICAgICAgIGJ5TW9kZWwgPSBtb2RlbHMuYXNzb2NpYXRlIHsgaXQuZGlzcGxheU1vZGVsSWQgdG8gaXQudG90YWxzLnRvTW9kZWxCdWNrZXQoKSB9LAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFRva2VuU3RhdHNSYW5nZURhdGEoCiAgICAgICAgICAgICAgICByYW5nZSA9IHJhbmdlLAogICAgICAgICAgICAgICAgZ3JhbnVsYXJpdHkgPSBncmFudWxhcml0eSwKICAgICAgICAgICAgICAgIGV2ZW50Q291bnQgPSBzdW1tYXJ5LnRvdGFsVG9rZW5zLnRvdGFsRXZlbnRDb3VudCwKICAgICAgICAgICAgICAgIHN1bW1hcnkgPSBzdW1tYXJ5LAogICAgICAgICAgICAgICAgYnVja2V0cyA9IGJ1Y2tldHMsCiAgICAgICAgICAgICAgICBkaXNwbGF5TW9kZWxzID0gZGlzcGxheU1vZGVscywKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBpbnRlcm5hbCBzdXNwZW5kIGZ1biBlYXJsaWVzdE9jY3VycmVkRGF0ZSgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIHBhcmFtczogVG9rZW5TdGF0c1F1ZXJ5UGFyYW1zLAogICAgICAgIHpvbmU6IFpvbmVJZCwKICAgICk6IExvY2FsRGF0ZT8gewogICAgICAgIHZhbCByZXBvc2l0b3J5ID0gVG9rZW5Vc2FnZVJlcG9zaXRvcnkuZ2V0SW5zdGFuY2UoY29udGV4dCkKICAgICAgICByZXR1cm4gcmVwb3NpdG9yeS53aXRoRGFvIHsgZGFvIC0+CiAgICAgICAgICAgIGRhby5nZXRFYXJsaWVzdE9jY3VycmVkQXRNcygKICAgICAgICAgICAgICAgIHByb3ZpZGVyTW9kZWxzID0gcGFyYW1zLnByb3ZpZGVyTW9kZWxzLnF1ZXJ5VmFsdWVzKCksCiAgICAgICAgICAgICAgICBhbGxNb2RlbHMgPSBwYXJhbXMucHJvdmlkZXJNb2RlbHMgPT0gbnVsbCwKICAgICAgICAgICAgKT8ubGV0IHsgSW5zdGFudC5vZkVwb2NoTWlsbGkoaXQpLmF0Wm9uZSh6b25lKS50b0xvY2FsRGF0ZSgpIH0KICAgICAgICB9CiAgICB9CgogICAgaW50ZXJuYWwgc3VzcGVuZCBmdW4gYWN0aXZpdHlTbmFwc2hvdCgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIHJhbmdlOiBUb2tlblN0YXRzVGltZVJhbmdlLAogICAgICAgIHBhcmFtczogVG9rZW5TdGF0c1F1ZXJ5UGFyYW1zLAogICAgICAgIHpvbmU6IFpvbmVJZCwKICAgICk6IFRva2VuQWN0aXZpdHlTbmFwc2hvdCB7CiAgICAgICAgdmFsIHJlcG9zaXRvcnkgPSBUb2tlblVzYWdlUmVwb3NpdG9yeS5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgICAgIHJldHVybiByZXBvc2l0b3J5LndpdGhEYW8geyBkYW8gLT4KICAgICAgICAgICAgdmFsIGRheXMgPSBkYW8uZ2V0QWN0aXZpdHlEYXlzSW5SYW5nZSgKICAgICAgICAgICAgICAgIHN0YXJ0TXMgPSByYW5nZS5zdGFydE1zLAogICAgICAgICAgICAgICAgZW5kTXMgPSByYW5nZS5lbmRNcywKICAgICAgICAgICAgICAgIHByb3ZpZGVyTW9kZWxzID0gcGFyYW1zLnByb3ZpZGVyTW9kZWxzLnF1ZXJ5VmFsdWVzKCksCiAgICAgICAgICAgICAgICBhbGxNb2RlbHMgPSBwYXJhbXMucHJvdmlkZXJNb2RlbHMgPT0gbnVsbCwKICAgICAgICAgICAgKQogICAgICAgICAgICBUb2tlbkFjdGl2aXR5U25hcHNob3QoCiAgICAgICAgICAgICAgICB6b25lID0gem9uZSwKICAgICAgICAgICAgICAgIGRheVRvdGFscyA9CiAgICAgICAgICAgICAgICAgICAgZGF5cy5ncm91cEJ5KFRva2VuVXNhZ2VBY3Rpdml0eURheVJvdzo6bG9jYWxEYXRlKS5tYXBWYWx1ZXMgeyAoXywgcm93cykgLT4KICAgICAgICAgICAgICAgICAgICAgICAgcm93cy5mb2xkKDBMKSB7IHRvdGFsLCByb3cgLT4gVG9rZW5Db3N0Q2FsY3VsYXRvci5zYXR1cmF0ZWRBZGQodG90YWwsIHJvdy50b2tlbnMpIH0KICAgICAgICAgICAgICAgICAgICB9Lm1hcEtleXMgeyAoZGF0ZSwgXykgLT4gTG9jYWxEYXRlLnBhcnNlKGRhdGUpIH0sCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGREaXNwbGF5TW9kZWxzKAogICAgICAgIHJvd3M6IExpc3Q8VG9rZW5Vc2FnZU1vZGVsQWdncmVnYXRlUm93PiwKICAgICAgICBwcmljZXM6IFRva2VuUHJpY2VTZXR0aW5nc1NuYXBzaG90LAogICAgICAgIHBhcmFtczogVG9rZW5TdGF0c1F1ZXJ5UGFyYW1zLAogICAgKTogTGlzdDxUb2tlblN0YXRzRGlzcGxheU1vZGVsQnJlYWtkb3duPiA9CiAgICAgICAgcm93cy5ncm91cEJ5IHsgcm93IC0+IGRpc3BsYXlNb2RlbElkRm9yKHJvdy5tb2RlbCkgfQogICAgICAgICAgICAubWFwIHsgKGRpc3BsYXlNb2RlbElkLCBncm91cFJvd3MpIC0+CiAgICAgICAgICAgICAgICB2YWwgaWRlbnRpdGllcyA9IGdyb3VwUm93cy5tYXAgeyByb3cgLT4KICAgICAgICAgICAgICAgICAgICBUb2tlblN0YXRzSWRlbnRpdHlCcmVha2Rvd24oCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbmZpZ0lkID0gcm93LmNvbmZpZ0lkLAogICAgICAgICAgICAgICAgICAgICAgICBwcm92aWRlciA9IHJvdy5wcm92aWRlciwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kZWwgPSByb3cubW9kZWwsCiAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFscyA9IHJvdy50b1RvdGFscyhwcmljZXMsIHBhcmFtcyksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgVG9rZW5TdGF0c0Rpc3BsYXlNb2RlbEJyZWFrZG93bigKICAgICAgICAgICAgICAgICAgICBkaXNwbGF5TW9kZWxJZCA9IGRpc3BsYXlNb2RlbElkLAogICAgICAgICAgICAgICAgICAgIGRpc3BsYXlOYW1lID0gZ3JvdXBSb3dzLmZpcnN0KCkubW9kZWwsCiAgICAgICAgICAgICAgICAgICAgbm9ybWFsaXplZE1vZGVsID0gZ3JvdXBSb3dzLmZpcnN0KCkubW9kZWwudHJpbSgpLmxvd2VyY2FzZSgpLAogICAgICAgICAgICAgICAgICAgIHRvdGFscyA9IGNvbWJpbmVUb3RhbHMoaWRlbnRpdGllcy5tYXAoVG9rZW5TdGF0c0lkZW50aXR5QnJlYWtkb3duOjp0b3RhbHMpLCBwYXJhbXMpLAogICAgICAgICAgICAgICAgICAgIGlkZW50aXRpZXMgPSBpZGVudGl0aWVzLAogICAgICAgICAgICAgICAgICAgIHByb3ZpZGVyTW9kZWxzID0gZ3JvdXBSb3dzLm1hcChUb2tlblVzYWdlTW9kZWxBZ2dyZWdhdGVSb3c6OnByb3ZpZGVyTW9kZWwpLmRpc3RpbmN0KCksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgLnNvcnRlZEJ5RGVzY2VuZGluZyB7IGl0LnRvdGFscy50b3RhbFRva2Vucy5rbm93blN1bSB9CgogICAgcHJpdmF0ZSBmdW4gVG9rZW5Vc2FnZU1vZGVsQWdncmVnYXRlUm93LnRvVG90YWxzKAogICAgICAgIHByaWNlczogVG9rZW5QcmljZVNldHRpbmdzU25hcHNob3QsCiAgICAgICAgcGFyYW1zOiBUb2tlblN0YXRzUXVlcnlQYXJhbXMsCiAgICApOiBUb2tlblN0YXRzVG90YWxzIHsKICAgICAgICB2YWwgdXNhZ2VSb3cgPSBub3JtYWxpemVMZWdhY3lDYWNoZVdyaXRlVXNhZ2UodGhpcykKICAgICAgICB2YWwgcHJpY2luZ1Byb3ZpZGVyTW9kZWwgPSBub3JtYWxpemVQcm92aWRlck1vZGVsKHVzYWdlUm93LnByb3ZpZGVyTW9kZWwpCiAgICAgICAgdmFsIHByaWNpbmcgPSBUb2tlblByaWNlUmVzb2x2ZXIucmVzb2x2ZSgKICAgICAgICAgICAgcHJpY2luZ1Byb3ZpZGVyTW9kZWwsCiAgICAgICAgICAgIHByaWNlcy5zZXR0aW5nRm9yKHByaWNpbmdQcm92aWRlck1vZGVsLCB1c2FnZVJvdy5jb25maWdJZCksCiAgICAgICAgKQogICAgICAgIHZhbCBpbnB1dCA9IGNvbXBvbmVudCh1c2FnZVJvdy51bmNhY2hlZElucHV0VG9rZW5zLCB1c2FnZVJvdy51bmNhY2hlZElucHV0S25vd24sIHVzYWdlUm93LnJlcXVlc3RzKQogICAgICAgIHZhbCBjYWNoZWQgPSBjb21wb25lbnQodXNhZ2VSb3cuY2FjaGVkSW5wdXRUb2tlbnMsIHVzYWdlUm93LmNhY2hlZElucHV0S25vd24sIHVzYWdlUm93LnJlcXVlc3RzKQogICAgICAgIHZhbCBjYWNoZVdyaXRlID0gY29tcG9uZW50KHVzYWdlUm93LmNhY2hlV3JpdGVUb2tlbnMsIHVzYWdlUm93LmNhY2hlV3JpdGVLbm93biwgdXNhZ2VSb3cucmVxdWVzdHMpCiAgICAgICAgdmFsIHRvdGFsSW5wdXQgPQogICAgICAgICAgICBpZiAodXNhZ2VSb3cudG90YWxJbnB1dEtub3duID4gMEwpIHsKICAgICAgICAgICAgICAgIGNvbXBvbmVudCh1c2FnZVJvdy50b3RhbElucHV0VG9rZW5zLCB1c2FnZVJvdy50b3RhbElucHV0S25vd24sIHVzYWdlUm93LnJlcXVlc3RzKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgY29tYmluZUNvbXBvbmVudHMobGlzdE9mKGlucHV0LCBjYWNoZWQsIGNhY2hlV3JpdGUpLCB1c2FnZVJvdy5yZXF1ZXN0cykKICAgICAgICAgICAgfQogICAgICAgIHZhbCBvdXRwdXQgPSBjb21wb25lbnQodXNhZ2VSb3cub3V0cHV0VG9rZW5zLCB1c2FnZVJvdy5vdXRwdXRLbm93biwgdXNhZ2VSb3cucmVxdWVzdHMpCiAgICAgICAgcmV0dXJuIFRva2VuU3RhdHNUb3RhbHMoCiAgICAgICAgICAgIHJlcXVlc3RzID0gdXNhZ2VSb3cucmVxdWVzdHMsCiAgICAgICAgICAgIHVuY2FjaGVkSW5wdXQgPSBpbnB1dCwKICAgICAgICAgICAgY2FjaGVkSW5wdXQgPSBjYWNoZWQsCiAgICAgICAgICAgIHRvdGFsSW5wdXQgPSB0b3RhbElucHV0LAogICAgICAgICAgICBvdXRwdXQgPSBvdXRwdXQsCiAgICAgICAgICAgIHRvdGFsVG9rZW5zID0gY29tYmluZUNvbXBvbmVudHMobGlzdE9mKHRvdGFsSW5wdXQsIG91dHB1dCksIHVzYWdlUm93LnJlcXVlc3RzKSwKICAgICAgICAgICAgY29zdCA9IFRva2VuQ29zdENhbGN1bGF0b3IuY3VycmVudENvc3QoCiAgICAgICAgICAgICAgICB1c2FnZVJvdywKICAgICAgICAgICAgICAgIHByaWNpbmcsCiAgICAgICAgICAgICAgICBwYXJhbXMudGFyZ2V0Q3VycmVuY3ksCiAgICAgICAgICAgICAgICBwYXJhbXMubWFudWFsUmF0ZSwKICAgICAgICAgICAgKSwKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY29tYmluZVRvdGFscygKICAgICAgICB2YWx1ZXM6IExpc3Q8VG9rZW5TdGF0c1RvdGFscz4sCiAgICAgICAgcGFyYW1zOiBUb2tlblN0YXRzUXVlcnlQYXJhbXMsCiAgICApOiBUb2tlblN0YXRzVG90YWxzIHsKICAgICAgICBpZiAodmFsdWVzLmlzRW1wdHkoKSkgcmV0dXJuIGVtcHR5VG90YWxzKHBhcmFtcykKICAgICAgICByZXR1cm4gVG9rZW5TdGF0c1RvdGFscygKICAgICAgICAgICAgcmVxdWVzdHMgPSB2YWx1ZXMuc3VtTG9uZyhUb2tlblN0YXRzVG90YWxzOjpyZXF1ZXN0cyksCiAgICAgICAgICAgIHVuY2FjaGVkSW5wdXQgPSB2YWx1ZXMuY29tYmluZUNvbXBvbmVudHMoVG9rZW5TdGF0c1RvdGFsczo6dW5jYWNoZWRJbnB1dCksCiAgICAgICAgICAgIGNhY2hlZElucHV0ID0gdmFsdWVzLmNvbWJpbmVDb21wb25lbnRzKFRva2VuU3RhdHNUb3RhbHM6OmNhY2hlZElucHV0KSwKICAgICAgICAgICAgdG90YWxJbnB1dCA9IHZhbHVlcy5jb21iaW5lQ29tcG9uZW50cyhUb2tlblN0YXRzVG90YWxzOjp0b3RhbElucHV0KSwKICAgICAgICAgICAgb3V0cHV0ID0gdmFsdWVzLmNvbWJpbmVDb21wb25lbnRzKFRva2VuU3RhdHNUb3RhbHM6Om91dHB1dCksCiAgICAgICAgICAgIHRvdGFsVG9rZW5zID0gdmFsdWVzLmNvbWJpbmVDb21wb25lbnRzKFRva2VuU3RhdHNUb3RhbHM6OnRvdGFsVG9rZW5zKSwKICAgICAgICAgICAgY29zdCA9IFRva2VuU3RhdHNDb3N0U3VtbWFyeSgKICAgICAgICAgICAgICAgIGN1cnJlbmN5ID0gcGFyYW1zLnRhcmdldEN1cnJlbmN5LAogICAgICAgICAgICAgICAga25vd25BbW91bnQgPSB2YWx1ZXMuc3VtT2YgeyBpdC5jb3N0Lmtub3duQW1vdW50IH0sCiAgICAgICAgICAgICAgICB1bmtub3duQ29udHJpYnV0aW9uQ291bnQgPSB2YWx1ZXMuc3VtTG9uZyB7IGl0LmNvc3QudW5rbm93bkNvbnRyaWJ1dGlvbkNvdW50IH0sCiAgICAgICAgICAgICAgICB0b3RhbENvbnRyaWJ1dGlvbkNvdW50ID0gdmFsdWVzLnN1bUxvbmcgeyBpdC5jb3N0LnRvdGFsQ29udHJpYnV0aW9uQ291bnQgfSwKICAgICAgICAgICAgICAgIHJhdGVVc2VkID0gcGFyYW1zLm1hbnVhbFJhdGUsCiAgICAgICAgICAgICAgICBvcmlnaW5hbEN1cnJlbmN5QW1vdW50cyA9IHZhbHVlcwogICAgICAgICAgICAgICAgICAgIC5mbGF0TWFwIHsgaXQuY29zdC5vcmlnaW5hbEN1cnJlbmN5QW1vdW50cy5lbnRyaWVzIH0KICAgICAgICAgICAgICAgICAgICAuZ3JvdXBCeSh7IGl0LmtleSB9LCB7IGl0LnZhbHVlIH0pCiAgICAgICAgICAgICAgICAgICAgLm1hcFZhbHVlcyB7IChfLCBhbW91bnRzKSAtPiBhbW91bnRzLnN1bSgpIH0sCiAgICAgICAgICAgICksCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIFRva2VuU3RhdHNUb3RhbHMudG9Nb2RlbEJ1Y2tldCgpID0gVG9rZW5TdGF0c01vZGVsQnVja2V0KAogICAgICAgIHJlcXVlc3RzID0gcmVxdWVzdHMsCiAgICAgICAgdW5jYWNoZWRJbnB1dCA9IHVuY2FjaGVkSW5wdXQua25vd25TdW0sCiAgICAgICAgY2FjaGVkSW5wdXQgPSBjYWNoZWRJbnB1dC5rbm93blN1bSwKICAgICAgICBvdXRwdXQgPSBvdXRwdXQua25vd25TdW0sCiAgICAgICAgdG90YWxUb2tlbnMgPSB0b3RhbFRva2Vucy5rbm93blN1bSwKICAgICAgICB0b3RhbFRva2Vuc1Vua25vd25FdmVudENvdW50ID0gdG90YWxUb2tlbnMudW5rbm93bkV2ZW50Q291bnQsCiAgICAgICAgdW5rbm93blRva2VuRXZlbnRDb3VudCA9IG1heE9mKAogICAgICAgICAgICB1bmNhY2hlZElucHV0LnVua25vd25FdmVudENvdW50LAogICAgICAgICAgICBjYWNoZWRJbnB1dC51bmtub3duRXZlbnRDb3VudCwKICAgICAgICAgICAgb3V0cHV0LnVua25vd25FdmVudENvdW50LAogICAgICAgICksCiAgICAgICAgY29zdCA9IGNvc3QsCiAgICApCgogICAgcHJpdmF0ZSBmdW4gZW1wdHlUb3RhbHMocGFyYW1zOiBUb2tlblN0YXRzUXVlcnlQYXJhbXMpOiBUb2tlblN0YXRzVG90YWxzIHsKICAgICAgICB2YWwgZW1wdHkgPSBjb21wb25lbnQoMEwsIDBMLCAwTCkKICAgICAgICByZXR1cm4gVG9rZW5TdGF0c1RvdGFscygKICAgICAgICAgICAgcmVxdWVzdHMgPSAwTCwKICAgICAgICAgICAgdW5jYWNoZWRJbnB1dCA9IGVtcHR5LAogICAgICAgICAgICBjYWNoZWRJbnB1dCA9IGVtcHR5LAogICAgICAgICAgICB0b3RhbElucHV0ID0gZW1wdHksCiAgICAgICAgICAgIG91dHB1dCA9IGVtcHR5LAogICAgICAgICAgICB0b3RhbFRva2VucyA9IGVtcHR5LAogICAgICAgICAgICBjb3N0ID0gVG9rZW5TdGF0c0Nvc3RTdW1tYXJ5KAogICAgICAgICAgICAgICAgY3VycmVuY3kgPSBwYXJhbXMudGFyZ2V0Q3VycmVuY3ksCiAgICAgICAgICAgICAgICBrbm93bkFtb3VudCA9IDAuMCwKICAgICAgICAgICAgICAgIHVua25vd25Db250cmlidXRpb25Db3VudCA9IDBMLAogICAgICAgICAgICAgICAgdG90YWxDb250cmlidXRpb25Db3VudCA9IDBMLAogICAgICAgICAgICAgICAgcmF0ZVVzZWQgPSBwYXJhbXMubWFudWFsUmF0ZSwKICAgICAgICAgICAgICAgIG9yaWdpbmFsQ3VycmVuY3lBbW91bnRzID0gZW1wdHlNYXAoKSwKICAgICAgICAgICAgKSwKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY29tcG9uZW50KHN1bTogTG9uZywga25vd246IExvbmcsIHRvdGFsOiBMb25nKSA9CiAgICAgICAgVG9rZW5TdGF0c1Rva2VuQWdncmVnYXRlKHN1bSwga25vd24sICh0b3RhbCAtIGtub3duKS5jb2VyY2VBdExlYXN0KDBMKSwgdG90YWwpCgogICAgcHJpdmF0ZSBmdW4gY29tYmluZUNvbXBvbmVudHMoCiAgICAgICAgY29tcG9uZW50czogTGlzdDxUb2tlblN0YXRzVG9rZW5BZ2dyZWdhdGU+LAogICAgICAgIGNvbnRyaWJ1dGlvbkNvdW50OiBMb25nLAogICAgKTogVG9rZW5TdGF0c1Rva2VuQWdncmVnYXRlIHsKICAgICAgICB2YWwga25vd24gPSBjb21wb25lbnRzLm1pbk9mT3JOdWxsKFRva2VuU3RhdHNUb2tlbkFnZ3JlZ2F0ZTo6a25vd25FdmVudENvdW50KSA/OiAwTAogICAgICAgIHJldHVybiBUb2tlblN0YXRzVG9rZW5BZ2dyZWdhdGUoCiAgICAgICAgICAgIGtub3duU3VtID0gY29tcG9uZW50cy5zdW1Mb25nKFRva2VuU3RhdHNUb2tlbkFnZ3JlZ2F0ZTo6a25vd25TdW0pLAogICAgICAgICAgICBrbm93bkV2ZW50Q291bnQgPSBrbm93biwKICAgICAgICAgICAgdW5rbm93bkV2ZW50Q291bnQgPSAoY29udHJpYnV0aW9uQ291bnQgLSBrbm93bikuY29lcmNlQXRMZWFzdCgwTCksCiAgICAgICAgICAgIHRvdGFsRXZlbnRDb3VudCA9IGNvbnRyaWJ1dGlvbkNvdW50LAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBMaXN0PFRva2VuU3RhdHNUb3RhbHM+LmNvbWJpbmVDb21wb25lbnRzKAogICAgICAgIHNlbGVjdG9yOiAoVG9rZW5TdGF0c1RvdGFscykgLT4gVG9rZW5TdGF0c1Rva2VuQWdncmVnYXRlLAogICAgKTogVG9rZW5TdGF0c1Rva2VuQWdncmVnYXRlIHsKICAgICAgICB2YWwgdmFsdWVzID0gbWFwKHNlbGVjdG9yKQogICAgICAgIHJldHVybiBUb2tlblN0YXRzVG9rZW5BZ2dyZWdhdGUoCiAgICAgICAgICAgIGtub3duU3VtID0gdmFsdWVzLnN1bUxvbmcoVG9rZW5TdGF0c1Rva2VuQWdncmVnYXRlOjprbm93blN1bSksCiAgICAgICAgICAgIGtub3duRXZlbnRDb3VudCA9IHZhbHVlcy5zdW1Mb25nKFRva2VuU3RhdHNUb2tlbkFnZ3JlZ2F0ZTo6a25vd25FdmVudENvdW50KSwKICAgICAgICAgICAgdW5rbm93bkV2ZW50Q291bnQgPSB2YWx1ZXMuc3VtTG9uZyhUb2tlblN0YXRzVG9rZW5BZ2dyZWdhdGU6OnVua25vd25FdmVudENvdW50KSwKICAgICAgICAgICAgdG90YWxFdmVudENvdW50ID0gdmFsdWVzLnN1bUxvbmcoVG9rZW5TdGF0c1Rva2VuQWdncmVnYXRlOjp0b3RhbEV2ZW50Q291bnQpLAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biA8VD4gSXRlcmFibGU8VD4uc3VtTG9uZyhzZWxlY3RvcjogKFQpIC0+IExvbmcpOiBMb25nID0KICAgICAgICBmb2xkKDBMKSB7IHN1bSwgaXRlbSAtPiBUb2tlbkNvc3RDYWxjdWxhdG9yLnNhdHVyYXRlZEFkZChzdW0sIHNlbGVjdG9yKGl0ZW0pKSB9CgogICAgcHJpdmF0ZSBmdW4gU2V0PFN0cmluZz4/LnF1ZXJ5VmFsdWVzKCk6IExpc3Q8U3RyaW5nPiA9CiAgICAgICAgaWYgKHRoaXMgPT0gbnVsbCB8fCBpc0VtcHR5KCkpIGxpc3RPZigiX19ub25lX18iKSBlbHNlIHRvTGlzdCgpCgogICAgcHJpdmF0ZSBmdW4gZGlzcGxheU1vZGVsSWRGb3IobW9kZWw6IFN0cmluZyk6IFN0cmluZyA9ICJtb2RlbDoke21vZGVsLnRyaW0oKS5sb3dlcmNhc2UoKX0iCgogICAgcHJpdmF0ZSBmdW4gTGlzdDxUb2tlblN0YXRzTW9kZWxFbnRpdHk+LnRvUHJpY2VTbmFwc2hvdCgpOiBUb2tlblByaWNlU2V0dGluZ3NTbmFwc2hvdCB7CiAgICAgICAgdmFsIHByaWNlUm93cyA9IGZpbHRlcihUb2tlblN0YXRzTW9kZWxFbnRpdHk6Omhhc1ByaWNlU2V0dGluZykKICAgICAgICByZXR1cm4gVG9rZW5QcmljZVNldHRpbmdzU25hcHNob3QoCiAgICAgICAgICAgIHByb3ZpZGVyTW9kZWxzID0gcHJpY2VSb3dzCiAgICAgICAgICAgICAgICAuZmlsdGVyIHsgaXQuY29uZmlnSWQuaXNFbXB0eSgpIH0KICAgICAgICAgICAgICAgIC5hc3NvY2lhdGUgeyByb3cgLT4gIiR7cm93LnByb3ZpZGVyfToke3Jvdy5tb2RlbH0iIHRvIHJvdy50b01vZGVsUHJpY2VTZXR0aW5ncygpIH0sCiAgICAgICAgICAgIGNvbmZpZ3MgPSBwcmljZVJvd3MKICAgICAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5jb25maWdJZC5pc05vdEVtcHR5KCkgfQogICAgICAgICAgICAgICAgLmFzc29jaWF0ZSB7IHJvdyAtPgogICAgICAgICAgICAgICAgICAgIHRva2VuUHJpY2VDb25maWdLZXkoIiR7cm93LnByb3ZpZGVyfToke3Jvdy5tb2RlbH0iLCByb3cuY29uZmlnSWQpIHRvCiAgICAgICAgICAgICAgICAgICAgICAgIHJvdy50b01vZGVsUHJpY2VTZXR0aW5ncygpCiAgICAgICAgICAgICAgICB9LAogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.stats
+
+import android.content.Context
+import com.bslsjdk.operit.data.collects.PricingCurrency
+import com.bslsjdk.operit.data.dao.TokenUsageActivityDayRow
+import com.bslsjdk.operit.data.dao.TokenUsageModelAggregateRow
+import com.bslsjdk.operit.data.model.TokenStatsModelEntity
+import com.bslsjdk.operit.data.model.normalizeProviderModel
+import java.time.Instant
+import java.time.LocalDate
+import java.time.ZoneId
+
+/** SQL-backed statistics queries. Only aggregate rows leave Room. */
+object TokenStatsQueryService {
+    suspend fun lifetimeOverview(
+        context: Context,
+        params: TokenStatsQueryParams,
+    ): TokenStatsLifetimeOverview {
+        val repository = TokenUsageRepository.getInstance(context)
+        return repository.withDao { dao ->
+            val requestRows = dao.aggregateModelsForLifetime(
+                providerModels = params.providerModels.queryValues(),
+                allModels = params.providerModels == null,
+            )
+            val prices = dao.getAllStatsModels().toPriceSnapshot()
+            TokenStatsLifetimeOverview(
+                totals = combineTotals(requestRows.map { it.toTotals(prices, params) }, params),
+                displayModels = buildDisplayModels(requestRows, prices, params),
+            )
+        }
+    }
+
+    suspend fun rangeData(
+        context: Context,
+        range: TokenStatsTimeRange,
+        params: TokenStatsQueryParams,
+        zone: ZoneId,
+    ): TokenStatsRangeData {
+        val repository = TokenUsageRepository.getInstance(context)
+        return repository.withDao { dao ->
+            val prices = dao.getAllStatsModels().toPriceSnapshot()
+            val modelRows = dao.aggregateModelsInRange(
+                startMs = range.startMs,
+                endMs = range.endMs,
+                providerModels = params.providerModels.queryValues(),
+                allModels = params.providerModels == null,
+            )
+            val displayModels = buildDisplayModels(modelRows, prices, params)
+            val summary = combineTotals(displayModels.map(TokenStatsDisplayModelBreakdown::totals), params)
+            val granularity = TokenStatsTimeRanges.granularityFor(range)
+            val starts = TokenStatsTimeRanges.bucketStarts(range, granularity, zone)
+            val buckets = starts.mapIndexed { index, bucketStart ->
+                val bucketEnd = minOf(
+                    range.endMs,
+                    TokenStatsTimeRanges.bucketEndMs(starts, index, granularity, zone),
+                )
+                val bucketRows = dao.aggregateModelsInRange(
+                    startMs = maxOf(range.startMs, bucketStart),
+                    endMs = bucketEnd,
+                    providerModels = params.providerModels.queryValues(),
+                    allModels = params.providerModels == null,
+                )
+                val models = buildDisplayModels(bucketRows, prices, params)
+                TokenStatsTrendBucket(
+                    bucketStartMs = bucketStart,
+                    bucketEndMs = bucketEnd,
+                    totals = combineTotals(models.map(TokenStatsDisplayModelBreakdown::totals), params),
+                    byModel = models.associate { it.displayModelId to it.totals.toModelBucket() },
+                )
+            }
+            TokenStatsRangeData(
+                range = range,
+                granularity = granularity,
+                eventCount = summary.totalTokens.totalEventCount,
+                summary = summary,
+                buckets = buckets,
+                displayModels = displayModels,
+            )
+        }
+    }
+
+    internal suspend fun earliestOccurredDate(
+        context: Context,
+        params: TokenStatsQueryParams,
+        zone: ZoneId,
+    ): LocalDate? {
+        val repository = TokenUsageRepository.getInstance(context)
+        return repository.withDao { dao ->
+            dao.getEarliestOccurredAtMs(
+                providerModels = params.providerModels.queryValues(),
+                allModels = params.providerModels == null,
+            )?.let { Instant.ofEpochMilli(it).atZone(zone).toLocalDate() }
+        }
+    }
+
+    internal suspend fun activitySnapshot(
+        context: Context,
+        range: TokenStatsTimeRange,
+        params: TokenStatsQueryParams,
+        zone: ZoneId,
+    ): TokenActivitySnapshot {
+        val repository = TokenUsageRepository.getInstance(context)
+        return repository.withDao { dao ->
+            val days = dao.getActivityDaysInRange(
+                startMs = range.startMs,
+                endMs = range.endMs,
+                providerModels = params.providerModels.queryValues(),
+                allModels = params.providerModels == null,
+            )
+            TokenActivitySnapshot(
+                zone = zone,
+                dayTotals =
+                    days.groupBy(TokenUsageActivityDayRow::localDate).mapValues { (_, rows) ->
+                        rows.fold(0L) { total, row -> TokenCostCalculator.saturatedAdd(total, row.tokens) }
+                    }.mapKeys { (date, _) -> LocalDate.parse(date) },
+            )
+        }
+    }
+
+    private fun buildDisplayModels(
+        rows: List<TokenUsageModelAggregateRow>,
+        prices: TokenPriceSettingsSnapshot,
+        params: TokenStatsQueryParams,
+    ): List<TokenStatsDisplayModelBreakdown> =
+        rows.groupBy { row -> displayModelIdFor(row.model) }
+            .map { (displayModelId, groupRows) ->
+                val identities = groupRows.map { row ->
+                    TokenStatsIdentityBreakdown(
+                        configId = row.configId,
+                        provider = row.provider,
+                        model = row.model,
+                        totals = row.toTotals(prices, params),
+                    )
+                }
+                TokenStatsDisplayModelBreakdown(
+                    displayModelId = displayModelId,
+                    displayName = groupRows.first().model,
+                    normalizedModel = groupRows.first().model.trim().lowercase(),
+                    totals = combineTotals(identities.map(TokenStatsIdentityBreakdown::totals), params),
+                    identities = identities,
+                    providerModels = groupRows.map(TokenUsageModelAggregateRow::providerModel).distinct(),
+                )
+            }
+            .sortedByDescending { it.totals.totalTokens.knownSum }
+
+    private fun TokenUsageModelAggregateRow.toTotals(
+        prices: TokenPriceSettingsSnapshot,
+        params: TokenStatsQueryParams,
+    ): TokenStatsTotals {
+        val usageRow = normalizeLegacyCacheWriteUsage(this)
+        val pricingProviderModel = normalizeProviderModel(usageRow.providerModel)
+        val pricing = TokenPriceResolver.resolve(
+            pricingProviderModel,
+            prices.settingFor(pricingProviderModel, usageRow.configId),
+        )
+        val input = component(usageRow.uncachedInputTokens, usageRow.uncachedInputKnown, usageRow.requests)
+        val cached = component(usageRow.cachedInputTokens, usageRow.cachedInputKnown, usageRow.requests)
+        val cacheWrite = component(usageRow.cacheWriteTokens, usageRow.cacheWriteKnown, usageRow.requests)
+        val totalInput =
+            if (usageRow.totalInputKnown > 0L) {
+                component(usageRow.totalInputTokens, usageRow.totalInputKnown, usageRow.requests)
+            } else {
+                combineComponents(listOf(input, cached, cacheWrite), usageRow.requests)
+            }
+        val output = component(usageRow.outputTokens, usageRow.outputKnown, usageRow.requests)
+        return TokenStatsTotals(
+            requests = usageRow.requests,
+            uncachedInput = input,
+            cachedInput = cached,
+            totalInput = totalInput,
+            output = output,
+            totalTokens = combineComponents(listOf(totalInput, output), usageRow.requests),
+            cost = TokenCostCalculator.currentCost(
+                usageRow,
+                pricing,
+                params.targetCurrency,
+                params.manualRate,
+            ),
+        )
+    }
+
+    private fun combineTotals(
+        values: List<TokenStatsTotals>,
+        params: TokenStatsQueryParams,
+    ): TokenStatsTotals {
+        if (values.isEmpty()) return emptyTotals(params)
+        return TokenStatsTotals(
+            requests = values.sumLong(TokenStatsTotals::requests),
+            uncachedInput = values.combineComponents(TokenStatsTotals::uncachedInput),
+            cachedInput = values.combineComponents(TokenStatsTotals::cachedInput),
+            totalInput = values.combineComponents(TokenStatsTotals::totalInput),
+            output = values.combineComponents(TokenStatsTotals::output),
+            totalTokens = values.combineComponents(TokenStatsTotals::totalTokens),
+            cost = TokenStatsCostSummary(
+                currency = params.targetCurrency,
+                knownAmount = values.sumOf { it.cost.knownAmount },
+                unknownContributionCount = values.sumLong { it.cost.unknownContributionCount },
+                totalContributionCount = values.sumLong { it.cost.totalContributionCount },
+                rateUsed = params.manualRate,
+                originalCurrencyAmounts = values
+                    .flatMap { it.cost.originalCurrencyAmounts.entries }
+                    .groupBy({ it.key }, { it.value })
+                    .mapValues { (_, amounts) -> amounts.sum() },
+            ),
+        )
+    }
+
+    private fun TokenStatsTotals.toModelBucket() = TokenStatsModelBucket(
+        requests = requests,
+        uncachedInput = uncachedInput.knownSum,
+        cachedInput = cachedInput.knownSum,
+        output = output.knownSum,
+        totalTokens = totalTokens.knownSum,
+        totalTokensUnknownEventCount = totalTokens.unknownEventCount,
+        unknownTokenEventCount = maxOf(
+            uncachedInput.unknownEventCount,
+            cachedInput.unknownEventCount,
+            output.unknownEventCount,
+        ),
+        cost = cost,
+    )
+
+    private fun emptyTotals(params: TokenStatsQueryParams): TokenStatsTotals {
+        val empty = component(0L, 0L, 0L)
+        return TokenStatsTotals(
+            requests = 0L,
+            uncachedInput = empty,
+            cachedInput = empty,
+            totalInput = empty,
+            output = empty,
+            totalTokens = empty,
+            cost = TokenStatsCostSummary(
+                currency = params.targetCurrency,
+                knownAmount = 0.0,
+                unknownContributionCount = 0L,
+                totalContributionCount = 0L,
+                rateUsed = params.manualRate,
+                originalCurrencyAmounts = emptyMap(),
+            ),
+        )
+    }
+
+    private fun component(sum: Long, known: Long, total: Long) =
+        TokenStatsTokenAggregate(sum, known, (total - known).coerceAtLeast(0L), total)
+
+    private fun combineComponents(
+        components: List<TokenStatsTokenAggregate>,
+        contributionCount: Long,
+    ): TokenStatsTokenAggregate {
+        val known = components.minOfOrNull(TokenStatsTokenAggregate::knownEventCount) ?: 0L
+        return TokenStatsTokenAggregate(
+            knownSum = components.sumLong(TokenStatsTokenAggregate::knownSum),
+            knownEventCount = known,
+            unknownEventCount = (contributionCount - known).coerceAtLeast(0L),
+            totalEventCount = contributionCount,
+        )
+    }
+
+    private fun List<TokenStatsTotals>.combineComponents(
+        selector: (TokenStatsTotals) -> TokenStatsTokenAggregate,
+    ): TokenStatsTokenAggregate {
+        val values = map(selector)
+        return TokenStatsTokenAggregate(
+            knownSum = values.sumLong(TokenStatsTokenAggregate::knownSum),
+            knownEventCount = values.sumLong(TokenStatsTokenAggregate::knownEventCount),
+            unknownEventCount = values.sumLong(TokenStatsTokenAggregate::unknownEventCount),
+            totalEventCount = values.sumLong(TokenStatsTokenAggregate::totalEventCount),
+        )
+    }
+
+    private fun <T> Iterable<T>.sumLong(selector: (T) -> Long): Long =
+        fold(0L) { sum, item -> TokenCostCalculator.saturatedAdd(sum, selector(item)) }
+
+    private fun Set<String>?.queryValues(): List<String> =
+        if (this == null || isEmpty()) listOf("__none__") else toList()
+
+    private fun displayModelIdFor(model: String): String = "model:${model.trim().lowercase()}"
+
+    private fun List<TokenStatsModelEntity>.toPriceSnapshot(): TokenPriceSettingsSnapshot {
+        val priceRows = filter(TokenStatsModelEntity::hasPriceSetting)
+        return TokenPriceSettingsSnapshot(
+            providerModels = priceRows
+                .filter { it.configId.isEmpty() }
+                .associate { row -> "${row.provider}:${row.model}" to row.toModelPriceSettings() },
+            configs = priceRows
+                .filter { it.configId.isNotEmpty() }
+                .associate { row ->
+                    tokenPriceConfigKey("${row.provider}:${row.model}", row.configId) to
+                        row.toModelPriceSettings()
+                },
+        )
+    }
+}

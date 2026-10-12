@@ -1,1 +1,173 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5BZnRlcgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBNZXNzYWdlVmFyaWFudEVudGl0eVRlc3QgewoKICAgIEBBZnRlcgogICAgZnVuIHRlYXJEb3duKCkgewogICAgICAgIENoYXRNZXNzYWdlVGltZXN0YW1wQWxsb2NhdG9yLm5leHQoKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIHdpdGggcmVxdWlyZWQgZmllbGRzYCgpIHsKICAgICAgICB2YWwgdmFyaWFudCA9IE1lc3NhZ2VWYXJpYW50RW50aXR5KAogICAgICAgICAgICBjaGF0SWQgPSAiY2hhdDEiLAogICAgICAgICAgICBtZXNzYWdlVGltZXN0YW1wID0gMTAwMEwsCiAgICAgICAgICAgIHZhcmlhbnRJbmRleCA9IDAsCiAgICAgICAgICAgIGNvbnRlbnQgPSAiVmFyaWFudCBjb250ZW50IiwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJjaGF0MSIsIHZhcmlhbnQuY2hhdElkKQogICAgICAgIGFzc2VydEVxdWFscygxMDAwTCwgdmFyaWFudC5tZXNzYWdlVGltZXN0YW1wKQogICAgICAgIGFzc2VydEVxdWFscygwLCB2YXJpYW50LnZhcmlhbnRJbmRleCkKICAgICAgICBhc3NlcnRFcXVhbHMoIlZhcmlhbnQgY29udGVudCIsIHZhcmlhbnQuY29udGVudCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHZhcmlhbnQgaWQgZGVmYXVsdHMgdG8gemVyb2AoKSB7CiAgICAgICAgdmFsIHZhcmlhbnQgPSBNZXNzYWdlVmFyaWFudEVudGl0eSgKICAgICAgICAgICAgY2hhdElkID0gImMiLCBtZXNzYWdlVGltZXN0YW1wID0gMUwsIHZhcmlhbnRJbmRleCA9IDAsIGNvbnRlbnQgPSAiYyIKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCB2YXJpYW50LnZhcmlhbnRJZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHJvbGUgbmFtZSBkZWZhdWx0cyB0byBlbXB0eWAoKSB7CiAgICAgICAgdmFsIHZhcmlhbnQgPSBNZXNzYWdlVmFyaWFudEVudGl0eSgKICAgICAgICAgICAgY2hhdElkID0gImMiLCBtZXNzYWdlVGltZXN0YW1wID0gMUwsIHZhcmlhbnRJbmRleCA9IDAsIGNvbnRlbnQgPSAiYyIKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCB2YXJpYW50LnJvbGVOYW1lKQogICAgfQoKICAgIEBUZXN0IGZ1biBgcHJvdmlkZXIgZGVmYXVsdHMgdG8gZW1wdHlgKCkgewogICAgICAgIHZhbCB2YXJpYW50ID0gTWVzc2FnZVZhcmlhbnRFbnRpdHkoCiAgICAgICAgICAgIGNoYXRJZCA9ICJjIiwgbWVzc2FnZVRpbWVzdGFtcCA9IDFMLCB2YXJpYW50SW5kZXggPSAwLCBjb250ZW50ID0gImMiCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygiIiwgdmFyaWFudC5wcm92aWRlcikKICAgIH0KCiAgICBAVGVzdCBmdW4gYG1vZGVsIG5hbWUgZGVmYXVsdHMgdG8gZW1wdHlgKCkgewogICAgICAgIHZhbCB2YXJpYW50ID0gTWVzc2FnZVZhcmlhbnRFbnRpdHkoCiAgICAgICAgICAgIGNoYXRJZCA9ICJjIiwgbWVzc2FnZVRpbWVzdGFtcCA9IDFMLCB2YXJpYW50SW5kZXggPSAwLCBjb250ZW50ID0gImMiCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygiIiwgdmFyaWFudC5tb2RlbE5hbWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGB0b2tlbnMgZGVmYXVsdCB0byB6ZXJvYCgpIHsKICAgICAgICB2YWwgdmFyaWFudCA9IE1lc3NhZ2VWYXJpYW50RW50aXR5KAogICAgICAgICAgICBjaGF0SWQgPSAiYyIsIG1lc3NhZ2VUaW1lc3RhbXAgPSAxTCwgdmFyaWFudEluZGV4ID0gMCwgY29udGVudCA9ICJjIgogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgdmFyaWFudC5pbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgdmFyaWFudC5vdXRwdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIHZhcmlhbnQuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QgZnVuIGBhcHBseVRvIHVwZGF0ZXMgbWVzc2FnZSBjb250ZW50YCgpIHsKICAgICAgICB2YWwgYmFzZSA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJhaSIsIGNvbnRlbnQgPSAiT3JpZ2luYWwiKQogICAgICAgIHZhbCB2YXJpYW50ID0gTWVzc2FnZVZhcmlhbnRFbnRpdHkoCiAgICAgICAgICAgIGNoYXRJZCA9ICJjaGF0MSIsIG1lc3NhZ2VUaW1lc3RhbXAgPSAxMDBMLCB2YXJpYW50SW5kZXggPSAxLCBjb250ZW50ID0gIlVwZGF0ZWQiCiAgICAgICAgKQogICAgICAgIHZhbCByZXN1bHQgPSB2YXJpYW50LmFwcGx5VG8oYmFzZSwgdmFyaWFudENvdW50ID0gMykKICAgICAgICBhc3NlcnRFcXVhbHMoIlVwZGF0ZWQiLCByZXN1bHQuY29udGVudCkKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgcmVzdWx0LnNlbGVjdGVkVmFyaWFudEluZGV4KQogICAgICAgIGFzc2VydEVxdWFscygzLCByZXN1bHQudmFyaWFudENvdW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgYXBwbHlUbyBwcmVzZXJ2ZXMgYmFzZSBtZXNzYWdlIGZpZWxkc2AoKSB7CiAgICAgICAgdmFsIGJhc2UgPSBDaGF0TWVzc2FnZSgKICAgICAgICAgICAgc2VuZGVyID0gImFpIiwgY29udGVudCA9ICJPcmlnaW5hbCIsIHRpbWVzdGFtcCA9IDUwMEwsCiAgICAgICAgICAgIHJvbGVOYW1lID0gIkFzc2lzdGFudCIsCiAgICAgICAgICAgIGRpc3BsYXlNb2RlID0gQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS5ISURERU5fUExBQ0VIT0xERVIsCiAgICAgICAgICAgIGlzRmF2b3JpdGUgPSB0cnVlLAogICAgICAgICkKICAgICAgICB2YWwgdmFyaWFudCA9IE1lc3NhZ2VWYXJpYW50RW50aXR5KAogICAgICAgICAgICBjaGF0SWQgPSAiY2hhdDEiLCBtZXNzYWdlVGltZXN0YW1wID0gMTAwTCwgdmFyaWFudEluZGV4ID0gMSwgY29udGVudCA9ICJVcGRhdGVkIgogICAgICAgICkKICAgICAgICB2YWwgcmVzdWx0ID0gdmFyaWFudC5hcHBseVRvKGJhc2UsIHZhcmlhbnRDb3VudCA9IDIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJhaSIsIHJlc3VsdC5zZW5kZXIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDUwMEwsIHJlc3VsdC50aW1lc3RhbXApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJBc3Npc3RhbnQiLCByZXN1bHQucm9sZU5hbWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKENoYXRNZXNzYWdlRGlzcGxheU1vZGUuSElEREVOX1BMQUNFSE9MREVSLCByZXN1bHQuZGlzcGxheU1vZGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRydWUsIHJlc3VsdC5pc0Zhdm9yaXRlKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYXBwbHlUbyB1c2VzIHZhcmlhbnQgcm9sZSBuYW1lIHdoZW4gbm90IGJsYW5rYCgpIHsKICAgICAgICB2YWwgYmFzZSA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJhaSIsIGNvbnRlbnQgPSAiT3JpZ2luYWwiLCByb2xlTmFtZSA9ICJBc3Npc3RhbnQiKQogICAgICAgIHZhbCB2YXJpYW50ID0gTWVzc2FnZVZhcmlhbnRFbnRpdHkoCiAgICAgICAgICAgIGNoYXRJZCA9ICJjIiwgbWVzc2FnZVRpbWVzdGFtcCA9IDFMLCB2YXJpYW50SW5kZXggPSAwLCBjb250ZW50ID0gIk5ldyIsCiAgICAgICAgICAgIHJvbGVOYW1lID0gIkN1c3RvbUJvdCIsCiAgICAgICAgKQogICAgICAgIHZhbCByZXN1bHQgPSB2YXJpYW50LmFwcGx5VG8oYmFzZSwgdmFyaWFudENvdW50ID0gMSkKICAgICAgICBhc3NlcnRFcXVhbHMoIkN1c3RvbUJvdCIsIHJlc3VsdC5yb2xlTmFtZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGFwcGx5VG8gdXNlcyBiYXNlIHJvbGUgbmFtZSB3aGVuIHZhcmlhbnQgcm9sZSBpcyBibGFua2AoKSB7CiAgICAgICAgdmFsIGJhc2UgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAiYWkiLCBjb250ZW50ID0gIk9yaWdpbmFsIiwgcm9sZU5hbWUgPSAiQXNzaXN0YW50IikKICAgICAgICB2YWwgdmFyaWFudCA9IE1lc3NhZ2VWYXJpYW50RW50aXR5KAogICAgICAgICAgICBjaGF0SWQgPSAiYyIsIG1lc3NhZ2VUaW1lc3RhbXAgPSAxTCwgdmFyaWFudEluZGV4ID0gMCwgY29udGVudCA9ICJOZXciCiAgICAgICAgKQogICAgICAgIHZhbCByZXN1bHQgPSB2YXJpYW50LmFwcGx5VG8oYmFzZSwgdmFyaWFudENvdW50ID0gMSkKICAgICAgICBhc3NlcnRFcXVhbHMoIkFzc2lzdGFudCIsIHJlc3VsdC5yb2xlTmFtZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGFwcGx5VG8gdXBkYXRlcyBwcm92aWRlciBhbmQgbW9kZWxgKCkgewogICAgICAgIHZhbCBiYXNlID0gQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gImFpIiwgY29udGVudCA9ICJPcmlnaW5hbCIpCiAgICAgICAgdmFsIHZhcmlhbnQgPSBNZXNzYWdlVmFyaWFudEVudGl0eSgKICAgICAgICAgICAgY2hhdElkID0gImMiLCBtZXNzYWdlVGltZXN0YW1wID0gMUwsIHZhcmlhbnRJbmRleCA9IDAsIGNvbnRlbnQgPSAiTmV3IiwKICAgICAgICAgICAgcHJvdmlkZXIgPSAiYW50aHJvcGljIiwgbW9kZWxOYW1lID0gImNsYXVkZS0zIiwKICAgICAgICApCiAgICAgICAgdmFsIHJlc3VsdCA9IHZhcmlhbnQuYXBwbHlUbyhiYXNlLCB2YXJpYW50Q291bnQgPSAxKQogICAgICAgIGFzc2VydEVxdWFscygiYW50aHJvcGljIiwgcmVzdWx0LnByb3ZpZGVyKQogICAgICAgIGFzc2VydEVxdWFscygiY2xhdWRlLTMiLCByZXN1bHQubW9kZWxOYW1lKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYXBwbHlUbyB1cGRhdGVzIHRva2VuIGNvdW50c2AoKSB7CiAgICAgICAgdmFsIGJhc2UgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAiYWkiLCBjb250ZW50ID0gIk9yaWdpbmFsIikKICAgICAgICB2YWwgdmFyaWFudCA9IE1lc3NhZ2VWYXJpYW50RW50aXR5KAogICAgICAgICAgICBjaGF0SWQgPSAiYyIsIG1lc3NhZ2VUaW1lc3RhbXAgPSAxTCwgdmFyaWFudEluZGV4ID0gMCwgY29udGVudCA9ICJOZXciLAogICAgICAgICAgICBpbnB1dFRva2VucyA9IDUwLCBvdXRwdXRUb2tlbnMgPSAzMCwKICAgICAgICApCiAgICAgICAgdmFsIHJlc3VsdCA9IHZhcmlhbnQuYXBwbHlUbyhiYXNlLCB2YXJpYW50Q291bnQgPSAxKQogICAgICAgIGFzc2VydEVxdWFscyg1MCwgcmVzdWx0LmlucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygzMCwgcmVzdWx0Lm91dHB1dFRva2VucykKICAgIH0KCiAgICBAVGVzdCBmdW4gYGZyb21DaGF0TWVzc2FnZSBjcmVhdGVzIHZhcmlhbnQgZnJvbSBtZXNzYWdlYCgpIHsKICAgICAgICB2YWwgbXNnID0gQ2hhdE1lc3NhZ2UoCiAgICAgICAgICAgIHNlbmRlciA9ICJhaSIsIGNvbnRlbnQgPSAiUmVzcG9uc2UiLAogICAgICAgICAgICByb2xlTmFtZSA9ICJCb3QiLCBwcm92aWRlciA9ICJvcGVuYWkiLCBtb2RlbE5hbWUgPSAiZ3B0LTQiLAogICAgICAgICAgICBpbnB1dFRva2VucyA9IDEwLCBvdXRwdXRUb2tlbnMgPSAyMCwKICAgICAgICApCiAgICAgICAgdmFsIHZhcmlhbnQgPSBNZXNzYWdlVmFyaWFudEVudGl0eS5mcm9tQ2hhdE1lc3NhZ2UoCiAgICAgICAgICAgIGNoYXRJZCA9ICJjaGF0MSIsIG1lc3NhZ2VUaW1lc3RhbXAgPSAxMDAwTCwgdmFyaWFudEluZGV4ID0gMCwgbWVzc2FnZSA9IG1zZwogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoImNoYXQxIiwgdmFyaWFudC5jaGF0SWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMDBMLCB2YXJpYW50Lm1lc3NhZ2VUaW1lc3RhbXApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIHZhcmlhbnQudmFyaWFudEluZGV4KQogICAgICAgIGFzc2VydEVxdWFscygiUmVzcG9uc2UiLCB2YXJpYW50LmNvbnRlbnQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJCb3QiLCB2YXJpYW50LnJvbGVOYW1lKQogICAgICAgIGFzc2VydEVxdWFscygib3BlbmFpIiwgdmFyaWFudC5wcm92aWRlcikKICAgICAgICBhc3NlcnRFcXVhbHMoImdwdC00IiwgdmFyaWFudC5tb2RlbE5hbWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwLCB2YXJpYW50LmlucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygyMCwgdmFyaWFudC5vdXRwdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QgZnVuIGBmcm9tQ2hhdE1lc3NhZ2Ugd2l0aCBleHBsaWNpdCB2YXJpYW50IGlkYCgpIHsKICAgICAgICB2YWwgbXNnID0gQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiLCBjb250ZW50ID0gIkhpIikKICAgICAgICB2YWwgdmFyaWFudCA9IE1lc3NhZ2VWYXJpYW50RW50aXR5LmZyb21DaGF0TWVzc2FnZSgKICAgICAgICAgICAgY2hhdElkID0gImMiLCBtZXNzYWdlVGltZXN0YW1wID0gMUwsIHZhcmlhbnRJbmRleCA9IDAsIG1lc3NhZ2UgPSBtc2csIHZhcmlhbnRJZCA9IDU1TAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoNTVMLCB2YXJpYW50LnZhcmlhbnRJZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGFwcGx5VG8gcm91bmQgdHJpcCBwcmVzZXJ2ZXMgdmFyaWFudCBmaWVsZHNgKCkgewogICAgICAgIHZhbCBvcmlnaW5hbCA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJhaSIsIGNvbnRlbnQgPSAiT3JpZ2luYWwiLCByb2xlTmFtZSA9ICJCb3QiKQogICAgICAgIHZhbCB2YXJpYW50RW50aXR5ID0gTWVzc2FnZVZhcmlhbnRFbnRpdHkuZnJvbUNoYXRNZXNzYWdlKAogICAgICAgICAgICBjaGF0SWQgPSAiY2hhdDEiLCBtZXNzYWdlVGltZXN0YW1wID0gMTAwTCwgdmFyaWFudEluZGV4ID0gMCwgbWVzc2FnZSA9IG9yaWdpbmFsCiAgICAgICAgKQogICAgICAgIHZhbCBhcHBsaWVkID0gdmFyaWFudEVudGl0eS5hcHBseVRvKG9yaWdpbmFsLCB2YXJpYW50Q291bnQgPSAxKQogICAgICAgIGFzc2VydEVxdWFscyhvcmlnaW5hbC5jb250ZW50LCBhcHBsaWVkLmNvbnRlbnQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG9yaWdpbmFsLnJvbGVOYW1lLCBhcHBsaWVkLnJvbGVOYW1lKQogICAgICAgIGFzc2VydEVxdWFscygwLCBhcHBsaWVkLnNlbGVjdGVkVmFyaWFudEluZGV4KQogICAgICAgIGFzc2VydEVxdWFscygxLCBhcHBsaWVkLnZhcmlhbnRDb3VudCkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.model
+
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class MessageVariantEntityTest {
+
+    @After
+    fun tearDown() {
+        ChatMessageTimestampAllocator.next()
+    }
+
+    @Test fun `create with required fields`() {
+        val variant = MessageVariantEntity(
+            chatId = "chat1",
+            messageTimestamp = 1000L,
+            variantIndex = 0,
+            content = "Variant content",
+        )
+        assertEquals("chat1", variant.chatId)
+        assertEquals(1000L, variant.messageTimestamp)
+        assertEquals(0, variant.variantIndex)
+        assertEquals("Variant content", variant.content)
+    }
+
+    @Test fun `variant id defaults to zero`() {
+        val variant = MessageVariantEntity(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, content = "c"
+        )
+        assertEquals(0L, variant.variantId)
+    }
+
+    @Test fun `role name defaults to empty`() {
+        val variant = MessageVariantEntity(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, content = "c"
+        )
+        assertEquals("", variant.roleName)
+    }
+
+    @Test fun `provider defaults to empty`() {
+        val variant = MessageVariantEntity(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, content = "c"
+        )
+        assertEquals("", variant.provider)
+    }
+
+    @Test fun `model name defaults to empty`() {
+        val variant = MessageVariantEntity(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, content = "c"
+        )
+        assertEquals("", variant.modelName)
+    }
+
+    @Test fun `tokens default to zero`() {
+        val variant = MessageVariantEntity(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, content = "c"
+        )
+        assertEquals(0, variant.inputTokens)
+        assertEquals(0, variant.outputTokens)
+        assertEquals(0, variant.cachedInputTokens)
+    }
+
+    @Test fun `applyTo updates message content`() {
+        val base = ChatMessage(sender = "ai", content = "Original")
+        val variant = MessageVariantEntity(
+            chatId = "chat1", messageTimestamp = 100L, variantIndex = 1, content = "Updated"
+        )
+        val result = variant.applyTo(base, variantCount = 3)
+        assertEquals("Updated", result.content)
+        assertEquals(1, result.selectedVariantIndex)
+        assertEquals(3, result.variantCount)
+    }
+
+    @Test fun `applyTo preserves base message fields`() {
+        val base = ChatMessage(
+            sender = "ai", content = "Original", timestamp = 500L,
+            roleName = "Assistant",
+            displayMode = ChatMessageDisplayMode.HIDDEN_PLACEHOLDER,
+            isFavorite = true,
+        )
+        val variant = MessageVariantEntity(
+            chatId = "chat1", messageTimestamp = 100L, variantIndex = 1, content = "Updated"
+        )
+        val result = variant.applyTo(base, variantCount = 2)
+        assertEquals("ai", result.sender)
+        assertEquals(500L, result.timestamp)
+        assertEquals("Assistant", result.roleName)
+        assertEquals(ChatMessageDisplayMode.HIDDEN_PLACEHOLDER, result.displayMode)
+        assertEquals(true, result.isFavorite)
+    }
+
+    @Test fun `applyTo uses variant role name when not blank`() {
+        val base = ChatMessage(sender = "ai", content = "Original", roleName = "Assistant")
+        val variant = MessageVariantEntity(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, content = "New",
+            roleName = "CustomBot",
+        )
+        val result = variant.applyTo(base, variantCount = 1)
+        assertEquals("CustomBot", result.roleName)
+    }
+
+    @Test fun `applyTo uses base role name when variant role is blank`() {
+        val base = ChatMessage(sender = "ai", content = "Original", roleName = "Assistant")
+        val variant = MessageVariantEntity(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, content = "New"
+        )
+        val result = variant.applyTo(base, variantCount = 1)
+        assertEquals("Assistant", result.roleName)
+    }
+
+    @Test fun `applyTo updates provider and model`() {
+        val base = ChatMessage(sender = "ai", content = "Original")
+        val variant = MessageVariantEntity(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, content = "New",
+            provider = "anthropic", modelName = "claude-3",
+        )
+        val result = variant.applyTo(base, variantCount = 1)
+        assertEquals("anthropic", result.provider)
+        assertEquals("claude-3", result.modelName)
+    }
+
+    @Test fun `applyTo updates token counts`() {
+        val base = ChatMessage(sender = "ai", content = "Original")
+        val variant = MessageVariantEntity(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, content = "New",
+            inputTokens = 50, outputTokens = 30,
+        )
+        val result = variant.applyTo(base, variantCount = 1)
+        assertEquals(50, result.inputTokens)
+        assertEquals(30, result.outputTokens)
+    }
+
+    @Test fun `fromChatMessage creates variant from message`() {
+        val msg = ChatMessage(
+            sender = "ai", content = "Response",
+            roleName = "Bot", provider = "openai", modelName = "gpt-4",
+            inputTokens = 10, outputTokens = 20,
+        )
+        val variant = MessageVariantEntity.fromChatMessage(
+            chatId = "chat1", messageTimestamp = 1000L, variantIndex = 0, message = msg
+        )
+        assertEquals("chat1", variant.chatId)
+        assertEquals(1000L, variant.messageTimestamp)
+        assertEquals(0, variant.variantIndex)
+        assertEquals("Response", variant.content)
+        assertEquals("Bot", variant.roleName)
+        assertEquals("openai", variant.provider)
+        assertEquals("gpt-4", variant.modelName)
+        assertEquals(10, variant.inputTokens)
+        assertEquals(20, variant.outputTokens)
+    }
+
+    @Test fun `fromChatMessage with explicit variant id`() {
+        val msg = ChatMessage(sender = "user", content = "Hi")
+        val variant = MessageVariantEntity.fromChatMessage(
+            chatId = "c", messageTimestamp = 1L, variantIndex = 0, message = msg, variantId = 55L
+        )
+        assertEquals(55L, variant.variantId)
+    }
+
+    @Test fun `applyTo round trip preserves variant fields`() {
+        val original = ChatMessage(sender = "ai", content = "Original", roleName = "Bot")
+        val variantEntity = MessageVariantEntity.fromChatMessage(
+            chatId = "chat1", messageTimestamp = 100L, variantIndex = 0, message = original
+        )
+        val applied = variantEntity.applyTo(original, variantCount = 1)
+        assertEquals(original.content, applied.content)
+        assertEquals(original.roleName, applied.roleName)
+        assertEquals(0, applied.selectedVariantIndex)
+        assertEquals(1, applied.variantCount)
+    }
+}

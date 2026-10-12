@@ -1,1 +1,345 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLlByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5ib29sZWFuUHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmVkaXQKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmludFByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5zdHJpbmdQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLnByZWZlcmVuY2VzRGF0YVN0b3JlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5maXJzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cubWFwCgpwcml2YXRlIHZhbCBDb250ZXh0LndhaWZ1RGF0YVN0b3JlOiBEYXRhU3RvcmU8UHJlZmVyZW5jZXM+IGJ5CiAgICBwcmVmZXJlbmNlc0RhdGFTdG9yZShuYW1lID0gIndhaWZ1X3NldHRpbmdzIikKCmNsYXNzIFdhaWZ1UHJlZmVyZW5jZXMgcHJpdmF0ZSBjb25zdHJ1Y3Rvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgSU5TVEFOQ0U6IFdhaWZ1UHJlZmVyZW5jZXM/ID0gbnVsbAoKICAgICAgICBmdW4gZ2V0SW5zdGFuY2UoY29udGV4dDogQ29udGV4dCk6IFdhaWZ1UHJlZmVyZW5jZXMgewogICAgICAgICAgICByZXR1cm4gSU5TVEFOQ0UgPzogc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgICAgIHZhbCBpbnN0YW5jZSA9IFdhaWZ1UHJlZmVyZW5jZXMoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgICAgICBJTlNUQU5DRSA9IGluc3RhbmNlCiAgICAgICAgICAgICAgICBpbnN0YW5jZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBLZXlzIGZvciBXYWlmdSBNb2RlCiAgICAgICAgdmFsIEVOQUJMRV9XQUlGVV9NT0RFID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCJlbmFibGVfd2FpZnVfbW9kZSIpCiAgICAgICAgdmFsIFdBSUZVX0NIQVJfREVMQVkgPSBpbnRQcmVmZXJlbmNlc0tleSgid2FpZnVfY2hhcl9kZWxheSIpIC8vIOavj+Wtl+espuW7tui/n++8iOavq+enku+8iQogICAgICAgIHZhbCBXQUlGVV9SRU1PVkVfUFVOQ1RVQVRJT04gPSBib29sZWFuUHJlZmVyZW5jZXNLZXkoIndhaWZ1X3JlbW92ZV9wdW5jdHVhdGlvbiIpIC8vIOaYr+WQpuenu+mZpOagh+eCueespuWPtwogICAgICAgIHZhbCBXQUlGVV9FTkFCTEVfRU1PVElDT05TID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCJ3YWlmdV9lbmFibGVfZW1vdGljb25zIikgLy8g5piv5ZCm5ZCv55So6KGo5oOF5YyFCiAgICAgICAgdmFsIFdBSUZVX0VOQUJMRV9TRUxGSUUgPSBib29sZWFuUHJlZmVyZW5jZXNLZXkoIndhaWZ1X2VuYWJsZV9zZWxmaWUiKSAvLyDmmK/lkKblkK/nlKjoh6rmi43lip/og70KICAgICAgICB2YWwgV0FJRlVfRU5BQkxFX01FUkdFX1NFTkQgPSBib29sZWFuUHJlZmVyZW5jZXNLZXkoIndhaWZ1X2VuYWJsZV9tZXJnZV9zZW5kIikgLy8g5piv5ZCm5ZCv55So5ZCI5bm25Y+R6YCBCiAgICAgICAgdmFsIFdBSUZVX01FUkdFX1NFTkRfREVMQVlfTVMgPSBpbnRQcmVmZXJlbmNlc0tleSgid2FpZnVfbWVyZ2Vfc2VuZF9kZWxheV9tcyIpIC8vIOWQiOW5tuWPkemAgeetieW+heaXtumXtAogICAgICAgIHZhbCBXQUlGVV9DVVNUT01fUFJPTVBUID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoIndhaWZ1X2N1c3RvbV9wcm9tcHQiKSAvLyBXYWlmdeaooeW8j+mineWkluaPkOekuuivjQogICAgICAgIHZhbCBXQUlGVV9TRUxGSUVfUFJPTVBUID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoIndhaWZ1X3NlbGZpZV9wcm9tcHQiKSAvLyDoh6rmi43lip/og73nmoTlpJbosozmj5DnpLror40KCiAgICAgICAgLy8gRGVmYXVsdCB2YWx1ZSBmb3IgV2FpZnUgTW9kZQogICAgICAgIGNvbnN0IHZhbCBERUZBVUxUX0VOQUJMRV9XQUlGVV9NT0RFID0gZmFsc2UKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9XQUlGVV9DSEFSX0RFTEFZID0gMjUwIC8vIDI1MG1zIHBlciBjaGFyYWN0ZXIgKDQgY2hhcnMgcGVyIHNlY29uZCkKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9XQUlGVV9SRU1PVkVfUFVOQ1RVQVRJT04gPSBmYWxzZSAvLyDpu5jorqTkv53nlZnmoIfngrnnrKblj7cKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9XQUlGVV9FTkFCTEVfRU1PVElDT05TID0gZmFsc2UgLy8g6buY6K6k5LiN5ZCv55So6KGo5oOF5YyFCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfV0FJRlVfRU5BQkxFX1NFTEZJRSA9IGZhbHNlIC8vIOm7mOiupOS4jeWQr+eUqOiHquaLjeWKn+iDvQogICAgICAgIGNvbnN0IHZhbCBERUZBVUxUX1dBSUZVX0VOQUJMRV9NRVJHRV9TRU5EID0gZmFsc2UgLy8g6buY6K6k5YWz6Zet5ZCI5bm25Y+R6YCBCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfV0FJRlVfTUVSR0VfU0VORF9ERUxBWV9NUyA9IDUwMDAKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9XQUlGVV9DVVNUT01fUFJPTVBUID0gIuS9oOW/hemhu+mBteWuiO+8muemgeatouS9v+eUqOWKqOS9nOihqOaDhe+8jOemgeatouaPj+i/sOWKqOS9nOihqOaDhe+8jOWPquWFgeiuuOS9v+eUqOe6r+aWh+acrOi/m+ihjOWvueivneOAgiIgLy8g6buY6K6kV2FpZnXpmYTliqDmj5DnpLror40KICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9XQUlGVV9TRUxGSUVfUFJPTVBUID0gImtpcGZlbCB2cmNoYXQsIGxvbmcgaGFpciwgTWF0Y2hhIGNvbG9yIGhhaXIsIHB1cnBsZSBleWVzLCBzd2VhdGVyIHZlc3QsIGJsYWNrIHNraXJ0LCBibGFjayBuZWNrdGllLCBjb2xsYXJlZCBzaGlydCwgbG9uZyBzbGVldmVzLCBibGFjayBoZWFkd2VhciwgYmVhbmllLCBwbGVhdGVkIHNraXJ0LCBoYWlyIGJ1biwgd2hpdGUgc2hpcnQsIGhhaXIgcmliYm9uLCBoYWlyY2xpcCwgaGFpciBiZXR3ZWVuIGV5ZXMsIGJsYWNrIGZvb3R3ZWFyLCBibHVzaCwgaGFpciBvcm5hbWVudCwgY2F0IGhhdCwgdmVyeSBsb25nIGhhaXIsIHN3ZWF0ZXIsIGFuaW1hbCBlYXIgaGVhZHdlYXIsIGJhZywgYmFuZGFpZCBvbiBsZWcsIHNvY2tzIiAvLyDpu5jorqTlpJbosozmj5DnpLror40KICAgIH0KCiAgICAvLyBGbG93IGZvciBXYWlmdSBNb2RlCiAgICB2YWwgZW5hYmxlV2FpZnVNb2RlRmxvdzogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgY29udGV4dC53YWlmdURhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0VOQUJMRV9XQUlGVV9NT0RFXSA/OiBERUZBVUxUX0VOQUJMRV9XQUlGVV9NT0RFCiAgICAgICAgfQoKICAgIHZhbCB3YWlmdUNoYXJEZWxheUZsb3c6IEZsb3c8SW50PiA9CiAgICAgICAgY29udGV4dC53YWlmdURhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW1dBSUZVX0NIQVJfREVMQVldID86IERFRkFVTFRfV0FJRlVfQ0hBUl9ERUxBWQogICAgICAgIH0KCiAgICB2YWwgd2FpZnVSZW1vdmVQdW5jdHVhdGlvbkZsb3c6IEZsb3c8Qm9vbGVhbj4gPQogICAgICAgIGNvbnRleHQud2FpZnVEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tXQUlGVV9SRU1PVkVfUFVOQ1RVQVRJT05dID86IERFRkFVTFRfV0FJRlVfUkVNT1ZFX1BVTkNUVUFUSU9OCiAgICAgICAgfQoKICAgIHZhbCB3YWlmdUVuYWJsZUVtb3RpY29uc0Zsb3c6IEZsb3c8Qm9vbGVhbj4gPQogICAgICAgIGNvbnRleHQud2FpZnVEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tXQUlGVV9FTkFCTEVfRU1PVElDT05TXSA/OiBERUZBVUxUX1dBSUZVX0VOQUJMRV9FTU9USUNPTlMKICAgICAgICB9CgogICAgdmFsIHdhaWZ1RW5hYmxlU2VsZmllRmxvdzogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgY29udGV4dC53YWlmdURhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW1dBSUZVX0VOQUJMRV9TRUxGSUVdID86IERFRkFVTFRfV0FJRlVfRU5BQkxFX1NFTEZJRQogICAgICAgIH0KCiAgICB2YWwgd2FpZnVFbmFibGVNZXJnZVNlbmRGbG93OiBGbG93PEJvb2xlYW4+ID0KICAgICAgICBjb250ZXh0LndhaWZ1RGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbV0FJRlVfRU5BQkxFX01FUkdFX1NFTkRdID86IERFRkFVTFRfV0FJRlVfRU5BQkxFX01FUkdFX1NFTkQKICAgICAgICB9CgogICAgdmFsIHdhaWZ1TWVyZ2VTZW5kRGVsYXlNc0Zsb3c6IEZsb3c8SW50PiA9CiAgICAgICAgY29udGV4dC53YWlmdURhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW1dBSUZVX01FUkdFX1NFTkRfREVMQVlfTVNdID86IERFRkFVTFRfV0FJRlVfTUVSR0VfU0VORF9ERUxBWV9NUwogICAgICAgIH0KCiAgICB2YWwgd2FpZnVDdXN0b21Qcm9tcHRGbG93OiBGbG93PFN0cmluZz4gPQogICAgICAgIGNvbnRleHQud2FpZnVEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tXQUlGVV9DVVNUT01fUFJPTVBUXSA/OiBERUZBVUxUX1dBSUZVX0NVU1RPTV9QUk9NUFQKICAgICAgICB9CgogICAgdmFsIHdhaWZ1U2VsZmllUHJvbXB0RmxvdzogRmxvdzxTdHJpbmc+ID0KICAgICAgICBjb250ZXh0LndhaWZ1RGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbV0FJRlVfU0VMRklFX1BST01QVF0gPzogREVGQVVMVF9XQUlGVV9TRUxGSUVfUFJPTVBUCiAgICAgICAgfQoKICAgIC8vIFNhdmUgV2FpZnUgTW9kZSBzZXR0aW5nCiAgICBzdXNwZW5kIGZ1biBzYXZlRW5hYmxlV2FpZnVNb2RlKGlzRW5hYmxlZDogQm9vbGVhbikgewogICAgICAgIGNvbnRleHQud2FpZnVEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0VOQUJMRV9XQUlGVV9NT0RFXSA9IGlzRW5hYmxlZAogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlV2FpZnVDaGFyRGVsYXkoZGVsYXlNczogSW50KSB7CiAgICAgICAgY29udGV4dC53YWlmdURhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbV0FJRlVfQ0hBUl9ERUxBWV0gPSBkZWxheU1zCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVXYWlmdVJlbW92ZVB1bmN0dWF0aW9uKHJlbW92ZVB1bmN0dWF0aW9uOiBCb29sZWFuKSB7CiAgICAgICAgY29udGV4dC53YWlmdURhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbV0FJRlVfUkVNT1ZFX1BVTkNUVUFUSU9OXSA9IHJlbW92ZVB1bmN0dWF0aW9uCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVXYWlmdUVuYWJsZUVtb3RpY29ucyhlbmFibGVFbW90aWNvbnM6IEJvb2xlYW4pIHsKICAgICAgICBjb250ZXh0LndhaWZ1RGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tXQUlGVV9FTkFCTEVfRU1PVElDT05TXSA9IGVuYWJsZUVtb3RpY29ucwogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlV2FpZnVFbmFibGVTZWxmaWUoZW5hYmxlU2VsZmllOiBCb29sZWFuKSB7CiAgICAgICAgY29udGV4dC53YWlmdURhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbV0FJRlVfRU5BQkxFX1NFTEZJRV0gPSBlbmFibGVTZWxmaWUKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZVdhaWZ1RW5hYmxlTWVyZ2VTZW5kKGVuYWJsZU1lcmdlU2VuZDogQm9vbGVhbikgewogICAgICAgIGNvbnRleHQud2FpZnVEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW1dBSUZVX0VOQUJMRV9NRVJHRV9TRU5EXSA9IGVuYWJsZU1lcmdlU2VuZAogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlV2FpZnVNZXJnZVNlbmREZWxheU1zKGRlbGF5TXM6IEludCkgewogICAgICAgIGNvbnRleHQud2FpZnVEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW1dBSUZVX01FUkdFX1NFTkRfREVMQVlfTVNdID0gZGVsYXlNcwogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlV2FpZnVDdXN0b21Qcm9tcHQocHJvbXB0OiBTdHJpbmcpIHsKICAgICAgICBjb250ZXh0LndhaWZ1RGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tXQUlGVV9DVVNUT01fUFJPTVBUXSA9IHByb21wdAogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlV2FpZnVTZWxmaWVQcm9tcHQocHJvbXB0OiBTdHJpbmcpIHsKICAgICAgICBjb250ZXh0LndhaWZ1RGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tXQUlGVV9TRUxGSUVfUFJPTVBUXSA9IHByb21wdAogICAgICAgIH0KICAgIH0KCiAgICAvLyA9PT09PT09PT09IFdhaWZ15qih5byP6KeS6Imy5Y2hL+e+pOe7hOe7keWumuWKn+iDvSA9PT09PT09PT09CgogICAgcHJpdmF0ZSBmdW4gZ2V0Q2hhcmFjdGVyQ2FyZFdhaWZ1UHJlZml4KGNoYXJhY3RlckNhcmRJZDogU3RyaW5nKTogU3RyaW5nID0KICAgICAgICAiY2hhcmFjdGVyX2NhcmRfd2FpZnVfJHtjaGFyYWN0ZXJDYXJkSWR9XyIKCiAgICBwcml2YXRlIGZ1biBnZXRDaGFyYWN0ZXJHcm91cFdhaWZ1UHJlZml4KGNoYXJhY3Rlckdyb3VwSWQ6IFN0cmluZyk6IFN0cmluZyA9CiAgICAgICAgImNoYXJhY3Rlcl9ncm91cF93YWlmdV8ke2NoYXJhY3Rlckdyb3VwSWR9XyIKCiAgICBwcml2YXRlIGZ1biBnZXRBbGxCb29sZWFuV2FpZnVLZXlzKCk6IExpc3Q8UHJlZmVyZW5jZXMuS2V5PEJvb2xlYW4+PiB7CiAgICAgICAgcmV0dXJuIGxpc3RPZigKICAgICAgICAgICAgRU5BQkxFX1dBSUZVX01PREUsCiAgICAgICAgICAgIFdBSUZVX1JFTU9WRV9QVU5DVFVBVElPTiwKICAgICAgICAgICAgV0FJRlVfRU5BQkxFX0VNT1RJQ09OUywKICAgICAgICAgICAgV0FJRlVfRU5BQkxFX1NFTEZJRSwKICAgICAgICAgICAgV0FJRlVfRU5BQkxFX01FUkdFX1NFTkQKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZ2V0QWxsSW50V2FpZnVLZXlzKCk6IExpc3Q8UHJlZmVyZW5jZXMuS2V5PEludD4+IHsKICAgICAgICByZXR1cm4gbGlzdE9mKAogICAgICAgICAgICBXQUlGVV9DSEFSX0RFTEFZLAogICAgICAgICAgICBXQUlGVV9NRVJHRV9TRU5EX0RFTEFZX01TCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGdldEFsbFN0cmluZ1dhaWZ1S2V5cygpOiBMaXN0PFByZWZlcmVuY2VzLktleTxTdHJpbmc+PiB7CiAgICAgICAgcmV0dXJuIGxpc3RPZigKICAgICAgICAgICAgV0FJRlVfQ1VTVE9NX1BST01QVCwKICAgICAgICAgICAgV0FJRlVfU0VMRklFX1BST01QVAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGNvcHlDdXJyZW50V2FpZnVTZXR0aW5nc1RvUHJlZml4KHByZWZpeDogU3RyaW5nKSB7CiAgICAgICAgY29udGV4dC53YWlmdURhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgZ2V0QWxsQm9vbGVhbldhaWZ1S2V5cygpLmZvckVhY2ggeyBrZXkgLT4KICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzW2tleV0/LmxldCB7IHZhbHVlIC0+CiAgICAgICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNbYm9vbGVhblByZWZlcmVuY2VzS2V5KCIke3ByZWZpeH0ke2tleS5uYW1lfSIpXSA9IHZhbHVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ2V0QWxsSW50V2FpZnVLZXlzKCkuZm9yRWFjaCB7IGtleSAtPgogICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNba2V5XT8ubGV0IHsgdmFsdWUgLT4KICAgICAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1tpbnRQcmVmZXJlbmNlc0tleSgiJHtwcmVmaXh9JHtrZXkubmFtZX0iKV0gPSB2YWx1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGdldEFsbFN0cmluZ1dhaWZ1S2V5cygpLmZvckVhY2ggeyBrZXkgLT4KICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzW2tleV0/LmxldCB7IHZhbHVlIC0+CiAgICAgICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNbc3RyaW5nUHJlZmVyZW5jZXNLZXkoIiR7cHJlZml4fSR7a2V5Lm5hbWV9IildID0gdmFsdWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGNsb25lV2FpZnVTZXR0aW5nc0JldHdlZW5QcmVmaXhlcyhzb3VyY2VQcmVmaXg6IFN0cmluZywgdGFyZ2V0UHJlZml4OiBTdHJpbmcpIHsKICAgICAgICBjb250ZXh0LndhaWZ1RGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBnZXRBbGxCb29sZWFuV2FpZnVLZXlzKCkuZm9yRWFjaCB7IGtleSAtPgogICAgICAgICAgICAgICAgdmFsIHNvdXJjZUtleSA9IGJvb2xlYW5QcmVmZXJlbmNlc0tleSgiJHtzb3VyY2VQcmVmaXh9JHtrZXkubmFtZX0iKQogICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNbc291cmNlS2V5XT8ubGV0IHsgdmFsdWUgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgdGFyZ2V0S2V5ID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCIke3RhcmdldFByZWZpeH0ke2tleS5uYW1lfSIpCiAgICAgICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNbdGFyZ2V0S2V5XSA9IHZhbHVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGdldEFsbEludFdhaWZ1S2V5cygpLmZvckVhY2ggeyBrZXkgLT4KICAgICAgICAgICAgICAgIHZhbCBzb3VyY2VLZXkgPSBpbnRQcmVmZXJlbmNlc0tleSgiJHtzb3VyY2VQcmVmaXh9JHtrZXkubmFtZX0iKQogICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNbc291cmNlS2V5XT8ubGV0IHsgdmFsdWUgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgdGFyZ2V0S2V5ID0gaW50UHJlZmVyZW5jZXNLZXkoIiR7dGFyZ2V0UHJlZml4fSR7a2V5Lm5hbWV9IikKICAgICAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1t0YXJnZXRLZXldID0gdmFsdWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZ2V0QWxsU3RyaW5nV2FpZnVLZXlzKCkuZm9yRWFjaCB7IGtleSAtPgogICAgICAgICAgICAgICAgdmFsIHNvdXJjZUtleSA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCIke3NvdXJjZVByZWZpeH0ke2tleS5uYW1lfSIpCiAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1tzb3VyY2VLZXldPy5sZXQgeyB2YWx1ZSAtPgogICAgICAgICAgICAgICAgICAgIHZhbCB0YXJnZXRLZXkgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgiJHt0YXJnZXRQcmVmaXh9JHtrZXkubmFtZX0iKQogICAgICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzW3RhcmdldEtleV0gPSB2YWx1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gc3dpdGNoVG9XYWlmdVNldHRpbmdzQnlQcmVmaXgocHJlZml4OiBTdHJpbmcpIHsKICAgICAgICBjb250ZXh0LndhaWZ1RGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBnZXRBbGxCb29sZWFuV2FpZnVLZXlzKCkuZm9yRWFjaCB7IGtleSAtPgogICAgICAgICAgICAgICAgdmFsIGNhcmRLZXkgPSBib29sZWFuUHJlZmVyZW5jZXNLZXkoIiR7cHJlZml4fSR7a2V5Lm5hbWV9IikKICAgICAgICAgICAgICAgIGlmIChwcmVmZXJlbmNlcy5jb250YWlucyhjYXJkS2V5KSkgewogICAgICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzW2tleV0gPSBwcmVmZXJlbmNlc1tjYXJkS2V5XSEhCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShrZXkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ2V0QWxsSW50V2FpZnVLZXlzKCkuZm9yRWFjaCB7IGtleSAtPgogICAgICAgICAgICAgICAgdmFsIGNhcmRLZXkgPSBpbnRQcmVmZXJlbmNlc0tleSgiJHtwcmVmaXh9JHtrZXkubmFtZX0iKQogICAgICAgICAgICAgICAgaWYgKHByZWZlcmVuY2VzLmNvbnRhaW5zKGNhcmRLZXkpKSB7CiAgICAgICAgICAgICAgICAgICAgcHJlZmVyZW5jZXNba2V5XSA9IHByZWZlcmVuY2VzW2NhcmRLZXldISEKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgcHJlZmVyZW5jZXMucmVtb3ZlKGtleSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBnZXRBbGxTdHJpbmdXYWlmdUtleXMoKS5mb3JFYWNoIHsga2V5IC0+CiAgICAgICAgICAgICAgICB2YWwgY2FyZEtleSA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCIke3ByZWZpeH0ke2tleS5uYW1lfSIpCiAgICAgICAgICAgICAgICBpZiAocHJlZmVyZW5jZXMuY29udGFpbnMoY2FyZEtleSkpIHsKICAgICAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1trZXldID0gcHJlZmVyZW5jZXNbY2FyZEtleV0hIQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBwcmVmZXJlbmNlcy5yZW1vdmUoa2V5KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZGVsZXRlV2FpZnVTZXR0aW5nc0J5UHJlZml4KHByZWZpeDogU3RyaW5nKSB7CiAgICAgICAgY29udGV4dC53YWlmdURhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgZ2V0QWxsQm9vbGVhbldhaWZ1S2V5cygpLmZvckVhY2ggeyBrZXkgLT4KICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShib29sZWFuUHJlZmVyZW5jZXNLZXkoIiR7cHJlZml4fSR7a2V5Lm5hbWV9IikpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ2V0QWxsSW50V2FpZnVLZXlzKCkuZm9yRWFjaCB7IGtleSAtPgogICAgICAgICAgICAgICAgcHJlZmVyZW5jZXMucmVtb3ZlKGludFByZWZlcmVuY2VzS2V5KCIke3ByZWZpeH0ke2tleS5uYW1lfSIpKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGdldEFsbFN0cmluZ1dhaWZ1S2V5cygpLmZvckVhY2ggeyBrZXkgLT4KICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShzdHJpbmdQcmVmZXJlbmNlc0tleSgiJHtwcmVmaXh9JHtrZXkubmFtZX0iKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGhhc1dhaWZ1U2V0dGluZ3NCeVByZWZpeChwcmVmaXg6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHZhbCBwcmVmZXJlbmNlcyA9IGNvbnRleHQud2FpZnVEYXRhU3RvcmUuZGF0YS5maXJzdCgpCiAgICAgICAgcmV0dXJuIGdldEFsbEJvb2xlYW5XYWlmdUtleXMoKS5hbnkgeyBrZXkgLT4gcHJlZmVyZW5jZXMuY29udGFpbnMoYm9vbGVhblByZWZlcmVuY2VzS2V5KCIke3ByZWZpeH0ke2tleS5uYW1lfSIpKSB9IHx8CiAgICAgICAgICAgICAgICBnZXRBbGxJbnRXYWlmdUtleXMoKS5hbnkgeyBrZXkgLT4gcHJlZmVyZW5jZXMuY29udGFpbnMoaW50UHJlZmVyZW5jZXNLZXkoIiR7cHJlZml4fSR7a2V5Lm5hbWV9IikpIH0gfHwKICAgICAgICAgICAgICAgIGdldEFsbFN0cmluZ1dhaWZ1S2V5cygpLmFueSB7IGtleSAtPiBwcmVmZXJlbmNlcy5jb250YWlucyhzdHJpbmdQcmVmZXJlbmNlc0tleSgiJHtwcmVmaXh9JHtrZXkubmFtZX0iKSkgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGNvcHlDdXJyZW50V2FpZnVTZXR0aW5nc1RvQ2hhcmFjdGVyQ2FyZChjaGFyYWN0ZXJDYXJkSWQ6IFN0cmluZykgewogICAgICAgIGNvcHlDdXJyZW50V2FpZnVTZXR0aW5nc1RvUHJlZml4KGdldENoYXJhY3RlckNhcmRXYWlmdVByZWZpeChjaGFyYWN0ZXJDYXJkSWQpKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGNsb25lV2FpZnVTZXR0aW5nc0JldHdlZW5DaGFyYWN0ZXJDYXJkcygKICAgICAgICBzb3VyY2VDaGFyYWN0ZXJDYXJkSWQ6IFN0cmluZywKICAgICAgICB0YXJnZXRDaGFyYWN0ZXJDYXJkSWQ6IFN0cmluZwogICAgKSB7CiAgICAgICAgY2xvbmVXYWlmdVNldHRpbmdzQmV0d2VlblByZWZpeGVzKAogICAgICAgICAgICBnZXRDaGFyYWN0ZXJDYXJkV2FpZnVQcmVmaXgoc291cmNlQ2hhcmFjdGVyQ2FyZElkKSwKICAgICAgICAgICAgZ2V0Q2hhcmFjdGVyQ2FyZFdhaWZ1UHJlZml4KHRhcmdldENoYXJhY3RlckNhcmRJZCkKICAgICAgICApCiAgICB9CgogICAgc3VzcGVuZCBmdW4gc3dpdGNoVG9DaGFyYWN0ZXJDYXJkV2FpZnVTZXR0aW5ncyhjaGFyYWN0ZXJDYXJkSWQ6IFN0cmluZykgewogICAgICAgIHN3aXRjaFRvV2FpZnVTZXR0aW5nc0J5UHJlZml4KGdldENoYXJhY3RlckNhcmRXYWlmdVByZWZpeChjaGFyYWN0ZXJDYXJkSWQpKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVDdXJyZW50V2FpZnVTZXR0aW5nc1RvQ2hhcmFjdGVyQ2FyZChjaGFyYWN0ZXJDYXJkSWQ6IFN0cmluZykgewogICAgICAgIGNvcHlDdXJyZW50V2FpZnVTZXR0aW5nc1RvQ2hhcmFjdGVyQ2FyZChjaGFyYWN0ZXJDYXJkSWQpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gZGVsZXRlQ2hhcmFjdGVyQ2FyZFdhaWZ1U2V0dGluZ3MoY2hhcmFjdGVyQ2FyZElkOiBTdHJpbmcpIHsKICAgICAgICBkZWxldGVXYWlmdVNldHRpbmdzQnlQcmVmaXgoZ2V0Q2hhcmFjdGVyQ2FyZFdhaWZ1UHJlZml4KGNoYXJhY3RlckNhcmRJZCkpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gaGFzQ2hhcmFjdGVyQ2FyZFdhaWZ1U2V0dGluZ3MoY2hhcmFjdGVyQ2FyZElkOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gaGFzV2FpZnVTZXR0aW5nc0J5UHJlZml4KGdldENoYXJhY3RlckNhcmRXYWlmdVByZWZpeChjaGFyYWN0ZXJDYXJkSWQpKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGNvcHlDdXJyZW50V2FpZnVTZXR0aW5nc1RvQ2hhcmFjdGVyR3JvdXAoY2hhcmFjdGVyR3JvdXBJZDogU3RyaW5nKSB7CiAgICAgICAgY29weUN1cnJlbnRXYWlmdVNldHRpbmdzVG9QcmVmaXgoZ2V0Q2hhcmFjdGVyR3JvdXBXYWlmdVByZWZpeChjaGFyYWN0ZXJHcm91cElkKSkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBjbG9uZVdhaWZ1U2V0dGluZ3NCZXR3ZWVuQ2hhcmFjdGVyR3JvdXBzKAogICAgICAgIHNvdXJjZUNoYXJhY3Rlckdyb3VwSWQ6IFN0cmluZywKICAgICAgICB0YXJnZXRDaGFyYWN0ZXJHcm91cElkOiBTdHJpbmcKICAgICkgewogICAgICAgIGNsb25lV2FpZnVTZXR0aW5nc0JldHdlZW5QcmVmaXhlcygKICAgICAgICAgICAgZ2V0Q2hhcmFjdGVyR3JvdXBXYWlmdVByZWZpeChzb3VyY2VDaGFyYWN0ZXJHcm91cElkKSwKICAgICAgICAgICAgZ2V0Q2hhcmFjdGVyR3JvdXBXYWlmdVByZWZpeCh0YXJnZXRDaGFyYWN0ZXJHcm91cElkKQogICAgICAgICkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzd2l0Y2hUb0NoYXJhY3Rlckdyb3VwV2FpZnVTZXR0aW5ncyhjaGFyYWN0ZXJHcm91cElkOiBTdHJpbmcpIHsKICAgICAgICBzd2l0Y2hUb1dhaWZ1U2V0dGluZ3NCeVByZWZpeChnZXRDaGFyYWN0ZXJHcm91cFdhaWZ1UHJlZml4KGNoYXJhY3Rlckdyb3VwSWQpKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVDdXJyZW50V2FpZnVTZXR0aW5nc1RvQ2hhcmFjdGVyR3JvdXAoY2hhcmFjdGVyR3JvdXBJZDogU3RyaW5nKSB7CiAgICAgICAgY29weUN1cnJlbnRXYWlmdVNldHRpbmdzVG9DaGFyYWN0ZXJHcm91cChjaGFyYWN0ZXJHcm91cElkKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGRlbGV0ZUNoYXJhY3Rlckdyb3VwV2FpZnVTZXR0aW5ncyhjaGFyYWN0ZXJHcm91cElkOiBTdHJpbmcpIHsKICAgICAgICBkZWxldGVXYWlmdVNldHRpbmdzQnlQcmVmaXgoZ2V0Q2hhcmFjdGVyR3JvdXBXYWlmdVByZWZpeChjaGFyYWN0ZXJHcm91cElkKSkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBoYXNDaGFyYWN0ZXJHcm91cFdhaWZ1U2V0dGluZ3MoY2hhcmFjdGVyR3JvdXBJZDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGhhc1dhaWZ1U2V0dGluZ3NCeVByZWZpeChnZXRDaGFyYWN0ZXJHcm91cFdhaWZ1UHJlZml4KGNoYXJhY3Rlckdyb3VwSWQpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+
+private val Context.waifuDataStore: DataStore<Preferences> by
+    preferencesDataStore(name = "waifu_settings")
+
+class WaifuPreferences private constructor(private val context: Context) {
+
+    companion object {
+        @Volatile
+        private var INSTANCE: WaifuPreferences? = null
+
+        fun getInstance(context: Context): WaifuPreferences {
+            return INSTANCE ?: synchronized(this) {
+                val instance = WaifuPreferences(context.applicationContext)
+                INSTANCE = instance
+                instance
+            }
+        }
+
+        // Keys for Waifu Mode
+        val ENABLE_WAIFU_MODE = booleanPreferencesKey("enable_waifu_mode")
+        val WAIFU_CHAR_DELAY = intPreferencesKey("waifu_char_delay") // 每字符延迟（毫秒）
+        val WAIFU_REMOVE_PUNCTUATION = booleanPreferencesKey("waifu_remove_punctuation") // 是否移除标点符号
+        val WAIFU_ENABLE_EMOTICONS = booleanPreferencesKey("waifu_enable_emoticons") // 是否启用表情包
+        val WAIFU_ENABLE_SELFIE = booleanPreferencesKey("waifu_enable_selfie") // 是否启用自拍功能
+        val WAIFU_ENABLE_MERGE_SEND = booleanPreferencesKey("waifu_enable_merge_send") // 是否启用合并发送
+        val WAIFU_MERGE_SEND_DELAY_MS = intPreferencesKey("waifu_merge_send_delay_ms") // 合并发送等待时间
+        val WAIFU_CUSTOM_PROMPT = stringPreferencesKey("waifu_custom_prompt") // Waifu模式额外提示词
+        val WAIFU_SELFIE_PROMPT = stringPreferencesKey("waifu_selfie_prompt") // 自拍功能的外貌提示词
+
+        // Default value for Waifu Mode
+        const val DEFAULT_ENABLE_WAIFU_MODE = false
+        const val DEFAULT_WAIFU_CHAR_DELAY = 250 // 250ms per character (4 chars per second)
+        const val DEFAULT_WAIFU_REMOVE_PUNCTUATION = false // 默认保留标点符号
+        const val DEFAULT_WAIFU_ENABLE_EMOTICONS = false // 默认不启用表情包
+        const val DEFAULT_WAIFU_ENABLE_SELFIE = false // 默认不启用自拍功能
+        const val DEFAULT_WAIFU_ENABLE_MERGE_SEND = false // 默认关闭合并发送
+        const val DEFAULT_WAIFU_MERGE_SEND_DELAY_MS = 5000
+        const val DEFAULT_WAIFU_CUSTOM_PROMPT = "你必须遵守：禁止使用动作表情，禁止描述动作表情，只允许使用纯文本进行对话。" // 默认Waifu附加提示词
+        const val DEFAULT_WAIFU_SELFIE_PROMPT = "kipfel vrchat, long hair, Matcha color hair, purple eyes, sweater vest, black skirt, black necktie, collared shirt, long sleeves, black headwear, beanie, pleated skirt, hair bun, white shirt, hair ribbon, hairclip, hair between eyes, black footwear, blush, hair ornament, cat hat, very long hair, sweater, animal ear headwear, bag, bandaid on leg, socks" // 默认外貌提示词
+    }
+
+    // Flow for Waifu Mode
+    val enableWaifuModeFlow: Flow<Boolean> =
+        context.waifuDataStore.data.map { preferences ->
+            preferences[ENABLE_WAIFU_MODE] ?: DEFAULT_ENABLE_WAIFU_MODE
+        }
+
+    val waifuCharDelayFlow: Flow<Int> =
+        context.waifuDataStore.data.map { preferences ->
+            preferences[WAIFU_CHAR_DELAY] ?: DEFAULT_WAIFU_CHAR_DELAY
+        }
+
+    val waifuRemovePunctuationFlow: Flow<Boolean> =
+        context.waifuDataStore.data.map { preferences ->
+            preferences[WAIFU_REMOVE_PUNCTUATION] ?: DEFAULT_WAIFU_REMOVE_PUNCTUATION
+        }
+
+    val waifuEnableEmoticonsFlow: Flow<Boolean> =
+        context.waifuDataStore.data.map { preferences ->
+            preferences[WAIFU_ENABLE_EMOTICONS] ?: DEFAULT_WAIFU_ENABLE_EMOTICONS
+        }
+
+    val waifuEnableSelfieFlow: Flow<Boolean> =
+        context.waifuDataStore.data.map { preferences ->
+            preferences[WAIFU_ENABLE_SELFIE] ?: DEFAULT_WAIFU_ENABLE_SELFIE
+        }
+
+    val waifuEnableMergeSendFlow: Flow<Boolean> =
+        context.waifuDataStore.data.map { preferences ->
+            preferences[WAIFU_ENABLE_MERGE_SEND] ?: DEFAULT_WAIFU_ENABLE_MERGE_SEND
+        }
+
+    val waifuMergeSendDelayMsFlow: Flow<Int> =
+        context.waifuDataStore.data.map { preferences ->
+            preferences[WAIFU_MERGE_SEND_DELAY_MS] ?: DEFAULT_WAIFU_MERGE_SEND_DELAY_MS
+        }
+
+    val waifuCustomPromptFlow: Flow<String> =
+        context.waifuDataStore.data.map { preferences ->
+            preferences[WAIFU_CUSTOM_PROMPT] ?: DEFAULT_WAIFU_CUSTOM_PROMPT
+        }
+
+    val waifuSelfiePromptFlow: Flow<String> =
+        context.waifuDataStore.data.map { preferences ->
+            preferences[WAIFU_SELFIE_PROMPT] ?: DEFAULT_WAIFU_SELFIE_PROMPT
+        }
+
+    // Save Waifu Mode setting
+    suspend fun saveEnableWaifuMode(isEnabled: Boolean) {
+        context.waifuDataStore.edit { preferences ->
+            preferences[ENABLE_WAIFU_MODE] = isEnabled
+        }
+    }
+
+    suspend fun saveWaifuCharDelay(delayMs: Int) {
+        context.waifuDataStore.edit { preferences ->
+            preferences[WAIFU_CHAR_DELAY] = delayMs
+        }
+    }
+
+    suspend fun saveWaifuRemovePunctuation(removePunctuation: Boolean) {
+        context.waifuDataStore.edit { preferences ->
+            preferences[WAIFU_REMOVE_PUNCTUATION] = removePunctuation
+        }
+    }
+
+    suspend fun saveWaifuEnableEmoticons(enableEmoticons: Boolean) {
+        context.waifuDataStore.edit { preferences ->
+            preferences[WAIFU_ENABLE_EMOTICONS] = enableEmoticons
+        }
+    }
+
+    suspend fun saveWaifuEnableSelfie(enableSelfie: Boolean) {
+        context.waifuDataStore.edit { preferences ->
+            preferences[WAIFU_ENABLE_SELFIE] = enableSelfie
+        }
+    }
+
+    suspend fun saveWaifuEnableMergeSend(enableMergeSend: Boolean) {
+        context.waifuDataStore.edit { preferences ->
+            preferences[WAIFU_ENABLE_MERGE_SEND] = enableMergeSend
+        }
+    }
+
+    suspend fun saveWaifuMergeSendDelayMs(delayMs: Int) {
+        context.waifuDataStore.edit { preferences ->
+            preferences[WAIFU_MERGE_SEND_DELAY_MS] = delayMs
+        }
+    }
+
+    suspend fun saveWaifuCustomPrompt(prompt: String) {
+        context.waifuDataStore.edit { preferences ->
+            preferences[WAIFU_CUSTOM_PROMPT] = prompt
+        }
+    }
+
+    suspend fun saveWaifuSelfiePrompt(prompt: String) {
+        context.waifuDataStore.edit { preferences ->
+            preferences[WAIFU_SELFIE_PROMPT] = prompt
+        }
+    }
+
+    // ========== Waifu模式角色卡/群组绑定功能 ==========
+
+    private fun getCharacterCardWaifuPrefix(characterCardId: String): String =
+        "character_card_waifu_${characterCardId}_"
+
+    private fun getCharacterGroupWaifuPrefix(characterGroupId: String): String =
+        "character_group_waifu_${characterGroupId}_"
+
+    private fun getAllBooleanWaifuKeys(): List<Preferences.Key<Boolean>> {
+        return listOf(
+            ENABLE_WAIFU_MODE,
+            WAIFU_REMOVE_PUNCTUATION,
+            WAIFU_ENABLE_EMOTICONS,
+            WAIFU_ENABLE_SELFIE,
+            WAIFU_ENABLE_MERGE_SEND
+        )
+    }
+
+    private fun getAllIntWaifuKeys(): List<Preferences.Key<Int>> {
+        return listOf(
+            WAIFU_CHAR_DELAY,
+            WAIFU_MERGE_SEND_DELAY_MS
+        )
+    }
+
+    private fun getAllStringWaifuKeys(): List<Preferences.Key<String>> {
+        return listOf(
+            WAIFU_CUSTOM_PROMPT,
+            WAIFU_SELFIE_PROMPT
+        )
+    }
+
+    private suspend fun copyCurrentWaifuSettingsToPrefix(prefix: String) {
+        context.waifuDataStore.edit { preferences ->
+            getAllBooleanWaifuKeys().forEach { key ->
+                preferences[key]?.let { value ->
+                    preferences[booleanPreferencesKey("${prefix}${key.name}")] = value
+                }
+            }
+            getAllIntWaifuKeys().forEach { key ->
+                preferences[key]?.let { value ->
+                    preferences[intPreferencesKey("${prefix}${key.name}")] = value
+                }
+            }
+            getAllStringWaifuKeys().forEach { key ->
+                preferences[key]?.let { value ->
+                    preferences[stringPreferencesKey("${prefix}${key.name}")] = value
+                }
+            }
+        }
+    }
+
+    private suspend fun cloneWaifuSettingsBetweenPrefixes(sourcePrefix: String, targetPrefix: String) {
+        context.waifuDataStore.edit { preferences ->
+            getAllBooleanWaifuKeys().forEach { key ->
+                val sourceKey = booleanPreferencesKey("${sourcePrefix}${key.name}")
+                preferences[sourceKey]?.let { value ->
+                    val targetKey = booleanPreferencesKey("${targetPrefix}${key.name}")
+                    preferences[targetKey] = value
+                }
+            }
+
+            getAllIntWaifuKeys().forEach { key ->
+                val sourceKey = intPreferencesKey("${sourcePrefix}${key.name}")
+                preferences[sourceKey]?.let { value ->
+                    val targetKey = intPreferencesKey("${targetPrefix}${key.name}")
+                    preferences[targetKey] = value
+                }
+            }
+
+            getAllStringWaifuKeys().forEach { key ->
+                val sourceKey = stringPreferencesKey("${sourcePrefix}${key.name}")
+                preferences[sourceKey]?.let { value ->
+                    val targetKey = stringPreferencesKey("${targetPrefix}${key.name}")
+                    preferences[targetKey] = value
+                }
+            }
+        }
+    }
+
+    private suspend fun switchToWaifuSettingsByPrefix(prefix: String) {
+        context.waifuDataStore.edit { preferences ->
+            getAllBooleanWaifuKeys().forEach { key ->
+                val cardKey = booleanPreferencesKey("${prefix}${key.name}")
+                if (preferences.contains(cardKey)) {
+                    preferences[key] = preferences[cardKey]!!
+                } else {
+                    preferences.remove(key)
+                }
+            }
+            getAllIntWaifuKeys().forEach { key ->
+                val cardKey = intPreferencesKey("${prefix}${key.name}")
+                if (preferences.contains(cardKey)) {
+                    preferences[key] = preferences[cardKey]!!
+                } else {
+                    preferences.remove(key)
+                }
+            }
+            getAllStringWaifuKeys().forEach { key ->
+                val cardKey = stringPreferencesKey("${prefix}${key.name}")
+                if (preferences.contains(cardKey)) {
+                    preferences[key] = preferences[cardKey]!!
+                } else {
+                    preferences.remove(key)
+                }
+            }
+        }
+    }
+
+    private suspend fun deleteWaifuSettingsByPrefix(prefix: String) {
+        context.waifuDataStore.edit { preferences ->
+            getAllBooleanWaifuKeys().forEach { key ->
+                preferences.remove(booleanPreferencesKey("${prefix}${key.name}"))
+            }
+            getAllIntWaifuKeys().forEach { key ->
+                preferences.remove(intPreferencesKey("${prefix}${key.name}"))
+            }
+            getAllStringWaifuKeys().forEach { key ->
+                preferences.remove(stringPreferencesKey("${prefix}${key.name}"))
+            }
+        }
+    }
+
+    private suspend fun hasWaifuSettingsByPrefix(prefix: String): Boolean {
+        val preferences = context.waifuDataStore.data.first()
+        return getAllBooleanWaifuKeys().any { key -> preferences.contains(booleanPreferencesKey("${prefix}${key.name}")) } ||
+                getAllIntWaifuKeys().any { key -> preferences.contains(intPreferencesKey("${prefix}${key.name}")) } ||
+                getAllStringWaifuKeys().any { key -> preferences.contains(stringPreferencesKey("${prefix}${key.name}")) }
+    }
+
+    suspend fun copyCurrentWaifuSettingsToCharacterCard(characterCardId: String) {
+        copyCurrentWaifuSettingsToPrefix(getCharacterCardWaifuPrefix(characterCardId))
+    }
+
+    suspend fun cloneWaifuSettingsBetweenCharacterCards(
+        sourceCharacterCardId: String,
+        targetCharacterCardId: String
+    ) {
+        cloneWaifuSettingsBetweenPrefixes(
+            getCharacterCardWaifuPrefix(sourceCharacterCardId),
+            getCharacterCardWaifuPrefix(targetCharacterCardId)
+        )
+    }
+
+    suspend fun switchToCharacterCardWaifuSettings(characterCardId: String) {
+        switchToWaifuSettingsByPrefix(getCharacterCardWaifuPrefix(characterCardId))
+    }
+
+    suspend fun saveCurrentWaifuSettingsToCharacterCard(characterCardId: String) {
+        copyCurrentWaifuSettingsToCharacterCard(characterCardId)
+    }
+
+    suspend fun deleteCharacterCardWaifuSettings(characterCardId: String) {
+        deleteWaifuSettingsByPrefix(getCharacterCardWaifuPrefix(characterCardId))
+    }
+
+    suspend fun hasCharacterCardWaifuSettings(characterCardId: String): Boolean {
+        return hasWaifuSettingsByPrefix(getCharacterCardWaifuPrefix(characterCardId))
+    }
+
+    suspend fun copyCurrentWaifuSettingsToCharacterGroup(characterGroupId: String) {
+        copyCurrentWaifuSettingsToPrefix(getCharacterGroupWaifuPrefix(characterGroupId))
+    }
+
+    suspend fun cloneWaifuSettingsBetweenCharacterGroups(
+        sourceCharacterGroupId: String,
+        targetCharacterGroupId: String
+    ) {
+        cloneWaifuSettingsBetweenPrefixes(
+            getCharacterGroupWaifuPrefix(sourceCharacterGroupId),
+            getCharacterGroupWaifuPrefix(targetCharacterGroupId)
+        )
+    }
+
+    suspend fun switchToCharacterGroupWaifuSettings(characterGroupId: String) {
+        switchToWaifuSettingsByPrefix(getCharacterGroupWaifuPrefix(characterGroupId))
+    }
+
+    suspend fun saveCurrentWaifuSettingsToCharacterGroup(characterGroupId: String) {
+        copyCurrentWaifuSettingsToCharacterGroup(characterGroupId)
+    }
+
+    suspend fun deleteCharacterGroupWaifuSettings(characterGroupId: String) {
+        deleteWaifuSettingsByPrefix(getCharacterGroupWaifuPrefix(characterGroupId))
+    }
+
+    suspend fun hasCharacterGroupWaifuSettings(characterGroupId: String): Boolean {
+        return hasWaifuSettingsByPrefix(getCharacterGroupWaifuPrefix(characterGroupId))
+    }
+}

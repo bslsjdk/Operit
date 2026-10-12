@@ -1,1 +1,160 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5NYXJrZXRWMkVudHJ5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0VjJQdWJsaXNoZXJFbnRyeVN1bW1hcnkKCmNvbnN0IHZhbCBNQ1BfTUFSS0VUX1ZJU0lCSUxJVFlfTEFCRUwgPSAibWNwLXBsdWdpbiIKY29uc3QgdmFsIFNLSUxMX01BUktFVF9WSVNJQklMSVRZX0xBQkVMID0gInNraWxsLXBsdWdpbiIKY29uc3QgdmFsIFJFVklFV19DSEFOR0VTX1JFUVVFU1RFRF9MQUJFTCA9ICJyZXZpZXc6Y2hhbmdlcy1yZXF1ZXN0ZWQiCmNvbnN0IHZhbCBSRVZJRVdfUkVKRUNURURfTEFCRUwgPSAicmV2aWV3OnJlamVjdGVkIgoKdmFsIEFSVElGQUNUX01BUktFVF9WSVNJQklMSVRZX0xBQkVMUzogU2V0PFN0cmluZz4gPQogICAgUHVibGlzaEFydGlmYWN0VHlwZS5lbnRyaWVzLm1hcCB7IGl0Lm1hcmtldExhYmVsIH0udG9TZXQoKQoKdmFsIEFMTF9NQVJLRVRfVklTSUJJTElUWV9MQUJFTFM6IFNldDxTdHJpbmc+ID0KICAgIGJ1aWxkU2V0IHsKICAgICAgICBhZGQoTUNQX01BUktFVF9WSVNJQklMSVRZX0xBQkVMKQogICAgICAgIGFkZChTS0lMTF9NQVJLRVRfVklTSUJJTElUWV9MQUJFTCkKICAgICAgICBhZGRBbGwoQVJUSUZBQ1RfTUFSS0VUX1ZJU0lCSUxJVFlfTEFCRUxTKQogICAgfQoKdmFsIE1BUktFVF9SRVZJRVdfU1RBVFVTX0xBQkVMUzogU2V0PFN0cmluZz4gPQogICAgc2V0T2YoCiAgICAgICAgUkVWSUVXX0NIQU5HRVNfUkVRVUVTVEVEX0xBQkVMLAogICAgICAgIFJFVklFV19SRUpFQ1RFRF9MQUJFTAogICAgKQoKdmFsIE1BUktFVF9SRVZJRVdfUkVBU09OX0xBQkVMUzogU2V0PFN0cmluZz4gPQogICAgTWFya2V0UmV2aWV3UmVhc29uLmVudHJpZXMubWFwIHsgaXQubGFiZWxOYW1lIH0udG9TZXQoKQoKZW51bSBjbGFzcyBNYXJrZXRSZXZpZXdTdGF0ZSB7CiAgICBQRU5ESU5HLAogICAgQVBQUk9WRUQsCiAgICBDSEFOR0VTX1JFUVVFU1RFRCwKICAgIFJFSkVDVEVELAogICAgV0lUSERSQVdOCn0KCmVudW0gY2xhc3MgTWFya2V0UmV2aWV3UmVhc29uKAogICAgdmFsIGNvZGU6IFN0cmluZywKICAgIHZhbCBsYWJlbE5hbWU6IFN0cmluZwopIHsKICAgIE1FVEFEQVRBX0lOQ09NUExFVEUoCiAgICAgICAgY29kZSA9ICJtZXRhZGF0YS1pbmNvbXBsZXRlIiwKICAgICAgICBsYWJlbE5hbWUgPSAicmVhc29uOm1ldGFkYXRhLWluY29tcGxldGUiCiAgICApLAogICAgSU5TVEFMTF9DT05GSUdfSU5WQUxJRCgKICAgICAgICBjb2RlID0gImluc3RhbGwtY29uZmlnLWludmFsaWQiLAogICAgICAgIGxhYmVsTmFtZSA9ICJyZWFzb246aW5zdGFsbC1jb25maWctaW52YWxpZCIKICAgICksCiAgICBSRVBPU0lUT1JZX1VOUkVBQ0hBQkxFKAogICAgICAgIGNvZGUgPSAicmVwb3NpdG9yeS11bnJlYWNoYWJsZSIsCiAgICAgICAgbGFiZWxOYW1lID0gInJlYXNvbjpyZXBvc2l0b3J5LXVucmVhY2hhYmxlIgogICAgKSwKICAgIFJFUE9TSVRPUllfQ09OVEVOVF9JTlZBTElEKAogICAgICAgIGNvZGUgPSAicmVwb3NpdG9yeS1jb250ZW50LWludmFsaWQiLAogICAgICAgIGxhYmVsTmFtZSA9ICJyZWFzb246cmVwb3NpdG9yeS1jb250ZW50LWludmFsaWQiCiAgICApLAogICAgRU5UUllfVU5VU0FCTEUoCiAgICAgICAgY29kZSA9ICJlbnRyeS11bnVzYWJsZSIsCiAgICAgICAgbGFiZWxOYW1lID0gInJlYXNvbjplbnRyeS11bnVzYWJsZSIKICAgICksCiAgICBRVUFMSVRZX1RPT19MT1coCiAgICAgICAgY29kZSA9ICJxdWFsaXR5LXRvby1sb3ciLAogICAgICAgIGxhYmVsTmFtZSA9ICJyZWFzb246cXVhbGl0eS10b28tbG93IgogICAgKSwKICAgIEFJX0hBTExVQ0lOQVRJT04oCiAgICAgICAgY29kZSA9ICJhaS1oYWxsdWNpbmF0aW9uIiwKICAgICAgICBsYWJlbE5hbWUgPSAicmVhc29uOmFpLWhhbGx1Y2luYXRpb24iCiAgICApLAogICAgU0VDVVJJVFlfUklTSygKICAgICAgICBjb2RlID0gInNlY3VyaXR5LXJpc2siLAogICAgICAgIGxhYmVsTmFtZSA9ICJyZWFzb246c2VjdXJpdHktcmlzayIKICAgICksCiAgICBEVVBMSUNBVEVfU1VCTUlTU0lPTigKICAgICAgICBjb2RlID0gImR1cGxpY2F0ZS1zdWJtaXNzaW9uIiwKICAgICAgICBsYWJlbE5hbWUgPSAicmVhc29uOmR1cGxpY2F0ZS1zdWJtaXNzaW9uIgogICAgKSwKICAgIFBPTElDWV9WSU9MQVRJT04oCiAgICAgICAgY29kZSA9ICJwb2xpY3ktdmlvbGF0aW9uIiwKICAgICAgICBsYWJlbE5hbWUgPSAicmVhc29uOnBvbGljeS12aW9sYXRpb24iCiAgICApOwoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgdmFsIGJ5TGFiZWxOYW1lID0gZW50cmllcy5hc3NvY2lhdGVCeSB7IGl0LmxhYmVsTmFtZS5sb3dlcmNhc2UoKSB9CiAgICAgICAgcHJpdmF0ZSB2YWwgYnlDb2RlID0gZW50cmllcy5hc3NvY2lhdGVCeSB7IGl0LmNvZGUubG93ZXJjYXNlKCkgfQoKICAgICAgICBmdW4gZnJvbUxhYmVsTmFtZShsYWJlbE5hbWU6IFN0cmluZyk6IE1hcmtldFJldmlld1JlYXNvbj8gewogICAgICAgICAgICByZXR1cm4gYnlMYWJlbE5hbWVbbGFiZWxOYW1lLnRyaW0oKS5sb3dlcmNhc2UoKV0KICAgICAgICB9CgogICAgICAgIGZ1biBmcm9tQ29kZShjb2RlOiBTdHJpbmcpOiBNYXJrZXRSZXZpZXdSZWFzb24/IHsKICAgICAgICAgICAgcmV0dXJuIGJ5Q29kZVtjb2RlLnRyaW0oKS5sb3dlcmNhc2UoKV0KICAgICAgICB9CiAgICB9Cn0KCmRhdGEgY2xhc3MgTWFya2V0UmV2aWV3U25hcHNob3QoCiAgICB2YWwgc3RhdGU6IE1hcmtldFJldmlld1N0YXRlLAogICAgdmFsIHJlYXNvbnM6IExpc3Q8TWFya2V0UmV2aWV3UmVhc29uPiwKICAgIHZhbCBpc1B1YmxpY2x5QXBwcm92ZWQ6IEJvb2xlYW4KKQoKZnVuIE1hcmtldFJldmlld1N0YXRlLmxhYmVsUmVzSWQoKTogSW50IHsKICAgIHJldHVybiB3aGVuICh0aGlzKSB7CiAgICAgICAgTWFya2V0UmV2aWV3U3RhdGUuUEVORElORyAtPiBSLnN0cmluZy5tYXJrZXRfcmV2aWV3X3BlbmRpbmcKICAgICAgICBNYXJrZXRSZXZpZXdTdGF0ZS5BUFBST1ZFRCAtPiBSLnN0cmluZy5tYXJrZXRfcmV2aWV3X2FwcHJvdmVkCiAgICAgICAgTWFya2V0UmV2aWV3U3RhdGUuQ0hBTkdFU19SRVFVRVNURUQgLT4gUi5zdHJpbmcubWFya2V0X3Jldmlld19jaGFuZ2VzX3JlcXVlc3RlZAogICAgICAgIE1hcmtldFJldmlld1N0YXRlLlJFSkVDVEVEIC0+IFIuc3RyaW5nLm1hcmtldF9yZXZpZXdfcmVqZWN0ZWQKICAgICAgICBNYXJrZXRSZXZpZXdTdGF0ZS5XSVRIRFJBV04gLT4gUi5zdHJpbmcucmVtb3ZlZAogICAgfQp9CgpmdW4gTWFya2V0UmV2aWV3UmVhc29uLmxhYmVsUmVzSWQoKTogSW50IHsKICAgIHJldHVybiB3aGVuICh0aGlzKSB7CiAgICAgICAgTWFya2V0UmV2aWV3UmVhc29uLk1FVEFEQVRBX0lOQ09NUExFVEUgLT4gUi5zdHJpbmcubWFya2V0X3Jldmlld19yZWFzb25fbWV0YWRhdGFfaW5jb21wbGV0ZQogICAgICAgIE1hcmtldFJldmlld1JlYXNvbi5JTlNUQUxMX0NPTkZJR19JTlZBTElEIC0+IFIuc3RyaW5nLm1hcmtldF9yZXZpZXdfcmVhc29uX2luc3RhbGxfY29uZmlnX2ludmFsaWQKICAgICAgICBNYXJrZXRSZXZpZXdSZWFzb24uUkVQT1NJVE9SWV9VTlJFQUNIQUJMRSAtPiBSLnN0cmluZy5tYXJrZXRfcmV2aWV3X3JlYXNvbl9yZXBvc2l0b3J5X3VucmVhY2hhYmxlCiAgICAgICAgTWFya2V0UmV2aWV3UmVhc29uLlJFUE9TSVRPUllfQ09OVEVOVF9JTlZBTElEIC0+IFIuc3RyaW5nLm1hcmtldF9yZXZpZXdfcmVhc29uX3JlcG9zaXRvcnlfY29udGVudF9pbnZhbGlkCiAgICAgICAgTWFya2V0UmV2aWV3UmVhc29uLkVOVFJZX1VOVVNBQkxFIC0+IFIuc3RyaW5nLm1hcmtldF9yZXZpZXdfcmVhc29uX2VudHJ5X3VudXNhYmxlCiAgICAgICAgTWFya2V0UmV2aWV3UmVhc29uLlFVQUxJVFlfVE9PX0xPVyAtPiBSLnN0cmluZy5tYXJrZXRfcmV2aWV3X3JlYXNvbl9xdWFsaXR5X3Rvb19sb3cKICAgICAgICBNYXJrZXRSZXZpZXdSZWFzb24uQUlfSEFMTFVDSU5BVElPTiAtPiBSLnN0cmluZy5tYXJrZXRfcmV2aWV3X3JlYXNvbl9haV9oYWxsdWNpbmF0aW9uCiAgICAgICAgTWFya2V0UmV2aWV3UmVhc29uLlNFQ1VSSVRZX1JJU0sgLT4gUi5zdHJpbmcubWFya2V0X3Jldmlld19yZWFzb25fc2VjdXJpdHlfcmlzawogICAgICAgIE1hcmtldFJldmlld1JlYXNvbi5EVVBMSUNBVEVfU1VCTUlTU0lPTiAtPiBSLnN0cmluZy5tYXJrZXRfcmV2aWV3X3JlYXNvbl9kdXBsaWNhdGVfc3VibWlzc2lvbgogICAgICAgIE1hcmtldFJldmlld1JlYXNvbi5QT0xJQ1lfVklPTEFUSU9OIC0+IFIuc3RyaW5nLm1hcmtldF9yZXZpZXdfcmVhc29uX3BvbGljeV92aW9sYXRpb24KICAgIH0KfQoKZnVuIE1hcmtldFYyRW50cnkucmVzb2x2ZU1hcmtldFJldmlld1NuYXBzaG90KCk6IE1hcmtldFJldmlld1NuYXBzaG90IHsKCiAgICB2YWwgc3RhdGUgPQogICAgICAgIHdoZW4gKHN0YXRlQ29kZS5sb3dlcmNhc2UoKSkgewogICAgICAgICAgICAiYXBwcm92ZWQiLCAib3BlbiIgLT4gTWFya2V0UmV2aWV3U3RhdGUuQVBQUk9WRUQKICAgICAgICAgICAgImNoYW5nZXNfcmVxdWVzdGVkIiAtPiBNYXJrZXRSZXZpZXdTdGF0ZS5DSEFOR0VTX1JFUVVFU1RFRAogICAgICAgICAgICAicmVqZWN0ZWQiLCAic2VjdXJpdHlfYmxvY2tlZCIgLT4gTWFya2V0UmV2aWV3U3RhdGUuUkVKRUNURUQKICAgICAgICAgICAgIndpdGhkcmF3biIsICJjbG9zZWQiLCAicmVtb3ZlZCIgLT4gTWFya2V0UmV2aWV3U3RhdGUuV0lUSERSQVdOCiAgICAgICAgICAgIGVsc2UgLT4gTWFya2V0UmV2aWV3U3RhdGUuUEVORElORwogICAgICAgIH0KICAgIHJldHVybiBNYXJrZXRSZXZpZXdTbmFwc2hvdCgKICAgICAgICBzdGF0ZSA9IHN0YXRlLAogICAgICAgIHJlYXNvbnMgPSBlbXB0eUxpc3QoKSwKICAgICAgICBpc1B1YmxpY2x5QXBwcm92ZWQgPSBzdGF0ZSA9PSBNYXJrZXRSZXZpZXdTdGF0ZS5BUFBST1ZFRAogICAgKQp9CgpmdW4gTWFya2V0VjJQdWJsaXNoZXJFbnRyeVN1bW1hcnkucmVzb2x2ZU1hcmtldFJldmlld1NuYXBzaG90KCk6IE1hcmtldFJldmlld1NuYXBzaG90IHsKICAgIHZhbCBzdGF0ZSA9CiAgICAgICAgd2hlbiAoc3RhdGVDb2RlLmxvd2VyY2FzZSgpKSB7CiAgICAgICAgICAgICJhcHByb3ZlZCIsICJvcGVuIiAtPiBNYXJrZXRSZXZpZXdTdGF0ZS5BUFBST1ZFRAogICAgICAgICAgICAiY2hhbmdlc19yZXF1ZXN0ZWQiIC0+IE1hcmtldFJldmlld1N0YXRlLkNIQU5HRVNfUkVRVUVTVEVECiAgICAgICAgICAgICJyZWplY3RlZCIsICJzZWN1cml0eV9ibG9ja2VkIiAtPiBNYXJrZXRSZXZpZXdTdGF0ZS5SRUpFQ1RFRAogICAgICAgICAgICAid2l0aGRyYXduIiwgImNsb3NlZCIsICJyZW1vdmVkIiAtPiBNYXJrZXRSZXZpZXdTdGF0ZS5XSVRIRFJBV04KICAgICAgICAgICAgZWxzZSAtPiBNYXJrZXRSZXZpZXdTdGF0ZS5QRU5ESU5HCiAgICAgICAgfQogICAgcmV0dXJuIE1hcmtldFJldmlld1NuYXBzaG90KAogICAgICAgIHN0YXRlID0gc3RhdGUsCiAgICAgICAgcmVhc29ucyA9IHJlYXNvbkNvZGVzLm1hcE5vdE51bGwgeyBNYXJrZXRSZXZpZXdSZWFzb24uZnJvbUNvZGUoaXQpIH0sCiAgICAgICAgaXNQdWJsaWNseUFwcHJvdmVkID0gc3RhdGUgPT0gTWFya2V0UmV2aWV3U3RhdGUuQVBQUk9WRUQKICAgICkKfQo=
+package com.bslsjdk.operit.ui.features.packages.market
+
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.api.MarketV2Entry
+import com.bslsjdk.operit.data.api.MarketV2PublisherEntrySummary
+
+const val MCP_MARKET_VISIBILITY_LABEL = "mcp-plugin"
+const val SKILL_MARKET_VISIBILITY_LABEL = "skill-plugin"
+const val REVIEW_CHANGES_REQUESTED_LABEL = "review:changes-requested"
+const val REVIEW_REJECTED_LABEL = "review:rejected"
+
+val ARTIFACT_MARKET_VISIBILITY_LABELS: Set<String> =
+    PublishArtifactType.entries.map { it.marketLabel }.toSet()
+
+val ALL_MARKET_VISIBILITY_LABELS: Set<String> =
+    buildSet {
+        add(MCP_MARKET_VISIBILITY_LABEL)
+        add(SKILL_MARKET_VISIBILITY_LABEL)
+        addAll(ARTIFACT_MARKET_VISIBILITY_LABELS)
+    }
+
+val MARKET_REVIEW_STATUS_LABELS: Set<String> =
+    setOf(
+        REVIEW_CHANGES_REQUESTED_LABEL,
+        REVIEW_REJECTED_LABEL
+    )
+
+val MARKET_REVIEW_REASON_LABELS: Set<String> =
+    MarketReviewReason.entries.map { it.labelName }.toSet()
+
+enum class MarketReviewState {
+    PENDING,
+    APPROVED,
+    CHANGES_REQUESTED,
+    REJECTED,
+    WITHDRAWN
+}
+
+enum class MarketReviewReason(
+    val code: String,
+    val labelName: String
+) {
+    METADATA_INCOMPLETE(
+        code = "metadata-incomplete",
+        labelName = "reason:metadata-incomplete"
+    ),
+    INSTALL_CONFIG_INVALID(
+        code = "install-config-invalid",
+        labelName = "reason:install-config-invalid"
+    ),
+    REPOSITORY_UNREACHABLE(
+        code = "repository-unreachable",
+        labelName = "reason:repository-unreachable"
+    ),
+    REPOSITORY_CONTENT_INVALID(
+        code = "repository-content-invalid",
+        labelName = "reason:repository-content-invalid"
+    ),
+    ENTRY_UNUSABLE(
+        code = "entry-unusable",
+        labelName = "reason:entry-unusable"
+    ),
+    QUALITY_TOO_LOW(
+        code = "quality-too-low",
+        labelName = "reason:quality-too-low"
+    ),
+    AI_HALLUCINATION(
+        code = "ai-hallucination",
+        labelName = "reason:ai-hallucination"
+    ),
+    SECURITY_RISK(
+        code = "security-risk",
+        labelName = "reason:security-risk"
+    ),
+    DUPLICATE_SUBMISSION(
+        code = "duplicate-submission",
+        labelName = "reason:duplicate-submission"
+    ),
+    POLICY_VIOLATION(
+        code = "policy-violation",
+        labelName = "reason:policy-violation"
+    );
+
+    companion object {
+        private val byLabelName = entries.associateBy { it.labelName.lowercase() }
+        private val byCode = entries.associateBy { it.code.lowercase() }
+
+        fun fromLabelName(labelName: String): MarketReviewReason? {
+            return byLabelName[labelName.trim().lowercase()]
+        }
+
+        fun fromCode(code: String): MarketReviewReason? {
+            return byCode[code.trim().lowercase()]
+        }
+    }
+}
+
+data class MarketReviewSnapshot(
+    val state: MarketReviewState,
+    val reasons: List<MarketReviewReason>,
+    val isPubliclyApproved: Boolean
+)
+
+fun MarketReviewState.labelResId(): Int {
+    return when (this) {
+        MarketReviewState.PENDING -> R.string.market_review_pending
+        MarketReviewState.APPROVED -> R.string.market_review_approved
+        MarketReviewState.CHANGES_REQUESTED -> R.string.market_review_changes_requested
+        MarketReviewState.REJECTED -> R.string.market_review_rejected
+        MarketReviewState.WITHDRAWN -> R.string.removed
+    }
+}
+
+fun MarketReviewReason.labelResId(): Int {
+    return when (this) {
+        MarketReviewReason.METADATA_INCOMPLETE -> R.string.market_review_reason_metadata_incomplete
+        MarketReviewReason.INSTALL_CONFIG_INVALID -> R.string.market_review_reason_install_config_invalid
+        MarketReviewReason.REPOSITORY_UNREACHABLE -> R.string.market_review_reason_repository_unreachable
+        MarketReviewReason.REPOSITORY_CONTENT_INVALID -> R.string.market_review_reason_repository_content_invalid
+        MarketReviewReason.ENTRY_UNUSABLE -> R.string.market_review_reason_entry_unusable
+        MarketReviewReason.QUALITY_TOO_LOW -> R.string.market_review_reason_quality_too_low
+        MarketReviewReason.AI_HALLUCINATION -> R.string.market_review_reason_ai_hallucination
+        MarketReviewReason.SECURITY_RISK -> R.string.market_review_reason_security_risk
+        MarketReviewReason.DUPLICATE_SUBMISSION -> R.string.market_review_reason_duplicate_submission
+        MarketReviewReason.POLICY_VIOLATION -> R.string.market_review_reason_policy_violation
+    }
+}
+
+fun MarketV2Entry.resolveMarketReviewSnapshot(): MarketReviewSnapshot {
+
+    val state =
+        when (stateCode.lowercase()) {
+            "approved", "open" -> MarketReviewState.APPROVED
+            "changes_requested" -> MarketReviewState.CHANGES_REQUESTED
+            "rejected", "security_blocked" -> MarketReviewState.REJECTED
+            "withdrawn", "closed", "removed" -> MarketReviewState.WITHDRAWN
+            else -> MarketReviewState.PENDING
+        }
+    return MarketReviewSnapshot(
+        state = state,
+        reasons = emptyList(),
+        isPubliclyApproved = state == MarketReviewState.APPROVED
+    )
+}
+
+fun MarketV2PublisherEntrySummary.resolveMarketReviewSnapshot(): MarketReviewSnapshot {
+    val state =
+        when (stateCode.lowercase()) {
+            "approved", "open" -> MarketReviewState.APPROVED
+            "changes_requested" -> MarketReviewState.CHANGES_REQUESTED
+            "rejected", "security_blocked" -> MarketReviewState.REJECTED
+            "withdrawn", "closed", "removed" -> MarketReviewState.WITHDRAWN
+            else -> MarketReviewState.PENDING
+        }
+    return MarketReviewSnapshot(
+        state = state,
+        reasons = reasonCodes.mapNotNull { MarketReviewReason.fromCode(it) },
+        isPubliclyApproved = state == MarketReviewState.APPROVED
+    )
+}

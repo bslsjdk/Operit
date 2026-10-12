@@ -1,1 +1,148 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuQ29kZXhBdXRoUHJlZmVyZW5jZXMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkNvZGV4QXV0aFN0YXRlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5Db2RleFN0b3JlZFVzYWdlU25hcHNob3QKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkNvZGV4VXNhZ2VQcmVmZXJlbmNlcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLmlvLklPRXhjZXB0aW9uCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy5NdXRleAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMud2l0aExvY2sKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CgpjbGFzcyBDb2RleEF1dGhNYW5hZ2VyIHByaXZhdGUgY29uc3RydWN0b3IoY29udGV4dDogQ29udGV4dCkgewogICAgcHJpdmF0ZSB2YWwgcHJlZmVyZW5jZXMgPSBDb2RleEF1dGhQcmVmZXJlbmNlcy5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgcHJpdmF0ZSB2YWwgaHR0cENsaWVudCA9IE9rSHR0cENsaWVudC5CdWlsZGVyKCkKICAgICAgICAuY29ubmVjdFRpbWVvdXQoMzAsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgLnJlYWRUaW1lb3V0KDMwLCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgIC53cml0ZVRpbWVvdXQoMzAsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgLmJ1aWxkKCkKICAgIHByaXZhdGUgdmFsIG9hdXRoQ2xpZW50ID0gQ29kZXhPQXV0aENsaWVudChjbGllbnQgPSBodHRwQ2xpZW50KQogICAgcHJpdmF0ZSB2YWwgdXNhZ2VDbGllbnQgPSBDb2RleFVzYWdlQ2xpZW50KGNsaWVudCA9IGh0dHBDbGllbnQpCiAgICBwcml2YXRlIHZhbCB1c2FnZVByZWZlcmVuY2VzID0gQ29kZXhVc2FnZVByZWZlcmVuY2VzLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICBwcml2YXRlIHZhbCByZWZyZXNoTXV0ZXggPSBNdXRleCgpCgogICAgdmFsIGF1dGhTdGF0ZTogU3RhdGVGbG93PENvZGV4QXV0aFN0YXRlPz4gPSBwcmVmZXJlbmNlcy5hdXRoU3RhdGUKICAgIHZhbCB1c2FnZVNuYXBzaG90RmxvdzogRmxvdzxDb2RleFN0b3JlZFVzYWdlU25hcHNob3Q/PiA9IHVzYWdlUHJlZmVyZW5jZXMuc25hcHNob3RGbG93CgogICAgc3VzcGVuZCBmdW4gc2F2ZUxvZ2luVG9rZW5zKHRva2VuczogQ29kZXhPQXV0aFRva2VuUmVzcG9uc2UpOiBDb2RleEF1dGhTdGF0ZSB7CiAgICAgICAgdmFsIGNvbXBsZXRlVG9rZW5zID0gdG9rZW5zLnJlcXVpcmVDb21wbGV0ZSgpCiAgICAgICAgdmFsIGFjY2Vzc1Rva2VuID0gcmVxdWlyZU5vdE51bGwoY29tcGxldGVUb2tlbnMuYWNjZXNzVG9rZW4pCiAgICAgICAgdmFsIGlkVG9rZW4gPSByZXF1aXJlTm90TnVsbChjb21wbGV0ZVRva2Vucy5pZFRva2VuKQogICAgICAgIHZhbCByZWZyZXNoVG9rZW4gPSByZXF1aXJlTm90TnVsbChjb21wbGV0ZVRva2Vucy5yZWZyZXNoVG9rZW4pCiAgICAgICAgdmFsIGFjY2Vzc0NsYWltcyA9IENvZGV4T0F1dGhQcm90b2NvbC5wYXJzZUp3dENsYWltcyhhY2Nlc3NUb2tlbikKICAgICAgICAgICAgPzogdGhyb3cgSU9FeGNlcHRpb24oIkNvZGV4IGFjY2VzcyB0b2tlbiBpcyBub3QgYSB2YWxpZCBKV1QiKQogICAgICAgIHZhbCBpZENsYWltcyA9IENvZGV4T0F1dGhQcm90b2NvbC5wYXJzZUp3dENsYWltcyhpZFRva2VuKQogICAgICAgIHZhbCBhY2NvdW50SWQgPSBpZENsYWltcz8uYWNjb3VudElkID86IGFjY2Vzc0NsYWltcy5hY2NvdW50SWQKICAgICAgICAgICAgPzogdGhyb3cgSU9FeGNlcHRpb24oIkNvZGV4IHRva2VuIGhhcyBubyBDaGF0R1BUIGFjY291bnQgSUQiKQogICAgICAgIHZhbCBleHBpcmVzQXQgPSBhY2Nlc3NDbGFpbXMuZXhwaXJlc0F0TWlsbGlzCiAgICAgICAgICAgID86IGNvbXBsZXRlVG9rZW5zLmV4cGlyZXNJblNlY29uZHM/LmxldCB7IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpICsgaXQgKiAxMDAwTCB9CiAgICAgICAgICAgID86IHRocm93IElPRXhjZXB0aW9uKCJDb2RleCBhY2Nlc3MgdG9rZW4gaGFzIG5vIGV4cGlyYXRpb24iKQogICAgICAgIHZhbCBzdGF0ZSA9IENvZGV4QXV0aFN0YXRlKAogICAgICAgICAgICBhY2Nlc3NUb2tlbiA9IGFjY2Vzc1Rva2VuLAogICAgICAgICAgICByZWZyZXNoVG9rZW4gPSByZWZyZXNoVG9rZW4sCiAgICAgICAgICAgIGV4cGlyZXNBdE1pbGxpcyA9IGV4cGlyZXNBdCwKICAgICAgICAgICAgYWNjb3VudElkID0gYWNjb3VudElkLAogICAgICAgICAgICByZXNpZGVuY3kgPSBhY2Nlc3NDbGFpbXMucmVzaWRlbmN5ID86IGlkQ2xhaW1zPy5yZXNpZGVuY3ksCiAgICAgICAgICAgIGVtYWlsID0gaWRDbGFpbXM/LmVtYWlsID86IGFjY2Vzc0NsYWltcy5lbWFpbCwKICAgICAgICApCiAgICAgICAgcHJlZmVyZW5jZXMuc2F2ZShzdGF0ZSkKICAgICAgICByZXR1cm4gc3RhdGUKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBnZXRWYWxpZEFjY2Vzc1Rva2VuKCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGN1cnJlbnQgPSBwcmVmZXJlbmNlcy5jdXJyZW50U3RhdGUoKQogICAgICAgICAgICA/OiB0aHJvdyBJT0V4Y2VwdGlvbigiQ29kZXggaXMgbm90IGxvZ2dlZCBpbiIpCiAgICAgICAgaWYgKGN1cnJlbnQuZXhwaXJlc0F0TWlsbGlzIC0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgPiBSRUZSRVNIX1dJTkRPV19NSUxMSVMpIHsKICAgICAgICAgICAgcmV0dXJuIGN1cnJlbnQuYWNjZXNzVG9rZW4KICAgICAgICB9CgogICAgICAgIHJldHVybiByZWZyZXNoTXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgbGF0ZXN0ID0gcHJlZmVyZW5jZXMuY3VycmVudFN0YXRlKCkKICAgICAgICAgICAgICAgID86IHRocm93IElPRXhjZXB0aW9uKCJDb2RleCBpcyBub3QgbG9nZ2VkIGluIikKICAgICAgICAgICAgaWYgKGxhdGVzdC5leHBpcmVzQXRNaWxsaXMgLSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSA+IFJFRlJFU0hfV0lORE9XX01JTExJUykgewogICAgICAgICAgICAgICAgbGF0ZXN0LmFjY2Vzc1Rva2VuCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByZWZyZXNoQWNjZXNzVG9rZW4obGF0ZXN0KS5hY2Nlc3NUb2tlbgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHJlZnJlc2hBY2Nlc3NUb2tlbihjdXJyZW50OiBDb2RleEF1dGhTdGF0ZSk6IENvZGV4QXV0aFN0YXRlIHsKICAgICAgICB2YWwgcmVzcG9uc2UgPSBvYXV0aENsaWVudC5yZWZyZXNoQWNjZXNzVG9rZW4oY3VycmVudC5yZWZyZXNoVG9rZW4pCiAgICAgICAgdmFsIGFjY2Vzc1Rva2VuID0gcmVzcG9uc2UuYWNjZXNzVG9rZW4KICAgICAgICAgICAgPzogdGhyb3cgSU9FeGNlcHRpb24oIkNvZGV4IHJlZnJlc2ggcmVzcG9uc2UgaGFzIG5vIGFjY2VzcyB0b2tlbiIpCiAgICAgICAgdmFsIGFjY2Vzc0NsYWltcyA9IENvZGV4T0F1dGhQcm90b2NvbC5wYXJzZUp3dENsYWltcyhhY2Nlc3NUb2tlbikKICAgICAgICAgICAgPzogdGhyb3cgSU9FeGNlcHRpb24oIkNvZGV4IHJlZnJlc2hlZCBhY2Nlc3MgdG9rZW4gaXMgbm90IGEgdmFsaWQgSldUIikKICAgICAgICB2YWwgaWRDbGFpbXMgPSByZXNwb25zZS5pZFRva2VuPy5sZXQoQ29kZXhPQXV0aFByb3RvY29sOjpwYXJzZUp3dENsYWltcykKICAgICAgICB2YWwgYWNjb3VudElkID0gaWRDbGFpbXM/LmFjY291bnRJZCA/OiBhY2Nlc3NDbGFpbXMuYWNjb3VudElkID86IGN1cnJlbnQuYWNjb3VudElkCiAgICAgICAgdmFsIGV4cGlyZXNBdCA9IGFjY2Vzc0NsYWltcy5leHBpcmVzQXRNaWxsaXMKICAgICAgICAgICAgPzogcmVzcG9uc2UuZXhwaXJlc0luU2Vjb25kcz8ubGV0IHsgU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgKyBpdCAqIDEwMDBMIH0KICAgICAgICAgICAgPzogdGhyb3cgSU9FeGNlcHRpb24oIkNvZGV4IHJlZnJlc2hlZCBhY2Nlc3MgdG9rZW4gaGFzIG5vIGV4cGlyYXRpb24iKQogICAgICAgIHZhbCB1cGRhdGVkID0gY3VycmVudC5jb3B5KAogICAgICAgICAgICBhY2Nlc3NUb2tlbiA9IGFjY2Vzc1Rva2VuLAogICAgICAgICAgICByZWZyZXNoVG9rZW4gPSByZXNwb25zZS5yZWZyZXNoVG9rZW4gPzogY3VycmVudC5yZWZyZXNoVG9rZW4sCiAgICAgICAgICAgIGV4cGlyZXNBdE1pbGxpcyA9IGV4cGlyZXNBdCwKICAgICAgICAgICAgYWNjb3VudElkID0gYWNjb3VudElkLAogICAgICAgICAgICByZXNpZGVuY3kgPSBhY2Nlc3NDbGFpbXMucmVzaWRlbmN5ID86IGlkQ2xhaW1zPy5yZXNpZGVuY3kgPzogY3VycmVudC5yZXNpZGVuY3ksCiAgICAgICAgICAgIGVtYWlsID0gaWRDbGFpbXM/LmVtYWlsID86IGFjY2Vzc0NsYWltcy5lbWFpbCA/OiBjdXJyZW50LmVtYWlsLAogICAgICAgICkKICAgICAgICBwcmVmZXJlbmNlcy5zYXZlKHVwZGF0ZWQpCiAgICAgICAgcmV0dXJuIHVwZGF0ZWQKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBsb2dvdXQoKSB7CiAgICAgICAgdmFsIGN1cnJlbnQgPSBwcmVmZXJlbmNlcy5jdXJyZW50U3RhdGUoKQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChjdXJyZW50ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIG9hdXRoQ2xpZW50LnJldm9rZVRva2VuKGN1cnJlbnQucmVmcmVzaFRva2VuLCAicmVmcmVzaF90b2tlbiIpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byByZXZva2UgQ29kZXggT0F1dGggdG9rZW4iLCBlcnJvcikKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBwcmVmZXJlbmNlcy5jbGVhcigpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBjdXJyZW50QWNjb3VudElkKCk6IFN0cmluZz8gPSBwcmVmZXJlbmNlcy5jdXJyZW50U3RhdGUoKT8uYWNjb3VudElkCgogICAgZnVuIGN1cnJlbnRSZXNpZGVuY3koKTogU3RyaW5nPyA9IHByZWZlcmVuY2VzLmN1cnJlbnRTdGF0ZSgpPy5yZXNpZGVuY3kKCiAgICBzdXNwZW5kIGZ1biBmZXRjaFVzYWdlKCk6IFJlc3VsdDxDb2RleFVzYWdlU25hcHNob3Q+IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGFjY2Vzc1Rva2VuID0gZ2V0VmFsaWRBY2Nlc3NUb2tlbigpCiAgICAgICAgICAgIHZhbCBhY2NvdW50SWQgPSBjdXJyZW50QWNjb3VudElkKCkKICAgICAgICAgICAgICAgID86IHRocm93IElPRXhjZXB0aW9uKCJDb2RleCBhY2NvdW50IElEIGlzIHVuYXZhaWxhYmxlIikKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHVzYWdlQ2xpZW50LmZldGNoKAogICAgICAgICAgICAgICAgYWNjZXNzVG9rZW4gPSBhY2Nlc3NUb2tlbiwKICAgICAgICAgICAgICAgIGFjY291bnRJZCA9IGFjY291bnRJZCwKICAgICAgICAgICAgICAgIHJlc2lkZW5jeSA9IGN1cnJlbnRSZXNpZGVuY3koKSwKICAgICAgICAgICAgKQogICAgICAgICAgICBpZiAocmVzdWx0LmlzU3VjY2VzcykgewogICAgICAgICAgICAgICAgdXNhZ2VQcmVmZXJlbmNlcy5zYXZlKGFjY291bnRJZCwgcmVzdWx0LmdldE9yVGhyb3coKSkKICAgICAgICAgICAgfQogICAgICAgICAgICByZXN1bHQKICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBwcmVwYXJlIENvZGV4IHVzYWdlIHJlcXVlc3QiLCBlcnJvcikKICAgICAgICAgICAgUmVzdWx0LmZhaWx1cmUoZXJyb3IpCiAgICAgICAgfQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJDb2RleEF1dGhNYW5hZ2VyIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFJFRlJFU0hfV0lORE9XX01JTExJUyA9IDUgKiA2MCAqIDEwMDBMCgogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHByaXZhdGUgdmFyIGluc3RhbmNlOiBDb2RleEF1dGhNYW5hZ2VyPyA9IG51bGwKCiAgICAgICAgZnVuIGdldEluc3RhbmNlKGNvbnRleHQ6IENvbnRleHQpOiBDb2RleEF1dGhNYW5hZ2VyIHsKICAgICAgICAgICAgcmV0dXJuIGluc3RhbmNlID86IHN5bmNocm9uaXplZCh0aGlzKSB7CiAgICAgICAgICAgICAgICBpbnN0YW5jZSA/OiBDb2RleEF1dGhNYW5hZ2VyKGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KS5hbHNvIHsgaW5zdGFuY2UgPSBpdCB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.data.api
+
+import android.content.Context
+import com.bslsjdk.operit.data.preferences.CodexAuthPreferences
+import com.bslsjdk.operit.data.preferences.CodexAuthState
+import com.bslsjdk.operit.data.preferences.CodexStoredUsageSnapshot
+import com.bslsjdk.operit.data.preferences.CodexUsagePreferences
+import com.bslsjdk.operit.util.AppLogger
+import java.io.IOException
+import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import okhttp3.OkHttpClient
+
+class CodexAuthManager private constructor(context: Context) {
+    private val preferences = CodexAuthPreferences.getInstance(context)
+    private val httpClient = OkHttpClient.Builder()
+        .connectTimeout(30, TimeUnit.SECONDS)
+        .readTimeout(30, TimeUnit.SECONDS)
+        .writeTimeout(30, TimeUnit.SECONDS)
+        .build()
+    private val oauthClient = CodexOAuthClient(client = httpClient)
+    private val usageClient = CodexUsageClient(client = httpClient)
+    private val usagePreferences = CodexUsagePreferences.getInstance(context)
+    private val refreshMutex = Mutex()
+
+    val authState: StateFlow<CodexAuthState?> = preferences.authState
+    val usageSnapshotFlow: Flow<CodexStoredUsageSnapshot?> = usagePreferences.snapshotFlow
+
+    suspend fun saveLoginTokens(tokens: CodexOAuthTokenResponse): CodexAuthState {
+        val completeTokens = tokens.requireComplete()
+        val accessToken = requireNotNull(completeTokens.accessToken)
+        val idToken = requireNotNull(completeTokens.idToken)
+        val refreshToken = requireNotNull(completeTokens.refreshToken)
+        val accessClaims = CodexOAuthProtocol.parseJwtClaims(accessToken)
+            ?: throw IOException("Codex access token is not a valid JWT")
+        val idClaims = CodexOAuthProtocol.parseJwtClaims(idToken)
+        val accountId = idClaims?.accountId ?: accessClaims.accountId
+            ?: throw IOException("Codex token has no ChatGPT account ID")
+        val expiresAt = accessClaims.expiresAtMillis
+            ?: completeTokens.expiresInSeconds?.let { System.currentTimeMillis() + it * 1000L }
+            ?: throw IOException("Codex access token has no expiration")
+        val state = CodexAuthState(
+            accessToken = accessToken,
+            refreshToken = refreshToken,
+            expiresAtMillis = expiresAt,
+            accountId = accountId,
+            residency = accessClaims.residency ?: idClaims?.residency,
+            email = idClaims?.email ?: accessClaims.email,
+        )
+        preferences.save(state)
+        return state
+    }
+
+    suspend fun getValidAccessToken(): String {
+        val current = preferences.currentState()
+            ?: throw IOException("Codex is not logged in")
+        if (current.expiresAtMillis - System.currentTimeMillis() > REFRESH_WINDOW_MILLIS) {
+            return current.accessToken
+        }
+
+        return refreshMutex.withLock {
+            val latest = preferences.currentState()
+                ?: throw IOException("Codex is not logged in")
+            if (latest.expiresAtMillis - System.currentTimeMillis() > REFRESH_WINDOW_MILLIS) {
+                latest.accessToken
+            } else {
+                refreshAccessToken(latest).accessToken
+            }
+        }
+    }
+
+    suspend fun refreshAccessToken(current: CodexAuthState): CodexAuthState {
+        val response = oauthClient.refreshAccessToken(current.refreshToken)
+        val accessToken = response.accessToken
+            ?: throw IOException("Codex refresh response has no access token")
+        val accessClaims = CodexOAuthProtocol.parseJwtClaims(accessToken)
+            ?: throw IOException("Codex refreshed access token is not a valid JWT")
+        val idClaims = response.idToken?.let(CodexOAuthProtocol::parseJwtClaims)
+        val accountId = idClaims?.accountId ?: accessClaims.accountId ?: current.accountId
+        val expiresAt = accessClaims.expiresAtMillis
+            ?: response.expiresInSeconds?.let { System.currentTimeMillis() + it * 1000L }
+            ?: throw IOException("Codex refreshed access token has no expiration")
+        val updated = current.copy(
+            accessToken = accessToken,
+            refreshToken = response.refreshToken ?: current.refreshToken,
+            expiresAtMillis = expiresAt,
+            accountId = accountId,
+            residency = accessClaims.residency ?: idClaims?.residency ?: current.residency,
+            email = idClaims?.email ?: accessClaims.email ?: current.email,
+        )
+        preferences.save(updated)
+        return updated
+    }
+
+    suspend fun logout() {
+        val current = preferences.currentState()
+        try {
+            if (current != null) {
+                oauthClient.revokeToken(current.refreshToken, "refresh_token")
+            }
+        } catch (error: Exception) {
+            AppLogger.e(TAG, "Failed to revoke Codex OAuth token", error)
+        } finally {
+            preferences.clear()
+        }
+    }
+
+    fun currentAccountId(): String? = preferences.currentState()?.accountId
+
+    fun currentResidency(): String? = preferences.currentState()?.residency
+
+    suspend fun fetchUsage(): Result<CodexUsageSnapshot> {
+        return try {
+            val accessToken = getValidAccessToken()
+            val accountId = currentAccountId()
+                ?: throw IOException("Codex account ID is unavailable")
+            val result = usageClient.fetch(
+                accessToken = accessToken,
+                accountId = accountId,
+                residency = currentResidency(),
+            )
+            if (result.isSuccess) {
+                usagePreferences.save(accountId, result.getOrThrow())
+            }
+            result
+        } catch (error: Exception) {
+            AppLogger.e(TAG, "Failed to prepare Codex usage request", error)
+            Result.failure(error)
+        }
+    }
+
+    companion object {
+        private const val TAG = "CodexAuthManager"
+        private const val REFRESH_WINDOW_MILLIS = 5 * 60 * 1000L
+
+        @Volatile
+        private var instance: CodexAuthManager? = null
+
+        fun getInstance(context: Context): CodexAuthManager {
+            return instance ?: synchronized(this) {
+                instance ?: CodexAuthManager(context.applicationContext).also { instance = it }
+            }
+        }
+    }
+}

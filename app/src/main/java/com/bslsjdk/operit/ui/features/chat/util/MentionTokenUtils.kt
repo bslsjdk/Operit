@@ -1,1 +1,95 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC51dGlsCgpkYXRhIGNsYXNzIE1lbnRpb25Ub2tlblJhbmdlKAogICAgdmFsIHRyaWdnZXJDaGFyOiBDaGFyLAogICAgdmFsIHN0YXJ0OiBJbnQsCiAgICB2YWwgY29udGVudEVuZEV4Y2x1c2l2ZTogSW50LAogICAgdmFsIGVuZEV4Y2x1c2l2ZTogSW50LAopIHsKICAgIHZhbCBoYXNUcmFpbGluZ1doaXRlc3BhY2U6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IGVuZEV4Y2x1c2l2ZSA+IGNvbnRlbnRFbmRFeGNsdXNpdmUKfQoKcHJpdmF0ZSB2YWwgbWVudGlvblRyaWdnZXJDaGFycyA9IHNldE9mKCdAJywgJy8nKQoKcHJpdmF0ZSBmdW4gaXNCYXNlTWVudGlvbkNvbnRpbnVhdGlvbihjaGFyOiBDaGFyKTogQm9vbGVhbiB7CiAgICByZXR1cm4gKGNoYXIuY29kZSBpbiAwLi4xMjcgJiYgY2hhci5pc0xldHRlck9yRGlnaXQoKSkgfHwKICAgICAgICBjaGFyID09ICcuJyB8fAogICAgICAgIGNoYXIgPT0gJ18nIHx8CiAgICAgICAgY2hhciA9PSAnJScgfHwKICAgICAgICBjaGFyID09ICcrJyB8fAogICAgICAgIGNoYXIgPT0gJy0nCn0KCmZ1biBpc01lbnRpb25Db250aW51YXRpb24oY2hhcjogQ2hhcik6IEJvb2xlYW4gewogICAgcmV0dXJuIGlzTWVudGlvbkNvbnRpbnVhdGlvbihjaGFyLCAnQCcpCn0KCmZ1biBpc01lbnRpb25Db250aW51YXRpb24oY2hhcjogQ2hhciwgdHJpZ2dlckNoYXI6IENoYXIpOiBCb29sZWFuIHsKICAgIHJldHVybiB3aGVuICh0cmlnZ2VyQ2hhcikgewogICAgICAgICdAJyAtPiBpc0Jhc2VNZW50aW9uQ29udGludWF0aW9uKGNoYXIpIHx8IGNoYXIgPT0gJy8nIHx8IGNoYXIgPT0gJ1xcJwogICAgICAgICcvJyAtPiBpc0Jhc2VNZW50aW9uQ29udGludWF0aW9uKGNoYXIpCiAgICAgICAgZWxzZSAtPiBpc0Jhc2VNZW50aW9uQ29udGludWF0aW9uKGNoYXIpCiAgICB9Cn0KCnByaXZhdGUgZnVuIGlzVmFsaWRNZW50aW9uVHJpZ2dlcih0ZXh0OiBTdHJpbmcsIGluZGV4OiBJbnQsIHRyaWdnZXJDaGFyOiBDaGFyKTogQm9vbGVhbiB7CiAgICBpZiAodHJpZ2dlckNoYXIgIWluIG1lbnRpb25UcmlnZ2VyQ2hhcnMpIHJldHVybiBmYWxzZQogICAgaWYgKGluZGV4ID09IDApIHJldHVybiB0cnVlCiAgICB2YWwgcHJldmlvdXNDaGFyID0gdGV4dFtpbmRleCAtIDFdCiAgICByZXR1cm4gd2hlbiAodHJpZ2dlckNoYXIpIHsKICAgICAgICAnQCcgLT4gIWlzQmFzZU1lbnRpb25Db250aW51YXRpb24ocHJldmlvdXNDaGFyKQogICAgICAgICcvJyAtPiBwcmV2aW91c0NoYXIuaXNXaGl0ZXNwYWNlKCkKICAgICAgICBlbHNlIC0+IGZhbHNlCiAgICB9Cn0KCmZ1biBmaW5kTWVudGlvblRva2Vucyh0ZXh0OiBTdHJpbmcpOiBMaXN0PE1lbnRpb25Ub2tlblJhbmdlPiB7CiAgICBpZiAodGV4dC5ub25lIHsgaXQgaW4gbWVudGlvblRyaWdnZXJDaGFycyB9KSB7CiAgICAgICAgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICB9CgogICAgdmFsIHRva2VucyA9IG11dGFibGVMaXN0T2Y8TWVudGlvblRva2VuUmFuZ2U+KCkKICAgIHZhciBpbmRleCA9IDAKICAgIHdoaWxlIChpbmRleCA8IHRleHQubGVuZ3RoKSB7CiAgICAgICAgdmFsIHRyaWdnZXJDaGFyID0gdGV4dFtpbmRleF0KICAgICAgICBpZiAodHJpZ2dlckNoYXIgIWluIG1lbnRpb25UcmlnZ2VyQ2hhcnMpIHsKICAgICAgICAgICAgaW5kZXggKz0gMQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIH0KICAgICAgICBpZiAoIWlzVmFsaWRNZW50aW9uVHJpZ2dlcih0ZXh0LCBpbmRleCwgdHJpZ2dlckNoYXIpKSB7CiAgICAgICAgICAgIGluZGV4ICs9IDEKICAgICAgICAgICAgY29udGludWUKICAgICAgICB9CgogICAgICAgIHZhciBjb250ZW50RW5kID0gaW5kZXggKyAxCiAgICAgICAgd2hpbGUgKGNvbnRlbnRFbmQgPCB0ZXh0Lmxlbmd0aCAmJiBpc01lbnRpb25Db250aW51YXRpb24odGV4dFtjb250ZW50RW5kXSwgdHJpZ2dlckNoYXIpKSB7CiAgICAgICAgICAgIGNvbnRlbnRFbmQgKz0gMQogICAgICAgIH0KICAgICAgICBpZiAoY29udGVudEVuZCA9PSBpbmRleCArIDEpIHsKICAgICAgICAgICAgaW5kZXggKz0gMQogICAgICAgICAgICBjb250aW51ZQogICAgICAgIH0KCiAgICAgICAgdmFsIGVuZEV4Y2x1c2l2ZSA9CiAgICAgICAgICAgIGlmIChjb250ZW50RW5kIDwgdGV4dC5sZW5ndGggJiYgdGV4dFtjb250ZW50RW5kXS5pc1doaXRlc3BhY2UoKSkgewogICAgICAgICAgICAgICAgY29udGVudEVuZCArIDEKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRlbnRFbmQKICAgICAgICAgICAgfQogICAgICAgIHRva2VucyArPSBNZW50aW9uVG9rZW5SYW5nZSh0cmlnZ2VyQ2hhciwgaW5kZXgsIGNvbnRlbnRFbmQsIGVuZEV4Y2x1c2l2ZSkKICAgICAgICBpbmRleCA9IGNvbnRlbnRFbmQKICAgIH0KICAgIHJldHVybiB0b2tlbnMKfQoKZnVuIGZpbmRDb21taXR0ZWRNZW50aW9uVG9rZW5zKHRleHQ6IFN0cmluZyk6IExpc3Q8TWVudGlvblRva2VuUmFuZ2U+IHsKICAgIHJldHVybiBmaW5kTWVudGlvblRva2Vucyh0ZXh0KS5maWx0ZXIoTWVudGlvblRva2VuUmFuZ2U6Omhhc1RyYWlsaW5nV2hpdGVzcGFjZSkKfQoKZnVuIGZpbmRNZW50aW9uVG9rZW5FbmRpbmdBdEN1cnNvcih0ZXh0OiBTdHJpbmcsIGN1cnNvcjogSW50KTogTWVudGlvblRva2VuUmFuZ2U/IHsKICAgIHZhbCBzYWZlQ3Vyc29yID0gY3Vyc29yLmNvZXJjZUluKDAsIHRleHQubGVuZ3RoKQogICAgcmV0dXJuIGZpbmRNZW50aW9uVG9rZW5zKHRleHQpLmZpcnN0T3JOdWxsIHsgdG9rZW4gLT4KICAgICAgICBzYWZlQ3Vyc29yID09IHRva2VuLmNvbnRlbnRFbmRFeGNsdXNpdmUgfHwgc2FmZUN1cnNvciA9PSB0b2tlbi5lbmRFeGNsdXNpdmUKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.util
+
+data class MentionTokenRange(
+    val triggerChar: Char,
+    val start: Int,
+    val contentEndExclusive: Int,
+    val endExclusive: Int,
+) {
+    val hasTrailingWhitespace: Boolean
+        get() = endExclusive > contentEndExclusive
+}
+
+private val mentionTriggerChars = setOf('@', '/')
+
+private fun isBaseMentionContinuation(char: Char): Boolean {
+    return (char.code in 0..127 && char.isLetterOrDigit()) ||
+        char == '.' ||
+        char == '_' ||
+        char == '%' ||
+        char == '+' ||
+        char == '-'
+}
+
+fun isMentionContinuation(char: Char): Boolean {
+    return isMentionContinuation(char, '@')
+}
+
+fun isMentionContinuation(char: Char, triggerChar: Char): Boolean {
+    return when (triggerChar) {
+        '@' -> isBaseMentionContinuation(char) || char == '/' || char == '\\'
+        '/' -> isBaseMentionContinuation(char)
+        else -> isBaseMentionContinuation(char)
+    }
+}
+
+private fun isValidMentionTrigger(text: String, index: Int, triggerChar: Char): Boolean {
+    if (triggerChar !in mentionTriggerChars) return false
+    if (index == 0) return true
+    val previousChar = text[index - 1]
+    return when (triggerChar) {
+        '@' -> !isBaseMentionContinuation(previousChar)
+        '/' -> previousChar.isWhitespace()
+        else -> false
+    }
+}
+
+fun findMentionTokens(text: String): List<MentionTokenRange> {
+    if (text.none { it in mentionTriggerChars }) {
+        return emptyList()
+    }
+
+    val tokens = mutableListOf<MentionTokenRange>()
+    var index = 0
+    while (index < text.length) {
+        val triggerChar = text[index]
+        if (triggerChar !in mentionTriggerChars) {
+            index += 1
+            continue
+        }
+        if (!isValidMentionTrigger(text, index, triggerChar)) {
+            index += 1
+            continue
+        }
+
+        var contentEnd = index + 1
+        while (contentEnd < text.length && isMentionContinuation(text[contentEnd], triggerChar)) {
+            contentEnd += 1
+        }
+        if (contentEnd == index + 1) {
+            index += 1
+            continue
+        }
+
+        val endExclusive =
+            if (contentEnd < text.length && text[contentEnd].isWhitespace()) {
+                contentEnd + 1
+            } else {
+                contentEnd
+            }
+        tokens += MentionTokenRange(triggerChar, index, contentEnd, endExclusive)
+        index = contentEnd
+    }
+    return tokens
+}
+
+fun findCommittedMentionTokens(text: String): List<MentionTokenRange> {
+    return findMentionTokens(text).filter(MentionTokenRange::hasTrailingWhitespace)
+}
+
+fun findMentionTokenEndingAtCursor(text: String, cursor: Int): MentionTokenRange? {
+    val safeCursor = cursor.coerceIn(0, text.length)
+    return findMentionTokens(text).firstOrNull { token ->
+        safeCursor == token.contentEndExclusive || safeCursor == token.endExclusive
+    }
+}

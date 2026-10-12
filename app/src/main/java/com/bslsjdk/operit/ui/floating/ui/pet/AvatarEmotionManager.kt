@@ -1,1 +1,108 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkucGV0CgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLnN0YXRlLkF2YXRhckVtb3Rpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24uc3RhdGUuQXZhdGFyTW9vZFR5cGVzCgovKioKICogQXZhdGFy6KGo5oOF566h55CG5ZmoCiAqIOS7jlBldE92ZXJsYXlTZXJ2aWNl6L+B56e755qE6KGo5oOF5o6o55CG6YC76L6RCiAqLwpvYmplY3QgQXZhdGFyRW1vdGlvbk1hbmFnZXIgewoKICAgIC8qKgogICAgICog5LuO5paH5pys5YaF5a655o6o55CG5oOF5oSfCiAgICAgKiDpgJrov4flhbPplK7or43ljLnphY3mnaXliKTmlq3lupTor6Xkvb/nlKjlk6rnp43ooajmg4UKICAgICAqLwogICAgZnVuIGluZmVyRW1vdGlvbkZyb21UZXh0KHRleHQ6IFN0cmluZyk6IEF2YXRhckVtb3Rpb24gewogICAgICAgIHZhbCB0ID0gdGV4dC5sb3dlcmNhc2UoKQogICAgICAgIHZhbCBoYXBweUtleXdvcmRzID0gbGlzdE9mKCLlvIDlv4MiLCAi6auY5YW0IiwgIuS4jemUmSIsICLmo5IiLCAi5aSq5aW95LqGIiwgIvCfmIAiLCAi8J+ZgiIsICLwn5iKIiwgIvCfmIQiLCAi6LWeIikKICAgICAgICB2YWwgYW5ncnlLZXl3b3JkcyA9IGxpc3RPZigi55Sf5rCUIiwgIuaEpOaAkiIsICLmsJTmrbsiLCAi6K6o5Y6MIiwgIuezn+ezlSIsICLwn5ihIiwgIuaAkiIpCiAgICAgICAgdmFsIGNyeUtleXdvcmRzID0gbGlzdE9mKCLpmr7ov4ciLCAi5Lyk5b+DIiwgIuayruS4pyIsICLlv6fkvKQiLCAi5ZOtIiwgIvCfmK0iLCAi8J+YoiIpCiAgICAgICAgdmFsIHNoeUtleXdvcmRzID0gbGlzdE9mKCLlrrPnvp4iLCAi576eIiwgIuiEuOe6oiIsICLkuI3lpb3mhI/mgJ0iLCAiLy8vIikKICAgICAgICAKICAgICAgICBmdW4gY29udGFpbnNBbnkoa2V5czogTGlzdDxTdHJpbmc+KTogQm9vbGVhbiA9IAogICAgICAgICAgICBrZXlzLmFueSB7IHQuY29udGFpbnMoaXQpIHx8IHRleHQuY29udGFpbnMoaXQpIH0KICAgICAgICAKICAgICAgICByZXR1cm4gd2hlbiB7CiAgICAgICAgICAgIGNvbnRhaW5zQW55KGhhcHB5S2V5d29yZHMpIC0+IEF2YXRhckVtb3Rpb24uSEFQUFkKICAgICAgICAgICAgY29udGFpbnNBbnkoYW5ncnlLZXl3b3JkcykgLT4gQXZhdGFyRW1vdGlvbi5TQUQKICAgICAgICAgICAgY29udGFpbnNBbnkoY3J5S2V5d29yZHMpIC0+IEF2YXRhckVtb3Rpb24uU0FECiAgICAgICAgICAgIGNvbnRhaW5zQW55KHNoeUtleXdvcmRzKSAtPiBBdmF0YXJFbW90aW9uLkNPTkZVU0VECiAgICAgICAgICAgIGVsc2UgLT4gQXZhdGFyRW1vdGlvbi5JRExFCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOS7juaWh+acrOS4reaPkOWPlm1vb2TmoIfnrb4KICAgICAqIEFJ5Y+v6IO95Lya5Zyo5Zue5aSN5Lit5YyF5ZCrPG1vb2Q+5qCH562+5p2l5piO56Gu5oyH5a6a5oOF5oSfCiAgICAgKi8KICAgIGZ1biBleHRyYWN0TW9vZFRhZ1ZhbHVlKHRleHQ6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgcmVnZXggPSBSZWdleCgiPG1vb2Q+KFtePF0rKTwvbW9vZD4iLCBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSkKICAgICAgICAgICAgdmFsIGFsbCA9IHJlZ2V4LmZpbmRBbGwodGV4dCkudG9MaXN0KCkKICAgICAgICAgICAgaWYgKGFsbC5pc0VtcHR5KCkpIHJldHVybiBudWxsCiAgICAgICAgICAgIEF2YXRhck1vb2RUeXBlcy5ub3JtYWxpemVLZXkoYWxsLmxhc3QoKS5ncm91cFZhbHVlc1sxXSkKICAgICAgICAgICAgICAgIC50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgeyBudWxsIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDlsIZNb29k6L2s5o2i5Li6QXZhdGFyRW1vdGlvbgogICAgICovCiAgICBwcml2YXRlIGZ1biBtb29kVG9FbW90aW9uKG1vb2Q6IFN0cmluZyk6IEF2YXRhckVtb3Rpb24/IHsKICAgICAgICByZXR1cm4gQXZhdGFyTW9vZFR5cGVzLmJ1aWx0SW5GYWxsYmFja0Vtb3Rpb24obW9vZCkKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDnu7zlkIjliIbmnpDmlofmnKzvvIzov5Tlm57mnIDlkIjpgILnmoTooajmg4UKICAgICAqIOS8mOWFiOS9v+eUqG1vb2TmoIfnrb7vvIzlpoLmnpzmsqHmnInliJnkvb/nlKjlhbPplK7or43mjqjnkIYKICAgICAqLwogICAgZnVuIGFuYWx5emVFbW90aW9uKHRleHQ6IFN0cmluZyk6IEF2YXRhckVtb3Rpb24gewogICAgICAgIEFwcExvZ2dlci5kKCJBdmF0YXJFbW90aW9uTWFuYWdlciIsICLliIbmnpDmg4XmhJ8gLSDljp/lp4vmlofmnKw6ICR0ZXh0IikKICAgICAgICAKICAgICAgICAvLyDpppblhYjlsJ3or5Xku45tb29k5qCH562+6I635Y+WCiAgICAgICAgdmFsIHBhcnNlZE1vb2QgPSBleHRyYWN0TW9vZFRhZ1ZhbHVlKHRleHQpCiAgICAgICAgaWYgKCFwYXJzZWRNb29kLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICB2YWwgZW1vdGlvbiA9IG1vb2RUb0Vtb3Rpb24ocGFyc2VkTW9vZCkKICAgICAgICAgICAgaWYgKGVtb3Rpb24gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIkF2YXRhckVtb3Rpb25NYW5hZ2VyIiwgIuS7jm1vb2TmoIfnrb7op6PmnpA6ICRwYXJzZWRNb29kIC0+ICRlbW90aW9uIikKICAgICAgICAgICAgICAgIHJldHVybiBlbW90aW9uCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5aaC5p6c5rKh5pyJbW9vZOagh+etvu+8jOWImeS9v+eUqOWFs+mUruivjeaOqOeQhgogICAgICAgIHZhbCBlbW90aW9uID0gaW5mZXJFbW90aW9uRnJvbVRleHQodGV4dCkKICAgICAgICBBcHBMb2dnZXIuZCgiQXZhdGFyRW1vdGlvbk1hbmFnZXIiLCAi5L2/55So5YWz6ZSu6K+N5o6o55CGOiAkZW1vdGlvbiIpCiAgICAgICAgcmV0dXJuIGVtb3Rpb24KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmuIXpmaTmlofmnKzkuK3nmoRYTUzmoIfnrb4KICAgICAqIOeUqOS6juaYvuekuue7meeUqOaIt+aXtuenu+mZpG1vb2TnrYnmoIforrDmoIfnrb4KICAgICAqLwogICAgZnVuIHN0cmlwWG1sTGlrZVRhZ3ModGV4dDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YXIgcyA9IHRleHQKICAgICAgICAvLyDljLnphY3miJDlr7nnmoTmoIfnrb4gPHRhZz4uLi48L3RhZz4KICAgICAgICB2YWwgcGFpcmVkID0gUmVnZXgoCiAgICAgICAgICAgIHBhdHRlcm4gPSAiPChbQS1aYS16XVtBLVphLXowLTk6Xy1dKikoXFxzW14+XSopPz5bXFxzXFxTXSo/PC9cXDE+IiwKICAgICAgICAgICAgb3B0aW9ucyA9IHNldE9mKFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFLCBSZWdleE9wdGlvbi5ET1RfTUFUQ0hFU19BTEwpCiAgICAgICAgKQogICAgICAgIHJlcGVhdCg1KSB7IF8gLT4KICAgICAgICAgICAgdmFsIHVwZGF0ZWQgPSBzLnJlcGxhY2UocGFpcmVkLCAiIikKICAgICAgICAgICAgaWYgKHVwZGF0ZWQgPT0gcykgcmV0dXJuQHJlcGVhdAogICAgICAgICAgICBzID0gdXBkYXRlZAogICAgICAgIH0KICAgICAgICAvLyDljLnphY3oh6rpl63lkIjmoIfnrb4gPHRhZyAvPgogICAgICAgIHMgPSBzLnJlcGxhY2UoCiAgICAgICAgICAgIFJlZ2V4KCI8W0EtWmEtel1bQS1aYS16MC05Ol8tXSooXFxzW14+XSopPy9cXHMqPiIsIFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFKSwKICAgICAgICAgICAgIiIKICAgICAgICApCiAgICAgICAgLy8g5Yy56YWN5Lu75L2V5Ymp5L2Z55qE5qCH562+CiAgICAgICAgcyA9IHMucmVwbGFjZSgKICAgICAgICAgICAgUmVnZXgoIjwvP1tePl0rPiIsIFJlZ2V4T3B0aW9uLklHTk9SRV9DQVNFKSwKICAgICAgICAgICAgIiIKICAgICAgICApCiAgICAgICAgcmV0dXJuIHMudHJpbSgpCiAgICB9Cn0gCg==
+package com.bslsjdk.operit.ui.floating.ui.pet
+
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.avatar.common.state.AvatarEmotion
+import com.bslsjdk.operit.core.avatar.common.state.AvatarMoodTypes
+
+/**
+ * Avatar表情管理器
+ * 从PetOverlayService迁移的表情推理逻辑
+ */
+object AvatarEmotionManager {
+
+    /**
+     * 从文本内容推理情感
+     * 通过关键词匹配来判断应该使用哪种表情
+     */
+    fun inferEmotionFromText(text: String): AvatarEmotion {
+        val t = text.lowercase()
+        val happyKeywords = listOf("开心", "高兴", "不错", "棒", "太好了", "😀", "🙂", "😊", "😄", "赞")
+        val angryKeywords = listOf("生气", "愤怒", "气死", "讨厌", "糟糕", "😡", "怒")
+        val cryKeywords = listOf("难过", "伤心", "沮丧", "忧伤", "哭", "😭", "😢")
+        val shyKeywords = listOf("害羞", "羞", "脸红", "不好意思", "///")
+        
+        fun containsAny(keys: List<String>): Boolean = 
+            keys.any { t.contains(it) || text.contains(it) }
+        
+        return when {
+            containsAny(happyKeywords) -> AvatarEmotion.HAPPY
+            containsAny(angryKeywords) -> AvatarEmotion.SAD
+            containsAny(cryKeywords) -> AvatarEmotion.SAD
+            containsAny(shyKeywords) -> AvatarEmotion.CONFUSED
+            else -> AvatarEmotion.IDLE
+        }
+    }
+    
+    /**
+     * 从文本中提取mood标签
+     * AI可能会在回复中包含<mood>标签来明确指定情感
+     */
+    fun extractMoodTagValue(text: String): String? {
+        return try {
+            val regex = Regex("<mood>([^<]+)</mood>", RegexOption.IGNORE_CASE)
+            val all = regex.findAll(text).toList()
+            if (all.isEmpty()) return null
+            AvatarMoodTypes.normalizeKey(all.last().groupValues[1])
+                .takeIf { it.isNotBlank() }
+        } catch (_: Exception) { null }
+    }
+    
+    /**
+     * 将Mood转换为AvatarEmotion
+     */
+    private fun moodToEmotion(mood: String): AvatarEmotion? {
+        return AvatarMoodTypes.builtInFallbackEmotion(mood)
+    }
+    
+    /**
+     * 综合分析文本，返回最合适的表情
+     * 优先使用mood标签，如果没有则使用关键词推理
+     */
+    fun analyzeEmotion(text: String): AvatarEmotion {
+        AppLogger.d("AvatarEmotionManager", "分析情感 - 原始文本: $text")
+        
+        // 首先尝试从mood标签获取
+        val parsedMood = extractMoodTagValue(text)
+        if (!parsedMood.isNullOrBlank()) {
+            val emotion = moodToEmotion(parsedMood)
+            if (emotion != null) {
+                AppLogger.d("AvatarEmotionManager", "从mood标签解析: $parsedMood -> $emotion")
+                return emotion
+            }
+        }
+        
+        // 如果没有mood标签，则使用关键词推理
+        val emotion = inferEmotionFromText(text)
+        AppLogger.d("AvatarEmotionManager", "使用关键词推理: $emotion")
+        return emotion
+    }
+    
+    /**
+     * 清除文本中的XML标签
+     * 用于显示给用户时移除mood等标记标签
+     */
+    fun stripXmlLikeTags(text: String): String {
+        var s = text
+        // 匹配成对的标签 <tag>...</tag>
+        val paired = Regex(
+            pattern = "<([A-Za-z][A-Za-z0-9:_-]*)(\\s[^>]*)?>[\\s\\S]*?</\\1>",
+            options = setOf(RegexOption.IGNORE_CASE, RegexOption.DOT_MATCHES_ALL)
+        )
+        repeat(5) { _ ->
+            val updated = s.replace(paired, "")
+            if (updated == s) return@repeat
+            s = updated
+        }
+        // 匹配自闭合标签 <tag />
+        s = s.replace(
+            Regex("<[A-Za-z][A-Za-z0-9:_-]*(\\s[^>]*)?/\\s*>", RegexOption.IGNORE_CASE),
+            ""
+        )
+        // 匹配任何剩余的标签
+        s = s.replace(
+            Regex("</?[^>]+>", RegexOption.IGNORE_CASE),
+            ""
+        )
+        return s.trim()
+    }
+} 

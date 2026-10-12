@@ -1,1 +1,57 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGphdmEuaW8uQnl0ZUFycmF5SW5wdXRTdHJlYW0KaW1wb3J0IGphdmEuaW8uQnl0ZUFycmF5T3V0cHV0U3RyZWFtCmltcG9ydCBqYXZhLm5pby5jaGFyc2V0LlN0YW5kYXJkQ2hhcnNldHMKaW1wb3J0IGphdmEudXRpbC56aXAuWmlwRW50cnkKaW1wb3J0IGphdmEudXRpbC56aXAuWmlwT3V0cHV0U3RyZWFtCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIFRvb2xQa2dNYW5pZmVzdFNlbGVjdGlvblRlc3QgewogICAgQFRlc3QKICAgIGZ1biBgcHJldmlldyBhbmQgbG9hZGluZyBzZWxlY3QgdGhlIHNoYWxsb3cgcGFja2FnZSBtYW5pZmVzdCByZWdhcmRsZXNzIG9mIHppcCBvcmRlcmAoKSB7CiAgICAgICAgdmFsIGFyY2hpdmUgPSB6aXBPZigKICAgICAgICAgICAgInBhY2thZ2UvLmJhY2t1cC9tYW5pZmVzdC5qc29uIiB0byBtYW5pZmVzdCgiYmFja3VwIiksCiAgICAgICAgICAgICJwYWNrYWdlL21hbmlmZXN0Lmpzb24iIHRvIG1hbmlmZXN0KCJwYWNrYWdlIiksCiAgICAgICAgICAgICJwYWNrYWdlL21haW4uanMiIHRvICIvLyBwYWNrYWdlIGVudHJ5IgogICAgICAgICkKCiAgICAgICAgdmFsIHByZXZpZXcgPSBUb29sUGtnQXJjaGl2ZVBhcnNlci5yZWFkVG9vbFBrZ01hbmlmZXN0UHJldmlldyB7CiAgICAgICAgICAgIEJ5dGVBcnJheUlucHV0U3RyZWFtKGFyY2hpdmUpCiAgICAgICAgfQoKICAgICAgICBhc3NlcnRFcXVhbHMoInBhY2thZ2UvbWFuaWZlc3QuanNvbiIsIHByZXZpZXc/LmVudHJ5TmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoInBhY2thZ2UvbWFuaWZlc3QuanNvbiIsIFRvb2xQa2dBcmNoaXZlUGFyc2VyLmZpbmRNYW5pZmVzdEVudHJ5KAogICAgICAgICAgICBsaXN0T2YoInBhY2thZ2UvLmJhY2t1cC9tYW5pZmVzdC5qc29uIiwgInBhY2thZ2UvbWFuaWZlc3QuanNvbiIsICJwYWNrYWdlL21haW4uanMiKQogICAgICAgICkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwYWNrYWdlIiwgcHJldmlldz8ubWFuaWZlc3Q/LnRvb2xwa2dJZCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGByb290IGhqc29uIHdpbnMgb3ZlciBldmVyeSBvdGhlciBtYW5pZmVzdGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAibWFuaWZlc3QuaGpzb24iLAogICAgICAgICAgICBUb29sUGtnQXJjaGl2ZVBhcnNlci5maW5kTWFuaWZlc3RFbnRyeSgKICAgICAgICAgICAgICAgIGxpc3RPZigid3JhcHBlZC9tYW5pZmVzdC5oanNvbiIsICJtYW5pZmVzdC5qc29uIiwgIm1hbmlmZXN0Lmhqc29uIikKICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBtYW5pZmVzdChpZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIiIieyJ0b29scGtnX2lkIjoiJGlkIiwibWFpbiI6Im1haW4uanMifSIiIgogICAgfQoKICAgIHByaXZhdGUgZnVuIHppcE9mKHZhcmFyZyBlbnRyaWVzOiBQYWlyPFN0cmluZywgU3RyaW5nPik6IEJ5dGVBcnJheSB7CiAgICAgICAgcmV0dXJuIEJ5dGVBcnJheU91dHB1dFN0cmVhbSgpLnVzZSB7IG91dHB1dCAtPgogICAgICAgICAgICBaaXBPdXRwdXRTdHJlYW0ob3V0cHV0KS51c2UgeyB6aXAgLT4KICAgICAgICAgICAgICAgIGVudHJpZXMuZm9yRWFjaCB7IChuYW1lLCBjb250ZW50KSAtPgogICAgICAgICAgICAgICAgICAgIHppcC5wdXROZXh0RW50cnkoWmlwRW50cnkobmFtZSkpCiAgICAgICAgICAgICAgICAgICAgemlwLndyaXRlKGNvbnRlbnQudG9CeXRlQXJyYXkoU3RhbmRhcmRDaGFyc2V0cy5VVEZfOCkpCiAgICAgICAgICAgICAgICAgICAgemlwLmNsb3NlRW50cnkoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIG91dHB1dC50b0J5dGVBcnJheSgpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.packTool
+
+import java.io.ByteArrayInputStream
+import java.io.ByteArrayOutputStream
+import java.nio.charset.StandardCharsets
+import java.util.zip.ZipEntry
+import java.util.zip.ZipOutputStream
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class ToolPkgManifestSelectionTest {
+    @Test
+    fun `preview and loading select the shallow package manifest regardless of zip order`() {
+        val archive = zipOf(
+            "package/.backup/manifest.json" to manifest("backup"),
+            "package/manifest.json" to manifest("package"),
+            "package/main.js" to "// package entry"
+        )
+
+        val preview = ToolPkgArchiveParser.readToolPkgManifestPreview {
+            ByteArrayInputStream(archive)
+        }
+
+        assertEquals("package/manifest.json", preview?.entryName)
+        assertEquals("package/manifest.json", ToolPkgArchiveParser.findManifestEntry(
+            listOf("package/.backup/manifest.json", "package/manifest.json", "package/main.js")
+        ))
+        assertEquals("package", preview?.manifest?.toolpkgId)
+    }
+
+    @Test
+    fun `root hjson wins over every other manifest`() {
+        assertEquals(
+            "manifest.hjson",
+            ToolPkgArchiveParser.findManifestEntry(
+                listOf("wrapped/manifest.hjson", "manifest.json", "manifest.hjson")
+            )
+        )
+    }
+
+    private fun manifest(id: String): String {
+        return """{"toolpkg_id":"$id","main":"main.js"}"""
+    }
+
+    private fun zipOf(vararg entries: Pair<String, String>): ByteArray {
+        return ByteArrayOutputStream().use { output ->
+            ZipOutputStream(output).use { zip ->
+                entries.forEach { (name, content) ->
+                    zip.putNextEntry(ZipEntry(name))
+                    zip.write(content.toByteArray(StandardCharsets.UTF_8))
+                    zip.closeEntry()
+                }
+            }
+            output.toByteArray()
+        }
+    }
+}

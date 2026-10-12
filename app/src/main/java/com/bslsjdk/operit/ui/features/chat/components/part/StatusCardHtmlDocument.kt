@@ -1,1 +1,133 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnBhcnQKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC51dGlsLkJhc2U2NAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy50b0FyZ2IKCi8qKgogKiA8aHRtbD4g54q25oCB5Y2h54mH5ZyoIFdlYlZpZXcg6YeM5riy5p+T5pe255So55qE5a6M5pW0IEhUTUwg5paH5qGj44CCCiAqCiAqIDxtZXRyaWM+IC8gPGJhZGdlPiDnmoTlm77moIfmmK8gTWF0ZXJpYWwgU3ltYm9scyDnmoTov57lrZflrZflvaLjgILmlofmoaPku6XliY3nlKggPGxpbms+IOWOuwogKiBmb250cy5nb29nbGVhcGlzLmNvbSDlj5bov5nku73lrZfkvZPvvJrljaHniYfmloflrZfpmo/mlofmoaPkuIDotbflh7rnjrDvvIzlm77moIfljbTopoHnrYnmlbTku70gNS4zNiBNQiDnmoQKICog5Y+v5Y+Y5a2X5L2T5LiL6L295a6M5omN5pyJ77yM5byx572R5LiL6KaBIDEwfjQwIOenku+8jOemu+e6v+aXtuW5suiEhuaKiuWbvuagh+WQjeaMieWOn+aWh+eUu+WHuuadpe+8iGlzc3VlICM5MzDvvInjgIIKICog546w5Zyo5a6M5pW055qE6Z2Z5oCB5a2X5L2T5a6e5L6L6ZqPIEFQSyDmiZPljIXvvIznlKggZGF0YTogVVJJIOWGheiBlOi/m+aWh+aho++8jOWbvuagh+WSjOaWh+Wtl+WQjOaXtuWHuueOsO+8jAogKiDkuZ/kuI3lho3ogZTnvZHjgIIKICovCmludGVybmFsIG9iamVjdCBTdGF0dXNDYXJkSHRtbERvY3VtZW50IHsKCiAgICAvKioKICAgICAqIEdvb2dsZSBGb250cyBNYXRlcmlhbCBTeW1ib2xzIFJvdW5kZWQgdjM3MCDnmoTlrozmlbTpnZnmgIHlrp7kvovjgIIKICAgICAqIOWbm+S4qui9tOWbuuWumuS4uiBvcHN6PTI0IC8gd2dodD00MDAgLyBGSUxMPTEgLyBHUkFEPTDvvIzlkozkuIvpnaLnmoTmuLLmn5PmoLflvI/kuIDoh7TjgIIKICAgICAqIOivpSBXT0ZGMiDkuLogNDU2LDA1MiDlrZfoioLvvJvlkIzniYjmnKzjgIHlkIzmoLflrozmlbTlm77moIfojIPlm7TnmoTlm5vovbTlj6/lj5jlrZfkvZPkuLogNSwzNjAsODQwIOWtl+iKguOAggogICAgICoKICAgICAqIOWtl+S9k+adpea6kO+8mgogICAgICogaHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbS9zL21hdGVyaWFsc3ltYm9sc3JvdW5kZWQvdjM3MC9zeWwwLXpOeW02WWpVcnVNLVFyRWg3LW55VG5qRHdLTkpfMTkwRmpwWkl2RG1VU1ZPSzdCREpfdmI5dlVTenEzd3pMSy1QMEotVl9acy1RdFF0aDMtak9jYlRDVnBlUkwydzVyd1p1MnJJZWxYeGMud29mZjIKICAgICAqIOWvueW6lCBDU1PvvJoKICAgICAqIGh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9TWF0ZXJpYWwrU3ltYm9scytSb3VuZGVkOm9wc3osd2dodCxGSUxMLEdSQURAMjQsNDAwLDEsMCZkaXNwbGF5PWJsb2NrCiAgICAgKiBTSEEtMjU277yaMTlhNzFiMzBlNjI2NzQxNjQ5M2EwZTRlOTI1YTZmMTRiZTYwYTljM2E4MzE0OGEwZGMwZGNmNTA3YThmYjM4MgogICAgICoKICAgICAqIOS/neeVmeWujOaVtOWtl+S9k+W+iOmHjeimge+8mueKtuaAgeWNoeeJhyByZW5kZXJlciDkuIDnm7TmjqXlj5fku7vmhI/lkIjms5UgTWF0ZXJpYWwgU3ltYm9scyDlkI3np7DvvIwKICAgICAqIOWOhuWPsua2iOaBr+WSjOW3suWuieijheeahOaXp+agh+etvuS5n+WPr+iDveWMheWQq+W9k+WJjeWGhee9ruekuuS+i+ayoeacieWIl+WHuueahOWbvuagh+OAggogICAgICovCiAgICBjb25zdCB2YWwgSUNPTl9GT05UX0FTU0VUOiBTdHJpbmcgPSAiZm9udHMvbWF0ZXJpYWxfc3ltYm9sc19yb3VuZGVkX3N0YXRpYy53b2ZmMiIKCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIGNhY2hlZEljb25Gb250QmFzZTY0OiBTdHJpbmc/ID0gbnVsbAoKICAgIC8qKiDmr4/lvKDljaHniYfpg73mmK/kuIDkuKrni6znq4sgV2ViVmlld++8jOWtl+S9k+WPquivu+S4gOasoeW5tue8k+WtmO+8jOWQpuWImeaMieWNoeeJh+aVsOmHjeWkjeivu+ebmOWSjOe8lueggeOAgiAqLwogICAgcHJpdmF0ZSBmdW4gaWNvbkZvbnRCYXNlNjQoY29udGV4dDogQ29udGV4dCk6IFN0cmluZyB7CiAgICAgICAgY2FjaGVkSWNvbkZvbnRCYXNlNjQ/LmxldCB7IHJldHVybiBpdCB9CiAgICAgICAgdmFsIGVuY29kZWQgPQogICAgICAgICAgICBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dC5hc3NldHMub3BlbihJQ09OX0ZPTlRfQVNTRVQpLnVzZSB7CiAgICAgICAgICAgICAgICBCYXNlNjQuZW5jb2RlVG9TdHJpbmcoaXQucmVhZEJ5dGVzKCksIEJhc2U2NC5OT19XUkFQKQogICAgICAgICAgICB9CiAgICAgICAgY2FjaGVkSWNvbkZvbnRCYXNlNjQgPSBlbmNvZGVkCiAgICAgICAgcmV0dXJuIGVuY29kZWQKICAgIH0KCiAgICBmdW4gYnVpbGQoY29udGV4dDogQ29udGV4dCwgYm9keUNvbnRlbnQ6IFN0cmluZywgdGV4dENvbG9yOiBDb2xvcik6IFN0cmluZyA9CiAgICAgICAgcmVuZGVyKAogICAgICAgICAgICBib2R5Q29udGVudCA9IGJvZHlDb250ZW50LAogICAgICAgICAgICB0ZXh0Q29sb3JIZXggPSBTdHJpbmcuZm9ybWF0KCIjJTA2WCIsIDB4RkZGRkZGIGFuZCB0ZXh0Q29sb3IudG9BcmdiKCkpLAogICAgICAgICAgICBpY29uRm9udEJhc2U2NCA9IGljb25Gb250QmFzZTY0KGNvbnRleHQpCiAgICAgICAgKQoKICAgIGludGVybmFsIGZ1biByZW5kZXIoYm9keUNvbnRlbnQ6IFN0cmluZywgdGV4dENvbG9ySGV4OiBTdHJpbmcsIGljb25Gb250QmFzZTY0OiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiIiIKICAgICAgICAgICAgPCFET0NUWVBFIGh0bWw+CiAgICAgICAgICAgIDxodG1sPgogICAgICAgICAgICA8aGVhZD4KICAgICAgICAgICAgICAgIDxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KICAgICAgICAgICAgICAgIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wLCBtYXhpbXVtLXNjYWxlPTEuMCwgdXNlci1zY2FsYWJsZT1ubyI+CiAgICAgICAgICAgICAgICA8c3R5bGU+CiAgICAgICAgICAgICAgICAgICAgQGZvbnQtZmFjZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAnTWF0ZXJpYWwgU3ltYm9scyBSb3VuZGVkJzsKICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zdHlsZTogbm9ybWFsOwogICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNDAwOwogICAgICAgICAgICAgICAgICAgICAgICBzcmM6IHVybChkYXRhOmZvbnQvd29mZjI7YmFzZTY0LCRpY29uRm9udEJhc2U2NCkgZm9ybWF0KCd3b2ZmMicpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAqIHsKICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwOwogICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAwOwogICAgICAgICAgICAgICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94OwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBib2R5IHsKICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgUm9ib3RvLCAnSGVsdmV0aWNhIE5ldWUnLCBBcmlhbCwgc2Fucy1zZXJpZjsKICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxM3B4OwogICAgICAgICAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMS40OwogICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogJHRleHRDb2xvckhleDsKICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMDsKICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIC5tYXRlcmlhbC1zeW1ib2xzLXJvdW5kZWQgewogICAgICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseTogJ01hdGVyaWFsIFN5bWJvbHMgUm91bmRlZCc7CiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7CiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc3R5bGU6IG5vcm1hbDsKICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7CiAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxOwogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LXRyYW5zZm9ybTogbm9uZTsKICAgICAgICAgICAgICAgICAgICAgICAgbGV0dGVyLXNwYWNpbmc6IG5vcm1hbDsKICAgICAgICAgICAgICAgICAgICAgICAgd29yZC13cmFwOiBub3JtYWw7CiAgICAgICAgICAgICAgICAgICAgICAgIHdoaXRlLXNwYWNlOiBub3dyYXA7CiAgICAgICAgICAgICAgICAgICAgICAgIGRpcmVjdGlvbjogbHRyOwogICAgICAgICAgICAgICAgICAgICAgICBmb250LXZhcmlhdGlvbi1zZXR0aW5nczogJ0ZJTEwnIDEsICd3Z2h0JyA0MDAsICdHUkFEJyAwLCAnb3BzeicgMjQ7CiAgICAgICAgICAgICAgICAgICAgICAgIC13ZWJraXQtZm9udC1mZWF0dXJlLXNldHRpbmdzOiAnbGlnYSc7CiAgICAgICAgICAgICAgICAgICAgICAgIC13ZWJraXQtZm9udC1zbW9vdGhpbmc6IGFudGlhbGlhc2VkOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBoMSwgaDIsIGgzLCBoNCwgaDUsIGg2IHsKICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAycHggMCAzcHggMDsKICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDYwMDsKICAgICAgICAgICAgICAgICAgICAgICAgbGluZS1oZWlnaHQ6IDEuMzsKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IGluaGVyaXQ7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGgxIHsgZm9udC1zaXplOiAxNXB4OyB9CiAgICAgICAgICAgICAgICAgICAgaDIgeyBmb250LXNpemU6IDE0cHg7IH0KICAgICAgICAgICAgICAgICAgICBoMyB7IGZvbnQtc2l6ZTogMTNweDsgfQogICAgICAgICAgICAgICAgICAgIGg0IHsgZm9udC1zaXplOiAxM3B4OyB9CiAgICAgICAgICAgICAgICAgICAgaDUgeyBmb250LXNpemU6IDEycHg7IH0KICAgICAgICAgICAgICAgICAgICBoNiB7IGZvbnQtc2l6ZTogMTJweDsgfQogICAgICAgICAgICAgICAgICAgIHAgewogICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDJweCAwOwogICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDEzcHg7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGEgewogICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogIzAwN0FGRjsKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBhOmhvdmVyIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHN0cm9uZywgYiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgPC9zdHlsZT4KICAgICAgICAgICAgPC9oZWFkPgogICAgICAgICAgICA8Ym9keT4KICAgICAgICAgICAgICAgICRib2R5Q29udGVudAogICAgICAgICAgICA8L2JvZHk+CiAgICAgICAgICAgIDwvaHRtbD4KICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.chat.components.part
+
+import android.content.Context
+import android.util.Base64
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.toArgb
+
+/**
+ * <html> 状态卡片在 WebView 里渲染时用的完整 HTML 文档。
+ *
+ * <metric> / <badge> 的图标是 Material Symbols 的连字字形。文档以前用 <link> 去
+ * fonts.googleapis.com 取这份字体：卡片文字随文档一起出现，图标却要等整份 5.36 MB 的
+ * 可变字体下载完才有，弱网下要 10~40 秒，离线时干脆把图标名按原文画出来（issue #930）。
+ * 现在完整的静态字体实例随 APK 打包，用 data: URI 内联进文档，图标和文字同时出现，
+ * 也不再联网。
+ */
+internal object StatusCardHtmlDocument {
+
+    /**
+     * Google Fonts Material Symbols Rounded v370 的完整静态实例。
+     * 四个轴固定为 opsz=24 / wght=400 / FILL=1 / GRAD=0，和下面的渲染样式一致。
+     * 该 WOFF2 为 456,052 字节；同版本、同样完整图标范围的四轴可变字体为 5,360,840 字节。
+     *
+     * 字体来源：
+     * https://fonts.gstatic.com/s/materialsymbolsrounded/v370/syl0-zNym6YjUruM-QrEh7-nyTnjDwKNJ_190FjpZIvDmUSVOK7BDJ_vb9vUSzq3wzLK-P0J-V_Zs-QtQth3-jOcbTCVpeRL2w5rwZu2rIelXxc.woff2
+     * 对应 CSS：
+     * https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,1,0&display=block
+     * SHA-256：19a71b30e6267416493a0e4e925a6f14be60a9c3a83148a0dc0dcf507a8fb382
+     *
+     * 保留完整字体很重要：状态卡片 renderer 一直接受任意合法 Material Symbols 名称，
+     * 历史消息和已安装的旧标签也可能包含当前内置示例没有列出的图标。
+     */
+    const val ICON_FONT_ASSET: String = "fonts/material_symbols_rounded_static.woff2"
+
+    @Volatile
+    private var cachedIconFontBase64: String? = null
+
+    /** 每张卡片都是一个独立 WebView，字体只读一次并缓存，否则按卡片数重复读盘和编码。 */
+    private fun iconFontBase64(context: Context): String {
+        cachedIconFontBase64?.let { return it }
+        val encoded =
+            context.applicationContext.assets.open(ICON_FONT_ASSET).use {
+                Base64.encodeToString(it.readBytes(), Base64.NO_WRAP)
+            }
+        cachedIconFontBase64 = encoded
+        return encoded
+    }
+
+    fun build(context: Context, bodyContent: String, textColor: Color): String =
+        render(
+            bodyContent = bodyContent,
+            textColorHex = String.format("#%06X", 0xFFFFFF and textColor.toArgb()),
+            iconFontBase64 = iconFontBase64(context)
+        )
+
+    internal fun render(bodyContent: String, textColorHex: String, iconFontBase64: String): String {
+        return """
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+                <style>
+                    @font-face {
+                        font-family: 'Material Symbols Rounded';
+                        font-style: normal;
+                        font-weight: 400;
+                        src: url(data:font/woff2;base64,$iconFontBase64) format('woff2');
+                    }
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    body {
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+                        font-size: 13px;
+                        line-height: 1.4;
+                        color: $textColorHex;
+                        padding: 0;
+                        background: transparent;
+                    }
+                    .material-symbols-rounded {
+                        font-family: 'Material Symbols Rounded';
+                        font-weight: normal;
+                        font-style: normal;
+                        font-size: 20px;
+                        display: inline-block;
+                        line-height: 1;
+                        text-transform: none;
+                        letter-spacing: normal;
+                        word-wrap: normal;
+                        white-space: nowrap;
+                        direction: ltr;
+                        font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+                        -webkit-font-feature-settings: 'liga';
+                        -webkit-font-smoothing: antialiased;
+                    }
+                    h1, h2, h3, h4, h5, h6 {
+                        margin: 2px 0 3px 0;
+                        font-weight: 600;
+                        line-height: 1.3;
+                        color: inherit;
+                    }
+                    h1 { font-size: 15px; }
+                    h2 { font-size: 14px; }
+                    h3 { font-size: 13px; }
+                    h4 { font-size: 13px; }
+                    h5 { font-size: 12px; }
+                    h6 { font-size: 12px; }
+                    p {
+                        margin: 2px 0;
+                        font-size: 13px;
+                    }
+                    a {
+                        color: #007AFF;
+                        text-decoration: none;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                    strong, b {
+                        font-weight: 600;
+                    }
+                </style>
+            </head>
+            <body>
+                $bodyContent
+            </body>
+            </html>
+        """.trimIndent()
+    }
+}

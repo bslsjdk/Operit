@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKCm9iamVjdCBNZWRpYUxpbmtCdWlsZGVyIHsKICAgIGZ1biBpbWFnZShjb250ZXh0OiBDb250ZXh0LCBpZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY29udmVyc2F0aW9uX21lZGlhX2ltYWdlX2xpbmssIGlkKQogICAgfQoKICAgIGZ1biBhdWRpbyhjb250ZXh0OiBDb250ZXh0LCBpZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY29udmVyc2F0aW9uX21lZGlhX2F1ZGlvX2xpbmssIGlkKQogICAgfQoKICAgIGZ1biB2aWRlbyhjb250ZXh0OiBDb250ZXh0LCBpZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY29udmVyc2F0aW9uX21lZGlhX3ZpZGVvX2xpbmssIGlkKQogICAgfQoKICAgIGZ1biBmaWxlKGNvbnRleHQ6IENvbnRleHQsIGlkOiBTdHJpbmcsIGZpbGVOYW1lOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBjb250ZXh0LmdldFN0cmluZygKICAgICAgICAgICAgUi5zdHJpbmcuY29udmVyc2F0aW9uX21lZGlhX2ZpbGVfbGluaywKICAgICAgICAgICAgaWQsCiAgICAgICAgICAgIGVzY2FwZVhtbEF0dHJpYnV0ZShmaWxlTmFtZSksCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGVzY2FwZVhtbEF0dHJpYnV0ZSh2YWx1ZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdmFsdWUKICAgICAgICAgICAgLnJlcGxhY2UoIiYiLCAiJmFtcDsiKQogICAgICAgICAgICAucmVwbGFjZSgiPCIsICImbHQ7IikKICAgICAgICAgICAgLnJlcGxhY2UoIj4iLCAiJmd0OyIpCiAgICAgICAgICAgIC5yZXBsYWNlKCJcIiIsICImcXVvdDsiKQogICAgICAgICAgICAucmVwbGFjZSgiJyIsICImYXBvczsiKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.R
+
+object MediaLinkBuilder {
+    fun image(context: Context, id: String): String {
+        return context.getString(R.string.conversation_media_image_link, id)
+    }
+
+    fun audio(context: Context, id: String): String {
+        return context.getString(R.string.conversation_media_audio_link, id)
+    }
+
+    fun video(context: Context, id: String): String {
+        return context.getString(R.string.conversation_media_video_link, id)
+    }
+
+    fun file(context: Context, id: String, fileName: String): String {
+        return context.getString(
+            R.string.conversation_media_file_link,
+            id,
+            escapeXmlAttribute(fileName),
+        )
+    }
+
+    private fun escapeXmlAttribute(value: String): String {
+        return value
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace("\"", "&quot;")
+            .replace("'", "&apos;")
+    }
+}

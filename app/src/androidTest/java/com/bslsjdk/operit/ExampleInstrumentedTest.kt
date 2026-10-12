@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQKCmltcG9ydCBhbmRyb2lkeC50ZXN0LnBsYXRmb3JtLmFwcC5JbnN0cnVtZW50YXRpb25SZWdpc3RyeQppbXBvcnQgYW5kcm9pZHgudGVzdC5leHQuanVuaXQucnVubmVycy5BbmRyb2lkSlVuaXQ0CgppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuKgoKLyoqCiAqIEluc3RydW1lbnRlZCB0ZXN0LCB3aGljaCB3aWxsIGV4ZWN1dGUgb24gYW4gQW5kcm9pZCBkZXZpY2UuCiAqCiAqIFNlZSBbdGVzdGluZyBkb2N1bWVudGF0aW9uXShodHRwOi8vZC5hbmRyb2lkLmNvbS90b29scy90ZXN0aW5nKS4KICovCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBFeGFtcGxlSW5zdHJ1bWVudGVkVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIHVzZUFwcENvbnRleHQoKSB7CiAgICAgICAgLy8gQ29udGV4dCBvZiB0aGUgYXBwIHVuZGVyIHRlc3QuCiAgICAgICAgdmFsIGFwcENvbnRleHQgPSBJbnN0cnVtZW50YXRpb25SZWdpc3RyeS5nZXRJbnN0cnVtZW50YXRpb24oKS50YXJnZXRDb250ZXh0CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJjb20uYnNsc2pkay5vcGVyaXQiLCBhcHBDb250ZXh0LnBhY2thZ2VOYW1lKQogICAgfQp9
+package com.bslsjdk.operit
+
+import androidx.test.platform.app.InstrumentationRegistry
+import androidx.test.ext.junit.runners.AndroidJUnit4
+
+import org.junit.Test
+import org.junit.runner.RunWith
+
+import org.junit.Assert.*
+
+/**
+ * Instrumented test, which will execute on an Android device.
+ *
+ * See [testing documentation](http://d.android.com/tools/testing).
+ */
+@RunWith(AndroidJUnit4::class)
+class ExampleInstrumentedTest {
+    @Test
+    fun useAppContext() {
+        // Context of the app under test.
+        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+        assertEquals("com.bslsjdk.operit", appContext.packageName)
+    }
+}

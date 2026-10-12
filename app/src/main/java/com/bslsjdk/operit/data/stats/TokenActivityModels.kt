@@ -1,1 +1,147 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGUKaW1wb3J0IGphdmEudGltZS5ab25lSWQKaW1wb3J0IGphdmEudGltZS50ZW1wb3JhbC5DaHJvbm9Vbml0CmltcG9ydCBrb3RsaW4ubWF0aC5jZWlsCgplbnVtIGNsYXNzIFRva2VuQWN0aXZpdHlWaWV3TW9kZSB7IERBSUxZLCBXRUVLTFksIENVTVVMQVRJVkUgfQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBUb2tlbkFjdGl2aXR5U25hcHNob3QoCiAgICB2YWwgem9uZTogWm9uZUlkLAogICAgdmFsIGRheVRvdGFsczogTWFwPExvY2FsRGF0ZSwgTG9uZz4sCikKCmRhdGEgY2xhc3MgVG9rZW5BY3Rpdml0eURheSh2YWwgZGF0ZTogTG9jYWxEYXRlLCB2YWwgdG9rZW5zOiBMb25nLCB2YWwgbGV2ZWw6IEludCkKCmRhdGEgY2xhc3MgVG9rZW5BY3Rpdml0eVdlZWsoCiAgICB2YWwgc3RhcnREYXRlOiBMb2NhbERhdGUsCiAgICB2YWwgdG9rZW5zOiBMb25nLAogICAgdmFsIGxldmVsOiBJbnQsCiAgICB2YWwgYmFySGVpZ2h0OiBJbnQsCikKCmRhdGEgY2xhc3MgVG9rZW5BY3Rpdml0eVN0YXRzKAogICAgdmFsIHRvdGFsVG9rZW5zOiBMb25nID0gMEwsCiAgICB2YWwgcGVha1Rva2VuczogTG9uZyA9IDBMLAogICAgdmFsIGN1cnJlbnRTdHJlYWs6IEludCA9IDAsCiAgICB2YWwgbG9uZ2VzdFN0cmVhazogSW50ID0gMCwKKQoKZGF0YSBjbGFzcyBUb2tlbkFjdGl2aXR5UmFuZ2VEYXRhKAogICAgdmFsIGRhaWx5OiBMaXN0PFRva2VuQWN0aXZpdHlEYXk+LAogICAgdmFsIHdlZWtseTogTGlzdDxUb2tlbkFjdGl2aXR5V2Vlaz4sCiAgICB2YWwgY3VtdWxhdGl2ZTogTGlzdDxUb2tlbkFjdGl2aXR5RGF5PiwKICAgIHZhbCBzdGF0czogVG9rZW5BY3Rpdml0eVN0YXRzLAopCgpvYmplY3QgVG9rZW5BY3Rpdml0eUFnZ3JlZ2F0b3IgewogICAgLyoqIEJ1aWxkcyBhbGwgdGhyZWUgYWN0aXZpdHkgdmlld3MgZnJvbSB0aGUgc2FtZSBleHBsaWNpdCBjYWxlbmRhciByYW5nZS4gKi8KICAgIGludGVybmFsIGZ1biByYW5nZURhdGEoCiAgICAgICAgc25hcHNob3Q6IFRva2VuQWN0aXZpdHlTbmFwc2hvdCwKICAgICAgICByYW5nZTogVG9rZW5TdGF0c1RpbWVSYW5nZSwKICAgICk6IFRva2VuQWN0aXZpdHlSYW5nZURhdGEgewogICAgICAgIHZhbCBzdGFydCA9IGphdmEudGltZS5JbnN0YW50Lm9mRXBvY2hNaWxsaShyYW5nZS5zdGFydE1zKS5hdFpvbmUoc25hcHNob3Quem9uZSkudG9Mb2NhbERhdGUoKQogICAgICAgIHZhbCBlbmQgPSBqYXZhLnRpbWUuSW5zdGFudC5vZkVwb2NoTWlsbGkocmFuZ2UuZW5kTXMgLSAxTCkuYXRab25lKHNuYXBzaG90LnpvbmUpLnRvTG9jYWxEYXRlKCkKICAgICAgICByZXR1cm4gcmFuZ2VEYXRhKHNuYXBzaG90LmRheVRvdGFscywgc3RhcnQsIGVuZCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByYW5nZURhdGEoCiAgICAgICAgZGF5VG90YWxzOiBNYXA8TG9jYWxEYXRlLCBMb25nPiwKICAgICAgICBzdGFydDogTG9jYWxEYXRlLAogICAgICAgIGVuZDogTG9jYWxEYXRlLAogICAgKTogVG9rZW5BY3Rpdml0eVJhbmdlRGF0YSB7CiAgICAgICAgdmFsIGRheUNvdW50ID0gQ2hyb25vVW5pdC5EQVlTLmJldHdlZW4oc3RhcnQsIGVuZCkudG9JbnQoKSArIDEKICAgICAgICB2YWwgcmF3ID0gTGlzdChkYXlDb3VudCkgeyBpbmRleCAtPgogICAgICAgICAgICB2YWwgZGF0ZSA9IHN0YXJ0LnBsdXNEYXlzKGluZGV4LnRvTG9uZygpKQogICAgICAgICAgICBUb2tlbkFjdGl2aXR5RGF5KGRhdGUsIGRheVRvdGFsc1tkYXRlXSA/OiAwTCwgMCkKICAgICAgICB9CiAgICAgICAgdmFsIGRhaWx5TGV2ZWxzID0gUXVhbnRpbGVMZXZlbHMuZnJvbShyYXcubWFwKFRva2VuQWN0aXZpdHlEYXk6OnRva2VucykpCiAgICAgICAgdmFsIGRhaWx5ID0gcmF3Lm1hcCB7IGl0LmNvcHkobGV2ZWwgPSBkYWlseUxldmVscy5sZXZlbChpdC50b2tlbnMpKSB9CgogICAgICAgIHZhciBjdW11bGF0aXZlVG90YWwgPSAwTAogICAgICAgIHZhbCBjdW11bGF0aXZlUmF3ID0gcmF3Lm1hcCB7CiAgICAgICAgICAgIGN1bXVsYXRpdmVUb3RhbCA9IFRva2VuQ29zdENhbGN1bGF0b3Iuc2F0dXJhdGVkQWRkKGN1bXVsYXRpdmVUb3RhbCwgaXQudG9rZW5zKQogICAgICAgICAgICBpdC5jb3B5KHRva2VucyA9IGN1bXVsYXRpdmVUb3RhbCkKICAgICAgICB9CiAgICAgICAgdmFsIGN1bXVsYXRpdmVMZXZlbHMgPSBRdWFudGlsZUxldmVscy5mcm9tKGN1bXVsYXRpdmVSYXcubWFwKFRva2VuQWN0aXZpdHlEYXk6OnRva2VucykpCiAgICAgICAgdmFsIGN1bXVsYXRpdmUgPSBjdW11bGF0aXZlUmF3Lm1hcCB7IGl0LmNvcHkobGV2ZWwgPSBjdW11bGF0aXZlTGV2ZWxzLmxldmVsKGl0LnRva2VucykpIH0KCiAgICAgICAgdmFsIGZpcnN0V2VlayA9IHN0YXJ0Lm1pbnVzRGF5cygoc3RhcnQuZGF5T2ZXZWVrLnZhbHVlICUgNykudG9Mb25nKCkpCiAgICAgICAgdmFsIGxhc3RXZWVrID0gZW5kLm1pbnVzRGF5cygoZW5kLmRheU9mV2Vlay52YWx1ZSAlIDcpLnRvTG9uZygpKQogICAgICAgIHZhbCB3ZWVrQ291bnQgPSBDaHJvbm9Vbml0LldFRUtTLmJldHdlZW4oZmlyc3RXZWVrLCBsYXN0V2VlaykudG9JbnQoKSArIDEKICAgICAgICB2YWwgd2Vla1RvdGFscyA9IExvbmdBcnJheSh3ZWVrQ291bnQpCiAgICAgICAgcmF3LmZvckVhY2ggeyBkYXkgLT4KICAgICAgICAgICAgdmFsIHdlZWtTdGFydCA9IGRheS5kYXRlLm1pbnVzRGF5cygoZGF5LmRhdGUuZGF5T2ZXZWVrLnZhbHVlICUgNykudG9Mb25nKCkpCiAgICAgICAgICAgIHZhbCBpbmRleCA9IENocm9ub1VuaXQuV0VFS1MuYmV0d2VlbihmaXJzdFdlZWssIHdlZWtTdGFydCkudG9JbnQoKQogICAgICAgICAgICB3ZWVrVG90YWxzW2luZGV4XSA9IFRva2VuQ29zdENhbGN1bGF0b3Iuc2F0dXJhdGVkQWRkKHdlZWtUb3RhbHNbaW5kZXhdLCBkYXkudG9rZW5zKQogICAgICAgIH0KICAgICAgICB2YWwgd2Vla0xldmVscyA9IFF1YW50aWxlTGV2ZWxzLmZyb20od2Vla1RvdGFscy50b0xpc3QoKSkKICAgICAgICB2YWwgaGVpZ2h0cyA9IGJhckhlaWdodHMod2Vla1RvdGFscy50b0xpc3QoKSkKICAgICAgICB2YWwgd2Vla2x5ID0gTGlzdCh3ZWVrQ291bnQpIHsgaW5kZXggLT4KICAgICAgICAgICAgVG9rZW5BY3Rpdml0eVdlZWsoCiAgICAgICAgICAgICAgICBzdGFydERhdGUgPSBmaXJzdFdlZWsucGx1c1dlZWtzKGluZGV4LnRvTG9uZygpKSwKICAgICAgICAgICAgICAgIHRva2VucyA9IHdlZWtUb3RhbHNbaW5kZXhdLAogICAgICAgICAgICAgICAgbGV2ZWwgPSB3ZWVrTGV2ZWxzLmxldmVsKHdlZWtUb3RhbHNbaW5kZXhdKSwKICAgICAgICAgICAgICAgIGJhckhlaWdodCA9IGhlaWdodHNbaW5kZXhdLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIHJldHVybiBUb2tlbkFjdGl2aXR5UmFuZ2VEYXRhKGRhaWx5LCB3ZWVrbHksIGN1bXVsYXRpdmUsIHN0YXRzKHJhdykpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc3RhdHMoZGF5czogTGlzdDxUb2tlbkFjdGl2aXR5RGF5Pik6IFRva2VuQWN0aXZpdHlTdGF0cyB7CiAgICAgICAgdmFyIHRvdGFsID0gMEwKICAgICAgICB2YXIgcGVhayA9IDBMCiAgICAgICAgdmFyIHJ1biA9IDAKICAgICAgICB2YXIgbG9uZ2VzdCA9IDAKICAgICAgICBkYXlzLmZvckVhY2ggeyBkYXkgLT4KICAgICAgICAgICAgdG90YWwgPSBUb2tlbkNvc3RDYWxjdWxhdG9yLnNhdHVyYXRlZEFkZCh0b3RhbCwgZGF5LnRva2VucykKICAgICAgICAgICAgcGVhayA9IG1heE9mKHBlYWssIGRheS50b2tlbnMpCiAgICAgICAgICAgIHJ1biA9IGlmIChkYXkudG9rZW5zID4gMEwpIHJ1biArIDEgZWxzZSAwCiAgICAgICAgICAgIGxvbmdlc3QgPSBtYXhPZihsb25nZXN0LCBydW4pCiAgICAgICAgfQogICAgICAgIHZhciBjdXJyZW50ID0gMAogICAgICAgIHZhciBpbmRleCA9IGRheXMubGFzdEluZGV4CiAgICAgICAgd2hpbGUgKGluZGV4ID49IDAgJiYgZGF5c1tpbmRleF0udG9rZW5zID4gMEwpIHsKICAgICAgICAgICAgY3VycmVudCsrCiAgICAgICAgICAgIGluZGV4LS0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIFRva2VuQWN0aXZpdHlTdGF0cyh0b3RhbCwgcGVhaywgY3VycmVudCwgbG9uZ2VzdCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBiYXJIZWlnaHRzKHZhbHVlczogTGlzdDxMb25nPik6IEludEFycmF5IHsKICAgICAgICB2YWwgZGlzdGluY3QgPSB2YWx1ZXMuZmlsdGVyIHsgaXQgPiAwTCB9LmRpc3RpbmN0KCkuc29ydGVkKCkKICAgICAgICByZXR1cm4gSW50QXJyYXkodmFsdWVzLnNpemUpIHsgaW5kZXggLT4KICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICB2YWx1ZXNbaW5kZXhdIDw9IDBMIC0+IDEKICAgICAgICAgICAgICAgIGRpc3RpbmN0LnNpemUgPT0gMSAtPiA3CiAgICAgICAgICAgICAgICBlbHNlIC0+IDIgKyBkaXN0aW5jdC5pbmRleE9mKHZhbHVlc1tpbmRleF0pICogNSAvIChkaXN0aW5jdC5zaXplIC0gMSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKcHJpdmF0ZSBjbGFzcyBRdWFudGlsZUxldmVscyhwcml2YXRlIHZhbCB0aHJlc2hvbGRzOiBMb25nQXJyYXkpIHsKICAgIGZ1biBsZXZlbCh2YWx1ZTogTG9uZyk6IEludCB7CiAgICAgICAgaWYgKHZhbHVlIDw9IDBMKSByZXR1cm4gMAogICAgICAgIGZvciAobGV2ZWwgaW4gMS4uNSkgaWYgKHZhbHVlIDw9IHRocmVzaG9sZHNbbGV2ZWxdKSByZXR1cm4gbGV2ZWwKICAgICAgICByZXR1cm4gNQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGZ1biBmcm9tKHZhbHVlczogTGlzdDxMb25nPik6IFF1YW50aWxlTGV2ZWxzIHsKICAgICAgICAgICAgdmFsIG5vblplcm8gPSB2YWx1ZXMuZmlsdGVyIHsgaXQgPiAwTCB9LnNvcnRlZCgpCiAgICAgICAgICAgIGlmIChub25aZXJvLnNpemUgPCAyIHx8IG5vblplcm8uZmlyc3RPck51bGwoKSA9PSBub25aZXJvLmxhc3RPck51bGwoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIFF1YW50aWxlTGV2ZWxzKExvbmdBcnJheSg2KS5hbHNvIHsgaXRbM10gPSBMb25nLk1BWF9WQUxVRSB9KQogICAgICAgICAgICB9CiAgICAgICAgICAgIGZ1biBuZWFyZXN0KHBlcmNlbnRpbGU6IERvdWJsZSk6IExvbmcgewogICAgICAgICAgICAgICAgdmFsIGluZGV4ID0gKGNlaWwobm9uWmVyby5zaXplICogcGVyY2VudGlsZSkudG9JbnQoKSAtIDEpCiAgICAgICAgICAgICAgICAgICAgLmNvZXJjZUluKDAsIG5vblplcm8ubGFzdEluZGV4KQogICAgICAgICAgICAgICAgcmV0dXJuIG5vblplcm9baW5kZXhdCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIFF1YW50aWxlTGV2ZWxzKAogICAgICAgICAgICAgICAgbG9uZ0FycmF5T2YoMEwsIG5lYXJlc3QoMC4yNSksIG5lYXJlc3QoMC41MCksIG5lYXJlc3QoMC43NSksIG5lYXJlc3QoMC45NSksIExvbmcuTUFYX1ZBTFVFKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.stats
+
+import java.time.LocalDate
+import java.time.ZoneId
+import java.time.temporal.ChronoUnit
+import kotlin.math.ceil
+
+enum class TokenActivityViewMode { DAILY, WEEKLY, CUMULATIVE }
+
+internal data class TokenActivitySnapshot(
+    val zone: ZoneId,
+    val dayTotals: Map<LocalDate, Long>,
+)
+
+data class TokenActivityDay(val date: LocalDate, val tokens: Long, val level: Int)
+
+data class TokenActivityWeek(
+    val startDate: LocalDate,
+    val tokens: Long,
+    val level: Int,
+    val barHeight: Int,
+)
+
+data class TokenActivityStats(
+    val totalTokens: Long = 0L,
+    val peakTokens: Long = 0L,
+    val currentStreak: Int = 0,
+    val longestStreak: Int = 0,
+)
+
+data class TokenActivityRangeData(
+    val daily: List<TokenActivityDay>,
+    val weekly: List<TokenActivityWeek>,
+    val cumulative: List<TokenActivityDay>,
+    val stats: TokenActivityStats,
+)
+
+object TokenActivityAggregator {
+    /** Builds all three activity views from the same explicit calendar range. */
+    internal fun rangeData(
+        snapshot: TokenActivitySnapshot,
+        range: TokenStatsTimeRange,
+    ): TokenActivityRangeData {
+        val start = java.time.Instant.ofEpochMilli(range.startMs).atZone(snapshot.zone).toLocalDate()
+        val end = java.time.Instant.ofEpochMilli(range.endMs - 1L).atZone(snapshot.zone).toLocalDate()
+        return rangeData(snapshot.dayTotals, start, end)
+    }
+
+    private fun rangeData(
+        dayTotals: Map<LocalDate, Long>,
+        start: LocalDate,
+        end: LocalDate,
+    ): TokenActivityRangeData {
+        val dayCount = ChronoUnit.DAYS.between(start, end).toInt() + 1
+        val raw = List(dayCount) { index ->
+            val date = start.plusDays(index.toLong())
+            TokenActivityDay(date, dayTotals[date] ?: 0L, 0)
+        }
+        val dailyLevels = QuantileLevels.from(raw.map(TokenActivityDay::tokens))
+        val daily = raw.map { it.copy(level = dailyLevels.level(it.tokens)) }
+
+        var cumulativeTotal = 0L
+        val cumulativeRaw = raw.map {
+            cumulativeTotal = TokenCostCalculator.saturatedAdd(cumulativeTotal, it.tokens)
+            it.copy(tokens = cumulativeTotal)
+        }
+        val cumulativeLevels = QuantileLevels.from(cumulativeRaw.map(TokenActivityDay::tokens))
+        val cumulative = cumulativeRaw.map { it.copy(level = cumulativeLevels.level(it.tokens)) }
+
+        val firstWeek = start.minusDays((start.dayOfWeek.value % 7).toLong())
+        val lastWeek = end.minusDays((end.dayOfWeek.value % 7).toLong())
+        val weekCount = ChronoUnit.WEEKS.between(firstWeek, lastWeek).toInt() + 1
+        val weekTotals = LongArray(weekCount)
+        raw.forEach { day ->
+            val weekStart = day.date.minusDays((day.date.dayOfWeek.value % 7).toLong())
+            val index = ChronoUnit.WEEKS.between(firstWeek, weekStart).toInt()
+            weekTotals[index] = TokenCostCalculator.saturatedAdd(weekTotals[index], day.tokens)
+        }
+        val weekLevels = QuantileLevels.from(weekTotals.toList())
+        val heights = barHeights(weekTotals.toList())
+        val weekly = List(weekCount) { index ->
+            TokenActivityWeek(
+                startDate = firstWeek.plusWeeks(index.toLong()),
+                tokens = weekTotals[index],
+                level = weekLevels.level(weekTotals[index]),
+                barHeight = heights[index],
+            )
+        }
+        return TokenActivityRangeData(daily, weekly, cumulative, stats(raw))
+    }
+
+    private fun stats(days: List<TokenActivityDay>): TokenActivityStats {
+        var total = 0L
+        var peak = 0L
+        var run = 0
+        var longest = 0
+        days.forEach { day ->
+            total = TokenCostCalculator.saturatedAdd(total, day.tokens)
+            peak = maxOf(peak, day.tokens)
+            run = if (day.tokens > 0L) run + 1 else 0
+            longest = maxOf(longest, run)
+        }
+        var current = 0
+        var index = days.lastIndex
+        while (index >= 0 && days[index].tokens > 0L) {
+            current++
+            index--
+        }
+        return TokenActivityStats(total, peak, current, longest)
+    }
+
+    private fun barHeights(values: List<Long>): IntArray {
+        val distinct = values.filter { it > 0L }.distinct().sorted()
+        return IntArray(values.size) { index ->
+            when {
+                values[index] <= 0L -> 1
+                distinct.size == 1 -> 7
+                else -> 2 + distinct.indexOf(values[index]) * 5 / (distinct.size - 1)
+            }
+        }
+    }
+}
+
+private class QuantileLevels(private val thresholds: LongArray) {
+    fun level(value: Long): Int {
+        if (value <= 0L) return 0
+        for (level in 1..5) if (value <= thresholds[level]) return level
+        return 5
+    }
+
+    companion object {
+        fun from(values: List<Long>): QuantileLevels {
+            val nonZero = values.filter { it > 0L }.sorted()
+            if (nonZero.size < 2 || nonZero.firstOrNull() == nonZero.lastOrNull()) {
+                return QuantileLevels(LongArray(6).also { it[3] = Long.MAX_VALUE })
+            }
+            fun nearest(percentile: Double): Long {
+                val index = (ceil(nonZero.size * percentile).toInt() - 1)
+                    .coerceIn(0, nonZero.lastIndex)
+                return nonZero[index]
+            }
+            return QuantileLevels(
+                longArrayOf(0L, nearest(0.25), nearest(0.50), nearest(0.75), nearest(0.95), Long.MAX_VALUE)
+            )
+        }
+    }
+}

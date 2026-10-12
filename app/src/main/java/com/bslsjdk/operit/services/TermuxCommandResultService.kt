@@ -1,1 +1,93 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMKCmltcG9ydCBhbmRyb2lkLmFwcC5JbnRlbnRTZXJ2aWNlCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnN5c3RlbS5BbmRyb2lkU2hlbGxFeGVjdXRvci5Db21tYW5kUmVzdWx0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCi8qKgogKiBUZXJtdXjlkb3ku6Tnu5PmnpzmnI3liqEKICog55So5LqO5o6l5pS25p2l6IeqVGVybXV455qE5ZG95Luk5omn6KGM57uT5p6cCiAqLwpjbGFzcyBUZXJtdXhDb21tYW5kUmVzdWx0U2VydmljZSA6IEludGVudFNlcnZpY2UoIlRlcm11eENvbW1hbmRSZXN1bHRTZXJ2aWNlIikgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlRlcm11eFJlc3VsdFNlcnZpY2UiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX0VYRUNVVElPTl9JRCA9ICJleGVjdXRpb25faWQiCgogICAgICAgIC8vIOeUqOS6juWcqOacjeWKoeWGheazqOWGjOWbnuiwg+eahE1hcAogICAgICAgIHByaXZhdGUgdmFsIGNhbGxiYWNrTWFwID0gbXV0YWJsZU1hcE9mPEludCwgKChDb21tYW5kUmVzdWx0KSAtPiBVbml0KT4oKQogICAgICAgIAogICAgICAgIC8qKgogICAgICAgICAqIOazqOWGjOWRveS7pOaJp+ihjOWbnuiwgwogICAgICAgICAqIEBwYXJhbSBleGVjdXRpb25JZCDmiafooYxJRAogICAgICAgICAqIEBwYXJhbSBjYWxsYmFjayDlm57osIPlh73mlbAKICAgICAgICAgKi8KICAgICAgICBmdW4gcmVnaXN0ZXJDYWxsYmFjayhleGVjdXRpb25JZDogSW50LCBjYWxsYmFjazogKENvbW1hbmRSZXN1bHQpIC0+IFVuaXQpIHsKICAgICAgICAgICAgY2FsbGJhY2tNYXBbZXhlY3V0aW9uSWRdID0gY2FsbGJhY2sKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5bey5rOo5YaM5Zue6LCD77yMSUQ6ICRleGVjdXRpb25JZCwg5b2T5YmN5Zue6LCD5pWwOiAke2NhbGxiYWNrTWFwLnNpemV9IikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLyoqCiAgICAgICAgICog56e76Zmk5ZG95Luk5omn6KGM5Zue6LCDCiAgICAgICAgICogQHBhcmFtIGV4ZWN1dGlvbklkIOaJp+ihjElECiAgICAgICAgICovCiAgICAgICAgZnVuIHJlbW92ZUNhbGxiYWNrKGV4ZWN1dGlvbklkOiBJbnQpIHsKICAgICAgICAgICAgY2FsbGJhY2tNYXAucmVtb3ZlKGV4ZWN1dGlvbklkKQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlt7Lnp7vpmaTlm57osIPvvIxJRDogJGV4ZWN1dGlvbklkLCDlvZPliY3lm57osIPmlbA6ICR7Y2FsbGJhY2tNYXAuc2l6ZX0iKQogICAgICAgIH0KICAgIH0KICAgIAogICAgcHJpdmF0ZSB2YWwgc2VydmljZVNjb3BlID0gQ29yb3V0aW5lU2NvcGUoU3VwZXJ2aXNvckpvYigpICsgRGlzcGF0Y2hlcnMuTWFpbikKICAgIAogICAgb3ZlcnJpZGUgZnVuIG9uSGFuZGxlSW50ZW50KGludGVudDogSW50ZW50PykgewogICAgICAgIGlmIChpbnRlbnQgPT0gbnVsbCkgcmV0dXJuCiAgICAgICAgCiAgICAgICAgLy8g6I635Y+W5omn6KGMSUQKICAgICAgICB2YWwgZXhlY3V0aW9uSWQgPSBpbnRlbnQuZ2V0SW50RXh0cmEoRVhUUkFfRVhFQ1VUSU9OX0lELCAtMSkKICAgICAgICAvLyBBcHBMb2dnZXIuZChUQUcsICLmlLbliLDlkb3ku6Tnu5PmnpzvvIzmiafooYxJRDogJGV4ZWN1dGlvbklkIikKICAgICAgICAKICAgICAgICBpZiAoZXhlY3V0aW9uSWQgPT0gLTEpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5peg5pWI55qE5omn6KGMSUQiKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g6I635Y+W57uT5p6cQnVuZGxlCiAgICAgICAgdmFsIHJlc3VsdEJ1bmRsZSA9IGludGVudC5nZXRCdW5kbGVFeHRyYSgicmVzdWx0IikKICAgICAgICBpZiAocmVzdWx0QnVuZGxlID09IG51bGwpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi57uT5p6cQnVuZGxl5Li656m6IikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOino+aekOe7k+aenAogICAgICAgIHZhbCBzdGRvdXQgPSByZXN1bHRCdW5kbGUuZ2V0U3RyaW5nKCJzdGRvdXQiLCAiIikKICAgICAgICB2YWwgc3RkZXJyID0gcmVzdWx0QnVuZGxlLmdldFN0cmluZygic3RkZXJyIiwgIiIpCiAgICAgICAgdmFsIGV4aXRDb2RlID0gcmVzdWx0QnVuZGxlLmdldEludCgiZXhpdENvZGUiLCAtMSkKICAgICAgICB2YWwgZXJybXNnID0gcmVzdWx0QnVuZGxlLmdldFN0cmluZygiZXJybXNnIiwgIiIpCiAgICAgICAgCiAgICAgICAgLy8gQXBwTG9nZ2VyLmQoVEFHLCAi5ZG95Luk5omn6KGM57uT5p6cOiBzdGRvdXTplb/luqY9JHtzdGRvdXQubGVuZ3RofSwgc3RkZXJy6ZW/5bqmPSR7c3RkZXJyLmxlbmd0aH0sIGV4aXRDb2RlPSRleGl0Q29kZSIpCiAgICAgICAgCiAgICAgICAgLy8g5p6E5bu657uT5p6c5a+56LGhCiAgICAgICAgdmFsIHJlc3VsdCA9IENvbW1hbmRSZXN1bHQoCiAgICAgICAgICAgIHN1Y2Nlc3MgPSBleGl0Q29kZSA9PSAwLAogICAgICAgICAgICBzdGRvdXQgPSBzdGRvdXQsCiAgICAgICAgICAgIHN0ZGVyciA9IHN0ZGVyciwKICAgICAgICAgICAgZXhpdENvZGUgPSBleGl0Q29kZQogICAgICAgICkKICAgICAgICAKICAgICAgICAvLyDosIPnlKjlm57osIMKICAgICAgICB2YWwgY2FsbGJhY2sgPSBjYWxsYmFja01hcFtleGVjdXRpb25JZF0KICAgICAgICBpZiAoY2FsbGJhY2sgIT0gbnVsbCkgewogICAgICAgICAgICBzZXJ2aWNlU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgIGNhbGxiYWNrKHJlc3VsdCkKICAgICAgICAgICAgICAgIC8vIOaJp+ihjOWujOaIkOWQjuenu+mZpOWbnuiwgwogICAgICAgICAgICAgICAgcmVtb3ZlQ2FsbGJhY2soZXhlY3V0aW9uSWQpCiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAvLyBBcHBMb2dnZXIudyhUQUcsICLmnKrmib7liLBJROS4uiAkZXhlY3V0aW9uSWQg55qE5Zue6LCDIikKICAgICAgICB9CiAgICB9Cn0g
+package com.bslsjdk.operit.services
+
+import android.app.IntentService
+import android.content.Intent
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.system.AndroidShellExecutor.CommandResult
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
+
+/**
+ * Termux命令结果服务
+ * 用于接收来自Termux的命令执行结果
+ */
+class TermuxCommandResultService : IntentService("TermuxCommandResultService") {
+    companion object {
+        private const val TAG = "TermuxResultService"
+        const val EXTRA_EXECUTION_ID = "execution_id"
+
+        // 用于在服务内注册回调的Map
+        private val callbackMap = mutableMapOf<Int, ((CommandResult) -> Unit)>()
+        
+        /**
+         * 注册命令执行回调
+         * @param executionId 执行ID
+         * @param callback 回调函数
+         */
+        fun registerCallback(executionId: Int, callback: (CommandResult) -> Unit) {
+            callbackMap[executionId] = callback
+            AppLogger.d(TAG, "已注册回调，ID: $executionId, 当前回调数: ${callbackMap.size}")
+        }
+        
+        /**
+         * 移除命令执行回调
+         * @param executionId 执行ID
+         */
+        fun removeCallback(executionId: Int) {
+            callbackMap.remove(executionId)
+            AppLogger.d(TAG, "已移除回调，ID: $executionId, 当前回调数: ${callbackMap.size}")
+        }
+    }
+    
+    private val serviceScope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
+    
+    override fun onHandleIntent(intent: Intent?) {
+        if (intent == null) return
+        
+        // 获取执行ID
+        val executionId = intent.getIntExtra(EXTRA_EXECUTION_ID, -1)
+        // AppLogger.d(TAG, "收到命令结果，执行ID: $executionId")
+        
+        if (executionId == -1) {
+            AppLogger.e(TAG, "无效的执行ID")
+            return
+        }
+        
+        // 获取结果Bundle
+        val resultBundle = intent.getBundleExtra("result")
+        if (resultBundle == null) {
+            AppLogger.e(TAG, "结果Bundle为空")
+            return
+        }
+        
+        // 解析结果
+        val stdout = resultBundle.getString("stdout", "")
+        val stderr = resultBundle.getString("stderr", "")
+        val exitCode = resultBundle.getInt("exitCode", -1)
+        val errmsg = resultBundle.getString("errmsg", "")
+        
+        // AppLogger.d(TAG, "命令执行结果: stdout长度=${stdout.length}, stderr长度=${stderr.length}, exitCode=$exitCode")
+        
+        // 构建结果对象
+        val result = CommandResult(
+            success = exitCode == 0,
+            stdout = stdout,
+            stderr = stderr,
+            exitCode = exitCode
+        )
+        
+        // 调用回调
+        val callback = callbackMap[executionId]
+        if (callback != null) {
+            serviceScope.launch {
+                callback(result)
+                // 执行完成后移除回调
+                removeCallback(executionId)
+            }
+        } else {
+            // AppLogger.w(TAG, "未找到ID为 $executionId 的回调")
+        }
+    }
+} 

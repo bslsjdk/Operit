@@ -1,1 +1,135 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5ib3JkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5jbGlja2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Sb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQud2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlSb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DbG9zZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRGVzY3JpcHRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkltYWdlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5QaG90b0NhbWVyYQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuU2NyZWVuc2hvdE1vbml0b3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb25CdXR0b24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5kcmF3LmNsaXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuc3R5bGUuVGV4dE92ZXJmbG93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BdHRhY2htZW50SW5mbwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuYXR0YWNobWVudHMuQXR0YWNobWVudFV0aWxzCgovKiogQSBjb21wb25lbnQgdGhhdCBzaG93cyBwcmV2aWV3cyBvZiBhdHRhY2htZW50cyB0byBiZSBzZW50IHdpdGggYSBtZXNzYWdlICovCkBDb21wb3NhYmxlCmZ1biBBdHRhY2htZW50UHJldmlldygKICAgICAgICBhdHRhY2htZW50czogTGlzdDxBdHRhY2htZW50SW5mbz4sCiAgICAgICAgb25SZW1vdmVBdHRhY2htZW50OiAoU3RyaW5nKSAtPiBVbml0LAogICAgICAgIG9uSW5zZXJ0QXR0YWNobWVudDogKEF0dGFjaG1lbnRJbmZvKSAtPiBVbml0LAogICAgICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyCikgewogICAgaWYgKGF0dGFjaG1lbnRzLmlzRW1wdHkoKSkgcmV0dXJuCgogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgQ29sdW1uKG1vZGlmaWVyID0gbW9kaWZpZXIpIHsKICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmF0dGFjaG1lbnRzX2NvdW50LCBhdHRhY2htZW50cy5zaXplKSwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsTWVkaXVtLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZS5jb3B5KGFscGhhID0gMC43ZiksCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDE2LmRwLCB2ZXJ0aWNhbCA9IDQuZHApCiAgICAgICAgKQoKICAgICAgICBMYXp5Um93KG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZyhob3Jpem9udGFsID0gOC5kcCwgdmVydGljYWwgPSA0LmRwKSkgewogICAgICAgICAgICBpdGVtcyhhdHRhY2htZW50cykgeyBhdHRhY2htZW50IC0+CiAgICAgICAgICAgICAgICBBdHRhY2htZW50SXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgYXR0YWNobWVudCA9IGF0dGFjaG1lbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uUmVtb3ZlID0geyBvblJlbW92ZUF0dGFjaG1lbnQoYXR0YWNobWVudC5maWxlUGF0aCkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgb25JbnNlcnQgPSB7IG9uSW5zZXJ0QXR0YWNobWVudChhdHRhY2htZW50KSB9CiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoOC5kcCkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8qKiBJbmRpdmlkdWFsIGF0dGFjaG1lbnQgaXRlbSAqLwpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBBdHRhY2htZW50SXRlbShhdHRhY2htZW50OiBBdHRhY2htZW50SW5mbywgb25SZW1vdmU6ICgpIC0+IFVuaXQsIG9uSW5zZXJ0OiAoKSAtPiBVbml0KSB7CiAgICB2YWwgaWNvbiA9CiAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgYXR0YWNobWVudC5maWxlTmFtZS5zdGFydHNXaXRoKCJjYW1lcmFfIikgLT4gSWNvbnMuRGVmYXVsdC5QaG90b0NhbWVyYQogICAgICAgICAgICAgICAgYXR0YWNobWVudC5taW1lVHlwZS5zdGFydHNXaXRoKCJpbWFnZS8iKSAtPiBJY29ucy5EZWZhdWx0LkltYWdlCiAgICAgICAgICAgICAgICBhdHRhY2htZW50LmZpbGVQYXRoLnN0YXJ0c1dpdGgoInNjcmVlbl8iKSAtPiBJY29ucy5EZWZhdWx0LlNjcmVlbnNob3RNb25pdG9yCiAgICAgICAgICAgICAgICBlbHNlIC0+IEljb25zLkRlZmF1bHQuRGVzY3JpcHRpb24KICAgICAgICAgICAgfQoKICAgIEJveCgKICAgICAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyLmNsaXAoUm91bmRlZENvcm5lclNoYXBlKDguZHApKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmJvcmRlcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGggPSAxLmRwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub3V0bGluZS5jb3B5KGFscGhhID0gMC41ZiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYXBlID0gUm91bmRlZENvcm5lclNoYXBlKDguZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYmFja2dyb3VuZChNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VWYXJpYW50LmNvcHkoYWxwaGEgPSAwLjNmKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jbGlja2FibGUob25DbGljayA9IG9uSW5zZXJ0KQogICAgKSB7CiAgICAgICAgUm93KG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyg4LmRwKSwgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSkgewogICAgICAgICAgICAvLyBJY29uIGJhc2VkIG9uIGZpbGUgdHlwZQogICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gaWNvbiwKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsLAogICAgICAgICAgICAgICAgICAgIHRpbnQgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnksCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDI0LmRwKQogICAgICAgICAgICApCgogICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg4LmRwKSkKCiAgICAgICAgICAgIC8vIEZpbGUgaW5mbwogICAgICAgICAgICBDb2x1bW4gewogICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IEF0dGFjaG1lbnRVdGlscy5nZXREaXNwbGF5TmFtZShhdHRhY2htZW50KSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJmbG93ID0gVGV4dE92ZXJmbG93LkVsbGlwc2lzCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgaWYgKGF0dGFjaG1lbnQuZmlsZVNpemUgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBBdHRhY2htZW50VXRpbHMuZm9ybWF0RmlsZVNpemUoYXR0YWNobWVudC5maWxlU2l6ZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbFNtYWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDguZHApKQoKICAgICAgICAgICAgLy8gUmVtb3ZlIGJ1dHRvbgogICAgICAgICAgICBJY29uQnV0dG9uKG9uQ2xpY2sgPSBvblJlbW92ZSwgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDI0LmRwKSkgewogICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LkNsb3NlLAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSAiUmVtb3ZlIGF0dGFjaG1lbnQiLAogICAgICAgICAgICAgICAgICAgICAgICB0aW50ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvciwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDE2LmRwKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material.icons.filled.Description
+import androidx.compose.material.icons.filled.Image
+import androidx.compose.material.icons.filled.PhotoCamera
+import androidx.compose.material.icons.filled.ScreenshotMonitor
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.AttachmentInfo
+import com.bslsjdk.operit.ui.features.chat.attachments.AttachmentUtils
+
+/** A component that shows previews of attachments to be sent with a message */
+@Composable
+fun AttachmentPreview(
+        attachments: List<AttachmentInfo>,
+        onRemoveAttachment: (String) -> Unit,
+        onInsertAttachment: (AttachmentInfo) -> Unit,
+        modifier: Modifier = Modifier
+) {
+    if (attachments.isEmpty()) return
+
+    val context = LocalContext.current
+    Column(modifier = modifier) {
+        Text(
+                text = context.getString(R.string.attachments_count, attachments.size),
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f),
+                modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp)
+        )
+
+        LazyRow(modifier = Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 4.dp)) {
+            items(attachments) { attachment ->
+                AttachmentItem(
+                        attachment = attachment,
+                        onRemove = { onRemoveAttachment(attachment.filePath) },
+                        onInsert = { onInsertAttachment(attachment) }
+                )
+
+                Spacer(modifier = Modifier.width(8.dp))
+            }
+        }
+    }
+}
+
+/** Individual attachment item */
+@Composable
+private fun AttachmentItem(attachment: AttachmentInfo, onRemove: () -> Unit, onInsert: () -> Unit) {
+    val icon =
+            when {
+                attachment.fileName.startsWith("camera_") -> Icons.Default.PhotoCamera
+                attachment.mimeType.startsWith("image/") -> Icons.Default.Image
+                attachment.filePath.startsWith("screen_") -> Icons.Default.ScreenshotMonitor
+                else -> Icons.Default.Description
+            }
+
+    Box(
+            modifier =
+                    Modifier.clip(RoundedCornerShape(8.dp))
+                            .border(
+                                    width = 1.dp,
+                                    color = MaterialTheme.colorScheme.outline.copy(alpha = 0.5f),
+                                    shape = RoundedCornerShape(8.dp)
+                            )
+                            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f))
+                            .clickable(onClick = onInsert)
+    ) {
+        Row(modifier = Modifier.padding(8.dp), verticalAlignment = Alignment.CenterVertically) {
+            // Icon based on file type
+            Icon(
+                    imageVector = icon,
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier.size(24.dp)
+            )
+
+            Spacer(modifier = Modifier.width(8.dp))
+
+            // File info
+            Column {
+                Text(
+                        text = AttachmentUtils.getDisplayName(attachment),
+                        style = MaterialTheme.typography.bodySmall,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
+                )
+
+                if (attachment.fileSize > 0) {
+                    Text(
+                            text = AttachmentUtils.formatFileSize(attachment.fileSize),
+                            style = MaterialTheme.typography.labelSmall,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+
+            Spacer(modifier = Modifier.width(8.dp))
+
+            // Remove button
+            IconButton(onClick = onRemove, modifier = Modifier.size(24.dp)) {
+                Icon(
+                        imageVector = Icons.Default.Close,
+                        contentDescription = "Remove attachment",
+                        tint = MaterialTheme.colorScheme.error,
+                        modifier = Modifier.size(16.dp)
+                )
+            }
+        }
+    }
+}

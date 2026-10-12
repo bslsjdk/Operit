@@ -1,1 +1,105 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cy5Nb2RlbFRoaW5raW5nQ29uZmlnRGVmYXVsdHMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaVByb3ZpZGVyVHlwZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIFRoaW5raW5nUXVhbGl0eU1hcHBpbmdUZXN0IHsKICAgIHByaXZhdGUgZnVuIG1hcHBpbmcocHJvdmlkZXJUeXBlOiBBcGlQcm92aWRlclR5cGUsIG1vZGVsTmFtZTogU3RyaW5nKTogVGhpbmtpbmdRdWFsaXR5TWFwcGluZyA9CiAgICAgICAgVGhpbmtpbmdRdWFsaXR5TWFwcGluZ1JlZ2lzdHJ5LnJlc29sdmUoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZUlkID0gcHJvdmlkZXJUeXBlLm5hbWUsCiAgICAgICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZSwKICAgICAgICAgICAgdGhpbmtpbmdDb25maWd1cmF0aW9ucyA9IE1vZGVsVGhpbmtpbmdDb25maWdEZWZhdWx0cy5mb3JQcm92aWRlcihwcm92aWRlclR5cGUubmFtZSkKICAgICAgICApCgogICAgQFRlc3QKICAgIGZ1biB4YWlNYXBzU3VwcG9ydGVkTW9kZWxzVG9SZWFzb25pbmdFZmZvcnRzKCkgewogICAgICAgIHZhbCBtYXBwaW5nID0gbWFwcGluZyhBcGlQcm92aWRlclR5cGUuWEFJLCAiZ3Jvay00LjYiKQoKICAgICAgICBhc3NlcnRFcXVhbHMoVGhpbmtpbmdRdWFsaXR5Q29udHJvbC5MRVZFTFMsIG1hcHBpbmcuY29udHJvbCkKICAgICAgICBhc3NlcnRFcXVhbHMoInJlYXNvbmluZ19lZmZvcnQiLCBtYXBwaW5nLnBhcmFtZXRlckxhYmVsKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImxvdyIsICJtZWRpdW0iLCAiaGlnaCIsICJ4aGlnaCIpLCBtYXBwaW5nLm9wdGlvbnMubWFwIHsgaXQuZGlzcGxheUxhYmVsIH0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJoaWdoIiwgbWFwcGluZy50ZXh0VmFsdWVGb3IoImhpZ2giKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHhhaUtlZXBzR2VuZXJpY0NvbnRyb2xzRm9yTmV3R3Jva01vZGVscygpIHsKICAgICAgICB2YWwgbWFwcGluZyA9IG1hcHBpbmcoQXBpUHJvdmlkZXJUeXBlLlhBSSwgImdyb2stMy1taW5pIikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRoaW5raW5nUXVhbGl0eUNvbnRyb2wuTEVWRUxTLCBtYXBwaW5nLmNvbnRyb2wpCiAgICAgICAgYXNzZXJ0VHJ1ZShtYXBwaW5nLm9wdGlvbnMuaXNOb3RFbXB0eSgpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gb3BlbkFpVXNlc0ZpdmVOYW1lZEVmZm9ydFZhbHVlcygpIHsKICAgICAgICB2YWwgbWFwcGluZyA9IG1hcHBpbmcoQXBpUHJvdmlkZXJUeXBlLk9QRU5BSSwgImdwdC01LjYtbHVuYSIpCgogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImxvdyIsICJtZWRpdW0iLCAiaGlnaCIsICJ4aGlnaCIsICJtYXgiKSwgbWFwcGluZy5vcHRpb25zLm1hcCB7IGl0LmRpc3BsYXlMYWJlbCB9KQogICAgICAgIGFzc2VydEVxdWFscygiaGlnaCIsIG1hcHBpbmcudGV4dFZhbHVlRm9yKCJoaWdoIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBwcm92aWRlcnNVc2VNb2RlbFNwZWNpZmljV2lyZVZhbHVlcygpIHsKICAgICAgICB2YWwgZ2VtaW5pID0gbWFwcGluZyhBcGlQcm92aWRlclR5cGUuR09PR0xFLCAiZ2VtaW5pLTMtZmxhc2giKQogICAgICAgIHZhbCBkZWVwc2VlayA9IG1hcHBpbmcoQXBpUHJvdmlkZXJUeXBlLkRFRVBTRUVLLCAiZGVlcHNlZWstcmVhc29uZXIiKQoKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJNSU5JTUFMIiwgIkxPVyIsICJNRURJVU0iLCAiSElHSCIpLCBnZW1pbmkub3B0aW9ucy5tYXAgeyBpdC5kaXNwbGF5TGFiZWwgfSkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJsb3ciLCAiaGlnaCIsICJtYXgiKSwgZGVlcHNlZWsub3B0aW9ucy5tYXAgeyBpdC5kaXNwbGF5TGFiZWwgfSkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJsb3ciLCAiaGlnaCIsICJtYXgiKSwgZGVlcHNlZWsub3B0aW9ucy5tYXAgeyBkZWVwc2Vlay50ZXh0VmFsdWVGb3IoaXQuaWQpIH0pCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBkZWVwU2Vla0NoYXRSZW1haW5zSW5UaGVEZWVwU2Vla0ZhbWlseU1hcHBpbmcoKSB7CiAgICAgICAgdmFsIG1hcHBpbmcgPSBtYXBwaW5nKEFwaVByb3ZpZGVyVHlwZS5ERUVQU0VFSywgImRlZXBzZWVrLWNoYXQiKQoKICAgICAgICBhc3NlcnRFcXVhbHMoVGhpbmtpbmdRdWFsaXR5Q29udHJvbC5MRVZFTFMsIG1hcHBpbmcuY29udHJvbCkKICAgICAgICBhc3NlcnRFcXVhbHMoMywgbWFwcGluZy5vcHRpb25zLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigibG93IiwgImhpZ2giLCAibWF4IiksIG1hcHBpbmcub3B0aW9ucy5tYXAgeyBpdC5pZCB9KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gcHJvdmlkZXJTcGVjaWZpY01vZGVsTWF0Y2hpbmdDb250cm9sc0xldmVsU3VwcG9ydCgpIHsKICAgICAgICB2YWwgZ3B0T3NzID0gbWFwcGluZyhBcGlQcm92aWRlclR5cGUuTlZJRElBLCAiZ3B0LW9zcy0xMjBiIikKICAgICAgICB2YWwgb3RoZXJOdmlkaWFNb2RlbCA9IG1hcHBpbmcoQXBpUHJvdmlkZXJUeXBlLk5WSURJQSwgIm5lbW90cm9uLWZ1dHVyZSIpCgogICAgICAgIGFzc2VydFRydWUoZ3B0T3NzLm9wdGlvbnMuaXNOb3RFbXB0eSgpKQogICAgICAgIGFzc2VydFRydWUob3RoZXJOdmlkaWFNb2RlbC5vcHRpb25zLmlzTm90RW1wdHkoKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIG51bWVyaWNQcm92aWRlclZhbHVlc1JlbWFpblR5cGVkKCkgewogICAgICAgIHZhbCBtYXBwaW5nID0gbWFwcGluZyhBcGlQcm92aWRlclR5cGUuU0lMSUNPTkZMT1csICJRd2VuMyIpCgogICAgICAgIGFzc2VydEVxdWFscygiMTI4IiwgbWFwcGluZy5vcHRpb25zLmZpcnN0KCkuZGlzcGxheUxhYmVsKQogICAgICAgIGFzc2VydEVxdWFscyg4XzE5MiwgbWFwcGluZy5udW1iZXJWYWx1ZUZvcigiODE5MiIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gemhpcHVHbG01M1VzZXNSZXF1aXJlZFJlYXNvbmluZ0VmZm9ydExldmVscygpIHsKICAgICAgICB2YWwgbWFwcGluZyA9IG1hcHBpbmcoQXBpUHJvdmlkZXJUeXBlLlpISVBVLCAiZ2xtLTUuMyIpCgogICAgICAgIGFzc2VydEVxdWFscyhUaGlua2luZ1F1YWxpdHlDb250cm9sLkxFVkVMUywgbWFwcGluZy5jb250cm9sKQogICAgICAgIGFzc2VydEVxdWFscygicmVhc29uaW5nX2VmZm9ydCIsIG1hcHBpbmcucGFyYW1ldGVyTGFiZWwpCiAgICAgICAgYXNzZXJ0VHJ1ZShtYXBwaW5nLnJlYXNvbmluZ1JlcXVpcmVkKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImxvdyIsICJoaWdoIiwgIm1heCIpLCBtYXBwaW5nLm9wdGlvbnMubWFwIHsgaXQuaWQgfSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHpoaXB1T2xkZXJUaGlua2luZ01vZGVsc1VzZVRvZ2dsZU9ubHkoKSB7CiAgICAgICAgdmFsIG1hcHBpbmcgPSBtYXBwaW5nKEFwaVByb3ZpZGVyVHlwZS5aSElQVSwgImdsbS00LjctdGhpbmtpbmciKQoKICAgICAgICBhc3NlcnRFcXVhbHMoVGhpbmtpbmdRdWFsaXR5Q29udHJvbC5UT0dHTEVfT05MWSwgbWFwcGluZy5jb250cm9sKQogICAgICAgIGFzc2VydEVxdWFscygidGhpbmtpbmcudHlwZSIsIG1hcHBpbmcucGFyYW1ldGVyTGFiZWwpCiAgICAgICAgYXNzZXJ0RmFsc2UobWFwcGluZy5yZWFzb25pbmdSZXF1aXJlZCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHpoaXB1TGVnYWN5TW9kZWxzRG9Ob3RTaG93VGhpbmtpbmdDb250cm9scygpIHsKICAgICAgICB2YWwgbWFwcGluZyA9IG1hcHBpbmcoQXBpUHJvdmlkZXJUeXBlLlpISVBVLCAiZ2xtLTMtdHVyYm8iKQoKICAgICAgICBhc3NlcnRFcXVhbHMoVGhpbmtpbmdRdWFsaXR5Q29udHJvbC5VTlNVUFBPUlRFRCwgbWFwcGluZy5jb250cm9sKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.collects.ModelThinkingConfigDefaults
+import com.bslsjdk.operit.data.model.ApiProviderType
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ThinkingQualityMappingTest {
+    private fun mapping(providerType: ApiProviderType, modelName: String): ThinkingQualityMapping =
+        ThinkingQualityMappingRegistry.resolve(
+            providerTypeId = providerType.name,
+            modelName = modelName,
+            thinkingConfigurations = ModelThinkingConfigDefaults.forProvider(providerType.name)
+        )
+
+    @Test
+    fun xaiMapsSupportedModelsToReasoningEfforts() {
+        val mapping = mapping(ApiProviderType.XAI, "grok-4.6")
+
+        assertEquals(ThinkingQualityControl.LEVELS, mapping.control)
+        assertEquals("reasoning_effort", mapping.parameterLabel)
+        assertEquals(listOf("low", "medium", "high", "xhigh"), mapping.options.map { it.displayLabel })
+        assertEquals("high", mapping.textValueFor("high"))
+    }
+
+    @Test
+    fun xaiKeepsGenericControlsForNewGrokModels() {
+        val mapping = mapping(ApiProviderType.XAI, "grok-3-mini")
+
+        assertEquals(ThinkingQualityControl.LEVELS, mapping.control)
+        assertTrue(mapping.options.isNotEmpty())
+    }
+
+    @Test
+    fun openAiUsesFiveNamedEffortValues() {
+        val mapping = mapping(ApiProviderType.OPENAI, "gpt-5.6-luna")
+
+        assertEquals(listOf("low", "medium", "high", "xhigh", "max"), mapping.options.map { it.displayLabel })
+        assertEquals("high", mapping.textValueFor("high"))
+    }
+
+    @Test
+    fun providersUseModelSpecificWireValues() {
+        val gemini = mapping(ApiProviderType.GOOGLE, "gemini-3-flash")
+        val deepseek = mapping(ApiProviderType.DEEPSEEK, "deepseek-reasoner")
+
+        assertEquals(listOf("MINIMAL", "LOW", "MEDIUM", "HIGH"), gemini.options.map { it.displayLabel })
+        assertEquals(listOf("low", "high", "max"), deepseek.options.map { it.displayLabel })
+        assertEquals(listOf("low", "high", "max"), deepseek.options.map { deepseek.textValueFor(it.id) })
+    }
+
+    @Test
+    fun deepSeekChatRemainsInTheDeepSeekFamilyMapping() {
+        val mapping = mapping(ApiProviderType.DEEPSEEK, "deepseek-chat")
+
+        assertEquals(ThinkingQualityControl.LEVELS, mapping.control)
+        assertEquals(3, mapping.options.size)
+        assertEquals(listOf("low", "high", "max"), mapping.options.map { it.id })
+    }
+
+    @Test
+    fun providerSpecificModelMatchingControlsLevelSupport() {
+        val gptOss = mapping(ApiProviderType.NVIDIA, "gpt-oss-120b")
+        val otherNvidiaModel = mapping(ApiProviderType.NVIDIA, "nemotron-future")
+
+        assertTrue(gptOss.options.isNotEmpty())
+        assertTrue(otherNvidiaModel.options.isNotEmpty())
+    }
+
+    @Test
+    fun numericProviderValuesRemainTyped() {
+        val mapping = mapping(ApiProviderType.SILICONFLOW, "Qwen3")
+
+        assertEquals("128", mapping.options.first().displayLabel)
+        assertEquals(8_192, mapping.numberValueFor("8192"))
+    }
+
+    @Test
+    fun zhipuGlm53UsesRequiredReasoningEffortLevels() {
+        val mapping = mapping(ApiProviderType.ZHIPU, "glm-5.3")
+
+        assertEquals(ThinkingQualityControl.LEVELS, mapping.control)
+        assertEquals("reasoning_effort", mapping.parameterLabel)
+        assertTrue(mapping.reasoningRequired)
+        assertEquals(listOf("low", "high", "max"), mapping.options.map { it.id })
+    }
+
+    @Test
+    fun zhipuOlderThinkingModelsUseToggleOnly() {
+        val mapping = mapping(ApiProviderType.ZHIPU, "glm-4.7-thinking")
+
+        assertEquals(ThinkingQualityControl.TOGGLE_ONLY, mapping.control)
+        assertEquals("thinking.type", mapping.parameterLabel)
+        assertFalse(mapping.reasoningRequired)
+    }
+
+    @Test
+    fun zhipuLegacyModelsDoNotShowThinkingControls() {
+        val mapping = mapping(ApiProviderType.ZHIPU, "glm-3-turbo")
+
+        assertEquals(ThinkingQualityControl.UNSUPPORTED, mapping.control)
+    }
+}

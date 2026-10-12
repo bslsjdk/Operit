@@ -1,1 +1,97 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uc2hlbGwKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uQW5kcm9pZFBlcm1pc3Npb25MZXZlbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLlNoZWxsSWRlbnRpdHkKCi8qKiDpgJrnlKhTaGVsbOWRveS7pOaJp+ihjOaOpeWPoyDlrprkuYnkuobkuI3lkIzmnYPpmZDnuqfliKtTaGVsbOaTjeS9nOeahOe7n+S4gOaOpeWPoyAqLwppbnRlcmZhY2UgU2hlbGxFeGVjdXRvciB7CiAgICAvKioKICAgICAqIOaJp+ihjFNoZWxs5ZG95LukCiAgICAgKiBAcGFyYW0gY29tbWFuZCDopoHmiafooYznmoRTaGVsbOWRveS7pAogICAgICogQHJldHVybiDlkb3ku6TmiafooYznu5PmnpwKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZXhlY3V0ZUNvbW1hbmQoY29tbWFuZDogU3RyaW5nLCBpZGVudGl0eTogU2hlbGxJZGVudGl0eSA9IFNoZWxsSWRlbnRpdHkuREVGQVVMVCk6IENvbW1hbmRSZXN1bHQKCiAgICAvKioKICAgICAqIOiOt+WPluW9k+WJjeaJp+ihjOWZqOeahOadg+mZkOe6p+WIqwogICAgICogQHJldHVybiDlvZPliY3miafooYzlmajnmoTmnYPpmZDnuqfliKsKICAgICAqLwogICAgZnVuIGdldFBlcm1pc3Npb25MZXZlbCgpOiBBbmRyb2lkUGVybWlzc2lvbkxldmVsCgogICAgLyoqCiAgICAgKiDmo4Dmn6XmiafooYzlmajmmK/lkKblj6/nlKgKICAgICAqIEByZXR1cm4g5omn6KGM5Zmo5piv5ZCm5Y+v55SoCiAgICAgKi8KICAgIGZ1biBpc0F2YWlsYWJsZSgpOiBCb29sZWFuCgogICAgLyoqCiAgICAgKiDor7fmsYLmiafooYzlmajmiYDpnIDnmoTmnYPpmZAKICAgICAqIEBwYXJhbSBvblJlc3VsdCDmnYPpmZDor7fmsYLnu5Pmnpzlm57osIMKICAgICAqLwogICAgZnVuIHJlcXVlc3RQZXJtaXNzaW9uKG9uUmVzdWx0OiAoQm9vbGVhbikgLT4gVW5pdCkKCiAgICAvKioKICAgICAqIOajgOafpeaYr+WQpuW3suacieaJp+ihjOWZqOaJgOmcgOeahOadg+mZkAogICAgICogQHJldHVybiDmnYPpmZDnirbmgIHvvIzljIXlkKvmmK/lkKbmnInmnYPpmZDlj4ror6bnu4bnmoTplJnor6/ljp/lm6AKICAgICAqLwogICAgZnVuIGhhc1Blcm1pc3Npb24oKTogUGVybWlzc2lvblN0YXR1cwoKICAgIC8qKiDliJ3lp4vljJbmiafooYzlmaggKi8KICAgIGZ1biBpbml0aWFsaXplKCkKCiAgICAvKioKICAgICAqIOaJp+ihjOS4gOS4qumVv+acn+i/kOihjOeahOWRveS7pO+8jOW5tuaPkOS+m+S4gOS4quS6pOS6kuW8j+i/m+eoi+WvueixoeOAggogICAgICog5Li76KaB55So5LqO6ZyA6KaB5oyB57ut6K+75Y+W6L6T5Ye65rWB55qE5ZG95Luk77yM5L6L5aaCICdsb2djYXQnIOaIliAnZ2V0ZXZlbnQn44CCCiAgICAgKgogICAgICogQHBhcmFtIGNvbW1hbmQg6KaB5omn6KGM55qE5ZG95Luk44CCCiAgICAgKiBAcmV0dXJuIOS4gOS4qiBTaGVsbFByb2Nlc3Mg5a+56LGh77yM5YWB6K64566h55CG6L+b56iL5bm26K+75Y+W5YW26L6T5Ye65rWB44CCCiAgICAgKiBAdGhyb3dzIFVuc3VwcG9ydGVkT3BlcmF0aW9uRXhjZXB0aW9uIOWmguaenOaJp+ihjOWZqOS4jeaUr+aMgeWQr+WKqOaMgeS5hei/m+eoi+OAggogICAgICovCiAgICBzdXNwZW5kIGZ1biBzdGFydFByb2Nlc3MoY29tbWFuZDogU3RyaW5nKTogU2hlbGxQcm9jZXNzCgogICAgLyoqIOWRveS7pOaJp+ihjOe7k+aenOaVsOaNruexuyAqLwogICAgZGF0YSBjbGFzcyBDb21tYW5kUmVzdWx0KAogICAgICAgICAgICB2YWwgc3VjY2VzczogQm9vbGVhbiwKICAgICAgICAgICAgdmFsIHN0ZG91dDogU3RyaW5nLAogICAgICAgICAgICB2YWwgc3RkZXJyOiBTdHJpbmcgPSAiIiwKICAgICAgICAgICAgdmFsIGV4aXRDb2RlOiBJbnQgPSAtMQogICAgKQoKICAgIC8qKiDmnYPpmZDnirbmgIHmlbDmja7nsbsg5YyF5ZCr5p2D6ZmQ5qOA5p+l57uT5p6c5ZKM5aSx6LSl5Y6f5Zug5o+P6L+wICovCiAgICBkYXRhIGNsYXNzIFBlcm1pc3Npb25TdGF0dXMoCiAgICAgICAgICAgIHZhbCBncmFudGVkOiBCb29sZWFuLAogICAgICAgICAgICB2YWwgcmVhc29uOiBTdHJpbmcgPSBpZiAoZ3JhbnRlZCkgIlBlcm1pc3Npb24gZ3JhbnRlZCIgZWxzZSAiUGVybWlzc2lvbiBkZW5pZWQiCiAgICApIHsKICAgICAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICAgICAgZnVuIGdyYW50ZWQoKSA9IFBlcm1pc3Npb25TdGF0dXModHJ1ZSkKICAgICAgICAgICAgZnVuIGRlbmllZChyZWFzb246IFN0cmluZykgPSBQZXJtaXNzaW9uU3RhdHVzKGZhbHNlLCByZWFzb24pCiAgICAgICAgfQogICAgfQp9CgovKioKICog5Luj6KGo5LiA5Liq5q2j5Zyo6L+Q6KGM55qE44CB5Y+v5Lqk5LqS55qEU2hlbGzov5vnqIvjgIIKICovCmludGVyZmFjZSBTaGVsbFByb2Nlc3MgewogICAgLyoqIOS7juagh+WHhui+k+WHuua1geivu+WPlueahOaWh+acrOihjCBGbG9344CCICovCiAgICB2YWwgc3Rkb3V0OiBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93PFN0cmluZz4KCiAgICAvKiog5LuO5qCH5YeG6ZSZ6K+v5rWB6K+75Y+W55qE5paH5pys6KGMIEZsb3fjgIIgKi8KICAgIHZhbCBzdGRlcnI6IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3c8U3RyaW5nPgoKICAgIC8qKgogICAgICog5by66KGM57uI5q2i6L+b56iL44CCCiAgICAgKi8KICAgIGZ1biBkZXN0cm95KCkKCiAgICAvKioKICAgICAqIOaMgui1t+ebtOWIsOi/m+eoi+aJp+ihjOWujOavle+8jOW5tui/lOWbnuWFtumAgOWHuueggeOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biB3YWl0Rm9yKCk6IEludAoKICAgIC8qKgogICAgICog5qOA5p+l6L+b56iL5piv5ZCm5LuN5Zyo6L+Q6KGM44CCCiAgICAgKiBAcmV0dXJuIOWmguaenOi/m+eoi+aYr+a0u+i3g+eahO+8jOWImei/lOWbnnRydWXjgIIKICAgICAqLwogICAgdmFsIGlzQWxpdmU6IEJvb2xlYW4KfQo=
+package com.bslsjdk.operit.core.tools.system.shell
+
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+import com.bslsjdk.operit.core.tools.system.ShellIdentity
+
+/** 通用Shell命令执行接口 定义了不同权限级别Shell操作的统一接口 */
+interface ShellExecutor {
+    /**
+     * 执行Shell命令
+     * @param command 要执行的Shell命令
+     * @return 命令执行结果
+     */
+    suspend fun executeCommand(command: String, identity: ShellIdentity = ShellIdentity.DEFAULT): CommandResult
+
+    /**
+     * 获取当前执行器的权限级别
+     * @return 当前执行器的权限级别
+     */
+    fun getPermissionLevel(): AndroidPermissionLevel
+
+    /**
+     * 检查执行器是否可用
+     * @return 执行器是否可用
+     */
+    fun isAvailable(): Boolean
+
+    /**
+     * 请求执行器所需的权限
+     * @param onResult 权限请求结果回调
+     */
+    fun requestPermission(onResult: (Boolean) -> Unit)
+
+    /**
+     * 检查是否已有执行器所需的权限
+     * @return 权限状态，包含是否有权限及详细的错误原因
+     */
+    fun hasPermission(): PermissionStatus
+
+    /** 初始化执行器 */
+    fun initialize()
+
+    /**
+     * 执行一个长期运行的命令，并提供一个交互式进程对象。
+     * 主要用于需要持续读取输出流的命令，例如 'logcat' 或 'getevent'。
+     *
+     * @param command 要执行的命令。
+     * @return 一个 ShellProcess 对象，允许管理进程并读取其输出流。
+     * @throws UnsupportedOperationException 如果执行器不支持启动持久进程。
+     */
+    suspend fun startProcess(command: String): ShellProcess
+
+    /** 命令执行结果数据类 */
+    data class CommandResult(
+            val success: Boolean,
+            val stdout: String,
+            val stderr: String = "",
+            val exitCode: Int = -1
+    )
+
+    /** 权限状态数据类 包含权限检查结果和失败原因描述 */
+    data class PermissionStatus(
+            val granted: Boolean,
+            val reason: String = if (granted) "Permission granted" else "Permission denied"
+    ) {
+        companion object {
+            fun granted() = PermissionStatus(true)
+            fun denied(reason: String) = PermissionStatus(false, reason)
+        }
+    }
+}
+
+/**
+ * 代表一个正在运行的、可交互的Shell进程。
+ */
+interface ShellProcess {
+    /** 从标准输出流读取的文本行 Flow。 */
+    val stdout: kotlinx.coroutines.flow.Flow<String>
+
+    /** 从标准错误流读取的文本行 Flow。 */
+    val stderr: kotlinx.coroutines.flow.Flow<String>
+
+    /**
+     * 强行终止进程。
+     */
+    fun destroy()
+
+    /**
+     * 挂起直到进程执行完毕，并返回其退出码。
+     */
+    suspend fun waitFor(): Int
+
+    /**
+     * 检查进程是否仍在运行。
+     * @return 如果进程是活跃的，则返回true。
+     */
+    val isAlive: Boolean
+}

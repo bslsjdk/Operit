@@ -1,1 +1,182 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQml0bWFwCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLkJpdG1hcEZhY3RvcnkKaW1wb3J0IGFuZHJvaWQudXRpbC5CYXNlNjQKaW1wb3J0IGphdmEuaW8uQnl0ZUFycmF5T3V0cHV0U3RyZWFtCgpvYmplY3QgSW1hZ2VCaXRtYXBMaW1pdGVyIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFVJX01BWF9QSVhFTFMgPSAxMl8wMDBfMDAwTAogICAgcHJpdmF0ZSBjb25zdCB2YWwgVUlfTUFYX0RJTUVOU0lPTiA9IDQwOTYKCiAgICBwcml2YXRlIGNvbnN0IHZhbCBBSV9NQVhfUElYRUxTID0gMTJfMDAwXzAwMEwKICAgIHByaXZhdGUgY29uc3QgdmFsIEFJX01BWF9ESU1FTlNJT04gPSA0MDk2CgogICAgZGF0YSBjbGFzcyBMaW1pdGVkSW1hZ2UoCiAgICAgICAgdmFsIGJhc2U2NDogU3RyaW5nLAogICAgICAgIHZhbCBtaW1lVHlwZTogU3RyaW5nCiAgICApCgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIEltYWdlQm91bmRzKAogICAgICAgIHZhbCB3aWR0aDogSW50LAogICAgICAgIHZhbCBoZWlnaHQ6IEludAogICAgKQoKICAgIGZ1biBkZWNvZGVEb3duc2FtcGxlZEJpdG1hcCgKICAgICAgICBieXRlczogQnl0ZUFycmF5LAogICAgICAgIG1heFBpeGVsczogTG9uZyA9IFVJX01BWF9QSVhFTFMsCiAgICAgICAgbWF4RGltZW5zaW9uOiBJbnQgPSBVSV9NQVhfRElNRU5TSU9OCiAgICApOiBCaXRtYXA/IHsKICAgICAgICB2YWwgYm91bmRzT3B0aW9ucyA9IEJpdG1hcEZhY3RvcnkuT3B0aW9ucygpLmFwcGx5IHsKICAgICAgICAgICAgaW5KdXN0RGVjb2RlQm91bmRzID0gdHJ1ZQogICAgICAgIH0KCiAgICAgICAgQml0bWFwRmFjdG9yeS5kZWNvZGVCeXRlQXJyYXkoYnl0ZXMsIDAsIGJ5dGVzLnNpemUsIGJvdW5kc09wdGlvbnMpCgogICAgICAgIHZhbCBzcmNXaWR0aCA9IGJvdW5kc09wdGlvbnMub3V0V2lkdGgKICAgICAgICB2YWwgc3JjSGVpZ2h0ID0gYm91bmRzT3B0aW9ucy5vdXRIZWlnaHQKICAgICAgICBpZiAoc3JjV2lkdGggPD0gMCB8fCBzcmNIZWlnaHQgPD0gMCkgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KCiAgICAgICAgdmFsIHNhbXBsZVNpemUgPSBjYWxjdWxhdGVTYW1wbGVTaXplKAogICAgICAgICAgICBzcmNXaWR0aCA9IHNyY1dpZHRoLAogICAgICAgICAgICBzcmNIZWlnaHQgPSBzcmNIZWlnaHQsCiAgICAgICAgICAgIG1heFBpeGVscyA9IG1heFBpeGVscywKICAgICAgICAgICAgbWF4RGltZW5zaW9uID0gbWF4RGltZW5zaW9uCiAgICAgICAgKQoKICAgICAgICB2YWwgZGVjb2RlT3B0aW9ucyA9IEJpdG1hcEZhY3RvcnkuT3B0aW9ucygpLmFwcGx5IHsKICAgICAgICAgICAgaW5KdXN0RGVjb2RlQm91bmRzID0gZmFsc2UKICAgICAgICAgICAgaW5TYW1wbGVTaXplID0gc2FtcGxlU2l6ZQogICAgICAgICAgICBpblByZWZlcnJlZENvbmZpZyA9IEJpdG1hcC5Db25maWcuQVJHQl84ODg4CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgQml0bWFwRmFjdG9yeS5kZWNvZGVCeXRlQXJyYXkoYnl0ZXMsIDAsIGJ5dGVzLnNpemUsIGRlY29kZU9wdGlvbnMpCiAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgZnVuIGxpbWl0QmFzZTY0Rm9yQWkoYmFzZTY0OiBTdHJpbmcsIG1pbWVUeXBlOiBTdHJpbmcpOiBMaW1pdGVkSW1hZ2U/IHsKICAgICAgICB2YWwgYnl0ZXMgPSB0cnkgewogICAgICAgICAgICBCYXNlNjQuZGVjb2RlKGJhc2U2NCwgQmFzZTY0LkRFRkFVTFQpCiAgICAgICAgfSBjYXRjaCAoXzogVGhyb3dhYmxlKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgYm91bmRzID0gZGVjb2RlSW1hZ2VCb3VuZHMoYnl0ZXMpID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIG5lZWRzRG93bnNhbXBsZSA9CiAgICAgICAgICAgIGJvdW5kcy53aWR0aCA+IEFJX01BWF9ESU1FTlNJT04gfHwKICAgICAgICAgICAgICAgIGJvdW5kcy5oZWlnaHQgPiBBSV9NQVhfRElNRU5TSU9OIHx8CiAgICAgICAgICAgICAgICBib3VuZHMud2lkdGgudG9Mb25nKCkgKiBib3VuZHMuaGVpZ2h0LnRvTG9uZygpID4gQUlfTUFYX1BJWEVMUwoKICAgICAgICBpZiAoIW5lZWRzRG93bnNhbXBsZSkgewogICAgICAgICAgICByZXR1cm4gTGltaXRlZEltYWdlKAogICAgICAgICAgICAgICAgYmFzZTY0ID0gYmFzZTY0LAogICAgICAgICAgICAgICAgbWltZVR5cGUgPSBtaW1lVHlwZQogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgc2FtcGxlU2l6ZUZvckxvZyA9IGNhbGN1bGF0ZVNhbXBsZVNpemUoCiAgICAgICAgICAgIHNyY1dpZHRoID0gYm91bmRzLndpZHRoLAogICAgICAgICAgICBzcmNIZWlnaHQgPSBib3VuZHMuaGVpZ2h0LAogICAgICAgICAgICBtYXhQaXhlbHMgPSBBSV9NQVhfUElYRUxTLAogICAgICAgICAgICBtYXhEaW1lbnNpb24gPSBBSV9NQVhfRElNRU5TSU9OCiAgICAgICAgKQogICAgICAgIEFwcExvZ2dlci5pKAogICAgICAgICAgICAiSW1hZ2VCaXRtYXBMaW1pdGVyIiwKICAgICAgICAgICAgIkFJIGltYWdlIHJlc2l6ZSB0cmlnZ2VyZWQ6IG1pbWVUeXBlPSRtaW1lVHlwZSwgc3JjPSR7Ym91bmRzLndpZHRofXgke2JvdW5kcy5oZWlnaHR9LCBzYW1wbGVTaXplPSRzYW1wbGVTaXplRm9yTG9nIgogICAgICAgICkKCiAgICAgICAgdmFsIGJpdG1hcCA9IGRlY29kZURvd25zYW1wbGVkQml0bWFwKAogICAgICAgICAgICBieXRlcyA9IGJ5dGVzLAogICAgICAgICAgICBtYXhQaXhlbHMgPSBBSV9NQVhfUElYRUxTLAogICAgICAgICAgICBtYXhEaW1lbnNpb24gPSBBSV9NQVhfRElNRU5TSU9OCiAgICAgICAgKSA/OiByZXR1cm4gbnVsbAoKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgZm9ybWF0ID0gY29tcHJlc3NGb3JtYXRGb3JNaW1lVHlwZShtaW1lVHlwZSkgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgdmFsIHF1YWxpdHkgPSB3aGVuIChmb3JtYXQpIHsKICAgICAgICAgICAgICAgIEJpdG1hcC5Db21wcmVzc0Zvcm1hdC5QTkcgLT4gMTAwCiAgICAgICAgICAgICAgICBlbHNlIC0+IDk1CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBvdXRCeXRlcyA9IGVuY29kZUJpdG1hcChiaXRtYXAsIGZvcm1hdCwgcXVhbGl0eSkKCiAgICAgICAgICAgIEFwcExvZ2dlci5pKAogICAgICAgICAgICAgICAgIkltYWdlQml0bWFwTGltaXRlciIsCiAgICAgICAgICAgICAgICAiQUkgaW1hZ2UgcmUtZW5jb2RlZDogbWltZVR5cGU9JG1pbWVUeXBlLCBmb3JtYXQ9JGZvcm1hdCwgb3V0Qnl0ZXM9JHtvdXRCeXRlcy5zaXplfSwgYml0bWFwPSR7Yml0bWFwLndpZHRofXgke2JpdG1hcC5oZWlnaHR9IgogICAgICAgICAgICApCgogICAgICAgICAgICByZXR1cm4gTGltaXRlZEltYWdlKAogICAgICAgICAgICAgICAgYmFzZTY0ID0gQmFzZTY0LmVuY29kZVRvU3RyaW5nKG91dEJ5dGVzLCBCYXNlNjQuTk9fV1JBUCksCiAgICAgICAgICAgICAgICBtaW1lVHlwZSA9IG1pbWVUeXBlCiAgICAgICAgICAgICkKICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgYml0bWFwLnJlY3ljbGUoKQogICAgICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBlbmNvZGVCaXRtYXAoYml0bWFwOiBCaXRtYXAsIGZvcm1hdDogQml0bWFwLkNvbXByZXNzRm9ybWF0LCBxdWFsaXR5OiBJbnQpOiBCeXRlQXJyYXkgewogICAgICAgIHZhbCBzdHJlYW0gPSBCeXRlQXJyYXlPdXRwdXRTdHJlYW0oKQogICAgICAgIHN0cmVhbS51c2UgeyBvdXQgLT4KICAgICAgICAgICAgYml0bWFwLmNvbXByZXNzKGZvcm1hdCwgcXVhbGl0eSwgb3V0KQogICAgICAgICAgICByZXR1cm4gb3V0LnRvQnl0ZUFycmF5KCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY29tcHJlc3NGb3JtYXRGb3JNaW1lVHlwZShtaW1lVHlwZTogU3RyaW5nKTogQml0bWFwLkNvbXByZXNzRm9ybWF0PyB7CiAgICAgICAgdmFsIG10ID0gbWltZVR5cGUudHJpbSgpLmxvd2VyY2FzZSgpLnN1YnN0cmluZ0JlZm9yZSgnOycpCiAgICAgICAgcmV0dXJuIHdoZW4gewogICAgICAgICAgICBtdCA9PSAiaW1hZ2UvcG5nIiAtPiBCaXRtYXAuQ29tcHJlc3NGb3JtYXQuUE5HCiAgICAgICAgICAgIG10ID09ICJpbWFnZS93ZWJwIiAtPiBCaXRtYXAuQ29tcHJlc3NGb3JtYXQuV0VCUAogICAgICAgICAgICBtdCA9PSAiaW1hZ2UvanBlZyIgfHwgbXQgPT0gImltYWdlL2pwZyIgLT4gQml0bWFwLkNvbXByZXNzRm9ybWF0LkpQRUcKICAgICAgICAgICAgZWxzZSAtPiBudWxsCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGRlY29kZUltYWdlQm91bmRzKGJ5dGVzOiBCeXRlQXJyYXkpOiBJbWFnZUJvdW5kcz8gewogICAgICAgIHZhbCBvcHRpb25zID0gQml0bWFwRmFjdG9yeS5PcHRpb25zKCkuYXBwbHkgewogICAgICAgICAgICBpbkp1c3REZWNvZGVCb3VuZHMgPSB0cnVlCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBCaXRtYXBGYWN0b3J5LmRlY29kZUJ5dGVBcnJheShieXRlcywgMCwgYnl0ZXMuc2l6ZSwgb3B0aW9ucykKICAgICAgICAgICAgdmFsIHcgPSBvcHRpb25zLm91dFdpZHRoCiAgICAgICAgICAgIHZhbCBoID0gb3B0aW9ucy5vdXRIZWlnaHQKICAgICAgICAgICAgaWYgKHcgPD0gMCB8fCBoIDw9IDApIG51bGwgZWxzZSBJbWFnZUJvdW5kcyh3LCBoKQogICAgICAgIH0gY2F0Y2ggKF86IFRocm93YWJsZSkgewogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNhbGN1bGF0ZVNhbXBsZVNpemUoCiAgICAgICAgc3JjV2lkdGg6IEludCwKICAgICAgICBzcmNIZWlnaHQ6IEludCwKICAgICAgICBtYXhQaXhlbHM6IExvbmcsCiAgICAgICAgbWF4RGltZW5zaW9uOiBJbnQKICAgICk6IEludCB7CiAgICAgICAgdmFyIHNhbXBsZVNpemUgPSAxCiAgICAgICAgd2hpbGUgKHNhbXBsZVNpemUgPCAxMjgpIHsKICAgICAgICAgICAgdmFsIHcgPSBzcmNXaWR0aCAvIHNhbXBsZVNpemUKICAgICAgICAgICAgdmFsIGggPSBzcmNIZWlnaHQgLyBzYW1wbGVTaXplCgogICAgICAgICAgICBpZiAodyA8PSAwIHx8IGggPD0gMCkgewogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKHcgPD0gbWF4RGltZW5zaW9uICYmIGggPD0gbWF4RGltZW5zaW9uICYmIHcudG9Mb25nKCkgKiBoLnRvTG9uZygpIDw9IG1heFBpeGVscykgewogICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgc2FtcGxlU2l6ZSAqPSAyCiAgICAgICAgfQogICAgICAgIHJldHVybiBzYW1wbGVTaXplCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.util.Base64
+import java.io.ByteArrayOutputStream
+
+object ImageBitmapLimiter {
+    private const val UI_MAX_PIXELS = 12_000_000L
+    private const val UI_MAX_DIMENSION = 4096
+
+    private const val AI_MAX_PIXELS = 12_000_000L
+    private const val AI_MAX_DIMENSION = 4096
+
+    data class LimitedImage(
+        val base64: String,
+        val mimeType: String
+    )
+
+    private data class ImageBounds(
+        val width: Int,
+        val height: Int
+    )
+
+    fun decodeDownsampledBitmap(
+        bytes: ByteArray,
+        maxPixels: Long = UI_MAX_PIXELS,
+        maxDimension: Int = UI_MAX_DIMENSION
+    ): Bitmap? {
+        val boundsOptions = BitmapFactory.Options().apply {
+            inJustDecodeBounds = true
+        }
+
+        BitmapFactory.decodeByteArray(bytes, 0, bytes.size, boundsOptions)
+
+        val srcWidth = boundsOptions.outWidth
+        val srcHeight = boundsOptions.outHeight
+        if (srcWidth <= 0 || srcHeight <= 0) {
+            return null
+        }
+
+        val sampleSize = calculateSampleSize(
+            srcWidth = srcWidth,
+            srcHeight = srcHeight,
+            maxPixels = maxPixels,
+            maxDimension = maxDimension
+        )
+
+        val decodeOptions = BitmapFactory.Options().apply {
+            inJustDecodeBounds = false
+            inSampleSize = sampleSize
+            inPreferredConfig = Bitmap.Config.ARGB_8888
+        }
+
+        return try {
+            BitmapFactory.decodeByteArray(bytes, 0, bytes.size, decodeOptions)
+        } catch (_: Throwable) {
+            null
+        }
+    }
+
+    fun limitBase64ForAi(base64: String, mimeType: String): LimitedImage? {
+        val bytes = try {
+            Base64.decode(base64, Base64.DEFAULT)
+        } catch (_: Throwable) {
+            return null
+        }
+
+        val bounds = decodeImageBounds(bytes) ?: return null
+        val needsDownsample =
+            bounds.width > AI_MAX_DIMENSION ||
+                bounds.height > AI_MAX_DIMENSION ||
+                bounds.width.toLong() * bounds.height.toLong() > AI_MAX_PIXELS
+
+        if (!needsDownsample) {
+            return LimitedImage(
+                base64 = base64,
+                mimeType = mimeType
+            )
+        }
+
+        val sampleSizeForLog = calculateSampleSize(
+            srcWidth = bounds.width,
+            srcHeight = bounds.height,
+            maxPixels = AI_MAX_PIXELS,
+            maxDimension = AI_MAX_DIMENSION
+        )
+        AppLogger.i(
+            "ImageBitmapLimiter",
+            "AI image resize triggered: mimeType=$mimeType, src=${bounds.width}x${bounds.height}, sampleSize=$sampleSizeForLog"
+        )
+
+        val bitmap = decodeDownsampledBitmap(
+            bytes = bytes,
+            maxPixels = AI_MAX_PIXELS,
+            maxDimension = AI_MAX_DIMENSION
+        ) ?: return null
+
+        try {
+            val format = compressFormatForMimeType(mimeType) ?: return null
+            val quality = when (format) {
+                Bitmap.CompressFormat.PNG -> 100
+                else -> 95
+            }
+
+            val outBytes = encodeBitmap(bitmap, format, quality)
+
+            AppLogger.i(
+                "ImageBitmapLimiter",
+                "AI image re-encoded: mimeType=$mimeType, format=$format, outBytes=${outBytes.size}, bitmap=${bitmap.width}x${bitmap.height}"
+            )
+
+            return LimitedImage(
+                base64 = Base64.encodeToString(outBytes, Base64.NO_WRAP),
+                mimeType = mimeType
+            )
+        } catch (_: Throwable) {
+            return null
+        } finally {
+            try {
+                bitmap.recycle()
+            } catch (_: Throwable) {
+            }
+        }
+    }
+
+    private fun encodeBitmap(bitmap: Bitmap, format: Bitmap.CompressFormat, quality: Int): ByteArray {
+        val stream = ByteArrayOutputStream()
+        stream.use { out ->
+            bitmap.compress(format, quality, out)
+            return out.toByteArray()
+        }
+    }
+
+    private fun compressFormatForMimeType(mimeType: String): Bitmap.CompressFormat? {
+        val mt = mimeType.trim().lowercase().substringBefore(';')
+        return when {
+            mt == "image/png" -> Bitmap.CompressFormat.PNG
+            mt == "image/webp" -> Bitmap.CompressFormat.WEBP
+            mt == "image/jpeg" || mt == "image/jpg" -> Bitmap.CompressFormat.JPEG
+            else -> null
+        }
+    }
+
+    private fun decodeImageBounds(bytes: ByteArray): ImageBounds? {
+        val options = BitmapFactory.Options().apply {
+            inJustDecodeBounds = true
+        }
+        return try {
+            BitmapFactory.decodeByteArray(bytes, 0, bytes.size, options)
+            val w = options.outWidth
+            val h = options.outHeight
+            if (w <= 0 || h <= 0) null else ImageBounds(w, h)
+        } catch (_: Throwable) {
+            null
+        }
+    }
+
+    private fun calculateSampleSize(
+        srcWidth: Int,
+        srcHeight: Int,
+        maxPixels: Long,
+        maxDimension: Int
+    ): Int {
+        var sampleSize = 1
+        while (sampleSize < 128) {
+            val w = srcWidth / sampleSize
+            val h = srcHeight / sampleSize
+
+            if (w <= 0 || h <= 0) {
+                break
+            }
+
+            if (w <= maxDimension && h <= maxDimension && w.toLong() * h.toLong() <= maxPixels) {
+                break
+            }
+
+            sampleSize *= 2
+        }
+        return sampleSize
+    }
+}

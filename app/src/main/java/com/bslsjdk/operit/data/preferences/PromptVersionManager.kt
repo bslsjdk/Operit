@@ -1,1 +1,93 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLioKCi8qKgogKiDpgJrnlKjniYjmnKznrqHnkIblmagKICog55So5LqO566h55CG5Z+65LqOIFByZWZlcmVuY2Ug55qE6buY6K6k6YWN572uL+eJiOacrOWNh+e6pwogKi8KY2xhc3MgUHJvbXB0VmVyc2lvbk1hbmFnZXI8VCA6IFByb21wdFZlcnNpb25NYW5hZ2VyLlZlcnNpb25TcGVjPiB7CgogICAgaW50ZXJmYWNlIFZlcnNpb25TcGVjIHsKICAgICAgICAvKioKICAgICAgICAgKiBQcmVmZXJlbmNlIEtleSDnmoTliY3nvIAv5qCH6K+GCiAgICAgICAgICovCiAgICAgICAgdmFsIGtleTogU3RyaW5nCgogICAgICAgIC8qKgogICAgICAgICAqIOeJiOacrOWPt+aYoOWwhO+8mueJiOacrOWPtyAtPiDlhoXlrrkKICAgICAgICAgKi8KICAgICAgICB2YWwgZGVmYXVsdHNCeVZlcnNpb246IE1hcDxJbnQsIFN0cmluZz4KICAgIH0KCiAgICBwcml2YXRlIHZhciBzcGVjczogTWFwPFN0cmluZywgVD4gPSBlbXB0eU1hcCgpCgogICAgZnVuIHNldFZlcnNpb25zKG5ld1NwZWNzOiBNYXA8U3RyaW5nLCBUPikgewogICAgICAgIHNwZWNzID0gbmV3U3BlY3MKICAgIH0KCiAgICAvKioKICAgICAqIOajgOafpeaYr+WQpumcgOimgeabtOaWsO+8iOS7u+aEj+S4gOmhuemcgOimgeabtOaWsOWNs+i/lOWbniB0cnVl77yJCiAgICAgKi8KICAgIGZ1biBpc05lZWRlZFVwZGF0ZShwcmVmZXJlbmNlczogUHJlZmVyZW5jZXMpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gc3BlY3MuYW55IHsgKF8sIHNwZWMpIC0+CiAgICAgICAgICAgIHNob3VsZFVwZGF0ZShwcmVmZXJlbmNlcywgc3BlYykKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDoh6rliqjmm7TmlrDmiYDmnInpnIDopoHmm7TmlrDnmoTpobkKICAgICAqIEBwYXJhbSBwcmVmZXJlbmNlcyDlj6/lj5jlgY/lpb3orr7nva4KICAgICAqIEBwYXJhbSB1cGRhdGVyIOabtOaWsOWbnuiwg++8jOeUqOS6juaJp+ihjOWFt+S9k+eahOS4muWKoeabtOaWsOmAu+i+ke+8iOWmguiuvue9ruWQjeensOOAgeaPj+i/sOetie+8iQogICAgICovCiAgICBmdW4gYXV0b1VwZGF0ZSgKICAgICAgICBwcmVmZXJlbmNlczogTXV0YWJsZVByZWZlcmVuY2VzLAogICAgICAgIHVwZGF0ZXI6IChNdXRhYmxlUHJlZmVyZW5jZXMsIFN0cmluZywgVCkgLT4gVW5pdAogICAgKSB7CiAgICAgICAgc3BlY3MuZm9yRWFjaCB7IChpZCwgc3BlYykgLT4KICAgICAgICAgICAgaWYgKHNob3VsZFVwZGF0ZShwcmVmZXJlbmNlcywgc3BlYykpIHsKICAgICAgICAgICAgICAgIC8vIOaJp+ihjOiwg+eUqOiAheWumuS5ieeahOabtOaWsOmAu+i+kQogICAgICAgICAgICAgICAgdXBkYXRlcihwcmVmZXJlbmNlcywgaWQsIHNwZWMpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIOaJp+ihjOmAmueUqOeahOeJiOacrOWSjOWGheWuueabtOaWsAogICAgICAgICAgICAgICAgYXBwbHlMYXRlc3QocHJlZmVyZW5jZXMsIHNwZWMpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2hvdWxkVXBkYXRlKHByZWZlcmVuY2VzOiBQcmVmZXJlbmNlcywgc3BlYzogVmVyc2lvblNwZWMpOiBCb29sZWFuIHsKICAgICAgICB2YWwgdmFsdWVLZXkgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgiJHtzcGVjLmtleX1fcHJvbXB0X2NvbnRlbnQiKQogICAgICAgIHZhbCBkZWZhdWx0VmVyc2lvbktleSA9IGludFByZWZlcmVuY2VzS2V5KCIke3NwZWMua2V5fV9kZWZhdWx0X3ZlcnNpb24iKQoKICAgICAgICB2YWwgY3VycmVudENvbnRlbnQgPSBwcmVmZXJlbmNlc1t2YWx1ZUtleV0gPzogIiIKICAgICAgICB2YWwgc3RvcmVkVmVyc2lvbiA9IHByZWZlcmVuY2VzW2RlZmF1bHRWZXJzaW9uS2V5XQogICAgICAgIAogICAgICAgIHZhbCBsYXRlc3RWZXJzaW9uID0gc3BlYy5kZWZhdWx0c0J5VmVyc2lvbi5rZXlzLm1heE9yTnVsbCgpID86IHJldHVybiBmYWxzZQogICAgICAgIHZhbCBsYXRlc3RDb250ZW50ID0gc3BlYy5kZWZhdWx0c0J5VmVyc2lvbltsYXRlc3RWZXJzaW9uXSA/OiByZXR1cm4gZmFsc2UKICAgICAgICAKICAgICAgICB2YWwga25vd25EZWZhdWx0cyA9IHNwZWMuZGVmYXVsdHNCeVZlcnNpb24udmFsdWVzCiAgICAgICAgLy8g5aaC5p6c5YaF5a655piv56m655m977yM5oiW6ICF5YaF5a655Yy56YWN5bey55+l55qE5pen54mI5pys6buY6K6k5YC877yM5YiZ5YWB6K645pu05pawCiAgICAgICAgdmFsIGlzVXNpbmdLbm93bkRlZmF1bHQgPSBjdXJyZW50Q29udGVudC5pc0JsYW5rKCkgfHwga25vd25EZWZhdWx0cy5jb250YWlucyhjdXJyZW50Q29udGVudCkKICAgICAgICAKICAgICAgICAvLyDpnIDmm7TmlrDmnaHku7bvvJrlvZPliY3mraPlnKjkvb/nlKjpu5jorqTlgLwg5LiUICjlhoXlrrnkuI3lkIwg5oiWIOeJiOacrOiQveWQjikKICAgICAgICByZXR1cm4gaXNVc2luZ0tub3duRGVmYXVsdCAmJiAoY3VycmVudENvbnRlbnQgIT0gbGF0ZXN0Q29udGVudCB8fCBzdG9yZWRWZXJzaW9uICE9IGxhdGVzdFZlcnNpb24pCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwbHlMYXRlc3QocHJlZmVyZW5jZXM6IE11dGFibGVQcmVmZXJlbmNlcywgc3BlYzogVmVyc2lvblNwZWMpIHsKICAgICAgICB2YWwgdmFsdWVLZXkgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgiJHtzcGVjLmtleX1fcHJvbXB0X2NvbnRlbnQiKQogICAgICAgIHZhbCBkZWZhdWx0VmVyc2lvbktleSA9IGludFByZWZlcmVuY2VzS2V5KCIke3NwZWMua2V5fV9kZWZhdWx0X3ZlcnNpb24iKQogICAgICAgIAogICAgICAgIHZhbCBsYXRlc3RWZXJzaW9uID0gc3BlYy5kZWZhdWx0c0J5VmVyc2lvbi5rZXlzLm1heE9yTnVsbCgpID86IHJldHVybgogICAgICAgIHZhbCBsYXRlc3RDb250ZW50ID0gc3BlYy5kZWZhdWx0c0J5VmVyc2lvbltsYXRlc3RWZXJzaW9uXSA/OiByZXR1cm4KICAgICAgICAKICAgICAgICBwcmVmZXJlbmNlc1t2YWx1ZUtleV0gPSBsYXRlc3RDb250ZW50CiAgICAgICAgcHJlZmVyZW5jZXNbZGVmYXVsdFZlcnNpb25LZXldID0gbGF0ZXN0VmVyc2lvbgogICAgfQogICAgCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBmdW4gZGVmYXVsdHModmFyYXJnIHZhbHVlczogU3RyaW5nKTogTWFwPEludCwgU3RyaW5nPiB7CiAgICAgICAgICAgIGlmICh2YWx1ZXMuaXNFbXB0eSgpKSB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oImRlZmF1bHRzIHZhbHVlcyBpcyBlbXB0eSIpCiAgICAgICAgICAgIHJldHVybiB2YWx1ZXMubWFwSW5kZXhlZCB7IGluZGV4LCB2YWx1ZSAtPiAoaW5kZXggKyAxKSB0byB2YWx1ZSB9LnRvTWFwKCkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.data.preferences
+
+import androidx.datastore.preferences.core.*
+
+/**
+ * 通用版本管理器
+ * 用于管理基于 Preference 的默认配置/版本升级
+ */
+class PromptVersionManager<T : PromptVersionManager.VersionSpec> {
+
+    interface VersionSpec {
+        /**
+         * Preference Key 的前缀/标识
+         */
+        val key: String
+
+        /**
+         * 版本号映射：版本号 -> 内容
+         */
+        val defaultsByVersion: Map<Int, String>
+    }
+
+    private var specs: Map<String, T> = emptyMap()
+
+    fun setVersions(newSpecs: Map<String, T>) {
+        specs = newSpecs
+    }
+
+    /**
+     * 检查是否需要更新（任意一项需要更新即返回 true）
+     */
+    fun isNeededUpdate(preferences: Preferences): Boolean {
+        return specs.any { (_, spec) ->
+            shouldUpdate(preferences, spec)
+        }
+    }
+
+    /**
+     * 自动更新所有需要更新的项
+     * @param preferences 可变偏好设置
+     * @param updater 更新回调，用于执行具体的业务更新逻辑（如设置名称、描述等）
+     */
+    fun autoUpdate(
+        preferences: MutablePreferences,
+        updater: (MutablePreferences, String, T) -> Unit
+    ) {
+        specs.forEach { (id, spec) ->
+            if (shouldUpdate(preferences, spec)) {
+                // 执行调用者定义的更新逻辑
+                updater(preferences, id, spec)
+                
+                // 执行通用的版本和内容更新
+                applyLatest(preferences, spec)
+            }
+        }
+    }
+
+    private fun shouldUpdate(preferences: Preferences, spec: VersionSpec): Boolean {
+        val valueKey = stringPreferencesKey("${spec.key}_prompt_content")
+        val defaultVersionKey = intPreferencesKey("${spec.key}_default_version")
+
+        val currentContent = preferences[valueKey] ?: ""
+        val storedVersion = preferences[defaultVersionKey]
+        
+        val latestVersion = spec.defaultsByVersion.keys.maxOrNull() ?: return false
+        val latestContent = spec.defaultsByVersion[latestVersion] ?: return false
+        
+        val knownDefaults = spec.defaultsByVersion.values
+        // 如果内容是空白，或者内容匹配已知的旧版本默认值，则允许更新
+        val isUsingKnownDefault = currentContent.isBlank() || knownDefaults.contains(currentContent)
+        
+        // 需更新条件：当前正在使用默认值 且 (内容不同 或 版本落后)
+        return isUsingKnownDefault && (currentContent != latestContent || storedVersion != latestVersion)
+    }
+
+    private fun applyLatest(preferences: MutablePreferences, spec: VersionSpec) {
+        val valueKey = stringPreferencesKey("${spec.key}_prompt_content")
+        val defaultVersionKey = intPreferencesKey("${spec.key}_default_version")
+        
+        val latestVersion = spec.defaultsByVersion.keys.maxOrNull() ?: return
+        val latestContent = spec.defaultsByVersion[latestVersion] ?: return
+        
+        preferences[valueKey] = latestContent
+        preferences[defaultVersionKey] = latestVersion
+    }
+    
+    companion object {
+        fun defaults(vararg values: String): Map<Int, String> {
+            if (values.isEmpty()) throw IllegalArgumentException("defaults values is empty")
+            return values.mapIndexed { index, value -> (index + 1) to value }.toMap()
+        }
+    }
+}

@@ -1,1 +1,217 @@
-LyoKICogQ29weXJpZ2h0IDIwMjQgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24uSW50TGlzdAppbXBvcnQgYW5kcm9pZHguY29sbGVjdGlvbi5lbXB0eUludExpc3QKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24uaW50TGlzdE9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnV0aWwuZmFzdEZpbHRlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51dGlsLmZhc3RGaXJzdE9yTnVsbAoKLyoqIERlZmluZXMgaG93IHN0aWNreSBpdGVtcyBzaG91bGQgYmUgcGxhY2VkIGluIGEgTGF6eSBMYXlvdXQgKi8KaW50ZXJuYWwgaW50ZXJmYWNlIFN0aWNreUl0ZW1zUGxhY2VtZW50IHsKCiAgICAvKioKICAgICAqIERldGVybWluZXMgd2hpY2ggaW5kaWNlcyBpbiBbc3RpY2t5SXRlbXNdIHNob3VsZCBiZSBzdGlja2luZywgdGhhdCBpcywgaGF2ZSB0aGVpciBwbGFjZW1lbnQKICAgICAqIGFsdGVyZWQuCiAgICAgKgogICAgICogQHBhcmFtIGZpcnN0VmlzaWJsZUl0ZW1JbmRleCBUaGUgZmlyc3QgdmlzaWJsZSBpdGVtIGluIHRoZSBsYXlvdXQKICAgICAqIEBwYXJhbSBsYXN0VmlzaWJsZUl0ZW1JbmRleCBUaGUgbGFzdCB2aXNpYmxlIGl0ZW0gaW4gdGhlIGxheW91dAogICAgICogQHBhcmFtIHN0aWNreUl0ZW1zIFRoZSBpbmRpY2VzIG9mIGNhbmRpZGF0ZSBpdGVtcyBmb3Igc3RpY2tpbmcKICAgICAqIEByZXR1cm4gQSBsaXN0IG9mIGl0ZW1zIHRoYXQgc2hvdWxkIGJlIHN0aWNraW5nLgogICAgICovCiAgICBmdW4gZ2V0U3RpY2tpbmdJbmRpY2VzKAogICAgICAgIGZpcnN0VmlzaWJsZUl0ZW1JbmRleDogSW50LAogICAgICAgIGxhc3RWaXNpYmxlSXRlbUluZGV4OiBJbnQsCiAgICAgICAgc3RpY2t5SXRlbXM6IEludExpc3QsCiAgICApOiBJbnRMaXN0CgogICAgLyoqCiAgICAgKiBUaGlzIG1ldGhvZCBpcyBleGVjdXRlZCBmb3IgZWFjaCBpdGVtIHJldHVybmVkIGZyb20gW2dldFN0aWNraW5nSW5kaWNlc10gdG8gZGV0ZXJtaW5lIHRoZWlyCiAgICAgKiBmaW5hbCBwbGFjZW1lbnQuCiAgICAgKgogICAgICogQHBhcmFtIHZpc2libGVTdGlja3lJdGVtcyBUaGUgY3VycmVudGx5IHZpc2libGUgc3RpY2t5IGl0ZW1zLgogICAgICogQHBhcmFtIGl0ZW1JbmRleCBUaGUgY3VycmVudCBzdGlja2luZyBpdGVtIGluZGV4LgogICAgICogQHBhcmFtIGl0ZW1TaXplIFRoZSBjdXJyZW50IHN0aWNraW5nIGl0ZW0gbWFpbiBheGlzIHNpemUuCiAgICAgKiBAcGFyYW0gaXRlbU9mZnNldCBUaGUgaW5pdGlhbCBvZmZzZXQgZm9yIHRoaXMgc3RpY2tpbmcgaXRlbS4gSWYgdGhpcyBpdGVtIGRvZXNuJ3QgaGF2ZSBhbgogICAgICogICBvZmZzZXQsIHRoYXQgaXMsIGl0IGhhcyBiZWVuIGp1c3QgY29tcG9zZWQsIHRoaXMgd2lsbCBiZSBJbnQuTUlOX1ZBTFVFLgogICAgICogQHBhcmFtIGJlZm9yZUNvbnRlbnRQYWRkaW5nIFBhZGRpbmcgYXBwbGllZCB0byB0aGUgc3RhcnQgb2YgdGhlIGxheW91dAogICAgICogQHBhcmFtIGFmdGVyQ29udGVudFBhZGRpbmcgUGFkZGluZyBhcHBsaWVkIHRvIHRoZSBlbmQgb2YgdGhlIGxheW91dAogICAgICogQHBhcmFtIGxheW91dFdpZHRoIFRoZSBjb250YWluaW5nIGxheW91dCdzIHdpZHRoCiAgICAgKiBAcGFyYW0gbGF5b3V0SGVpZ2h0IFRoZSBjb250YWluaW5nIGxheW91dCdzIGhlaWdodAogICAgICovCiAgICBmdW4gY2FsY3VsYXRlU3RpY2tpbmdJdGVtT2Zmc2V0KAogICAgICAgIHZpc2libGVTdGlja3lJdGVtczogTGlzdDxMYXp5TGF5b3V0TWVhc3VyZWRJdGVtPiwKICAgICAgICBpdGVtSW5kZXg6IEludCwKICAgICAgICBpdGVtU2l6ZTogSW50LAogICAgICAgIGl0ZW1PZmZzZXQ6IEludCwKICAgICAgICBiZWZvcmVDb250ZW50UGFkZGluZzogSW50LAogICAgICAgIGFmdGVyQ29udGVudFBhZGRpbmc6IEludCwKICAgICAgICBsYXlvdXRXaWR0aDogSW50LAogICAgICAgIGxheW91dEhlaWdodDogSW50LAogICAgKTogSW50CgogICAgY29tcGFuaW9uIG9iamVjdCB7CgogICAgICAgIC8qKgogICAgICAgICAqIEEgW1N0aWNreUl0ZW1zUGxhY2VtZW50XSB0aGF0IHN0aWNrcyBhIHNpbmdsZSBpdGVtIHRvIHRoZSB0b3AgYW5kIHB1c2hlcyBzdGlja3kgaXRlbSB3aGVuCiAgICAgICAgICogYW5vdGhlciBhcHByb2FjaGVzIHRoZSB0b3Agb2YgdGhlIGxheW91dC4KICAgICAgICAgKi8KICAgICAgICB2YWwgU3RpY2tUb1RvcFBsYWNlbWVudCA9CiAgICAgICAgICAgIG9iamVjdCA6IFN0aWNreUl0ZW1zUGxhY2VtZW50IHsKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBjYWxjdWxhdGVTdGlja2luZ0l0ZW1PZmZzZXQoCiAgICAgICAgICAgICAgICAgICAgdmlzaWJsZVN0aWNreUl0ZW1zOiBMaXN0PExhenlMYXlvdXRNZWFzdXJlZEl0ZW0+LAogICAgICAgICAgICAgICAgICAgIGl0ZW1JbmRleDogSW50LAogICAgICAgICAgICAgICAgICAgIGl0ZW1TaXplOiBJbnQsCiAgICAgICAgICAgICAgICAgICAgaXRlbU9mZnNldDogSW50LAogICAgICAgICAgICAgICAgICAgIGJlZm9yZUNvbnRlbnRQYWRkaW5nOiBJbnQsCiAgICAgICAgICAgICAgICAgICAgYWZ0ZXJDb250ZW50UGFkZGluZzogSW50LAogICAgICAgICAgICAgICAgICAgIGxheW91dFdpZHRoOiBJbnQsCiAgICAgICAgICAgICAgICAgICAgbGF5b3V0SGVpZ2h0OiBJbnQsCiAgICAgICAgICAgICAgICApOiBJbnQgewoKICAgICAgICAgICAgICAgICAgICAvLyB0aGUgbmV4dCBpdGVtIG9mZnNldAogICAgICAgICAgICAgICAgICAgIHZhbCBuZXh0U3RpY2t5SXRlbU9mZnNldCA9CiAgICAgICAgICAgICAgICAgICAgICAgIHZpc2libGVTdGlja3lJdGVtcy5mYXN0Rmlyc3RPck51bGwgeyBpdC5pbmRleCAhPSBpdGVtSW5kZXggfT8ubWFpbkF4aXNPZmZzZXQKICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IEludC5NSU5fVkFMVUUKCiAgICAgICAgICAgICAgICAgICAgZGVidWdMb2cgeyAiTmV4dCBJdGVtIE9mZnNldD0kbmV4dFN0aWNreUl0ZW1PZmZzZXQiIH0KCiAgICAgICAgICAgICAgICAgICAgdmFyIHVwZGF0ZWRJdGVtT2Zmc2V0ID0KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGl0ZW1PZmZzZXQgPT0gSW50Lk1JTl9WQUxVRSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLWJlZm9yZUNvbnRlbnRQYWRkaW5nCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhPZigtYmVmb3JlQ29udGVudFBhZGRpbmcsIGl0ZW1PZmZzZXQpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgLy8gSWYgdGhlcmUncyBhIG5leHQgaXRlbSBvdmVybGFwcGluZyB3aXRoIHRoZSBjdXJyZW50IGl0ZW0sIHRoZSBvZmZzZXQKICAgICAgICAgICAgICAgICAgICAvLyBzaG91bGQgcmVwcmVzZW50IHRoYXQuCiAgICAgICAgICAgICAgICAgICAgaWYgKG5leHRTdGlja3lJdGVtT2Zmc2V0ICE9IEludC5NSU5fVkFMVUUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlZEl0ZW1PZmZzZXQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluT2YodXBkYXRlZEl0ZW1PZmZzZXQsIG5leHRTdGlja3lJdGVtT2Zmc2V0IC0gaXRlbVNpemUpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBkZWJ1Z0xvZyB7CiAgICAgICAgICAgICAgICAgICAgICAgICJJdGVtPSRpdGVtSW5kZXggSW5pdGlhbF9PZmZzZXQ9JGl0ZW1PZmZzZXQgIiArCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiRmluYWxfT2Zmc2V0PSR1cGRhdGVkSXRlbU9mZnNldCIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHVwZGF0ZWRJdGVtT2Zmc2V0CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGdldFN0aWNraW5nSW5kaWNlcygKICAgICAgICAgICAgICAgICAgICBmaXJzdFZpc2libGVJdGVtSW5kZXg6IEludCwKICAgICAgICAgICAgICAgICAgICBsYXN0VmlzaWJsZUl0ZW1JbmRleDogSW50LAogICAgICAgICAgICAgICAgICAgIHN0aWNreUl0ZW1zOiBJbnRMaXN0LAogICAgICAgICAgICAgICAgKTogSW50TGlzdCB7CiAgICAgICAgICAgICAgICAgICAgLy8gbm8gaXRlbXMgcHJlc2VudAogICAgICAgICAgICAgICAgICAgIGlmICgobGFzdFZpc2libGVJdGVtSW5kZXggLSBmaXJzdFZpc2libGVJdGVtSW5kZXgpIDwgMCB8fCBzdGlja3lJdGVtcy5pc0VtcHR5KCkpCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBlbXB0eUludExpc3QoKQoKICAgICAgICAgICAgICAgICAgICAvLyBGaXJzdCBub24gc3RpY2tpbmcgdmlzaWJsZSBpdGVtCiAgICAgICAgICAgICAgICAgICAgdmFsIGZpcnN0VmlzaWJsZSA9IGZpcnN0VmlzaWJsZUl0ZW1JbmRleAoKICAgICAgICAgICAgICAgICAgICBkZWJ1Z0xvZyB7ICJGaXJzdCBWaXNpYmxlIEl0ZW0gSW5kZXg9JHtmaXJzdFZpc2libGV9IiB9CgogICAgICAgICAgICAgICAgICAgIHZhciBjdXJyZW50SGVhZGVySW5kZXggPSAtMQoKICAgICAgICAgICAgICAgICAgICAvLyBUaGUgc3RpY2tpbmcgaGVhZGVyIHdpbGwgYmUgdGhlIGZpcnN0IG9uZSBhZnRlciB0aGUgZmlyc3QgdmlzaWJsZSBpdGVtCiAgICAgICAgICAgICAgICAgICAgLy8gb3IgdGhlIGZpcnN0IHZpc2libGUgaXRlbSBpdHNlbGYuCiAgICAgICAgICAgICAgICAgICAgZm9yIChpbmRleCBpbiBzdGlja3lJdGVtcy5pbmRpY2VzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzdGlja3lJdGVtc1tpbmRleF0gPD0gZmlyc3RWaXNpYmxlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50SGVhZGVySW5kZXggPSBzdGlja3lJdGVtc1tpbmRleF0KICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHJldHVybiBpZiAoY3VycmVudEhlYWRlckluZGV4ID09IC0xKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIHdlIGhhdmUgbm8gaGVhZGVycyBuZWVkaW5nIHNwZWNpYWwgaGFuZGxpbmcKICAgICAgICAgICAgICAgICAgICAgICAgZW1wdHlJbnRMaXN0KCkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBpbnRMaXN0T2YoY3VycmVudEhlYWRlckluZGV4KQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgfQp9Cgpwcml2YXRlIGNvbnN0IHZhbCBEZWJ1ZyA9IGZhbHNlCgpwcml2YXRlIGlubGluZSBmdW4gZGVidWdMb2coZ2VuZXJhdGVNc2c6ICgpIC0+IFN0cmluZykgewogICAgaWYgKERlYnVnKSB7CiAgICAgICAgcHJpbnRsbigiU3RpY2tUb1RvcEJlaGF2aW9yOiAke2dlbmVyYXRlTXNnKCl9IikKICAgIH0KfQoKcHJpdmF0ZSB2YWwgTGF6eUxheW91dE1lYXN1cmVkSXRlbS5tYWluQXhpc09mZnNldAogICAgZ2V0KCkgPSBnZXRPZmZzZXQoMCkubGV0IHsgaWYgKGlzVmVydGljYWwpIGl0LnkgZWxzZSBpdC54IH0KCi8qKgogKiBUaGlzIGdsdWUgbG9naWMgaXMgbm90IG1lYW50IHRvIGJlY29tZSBwdWJsaWMuIEluIGhlcmUgd2Ugd2lsbCB1c2UgW1N0aWNreUl0ZW1zUGxhY2VtZW50XSB0bwogKiBkZXRlcm1pbmUgd2hpY2ggaXRlbXMgYXJlIHN0aWNraW5nLCBjb21wb3NlICh3aGVuIG5lZWRlZCkgYW5kIHBvc2l0aW9uIHRoZW0uIFRoZSByZXN1bHQgaXMgYSBsaXN0CiAqIG9mIFtMYXp5TGF5b3V0TWVhc3VyZWRJdGVtXSB3aXRoIHRoZSBzdGlja2luZyBpdGVtcyBhbmQgW3Bvc2l0aW9uZWRJdGVtc10gd2l0aCB0aGUgdXBkYXRlZCBsaXN0CiAqIG9mIGV4aXN0aW5nIGl0ZW1zLgogKi8KaW50ZXJuYWwgZnVuIDxUIDogTGF6eUxheW91dE1lYXN1cmVkSXRlbT4gU3RpY2t5SXRlbXNQbGFjZW1lbnQ/LmFwcGx5U3RpY2t5SXRlbXMoCiAgICBmaXJzdFZpc2libGVJdGVtSW5kZXg6IEludCwKICAgIGxhc3RWaXNpYmxlSXRlbUluZGV4OiBJbnQsCiAgICBwb3NpdGlvbmVkSXRlbXM6IE11dGFibGVMaXN0PFQ+LAogICAgc3RpY2t5SXRlbXM6IEludExpc3QsCiAgICBiZWZvcmVDb250ZW50UGFkZGluZzogSW50LAogICAgYWZ0ZXJDb250ZW50UGFkZGluZzogSW50LAogICAgbGF5b3V0V2lkdGg6IEludCwKICAgIGxheW91dEhlaWdodDogSW50LAogICAgZ2V0QW5kTWVhc3VyZTogKEludCkgLT4gVCwKKTogTGlzdDxUPiB7CiAgICByZXR1cm4gaWYgKHRoaXMgIT0gbnVsbCAmJiBwb3NpdGlvbmVkSXRlbXMuaXNOb3RFbXB0eSgpICYmIHN0aWNreUl0ZW1zLmlzTm90RW1wdHkoKSkgewogICAgICAgIC8vIGdhdGhlciBzdGlja2luZyBpdGVtcwogICAgICAgIHZhbCBzdGlja2luZ0l0ZW1zID0KICAgICAgICAgICAgZ2V0U3RpY2tpbmdJbmRpY2VzKGZpcnN0VmlzaWJsZUl0ZW1JbmRleCwgbGFzdFZpc2libGVJdGVtSW5kZXgsIHN0aWNreUl0ZW1zKQoKICAgICAgICB2YWwgcG9zaXRpb25lZFN0aWNraW5nSXRlbXMgPSBtdXRhYmxlTGlzdE9mPFQ+KCkKICAgICAgICB2YWwgdmlzaWJsZVN0aWNreUl0ZW1zID0gcG9zaXRpb25lZEl0ZW1zLmZhc3RGaWx0ZXIgeyBzdGlja3lJdGVtcy5jb250YWlucyhpdC5pbmRleCkgfQoKICAgICAgICAvLyB1cGRhdGUgc3RpY2tpbmcgaXRlbSBvZmZzZXRzCiAgICAgICAgc3RpY2tpbmdJdGVtcy5mb3JFYWNoIHsgc3RpY2tpbmdJbmRleCAtPgogICAgICAgICAgICB2YWwgaXRlbUluZGV4ID0gcG9zaXRpb25lZEl0ZW1zLmluZGV4T2ZGaXJzdCB7IGl0LmluZGV4ID09IHN0aWNraW5nSW5kZXggfQogICAgICAgICAgICAvLyBDb21wb3NlIG9yIHJldHJpZXZlIGl0ZW0KICAgICAgICAgICAgdmFsIGl0ZW0gPQogICAgICAgICAgICAgICAgaWYgKGl0ZW1JbmRleCA9PSAtMSkgewogICAgICAgICAgICAgICAgICAgIGdldEFuZE1lYXN1cmUoc3RpY2tpbmdJbmRleCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgcG9zaXRpb25lZEl0ZW1zLnJlbW92ZUF0KGl0ZW1JbmRleCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIG9mZnNldCA9CiAgICAgICAgICAgICAgICBjYWxjdWxhdGVTdGlja2luZ0l0ZW1PZmZzZXQoCiAgICAgICAgICAgICAgICAgICAgdmlzaWJsZVN0aWNreUl0ZW1zLAogICAgICAgICAgICAgICAgICAgIHN0aWNraW5nSW5kZXgsCiAgICAgICAgICAgICAgICAgICAgaXRlbS5tYWluQXhpc1NpemVXaXRoU3BhY2luZ3MsCiAgICAgICAgICAgICAgICAgICAgaWYgKGl0ZW1JbmRleCA9PSAtMSkgSW50Lk1JTl9WQUxVRSBlbHNlIGl0ZW0ubWFpbkF4aXNPZmZzZXQsCiAgICAgICAgICAgICAgICAgICAgYmVmb3JlQ29udGVudFBhZGRpbmcsCiAgICAgICAgICAgICAgICAgICAgYWZ0ZXJDb250ZW50UGFkZGluZywKICAgICAgICAgICAgICAgICAgICBsYXlvdXRXaWR0aCwKICAgICAgICAgICAgICAgICAgICBsYXlvdXRIZWlnaHQsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIGl0ZW0ubm9uU2Nyb2xsYWJsZUl0ZW0gPSB0cnVlCiAgICAgICAgICAgIGl0ZW0ucG9zaXRpb24ob2Zmc2V0LCAwLCBsYXlvdXRXaWR0aCwgbGF5b3V0SGVpZ2h0KQogICAgICAgICAgICBwb3NpdGlvbmVkU3RpY2tpbmdJdGVtcy5hZGQoaXRlbSkKICAgICAgICB9CiAgICAgICAgcG9zaXRpb25lZFN0aWNraW5nSXRlbXMKICAgIH0gZWxzZSB7CiAgICAgICAgZW1wdHlMaXN0KCkKICAgIH0KfQo=
+/*
+ * Copyright 2024 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.collection.IntList
+import androidx.collection.emptyIntList
+import androidx.collection.intListOf
+import androidx.compose.ui.util.fastFilter
+import androidx.compose.ui.util.fastFirstOrNull
+
+/** Defines how sticky items should be placed in a Lazy Layout */
+internal interface StickyItemsPlacement {
+
+    /**
+     * Determines which indices in [stickyItems] should be sticking, that is, have their placement
+     * altered.
+     *
+     * @param firstVisibleItemIndex The first visible item in the layout
+     * @param lastVisibleItemIndex The last visible item in the layout
+     * @param stickyItems The indices of candidate items for sticking
+     * @return A list of items that should be sticking.
+     */
+    fun getStickingIndices(
+        firstVisibleItemIndex: Int,
+        lastVisibleItemIndex: Int,
+        stickyItems: IntList,
+    ): IntList
+
+    /**
+     * This method is executed for each item returned from [getStickingIndices] to determine their
+     * final placement.
+     *
+     * @param visibleStickyItems The currently visible sticky items.
+     * @param itemIndex The current sticking item index.
+     * @param itemSize The current sticking item main axis size.
+     * @param itemOffset The initial offset for this sticking item. If this item doesn't have an
+     *   offset, that is, it has been just composed, this will be Int.MIN_VALUE.
+     * @param beforeContentPadding Padding applied to the start of the layout
+     * @param afterContentPadding Padding applied to the end of the layout
+     * @param layoutWidth The containing layout's width
+     * @param layoutHeight The containing layout's height
+     */
+    fun calculateStickingItemOffset(
+        visibleStickyItems: List<LazyLayoutMeasuredItem>,
+        itemIndex: Int,
+        itemSize: Int,
+        itemOffset: Int,
+        beforeContentPadding: Int,
+        afterContentPadding: Int,
+        layoutWidth: Int,
+        layoutHeight: Int,
+    ): Int
+
+    companion object {
+
+        /**
+         * A [StickyItemsPlacement] that sticks a single item to the top and pushes sticky item when
+         * another approaches the top of the layout.
+         */
+        val StickToTopPlacement =
+            object : StickyItemsPlacement {
+                override fun calculateStickingItemOffset(
+                    visibleStickyItems: List<LazyLayoutMeasuredItem>,
+                    itemIndex: Int,
+                    itemSize: Int,
+                    itemOffset: Int,
+                    beforeContentPadding: Int,
+                    afterContentPadding: Int,
+                    layoutWidth: Int,
+                    layoutHeight: Int,
+                ): Int {
+
+                    // the next item offset
+                    val nextStickyItemOffset =
+                        visibleStickyItems.fastFirstOrNull { it.index != itemIndex }?.mainAxisOffset
+                            ?: Int.MIN_VALUE
+
+                    debugLog { "Next Item Offset=$nextStickyItemOffset" }
+
+                    var updatedItemOffset =
+                        if (itemOffset == Int.MIN_VALUE) {
+                            -beforeContentPadding
+                        } else {
+                            maxOf(-beforeContentPadding, itemOffset)
+                        }
+
+                    // If there's a next item overlapping with the current item, the offset
+                    // should represent that.
+                    if (nextStickyItemOffset != Int.MIN_VALUE) {
+                        updatedItemOffset =
+                            minOf(updatedItemOffset, nextStickyItemOffset - itemSize)
+                    }
+
+                    debugLog {
+                        "Item=$itemIndex Initial_Offset=$itemOffset " +
+                            "Final_Offset=$updatedItemOffset"
+                    }
+                    return updatedItemOffset
+                }
+
+                override fun getStickingIndices(
+                    firstVisibleItemIndex: Int,
+                    lastVisibleItemIndex: Int,
+                    stickyItems: IntList,
+                ): IntList {
+                    // no items present
+                    if ((lastVisibleItemIndex - firstVisibleItemIndex) < 0 || stickyItems.isEmpty())
+                        return emptyIntList()
+
+                    // First non sticking visible item
+                    val firstVisible = firstVisibleItemIndex
+
+                    debugLog { "First Visible Item Index=${firstVisible}" }
+
+                    var currentHeaderIndex = -1
+
+                    // The sticking header will be the first one after the first visible item
+                    // or the first visible item itself.
+                    for (index in stickyItems.indices) {
+                        if (stickyItems[index] <= firstVisible) {
+                            currentHeaderIndex = stickyItems[index]
+                        } else {
+                            break
+                        }
+                    }
+
+                    return if (currentHeaderIndex == -1) {
+                        // we have no headers needing special handling
+                        emptyIntList()
+                    } else {
+                        intListOf(currentHeaderIndex)
+                    }
+                }
+            }
+    }
+}
+
+private const val Debug = false
+
+private inline fun debugLog(generateMsg: () -> String) {
+    if (Debug) {
+        println("StickToTopBehavior: ${generateMsg()}")
+    }
+}
+
+private val LazyLayoutMeasuredItem.mainAxisOffset
+    get() = getOffset(0).let { if (isVertical) it.y else it.x }
+
+/**
+ * This glue logic is not meant to become public. In here we will use [StickyItemsPlacement] to
+ * determine which items are sticking, compose (when needed) and position them. The result is a list
+ * of [LazyLayoutMeasuredItem] with the sticking items and [positionedItems] with the updated list
+ * of existing items.
+ */
+internal fun <T : LazyLayoutMeasuredItem> StickyItemsPlacement?.applyStickyItems(
+    firstVisibleItemIndex: Int,
+    lastVisibleItemIndex: Int,
+    positionedItems: MutableList<T>,
+    stickyItems: IntList,
+    beforeContentPadding: Int,
+    afterContentPadding: Int,
+    layoutWidth: Int,
+    layoutHeight: Int,
+    getAndMeasure: (Int) -> T,
+): List<T> {
+    return if (this != null && positionedItems.isNotEmpty() && stickyItems.isNotEmpty()) {
+        // gather sticking items
+        val stickingItems =
+            getStickingIndices(firstVisibleItemIndex, lastVisibleItemIndex, stickyItems)
+
+        val positionedStickingItems = mutableListOf<T>()
+        val visibleStickyItems = positionedItems.fastFilter { stickyItems.contains(it.index) }
+
+        // update sticking item offsets
+        stickingItems.forEach { stickingIndex ->
+            val itemIndex = positionedItems.indexOfFirst { it.index == stickingIndex }
+            // Compose or retrieve item
+            val item =
+                if (itemIndex == -1) {
+                    getAndMeasure(stickingIndex)
+                } else {
+                    positionedItems.removeAt(itemIndex)
+                }
+            val offset =
+                calculateStickingItemOffset(
+                    visibleStickyItems,
+                    stickingIndex,
+                    item.mainAxisSizeWithSpacings,
+                    if (itemIndex == -1) Int.MIN_VALUE else item.mainAxisOffset,
+                    beforeContentPadding,
+                    afterContentPadding,
+                    layoutWidth,
+                    layoutHeight,
+                )
+            item.nonScrollableItem = true
+            item.position(offset, 0, layoutWidth, layoutHeight)
+            positionedStickingItems.add(item)
+        }
+        positionedStickingItems
+    } else {
+        emptyList()
+    }
+}

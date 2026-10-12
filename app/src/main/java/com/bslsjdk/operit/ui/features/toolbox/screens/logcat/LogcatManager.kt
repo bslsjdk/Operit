@@ -1,1 +1,90 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmxvZ2NhdAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy4qCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5mbG93CmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uUmFuZG9tQWNjZXNzRmlsZQppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQKaW1wb3J0IGphdmEudXRpbC4qCgovKioKICog5pel5b+X566h55CG5ZmoIC0g5LuOQXBwTG9nZ2Vy55qE5pel5b+X5paH5Lu26K+75Y+W5pel5b+XCiAqLwpjbGFzcyBMb2djYXRNYW5hZ2VyKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHByaXZhdGUgdmFsIFRBRyA9ICJMb2djYXRNYW5hZ2VyIgoKICAgIC8vIOaXpeW/l+agvOW8j+ino+aekAogICAgcHJpdmF0ZSB2YWwgbG9nUGF0dGVybiA9ICJeKFxcZHs0fS1cXGR7Mn0tXFxkezJ9IFxcZHsyfTpcXGR7Mn06XFxkezJ9XFwuXFxkezN9KVxccysoW1ZESVdFQUZdKS8oLio/KTogKC4qKSIudG9SZWdleCgpCiAgICBwcml2YXRlIHZhbCBkYXRlRm9ybWF0ID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eS1NTS1kZCBISDptbTpzcy5TU1MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKQoKCiAgICAvKioKICAgICAqIOWKoOi9veaJgOacieWOhuWPsuaXpeW/lwogICAgICovCiAgICBzdXNwZW5kIGZ1biBsb2FkSW5pdGlhbExvZ3MoKTogTGlzdDxMb2dSZWNvcmQ+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB2YWwgbG9nRmlsZSA9IEFwcExvZ2dlci5nZXRMb2dGaWxlKCkKICAgICAgICBpZiAobG9nRmlsZSA9PSBudWxsIHx8ICFsb2dGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBlbXB0eUxpc3QoKQogICAgICAgIH0KICAgICAgICB0cnkgewogICAgICAgICAgICBsb2dGaWxlLnJlYWRMaW5lcygpLm1hcE5vdE51bGwgeyBwYXJzZUxvZ0xpbmUoaXQpIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGxvYWQgaW5pdGlhbCBsb2dzIiwgZSkKICAgICAgICAgICAgZW1wdHlMaXN0KCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmuIXpmaTml6Xlv5fmlofku7YKICAgICAqLwogICAgZnVuIGNsZWFyTG9ncygpIHsKICAgICAgICBBcHBMb2dnZXIucmVzZXRMb2dGaWxlKCkKICAgIH0KCiAgICAvKioKICAgICAqIOino+aekEFwcExvZ2dlcuagvOW8j+eahOaXpeW/l+ihjAogICAgICog5aaC5p6c5LiN5Yy56YWN5qCH5YeG5qC85byP77yM5YiZ6YCA5YyW5Li6VU5LTk9XTue6p+WIq+eahOWOn+Wni+ihjO+8jOmBv+WFjeS4ouaXpeW/lwogICAgICovCiAgICBwcml2YXRlIGZ1biBwYXJzZUxvZ0xpbmUobGluZTogU3RyaW5nKTogTG9nUmVjb3JkPyB7CiAgICAgICAgdmFsIG1hdGNoID0gbG9nUGF0dGVybi5tYXRjaEVudGlyZShsaW5lKQogICAgICAgIGlmIChtYXRjaCAhPSBudWxsKSB7CiAgICAgICAgICAgIHZhbCAodGltZXN0YW1wU3RyLCBsZXZlbFN0ciwgdGFnLCBtZXNzYWdlKSA9IG1hdGNoLmRlc3RydWN0dXJlZAogICAgICAgICAgICB2YWwgbGV2ZWwgPSB3aGVuIChsZXZlbFN0cikgewogICAgICAgICAgICAgICAgIlYiIC0+IExvZ0xldmVsLlZFUkJPU0UKICAgICAgICAgICAgICAgICJEIiAtPiBMb2dMZXZlbC5ERUJVRwogICAgICAgICAgICAgICAgIkkiIC0+IExvZ0xldmVsLklORk8KICAgICAgICAgICAgICAgICJXIiAtPiBMb2dMZXZlbC5XQVJOSU5HCiAgICAgICAgICAgICAgICAiRSIgLT4gTG9nTGV2ZWwuRVJST1IKICAgICAgICAgICAgICAgICJBIiAtPiBMb2dMZXZlbC5GQVRBTCAvLyBBc3NlcnQgYXMgRmF0YWwKICAgICAgICAgICAgICAgIGVsc2UgLT4gTG9nTGV2ZWwuVU5LTk9XTgogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCB0aW1lc3RhbXAgPSB0cnkgewogICAgICAgICAgICAgICAgZGF0ZUZvcm1hdC5wYXJzZSh0aW1lc3RhbXBTdHIpPy50aW1lID86IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgcmV0dXJuIExvZ1JlY29yZCgKICAgICAgICAgICAgICAgIHRpbWVzdGFtcCA9IHRpbWVzdGFtcCwKICAgICAgICAgICAgICAgIGxldmVsID0gbGV2ZWwsCiAgICAgICAgICAgICAgICB0YWcgPSB0YWcudHJpbSgpLAogICAgICAgICAgICAgICAgbWVzc2FnZSA9IG1lc3NhZ2UudHJpbSgpCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIC8vIOmdnummluihjOaIluW8guW4uOagvOW8j++8iOWmguWghuagiOi3n+i4qu+8ie+8jOS7jeeEtuaYvuekuuWHuuadpQogICAgICAgIHJldHVybiBpZiAobGluZS5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgTG9nUmVjb3JkKAogICAgICAgICAgICAgICAgbWVzc2FnZSA9IGxpbmUsCiAgICAgICAgICAgICAgICBsZXZlbCA9IExvZ0xldmVsLlVOS05PV04sCiAgICAgICAgICAgICAgICB0aW1lc3RhbXAgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSwKICAgICAgICAgICAgICAgIHRhZyA9IG51bGwKICAgICAgICAgICAgKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.toolbox.screens.logcat
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.*
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flow
+import java.io.File
+import java.io.RandomAccessFile
+import java.text.SimpleDateFormat
+import java.util.*
+
+/**
+ * 日志管理器 - 从AppLogger的日志文件读取日志
+ */
+class LogcatManager(private val context: Context) {
+    private val TAG = "LogcatManager"
+
+    // 日志格式解析
+    private val logPattern = "^(\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}\\.\\d{3})\\s+([VDIWEAF])/(.*?): (.*)".toRegex()
+    private val dateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.getDefault())
+
+
+    /**
+     * 加载所有历史日志
+     */
+    suspend fun loadInitialLogs(): List<LogRecord> = withContext(Dispatchers.IO) {
+        val logFile = AppLogger.getLogFile()
+        if (logFile == null || !logFile.exists()) {
+            return@withContext emptyList()
+        }
+        try {
+            logFile.readLines().mapNotNull { parseLogLine(it) }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to load initial logs", e)
+            emptyList()
+        }
+    }
+
+    /**
+     * 清除日志文件
+     */
+    fun clearLogs() {
+        AppLogger.resetLogFile()
+    }
+
+    /**
+     * 解析AppLogger格式的日志行
+     * 如果不匹配标准格式，则退化为UNKNOWN级别的原始行，避免丢日志
+     */
+    private fun parseLogLine(line: String): LogRecord? {
+        val match = logPattern.matchEntire(line)
+        if (match != null) {
+            val (timestampStr, levelStr, tag, message) = match.destructured
+            val level = when (levelStr) {
+                "V" -> LogLevel.VERBOSE
+                "D" -> LogLevel.DEBUG
+                "I" -> LogLevel.INFO
+                "W" -> LogLevel.WARNING
+                "E" -> LogLevel.ERROR
+                "A" -> LogLevel.FATAL // Assert as Fatal
+                else -> LogLevel.UNKNOWN
+            }
+            val timestamp = try {
+                dateFormat.parse(timestampStr)?.time ?: System.currentTimeMillis()
+            } catch (e: Exception) {
+                System.currentTimeMillis()
+            }
+
+            return LogRecord(
+                timestamp = timestamp,
+                level = level,
+                tag = tag.trim(),
+                message = message.trim()
+            )
+        }
+
+        // 非首行或异常格式（如堆栈跟踪），仍然显示出来
+        return if (line.isNotBlank()) {
+            LogRecord(
+                message = line,
+                level = LogLevel.UNKNOWN,
+                timestamp = System.currentTimeMillis(),
+                tag = null
+            )
+        } else {
+            null
+        }
+    }
+}

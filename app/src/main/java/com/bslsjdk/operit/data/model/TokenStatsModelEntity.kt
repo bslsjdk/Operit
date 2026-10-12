@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGFuZHJvaWR4LnJvb20uRW50aXR5Ci8qKiBVc2VyLW93bmVkIHByaWNlIHNldHRpbmdzIGZvciBvbmUgcHJvdmlkZXIvbW9kZWwgaWRlbnRpdHkuICovCkBFbnRpdHkoCiAgICB0YWJsZU5hbWUgPSAidG9rZW5fc3RhdHNfbW9kZWxzIiwKICAgIHByaW1hcnlLZXlzID0gWyJjb25maWdJZCIsICJwcm92aWRlciIsICJtb2RlbCJdLAopCmRhdGEgY2xhc3MgVG9rZW5TdGF0c01vZGVsRW50aXR5KAogICAgLyoqIEVtcHR5IG1lYW5zIHByb3ZpZGVyL21vZGVsLXdpZGUgcHJpY2luZyBhbmQgdGhlIGNvbmZpZ3VyYXRpb24tdW5zY29wZWQgaWRlbnRpdHkuICovCiAgICB2YWwgY29uZmlnSWQ6IFN0cmluZywKICAgIHZhbCBwcm92aWRlcjogU3RyaW5nLAogICAgdmFsIG1vZGVsOiBTdHJpbmcsCiAgICB2YWwgYmlsbGluZ01vZGU6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGN1cnJlbmN5OiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBpbnB1dFByaWNlUGVyTWlsbGlvbjogRG91YmxlPyA9IG51bGwsCiAgICB2YWwgY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb246IERvdWJsZT8gPSBudWxsLAogICAgdmFsIGNhY2hlV3JpdGVQcmljZVBlck1pbGxpb246IERvdWJsZT8gPSBudWxsLAogICAgdmFsIG91dHB1dFByaWNlUGVyTWlsbGlvbjogRG91YmxlPyA9IG51bGwsCiAgICB2YWwgcHJpY2VQZXJSZXF1ZXN0OiBEb3VibGU/ID0gbnVsbCwKKQo=
+package com.bslsjdk.operit.data.model
+
+import androidx.room.Entity
+/** User-owned price settings for one provider/model identity. */
+@Entity(
+    tableName = "token_stats_models",
+    primaryKeys = ["configId", "provider", "model"],
+)
+data class TokenStatsModelEntity(
+    /** Empty means provider/model-wide pricing and the configuration-unscoped identity. */
+    val configId: String,
+    val provider: String,
+    val model: String,
+    val billingMode: String? = null,
+    val currency: String? = null,
+    val inputPricePerMillion: Double? = null,
+    val cachedInputPricePerMillion: Double? = null,
+    val cacheWritePricePerMillion: Double? = null,
+    val outputPricePerMillion: Double? = null,
+    val pricePerRequest: Double? = null,
+)

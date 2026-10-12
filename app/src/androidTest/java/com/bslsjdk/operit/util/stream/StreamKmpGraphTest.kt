@@ -1,1 +1,610 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCmltcG9ydCBhbmRyb2lkeC50ZXN0LmV4dC5qdW5pdC5ydW5uZXJzLkFuZHJvaWRKVW5pdDQKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZmlsdGVycy5NZWRpdW1UZXN0CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROb3RFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAoKQFJ1bldpdGgoQW5kcm9pZEpVbml0NDo6Y2xhc3MpCkBNZWRpdW1UZXN0CmNsYXNzIFN0cmVhbUttcEdyYXBoVGVzdCB7CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0Q2hhckNvbmRpdGlvbigpIHsKICAgICAgICB2YWwgY29uZGl0aW9uID0gQ2hhckNvbmRpdGlvbignYScpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb25kaXRpb24ubWF0Y2hlcygnYScpKQogICAgICAgIGFzc2VydEZhbHNlKGNvbmRpdGlvbi5tYXRjaGVzKCdiJykpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCInYSciLCBjb25kaXRpb24uZ2V0RGVzY3JpcHRpb24oKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RDaGFyUmFuZ2VDb25kaXRpb24oKSB7CiAgICAgICAgdmFsIGNvbmRpdGlvbiA9IENoYXJSYW5nZUNvbmRpdGlvbignYScsICdjJykKICAgICAgICBhc3NlcnRUcnVlKGNvbmRpdGlvbi5tYXRjaGVzKCdhJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb25kaXRpb24ubWF0Y2hlcygnYicpKQogICAgICAgIGFzc2VydFRydWUoY29uZGl0aW9uLm1hdGNoZXMoJ2MnKSkKICAgICAgICBhc3NlcnRGYWxzZShjb25kaXRpb24ubWF0Y2hlcygnZCcpKQogICAgICAgIGFzc2VydEVxdWFscygiW2EtY10iLCBjb25kaXRpb24uZ2V0RGVzY3JpcHRpb24oKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RDaGFyU2V0Q29uZGl0aW9uKCkgewogICAgICAgIHZhbCBjb25kaXRpb24gPSBDaGFyU2V0Q29uZGl0aW9uKCdhJywgJ2MnLCAnZScpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb25kaXRpb24ubWF0Y2hlcygnYScpKQogICAgICAgIGFzc2VydEZhbHNlKGNvbmRpdGlvbi5tYXRjaGVzKCdiJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb25kaXRpb24ubWF0Y2hlcygnYycpKQogICAgICAgIGFzc2VydEZhbHNlKGNvbmRpdGlvbi5tYXRjaGVzKCdkJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb25kaXRpb24ubWF0Y2hlcygnZScpKQogICAgICAgIGFzc2VydEVxdWFscygiW2FjZV0iLCBjb25kaXRpb24uZ2V0RGVzY3JpcHRpb24oKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3ROb3RDb25kaXRpb24oKSB7CiAgICAgICAgdmFsIGJhc2VDb25kaXRpb24gPSBDaGFyQ29uZGl0aW9uKCdhJykKICAgICAgICB2YWwgbm90Q29uZGl0aW9uID0gTm90Q29uZGl0aW9uKGJhc2VDb25kaXRpb24pCiAgICAgICAgYXNzZXJ0RmFsc2Uobm90Q29uZGl0aW9uLm1hdGNoZXMoJ2EnKSkKICAgICAgICBhc3NlcnRUcnVlKG5vdENvbmRpdGlvbi5tYXRjaGVzKCdiJykpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJub3QoJ2EnKSIsIG5vdENvbmRpdGlvbi5nZXREZXNjcmlwdGlvbigpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdE9yQ29uZGl0aW9uKCkgewogICAgICAgIHZhbCBjb25kaXRpb24gPSBPckNvbmRpdGlvbihDaGFyQ29uZGl0aW9uKCdhJyksIENoYXJDb25kaXRpb24oJ2InKSwgQ2hhckNvbmRpdGlvbignYycpKQogICAgICAgIGFzc2VydFRydWUoY29uZGl0aW9uLm1hdGNoZXMoJ2EnKSkKICAgICAgICBhc3NlcnRUcnVlKGNvbmRpdGlvbi5tYXRjaGVzKCdiJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb25kaXRpb24ubWF0Y2hlcygnYycpKQogICAgICAgIGFzc2VydEZhbHNlKGNvbmRpdGlvbi5tYXRjaGVzKCdkJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb25kaXRpb24uZ2V0RGVzY3JpcHRpb24oKS5jb250YWlucygiT1IiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RBbmRDb25kaXRpb24oKSB7CiAgICAgICAgdmFsIGNvbmRpdGlvbiA9CiAgICAgICAgICAgICAgICBBbmRDb25kaXRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgIENoYXJSYW5nZUNvbmRpdGlvbignYScsICd6JyksCiAgICAgICAgICAgICAgICAgICAgICAgIE5vdENvbmRpdGlvbihDaGFyU2V0Q29uZGl0aW9uKCd4JywgJ3knLCAneicpKQogICAgICAgICAgICAgICAgKQogICAgICAgIGFzc2VydFRydWUoY29uZGl0aW9uLm1hdGNoZXMoJ2EnKSkKICAgICAgICBhc3NlcnRUcnVlKGNvbmRpdGlvbi5tYXRjaGVzKCdiJykpCiAgICAgICAgYXNzZXJ0RmFsc2UoY29uZGl0aW9uLm1hdGNoZXMoJ3gnKSkKICAgICAgICBhc3NlcnRGYWxzZShjb25kaXRpb24ubWF0Y2hlcygneScpKQogICAgICAgIGFzc2VydEZhbHNlKGNvbmRpdGlvbi5tYXRjaGVzKCd6JykpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb25kaXRpb24uZ2V0RGVzY3JpcHRpb24oKS5jb250YWlucygiQU5EIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0UHJlZGljYXRlQ29uZGl0aW9uKCkgewogICAgICAgIHZhbCBjb25kaXRpb24gPSBQcmVkaWNhdGVDb25kaXRpb24oImlzRGlnaXQiKSB7IGl0LmlzRGlnaXQoKSB9CiAgICAgICAgYXNzZXJ0VHJ1ZShjb25kaXRpb24ubWF0Y2hlcygnMCcpKQogICAgICAgIGFzc2VydFRydWUoY29uZGl0aW9uLm1hdGNoZXMoJzknKSkKICAgICAgICBhc3NlcnRGYWxzZShjb25kaXRpb24ubWF0Y2hlcygnYScpKQogICAgICAgIGFzc2VydEVxdWFscygiaXNEaWdpdCIsIGNvbmRpdGlvbi5nZXREZXNjcmlwdGlvbigpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFN0cmVhbUttcEdyYXBoUHJvY2Vzc1RleHQoKSB7CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgIHZhbCBncmFwaCA9IGJ1aWxkZXIuYnVpbGQoa21wUGF0dGVybiB7IGxpdGVyYWwoImFiYyIpIH0pCgogICAgICAgIHZhbCBtYXRjaGVzID0gZ3JhcGgucHJvY2Vzc1RleHQoImFiYWJjYWJjIikKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKDUsIDgpLCBtYXRjaGVzKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFN0cmVhbUttcEdyYXBoQnVpbGRlcigpIHsKICAgICAgICAvLyDmtYvor5XlrZfnrKbkuLLmqKHlvI/mnoTlu7oKICAgICAgICB2YWwgYnVpbGRlcjEgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgIHZhbCBncmFwaDEgPSBidWlsZGVyMS5idWlsZChrbXBQYXR0ZXJuIHsgbGl0ZXJhbCgidGVzdCIpIH0pCgogICAgICAgIGdyYXBoMS5yZXNldCgpCiAgICAgICAgYXNzZXJ0Tm90RXF1YWxzKFN0cmVhbUttcE1hdGNoUmVzdWx0Lk5vTWF0Y2gsIGdyYXBoMS5wcm9jZXNzQ2hhcigndCcpKQogICAgICAgIGFzc2VydE5vdEVxdWFscyhTdHJlYW1LbXBNYXRjaFJlc3VsdC5Ob01hdGNoLCBncmFwaDEucHJvY2Vzc0NoYXIoJ2UnKSkKICAgICAgICBhc3NlcnROb3RFcXVhbHMoU3RyZWFtS21wTWF0Y2hSZXN1bHQuTm9NYXRjaCwgZ3JhcGgxLnByb2Nlc3NDaGFyKCdzJykpCiAgICAgICAgdmFsIHJlc3VsdCA9IGdyYXBoMS5wcm9jZXNzQ2hhcigndCcpCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXN1bHQgaXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTWF0Y2ggJiYgcmVzdWx0LmlzRnVsbE1hdGNoKQoKICAgICAgICAvLyDmtYvor5XmnaHku7bliJfooajmnoTlu7oKICAgICAgICB2YWwgYnVpbGRlcjIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgIHZhbCBjb25kaXRpb25zID0KICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgQ2hhckNvbmRpdGlvbignYScpLAogICAgICAgICAgICAgICAgICAgICAgICBDaGFyUmFuZ2VDb25kaXRpb24oJzEnLCAnMycpLAogICAgICAgICAgICAgICAgICAgICAgICBDaGFyU2V0Q29uZGl0aW9uKCd4JywgJ3knLCAneicpCiAgICAgICAgICAgICAgICApCiAgICAgICAgdmFsIGdyYXBoMiA9IGJ1aWxkZXIyLmJ1aWxkKGttcFBhdHRlcm4geyBjb25kaXRpb25zLmZvckVhY2ggeyBhZGQoaXQpIH0gfSkKCiAgICAgICAgZ3JhcGgyLnJlc2V0KCkKICAgICAgICBhc3NlcnROb3RFcXVhbHMoU3RyZWFtS21wTWF0Y2hSZXN1bHQuTm9NYXRjaCwgZ3JhcGgyLnByb2Nlc3NDaGFyKCdhJykpCiAgICAgICAgYXNzZXJ0Tm90RXF1YWxzKFN0cmVhbUttcE1hdGNoUmVzdWx0Lk5vTWF0Y2gsIGdyYXBoMi5wcm9jZXNzQ2hhcignMicpKQogICAgICAgIHZhbCByZXN1bHQyID0gZ3JhcGgyLnByb2Nlc3NDaGFyKCd5JykKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdDIgaXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTWF0Y2ggJiYgcmVzdWx0Mi5pc0Z1bGxNYXRjaCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RDb21wbGV4UGF0dGVybigpIHsKICAgICAgICB2YWwgYnVpbGRlciA9IFN0cmVhbUttcEdyYXBoQnVpbGRlcigpCiAgICAgICAgdmFsIGNvbmRpdGlvbnMgPQogICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICBPckNvbmRpdGlvbihDaGFyQ29uZGl0aW9uKCdhJyksIENoYXJDb25kaXRpb24oJ0EnKSksCiAgICAgICAgICAgICAgICAgICAgICAgIE9yQ29uZGl0aW9uKENoYXJDb25kaXRpb24oJ2InKSwgQ2hhckNvbmRpdGlvbignQicpKSwKICAgICAgICAgICAgICAgICAgICAgICAgT3JDb25kaXRpb24oQ2hhckNvbmRpdGlvbignYycpLCBDaGFyQ29uZGl0aW9uKCdDJykpCiAgICAgICAgICAgICAgICApCiAgICAgICAgdmFsIGdyYXBoID0gYnVpbGRlci5idWlsZChrbXBQYXR0ZXJuIHsgY29uZGl0aW9ucy5mb3JFYWNoIHsgYWRkKGl0KSB9IH0pCgogICAgICAgIC8vIOa1i+ivleWwj+WGmeWMuemFjQogICAgICAgIGdyYXBoLnJlc2V0KCkKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcignYScpCiAgICAgICAgZ3JhcGgucHJvY2Vzc0NoYXIoJ2InKQogICAgICAgIGFzc2VydFRydWUoKGdyYXBoLnByb2Nlc3NDaGFyKCdjJykgYXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTWF0Y2gpLmlzRnVsbE1hdGNoKQoKICAgICAgICAvLyDmtYvor5XlpKflhpnljLnphY0KICAgICAgICBncmFwaC5yZXNldCgpCiAgICAgICAgZ3JhcGgucHJvY2Vzc0NoYXIoJ0EnKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdCJykKICAgICAgICBhc3NlcnRUcnVlKChncmFwaC5wcm9jZXNzQ2hhcignQycpIGFzIFN0cmVhbUttcE1hdGNoUmVzdWx0Lk1hdGNoKS5pc0Z1bGxNYXRjaCkKCiAgICAgICAgLy8g5rWL6K+V5re35ZCI5Yy56YWNCiAgICAgICAgZ3JhcGgucmVzZXQoKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdhJykKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcignQicpCiAgICAgICAgYXNzZXJ0VHJ1ZSgoZ3JhcGgucHJvY2Vzc0NoYXIoJ2MnKSBhcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaCkuaXNGdWxsTWF0Y2gpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0RmFpbHVyZVRyYW5zaXRpb25zKCkgewogICAgICAgIHZhbCBidWlsZGVyID0gU3RyZWFtS21wR3JhcGhCdWlsZGVyKCkKICAgICAgICB2YWwgZ3JhcGggPSBidWlsZGVyLmJ1aWxkKGttcFBhdHRlcm4geyBsaXRlcmFsKCJBQkFCQyIpIH0pCgogICAgICAgIHZhbCB0ZXh0ID0gIkFCQUJBQkFCQyIKICAgICAgICB2YWwgbWF0Y2hlcyA9IGdyYXBoLnByb2Nlc3NUZXh0KHRleHQpCgogICAgICAgIGFzc2VydEVxdWFscygxLCBtYXRjaGVzLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRleHQubGVuZ3RoLCBtYXRjaGVzWzBdKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdEttcENvbmRpdGlvbk9wZXJhdG9ycygpIHsKICAgICAgICAvLyDmtYvor5XliqDms5Xmk43kvZznrKYgKE9SKQogICAgICAgIHZhbCBvckNvbmRpdGlvbiA9IENoYXJDb25kaXRpb24oJ2EnKSArIENoYXJDb25kaXRpb24oJ2InKQogICAgICAgIGFzc2VydFRydWUob3JDb25kaXRpb24ubWF0Y2hlcygnYScpKQogICAgICAgIGFzc2VydFRydWUob3JDb25kaXRpb24ubWF0Y2hlcygnYicpKQogICAgICAgIGFzc2VydEZhbHNlKG9yQ29uZGl0aW9uLm1hdGNoZXMoJ2MnKSkKCiAgICAgICAgLy8g5rWL6K+V5LmY5rOV5pON5L2c56ymIChBTkQpCiAgICAgICAgdmFsIGFuZENvbmRpdGlvbiA9IENoYXJSYW5nZUNvbmRpdGlvbignYScsICd6JykgKiBDaGFyUmFuZ2VDb25kaXRpb24oJ20nLCAneicpCiAgICAgICAgYXNzZXJ0RmFsc2UoYW5kQ29uZGl0aW9uLm1hdGNoZXMoJ2EnKSkgLy8g5LiN5Zyo5Lik5Liq6IyD5Zu055qE5Lqk6ZuG5LitCiAgICAgICAgYXNzZXJ0VHJ1ZShhbmRDb25kaXRpb24ubWF0Y2hlcygnbicpKSAvLyDlnKjkuKTkuKrojIPlm7TnmoTkuqTpm4bkuK0KICAgICAgICBhc3NlcnRGYWxzZShhbmRDb25kaXRpb24ubWF0Y2hlcygnMCcpKQoKICAgICAgICAvLyDmtYvor5Xlj5blj43mk43kvZznrKYKICAgICAgICB2YWwgbm90Q29uZGl0aW9uID0gIUNoYXJDb25kaXRpb24oJ2EnKQogICAgICAgIGFzc2VydEZhbHNlKG5vdENvbmRpdGlvbi5tYXRjaGVzKCdhJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShub3RDb25kaXRpb24ubWF0Y2hlcygnYicpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdENoYXJPcGVyYXRvcnMoKSB7CiAgICAgICAgLy8g5rWL6K+VIENoYXIudW5hcnlQbHVzIOaTjeS9nOespgogICAgICAgIHZhbCBjaGFyQ29uZGl0aW9uID0gKydhJwogICAgICAgIGFzc2VydFRydWUoY2hhckNvbmRpdGlvbi5tYXRjaGVzKCdhJykpCiAgICAgICAgYXNzZXJ0RmFsc2UoY2hhckNvbmRpdGlvbi5tYXRjaGVzKCdiJykpCgogICAgICAgIC8vIOa1i+ivlSBvciDkuK3nvIDmk43kvZznrKYKICAgICAgICB2YWwgaWdub3JlQ2FzZSA9ICdhJyBvciAnQScKICAgICAgICBhc3NlcnRUcnVlKGlnbm9yZUNhc2UubWF0Y2hlcygnYScpKQogICAgICAgIGFzc2VydFRydWUoaWdub3JlQ2FzZS5tYXRjaGVzKCdBJykpCiAgICAgICAgYXNzZXJ0RmFsc2UoaWdub3JlQ2FzZS5tYXRjaGVzKCdiJykpCgogICAgICAgIC8vIOa1i+ivlSB0byDkuK3nvIDmk43kvZznrKYgKOWtl+espuiMg+WbtCkKICAgICAgICB2YWwgcmFuZ2VDb25kaXRpb24gPSAnYScgdG8gJ2MnCiAgICAgICAgYXNzZXJ0VHJ1ZShyYW5nZUNvbmRpdGlvbi5tYXRjaGVzKCdhJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShyYW5nZUNvbmRpdGlvbi5tYXRjaGVzKCdiJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShyYW5nZUNvbmRpdGlvbi5tYXRjaGVzKCdjJykpCiAgICAgICAgYXNzZXJ0RmFsc2UocmFuZ2VDb25kaXRpb24ubWF0Y2hlcygnZCcpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdEttcFBhdHRlcm5EU0woKSB7CiAgICAgICAgdmFsIHBhdHRlcm4gPSBrbXBQYXR0ZXJuIHsKICAgICAgICAgICAgY2hhcignYScpCiAgICAgICAgICAgIGRpZ2l0KCkKICAgICAgICAgICAgbGV0dGVyKCkKICAgICAgICB9CgogICAgICAgIGFzc2VydEVxdWFscygzLCBwYXR0ZXJuLmNvbmRpdGlvbnMuc2l6ZSkKCiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgIHZhbCBncmFwaCA9IGJ1aWxkZXIuYnVpbGQocGF0dGVybikKCiAgICAgICAgZ3JhcGgucmVzZXQoKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdhJykKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcignNScpCiAgICAgICAgdmFsIHJlc3VsdCA9IGdyYXBoLnByb2Nlc3NDaGFyKCdiJykKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdCBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaCAmJiByZXN1bHQuaXNGdWxsTWF0Y2gpCgogICAgICAgIC8vIOa1i+ivleeJueauiuWtl+espuWMuemFjQogICAgICAgIHZhbCBzcGVjaWFsUGF0dGVybiA9IGttcFBhdHRlcm4geyBjaGFySWdub3JlQ2FzZSgnYScpIH0KCiAgICAgICAgdmFsIHNwZWNpYWxHcmFwaCA9IGJ1aWxkZXIuYnVpbGQoc3BlY2lhbFBhdHRlcm4pCiAgICAgICAgc3BlY2lhbEdyYXBoLnJlc2V0KCkKICAgICAgICB2YWwgcmVzdWx0QSA9IHNwZWNpYWxHcmFwaC5wcm9jZXNzQ2hhcignYScpCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXN1bHRBIGlzIFN0cmVhbUttcE1hdGNoUmVzdWx0Lk1hdGNoICYmIHJlc3VsdEEuaXNGdWxsTWF0Y2gpCiAgICAgICAgc3BlY2lhbEdyYXBoLnJlc2V0KCkKICAgICAgICB2YWwgcmVzdWx0QiA9IHNwZWNpYWxHcmFwaC5wcm9jZXNzQ2hhcignQScpCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXN1bHRCIGlzIFN0cmVhbUttcE1hdGNoUmVzdWx0Lk1hdGNoICYmIHJlc3VsdEIuaXNGdWxsTWF0Y2gpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0UHJlZGVmaW5lZENvbmRpdGlvbnMoKSB7CiAgICAgICAgLy8g5rWL6K+V6aKE5a6a5LmJ5bi46YePCiAgICAgICAgYXNzZXJ0VHJ1ZShESUdJVFMubWF0Y2hlcygnMCcpKQogICAgICAgIGFzc2VydFRydWUoRElHSVRTLm1hdGNoZXMoJzknKSkKICAgICAgICBhc3NlcnRGYWxzZShESUdJVFMubWF0Y2hlcygnYScpKQoKICAgICAgICBhc3NlcnRUcnVlKExFVFRFUlMubWF0Y2hlcygnYScpKQogICAgICAgIGFzc2VydFRydWUoTEVUVEVSUy5tYXRjaGVzKCdaJykpCiAgICAgICAgYXNzZXJ0RmFsc2UoTEVUVEVSUy5tYXRjaGVzKCcwJykpCgogICAgICAgIGFzc2VydFRydWUoQUxQSEFOVU1FUklDLm1hdGNoZXMoJ2EnKSkKICAgICAgICBhc3NlcnRUcnVlKEFMUEhBTlVNRVJJQy5tYXRjaGVzKCcwJykpCiAgICAgICAgYXNzZXJ0RmFsc2UoQUxQSEFOVU1FUklDLm1hdGNoZXMoJyMnKSkKCiAgICAgICAgYXNzZXJ0VHJ1ZShXSElURVNQQUNFLm1hdGNoZXMoJyAnKSkKICAgICAgICBhc3NlcnRUcnVlKFdISVRFU1BBQ0UubWF0Y2hlcygnXHQnKSkKICAgICAgICBhc3NlcnRGYWxzZShXSElURVNQQUNFLm1hdGNoZXMoJ2EnKSkKCiAgICAgICAgYXNzZXJ0VHJ1ZShBTllfQ0hBUi5tYXRjaGVzKCdhJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShBTllfQ0hBUi5tYXRjaGVzKCcwJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShBTllfQ0hBUi5tYXRjaGVzKCcjJykpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0TmVnYXRpb25GdW5jdGlvbnMoKSB7CiAgICAgICAgLy8g5rWL6K+VIG5vdCDlh73mlbAKICAgICAgICB2YWwgbm90RGlnaXQgPSBub3QoRElHSVRTKQogICAgICAgIGFzc2VydEZhbHNlKG5vdERpZ2l0Lm1hdGNoZXMoJzAnKSkKICAgICAgICBhc3NlcnRUcnVlKG5vdERpZ2l0Lm1hdGNoZXMoJ2EnKSkKCiAgICAgICAgLy8g5rWL6K+VIG5vdENoYXJzIOWHveaVsAogICAgICAgIHZhbCBub1Zvd2VscyA9IG5vdENoYXJzKCdhJywgJ2UnLCAnaScsICdvJywgJ3UnKQogICAgICAgIGFzc2VydEZhbHNlKG5vVm93ZWxzLm1hdGNoZXMoJ2EnKSkKICAgICAgICBhc3NlcnRUcnVlKG5vVm93ZWxzLm1hdGNoZXMoJ2InKSkKCiAgICAgICAgLy8g5rWL6K+VIG5vdEluUmFuZ2Ug5Ye95pWwCiAgICAgICAgdmFsIG5vdExvd2VyQ2FzZSA9IG5vdEluUmFuZ2UoJ2EnLCAneicpCiAgICAgICAgYXNzZXJ0RmFsc2Uobm90TG93ZXJDYXNlLm1hdGNoZXMoJ2EnKSkKICAgICAgICBhc3NlcnRUcnVlKG5vdExvd2VyQ2FzZS5tYXRjaGVzKCdBJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShub3RMb3dlckNhc2UubWF0Y2hlcygnMCcpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdEludmVyc2VQcmVkZWZpbmVkQ29uZGl0aW9ucygpIHsKICAgICAgICAvLyDmtYvor5Xlj43lkJHpooTlrprkuYnluLjph48KICAgICAgICBhc3NlcnRGYWxzZShOT1RfRElHSVRTLm1hdGNoZXMoJzAnKSkKICAgICAgICBhc3NlcnRUcnVlKE5PVF9ESUdJVFMubWF0Y2hlcygnYScpKQoKICAgICAgICBhc3NlcnRGYWxzZShOT1RfTEVUVEVSUy5tYXRjaGVzKCdhJykpCiAgICAgICAgYXNzZXJ0VHJ1ZShOT1RfTEVUVEVSUy5tYXRjaGVzKCcwJykpCgogICAgICAgIGFzc2VydEZhbHNlKE5PVF9BTFBIQU5VTUVSSUMubWF0Y2hlcygnYScpKQogICAgICAgIGFzc2VydEZhbHNlKE5PVF9BTFBIQU5VTUVSSUMubWF0Y2hlcygnMCcpKQogICAgICAgIGFzc2VydFRydWUoTk9UX0FMUEhBTlVNRVJJQy5tYXRjaGVzKCcjJykpCgogICAgICAgIGFzc2VydEZhbHNlKE5PVF9XSElURVNQQUNFLm1hdGNoZXMoJyAnKSkKICAgICAgICBhc3NlcnRUcnVlKE5PVF9XSElURVNQQUNFLm1hdGNoZXMoJ2EnKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RLbXBQYXR0ZXJuTmVnYXRpb25NZXRob2RzKCkgewogICAgICAgIHZhbCBwYXR0ZXJuID0ga21wUGF0dGVybiB7CiAgICAgICAgICAgIG5vdENoYXIoJ2EnKQogICAgICAgICAgICBub25lT2YoJzAnLCAnMScsICcyJykKICAgICAgICAgICAgbm90SW5SYW5nZSgnQScsICdaJykKICAgICAgICAgICAgbm90RGlnaXQoKQogICAgICAgICAgICBub3QoV0hJVEVTUEFDRSkKICAgICAgICB9CgogICAgICAgIGFzc2VydEVxdWFscyg1LCBwYXR0ZXJuLmNvbmRpdGlvbnMuc2l6ZSkKCiAgICAgICAgLy8g5oyJ54Wn5LiK6Z2i55qE5p2h5Lu277yM5a2X56ymJ2In5bqU6K+l5ruh6Laz5omA5pyJ5p2h5Lu2CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgIHZhbCBncmFwaCA9IGJ1aWxkZXIuYnVpbGQocGF0dGVybikKCiAgICAgICAgZ3JhcGgucmVzZXQoKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdiJykgLy8g5Yy56YWN56ysMeS4quadoeS7tgogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdiJykgLy8g5Yy56YWN56ysMuS4quadoeS7tgogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdiJykgLy8g5Yy56YWN56ysM+S4quadoeS7tgogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdiJykgLy8g5Yy56YWN56ysNOS4quadoeS7tgogICAgICAgIHZhbCByZXN1bHQgPSBncmFwaC5wcm9jZXNzQ2hhcignYicpIC8vIOWMuemFjeesrDXkuKrmnaHku7bvvIzmmK/mnIDlkI7kuIDkuKrvvIzov5Tlm550cnVlCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXN1bHQgaXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTWF0Y2ggJiYgcmVzdWx0LmlzRnVsbE1hdGNoKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdENvbXBsZXhEU0xQYXR0ZXJuKCkgewogICAgICAgIC8vIOWIm+W7uuS4gOS4quWkjeadgueahOaooeW8j++8muWtl+avjSvmlbDlrZcr6Z2e56m655m95a2X56ymCiAgICAgICAgdmFsIHBhdHRlcm4gPSBrbXBQYXR0ZXJuIHsKICAgICAgICAgICAgbGV0dGVyKCkKICAgICAgICAgICAgZGlnaXQoKQogICAgICAgICAgICBub3RXaGl0ZXNwYWNlKCkKICAgICAgICAgICAgYW55KCkgLy8g5Yy56YWN5Lu75L2V5a2X56ymCiAgICAgICAgfQoKICAgICAgICB2YWwgYnVpbGRlciA9IFN0cmVhbUttcEdyYXBoQnVpbGRlcigpCiAgICAgICAgdmFsIGdyYXBoID0gYnVpbGRlci5idWlsZChwYXR0ZXJuKQoKICAgICAgICAvLyDmtYvor5XmraPpnaLmoYjkvovvvJoiYTFiISIKICAgICAgICBncmFwaC5yZXNldCgpCiAgICAgICAgZ3JhcGgucHJvY2Vzc0NoYXIoJ2EnKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCcxJykKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcignYicpCiAgICAgICAgdmFsIHJlc3VsdCA9IGdyYXBoLnByb2Nlc3NDaGFyKCchJykKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdCBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaCAmJiByZXN1bHQuaXNGdWxsTWF0Y2gpCgogICAgICAgIC8vIOa1i+ivleWkjeadguaooeW8j++8miJhYjEyMyIKICAgICAgICB2YWwgY29tcGxleEJ1aWxkZXIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgIHZhbCBjb21wbGV4UGF0dGVybiA9IGttcFBhdHRlcm4gewogICAgICAgICAgICBjaGFyKCdhJykKICAgICAgICAgICAgY2hhcklnbm9yZUNhc2UoJ2InKQogICAgICAgICAgICBub3RDaGFyKCd4JykKICAgICAgICAgICAgZGlnaXQoKQogICAgICAgIH0KCiAgICAgICAgdmFsIGNvbXBsZXhHcmFwaCA9IGNvbXBsZXhCdWlsZGVyLmJ1aWxkKGNvbXBsZXhQYXR0ZXJuKQogICAgICAgIGNvbXBsZXhHcmFwaC5yZXNldCgpCiAgICAgICAgY29tcGxleEdyYXBoLnByb2Nlc3NDaGFyKCdhJykKICAgICAgICBjb21wbGV4R3JhcGgucHJvY2Vzc0NoYXIoJ0InKSAvLyDlpKflhplC5Lmf5Yy56YWNCiAgICAgICAgY29tcGxleEdyYXBoLnByb2Nlc3NDaGFyKCdjJykgLy8g5LiN5pivJ3gn77yM5omA5Lul5Yy56YWNCiAgICAgICAgdmFsIHJlc3VsdDIgPSBjb21wbGV4R3JhcGgucHJvY2Vzc0NoYXIoJzEnKQogICAgICAgIGFzc2VydFRydWUocmVzdWx0MiBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaCAmJiByZXN1bHQyLmlzRnVsbE1hdGNoKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFJlcGVhdCgpIHsKICAgICAgICB2YWwgcGF0dGVybiA9IGttcFBhdHRlcm4gewogICAgICAgICAgICByZXBlYXQoMykgeyBjaGFyKCdhJykgfQogICAgICAgICAgICBub3RDaGFyKCdiJykKICAgICAgICB9CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgIHZhbCBncmFwaCA9IGJ1aWxkZXIuYnVpbGQocGF0dGVybikKCiAgICAgICAgLy8gVGhlIHBhdHRlcm4gaXMgImFhYSIgZm9sbG93ZWQgYnkgbm90ICdiJy4KICAgICAgICAvLyBUZXN0IHdpdGggImFhYWEiCiAgICAgICAgZ3JhcGgucmVzZXQoKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdhJykgLy8gYQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdhJykgLy8gYWEKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcignYScpIC8vIGFhYQogICAgICAgIHZhbCByZXN1bHQxID0gZ3JhcGgucHJvY2Vzc0NoYXIoJ2EnKSAvLyBhYWFhLCAnYScgbWF0Y2hlcyBub3RDaGFyKCdiJyksIGZpbmFsIHN0YXRlCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXN1bHQxIGlzIFN0cmVhbUttcE1hdGNoUmVzdWx0Lk1hdGNoICYmIHJlc3VsdDEuaXNGdWxsTWF0Y2gpCgogICAgICAgIC8vIFRlc3Qgd2l0aCAiYWFhYyIKICAgICAgICBncmFwaC5yZXNldCgpCiAgICAgICAgZ3JhcGgucHJvY2Vzc0NoYXIoJ2EnKSAvLyBhCiAgICAgICAgZ3JhcGgucHJvY2Vzc0NoYXIoJ2EnKSAvLyBhYQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdhJykgLy8gYWFhCiAgICAgICAgdmFsIHJlc3VsdDIgPSBncmFwaC5wcm9jZXNzQ2hhcignYycpIC8vIGFhYWMsICdjJyBtYXRjaGVzIG5vdENoYXIoJ2InKSwgZmluYWwgc3RhdGUKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdDIgaXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTWF0Y2ggJiYgcmVzdWx0Mi5pc0Z1bGxNYXRjaCkKCiAgICAgICAgLy8gVGVzdCB3aXRoICJhYWFiIiAtIHNob3VsZCBmYWlsIG9uICdiJwogICAgICAgIGdyYXBoLnJlc2V0KCkKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcignYScpCiAgICAgICAgZ3JhcGgucHJvY2Vzc0NoYXIoJ2EnKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdhJykKICAgICAgICB2YWwgcmVzdWx0MyA9IGdyYXBoLnByb2Nlc3NDaGFyKCdiJykgLy8gJ2InIGRvZXMgbm90IG1hdGNoIG5vdENoYXIoJ2InKSwgc28gaXQgZmFpbHMuCiAgICAgICAgYXNzZXJ0RmFsc2UocmVzdWx0MyBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaCAmJiByZXN1bHQzLmlzRnVsbE1hdGNoKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdEdyZWVkeVN0YXIoKSB7CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQoKICAgICAgICAvLyBUZXN0IGNhc2UgZnJvbSB1c2VyIHByb21wdDogKG5vdCAnYScpKmEKICAgICAgICB2YWwgcGF0dGVybjEgPSBrbXBQYXR0ZXJuIHsKICAgICAgICAgICAgZ3JlZWR5U3RhciB7IG5vdENoYXIoJ2EnKSB9CiAgICAgICAgICAgIGNoYXIoJ2EnKQogICAgICAgIH0KICAgICAgICB2YWwgZ3JhcGgxID0gYnVpbGRlci5idWlsZChwYXR0ZXJuMSkKCiAgICAgICAgLy8gRm9yICJiYmJhIiwgdGhlIHBhdHRlcm4gbWF0Y2hlcyB0aGUgd2hvbGUgc3RyaW5nLgogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoNCksIGdyYXBoMS5wcm9jZXNzVGV4dCgiYmJiYSIpKQogICAgICAgIGdyYXBoMS5yZXNldCgpCiAgICAgICAgLy8gRm9yICJhIiwgdGhlIGdyZWVkeSBzdGFyIG1hdGNoZXMgemVybyBjaGFyYWN0ZXJzLCB0aGVuICdhJyBtYXRjaGVzLgogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoMSksIGdyYXBoMS5wcm9jZXNzVGV4dCgiYSIpKQogICAgICAgIGdyYXBoMS5yZXNldCgpCiAgICAgICAgLy8gRm9yICJiYmFfYmJhIiwgaXQgc2hvdWxkIGZpbmQgdHdvIG5vbi1vdmVybGFwcGluZyBtYXRjaGVzCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigzLCA3KSwgZ3JhcGgxLnByb2Nlc3NUZXh0KCJiYmFfYmJhIikpCgogICAgICAgIC8vIFRlc3QgY2FzZSB3aXRoIGFtYmlndWl0eTogYSguKiliCiAgICAgICAgdmFsIHBhdHRlcm4yID0ga21wUGF0dGVybiB7CiAgICAgICAgICAgIGNoYXIoJ2EnKQogICAgICAgICAgICBncmVlZHlTdGFyIHsgYW55KCkgfQogICAgICAgICAgICBjaGFyKCdiJykKICAgICAgICB9CiAgICAgICAgdmFsIGdyYXBoMiA9IGJ1aWxkZXIuYnVpbGQocGF0dGVybjIpCgogICAgICAgIC8vIFNob3VsZCBtYXRjaCAiYXh4eGIiIGluICJheHh4Ynl5eSIuIHByb2Nlc3NUZXh0IG5vdyByZXNldHMsIHNvIHdlIHRlc3QgdGhlIHdob2xlCiAgICAgICAgLy8gc2VxdWVuY2UuCiAgICAgICAgdmFsIG1hdGNoZXMgPSBncmFwaDIucHJvY2Vzc1RleHQoImF4eHhieXl5YXhiIikKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKDUsIDExKSwgbWF0Y2hlcykKCiAgICAgICAgLy8gU2hvdWxkIGZpbmQgbXVsdGlwbGUgbWF0Y2hlcyBjb3JyZWN0bHkKICAgICAgICBncmFwaDIucmVzZXQoKQogICAgICAgIHZhbCBtYXRjaGVzMiA9IGdyYXBoMi5wcm9jZXNzVGV4dCgiYWItLWF4Yi0tYWIiKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoMiwgNywgMTEpLCBtYXRjaGVzMikKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RHcmVlZHlTdGFyQXRFbmQoKSB7CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgIHZhbCBwYXR0ZXJuID0ga21wUGF0dGVybiB7CiAgICAgICAgICAgIGNoYXIoJ2EnKQogICAgICAgICAgICBncmVlZHlTdGFyIHsgY2hhcignYicpIH0KICAgICAgICB9CiAgICAgICAgdmFsIGdyYXBoID0gYnVpbGRlci5idWlsZChwYXR0ZXJuKQoKICAgICAgICAvLyBUZXN0IG1hdGNoaW5nIHNlcXVlbmNlcy4gcHJvY2Vzc1RleHQgZmluZHMgbm9uLW92ZXJsYXBwaW5nIG1hdGNoZXMuCiAgICAgICAgLy8gImFiYiIgaXMgb25lIG1hdGNoLiAiYyIgcmVzZXRzLiAiYWIiIGlzIGFub3RoZXIgbWF0Y2guCiAgICAgICAgdmFsIG1hdGNoZXMgPSBncmFwaC5wcm9jZXNzVGV4dCgiYWJiY2FiIikKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKDEsIDIsIDMsIDUsIDYpLCBtYXRjaGVzKQoKICAgICAgICAvLyBUZXN0IHNpbmdsZSBgYWAgbWF0Y2gKICAgICAgICBncmFwaC5yZXNldCgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxKSwgZ3JhcGgucHJvY2Vzc1RleHQoImEiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RTdHJlYW1pbmdNYXRjaENhcHR1cmUoKSB7CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgIHZhbCBwYXR0ZXJuID0ga21wUGF0dGVybiB7CiAgICAgICAgICAgIGdyb3VwKDEpIHsKICAgICAgICAgICAgICAgIGNoYXIoJ2EnKQogICAgICAgICAgICAgICAgY2hhcignYicpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2hhcignYycpCiAgICAgICAgfQogICAgICAgIHZhbCBncmFwaCA9IGJ1aWxkZXIuYnVpbGQocGF0dGVybikKCiAgICAgICAgLy8gVGVzdCBhIHN1Y2Nlc3NmdWwgbWF0Y2gKICAgICAgICBncmFwaC5yZXNldCgpCiAgICAgICAgdmFyIHJlc3VsdDogU3RyZWFtS21wTWF0Y2hSZXN1bHQgPSBTdHJlYW1LbXBNYXRjaFJlc3VsdC5Ob01hdGNoCgogICAgICAgIHByaW50bG4oIuWIneWni3Jlc3VsdDogJHJlc3VsdCIpCgogICAgICAgIHJlc3VsdCA9IGdyYXBoLnByb2Nlc3NDaGFyKCdhJykKICAgICAgICBwcmludGxuKCLlpITnkIblrZfnrKYgJ2EnIOWQjueahHJlc3VsdDogJHJlc3VsdCIpCgogICAgICAgIHJlc3VsdCA9IGdyYXBoLnByb2Nlc3NDaGFyKCdiJykKICAgICAgICBwcmludGxuKCLlpITnkIblrZfnrKYgJ2InIOWQjueahHJlc3VsdDogJHJlc3VsdCIpCgogICAgICAgIHJlc3VsdCA9IGdyYXBoLnByb2Nlc3NDaGFyKCdjJykKICAgICAgICBwcmludGxuKCLlpITnkIblrZfnrKYgJ2MnIOWQjueahHJlc3VsdDogJHJlc3VsdCIpCgogICAgICAgIGFzc2VydFRydWUocmVzdWx0IGlzIFN0cmVhbUttcE1hdGNoUmVzdWx0Lk1hdGNoKQogICAgICAgIHZhbCBtYXRjaCA9IHJlc3VsdCBhcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaAogICAgICAgIGFzc2VydFRydWUobWF0Y2guaXNGdWxsTWF0Y2gpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJhYiIsIG1hdGNoLmdyb3Vwc1tHUk9VUF9UQUdfTkFNRV0pCgogICAgICAgIC8vIOa1i+ivleabtOWkmuaDheWGtQogICAgICAgIHByaW50bG4oIlxu5rWL6K+V5LiN5Yy56YWN55qE5oOF5Ya177yaIikKICAgICAgICBncmFwaC5yZXNldCgpCiAgICAgICAgcmVzdWx0ID0gZ3JhcGgucHJvY2Vzc0NoYXIoJ3gnKQogICAgICAgIHByaW50bG4oIuWkhOeQhuWtl+espiAneCcg5ZCO55qEcmVzdWx0OiAkcmVzdWx0IikKCiAgICAgICAgcHJpbnRsbigiXG7mtYvor5Xpg6jliIbljLnphY3lkI7lpLHotKXnmoTmg4XlhrXvvJoiKQogICAgICAgIGdyYXBoLnJlc2V0KCkKICAgICAgICByZXN1bHQgPSBncmFwaC5wcm9jZXNzQ2hhcignYScpCiAgICAgICAgcHJpbnRsbigi5aSE55CG5a2X56ymICdhJyDlkI7nmoRyZXN1bHQ6ICRyZXN1bHQiKQogICAgICAgIHJlc3VsdCA9IGdyYXBoLnByb2Nlc3NDaGFyKCd4JykKICAgICAgICBwcmludGxuKCLlpITnkIblrZfnrKYgJ3gnIOWQjueahHJlc3VsdDogJHJlc3VsdCIpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0QWR2YW5jZWRHcm91cENhcHR1cmUoKSB7CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQoKICAgICAgICAvLyDmtYvor5XlpJrkuKrliIbnu4QKICAgICAgICB2YWwgbXVsdGlHcm91cFBhdHRlcm4gPSBrbXBQYXR0ZXJuIHsKICAgICAgICAgICAgZ3JvdXAoMSkgeyBjaGFyKCdhJykgfQogICAgICAgICAgICBjaGFyKCctJykKICAgICAgICAgICAgZ3JvdXAoMikgeyBkaWdpdCgpIH0KICAgICAgICB9CgogICAgICAgIHZhciBncmFwaCA9IGJ1aWxkZXIuYnVpbGQobXVsdGlHcm91cFBhdHRlcm4pCiAgICAgICAgZ3JhcGgucmVzZXQoKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCdhJykKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcignLScpCiAgICAgICAgdmFyIHJlc3VsdCA9IGdyYXBoLnByb2Nlc3NDaGFyKCc1JykKCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXN1bHQgaXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTWF0Y2gpCiAgICAgICAgdmFyIG1hdGNoID0gcmVzdWx0IGFzIFN0cmVhbUttcE1hdGNoUmVzdWx0Lk1hdGNoCiAgICAgICAgYXNzZXJ0VHJ1ZShtYXRjaC5pc0Z1bGxNYXRjaCkKICAgICAgICBhc3NlcnRFcXVhbHMoImEiLCBtYXRjaC5ncm91cHNbMV0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCI1IiwgbWF0Y2guZ3JvdXBzWzJdKQoKICAgICAgICAvLyDmtYvor5XltYzlpZfliIbnu4QKICAgICAgICB2YWwgbmVzdGVkR3JvdXBQYXR0ZXJuID0ga21wUGF0dGVybiB7CiAgICAgICAgICAgIGdyb3VwKDEpIHsKICAgICAgICAgICAgICAgIGNoYXIoJygnKQogICAgICAgICAgICAgICAgZ3JvdXAoMikgewogICAgICAgICAgICAgICAgICAgIGxldHRlcigpCiAgICAgICAgICAgICAgICAgICAgZGlnaXQoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2hhcignKScpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGdyYXBoID0gYnVpbGRlci5idWlsZChuZXN0ZWRHcm91cFBhdHRlcm4pCiAgICAgICAgZ3JhcGgucmVzZXQoKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCcoJykKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcigneCcpCiAgICAgICAgZ3JhcGgucHJvY2Vzc0NoYXIoJzcnKQogICAgICAgIHJlc3VsdCA9IGdyYXBoLnByb2Nlc3NDaGFyKCcpJykKCiAgICAgICAgYXNzZXJ0VHJ1ZShyZXN1bHQgaXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTWF0Y2gpCiAgICAgICAgbWF0Y2ggPSByZXN1bHQgYXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTWF0Y2gKICAgICAgICBhc3NlcnRUcnVlKG1hdGNoLmlzRnVsbE1hdGNoKQogICAgICAgIGFzc2VydEVxdWFscygiKHg3KSIsIG1hdGNoLmdyb3Vwc1sxXSkKICAgICAgICBhc3NlcnRFcXVhbHMoIng3IiwgbWF0Y2guZ3JvdXBzWzJdKQoKICAgICAgICAvLyDmtYvor5XliIbnu4TkuI7otKrlqarmmJ/lj7fnu4TlkIgKICAgICAgICB2YWwgZ3JlZWR5R3JvdXBQYXR0ZXJuID0ga21wUGF0dGVybiB7CiAgICAgICAgICAgIGdyb3VwKDEpIHsKICAgICAgICAgICAgICAgIGNoYXIoJ2EnKQogICAgICAgICAgICAgICAgZ3JlZWR5U3RhciB7IG5vdENoYXIoJ2InKSB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2hhcignYicpCiAgICAgICAgfQoKICAgICAgICBncmFwaCA9IGJ1aWxkZXIuYnVpbGQoZ3JlZWR5R3JvdXBQYXR0ZXJuKQogICAgICAgIGdyYXBoLnJlc2V0KCkKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcignYScpCiAgICAgICAgZ3JhcGgucHJvY2Vzc0NoYXIoJ3gnKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCd5JykKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcigneicpCiAgICAgICAgcmVzdWx0ID0gZ3JhcGgucHJvY2Vzc0NoYXIoJ2InKQoKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdCBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaCkKICAgICAgICBtYXRjaCA9IHJlc3VsdCBhcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaAogICAgICAgIGFzc2VydFRydWUobWF0Y2guaXNGdWxsTWF0Y2gpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJheHl6IiwgbWF0Y2guZ3JvdXBzWzFdKQoKICAgICAgICAvLyDmtYvor5XliIbnu4TkuI7ph43lpI3nu4TlkIgKICAgICAgICB2YWwgcmVwZWF0R3JvdXBQYXR0ZXJuID0ga21wUGF0dGVybiB7IGdyb3VwKDEpIHsgcmVwZWF0KDIpIHsgZGlnaXQoKSB9IH0gfQoKICAgICAgICBncmFwaCA9IGJ1aWxkZXIuYnVpbGQocmVwZWF0R3JvdXBQYXR0ZXJuKQogICAgICAgIGdyYXBoLnJlc2V0KCkKICAgICAgICBncmFwaC5wcm9jZXNzQ2hhcignMScpCiAgICAgICAgcmVzdWx0ID0gZ3JhcGgucHJvY2Vzc0NoYXIoJzInKQoKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdCBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaCkKICAgICAgICBtYXRjaCA9IHJlc3VsdCBhcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaAogICAgICAgIGFzc2VydFRydWUobWF0Y2guaXNGdWxsTWF0Y2gpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIxMiIsIG1hdGNoLmdyb3Vwc1sxXSkKCiAgICAgICAgLy8g5rWL6K+V5YiG57uE5YaF5L2/55So5aSN5p2C5p2h5Lu2CiAgICAgICAgdmFsIGNvbXBsZXhHcm91cFBhdHRlcm4gPSBrbXBQYXR0ZXJuIHsKICAgICAgICAgICAgZ3JvdXAoMSkgewogICAgICAgICAgICAgICAgY2hhcigneCcpCiAgICAgICAgICAgICAgICBncm91cCgyKSB7IHByZWRpY2F0ZSgi5YG25pWwIikgeyBpdC5pc0RpZ2l0KCkgJiYgaXQuZGlnaXRUb0ludCgpICUgMiA9PSAwIH0gfQogICAgICAgICAgICAgICAgY2hhcklnbm9yZUNhc2UoJ3knKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBncmFwaCA9IGJ1aWxkZXIuYnVpbGQoY29tcGxleEdyb3VwUGF0dGVybikKICAgICAgICBncmFwaC5yZXNldCgpCiAgICAgICAgZ3JhcGgucHJvY2Vzc0NoYXIoJ3gnKQogICAgICAgIGdyYXBoLnByb2Nlc3NDaGFyKCc0JykKICAgICAgICByZXN1bHQgPSBncmFwaC5wcm9jZXNzQ2hhcignWScpCgogICAgICAgIGFzc2VydFRydWUocmVzdWx0IGlzIFN0cmVhbUttcE1hdGNoUmVzdWx0Lk1hdGNoKQogICAgICAgIG1hdGNoID0gcmVzdWx0IGFzIFN0cmVhbUttcE1hdGNoUmVzdWx0Lk1hdGNoCiAgICAgICAgYXNzZXJ0VHJ1ZShtYXRjaC5pc0Z1bGxNYXRjaCkKICAgICAgICBhc3NlcnRFcXVhbHMoIng0WSIsIG1hdGNoLmdyb3Vwc1sxXSkKICAgICAgICBhc3NlcnRFcXVhbHMoIjQiLCBtYXRjaC5ncm91cHNbMl0pCiAgICB9Cn0KCnByaXZhdGUgY29uc3QgdmFsIEdST1VQX1RBR19OQU1FID0gMQo=
+package com.bslsjdk.operit.util.stream
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.filters.MediumTest
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+@MediumTest
+class StreamKmpGraphTest {
+
+    @Test
+    fun testCharCondition() {
+        val condition = CharCondition('a')
+        assertTrue(condition.matches('a'))
+        assertFalse(condition.matches('b'))
+        assertEquals("'a'", condition.getDescription())
+    }
+
+    @Test
+    fun testCharRangeCondition() {
+        val condition = CharRangeCondition('a', 'c')
+        assertTrue(condition.matches('a'))
+        assertTrue(condition.matches('b'))
+        assertTrue(condition.matches('c'))
+        assertFalse(condition.matches('d'))
+        assertEquals("[a-c]", condition.getDescription())
+    }
+
+    @Test
+    fun testCharSetCondition() {
+        val condition = CharSetCondition('a', 'c', 'e')
+        assertTrue(condition.matches('a'))
+        assertFalse(condition.matches('b'))
+        assertTrue(condition.matches('c'))
+        assertFalse(condition.matches('d'))
+        assertTrue(condition.matches('e'))
+        assertEquals("[ace]", condition.getDescription())
+    }
+
+    @Test
+    fun testNotCondition() {
+        val baseCondition = CharCondition('a')
+        val notCondition = NotCondition(baseCondition)
+        assertFalse(notCondition.matches('a'))
+        assertTrue(notCondition.matches('b'))
+        assertEquals("not('a')", notCondition.getDescription())
+    }
+
+    @Test
+    fun testOrCondition() {
+        val condition = OrCondition(CharCondition('a'), CharCondition('b'), CharCondition('c'))
+        assertTrue(condition.matches('a'))
+        assertTrue(condition.matches('b'))
+        assertTrue(condition.matches('c'))
+        assertFalse(condition.matches('d'))
+        assertTrue(condition.getDescription().contains("OR"))
+    }
+
+    @Test
+    fun testAndCondition() {
+        val condition =
+                AndCondition(
+                        CharRangeCondition('a', 'z'),
+                        NotCondition(CharSetCondition('x', 'y', 'z'))
+                )
+        assertTrue(condition.matches('a'))
+        assertTrue(condition.matches('b'))
+        assertFalse(condition.matches('x'))
+        assertFalse(condition.matches('y'))
+        assertFalse(condition.matches('z'))
+        assertTrue(condition.getDescription().contains("AND"))
+    }
+
+    @Test
+    fun testPredicateCondition() {
+        val condition = PredicateCondition("isDigit") { it.isDigit() }
+        assertTrue(condition.matches('0'))
+        assertTrue(condition.matches('9'))
+        assertFalse(condition.matches('a'))
+        assertEquals("isDigit", condition.getDescription())
+    }
+
+    @Test
+    fun testStreamKmpGraphProcessText() {
+        val builder = StreamKmpGraphBuilder()
+        val graph = builder.build(kmpPattern { literal("abc") })
+
+        val matches = graph.processText("ababcabc")
+        assertEquals(listOf(5, 8), matches)
+    }
+
+    @Test
+    fun testStreamKmpGraphBuilder() {
+        // 测试字符串模式构建
+        val builder1 = StreamKmpGraphBuilder()
+        val graph1 = builder1.build(kmpPattern { literal("test") })
+
+        graph1.reset()
+        assertNotEquals(StreamKmpMatchResult.NoMatch, graph1.processChar('t'))
+        assertNotEquals(StreamKmpMatchResult.NoMatch, graph1.processChar('e'))
+        assertNotEquals(StreamKmpMatchResult.NoMatch, graph1.processChar('s'))
+        val result = graph1.processChar('t')
+        assertTrue(result is StreamKmpMatchResult.Match && result.isFullMatch)
+
+        // 测试条件列表构建
+        val builder2 = StreamKmpGraphBuilder()
+        val conditions =
+                listOf(
+                        CharCondition('a'),
+                        CharRangeCondition('1', '3'),
+                        CharSetCondition('x', 'y', 'z')
+                )
+        val graph2 = builder2.build(kmpPattern { conditions.forEach { add(it) } })
+
+        graph2.reset()
+        assertNotEquals(StreamKmpMatchResult.NoMatch, graph2.processChar('a'))
+        assertNotEquals(StreamKmpMatchResult.NoMatch, graph2.processChar('2'))
+        val result2 = graph2.processChar('y')
+        assertTrue(result2 is StreamKmpMatchResult.Match && result2.isFullMatch)
+    }
+
+    @Test
+    fun testComplexPattern() {
+        val builder = StreamKmpGraphBuilder()
+        val conditions =
+                listOf(
+                        OrCondition(CharCondition('a'), CharCondition('A')),
+                        OrCondition(CharCondition('b'), CharCondition('B')),
+                        OrCondition(CharCondition('c'), CharCondition('C'))
+                )
+        val graph = builder.build(kmpPattern { conditions.forEach { add(it) } })
+
+        // 测试小写匹配
+        graph.reset()
+        graph.processChar('a')
+        graph.processChar('b')
+        assertTrue((graph.processChar('c') as StreamKmpMatchResult.Match).isFullMatch)
+
+        // 测试大写匹配
+        graph.reset()
+        graph.processChar('A')
+        graph.processChar('B')
+        assertTrue((graph.processChar('C') as StreamKmpMatchResult.Match).isFullMatch)
+
+        // 测试混合匹配
+        graph.reset()
+        graph.processChar('a')
+        graph.processChar('B')
+        assertTrue((graph.processChar('c') as StreamKmpMatchResult.Match).isFullMatch)
+    }
+
+    @Test
+    fun testFailureTransitions() {
+        val builder = StreamKmpGraphBuilder()
+        val graph = builder.build(kmpPattern { literal("ABABC") })
+
+        val text = "ABABABABC"
+        val matches = graph.processText(text)
+
+        assertEquals(1, matches.size)
+        assertEquals(text.length, matches[0])
+    }
+
+    @Test
+    fun testKmpConditionOperators() {
+        // 测试加法操作符 (OR)
+        val orCondition = CharCondition('a') + CharCondition('b')
+        assertTrue(orCondition.matches('a'))
+        assertTrue(orCondition.matches('b'))
+        assertFalse(orCondition.matches('c'))
+
+        // 测试乘法操作符 (AND)
+        val andCondition = CharRangeCondition('a', 'z') * CharRangeCondition('m', 'z')
+        assertFalse(andCondition.matches('a')) // 不在两个范围的交集中
+        assertTrue(andCondition.matches('n')) // 在两个范围的交集中
+        assertFalse(andCondition.matches('0'))
+
+        // 测试取反操作符
+        val notCondition = !CharCondition('a')
+        assertFalse(notCondition.matches('a'))
+        assertTrue(notCondition.matches('b'))
+    }
+
+    @Test
+    fun testCharOperators() {
+        // 测试 Char.unaryPlus 操作符
+        val charCondition = +'a'
+        assertTrue(charCondition.matches('a'))
+        assertFalse(charCondition.matches('b'))
+
+        // 测试 or 中缀操作符
+        val ignoreCase = 'a' or 'A'
+        assertTrue(ignoreCase.matches('a'))
+        assertTrue(ignoreCase.matches('A'))
+        assertFalse(ignoreCase.matches('b'))
+
+        // 测试 to 中缀操作符 (字符范围)
+        val rangeCondition = 'a' to 'c'
+        assertTrue(rangeCondition.matches('a'))
+        assertTrue(rangeCondition.matches('b'))
+        assertTrue(rangeCondition.matches('c'))
+        assertFalse(rangeCondition.matches('d'))
+    }
+
+    @Test
+    fun testKmpPatternDSL() {
+        val pattern = kmpPattern {
+            char('a')
+            digit()
+            letter()
+        }
+
+        assertEquals(3, pattern.conditions.size)
+
+        val builder = StreamKmpGraphBuilder()
+        val graph = builder.build(pattern)
+
+        graph.reset()
+        graph.processChar('a')
+        graph.processChar('5')
+        val result = graph.processChar('b')
+        assertTrue(result is StreamKmpMatchResult.Match && result.isFullMatch)
+
+        // 测试特殊字符匹配
+        val specialPattern = kmpPattern { charIgnoreCase('a') }
+
+        val specialGraph = builder.build(specialPattern)
+        specialGraph.reset()
+        val resultA = specialGraph.processChar('a')
+        assertTrue(resultA is StreamKmpMatchResult.Match && resultA.isFullMatch)
+        specialGraph.reset()
+        val resultB = specialGraph.processChar('A')
+        assertTrue(resultB is StreamKmpMatchResult.Match && resultB.isFullMatch)
+    }
+
+    @Test
+    fun testPredefinedConditions() {
+        // 测试预定义常量
+        assertTrue(DIGITS.matches('0'))
+        assertTrue(DIGITS.matches('9'))
+        assertFalse(DIGITS.matches('a'))
+
+        assertTrue(LETTERS.matches('a'))
+        assertTrue(LETTERS.matches('Z'))
+        assertFalse(LETTERS.matches('0'))
+
+        assertTrue(ALPHANUMERIC.matches('a'))
+        assertTrue(ALPHANUMERIC.matches('0'))
+        assertFalse(ALPHANUMERIC.matches('#'))
+
+        assertTrue(WHITESPACE.matches(' '))
+        assertTrue(WHITESPACE.matches('\t'))
+        assertFalse(WHITESPACE.matches('a'))
+
+        assertTrue(ANY_CHAR.matches('a'))
+        assertTrue(ANY_CHAR.matches('0'))
+        assertTrue(ANY_CHAR.matches('#'))
+    }
+
+    @Test
+    fun testNegationFunctions() {
+        // 测试 not 函数
+        val notDigit = not(DIGITS)
+        assertFalse(notDigit.matches('0'))
+        assertTrue(notDigit.matches('a'))
+
+        // 测试 notChars 函数
+        val noVowels = notChars('a', 'e', 'i', 'o', 'u')
+        assertFalse(noVowels.matches('a'))
+        assertTrue(noVowels.matches('b'))
+
+        // 测试 notInRange 函数
+        val notLowerCase = notInRange('a', 'z')
+        assertFalse(notLowerCase.matches('a'))
+        assertTrue(notLowerCase.matches('A'))
+        assertTrue(notLowerCase.matches('0'))
+    }
+
+    @Test
+    fun testInversePredefinedConditions() {
+        // 测试反向预定义常量
+        assertFalse(NOT_DIGITS.matches('0'))
+        assertTrue(NOT_DIGITS.matches('a'))
+
+        assertFalse(NOT_LETTERS.matches('a'))
+        assertTrue(NOT_LETTERS.matches('0'))
+
+        assertFalse(NOT_ALPHANUMERIC.matches('a'))
+        assertFalse(NOT_ALPHANUMERIC.matches('0'))
+        assertTrue(NOT_ALPHANUMERIC.matches('#'))
+
+        assertFalse(NOT_WHITESPACE.matches(' '))
+        assertTrue(NOT_WHITESPACE.matches('a'))
+    }
+
+    @Test
+    fun testKmpPatternNegationMethods() {
+        val pattern = kmpPattern {
+            notChar('a')
+            noneOf('0', '1', '2')
+            notInRange('A', 'Z')
+            notDigit()
+            not(WHITESPACE)
+        }
+
+        assertEquals(5, pattern.conditions.size)
+
+        // 按照上面的条件，字符'b'应该满足所有条件
+        val builder = StreamKmpGraphBuilder()
+        val graph = builder.build(pattern)
+
+        graph.reset()
+        graph.processChar('b') // 匹配第1个条件
+        graph.processChar('b') // 匹配第2个条件
+        graph.processChar('b') // 匹配第3个条件
+        graph.processChar('b') // 匹配第4个条件
+        val result = graph.processChar('b') // 匹配第5个条件，是最后一个，返回true
+        assertTrue(result is StreamKmpMatchResult.Match && result.isFullMatch)
+    }
+
+    @Test
+    fun testComplexDSLPattern() {
+        // 创建一个复杂的模式：字母+数字+非空白字符
+        val pattern = kmpPattern {
+            letter()
+            digit()
+            notWhitespace()
+            any() // 匹配任何字符
+        }
+
+        val builder = StreamKmpGraphBuilder()
+        val graph = builder.build(pattern)
+
+        // 测试正面案例："a1b!"
+        graph.reset()
+        graph.processChar('a')
+        graph.processChar('1')
+        graph.processChar('b')
+        val result = graph.processChar('!')
+        assertTrue(result is StreamKmpMatchResult.Match && result.isFullMatch)
+
+        // 测试复杂模式："ab123"
+        val complexBuilder = StreamKmpGraphBuilder()
+        val complexPattern = kmpPattern {
+            char('a')
+            charIgnoreCase('b')
+            notChar('x')
+            digit()
+        }
+
+        val complexGraph = complexBuilder.build(complexPattern)
+        complexGraph.reset()
+        complexGraph.processChar('a')
+        complexGraph.processChar('B') // 大写B也匹配
+        complexGraph.processChar('c') // 不是'x'，所以匹配
+        val result2 = complexGraph.processChar('1')
+        assertTrue(result2 is StreamKmpMatchResult.Match && result2.isFullMatch)
+    }
+
+    @Test
+    fun testRepeat() {
+        val pattern = kmpPattern {
+            repeat(3) { char('a') }
+            notChar('b')
+        }
+        val builder = StreamKmpGraphBuilder()
+        val graph = builder.build(pattern)
+
+        // The pattern is "aaa" followed by not 'b'.
+        // Test with "aaaa"
+        graph.reset()
+        graph.processChar('a') // a
+        graph.processChar('a') // aa
+        graph.processChar('a') // aaa
+        val result1 = graph.processChar('a') // aaaa, 'a' matches notChar('b'), final state
+        assertTrue(result1 is StreamKmpMatchResult.Match && result1.isFullMatch)
+
+        // Test with "aaac"
+        graph.reset()
+        graph.processChar('a') // a
+        graph.processChar('a') // aa
+        graph.processChar('a') // aaa
+        val result2 = graph.processChar('c') // aaac, 'c' matches notChar('b'), final state
+        assertTrue(result2 is StreamKmpMatchResult.Match && result2.isFullMatch)
+
+        // Test with "aaab" - should fail on 'b'
+        graph.reset()
+        graph.processChar('a')
+        graph.processChar('a')
+        graph.processChar('a')
+        val result3 = graph.processChar('b') // 'b' does not match notChar('b'), so it fails.
+        assertFalse(result3 is StreamKmpMatchResult.Match && result3.isFullMatch)
+    }
+
+    @Test
+    fun testGreedyStar() {
+        val builder = StreamKmpGraphBuilder()
+
+        // Test case from user prompt: (not 'a')*a
+        val pattern1 = kmpPattern {
+            greedyStar { notChar('a') }
+            char('a')
+        }
+        val graph1 = builder.build(pattern1)
+
+        // For "bbba", the pattern matches the whole string.
+        assertEquals(listOf(4), graph1.processText("bbba"))
+        graph1.reset()
+        // For "a", the greedy star matches zero characters, then 'a' matches.
+        assertEquals(listOf(1), graph1.processText("a"))
+        graph1.reset()
+        // For "bba_bba", it should find two non-overlapping matches
+        assertEquals(listOf(3, 7), graph1.processText("bba_bba"))
+
+        // Test case with ambiguity: a(.*)b
+        val pattern2 = kmpPattern {
+            char('a')
+            greedyStar { any() }
+            char('b')
+        }
+        val graph2 = builder.build(pattern2)
+
+        // Should match "axxxb" in "axxxbyyy". processText now resets, so we test the whole
+        // sequence.
+        val matches = graph2.processText("axxxbyyyaxb")
+        assertEquals(listOf(5, 11), matches)
+
+        // Should find multiple matches correctly
+        graph2.reset()
+        val matches2 = graph2.processText("ab--axb--ab")
+        assertEquals(listOf(2, 7, 11), matches2)
+    }
+
+    @Test
+    fun testGreedyStarAtEnd() {
+        val builder = StreamKmpGraphBuilder()
+        val pattern = kmpPattern {
+            char('a')
+            greedyStar { char('b') }
+        }
+        val graph = builder.build(pattern)
+
+        // Test matching sequences. processText finds non-overlapping matches.
+        // "abb" is one match. "c" resets. "ab" is another match.
+        val matches = graph.processText("abbcab")
+        assertEquals(listOf(1, 2, 3, 5, 6), matches)
+
+        // Test single `a` match
+        graph.reset()
+        assertEquals(listOf(1), graph.processText("a"))
+    }
+
+    @Test
+    fun testStreamingMatchCapture() {
+        val builder = StreamKmpGraphBuilder()
+        val pattern = kmpPattern {
+            group(1) {
+                char('a')
+                char('b')
+            }
+            char('c')
+        }
+        val graph = builder.build(pattern)
+
+        // Test a successful match
+        graph.reset()
+        var result: StreamKmpMatchResult = StreamKmpMatchResult.NoMatch
+
+        println("初始result: $result")
+
+        result = graph.processChar('a')
+        println("处理字符 'a' 后的result: $result")
+
+        result = graph.processChar('b')
+        println("处理字符 'b' 后的result: $result")
+
+        result = graph.processChar('c')
+        println("处理字符 'c' 后的result: $result")
+
+        assertTrue(result is StreamKmpMatchResult.Match)
+        val match = result as StreamKmpMatchResult.Match
+        assertTrue(match.isFullMatch)
+        assertEquals("ab", match.groups[GROUP_TAG_NAME])
+
+        // 测试更多情况
+        println("\n测试不匹配的情况：")
+        graph.reset()
+        result = graph.processChar('x')
+        println("处理字符 'x' 后的result: $result")
+
+        println("\n测试部分匹配后失败的情况：")
+        graph.reset()
+        result = graph.processChar('a')
+        println("处理字符 'a' 后的result: $result")
+        result = graph.processChar('x')
+        println("处理字符 'x' 后的result: $result")
+    }
+
+    @Test
+    fun testAdvancedGroupCapture() {
+        val builder = StreamKmpGraphBuilder()
+
+        // 测试多个分组
+        val multiGroupPattern = kmpPattern {
+            group(1) { char('a') }
+            char('-')
+            group(2) { digit() }
+        }
+
+        var graph = builder.build(multiGroupPattern)
+        graph.reset()
+        graph.processChar('a')
+        graph.processChar('-')
+        var result = graph.processChar('5')
+
+        assertTrue(result is StreamKmpMatchResult.Match)
+        var match = result as StreamKmpMatchResult.Match
+        assertTrue(match.isFullMatch)
+        assertEquals("a", match.groups[1])
+        assertEquals("5", match.groups[2])
+
+        // 测试嵌套分组
+        val nestedGroupPattern = kmpPattern {
+            group(1) {
+                char('(')
+                group(2) {
+                    letter()
+                    digit()
+                }
+                char(')')
+            }
+        }
+
+        graph = builder.build(nestedGroupPattern)
+        graph.reset()
+        graph.processChar('(')
+        graph.processChar('x')
+        graph.processChar('7')
+        result = graph.processChar(')')
+
+        assertTrue(result is StreamKmpMatchResult.Match)
+        match = result as StreamKmpMatchResult.Match
+        assertTrue(match.isFullMatch)
+        assertEquals("(x7)", match.groups[1])
+        assertEquals("x7", match.groups[2])
+
+        // 测试分组与贪婪星号组合
+        val greedyGroupPattern = kmpPattern {
+            group(1) {
+                char('a')
+                greedyStar { notChar('b') }
+            }
+            char('b')
+        }
+
+        graph = builder.build(greedyGroupPattern)
+        graph.reset()
+        graph.processChar('a')
+        graph.processChar('x')
+        graph.processChar('y')
+        graph.processChar('z')
+        result = graph.processChar('b')
+
+        assertTrue(result is StreamKmpMatchResult.Match)
+        match = result as StreamKmpMatchResult.Match
+        assertTrue(match.isFullMatch)
+        assertEquals("axyz", match.groups[1])
+
+        // 测试分组与重复组合
+        val repeatGroupPattern = kmpPattern { group(1) { repeat(2) { digit() } } }
+
+        graph = builder.build(repeatGroupPattern)
+        graph.reset()
+        graph.processChar('1')
+        result = graph.processChar('2')
+
+        assertTrue(result is StreamKmpMatchResult.Match)
+        match = result as StreamKmpMatchResult.Match
+        assertTrue(match.isFullMatch)
+        assertEquals("12", match.groups[1])
+
+        // 测试分组内使用复杂条件
+        val complexGroupPattern = kmpPattern {
+            group(1) {
+                char('x')
+                group(2) { predicate("偶数") { it.isDigit() && it.digitToInt() % 2 == 0 } }
+                charIgnoreCase('y')
+            }
+        }
+
+        graph = builder.build(complexGroupPattern)
+        graph.reset()
+        graph.processChar('x')
+        graph.processChar('4')
+        result = graph.processChar('Y')
+
+        assertTrue(result is StreamKmpMatchResult.Match)
+        match = result as StreamKmpMatchResult.Match
+        assertTrue(match.isFullMatch)
+        assertEquals("x4Y", match.groups[1])
+        assertEquals("4", match.groups[2])
+    }
+}
+
+private const val GROUP_TAG_NAME = 1

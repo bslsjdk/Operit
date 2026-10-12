@@ -1,1 +1,285 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLlByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5ib29sZWFuUHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmVkaXQKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmxvbmdQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuc3RyaW5nUHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5wcmVmZXJlbmNlc0RhdGFTdG9yZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmlyc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lm1hcAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbE5hbWUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKcHJpdmF0ZSB2YWwgQ29udGV4dC5naXRodWJBdXRoRGF0YVN0b3JlOiBEYXRhU3RvcmU8UHJlZmVyZW5jZXM+IGJ5CiAgICBwcmVmZXJlbmNlc0RhdGFTdG9yZShuYW1lID0gImdpdGh1Yl9hdXRoX3ByZWZlcmVuY2VzIikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBHaXRIdWJVc2VyKAogICAgQFNlcmlhbE5hbWUoImlkIikgdmFsIGlkOiBMb25nLAogICAgQFNlcmlhbE5hbWUoImxvZ2luIikgdmFsIGxvZ2luOiBTdHJpbmcsCiAgICBAU2VyaWFsTmFtZSgibmFtZSIpIHZhbCBuYW1lOiBTdHJpbmc/ID0gbnVsbCwKICAgIEBTZXJpYWxOYW1lKCJlbWFpbCIpIHZhbCBlbWFpbDogU3RyaW5nPyA9IG51bGwsCiAgICBAU2VyaWFsTmFtZSgiYXZhdGFyX3VybCIpIHZhbCBhdmF0YXJVcmw6IFN0cmluZywKICAgIEBTZXJpYWxOYW1lKCJiaW8iKSB2YWwgYmlvOiBTdHJpbmc/ID0gbnVsbCwKICAgIEBTZXJpYWxOYW1lKCJwdWJsaWNfcmVwb3MiKSB2YWwgcHVibGljUmVwb3M6IEludD8gPSBudWxsLAogICAgQFNlcmlhbE5hbWUoImZvbGxvd2VycyIpIHZhbCBmb2xsb3dlcnM6IEludD8gPSBudWxsLAogICAgQFNlcmlhbE5hbWUoImZvbGxvd2luZyIpIHZhbCBmb2xsb3dpbmc6IEludD8gPSBudWxsCikKCi8qKgogKiBHaXRIdWLorqTor4HlgY/lpb3orr7nva7nrqHnkIblmagKICog6LSf6LSj566h55CGR2l0SHViIE9BdXRo6K6k6K+B54q25oCB44CB55So5oi35L+h5oGv5ZKM6K6/6Zeu5Luk54mMCiAqLwpjbGFzcyBHaXRIdWJBdXRoUHJlZmVyZW5jZXMocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGNvbnN0IHZhbCBHSVRIVUJfU0NPUEUgPSAibm90aWZpY2F0aW9ucyxwdWJsaWNfcmVwbyx1c2VyOmVtYWlsLHJlYWQ6dXNlciIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVFVSVJFRF9BVVRIX1ZFUlNJT04gPSAzCiAgICAgICAgCiAgICAgICAgLy8g6K6k6K+B55u45YWz6ZSuCiAgICAgICAgcHJpdmF0ZSB2YWwgSVNfTE9HR0VEX0lOID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCJpc19sb2dnZWRfaW4iKQogICAgICAgIHByaXZhdGUgdmFsIEFDQ0VTU19UT0tFTiA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJhY2Nlc3NfdG9rZW4iKQogICAgICAgIHByaXZhdGUgdmFsIFRPS0VOX1RZUEUgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgidG9rZW5fdHlwZSIpCiAgICAgICAgcHJpdmF0ZSB2YWwgVE9LRU5fRVhQSVJFU19BVCA9IGxvbmdQcmVmZXJlbmNlc0tleSgidG9rZW5fZXhwaXJlc19hdCIpCiAgICAgICAgcHJpdmF0ZSB2YWwgUkVGUkVTSF9UT0tFTiA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJyZWZyZXNoX3Rva2VuIikKICAgICAgICBwcml2YXRlIHZhbCBVU0VSX0lORk8gPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgidXNlcl9pbmZvIikKICAgICAgICBwcml2YXRlIHZhbCBMQVNUX0xPR0lOX1RJTUUgPSBsb25nUHJlZmVyZW5jZXNLZXkoImxhc3RfbG9naW5fdGltZSIpCiAgICAgICAgcHJpdmF0ZSB2YWwgQVVUSF9WRVJTSU9OID0gbG9uZ1ByZWZlcmVuY2VzS2V5KCJhdXRoX3ZlcnNpb24iKQogICAgICAgIHByaXZhdGUgdmFsIEdSQU5URURfU0NPUEUgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgiZ3JhbnRlZF9zY29wZSIpCiAgICAgICAgcHJpdmF0ZSB2YWwgQUNUSVZFX09BVVRIX1RSQU5TQUNUSU9OX0lEID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoImFjdGl2ZV9vYXV0aF90cmFuc2FjdGlvbl9pZCIpCiAgICAgICAgcHJpdmF0ZSB2YWwgQUNUSVZFX09BVVRIX0RFTElWRVJZX0NSRURFTlRJQUwgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgiYWN0aXZlX29hdXRoX2RlbGl2ZXJ5X2NyZWRlbnRpYWwiKQogICAgICAgIHByaXZhdGUgdmFsIEFDVElWRV9PQVVUSF9FWFBJUkVTX0FUID0gbG9uZ1ByZWZlcmVuY2VzS2V5KCJhY3RpdmVfb2F1dGhfZXhwaXJlc19hdCIpCiAgICAgICAgCiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgSU5TVEFOQ0U6IEdpdEh1YkF1dGhQcmVmZXJlbmNlcz8gPSBudWxsCiAgICAgICAgCiAgICAgICAgZnVuIGdldEluc3RhbmNlKGNvbnRleHQ6IENvbnRleHQpOiBHaXRIdWJBdXRoUHJlZmVyZW5jZXMgewogICAgICAgICAgICByZXR1cm4gSU5TVEFOQ0UgPzogc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgICAgIElOU1RBTkNFID86IEdpdEh1YkF1dGhQcmVmZXJlbmNlcyhjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkuYWxzbyB7IElOU1RBTkNFID0gaXQgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIH0KCiAgICBwcml2YXRlIHZhbCBqc29uID0gSnNvbiB7IAogICAgICAgIGlnbm9yZVVua25vd25LZXlzID0gdHJ1ZQogICAgICAgIGlzTGVuaWVudCA9IHRydWUKICAgIH0KCiAgICBwcml2YXRlIHZhbCByZXF1aXJlZFNjb3BlczogU2V0PFN0cmluZz4gPQogICAgICAgIEdJVEhVQl9TQ09QRS5zcGxpdCgiLCIpCiAgICAgICAgICAgIC5tYXAgeyBpdC50cmltKCkubG93ZXJjYXNlKCkgfQogICAgICAgICAgICAuZmlsdGVyIHsgaXQuaXNOb3RFbXB0eSgpIH0KICAgICAgICAgICAgLnRvU2V0KCkKCiAgICBwcml2YXRlIGZ1biBwYXJzZVNjb3BlU2V0KHNjb3BlOiBTdHJpbmc/KTogU2V0PFN0cmluZz4gewogICAgICAgIHJldHVybiBzY29wZQogICAgICAgICAgICA/LnNwbGl0KCIsIikKICAgICAgICAgICAgPy5tYXAgeyBpdC50cmltKCkubG93ZXJjYXNlKCkgfQogICAgICAgICAgICA/LmZpbHRlciB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICAgICAgICAgID8udG9TZXQoKQogICAgICAgICAgICAub3JFbXB0eSgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaXNBdXRoU2Vzc2lvbkN1cnJlbnQocHJlZmVyZW5jZXM6IFByZWZlcmVuY2VzKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIGdyYW50ZWRTY29wZXMgPSBwYXJzZVNjb3BlU2V0KHByZWZlcmVuY2VzW0dSQU5URURfU0NPUEVdKQogICAgICAgIHZhbCBhdXRoVmVyc2lvbiA9IHByZWZlcmVuY2VzW0FVVEhfVkVSU0lPTl0gPzogMEwKICAgICAgICByZXR1cm4gYXV0aFZlcnNpb24gPj0gUkVRVUlSRURfQVVUSF9WRVJTSU9OICYmIGdyYW50ZWRTY29wZXMuY29udGFpbnNBbGwocmVxdWlyZWRTY29wZXMpCiAgICB9CgogICAgLy8g55m75b2V54q25oCBRmxvdwogICAgdmFsIGlzTG9nZ2VkSW5GbG93OiBGbG93PEJvb2xlYW4+ID0gY29udGV4dC5naXRodWJBdXRoRGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAocHJlZmVyZW5jZXNbSVNfTE9HR0VEX0lOXSA/OiBmYWxzZSkgJiYgaXNBdXRoU2Vzc2lvbkN1cnJlbnQocHJlZmVyZW5jZXMpCiAgICB9CgogICAgLy8g6K6/6Zeu5Luk54mMRmxvdwogICAgdmFsIGFjY2Vzc1Rva2VuRmxvdzogRmxvdzxTdHJpbmc/PiA9IGNvbnRleHQuZ2l0aHViQXV0aERhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgaWYgKGlzQXV0aFNlc3Npb25DdXJyZW50KHByZWZlcmVuY2VzKSkgcHJlZmVyZW5jZXNbQUNDRVNTX1RPS0VOXSBlbHNlIG51bGwKICAgIH0KCiAgICAvLyDnlKjmiLfkv6Hmga9GbG93CiAgICB2YWwgdXNlckluZm9GbG93OiBGbG93PEdpdEh1YlVzZXI/PiA9IGNvbnRleHQuZ2l0aHViQXV0aERhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgaWYgKCFpc0F1dGhTZXNzaW9uQ3VycmVudChwcmVmZXJlbmNlcykpIHsKICAgICAgICAgICAgcmV0dXJuQG1hcCBudWxsCiAgICAgICAgfQogICAgICAgIHZhbCB1c2VySW5mb0pzb24gPSBwcmVmZXJlbmNlc1tVU0VSX0lORk9dCiAgICAgICAgaWYgKHVzZXJJbmZvSnNvbiAhPSBudWxsKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBqc29uLmRlY29kZUZyb21TdHJpbmc8R2l0SHViVXNlcj4odXNlckluZm9Kc29uKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgLy8g5pyA5ZCO55m75b2V5pe26Ze0RmxvdwogICAgdmFsIGxhc3RMb2dpblRpbWVGbG93OiBGbG93PExvbmc+ID0gY29udGV4dC5naXRodWJBdXRoRGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICBwcmVmZXJlbmNlc1tMQVNUX0xPR0lOX1RJTUVdID86IDBMCiAgICB9CgogICAgLyoqCiAgICAgKiDkv53lrZjorqTor4Hkv6Hmga8KICAgICAqLwogICAgc3VzcGVuZCBmdW4gc2F2ZUF1dGhJbmZvKAogICAgICAgIGFjY2Vzc1Rva2VuOiBTdHJpbmcsCiAgICAgICAgdG9rZW5UeXBlOiBTdHJpbmcgPSAiYmVhcmVyIiwKICAgICAgICBleHBpcmVzSW46IExvbmc/ID0gbnVsbCwKICAgICAgICByZWZyZXNoVG9rZW46IFN0cmluZz8gPSBudWxsLAogICAgICAgIHVzZXJJbmZvOiBHaXRIdWJVc2VyLAogICAgICAgIGdyYW50ZWRTY29wZTogU3RyaW5nPyA9IG51bGwKICAgICkgewogICAgICAgIGNvbnRleHQuZ2l0aHViQXV0aERhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbSVNfTE9HR0VEX0lOXSA9IHRydWUKICAgICAgICAgICAgcHJlZmVyZW5jZXNbQUNDRVNTX1RPS0VOXSA9IGFjY2Vzc1Rva2VuCiAgICAgICAgICAgIHByZWZlcmVuY2VzW1RPS0VOX1RZUEVdID0gdG9rZW5UeXBlCiAgICAgICAgICAgIHByZWZlcmVuY2VzW1VTRVJfSU5GT10gPSBqc29uLmVuY29kZVRvU3RyaW5nKHVzZXJJbmZvKQogICAgICAgICAgICBwcmVmZXJlbmNlc1tMQVNUX0xPR0lOX1RJTUVdID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgcHJlZmVyZW5jZXNbQVVUSF9WRVJTSU9OXSA9IFJFUVVJUkVEX0FVVEhfVkVSU0lPTi50b0xvbmcoKQogICAgICAgICAgICBwcmVmZXJlbmNlc1tHUkFOVEVEX1NDT1BFXSA9IGdyYW50ZWRTY29wZS5vckVtcHR5KCkKICAgICAgICAgICAgCiAgICAgICAgICAgIGV4cGlyZXNJbj8ubGV0IHsKICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzW1RPS0VOX0VYUElSRVNfQVRdID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgKyAoaXQgKiAxMDAwKQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICByZWZyZXNoVG9rZW4/LmxldCB7CiAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1tSRUZSRVNIX1RPS0VOXSA9IGl0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHJlZnJlc2hUb2tlbiA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBwcmVmZXJlbmNlcy5yZW1vdmUoUkVGUkVTSF9UT0tFTikKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoZXhwaXJlc0luID09IG51bGwpIHsKICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShUT0tFTl9FWFBJUkVTX0FUKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShBQ1RJVkVfT0FVVEhfVFJBTlNBQ1RJT05fSUQpCiAgICAgICAgICAgIHByZWZlcmVuY2VzLnJlbW92ZShBQ1RJVkVfT0FVVEhfREVMSVZFUllfQ1JFREVOVElBTCkKICAgICAgICAgICAgcHJlZmVyZW5jZXMucmVtb3ZlKEFDVElWRV9PQVVUSF9FWFBJUkVTX0FUKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOabtOaWsOeUqOaIt+S/oeaBrwogICAgICovCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVVc2VySW5mbyh1c2VySW5mbzogR2l0SHViVXNlcikgewogICAgICAgIGNvbnRleHQuZ2l0aHViQXV0aERhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbVVNFUl9JTkZPXSA9IGpzb24uZW5jb2RlVG9TdHJpbmcodXNlckluZm8pCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5qOA5p+l5Luk54mM5piv5ZCm5bey6L+H5pyfCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGlzVG9rZW5FeHBpcmVkKCk6IEJvb2xlYW4gewogICAgICAgIHZhbCBwcmVmZXJlbmNlcyA9IGNvbnRleHQuZ2l0aHViQXV0aERhdGFTdG9yZS5kYXRhLmZpcnN0KCkKICAgICAgICB2YWwgZXhwaXJlc0F0ID0gcHJlZmVyZW5jZXNbVE9LRU5fRVhQSVJFU19BVF0gPzogcmV0dXJuIGZhbHNlCiAgICAgICAgcmV0dXJuIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpID49IGV4cGlyZXNBdAogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5b2T5YmN6K6/6Zeu5Luk54mMCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGdldEN1cnJlbnRBY2Nlc3NUb2tlbigpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgcHJlZmVyZW5jZXMgPSBjb250ZXh0LmdpdGh1YkF1dGhEYXRhU3RvcmUuZGF0YS5maXJzdCgpCiAgICAgICAgaWYgKCFpc0F1dGhTZXNzaW9uQ3VycmVudChwcmVmZXJlbmNlcykpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHByZWZlcmVuY2VzW0FDQ0VTU19UT0tFTl0KICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluW9k+WJjeeUqOaIt+S/oeaBrwogICAgICovCiAgICBzdXNwZW5kIGZ1biBnZXRDdXJyZW50VXNlckluZm8oKTogR2l0SHViVXNlcj8gewogICAgICAgIHZhbCBwcmVmZXJlbmNlcyA9IGNvbnRleHQuZ2l0aHViQXV0aERhdGFTdG9yZS5kYXRhLmZpcnN0KCkKICAgICAgICBpZiAoIWlzQXV0aFNlc3Npb25DdXJyZW50KHByZWZlcmVuY2VzKSkgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgICAgICB2YWwgdXNlckluZm9Kc29uID0gcHJlZmVyZW5jZXNbVVNFUl9JTkZPXQogICAgICAgIHJldHVybiBpZiAodXNlckluZm9Kc29uICE9IG51bGwpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGpzb24uZGVjb2RlRnJvbVN0cmluZzxHaXRIdWJVc2VyPih1c2VySW5mb0pzb24pCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOajgOafpeaYr+WQpuW3sueZu+W9lQogICAgICovCiAgICBzdXNwZW5kIGZ1biBpc0xvZ2dlZEluKCk6IEJvb2xlYW4gewogICAgICAgIHZhbCBwcmVmZXJlbmNlcyA9IGNvbnRleHQuZ2l0aHViQXV0aERhdGFTdG9yZS5kYXRhLmZpcnN0KCkKICAgICAgICByZXR1cm4gKHByZWZlcmVuY2VzW0lTX0xPR0dFRF9JTl0gPzogZmFsc2UpICYmIGlzQXV0aFNlc3Npb25DdXJyZW50KHByZWZlcmVuY2VzKQogICAgfQoKICAgIC8qKgogICAgICog55m75Ye6CiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGxvZ291dCgpIHsKICAgICAgICBjb250ZXh0LmdpdGh1YkF1dGhEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzLmNsZWFyKCkKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZUFjdGl2ZU9BdXRoVHJhbnNhY3Rpb24oCiAgICAgICAgdHJhbnNhY3Rpb25JZDogU3RyaW5nLAogICAgICAgIGRlbGl2ZXJ5Q3JlZGVudGlhbDogU3RyaW5nLAogICAgICAgIGV4cGlyZXNBdDogTG9uZwogICAgKSB7CiAgICAgICAgY29udGV4dC5naXRodWJBdXRoRGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tBQ1RJVkVfT0FVVEhfVFJBTlNBQ1RJT05fSURdID0gdHJhbnNhY3Rpb25JZAogICAgICAgICAgICBwcmVmZXJlbmNlc1tBQ1RJVkVfT0FVVEhfREVMSVZFUllfQ1JFREVOVElBTF0gPSBkZWxpdmVyeUNyZWRlbnRpYWwKICAgICAgICAgICAgcHJlZmVyZW5jZXNbQUNUSVZFX09BVVRIX0VYUElSRVNfQVRdID0gZXhwaXJlc0F0CiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGdldEFjdGl2ZU9BdXRoVHJhbnNhY3Rpb24oKTogQWN0aXZlR2l0SHViT0F1dGhUcmFuc2FjdGlvbj8gewogICAgICAgIHZhbCBwcmVmZXJlbmNlcyA9IGNvbnRleHQuZ2l0aHViQXV0aERhdGFTdG9yZS5kYXRhLmZpcnN0KCkKICAgICAgICB2YWwgdHJhbnNhY3Rpb25JZCA9IHByZWZlcmVuY2VzW0FDVElWRV9PQVVUSF9UUkFOU0FDVElPTl9JRF0KICAgICAgICB2YWwgZGVsaXZlcnlDcmVkZW50aWFsID0gcHJlZmVyZW5jZXNbQUNUSVZFX09BVVRIX0RFTElWRVJZX0NSRURFTlRJQUxdCiAgICAgICAgdmFsIGV4cGlyZXNBdCA9IHByZWZlcmVuY2VzW0FDVElWRV9PQVVUSF9FWFBJUkVTX0FUXQogICAgICAgIGlmICh0cmFuc2FjdGlvbklkID09IG51bGwgfHwgZGVsaXZlcnlDcmVkZW50aWFsID09IG51bGwgfHwgZXhwaXJlc0F0ID09IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgaWYgKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpID49IGV4cGlyZXNBdCkgewogICAgICAgICAgICBjbGVhckFjdGl2ZU9BdXRoVHJhbnNhY3Rpb24oKQogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgICAgICByZXR1cm4gQWN0aXZlR2l0SHViT0F1dGhUcmFuc2FjdGlvbih0cmFuc2FjdGlvbklkLCBkZWxpdmVyeUNyZWRlbnRpYWwsIGV4cGlyZXNBdCkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBjbGVhckFjdGl2ZU9BdXRoVHJhbnNhY3Rpb24oKSB7CiAgICAgICAgY29udGV4dC5naXRodWJBdXRoRGF0YVN0b3JlLmVkaXQgeyBtdXRhYmxlUHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgbXV0YWJsZVByZWZlcmVuY2VzLnJlbW92ZShBQ1RJVkVfT0FVVEhfVFJBTlNBQ1RJT05fSUQpCiAgICAgICAgICAgIG11dGFibGVQcmVmZXJlbmNlcy5yZW1vdmUoQUNUSVZFX09BVVRIX0RFTElWRVJZX0NSRURFTlRJQUwpCiAgICAgICAgICAgIG11dGFibGVQcmVmZXJlbmNlcy5yZW1vdmUoQUNUSVZFX09BVVRIX0VYUElSRVNfQVQpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W6K6/6Zeu5Luk54mM55qE5o6I5p2D5aS0CiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGdldEF1dGhvcml6YXRpb25IZWFkZXIoKTogU3RyaW5nPyB7CiAgICAgICAgdmFsIHRva2VuID0gZ2V0Q3VycmVudEFjY2Vzc1Rva2VuKCkKICAgICAgICByZXR1cm4gaWYgKHRva2VuICE9IG51bGwpIHsKICAgICAgICAgICAgIkJlYXJlciAkdG9rZW4iCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KfQoKZGF0YSBjbGFzcyBBY3RpdmVHaXRIdWJPQXV0aFRyYW5zYWN0aW9uKAogICAgdmFsIHRyYW5zYWN0aW9uSWQ6IFN0cmluZywKICAgIHZhbCBkZWxpdmVyeUNyZWRlbnRpYWw6IFN0cmluZywKICAgIHZhbCBleHBpcmVzQXQ6IExvbmcKKQo=
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.longPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+private val Context.githubAuthDataStore: DataStore<Preferences> by
+    preferencesDataStore(name = "github_auth_preferences")
+
+@Serializable
+data class GitHubUser(
+    @SerialName("id") val id: Long,
+    @SerialName("login") val login: String,
+    @SerialName("name") val name: String? = null,
+    @SerialName("email") val email: String? = null,
+    @SerialName("avatar_url") val avatarUrl: String,
+    @SerialName("bio") val bio: String? = null,
+    @SerialName("public_repos") val publicRepos: Int? = null,
+    @SerialName("followers") val followers: Int? = null,
+    @SerialName("following") val following: Int? = null
+)
+
+/**
+ * GitHub认证偏好设置管理器
+ * 负责管理GitHub OAuth认证状态、用户信息和访问令牌
+ */
+class GitHubAuthPreferences(private val context: Context) {
+
+    companion object {
+        const val GITHUB_SCOPE = "notifications,public_repo,user:email,read:user"
+        private const val REQUIRED_AUTH_VERSION = 3
+        
+        // 认证相关键
+        private val IS_LOGGED_IN = booleanPreferencesKey("is_logged_in")
+        private val ACCESS_TOKEN = stringPreferencesKey("access_token")
+        private val TOKEN_TYPE = stringPreferencesKey("token_type")
+        private val TOKEN_EXPIRES_AT = longPreferencesKey("token_expires_at")
+        private val REFRESH_TOKEN = stringPreferencesKey("refresh_token")
+        private val USER_INFO = stringPreferencesKey("user_info")
+        private val LAST_LOGIN_TIME = longPreferencesKey("last_login_time")
+        private val AUTH_VERSION = longPreferencesKey("auth_version")
+        private val GRANTED_SCOPE = stringPreferencesKey("granted_scope")
+        private val ACTIVE_OAUTH_TRANSACTION_ID = stringPreferencesKey("active_oauth_transaction_id")
+        private val ACTIVE_OAUTH_DELIVERY_CREDENTIAL = stringPreferencesKey("active_oauth_delivery_credential")
+        private val ACTIVE_OAUTH_EXPIRES_AT = longPreferencesKey("active_oauth_expires_at")
+        
+        @Volatile
+        private var INSTANCE: GitHubAuthPreferences? = null
+        
+        fun getInstance(context: Context): GitHubAuthPreferences {
+            return INSTANCE ?: synchronized(this) {
+                INSTANCE ?: GitHubAuthPreferences(context.applicationContext).also { INSTANCE = it }
+            }
+        }
+
+    }
+
+    private val json = Json { 
+        ignoreUnknownKeys = true
+        isLenient = true
+    }
+
+    private val requiredScopes: Set<String> =
+        GITHUB_SCOPE.split(",")
+            .map { it.trim().lowercase() }
+            .filter { it.isNotEmpty() }
+            .toSet()
+
+    private fun parseScopeSet(scope: String?): Set<String> {
+        return scope
+            ?.split(",")
+            ?.map { it.trim().lowercase() }
+            ?.filter { it.isNotEmpty() }
+            ?.toSet()
+            .orEmpty()
+    }
+
+    private fun isAuthSessionCurrent(preferences: Preferences): Boolean {
+        val grantedScopes = parseScopeSet(preferences[GRANTED_SCOPE])
+        val authVersion = preferences[AUTH_VERSION] ?: 0L
+        return authVersion >= REQUIRED_AUTH_VERSION && grantedScopes.containsAll(requiredScopes)
+    }
+
+    // 登录状态Flow
+    val isLoggedInFlow: Flow<Boolean> = context.githubAuthDataStore.data.map { preferences ->
+        (preferences[IS_LOGGED_IN] ?: false) && isAuthSessionCurrent(preferences)
+    }
+
+    // 访问令牌Flow
+    val accessTokenFlow: Flow<String?> = context.githubAuthDataStore.data.map { preferences ->
+        if (isAuthSessionCurrent(preferences)) preferences[ACCESS_TOKEN] else null
+    }
+
+    // 用户信息Flow
+    val userInfoFlow: Flow<GitHubUser?> = context.githubAuthDataStore.data.map { preferences ->
+        if (!isAuthSessionCurrent(preferences)) {
+            return@map null
+        }
+        val userInfoJson = preferences[USER_INFO]
+        if (userInfoJson != null) {
+            try {
+                json.decodeFromString<GitHubUser>(userInfoJson)
+            } catch (e: Exception) {
+                null
+            }
+        } else {
+            null
+        }
+    }
+
+    // 最后登录时间Flow
+    val lastLoginTimeFlow: Flow<Long> = context.githubAuthDataStore.data.map { preferences ->
+        preferences[LAST_LOGIN_TIME] ?: 0L
+    }
+
+    /**
+     * 保存认证信息
+     */
+    suspend fun saveAuthInfo(
+        accessToken: String,
+        tokenType: String = "bearer",
+        expiresIn: Long? = null,
+        refreshToken: String? = null,
+        userInfo: GitHubUser,
+        grantedScope: String? = null
+    ) {
+        context.githubAuthDataStore.edit { preferences ->
+            preferences[IS_LOGGED_IN] = true
+            preferences[ACCESS_TOKEN] = accessToken
+            preferences[TOKEN_TYPE] = tokenType
+            preferences[USER_INFO] = json.encodeToString(userInfo)
+            preferences[LAST_LOGIN_TIME] = System.currentTimeMillis()
+            preferences[AUTH_VERSION] = REQUIRED_AUTH_VERSION.toLong()
+            preferences[GRANTED_SCOPE] = grantedScope.orEmpty()
+            
+            expiresIn?.let {
+                preferences[TOKEN_EXPIRES_AT] = System.currentTimeMillis() + (it * 1000)
+            }
+            
+            refreshToken?.let {
+                preferences[REFRESH_TOKEN] = it
+            }
+            if (refreshToken == null) {
+                preferences.remove(REFRESH_TOKEN)
+            }
+            if (expiresIn == null) {
+                preferences.remove(TOKEN_EXPIRES_AT)
+            }
+            preferences.remove(ACTIVE_OAUTH_TRANSACTION_ID)
+            preferences.remove(ACTIVE_OAUTH_DELIVERY_CREDENTIAL)
+            preferences.remove(ACTIVE_OAUTH_EXPIRES_AT)
+        }
+    }
+
+    /**
+     * 更新用户信息
+     */
+    suspend fun updateUserInfo(userInfo: GitHubUser) {
+        context.githubAuthDataStore.edit { preferences ->
+            preferences[USER_INFO] = json.encodeToString(userInfo)
+        }
+    }
+
+    /**
+     * 检查令牌是否已过期
+     */
+    suspend fun isTokenExpired(): Boolean {
+        val preferences = context.githubAuthDataStore.data.first()
+        val expiresAt = preferences[TOKEN_EXPIRES_AT] ?: return false
+        return System.currentTimeMillis() >= expiresAt
+    }
+
+    /**
+     * 获取当前访问令牌
+     */
+    suspend fun getCurrentAccessToken(): String? {
+        val preferences = context.githubAuthDataStore.data.first()
+        if (!isAuthSessionCurrent(preferences)) {
+            return null
+        }
+        return preferences[ACCESS_TOKEN]
+    }
+
+    /**
+     * 获取当前用户信息
+     */
+    suspend fun getCurrentUserInfo(): GitHubUser? {
+        val preferences = context.githubAuthDataStore.data.first()
+        if (!isAuthSessionCurrent(preferences)) {
+            return null
+        }
+        val userInfoJson = preferences[USER_INFO]
+        return if (userInfoJson != null) {
+            try {
+                json.decodeFromString<GitHubUser>(userInfoJson)
+            } catch (e: Exception) {
+                null
+            }
+        } else {
+            null
+        }
+    }
+
+    /**
+     * 检查是否已登录
+     */
+    suspend fun isLoggedIn(): Boolean {
+        val preferences = context.githubAuthDataStore.data.first()
+        return (preferences[IS_LOGGED_IN] ?: false) && isAuthSessionCurrent(preferences)
+    }
+
+    /**
+     * 登出
+     */
+    suspend fun logout() {
+        context.githubAuthDataStore.edit { preferences ->
+            preferences.clear()
+        }
+    }
+
+    suspend fun saveActiveOAuthTransaction(
+        transactionId: String,
+        deliveryCredential: String,
+        expiresAt: Long
+    ) {
+        context.githubAuthDataStore.edit { preferences ->
+            preferences[ACTIVE_OAUTH_TRANSACTION_ID] = transactionId
+            preferences[ACTIVE_OAUTH_DELIVERY_CREDENTIAL] = deliveryCredential
+            preferences[ACTIVE_OAUTH_EXPIRES_AT] = expiresAt
+        }
+    }
+
+    suspend fun getActiveOAuthTransaction(): ActiveGitHubOAuthTransaction? {
+        val preferences = context.githubAuthDataStore.data.first()
+        val transactionId = preferences[ACTIVE_OAUTH_TRANSACTION_ID]
+        val deliveryCredential = preferences[ACTIVE_OAUTH_DELIVERY_CREDENTIAL]
+        val expiresAt = preferences[ACTIVE_OAUTH_EXPIRES_AT]
+        if (transactionId == null || deliveryCredential == null || expiresAt == null) {
+            return null
+        }
+        if (System.currentTimeMillis() >= expiresAt) {
+            clearActiveOAuthTransaction()
+            return null
+        }
+        return ActiveGitHubOAuthTransaction(transactionId, deliveryCredential, expiresAt)
+    }
+
+    suspend fun clearActiveOAuthTransaction() {
+        context.githubAuthDataStore.edit { mutablePreferences ->
+            mutablePreferences.remove(ACTIVE_OAUTH_TRANSACTION_ID)
+            mutablePreferences.remove(ACTIVE_OAUTH_DELIVERY_CREDENTIAL)
+            mutablePreferences.remove(ACTIVE_OAUTH_EXPIRES_AT)
+        }
+    }
+
+    /**
+     * 获取访问令牌的授权头
+     */
+    suspend fun getAuthorizationHeader(): String? {
+        val token = getCurrentAccessToken()
+        return if (token != null) {
+            "Bearer $token"
+        } else {
+            null
+        }
+    }
+}
+
+data class ActiveGitHubOAuthTransaction(
+    val transactionId: String,
+    val deliveryCredential: String,
+    val expiresAt: Long
+)

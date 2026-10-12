@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlckNodW5rVGVzdCB7CgogICAgQFRlc3QgZnVuIGNodW5rZWRLZXlOYW1lX2lzQWNjdW11bGF0ZWRBY3Jvc3NGZWVkcygpIHsKICAgICAgICB2YWwgY29udmVydGVyID0gU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlcigpCiAgICAgICAgdmFsIGV2ZW50cyA9IGNvbnZlcnRlci5mZWVkKCJ7XCJuYSIpICsgY29udmVydGVyLmZlZWQoIm1lXCI6XCJ4XCJ9IikKICAgICAgICBhc3NlcnRFcXVhbHMoIlxuICA8cGFyYW0gbmFtZT1cIm5hbWVcIj54PC9wYXJhbT4iLCByZW5kZXIoZXZlbnRzKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gY2h1bmtlZFVuaWNvZGVFc2NhcGVfaXNBY2N1bXVsYXRlZEFjcm9zc0ZlZWRzKCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICB2YWwgZXZlbnRzID0gY29udmVydGVyLmZlZWQoIntcInRleHRcIjpcIlxcdTAwIikgKyBjb252ZXJ0ZXIuZmVlZCgiNDFcIn0iKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwidGV4dFwiPkE8L3BhcmFtPiIsIHJlbmRlcihldmVudHMpKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlbmRlcihldmVudHM6IExpc3Q8U3RyZWFtaW5nSnNvblhtbENvbnZlcnRlci5FdmVudD4pOiBTdHJpbmcgewogICAgICAgIHJldHVybiBldmVudHMuam9pblRvU3RyaW5nKCIiKSB7IHdoZW4gKGl0KSB7CiAgICAgICAgICAgIGlzIFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIuRXZlbnQuVGFnIC0+IGl0LnRleHQKICAgICAgICAgICAgaXMgU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlci5FdmVudC5Db250ZW50IC0+IGl0LnRleHQKICAgICAgICB9IH0KICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class StreamingJsonXmlConverterChunkTest {
+
+    @Test fun chunkedKeyName_isAccumulatedAcrossFeeds() {
+        val converter = StreamingJsonXmlConverter()
+        val events = converter.feed("{\"na") + converter.feed("me\":\"x\"}")
+        assertEquals("\n  <param name=\"name\">x</param>", render(events))
+    }
+
+    @Test fun chunkedUnicodeEscape_isAccumulatedAcrossFeeds() {
+        val converter = StreamingJsonXmlConverter()
+        val events = converter.feed("{\"text\":\"\\u00") + converter.feed("41\"}")
+        assertEquals("\n  <param name=\"text\">A</param>", render(events))
+    }
+
+    private fun render(events: List<StreamingJsonXmlConverter.Event>): String {
+        return events.joinToString("") { when (it) {
+            is StreamingJsonXmlConverter.Event.Tag -> it.text
+            is StreamingJsonXmlConverter.Event.Content -> it.text
+        } }
+    }
+}

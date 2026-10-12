@@ -1,1 +1,72 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5hZ2VudAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS51dGlsLkNvbGxlY3Rpb25zCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNhbmNlbGxhdGlvbkV4Y2VwdGlvbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkpvYgoKb2JqZWN0IFBob25lQWdlbnRKb2JSZWdpc3RyeSB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiUGhvbmVBZ2VudEpvYlJlZ2lzdHJ5IgoKICAgIHByaXZhdGUgdmFsIGpvYnNCeUFnZW50SWQgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIE11dGFibGVTZXQ8Sm9iPj4oKQoKICAgIGZ1biByZWdpc3RlcihhZ2VudElkOiBTdHJpbmcsIGpvYjogSm9iKSB7CiAgICAgICAgdmFsIGV4aXN0aW5nID0gam9ic0J5QWdlbnRJZFthZ2VudElkXQogICAgICAgIHZhbCBzZXQgPQogICAgICAgICAgICBleGlzdGluZwogICAgICAgICAgICAgICAgPzogcnVuIHsKICAgICAgICAgICAgICAgICAgICB2YWwgbmV3U2V0ID0gQ29sbGVjdGlvbnMubmV3U2V0RnJvbU1hcChDb25jdXJyZW50SGFzaE1hcDxKb2IsIEJvb2xlYW4+KCkpCiAgICAgICAgICAgICAgICAgICAgdmFsIHJhY2VkID0gam9ic0J5QWdlbnRJZC5wdXRJZkFic2VudChhZ2VudElkLCBuZXdTZXQpCiAgICAgICAgICAgICAgICAgICAgcmFjZWQgPzogbmV3U2V0CiAgICAgICAgICAgICAgICB9CiAgICAgICAgc2V0LmFkZChqb2IpCgogICAgICAgIGpvYi5pbnZva2VPbkNvbXBsZXRpb24gewogICAgICAgICAgICB1bnJlZ2lzdGVyKGFnZW50SWQsIGpvYikKICAgICAgICB9CgogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlJlZ2lzdGVyZWQgam9iIGZvciBhZ2VudElkPSRhZ2VudElkLCBhY3RpdmVBZ2VudHM9JHtqb2JzQnlBZ2VudElkLnNpemV9IikKICAgIH0KCiAgICBmdW4gdW5yZWdpc3RlcihhZ2VudElkOiBTdHJpbmcsIGpvYjogSm9iKSB7CiAgICAgICAgdmFsIHNldCA9IGpvYnNCeUFnZW50SWRbYWdlbnRJZF0gPzogcmV0dXJuCiAgICAgICAgc2V0LnJlbW92ZShqb2IpCiAgICAgICAgaWYgKHNldC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgam9ic0J5QWdlbnRJZC5yZW1vdmUoYWdlbnRJZCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIGNhbmNlbEFnZW50KGFnZW50SWQ6IFN0cmluZywgcmVhc29uOiBTdHJpbmcgPSAiVXNlciBjYW5jZWxsZWQiKSB7CiAgICAgICAgdmFsIGpvYnMgPSBqb2JzQnlBZ2VudElkW2FnZW50SWRdPy50b0xpc3QoKSA/OiByZXR1cm4KICAgICAgICBpZiAoam9icy5pc0VtcHR5KCkpIHJldHVybgoKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJDYW5jZWxsaW5nICR7am9icy5zaXplfSBQaG9uZUFnZW50IGpvYnMgZm9yIGFnZW50SWQ9JGFnZW50SWQiKQoKICAgICAgICBqb2JzLmZvckVhY2ggeyBqb2IgLT4KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGpvYi5jYW5jZWwoQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKHJlYXNvbikpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGNhbmNlbCBqb2IgZm9yIGFnZW50SWQ9JGFnZW50SWQiLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBjYW5jZWxBbGwocmVhc29uOiBTdHJpbmcgPSAiVXNlciBjYW5jZWxsZWQiKSB7CiAgICAgICAgdmFsIHNuYXBzaG90ID0gam9ic0J5QWdlbnRJZC5lbnRyaWVzLmZsYXRNYXAgeyAoYWdlbnRJZCwgc2V0KSAtPgogICAgICAgICAgICBzZXQubWFwIHsgam9iIC0+IGFnZW50SWQgdG8gam9iIH0KICAgICAgICB9CgogICAgICAgIGlmIChzbmFwc2hvdC5pc0VtcHR5KCkpIHJldHVybgoKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJDYW5jZWxsaW5nICR7c25hcHNob3Quc2l6ZX0gUGhvbmVBZ2VudCBqb2JzIGZvciAke2pvYnNCeUFnZW50SWQuc2l6ZX0gYWdlbnRzIikKCiAgICAgICAgc25hcHNob3QuZm9yRWFjaCB7IChhZ2VudElkLCBqb2IpIC0+CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBqb2IuY2FuY2VsKENhbmNlbGxhdGlvbkV4Y2VwdGlvbihyZWFzb24pKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBjYW5jZWwgam9iIGZvciBhZ2VudElkPSRhZ2VudElkIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.agent
+
+import com.bslsjdk.operit.util.AppLogger
+import java.util.Collections
+import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Job
+
+object PhoneAgentJobRegistry {
+    private const val TAG = "PhoneAgentJobRegistry"
+
+    private val jobsByAgentId = ConcurrentHashMap<String, MutableSet<Job>>()
+
+    fun register(agentId: String, job: Job) {
+        val existing = jobsByAgentId[agentId]
+        val set =
+            existing
+                ?: run {
+                    val newSet = Collections.newSetFromMap(ConcurrentHashMap<Job, Boolean>())
+                    val raced = jobsByAgentId.putIfAbsent(agentId, newSet)
+                    raced ?: newSet
+                }
+        set.add(job)
+
+        job.invokeOnCompletion {
+            unregister(agentId, job)
+        }
+
+        AppLogger.d(TAG, "Registered job for agentId=$agentId, activeAgents=${jobsByAgentId.size}")
+    }
+
+    fun unregister(agentId: String, job: Job) {
+        val set = jobsByAgentId[agentId] ?: return
+        set.remove(job)
+        if (set.isEmpty()) {
+            jobsByAgentId.remove(agentId)
+        }
+    }
+
+    fun cancelAgent(agentId: String, reason: String = "User cancelled") {
+        val jobs = jobsByAgentId[agentId]?.toList() ?: return
+        if (jobs.isEmpty()) return
+
+        AppLogger.d(TAG, "Cancelling ${jobs.size} PhoneAgent jobs for agentId=$agentId")
+
+        jobs.forEach { job ->
+            try {
+                job.cancel(CancellationException(reason))
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Failed to cancel job for agentId=$agentId", e)
+            }
+        }
+    }
+
+    fun cancelAll(reason: String = "User cancelled") {
+        val snapshot = jobsByAgentId.entries.flatMap { (agentId, set) ->
+            set.map { job -> agentId to job }
+        }
+
+        if (snapshot.isEmpty()) return
+
+        AppLogger.d(TAG, "Cancelling ${snapshot.size} PhoneAgent jobs for ${jobsByAgentId.size} agents")
+
+        snapshot.forEach { (agentId, job) ->
+            try {
+                job.cancel(CancellationException(reason))
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Failed to cancel job for agentId=$agentId", e)
+            }
+        }
+    }
+}

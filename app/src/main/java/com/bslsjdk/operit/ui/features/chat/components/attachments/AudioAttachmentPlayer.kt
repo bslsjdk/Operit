@@ -1,1 +1,58 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmF0dGFjaG1lbnRzCgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuRGlzcG9zYWJsZUVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS52aWV3aW50ZXJvcC5BbmRyb2lkVmlldwppbXBvcnQgY29tLmdvb2dsZS5hbmRyb2lkLmV4b3BsYXllcjIuRXhvUGxheWVyCmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQuZXhvcGxheWVyMi5NZWRpYUl0ZW0KaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5leG9wbGF5ZXIyLnVpLlN0eWxlZFBsYXllclZpZXcKCkBDb21wb3NhYmxlCmZ1biBBdWRpb0F0dGFjaG1lbnRQbGF5ZXIoCiAgICB1cmk6IFVyaSwKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAogICAgYXV0b1BsYXk6IEJvb2xlYW4gPSBmYWxzZQopIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKCiAgICB2YWwgcGxheWVyID0gcmVtZW1iZXIodXJpKSB7CiAgICAgICAgRXhvUGxheWVyLkJ1aWxkZXIoY29udGV4dCkuYnVpbGQoKQogICAgfQoKICAgIExhdW5jaGVkRWZmZWN0KHVyaSkgewogICAgICAgIHBsYXllci5zZXRNZWRpYUl0ZW0oTWVkaWFJdGVtLmZyb21VcmkodXJpKSkKICAgICAgICBwbGF5ZXIucHJlcGFyZSgpCiAgICAgICAgcGxheWVyLnBsYXlXaGVuUmVhZHkgPSBhdXRvUGxheQogICAgfQoKICAgIERpc3Bvc2FibGVFZmZlY3QocGxheWVyKSB7CiAgICAgICAgb25EaXNwb3NlIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHBsYXllci5zdG9wKCkKICAgICAgICAgICAgICAgIHBsYXllci5jbGVhck1lZGlhSXRlbXMoKQogICAgICAgICAgICAgICAgcGxheWVyLnJlbGVhc2UoKQogICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBBbmRyb2lkVmlldygKICAgICAgICBmYWN0b3J5ID0geyBjdHggLT4KICAgICAgICAgICAgU3R5bGVkUGxheWVyVmlldyhjdHgpLmFwcGx5IHsKICAgICAgICAgICAgICAgIHRoaXMucGxheWVyID0gcGxheWVyCiAgICAgICAgICAgICAgICB1c2VDb250cm9sbGVyID0gdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICB1cGRhdGUgPSB7IHZpZXcgLT4KICAgICAgICAgICAgaWYgKHZpZXcucGxheWVyICE9PSBwbGF5ZXIpIHsKICAgICAgICAgICAgICAgIHZpZXcucGxheWVyID0gcGxheWVyCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIKICAgICkKfQo=
+package com.bslsjdk.operit.ui.features.chat.components.attachments
+
+import android.net.Uri
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.viewinterop.AndroidView
+import com.google.android.exoplayer2.ExoPlayer
+import com.google.android.exoplayer2.MediaItem
+import com.google.android.exoplayer2.ui.StyledPlayerView
+
+@Composable
+fun AudioAttachmentPlayer(
+    uri: Uri,
+    modifier: Modifier = Modifier,
+    autoPlay: Boolean = false
+) {
+    val context = LocalContext.current
+
+    val player = remember(uri) {
+        ExoPlayer.Builder(context).build()
+    }
+
+    LaunchedEffect(uri) {
+        player.setMediaItem(MediaItem.fromUri(uri))
+        player.prepare()
+        player.playWhenReady = autoPlay
+    }
+
+    DisposableEffect(player) {
+        onDispose {
+            try {
+                player.stop()
+                player.clearMediaItems()
+                player.release()
+            } catch (_: Exception) {
+            }
+        }
+    }
+
+    AndroidView(
+        factory = { ctx ->
+            StyledPlayerView(ctx).apply {
+                this.player = player
+                useController = true
+            }
+        },
+        update = { view ->
+            if (view.player !== player) {
+                view.player = player
+            }
+        },
+        modifier = modifier
+    )
+}

@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDaGF0TWFya3VwUmVnZXhPcGVuaW5nVGFnVGVzdCB7CgogICAgQFRlc3QgZnVuIGV4dHJhY3RPcGVuaW5nVGFnTmFtZV9yZWFkc1N0YXR1c1RhZygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoInN0YXR1cyIsIENoYXRNYXJrdXBSZWdleC5leHRyYWN0T3BlbmluZ1RhZ05hbWUoIjxzdGF0dXMgdHlwZT1cIm9rXCI+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RPcGVuaW5nVGFnTmFtZV9yZWFkc1RhZ0FmdGVyTGVhZGluZ1doaXRlc3BhY2UoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJtZXRhIiwgQ2hhdE1hcmt1cFJlZ2V4LmV4dHJhY3RPcGVuaW5nVGFnTmFtZSgiIFxuPG1ldGEgcHJvdmlkZXI9XCJ4XCI+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RPcGVuaW5nVGFnTmFtZV9yZXR1cm5zTnVsbEZvckJyb2tlblRhZygpIHsKICAgICAgICBhc3NlcnROdWxsKENoYXRNYXJrdXBSZWdleC5leHRyYWN0T3BlbmluZ1RhZ05hbWUoIjwiKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+
+class ChatMarkupRegexOpeningTagTest {
+
+    @Test fun extractOpeningTagName_readsStatusTag() {
+        assertEquals("status", ChatMarkupRegex.extractOpeningTagName("<status type=\"ok\">"))
+    }
+
+    @Test fun extractOpeningTagName_readsTagAfterLeadingWhitespace() {
+        assertEquals("meta", ChatMarkupRegex.extractOpeningTagName(" \n<meta provider=\"x\">"))
+    }
+
+    @Test fun extractOpeningTagName_returnsNullForBrokenTag() {
+        assertNull(ChatMarkupRegex.extractOpeningTagName("<"))
+    }
+}

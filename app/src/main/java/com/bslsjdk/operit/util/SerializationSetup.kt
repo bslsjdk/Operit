@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5tb2R1bGVzLlNlcmlhbGl6ZXJzTW9kdWxlCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24ubW9kdWxlcy5jb250ZXh0dWFsCgovKioKICogQ29uZmlndXJlcyB0aGUgc2VyaWFsaXphdGlvbiBtb2R1bGUgd2l0aCBjdXN0b20gc2VyaWFsaXplcnMKICovCm9iamVjdCBTZXJpYWxpemF0aW9uU2V0dXAgewogICAgLyoqCiAgICAgKiBDcmVhdGVzIGFuZCByZXR1cm5zIGEgU2VyaWFsaXplcnNNb2R1bGUgd2l0aCBhbGwgY3VzdG9tIHNlcmlhbGl6ZXJzIHJlZ2lzdGVyZWQKICAgICAqLwogICAgdmFsIG1vZHVsZSA9IFNlcmlhbGl6ZXJzTW9kdWxlIHsKICAgICAgICAvLyBSZWdpc3RlciB0aGUgSW50UmFuZ2Ugc2VyaWFsaXplciBhcyBhIGNvbnRleHR1YWwgc2VyaWFsaXplcgogICAgICAgIGNvbnRleHR1YWwoSW50UmFuZ2VTZXJpYWxpemVyKQogICAgfQp9IA==
+package com.bslsjdk.operit.util
+
+import kotlinx.serialization.modules.SerializersModule
+import kotlinx.serialization.modules.contextual
+
+/**
+ * Configures the serialization module with custom serializers
+ */
+object SerializationSetup {
+    /**
+     * Creates and returns a SerializersModule with all custom serializers registered
+     */
+    val module = SerializersModule {
+        // Register the IntRange serializer as a contextual serializer
+        contextual(IntRangeSerializer)
+    }
+} 

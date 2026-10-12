@@ -1,1 +1,497 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scwogCiBpbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKIGltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCiBpbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuamF2YXNjcmlwdC5Kc1Rvb2xNYW5hZ2VyCiBpbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuUGFja2FnZU1hbmFnZXIKIGltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BSVRvb2wKIGltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUmVzdWx0CiBpbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFZhbGlkYXRpb25SZXN1bHQKIGltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CiBpbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmJ1aWx0aW5zLk1hcFNlcmlhbGl6ZXIKIGltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uYnVpbHRpbnMuc2VyaWFsaXplcgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLktTZXJpYWxpemVyCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uYnVpbHRpbnMuTGlzdFNlcmlhbGl6ZXIKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5kZXNjcmlwdG9ycy5TZXJpYWxEZXNjcmlwdG9yCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uZGVzY3JpcHRvcnMuYnVpbGRDbGFzc1NlcmlhbERlc2NyaXB0b3IKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5kZXNjcmlwdG9ycy5lbGVtZW50CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uZW5jb2RpbmcuRGVjb2RlcgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmVuY29kaW5nLkVuY29kZXIKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb24KaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb25BcnJheQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbkRlY29kZXIKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb25FbGVtZW50CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uTmFtZXMKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb25PYmplY3QKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb25QcmltaXRpdmUKIGltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5idWlsZEpzb25PYmplY3QKIGltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5qc29uUHJpbWl0aXZlCiBpbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24ucHV0CiBpbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCiBpbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cubGFzdAogaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKIAogLyoqCiAgKiBSZXByZXNlbnRzIGEgcGFja2FnZSBvZiB0b29scyB0aGF0IGNhbiBiZSBpbXBvcnRlZCBieSB0aGUgQUkKICAqLwogQFNlcmlhbGl6YWJsZSh3aXRoID0gTG9jYWxpemVkVGV4dFNlcmlhbGl6ZXI6OmNsYXNzKQogZGF0YSBjbGFzcyBMb2NhbGl6ZWRUZXh0KAogICAgIHZhbCB2YWx1ZXM6IE1hcDxTdHJpbmcsIFN0cmluZz4KICkgewogCiAgICAgZnVuIHJlc29sdmUoY29udGV4dDogQ29udGV4dCk6IFN0cmluZyB7CiAgICAgICAgIHZhbCBsb2NhbGUgPSB0cnkgewogICAgICAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk4pIHsKICAgICAgICAgICAgICAgICBjb250ZXh0LnJlc291cmNlcy5jb25maWd1cmF0aW9uLmxvY2FsZXMuZ2V0KDApCiAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgIEBTdXBwcmVzcygiREVQUkVDQVRJT04iKQogICAgICAgICAgICAgICAgIGNvbnRleHQucmVzb3VyY2VzLmNvbmZpZ3VyYXRpb24ubG9jYWxlCiAgICAgICAgICAgICB9CiAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgTG9jYWxlLmdldERlZmF1bHQoKQogICAgICAgICB9CiAKICAgICAgICAgdmFsIGxhbmd1YWdlVGFnID0gdHJ5IHsKICAgICAgICAgICAgIGxvY2FsZS50b0xhbmd1YWdlVGFnKCkKICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAiIgogICAgICAgICB9CiAKICAgICAgICAgdmFsIGxhbmd1YWdlID0gdHJ5IHsKICAgICAgICAgICAgIGxvY2FsZS5sYW5ndWFnZQogICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICIiCiAgICAgICAgIH0KIAogICAgICAgICB2YWwgcHJlZmVycmVkS2V5cyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpLmFwcGx5IHsKICAgICAgICAgICAgIGlmIChsYW5ndWFnZVRhZy5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICBhZGQobGFuZ3VhZ2VUYWcpCiAgICAgICAgICAgICAgICAgYWRkKGxhbmd1YWdlVGFnLmxvd2VyY2FzZSgpKQogICAgICAgICAgICAgfQogICAgICAgICAgICAgaWYgKGxhbmd1YWdlLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgIGFkZChsYW5ndWFnZSkKICAgICAgICAgICAgICAgICBhZGQobGFuZ3VhZ2UubG93ZXJjYXNlKCkpCiAgICAgICAgICAgICB9CiAgICAgICAgICAgICBhZGQoImRlZmF1bHQiKQogICAgICAgICAgICAgYWRkKCJlbiIpCiAgICAgICAgICAgICBhZGQoInpoIikKICAgICAgICAgfQogCiAgICAgICAgIGZvciAoa2V5IGluIHByZWZlcnJlZEtleXMpIHsKICAgICAgICAgICAgIHZhbCB2YWx1ZSA9IHZhbHVlc1trZXldID86IHZhbHVlc1trZXkubG93ZXJjYXNlKCldCiAgICAgICAgICAgICBpZiAodmFsdWUgIT0gbnVsbCkgcmV0dXJuIHZhbHVlCiAgICAgICAgIH0KIAogICAgICAgICByZXR1cm4gdmFsdWVzLnZhbHVlcy5maXJzdE9yTnVsbCgpLm9yRW1wdHkoKQogICAgIH0KCiAgICAgZnVuIHJlc29sdmUocHJlZmVycmVkTGFuZ3VhZ2U6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgIHZhbCBub3JtYWxpemVkID0gcHJlZmVycmVkTGFuZ3VhZ2UudHJpbSgpCiAgICAgICAgIGlmIChub3JtYWxpemVkLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgcmV0dXJuIHZhbHVlc1siZGVmYXVsdCJdID86IHZhbHVlcy52YWx1ZXMuZmlyc3RPck51bGwoKS5vckVtcHR5KCkKICAgICAgICAgfQoKICAgICAgICAgdmFsIGxvd2VyID0gbm9ybWFsaXplZC5sb3dlcmNhc2UoKQogICAgICAgICB2YWwgbGFuZ3VhZ2VPbmx5TG93ZXIgPSBsb3dlci5zdWJzdHJpbmdCZWZvcmUoJy0nKQogICAgICAgICB2YWwgbGFuZ3VhZ2VPbmx5T3JpZ2luYWwgPSBub3JtYWxpemVkLnN1YnN0cmluZ0JlZm9yZSgnLScpCgogICAgICAgICB2YWwgcHJlZmVycmVkS2V5cyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpLmFwcGx5IHsKICAgICAgICAgICAgIGFkZChub3JtYWxpemVkKQogICAgICAgICAgICAgYWRkKGxvd2VyKQogICAgICAgICAgICAgaWYgKGxhbmd1YWdlT25seU9yaWdpbmFsLmlzTm90QmxhbmsoKSAmJiBsYW5ndWFnZU9ubHlPcmlnaW5hbCAhPSBub3JtYWxpemVkKSB7CiAgICAgICAgICAgICAgICAgYWRkKGxhbmd1YWdlT25seU9yaWdpbmFsKQogICAgICAgICAgICAgfQogICAgICAgICAgICAgaWYgKGxhbmd1YWdlT25seUxvd2VyLmlzTm90QmxhbmsoKSAmJiBsYW5ndWFnZU9ubHlMb3dlciAhPSBsb3dlcikgewogICAgICAgICAgICAgICAgIGFkZChsYW5ndWFnZU9ubHlMb3dlcikKICAgICAgICAgICAgIH0KICAgICAgICAgICAgIGFkZCgiZGVmYXVsdCIpCiAgICAgICAgICAgICBhZGQoImVuIikKICAgICAgICAgICAgIGFkZCgiemgiKQogICAgICAgICB9CgogICAgICAgICBmb3IgKGtleSBpbiBwcmVmZXJyZWRLZXlzKSB7CiAgICAgICAgICAgICB2YWwgdmFsdWUgPSB2YWx1ZXNba2V5XSA/OiB2YWx1ZXNba2V5Lmxvd2VyY2FzZSgpXQogICAgICAgICAgICAgaWYgKHZhbHVlICE9IG51bGwpIHJldHVybiB2YWx1ZQogICAgICAgICB9CgogICAgICAgICByZXR1cm4gdmFsdWVzLnZhbHVlcy5maXJzdE9yTnVsbCgpLm9yRW1wdHkoKQogICAgIH0KIAogICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgICBmdW4gb2YodmFsdWU6IFN0cmluZyk6IExvY2FsaXplZFRleHQgewogICAgICAgICAgICAgcmV0dXJuIExvY2FsaXplZFRleHQobWFwT2YoImRlZmF1bHQiIHRvIHZhbHVlKSkKICAgICAgICAgfQogICAgIH0KIH0KIApvYmplY3QgTG9jYWxpemVkVGV4dFNlcmlhbGl6ZXIgOiBLU2VyaWFsaXplcjxMb2NhbGl6ZWRUZXh0PiB7CgogICAgb3ZlcnJpZGUgdmFsIGRlc2NyaXB0b3I6IFNlcmlhbERlc2NyaXB0b3IgPQogICAgICAgIGJ1aWxkQ2xhc3NTZXJpYWxEZXNjcmlwdG9yKCJMb2NhbGl6ZWRUZXh0IikgewogICAgICAgICAgICBlbGVtZW50PFN0cmluZz4oImRlZmF1bHQiLCBpc09wdGlvbmFsID0gdHJ1ZSkKICAgICAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGRlc2VyaWFsaXplKGRlY29kZXI6IERlY29kZXIpOiBMb2NhbGl6ZWRUZXh0IHsKICAgICAgICB2YWwganNvbkRlY29kZXIgPSBkZWNvZGVyIGFzPyBKc29uRGVjb2RlcgogICAgICAgICAgICA/OiByZXR1cm4gTG9jYWxpemVkVGV4dC5vZihkZWNvZGVyLmRlY29kZVN0cmluZygpKQoKICAgICAgICB2YWwgZWxlbWVudCA9IGpzb25EZWNvZGVyLmRlY29kZUpzb25FbGVtZW50KCkKICAgICAgICByZXR1cm4gd2hlbiAoZWxlbWVudCkgewogICAgICAgICAgICBpcyBKc29uUHJpbWl0aXZlIC0+IExvY2FsaXplZFRleHQub2YoZWxlbWVudC5jb250ZW50KQogICAgICAgICAgICBpcyBKc29uT2JqZWN0IC0+IHsKICAgICAgICAgICAgICAgIHZhbCBtYXAgPSBlbGVtZW50LmVudHJpZXMKICAgICAgICAgICAgICAgICAgICAubWFwTm90TnVsbCB7IChrLCB2KSAtPgogICAgICAgICAgICAgICAgICAgICAgICB2YWwgdmFsdWUgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKHYgYXM/IEpzb25QcmltaXRpdmUpPy5jb250ZW50CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPzogcnVuQ2F0Y2hpbmcgeyB2Lmpzb25QcmltaXRpdmUuY29udGVudCB9LmdldE9yTnVsbCgpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICh2YWx1ZSA9PSBudWxsKSBudWxsIGVsc2UgayB0byB2YWx1ZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAudG9NYXAoKQogICAgICAgICAgICAgICAgTG9jYWxpemVkVGV4dChtYXApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZSAtPiBMb2NhbGl6ZWRUZXh0Lm9mKGVsZW1lbnQudG9TdHJpbmcoKSkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHNlcmlhbGl6ZShlbmNvZGVyOiBFbmNvZGVyLCB2YWx1ZTogTG9jYWxpemVkVGV4dCkgewogICAgICAgIHZhbCBvbmx5RGVmYXVsdCA9IHZhbHVlLnZhbHVlcy5zaXplID09IDEgJiYgdmFsdWUudmFsdWVzLmNvbnRhaW5zS2V5KCJkZWZhdWx0IikKICAgICAgICBpZiAob25seURlZmF1bHQpIHsKICAgICAgICAgICAgZW5jb2Rlci5lbmNvZGVTdHJpbmcodmFsdWUudmFsdWVzLmdldFZhbHVlKCJkZWZhdWx0IikpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFsIGVudHJpZXMgPSB2YWx1ZS52YWx1ZXMuZW50cmllcwogICAgICAgIHZhbCBtYXBTZXJpYWxpemVyID0gTWFwU2VyaWFsaXplcihTdHJpbmcuc2VyaWFsaXplcigpLCBTdHJpbmcuc2VyaWFsaXplcigpKQogICAgICAgIGVuY29kZXIuZW5jb2RlU2VyaWFsaXphYmxlVmFsdWUobWFwU2VyaWFsaXplciwgZW50cmllcy5hc3NvY2lhdGUgeyBpdC5rZXkgdG8gaXQudmFsdWUgfSkKICAgIH0KfQoKb2JqZWN0IFN0cmluZ09yU3RyaW5nTGlzdFNlcmlhbGl6ZXIgOiBLU2VyaWFsaXplcjxMaXN0PFN0cmluZz4+IHsKICAgIHByaXZhdGUgdmFsIGRlbGVnYXRlU2VyaWFsaXplciA9IExpc3RTZXJpYWxpemVyKFN0cmluZy5zZXJpYWxpemVyKCkpCgogICAgb3ZlcnJpZGUgdmFsIGRlc2NyaXB0b3I6IFNlcmlhbERlc2NyaXB0b3IgPSBkZWxlZ2F0ZVNlcmlhbGl6ZXIuZGVzY3JpcHRvcgoKICAgIG92ZXJyaWRlIGZ1biBkZXNlcmlhbGl6ZShkZWNvZGVyOiBEZWNvZGVyKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICB2YWwganNvbkRlY29kZXIgPSBkZWNvZGVyIGFzPyBKc29uRGVjb2RlcgogICAgICAgICAgICA/OiByZXR1cm4gbGlzdE9mKGRlY29kZXIuZGVjb2RlU3RyaW5nKCkudHJpbSgpKS5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgfQoKICAgICAgICB2YWwgZWxlbWVudCA9IGpzb25EZWNvZGVyLmRlY29kZUpzb25FbGVtZW50KCkKICAgICAgICByZXR1cm4gd2hlbiAoZWxlbWVudCkgewogICAgICAgICAgICBpcyBKc29uUHJpbWl0aXZlIC0+IGxpc3RPZihlbGVtZW50LmNvbnRlbnQudHJpbSgpKS5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgICAgICBpcyBKc29uQXJyYXkgLT4gZWxlbWVudC5tYXBOb3ROdWxsIHsgaXRlbSAtPgogICAgICAgICAgICAgICAgKGl0ZW0gYXM/IEpzb25QcmltaXRpdmUpPy5jb250ZW50Py50cmltKCk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZSAtPiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkV4cGVjdGVkIHN0cmluZyBvciBzdHJpbmcgYXJyYXkiKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gc2VyaWFsaXplKGVuY29kZXI6IEVuY29kZXIsIHZhbHVlOiBMaXN0PFN0cmluZz4pIHsKICAgICAgICB2YWwgbm9ybWFsaXplZCA9IHZhbHVlLm1hcCB7IGl0LnRyaW0oKSB9LmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgd2hlbiAobm9ybWFsaXplZC5zaXplKSB7CiAgICAgICAgICAgIDAgLT4gZW5jb2Rlci5lbmNvZGVTZXJpYWxpemFibGVWYWx1ZShkZWxlZ2F0ZVNlcmlhbGl6ZXIsIGVtcHR5TGlzdCgpKQogICAgICAgICAgICAxIC0+IGVuY29kZXIuZW5jb2RlU3RyaW5nKG5vcm1hbGl6ZWQuZmlyc3QoKSkKICAgICAgICAgICAgZWxzZSAtPiBlbmNvZGVyLmVuY29kZVNlcmlhbGl6YWJsZVZhbHVlKGRlbGVnYXRlU2VyaWFsaXplciwgbm9ybWFsaXplZCkKICAgICAgICB9CiAgICB9Cn0KIAogLyoqCiAgKiBSZXByZXNlbnRzIGFuIGVudmlyb25tZW50IHZhcmlhYmxlIGRlY2xhcmF0aW9uIGZvciBhIHBhY2thZ2UKICAqLwogQFNlcmlhbGl6YWJsZSh3aXRoID0gRW52VmFyU2VyaWFsaXplcjo6Y2xhc3MpCiBkYXRhIGNsYXNzIEVudlZhcigKICAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgIHZhbCBkZXNjcmlwdGlvbjogTG9jYWxpemVkVGV4dCwKICAgICB2YWwgcmVxdWlyZWQ6IEJvb2xlYW4gPSB0cnVlLAogICAgIHZhbCBkZWZhdWx0VmFsdWU6IFN0cmluZz8gPSBudWxsCiApCiAKIC8qKgogICogQ3VzdG9tIHNlcmlhbGl6ZXIgZm9yIEVudlZhciB0aGF0IGhhbmRsZXMgYm90aCBvbGQgZm9ybWF0IChzdHJpbmcpIGFuZCBuZXcgZm9ybWF0IChvYmplY3QpCiAgKiBPbGQgZm9ybWF0OiAiR0lUSFVCX1RPS0VOIgogICogTmV3IGZvcm1hdDogeyAibmFtZSI6ICJHSVRIVUJfVE9LRU4iLCAiZGVzY3JpcHRpb24iOiAiLi4uIiwgInJlcXVpcmVkIjogdHJ1ZSwgImRlZmF1bHRWYWx1ZSI6ICIuLi4iIH0KICAqLwogb2JqZWN0IEVudlZhclNlcmlhbGl6ZXIgOiBLU2VyaWFsaXplcjxFbnZWYXI+IHsKICAgICBwcml2YXRlIHZhbCBkZWxlZ2F0ZVNlcmlhbGl6ZXIgPSBKc29uT2JqZWN0LnNlcmlhbGl6ZXIoKQogICAgIAogICAgIG92ZXJyaWRlIHZhbCBkZXNjcmlwdG9yOiBTZXJpYWxEZXNjcmlwdG9yID0gZGVsZWdhdGVTZXJpYWxpemVyLmRlc2NyaXB0b3IKICAgICAKICAgICBvdmVycmlkZSBmdW4gZGVzZXJpYWxpemUoZGVjb2RlcjogRGVjb2Rlcik6IEVudlZhciB7CiAgICAgICAgIHZhbCBqc29uRGVjb2RlciA9IGRlY29kZXIgYXM/IEpzb25EZWNvZGVyCiAgICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkVudlZhclNlcmlhbGl6ZXIgY2FuIG9ubHkgYmUgdXNlZCB3aXRoIEpTT04iKQogICAgICAgICAKICAgICAgICAgdmFsIGVsZW1lbnQgPSBqc29uRGVjb2Rlci5kZWNvZGVKc29uRWxlbWVudCgpCiAgICAgICAgIAogICAgICAgICAvLyBIYW5kbGUgb2xkIGZvcm1hdDogc2ltcGxlIHN0cmluZwogICAgICAgICBpZiAoZWxlbWVudCBpcyBKc29uUHJpbWl0aXZlKSB7CiAgICAgICAgICAgICByZXR1cm4gRW52VmFyKAogICAgICAgICAgICAgICAgIG5hbWUgPSBlbGVtZW50LmNvbnRlbnQsCiAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBMb2NhbGl6ZWRUZXh0Lm9mKCIiKSwKICAgICAgICAgICAgICAgICByZXF1aXJlZCA9IHRydWUsCiAgICAgICAgICAgICAgICAgZGVmYXVsdFZhbHVlID0gbnVsbAogICAgICAgICAgICAgKQogICAgICAgICB9CiAgICAgICAgIAogICAgICAgICAvLyBIYW5kbGUgbmV3IGZvcm1hdDogb2JqZWN0CiAgICAgICAgIGlmIChlbGVtZW50IGlzIEpzb25PYmplY3QpIHsKICAgICAgICAgICAgIHZhbCBuYW1lID0gZWxlbWVudFsibmFtZSJdPy5qc29uUHJpbWl0aXZlPy5jb250ZW50CiAgICAgICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJFbnZWYXIgbXVzdCBoYXZlIGEgJ25hbWUnIGZpZWxkIikKICAgICAgICAgICAgIAogICAgICAgICAgICAgdmFsIGRlc2NyaXB0aW9uRWxlbWVudCA9IGVsZW1lbnRbImRlc2NyaXB0aW9uIl0KICAgICAgICAgICAgIHZhbCBkZXNjcmlwdGlvbiA9IGlmIChkZXNjcmlwdGlvbkVsZW1lbnQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgIHZhbCBqc29uID0gSnNvbiB7IGlnbm9yZVVua25vd25LZXlzID0gdHJ1ZSB9CiAgICAgICAgICAgICAgICAganNvbi5kZWNvZGVGcm9tU3RyaW5nKExvY2FsaXplZFRleHRTZXJpYWxpemVyLCBkZXNjcmlwdGlvbkVsZW1lbnQudG9TdHJpbmcoKSkKICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgTG9jYWxpemVkVGV4dC5vZigiIikKICAgICAgICAgICAgIH0KICAgICAgICAgICAgIAogICAgICAgICAgICAgdmFsIHJlcXVpcmVkRWxlbWVudCA9IGVsZW1lbnRbInJlcXVpcmVkIl0KICAgICAgICAgICAgIHZhbCByZXF1aXJlZCA9IGlmIChyZXF1aXJlZEVsZW1lbnQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgIHdoZW4gKHJlcXVpcmVkRWxlbWVudCkgewogICAgICAgICAgICAgICAgICAgICBpcyBKc29uUHJpbWl0aXZlIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZXF1aXJlZEVsZW1lbnQuaXNTdHJpbmcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBIYW5kbGUgc3RyaW5nIGJvb2xlYW4gdmFsdWVzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWlyZWRFbGVtZW50LmNvbnRlbnQudG9Cb29sZWFuU3RyaWN0T3JOdWxsKCkgPzogdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBIYW5kbGUgYm9vbGVhbiB2YWx1ZXMgZGlyZWN0bHkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXF1aXJlZEVsZW1lbnQuY29udGVudC50b0Jvb2xlYW5TdHJpY3RPck51bGwoKSA/OiB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiB0cnVlCiAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICB0cnVlCiAgICAgICAgICAgICB9CiAgICAgICAgICAgICAKICAgICAgICAgICAgIHZhbCBkZWZhdWx0VmFsdWUgPSBlbGVtZW50WyJkZWZhdWx0VmFsdWUiXT8uanNvblByaW1pdGl2ZT8uY29udGVudAogICAgICAgICAgICAgCiAgICAgICAgICAgICByZXR1cm4gRW52VmFyKAogICAgICAgICAgICAgICAgIG5hbWUgPSBuYW1lLAogICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gZGVzY3JpcHRpb24sCiAgICAgICAgICAgICAgICAgcmVxdWlyZWQgPSByZXF1aXJlZCwKICAgICAgICAgICAgICAgICBkZWZhdWx0VmFsdWUgPSBkZWZhdWx0VmFsdWUKICAgICAgICAgICAgICkKICAgICAgICAgfQogICAgICAgICAKICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJFbnZWYXIgbXVzdCBiZSBhIHN0cmluZyBvciBhbiBvYmplY3QiKQogICAgIH0KICAgICAKICAgICBvdmVycmlkZSBmdW4gc2VyaWFsaXplKGVuY29kZXI6IEVuY29kZXIsIHZhbHVlOiBFbnZWYXIpIHsKICAgICAgICAgLy8gQWx3YXlzIHNlcmlhbGl6ZSBpbiBuZXcgZm9ybWF0CiAgICAgICAgIHZhbCBqc29uT2JqZWN0ID0gYnVpbGRKc29uT2JqZWN0IHsKICAgICAgICAgICAgIHB1dCgibmFtZSIsIHZhbHVlLm5hbWUpCiAgICAgICAgICAgICBwdXQoImRlc2NyaXB0aW9uIiwgSnNvbi5lbmNvZGVUb1N0cmluZyhMb2NhbGl6ZWRUZXh0U2VyaWFsaXplciwgdmFsdWUuZGVzY3JpcHRpb24pLmxldCB7CiAgICAgICAgICAgICAgICAgSnNvbi5wYXJzZVRvSnNvbkVsZW1lbnQoaXQpCiAgICAgICAgICAgICB9KQogICAgICAgICAgICAgcHV0KCJyZXF1aXJlZCIsIHZhbHVlLnJlcXVpcmVkKQogICAgICAgICAgICAgaWYgKHZhbHVlLmRlZmF1bHRWYWx1ZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgcHV0KCJkZWZhdWx0VmFsdWUiLCB2YWx1ZS5kZWZhdWx0VmFsdWUpCiAgICAgICAgICAgICB9CiAgICAgICAgIH0KICAgICAgICAgZW5jb2Rlci5lbmNvZGVTZXJpYWxpemFibGVWYWx1ZShKc29uT2JqZWN0LnNlcmlhbGl6ZXIoKSwganNvbk9iamVjdCkKICAgICB9CiB9CiAKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFRvb2xQYWNrYWdlKAogICAgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCBkZXNjcmlwdGlvbjogTG9jYWxpemVkVGV4dCwKICAgIHZhbCB0b29sczogTGlzdDxQYWNrYWdlVG9vbD4sCiAgICB2YWwgc3RhdGVzOiBMaXN0PFRvb2xQYWNrYWdlU3RhdGU+ID0gZW1wdHlMaXN0KCksCiAgICAgLyoqCiAgICAgICogT3B0aW9uYWwgbGlzdCBvZiBlbnZpcm9ubWVudCB2YXJpYWJsZSBkZWNsYXJhdGlvbnMgZm9yIHRoaXMgcGFja2FnZS4KICAgICAgKiBFYWNoIGVudmlyb25tZW50IHZhcmlhYmxlIGNhbiBiZSBtYXJrZWQgYXMgcmVxdWlyZWQgb3Igb3B0aW9uYWwuCiAgICAgICogSWYgcmVxdWlyZWQgdmFyaWFibGVzIGFyZSBtaXNzaW5nLCBQYWNrYWdlTWFuYWdlciB3aWxsIHZhbGlkYXRlIHRoYXQKICAgICAgKiB0aGVzZSB2YXJpYWJsZXMgZXhpc3QgYmVmb3JlIGFjdGl2YXRpbmcgdGhlIHBhY2thZ2UuCiAgICAgICoKICAgICAgKiBFeGFtcGxlIGZvcm1hdDoKICAgICAgKiBlbnY6IFsKICAgICAgKiAgIHsKICAgICAgKiAgICAgbmFtZTogIkdJVEhVQl9BUElfQkFTRV9VUkwiLAogICAgICAqICAgICBkZXNjcmlwdGlvbjogIkdpdEh1YiBBUEkgYmFzZSBVUkwiLAogICAgICAqICAgICByZXF1aXJlZDogdHJ1ZQogICAgICAqICAgfSwKICAgICAgKiAgIHsKICAgICAgKiAgICAgbmFtZTogIk1BWF9SRVRSSUVTIiwKICAgICAgKiAgICAgZGVzY3JpcHRpb246ICJNYXhpbXVtIG51bWJlciBvZiByZXRyeSBhdHRlbXB0cyIsCiAgICAgICogICAgIHJlcXVpcmVkOiBmYWxzZSwKICAgICAgKiAgICAgZGVmYXVsdFZhbHVlOiAiMyIKICAgICAgKiAgIH0KICAgICAgKiBdCiAgICAgICovCiAgICB2YWwgZW52OiBMaXN0PEVudlZhcj4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBpc0J1aWx0SW46IEJvb2xlYW4gPSBmYWxzZSwKICAgIEBKc29uTmFtZXMoImVuYWJsZWRfYnlfZGVmYXVsdCIpCiAgICB2YWwgZW5hYmxlZEJ5RGVmYXVsdDogQm9vbGVhbiA9IGZhbHNlLAogICAgQEpzb25OYW1lcygiZGlzcGxheV9uYW1lIikKICAgIHZhbCBkaXNwbGF5TmFtZTogTG9jYWxpemVkVGV4dCA9IExvY2FsaXplZFRleHQub2YoIiIpLAogICAgdmFsIGNhdGVnb3J5OiBTdHJpbmcgPSAiT3RoZXIiLAogICAgQFNlcmlhbGl6YWJsZSh3aXRoID0gU3RyaW5nT3JTdHJpbmdMaXN0U2VyaWFsaXplcjo6Y2xhc3MpCiAgICB2YWwgYXV0aG9yOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCB2ZXJzaW9uOiBTdHJpbmcgPSAiIgopCiAKIEBTZXJpYWxpemFibGUKIGRhdGEgY2xhc3MgVG9vbFBhY2thZ2VTdGF0ZSgKICAgICB2YWwgaWQ6IFN0cmluZywKICAgICB2YWwgY29uZGl0aW9uOiBTdHJpbmcgPSAidHJ1ZSIsCiAgICAgdmFsIGluaGVyaXRUb29sczogQm9vbGVhbiA9IGZhbHNlLAogICAgIHZhbCBleGNsdWRlVG9vbHM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLAogICAgIHZhbCB0b29sczogTGlzdDxQYWNrYWdlVG9vbD4gPSBlbXB0eUxpc3QoKQogKQogCiAvKioKICAqIFJlcHJlc2VudHMgYSB0b29sIHdpdGhpbiBhIHBhY2thZ2UKICAqLwogQFNlcmlhbGl6YWJsZQogZGF0YSBjbGFzcyBQYWNrYWdlVG9vbCgKICAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgIHZhbCBkZXNjcmlwdGlvbjogTG9jYWxpemVkVGV4dCwKICAgICB2YWwgcGFyYW1ldGVyczogTGlzdDxQYWNrYWdlVG9vbFBhcmFtZXRlcj4sCiAgICAgdmFsIHNjcmlwdDogU3RyaW5nLCAvLyBKYXZhU2NyaXB0IG9yIGNvbXBhdGlibGUgc2NyaXB0IHRoYXQgZGVmaW5lcyB0aGlzIHRvb2wncyBiZWhhdmlvciAoZm9ybWVybHkgb3BlclNjcmlwdCkKICAgICB2YWwgYWR2aWNlOiBCb29sZWFuID0gZmFsc2UKICkKIAogLyoqCiAgKiBSZXByZXNlbnRzIGEgcGFyYW1ldGVyIGZvciBhIHRvb2wgaW4gYSBwYWNrYWdlCiAgKi8KIEBTZXJpYWxpemFibGUKIGRhdGEgY2xhc3MgUGFja2FnZVRvb2xQYXJhbWV0ZXIoCiAgICAgdmFsIG5hbWU6IFN0cmluZywKICAgICB2YWwgZGVzY3JpcHRpb246IExvY2FsaXplZFRleHQsCiAgICAgdmFsIHR5cGU6IFN0cmluZywgLy8gZS5nLiwgInN0cmluZyIsICJudW1iZXIiLCAiYm9vbGVhbiIKICAgICB2YWwgcmVxdWlyZWQ6IEJvb2xlYW4gPSB0cnVlCiApCiAKIC8qKgogICogRXhlY3V0b3IgZm9yIHBhY2thZ2UgdG9vbHMKICAqLwogY2xhc3MgUGFja2FnZVRvb2xFeGVjdXRvcigKICAgICBwcml2YXRlIHZhbCB0b29sUGFja2FnZTogVG9vbFBhY2thZ2UsCiAgICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCwKICAgICBwcml2YXRlIHZhbCBwYWNrYWdlTWFuYWdlcjogUGFja2FnZU1hbmFnZXIKICkgOiBUb29sRXhlY3V0b3IgewogCiAgICAgcHJpdmF0ZSB2YWwganNUb29sTWFuYWdlciA9IEpzVG9vbE1hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dCwgcGFja2FnZU1hbmFnZXIpCiAKICAgICBvdmVycmlkZSBmdW4gaW52b2tlKHRvb2w6IEFJVG9vbCk6IFRvb2xSZXN1bHQgewogICAgICAgICAvLyBQYXJzZSBwYWNrYWdlTmFtZTp0b29sTmFtZSBwYXR0ZXJuCiAgICAgICAgIHZhbCBwYXJ0cyA9IHRvb2wubmFtZS5zcGxpdCgiOiIpCiAgICAgICAgIGlmIChwYXJ0cy5zaXplICE9IDIpIHsKICAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICBlcnJvciA9ICJJbnZhbGlkIHBhY2thZ2UgdG9vbCBmb3JtYXQuIEV4cGVjdGVkICdwYWNrYWdlTmFtZTp0b29sTmFtZSciCiAgICAgICAgICAgICApCiAgICAgICAgIH0KIAogICAgICAgICB2YWwgcGFja2FnZU5hbWUgPSBwYXJ0c1swXQogICAgICAgICB2YWwgdG9vbE5hbWUgPSBwYXJ0c1sxXQogCiAgICAgICAgIC8vIFZlcmlmeSB0aGlzIGV4ZWN1dG9yIGlzIGZvciB0aGUgcmlnaHQgcGFja2FnZQogICAgICAgICBpZiAocGFja2FnZU5hbWUgIT0gdG9vbFBhY2thZ2UubmFtZSkgewogICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgIGVycm9yID0gIlBhY2thZ2UgbWlzbWF0Y2g6IGV4cGVjdGVkICR7dG9vbFBhY2thZ2UubmFtZX0sIGdvdCAkcGFja2FnZU5hbWUiCiAgICAgICAgICAgICApCiAgICAgICAgIH0KIAogICAgICAgICAvLyBGaW5kIHRoZSB0b29sIGluIHRoZSBwYWNrYWdlCiAgICAgICAgIHZhbCBwYWNrYWdlVG9vbCA9IHRvb2xQYWNrYWdlLnRvb2xzLmZpbmQgeyBpdC5uYW1lID09IHRvb2xOYW1lIH0KICAgICAgICAgICAgID86IHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICBlcnJvciA9ICJUb29sICckdG9vbE5hbWUnIG5vdCBmb3VuZCBpbiBwYWNrYWdlICcke3Rvb2xQYWNrYWdlLm5hbWV9JyIKICAgICAgICAgICAgICkKIAogICAgICAgICAvLyBFeGVjdXRlIHRoZSBzY3JpcHQgdXNpbmcgcnVuQmxvY2tpbmcgc2luY2Ugd2UgY2FuJ3QgbWFrZSB0aGlzIGEgc3VzcGVuZGluZyBmdW5jdGlvbgogICAgICAgICAvLyB3aXRob3V0IGNoYW5naW5nIHRoZSBpbnRlcmZhY2UuIFdlIGNvbGxlY3QgdGhlIGxhc3QgcmVzdWx0IGZvciBzaW5nbGUtcmVzdWx0IGNvbXBhdGliaWxpdHkuCiAgICAgICAgIHJldHVybiBydW5CbG9ja2luZyB7CiAgICAgICAgICAgICBqc1Rvb2xNYW5hZ2VyLmV4ZWN1dGVTY3JpcHQocGFja2FnZVRvb2wuc2NyaXB0LCB0b29sKS5sYXN0KCkKICAgICAgICAgfQogICAgIH0KIAogICAgIG92ZXJyaWRlIGZ1biBpbnZva2VBbmRTdHJlYW0odG9vbDogQUlUb29sKTogRmxvdzxUb29sUmVzdWx0PiB7CiAgICAgICAgIC8vIEZpbmQgdGhlIHRvb2wgaW4gdGhlIHBhY2thZ2UKICAgICAgICAgdmFsIHBhY2thZ2VUb29sID0gdG9vbFBhY2thZ2UudG9vbHMuZmluZCB7IGl0Lm5hbWUuZW5kc1dpdGgodG9vbC5uYW1lLnNwbGl0KCI6IikubGFzdCgpKSB9CiAgICAgICAgICAgICA/OiBlcnJvcigiVG9vbCBub3QgZm91bmQgaW4gcGFja2FnZSBmb3Igc3RyZWFtaW5nIikgLy8gU2hvdWxkIGJlIHZhbGlkYXRlZCBiZWZvcmUKIAogICAgICAgICByZXR1cm4ganNUb29sTWFuYWdlci5leGVjdXRlU2NyaXB0KHBhY2thZ2VUb29sLnNjcmlwdCwgdG9vbCkKICAgICB9CiAKICAgICBvdmVycmlkZSBmdW4gdmFsaWRhdGVQYXJhbWV0ZXJzKHRvb2w6IEFJVG9vbCk6IFRvb2xWYWxpZGF0aW9uUmVzdWx0IHsKICAgICAgICAgLy8gUGFyc2UgcGFja2FnZU5hbWU6dG9vbE5hbWUgcGF0dGVybgogICAgICAgICB2YWwgcGFydHMgPSB0b29sLm5hbWUuc3BsaXQoIjoiKQogICAgICAgICBpZiAocGFydHMuc2l6ZSAhPSAyKSB7CiAgICAgICAgICAgICByZXR1cm4gVG9vbFZhbGlkYXRpb25SZXN1bHQoCiAgICAgICAgICAgICAgICAgdmFsaWQgPSBmYWxzZSwKICAgICAgICAgICAgICAgICBlcnJvck1lc3NhZ2UgPSAiSW52YWxpZCBwYWNrYWdlIHRvb2wgZm9ybWF0LiBFeHBlY3RlZCAncGFja2FnZU5hbWU6dG9vbE5hbWUnIgogICAgICAgICAgICAgKQogICAgICAgICB9CiAKICAgICAgICAgdmFsIHBhY2thZ2VOYW1lID0gcGFydHNbMF0KICAgICAgICAgdmFsIHRvb2xOYW1lID0gcGFydHNbMV0KIAogICAgICAgICAvLyBWZXJpZnkgdGhpcyBleGVjdXRvciBpcyBmb3IgdGhlIHJpZ2h0IHBhY2thZ2UKICAgICAgICAgaWYgKHBhY2thZ2VOYW1lICE9IHRvb2xQYWNrYWdlLm5hbWUpIHsKICAgICAgICAgICAgIHJldHVybiBUb29sVmFsaWRhdGlvblJlc3VsdCgKICAgICAgICAgICAgICAgICB2YWxpZCA9IGZhbHNlLAogICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9ICJQYWNrYWdlIG1pc21hdGNoOiBleHBlY3RlZCAke3Rvb2xQYWNrYWdlLm5hbWV9LCBnb3QgJHBhY2thZ2VOYW1lIgogICAgICAgICAgICAgKQogICAgICAgICB9CiAKICAgICAgICAgLy8gRmluZCB0aGUgdG9vbCBpbiB0aGUgcGFja2FnZQogICAgICAgICB2YWwgcGFja2FnZVRvb2wgPSB0b29sUGFja2FnZS50b29scy5maW5kIHsgaXQubmFtZSA9PSB0b29sTmFtZSB9CiAgICAgICAgICAgICA/OiByZXR1cm4gVG9vbFZhbGlkYXRpb25SZXN1bHQoCiAgICAgICAgICAgICAgICAgdmFsaWQgPSBmYWxzZSwKICAgICAgICAgICAgICAgICBlcnJvck1lc3NhZ2UgPSAiVG9vbCAnJHRvb2xOYW1lJyBub3QgZm91bmQgaW4gcGFja2FnZSAnJHt0b29sUGFja2FnZS5uYW1lfSciCiAgICAgICAgICAgICApCiAKICAgICAgICAgLy8gVmFsaWRhdGUgdGhhdCBhbGwgcmVxdWlyZWQgcGFyYW1ldGVycyBhcmUgcHJlc2VudAogICAgICAgICB2YWwgbWlzc2luZ1BhcmFtcyA9IHBhY2thZ2VUb29sLnBhcmFtZXRlcnMKICAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5yZXF1aXJlZCB9CiAgICAgICAgICAgICAubWFwIHsgaXQubmFtZSB9CiAgICAgICAgICAgICAuZmlsdGVyIHsgcGFyYW1OYW1lIC0+IHRvb2wucGFyYW1ldGVycy5ub25lIHsgaXQubmFtZSA9PSBwYXJhbU5hbWUgfSB9CiAKICAgICAgICAgaWYgKG1pc3NpbmdQYXJhbXMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICByZXR1cm4gVG9vbFZhbGlkYXRpb25SZXN1bHQoCiAgICAgICAgICAgICAgICAgdmFsaWQgPSBmYWxzZSwKICAgICAgICAgICAgICAgICBlcnJvck1lc3NhZ2UgPSAiTWlzc2luZyByZXF1aXJlZCBwYXJhbWV0ZXJzOiAke21pc3NpbmdQYXJhbXMuam9pblRvU3RyaW5nKCIsICIpfSIKICAgICAgICAgICAgICkKICAgICAgICAgfQogCiAgICAgICAgIHJldHVybiBUb29sVmFsaWRhdGlvblJlc3VsdCh2YWxpZCA9IHRydWUpCiAgICAgfQogCiAgICAgLyoqCiAgICAgICogUmV0dXJucyBpbmZvcm1hdGlvbiBhYm91dCB0aGUgdG9vbHMgYXZhaWxhYmxlIGluIHRoaXMgcGFja2FnZQogICAgICAqLwogICAgIGZ1biBkZXNjcmliZVBhY2thZ2UoKTogU3RyaW5nIHsKICAgICAgICAgdmFsIHNiID0gU3RyaW5nQnVpbGRlcigpCiAgICAgICAgIHNiLmFwcGVuZExpbmUoIlBhY2thZ2U6ICR7dG9vbFBhY2thZ2UubmFtZX0iKQogICAgICAgICBzYi5hcHBlbmRMaW5lKCJEZXNjcmlwdGlvbjogJHt0b29sUGFja2FnZS5kZXNjcmlwdGlvbi5yZXNvbHZlKGNvbnRleHQpfSIpCiAgICAgICAgIHNiLmFwcGVuZExpbmUoIlRvb2xzOiIpCiAKICAgICAgICAgdG9vbFBhY2thZ2UudG9vbHMuZm9yRWFjaCB7IHRvb2wgLT4KICAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIiAgLSAke3Rvb2wubmFtZX06ICR7dG9vbC5kZXNjcmlwdGlvbi5yZXNvbHZlKGNvbnRleHQpfSIpCiAgICAgICAgICAgICBpZiAodG9vbC5wYXJhbWV0ZXJzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIiAgICBQYXJhbWV0ZXJzOiIpCiAgICAgICAgICAgICAgICAgdG9vbC5wYXJhbWV0ZXJzLmZvckVhY2ggeyBwYXJhbSAtPgogICAgICAgICAgICAgICAgICAgICB2YWwgcmVxdWlyZWQgPSBpZiAocGFyYW0ucmVxdWlyZWQpICIgKHJlcXVpcmVkKSIgZWxzZSAiIChvcHRpb25hbCkiCiAgICAgICAgICAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIiAgICAgIC0gJHtwYXJhbS5uYW1lfTogJHtwYXJhbS5kZXNjcmlwdGlvbi5yZXNvbHZlKGNvbnRleHQpfSBbJHtwYXJhbS50eXBlfV0kcmVxdWlyZWQiKQogICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgIH0KICAgICAgICAgfQogCiAgICAgICAgIHJldHVybiBzYi50b1N0cmluZygpCiAgICAgfQogfQo=
+package com.bslsjdk.operit.core.tools
+ 
+ import android.content.Context
+ import android.os.Build
+ import com.bslsjdk.operit.core.tools.javascript.JsToolManager
+ import com.bslsjdk.operit.core.tools.packTool.PackageManager
+ import com.bslsjdk.operit.data.model.AITool
+ import com.bslsjdk.operit.data.model.ToolResult
+ import com.bslsjdk.operit.data.model.ToolValidationResult
+ import kotlinx.coroutines.flow.Flow
+ import kotlinx.serialization.builtins.MapSerializer
+ import kotlinx.serialization.builtins.serializer
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.KSerializer
+import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.descriptors.SerialDescriptor
+import kotlinx.serialization.descriptors.buildClassSerialDescriptor
+import kotlinx.serialization.descriptors.element
+import kotlinx.serialization.encoding.Decoder
+import kotlinx.serialization.encoding.Encoder
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonArray
+import kotlinx.serialization.json.JsonDecoder
+import kotlinx.serialization.json.JsonElement
+import kotlinx.serialization.json.JsonNames
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+ import kotlinx.serialization.json.buildJsonObject
+ import kotlinx.serialization.json.jsonPrimitive
+ import kotlinx.serialization.json.put
+ import kotlinx.coroutines.runBlocking
+ import kotlinx.coroutines.flow.last
+ import java.util.Locale
+ 
+ /**
+  * Represents a package of tools that can be imported by the AI
+  */
+ @Serializable(with = LocalizedTextSerializer::class)
+ data class LocalizedText(
+     val values: Map<String, String>
+ ) {
+ 
+     fun resolve(context: Context): String {
+         val locale = try {
+             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                 context.resources.configuration.locales.get(0)
+             } else {
+                 @Suppress("DEPRECATION")
+                 context.resources.configuration.locale
+             }
+         } catch (_: Exception) {
+             Locale.getDefault()
+         }
+ 
+         val languageTag = try {
+             locale.toLanguageTag()
+         } catch (_: Exception) {
+             ""
+         }
+ 
+         val language = try {
+             locale.language
+         } catch (_: Exception) {
+             ""
+         }
+ 
+         val preferredKeys = mutableListOf<String>().apply {
+             if (languageTag.isNotBlank()) {
+                 add(languageTag)
+                 add(languageTag.lowercase())
+             }
+             if (language.isNotBlank()) {
+                 add(language)
+                 add(language.lowercase())
+             }
+             add("default")
+             add("en")
+             add("zh")
+         }
+ 
+         for (key in preferredKeys) {
+             val value = values[key] ?: values[key.lowercase()]
+             if (value != null) return value
+         }
+ 
+         return values.values.firstOrNull().orEmpty()
+     }
+
+     fun resolve(preferredLanguage: String): String {
+         val normalized = preferredLanguage.trim()
+         if (normalized.isEmpty()) {
+             return values["default"] ?: values.values.firstOrNull().orEmpty()
+         }
+
+         val lower = normalized.lowercase()
+         val languageOnlyLower = lower.substringBefore('-')
+         val languageOnlyOriginal = normalized.substringBefore('-')
+
+         val preferredKeys = mutableListOf<String>().apply {
+             add(normalized)
+             add(lower)
+             if (languageOnlyOriginal.isNotBlank() && languageOnlyOriginal != normalized) {
+                 add(languageOnlyOriginal)
+             }
+             if (languageOnlyLower.isNotBlank() && languageOnlyLower != lower) {
+                 add(languageOnlyLower)
+             }
+             add("default")
+             add("en")
+             add("zh")
+         }
+
+         for (key in preferredKeys) {
+             val value = values[key] ?: values[key.lowercase()]
+             if (value != null) return value
+         }
+
+         return values.values.firstOrNull().orEmpty()
+     }
+ 
+     companion object {
+         fun of(value: String): LocalizedText {
+             return LocalizedText(mapOf("default" to value))
+         }
+     }
+ }
+ 
+object LocalizedTextSerializer : KSerializer<LocalizedText> {
+
+    override val descriptor: SerialDescriptor =
+        buildClassSerialDescriptor("LocalizedText") {
+            element<String>("default", isOptional = true)
+        }
+
+    override fun deserialize(decoder: Decoder): LocalizedText {
+        val jsonDecoder = decoder as? JsonDecoder
+            ?: return LocalizedText.of(decoder.decodeString())
+
+        val element = jsonDecoder.decodeJsonElement()
+        return when (element) {
+            is JsonPrimitive -> LocalizedText.of(element.content)
+            is JsonObject -> {
+                val map = element.entries
+                    .mapNotNull { (k, v) ->
+                        val value =
+                            (v as? JsonPrimitive)?.content
+                                ?: runCatching { v.jsonPrimitive.content }.getOrNull()
+                        if (value == null) null else k to value
+                    }
+                    .toMap()
+                LocalizedText(map)
+            }
+            else -> LocalizedText.of(element.toString())
+        }
+    }
+
+    override fun serialize(encoder: Encoder, value: LocalizedText) {
+        val onlyDefault = value.values.size == 1 && value.values.containsKey("default")
+        if (onlyDefault) {
+            encoder.encodeString(value.values.getValue("default"))
+            return
+        }
+
+        val entries = value.values.entries
+        val mapSerializer = MapSerializer(String.serializer(), String.serializer())
+        encoder.encodeSerializableValue(mapSerializer, entries.associate { it.key to it.value })
+    }
+}
+
+object StringOrStringListSerializer : KSerializer<List<String>> {
+    private val delegateSerializer = ListSerializer(String.serializer())
+
+    override val descriptor: SerialDescriptor = delegateSerializer.descriptor
+
+    override fun deserialize(decoder: Decoder): List<String> {
+        val jsonDecoder = decoder as? JsonDecoder
+            ?: return listOf(decoder.decodeString().trim()).filter { it.isNotBlank() }
+
+        val element = jsonDecoder.decodeJsonElement()
+        return when (element) {
+            is JsonPrimitive -> listOf(element.content.trim()).filter { it.isNotBlank() }
+            is JsonArray -> element.mapNotNull { item ->
+                (item as? JsonPrimitive)?.content?.trim()?.takeIf { it.isNotBlank() }
+            }
+            else -> throw IllegalArgumentException("Expected string or string array")
+        }
+    }
+
+    override fun serialize(encoder: Encoder, value: List<String>) {
+        val normalized = value.map { it.trim() }.filter { it.isNotBlank() }
+        when (normalized.size) {
+            0 -> encoder.encodeSerializableValue(delegateSerializer, emptyList())
+            1 -> encoder.encodeString(normalized.first())
+            else -> encoder.encodeSerializableValue(delegateSerializer, normalized)
+        }
+    }
+}
+ 
+ /**
+  * Represents an environment variable declaration for a package
+  */
+ @Serializable(with = EnvVarSerializer::class)
+ data class EnvVar(
+     val name: String,
+     val description: LocalizedText,
+     val required: Boolean = true,
+     val defaultValue: String? = null
+ )
+ 
+ /**
+  * Custom serializer for EnvVar that handles both old format (string) and new format (object)
+  * Old format: "GITHUB_TOKEN"
+  * New format: { "name": "GITHUB_TOKEN", "description": "...", "required": true, "defaultValue": "..." }
+  */
+ object EnvVarSerializer : KSerializer<EnvVar> {
+     private val delegateSerializer = JsonObject.serializer()
+     
+     override val descriptor: SerialDescriptor = delegateSerializer.descriptor
+     
+     override fun deserialize(decoder: Decoder): EnvVar {
+         val jsonDecoder = decoder as? JsonDecoder
+             ?: throw IllegalArgumentException("EnvVarSerializer can only be used with JSON")
+         
+         val element = jsonDecoder.decodeJsonElement()
+         
+         // Handle old format: simple string
+         if (element is JsonPrimitive) {
+             return EnvVar(
+                 name = element.content,
+                 description = LocalizedText.of(""),
+                 required = true,
+                 defaultValue = null
+             )
+         }
+         
+         // Handle new format: object
+         if (element is JsonObject) {
+             val name = element["name"]?.jsonPrimitive?.content
+                 ?: throw IllegalArgumentException("EnvVar must have a 'name' field")
+             
+             val descriptionElement = element["description"]
+             val description = if (descriptionElement != null) {
+                 val json = Json { ignoreUnknownKeys = true }
+                 json.decodeFromString(LocalizedTextSerializer, descriptionElement.toString())
+             } else {
+                 LocalizedText.of("")
+             }
+             
+             val requiredElement = element["required"]
+             val required = if (requiredElement != null) {
+                 when (requiredElement) {
+                     is JsonPrimitive -> {
+                         if (requiredElement.isString) {
+                             // Handle string boolean values
+                             requiredElement.content.toBooleanStrictOrNull() ?: true
+                         } else {
+                             // Handle boolean values directly
+                             try {
+                                 requiredElement.content.toBooleanStrictOrNull() ?: true
+                             } catch (e: Exception) {
+                                 true
+                             }
+                         }
+                     }
+                     else -> true
+                 }
+             } else {
+                 true
+             }
+             
+             val defaultValue = element["defaultValue"]?.jsonPrimitive?.content
+             
+             return EnvVar(
+                 name = name,
+                 description = description,
+                 required = required,
+                 defaultValue = defaultValue
+             )
+         }
+         
+         throw IllegalArgumentException("EnvVar must be a string or an object")
+     }
+     
+     override fun serialize(encoder: Encoder, value: EnvVar) {
+         // Always serialize in new format
+         val jsonObject = buildJsonObject {
+             put("name", value.name)
+             put("description", Json.encodeToString(LocalizedTextSerializer, value.description).let {
+                 Json.parseToJsonElement(it)
+             })
+             put("required", value.required)
+             if (value.defaultValue != null) {
+                 put("defaultValue", value.defaultValue)
+             }
+         }
+         encoder.encodeSerializableValue(JsonObject.serializer(), jsonObject)
+     }
+ }
+ 
+@Serializable
+data class ToolPackage(
+    val name: String,
+    val description: LocalizedText,
+    val tools: List<PackageTool>,
+    val states: List<ToolPackageState> = emptyList(),
+     /**
+      * Optional list of environment variable declarations for this package.
+      * Each environment variable can be marked as required or optional.
+      * If required variables are missing, PackageManager will validate that
+      * these variables exist before activating the package.
+      *
+      * Example format:
+      * env: [
+      *   {
+      *     name: "GITHUB_API_BASE_URL",
+      *     description: "GitHub API base URL",
+      *     required: true
+      *   },
+      *   {
+      *     name: "MAX_RETRIES",
+      *     description: "Maximum number of retry attempts",
+      *     required: false,
+      *     defaultValue: "3"
+      *   }
+      * ]
+      */
+    val env: List<EnvVar> = emptyList(),
+    val isBuiltIn: Boolean = false,
+    @JsonNames("enabled_by_default")
+    val enabledByDefault: Boolean = false,
+    @JsonNames("display_name")
+    val displayName: LocalizedText = LocalizedText.of(""),
+    val category: String = "Other",
+    @Serializable(with = StringOrStringListSerializer::class)
+    val author: List<String> = emptyList(),
+    val version: String = ""
+)
+ 
+ @Serializable
+ data class ToolPackageState(
+     val id: String,
+     val condition: String = "true",
+     val inheritTools: Boolean = false,
+     val excludeTools: List<String> = emptyList(),
+     val tools: List<PackageTool> = emptyList()
+ )
+ 
+ /**
+  * Represents a tool within a package
+  */
+ @Serializable
+ data class PackageTool(
+     val name: String,
+     val description: LocalizedText,
+     val parameters: List<PackageToolParameter>,
+     val script: String, // JavaScript or compatible script that defines this tool's behavior (formerly operScript)
+     val advice: Boolean = false
+ )
+ 
+ /**
+  * Represents a parameter for a tool in a package
+  */
+ @Serializable
+ data class PackageToolParameter(
+     val name: String,
+     val description: LocalizedText,
+     val type: String, // e.g., "string", "number", "boolean"
+     val required: Boolean = true
+ )
+ 
+ /**
+  * Executor for package tools
+  */
+ class PackageToolExecutor(
+     private val toolPackage: ToolPackage,
+     private val context: Context,
+     private val packageManager: PackageManager
+ ) : ToolExecutor {
+ 
+     private val jsToolManager = JsToolManager.getInstance(context, packageManager)
+ 
+     override fun invoke(tool: AITool): ToolResult {
+         // Parse packageName:toolName pattern
+         val parts = tool.name.split(":")
+         if (parts.size != 2) {
+             return ToolResult(
+                 toolName = tool.name,
+                 success = false,
+                 result = StringResultData(""),
+                 error = "Invalid package tool format. Expected 'packageName:toolName'"
+             )
+         }
+ 
+         val packageName = parts[0]
+         val toolName = parts[1]
+ 
+         // Verify this executor is for the right package
+         if (packageName != toolPackage.name) {
+             return ToolResult(
+                 toolName = tool.name,
+                 success = false,
+                 result = StringResultData(""),
+                 error = "Package mismatch: expected ${toolPackage.name}, got $packageName"
+             )
+         }
+ 
+         // Find the tool in the package
+         val packageTool = toolPackage.tools.find { it.name == toolName }
+             ?: return ToolResult(
+                 toolName = tool.name,
+                 success = false,
+                 result = StringResultData(""),
+                 error = "Tool '$toolName' not found in package '${toolPackage.name}'"
+             )
+ 
+         // Execute the script using runBlocking since we can't make this a suspending function
+         // without changing the interface. We collect the last result for single-result compatibility.
+         return runBlocking {
+             jsToolManager.executeScript(packageTool.script, tool).last()
+         }
+     }
+ 
+     override fun invokeAndStream(tool: AITool): Flow<ToolResult> {
+         // Find the tool in the package
+         val packageTool = toolPackage.tools.find { it.name.endsWith(tool.name.split(":").last()) }
+             ?: error("Tool not found in package for streaming") // Should be validated before
+ 
+         return jsToolManager.executeScript(packageTool.script, tool)
+     }
+ 
+     override fun validateParameters(tool: AITool): ToolValidationResult {
+         // Parse packageName:toolName pattern
+         val parts = tool.name.split(":")
+         if (parts.size != 2) {
+             return ToolValidationResult(
+                 valid = false,
+                 errorMessage = "Invalid package tool format. Expected 'packageName:toolName'"
+             )
+         }
+ 
+         val packageName = parts[0]
+         val toolName = parts[1]
+ 
+         // Verify this executor is for the right package
+         if (packageName != toolPackage.name) {
+             return ToolValidationResult(
+                 valid = false,
+                 errorMessage = "Package mismatch: expected ${toolPackage.name}, got $packageName"
+             )
+         }
+ 
+         // Find the tool in the package
+         val packageTool = toolPackage.tools.find { it.name == toolName }
+             ?: return ToolValidationResult(
+                 valid = false,
+                 errorMessage = "Tool '$toolName' not found in package '${toolPackage.name}'"
+             )
+ 
+         // Validate that all required parameters are present
+         val missingParams = packageTool.parameters
+             .filter { it.required }
+             .map { it.name }
+             .filter { paramName -> tool.parameters.none { it.name == paramName } }
+ 
+         if (missingParams.isNotEmpty()) {
+             return ToolValidationResult(
+                 valid = false,
+                 errorMessage = "Missing required parameters: ${missingParams.joinToString(", ")}"
+             )
+         }
+ 
+         return ToolValidationResult(valid = true)
+     }
+ 
+     /**
+      * Returns information about the tools available in this package
+      */
+     fun describePackage(): String {
+         val sb = StringBuilder()
+         sb.appendLine("Package: ${toolPackage.name}")
+         sb.appendLine("Description: ${toolPackage.description.resolve(context)}")
+         sb.appendLine("Tools:")
+ 
+         toolPackage.tools.forEach { tool ->
+             sb.appendLine("  - ${tool.name}: ${tool.description.resolve(context)}")
+             if (tool.parameters.isNotEmpty()) {
+                 sb.appendLine("    Parameters:")
+                 tool.parameters.forEach { param ->
+                     val required = if (param.required) " (required)" else " (optional)"
+                     sb.appendLine("      - ${param.name}: ${param.description.resolve(context)} [${param.type}]$required")
+                 }
+             }
+         }
+ 
+         return sb.toString()
+     }
+ }

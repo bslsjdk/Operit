@@ -1,1 +1,33 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0ucGx1Z2lucwoKLyoqCiAqIEEgc3RyZWFtIHByb2Nlc3NpbmcgcGx1Z2luIHRvIGlkZW50aWZ5IEpTT04gc3RydWN0dXJlcyBhbmQgZXh0cmFjdCBvbmx5IHRoZWlyIGNvbnRlbnQsIGZpbHRlcmluZwogKiBvdXQgYWxsIHN0cnVjdHVyYWwgY2hhcmFjdGVycyAoYHt9W10iLDpgKS4KICoKICogVGhpcyBwbHVnaW4gaW50ZWxsaWdlbnRseSBwYXJzZXMgYSBKU09OIG9iamVjdCBvciBhcnJheSBhbmQgZW1pdHMgb25seSB0aGUgbWVhbmluZ2Z1bCBjb250ZW50CiAqIChrZXlzIGFuZCB2YWx1ZXMpIGFzIGEgc3RyZWFtIG9mIGNoYXJhY3RlcnMuCiAqLwpjbGFzcyBTdHJlYW1QdXJlSnNvblBsdWdpbiA6IEJhc2VKc29uUGx1Z2luKCkgewoKICAgIC8qKgogICAgICogRGV0ZXJtaW5lcyB3aGV0aGVyIGEgY2hhcmFjdGVyIHNob3VsZCBiZSBlbWl0dGVkIGJhc2VkIG9uIHdoZXRoZXIgaXQgaXMgcGFydCBvZiB0aGUgSlNPTgogICAgICogY29udGVudCBvciBhIHN0cnVjdHVyYWwgY2hhcmFjdGVyLgogICAgICogQHJldHVybiBgdHJ1ZWAgZm9yIGNvbnRlbnQgY2hhcmFjdGVycywgYGZhbHNlYCBmb3Igc3RydWN0dXJhbCBjaGFyYWN0ZXJzLgogICAgICovCiAgICBvdmVycmlkZSBmdW4gc2hvdWxkRW1pdChjOiBDaGFyKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKGluU3RyaW5nKSB7CiAgICAgICAgICAgIC8vIEluc2lkZSBhIHN0cmluZywgZW1pdCBtb3N0IGNoYXJhY3RlcnMKICAgICAgICAgICAgcmV0dXJuIHdoZW4gKGMpIHsKICAgICAgICAgICAgICAgICdcXCcgLT4gZmFsc2UgLy8gRG9uJ3QgZW1pdCB0aGUgZXNjYXBlIGNoYXIgaXRzZWxmCiAgICAgICAgICAgICAgICAnIicgLT4gZmFsc2UgLy8gRG9uJ3QgZW1pdCBxdW90ZXMKICAgICAgICAgICAgICAgIGVsc2UgLT4gdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgLy8gT3V0c2lkZSBhIHN0cmluZywgZmlsdGVyIG91dCBzdHJ1Y3R1cmFsIGNoYXJzIGFuZCB3aGl0ZXNwYWNlCiAgICAgICAgICAgIHJldHVybiB3aGVuIChjKSB7CiAgICAgICAgICAgICAgICAneycsICd9JywgJ1snLCAnXScsICc6JywgJywnIC0+IGZhbHNlCiAgICAgICAgICAgICAgICBlbHNlIC0+ICFjLmlzV2hpdGVzcGFjZSgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.util.stream.plugins
+
+/**
+ * A stream processing plugin to identify JSON structures and extract only their content, filtering
+ * out all structural characters (`{}[]",:`).
+ *
+ * This plugin intelligently parses a JSON object or array and emits only the meaningful content
+ * (keys and values) as a stream of characters.
+ */
+class StreamPureJsonPlugin : BaseJsonPlugin() {
+
+    /**
+     * Determines whether a character should be emitted based on whether it is part of the JSON
+     * content or a structural character.
+     * @return `true` for content characters, `false` for structural characters.
+     */
+    override fun shouldEmit(c: Char): Boolean {
+        if (inString) {
+            // Inside a string, emit most characters
+            return when (c) {
+                '\\' -> false // Don't emit the escape char itself
+                '"' -> false // Don't emit quotes
+                else -> true
+            }
+        } else {
+            // Outside a string, filter out structural chars and whitespace
+            return when (c) {
+                '{', '}', '[', ']', ':', ',' -> false
+                else -> !c.isWhitespace()
+            }
+        }
+    }
+}

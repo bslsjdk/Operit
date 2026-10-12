@@ -1,1 +1,192 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5JbWFnZVBvb2xNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5NZWRpYUJhc2U2NExpbWl0ZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLk1lZGlhUG9vbE1hbmFnZXIKCmRhdGEgY2xhc3MgTWVkaWFMaW5rKAogICAgdmFsIHR5cGU6IFN0cmluZywKICAgIHZhbCBpZDogU3RyaW5nLAogICAgdmFsIGJhc2U2NERhdGE6IFN0cmluZywKICAgIHZhbCBtaW1lVHlwZTogU3RyaW5nLAogICAgdmFsIGZpbGVOYW1lOiBTdHJpbmc/ID0gbnVsbCwKKQoKZGF0YSBjbGFzcyBJbWFnZUxpbmsoCiAgICB2YWwgdHlwZTogU3RyaW5nLAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgYmFzZTY0RGF0YTogU3RyaW5nLAogICAgdmFsIG1pbWVUeXBlOiBTdHJpbmcKKQoKZGF0YSBjbGFzcyBNZWRpYUxpbmtUYWcoCiAgICB2YWwgdHlwZTogU3RyaW5nLAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgZmlsZU5hbWU6IFN0cmluZz8gPSBudWxsLAopCgpvYmplY3QgTWVkaWFMaW5rUGFyc2VyIHsKICAgIC8vIE1hdGNoIHRoZSB3aG9sZSBsaW5rIGJsb2NrIHdoaWxlIGFsbG93aW5nIGFyYml0cmFyeSBhdHRyaWJ1dGUgb3JkZXIgYW5kIGVzY2FwaW5nLgogICAgcHJpdmF0ZSB2YWwgTElOS19QQVRURVJOID0gUmVnZXgoCiAgICAgICAgIiIiPGxpbmtcYig/PVtePl0qXGJ0eXBlXHMqPVxzKlxcKlsiJ10/KGltYWdlfGF1ZGlvfHZpZGVvfGZpbGUpXFwqWyInXT8pKD89W14+XSpcYmlkXHMqPVxzKlxcKlsiJ10/KFteIidcXFxzPl0rKVxcKlsiJ10/KVtePl0qKD86Lz58Pi4qPzwvbGluaz4pIiIiLAogICAgICAgIHNldE9mKFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCwgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UpCiAgICApCgogICAgcHJpdmF0ZSBmdW4gaXNNZWRpYVR5cGUodHlwZTogU3RyaW5nKTogQm9vbGVhbiA9CiAgICAgICAgdHlwZS5lcXVhbHMoImF1ZGlvIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgICAgIHR5cGUuZXF1YWxzKCJ2aWRlbyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICB0eXBlLmVxdWFscygiZmlsZSIsIGlnbm9yZUNhc2UgPSB0cnVlKQoKICAgIHByaXZhdGUgZnVuIG1hdGNoZXNGb3JUeXBlKG1lc3NhZ2U6IFN0cmluZywgdHlwZTogU3RyaW5nKTogU2VxdWVuY2U8TWF0Y2hSZXN1bHQ+ID0KICAgICAgICBMSU5LX1BBVFRFUk4uZmluZEFsbChtZXNzYWdlKS5maWx0ZXIgewogICAgICAgICAgICBpdC5ncm91cFZhbHVlc1sxXS5lcXVhbHModHlwZSwgaWdub3JlQ2FzZSA9IHRydWUpCiAgICAgICAgfQoKICAgIHByaXZhdGUgZnVuIG1hdGNoZXNGb3JNZWRpYVR5cGUobWVzc2FnZTogU3RyaW5nKTogU2VxdWVuY2U8TWF0Y2hSZXN1bHQ+ID0KICAgICAgICBMSU5LX1BBVFRFUk4uZmluZEFsbChtZXNzYWdlKS5maWx0ZXIgeyBpc01lZGlhVHlwZShpdC5ncm91cFZhbHVlc1sxXSkgfQoKICAgIHByaXZhdGUgdmFsIEZJTEVfTElOS19QQVRURVJOX1BMQUlOID0gUmVnZXgoCiAgICAgICAgIiIiPGxpbmtccyt0eXBlXHMqPVxzKlwiZmlsZVwiXHMraWRccyo9XHMqXCIoW15cIl0rKVwiXHMrZmlsZW5hbWVccyo9XHMqXCIoW15cIl0rKVwiXHMqPi4qPzwvbGluaz4iIiIsCiAgICAgICAgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMLAogICAgKQoKICAgIHByaXZhdGUgdmFsIEZJTEVfTElOS19QQVRURVJOX0VTQ0FQRUQgPSBSZWdleCgKICAgICAgICAiIiI8bGlua1xzK3R5cGU9XFxcImZpbGVcXFwiXHMraWQ9XFxcIihbXlxcXCJdKylcXFwiXHMrZmlsZW5hbWU9XFxcIihbXlxcXCJdKylcXFwiXHMqPi4qPzwvbGluaz4iIiIsCiAgICAgICAgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMLAogICAgKQoKICAgIHByaXZhdGUgdmFsIEZJTEVfTkFNRV9BVFRSSUJVVEVfUEFUVEVSTiA9IFJlZ2V4KAogICAgICAgICIiImZpbGVuYW1lXHMqPVxzKlxcKlsiJ10/KFteIidcXD5dKylcXCpbIiddPyIiIiwKICAgICAgICBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSwKICAgICkKCiAgICBwcml2YXRlIGZ1biBleHRyYWN0RmlsZU5hbWUobWF0Y2g6IE1hdGNoUmVzdWx0KTogU3RyaW5nPyA9CiAgICAgICAgRklMRV9OQU1FX0FUVFJJQlVURV9QQVRURVJOLmZpbmQobWF0Y2gudmFsdWUpCiAgICAgICAgICAgID8uZ3JvdXBWYWx1ZXMKICAgICAgICAgICAgPy5nZXQoMSkKICAgICAgICAgICAgPy5sZXQoOjp1bmVzY2FwZVhtbCkKICAgICAgICAgICAgPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQoKICAgIGZ1biBleHRyYWN0SW1hZ2VMaW5rcyhtZXNzYWdlOiBTdHJpbmcpOiBMaXN0PEltYWdlTGluaz4gewogICAgICAgIHZhbCBpbWFnZUxpbmtzID0gbXV0YWJsZUxpc3RPZjxJbWFnZUxpbms+KCkKICAgICAgICB2YWwgc2VlbklkcyA9IG11dGFibGVTZXRPZjxTdHJpbmc+KCkKICAgICAgICBmb3IgKG1hdGNoIGluIG1hdGNoZXNGb3JUeXBlKG1lc3NhZ2UsICJpbWFnZSIpKSB7CiAgICAgICAgICAgIHZhbCBpZCA9IG1hdGNoLmdyb3VwVmFsdWVzWzJdCiAgICAgICAgICAgIGlmIChpZCA9PSAiZXJyb3IiIHx8ICFzZWVuSWRzLmFkZChpZCkpIGNvbnRpbnVlCiAgICAgICAgICAgIHZhbCBpbWFnZURhdGEgPSBJbWFnZVBvb2xNYW5hZ2VyLmdldEltYWdlKGlkKSA/OiBjb250aW51ZQogICAgICAgICAgICBpbWFnZUxpbmtzLmFkZCgKICAgICAgICAgICAgICAgIEltYWdlTGluaygKICAgICAgICAgICAgICAgICAgICB0eXBlID0gImltYWdlIiwKICAgICAgICAgICAgICAgICAgICBpZCA9IGlkLAogICAgICAgICAgICAgICAgICAgIGJhc2U2NERhdGEgPSBpbWFnZURhdGEuYmFzZTY0LAogICAgICAgICAgICAgICAgICAgIG1pbWVUeXBlID0gaW1hZ2VEYXRhLm1pbWVUeXBlCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGltYWdlTGlua3MKICAgIH0KCiAgICBmdW4gZXh0cmFjdEltYWdlTGlua0lkcyhtZXNzYWdlOiBTdHJpbmcpOiBMaXN0PFN0cmluZz4gewogICAgICAgIHZhbCBpZHMgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQogICAgICAgIHZhbCBzZWVuSWRzID0gbXV0YWJsZVNldE9mPFN0cmluZz4oKQogICAgICAgIGZvciAobWF0Y2ggaW4gbWF0Y2hlc0ZvclR5cGUobWVzc2FnZSwgImltYWdlIikpIHsKICAgICAgICAgICAgdmFsIGlkID0gbWF0Y2guZ3JvdXBWYWx1ZXNbMl0KICAgICAgICAgICAgaWYgKGlkICE9ICJlcnJvciIgJiYgc2Vlbklkcy5hZGQoaWQpKSB7CiAgICAgICAgICAgICAgICBpZHMuYWRkKGlkKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBpZHMKICAgIH0KCiAgICBmdW4gcmVtb3ZlSW1hZ2VMaW5rcyhtZXNzYWdlOiBTdHJpbmcpOiBTdHJpbmcgPQogICAgICAgIExJTktfUEFUVEVSTi5yZXBsYWNlKG1lc3NhZ2UpIHsgbWF0Y2ggLT4KICAgICAgICAgICAgaWYgKG1hdGNoLmdyb3VwVmFsdWVzWzFdLmVxdWFscygiaW1hZ2UiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpICIiIGVsc2UgbWF0Y2gudmFsdWUKICAgICAgICB9CgogICAgZnVuIHJlcGxhY2VJbWFnZUxpbmtzKG1lc3NhZ2U6IFN0cmluZywgcmVwbGFjZXI6IChpZDogU3RyaW5nKSAtPiBTdHJpbmcpOiBTdHJpbmcgPQogICAgICAgIExJTktfUEFUVEVSTi5yZXBsYWNlKG1lc3NhZ2UpIHsgbWF0Y2ggLT4KICAgICAgICAgICAgaWYgKCFtYXRjaC5ncm91cFZhbHVlc1sxXS5lcXVhbHMoImltYWdlIiwgaWdub3JlQ2FzZSA9IHRydWUpKSB7CiAgICAgICAgICAgICAgICBtYXRjaC52YWx1ZQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdmFsIGlkID0gbWF0Y2guZ3JvdXBWYWx1ZXNbMl0KICAgICAgICAgICAgICAgIGlmIChpZCA9PSAiZXJyb3IiKSAiIiBlbHNlIHJlcGxhY2VyKGlkKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIGZ1biBoYXNJbWFnZUxpbmtzKG1lc3NhZ2U6IFN0cmluZyk6IEJvb2xlYW4gPSBtYXRjaGVzRm9yVHlwZShtZXNzYWdlLCAiaW1hZ2UiKS5hbnkoKQoKICAgIGZ1biBleHRyYWN0TWVkaWFMaW5rcyhtZXNzYWdlOiBTdHJpbmcpOiBMaXN0PE1lZGlhTGluaz4gewogICAgICAgIHZhbCBsaW5rcyA9IG11dGFibGVMaXN0T2Y8TWVkaWFMaW5rPigpCiAgICAgICAgdmFsIHNlZW5JZHMgPSBtdXRhYmxlU2V0T2Y8U3RyaW5nPigpCiAgICAgICAgZm9yIChtYXRjaCBpbiBtYXRjaGVzRm9yTWVkaWFUeXBlKG1lc3NhZ2UpKSB7CiAgICAgICAgICAgIHZhbCB0eXBlID0gbWF0Y2guZ3JvdXBWYWx1ZXNbMV0ubG93ZXJjYXNlKCkKICAgICAgICAgICAgdmFsIGlkID0gbWF0Y2guZ3JvdXBWYWx1ZXNbMl0KICAgICAgICAgICAgaWYgKGlkID09ICJlcnJvciIpIGNvbnRpbnVlCiAgICAgICAgICAgIHZhbCBrZXkgPSAiJHR5cGU6JGlkIgogICAgICAgICAgICBpZiAoa2V5IGluIHNlZW5JZHMpIGNvbnRpbnVlCiAgICAgICAgICAgIHZhbCBmaWxlTmFtZSA9IGlmICh0eXBlID09ICJmaWxlIikgZXh0cmFjdEZpbGVOYW1lKG1hdGNoKSBlbHNlIG51bGwKICAgICAgICAgICAgaWYgKHR5cGUgPT0gImZpbGUiICYmIGZpbGVOYW1lID09IG51bGwpIGNvbnRpbnVlCiAgICAgICAgICAgIHNlZW5JZHMuYWRkKGtleSkKICAgICAgICAgICAgdmFsIG1lZGlhRGF0YSA9IE1lZGlhUG9vbE1hbmFnZXIuZ2V0TWVkaWEoaWQpID86IGNvbnRpbnVlCiAgICAgICAgICAgIHZhbCBsaW1pdGVkID0gTWVkaWFCYXNlNjRMaW1pdGVyLmxpbWl0QmFzZTY0Rm9yQWkobWVkaWFEYXRhLmJhc2U2NCwgbWVkaWFEYXRhLm1pbWVUeXBlKSA/OiBjb250aW51ZQogICAgICAgICAgICBsaW5rcy5hZGQoCiAgICAgICAgICAgICAgICBNZWRpYUxpbmsoCiAgICAgICAgICAgICAgICAgICAgdHlwZSA9IHR5cGUsCiAgICAgICAgICAgICAgICAgICAgaWQgPSBpZCwKICAgICAgICAgICAgICAgICAgICBiYXNlNjREYXRhID0gbGltaXRlZC5iYXNlNjQsCiAgICAgICAgICAgICAgICAgICAgbWltZVR5cGUgPSBsaW1pdGVkLm1pbWVUeXBlLAogICAgICAgICAgICAgICAgICAgIGZpbGVOYW1lID0gZmlsZU5hbWUsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGxpbmtzCiAgICB9CgogICAgZnVuIGV4dHJhY3RNZWRpYUxpbmtUYWdzKG1lc3NhZ2U6IFN0cmluZyk6IExpc3Q8TWVkaWFMaW5rVGFnPiB7CiAgICAgICAgdmFsIHRhZ3MgPSBtdXRhYmxlTGlzdE9mPE1lZGlhTGlua1RhZz4oKQogICAgICAgIHZhbCBzZWVuSWRzID0gbXV0YWJsZVNldE9mPFN0cmluZz4oKQogICAgICAgIGZvciAobWF0Y2ggaW4gbWF0Y2hlc0Zvck1lZGlhVHlwZShtZXNzYWdlKSkgewogICAgICAgICAgICB2YWwgdHlwZSA9IG1hdGNoLmdyb3VwVmFsdWVzWzFdLmxvd2VyY2FzZSgpCiAgICAgICAgICAgIHZhbCBpZCA9IG1hdGNoLmdyb3VwVmFsdWVzWzJdCiAgICAgICAgICAgIGlmIChpZCA9PSAiZXJyb3IiKSBjb250aW51ZQogICAgICAgICAgICB2YWwga2V5ID0gIiR0eXBlOiRpZCIKICAgICAgICAgICAgaWYgKGtleSBpbiBzZWVuSWRzKSBjb250aW51ZQogICAgICAgICAgICB2YWwgZmlsZU5hbWUgPSBpZiAodHlwZSA9PSAiZmlsZSIpIGV4dHJhY3RGaWxlTmFtZShtYXRjaCkgZWxzZSBudWxsCiAgICAgICAgICAgIGlmICh0eXBlID09ICJmaWxlIiAmJiBmaWxlTmFtZSA9PSBudWxsKSBjb250aW51ZQogICAgICAgICAgICBzZWVuSWRzLmFkZChrZXkpCiAgICAgICAgICAgIHRhZ3MuYWRkKE1lZGlhTGlua1RhZyh0eXBlID0gdHlwZSwgaWQgPSBpZCwgZmlsZU5hbWUgPSBmaWxlTmFtZSkpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdGFncwogICAgfQoKICAgIGZ1biByZXBsYWNlTWVkaWFMaW5rcyhtZXNzYWdlOiBTdHJpbmcsIHJlcGxhY2VyOiAodHlwZTogU3RyaW5nLCBpZDogU3RyaW5nKSAtPiBTdHJpbmcpOiBTdHJpbmcgPQogICAgICAgIExJTktfUEFUVEVSTi5yZXBsYWNlKG1lc3NhZ2UpIHsgbWF0Y2ggLT4KICAgICAgICAgICAgdmFsIHR5cGUgPSBtYXRjaC5ncm91cFZhbHVlc1sxXS5sb3dlcmNhc2UoKQogICAgICAgICAgICB2YWwgaWQgPSBtYXRjaC5ncm91cFZhbHVlc1syXQogICAgICAgICAgICBpZiAoIWlzTWVkaWFUeXBlKHR5cGUpKSB7CiAgICAgICAgICAgICAgICBtYXRjaC52YWx1ZQogICAgICAgICAgICB9IGVsc2UgaWYgKGlkID09ICJlcnJvciIpIHsKICAgICAgICAgICAgICAgICIiCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByZXBsYWNlcih0eXBlLCBpZCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICBmdW4gcmVtb3ZlTWVkaWFMaW5rcyhtZXNzYWdlOiBTdHJpbmcpOiBTdHJpbmcgPQogICAgICAgIExJTktfUEFUVEVSTi5yZXBsYWNlKG1lc3NhZ2UpIHsgbWF0Y2ggLT4KICAgICAgICAgICAgaWYgKGlzTWVkaWFUeXBlKG1hdGNoLmdyb3VwVmFsdWVzWzFdKSkgIiIgZWxzZSBtYXRjaC52YWx1ZQogICAgICAgIH0KCiAgICBmdW4gaGFzTWVkaWFMaW5rcyhtZXNzYWdlOiBTdHJpbmcpOiBCb29sZWFuID0KICAgICAgICBtYXRjaGVzRm9yTWVkaWFUeXBlKG1lc3NhZ2UpLmFueSgpCgogICAgcHJpdmF0ZSBmdW4gdW5lc2NhcGVYbWwodmFsdWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHZhbHVlCiAgICAgICAgICAgIC5yZXBsYWNlKCImbHQ7IiwgIjwiKQogICAgICAgICAgICAucmVwbGFjZSgiJmd0OyIsICI+IikKICAgICAgICAgICAgLnJlcGxhY2UoIiZxdW90OyIsICJcIiIpCiAgICAgICAgICAgIC5yZXBsYWNlKCImYXBvczsiLCAiJyIpCiAgICAgICAgICAgIC5yZXBsYWNlKCImYW1wOyIsICImIikKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.util.ImagePoolManager
+import com.bslsjdk.operit.util.MediaBase64Limiter
+import com.bslsjdk.operit.util.MediaPoolManager
+
+data class MediaLink(
+    val type: String,
+    val id: String,
+    val base64Data: String,
+    val mimeType: String,
+    val fileName: String? = null,
+)
+
+data class ImageLink(
+    val type: String,
+    val id: String,
+    val base64Data: String,
+    val mimeType: String
+)
+
+data class MediaLinkTag(
+    val type: String,
+    val id: String,
+    val fileName: String? = null,
+)
+
+object MediaLinkParser {
+    // Match the whole link block while allowing arbitrary attribute order and escaping.
+    private val LINK_PATTERN = Regex(
+        """<link\b(?=[^>]*\btype\s*=\s*\\*["']?(image|audio|video|file)\\*["']?)(?=[^>]*\bid\s*=\s*\\*["']?([^"'\\\s>]+)\\*["']?)[^>]*(?:/>|>.*?</link>)""",
+        setOf(RegexOption.DOT_MATCHES_ALL, RegexOption.IGNORE_CASE)
+    )
+
+    private fun isMediaType(type: String): Boolean =
+        type.equals("audio", ignoreCase = true) ||
+            type.equals("video", ignoreCase = true) ||
+            type.equals("file", ignoreCase = true)
+
+    private fun matchesForType(message: String, type: String): Sequence<MatchResult> =
+        LINK_PATTERN.findAll(message).filter {
+            it.groupValues[1].equals(type, ignoreCase = true)
+        }
+
+    private fun matchesForMediaType(message: String): Sequence<MatchResult> =
+        LINK_PATTERN.findAll(message).filter { isMediaType(it.groupValues[1]) }
+
+    private val FILE_LINK_PATTERN_PLAIN = Regex(
+        """<link\s+type\s*=\s*\"file\"\s+id\s*=\s*\"([^\"]+)\"\s+filename\s*=\s*\"([^\"]+)\"\s*>.*?</link>""",
+        RegexOption.DOT_MATCHES_ALL,
+    )
+
+    private val FILE_LINK_PATTERN_ESCAPED = Regex(
+        """<link\s+type=\\\"file\\\"\s+id=\\\"([^\\\"]+)\\\"\s+filename=\\\"([^\\\"]+)\\\"\s*>.*?</link>""",
+        RegexOption.DOT_MATCHES_ALL,
+    )
+
+    private val FILE_NAME_ATTRIBUTE_PATTERN = Regex(
+        """filename\s*=\s*\\*["']?([^"'\\>]+)\\*["']?""",
+        RegexOption.IGNORE_CASE,
+    )
+
+    private fun extractFileName(match: MatchResult): String? =
+        FILE_NAME_ATTRIBUTE_PATTERN.find(match.value)
+            ?.groupValues
+            ?.get(1)
+            ?.let(::unescapeXml)
+            ?.takeIf { it.isNotBlank() }
+
+    fun extractImageLinks(message: String): List<ImageLink> {
+        val imageLinks = mutableListOf<ImageLink>()
+        val seenIds = mutableSetOf<String>()
+        for (match in matchesForType(message, "image")) {
+            val id = match.groupValues[2]
+            if (id == "error" || !seenIds.add(id)) continue
+            val imageData = ImagePoolManager.getImage(id) ?: continue
+            imageLinks.add(
+                ImageLink(
+                    type = "image",
+                    id = id,
+                    base64Data = imageData.base64,
+                    mimeType = imageData.mimeType
+                )
+            )
+        }
+        return imageLinks
+    }
+
+    fun extractImageLinkIds(message: String): List<String> {
+        val ids = mutableListOf<String>()
+        val seenIds = mutableSetOf<String>()
+        for (match in matchesForType(message, "image")) {
+            val id = match.groupValues[2]
+            if (id != "error" && seenIds.add(id)) {
+                ids.add(id)
+            }
+        }
+        return ids
+    }
+
+    fun removeImageLinks(message: String): String =
+        LINK_PATTERN.replace(message) { match ->
+            if (match.groupValues[1].equals("image", ignoreCase = true)) "" else match.value
+        }
+
+    fun replaceImageLinks(message: String, replacer: (id: String) -> String): String =
+        LINK_PATTERN.replace(message) { match ->
+            if (!match.groupValues[1].equals("image", ignoreCase = true)) {
+                match.value
+            } else {
+                val id = match.groupValues[2]
+                if (id == "error") "" else replacer(id)
+            }
+        }
+
+    fun hasImageLinks(message: String): Boolean = matchesForType(message, "image").any()
+
+    fun extractMediaLinks(message: String): List<MediaLink> {
+        val links = mutableListOf<MediaLink>()
+        val seenIds = mutableSetOf<String>()
+        for (match in matchesForMediaType(message)) {
+            val type = match.groupValues[1].lowercase()
+            val id = match.groupValues[2]
+            if (id == "error") continue
+            val key = "$type:$id"
+            if (key in seenIds) continue
+            val fileName = if (type == "file") extractFileName(match) else null
+            if (type == "file" && fileName == null) continue
+            seenIds.add(key)
+            val mediaData = MediaPoolManager.getMedia(id) ?: continue
+            val limited = MediaBase64Limiter.limitBase64ForAi(mediaData.base64, mediaData.mimeType) ?: continue
+            links.add(
+                MediaLink(
+                    type = type,
+                    id = id,
+                    base64Data = limited.base64,
+                    mimeType = limited.mimeType,
+                    fileName = fileName,
+                )
+            )
+        }
+        return links
+    }
+
+    fun extractMediaLinkTags(message: String): List<MediaLinkTag> {
+        val tags = mutableListOf<MediaLinkTag>()
+        val seenIds = mutableSetOf<String>()
+        for (match in matchesForMediaType(message)) {
+            val type = match.groupValues[1].lowercase()
+            val id = match.groupValues[2]
+            if (id == "error") continue
+            val key = "$type:$id"
+            if (key in seenIds) continue
+            val fileName = if (type == "file") extractFileName(match) else null
+            if (type == "file" && fileName == null) continue
+            seenIds.add(key)
+            tags.add(MediaLinkTag(type = type, id = id, fileName = fileName))
+        }
+
+        return tags
+    }
+
+    fun replaceMediaLinks(message: String, replacer: (type: String, id: String) -> String): String =
+        LINK_PATTERN.replace(message) { match ->
+            val type = match.groupValues[1].lowercase()
+            val id = match.groupValues[2]
+            if (!isMediaType(type)) {
+                match.value
+            } else if (id == "error") {
+                ""
+            } else {
+                replacer(type, id)
+            }
+        }
+
+    fun removeMediaLinks(message: String): String =
+        LINK_PATTERN.replace(message) { match ->
+            if (isMediaType(match.groupValues[1])) "" else match.value
+        }
+
+    fun hasMediaLinks(message: String): Boolean =
+        matchesForMediaType(message).any()
+
+    private fun unescapeXml(value: String): String {
+        return value
+            .replace("&lt;", "<")
+            .replace("&gt;", ">")
+            .replace("&quot;", "\"")
+            .replace("&apos;", "'")
+            .replace("&amp;", "&")
+    }
+}

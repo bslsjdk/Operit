@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIEVuZHBvaW50Q29tcGxldGVyT3BlbkFpU3R5bGVUZXN0IHsKCiAgICBAVGVzdCBmdW4gYmFzZVVybFdpdGhDdXN0b21Qb3J0X2NvbXBsZXRlc05vcm1hbGx5KCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludCgiaHR0cDovL2xvY2FsaG9zdDo4MDgwIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIG5lc3RlZFYxUGF0aFdpdGhQb3J0X2NvbXBsZXRlc05vcm1hbGx5KCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9wcm94eS92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludCgiaHR0cDovL2xvY2FsaG9zdDo4MDgwL3Byb3h5L3YxIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIGFscmVhZHlDdXN0b21QYXRoV2l0aFBvcnRfc3RheXNVbmNoYW5nZWQoKSB7CiAgICAgICAgdmFsIGVuZHBvaW50ID0gImh0dHA6Ly9sb2NhbGhvc3Q6ODA4MC9jdXN0b20vY2hhdCIKICAgICAgICBhc3NlcnRFcXVhbHMoZW5kcG9pbnQsIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoZW5kcG9pbnQpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class EndpointCompleterOpenAiStyleTest {
+
+    @Test fun baseUrlWithCustomPort_completesNormally() {
+        assertEquals(
+            "http://localhost:8080/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("http://localhost:8080")
+        )
+    }
+
+    @Test fun nestedV1PathWithPort_completesNormally() {
+        assertEquals(
+            "http://localhost:8080/proxy/v1/chat/completions",
+            EndpointCompleter.completeEndpoint("http://localhost:8080/proxy/v1")
+        )
+    }
+
+    @Test fun alreadyCustomPathWithPort_staysUnchanged() {
+        val endpoint = "http://localhost:8080/custom/chat"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint))
+    }
+}

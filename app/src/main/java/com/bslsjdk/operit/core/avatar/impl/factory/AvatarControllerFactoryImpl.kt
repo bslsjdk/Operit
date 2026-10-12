@@ -1,1 +1,97 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5mYWN0b3J5CgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24uY29udHJvbC5BdmF0YXJDb250cm9sbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLmZhY3RvcnkuQXZhdGFyQ29udHJvbGxlckZhY3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24ubW9kZWwuQXZhdGFyTW9kZWwKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24ubW9kZWwuQXZhdGFyVHlwZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5tb2RlbC5JU2tlbGV0YWxBdmF0YXJNb2RlbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmltcGwuZHJhZ29uYm9uZXMuY29udHJvbC5yZW1lbWJlckRyYWdvbkJvbmVzQXZhdGFyQ29udHJvbGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmltcGwuZmJ4LmNvbnRyb2wucmVtZW1iZXJGYnhBdmF0YXJDb250cm9sbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5mYngubW9kZWwuRmJ4QXZhdGFyTW9kZWwKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5pbXBsLmdsdGYuY29udHJvbC5yZW1lbWJlckdsdGZBdmF0YXJDb250cm9sbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5nbHRmLm1vZGVsLkdsdGZBdmF0YXJNb2RlbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmltcGwubW1kLmNvbnRyb2wucmVtZW1iZXJNbWRBdmF0YXJDb250cm9sbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5tbWQubW9kZWwuTW1kQXZhdGFyTW9kZWwKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5pbXBsLm1wNC5jb250cm9sLnJlbWVtYmVyTXA0QXZhdGFyQ29udHJvbGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmltcGwubXA0Lm1vZGVsLk1wNEF2YXRhck1vZGVsCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC53ZWJwLmNvbnRyb2wucmVtZW1iZXJXZWJQQXZhdGFyQ29udHJvbGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmltcGwud2VicC5tb2RlbC5XZWJQQXZhdGFyTW9kZWwKCmNsYXNzIEF2YXRhckNvbnRyb2xsZXJGYWN0b3J5SW1wbCA6IEF2YXRhckNvbnRyb2xsZXJGYWN0b3J5IHsKCiAgICBAQ29tcG9zYWJsZQogICAgb3ZlcnJpZGUgZnVuIGNyZWF0ZUNvbnRyb2xsZXIobW9kZWw6IEF2YXRhck1vZGVsKTogQXZhdGFyQ29udHJvbGxlcj8gewogICAgICAgIHJldHVybiB3aGVuIChtb2RlbC50eXBlKSB7CiAgICAgICAgICAgIEF2YXRhclR5cGUuRFJBR09OQk9ORVMgLT4gewogICAgICAgICAgICAgICAgdmFsIHNrZWxldGFsTW9kZWwgPSBtb2RlbCBhcz8gSVNrZWxldGFsQXZhdGFyTW9kZWwKICAgICAgICAgICAgICAgIGlmIChza2VsZXRhbE1vZGVsICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICByZW1lbWJlckRyYWdvbkJvbmVzQXZhdGFyQ29udHJvbGxlcigpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBBdmF0YXJUeXBlLldFQlAgLT4gewogICAgICAgICAgICAgICAgdmFsIHdlYnBNb2RlbCA9IG1vZGVsIGFzPyBXZWJQQXZhdGFyTW9kZWwKICAgICAgICAgICAgICAgIGlmICh3ZWJwTW9kZWwgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHJlbWVtYmVyV2ViUEF2YXRhckNvbnRyb2xsZXIod2VicE1vZGVsKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgQXZhdGFyVHlwZS5NUDQgLT4gewogICAgICAgICAgICAgICAgdmFsIG1wNE1vZGVsID0gbW9kZWwgYXM/IE1wNEF2YXRhck1vZGVsCiAgICAgICAgICAgICAgICBpZiAobXA0TW9kZWwgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHJlbWVtYmVyTXA0QXZhdGFyQ29udHJvbGxlcihtcDRNb2RlbCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIEF2YXRhclR5cGUuTU1EIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBtbWRNb2RlbCA9IG1vZGVsIGFzPyBNbWRBdmF0YXJNb2RlbAogICAgICAgICAgICAgICAgaWYgKG1tZE1vZGVsICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICByZW1lbWJlck1tZEF2YXRhckNvbnRyb2xsZXIobW1kTW9kZWwpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBBdmF0YXJUeXBlLkdMVEYgLT4gewogICAgICAgICAgICAgICAgdmFsIGdsdGZNb2RlbCA9IG1vZGVsIGFzPyBHbHRmQXZhdGFyTW9kZWwKICAgICAgICAgICAgICAgIGlmIChnbHRmTW9kZWwgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHJlbWVtYmVyR2x0ZkF2YXRhckNvbnRyb2xsZXIoZ2x0Zk1vZGVsKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgQXZhdGFyVHlwZS5GQlggLT4gewogICAgICAgICAgICAgICAgdmFsIGZieE1vZGVsID0gbW9kZWwgYXM/IEZieEF2YXRhck1vZGVsCiAgICAgICAgICAgICAgICBpZiAoZmJ4TW9kZWwgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHJlbWVtYmVyRmJ4QXZhdGFyQ29udHJvbGxlcihmYnhNb2RlbCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBjYW5DcmVhdGVDb250cm9sbGVyKG1vZGVsOiBBdmF0YXJNb2RlbCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB3aGVuIChtb2RlbC50eXBlKSB7CiAgICAgICAgICAgIEF2YXRhclR5cGUuRFJBR09OQk9ORVMgLT4gbW9kZWwgaXMgSVNrZWxldGFsQXZhdGFyTW9kZWwKICAgICAgICAgICAgQXZhdGFyVHlwZS5XRUJQIC0+IG1vZGVsIGlzIFdlYlBBdmF0YXJNb2RlbAogICAgICAgICAgICBBdmF0YXJUeXBlLk1QNCAtPiBtb2RlbCBpcyBNcDRBdmF0YXJNb2RlbAogICAgICAgICAgICBBdmF0YXJUeXBlLk1NRCAtPiBtb2RlbCBpcyBNbWRBdmF0YXJNb2RlbAogICAgICAgICAgICBBdmF0YXJUeXBlLkdMVEYgLT4gbW9kZWwgaXMgR2x0ZkF2YXRhck1vZGVsCiAgICAgICAgICAgIEF2YXRhclR5cGUuRkJYIC0+IG1vZGVsIGlzIEZieEF2YXRhck1vZGVsCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIHZhbCBzdXBwb3J0ZWRUeXBlczogTGlzdDxTdHJpbmc+CiAgICAgICAgZ2V0KCkgPSBsaXN0T2YoCiAgICAgICAgICAgIEF2YXRhclR5cGUuRFJBR09OQk9ORVMubmFtZSwKICAgICAgICAgICAgQXZhdGFyVHlwZS5XRUJQLm5hbWUsCiAgICAgICAgICAgIEF2YXRhclR5cGUuTVA0Lm5hbWUsCiAgICAgICAgICAgIEF2YXRhclR5cGUuTU1ELm5hbWUsCiAgICAgICAgICAgIEF2YXRhclR5cGUuR0xURi5uYW1lLAogICAgICAgICAgICBBdmF0YXJUeXBlLkZCWC5uYW1lCiAgICAgICAgKQp9Cg==
+package com.bslsjdk.operit.core.avatar.impl.factory
+
+import androidx.compose.runtime.Composable
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.common.factory.AvatarControllerFactory
+import com.bslsjdk.operit.core.avatar.common.model.AvatarModel
+import com.bslsjdk.operit.core.avatar.common.model.AvatarType
+import com.bslsjdk.operit.core.avatar.common.model.ISkeletalAvatarModel
+import com.bslsjdk.operit.core.avatar.impl.dragonbones.control.rememberDragonBonesAvatarController
+import com.bslsjdk.operit.core.avatar.impl.fbx.control.rememberFbxAvatarController
+import com.bslsjdk.operit.core.avatar.impl.fbx.model.FbxAvatarModel
+import com.bslsjdk.operit.core.avatar.impl.gltf.control.rememberGltfAvatarController
+import com.bslsjdk.operit.core.avatar.impl.gltf.model.GltfAvatarModel
+import com.bslsjdk.operit.core.avatar.impl.mmd.control.rememberMmdAvatarController
+import com.bslsjdk.operit.core.avatar.impl.mmd.model.MmdAvatarModel
+import com.bslsjdk.operit.core.avatar.impl.mp4.control.rememberMp4AvatarController
+import com.bslsjdk.operit.core.avatar.impl.mp4.model.Mp4AvatarModel
+import com.bslsjdk.operit.core.avatar.impl.webp.control.rememberWebPAvatarController
+import com.bslsjdk.operit.core.avatar.impl.webp.model.WebPAvatarModel
+
+class AvatarControllerFactoryImpl : AvatarControllerFactory {
+
+    @Composable
+    override fun createController(model: AvatarModel): AvatarController? {
+        return when (model.type) {
+            AvatarType.DRAGONBONES -> {
+                val skeletalModel = model as? ISkeletalAvatarModel
+                if (skeletalModel != null) {
+                    rememberDragonBonesAvatarController()
+                } else {
+                    null
+                }
+            }
+            AvatarType.WEBP -> {
+                val webpModel = model as? WebPAvatarModel
+                if (webpModel != null) {
+                    rememberWebPAvatarController(webpModel)
+                } else {
+                    null
+                }
+            }
+            AvatarType.MP4 -> {
+                val mp4Model = model as? Mp4AvatarModel
+                if (mp4Model != null) {
+                    rememberMp4AvatarController(mp4Model)
+                } else {
+                    null
+                }
+            }
+            AvatarType.MMD -> {
+                val mmdModel = model as? MmdAvatarModel
+                if (mmdModel != null) {
+                    rememberMmdAvatarController(mmdModel)
+                } else {
+                    null
+                }
+            }
+            AvatarType.GLTF -> {
+                val gltfModel = model as? GltfAvatarModel
+                if (gltfModel != null) {
+                    rememberGltfAvatarController(gltfModel)
+                } else {
+                    null
+                }
+            }
+            AvatarType.FBX -> {
+                val fbxModel = model as? FbxAvatarModel
+                if (fbxModel != null) {
+                    rememberFbxAvatarController(fbxModel)
+                } else {
+                    null
+                }
+            }
+        }
+    }
+
+    override fun canCreateController(model: AvatarModel): Boolean {
+        return when (model.type) {
+            AvatarType.DRAGONBONES -> model is ISkeletalAvatarModel
+            AvatarType.WEBP -> model is WebPAvatarModel
+            AvatarType.MP4 -> model is Mp4AvatarModel
+            AvatarType.MMD -> model is MmdAvatarModel
+            AvatarType.GLTF -> model is GltfAvatarModel
+            AvatarType.FBX -> model is FbxAvatarModel
+        }
+    }
+
+    override val supportedTypes: List<String>
+        get() = listOf(
+            AvatarType.DRAGONBONES.name,
+            AvatarType.WEBP.name,
+            AvatarType.MP4.name,
+            AvatarType.MMD.name,
+            AvatarType.GLTF.name,
+            AvatarType.FBX.name
+        )
+}

@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDaGF0TWFya3VwUmVnZXhUb29sTmFtZVRlc3QgewoKICAgIEBUZXN0IGZ1biB0b29sVGFnX2FjY2VwdHNVcHBlcmNhc2VWYXJpYW50KCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LmlzVG9vbFRhZ05hbWUoIlRPT0xfRVhFQyIpKQogICAgfQoKICAgIEBUZXN0IGZ1biB0b29sVGFnX3JlamVjdHNOdWxsKCkgewogICAgICAgIGFzc2VydEZhbHNlKENoYXRNYXJrdXBSZWdleC5pc1Rvb2xUYWdOYW1lKG51bGwpKQogICAgfQoKICAgIEBUZXN0IGZ1biB0b29sUmVzdWx0VGFnX2FjY2VwdHNVcHBlcmNhc2VWYXJpYW50KCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LmlzVG9vbFJlc3VsdFRhZ05hbWUoIlRPT0xfUkVTVUxUX0VYRUMiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gdG9vbFJlc3VsdFRhZ19yZWplY3RzTnVsbCgpIHsKICAgICAgICBhc3NlcnRGYWxzZShDaGF0TWFya3VwUmVnZXguaXNUb29sUmVzdWx0VGFnTmFtZShudWxsKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbm9ybWFsaXplTnVsbFRhZ05hbWVfcmV0dXJuc051bGwoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKG51bGwsIENoYXRNYXJrdXBSZWdleC5ub3JtYWxpemVUb29sTGlrZVRhZ05hbWUobnVsbCkpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMarkupRegexToolNameTest {
+
+    @Test fun toolTag_acceptsUppercaseVariant() {
+        assertTrue(ChatMarkupRegex.isToolTagName("TOOL_EXEC"))
+    }
+
+    @Test fun toolTag_rejectsNull() {
+        assertFalse(ChatMarkupRegex.isToolTagName(null))
+    }
+
+    @Test fun toolResultTag_acceptsUppercaseVariant() {
+        assertTrue(ChatMarkupRegex.isToolResultTagName("TOOL_RESULT_EXEC"))
+    }
+
+    @Test fun toolResultTag_rejectsNull() {
+        assertFalse(ChatMarkupRegex.isToolResultTagName(null))
+    }
+
+    @Test fun normalizeNullTagName_returnsNull() {
+        assertEquals(null, ChatMarkupRegex.normalizeToolLikeTagName(null))
+    }
+}

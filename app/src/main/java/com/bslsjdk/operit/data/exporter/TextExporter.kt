@@ -1,1 +1,201 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5leHBvcnRlcgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdEhpc3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlCmltcG9ydCBqYXZhLmlvLlN0cmluZ1dyaXRlcgppbXBvcnQgamF2YS5pby5Xcml0ZXIKaW1wb3J0IGphdmEudGltZS5mb3JtYXQuRGF0ZVRpbWVGb3JtYXR0ZXIKCi8qKgogKiDnuq/mlofmnKzmoLzlvI/lr7zlh7rlmagKICovCm9iamVjdCBUZXh0RXhwb3J0ZXIgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIENPTlRFTlRfV1JJVEVfQ0hVTktfQ0hBUkFDVEVSX0NPVU5UID0gNjQgKiAxMDI0CiAgICBwcml2YXRlIHZhbCBkYXRlRm9ybWF0dGVyID0gRGF0ZVRpbWVGb3JtYXR0ZXIub2ZQYXR0ZXJuKCJ5eXl5LU1NLWRkIEhIOm1tOnNzIikKCiAgICAvKioKICAgICAqIOWvvOWHuuWNleS4quWvueivneS4uue6r+aWh+acrAogICAgICovCiAgICBmdW4gZXhwb3J0U2luZ2xlKGNvbnRleHQ6IENvbnRleHQsIGNoYXRIaXN0b3J5OiBDaGF0SGlzdG9yeSk6IFN0cmluZyB7CiAgICAgICAgdmFsIHdyaXRlciA9IFN0cmluZ1dyaXRlcigpCiAgICAgICAgd3JpdGVTaW5nbGVUb1dyaXRlcihjb250ZXh0LCBjaGF0SGlzdG9yeSwgd3JpdGVyKQogICAgICAgIHJldHVybiB3cml0ZXIudG9TdHJpbmcoKQogICAgfQoKICAgIC8qKgogICAgICog5a+85Ye65aSa5Liq5a+56K+d5Li657qv5paH5pysCiAgICAgKi8KICAgIGZ1biBleHBvcnRNdWx0aXBsZShjb250ZXh0OiBDb250ZXh0LCBjaGF0SGlzdG9yaWVzOiBMaXN0PENoYXRIaXN0b3J5Pik6IFN0cmluZyB7CiAgICAgICAgdmFsIHdyaXRlciA9IFN0cmluZ1dyaXRlcigpCiAgICAgICAgd3JpdGVNdWx0aXBsZUhlYWRlcigKICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgIGNoYXRIaXN0b3JpZXMgPSBjaGF0SGlzdG9yaWVzLAogICAgICAgICAgICB0b3RhbE1lc3NhZ2VDb3VudCA9IGNoYXRIaXN0b3JpZXMuc3VtT2YgeyBpdC5tZXNzYWdlcy5zaXplIH0sCiAgICAgICAgICAgIHdyaXRlciA9IHdyaXRlciwKICAgICAgICApCiAgICAgICAgY2hhdEhpc3Rvcmllcy5mb3JFYWNoSW5kZXhlZCB7IGluZGV4LCBjaGF0SGlzdG9yeSAtPgogICAgICAgICAgICB3cml0ZUNvbnZlcnNhdGlvblNlcGFyYXRvcih3cml0ZXIsIGluZGV4KQogICAgICAgICAgICB3cml0ZVNpbmdsZVRvV3JpdGVyKGNvbnRleHQsIGNoYXRIaXN0b3J5LCB3cml0ZXIpCiAgICAgICAgfQogICAgICAgIHdyaXRlTXVsdGlwbGVGb290ZXIoY29udGV4dCwgd3JpdGVyKQogICAgICAgIHJldHVybiB3cml0ZXIudG9TdHJpbmcoKQogICAgfQoKICAgIC8qKgogICAgICog5YaZ5YWl5aSa5Liq5a+56K+d55qE57qv5paH5pys5aS06YOo44CCCiAgICAgKgogICAgICog6ZW/5paH5pys5a+85Ye65L2/55SoIFdyaXRlcu+8jOmBv+WFjeaKiuaJgOaciee7k+aenOaLvOaOpeaIkOS4gOS4quWkp+Wtl+espuS4suOAggogICAgICovCiAgICBmdW4gd3JpdGVNdWx0aXBsZUhlYWRlcigKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGNoYXRIaXN0b3JpZXM6IExpc3Q8Q2hhdEhpc3Rvcnk+LAogICAgICAgIHRvdGFsTWVzc2FnZUNvdW50OiBJbnQsCiAgICAgICAgd3JpdGVyOiBXcml0ZXIsCiAgICApIHsKICAgICAgICAvLyDmgLvop4jkv6Hmga8KICAgICAgICB3cml0ZXIuYXBwZW5kTGluZSgiPSIucmVwZWF0KDYwKSkKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5leHBvcnRfY2hhdF9oaXN0b3J5KS5jZW50ZXIoNjApKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKCI9Ii5yZXBlYXQoNjApKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKCkKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZSgKICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoCiAgICAgICAgICAgICAgICBSLnN0cmluZy5leHBvcnRfZXhwb3J0X3RpbWUsCiAgICAgICAgICAgICAgICBqYXZhLnRpbWUuTG9jYWxEYXRlVGltZS5ub3coKS5mb3JtYXQoZGF0ZUZvcm1hdHRlcikKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5leHBvcnRfY29udmVyc2F0aW9uX2NvdW50LCBjaGF0SGlzdG9yaWVzLnNpemUpKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmV4cG9ydF90b3RhbF9tZXNzYWdlX2NvdW50LCB0b3RhbE1lc3NhZ2VDb3VudCkpCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKCI9Ii5yZXBlYXQoNjApKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKCkKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZSgpCiAgICB9CgogICAgLyoqCiAgICAgKiDlhpnlhaXlr7nor53kuYvpl7TnmoTliIbpmpTlhoXlrrnjgIIKICAgICAqLwogICAgZnVuIHdyaXRlQ29udmVyc2F0aW9uU2VwYXJhdG9yKHdyaXRlcjogV3JpdGVyLCBpbmRleDogSW50KSB7CiAgICAgICAgaWYgKGluZGV4ID4gMCkgewogICAgICAgICAgICB3cml0ZXIuYXBwZW5kTGluZSgpCiAgICAgICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlhpnlhaXljZXkuKrlr7nor53jgIIKICAgICAqCiAgICAgKiDplb/mlofmnKzmjInlm7rlrprlpKflsI/lhpnlhaXvvIzpgb/lhY0gV3JpdGVyIOiwg+eUqOaWueWGjeasoeWIm+W7uuaVtOauteato+aWh+WJr+acrOOAggogICAgICovCiAgICBmdW4gd3JpdGVTaW5nbGVUb1dyaXRlcigKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGNoYXRIaXN0b3J5OiBDaGF0SGlzdG9yeSwKICAgICAgICB3cml0ZXI6IFdyaXRlciwKICAgICAgICBvbkNvbnRlbnRDaGFyYWN0ZXJzV3JpdHRlbjogKExvbmcpIC0+IFVuaXQgPSB7fSwKICAgICkgewogICAgICAgIC8vIOiwg+ivleaEj+Wbvu+8muebtOaOpeaLvOaOpeaVtOS7veaWh+acrOS8muWcqCBTdHJpbmdCdWlsZGVyIOaJqeWuueaXtuWkjeWItuW3suacieWGheWuue+8jOi2hemVv+WvvOWHuuS8muaKrOmrmOWzsOWAvOWGheWtmOOAggogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKCI9Ii5yZXBlYXQoNjApKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKGNoYXRIaXN0b3J5LnRpdGxlLmNlbnRlcig2MCkpCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoIj0iLnJlcGVhdCg2MCkpCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoKQoKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZSgKICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoCiAgICAgICAgICAgICAgICBSLnN0cmluZy5leHBvcnRfY3JlYXRlZF90aW1lLAogICAgICAgICAgICAgICAgY2hhdEhpc3RvcnkuY3JlYXRlZEF0LmZvcm1hdChkYXRlRm9ybWF0dGVyKQogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKAogICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZygKICAgICAgICAgICAgICAgIFIuc3RyaW5nLmV4cG9ydF91cGRhdGVkX3RpbWUsCiAgICAgICAgICAgICAgICBjaGF0SGlzdG9yeS51cGRhdGVkQXQuZm9ybWF0KGRhdGVGb3JtYXR0ZXIpCiAgICAgICAgICAgICkKICAgICAgICApCiAgICAgICAgaWYgKGNoYXRIaXN0b3J5Lmdyb3VwICE9IG51bGwpIHsKICAgICAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZXhwb3J0X2dyb3VwLCBjaGF0SGlzdG9yeS5ncm91cCkpCiAgICAgICAgfQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmV4cG9ydF9tZXNzYWdlX2NvdW50LCBjaGF0SGlzdG9yeS5tZXNzYWdlcy5zaXplKSkKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZSgpCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoIi0iLnJlcGVhdCg2MCkpCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoKQoKICAgICAgICBmb3IgKChpbmRleCwgbWVzc2FnZSkgaW4gY2hhdEhpc3RvcnkubWVzc2FnZXMud2l0aEluZGV4KCkpIHsKICAgICAgICAgICAgaWYgKGluZGV4ID4gMCkgewogICAgICAgICAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHdyaXRlTWVzc2FnZShjb250ZXh0LCB3cml0ZXIsIG1lc3NhZ2UsIG9uQ29udGVudENoYXJhY3RlcnNXcml0dGVuKQogICAgICAgIH0KCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKCI9Ii5yZXBlYXQoNjApKQogICAgfQoKICAgIC8qKgogICAgICog5YaZ5YWl5aSa5Liq5a+56K+d55qE57qv5paH5pys5bC+6YOo44CCCiAgICAgKi8KICAgIGZ1biB3cml0ZU11bHRpcGxlRm9vdGVyKGNvbnRleHQ6IENvbnRleHQsIHdyaXRlcjogV3JpdGVyKSB7CiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoKQogICAgICAgIHdyaXRlci5hcHBlbmRMaW5lKCkKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5leHBvcnRfY29tcGxldGVkKSkKICAgIH0KCiAgICAvKioKICAgICAqIOa3u+WKoOWNleadoea2iOaBrwogICAgICovCiAgICBwcml2YXRlIGZ1biB3cml0ZU1lc3NhZ2UoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICB3cml0ZXI6IFdyaXRlciwKICAgICAgICBtZXNzYWdlOiBDaGF0TWVzc2FnZSwKICAgICAgICBvbkNvbnRlbnRDaGFyYWN0ZXJzV3JpdHRlbjogKExvbmcpIC0+IFVuaXQsCiAgICApIHsKICAgICAgICB2YWwgcm9sZUljb24gPSBpZiAobWVzc2FnZS5zZW5kZXIgPT0gInVzZXIiKSAi8J+RpCIgZWxzZSAi8J+kliIKICAgICAgICB2YWwgcm9sZVRleHQgPQogICAgICAgICAgICBpZiAobWVzc2FnZS5zZW5kZXIgPT0gInVzZXIiKSB7CiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5leHBvcnRfdXNlcikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmV4cG9ydF9hc3Npc3RhbnQpCiAgICAgICAgICAgIH0KCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoIlskcm9sZUljb24gJHJvbGVUZXh0XSIpCgogICAgICAgIGlmIChtZXNzYWdlLm1vZGVsTmFtZS5pc05vdEVtcHR5KCkgJiYgbWVzc2FnZS5tb2RlbE5hbWUgIT0gIm1hcmtkb3duIiAmJiBtZXNzYWdlLm1vZGVsTmFtZSAhPSAidW5rbm93biIpIHsKICAgICAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZXhwb3J0X21vZGVsLCBtZXNzYWdlLm1vZGVsTmFtZSkpCiAgICAgICAgfQoKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZSgpCiAgICAgICAgd3JpdGVDb250ZW50KHdyaXRlciwgbWVzc2FnZS5jb250ZW50LCBvbkNvbnRlbnRDaGFyYWN0ZXJzV3JpdHRlbikKICAgICAgICB3cml0ZXIuYXBwZW5kTGluZSgpCiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoIi0iLnJlcGVhdCg2MCkpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gd3JpdGVDb250ZW50KAogICAgICAgIHdyaXRlcjogV3JpdGVyLAogICAgICAgIGNvbnRlbnQ6IFN0cmluZywKICAgICAgICBvbkNvbnRlbnRDaGFyYWN0ZXJzV3JpdHRlbjogKExvbmcpIC0+IFVuaXQsCiAgICApIHsKICAgICAgICB2YXIgb2Zmc2V0ID0gMAogICAgICAgIHdoaWxlIChvZmZzZXQgPCBjb250ZW50Lmxlbmd0aCkgewogICAgICAgICAgICB2YWwgY2h1bmtMZW5ndGggPSBtaW5PZigKICAgICAgICAgICAgICAgIENPTlRFTlRfV1JJVEVfQ0hVTktfQ0hBUkFDVEVSX0NPVU5ULAogICAgICAgICAgICAgICAgY29udGVudC5sZW5ndGggLSBvZmZzZXQsCiAgICAgICAgICAgICkKICAgICAgICAgICAgd3JpdGVyLndyaXRlKGNvbnRlbnQsIG9mZnNldCwgY2h1bmtMZW5ndGgpCiAgICAgICAgICAgIG9uQ29udGVudENoYXJhY3RlcnNXcml0dGVuKGNodW5rTGVuZ3RoLnRvTG9uZygpKQogICAgICAgICAgICBvZmZzZXQgKz0gY2h1bmtMZW5ndGgKICAgICAgICB9CiAgICAgICAgd3JpdGVyLmFwcGVuZExpbmUoKQogICAgfQoKICAgIC8qKgogICAgICog5a2X56ym5Liy5bGF5Lit5omp5bGV5Ye95pWwCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIFN0cmluZy5jZW50ZXIod2lkdGg6IEludCk6IFN0cmluZyB7CiAgICAgICAgaWYgKHRoaXMubGVuZ3RoID49IHdpZHRoKSByZXR1cm4gdGhpcwogICAgICAgIHZhbCBwYWRkaW5nID0gd2lkdGggLSB0aGlzLmxlbmd0aAogICAgICAgIHZhbCBsZWZ0UGFkID0gcGFkZGluZyAvIDIKICAgICAgICB2YWwgcmlnaHRQYWQgPSBwYWRkaW5nIC0gbGVmdFBhZAogICAgICAgIHJldHVybiAiICIucmVwZWF0KGxlZnRQYWQpICsgdGhpcyArICIgIi5yZXBlYXQocmlnaHRQYWQpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.exporter
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.ChatHistory
+import com.bslsjdk.operit.data.model.ChatMessage
+import java.io.StringWriter
+import java.io.Writer
+import java.time.format.DateTimeFormatter
+
+/**
+ * 纯文本格式导出器
+ */
+object TextExporter {
+
+    private const val CONTENT_WRITE_CHUNK_CHARACTER_COUNT = 64 * 1024
+    private val dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
+
+    /**
+     * 导出单个对话为纯文本
+     */
+    fun exportSingle(context: Context, chatHistory: ChatHistory): String {
+        val writer = StringWriter()
+        writeSingleToWriter(context, chatHistory, writer)
+        return writer.toString()
+    }
+
+    /**
+     * 导出多个对话为纯文本
+     */
+    fun exportMultiple(context: Context, chatHistories: List<ChatHistory>): String {
+        val writer = StringWriter()
+        writeMultipleHeader(
+            context = context,
+            chatHistories = chatHistories,
+            totalMessageCount = chatHistories.sumOf { it.messages.size },
+            writer = writer,
+        )
+        chatHistories.forEachIndexed { index, chatHistory ->
+            writeConversationSeparator(writer, index)
+            writeSingleToWriter(context, chatHistory, writer)
+        }
+        writeMultipleFooter(context, writer)
+        return writer.toString()
+    }
+
+    /**
+     * 写入多个对话的纯文本头部。
+     *
+     * 长文本导出使用 Writer，避免把所有结果拼接成一个大字符串。
+     */
+    fun writeMultipleHeader(
+        context: Context,
+        chatHistories: List<ChatHistory>,
+        totalMessageCount: Int,
+        writer: Writer,
+    ) {
+        // 总览信息
+        writer.appendLine("=".repeat(60))
+        writer.appendLine(context.getString(R.string.export_chat_history).center(60))
+        writer.appendLine("=".repeat(60))
+        writer.appendLine()
+        writer.appendLine(
+            context.getString(
+                R.string.export_export_time,
+                java.time.LocalDateTime.now().format(dateFormatter)
+            )
+        )
+        writer.appendLine(context.getString(R.string.export_conversation_count, chatHistories.size))
+        writer.appendLine(context.getString(R.string.export_total_message_count, totalMessageCount))
+        writer.appendLine()
+        writer.appendLine("=".repeat(60))
+        writer.appendLine()
+        writer.appendLine()
+    }
+
+    /**
+     * 写入对话之间的分隔内容。
+     */
+    fun writeConversationSeparator(writer: Writer, index: Int) {
+        if (index > 0) {
+            writer.appendLine()
+            writer.appendLine()
+        }
+    }
+
+    /**
+     * 写入单个对话。
+     *
+     * 长文本按固定大小写入，避免 Writer 调用方再次创建整段正文副本。
+     */
+    fun writeSingleToWriter(
+        context: Context,
+        chatHistory: ChatHistory,
+        writer: Writer,
+        onContentCharactersWritten: (Long) -> Unit = {},
+    ) {
+        // 调试意图：直接拼接整份文本会在 StringBuilder 扩容时复制已有内容，超长导出会抬高峰值内存。
+        writer.appendLine("=".repeat(60))
+        writer.appendLine(chatHistory.title.center(60))
+        writer.appendLine("=".repeat(60))
+        writer.appendLine()
+
+        writer.appendLine(
+            context.getString(
+                R.string.export_created_time,
+                chatHistory.createdAt.format(dateFormatter)
+            )
+        )
+        writer.appendLine(
+            context.getString(
+                R.string.export_updated_time,
+                chatHistory.updatedAt.format(dateFormatter)
+            )
+        )
+        if (chatHistory.group != null) {
+            writer.appendLine(context.getString(R.string.export_group, chatHistory.group))
+        }
+        writer.appendLine(context.getString(R.string.export_message_count, chatHistory.messages.size))
+        writer.appendLine()
+        writer.appendLine("-".repeat(60))
+        writer.appendLine()
+
+        for ((index, message) in chatHistory.messages.withIndex()) {
+            if (index > 0) {
+                writer.appendLine()
+            }
+            writeMessage(context, writer, message, onContentCharactersWritten)
+        }
+
+        writer.appendLine()
+        writer.appendLine("=".repeat(60))
+    }
+
+    /**
+     * 写入多个对话的纯文本尾部。
+     */
+    fun writeMultipleFooter(context: Context, writer: Writer) {
+        writer.appendLine()
+        writer.appendLine()
+        writer.appendLine(context.getString(R.string.export_completed))
+    }
+
+    /**
+     * 添加单条消息
+     */
+    private fun writeMessage(
+        context: Context,
+        writer: Writer,
+        message: ChatMessage,
+        onContentCharactersWritten: (Long) -> Unit,
+    ) {
+        val roleIcon = if (message.sender == "user") "👤" else "🤖"
+        val roleText =
+            if (message.sender == "user") {
+                context.getString(R.string.export_user)
+            } else {
+                context.getString(R.string.export_assistant)
+            }
+
+        writer.appendLine("[$roleIcon $roleText]")
+
+        if (message.modelName.isNotEmpty() && message.modelName != "markdown" && message.modelName != "unknown") {
+            writer.appendLine(context.getString(R.string.export_model, message.modelName))
+        }
+
+        writer.appendLine()
+        writeContent(writer, message.content, onContentCharactersWritten)
+        writer.appendLine()
+        writer.appendLine("-".repeat(60))
+    }
+
+    private fun writeContent(
+        writer: Writer,
+        content: String,
+        onContentCharactersWritten: (Long) -> Unit,
+    ) {
+        var offset = 0
+        while (offset < content.length) {
+            val chunkLength = minOf(
+                CONTENT_WRITE_CHUNK_CHARACTER_COUNT,
+                content.length - offset,
+            )
+            writer.write(content, offset, chunkLength)
+            onContentCharactersWritten(chunkLength.toLong())
+            offset += chunkLength
+        }
+        writer.appendLine()
+    }
+
+    /**
+     * 字符串居中扩展函数
+     */
+    private fun String.center(width: Int): String {
+        if (this.length >= width) return this
+        val padding = width - this.length
+        val leftPad = padding / 2
+        val rightPad = padding - leftPad
+        return " ".repeat(leftPad) + this + " ".repeat(rightPad)
+    }
+}

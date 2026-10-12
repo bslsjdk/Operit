@@ -1,1 +1,280 @@
-LyoKICogQ29weXJpZ2h0IDIwMjQgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuQW5pbWF0YWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5GaW5pdGVBbmltYXRpb25TcGVjCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLlNwcmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5TcHJpbmdTcGVjCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLlZlY3RvckNvbnZlcnRlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5WaXNpYmlsaXR5VGhyZXNob2xkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLnNwcmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5HcmFwaGljc0NvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MubGF5ZXIuR3JhcGhpY3NMYXllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ub2RlLk1vZGlmaWVyTm9kZUVsZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubm9kZS5QYXJlbnREYXRhTW9kaWZpZXJOb2RlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkluc3BlY3RvckluZm8KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5EZW5zaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuSW50T2Zmc2V0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ2FuY2VsbGF0aW9uRXhjZXB0aW9uCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCmludGVybmFsIGNsYXNzIExhenlMYXlvdXRJdGVtQW5pbWF0aW9uKAogICAgcHJpdmF0ZSB2YWwgY29yb3V0aW5lU2NvcGU6IENvcm91dGluZVNjb3BlLAogICAgcHJpdmF0ZSB2YWwgZ3JhcGhpY3NDb250ZXh0OiBHcmFwaGljc0NvbnRleHQ/ID0gbnVsbCwKICAgIHByaXZhdGUgdmFsIG9uTGF5ZXJQcm9wZXJ0eUNoYW5nZWQ6ICgpIC0+IFVuaXQgPSB7fSwKKSB7CiAgICB2YXIgZmFkZUluU3BlYzogRmluaXRlQW5pbWF0aW9uU3BlYzxGbG9hdD4/ID0gbnVsbAogICAgdmFyIHBsYWNlbWVudFNwZWM6IEZpbml0ZUFuaW1hdGlvblNwZWM8SW50T2Zmc2V0Pj8gPSBudWxsCiAgICB2YXIgZmFkZU91dFNwZWM6IEZpbml0ZUFuaW1hdGlvblNwZWM8RmxvYXQ+PyA9IG51bGwKCiAgICB2YXIgaXNSdW5uaW5nTW92aW5nQXdheUFuaW1hdGlvbiA9IGZhbHNlCiAgICAgICAgcHJpdmF0ZSBzZXQKCiAgICAvKioKICAgICAqIFJldHVybnMgdHJ1ZSB3aGVuIHRoZSBwbGFjZW1lbnQgYW5pbWF0aW9uIGlzIGN1cnJlbnRseSBpbiBwcm9ncmVzcyBzbyB0aGUgcGFyZW50IHNob3VsZAogICAgICogY29udGludWUgY29tcG9zaW5nIHRoaXMgaXRlbS4KICAgICAqLwogICAgdmFyIGlzUGxhY2VtZW50QW5pbWF0aW9uSW5Qcm9ncmVzcyBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgICAgICBwcml2YXRlIHNldAoKICAgIC8qKiBSZXR1cm5zIHRydWUgd2hlbiB0aGUgYXBwZWFyYW5jZSBhbmltYXRpb24gaXMgY3VycmVudGx5IGluIHByb2dyZXNzLiAqLwogICAgdmFyIGlzQXBwZWFyYW5jZUFuaW1hdGlvbkluUHJvZ3Jlc3MgYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICAgICAgcHJpdmF0ZSBzZXQKCiAgICAvKiogUmV0dXJucyB0cnVlIHdoZW4gdGhlIGRpc2FwcGVhcmFuY2UgYW5pbWF0aW9uIGlzIGN1cnJlbnRseSBpbiBwcm9ncmVzcy4gKi8KICAgIHZhciBpc0Rpc2FwcGVhcmFuY2VBbmltYXRpb25JblByb2dyZXNzIGJ5IG11dGFibGVTdGF0ZU9mKGZhbHNlKQogICAgICAgIHByaXZhdGUgc2V0CgogICAgLyoqIFJldHVybnMgdHJ1ZSB3aGVuIHRoZSBkaXNhcHBlYXJhbmNlIGFuaW1hdGlvbiBoYXMgYmVlbiBmaW5pc2hlZC4gKi8KICAgIHZhciBpc0Rpc2FwcGVhcmFuY2VBbmltYXRpb25GaW5pc2hlZCBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgICAgICBwcml2YXRlIHNldAoKICAgIC8qKgogICAgICogVGhpcyBwcm9wZXJ0eSBpcyBtYW5hZ2VkIGJ5IHRoZSBhbmltYXRpb24gbWFuYWdlciBhbmQgaXMgbm90IGRpcmVjdGx5IHVzZWQgYnkgdGhpcyBjbGFzcy4gSXQKICAgICAqIHJlcHJlc2VudHMgdGhlIGxhc3Qga25vd24gb2Zmc2V0IG9mIHRoaXMgaXRlbSBpbiB0aGUgbGF6eSBsYXlvdXQgY29vcmRpbmF0ZSBzcGFjZS4gSXQgd2lsbCBiZQogICAgICogdXBkYXRlZCBvbiBldmVyeSBzY3JvbGwgYW5kIGlzIGFsbG93aW5nIHRoZSBtYW5hZ2VyIHRvIHRyYWNrIHdoZW4gdGhlIGl0ZW0gcG9zaXRpb24gY2hhbmdlcwogICAgICogbm90IGJlY2F1c2Ugb2YgdGhlIHNjcm9sbCBldmVudCBpbiBvcmRlciB0byBzdGFydCB0aGUgYW5pbWF0aW9uLiBXaGVuIHRoZXJlIGlzIGFuIGFjdGl2ZQogICAgICogYW5pbWF0aW9uIGl0IHJlcHJlc2VudHMgdGhlIGZpbmFsL3RhcmdldCBvZmZzZXQuCiAgICAgKi8KICAgIHZhciByYXdPZmZzZXQ6IEludE9mZnNldCA9IE5vdEluaXRpYWxpemVkCgogICAgLyoqCiAgICAgKiBUaGUgZmluYWwgb2Zmc2V0IHRoZSBwbGFjZWFibGUgYXNzb2NpYXRlZCB3aXRoIHRoaXMgYW5pbWF0aW9ucyB3YXMgcGxhY2VkIGF0LiBVbmxpa2UKICAgICAqIFtyYXdPZmZzZXRdIGl0IHRha2VzIGludG8gYWNjb3VudCB0aGluZ3MgbGlrZSByZXZlcnNlIGxheW91dCBhbmQgY29udGVudCBwYWRkaW5nLgogICAgICovCiAgICB2YXIgZmluYWxPZmZzZXQ6IEludE9mZnNldCA9IEludE9mZnNldC5aZXJvCgogICAgLyoqIEN1cnJlbnQgW0dyYXBoaWNzTGF5ZXJdLiBJdCB3aWxsIGJlIHNldCB0byBudWxsIGluIFtyZWxlYXNlXS4gKi8KICAgIHZhciBsYXllcjogR3JhcGhpY3NMYXllcj8gPSBncmFwaGljc0NvbnRleHQ/LmNyZWF0ZUdyYXBoaWNzTGF5ZXIoKQogICAgICAgIHByaXZhdGUgc2V0CgogICAgcHJpdmF0ZSB2YWwgcGxhY2VtZW50RGVsdGFBbmltYXRpb24gPSBBbmltYXRhYmxlKEludE9mZnNldC5aZXJvLCBJbnRPZmZzZXQuVmVjdG9yQ29udmVydGVyKQoKICAgIHByaXZhdGUgdmFsIHZpc2liaWxpdHlBbmltYXRpb24gPSBBbmltYXRhYmxlKDFmLCBGbG9hdC5WZWN0b3JDb252ZXJ0ZXIpCgogICAgLyoqCiAgICAgKiBDdXJyZW50IGRlbHRhIHRvIGFwcGx5IGZvciBhIHBsYWNlbWVudCBvZmZzZXQuIFVwZGF0ZXMgZXZlcnkgYW5pbWF0aW9uIGZyYW1lLiBUaGUgc2V0dGxlZAogICAgICogdmFsdWUgaXMgW0ludE9mZnNldC5aZXJvXSBzbyB0aGUgYW5pbWF0aW9uIGlzIGFsd2F5cyB0YXJnZXRpbmcgdGhpcyB2YWx1ZS4KICAgICAqLwogICAgdmFyIHBsYWNlbWVudERlbHRhIGJ5IG11dGFibGVTdGF0ZU9mKEludE9mZnNldC5aZXJvKQogICAgICAgIHByaXZhdGUgc2V0CgogICAgLyoqIENhbmNlbHMgdGhlIG9uZ29pbmcgcGxhY2VtZW50IGFuaW1hdGlvbiBpZiB0aGVyZSBpcyBvbmUuICovCiAgICBmdW4gY2FuY2VsUGxhY2VtZW50QW5pbWF0aW9uKCkgewogICAgICAgIGlmIChpc1BsYWNlbWVudEFuaW1hdGlvbkluUHJvZ3Jlc3MpIHsKICAgICAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgIHBsYWNlbWVudERlbHRhQW5pbWF0aW9uLnNuYXBUbyhJbnRPZmZzZXQuWmVybykKICAgICAgICAgICAgICAgIHBsYWNlbWVudERlbHRhID0gSW50T2Zmc2V0Llplcm8KICAgICAgICAgICAgICAgIGlzUGxhY2VtZW50QW5pbWF0aW9uSW5Qcm9ncmVzcyA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBUcmFja3MgdGhlIG9mZnNldCBvZiB0aGUgaXRlbSBpbiB0aGUgbG9va2FoZWFkIHBhc3MuIFdoZW4gc2V0LCB0aGlzIGlzIHRoZSBhbmltYXRpb24gdGFyZ2V0CiAgICAgKiB0aGF0IHBsYWNlbWVudERlbHRhIHNob3VsZCBiZSBhcHBsaWVkIHRvLgogICAgICovCiAgICB2YXIgbG9va2FoZWFkT2Zmc2V0OiBJbnRPZmZzZXQgPSBOb3RJbml0aWFsaXplZAoKICAgIC8qKiBBbmltYXRlIHRoZSBwbGFjZW1lbnQgYnkgdGhlIGdpdmVuIFtkZWx0YV0gb2Zmc2V0LiAqLwogICAgZnVuIGFuaW1hdGVQbGFjZW1lbnREZWx0YShkZWx0YTogSW50T2Zmc2V0LCBpc01vdmluZ0F3YXk6IEJvb2xlYW4pIHsKICAgICAgICB2YWwgc3BlYyA9IHBsYWNlbWVudFNwZWMgPzogcmV0dXJuCiAgICAgICAgdmFsIHRvdGFsRGVsdGEgPSBwbGFjZW1lbnREZWx0YSAtIGRlbHRhCiAgICAgICAgcGxhY2VtZW50RGVsdGEgPSB0b3RhbERlbHRhCiAgICAgICAgaXNQbGFjZW1lbnRBbmltYXRpb25JblByb2dyZXNzID0gdHJ1ZQogICAgICAgIGlzUnVubmluZ01vdmluZ0F3YXlBbmltYXRpb24gPSBpc01vdmluZ0F3YXkKICAgICAgICBjb3JvdXRpbmVTY29wZS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGZpbmFsU3BlYyA9CiAgICAgICAgICAgICAgICAgICAgaWYgKHBsYWNlbWVudERlbHRhQW5pbWF0aW9uLmlzUnVubmluZykgewogICAgICAgICAgICAgICAgICAgICAgICAvLyB3aGVuIGludGVycnVwdGVkLCB1c2UgdGhlIGRlZmF1bHQgc3ByaW5nLCB1bmxlc3MgdGhlIHNwZWMgaXMgYSBzcHJpbmcuCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzcGVjIGlzIFNwcmluZ1NwZWM8SW50T2Zmc2V0PikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3BlYwogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgSW50ZXJydXB0aW9uU3BlYwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgc3BlYwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICghcGxhY2VtZW50RGVsdGFBbmltYXRpb24uaXNSdW5uaW5nKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gaWYgbm90IHJ1bm5pbmcgd2UgY2FuIHNuYXAgdG8gdGhlIGluaXRpYWwgdmFsdWUgYW5kIGFuaW1hdGUgdG8gemVybwogICAgICAgICAgICAgICAgICAgIHBsYWNlbWVudERlbHRhQW5pbWF0aW9uLnNuYXBUbyh0b3RhbERlbHRhKQogICAgICAgICAgICAgICAgICAgIG9uTGF5ZXJQcm9wZXJ0eUNoYW5nZWQoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLy8gaWYgYW5pbWF0aW9uIGlzIG5vdCBjdXJyZW50bHkgcnVubmluZyB0aGUgdGFyZ2V0IHdpbGwgYmUgemVybywgb3RoZXJ3aXNlCiAgICAgICAgICAgICAgICAvLyB3ZSBoYXZlIHRvIGNvbnRpbnVlIHRoZSBhbmltYXRpb24gZnJvbSB0aGUgY3VycmVudCB2YWx1ZSwgYnV0IGtlZXAgdGhlIG5lZWRlZAogICAgICAgICAgICAgICAgLy8gdG90YWwgZGVsdGEgZm9yIHRoZSBuZXcgYW5pbWF0aW9uLgogICAgICAgICAgICAgICAgdmFsIGFuaW1hdGlvblRhcmdldCA9IHBsYWNlbWVudERlbHRhQW5pbWF0aW9uLnZhbHVlIC0gdG90YWxEZWx0YQogICAgICAgICAgICAgICAgcGxhY2VtZW50RGVsdGFBbmltYXRpb24uYW5pbWF0ZVRvKGFuaW1hdGlvblRhcmdldCwgZmluYWxTcGVjKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gcGxhY2VtZW50RGVsdGEgaXMgY2FsY3VsYXRlZCBhcyBpZiB3ZSBhbHdheXMgYW5pbWF0ZSB0byB0YXJnZXQgZXF1YWwgdG8gemVybwogICAgICAgICAgICAgICAgICAgIHBsYWNlbWVudERlbHRhID0gdmFsdWUgLSBhbmltYXRpb25UYXJnZXQKICAgICAgICAgICAgICAgICAgICBvbkxheWVyUHJvcGVydHlDaGFuZ2VkKCkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpc1BsYWNlbWVudEFuaW1hdGlvbkluUHJvZ3Jlc3MgPSBmYWxzZQogICAgICAgICAgICAgICAgaXNSdW5uaW5nTW92aW5nQXdheUFuaW1hdGlvbiA9IGZhbHNlCiAgICAgICAgICAgIH0gY2F0Y2ggKF86IENhbmNlbGxhdGlvbkV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgLy8gd2UgZG9uJ3QgcmVzZXQgaW5Qcm9ncmVzcyBpbiBjYXNlIG9mIGNhbmNlbGxhdGlvbiBhcyBpdCBtZWFucwogICAgICAgICAgICAgICAgLy8gdGhlcmUgaXMgYSBuZXcgYW5pbWF0aW9uIHN0YXJ0ZWQgd2hpY2ggd291bGQgcmVzZXQgaXQgbGF0ZXIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gYW5pbWF0ZUFwcGVhcmFuY2UoKSB7CiAgICAgICAgdmFsIGxheWVyID0gbGF5ZXIKICAgICAgICB2YWwgc3BlYyA9IGZhZGVJblNwZWMKICAgICAgICBpZiAoaXNBcHBlYXJhbmNlQW5pbWF0aW9uSW5Qcm9ncmVzcyB8fCBzcGVjID09IG51bGwgfHwgbGF5ZXIgPT0gbnVsbCkgewogICAgICAgICAgICBpZiAoaXNEaXNhcHBlYXJhbmNlQW5pbWF0aW9uSW5Qcm9ncmVzcykgewogICAgICAgICAgICAgICAgLy8gd2UgaGF2ZSBhbiBhY3RpdmUgZGlzYXBwZWFyYW5jZSwgYW5kIHRoZW4gYXBwZWFyYW5jZSB3YXMgcmVxdWVzdGVkLCBidXQgdGhlIHVzZXIKICAgICAgICAgICAgICAgIC8vIHByb3ZpZGVkIG51bGwgc3BlYyBmb3IgdGhlIGFwcGVhcmFuY2UuIHdlIG5lZWQgdG8gaW1tZWRpYXRlbHkgc3dpdGNoIHRvIDFmCiAgICAgICAgICAgICAgICBsYXllcj8uYWxwaGEgPSAxZgogICAgICAgICAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsgdmlzaWJpbGl0eUFuaW1hdGlvbi5zbmFwVG8oMWYpIH0KICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgaXNBcHBlYXJhbmNlQW5pbWF0aW9uSW5Qcm9ncmVzcyA9IHRydWUKICAgICAgICB2YWwgc2hvdWxkUmVzZXRWYWx1ZSA9ICFpc0Rpc2FwcGVhcmFuY2VBbmltYXRpb25JblByb2dyZXNzCiAgICAgICAgaWYgKHNob3VsZFJlc2V0VmFsdWUpIHsKICAgICAgICAgICAgbGF5ZXIuYWxwaGEgPSAwZgogICAgICAgIH0KICAgICAgICBjb3JvdXRpbmVTY29wZS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgaWYgKHNob3VsZFJlc2V0VmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICB2aXNpYmlsaXR5QW5pbWF0aW9uLnNuYXBUbygwZikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZpc2liaWxpdHlBbmltYXRpb24uYW5pbWF0ZVRvKDFmLCBzcGVjKSB7CiAgICAgICAgICAgICAgICAgICAgbGF5ZXIuYWxwaGEgPSB2YWx1ZQogICAgICAgICAgICAgICAgICAgIG9uTGF5ZXJQcm9wZXJ0eUNoYW5nZWQoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgaXNBcHBlYXJhbmNlQW5pbWF0aW9uSW5Qcm9ncmVzcyA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGFuaW1hdGVEaXNhcHBlYXJhbmNlKCkgewogICAgICAgIHZhbCBsYXllciA9IGxheWVyCiAgICAgICAgdmFsIHNwZWMgPSBmYWRlT3V0U3BlYwogICAgICAgIGlmIChsYXllciA9PSBudWxsIHx8IGlzRGlzYXBwZWFyYW5jZUFuaW1hdGlvbkluUHJvZ3Jlc3MgfHwgc3BlYyA9PSBudWxsKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICBpc0Rpc2FwcGVhcmFuY2VBbmltYXRpb25JblByb2dyZXNzID0gdHJ1ZQogICAgICAgIGNvcm91dGluZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2aXNpYmlsaXR5QW5pbWF0aW9uLmFuaW1hdGVUbygwZiwgc3BlYykgewogICAgICAgICAgICAgICAgICAgIGxheWVyLmFscGhhID0gdmFsdWUKICAgICAgICAgICAgICAgICAgICBvbkxheWVyUHJvcGVydHlDaGFuZ2VkKCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlzRGlzYXBwZWFyYW5jZUFuaW1hdGlvbkZpbmlzaGVkID0gdHJ1ZQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgaXNEaXNhcHBlYXJhbmNlQW5pbWF0aW9uSW5Qcm9ncmVzcyA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIHJlbGVhc2UoKSB7CiAgICAgICAgaWYgKGlzUGxhY2VtZW50QW5pbWF0aW9uSW5Qcm9ncmVzcykgewogICAgICAgICAgICBpc1BsYWNlbWVudEFuaW1hdGlvbkluUHJvZ3Jlc3MgPSBmYWxzZQogICAgICAgICAgICBjb3JvdXRpbmVTY29wZS5sYXVuY2ggeyBwbGFjZW1lbnREZWx0YUFuaW1hdGlvbi5zdG9wKCkgfQogICAgICAgIH0KICAgICAgICBpZiAoaXNBcHBlYXJhbmNlQW5pbWF0aW9uSW5Qcm9ncmVzcykgewogICAgICAgICAgICBpc0FwcGVhcmFuY2VBbmltYXRpb25JblByb2dyZXNzID0gZmFsc2UKICAgICAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsgdmlzaWJpbGl0eUFuaW1hdGlvbi5zdG9wKCkgfQogICAgICAgIH0KICAgICAgICBpZiAoaXNEaXNhcHBlYXJhbmNlQW5pbWF0aW9uSW5Qcm9ncmVzcykgewogICAgICAgICAgICBpc0Rpc2FwcGVhcmFuY2VBbmltYXRpb25JblByb2dyZXNzID0gZmFsc2UKICAgICAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsgdmlzaWJpbGl0eUFuaW1hdGlvbi5zdG9wKCkgfQogICAgICAgIH0KICAgICAgICBpc1J1bm5pbmdNb3ZpbmdBd2F5QW5pbWF0aW9uID0gZmFsc2UKICAgICAgICBwbGFjZW1lbnREZWx0YSA9IEludE9mZnNldC5aZXJvCiAgICAgICAgcmF3T2Zmc2V0ID0gTm90SW5pdGlhbGl6ZWQKICAgICAgICBsYXllcj8ubGV0IHsgZ3JhcGhpY3NDb250ZXh0Py5yZWxlYXNlR3JhcGhpY3NMYXllcihpdCkgfQogICAgICAgIGxheWVyID0gbnVsbAogICAgICAgIGZhZGVJblNwZWMgPSBudWxsCiAgICAgICAgZmFkZU91dFNwZWMgPSBudWxsCiAgICAgICAgcGxhY2VtZW50U3BlYyA9IG51bGwKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICB2YWwgTm90SW5pdGlhbGl6ZWQgPSBJbnRPZmZzZXQoSW50Lk1BWF9WQUxVRSwgSW50Lk1BWF9WQUxVRSkKICAgIH0KfQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBMYXp5TGF5b3V0QW5pbWF0ZUl0ZW1FbGVtZW50KAogICAgcHJpdmF0ZSB2YWwgZmFkZUluU3BlYzogRmluaXRlQW5pbWF0aW9uU3BlYzxGbG9hdD4/LAogICAgcHJpdmF0ZSB2YWwgcGxhY2VtZW50U3BlYzogRmluaXRlQW5pbWF0aW9uU3BlYzxJbnRPZmZzZXQ+PywKICAgIHByaXZhdGUgdmFsIGZhZGVPdXRTcGVjOiBGaW5pdGVBbmltYXRpb25TcGVjPEZsb2F0Pj8sCikgOiBNb2RpZmllck5vZGVFbGVtZW50PExhenlMYXlvdXRBbmltYXRpb25TcGVjc05vZGU+KCkgewoKICAgIG92ZXJyaWRlIGZ1biBjcmVhdGUoKTogTGF6eUxheW91dEFuaW1hdGlvblNwZWNzTm9kZSA9CiAgICAgICAgTGF6eUxheW91dEFuaW1hdGlvblNwZWNzTm9kZShmYWRlSW5TcGVjLCBwbGFjZW1lbnRTcGVjLCBmYWRlT3V0U3BlYykKCiAgICBvdmVycmlkZSBmdW4gdXBkYXRlKG5vZGU6IExhenlMYXlvdXRBbmltYXRpb25TcGVjc05vZGUpIHsKICAgICAgICBub2RlLmZhZGVJblNwZWMgPSBmYWRlSW5TcGVjCiAgICAgICAgbm9kZS5wbGFjZW1lbnRTcGVjID0gcGxhY2VtZW50U3BlYwogICAgICAgIG5vZGUuZmFkZU91dFNwZWMgPSBmYWRlT3V0U3BlYwogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBJbnNwZWN0b3JJbmZvLmluc3BlY3RhYmxlUHJvcGVydGllcygpIHsKICAgICAgICBuYW1lID0gImFuaW1hdGVJdGVtIgogICAgICAgIHByb3BlcnRpZXNbImZhZGVJblNwZWMiXSA9IGZhZGVJblNwZWMKICAgICAgICBwcm9wZXJ0aWVzWyJwbGFjZW1lbnRTcGVjIl0gPSBwbGFjZW1lbnRTcGVjCiAgICAgICAgcHJvcGVydGllc1siZmFkZU91dFNwZWMiXSA9IGZhZGVPdXRTcGVjCiAgICB9Cn0KCmludGVybmFsIGNsYXNzIExhenlMYXlvdXRBbmltYXRpb25TcGVjc05vZGUoCiAgICB2YXIgZmFkZUluU3BlYzogRmluaXRlQW5pbWF0aW9uU3BlYzxGbG9hdD4/LAogICAgdmFyIHBsYWNlbWVudFNwZWM6IEZpbml0ZUFuaW1hdGlvblNwZWM8SW50T2Zmc2V0Pj8sCiAgICB2YXIgZmFkZU91dFNwZWM6IEZpbml0ZUFuaW1hdGlvblNwZWM8RmxvYXQ+PywKKSA6IE1vZGlmaWVyLk5vZGUoKSwgUGFyZW50RGF0YU1vZGlmaWVyTm9kZSB7CgogICAgb3ZlcnJpZGUgZnVuIERlbnNpdHkubW9kaWZ5UGFyZW50RGF0YShwYXJlbnREYXRhOiBBbnk/KTogQW55ID0gdGhpc0BMYXp5TGF5b3V0QW5pbWF0aW9uU3BlY3NOb2RlCn0KCi8qKiBXZSBzd2l0Y2ggdG8gdGhpcyBzcGVjIHdoZW4gYSBkdXJhdGlvbiBiYXNlZCBhbmltYXRpb24gaXMgYmVpbmcgaW50ZXJydXB0ZWQuICovCnByaXZhdGUgdmFsIEludGVycnVwdGlvblNwZWMgPQogICAgc3ByaW5nKAogICAgICAgIHN0aWZmbmVzcyA9IFNwcmluZy5TdGlmZm5lc3NNZWRpdW1Mb3csCiAgICAgICAgdmlzaWJpbGl0eVRocmVzaG9sZCA9IEludE9mZnNldC5WaXNpYmlsaXR5VGhyZXNob2xkLAogICAgKQo=
+/*
+ * Copyright 2024 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.FiniteAnimationSpec
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.SpringSpec
+import androidx.compose.animation.core.VectorConverter
+import androidx.compose.animation.core.VisibilityThreshold
+import androidx.compose.animation.core.spring
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.GraphicsContext
+import androidx.compose.ui.graphics.layer.GraphicsLayer
+import androidx.compose.ui.node.ModifierNodeElement
+import androidx.compose.ui.node.ParentDataModifierNode
+import androidx.compose.ui.platform.InspectorInfo
+import androidx.compose.ui.unit.Density
+import androidx.compose.ui.unit.IntOffset
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.launch
+
+internal class LazyLayoutItemAnimation(
+    private val coroutineScope: CoroutineScope,
+    private val graphicsContext: GraphicsContext? = null,
+    private val onLayerPropertyChanged: () -> Unit = {},
+) {
+    var fadeInSpec: FiniteAnimationSpec<Float>? = null
+    var placementSpec: FiniteAnimationSpec<IntOffset>? = null
+    var fadeOutSpec: FiniteAnimationSpec<Float>? = null
+
+    var isRunningMovingAwayAnimation = false
+        private set
+
+    /**
+     * Returns true when the placement animation is currently in progress so the parent should
+     * continue composing this item.
+     */
+    var isPlacementAnimationInProgress by mutableStateOf(false)
+        private set
+
+    /** Returns true when the appearance animation is currently in progress. */
+    var isAppearanceAnimationInProgress by mutableStateOf(false)
+        private set
+
+    /** Returns true when the disappearance animation is currently in progress. */
+    var isDisappearanceAnimationInProgress by mutableStateOf(false)
+        private set
+
+    /** Returns true when the disappearance animation has been finished. */
+    var isDisappearanceAnimationFinished by mutableStateOf(false)
+        private set
+
+    /**
+     * This property is managed by the animation manager and is not directly used by this class. It
+     * represents the last known offset of this item in the lazy layout coordinate space. It will be
+     * updated on every scroll and is allowing the manager to track when the item position changes
+     * not because of the scroll event in order to start the animation. When there is an active
+     * animation it represents the final/target offset.
+     */
+    var rawOffset: IntOffset = NotInitialized
+
+    /**
+     * The final offset the placeable associated with this animations was placed at. Unlike
+     * [rawOffset] it takes into account things like reverse layout and content padding.
+     */
+    var finalOffset: IntOffset = IntOffset.Zero
+
+    /** Current [GraphicsLayer]. It will be set to null in [release]. */
+    var layer: GraphicsLayer? = graphicsContext?.createGraphicsLayer()
+        private set
+
+    private val placementDeltaAnimation = Animatable(IntOffset.Zero, IntOffset.VectorConverter)
+
+    private val visibilityAnimation = Animatable(1f, Float.VectorConverter)
+
+    /**
+     * Current delta to apply for a placement offset. Updates every animation frame. The settled
+     * value is [IntOffset.Zero] so the animation is always targeting this value.
+     */
+    var placementDelta by mutableStateOf(IntOffset.Zero)
+        private set
+
+    /** Cancels the ongoing placement animation if there is one. */
+    fun cancelPlacementAnimation() {
+        if (isPlacementAnimationInProgress) {
+            coroutineScope.launch {
+                placementDeltaAnimation.snapTo(IntOffset.Zero)
+                placementDelta = IntOffset.Zero
+                isPlacementAnimationInProgress = false
+            }
+        }
+    }
+
+    /**
+     * Tracks the offset of the item in the lookahead pass. When set, this is the animation target
+     * that placementDelta should be applied to.
+     */
+    var lookaheadOffset: IntOffset = NotInitialized
+
+    /** Animate the placement by the given [delta] offset. */
+    fun animatePlacementDelta(delta: IntOffset, isMovingAway: Boolean) {
+        val spec = placementSpec ?: return
+        val totalDelta = placementDelta - delta
+        placementDelta = totalDelta
+        isPlacementAnimationInProgress = true
+        isRunningMovingAwayAnimation = isMovingAway
+        coroutineScope.launch {
+            try {
+                val finalSpec =
+                    if (placementDeltaAnimation.isRunning) {
+                        // when interrupted, use the default spring, unless the spec is a spring.
+                        if (spec is SpringSpec<IntOffset>) {
+                            spec
+                        } else {
+                            InterruptionSpec
+                        }
+                    } else {
+                        spec
+                    }
+                if (!placementDeltaAnimation.isRunning) {
+                    // if not running we can snap to the initial value and animate to zero
+                    placementDeltaAnimation.snapTo(totalDelta)
+                    onLayerPropertyChanged()
+                }
+                // if animation is not currently running the target will be zero, otherwise
+                // we have to continue the animation from the current value, but keep the needed
+                // total delta for the new animation.
+                val animationTarget = placementDeltaAnimation.value - totalDelta
+                placementDeltaAnimation.animateTo(animationTarget, finalSpec) {
+                    // placementDelta is calculated as if we always animate to target equal to zero
+                    placementDelta = value - animationTarget
+                    onLayerPropertyChanged()
+                }
+
+                isPlacementAnimationInProgress = false
+                isRunningMovingAwayAnimation = false
+            } catch (_: CancellationException) {
+                // we don't reset inProgress in case of cancellation as it means
+                // there is a new animation started which would reset it later
+            }
+        }
+    }
+
+    fun animateAppearance() {
+        val layer = layer
+        val spec = fadeInSpec
+        if (isAppearanceAnimationInProgress || spec == null || layer == null) {
+            if (isDisappearanceAnimationInProgress) {
+                // we have an active disappearance, and then appearance was requested, but the user
+                // provided null spec for the appearance. we need to immediately switch to 1f
+                layer?.alpha = 1f
+                coroutineScope.launch { visibilityAnimation.snapTo(1f) }
+            }
+            return
+        }
+        isAppearanceAnimationInProgress = true
+        val shouldResetValue = !isDisappearanceAnimationInProgress
+        if (shouldResetValue) {
+            layer.alpha = 0f
+        }
+        coroutineScope.launch {
+            try {
+                if (shouldResetValue) {
+                    visibilityAnimation.snapTo(0f)
+                }
+                visibilityAnimation.animateTo(1f, spec) {
+                    layer.alpha = value
+                    onLayerPropertyChanged()
+                }
+            } finally {
+                isAppearanceAnimationInProgress = false
+            }
+        }
+    }
+
+    fun animateDisappearance() {
+        val layer = layer
+        val spec = fadeOutSpec
+        if (layer == null || isDisappearanceAnimationInProgress || spec == null) {
+            return
+        }
+        isDisappearanceAnimationInProgress = true
+        coroutineScope.launch {
+            try {
+                visibilityAnimation.animateTo(0f, spec) {
+                    layer.alpha = value
+                    onLayerPropertyChanged()
+                }
+                isDisappearanceAnimationFinished = true
+            } finally {
+                isDisappearanceAnimationInProgress = false
+            }
+        }
+    }
+
+    fun release() {
+        if (isPlacementAnimationInProgress) {
+            isPlacementAnimationInProgress = false
+            coroutineScope.launch { placementDeltaAnimation.stop() }
+        }
+        if (isAppearanceAnimationInProgress) {
+            isAppearanceAnimationInProgress = false
+            coroutineScope.launch { visibilityAnimation.stop() }
+        }
+        if (isDisappearanceAnimationInProgress) {
+            isDisappearanceAnimationInProgress = false
+            coroutineScope.launch { visibilityAnimation.stop() }
+        }
+        isRunningMovingAwayAnimation = false
+        placementDelta = IntOffset.Zero
+        rawOffset = NotInitialized
+        layer?.let { graphicsContext?.releaseGraphicsLayer(it) }
+        layer = null
+        fadeInSpec = null
+        fadeOutSpec = null
+        placementSpec = null
+    }
+
+    companion object {
+        val NotInitialized = IntOffset(Int.MAX_VALUE, Int.MAX_VALUE)
+    }
+}
+
+internal data class LazyLayoutAnimateItemElement(
+    private val fadeInSpec: FiniteAnimationSpec<Float>?,
+    private val placementSpec: FiniteAnimationSpec<IntOffset>?,
+    private val fadeOutSpec: FiniteAnimationSpec<Float>?,
+) : ModifierNodeElement<LazyLayoutAnimationSpecsNode>() {
+
+    override fun create(): LazyLayoutAnimationSpecsNode =
+        LazyLayoutAnimationSpecsNode(fadeInSpec, placementSpec, fadeOutSpec)
+
+    override fun update(node: LazyLayoutAnimationSpecsNode) {
+        node.fadeInSpec = fadeInSpec
+        node.placementSpec = placementSpec
+        node.fadeOutSpec = fadeOutSpec
+    }
+
+    override fun InspectorInfo.inspectableProperties() {
+        name = "animateItem"
+        properties["fadeInSpec"] = fadeInSpec
+        properties["placementSpec"] = placementSpec
+        properties["fadeOutSpec"] = fadeOutSpec
+    }
+}
+
+internal class LazyLayoutAnimationSpecsNode(
+    var fadeInSpec: FiniteAnimationSpec<Float>?,
+    var placementSpec: FiniteAnimationSpec<IntOffset>?,
+    var fadeOutSpec: FiniteAnimationSpec<Float>?,
+) : Modifier.Node(), ParentDataModifierNode {
+
+    override fun Density.modifyParentData(parentData: Any?): Any = this@LazyLayoutAnimationSpecsNode
+}
+
+/** We switch to this spec when a duration based animation is being interrupted. */
+private val InterruptionSpec =
+    spring(
+        stiffness = Spring.StiffnessMediumLow,
+        visibilityThreshold = IntOffset.VisibilityThreshold,
+    )

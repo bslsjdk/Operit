@@ -1,1 +1,99 @@
-LyoKICogQ29weXJpZ2h0IDIwMjAgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uRmxvYXRSYW5nZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5GaW5pdGVBbmltYXRpb25TcGVjCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLlNwcmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5WaXNpYmlsaXR5VGhyZXNob2xkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLnNwcmluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLlN0YWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkNvbnN0cmFpbnRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuSW50T2Zmc2V0CgovKiogUmVjZWl2ZXIgc2NvcGUgYmVpbmcgdXNlZCBieSB0aGUgaXRlbSBjb250ZW50IHBhcmFtZXRlciBvZiBMYXp5Q29sdW1uL1Jvdy4gKi8KQFN0YWJsZQppbnRlcmZhY2UgTGF6eUl0ZW1TY29wZSB7CiAgICAvKioKICAgICAqIEhhdmUgdGhlIGNvbnRlbnQgZmlsbCB0aGUgW0NvbnN0cmFpbnRzLm1heFdpZHRoXSBhbmQgW0NvbnN0cmFpbnRzLm1heEhlaWdodF0gb2YgdGhlIHBhcmVudAogICAgICogbWVhc3VyZW1lbnQgY29uc3RyYWludHMgYnkgc2V0dGluZyB0aGUgW21pbmltdW0gd2lkdGhdW0NvbnN0cmFpbnRzLm1pbldpZHRoXSB0byBiZSBlcXVhbCB0bwogICAgICogdGhlIFttYXhpbXVtIHdpZHRoXVtDb25zdHJhaW50cy5tYXhXaWR0aF0gbXVsdGlwbGllZCBieSBbZnJhY3Rpb25dIGFuZCB0aGUKICAgICAqIFttaW5pbXVtIGhlaWdodF1bQ29uc3RyYWludHMubWluSGVpZ2h0XSB0byBiZSBlcXVhbCB0byB0aGUKICAgICAqIFttYXhpbXVtIGhlaWdodF1bQ29uc3RyYWludHMubWF4SGVpZ2h0XSBtdWx0aXBsaWVkIGJ5IFtmcmFjdGlvbl0uIE5vdGUgdGhhdCwgYnkgZGVmYXVsdCwgdGhlCiAgICAgKiBbZnJhY3Rpb25dIGlzIDEsIHNvIHRoZSBtb2RpZmllciB3aWxsIG1ha2UgdGhlIGNvbnRlbnQgZmlsbCB0aGUgd2hvbGUgYXZhaWxhYmxlIHNwYWNlLgogICAgICogW2ZyYWN0aW9uXSBtdXN0IGJlIGJldHdlZW4gYDBgIGFuZCBgMWAuCiAgICAgKgogICAgICogUmVndWxhciBbTW9kaWZpZXIuZmlsbE1heFNpemVdIGNhbid0IHdvcmsgaW5zaWRlIHRoZSBzY3JvbGxpbmcgbGF5b3V0cyBhcyB0aGUgaXRlbXMgYXJlCiAgICAgKiBtZWFzdXJlZCB3aXRoIFtDb25zdHJhaW50cy5JbmZpbml0eV0gYXMgdGhlIGNvbnN0cmFpbnRzIGZvciB0aGUgbWFpbiBheGlzLgogICAgICovCiAgICBmdW4gTW9kaWZpZXIuZmlsbFBhcmVudE1heFNpemUoQEZsb2F0UmFuZ2UoZnJvbSA9IDAuMCwgdG8gPSAxLjApIGZyYWN0aW9uOiBGbG9hdCA9IDFmKTogTW9kaWZpZXIKCiAgICAvKioKICAgICAqIEhhdmUgdGhlIGNvbnRlbnQgZmlsbCB0aGUgW0NvbnN0cmFpbnRzLm1heFdpZHRoXSBvZiB0aGUgcGFyZW50IG1lYXN1cmVtZW50IGNvbnN0cmFpbnRzIGJ5CiAgICAgKiBzZXR0aW5nIHRoZSBbbWluaW11bSB3aWR0aF1bQ29uc3RyYWludHMubWluV2lkdGhdIHRvIGJlIGVxdWFsIHRvIHRoZQogICAgICogW21heGltdW0gd2lkdGhdW0NvbnN0cmFpbnRzLm1heFdpZHRoXSBtdWx0aXBsaWVkIGJ5IFtmcmFjdGlvbl0uIE5vdGUgdGhhdCwgYnkgZGVmYXVsdCwgdGhlCiAgICAgKiBbZnJhY3Rpb25dIGlzIDEsIHNvIHRoZSBtb2RpZmllciB3aWxsIG1ha2UgdGhlIGNvbnRlbnQgZmlsbCB0aGUgd2hvbGUgcGFyZW50IHdpZHRoLgogICAgICogW2ZyYWN0aW9uXSBtdXN0IGJlIGJldHdlZW4gYDBgIGFuZCBgMWAuCiAgICAgKgogICAgICogUmVndWxhciBbTW9kaWZpZXIuZmlsbE1heFdpZHRoXSBjYW4ndCB3b3JrIGluc2lkZSB0aGUgc2Nyb2xsaW5nIGhvcml6b250YWxseSBsYXlvdXRzIGFzIHRoZQogICAgICogaXRlbXMgYXJlIG1lYXN1cmVkIHdpdGggW0NvbnN0cmFpbnRzLkluZmluaXR5XSBhcyB0aGUgY29uc3RyYWludHMgZm9yIHRoZSBtYWluIGF4aXMuCiAgICAgKi8KICAgIGZ1biBNb2RpZmllci5maWxsUGFyZW50TWF4V2lkdGgoCiAgICAgICAgQEZsb2F0UmFuZ2UoZnJvbSA9IDAuMCwgdG8gPSAxLjApIGZyYWN0aW9uOiBGbG9hdCA9IDFmCiAgICApOiBNb2RpZmllcgoKICAgIC8qKgogICAgICogSGF2ZSB0aGUgY29udGVudCBmaWxsIHRoZSBbQ29uc3RyYWludHMubWF4SGVpZ2h0XSBvZiB0aGUgaW5jb21pbmcgbWVhc3VyZW1lbnQgY29uc3RyYWludHMgYnkKICAgICAqIHNldHRpbmcgdGhlIFttaW5pbXVtIGhlaWdodF1bQ29uc3RyYWludHMubWluSGVpZ2h0XSB0byBiZSBlcXVhbCB0byB0aGUKICAgICAqIFttYXhpbXVtIGhlaWdodF1bQ29uc3RyYWludHMubWF4SGVpZ2h0XSBtdWx0aXBsaWVkIGJ5IFtmcmFjdGlvbl0uIE5vdGUgdGhhdCwgYnkgZGVmYXVsdCwgdGhlCiAgICAgKiBbZnJhY3Rpb25dIGlzIDEsIHNvIHRoZSBtb2RpZmllciB3aWxsIG1ha2UgdGhlIGNvbnRlbnQgZmlsbCB0aGUgd2hvbGUgcGFyZW50IGhlaWdodC4KICAgICAqIFtmcmFjdGlvbl0gbXVzdCBiZSBiZXR3ZWVuIGAwYCBhbmQgYDFgLgogICAgICoKICAgICAqIFJlZ3VsYXIgW01vZGlmaWVyLmZpbGxNYXhIZWlnaHRdIGNhbid0IHdvcmsgaW5zaWRlIHRoZSBzY3JvbGxpbmcgdmVydGljYWxseSBsYXlvdXRzIGFzIHRoZQogICAgICogaXRlbXMgYXJlIG1lYXN1cmVkIHdpdGggW0NvbnN0cmFpbnRzLkluZmluaXR5XSBhcyB0aGUgY29uc3RyYWludHMgZm9yIHRoZSBtYWluIGF4aXMuCiAgICAgKi8KICAgIGZ1biBNb2RpZmllci5maWxsUGFyZW50TWF4SGVpZ2h0KAogICAgICAgIEBGbG9hdFJhbmdlKGZyb20gPSAwLjAsIHRvID0gMS4wKSBmcmFjdGlvbjogRmxvYXQgPSAxZgogICAgKTogTW9kaWZpZXIKCiAgICAvKioKICAgICAqIFRoaXMgbW9kaWZpZXIgYW5pbWF0ZXMgdGhlIGl0ZW0gYXBwZWFyYW5jZSAoZmFkZSBpbiksIGRpc2FwcGVhcmFuY2UgKGZhZGUgb3V0KSBhbmQgcGxhY2VtZW50CiAgICAgKiBjaGFuZ2VzIChzdWNoIGFzIGFuIGl0ZW0gcmVvcmRlcmluZykuCiAgICAgKgogICAgICogWW91IHNob3VsZCBhbHNvIHByb3ZpZGUgYSBrZXkgdmlhIFtMYXp5TGlzdFNjb3BlLml0ZW1dL1tMYXp5TGlzdFNjb3BlLml0ZW1zXSBmb3IgdGhpcwogICAgICogbW9kaWZpZXIgdG8gZW5hYmxlIGFuaW1hdGlvbnMuCiAgICAgKgogICAgICogQHNhbXBsZSBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2FtcGxlcy5BbmltYXRlSXRlbVNhbXBsZQogICAgICogQHBhcmFtIGZhZGVJblNwZWMgYW4gYW5pbWF0aW9uIHNwZWNzIHRvIHVzZSBmb3IgYW5pbWF0aW5nIHRoZSBpdGVtIGFwcGVhcmFuY2UuIFdoZW4gbnVsbCBpcwogICAgICogICBwcm92aWRlZCB0aGUgaXRlbSB3aWxsIGJlIGFwcGVhcmluZyB3aXRob3V0IGFuaW1hdGlvbnMuCiAgICAgKiBAcGFyYW0gcGxhY2VtZW50U3BlYyBhbiBhbmltYXRpb24gc3BlY3MgdGhhdCB3aWxsIGJlIHVzZWQgdG8gYW5pbWF0ZSB0aGUgaXRlbSBwbGFjZW1lbnQuCiAgICAgKiAgIEFzaWRlIGZyb20gaXRlbSByZW9yZGVyaW5nIGFsbCBvdGhlciBwb3NpdGlvbiBjaGFuZ2VzIGNhdXNlZCBieSBldmVudHMgbGlrZSBhcnJhbmdlbWVudCBvcgogICAgICogICBhbGlnbm1lbnQgY2hhbmdlcyB3aWxsIGFsc28gYmUgYW5pbWF0ZWQuIFdoZW4gbnVsbCBpcyBwcm92aWRlZCBubyBhbmltYXRpb25zIHdpbGwgaGFwcGVuLgogICAgICogQHBhcmFtIGZhZGVPdXRTcGVjIGFuIGFuaW1hdGlvbiBzcGVjcyB0byB1c2UgZm9yIGFuaW1hdGluZyB0aGUgaXRlbSBkaXNhcHBlYXJhbmNlLiBXaGVuIG51bGwKICAgICAqICAgaXMgcHJvdmlkZWQgdGhlIGl0ZW0gd2lsbCBiZSBkaXNhcHBlYXJhbmNlIHdpdGhvdXQgYW5pbWF0aW9ucy4KICAgICAqLwogICAgZnVuIE1vZGlmaWVyLmFuaW1hdGVJdGVtKAogICAgICAgIGZhZGVJblNwZWM6IEZpbml0ZUFuaW1hdGlvblNwZWM8RmxvYXQ+PyA9IHNwcmluZyhzdGlmZm5lc3MgPSBTcHJpbmcuU3RpZmZuZXNzTWVkaXVtTG93KSwKICAgICAgICBwbGFjZW1lbnRTcGVjOiBGaW5pdGVBbmltYXRpb25TcGVjPEludE9mZnNldD4/ID0KICAgICAgICAgICAgc3ByaW5nKAogICAgICAgICAgICAgICAgc3RpZmZuZXNzID0gU3ByaW5nLlN0aWZmbmVzc01lZGl1bUxvdywKICAgICAgICAgICAgICAgIHZpc2liaWxpdHlUaHJlc2hvbGQgPSBJbnRPZmZzZXQuVmlzaWJpbGl0eVRocmVzaG9sZCwKICAgICAgICAgICAgKSwKICAgICAgICBmYWRlT3V0U3BlYzogRmluaXRlQW5pbWF0aW9uU3BlYzxGbG9hdD4/ID0gc3ByaW5nKHN0aWZmbmVzcyA9IFNwcmluZy5TdGlmZm5lc3NNZWRpdW1Mb3cpLAogICAgKTogTW9kaWZpZXIgPSB0aGlzCn0K
+/*
+ * Copyright 2020 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.annotation.FloatRange
+import androidx.compose.animation.core.FiniteAnimationSpec
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.VisibilityThreshold
+import androidx.compose.animation.core.spring
+import androidx.compose.runtime.Stable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.IntOffset
+
+/** Receiver scope being used by the item content parameter of LazyColumn/Row. */
+@Stable
+interface LazyItemScope {
+    /**
+     * Have the content fill the [Constraints.maxWidth] and [Constraints.maxHeight] of the parent
+     * measurement constraints by setting the [minimum width][Constraints.minWidth] to be equal to
+     * the [maximum width][Constraints.maxWidth] multiplied by [fraction] and the
+     * [minimum height][Constraints.minHeight] to be equal to the
+     * [maximum height][Constraints.maxHeight] multiplied by [fraction]. Note that, by default, the
+     * [fraction] is 1, so the modifier will make the content fill the whole available space.
+     * [fraction] must be between `0` and `1`.
+     *
+     * Regular [Modifier.fillMaxSize] can't work inside the scrolling layouts as the items are
+     * measured with [Constraints.Infinity] as the constraints for the main axis.
+     */
+    fun Modifier.fillParentMaxSize(@FloatRange(from = 0.0, to = 1.0) fraction: Float = 1f): Modifier
+
+    /**
+     * Have the content fill the [Constraints.maxWidth] of the parent measurement constraints by
+     * setting the [minimum width][Constraints.minWidth] to be equal to the
+     * [maximum width][Constraints.maxWidth] multiplied by [fraction]. Note that, by default, the
+     * [fraction] is 1, so the modifier will make the content fill the whole parent width.
+     * [fraction] must be between `0` and `1`.
+     *
+     * Regular [Modifier.fillMaxWidth] can't work inside the scrolling horizontally layouts as the
+     * items are measured with [Constraints.Infinity] as the constraints for the main axis.
+     */
+    fun Modifier.fillParentMaxWidth(
+        @FloatRange(from = 0.0, to = 1.0) fraction: Float = 1f
+    ): Modifier
+
+    /**
+     * Have the content fill the [Constraints.maxHeight] of the incoming measurement constraints by
+     * setting the [minimum height][Constraints.minHeight] to be equal to the
+     * [maximum height][Constraints.maxHeight] multiplied by [fraction]. Note that, by default, the
+     * [fraction] is 1, so the modifier will make the content fill the whole parent height.
+     * [fraction] must be between `0` and `1`.
+     *
+     * Regular [Modifier.fillMaxHeight] can't work inside the scrolling vertically layouts as the
+     * items are measured with [Constraints.Infinity] as the constraints for the main axis.
+     */
+    fun Modifier.fillParentMaxHeight(
+        @FloatRange(from = 0.0, to = 1.0) fraction: Float = 1f
+    ): Modifier
+
+    /**
+     * This modifier animates the item appearance (fade in), disappearance (fade out) and placement
+     * changes (such as an item reordering).
+     *
+     * You should also provide a key via [LazyListScope.item]/[LazyListScope.items] for this
+     * modifier to enable animations.
+     *
+     * @sample androidx.compose.foundation.samples.AnimateItemSample
+     * @param fadeInSpec an animation specs to use for animating the item appearance. When null is
+     *   provided the item will be appearing without animations.
+     * @param placementSpec an animation specs that will be used to animate the item placement.
+     *   Aside from item reordering all other position changes caused by events like arrangement or
+     *   alignment changes will also be animated. When null is provided no animations will happen.
+     * @param fadeOutSpec an animation specs to use for animating the item disappearance. When null
+     *   is provided the item will be disappearance without animations.
+     */
+    fun Modifier.animateItem(
+        fadeInSpec: FiniteAnimationSpec<Float>? = spring(stiffness = Spring.StiffnessMediumLow),
+        placementSpec: FiniteAnimationSpec<IntOffset>? =
+            spring(
+                stiffness = Spring.StiffnessMediumLow,
+                visibilityThreshold = IntOffset.VisibilityThreshold,
+            ),
+        fadeOutSpec: FiniteAnimationSpec<Float>? = spring(stiffness = Spring.StiffnessMediumLow),
+    ): Modifier = this
+}

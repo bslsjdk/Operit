@@ -1,1 +1,247 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3Mudmlld21vZGVscwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWwKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS52aWV3TW9kZWxTY29wZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFjdGl2ZVByb21wdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ3VzdG9tRW1vamkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkFjdGl2ZVByb21wdE1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkNoYXJhY3RlckNhcmRNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5DaGFyYWN0ZXJHcm91cENhcmRNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5DdXN0b21FbW9qaVByZWZlcmVuY2VzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZXBvc2l0b3J5LkN1c3RvbUVtb2ppUmVwb3NpdG9yeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TaGFyaW5nU3RhcnRlZAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuY29sbGVjdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuY29tYmluZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZW1pdEFsbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmxhdE1hcExhdGVzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cubWFwCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5zdGF0ZUluCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgovKioKICog6Ieq5a6a5LmJ6KGo5oOF566h55CGIFZpZXdNb2RlbAogKgogKiDnrqHnkIblvZPliY3mtLvot4Pop5LoibLnm67moIfnmoToh6rlrprkuYnooajmg4UgVUkg54q25oCB5ZKM5Lia5Yqh6YC76L6R44CCCiAqLwpjbGFzcyBDdXN0b21FbW9qaVZpZXdNb2RlbChjb250ZXh0OiBDb250ZXh0KSA6IFZpZXdNb2RlbCgpIHsKCiAgICBwcml2YXRlIHZhbCByZXBvc2l0b3J5ID0gQ3VzdG9tRW1vamlSZXBvc2l0b3J5LmdldEluc3RhbmNlKGNvbnRleHQpCiAgICBwcml2YXRlIHZhbCBhY3RpdmVQcm9tcHRNYW5hZ2VyID0gQWN0aXZlUHJvbXB0TWFuYWdlci5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgcHJpdmF0ZSB2YWwgY2hhcmFjdGVyQ2FyZE1hbmFnZXIgPSBDaGFyYWN0ZXJDYXJkTWFuYWdlci5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgcHJpdmF0ZSB2YWwgY2hhcmFjdGVyR3JvdXBDYXJkTWFuYWdlciA9IENoYXJhY3Rlckdyb3VwQ2FyZE1hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dCkKICAgIHByaXZhdGUgdmFsIGFwcENvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgcHJpdmF0ZSB2YWwgdGFnID0gIkN1c3RvbUVtb2ppVmlld01vZGVsIgoKICAgIHZhbCBhY3RpdmVQcm9tcHQ6IFN0YXRlRmxvdzxBY3RpdmVQcm9tcHQ+ID0gYWN0aXZlUHJvbXB0TWFuYWdlci5hY3RpdmVQcm9tcHRGbG93CiAgICAgICAgLnN0YXRlSW4oCiAgICAgICAgICAgIHNjb3BlID0gdmlld01vZGVsU2NvcGUsCiAgICAgICAgICAgIHN0YXJ0ZWQgPSBTaGFyaW5nU3RhcnRlZC5XaGlsZVN1YnNjcmliZWQoNTAwMCksCiAgICAgICAgICAgIGluaXRpYWxWYWx1ZSA9IEFjdGl2ZVByb21wdC5DaGFyYWN0ZXJDYXJkKENoYXJhY3RlckNhcmRNYW5hZ2VyLkRFRkFVTFRfQ0hBUkFDVEVSX0NBUkRfSUQpCiAgICAgICAgKQoKICAgIHZhbCBhY3RpdmVUYXJnZXROYW1lOiBTdGF0ZUZsb3c8U3RyaW5nPiA9IGFjdGl2ZVByb21wdAogICAgICAgIC5mbGF0TWFwTGF0ZXN0IHsgcHJvbXB0IC0+CiAgICAgICAgICAgIHdoZW4gKHByb21wdCkgewogICAgICAgICAgICAgICAgaXMgQWN0aXZlUHJvbXB0LkNoYXJhY3RlckNhcmQgLT4gewogICAgICAgICAgICAgICAgICAgIGNoYXJhY3RlckNhcmRNYW5hZ2VyLmdldENoYXJhY3RlckNhcmRGbG93KHByb21wdC5pZCkubWFwIHsgaXQ/Lm5hbWUub3JFbXB0eSgpIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlzIEFjdGl2ZVByb21wdC5DaGFyYWN0ZXJHcm91cCAtPiB7CiAgICAgICAgICAgICAgICAgICAgY2hhcmFjdGVyR3JvdXBDYXJkTWFuYWdlci5nZXRDaGFyYWN0ZXJHcm91cENhcmRGbG93KHByb21wdC5pZCkubWFwIHsgaXQ/Lm5hbWUub3JFbXB0eSgpIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAuc3RhdGVJbigKICAgICAgICAgICAgc2NvcGUgPSB2aWV3TW9kZWxTY29wZSwKICAgICAgICAgICAgc3RhcnRlZCA9IFNoYXJpbmdTdGFydGVkLldoaWxlU3Vic2NyaWJlZCg1MDAwKSwKICAgICAgICAgICAgaW5pdGlhbFZhbHVlID0gIiIKICAgICAgICApCgogICAgcHJpdmF0ZSB2YWwgX3NlbGVjdGVkQ2F0ZWdvcnkgPSBNdXRhYmxlU3RhdGVGbG93KEN1c3RvbUVtb2ppUHJlZmVyZW5jZXMuQlVJTFRJTl9FTU9USU9OUy5maXJzdCgpKQogICAgdmFsIHNlbGVjdGVkQ2F0ZWdvcnk6IFN0YXRlRmxvdzxTdHJpbmc+ID0gX3NlbGVjdGVkQ2F0ZWdvcnkuYXNTdGF0ZUZsb3coKQoKICAgIHZhbCBjYXRlZ29yaWVzOiBTdGF0ZUZsb3c8TGlzdDxTdHJpbmc+PiA9IGFjdGl2ZVByb21wdAogICAgICAgIC5mbGF0TWFwTGF0ZXN0IHsgcHJvbXB0IC0+CiAgICAgICAgICAgIGZsb3cgewogICAgICAgICAgICAgICAgcmVwb3NpdG9yeS5pbml0aWFsaXplQnVpbHRpbkVtb2ppcyhwcm9tcHQpCiAgICAgICAgICAgICAgICBlbWl0QWxsKHJlcG9zaXRvcnkuZ2V0QWxsQ2F0ZWdvcmllcyhwcm9tcHQpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIC5zdGF0ZUluKAogICAgICAgICAgICBzY29wZSA9IHZpZXdNb2RlbFNjb3BlLAogICAgICAgICAgICBzdGFydGVkID0gU2hhcmluZ1N0YXJ0ZWQuV2hpbGVTdWJzY3JpYmVkKDUwMDApLAogICAgICAgICAgICBpbml0aWFsVmFsdWUgPSBlbXB0eUxpc3QoKQogICAgICAgICkKCiAgICBAT3B0SW4oa290bGlueC5jb3JvdXRpbmVzLkV4cGVyaW1lbnRhbENvcm91dGluZXNBcGk6OmNsYXNzKQogICAgdmFsIGVtb2ppc0luQ2F0ZWdvcnk6IFN0YXRlRmxvdzxMaXN0PEN1c3RvbUVtb2ppPj4gPSBjb21iaW5lKGFjdGl2ZVByb21wdCwgX3NlbGVjdGVkQ2F0ZWdvcnkpIHsgcHJvbXB0LCBjYXRlZ29yeSAtPgogICAgICAgIHByb21wdCB0byBjYXRlZ29yeQogICAgfS5mbGF0TWFwTGF0ZXN0IHsgKHByb21wdCwgY2F0ZWdvcnkpIC0+CiAgICAgICAgcmVwb3NpdG9yeS5nZXRFbW9qaXNGb3JDYXRlZ29yeShwcm9tcHQsIGNhdGVnb3J5KQogICAgfS5zdGF0ZUluKAogICAgICAgIHNjb3BlID0gdmlld01vZGVsU2NvcGUsCiAgICAgICAgc3RhcnRlZCA9IFNoYXJpbmdTdGFydGVkLldoaWxlU3Vic2NyaWJlZCg1MDAwKSwKICAgICAgICBpbml0aWFsVmFsdWUgPSBlbXB0eUxpc3QoKQogICAgKQoKICAgIHByaXZhdGUgdmFsIF9pc0xvYWRpbmcgPSBNdXRhYmxlU3RhdGVGbG93KGZhbHNlKQogICAgdmFsIGlzTG9hZGluZzogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2lzTG9hZGluZy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX2Vycm9yTWVzc2FnZSA9IE11dGFibGVTdGF0ZUZsb3c8U3RyaW5nPz4obnVsbCkKICAgIHZhbCBlcnJvck1lc3NhZ2U6IFN0YXRlRmxvdzxTdHJpbmc/PiA9IF9lcnJvck1lc3NhZ2UuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9zdWNjZXNzTWVzc2FnZSA9IE11dGFibGVTdGF0ZUZsb3c8U3RyaW5nPz4obnVsbCkKICAgIHZhbCBzdWNjZXNzTWVzc2FnZTogU3RhdGVGbG93PFN0cmluZz8+ID0gX3N1Y2Nlc3NNZXNzYWdlLmFzU3RhdGVGbG93KCkKCiAgICBpbml0IHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBjYXRlZ29yaWVzLmNvbGxlY3QgeyBjdXJyZW50Q2F0ZWdvcmllcyAtPgogICAgICAgICAgICAgICAgdmFsIGZhbGxiYWNrQ2F0ZWdvcnkgPSBjdXJyZW50Q2F0ZWdvcmllcy5maXJzdE9yTnVsbCgpCiAgICAgICAgICAgICAgICBpZiAoIWZhbGxiYWNrQ2F0ZWdvcnkuaXNOdWxsT3JCbGFuaygpICYmIF9zZWxlY3RlZENhdGVnb3J5LnZhbHVlICFpbiBjdXJyZW50Q2F0ZWdvcmllcykgewogICAgICAgICAgICAgICAgICAgIF9zZWxlY3RlZENhdGVnb3J5LnZhbHVlID0gZmFsbGJhY2tDYXRlZ29yeQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzZWxlY3RDYXRlZ29yeShjYXRlZ29yeTogU3RyaW5nKSB7CiAgICAgICAgX3NlbGVjdGVkQ2F0ZWdvcnkudmFsdWUgPSBjYXRlZ29yeQogICAgfQoKICAgIGZ1biBhZGRFbW9qaXMoY2F0ZWdvcnk6IFN0cmluZywgdXJpczogTGlzdDxVcmk+KSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IHRydWUKICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IG51bGwKICAgICAgICAgICAgX3N1Y2Nlc3NNZXNzYWdlLnZhbHVlID0gbnVsbAoKICAgICAgICAgICAgdmFyIHN1Y2Nlc3NDb3VudCA9IDAKICAgICAgICAgICAgdmFyIGZhaWxDb3VudCA9IDAKICAgICAgICAgICAgdmFsIHRhcmdldCA9IGFjdGl2ZVByb21wdC52YWx1ZQoKICAgICAgICAgICAgdXJpcy5mb3JFYWNoIHsgdXJpIC0+CiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gcmVwb3NpdG9yeS5hZGRDdXN0b21FbW9qaSh0YXJnZXQsIGNhdGVnb3J5LCB1cmkpCiAgICAgICAgICAgICAgICBpZiAocmVzdWx0LmlzU3VjY2VzcykgewogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3NDb3VudCsrCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGZhaWxDb3VudCsrCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0LmV4Y2VwdGlvbk9yTnVsbCgpPy5sZXQgeyBleCAtPgogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSh0YWcsICJGYWlsZWQgdG8gYWRkIGVtb2ppIGZyb20gVVJJOiAkdXJpIiwgZXgpCiAgICAgICAgICAgICAgICAgICAgfSA/OiBBcHBMb2dnZXIuZSh0YWcsICJGYWlsZWQgdG8gYWRkIGVtb2ppIGZyb20gVVJJOiAkdXJpIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IGZhbHNlCgogICAgICAgICAgICBpZiAoc3VjY2Vzc0NvdW50ID4gMCkgewogICAgICAgICAgICAgICAgX3N1Y2Nlc3NNZXNzYWdlLnZhbHVlID0gaWYgKGZhaWxDb3VudCA+IDApIHsKICAgICAgICAgICAgICAgICAgICBhcHBDb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5lbW9qaV9hZGRlZF9wYXJ0aWFsLCBzdWNjZXNzQ291bnQsIGZhaWxDb3VudCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgYXBwQ29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZW1vamlfYWRkZWRfc3VjY2Vzcywgc3VjY2Vzc0NvdW50KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChmYWlsQ291bnQgPiAwICYmIHN1Y2Nlc3NDb3VudCA9PSAwKSB7CiAgICAgICAgICAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gYXBwQ29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZW1vamlfYWRkX2ZhaWxlZCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gZGVsZXRlRW1vamkoZW1vamlJZDogU3RyaW5nKSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IHRydWUKICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IG51bGwKICAgICAgICAgICAgX3N1Y2Nlc3NNZXNzYWdlLnZhbHVlID0gbnVsbAoKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHJlcG9zaXRvcnkuZGVsZXRlQ3VzdG9tRW1vamkoYWN0aXZlUHJvbXB0LnZhbHVlLCBlbW9qaUlkKQogICAgICAgICAgICBfaXNMb2FkaW5nLnZhbHVlID0gZmFsc2UKCiAgICAgICAgICAgIGlmIChyZXN1bHQuaXNTdWNjZXNzKSB7CiAgICAgICAgICAgICAgICBfc3VjY2Vzc01lc3NhZ2UudmFsdWUgPSBhcHBDb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5lbW9qaV9kZWxldGVkX3N1Y2Nlc3MpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByZXN1bHQuZXhjZXB0aW9uT3JOdWxsKCk/LmxldCB7IGV4IC0+CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUodGFnLCAiRmFpbGVkIHRvIGRlbGV0ZSBlbW9qaTogJGVtb2ppSWQiLCBleCkKICAgICAgICAgICAgICAgIH0gPzogQXBwTG9nZ2VyLmUodGFnLCAiRmFpbGVkIHRvIGRlbGV0ZSBlbW9qaTogJGVtb2ppSWQiKQogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGFwcENvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmVtb2ppX2RlbGV0ZV9mYWlsZWQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGRlbGV0ZUNhdGVnb3J5KGNhdGVnb3J5OiBTdHJpbmcpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBfaXNMb2FkaW5nLnZhbHVlID0gdHJ1ZQogICAgICAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gbnVsbAogICAgICAgICAgICBfc3VjY2Vzc01lc3NhZ2UudmFsdWUgPSBudWxsCgogICAgICAgICAgICB2YWwgcmVzdWx0ID0gcmVwb3NpdG9yeS5kZWxldGVDYXRlZ29yeShhY3RpdmVQcm9tcHQudmFsdWUsIGNhdGVnb3J5KQogICAgICAgICAgICBfaXNMb2FkaW5nLnZhbHVlID0gZmFsc2UKCiAgICAgICAgICAgIGlmIChyZXN1bHQuaXNTdWNjZXNzKSB7CiAgICAgICAgICAgICAgICBfc3VjY2Vzc01lc3NhZ2UudmFsdWUgPSBhcHBDb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jYXRlZ29yeV9kZWxldGVkKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgcmVzdWx0LmV4Y2VwdGlvbk9yTnVsbCgpPy5sZXQgeyBleCAtPgogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKHRhZywgIkZhaWxlZCB0byBkZWxldGUgY2F0ZWdvcnk6ICRjYXRlZ29yeSIsIGV4KQogICAgICAgICAgICAgICAgfSA/OiBBcHBMb2dnZXIuZSh0YWcsICJGYWlsZWQgdG8gZGVsZXRlIGNhdGVnb3J5OiAkY2F0ZWdvcnkiKQogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGFwcENvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmNhdGVnb3J5X2RlbGV0ZV9mYWlsZWQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gY3JlYXRlQ2F0ZWdvcnkoY2F0ZWdvcnlOYW1lOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwgdGFyZ2V0ID0gYWN0aXZlUHJvbXB0LnZhbHVlCgogICAgICAgIGlmICghcmVwb3NpdG9yeS5pc1ZhbGlkQ2F0ZWdvcnlOYW1lKGNhdGVnb3J5TmFtZSkpIHsKICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGFwcENvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmludmFsaWRfY2F0ZWdvcnlfbmFtZSkKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICBpZiAocmVwb3NpdG9yeS5jYXRlZ29yeUV4aXN0cyh0YXJnZXQsIGNhdGVnb3J5TmFtZSkpIHsKICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGFwcENvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmNhdGVnb3J5X2FscmVhZHlfZXhpc3RzKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CgogICAgICAgIHJlcG9zaXRvcnkuYWRkQ2F0ZWdvcnkodGFyZ2V0LCBjYXRlZ29yeU5hbWUpCiAgICAgICAgX3NlbGVjdGVkQ2F0ZWdvcnkudmFsdWUgPSBjYXRlZ29yeU5hbWUKICAgICAgICBfc3VjY2Vzc01lc3NhZ2UudmFsdWUgPSBhcHBDb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jYXRlZ29yeV9jcmVhdGVkKQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgZnVuIGdldEVtb2ppVXJpKGVtb2ppOiBDdXN0b21FbW9qaSk6IFVyaSB7CiAgICAgICAgcmV0dXJuIHJlcG9zaXRvcnkuZ2V0RW1vamlVcmkoYWN0aXZlUHJvbXB0LnZhbHVlLCBlbW9qaSkKICAgIH0KCiAgICBmdW4gaXNDdXN0b21DYXRlZ29yeShfY2F0ZWdvcnk6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgZnVuIGNsZWFyRXJyb3JNZXNzYWdlKCkgewogICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBudWxsCiAgICB9CgogICAgZnVuIGNsZWFyU3VjY2Vzc01lc3NhZ2UoKSB7CiAgICAgICAgX3N1Y2Nlc3NNZXNzYWdlLnZhbHVlID0gbnVsbAogICAgfQoKICAgIGZ1biByZXNldFRvRGVmYXVsdCgpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBfaXNMb2FkaW5nLnZhbHVlID0gdHJ1ZQogICAgICAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gbnVsbAogICAgICAgICAgICBfc3VjY2Vzc01lc3NhZ2UudmFsdWUgPSBudWxsCgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgcmVwb3NpdG9yeS5yZXNldFRvRGVmYXVsdChhY3RpdmVQcm9tcHQudmFsdWUpCiAgICAgICAgICAgICAgICBfaXNMb2FkaW5nLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgICAgIF9zdWNjZXNzTWVzc2FnZS52YWx1ZSA9IGFwcENvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmVtb2ppX3Jlc2V0X3N1Y2Nlc3MpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSh0YWcsICJGYWlsZWQgdG8gcmVzZXQgZW1vamlzIiwgZSkKICAgICAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBhcHBDb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5lbW9qaV9yZXNldF9mYWlsZWQsIGUubWVzc2FnZSA/OiAiVW5rbm93biBlcnJvciIpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.settings.viewmodels
+
+import android.content.Context
+import android.net.Uri
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.ActivePrompt
+import com.bslsjdk.operit.data.model.CustomEmoji
+import com.bslsjdk.operit.data.preferences.ActivePromptManager
+import com.bslsjdk.operit.data.preferences.CharacterCardManager
+import com.bslsjdk.operit.data.preferences.CharacterGroupCardManager
+import com.bslsjdk.operit.data.preferences.CustomEmojiPreferences
+import com.bslsjdk.operit.data.repository.CustomEmojiRepository
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.emitAll
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+
+/**
+ * 自定义表情管理 ViewModel
+ *
+ * 管理当前活跃角色目标的自定义表情 UI 状态和业务逻辑。
+ */
+class CustomEmojiViewModel(context: Context) : ViewModel() {
+
+    private val repository = CustomEmojiRepository.getInstance(context)
+    private val activePromptManager = ActivePromptManager.getInstance(context)
+    private val characterCardManager = CharacterCardManager.getInstance(context)
+    private val characterGroupCardManager = CharacterGroupCardManager.getInstance(context)
+    private val appContext = context.applicationContext
+    private val tag = "CustomEmojiViewModel"
+
+    val activePrompt: StateFlow<ActivePrompt> = activePromptManager.activePromptFlow
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000),
+            initialValue = ActivePrompt.CharacterCard(CharacterCardManager.DEFAULT_CHARACTER_CARD_ID)
+        )
+
+    val activeTargetName: StateFlow<String> = activePrompt
+        .flatMapLatest { prompt ->
+            when (prompt) {
+                is ActivePrompt.CharacterCard -> {
+                    characterCardManager.getCharacterCardFlow(prompt.id).map { it?.name.orEmpty() }
+                }
+                is ActivePrompt.CharacterGroup -> {
+                    characterGroupCardManager.getCharacterGroupCardFlow(prompt.id).map { it?.name.orEmpty() }
+                }
+            }
+        }
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000),
+            initialValue = ""
+        )
+
+    private val _selectedCategory = MutableStateFlow(CustomEmojiPreferences.BUILTIN_EMOTIONS.first())
+    val selectedCategory: StateFlow<String> = _selectedCategory.asStateFlow()
+
+    val categories: StateFlow<List<String>> = activePrompt
+        .flatMapLatest { prompt ->
+            flow {
+                repository.initializeBuiltinEmojis(prompt)
+                emitAll(repository.getAllCategories(prompt))
+            }
+        }
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000),
+            initialValue = emptyList()
+        )
+
+    @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
+    val emojisInCategory: StateFlow<List<CustomEmoji>> = combine(activePrompt, _selectedCategory) { prompt, category ->
+        prompt to category
+    }.flatMapLatest { (prompt, category) ->
+        repository.getEmojisForCategory(prompt, category)
+    }.stateIn(
+        scope = viewModelScope,
+        started = SharingStarted.WhileSubscribed(5000),
+        initialValue = emptyList()
+    )
+
+    private val _isLoading = MutableStateFlow(false)
+    val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
+
+    private val _errorMessage = MutableStateFlow<String?>(null)
+    val errorMessage: StateFlow<String?> = _errorMessage.asStateFlow()
+
+    private val _successMessage = MutableStateFlow<String?>(null)
+    val successMessage: StateFlow<String?> = _successMessage.asStateFlow()
+
+    init {
+        viewModelScope.launch {
+            categories.collect { currentCategories ->
+                val fallbackCategory = currentCategories.firstOrNull()
+                if (!fallbackCategory.isNullOrBlank() && _selectedCategory.value !in currentCategories) {
+                    _selectedCategory.value = fallbackCategory
+                }
+            }
+        }
+    }
+
+    fun selectCategory(category: String) {
+        _selectedCategory.value = category
+    }
+
+    fun addEmojis(category: String, uris: List<Uri>) {
+        viewModelScope.launch {
+            _isLoading.value = true
+            _errorMessage.value = null
+            _successMessage.value = null
+
+            var successCount = 0
+            var failCount = 0
+            val target = activePrompt.value
+
+            uris.forEach { uri ->
+                val result = repository.addCustomEmoji(target, category, uri)
+                if (result.isSuccess) {
+                    successCount++
+                } else {
+                    failCount++
+                    result.exceptionOrNull()?.let { ex ->
+                        AppLogger.e(tag, "Failed to add emoji from URI: $uri", ex)
+                    } ?: AppLogger.e(tag, "Failed to add emoji from URI: $uri")
+                }
+            }
+
+            _isLoading.value = false
+
+            if (successCount > 0) {
+                _successMessage.value = if (failCount > 0) {
+                    appContext.getString(R.string.emoji_added_partial, successCount, failCount)
+                } else {
+                    appContext.getString(R.string.emoji_added_success, successCount)
+                }
+            }
+            if (failCount > 0 && successCount == 0) {
+                _errorMessage.value = appContext.getString(R.string.emoji_add_failed)
+            }
+        }
+    }
+
+    fun deleteEmoji(emojiId: String) {
+        viewModelScope.launch {
+            _isLoading.value = true
+            _errorMessage.value = null
+            _successMessage.value = null
+
+            val result = repository.deleteCustomEmoji(activePrompt.value, emojiId)
+            _isLoading.value = false
+
+            if (result.isSuccess) {
+                _successMessage.value = appContext.getString(R.string.emoji_deleted_success)
+            } else {
+                result.exceptionOrNull()?.let { ex ->
+                    AppLogger.e(tag, "Failed to delete emoji: $emojiId", ex)
+                } ?: AppLogger.e(tag, "Failed to delete emoji: $emojiId")
+                _errorMessage.value = appContext.getString(R.string.emoji_delete_failed)
+            }
+        }
+    }
+
+    fun deleteCategory(category: String) {
+        viewModelScope.launch {
+            _isLoading.value = true
+            _errorMessage.value = null
+            _successMessage.value = null
+
+            val result = repository.deleteCategory(activePrompt.value, category)
+            _isLoading.value = false
+
+            if (result.isSuccess) {
+                _successMessage.value = appContext.getString(R.string.category_deleted)
+            } else {
+                result.exceptionOrNull()?.let { ex ->
+                    AppLogger.e(tag, "Failed to delete category: $category", ex)
+                } ?: AppLogger.e(tag, "Failed to delete category: $category")
+                _errorMessage.value = appContext.getString(R.string.category_delete_failed)
+            }
+        }
+    }
+
+    suspend fun createCategory(categoryName: String): Boolean {
+        val target = activePrompt.value
+
+        if (!repository.isValidCategoryName(categoryName)) {
+            _errorMessage.value = appContext.getString(R.string.invalid_category_name)
+            return false
+        }
+
+        if (repository.categoryExists(target, categoryName)) {
+            _errorMessage.value = appContext.getString(R.string.category_already_exists)
+            return false
+        }
+
+        repository.addCategory(target, categoryName)
+        _selectedCategory.value = categoryName
+        _successMessage.value = appContext.getString(R.string.category_created)
+        return true
+    }
+
+    fun getEmojiUri(emoji: CustomEmoji): Uri {
+        return repository.getEmojiUri(activePrompt.value, emoji)
+    }
+
+    fun isCustomCategory(_category: String): Boolean {
+        return true
+    }
+
+    fun clearErrorMessage() {
+        _errorMessage.value = null
+    }
+
+    fun clearSuccessMessage() {
+        _successMessage.value = null
+    }
+
+    fun resetToDefault() {
+        viewModelScope.launch {
+            _isLoading.value = true
+            _errorMessage.value = null
+            _successMessage.value = null
+
+            try {
+                repository.resetToDefault(activePrompt.value)
+                _isLoading.value = false
+                _successMessage.value = appContext.getString(R.string.emoji_reset_success)
+            } catch (e: Exception) {
+                _isLoading.value = false
+                AppLogger.e(tag, "Failed to reset emojis", e)
+                _errorMessage.value = appContext.getString(R.string.emoji_reset_failed, e.message ?: "Unknown error")
+            }
+        }
+    }
+}

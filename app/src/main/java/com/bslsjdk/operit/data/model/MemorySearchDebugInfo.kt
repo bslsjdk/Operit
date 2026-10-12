@@ -1,1 +1,38 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKZGF0YSBjbGFzcyBNZW1vcnlTZWFyY2hEZWJ1Z0luZm8oCiAgICB2YWwgcXVlcnk6IFN0cmluZywKICAgIHZhbCBrZXl3b3JkczogTGlzdDxTdHJpbmc+LAogICAgdmFsIGxleGljYWxUb2tlbnM6IExpc3Q8U3RyaW5nPiwKICAgIHZhbCBzY29yZU1vZGU6IE1lbW9yeVNjb3JlTW9kZSwKICAgIHZhbCByZWxldmFuY2VUaHJlc2hvbGQ6IERvdWJsZSwKICAgIHZhbCBlZmZlY3RpdmVLZXl3b3JkV2VpZ2h0OiBEb3VibGUsCiAgICB2YWwgZWZmZWN0aXZlVGFnV2VpZ2h0OiBEb3VibGUsCiAgICB2YWwgZWZmZWN0aXZlU2VtYW50aWNXZWlnaHQ6IEZsb2F0LAogICAgdmFsIHNlbWFudGljS2V5d29yZE5vcm1GYWN0b3I6IERvdWJsZSwKICAgIHZhbCBlZmZlY3RpdmVFZGdlV2VpZ2h0OiBEb3VibGUsCiAgICB2YWwgbWVtb3JpZXNJblNjb3BlQ291bnQ6IEludCwKICAgIHZhbCBrZXl3b3JkTWF0Y2hlc0NvdW50OiBJbnQsCiAgICB2YWwgdGFnTWF0Y2hlc0NvdW50OiBJbnQsCiAgICB2YWwgcmV2ZXJzZUNvbnRhaW5tZW50TWF0Y2hlc0NvdW50OiBJbnQsCiAgICB2YWwgc2VtYW50aWNNYXRjaGVzQ291bnQ6IEludCwKICAgIHZhbCBncmFwaEVkZ2VzVHJhdmVyc2VkOiBJbnQsCiAgICB2YWwgc2NvcmVkQ291bnQ6IEludCwKICAgIHZhbCBwYXNzZWRUaHJlc2hvbGRDb3VudDogSW50LAogICAgdmFsIGNhbmRpZGF0ZXM6IExpc3Q8TWVtb3J5U2VhcmNoRGVidWdDYW5kaWRhdGU+LAogICAgdmFsIGZpbmFsUmVzdWx0SWRzOiBMaXN0PExvbmc+CikKCmRhdGEgY2xhc3MgTWVtb3J5U2VhcmNoRGVidWdDYW5kaWRhdGUoCiAgICB2YWwgbWVtb3J5SWQ6IExvbmcsCiAgICB2YWwgdGl0bGU6IFN0cmluZywKICAgIHZhbCBmb2xkZXJQYXRoOiBTdHJpbmc/LAogICAgdmFsIG1hdGNoZWRLZXl3b3JkVG9rZW5Db3VudDogSW50LAogICAgdmFsIGtleXdvcmRTY29yZTogRG91YmxlLAogICAgdmFsIHRhZ1Njb3JlOiBEb3VibGUsCiAgICB2YWwgcmV2ZXJzZUNvbnRhaW5tZW50U2NvcmU6IERvdWJsZSwKICAgIHZhbCBzZW1hbnRpY1Njb3JlOiBEb3VibGUsCiAgICB2YWwgZWRnZVNjb3JlOiBEb3VibGUsCiAgICB2YWwgdG90YWxTY29yZTogRG91YmxlLAogICAgdmFsIHBhc3NlZFRocmVzaG9sZDogQm9vbGVhbgopCg==
+package com.bslsjdk.operit.data.model
+
+data class MemorySearchDebugInfo(
+    val query: String,
+    val keywords: List<String>,
+    val lexicalTokens: List<String>,
+    val scoreMode: MemoryScoreMode,
+    val relevanceThreshold: Double,
+    val effectiveKeywordWeight: Double,
+    val effectiveTagWeight: Double,
+    val effectiveSemanticWeight: Float,
+    val semanticKeywordNormFactor: Double,
+    val effectiveEdgeWeight: Double,
+    val memoriesInScopeCount: Int,
+    val keywordMatchesCount: Int,
+    val tagMatchesCount: Int,
+    val reverseContainmentMatchesCount: Int,
+    val semanticMatchesCount: Int,
+    val graphEdgesTraversed: Int,
+    val scoredCount: Int,
+    val passedThresholdCount: Int,
+    val candidates: List<MemorySearchDebugCandidate>,
+    val finalResultIds: List<Long>
+)
+
+data class MemorySearchDebugCandidate(
+    val memoryId: Long,
+    val title: String,
+    val folderPath: String?,
+    val matchedKeywordTokenCount: Int,
+    val keywordScore: Double,
+    val tagScore: Double,
+    val reverseContainmentScore: Double,
+    val semanticScore: Double,
+    val edgeScore: Double,
+    val totalScore: Double,
+    val passedThreshold: Boolean
+)

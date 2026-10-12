@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCi8qKgogKiDlrprkuYnlt6XlhbfmnYPpmZDnmoTkupTkuKrlsYLnuqcKICogLSBTVEFOREFSRDog5Z+656GA5p2D6ZmQ77yM5LiN6ZyA6KaB54m55q6K5p2D6ZmQCiAqIC0gQUNDRVNTSUJJTElUWTog6ZyA6KaB5peg6Zqc56KN5pyN5Yqh55qE5p2D6ZmQCiAqIC0gUk9PVDog6ZyA6KaBcm9vdOadg+mZkAogKiAtIEFETUlOOiDpnIDopoHorr7lpIfnrqHnkIblkZjmnYPpmZAKICogLSBERUJVR0dFUjog6LCD6K+V5ZKM5byA5Y+R55So6YCU55qE5p2D6ZmQCiAqLwplbnVtIGNsYXNzIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwgewogICAgU1RBTkRBUkQsICAgICAgLy8g5pmu6YCa5bqU55So5p2D6ZmQCiAgICBBQ0NFU1NJQklMSVRZLCAvLyDml6Dpmpznoo3mnI3liqHmnYPpmZAKICAgIERFQlVHR0VSLCAgICAgIC8vIOiwg+ivleadg+mZkAogICAgQURNSU4sICAgICAgICAgLy8g566h55CG5ZGY5p2D6ZmQICAKICAgIFJPT1Q7ICAgICAgICAgIC8vIFJvb3TmnYPpmZAKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICAvKioKICAgICAgICAgKiDku47lrZfnrKbkuLLovazmjaLkuLrmnYPpmZDnrYnnuqcKICAgICAgICAgKiBAcGFyYW0gdmFsdWUg5p2D6ZmQ562J57qn5a2X56ym5LiyCiAgICAgICAgICogQHJldHVybiDlr7nlupTnmoTmnYPpmZDnrYnnuqfvvIzlpoLmnpzml6Dms5Xor4bliKvliJnpu5jorqTkuLpTVEFOREFSRAogICAgICAgICAqLwogICAgICAgIGZ1biBmcm9tU3RyaW5nKHZhbHVlOiBTdHJpbmc/KTogQW5kcm9pZFBlcm1pc3Npb25MZXZlbCB7CiAgICAgICAgICAgIHJldHVybiB3aGVuKHZhbHVlPy51cHBlcmNhc2UoKSkgewogICAgICAgICAgICAgICAgIlNUQU5EQVJEIiAtPiBTVEFOREFSRAogICAgICAgICAgICAgICAgIkFDQ0VTU0lCSUxJVFkiIC0+IEFDQ0VTU0lCSUxJVFkKICAgICAgICAgICAgICAgICJERUJVR0dFUiIgLT4gREVCVUdHRVIKICAgICAgICAgICAgICAgICJBRE1JTiIgLT4gQURNSU4KICAgICAgICAgICAgICAgICJST09UIiAtPiBST09UCiAgICAgICAgICAgICAgICBlbHNlIC0+IFNUQU5EQVJEIC8vIOm7mOiupOS4uuacgOS9juadg+mZkAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9IA==
+package com.bslsjdk.operit.core.tools.system
+
+/**
+ * 定义工具权限的五个层级
+ * - STANDARD: 基础权限，不需要特殊权限
+ * - ACCESSIBILITY: 需要无障碍服务的权限
+ * - ROOT: 需要root权限
+ * - ADMIN: 需要设备管理员权限
+ * - DEBUGGER: 调试和开发用途的权限
+ */
+enum class AndroidPermissionLevel {
+    STANDARD,      // 普通应用权限
+    ACCESSIBILITY, // 无障碍服务权限
+    DEBUGGER,      // 调试权限
+    ADMIN,         // 管理员权限  
+    ROOT;          // Root权限
+
+    companion object {
+        /**
+         * 从字符串转换为权限等级
+         * @param value 权限等级字符串
+         * @return 对应的权限等级，如果无法识别则默认为STANDARD
+         */
+        fun fromString(value: String?): AndroidPermissionLevel {
+            return when(value?.uppercase()) {
+                "STANDARD" -> STANDARD
+                "ACCESSIBILITY" -> ACCESSIBILITY
+                "DEBUGGER" -> DEBUGGER
+                "ADMIN" -> ADMIN
+                "ROOT" -> ROOT
+                else -> STANDARD // 默认为最低权限
+            }
+        }
+    }
+} 

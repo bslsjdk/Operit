@@ -1,1 +1,59 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGphdmEuaW8uQnVmZmVyZWRSZWFkZXIKaW1wb3J0IGphdmEuaW8uSW5wdXRTdHJlYW1SZWFkZXIKCm9iamVjdCBQb3J0UHJvY2Vzc0tpbGxlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiUG9ydFByb2Nlc3NLaWxsZXIiCgogICAgZnVuIGtpbGxMaXN0ZW5lcnMocG9ydDogSW50KTogTGlzdDxJbnQ+IHsKICAgICAgICBpZiAocG9ydCA8PSAwKSByZXR1cm4gZW1wdHlMaXN0KCkKCiAgICAgICAgdmFsIGNvbW1hbmQgPQogICAgICAgICAgICAiIiIKICAgICAgICAgICAgUE9SVD0kcG9ydAogICAgICAgICAgICBwaWRzPSIiCiAgICAgICAgICAgIGlmIGNvbW1hbmQgLXYgc3MgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICAgICAgICAgICAgcGlkcz0keyckJ30oc3MgLWx0bnBIICJzcG9ydCA9IDokcG9ydCIgMj4vZGV2L251bGwgfCBzZWQgLW4gJ3MvLipwaWQ9XChbMC05XVswLTldKlwpLiovXDEvcCcgfCBzb3J0IC11KQogICAgICAgICAgICBlbGlmIGNvbW1hbmQgLXYgbmV0c3RhdCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgICAgICAgICAgICBwaWRzPSR7JyQnfShuZXRzdGF0IC1sdG5wIDI+L2Rldi9udWxsIHwgYXdrICckeyckJ300IH4gLzokcG9ydCQvIHtwcmludCAkeyckJ303fScgfCBjdXQgLWQvIC1mMSB8IGdyZXAgJ15bMC05XVswLTldKiQnIHwgc29ydCAtdSkKICAgICAgICAgICAgZWxpZiBjb21tYW5kIC12IGxzb2YgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICAgICAgICAgICAgcGlkcz0keyckJ30obHNvZiAtblAgLWlUQ1A6JHBvcnQgLXNUQ1A6TElTVEVOIC10IDI+L2Rldi9udWxsIHwgc29ydCAtdSkKICAgICAgICAgICAgZmkKICAgICAgICAgICAgaWYgWyAtbiAiJHsnJCd9cGlkcyIgXTsgdGhlbgogICAgICAgICAgICAgIGZvciBwaWQgaW4gJHsnJCd9cGlkczsgZG8KICAgICAgICAgICAgICAgIGtpbGwgLTkgIiR7JyQnfXBpZCIgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgICAgICAgICAgICAgZWNobyAiJHsnJCd9cGlkIgogICAgICAgICAgICAgIGRvbmUKICAgICAgICAgICAgZmkKICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICByZXR1cm4gcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICB2YWwgcHJvY2VzcyA9IFJ1bnRpbWUuZ2V0UnVudGltZSgpLmV4ZWMoYXJyYXlPZigic2giLCAiLWMiLCBjb21tYW5kKSkKICAgICAgICAgICAgdmFsIG91dHB1dCA9CiAgICAgICAgICAgICAgICBCdWZmZXJlZFJlYWRlcihJbnB1dFN0cmVhbVJlYWRlcihwcm9jZXNzLmlucHV0U3RyZWFtKSkudXNlIHsgcmVhZGVyIC0+CiAgICAgICAgICAgICAgICAgICAgcmVhZGVyLnJlYWRMaW5lcygpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBlcnJvck91dHB1dCA9CiAgICAgICAgICAgICAgICBCdWZmZXJlZFJlYWRlcihJbnB1dFN0cmVhbVJlYWRlcihwcm9jZXNzLmVycm9yU3RyZWFtKSkudXNlIHsgcmVhZGVyIC0+CiAgICAgICAgICAgICAgICAgICAgcmVhZGVyLnJlYWRUZXh0KCkudHJpbSgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBleGl0Q29kZSA9IHByb2Nlc3Mud2FpdEZvcigpCiAgICAgICAgICAgIHZhbCBraWxsZWRQaWRzID0gb3V0cHV0Lm1hcE5vdE51bGwgeyBpdC50cmltKCkudG9JbnRPck51bGwoKSB9LmRpc3RpbmN0KCkKCiAgICAgICAgICAgIGlmIChraWxsZWRQaWRzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiS2lsbGVkIGxpc3RlbmVyIHByb2Nlc3NlcyBvbiBwb3J0ICRwb3J0OiAka2lsbGVkUGlkcyIpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJObyBsaXN0ZW5lciBwcm9jZXNzIGZvdW5kIG9uIHBvcnQgJHBvcnQiKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoZXhpdENvZGUgIT0gMCAmJiBlcnJvck91dHB1dC5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIlBvcnQgY2xlYW51cCBjb21tYW5kIGV4aXRlZCB3aXRoIGNvZGUgJGV4aXRDb2RlIG9uIHBvcnQgJHBvcnQ6ICRlcnJvck91dHB1dCIpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGtpbGxlZFBpZHMKICAgICAgICB9Lm9uRmFpbHVyZSB7IGVycm9yIC0+CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBjbGVhbiBsaXN0ZW5lciBwcm9jZXNzZXMgb24gcG9ydCAkcG9ydCIsIGVycm9yKQogICAgICAgIH0uZ2V0T3JEZWZhdWx0KGVtcHR5TGlzdCgpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import java.io.BufferedReader
+import java.io.InputStreamReader
+
+object PortProcessKiller {
+    private const val TAG = "PortProcessKiller"
+
+    fun killListeners(port: Int): List<Int> {
+        if (port <= 0) return emptyList()
+
+        val command =
+            """
+            PORT=$port
+            pids=""
+            if command -v ss >/dev/null 2>&1; then
+              pids=${'$'}(ss -ltnpH "sport = :$port" 2>/dev/null | sed -n 's/.*pid=\([0-9][0-9]*\).*/\1/p' | sort -u)
+            elif command -v netstat >/dev/null 2>&1; then
+              pids=${'$'}(netstat -ltnp 2>/dev/null | awk '${'$'}4 ~ /:$port$/ {print ${'$'}7}' | cut -d/ -f1 | grep '^[0-9][0-9]*$' | sort -u)
+            elif command -v lsof >/dev/null 2>&1; then
+              pids=${'$'}(lsof -nP -iTCP:$port -sTCP:LISTEN -t 2>/dev/null | sort -u)
+            fi
+            if [ -n "${'$'}pids" ]; then
+              for pid in ${'$'}pids; do
+                kill -9 "${'$'}pid" 2>/dev/null || true
+                echo "${'$'}pid"
+              done
+            fi
+            """.trimIndent()
+
+        return runCatching {
+            val process = Runtime.getRuntime().exec(arrayOf("sh", "-c", command))
+            val output =
+                BufferedReader(InputStreamReader(process.inputStream)).use { reader ->
+                    reader.readLines()
+                }
+            val errorOutput =
+                BufferedReader(InputStreamReader(process.errorStream)).use { reader ->
+                    reader.readText().trim()
+                }
+            val exitCode = process.waitFor()
+            val killedPids = output.mapNotNull { it.trim().toIntOrNull() }.distinct()
+
+            if (killedPids.isNotEmpty()) {
+                AppLogger.w(TAG, "Killed listener processes on port $port: $killedPids")
+            } else {
+                AppLogger.d(TAG, "No listener process found on port $port")
+            }
+
+            if (exitCode != 0 && errorOutput.isNotBlank()) {
+                AppLogger.w(TAG, "Port cleanup command exited with code $exitCode on port $port: $errorOutput")
+            }
+
+            killedPids
+        }.onFailure { error ->
+            AppLogger.e(TAG, "Failed to clean listener processes on port $port", error)
+        }.getOrDefault(emptyList())
+    }
+}

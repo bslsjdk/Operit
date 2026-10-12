@@ -1,1 +1,98 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmNvbXBvc2Vkc2wKCmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuZmFpbAppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENvbXBvc2VEc2xGaWxlUGlja2VyUmVxdWVzdFRlc3QgewogICAgQFRlc3QKICAgIGZ1biBgZGVmYXVsdHMgdG8gZG9jdW1lbnQgcGlja2VyIHdpdGggcGVyc2lzdGVkIGFjY2Vzc2AoKSB7CiAgICAgICAgdmFsIHJlcXVlc3QgPSBwYXJzZUNvbXBvc2VEc2xGaWxlUGlja2VyUmVxdWVzdChwYXlsb2FkKCkpCgogICAgICAgIGFzc2VydEVxdWFscyhDb21wb3NlRHNsRmlsZVBpY2tlck1vZGUuRE9DVU1FTlQsIHJlcXVlc3QucGlja2VyTW9kZSkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCIqLyoiKSwgcmVxdWVzdC5taW1lVHlwZXMpCiAgICAgICAgYXNzZXJ0RmFsc2UocmVxdWVzdC5hbGxvd011bHRpcGxlKQogICAgICAgIGFzc2VydFRydWUocmVxdWVzdC5wZXJzaXN0UGVybWlzc2lvbikKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBhY2NlcHRzIGRvY3VtZW50IE1JTUUgZmlsdGVycyBhbmQgYWxsIHN1cHBvcnRlZCBwaWNrZXIgbW9kZXNgKCkgewogICAgICAgIHZhbCBkb2N1bWVudFJlcXVlc3QgPQogICAgICAgICAgICBwYXJzZUNvbXBvc2VEc2xGaWxlUGlja2VyUmVxdWVzdCgKICAgICAgICAgICAgICAgIHBheWxvYWQoCiAgICAgICAgICAgICAgICAgICAgSlNPTk9iamVjdCgpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wdXQoInBpY2tlciIsICJkb2N1bWVudCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wdXQoIm1pbWVUeXBlcyIsIEpTT05BcnJheSgpLnB1dCgiYXBwbGljYXRpb24vanNvbiIpLnB1dCgidGV4dC9wbGFpbiIpKQogICAgICAgICAgICAgICAgICAgICAgICAucHV0KCJhbGxvd011bHRpcGxlIiwgdHJ1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgLnB1dCgicGVyc2lzdFBlcm1pc3Npb24iLCBmYWxzZSkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJhcHBsaWNhdGlvbi9qc29uIiwgInRleHQvcGxhaW4iKSwgZG9jdW1lbnRSZXF1ZXN0Lm1pbWVUeXBlcykKICAgICAgICBhc3NlcnRUcnVlKGRvY3VtZW50UmVxdWVzdC5hbGxvd011bHRpcGxlKQogICAgICAgIGFzc2VydEZhbHNlKGRvY3VtZW50UmVxdWVzdC5wZXJzaXN0UGVybWlzc2lvbikKCiAgICAgICAgbGlzdE9mKAogICAgICAgICAgICBDb21wb3NlRHNsRmlsZVBpY2tlck1vZGUuSU1BR0UsCiAgICAgICAgICAgIENvbXBvc2VEc2xGaWxlUGlja2VyTW9kZS5WSURFTywKICAgICAgICAgICAgQ29tcG9zZURzbEZpbGVQaWNrZXJNb2RlLk1FRElBLAogICAgICAgICAgICBDb21wb3NlRHNsRmlsZVBpY2tlck1vZGUuRElSRUNUT1JZLAogICAgICAgICAgICBDb21wb3NlRHNsRmlsZVBpY2tlck1vZGUuQ0FNRVJBCiAgICAgICAgKS5mb3JFYWNoIHsgbW9kZSAtPgogICAgICAgICAgICB2YWwgcmVxdWVzdCA9CiAgICAgICAgICAgICAgICBwYXJzZUNvbXBvc2VEc2xGaWxlUGlja2VyUmVxdWVzdCgKICAgICAgICAgICAgICAgICAgICBwYXlsb2FkKEpTT05PYmplY3QoKS5wdXQoInBpY2tlciIsIG1vZGUud2lyZU5hbWUpKQogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgYXNzZXJ0RXF1YWxzKG1vZGUsIHJlcXVlc3QucGlja2VyTW9kZSkKICAgICAgICAgICAgYXNzZXJ0VHJ1ZShyZXF1ZXN0Lm1pbWVUeXBlcy5pc0VtcHR5KCkpCiAgICAgICAgfQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHJlamVjdHMgcmVtb3ZlZCBwaG90byBtb2RlYCgpIHsKICAgICAgICBhc3NlcnRJbnZhbGlkKHBheWxvYWQoSlNPTk9iamVjdCgpLnB1dCgicGlja2VyIiwgInBob3RvIikpLCAidW5zdXBwb3J0ZWQgZmlsZSBwaWNrZXIgbW9kZSIpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcmVqZWN0cyBvcHRpb25zIHRoYXQgZG8gbm90IGFwcGx5IHRvIHRoZSBzZWxlY3RlZCBzb3VyY2VgKCkgewogICAgICAgIGFzc2VydEludmFsaWQoCiAgICAgICAgICAgIHBheWxvYWQoCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KCkKICAgICAgICAgICAgICAgICAgICAucHV0KCJwaWNrZXIiLCAiaW1hZ2UiKQogICAgICAgICAgICAgICAgICAgIC5wdXQoIm1pbWVUeXBlcyIsIEpTT05BcnJheSgpLnB1dCgiaW1hZ2UvKiIpKQogICAgICAgICAgICApLAogICAgICAgICAgICAiZG9lcyBub3Qgc3VwcG9ydCBtaW1lVHlwZXMiCiAgICAgICAgKQogICAgICAgIGFzc2VydEludmFsaWQoCiAgICAgICAgICAgIHBheWxvYWQoSlNPTk9iamVjdCgpLnB1dCgicGlja2VyIiwgImRpcmVjdG9yeSIpLnB1dCgiYWxsb3dNdWx0aXBsZSIsIHRydWUpKSwKICAgICAgICAgICAgImRvZXMgbm90IHN1cHBvcnQgYWxsb3dNdWx0aXBsZSIKICAgICAgICApCiAgICAgICAgYXNzZXJ0SW52YWxpZCgKICAgICAgICAgICAgcGF5bG9hZChKU09OT2JqZWN0KCkucHV0KCJwaWNrZXIiLCAiY2FtZXJhIikucHV0KCJwZXJzaXN0UGVybWlzc2lvbiIsIGZhbHNlKSksCiAgICAgICAgICAgICJkb2VzIG5vdCBzdXBwb3J0IHBlcnNpc3RQZXJtaXNzaW9uIgogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXlsb2FkKG9wdGlvbnM6IEpTT05PYmplY3Q/ID0gbnVsbCk6IEpTT05PYmplY3QgPQogICAgICAgIEpTT05PYmplY3QoKQogICAgICAgICAgICAucHV0KCJleGVjdXRpb25Db250ZXh0S2V5IiwgInRlc3QtY29udGV4dCIpCiAgICAgICAgICAgIC5hcHBseSB7CiAgICAgICAgICAgICAgICBpZiAob3B0aW9ucyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgcHV0KCJvcHRpb25zIiwgb3B0aW9ucykKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgIHByaXZhdGUgZnVuIGFzc2VydEludmFsaWQocGF5bG9hZDogSlNPTk9iamVjdCwgZXhwZWN0ZWRNZXNzYWdlOiBTdHJpbmcpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBwYXJzZUNvbXBvc2VEc2xGaWxlUGlja2VyUmVxdWVzdChwYXlsb2FkKQogICAgICAgICAgICBmYWlsKCJFeHBlY3RlZCBpbnZhbGlkIGZpbGUgcGlja2VyIHJlcXVlc3QiKQogICAgICAgIH0gY2F0Y2ggKGVycm9yOiBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24pIHsKICAgICAgICAgICAgYXNzZXJ0VHJ1ZShlcnJvci5tZXNzYWdlLm9yRW1wdHkoKS5jb250YWlucyhleHBlY3RlZE1lc3NhZ2UpKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.common.composedsl
+
+import org.json.JSONArray
+import org.json.JSONObject
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Assert.fail
+import org.junit.Test
+
+class ComposeDslFilePickerRequestTest {
+    @Test
+    fun `defaults to document picker with persisted access`() {
+        val request = parseComposeDslFilePickerRequest(payload())
+
+        assertEquals(ComposeDslFilePickerMode.DOCUMENT, request.pickerMode)
+        assertEquals(listOf("*/*"), request.mimeTypes)
+        assertFalse(request.allowMultiple)
+        assertTrue(request.persistPermission)
+    }
+
+    @Test
+    fun `accepts document MIME filters and all supported picker modes`() {
+        val documentRequest =
+            parseComposeDslFilePickerRequest(
+                payload(
+                    JSONObject()
+                        .put("picker", "document")
+                        .put("mimeTypes", JSONArray().put("application/json").put("text/plain"))
+                        .put("allowMultiple", true)
+                        .put("persistPermission", false)
+                )
+            )
+
+        assertEquals(listOf("application/json", "text/plain"), documentRequest.mimeTypes)
+        assertTrue(documentRequest.allowMultiple)
+        assertFalse(documentRequest.persistPermission)
+
+        listOf(
+            ComposeDslFilePickerMode.IMAGE,
+            ComposeDslFilePickerMode.VIDEO,
+            ComposeDslFilePickerMode.MEDIA,
+            ComposeDslFilePickerMode.DIRECTORY,
+            ComposeDslFilePickerMode.CAMERA
+        ).forEach { mode ->
+            val request =
+                parseComposeDslFilePickerRequest(
+                    payload(JSONObject().put("picker", mode.wireName))
+                )
+
+            assertEquals(mode, request.pickerMode)
+            assertTrue(request.mimeTypes.isEmpty())
+        }
+    }
+
+    @Test
+    fun `rejects removed photo mode`() {
+        assertInvalid(payload(JSONObject().put("picker", "photo")), "unsupported file picker mode")
+    }
+
+    @Test
+    fun `rejects options that do not apply to the selected source`() {
+        assertInvalid(
+            payload(
+                JSONObject()
+                    .put("picker", "image")
+                    .put("mimeTypes", JSONArray().put("image/*"))
+            ),
+            "does not support mimeTypes"
+        )
+        assertInvalid(
+            payload(JSONObject().put("picker", "directory").put("allowMultiple", true)),
+            "does not support allowMultiple"
+        )
+        assertInvalid(
+            payload(JSONObject().put("picker", "camera").put("persistPermission", false)),
+            "does not support persistPermission"
+        )
+    }
+
+    private fun payload(options: JSONObject? = null): JSONObject =
+        JSONObject()
+            .put("executionContextKey", "test-context")
+            .apply {
+                if (options != null) {
+                    put("options", options)
+                }
+            }
+
+    private fun assertInvalid(payload: JSONObject, expectedMessage: String) {
+        try {
+            parseComposeDslFilePickerRequest(payload)
+            fail("Expected invalid file picker request")
+        } catch (error: IllegalArgumentException) {
+            assertTrue(error.message.orEmpty().contains(expectedMessage))
+        }
+    }
+}

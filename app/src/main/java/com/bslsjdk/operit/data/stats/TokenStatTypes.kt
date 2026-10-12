@@ -1,1 +1,4 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKLyoqIFByaWNlLXJlc29sdXRpb24gcHJvdmVuYW5jZSBrZXB0IGZvciBjYWxjdWxhdGlvbiB0ZXN0cyBhbmQgZGlhZ25vc3RpY3MuICovCmVudW0gY2xhc3MgUHJpY2luZ1NvdXJjZSB7IEJVSUxUX0lOLCBVU0VSLCBVTktOT1dOIH0K
+package com.bslsjdk.operit.data.stats
+
+/** Price-resolution provenance kept for calculation tests and diagnostics. */
+enum class PricingSource { BUILT_IN, USER, UNKNOWN }

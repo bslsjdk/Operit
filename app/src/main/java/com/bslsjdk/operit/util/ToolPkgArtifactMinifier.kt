@@ -1,1 +1,390 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5Ub29sUGtnQXJjaGl2ZVBhcnNlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuVG9vbFBrZ01hcmtldE9yaWdpbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuVG9vbFBrZ01hcmtldE9yaWdpbkNvZGVjCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0LlBVQkxJU0hfTE9HT19NQVhfQllURVMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5wYWNrYWdlcy5tYXJrZXQuVG9vbFBrZ0xvZ29Bc3NldAppbXBvcnQgamF2YS5pby5CeXRlQXJyYXlPdXRwdXRTdHJlYW0KaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5uaW8uY2hhcnNldC5TdGFuZGFyZENoYXJzZXRzCmltcG9ydCBqYXZhLnV0aWwuemlwLlppcEVudHJ5CmltcG9ydCBqYXZhLnV0aWwuemlwLlppcEZpbGUKaW1wb3J0IGphdmEudXRpbC56aXAuWmlwT3V0cHV0U3RyZWFtCmltcG9ydCBvcmcuaGpzb24uSnNvblZhbHVlCmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CgovKiogUHJvZHVjZXMgcHVibGlzaCBhcnRpZmFjdHMgd2l0aCBvcHRpb25hbCBBU1QgbWluaWZpY2F0aW9uIGFuZCBtYW5kYXRvcnkgbWFya2V0IHByb3ZlbmFuY2UuICovCm9iamVjdCBUb29sUGtnQXJ0aWZhY3RNaW5pZmllciB7CiAgICBmdW4gcmVhZFRvb2xQa2dMb2dvQXNzZXQoc291cmNlRmlsZTogRmlsZSk6IFRvb2xQa2dMb2dvQXNzZXQ/IHsKICAgICAgICB2YWwgbWFuaWZlc3RQcmV2aWV3ID0KICAgICAgICAgICAgVG9vbFBrZ0FyY2hpdmVQYXJzZXIucmVhZFRvb2xQa2dNYW5pZmVzdFByZXZpZXcgeyBzb3VyY2VGaWxlLmlucHV0U3RyZWFtKCkgfQogICAgICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJtYW5pZmVzdC5oanNvbiBvciBtYW5pZmVzdC5qc29uIG5vdCBmb3VuZCIpCiAgICAgICAgdmFsIGxvZ29LZXkgPSBtYW5pZmVzdFByZXZpZXcubWFuaWZlc3QubG9nbz8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIGlmIChsb2dvS2V5LmlzQmxhbmsoKSkgcmV0dXJuIG51bGwKCiAgICAgICAgdmFsIHJlc291cmNlID0KICAgICAgICAgICAgbWFuaWZlc3RQcmV2aWV3Lm1hbmlmZXN0LnJlc291cmNlcy5maXJzdE9yTnVsbCB7CiAgICAgICAgICAgICAgICBpdC5rZXkuZXF1YWxzKGxvZ29LZXksIGlnbm9yZUNhc2UgPSB0cnVlKQogICAgICAgICAgICB9ID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigibWFuaWZlc3QubG9nbyBtdXN0IHJlZmVyZW5jZSBhbiBleGlzdGluZyByZXNvdXJjZSBrZXk6ICRsb2dvS2V5IikKICAgICAgICBpZiAoVG9vbFBrZ0FyY2hpdmVQYXJzZXIuaXNEaXJlY3RvcnlSZXNvdXJjZU1pbWUocmVzb3VyY2UubWltZSkpIHsKICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJtYW5pZmVzdC5sb2dvIG11c3QgcmVmZXJlbmNlIGEgZmlsZSByZXNvdXJjZTogJGxvZ29LZXkiKQogICAgICAgIH0KCiAgICAgICAgdmFsIG1hbmlmZXN0QmFzZVBhdGggPSBtYW5pZmVzdFByZXZpZXcuZW50cnlOYW1lLnN1YnN0cmluZ0JlZm9yZUxhc3QoJy8nLCAiIikKICAgICAgICB2YWwgbm9ybWFsaXplZFBhdGggPQogICAgICAgICAgICBUb29sUGtnQXJjaGl2ZVBhcnNlci5yZXNvbHZlTWFuaWZlc3RSZWxhdGl2ZVJlc291cmNlUGF0aCgKICAgICAgICAgICAgICAgIG1hbmlmZXN0QmFzZVBhdGgsCiAgICAgICAgICAgICAgICByZXNvdXJjZS5wYXRoCiAgICAgICAgICAgICkgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJJbnZhbGlkIGxvZ28gcmVzb3VyY2UgcGF0aDogJHtyZXNvdXJjZS5wYXRofSIpCiAgICAgICAgdmFsIGZpbGVOYW1lID0gbm9ybWFsaXplZFBhdGguc3Vic3RyaW5nQWZ0ZXJMYXN0KCcvJykKICAgICAgICB2YWwgY29udGVudFR5cGUgPSBsb2dvQ29udGVudFR5cGUocmVzb3VyY2UubWltZSwgZmlsZU5hbWUpCgogICAgICAgIFppcEZpbGUoc291cmNlRmlsZSkudXNlIHsgYXJjaGl2ZSAtPgogICAgICAgICAgICB2YWwgZW50cnlJbmRleCA9IFRvb2xQa2dBcmNoaXZlUGFyc2VyLmJ1aWxkWmlwRW50cnlJbmRleChhcmNoaXZlKQogICAgICAgICAgICB2YWwgYnl0ZXMgPQogICAgICAgICAgICAgICAgVG9vbFBrZ0FyY2hpdmVQYXJzZXIucmVhZFppcEVudHJ5Qnl0ZXMoYXJjaGl2ZSwgZW50cnlJbmRleCwgbm9ybWFsaXplZFBhdGgpCiAgICAgICAgICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJDYW5ub3QgcmVhZCBsb2dvIHJlc291cmNlOiAke3Jlc291cmNlLnBhdGh9IikKICAgICAgICAgICAgcmVxdWlyZShieXRlcy5zaXplIDw9IFBVQkxJU0hfTE9HT19NQVhfQllURVMpIHsKICAgICAgICAgICAgICAgICJUb29sUGtnIGxvZ28gbXVzdCBiZSBhdCBtb3N0ICR7UFVCTElTSF9MT0dPX01BWF9CWVRFUyAvIDEwMjR9IEtpQiIKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gVG9vbFBrZ0xvZ29Bc3NldCgKICAgICAgICAgICAgICAgIGZpbGVOYW1lID0gZmlsZU5hbWUsCiAgICAgICAgICAgICAgICBjb250ZW50VHlwZSA9IGNvbnRlbnRUeXBlLAogICAgICAgICAgICAgICAgYnl0ZXMgPSBieXRlcwogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKCiAgICBpbnRlcm5hbCBmdW4gcHJvY2Vzc0FydGlmYWN0RmlsZSgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIHNvdXJjZUZpbGU6IEZpbGUsCiAgICAgICAgaXNUb29sUGtnOiBCb29sZWFuLAogICAgICAgIG1hcmtldE9yaWdpbjogVG9vbFBrZ01hcmtldE9yaWdpbiwKICAgICAgICBtaW5pZnk6IEJvb2xlYW4KICAgICk6IEJ5dGVBcnJheSB7CiAgICAgICAgcmV0dXJuIFRvb2xQa2dKc0FzdE1pbmlmaWVyKGNvbnRleHQpLnVzZSB7IG1pbmlmaWVyIC0+CiAgICAgICAgICAgIGlmIChpc1Rvb2xQa2cpIHsKICAgICAgICAgICAgICAgIHByb2Nlc3NUb29sUGtnQXJjaGl2ZShzb3VyY2VGaWxlLCBtaW5pZmllciwgbWFya2V0T3JpZ2luLCBtaW5pZnkpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBwcm9jZXNzU2NyaXB0RmlsZShzb3VyY2VGaWxlLCBtaW5pZmllciwgbWFya2V0T3JpZ2luLCBtaW5pZnkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcHJvY2Vzc1NjcmlwdEZpbGUoCiAgICAgICAgc291cmNlRmlsZTogRmlsZSwKICAgICAgICBtaW5pZmllcjogVG9vbFBrZ0pzQXN0TWluaWZpZXIsCiAgICAgICAgbWFya2V0T3JpZ2luOiBUb29sUGtnTWFya2V0T3JpZ2luLAogICAgICAgIG1pbmlmeTogQm9vbGVhbgogICAgKTogQnl0ZUFycmF5IHsKICAgICAgICB2YWwgc291cmNlID0gc291cmNlRmlsZS5yZWFkVGV4dChTdGFuZGFyZENoYXJzZXRzLlVURl84KQogICAgICAgIHZhbCBzb3VyY2VXaXRoT3JpZ2luID0gaW5qZWN0U2NyaXB0TWFya2V0T3JpZ2luSW50b01ldGFkYXRhKHNvdXJjZSwgbWFya2V0T3JpZ2luKQogICAgICAgIGlmICghbWluaWZ5KSB7CiAgICAgICAgICAgIHJldHVybiBzb3VyY2VXaXRoT3JpZ2luLnRvQnl0ZUFycmF5KFN0YW5kYXJkQ2hhcnNldHMuVVRGXzgpCiAgICAgICAgfQogICAgICAgIHJldHVybiBtaW5pZnlKYXZhU2NyaXB0Qnl0ZXMoCiAgICAgICAgICAgIHNvdXJjZVdpdGhPcmlnaW4udG9CeXRlQXJyYXkoU3RhbmRhcmRDaGFyc2V0cy5VVEZfOCksCiAgICAgICAgICAgIHNvdXJjZUZpbGUubmFtZSwKICAgICAgICAgICAgbWluaWZpZXIKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcHJvY2Vzc1Rvb2xQa2dBcmNoaXZlKAogICAgICAgIHNvdXJjZUZpbGU6IEZpbGUsCiAgICAgICAgbWluaWZpZXI6IFRvb2xQa2dKc0FzdE1pbmlmaWVyLAogICAgICAgIG1hcmtldE9yaWdpbjogVG9vbFBrZ01hcmtldE9yaWdpbiwKICAgICAgICBtaW5pZnk6IEJvb2xlYW4KICAgICk6IEJ5dGVBcnJheSB7CiAgICAgICAgdmFsIG1hbmlmZXN0UHJldmlldyA9CiAgICAgICAgICAgIFRvb2xQa2dBcmNoaXZlUGFyc2VyLnJlYWRUb29sUGtnTWFuaWZlc3RQcmV2aWV3IHsgc291cmNlRmlsZS5pbnB1dFN0cmVhbSgpIH0KICAgICAgICAgICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigibWFuaWZlc3QuaGpzb24gb3IgbWFuaWZlc3QuanNvbiBub3QgZm91bmQiKQogICAgICAgIHZhbCBtYW5pZmVzdEJhc2VQYXRoID0gbWFuaWZlc3RQcmV2aWV3LmVudHJ5TmFtZS5zdWJzdHJpbmdCZWZvcmVMYXN0KCcvJywgbWlzc2luZ0RlbGltaXRlclZhbHVlID0gIiIpCiAgICAgICAgdmFsIG1hbmlmZXN0RW50cnlOYW1lID0KICAgICAgICAgICAgVG9vbFBrZ0FyY2hpdmVQYXJzZXIubm9ybWFsaXplWmlwRW50cnlQYXRoKG1hbmlmZXN0UHJldmlldy5lbnRyeU5hbWUpCiAgICAgICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkludmFsaWQgdG9vbHBrZyBtYW5pZmVzdCBlbnRyeSBuYW1lIikKICAgICAgICB2YWwgbWFpbkVudHJ5TmFtZSA9CiAgICAgICAgICAgIFRvb2xQa2dBcmNoaXZlUGFyc2VyLnJlc29sdmVNYW5pZmVzdFJlbGF0aXZlWmlwRW50cnlQYXRoKAogICAgICAgICAgICAgICAgbWFuaWZlc3RCYXNlUGF0aCwKICAgICAgICAgICAgICAgIG1hbmlmZXN0UHJldmlldy5tYW5pZmVzdC5tYWluCiAgICAgICAgICAgICkKICAgICAgICAgICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigibWFuaWZlc3QubWFpbiBpcyByZXF1aXJlZCIpCiAgICAgICAgdmFsIGV4ZWN1dGFibGVFbnRyeU5hbWVzID0gbGlua2VkU2V0T2Y8U3RyaW5nPigpCiAgICAgICAgdmFsIHJlc291cmNlRW50cnlSb290cyA9IGxpbmtlZFNldE9mPFN0cmluZz4oKQoKICAgICAgICBleGVjdXRhYmxlRW50cnlOYW1lcy5hZGQobWFpbkVudHJ5TmFtZSkKICAgICAgICBtYW5pZmVzdFByZXZpZXcubWFuaWZlc3Quc3VicGFja2FnZXMuZm9yRWFjaCB7IHN1YnBhY2thZ2UgLT4KICAgICAgICAgICAgVG9vbFBrZ0FyY2hpdmVQYXJzZXIucmVzb2x2ZU1hbmlmZXN0UmVsYXRpdmVaaXBFbnRyeVBhdGgobWFuaWZlc3RCYXNlUGF0aCwgc3VicGFja2FnZS5lbnRyeSkKICAgICAgICAgICAgICAgID8ubGV0KGV4ZWN1dGFibGVFbnRyeU5hbWVzOjphZGQpCiAgICAgICAgfQogICAgICAgIG1hbmlmZXN0UHJldmlldy5tYW5pZmVzdC5yZXNvdXJjZXMuZm9yRWFjaCB7IHJlc291cmNlIC0+CiAgICAgICAgICAgIFRvb2xQa2dBcmNoaXZlUGFyc2VyLnJlc29sdmVNYW5pZmVzdFJlbGF0aXZlUmVzb3VyY2VQYXRoKG1hbmlmZXN0QmFzZVBhdGgsIHJlc291cmNlLnBhdGgpCiAgICAgICAgICAgICAgICA/LmxldChyZXNvdXJjZUVudHJ5Um9vdHM6OmFkZCkKICAgICAgICB9CiAgICAgICAgbWFuaWZlc3RQcmV2aWV3Lm1hbmlmZXN0Lndhc21Nb2R1bGVzLmZvckVhY2ggeyBtb2R1bGUgLT4KICAgICAgICAgICAgVG9vbFBrZ0FyY2hpdmVQYXJzZXIucmVzb2x2ZU1hbmlmZXN0UmVsYXRpdmVSZXNvdXJjZVBhdGgobWFuaWZlc3RCYXNlUGF0aCwgbW9kdWxlLnBhdGgpCiAgICAgICAgICAgICAgICA/LmxldChyZXNvdXJjZUVudHJ5Um9vdHM6OmFkZCkKICAgICAgICB9CgogICAgICAgIHZhbCBvdXRwdXRCeXRlcyA9IEJ5dGVBcnJheU91dHB1dFN0cmVhbSgpCiAgICAgICAgWmlwRmlsZShzb3VyY2VGaWxlKS51c2UgeyBhcmNoaXZlIC0+CiAgICAgICAgICAgIHZhbCBhcmNoaXZlRW50cmllcyA9IGJ1aWxkTGlzdCB7CiAgICAgICAgICAgICAgICB2YWwgZW50cmllcyA9IGFyY2hpdmUuZW50cmllcygpCiAgICAgICAgICAgICAgICB3aGlsZSAoZW50cmllcy5oYXNNb3JlRWxlbWVudHMoKSkgewogICAgICAgICAgICAgICAgICAgIGFkZChlbnRyaWVzLm5leHRFbGVtZW50KCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIHJlYWNoYWJsZUVudHJ5TmFtZXMgPQogICAgICAgICAgICAgICAgaWYgKG1pbmlmeSkgewogICAgICAgICAgICAgICAgICAgIC8vIEtlZXAgdGhlIHByb3RlY3RlZCBhcmNoaXZlIGFsaWduZWQgd2l0aCB0aGUgcnVudGltZSBncmFwaDsgY29weWluZyB0aGUgd2hvbGUgYXV0aG9yaW5nIHRyZWUgZGVmZWF0cyBzb3VyY2UgcHJvdGVjdGlvbiBhbmQgaW5jcmVhc2VzIGxvYWQgY29zdC4KICAgICAgICAgICAgICAgICAgICBjb2xsZWN0UmVhY2hhYmxlVG9vbFBrZ0VudHJpZXMoCiAgICAgICAgICAgICAgICAgICAgICAgIGFyY2hpdmUgPSBhcmNoaXZlLAogICAgICAgICAgICAgICAgICAgICAgICBlbnRyaWVzID0gYXJjaGl2ZUVudHJpZXMsCiAgICAgICAgICAgICAgICAgICAgICAgIG1hbmlmZXN0RW50cnlOYW1lID0gbWFuaWZlc3RFbnRyeU5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGV4ZWN1dGFibGVFbnRyeU5hbWVzID0gZXhlY3V0YWJsZUVudHJ5TmFtZXMsCiAgICAgICAgICAgICAgICAgICAgICAgIHJlc291cmNlRW50cnlSb290cyA9IHJlc291cmNlRW50cnlSb290cwogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgZW1wdHlTZXQoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAobWluaWZ5KSB7CiAgICAgICAgICAgICAgICAvLyDliarmnp3ku6UgbWFuaWZlc3Qg5omA5Zyo55uu5b2V5Li65qC544CC6Iul6L+Z6YeM6YCJ6ZSZ5LqGIG1hbmlmZXN077yI5L6L5aaC5YyF5YaF5re35YWl5bWM5aWXIG1hbmlmZXN077yJ77yMCiAgICAgICAgICAgICAgICAvLyDnnJ/mraPnmoTlhaXlj6PkvJrooqvliKTkuLrkuI3lj6/ovr7lubbmlbTljIXkuKLlvIPvvIzkuqflh7oi6IO96KOF5L2G5YaF5a655Li656m65aOzIueahOWMhe+8jOWboOatpOW/hemhu+aYvuW8j+agoemqjOOAggogICAgICAgICAgICAgICAgcmVxdWlyZShtYW5pZmVzdEVudHJ5TmFtZSBpbiByZWFjaGFibGVFbnRyeU5hbWVzKSB7CiAgICAgICAgICAgICAgICAgICAgIk1pbmlmaWVkIHRvb2xwa2cgbG9zdCBpdHMgbWFuaWZlc3QgZW50cnk6ICRtYW5pZmVzdEVudHJ5TmFtZSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhbCBtaXNzaW5nRXhlY3V0YWJsZXMgPSBleGVjdXRhYmxlRW50cnlOYW1lcy5maWx0ZXJOb3QgeyBpdCBpbiByZWFjaGFibGVFbnRyeU5hbWVzIH0KICAgICAgICAgICAgICAgIHJlcXVpcmUobWlzc2luZ0V4ZWN1dGFibGVzLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgICJNaW5pZmllZCB0b29scGtnIGxvc3QgZXhlY3V0YWJsZSBlbnRyaWVzOiAke21pc3NpbmdFeGVjdXRhYmxlcy5qb2luVG9TdHJpbmcoKX0iCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgWmlwT3V0cHV0U3RyZWFtKG91dHB1dEJ5dGVzKS51c2UgeyB6aXBPdXRwdXQgLT4KICAgICAgICAgICAgICAgIGFyY2hpdmVFbnRyaWVzLmZvckVhY2ggeyBlbnRyeSAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBub3JtYWxpemVkTmFtZSA9IFRvb2xQa2dBcmNoaXZlUGFyc2VyLm5vcm1hbGl6ZVppcEVudHJ5UGF0aChlbnRyeS5uYW1lKQogICAgICAgICAgICAgICAgICAgIGlmICgKICAgICAgICAgICAgICAgICAgICAgICAgbWluaWZ5ICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAobm9ybWFsaXplZE5hbWUgPT0gbnVsbCB8fCBub3JtYWxpemVkTmFtZSAhaW4gcmVhY2hhYmxlRW50cnlOYW1lcykKICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQGZvckVhY2gKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdmFsIGNvcGllZEVudHJ5ID0gWmlwRW50cnkoZW50cnkubmFtZSkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgICAgICB0aW1lID0gZW50cnkudGltZQogICAgICAgICAgICAgICAgICAgICAgICBjb21tZW50ID0gZW50cnkuY29tbWVudAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB6aXBPdXRwdXQucHV0TmV4dEVudHJ5KGNvcGllZEVudHJ5KQogICAgICAgICAgICAgICAgICAgIGlmICghZW50cnkuaXNEaXJlY3RvcnkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG9yaWdpbmFsQnl0ZXMgPSBhcmNoaXZlLmdldElucHV0U3RyZWFtKGVudHJ5KS51c2UgeyBpbnB1dCAtPiBpbnB1dC5yZWFkQnl0ZXMoKSB9CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBvdXRwdXRFbnRyeUJ5dGVzID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWROYW1lID09IG1haW5FbnRyeU5hbWUgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgbWFpbk9yaWdpbiA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb29sUGtnTWFya2V0T3JpZ2luKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmtldCA9ICJPcGVyaXQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvb2xwa2dJZCA9IG1hbmlmZXN0UHJldmlldy5tYW5pZmVzdC50b29scGtnSWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmVyc2lvbiA9IG1hbmlmZXN0UHJldmlldy5tYW5pZmVzdC52ZXJzaW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF1dGhvciA9IG1hcmtldE9yaWdpbi5hdXRob3IKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKG1pbmlmeSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluaWZ5SmF2YVNjcmlwdEJ5dGVzKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJ5dGVzID0gb3JpZ2luYWxCeXRlcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbnRyeU5hbWUgPSByZXF1aXJlTm90TnVsbChub3JtYWxpemVkTmFtZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluaWZpZXIgPSBtaW5pZmllciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJrZXRPcmlnaW4gPSBtYWluT3JpZ2luCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbmplY3RUb29sUGtnTWFya2V0T3JpZ2luKG9yaWdpbmFsQnl0ZXMsIG1haW5PcmlnaW4pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluaWZ5ICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWROYW1lICE9IG51bGwgJiYKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9ybWFsaXplZE5hbWUgIT0gbWFuaWZlc3RFbnRyeU5hbWUgJiYKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hvdWxkTWluaWZ5VG9vbFBrZ0VudHJ5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9ybWFsaXplZE5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBleGVjdXRhYmxlRW50cnlOYW1lcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc291cmNlRW50cnlSb290cwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluaWZ5SmF2YVNjcmlwdEJ5dGVzKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYnl0ZXMgPSBvcmlnaW5hbEJ5dGVzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZW50cnlOYW1lID0gbm9ybWFsaXplZE5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW5pZmllciA9IG1pbmlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBvcmlnaW5hbEJ5dGVzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHppcE91dHB1dC53cml0ZShvdXRwdXRFbnRyeUJ5dGVzKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB6aXBPdXRwdXQuY2xvc2VFbnRyeSgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIG91dHB1dEJ5dGVzLnRvQnl0ZUFycmF5KCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBjb2xsZWN0UmVhY2hhYmxlVG9vbFBrZ0VudHJpZXMoCiAgICAgICAgYXJjaGl2ZTogWmlwRmlsZSwKICAgICAgICBlbnRyaWVzOiBMaXN0PFppcEVudHJ5PiwKICAgICAgICBtYW5pZmVzdEVudHJ5TmFtZTogU3RyaW5nLAogICAgICAgIGV4ZWN1dGFibGVFbnRyeU5hbWVzOiBTZXQ8U3RyaW5nPiwKICAgICAgICByZXNvdXJjZUVudHJ5Um9vdHM6IFNldDxTdHJpbmc+CiAgICApOiBTZXQ8U3RyaW5nPiB7CiAgICAgICAgdmFsIGVudHJpZXNCeU5hbWUgPSBlbnRyaWVzLm1hcE5vdE51bGwgeyBlbnRyeSAtPgogICAgICAgICAgICBUb29sUGtnQXJjaGl2ZVBhcnNlci5ub3JtYWxpemVaaXBFbnRyeVBhdGgoZW50cnkubmFtZSk/LmxldCB7IG5hbWUgLT4gbmFtZSB0byBlbnRyeSB9CiAgICAgICAgfS50b01hcCgpCiAgICAgICAgdmFsIGVudHJ5TmFtZXMgPSBlbnRyaWVzQnlOYW1lLmtleXMKICAgICAgICB2YWwgcmVhY2hhYmxlID0gbGlua2VkU2V0T2YobWFuaWZlc3RFbnRyeU5hbWUpCiAgICAgICAgZXhlY3V0YWJsZUVudHJ5TmFtZXMuZm9yRWFjaChyZWFjaGFibGU6OmFkZCkKICAgICAgICByZXNvdXJjZUVudHJ5Um9vdHMuZm9yRWFjaCB7IHJvb3QgLT4KICAgICAgICAgICAgZW50cnlOYW1lcy5maWx0ZXIgeyBuYW1lIC0+IG5hbWUgPT0gcm9vdCB8fCBuYW1lLnN0YXJ0c1dpdGgoIiRyb290LyIpIH0KICAgICAgICAgICAgICAgIC5mb3JFYWNoKHJlYWNoYWJsZTo6YWRkKQogICAgICAgIH0KCiAgICAgICAgdmFsIHBlbmRpbmcgPSBBcnJheURlcXVlKGV4ZWN1dGFibGVFbnRyeU5hbWVzKQogICAgICAgIHdoaWxlIChwZW5kaW5nLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICB2YWwgY3VycmVudE5hbWUgPSBwZW5kaW5nLnJlbW92ZUZpcnN0KCkKICAgICAgICAgICAgdmFsIGVudHJ5ID0gZW50cmllc0J5TmFtZVtjdXJyZW50TmFtZV0gPzogY29udGludWUKICAgICAgICAgICAgaWYgKCFpc0phdmFTY3JpcHRFbnRyeShjdXJyZW50TmFtZSkpIGNvbnRpbnVlCiAgICAgICAgICAgIHZhbCBzb3VyY2UgPSBhcmNoaXZlLmdldElucHV0U3RyZWFtKGVudHJ5KS51c2UgeyBpbnB1dCAtPgogICAgICAgICAgICAgICAgaW5wdXQucmVhZEJ5dGVzKCkudG9TdHJpbmcoU3RhbmRhcmRDaGFyc2V0cy5VVEZfOCkKICAgICAgICAgICAgfQogICAgICAgICAgICBzdGF0aWNNb2R1bGVSZWZlcmVuY2VQYXR0ZXJuLmZpbmRBbGwoc291cmNlKS5mb3JFYWNoIHsgbWF0Y2ggLT4KICAgICAgICAgICAgICAgIHZhbCBzcGVjaWZpZXIgPSBtYXRjaC5ncm91cFZhbHVlc1sxXS5pZkJsYW5rIHsgbWF0Y2guZ3JvdXBWYWx1ZXNbMl0gfQogICAgICAgICAgICAgICAgcmVzb2x2ZVRvb2xQa2dNb2R1bGVFbnRyeShjdXJyZW50TmFtZSwgc3BlY2lmaWVyLCBlbnRyeU5hbWVzKT8ubGV0IHsgcmVzb2x2ZWQgLT4KICAgICAgICAgICAgICAgICAgICBpZiAocmVhY2hhYmxlLmFkZChyZXNvbHZlZCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGVuZGluZy5hZGRMYXN0KHJlc29sdmVkKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gcmVhY2hhYmxlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVzb2x2ZVRvb2xQa2dNb2R1bGVFbnRyeSgKICAgICAgICBjdXJyZW50TmFtZTogU3RyaW5nLAogICAgICAgIHNwZWNpZmllcjogU3RyaW5nLAogICAgICAgIGVudHJ5TmFtZXM6IFNldDxTdHJpbmc+CiAgICApOiBTdHJpbmc/IHsKICAgICAgICBpZiAoIXNwZWNpZmllci5zdGFydHNXaXRoKCIuIikpIHJldHVybiBudWxsCiAgICAgICAgdmFsIGJhc2VTZWdtZW50cyA9IGN1cnJlbnROYW1lLnN1YnN0cmluZ0JlZm9yZUxhc3QoJy8nLCBtaXNzaW5nRGVsaW1pdGVyVmFsdWUgPSAiIikKICAgICAgICAgICAgLnNwbGl0KCcvJykKICAgICAgICAgICAgLmZpbHRlcihTdHJpbmc6OmlzTm90QmxhbmspCiAgICAgICAgICAgIC50b011dGFibGVMaXN0KCkKICAgICAgICBzcGVjaWZpZXIucmVwbGFjZSgnXFwnLCAnLycpLnNwbGl0KCcvJykuZm9yRWFjaCB7IHNlZ21lbnQgLT4KICAgICAgICAgICAgd2hlbiAoc2VnbWVudCkgewogICAgICAgICAgICAgICAgIiIsICIuIiAtPiBVbml0CiAgICAgICAgICAgICAgICAiLi4iIC0+IGlmIChiYXNlU2VnbWVudHMuaXNOb3RFbXB0eSgpKSBiYXNlU2VnbWVudHMucmVtb3ZlQXQoYmFzZVNlZ21lbnRzLmxhc3RJbmRleCkgZWxzZSByZXR1cm4gbnVsbAogICAgICAgICAgICAgICAgZWxzZSAtPiBiYXNlU2VnbWVudHMuYWRkKHNlZ21lbnQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgdmFsIG1vZHVsZVBhdGggPSBiYXNlU2VnbWVudHMuam9pblRvU3RyaW5nKCIvIikKICAgICAgICB2YWwgY2FuZGlkYXRlcyA9IGxpc3RPZigKICAgICAgICAgICAgbW9kdWxlUGF0aCwKICAgICAgICAgICAgIiRtb2R1bGVQYXRoLmpzIiwKICAgICAgICAgICAgIiRtb2R1bGVQYXRoLm1qcyIsCiAgICAgICAgICAgICIkbW9kdWxlUGF0aC5janMiLAogICAgICAgICAgICAiJG1vZHVsZVBhdGguanNvbiIsCiAgICAgICAgICAgICIkbW9kdWxlUGF0aC9pbmRleC5qcyIKICAgICAgICApCiAgICAgICAgcmV0dXJuIGNhbmRpZGF0ZXMuZmlyc3RPck51bGwoZW50cnlOYW1lczo6Y29udGFpbnMpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaXNKYXZhU2NyaXB0RW50cnkobmFtZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIGV4dGVuc2lvbiA9IG5hbWUuc3Vic3RyaW5nQWZ0ZXJMYXN0KCcuJywgbWlzc2luZ0RlbGltaXRlclZhbHVlID0gIiIpLmxvd2VyY2FzZSgpCiAgICAgICAgcmV0dXJuIGV4dGVuc2lvbiBpbiBzZXRPZigianMiLCAibWpzIiwgImNqcyIsICJ0cyIsICJqc3giLCAidHN4IikKICAgIH0KCiAgICBwcml2YXRlIGZ1biBpbmplY3RUb29sUGtnTWFya2V0T3JpZ2luKAogICAgICAgIGJ5dGVzOiBCeXRlQXJyYXksCiAgICAgICAgbWFya2V0T3JpZ2luOiBUb29sUGtnTWFya2V0T3JpZ2luCiAgICApOiBCeXRlQXJyYXkgewogICAgICAgIHZhbCBzb3VyY2UgPSBieXRlcy50b1N0cmluZyhTdGFuZGFyZENoYXJzZXRzLlVURl84KQogICAgICAgIHJldHVybiAiJHNvdXJjZVxuJHtUb29sUGtnTWFya2V0T3JpZ2luQ29kZWMuZW5jb2RlKG1hcmtldE9yaWdpbil9IgogICAgICAgICAgICAudG9CeXRlQXJyYXkoU3RhbmRhcmRDaGFyc2V0cy5VVEZfOCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBtaW5pZnlKYXZhU2NyaXB0Qnl0ZXMoCiAgICAgICAgYnl0ZXM6IEJ5dGVBcnJheSwKICAgICAgICBlbnRyeU5hbWU6IFN0cmluZywKICAgICAgICBtaW5pZmllcjogVG9vbFBrZ0pzQXN0TWluaWZpZXIsCiAgICAgICAgbWFya2V0T3JpZ2luOiBUb29sUGtnTWFya2V0T3JpZ2luPyA9IG51bGwKICAgICk6IEJ5dGVBcnJheSB7CiAgICAgICAgdmFsIHNvdXJjZSA9IGJ5dGVzLnRvU3RyaW5nKFN0YW5kYXJkQ2hhcnNldHMuVVRGXzgpCiAgICAgICAgLy8gS2VlcCBwcm92ZW5hbmNlIGluIHRoZSBleGVjdXRhYmxlIGJvZHkgc28gaXQgaXMgbWluaWZpZWQgd2l0aCB0aGUgcGFja2FnZSBhbmQgbm90IHN0cmlwcGVkIGFzIGEgY29tbWVudC4KICAgICAgICB2YWwgc291cmNlV2l0aE9yaWdpbiA9CiAgICAgICAgICAgIGlmIChtYXJrZXRPcmlnaW4gPT0gbnVsbCkgc291cmNlIGVsc2UgIiRzb3VyY2VcbiR7VG9vbFBrZ01hcmtldE9yaWdpbkNvZGVjLmVuY29kZShtYXJrZXRPcmlnaW4pfSIKICAgICAgICB2YWwgbWluaWZpZWQgPQogICAgICAgICAgICBtaW5pZnlKYXZhU2NyaXB0U291cmNlUHJlc2VydmluZ01ldGFkYXRhKHNvdXJjZVdpdGhPcmlnaW4sIGVudHJ5TmFtZSwgbWluaWZpZXIpCiAgICAgICAgcmV0dXJuIG1pbmlmaWVkLnRvQnl0ZUFycmF5KFN0YW5kYXJkQ2hhcnNldHMuVVRGXzgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbWluaWZ5SmF2YVNjcmlwdFNvdXJjZVByZXNlcnZpbmdNZXRhZGF0YSgKICAgICAgICBzb3VyY2U6IFN0cmluZywKICAgICAgICBlbnRyeU5hbWU6IFN0cmluZywKICAgICAgICBtaW5pZmllcjogVG9vbFBrZ0pzQXN0TWluaWZpZXIKICAgICk6IFN0cmluZyB7CiAgICAgICAgdmFsIG1ldGFkYXRhQmxvY2sgPSBmaW5kTWV0YWRhdGFCbG9jayhzb3VyY2UpCiAgICAgICAgaWYgKG1ldGFkYXRhQmxvY2sgIT0gbnVsbCkgewogICAgICAgICAgICB2YWwgYm9keSA9IHNvdXJjZS5yZW1vdmVSYW5nZShtZXRhZGF0YUJsb2NrLnJhbmdlKS50cmltKCkKICAgICAgICAgICAgcmVxdWlyZShib2R5LmlzTm90RW1wdHkoKSkgeyAiSmF2YVNjcmlwdCBib2R5IGFmdGVyIE1FVEFEQVRBIGlzIGVtcHR5IGZvciAkZW50cnlOYW1lIiB9CiAgICAgICAgICAgIHJldHVybiBtZXRhZGF0YUJsb2NrLmNvbW1lbnQgKyBtaW5pZmllci5taW5pZnkoYm9keSwgZW50cnlOYW1lKQogICAgICAgIH0KICAgICAgICByZXR1cm4gbWluaWZpZXIubWluaWZ5KHNvdXJjZSwgZW50cnlOYW1lKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGZpbmRNZXRhZGF0YUJsb2NrKHNvdXJjZTogU3RyaW5nKTogTWV0YWRhdGFCbG9jaz8gewogICAgICAgIHZhbCBtYXRjaCA9IG1ldGFkYXRhQ29udGVudFBhdHRlcm4uZmluZChzb3VyY2UpID86IHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIE1ldGFkYXRhQmxvY2soCiAgICAgICAgICAgIGNvbW1lbnQgPSBtYXRjaC52YWx1ZSwKICAgICAgICAgICAgY29udGVudCA9IG1hdGNoLmdyb3VwVmFsdWVzWzFdLAogICAgICAgICAgICByYW5nZSA9IG1hdGNoLnJhbmdlCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGluamVjdFNjcmlwdE1hcmtldE9yaWdpbkludG9NZXRhZGF0YSgKICAgICAgICBzb3VyY2U6IFN0cmluZywKICAgICAgICBtYXJrZXRPcmlnaW46IFRvb2xQa2dNYXJrZXRPcmlnaW4KICAgICk6IFN0cmluZyB7CiAgICAgICAgdmFsIG1ldGFkYXRhQmxvY2sgPSBmaW5kTWV0YWRhdGFCbG9jayhzb3VyY2UpCiAgICAgICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiSmF2YVNjcmlwdCBwYWNrYWdlIE1FVEFEQVRBIGJsb2NrIGlzIHJlcXVpcmVkIGZvciBtYXJrZXRwbGFjZSBvcmlnaW4iKQogICAgICAgIHZhbCBtZXRhZGF0YSA9IEpTT05PYmplY3QoSnNvblZhbHVlLnJlYWRIanNvbihtZXRhZGF0YUJsb2NrLmNvbnRlbnQpLnRvU3RyaW5nKCkpCiAgICAgICAgbWV0YWRhdGEucHV0KFNDUklQVF9NQVJLRVRfT1JJR0lOX01FVEFEQVRBX0tFWSwgVG9vbFBrZ01hcmtldE9yaWdpbkNvZGVjLmVuY29kZUZvck1ldGFkYXRhKG1hcmtldE9yaWdpbikpCiAgICAgICAgdmFsIHVwZGF0ZWRNZXRhZGF0YUJsb2NrID0gIi8qIE1FVEFEQVRBXG4ke21ldGFkYXRhfVxuKi8iCiAgICAgICAgcmV0dXJuIHNvdXJjZS5yZXBsYWNlUmFuZ2UobWV0YWRhdGFCbG9jay5yYW5nZSwgdXBkYXRlZE1ldGFkYXRhQmxvY2spCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2hvdWxkTWluaWZ5VG9vbFBrZ0VudHJ5KAogICAgICAgIG5vcm1hbGl6ZWROYW1lOiBTdHJpbmcsCiAgICAgICAgZXhlY3V0YWJsZUVudHJ5TmFtZXM6IFNldDxTdHJpbmc+LAogICAgICAgIHJlc291cmNlRW50cnlSb290czogU2V0PFN0cmluZz4KICAgICk6IEJvb2xlYW4gewogICAgICAgIGlmIChyZXNvdXJjZUVudHJ5Um9vdHMuYW55IHsgcm9vdCAtPiBub3JtYWxpemVkTmFtZSA9PSByb290IHx8IG5vcm1hbGl6ZWROYW1lLnN0YXJ0c1dpdGgoIiRyb290LyIpIH0pIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIGlmIChleGVjdXRhYmxlRW50cnlOYW1lcy5jb250YWlucyhub3JtYWxpemVkTmFtZSkpIHJldHVybiB0cnVlCiAgICAgICAgdmFsIGV4dGVuc2lvbiA9IG5vcm1hbGl6ZWROYW1lLnN1YnN0cmluZ0FmdGVyTGFzdCgnLicsIG1pc3NpbmdEZWxpbWl0ZXJWYWx1ZSA9ICIiKS5sb3dlcmNhc2UoKQogICAgICAgIHJldHVybiBleHRlbnNpb24gaW4gc2V0T2YoImpzIiwgIm1qcyIsICJjanMiLCAidHMiLCAianN4IiwgInRzeCIpCiAgICB9CgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIE1ldGFkYXRhQmxvY2soCiAgICAgICAgdmFsIGNvbW1lbnQ6IFN0cmluZywKICAgICAgICB2YWwgY29udGVudDogU3RyaW5nLAogICAgICAgIHZhbCByYW5nZTogSW50UmFuZ2UKICAgICkKCiAgICBwcml2YXRlIGNvbnN0IHZhbCBTQ1JJUFRfTUFSS0VUX09SSUdJTl9NRVRBREFUQV9LRVkgPSAiX19vcGVyaXRfbWFya2V0X29yaWdpbiIKICAgIHByaXZhdGUgdmFsIG1ldGFkYXRhQ29udGVudFBhdHRlcm4gPSBSZWdleCgiIiIoP3MpL1wqXHMqTUVUQURBVEFccyooLio/KVwqLyIiIikKICAgIHByaXZhdGUgdmFsIHN0YXRpY01vZHVsZVJlZmVyZW5jZVBhdHRlcm4gPQogICAgICAgICAgICBSZWdleCgiIiIoPzpyZXF1aXJlXHMqXChccypbXCInXShbXlwiJ10rKVtcIiddXHMqXCl8KD86ZnJvbXxpbXBvcnQpXHMqW1wiJ10oW15cIiddKylbXCInXSkiIiIpCgogICAgcHJpdmF0ZSBmdW4gbG9nb0NvbnRlbnRUeXBlKG1pbWU6IFN0cmluZywgZmlsZU5hbWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGV4dGVuc2lvbiA9IGZpbGVOYW1lLnN1YnN0cmluZ0FmdGVyTGFzdCgnLicsICIiKS5sb3dlcmNhc2UoKQogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgbWltZS5lcXVhbHMoImltYWdlL3N2Zyt4bWwiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwgZXh0ZW5zaW9uID09ICJzdmciIC0+ICJpbWFnZS9zdmcreG1sIgogICAgICAgICAgICBtaW1lLmVxdWFscygiaW1hZ2UvcG5nIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8IGV4dGVuc2lvbiA9PSAicG5nIiAtPiAiaW1hZ2UvcG5nIgogICAgICAgICAgICBtaW1lLmVxdWFscygiaW1hZ2UvanBlZyIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fCBleHRlbnNpb24gPT0gImpwZyIgfHwgZXh0ZW5zaW9uID09ICJqcGVnIiAtPiAiaW1hZ2UvanBlZyIKICAgICAgICAgICAgbWltZS5lcXVhbHMoImltYWdlL3dlYnAiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwgZXh0ZW5zaW9uID09ICJ3ZWJwIiAtPiAiaW1hZ2Uvd2VicCIKICAgICAgICAgICAgZWxzZSAtPiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIlVuc3VwcG9ydGVkIFRvb2xQa2cgbG9nbyBmb3JtYXQ6ICRmaWxlTmFtZSIpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgArchiveParser
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgMarketOrigin
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgMarketOriginCodec
+import com.bslsjdk.operit.ui.features.packages.market.PUBLISH_LOGO_MAX_BYTES
+import com.bslsjdk.operit.ui.features.packages.market.ToolPkgLogoAsset
+import java.io.ByteArrayOutputStream
+import java.io.File
+import java.nio.charset.StandardCharsets
+import java.util.zip.ZipEntry
+import java.util.zip.ZipFile
+import java.util.zip.ZipOutputStream
+import org.hjson.JsonValue
+import org.json.JSONObject
+
+/** Produces publish artifacts with optional AST minification and mandatory market provenance. */
+object ToolPkgArtifactMinifier {
+    fun readToolPkgLogoAsset(sourceFile: File): ToolPkgLogoAsset? {
+        val manifestPreview =
+            ToolPkgArchiveParser.readToolPkgManifestPreview { sourceFile.inputStream() }
+                ?: throw IllegalArgumentException("manifest.hjson or manifest.json not found")
+        val logoKey = manifestPreview.manifest.logo?.trim().orEmpty()
+        if (logoKey.isBlank()) return null
+
+        val resource =
+            manifestPreview.manifest.resources.firstOrNull {
+                it.key.equals(logoKey, ignoreCase = true)
+            } ?: throw IllegalArgumentException("manifest.logo must reference an existing resource key: $logoKey")
+        if (ToolPkgArchiveParser.isDirectoryResourceMime(resource.mime)) {
+            throw IllegalArgumentException("manifest.logo must reference a file resource: $logoKey")
+        }
+
+        val manifestBasePath = manifestPreview.entryName.substringBeforeLast('/', "")
+        val normalizedPath =
+            ToolPkgArchiveParser.resolveManifestRelativeResourcePath(
+                manifestBasePath,
+                resource.path
+            ) ?: throw IllegalArgumentException("Invalid logo resource path: ${resource.path}")
+        val fileName = normalizedPath.substringAfterLast('/')
+        val contentType = logoContentType(resource.mime, fileName)
+
+        ZipFile(sourceFile).use { archive ->
+            val entryIndex = ToolPkgArchiveParser.buildZipEntryIndex(archive)
+            val bytes =
+                ToolPkgArchiveParser.readZipEntryBytes(archive, entryIndex, normalizedPath)
+                    ?: throw IllegalArgumentException("Cannot read logo resource: ${resource.path}")
+            require(bytes.size <= PUBLISH_LOGO_MAX_BYTES) {
+                "ToolPkg logo must be at most ${PUBLISH_LOGO_MAX_BYTES / 1024} KiB"
+            }
+            return ToolPkgLogoAsset(
+                fileName = fileName,
+                contentType = contentType,
+                bytes = bytes
+            )
+        }
+    }
+
+
+    internal fun processArtifactFile(
+        context: Context,
+        sourceFile: File,
+        isToolPkg: Boolean,
+        marketOrigin: ToolPkgMarketOrigin,
+        minify: Boolean
+    ): ByteArray {
+        return ToolPkgJsAstMinifier(context).use { minifier ->
+            if (isToolPkg) {
+                processToolPkgArchive(sourceFile, minifier, marketOrigin, minify)
+            } else {
+                processScriptFile(sourceFile, minifier, marketOrigin, minify)
+            }
+        }
+    }
+
+    private fun processScriptFile(
+        sourceFile: File,
+        minifier: ToolPkgJsAstMinifier,
+        marketOrigin: ToolPkgMarketOrigin,
+        minify: Boolean
+    ): ByteArray {
+        val source = sourceFile.readText(StandardCharsets.UTF_8)
+        val sourceWithOrigin = injectScriptMarketOriginIntoMetadata(source, marketOrigin)
+        if (!minify) {
+            return sourceWithOrigin.toByteArray(StandardCharsets.UTF_8)
+        }
+        return minifyJavaScriptBytes(
+            sourceWithOrigin.toByteArray(StandardCharsets.UTF_8),
+            sourceFile.name,
+            minifier
+        )
+    }
+
+    private fun processToolPkgArchive(
+        sourceFile: File,
+        minifier: ToolPkgJsAstMinifier,
+        marketOrigin: ToolPkgMarketOrigin,
+        minify: Boolean
+    ): ByteArray {
+        val manifestPreview =
+            ToolPkgArchiveParser.readToolPkgManifestPreview { sourceFile.inputStream() }
+                ?: throw IllegalArgumentException("manifest.hjson or manifest.json not found")
+        val manifestBasePath = manifestPreview.entryName.substringBeforeLast('/', missingDelimiterValue = "")
+        val manifestEntryName =
+            ToolPkgArchiveParser.normalizeZipEntryPath(manifestPreview.entryName)
+                ?: throw IllegalArgumentException("Invalid toolpkg manifest entry name")
+        val mainEntryName =
+            ToolPkgArchiveParser.resolveManifestRelativeZipEntryPath(
+                manifestBasePath,
+                manifestPreview.manifest.main
+            )
+                ?: throw IllegalArgumentException("manifest.main is required")
+        val executableEntryNames = linkedSetOf<String>()
+        val resourceEntryRoots = linkedSetOf<String>()
+
+        executableEntryNames.add(mainEntryName)
+        manifestPreview.manifest.subpackages.forEach { subpackage ->
+            ToolPkgArchiveParser.resolveManifestRelativeZipEntryPath(manifestBasePath, subpackage.entry)
+                ?.let(executableEntryNames::add)
+        }
+        manifestPreview.manifest.resources.forEach { resource ->
+            ToolPkgArchiveParser.resolveManifestRelativeResourcePath(manifestBasePath, resource.path)
+                ?.let(resourceEntryRoots::add)
+        }
+        manifestPreview.manifest.wasmModules.forEach { module ->
+            ToolPkgArchiveParser.resolveManifestRelativeResourcePath(manifestBasePath, module.path)
+                ?.let(resourceEntryRoots::add)
+        }
+
+        val outputBytes = ByteArrayOutputStream()
+        ZipFile(sourceFile).use { archive ->
+            val archiveEntries = buildList {
+                val entries = archive.entries()
+                while (entries.hasMoreElements()) {
+                    add(entries.nextElement())
+                }
+            }
+            val reachableEntryNames =
+                if (minify) {
+                    // Keep the protected archive aligned with the runtime graph; copying the whole authoring tree defeats source protection and increases load cost.
+                    collectReachableToolPkgEntries(
+                        archive = archive,
+                        entries = archiveEntries,
+                        manifestEntryName = manifestEntryName,
+                        executableEntryNames = executableEntryNames,
+                        resourceEntryRoots = resourceEntryRoots
+                    )
+                } else {
+                    emptySet()
+                }
+            if (minify) {
+                // 剪枝以 manifest 所在目录为根。若这里选错了 manifest（例如包内混入嵌套 manifest），
+                // 真正的入口会被判为不可达并整包丢弃，产出"能装但内容为空壳"的包，因此必须显式校验。
+                require(manifestEntryName in reachableEntryNames) {
+                    "Minified toolpkg lost its manifest entry: $manifestEntryName"
+                }
+                val missingExecutables = executableEntryNames.filterNot { it in reachableEntryNames }
+                require(missingExecutables.isEmpty()) {
+                    "Minified toolpkg lost executable entries: ${missingExecutables.joinToString()}"
+                }
+            }
+            ZipOutputStream(outputBytes).use { zipOutput ->
+                archiveEntries.forEach { entry ->
+                    val normalizedName = ToolPkgArchiveParser.normalizeZipEntryPath(entry.name)
+                    if (
+                        minify &&
+                            (normalizedName == null || normalizedName !in reachableEntryNames)
+                    ) {
+                        return@forEach
+                    }
+                    val copiedEntry = ZipEntry(entry.name).apply {
+                        time = entry.time
+                        comment = entry.comment
+                    }
+                    zipOutput.putNextEntry(copiedEntry)
+                    if (!entry.isDirectory) {
+                        val originalBytes = archive.getInputStream(entry).use { input -> input.readBytes() }
+                        val outputEntryBytes =
+                            when {
+                                normalizedName == mainEntryName -> {
+                                    val mainOrigin =
+                                        ToolPkgMarketOrigin(
+                                            market = "Operit",
+                                            toolpkgId = manifestPreview.manifest.toolpkgId,
+                                            version = manifestPreview.manifest.version,
+                                            author = marketOrigin.author
+                                        )
+                                    if (minify) {
+                                        minifyJavaScriptBytes(
+                                            bytes = originalBytes,
+                                            entryName = requireNotNull(normalizedName),
+                                            minifier = minifier,
+                                            marketOrigin = mainOrigin
+                                        )
+                                    } else {
+                                        injectToolPkgMarketOrigin(originalBytes, mainOrigin)
+                                    }
+                                }
+                                minify &&
+                                    normalizedName != null &&
+                                    normalizedName != manifestEntryName &&
+                                    shouldMinifyToolPkgEntry(
+                                        normalizedName,
+                                        executableEntryNames,
+                                        resourceEntryRoots
+                                    ) -> {
+                                    minifyJavaScriptBytes(
+                                        bytes = originalBytes,
+                                        entryName = normalizedName,
+                                        minifier = minifier
+                                    )
+                                }
+                                else -> originalBytes
+                            }
+                        zipOutput.write(outputEntryBytes)
+                    }
+                    zipOutput.closeEntry()
+                }
+            }
+        }
+        return outputBytes.toByteArray()
+    }
+
+    private fun collectReachableToolPkgEntries(
+        archive: ZipFile,
+        entries: List<ZipEntry>,
+        manifestEntryName: String,
+        executableEntryNames: Set<String>,
+        resourceEntryRoots: Set<String>
+    ): Set<String> {
+        val entriesByName = entries.mapNotNull { entry ->
+            ToolPkgArchiveParser.normalizeZipEntryPath(entry.name)?.let { name -> name to entry }
+        }.toMap()
+        val entryNames = entriesByName.keys
+        val reachable = linkedSetOf(manifestEntryName)
+        executableEntryNames.forEach(reachable::add)
+        resourceEntryRoots.forEach { root ->
+            entryNames.filter { name -> name == root || name.startsWith("$root/") }
+                .forEach(reachable::add)
+        }
+
+        val pending = ArrayDeque(executableEntryNames)
+        while (pending.isNotEmpty()) {
+            val currentName = pending.removeFirst()
+            val entry = entriesByName[currentName] ?: continue
+            if (!isJavaScriptEntry(currentName)) continue
+            val source = archive.getInputStream(entry).use { input ->
+                input.readBytes().toString(StandardCharsets.UTF_8)
+            }
+            staticModuleReferencePattern.findAll(source).forEach { match ->
+                val specifier = match.groupValues[1].ifBlank { match.groupValues[2] }
+                resolveToolPkgModuleEntry(currentName, specifier, entryNames)?.let { resolved ->
+                    if (reachable.add(resolved)) {
+                        pending.addLast(resolved)
+                    }
+                }
+            }
+        }
+        return reachable
+    }
+
+    private fun resolveToolPkgModuleEntry(
+        currentName: String,
+        specifier: String,
+        entryNames: Set<String>
+    ): String? {
+        if (!specifier.startsWith(".")) return null
+        val baseSegments = currentName.substringBeforeLast('/', missingDelimiterValue = "")
+            .split('/')
+            .filter(String::isNotBlank)
+            .toMutableList()
+        specifier.replace('\\', '/').split('/').forEach { segment ->
+            when (segment) {
+                "", "." -> Unit
+                ".." -> if (baseSegments.isNotEmpty()) baseSegments.removeAt(baseSegments.lastIndex) else return null
+                else -> baseSegments.add(segment)
+            }
+        }
+        val modulePath = baseSegments.joinToString("/")
+        val candidates = listOf(
+            modulePath,
+            "$modulePath.js",
+            "$modulePath.mjs",
+            "$modulePath.cjs",
+            "$modulePath.json",
+            "$modulePath/index.js"
+        )
+        return candidates.firstOrNull(entryNames::contains)
+    }
+
+    private fun isJavaScriptEntry(name: String): Boolean {
+        val extension = name.substringAfterLast('.', missingDelimiterValue = "").lowercase()
+        return extension in setOf("js", "mjs", "cjs", "ts", "jsx", "tsx")
+    }
+
+    private fun injectToolPkgMarketOrigin(
+        bytes: ByteArray,
+        marketOrigin: ToolPkgMarketOrigin
+    ): ByteArray {
+        val source = bytes.toString(StandardCharsets.UTF_8)
+        return "$source\n${ToolPkgMarketOriginCodec.encode(marketOrigin)}"
+            .toByteArray(StandardCharsets.UTF_8)
+    }
+
+    private fun minifyJavaScriptBytes(
+        bytes: ByteArray,
+        entryName: String,
+        minifier: ToolPkgJsAstMinifier,
+        marketOrigin: ToolPkgMarketOrigin? = null
+    ): ByteArray {
+        val source = bytes.toString(StandardCharsets.UTF_8)
+        // Keep provenance in the executable body so it is minified with the package and not stripped as a comment.
+        val sourceWithOrigin =
+            if (marketOrigin == null) source else "$source\n${ToolPkgMarketOriginCodec.encode(marketOrigin)}"
+        val minified =
+            minifyJavaScriptSourcePreservingMetadata(sourceWithOrigin, entryName, minifier)
+        return minified.toByteArray(StandardCharsets.UTF_8)
+    }
+
+    private fun minifyJavaScriptSourcePreservingMetadata(
+        source: String,
+        entryName: String,
+        minifier: ToolPkgJsAstMinifier
+    ): String {
+        val metadataBlock = findMetadataBlock(source)
+        if (metadataBlock != null) {
+            val body = source.removeRange(metadataBlock.range).trim()
+            require(body.isNotEmpty()) { "JavaScript body after METADATA is empty for $entryName" }
+            return metadataBlock.comment + minifier.minify(body, entryName)
+        }
+        return minifier.minify(source, entryName)
+    }
+
+    private fun findMetadataBlock(source: String): MetadataBlock? {
+        val match = metadataContentPattern.find(source) ?: return null
+        return MetadataBlock(
+            comment = match.value,
+            content = match.groupValues[1],
+            range = match.range
+        )
+    }
+
+    private fun injectScriptMarketOriginIntoMetadata(
+        source: String,
+        marketOrigin: ToolPkgMarketOrigin
+    ): String {
+        val metadataBlock = findMetadataBlock(source)
+            ?: throw IllegalArgumentException("JavaScript package METADATA block is required for marketplace origin")
+        val metadata = JSONObject(JsonValue.readHjson(metadataBlock.content).toString())
+        metadata.put(SCRIPT_MARKET_ORIGIN_METADATA_KEY, ToolPkgMarketOriginCodec.encodeForMetadata(marketOrigin))
+        val updatedMetadataBlock = "/* METADATA\n${metadata}\n*/"
+        return source.replaceRange(metadataBlock.range, updatedMetadataBlock)
+    }
+
+    private fun shouldMinifyToolPkgEntry(
+        normalizedName: String,
+        executableEntryNames: Set<String>,
+        resourceEntryRoots: Set<String>
+    ): Boolean {
+        if (resourceEntryRoots.any { root -> normalizedName == root || normalizedName.startsWith("$root/") }) {
+            return false
+        }
+        if (executableEntryNames.contains(normalizedName)) return true
+        val extension = normalizedName.substringAfterLast('.', missingDelimiterValue = "").lowercase()
+        return extension in setOf("js", "mjs", "cjs", "ts", "jsx", "tsx")
+    }
+
+    private data class MetadataBlock(
+        val comment: String,
+        val content: String,
+        val range: IntRange
+    )
+
+    private const val SCRIPT_MARKET_ORIGIN_METADATA_KEY = "__operit_market_origin"
+    private val metadataContentPattern = Regex("""(?s)/\*\s*METADATA\s*(.*?)\*/""")
+    private val staticModuleReferencePattern =
+            Regex("""(?:require\s*\(\s*[\"']([^\"']+)[\"']\s*\)|(?:from|import)\s*[\"']([^\"']+)[\"'])""")
+
+    private fun logoContentType(mime: String, fileName: String): String {
+        val extension = fileName.substringAfterLast('.', "").lowercase()
+        return when {
+            mime.equals("image/svg+xml", ignoreCase = true) || extension == "svg" -> "image/svg+xml"
+            mime.equals("image/png", ignoreCase = true) || extension == "png" -> "image/png"
+            mime.equals("image/jpeg", ignoreCase = true) || extension == "jpg" || extension == "jpeg" -> "image/jpeg"
+            mime.equals("image/webp", ignoreCase = true) || extension == "webp" -> "image/webp"
+            else -> throw IllegalArgumentException("Unsupported ToolPkg logo format: $fileName")
+        }
+    }
+}

@@ -1,1 +1,56 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy53b3JrZmxvdwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnJlcG9zaXRvcnkuV29ya2Zsb3dSZXBvc2l0b3J5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5PcGVyaXRQbHVnaW4KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5wbHVnaW5zLmxpZmVjeWNsZS5BcHBMaWZlY3ljbGVFdmVudAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnBsdWdpbnMubGlmZWN5Y2xlLkFwcExpZmVjeWNsZUhvb2tQYXJhbXMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5wbHVnaW5zLmxpZmVjeWNsZS5BcHBMaWZlY3ljbGVIb29rUGx1Z2luCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5saWZlY3ljbGUuQXBwTGlmZWN5Y2xlSG9va1BsdWdpblJlZ2lzdHJ5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKCnByaXZhdGUgb2JqZWN0IFdvcmtmbG93QXBwTGlmZWN5Y2xlSG9va1BsdWdpbiA6IEFwcExpZmVjeWNsZUhvb2tQbHVnaW4gewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIldvcmtmbG93TGlmZWN5Y2xlUGx1Z2luIgogICAgQFZvbGF0aWxlCiAgICBwcml2YXRlIHZhciBmaXJzdEFjdGl2aXR5U3RhcnRIYW5kbGVkID0gZmFsc2UKCiAgICBvdmVycmlkZSB2YWwgaWQ6IFN0cmluZyA9ICJidWlsdGluLndvcmtmbG93LmFwcC1saWZlY3ljbGUiCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gb25FdmVudCgKICAgICAgICBldmVudDogQXBwTGlmZWN5Y2xlRXZlbnQsCiAgICAgICAgcGFyYW1zOiBBcHBMaWZlY3ljbGVIb29rUGFyYW1zCiAgICApIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB3aGVuIChldmVudCkgewogICAgICAgICAgICAgICAgQXBwTGlmZWN5Y2xlRXZlbnQuQVBQTElDQVRJT05fQ1JFQVRFIC0+IHsKICAgICAgICAgICAgICAgICAgICBmaXJzdEFjdGl2aXR5U3RhcnRIYW5kbGVkID0gZmFsc2UKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBBcHBMaWZlY3ljbGVFdmVudC5BQ1RJVklUWV9TVEFSVCAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGZpcnN0QWN0aXZpdHlTdGFydEhhbmRsZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGZpcnN0QWN0aXZpdHlTdGFydEhhbmRsZWQgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgV29ya2Zsb3dSZXBvc2l0b3J5KHBhcmFtcy5jb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkKICAgICAgICAgICAgICAgICAgICAgICAgLnRyaWdnZXJXb3JrZmxvd3NCeUNvbGRTdGFydEFwcE9wZW4oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHRyYXMgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcmFtcy5leHRyYXMubWFwVmFsdWVzIHsgKF8sIHZhbHVlKSAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT8udG9TdHJpbmcoKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBlbHNlIC0+IFVuaXQKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gcHJvY2VzcyB3b3JrZmxvdyBhcHAtb3BlbiB0cmlnZ2VyOiAke2V2ZW50LndpcmVOYW1lfSIsIGUpCiAgICAgICAgfQogICAgfQp9CgpvYmplY3QgV29ya2Zsb3dMaWZlY3ljbGVQbHVnaW4gOiBPcGVyaXRQbHVnaW4gewogICAgb3ZlcnJpZGUgdmFsIGlkOiBTdHJpbmcgPSAiYnVpbHRpbi53b3JrZmxvdy5saWZlY3ljbGUiCgogICAgb3ZlcnJpZGUgZnVuIHJlZ2lzdGVyKCkgewogICAgICAgIEFwcExpZmVjeWNsZUhvb2tQbHVnaW5SZWdpc3RyeS5yZWdpc3RlcihXb3JrZmxvd0FwcExpZmVjeWNsZUhvb2tQbHVnaW4pCiAgICB9Cn0K
+package com.bslsjdk.operit.plugins.workflow
+
+import com.bslsjdk.operit.data.repository.WorkflowRepository
+import com.bslsjdk.operit.plugins.OperitPlugin
+import com.bslsjdk.operit.plugins.lifecycle.AppLifecycleEvent
+import com.bslsjdk.operit.plugins.lifecycle.AppLifecycleHookParams
+import com.bslsjdk.operit.plugins.lifecycle.AppLifecycleHookPlugin
+import com.bslsjdk.operit.plugins.lifecycle.AppLifecycleHookPluginRegistry
+import com.bslsjdk.operit.util.AppLogger
+
+private object WorkflowAppLifecycleHookPlugin : AppLifecycleHookPlugin {
+    private const val TAG = "WorkflowLifecyclePlugin"
+    @Volatile
+    private var firstActivityStartHandled = false
+
+    override val id: String = "builtin.workflow.app-lifecycle"
+
+    override suspend fun onEvent(
+        event: AppLifecycleEvent,
+        params: AppLifecycleHookParams
+    ) {
+        try {
+            when (event) {
+                AppLifecycleEvent.APPLICATION_CREATE -> {
+                    firstActivityStartHandled = false
+                }
+
+                AppLifecycleEvent.ACTIVITY_START -> {
+                    if (firstActivityStartHandled) {
+                        return
+                    }
+                    firstActivityStartHandled = true
+                    WorkflowRepository(params.context.applicationContext)
+                        .triggerWorkflowsByColdStartAppOpen(
+                            extras =
+                                params.extras.mapValues { (_, value) ->
+                                    value?.toString().orEmpty()
+                                }
+                        )
+                }
+
+                else -> Unit
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to process workflow app-open trigger: ${event.wireName}", e)
+        }
+    }
+}
+
+object WorkflowLifecyclePlugin : OperitPlugin {
+    override val id: String = "builtin.workflow.lifecycle"
+
+    override fun register() {
+        AppLifecycleHookPluginRegistry.register(WorkflowAppLifecycleHookPlugin)
+    }
+}

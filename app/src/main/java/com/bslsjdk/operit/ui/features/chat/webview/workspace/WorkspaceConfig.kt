@@ -1,1 +1,131 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uCmltcG9ydCBqYXZhLmlvLkZpbGUKCi8qKgogKiBXb3Jrc3BhY2UgY29uZmlndXJhdGlvbiBkYXRhIGNsYXNzZXMKICog5a6a5LmJ5bel5L2c5Yy66YWN572u55qE5pWw5o2u57uT5p6E77yM55So5LqO6Kej5p6QIC5vcGVyaXQvY29uZmlnLmpzb24KICovCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgV29ya3NwYWNlQ29uZmlnKAogICAgdmFsIHByb2plY3RUeXBlOiBTdHJpbmcgPSAid2ViIiwKICAgIHZhbCB0aXRsZTogU3RyaW5nPyA9IG51bGwsIC8vIOiHquWumuS5ieagh+mimO+8jG51bGwg5pe25L2/55So6buY6K6k55qEIHByb2plY3RUeXBlCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZz8gPSBudWxsLCAvLyDoh6rlrprkuYnmj4/ov7AKICAgIHZhbCBzZXJ2ZXI6IFNlcnZlckNvbmZpZyA9IFNlcnZlckNvbmZpZygpLAogICAgdmFsIHByZXZpZXc6IFByZXZpZXdDb25maWcgPSBQcmV2aWV3Q29uZmlnKCksCiAgICB2YWwgY29tbWFuZHM6IExpc3Q8Q29tbWFuZENvbmZpZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBleHBvcnQ6IEV4cG9ydENvbmZpZyA9IEV4cG9ydENvbmZpZygpLAogICAgdmFsIHdhdGNoOiBXYXRjaENvbmZpZyA9IFdhdGNoQ29uZmlnKCkKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFNlcnZlckNvbmZpZygKICAgIHZhbCBlbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgcG9ydDogSW50ID0gODA5MywKICAgIHZhbCBhdXRvU3RhcnQ6IEJvb2xlYW4gPSBmYWxzZQopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgUHJldmlld0NvbmZpZygKICAgIHZhbCB0eXBlOiBTdHJpbmcgPSAiYnJvd3NlciIsIC8vICJicm93c2VyIiB8ICJ0ZXJtaW5hbCIgfCAibm9uZSIKICAgIHZhbCB1cmw6IFN0cmluZyA9ICIiLAogICAgdmFsIHNob3dQcmV2aWV3QnV0dG9uOiBCb29sZWFuID0gZmFsc2UsIC8vIOaYr+WQpuaYvuekuiLliIfmjaLliLDmtY/op4jlmajpooTop4gi5oyJ6ZKuCiAgICB2YWwgcHJldmlld0J1dHRvbkxhYmVsOiBTdHJpbmcgPSAiIiwgLy8g6aKE6KeI5oyJ6ZKu55qE5paH5a2X77yM56m65a2X56ym5Liy5pe25L2/55So6buY6K6k5YC8CikgewogICAgZnVuIGdldExvY2FsaXplZExhYmVsKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgewogICAgICAgIHJldHVybiBpZiAocHJldmlld0J1dHRvbkxhYmVsLmlzQmxhbmsoKSkgewogICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy53b3Jrc3BhY2VfYnJvd3Nlcl9wcmV2aWV3KQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHByZXZpZXdCdXR0b25MYWJlbAogICAgICAgIH0KICAgIH0KfQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIENvbW1hbmRDb25maWcoCiAgICB2YWwgaWQ6IFN0cmluZywKICAgIHZhbCBsYWJlbDogU3RyaW5nLAogICAgdmFsIGNvbW1hbmQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHRvb2w6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHRvb2xQYXJhbWV0ZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKSwKICAgIHZhbCB3b3JraW5nRGlyOiBTdHJpbmcgPSAiLiIsCiAgICB2YWwgc2hlbGw6IEJvb2xlYW4gPSB0cnVlLAogICAgdmFsIHVzZXNEZWRpY2F0ZWRTZXNzaW9uOiBCb29sZWFuID0gZmFsc2UsIC8vIOaYr+WQpuS9v+eUqOeLrOeri+S8muivne+8iOmAgueUqOS6jumVv+aXtumXtOi/kOihjOeahOWRveS7pOWmgiB0c2Mgd2F0Y2jvvIkKICAgIHZhbCBzZXNzaW9uVGl0bGU6IFN0cmluZz8gPSBudWxsIC8vIOeLrOeri+S8muivneeahOagh+mimO+8jG51bGwg5pe25L2/55SoIGxhYmVsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBFeHBvcnRDb25maWcoCiAgICB2YWwgZW5hYmxlZDogQm9vbGVhbiA9IHRydWUgLy8g5piv5ZCm5pi+56S65a+85Ye65oyJ6ZKuCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBXYXRjaENvbmZpZygKICAgIHZhbCBlbmFibGVkOiBCb29sZWFuID0gdHJ1ZSwKICAgIHZhbCBtYXhEZXB0aDogSW50ID0gMywKICAgIHZhbCBtYXhDaGFuZ2VkRmlsZXM6IEludCA9IDgwLAogICAgdmFsIGV4Y2x1ZGU6IExpc3Q8U3RyaW5nPiA9IGxpc3RPZigiLmdpdCIsICIub3Blcml0IiwgIi5iYWNrdXAiLCAiYmFja3VwIikKKQoKb2JqZWN0IFdvcmtzcGFjZUNvbmZpZ1JlYWRlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiV29ya3NwYWNlQ29uZmlnUmVhZGVyIgogICAgcHJpdmF0ZSB2YWwganNvbiA9IEpzb24geyAKICAgICAgICBpZ25vcmVVbmtub3duS2V5cyA9IHRydWUKICAgICAgICBpc0xlbmllbnQgPSB0cnVlCiAgICB9CgogICAgLyoqCiAgICAgKiDor7vlj5blt6XkvZzljLrphY3nva7mlofku7YKICAgICAqIEBwYXJhbSB3b3Jrc3BhY2VQYXRoIOW3peS9nOWMuuagueebruW9lei3r+W+hAogICAgICogQHJldHVybiDop6PmnpDlkI7nmoTphY3nva7lr7nosaHvvIzlpoLmnpzkuI3lrZjlnKjmiJbop6PmnpDlpLHotKXliJnov5Tlm57pu5jorqTphY3nva4KICAgICAqLwogICAgZnVuIHJlYWRDb25maWcod29ya3NwYWNlUGF0aDogU3RyaW5nKTogV29ya3NwYWNlQ29uZmlnIHsKICAgICAgICB2YWwgY29uZmlnRmlsZSA9IEZpbGUod29ya3NwYWNlUGF0aCwgIi5vcGVyaXQvY29uZmlnLmpzb24iKQogICAgICAgIAogICAgICAgIGlmICghY29uZmlnRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJDb25maWcgZmlsZSBub3QgZm91bmQgYXQgJHtjb25maWdGaWxlLmFic29sdXRlUGF0aH0sIHVzaW5nIGRlZmF1bHQiKQogICAgICAgICAgICByZXR1cm4gZ2V0RGVmYXVsdFdlYkNvbmZpZygpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGNvbnRlbnQgPSBjb25maWdGaWxlLnJlYWRUZXh0KCkKICAgICAgICAgICAganNvbi5kZWNvZGVGcm9tU3RyaW5nPFdvcmtzcGFjZUNvbmZpZz4oY29udGVudCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIHBhcnNlIGNvbmZpZyBmaWxlOiAke2UubWVzc2FnZX0iLCBlKQogICAgICAgICAgICBnZXREZWZhdWx0V2ViQ29uZmlnKCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6Xlt6XkvZzljLrmmK/lkKbmnInphY3nva7mlofku7YKICAgICAqLwogICAgZnVuIGhhc0NvbmZpZyh3b3Jrc3BhY2VQYXRoOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwgY29uZmlnRmlsZSA9IEZpbGUod29ya3NwYWNlUGF0aCwgIi5vcGVyaXQvY29uZmlnLmpzb24iKQogICAgICAgIHJldHVybiBjb25maWdGaWxlLmV4aXN0cygpCiAgICB9CgogICAgLyoqCiAgICAgKiDpu5jorqQgV2ViIOmFjee9ru+8iOWQkeWQjuWFvOWuueaXp+W3peS9nOWMuu+8iQogICAgICovCiAgICBwcml2YXRlIGZ1biBnZXREZWZhdWx0V2ViQ29uZmlnKCk6IFdvcmtzcGFjZUNvbmZpZyB7CiAgICAgICAgcmV0dXJuIFdvcmtzcGFjZUNvbmZpZygKICAgICAgICAgICAgcHJvamVjdFR5cGUgPSAid2ViIiwKICAgICAgICAgICAgc2VydmVyID0gU2VydmVyQ29uZmlnKAogICAgICAgICAgICAgICAgZW5hYmxlZCA9IHRydWUsCiAgICAgICAgICAgICAgICBwb3J0ID0gODA5MywKICAgICAgICAgICAgICAgIGF1dG9TdGFydCA9IHRydWUKICAgICAgICAgICAgKSwKICAgICAgICAgICAgcHJldmlldyA9IFByZXZpZXdDb25maWcoCiAgICAgICAgICAgICAgICB0eXBlID0gImJyb3dzZXIiLAogICAgICAgICAgICAgICAgdXJsID0gImh0dHA6Ly9sb2NhbGhvc3Q6ODA5MyIKICAgICAgICAgICAgKSwKICAgICAgICAgICAgY29tbWFuZHMgPSBlbXB0eUxpc3QoKQogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
+import java.io.File
+
+/**
+ * Workspace configuration data classes
+ * 定义工作区配置的数据结构，用于解析 .operit/config.json
+ */
+
+@Serializable
+data class WorkspaceConfig(
+    val projectType: String = "web",
+    val title: String? = null, // 自定义标题，null 时使用默认的 projectType
+    val description: String? = null, // 自定义描述
+    val server: ServerConfig = ServerConfig(),
+    val preview: PreviewConfig = PreviewConfig(),
+    val commands: List<CommandConfig> = emptyList(),
+    val export: ExportConfig = ExportConfig(),
+    val watch: WatchConfig = WatchConfig()
+)
+
+@Serializable
+data class ServerConfig(
+    val enabled: Boolean = false,
+    val port: Int = 8093,
+    val autoStart: Boolean = false
+)
+
+@Serializable
+data class PreviewConfig(
+    val type: String = "browser", // "browser" | "terminal" | "none"
+    val url: String = "",
+    val showPreviewButton: Boolean = false, // 是否显示"切换到浏览器预览"按钮
+    val previewButtonLabel: String = "", // 预览按钮的文字，空字符串时使用默认值
+) {
+    fun getLocalizedLabel(context: Context): String {
+        return if (previewButtonLabel.isBlank()) {
+            context.getString(R.string.workspace_browser_preview)
+        } else {
+            previewButtonLabel
+        }
+    }
+}
+
+@Serializable
+data class CommandConfig(
+    val id: String,
+    val label: String,
+    val command: String? = null,
+    val tool: String? = null,
+    val toolParameters: Map<String, String> = emptyMap(),
+    val workingDir: String = ".",
+    val shell: Boolean = true,
+    val usesDedicatedSession: Boolean = false, // 是否使用独立会话（适用于长时间运行的命令如 tsc watch）
+    val sessionTitle: String? = null // 独立会话的标题，null 时使用 label
+)
+
+@Serializable
+data class ExportConfig(
+    val enabled: Boolean = true // 是否显示导出按钮
+)
+
+@Serializable
+data class WatchConfig(
+    val enabled: Boolean = true,
+    val maxDepth: Int = 3,
+    val maxChangedFiles: Int = 80,
+    val exclude: List<String> = listOf(".git", ".operit", ".backup", "backup")
+)
+
+object WorkspaceConfigReader {
+    private const val TAG = "WorkspaceConfigReader"
+    private val json = Json { 
+        ignoreUnknownKeys = true
+        isLenient = true
+    }
+
+    /**
+     * 读取工作区配置文件
+     * @param workspacePath 工作区根目录路径
+     * @return 解析后的配置对象，如果不存在或解析失败则返回默认配置
+     */
+    fun readConfig(workspacePath: String): WorkspaceConfig {
+        val configFile = File(workspacePath, ".operit/config.json")
+        
+        if (!configFile.exists()) {
+            AppLogger.d(TAG, "Config file not found at ${configFile.absolutePath}, using default")
+            return getDefaultWebConfig()
+        }
+
+        return try {
+            val content = configFile.readText()
+            json.decodeFromString<WorkspaceConfig>(content)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to parse config file: ${e.message}", e)
+            getDefaultWebConfig()
+        }
+    }
+
+    /**
+     * 检查工作区是否有配置文件
+     */
+    fun hasConfig(workspacePath: String): Boolean {
+        val configFile = File(workspacePath, ".operit/config.json")
+        return configFile.exists()
+    }
+
+    /**
+     * 默认 Web 配置（向后兼容旧工作区）
+     */
+    private fun getDefaultWebConfig(): WorkspaceConfig {
+        return WorkspaceConfig(
+            projectType = "web",
+            server = ServerConfig(
+                enabled = true,
+                port = 8093,
+                autoStart = true
+            ),
+            preview = PreviewConfig(
+                type = "browser",
+                url = "http://localhost:8093"
+            ),
+            commands = emptyList()
+        )
+    }
+}

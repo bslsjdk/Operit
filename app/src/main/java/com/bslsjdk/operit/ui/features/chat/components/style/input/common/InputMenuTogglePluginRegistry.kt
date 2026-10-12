@@ -1,1 +1,80 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnN0eWxlLmlucHV0LmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uU3RyaW5nUmVzCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db3B5T25Xcml0ZUFycmF5TGlzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cudXBkYXRlCgpvYmplY3QgSW5wdXRNZW51VG9nZ2xlU2xvdHMgewogICAgY29uc3QgdmFsIFRISU5LSU5HID0gInRoaW5raW5nIgogICAgY29uc3QgdmFsIE1FTU9SWSA9ICJtZW1vcnkiCiAgICBjb25zdCB2YWwgTU9ERUwgPSAibW9kZWwiCiAgICBjb25zdCB2YWwgVE9PTFMgPSAidG9vbHMiCiAgICBjb25zdCB2YWwgR0VORVJBTCA9ICJnZW5lcmFsIgogICAgY29uc3QgdmFsIERFRkFVTFQgPSAiZGVmYXVsdCIKCiAgICB2YWwgYnVpbHRJblNsb3RzID0gc2V0T2YoVEhJTktJTkcsIE1FTU9SWSwgTU9ERUwsIFRPT0xTLCBHRU5FUkFMLCBERUZBVUxUKQoKICAgIGZ1biBub3JtYWxpemUoc2xvdDogU3RyaW5nPyk6IFN0cmluZyB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBzbG90Py50cmltKCkub3JFbXB0eSgpCiAgICAgICAgcmV0dXJuIGlmIChub3JtYWxpemVkIGluIGJ1aWx0SW5TbG90cykgbm9ybWFsaXplZCBlbHNlIERFRkFVTFQKICAgIH0KfQoKZGF0YSBjbGFzcyBJbnB1dE1lbnVUb2dnbGVIb29rUGFyYW1zKAogICAgdmFsIGNvbnRleHQ6IGFuZHJvaWQuY29udGVudC5Db250ZXh0LAogICAgdmFsIGNoYXRJZDogU3RyaW5nPywKICAgIHZhbCBmZWF0dXJlU3RhdGVzOiBNYXA8U3RyaW5nLCBCb29sZWFuPiwKICAgIHZhbCBvblRvZ2dsZUZlYXR1cmU6IChTdHJpbmcpIC0+IFVuaXQsCiAgICB2YWwgcnVudGltZTogU3RyaW5nPyA9IG51bGwKKQoKZGF0YSBjbGFzcyBJbnB1dE1lbnVUb2dnbGVEZWZpbml0aW9uKAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICBAU3RyaW5nUmVzIHZhbCB0aXRsZVJlczogSW50ID0gMCwKICAgIEBTdHJpbmdSZXMgdmFsIGRlc2NyaXB0aW9uUmVzOiBJbnQgPSAwLAogICAgdmFsIHRpdGxlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgaWNvbjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgaXNDaGVja2VkOiBCb29sZWFuLAogICAgdmFsIGlzRW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICB2YWwgc2xvdDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgb25Ub2dnbGU6ICgpIC0+IFVuaXQKKQoKaW50ZXJmYWNlIElucHV0TWVudVRvZ2dsZVBsdWdpbiB7CiAgICB2YWwgaWQ6IFN0cmluZwoKICAgIGZ1biBjcmVhdGVUb2dnbGVzKHBhcmFtczogSW5wdXRNZW51VG9nZ2xlSG9va1BhcmFtcyk6IExpc3Q8SW5wdXRNZW51VG9nZ2xlRGVmaW5pdGlvbj4KfQoKb2JqZWN0IElucHV0TWVudVRvZ2dsZVBsdWdpblJlZ2lzdHJ5IHsKICAgIHByaXZhdGUgdmFsIHBsdWdpbnMgPSBDb3B5T25Xcml0ZUFycmF5TGlzdDxJbnB1dE1lbnVUb2dnbGVQbHVnaW4+KCkKICAgIHByaXZhdGUgdmFsIGNoYW5nZVZlcnNpb25NdXRhYmxlID0gTXV0YWJsZVN0YXRlRmxvdygwKQogICAgdmFsIGNoYW5nZVZlcnNpb246IFN0YXRlRmxvdzxJbnQ+ID0gY2hhbmdlVmVyc2lvbk11dGFibGUuYXNTdGF0ZUZsb3coKQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biByZWdpc3RlcihwbHVnaW46IElucHV0TWVudVRvZ2dsZVBsdWdpbikgewogICAgICAgIHVucmVnaXN0ZXIocGx1Z2luLmlkKQogICAgICAgIHBsdWdpbnMuYWRkKHBsdWdpbikKICAgICAgICBub3RpZnlDaGFuZ2VkKCkKICAgIH0KCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gdW5yZWdpc3RlcihwbHVnaW5JZDogU3RyaW5nKSB7CiAgICAgICAgdmFsIGNoYW5nZWQgPSBwbHVnaW5zLnJlbW92ZUFsbCB7IGl0LmlkID09IHBsdWdpbklkIH0KICAgICAgICBpZiAoY2hhbmdlZCkgewogICAgICAgICAgICBub3RpZnlDaGFuZ2VkKCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIG5vdGlmeUNoYW5nZWQoKSB7CiAgICAgICAgY2hhbmdlVmVyc2lvbk11dGFibGUudXBkYXRlIHsgY3VycmVudCAtPiBjdXJyZW50ICsgMSB9CiAgICB9CgogICAgZnVuIGNyZWF0ZVRvZ2dsZXMocGFyYW1zOiBJbnB1dE1lbnVUb2dnbGVIb29rUGFyYW1zKTogTGlzdDxJbnB1dE1lbnVUb2dnbGVEZWZpbml0aW9uPiB7CiAgICAgICAgcmV0dXJuIHBsdWdpbnMuZmxhdE1hcCB7IHBsdWdpbiAtPiBwbHVnaW4uY3JlYXRlVG9nZ2xlcyhwYXJhbXMpIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.components.style.input.common
+
+import androidx.annotation.StringRes
+import java.util.concurrent.CopyOnWriteArrayList
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+
+object InputMenuToggleSlots {
+    const val THINKING = "thinking"
+    const val MEMORY = "memory"
+    const val MODEL = "model"
+    const val TOOLS = "tools"
+    const val GENERAL = "general"
+    const val DEFAULT = "default"
+
+    val builtInSlots = setOf(THINKING, MEMORY, MODEL, TOOLS, GENERAL, DEFAULT)
+
+    fun normalize(slot: String?): String {
+        val normalized = slot?.trim().orEmpty()
+        return if (normalized in builtInSlots) normalized else DEFAULT
+    }
+}
+
+data class InputMenuToggleHookParams(
+    val context: android.content.Context,
+    val chatId: String?,
+    val featureStates: Map<String, Boolean>,
+    val onToggleFeature: (String) -> Unit,
+    val runtime: String? = null
+)
+
+data class InputMenuToggleDefinition(
+    val id: String,
+    @StringRes val titleRes: Int = 0,
+    @StringRes val descriptionRes: Int = 0,
+    val title: String? = null,
+    val description: String? = null,
+    val icon: String? = null,
+    val isChecked: Boolean,
+    val isEnabled: Boolean = true,
+    val slot: String? = null,
+    val onToggle: () -> Unit
+)
+
+interface InputMenuTogglePlugin {
+    val id: String
+
+    fun createToggles(params: InputMenuToggleHookParams): List<InputMenuToggleDefinition>
+}
+
+object InputMenuTogglePluginRegistry {
+    private val plugins = CopyOnWriteArrayList<InputMenuTogglePlugin>()
+    private val changeVersionMutable = MutableStateFlow(0)
+    val changeVersion: StateFlow<Int> = changeVersionMutable.asStateFlow()
+
+    @Synchronized
+    fun register(plugin: InputMenuTogglePlugin) {
+        unregister(plugin.id)
+        plugins.add(plugin)
+        notifyChanged()
+    }
+
+    @Synchronized
+    fun unregister(pluginId: String) {
+        val changed = plugins.removeAll { it.id == pluginId }
+        if (changed) {
+            notifyChanged()
+        }
+    }
+
+    fun notifyChanged() {
+        changeVersionMutable.update { current -> current + 1 }
+    }
+
+    fun createToggles(params: InputMenuToggleHookParams): List<InputMenuToggleDefinition> {
+        return plugins.flatMap { plugin -> plugin.createToggles(params) }
+    }
+}

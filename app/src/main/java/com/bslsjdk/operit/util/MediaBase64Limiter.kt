@@ -1,1 +1,62 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQudXRpbC5CYXNlNjQKCm9iamVjdCBNZWRpYUJhc2U2NExpbWl0ZXIgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgREVGQVVMVF9NQVhfREVDT0RFRF9CWVRFUyA9IDIwICogMTAyNCAqIDEwMjQKCiAgICBkYXRhIGNsYXNzIExpbWl0ZWRNZWRpYSgKICAgICAgICB2YWwgYmFzZTY0OiBTdHJpbmcsCiAgICAgICAgdmFsIG1pbWVUeXBlOiBTdHJpbmcKICAgICkKCiAgICBmdW4gZXN0aW1hdGVEZWNvZGVkU2l6ZUJ5dGVzKGJhc2U2NDogU3RyaW5nKTogSW50PyB7CiAgICAgICAgdmFyIGNvdW50ID0gMAogICAgICAgIGZvciAoYyBpbiBiYXNlNjQpIHsKICAgICAgICAgICAgaWYgKCFjLmlzV2hpdGVzcGFjZSgpKSBjb3VudCArPSAxCiAgICAgICAgfQogICAgICAgIGlmIChjb3VudCA8PSAwKSByZXR1cm4gMAoKICAgICAgICB2YXIgcGFkZGluZyA9IDAKICAgICAgICB2YXIgaSA9IGJhc2U2NC5sZW5ndGggLSAxCiAgICAgICAgd2hpbGUgKGkgPj0gMCkgewogICAgICAgICAgICB2YWwgYyA9IGJhc2U2NFtpXQogICAgICAgICAgICBpZiAoYy5pc1doaXRlc3BhY2UoKSkgewogICAgICAgICAgICAgICAgaSAtPSAxCiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChjID09ICc9JykgewogICAgICAgICAgICAgICAgcGFkZGluZyArPSAxCiAgICAgICAgICAgICAgICBpIC09IDEKICAgICAgICAgICAgICAgIGlmIChwYWRkaW5nID49IDIpIGJyZWFrCiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgfQoKICAgICAgICB2YWwgZGVjb2RlZCA9IChjb3VudCAqIDMpIC8gNCAtIHBhZGRpbmcKICAgICAgICByZXR1cm4gZGVjb2RlZC5jb2VyY2VBdExlYXN0KDApCiAgICB9CgogICAgZnVuIGxpbWl0QmFzZTY0Rm9yQWkoYmFzZTY0OiBTdHJpbmcsIG1pbWVUeXBlOiBTdHJpbmcsIG1heERlY29kZWRCeXRlczogSW50ID0gREVGQVVMVF9NQVhfREVDT0RFRF9CWVRFUyk6IExpbWl0ZWRNZWRpYT8gewogICAgICAgIHZhbCBlc3RpbWF0ZWQgPSBlc3RpbWF0ZURlY29kZWRTaXplQnl0ZXMoYmFzZTY0KSA/OiByZXR1cm4gbnVsbAogICAgICAgIGlmIChlc3RpbWF0ZWQgPiBtYXhEZWNvZGVkQnl0ZXMpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIHZhbCBieXRlcyA9IHRyeSB7CiAgICAgICAgICAgIEJhc2U2NC5kZWNvZGUoYmFzZTY0LCBCYXNlNjQuREVGQVVMVCkKICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIGlmIChieXRlcy5zaXplID4gbWF4RGVjb2RlZEJ5dGVzKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gTGltaXRlZE1lZGlhKAogICAgICAgICAgICBiYXNlNjQgPSBCYXNlNjQuZW5jb2RlVG9TdHJpbmcoYnl0ZXMsIEJhc2U2NC5OT19XUkFQKSwKICAgICAgICAgICAgbWltZVR5cGUgPSBtaW1lVHlwZQogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import android.util.Base64
+
+object MediaBase64Limiter {
+    private const val DEFAULT_MAX_DECODED_BYTES = 20 * 1024 * 1024
+
+    data class LimitedMedia(
+        val base64: String,
+        val mimeType: String
+    )
+
+    fun estimateDecodedSizeBytes(base64: String): Int? {
+        var count = 0
+        for (c in base64) {
+            if (!c.isWhitespace()) count += 1
+        }
+        if (count <= 0) return 0
+
+        var padding = 0
+        var i = base64.length - 1
+        while (i >= 0) {
+            val c = base64[i]
+            if (c.isWhitespace()) {
+                i -= 1
+                continue
+            }
+            if (c == '=') {
+                padding += 1
+                i -= 1
+                if (padding >= 2) break
+                continue
+            }
+            break
+        }
+
+        val decoded = (count * 3) / 4 - padding
+        return decoded.coerceAtLeast(0)
+    }
+
+    fun limitBase64ForAi(base64: String, mimeType: String, maxDecodedBytes: Int = DEFAULT_MAX_DECODED_BYTES): LimitedMedia? {
+        val estimated = estimateDecodedSizeBytes(base64) ?: return null
+        if (estimated > maxDecodedBytes) {
+            return null
+        }
+
+        val bytes = try {
+            Base64.decode(base64, Base64.DEFAULT)
+        } catch (_: Throwable) {
+            return null
+        }
+
+        if (bytes.size > maxDecodedBytes) {
+            return null
+        }
+
+        return LimitedMedia(
+            base64 = Base64.encodeToString(bytes, Base64.NO_WRAP),
+            mimeType = mimeType
+        )
+    }
+}

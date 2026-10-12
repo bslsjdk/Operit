@@ -1,1 +1,159 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE5vdE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0TnVsbAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZVRpbWUKCmNsYXNzIENoYXRIaXN0b3J5VGVzdCB7CgogICAgcHJpdmF0ZSBmdW4gY3JlYXRlSGlzdG9yeSgKICAgICAgICBpZDogU3RyaW5nID0gImhpc3QxIiwKICAgICAgICB0aXRsZTogU3RyaW5nID0gIlRlc3QgSGlzdG9yeSIsCiAgICAgICAgbWVzc2FnZXM6IExpc3Q8Q2hhdE1lc3NhZ2U+ID0gZW1wdHlMaXN0KCksCiAgICAgICAgZGlzcGxheU9yZGVyOiBMb25nID0gMEwsCiAgICApID0gQ2hhdEhpc3RvcnkoCiAgICAgICAgaWQgPSBpZCwgdGl0bGUgPSB0aXRsZSwgbWVzc2FnZXMgPSBtZXNzYWdlcywKICAgICAgICBjcmVhdGVkQXQgPSBMb2NhbERhdGVUaW1lLm9mKDIwMjQsIDEsIDE1LCAxMCwgMzApLAogICAgICAgIHVwZGF0ZWRBdCA9IExvY2FsRGF0ZVRpbWUub2YoMjAyNCwgMSwgMTUsIDExLCAwKSwKICAgICAgICBkaXNwbGF5T3JkZXIgPSBkaXNwbGF5T3JkZXIsCiAgICApCgogICAgQFRlc3QgZnVuIGBjcmVhdGUgd2l0aCByZXF1aXJlZCBmaWVsZHNgKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJoaXN0MSIsIGhpc3QuaWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJUZXN0IEhpc3RvcnkiLCBoaXN0LnRpdGxlKQogICAgICAgIGFzc2VydFRydWUoaGlzdC5tZXNzYWdlcy5pc0VtcHR5KCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBtZXNzYWdlcyBsaXN0IGlzIHByZXNlcnZlZGAoKSB7CiAgICAgICAgdmFsIG1zZ3MgPSBsaXN0T2YoCiAgICAgICAgICAgIENoYXRNZXNzYWdlKHNlbmRlciA9ICJ1c2VyIiwgY29udGVudCA9ICJIaSIpLAogICAgICAgICAgICBDaGF0TWVzc2FnZShzZW5kZXIgPSAiYWkiLCBjb250ZW50ID0gIkhlbGxvIiksCiAgICAgICAgKQogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeShtZXNzYWdlcyA9IG1zZ3MpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIsIGhpc3QubWVzc2FnZXMuc2l6ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoIkhpIiwgaGlzdC5tZXNzYWdlc1swXS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlZCBhdCBpcyBwcmVzZXJ2ZWRgKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKExvY2FsRGF0ZVRpbWUub2YoMjAyNCwgMSwgMTUsIDEwLCAzMCksIGhpc3QuY3JlYXRlZEF0KQogICAgfQoKICAgIEBUZXN0IGZ1biBgdXBkYXRlZCBhdCBpcyBwcmVzZXJ2ZWRgKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKExvY2FsRGF0ZVRpbWUub2YoMjAyNCwgMSwgMTUsIDExLCAwKSwgaGlzdC51cGRhdGVkQXQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBkaXNwbGF5IG9yZGVyIGRlZmF1bHRzIHRvIHplcm9gKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBoaXN0LmRpc3BsYXlPcmRlcikKICAgIH0KCiAgICBAVGVzdCBmdW4gYGRpc3BsYXkgb3JkZXIgY2FuIGJlIHNldGAoKSB7CiAgICAgICAgdmFsIGhpc3QgPSBjcmVhdGVIaXN0b3J5KGRpc3BsYXlPcmRlciA9IDQyTCkKICAgICAgICBhc3NlcnRFcXVhbHMoNDJMLCBoaXN0LmRpc3BsYXlPcmRlcikKICAgIH0KCiAgICBAVGVzdCBmdW4gYGlucHV0IHRva2VucyBkZWZhdWx0cyB0byB6ZXJvYCgpIHsKICAgICAgICB2YWwgaGlzdCA9IGNyZWF0ZUhpc3RvcnkoKQogICAgICAgIGFzc2VydEVxdWFscygwLCBoaXN0LmlucHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0IGZ1biBgb3V0cHV0IHRva2VucyBkZWZhdWx0cyB0byB6ZXJvYCgpIHsKICAgICAgICB2YWwgaGlzdCA9IGNyZWF0ZUhpc3RvcnkoKQogICAgICAgIGFzc2VydEVxdWFscygwLCBoaXN0Lm91dHB1dFRva2VucykKICAgIH0KCiAgICBAVGVzdCBmdW4gYGN1cnJlbnQgd2luZG93IHNpemUgZGVmYXVsdHMgdG8gemVyb2AoKSB7CiAgICAgICAgdmFsIGhpc3QgPSBjcmVhdGVIaXN0b3J5KCkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgaGlzdC5jdXJyZW50V2luZG93U2l6ZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGdyb3VwIGRlZmF1bHRzIHRvIG51bGxgKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgYXNzZXJ0TnVsbChoaXN0Lmdyb3VwKQogICAgfQoKICAgIEBUZXN0IGZ1biBgd29ya3NwYWNlIGRlZmF1bHRzIHRvIG51bGxgKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgYXNzZXJ0TnVsbChoaXN0LndvcmtzcGFjZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHBhcmVudCBjaGF0IGlkIGRlZmF1bHRzIHRvIG51bGxgKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgYXNzZXJ0TnVsbChoaXN0LnBhcmVudENoYXRJZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNoYXJhY3RlciBjYXJkIG5hbWUgZGVmYXVsdHMgdG8gbnVsbGAoKSB7CiAgICAgICAgdmFsIGhpc3QgPSBjcmVhdGVIaXN0b3J5KCkKICAgICAgICBhc3NlcnROdWxsKGhpc3QuY2hhcmFjdGVyQ2FyZE5hbWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjaGFyYWN0ZXIgZ3JvdXAgaWQgZGVmYXVsdHMgdG8gbnVsbGAoKSB7CiAgICAgICAgdmFsIGhpc3QgPSBjcmVhdGVIaXN0b3J5KCkKICAgICAgICBhc3NlcnROdWxsKGhpc3QuY2hhcmFjdGVyR3JvdXBJZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGxvY2tlZCBkZWZhdWx0cyB0byBmYWxzZWAoKSB7CiAgICAgICAgdmFsIGhpc3QgPSBjcmVhdGVIaXN0b3J5KCkKICAgICAgICBhc3NlcnRGYWxzZShoaXN0LmxvY2tlZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHBpbm5lZCBkZWZhdWx0cyB0byBmYWxzZWAoKSB7CiAgICAgICAgdmFsIGhpc3QgPSBjcmVhdGVIaXN0b3J5KCkKICAgICAgICBhc3NlcnRGYWxzZShoaXN0LnBpbm5lZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNvcHkgd2l0aCBuZXcgdGl0bGVgKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgdmFsIGNvcHkgPSBoaXN0LmNvcHkodGl0bGUgPSAiVXBkYXRlZCBUaXRsZSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJVcGRhdGVkIFRpdGxlIiwgY29weS50aXRsZSkKICAgICAgICBhc3NlcnRFcXVhbHMoaGlzdC5pZCwgY29weS5pZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNvcHkgd2l0aCBuZXcgbWVzc2FnZXNgKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgdmFsIG5ld01zZ3MgPSBsaXN0T2YoQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiLCBjb250ZW50ID0gIk5ldyIpKQogICAgICAgIHZhbCBjb3B5ID0gaGlzdC5jb3B5KG1lc3NhZ2VzID0gbmV3TXNncykKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgY29weS5tZXNzYWdlcy5zaXplKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSB3aXRoIHRva2Vuc2AoKSB7CiAgICAgICAgdmFsIGhpc3QgPSBjcmVhdGVIaXN0b3J5KCkKICAgICAgICB2YWwgY29weSA9IGhpc3QuY29weShpbnB1dFRva2VucyA9IDEwMCwgb3V0cHV0VG9rZW5zID0gNTAsIGN1cnJlbnRXaW5kb3dTaXplID0gMTApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMCwgY29weS5pbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoNTAsIGNvcHkub3V0cHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygxMCwgY29weS5jdXJyZW50V2luZG93U2l6ZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNvcHkgd2l0aCBncm91cCBhbmQgd29ya3NwYWNlYCgpIHsKICAgICAgICB2YWwgaGlzdCA9IGNyZWF0ZUhpc3RvcnkoKQogICAgICAgIHZhbCBjb3B5ID0gaGlzdC5jb3B5KGdyb3VwID0gImdyb3VwMSIsIHdvcmtzcGFjZSA9ICJ3czEiKQogICAgICAgIGFzc2VydEVxdWFscygiZ3JvdXAxIiwgY29weS5ncm91cCkKICAgICAgICBhc3NlcnRFcXVhbHMoIndzMSIsIGNvcHkud29ya3NwYWNlKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSB3aXRoIHBhcmVudCBjaGF0IGFuZCBjaGFyYWN0ZXJgKCkgewogICAgICAgIHZhbCBoaXN0ID0gY3JlYXRlSGlzdG9yeSgpCiAgICAgICAgdmFsIGNvcHkgPSBoaXN0LmNvcHkoCiAgICAgICAgICAgIHBhcmVudENoYXRJZCA9ICJwYXJlbnQxIiwKICAgICAgICAgICAgY2hhcmFjdGVyQ2FyZE5hbWUgPSAiY2hhcjEiLAogICAgICAgICAgICBjaGFyYWN0ZXJHcm91cElkID0gImdyb3VwMSIsCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygicGFyZW50MSIsIGNvcHkucGFyZW50Q2hhdElkKQogICAgICAgIGFzc2VydEVxdWFscygiY2hhcjEiLCBjb3B5LmNoYXJhY3RlckNhcmROYW1lKQogICAgICAgIGFzc2VydEVxdWFscygiZ3JvdXAxIiwgY29weS5jaGFyYWN0ZXJHcm91cElkKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSB3aXRoIHBpbm5lZCBhbmQgbG9ja2VkYCgpIHsKICAgICAgICB2YWwgaGlzdCA9IGNyZWF0ZUhpc3RvcnkoKQogICAgICAgIHZhbCBjb3B5ID0gaGlzdC5jb3B5KGxvY2tlZCA9IHRydWUsIHBpbm5lZCA9IHRydWUpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb3B5LmxvY2tlZCkKICAgICAgICBhc3NlcnRUcnVlKGNvcHkucGlubmVkKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import java.time.LocalDateTime
+
+class ChatHistoryTest {
+
+    private fun createHistory(
+        id: String = "hist1",
+        title: String = "Test History",
+        messages: List<ChatMessage> = emptyList(),
+        displayOrder: Long = 0L,
+    ) = ChatHistory(
+        id = id, title = title, messages = messages,
+        createdAt = LocalDateTime.of(2024, 1, 15, 10, 30),
+        updatedAt = LocalDateTime.of(2024, 1, 15, 11, 0),
+        displayOrder = displayOrder,
+    )
+
+    @Test fun `create with required fields`() {
+        val hist = createHistory()
+        assertEquals("hist1", hist.id)
+        assertEquals("Test History", hist.title)
+        assertTrue(hist.messages.isEmpty())
+    }
+
+    @Test fun `messages list is preserved`() {
+        val msgs = listOf(
+            ChatMessage(sender = "user", content = "Hi"),
+            ChatMessage(sender = "ai", content = "Hello"),
+        )
+        val hist = createHistory(messages = msgs)
+        assertEquals(2, hist.messages.size)
+        assertEquals("Hi", hist.messages[0].content)
+    }
+
+    @Test fun `created at is preserved`() {
+        val hist = createHistory()
+        assertEquals(LocalDateTime.of(2024, 1, 15, 10, 30), hist.createdAt)
+    }
+
+    @Test fun `updated at is preserved`() {
+        val hist = createHistory()
+        assertEquals(LocalDateTime.of(2024, 1, 15, 11, 0), hist.updatedAt)
+    }
+
+    @Test fun `display order defaults to zero`() {
+        val hist = createHistory()
+        assertEquals(0L, hist.displayOrder)
+    }
+
+    @Test fun `display order can be set`() {
+        val hist = createHistory(displayOrder = 42L)
+        assertEquals(42L, hist.displayOrder)
+    }
+
+    @Test fun `input tokens defaults to zero`() {
+        val hist = createHistory()
+        assertEquals(0, hist.inputTokens)
+    }
+
+    @Test fun `output tokens defaults to zero`() {
+        val hist = createHistory()
+        assertEquals(0, hist.outputTokens)
+    }
+
+    @Test fun `current window size defaults to zero`() {
+        val hist = createHistory()
+        assertEquals(0, hist.currentWindowSize)
+    }
+
+    @Test fun `group defaults to null`() {
+        val hist = createHistory()
+        assertNull(hist.group)
+    }
+
+    @Test fun `workspace defaults to null`() {
+        val hist = createHistory()
+        assertNull(hist.workspace)
+    }
+
+    @Test fun `parent chat id defaults to null`() {
+        val hist = createHistory()
+        assertNull(hist.parentChatId)
+    }
+
+    @Test fun `character card name defaults to null`() {
+        val hist = createHistory()
+        assertNull(hist.characterCardName)
+    }
+
+    @Test fun `character group id defaults to null`() {
+        val hist = createHistory()
+        assertNull(hist.characterGroupId)
+    }
+
+    @Test fun `locked defaults to false`() {
+        val hist = createHistory()
+        assertFalse(hist.locked)
+    }
+
+    @Test fun `pinned defaults to false`() {
+        val hist = createHistory()
+        assertFalse(hist.pinned)
+    }
+
+    @Test fun `copy with new title`() {
+        val hist = createHistory()
+        val copy = hist.copy(title = "Updated Title")
+        assertEquals("Updated Title", copy.title)
+        assertEquals(hist.id, copy.id)
+    }
+
+    @Test fun `copy with new messages`() {
+        val hist = createHistory()
+        val newMsgs = listOf(ChatMessage(sender = "user", content = "New"))
+        val copy = hist.copy(messages = newMsgs)
+        assertEquals(1, copy.messages.size)
+    }
+
+    @Test fun `copy with tokens`() {
+        val hist = createHistory()
+        val copy = hist.copy(inputTokens = 100, outputTokens = 50, currentWindowSize = 10)
+        assertEquals(100, copy.inputTokens)
+        assertEquals(50, copy.outputTokens)
+        assertEquals(10, copy.currentWindowSize)
+    }
+
+    @Test fun `copy with group and workspace`() {
+        val hist = createHistory()
+        val copy = hist.copy(group = "group1", workspace = "ws1")
+        assertEquals("group1", copy.group)
+        assertEquals("ws1", copy.workspace)
+    }
+
+    @Test fun `copy with parent chat and character`() {
+        val hist = createHistory()
+        val copy = hist.copy(
+            parentChatId = "parent1",
+            characterCardName = "char1",
+            characterGroupId = "group1",
+        )
+        assertEquals("parent1", copy.parentChatId)
+        assertEquals("char1", copy.characterCardName)
+        assertEquals("group1", copy.characterGroupId)
+    }
+
+    @Test fun `copy with pinned and locked`() {
+        val hist = createHistory()
+        val copy = hist.copy(locked = true, pinned = true)
+        assertTrue(copy.locked)
+        assertTrue(copy.pinned)
+    }
+}

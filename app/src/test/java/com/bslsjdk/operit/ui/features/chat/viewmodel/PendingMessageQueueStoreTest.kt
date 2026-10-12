@@ -1,1 +1,30 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC52aWV3bW9kZWwKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgUGVuZGluZ01lc3NhZ2VRdWV1ZVN0b3JlVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIHF1ZXVlUmVtYWluc0F2YWlsYWJsZVdoZW5Bbm90aGVyQ2hhdElzVmlzaXRlZCgpIHsKICAgICAgICB2YWwgc3RvcmUgPSBQZW5kaW5nTWVzc2FnZVF1ZXVlU3RvcmUoKQoKICAgICAgICBzdG9yZS5lbnF1ZXVlKGNoYXRJZCA9ICJjaGF0LWEiLCB0ZXh0ID0gInNlbmQgYWZ0ZXIgcmVwbHkiLCBpc1F1ZXVlQmxvY2tlZCA9IHRydWUpCgogICAgICAgIGFzc2VydEZhbHNlKHN0b3JlLmNvbnN1bWVBdXRvRGVxdWV1ZVNpZ25hbChjaGF0SWQgPSAiY2hhdC1iIiwgaXNRdWV1ZUJsb2NrZWQgPSBmYWxzZSkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigic2VuZCBhZnRlciByZXBseSIpLCBzdG9yZS5zdGF0ZXMudmFsdWUuZ2V0VmFsdWUoImNoYXQtYSIpLm1lc3NhZ2VzLm1hcCB7IGl0LnRleHQgfSkKICAgICAgICBhc3NlcnRUcnVlKHN0b3JlLmNvbnN1bWVBdXRvRGVxdWV1ZVNpZ25hbChjaGF0SWQgPSAiY2hhdC1hIiwgaXNRdWV1ZUJsb2NrZWQgPSBmYWxzZSkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBjYW5jZWxsaW5nQ3VycmVudFR1cm5Db25zdW1lc09ubHlUaGVOZXh0QXV0b0RlcXVldWUoKSB7CiAgICAgICAgdmFsIHN0b3JlID0gUGVuZGluZ01lc3NhZ2VRdWV1ZVN0b3JlKCkKCiAgICAgICAgc3RvcmUuZW5xdWV1ZShjaGF0SWQgPSAiY2hhdC1hIiwgdGV4dCA9ICJmaXJzdCIsIGlzUXVldWVCbG9ja2VkID0gdHJ1ZSkKICAgICAgICBzdG9yZS5zdXBwcmVzc05leHRBdXRvRGVxdWV1ZSgiY2hhdC1hIikKCiAgICAgICAgYXNzZXJ0RmFsc2Uoc3RvcmUuY29uc3VtZUF1dG9EZXF1ZXVlU2lnbmFsKGNoYXRJZCA9ICJjaGF0LWEiLCBpc1F1ZXVlQmxvY2tlZCA9IGZhbHNlKSkKICAgICAgICBhc3NlcnRGYWxzZShzdG9yZS5jb25zdW1lQXV0b0RlcXVldWVTaWduYWwoY2hhdElkID0gImNoYXQtYSIsIGlzUXVldWVCbG9ja2VkID0gZmFsc2UpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.viewmodel
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class PendingMessageQueueStoreTest {
+    @Test
+    fun queueRemainsAvailableWhenAnotherChatIsVisited() {
+        val store = PendingMessageQueueStore()
+
+        store.enqueue(chatId = "chat-a", text = "send after reply", isQueueBlocked = true)
+
+        assertFalse(store.consumeAutoDequeueSignal(chatId = "chat-b", isQueueBlocked = false))
+        assertEquals(listOf("send after reply"), store.states.value.getValue("chat-a").messages.map { it.text })
+        assertTrue(store.consumeAutoDequeueSignal(chatId = "chat-a", isQueueBlocked = false))
+    }
+
+    @Test
+    fun cancellingCurrentTurnConsumesOnlyTheNextAutoDequeue() {
+        val store = PendingMessageQueueStore()
+
+        store.enqueue(chatId = "chat-a", text = "first", isQueueBlocked = true)
+        store.suppressNextAutoDequeue("chat-a")
+
+        assertFalse(store.consumeAutoDequeueSignal(chatId = "chat-a", isQueueBlocked = false))
+        assertFalse(store.consumeAutoDequeueSignal(chatId = "chat-a", isQueueBlocked = false))
+    }
+}

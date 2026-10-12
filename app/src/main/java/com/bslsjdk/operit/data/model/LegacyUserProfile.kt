@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCi8qKiBSZWxlYXNlZCBzdHJ1Y3R1cmVkIHByb2ZpbGUgcGF5bG9hZCwgcmV0YWluZWQgb25seSBzbyBsYXRlciBtaWdyYXRpb25zIGNhbiBwcmVzZXJ2ZSBkYXRhLiAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgTGVnYWN5VXNlclByb2ZpbGUoCiAgICB2YWwgaWQ6IFN0cmluZywKICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICB2YWwgYmlydGhEYXRlOiBMb25nID0gMEwsCiAgICB2YWwgZ2VuZGVyOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBwZXJzb25hbGl0eTogU3RyaW5nID0gIiIsCiAgICB2YWwgaWRlbnRpdHk6IFN0cmluZyA9ICIiLAogICAgdmFsIG9jY3VwYXRpb246IFN0cmluZyA9ICIiLAogICAgdmFsIGFpU3R5bGU6IFN0cmluZyA9ICIiLAogICAgdmFsIGlzSW5pdGlhbGl6ZWQ6IEJvb2xlYW4gPSBmYWxzZQopCg==
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+
+/** Released structured profile payload, retained only so later migrations can preserve data. */
+@Serializable
+data class LegacyUserProfile(
+    val id: String,
+    val name: String,
+    val birthDate: Long = 0L,
+    val gender: String = "",
+    val personality: String = "",
+    val identity: String = "",
+    val occupation: String = "",
+    val aiStyle: String = "",
+    val isInitialized: Boolean = false
+)

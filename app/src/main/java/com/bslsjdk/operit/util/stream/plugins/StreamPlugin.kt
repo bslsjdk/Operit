@@ -1,1 +1,54 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0ucGx1Z2lucwoKLyoqCiAqIFRoZSBwb3NzaWJsZSBzdGF0ZXMgb2YgYSBzdHJlYW0gcHJvY2Vzc2luZyBwbHVnaW4uCiAqLwplbnVtIGNsYXNzIFBsdWdpblN0YXRlIHsKICAgIC8qKiBUaGUgcGx1Z2luIGlzIGluYWN0aXZlIGFuZCBub3QgbWF0Y2hpbmcgYW55IHBhdHRlcm4uICovCiAgICBJRExFLAogICAgLyoqIFRoZSBwbHVnaW4gaGFzIG1hdGNoZWQgdGhlIGJlZ2lubmluZyBvZiBhIHBvdGVudGlhbCBwYXR0ZXJuIGFuZCBpcyBjb25zdW1pbmcgbW9yZSBjaGFyYWN0ZXJzIHRvIHZlcmlmeSBhIGZ1bGwgbWF0Y2guICovCiAgICBUUllJTkcsCiAgICAvKiogVGhlIHBsdWdpbiBoYXMgY29uZmlybWVkIGEgZnVsbCBwYXR0ZXJuIG1hdGNoIGFuZCBpcyBhY3RpdmVseSBwcm9jZXNzaW5nIHRoZSBjb250ZW50IG9mIHRoYXQgcGF0dGVybi4gKi8KICAgIFBST0NFU1NJTkcsCiAgICAvKiogCiAgICAgKiBUaGUgcGx1Z2luIGlzIGluIGEgd2FpdGluZyBzdGF0ZSwgYWNjdW11bGF0aW5nIGNoYXJhY3RlcnMgdGhhdCBtYXkgbmVlZCB0byBiZSByZXR1cm5lZCB0byB0aGUgcHJvY2Vzc29yLgogICAgICogSWYgdGhlIG5leHQgY2hhcmFjdGVyIGNvbmZpcm1zIHRoZSBwYXR0ZXJuLCBpdCBjb250aW51ZXMgYXMgUFJPQ0VTU0lORzsgb3RoZXJ3aXNlLCByZXR1cm5zIGFsbCBhY2N1bXVsYXRlZCBjaGFyYWN0ZXJzLgogICAgICovCiAgICBXQUlURk9SCn0KCi8qKgogKiDmtYHlpITnkIbmj5Lku7bmjqXlj6MKICog55So5LqO5a6e546w5ZCE56eN6ZKI5a+55a2X56ym5rWB55qE5aSE55CG6YC76L6RCiAqLwppbnRlcmZhY2UgU3RyZWFtUGx1Z2luIHsKICAgIC8qKgogICAgICogVGhlIGN1cnJlbnQgc3RhdGUgb2YgdGhlIHBsdWdpbi4gVGhpcyByZXBsYWNlcyB0aGUgcHJldmlvdXMgYm9vbGVhbiBmbGFncwogICAgICogZm9yIGJldHRlciBzdGF0ZSBtYW5hZ2VtZW50LgogICAgICovCiAgICB2YWwgc3RhdGU6IFBsdWdpblN0YXRlCiAgICAKICAgIC8qKgogICAgICog5aSE55CG5Y2V5Liq5a2X56ym77yM5bm25Yaz5a6a5piv5ZCm5bqU5bCG5YW25Y+R5bCE5Yiw5rWB5Lit44CCCiAgICAgKiBAcGFyYW0gYyDopoHlpITnkIbnmoTlrZfnrKYKICAgICAqIEBwYXJhbSBhdFN0YXJ0T2ZMaW5lIOagh+iusOWtl+espuaYr+WQpuS9jeS6juS4gOihjOeahOW8gOWktAogICAgICogQHJldHVybiDlpoLmnpzor6XlrZfnrKblupTooqvljIXlkKvlnKjmnIDnu4jnmoTnu4TmtYHkuK3vvIzliJnov5Tlm54gYHRydWVg77yb5aaC5p6c5biM5pyb6L+H5ruk5o6J77yI5LiN5Y+R5bCE77yJ77yM5YiZ6L+U5ZueIGBmYWxzZWDjgIIKICAgICAqLwogICAgZnVuIHByb2Nlc3NDaGFyKGM6IENoYXIsIGF0U3RhcnRPZkxpbmU6IEJvb2xlYW4pOiBCb29sZWFuCiAgICAKICAgIC8qKgogICAgICog5Yid5aeL5YyW5o+S5Lu2CiAgICAgKiBAcmV0dXJuIOaYr+WQpuWIneWni+WMluaIkOWKnwogICAgICovCiAgICBmdW4gaW5pdFBsdWdpbigpOiBCb29sZWFuCiAgICAKICAgIC8qKgogICAgICog6ZSA5q+B5o+S5Lu277yM6YeK5pS+6LWE5rqQCiAgICAgKi8KICAgIGZ1biBkZXN0cm95KCkKICAgIAogICAgLyoqCiAgICAgKiDph43nva7mj5Lku7bnirbmgIEKICAgICAqLwogICAgZnVuIHJlc2V0KCkKfSA=
+package com.bslsjdk.operit.util.stream.plugins
+
+/**
+ * The possible states of a stream processing plugin.
+ */
+enum class PluginState {
+    /** The plugin is inactive and not matching any pattern. */
+    IDLE,
+    /** The plugin has matched the beginning of a potential pattern and is consuming more characters to verify a full match. */
+    TRYING,
+    /** The plugin has confirmed a full pattern match and is actively processing the content of that pattern. */
+    PROCESSING,
+    /** 
+     * The plugin is in a waiting state, accumulating characters that may need to be returned to the processor.
+     * If the next character confirms the pattern, it continues as PROCESSING; otherwise, returns all accumulated characters.
+     */
+    WAITFOR
+}
+
+/**
+ * 流处理插件接口
+ * 用于实现各种针对字符流的处理逻辑
+ */
+interface StreamPlugin {
+    /**
+     * The current state of the plugin. This replaces the previous boolean flags
+     * for better state management.
+     */
+    val state: PluginState
+    
+    /**
+     * 处理单个字符，并决定是否应将其发射到流中。
+     * @param c 要处理的字符
+     * @param atStartOfLine 标记字符是否位于一行的开头
+     * @return 如果该字符应被包含在最终的组流中，则返回 `true`；如果希望过滤掉（不发射），则返回 `false`。
+     */
+    fun processChar(c: Char, atStartOfLine: Boolean): Boolean
+    
+    /**
+     * 初始化插件
+     * @return 是否初始化成功
+     */
+    fun initPlugin(): Boolean
+    
+    /**
+     * 销毁插件，释放资源
+     */
+    fun destroy()
+    
+    /**
+     * 重置插件状态
+     */
+    fun reset()
+} 

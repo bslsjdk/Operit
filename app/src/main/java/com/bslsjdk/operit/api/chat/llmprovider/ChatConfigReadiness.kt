@@ -1,1 +1,114 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cy5BcGlQcm92aWRlckNvbmZpZ3MKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaUtleUZvcm1hdFZhbGlkYXRvcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQXBpUHJvdmlkZXJUeXBlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbENvbmZpZ0RhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLmdldE1vZGVsQnlJbmRleAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuZ2V0VmFsaWRNb2RlbEluZGV4CmltcG9ydCBqYXZhLm5ldC5VUkkKCmVudW0gY2xhc3MgQ2hhdENvbmZpZ1JlYWRpbmVzc0lzc3VlIHsKICAgIFBST1ZJREVSX01JU1NJTkcsCiAgICBQUk9WSURFUl9VTkFWQUlMQUJMRSwKICAgIEVORFBPSU5UX0lOVkFMSUQsCiAgICBNT0RFTF9NSVNTSU5HLAogICAgQ09ERVhfTE9HSU5fUkVRVUlSRUQsCiAgICBBUElfS0VZX01JU1NJTkcsCiAgICBBUElfS0VZX0lOVkFMSUQKfQoKZGF0YSBjbGFzcyBDaGF0Q29uZmlnUmVhZGluZXNzUmVzdWx0KHZhbCBpc3N1ZTogQ2hhdENvbmZpZ1JlYWRpbmVzc0lzc3VlPyA9IG51bGwpIHsKICAgIHZhbCBpc1JlYWR5OiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSBpc3N1ZSA9PSBudWxsCn0KCm9iamVjdCBDaGF0Q29uZmlnUmVhZGluZXNzIHsKICAgIHByaXZhdGUgdmFsIGNyZWRlbnRpYWxPcHRpb25hbFByb3ZpZGVycyA9CiAgICAgICAgc2V0T2YoCiAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTX0dFTkVSSUMsCiAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfQ09ERVgsCiAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfR0VORVJJQywKICAgICAgICAgICAgQXBpUHJvdmlkZXJUeXBlLkFOVEhST1BJQ19HRU5FUklDLAogICAgICAgICAgICBBcGlQcm92aWRlclR5cGUuR0VNSU5JX0dFTkVSSUMsCiAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PVEhFUgogICAgICAgICkKCiAgICBmdW4gZXZhbHVhdGUoCiAgICAgICAgY29uZmlnOiBNb2RlbENvbmZpZ0RhdGEsCiAgICAgICAgbW9kZWxJbmRleDogSW50LAogICAgICAgIHJlZ2lzdGVyZWRQbHVnaW5Qcm92aWRlcklkczogU2V0PFN0cmluZz4sCiAgICAgICAgY29kZXhBdXRoZW50aWNhdGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICApOiBDaGF0Q29uZmlnUmVhZGluZXNzUmVzdWx0IHsKICAgICAgICB2YWwgcHJvdmlkZXJUeXBlSWQgPSBjb25maWcuYXBpUHJvdmlkZXJUeXBlSWQudHJpbSgpCiAgICAgICAgaWYgKHByb3ZpZGVyVHlwZUlkLmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gQ2hhdENvbmZpZ1JlYWRpbmVzc1Jlc3VsdChDaGF0Q29uZmlnUmVhZGluZXNzSXNzdWUuUFJPVklERVJfTUlTU0lORykKICAgICAgICB9CgogICAgICAgIHZhbCBub3JtYWxpemVkUGx1Z2luSWRzID0gcmVnaXN0ZXJlZFBsdWdpblByb3ZpZGVySWRzLm1hcFRvKG11dGFibGVTZXRPZigpKSB7CiAgICAgICAgICAgIGl0LnRyaW0oKS5sb3dlcmNhc2UoKQogICAgICAgIH0KICAgICAgICBpZiAocHJvdmlkZXJUeXBlSWQubG93ZXJjYXNlKCkgaW4gbm9ybWFsaXplZFBsdWdpbklkcykgewogICAgICAgICAgICByZXR1cm4gQ2hhdENvbmZpZ1JlYWRpbmVzc1Jlc3VsdCgpCiAgICAgICAgfQoKICAgICAgICB2YWwgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLmZyb21Qcm92aWRlclR5cGVJZChwcm92aWRlclR5cGVJZCkKICAgICAgICAgICAgPzogcmV0dXJuIENoYXRDb25maWdSZWFkaW5lc3NSZXN1bHQoQ2hhdENvbmZpZ1JlYWRpbmVzc0lzc3VlLlBST1ZJREVSX1VOQVZBSUxBQkxFKQogICAgICAgIGlmIChwcm92aWRlclR5cGUgPT0gQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9DT0RFWCAmJiAhY29kZXhBdXRoZW50aWNhdGVkKSB7CiAgICAgICAgICAgIHJldHVybiBDaGF0Q29uZmlnUmVhZGluZXNzUmVzdWx0KENoYXRDb25maWdSZWFkaW5lc3NJc3N1ZS5DT0RFWF9MT0dJTl9SRVFVSVJFRCkKICAgICAgICB9CiAgICAgICAgdmFsIHZhbGlkTW9kZWxJbmRleCA9IGdldFZhbGlkTW9kZWxJbmRleChjb25maWcubW9kZWxOYW1lLCBtb2RlbEluZGV4KQogICAgICAgIGlmIChnZXRNb2RlbEJ5SW5kZXgoY29uZmlnLm1vZGVsTmFtZSwgdmFsaWRNb2RlbEluZGV4KS5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIENoYXRDb25maWdSZWFkaW5lc3NSZXN1bHQoQ2hhdENvbmZpZ1JlYWRpbmVzc0lzc3VlLk1PREVMX01JU1NJTkcpCiAgICAgICAgfQoKICAgICAgICBpZiAocHJvdmlkZXJUeXBlID09IEFwaVByb3ZpZGVyVHlwZS5NTk4gfHwgcHJvdmlkZXJUeXBlID09IEFwaVByb3ZpZGVyVHlwZS5MTEFNQV9DUFApIHsKICAgICAgICAgICAgcmV0dXJuIENoYXRDb25maWdSZWFkaW5lc3NSZXN1bHQoKQogICAgICAgIH0KCiAgICAgICAgdmFsIGNvbXBsZXRlZEVuZHBvaW50ID0gRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludChjb25maWcuYXBpRW5kcG9pbnQsIHByb3ZpZGVyVHlwZSkKICAgICAgICBpZiAoIWlzSHR0cEVuZHBvaW50KGNvbXBsZXRlZEVuZHBvaW50KSkgewogICAgICAgICAgICByZXR1cm4gQ2hhdENvbmZpZ1JlYWRpbmVzc1Jlc3VsdChDaGF0Q29uZmlnUmVhZGluZXNzSXNzdWUuRU5EUE9JTlRfSU5WQUxJRCkKICAgICAgICB9CgogICAgICAgIGlmIChwcm92aWRlclR5cGUgPT0gQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9DT0RFWCkgewogICAgICAgICAgICByZXR1cm4gQ2hhdENvbmZpZ1JlYWRpbmVzc1Jlc3VsdCgpCiAgICAgICAgfQoKICAgICAgICB2YWwgaGFzQ29uZmlndXJlZEtleSA9CiAgICAgICAgICAgIGNvbmZpZy5hcGlLZXkuaXNOb3RCbGFuaygpIHx8CiAgICAgICAgICAgICAgICBjb25maWcuYXBpS2V5UG9vbC5hbnkgeyBrZXkgLT4ga2V5LmlzRW5hYmxlZCAmJiBrZXkua2V5LmlzTm90QmxhbmsoKSB9CiAgICAgICAgdmFsIGtleUlzUmVxdWlyZWQgPQogICAgICAgICAgICBwcm92aWRlclR5cGUgIWluIGNyZWRlbnRpYWxPcHRpb25hbFByb3ZpZGVycyAmJgogICAgICAgICAgICAgICAgQXBpUHJvdmlkZXJDb25maWdzLnJlcXVpcmVzQXBpS2V5KHByb3ZpZGVyVHlwZSwgY29uZmlnLmFwaUVuZHBvaW50KQogICAgICAgIHZhbCBoYXNVc2FibGVLZXkgPSBBcGlLZXlGb3JtYXRWYWxpZGF0b3IuaGFzVXNhYmxlS2V5KGNvbmZpZykKCiAgICAgICAgaWYgKGNvbmZpZy51c2VNdWx0aXBsZUFwaUtleXMgJiYgIWhhc1VzYWJsZUtleSkgewogICAgICAgICAgICB2YWwgaXNzdWUgPQogICAgICAgICAgICAgICAgaWYgKGhhc0NvbmZpZ3VyZWRLZXkpIHsKICAgICAgICAgICAgICAgICAgICBDaGF0Q29uZmlnUmVhZGluZXNzSXNzdWUuQVBJX0tFWV9JTlZBTElECiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIENoYXRDb25maWdSZWFkaW5lc3NJc3N1ZS5BUElfS0VZX01JU1NJTkcKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIENoYXRDb25maWdSZWFkaW5lc3NSZXN1bHQoaXNzdWUpCiAgICAgICAgfQogICAgICAgIGlmIChrZXlJc1JlcXVpcmVkICYmICFoYXNDb25maWd1cmVkS2V5KSB7CiAgICAgICAgICAgIHJldHVybiBDaGF0Q29uZmlnUmVhZGluZXNzUmVzdWx0KENoYXRDb25maWdSZWFkaW5lc3NJc3N1ZS5BUElfS0VZX01JU1NJTkcpCiAgICAgICAgfQogICAgICAgIGlmICgoa2V5SXNSZXF1aXJlZCB8fCBoYXNDb25maWd1cmVkS2V5KSAmJiAhaGFzVXNhYmxlS2V5KSB7CiAgICAgICAgICAgIHJldHVybiBDaGF0Q29uZmlnUmVhZGluZXNzUmVzdWx0KENoYXRDb25maWdSZWFkaW5lc3NJc3N1ZS5BUElfS0VZX0lOVkFMSUQpCiAgICAgICAgfQogICAgICAgIHJldHVybiBDaGF0Q29uZmlnUmVhZGluZXNzUmVzdWx0KCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc0h0dHBFbmRwb2ludChlbmRwb2ludDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCB1cmkgPSBVUkkoZW5kcG9pbnQudHJpbSgpKQogICAgICAgICAgICB1cmkuaG9zdCAhPSBudWxsICYmCiAgICAgICAgICAgICAgICAodXJpLnNjaGVtZS5lcXVhbHMoImh0dHAiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgICAgICAgICB1cmkuc2NoZW1lLmVxdWFscygiaHR0cHMiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpCiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.collects.ApiProviderConfigs
+import com.bslsjdk.operit.data.model.ApiKeyFormatValidator
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.data.model.ModelConfigData
+import com.bslsjdk.operit.data.model.getModelByIndex
+import com.bslsjdk.operit.data.model.getValidModelIndex
+import java.net.URI
+
+enum class ChatConfigReadinessIssue {
+    PROVIDER_MISSING,
+    PROVIDER_UNAVAILABLE,
+    ENDPOINT_INVALID,
+    MODEL_MISSING,
+    CODEX_LOGIN_REQUIRED,
+    API_KEY_MISSING,
+    API_KEY_INVALID
+}
+
+data class ChatConfigReadinessResult(val issue: ChatConfigReadinessIssue? = null) {
+    val isReady: Boolean
+        get() = issue == null
+}
+
+object ChatConfigReadiness {
+    private val credentialOptionalProviders =
+        setOf(
+            ApiProviderType.OPENAI_RESPONSES_GENERIC,
+            ApiProviderType.OPENAI_CODEX,
+            ApiProviderType.OPENAI_GENERIC,
+            ApiProviderType.ANTHROPIC_GENERIC,
+            ApiProviderType.GEMINI_GENERIC,
+            ApiProviderType.OTHER
+        )
+
+    fun evaluate(
+        config: ModelConfigData,
+        modelIndex: Int,
+        registeredPluginProviderIds: Set<String>,
+        codexAuthenticated: Boolean = false,
+    ): ChatConfigReadinessResult {
+        val providerTypeId = config.apiProviderTypeId.trim()
+        if (providerTypeId.isEmpty()) {
+            return ChatConfigReadinessResult(ChatConfigReadinessIssue.PROVIDER_MISSING)
+        }
+
+        val normalizedPluginIds = registeredPluginProviderIds.mapTo(mutableSetOf()) {
+            it.trim().lowercase()
+        }
+        if (providerTypeId.lowercase() in normalizedPluginIds) {
+            return ChatConfigReadinessResult()
+        }
+
+        val providerType = ApiProviderType.fromProviderTypeId(providerTypeId)
+            ?: return ChatConfigReadinessResult(ChatConfigReadinessIssue.PROVIDER_UNAVAILABLE)
+        if (providerType == ApiProviderType.OPENAI_CODEX && !codexAuthenticated) {
+            return ChatConfigReadinessResult(ChatConfigReadinessIssue.CODEX_LOGIN_REQUIRED)
+        }
+        val validModelIndex = getValidModelIndex(config.modelName, modelIndex)
+        if (getModelByIndex(config.modelName, validModelIndex).isBlank()) {
+            return ChatConfigReadinessResult(ChatConfigReadinessIssue.MODEL_MISSING)
+        }
+
+        if (providerType == ApiProviderType.MNN || providerType == ApiProviderType.LLAMA_CPP) {
+            return ChatConfigReadinessResult()
+        }
+
+        val completedEndpoint = EndpointCompleter.completeEndpoint(config.apiEndpoint, providerType)
+        if (!isHttpEndpoint(completedEndpoint)) {
+            return ChatConfigReadinessResult(ChatConfigReadinessIssue.ENDPOINT_INVALID)
+        }
+
+        if (providerType == ApiProviderType.OPENAI_CODEX) {
+            return ChatConfigReadinessResult()
+        }
+
+        val hasConfiguredKey =
+            config.apiKey.isNotBlank() ||
+                config.apiKeyPool.any { key -> key.isEnabled && key.key.isNotBlank() }
+        val keyIsRequired =
+            providerType !in credentialOptionalProviders &&
+                ApiProviderConfigs.requiresApiKey(providerType, config.apiEndpoint)
+        val hasUsableKey = ApiKeyFormatValidator.hasUsableKey(config)
+
+        if (config.useMultipleApiKeys && !hasUsableKey) {
+            val issue =
+                if (hasConfiguredKey) {
+                    ChatConfigReadinessIssue.API_KEY_INVALID
+                } else {
+                    ChatConfigReadinessIssue.API_KEY_MISSING
+                }
+            return ChatConfigReadinessResult(issue)
+        }
+        if (keyIsRequired && !hasConfiguredKey) {
+            return ChatConfigReadinessResult(ChatConfigReadinessIssue.API_KEY_MISSING)
+        }
+        if ((keyIsRequired || hasConfiguredKey) && !hasUsableKey) {
+            return ChatConfigReadinessResult(ChatConfigReadinessIssue.API_KEY_INVALID)
+        }
+        return ChatConfigReadinessResult()
+    }
+
+    private fun isHttpEndpoint(endpoint: String): Boolean {
+        return try {
+            val uri = URI(endpoint.trim())
+            uri.host != null &&
+                (uri.scheme.equals("http", ignoreCase = true) ||
+                    uri.scheme.equals("https", ignoreCase = true))
+        } catch (_: Exception) {
+            false
+        }
+    }
+}

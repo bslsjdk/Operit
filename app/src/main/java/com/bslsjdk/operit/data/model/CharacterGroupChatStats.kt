@@ -1,1 +1,10 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqCiAqIOinkuiJsue+pOe7hOiBiuWkqee7n+iuoee7k+aenAogKi8KZGF0YSBjbGFzcyBDaGFyYWN0ZXJHcm91cENoYXRTdGF0cygKICAgIHZhbCBjaGFyYWN0ZXJHcm91cElkOiBTdHJpbmc/LAogICAgdmFsIGNoYXRDb3VudDogSW50LAogICAgdmFsIG1lc3NhZ2VDb3VudDogSW50CikK
+package com.bslsjdk.operit.data.model
+
+/**
+ * 角色群组聊天统计结果
+ */
+data class CharacterGroupChatStats(
+    val characterGroupId: String?,
+    val chatCount: Int,
+    val messageCount: Int
+)

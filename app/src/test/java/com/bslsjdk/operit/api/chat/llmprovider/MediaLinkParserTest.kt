@@ -1,1 +1,77 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgTWVkaWFMaW5rUGFyc2VyVGVzdCB7CgogICAgQFRlc3QgZnVuIGV4dHJhY3RJbWFnZUxpbmtJZHNfcmVhZHNQbGFpbkltYWdlTGluaygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJpbWcxIiksIE1lZGlhTGlua1BhcnNlci5leHRyYWN0SW1hZ2VMaW5rSWRzKCI8bGluayB0eXBlPVwiaW1hZ2VcIiBpZD1cImltZzFcIj5JbWFnZTwvbGluaz4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdEltYWdlTGlua0lkc19kZWR1cGxpY2F0ZXNSZXBlYXRlZElkcygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIGxpc3RPZigiaW1nMSIpLAogICAgICAgICAgICBNZWRpYUxpbmtQYXJzZXIuZXh0cmFjdEltYWdlTGlua0lkcygiPGxpbmsgdHlwZT1cImltYWdlXCIgaWQ9XCJpbWcxXCI+QTwvbGluaz48bGluayB0eXBlPVwiaW1hZ2VcIiBpZD1cImltZzFcIj5CPC9saW5rPiIpCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0SW1hZ2VMaW5rSWRzX3NraXBzRXJyb3JJZHMoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUxpbmtQYXJzZXIuZXh0cmFjdEltYWdlTGlua0lkcygiPGxpbmsgdHlwZT1cImltYWdlXCIgaWQ9XCJlcnJvclwiPkVycm9yPC9saW5rPiIpLmlzRW1wdHkoKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlSW1hZ2VMaW5rc19yZW1vdmVzTWF0Y2hpbmdCbG9ja3MoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJoZWxsbyIsIE1lZGlhTGlua1BhcnNlci5yZW1vdmVJbWFnZUxpbmtzKCJoZWxsbzxsaW5rIHR5cGU9XCJpbWFnZVwiIGlkPVwiaW1nMVwiPkltYWdlPC9saW5rPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biByZXBsYWNlSW1hZ2VMaW5rc19yZXBsYWNlc0VhY2hJZCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoImhlbGxvW2ltZzFdIiwgTWVkaWFMaW5rUGFyc2VyLnJlcGxhY2VJbWFnZUxpbmtzKCJoZWxsbzxsaW5rIHR5cGU9XCJpbWFnZVwiIGlkPVwiaW1nMVwiPkltYWdlPC9saW5rPiIpIHsgaWQgLT4gIlskaWRdIiB9KQogICAgfQoKICAgIEBUZXN0IGZ1biByZXBsYWNlSW1hZ2VMaW5rc19kcm9wc0Vycm9ySWRzKCkgewogICAgICAgIGFzc2VydEVxdWFscygiaGVsbG8iLCBNZWRpYUxpbmtQYXJzZXIucmVwbGFjZUltYWdlTGlua3MoImhlbGxvPGxpbmsgdHlwZT1cImltYWdlXCIgaWQ9XCJlcnJvclwiPkltYWdlPC9saW5rPiIpIHsgaWQgLT4gIlskaWRdIiB9KQogICAgfQoKICAgIEBUZXN0IGZ1biBoYXNJbWFnZUxpbmtzX2RldGVjdHNJbWFnZUJsb2NrKCkgewogICAgICAgIGFzc2VydFRydWUoTWVkaWFMaW5rUGFyc2VyLmhhc0ltYWdlTGlua3MoIjxsaW5rIHR5cGU9XCJpbWFnZVwiIGlkPVwiaW1nMVwiPkltYWdlPC9saW5rPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBoYXNJbWFnZUxpbmtzX3JldHVybnNGYWxzZVdpdGhvdXRJbWFnZUJsb2NrKCkgewogICAgICAgIGFzc2VydEZhbHNlKE1lZGlhTGlua1BhcnNlci5oYXNJbWFnZUxpbmtzKCJwbGFpbiB0ZXh0IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RNZWRpYUxpbmtUYWdzX3JlYWRzQXVkaW9UYWcoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZihNZWRpYUxpbmtUYWcoImF1ZGlvIiwgImF1ZDEiKSksIE1lZGlhTGlua1BhcnNlci5leHRyYWN0TWVkaWFMaW5rVGFncygiPGxpbmsgdHlwZT1cImF1ZGlvXCIgaWQ9XCJhdWQxXCI+QXVkaW88L2xpbms+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RNZWRpYUxpbmtUYWdzX3JlYWRzVmlkZW9UYWcoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZihNZWRpYUxpbmtUYWcoInZpZGVvIiwgInZpZDEiKSksIE1lZGlhTGlua1BhcnNlci5leHRyYWN0TWVkaWFMaW5rVGFncygiPGxpbmsgdHlwZT1cInZpZGVvXCIgaWQ9XCJ2aWQxXCI+VmlkZW88L2xpbms+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RNZWRpYUxpbmtUYWdzX2RlZHVwbGljYXRlc0J5VHlwZUFuZElkKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgbGlzdE9mKE1lZGlhTGlua1RhZygiYXVkaW8iLCAiYXVkMSIpKSwKICAgICAgICAgICAgTWVkaWFMaW5rUGFyc2VyLmV4dHJhY3RNZWRpYUxpbmtUYWdzKCI8bGluayB0eXBlPVwiYXVkaW9cIiBpZD1cImF1ZDFcIj5BPC9saW5rPjxsaW5rIHR5cGU9XCJhdWRpb1wiIGlkPVwiYXVkMVwiPkI8L2xpbms+IikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RNZWRpYUxpbmtUYWdzX3NraXBzRXJyb3JJZHMoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUxpbmtQYXJzZXIuZXh0cmFjdE1lZGlhTGlua1RhZ3MoIjxsaW5rIHR5cGU9XCJhdWRpb1wiIGlkPVwiZXJyb3JcIj5BPC9saW5rPiIpLmlzRW1wdHkoKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVwbGFjZU1lZGlhTGlua3NfcmVwbGFjZXNBdWRpb0FuZFZpZGVvKCkgewogICAgICAgIHZhbCBpbnB1dCA9ICI8bGluayB0eXBlPVwiYXVkaW9cIiBpZD1cImF1ZDFcIj5BPC9saW5rPjxsaW5rIHR5cGU9XCJ2aWRlb1wiIGlkPVwidmlkMVwiPlY8L2xpbms+IgogICAgICAgIGFzc2VydEVxdWFscygiW2F1ZGlvOmF1ZDFdW3ZpZGVvOnZpZDFdIiwgTWVkaWFMaW5rUGFyc2VyLnJlcGxhY2VNZWRpYUxpbmtzKGlucHV0KSB7IHR5cGUsIGlkIC0+ICJbJHR5cGU6JGlkXSIgfSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlTWVkaWFMaW5rc19yZW1vdmVzQXVkaW9BbmRWaWRlb0Jsb2NrcygpIHsKICAgICAgICB2YWwgaW5wdXQgPSAiYTxsaW5rIHR5cGU9XCJhdWRpb1wiIGlkPVwiYXVkMVwiPkE8L2xpbms+YjxsaW5rIHR5cGU9XCJ2aWRlb1wiIGlkPVwidmlkMVwiPlY8L2xpbms+YyIKICAgICAgICBhc3NlcnRFcXVhbHMoImFiYyIsIE1lZGlhTGlua1BhcnNlci5yZW1vdmVNZWRpYUxpbmtzKGlucHV0KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gaGFzTWVkaWFMaW5rc19kZXRlY3RzQXVkaW9PclZpZGVvQmxvY2tzKCkgewogICAgICAgIGFzc2VydFRydWUoTWVkaWFMaW5rUGFyc2VyLmhhc01lZGlhTGlua3MoIjxsaW5rIHR5cGU9XCJhdWRpb1wiIGlkPVwiYXVkMVwiPkE8L2xpbms+IikpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class MediaLinkParserTest {
+
+    @Test fun extractImageLinkIds_readsPlainImageLink() {
+        assertEquals(listOf("img1"), MediaLinkParser.extractImageLinkIds("<link type=\"image\" id=\"img1\">Image</link>"))
+    }
+
+    @Test fun extractImageLinkIds_deduplicatesRepeatedIds() {
+        assertEquals(
+            listOf("img1"),
+            MediaLinkParser.extractImageLinkIds("<link type=\"image\" id=\"img1\">A</link><link type=\"image\" id=\"img1\">B</link>")
+        )
+    }
+
+    @Test fun extractImageLinkIds_skipsErrorIds() {
+        assertTrue(MediaLinkParser.extractImageLinkIds("<link type=\"image\" id=\"error\">Error</link>").isEmpty())
+    }
+
+    @Test fun removeImageLinks_removesMatchingBlocks() {
+        assertEquals("hello", MediaLinkParser.removeImageLinks("hello<link type=\"image\" id=\"img1\">Image</link>"))
+    }
+
+    @Test fun replaceImageLinks_replacesEachId() {
+        assertEquals("hello[img1]", MediaLinkParser.replaceImageLinks("hello<link type=\"image\" id=\"img1\">Image</link>") { id -> "[$id]" })
+    }
+
+    @Test fun replaceImageLinks_dropsErrorIds() {
+        assertEquals("hello", MediaLinkParser.replaceImageLinks("hello<link type=\"image\" id=\"error\">Image</link>") { id -> "[$id]" })
+    }
+
+    @Test fun hasImageLinks_detectsImageBlock() {
+        assertTrue(MediaLinkParser.hasImageLinks("<link type=\"image\" id=\"img1\">Image</link>"))
+    }
+
+    @Test fun hasImageLinks_returnsFalseWithoutImageBlock() {
+        assertFalse(MediaLinkParser.hasImageLinks("plain text"))
+    }
+
+    @Test fun extractMediaLinkTags_readsAudioTag() {
+        assertEquals(listOf(MediaLinkTag("audio", "aud1")), MediaLinkParser.extractMediaLinkTags("<link type=\"audio\" id=\"aud1\">Audio</link>"))
+    }
+
+    @Test fun extractMediaLinkTags_readsVideoTag() {
+        assertEquals(listOf(MediaLinkTag("video", "vid1")), MediaLinkParser.extractMediaLinkTags("<link type=\"video\" id=\"vid1\">Video</link>"))
+    }
+
+    @Test fun extractMediaLinkTags_deduplicatesByTypeAndId() {
+        assertEquals(
+            listOf(MediaLinkTag("audio", "aud1")),
+            MediaLinkParser.extractMediaLinkTags("<link type=\"audio\" id=\"aud1\">A</link><link type=\"audio\" id=\"aud1\">B</link>")
+        )
+    }
+
+    @Test fun extractMediaLinkTags_skipsErrorIds() {
+        assertTrue(MediaLinkParser.extractMediaLinkTags("<link type=\"audio\" id=\"error\">A</link>").isEmpty())
+    }
+
+    @Test fun replaceMediaLinks_replacesAudioAndVideo() {
+        val input = "<link type=\"audio\" id=\"aud1\">A</link><link type=\"video\" id=\"vid1\">V</link>"
+        assertEquals("[audio:aud1][video:vid1]", MediaLinkParser.replaceMediaLinks(input) { type, id -> "[$type:$id]" })
+    }
+
+    @Test fun removeMediaLinks_removesAudioAndVideoBlocks() {
+        val input = "a<link type=\"audio\" id=\"aud1\">A</link>b<link type=\"video\" id=\"vid1\">V</link>c"
+        assertEquals("abc", MediaLinkParser.removeMediaLinks(input))
+    }
+
+    @Test fun hasMediaLinks_detectsAudioOrVideoBlocks() {
+        assertTrue(MediaLinkParser.hasMediaLinks("<link type=\"audio\" id=\"aud1\">A</link>"))
+    }
+}

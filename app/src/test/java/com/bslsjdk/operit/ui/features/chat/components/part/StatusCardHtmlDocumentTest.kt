@@ -1,1 +1,92 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnBhcnQKCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuc2VjdXJpdHkuTWVzc2FnZURpZ2VzdAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCi8qKgogKiBpc3N1ZSAjOTMwIOeahOWbnuW9kua1i+ivle+8mueKtuaAgeWNoeeJh+eahOWbvuagh+Wtl+S9k+W/hemhu+WGheiBlOWcqOaWh+aho+mHjO+8jAogKiDmlofmoaPkuI3og73lho3kuLrkuobmuLLmn5Plm77moIfljrvnvZHnu5zkuIrlj5bku7vkvZXkuJzopb/jgIIKICovCmNsYXNzIFN0YXR1c0NhcmRIdG1sRG9jdW1lbnRUZXN0IHsKCiAgICBAVGVzdAogICAgZnVuIGBkb2N1bWVudCBpbmxpbmVzIHRoZSBidW5kbGVkIGljb24gZm9udGAoKSB7CiAgICAgICAgdmFsIGh0bWwgPSByZW5kZXIoKQogICAgICAgIGFzc2VydFRydWUoaHRtbC5jb250YWlucygiQGZvbnQtZmFjZSIpKQogICAgICAgIGFzc2VydFRydWUoCiAgICAgICAgICAgIGh0bWwuY29udGFpbnMoInNyYzogdXJsKGRhdGE6Zm9udC93b2ZmMjtiYXNlNjQsJEZBS0VfRk9OVCkgZm9ybWF0KCd3b2ZmMicpIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZG9jdW1lbnQgcmVxdWVzdHMgbm90aGluZyBvdmVyIHRoZSBuZXR3b3JrYCgpIHsKICAgICAgICAvLyDku6XliY3ov5nph4wgPGxpbms+IOWIsCBmb250cy5nb29nbGVhcGlzLmNvbe+8jDUuMzUgTUIg55qE5Y+v5Y+Y5a2X5L2T5LiL5a6M5LmL5YmN5Zu+5qCH6YO95piv56m655qE44CCCiAgICAgICAgdmFsIGh0bWwgPSByZW5kZXIoKQogICAgICAgIGFzc2VydEZhbHNlKGh0bWwuY29udGFpbnMoImh0dHA6Ly8iKSkKICAgICAgICBhc3NlcnRGYWxzZShodG1sLmNvbnRhaW5zKCJodHRwczovLyIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGljb24gc3BhbnMgc3RpbGwgcmVzb2x2ZSBsaWdhdHVyZXMgd2l0aG91dCB0aGUgcmVtb3RlIHN0eWxlc2hlZXRgKCkgewogICAgICAgIC8vIGxpZ2Eg5Lul5YmN5pivIEdvb2dsZSDpgqPku73moLflvI/ooajpobrluKbnu5nnmoTvvIzljrvmjokgPGxpbms+IOS5i+WQjuW/hemhu+iHquW3seWjsOaYju+8jAogICAgICAgIC8vIOWQpuWImSA8c3Bhbj5mYXZvcml0ZTwvc3Bhbj4g5Lya6KKr5oyJ5a2X5q+N55S75Ye65p2l6ICM5LiN5piv55S75oiQ5Zu+5qCH44CCCiAgICAgICAgdmFsIGh0bWwgPSByZW5kZXIoKQogICAgICAgIGFzc2VydFRydWUoaHRtbC5jb250YWlucygiLm1hdGVyaWFsLXN5bWJvbHMtcm91bmRlZCIpKQogICAgICAgIGFzc2VydFRydWUoaHRtbC5jb250YWlucygiZm9udC1mYW1pbHk6ICdNYXRlcmlhbCBTeW1ib2xzIFJvdW5kZWQnIikpCiAgICAgICAgYXNzZXJ0VHJ1ZShodG1sLmNvbnRhaW5zKCItd2Via2l0LWZvbnQtZmVhdHVyZS1zZXR0aW5nczogJ2xpZ2EnIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZG9jdW1lbnQgc3RpbGwgY2FycmllcyB0aGUgY2FyZCBib2R5IGFuZCB0ZXh0IGNvbG9yYCgpIHsKICAgICAgICB2YWwgaHRtbCA9IHJlbmRlcigiPGRpdiBjbGFzcz1cIm1ldHJpY1wiPm1vb2Q8L2Rpdj4iKQogICAgICAgIGFzc2VydFRydWUoaHRtbC5jb250YWlucygiPGRpdiBjbGFzcz1cIm1ldHJpY1wiPm1vb2Q8L2Rpdj4iKSkKICAgICAgICBhc3NlcnRUcnVlKGh0bWwuY29udGFpbnMoImNvbG9yOiAjMTIzNDU2OyIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGZ1bGwgc3RhdGljIGZvbnQgcHJlc2VydmVzIGhpc3RvcmljYWwgaWNvbnMgb3V0c2lkZSB0aGUgZm9ybWVyIHN1YnNldGAoKSB7CiAgICAgICAgdmFsIGh0bWwgPSByZW5kZXIoU0hPUFBJTkdfQ0FSVF9TUEFOKQogICAgICAgIGFzc2VydFRydWUoaHRtbC5jb250YWlucyhTSE9QUElOR19DQVJUX1NQQU4pKQoKICAgICAgICAvLyDov5nkuKogR29vZ2xlIEZvbnRzIHYzNzAg6Z2Z5oCB5a6e5L6L57uPIGZvbnRUb29scyDmo4Dmn6XmnIkgNCwyNzcg5LiqIEdTVUIg6L+e5a2X77yMCiAgICAgICAgLy8g5YyF5ous5LiN5Zyo5Y6fIDE0MCDlm77moIflrZDpm4bph4znmoQgc2hvcHBpbmdfY2FydOOAgumUgeWumuaWh+S7tuWPr+mYsuatouS7peWQjuivr+aNouWbnuWtkOmbhuOAggogICAgICAgIHZhbCBmb250ID0gRmlsZSgic3JjL21haW4vYXNzZXRzLyR7U3RhdHVzQ2FyZEh0bWxEb2N1bWVudC5JQ09OX0ZPTlRfQVNTRVR9IikKICAgICAgICBhc3NlcnRUcnVlKGZvbnQuaXNGaWxlKQogICAgICAgIGFzc2VydEVxdWFscyhGVUxMX1NUQVRJQ19GT05UX0JZVEVTLCBmb250Lmxlbmd0aCgpKQogICAgICAgIGFzc2VydEVxdWFscyhGVUxMX1NUQVRJQ19GT05UX1NIQTI1Niwgc2hhMjU2KGZvbnQpKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlbmRlcihib2R5OiBTdHJpbmcgPSBJQ09OX1NQQU4pOiBTdHJpbmcgPQogICAgICAgIFN0YXR1c0NhcmRIdG1sRG9jdW1lbnQucmVuZGVyKAogICAgICAgICAgICBib2R5Q29udGVudCA9IGJvZHksCiAgICAgICAgICAgIHRleHRDb2xvckhleCA9ICIjMTIzNDU2IiwKICAgICAgICAgICAgaWNvbkZvbnRCYXNlNjQgPSBGQUtFX0ZPTlQKICAgICAgICApCgogICAgcHJpdmF0ZSBmdW4gc2hhMjU2KGZpbGU6IEZpbGUpOiBTdHJpbmcgewogICAgICAgIHZhbCBkaWdlc3QgPSBNZXNzYWdlRGlnZXN0LmdldEluc3RhbmNlKCJTSEEtMjU2IikKICAgICAgICBmaWxlLmlucHV0U3RyZWFtKCkudXNlIHsgaW5wdXQgLT4KICAgICAgICAgICAgdmFsIGJ1ZmZlciA9IEJ5dGVBcnJheShERUZBVUxUX0JVRkZFUl9TSVpFKQogICAgICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICAgICAgdmFsIHJlYWQgPSBpbnB1dC5yZWFkKGJ1ZmZlcikKICAgICAgICAgICAgICAgIGlmIChyZWFkIDwgMCkgYnJlYWsKICAgICAgICAgICAgICAgIGRpZ2VzdC51cGRhdGUoYnVmZmVyLCAwLCByZWFkKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBkaWdlc3QuZGlnZXN0KCkuam9pblRvU3RyaW5nKHNlcGFyYXRvciA9ICIiKSB7IGJ5dGUgLT4gIiUwMngiLmZvcm1hdChieXRlKSB9CiAgICB9CgogICAgcHJpdmF0ZSBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgRkFLRV9GT05UID0gImQwOUdNZ0FCQUFBQUFBIgogICAgICAgIGNvbnN0IHZhbCBJQ09OX1NQQU4gPSAiPHNwYW4gY2xhc3M9XCJtYXRlcmlhbC1zeW1ib2xzLXJvdW5kZWRcIj5mYXZvcml0ZTwvc3Bhbj4iCiAgICAgICAgY29uc3QgdmFsIFNIT1BQSU5HX0NBUlRfU1BBTiA9CiAgICAgICAgICAgICI8c3BhbiBjbGFzcz1cIm1hdGVyaWFsLXN5bWJvbHMtcm91bmRlZFwiPnNob3BwaW5nX2NhcnQ8L3NwYW4+IgogICAgICAgIGNvbnN0IHZhbCBGVUxMX1NUQVRJQ19GT05UX0JZVEVTID0gNDU2XzA1MkwKICAgICAgICBjb25zdCB2YWwgRlVMTF9TVEFUSUNfRk9OVF9TSEEyNTYgPQogICAgICAgICAgICAiMTlhNzFiMzBlNjI2NzQxNjQ5M2EwZTRlOTI1YTZmMTRiZTYwYTljM2E4MzE0OGEwZGMwZGNmNTA3YThmYjM4MiIKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.components.part
+
+import java.io.File
+import java.security.MessageDigest
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+/**
+ * issue #930 的回归测试：状态卡片的图标字体必须内联在文档里，
+ * 文档不能再为了渲染图标去网络上取任何东西。
+ */
+class StatusCardHtmlDocumentTest {
+
+    @Test
+    fun `document inlines the bundled icon font`() {
+        val html = render()
+        assertTrue(html.contains("@font-face"))
+        assertTrue(
+            html.contains("src: url(data:font/woff2;base64,$FAKE_FONT) format('woff2')")
+        )
+    }
+
+    @Test
+    fun `document requests nothing over the network`() {
+        // 以前这里 <link> 到 fonts.googleapis.com，5.35 MB 的可变字体下完之前图标都是空的。
+        val html = render()
+        assertFalse(html.contains("http://"))
+        assertFalse(html.contains("https://"))
+    }
+
+    @Test
+    fun `icon spans still resolve ligatures without the remote stylesheet`() {
+        // liga 以前是 Google 那份样式表顺带给的，去掉 <link> 之后必须自己声明，
+        // 否则 <span>favorite</span> 会被按字母画出来而不是画成图标。
+        val html = render()
+        assertTrue(html.contains(".material-symbols-rounded"))
+        assertTrue(html.contains("font-family: 'Material Symbols Rounded'"))
+        assertTrue(html.contains("-webkit-font-feature-settings: 'liga'"))
+    }
+
+    @Test
+    fun `document still carries the card body and text color`() {
+        val html = render("<div class=\"metric\">mood</div>")
+        assertTrue(html.contains("<div class=\"metric\">mood</div>"))
+        assertTrue(html.contains("color: #123456;"))
+    }
+
+    @Test
+    fun `full static font preserves historical icons outside the former subset`() {
+        val html = render(SHOPPING_CART_SPAN)
+        assertTrue(html.contains(SHOPPING_CART_SPAN))
+
+        // 这个 Google Fonts v370 静态实例经 fontTools 检查有 4,277 个 GSUB 连字，
+        // 包括不在原 140 图标子集里的 shopping_cart。锁定文件可防止以后误换回子集。
+        val font = File("src/main/assets/${StatusCardHtmlDocument.ICON_FONT_ASSET}")
+        assertTrue(font.isFile)
+        assertEquals(FULL_STATIC_FONT_BYTES, font.length())
+        assertEquals(FULL_STATIC_FONT_SHA256, sha256(font))
+    }
+
+    private fun render(body: String = ICON_SPAN): String =
+        StatusCardHtmlDocument.render(
+            bodyContent = body,
+            textColorHex = "#123456",
+            iconFontBase64 = FAKE_FONT
+        )
+
+    private fun sha256(file: File): String {
+        val digest = MessageDigest.getInstance("SHA-256")
+        file.inputStream().use { input ->
+            val buffer = ByteArray(DEFAULT_BUFFER_SIZE)
+            while (true) {
+                val read = input.read(buffer)
+                if (read < 0) break
+                digest.update(buffer, 0, read)
+            }
+        }
+        return digest.digest().joinToString(separator = "") { byte -> "%02x".format(byte) }
+    }
+
+    private companion object {
+        const val FAKE_FONT = "d09GMgABAAAAAA"
+        const val ICON_SPAN = "<span class=\"material-symbols-rounded\">favorite</span>"
+        const val SHOPPING_CART_SPAN =
+            "<span class=\"material-symbols-rounded\">shopping_cart</span>"
+        const val FULL_STATIC_FONT_BYTES = 456_052L
+        const val FULL_STATIC_FONT_SHA256 =
+            "19a71b30e6267416493a0e4e925a6f14be60a9c3a83148a0dc0dcf507a8fb382"
+    }
+}

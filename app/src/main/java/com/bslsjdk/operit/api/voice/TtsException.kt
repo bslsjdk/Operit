@@ -1,1 +1,15 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlCgovKioKICogVFRT5pyN5Yqh55u45YWz55qE6Ieq5a6a5LmJ5byC5bi4CiAqIEBwYXJhbSBtZXNzYWdlIOW8guW4uOS/oeaBrwogKiBAcGFyYW0gaHR0cFN0YXR1c0NvZGUgSFRUUOeKtuaAgeeggSAo5aaC5p6c6YCC55SoKQogKiBAcGFyYW0gZXJyb3JCb2R5IOmUmeivr+WTjeW6lOS9kyAo5aaC5p6c6YCC55SoKQogKiBAcGFyYW0gY2F1c2Ug5Y6f5aeL5byC5bi4CiAqLwpjbGFzcyBUdHNFeGNlcHRpb24oCiAgICBtZXNzYWdlOiBTdHJpbmcsCiAgICB2YWwgaHR0cFN0YXR1c0NvZGU6IEludD8gPSBudWxsLAogICAgdmFsIGVycm9yQm9keTogU3RyaW5nPyA9IG51bGwsCiAgICBjYXVzZTogVGhyb3dhYmxlPyA9IG51bGwKKSA6IEV4Y2VwdGlvbihtZXNzYWdlLCBjYXVzZSkK
+package com.bslsjdk.operit.api.voice
+
+/**
+ * TTS服务相关的自定义异常
+ * @param message 异常信息
+ * @param httpStatusCode HTTP状态码 (如果适用)
+ * @param errorBody 错误响应体 (如果适用)
+ * @param cause 原始异常
+ */
+class TtsException(
+    message: String,
+    val httpStatusCode: Int? = null,
+    val errorBody: String? = null,
+    cause: Throwable? = null
+) : Exception(message, cause)

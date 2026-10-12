@@ -1,1 +1,83 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHRJbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LndpZHRoSW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5yZW1lbWJlclNjcm9sbFN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udGV4dC5zZWxlY3Rpb24uU2VsZWN0aW9uQ29udGFpbmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udmVydGljYWxTY3JvbGwKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkFsZXJ0RGlhbG9nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0QnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5Bbm5vdGF0ZWRTdHJpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRGYW1pbHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0QWxpZ24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDbGlwYm9hcmRNYW5hZ2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkud2luZG93LkRpYWxvZ1Byb3BlcnRpZXMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCgovKiogCiAqIOmUmeivr+W8ueeql+e7hOS7tu+8jOWujOaVtOaYvuekuumUmeivr+a2iOaBr+WGheWuue+8jOWMheaLrOWghuagiOi3n+i4qgogKiDkuI3lgZrku7vkvZXnroDljJbmiJbmiKrlj5blpITnkIbvvIzkv53mjIHplJnor6/mtojmga/nmoTljp/lp4vmoLzlvI8KICovCkBDb21wb3NhYmxlCmZ1biBFcnJvckRpYWxvZygKICAgICAgICBlcnJvck1lc3NhZ2U6IFN0cmluZywKICAgICAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQsCiAgICAgICAgcHJvcGVydGllczogRGlhbG9nUHJvcGVydGllcyA9CiAgICAgICAgICAgICAgICBEaWFsb2dQcm9wZXJ0aWVzKAogICAgICAgICAgICAgICAgICAgIGRpc21pc3NPbkJhY2tQcmVzcyA9IHRydWUsIAogICAgICAgICAgICAgICAgICAgIGRpc21pc3NPbkNsaWNrT3V0c2lkZSA9IHRydWUKICAgICAgICAgICAgICAgICkKKSB7CiAgICAvLyDliJvlu7rmu5rliqjnirbmgIEKICAgIHZhbCBzY3JvbGxTdGF0ZSA9IHJlbWVtYmVyU2Nyb2xsU3RhdGUoKQogICAgdmFsIGNsaXBib2FyZE1hbmFnZXIgPSBMb2NhbENsaXBib2FyZE1hbmFnZXIuY3VycmVudAogICAgdmFsIGRpc3BsYXlNZXNzYWdlID0gZXJyb3JNZXNzYWdlLmlmQmxhbmsgeyBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy51bmtub3duX2Vycm9yKSB9CgogICAgQWxlcnREaWFsb2coCiAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MsCiAgICAgICAgICAgIHRpdGxlID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnJlcXVlc3RfZmFpbGVkKSkgfSwKICAgICAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyLnBhZGRpbmcodmVydGljYWwgPSA4LmRwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhlaWdodEluKG1heCA9IDM1MC5kcCkgLy8g5oGi5aSN6YCC5b2T55qE5pyA5aSn6auY5bqmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAudmVydGljYWxTY3JvbGwoc2Nyb2xsU3RhdGUpIC8vIOa3u+WKoOWeguebtOa7muWKqOWKn+iDvQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgU2VsZWN0aW9uQ29udGFpbmVyIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gZGlzcGxheU1lc3NhZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250RmFtaWx5ID0gRm9udEZhbWlseS5Nb25vc3BhY2UgLy8g5L+d55WZ562J5a695a2X5L2T77yM5L6/5LqO6ZiF6K+75aCG5qCI5L+h5oGvCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0QWxpZ24gPSBUZXh0QWxpZ24uU3RhcnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICBkaXNtaXNzQnV0dG9uID0gewogICAgICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBjbGlwYm9hcmRNYW5hZ2VyLnNldFRleHQoQW5ub3RhdGVkU3RyaW5nKGRpc3BsYXlNZXNzYWdlKSkgfQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShhbmRyb2lkLlIuc3RyaW5nLmNvcHkpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0gb25EaXNtaXNzKSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY29uZmlybSkpIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2UsCiAgICAgICAgICAgIHRpdGxlQ29udGVudENvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UsCiAgICAgICAgICAgIHNoYXBlID0gUm91bmRlZENvcm5lclNoYXBlKDE2LmRwKSwKICAgICAgICAgICAgcHJvcGVydGllcyA9IHByb3BlcnRpZXMKICAgICkKfQo=
+package com.bslsjdk.operit.ui.components
+
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.selection.SelectionContainer
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.platform.LocalClipboardManager
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.DialogProperties
+import com.bslsjdk.operit.R
+
+/** 
+ * 错误弹窗组件，完整显示错误消息内容，包括堆栈跟踪
+ * 不做任何简化或截取处理，保持错误消息的原始格式
+ */
+@Composable
+fun ErrorDialog(
+        errorMessage: String,
+        onDismiss: () -> Unit,
+        properties: DialogProperties =
+                DialogProperties(
+                    dismissOnBackPress = true, 
+                    dismissOnClickOutside = true
+                )
+) {
+    // 创建滚动状态
+    val scrollState = rememberScrollState()
+    val clipboardManager = LocalClipboardManager.current
+    val displayMessage = errorMessage.ifBlank { stringResource(R.string.unknown_error) }
+
+    AlertDialog(
+            onDismissRequest = onDismiss,
+            title = { Text(stringResource(R.string.request_failed)) },
+            text = {
+                Box(
+                        modifier =
+                                Modifier.padding(vertical = 8.dp)
+                                        .heightIn(max = 350.dp) // 恢复适当的最大高度
+                                        .verticalScroll(scrollState) // 添加垂直滚动功能
+                ) {
+                    SelectionContainer {
+                        Text(
+                                text = displayMessage,
+                                style = MaterialTheme.typography.bodyMedium.copy(
+                                    fontFamily = FontFamily.Monospace // 保留等宽字体，便于阅读堆栈信息
+                                ),
+                                textAlign = TextAlign.Start,
+                                color = MaterialTheme.colorScheme.onSurface
+                        )
+                    }
+                }
+            },
+            dismissButton = {
+                TextButton(
+                    onClick = { clipboardManager.setText(AnnotatedString(displayMessage)) }
+                ) {
+                    Text(stringResource(android.R.string.copy))
+                }
+            },
+            confirmButton = {
+                TextButton(onClick = onDismiss) { Text(stringResource(R.string.confirm)) }
+            },
+            containerColor = MaterialTheme.colorScheme.surface,
+            titleContentColor = MaterialTheme.colorScheme.onSurface,
+            shape = RoundedCornerShape(16.dp),
+            properties = properties
+    )
+}

@@ -1,1 +1,252 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvd0NvbGxlY3RvcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0Jvb2xlYW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLk11dGV4CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy53aXRoTG9jawppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudExpbmtlZFF1ZXVlCgovKiog5pel5b+X5bel5YW357G777yM57uf5LiAU3RyZWFt55u45YWz5pel5b+XICovCm9iamVjdCBTdHJlYW1Mb2dnZXIgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlN0cmVhbUZyYW1ld29yayIKICAgIHByaXZhdGUgdmFyIGVuYWJsZWQgPSB0cnVlCiAgICBwcml2YXRlIHZhciB2ZXJib3NlRW5hYmxlZCA9IGZhbHNlCgogICAgLyoqIOWQr+eUqOaIluemgeeUqOaXpeW/lyAqLwogICAgZnVuIHNldEVuYWJsZWQoZW5hYmxlZDogQm9vbGVhbikgewogICAgICAgIHRoaXMuZW5hYmxlZCA9IGVuYWJsZWQKICAgIH0KCiAgICAvKiog5ZCv55So5oiW56aB55So6K+m57uG5pel5b+XICovCiAgICBmdW4gc2V0VmVyYm9zZUVuYWJsZWQoZW5hYmxlZDogQm9vbGVhbikgewogICAgICAgIHRoaXMudmVyYm9zZUVuYWJsZWQgPSBlbmFibGVkCiAgICB9CgogICAgLyoqIOiusOW9leiwg+ivleS/oeaBryAqLwogICAgZnVuIGQoY29tcG9uZW50OiBTdHJpbmcsIG1lc3NhZ2U6IFN0cmluZykgewogICAgICAgIGlmIChlbmFibGVkKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlskY29tcG9uZW50XSAkbWVzc2FnZSIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDorrDlvZXkv6Hmga8gKi8KICAgIGZ1biBpKGNvbXBvbmVudDogU3RyaW5nLCBtZXNzYWdlOiBTdHJpbmcpIHsKICAgICAgICBpZiAoZW5hYmxlZCkgewogICAgICAgICAgICBBcHBMb2dnZXIuaShUQUcsICJbJGNvbXBvbmVudF0gJG1lc3NhZ2UiKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog6K6w5b2V6K+m57uG5L+h5oGvICovCiAgICBmdW4gdihjb21wb25lbnQ6IFN0cmluZywgbWVzc2FnZTogU3RyaW5nKSB7CiAgICAgICAgaWYgKGVuYWJsZWQgJiYgdmVyYm9zZUVuYWJsZWQpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLnYoVEFHLCAiWyRjb21wb25lbnRdICRtZXNzYWdlIikKICAgICAgICB9CiAgICB9CgogICAgLyoqIOiusOW9leitpuWRiiAqLwogICAgZnVuIHcoY29tcG9uZW50OiBTdHJpbmcsIG1lc3NhZ2U6IFN0cmluZykgewogICAgICAgIGlmIChlbmFibGVkKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIlskY29tcG9uZW50XSAkbWVzc2FnZSIpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDorrDlvZXplJnor68gKi8KICAgIGZ1biBlKGNvbXBvbmVudDogU3RyaW5nLCBtZXNzYWdlOiBTdHJpbmcsIHRocm93YWJsZTogVGhyb3dhYmxlPyA9IG51bGwpIHsKICAgICAgICBpZiAoZW5hYmxlZCkgewogICAgICAgICAgICBpZiAodGhyb3dhYmxlICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlskY29tcG9uZW50XSAkbWVzc2FnZSIsIHRocm93YWJsZSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlskY29tcG9uZW50XSAkbWVzc2FnZSIpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8qKiBTdHJlYW3mjqXlj6PvvIznsbvkvLzkuo5Lb3RsaW4gRmxvd++8jOeUqOS6juihqOekuuW8guatpeiuoeeul+eahOaVsOaNrua1gSAqLwppbnRlcmZhY2UgU3RyZWFtPFQ+IHsKICAgIC8qKiDmtYHmmK/lkKblpITkuo7plIHlrprnirbmgIEgKi8KICAgIHZhbCBpc0xvY2tlZDogQm9vbGVhbgogICAgCiAgICAvKiog57yT5a2Y55qE5YWD57Sg5pWw6YePICovCiAgICB2YWwgYnVmZmVyZWRDb3VudDogSW50CiAgICAKICAgIC8qKiDplIHlrprmtYEgLSDmmoLlgZzmjqXmlLbmlrDmlbDmja7kvYbnu6fnu63lj5HpgIEgKi8KICAgIHN1c3BlbmQgZnVuIGxvY2soKQogICAgCiAgICAvKiog6Kej6ZSB5rWBIC0g5oGi5aSN5o6l5pS25bm25Y+R6YCB57yT5a2Y55qE5pWw5o2uICovCiAgICBzdXNwZW5kIGZ1biB1bmxvY2soKQogICAgCiAgICAvKiog5riF56m657yT5a2Y55qE5pWw5o2uICovCiAgICBmdW4gY2xlYXJCdWZmZXIoKQogICAgCiAgICAvKiog5pS26ZuGU3RyZWFt5Y+R5Ye655qE5YC8ICovCiAgICBzdXNwZW5kIGZ1biBjb2xsZWN0KGNvbGxlY3RvcjogU3RyZWFtQ29sbGVjdG9yPFQ+KQoKICAgIC8qKiBTdHJlYW3nmoTmoIflh4bmlLbpm4bmlrnms5XvvIznroDljJbkvb/nlKggKi8KICAgIHN1c3BlbmQgZnVuIGNvbGxlY3Qob25FYWNoOiBzdXNwZW5kIChUKSAtPiBVbml0KSB7CiAgICAgICAgY29sbGVjdCgKICAgICAgICAgICAgb2JqZWN0IDogU3RyZWFtQ29sbGVjdG9yPFQ+IHsKICAgICAgICAgICAgICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGVtaXQodmFsdWU6IFQpIHsKICAgICAgICAgICAgICAgICAgICBTdHJlYW1Mb2dnZXIudigiU3RyZWFtIiwgIuaUtumbhuWIsOWFg+e0oDogJHZhbHVlIikKICAgICAgICAgICAgICAgICAgICBvbkVhY2godmFsdWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICApCiAgICB9Cn0KCi8qKiBTdHJlYW3mlLbpm4blmajmjqXlj6PvvIznsbvkvLzkuo5GbG93Q29sbGVjdG9yICovCmludGVyZmFjZSBTdHJlYW1Db2xsZWN0b3I8aW4gVD4gewogICAgLyoqIOWPkeWwhOS4gOS4quWAvOWIsFN0cmVhbSAqLwogICAgc3VzcGVuZCBmdW4gZW1pdCh2YWx1ZTogVCkKfQoKLyoqIOm7mOiupFN0cmVhbeaKveixoeWunueOsO+8jOaPkOS+m+mUgeWumuWKn+iDvSAqLwphYnN0cmFjdCBjbGFzcyBBYnN0cmFjdFN0cmVhbTxUPiA6IFN0cmVhbTxUPiB7CiAgICBwcml2YXRlIHZhbCBtdXRleCA9IE11dGV4KCkKICAgIHByaXZhdGUgdmFsIGlzTG9ja2VkRmxhZyA9IEF0b21pY0Jvb2xlYW4oZmFsc2UpCiAgICBwcml2YXRlIHZhbCBpc0Nsb3NlZEZsYWcgPSBBdG9taWNCb29sZWFuKGZhbHNlKQogICAgcHJpdmF0ZSB2YWwgYnVmZmVyID0gQ29uY3VycmVudExpbmtlZFF1ZXVlPFQ+KCkKICAgIAogICAgb3ZlcnJpZGUgdmFsIGlzTG9ja2VkOiBCb29sZWFuIGdldCgpID0gaXNMb2NrZWRGbGFnLmdldCgpCiAgICBvdmVycmlkZSB2YWwgYnVmZmVyZWRDb3VudDogSW50IGdldCgpID0gYnVmZmVyLnNpemUKICAgIAogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gbG9jaygpIHsKICAgICAgICBtdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIGlmICghaXNMb2NrZWRGbGFnLmdldCgpICYmICFpc0Nsb3NlZEZsYWcuZ2V0KCkpIHsKICAgICAgICAgICAgICAgIC8vIFN0cmVhbUxvZ2dlci5kKCJTdHJlYW0iLCAi5rWB5bey6ZSB5a6aIikKICAgICAgICAgICAgICAgIGlzTG9ja2VkRmxhZy5zZXQodHJ1ZSkKICAgICAgICAgICAgfSBlbHNlIGlmIChpc0Nsb3NlZEZsYWcuZ2V0KCkpIHsKICAgICAgICAgICAgICAgIC8vIFN0cmVhbUxvZ2dlci5kKCJTdHJlYW0iLCAi5rWB5bey5YWz6Zet77yM6ZSB5a6a5pON5L2c6KKr5b+955WlIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gdW5sb2NrKCkgewogICAgICAgIG11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgaWYgKGlzTG9ja2VkRmxhZy5jb21wYXJlQW5kU2V0KHRydWUsIGZhbHNlKSkgewogICAgICAgICAgICAgICAgdmFsIGJ1ZmZlclNpemUgPSBidWZmZXIuc2l6ZQogICAgICAgICAgICAgICAgaWYgKGJ1ZmZlclNpemUgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gU3RyZWFtTG9nZ2VyLmQoIlN0cmVhbSIsICLmtYHlt7Lop6PplIHvvIzlj5HpgIHnvJPlrZjmlbDmja4gKCR7YnVmZmVyU2l6ZX3pobkpIikKICAgICAgICAgICAgICAgICAgICB2YWwgdGVtcExpc3QgPSBBcnJheUxpc3Q8VD4oYnVmZmVyKQogICAgICAgICAgICAgICAgICAgIGJ1ZmZlci5jbGVhcigpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAvLyDml6DorrrmtYHmmK/lkKblhbPpl63vvIzpg73lsJ3or5XlpITnkIbmiYDmnInnvJPlhrLpobkKICAgICAgICAgICAgICAgICAgICBmb3IgKGl0ZW0gaW4gdGVtcExpc3QpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtaXRCdWZmZXJlZEl0ZW0oaXRlbSkKICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDlpITnkIbnvJPlrZjpobnml7blj5HnlJ/lvILluLgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFN0cmVhbUxvZ2dlci53KCJTdHJlYW0iLCAi5aSE55CG57yT5a2Y6aG55pe25Y+R55Sf5byC5bi4OiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhyb3cgZQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAvLyBTdHJlYW1Mb2dnZXIuZCgiU3RyZWFtIiwgIua1geW3suino+mUge+8jOaXoOe8k+WtmOaVsOaNriIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIG92ZXJyaWRlIGZ1biBjbGVhckJ1ZmZlcigpIHsKICAgICAgICB2YWwgc2l6ZSA9IGJ1ZmZlci5zaXplCiAgICAgICAgYnVmZmVyLmNsZWFyKCkKICAgICAgICBTdHJlYW1Mb2dnZXIuZCgiU3RyZWFtIiwgIuW3sua4heepuue8k+WGsuWMuiAoJHNpemUg6aG5KSIpCiAgICB9CiAgICAKICAgIC8qKiDlvZPmtYHooqvplIHlrprml7bvvIzlsIblgLzlrZjlhaXnvJPlhrLljLogKi8KICAgIHByb3RlY3RlZCBzdXNwZW5kIGZ1biB0cnlCdWZmZXIodmFsdWU6IFQpOiBCb29sZWFuIHsKICAgICAgICBpZiAoaXNMb2NrZWRGbGFnLmdldCgpICYmICFpc0Nsb3NlZEZsYWcuZ2V0KCkpIHsKICAgICAgICAgICAgYnVmZmVyLm9mZmVyKHZhbHVlKQogICAgICAgICAgICBTdHJlYW1Mb2dnZXIudigiU3RyZWFtIiwgIumUgeWumuS4re+8jOWAvOW3sue8k+WtmCIpCiAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgfQogICAgICAgIHJldHVybiBmYWxzZQogICAgfQogICAgCiAgICAvKiog5Zyo5rWB6Kej6ZSB5pe25aSE55CG57yT5Yay5Yy65Lit55qE6aG555uuICovCiAgICBwcm90ZWN0ZWQgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gZW1pdEJ1ZmZlcmVkSXRlbShpdGVtOiBUKQogICAgCiAgICAvKioKICAgICAqIOagh+iusOa1geW3suWFs+mXre+8jOatpOaWueazleW6lOWcqOa1geWujOaIkOaIluWPkeeUn+mUmeivr+aXtuiwg+eUqAogICAgICog5aaC5p6c5rWB5aSE5LqO6ZSB5a6a54q25oCB77yM5q2k5pa55rOV5bCG5YWB6K645aSE55CG57yT5Yay5Yy65pWw5o2uCiAgICAgKi8KICAgIHByb3RlY3RlZCBmdW4gbWFya0Nsb3NlZCgpIHsKICAgICAgICBpc0Nsb3NlZEZsYWcuc2V0KHRydWUpCiAgICAgICAgLy8gU3RyZWFtTG9nZ2VyLmQoIlN0cmVhbSIsICLmtYHlt7LmoIforrDkuLrlhbPpl60iKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOajgOafpea1geaYr+WQpuW3suWFs+mXrQogICAgICovCiAgICBwcm90ZWN0ZWQgZnVuIGlzQ2xvc2VkKCk6IEJvb2xlYW4gPSBpc0Nsb3NlZEZsYWcuZ2V0KCkKfQoKLyoqIEZsb3fliLBTdHJlYW3nmoTpgILphY3lmajvvIzlhYHorrjlsIZLb3RsaW4gRmxvd+i9rOaNouS4ulN0cmVhbSAqLwpjbGFzcyBGbG93QXNTdHJlYW08VD4ocHJpdmF0ZSB2YWwgZmxvdzogRmxvdzxUPikgOiBBYnN0cmFjdFN0cmVhbTxUPigpIHsKICAgIHByaXZhdGUgdmFyIGFjdGl2ZUNvbGxlY3RvcjogU3RyZWFtQ29sbGVjdG9yPFQ+PyA9IG51bGwKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBjb2xsZWN0KGNvbGxlY3RvcjogU3RyZWFtQ29sbGVjdG9yPFQ+KSB7CiAgICAgICAgYWN0aXZlQ29sbGVjdG9yID0gY29sbGVjdG9yCiAgICAgICAgCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgZmxvdy5jb2xsZWN0IHsgdmFsdWUgLT4KICAgICAgICAgICAgICAgIC8vIOWmguaenOa1geiiq+mUgeWumu+8jOWImee8k+WtmOWAvAogICAgICAgICAgICAgICAgaWYgKCFpc0Nsb3NlZCgpICYmICF0cnlCdWZmZXIodmFsdWUpKSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5ZCm5YiZ55u05o6l5Y+R6YCBCiAgICAgICAgICAgICAgICAgICAgY29sbGVjdG9yLmVtaXQodmFsdWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAvLyDmtYHmlLbpm4blrozmiJDmiJblvILluLjml7bvvIzmoIforrDmtYHlt7LlhbPpl60KICAgICAgICAgICAgbWFya0Nsb3NlZCgpCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDlpoLmnpzmtYHlnKjlhbPpl63ml7blpITkuo7plIHlrprnirbmgIHvvIzop6PplIHku6XlpITnkIbnvJPlhrLnmoTmlbDmja4KICAgICAgICAgICAgaWYgKGlzTG9ja2VkKSB7CiAgICAgICAgICAgICAgICBTdHJlYW1Mb2dnZXIuaSgiRmxvd0FzU3RyZWFtIiwgIua1geWFs+mXreaXtuWkhOS6jumUgeWumueKtuaAge+8jOWwneivleino+mUgeWkhOeQhue8k+WGsuaVsOaNriIpCiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHVubG9jaygpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBTdHJlYW1Mb2dnZXIudygiRmxvd0FzU3RyZWFtIiwgIua1geWFs+mXreaXtuino+mUgeWksei0pTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZW1pdEJ1ZmZlcmVkSXRlbShpdGVtOiBUKSB7CiAgICAgICAgLy8g5Y2z5L2/5rWB5bey5YWz6Zet77yM5Lmf5bCd6K+V5Y+R6YCB57yT5Yay55qE5pWw5o2uCiAgICAgICAgYWN0aXZlQ29sbGVjdG9yPy5lbWl0KGl0ZW0pCiAgICB9Cn0KCi8qKiBTdHJlYW3liLBGbG9355qE6YCC6YWN5Zmo77yM5YWB6K645bCGU3RyZWFt6L2s5o2i5Li6S290bGluIEZsb3cgKi8KY2xhc3MgU3RyZWFtQXNGbG93PFQ+KHByaXZhdGUgdmFsIHN0cmVhbTogU3RyZWFtPFQ+KSA6IEZsb3c8VD4gewogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gY29sbGVjdChjb2xsZWN0b3I6IEZsb3dDb2xsZWN0b3I8VD4pIHsKICAgICAgICBzdHJlYW0uY29sbGVjdCB7IHZhbHVlIC0+CiAgICAgICAgICAgIGNvbGxlY3Rvci5lbWl0KHZhbHVlKQogICAgICAgIH0KICAgIH0KfQoKLyoqIOWwhkZsb3fovazmjaLkuLpTdHJlYW0gKi8KZnVuIDxUPiBGbG93PFQ+LmFzU3RyZWFtKCk6IFN0cmVhbTxUPiA9IEZsb3dBc1N0cmVhbSh0aGlzKQoKLyoqIOWwhlN0cmVhbei9rOaNouS4ukZsb3cgKi8KZnVuIDxUPiBTdHJlYW08VD4uYXNGbG93KCk6IEZsb3c8VD4gPSBTdHJlYW1Bc0Zsb3codGhpcykKCi8qKiDlnKjmjIflrprnmoTljY/nqIvkvZznlKjln5/kuK3lkK/liqhTdHJlYW3mlLbpm4YgKi8KZnVuIDxUPiBTdHJlYW08VD4ubGF1bmNoSW4oc2NvcGU6IENvcm91dGluZVNjb3BlLCBvbkVhY2g6IHN1c3BlbmQgKFQpIC0+IFVuaXQgPSB7fSk6IEpvYiB7CiAgICBTdHJlYW1Mb2dnZXIuZCgiU3RyZWFtLmxhdW5jaEluIiwgIuWcqOWNj+eoi+S9nOeUqOWfn+S4reWQr+WKqFN0cmVhbeaUtumbhiIpCiAgICByZXR1cm4gc2NvcGUubGF1bmNoIHsKICAgICAgICBjb2xsZWN0IHsgdmFsdWUgLT4KICAgICAgICAgICAgU3RyZWFtTG9nZ2VyLnYoIlN0cmVhbS5sYXVuY2hJbiIsICLmlLbpm4bliLDlhYPntKA6ICR2YWx1ZSIpCiAgICAgICAgICAgIG9uRWFjaCh2YWx1ZSkKICAgICAgICB9CiAgICB9Cn0KCg==
+package com.bslsjdk.operit.util.stream
+
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.FlowCollector
+import kotlinx.coroutines.launch
+import java.util.concurrent.atomic.AtomicBoolean
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import java.util.concurrent.ConcurrentLinkedQueue
+
+/** 日志工具类，统一Stream相关日志 */
+object StreamLogger {
+    private const val TAG = "StreamFramework"
+    private var enabled = true
+    private var verboseEnabled = false
+
+    /** 启用或禁用日志 */
+    fun setEnabled(enabled: Boolean) {
+        this.enabled = enabled
+    }
+
+    /** 启用或禁用详细日志 */
+    fun setVerboseEnabled(enabled: Boolean) {
+        this.verboseEnabled = enabled
+    }
+
+    /** 记录调试信息 */
+    fun d(component: String, message: String) {
+        if (enabled) {
+            AppLogger.d(TAG, "[$component] $message")
+        }
+    }
+
+    /** 记录信息 */
+    fun i(component: String, message: String) {
+        if (enabled) {
+            AppLogger.i(TAG, "[$component] $message")
+        }
+    }
+
+    /** 记录详细信息 */
+    fun v(component: String, message: String) {
+        if (enabled && verboseEnabled) {
+            AppLogger.v(TAG, "[$component] $message")
+        }
+    }
+
+    /** 记录警告 */
+    fun w(component: String, message: String) {
+        if (enabled) {
+            AppLogger.w(TAG, "[$component] $message")
+        }
+    }
+
+    /** 记录错误 */
+    fun e(component: String, message: String, throwable: Throwable? = null) {
+        if (enabled) {
+            if (throwable != null) {
+                AppLogger.e(TAG, "[$component] $message", throwable)
+            } else {
+                AppLogger.e(TAG, "[$component] $message")
+            }
+        }
+    }
+}
+
+/** Stream接口，类似于Kotlin Flow，用于表示异步计算的数据流 */
+interface Stream<T> {
+    /** 流是否处于锁定状态 */
+    val isLocked: Boolean
+    
+    /** 缓存的元素数量 */
+    val bufferedCount: Int
+    
+    /** 锁定流 - 暂停接收新数据但继续发送 */
+    suspend fun lock()
+    
+    /** 解锁流 - 恢复接收并发送缓存的数据 */
+    suspend fun unlock()
+    
+    /** 清空缓存的数据 */
+    fun clearBuffer()
+    
+    /** 收集Stream发出的值 */
+    suspend fun collect(collector: StreamCollector<T>)
+
+    /** Stream的标准收集方法，简化使用 */
+    suspend fun collect(onEach: suspend (T) -> Unit) {
+        collect(
+            object : StreamCollector<T> {
+                override suspend fun emit(value: T) {
+                    StreamLogger.v("Stream", "收集到元素: $value")
+                    onEach(value)
+                }
+            }
+        )
+    }
+}
+
+/** Stream收集器接口，类似于FlowCollector */
+interface StreamCollector<in T> {
+    /** 发射一个值到Stream */
+    suspend fun emit(value: T)
+}
+
+/** 默认Stream抽象实现，提供锁定功能 */
+abstract class AbstractStream<T> : Stream<T> {
+    private val mutex = Mutex()
+    private val isLockedFlag = AtomicBoolean(false)
+    private val isClosedFlag = AtomicBoolean(false)
+    private val buffer = ConcurrentLinkedQueue<T>()
+    
+    override val isLocked: Boolean get() = isLockedFlag.get()
+    override val bufferedCount: Int get() = buffer.size
+    
+    override suspend fun lock() {
+        mutex.withLock {
+            if (!isLockedFlag.get() && !isClosedFlag.get()) {
+                // StreamLogger.d("Stream", "流已锁定")
+                isLockedFlag.set(true)
+            } else if (isClosedFlag.get()) {
+                // StreamLogger.d("Stream", "流已关闭，锁定操作被忽略")
+            }
+        }
+    }
+    
+    override suspend fun unlock() {
+        mutex.withLock {
+            if (isLockedFlag.compareAndSet(true, false)) {
+                val bufferSize = buffer.size
+                if (bufferSize > 0) {
+                    // StreamLogger.d("Stream", "流已解锁，发送缓存数据 (${bufferSize}项)")
+                    val tempList = ArrayList<T>(buffer)
+                    buffer.clear()
+                
+                    // 无论流是否关闭，都尝试处理所有缓冲项
+                    for (item in tempList) {
+                        try {
+                            emitBufferedItem(item)
+                        } catch (e: Exception) {
+                            // 处理缓存项时发生异常
+                            StreamLogger.w("Stream", "处理缓存项时发生异常: ${e.message}")
+                            throw e
+                        }
+                    }
+                } else {
+                    // StreamLogger.d("Stream", "流已解锁，无缓存数据")
+                }
+            }
+        }
+    }
+    
+    override fun clearBuffer() {
+        val size = buffer.size
+        buffer.clear()
+        StreamLogger.d("Stream", "已清空缓冲区 ($size 项)")
+    }
+    
+    /** 当流被锁定时，将值存入缓冲区 */
+    protected suspend fun tryBuffer(value: T): Boolean {
+        if (isLockedFlag.get() && !isClosedFlag.get()) {
+            buffer.offer(value)
+            StreamLogger.v("Stream", "锁定中，值已缓存")
+            return true
+        }
+        return false
+    }
+    
+    /** 在流解锁时处理缓冲区中的项目 */
+    protected abstract suspend fun emitBufferedItem(item: T)
+    
+    /**
+     * 标记流已关闭，此方法应在流完成或发生错误时调用
+     * 如果流处于锁定状态，此方法将允许处理缓冲区数据
+     */
+    protected fun markClosed() {
+        isClosedFlag.set(true)
+        // StreamLogger.d("Stream", "流已标记为关闭")
+    }
+    
+    /**
+     * 检查流是否已关闭
+     */
+    protected fun isClosed(): Boolean = isClosedFlag.get()
+}
+
+/** Flow到Stream的适配器，允许将Kotlin Flow转换为Stream */
+class FlowAsStream<T>(private val flow: Flow<T>) : AbstractStream<T>() {
+    private var activeCollector: StreamCollector<T>? = null
+
+    override suspend fun collect(collector: StreamCollector<T>) {
+        activeCollector = collector
+        
+        try {
+            flow.collect { value ->
+                // 如果流被锁定，则缓存值
+                if (!isClosed() && !tryBuffer(value)) {
+                    // 否则直接发送
+                    collector.emit(value)
+                }
+            }
+        } finally {
+            // 流收集完成或异常时，标记流已关闭
+            markClosed()
+            
+            // 如果流在关闭时处于锁定状态，解锁以处理缓冲的数据
+            if (isLocked) {
+                StreamLogger.i("FlowAsStream", "流关闭时处于锁定状态，尝试解锁处理缓冲数据")
+                try {
+                    unlock()
+                } catch (e: Exception) {
+                    StreamLogger.w("FlowAsStream", "流关闭时解锁失败: ${e.message}")
+                }
+            }
+        }
+    }
+    
+    override suspend fun emitBufferedItem(item: T) {
+        // 即使流已关闭，也尝试发送缓冲的数据
+        activeCollector?.emit(item)
+    }
+}
+
+/** Stream到Flow的适配器，允许将Stream转换为Kotlin Flow */
+class StreamAsFlow<T>(private val stream: Stream<T>) : Flow<T> {
+    override suspend fun collect(collector: FlowCollector<T>) {
+        stream.collect { value ->
+            collector.emit(value)
+        }
+    }
+}
+
+/** 将Flow转换为Stream */
+fun <T> Flow<T>.asStream(): Stream<T> = FlowAsStream(this)
+
+/** 将Stream转换为Flow */
+fun <T> Stream<T>.asFlow(): Flow<T> = StreamAsFlow(this)
+
+/** 在指定的协程作用域中启动Stream收集 */
+fun <T> Stream<T>.launchIn(scope: CoroutineScope, onEach: suspend (T) -> Unit = {}): Job {
+    StreamLogger.d("Stream.launchIn", "在协程作用域中启动Stream收集")
+    return scope.launch {
+        collect { value ->
+            StreamLogger.v("Stream.launchIn", "收集到元素: $value")
+            onEach(value)
+        }
+    }
+}
+

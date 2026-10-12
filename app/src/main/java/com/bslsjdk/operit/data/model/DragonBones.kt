@@ -1,1 +1,47 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGNvbS5nb29nbGUuZ3Nvbi5hbm5vdGF0aW9ucy5TZXJpYWxpemVkTmFtZQoKLyoqCiAqIFRoZSB0eXBlIG9mIGFuaW1hdGlvbiBsb2dpYyB0byBhcHBseSB0byBhIG1vZGVsLgogKi8KZW51bSBjbGFzcyBNb2RlbFR5cGUgewogICAgLyoqIFN0YW5kYXJkIGFuaW1hdGlvbiBsb2dpYywgc3VpdGFibGUgZm9yIGh1bWFub2lkIG9yIGNvbXBsZXggbW9kZWxzICh0aGUgIkRyYWdvbkJvbmVzLWxpa2UiIHN0eWxlKS4gKi8KICAgIFNUQU5EQVJECn0KCi8qKgogKiBSZXByZXNlbnRzIGEgc2luZ2xlIERyYWdvbkJvbmVzIG1vZGVsJ3MgbWV0YWRhdGEuCiAqCiAqIEBwYXJhbSBpZCBBIHVuaXF1ZSBpZGVudGlmaWVyIGZvciB0aGUgbW9kZWwgKGUuZy4sICJ1c2VyX2xvb25nIikuCiAqIEBwYXJhbSBuYW1lIFRoZSBkaXNwbGF5IG5hbWUgb2YgdGhlIG1vZGVsIChlLmcuLCAibG9vbmciKS4KICogQHBhcmFtIGZvbGRlclBhdGggVGhlIGFic29sdXRlIHBhdGggdG8gdGhlIGRpcmVjdG9yeSBjb250YWluaW5nIHRoZSBtb2RlbCBmaWxlcy4KICogQHBhcmFtIHNrZWxldG9uRmlsZSBUaGUgZmlsZW5hbWUgb2YgdGhlIHNrZWxldG9uIGRhdGEgKGUuZy4sICJsb29uZ2JvbmVzLXdlYi5qc29uIikuCiAqIEBwYXJhbSB0ZXh0dXJlSnNvbkZpbGUgVGhlIGZpbGVuYW1lIG9mIHRoZSB0ZXh0dXJlIGF0bGFzIGRhdGEgKGUuZy4sICJsb29uZ2JvbmVzLXdlYl90ZXguanNvbiIpLgogKiBAcGFyYW0gdGV4dHVyZUltYWdlRmlsZSBUaGUgZmlsZW5hbWUgb2YgdGhlIHRleHR1cmUgYXRsYXMgaW1hZ2UgKGUuZy4sICJsb29uZ2JvbmVzLXdlYl90ZXgucG5nIikuCiAqIEBwYXJhbSBpc0J1aWx0SW4gVHJ1ZSBpZiB0aGUgbW9kZWwgaXMgYnVuZGxlZCB3aXRoIHRoZSBhcHAgaW4gYXNzZXRzLCBmYWxzZSBpZiBpdCdzIGEgdXNlciBtb2RlbC4KICovCmRhdGEgY2xhc3MgRHJhZ29uQm9uZXNNb2RlbCgKICAgICAgICBAU2VyaWFsaXplZE5hbWUoImlkIikgdmFsIGlkOiBTdHJpbmcsCiAgICAgICAgQFNlcmlhbGl6ZWROYW1lKCJuYW1lIikgdmFsIG5hbWU6IFN0cmluZywKICAgICAgICBAU2VyaWFsaXplZE5hbWUoImZvbGRlclBhdGgiKSB2YWwgZm9sZGVyUGF0aDogU3RyaW5nLAogICAgICAgIEBTZXJpYWxpemVkTmFtZSgic2tlbGV0b25GaWxlIikgdmFsIHNrZWxldG9uRmlsZTogU3RyaW5nLAogICAgICAgIEBTZXJpYWxpemVkTmFtZSgidGV4dHVyZUpzb25GaWxlIikgdmFsIHRleHR1cmVKc29uRmlsZTogU3RyaW5nLAogICAgICAgIEBTZXJpYWxpemVkTmFtZSgidGV4dHVyZUltYWdlRmlsZSIpIHZhbCB0ZXh0dXJlSW1hZ2VGaWxlOiBTdHJpbmcsCiAgICAgICAgQFNlcmlhbGl6ZWROYW1lKCJpc0J1aWx0SW4iKSB2YWwgaXNCdWlsdEluOiBCb29sZWFuID0gZmFsc2UKKQoKLyoqCiAqIFJlcHJlc2VudHMgdGhlIGNvbmZpZ3VyYXRpb24gZm9yIHRoZSBEcmFnb25Cb25lcyB2aWV3LgogKgogKiBAcGFyYW0gbW9kZWxJZCBUaGUgSUQgb2YgdGhlIGN1cnJlbnRseSBhY3RpdmUgbW9kZWwuCiAqIEBwYXJhbSBzY2FsZSBUaGUgZ2xvYmFsIHNjYWxlIG9mIHRoZSBtb2RlbC4KICogQHBhcmFtIHRyYW5zbGF0ZVggVGhlIGdsb2JhbCBob3Jpem9udGFsIHRyYW5zbGF0aW9uIG9mIHRoZSBtb2RlbC4KICogQHBhcmFtIHRyYW5zbGF0ZVkgVGhlIGdsb2JhbCB2ZXJ0aWNhbCB0cmFuc2xhdGlvbiBvZiB0aGUgbW9kZWwuCiAqLwpkYXRhIGNsYXNzIERyYWdvbkJvbmVzQ29uZmlnKAogICAgICAgIEBTZXJpYWxpemVkTmFtZSgibW9kZWxJZCIpIHZhbCBtb2RlbElkOiBTdHJpbmcsCiAgICAgICAgQFNlcmlhbGl6ZWROYW1lKCJzY2FsZSIpIHZhbCBzY2FsZTogRmxvYXQgPSAxLjBmLAogICAgICAgIEBTZXJpYWxpemVkTmFtZSgidHJhbnNsYXRlWCIpIHZhbCB0cmFuc2xhdGVYOiBGbG9hdCA9IDBmLAogICAgICAgIEBTZXJpYWxpemVkTmFtZSgidHJhbnNsYXRlWSIpIHZhbCB0cmFuc2xhdGVZOiBGbG9hdCA9IDBmCikK
+package com.bslsjdk.operit.data.model
+
+import com.google.gson.annotations.SerializedName
+
+/**
+ * The type of animation logic to apply to a model.
+ */
+enum class ModelType {
+    /** Standard animation logic, suitable for humanoid or complex models (the "DragonBones-like" style). */
+    STANDARD
+}
+
+/**
+ * Represents a single DragonBones model's metadata.
+ *
+ * @param id A unique identifier for the model (e.g., "user_loong").
+ * @param name The display name of the model (e.g., "loong").
+ * @param folderPath The absolute path to the directory containing the model files.
+ * @param skeletonFile The filename of the skeleton data (e.g., "loongbones-web.json").
+ * @param textureJsonFile The filename of the texture atlas data (e.g., "loongbones-web_tex.json").
+ * @param textureImageFile The filename of the texture atlas image (e.g., "loongbones-web_tex.png").
+ * @param isBuiltIn True if the model is bundled with the app in assets, false if it's a user model.
+ */
+data class DragonBonesModel(
+        @SerializedName("id") val id: String,
+        @SerializedName("name") val name: String,
+        @SerializedName("folderPath") val folderPath: String,
+        @SerializedName("skeletonFile") val skeletonFile: String,
+        @SerializedName("textureJsonFile") val textureJsonFile: String,
+        @SerializedName("textureImageFile") val textureImageFile: String,
+        @SerializedName("isBuiltIn") val isBuiltIn: Boolean = false
+)
+
+/**
+ * Represents the configuration for the DragonBones view.
+ *
+ * @param modelId The ID of the currently active model.
+ * @param scale The global scale of the model.
+ * @param translateX The global horizontal translation of the model.
+ * @param translateY The global vertical translation of the model.
+ */
+data class DragonBonesConfig(
+        @SerializedName("modelId") val modelId: String,
+        @SerializedName("scale") val scale: Float = 1.0f,
+        @SerializedName("translateX") val translateX: Float = 0f,
+        @SerializedName("translateY") val translateY: Float = 0f
+)

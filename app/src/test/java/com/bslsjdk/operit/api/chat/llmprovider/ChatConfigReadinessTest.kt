@@ -1,1 +1,171 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaUtleUluZm8KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaVByb3ZpZGVyVHlwZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTW9kZWxDb25maWdEYXRhCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ2hhdENvbmZpZ1JlYWRpbmVzc1Rlc3QgewogICAgQFRlc3QKICAgIGZ1biBkZWVwU2Vla1dpdGhWYWxpZEtleV9pc1JlYWR5KCkgewogICAgICAgIGFzc2VydFJlYWR5KHJlbW90ZUNvbmZpZyhBcGlQcm92aWRlclR5cGUuREVFUFNFRUssIGFwaUtleSA9ICJzay12YWxpZCIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZGVlcFNlZWtXaXRoQ2hpbmVzZUtleV9pc1JlamVjdGVkKCkgewogICAgICAgIGFzc2VydElzc3VlKAogICAgICAgICAgICBDaGF0Q29uZmlnUmVhZGluZXNzSXNzdWUuQVBJX0tFWV9JTlZBTElELAogICAgICAgICAgICByZW1vdGVDb25maWcoQXBpUHJvdmlkZXJUeXBlLkRFRVBTRUVLLCBhcGlLZXkgPSAi5Lit5paHIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBuYW1lZENsb3VkUHJvdmlkZXJXaXRob3V0S2V5X2lzUmVqZWN0ZWQoKSB7CiAgICAgICAgYXNzZXJ0SXNzdWUoCiAgICAgICAgICAgIENoYXRDb25maWdSZWFkaW5lc3NJc3N1ZS5BUElfS0VZX01JU1NJTkcsCiAgICAgICAgICAgIHJlbW90ZUNvbmZpZyhBcGlQcm92aWRlclR5cGUuT1BFTkFJLCBhcGlLZXkgPSAiIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBjb2RleFdpdGhvdXRPQXV0aExvZ2luX2lzUmVqZWN0ZWQoKSB7CiAgICAgICAgYXNzZXJ0SXNzdWUoCiAgICAgICAgICAgIENoYXRDb25maWdSZWFkaW5lc3NJc3N1ZS5DT0RFWF9MT0dJTl9SRVFVSVJFRCwKICAgICAgICAgICAgcmVtb3RlQ29uZmlnKAogICAgICAgICAgICAgICAgQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9DT0RFWCwKICAgICAgICAgICAgICAgIGFwaUtleSA9ICIiLAogICAgICAgICAgICAgICAgZW5kcG9pbnQgPSAiaHR0cHM6Ly9jaGF0Z3B0LmNvbS9iYWNrZW5kLWFwaS9jb2RleC9yZXNwb25zZXMiLAogICAgICAgICAgICApLAogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGNvZGV4V2l0aE9BdXRoTG9naW5fZG9lc05vdFJlcXVpcmVBcGlLZXkoKSB7CiAgICAgICAgdmFsIHJlc3VsdCA9IENoYXRDb25maWdSZWFkaW5lc3MuZXZhbHVhdGUoCiAgICAgICAgICAgIGNvbmZpZyA9IHJlbW90ZUNvbmZpZygKICAgICAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfQ09ERVgsCiAgICAgICAgICAgICAgICBhcGlLZXkgPSAiIiwKICAgICAgICAgICAgICAgIGVuZHBvaW50ID0gImh0dHBzOi8vY2hhdGdwdC5jb20vYmFja2VuZC1hcGkvY29kZXgvcmVzcG9uc2VzIiwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgbW9kZWxJbmRleCA9IDAsCiAgICAgICAgICAgIHJlZ2lzdGVyZWRQbHVnaW5Qcm92aWRlcklkcyA9IGVtcHR5U2V0KCksCiAgICAgICAgICAgIGNvZGV4QXV0aGVudGljYXRlZCA9IHRydWUsCiAgICAgICAgKQogICAgICAgIGFzc2VydFRydWUocmVzdWx0LmlzUmVhZHkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBnZW5lcmljUHJvdmlkZXJNYXlVc2VDdXN0b21IZWFkZXJBdXRoZW50aWNhdGlvbigpIHsKICAgICAgICBhc3NlcnRSZWFkeShyZW1vdGVDb25maWcoQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9HRU5FUklDLCBhcGlLZXkgPSAiIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBnZW5lcmljUHJvdmlkZXJXaXRoRW1wdHlLZXlQb29sX2lzUmVqZWN0ZWQoKSB7CiAgICAgICAgYXNzZXJ0SXNzdWUoCiAgICAgICAgICAgIENoYXRDb25maWdSZWFkaW5lc3NJc3N1ZS5BUElfS0VZX01JU1NJTkcsCiAgICAgICAgICAgIHJlbW90ZUNvbmZpZyhBcGlQcm92aWRlclR5cGUuT1BFTkFJX0dFTkVSSUMsIGFwaUtleSA9ICIiKS5jb3B5KAogICAgICAgICAgICAgICAgdXNlTXVsdGlwbGVBcGlLZXlzID0gdHJ1ZQogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gbG9jYWxQcm92aWRlckRvZXNOb3RSZXF1aXJlRW5kcG9pbnRPcktleSgpIHsKICAgICAgICBhc3NlcnRSZWFkeSgKICAgICAgICAgICAgTW9kZWxDb25maWdEYXRhKAogICAgICAgICAgICAgICAgaWQgPSAibW5uIiwKICAgICAgICAgICAgICAgIG5hbWUgPSAiTU5OIiwKICAgICAgICAgICAgICAgIG1vZGVsTmFtZSA9ICJsb2NhbC1tb2RlbCIsCiAgICAgICAgICAgICAgICBhcGlQcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuTU5OLAogICAgICAgICAgICAgICAgYXBpUHJvdmlkZXJUeXBlSWQgPSBBcGlQcm92aWRlclR5cGUuTU5OLm5hbWUsCiAgICAgICAgICAgICAgICBhcGlLZXkgPSAi5Lit5paHIiwKICAgICAgICAgICAgICAgIHVzZU11bHRpcGxlQXBpS2V5cyA9IHRydWUKICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHJlZ2lzdGVyZWRQbHVnaW5Pd25zSXRzQ29uZmlndXJhdGlvblJlcXVpcmVtZW50cygpIHsKICAgICAgICB2YWwgY29uZmlnID0KICAgICAgICAgICAgTW9kZWxDb25maWdEYXRhKAogICAgICAgICAgICAgICAgaWQgPSAicGx1Z2luIiwKICAgICAgICAgICAgICAgIG5hbWUgPSAiUGx1Z2luIiwKICAgICAgICAgICAgICAgIGFwaVByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5PVEhFUiwKICAgICAgICAgICAgICAgIGFwaVByb3ZpZGVyVHlwZUlkID0gImV4YW1wbGUtcHJvdmlkZXIiCiAgICAgICAgICAgICkKCiAgICAgICAgdmFsIHJlc3VsdCA9CiAgICAgICAgICAgIENoYXRDb25maWdSZWFkaW5lc3MuZXZhbHVhdGUoCiAgICAgICAgICAgICAgICBjb25maWcgPSBjb25maWcsCiAgICAgICAgICAgICAgICBtb2RlbEluZGV4ID0gMCwKICAgICAgICAgICAgICAgIHJlZ2lzdGVyZWRQbHVnaW5Qcm92aWRlcklkcyA9IHNldE9mKCJleGFtcGxlLXByb3ZpZGVyIikKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdC5pc1JlYWR5KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gaW52YWxpZEVuZHBvaW50X2lzUmVqZWN0ZWQoKSB7CiAgICAgICAgYXNzZXJ0SXNzdWUoCiAgICAgICAgICAgIENoYXRDb25maWdSZWFkaW5lc3NJc3N1ZS5FTkRQT0lOVF9JTlZBTElELAogICAgICAgICAgICByZW1vdGVDb25maWcoQXBpUHJvdmlkZXJUeXBlLkRFRVBTRUVLLCBlbmRwb2ludCA9ICJub3QgYSB1cmwiKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGF2YWlsYWJsZUtleVBvb2xfc2F0aXNmaWVzTmFtZWRDbG91ZFByb3ZpZGVyKCkgewogICAgICAgIHZhbCBjb25maWcgPQogICAgICAgICAgICByZW1vdGVDb25maWcoQXBpUHJvdmlkZXJUeXBlLkRFRVBTRUVLLCBhcGlLZXkgPSAiIikuY29weSgKICAgICAgICAgICAgICAgIHVzZU11bHRpcGxlQXBpS2V5cyA9IHRydWUsCiAgICAgICAgICAgICAgICBhcGlLZXlQb29sID0KICAgICAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgIEFwaUtleUluZm8oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZCA9ICJrZXktMSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXkgPSAic2stcG9vbCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdmFpbGFiaWxpdHlTdGF0dXMgPSBBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMuQVZBSUxBQkxFCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0UmVhZHkoY29uZmlnKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlbW90ZUNvbmZpZygKICAgICAgICBwcm92aWRlclR5cGU6IEFwaVByb3ZpZGVyVHlwZSwKICAgICAgICBhcGlLZXk6IFN0cmluZyA9ICJzay12YWxpZCIsCiAgICAgICAgZW5kcG9pbnQ6IFN0cmluZyA9ICJodHRwczovL2FwaS5leGFtcGxlLmNvbS92MS9jaGF0L2NvbXBsZXRpb25zIgogICAgKTogTW9kZWxDb25maWdEYXRhID0KICAgICAgICBNb2RlbENvbmZpZ0RhdGEoCiAgICAgICAgICAgIGlkID0gInJlbW90ZSIsCiAgICAgICAgICAgIG5hbWUgPSAiUmVtb3RlIiwKICAgICAgICAgICAgYXBpS2V5ID0gYXBpS2V5LAogICAgICAgICAgICBhcGlFbmRwb2ludCA9IGVuZHBvaW50LAogICAgICAgICAgICBtb2RlbE5hbWUgPSAibW9kZWwtMSIsCiAgICAgICAgICAgIGFwaVByb3ZpZGVyVHlwZSA9IHByb3ZpZGVyVHlwZSwKICAgICAgICAgICAgYXBpUHJvdmlkZXJUeXBlSWQgPSBwcm92aWRlclR5cGUubmFtZQogICAgICAgICkKCiAgICBwcml2YXRlIGZ1biBhc3NlcnRSZWFkeShjb25maWc6IE1vZGVsQ29uZmlnRGF0YSkgewogICAgICAgIGFzc2VydFRydWUoCiAgICAgICAgICAgIENoYXRDb25maWdSZWFkaW5lc3MuZXZhbHVhdGUoCiAgICAgICAgICAgICAgICBjb25maWcgPSBjb25maWcsCiAgICAgICAgICAgICAgICBtb2RlbEluZGV4ID0gMCwKICAgICAgICAgICAgICAgIHJlZ2lzdGVyZWRQbHVnaW5Qcm92aWRlcklkcyA9IGVtcHR5U2V0KCkKICAgICAgICAgICAgKS5pc1JlYWR5CiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGFzc2VydElzc3VlKGV4cGVjdGVkOiBDaGF0Q29uZmlnUmVhZGluZXNzSXNzdWUsIGNvbmZpZzogTW9kZWxDb25maWdEYXRhKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBleHBlY3RlZCwKICAgICAgICAgICAgQ2hhdENvbmZpZ1JlYWRpbmVzcy5ldmFsdWF0ZSgKICAgICAgICAgICAgICAgIGNvbmZpZyA9IGNvbmZpZywKICAgICAgICAgICAgICAgIG1vZGVsSW5kZXggPSAwLAogICAgICAgICAgICAgICAgcmVnaXN0ZXJlZFBsdWdpblByb3ZpZGVySWRzID0gZW1wdHlTZXQoKQogICAgICAgICAgICApLmlzc3VlCiAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiKeyAvailabilityStatus
+import com.bslsjdk.operit.data.model.ApiKeyInfo
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.data.model.ModelConfigData
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatConfigReadinessTest {
+    @Test
+    fun deepSeekWithValidKey_isReady() {
+        assertReady(remoteConfig(ApiProviderType.DEEPSEEK, apiKey = "sk-valid"))
+    }
+
+    @Test
+    fun deepSeekWithChineseKey_isRejected() {
+        assertIssue(
+            ChatConfigReadinessIssue.API_KEY_INVALID,
+            remoteConfig(ApiProviderType.DEEPSEEK, apiKey = "中文")
+        )
+    }
+
+    @Test
+    fun namedCloudProviderWithoutKey_isRejected() {
+        assertIssue(
+            ChatConfigReadinessIssue.API_KEY_MISSING,
+            remoteConfig(ApiProviderType.OPENAI, apiKey = "")
+        )
+    }
+
+    @Test
+    fun codexWithoutOAuthLogin_isRejected() {
+        assertIssue(
+            ChatConfigReadinessIssue.CODEX_LOGIN_REQUIRED,
+            remoteConfig(
+                ApiProviderType.OPENAI_CODEX,
+                apiKey = "",
+                endpoint = "https://chatgpt.com/backend-api/codex/responses",
+            ),
+        )
+    }
+
+    @Test
+    fun codexWithOAuthLogin_doesNotRequireApiKey() {
+        val result = ChatConfigReadiness.evaluate(
+            config = remoteConfig(
+                ApiProviderType.OPENAI_CODEX,
+                apiKey = "",
+                endpoint = "https://chatgpt.com/backend-api/codex/responses",
+            ),
+            modelIndex = 0,
+            registeredPluginProviderIds = emptySet(),
+            codexAuthenticated = true,
+        )
+        assertTrue(result.isReady)
+    }
+
+    @Test
+    fun genericProviderMayUseCustomHeaderAuthentication() {
+        assertReady(remoteConfig(ApiProviderType.OPENAI_GENERIC, apiKey = ""))
+    }
+
+    @Test
+    fun genericProviderWithEmptyKeyPool_isRejected() {
+        assertIssue(
+            ChatConfigReadinessIssue.API_KEY_MISSING,
+            remoteConfig(ApiProviderType.OPENAI_GENERIC, apiKey = "").copy(
+                useMultipleApiKeys = true
+            )
+        )
+    }
+
+    @Test
+    fun localProviderDoesNotRequireEndpointOrKey() {
+        assertReady(
+            ModelConfigData(
+                id = "mnn",
+                name = "MNN",
+                modelName = "local-model",
+                apiProviderType = ApiProviderType.MNN,
+                apiProviderTypeId = ApiProviderType.MNN.name,
+                apiKey = "中文",
+                useMultipleApiKeys = true
+            )
+        )
+    }
+
+    @Test
+    fun registeredPluginOwnsItsConfigurationRequirements() {
+        val config =
+            ModelConfigData(
+                id = "plugin",
+                name = "Plugin",
+                apiProviderType = ApiProviderType.OTHER,
+                apiProviderTypeId = "example-provider"
+            )
+
+        val result =
+            ChatConfigReadiness.evaluate(
+                config = config,
+                modelIndex = 0,
+                registeredPluginProviderIds = setOf("example-provider")
+            )
+
+        assertTrue(result.isReady)
+    }
+
+    @Test
+    fun invalidEndpoint_isRejected() {
+        assertIssue(
+            ChatConfigReadinessIssue.ENDPOINT_INVALID,
+            remoteConfig(ApiProviderType.DEEPSEEK, endpoint = "not a url")
+        )
+    }
+
+    @Test
+    fun availableKeyPool_satisfiesNamedCloudProvider() {
+        val config =
+            remoteConfig(ApiProviderType.DEEPSEEK, apiKey = "").copy(
+                useMultipleApiKeys = true,
+                apiKeyPool =
+                    listOf(
+                        ApiKeyInfo(
+                            id = "key-1",
+                            key = "sk-pool",
+                            availabilityStatus = ApiKeyAvailabilityStatus.AVAILABLE
+                        )
+                    )
+            )
+
+        assertReady(config)
+    }
+
+    private fun remoteConfig(
+        providerType: ApiProviderType,
+        apiKey: String = "sk-valid",
+        endpoint: String = "https://api.example.com/v1/chat/completions"
+    ): ModelConfigData =
+        ModelConfigData(
+            id = "remote",
+            name = "Remote",
+            apiKey = apiKey,
+            apiEndpoint = endpoint,
+            modelName = "model-1",
+            apiProviderType = providerType,
+            apiProviderTypeId = providerType.name
+        )
+
+    private fun assertReady(config: ModelConfigData) {
+        assertTrue(
+            ChatConfigReadiness.evaluate(
+                config = config,
+                modelIndex = 0,
+                registeredPluginProviderIds = emptySet()
+            ).isReady
+        )
+    }
+
+    private fun assertIssue(expected: ChatConfigReadinessIssue, config: ModelConfigData) {
+        assertEquals(
+            expected,
+            ChatConfigReadiness.evaluate(
+                config = config,
+                modelIndex = 0,
+                registeredPluginProviderIds = emptySet()
+            ).issue
+        )
+    }
+}

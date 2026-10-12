@@ -1,1 +1,125 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgewogIGFzc2VydCwKICBhc3NlcnRFcSwKICB0ZXN0LAogIHJ1blN1aXRlLAogIG1ha2VGaWxlLAogIEZpbGUsCiAgU3RyaW5nQnVpbGRlciwKICBJbnRlZ2VyLAogIE1hdGhDbGFzcywKICBDaGFyc2V0LAogIE1hcEVudHJ5LAogIEJ1aWxkVmVyc2lvbiwKfSA9IHJlcXVpcmUoJy4vY29tbW9uJyk7CgpleHBvcnRzLnJ1biA9IGFzeW5jIGZ1bmN0aW9uIHJ1bigpIHsKICByZXR1cm4gcnVuU3VpdGUoWwogICAgdGVzdCgnSmF2YS50eXBlIHJlc29sdmVzIGNsYXNzIHByb3h5JywgKCkgPT4gewogICAgICBjb25zdCBDbHMgPSBKYXZhLnR5cGUoJ2phdmEubGFuZy5TdHJpbmdCdWlsZGVyJyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhDbHMuY2xhc3NOYW1lKSwgJ2phdmEubGFuZy5TdHJpbmdCdWlsZGVyJyk7CiAgICB9KSwKICAgIHRlc3QoJ0phdmEudXNlIHJlc29sdmVzIGNsYXNzIHByb3h5JywgKCkgPT4gewogICAgICBjb25zdCBDbHMgPSBKYXZhLnVzZSgnamF2YS5pby5GaWxlJyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhDbHMuY2xhc3NOYW1lKSwgJ2phdmEuaW8uRmlsZScpOwogICAgfSksCiAgICB0ZXN0KCdKYXZhLmltcG9ydENsYXNzIHJlc29sdmVzIGNsYXNzIHByb3h5JywgKCkgPT4gewogICAgICBjb25zdCBDbHMgPSBKYXZhLmltcG9ydENsYXNzKCdqYXZhLmlvLkZpbGUnKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKENscy5jbGFzc05hbWUpLCAnamF2YS5pby5GaWxlJyk7CiAgICB9KSwKICAgIHRlc3QoJ0phdmEucGFja2FnZSByZXNvbHZlcyBwYWNrYWdlIHByb3h5JywgKCkgPT4gewogICAgICBjb25zdCBwa2cgPSBKYXZhLnBhY2thZ2UoJ2phdmEubGFuZycpOwogICAgICBhc3NlcnRFcShTdHJpbmcocGtnLnBhdGgpLCAnamF2YS5sYW5nJyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhwa2cuU3RyaW5nQnVpbGRlci5jbGFzc05hbWUpLCAnamF2YS5sYW5nLlN0cmluZ0J1aWxkZXInKTsKICAgIH0pLAogICAgdGVzdCgncGFja2FnZSBjaGFpbiByZXNvbHZlcyBuZXN0ZWQgQW5kcm9pZCBjbGFzcycsICgpID0+IHsKICAgICAgYXNzZXJ0KE51bWJlcihCdWlsZFZlcnNpb24uU0RLX0lOVCkgPiAwLCAnU0RLX0lOVCBzaG91bGQgYmUgcG9zaXRpdmUnKTsKICAgIH0pLAogICAgdGVzdCgnY2xhc3MgcHJveHkgY29uc3RydWN0b3JzIHN1cHBvcnQgbmV3IGRpcmVjdCBhbmQgbmV3SW5zdGFuY2UnLCAoKSA9PiB7CiAgICAgIGNvbnN0IGJ5TmV3ID0gbmV3IEZpbGUoJy9zZGNhcmQvY29udHJhY3QtbmV3LnR4dCcpOwogICAgICBjb25zdCBieUNhbGwgPSBGaWxlKCcvc2RjYXJkL2NvbnRyYWN0LWNhbGwudHh0Jyk7CiAgICAgIGNvbnN0IGJ5RmFjdG9yeSA9IEZpbGUubmV3SW5zdGFuY2UoJy9zZGNhcmQvY29udHJhY3QtZmFjdG9yeS50eHQnKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKGJ5TmV3LmdldE5hbWUoKSksICdjb250cmFjdC1uZXcudHh0Jyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhieUNhbGwuZ2V0TmFtZSgpKSwgJ2NvbnRyYWN0LWNhbGwudHh0Jyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhieUZhY3RvcnkuZ2V0TmFtZSgpKSwgJ2NvbnRyYWN0LWZhY3RvcnkudHh0Jyk7CiAgICB9KSwKICAgIHRlc3QoJ2luc3RhbmNlIG1ldGhvZCBzdWdhciBtYXRjaGVzIGV4cGxpY2l0IGNhbGwnLCAoKSA9PiB7CiAgICAgIGNvbnN0IGZpbGUgPSBtYWtlRmlsZSgnL3NkY2FyZC9hbHBoYS9iZXRhLnR4dCcpOwogICAgICBhc3NlcnRFcShTdHJpbmcoZmlsZS5nZXROYW1lKCkpLCBTdHJpbmcoZmlsZS5jYWxsKCdnZXROYW1lJykpKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKGZpbGUuZ2V0QWJzb2x1dGVQYXRoKCkpLCBTdHJpbmcoZmlsZS5jYWxsKCdnZXRBYnNvbHV0ZVBhdGgnKSkpOwogICAgfSksCiAgICB0ZXN0KCdpbnN0YW5jZSBmaWVsZCBzdWdhciBtaXJyb3JzIGdldHRlciByZXN1bHRzJywgKCkgPT4gewogICAgICBjb25zdCBmaWxlID0gbWFrZUZpbGUoJy9zZGNhcmQvcHJvcGVydHktbmFtZS50eHQnKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKGZpbGUubmFtZSksIFN0cmluZyhmaWxlLmdldE5hbWUoKSkpOwogICAgICBhc3NlcnRFcShTdHJpbmcoZmlsZS5hYnNvbHV0ZVBhdGgpLCBTdHJpbmcoZmlsZS5nZXRBYnNvbHV0ZVBhdGgoKSkpOwogICAgICBhc3NlcnRFcShTdHJpbmcoZmlsZS5wYXJlbnQpLCAnL3NkY2FyZCcpOwogICAgfSksCiAgICB0ZXN0KCdzdGF0aWMgZmllbGQgYW5kIHN0YXRpYyBtZXRob2Qgc3VnYXIgd29yaycsICgpID0+IHsKICAgICAgYXNzZXJ0RXEoTnVtYmVyKEludGVnZXIuTUFYX1ZBTFVFKSwgMjE0NzQ4MzY0Nyk7CiAgICAgIGFzc2VydEVxKE51bWJlcihJbnRlZ2VyLnBhcnNlSW50KCc0NTYnKSksIDQ1Nik7CiAgICAgIGFzc2VydEVxKE51bWJlcihNYXRoQ2xhc3MubWF4KDIsIDkpKSwgOSk7CiAgICB9KSwKICAgIHRlc3QoJ25lc3RlZCBjbGFzcyBzdWdhciByZXNvbHZlcyBvdXRlciRpbm5lcicsICgpID0+IHsKICAgICAgYXNzZXJ0KFN0cmluZyhNYXBFbnRyeS5jbGFzc05hbWUpLmluZGV4T2YoJ2phdmEudXRpbC5NYXAkRW50cnknKSA+PSAwLCAnbmVzdGVkIGNsYXNzIG5hbWUgbWlzbWF0Y2gnKTsKICAgIH0pLAogICAgdGVzdCgndG9wLWxldmVsIEphdmEuY2xhc3NFeGlzdHMgbmV3SW5zdGFuY2UgYW5kIGNhbGxTdGF0aWMgd29yaycsICgpID0+IHsKICAgICAgYXNzZXJ0RXEoSmF2YS5jbGFzc0V4aXN0cygnamF2YS5pby5GaWxlJyksIHRydWUpOwogICAgICBhc3NlcnRFcShKYXZhLmNsYXNzRXhpc3RzKCdjb20uZXhhbXBsZS5Eb2VzTm90RXhpc3QnKSwgZmFsc2UpOwogICAgICBjb25zdCBmaWxlID0gSmF2YS5uZXdJbnN0YW5jZSgnamF2YS5pby5GaWxlJywgJy9zZGNhcmQvdG9wLWxldmVsLnR4dCcpOwogICAgICBhc3NlcnRFcShTdHJpbmcoZmlsZS5nZXROYW1lKCkpLCAndG9wLWxldmVsLnR4dCcpOwogICAgICBhc3NlcnRFcShOdW1iZXIoSmF2YS5jYWxsU3RhdGljKCdqYXZhLmxhbmcuSW50ZWdlcicsICdwYXJzZUludCcsICcxMjMnKSksIDEyMyk7CiAgICB9KSwKICAgIHRlc3QoJ2NsYXNzIHByb3h5IG1ldGFkYXRhIGFuZCBwYWNrYWdlIGNoYWluIHN0YXRpYyBjYWxscyByZW1haW4gYXZhaWxhYmxlJywgKCkgPT4gewogICAgICBjb25zdCBub3cgPSBOdW1iZXIoSmF2YS5qYXZhLmxhbmcuU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkpOwogICAgICBhc3NlcnRFcShTdHJpbmcoRmlsZS5jbGFzc05hbWUpLCAnamF2YS5pby5GaWxlJyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhTdHJpbmdCdWlsZGVyLmNsYXNzTmFtZSksICdqYXZhLmxhbmcuU3RyaW5nQnVpbGRlcicpOwogICAgICBhc3NlcnQobm93ID4gMCwgJ2N1cnJlbnRUaW1lTWlsbGlzIHNob3VsZCBiZSBwb3NpdGl2ZScpOwogICAgfSksCiAgICB0ZXN0KCd0b3AtbGV2ZWwgcGFja2FnZSBjaGFpbiBjb25zdHJ1Y3RzIGphdmEgb2JqZWN0cyBkaXJlY3RseScsICgpID0+IHsKICAgICAgY29uc3QgZmlsZSA9IEphdmEuamF2YS5pby5GaWxlKCcvc2RjYXJkL3BhY2thZ2UtY2hhaW4udHh0Jyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhmaWxlLmdldE5hbWUoKSksICdwYWNrYWdlLWNoYWluLnR4dCcpOwogICAgICBhc3NlcnRFcShTdHJpbmcoZmlsZS5jbGFzc05hbWUpLCAnamF2YS5pby5GaWxlJyk7CiAgICB9KSwKICAgIHRlc3QoJ1N0cmluZ0J1aWxkZXIgc3ludGF4IHN1Z2FyIHN1cHBvcnRzIGNoYWluaW5nJywgKCkgPT4gewogICAgICBjb25zdCBidWlsZGVyQSA9IG5ldyBTdHJpbmdCdWlsZGVyKCk7CiAgICAgIGNvbnN0IGJ1aWxkZXJCID0gU3RyaW5nQnVpbGRlcigpOwogICAgICBjb25zdCBidWlsZGVyQyA9IFN0cmluZ0J1aWxkZXIubmV3SW5zdGFuY2UoKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKGJ1aWxkZXJBLmFwcGVuZCgnaGUnKS5hcHBlbmQoJ2xsbycpLnRvU3RyaW5nKCkpLCAnaGVsbG8nKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKGJ1aWxkZXJCLmFwcGVuZCgnYScpLmFwcGVuZCgnYicpLmFwcGVuZCgnYycpLnRvU3RyaW5nKCkpLCAnYWJjJyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhidWlsZGVyQy5hcHBlbmQoJ3gnKS5hcHBlbmQoJ3knKS5hcHBlbmQoJ3onKS50b1N0cmluZygpKSwgJ3h5eicpOwogICAgfSksCiAgICB0ZXN0KCdjbGFzcyBwcm94eSBleGlzdHMgaGVscGVyIHJldHVybnMgbm9ybWFsaXplZCBib29sZWFuJywgKCkgPT4gewogICAgICBhc3NlcnRFcShGaWxlLmV4aXN0cygpLCB0cnVlKTsKICAgICAgYXNzZXJ0RXEoSmF2YS50eXBlKCdjb20uZXhhbXBsZS5Eb2VzTm90RXhpc3QnKS5leGlzdHMoKSwgZmFsc2UpOwogICAgfSksCiAgICB0ZXN0KCd0b3AtbGV2ZWwgSmF2YS5saXN0TG9hZGVkQ29kZVBhdGhzIHJldHVybnMgSlMgYXJyYXknLCAoKSA9PiB7CiAgICAgIGNvbnN0IHBhdGhzID0gSmF2YS5saXN0TG9hZGVkQ29kZVBhdGhzKCk7CiAgICAgIGFzc2VydChBcnJheS5pc0FycmF5KHBhdGhzKSwgJ2xpc3RMb2FkZWRDb2RlUGF0aHMgc2hvdWxkIHJldHVybiBhcnJheScpOwogICAgfSksCiAgICB0ZXN0KCdhcHBsaWNhdGlvbiBjb250ZXh0IGlzIGV4cG9zZWQgYXMgamF2YSBwcm94eScsICgpID0+IHsKICAgICAgY29uc3QgY29udGV4dCA9IEphdmEuZ2V0QXBwbGljYXRpb25Db250ZXh0KCk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhjb250ZXh0LmdldFBhY2thZ2VOYW1lKCkpLCAnY29tLmJzbHNqZGsub3Blcml0Jyk7CiAgICB9KSwKICAgIHRlc3QoJ0tvdGxpbiBhbGlhcyBtaXJyb3JzIEphdmEgYnJpZGdlIGVudHJ5IHBvaW50cycsICgpID0+IHsKICAgICAgY29uc3QgZmlsZSA9IEtvdGxpbi50eXBlKCdqYXZhLmlvLkZpbGUnKSgnL3NkY2FyZC9rb3RsaW4tYWxpYXMudHh0Jyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhmaWxlLmdldE5hbWUoKSksICdrb3RsaW4tYWxpYXMudHh0Jyk7CiAgICAgIGFzc2VydEVxKEtvdGxpbi5jbGFzc0V4aXN0cygnamF2YS5pby5GaWxlJyksIHRydWUpOwogICAgfSksCiAgICB0ZXN0KCdqYXZhIGluc3RhbmNlIHByb3hpZXMgZXhwb3NlIHN0YWJsZSBKU09OIG1ldGFkYXRhJywgKCkgPT4gewogICAgICBjb25zdCBmaWxlID0gbWFrZUZpbGUoJy9zZGNhcmQvbWV0YWRhdGEudHh0Jyk7CiAgICAgIGNvbnN0IG1ldGFkYXRhID0gZmlsZS50b0pTT04oKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKG1ldGFkYXRhLl9famF2YUNsYXNzKSwgJ2phdmEuaW8uRmlsZScpOwogICAgICBhc3NlcnQoU3RyaW5nKG1ldGFkYXRhLl9famF2YUhhbmRsZSkubGVuZ3RoID4gMCwgJ2phdmEgaGFuZGxlIHNob3VsZCBub3QgYmUgZW1wdHknKTsKICAgIH0pLAogICAgdGVzdCgnamF2YSBjbGFzcyBwcm94aWVzIHN0cmluZ2lmeSB3aXRoIGNsYXNzIG5hbWUnLCAoKSA9PiB7CiAgICAgIGFzc2VydEVxKFN0cmluZyhGaWxlKSwgJ1tKYXZhQ2xhc3MgamF2YS5pby5GaWxlXScpOwogICAgICBhc3NlcnRFcShTdHJpbmcoU3RyaW5nQnVpbGRlciksICdbSmF2YUNsYXNzIGphdmEubGFuZy5TdHJpbmdCdWlsZGVyXScpOwogICAgfSksCiAgICB0ZXN0KCduZXN0ZWQgY2xhc3MgbWV0aG9kcyBzdGlsbCB3b3JrIHRocm91Z2ggcGFja2FnZSBjaGFpbicsICgpID0+IHsKICAgICAgY29uc3QgdXRmOCA9IENoYXJzZXQuZm9yTmFtZSgnVVRGLTgnKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKHV0ZjgubmFtZSgpKSwgJ1VURi04Jyk7CiAgICB9KSwKICBdKTsKfTsK
+'use strict';
+
+const {
+  assert,
+  assertEq,
+  test,
+  runSuite,
+  makeFile,
+  File,
+  StringBuilder,
+  Integer,
+  MathClass,
+  Charset,
+  MapEntry,
+  BuildVersion,
+} = require('./common');
+
+exports.run = async function run() {
+  return runSuite([
+    test('Java.type resolves class proxy', () => {
+      const Cls = Java.type('java.lang.StringBuilder');
+      assertEq(String(Cls.className), 'java.lang.StringBuilder');
+    }),
+    test('Java.use resolves class proxy', () => {
+      const Cls = Java.use('java.io.File');
+      assertEq(String(Cls.className), 'java.io.File');
+    }),
+    test('Java.importClass resolves class proxy', () => {
+      const Cls = Java.importClass('java.io.File');
+      assertEq(String(Cls.className), 'java.io.File');
+    }),
+    test('Java.package resolves package proxy', () => {
+      const pkg = Java.package('java.lang');
+      assertEq(String(pkg.path), 'java.lang');
+      assertEq(String(pkg.StringBuilder.className), 'java.lang.StringBuilder');
+    }),
+    test('package chain resolves nested Android class', () => {
+      assert(Number(BuildVersion.SDK_INT) > 0, 'SDK_INT should be positive');
+    }),
+    test('class proxy constructors support new direct and newInstance', () => {
+      const byNew = new File('/sdcard/contract-new.txt');
+      const byCall = File('/sdcard/contract-call.txt');
+      const byFactory = File.newInstance('/sdcard/contract-factory.txt');
+      assertEq(String(byNew.getName()), 'contract-new.txt');
+      assertEq(String(byCall.getName()), 'contract-call.txt');
+      assertEq(String(byFactory.getName()), 'contract-factory.txt');
+    }),
+    test('instance method sugar matches explicit call', () => {
+      const file = makeFile('/sdcard/alpha/beta.txt');
+      assertEq(String(file.getName()), String(file.call('getName')));
+      assertEq(String(file.getAbsolutePath()), String(file.call('getAbsolutePath')));
+    }),
+    test('instance field sugar mirrors getter results', () => {
+      const file = makeFile('/sdcard/property-name.txt');
+      assertEq(String(file.name), String(file.getName()));
+      assertEq(String(file.absolutePath), String(file.getAbsolutePath()));
+      assertEq(String(file.parent), '/sdcard');
+    }),
+    test('static field and static method sugar work', () => {
+      assertEq(Number(Integer.MAX_VALUE), 2147483647);
+      assertEq(Number(Integer.parseInt('456')), 456);
+      assertEq(Number(MathClass.max(2, 9)), 9);
+    }),
+    test('nested class sugar resolves outer$inner', () => {
+      assert(String(MapEntry.className).indexOf('java.util.Map$Entry') >= 0, 'nested class name mismatch');
+    }),
+    test('top-level Java.classExists newInstance and callStatic work', () => {
+      assertEq(Java.classExists('java.io.File'), true);
+      assertEq(Java.classExists('com.example.DoesNotExist'), false);
+      const file = Java.newInstance('java.io.File', '/sdcard/top-level.txt');
+      assertEq(String(file.getName()), 'top-level.txt');
+      assertEq(Number(Java.callStatic('java.lang.Integer', 'parseInt', '123')), 123);
+    }),
+    test('class proxy metadata and package chain static calls remain available', () => {
+      const now = Number(Java.java.lang.System.currentTimeMillis());
+      assertEq(String(File.className), 'java.io.File');
+      assertEq(String(StringBuilder.className), 'java.lang.StringBuilder');
+      assert(now > 0, 'currentTimeMillis should be positive');
+    }),
+    test('top-level package chain constructs java objects directly', () => {
+      const file = Java.java.io.File('/sdcard/package-chain.txt');
+      assertEq(String(file.getName()), 'package-chain.txt');
+      assertEq(String(file.className), 'java.io.File');
+    }),
+    test('StringBuilder syntax sugar supports chaining', () => {
+      const builderA = new StringBuilder();
+      const builderB = StringBuilder();
+      const builderC = StringBuilder.newInstance();
+      assertEq(String(builderA.append('he').append('llo').toString()), 'hello');
+      assertEq(String(builderB.append('a').append('b').append('c').toString()), 'abc');
+      assertEq(String(builderC.append('x').append('y').append('z').toString()), 'xyz');
+    }),
+    test('class proxy exists helper returns normalized boolean', () => {
+      assertEq(File.exists(), true);
+      assertEq(Java.type('com.example.DoesNotExist').exists(), false);
+    }),
+    test('top-level Java.listLoadedCodePaths returns JS array', () => {
+      const paths = Java.listLoadedCodePaths();
+      assert(Array.isArray(paths), 'listLoadedCodePaths should return array');
+    }),
+    test('application context is exposed as java proxy', () => {
+      const context = Java.getApplicationContext();
+      assertEq(String(context.getPackageName()), 'com.bslsjdk.operit');
+    }),
+    test('Kotlin alias mirrors Java bridge entry points', () => {
+      const file = Kotlin.type('java.io.File')('/sdcard/kotlin-alias.txt');
+      assertEq(String(file.getName()), 'kotlin-alias.txt');
+      assertEq(Kotlin.classExists('java.io.File'), true);
+    }),
+    test('java instance proxies expose stable JSON metadata', () => {
+      const file = makeFile('/sdcard/metadata.txt');
+      const metadata = file.toJSON();
+      assertEq(String(metadata.__javaClass), 'java.io.File');
+      assert(String(metadata.__javaHandle).length > 0, 'java handle should not be empty');
+    }),
+    test('java class proxies stringify with class name', () => {
+      assertEq(String(File), '[JavaClass java.io.File]');
+      assertEq(String(StringBuilder), '[JavaClass java.lang.StringBuilder]');
+    }),
+    test('nested class methods still work through package chain', () => {
+      const utf8 = Charset.forName('UTF-8');
+      assertEq(String(utf8.name()), 'UTF-8');
+    }),
+  ]);
+};

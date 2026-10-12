@@ -1,1 +1,15 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLmh0dHAuYnJpZGdlCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnNlcnZpY2VzLkNoYXRTZXJ2aWNlQ29yZQoKaW50ZXJuYWwgY2xhc3MgV2ViQ2hhdEFjdGlvbkJyaWRnZSgKICAgIHByaXZhdGUgdmFsIGNvcmU6IENoYXRTZXJ2aWNlQ29yZQopIHsKICAgIGZ1biBtYW51YWxseVVwZGF0ZU1lbW9yeSgpIHsKICAgICAgICBjb3JlLmdldE1lc3NhZ2VDb29yZGluYXRpb25EZWxlZ2F0ZSgpLm1hbnVhbGx5VXBkYXRlTWVtb3J5KCkKICAgIH0KCiAgICBmdW4gbWFudWFsbHlTdW1tYXJpemVDb252ZXJzYXRpb24oKSB7CiAgICAgICAgY29yZS5nZXRNZXNzYWdlQ29vcmRpbmF0aW9uRGVsZWdhdGUoKS5tYW51YWxseVN1bW1hcml6ZUNvbnZlcnNhdGlvbigpCiAgICB9Cn0K
+package com.bslsjdk.operit.integrations.http.bridge
+
+import com.bslsjdk.operit.services.ChatServiceCore
+
+internal class WebChatActionBridge(
+    private val core: ChatServiceCore
+) {
+    fun manuallyUpdateMemory() {
+        core.getMessageCoordinationDelegate().manuallyUpdateMemory()
+    }
+
+    fun manuallySummarizeConversation() {
+        core.getMessageCoordinationDelegate().manuallySummarizeConversation()
+    }
+}

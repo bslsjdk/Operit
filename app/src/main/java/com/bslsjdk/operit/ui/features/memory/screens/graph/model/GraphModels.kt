@@ -1,1 +1,25 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMubWVtb3J5LnNjcmVlbnMuZ3JhcGgubW9kZWwKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCgpkYXRhIGNsYXNzIEdyYXBoKAogICAgdmFsIG5vZGVzOiBMaXN0PE5vZGU+LAogICAgdmFsIGVkZ2VzOiBMaXN0PEVkZ2U+CikKCmRhdGEgY2xhc3MgTm9kZSgKICAgIHZhbCBpZDogU3RyaW5nLAogICAgdmFsIGxhYmVsOiBTdHJpbmcsCiAgICB2YWwgY29sb3I6IENvbG9yID0gQ29sb3IuTGlnaHRHcmF5LAogICAgdmFsIG1ldGFkYXRhOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKQopCgpkYXRhIGNsYXNzIEVkZ2UoCiAgICB2YWwgaWQ6IExvbmcsCiAgICB2YWwgc291cmNlSWQ6IFN0cmluZywKICAgIHZhbCB0YXJnZXRJZDogU3RyaW5nLAogICAgdmFsIGxhYmVsOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCB3ZWlnaHQ6IEZsb2F0ID0gMS4wZiwKICAgIHZhbCBtZXRhZGF0YTogTWFwPFN0cmluZywgU3RyaW5nPiA9IGVtcHR5TWFwKCksCiAgICB2YWwgaXNDcm9zc0ZvbGRlckxpbms6IEJvb2xlYW4gPSBmYWxzZSAvLyDmoIforrDmmK/lkKbkuLrot6jmlofku7blpLnov57mjqUKKSA=
+package com.bslsjdk.operit.ui.features.memory.screens.graph.model
+
+import androidx.compose.ui.graphics.Color
+
+data class Graph(
+    val nodes: List<Node>,
+    val edges: List<Edge>
+)
+
+data class Node(
+    val id: String,
+    val label: String,
+    val color: Color = Color.LightGray,
+    val metadata: Map<String, String> = emptyMap()
+)
+
+data class Edge(
+    val id: Long,
+    val sourceId: String,
+    val targetId: String,
+    val label: String? = null,
+    val weight: Float = 1.0f,
+    val metadata: Map<String, String> = emptyMap(),
+    val isCrossFolderLink: Boolean = false // 标记是否为跨文件夹连接
+) 

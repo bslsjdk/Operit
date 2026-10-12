@@ -1,1 +1,9 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5yb290CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmRlZmF1bHRUb29sLmFkbWluLkFkbWluRmlsZVN5c3RlbVRvb2xzCgovKiogUm9vdOe6p+WIq+eahOaWh+S7tuezu+e7n+W3peWFt++8jOe7p+aJv+euoeeQhuWRmOe6p+WIqyAqLwpvcGVuIGNsYXNzIFJvb3RGaWxlU3lzdGVtVG9vbHMoY29udGV4dDogQ29udGV4dCkgOiBBZG1pbkZpbGVTeXN0ZW1Ub29scyhjb250ZXh0KSB7CiAgICAvLyDlvZPliY3pmLbmrrXkuI3mt7vliqDmlrDlip/og73vvIzku4Xnu6fmib/nrqHnkIblkZjnuqfliKvlrp7njrAKfQo=
+package com.bslsjdk.operit.core.tools.defaultTool.root
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.defaultTool.admin.AdminFileSystemTools
+
+/** Root级别的文件系统工具，继承管理员级别 */
+open class RootFileSystemTools(context: Context) : AdminFileSystemTools(context) {
+    // 当前阶段不添加新功能，仅继承管理员级别实现
+}

@@ -1,1 +1,105 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmRpc3BsYXlzCgppbXBvcnQgYW5kcm9pZC52aWV3LkNob3Jlb2dyYXBoZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5iYWNrZ3JvdW5kCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5kcmF3LmFscGhhCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuc3AKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQKCi8qKgogKiBGUFPorqHmlbDlmajnu4Tku7bvvIznlKjkuo7mtYvph4/lkozmmL7npLrlvZPliY3lupTnlKjnmoTluKfnjocKICovCkBDb21wb3NhYmxlCmZ1biBGcHNDb3VudGVyKAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICBlbmFibGVkOiBCb29sZWFuID0gdHJ1ZQopIHsKICAgIGlmICghZW5hYmxlZCkgcmV0dXJuCiAgICAKICAgIC8vIEZQU+eKtuaAgQogICAgdmFyIGZwcyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKDApIH0KICAgIHZhciBmcmFtZUNvdW50IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoMCkgfQogICAgdmFyIGxhc3RGcmFtZVRpbWVOYW5vcyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKDBMKSB9CiAgICAKICAgIC8vIOW4p+eOh+minOiJsu+8jOagueaNruW4p+eOh+WAvOWKqOaAgeWPmOWMlgogICAgdmFsIGZwc0NvbG9yIGJ5IHJlbWVtYmVyKGZwcykgewogICAgICAgIGRlcml2ZWRTdGF0ZU9mIHsKICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICBmcHMgPj0gNTUgLT4gQ29sb3IoMHhGRjRDQUY1MCkgLy8g57u/6ImyIC0g5aW9CiAgICAgICAgICAgICAgICBmcHMgPj0gMzAgLT4gQ29sb3IoMHhGRkZGOTgwMCkgLy8g5qmZ6ImyIC0g5LiA6IisCiAgICAgICAgICAgICAgICBlbHNlIC0+IENvbG9yKDB4RkZFNTM5MzUpICAgICAgLy8g57qi6ImyIC0g5beuCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIC8vIOS9v+eUqENob3Jlb2dyYXBoZXLnm5HlkKzluKfnu5jliLYKICAgIERpc3Bvc2FibGVFZmZlY3QoVW5pdCkgewogICAgICAgIHZhbCBmcmFtZUNhbGxiYWNrID0gb2JqZWN0IDogQ2hvcmVvZ3JhcGhlci5GcmFtZUNhbGxiYWNrIHsKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGRvRnJhbWUoZnJhbWVUaW1lTmFub3M6IExvbmcpIHsKICAgICAgICAgICAgICAgIGlmIChsYXN0RnJhbWVUaW1lTmFub3MgPT0gMEwpIHsKICAgICAgICAgICAgICAgICAgICBsYXN0RnJhbWVUaW1lTmFub3MgPSBmcmFtZVRpbWVOYW5vcwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAvLyDorqHnrpfoh6rkuIrmrKHlm57osIPku6XmnaXnmoTml7bpl7Tlt67vvIjnurPnp5LvvIkKICAgICAgICAgICAgICAgICAgICB2YWwgdGltZURpZmZOYW5vcyA9IGZyYW1lVGltZU5hbm9zIC0gbGFzdEZyYW1lVGltZU5hbm9zCiAgICAgICAgICAgICAgICAgICAgZnJhbWVDb3VudCsrCiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgLy8g5q+P56eS5pu05paw5LiA5qyhRlBT5YC8CiAgICAgICAgICAgICAgICAgICAgaWYgKHRpbWVEaWZmTmFub3MgPj0gVGltZVVuaXQuU0VDT05EUy50b05hbm9zKDEpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOiuoeeul0ZQUyA9IOW4p+aVsCAvIOaXtumXtO+8iOenku+8iQogICAgICAgICAgICAgICAgICAgICAgICBmcHMgPSAoZnJhbWVDb3VudCAqIFRpbWVVbml0LlNFQ09ORFMudG9OYW5vcygxKSAvIHRpbWVEaWZmTmFub3MpLnRvSW50KCkKICAgICAgICAgICAgICAgICAgICAgICAgZnJhbWVDb3VudCA9IDAKICAgICAgICAgICAgICAgICAgICAgICAgbGFzdEZyYW1lVGltZU5hbm9zID0gZnJhbWVUaW1lTmFub3MKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIOe7p+e7reebkeWQrOS4i+S4gOW4pwogICAgICAgICAgICAgICAgQ2hvcmVvZ3JhcGhlci5nZXRJbnN0YW5jZSgpLnBvc3RGcmFtZUNhbGxiYWNrKHRoaXMpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5rOo5YaM5bin5Zue6LCDCiAgICAgICAgQ2hvcmVvZ3JhcGhlci5nZXRJbnN0YW5jZSgpLnBvc3RGcmFtZUNhbGxiYWNrKGZyYW1lQ2FsbGJhY2spCiAgICAgICAgCiAgICAgICAgLy8g5riF55CGCiAgICAgICAgb25EaXNwb3NlIHsKICAgICAgICAgICAgLy8g5Y+W5raI5bin5Zue6LCDCiAgICAgICAgICAgIENob3Jlb2dyYXBoZXIuZ2V0SW5zdGFuY2UoKS5yZW1vdmVGcmFtZUNhbGxiYWNrKGZyYW1lQ2FsbGJhY2spCiAgICAgICAgfQogICAgfQogICAgCiAgICAvLyDkuLrkuoblnKjkvY7luKfnjofmg4XlhrXkuIvkuZ/og73mm7TmlrDmmL7npLrvvIzmt7vliqDkuIDkuKrlrprml7blmajkv53mjIFVSeWIt+aWsAogICAgTGF1bmNoZWRFZmZlY3QoVW5pdCkgewogICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgIGRlbGF5KDUwMCkgLy8g5q+PNTAw5q+r56eS5by65Yi25Yi35paw5LiA5qyhCiAgICAgICAgICAgIC8vIOepuuaTjeS9nO+8jOWPquaYr+S4uuS6huinpuWPkemHjee7hAogICAgICAgIH0KICAgIH0KICAgIAogICAgLy8gRlBT5pi+56S6VUkKICAgIEJveCgKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgICAgIC5jbGlwKFJvdW5kZWRDb3JuZXJTaGFwZSg0LmRwKSkKICAgICAgICAgICAgLmJhY2tncm91bmQoQ29sb3IoMHg4ODAwMDAwMCkpCiAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSA4LmRwLCB2ZXJ0aWNhbCA9IDQuZHApCiAgICAgICAgICAgIC5hbHBoYSgwLjhmKQogICAgKSB7CiAgICAgICAgVGV4dCgKICAgICAgICAgICAgdGV4dCA9ICIkZnBzIEZQUyIsCiAgICAgICAgICAgIGNvbG9yID0gZnBzQ29sb3IsCiAgICAgICAgICAgIGZvbnRTaXplID0gMTIuc3AsCiAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQKICAgICAgICApCiAgICB9Cn0g
+package com.bslsjdk.operit.ui.common.displays
+
+import android.view.Choreographer
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import kotlinx.coroutines.delay
+import java.util.concurrent.TimeUnit
+
+/**
+ * FPS计数器组件，用于测量和显示当前应用的帧率
+ */
+@Composable
+fun FpsCounter(
+    modifier: Modifier = Modifier,
+    enabled: Boolean = true
+) {
+    if (!enabled) return
+    
+    // FPS状态
+    var fps by remember { mutableStateOf(0) }
+    var frameCount by remember { mutableStateOf(0) }
+    var lastFrameTimeNanos by remember { mutableStateOf(0L) }
+    
+    // 帧率颜色，根据帧率值动态变化
+    val fpsColor by remember(fps) {
+        derivedStateOf {
+            when {
+                fps >= 55 -> Color(0xFF4CAF50) // 绿色 - 好
+                fps >= 30 -> Color(0xFFFF9800) // 橙色 - 一般
+                else -> Color(0xFFE53935)      // 红色 - 差
+            }
+        }
+    }
+    
+    // 使用Choreographer监听帧绘制
+    DisposableEffect(Unit) {
+        val frameCallback = object : Choreographer.FrameCallback {
+            override fun doFrame(frameTimeNanos: Long) {
+                if (lastFrameTimeNanos == 0L) {
+                    lastFrameTimeNanos = frameTimeNanos
+                } else {
+                    // 计算自上次回调以来的时间差（纳秒）
+                    val timeDiffNanos = frameTimeNanos - lastFrameTimeNanos
+                    frameCount++
+                    
+                    // 每秒更新一次FPS值
+                    if (timeDiffNanos >= TimeUnit.SECONDS.toNanos(1)) {
+                        // 计算FPS = 帧数 / 时间（秒）
+                        fps = (frameCount * TimeUnit.SECONDS.toNanos(1) / timeDiffNanos).toInt()
+                        frameCount = 0
+                        lastFrameTimeNanos = frameTimeNanos
+                    }
+                }
+                
+                // 继续监听下一帧
+                Choreographer.getInstance().postFrameCallback(this)
+            }
+        }
+        
+        // 注册帧回调
+        Choreographer.getInstance().postFrameCallback(frameCallback)
+        
+        // 清理
+        onDispose {
+            // 取消帧回调
+            Choreographer.getInstance().removeFrameCallback(frameCallback)
+        }
+    }
+    
+    // 为了在低帧率情况下也能更新显示，添加一个定时器保持UI刷新
+    LaunchedEffect(Unit) {
+        while (true) {
+            delay(500) // 每500毫秒强制刷新一次
+            // 空操作，只是为了触发重组
+        }
+    }
+    
+    // FPS显示UI
+    Box(
+        modifier = modifier
+            .clip(RoundedCornerShape(4.dp))
+            .background(Color(0x88000000))
+            .padding(horizontal = 8.dp, vertical = 4.dp)
+            .alpha(0.8f)
+    ) {
+        Text(
+            text = "$fps FPS",
+            color = fpsColor,
+            fontSize = 12.sp,
+            fontWeight = FontWeight.Bold
+        )
+    }
+} 

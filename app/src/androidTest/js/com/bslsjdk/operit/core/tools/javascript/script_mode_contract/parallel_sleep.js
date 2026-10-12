@@ -1,1 +1,73 @@
-J3VzZSBzdHJpY3QnOwoKZnVuY3Rpb24gYXNzZXJ0KGNvbmRpdGlvbiwgbWVzc2FnZSkgewogIGlmICghY29uZGl0aW9uKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IobWVzc2FnZSB8fCAnYXNzZXJ0aW9uIGZhaWxlZCcpOwogIH0KfQoKYXN5bmMgZnVuY3Rpb24gbWVhc3VyZShtb2RlLCBkdXJhdGlvbnMpIHsKICBjb25zdCBzdGFydGVkQXQgPSBEYXRlLm5vdygpOwoKICBpZiAobW9kZSA9PT0gJ3BhcmFsbGVsLXRvb2xDYWxsJykgewogICAgY29uc3QgcmVzdWx0cyA9IGF3YWl0IFByb21pc2UuYWxsKAogICAgICBkdXJhdGlvbnMubWFwKGZ1bmN0aW9uIChkdXJhdGlvbk1zKSB7CiAgICAgICAgcmV0dXJuIHRvb2xDYWxsKCdzbGVlcCcsIHsgZHVyYXRpb25fbXM6IGR1cmF0aW9uTXMgfSk7CiAgICAgIH0pCiAgICApOwogICAgcmV0dXJuIHsKICAgICAgbW9kZSwKICAgICAgdG90YWxNczogRGF0ZS5ub3coKSAtIHN0YXJ0ZWRBdCwKICAgICAgcmVxdWVzdGVkOiByZXN1bHRzLm1hcChmdW5jdGlvbiAoaXRlbSkgeyByZXR1cm4gTnVtYmVyKGl0ZW0ucmVxdWVzdGVkTXMpOyB9KSwKICAgICAgc2xlcHQ6IHJlc3VsdHMubWFwKGZ1bmN0aW9uIChpdGVtKSB7IHJldHVybiBOdW1iZXIoaXRlbS5zbGVwdE1zKTsgfSksCiAgICB9OwogIH0KCiAgaWYgKG1vZGUgPT09ICdzZXF1ZW50aWFsLXRvb2xDYWxsJykgewogICAgY29uc3QgcmVxdWVzdGVkID0gW107CiAgICBjb25zdCBzbGVwdCA9IFtdOwogICAgZm9yIChjb25zdCBkdXJhdGlvbk1zIG9mIGR1cmF0aW9ucykgewogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCB0b29sQ2FsbCgnc2xlZXAnLCB7IGR1cmF0aW9uX21zOiBkdXJhdGlvbk1zIH0pOwogICAgICByZXF1ZXN0ZWQucHVzaChOdW1iZXIocmVzdWx0LnJlcXVlc3RlZE1zKSk7CiAgICAgIHNsZXB0LnB1c2goTnVtYmVyKHJlc3VsdC5zbGVwdE1zKSk7CiAgICB9CiAgICByZXR1cm4gewogICAgICBtb2RlLAogICAgICB0b3RhbE1zOiBEYXRlLm5vdygpIC0gc3RhcnRlZEF0LAogICAgICByZXF1ZXN0ZWQsCiAgICAgIHNsZXB0LAogICAgfTsKICB9CgogIGlmIChtb2RlID09PSAncGFyYWxsZWwtdG9vbHMnKSB7CiAgICBjb25zdCByZXN1bHRzID0gYXdhaXQgUHJvbWlzZS5hbGwoCiAgICAgIGR1cmF0aW9ucy5tYXAoZnVuY3Rpb24gKGR1cmF0aW9uTXMpIHsKICAgICAgICByZXR1cm4gVG9vbHMuU3lzdGVtLnNsZWVwKGR1cmF0aW9uTXMpOwogICAgICB9KQogICAgKTsKICAgIHJldHVybiB7CiAgICAgIG1vZGUsCiAgICAgIHRvdGFsTXM6IERhdGUubm93KCkgLSBzdGFydGVkQXQsCiAgICAgIHJlcXVlc3RlZDogcmVzdWx0cy5tYXAoZnVuY3Rpb24gKGl0ZW0pIHsgcmV0dXJuIE51bWJlcihpdGVtLnJlcXVlc3RlZE1zKTsgfSksCiAgICAgIHNsZXB0OiByZXN1bHRzLm1hcChmdW5jdGlvbiAoaXRlbSkgeyByZXR1cm4gTnVtYmVyKGl0ZW0uc2xlcHRNcyk7IH0pLAogICAgfTsKICB9CgogIHRocm93IG5ldyBFcnJvcigndW5rbm93biBtb2RlOiAnICsgbW9kZSk7Cn0KCmNvbnN0IGR1cmF0aW9ucyA9IFsxMDAsIDEwMCwgMTAwXTsKY29uc3QgcGFyYWxsZWxUb29sQ2FsbCA9IGF3YWl0IG1lYXN1cmUoJ3BhcmFsbGVsLXRvb2xDYWxsJywgZHVyYXRpb25zKTsKY29uc3Qgc2VxdWVudGlhbFRvb2xDYWxsID0gYXdhaXQgbWVhc3VyZSgnc2VxdWVudGlhbC10b29sQ2FsbCcsIGR1cmF0aW9ucyk7CmNvbnN0IHBhcmFsbGVsVG9vbHMgPSBhd2FpdCBtZWFzdXJlKCdwYXJhbGxlbC10b29scycsIGR1cmF0aW9ucyk7Cgphc3NlcnQocGFyYWxsZWxUb29sQ2FsbC50b3RhbE1zICsgNjAgPCBzZXF1ZW50aWFsVG9vbENhbGwudG90YWxNcywgJ3Rvb2xDYWxsIHBhcmFsbGVsIHNsZWVwIGRpZCBub3Qgb3ZlcmxhcCcpOwphc3NlcnQocGFyYWxsZWxUb29scy50b3RhbE1zICsgNjAgPCBzZXF1ZW50aWFsVG9vbENhbGwudG90YWxNcywgJ1Rvb2xzLlN5c3RlbS5zbGVlcCBwYXJhbGxlbCBzbGVlcCBkaWQgbm90IG92ZXJsYXAnKTsKCnJldHVybiB7CiAgc3VjY2VzczogdHJ1ZSwKICBtb2RlOiAnc2NyaXB0LW1vZGUtcGFyYWxsZWwtc2xlZXAnLAogIHBhcmFsbGVsVG9vbENhbGwsCiAgc2VxdWVudGlhbFRvb2xDYWxsLAogIHBhcmFsbGVsVG9vbHMsCn07Cg==
+'use strict';
+
+function assert(condition, message) {
+  if (!condition) {
+    throw new Error(message || 'assertion failed');
+  }
+}
+
+async function measure(mode, durations) {
+  const startedAt = Date.now();
+
+  if (mode === 'parallel-toolCall') {
+    const results = await Promise.all(
+      durations.map(function (durationMs) {
+        return toolCall('sleep', { duration_ms: durationMs });
+      })
+    );
+    return {
+      mode,
+      totalMs: Date.now() - startedAt,
+      requested: results.map(function (item) { return Number(item.requestedMs); }),
+      slept: results.map(function (item) { return Number(item.sleptMs); }),
+    };
+  }
+
+  if (mode === 'sequential-toolCall') {
+    const requested = [];
+    const slept = [];
+    for (const durationMs of durations) {
+      const result = await toolCall('sleep', { duration_ms: durationMs });
+      requested.push(Number(result.requestedMs));
+      slept.push(Number(result.sleptMs));
+    }
+    return {
+      mode,
+      totalMs: Date.now() - startedAt,
+      requested,
+      slept,
+    };
+  }
+
+  if (mode === 'parallel-tools') {
+    const results = await Promise.all(
+      durations.map(function (durationMs) {
+        return Tools.System.sleep(durationMs);
+      })
+    );
+    return {
+      mode,
+      totalMs: Date.now() - startedAt,
+      requested: results.map(function (item) { return Number(item.requestedMs); }),
+      slept: results.map(function (item) { return Number(item.sleptMs); }),
+    };
+  }
+
+  throw new Error('unknown mode: ' + mode);
+}
+
+const durations = [100, 100, 100];
+const parallelToolCall = await measure('parallel-toolCall', durations);
+const sequentialToolCall = await measure('sequential-toolCall', durations);
+const parallelTools = await measure('parallel-tools', durations);
+
+assert(parallelToolCall.totalMs + 60 < sequentialToolCall.totalMs, 'toolCall parallel sleep did not overlap');
+assert(parallelTools.totalMs + 60 < sequentialToolCall.totalMs, 'Tools.System.sleep parallel sleep did not overlap');
+
+return {
+  success: true,
+  mode: 'script-mode-parallel-sleep',
+  parallelToolCall,
+  sequentialToolCall,
+  parallelTools,
+};

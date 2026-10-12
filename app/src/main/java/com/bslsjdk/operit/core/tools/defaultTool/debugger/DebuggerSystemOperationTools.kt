@@ -1,1 +1,498 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5kZWJ1Z2dlcgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFwcE9wZXJhdGlvbkRhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLk5vdGlmaWNhdGlvbkRhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlN0cmluZ1Jlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlN5c3RlbVNldHRpbmdEYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5hY2Nlc3NiaWxpdHkuQWNjZXNzaWJpbGl0eVN5c3RlbU9wZXJhdGlvblRvb2xzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uQW5kcm9pZFNoZWxsRXhlY3V0b3IKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFJVG9vbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFJlc3VsdAoKLyoqIOiwg+ivlee6p+WIq+eahOezu+e7n+aTjeS9nOW3peWFt++8jOe7p+aJv+aXoOmanOeijeeJiOacrCwg5bm25L2/55Soc2hlbGzlkb3ku6Topobnm5bpg6jliIblrp7njrAgKi8Kb3BlbiBjbGFzcyBEZWJ1Z2dlclN5c3RlbU9wZXJhdGlvblRvb2xzKGNvbnRleHQ6IENvbnRleHQpIDoKICAgIEFjY2Vzc2liaWxpdHlTeXN0ZW1PcGVyYXRpb25Ub29scyhjb250ZXh0KSB7CgogICAgcHJpdmF0ZSB2YWwgVEFHID0gIkRlYnVnZ2VyU3lzdGVtVG9vbHMiCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gbW9kaWZ5U3lzdGVtU2V0dGluZyh0b29sOiBBSVRvb2wpOiBUb29sUmVzdWx0IHsKICAgICAgICB2YWwgc2V0dGluZyA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAic2V0dGluZyIgfT8udmFsdWUgPzogIiIKICAgICAgICB2YWwgdmFsdWUgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gInZhbHVlIiB9Py52YWx1ZSA/OiAiIgogICAgICAgIHZhbCBuYW1lc3BhY2UgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gIm5hbWVzcGFjZSIgfT8udmFsdWUgPzogInN5c3RlbSIKCiAgICAgICAgaWYgKHNldHRpbmcuaXNCbGFuaygpIHx8IHZhbHVlLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICBlcnJvciA9ICJNdXN0IHByb3ZpZGUgc2V0dGluZyBhbmQgdmFsdWUgcGFyYW1ldGVycyIKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgdmFsIHZhbGlkTmFtZXNwYWNlcyA9IGxpc3RPZigic3lzdGVtIiwgInNlY3VyZSIsICJnbG9iYWwiKQogICAgICAgIGlmICghdmFsaWROYW1lc3BhY2VzLmNvbnRhaW5zKG5hbWVzcGFjZSkpIHsKICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgZXJyb3IgPSAiTmFtZXNwYWNlIG11c3QgYmUgb25lIG9mOiAke3ZhbGlkTmFtZXNwYWNlcy5qb2luVG9TdHJpbmcoIiwgIil9IgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGNvbW1hbmQgPSAic2V0dGluZ3MgcHV0ICRuYW1lc3BhY2UgJHNldHRpbmcgJHZhbHVlIgogICAgICAgICAgICB2YWwgcmVzdWx0ID0gQW5kcm9pZFNoZWxsRXhlY3V0b3IuZXhlY3V0ZVNoZWxsQ29tbWFuZChjb21tYW5kKQoKICAgICAgICAgICAgaWYgKHJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0RGF0YSA9CiAgICAgICAgICAgICAgICAgICAgU3lzdGVtU2V0dGluZ0RhdGEobmFtZXNwYWNlID0gbmFtZXNwYWNlLCBzZXR0aW5nID0gc2V0dGluZywgdmFsdWUgPSB2YWx1ZSkKCiAgICAgICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSByZXN1bHREYXRhLAogICAgICAgICAgICAgICAgICAgIGVycm9yID0gIiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICJGYWlsZWQgdG8gc2V0IHNldHRpbmc6ICR7cmVzdWx0LnN0ZGVycn0iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgbW9kaWZ5aW5nIHN5c3RlbSBzZXR0aW5nIiwgZSkKICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgZXJyb3IgPSAiRXJyb3IgbW9kaWZ5aW5nIHN5c3RlbSBzZXR0aW5nOiAke2UubWVzc2FnZX0iCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZ2V0U3lzdGVtU2V0dGluZyh0b29sOiBBSVRvb2wpOiBUb29sUmVzdWx0IHsKICAgICAgICB2YWwgc2V0dGluZyA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAic2V0dGluZyIgfT8udmFsdWUgPzogIiIKICAgICAgICB2YWwgbmFtZXNwYWNlID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJuYW1lc3BhY2UiIH0/LnZhbHVlID86ICJzeXN0ZW0iCgogICAgICAgIGlmIChzZXR0aW5nLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICBlcnJvciA9ICJNdXN0IHByb3ZpZGUgc2V0dGluZyBwYXJhbWV0ZXIiCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIHZhbCB2YWxpZE5hbWVzcGFjZXMgPSBsaXN0T2YoInN5c3RlbSIsICJzZWN1cmUiLCAiZ2xvYmFsIikKICAgICAgICBpZiAoIXZhbGlkTmFtZXNwYWNlcy5jb250YWlucyhuYW1lc3BhY2UpKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gIk5hbWVzcGFjZSBtdXN0IGJlIG9uZSBvZjogJHt2YWxpZE5hbWVzcGFjZXMuam9pblRvU3RyaW5nKCIsICIpfSIKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBjb21tYW5kID0gInNldHRpbmdzIGdldCAkbmFtZXNwYWNlICRzZXR0aW5nIgogICAgICAgICAgICB2YWwgcmVzdWx0ID0gQW5kcm9pZFNoZWxsRXhlY3V0b3IuZXhlY3V0ZVNoZWxsQ29tbWFuZChjb21tYW5kKQoKICAgICAgICAgICAgaWYgKHJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0RGF0YSA9CiAgICAgICAgICAgICAgICAgICAgU3lzdGVtU2V0dGluZ0RhdGEoCiAgICAgICAgICAgICAgICAgICAgICAgIG5hbWVzcGFjZSA9IG5hbWVzcGFjZSwKICAgICAgICAgICAgICAgICAgICAgICAgc2V0dGluZyA9IHNldHRpbmcsCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gcmVzdWx0LnN0ZG91dC50cmltKCkKICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0RGF0YSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICIiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiRmFpbGVkIHRvIGdldCBzZXR0aW5nOiAke3Jlc3VsdC5zdGRlcnJ9IgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGdldHRpbmcgc3lzdGVtIHNldHRpbmciLCBlKQogICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICBlcnJvciA9ICJFcnJvciBnZXR0aW5nIHN5c3RlbSBzZXR0aW5nOiAke2UubWVzc2FnZX0iCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gaW5zdGFsbEFwcCh0b29sOiBBSVRvb2wpOiBUb29sUmVzdWx0IHsKICAgICAgICB2YWwgYXBrUGF0aCA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAicGF0aCIgfT8udmFsdWUgPzogIiIKCiAgICAgICAgaWYgKGFwa1BhdGguaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gIk11c3QgcHJvdmlkZSBhcGtfcGF0aCBwYXJhbWV0ZXIiCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGlmIChEZWJ1Z2dlckZpbGVTeXN0ZW1Ub29scy5pc09wZXJpdEludGVybmFsUGF0aChhcGtQYXRoKSkgewogICAgICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgICAgICJpbnN0YWxsQXBwIGRldGVjdGVkIE9wZXJpdCBpbnRlcm5hbCBwYXRoLCBkZWxlZ2F0aW5nIHRvIEFjY2Vzc2liaWxpdHlTeXN0ZW1PcGVyYXRpb25Ub29scyIKICAgICAgICAgICAgKQogICAgICAgICAgICByZXR1cm4gc3VwZXIuaW5zdGFsbEFwcCh0b29sKQogICAgICAgIH0KCiAgICAgICAgdmFsIGV4aXN0c1Jlc3VsdCA9CiAgICAgICAgICAgIEFuZHJvaWRTaGVsbEV4ZWN1dG9yLmV4ZWN1dGVTaGVsbENvbW1hbmQoCiAgICAgICAgICAgICAgICAidGVzdCAtZiAkYXBrUGF0aCAmJiBlY2hvICdleGlzdHMnIHx8IGVjaG8gJ25vdCBleGlzdHMnIgogICAgICAgICAgICApCiAgICAgICAgaWYgKGV4aXN0c1Jlc3VsdC5zdGRvdXQudHJpbSgpICE9ICJleGlzdHMiKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gIkFQSyBmaWxlIGRvZXMgbm90IGV4aXN0OiAkYXBrUGF0aCIKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBjb21tYW5kID0gInBtIGluc3RhbGwgLXIgJGFwa1BhdGgiCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBBbmRyb2lkU2hlbGxFeGVjdXRvci5leGVjdXRlU2hlbGxDb21tYW5kKGNvbW1hbmQpCgogICAgICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MgJiYgcmVzdWx0LnN0ZG91dC5jb250YWlucygiU3VjY2VzcyIpKSB7CiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0RGF0YSA9CiAgICAgICAgICAgICAgICAgICAgQXBwT3BlcmF0aW9uRGF0YSgKICAgICAgICAgICAgICAgICAgICAgICAgb3BlcmF0aW9uVHlwZSA9ICJpbnN0YWxsIiwKICAgICAgICAgICAgICAgICAgICAgICAgcGFja2FnZU5hbWUgPSBhcGtQYXRoLAogICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSByZXN1bHREYXRhLAogICAgICAgICAgICAgICAgICAgIGVycm9yID0gIiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICJJbnN0YWxsYXRpb24gZmFpbGVkOiAke3Jlc3VsdC5zdGRlcnJ9IgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGluc3RhbGxpbmcgYXBwIiwgZSkKICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgZXJyb3IgPSAiRXJyb3IgaW5zdGFsbGluZyBhcHA6ICR7ZS5tZXNzYWdlfSIKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biB1bmluc3RhbGxBcHAodG9vbDogQUlUb29sKTogVG9vbFJlc3VsdCB7CiAgICAgICAgdmFsIHBhY2thZ2VOYW1lID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJwYWNrYWdlX25hbWUiIH0/LnZhbHVlID86ICIiCiAgICAgICAgdmFsIGtlZXBEYXRhID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJrZWVwX2RhdGEiIH0/LnZhbHVlPy50b0Jvb2xlYW4oKSA/OiBmYWxzZQoKICAgICAgICBpZiAocGFja2FnZU5hbWUuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gIk11c3QgcHJvdmlkZSBwYWNrYWdlX25hbWUgcGFyYW1ldGVyIgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgY2hlY2tDb21tYW5kID0gInBtIGxpc3QgcGFja2FnZXMgfCBncmVwIC1jIFwiJHBhY2thZ2VOYW1lXCIiCiAgICAgICAgdmFsIGNoZWNrUmVzdWx0ID0gQW5kcm9pZFNoZWxsRXhlY3V0b3IuZXhlY3V0ZVNoZWxsQ29tbWFuZChjaGVja0NvbW1hbmQpCgogICAgICAgIGlmIChjaGVja1Jlc3VsdC5zdGRvdXQudHJpbSgpID09ICIwIikgewogICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICBlcnJvciA9ICJBcHAgbm90IGluc3RhbGxlZDogJHBhY2thZ2VOYW1lIgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGNvbW1hbmQgPQogICAgICAgICAgICAgICAgaWYgKGtlZXBEYXRhKSB7CiAgICAgICAgICAgICAgICAgICAgInBtIHVuaW5zdGFsbCAtayAkcGFja2FnZU5hbWUiCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICJwbSB1bmluc3RhbGwgJHBhY2thZ2VOYW1lIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IEFuZHJvaWRTaGVsbEV4ZWN1dG9yLmV4ZWN1dGVTaGVsbENvbW1hbmQoY29tbWFuZCkKCiAgICAgICAgICAgIGlmIChyZXN1bHQuc3VjY2VzcyAmJiByZXN1bHQuc3Rkb3V0LmNvbnRhaW5zKCJTdWNjZXNzIikpIHsKICAgICAgICAgICAgICAgIHZhbCBkZXRhaWxzID0gaWYgKGtlZXBEYXRhKSAiKGtlZXAgZGF0YSkiIGVsc2UgIiIKICAgICAgICAgICAgICAgIHZhbCByZXN1bHREYXRhID0KICAgICAgICAgICAgICAgICAgICBBcHBPcGVyYXRpb25EYXRhKAogICAgICAgICAgICAgICAgICAgICAgICBvcGVyYXRpb25UeXBlID0gInVuaW5zdGFsbCIsCiAgICAgICAgICAgICAgICAgICAgICAgIHBhY2thZ2VOYW1lID0gcGFja2FnZU5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICBkZXRhaWxzID0gZGV0YWlscwogICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSByZXN1bHREYXRhLAogICAgICAgICAgICAgICAgICAgIGVycm9yID0gIiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICJVbmluc3RhbGxhdGlvbiBmYWlsZWQ6ICR7cmVzdWx0LnN0ZGVycn0iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgdW5pbnN0YWxsaW5nIGFwcCIsIGUpCiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gIkVycm9yIHVuaW5zdGFsbGluZyBhcHA6ICR7ZS5tZXNzYWdlfSIKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBzdGFydEFwcCh0b29sOiBBSVRvb2wpOiBUb29sUmVzdWx0IHsKICAgICAgICB2YWwgcGFja2FnZU5hbWUgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gInBhY2thZ2VfbmFtZSIgfT8udmFsdWUgPzogIiIKICAgICAgICB2YWwgYWN0aXZpdHkgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gImFjdGl2aXR5IiB9Py52YWx1ZSA/OiAiIgoKICAgICAgICBpZiAocGFja2FnZU5hbWUuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gIk11c3QgcHJvdmlkZSBwYWNrYWdlX25hbWUgcGFyYW1ldGVyIgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGNvbW1hbmQ6IFN0cmluZwogICAgICAgICAgICBpZiAoYWN0aXZpdHkuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAvLyDkvb/nlKggYW0gc3RhcnQg5ZG95Luk6ICM5LiN5pivIG1vbmtlee+8jOmBv+WFjeS/ruaUueezu+e7n+iuvue9ru+8iOWmguWxj+W5leaXi+i9rO+8iQogICAgICAgICAgICAgICAgLy8g5YWI6I635Y+W5bqU55So55qE5Li7IEFjdGl2aXR577yM54S25ZCO5L2/55SoIC1uIOWPguaVsOWQr+WKqAogICAgICAgICAgICAgICAgdmFsIHJlc29sdmVDbWQgPSAiY21kIHBhY2thZ2UgcmVzb2x2ZS1hY3Rpdml0eSAtLWJyaWVmICRwYWNrYWdlTmFtZSAyPi9kZXYvbnVsbCB8IHRhaWwgLW4gMSIKICAgICAgICAgICAgICAgIHZhbCByZXNvbHZlUmVzdWx0ID0gQW5kcm9pZFNoZWxsRXhlY3V0b3IuZXhlY3V0ZVNoZWxsQ29tbWFuZChyZXNvbHZlQ21kKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBpZiAocmVzb2x2ZVJlc3VsdC5zdWNjZXNzICYmIHJlc29sdmVSZXN1bHQuc3Rkb3V0LmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgIHZhbCBvdXRwdXQgPSByZXNvbHZlUmVzdWx0LnN0ZG91dC50cmltKCkKICAgICAgICAgICAgICAgICAgICAvLyByZXNvbHZlLWFjdGl2aXR5IOi/lOWbnuagvOW8j+WPr+iDveaYr++8mnBhY2thZ2UvYWN0aXZpdHkg5oiW5Y+q5pyJIGFjdGl2aXR5CiAgICAgICAgICAgICAgICAgICAgLy8g5Lmf5Y+v6IO96L+U5Zue5aSa6KGM77yM5pyA5ZCO5LiA6KGM5piv57uE5Lu25ZCNCiAgICAgICAgICAgICAgICAgICAgdmFsIGxpbmVzID0gb3V0cHV0LmxpbmVzKCkuZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpICYmICFpdC5zdGFydHNXaXRoKCJuYW1lPSIpIH0KICAgICAgICAgICAgICAgICAgICB2YWwgbWFpbkFjdGl2aXR5ID0gbGluZXMubGFzdE9yTnVsbCgpPy50cmltKCkgPzogb3V0cHV0LnRyaW0oKQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOi/lOWbnueahOaYr+WujOaVtOe7hOS7tuWQje+8iHBhY2thZ2UvYWN0aXZpdHnvvInvvIznm7TmjqXkvb/nlKgKICAgICAgICAgICAgICAgICAgICBjb21tYW5kID0gaWYgKG1haW5BY3Rpdml0eS5jb250YWlucygnLycpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICJhbSBzdGFydCAtbiAkbWFpbkFjdGl2aXR5IgogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOWPqui/lOWbnuS6hiBBY3Rpdml0eSDlkI3vvIzmi7zmjqXljIXlkI0KICAgICAgICAgICAgICAgICAgICAgICAgImFtIHN0YXJ0IC1uICRwYWNrYWdlTmFtZS8kbWFpbkFjdGl2aXR5IgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJSZXNvbHZlZCBtYWluIEFjdGl2aXR5OiAkbWFpbkFjdGl2aXR5LCB1c2luZyBjb21tYW5kOiAkY29tbWFuZCIpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOaXoOazleino+aekCBBY3Rpdml0ee+8jOi/lOWbnumUmeivrwogICAgICAgICAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiQ2Fubm90IHJlc29sdmUgYXBwIG1haW4gQWN0aXZpdHkuIFBsZWFzZSBwcm92aWRlIGFjdGl2aXR5IHBhcmFtZXRlciBvciBlbnN1cmUgYXBwIGlzIHByb3Blcmx5IGluc3RhbGxlZC4gUGFja2FnZTogJHBhY2thZ2VOYW1lIgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbW1hbmQgPSAiYW0gc3RhcnQgLW4gJHBhY2thZ2VOYW1lLyRhY3Rpdml0eSIKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IEFuZHJvaWRTaGVsbEV4ZWN1dG9yLmV4ZWN1dGVTaGVsbENvbW1hbmQoY29tbWFuZCkKCiAgICAgICAgICAgIGlmIChyZXN1bHQuc3VjY2VzcykgewogICAgICAgICAgICAgICAgdmFsIGRldGFpbHMgPSBpZiAoYWN0aXZpdHkuaXNOb3RCbGFuaygpKSAiQWN0aXZpdHk6ICRhY3Rpdml0eSIgZWxzZSAiIgogICAgICAgICAgICAgICAgdmFsIHJlc3VsdERhdGEgPQogICAgICAgICAgICAgICAgICAgIEFwcE9wZXJhdGlvbkRhdGEoCiAgICAgICAgICAgICAgICAgICAgICAgIG9wZXJhdGlvblR5cGUgPSAic3RhcnQiLAogICAgICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZSA9IHBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgZGV0YWlscyA9IGRldGFpbHMKICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0RGF0YSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICIiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiRmFpbGVkIHRvIHN0YXJ0IGFwcDogJHtyZXN1bHQuc3RkZXJyfSIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBzdGFydGluZyBhcHAiLCBlKQogICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICBlcnJvciA9ICJFcnJvciBzdGFydGluZyBhcHA6ICR7ZS5tZXNzYWdlfSIKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBzdG9wQXBwKHRvb2w6IEFJVG9vbCk6IFRvb2xSZXN1bHQgewogICAgICAgIHZhbCBwYWNrYWdlTmFtZSA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAicGFja2FnZV9uYW1lIiB9Py52YWx1ZSA/OiAiIgoKICAgICAgICBpZiAocGFja2FnZU5hbWUuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gIk11c3QgcHJvdmlkZSBwYWNrYWdlX25hbWUgcGFyYW1ldGVyIgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGNvbW1hbmQgPSAiYW0gZm9yY2Utc3RvcCAkcGFja2FnZU5hbWUiCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBBbmRyb2lkU2hlbGxFeGVjdXRvci5leGVjdXRlU2hlbGxDb21tYW5kKGNvbW1hbmQpCgogICAgICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgIHZhbCByZXN1bHREYXRhID0KICAgICAgICAgICAgICAgICAgICBBcHBPcGVyYXRpb25EYXRhKAogICAgICAgICAgICAgICAgICAgICAgICBvcGVyYXRpb25UeXBlID0gInN0b3AiLAogICAgICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZSA9IHBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSByZXN1bHREYXRhLAogICAgICAgICAgICAgICAgICAgIGVycm9yID0gIiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICJGYWlsZWQgdG8gc3RvcCBhcHA6ICR7cmVzdWx0LnN0ZGVycn0iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3Igc3RvcHBpbmcgYXBwIiwgZSkKICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgZXJyb3IgPSAiRXJyb3Igc3RvcHBpbmcgYXBwOiAke2UubWVzc2FnZX0iCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZ2V0Tm90aWZpY2F0aW9ucyh0b29sOiBBSVRvb2wpOiBUb29sUmVzdWx0IHsKICAgICAgICB2YWwgbGltaXQgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gImxpbWl0IiB9Py52YWx1ZT8udG9JbnRPck51bGwoKSA/OiAxMAogICAgICAgIHZhbCBpbmNsdWRlT25nb2luZyA9CiAgICAgICAgICAgIHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAiaW5jbHVkZV9vbmdvaW5nIiB9Py52YWx1ZT8udG9Cb29sZWFuKCkgPzogZmFsc2UKCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBjb21tYW5kID0KICAgICAgICAgICAgICAgIGlmIChpbmNsdWRlT25nb2luZykgewogICAgICAgICAgICAgICAgICAgICJkdW1wc3lzIG5vdGlmaWNhdGlvbiAtLW5vcmVkYWN0IHwgZ3JlcCAtRSAncGtnPXx0ZXh0PScgfCBoZWFkIC0ke2xpbWl0ICogMn0iCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICJkdW1wc3lzIG5vdGlmaWNhdGlvbiAtLW5vcmVkYWN0IHwgZ3JlcCAtdiAnb25nb2luZycgfCBncmVwIC1FICdwa2c9fHRleHQ9JyB8IGhlYWQgLSR7bGltaXQgKiAyfSIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBBbmRyb2lkU2hlbGxFeGVjdXRvci5leGVjdXRlU2hlbGxDb21tYW5kKGNvbW1hbmQpCgogICAgICAgICAgICBpZiAocmVzdWx0LnN1Y2Nlc3MpIHsKICAgICAgICAgICAgICAgIHZhbCBsaW5lcyA9IHJlc3VsdC5zdGRvdXQuc3BsaXQoIlxuIikKICAgICAgICAgICAgICAgIHZhbCBub3RpZmljYXRpb25zID0gbXV0YWJsZUxpc3RPZjxOb3RpZmljYXRpb25EYXRhLk5vdGlmaWNhdGlvbj4oKQoKICAgICAgICAgICAgICAgIHZhciBjdXJyZW50UGFja2FnZSA9ICIiCiAgICAgICAgICAgICAgICB2YXIgY3VycmVudFRleHQgPSAiIgoKICAgICAgICAgICAgICAgIGZvciAobGluZSBpbiBsaW5lcykgewogICAgICAgICAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgICAgICAgICBsaW5lLmNvbnRhaW5zKCJwa2c9IikgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRQYWNrYWdlLmlzTm90RW1wdHkoKSAmJiBjdXJyZW50VGV4dC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBub3RpZmljYXRpb25zLmFkZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTm90aWZpY2F0aW9uRGF0YS5Ob3RpZmljYXRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZSA9IGN1cnJlbnRQYWNrYWdlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGN1cnJlbnRUZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGltZXN0YW1wID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50VGV4dCA9ICIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBwa2dNYXRjaCA9IFJlZ2V4KCJwa2c9KFxcUyspIikuZmluZChsaW5lKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudFBhY2thZ2UgPSBwa2dNYXRjaD8uZ3JvdXBWYWx1ZXM/LmdldE9yTnVsbCgxKSA/OiAiIgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGxpbmUuY29udGFpbnMoInRleHQ9IikgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHRleHRNYXRjaCA9IFJlZ2V4KCJ0ZXh0PSguKykiKS5maW5kKGxpbmUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50VGV4dCA9IHRleHRNYXRjaD8uZ3JvdXBWYWx1ZXM/LmdldE9yTnVsbCgxKSA/OiAiIgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBpZiAoY3VycmVudFBhY2thZ2UuaXNOb3RFbXB0eSgpICYmIGN1cnJlbnRUZXh0LmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgIG5vdGlmaWNhdGlvbnMuYWRkKAogICAgICAgICAgICAgICAgICAgICAgICBOb3RpZmljYXRpb25EYXRhLk5vdGlmaWNhdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhY2thZ2VOYW1lID0gY3VycmVudFBhY2thZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gY3VycmVudFRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aW1lc3RhbXAgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbCByZXN1bHREYXRhID0KICAgICAgICAgICAgICAgICAgICBOb3RpZmljYXRpb25EYXRhKAogICAgICAgICAgICAgICAgICAgICAgICBub3RpZmljYXRpb25zID0gbm90aWZpY2F0aW9ucywKICAgICAgICAgICAgICAgICAgICAgICAgdGltZXN0YW1wID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0RGF0YSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICIiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiRmFpbGVkIHRvIGdldCBub3RpZmljYXRpb25zOiAke3Jlc3VsdC5zdGRlcnJ9IgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGdldHRpbmcgbm90aWZpY2F0aW9ucyIsIGUpCiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gIkVycm9yIGdldHRpbmcgbm90aWZpY2F0aW9uczogJHtlLm1lc3NhZ2V9IgogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.debugger
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.AppOperationData
+import com.bslsjdk.operit.core.tools.NotificationData
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.core.tools.SystemSettingData
+import com.bslsjdk.operit.core.tools.defaultTool.accessbility.AccessibilitySystemOperationTools
+import com.bslsjdk.operit.core.tools.system.AndroidShellExecutor
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolResult
+
+/** 调试级别的系统操作工具，继承无障碍版本, 并使用shell命令覆盖部分实现 */
+open class DebuggerSystemOperationTools(context: Context) :
+    AccessibilitySystemOperationTools(context) {
+
+    private val TAG = "DebuggerSystemTools"
+
+    override suspend fun modifySystemSetting(tool: AITool): ToolResult {
+        val setting = tool.parameters.find { it.name == "setting" }?.value ?: ""
+        val value = tool.parameters.find { it.name == "value" }?.value ?: ""
+        val namespace = tool.parameters.find { it.name == "namespace" }?.value ?: "system"
+
+        if (setting.isBlank() || value.isBlank()) {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Must provide setting and value parameters"
+            )
+        }
+
+        val validNamespaces = listOf("system", "secure", "global")
+        if (!validNamespaces.contains(namespace)) {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Namespace must be one of: ${validNamespaces.joinToString(", ")}"
+            )
+        }
+
+        return try {
+            val command = "settings put $namespace $setting $value"
+            val result = AndroidShellExecutor.executeShellCommand(command)
+
+            if (result.success) {
+                val resultData =
+                    SystemSettingData(namespace = namespace, setting = setting, value = value)
+
+                return ToolResult(
+                    toolName = tool.name,
+                    success = true,
+                    result = resultData,
+                    error = ""
+                )
+            } else {
+                return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Failed to set setting: ${result.stderr}"
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error modifying system setting", e)
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Error modifying system setting: ${e.message}"
+            )
+        }
+    }
+
+    override suspend fun getSystemSetting(tool: AITool): ToolResult {
+        val setting = tool.parameters.find { it.name == "setting" }?.value ?: ""
+        val namespace = tool.parameters.find { it.name == "namespace" }?.value ?: "system"
+
+        if (setting.isBlank()) {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Must provide setting parameter"
+            )
+        }
+
+        val validNamespaces = listOf("system", "secure", "global")
+        if (!validNamespaces.contains(namespace)) {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Namespace must be one of: ${validNamespaces.joinToString(", ")}"
+            )
+        }
+
+        return try {
+            val command = "settings get $namespace $setting"
+            val result = AndroidShellExecutor.executeShellCommand(command)
+
+            if (result.success) {
+                val resultData =
+                    SystemSettingData(
+                        namespace = namespace,
+                        setting = setting,
+                        value = result.stdout.trim()
+                    )
+
+                return ToolResult(
+                    toolName = tool.name,
+                    success = true,
+                    result = resultData,
+                    error = ""
+                )
+            } else {
+                return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Failed to get setting: ${result.stderr}"
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error getting system setting", e)
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Error getting system setting: ${e.message}"
+            )
+        }
+    }
+
+    override suspend fun installApp(tool: AITool): ToolResult {
+        val apkPath = tool.parameters.find { it.name == "path" }?.value ?: ""
+
+        if (apkPath.isBlank()) {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Must provide apk_path parameter"
+            )
+        }
+
+        if (DebuggerFileSystemTools.isOperitInternalPath(apkPath)) {
+            AppLogger.d(
+                TAG,
+                "installApp detected Operit internal path, delegating to AccessibilitySystemOperationTools"
+            )
+            return super.installApp(tool)
+        }
+
+        val existsResult =
+            AndroidShellExecutor.executeShellCommand(
+                "test -f $apkPath && echo 'exists' || echo 'not exists'"
+            )
+        if (existsResult.stdout.trim() != "exists") {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "APK file does not exist: $apkPath"
+            )
+        }
+
+        return try {
+            val command = "pm install -r $apkPath"
+            val result = AndroidShellExecutor.executeShellCommand(command)
+
+            if (result.success && result.stdout.contains("Success")) {
+                val resultData =
+                    AppOperationData(
+                        operationType = "install",
+                        packageName = apkPath,
+                        success = true
+                    )
+
+                return ToolResult(
+                    toolName = tool.name,
+                    success = true,
+                    result = resultData,
+                    error = ""
+                )
+            } else {
+                return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Installation failed: ${result.stderr}"
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error installing app", e)
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Error installing app: ${e.message}"
+            )
+        }
+    }
+
+    override suspend fun uninstallApp(tool: AITool): ToolResult {
+        val packageName = tool.parameters.find { it.name == "package_name" }?.value ?: ""
+        val keepData = tool.parameters.find { it.name == "keep_data" }?.value?.toBoolean() ?: false
+
+        if (packageName.isBlank()) {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Must provide package_name parameter"
+            )
+        }
+
+        val checkCommand = "pm list packages | grep -c \"$packageName\""
+        val checkResult = AndroidShellExecutor.executeShellCommand(checkCommand)
+
+        if (checkResult.stdout.trim() == "0") {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "App not installed: $packageName"
+            )
+        }
+
+        return try {
+            val command =
+                if (keepData) {
+                    "pm uninstall -k $packageName"
+                } else {
+                    "pm uninstall $packageName"
+                }
+
+            val result = AndroidShellExecutor.executeShellCommand(command)
+
+            if (result.success && result.stdout.contains("Success")) {
+                val details = if (keepData) "(keep data)" else ""
+                val resultData =
+                    AppOperationData(
+                        operationType = "uninstall",
+                        packageName = packageName,
+                        success = true,
+                        details = details
+                    )
+
+                return ToolResult(
+                    toolName = tool.name,
+                    success = true,
+                    result = resultData,
+                    error = ""
+                )
+            } else {
+                return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Uninstallation failed: ${result.stderr}"
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error uninstalling app", e)
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Error uninstalling app: ${e.message}"
+            )
+        }
+    }
+
+    override suspend fun startApp(tool: AITool): ToolResult {
+        val packageName = tool.parameters.find { it.name == "package_name" }?.value ?: ""
+        val activity = tool.parameters.find { it.name == "activity" }?.value ?: ""
+
+        if (packageName.isBlank()) {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Must provide package_name parameter"
+            )
+        }
+
+        return try {
+            val command: String
+            if (activity.isBlank()) {
+                // 使用 am start 命令而不是 monkey，避免修改系统设置（如屏幕旋转）
+                // 先获取应用的主 Activity，然后使用 -n 参数启动
+                val resolveCmd = "cmd package resolve-activity --brief $packageName 2>/dev/null | tail -n 1"
+                val resolveResult = AndroidShellExecutor.executeShellCommand(resolveCmd)
+                
+                if (resolveResult.success && resolveResult.stdout.isNotBlank()) {
+                    val output = resolveResult.stdout.trim()
+                    // resolve-activity 返回格式可能是：package/activity 或只有 activity
+                    // 也可能返回多行，最后一行是组件名
+                    val lines = output.lines().filter { it.isNotBlank() && !it.startsWith("name=") }
+                    val mainActivity = lines.lastOrNull()?.trim() ?: output.trim()
+                    
+                    // 如果返回的是完整组件名（package/activity），直接使用
+                    command = if (mainActivity.contains('/')) {
+                        "am start -n $mainActivity"
+                    } else {
+                        // 如果只返回了 Activity 名，拼接包名
+                        "am start -n $packageName/$mainActivity"
+                    }
+                    AppLogger.d(TAG, "Resolved main Activity: $mainActivity, using command: $command")
+                } else {
+                    // 如果无法解析 Activity，返回错误
+                    return ToolResult(
+                        toolName = tool.name,
+                        success = false,
+                        result = StringResultData(""),
+                        error = "Cannot resolve app main Activity. Please provide activity parameter or ensure app is properly installed. Package: $packageName"
+                    )
+                }
+            } else {
+                command = "am start -n $packageName/$activity"
+            }
+
+            val result = AndroidShellExecutor.executeShellCommand(command)
+
+            if (result.success) {
+                val details = if (activity.isNotBlank()) "Activity: $activity" else ""
+                val resultData =
+                    AppOperationData(
+                        operationType = "start",
+                        packageName = packageName,
+                        success = true,
+                        details = details
+                    )
+
+                return ToolResult(
+                    toolName = tool.name,
+                    success = true,
+                    result = resultData,
+                    error = ""
+                )
+            } else {
+                return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Failed to start app: ${result.stderr}"
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error starting app", e)
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Error starting app: ${e.message}"
+            )
+        }
+    }
+
+    override suspend fun stopApp(tool: AITool): ToolResult {
+        val packageName = tool.parameters.find { it.name == "package_name" }?.value ?: ""
+
+        if (packageName.isBlank()) {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Must provide package_name parameter"
+            )
+        }
+
+        return try {
+            val command = "am force-stop $packageName"
+            val result = AndroidShellExecutor.executeShellCommand(command)
+
+            if (result.success) {
+                val resultData =
+                    AppOperationData(
+                        operationType = "stop",
+                        packageName = packageName,
+                        success = true
+                    )
+
+                return ToolResult(
+                    toolName = tool.name,
+                    success = true,
+                    result = resultData,
+                    error = ""
+                )
+            } else {
+                return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Failed to stop app: ${result.stderr}"
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error stopping app", e)
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Error stopping app: ${e.message}"
+            )
+        }
+    }
+
+    override suspend fun getNotifications(tool: AITool): ToolResult {
+        val limit = tool.parameters.find { it.name == "limit" }?.value?.toIntOrNull() ?: 10
+        val includeOngoing =
+            tool.parameters.find { it.name == "include_ongoing" }?.value?.toBoolean() ?: false
+
+        return try {
+            val command =
+                if (includeOngoing) {
+                    "dumpsys notification --noredact | grep -E 'pkg=|text=' | head -${limit * 2}"
+                } else {
+                    "dumpsys notification --noredact | grep -v 'ongoing' | grep -E 'pkg=|text=' | head -${limit * 2}"
+                }
+
+            val result = AndroidShellExecutor.executeShellCommand(command)
+
+            if (result.success) {
+                val lines = result.stdout.split("\n")
+                val notifications = mutableListOf<NotificationData.Notification>()
+
+                var currentPackage = ""
+                var currentText = ""
+
+                for (line in lines) {
+                    when {
+                        line.contains("pkg=") -> {
+                            if (currentPackage.isNotEmpty() && currentText.isNotEmpty()) {
+                                notifications.add(
+                                    NotificationData.Notification(
+                                        packageName = currentPackage,
+                                        text = currentText,
+                                        timestamp = System.currentTimeMillis()
+                                    )
+                                )
+                                currentText = ""
+                            }
+                            
+                            val pkgMatch = Regex("pkg=(\\S+)").find(line)
+                            currentPackage = pkgMatch?.groupValues?.getOrNull(1) ?: ""
+                        }
+                        line.contains("text=") -> {
+                            val textMatch = Regex("text=(.+)").find(line)
+                            currentText = textMatch?.groupValues?.getOrNull(1) ?: ""
+                        }
+                    }
+                }
+                
+                if (currentPackage.isNotEmpty() && currentText.isNotEmpty()) {
+                    notifications.add(
+                        NotificationData.Notification(
+                            packageName = currentPackage,
+                            text = currentText,
+                            timestamp = System.currentTimeMillis()
+                        )
+                    )
+                }
+
+                val resultData =
+                    NotificationData(
+                        notifications = notifications,
+                        timestamp = System.currentTimeMillis()
+                    )
+
+                return ToolResult(
+                    toolName = tool.name,
+                    success = true,
+                    result = resultData,
+                    error = ""
+                )
+            } else {
+                return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Failed to get notifications: ${result.stderr}"
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error getting notifications", e)
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Error getting notifications: ${e.message}"
+            )
+        }
+    }
+}

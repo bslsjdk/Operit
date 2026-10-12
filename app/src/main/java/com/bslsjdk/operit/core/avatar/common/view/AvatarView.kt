@@ -1,1 +1,42 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLnZpZXcKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLmNvbnRyb2wuQXZhdGFyQ29udHJvbGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5tb2RlbC5BdmF0YXJNb2RlbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5mYWN0b3J5LkF2YXRhclJlbmRlcmVyRmFjdG9yeQoKLyoqCiAqIFRoZSBzaW5nbGUsIHVuaWZpZWQgQ29tcG9zYWJsZSBmb3IgZGlzcGxheWluZyBhbnkgdmlydHVhbCBhdmF0YXIuCiAqCiAqIFRoaXMgdmlldyBpcyBjb21wbGV0ZWx5IGRlY291cGxlZCBmcm9tIGFueSBzcGVjaWZpYyByZW5kZXJpbmcgdGVjaG5vbG9neS4gSXQgdXNlcyBhCiAqIFtBdmF0YXJSZW5kZXJlckZhY3RvcnldICh3aGljaCBtdXN0IGJlIHByb3ZpZGVkLCBsaWtlbHkgdmlhIGRlcGVuZGVuY3kgaW5qZWN0aW9uKQogKiB0byBvYnRhaW4gdGhlIGNvcnJlY3QgcmVuZGVyZXIgQ29tcG9zYWJsZSBmb3IgdGhlIGdpdmVuIFtBdmF0YXJNb2RlbF0uCiAqCiAqIEBwYXJhbSBtb2RpZmllciBUaGUgbW9kaWZpZXIgdG8gYmUgYXBwbGllZCB0byB0aGUgYXZhdGFyIGNvbnRhaW5lci4KICogQHBhcmFtIG1vZGVsIFRoZSBkYXRhIG1vZGVsIG9mIHRoZSBhdmF0YXIgdG8gcmVuZGVyLgogKiBAcGFyYW0gY29udHJvbGxlciBUaGUgY29udHJvbGxlciBpbnN0YW5jZSBmb3IgaW50ZXJhY3Rpbmcgd2l0aCB0aGUgYXZhdGFyJ3Mgc3RhdGUuCiAqIEBwYXJhbSByZW5kZXJlckZhY3RvcnkgVGhlIGZhY3RvcnkgdGhhdCBwcm92aWRlcyB0aGUgY29uY3JldGUgcmVuZGVyaW5nIGltcGxlbWVudGF0aW9uLgogKiBAcGFyYW0gb25FcnJvciBBIGNhbGxiYWNrIHRvIGhhbmRsZSBlcnJvcnMsIHN1Y2ggYXMgd2hlbiBhIHJlbmRlcmVyIGlzIG5vdCBhdmFpbGFibGUgZm9yIHRoZSBtb2RlbCB0eXBlLgogKi8KQENvbXBvc2FibGUKZnVuIEF2YXRhclZpZXcoCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIG1vZGVsOiBBdmF0YXJNb2RlbCwKICAgIGNvbnRyb2xsZXI6IEF2YXRhckNvbnRyb2xsZXIsCiAgICByZW5kZXJlckZhY3Rvcnk6IEF2YXRhclJlbmRlcmVyRmFjdG9yeSwKICAgIG9uRXJyb3I6IChTdHJpbmcpIC0+IFVuaXQgPSB7fQopIHsKICAgIHZhbCByZW5kZXJlciA9IHJlbmRlcmVyRmFjdG9yeS5jcmVhdGVSZW5kZXJlcihtb2RlbCkKCiAgICBpZiAocmVuZGVyZXIgIT0gbnVsbCkgewogICAgICAgIHJlbmRlcmVyKG1vZGlmaWVyLCBjb250cm9sbGVyKQogICAgfSBlbHNlIHsKICAgICAgICB2YWwgZXJyb3JNZXNzYWdlID0gIlVuc3VwcG9ydGVkIEF2YXRhck1vZGVsIHR5cGU6ICR7bW9kZWwudHlwZX0iCiAgICAgICAgb25FcnJvcihlcnJvck1lc3NhZ2UpCiAgICAgICAgLy8gRGlzcGxheSBhIGZhbGxiYWNrIFVJCiAgICAgICAgVGV4dChtb2RpZmllciA9IG1vZGlmaWVyLCB0ZXh0ID0gZXJyb3JNZXNzYWdlKQogICAgfQp9IA==
+package com.bslsjdk.operit.core.avatar.common.view
+
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.common.model.AvatarModel
+import com.bslsjdk.operit.core.avatar.common.factory.AvatarRendererFactory
+
+/**
+ * The single, unified Composable for displaying any virtual avatar.
+ *
+ * This view is completely decoupled from any specific rendering technology. It uses a
+ * [AvatarRendererFactory] (which must be provided, likely via dependency injection)
+ * to obtain the correct renderer Composable for the given [AvatarModel].
+ *
+ * @param modifier The modifier to be applied to the avatar container.
+ * @param model The data model of the avatar to render.
+ * @param controller The controller instance for interacting with the avatar's state.
+ * @param rendererFactory The factory that provides the concrete rendering implementation.
+ * @param onError A callback to handle errors, such as when a renderer is not available for the model type.
+ */
+@Composable
+fun AvatarView(
+    modifier: Modifier = Modifier,
+    model: AvatarModel,
+    controller: AvatarController,
+    rendererFactory: AvatarRendererFactory,
+    onError: (String) -> Unit = {}
+) {
+    val renderer = rendererFactory.createRenderer(model)
+
+    if (renderer != null) {
+        renderer(modifier, controller)
+    } else {
+        val errorMessage = "Unsupported AvatarModel type: ${model.type}"
+        onError(errorMessage)
+        // Display a fallback UI
+        Text(modifier = modifier, text = errorMessage)
+    }
+} 

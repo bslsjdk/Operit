@@ -1,1 +1,58 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmFydGhlbmljYS5mZm1wZWdraXQuRkZtcGVnS2l0CmltcG9ydCBjb20uYXJ0aGVuaWNhLmZmbXBlZ2tpdC5GRnByb2JlS2l0CmltcG9ydCBjb20uYXJ0aGVuaWNhLmZmbXBlZ2tpdC5NZWRpYUluZm9ybWF0aW9uCmltcG9ydCBjb20uYXJ0aGVuaWNhLmZmbXBlZ2tpdC5SZXR1cm5Db2RlCgovKioKICogVXRpbGl0eSBjbGFzcyBmb3IgRkZtcGVnIG9wZXJhdGlvbnMKICovCm9iamVjdCBGRm1wZWdVdGlsIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJGRm1wZWdVdGlsIgoKICAgIC8qKgogICAgICogQnVpbGQgYSBzY2FsZSBmaWx0ZXIgc3RyaW5nIHRoYXQgc3Vydml2ZXMgRkZtcGVnS2l0IGFyZ3VtZW50IHBhcnNpbmcuCiAgICAgKiBGRm1wZWcgZXhwcmVzc2lvbnMgbmVlZCBhbiBlc2NhcGVkIGNvbW1hIHdoZW4gcGFzc2VkIHdpdGhvdXQgYSBzaGVsbC4KICAgICAqLwogICAgZnVuIHNjYWxlRmlsdGVyTWF4V2lkdGgobWF4V2lkdGg6IEludCk6IFN0cmluZyA9ICJzY2FsZT1taW4oJHttYXhXaWR0aH1cXCxpdyk6LTIiCgogICAgLyoqCiAgICAgKiBFeGVjdXRlIGFuIEZGbXBlZyBjb21tYW5kIGFuZCByZXR1cm4gaWYgaXQgd2FzIHN1Y2Nlc3NmdWwKICAgICAqLwogICAgZnVuIGV4ZWN1dGVDb21tYW5kKGNvbW1hbmQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkV4ZWN1dGluZyBGRm1wZWcgY29tbWFuZDogJGNvbW1hbmQiKQogICAgICAgICAgICB2YWwgc2Vzc2lvbiA9IEZGbXBlZ0tpdC5leGVjdXRlKGNvbW1hbmQpCiAgICAgICAgICAgIHZhbCByZXR1cm5Db2RlID0gc2Vzc2lvbi5yZXR1cm5Db2RlCgogICAgICAgICAgICBpZiAoUmV0dXJuQ29kZS5pc1N1Y2Nlc3MocmV0dXJuQ29kZSkpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkZGbXBlZyBjb21tYW5kIGV4ZWN1dGVkIHN1Y2Nlc3NmdWxseSIpCiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoCiAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICJGRm1wZWcgZmFpbGVkIHdpdGggcmV0dXJuIGNvZGU6ICR7cmV0dXJuQ29kZS52YWx1ZX0sIG91dHB1dDogJHtzZXNzaW9uLm91dHB1dH0iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBleGVjdXRpbmcgRkZtcGVnIGNvbW1hbmQiLCBlKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBHZXQgbWVkaWEgaW5mb3JtYXRpb24gZm9yIGEgZmlsZQogICAgICovCiAgICBmdW4gZ2V0TWVkaWFJbmZvKGZpbGVQYXRoOiBTdHJpbmcpOiBNZWRpYUluZm9ybWF0aW9uPyB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBtZWRpYUluZm9TZXNzaW9uID0gRkZwcm9iZUtpdC5nZXRNZWRpYUluZm9ybWF0aW9uKGZpbGVQYXRoKQogICAgICAgICAgICBtZWRpYUluZm9TZXNzaW9uLm1lZGlhSW5mb3JtYXRpb24KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgZ2V0dGluZyBtZWRpYSBpbmZvOiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQp9IAo=
+package com.bslsjdk.operit.util
+
+import com.bslsjdk.operit.util.AppLogger
+import com.arthenica.ffmpegkit.FFmpegKit
+import com.arthenica.ffmpegkit.FFprobeKit
+import com.arthenica.ffmpegkit.MediaInformation
+import com.arthenica.ffmpegkit.ReturnCode
+
+/**
+ * Utility class for FFmpeg operations
+ */
+object FFmpegUtil {
+    private const val TAG = "FFmpegUtil"
+
+    /**
+     * Build a scale filter string that survives FFmpegKit argument parsing.
+     * FFmpeg expressions need an escaped comma when passed without a shell.
+     */
+    fun scaleFilterMaxWidth(maxWidth: Int): String = "scale=min(${maxWidth}\\,iw):-2"
+
+    /**
+     * Execute an FFmpeg command and return if it was successful
+     */
+    fun executeCommand(command: String): Boolean {
+        try {
+            AppLogger.d(TAG, "Executing FFmpeg command: $command")
+            val session = FFmpegKit.execute(command)
+            val returnCode = session.returnCode
+
+            if (ReturnCode.isSuccess(returnCode)) {
+                AppLogger.d(TAG, "FFmpeg command executed successfully")
+                return true
+            } else {
+                AppLogger.e(
+                    TAG,
+                    "FFmpeg failed with return code: ${returnCode.value}, output: ${session.output}"
+                )
+                return false
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error executing FFmpeg command", e)
+            return false
+        }
+    }
+
+    /**
+     * Get media information for a file
+     */
+    fun getMediaInfo(filePath: String): MediaInformation? {
+        return try {
+            val mediaInfoSession = FFprobeKit.getMediaInformation(filePath)
+            mediaInfoSession.mediaInformation
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error getting media info: ${e.message}")
+            null
+        }
+    }
+} 

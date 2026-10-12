@@ -1,1 +1,66 @@
-LyoKICogQ29weXJpZ2h0IDIwMjEgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5TY3JvbGxTY29wZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMYXlvdXRTY3JvbGxTY29wZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51dGlsLmZhc3RGaXJzdE9yTnVsbAoKLyoqCiAqIEFuIGltcGxlbWVudGF0aW9uIG9mIFtMYXp5TGF5b3V0U2Nyb2xsU2NvcGVdIHRoYXQgY2FuIGJlIHVzZWQgd2l0aCBMYXp5TGlzdHMuIFBsZWFzZSByZWZlciB0byB0aGUKICogc2FtcGxlIHRvIGxlYXJuIGhvdyB0byB1c2UgdGhpcyBBUEkuCiAqCiAqIEBwYXJhbSBzdGF0ZSBUaGUgW0xhenlMaXN0U3RhdGVdIGFzc29jaWF0ZWQgd2l0aCB0aGUgbGF5b3V0IHdoZXJlIHRoaXMgY3VzdG9tIHNjcm9sbCBzaG91bGQgYmUKICogICBwZXJmb3JtZWQuCiAqIEBwYXJhbSBzY3JvbGxTY29wZSBUaGUgYmFzZSBbU2Nyb2xsU2NvcGVdIHdoZXJlIHRoZSBzY3JvbGwgc2Vzc2lvbiB3YXMgY3JlYXRlZC4KICogQHJldHVybiBBbiBpbXBsZW1lbnRhdGlvbiBvZiBbTGF6eUxheW91dFNjcm9sbFNjb3BlXSB0aGF0IHdvcmtzIHdpdGggW0xhenlSb3ddIGFuZCBbTGF6eUNvbHVtbl0uCiAqIEBzYW1wbGUgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNhbXBsZXMuTGF6eUxpc3RDdXN0b21TY3JvbGxVc2luZ0xhenlMYXlvdXRTY3JvbGxTY29wZVNhbXBsZQogKi8KZnVuIExhenlMYXlvdXRTY3JvbGxTY29wZShzdGF0ZTogTGF6eUxpc3RTdGF0ZSwgc2Nyb2xsU2NvcGU6IFNjcm9sbFNjb3BlKTogTGF6eUxheW91dFNjcm9sbFNjb3BlIHsKCiAgICByZXR1cm4gb2JqZWN0IDogTGF6eUxheW91dFNjcm9sbFNjb3BlLCBTY3JvbGxTY29wZSBieSBzY3JvbGxTY29wZSB7CiAgICAgICAgb3ZlcnJpZGUgdmFsIGZpcnN0VmlzaWJsZUl0ZW1JbmRleDogSW50CiAgICAgICAgICAgIGdldCgpID0gc3RhdGUuZmlyc3RWaXNpYmxlSXRlbUluZGV4CgogICAgICAgIG92ZXJyaWRlIHZhbCBmaXJzdFZpc2libGVJdGVtU2Nyb2xsT2Zmc2V0OiBJbnQKICAgICAgICAgICAgZ2V0KCkgPSBzdGF0ZS5maXJzdFZpc2libGVJdGVtU2Nyb2xsT2Zmc2V0CgogICAgICAgIG92ZXJyaWRlIHZhbCBsYXN0VmlzaWJsZUl0ZW1JbmRleDogSW50CiAgICAgICAgICAgIGdldCgpID0gc3RhdGUubGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmxhc3RPck51bGwoKT8uaW5kZXggPzogMAoKICAgICAgICBvdmVycmlkZSB2YWwgaXRlbUNvdW50OiBJbnQKICAgICAgICAgICAgZ2V0KCkgPSBzdGF0ZS5sYXlvdXRJbmZvLnRvdGFsSXRlbXNDb3VudAoKICAgICAgICBvdmVycmlkZSBmdW4gc25hcFRvSXRlbShpbmRleDogSW50LCBvZmZzZXQ6IEludCkgewogICAgICAgICAgICBzdGF0ZS5zbmFwVG9JdGVtSW5kZXhJbnRlcm5hbChpbmRleCwgb2Zmc2V0LCBmb3JjZVJlbWVhc3VyZSA9IHRydWUpCiAgICAgICAgfQoKICAgICAgICBvdmVycmlkZSBmdW4gY2FsY3VsYXRlRGlzdGFuY2VUbyh0YXJnZXRJbmRleDogSW50LCB0YXJnZXRPZmZzZXQ6IEludCk6IEludCB7CiAgICAgICAgICAgIHZhbCBsYXlvdXRJbmZvID0gc3RhdGUubGF5b3V0SW5mbwogICAgICAgICAgICBpZiAobGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmlzRW1wdHkoKSkgcmV0dXJuIDAKICAgICAgICAgICAgcmV0dXJuIGlmICh0YXJnZXRJbmRleCAhaW4gZmlyc3RWaXNpYmxlSXRlbUluZGV4Li5sYXN0VmlzaWJsZUl0ZW1JbmRleCkgewogICAgICAgICAgICAgICAgdmFsIGF2ZXJhZ2VTaXplID0gbGF5b3V0SW5mby52aXNpYmxlSXRlbXNBdmVyYWdlU2l6ZSgpCiAgICAgICAgICAgICAgICB2YWwgaW5kZXhlc0RpZmYgPSB0YXJnZXRJbmRleCAtIGZpcnN0VmlzaWJsZUl0ZW1JbmRleAogICAgICAgICAgICAgICAgKGF2ZXJhZ2VTaXplICogaW5kZXhlc0RpZmYpIC0gZmlyc3RWaXNpYmxlSXRlbVNjcm9sbE9mZnNldAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdmFsIHZpc2libGVJdGVtID0KICAgICAgICAgICAgICAgICAgICBsYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm8uZmFzdEZpcnN0T3JOdWxsIHsgaXQuaW5kZXggPT0gdGFyZ2V0SW5kZXggfQogICAgICAgICAgICAgICAgdmlzaWJsZUl0ZW0/Lm9mZnNldCA/OiAwCiAgICAgICAgICAgIH0gKyB0YXJnZXRPZmZzZXQKICAgICAgICB9CiAgICB9Cn0K
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.gestures.ScrollScope
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutScrollScope
+import androidx.compose.ui.util.fastFirstOrNull
+
+/**
+ * An implementation of [LazyLayoutScrollScope] that can be used with LazyLists. Please refer to the
+ * sample to learn how to use this API.
+ *
+ * @param state The [LazyListState] associated with the layout where this custom scroll should be
+ *   performed.
+ * @param scrollScope The base [ScrollScope] where the scroll session was created.
+ * @return An implementation of [LazyLayoutScrollScope] that works with [LazyRow] and [LazyColumn].
+ * @sample androidx.compose.foundation.samples.LazyListCustomScrollUsingLazyLayoutScrollScopeSample
+ */
+fun LazyLayoutScrollScope(state: LazyListState, scrollScope: ScrollScope): LazyLayoutScrollScope {
+
+    return object : LazyLayoutScrollScope, ScrollScope by scrollScope {
+        override val firstVisibleItemIndex: Int
+            get() = state.firstVisibleItemIndex
+
+        override val firstVisibleItemScrollOffset: Int
+            get() = state.firstVisibleItemScrollOffset
+
+        override val lastVisibleItemIndex: Int
+            get() = state.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: 0
+
+        override val itemCount: Int
+            get() = state.layoutInfo.totalItemsCount
+
+        override fun snapToItem(index: Int, offset: Int) {
+            state.snapToItemIndexInternal(index, offset, forceRemeasure = true)
+        }
+
+        override fun calculateDistanceTo(targetIndex: Int, targetOffset: Int): Int {
+            val layoutInfo = state.layoutInfo
+            if (layoutInfo.visibleItemsInfo.isEmpty()) return 0
+            return if (targetIndex !in firstVisibleItemIndex..lastVisibleItemIndex) {
+                val averageSize = layoutInfo.visibleItemsAverageSize()
+                val indexesDiff = targetIndex - firstVisibleItemIndex
+                (averageSize * indexesDiff) - firstVisibleItemScrollOffset
+            } else {
+                val visibleItem =
+                    layoutInfo.visibleItemsInfo.fastFirstOrNull { it.index == targetIndex }
+                visibleItem?.offset ?: 0
+            } + targetOffset
+        }
+    }
+}

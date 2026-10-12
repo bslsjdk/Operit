@@ -1,1 +1,107 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy50b29scGtnCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdE1lc3NhZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlRGlzcGxheU1vZGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLk1lc3NhZ2VWYXJpYW50RW50aXR5CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROb3ROdWxsCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgVG9vbFBrZ0NoYXRNZXNzYWdlSG9va0JyaWRnZVRlc3QgewoKICAgIEBUZXN0CiAgICBmdW4gYGJ1aWxkQ2hhdE1lc3NhZ2VFdmVudFBheWxvYWQgY29udGFpbnMgYWxsIHJlcXVpcmVkIG1lc3NhZ2UgZmllbGRzIGluY2x1ZGluZyB2YXJpYW50IGluZGV4YCgpIHsKICAgICAgICB2YWwgbWVzc2FnZSA9IENoYXRNZXNzYWdlKAogICAgICAgICAgICBzZW5kZXIgPSAiYWkiLAogICAgICAgICAgICByb2xlTmFtZSA9ICJBc3Npc3RhbnQiLAogICAgICAgICAgICBjb250ZW50ID0gIlRoaXMgaXMgYSByZWdlbmVyYXRlZCB2YXJpYW50IHJlc3BvbnNlIiwKICAgICAgICAgICAgdGltZXN0YW1wID0gMTcwMDAwMDAwMDAwMEwsCiAgICAgICAgICAgIGNvbXBsZXRlZEF0ID0gMTcwMDAwMDAwNTAwMEwsCiAgICAgICAgICAgIHByb3ZpZGVyID0gImRlZXBzZWVrIiwKICAgICAgICAgICAgbW9kZWxOYW1lID0gImRlZXBzZWVrLWNoYXQiLAogICAgICAgICAgICBpbnB1dFRva2VucyA9IDEyMCwKICAgICAgICAgICAgb3V0cHV0VG9rZW5zID0gMjUwLAogICAgICAgICAgICBjYWNoZWRJbnB1dFRva2VucyA9IDY0LAogICAgICAgICAgICBzZW50QXQgPSAxNjk5OTk5OTk5MDAwTCwKICAgICAgICAgICAgb3V0cHV0RHVyYXRpb25NcyA9IDM1MDBMLAogICAgICAgICAgICB3YWl0RHVyYXRpb25NcyA9IDUwMEwsCiAgICAgICAgICAgIGRpc3BsYXlNb2RlID0gQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS5OT1JNQUwsCiAgICAgICAgICAgIHNlbGVjdGVkVmFyaWFudEluZGV4ID0gMiwKICAgICAgICAgICAgaXNGYXZvcml0ZSA9IGZhbHNlCiAgICAgICAgKQoKICAgICAgICB2YWwgcGF5bG9hZCA9IFRvb2xQa2dDaGF0TWVzc2FnZUhvb2tCcmlkZ2UuYnVpbGRDaGF0TWVzc2FnZUV2ZW50UGF5bG9hZCgKICAgICAgICAgICAgY2hhdElkID0gInRlc3QtY2hhdC0xMjMiLAogICAgICAgICAgICBtZXNzYWdlID0gbWVzc2FnZQogICAgICAgICkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0ZXN0LWNoYXQtMTIzIiwgcGF5bG9hZFsiY2hhdElkIl0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKDE3MDAwMDAwMDAwMDBMLCBwYXlsb2FkWyJ0aW1lc3RhbXAiXSkKICAgICAgICBhc3NlcnRFcXVhbHMoImFpIiwgcGF5bG9hZFsic2VuZGVyIl0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJBc3Npc3RhbnQiLCBwYXlsb2FkWyJyb2xlTmFtZSJdKQogICAgICAgIGFzc2VydEVxdWFscygiVGhpcyBpcyBhIHJlZ2VuZXJhdGVkIHZhcmlhbnQgcmVzcG9uc2UiLCBwYXlsb2FkWyJjb250ZW50Il0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKDE3MDAwMDAwMDUwMDBMLCBwYXlsb2FkWyJjb21wbGV0ZWRBdCJdKQogICAgICAgIGFzc2VydEVxdWFscygiZGVlcHNlZWsiLCBwYXlsb2FkWyJwcm92aWRlciJdKQogICAgICAgIGFzc2VydEVxdWFscygiZGVlcHNlZWstY2hhdCIsIHBheWxvYWRbIm1vZGVsTmFtZSJdKQogICAgICAgIGFzc2VydEVxdWFscygxMjBMLCBwYXlsb2FkWyJpbnB1dFRva2VucyJdKQogICAgICAgIGFzc2VydEVxdWFscygyNTBMLCBwYXlsb2FkWyJvdXRwdXRUb2tlbnMiXSkKICAgICAgICBhc3NlcnRFcXVhbHMoNjRMLCBwYXlsb2FkWyJjYWNoZWRJbnB1dFRva2VucyJdKQogICAgICAgIGFzc2VydEVxdWFscygxNjk5OTk5OTk5MDAwTCwgcGF5bG9hZFsic2VudEF0Il0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKDM1MDBMLCBwYXlsb2FkWyJvdXRwdXREdXJhdGlvbk1zIl0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKDUwMEwsIHBheWxvYWRbIndhaXREdXJhdGlvbk1zIl0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJOT1JNQUwiLCBwYXlsb2FkWyJkaXNwbGF5TW9kZSJdKQogICAgICAgIGFzc2VydEVxdWFscygyLCBwYXlsb2FkWyJzZWxlY3RlZFZhcmlhbnRJbmRleCJdKQogICAgICAgIGFzc2VydEVxdWFscyhmYWxzZSwgcGF5bG9hZFsiaXNGYXZvcml0ZSJdKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGRpc3BhdGNoTWVzc2FnZVBlcnNpc3RlZCB1c2VzIHRoZSBtYXRlcmlhbGl6ZWQgbWVzc2FnZSB2YXJpYW50YCgpIHsKICAgICAgICB2YXIgcmVjZWl2ZWRDaGF0SWQ6IFN0cmluZz8gPSBudWxsCiAgICAgICAgdmFyIHJlY2VpdmVkTWVzc2FnZTogQ2hhdE1lc3NhZ2U/ID0gbnVsbAoKICAgICAgICBUb29sUGtnQ2hhdE1lc3NhZ2VIb29rQnJpZGdlLm9uTWVzc2FnZVBlcnNpc3RlZERpc3BhdGNoZWRGb3JUZXN0ID0geyBjaGF0SWQsIG1lc3NhZ2UgLT4KICAgICAgICAgICAgcmVjZWl2ZWRDaGF0SWQgPSBjaGF0SWQKICAgICAgICAgICAgcmVjZWl2ZWRNZXNzYWdlID0gbWVzc2FnZQogICAgICAgIH0KCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGJhc2VNZXNzYWdlID0gQ2hhdE1lc3NhZ2UoCiAgICAgICAgICAgICAgICBzZW5kZXIgPSAiYWkiLAogICAgICAgICAgICAgICAgdGltZXN0YW1wID0gMTcwMDAwMDAwMDAwMEwsCiAgICAgICAgICAgICAgICBjb250ZW50ID0gIk9yaWdpbmFsIGhpZGRlbiByZXNwb25zZSIsCiAgICAgICAgICAgICAgICBkaXNwbGF5TW9kZSA9IENoYXRNZXNzYWdlRGlzcGxheU1vZGUuSElEREVOX1BMQUNFSE9MREVSLAogICAgICAgICAgICAgICAgaXNGYXZvcml0ZSA9IHRydWUsCiAgICAgICAgICAgICkKICAgICAgICAgICAgdmFsIGdlbmVyYXRlZE1lc3NhZ2UgPSBDaGF0TWVzc2FnZSgKICAgICAgICAgICAgICAgIHNlbmRlciA9ICJhaSIsCiAgICAgICAgICAgICAgICBjb250ZW50ID0gIlJlZ2VuZXJhdGVkIGNvbnRlbnQgZnJvbSByb2xsIiwKICAgICAgICAgICAgICAgIHRpbWVzdGFtcCA9IDE3MDAwMDAwMDEwMDBMLAogICAgICAgICAgICAgICAgZGlzcGxheU1vZGUgPSBDaGF0TWVzc2FnZURpc3BsYXlNb2RlLk5PUk1BTCwKICAgICAgICAgICAgICAgIGlzRmF2b3JpdGUgPSBmYWxzZSwKICAgICAgICAgICAgKQogICAgICAgICAgICB2YWwgcGVyc2lzdGVkVmFyaWFudCA9CiAgICAgICAgICAgICAgICBNZXNzYWdlVmFyaWFudEVudGl0eS5mcm9tQ2hhdE1lc3NhZ2UoCiAgICAgICAgICAgICAgICAgICAgY2hhdElkID0gImNoYXQtYWJjIiwKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlVGltZXN0YW1wID0gYmFzZU1lc3NhZ2UudGltZXN0YW1wLAogICAgICAgICAgICAgICAgICAgIHZhcmlhbnRJbmRleCA9IDMsCiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9IGdlbmVyYXRlZE1lc3NhZ2UuY29weShzZWxlY3RlZFZhcmlhbnRJbmRleCA9IDMsIHZhcmlhbnRDb3VudCA9IDQpLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB2YWwgcGVyc2lzdGVkTWVzc2FnZSA9IHBlcnNpc3RlZFZhcmlhbnQuYXBwbHlUbyhiYXNlTWVzc2FnZSwgdmFyaWFudENvdW50ID0gNCkKCiAgICAgICAgICAgIFRvb2xQa2dDaGF0TWVzc2FnZUhvb2tCcmlkZ2UuZGlzcGF0Y2hNZXNzYWdlUGVyc2lzdGVkKAogICAgICAgICAgICAgICAgY2hhdElkID0gImNoYXQtYWJjIiwKICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBwZXJzaXN0ZWRNZXNzYWdlLAogICAgICAgICAgICApCgogICAgICAgICAgICBhc3NlcnRFcXVhbHMoImNoYXQtYWJjIiwgcmVjZWl2ZWRDaGF0SWQpCiAgICAgICAgICAgIGFzc2VydE5vdE51bGwocmVjZWl2ZWRNZXNzYWdlKQogICAgICAgICAgICBhc3NlcnRFcXVhbHMoIlJlZ2VuZXJhdGVkIGNvbnRlbnQgZnJvbSByb2xsIiwgcmVjZWl2ZWRNZXNzYWdlPy5jb250ZW50KQogICAgICAgICAgICBhc3NlcnRFcXVhbHMoMTcwMDAwMDAwMDAwMEwsIHJlY2VpdmVkTWVzc2FnZT8udGltZXN0YW1wKQogICAgICAgICAgICBhc3NlcnRFcXVhbHMoMywgcmVjZWl2ZWRNZXNzYWdlPy5zZWxlY3RlZFZhcmlhbnRJbmRleCkKICAgICAgICAgICAgYXNzZXJ0RXF1YWxzKENoYXRNZXNzYWdlRGlzcGxheU1vZGUuSElEREVOX1BMQUNFSE9MREVSLCByZWNlaXZlZE1lc3NhZ2U/LmRpc3BsYXlNb2RlKQogICAgICAgICAgICBhc3NlcnRFcXVhbHModHJ1ZSwgcmVjZWl2ZWRNZXNzYWdlPy5pc0Zhdm9yaXRlKQogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIFRvb2xQa2dDaGF0TWVzc2FnZUhvb2tCcmlkZ2Uub25NZXNzYWdlUGVyc2lzdGVkRGlzcGF0Y2hlZEZvclRlc3QgPSBudWxsCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.plugins.toolpkg
+
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.data.model.ChatMessageDisplayMode
+import com.bslsjdk.operit.data.model.MessageVariantEntity
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotNull
+import org.junit.Test
+
+class ToolPkgChatMessageHookBridgeTest {
+
+    @Test
+    fun `buildChatMessageEventPayload contains all required message fields including variant index`() {
+        val message = ChatMessage(
+            sender = "ai",
+            roleName = "Assistant",
+            content = "This is a regenerated variant response",
+            timestamp = 1700000000000L,
+            completedAt = 1700000005000L,
+            provider = "deepseek",
+            modelName = "deepseek-chat",
+            inputTokens = 120,
+            outputTokens = 250,
+            cachedInputTokens = 64,
+            sentAt = 1699999999000L,
+            outputDurationMs = 3500L,
+            waitDurationMs = 500L,
+            displayMode = ChatMessageDisplayMode.NORMAL,
+            selectedVariantIndex = 2,
+            isFavorite = false
+        )
+
+        val payload = ToolPkgChatMessageHookBridge.buildChatMessageEventPayload(
+            chatId = "test-chat-123",
+            message = message
+        )
+
+        assertEquals("test-chat-123", payload["chatId"])
+        assertEquals(1700000000000L, payload["timestamp"])
+        assertEquals("ai", payload["sender"])
+        assertEquals("Assistant", payload["roleName"])
+        assertEquals("This is a regenerated variant response", payload["content"])
+        assertEquals(1700000005000L, payload["completedAt"])
+        assertEquals("deepseek", payload["provider"])
+        assertEquals("deepseek-chat", payload["modelName"])
+        assertEquals(120L, payload["inputTokens"])
+        assertEquals(250L, payload["outputTokens"])
+        assertEquals(64L, payload["cachedInputTokens"])
+        assertEquals(1699999999000L, payload["sentAt"])
+        assertEquals(3500L, payload["outputDurationMs"])
+        assertEquals(500L, payload["waitDurationMs"])
+        assertEquals("NORMAL", payload["displayMode"])
+        assertEquals(2, payload["selectedVariantIndex"])
+        assertEquals(false, payload["isFavorite"])
+    }
+
+    @Test
+    fun `dispatchMessagePersisted uses the materialized message variant`() {
+        var receivedChatId: String? = null
+        var receivedMessage: ChatMessage? = null
+
+        ToolPkgChatMessageHookBridge.onMessagePersistedDispatchedForTest = { chatId, message ->
+            receivedChatId = chatId
+            receivedMessage = message
+        }
+
+        try {
+            val baseMessage = ChatMessage(
+                sender = "ai",
+                timestamp = 1700000000000L,
+                content = "Original hidden response",
+                displayMode = ChatMessageDisplayMode.HIDDEN_PLACEHOLDER,
+                isFavorite = true,
+            )
+            val generatedMessage = ChatMessage(
+                sender = "ai",
+                content = "Regenerated content from roll",
+                timestamp = 1700000001000L,
+                displayMode = ChatMessageDisplayMode.NORMAL,
+                isFavorite = false,
+            )
+            val persistedVariant =
+                MessageVariantEntity.fromChatMessage(
+                    chatId = "chat-abc",
+                    messageTimestamp = baseMessage.timestamp,
+                    variantIndex = 3,
+                    message = generatedMessage.copy(selectedVariantIndex = 3, variantCount = 4),
+                )
+            val persistedMessage = persistedVariant.applyTo(baseMessage, variantCount = 4)
+
+            ToolPkgChatMessageHookBridge.dispatchMessagePersisted(
+                chatId = "chat-abc",
+                message = persistedMessage,
+            )
+
+            assertEquals("chat-abc", receivedChatId)
+            assertNotNull(receivedMessage)
+            assertEquals("Regenerated content from roll", receivedMessage?.content)
+            assertEquals(1700000000000L, receivedMessage?.timestamp)
+            assertEquals(3, receivedMessage?.selectedVariantIndex)
+            assertEquals(ChatMessageDisplayMode.HIDDEN_PLACEHOLDER, receivedMessage?.displayMode)
+            assertEquals(true, receivedMessage?.isFavorite)
+        } finally {
+            ToolPkgChatMessageHookBridge.onMessagePersistedDispatchedForTest = null
+        }
+    }
+}

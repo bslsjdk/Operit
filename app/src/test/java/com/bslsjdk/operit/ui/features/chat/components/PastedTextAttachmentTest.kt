@@ -1,1 +1,70 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LlRleHRSYW5nZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LlRleHRGaWVsZFZhbHVlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROdWxsCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgUGFzdGVkVGV4dEF0dGFjaG1lbnRUZXN0IHsKCiAgICBAVGVzdAogICAgZnVuIGV4dHJhY3RDbGlwYm9hcmRQYXN0ZWRUZXh0X3JldHVybnNUZXh0SW5zZXJ0ZWRBdEN1cnNvcigpIHsKICAgICAgICB2YWwgcHJldmlvdXMgPSBUZXh0RmllbGRWYWx1ZSgiQmVmb3JlIGFmdGVyIiwgc2VsZWN0aW9uID0gVGV4dFJhbmdlKDcpKQogICAgICAgIHZhbCBwcm9wb3NlZCA9IFRleHRGaWVsZFZhbHVlKCJCZWZvcmUgaW5zZXJ0ZWQgYWZ0ZXIiLCBzZWxlY3Rpb24gPSBUZXh0UmFuZ2UoMTYpKQoKICAgICAgICB2YWwgcGFzdGVkVGV4dCA9IGV4dHJhY3RDbGlwYm9hcmRQYXN0ZWRUZXh0KHByZXZpb3VzLCBwcm9wb3NlZCwgImluc2VydGVkICIpCgogICAgICAgIGFzc2VydEVxdWFscygiaW5zZXJ0ZWQgIiwgcGFzdGVkVGV4dCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGV4dHJhY3RDbGlwYm9hcmRQYXN0ZWRUZXh0X3JldHVybnNUZXh0UmVwbGFjaW5nU2VsZWN0aW9uKCkgewogICAgICAgIHZhbCBwcmV2aW91cyA9IFRleHRGaWVsZFZhbHVlKCJmaXJzdCBzZWNvbmQiLCBzZWxlY3Rpb24gPSBUZXh0UmFuZ2UoMCwgNSkpCiAgICAgICAgdmFsIHByb3Bvc2VkID0gVGV4dEZpZWxkVmFsdWUoInJlcGxhY2VtZW50IHNlY29uZCIsIHNlbGVjdGlvbiA9IFRleHRSYW5nZSgxMSkpCgogICAgICAgIHZhbCBwYXN0ZWRUZXh0ID0gZXh0cmFjdENsaXBib2FyZFBhc3RlZFRleHQocHJldmlvdXMsIHByb3Bvc2VkLCAicmVwbGFjZW1lbnQiKQoKICAgICAgICBhc3NlcnRFcXVhbHMoInJlcGxhY2VtZW50IiwgcGFzdGVkVGV4dCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGV4dHJhY3RDbGlwYm9hcmRQYXN0ZWRUZXh0X2FjY2VwdHNOb3JtYWxpemVkQ2xpcGJvYXJkTGluZUVuZGluZ3MoKSB7CiAgICAgICAgdmFsIHByZXZpb3VzID0gVGV4dEZpZWxkVmFsdWUoIiIpCiAgICAgICAgdmFsIHByb3Bvc2VkID0gVGV4dEZpZWxkVmFsdWUoImZpcnN0XG5zZWNvbmQiLCBzZWxlY3Rpb24gPSBUZXh0UmFuZ2UoMTIpKQoKICAgICAgICB2YWwgcGFzdGVkVGV4dCA9IGV4dHJhY3RDbGlwYm9hcmRQYXN0ZWRUZXh0KHByZXZpb3VzLCBwcm9wb3NlZCwgImZpcnN0XHJcbnNlY29uZCIpCgogICAgICAgIGFzc2VydEVxdWFscygiZmlyc3RcbnNlY29uZCIsIHBhc3RlZFRleHQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBleHRyYWN0Q2xpcGJvYXJkUGFzdGVkVGV4dF9pZ25vcmVzVGV4dFRoYXREb2VzTm90TWF0Y2hDbGlwYm9hcmQoKSB7CiAgICAgICAgdmFsIHByZXZpb3VzID0gVGV4dEZpZWxkVmFsdWUoIkJlZm9yZSBhZnRlciIsIHNlbGVjdGlvbiA9IFRleHRSYW5nZSg3KSkKICAgICAgICB2YWwgcHJvcG9zZWQgPSBUZXh0RmllbGRWYWx1ZSgiQmVmb3JlIGluc2VydGVkIGFmdGVyIiwgc2VsZWN0aW9uID0gVGV4dFJhbmdlKDE2KSkKCiAgICAgICAgdmFsIHBhc3RlZFRleHQgPSBleHRyYWN0Q2xpcGJvYXJkUGFzdGVkVGV4dChwcmV2aW91cywgcHJvcG9zZWQsICJkaWZmZXJlbnQiKQoKICAgICAgICBhc3NlcnROdWxsKHBhc3RlZFRleHQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBleHRyYWN0SW5zZXJ0ZWRUZXh0X3JldHVybnNUZXh0SW5zZXJ0ZWRBdEN1cnNvcigpIHsKICAgICAgICB2YWwgcHJldmlvdXMgPSBUZXh0RmllbGRWYWx1ZSgiQmVmb3JlIGFmdGVyIiwgc2VsZWN0aW9uID0gVGV4dFJhbmdlKDcpKQogICAgICAgIHZhbCBwcm9wb3NlZCA9IFRleHRGaWVsZFZhbHVlKCJCZWZvcmUgaW5zZXJ0ZWQgYWZ0ZXIiLCBzZWxlY3Rpb24gPSBUZXh0UmFuZ2UoMTYpKQoKICAgICAgICB2YWwgaW5zZXJ0ZWRUZXh0ID0gZXh0cmFjdEluc2VydGVkVGV4dChwcmV2aW91cywgcHJvcG9zZWQpCgogICAgICAgIGFzc2VydEVxdWFscygiaW5zZXJ0ZWQgIiwgaW5zZXJ0ZWRUZXh0KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZXh0cmFjdEluc2VydGVkVGV4dF9yZXR1cm5zTnVsbFdoZW5TdXJyb3VuZGluZ1RleHRDaGFuZ2VkKCkgewogICAgICAgIHZhbCBwcmV2aW91cyA9IFRleHRGaWVsZFZhbHVlKCJCZWZvcmUgYWZ0ZXIiLCBzZWxlY3Rpb24gPSBUZXh0UmFuZ2UoNykpCiAgICAgICAgdmFsIHByb3Bvc2VkID0gVGV4dEZpZWxkVmFsdWUoIkNoYW5nZWQgaW5zZXJ0ZWQgYWZ0ZXIiLCBzZWxlY3Rpb24gPSBUZXh0UmFuZ2UoMTYpKQoKICAgICAgICB2YWwgaW5zZXJ0ZWRUZXh0ID0gZXh0cmFjdEluc2VydGVkVGV4dChwcmV2aW91cywgcHJvcG9zZWQpCgogICAgICAgIGFzc2VydE51bGwoaW5zZXJ0ZWRUZXh0KQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.ui.text.TextRange
+import androidx.compose.ui.text.input.TextFieldValue
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+
+class PastedTextAttachmentTest {
+
+    @Test
+    fun extractClipboardPastedText_returnsTextInsertedAtCursor() {
+        val previous = TextFieldValue("Before after", selection = TextRange(7))
+        val proposed = TextFieldValue("Before inserted after", selection = TextRange(16))
+
+        val pastedText = extractClipboardPastedText(previous, proposed, "inserted ")
+
+        assertEquals("inserted ", pastedText)
+    }
+
+    @Test
+    fun extractClipboardPastedText_returnsTextReplacingSelection() {
+        val previous = TextFieldValue("first second", selection = TextRange(0, 5))
+        val proposed = TextFieldValue("replacement second", selection = TextRange(11))
+
+        val pastedText = extractClipboardPastedText(previous, proposed, "replacement")
+
+        assertEquals("replacement", pastedText)
+    }
+
+    @Test
+    fun extractClipboardPastedText_acceptsNormalizedClipboardLineEndings() {
+        val previous = TextFieldValue("")
+        val proposed = TextFieldValue("first\nsecond", selection = TextRange(12))
+
+        val pastedText = extractClipboardPastedText(previous, proposed, "first\r\nsecond")
+
+        assertEquals("first\nsecond", pastedText)
+    }
+
+    @Test
+    fun extractClipboardPastedText_ignoresTextThatDoesNotMatchClipboard() {
+        val previous = TextFieldValue("Before after", selection = TextRange(7))
+        val proposed = TextFieldValue("Before inserted after", selection = TextRange(16))
+
+        val pastedText = extractClipboardPastedText(previous, proposed, "different")
+
+        assertNull(pastedText)
+    }
+
+    @Test
+    fun extractInsertedText_returnsTextInsertedAtCursor() {
+        val previous = TextFieldValue("Before after", selection = TextRange(7))
+        val proposed = TextFieldValue("Before inserted after", selection = TextRange(16))
+
+        val insertedText = extractInsertedText(previous, proposed)
+
+        assertEquals("inserted ", insertedText)
+    }
+
+    @Test
+    fun extractInsertedText_returnsNullWhenSurroundingTextChanged() {
+        val previous = TextFieldValue("Before after", selection = TextRange(7))
+        val proposed = TextFieldValue("Changed inserted after", selection = TextRange(16))
+
+        val insertedText = extractInsertedText(previous, proposed)
+
+        assertNull(insertedText)
+    }
+}

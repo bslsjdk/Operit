@@ -1,1 +1,52 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCi8qKiDmqKHlnovlj4LmlbDnsbvvvIzmlK/mjIHms5vlnovku6XooajnpLrkuI3lkIznsbvlnovnmoTlj4LmlbAgKi8KZGF0YSBjbGFzcyBNb2RlbFBhcmFtZXRlcjxUPigKICAgICAgICB2YWwgaWQ6IFN0cmluZywgLy8g5Y+C5pWw5ZSv5LiASUQKICAgICAgICB2YWwgbmFtZTogU3RyaW5nLCAvLyDlj4LmlbDmmL7npLrlkI3np7AKICAgICAgICB2YWwgYXBpTmFtZTogU3RyaW5nLCAvLyBBUEnosIPnlKjkuK3nmoTlj4LmlbDlkI0KICAgICAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZyA9ICIiLCAvLyDlj4LmlbDmj4/ov7AKICAgICAgICB2YWwgZGVmYXVsdFZhbHVlOiBULCAvLyDlj4LmlbDpu5jorqTlgLwKICAgICAgICB2YWwgY3VycmVudFZhbHVlOiBULCAvLyDlj4LmlbDlvZPliY3lgLwKICAgICAgICB2YWwgaXNFbmFibGVkOiBCb29sZWFuLCAvLyDlj4LmlbDmmK/lkKblkK/nlKgKICAgICAgICB2YWwgdmFsdWVUeXBlOiBQYXJhbWV0ZXJWYWx1ZVR5cGUsIC8vIOWPguaVsOWAvOexu+WeiwogICAgICAgIHZhbCBtaW5WYWx1ZTogQW55PyA9IG51bGwsIC8vIOacgOWwj+WAvCjpgILnlKjkuo7mlbDlgLznsbvlnospCiAgICAgICAgdmFsIG1heFZhbHVlOiBBbnk/ID0gbnVsbCwgLy8g5pyA5aSn5YC8KOmAgueUqOS6juaVsOWAvOexu+WeiykKICAgICAgICB2YWwgY2F0ZWdvcnk6IFBhcmFtZXRlckNhdGVnb3J5ID0gUGFyYW1ldGVyQ2F0ZWdvcnkuT1RIRVIsIC8vIOWPguaVsOWIhuexuwogICAgICAgIHZhbCBpc0N1c3RvbTogQm9vbGVhbiA9IGZhbHNlIC8vIOaYr+WQpuS4uuiHquWumuS5ieWPguaVsAopCgovKiog5Y+C5pWw5YC857G75Z6L5p6a5Li+ICovCmVudW0gY2xhc3MgUGFyYW1ldGVyVmFsdWVUeXBlIHsKICAgIElOVCwKICAgIEZMT0FULAogICAgU1RSSU5HLAogICAgQk9PTEVBTiwKICAgIE9CSkVDVAp9CgovKiog5Y+C5pWw5YiG57G75p6a5Li+ICovCmVudW0gY2xhc3MgUGFyYW1ldGVyQ2F0ZWdvcnkgewogICAgR0VORVJBVElPTiwgLy8g55Sf5oiQ5Y+C5pWwCiAgICBDUkVBVElWSVRZLCAvLyDliJvpgKDmgKflj4LmlbAKICAgIFJFUEVUSVRJT04sIC8vIOmHjeWkjeaOp+WItuWPguaVsAogICAgT1RIRVIgLy8g5YW25LuW5Y+C5pWwCn0KCi8qKiDoh6rlrprkuYnlj4LmlbDmlbDmja7vvIznlKjkuo5KU09O5bqP5YiX5YyWICovCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBDdXN0b21QYXJhbWV0ZXJEYXRhKAogICAgICAgIHZhbCBpZDogU3RyaW5nLAogICAgICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICAgICAgdmFsIGFwaU5hbWU6IFN0cmluZywKICAgICAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZyA9ICIiLAogICAgICAgIHZhbCBkZWZhdWx0VmFsdWU6IFN0cmluZywKICAgICAgICB2YWwgY3VycmVudFZhbHVlOiBTdHJpbmcsCiAgICAgICAgdmFsIGlzRW5hYmxlZDogQm9vbGVhbiwKICAgICAgICB2YWwgdmFsdWVUeXBlOiBTdHJpbmcsCiAgICAgICAgdmFsIG1pblZhbHVlOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICB2YWwgbWF4VmFsdWU6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHZhbCBjYXRlZ29yeTogU3RyaW5nID0gIk9USEVSIgopCg==
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+
+/** 模型参数类，支持泛型以表示不同类型的参数 */
+data class ModelParameter<T>(
+        val id: String, // 参数唯一ID
+        val name: String, // 参数显示名称
+        val apiName: String, // API调用中的参数名
+        val description: String = "", // 参数描述
+        val defaultValue: T, // 参数默认值
+        val currentValue: T, // 参数当前值
+        val isEnabled: Boolean, // 参数是否启用
+        val valueType: ParameterValueType, // 参数值类型
+        val minValue: Any? = null, // 最小值(适用于数值类型)
+        val maxValue: Any? = null, // 最大值(适用于数值类型)
+        val category: ParameterCategory = ParameterCategory.OTHER, // 参数分类
+        val isCustom: Boolean = false // 是否为自定义参数
+)
+
+/** 参数值类型枚举 */
+enum class ParameterValueType {
+    INT,
+    FLOAT,
+    STRING,
+    BOOLEAN,
+    OBJECT
+}
+
+/** 参数分类枚举 */
+enum class ParameterCategory {
+    GENERATION, // 生成参数
+    CREATIVITY, // 创造性参数
+    REPETITION, // 重复控制参数
+    OTHER // 其他参数
+}
+
+/** 自定义参数数据，用于JSON序列化 */
+@Serializable
+data class CustomParameterData(
+        val id: String,
+        val name: String,
+        val apiName: String,
+        val description: String = "",
+        val defaultValue: String,
+        val currentValue: String,
+        val isEnabled: Boolean,
+        val valueType: String,
+        val minValue: String? = null,
+        val maxValue: String? = null,
+        val category: String = "OTHER"
+)

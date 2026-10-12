@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIEVuZHBvaW50Q29tcGxldGVyRGVmYXVsdFBhdGhUZXN0IHsKCiAgICBAVGVzdCBmdW4gY29tcGxldGVFbmRwb2ludF9rZWVwc0Z1bGxDaGF0UGF0aFVudG91Y2hlZCgpIHsKICAgICAgICB2YWwgZW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vdjEvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICBhc3NlcnRFcXVhbHMoZW5kcG9pbnQsIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoZW5kcG9pbnQpKQogICAgfQoKICAgIEBUZXN0IGZ1biBjb21wbGV0ZUVuZHBvaW50X2tlZXBzUmVzcG9uc2VzUGF0aFVudG91Y2hlZCgpIHsKICAgICAgICB2YWwgZW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb20vdjEvcmVzcG9uc2VzIgogICAgICAgIGFzc2VydEVxdWFscyhlbmRwb2ludCwgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludChlbmRwb2ludCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGNvbXBsZXRlRW5kcG9pbnRfa2VlcHNOb25IdHRwVXJsVW50b3VjaGVkKCkgewogICAgICAgIHZhbCBlbmRwb2ludCA9ICJmaWxlOi8vL3RtcC90ZXN0IgogICAgICAgIGFzc2VydEVxdWFscyhlbmRwb2ludCwgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludChlbmRwb2ludCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGNvbXBsZXRlRW5kcG9pbnRfa2VlcHNXaGl0ZXNwYWNlRm9ySW52YWxpZElucHV0KCkgewogICAgICAgIHZhbCBlbmRwb2ludCA9ICIgaW52YWxpZCAiCiAgICAgICAgYXNzZXJ0RXF1YWxzKGVuZHBvaW50LCBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KGVuZHBvaW50KSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class EndpointCompleterDefaultPathTest {
+
+    @Test fun completeEndpoint_keepsFullChatPathUntouched() {
+        val endpoint = "https://api.example.com/v1/chat/completions"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint))
+    }
+
+    @Test fun completeEndpoint_keepsResponsesPathUntouched() {
+        val endpoint = "https://api.example.com/v1/responses"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint))
+    }
+
+    @Test fun completeEndpoint_keepsNonHttpUrlUntouched() {
+        val endpoint = "file:///tmp/test"
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint))
+    }
+
+    @Test fun completeEndpoint_keepsWhitespaceForInvalidInput() {
+        val endpoint = " invalid "
+        assertEquals(endpoint, EndpointCompleter.completeEndpoint(endpoint))
+    }
+}

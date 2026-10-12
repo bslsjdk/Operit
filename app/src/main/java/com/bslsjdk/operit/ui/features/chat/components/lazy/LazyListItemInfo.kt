@@ -1,1 +1,47 @@
-LyoKICogQ29weXJpZ2h0IDIwMjAgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKLyoqCiAqIENvbnRhaW5zIHVzZWZ1bCBpbmZvcm1hdGlvbiBhYm91dCBhbiBpbmRpdmlkdWFsIGl0ZW0gaW4gbGF6eSBsaXN0cyBsaWtlIFtMYXp5Q29sdW1uXSBvcgogKiBbTGF6eVJvd10uCiAqCiAqIEBzZWUgTGF6eUxpc3RMYXlvdXRJbmZvCiAqLwppbnRlcmZhY2UgTGF6eUxpc3RJdGVtSW5mbyB7CiAgICAvKiogVGhlIGluZGV4IG9mIHRoZSBpdGVtIGluIHRoZSBsaXN0LiAqLwogICAgdmFsIGluZGV4OiBJbnQKCiAgICAvKiogVGhlIGtleSBvZiB0aGUgaXRlbSB3aGljaCB3YXMgcGFzc2VkIHRvIHRoZSBpdGVtKCkgb3IgaXRlbXMoKSBmdW5jdGlvbi4gKi8KICAgIHZhbCBrZXk6IEFueQoKICAgIC8qKgogICAgICogVGhlIG1haW4gYXhpcyBvZmZzZXQgb2YgdGhlIGl0ZW0gaW4gcGl4ZWxzLiBJdCBpcyByZWxhdGl2ZSB0byB0aGUgc3RhcnQgb2YgdGhlIGxhenkgbGlzdAogICAgICogY29udGFpbmVyLgogICAgICovCiAgICB2YWwgb2Zmc2V0OiBJbnQKCiAgICAvKioKICAgICAqIFRoZSBtYWluIGF4aXMgc2l6ZSBvZiB0aGUgaXRlbSBpbiBwaXhlbHMuIE5vdGUgdGhhdCBpZiB5b3UgZW1pdCBtdWx0aXBsZSBsYXlvdXRzIGluIHRoZQogICAgICogY29tcG9zYWJsZSBzbG90IGZvciB0aGUgaXRlbSB0aGVuIHRoaXMgc2l6ZSB3aWxsIGJlIGNhbGN1bGF0ZWQgYXMgdGhlIHN1bSBvZiB0aGVpciBzaXplcy4KICAgICAqLwogICAgdmFsIHNpemU6IEludAoKICAgIC8qKiBUaGUgY29udGVudCB0eXBlIG9mIHRoZSBpdGVtIHdoaWNoIHdhcyBwYXNzZWQgdG8gdGhlIGl0ZW0oKSBvciBpdGVtcygpIGZ1bmN0aW9uLiAqLwogICAgdmFsIGNvbnRlbnRUeXBlOiBBbnk/CiAgICAgICAgZ2V0KCkgPSBudWxsCn0K
+/*
+ * Copyright 2020 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+/**
+ * Contains useful information about an individual item in lazy lists like [LazyColumn] or
+ * [LazyRow].
+ *
+ * @see LazyListLayoutInfo
+ */
+interface LazyListItemInfo {
+    /** The index of the item in the list. */
+    val index: Int
+
+    /** The key of the item which was passed to the item() or items() function. */
+    val key: Any
+
+    /**
+     * The main axis offset of the item in pixels. It is relative to the start of the lazy list
+     * container.
+     */
+    val offset: Int
+
+    /**
+     * The main axis size of the item in pixels. Note that if you emit multiple layouts in the
+     * composable slot for the item then this size will be calculated as the sum of their sizes.
+     */
+    val size: Int
+
+    /** The content type of the item which was passed to the item() or items() function. */
+    val contentType: Any?
+        get() = null
+}

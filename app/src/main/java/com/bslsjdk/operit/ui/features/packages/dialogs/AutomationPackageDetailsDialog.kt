@@ -1,1 +1,45 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuZGlhbG9ncwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5MYXp5Q29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5pdGVtcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0T3ZlcmZsb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS53aW5kb3cuRGlhbG9nCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgoKQE9wdEluKEV4cGVyaW1lbnRhbE1hdGVyaWFsM0FwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmZ1biBBdXRvbWF0aW9uUGFja2FnZURldGFpbHNEaWFsb2coCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQsCiAgICBtZXNzYWdlOiBTdHJpbmc/ID0gbnVsbAopIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIHZhbCBkaXNwbGF5TWVzc2FnZSA9IG1lc3NhZ2UgPzogc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcucGtnX2F1dG9tYXRpb25fcmVtb3ZlZCkKICAgIEFsZXJ0RGlhbG9nKAogICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MsCiAgICAgICAgICAgICAgICB0aXRsZSA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5wa2dfdGlwKSkgfSwKICAgICAgICB0ZXh0ID0gewogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IGRpc3BsYXlNZXNzYWdlLAogICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bQogICAgICAgICAgICApCiAgICAgICAgfSwKICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3MpIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoaWQgPSBhbmRyb2lkLlIuc3RyaW5nLm9rKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkKfQ==
+package com.bslsjdk.operit.ui.features.packages.dialogs
+
+import com.bslsjdk.operit.util.AppLogger
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Dialog
+import com.bslsjdk.operit.R
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun AutomationPackageDetailsDialog(
+    onDismiss: () -> Unit,
+    message: String? = null
+) {
+    val context = LocalContext.current
+    val displayMessage = message ?: stringResource(R.string.pkg_automation_removed)
+    AlertDialog(
+        onDismissRequest = onDismiss,
+                title = { Text(stringResource(R.string.pkg_tip)) },
+        text = {
+            Text(
+                text = displayMessage,
+                style = MaterialTheme.typography.bodyMedium
+            )
+        },
+        confirmButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(id = android.R.string.ok))
+            }
+        }
+    )
+}

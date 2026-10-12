@@ -1,1 +1,43 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGphdmEudXRpbC5VVUlECgpAU2VyaWFsaXphYmxlCmVudW0gY2xhc3MgV29ya2Zsb3dMb2dMZXZlbCB7CiAgICBERUJVRywKICAgIFdBUk4sCiAgICBFUlJPUgp9CgpAU2VyaWFsaXphYmxlCmVudW0gY2xhc3MgV29ya2Zsb3dFeGVjdXRpb25GYWlsdXJlU3RhZ2UgewogICAgV09SS0ZMT1dfU1RBUlRVUCwKICAgIFJVTlRJTUVfSU5JVElBTElaQVRJT04sCiAgICBXT1JLRkxPV19FWEVDVVRJT04sCiAgICBDQU5DRUxMQVRJT04KfQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFdvcmtmbG93RXhlY3V0aW9uTG9nRW50cnkoCiAgICB2YWwgdGltZXN0YW1wOiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCiAgICB2YWwgbGV2ZWw6IFdvcmtmbG93TG9nTGV2ZWwsCiAgICB2YWwgbWVzc2FnZTogU3RyaW5nLAogICAgdmFsIG5vZGVJZDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgbm9kZU5hbWU6IFN0cmluZz8gPSBudWxsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBXb3JrZmxvd0V4ZWN1dGlvblJlY29yZCgKICAgIHZhbCBydW5JZDogU3RyaW5nID0gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKSwKICAgIHZhbCB3b3JrZmxvd0lkOiBTdHJpbmcsCiAgICB2YWwgd29ya2Zsb3dOYW1lOiBTdHJpbmcsCiAgICB2YWwgdHJpZ2dlck5vZGVJZDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgc3RhcnRlZEF0OiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCiAgICB2YWwgZmluaXNoZWRBdDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgdmFsIHN1Y2Nlc3M6IEJvb2xlYW4sCiAgICB2YWwgbWVzc2FnZTogU3RyaW5nLAogICAgdmFsIGxvZ3M6IExpc3Q8V29ya2Zsb3dFeGVjdXRpb25Mb2dFbnRyeT4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBmYWlsdXJlU3RhZ2U6IFdvcmtmbG93RXhlY3V0aW9uRmFpbHVyZVN0YWdlPyA9IG51bGwsCiAgICB2YWwgZmFpbHVyZVJlYXNvbjogU3RyaW5nPyA9IG51bGwKKQo=
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+import java.util.UUID
+
+@Serializable
+enum class WorkflowLogLevel {
+    DEBUG,
+    WARN,
+    ERROR
+}
+
+@Serializable
+enum class WorkflowExecutionFailureStage {
+    WORKFLOW_STARTUP,
+    RUNTIME_INITIALIZATION,
+    WORKFLOW_EXECUTION,
+    CANCELLATION
+}
+
+@Serializable
+data class WorkflowExecutionLogEntry(
+    val timestamp: Long = System.currentTimeMillis(),
+    val level: WorkflowLogLevel,
+    val message: String,
+    val nodeId: String? = null,
+    val nodeName: String? = null
+)
+
+@Serializable
+data class WorkflowExecutionRecord(
+    val runId: String = UUID.randomUUID().toString(),
+    val workflowId: String,
+    val workflowName: String,
+    val triggerNodeId: String? = null,
+    val startedAt: Long = System.currentTimeMillis(),
+    val finishedAt: Long = System.currentTimeMillis(),
+    val success: Boolean,
+    val message: String,
+    val logs: List<WorkflowExecutionLogEntry> = emptyList(),
+    val failureStage: WorkflowExecutionFailureStage? = null,
+    val failureReason: String? = null
+)

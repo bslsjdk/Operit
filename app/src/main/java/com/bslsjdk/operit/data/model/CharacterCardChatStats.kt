@@ -1,1 +1,11 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqCiAqIOinkuiJsuWNoeiBiuWkqee7n+iuoee7k+aenAogKi8KZGF0YSBjbGFzcyBDaGFyYWN0ZXJDYXJkQ2hhdFN0YXRzKAogICAgdmFsIGNoYXJhY3RlckNhcmROYW1lOiBTdHJpbmc/LAogICAgdmFsIGNoYXRDb3VudDogSW50LAogICAgdmFsIG1lc3NhZ2VDb3VudDogSW50CikKCg==
+package com.bslsjdk.operit.data.model
+
+/**
+ * 角色卡聊天统计结果
+ */
+data class CharacterCardChatStats(
+    val characterCardName: String?,
+    val chatCount: Int,
+    val messageCount: Int
+)
+

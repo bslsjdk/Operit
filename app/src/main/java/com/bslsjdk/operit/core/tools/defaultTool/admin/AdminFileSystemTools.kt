@@ -1,1 +1,9 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5hZG1pbgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5kZWJ1Z2dlci5EZWJ1Z2dlckZpbGVTeXN0ZW1Ub29scwoKLyoqIOeuoeeQhuWRmOe6p+WIq+eahOaWh+S7tuezu+e7n+W3peWFt++8jOe7p+aJv+iwg+ivleiAhee6p+WIqyAqLwpvcGVuIGNsYXNzIEFkbWluRmlsZVN5c3RlbVRvb2xzKGNvbnRleHQ6IENvbnRleHQpIDogRGVidWdnZXJGaWxlU3lzdGVtVG9vbHMoY29udGV4dCkgewogICAgLy8g5b2T5YmN6Zi25q615LiN5re75Yqg5paw5Yqf6IO977yM5LuF57un5om/6LCD6K+V6ICF57qn5Yir5a6e546wCn0K
+package com.bslsjdk.operit.core.tools.defaultTool.admin
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.defaultTool.debugger.DebuggerFileSystemTools
+
+/** 管理员级别的文件系统工具，继承调试者级别 */
+open class AdminFileSystemTools(context: Context) : DebuggerFileSystemTools(context) {
+    // 当前阶段不添加新功能，仅继承调试者级别实现
+}

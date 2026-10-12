@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKb2JqZWN0IEFwaUtleUZvcm1hdFZhbGlkYXRvciB7CiAgICBmdW4gbm9ybWFsaXplKHZhbHVlOiBTdHJpbmcpOiBTdHJpbmcgPSB2YWx1ZS50cmltKCkKCiAgICBmdW4gaXNWYWxpZCh2YWx1ZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBub3JtYWxpemUodmFsdWUpCiAgICAgICAgcmV0dXJuIG5vcm1hbGl6ZWQuaXNOb3RFbXB0eSgpICYmIG5vcm1hbGl6ZWQuYWxsIHsgY2hhcmFjdGVyIC0+CiAgICAgICAgICAgIGNoYXJhY3Rlci5jb2RlIGluIDB4MjEuLjB4N0UKICAgICAgICB9CiAgICB9CgogICAgZnVuIGhhc1VzYWJsZUtleShjb25maWc6IE1vZGVsQ29uZmlnRGF0YSk6IEJvb2xlYW4gewogICAgICAgIGlmICghY29uZmlnLnVzZU11bHRpcGxlQXBpS2V5cykgewogICAgICAgICAgICByZXR1cm4gaXNWYWxpZChjb25maWcuYXBpS2V5KQogICAgICAgIH0KCiAgICAgICAgdmFsIGVuYWJsZWRLZXlzID0gY29uZmlnLmFwaUtleVBvb2wuZmlsdGVyIHsgaXQuaXNFbmFibGVkIH0KICAgICAgICB2YWwgaGFzQXZhaWxhYmlsaXR5TWFyayA9CiAgICAgICAgICAgIGVuYWJsZWRLZXlzLmFueSB7IGl0LmF2YWlsYWJpbGl0eVN0YXR1cyAhPSBBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMuVU5URVNURUQgfQogICAgICAgIHZhbCBjYW5kaWRhdGVLZXlzID0KICAgICAgICAgICAgaWYgKGhhc0F2YWlsYWJpbGl0eU1hcmspIHsKICAgICAgICAgICAgICAgIGVuYWJsZWRLZXlzLmZpbHRlciB7CiAgICAgICAgICAgICAgICAgICAgaXQuYXZhaWxhYmlsaXR5U3RhdHVzID09IEFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cy5BVkFJTEFCTEUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGVuYWJsZWRLZXlzCiAgICAgICAgICAgIH0KCiAgICAgICAgaWYgKGNhbmRpZGF0ZUtleXMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBjYW5kaWRhdGVLZXlzLmFsbCB7IGlzVmFsaWQoaXQua2V5KSB9CiAgICAgICAgfQogICAgICAgIHJldHVybiAhaGFzQXZhaWxhYmlsaXR5TWFyayAmJiBpc1ZhbGlkKGNvbmZpZy5hcGlLZXkpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.model
+
+object ApiKeyFormatValidator {
+    fun normalize(value: String): String = value.trim()
+
+    fun isValid(value: String): Boolean {
+        val normalized = normalize(value)
+        return normalized.isNotEmpty() && normalized.all { character ->
+            character.code in 0x21..0x7E
+        }
+    }
+
+    fun hasUsableKey(config: ModelConfigData): Boolean {
+        if (!config.useMultipleApiKeys) {
+            return isValid(config.apiKey)
+        }
+
+        val enabledKeys = config.apiKeyPool.filter { it.isEnabled }
+        val hasAvailabilityMark =
+            enabledKeys.any { it.availabilityStatus != ApiKeyAvailabilityStatus.UNTESTED }
+        val candidateKeys =
+            if (hasAvailabilityMark) {
+                enabledKeys.filter {
+                    it.availabilityStatus == ApiKeyAvailabilityStatus.AVAILABLE
+                }
+            } else {
+                enabledKeys
+            }
+
+        if (candidateKeys.isNotEmpty()) {
+            return candidateKeys.all { isValid(it.key) }
+        }
+        return !hasAvailabilityMark && isValid(config.apiKey)
+    }
+}

@@ -1,1 +1,283 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tY3AucGx1Z2lucwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS5pby5GaWxlCgovKioKICogTUNQIOWRveS7pOeUn+aIkOWZqAogKgogKiDotJ/otKPnlJ/miJBNQ1Dmj5Lku7bnmoTpg6jnvbLlkozlkK/liqjlkb3ku6QKICovCmNsYXNzIE1DUENvbW1hbmRHZW5lcmF0b3IgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJNQ1BDb21tYW5kR2VuZXJhdG9yIgogICAgfQoKICAgIC8qKgogICAgICog55Sf5oiQ6YOo572y5ZG95LukCiAgICAgKgogICAgICogQHBhcmFtIHByb2plY3RTdHJ1Y3R1cmUg6aG555uu57uT5p6ECiAgICAgKiBAcGFyYW0gcmVhZG1lQ29udGVudCBSRUFETUXlhoXlrrnvvIznlKjkuo7mn6Xmib7nibnmrorlronoo4Xlkb3ku6QKICAgICAqIEByZXR1cm4g6YOo572y5ZG95Luk5YiX6KGoCiAgICAgKi8KICAgIGZ1biBnZW5lcmF0ZURlcGxveUNvbW1hbmRzKAogICAgICAgICAgICBwcm9qZWN0U3RydWN0dXJlOiBQcm9qZWN0U3RydWN0dXJlLAogICAgICAgICAgICByZWFkbWVDb250ZW50OiBTdHJpbmcgPSAiIgogICAgKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICB2YWwgY29tbWFuZHMgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQoKICAgICAgICB3aGVuIChwcm9qZWN0U3RydWN0dXJlLnR5cGUpIHsKICAgICAgICAgICAgUHJvamVjdFR5cGUuUFlUSE9OIC0+IHsKICAgICAgICAgICAgICAgIGNvbW1hbmRzLmFkZCgicHl0aG9uMyAtbSB2ZW52IHZlbnYiKQogICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKCJzb3VyY2UgdmVudi9iaW4vYWN0aXZhdGUiKQogICAgICAgICAgICAgICAgLy8g6aaW5YWI5qOA5p+lUkVBRE1F5Lit5piv5ZCm5pyJ54m55a6a55qEcGlw5a6J6KOF5ZG95LukCiAgICAgICAgICAgICAgICB2YWwgcGlwSW5zdGFsbENvbW1hbmQgPSBmaW5kU3BlY2lmaWNQaXBJbnN0YWxsQ29tbWFuZChyZWFkbWVDb250ZW50KQoKICAgICAgICAgICAgICAgIGlmIChwaXBJbnN0YWxsQ29tbWFuZCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5L2/55SoUkVBRE1F5Lit5oyH5a6a55qEcGlw5a6J6KOF5ZG95LukCiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5L2/55SoUkVBRE1F5Lit5oyH5a6a55qEcGlw5a6J6KOF5ZG95LukOiAkcGlwSW5zdGFsbENvbW1hbmQiKQogICAgICAgICAgICAgICAgICAgIGNvbW1hbmRzLmFkZChwaXBJbnN0YWxsQ29tbWFuZCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5YWI5a6J6KOF5L6d6LWWCiAgICAgICAgICAgICAgICAgICAgaWYgKHByb2plY3RTdHJ1Y3R1cmUuaGFzUmVxdWlyZW1lbnRzVHh0KSB7CiAgICAgICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKCJwaXAgaW5zdGFsbCAtciByZXF1aXJlbWVudHMudHh0IikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgLy8g5YaN5a6J6KOF5YyF5pys6Lqr77yI5a+55LqO5L2/55SoIHB5dGhvbiAtbSBtb2R1bGVfbmFtZSDlkK/liqjnmoTmnI3liqHvvIkKICAgICAgICAgICAgICAgICAgICBpZiAocHJvamVjdFN0cnVjdHVyZS5oYXNQeXByb2plY3RUb21sIHx8IHByb2plY3RTdHJ1Y3R1cmUuaGFzU2V0dXBQeSkgewogICAgICAgICAgICAgICAgICAgICAgICBjb21tYW5kcy5hZGQoInBpcCBpbnN0YWxsIC1lIC4iKQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAocHJvamVjdFN0cnVjdHVyZS5oYXNSZXF1aXJlbWVudHNUeHQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5Y2z5L2/5Y+q5pyJIHJlcXVpcmVtZW50cy50eHTvvIzkuZ/lsJ3or5Xku6Xlj6/nvJbovpHmqKHlvI/lronoo4UKICAgICAgICAgICAgICAgICAgICAgICAgLy8g6L+Z5qC35Y+v5Lul6K6pIHB5dGhvbiAtbSBtb2R1bGVfbmFtZSDmraPluLjlt6XkvZwKICAgICAgICAgICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKCJwaXAgaW5zdGFsbCAtZSAuIHx8IGVjaG8gJ1BhY2thZ2UgaW5zdGFsbCBza2lwcGVkJyIpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIC8vIOWwneivleS7juaPkuS7tuWQjeensOeUn+aIkOWuieijheWRveS7pAogICAgICAgICAgICAgICAgICAgIHZhbCBwYWNrYWdlTmFtZSA9IGV4dHJhY3RQYWNrYWdlTmFtZUZyb21EaXJlY3RvcnkocHJvamVjdFN0cnVjdHVyZSkKICAgICAgICAgICAgICAgICAgICBpZiAocGFja2FnZU5hbWUgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICBjb21tYW5kcy5hZGQoInBpcCBpbnN0YWxsICRwYWNrYWdlTmFtZSIpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgUHJvamVjdFR5cGUuVFlQRVNDUklQVCAtPiB7CiAgICAgICAgICAgICAgICAvLyBUeXBlU2NyaXB06aG555uu6YOo572y5ZG95LukCiAgICAgICAgICAgICAgICBpZiAocHJvamVjdFN0cnVjdHVyZS5oYXNQYWNrYWdlSnNvbikgewogICAgICAgICAgICAgICAgICAgIC8vIOa3u+WKoHBucG3mjaLmupDlkb3ku6QgLSDkvb/nlKjlm73lhoXmt5jlrp3plZzlg4/mj5Dpq5jlronoo4XpgJ/luqblkozmiJDlip/njocKICAgICAgICAgICAgICAgICAgICBjb21tYW5kcy5hZGQoInBucG0gY29uZmlnIHNldCByZWdpc3RyeSBodHRwczovL3JlZ2lzdHJ5Lm5wbW1pcnJvci5jb20iKQoKICAgICAgICAgICAgICAgICAgICAvLyDlronoo4Xkvp3otZbvvIznpoHnlKjohJrmnKzmiafooYwKICAgICAgICAgICAgICAgICAgICBjb21tYW5kcy5hZGQoInBucG0gaW5zdGFsbCAtLWlnbm9yZS1zY3JpcHRzIikKCiAgICAgICAgICAgICAgICAgICAgLy8g5qOA5p+l5piv5ZCm5pyJ5p6E5bu66ISa5pysCiAgICAgICAgICAgICAgICAgICAgLy8g5L2/55So5bey6Kej5p6Q55qEc2NyaXB0c+S/oeaBrwogICAgICAgICAgICAgICAgICAgIGlmIChwcm9qZWN0U3RydWN0dXJlLnBhY2thZ2VKc29uU2NyaXB0cyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBzY3JpcHRzID0gcHJvamVjdFN0cnVjdHVyZS5wYWNrYWdlSnNvblNjcmlwdHMKCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOmmluWFiOWwneivleaJvuWIsHByZXBhcmXohJrmnKzvvIzov5npgJrluLjkvJrlnKhwbnBtIGluc3RhbGzml7boh6rliqjmiafooYwKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHNjcmlwdHMuaGFzKCJwcmVwYXJlIikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBwcmVwYXJlU2NyaXB0ID0gc2NyaXB0cy5nZXRTdHJpbmcoInByZXBhcmUiKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWmguaenHByZXBhcmXohJrmnKzmmK9wbnBtIHJ1biB4eHjlvaLlvI/vvIzliJnnm7TmjqXmiafooYzlr7nlupTnmoTohJrmnKwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChwcmVwYXJlU2NyaXB0LnN0YXJ0c1dpdGgoInBucG0gcnVuICIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHRhcmdldFNjcmlwdCA9IHByZXBhcmVTY3JpcHQuc3Vic3RyaW5nKDkpLnRyaW0oKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzY3JpcHRzLmhhcyh0YXJnZXRTY3JpcHQpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhY3R1YWxTY3JpcHQgPSBzY3JpcHRzLmdldFN0cmluZyh0YXJnZXRTY3JpcHQpCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDovazmjaLohJrmnKzlhoXlrrnkuLrnm7TmjqXlkb3ku6QKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNvbW1hbmQgPSBjb252ZXJ0TnBtU2NyaXB0VG9EaXJlY3RDb21tYW5kKGFjdHVhbFNjcmlwdCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKGNvbW1hbmQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDnm7TmjqXovazmjaJwcmVwYXJl6ISa5pysCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNvbW1hbmQgPSBjb252ZXJ0TnBtU2NyaXB0VG9EaXJlY3RDb21tYW5kKHByZXBhcmVTY3JpcHQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKGNvbW1hbmQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6c5rKh5pyJcHJlcGFyZeiEmuacrOaIluiAheW3suWkhOeQhu+8jOWGjeajgOafpWJ1aWxk6ISa5pysCiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgaWYgKHNjcmlwdHMuaGFzKCJidWlsZCIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgYnVpbGRTY3JpcHQgPSBzY3JpcHRzLmdldFN0cmluZygiYnVpbGQiKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOi9rOaNouiEmuacrOWGheWuueS4uuebtOaOpeWRveS7pAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNvbW1hbmQgPSBjb252ZXJ0TnBtU2NyaXB0VG9EaXJlY3RDb21tYW5kKGJ1aWxkU2NyaXB0KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKGNvbW1hbmQpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgLy8g5YaN5qOA5p+lY29tcGlsZeiEmuacrAogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIGlmIChzY3JpcHRzLmhhcygiY29tcGlsZSIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29tcGlsZVNjcmlwdCA9IHNjcmlwdHMuZ2V0U3RyaW5nKCJjb21waWxlIikKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDovazmjaLohJrmnKzlhoXlrrnkuLrnm7TmjqXlkb3ku6QKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjb21tYW5kID0gY29udmVydE5wbVNjcmlwdFRvRGlyZWN0Q29tbWFuZChjb21waWxlU2NyaXB0KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKGNvbW1hbmQpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgLy8g5pyA5ZCO5qOA5p+ldHNj6ISa5pysCiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgaWYgKHNjcmlwdHMuaGFzKCJ0c2MiKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHRzY1NjcmlwdCA9IHNjcmlwdHMuZ2V0U3RyaW5nKCJ0c2MiKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOi9rOaNouiEmuacrOWGheWuueS4uuebtOaOpeWRveS7pAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNvbW1hbmQgPSBjb252ZXJ0TnBtU2NyaXB0VG9EaXJlY3RDb21tYW5kKHRzY1NjcmlwdCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1hbmRzLmFkZChjb21tYW5kKQogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5L2/55So6buY6K6k55qEVHlwZVNjcmlwdOe8luivkeWRveS7pAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAibm9kZSAuL25vZGVfbW9kdWxlcy90eXBlc2NyaXB0L2Jpbi90c2MgLXAgLi90c2NvbmZpZy5qc29uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIGlmIChwcm9qZWN0U3RydWN0dXJlLmhhc1R5cGVTY3JpcHREZXBlbmRlbmN5KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1hbmRzLmFkZCgicG5wbSBleGVjIHRzYyAtcCAuL3RzY29uZmlnLmpzb24iKQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAocHJvamVjdFN0cnVjdHVyZS5oYXNUc0NvbmZpZykgewogICAgICAgICAgICAgICAgICAgICAgICBjb21tYW5kcy5hZGQoInBucG0gYWRkIHR5cGVzY3JpcHQgLS1zYXZlLWRldiB8fCB0cnVlIikKICAgICAgICAgICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKCJwbnBtIGV4ZWMgdHNjIC1wIC4vdHNjb25maWcuanNvbiIpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAvLyDmn6Xmib7nvJbor5HlkI7nmoRKU+aWh+S7tgogICAgICAgICAgICAgICAgICAgIHZhbCBtYWluVHNGaWxlID0gcHJvamVjdFN0cnVjdHVyZS5tYWluVHNGaWxlCiAgICAgICAgICAgICAgICAgICAgaWYgKG1haW5Uc0ZpbGUgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyDov5nph4zmiJHku6zlj6rmt7vliqDov5DooYzlkb3ku6TvvIzlm6DkuLrmiJHku6zml6Dms5Xnoa7lrprnvJbor5HlkI7noa7liIfnmoRKU+aWh+S7tui3r+W+hAogICAgICAgICAgICAgICAgICAgICAgICBpZiAocHJvamVjdFN0cnVjdHVyZS5jb25maWdFeGFtcGxlICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOaciemFjee9ruekuuS+i++8jOaIkeS7rOWwhuS+nei1luWugwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIFByb2plY3RUeXBlLk5PREVKUyAtPiB7CiAgICAgICAgICAgICAgICAvLyBOb2RlLmpz6aG555uu6YOo572y5ZG95LukCiAgICAgICAgICAgICAgICBpZiAocHJvamVjdFN0cnVjdHVyZS5oYXNQYWNrYWdlSnNvbikgewogICAgICAgICAgICAgICAgICAgIC8vIOWQjOagt+S4uk5vZGUuanPpobnnm67mt7vliqDmjaLmupDorr7nva4KICAgICAgICAgICAgICAgICAgICBjb21tYW5kcy5hZGQoInBucG0gY29uZmlnIHNldCByZWdpc3RyeSBodHRwczovL3JlZ2lzdHJ5Lm5wbW1pcnJvci5jb20iKQogICAgICAgICAgICAgICAgICAgIGNvbW1hbmRzLmFkZCgicG5wbSBpbnN0YWxsIikKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB2YWwgbWFpbkZpbGUgPSBwcm9qZWN0U3RydWN0dXJlLm1haW5Kc0ZpbGUKICAgICAgICAgICAgICAgIGlmIChtYWluRmlsZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgY29tbWFuZHMuYWRkKCJub2RlICRtYWluRmlsZSIpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGNvbW1hbmRzLmFkZCgicG5wbSBzdGFydCIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgUHJvamVjdFR5cGUuVU5LTk9XTiAtPiB7CiAgICAgICAgICAgICAgICAvLyDml6Dms5Xnoa7lrprpobnnm67nsbvlnovvvIzlsJ3or5XpgJrnlKjlkb3ku6QKICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIuaXoOazleehruWumumhueebruexu+Wei++8jOWwneivlemAmueUqOWRveS7pCIpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBjb21tYW5kcwogICAgfQoKICAgIC8qKiDku45SRUFETUXlhoXlrrnkuK3mn6Xmib7nibnlrprnmoRwaXDlronoo4Xlkb3ku6QgKi8KICAgIHByaXZhdGUgZnVuIGZpbmRTcGVjaWZpY1BpcEluc3RhbGxDb21tYW5kKHJlYWRtZUNvbnRlbnQ6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIGlmIChyZWFkbWVDb250ZW50LmlzQmxhbmsoKSkgcmV0dXJuIG51bGwKCiAgICAgICAgLy8g5L2/55So5q2j5YiZ6KGo6L6+5byP5p+l5om+cGlwIGluc3RhbGzlkb3ku6QKICAgICAgICB2YWwgcGlwSW5zdGFsbFJlZ2V4ID0KICAgICAgICAgICAgICAgICIoPzpgYGBbXFxzXFxTXSo/KT9waXAgaW5zdGFsbFxccytbXFx3XFwtX1xcLl0rKD86W1xcc1xcU10qP2BgYCk/Ii50b1JlZ2V4KCkKICAgICAgICB2YWwgcGlwTWF0Y2hlcyA9IHBpcEluc3RhbGxSZWdleC5maW5kQWxsKHJlYWRtZUNvbnRlbnQpCgogICAgICAgIGZvciAobWF0Y2ggaW4gcGlwTWF0Y2hlcykgewogICAgICAgICAgICB2YWwgY29tbWFuZCA9IG1hdGNoLnZhbHVlCiAgICAgICAgICAgIC8vIOa4heeQhuWRveS7pO+8jOWOu+mZpOWPr+iDveeahOS7o+eggeWdl+agh+iusAogICAgICAgICAgICB2YWwgY2xlYW5Db21tYW5kID0gY29tbWFuZC5yZXBsYWNlKCJgYGAiLCAiIikucmVwbGFjZSgiYCIsICIiKS50cmltKCkKCiAgICAgICAgICAgIC8vIOehruS/nei/meaYr+S4gOS4quWQiOazleeahHBpcCBpbnN0YWxs5ZG95LukCiAgICAgICAgICAgIGlmIChjbGVhbkNvbW1hbmQuc3RhcnRzV2l0aCgicGlwIGluc3RhbGwiKSAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgIWNsZWFuQ29tbWFuZC5jb250YWlucygicGlwIGluc3RhbGwgLiIpICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAhY2xlYW5Db21tYW5kLmNvbnRhaW5zKCJwaXAgaW5zdGFsbCAtciIpICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAhY2xlYW5Db21tYW5kLmNvbnRhaW5zKCJwaXAgaW5zdGFsbCAtZSIpCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgcmV0dXJuIGNsZWFuQ29tbWFuZAogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyDmsqHmnInmib7liLDnibnlrprnmoRwaXDlronoo4Xlkb3ku6QKICAgICAgICByZXR1cm4gbnVsbAogICAgfQoKICAgIC8qKiDku47nm67lvZXlkI3mj5Dlj5blj6/og73nmoTljIXlkI0gKi8KICAgIHByaXZhdGUgZnVuIGV4dHJhY3RQYWNrYWdlTmFtZUZyb21EaXJlY3RvcnkocHJvamVjdFN0cnVjdHVyZTogUHJvamVjdFN0cnVjdHVyZSk6IFN0cmluZz8gewogICAgICAgIC8vIOiOt+WPluaPkuS7tuebruW9leWQjQogICAgICAgIHZhbCBwbHVnaW5EaXIgPSBGaWxlKHByb2plY3RTdHJ1Y3R1cmUubWFpblB5dGhvbk1vZHVsZSA/OiAiIikucGFyZW50RmlsZT8ucGFyZW50RmlsZQogICAgICAgIHZhbCBkaXJOYW1lID0gcGx1Z2luRGlyPy5uYW1lID86IHJldHVybiBudWxsCgogICAgICAgIC8vIOW4uOingeeahOWMheWQjeagvOW8j+i9rOaNogogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgZGlyTmFtZS5zdGFydHNXaXRoKCJtY3Atc2VydmVyLSIpIC0+IGRpck5hbWUKICAgICAgICAgICAgZGlyTmFtZS5zdGFydHNXaXRoKCJtY3Bfc2VydmVyXyIpIC0+IGRpck5hbWUKICAgICAgICAgICAgZGlyTmFtZS5jb250YWlucygibWNwIikgJiYgZGlyTmFtZS5jb250YWlucygic2VydmVyIikgLT4gewogICAgICAgICAgICAgICAgLy8g5bCd6K+V5qCH5YeG5YyW5YyF5ZCN5qC85byPCiAgICAgICAgICAgICAgICAibWNwLXNlcnZlci0iICsKICAgICAgICAgICAgICAgICAgICAgICAgZGlyTmFtZS5yZXBsYWNlKCJtY3Atc2VydmVyLSIsICIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZXBsYWNlKCJtY3Bfc2VydmVyXyIsICIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZXBsYWNlKCJtY3AtIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlcGxhY2UoIm1jcF8iLCAiIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVwbGFjZSgiX3NlcnZlciIsICIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZXBsYWNlKCItc2VydmVyIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmxvd2VyY2FzZSgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZSAtPiBudWxsCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDlsIZucG3ohJrmnKzovazmjaLkuLrnm7TmjqXlkb3ku6QgKi8KICAgIHByaXZhdGUgZnVuIGNvbnZlcnROcG1TY3JpcHRUb0RpcmVjdENvbW1hbmQoc2NyaXB0Q29udGVudDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICAvLyDlpoLmnpzohJrmnKzljIXlkKvlpJrkuKrlkb3ku6TvvIjnlKgmJui/nuaOpe+8ie+8jOmcgOimgeWIhuWIq+WkhOeQhuavj+S4quWRveS7pAogICAgICAgIGlmIChzY3JpcHRDb250ZW50LmNvbnRhaW5zKCImJiIpKSB7CiAgICAgICAgICAgIHZhbCBjb21tYW5kcyA9IHNjcmlwdENvbnRlbnQuc3BsaXQoIiYmIikubWFwIHsgaXQudHJpbSgpIH0KICAgICAgICAgICAgcmV0dXJuIGNvbW1hbmRzCiAgICAgICAgICAgICAgICAgICAgLm1hcCB7IGNvbW1hbmQgLT4gcHJvY2Vzc0luZGl2aWR1YWxDb21tYW5kKGNvbW1hbmQpIH0KICAgICAgICAgICAgICAgICAgICAuam9pblRvU3RyaW5nKCIgJiYgIikKICAgICAgICB9CgogICAgICAgIC8vIOWNleS4quWRveS7pOeahOaDheWGtQogICAgICAgIHJldHVybiBwcm9jZXNzSW5kaXZpZHVhbENvbW1hbmQoc2NyaXB0Q29udGVudCkKICAgIH0KCiAgICAvKiog5aSE55CG5Y2V5Liq5ZG95LukICovCiAgICBwcml2YXRlIGZ1biBwcm9jZXNzSW5kaXZpZHVhbENvbW1hbmQoY29tbWFuZDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YXIgcmVzdWx0ID0gY29tbWFuZAoKICAgICAgICAvLyDlpITnkIZwbnBtIHJ1biB4eHjlvaLlvI/nmoTlkb3ku6QKICAgICAgICB2YWwgcG5wbVJ1blJlZ2V4ID0gInBucG1cXHMrcnVuXFxzKyhbXFx3XFwtXSspIi50b1JlZ2V4KCkKICAgICAgICB2YWwgcG5wbVJ1bk1hdGNoID0gcG5wbVJ1blJlZ2V4LmZpbmQocmVzdWx0KQogICAgICAgIGlmIChwbnBtUnVuTWF0Y2ggIT0gbnVsbCkgewogICAgICAgICAgICB2YWwgc2NyaXB0TmFtZSA9IHBucG1SdW5NYXRjaC5ncm91cFZhbHVlc1sxXQogICAgICAgICAgICAvLyDov5nph4zml6Dms5Xnm7TmjqXojrflj5bohJrmnKzlhoXlrrnvvIzlm6DkuLrmiJHku6zkuI3lnKjov5nkuKrkuIrkuIvmlofkuK3orr/pl65wYWNrYWdlSnNvbgogICAgICAgICAgICAvLyDogIzmmK/ov5Tlm57kuIDkuKrnibnmrormoIforrDvvIzpnIDopoHkuIrlsYLosIPnlKjlpITnkIYKICAgICAgICAgICAgcmV0dXJuICIjI1BOUE1fUlVOX1NDUklQVDokc2NyaXB0TmFtZSMjIgogICAgICAgIH0KCiAgICAgICAgLy8g5pu/5o2idHNj5ZG95LukCiAgICAgICAgaWYgKHJlc3VsdC5jb250YWlucygidHNjICIpIHx8IHJlc3VsdCA9PSAidHNjIikgewogICAgICAgICAgICByZXN1bHQgPSByZXN1bHQucmVwbGFjZSgidHNjIiwgInBucG0gZXhlYyB0c2MiKQoKICAgICAgICAgICAgLy8g5Y+q5Li6VHlwZVNjcmlwdOe8luivkeWZqOWRveS7pOa3u+WKoHRzY29uZmln5Y+C5pWwCiAgICAgICAgICAgIGlmICghcmVzdWx0LmNvbnRhaW5zKCItcCAiKSAmJiAhcmVzdWx0LmNvbnRhaW5zKCItLXByb2plY3QgIikpIHsKICAgICAgICAgICAgICAgIHJlc3VsdCArPSAiIC1wIC4vdHNjb25maWcuanNvbiIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8g5pu/5o2ibnB4IHRzY+WRveS7pAogICAgICAgIGlmIChyZXN1bHQuY29udGFpbnMoIm5weCB0c2MiKSkgewogICAgICAgICAgICByZXN1bHQgPSByZXN1bHQucmVwbGFjZSgibnB4IHRzYyIsICJwbnBtIGV4ZWMgdHNjIikKCiAgICAgICAgICAgIC8vIOWPquS4ulR5cGVTY3JpcHTnvJbor5Hlmajlkb3ku6Tmt7vliqB0c2NvbmZpZ+WPguaVsAogICAgICAgICAgICBpZiAoIXJlc3VsdC5jb250YWlucygiLXAgIikgJiYgIXJlc3VsdC5jb250YWlucygiLS1wcm9qZWN0ICIpKSB7CiAgICAgICAgICAgICAgICByZXN1bHQgKz0gIiAtcCAuL3RzY29uZmlnLmpzb24iCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIOabv+aNonNoeOWRveS7pAogICAgICAgIGlmIChyZXN1bHQuY29udGFpbnMoInNoeCAiKSkgewogICAgICAgICAgICByZXN1bHQgPSByZXN1bHQucmVwbGFjZSgic2h4ICIsICJwbnBtIGV4ZWMgc2h4ICIpCiAgICAgICAgfQoKICAgICAgICAvLyDmm7/mjaLlhbbku5bluLjop4HnmoRucHjlkb3ku6QKICAgICAgICB2YWwgbnB4UmVnZXggPSAibnB4XFxzKyhbXFx3XFwtXSspIi50b1JlZ2V4KCkKICAgICAgICByZXN1bHQgPQogICAgICAgICAgICAgICAgbnB4UmVnZXgucmVwbGFjZShyZXN1bHQpIHsgbWF0Y2hSZXN1bHQgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgcGFja2FnZU5hbWUgPSBtYXRjaFJlc3VsdC5ncm91cFZhbHVlc1sxXQogICAgICAgICAgICAgICAgICAgICJwbnBtIGV4ZWMgJHBhY2thZ2VOYW1lIgogICAgICAgICAgICAgICAgfQoKICAgICAgICByZXR1cm4gcmVzdWx0CiAgICB9Cn0K
+package com.bslsjdk.operit.data.mcp.plugins
+
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+
+/**
+ * MCP 命令生成器
+ *
+ * 负责生成MCP插件的部署和启动命令
+ */
+class MCPCommandGenerator {
+
+    companion object {
+        private const val TAG = "MCPCommandGenerator"
+    }
+
+    /**
+     * 生成部署命令
+     *
+     * @param projectStructure 项目结构
+     * @param readmeContent README内容，用于查找特殊安装命令
+     * @return 部署命令列表
+     */
+    fun generateDeployCommands(
+            projectStructure: ProjectStructure,
+            readmeContent: String = ""
+    ): List<String> {
+        val commands = mutableListOf<String>()
+
+        when (projectStructure.type) {
+            ProjectType.PYTHON -> {
+                commands.add("python3 -m venv venv")
+                commands.add("source venv/bin/activate")
+                // 首先检查README中是否有特定的pip安装命令
+                val pipInstallCommand = findSpecificPipInstallCommand(readmeContent)
+
+                if (pipInstallCommand != null) {
+                    // 使用README中指定的pip安装命令
+                    AppLogger.d(TAG, "使用README中指定的pip安装命令: $pipInstallCommand")
+                    commands.add(pipInstallCommand)
+                } else {
+                    // 先安装依赖
+                    if (projectStructure.hasRequirementsTxt) {
+                    commands.add("pip install -r requirements.txt")
+                    }
+                    
+                    // 再安装包本身（对于使用 python -m module_name 启动的服务）
+                    if (projectStructure.hasPyprojectToml || projectStructure.hasSetupPy) {
+                        commands.add("pip install -e .")
+                    } else if (projectStructure.hasRequirementsTxt) {
+                        // 即使只有 requirements.txt，也尝试以可编辑模式安装
+                        // 这样可以让 python -m module_name 正常工作
+                        commands.add("pip install -e . || echo 'Package install skipped'")
+                } else {
+                    // 尝试从插件名称生成安装命令
+                    val packageName = extractPackageNameFromDirectory(projectStructure)
+                    if (packageName != null) {
+                        commands.add("pip install $packageName")
+                        }
+                    }
+                }
+            }
+            ProjectType.TYPESCRIPT -> {
+                // TypeScript项目部署命令
+                if (projectStructure.hasPackageJson) {
+                    // 添加pnpm换源命令 - 使用国内淘宝镜像提高安装速度和成功率
+                    commands.add("pnpm config set registry https://registry.npmmirror.com")
+
+                    // 安装依赖，禁用脚本执行
+                    commands.add("pnpm install --ignore-scripts")
+
+                    // 检查是否有构建脚本
+                    // 使用已解析的scripts信息
+                    if (projectStructure.packageJsonScripts != null) {
+                        val scripts = projectStructure.packageJsonScripts
+
+                        // 首先尝试找到prepare脚本，这通常会在pnpm install时自动执行
+                        if (scripts.has("prepare")) {
+                            val prepareScript = scripts.getString("prepare")
+
+                            // 如果prepare脚本是pnpm run xxx形式，则直接执行对应的脚本
+                            if (prepareScript.startsWith("pnpm run ")) {
+                                val targetScript = prepareScript.substring(9).trim()
+                                if (scripts.has(targetScript)) {
+                                    val actualScript = scripts.getString(targetScript)
+
+                                    // 转换脚本内容为直接命令
+                                    val command = convertNpmScriptToDirectCommand(actualScript)
+                                    commands.add(command)
+                                }
+                            } else {
+                                // 直接转换prepare脚本
+                                val command = convertNpmScriptToDirectCommand(prepareScript)
+                                commands.add(command)
+                            }
+                        }
+                        // 如果没有prepare脚本或者已处理，再检查build脚本
+                        else if (scripts.has("build")) {
+                            val buildScript = scripts.getString("build")
+
+                            // 转换脚本内容为直接命令
+                            val command = convertNpmScriptToDirectCommand(buildScript)
+                            commands.add(command)
+                        }
+                        // 再检查compile脚本
+                        else if (scripts.has("compile")) {
+                            val compileScript = scripts.getString("compile")
+
+                            // 转换脚本内容为直接命令
+                            val command = convertNpmScriptToDirectCommand(compileScript)
+                            commands.add(command)
+                        }
+                        // 最后检查tsc脚本
+                        else if (scripts.has("tsc")) {
+                            val tscScript = scripts.getString("tsc")
+
+                            // 转换脚本内容为直接命令
+                            val command = convertNpmScriptToDirectCommand(tscScript)
+                            commands.add(command)
+                        } else {
+                            // 使用默认的TypeScript编译命令
+                            commands.add(
+                                    "node ./node_modules/typescript/bin/tsc -p ./tsconfig.json"
+                            )
+                        }
+                    } else if (projectStructure.hasTypeScriptDependency) {
+                        commands.add("pnpm exec tsc -p ./tsconfig.json")
+                    } else if (projectStructure.hasTsConfig) {
+                        commands.add("pnpm add typescript --save-dev || true")
+                        commands.add("pnpm exec tsc -p ./tsconfig.json")
+                    }
+
+                    // 查找编译后的JS文件
+                    val mainTsFile = projectStructure.mainTsFile
+                    if (mainTsFile != null) {
+                        // 这里我们只添加运行命令，因为我们无法确定编译后确切的JS文件路径
+                        if (projectStructure.configExample != null) {
+                            // 如果有配置示例，我们将依赖它
+                        }
+                    }
+                }
+            }
+            ProjectType.NODEJS -> {
+                // Node.js项目部署命令
+                if (projectStructure.hasPackageJson) {
+                    // 同样为Node.js项目添加换源设置
+                    commands.add("pnpm config set registry https://registry.npmmirror.com")
+                    commands.add("pnpm install")
+                }
+
+                val mainFile = projectStructure.mainJsFile
+                if (mainFile != null) {
+                    commands.add("node $mainFile")
+                } else {
+                    commands.add("pnpm start")
+                }
+            }
+            ProjectType.UNKNOWN -> {
+                // 无法确定项目类型，尝试通用命令
+                AppLogger.w(TAG, "无法确定项目类型，尝试通用命令")
+            }
+        }
+
+        return commands
+    }
+
+    /** 从README内容中查找特定的pip安装命令 */
+    private fun findSpecificPipInstallCommand(readmeContent: String): String? {
+        if (readmeContent.isBlank()) return null
+
+        // 使用正则表达式查找pip install命令
+        val pipInstallRegex =
+                "(?:```[\\s\\S]*?)?pip install\\s+[\\w\\-_\\.]+(?:[\\s\\S]*?```)?".toRegex()
+        val pipMatches = pipInstallRegex.findAll(readmeContent)
+
+        for (match in pipMatches) {
+            val command = match.value
+            // 清理命令，去除可能的代码块标记
+            val cleanCommand = command.replace("```", "").replace("`", "").trim()
+
+            // 确保这是一个合法的pip install命令
+            if (cleanCommand.startsWith("pip install") &&
+                            !cleanCommand.contains("pip install .") &&
+                            !cleanCommand.contains("pip install -r") &&
+                            !cleanCommand.contains("pip install -e")
+            ) {
+                return cleanCommand
+            }
+        }
+
+        // 没有找到特定的pip安装命令
+        return null
+    }
+
+    /** 从目录名提取可能的包名 */
+    private fun extractPackageNameFromDirectory(projectStructure: ProjectStructure): String? {
+        // 获取插件目录名
+        val pluginDir = File(projectStructure.mainPythonModule ?: "").parentFile?.parentFile
+        val dirName = pluginDir?.name ?: return null
+
+        // 常见的包名格式转换
+        return when {
+            dirName.startsWith("mcp-server-") -> dirName
+            dirName.startsWith("mcp_server_") -> dirName
+            dirName.contains("mcp") && dirName.contains("server") -> {
+                // 尝试标准化包名格式
+                "mcp-server-" +
+                        dirName.replace("mcp-server-", "")
+                                .replace("mcp_server_", "")
+                                .replace("mcp-", "")
+                                .replace("mcp_", "")
+                                .replace("_server", "")
+                                .replace("-server", "")
+                                .lowercase()
+            }
+            else -> null
+        }
+    }
+
+    /** 将npm脚本转换为直接命令 */
+    private fun convertNpmScriptToDirectCommand(scriptContent: String): String {
+        // 如果脚本包含多个命令（用&&连接），需要分别处理每个命令
+        if (scriptContent.contains("&&")) {
+            val commands = scriptContent.split("&&").map { it.trim() }
+            return commands
+                    .map { command -> processIndividualCommand(command) }
+                    .joinToString(" && ")
+        }
+
+        // 单个命令的情况
+        return processIndividualCommand(scriptContent)
+    }
+
+    /** 处理单个命令 */
+    private fun processIndividualCommand(command: String): String {
+        var result = command
+
+        // 处理pnpm run xxx形式的命令
+        val pnpmRunRegex = "pnpm\\s+run\\s+([\\w\\-]+)".toRegex()
+        val pnpmRunMatch = pnpmRunRegex.find(result)
+        if (pnpmRunMatch != null) {
+            val scriptName = pnpmRunMatch.groupValues[1]
+            // 这里无法直接获取脚本内容，因为我们不在这个上下文中访问packageJson
+            // 而是返回一个特殊标记，需要上层调用处理
+            return "##PNPM_RUN_SCRIPT:$scriptName##"
+        }
+
+        // 替换tsc命令
+        if (result.contains("tsc ") || result == "tsc") {
+            result = result.replace("tsc", "pnpm exec tsc")
+
+            // 只为TypeScript编译器命令添加tsconfig参数
+            if (!result.contains("-p ") && !result.contains("--project ")) {
+                result += " -p ./tsconfig.json"
+            }
+        }
+
+        // 替换npx tsc命令
+        if (result.contains("npx tsc")) {
+            result = result.replace("npx tsc", "pnpm exec tsc")
+
+            // 只为TypeScript编译器命令添加tsconfig参数
+            if (!result.contains("-p ") && !result.contains("--project ")) {
+                result += " -p ./tsconfig.json"
+            }
+        }
+
+        // 替换shx命令
+        if (result.contains("shx ")) {
+            result = result.replace("shx ", "pnpm exec shx ")
+        }
+
+        // 替换其他常见的npx命令
+        val npxRegex = "npx\\s+([\\w\\-]+)".toRegex()
+        result =
+                npxRegex.replace(result) { matchResult ->
+                    val packageName = matchResult.groupValues[1]
+                    "pnpm exec $packageName"
+                }
+
+        return result
+    }
+}

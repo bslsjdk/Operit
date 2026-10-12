@@ -1,1 +1,141 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qc291cC5Kc291cAppbXBvcnQgb3JnLmpzb3VwLm5vZGVzLkVsZW1lbnQKaW1wb3J0IG9yZy5qc291cC5ub2Rlcy5Ob2RlCmltcG9ydCBvcmcuanNvdXAubm9kZXMuVGV4dE5vZGUKCmludGVybmFsIG9iamVjdCBNYXRoTWxQbGFpblRleHRDb252ZXJ0ZXIgewogICAgZnVuIGNvbnZlcnQobWF0aE1sOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBtYXRoID0gSnNvdXAucGFyc2UobWF0aE1sKS5zZWxlY3RGaXJzdCgibWF0aCIpCiAgICAgICAgICAgID86IGVycm9yKCJNYXRoTUwgZG9lcyBub3QgY29udGFpbiBhIG1hdGggZWxlbWVudCIpCiAgICAgICAgcmV0dXJuIHJlbmRlcihtYXRoKQogICAgICAgICAgICAucmVwbGFjZShSZWdleCgiIiJccysiIiIpLCAiICIpCiAgICAgICAgICAgIC5yZXBsYWNlKCIoICIsICIoIikKICAgICAgICAgICAgLnJlcGxhY2UoIiApIiwgIikiKQogICAgICAgICAgICAucmVwbGFjZSgiWyAiLCAiWyIpCiAgICAgICAgICAgIC5yZXBsYWNlKCIgXSIsICJdIikKICAgICAgICAgICAgLnJlcGxhY2UoIiAsIiwgIiwiKQogICAgICAgICAgICAudHJpbSgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVuZGVyKG5vZGU6IE5vZGUpOiBTdHJpbmcgewogICAgICAgIGlmIChub2RlIGlzIFRleHROb2RlKSByZXR1cm4gbm9kZS50ZXh0KCkudGFrZVVubGVzcyhTdHJpbmc6OmlzQmxhbmspLm9yRW1wdHkoKQogICAgICAgIGlmIChub2RlICFpcyBFbGVtZW50KSByZXR1cm4gIiIKCiAgICAgICAgdmFsIGNoaWxkcmVuID0gbm9kZS5jaGlsZHJlbigpCiAgICAgICAgcmV0dXJuIHdoZW4gKG5vZGUudGFnTmFtZSgpKSB7CiAgICAgICAgICAgICJhbm5vdGF0aW9uIiAtPiAiIgogICAgICAgICAgICAic2VtYW50aWNzIiAtPiBjaGlsZHJlbi5maXJzdE9yTnVsbCgpPy5sZXQoOjpyZW5kZXIpLm9yRW1wdHkoKQogICAgICAgICAgICAibWZyYWMiIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBudW1lcmF0b3IgPSBjaGlsZHJlbi5nZXRPck51bGwoMCk/LmxldCg6OnJlbmRlcikub3JFbXB0eSgpCiAgICAgICAgICAgICAgICB2YWwgZGVub21pbmF0b3IgPSBjaGlsZHJlbi5nZXRPck51bGwoMSk/LmxldCg6OnJlbmRlcikub3JFbXB0eSgpCiAgICAgICAgICAgICAgICAiKCRudW1lcmF0b3IpLygkZGVub21pbmF0b3IpIgogICAgICAgICAgICB9CiAgICAgICAgICAgICJtc3FydCIgLT4gIuKImigke3JlbmRlckNoaWxkcmVuKG5vZGUpfSkiCiAgICAgICAgICAgICJtcm9vdCIgLT4gewogICAgICAgICAgICAgICAgdmFsIHJhZGljYW5kID0gY2hpbGRyZW4uZ2V0T3JOdWxsKDApPy5sZXQoOjpyZW5kZXIpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgdmFsIGRlZ3JlZSA9IGNoaWxkcmVuLmdldE9yTnVsbCgxKT8ubGV0KDo6cmVuZGVyKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgICJyb290KCRkZWdyZWUsICRyYWRpY2FuZCkiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgIm1zdXAiIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBiYXNlID0gY2hpbGRyZW4uZ2V0T3JOdWxsKDApPy5sZXQoOjpyZW5kZXIpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgdmFsIGV4cG9uZW50ID0gY2hpbGRyZW4uZ2V0T3JOdWxsKDEpPy5sZXQoOjpyZW5kZXIpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgYXBwZW5kTGFyZ2VPcGVyYXRvclNwYWNpbmcoCiAgICAgICAgICAgICAgICAgICAgYmFzZSwKICAgICAgICAgICAgICAgICAgICBiYXNlICsgKHRvU3VwZXJzY3JpcHQoZXhwb25lbnQpID86ICJeKCRleHBvbmVudCkiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgICJtc3ViIiAtPiB7CiAgICAgICAgICAgICAgICB2YWwgYmFzZSA9IGNoaWxkcmVuLmdldE9yTnVsbCgwKT8ubGV0KDo6cmVuZGVyKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgIHZhbCBzdWJzY3JpcHQgPSBjaGlsZHJlbi5nZXRPck51bGwoMSk/LmxldCg6OnJlbmRlcikub3JFbXB0eSgpCiAgICAgICAgICAgICAgICBhcHBlbmRMYXJnZU9wZXJhdG9yU3BhY2luZygKICAgICAgICAgICAgICAgICAgICBiYXNlLAogICAgICAgICAgICAgICAgICAgIGJhc2UgKyAodG9TdWJzY3JpcHQoc3Vic2NyaXB0KSA/OiAiXygkc3Vic2NyaXB0KSIpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgIm1zdWJzdXAiIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBiYXNlID0gY2hpbGRyZW4uZ2V0T3JOdWxsKDApPy5sZXQoOjpyZW5kZXIpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgdmFsIHN1YnNjcmlwdCA9IGNoaWxkcmVuLmdldE9yTnVsbCgxKT8ubGV0KDo6cmVuZGVyKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgIHZhbCBzdXBlcnNjcmlwdCA9IGNoaWxkcmVuLmdldE9yTnVsbCgyKT8ubGV0KDo6cmVuZGVyKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgIGFwcGVuZExhcmdlT3BlcmF0b3JTcGFjaW5nKAogICAgICAgICAgICAgICAgICAgIGJhc2UsCiAgICAgICAgICAgICAgICAgICAgYmFzZSArCiAgICAgICAgICAgICAgICAgICAgICAgICh0b1N1YnNjcmlwdChzdWJzY3JpcHQpID86ICJfKCRzdWJzY3JpcHQpIikgKwogICAgICAgICAgICAgICAgICAgICAgICAodG9TdXBlcnNjcmlwdChzdXBlcnNjcmlwdCkgPzogIl4oJHN1cGVyc2NyaXB0KSIpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgIm11bmRlciIgLT4gewogICAgICAgICAgICAgICAgdmFsIGJhc2UgPSBjaGlsZHJlbi5nZXRPck51bGwoMCk/LmxldCg6OnJlbmRlcikub3JFbXB0eSgpCiAgICAgICAgICAgICAgICB2YWwgdW5kZXIgPSBjaGlsZHJlbi5nZXRPck51bGwoMSk/LmxldCg6OnJlbmRlcikub3JFbXB0eSgpCiAgICAgICAgICAgICAgICBhcHBlbmRMYXJnZU9wZXJhdG9yU3BhY2luZyhiYXNlLCAiJHtiYXNlfV8oJHVuZGVyKSIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgIm1vdmVyIiAtPiB7CiAgICAgICAgICAgICAgICB2YWwgYmFzZSA9IGNoaWxkcmVuLmdldE9yTnVsbCgwKT8ubGV0KDo6cmVuZGVyKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgIHZhbCBvdmVyID0gY2hpbGRyZW4uZ2V0T3JOdWxsKDEpPy5sZXQoOjpyZW5kZXIpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgYXBwZW5kTGFyZ2VPcGVyYXRvclNwYWNpbmcoYmFzZSwgIiRiYXNlXigkb3ZlcikiKQogICAgICAgICAgICB9CiAgICAgICAgICAgICJtdW5kZXJvdmVyIiAtPiB7CiAgICAgICAgICAgICAgICB2YWwgYmFzZSA9IGNoaWxkcmVuLmdldE9yTnVsbCgwKT8ubGV0KDo6cmVuZGVyKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgIHZhbCB1bmRlciA9IGNoaWxkcmVuLmdldE9yTnVsbCgxKT8ubGV0KDo6cmVuZGVyKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgIHZhbCBvdmVyID0gY2hpbGRyZW4uZ2V0T3JOdWxsKDIpPy5sZXQoOjpyZW5kZXIpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgYXBwZW5kTGFyZ2VPcGVyYXRvclNwYWNpbmcoYmFzZSwgIiR7YmFzZX1fKCR1bmRlcileKCRvdmVyKSIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgIm10YWJsZSIgLT4gewogICAgICAgICAgICAgICAgY2hpbGRyZW4uam9pblRvU3RyaW5nKHByZWZpeCA9ICJbIiwgcG9zdGZpeCA9ICJdIiwgc2VwYXJhdG9yID0gIjsgIikgeyByb3cgLT4KICAgICAgICAgICAgICAgICAgICByb3cuY2hpbGRyZW4oKS5qb2luVG9TdHJpbmcoIiwgIikgeyBjZWxsIC0+IHJlbmRlcihjZWxsKSB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgIm1vIiAtPiByZW5kZXJPcGVyYXRvcihub2RlLnRleHQoKSkKICAgICAgICAgICAgIm1pIiAtPiB7CiAgICAgICAgICAgICAgICB2YWwgdGV4dCA9IG5vZGUudGV4dCgpCiAgICAgICAgICAgICAgICBpZiAodGV4dCBpbiBGVU5DVElPTl9OQU1FUykgIiR0ZXh0ICIgZWxzZSB0ZXh0CiAgICAgICAgICAgIH0KICAgICAgICAgICAgIm1uIiwgIm10ZXh0IiAtPiBub2RlLnRleHQoKQogICAgICAgICAgICAibXNwYWNlIiAtPiAiICIKICAgICAgICAgICAgZWxzZSAtPiByZW5kZXJDaGlsZHJlbihub2RlKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZW5kZXJDaGlsZHJlbihlbGVtZW50OiBFbGVtZW50KTogU3RyaW5nID0KICAgICAgICBlbGVtZW50LmNoaWxkTm9kZXMoKS5qb2luVG9TdHJpbmcoc2VwYXJhdG9yID0gIiIsIHRyYW5zZm9ybSA9IDo6cmVuZGVyKQoKICAgIHByaXZhdGUgZnVuIHJlbmRlck9wZXJhdG9yKG9wZXJhdG9yOiBTdHJpbmcpOiBTdHJpbmcgPQogICAgICAgIHdoZW4gKG9wZXJhdG9yKSB7CiAgICAgICAgICAgICJcdTIwNjEiIC0+ICIiCiAgICAgICAgICAgICIrIiwgIuKIkiIsICItIiwgIj0iLCAi4omgIiwgIuKJpCIsICLiiaUiLCAiwrEiLCAi4oiTIiwgIsOXIiwgIsO3IiwgIuKIiCIsICLiiIkiLAogICAgICAgICAgICAi4oaSIiwgIuKGkCIsICLihpQiLCAi4oeSIiwgIuKHkCIsICLih5QiLCAi4oinIiwgIuKIqCIgLT4gIiAkb3BlcmF0b3IgIgogICAgICAgICAgICAiLCIgLT4gIiwgIgogICAgICAgICAgICBlbHNlIC0+IG9wZXJhdG9yCiAgICAgICAgfQoKICAgIHByaXZhdGUgZnVuIGFwcGVuZExhcmdlT3BlcmF0b3JTcGFjaW5nKGJhc2U6IFN0cmluZywgZXhwcmVzc2lvbjogU3RyaW5nKTogU3RyaW5nID0KICAgICAgICBpZiAoYmFzZS50cmltKCkgaW4gTEFSR0VfT1BFUkFUT1JTKSAiJGV4cHJlc3Npb24gIiBlbHNlIGV4cHJlc3Npb24KCiAgICBwcml2YXRlIGZ1biB0b1N1cGVyc2NyaXB0KHZhbHVlOiBTdHJpbmcpOiBTdHJpbmc/ID0KICAgICAgICB2YWx1ZS5tYXAgeyBTVVBFUlNDUklQVFNbaXRdID86IHJldHVybiBudWxsIH0uam9pblRvU3RyaW5nKCIiKQoKICAgIHByaXZhdGUgZnVuIHRvU3Vic2NyaXB0KHZhbHVlOiBTdHJpbmcpOiBTdHJpbmc/ID0KICAgICAgICB2YWx1ZS5tYXAgeyBTVUJTQ1JJUFRTW2l0XSA/OiByZXR1cm4gbnVsbCB9LmpvaW5Ub1N0cmluZygiIikKCiAgICBwcml2YXRlIHZhbCBGVU5DVElPTl9OQU1FUyA9IHNldE9mKAogICAgICAgICJzaW4iLCAiY29zIiwgInRhbiIsICJjb3QiLCAic2VjIiwgImNzYyIsCiAgICAgICAgInNpbmgiLCAiY29zaCIsICJ0YW5oIiwgImxvZyIsICJsbiIsICJleHAiLAogICAgICAgICJsaW0iLCAibWF4IiwgIm1pbiIKICAgICkKCiAgICBwcml2YXRlIHZhbCBMQVJHRV9PUEVSQVRPUlMgPSBzZXRPZigi4oiRIiwgIuKIjyIsICLiiKsiLCAi4oisIiwgIuKIrSIsICJsaW0iKQoKICAgIHByaXZhdGUgdmFsIFNVUEVSU0NSSVBUUyA9IG1hcE9mKAogICAgICAgICcwJyB0byAn4oGwJywgJzEnIHRvICfCuScsICcyJyB0byAnwrInLCAnMycgdG8gJ8KzJywgJzQnIHRvICfigbQnLAogICAgICAgICc1JyB0byAn4oG1JywgJzYnIHRvICfigbYnLCAnNycgdG8gJ+KBtycsICc4JyB0byAn4oG4JywgJzknIHRvICfigbknLAogICAgICAgICcrJyB0byAn4oG6JywgJy0nIHRvICfigbsnLCAnPScgdG8gJ+KBvCcsICcoJyB0byAn4oG9JywgJyknIHRvICfigb4nLAogICAgICAgICdpJyB0byAn4oGxJywgJ24nIHRvICfigb8nCiAgICApCgogICAgcHJpdmF0ZSB2YWwgU1VCU0NSSVBUUyA9IG1hcE9mKAogICAgICAgICcwJyB0byAn4oKAJywgJzEnIHRvICfigoEnLCAnMicgdG8gJ+KCgicsICczJyB0byAn4oKDJywgJzQnIHRvICfigoQnLAogICAgICAgICc1JyB0byAn4oKFJywgJzYnIHRvICfigoYnLCAnNycgdG8gJ+KChycsICc4JyB0byAn4oKIJywgJzknIHRvICfigoknLAogICAgICAgICcrJyB0byAn4oKKJywgJy0nIHRvICfigosnLCAnPScgdG8gJ+KCjCcsICcoJyB0byAn4oKNJywgJyknIHRvICfigo4nCiAgICApCn0K
+package com.bslsjdk.operit.util
+
+import org.jsoup.Jsoup
+import org.jsoup.nodes.Element
+import org.jsoup.nodes.Node
+import org.jsoup.nodes.TextNode
+
+internal object MathMlPlainTextConverter {
+    fun convert(mathMl: String): String {
+        val math = Jsoup.parse(mathMl).selectFirst("math")
+            ?: error("MathML does not contain a math element")
+        return render(math)
+            .replace(Regex("""\s+"""), " ")
+            .replace("( ", "(")
+            .replace(" )", ")")
+            .replace("[ ", "[")
+            .replace(" ]", "]")
+            .replace(" ,", ",")
+            .trim()
+    }
+
+    private fun render(node: Node): String {
+        if (node is TextNode) return node.text().takeUnless(String::isBlank).orEmpty()
+        if (node !is Element) return ""
+
+        val children = node.children()
+        return when (node.tagName()) {
+            "annotation" -> ""
+            "semantics" -> children.firstOrNull()?.let(::render).orEmpty()
+            "mfrac" -> {
+                val numerator = children.getOrNull(0)?.let(::render).orEmpty()
+                val denominator = children.getOrNull(1)?.let(::render).orEmpty()
+                "($numerator)/($denominator)"
+            }
+            "msqrt" -> "√(${renderChildren(node)})"
+            "mroot" -> {
+                val radicand = children.getOrNull(0)?.let(::render).orEmpty()
+                val degree = children.getOrNull(1)?.let(::render).orEmpty()
+                "root($degree, $radicand)"
+            }
+            "msup" -> {
+                val base = children.getOrNull(0)?.let(::render).orEmpty()
+                val exponent = children.getOrNull(1)?.let(::render).orEmpty()
+                appendLargeOperatorSpacing(
+                    base,
+                    base + (toSuperscript(exponent) ?: "^($exponent)")
+                )
+            }
+            "msub" -> {
+                val base = children.getOrNull(0)?.let(::render).orEmpty()
+                val subscript = children.getOrNull(1)?.let(::render).orEmpty()
+                appendLargeOperatorSpacing(
+                    base,
+                    base + (toSubscript(subscript) ?: "_($subscript)")
+                )
+            }
+            "msubsup" -> {
+                val base = children.getOrNull(0)?.let(::render).orEmpty()
+                val subscript = children.getOrNull(1)?.let(::render).orEmpty()
+                val superscript = children.getOrNull(2)?.let(::render).orEmpty()
+                appendLargeOperatorSpacing(
+                    base,
+                    base +
+                        (toSubscript(subscript) ?: "_($subscript)") +
+                        (toSuperscript(superscript) ?: "^($superscript)")
+                )
+            }
+            "munder" -> {
+                val base = children.getOrNull(0)?.let(::render).orEmpty()
+                val under = children.getOrNull(1)?.let(::render).orEmpty()
+                appendLargeOperatorSpacing(base, "${base}_($under)")
+            }
+            "mover" -> {
+                val base = children.getOrNull(0)?.let(::render).orEmpty()
+                val over = children.getOrNull(1)?.let(::render).orEmpty()
+                appendLargeOperatorSpacing(base, "$base^($over)")
+            }
+            "munderover" -> {
+                val base = children.getOrNull(0)?.let(::render).orEmpty()
+                val under = children.getOrNull(1)?.let(::render).orEmpty()
+                val over = children.getOrNull(2)?.let(::render).orEmpty()
+                appendLargeOperatorSpacing(base, "${base}_($under)^($over)")
+            }
+            "mtable" -> {
+                children.joinToString(prefix = "[", postfix = "]", separator = "; ") { row ->
+                    row.children().joinToString(", ") { cell -> render(cell) }
+                }
+            }
+            "mo" -> renderOperator(node.text())
+            "mi" -> {
+                val text = node.text()
+                if (text in FUNCTION_NAMES) "$text " else text
+            }
+            "mn", "mtext" -> node.text()
+            "mspace" -> " "
+            else -> renderChildren(node)
+        }
+    }
+
+    private fun renderChildren(element: Element): String =
+        element.childNodes().joinToString(separator = "", transform = ::render)
+
+    private fun renderOperator(operator: String): String =
+        when (operator) {
+            "\u2061" -> ""
+            "+", "−", "-", "=", "≠", "≤", "≥", "±", "∓", "×", "÷", "∈", "∉",
+            "→", "←", "↔", "⇒", "⇐", "⇔", "∧", "∨" -> " $operator "
+            "," -> ", "
+            else -> operator
+        }
+
+    private fun appendLargeOperatorSpacing(base: String, expression: String): String =
+        if (base.trim() in LARGE_OPERATORS) "$expression " else expression
+
+    private fun toSuperscript(value: String): String? =
+        value.map { SUPERSCRIPTS[it] ?: return null }.joinToString("")
+
+    private fun toSubscript(value: String): String? =
+        value.map { SUBSCRIPTS[it] ?: return null }.joinToString("")
+
+    private val FUNCTION_NAMES = setOf(
+        "sin", "cos", "tan", "cot", "sec", "csc",
+        "sinh", "cosh", "tanh", "log", "ln", "exp",
+        "lim", "max", "min"
+    )
+
+    private val LARGE_OPERATORS = setOf("∑", "∏", "∫", "∬", "∭", "lim")
+
+    private val SUPERSCRIPTS = mapOf(
+        '0' to '⁰', '1' to '¹', '2' to '²', '3' to '³', '4' to '⁴',
+        '5' to '⁵', '6' to '⁶', '7' to '⁷', '8' to '⁸', '9' to '⁹',
+        '+' to '⁺', '-' to '⁻', '=' to '⁼', '(' to '⁽', ')' to '⁾',
+        'i' to 'ⁱ', 'n' to 'ⁿ'
+    )
+
+    private val SUBSCRIPTS = mapOf(
+        '0' to '₀', '1' to '₁', '2' to '₂', '3' to '₃', '4' to '₄',
+        '5' to '₅', '6' to '₆', '7' to '₇', '8' to '₈', '9' to '₉',
+        '+' to '₊', '-' to '₋', '=' to '₌', '(' to '₍', ')' to '₎'
+    )
+}

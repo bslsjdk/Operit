@@ -1,1 +1,45 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW4ubW9kZWwKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DcmVkaXRDYXJkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5EYXNoYm9hcmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLktleQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuUGVyc29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnZlY3Rvci5JbWFnZVZlY3RvcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmFwcGxpY2F0aW9uLk9wZXJpdEFwcGxpY2F0aW9uCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgVGFiQ29uZmlnKAogICAgdmFsIHRpdGxlOiBTdHJpbmcsCiAgICB2YWwgdXJsOiBTdHJpbmcKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFVybENvbmZpZygKICAgIHZhbCBuYW1lOiBTdHJpbmcgPSAiRGVlcFNlZWsiLAogICAgdmFsIHNpZ25JblVybDogU3RyaW5nID0gImh0dHBzOi8vcGxhdGZvcm0uZGVlcHNlZWsuY29tL3NpZ25faW4iLAogICAgdmFsIHRhYnM6IExpc3Q8VGFiQ29uZmlnPiA9IGxpc3RPZigKICAgICAgICBUYWJDb25maWcoT3Blcml0QXBwbGljYXRpb24uaW5zdGFuY2UuZ2V0U3RyaW5nKFIuc3RyaW5nLnVybF9jb25maWdfYXBpX2tleSksICJodHRwczovL3BsYXRmb3JtLmRlZXBzZWVrLmNvbS9hcGlfa2V5cyIpLAogICAgICAgIFRhYkNvbmZpZyhPcGVyaXRBcHBsaWNhdGlvbi5pbnN0YW5jZS5nZXRTdHJpbmcoUi5zdHJpbmcudXJsX2NvbmZpZ191c2FnZSksICJodHRwczovL3BsYXRmb3JtLmRlZXBzZWVrLmNvbS91c2FnZSIpLAogICAgICAgIFRhYkNvbmZpZyhPcGVyaXRBcHBsaWNhdGlvbi5pbnN0YW5jZS5nZXRTdHJpbmcoUi5zdHJpbmcudXJsX2NvbmZpZ190b3BfdXApLCAiaHR0cHM6Ly9wbGF0Zm9ybS5kZWVwc2Vlay5jb20vdG9wX3VwIiksCiAgICAgICAgVGFiQ29uZmlnKE9wZXJpdEFwcGxpY2F0aW9uLmluc3RhbmNlLmdldFN0cmluZyhSLnN0cmluZy51cmxfY29uZmlnX3Byb2ZpbGUpLCAiaHR0cHM6Ly9wbGF0Zm9ybS5kZWVwc2Vlay5jb20vcHJvZmlsZSIpCiAgICApCikKCi8vIOWvvOiIquebruagh+aVsOaNruexuwpkYXRhIGNsYXNzIE5hdkRlc3RpbmF0aW9uKAogICAgdmFsIHRpdGxlOiBTdHJpbmcsIAogICAgdmFsIHVybDogU3RyaW5nLCAKICAgIHZhbCBpY29uOiBJbWFnZVZlY3RvcgopCgovLyDojrflj5blr7zoiKrnm67moIfnmoTlm77moIcKZnVuIGdldEljb25Gb3JJbmRleChpbmRleDogSW50KTogSW1hZ2VWZWN0b3IgPSB3aGVuIChpbmRleCkgewogICAgMCAtPiBJY29ucy5EZWZhdWx0LktleQogICAgMSAtPiBJY29ucy5EZWZhdWx0LkRhc2hib2FyZAogICAgMiAtPiBJY29ucy5EZWZhdWx0LkNyZWRpdENhcmQKICAgIDMgLT4gSWNvbnMuRGVmYXVsdC5QZXJzb24KICAgIGVsc2UgLT4gSWNvbnMuRGVmYXVsdC5LZXkKfSA=
+package com.bslsjdk.operit.ui.features.token.model
+
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.CreditCard
+import androidx.compose.material.icons.filled.Dashboard
+import androidx.compose.material.icons.filled.Key
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.ui.graphics.vector.ImageVector
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.application.OperitApplication
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class TabConfig(
+    val title: String,
+    val url: String
+)
+
+@Serializable
+data class UrlConfig(
+    val name: String = "DeepSeek",
+    val signInUrl: String = "https://platform.deepseek.com/sign_in",
+    val tabs: List<TabConfig> = listOf(
+        TabConfig(OperitApplication.instance.getString(R.string.url_config_api_key), "https://platform.deepseek.com/api_keys"),
+        TabConfig(OperitApplication.instance.getString(R.string.url_config_usage), "https://platform.deepseek.com/usage"),
+        TabConfig(OperitApplication.instance.getString(R.string.url_config_top_up), "https://platform.deepseek.com/top_up"),
+        TabConfig(OperitApplication.instance.getString(R.string.url_config_profile), "https://platform.deepseek.com/profile")
+    )
+)
+
+// 导航目标数据类
+data class NavDestination(
+    val title: String, 
+    val url: String, 
+    val icon: ImageVector
+)
+
+// 获取导航目标的图标
+fun getIconForIndex(index: Int): ImageVector = when (index) {
+    0 -> Icons.Default.Key
+    1 -> Icons.Default.Dashboard
+    2 -> Icons.Default.CreditCard
+    3 -> Icons.Default.Person
+    else -> Icons.Default.Key
+} 

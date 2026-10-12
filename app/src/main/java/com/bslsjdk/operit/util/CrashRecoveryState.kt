@@ -1,1 +1,25 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CgpvYmplY3QgQ3Jhc2hSZWNvdmVyeVN0YXRlIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFBSRUZTX05BTUUgPSAiY3Jhc2hfcmVjb3Zlcnlfc3RhdGUiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfUFJFU0VSVkVfTE9HU19GT1JfQ1JBU0hfUkVQT1JUID0gInByZXNlcnZlX2xvZ3NfZm9yX2NyYXNoX3JlcG9ydCIKCiAgICBmdW4gbWFya1BlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0OiBDb250ZXh0KSB7CiAgICAgICAgY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQKICAgICAgICAgICAgLmdldFNoYXJlZFByZWZlcmVuY2VzKFBSRUZTX05BTUUsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgICAgICAgICAuZWRpdCgpCiAgICAgICAgICAgIC5wdXRCb29sZWFuKEtFWV9QUkVTRVJWRV9MT0dTX0ZPUl9DUkFTSF9SRVBPUlQsIHRydWUpCiAgICAgICAgICAgIC5jb21taXQoKQogICAgfQoKICAgIGZ1biBjb25zdW1lUGVuZGluZ0NyYXNoUmVwb3J0TGF1bmNoKGNvbnRleHQ6IENvbnRleHQpOiBCb29sZWFuIHsKICAgICAgICB2YWwgcHJlZnMgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhQUkVGU19OQU1FLCBDb250ZXh0Lk1PREVfUFJJVkFURSkKICAgICAgICB2YWwgc2hvdWxkUHJlc2VydmVMb2dzID0gcHJlZnMuZ2V0Qm9vbGVhbihLRVlfUFJFU0VSVkVfTE9HU19GT1JfQ1JBU0hfUkVQT1JULCBmYWxzZSkKICAgICAgICBpZiAoc2hvdWxkUHJlc2VydmVMb2dzKSB7CiAgICAgICAgICAgIHByZWZzLmVkaXQoKS5yZW1vdmUoS0VZX1BSRVNFUlZFX0xPR1NfRk9SX0NSQVNIX1JFUE9SVCkuY29tbWl0KCkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHNob3VsZFByZXNlcnZlTG9ncwogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import android.content.Context
+
+object CrashRecoveryState {
+    private const val PREFS_NAME = "crash_recovery_state"
+    private const val KEY_PRESERVE_LOGS_FOR_CRASH_REPORT = "preserve_logs_for_crash_report"
+
+    fun markPendingCrashReportLaunch(context: Context) {
+        context.applicationContext
+            .getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            .edit()
+            .putBoolean(KEY_PRESERVE_LOGS_FOR_CRASH_REPORT, true)
+            .commit()
+    }
+
+    fun consumePendingCrashReportLaunch(context: Context): Boolean {
+        val prefs = context.applicationContext.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        val shouldPreserveLogs = prefs.getBoolean(KEY_PRESERVE_LOGS_FOR_CRASH_REPORT, false)
+        if (shouldPreserveLogs) {
+            prefs.edit().remove(KEY_PRESERVE_LOGS_FOR_CRASH_REPORT).commit()
+        }
+        return shouldPreserveLogs
+    }
+}

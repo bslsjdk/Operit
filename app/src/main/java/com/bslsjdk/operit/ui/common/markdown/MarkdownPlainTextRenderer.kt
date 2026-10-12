@@ -1,1 +1,127 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwubWFya2Rvd24uTWFya2Rvd25Ob2RlU3RhYmxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5tYXJrZG93bi5NYXJrZG93blByb2Nlc3NvclR5cGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbW5hdGl2ZS5OYXRpdmVNYXJrZG93blNwbGl0dGVyCgovKioKICog5oqK5raI5oGv5YaF5a656Kej5p6Q5Li66YCC5ZCI55u05o6l57KY6LS055qE57qv5paH5pys77yM5aSN55SoIFtwYXJzZU1hcmtkb3duVG9Ob2Rlc10g5Lqn5Ye655qE5ZCM5LiA5Lu9IEFTVO+8jAogKiDkv53or4Ei5aSN5Yi25Ye65p2l55qE5YaF5a65IuWSjOWxj+W5leS4iua4suafk+eahOWGheWuueWFseS6q+WQjOS4gOWll+i+ueeVjOWIpOaWre+8iOS7o+eggeWdly/ooajmoLwv5YWs5byP55qE6LW35q2i5L2N572u562J77yJ44CCCiAqLwppbnRlcm5hbCBzdXNwZW5kIGZ1biBtYXJrZG93blRvUGxhaW5UZXh0Rm9yQ29weSgKICAgIG1hcmtkb3duOiBTdHJpbmcsCiAgICBsYXRleFRvUGxhaW5UZXh0OiAoTGlzdDxTdHJpbmc+KSAtPiBMaXN0PFN0cmluZz4gPSB7IGl0IH0sCik6IFN0cmluZyB7CiAgICAvLyBBIGNvbXBsZXRlIGRvY3VtZW50IG5lZWRzIGFuIGV4cGxpY2l0IGxpbmUgZW5kaW5nIHRvIGZsdXNoIG5hdGl2ZSBzdHJlYW1pbmcgcGFyc2VyIGxvb2thaGVhZC4KICAgIHZhbCBjb21wbGV0ZU1hcmtkb3duID0gaWYgKG1hcmtkb3duLmVuZHNXaXRoKCdcbicpKSBtYXJrZG93biBlbHNlICIkbWFya2Rvd25cbiIKICAgIHZhbCBub2RlcyA9IHBhcnNlTWFya2Rvd25Ub05vZGVzKGNvbXBsZXRlTWFya2Rvd24pLm1hcCB7IGl0LnRvU3RhYmxlTm9kZSgpIH0KICAgIHZhbCBsYXRleFNlZ21lbnRzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKICAgIHZhbCByZW5kZXJlZCA9IGpvaW5CbG9ja3Mobm9kZXMsIGxhdGV4U2VnbWVudHMpCiAgICAvLyDmipjlj6Ai56m655m96KGMIu+8mjIg5Liq5Lul5LiK5o2i6KGM77yI5Lit6Ze05Y+v6IO95aS5552A56m65qC8L+WFqOinkuepuuagvOetieawtOW5s+epuueZve+8jOS+i+WmguaooeWei+i+k+WHuumHjAogICAgLy8g5q6L55WZ55qE5LiA6KGM5YWo6KeS56m65qC85Lya6KKr6Kej5p6Q5oiQ5LiA5Liq56m6IFBMQUlOX1RFWFQg5Z2X77yJ57uf5LiA5oqY5Y+g5oiQ5LiA5Liq56m66KGM77yMCiAgICAvLyDlkKbliJnnuq8gXG57Myx9IOinhOWImeS8muiiq+S4remXtOeahOepuueZveWtl+espuaJk+aWre+8jOWvvOiHtOWFrOW8j+Wdl+S4iuaWueWkmuWHuuS4gOS4quepuuihjOOAggogICAgdmFsIG5vcm1hbGl6ZWQgPSByZW5kZXJlZC5yZXBsYWNlKFJlZ2V4KCJcXGgqXFxuKD86XFxoKlxcbikrXFxoKiIpLCAiXG5cbiIpLnRyaW0oKQoKICAgIGlmIChsYXRleFNlZ21lbnRzLmlzRW1wdHkoKSkgcmV0dXJuIG5vcm1hbGl6ZWQKCiAgICB2YWwgY29udmVydGVkTGF0ZXggPSBsYXRleFRvUGxhaW5UZXh0KGxhdGV4U2VnbWVudHMpCiAgICByZXR1cm4gbGF0ZXhTZWdtZW50cy5pbmRpY2VzLmZvbGQobm9ybWFsaXplZCkgeyB0ZXh0LCBpbmRleCAtPgogICAgICAgIHRleHQucmVwbGFjZSgKICAgICAgICAgICAgbGF0ZXhQbGFjZWhvbGRlcihpbmRleCksCiAgICAgICAgICAgIGNvbnZlcnRlZExhdGV4LmdldE9yRWxzZShpbmRleCkgeyBsYXRleFNlZ21lbnRzW2luZGV4XSB9CiAgICAgICAgKQogICAgfQp9CgovKioKICog6YCQ5Liq5ou85o6l6aG25bGC6IqC54K577ya55u46YK755qE5YiX6KGo6aG577yI5pyJ5bqPL+aXoOW6j+a3t+aOkuS5n+eul++8ieS5i+mXtOWPqueUqOWNleS4quaNouihjO+8jAogKiDlhbbkvZnnm7jpgrvlnZfkuYvpl7TnqbrkuIDooYzvvJtIVE1MX0JSRUFLIOiKgueCueacrOi6q+S4jeWPguS4jua4suafk++8jOWPquaYr+WOn+WniyBNYXJrZG93bgogKiDph4znqbrooYzmlbDph4/nmoTmoIforrDvvIzmnIDnu4jnu5/kuIDkuqTnu5nkuIrpnaLnmoTnqbrooYzmipjlj6DpgLvovpHlpITnkIbjgIIKICovCnByaXZhdGUgZnVuIGpvaW5CbG9ja3Mobm9kZXM6IExpc3Q8TWFya2Rvd25Ob2RlU3RhYmxlPiwgbGF0ZXhTZWdtZW50czogTXV0YWJsZUxpc3Q8U3RyaW5nPik6IFN0cmluZyB7CiAgICB2YWwgY29udGVudE5vZGVzID0gbm9kZXMuZmlsdGVyTm90IHsgaXQudHlwZSA9PSBNYXJrZG93blByb2Nlc3NvclR5cGUuSFRNTF9CUkVBSyB9CiAgICB2YWwgYnVpbGRlciA9IFN0cmluZ0J1aWxkZXIoKQogICAgY29udGVudE5vZGVzLmZvckVhY2hJbmRleGVkIHsgaW5kZXgsIG5vZGUgLT4KICAgICAgICBpZiAoaW5kZXggPiAwKSB7CiAgICAgICAgICAgIHZhbCBwcmV2aW91c1R5cGUgPSBjb250ZW50Tm9kZXNbaW5kZXggLSAxXS50eXBlCiAgICAgICAgICAgIHZhbCBib3RoTGlzdEl0ZW1zID0gbm9kZS50eXBlLmlzTGlzdEl0ZW0oKSAmJiBwcmV2aW91c1R5cGUuaXNMaXN0SXRlbSgpCiAgICAgICAgICAgIGJ1aWxkZXIuYXBwZW5kKGlmIChib3RoTGlzdEl0ZW1zKSAiXG4iIGVsc2UgIlxuXG4iKQogICAgICAgIH0KICAgICAgICBidWlsZGVyLmFwcGVuZChyZW5kZXJCbG9ja05vZGUobm9kZSwgbGF0ZXhTZWdtZW50cykpCiAgICB9CiAgICByZXR1cm4gYnVpbGRlci50b1N0cmluZygpCn0KCnByaXZhdGUgZnVuIE1hcmtkb3duUHJvY2Vzc29yVHlwZS5pc0xpc3RJdGVtKCk6IEJvb2xlYW4gPQogICAgdGhpcyA9PSBNYXJrZG93blByb2Nlc3NvclR5cGUuT1JERVJFRF9MSVNUIHx8IHRoaXMgPT0gTWFya2Rvd25Qcm9jZXNzb3JUeXBlLlVOT1JERVJFRF9MSVNUCgpwcml2YXRlIGZ1biByZW5kZXJCbG9ja05vZGUobm9kZTogTWFya2Rvd25Ob2RlU3RhYmxlLCBsYXRleFNlZ21lbnRzOiBNdXRhYmxlTGlzdDxTdHJpbmc+KTogU3RyaW5nIHsKICAgIHJldHVybiB3aGVuIChub2RlLnR5cGUpIHsKICAgICAgICBNYXJrZG93blByb2Nlc3NvclR5cGUuSFRNTF9CUkVBSywKICAgICAgICBNYXJrZG93blByb2Nlc3NvclR5cGUuSE9SSVpPTlRBTF9SVUxFIC0+ICIiCiAgICAgICAgTWFya2Rvd25Qcm9jZXNzb3JUeXBlLkNPREVfQkxPQ0sgLT4gcmVuZGVyQ29kZUJsb2NrKG5vZGUuY29udGVudCkKICAgICAgICBNYXJrZG93blByb2Nlc3NvclR5cGUuVEFCTEUgLT4gcmVuZGVyVGFibGUobm9kZS5jb250ZW50LCBsYXRleFNlZ21lbnRzKQogICAgICAgIE1hcmtkb3duUHJvY2Vzc29yVHlwZS5CTE9DS19MQVRFWCAtPgogICAgICAgICAgICByZWdpc3RlckxhdGV4KGV4dHJhY3RMYXRleENvbnRlbnQobm9kZS5jb250ZW50LnRyaW0oKSkudHJpbSgpLCBsYXRleFNlZ21lbnRzKQogICAgICAgIE1hcmtkb3duUHJvY2Vzc29yVHlwZS5YTUxfQkxPQ0sgLT4gbm9kZS5jb250ZW50CiAgICAgICAgTWFya2Rvd25Qcm9jZXNzb3JUeXBlLklNQUdFIC0+IGV4dHJhY3RMaW5rVGV4dChub2RlLmNvbnRlbnQpCiAgICAgICAgTWFya2Rvd25Qcm9jZXNzb3JUeXBlLkhFQURFUiAtPiByZW5kZXJJbmxpbmVCbG9jayhub2RlLCBsYXRleFNlZ21lbnRzKS50cmltU3RhcnQoJyMnLCAnICcpCiAgICAgICAgTWFya2Rvd25Qcm9jZXNzb3JUeXBlLlVOT1JERVJFRF9MSVNUIC0+ICLigKIgIiArIHJlbmRlcklubGluZUJsb2NrKG5vZGUsIGxhdGV4U2VnbWVudHMpCiAgICAgICAgZWxzZSAtPiByZW5kZXJJbmxpbmVCbG9jayhub2RlLCBsYXRleFNlZ21lbnRzKQogICAgfQp9Cgpwcml2YXRlIGZ1biByZW5kZXJJbmxpbmVCbG9jayhub2RlOiBNYXJrZG93bk5vZGVTdGFibGUsIGxhdGV4U2VnbWVudHM6IE11dGFibGVMaXN0PFN0cmluZz4pOiBTdHJpbmcgewogICAgaWYgKG5vZGUuY2hpbGRyZW4uaXNFbXB0eSgpKSByZXR1cm4gbm9kZS5jb250ZW50CiAgICByZXR1cm4gbm9kZS5jaGlsZHJlbi5qb2luVG9TdHJpbmcoIiIpIHsgaXQucGxhaW5JbmxpbmVUZXh0KGxhdGV4U2VnbWVudHMpIH0KfQoKcHJpdmF0ZSBmdW4gTWFya2Rvd25Ob2RlU3RhYmxlLnBsYWluSW5saW5lVGV4dChsYXRleFNlZ21lbnRzOiBNdXRhYmxlTGlzdDxTdHJpbmc+KTogU3RyaW5nIHsKICAgIHJldHVybiB3aGVuICh0eXBlKSB7CiAgICAgICAgTWFya2Rvd25Qcm9jZXNzb3JUeXBlLklOTElORV9MQVRFWCwgTWFya2Rvd25Qcm9jZXNzb3JUeXBlLkJMT0NLX0xBVEVYIC0+CiAgICAgICAgICAgIHJlZ2lzdGVyTGF0ZXgoZXh0cmFjdExhdGV4Q29udGVudChjb250ZW50LnRyaW0oKSkudHJpbSgpLCBsYXRleFNlZ21lbnRzKQogICAgICAgIE1hcmtkb3duUHJvY2Vzc29yVHlwZS5MSU5LIC0+IHsKICAgICAgICAgICAgdmFsIHRleHQgPSByZXNvbHZlZENoaWxkcmVuVGV4dCh0aGlzLCBsYXRleFNlZ21lbnRzKQogICAgICAgICAgICB2YWwgdXJsID0gZXh0cmFjdExpbmtVcmwoY29udGVudCkKICAgICAgICAgICAgaWYgKHVybC5pc0JsYW5rKCkpIHRleHQgZWxzZSAiJHRleHQgKCR1cmwpIgogICAgICAgIH0KICAgICAgICBlbHNlIC0+IHJlc29sdmVkQ2hpbGRyZW5UZXh0KHRoaXMsIGxhdGV4U2VnbWVudHMpCiAgICB9Cn0KCnByaXZhdGUgZnVuIHJlc29sdmVkQ2hpbGRyZW5UZXh0KG5vZGU6IE1hcmtkb3duTm9kZVN0YWJsZSwgbGF0ZXhTZWdtZW50czogTXV0YWJsZUxpc3Q8U3RyaW5nPik6IFN0cmluZyB7CiAgICB2YWwgY2hpbGRyZW4gPSByZXNvbHZlTmVzdGVkSW5saW5lQ2hpbGRyZW4obm9kZSkKICAgIGlmIChjaGlsZHJlbi5pc0VtcHR5KCkpIHJldHVybiByZXNvbHZlTmVzdGVkSW5saW5lVGV4dChub2RlKQogICAgcmV0dXJuIGNoaWxkcmVuLmpvaW5Ub1N0cmluZygiIikgeyBpdC5wbGFpbklubGluZVRleHQobGF0ZXhTZWdtZW50cykgfQp9Cgpwcml2YXRlIGZ1biByZW5kZXJDb2RlQmxvY2soY29udGVudDogU3RyaW5nKTogU3RyaW5nIHsKICAgIHZhbCBjb2RlTGluZXMgPSBjb250ZW50LnRyaW0oKS5saW5lcygpCiAgICB2YWwgZmlyc3RMaW5lID0gY29kZUxpbmVzLmZpcnN0T3JOdWxsKCkub3JFbXB0eSgpCiAgICB2YWwgbGFuZ3VhZ2UgPSBpZiAoZmlyc3RMaW5lLnN0YXJ0c1dpdGgoImBgYCIpKSBmaXJzdExpbmUucmVtb3ZlUHJlZml4KCJgYGAiKS50cmltKCkgZWxzZSAiIgogICAgdmFsIGNvZGVDb250ZW50ID0gY29kZUxpbmVzCiAgICAgICAgLmRyb3BXaGlsZSB7IGl0LnN0YXJ0c1dpdGgoImBgYCIpIH0KICAgICAgICAuZHJvcExhc3RXaGlsZSB7IGl0LmVuZHNXaXRoKCJgYGAiKSB9CiAgICAgICAgLmpvaW5Ub1N0cmluZygiXG4iKQogICAgcmV0dXJuIGlmIChsYW5ndWFnZS5pc05vdEJsYW5rKCkpICItLS0tJGxhbmd1YWdlLS0tLS1cbiRjb2RlQ29udGVudCIgZWxzZSBjb2RlQ29udGVudAp9Cgpwcml2YXRlIGZ1biByZW5kZXJUYWJsZShjb250ZW50OiBTdHJpbmcsIGxhdGV4U2VnbWVudHM6IE11dGFibGVMaXN0PFN0cmluZz4pOiBTdHJpbmcgewogICAgcmV0dXJuIHBhcnNlVGFibGUoY29udGVudCkucm93cy5qb2luVG9TdHJpbmcoIlxuIikgeyByb3cgLT4KICAgICAgICByb3cuam9pblRvU3RyaW5nKCJcdCIpIHsgY2VsbCAtPiByZW5kZXJSYXdJbmxpbmVUZXh0KGNlbGwsIGxhdGV4U2VnbWVudHMpIH0KICAgIH0KfQoKcHJpdmF0ZSBmdW4gcmVuZGVyUmF3SW5saW5lVGV4dChyYXc6IFN0cmluZywgbGF0ZXhTZWdtZW50czogTXV0YWJsZUxpc3Q8U3RyaW5nPik6IFN0cmluZyB7CiAgICB2YWwgbm9kZXMgPSBOYXRpdmVNYXJrZG93blNwbGl0dGVyLnBhcnNlSW5saW5lVG9TdGFibGVOb2RlcyhyYXcpCiAgICBpZiAobm9kZXMuaXNFbXB0eSgpKSByZXR1cm4gcmF3CiAgICByZXR1cm4gbm9kZXMuam9pblRvU3RyaW5nKCIiKSB7IGl0LnBsYWluSW5saW5lVGV4dChsYXRleFNlZ21lbnRzKSB9Cn0KCnByaXZhdGUgZnVuIHJlZ2lzdGVyTGF0ZXgoZm9ybXVsYTogU3RyaW5nLCBsYXRleFNlZ21lbnRzOiBNdXRhYmxlTGlzdDxTdHJpbmc+KTogU3RyaW5nIHsKICAgIHZhbCBwbGFjZWhvbGRlciA9IGxhdGV4UGxhY2Vob2xkZXIobGF0ZXhTZWdtZW50cy5zaXplKQogICAgbGF0ZXhTZWdtZW50cyArPSBmb3JtdWxhCiAgICByZXR1cm4gcGxhY2Vob2xkZXIKfQoKcHJpdmF0ZSBmdW4gbGF0ZXhQbGFjZWhvbGRlcihpbmRleDogSW50KTogU3RyaW5nID0gIu6EgCRpbmRleO6EgSIK
+package com.bslsjdk.operit.ui.common.markdown
+
+import com.bslsjdk.operit.util.markdown.MarkdownNodeStable
+import com.bslsjdk.operit.util.markdown.MarkdownProcessorType
+import com.bslsjdk.operit.util.streamnative.NativeMarkdownSplitter
+
+/**
+ * 把消息内容解析为适合直接粘贴的纯文本，复用 [parseMarkdownToNodes] 产出的同一份 AST，
+ * 保证"复制出来的内容"和屏幕上渲染的内容共享同一套边界判断（代码块/表格/公式的起止位置等）。
+ */
+internal suspend fun markdownToPlainTextForCopy(
+    markdown: String,
+    latexToPlainText: (List<String>) -> List<String> = { it },
+): String {
+    // A complete document needs an explicit line ending to flush native streaming parser lookahead.
+    val completeMarkdown = if (markdown.endsWith('\n')) markdown else "$markdown\n"
+    val nodes = parseMarkdownToNodes(completeMarkdown).map { it.toStableNode() }
+    val latexSegments = mutableListOf<String>()
+    val rendered = joinBlocks(nodes, latexSegments)
+    // 折叠"空白行"：2 个以上换行（中间可能夹着空格/全角空格等水平空白，例如模型输出里
+    // 残留的一行全角空格会被解析成一个空 PLAIN_TEXT 块）统一折叠成一个空行，
+    // 否则纯 \n{3,} 规则会被中间的空白字符打断，导致公式块上方多出一个空行。
+    val normalized = rendered.replace(Regex("\\h*\\n(?:\\h*\\n)+\\h*"), "\n\n").trim()
+
+    if (latexSegments.isEmpty()) return normalized
+
+    val convertedLatex = latexToPlainText(latexSegments)
+    return latexSegments.indices.fold(normalized) { text, index ->
+        text.replace(
+            latexPlaceholder(index),
+            convertedLatex.getOrElse(index) { latexSegments[index] }
+        )
+    }
+}
+
+/**
+ * 逐个拼接顶层节点：相邻的列表项（有序/无序混排也算）之间只用单个换行，
+ * 其余相邻块之间空一行；HTML_BREAK 节点本身不参与渲染，只是原始 Markdown
+ * 里空行数量的标记，最终统一交给上面的空行折叠逻辑处理。
+ */
+private fun joinBlocks(nodes: List<MarkdownNodeStable>, latexSegments: MutableList<String>): String {
+    val contentNodes = nodes.filterNot { it.type == MarkdownProcessorType.HTML_BREAK }
+    val builder = StringBuilder()
+    contentNodes.forEachIndexed { index, node ->
+        if (index > 0) {
+            val previousType = contentNodes[index - 1].type
+            val bothListItems = node.type.isListItem() && previousType.isListItem()
+            builder.append(if (bothListItems) "\n" else "\n\n")
+        }
+        builder.append(renderBlockNode(node, latexSegments))
+    }
+    return builder.toString()
+}
+
+private fun MarkdownProcessorType.isListItem(): Boolean =
+    this == MarkdownProcessorType.ORDERED_LIST || this == MarkdownProcessorType.UNORDERED_LIST
+
+private fun renderBlockNode(node: MarkdownNodeStable, latexSegments: MutableList<String>): String {
+    return when (node.type) {
+        MarkdownProcessorType.HTML_BREAK,
+        MarkdownProcessorType.HORIZONTAL_RULE -> ""
+        MarkdownProcessorType.CODE_BLOCK -> renderCodeBlock(node.content)
+        MarkdownProcessorType.TABLE -> renderTable(node.content, latexSegments)
+        MarkdownProcessorType.BLOCK_LATEX ->
+            registerLatex(extractLatexContent(node.content.trim()).trim(), latexSegments)
+        MarkdownProcessorType.XML_BLOCK -> node.content
+        MarkdownProcessorType.IMAGE -> extractLinkText(node.content)
+        MarkdownProcessorType.HEADER -> renderInlineBlock(node, latexSegments).trimStart('#', ' ')
+        MarkdownProcessorType.UNORDERED_LIST -> "• " + renderInlineBlock(node, latexSegments)
+        else -> renderInlineBlock(node, latexSegments)
+    }
+}
+
+private fun renderInlineBlock(node: MarkdownNodeStable, latexSegments: MutableList<String>): String {
+    if (node.children.isEmpty()) return node.content
+    return node.children.joinToString("") { it.plainInlineText(latexSegments) }
+}
+
+private fun MarkdownNodeStable.plainInlineText(latexSegments: MutableList<String>): String {
+    return when (type) {
+        MarkdownProcessorType.INLINE_LATEX, MarkdownProcessorType.BLOCK_LATEX ->
+            registerLatex(extractLatexContent(content.trim()).trim(), latexSegments)
+        MarkdownProcessorType.LINK -> {
+            val text = resolvedChildrenText(this, latexSegments)
+            val url = extractLinkUrl(content)
+            if (url.isBlank()) text else "$text ($url)"
+        }
+        else -> resolvedChildrenText(this, latexSegments)
+    }
+}
+
+private fun resolvedChildrenText(node: MarkdownNodeStable, latexSegments: MutableList<String>): String {
+    val children = resolveNestedInlineChildren(node)
+    if (children.isEmpty()) return resolveNestedInlineText(node)
+    return children.joinToString("") { it.plainInlineText(latexSegments) }
+}
+
+private fun renderCodeBlock(content: String): String {
+    val codeLines = content.trim().lines()
+    val firstLine = codeLines.firstOrNull().orEmpty()
+    val language = if (firstLine.startsWith("```")) firstLine.removePrefix("```").trim() else ""
+    val codeContent = codeLines
+        .dropWhile { it.startsWith("```") }
+        .dropLastWhile { it.endsWith("```") }
+        .joinToString("\n")
+    return if (language.isNotBlank()) "----$language-----\n$codeContent" else codeContent
+}
+
+private fun renderTable(content: String, latexSegments: MutableList<String>): String {
+    return parseTable(content).rows.joinToString("\n") { row ->
+        row.joinToString("\t") { cell -> renderRawInlineText(cell, latexSegments) }
+    }
+}
+
+private fun renderRawInlineText(raw: String, latexSegments: MutableList<String>): String {
+    val nodes = NativeMarkdownSplitter.parseInlineToStableNodes(raw)
+    if (nodes.isEmpty()) return raw
+    return nodes.joinToString("") { it.plainInlineText(latexSegments) }
+}
+
+private fun registerLatex(formula: String, latexSegments: MutableList<String>): String {
+    val placeholder = latexPlaceholder(latexSegments.size)
+    latexSegments += formula
+    return placeholder
+}
+
+private fun latexPlaceholder(index: Int): String = "$index"

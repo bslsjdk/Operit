@@ -1,1 +1,237 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlRvb2xQYWNrYWdlCgppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dMb2FkT3JkZXJSZXN1bHQoCiAgICB2YWwgb3JkZXJlZENvbnRhaW5lcnM6IExpc3Q8VG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWU+LAogICAgdmFsIGZhaWx1cmVzOiBNYXA8U3RyaW5nLCBTdHJpbmc+CikKCmludGVybmFsIG9iamVjdCBUb29sUGtnTG9hZE9yZGVyUmVzb2x2ZXIgewogICAgcHJpdmF0ZSBzZWFsZWQgaW50ZXJmYWNlIFBhY2thZ2VSZWZlcmVuY2UgewogICAgICAgIHZhbCBwYWNrYWdlTmFtZTogU3RyaW5nCiAgICAgICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmc/CiAgICAgICAgdmFsIHZlcnNpb246IFN0cmluZwoKICAgICAgICBkYXRhIGNsYXNzIENvbnRhaW5lcigKICAgICAgICAgICAgb3ZlcnJpZGUgdmFsIHBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICAgICAgICAgIG92ZXJyaWRlIHZhbCB2ZXJzaW9uOiBTdHJpbmcKICAgICAgICApIDogUGFja2FnZVJlZmVyZW5jZSB7CiAgICAgICAgICAgIG92ZXJyaWRlIHZhbCBjb250YWluZXJQYWNrYWdlTmFtZTogU3RyaW5nID0gcGFja2FnZU5hbWUKICAgICAgICB9CgogICAgICAgIGRhdGEgY2xhc3MgUGFja2FnZSgKICAgICAgICAgICAgb3ZlcnJpZGUgdmFsIHBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICAgICAgICAgIG92ZXJyaWRlIHZhbCB2ZXJzaW9uOiBTdHJpbmcsCiAgICAgICAgICAgIG92ZXJyaWRlIHZhbCBjb250YWluZXJQYWNrYWdlTmFtZTogU3RyaW5nPyA9IG51bGwKICAgICAgICApIDogUGFja2FnZVJlZmVyZW5jZQogICAgfQoKICAgIGZ1biByZXNvbHZlKAogICAgICAgIGNvbnRhaW5lcnM6IENvbGxlY3Rpb248VG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWU+LAogICAgICAgIGF2YWlsYWJsZVBhY2thZ2VzOiBNYXA8U3RyaW5nLCBUb29sUGFja2FnZT4sCiAgICAgICAgZW5hYmxlZFBhY2thZ2VOYW1lczogQ29sbGVjdGlvbjxTdHJpbmc+LAogICAgICAgIHByZWZlcnJlZE9yZGVyOiBMaXN0PFN0cmluZz4KICAgICk6IFRvb2xQa2dMb2FkT3JkZXJSZXN1bHQgewogICAgICAgIHZhbCBhdmFpbGFibGVCeUtleSA9IGxpbmtlZE1hcE9mPFN0cmluZywgVG9vbFBhY2thZ2U+KCkKICAgICAgICBhdmFpbGFibGVQYWNrYWdlcy5mb3JFYWNoIHsgKHBhY2thZ2VOYW1lLCBwYWNrYWdlVmFsdWUpIC0+CiAgICAgICAgICAgIGF2YWlsYWJsZUJ5S2V5LnB1dElmQWJzZW50KHBhY2thZ2VOYW1lLmxvd2VyY2FzZSgpLCBwYWNrYWdlVmFsdWUpCiAgICAgICAgfQoKICAgICAgICB2YWwgY29udGFpbmVyQnlSZWZlcmVuY2UgPSBsaW5rZWRNYXBPZjxTdHJpbmcsIFRvb2xQa2dDb250YWluZXJSdW50aW1lPigpCiAgICAgICAgdmFsIHN1YnBhY2thZ2VCeVJlZmVyZW5jZSA9IGxpbmtlZE1hcE9mPFN0cmluZywgVG9vbFBrZ1N1YnBhY2thZ2VSdW50aW1lPigpCiAgICAgICAgY29udGFpbmVycy5mb3JFYWNoIHsgY29udGFpbmVyIC0+CiAgICAgICAgICAgIGNvbnRhaW5lckJ5UmVmZXJlbmNlLnB1dElmQWJzZW50KGNvbnRhaW5lci5wYWNrYWdlTmFtZS5sb3dlcmNhc2UoKSwgY29udGFpbmVyKQogICAgICAgICAgICBjb250YWluZXIuc3VicGFja2FnZXMuZm9yRWFjaCB7IHN1YnBhY2thZ2UgLT4KICAgICAgICAgICAgICAgIHN1YnBhY2thZ2VCeVJlZmVyZW5jZS5wdXRJZkFic2VudChzdWJwYWNrYWdlLnBhY2thZ2VOYW1lLmxvd2VyY2FzZSgpLCBzdWJwYWNrYWdlKQogICAgICAgICAgICAgICAgc3VicGFja2FnZUJ5UmVmZXJlbmNlLnB1dElmQWJzZW50KHN1YnBhY2thZ2Uuc3VicGFja2FnZUlkLmxvd2VyY2FzZSgpLCBzdWJwYWNrYWdlKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB2YWwgZW5hYmxlZEtleXMgPSBlbmFibGVkUGFja2FnZU5hbWVzLm1hcChTdHJpbmc6OnRyaW0pCiAgICAgICAgICAgIC5maWx0ZXIoU3RyaW5nOjppc05vdEJsYW5rKQogICAgICAgICAgICAubWFwKFN0cmluZzo6bG93ZXJjYXNlKQogICAgICAgICAgICAudG9TZXQoKQogICAgICAgIHZhbCBzZWxlY3RlZENvbnRhaW5lcnMgPSBjb250YWluZXJzLmZpbHRlciB7IGNvbnRhaW5lciAtPgogICAgICAgICAgICBlbmFibGVkS2V5cy5jb250YWlucyhjb250YWluZXIucGFja2FnZU5hbWUubG93ZXJjYXNlKCkpIHx8CiAgICAgICAgICAgICAgICBjb250YWluZXIuc3VicGFja2FnZXMuYW55IHsgc3VicGFja2FnZSAtPgogICAgICAgICAgICAgICAgICAgIGVuYWJsZWRLZXlzLmNvbnRhaW5zKHN1YnBhY2thZ2UucGFja2FnZU5hbWUubG93ZXJjYXNlKCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHZhbCBzZWxlY3RlZEJ5S2V5ID0gc2VsZWN0ZWRDb250YWluZXJzLmFzc29jaWF0ZUJ5IHsgaXQucGFja2FnZU5hbWUubG93ZXJjYXNlKCkgfQogICAgICAgIHZhbCBmYWlsdXJlcyA9IGxpbmtlZE1hcE9mPFN0cmluZywgU3RyaW5nPigpCgogICAgICAgIGZ1biByZXNvbHZlUmVmZXJlbmNlKHJlcXVpcmVtZW50OiBUb29sUGtnTWFuaWZlc3RSZXF1aXJlbWVudCk6IFBhY2thZ2VSZWZlcmVuY2U/IHsKICAgICAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSByZXF1aXJlbWVudC5pZC50cmltKCkKICAgICAgICAgICAgaWYgKG5vcm1hbGl6ZWQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnRhaW5lckJ5UmVmZXJlbmNlW25vcm1hbGl6ZWQubG93ZXJjYXNlKCldPy5sZXQgeyBjb250YWluZXIgLT4KICAgICAgICAgICAgICAgIHJldHVybiBQYWNrYWdlUmVmZXJlbmNlLkNvbnRhaW5lcigKICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZSA9IGNvbnRhaW5lci5wYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgICAgICB2ZXJzaW9uID0gY29udGFpbmVyLnZlcnNpb24KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICBzdWJwYWNrYWdlQnlSZWZlcmVuY2Vbbm9ybWFsaXplZC5sb3dlcmNhc2UoKV0/LmxldCB7IHN1YnBhY2thZ2UgLT4KICAgICAgICAgICAgICAgIHZhbCBwYWNrYWdlVmVyc2lvbiA9IGF2YWlsYWJsZUJ5S2V5W3N1YnBhY2thZ2UucGFja2FnZU5hbWUubG93ZXJjYXNlKCldPy52ZXJzaW9uLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgcmV0dXJuIFBhY2thZ2VSZWZlcmVuY2UuUGFja2FnZSgKICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZSA9IHN1YnBhY2thZ2UucGFja2FnZU5hbWUsCiAgICAgICAgICAgICAgICAgICAgdmVyc2lvbiA9IHBhY2thZ2VWZXJzaW9uLAogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lID0gc3VicGFja2FnZS5jb250YWluZXJQYWNrYWdlTmFtZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGF2YWlsYWJsZUJ5S2V5W25vcm1hbGl6ZWQubG93ZXJjYXNlKCldPy5sZXQgeyBwYWNrYWdlVmFsdWUgLT4KICAgICAgICAgICAgICAgIHJldHVybiBQYWNrYWdlUmVmZXJlbmNlLlBhY2thZ2UoCiAgICAgICAgICAgICAgICAgICAgcGFja2FnZU5hbWUgPSBwYWNrYWdlVmFsdWUubmFtZSwKICAgICAgICAgICAgICAgICAgICB2ZXJzaW9uID0gcGFja2FnZVZhbHVlLnZlcnNpb24KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KCiAgICAgICAgdmFsIGVkZ2VzID0gc2VsZWN0ZWRDb250YWluZXJzLmFzc29jaWF0ZSB7IGl0LnBhY2thZ2VOYW1lIHRvIGxpbmtlZFNldE9mPFN0cmluZz4oKSB9LnRvTXV0YWJsZU1hcCgpCgogICAgICAgIGZ1biBhZGRFZGdlKGJlZm9yZTogU3RyaW5nLCBhZnRlcjogU3RyaW5nKSB7CiAgICAgICAgICAgIGVkZ2VzLmdldFZhbHVlKGJlZm9yZSkuYWRkKGFmdGVyKQogICAgICAgIH0KCiAgICAgICAgZnVuIHJlcXVpcmVtZW50TGFiZWwocmVxdWlyZW1lbnQ6IFRvb2xQa2dNYW5pZmVzdFJlcXVpcmVtZW50KTogU3RyaW5nIHsKICAgICAgICAgICAgdmFsIGNvbnN0cmFpbnQgPSByZXF1aXJlbWVudC52ZXJzaW9uQ29uc3RyYWludFRleHQoKQogICAgICAgICAgICByZXR1cm4gYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgYXBwZW5kKCInIikKICAgICAgICAgICAgICAgIGFwcGVuZChyZXF1aXJlbWVudC5pZCkKICAgICAgICAgICAgICAgIGFwcGVuZCgiJyIpCiAgICAgICAgICAgICAgICBpZiAocmVxdWlyZW1lbnQuZGVzY3JpcHRpb24uaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCIgKCIpCiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKHJlcXVpcmVtZW50LmRlc2NyaXB0aW9uKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZCgiKSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoY29uc3RyYWludCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCIgWyIpCiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKGNvbnN0cmFpbnQpCiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCJdIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc2VsZWN0ZWRDb250YWluZXJzLmZvckVhY2ggeyBjb250YWluZXIgLT4KICAgICAgICAgICAgY29udGFpbmVyLnJlcXVpcmVzLmZvckVhY2ggeyByZXF1aXJlbWVudCAtPgogICAgICAgICAgICAgICAgdmFsIHRhcmdldCA9IHJlc29sdmVSZWZlcmVuY2UocmVxdWlyZW1lbnQpCiAgICAgICAgICAgICAgICBpZiAodGFyZ2V0ID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBmYWlsdXJlc1tjb250YWluZXIucGFja2FnZU5hbWVdID0KICAgICAgICAgICAgICAgICAgICAgICAgIlRvb2xQa2cgJyR7Y29udGFpbmVyLnBhY2thZ2VOYW1lfScgcmVxdWlyZXMgJHtyZXF1aXJlbWVudExhYmVsKHJlcXVpcmVtZW50KX0sIGJ1dCB0aGF0IHBhY2thZ2UgaXMgbm90IGF2YWlsYWJsZS4iCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQGZvckVhY2gKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB2YWwgdmVyc2lvbkZhaWx1cmUgPSByZXF1aXJlbWVudC50YXJnZXRWZXJzaW9uRmFpbHVyZSh0YXJnZXQudmVyc2lvbikKICAgICAgICAgICAgICAgIGlmICh2ZXJzaW9uRmFpbHVyZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgZmFpbHVyZXNbY29udGFpbmVyLnBhY2thZ2VOYW1lXSA9CiAgICAgICAgICAgICAgICAgICAgICAgICJUb29sUGtnICcke2NvbnRhaW5lci5wYWNrYWdlTmFtZX0nIHJlcXVpcmVzICR7cmVxdWlyZW1lbnRMYWJlbChyZXF1aXJlbWVudCl9LCBidXQgJHZlcnNpb25GYWlsdXJlLiIKICAgICAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGlmICgKICAgICAgICAgICAgICAgICAgICB0YXJnZXQucGFja2FnZU5hbWUuZXF1YWxzKGNvbnRhaW5lci5wYWNrYWdlTmFtZSwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgICAgICAgICAgICAgICAgIHRhcmdldC5jb250YWluZXJQYWNrYWdlTmFtZT8uZXF1YWxzKGNvbnRhaW5lci5wYWNrYWdlTmFtZSwgaWdub3JlQ2FzZSA9IHRydWUpID09IHRydWUKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIGZhaWx1cmVzW2NvbnRhaW5lci5wYWNrYWdlTmFtZV0gPQogICAgICAgICAgICAgICAgICAgICAgICAiVG9vbFBrZyAnJHtjb250YWluZXIucGFja2FnZU5hbWV9JyBjYW5ub3QgcmVxdWlyZSBpdHNlbGYuIgogICAgICAgICAgICAgICAgICAgIHJldHVybkBmb3JFYWNoCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgd2hlbiAodGFyZ2V0KSB7CiAgICAgICAgICAgICAgICAgICAgaXMgUGFja2FnZVJlZmVyZW5jZS5Db250YWluZXIgLT4gewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoIXNlbGVjdGVkQnlLZXkuY29udGFpbnNLZXkodGFyZ2V0LnBhY2thZ2VOYW1lLmxvd2VyY2FzZSgpKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFpbHVyZXNbY29udGFpbmVyLnBhY2thZ2VOYW1lXSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRvb2xQa2cgJyR7Y29udGFpbmVyLnBhY2thZ2VOYW1lfScgcmVxdWlyZXMgJHtyZXF1aXJlbWVudExhYmVsKHJlcXVpcmVtZW50KX0gdG8gYmUgZW5hYmxlZC4iCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZGRFZGdlKHRhcmdldC5wYWNrYWdlTmFtZSwgY29udGFpbmVyLnBhY2thZ2VOYW1lKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlzIFBhY2thZ2VSZWZlcmVuY2UuUGFja2FnZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghZW5hYmxlZEtleXMuY29udGFpbnModGFyZ2V0LnBhY2thZ2VOYW1lLmxvd2VyY2FzZSgpKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFpbHVyZXNbY29udGFpbmVyLnBhY2thZ2VOYW1lXSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRvb2xQa2cgJyR7Y29udGFpbmVyLnBhY2thZ2VOYW1lfScgcmVxdWlyZXMgJHtyZXF1aXJlbWVudExhYmVsKHJlcXVpcmVtZW50KX0gdG8gYmUgZW5hYmxlZC4iCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YXJnZXQuY29udGFpbmVyUGFja2FnZU5hbWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/LnRha2VJZiB7IHNlbGVjdGVkQnlLZXkuY29udGFpbnNLZXkoaXQubG93ZXJjYXNlKCkpIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/LmxldCB7IGFkZEVkZ2UoaXQsIGNvbnRhaW5lci5wYWNrYWdlTmFtZSkgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB2YXIgY2hhbmdlZDogQm9vbGVhbgogICAgICAgIGRvIHsKICAgICAgICAgICAgY2hhbmdlZCA9IGZhbHNlCiAgICAgICAgICAgIHNlbGVjdGVkQ29udGFpbmVycy5mb3JFYWNoIHsgY29udGFpbmVyIC0+CiAgICAgICAgICAgICAgICBpZiAoZmFpbHVyZXMuY29udGFpbnNLZXkoY29udGFpbmVyLnBhY2thZ2VOYW1lKSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybkBmb3JFYWNoCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgaW52YWxpZFJlcXVpcmVkQ29udGFpbmVyID0gY29udGFpbmVyLnJlcXVpcmVzLmZpcnN0T3JOdWxsIHsgcmVxdWlyZW1lbnQgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgdGFyZ2V0ID0gcmVzb2x2ZVJlZmVyZW5jZShyZXF1aXJlbWVudCkKICAgICAgICAgICAgICAgICAgICB0YXJnZXQ/LmNvbnRhaW5lclBhY2thZ2VOYW1lPy5sZXQgeyBjb250YWluZXJOYW1lIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGZhaWx1cmVzLmNvbnRhaW5zS2V5KGNvbnRhaW5lck5hbWUpCiAgICAgICAgICAgICAgICAgICAgfSA9PSB0cnVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoaW52YWxpZFJlcXVpcmVkQ29udGFpbmVyICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBmYWlsdXJlc1tjb250YWluZXIucGFja2FnZU5hbWVdID0KICAgICAgICAgICAgICAgICAgICAgICAgIlRvb2xQa2cgJyR7Y29udGFpbmVyLnBhY2thZ2VOYW1lfScgcmVxdWlyZXMgJHtyZXF1aXJlbWVudExhYmVsKGludmFsaWRSZXF1aXJlZENvbnRhaW5lcil9LCB3aGljaCBjYW5ub3QgYmUgbG9hZGVkLiIKICAgICAgICAgICAgICAgICAgICBjaGFuZ2VkID0gdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSB3aGlsZSAoY2hhbmdlZCkKCiAgICAgICAgdmFsIHByZWZlcnJlZE9yZGVySW5kZXggPSBwcmVmZXJyZWRPcmRlci5tYXAoU3RyaW5nOjp0cmltKQogICAgICAgICAgICAuZmlsdGVyKFN0cmluZzo6aXNOb3RCbGFuaykKICAgICAgICAgICAgLm1hcChTdHJpbmc6Omxvd2VyY2FzZSkKICAgICAgICAgICAgLndpdGhJbmRleCgpCiAgICAgICAgICAgIC5hc3NvY2lhdGUgeyBpdC52YWx1ZSB0byBpdC5pbmRleCB9CiAgICAgICAgdmFsIGNvbXBhcmF0b3IgPSBjb21wYXJlQnk8U3RyaW5nPiB7CiAgICAgICAgICAgIHByZWZlcnJlZE9yZGVySW5kZXhbaXQubG93ZXJjYXNlKCldID86IEludC5NQVhfVkFMVUUKICAgICAgICB9LnRoZW5CeShTdHJpbmc6Omxvd2VyY2FzZSkudGhlbkJ5IHsgaXQgfQoKICAgICAgICB2YWwgdmFsaWROYW1lcyA9IHNlbGVjdGVkQ29udGFpbmVycwogICAgICAgICAgICAubWFwKFRvb2xQa2dDb250YWluZXJSdW50aW1lOjpwYWNrYWdlTmFtZSkKICAgICAgICAgICAgLmZpbHRlck5vdChmYWlsdXJlczo6Y29udGFpbnNLZXkpCiAgICAgICAgICAgIC50b1NldCgpCiAgICAgICAgdmFsIGluZGVncmVlID0gdmFsaWROYW1lcy5hc3NvY2lhdGVXaXRoIHsgMCB9LnRvTXV0YWJsZU1hcCgpCiAgICAgICAgZWRnZXMuZm9yRWFjaCB7IChiZWZvcmUsIGFmdGVyTmFtZXMpIC0+CiAgICAgICAgICAgIGlmICghdmFsaWROYW1lcy5jb250YWlucyhiZWZvcmUpKSB7CiAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICB9CiAgICAgICAgICAgIGFmdGVyTmFtZXMuZmlsdGVyKHZhbGlkTmFtZXM6OmNvbnRhaW5zKS5mb3JFYWNoIHsgYWZ0ZXIgLT4KICAgICAgICAgICAgICAgIGluZGVncmVlW2FmdGVyXSA9IGluZGVncmVlLmdldFZhbHVlKGFmdGVyKSArIDEKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmFsIHBlbmRpbmcgPSB2YWxpZE5hbWVzLnRvTXV0YWJsZVNldCgpCiAgICAgICAgdmFsIG9yZGVyZWROYW1lcyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgd2hpbGUgKHBlbmRpbmcuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIHZhbCBuZXh0ID0gcGVuZGluZwogICAgICAgICAgICAgICAgLmZpbHRlciB7IGluZGVncmVlLmdldFZhbHVlKGl0KSA9PSAwIH0KICAgICAgICAgICAgICAgIC5taW5XaXRoT3JOdWxsKGNvbXBhcmF0b3IpCiAgICAgICAgICAgICAgICA/OiBicmVhawogICAgICAgICAgICBwZW5kaW5nLnJlbW92ZShuZXh0KQogICAgICAgICAgICBvcmRlcmVkTmFtZXMgKz0gbmV4dAogICAgICAgICAgICBlZGdlc1tuZXh0XS5vckVtcHR5KCkuZmlsdGVyKHBlbmRpbmc6OmNvbnRhaW5zKS5mb3JFYWNoIHsgYWZ0ZXIgLT4KICAgICAgICAgICAgICAgIGluZGVncmVlW2FmdGVyXSA9IGluZGVncmVlLmdldFZhbHVlKGFmdGVyKSAtIDEKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaWYgKHBlbmRpbmcuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIHZhbCBjeWNsZURlc2NyaXB0aW9uID0gcGVuZGluZy50b0xpc3QoKS5zb3J0ZWRXaXRoKGNvbXBhcmF0b3IpLmpvaW5Ub1N0cmluZygiLCAiKQogICAgICAgICAgICBwZW5kaW5nLmZvckVhY2ggeyBwYWNrYWdlTmFtZSAtPgogICAgICAgICAgICAgICAgZmFpbHVyZXNbcGFja2FnZU5hbWVdID0KICAgICAgICAgICAgICAgICAgICAiVG9vbFBrZyBsb2FkIG9yZGVyIGNvbnRhaW5zIGEgZGVwZW5kZW5jeSBjeWNsZSBpbnZvbHZpbmc6ICRjeWNsZURlc2NyaXB0aW9uLiIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmFsIGNvbnRhaW5lcnNCeU5hbWUgPSBzZWxlY3RlZENvbnRhaW5lcnMuYXNzb2NpYXRlQnkgeyBpdC5wYWNrYWdlTmFtZSB9CiAgICAgICAgcmV0dXJuIFRvb2xQa2dMb2FkT3JkZXJSZXN1bHQoCiAgICAgICAgICAgIG9yZGVyZWRDb250YWluZXJzID0gb3JkZXJlZE5hbWVzLm1hcE5vdE51bGwoY29udGFpbmVyc0J5TmFtZTo6Z2V0KSwKICAgICAgICAgICAgZmFpbHVyZXMgPSBmYWlsdXJlcwogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.packTool
+
+import com.bslsjdk.operit.core.tools.ToolPackage
+
+internal data class ToolPkgLoadOrderResult(
+    val orderedContainers: List<ToolPkgContainerRuntime>,
+    val failures: Map<String, String>
+)
+
+internal object ToolPkgLoadOrderResolver {
+    private sealed interface PackageReference {
+        val packageName: String
+        val containerPackageName: String?
+        val version: String
+
+        data class Container(
+            override val packageName: String,
+            override val version: String
+        ) : PackageReference {
+            override val containerPackageName: String = packageName
+        }
+
+        data class Package(
+            override val packageName: String,
+            override val version: String,
+            override val containerPackageName: String? = null
+        ) : PackageReference
+    }
+
+    fun resolve(
+        containers: Collection<ToolPkgContainerRuntime>,
+        availablePackages: Map<String, ToolPackage>,
+        enabledPackageNames: Collection<String>,
+        preferredOrder: List<String>
+    ): ToolPkgLoadOrderResult {
+        val availableByKey = linkedMapOf<String, ToolPackage>()
+        availablePackages.forEach { (packageName, packageValue) ->
+            availableByKey.putIfAbsent(packageName.lowercase(), packageValue)
+        }
+
+        val containerByReference = linkedMapOf<String, ToolPkgContainerRuntime>()
+        val subpackageByReference = linkedMapOf<String, ToolPkgSubpackageRuntime>()
+        containers.forEach { container ->
+            containerByReference.putIfAbsent(container.packageName.lowercase(), container)
+            container.subpackages.forEach { subpackage ->
+                subpackageByReference.putIfAbsent(subpackage.packageName.lowercase(), subpackage)
+                subpackageByReference.putIfAbsent(subpackage.subpackageId.lowercase(), subpackage)
+            }
+        }
+
+        val enabledKeys = enabledPackageNames.map(String::trim)
+            .filter(String::isNotBlank)
+            .map(String::lowercase)
+            .toSet()
+        val selectedContainers = containers.filter { container ->
+            enabledKeys.contains(container.packageName.lowercase()) ||
+                container.subpackages.any { subpackage ->
+                    enabledKeys.contains(subpackage.packageName.lowercase())
+                }
+        }
+        val selectedByKey = selectedContainers.associateBy { it.packageName.lowercase() }
+        val failures = linkedMapOf<String, String>()
+
+        fun resolveReference(requirement: ToolPkgManifestRequirement): PackageReference? {
+            val normalized = requirement.id.trim()
+            if (normalized.isBlank()) {
+                return null
+            }
+            containerByReference[normalized.lowercase()]?.let { container ->
+                return PackageReference.Container(
+                    packageName = container.packageName,
+                    version = container.version
+                )
+            }
+            subpackageByReference[normalized.lowercase()]?.let { subpackage ->
+                val packageVersion = availableByKey[subpackage.packageName.lowercase()]?.version.orEmpty()
+                return PackageReference.Package(
+                    packageName = subpackage.packageName,
+                    version = packageVersion,
+                    containerPackageName = subpackage.containerPackageName
+                )
+            }
+            availableByKey[normalized.lowercase()]?.let { packageValue ->
+                return PackageReference.Package(
+                    packageName = packageValue.name,
+                    version = packageValue.version
+                )
+            }
+            return null
+        }
+
+        val edges = selectedContainers.associate { it.packageName to linkedSetOf<String>() }.toMutableMap()
+
+        fun addEdge(before: String, after: String) {
+            edges.getValue(before).add(after)
+        }
+
+        fun requirementLabel(requirement: ToolPkgManifestRequirement): String {
+            val constraint = requirement.versionConstraintText()
+            return buildString {
+                append("'")
+                append(requirement.id)
+                append("'")
+                if (requirement.description.isNotBlank()) {
+                    append(" (")
+                    append(requirement.description)
+                    append(")")
+                }
+                if (constraint != null) {
+                    append(" [")
+                    append(constraint)
+                    append("]")
+                }
+            }
+        }
+
+        selectedContainers.forEach { container ->
+            container.requires.forEach { requirement ->
+                val target = resolveReference(requirement)
+                if (target == null) {
+                    failures[container.packageName] =
+                        "ToolPkg '${container.packageName}' requires ${requirementLabel(requirement)}, but that package is not available."
+                    return@forEach
+                }
+
+                val versionFailure = requirement.targetVersionFailure(target.version)
+                if (versionFailure != null) {
+                    failures[container.packageName] =
+                        "ToolPkg '${container.packageName}' requires ${requirementLabel(requirement)}, but $versionFailure."
+                    return@forEach
+                }
+
+                if (
+                    target.packageName.equals(container.packageName, ignoreCase = true) ||
+                        target.containerPackageName?.equals(container.packageName, ignoreCase = true) == true
+                ) {
+                    failures[container.packageName] =
+                        "ToolPkg '${container.packageName}' cannot require itself."
+                    return@forEach
+                }
+
+                when (target) {
+                    is PackageReference.Container -> {
+                        if (!selectedByKey.containsKey(target.packageName.lowercase())) {
+                            failures[container.packageName] =
+                                "ToolPkg '${container.packageName}' requires ${requirementLabel(requirement)} to be enabled."
+                        } else {
+                            addEdge(target.packageName, container.packageName)
+                        }
+                    }
+                    is PackageReference.Package -> {
+                        if (!enabledKeys.contains(target.packageName.lowercase())) {
+                            failures[container.packageName] =
+                                "ToolPkg '${container.packageName}' requires ${requirementLabel(requirement)} to be enabled."
+                        } else {
+                            target.containerPackageName
+                                ?.takeIf { selectedByKey.containsKey(it.lowercase()) }
+                                ?.let { addEdge(it, container.packageName) }
+                        }
+                    }
+                }
+            }
+        }
+
+        var changed: Boolean
+        do {
+            changed = false
+            selectedContainers.forEach { container ->
+                if (failures.containsKey(container.packageName)) {
+                    return@forEach
+                }
+                val invalidRequiredContainer = container.requires.firstOrNull { requirement ->
+                    val target = resolveReference(requirement)
+                    target?.containerPackageName?.let { containerName ->
+                        failures.containsKey(containerName)
+                    } == true
+                }
+                if (invalidRequiredContainer != null) {
+                    failures[container.packageName] =
+                        "ToolPkg '${container.packageName}' requires ${requirementLabel(invalidRequiredContainer)}, which cannot be loaded."
+                    changed = true
+                }
+            }
+        } while (changed)
+
+        val preferredOrderIndex = preferredOrder.map(String::trim)
+            .filter(String::isNotBlank)
+            .map(String::lowercase)
+            .withIndex()
+            .associate { it.value to it.index }
+        val comparator = compareBy<String> {
+            preferredOrderIndex[it.lowercase()] ?: Int.MAX_VALUE
+        }.thenBy(String::lowercase).thenBy { it }
+
+        val validNames = selectedContainers
+            .map(ToolPkgContainerRuntime::packageName)
+            .filterNot(failures::containsKey)
+            .toSet()
+        val indegree = validNames.associateWith { 0 }.toMutableMap()
+        edges.forEach { (before, afterNames) ->
+            if (!validNames.contains(before)) {
+                return@forEach
+            }
+            afterNames.filter(validNames::contains).forEach { after ->
+                indegree[after] = indegree.getValue(after) + 1
+            }
+        }
+
+        val pending = validNames.toMutableSet()
+        val orderedNames = mutableListOf<String>()
+        while (pending.isNotEmpty()) {
+            val next = pending
+                .filter { indegree.getValue(it) == 0 }
+                .minWithOrNull(comparator)
+                ?: break
+            pending.remove(next)
+            orderedNames += next
+            edges[next].orEmpty().filter(pending::contains).forEach { after ->
+                indegree[after] = indegree.getValue(after) - 1
+            }
+        }
+
+        if (pending.isNotEmpty()) {
+            val cycleDescription = pending.toList().sortedWith(comparator).joinToString(", ")
+            pending.forEach { packageName ->
+                failures[packageName] =
+                    "ToolPkg load order contains a dependency cycle involving: $cycleDescription."
+            }
+        }
+
+        val containersByName = selectedContainers.associateBy { it.packageName }
+        return ToolPkgLoadOrderResult(
+            orderedContainers = orderedNames.mapNotNull(containersByName::get),
+            failures = failures
+        )
+    }
+}

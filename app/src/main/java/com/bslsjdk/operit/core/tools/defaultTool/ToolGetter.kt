@@ -1,1 +1,219 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5hY2Nlc3NiaWxpdHkuKgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuZGVmYXVsdFRvb2wuYWRtaW4uKgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuZGVmYXVsdFRvb2wuZGVidWdnZXIuKgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuZGVmYXVsdFRvb2wucm9vdC4qCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5zdGFuZGFyZC4qCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uQW5kcm9pZFBlcm1pc3Npb25MZXZlbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuYW5kcm9pZFBlcm1pc3Npb25QcmVmZXJlbmNlcwoKLyoqIOW3peWFt+iOt+WPluWZqCAtIOagueaNrummlumAieadg+mZkOe6p+WIq+iOt+WPluWvueW6lOeahOW3peWFt+WunueOsCDlpoLmnpznibnlrprmnYPpmZDnuqfliKvkuIvmsqHmnInlr7nlupTlt6Xlhbflrp7njrDvvIzliJnlm57pgIDliLDmoIflh4bmnYPpmZDnuqfliKvnmoTlt6XlhbcgKi8Kb2JqZWN0IFRvb2xHZXR0ZXIgewoKICAgIC8qKgogICAgICog6I635Y+W5paH5Lu257O757uf5bel5YW3CiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4g5qC55o2u6aaW6YCJ5p2D6ZmQ57qn5Yir55qE5paH5Lu257O757uf5bel5YW35a6e546wCiAgICAgKi8KICAgIGZ1biBnZXRGaWxlU3lzdGVtVG9vbHMoY29udGV4dDogQ29udGV4dCk6IFN0YW5kYXJkRmlsZVN5c3RlbVRvb2xzIHsKICAgICAgICByZXR1cm4gd2hlbiAoYW5kcm9pZFBlcm1pc3Npb25QcmVmZXJlbmNlcy5nZXRQcmVmZXJyZWRQZXJtaXNzaW9uTGV2ZWwoKSkgewogICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLlJPT1QgLT4gUm9vdEZpbGVTeXN0ZW1Ub29scyhjb250ZXh0KQogICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLkFETUlOIC0+IEFkbWluRmlsZVN5c3RlbVRvb2xzKGNvbnRleHQpCiAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuREVCVUdHRVIgLT4gRGVidWdnZXJGaWxlU3lzdGVtVG9vbHMoY29udGV4dCkKICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5BQ0NFU1NJQklMSVRZIC0+IEFjY2Vzc2liaWxpdHlGaWxlU3lzdGVtVG9vbHMoY29udGV4dCkKICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5TVEFOREFSRCAtPiBTdGFuZGFyZEZpbGVTeXN0ZW1Ub29scyhjb250ZXh0KQogICAgICAgICAgICBudWxsIC0+IFN0YW5kYXJkRmlsZVN5c3RlbVRvb2xzKGNvbnRleHQpIC8vIOm7mOiupOS9v+eUqOagh+WHhuadg+mZkOe6p+WIqwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPllNoZWxs5bel5YW35omn6KGM5ZmoCiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4g5qC55o2u6aaW6YCJ5p2D6ZmQ57qn5Yir55qEU2hlbGzlt6XlhbfmiafooYzlmajlrp7njrAKICAgICAqLwogICAgZnVuIGdldFNoZWxsVG9vbEV4ZWN1dG9yKGNvbnRleHQ6IENvbnRleHQpOiBTdGFuZGFyZFNoZWxsVG9vbEV4ZWN1dG9yIHsKICAgICAgICByZXR1cm4gU3RhbmRhcmRTaGVsbFRvb2xFeGVjdXRvcihjb250ZXh0KQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+WVUnlt6XlhbcKICAgICAqIEBwYXJhbSBjb250ZXh0IOW6lOeUqOS4iuS4i+aWhwogICAgICogQHJldHVybiDmoLnmja7pppbpgInmnYPpmZDnuqfliKvnmoRVSeW3peWFt+WunueOsAogICAgICovCiAgICBmdW4gZ2V0VUlUb29scyhjb250ZXh0OiBDb250ZXh0KTogU3RhbmRhcmRVSVRvb2xzIHsKICAgICAgICByZXR1cm4gd2hlbiAoYW5kcm9pZFBlcm1pc3Npb25QcmVmZXJlbmNlcy5nZXRQcmVmZXJyZWRQZXJtaXNzaW9uTGV2ZWwoKSkgewogICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLlJPT1QgLT4gUm9vdFVJVG9vbHMoY29udGV4dCkKICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5BRE1JTiAtPiBBZG1pblVJVG9vbHMoY29udGV4dCkKICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5ERUJVR0dFUiAtPiBEZWJ1Z2dlclVJVG9vbHMoY29udGV4dCkKICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5BQ0NFU1NJQklMSVRZIC0+IEFjY2Vzc2liaWxpdHlVSVRvb2xzKGNvbnRleHQpCiAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuU1RBTkRBUkQgLT4gU3RhbmRhcmRVSVRvb2xzKGNvbnRleHQpCiAgICAgICAgICAgIG51bGwgLT4gU3RhbmRhcmRVSVRvb2xzKGNvbnRleHQpIC8vIOm7mOiupOS9v+eUqOagh+WHhuadg+mZkOe6p+WIqwogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluezu+e7n+aTjeS9nOW3peWFtwogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIOagueaNrummlumAieadg+mZkOe6p+WIq+eahOezu+e7n+aTjeS9nOW3peWFt+WunueOsAogICAgICovCiAgICBmdW4gZ2V0U3lzdGVtT3BlcmF0aW9uVG9vbHMoY29udGV4dDogQ29udGV4dCk6IFN0YW5kYXJkU3lzdGVtT3BlcmF0aW9uVG9vbHMgewogICAgICAgIHJldHVybiB3aGVuIChhbmRyb2lkUGVybWlzc2lvblByZWZlcmVuY2VzLmdldFByZWZlcnJlZFBlcm1pc3Npb25MZXZlbCgpKSB7CiAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuUk9PVCAtPiBSb290U3lzdGVtT3BlcmF0aW9uVG9vbHMoY29udGV4dCkKICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5BRE1JTiAtPiBBZG1pblN5c3RlbU9wZXJhdGlvblRvb2xzKGNvbnRleHQpCiAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuREVCVUdHRVIgLT4gRGVidWdnZXJTeXN0ZW1PcGVyYXRpb25Ub29scyhjb250ZXh0KQogICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLkFDQ0VTU0lCSUxJVFkgLT4gQWNjZXNzaWJpbGl0eVN5c3RlbU9wZXJhdGlvblRvb2xzKGNvbnRleHQpCiAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuU1RBTkRBUkQgLT4gU3RhbmRhcmRTeXN0ZW1PcGVyYXRpb25Ub29scyhjb250ZXh0KQogICAgICAgICAgICBudWxsIC0+IFN0YW5kYXJkU3lzdGVtT3BlcmF0aW9uVG9vbHMoY29udGV4dCkgLy8g6buY6K6k5L2/55So5qCH5YeG5p2D6ZmQ57qn5YirCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W6K6+5aSH5L+h5oGv5bel5YW35omn6KGM5ZmoCiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4g5qC55o2u6aaW6YCJ5p2D6ZmQ57qn5Yir55qE6K6+5aSH5L+h5oGv5bel5YW35omn6KGM5Zmo5a6e546wCiAgICAgKi8KICAgIGZ1biBnZXREZXZpY2VJbmZvVG9vbEV4ZWN1dG9yKGNvbnRleHQ6IENvbnRleHQpOiBTdGFuZGFyZERldmljZUluZm9Ub29sRXhlY3V0b3IgewogICAgICAgIHJldHVybiB3aGVuIChhbmRyb2lkUGVybWlzc2lvblByZWZlcmVuY2VzLmdldFByZWZlcnJlZFBlcm1pc3Npb25MZXZlbCgpKSB7CiAgICAgICAgICAgIEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuUk9PVCAtPiBSb290RGV2aWNlSW5mb1Rvb2xFeGVjdXRvcihjb250ZXh0KQogICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLkFETUlOIC0+IEFkbWluRGV2aWNlSW5mb1Rvb2xFeGVjdXRvcihjb250ZXh0KQogICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLkRFQlVHR0VSIC0+IERlYnVnZ2VyRGV2aWNlSW5mb1Rvb2xFeGVjdXRvcihjb250ZXh0KQogICAgICAgICAgICBBbmRyb2lkUGVybWlzc2lvbkxldmVsLkFDQ0VTU0lCSUxJVFkgLT4gQWNjZXNzaWJpbGl0eURldmljZUluZm9Ub29sRXhlY3V0b3IoY29udGV4dCkKICAgICAgICAgICAgQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5TVEFOREFSRCAtPiBTdGFuZGFyZERldmljZUluZm9Ub29sRXhlY3V0b3IoY29udGV4dCkKICAgICAgICAgICAgbnVsbCAtPiBTdGFuZGFyZERldmljZUluZm9Ub29sRXhlY3V0b3IoY29udGV4dCkgLy8g6buY6K6k5L2/55So5qCH5YeG5p2D6ZmQ57qn5YirCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+WSFRUUOW3peWFtwogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIEhUVFDlt6Xlhbflrp7njrDvvIjlj6rmnInmoIflh4bniYjmnKzvvIkKICAgICAqLwogICAgZnVuIGdldEh0dHBUb29scyhjb250ZXh0OiBDb250ZXh0KTogU3RhbmRhcmRIdHRwVG9vbHMgewogICAgICAgIHJldHVybiBTdGFuZGFyZEh0dHBUb29scyhjb250ZXh0KQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+WV2Vi6K6/6Zeu5bel5YW3CiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4gV2Vi6K6/6Zeu5bel5YW35a6e546w77yI5Y+q5pyJ5qCH5YeG54mI5pys77yJCiAgICAgKi8KICAgIGZ1biBnZXRXZWJWaXNpdFRvb2woY29udGV4dDogQ29udGV4dCk6IFN0YW5kYXJkV2ViVmlzaXRUb29sIHsKICAgICAgICByZXR1cm4gU3RhbmRhcmRXZWJWaXNpdFRvb2woY29udGV4dCkKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluS8muivneWeiyBXZWIg5bel5YW3CiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4g5Lya6K+d5Z6LIFdlYiDlt6Xlhbflrp7njrDvvIjmoIflh4bmnYPpmZDnuqfliKvvvIkKICAgICAqLwogICAgZnVuIGdldEJyb3dzZXJTZXNzaW9uVG9vbHMoY29udGV4dDogQ29udGV4dCk6IFN0YW5kYXJkQnJvd3NlclNlc3Npb25Ub29scyB7CiAgICAgICAgcmV0dXJuIFN0YW5kYXJkQnJvd3NlclNlc3Npb25Ub29scyhjb250ZXh0KQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+WSW50ZW505bel5YW35omn6KGM5ZmoCiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4gSW50ZW505bel5YW35omn6KGM5Zmo5a6e546w77yI5Y+q5pyJ5qCH5YeG54mI5pys77yJCiAgICAgKi8KICAgIGZ1biBnZXRJbnRlbnRUb29sRXhlY3V0b3IoY29udGV4dDogQ29udGV4dCk6IFN0YW5kYXJkSW50ZW50VG9vbEV4ZWN1dG9yIHsKICAgICAgICByZXR1cm4gU3RhbmRhcmRJbnRlbnRUb29sRXhlY3V0b3IoY29udGV4dCkKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluWPkemAgeW5v+aSreW3peWFt+aJp+ihjOWZqAogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIOWPkemAgeW5v+aSreW3peWFt+aJp+ihjOWZqOWunueOsO+8iOWPquacieagh+WHhueJiOacrO+8iQogICAgICovCiAgICBmdW4gZ2V0U2VuZEJyb2FkY2FzdFRvb2xFeGVjdXRvcihjb250ZXh0OiBDb250ZXh0KTogU3RhbmRhcmRTZW5kQnJvYWRjYXN0VG9vbEV4ZWN1dG9yIHsKICAgICAgICByZXR1cm4gU3RhbmRhcmRTZW5kQnJvYWRjYXN0VG9vbEV4ZWN1dG9yKGNvbnRleHQpCiAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5bnu4jnq6/lkb3ku6TmiafooYzlmagKICAgICAqIEBwYXJhbSBjb250ZXh0IOW6lOeUqOS4iuS4i+aWhwogICAgICogQHJldHVybiDnu4jnq6/lkb3ku6TmiafooYzlmajlrp7njrDvvIjlj6rmnInmoIflh4bniYjmnKzvvIkKICAgICAqLwogICAgZnVuIGdldFRlcm1pbmFsQ29tbWFuZEV4ZWN1dG9yKGNvbnRleHQ6IENvbnRleHQpOiBTdGFuZGFyZFRlcm1pbmFsQ29tbWFuZEV4ZWN1dG9yIHsKICAgICAgICByZXR1cm4gU3RhbmRhcmRUZXJtaW5hbENvbW1hbmRFeGVjdXRvcihjb250ZXh0KQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W6Z+z5LmQ5pKt5pS+5bel5YW35omn6KGM5ZmoCiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4g6Z+z5LmQ5pKt5pS+5bel5YW35omn6KGM5Zmo5a6e546w77yI5qCH5YeG54mI5pys77yJCiAgICAgKi8KICAgIGZ1biBnZXRNdXNpY1BsYXliYWNrVG9vbHMoY29udGV4dDogQ29udGV4dCk6IFN0YW5kYXJkTXVzaWNQbGF5YmFja1Rvb2xzIHsKICAgICAgICByZXR1cm4gU3RhbmRhcmRNdXNpY1BsYXliYWNrVG9vbHMoY29udGV4dCkKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluWGheWtmOafpeivouW3peWFt+aJp+ihjOWZqAogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIOWGheWtmOafpeivouW3peWFt+aJp+ihjOWZqOWunueOsO+8iOWPquacieagh+WHhueJiOacrO+8iQogICAgICovCiAgICBmdW4gZ2V0TWVtb3J5UXVlcnlUb29sRXhlY3V0b3IoY29udGV4dDogQ29udGV4dCk6IE1lbW9yeVF1ZXJ5VG9vbEV4ZWN1dG9yIHsKICAgICAgICByZXR1cm4gTWVtb3J5UXVlcnlUb29sRXhlY3V0b3IoY29udGV4dCkKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPlkZGbXBlZ+W3peWFt+aJp+ihjOWZqAogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIEZGbXBlZ+W3peWFt+aJp+ihjOWZqOWunueOsO+8iOWPquacieagh+WHhueJiOacrO+8iQogICAgICovCiAgICBmdW4gZ2V0RkZtcGVnVG9vbEV4ZWN1dG9yKGNvbnRleHQ6IENvbnRleHQpOiBTdGFuZGFyZEZGbXBlZ1Rvb2xFeGVjdXRvciB7CiAgICAgICAgcmV0dXJuIFN0YW5kYXJkRkZtcGVnVG9vbEV4ZWN1dG9yKGNvbnRleHQpCiAgICB9CgoKICAgIC8qKgogICAgICog6I635Y+WRkZtcGVn5L+h5oGv5bel5YW35omn6KGM5ZmoCiAgICAgKiBAcmV0dXJuIEZGbXBlZ+S/oeaBr+W3peWFt+aJp+ihjOWZqOWunueOsO+8iOWPquacieagh+WHhueJiOacrO+8iQogICAgICovCiAgICBmdW4gZ2V0RkZtcGVnSW5mb1Rvb2xFeGVjdXRvcigpOiBTdGFuZGFyZEZGbXBlZ0luZm9Ub29sRXhlY3V0b3IgewogICAgICAgIHJldHVybiBTdGFuZGFyZEZGbXBlZ0luZm9Ub29sRXhlY3V0b3IoKQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+WRkZtcGVn6L2s5o2i5bel5YW35omn6KGM5ZmoCiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4gRkZtcGVn6L2s5o2i5bel5YW35omn6KGM5Zmo5a6e546w77yI5Y+q5pyJ5qCH5YeG54mI5pys77yJCiAgICAgKi8KICAgIGZ1biBnZXRGRm1wZWdDb252ZXJ0VG9vbEV4ZWN1dG9yKGNvbnRleHQ6IENvbnRleHQpOiBTdGFuZGFyZEZGbXBlZ0NvbnZlcnRUb29sRXhlY3V0b3IgewogICAgICAgIHJldHVybiBTdGFuZGFyZEZGbXBlZ0NvbnZlcnRUb29sRXhlY3V0b3IoY29udGV4dCkKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluiuoeeul+WZqAogICAgICogQHJldHVybiDorqHnrpflmajlrp7njrDvvIjlj6rmnInmoIflh4bniYjmnKzvvIkKICAgICAqLwogICAgZnVuIGdldENhbGN1bGF0b3IoKSA9IFN0YW5kYXJkQ2FsY3VsYXRvcgoKICAgIC8qKgogICAgICog6I635Y+W5bel5L2c5rWB5bel5YW3CiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4g5bel5L2c5rWB5bel5YW35a6e546w77yI5Y+q5pyJ5qCH5YeG54mI5pys77yJCiAgICAgKi8KICAgIGZ1biBnZXRXb3JrZmxvd1Rvb2xzKGNvbnRleHQ6IENvbnRleHQpOiBTdGFuZGFyZFdvcmtmbG93VG9vbHMgewogICAgICAgIHJldHVybiBTdGFuZGFyZFdvcmtmbG93VG9vbHMoY29udGV4dCkKICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluWvueivneeuoeeQhuW3peWFtwogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIOWvueivneeuoeeQhuW3peWFt+WunueOsO+8iOWPquacieagh+WHhueJiOacrO+8iQogICAgICovCiAgICBmdW4gZ2V0Q2hhdE1hbmFnZXJUb29sKGNvbnRleHQ6IENvbnRleHQpOiBTdGFuZGFyZENoYXRNYW5hZ2VyVG9vbCB7CiAgICAgICAgcmV0dXJuIFN0YW5kYXJkQ2hhdE1hbmFnZXJUb29sKGNvbnRleHQpCiAgICB9CgogICAgLyoqCiAgICAgKiDojrflj5bova/ku7borr7nva7kv67mlLnlt6XlhbcKICAgICAqIEBwYXJhbSBjb250ZXh0IOW6lOeUqOS4iuS4i+aWhwogICAgICogQHJldHVybiDova/ku7borr7nva7kv67mlLnlt6Xlhbflrp7njrDvvIjmoIflh4bniYjmnKzvvIkKICAgICAqLwogICAgZnVuIGdldFNvZnR3YXJlU2V0dGluZ3NNb2RpZnlUb29scyhjb250ZXh0OiBDb250ZXh0KTogU3RhbmRhcmRTb2Z0d2FyZVNldHRpbmdzTW9kaWZ5VG9vbHMgewogICAgICAgIHJldHVybiBTdGFuZGFyZFNvZnR3YXJlU2V0dGluZ3NNb2RpZnlUb29scyhjb250ZXh0KQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.defaultTool.accessbility.*
+import com.bslsjdk.operit.core.tools.defaultTool.admin.*
+import com.bslsjdk.operit.core.tools.defaultTool.debugger.*
+import com.bslsjdk.operit.core.tools.defaultTool.root.*
+import com.bslsjdk.operit.core.tools.defaultTool.standard.*
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+import com.bslsjdk.operit.data.preferences.androidPermissionPreferences
+
+/** 工具获取器 - 根据首选权限级别获取对应的工具实现 如果特定权限级别下没有对应工具实现，则回退到标准权限级别的工具 */
+object ToolGetter {
+
+    /**
+     * 获取文件系统工具
+     * @param context 应用上下文
+     * @return 根据首选权限级别的文件系统工具实现
+     */
+    fun getFileSystemTools(context: Context): StandardFileSystemTools {
+        return when (androidPermissionPreferences.getPreferredPermissionLevel()) {
+            AndroidPermissionLevel.ROOT -> RootFileSystemTools(context)
+            AndroidPermissionLevel.ADMIN -> AdminFileSystemTools(context)
+            AndroidPermissionLevel.DEBUGGER -> DebuggerFileSystemTools(context)
+            AndroidPermissionLevel.ACCESSIBILITY -> AccessibilityFileSystemTools(context)
+            AndroidPermissionLevel.STANDARD -> StandardFileSystemTools(context)
+            null -> StandardFileSystemTools(context) // 默认使用标准权限级别
+        }
+    }
+
+    /**
+     * 获取Shell工具执行器
+     * @param context 应用上下文
+     * @return 根据首选权限级别的Shell工具执行器实现
+     */
+    fun getShellToolExecutor(context: Context): StandardShellToolExecutor {
+        return StandardShellToolExecutor(context)
+    }
+
+    /**
+     * 获取UI工具
+     * @param context 应用上下文
+     * @return 根据首选权限级别的UI工具实现
+     */
+    fun getUITools(context: Context): StandardUITools {
+        return when (androidPermissionPreferences.getPreferredPermissionLevel()) {
+            AndroidPermissionLevel.ROOT -> RootUITools(context)
+            AndroidPermissionLevel.ADMIN -> AdminUITools(context)
+            AndroidPermissionLevel.DEBUGGER -> DebuggerUITools(context)
+            AndroidPermissionLevel.ACCESSIBILITY -> AccessibilityUITools(context)
+            AndroidPermissionLevel.STANDARD -> StandardUITools(context)
+            null -> StandardUITools(context) // 默认使用标准权限级别
+        }
+    }
+
+    /**
+     * 获取系统操作工具
+     * @param context 应用上下文
+     * @return 根据首选权限级别的系统操作工具实现
+     */
+    fun getSystemOperationTools(context: Context): StandardSystemOperationTools {
+        return when (androidPermissionPreferences.getPreferredPermissionLevel()) {
+            AndroidPermissionLevel.ROOT -> RootSystemOperationTools(context)
+            AndroidPermissionLevel.ADMIN -> AdminSystemOperationTools(context)
+            AndroidPermissionLevel.DEBUGGER -> DebuggerSystemOperationTools(context)
+            AndroidPermissionLevel.ACCESSIBILITY -> AccessibilitySystemOperationTools(context)
+            AndroidPermissionLevel.STANDARD -> StandardSystemOperationTools(context)
+            null -> StandardSystemOperationTools(context) // 默认使用标准权限级别
+        }
+    }
+
+    /**
+     * 获取设备信息工具执行器
+     * @param context 应用上下文
+     * @return 根据首选权限级别的设备信息工具执行器实现
+     */
+    fun getDeviceInfoToolExecutor(context: Context): StandardDeviceInfoToolExecutor {
+        return when (androidPermissionPreferences.getPreferredPermissionLevel()) {
+            AndroidPermissionLevel.ROOT -> RootDeviceInfoToolExecutor(context)
+            AndroidPermissionLevel.ADMIN -> AdminDeviceInfoToolExecutor(context)
+            AndroidPermissionLevel.DEBUGGER -> DebuggerDeviceInfoToolExecutor(context)
+            AndroidPermissionLevel.ACCESSIBILITY -> AccessibilityDeviceInfoToolExecutor(context)
+            AndroidPermissionLevel.STANDARD -> StandardDeviceInfoToolExecutor(context)
+            null -> StandardDeviceInfoToolExecutor(context) // 默认使用标准权限级别
+        }
+    }
+
+    /**
+     * 获取HTTP工具
+     * @param context 应用上下文
+     * @return HTTP工具实现（只有标准版本）
+     */
+    fun getHttpTools(context: Context): StandardHttpTools {
+        return StandardHttpTools(context)
+    }
+
+    /**
+     * 获取Web访问工具
+     * @param context 应用上下文
+     * @return Web访问工具实现（只有标准版本）
+     */
+    fun getWebVisitTool(context: Context): StandardWebVisitTool {
+        return StandardWebVisitTool(context)
+    }
+
+    /**
+     * 获取会话型 Web 工具
+     * @param context 应用上下文
+     * @return 会话型 Web 工具实现（标准权限级别）
+     */
+    fun getBrowserSessionTools(context: Context): StandardBrowserSessionTools {
+        return StandardBrowserSessionTools(context)
+    }
+
+    /**
+     * 获取Intent工具执行器
+     * @param context 应用上下文
+     * @return Intent工具执行器实现（只有标准版本）
+     */
+    fun getIntentToolExecutor(context: Context): StandardIntentToolExecutor {
+        return StandardIntentToolExecutor(context)
+    }
+
+    /**
+     * 获取发送广播工具执行器
+     * @param context 应用上下文
+     * @return 发送广播工具执行器实现（只有标准版本）
+     */
+    fun getSendBroadcastToolExecutor(context: Context): StandardSendBroadcastToolExecutor {
+        return StandardSendBroadcastToolExecutor(context)
+    }
+
+    /**
+     * 获取终端命令执行器
+     * @param context 应用上下文
+     * @return 终端命令执行器实现（只有标准版本）
+     */
+    fun getTerminalCommandExecutor(context: Context): StandardTerminalCommandExecutor {
+        return StandardTerminalCommandExecutor(context)
+    }
+
+    /**
+     * 获取音乐播放工具执行器
+     * @param context 应用上下文
+     * @return 音乐播放工具执行器实现（标准版本）
+     */
+    fun getMusicPlaybackTools(context: Context): StandardMusicPlaybackTools {
+        return StandardMusicPlaybackTools(context)
+    }
+
+    /**
+     * 获取内存查询工具执行器
+     * @param context 应用上下文
+     * @return 内存查询工具执行器实现（只有标准版本）
+     */
+    fun getMemoryQueryToolExecutor(context: Context): MemoryQueryToolExecutor {
+        return MemoryQueryToolExecutor(context)
+    }
+
+    /**
+     * 获取FFmpeg工具执行器
+     * @param context 应用上下文
+     * @return FFmpeg工具执行器实现（只有标准版本）
+     */
+    fun getFFmpegToolExecutor(context: Context): StandardFFmpegToolExecutor {
+        return StandardFFmpegToolExecutor(context)
+    }
+
+
+    /**
+     * 获取FFmpeg信息工具执行器
+     * @return FFmpeg信息工具执行器实现（只有标准版本）
+     */
+    fun getFFmpegInfoToolExecutor(): StandardFFmpegInfoToolExecutor {
+        return StandardFFmpegInfoToolExecutor()
+    }
+
+    /**
+     * 获取FFmpeg转换工具执行器
+     * @param context 应用上下文
+     * @return FFmpeg转换工具执行器实现（只有标准版本）
+     */
+    fun getFFmpegConvertToolExecutor(context: Context): StandardFFmpegConvertToolExecutor {
+        return StandardFFmpegConvertToolExecutor(context)
+    }
+
+    /**
+     * 获取计算器
+     * @return 计算器实现（只有标准版本）
+     */
+    fun getCalculator() = StandardCalculator
+
+    /**
+     * 获取工作流工具
+     * @param context 应用上下文
+     * @return 工作流工具实现（只有标准版本）
+     */
+    fun getWorkflowTools(context: Context): StandardWorkflowTools {
+        return StandardWorkflowTools(context)
+    }
+
+    /**
+     * 获取对话管理工具
+     * @param context 应用上下文
+     * @return 对话管理工具实现（只有标准版本）
+     */
+    fun getChatManagerTool(context: Context): StandardChatManagerTool {
+        return StandardChatManagerTool(context)
+    }
+
+    /**
+     * 获取软件设置修改工具
+     * @param context 应用上下文
+     * @return 软件设置修改工具实现（标准版本）
+     */
+    fun getSoftwareSettingsModifyTools(context: Context): StandardSoftwareSettingsModifyTools {
+        return StandardSoftwareSettingsModifyTools(context)
+    }
+}

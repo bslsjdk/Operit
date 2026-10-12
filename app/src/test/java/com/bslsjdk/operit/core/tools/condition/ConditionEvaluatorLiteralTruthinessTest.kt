@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jb25kaXRpb24KCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDb25kaXRpb25FdmFsdWF0b3JMaXRlcmFsVHJ1dGhpbmVzc1Rlc3QgewoKICAgIEBUZXN0IGZ1biB6ZXJvX2lzRmFsc3koKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCIwIiwgZW1wdHlNYXAoKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIG5vblplcm9OdW1iZXJfaXNUcnV0aHkoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoIjEiLCBlbXB0eU1hcCgpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbnVsbExpdGVyYWxfaXNGYWxzeSgpIHsKICAgICAgICBhc3NlcnRGYWxzZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoIm51bGwiLCBlbXB0eU1hcCgpKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.condition
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ConditionEvaluatorLiteralTruthinessTest {
+
+    @Test fun zero_isFalsy() {
+        assertFalse(ConditionEvaluator.evaluate("0", emptyMap()))
+    }
+
+    @Test fun nonZeroNumber_isTruthy() {
+        assertTrue(ConditionEvaluator.evaluate("1", emptyMap()))
+    }
+
+    @Test fun nullLiteral_isFalsy() {
+        assertFalse(ConditionEvaluator.evaluate("null", emptyMap()))
+    }
+}

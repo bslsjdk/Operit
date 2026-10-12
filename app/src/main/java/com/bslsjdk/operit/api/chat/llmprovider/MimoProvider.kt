@@ -1,1 +1,48 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLlJlcXVlc3QKCi8qKgogKiBYaWFvbWkgTWlNbyBwcm92aWRlci4KICogUmV1c2VzIEtpbWlQcm92aWRlcidzIHJlYXNvbmluZ19jb250ZW50LWNvbXBhdGlibGUgYmVoYXZpb3Igc28gdGhpbmtpbmcgY29udGVudAogKiBjYW4gcm91bmQtdHJpcCB3aXRob3V0IGR1cGxpY2F0aW5nIHRoZSByZXF1ZXN0L3Jlc3BvbnNlIGFkYXB0YXRpb24gbG9naWMuCiAqLwpjbGFzcyBNaW1vUHJvdmlkZXIoCiAgICBhcGlFbmRwb2ludDogU3RyaW5nLAogICAgYXBpS2V5UHJvdmlkZXI6IEFwaUtleVByb3ZpZGVyLAogICAgbW9kZWxOYW1lOiBTdHJpbmcsCiAgICBjbGllbnQ6IE9rSHR0cENsaWVudCwKICAgIGN1c3RvbUhlYWRlcnM6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpLAogICAgcHJvdmlkZXJUeXBlOiBBcGlQcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuTUlNTywKICAgIHN1cHBvcnRzVmlzaW9uOiBCb29sZWFuID0gZmFsc2UsCiAgICBzdXBwb3J0c0F1ZGlvOiBCb29sZWFuID0gZmFsc2UsCiAgICBzdXBwb3J0c1ZpZGVvOiBCb29sZWFuID0gZmFsc2UsCiAgICBlbmFibGVUb29sQ2FsbDogQm9vbGVhbiA9IGZhbHNlLAogICAgdGhpbmtpbmdDb25maWd1cmF0aW9uczogU3RyaW5nID0gIiIsCiAgICB0aGlua2luZ09wdGlvbklkOiBTdHJpbmcgPSAiIgopIDogS2ltaVByb3ZpZGVyKAogICAgYXBpRW5kcG9pbnQgPSBhcGlFbmRwb2ludCwKICAgIGFwaUtleVByb3ZpZGVyID0gYXBpS2V5UHJvdmlkZXIsCiAgICBtb2RlbE5hbWUgPSBtb2RlbE5hbWUsCiAgICBjbGllbnQgPSBjbGllbnQsCiAgICBjdXN0b21IZWFkZXJzID0gY3VzdG9tSGVhZGVycywKICAgIHByb3ZpZGVyVHlwZSA9IHByb3ZpZGVyVHlwZSwKICAgIHN1cHBvcnRzVmlzaW9uID0gc3VwcG9ydHNWaXNpb24sCiAgICBzdXBwb3J0c0F1ZGlvID0gc3VwcG9ydHNBdWRpbywKICAgIHN1cHBvcnRzVmlkZW8gPSBzdXBwb3J0c1ZpZGVvLAogICAgZW5hYmxlVG9vbENhbGwgPSBlbmFibGVUb29sQ2FsbCwKICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnMgPSB0aGlua2luZ0NvbmZpZ3VyYXRpb25zLAogICAgICAgIHRoaW5raW5nT3B0aW9uSWQgPSB0aGlua2luZ09wdGlvbklkCikgewogICAgb3ZlcnJpZGUgZnVuIGFwcGx5QXV0aGVudGljYXRpb25IZWFkZXJzKAogICAgICAgIGJ1aWxkZXI6IFJlcXVlc3QuQnVpbGRlciwKICAgICAgICBjdXJyZW50QXBpS2V5OiBTdHJpbmcKICAgICkgewogICAgICAgIHN1cGVyLmFwcGx5QXV0aGVudGljYXRpb25IZWFkZXJzKGJ1aWxkZXIsIGN1cnJlbnRBcGlLZXkpCiAgICAgICAgaWYgKGN1cnJlbnRBcGlLZXkuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIGJ1aWxkZXIuYWRkSGVhZGVyKCJhcGkta2V5IiwgY3VycmVudEFwaUtleSkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+
+/**
+ * Xiaomi MiMo provider.
+ * Reuses KimiProvider's reasoning_content-compatible behavior so thinking content
+ * can round-trip without duplicating the request/response adaptation logic.
+ */
+class MimoProvider(
+    apiEndpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String> = emptyMap(),
+    providerType: ApiProviderType = ApiProviderType.MIMO,
+    supportsVision: Boolean = false,
+    supportsAudio: Boolean = false,
+    supportsVideo: Boolean = false,
+    enableToolCall: Boolean = false,
+    thinkingConfigurations: String = "",
+    thinkingOptionId: String = ""
+) : KimiProvider(
+    apiEndpoint = apiEndpoint,
+    apiKeyProvider = apiKeyProvider,
+    modelName = modelName,
+    client = client,
+    customHeaders = customHeaders,
+    providerType = providerType,
+    supportsVision = supportsVision,
+    supportsAudio = supportsAudio,
+    supportsVideo = supportsVideo,
+    enableToolCall = enableToolCall,
+    thinkingConfigurations = thinkingConfigurations,
+        thinkingOptionId = thinkingOptionId
+) {
+    override fun applyAuthenticationHeaders(
+        builder: Request.Builder,
+        currentApiKey: String
+    ) {
+        super.applyAuthenticationHeaders(builder, currentApiKey)
+        if (currentApiKey.isNotEmpty()) {
+            builder.addHeader("api-key", currentApiKey)
+        }
+    }
+}

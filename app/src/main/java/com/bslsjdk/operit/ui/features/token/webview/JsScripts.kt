@@ -1,1 +1,324 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW4ud2VidmlldwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy50b2tlbi5uZXR3b3JrLkRlZXBzZWVrQXBpQ29uc3RhbnRzCgovKiog55So5LqOV2ViVmlld+S4reaJp+ihjOeahEphdmFTY3JpcHTohJrmnKwgKi8Kb2JqZWN0IEpzU2NyaXB0cyB7CiAgICAvKiog6I635Y+W6aG16Z2i6K+m57uG5L+h5oGv55qE6ISa5pysICovCiAgICBmdW4gZ2V0UGFnZUluZm9TY3JpcHQoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gIiIiCiAgICAgICAgICAgIChmdW5jdGlvbigpIHsKICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCfmlLbpm4bpobXpnaLkv6Hmga8nKTsKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g6aG16Z2i5Z+65pys5L+h5oGvCiAgICAgICAgICAgICAgICBjb25zdCBiYXNpY0luZm8gPSB7CiAgICAgICAgICAgICAgICAgICAgdXJsOiB3aW5kb3cubG9jYXRpb24uaHJlZiwKICAgICAgICAgICAgICAgICAgICB0aXRsZTogZG9jdW1lbnQudGl0bGUsCiAgICAgICAgICAgICAgICAgICAgcmVhZHlTdGF0ZTogZG9jdW1lbnQucmVhZHlTdGF0ZSwKICAgICAgICAgICAgICAgICAgICByZWZlcnJlcjogZG9jdW1lbnQucmVmZXJyZXIsCiAgICAgICAgICAgICAgICAgICAgZG9tYWluOiBkb2N1bWVudC5kb21haW4KICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIERPTeS/oeaBrwogICAgICAgICAgICAgICAgY29uc3QgZG9tSW5mbyA9IHsKICAgICAgICAgICAgICAgICAgICBib2R5RXhpc3RzOiAhIWRvY3VtZW50LmJvZHksCiAgICAgICAgICAgICAgICAgICAgaGVhZEV4aXN0czogISFkb2N1bWVudC5oZWFkLAogICAgICAgICAgICAgICAgICAgIGJvZHlDaGlsZENvdW50OiBkb2N1bWVudC5ib2R5ID8gZG9jdW1lbnQuYm9keS5jaGlsZEVsZW1lbnRDb3VudCA6IDAsCiAgICAgICAgICAgICAgICAgICAgc2NyaXB0Q291bnQ6IGRvY3VtZW50LnNjcmlwdHMgPyBkb2N1bWVudC5zY3JpcHRzLmxlbmd0aCA6IDAsCiAgICAgICAgICAgICAgICAgICAgaWZyYW1lQ291bnQ6IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdpZnJhbWUnKS5sZW5ndGgKICAgICAgICAgICAgICAgIH07CgogICAgICAgICAgICAgICAgLy8g5rGH5oC75L+h5oGvCiAgICAgICAgICAgICAgICBjb25zdCBwYWdlSW5mbyA9IHsKICAgICAgICAgICAgICAgICAgICBiYXNpY0luZm86IGJhc2ljSW5mbywKICAgICAgICAgICAgICAgICAgICBkb21JbmZvOiBkb21JbmZvLAogICAgICAgICAgICAgICAgICAgIHRpbWVzdGFtcDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpCiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygn6aG16Z2i5L+h5oGvOicsIEpTT04uc3RyaW5naWZ5KHBhZ2VJbmZvKSk7CiAgICAgICAgICAgICAgICByZXR1cm4gSlNPTi5zdHJpbmdpZnkocGFnZUluZm8pOwogICAgICAgICAgICB9KSgpOwogICAgICAgICIiIi50cmltSW5kZW50KCkKICAgIH0KCiAgICAvKiog6I635Y+WQVBJ5a+G6ZKl55qE6ISa5pysICovCiAgICBmdW4gZ2V0QXBpS2V5c1NjcmlwdCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiIiIKICAgICAgICAgICAgKGZ1bmN0aW9uKCkgewogICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ0dldHRpbmcgYXV0aG9yaXphdGlvbiB0b2tlbicpOwogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyBVdGlsaXR5IGZ1bmN0aW9uIHRvIHNhZmVseSBnZXQgbG9jYWxTdG9yYWdlIG9yIHNlc3Npb25TdG9yYWdlCiAgICAgICAgICAgICAgICBmdW5jdGlvbiBnZXRGcm9tU3RvcmFnZShrZXkpIHsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyBUcnkgbG9jYWxTdG9yYWdlIGZpcnN0CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChsb2NhbFN0b3JhZ2UuZ2V0SXRlbShrZXkpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gbG9jYWxTdG9yYWdlLmdldEl0ZW0oa2V5KTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAvLyBUaGVuIHRyeSBzZXNzaW9uU3RvcmFnZQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2Vzc2lvblN0b3JhZ2UuZ2V0SXRlbShrZXkpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gc2Vzc2lvblN0b3JhZ2UuZ2V0SXRlbShrZXkpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignU3RvcmFnZSBhY2Nlc3MgZXJyb3I6JywgZSk7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8gTG9vayBmb3IgdG9rZW4gaW4gY29tbW9uIHN0b3JhZ2Uga2V5cwogICAgICAgICAgICAgICAgbGV0IHRva2VuID0gZ2V0RnJvbVN0b3JhZ2UoJ3Rva2VuJykgfHwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBnZXRGcm9tU3RvcmFnZSgnYXV0aF90b2tlbicpIHx8IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZ2V0RnJvbVN0b3JhZ2UoJ2FjY2Vzc1Rva2VuJykgfHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdldEZyb21TdG9yYWdlKCdpZF90b2tlbicpIHx8CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBnZXRGcm9tU3RvcmFnZSgnYWNjZXNzX3Rva2VuJyk7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIElmIG5vIHRva2VuIGZvdW5kIGluIHN0b3JhZ2UsIHVzZSBoYXJkY29kZWQgdG9rZW4KICAgICAgICAgICAgICAgIGlmICghdG9rZW4pIHsKICAgICAgICAgICAgICAgICAgICB0b2tlbiA9ICJ0clAvS0lydE5BTU5uUXhOMVAxWU1pdnJ1b3kwU1RJNW9uek5oQ2R6bzhpT003Q09ieGFHaGpnK3crSlBtL2pDIjsKICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnVXNpbmcgaGFyZGNvZGVkIHRva2VuJyk7CiAgICAgICAgICAgICAgICAgICAgLy8gU2F2ZSBmb3IgZnV0dXJlIHVzZQogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdhdXRoX3Rva2VuJywgdG9rZW4pOwogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignRmFpbGVkIHRvIHN0b3JlIHRva2VuOicsIGUpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ1Rva2VuIGZvdW5kIChsZW5ndGg6ICcgKyB0b2tlbi5sZW5ndGggKyAnKScpOwogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmZXRjaCgnJHtEZWVwc2Vla0FwaUNvbnN0YW50cy5ERUVQU0VFS19HRVRfQVBJX0tFWVNfVVJMfScsIHsKICAgICAgICAgICAgICAgICAgICBtZXRob2Q6ICdHRVQnLAogICAgICAgICAgICAgICAgICAgIGhlYWRlcnM6IHsKICAgICAgICAgICAgICAgICAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAgICAgICAgICAgICAgICAgICAgICAgJ0FjY2VwdCc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAgICAgICAgICAgICAgICAgICAgICAgJ0F1dGhvcml6YXRpb24nOiAnQmVhcmVyICcgKyB0b2tlbgogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgY3JlZGVudGlhbHM6ICdpbmNsdWRlJwogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC50aGVuKHJlc3BvbnNlID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnUmVzcG9uc2Ugc3RhdHVzOicsIHJlc3BvbnNlLnN0YXR1cyk7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ1Jlc3BvbnNlIGhlYWRlcnM6JywgSlNPTi5zdHJpbmdpZnkoQXJyYXkuZnJvbShyZXNwb25zZS5oZWFkZXJzLmVudHJpZXMoKSkpKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2UudGV4dCgpOwogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC50aGVuKHRleHQgPT4gewogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdSYXcgcmVzcG9uc2U6JywgdGV4dC5zdWJzdHJpbmcoMCwgMTAwKSArICcuLi4nKTsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBkYXRhID0gSlNPTi5wYXJzZSh0ZXh0KTsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ1JlY2VpdmVkIGRhdGE6JywgSlNPTi5zdHJpbmdpZnkoZGF0YSkpOwogICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgLy8g6aKE5aSE55CG5pWw5o2u77yM5Y+q5o+Q5Y+W5omA6ZyA55qEQVBJ5a+G6ZKl5L+h5oGvCiAgICAgICAgICAgICAgICAgICAgICAgIGxldCBhcGlLZXlzID0gW107CiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAvLyDlsJ3or5Xku45kYXRhLmFwaV9rZXlz5Lit5o+Q5Y+WCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChkYXRhLmRhdGEgJiYgQXJyYXkuaXNBcnJheShkYXRhLmRhdGEuYXBpX2tleXMpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcGlLZXlzID0gZGF0YS5kYXRhLmFwaV9rZXlzLm1hcChrZXkgPT4gKHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lOiBrZXkubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZW5zaXRpdmVfaWQ6IGtleS5zZW5zaXRpdmVfaWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3JlYXRlZF9hdDoga2V5LmNyZWF0ZWRfYXQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFzdF91c2U6IGtleS5sYXN0X3VzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFja2luZ19pZDoga2V5LnRyYWNraW5nX2lkCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9KSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnRXh0cmFjdGVkICcgKyBhcGlLZXlzLmxlbmd0aCArICcgQVBJIGtleXMgZnJvbSBkYXRhLmFwaV9rZXlzJyk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0gCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOaJvuS4jeWIsO+8jOWwneivleS7jmRhdGEuYml6X2RhdGEuYXBpX2tleXPkuK3mj5Dlj5YKICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBpZiAoZGF0YS5kYXRhICYmIGRhdGEuZGF0YS5iaXpfZGF0YSAmJiBBcnJheS5pc0FycmF5KGRhdGEuZGF0YS5iaXpfZGF0YS5hcGlfa2V5cykpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwaUtleXMgPSBkYXRhLmRhdGEuYml6X2RhdGEuYXBpX2tleXMubWFwKGtleSA9PiAoewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU6IGtleS5uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbnNpdGl2ZV9pZDoga2V5LnNlbnNpdGl2ZV9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjcmVhdGVkX2F0OiBrZXkuY3JlYXRlZF9hdCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYXN0X3VzZToga2V5Lmxhc3RfdXNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNraW5nX2lkOiBrZXkudHJhY2tpbmdfaWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0pKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdFeHRyYWN0ZWQgJyArIGFwaUtleXMubGVuZ3RoICsgJyBBUEkga2V5cyBmcm9tIGRhdGEuYml6X2RhdGEuYXBpX2tleXMnKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6c5rKh5pyJ5om+5Yiw5Lu75L2VQVBJ5a+G6ZKlCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhcGlLZXlzLmxlbmd0aCA9PT0gMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5sb2coJ05vIEFQSSBrZXlzIGZvdW5kIGluIHJlc3BvbnNlJyk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBbmRyb2lkLm9uRXJyb3IoIuaJvuS4jeWIsEFQSeWvhumSpeaVsOaNriIpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAvLyDlsIbmiYDmnInnmoTlr4bpkqXkuIDmrKHmgKflj5HpgIHvvIzogIzkuI3mmK/liIbmibkKICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IHNpbXBsaWZpZWRSZXN1bHQgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXBpX2tleXM6IGFwaUtleXMKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnU2VuZGluZyBhbGwgJyArIGFwaUtleXMubGVuZ3RoICsgJyBrZXlzIGF0IG9uY2UnKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFuZHJvaWQub25LZXlzUmVjZWl2ZWQoSlNPTi5zdHJpbmdpZnkoc2ltcGxpZmllZFJlc3VsdCkpOwogICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKCdFcnJvciBzZW5kaW5nIGtleXMgdG8gQW5kcm9pZDonLCBlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFuZHJvaWQub25FcnJvcigi5Y+R6YCBQVBJ5a+G6ZKl5YiwQW5kcm9pZOWksei0pTogIiArIGUudG9TdHJpbmcoKSk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUuZXJyb3IoJ0pTT04gcGFyc2UgZXJyb3I6JywgZSk7CiAgICAgICAgICAgICAgICAgICAgICAgIEFuZHJvaWQub25FcnJvcigiSlNPTuino+aekOmUmeivrzogIiArIGUudG9TdHJpbmcoKSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC5jYXRjaChlcnJvciA9PiB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignRmV0Y2ggZXJyb3I6JywgZXJyb3IpOwogICAgICAgICAgICAgICAgICAgIEFuZHJvaWQub25FcnJvcihlcnJvci50b1N0cmluZygpKTsKICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICB9KSgpOwogICAgICAgICIiIi50cmltSW5kZW50KCkKICAgIH0KCiAgICAvKiog5Yig6ZmkQVBJ5a+G6ZKl55qE6ISa5pysICovCiAgICBmdW4gZGVsZXRlS2V5U2NyaXB0KHRyYWNraW5nSWQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuICIiIgogICAgICAgICAgICAoZnVuY3Rpb24oKSB7CiAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnRGVsZXRpbmcgQVBJIGtleSB3aXRoIHRyYWNraW5nIElEOicsICcke3RyYWNraW5nSWR9Jyk7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIEdldCB0b2tlbiBmcm9tIHN0b3JhZ2UKICAgICAgICAgICAgICAgIGZ1bmN0aW9uIGdldEZyb21TdG9yYWdlKGtleSkgewogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChsb2NhbFN0b3JhZ2UuZ2V0SXRlbShrZXkpKSByZXR1cm4gbG9jYWxTdG9yYWdlLmdldEl0ZW0oa2V5KTsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHNlc3Npb25TdG9yYWdlLmdldEl0ZW0oa2V5KSkgcmV0dXJuIHNlc3Npb25TdG9yYWdlLmdldEl0ZW0oa2V5KTsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZSkgeyByZXR1cm4gbnVsbDsgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBsZXQgdG9rZW4gPSBnZXRGcm9tU3RvcmFnZSgndG9rZW4nKSB8fCAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdldEZyb21TdG9yYWdlKCdhdXRoX3Rva2VuJykgfHwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBnZXRGcm9tU3RvcmFnZSgnYWNjZXNzVG9rZW4nKSB8fAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZ2V0RnJvbVN0b3JhZ2UoJ2lkX3Rva2VuJykgfHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdldEZyb21TdG9yYWdlKCdhY2Nlc3NfdG9rZW4nKTsKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8gSWYgbm8gdG9rZW4gZm91bmQgaW4gc3RvcmFnZSwgdXNlIGhhcmRjb2RlZCB0b2tlbgogICAgICAgICAgICAgICAgaWYgKCF0b2tlbikgewogICAgICAgICAgICAgICAgICAgIHRva2VuID0gInRyUC9LSXJ0TkFNTm5ReE4xUDFZTWl2cnVveTBTVEk1b256TmhDZHpvOGlPTTdDT2J4YUdoamcrdytKUG0vakMiOwogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdVc2luZyBoYXJkY29kZWQgdG9rZW4nKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZmV0Y2goJyR7RGVlcHNlZWtBcGlDb25zdGFudHMuREVFUFNFRUtfREVMRVRFX0FQSV9LRVlfVVJMfScsIHsKICAgICAgICAgICAgICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICAgICAgICAgICAgICBoZWFkZXJzOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsCiAgICAgICAgICAgICAgICAgICAgICAgICdBY2NlcHQnOiAnYXBwbGljYXRpb24vanNvbicsCiAgICAgICAgICAgICAgICAgICAgICAgICdBdXRob3JpemF0aW9uJzogJ0JlYXJlciAnICsgdG9rZW4KICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHt0cmFja2luZ19pZDogJyR7dHJhY2tpbmdJZH0nfSksCiAgICAgICAgICAgICAgICAgICAgY3JlZGVudGlhbHM6ICdpbmNsdWRlJwogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC50aGVuKHJlc3BvbnNlID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnRGVsZXRlIGtleSByZXNwb25zZSBzdGF0dXM6JywgcmVzcG9uc2Uuc3RhdHVzKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVzcG9uc2UuanNvbigpOwogICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIC50aGVuKGRhdGEgPT4gewogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdEZWxldGUga2V5IHJlc3BvbnNlIGRhdGE6JywgSlNPTi5zdHJpbmdpZnkoZGF0YSkpOwogICAgICAgICAgICAgICAgICAgIEFuZHJvaWQub25LZXlEZWxldGVkKGRhdGEuY29kZSA9PT0gMCk7CiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICAgICAgLmNhdGNoKGVycm9yID0+IHsKICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmVycm9yKCdEZWxldGUga2V5IGVycm9yOicsIGVycm9yKTsKICAgICAgICAgICAgICAgICAgICBBbmRyb2lkLm9uRXJyb3IoZXJyb3IudG9TdHJpbmcoKSk7CiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfSkoKTsKICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICB9CgogICAgLyoqIOiOt+WPluaOiOadg+S7pOeJjOeahOiEmuacrCAqLwogICAgZnVuIGdldEF1dGhUb2tlblNjcmlwdCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiIiIKICAgICAgICAgICAgKGZ1bmN0aW9uKCkgewogICAgICAgICAgICAgICAgLy8g5bCd6K+V6I635Y+W5b2T5YmN6aG16Z2i5LiK55qEdG9rZW7kv6Hmga8KICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdUcnlpbmcgdG8gZXh0cmFjdCBhdXRob3JpemF0aW9uIHRva2VuIGZyb20gcGFnZScpOwogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDmo4Dmn6Vkb2N1bWVudC5jb29raWUKICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdDb29raWVzOicsIGRvY3VtZW50LmNvb2tpZSk7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIOajgOafpWxvY2FsU3RvcmFnZQogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnbG9jYWxTdG9yYWdlIGtleXM6JywgT2JqZWN0LmtleXMobG9jYWxTdG9yYWdlKS5qb2luKCcsICcpKTsKICAgICAgICAgICAgICAgICAgICBmb3IgKHZhciBpID0gMDsgaSA8IE9iamVjdC5rZXlzKGxvY2FsU3RvcmFnZSkubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGtleSA9IE9iamVjdC5rZXlzKGxvY2FsU3RvcmFnZSlbaV07CiAgICAgICAgICAgICAgICAgICAgICAgIHZhciB2YWx1ZSA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKGtleSk7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmICh2YWx1ZSAmJiB2YWx1ZS5sZW5ndGggPiAyMCAmJiB2YWx1ZS5sZW5ndGggPCAzMDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdsb2NhbFN0b3JhZ2VbJyArIGtleSArICddOiBsZW5ndGg9JyArIHZhbHVlLmxlbmd0aCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignbG9jYWxTdG9yYWdlIGVycm9yOicsIGUpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDmo4Dmn6VzZXNzaW9uU3RvcmFnZQogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnc2Vzc2lvblN0b3JhZ2Uga2V5czonLCBPYmplY3Qua2V5cyhzZXNzaW9uU3RvcmFnZSkuam9pbignLCAnKSk7CiAgICAgICAgICAgICAgICAgICAgZm9yICh2YXIgaSA9IDA7IGkgPCBPYmplY3Qua2V5cyhzZXNzaW9uU3RvcmFnZSkubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGtleSA9IE9iamVjdC5rZXlzKHNlc3Npb25TdG9yYWdlKVtpXTsKICAgICAgICAgICAgICAgICAgICAgICAgdmFyIHZhbHVlID0gc2Vzc2lvblN0b3JhZ2UuZ2V0SXRlbShrZXkpOwogICAgICAgICAgICAgICAgICAgICAgICBpZiAodmFsdWUgJiYgdmFsdWUubGVuZ3RoID4gMjAgJiYgdmFsdWUubGVuZ3RoIDwgMzAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnc2Vzc2lvblN0b3JhZ2VbJyArIGtleSArICddOiBsZW5ndGg9JyArIHZhbHVlLmxlbmd0aCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignc2Vzc2lvblN0b3JhZ2UgZXJyb3I6JywgZSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIHJldHVybiAiZG9uZSI7CiAgICAgICAgICAgIH0pKCk7CiAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQogICAgfQoKICAgIC8qKiDms6jlhaXku6TniYzmj5Dlj5blmajnmoTohJrmnKwgKi8KICAgIGZ1biBpbmplY3RUb2tlbkV4dHJhY3RvclNjcmlwdCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiIiIKICAgICAgICAgICAgKGZ1bmN0aW9uKCkgewogICAgICAgICAgICAgICAgLy8gRnVuY3Rpb24gdG8gZXh0cmFjdCB0b2tlbiBmcm9tIHRoZSBwYWdlCiAgICAgICAgICAgICAgICBmdW5jdGlvbiBleHRyYWN0QW5kU3RvcmVUb2tlbigpIHsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyBMb29rIGZvciBhdXRob3JpemF0aW9uIHRva2VuIGluIG5ldHdvcmsgcmVxdWVzdHMKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgb3JpZ2luYWxGZXRjaCA9IHdpbmRvdy5mZXRjaDsKICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghd2luZG93Ll9mZXRjaFBhdGNoZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpbmRvdy5fZmV0Y2hQYXRjaGVkID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgd2luZG93LmZldGNoID0gZnVuY3Rpb24odXJsLCBvcHRpb25zKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gTG9nIHRoZSByZXF1ZXN0IGZvciBkZWJ1Z2dpbmcKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLmxvZygnRmV0Y2ggcmVxdWVzdCB0bzonLCB1cmwpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENoZWNrIGlmIG9wdGlvbnMgY29udGFpbiBhdXRob3JpemF0aW9uIGhlYWRlcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChvcHRpb25zICYmIG9wdGlvbnMuaGVhZGVycykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXQgYXV0aEhlYWRlciA9IG51bGw7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBHZXQgYXV0aG9yaXphdGlvbiBoZWFkZXIgZnJvbSBvcHRpb25zCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChvcHRpb25zLmhlYWRlcnMgaW5zdGFuY2VvZiBIZWFkZXJzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdXRoSGVhZGVyID0gb3B0aW9ucy5oZWFkZXJzLmdldCgnYXV0aG9yaXphdGlvbicpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKHR5cGVvZiBvcHRpb25zLmhlYWRlcnMgPT09ICdvYmplY3QnKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdXRoSGVhZGVyID0gb3B0aW9ucy5oZWFkZXJzLkF1dGhvcml6YXRpb24gfHwgb3B0aW9ucy5oZWFkZXJzLmF1dGhvcml6YXRpb247CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIFN0b3JlIHRoZSB0b2tlbiBpZiBmb3VuZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoYXV0aEhlYWRlciAmJiBhdXRoSGVhZGVyLnN0YXJ0c1dpdGgoJ0JlYXJlciAnKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgdG9rZW4gPSBhdXRoSGVhZGVyLnN1YnN0cmluZyg3KTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdDYXB0dXJlZCBCZWFyZXIgdG9rZW4gKGxlbmd0aDogJyArIHRva2VuLmxlbmd0aCArICcpJyk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKCdhdXRoX3Rva2VuJywgdG9rZW4pOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdUb2tlbiBzdG9yZWQgaW4gbG9jYWxTdG9yYWdlJyk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignRmFpbGVkIHRvIHN0b3JlIHRva2VuOicsIGUpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENhbGwgdGhlIG9yaWdpbmFsIGZldGNoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG9yaWdpbmFsRmV0Y2guYXBwbHkodGhpcywgYXJndW1lbnRzKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKCdGZXRjaCBwYXRjaGVkIHRvIGNhcHR1cmUgYXV0aG9yaXphdGlvbiB0b2tlbnMnKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc29sZS5lcnJvcignRXJyb3IgaW4gdG9rZW4gZXh0cmFjdG9yOicsIGUpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8gUnVuIHRoZSBleHRyYWN0aW9uIGltbWVkaWF0ZWx5CiAgICAgICAgICAgICAgICBleHRyYWN0QW5kU3RvcmVUb2tlbigpOwogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyBBbHNvIHJ1biBleHRyYWN0aW9uIGFnYWluIGFmdGVyIGEgZGVsYXkgdG8gZW5zdXJlIHRoZSBwYWdlIGlzIGZ1bGx5IGxvYWRlZAogICAgICAgICAgICAgICAgc2V0VGltZW91dChleHRyYWN0QW5kU3RvcmVUb2tlbiwgMTAwMCk7CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIHJldHVybiAiVG9rZW4gZXh0cmFjdG9yIGluamVjdGVkIjsKICAgICAgICAgICAgfSkoKTsKICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.token.webview
+
+import com.bslsjdk.operit.ui.features.token.network.DeepseekApiConstants
+
+/** 用于WebView中执行的JavaScript脚本 */
+object JsScripts {
+    /** 获取页面详细信息的脚本 */
+    fun getPageInfoScript(): String {
+        return """
+            (function() {
+                console.log('收集页面信息');
+                
+                // 页面基本信息
+                const basicInfo = {
+                    url: window.location.href,
+                    title: document.title,
+                    readyState: document.readyState,
+                    referrer: document.referrer,
+                    domain: document.domain
+                };
+                
+                // DOM信息
+                const domInfo = {
+                    bodyExists: !!document.body,
+                    headExists: !!document.head,
+                    bodyChildCount: document.body ? document.body.childElementCount : 0,
+                    scriptCount: document.scripts ? document.scripts.length : 0,
+                    iframeCount: document.getElementsByTagName('iframe').length
+                };
+
+                // 汇总信息
+                const pageInfo = {
+                    basicInfo: basicInfo,
+                    domInfo: domInfo,
+                    timestamp: new Date().toISOString()
+                };
+                
+                console.log('页面信息:', JSON.stringify(pageInfo));
+                return JSON.stringify(pageInfo);
+            })();
+        """.trimIndent()
+    }
+
+    /** 获取API密钥的脚本 */
+    fun getApiKeysScript(): String {
+        return """
+            (function() {
+                console.log('Getting authorization token');
+                
+                // Utility function to safely get localStorage or sessionStorage
+                function getFromStorage(key) {
+                    try {
+                        // Try localStorage first
+                        if (localStorage.getItem(key)) {
+                            return localStorage.getItem(key);
+                        }
+                        // Then try sessionStorage
+                        if (sessionStorage.getItem(key)) {
+                            return sessionStorage.getItem(key);
+                        }
+                        return null;
+                    } catch (e) {
+                        console.error('Storage access error:', e);
+                        return null;
+                    }
+                }
+                
+                // Look for token in common storage keys
+                let token = getFromStorage('token') || 
+                            getFromStorage('auth_token') || 
+                            getFromStorage('accessToken') ||
+                            getFromStorage('id_token') ||
+                            getFromStorage('access_token');
+                
+                // If no token found in storage, use hardcoded token
+                if (!token) {
+                    token = "trP/KIrtNAMNnQxN1P1YMivruoy0STI5onzNhCdzo8iOM7CObxaGhjg+w+JPm/jC";
+                    console.log('Using hardcoded token');
+                    // Save for future use
+                    try {
+                        localStorage.setItem('auth_token', token);
+                    } catch (e) {
+                        console.error('Failed to store token:', e);
+                    }
+                }
+                
+                console.log('Token found (length: ' + token.length + ')');
+                
+                fetch('${DeepseekApiConstants.DEEPSEEK_GET_API_KEYS_URL}', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'Authorization': 'Bearer ' + token
+                    },
+                    credentials: 'include'
+                })
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    console.log('Response headers:', JSON.stringify(Array.from(response.headers.entries())));
+                    return response.text();
+                })
+                .then(text => {
+                    console.log('Raw response:', text.substring(0, 100) + '...');
+                    try {
+                        const data = JSON.parse(text);
+                        console.log('Received data:', JSON.stringify(data));
+                        
+                        // 预处理数据，只提取所需的API密钥信息
+                        let apiKeys = [];
+                        
+                        // 尝试从data.api_keys中提取
+                        if (data.data && Array.isArray(data.data.api_keys)) {
+                            apiKeys = data.data.api_keys.map(key => ({
+                                name: key.name,
+                                sensitive_id: key.sensitive_id,
+                                created_at: key.created_at,
+                                last_use: key.last_use,
+                                tracking_id: key.tracking_id
+                            }));
+                            console.log('Extracted ' + apiKeys.length + ' API keys from data.api_keys');
+                        } 
+                        // 如果找不到，尝试从data.biz_data.api_keys中提取
+                        else if (data.data && data.data.biz_data && Array.isArray(data.data.biz_data.api_keys)) {
+                            apiKeys = data.data.biz_data.api_keys.map(key => ({
+                                name: key.name,
+                                sensitive_id: key.sensitive_id,
+                                created_at: key.created_at,
+                                last_use: key.last_use,
+                                tracking_id: key.tracking_id
+                            }));
+                            console.log('Extracted ' + apiKeys.length + ' API keys from data.biz_data.api_keys');
+                        }
+                        
+                        // 如果没有找到任何API密钥
+                        if (apiKeys.length === 0) {
+                            console.log('No API keys found in response');
+                            Android.onError("找不到API密钥数据");
+                            return;
+                        }
+                        
+                        // 将所有的密钥一次性发送，而不是分批
+                        try {
+                            const simplifiedResult = {
+                                api_keys: apiKeys
+                            };
+                            console.log('Sending all ' + apiKeys.length + ' keys at once');
+                            Android.onKeysReceived(JSON.stringify(simplifiedResult));
+                        } catch (e) {
+                            console.error('Error sending keys to Android:', e);
+                            Android.onError("发送API密钥到Android失败: " + e.toString());
+                        }
+                    } catch (e) {
+                        console.error('JSON parse error:', e);
+                        Android.onError("JSON解析错误: " + e.toString());
+                    }
+                })
+                .catch(error => {
+                    console.error('Fetch error:', error);
+                    Android.onError(error.toString());
+                });
+            })();
+        """.trimIndent()
+    }
+
+    /** 删除API密钥的脚本 */
+    fun deleteKeyScript(trackingId: String): String {
+        return """
+            (function() {
+                console.log('Deleting API key with tracking ID:', '${trackingId}');
+                
+                // Get token from storage
+                function getFromStorage(key) {
+                    try {
+                        if (localStorage.getItem(key)) return localStorage.getItem(key);
+                        if (sessionStorage.getItem(key)) return sessionStorage.getItem(key);
+                        return null;
+                    } catch (e) { return null; }
+                }
+                
+                let token = getFromStorage('token') || 
+                            getFromStorage('auth_token') || 
+                            getFromStorage('accessToken') ||
+                            getFromStorage('id_token') ||
+                            getFromStorage('access_token');
+                
+                // If no token found in storage, use hardcoded token
+                if (!token) {
+                    token = "trP/KIrtNAMNnQxN1P1YMivruoy0STI5onzNhCdzo8iOM7CObxaGhjg+w+JPm/jC";
+                    console.log('Using hardcoded token');
+                }
+                
+                fetch('${DeepseekApiConstants.DEEPSEEK_DELETE_API_KEY_URL}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json',
+                        'Authorization': 'Bearer ' + token
+                    },
+                    body: JSON.stringify({tracking_id: '${trackingId}'}),
+                    credentials: 'include'
+                })
+                .then(response => {
+                    console.log('Delete key response status:', response.status);
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Delete key response data:', JSON.stringify(data));
+                    Android.onKeyDeleted(data.code === 0);
+                })
+                .catch(error => {
+                    console.error('Delete key error:', error);
+                    Android.onError(error.toString());
+                });
+            })();
+        """.trimIndent()
+    }
+
+    /** 获取授权令牌的脚本 */
+    fun getAuthTokenScript(): String {
+        return """
+            (function() {
+                // 尝试获取当前页面上的token信息
+                console.log('Trying to extract authorization token from page');
+                
+                // 检查document.cookie
+                console.log('Cookies:', document.cookie);
+                
+                // 检查localStorage
+                try {
+                    console.log('localStorage keys:', Object.keys(localStorage).join(', '));
+                    for (var i = 0; i < Object.keys(localStorage).length; i++) {
+                        var key = Object.keys(localStorage)[i];
+                        var value = localStorage.getItem(key);
+                        if (value && value.length > 20 && value.length < 300) {
+                            console.log('localStorage[' + key + ']: length=' + value.length);
+                        }
+                    }
+                } catch (e) {
+                    console.error('localStorage error:', e);
+                }
+                
+                // 检查sessionStorage
+                try {
+                    console.log('sessionStorage keys:', Object.keys(sessionStorage).join(', '));
+                    for (var i = 0; i < Object.keys(sessionStorage).length; i++) {
+                        var key = Object.keys(sessionStorage)[i];
+                        var value = sessionStorage.getItem(key);
+                        if (value && value.length > 20 && value.length < 300) {
+                            console.log('sessionStorage[' + key + ']: length=' + value.length);
+                        }
+                    }
+                } catch (e) {
+                    console.error('sessionStorage error:', e);
+                }
+                
+                return "done";
+            })();
+        """.trimIndent()
+    }
+
+    /** 注入令牌提取器的脚本 */
+    fun injectTokenExtractorScript(): String {
+        return """
+            (function() {
+                // Function to extract token from the page
+                function extractAndStoreToken() {
+                    try {
+                        // Look for authorization token in network requests
+                        const originalFetch = window.fetch;
+                        
+                        if (!window._fetchPatched) {
+                            window._fetchPatched = true;
+                            
+                            window.fetch = function(url, options) {
+                                // Log the request for debugging
+                                console.log('Fetch request to:', url);
+                                
+                                // Check if options contain authorization header
+                                if (options && options.headers) {
+                                    let authHeader = null;
+                                    
+                                    // Get authorization header from options
+                                    if (options.headers instanceof Headers) {
+                                        authHeader = options.headers.get('authorization');
+                                    } else if (typeof options.headers === 'object') {
+                                        authHeader = options.headers.Authorization || options.headers.authorization;
+                                    }
+                                    
+                                    // Store the token if found
+                                    if (authHeader && authHeader.startsWith('Bearer ')) {
+                                        const token = authHeader.substring(7);
+                                        console.log('Captured Bearer token (length: ' + token.length + ')');
+                                        try {
+                                            localStorage.setItem('auth_token', token);
+                                            console.log('Token stored in localStorage');
+                                        } catch (e) {
+                                            console.error('Failed to store token:', e);
+                                        }
+                                    }
+                                }
+                                
+                                // Call the original fetch
+                                return originalFetch.apply(this, arguments);
+                            };
+                            
+                            console.log('Fetch patched to capture authorization tokens');
+                        }
+                    } catch (e) {
+                        console.error('Error in token extractor:', e);
+                    }
+                }
+                
+                // Run the extraction immediately
+                extractAndStoreToken();
+                
+                // Also run extraction again after a delay to ensure the page is fully loaded
+                setTimeout(extractAndStoreToken, 1000);
+                
+                return "Token extractor injected";
+            })();
+        """.trimIndent()
+    }
+}

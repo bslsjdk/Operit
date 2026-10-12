@@ -1,1 +1,79 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5jaGF0bWVzc2FnZQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DaGF0TWVzc2FnZQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29weU9uV3JpdGVBcnJheUxpc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LnVwZGF0ZQoKZGF0YSBjbGFzcyBDaGF0TWVzc2FnZU1lbnVJdGVtUGFyYW1zKAogICAgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICB2YWwgY2hhdElkOiBTdHJpbmcsCiAgICB2YWwgbWVzc2FnZUluZGV4OiBJbnQsCiAgICB2YWwgbWVzc2FnZTogQ2hhdE1lc3NhZ2UKKQoKZGF0YSBjbGFzcyBDaGF0TWVzc2FnZU1lbnVEaWFsb2dSZXF1ZXN0KAogICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICB2YWwgc2NyZWVuUGF0aDogU3RyaW5nLAogICAgdmFsIHRpdGxlOiBTdHJpbmcsCiAgICB2YWwgc3RhdGU6IE1hcDxTdHJpbmcsIEFueT8+LAogICAgdmFsIG1vZHVsZVNwZWM6IE1hcDxTdHJpbmcsIEFueT8+CikKCmRhdGEgY2xhc3MgQ2hhdE1lc3NhZ2VNZW51SXRlbUNsaWNrUmVzdWx0KAogICAgdmFsIGRpYWxvZzogQ2hhdE1lc3NhZ2VNZW51RGlhbG9nUmVxdWVzdD8gPSBudWxsCikKCmRhdGEgY2xhc3MgQ2hhdE1lc3NhZ2VNZW51SXRlbURlZmluaXRpb24oCiAgICB2YWwgaWQ6IFN0cmluZywKICAgIHZhbCB0aXRsZTogU3RyaW5nLAogICAgdmFsIGljb246IFN0cmluZz8gPSBudWxsLAogICAgdmFsIG9yZGVyOiBJbnQgPSAwLAogICAgdmFsIG9uQ2xpY2s6IHN1c3BlbmQgKENoYXRNZXNzYWdlTWVudUl0ZW1QYXJhbXMpIC0+IENoYXRNZXNzYWdlTWVudUl0ZW1DbGlja1Jlc3VsdD8gPSB7IG51bGwgfQopCgppbnRlcmZhY2UgQ2hhdE1lc3NhZ2VNZW51SXRlbVBsdWdpbiB7CiAgICB2YWwgaWQ6IFN0cmluZwoKICAgIGZ1biBjcmVhdGVNZW51SXRlbXMocGFyYW1zOiBDaGF0TWVzc2FnZU1lbnVJdGVtUGFyYW1zKTogTGlzdDxDaGF0TWVzc2FnZU1lbnVJdGVtRGVmaW5pdGlvbj4KfQoKb2JqZWN0IENoYXRNZXNzYWdlTWVudUl0ZW1SZWdpc3RyeSB7CiAgICBwcml2YXRlIHZhbCBwbHVnaW5zID0gQ29weU9uV3JpdGVBcnJheUxpc3Q8Q2hhdE1lc3NhZ2VNZW51SXRlbVBsdWdpbj4oKQogICAgcHJpdmF0ZSB2YWwgY2hhbmdlVmVyc2lvbk11dGFibGUgPSBNdXRhYmxlU3RhdGVGbG93KDApCiAgICB2YWwgY2hhbmdlVmVyc2lvbjogU3RhdGVGbG93PEludD4gPSBjaGFuZ2VWZXJzaW9uTXV0YWJsZS5hc1N0YXRlRmxvdygpCgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHJlZ2lzdGVyKHBsdWdpbjogQ2hhdE1lc3NhZ2VNZW51SXRlbVBsdWdpbikgewogICAgICAgIHVucmVnaXN0ZXIocGx1Z2luLmlkKQogICAgICAgIHBsdWdpbnMuYWRkKHBsdWdpbikKICAgICAgICBub3RpZnlDaGFuZ2VkKCkKICAgIH0KCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gdW5yZWdpc3RlcihwbHVnaW5JZDogU3RyaW5nKSB7CiAgICAgICAgdmFsIGNoYW5nZWQgPSBwbHVnaW5zLnJlbW92ZUFsbCB7IGl0LmlkID09IHBsdWdpbklkIH0KICAgICAgICBpZiAoY2hhbmdlZCkgewogICAgICAgICAgICBub3RpZnlDaGFuZ2VkKCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIG5vdGlmeUNoYW5nZWQoKSB7CiAgICAgICAgY2hhbmdlVmVyc2lvbk11dGFibGUudXBkYXRlIHsgY3VycmVudCAtPiBjdXJyZW50ICsgMSB9CiAgICB9CgogICAgZnVuIGNyZWF0ZU1lbnVJdGVtcyhwYXJhbXM6IENoYXRNZXNzYWdlTWVudUl0ZW1QYXJhbXMpOiBMaXN0PENoYXRNZXNzYWdlTWVudUl0ZW1EZWZpbml0aW9uPiB7CiAgICAgICAgcmV0dXJuIHBsdWdpbnMKICAgICAgICAgICAgLmZsYXRNYXAgeyBwbHVnaW4gLT4gcGx1Z2luLmNyZWF0ZU1lbnVJdGVtcyhwYXJhbXMpIH0KICAgICAgICAgICAgLnNvcnRlZFdpdGgoCiAgICAgICAgICAgICAgICBjb21wYXJlQnkoCiAgICAgICAgICAgICAgICAgICAgQ2hhdE1lc3NhZ2VNZW51SXRlbURlZmluaXRpb246Om9yZGVyLAogICAgICAgICAgICAgICAgICAgIENoYXRNZXNzYWdlTWVudUl0ZW1EZWZpbml0aW9uOjp0aXRsZSwKICAgICAgICAgICAgICAgICAgICBDaGF0TWVzc2FnZU1lbnVJdGVtRGVmaW5pdGlvbjo6aWQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.plugins.chatmessage
+
+import android.content.Context
+import com.bslsjdk.operit.data.model.ChatMessage
+import java.util.concurrent.CopyOnWriteArrayList
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+
+data class ChatMessageMenuItemParams(
+    val context: Context,
+    val chatId: String,
+    val messageIndex: Int,
+    val message: ChatMessage
+)
+
+data class ChatMessageMenuDialogRequest(
+    val containerPackageName: String,
+    val screenPath: String,
+    val title: String,
+    val state: Map<String, Any?>,
+    val moduleSpec: Map<String, Any?>
+)
+
+data class ChatMessageMenuItemClickResult(
+    val dialog: ChatMessageMenuDialogRequest? = null
+)
+
+data class ChatMessageMenuItemDefinition(
+    val id: String,
+    val title: String,
+    val icon: String? = null,
+    val order: Int = 0,
+    val onClick: suspend (ChatMessageMenuItemParams) -> ChatMessageMenuItemClickResult? = { null }
+)
+
+interface ChatMessageMenuItemPlugin {
+    val id: String
+
+    fun createMenuItems(params: ChatMessageMenuItemParams): List<ChatMessageMenuItemDefinition>
+}
+
+object ChatMessageMenuItemRegistry {
+    private val plugins = CopyOnWriteArrayList<ChatMessageMenuItemPlugin>()
+    private val changeVersionMutable = MutableStateFlow(0)
+    val changeVersion: StateFlow<Int> = changeVersionMutable.asStateFlow()
+
+    @Synchronized
+    fun register(plugin: ChatMessageMenuItemPlugin) {
+        unregister(plugin.id)
+        plugins.add(plugin)
+        notifyChanged()
+    }
+
+    @Synchronized
+    fun unregister(pluginId: String) {
+        val changed = plugins.removeAll { it.id == pluginId }
+        if (changed) {
+            notifyChanged()
+        }
+    }
+
+    fun notifyChanged() {
+        changeVersionMutable.update { current -> current + 1 }
+    }
+
+    fun createMenuItems(params: ChatMessageMenuItemParams): List<ChatMessageMenuItemDefinition> {
+        return plugins
+            .flatMap { plugin -> plugin.createMenuItems(params) }
+            .sortedWith(
+                compareBy(
+                    ChatMessageMenuItemDefinition::order,
+                    ChatMessageMenuItemDefinition::title,
+                    ChatMessageMenuItemDefinition::id
+                )
+            )
+    }
+}

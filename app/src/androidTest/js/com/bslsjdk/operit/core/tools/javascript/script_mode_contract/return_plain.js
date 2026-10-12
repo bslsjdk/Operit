@@ -1,1 +1,10 @@
-J3VzZSBzdHJpY3QnOwoKcmV0dXJuIHsKICBzdWNjZXNzOiB0cnVlLAogIG1vZGU6ICdzY3JpcHQtbW9kZS1yZXR1cm4nLAogIG5lc3RlZDogewogICAgdmFsdWU6IDcsCiAgfSwKICBpdGVtczogWzEsIDIsIDNdLAp9Owo=
+'use strict';
+
+return {
+  success: true,
+  mode: 'script-mode-return',
+  nested: {
+    value: 7,
+  },
+  items: [1, 2, 3],
+};

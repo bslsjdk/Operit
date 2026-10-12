@@ -1,1 +1,59 @@
-LyoKICogQ29weXJpZ2h0IDIwMjIgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5MYXp5TGF5b3V0QmV5b25kQm91bmRzU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKCkBDb21wb3NhYmxlCmludGVybmFsIGZ1biByZW1lbWJlckxhenlMaXN0QmV5b25kQm91bmRzU3RhdGUoCiAgICBzdGF0ZTogTGF6eUxpc3RTdGF0ZSwKICAgIGJleW9uZEJvdW5kc0l0ZW1Db3VudDogSW50LAopOiBMYXp5TGF5b3V0QmV5b25kQm91bmRzU3RhdGUgewogICAgcmV0dXJuIHJlbWVtYmVyKHN0YXRlLCBiZXlvbmRCb3VuZHNJdGVtQ291bnQpIHsKICAgICAgICBMYXp5TGlzdEJleW9uZEJvdW5kc1N0YXRlKHN0YXRlLCBiZXlvbmRCb3VuZHNJdGVtQ291bnQpCiAgICB9Cn0KCmludGVybmFsIGNsYXNzIExhenlMaXN0QmV5b25kQm91bmRzU3RhdGUodmFsIHN0YXRlOiBMYXp5TGlzdFN0YXRlLCB2YWwgYmV5b25kQm91bmRzSXRlbUNvdW50OiBJbnQpIDoKICAgIExhenlMYXlvdXRCZXlvbmRCb3VuZHNTdGF0ZSB7CgogICAgb3ZlcnJpZGUgdmFsIGl0ZW1Db3VudDogSW50CiAgICAgICAgZ2V0KCkgPSBzdGF0ZS5sYXlvdXRJbmZvLnRvdGFsSXRlbXNDb3VudAoKICAgIG92ZXJyaWRlIHZhbCBoYXNWaXNpYmxlSXRlbXM6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHN0YXRlLmxheW91dEluZm8udmlzaWJsZUl0ZW1zSW5mby5pc05vdEVtcHR5KCkKCiAgICBvdmVycmlkZSB2YWwgZmlyc3RQbGFjZWRJbmRleDogSW50CiAgICAgICAgZ2V0KCkgPSBtYXhPZigwLCBzdGF0ZS5maXJzdFZpc2libGVJdGVtSW5kZXggLSBiZXlvbmRCb3VuZHNJdGVtQ291bnQpCgogICAgb3ZlcnJpZGUgdmFsIGxhc3RQbGFjZWRJbmRleDogSW50CiAgICAgICAgZ2V0KCkgPQogICAgICAgICAgICBtaW5PZigKICAgICAgICAgICAgICAgIGl0ZW1Db3VudCAtIDEsCiAgICAgICAgICAgICAgICBzdGF0ZS5sYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm8ubGFzdCgpLmluZGV4ICsgYmV5b25kQm91bmRzSXRlbUNvdW50LAogICAgICAgICAgICApCgogICAgb3ZlcnJpZGUgZnVuIGl0ZW1zUGVyVmlld3BvcnQoKTogSW50IHsKICAgICAgICBpZiAoc3RhdGUubGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmlzRW1wdHkoKSkgcmV0dXJuIDAKICAgICAgICB2YWwgdmlld3BvcnRTaXplID0gc3RhdGUubGF5b3V0SW5mby5zaW5nbGVBeGlzVmlld3BvcnRTaXplCiAgICAgICAgdmFsIGF2ZXJhZ2VJdGVtU2l6ZSA9IHN0YXRlLmxheW91dEluZm8udmlzaWJsZUl0ZW1zQXZlcmFnZVNpemUoKQogICAgICAgIGlmIChhdmVyYWdlSXRlbVNpemUgPT0gMCkgcmV0dXJuIDEKICAgICAgICByZXR1cm4gKHZpZXdwb3J0U2l6ZSAvIGF2ZXJhZ2VJdGVtU2l6ZSkuY29lcmNlQXRMZWFzdCgxKQogICAgfQp9Cg==
+/*
+ * Copyright 2022 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutBeyondBoundsState
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+
+@Composable
+internal fun rememberLazyListBeyondBoundsState(
+    state: LazyListState,
+    beyondBoundsItemCount: Int,
+): LazyLayoutBeyondBoundsState {
+    return remember(state, beyondBoundsItemCount) {
+        LazyListBeyondBoundsState(state, beyondBoundsItemCount)
+    }
+}
+
+internal class LazyListBeyondBoundsState(val state: LazyListState, val beyondBoundsItemCount: Int) :
+    LazyLayoutBeyondBoundsState {
+
+    override val itemCount: Int
+        get() = state.layoutInfo.totalItemsCount
+
+    override val hasVisibleItems: Boolean
+        get() = state.layoutInfo.visibleItemsInfo.isNotEmpty()
+
+    override val firstPlacedIndex: Int
+        get() = maxOf(0, state.firstVisibleItemIndex - beyondBoundsItemCount)
+
+    override val lastPlacedIndex: Int
+        get() =
+            minOf(
+                itemCount - 1,
+                state.layoutInfo.visibleItemsInfo.last().index + beyondBoundsItemCount,
+            )
+
+    override fun itemsPerViewport(): Int {
+        if (state.layoutInfo.visibleItemsInfo.isEmpty()) return 0
+        val viewportSize = state.layoutInfo.singleAxisViewportSize
+        val averageItemSize = state.layoutInfo.visibleItemsAverageSize()
+        if (averageItemSize == 0) return 1
+        return (viewportSize / averageItemSize).coerceAtLeast(1)
+    }
+}

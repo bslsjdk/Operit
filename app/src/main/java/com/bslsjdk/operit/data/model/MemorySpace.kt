@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCi8qKgogKiBNZXRhZGF0YSBmb3IgYW4gaXNvbGF0ZWQgbG9uZy10ZXJtIG1lbW9yeSBkYXRhYmFzZS4KICoKICogVGhlIGlkZW50aWZpZXIgaW50ZW50aW9uYWxseSByZW1haW5zIHN0YWJsZSBhY3Jvc3MgdGhlIHVzZXItcHJvZmlsZSBtaWdyYXRpb24gYmVjYXVzZSBpdCBpcwogKiBhbHNvIHRoZSBPYmplY3RCb3ggZGF0YWJhc2UgbmFtZSBhbmQgbWF5IGJlIHJlZmVyZW5jZWQgYnkgY2hhcmFjdGVyIGNhcmRzLgogKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIE1lbW9yeVNwYWNlKAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgdmFsIHByb2ZpbGVBdXRvVXBkYXRlRW5hYmxlZDogQm9vbGVhbiA9IHRydWUsCiAgICB2YWwgcHJvZmlsZUF1dG9VcGRhdGVMb2NrZWQ6IEJvb2xlYW4gPSBmYWxzZQopCg==
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+
+/**
+ * Metadata for an isolated long-term memory database.
+ *
+ * The identifier intentionally remains stable across the user-profile migration because it is
+ * also the ObjectBox database name and may be referenced by character cards.
+ */
+@Serializable
+data class MemorySpace(
+    val id: String,
+    val name: String,
+    val profileAutoUpdateEnabled: Boolean = true,
+    val profileAutoUpdateLocked: Boolean = false
+)

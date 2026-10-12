@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmRpc3BsYXlzCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQudXRpbC5BdHRyaWJ1dGVTZXQKaW1wb3J0IGNvbS5haS5hc3Npc3RhbmNlLnNob3dlcmNsaWVudC51aS5TaG93ZXJTdXJmYWNlVmlldyBhcyBDb3JlU2hvd2VyU3VyZmFjZVZpZXcKCi8qKgogKiBTdXJmYWNlVmlldyB1c2VkIGluc2lkZSB0aGUgdmlydHVhbCBkaXNwbGF5IG92ZXJsYXkgdG8gcmVuZGVyIHRoZSBTaG93ZXIgdmlkZW8gc3RyZWFtLgogKi8KY2xhc3MgU2hvd2VyU3VyZmFjZVZpZXcgQEp2bU92ZXJsb2FkcyBjb25zdHJ1Y3RvcigKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBhdHRyczogQXR0cmlidXRlU2V0PyA9IG51bGwKKSA6IENvcmVTaG93ZXJTdXJmYWNlVmlldyhjb250ZXh0LCBhdHRycykK
+package com.bslsjdk.operit.ui.common.displays
+
+import android.content.Context
+import android.util.AttributeSet
+import com.ai.assistance.showerclient.ui.ShowerSurfaceView as CoreShowerSurfaceView
+
+/**
+ * SurfaceView used inside the virtual display overlay to render the Shower video stream.
+ */
+class ShowerSurfaceView @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null
+) : CoreShowerSurfaceView(context, attrs)

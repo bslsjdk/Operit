@@ -1,1 +1,331 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnNwZWVjaAoKaW1wb3J0IGFpLm9ubnhydW50aW1lLk9ubnhUZW5zb3IKaW1wb3J0IGFpLm9ubnhydW50aW1lLk9ydEVudmlyb25tZW50CmltcG9ydCBhaS5vbm54cnVudGltZS5PcnRTZXNzaW9uCmltcG9ydCBhaS5vbm54cnVudGltZS5UZW5zb3JJbmZvCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFzc2V0Q29weVV0aWxzCmltcG9ydCBqYXZhLm5pby5GbG9hdEJ1ZmZlcgppbXBvcnQgamF2YS5uaW8uTG9uZ0J1ZmZlcgppbXBvcnQga290bGluLm1hdGguY2VpbAoKY2xhc3MgT25ueFNpbGVyb1ZhZCgKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBzYW1wbGVSYXRlOiBJbnQgPSAxNjAwMCwKICAgIHByaXZhdGUgdmFsIGZyYW1lU2l6ZTogSW50ID0gNTEyLAogICAgcHJpdmF0ZSB2YWwgbW9kZTogTW9kZSA9IE1vZGUuTk9STUFMLAogICAgc3BlZWNoRHVyYXRpb25NczogSW50ID0gNTAsCiAgICBzaWxlbmNlRHVyYXRpb25NczogSW50ID0gMzAwLAogICAgbW9kZWxBc3NldFBhdGg6IFN0cmluZyA9ICJtb2RlbHMvc2lsZXJvX3ZhZC5vbm54IiwKKSA6IEF1dG9DbG9zZWFibGUgewoKICAgIHByaXZhdGUgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIk9ubnhTaWxlcm9WYWQiCiAgICB9CgogICAgZW51bSBjbGFzcyBNb2RlIHsKICAgICAgICBPRkYsCiAgICAgICAgTk9STUFMLAogICAgICAgIEFHR1JFU1NJVkUsCiAgICAgICAgVkVSWV9BR0dSRVNTSVZFLAogICAgfQoKICAgIHByaXZhdGUgdmFsIGVudjogT3J0RW52aXJvbm1lbnQgPSBPcnRFbnZpcm9ubWVudC5nZXRFbnZpcm9ubWVudCgpCiAgICBwcml2YXRlIHZhbCBzZXNzaW9uOiBPcnRTZXNzaW9uCgogICAgcHJpdmF0ZSB2YWwgaW5wdXROYW1lT3JkZXI6IExpc3Q8U3RyaW5nPgogICAgcHJpdmF0ZSB2YWwgb3V0cHV0TmFtZU9yZGVyOiBMaXN0PFN0cmluZz4KICAgIHByaXZhdGUgdmFsIGF1ZGlvSW5wdXROYW1lOiBTdHJpbmcKICAgIHByaXZhdGUgdmFsIHNySW5wdXROYW1lOiBTdHJpbmc/CiAgICBwcml2YXRlIHZhbCBzdGF0ZUlucHV0TmFtZTogU3RyaW5nPwogICAgcHJpdmF0ZSB2YWwgaElucHV0TmFtZTogU3RyaW5nPwogICAgcHJpdmF0ZSB2YWwgY0lucHV0TmFtZTogU3RyaW5nPwogICAgcHJpdmF0ZSB2YWwgaW5wdXRXaW5kb3dTaXplOiBJbnQKICAgIHByaXZhdGUgdmFsIGNvbnRleHRTaXplOiBJbnQKCiAgICBwcml2YXRlIHZhbCBhdWRpb1RlbnNvclNoYXBlOiBMb25nQXJyYXkKICAgIHByaXZhdGUgdmFsIHNyVGVuc29yU2hhcGU6IExvbmdBcnJheQogICAgcHJpdmF0ZSB2YWwgc3RhdGVUZW5zb3JTaGFwZTogTG9uZ0FycmF5CiAgICBwcml2YXRlIHZhbCBoVGVuc29yU2hhcGU6IExvbmdBcnJheQogICAgcHJpdmF0ZSB2YWwgY1RlbnNvclNoYXBlOiBMb25nQXJyYXkKCiAgICBwcml2YXRlIHZhciBhdWRpb0NvbnRleHQgPSBGbG9hdEFycmF5KDApCgogICAgcHJpdmF0ZSB2YXIgaCA9IEZsb2F0QXJyYXkoMTI4KQogICAgcHJpdmF0ZSB2YXIgYyA9IEZsb2F0QXJyYXkoMTI4KQogICAgcHJpdmF0ZSB2YXIgc3RhdGUgPSBGbG9hdEFycmF5KDI1NikKCiAgICBwcml2YXRlIHZhciBzcGVlY2hGcmFtZXNDb3VudCA9IDAKICAgIHByaXZhdGUgdmFyIHNpbGVuY2VGcmFtZXNDb3VudCA9IDAKICAgIHByaXZhdGUgdmFyIG1heFNwZWVjaEZyYW1lc0NvdW50ID0gbXNUb0ZyYW1lcyhzcGVlY2hEdXJhdGlvbk1zKQogICAgcHJpdmF0ZSB2YXIgbWF4U2lsZW5jZUZyYW1lc0NvdW50ID0gbXNUb0ZyYW1lcyhzaWxlbmNlRHVyYXRpb25NcykKCiAgICBpbml0IHsKICAgICAgICB2YWwgbW9kZWxGaWxlID0gQXNzZXRDb3B5VXRpbHMuY29weUFzc2V0VG9DYWNoZShjb250ZXh0LCBtb2RlbEFzc2V0UGF0aCkKICAgICAgICB2YWwgb3B0cyA9IE9ydFNlc3Npb24uU2Vzc2lvbk9wdGlvbnMoKS5hcHBseSB7CiAgICAgICAgICAgIHNldEludHJhT3BOdW1UaHJlYWRzKDEpCiAgICAgICAgICAgIHNldEludGVyT3BOdW1UaHJlYWRzKDEpCiAgICAgICAgICAgIHNldE9wdGltaXphdGlvbkxldmVsKE9ydFNlc3Npb24uU2Vzc2lvbk9wdGlvbnMuT3B0TGV2ZWwuQUxMX09QVCkKICAgICAgICB9CiAgICAgICAgc2Vzc2lvbiA9IGVudi5jcmVhdGVTZXNzaW9uKG1vZGVsRmlsZS5hYnNvbHV0ZVBhdGgsIG9wdHMpCgogICAgICAgIGlucHV0TmFtZU9yZGVyID0gc2Vzc2lvbi5pbnB1dE5hbWVzLnRvTGlzdCgpCiAgICAgICAgb3V0cHV0TmFtZU9yZGVyID0gc2Vzc2lvbi5vdXRwdXROYW1lcy50b0xpc3QoKQoKICAgICAgICB2YWwgaW5wdXROYW1lU2V0ID0gaW5wdXROYW1lT3JkZXIudG9TZXQoKQogICAgICAgIGF1ZGlvSW5wdXROYW1lID0gd2hlbiB7CiAgICAgICAgICAgIGlucHV0TmFtZVNldC5jb250YWlucygiaW5wdXQiKSAtPiAiaW5wdXQiCiAgICAgICAgICAgIGlucHV0TmFtZVNldC5jb250YWlucygiYXVkaW8iKSAtPiAiYXVkaW8iCiAgICAgICAgICAgIGlucHV0TmFtZVNldC5jb250YWlucygieCIpIC0+ICJ4IgogICAgICAgICAgICBlbHNlIC0+IGlucHV0TmFtZU9yZGVyLmZpcnN0T3JOdWxsKCkgPzogImlucHV0IgogICAgICAgIH0KICAgICAgICBzcklucHV0TmFtZSA9IHdoZW4gewogICAgICAgICAgICBpbnB1dE5hbWVTZXQuY29udGFpbnMoInNyIikgLT4gInNyIgogICAgICAgICAgICBpbnB1dE5hbWVTZXQuY29udGFpbnMoInNhbXBsZV9yYXRlIikgLT4gInNhbXBsZV9yYXRlIgogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICAgICAgc3RhdGVJbnB1dE5hbWUgPSB3aGVuIHsKICAgICAgICAgICAgaW5wdXROYW1lU2V0LmNvbnRhaW5zKCJzdGF0ZSIpIC0+ICJzdGF0ZSIKICAgICAgICAgICAgZWxzZSAtPiBudWxsCiAgICAgICAgfQogICAgICAgIGhJbnB1dE5hbWUgPSBpZiAoaW5wdXROYW1lU2V0LmNvbnRhaW5zKCJoIikpICJoIiBlbHNlIG51bGwKICAgICAgICBjSW5wdXROYW1lID0gaWYgKGlucHV0TmFtZVNldC5jb250YWlucygiYyIpKSAiYyIgZWxzZSBudWxsCgogICAgICAgIGZ1biBnZXRUZW5zb3JJbmZvKG5hbWU6IFN0cmluZyk6IFRlbnNvckluZm8/IHsKICAgICAgICAgICAgcmV0dXJuIChzZXNzaW9uLmlucHV0SW5mb1tuYW1lXT8uaW5mbyBhcz8gVGVuc29ySW5mbykKICAgICAgICB9CgogICAgICAgIGZ1biBub3JtYWxpemVTaGFwZShzaGFwZTogTG9uZ0FycmF5PywgZmFsbGJhY2s6IExvbmdBcnJheSk6IExvbmdBcnJheSB7CiAgICAgICAgICAgIGlmIChzaGFwZSA9PSBudWxsIHx8IHNoYXBlLmlzRW1wdHkoKSkgcmV0dXJuIGZhbGxiYWNrCiAgICAgICAgICAgIHJldHVybiBMb25nQXJyYXkoc2hhcGUuc2l6ZSkgeyBpIC0+CiAgICAgICAgICAgICAgICB2YWwgdiA9IHNoYXBlW2ldCiAgICAgICAgICAgICAgICBpZiAodiA8PSAwKSAxTCBlbHNlIHYKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmFsIGF1ZGlvVGVuc29ySW5mbyA9IGdldFRlbnNvckluZm8oYXVkaW9JbnB1dE5hbWUpCiAgICAgICAgdmFsIGF1ZGlvTW9kZWxTaGFwZSA9IGF1ZGlvVGVuc29ySW5mbz8uc2hhcGUKICAgICAgICB2YWwgbGFzdERpbSA9IGF1ZGlvTW9kZWxTaGFwZT8ubGFzdE9yTnVsbCgpPy50b0ludCgpID86IC0xCiAgICAgICAgaW5wdXRXaW5kb3dTaXplID0KICAgICAgICAgICAgaWYgKGxhc3REaW0gPiAwKSB7CiAgICAgICAgICAgICAgICBsYXN0RGltCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB3aGVuIHsKICAgICAgICAgICAgICAgICAgICBzYW1wbGVSYXRlID09IDE2MDAwICYmIGZyYW1lU2l6ZSA9PSA1MTIgLT4gNTEyICsgNjQKICAgICAgICAgICAgICAgICAgICBzYW1wbGVSYXRlID09IDgwMDAgJiYgZnJhbWVTaXplID09IDI1NiAtPiAyNTYgKyAzMgogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gZnJhbWVTaXplCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICBjb250ZXh0U2l6ZSA9IChpbnB1dFdpbmRvd1NpemUgLSBmcmFtZVNpemUpLmNvZXJjZUF0TGVhc3QoMCkKICAgICAgICBhdWRpb0NvbnRleHQgPSBGbG9hdEFycmF5KGNvbnRleHRTaXplKQoKICAgICAgICBhdWRpb1RlbnNvclNoYXBlID0gd2hlbiAoYXVkaW9Nb2RlbFNoYXBlPy5zaXplKSB7CiAgICAgICAgICAgIDEgLT4gbG9uZ0FycmF5T2YoaW5wdXRXaW5kb3dTaXplLnRvTG9uZygpKQogICAgICAgICAgICAyIC0+IGxvbmdBcnJheU9mKDEsIGlucHV0V2luZG93U2l6ZS50b0xvbmcoKSkKICAgICAgICAgICAgZWxzZSAtPiBsb25nQXJyYXlPZigxLCBpbnB1dFdpbmRvd1NpemUudG9Mb25nKCkpCiAgICAgICAgfQoKICAgICAgICB2YWwgc3JJbmZvID0gc3JJbnB1dE5hbWU/LmxldCB7IGdldFRlbnNvckluZm8oaXQpIH0KICAgICAgICBzclRlbnNvclNoYXBlID0gd2hlbiAoc3JJbmZvPy5zaGFwZT8uc2l6ZSkgewogICAgICAgICAgICBudWxsIC0+IGxvbmdBcnJheU9mKDEpCiAgICAgICAgICAgIDAgLT4gbG9uZ0FycmF5T2YoKQogICAgICAgICAgICBlbHNlIC0+IG5vcm1hbGl6ZVNoYXBlKHNySW5mby5zaGFwZSwgbG9uZ0FycmF5T2YoMSkpCiAgICAgICAgfQoKICAgICAgICB2YWwgc3RhdGVJbmZvID0gc3RhdGVJbnB1dE5hbWU/LmxldCB7IGdldFRlbnNvckluZm8oaXQpIH0KICAgICAgICBzdGF0ZVRlbnNvclNoYXBlID0gbm9ybWFsaXplU2hhcGUoc3RhdGVJbmZvPy5zaGFwZSwgbG9uZ0FycmF5T2YoMiwgMSwgMTI4KSkKCiAgICAgICAgdmFsIGhJbmZvID0gaElucHV0TmFtZT8ubGV0IHsgZ2V0VGVuc29ySW5mbyhpdCkgfQogICAgICAgIHZhbCBjSW5mbyA9IGNJbnB1dE5hbWU/LmxldCB7IGdldFRlbnNvckluZm8oaXQpIH0KICAgICAgICBoVGVuc29yU2hhcGUgPSBub3JtYWxpemVTaGFwZShoSW5mbz8uc2hhcGUsIGxvbmdBcnJheU9mKDIsIDEsIDY0KSkKICAgICAgICBjVGVuc29yU2hhcGUgPSBub3JtYWxpemVTaGFwZShjSW5mbz8uc2hhcGUsIGxvbmdBcnJheU9mKDIsIDEsIDY0KSkKCiAgICAgICAgQXBwTG9nZ2VyLmQoCiAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgIkxvYWRlZCBTaWxlcm8gVkFEIG1vZGVsLiBpbnB1dHM9JGlucHV0TmFtZU9yZGVyIG91dHB1dHM9JG91dHB1dE5hbWVPcmRlciBpbnB1dFdpbmRvd1NpemU9JGlucHV0V2luZG93U2l6ZSBhdWRpb1NoYXBlPSR7YXVkaW9UZW5zb3JTaGFwZS50b0xpc3QoKX0gc3JTaGFwZT0ke3NyVGVuc29yU2hhcGUudG9MaXN0KCl9IHN0YXRlU2hhcGU9JHtzdGF0ZVRlbnNvclNoYXBlLnRvTGlzdCgpfSIKICAgICAgICApCiAgICB9CgogICAgZnVuIHJlc2V0KCkgewogICAgICAgIGggPSBGbG9hdEFycmF5KDEyOCkKICAgICAgICBjID0gRmxvYXRBcnJheSgxMjgpCiAgICAgICAgc3RhdGUgPSBGbG9hdEFycmF5KDI1NikKICAgICAgICBhdWRpb0NvbnRleHQgPSBGbG9hdEFycmF5KGNvbnRleHRTaXplKQogICAgICAgIHNwZWVjaEZyYW1lc0NvdW50ID0gMAogICAgICAgIHNpbGVuY2VGcmFtZXNDb3VudCA9IDAKICAgIH0KCiAgICBmdW4gc2V0U3BlZWNoRHVyYXRpb25NcyhtczogSW50KSB7CiAgICAgICAgbWF4U3BlZWNoRnJhbWVzQ291bnQgPSBtc1RvRnJhbWVzKG1zKQogICAgfQoKICAgIGZ1biBzZXRTaWxlbmNlRHVyYXRpb25NcyhtczogSW50KSB7CiAgICAgICAgbWF4U2lsZW5jZUZyYW1lc0NvdW50ID0gbXNUb0ZyYW1lcyhtcykKICAgIH0KCiAgICBmdW4gaXNTcGVlY2goZnJhbWU6IFNob3J0QXJyYXkpOiBCb29sZWFuIHsKICAgICAgICBpZiAobW9kZSA9PSBNb2RlLk9GRikgcmV0dXJuIGZhbHNlCiAgICAgICAgcmVxdWlyZShmcmFtZS5zaXplID09IGZyYW1lU2l6ZSkKCiAgICAgICAgdmFsIGF1ZGlvID0gRmxvYXRBcnJheShmcmFtZVNpemUpIHsgaSAtPiBmcmFtZVtpXSAvIDMyNzY4LjBmIH0KICAgICAgICB2YWwgbW9kZWxJbnB1dCA9IGlmIChjb250ZXh0U2l6ZSA+IDApIHsKICAgICAgICAgICAgdmFsIGlucHV0ID0gRmxvYXRBcnJheShjb250ZXh0U2l6ZSArIGZyYW1lU2l6ZSkKICAgICAgICAgICAgaWYgKGF1ZGlvQ29udGV4dC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIGphdmEubGFuZy5TeXN0ZW0uYXJyYXljb3B5KGF1ZGlvQ29udGV4dCwgMCwgaW5wdXQsIDAsIGNvbnRleHRTaXplKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGphdmEubGFuZy5TeXN0ZW0uYXJyYXljb3B5KGF1ZGlvLCAwLCBpbnB1dCwgY29udGV4dFNpemUsIGZyYW1lU2l6ZSkKICAgICAgICAgICAgaW5wdXQKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBhdWRpbwogICAgICAgIH0KCiAgICAgICAgdmFsIHByb2IgPSBwcmVkaWN0UHJvYmFiaWxpdHkobW9kZWxJbnB1dCkKICAgICAgICB2YWwgaXNTcGVlY2hGcmFtZSA9IHByb2IgPiB0aHJlc2hvbGQoKQoKICAgICAgICBpZiAoY29udGV4dFNpemUgPiAwKSB7CiAgICAgICAgICAgIGphdmEubGFuZy5TeXN0ZW0uYXJyYXljb3B5KG1vZGVsSW5wdXQsIG1vZGVsSW5wdXQuc2l6ZSAtIGNvbnRleHRTaXplLCBhdWRpb0NvbnRleHQsIDAsIGNvbnRleHRTaXplKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGlzQ29udGludW91c1NwZWVjaChpc1NwZWVjaEZyYW1lKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzQ29udGludW91c1NwZWVjaChpc1NwZWVjaEZyYW1lOiBCb29sZWFuKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKGlzU3BlZWNoRnJhbWUpIHsKICAgICAgICAgICAgaWYgKHNwZWVjaEZyYW1lc0NvdW50IDw9IG1heFNwZWVjaEZyYW1lc0NvdW50KSBzcGVlY2hGcmFtZXNDb3VudCsrCgogICAgICAgICAgICBpZiAoc3BlZWNoRnJhbWVzQ291bnQgPiBtYXhTcGVlY2hGcmFtZXNDb3VudCkgewogICAgICAgICAgICAgICAgc2lsZW5jZUZyYW1lc0NvdW50ID0gMAogICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGlmIChzaWxlbmNlRnJhbWVzQ291bnQgPD0gbWF4U2lsZW5jZUZyYW1lc0NvdW50KSBzaWxlbmNlRnJhbWVzQ291bnQrKwoKICAgICAgICAgICAgaWYgKHNpbGVuY2VGcmFtZXNDb3VudCA+IG1heFNpbGVuY2VGcmFtZXNDb3VudCkgewogICAgICAgICAgICAgICAgc3BlZWNoRnJhbWVzQ291bnQgPSAwCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgfSBlbHNlIGlmIChzcGVlY2hGcmFtZXNDb3VudCA+IG1heFNwZWVjaEZyYW1lc0NvdW50KSB7CiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBmYWxzZQogICAgfQoKICAgIHByaXZhdGUgZnVuIHByZWRpY3RQcm9iYWJpbGl0eShhdWRpb0RhdGE6IEZsb2F0QXJyYXkpOiBGbG9hdCB7CiAgICAgICAgdmFsIHRvQ2xvc2UgPSBBcnJheUxpc3Q8QXV0b0Nsb3NlYWJsZT4oNCkKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgaW5wdXRzID0gTGlua2VkSGFzaE1hcDxTdHJpbmcsIE9ubnhUZW5zb3I+KCkKCiAgICAgICAgICAgIHZhbCBpbnB1dFRlbnNvciA9IE9ubnhUZW5zb3IuY3JlYXRlVGVuc29yKAogICAgICAgICAgICAgICAgZW52LAogICAgICAgICAgICAgICAgRmxvYXRCdWZmZXIud3JhcChhdWRpb0RhdGEpLAogICAgICAgICAgICAgICAgYXVkaW9UZW5zb3JTaGFwZQogICAgICAgICAgICApCiAgICAgICAgICAgIHRvQ2xvc2UuYWRkKGlucHV0VGVuc29yKQogICAgICAgICAgICBpbnB1dHNbYXVkaW9JbnB1dE5hbWVdID0gaW5wdXRUZW5zb3IKCiAgICAgICAgICAgIHNySW5wdXROYW1lPy5sZXQgeyBuYW1lIC0+CiAgICAgICAgICAgICAgICB2YWwgc3JUZW5zb3IgPSBPbm54VGVuc29yLmNyZWF0ZVRlbnNvcigKICAgICAgICAgICAgICAgICAgICBlbnYsCiAgICAgICAgICAgICAgICAgICAgTG9uZ0J1ZmZlci53cmFwKGxvbmdBcnJheU9mKHNhbXBsZVJhdGUudG9Mb25nKCkpKSwKICAgICAgICAgICAgICAgICAgICBzclRlbnNvclNoYXBlCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB0b0Nsb3NlLmFkZChzclRlbnNvcikKICAgICAgICAgICAgICAgIGlucHV0c1tuYW1lXSA9IHNyVGVuc29yCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChzdGF0ZUlucHV0TmFtZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICB2YWwgc3RhdGVUZW5zb3IgPSBPbm54VGVuc29yLmNyZWF0ZVRlbnNvcigKICAgICAgICAgICAgICAgICAgICBlbnYsCiAgICAgICAgICAgICAgICAgICAgRmxvYXRCdWZmZXIud3JhcChzdGF0ZSksCiAgICAgICAgICAgICAgICAgICAgc3RhdGVUZW5zb3JTaGFwZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgdG9DbG9zZS5hZGQoc3RhdGVUZW5zb3IpCiAgICAgICAgICAgICAgICBpbnB1dHNbc3RhdGVJbnB1dE5hbWVdID0gc3RhdGVUZW5zb3IKICAgICAgICAgICAgfSBlbHNlIGlmIChoSW5wdXROYW1lICE9IG51bGwgJiYgY0lucHV0TmFtZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICB2YWwgaFRlbnNvciA9IE9ubnhUZW5zb3IuY3JlYXRlVGVuc29yKAogICAgICAgICAgICAgICAgICAgIGVudiwKICAgICAgICAgICAgICAgICAgICBGbG9hdEJ1ZmZlci53cmFwKGgpLAogICAgICAgICAgICAgICAgICAgIGhUZW5zb3JTaGFwZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgdG9DbG9zZS5hZGQoaFRlbnNvcikKICAgICAgICAgICAgICAgIGlucHV0c1toSW5wdXROYW1lXSA9IGhUZW5zb3IKCiAgICAgICAgICAgICAgICB2YWwgY1RlbnNvciA9IE9ubnhUZW5zb3IuY3JlYXRlVGVuc29yKAogICAgICAgICAgICAgICAgICAgIGVudiwKICAgICAgICAgICAgICAgICAgICBGbG9hdEJ1ZmZlci53cmFwKGMpLAogICAgICAgICAgICAgICAgICAgIGNUZW5zb3JTaGFwZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgdG9DbG9zZS5hZGQoY1RlbnNvcikKICAgICAgICAgICAgICAgIGlucHV0c1tjSW5wdXROYW1lXSA9IGNUZW5zb3IKICAgICAgICAgICAgfQoKICAgICAgICAgICAgc2Vzc2lvbi5ydW4oaW5wdXRzKS51c2UgeyBvdXQgLT4KICAgICAgICAgICAgICAgIHZhbCBjb25maWRlbmNlID0gZXh0cmFjdFNjYWxhckZsb2F0KG91dFswXS52YWx1ZSkKCiAgICAgICAgICAgICAgICBpZiAoc3RhdGVJbnB1dE5hbWUgIT0gbnVsbCAmJiBvdXQuc2l6ZSgpID49IDIpIHsKICAgICAgICAgICAgICAgICAgICBleHRyYWN0RmxvYXRBcnJheShvdXRbMV0udmFsdWUsIDI1Nik/LmxldCB7IHN0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlID0gc3QKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKGhJbnB1dE5hbWUgIT0gbnVsbCAmJiBjSW5wdXROYW1lICE9IG51bGwgJiYgb3V0LnNpemUoKSA+PSAzKSB7CiAgICAgICAgICAgICAgICAgICAgZXh0cmFjdEZsb2F0QXJyYXkob3V0WzFdLnZhbHVlLCAxMjgpPy5sZXQgeyBobiAtPgogICAgICAgICAgICAgICAgICAgICAgICBoID0gaG4KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZXh0cmFjdEZsb2F0QXJyYXkob3V0WzJdLnZhbHVlLCAxMjgpPy5sZXQgeyBjbiAtPgogICAgICAgICAgICAgICAgICAgICAgICBjID0gY24KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcmV0dXJuIGNvbmZpZGVuY2UKICAgICAgICAgICAgfQogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIGZvciAoaSBpbiB0b0Nsb3NlLmluZGljZXMucmV2ZXJzZWQoKSkgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICB0b0Nsb3NlW2ldLmNsb3NlKCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV4dHJhY3RTY2FsYXJGbG9hdCh2YWx1ZTogQW55Pyk6IEZsb2F0IHsKICAgICAgICByZXR1cm4gd2hlbiAodmFsdWUpIHsKICAgICAgICAgICAgaXMgRmxvYXRBcnJheSAtPiB2YWx1ZS5maXJzdE9yTnVsbCgpID86IDBmCiAgICAgICAgICAgIGlzIEFycmF5PCo+IC0+IGV4dHJhY3RTY2FsYXJGbG9hdCh2YWx1ZS5maXJzdE9yTnVsbCgpKQogICAgICAgICAgICBlbHNlIC0+IDBmCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV4dHJhY3RGbG9hdEFycmF5KHZhbHVlOiBBbnk/LCBleHBlY3RlZFNpemU6IEludCk6IEZsb2F0QXJyYXk/IHsKICAgICAgICB2YWwgb3V0ID0gQXJyYXlMaXN0PEZsb2F0PihleHBlY3RlZFNpemUpCiAgICAgICAgZnVuIHdhbGsodjogQW55PykgewogICAgICAgICAgICB3aGVuICh2KSB7CiAgICAgICAgICAgICAgICBpcyBGbG9hdEFycmF5IC0+IHYuZm9yRWFjaCB7IG91dC5hZGQoaXQpIH0KICAgICAgICAgICAgICAgIGlzIEFycmF5PCo+IC0+IHYuZm9yRWFjaCB7IHdhbGsoaXQpIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICB3YWxrKHZhbHVlKQogICAgICAgIHJldHVybiBpZiAob3V0LnNpemUgPT0gZXhwZWN0ZWRTaXplKSBvdXQudG9GbG9hdEFycmF5KCkgZWxzZSBudWxsCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdGhyZXNob2xkKCk6IEZsb2F0IHsKICAgICAgICByZXR1cm4gd2hlbiAobW9kZSkgewogICAgICAgICAgICBNb2RlLk5PUk1BTCAtPiAwLjVmCiAgICAgICAgICAgIE1vZGUuQUdHUkVTU0lWRSAtPiAwLjhmCiAgICAgICAgICAgIE1vZGUuVkVSWV9BR0dSRVNTSVZFIC0+IDAuOTVmCiAgICAgICAgICAgIE1vZGUuT0ZGIC0+IDFmCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIG1zVG9GcmFtZXMobXM6IEludCk6IEludCB7CiAgICAgICAgaWYgKG1zIDw9IDApIHJldHVybiAwCiAgICAgICAgdmFsIGZyYW1lRHVyYXRpb25NcyA9IChmcmFtZVNpemUgKiAxMDAwLjApIC8gc2FtcGxlUmF0ZQogICAgICAgIHJldHVybiBjZWlsKG1zIC8gZnJhbWVEdXJhdGlvbk1zKS50b0ludCgpLmNvZXJjZUF0TGVhc3QoMCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gY2xvc2UoKSB7CiAgICAgICAgc2Vzc2lvbi5jbG9zZSgpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.speech
+
+import ai.onnxruntime.OnnxTensor
+import ai.onnxruntime.OrtEnvironment
+import ai.onnxruntime.OrtSession
+import ai.onnxruntime.TensorInfo
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+import com.bslsjdk.operit.util.AssetCopyUtils
+import java.nio.FloatBuffer
+import java.nio.LongBuffer
+import kotlin.math.ceil
+
+class OnnxSileroVad(
+    context: Context,
+    private val sampleRate: Int = 16000,
+    private val frameSize: Int = 512,
+    private val mode: Mode = Mode.NORMAL,
+    speechDurationMs: Int = 50,
+    silenceDurationMs: Int = 300,
+    modelAssetPath: String = "models/silero_vad.onnx",
+) : AutoCloseable {
+
+    private companion object {
+        private const val TAG = "OnnxSileroVad"
+    }
+
+    enum class Mode {
+        OFF,
+        NORMAL,
+        AGGRESSIVE,
+        VERY_AGGRESSIVE,
+    }
+
+    private val env: OrtEnvironment = OrtEnvironment.getEnvironment()
+    private val session: OrtSession
+
+    private val inputNameOrder: List<String>
+    private val outputNameOrder: List<String>
+    private val audioInputName: String
+    private val srInputName: String?
+    private val stateInputName: String?
+    private val hInputName: String?
+    private val cInputName: String?
+    private val inputWindowSize: Int
+    private val contextSize: Int
+
+    private val audioTensorShape: LongArray
+    private val srTensorShape: LongArray
+    private val stateTensorShape: LongArray
+    private val hTensorShape: LongArray
+    private val cTensorShape: LongArray
+
+    private var audioContext = FloatArray(0)
+
+    private var h = FloatArray(128)
+    private var c = FloatArray(128)
+    private var state = FloatArray(256)
+
+    private var speechFramesCount = 0
+    private var silenceFramesCount = 0
+    private var maxSpeechFramesCount = msToFrames(speechDurationMs)
+    private var maxSilenceFramesCount = msToFrames(silenceDurationMs)
+
+    init {
+        val modelFile = AssetCopyUtils.copyAssetToCache(context, modelAssetPath)
+        val opts = OrtSession.SessionOptions().apply {
+            setIntraOpNumThreads(1)
+            setInterOpNumThreads(1)
+            setOptimizationLevel(OrtSession.SessionOptions.OptLevel.ALL_OPT)
+        }
+        session = env.createSession(modelFile.absolutePath, opts)
+
+        inputNameOrder = session.inputNames.toList()
+        outputNameOrder = session.outputNames.toList()
+
+        val inputNameSet = inputNameOrder.toSet()
+        audioInputName = when {
+            inputNameSet.contains("input") -> "input"
+            inputNameSet.contains("audio") -> "audio"
+            inputNameSet.contains("x") -> "x"
+            else -> inputNameOrder.firstOrNull() ?: "input"
+        }
+        srInputName = when {
+            inputNameSet.contains("sr") -> "sr"
+            inputNameSet.contains("sample_rate") -> "sample_rate"
+            else -> null
+        }
+        stateInputName = when {
+            inputNameSet.contains("state") -> "state"
+            else -> null
+        }
+        hInputName = if (inputNameSet.contains("h")) "h" else null
+        cInputName = if (inputNameSet.contains("c")) "c" else null
+
+        fun getTensorInfo(name: String): TensorInfo? {
+            return (session.inputInfo[name]?.info as? TensorInfo)
+        }
+
+        fun normalizeShape(shape: LongArray?, fallback: LongArray): LongArray {
+            if (shape == null || shape.isEmpty()) return fallback
+            return LongArray(shape.size) { i ->
+                val v = shape[i]
+                if (v <= 0) 1L else v
+            }
+        }
+
+        val audioTensorInfo = getTensorInfo(audioInputName)
+        val audioModelShape = audioTensorInfo?.shape
+        val lastDim = audioModelShape?.lastOrNull()?.toInt() ?: -1
+        inputWindowSize =
+            if (lastDim > 0) {
+                lastDim
+            } else {
+                when {
+                    sampleRate == 16000 && frameSize == 512 -> 512 + 64
+                    sampleRate == 8000 && frameSize == 256 -> 256 + 32
+                    else -> frameSize
+                }
+            }
+        contextSize = (inputWindowSize - frameSize).coerceAtLeast(0)
+        audioContext = FloatArray(contextSize)
+
+        audioTensorShape = when (audioModelShape?.size) {
+            1 -> longArrayOf(inputWindowSize.toLong())
+            2 -> longArrayOf(1, inputWindowSize.toLong())
+            else -> longArrayOf(1, inputWindowSize.toLong())
+        }
+
+        val srInfo = srInputName?.let { getTensorInfo(it) }
+        srTensorShape = when (srInfo?.shape?.size) {
+            null -> longArrayOf(1)
+            0 -> longArrayOf()
+            else -> normalizeShape(srInfo.shape, longArrayOf(1))
+        }
+
+        val stateInfo = stateInputName?.let { getTensorInfo(it) }
+        stateTensorShape = normalizeShape(stateInfo?.shape, longArrayOf(2, 1, 128))
+
+        val hInfo = hInputName?.let { getTensorInfo(it) }
+        val cInfo = cInputName?.let { getTensorInfo(it) }
+        hTensorShape = normalizeShape(hInfo?.shape, longArrayOf(2, 1, 64))
+        cTensorShape = normalizeShape(cInfo?.shape, longArrayOf(2, 1, 64))
+
+        AppLogger.d(
+            TAG,
+            "Loaded Silero VAD model. inputs=$inputNameOrder outputs=$outputNameOrder inputWindowSize=$inputWindowSize audioShape=${audioTensorShape.toList()} srShape=${srTensorShape.toList()} stateShape=${stateTensorShape.toList()}"
+        )
+    }
+
+    fun reset() {
+        h = FloatArray(128)
+        c = FloatArray(128)
+        state = FloatArray(256)
+        audioContext = FloatArray(contextSize)
+        speechFramesCount = 0
+        silenceFramesCount = 0
+    }
+
+    fun setSpeechDurationMs(ms: Int) {
+        maxSpeechFramesCount = msToFrames(ms)
+    }
+
+    fun setSilenceDurationMs(ms: Int) {
+        maxSilenceFramesCount = msToFrames(ms)
+    }
+
+    fun isSpeech(frame: ShortArray): Boolean {
+        if (mode == Mode.OFF) return false
+        require(frame.size == frameSize)
+
+        val audio = FloatArray(frameSize) { i -> frame[i] / 32768.0f }
+        val modelInput = if (contextSize > 0) {
+            val input = FloatArray(contextSize + frameSize)
+            if (audioContext.isNotEmpty()) {
+                java.lang.System.arraycopy(audioContext, 0, input, 0, contextSize)
+            }
+            java.lang.System.arraycopy(audio, 0, input, contextSize, frameSize)
+            input
+        } else {
+            audio
+        }
+
+        val prob = predictProbability(modelInput)
+        val isSpeechFrame = prob > threshold()
+
+        if (contextSize > 0) {
+            java.lang.System.arraycopy(modelInput, modelInput.size - contextSize, audioContext, 0, contextSize)
+        }
+
+        return isContinuousSpeech(isSpeechFrame)
+    }
+
+    private fun isContinuousSpeech(isSpeechFrame: Boolean): Boolean {
+        if (isSpeechFrame) {
+            if (speechFramesCount <= maxSpeechFramesCount) speechFramesCount++
+
+            if (speechFramesCount > maxSpeechFramesCount) {
+                silenceFramesCount = 0
+                return true
+            }
+        } else {
+            if (silenceFramesCount <= maxSilenceFramesCount) silenceFramesCount++
+
+            if (silenceFramesCount > maxSilenceFramesCount) {
+                speechFramesCount = 0
+                return false
+            } else if (speechFramesCount > maxSpeechFramesCount) {
+                return true
+            }
+        }
+        return false
+    }
+
+    private fun predictProbability(audioData: FloatArray): Float {
+        val toClose = ArrayList<AutoCloseable>(4)
+        try {
+            val inputs = LinkedHashMap<String, OnnxTensor>()
+
+            val inputTensor = OnnxTensor.createTensor(
+                env,
+                FloatBuffer.wrap(audioData),
+                audioTensorShape
+            )
+            toClose.add(inputTensor)
+            inputs[audioInputName] = inputTensor
+
+            srInputName?.let { name ->
+                val srTensor = OnnxTensor.createTensor(
+                    env,
+                    LongBuffer.wrap(longArrayOf(sampleRate.toLong())),
+                    srTensorShape
+                )
+                toClose.add(srTensor)
+                inputs[name] = srTensor
+            }
+
+            if (stateInputName != null) {
+                val stateTensor = OnnxTensor.createTensor(
+                    env,
+                    FloatBuffer.wrap(state),
+                    stateTensorShape
+                )
+                toClose.add(stateTensor)
+                inputs[stateInputName] = stateTensor
+            } else if (hInputName != null && cInputName != null) {
+                val hTensor = OnnxTensor.createTensor(
+                    env,
+                    FloatBuffer.wrap(h),
+                    hTensorShape
+                )
+                toClose.add(hTensor)
+                inputs[hInputName] = hTensor
+
+                val cTensor = OnnxTensor.createTensor(
+                    env,
+                    FloatBuffer.wrap(c),
+                    cTensorShape
+                )
+                toClose.add(cTensor)
+                inputs[cInputName] = cTensor
+            }
+
+            session.run(inputs).use { out ->
+                val confidence = extractScalarFloat(out[0].value)
+
+                if (stateInputName != null && out.size() >= 2) {
+                    extractFloatArray(out[1].value, 256)?.let { st ->
+                        state = st
+                    }
+                } else if (hInputName != null && cInputName != null && out.size() >= 3) {
+                    extractFloatArray(out[1].value, 128)?.let { hn ->
+                        h = hn
+                    }
+                    extractFloatArray(out[2].value, 128)?.let { cn ->
+                        c = cn
+                    }
+                }
+
+                return confidence
+            }
+        } finally {
+            for (i in toClose.indices.reversed()) {
+                try {
+                    toClose[i].close()
+                } catch (_: Exception) {
+                }
+            }
+        }
+    }
+
+    private fun extractScalarFloat(value: Any?): Float {
+        return when (value) {
+            is FloatArray -> value.firstOrNull() ?: 0f
+            is Array<*> -> extractScalarFloat(value.firstOrNull())
+            else -> 0f
+        }
+    }
+
+    private fun extractFloatArray(value: Any?, expectedSize: Int): FloatArray? {
+        val out = ArrayList<Float>(expectedSize)
+        fun walk(v: Any?) {
+            when (v) {
+                is FloatArray -> v.forEach { out.add(it) }
+                is Array<*> -> v.forEach { walk(it) }
+            }
+        }
+        walk(value)
+        return if (out.size == expectedSize) out.toFloatArray() else null
+    }
+
+    private fun threshold(): Float {
+        return when (mode) {
+            Mode.NORMAL -> 0.5f
+            Mode.AGGRESSIVE -> 0.8f
+            Mode.VERY_AGGRESSIVE -> 0.95f
+            Mode.OFF -> 1f
+        }
+    }
+
+    private fun msToFrames(ms: Int): Int {
+        if (ms <= 0) return 0
+        val frameDurationMs = (frameSize * 1000.0) / sampleRate
+        return ceil(ms / frameDurationMs).toInt().coerceAtLeast(0)
+    }
+
+    override fun close() {
+        session.close()
+    }
+}

@@ -1,1 +1,101 @@
-CnBhY2thZ2UgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5zdHlsZS5idWJibGUKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdE1lc3NhZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMuQ2hhdE1lc3NhZ2VIZWlnaHRNZW1vcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMuc3R5bGUuY3Vyc29yLlN1bW1hcnlNZXNzYWdlQ29tcG9zYWJsZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLlN0cmVhbQoKLyoqCiAqIEEgY29tcG9zYWJsZSBmdW5jdGlvbiB0aGF0IHJlbmRlcnMgY2hhdCBtZXNzYWdlcyBpbiBhIGJ1YmJsZSBjaGF0IHN0eWxlLgogKiBEZWxlZ2F0ZXMgdG8gc3BlY2lhbGl6ZWQgY29tcG9zYWJsZXMgYmFzZWQgb24gbWVzc2FnZSB0eXBlLgogKi8KQENvbXBvc2FibGUKZnVuIEJ1YmJsZVN0eWxlQ2hhdE1lc3NhZ2UoCiAgICBtZXNzYWdlOiBDaGF0TWVzc2FnZSwKICAgIHVzZXJNZXNzYWdlQ29sb3I6IENvbG9yLAogICAgYWlNZXNzYWdlQ29sb3I6IENvbG9yLAogICAgdXNlclRleHRDb2xvcjogQ29sb3IsCiAgICBhaVRleHRDb2xvcjogQ29sb3IsCiAgICBzeXN0ZW1NZXNzYWdlQ29sb3I6IENvbG9yLAogICAgc3lzdGVtVGV4dENvbG9yOiBDb2xvciwKICAgIHVzZXJNZXNzYWdlTGlxdWlkR2xhc3NFbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICB1c2VyTWVzc2FnZVdhdGVyR2xhc3NFbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICBhaU1lc3NhZ2VMaXF1aWRHbGFzc0VuYWJsZWQ6IEJvb2xlYW4gPSBmYWxzZSwKICAgIGFpTWVzc2FnZVdhdGVyR2xhc3NFbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICB1c2VyQnViYmxlSW1hZ2VTdHlsZTogQnViYmxlSW1hZ2VTdHlsZUNvbmZpZz8gPSBudWxsLAogICAgYWlCdWJibGVJbWFnZVN0eWxlOiBCdWJibGVJbWFnZVN0eWxlQ29uZmlnPyA9IG51bGwsCiAgICBidWJibGVVc2VyUm91bmRlZENvcm5lcnNFbmFibGVkOiBCb29sZWFuID0gdHJ1ZSwKICAgIGJ1YmJsZUFpUm91bmRlZENvcm5lcnNFbmFibGVkOiBCb29sZWFuID0gdHJ1ZSwKICAgIGJ1YmJsZVVzZXJDb250ZW50UGFkZGluZ0xlZnQ6IEZsb2F0ID0gMTJmLAogICAgYnViYmxlVXNlckNvbnRlbnRQYWRkaW5nUmlnaHQ6IEZsb2F0ID0gMTJmLAogICAgYnViYmxlQWlDb250ZW50UGFkZGluZ0xlZnQ6IEZsb2F0ID0gMTJmLAogICAgYnViYmxlQWlDb250ZW50UGFkZGluZ1JpZ2h0OiBGbG9hdCA9IDEyZiwKICAgIGluaXRpYWxUaGlua2luZ0V4cGFuZGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICBhbGxvd0V4cGFuZGVkVGhpbmtpbmdGdWxsSGVpZ2h0OiBCb29sZWFuID0gZmFsc2UsCiAgICBleHBhbmRUaGlua1Rvb2xzR3JvdXBzOiBCb29sZWFuID0gZmFsc2UsCiAgICBmb3JjZVNob3dUaGlua2luZ1Byb2Nlc3M6IEJvb2xlYW4gPSBmYWxzZSwKICAgIGlzSGlkZGVuOiBCb29sZWFuID0gZmFsc2UsCiAgICBoZWlnaHRNZW1vcnk6IENoYXRNZXNzYWdlSGVpZ2h0TWVtb3J5PyA9IG51bGwsCiAgICBvbkRlbGV0ZU1lc3NhZ2U6ICgoSW50KSAtPiBVbml0KT8gPSBudWxsLAogICAgaW5kZXg6IEludCA9IC0xLAogICAgZW5hYmxlRGlhbG9nczogQm9vbGVhbiA9IHRydWUsICAvLyDmlrDlop7lj4LmlbDvvJrmmK/lkKblkK/nlKjlvLnnqpflip/og73vvIzpu5jorqTlkK/nlKgKICAgIG9uUm9sZUF2YXRhckxvbmdQcmVzczogKChTdHJpbmcpIC0+IFVuaXQpPyA9IG51bGwsCiAgICBvbkVkaXRTdW1tYXJ5OiAoKENoYXRNZXNzYWdlKSAtPiBVbml0KT8gPSBudWxsLAopIHsKICAgIHdoZW4gKG1lc3NhZ2Uuc2VuZGVyKSB7CiAgICAgICAgInVzZXIiIC0+IHsKICAgICAgICAgICAgQnViYmxlVXNlck1lc3NhZ2VDb21wb3NhYmxlKAogICAgICAgICAgICAgICAgbWVzc2FnZSA9IG1lc3NhZ2UsCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3IgPSB1c2VyTWVzc2FnZUNvbG9yLAogICAgICAgICAgICAgICAgdGV4dENvbG9yID0gdXNlclRleHRDb2xvciwKICAgICAgICAgICAgICAgIGVuYWJsZUxpcXVpZEdsYXNzID0gdXNlck1lc3NhZ2VMaXF1aWRHbGFzc0VuYWJsZWQsCiAgICAgICAgICAgICAgICBlbmFibGVXYXRlckdsYXNzID0gdXNlck1lc3NhZ2VXYXRlckdsYXNzRW5hYmxlZCwKICAgICAgICAgICAgICAgIGJ1YmJsZUltYWdlU3R5bGUgPSB1c2VyQnViYmxlSW1hZ2VTdHlsZSwKICAgICAgICAgICAgICAgIGJ1YmJsZVJvdW5kZWRDb3JuZXJzRW5hYmxlZCA9IGJ1YmJsZVVzZXJSb3VuZGVkQ29ybmVyc0VuYWJsZWQsCiAgICAgICAgICAgICAgICBidWJibGVDb250ZW50UGFkZGluZ0xlZnQgPSBidWJibGVVc2VyQ29udGVudFBhZGRpbmdMZWZ0LAogICAgICAgICAgICAgICAgYnViYmxlQ29udGVudFBhZGRpbmdSaWdodCA9IGJ1YmJsZVVzZXJDb250ZW50UGFkZGluZ1JpZ2h0LAogICAgICAgICAgICAgICAgZW5hYmxlRGlhbG9ncyA9IGVuYWJsZURpYWxvZ3MsCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgImFpIiAtPiB7CiAgICAgICAgICAgIEJ1YmJsZUFpTWVzc2FnZUNvbXBvc2FibGUoCiAgICAgICAgICAgICAgICBtZXNzYWdlID0gbWVzc2FnZSwKICAgICAgICAgICAgICAgIGJhY2tncm91bmRDb2xvciA9IGFpTWVzc2FnZUNvbG9yLAogICAgICAgICAgICAgICAgdGV4dENvbG9yID0gYWlUZXh0Q29sb3IsCiAgICAgICAgICAgICAgICBlbmFibGVMaXF1aWRHbGFzcyA9IGFpTWVzc2FnZUxpcXVpZEdsYXNzRW5hYmxlZCwKICAgICAgICAgICAgICAgIGVuYWJsZVdhdGVyR2xhc3MgPSBhaU1lc3NhZ2VXYXRlckdsYXNzRW5hYmxlZCwKICAgICAgICAgICAgICAgIGJ1YmJsZUltYWdlU3R5bGUgPSBhaUJ1YmJsZUltYWdlU3R5bGUsCiAgICAgICAgICAgICAgICBidWJibGVSb3VuZGVkQ29ybmVyc0VuYWJsZWQgPSBidWJibGVBaVJvdW5kZWRDb3JuZXJzRW5hYmxlZCwKICAgICAgICAgICAgICAgIGJ1YmJsZUNvbnRlbnRQYWRkaW5nTGVmdCA9IGJ1YmJsZUFpQ29udGVudFBhZGRpbmdMZWZ0LAogICAgICAgICAgICAgICAgYnViYmxlQ29udGVudFBhZGRpbmdSaWdodCA9IGJ1YmJsZUFpQ29udGVudFBhZGRpbmdSaWdodCwKICAgICAgICAgICAgICAgIGluaXRpYWxUaGlua2luZ0V4cGFuZGVkID0gaW5pdGlhbFRoaW5raW5nRXhwYW5kZWQsCiAgICAgICAgICAgICAgICBhbGxvd0V4cGFuZGVkVGhpbmtpbmdGdWxsSGVpZ2h0ID0gYWxsb3dFeHBhbmRlZFRoaW5raW5nRnVsbEhlaWdodCwKICAgICAgICAgICAgICAgIGV4cGFuZFRoaW5rVG9vbHNHcm91cHMgPSBleHBhbmRUaGlua1Rvb2xzR3JvdXBzLAogICAgICAgICAgICAgICAgZm9yY2VTaG93VGhpbmtpbmdQcm9jZXNzID0gZm9yY2VTaG93VGhpbmtpbmdQcm9jZXNzLAogICAgICAgICAgICAgICAgaXNIaWRkZW4gPSBpc0hpZGRlbiwKICAgICAgICAgICAgICAgIGhlaWdodE1lbW9yeSA9IGhlaWdodE1lbW9yeSwKICAgICAgICAgICAgICAgIGVuYWJsZURpYWxvZ3MgPSBlbmFibGVEaWFsb2dzLAogICAgICAgICAgICAgICAgb25BdmF0YXJMb25nUHJlc3NNZW50aW9uID0gb25Sb2xlQXZhdGFyTG9uZ1ByZXNzLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgICJzdW1tYXJ5IiAtPiB7CiAgICAgICAgICAgIFN1bW1hcnlNZXNzYWdlQ29tcG9zYWJsZSgKICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBtZXNzYWdlLAogICAgICAgICAgICAgICAgYmFja2dyb3VuZENvbG9yID0gc3lzdGVtTWVzc2FnZUNvbG9yLmNvcHkoYWxwaGEgPSAwLjdmKSwKICAgICAgICAgICAgICAgIHRleHRDb2xvciA9IHN5c3RlbVRleHRDb2xvciwKICAgICAgICAgICAgICAgIG9uRGVsZXRlID0gewogICAgICAgICAgICAgICAgICAgIGlmIChpbmRleCAhPSAtMSkgewogICAgICAgICAgICAgICAgICAgICAgICBvbkRlbGV0ZU1lc3NhZ2U/Lmludm9rZShpbmRleCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgZW5hYmxlRGlhbG9nID0gZW5hYmxlRGlhbG9ncywgIC8vIOS8oOmAkuW8ueeql+WQr+eUqOeKtuaAgQogICAgICAgICAgICAgICAgb25FZGl0ID0geyBlZGl0ZWRNZXNzYWdlIC0+CiAgICAgICAgICAgICAgICAgICAgb25FZGl0U3VtbWFyeT8uaW52b2tlKGVkaXRlZE1lc3NhZ2UpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+
+package com.bslsjdk.operit.ui.features.chat.components.style.bubble
+
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.ui.features.chat.components.ChatMessageHeightMemory
+import com.bslsjdk.operit.ui.features.chat.components.style.cursor.SummaryMessageComposable
+import com.bslsjdk.operit.util.stream.Stream
+
+/**
+ * A composable function that renders chat messages in a bubble chat style.
+ * Delegates to specialized composables based on message type.
+ */
+@Composable
+fun BubbleStyleChatMessage(
+    message: ChatMessage,
+    userMessageColor: Color,
+    aiMessageColor: Color,
+    userTextColor: Color,
+    aiTextColor: Color,
+    systemMessageColor: Color,
+    systemTextColor: Color,
+    userMessageLiquidGlassEnabled: Boolean = false,
+    userMessageWaterGlassEnabled: Boolean = false,
+    aiMessageLiquidGlassEnabled: Boolean = false,
+    aiMessageWaterGlassEnabled: Boolean = false,
+    userBubbleImageStyle: BubbleImageStyleConfig? = null,
+    aiBubbleImageStyle: BubbleImageStyleConfig? = null,
+    bubbleUserRoundedCornersEnabled: Boolean = true,
+    bubbleAiRoundedCornersEnabled: Boolean = true,
+    bubbleUserContentPaddingLeft: Float = 12f,
+    bubbleUserContentPaddingRight: Float = 12f,
+    bubbleAiContentPaddingLeft: Float = 12f,
+    bubbleAiContentPaddingRight: Float = 12f,
+    initialThinkingExpanded: Boolean = false,
+    allowExpandedThinkingFullHeight: Boolean = false,
+    expandThinkToolsGroups: Boolean = false,
+    forceShowThinkingProcess: Boolean = false,
+    isHidden: Boolean = false,
+    heightMemory: ChatMessageHeightMemory? = null,
+    onDeleteMessage: ((Int) -> Unit)? = null,
+    index: Int = -1,
+    enableDialogs: Boolean = true,  // 新增参数：是否启用弹窗功能，默认启用
+    onRoleAvatarLongPress: ((String) -> Unit)? = null,
+    onEditSummary: ((ChatMessage) -> Unit)? = null,
+) {
+    when (message.sender) {
+        "user" -> {
+            BubbleUserMessageComposable(
+                message = message,
+                backgroundColor = userMessageColor,
+                textColor = userTextColor,
+                enableLiquidGlass = userMessageLiquidGlassEnabled,
+                enableWaterGlass = userMessageWaterGlassEnabled,
+                bubbleImageStyle = userBubbleImageStyle,
+                bubbleRoundedCornersEnabled = bubbleUserRoundedCornersEnabled,
+                bubbleContentPaddingLeft = bubbleUserContentPaddingLeft,
+                bubbleContentPaddingRight = bubbleUserContentPaddingRight,
+                enableDialogs = enableDialogs,
+            )
+        }
+        "ai" -> {
+            BubbleAiMessageComposable(
+                message = message,
+                backgroundColor = aiMessageColor,
+                textColor = aiTextColor,
+                enableLiquidGlass = aiMessageLiquidGlassEnabled,
+                enableWaterGlass = aiMessageWaterGlassEnabled,
+                bubbleImageStyle = aiBubbleImageStyle,
+                bubbleRoundedCornersEnabled = bubbleAiRoundedCornersEnabled,
+                bubbleContentPaddingLeft = bubbleAiContentPaddingLeft,
+                bubbleContentPaddingRight = bubbleAiContentPaddingRight,
+                initialThinkingExpanded = initialThinkingExpanded,
+                allowExpandedThinkingFullHeight = allowExpandedThinkingFullHeight,
+                expandThinkToolsGroups = expandThinkToolsGroups,
+                forceShowThinkingProcess = forceShowThinkingProcess,
+                isHidden = isHidden,
+                heightMemory = heightMemory,
+                enableDialogs = enableDialogs,
+                onAvatarLongPressMention = onRoleAvatarLongPress,
+            )
+        }
+        "summary" -> {
+            SummaryMessageComposable(
+                message = message,
+                backgroundColor = systemMessageColor.copy(alpha = 0.7f),
+                textColor = systemTextColor,
+                onDelete = {
+                    if (index != -1) {
+                        onDeleteMessage?.invoke(index)
+                    }
+                },
+                enableDialog = enableDialogs,  // 传递弹窗启用状态
+                onEdit = { editedMessage ->
+                    onEditSummary?.invoke(editedMessage)
+                }
+            )
+        }
+    }
+}

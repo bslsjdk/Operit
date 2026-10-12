@@ -1,1 +1,65 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbE9wdGlvbgppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENvZGV4TW9kZWxQb2xpY3lUZXN0IHsKICAgIEBUZXN0CiAgICBmdW4gZXhwbGljaXRPcGVuQ29kZU1vZGVsc0FyZUFsbG93ZWQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb2RleE1vZGVsUG9saWN5LmFsbG93cygiZ3B0LTUuNCIpKQogICAgICAgIGFzc2VydFRydWUoQ29kZXhNb2RlbFBvbGljeS5hbGxvd3MoImdwdC01LjMtY29kZXgtc3BhcmsiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGZhc3RHcHRWZXJzaW9uc1dpdGhTdWZmaXhBcmVBbGxvd2VkKCkgewogICAgICAgIGFzc2VydFRydWUoQ29kZXhNb2RlbFBvbGljeS5hbGxvd3MoImdwdC01LjYtbHVuYSIpKQogICAgICAgIGFzc2VydFRydWUoQ29kZXhNb2RlbFBvbGljeS5hbGxvd3MoImdwdC01LjctY29kZXgiKSkKICAgICAgICBhc3NlcnRUcnVlKENvZGV4TW9kZWxQb2xpY3kuYWxsb3dzKCJncHQtNS42LWx1bmEiLCAiZmFzdCIpKQogICAgICAgIGFzc2VydEZhbHNlKENvZGV4TW9kZWxQb2xpY3kuYWxsb3dzKCJncHQtNS42LWx1bmEiLCAicHJvIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBkaXNhbGxvd2VkQW5kQmFyZVZlcnNpb25Nb2RlbHNBcmVSZW1vdmVkKCkgewogICAgICAgIGFzc2VydEZhbHNlKENvZGV4TW9kZWxQb2xpY3kuYWxsb3dzKCJncHQtNS41LXBybyIpKQogICAgICAgIGFzc2VydEZhbHNlKENvZGV4TW9kZWxQb2xpY3kuYWxsb3dzKCJncHQtNS42IikpCiAgICAgICAgYXNzZXJ0RmFsc2UoQ29kZXhNb2RlbFBvbGljeS5hbGxvd3MoImNsYXVkZS0zIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBmYXN0VmFyaWFudFVzZXNDYW5vbmljYWxBcGlNb2RlbEFuZFByaW9yaXR5VGllcigpIHsKICAgICAgICB2YWwgcmVxdWVzdCA9IEpTT05PYmplY3QoKS5wdXQoIm1vZGVsIiwgImdwdC01LjYtbHVuYS1mYXN0IikKCiAgICAgICAgQ29kZXhNb2RlbFZhcmlhbnQuYXBwbHlSZXF1ZXN0UGFyYW1ldGVycyhyZXF1ZXN0LCAiZ3B0LTUuNi1sdW5hLWZhc3QiKQoKICAgICAgICBhc3NlcnRFcXVhbHMoImdwdC01LjYtbHVuYSIsIHJlcXVlc3QuZ2V0U3RyaW5nKCJtb2RlbCIpKQogICAgICAgIGFzc2VydEVxdWFscygicHJpb3JpdHkiLCByZXF1ZXN0LmdldFN0cmluZygic2VydmljZV90aWVyIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBiYXNlTW9kZWxEb2VzTm90QWRkVmFyaWFudFBhcmFtZXRlcnMoKSB7CiAgICAgICAgdmFsIHJlcXVlc3QgPSBKU09OT2JqZWN0KCkucHV0KCJtb2RlbCIsICJncHQtNS42LWx1bmEiKQoKICAgICAgICBDb2RleE1vZGVsVmFyaWFudC5hcHBseVJlcXVlc3RQYXJhbWV0ZXJzKHJlcXVlc3QsICJncHQtNS42LWx1bmEiKQoKICAgICAgICBhc3NlcnRFcXVhbHMoImdwdC01LjYtbHVuYSIsIHJlcXVlc3QuZ2V0U3RyaW5nKCJtb2RlbCIpKQogICAgICAgIGFzc2VydEZhbHNlKHJlcXVlc3QuaGFzKCJzZXJ2aWNlX3RpZXIiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHBvbGljeU9ubHlLZWVwc0Nhbm9uaWNhbElkcygpIHsKICAgICAgICB2YWwgbW9kZWxzID0gbGlzdE9mKAogICAgICAgICAgICBNb2RlbE9wdGlvbigiZ3B0LTUuNi1sdW5hIiwgIkx1bmEiKSwKICAgICAgICAgICAgTW9kZWxPcHRpb24oImdwdC01LjUtcHJvIiwgIlBybyIpLAogICAgICAgICAgICBNb2RlbE9wdGlvbigiZ3B0LTUuNCIsICI1LjQiKSwKICAgICAgICApCgogICAgICAgIGFzc2VydFRydWUoCiAgICAgICAgICAgIG1vZGVscy5maWx0ZXIgeyBDb2RleE1vZGVsUG9saWN5LmFsbG93cyhpdC5pZCkgfS5tYXAgeyBpdC5pZCB9ID09CiAgICAgICAgICAgICAgICBsaXN0T2YoImdwdC01LjYtbHVuYSIsICJncHQtNS40IikKICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ModelOption
+import org.json.JSONObject
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class CodexModelPolicyTest {
+    @Test
+    fun explicitOpenCodeModelsAreAllowed() {
+        assertTrue(CodexModelPolicy.allows("gpt-5.4"))
+        assertTrue(CodexModelPolicy.allows("gpt-5.3-codex-spark"))
+    }
+
+    @Test
+    fun fastGptVersionsWithSuffixAreAllowed() {
+        assertTrue(CodexModelPolicy.allows("gpt-5.6-luna"))
+        assertTrue(CodexModelPolicy.allows("gpt-5.7-codex"))
+        assertTrue(CodexModelPolicy.allows("gpt-5.6-luna", "fast"))
+        assertFalse(CodexModelPolicy.allows("gpt-5.6-luna", "pro"))
+    }
+
+    @Test
+    fun disallowedAndBareVersionModelsAreRemoved() {
+        assertFalse(CodexModelPolicy.allows("gpt-5.5-pro"))
+        assertFalse(CodexModelPolicy.allows("gpt-5.6"))
+        assertFalse(CodexModelPolicy.allows("claude-3"))
+    }
+
+    @Test
+    fun fastVariantUsesCanonicalApiModelAndPriorityTier() {
+        val request = JSONObject().put("model", "gpt-5.6-luna-fast")
+
+        CodexModelVariant.applyRequestParameters(request, "gpt-5.6-luna-fast")
+
+        assertEquals("gpt-5.6-luna", request.getString("model"))
+        assertEquals("priority", request.getString("service_tier"))
+    }
+
+    @Test
+    fun baseModelDoesNotAddVariantParameters() {
+        val request = JSONObject().put("model", "gpt-5.6-luna")
+
+        CodexModelVariant.applyRequestParameters(request, "gpt-5.6-luna")
+
+        assertEquals("gpt-5.6-luna", request.getString("model"))
+        assertFalse(request.has("service_tier"))
+    }
+
+    @Test
+    fun policyOnlyKeepsCanonicalIds() {
+        val models = listOf(
+            ModelOption("gpt-5.6-luna", "Luna"),
+            ModelOption("gpt-5.5-pro", "Pro"),
+            ModelOption("gpt-5.4", "5.4"),
+        )
+
+        assertTrue(
+            models.filter { CodexModelPolicy.allows(it.id) }.map { it.id } ==
+                listOf("gpt-5.6-luna", "gpt-5.4")
+        )
+    }
+}

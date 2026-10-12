@@ -52,7 +52,7 @@ resolve_app_package() {
 
   if [ -n "$configured_package" ]; then
     case "$configured_package" in
-      com.ai.assistance.operit.debug|com.ai.assistance.operit)
+      com.bslsjdk.operit.debug|com.bslsjdk.operit)
         ;;
       *)
         echo "Error: Unsupported Operit application package - $configured_package"
@@ -68,8 +68,8 @@ resolve_app_package() {
   else
     APP_PACKAGE=""
     for candidate in \
-      com.ai.assistance.operit.debug \
-      com.ai.assistance.operit
+      com.bslsjdk.operit.debug \
+      com.bslsjdk.operit
     do
       if adb -s "$DEVICE_SERIAL" shell pm list packages "$candidate" |
         tr -d '\r' | grep -Fxq "package:$candidate"; then
@@ -83,7 +83,7 @@ resolve_app_package() {
     fi
   fi
 
-  EXECUTE_JS_ACTION="com.ai.assistance.operit.EXECUTE_JS"
+  EXECUTE_JS_ACTION="com.bslsjdk.operit.EXECUTE_JS"
   SCRIPT_EXECUTION_RECEIVER="${APP_PACKAGE}/.core.tools.javascript.ScriptExecutionReceiver"
   echo "Using Operit application package: $APP_PACKAGE"
 }

@@ -1,1 +1,215 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5iYWNrdXAKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZHguc3FsaXRlLmRiLlN1cHBvcnRTUUxpdGVEYXRhYmFzZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuZGIuQXBwRGF0YWJhc2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuVXNhZ2VSZXBvc2l0b3J5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGphdmEuaW8uQnVmZmVyZWRJbnB1dFN0cmVhbQppbXBvcnQgamF2YS5pby5CdWZmZXJlZE91dHB1dFN0cmVhbQppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkZpbGVJbnB1dFN0cmVhbQppbXBvcnQgamF2YS5pby5GaWxlT3V0cHV0U3RyZWFtCmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlCmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlVGltZQppbXBvcnQgamF2YS50aW1lLmZvcm1hdC5EYXRlVGltZUZvcm1hdHRlcgppbXBvcnQgamF2YS51dGlsLnppcC5aaXBFbnRyeQppbXBvcnQgamF2YS51dGlsLnppcC5aaXBPdXRwdXRTdHJlYW0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CgpvYmplY3QgUm9vbURhdGFiYXNlQmFja3VwTWFuYWdlciB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlJvb21EYkJhY2t1cCIKICAgIHByaXZhdGUgY29uc3QgdmFsIERCX05BTUUgPSAiYXBwX2RhdGFiYXNlIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgQVVUT19CQUNLVVBfRklMRV9QUkVGSVggPSAicm9vbV9kYl9iYWNrdXBfIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgTUFOVUFMX0JBQ0tVUF9GSUxFX1BSRUZJWCA9ICJyb29tX2RiX21hbnVhbF9iYWNrdXBfIgoKICAgIGRhdGEgY2xhc3MgQmFja3VwUmVzdWx0KAogICAgICAgIHZhbCBwZXJmb3JtZWQ6IEJvb2xlYW4sCiAgICAgICAgdmFsIGJhY2t1cEZpbGU6IEZpbGU/ID0gbnVsbCwKICAgICAgICB2YWwgc2tpcHBlZFJlYXNvbjogU3RyaW5nPyA9IG51bGwKICAgICkKCiAgICBzdXNwZW5kIGZ1biBwcnVuZUV4Y2Vzc0JhY2t1cHMoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIFRva2VuVXNhZ2VSZXBvc2l0b3J5LndpdGhEYXRhYmFzZUFjY2VzcyB7CiAgICAgICAgICAgIHZhbCBwcmVmZXJlbmNlcyA9IFJvb21EYXRhYmFzZUJhY2t1cFByZWZlcmVuY2VzLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICAgICAgICAgIHZhbCBtYXhCYWNrdXBDb3VudCA9IHByZWZlcmVuY2VzLmdldE1heEJhY2t1cENvdW50KCkKICAgICAgICAgICAgZW5mb3JjZU1heEJhY2t1cENvdW50KGNvbnRleHQsIGtlZXBMYXRlc3QgPSBtYXhCYWNrdXBDb3VudCkKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gYmFja3VwSWZOZWVkZWQoY29udGV4dDogQ29udGV4dCwgZm9yY2U6IEJvb2xlYW4pOiBCYWNrdXBSZXN1bHQgewogICAgICAgIHJldHVybiBUb2tlblVzYWdlUmVwb3NpdG9yeS53aXRoRGF0YWJhc2VBY2Nlc3MgewogICAgICAgICAgICB2YWwgcHJlZmVyZW5jZXMgPSBSb29tRGF0YWJhc2VCYWNrdXBQcmVmZXJlbmNlcy5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgICAgICAgICB2YWwgZW5hYmxlZCA9IHByZWZlcmVuY2VzLmlzRGFpbHlCYWNrdXBFbmFibGVkKCkKICAgICAgICAgICAgdmFsIG1heEJhY2t1cENvdW50ID0gcHJlZmVyZW5jZXMuZ2V0TWF4QmFja3VwQ291bnQoKQogICAgICAgICAgICBpZiAoIWVuYWJsZWQgJiYgIWZvcmNlKSB7CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aERhdGFiYXNlQWNjZXNzIEJhY2t1cFJlc3VsdChwZXJmb3JtZWQgPSBmYWxzZSwgc2tpcHBlZFJlYXNvbiA9ICJkaXNhYmxlZCIpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChmb3JjZSkgewogICAgICAgICAgICAgICAgdmFsIGJhY2t1cEZpbGUgPSBjcmVhdGVNYW51YWxCYWNrdXAoY29udGV4dCkKICAgICAgICAgICAgICAgIGVuZm9yY2VNYXhCYWNrdXBDb3VudChjb250ZXh0LCBrZWVwTGF0ZXN0ID0gbWF4QmFja3VwQ291bnQpCiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aERhdGFiYXNlQWNjZXNzIEJhY2t1cFJlc3VsdChwZXJmb3JtZWQgPSB0cnVlLCBiYWNrdXBGaWxlID0gYmFja3VwRmlsZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHRvZGF5ID0gTG9jYWxEYXRlLm5vdygpLmZvcm1hdChEYXRlVGltZUZvcm1hdHRlci5JU09fREFURSkKICAgICAgICAgICAgdmFsIGxhc3RWYWx1ZSA9IHByZWZlcmVuY2VzLmxhc3RCYWNrdXBEYXlGbG93LmZpcnN0KCkKICAgICAgICAgICAgaWYgKGxhc3RWYWx1ZSA9PSB0b2RheSkgewogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhEYXRhYmFzZUFjY2VzcyBCYWNrdXBSZXN1bHQocGVyZm9ybWVkID0gZmFsc2UsIHNraXBwZWRSZWFzb24gPSAiYWxyZWFkeV9iYWNrZWRfdXBfdG9kYXkiKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgYmFja3VwRmlsZSA9IGNyZWF0ZU9yUmVwbGFjZUF1dG9CYWNrdXAoY29udGV4dCwgdG9kYXkpCiAgICAgICAgICAgIHByZWZlcmVuY2VzLm1hcmtTdWNjZXNzKHRvZGF5LCBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKICAgICAgICAgICAgZW5mb3JjZU1heEJhY2t1cENvdW50KGNvbnRleHQsIGtlZXBMYXRlc3QgPSBtYXhCYWNrdXBDb3VudCkKICAgICAgICAgICAgQmFja3VwUmVzdWx0KHBlcmZvcm1lZCA9IHRydWUsIGJhY2t1cEZpbGUgPSBiYWNrdXBGaWxlKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGNyZWF0ZU9yUmVwbGFjZUF1dG9CYWNrdXAoY29udGV4dDogQ29udGV4dCwgZGF5OiBTdHJpbmcpOiBGaWxlIHsKICAgICAgICB2YWwgZGJGaWxlID0gY29udGV4dC5nZXREYXRhYmFzZVBhdGgoREJfTkFNRSkKICAgICAgICBpZiAoIWRiRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkRhdGFiYXNlIGZpbGUgbm90IGZvdW5kOiAke2RiRmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICB9CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBzcWxpdGVEYjogU3VwcG9ydFNRTGl0ZURhdGFiYXNlID0gQXBwRGF0YWJhc2UuZ2V0RGF0YWJhc2UoY29udGV4dCkub3BlbkhlbHBlci53cml0YWJsZURhdGFiYXNlCiAgICAgICAgICAgIHNxbGl0ZURiLnF1ZXJ5KCJQUkFHTUEgd2FsX2NoZWNrcG9pbnQoRlVMTCkiKS5jbG9zZSgpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIndhbF9jaGVja3BvaW50IGZhaWxlZCIsIGUpCiAgICAgICAgfQoKICAgICAgICB2YWwgb3Blcml0RGlyID0gT3Blcml0QmFja3VwRGlycy5yb29tRGJEaXIoKQoKICAgICAgICB2YWwgdGFyZ2V0RmlsZSA9IEZpbGUob3Blcml0RGlyLCAiJHtBVVRPX0JBQ0tVUF9GSUxFX1BSRUZJWH0ke2RheX0uemlwIikKICAgICAgICB2YWwgdG1wRmlsZSA9IEZpbGUob3Blcml0RGlyLCAiJHt0YXJnZXRGaWxlLm5hbWV9LnRtcCIpCgogICAgICAgIGlmICh0bXBGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHRtcEZpbGUuZGVsZXRlKCkKICAgICAgICB9CgogICAgICAgIHZhbCB3YWxGaWxlID0gRmlsZShkYkZpbGUuYWJzb2x1dGVQYXRoICsgIi13YWwiKQogICAgICAgIHZhbCBzaG1GaWxlID0gRmlsZShkYkZpbGUuYWJzb2x1dGVQYXRoICsgIi1zaG0iKQoKICAgICAgICB3cml0ZVppcCh0bXBGaWxlLCBtYXBPZigKICAgICAgICAgICAgREJfTkFNRSB0byBkYkZpbGUsCiAgICAgICAgICAgICIke0RCX05BTUV9LXdhbCIgdG8gd2FsRmlsZSwKICAgICAgICAgICAgIiR7REJfTkFNRX0tc2htIiB0byBzaG1GaWxlCiAgICAgICAgKSkKCiAgICAgICAgaWYgKHRhcmdldEZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgdGFyZ2V0RmlsZS5kZWxldGUoKQogICAgICAgIH0KCiAgICAgICAgaWYgKCF0bXBGaWxlLnJlbmFtZVRvKHRhcmdldEZpbGUpKSB7CiAgICAgICAgICAgIHRtcEZpbGUuY29weVRvKHRhcmdldEZpbGUsIG92ZXJ3cml0ZSA9IHRydWUpCiAgICAgICAgICAgIHRtcEZpbGUuZGVsZXRlKCkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRhcmdldEZpbGUKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGNyZWF0ZU1hbnVhbEJhY2t1cChjb250ZXh0OiBDb250ZXh0KTogRmlsZSB7CiAgICAgICAgdmFsIGRiRmlsZSA9IGNvbnRleHQuZ2V0RGF0YWJhc2VQYXRoKERCX05BTUUpCiAgICAgICAgaWYgKCFkYkZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJEYXRhYmFzZSBmaWxlIG5vdCBmb3VuZDogJHtkYkZpbGUuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgfQoKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgc3FsaXRlRGI6IFN1cHBvcnRTUUxpdGVEYXRhYmFzZSA9IEFwcERhdGFiYXNlLmdldERhdGFiYXNlKGNvbnRleHQpLm9wZW5IZWxwZXIud3JpdGFibGVEYXRhYmFzZQogICAgICAgICAgICBzcWxpdGVEYi5xdWVyeSgiUFJBR01BIHdhbF9jaGVja3BvaW50KEZVTEwpIikuY2xvc2UoKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJ3YWxfY2hlY2twb2ludCBmYWlsZWQiLCBlKQogICAgICAgIH0KCiAgICAgICAgdmFsIG9wZXJpdERpciA9IE9wZXJpdEJhY2t1cERpcnMucm9vbURiRGlyKCkKCiAgICAgICAgdmFsIHRpbWVzdGFtcCA9IExvY2FsRGF0ZVRpbWUubm93KCkuZm9ybWF0KERhdGVUaW1lRm9ybWF0dGVyLm9mUGF0dGVybigieXl5eS1NTS1kZF9ISC1tbS1zcyIpKQogICAgICAgIHZhbCB0YXJnZXRGaWxlID0gRmlsZShvcGVyaXREaXIsICIke01BTlVBTF9CQUNLVVBfRklMRV9QUkVGSVh9JHt0aW1lc3RhbXB9LnppcCIpCiAgICAgICAgdmFsIHRtcEZpbGUgPSBGaWxlKG9wZXJpdERpciwgIiR7dGFyZ2V0RmlsZS5uYW1lfS50bXAiKQoKICAgICAgICBpZiAodG1wRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICB0bXBGaWxlLmRlbGV0ZSgpCiAgICAgICAgfQoKICAgICAgICB2YWwgd2FsRmlsZSA9IEZpbGUoZGJGaWxlLmFic29sdXRlUGF0aCArICItd2FsIikKICAgICAgICB2YWwgc2htRmlsZSA9IEZpbGUoZGJGaWxlLmFic29sdXRlUGF0aCArICItc2htIikKCiAgICAgICAgd3JpdGVaaXAodG1wRmlsZSwgbWFwT2YoCiAgICAgICAgICAgIERCX05BTUUgdG8gZGJGaWxlLAogICAgICAgICAgICAiJHtEQl9OQU1FfS13YWwiIHRvIHdhbEZpbGUsCiAgICAgICAgICAgICIke0RCX05BTUV9LXNobSIgdG8gc2htRmlsZQogICAgICAgICkpCgogICAgICAgIGlmICh0YXJnZXRGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHRhcmdldEZpbGUuZGVsZXRlKCkKICAgICAgICB9CgogICAgICAgIGlmICghdG1wRmlsZS5yZW5hbWVUbyh0YXJnZXRGaWxlKSkgewogICAgICAgICAgICB0bXBGaWxlLmNvcHlUbyh0YXJnZXRGaWxlLCBvdmVyd3JpdGUgPSB0cnVlKQogICAgICAgICAgICB0bXBGaWxlLmRlbGV0ZSgpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdGFyZ2V0RmlsZQogICAgfQoKICAgIHByaXZhdGUgZnVuIGVuZm9yY2VNYXhCYWNrdXBDb3VudChjb250ZXh0OiBDb250ZXh0LCBrZWVwTGF0ZXN0OiBJbnQpIHsKICAgICAgICB2YWwgc2FmZUtlZXBMYXRlc3QgPSBrZWVwTGF0ZXN0LmNvZXJjZUluKDEsIDEwMCkKCiAgICAgICAgdmFsIG5ld0RpciA9IE9wZXJpdEJhY2t1cERpcnMucm9vbURiRGlyKCkKICAgICAgICB2YWwgbGVnYWN5RGlyID0gT3Blcml0QmFja3VwRGlycy5vcGVyaXRSb290RGlyKCkKICAgICAgICB2YWwgZGlycyA9IGxpc3RPZihuZXdEaXIsIGxlZ2FjeURpcikKCiAgICAgICAgdmFsIGNhbmRpZGF0ZXMgPSBkaXJzCiAgICAgICAgICAgIC5mbGF0TWFwIHsgZGlyIC0+CiAgICAgICAgICAgICAgICBkaXIubGlzdEZpbGVzIHsgZiAtPgogICAgICAgICAgICAgICAgICAgIGYuaXNGaWxlICYmIGlzUm9vbURhdGFiYXNlQmFja3VwRmlsZU5hbWUoZi5uYW1lKQogICAgICAgICAgICAgICAgfT8udG9MaXN0KCkgPzogZW1wdHlMaXN0KCkKICAgICAgICAgICAgfQoKICAgICAgICBpZiAoY2FuZGlkYXRlcy5pc0VtcHR5KCkpIHJldHVybgoKICAgICAgICB2YWwgZ3JvdXBlZCA9IGNhbmRpZGF0ZXMuZ3JvdXBCeSB7IGl0Lm5hbWUgfQoKICAgICAgICB2YWwgZGVkdXBlZCA9IGdyb3VwZWQubWFwTm90TnVsbCB7IChfLCBmaWxlcykgLT4KICAgICAgICAgICAgdmFsIHNvcnRlZCA9IGZpbGVzLnNvcnRlZFdpdGgoY29tcGFyZUJ5RGVzY2VuZGluZzxGaWxlPiB7IGl0Lmxhc3RNb2RpZmllZCgpIH0udGhlbkJ5RGVzY2VuZGluZyB7IGl0LmFic29sdXRlUGF0aCB9KQogICAgICAgICAgICBzb3J0ZWQuZHJvcCgxKS5mb3JFYWNoIHsgaXQuZGVsZXRlKCkgfQogICAgICAgICAgICBzb3J0ZWQuZmlyc3RPck51bGwoKQogICAgICAgIH0KCiAgICAgICAgdmFsIHNvcnRlZCA9IGRlZHVwZWQuc29ydGVkV2l0aChjb21wYXJlQnlEZXNjZW5kaW5nPEZpbGU+IHsgaXQubGFzdE1vZGlmaWVkKCkgfS50aGVuQnlEZXNjZW5kaW5nIHsgaXQubmFtZSB9KQogICAgICAgIHNvcnRlZC5kcm9wKHNhZmVLZWVwTGF0ZXN0KS5mb3JFYWNoIHsgaXQuZGVsZXRlKCkgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzUm9vbURhdGFiYXNlQmFja3VwRmlsZU5hbWUobmFtZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIChuYW1lLnN0YXJ0c1dpdGgoQVVUT19CQUNLVVBfRklMRV9QUkVGSVgpIHx8IG5hbWUuc3RhcnRzV2l0aChNQU5VQUxfQkFDS1VQX0ZJTEVfUFJFRklYKSkgJiYKICAgICAgICAgICAgbmFtZS5lbmRzV2l0aCgiLnppcCIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gd3JpdGVaaXAob3V0cHV0RmlsZTogRmlsZSwgZW50cmllczogTWFwPFN0cmluZywgRmlsZT4pIHsKICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KDY0ICogMTAyNCkKICAgICAgICBaaXBPdXRwdXRTdHJlYW0oQnVmZmVyZWRPdXRwdXRTdHJlYW0oRmlsZU91dHB1dFN0cmVhbShvdXRwdXRGaWxlKSkpLnVzZSB7IHpvcyAtPgogICAgICAgICAgICBlbnRyaWVzLmZvckVhY2ggeyAoZW50cnlOYW1lLCBmaWxlKSAtPgogICAgICAgICAgICAgICAgaWYgKCFmaWxlLmV4aXN0cygpIHx8ICFmaWxlLmlzRmlsZSkgcmV0dXJuQGZvckVhY2gKCiAgICAgICAgICAgICAgICB6b3MucHV0TmV4dEVudHJ5KFppcEVudHJ5KGVudHJ5TmFtZSkpCiAgICAgICAgICAgICAgICBCdWZmZXJlZElucHV0U3RyZWFtKEZpbGVJbnB1dFN0cmVhbShmaWxlKSkudXNlIHsgaW5wdXQgLT4KICAgICAgICAgICAgICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmVhZCA9IGlucHV0LnJlYWQoYnVmZmVyKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAocmVhZCA8PSAwKSBicmVhawogICAgICAgICAgICAgICAgICAgICAgICB6b3Mud3JpdGUoYnVmZmVyLCAwLCByZWFkKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHpvcy5jbG9zZUVudHJ5KCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZUJhY2t1cERheShmaWxlTmFtZTogU3RyaW5nKTogTG9jYWxEYXRlIHsKICAgICAgICB2YWwgcmF3ID0gZmlsZU5hbWUucmVtb3ZlUHJlZml4KEFVVE9fQkFDS1VQX0ZJTEVfUFJFRklYKS5yZW1vdmVTdWZmaXgoIi56aXAiKQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBMb2NhbERhdGUucGFyc2UocmF3LCBEYXRlVGltZUZvcm1hdHRlci5JU09fREFURSkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgTG9jYWxEYXRlLk1JTgogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.backup
+
+import android.content.Context
+import androidx.sqlite.db.SupportSQLiteDatabase
+import com.bslsjdk.operit.data.db.AppDatabase
+import com.bslsjdk.operit.data.stats.TokenUsageRepository
+import com.bslsjdk.operit.util.AppLogger
+import java.io.BufferedInputStream
+import java.io.BufferedOutputStream
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.time.LocalDate
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.util.zip.ZipEntry
+import java.util.zip.ZipOutputStream
+import kotlinx.coroutines.flow.first
+
+object RoomDatabaseBackupManager {
+
+    private const val TAG = "RoomDbBackup"
+    private const val DB_NAME = "app_database"
+    private const val AUTO_BACKUP_FILE_PREFIX = "room_db_backup_"
+    private const val MANUAL_BACKUP_FILE_PREFIX = "room_db_manual_backup_"
+
+    data class BackupResult(
+        val performed: Boolean,
+        val backupFile: File? = null,
+        val skippedReason: String? = null
+    )
+
+    suspend fun pruneExcessBackups(context: Context) {
+        TokenUsageRepository.withDatabaseAccess {
+            val preferences = RoomDatabaseBackupPreferences.getInstance(context)
+            val maxBackupCount = preferences.getMaxBackupCount()
+            enforceMaxBackupCount(context, keepLatest = maxBackupCount)
+        }
+    }
+
+    suspend fun backupIfNeeded(context: Context, force: Boolean): BackupResult {
+        return TokenUsageRepository.withDatabaseAccess {
+            val preferences = RoomDatabaseBackupPreferences.getInstance(context)
+            val enabled = preferences.isDailyBackupEnabled()
+            val maxBackupCount = preferences.getMaxBackupCount()
+            if (!enabled && !force) {
+                return@withDatabaseAccess BackupResult(performed = false, skippedReason = "disabled")
+            }
+
+            if (force) {
+                val backupFile = createManualBackup(context)
+                enforceMaxBackupCount(context, keepLatest = maxBackupCount)
+                return@withDatabaseAccess BackupResult(performed = true, backupFile = backupFile)
+            }
+
+            val today = LocalDate.now().format(DateTimeFormatter.ISO_DATE)
+            val lastValue = preferences.lastBackupDayFlow.first()
+            if (lastValue == today) {
+                return@withDatabaseAccess BackupResult(performed = false, skippedReason = "already_backed_up_today")
+            }
+
+            val backupFile = createOrReplaceAutoBackup(context, today)
+            preferences.markSuccess(today, System.currentTimeMillis())
+            enforceMaxBackupCount(context, keepLatest = maxBackupCount)
+            BackupResult(performed = true, backupFile = backupFile)
+        }
+    }
+
+    private suspend fun createOrReplaceAutoBackup(context: Context, day: String): File {
+        val dbFile = context.getDatabasePath(DB_NAME)
+        if (!dbFile.exists()) {
+            throw IllegalStateException("Database file not found: ${dbFile.absolutePath}")
+        }
+
+        try {
+            val sqliteDb: SupportSQLiteDatabase = AppDatabase.getDatabase(context).openHelper.writableDatabase
+            sqliteDb.query("PRAGMA wal_checkpoint(FULL)").close()
+        } catch (e: Exception) {
+            AppLogger.w(TAG, "wal_checkpoint failed", e)
+        }
+
+        val operitDir = OperitBackupDirs.roomDbDir()
+
+        val targetFile = File(operitDir, "${AUTO_BACKUP_FILE_PREFIX}${day}.zip")
+        val tmpFile = File(operitDir, "${targetFile.name}.tmp")
+
+        if (tmpFile.exists()) {
+            tmpFile.delete()
+        }
+
+        val walFile = File(dbFile.absolutePath + "-wal")
+        val shmFile = File(dbFile.absolutePath + "-shm")
+
+        writeZip(tmpFile, mapOf(
+            DB_NAME to dbFile,
+            "${DB_NAME}-wal" to walFile,
+            "${DB_NAME}-shm" to shmFile
+        ))
+
+        if (targetFile.exists()) {
+            targetFile.delete()
+        }
+
+        if (!tmpFile.renameTo(targetFile)) {
+            tmpFile.copyTo(targetFile, overwrite = true)
+            tmpFile.delete()
+        }
+        return targetFile
+    }
+
+    private suspend fun createManualBackup(context: Context): File {
+        val dbFile = context.getDatabasePath(DB_NAME)
+        if (!dbFile.exists()) {
+            throw IllegalStateException("Database file not found: ${dbFile.absolutePath}")
+        }
+
+        try {
+            val sqliteDb: SupportSQLiteDatabase = AppDatabase.getDatabase(context).openHelper.writableDatabase
+            sqliteDb.query("PRAGMA wal_checkpoint(FULL)").close()
+        } catch (e: Exception) {
+            AppLogger.w(TAG, "wal_checkpoint failed", e)
+        }
+
+        val operitDir = OperitBackupDirs.roomDbDir()
+
+        val timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss"))
+        val targetFile = File(operitDir, "${MANUAL_BACKUP_FILE_PREFIX}${timestamp}.zip")
+        val tmpFile = File(operitDir, "${targetFile.name}.tmp")
+
+        if (tmpFile.exists()) {
+            tmpFile.delete()
+        }
+
+        val walFile = File(dbFile.absolutePath + "-wal")
+        val shmFile = File(dbFile.absolutePath + "-shm")
+
+        writeZip(tmpFile, mapOf(
+            DB_NAME to dbFile,
+            "${DB_NAME}-wal" to walFile,
+            "${DB_NAME}-shm" to shmFile
+        ))
+
+        if (targetFile.exists()) {
+            targetFile.delete()
+        }
+
+        if (!tmpFile.renameTo(targetFile)) {
+            tmpFile.copyTo(targetFile, overwrite = true)
+            tmpFile.delete()
+        }
+
+        return targetFile
+    }
+
+    private fun enforceMaxBackupCount(context: Context, keepLatest: Int) {
+        val safeKeepLatest = keepLatest.coerceIn(1, 100)
+
+        val newDir = OperitBackupDirs.roomDbDir()
+        val legacyDir = OperitBackupDirs.operitRootDir()
+        val dirs = listOf(newDir, legacyDir)
+
+        val candidates = dirs
+            .flatMap { dir ->
+                dir.listFiles { f ->
+                    f.isFile && isRoomDatabaseBackupFileName(f.name)
+                }?.toList() ?: emptyList()
+            }
+
+        if (candidates.isEmpty()) return
+
+        val grouped = candidates.groupBy { it.name }
+
+        val deduped = grouped.mapNotNull { (_, files) ->
+            val sorted = files.sortedWith(compareByDescending<File> { it.lastModified() }.thenByDescending { it.absolutePath })
+            sorted.drop(1).forEach { it.delete() }
+            sorted.firstOrNull()
+        }
+
+        val sorted = deduped.sortedWith(compareByDescending<File> { it.lastModified() }.thenByDescending { it.name })
+        sorted.drop(safeKeepLatest).forEach { it.delete() }
+    }
+
+    private fun isRoomDatabaseBackupFileName(name: String): Boolean {
+        return (name.startsWith(AUTO_BACKUP_FILE_PREFIX) || name.startsWith(MANUAL_BACKUP_FILE_PREFIX)) &&
+            name.endsWith(".zip")
+    }
+
+    private fun writeZip(outputFile: File, entries: Map<String, File>) {
+        val buffer = ByteArray(64 * 1024)
+        ZipOutputStream(BufferedOutputStream(FileOutputStream(outputFile))).use { zos ->
+            entries.forEach { (entryName, file) ->
+                if (!file.exists() || !file.isFile) return@forEach
+
+                zos.putNextEntry(ZipEntry(entryName))
+                BufferedInputStream(FileInputStream(file)).use { input ->
+                    while (true) {
+                        val read = input.read(buffer)
+                        if (read <= 0) break
+                        zos.write(buffer, 0, read)
+                    }
+                }
+                zos.closeEntry()
+            }
+        }
+    }
+
+    private fun parseBackupDay(fileName: String): LocalDate {
+        val raw = fileName.removePrefix(AUTO_BACKUP_FILE_PREFIX).removeSuffix(".zip")
+        return try {
+            LocalDate.parse(raw, DateTimeFormatter.ISO_DATE)
+        } catch (_: Exception) {
+            LocalDate.MIN
+        }
+    }
+}

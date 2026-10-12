@@ -1,1 +1,107 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmNvbXBvc2Vkc2wKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMudGVzdC5ydW5UZXN0CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ29tcG9zZURzbFRleHRJbnB1dERpc3BhdGNoUXVldWVUZXN0IHsKCiAgICBwcml2YXRlIGNsYXNzIEhhcm5lc3MgewogICAgICAgIHZhbCBzdGFydGVkID0gbXV0YWJsZUxpc3RPZjxQYWlyPFN0cmluZywgU3RyaW5nPj4oKQogICAgICAgIHZhbCBzZXR0bGVDYWxsYmFja3MgPSBtdXRhYmxlTGlzdE9mPCgpIC0+IFVuaXQ+KCkKICAgICAgICB2YXIgZHJhaW5lZENvdW50ID0gMAoKICAgICAgICB2YWwgcXVldWUgPSBDb21wb3NlRHNsVGV4dElucHV0RGlzcGF0Y2hRdWV1ZShvbkFsbFNldHRsZWQgPSB7IGRyYWluZWRDb3VudCsrIH0pCgogICAgICAgIHZhbCBkaXNwYXRjaDogKENvbXBvc2VEc2xUZXh0SW5wdXREaXNwYXRjaFF1ZXVlLkVudHJ5LCAoKSAtPiBVbml0KSAtPiBVbml0ID0KICAgICAgICAgICAgeyBlbnRyeSwgb25TZXR0bGVkIC0+CiAgICAgICAgICAgICAgICBzdGFydGVkLmFkZChlbnRyeS5hY3Rpb25JZCB0byBlbnRyeS50ZXh0KQogICAgICAgICAgICAgICAgc2V0dGxlQ2FsbGJhY2tzLmFkZChvblNldHRsZWQpCiAgICAgICAgICAgIH0KCiAgICAgICAgZnVuIGVucXVldWUoYWN0aW9uSWQ6IFN0cmluZywgdGV4dDogU3RyaW5nKSB7CiAgICAgICAgICAgIHF1ZXVlLmVucXVldWUoYWN0aW9uSWQsIHRleHQsIGRpc3BhdGNoKQogICAgICAgIH0KCiAgICAgICAgZnVuIHNldHRsZU5leHQoKSB7CiAgICAgICAgICAgIHNldHRsZUNhbGxiYWNrcy5yZW1vdmVBdCgwKS5pbnZva2UoKQogICAgICAgIH0KICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBlZGl0cyBkaXNwYXRjaCBzZXF1ZW50aWFsbHkgaW4ga2V5c3Ryb2tlIG9yZGVyYCgpIHsKICAgICAgICB2YWwgaGFybmVzcyA9IEhhcm5lc3MoKQogICAgICAgIGhhcm5lc3MuZW5xdWV1ZSgiZWRpdCIsICJhIikKICAgICAgICBoYXJuZXNzLmVucXVldWUoImVkaXQiLCAiYWIiKQogICAgICAgIGhhcm5lc3MuZW5xdWV1ZSgiZWRpdCIsICJhYmMiKQoKICAgICAgICAvLyBPbmx5IHRoZSBmaXJzdCBlZGl0IGlzIGluIGZsaWdodDsgbGF0ZXIga2V5c3Ryb2tlcyB3YWl0IGZvciBpdCB0byBzZXR0bGUuCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigiZWRpdCIgdG8gImEiKSwgaGFybmVzcy5zdGFydGVkKQoKICAgICAgICBoYXJuZXNzLnNldHRsZU5leHQoKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImVkaXQiIHRvICJhIiwgImVkaXQiIHRvICJhYiIpLCBoYXJuZXNzLnN0YXJ0ZWQpCgogICAgICAgIGhhcm5lc3Muc2V0dGxlTmV4dCgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigiZWRpdCIgdG8gImEiLCAiZWRpdCIgdG8gImFiIiwgImVkaXQiIHRvICJhYmMiKSwgaGFybmVzcy5zdGFydGVkKQogICAgICAgIGFzc2VydEVxdWFscygwLCBoYXJuZXNzLmRyYWluZWRDb3VudCkKCiAgICAgICAgaGFybmVzcy5zZXR0bGVOZXh0KCkKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgaGFybmVzcy5kcmFpbmVkQ291bnQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgbGF0ZSBzZXR0bGUgYWZ0ZXIgY29tcGxldGVBbGwgZG9lcyBub3QgcmVzdGFydCBkaXNwYXRjaGluZ2AoKSB7CiAgICAgICAgdmFsIGhhcm5lc3MgPSBIYXJuZXNzKCkKICAgICAgICBoYXJuZXNzLmVucXVldWUoImVkaXQiLCAiYSIpCiAgICAgICAgaGFybmVzcy5lbnF1ZXVlKCJlZGl0IiwgImFiIikKICAgICAgICBhc3NlcnRUcnVlKGhhcm5lc3MucXVldWUuaGFzUGVuZGluZygpKQoKICAgICAgICBoYXJuZXNzLnF1ZXVlLmNvbXBsZXRlQWxsKCkKICAgICAgICBhc3NlcnRGYWxzZShoYXJuZXNzLnF1ZXVlLmhhc1BlbmRpbmcoKSkKCiAgICAgICAgLy8gVGhlIGluLWZsaWdodCBkaXNwYXRjaCBzZXR0bGVzIGFmdGVyIHRoZSBxdWV1ZSB3YXMgY2xlYXJlZCAoZS5nLiB0ZWFyZG93bik6CiAgICAgICAgLy8gaXQgbXVzdCBuZWl0aGVyIGZpcmUgdGhlIGRyYWluIGNhbGxiYWNrIG5vciBkaXNwYXRjaCB0aGUgY2xlYXJlZCBlbnRyeS4KICAgICAgICBoYXJuZXNzLnNldHRsZU5leHQoKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImVkaXQiIHRvICJhIiksIGhhcm5lc3Muc3RhcnRlZCkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgaGFybmVzcy5kcmFpbmVkQ291bnQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZW5xdWV1ZSBhZnRlciBjb21wbGV0ZUFsbCBkaXNwYXRjaGVzIGltbWVkaWF0ZWx5YCgpIHsKICAgICAgICB2YWwgaGFybmVzcyA9IEhhcm5lc3MoKQogICAgICAgIGhhcm5lc3MuZW5xdWV1ZSgiZWRpdCIsICJhIikKICAgICAgICBoYXJuZXNzLnF1ZXVlLmNvbXBsZXRlQWxsKCkKICAgICAgICBoYXJuZXNzLnNldHRsZU5leHQoKQoKICAgICAgICBoYXJuZXNzLmVucXVldWUoImVkaXQiLCAiYiIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigiZWRpdCIgdG8gImEiLCAiZWRpdCIgdG8gImIiKSwgaGFybmVzcy5zdGFydGVkKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGF3YWl0QWxsIHdhaXRzIGZvciBldmVyeSBxdWV1ZWQgZW50cnlgKCkgPSBydW5UZXN0IHsKICAgICAgICB2YWwgaGFybmVzcyA9IEhhcm5lc3MoKQogICAgICAgIGhhcm5lc3MuZW5xdWV1ZSgiZWRpdCIsICJhIikKICAgICAgICBoYXJuZXNzLmVucXVldWUoImVkaXQiLCAiYWIiKQoKICAgICAgICB2YXIgYXdhaXRlZCA9IGZhbHNlCiAgICAgICAgdmFsIGpvYiA9CiAgICAgICAgICAgIGJhY2tncm91bmRTY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgaGFybmVzcy5xdWV1ZS5hd2FpdEFsbCgpCiAgICAgICAgICAgICAgICBhd2FpdGVkID0gdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgdGVzdFNjaGVkdWxlci5ydW5DdXJyZW50KCkKICAgICAgICBhc3NlcnRGYWxzZShhd2FpdGVkKQoKICAgICAgICBoYXJuZXNzLnNldHRsZU5leHQoKQogICAgICAgIHRlc3RTY2hlZHVsZXIucnVuQ3VycmVudCgpCiAgICAgICAgYXNzZXJ0RmFsc2UoYXdhaXRlZCkKCiAgICAgICAgaGFybmVzcy5zZXR0bGVOZXh0KCkKICAgICAgICB0ZXN0U2NoZWR1bGVyLnJ1bkN1cnJlbnQoKQogICAgICAgIGpvYi5qb2luKCkKICAgICAgICBhc3NlcnRUcnVlKGF3YWl0ZWQpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.common.composedsl
+
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.test.runTest
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ComposeDslTextInputDispatchQueueTest {
+
+    private class Harness {
+        val started = mutableListOf<Pair<String, String>>()
+        val settleCallbacks = mutableListOf<() -> Unit>()
+        var drainedCount = 0
+
+        val queue = ComposeDslTextInputDispatchQueue(onAllSettled = { drainedCount++ })
+
+        val dispatch: (ComposeDslTextInputDispatchQueue.Entry, () -> Unit) -> Unit =
+            { entry, onSettled ->
+                started.add(entry.actionId to entry.text)
+                settleCallbacks.add(onSettled)
+            }
+
+        fun enqueue(actionId: String, text: String) {
+            queue.enqueue(actionId, text, dispatch)
+        }
+
+        fun settleNext() {
+            settleCallbacks.removeAt(0).invoke()
+        }
+    }
+
+    @Test
+    fun `edits dispatch sequentially in keystroke order`() {
+        val harness = Harness()
+        harness.enqueue("edit", "a")
+        harness.enqueue("edit", "ab")
+        harness.enqueue("edit", "abc")
+
+        // Only the first edit is in flight; later keystrokes wait for it to settle.
+        assertEquals(listOf("edit" to "a"), harness.started)
+
+        harness.settleNext()
+        assertEquals(listOf("edit" to "a", "edit" to "ab"), harness.started)
+
+        harness.settleNext()
+        assertEquals(listOf("edit" to "a", "edit" to "ab", "edit" to "abc"), harness.started)
+        assertEquals(0, harness.drainedCount)
+
+        harness.settleNext()
+        assertEquals(1, harness.drainedCount)
+    }
+
+    @Test
+    fun `late settle after completeAll does not restart dispatching`() {
+        val harness = Harness()
+        harness.enqueue("edit", "a")
+        harness.enqueue("edit", "ab")
+        assertTrue(harness.queue.hasPending())
+
+        harness.queue.completeAll()
+        assertFalse(harness.queue.hasPending())
+
+        // The in-flight dispatch settles after the queue was cleared (e.g. teardown):
+        // it must neither fire the drain callback nor dispatch the cleared entry.
+        harness.settleNext()
+        assertEquals(listOf("edit" to "a"), harness.started)
+        assertEquals(0, harness.drainedCount)
+    }
+
+    @Test
+    fun `enqueue after completeAll dispatches immediately`() {
+        val harness = Harness()
+        harness.enqueue("edit", "a")
+        harness.queue.completeAll()
+        harness.settleNext()
+
+        harness.enqueue("edit", "b")
+        assertEquals(listOf("edit" to "a", "edit" to "b"), harness.started)
+    }
+
+    @Test
+    fun `awaitAll waits for every queued entry`() = runTest {
+        val harness = Harness()
+        harness.enqueue("edit", "a")
+        harness.enqueue("edit", "ab")
+
+        var awaited = false
+        val job =
+            backgroundScope.launch {
+                harness.queue.awaitAll()
+                awaited = true
+            }
+        testScheduler.runCurrent()
+        assertFalse(awaited)
+
+        harness.settleNext()
+        testScheduler.runCurrent()
+        assertFalse(awaited)
+
+        harness.settleNext()
+        testScheduler.runCurrent()
+        job.join()
+        assertTrue(awaited)
+    }
+}

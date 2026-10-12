@@ -1,1 +1,6 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQKCmVudW0gY2xhc3MgQ2hhdFJ1bnRpbWVTbG90IHsKICAgIE1BSU4sCiAgICBGTE9BVElORwp9Cg==
+package com.bslsjdk.operit.api.chat
+
+enum class ChatRuntimeSlot {
+    MAIN,
+    FLOATING
+}

@@ -1,1 +1,292 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3Muc2NyZWVucy50aGVtZQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRvYXN0CmltcG9ydCBhbmRyb2lkeC5hY3Rpdml0eS5jb21wb3NlLnJlbWVtYmVyTGF1bmNoZXJGb3JBY3Rpdml0eVJlc3VsdAppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkucmVzdWx0LmNvbnRyYWN0LkFjdGl2aXR5UmVzdWx0Q29udHJhY3RzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DYXJkQ29sb3JzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmNvbGxlY3RBc1N0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MudG9BcmdiCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuVGhlbWVQcmVmZXJlbmNlVmFsdWVzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5Vc2VyUHJlZmVyZW5jZXNNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3MuY29tcG9uZW50cy5Db2xvclBpY2tlckRpYWxvZwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnNldHRpbmdzLnNlY3Rpb25zLlRoZW1lU2V0dGluZ3NDb2xvckNvbnRlbnRNb2RlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3Muc2VjdGlvbnMuVGhlbWVTZXR0aW5nc0NvbG9yQ3VzdG9taXphdGlvblNlY3Rpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5zZXR0aW5ncy5zZWN0aW9ucy5UaGVtZVNldHRpbmdzRm9udFNlY3Rpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5zZXR0aW5ncy5zZWN0aW9ucy5UaGVtZVNldHRpbmdzVGhlbWVNb2RlU2VjdGlvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLm1haW4uY29tcG9uZW50cy5yZW1lbWJlck5hdmlnYXRpb25EcmF3ZXJBcHBlYXJhbmNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkZpbGVVdGlscwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIFRoZW1lU2V0dGluZ3NCYXNpY1RhYigKICAgIHNoYXJlZDogVGhlbWVTZXR0aW5nc1NoYXJlZCwKICAgIGNhcmRDb2xvcnM6IENhcmRDb2xvcnMsCikgewogICAgdmFsIGVkaXRvclNlc3Npb24gPSBzaGFyZWQuZWRpdG9yU2Vzc2lvbgogICAgdmFsIHZhbHVlcyBieSBlZGl0b3JTZXNzaW9uLnZhbHVlcy5jb2xsZWN0QXNTdGF0ZSgpCiAgICB2YWwgcGlja0dsb2JhbEZvbnQgPSByZW1lbWJlckdsb2JhbEZvbnRQaWNrZXIoCiAgICAgICAgY29udGV4dCA9IHNoYXJlZC5jb250ZXh0LAogICAgICAgIHNoYXJlZCA9IHNoYXJlZCwKICAgICkKCiAgICBUaGVtZVNldHRpbmdzVGhlbWVNb2RlU2VjdGlvbigKICAgICAgICBjYXJkQ29sb3JzID0gY2FyZENvbG9ycywKICAgICAgICBlZGl0b3JTZXNzaW9uID0gZWRpdG9yU2Vzc2lvbiwKICAgICAgICB1c2VTeXN0ZW1UaGVtZUlucHV0ID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigidXNlX3N5c3RlbV90aGVtZSIpLAogICAgICAgIHRoZW1lTW9kZUlucHV0ID0gdmFsdWVzLnJlcXVpcmVkU3RyaW5nKCJ0aGVtZV9tb2RlIiksCiAgICApCgogICAgVGhlbWVTZXR0aW5nc0Jhc2ljQ29sb3JQYW5lbCgKICAgICAgICBzaGFyZWQgPSBzaGFyZWQsCiAgICAgICAgY2FyZENvbG9ycyA9IGNhcmRDb2xvcnMsCiAgICAgICAgdmFsdWVzID0gdmFsdWVzLAogICAgKQoKICAgIFRoZW1lU2V0dGluZ3NGb250U2VjdGlvbigKICAgICAgICBjYXJkQ29sb3JzID0gY2FyZENvbG9ycywKICAgICAgICBjb250ZXh0ID0gc2hhcmVkLmNvbnRleHQsCiAgICAgICAgZWRpdG9yU2Vzc2lvbiA9IGVkaXRvclNlc3Npb24sCiAgICAgICAgdXNlQ3VzdG9tRm9udElucHV0ID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigidXNlX2N1c3RvbV9mb250IiksCiAgICAgICAgZm9udFR5cGVJbnB1dCA9IHZhbHVlcy5yZXF1aXJlZFN0cmluZygiZm9udF90eXBlIiksCiAgICAgICAgc3lzdGVtRm9udE5hbWVJbnB1dCA9IHZhbHVlcy5yZXF1aXJlZFN0cmluZygic3lzdGVtX2ZvbnRfbmFtZSIpLAogICAgICAgIGN1c3RvbUZvbnRQYXRoSW5wdXQgPSB2YWx1ZXMuc3RyaW5nKCJjdXN0b21fZm9udF9wYXRoIiksCiAgICAgICAgZm9udFNjYWxlSW5wdXQgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiZm9udF9zY2FsZSIpLAogICAgICAgIG9uUGlja0ZvbnQgPSBwaWNrR2xvYmFsRm9udCwKICAgICkKfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gcmVtZW1iZXJHbG9iYWxGb250UGlja2VyKAogICAgY29udGV4dDogQ29udGV4dCwKICAgIHNoYXJlZDogVGhlbWVTZXR0aW5nc1NoYXJlZCwKKTogKCkgLT4gVW5pdCB7CiAgICB2YWwgZWRpdG9yU2Vzc2lvbiA9IHNoYXJlZC5lZGl0b3JTZXNzaW9uCiAgICB2YWwgZm9udFBpY2tlckxhdW5jaGVyID0KICAgICAgICByZW1lbWJlckxhdW5jaGVyRm9yQWN0aXZpdHlSZXN1bHQoY29udHJhY3QgPSBBY3Rpdml0eVJlc3VsdENvbnRyYWN0cy5HZXRDb250ZW50KCkpIHsgdXJpOiBVcmk/IC0+CiAgICAgICAgICAgIGlmICh1cmkgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgc2hhcmVkLnNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGV4dGVuc2lvbiA9IEZpbGVVdGlscy5nZXRGaWxlRXh0ZW5zaW9uKGNvbnRleHQsIHVyaSk/Lmxvd2VyY2FzZSgpCiAgICAgICAgICAgICAgICAgICAgaWYgKGV4dGVuc2lvbiAhPSBudWxsICYmIChleHRlbnNpb24gPT0gInR0ZiIgfHwgZXh0ZW5zaW9uID09ICJvdGYiIHx8IGV4dGVuc2lvbiA9PSAidHRjIikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGludGVybmFsVXJpID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIEZpbGVVdGlscy5jb3B5RmlsZVRvSW50ZXJuYWxTdG9yYWdlKGNvbnRleHQsIHVyaSwgImN1c3RvbV9mb250IikKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGludGVybmFsVXJpICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKCJUaGVtZVNldHRpbmdzIiwgIkZvbnQgZmlsZSBzYXZlZCB0bzogJGludGVybmFsVXJpIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBpbnRlcm5hbFVyaVN0cmluZyA9IGludGVybmFsVXJpLnRvU3RyaW5nKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVkaXRvclNlc3Npb24ucmVnaXN0ZXJTdGFnZWRBc3NldChpbnRlcm5hbFVyaVN0cmluZykKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVkaXRvclNlc3Npb24udXBkYXRlIHsgY3VycmVudCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJlbnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLndpdGhTdHJpbmcoImN1c3RvbV9mb250X3BhdGgiLCBpbnRlcm5hbFVyaVN0cmluZykKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLndpdGhTdHJpbmcoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZm9udF90eXBlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuRk9OVF9UWVBFX0ZJTEUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZm9udF9maWxlX3NhdmVkLCBleHRlbnNpb24pLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRvYXN0LkxFTkdUSF9TSE9SVCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkuc2hvdygpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb2FzdC5tYWtlVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZvbnRfZmlsZV9zYXZlX2ZhaWxlZCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3QuTEVOR1RIX0xPTkcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLnNob3coKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudW5zdXBwb3J0ZWRfZm9udF9mb3JtYXQpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3QuTEVOR1RIX0xPTkcsCiAgICAgICAgICAgICAgICAgICAgICAgICkuc2hvdygpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgcmV0dXJuIHsgZm9udFBpY2tlckxhdW5jaGVyLmxhdW5jaCgiKi8qIikgfQp9CgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBUaGVtZVNldHRpbmdzQmFzaWNDb2xvclBhbmVsKAogICAgc2hhcmVkOiBUaGVtZVNldHRpbmdzU2hhcmVkLAogICAgY2FyZENvbG9yczogQ2FyZENvbG9ycywKICAgIHZhbHVlczogVGhlbWVQcmVmZXJlbmNlVmFsdWVzLAopIHsKICAgIHZhbCBlZGl0b3JTZXNzaW9uID0gc2hhcmVkLmVkaXRvclNlc3Npb24KICAgIHZhbCBuYXZpZ2F0aW9uRHJhd2VyQXBwZWFyYW5jZSA9IHJlbWVtYmVyTmF2aWdhdGlvbkRyYXdlckFwcGVhcmFuY2UoKQogICAgdmFsIGRlZmF1bHRQcmltYXJ5Q29sb3IgPSBDb2xvci5NYWdlbnRhLnRvQXJnYigpCiAgICB2YWwgZGVmYXVsdFNlY29uZGFyeUNvbG9yID0gQ29sb3IuQmx1ZS50b0FyZ2IoKQogICAgdmFsIGRlZmF1bHROYXZpZ2F0aW9uRHJhd2VyQmFja2dyb3VuZENvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlLnRvQXJnYigpCiAgICB2YWwgZGVmYXVsdE5hdmlnYXRpb25EcmF3ZXJBY2NlbnRDb2xvciA9IG5hdmlnYXRpb25EcmF3ZXJBcHBlYXJhbmNlLnRpdGxlQ29sb3IudG9BcmdiKCkKICAgIHZhbCBkZWZhdWx0U3RhdHVzQmFyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2UudG9BcmdiKCkKICAgIHZhbCBkZWZhdWx0QXBwQmFyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2UudG9BcmdiKCkKICAgIHZhbCBkZWZhdWx0SGVhZGVySWNvbkNvbG9yID0gQ29sb3IuR3JheS50b0FyZ2IoKQogICAgdmFsIHN0YXR1c0JhckhpZGRlbklucHV0ID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigic3RhdHVzX2Jhcl9oaWRkZW4iKQogICAgdmFsIHN0YXR1c0JhclRyYW5zcGFyZW50SW5wdXQgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJzdGF0dXNfYmFyX3RyYW5zcGFyZW50IikKICAgIHZhbCB1c2VDdXN0b21TdGF0dXNCYXJDb2xvcklucHV0ID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigidXNlX2N1c3RvbV9zdGF0dXNfYmFyX2NvbG9yIikKICAgIHZhbCBjdXN0b21TdGF0dXNCYXJDb2xvcklucHV0ID0gdmFsdWVzLmludCgiY3VzdG9tX3N0YXR1c19iYXJfY29sb3IiKSA/OiBkZWZhdWx0U3RhdHVzQmFyQ29sb3IKICAgIHZhbCB0b29sYmFyVHJhbnNwYXJlbnRJbnB1dCA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInRvb2xiYXJfdHJhbnNwYXJlbnQiKQogICAgdmFsIHVzZUN1c3RvbUFwcEJhckNvbG9ySW5wdXQgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJ1c2VfY3VzdG9tX2FwcF9iYXJfY29sb3IiKQogICAgdmFsIGN1c3RvbUFwcEJhckNvbG9ySW5wdXQgPSB2YWx1ZXMuaW50KCJjdXN0b21fYXBwX2Jhcl9jb2xvciIpID86IGRlZmF1bHRBcHBCYXJDb2xvcgogICAgdmFsIG5hdmlnYXRpb25EcmF3ZXJXYXRlckdsYXNzSW5wdXQgPQogICAgICAgIHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oIm5hdmlnYXRpb25fZHJhd2VyX3dhdGVyX2dsYXNzIikKICAgIHZhbCBuYXZpZ2F0aW9uRHJhd2VyQnV0dG9uTGlxdWlkR2xhc3NJbnB1dCA9CiAgICAgICAgdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigibmF2aWdhdGlvbl9kcmF3ZXJfYnV0dG9uX2xpcXVpZF9nbGFzcyIpCiAgICB2YWwgdXNlQ3VzdG9tTmF2aWdhdGlvbkRyYXdlckJhY2tncm91bmRDb2xvcklucHV0ID0KICAgICAgICB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJ1c2VfY3VzdG9tX25hdmlnYXRpb25fZHJhd2VyX2JhY2tncm91bmRfY29sb3IiKQogICAgdmFsIG5hdmlnYXRpb25EcmF3ZXJCYWNrZ3JvdW5kQ29sb3JJbnB1dCA9CiAgICAgICAgdmFsdWVzLmludCgiY3VzdG9tX25hdmlnYXRpb25fZHJhd2VyX2JhY2tncm91bmRfY29sb3IiKQogICAgICAgICAgICA/OiBkZWZhdWx0TmF2aWdhdGlvbkRyYXdlckJhY2tncm91bmRDb2xvcgogICAgdmFsIHVzZUN1c3RvbU5hdmlnYXRpb25EcmF3ZXJBY2NlbnRDb2xvcklucHV0ID0KICAgICAgICB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJ1c2VfY3VzdG9tX25hdmlnYXRpb25fZHJhd2VyX2FjY2VudF9jb2xvciIpCiAgICB2YWwgbmF2aWdhdGlvbkRyYXdlckFjY2VudENvbG9ySW5wdXQgPQogICAgICAgIHZhbHVlcy5pbnQoImN1c3RvbV9uYXZpZ2F0aW9uX2RyYXdlcl9hY2NlbnRfY29sb3IiKQogICAgICAgICAgICA/OiBkZWZhdWx0TmF2aWdhdGlvbkRyYXdlckFjY2VudENvbG9yCiAgICB2YWwgY2hhdEhlYWRlclRyYW5zcGFyZW50SW5wdXQgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJjaGF0X2hlYWRlcl90cmFuc3BhcmVudCIpCiAgICB2YWwgY2hhdEhlYWRlck92ZXJsYXlNb2RlSW5wdXQgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJjaGF0X2hlYWRlcl9vdmVybGF5X21vZGUiKQogICAgdmFsIGZvcmNlQXBwQmFyQ29udGVudENvbG9ySW5wdXQgPQogICAgICAgIHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oImZvcmNlX2FwcF9iYXJfY29udGVudF9jb2xvcl9lbmFibGVkIikKICAgIHZhbCBhcHBCYXJDb250ZW50Q29sb3JNb2RlSW5wdXQgPSB2YWx1ZXMucmVxdWlyZWRTdHJpbmcoImFwcF9iYXJfY29udGVudF9jb2xvcl9tb2RlIikKICAgIHZhbCBoaXN0b3J5SWNvbkNvbG9ySW5wdXQgPQogICAgICAgIHZhbHVlcy5pbnQoImNoYXRfaGVhZGVyX2hpc3RvcnlfaWNvbl9jb2xvciIpID86IGRlZmF1bHRIZWFkZXJJY29uQ29sb3IKICAgIHZhbCBwaXBJY29uQ29sb3JJbnB1dCA9IHZhbHVlcy5pbnQoImNoYXRfaGVhZGVyX3BpcF9pY29uX2NvbG9yIikgPzogZGVmYXVsdEhlYWRlckljb25Db2xvcgogICAgdmFsIHVzZUN1c3RvbUNvbG9yc0lucHV0ID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigidXNlX2N1c3RvbV9jb2xvcnMiKQogICAgdmFsIHByaW1hcnlDb2xvcklucHV0ID0gdmFsdWVzLmludCgiY3VzdG9tX3ByaW1hcnlfY29sb3IiKSA/OiBkZWZhdWx0UHJpbWFyeUNvbG9yCiAgICB2YWwgc2Vjb25kYXJ5Q29sb3JJbnB1dCA9IHZhbHVlcy5pbnQoImN1c3RvbV9zZWNvbmRhcnlfY29sb3IiKSA/OiBkZWZhdWx0U2Vjb25kYXJ5Q29sb3IKICAgIHZhbCBvbkNvbG9yTW9kZUlucHV0ID0gdmFsdWVzLnJlcXVpcmVkU3RyaW5nKCJvbl9jb2xvcl9tb2RlIikKICAgIHZhbCByZWNlbnRDb2xvcnMgYnkgZWRpdG9yU2Vzc2lvbi5yZWNlbnRDb2xvcnNGbG93LmNvbGxlY3RBc1N0YXRlKGluaXRpYWwgPSBlbXB0eUxpc3QoKSkKICAgIHZhciBzaG93Q29sb3JQaWNrZXIgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQogICAgdmFyIGN1cnJlbnRDb2xvclBpY2tlck1vZGUgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigicHJpbWFyeSIpIH0KCiAgICBUaGVtZVNldHRpbmdzQ29sb3JDdXN0b21pemF0aW9uU2VjdGlvbigKICAgICAgICBjYXJkQ29sb3JzID0gY2FyZENvbG9ycywKICAgICAgICBlZGl0b3JTZXNzaW9uID0gZWRpdG9yU2Vzc2lvbiwKICAgICAgICBzdGF0dXNCYXJIaWRkZW5JbnB1dCA9IHN0YXR1c0JhckhpZGRlbklucHV0LAogICAgICAgIHN0YXR1c0JhclRyYW5zcGFyZW50SW5wdXQgPSBzdGF0dXNCYXJUcmFuc3BhcmVudElucHV0LAogICAgICAgIHVzZUN1c3RvbVN0YXR1c0JhckNvbG9ySW5wdXQgPSB1c2VDdXN0b21TdGF0dXNCYXJDb2xvcklucHV0LAogICAgICAgIGN1c3RvbVN0YXR1c0JhckNvbG9ySW5wdXQgPSBjdXN0b21TdGF0dXNCYXJDb2xvcklucHV0LAogICAgICAgIHRvb2xiYXJUcmFuc3BhcmVudElucHV0ID0gdG9vbGJhclRyYW5zcGFyZW50SW5wdXQsCiAgICAgICAgdXNlQ3VzdG9tQXBwQmFyQ29sb3JJbnB1dCA9IHVzZUN1c3RvbUFwcEJhckNvbG9ySW5wdXQsCiAgICAgICAgY3VzdG9tQXBwQmFyQ29sb3JJbnB1dCA9IGN1c3RvbUFwcEJhckNvbG9ySW5wdXQsCiAgICAgICAgbmF2aWdhdGlvbkRyYXdlcldhdGVyR2xhc3NJbnB1dCA9IG5hdmlnYXRpb25EcmF3ZXJXYXRlckdsYXNzSW5wdXQsCiAgICAgICAgbmF2aWdhdGlvbkRyYXdlckJ1dHRvbkxpcXVpZEdsYXNzSW5wdXQgPSBuYXZpZ2F0aW9uRHJhd2VyQnV0dG9uTGlxdWlkR2xhc3NJbnB1dCwKICAgICAgICB1c2VDdXN0b21OYXZpZ2F0aW9uRHJhd2VyQmFja2dyb3VuZENvbG9ySW5wdXQgPSB1c2VDdXN0b21OYXZpZ2F0aW9uRHJhd2VyQmFja2dyb3VuZENvbG9ySW5wdXQsCiAgICAgICAgbmF2aWdhdGlvbkRyYXdlckJhY2tncm91bmRDb2xvcklucHV0ID0gbmF2aWdhdGlvbkRyYXdlckJhY2tncm91bmRDb2xvcklucHV0LAogICAgICAgIHVzZUN1c3RvbU5hdmlnYXRpb25EcmF3ZXJBY2NlbnRDb2xvcklucHV0ID0gdXNlQ3VzdG9tTmF2aWdhdGlvbkRyYXdlckFjY2VudENvbG9ySW5wdXQsCiAgICAgICAgbmF2aWdhdGlvbkRyYXdlckFjY2VudENvbG9ySW5wdXQgPSBuYXZpZ2F0aW9uRHJhd2VyQWNjZW50Q29sb3JJbnB1dCwKICAgICAgICBjaGF0SGVhZGVyVHJhbnNwYXJlbnRJbnB1dCA9IGNoYXRIZWFkZXJUcmFuc3BhcmVudElucHV0LAogICAgICAgIGNoYXRIZWFkZXJPdmVybGF5TW9kZUlucHV0ID0gY2hhdEhlYWRlck92ZXJsYXlNb2RlSW5wdXQsCiAgICAgICAgZm9yY2VBcHBCYXJDb250ZW50Q29sb3JJbnB1dCA9IGZvcmNlQXBwQmFyQ29udGVudENvbG9ySW5wdXQsCiAgICAgICAgYXBwQmFyQ29udGVudENvbG9yTW9kZUlucHV0ID0gYXBwQmFyQ29udGVudENvbG9yTW9kZUlucHV0LAogICAgICAgIGNoYXRIZWFkZXJIaXN0b3J5SWNvbkNvbG9ySW5wdXQgPSBoaXN0b3J5SWNvbkNvbG9ySW5wdXQsCiAgICAgICAgY2hhdEhlYWRlclBpcEljb25Db2xvcklucHV0ID0gcGlwSWNvbkNvbG9ySW5wdXQsCiAgICAgICAgdXNlQ3VzdG9tQ29sb3JzSW5wdXQgPSB1c2VDdXN0b21Db2xvcnNJbnB1dCwKICAgICAgICBwcmltYXJ5Q29sb3JJbnB1dCA9IHByaW1hcnlDb2xvcklucHV0LAogICAgICAgIHNlY29uZGFyeUNvbG9ySW5wdXQgPSBzZWNvbmRhcnlDb2xvcklucHV0LAogICAgICAgIG9uQ29sb3JNb2RlSW5wdXQgPSBvbkNvbG9yTW9kZUlucHV0LAogICAgICAgIG9uU2hvd0NvbG9yUGlja2VyID0gewogICAgICAgICAgICBjdXJyZW50Q29sb3JQaWNrZXJNb2RlID0gaXQKICAgICAgICAgICAgc2hvd0NvbG9yUGlja2VyID0gdHJ1ZQogICAgICAgIH0sCiAgICAgICAgY29udGVudE1vZGUgPSBUaGVtZVNldHRpbmdzQ29sb3JDb250ZW50TW9kZS5QQUxFVFRFLAogICAgKQoKICAgIGlmIChzaG93Q29sb3JQaWNrZXIpIHsKICAgICAgICBDb2xvclBpY2tlckRpYWxvZygKICAgICAgICAgICAgc2hvd0NvbG9yUGlja2VyID0gc2hvd0NvbG9yUGlja2VyLAogICAgICAgICAgICBjdXJyZW50Q29sb3JQaWNrZXJNb2RlID0gY3VycmVudENvbG9yUGlja2VyTW9kZSwKICAgICAgICAgICAgcHJpbWFyeUNvbG9ySW5wdXQgPSBwcmltYXJ5Q29sb3JJbnB1dCwKICAgICAgICAgICAgc2Vjb25kYXJ5Q29sb3JJbnB1dCA9IHNlY29uZGFyeUNvbG9ySW5wdXQsCiAgICAgICAgICAgIHN0YXR1c0JhckNvbG9ySW5wdXQgPSBjdXN0b21TdGF0dXNCYXJDb2xvcklucHV0LAogICAgICAgICAgICBhcHBCYXJDb2xvcklucHV0ID0gY3VzdG9tQXBwQmFyQ29sb3JJbnB1dCwKICAgICAgICAgICAgbmF2aWdhdGlvbkRyYXdlckJhY2tncm91bmRDb2xvcklucHV0ID0gbmF2aWdhdGlvbkRyYXdlckJhY2tncm91bmRDb2xvcklucHV0LAogICAgICAgICAgICBuYXZpZ2F0aW9uRHJhd2VyQWNjZW50Q29sb3JJbnB1dCA9IG5hdmlnYXRpb25EcmF3ZXJBY2NlbnRDb2xvcklucHV0LAogICAgICAgICAgICBoaXN0b3J5SWNvbkNvbG9ySW5wdXQgPSBoaXN0b3J5SWNvbkNvbG9ySW5wdXQsCiAgICAgICAgICAgIHBpcEljb25Db2xvcklucHV0ID0gcGlwSWNvbkNvbG9ySW5wdXQsCiAgICAgICAgICAgIGN1cnNvclVzZXJCdWJibGVDb2xvcklucHV0ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5Q29udGFpbmVyLnRvQXJnYigpLAogICAgICAgICAgICBidWJibGVVc2VyQnViYmxlQ29sb3JJbnB1dCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeUNvbnRhaW5lci50b0FyZ2IoKSwKICAgICAgICAgICAgYnViYmxlQWlCdWJibGVDb2xvcklucHV0ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlLnRvQXJnYigpLAogICAgICAgICAgICBidWJibGVVc2VyVGV4dENvbG9ySW5wdXQgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uUHJpbWFyeUNvbnRhaW5lci50b0FyZ2IoKSwKICAgICAgICAgICAgYnViYmxlQWlUZXh0Q29sb3JJbnB1dCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlLnRvQXJnYigpLAogICAgICAgICAgICByZWNlbnRDb2xvcnMgPSByZWNlbnRDb2xvcnMsCiAgICAgICAgICAgIG9uQ29sb3JTZWxlY3RlZCA9IHsgcHJpbWFyeSwKICAgICAgICAgICAgICAgIHNlY29uZGFyeSwKICAgICAgICAgICAgICAgIHN0YXR1c0JhciwKICAgICAgICAgICAgICAgIGFwcEJhciwKICAgICAgICAgICAgICAgIG5hdmlnYXRpb25EcmF3ZXJCYWNrZ3JvdW5kLAogICAgICAgICAgICAgICAgbmF2aWdhdGlvbkRyYXdlckFjY2VudCwKICAgICAgICAgICAgICAgIGhpc3RvcnlJY29uLAogICAgICAgICAgICAgICAgcGlwSWNvbiwKICAgICAgICAgICAgICAgIF8sCiAgICAgICAgICAgICAgICBfLAogICAgICAgICAgICAgICAgXywKICAgICAgICAgICAgICAgIF8sCiAgICAgICAgICAgICAgICBfIC0+CiAgICAgICAgICAgICAgICB1cGRhdGVEcmFmdFRoZW1lQ29sb3IoCiAgICAgICAgICAgICAgICAgICAgc2hhcmVkID0gc2hhcmVkLAogICAgICAgICAgICAgICAgICAgIGN1cnJlbnRDb2xvclBpY2tlck1vZGUgPSBjdXJyZW50Q29sb3JQaWNrZXJNb2RlLAogICAgICAgICAgICAgICAgICAgIHByaW1hcnlDb2xvciA9IHByaW1hcnksCiAgICAgICAgICAgICAgICAgICAgc2Vjb25kYXJ5Q29sb3IgPSBzZWNvbmRhcnksCiAgICAgICAgICAgICAgICAgICAgc3RhdHVzQmFyQ29sb3IgPSBzdGF0dXNCYXIsCiAgICAgICAgICAgICAgICAgICAgYXBwQmFyQ29sb3IgPSBhcHBCYXIsCiAgICAgICAgICAgICAgICAgICAgbmF2aWdhdGlvbkRyYXdlckJhY2tncm91bmRDb2xvciA9IG5hdmlnYXRpb25EcmF3ZXJCYWNrZ3JvdW5kLAogICAgICAgICAgICAgICAgICAgIG5hdmlnYXRpb25EcmF3ZXJBY2NlbnRDb2xvciA9IG5hdmlnYXRpb25EcmF3ZXJBY2NlbnQsCiAgICAgICAgICAgICAgICAgICAgaGlzdG9yeUljb25Db2xvciA9IGhpc3RvcnlJY29uLAogICAgICAgICAgICAgICAgICAgIHBpcEljb25Db2xvciA9IHBpcEljb24sCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIG9uRGlzbWlzcyA9IHsgc2hvd0NvbG9yUGlja2VyID0gZmFsc2UgfSwKICAgICAgICApCiAgICB9Cn0KCnByaXZhdGUgZnVuIHVwZGF0ZURyYWZ0VGhlbWVDb2xvcigKICAgIHNoYXJlZDogVGhlbWVTZXR0aW5nc1NoYXJlZCwKICAgIGN1cnJlbnRDb2xvclBpY2tlck1vZGU6IFN0cmluZywKICAgIHByaW1hcnlDb2xvcjogSW50PywKICAgIHNlY29uZGFyeUNvbG9yOiBJbnQ/LAogICAgc3RhdHVzQmFyQ29sb3I6IEludD8sCiAgICBhcHBCYXJDb2xvcjogSW50PywKICAgIG5hdmlnYXRpb25EcmF3ZXJCYWNrZ3JvdW5kQ29sb3I6IEludD8sCiAgICBuYXZpZ2F0aW9uRHJhd2VyQWNjZW50Q29sb3I6IEludD8sCiAgICBoaXN0b3J5SWNvbkNvbG9yOiBJbnQ/LAogICAgcGlwSWNvbkNvbG9yOiBJbnQ/LAopIHsKICAgIHZhbCBzZWxlY3RlZENvbG9yID0KICAgICAgICBwcmltYXJ5Q29sb3IgPzogc2Vjb25kYXJ5Q29sb3IgPzogc3RhdHVzQmFyQ29sb3IgPzogYXBwQmFyQ29sb3IKICAgICAgICAgICAgPzogbmF2aWdhdGlvbkRyYXdlckJhY2tncm91bmRDb2xvciA/OiBuYXZpZ2F0aW9uRHJhd2VyQWNjZW50Q29sb3IKICAgICAgICAgICAgPzogaGlzdG9yeUljb25Db2xvciA/OiBwaXBJY29uQ29sb3IKICAgIHZhbCBlZGl0b3JTZXNzaW9uID0gc2hhcmVkLmVkaXRvclNlc3Npb24KICAgIHdoZW4gKGN1cnJlbnRDb2xvclBpY2tlck1vZGUpIHsKICAgICAgICAicHJpbWFyeSIgLT4gcHJpbWFyeUNvbG9yPy5sZXQgeyBlZGl0b3JTZXNzaW9uLnNldEludCgiY3VzdG9tX3ByaW1hcnlfY29sb3IiLCBpdCkgfQogICAgICAgICJzZWNvbmRhcnkiIC0+IHNlY29uZGFyeUNvbG9yPy5sZXQgeyBlZGl0b3JTZXNzaW9uLnNldEludCgiY3VzdG9tX3NlY29uZGFyeV9jb2xvciIsIGl0KSB9CiAgICAgICAgInN0YXR1c0JhciIgLT4gc3RhdHVzQmFyQ29sb3I/LmxldCB7IGVkaXRvclNlc3Npb24uc2V0SW50KCJjdXN0b21fc3RhdHVzX2Jhcl9jb2xvciIsIGl0KSB9CiAgICAgICAgImFwcEJhciIgLT4gYXBwQmFyQ29sb3I/LmxldCB7IGVkaXRvclNlc3Npb24uc2V0SW50KCJjdXN0b21fYXBwX2Jhcl9jb2xvciIsIGl0KSB9CiAgICAgICAgIm5hdmlnYXRpb25EcmF3ZXJCYWNrZ3JvdW5kIiAtPiBuYXZpZ2F0aW9uRHJhd2VyQmFja2dyb3VuZENvbG9yPy5sZXQgewogICAgICAgICAgICBlZGl0b3JTZXNzaW9uLnNldEludCgiY3VzdG9tX25hdmlnYXRpb25fZHJhd2VyX2JhY2tncm91bmRfY29sb3IiLCBpdCkKICAgICAgICB9CiAgICAgICAgIm5hdmlnYXRpb25EcmF3ZXJBY2NlbnQiIC0+IG5hdmlnYXRpb25EcmF3ZXJBY2NlbnRDb2xvcj8ubGV0IHsKICAgICAgICAgICAgZWRpdG9yU2Vzc2lvbi5zZXRJbnQoImN1c3RvbV9uYXZpZ2F0aW9uX2RyYXdlcl9hY2NlbnRfY29sb3IiLCBpdCkKICAgICAgICB9CiAgICAgICAgImhpc3RvcnlJY29uIiAtPiBoaXN0b3J5SWNvbkNvbG9yPy5sZXQgewogICAgICAgICAgICBlZGl0b3JTZXNzaW9uLnNldEludCgiY2hhdF9oZWFkZXJfaGlzdG9yeV9pY29uX2NvbG9yIiwgaXQpCiAgICAgICAgfQogICAgICAgICJwaXBJY29uIiAtPiBwaXBJY29uQ29sb3I/LmxldCB7CiAgICAgICAgICAgIGVkaXRvclNlc3Npb24uc2V0SW50KCJjaGF0X2hlYWRlcl9waXBfaWNvbl9jb2xvciIsIGl0KQogICAgICAgIH0KICAgIH0KICAgIHNlbGVjdGVkQ29sb3I/LmxldCB7IGNvbG9yIC0+CiAgICAgICAgc2hhcmVkLnNjb3BlLmxhdW5jaCB7IGVkaXRvclNlc3Npb24uYWRkUmVjZW50Q29sb3IoY29sb3IpIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.settings.screens.theme
+
+import android.content.Context
+import android.net.Uri
+import android.widget.Toast
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.material3.CardColors
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.toArgb
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.preferences.ThemePreferenceValues
+import com.bslsjdk.operit.data.preferences.UserPreferencesManager
+import com.bslsjdk.operit.ui.features.settings.components.ColorPickerDialog
+import com.bslsjdk.operit.ui.features.settings.sections.ThemeSettingsColorContentMode
+import com.bslsjdk.operit.ui.features.settings.sections.ThemeSettingsColorCustomizationSection
+import com.bslsjdk.operit.ui.features.settings.sections.ThemeSettingsFontSection
+import com.bslsjdk.operit.ui.features.settings.sections.ThemeSettingsThemeModeSection
+import com.bslsjdk.operit.ui.main.components.rememberNavigationDrawerAppearance
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.FileUtils
+import kotlinx.coroutines.launch
+
+@Composable
+internal fun ThemeSettingsBasicTab(
+    shared: ThemeSettingsShared,
+    cardColors: CardColors,
+) {
+    val editorSession = shared.editorSession
+    val values by editorSession.values.collectAsState()
+    val pickGlobalFont = rememberGlobalFontPicker(
+        context = shared.context,
+        shared = shared,
+    )
+
+    ThemeSettingsThemeModeSection(
+        cardColors = cardColors,
+        editorSession = editorSession,
+        useSystemThemeInput = values.requiredBoolean("use_system_theme"),
+        themeModeInput = values.requiredString("theme_mode"),
+    )
+
+    ThemeSettingsBasicColorPanel(
+        shared = shared,
+        cardColors = cardColors,
+        values = values,
+    )
+
+    ThemeSettingsFontSection(
+        cardColors = cardColors,
+        context = shared.context,
+        editorSession = editorSession,
+        useCustomFontInput = values.requiredBoolean("use_custom_font"),
+        fontTypeInput = values.requiredString("font_type"),
+        systemFontNameInput = values.requiredString("system_font_name"),
+        customFontPathInput = values.string("custom_font_path"),
+        fontScaleInput = values.requiredFloat("font_scale"),
+        onPickFont = pickGlobalFont,
+    )
+}
+
+@Composable
+private fun rememberGlobalFontPicker(
+    context: Context,
+    shared: ThemeSettingsShared,
+): () -> Unit {
+    val editorSession = shared.editorSession
+    val fontPickerLauncher =
+        rememberLauncherForActivityResult(contract = ActivityResultContracts.GetContent()) { uri: Uri? ->
+            if (uri != null) {
+                shared.scope.launch {
+                    val extension = FileUtils.getFileExtension(context, uri)?.lowercase()
+                    if (extension != null && (extension == "ttf" || extension == "otf" || extension == "ttc")) {
+                        val internalUri =
+                            FileUtils.copyFileToInternalStorage(context, uri, "custom_font")
+                        if (internalUri != null) {
+                            AppLogger.d("ThemeSettings", "Font file saved to: $internalUri")
+                            val internalUriString = internalUri.toString()
+                            editorSession.registerStagedAsset(internalUriString)
+                            editorSession.update { current ->
+                                current
+                                    .withString("custom_font_path", internalUriString)
+                                    .withString(
+                                        "font_type",
+                                        UserPreferencesManager.FONT_TYPE_FILE,
+                                    )
+                            }
+                            Toast.makeText(
+                                context,
+                                context.getString(R.string.font_file_saved, extension),
+                                Toast.LENGTH_SHORT,
+                            ).show()
+                        } else {
+                            Toast.makeText(
+                                context,
+                                context.getString(R.string.font_file_save_failed),
+                                Toast.LENGTH_LONG,
+                            ).show()
+                        }
+                    } else {
+                        Toast.makeText(
+                            context,
+                            context.getString(R.string.unsupported_font_format),
+                            Toast.LENGTH_LONG,
+                        ).show()
+                    }
+                }
+            }
+        }
+    return { fontPickerLauncher.launch("*/*") }
+}
+
+@Composable
+private fun ThemeSettingsBasicColorPanel(
+    shared: ThemeSettingsShared,
+    cardColors: CardColors,
+    values: ThemePreferenceValues,
+) {
+    val editorSession = shared.editorSession
+    val navigationDrawerAppearance = rememberNavigationDrawerAppearance()
+    val defaultPrimaryColor = Color.Magenta.toArgb()
+    val defaultSecondaryColor = Color.Blue.toArgb()
+    val defaultNavigationDrawerBackgroundColor = MaterialTheme.colorScheme.surface.toArgb()
+    val defaultNavigationDrawerAccentColor = navigationDrawerAppearance.titleColor.toArgb()
+    val defaultStatusBarColor = MaterialTheme.colorScheme.surface.toArgb()
+    val defaultAppBarColor = MaterialTheme.colorScheme.surface.toArgb()
+    val defaultHeaderIconColor = Color.Gray.toArgb()
+    val statusBarHiddenInput = values.requiredBoolean("status_bar_hidden")
+    val statusBarTransparentInput = values.requiredBoolean("status_bar_transparent")
+    val useCustomStatusBarColorInput = values.requiredBoolean("use_custom_status_bar_color")
+    val customStatusBarColorInput = values.int("custom_status_bar_color") ?: defaultStatusBarColor
+    val toolbarTransparentInput = values.requiredBoolean("toolbar_transparent")
+    val useCustomAppBarColorInput = values.requiredBoolean("use_custom_app_bar_color")
+    val customAppBarColorInput = values.int("custom_app_bar_color") ?: defaultAppBarColor
+    val navigationDrawerWaterGlassInput =
+        values.requiredBoolean("navigation_drawer_water_glass")
+    val navigationDrawerButtonLiquidGlassInput =
+        values.requiredBoolean("navigation_drawer_button_liquid_glass")
+    val useCustomNavigationDrawerBackgroundColorInput =
+        values.requiredBoolean("use_custom_navigation_drawer_background_color")
+    val navigationDrawerBackgroundColorInput =
+        values.int("custom_navigation_drawer_background_color")
+            ?: defaultNavigationDrawerBackgroundColor
+    val useCustomNavigationDrawerAccentColorInput =
+        values.requiredBoolean("use_custom_navigation_drawer_accent_color")
+    val navigationDrawerAccentColorInput =
+        values.int("custom_navigation_drawer_accent_color")
+            ?: defaultNavigationDrawerAccentColor
+    val chatHeaderTransparentInput = values.requiredBoolean("chat_header_transparent")
+    val chatHeaderOverlayModeInput = values.requiredBoolean("chat_header_overlay_mode")
+    val forceAppBarContentColorInput =
+        values.requiredBoolean("force_app_bar_content_color_enabled")
+    val appBarContentColorModeInput = values.requiredString("app_bar_content_color_mode")
+    val historyIconColorInput =
+        values.int("chat_header_history_icon_color") ?: defaultHeaderIconColor
+    val pipIconColorInput = values.int("chat_header_pip_icon_color") ?: defaultHeaderIconColor
+    val useCustomColorsInput = values.requiredBoolean("use_custom_colors")
+    val primaryColorInput = values.int("custom_primary_color") ?: defaultPrimaryColor
+    val secondaryColorInput = values.int("custom_secondary_color") ?: defaultSecondaryColor
+    val onColorModeInput = values.requiredString("on_color_mode")
+    val recentColors by editorSession.recentColorsFlow.collectAsState(initial = emptyList())
+    var showColorPicker by remember { mutableStateOf(false) }
+    var currentColorPickerMode by remember { mutableStateOf("primary") }
+
+    ThemeSettingsColorCustomizationSection(
+        cardColors = cardColors,
+        editorSession = editorSession,
+        statusBarHiddenInput = statusBarHiddenInput,
+        statusBarTransparentInput = statusBarTransparentInput,
+        useCustomStatusBarColorInput = useCustomStatusBarColorInput,
+        customStatusBarColorInput = customStatusBarColorInput,
+        toolbarTransparentInput = toolbarTransparentInput,
+        useCustomAppBarColorInput = useCustomAppBarColorInput,
+        customAppBarColorInput = customAppBarColorInput,
+        navigationDrawerWaterGlassInput = navigationDrawerWaterGlassInput,
+        navigationDrawerButtonLiquidGlassInput = navigationDrawerButtonLiquidGlassInput,
+        useCustomNavigationDrawerBackgroundColorInput = useCustomNavigationDrawerBackgroundColorInput,
+        navigationDrawerBackgroundColorInput = navigationDrawerBackgroundColorInput,
+        useCustomNavigationDrawerAccentColorInput = useCustomNavigationDrawerAccentColorInput,
+        navigationDrawerAccentColorInput = navigationDrawerAccentColorInput,
+        chatHeaderTransparentInput = chatHeaderTransparentInput,
+        chatHeaderOverlayModeInput = chatHeaderOverlayModeInput,
+        forceAppBarContentColorInput = forceAppBarContentColorInput,
+        appBarContentColorModeInput = appBarContentColorModeInput,
+        chatHeaderHistoryIconColorInput = historyIconColorInput,
+        chatHeaderPipIconColorInput = pipIconColorInput,
+        useCustomColorsInput = useCustomColorsInput,
+        primaryColorInput = primaryColorInput,
+        secondaryColorInput = secondaryColorInput,
+        onColorModeInput = onColorModeInput,
+        onShowColorPicker = {
+            currentColorPickerMode = it
+            showColorPicker = true
+        },
+        contentMode = ThemeSettingsColorContentMode.PALETTE,
+    )
+
+    if (showColorPicker) {
+        ColorPickerDialog(
+            showColorPicker = showColorPicker,
+            currentColorPickerMode = currentColorPickerMode,
+            primaryColorInput = primaryColorInput,
+            secondaryColorInput = secondaryColorInput,
+            statusBarColorInput = customStatusBarColorInput,
+            appBarColorInput = customAppBarColorInput,
+            navigationDrawerBackgroundColorInput = navigationDrawerBackgroundColorInput,
+            navigationDrawerAccentColorInput = navigationDrawerAccentColorInput,
+            historyIconColorInput = historyIconColorInput,
+            pipIconColorInput = pipIconColorInput,
+            cursorUserBubbleColorInput = MaterialTheme.colorScheme.primaryContainer.toArgb(),
+            bubbleUserBubbleColorInput = MaterialTheme.colorScheme.primaryContainer.toArgb(),
+            bubbleAiBubbleColorInput = MaterialTheme.colorScheme.surface.toArgb(),
+            bubbleUserTextColorInput = MaterialTheme.colorScheme.onPrimaryContainer.toArgb(),
+            bubbleAiTextColorInput = MaterialTheme.colorScheme.onSurface.toArgb(),
+            recentColors = recentColors,
+            onColorSelected = { primary,
+                secondary,
+                statusBar,
+                appBar,
+                navigationDrawerBackground,
+                navigationDrawerAccent,
+                historyIcon,
+                pipIcon,
+                _,
+                _,
+                _,
+                _,
+                _ ->
+                updateDraftThemeColor(
+                    shared = shared,
+                    currentColorPickerMode = currentColorPickerMode,
+                    primaryColor = primary,
+                    secondaryColor = secondary,
+                    statusBarColor = statusBar,
+                    appBarColor = appBar,
+                    navigationDrawerBackgroundColor = navigationDrawerBackground,
+                    navigationDrawerAccentColor = navigationDrawerAccent,
+                    historyIconColor = historyIcon,
+                    pipIconColor = pipIcon,
+                )
+            },
+            onDismiss = { showColorPicker = false },
+        )
+    }
+}
+
+private fun updateDraftThemeColor(
+    shared: ThemeSettingsShared,
+    currentColorPickerMode: String,
+    primaryColor: Int?,
+    secondaryColor: Int?,
+    statusBarColor: Int?,
+    appBarColor: Int?,
+    navigationDrawerBackgroundColor: Int?,
+    navigationDrawerAccentColor: Int?,
+    historyIconColor: Int?,
+    pipIconColor: Int?,
+) {
+    val selectedColor =
+        primaryColor ?: secondaryColor ?: statusBarColor ?: appBarColor
+            ?: navigationDrawerBackgroundColor ?: navigationDrawerAccentColor
+            ?: historyIconColor ?: pipIconColor
+    val editorSession = shared.editorSession
+    when (currentColorPickerMode) {
+        "primary" -> primaryColor?.let { editorSession.setInt("custom_primary_color", it) }
+        "secondary" -> secondaryColor?.let { editorSession.setInt("custom_secondary_color", it) }
+        "statusBar" -> statusBarColor?.let { editorSession.setInt("custom_status_bar_color", it) }
+        "appBar" -> appBarColor?.let { editorSession.setInt("custom_app_bar_color", it) }
+        "navigationDrawerBackground" -> navigationDrawerBackgroundColor?.let {
+            editorSession.setInt("custom_navigation_drawer_background_color", it)
+        }
+        "navigationDrawerAccent" -> navigationDrawerAccentColor?.let {
+            editorSession.setInt("custom_navigation_drawer_accent_color", it)
+        }
+        "historyIcon" -> historyIconColor?.let {
+            editorSession.setInt("chat_header_history_icon_color", it)
+        }
+        "pipIcon" -> pipIconColor?.let {
+            editorSession.setInt("chat_header_pip_icon_color", it)
+        }
+    }
+    selectedColor?.let { color ->
+        shared.scope.launch { editorSession.addRecentColor(color) }
+    }
+}

@@ -1,1 +1,172 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGNvbS5odWFiYW4uYW5hbHlzaXMuamllYmEuSmllYmFTZWdtZW50ZXIKaW1wb3J0IGNvbS5odWFiYW4uYW5hbHlzaXMuamllYmEuV29yZERpY3Rpb25hcnkKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXAKCi8qKgogKiDmlofmnKzliIbor43lt6XlhbfnsbsgLSDmj5DkvpvkuK3mloflkozlpJror63oqIDmlofmnKznmoTliIbor43lip/og70KICovCm9iamVjdCBUZXh0U2VnbWVudGVyIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJUZXh0U2VnbWVudGVyIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgUFJFV0FSTV9URVhUID0gIuaQnOe0ouiusOW/hiDliIbor43pooTng60iCgogICAgLy8g5L2/55So5bu26L+f5Yid5aeL5YyW77yM6YG/5YWN5LiN5b+F6KaB55qE6LWE5rqQ5raI6ICXCiAgICBwcml2YXRlIHZhbCBzZWdtZW50ZXIgYnkgbGF6eSB7IEppZWJhU2VnbWVudGVyKCkgfQoKICAgIHByaXZhdGUgdmFsIGluaXRMb2NrID0gQW55KCkKCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIGJhc2VJbml0aWFsaXplZCA9IGZhbHNlCgogICAgcHJpdmF0ZSB2YWwgbG9hZGVkVXNlckRpY3RQYXRocyA9IENvbmN1cnJlbnRIYXNoTWFwLm5ld0tleVNldDxTdHJpbmc+KCkKICAgIAogICAgLy8g5YWz6ZSu6K+N57yT5a2Y77yM5o+Q6auY5oCn6IO9CiAgICBwcml2YXRlIHZhbCBzZWdtZW50Q2FjaGUgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIExpc3Q8U3RyaW5nPj4oKQogICAgCiAgICAvLyDmnIDlpKfnvJPlrZjlpKflsI8KICAgIHByaXZhdGUgY29uc3QgdmFsIE1BWF9DQUNIRV9TSVpFID0gMTAwMAogICAgCiAgICAvKioKICAgICAqIOWIneWni+WMluWIhuivjeWZqO+8jOWPr+mAieWKoOi9veiHquWumuS5ieivjeWFuAogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcGFyYW0gY3VzdG9tRGljdFBhdGgg6Ieq5a6a5LmJ6K+N5YW46Lev5b6E77yI5Y+v6YCJ77yJCiAgICAgKi8KICAgIEBTdXBwcmVzcygiVU5VU0VEX1BBUkFNRVRFUiIpCiAgICBmdW4gaW5pdGlhbGl6ZShjb250ZXh0OiBDb250ZXh0LCBjdXN0b21EaWN0UGF0aDogU3RyaW5nPyA9IG51bGwpIHsKICAgICAgICBpZiAoYmFzZUluaXRpYWxpemVkICYmIGN1c3RvbURpY3RQYXRoLmlzTnVsbE9yQmxhbmsoKSkgcmV0dXJuCgogICAgICAgIHZhbCBzdGFydFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHN5bmNocm9uaXplZChpbml0TG9jaykgewogICAgICAgICAgICAgICAgdmFsIGRpY3Rpb25hcnkgPSBXb3JkRGljdGlvbmFyeS5nZXRJbnN0YW5jZSgpCgogICAgICAgICAgICAgICAgLy8g5aaC5p6c5o+Q5L6b5LqG6Ieq5a6a5LmJ6K+N5YW477yM5Yqg6L295a6DCiAgICAgICAgICAgICAgICBjdXN0b21EaWN0UGF0aAogICAgICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgICAgICA/LmxldCB7IGxvYWRDdXN0b21EaWN0aW9uYXJ5SWZOZWVkZWQoZGljdGlvbmFyeSwgaXQpIH0KCiAgICAgICAgICAgICAgICBpZiAoIWJhc2VJbml0aWFsaXplZCkgewogICAgICAgICAgICAgICAgICAgIC8vIOmAmui/h+S4gOasoeecn+WunuWIhuivjeinpuWPkSBKaWViYSDor43lhbjliqDovb3vvIzpgb/lhY3pppbkuKrmkJzntKLor7fmsYLljaHpob/jgIIKICAgICAgICAgICAgICAgICAgICBzZWdtZW50ZXIucHJvY2VzcyhQUkVXQVJNX1RFWFQsIEppZWJhU2VnbWVudGVyLlNlZ01vZGUuU0VBUkNIKQogICAgICAgICAgICAgICAgICAgIGJhc2VJbml0aWFsaXplZCA9IHRydWUKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAi5YiG6K+N5Zmo6aKE54Ot5a6M5oiQIC0gJHtTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSAtIHN0YXJ0VGltZX1tcyIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5Yid5aeL5YyW5YiG6K+N5Zmo5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbG9hZEN1c3RvbURpY3Rpb25hcnlJZk5lZWRlZChkaWN0aW9uYXJ5OiBXb3JkRGljdGlvbmFyeSwgY3VzdG9tRGljdFBhdGg6IFN0cmluZykgewogICAgICAgIHZhbCBkaWN0RmlsZSA9IEZpbGUoY3VzdG9tRGljdFBhdGgpCiAgICAgICAgaWYgKCFkaWN0RmlsZS5leGlzdHMoKSkgcmV0dXJuCgogICAgICAgIHZhbCBub3JtYWxpemVkUGF0aCA9IGRpY3RGaWxlLmFic29sdXRlUGF0aAogICAgICAgIGlmIChub3JtYWxpemVkUGF0aCBpbiBsb2FkZWRVc2VyRGljdFBhdGhzKSByZXR1cm4KCiAgICAgICAgZGljdGlvbmFyeS5sb2FkVXNlckRpY3QoZGljdEZpbGUudG9QYXRoKCkpCiAgICAgICAgbG9hZGVkVXNlckRpY3RQYXRocy5hZGQobm9ybWFsaXplZFBhdGgpCiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5bey5Yqg6L296Ieq5a6a5LmJ6K+N5YW4OiAkbm9ybWFsaXplZFBhdGgiKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOWvueaWh+acrOi/m+ihjOWIhuivjQogICAgICogQHBhcmFtIHRleHQg6KaB5YiG6K+N55qE5paH5pysCiAgICAgKiBAcGFyYW0gdXNlQ2FjaGVkIOaYr+WQpuS9v+eUqOe8k+WtmAogICAgICogQHJldHVybiDliIbor43lkI7nmoTlhbPplK7or43liJfooagKICAgICAqLwogICAgZnVuIHNlZ21lbnQodGV4dDogU3RyaW5nLCB1c2VDYWNoZWQ6IEJvb2xlYW4gPSB0cnVlKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICBpZiAodGV4dC5pc0JsYW5rKCkpIHJldHVybiBlbXB0eUxpc3QoKQogICAgICAgIAogICAgICAgIC8vIOafpeivoue8k+WtmAogICAgICAgIGlmICh1c2VDYWNoZWQgJiYgc2VnbWVudENhY2hlLmNvbnRhaW5zS2V5KHRleHQpKSB7CiAgICAgICAgICAgIHJldHVybiBzZWdtZW50Q2FjaGVbdGV4dF0gPzogZW1wdHlMaXN0KCkKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5L2/55So57uT5be05YiG6K+N5Zmo6L+b6KGM5YiG6K+NCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBzZWdtZW50ZXIucHJvY2Vzcyh0ZXh0LCBKaWViYVNlZ21lbnRlci5TZWdNb2RlLlNFQVJDSCkKICAgICAgICAgICAgICAgIC5tYXAgeyBpdC53b3JkIH0KICAgICAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5sZW5ndGggPiAxIH0gLy8g6L+H5ruk5o6J5Y2V5a2X77yI6YCa5bi45Zmq6Z+z6L6D5aSa77yJCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDnvJPlrZjnu5PmnpzvvIjmjqfliLbnvJPlrZjlpKflsI/vvIkKICAgICAgICAgICAgaWYgKHVzZUNhY2hlZCkgewogICAgICAgICAgICAgICAgLy8g5aaC5p6c57yT5a2Y5aSq5aSn77yM5riF6Zmk5LiA5Y2KCiAgICAgICAgICAgICAgICBpZiAoc2VnbWVudENhY2hlLnNpemUgPiBNQVhfQ0FDSEVfU0laRSkgewogICAgICAgICAgICAgICAgICAgIHZhbCBrZXlzVG9SZW1vdmUgPSBzZWdtZW50Q2FjaGUua2V5cy50YWtlKE1BWF9DQUNIRV9TSVpFIC8gMikKICAgICAgICAgICAgICAgICAgICBrZXlzVG9SZW1vdmUuZm9yRWFjaCB7IHNlZ21lbnRDYWNoZS5yZW1vdmUoaXQpIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHNlZ21lbnRDYWNoZVt0ZXh0XSA9IHJlc3VsdAogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICByZXR1cm4gcmVzdWx0CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuWIhuivjeWksei0pTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgLy8g5aSx6LSl5pe25L2/55So566A5Y2V55qE56m65qC85YiG5Ymy5L2c5Li65aSH6YCJ5pa55qGICiAgICAgICAgICAgIHJldHVybiB0ZXh0LnNwbGl0KFJlZ2V4KCJcXHMrfCx877yMfFxcLnzjgIIiKSkKICAgICAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5sZW5ndGggPiAxIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5riF6Zmk5YiG6K+N57yT5a2YCiAgICAgKi8KICAgIGZ1biBjbGVhckNhY2hlKCkgewogICAgICAgIHNlZ21lbnRDYWNoZS5jbGVhcigpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog6K6h566X5paH5pys5LiO5YWz6ZSu6K+N55qE55u45YWz5oCn5b6X5YiGCiAgICAgKiBAcGFyYW0gdGV4dCDopoHmo4Dmn6XnmoTmlofmnKwKICAgICAqIEBwYXJhbSBrZXl3b3JkcyDlhbPplK7or43liJfooagKICAgICAqIEByZXR1cm4g55u45YWz5oCn5b6X5YiG77yIMC0x6IyD5Zu077yJCiAgICAgKi8KICAgIGZ1biBjYWxjdWxhdGVSZWxldmFuY2UodGV4dDogU3RyaW5nLCBrZXl3b3JkczogTGlzdDxTdHJpbmc+KTogRG91YmxlIHsKICAgICAgICBpZiAodGV4dC5pc0JsYW5rKCkgfHwga2V5d29yZHMuaXNFbXB0eSgpKSByZXR1cm4gMC4wCiAgICAgICAgCiAgICAgICAgLy8g5LyY5YyWOiDmiKrmlq3ov4fplb/nmoTmlofmnKzvvIzpgb/lhY3lpITnkIbov4flpJrmlbDmja4KICAgICAgICB2YWwgbWF4TGVuZ3RoID0gNTAwMAogICAgICAgIHZhbCB0ZXh0VG9Qcm9jZXNzID0gaWYgKHRleHQubGVuZ3RoID4gbWF4TGVuZ3RoKSB0ZXh0LnN1YnN0cmluZygwLCBtYXhMZW5ndGgpIGVsc2UgdGV4dAogICAgICAgIHZhbCB0ZXh0TG93ZXIgPSB0ZXh0VG9Qcm9jZXNzLmxvd2VyY2FzZSgpCiAgICAgICAgCiAgICAgICAgLy8g5b+r6YCf5qOA5p+lOiDlpoLmnpzku7vkvZXlhbPplK7or43ljIXlkKvlnKjmlofmnKzkuK3vvIzlsLHor7TmmI7mnInnm7jlhbPmgKcKICAgICAgICB2YWwgaGFzRGlyZWN0TWF0Y2ggPSBrZXl3b3Jkcy5hbnkgeyBrZXl3b3JkIC0+IAogICAgICAgICAgICB0ZXh0TG93ZXIuY29udGFpbnMoa2V5d29yZC5sb3dlcmNhc2UoKSkgCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOWmguaenOayoeacieebtOaOpeWMuemFje+8jOWPr+iDveebuOWFs+aAp+W+iOS9ju+8jOebtOaOpei/lOWbnjDku6Xpgb/lhY3mm7TlpJrorqHnrpcKICAgICAgICBpZiAoIWhhc0RpcmVjdE1hdGNoKSB7CiAgICAgICAgICAgIHJldHVybiAwLjAKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5Yy56YWN5YyF5ZCr55qE5YWz6ZSu6K+N5pWw6YePCiAgICAgICAgdmFsIGV4YWN0TWF0Y2hlcyA9IGtleXdvcmRzLmNvdW50IHsga2V5d29yZCAtPiAKICAgICAgICAgICAgdGV4dExvd2VyLmNvbnRhaW5zKGtleXdvcmQubG93ZXJjYXNlKCkpIAogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDlpoLmnpzmnInotrPlpJ/nmoTnsr7noa7ljLnphY3vvIzlsLHkuI3pnIDopoHov5vooYzmm7TmmILotLXnmoTliIbor43mk43kvZwKICAgICAgICBpZiAoZXhhY3RNYXRjaGVzID49IGtleXdvcmRzLnNpemUgLyAyIHx8IGV4YWN0TWF0Y2hlcyA+PSAzKSB7CiAgICAgICAgICAgIHZhbCBxdWlja1Njb3JlID0gKGV4YWN0TWF0Y2hlcyAqIDIuMCkgLyAoa2V5d29yZHMuc2l6ZSAqIDMuMCkKICAgICAgICAgICAgcmV0dXJuIHF1aWNrU2NvcmUuY29lcmNlSW4oMC4wLCAxLjApCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOWPquacieW/heimgeaXtuaJjei/m+ihjOWIhuivjeWkhOeQhgogICAgICAgIHZhbCB0ZXh0U2VnbWVudHMgPSBzZWdtZW50KHRleHRMb3dlcikKICAgICAgICAKICAgICAgICAvLyDljLnphY3liIbor43lkI7nmoTpg6jliIYKICAgICAgICB2YWwgc2VnbWVudE1hdGNoZXMgPSBrZXl3b3Jkcy5jb3VudCB7IGtleXdvcmQgLT4KICAgICAgICAgICAgdGV4dFNlZ21lbnRzLmFueSB7IHNlZ21lbnQgLT4gc2VnbWVudC5jb250YWlucyhrZXl3b3JkLmxvd2VyY2FzZSgpKSB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOiuoeeul+aAu+W+l+WIhu+8mueyvuehruWMuemFjSoyICsg5YiG6K+N5Yy56YWNKjHvvIznhLblkI7lvZLkuIDljJYKICAgICAgICB2YWwgdG90YWxTY29yZSA9IChleGFjdE1hdGNoZXMgKiAyLjAgKyBzZWdtZW50TWF0Y2hlcykgLyAoa2V5d29yZHMuc2l6ZSAqIDMuMCkKICAgICAgICByZXR1cm4gdG90YWxTY29yZS5jb2VyY2VJbigwLjAsIDEuMCkgLy8g5bCG5b6X5YiG6ZmQ5Yi25ZyoMC0x6IyD5Zu05YaFCiAgICB9Cn0gCg==
+package com.bslsjdk.operit.util
+
+import com.huaban.analysis.jieba.JiebaSegmenter
+import com.huaban.analysis.jieba.WordDictionary
+import java.io.File
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.ConcurrentHashMap
+
+/**
+ * 文本分词工具类 - 提供中文和多语言文本的分词功能
+ */
+object TextSegmenter {
+    private const val TAG = "TextSegmenter"
+    private const val PREWARM_TEXT = "搜索记忆 分词预热"
+
+    // 使用延迟初始化，避免不必要的资源消耗
+    private val segmenter by lazy { JiebaSegmenter() }
+
+    private val initLock = Any()
+
+    @Volatile
+    private var baseInitialized = false
+
+    private val loadedUserDictPaths = ConcurrentHashMap.newKeySet<String>()
+    
+    // 关键词缓存，提高性能
+    private val segmentCache = ConcurrentHashMap<String, List<String>>()
+    
+    // 最大缓存大小
+    private const val MAX_CACHE_SIZE = 1000
+    
+    /**
+     * 初始化分词器，可选加载自定义词典
+     * @param context 应用上下文
+     * @param customDictPath 自定义词典路径（可选）
+     */
+    @Suppress("UNUSED_PARAMETER")
+    fun initialize(context: Context, customDictPath: String? = null) {
+        if (baseInitialized && customDictPath.isNullOrBlank()) return
+
+        val startTime = System.currentTimeMillis()
+        try {
+            synchronized(initLock) {
+                val dictionary = WordDictionary.getInstance()
+
+                // 如果提供了自定义词典，加载它
+                customDictPath
+                    ?.takeIf { it.isNotBlank() }
+                    ?.let { loadCustomDictionaryIfNeeded(dictionary, it) }
+
+                if (!baseInitialized) {
+                    // 通过一次真实分词触发 Jieba 词典加载，避免首个搜索请求卡顿。
+                    segmenter.process(PREWARM_TEXT, JiebaSegmenter.SegMode.SEARCH)
+                    baseInitialized = true
+                    AppLogger.d(
+                        TAG,
+                        "分词器预热完成 - ${System.currentTimeMillis() - startTime}ms"
+                    )
+                }
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "初始化分词器失败", e)
+        }
+    }
+
+    private fun loadCustomDictionaryIfNeeded(dictionary: WordDictionary, customDictPath: String) {
+        val dictFile = File(customDictPath)
+        if (!dictFile.exists()) return
+
+        val normalizedPath = dictFile.absolutePath
+        if (normalizedPath in loadedUserDictPaths) return
+
+        dictionary.loadUserDict(dictFile.toPath())
+        loadedUserDictPaths.add(normalizedPath)
+        AppLogger.d(TAG, "已加载自定义词典: $normalizedPath")
+    }
+    
+    /**
+     * 对文本进行分词
+     * @param text 要分词的文本
+     * @param useCached 是否使用缓存
+     * @return 分词后的关键词列表
+     */
+    fun segment(text: String, useCached: Boolean = true): List<String> {
+        if (text.isBlank()) return emptyList()
+        
+        // 查询缓存
+        if (useCached && segmentCache.containsKey(text)) {
+            return segmentCache[text] ?: emptyList()
+        }
+        
+        try {
+            // 使用结巴分词器进行分词
+            val result = segmenter.process(text, JiebaSegmenter.SegMode.SEARCH)
+                .map { it.word }
+                .filter { it.length > 1 } // 过滤掉单字（通常噪音较多）
+            
+            // 缓存结果（控制缓存大小）
+            if (useCached) {
+                // 如果缓存太大，清除一半
+                if (segmentCache.size > MAX_CACHE_SIZE) {
+                    val keysToRemove = segmentCache.keys.take(MAX_CACHE_SIZE / 2)
+                    keysToRemove.forEach { segmentCache.remove(it) }
+                }
+                segmentCache[text] = result
+            }
+            
+            return result
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "分词失败: ${e.message}")
+            // 失败时使用简单的空格分割作为备选方案
+            return text.split(Regex("\\s+|,|，|\\.|。"))
+                .filter { it.length > 1 }
+        }
+    }
+    
+    /**
+     * 清除分词缓存
+     */
+    fun clearCache() {
+        segmentCache.clear()
+    }
+    
+    /**
+     * 计算文本与关键词的相关性得分
+     * @param text 要检查的文本
+     * @param keywords 关键词列表
+     * @return 相关性得分（0-1范围）
+     */
+    fun calculateRelevance(text: String, keywords: List<String>): Double {
+        if (text.isBlank() || keywords.isEmpty()) return 0.0
+        
+        // 优化: 截断过长的文本，避免处理过多数据
+        val maxLength = 5000
+        val textToProcess = if (text.length > maxLength) text.substring(0, maxLength) else text
+        val textLower = textToProcess.lowercase()
+        
+        // 快速检查: 如果任何关键词包含在文本中，就说明有相关性
+        val hasDirectMatch = keywords.any { keyword -> 
+            textLower.contains(keyword.lowercase()) 
+        }
+        
+        // 如果没有直接匹配，可能相关性很低，直接返回0以避免更多计算
+        if (!hasDirectMatch) {
+            return 0.0
+        }
+        
+        // 匹配包含的关键词数量
+        val exactMatches = keywords.count { keyword -> 
+            textLower.contains(keyword.lowercase()) 
+        }
+        
+        // 如果有足够的精确匹配，就不需要进行更昂贵的分词操作
+        if (exactMatches >= keywords.size / 2 || exactMatches >= 3) {
+            val quickScore = (exactMatches * 2.0) / (keywords.size * 3.0)
+            return quickScore.coerceIn(0.0, 1.0)
+        }
+        
+        // 只有必要时才进行分词处理
+        val textSegments = segment(textLower)
+        
+        // 匹配分词后的部分
+        val segmentMatches = keywords.count { keyword ->
+            textSegments.any { segment -> segment.contains(keyword.lowercase()) }
+        }
+        
+        // 计算总得分：精确匹配*2 + 分词匹配*1，然后归一化
+        val totalScore = (exactMatches * 2.0 + segmentMatches) / (keywords.size * 3.0)
+        return totalScore.coerceIn(0.0, 1.0) // 将得分限制在0-1范围内
+    }
+} 

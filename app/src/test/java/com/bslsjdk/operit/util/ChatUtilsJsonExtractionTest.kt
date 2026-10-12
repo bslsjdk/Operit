@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ2hhdFV0aWxzSnNvbkV4dHJhY3Rpb25UZXN0IHsKCiAgICBAVGVzdCBmdW4gZXh0cmFjdEpzb25fa2VlcHNOZXN0ZWRPYmplY3QoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ7XCJhXCI6e1wiYlwiOjF9fSIsIENoYXRVdGlscy5leHRyYWN0SnNvbigidGV4dCB7XCJhXCI6e1wiYlwiOjF9fSB0ZXh0IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RKc29uX3JldHVybnNUcmltbWVkTWFya2Rvd25Cb2R5KCkgewogICAgICAgIGFzc2VydEVxdWFscygie1wiYVwiOjF9IiwgQ2hhdFV0aWxzLmV4dHJhY3RKc29uKCJgYGBqc29uXG57XCJhXCI6MX1cbmBgYCAgICIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0SnNvbkFycmF5X2tlZXBzTmVzdGVkQXJyYXkoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJbWzFdLFsyXV0iLCBDaGF0VXRpbHMuZXh0cmFjdEpzb25BcnJheSgidGV4dCBbWzFdLFsyXV0gdGV4dCIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0SnNvbkFycmF5X3JldHVybnNUcmltbWVkTWFya2Rvd25Cb2R5KCkgewogICAgICAgIGFzc2VydEVxdWFscygiWzFdIiwgQ2hhdFV0aWxzLmV4dHJhY3RKc29uQXJyYXkoImBgYGpzb25cblsxXVxuYGBgICAgIikpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class ChatUtilsJsonExtractionTest {
+
+    @Test fun extractJson_keepsNestedObject() {
+        assertEquals("{\"a\":{\"b\":1}}", ChatUtils.extractJson("text {\"a\":{\"b\":1}} text"))
+    }
+
+    @Test fun extractJson_returnsTrimmedMarkdownBody() {
+        assertEquals("{\"a\":1}", ChatUtils.extractJson("```json\n{\"a\":1}\n```   "))
+    }
+
+    @Test fun extractJsonArray_keepsNestedArray() {
+        assertEquals("[[1],[2]]", ChatUtils.extractJsonArray("text [[1],[2]] text"))
+    }
+
+    @Test fun extractJsonArray_returnsTrimmedMarkdownBody() {
+        assertEquals("[1]", ChatUtils.extractJsonArray("```json\n[1]\n```   "))
+    }
+}

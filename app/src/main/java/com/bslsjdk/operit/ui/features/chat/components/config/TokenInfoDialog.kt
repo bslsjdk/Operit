@@ -1,1 +1,75 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmNvbmZpZwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRBbGlnbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuc3AKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkud2luZG93LkRpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS53aW5kb3cuRGlhbG9nUHJvcGVydGllcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKCi8qKgogKiBEaWFsb2cgdGhhdCBleHBsYWlucyB0aGUgdG9rZW4gdXNhZ2UgcG9saWN5IGJlZm9yZSByZWRpcmVjdGluZyB0byB0aGUgdG9rZW4gY29uZmlndXJhdGlvbiBzY3JlZW4uCiAqCiAqIEBwYXJhbSBvbkRpc21pc3MgQ2FsbGJhY2sgd2hlbiB0aGUgZGlhbG9nIGlzIGRpc21pc3NlZAogKiBAcGFyYW0gb25Db25maXJtIENhbGxiYWNrIHdoZW4gdXNlciBjb25maXJtcyBhbmQgd2FudHMgdG8gbmF2aWdhdGUgdG8gdG9rZW4gcGFnZQogKi8KQENvbXBvc2FibGUKZnVuIFRva2VuSW5mb0RpYWxvZyhvbkRpc21pc3M6ICgpIC0+IFVuaXQsIG9uQ29uZmlybTogKCkgLT4gVW5pdCkgewogICAgICAgIERpYWxvZygKICAgICAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MsCiAgICAgICAgICAgICAgICBwcm9wZXJ0aWVzID0KICAgICAgICAgICAgICAgICAgICAgICAgRGlhbG9nUHJvcGVydGllcyhkaXNtaXNzT25CYWNrUHJlc3MgPSB0cnVlLCBkaXNtaXNzT25DbGlja091dHNpZGUgPSB0cnVlKQogICAgICAgICkgewogICAgICAgICAgICAgICAgU3VyZmFjZSgKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKS5wYWRkaW5nKDE2LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgc2hhcGUgPSBNYXRlcmlhbFRoZW1lLnNoYXBlcy5tZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlLAogICAgICAgICAgICAgICAgICAgICAgICB0b25hbEVsZXZhdGlvbiA9IDguZHAKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKS5wYWRkaW5nKDI0LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudG9rZW5faW5mb190aXRsZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZUxhcmdlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuQm9sZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoMTYuZHApKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudG9rZW5faW5mb19jb250ZW50KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0QWxpZ24gPSBUZXh0QWxpZ24uQ2VudGVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGluZUhlaWdodCA9IDIwLnNwCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoMjQuZHApKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuU3BhY2VCZXR3ZWVuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25EaXNtaXNzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgeyBUZXh0KHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudG9rZW5faW5mb19jYW5jZWwpKSB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25Db25maXJtLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgeyBUZXh0KHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudG9rZW5faW5mb19jb25maXJtKSkgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.components.config
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import com.bslsjdk.operit.R
+
+/**
+ * Dialog that explains the token usage policy before redirecting to the token configuration screen.
+ *
+ * @param onDismiss Callback when the dialog is dismissed
+ * @param onConfirm Callback when user confirms and wants to navigate to token page
+ */
+@Composable
+fun TokenInfoDialog(onDismiss: () -> Unit, onConfirm: () -> Unit) {
+        Dialog(
+                onDismissRequest = onDismiss,
+                properties =
+                        DialogProperties(dismissOnBackPress = true, dismissOnClickOutside = true)
+        ) {
+                Surface(
+                        modifier = Modifier.fillMaxWidth().padding(16.dp),
+                        shape = MaterialTheme.shapes.medium,
+                        color = MaterialTheme.colorScheme.surface,
+                        tonalElevation = 8.dp
+                ) {
+                        Column(
+                                modifier = Modifier.fillMaxWidth().padding(24.dp),
+                                horizontalAlignment = Alignment.CenterHorizontally
+                        ) {
+                                Text(
+                                        text = stringResource(id = R.string.token_info_title),
+                                        style = MaterialTheme.typography.titleLarge,
+                                        fontWeight = FontWeight.Bold,
+                                        color = MaterialTheme.colorScheme.primary
+                                )
+
+                                Spacer(modifier = Modifier.height(16.dp))
+
+                                Text(
+                                        text = stringResource(id = R.string.token_info_content),
+                                        style = MaterialTheme.typography.bodyMedium,
+                                        textAlign = TextAlign.Center,
+                                        lineHeight = 20.sp
+                                )
+
+                                Spacer(modifier = Modifier.height(24.dp))
+
+                                Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.SpaceBetween
+                                ) {
+                                        TextButton(
+                                                onClick = onDismiss,
+                                                modifier = Modifier.weight(1f)
+                                        ) { Text(stringResource(id = R.string.token_info_cancel)) }
+
+                                        Button(
+                                                onClick = onConfirm,
+                                                modifier = Modifier.weight(1f)
+                                        ) { Text(stringResource(id = R.string.token_info_confirm)) }
+                                }
+                        }
+                }
+        }
+}

@@ -1,1 +1,22 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzCgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBQcm9tcHRUdXJuQ29udmVyc2lvblRlc3QgewoKICAgIEBUZXN0IGZ1biBmcm9tUm9sZV9wcmVzZXJ2ZXNUb29sTmFtZSgpIHsKICAgICAgICB2YWwgdHVybiA9IFByb21wdFR1cm4uZnJvbVJvbGUoInRvb2xfY2FsbCIsICJib2R5IiwgdG9vbE5hbWUgPSAicnVuIikKICAgICAgICBhc3NlcnRFcXVhbHMoInJ1biIsIHR1cm4udG9vbE5hbWUpCiAgICB9CgogICAgQFRlc3QgZnVuIHRvUHJvbXB0VHVybnNfbWFwc1JvbGVUb0tpbmQoKSB7CiAgICAgICAgdmFsIHR1cm5zID0gbGlzdE9mKCJhc3Npc3RhbnQiIHRvICJoZWxsbyIpLnRvUHJvbXB0VHVybnMoKQogICAgICAgIGFzc2VydEVxdWFscyhQcm9tcHRUdXJuS2luZC5BU1NJU1RBTlQsIHR1cm5zLnNpbmdsZSgpLmtpbmQpCiAgICB9CgogICAgQFRlc3QgZnVuIHRvUm9sZUNvbnRlbnRQYWlyc191c2VzUm9sZVByb3BlcnR5KCkgewogICAgICAgIHZhbCBwYWlycyA9IGxpc3RPZihQcm9tcHRUdXJuKFByb21wdFR1cm5LaW5kLlRPT0xfUkVTVUxULCAiZG9uZSIpKS50b1JvbGVDb250ZW50UGFpcnMoKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoInRvb2xfcmVzdWx0IiB0byAiZG9uZSIpLCBwYWlycykKICAgIH0KfQo=
+package com.bslsjdk.operit.core.chat.hooks
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class PromptTurnConversionTest {
+
+    @Test fun fromRole_preservesToolName() {
+        val turn = PromptTurn.fromRole("tool_call", "body", toolName = "run")
+        assertEquals("run", turn.toolName)
+    }
+
+    @Test fun toPromptTurns_mapsRoleToKind() {
+        val turns = listOf("assistant" to "hello").toPromptTurns()
+        assertEquals(PromptTurnKind.ASSISTANT, turns.single().kind)
+    }
+
+    @Test fun toRoleContentPairs_usesRoleProperty() {
+        val pairs = listOf(PromptTurn(PromptTurnKind.TOOL_RESULT, "done")).toRoleContentPairs()
+        assertEquals(listOf("tool_result" to "done"), pairs)
+    }
+}

@@ -1,1 +1,111 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0ucGx1Z2lucwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5TdHJlYW1Mb2dnZXIKCmFic3RyYWN0IGNsYXNzIEJhc2VKc29uUGx1Z2luIDogU3RyZWFtUGx1Z2luIHsKICAgIG92ZXJyaWRlIHZhciBzdGF0ZTogUGx1Z2luU3RhdGUgPSBQbHVnaW5TdGF0ZS5JRExFCiAgICAgICAgcHJvdGVjdGVkIHNldAoKICAgIHByaXZhdGUgdmFyIG9wZW5CcmFjZUNvdW50ID0gMAogICAgcHJpdmF0ZSB2YXIgb3BlbkJyYWNrZXRDb3VudCA9IDAKICAgIHByb3RlY3RlZCB2YXIgaW5TdHJpbmcgPSBmYWxzZQogICAgcHJpdmF0ZSB2YXIgaXNFc2NhcGVkID0gZmFsc2UKCiAgICBwcml2YXRlIHZhciBqc29uVHlwZTogSnNvblR5cGUgPSBKc29uVHlwZS5OT05FCgogICAgcHJpdmF0ZSBlbnVtIGNsYXNzIEpzb25UeXBlIHsKICAgICAgICBOT05FLAogICAgICAgIE9CSkVDVCwKICAgICAgICBBUlJBWQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBwcm9jZXNzQ2hhcihjOiBDaGFyLCBhdFN0YXJ0T2ZMaW5lOiBCb29sZWFuKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKHN0YXRlID09IFBsdWdpblN0YXRlLklETEUpIHsKICAgICAgICAgICAgd2hlbiAoYykgewogICAgICAgICAgICAgICAgJ3snIC0+IHsKICAgICAgICAgICAgICAgICAgICBzdGF0ZSA9IFBsdWdpblN0YXRlLlBST0NFU1NJTkcKICAgICAgICAgICAgICAgICAgICBqc29uVHlwZSA9IEpzb25UeXBlLk9CSkVDVAogICAgICAgICAgICAgICAgICAgIG9wZW5CcmFjZUNvdW50ID0gMQogICAgICAgICAgICAgICAgICAgIHJldHVybiBzaG91bGRFbWl0KGMpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAnWycgLT4gewogICAgICAgICAgICAgICAgICAgIHN0YXRlID0gUGx1Z2luU3RhdGUuUFJPQ0VTU0lORwogICAgICAgICAgICAgICAgICAgIGpzb25UeXBlID0gSnNvblR5cGUuQVJSQVkKICAgICAgICAgICAgICAgICAgICBvcGVuQnJhY2tldENvdW50ID0gMQogICAgICAgICAgICAgICAgICAgIHJldHVybiBzaG91bGRFbWl0KGMpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlIC0+IHJldHVybiBmYWxzZSAvLyBOb3QgYSBKU09OIHN0YXJ0aW5nIGNoYXJhY3RlcgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBpZiAoc3RhdGUgPT0gUGx1Z2luU3RhdGUuUFJPQ0VTU0lORykgewogICAgICAgICAgICByZXR1cm4gaGFuZGxlQ2hhckluUHJvY2Vzc2luZyhjKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGZhbHNlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaGFuZGxlQ2hhckluUHJvY2Vzc2luZyhjOiBDaGFyKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKGluU3RyaW5nKSB7CiAgICAgICAgICAgIGlmIChpc0VzY2FwZWQpIHsKICAgICAgICAgICAgICAgIGlzRXNjYXBlZCA9IGZhbHNlCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB3aGVuIChjKSB7CiAgICAgICAgICAgICAgICAgICAgJ1xcJyAtPiBpc0VzY2FwZWQgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgJyInIC0+IGluU3RyaW5nID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHt9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB3aGVuIChjKSB7CiAgICAgICAgICAgICAgICAnIicgLT4gaW5TdHJpbmcgPSB0cnVlCiAgICAgICAgICAgICAgICAneycgLT4gaWYgKGpzb25UeXBlID09IEpzb25UeXBlLk9CSkVDVCkgb3BlbkJyYWNlQ291bnQrKwogICAgICAgICAgICAgICAgJ1snIC0+IGlmIChqc29uVHlwZSA9PSBKc29uVHlwZS5BUlJBWSkgb3BlbkJyYWNrZXRDb3VudCsrCiAgICAgICAgICAgICAgICAnfScgLT4gewogICAgICAgICAgICAgICAgICAgIGlmIChqc29uVHlwZSA9PSBKc29uVHlwZS5PQkpFQ1QpIHsKICAgICAgICAgICAgICAgICAgICAgICAgb3BlbkJyYWNlQ291bnQtLQogICAgICAgICAgICAgICAgICAgICAgICBpZiAob3BlbkJyYWNlQ291bnQgPT0gMCAmJiBvcGVuQnJhY2tldENvdW50ID09IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbmlzaFByb2Nlc3NpbmcoKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgJ10nIC0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAoanNvblR5cGUgPT0gSnNvblR5cGUuQVJSQVkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgb3BlbkJyYWNrZXRDb3VudC0tCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChvcGVuQnJhY2tldENvdW50ID09IDAgJiYgb3BlbkJyYWNlQ291bnQgPT0gMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZmluaXNoUHJvY2Vzc2luZygpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIHNob3VsZEVtaXQoYykKICAgIH0KICAgIAogICAgcHJpdmF0ZSBmdW4gZmluaXNoUHJvY2Vzc2luZygpIHsKICAgICAgICBTdHJlYW1Mb2dnZXIuZCh0aGlzOjpjbGFzcy5qYXZhLnNpbXBsZU5hbWUsICJKU09OIHN0cnVjdHVyZSBjb21wbGV0ZS4iKQogICAgICAgIC8vIFRoZSByZXNldCB3aWxsIGJlIGNhbGxlZCBieSB0aGUgY29sbGVjdG9yIGxvb3Agd2hlbiBpdCBzZWVzIHRoZSBJRExFIHN0YXRlLgogICAgICAgIHJlc2V0KCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaW5pdFBsdWdpbigpOiBCb29sZWFuIHsKICAgICAgICByZXNldCgpCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZGVzdHJveSgpIHt9CgogICAgb3ZlcnJpZGUgZnVuIHJlc2V0KCkgewogICAgICAgIHN0YXRlID0gUGx1Z2luU3RhdGUuSURMRQogICAgICAgIG9wZW5CcmFjZUNvdW50ID0gMAogICAgICAgIG9wZW5CcmFja2V0Q291bnQgPSAwCiAgICAgICAgaW5TdHJpbmcgPSBmYWxzZQogICAgICAgIGlzRXNjYXBlZCA9IGZhbHNlCiAgICAgICAganNvblR5cGUgPSBKc29uVHlwZS5OT05FCiAgICB9CgogICAgLyoqCiAgICAgKiBBYnN0cmFjdCBtZXRob2QgZm9yIHN1YmNsYXNzZXMgdG8gZGVjaWRlIHdoZXRoZXIgYSBjaGFyYWN0ZXIgc2hvdWxkIGJlIGVtaXR0ZWQuCiAgICAgKi8KICAgIHByb3RlY3RlZCBhYnN0cmFjdCBmdW4gc2hvdWxkRW1pdChjOiBDaGFyKTogQm9vbGVhbgp9IA==
+package com.bslsjdk.operit.util.stream.plugins
+
+import com.bslsjdk.operit.util.stream.StreamLogger
+
+abstract class BaseJsonPlugin : StreamPlugin {
+    override var state: PluginState = PluginState.IDLE
+        protected set
+
+    private var openBraceCount = 0
+    private var openBracketCount = 0
+    protected var inString = false
+    private var isEscaped = false
+
+    private var jsonType: JsonType = JsonType.NONE
+
+    private enum class JsonType {
+        NONE,
+        OBJECT,
+        ARRAY
+    }
+
+    override fun processChar(c: Char, atStartOfLine: Boolean): Boolean {
+        if (state == PluginState.IDLE) {
+            when (c) {
+                '{' -> {
+                    state = PluginState.PROCESSING
+                    jsonType = JsonType.OBJECT
+                    openBraceCount = 1
+                    return shouldEmit(c)
+                }
+                '[' -> {
+                    state = PluginState.PROCESSING
+                    jsonType = JsonType.ARRAY
+                    openBracketCount = 1
+                    return shouldEmit(c)
+                }
+                else -> return false // Not a JSON starting character
+            }
+        }
+
+        if (state == PluginState.PROCESSING) {
+            return handleCharInProcessing(c)
+        }
+
+        return false
+    }
+
+    private fun handleCharInProcessing(c: Char): Boolean {
+        if (inString) {
+            if (isEscaped) {
+                isEscaped = false
+            } else {
+                when (c) {
+                    '\\' -> isEscaped = true
+                    '"' -> inString = false
+                    else -> {}
+                }
+            }
+        } else {
+            when (c) {
+                '"' -> inString = true
+                '{' -> if (jsonType == JsonType.OBJECT) openBraceCount++
+                '[' -> if (jsonType == JsonType.ARRAY) openBracketCount++
+                '}' -> {
+                    if (jsonType == JsonType.OBJECT) {
+                        openBraceCount--
+                        if (openBraceCount == 0 && openBracketCount == 0) {
+                            finishProcessing()
+                        }
+                    }
+                }
+                ']' -> {
+                    if (jsonType == JsonType.ARRAY) {
+                        openBracketCount--
+                        if (openBracketCount == 0 && openBraceCount == 0) {
+                            finishProcessing()
+                        }
+                    }
+                }
+            }
+        }
+        return shouldEmit(c)
+    }
+    
+    private fun finishProcessing() {
+        StreamLogger.d(this::class.java.simpleName, "JSON structure complete.")
+        // The reset will be called by the collector loop when it sees the IDLE state.
+        reset()
+    }
+
+    override fun initPlugin(): Boolean {
+        reset()
+        return true
+    }
+
+    override fun destroy() {}
+
+    override fun reset() {
+        state = PluginState.IDLE
+        openBraceCount = 0
+        openBracketCount = 0
+        inString = false
+        isEscaped = false
+        jsonType = JsonType.NONE
+    }
+
+    /**
+     * Abstract method for subclasses to decide whether a character should be emitted.
+     */
+    protected abstract fun shouldEmit(c: Char): Boolean
+} 

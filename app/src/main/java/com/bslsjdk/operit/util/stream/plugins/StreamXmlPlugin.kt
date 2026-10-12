@@ -1,1 +1,214 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0ucGx1Z2lucwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS4qCgpwcml2YXRlIGNvbnN0IHZhbCBHUk9VUF9UQUdfTkFNRSA9IDEKcHJpdmF0ZSBjb25zdCB2YWwgR1JPVVBfQ09OVEVOVCA9IDIKCi8qKgogKiBBIHN0cmVhbSBwcm9jZXNzaW5nIHBsdWdpbiB0byBpZGVudGlmeSBhbmQgcHJvY2VzcyBYTUwtZm9ybWF0dGVkIGRhdGEgc3RyZWFtcy4gVGhpcwogKiBpbXBsZW1lbnRhdGlvbiB1c2VzIHRoZSBncm91cCBjYXB0dXJpbmcgbWVjaGFuaXNtIG9mIHRoZSBTdHJlYW1LbXBHcmFwaC4gVGhpcyB2ZXJzaW9uIGhhcyBhIGtub3duCiAqIGxpbWl0YXRpb246IGl0IGRvZXMgbm90IGhhbmRsZSBuZXN0ZWQgdGFncyBvZiB0aGUgc2FtZSBuYW1lLgogKgogKiBAcGFyYW0gaW5jbHVkZVRhZ3NJbk91dHB1dCBJZiB0cnVlLCB0aGUgWE1MIHRhZ3MgdGhlbXNlbHZlcyAoYDx0YWc+YCwgYDwvdGFnPmApIHdpbGwgYmUgaW5jbHVkZWQKICogaW4gdGhlIG91dHB1dCBzdHJlYW0uIElmIGZhbHNlLCB0aGV5IHdpbGwgYmUgZmlsdGVyZWQgb3V0LCBsZWF2aW5nIG9ubHkgdGhlIGNvbnRlbnQgYmV0d2VlbiB0aGUKICogdGFncy4KICovCmNsYXNzIFN0cmVhbVhtbFBsdWdpbihwcml2YXRlIHZhbCBpbmNsdWRlVGFnc0luT3V0cHV0OiBCb29sZWFuID0gdHJ1ZSkgOiBTdHJlYW1QbHVnaW4gewoKICAgIG92ZXJyaWRlIHZhciBzdGF0ZTogUGx1Z2luU3RhdGUgPSBQbHVnaW5TdGF0ZS5JRExFCiAgICAgICAgcHJpdmF0ZSBzZXQKCiAgICBwcml2YXRlIHZhciBzdGFydFRhZ01hdGNoZXI6IFN0cmVhbUttcEdyYXBoCiAgICBwcml2YXRlIHZhciBlbmRUYWdNYXRjaGVyOiBTdHJlYW1LbXBHcmFwaD8gPSBudWxsCiAgICAvLyBBbGxvdyBtYXRjaGluZyBhIG5ldyBzdGFydCB0YWcgaW1tZWRpYXRlbHkgYWZ0ZXIgd2UganVzdCBjbG9zZWQgYW4gZW5kIHRhZywgZXZlbiBpZiBub3QgYXQgc3RhcnQgb2YgbGluZQogICAgcHJpdmF0ZSB2YXIgYWxsb3dTdGFydEFmdGVyRW5kVGFnOiBCb29sZWFuID0gZmFsc2UKICAgIHByaXZhdGUgdmFyIGFsbG93U3RhcnRBZnRlclB1bmN0dWF0aW9uOiBCb29sZWFuID0gZmFsc2UKICAgIHByaXZhdGUgdmFyIGxhc3RDaGFyOiBDaGFyID0gJ1x1MDAwMCcKCiAgICBwcml2YXRlIHZhbCBwdW5jdHVhdGlvblRyaWdnZXJzID0KICAgICAgICAgICAgc2V0T2YoJ++8jCcsICfjgIInLCAn77yfJywgJ++8gScsICfvvJonLCAn77yIJywgJ++8iScsICfjgJAnLCAn44CRJywgJ+OAiicsICfjgIsnLCAnOicsICcsJywgJy4nLCAnPycsICchJywgJ34nLCAn772eJykKICAgIHByaXZhdGUgdmFsIGVtb2ppQ29udGludWF0aW9uQ2hhcnMgPSBzZXRPZignXHUyMDBEJywgJ1x1RkUwRScsICdcdUZFMEYnLCAnXHUyMEUzJykKCiAgICBpbml0IHsKICAgICAgICBzdGFydFRhZ01hdGNoZXIgPQogICAgICAgICAgICAgICAgU3RyZWFtS21wR3JhcGhCdWlsZGVyKCkKICAgICAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGttcFBhdHRlcm4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGFyKCc8JykKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gR3JvdXAgMTogQ2FwdHVyZSB0aGUgdGFnIG5hbWUuIEEgdmFsaWQgdGFnIG5hbWUgbXVzdCBzdGFydAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyB3aXRoIGEgbGV0dGVyLgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBUaGlzIHByZXZlbnRzIG1hdGNoaW5nIGNvbW1lbnRzICg8IS0tKSBvciBjbG9zaW5nIHRhZ3MgKDwvKS4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ3JvdXAoR1JPVVBfVEFHX05BTUUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByZWRpY2F0ZSgiYXNjaWlYbWxUYWdGaXJzdENoYXIiKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXQgaW4gJ0EnLi4nWicgfHwgaXQgaW4gJ2EnLi4neicKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdyZWVkeVN0YXIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByZWRpY2F0ZSgieG1sVGFnTmFtZUNvbnRpbnVhdGlvbiIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKGl0IGluICdBJy4uJ1onKSB8fCAoaXQgaW4gJ2EnLi4neicpIHx8IChpdCBpbiAnMCcuLic5JykgfHwgaXQgPT0gJ18nCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIE9wdGlvbmFsOiBNYXRjaCBhdHRyaWJ1dGVzIHVudGlsIHRoZSB0YWcgY2xvc2VzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdyZWVkeVN0YXIgeyBub3RDaGFyKCc+JykgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGFyKCc+JykKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgcmVzZXQoKQogICAgfQoKICAgIC8qKgogICAgICogUHJvY2Vzc2VzIGEgc2luZ2xlIGNoYXJhY3RlciBmb3IgWE1MIHN0cmVhbSBwYXJzaW5nIGFuZCBkZWNpZGVzIGlmIGl0IHNob3VsZCBiZSBlbWl0dGVkLiBUaGUKICAgICAqIHJldHVybiB2YWx1ZSBpcyB1c2VkIGJ5IGBzcGxpdEJ5YCBhcyBhIGZpbHRlci4KICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIHByb2Nlc3NDaGFyKGM6IENoYXIsIGF0U3RhcnRPZkxpbmU6IEJvb2xlYW4pOiBCb29sZWFuIHsKICAgICAgICBmdW4gZmluaXNoKHJlc3VsdDogQm9vbGVhbik6IEJvb2xlYW4gewogICAgICAgICAgICBsYXN0Q2hhciA9IGMKICAgICAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgICAgIH0KCiAgICAgICAgaWYgKHN0YXRlID09IFBsdWdpblN0YXRlLlBST0NFU1NJTkcpIHsKICAgICAgICAgICAgLy8gV2UgYXJlIGluc2lkZSBhIHRhZywgbG9va2luZyBmb3IgdGhlIGVuZCB0YWcuCiAgICAgICAgICAgIHZhbCBtYXRjaGVyID0gZW5kVGFnTWF0Y2hlciEhCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBtYXRjaGVyLnByb2Nlc3NDaGFyKGMpCgogICAgICAgICAgICByZXR1cm4gd2hlbiAocmVzdWx0KSB7CiAgICAgICAgICAgICAgICBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5NYXRjaCAtPiB7CiAgICAgICAgICAgICAgICAgICAgLy8gRW5kIHRhZyBmdWxseSBtYXRjaGVkLiBSZXNldCBzdGF0ZSBhbmQgZmlsdGVyIHRoaXMgbGFzdCBjaGFyYWN0ZXIgaWYgbmVlZGVkLgogICAgICAgICAgICAgICAgICAgIFN0cmVhbUxvZ2dlci5pKCJTdHJlYW1YbWxQbHVnaW4iLCAiRm91bmQgZW5kIHRhZy4gU3dpdGNoaW5nIHRvIElETEUuIikKICAgICAgICAgICAgICAgICAgICAvLyBFbmFibGUgb25lLXRpbWUgYWxsb3dhbmNlIGZvciBzdGFydGluZyBhIG5ldyB0YWcgcmlnaHQgYWZ0ZXIgdGhpcyBlbmQgdGFnCiAgICAgICAgICAgICAgICAgICAgYWxsb3dTdGFydEFmdGVyRW5kVGFnID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgIGFsbG93U3RhcnRBZnRlclB1bmN0dWF0aW9uID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICByZXNldCgpCiAgICAgICAgICAgICAgICAgICAgZmluaXNoKGluY2x1ZGVUYWdzSW5PdXRwdXQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5JblByb2dyZXNzIC0+IHsKICAgICAgICAgICAgICAgICAgICAvLyBXZSBhcmUgaW4gdGhlIG1pZGRsZSBvZiBtYXRjaGluZyB0aGUgZW5kIHRhZyAoZS5nLiwgJzwvJywgJzwvdCcsIGV0Yy4pLgogICAgICAgICAgICAgICAgICAgIC8vIFRoZSBlbWlzc2lvbiBvZiB0aGVzZSBjaGFyYWN0ZXJzIGRlcGVuZHMgb24gdGhlIGZsYWcuCiAgICAgICAgICAgICAgICAgICAgZmluaXNoKGluY2x1ZGVUYWdzSW5PdXRwdXQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5Ob01hdGNoIC0+IHsKICAgICAgICAgICAgICAgICAgICAvLyBUaGUgY2hhcmFjdGVyIGBjYCBkaWQgbm90IG1hdGNoIHRoZSBuZXh0IGNoYXIgb2YgdGhlIGVuZCB0YWcuCiAgICAgICAgICAgICAgICAgICAgLy8gVGhpcyBtZWFucyBpdCdzIHJlZ3VsYXIgY29udGVudCBiZXR3ZWVuIHRhZ3MuCiAgICAgICAgICAgICAgICAgICAgZmluaXNoKHRydWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBpZiAoc3RhdGUgPT0gUGx1Z2luU3RhdGUuSURMRSAmJiAhYXRTdGFydE9mTGluZSkgewogICAgICAgICAgICAgICAgdmFsIGFsbG93U3RhcnQgPSBhbGxvd1N0YXJ0QWZ0ZXJFbmRUYWcgfHwgYWxsb3dTdGFydEFmdGVyUHVuY3R1YXRpb24KICAgICAgICAgICAgICAgIGlmICghYWxsb3dTdGFydCkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBmaW5pc2goaGFuZGxlRGVmYXVsdENoYXJhY3RlcihjKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIC8vIEFsbG93IGFkamFjZW50IFhNTCBhZnRlciBhbiBlbmQgdGFnL3B1bmN0dWF0aW9uIGV2ZW4gaWYgc2VwYXJhdGVkIGJ5IHNwYWNlcy90YWJzCiAgICAgICAgICAgICAgICBpZiAoYyA9PSAnICcgfHwgYyA9PSAnXHQnIHx8IGlzRW1vamlDb250aW51YXRpb25DaGFyKGMpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZpbmlzaChoYW5kbGVEZWZhdWx0Q2hhcmFjdGVyKGMpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIFdlIGFyZSBpbiBJRExFIG9yIFRSWUlORyBzdGF0ZSwgbG9va2luZyBmb3IgYSBzdGFydCB0YWcuCiAgICAgICAgICAgIHZhbCBwcmV2aW91c1N0YXRlID0gc3RhdGUKICAgICAgICAgICAgd2hlbiAodmFsIHJlc3VsdCA9IHN0YXJ0VGFnTWF0Y2hlci5wcm9jZXNzQ2hhcihjKSkgewogICAgICAgICAgICAgICAgaXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTWF0Y2ggLT4gewogICAgICAgICAgICAgICAgICAgIHZhbCB0YWdOYW1lID0gcmVzdWx0Lmdyb3Vwc1tHUk9VUF9UQUdfTkFNRV0KICAgICAgICAgICAgICAgICAgICBpZiAodGFnTmFtZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChsYXN0Q2hhciA9PSAnLycpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIFRyZWF0IHNlbGYtY2xvc2luZyB0YWdzIGxpa2UgPGJyLz4gYXMgcGxhaW4gdGV4dCB0byBhdm9pZCBlbnRlcmluZyBYTUwgbW9kZS4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc2V0KCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBmaW5pc2godHJ1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBTdHJlYW1Mb2dnZXIuaSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiU3RyZWFtWG1sUGx1Z2luIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiRm91bmQgc3RhcnQgdGFnICckdGFnTmFtZScuIFN3aXRjaGluZyB0byBQUk9DRVNTSU5HLiIKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZSA9IFBsdWdpblN0YXRlLlBST0NFU1NJTkcKICAgICAgICAgICAgICAgICAgICAgICAgLy8gQ29uc3VtaW5nIHRoaXMgYXMgYSBuZXcgc3RhcnQgY2xlYXJzIHRoZSBwb3N0LWVuZCBhbGxvd2FuY2UKICAgICAgICAgICAgICAgICAgICAgICAgYWxsb3dTdGFydEFmdGVyRW5kVGFnID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgYWxsb3dTdGFydEFmdGVyUHVuY3R1YXRpb24gPSBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICAvLyBXZSBoYXZlIGEgZnVsbCBzdGFydCB0YWcuIENvbmZpZ3VyZSB0aGUgZW5kIHRhZyBtYXRjaGVyLgogICAgICAgICAgICAgICAgICAgICAgICBlbmRUYWdNYXRjaGVyID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBTdHJlYW1LbXBHcmFwaEJ1aWxkZXIoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBrbXBQYXR0ZXJuIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpdGVyYWwoIjwvIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpdGVyYWwodGFnTmFtZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoYXIoJz4nKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXJ0VGFnTWF0Y2hlci5yZXNldCgpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gU2hvdWxkIG5vdCBoYXBwZW4sIGJ1dCBhcyBhIHNhZmVndWFyZDoKICAgICAgICAgICAgICAgICAgICAgICAgcmVzZXQoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gZmluaXNoKGluY2x1ZGVUYWdzSW5PdXRwdXQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpcyBTdHJlYW1LbXBNYXRjaFJlc3VsdC5JblByb2dyZXNzIC0+IHsKICAgICAgICAgICAgICAgICAgICBzdGF0ZSA9IFBsdWdpblN0YXRlLlRSWUlORwogICAgICAgICAgICAgICAgICAgIC8vIFdlIGFyZSBhdHRlbXB0aW5nIGEgbmV3IHN0YXJ0LCBjb25zdW1lIHRoZSBhbGxvd2FuY2UKICAgICAgICAgICAgICAgICAgICAvLyBzbyBvbmx5IHRoaXMgcG90ZW50aWFsIHNlcXVlbmNlIGJlbmVmaXRzIGZyb20gaXQKICAgICAgICAgICAgICAgICAgICAvLyAoaWYgaXQgZmFpbHMgYmVsb3csIHdlIHdpbGwgY2xlYXIgaXQpCiAgICAgICAgICAgICAgICAgICAgLy8gS2VlcCBpdCB0cnVlIHdoaWxlIGluLXByb2dyZXNzIHNvIHN1YnNlcXVlbnQgY2hhcnMgY2FuIHByb2NlZWQKICAgICAgICAgICAgICAgICAgICBhbGxvd1N0YXJ0QWZ0ZXJQdW5jdHVhdGlvbiA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZpbmlzaChpbmNsdWRlVGFnc0luT3V0cHV0KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaXMgU3RyZWFtS21wTWF0Y2hSZXN1bHQuTm9NYXRjaCAtPiB7CiAgICAgICAgICAgICAgICAgICAgLy8gSWYgd2Ugd2VyZSB0cnlpbmcgYW5kIHRoZSBtYXRjaCBmYWlsZWQsIHdlIG11c3QgcmVzZXQgdG8gaWRsZS4KICAgICAgICAgICAgICAgICAgICBpZiAocHJldmlvdXNTdGF0ZSA9PSBQbHVnaW5TdGF0ZS5UUllJTkcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmVzZXQoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAvLyBDbGVhciB0aGUgYWxsb3dhbmNlIGlmIHdlIGZhaWxlZCB0byBzdGFydCBhIG5ldyB0YWcKICAgICAgICAgICAgICAgICAgICBhbGxvd1N0YXJ0QWZ0ZXJFbmRUYWcgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgIGFsbG93U3RhcnRBZnRlclB1bmN0dWF0aW9uID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAvLyBUaGlzIGlzIGEgZGVmYXVsdCBjaGFyYWN0ZXIsIG5vdCBwYXJ0IG9mIGEgdGFnIG1hbmFnZWQgYnkgdGhpcyBwbHVnaW4uCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZpbmlzaChoYW5kbGVEZWZhdWx0Q2hhcmFjdGVyKGMpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKiBJbml0aWFsaXplcyB0aGUgcGx1Z2luIHRvIGl0cyBkZWZhdWx0IHN0YXRlLiAqLwogICAgb3ZlcnJpZGUgZnVuIGluaXRQbHVnaW4oKTogQm9vbGVhbiB7CiAgICAgICAgcmVzZXQoKQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgLyoqIERlc3Ryb3lzIHRoZSBwbHVnaW4uIE5vLW9wIGFzIGxpc3RlbmVyIGlzIHJlbW92ZWQuICovCiAgICBvdmVycmlkZSBmdW4gZGVzdHJveSgpIHt9CgogICAgLyoqIFJlc2V0cyB0aGUgcGx1Z2luIHN0YXRlLiAqLwogICAgb3ZlcnJpZGUgZnVuIHJlc2V0KCkgewogICAgICAgIGVuZFRhZ01hdGNoZXIgPSBudWxsCiAgICAgICAgc3RhcnRUYWdNYXRjaGVyLnJlc2V0KCkKICAgICAgICBzdGF0ZSA9IFBsdWdpblN0YXRlLklETEUKICAgICAgICBsYXN0Q2hhciA9ICdcdTAwMDAnCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaGFuZGxlRGVmYXVsdENoYXJhY3RlcihjOiBDaGFyKTogQm9vbGVhbiB7CiAgICAgICAgdXBkYXRlUHVuY3R1YXRpb25BbGxvd2FuY2UoYykKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIHByaXZhdGUgZnVuIHVwZGF0ZVB1bmN0dWF0aW9uQWxsb3dhbmNlKGM6IENoYXIpIHsKICAgICAgICB3aGVuIHsKICAgICAgICAgICAgcHVuY3R1YXRpb25UcmlnZ2Vycy5jb250YWlucyhjKSB8fCBpc0Vtb2ppVHJpZ2dlcihjKSAtPiB7CiAgICAgICAgICAgICAgICBhbGxvd1N0YXJ0QWZ0ZXJQdW5jdHVhdGlvbiA9IHRydWUKICAgICAgICAgICAgfQogICAgICAgICAgICBjID09ICcgJyB8fCBjID09ICdcdCcgfHwgaXNFbW9qaUNvbnRpbnVhdGlvbkNoYXIoYykgLT4gewogICAgICAgICAgICAgICAgLy8gS2VlcCBjdXJyZW50IHN0YXRlIHNvIGA8YCBhZnRlciBzcGFjZXMvdGFicyBvciBlbW9qaSBqb2luZXJzL3NlbGVjdG9ycyBzdGlsbCBiZW5lZml0cy4KICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgIGFsbG93U3RhcnRBZnRlclB1bmN0dWF0aW9uID0gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc0Vtb2ppVHJpZ2dlcihjOiBDaGFyKTogQm9vbGVhbiB7CiAgICAgICAgLy8gTW9zdCBtb2Rlcm4gZW1vamlzIGFyZSBzdXJyb2dhdGUgcGFpcnMgaW4gVVRGLTE2LiBUcmVhdCBlaXRoZXIgaGFsZiBhcyBhIHRyaWdnZXIuCiAgICAgICAgaWYgKENoYXJhY3Rlci5pc1N1cnJvZ2F0ZShjKSkgewogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICAvLyBCTVAgZW1vamkvc3ltYm9scyAoZS5nLiDimIAsIOKdpCkgYXJlIHVzdWFsbHkgIk9USEVSX1NZTUJPTCIuCiAgICAgICAgcmV0dXJuIENoYXJhY3Rlci5nZXRUeXBlKGMpID09IENoYXJhY3Rlci5PVEhFUl9TWU1CT0wudG9JbnQoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzRW1vamlDb250aW51YXRpb25DaGFyKGM6IENoYXIpOiBCb29sZWFuID0gZW1vamlDb250aW51YXRpb25DaGFycy5jb250YWlucyhjKQp9Cg==
+package com.bslsjdk.operit.util.stream.plugins
+
+import com.bslsjdk.operit.util.stream.*
+
+private const val GROUP_TAG_NAME = 1
+private const val GROUP_CONTENT = 2
+
+/**
+ * A stream processing plugin to identify and process XML-formatted data streams. This
+ * implementation uses the group capturing mechanism of the StreamKmpGraph. This version has a known
+ * limitation: it does not handle nested tags of the same name.
+ *
+ * @param includeTagsInOutput If true, the XML tags themselves (`<tag>`, `</tag>`) will be included
+ * in the output stream. If false, they will be filtered out, leaving only the content between the
+ * tags.
+ */
+class StreamXmlPlugin(private val includeTagsInOutput: Boolean = true) : StreamPlugin {
+
+    override var state: PluginState = PluginState.IDLE
+        private set
+
+    private var startTagMatcher: StreamKmpGraph
+    private var endTagMatcher: StreamKmpGraph? = null
+    // Allow matching a new start tag immediately after we just closed an end tag, even if not at start of line
+    private var allowStartAfterEndTag: Boolean = false
+    private var allowStartAfterPunctuation: Boolean = false
+    private var lastChar: Char = '\u0000'
+
+    private val punctuationTriggers =
+            setOf('，', '。', '？', '！', '：', '（', '）', '【', '】', '《', '》', ':', ',', '.', '?', '!', '~', '～')
+    private val emojiContinuationChars = setOf('\u200D', '\uFE0E', '\uFE0F', '\u20E3')
+
+    init {
+        startTagMatcher =
+                StreamKmpGraphBuilder()
+                        .build(
+                                kmpPattern {
+                                    char('<')
+                                    // Group 1: Capture the tag name. A valid tag name must start
+                                    // with a letter.
+                                    // This prevents matching comments (<!--) or closing tags (</).
+                                    group(GROUP_TAG_NAME) {
+                                        predicate("asciiXmlTagFirstChar") {
+                                            it in 'A'..'Z' || it in 'a'..'z'
+                                        }
+                                        greedyStar {
+                                            predicate("xmlTagNameContinuation") {
+                                                (it in 'A'..'Z') || (it in 'a'..'z') || (it in '0'..'9') || it == '_'
+                                            }
+                                        }
+                                    }
+                                    // Optional: Match attributes until the tag closes
+                                    greedyStar { notChar('>') }
+                                    char('>')
+                                }
+                        )
+
+        reset()
+    }
+
+    /**
+     * Processes a single character for XML stream parsing and decides if it should be emitted. The
+     * return value is used by `splitBy` as a filter.
+     */
+    override fun processChar(c: Char, atStartOfLine: Boolean): Boolean {
+        fun finish(result: Boolean): Boolean {
+            lastChar = c
+            return result
+        }
+
+        if (state == PluginState.PROCESSING) {
+            // We are inside a tag, looking for the end tag.
+            val matcher = endTagMatcher!!
+            val result = matcher.processChar(c)
+
+            return when (result) {
+                is StreamKmpMatchResult.Match -> {
+                    // End tag fully matched. Reset state and filter this last character if needed.
+                    StreamLogger.i("StreamXmlPlugin", "Found end tag. Switching to IDLE.")
+                    // Enable one-time allowance for starting a new tag right after this end tag
+                    allowStartAfterEndTag = true
+                    allowStartAfterPunctuation = false
+                    reset()
+                    finish(includeTagsInOutput)
+                }
+                is StreamKmpMatchResult.InProgress -> {
+                    // We are in the middle of matching the end tag (e.g., '</', '</t', etc.).
+                    // The emission of these characters depends on the flag.
+                    finish(includeTagsInOutput)
+                }
+                is StreamKmpMatchResult.NoMatch -> {
+                    // The character `c` did not match the next char of the end tag.
+                    // This means it's regular content between tags.
+                    finish(true)
+                }
+            }
+        } else {
+            if (state == PluginState.IDLE && !atStartOfLine) {
+                val allowStart = allowStartAfterEndTag || allowStartAfterPunctuation
+                if (!allowStart) {
+                    return finish(handleDefaultCharacter(c))
+                }
+                // Allow adjacent XML after an end tag/punctuation even if separated by spaces/tabs
+                if (c == ' ' || c == '\t' || isEmojiContinuationChar(c)) {
+                    return finish(handleDefaultCharacter(c))
+                }
+            }
+            // We are in IDLE or TRYING state, looking for a start tag.
+            val previousState = state
+            when (val result = startTagMatcher.processChar(c)) {
+                is StreamKmpMatchResult.Match -> {
+                    val tagName = result.groups[GROUP_TAG_NAME]
+                    if (tagName != null) {
+                        if (lastChar == '/') {
+                            // Treat self-closing tags like <br/> as plain text to avoid entering XML mode.
+                            reset()
+                            return finish(true)
+                        }
+                        StreamLogger.i(
+                                "StreamXmlPlugin",
+                                "Found start tag '$tagName'. Switching to PROCESSING."
+                        )
+                        state = PluginState.PROCESSING
+                        // Consuming this as a new start clears the post-end allowance
+                        allowStartAfterEndTag = false
+                        allowStartAfterPunctuation = false
+                        // We have a full start tag. Configure the end tag matcher.
+                        endTagMatcher =
+                                StreamKmpGraphBuilder()
+                                        .build(
+                                                kmpPattern {
+                                                    literal("</")
+                                                    literal(tagName)
+                                                    char('>')
+                                                }
+                                        )
+                        startTagMatcher.reset()
+                    } else {
+                        // Should not happen, but as a safeguard:
+                        reset()
+                    }
+                    return finish(includeTagsInOutput)
+                }
+                is StreamKmpMatchResult.InProgress -> {
+                    state = PluginState.TRYING
+                    // We are attempting a new start, consume the allowance
+                    // so only this potential sequence benefits from it
+                    // (if it fails below, we will clear it)
+                    // Keep it true while in-progress so subsequent chars can proceed
+                    allowStartAfterPunctuation = false
+                    return finish(includeTagsInOutput)
+                }
+                is StreamKmpMatchResult.NoMatch -> {
+                    // If we were trying and the match failed, we must reset to idle.
+                    if (previousState == PluginState.TRYING) {
+                        reset()
+                    }
+                    // Clear the allowance if we failed to start a new tag
+                    allowStartAfterEndTag = false
+                    allowStartAfterPunctuation = false
+                    // This is a default character, not part of a tag managed by this plugin.
+                    return finish(handleDefaultCharacter(c))
+                }
+            }
+        }
+    }
+
+    /** Initializes the plugin to its default state. */
+    override fun initPlugin(): Boolean {
+        reset()
+        return true
+    }
+
+    /** Destroys the plugin. No-op as listener is removed. */
+    override fun destroy() {}
+
+    /** Resets the plugin state. */
+    override fun reset() {
+        endTagMatcher = null
+        startTagMatcher.reset()
+        state = PluginState.IDLE
+        lastChar = '\u0000'
+    }
+
+    private fun handleDefaultCharacter(c: Char): Boolean {
+        updatePunctuationAllowance(c)
+        return true
+    }
+
+    private fun updatePunctuationAllowance(c: Char) {
+        when {
+            punctuationTriggers.contains(c) || isEmojiTrigger(c) -> {
+                allowStartAfterPunctuation = true
+            }
+            c == ' ' || c == '\t' || isEmojiContinuationChar(c) -> {
+                // Keep current state so `<` after spaces/tabs or emoji joiners/selectors still benefits.
+            }
+            else -> {
+                allowStartAfterPunctuation = false
+            }
+        }
+    }
+
+    private fun isEmojiTrigger(c: Char): Boolean {
+        // Most modern emojis are surrogate pairs in UTF-16. Treat either half as a trigger.
+        if (Character.isSurrogate(c)) {
+            return true
+        }
+        // BMP emoji/symbols (e.g. ☀, ❤) are usually "OTHER_SYMBOL".
+        return Character.getType(c) == Character.OTHER_SYMBOL.toInt()
+    }
+
+    private fun isEmojiContinuationChar(c: Char): Boolean = emojiContinuationChars.contains(c)
+}

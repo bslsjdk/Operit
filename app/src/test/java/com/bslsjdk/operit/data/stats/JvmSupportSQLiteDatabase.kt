@@ -1,1 +1,371 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZW50VmFsdWVzCmltcG9ydCBhbmRyb2lkLmRhdGFiYXNlLkN1cnNvcgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZQppbXBvcnQgYW5kcm9pZC5vcy5DYW5jZWxsYXRpb25TaWduYWwKaW1wb3J0IGFuZHJvaWQudXRpbC5QYWlyCmltcG9ydCBhbmRyb2lkeC5zcWxpdGUuZGIuU3VwcG9ydFNRTGl0ZURhdGFiYXNlCmltcG9ydCBhbmRyb2lkeC5zcWxpdGUuZGIuU3VwcG9ydFNRTGl0ZVF1ZXJ5CmltcG9ydCBhbmRyb2lkeC5zcWxpdGUuZGIuU3VwcG9ydFNRTGl0ZVN0YXRlbWVudAppbXBvcnQgamF2YS5zcWwuQ29ubmVjdGlvbgppbXBvcnQgamF2YS5zcWwuRHJpdmVyTWFuYWdlcgppbXBvcnQgamF2YS5zcWwuUmVzdWx0U2V0CmltcG9ydCBqYXZhLnNxbC5SZXN1bHRTZXRNZXRhRGF0YQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKLyoqCiAqIOe6ryBKVk0g55qE5pyA5bCPIFtTdXBwb3J0U1FMaXRlRGF0YWJhc2VdIOa1i+ivleabv+i6q++8iOWfuuS6jiBzcWxpdGUtamRiY++8ie+8jAogKiDnlKjkuo7nm7TmjqXpqbHliqjnlJ/kuqcgYE1pZ3JhdGlvbi5taWdyYXRlKFN1cHBvcnRTUUxpdGVEYXRhYmFzZSlgIOWPmOS9k+OAggogKgogKiDlj6rlrp7njrDov4Hnp7vot6/lvoTlrp7pmYXnlKjliLDnmoTmlrnms5XvvIhleGVjU1FMIC8gcXVlcnkgLyBjbG9zZSAvIGlzT3Blbu+8ie+8jAogKiDlhbbkvZnmlrnms5XmipsgW1Vuc3VwcG9ydGVkT3BlcmF0aW9uRXhjZXB0aW9uXe+8jOmBv+WFjeaXoOaEj+S5ieeahOWFqOmHj+aooeaLn+OAggogKgogKiDmrovkvZnpo47pmanvvJrnlJ/kuqfnjq/looPor6Xlj5jkvZPnlLEgUm9vbSDnmoTlhbzlrrnmqKHlvI/vvIhSb29tT3BlbkhlbHBlciArCiAqIFN1cHBvcnRTUUxpdGVDb25uZWN0aW9u77yJ6amx5Yqo77yM5YyF5ZCr5LqL5Yqh5YyF6KOF5LiOIHNjaGVtYSDmoKHpqozvvJvmnKzmm7/ouqvlj6ropobnm5YKICog6L+B56e75a+56LGh5pys6Lqr5LiO5YWx5LqrIFNRTCDnmoTnnJ/lrp7miafooYzvvIzkuI3opobnm5YgUm9vbSDlhbzlrrnmqKHlvI/nvJbmjpLvvIjpnIAgQW5kcm9pZCDmoYbmnrbvvInjgIIKICovCmNsYXNzIEp2bVN1cHBvcnRTUUxpdGVEYXRhYmFzZShwcml2YXRlIHZhbCBjb25uZWN0aW9uOiBDb25uZWN0aW9uKSA6IFN1cHBvcnRTUUxpdGVEYXRhYmFzZSB7CgogICAgb3ZlcnJpZGUgZnVuIGV4ZWNTUUwoc3FsOiBTdHJpbmcpIHsKICAgICAgICBjb25uZWN0aW9uLmNyZWF0ZVN0YXRlbWVudCgpLnVzZSB7IGl0LmV4ZWN1dGUoc3FsKSB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGV4ZWNTUUwoc3FsOiBTdHJpbmcsIGJpbmRBcmdzOiBBcnJheTxvdXQgQW55Pz4pIHsKICAgICAgICBjb25uZWN0aW9uLnByZXBhcmVTdGF0ZW1lbnQoc3FsKS51c2UgeyBzdGF0ZW1lbnQgLT4KICAgICAgICAgICAgYmluZEFyZ3MuZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgYXJnIC0+CiAgICAgICAgICAgICAgICB3aGVuIChhcmcpIHsKICAgICAgICAgICAgICAgICAgICBudWxsIC0+IHN0YXRlbWVudC5zZXROdWxsKGluZGV4ICsgMSwgamF2YS5zcWwuVHlwZXMuTlVMTCkKICAgICAgICAgICAgICAgICAgICBpcyBMb25nIC0+IHN0YXRlbWVudC5zZXRMb25nKGluZGV4ICsgMSwgYXJnKQogICAgICAgICAgICAgICAgICAgIGlzIEludCAtPiBzdGF0ZW1lbnQuc2V0TG9uZyhpbmRleCArIDEsIGFyZy50b0xvbmcoKSkKICAgICAgICAgICAgICAgICAgICBpcyBEb3VibGUgLT4gc3RhdGVtZW50LnNldERvdWJsZShpbmRleCArIDEsIGFyZykKICAgICAgICAgICAgICAgICAgICBpcyBGbG9hdCAtPiBzdGF0ZW1lbnQuc2V0RG91YmxlKGluZGV4ICsgMSwgYXJnLnRvRG91YmxlKCkpCiAgICAgICAgICAgICAgICAgICAgaXMgQm9vbGVhbiAtPiBzdGF0ZW1lbnQuc2V0SW50KGluZGV4ICsgMSwgaWYgKGFyZykgMSBlbHNlIDApCiAgICAgICAgICAgICAgICAgICAgaXMgQnl0ZUFycmF5IC0+IHN0YXRlbWVudC5zZXRCeXRlcyhpbmRleCArIDEsIGFyZykKICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHN0YXRlbWVudC5zZXRTdHJpbmcoaW5kZXggKyAxLCBhcmcudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBzdGF0ZW1lbnQuZXhlY3V0ZSgpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBxdWVyeShxdWVyeTogU3RyaW5nKTogQ3Vyc29yIHsKICAgICAgICB2YWwgcmVzdWx0U2V0ID0gY29ubmVjdGlvbi5jcmVhdGVTdGF0ZW1lbnQoKS5leGVjdXRlUXVlcnkocXVlcnkpCiAgICAgICAgcmV0dXJuIEp2bUN1cnNvcihyZXN1bHRTZXQpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHF1ZXJ5KHF1ZXJ5OiBTdHJpbmcsIGJpbmRBcmdzOiBBcnJheTxvdXQgQW55Pz4pOiBDdXJzb3IgewogICAgICAgIHZhbCBzdGF0ZW1lbnQgPSBjb25uZWN0aW9uLnByZXBhcmVTdGF0ZW1lbnQocXVlcnkpCiAgICAgICAgYmluZEFyZ3MuZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgYXJnIC0+CiAgICAgICAgICAgIHdoZW4gKGFyZykgewogICAgICAgICAgICAgICAgbnVsbCAtPiBzdGF0ZW1lbnQuc2V0TnVsbChpbmRleCArIDEsIGphdmEuc3FsLlR5cGVzLk5VTEwpCiAgICAgICAgICAgICAgICBpcyBMb25nIC0+IHN0YXRlbWVudC5zZXRMb25nKGluZGV4ICsgMSwgYXJnKQogICAgICAgICAgICAgICAgaXMgSW50IC0+IHN0YXRlbWVudC5zZXRMb25nKGluZGV4ICsgMSwgYXJnLnRvTG9uZygpKQogICAgICAgICAgICAgICAgaXMgRG91YmxlIC0+IHN0YXRlbWVudC5zZXREb3VibGUoaW5kZXggKyAxLCBhcmcpCiAgICAgICAgICAgICAgICBpcyBGbG9hdCAtPiBzdGF0ZW1lbnQuc2V0RG91YmxlKGluZGV4ICsgMSwgYXJnLnRvRG91YmxlKCkpCiAgICAgICAgICAgICAgICBpcyBCb29sZWFuIC0+IHN0YXRlbWVudC5zZXRJbnQoaW5kZXggKyAxLCBpZiAoYXJnKSAxIGVsc2UgMCkKICAgICAgICAgICAgICAgIGlzIEJ5dGVBcnJheSAtPiBzdGF0ZW1lbnQuc2V0Qnl0ZXMoaW5kZXggKyAxLCBhcmcpCiAgICAgICAgICAgICAgICBlbHNlIC0+IHN0YXRlbWVudC5zZXRTdHJpbmcoaW5kZXggKyAxLCBhcmcudG9TdHJpbmcoKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gSnZtQ3Vyc29yKHN0YXRlbWVudC5leGVjdXRlUXVlcnkoKSwgc3RhdGVtZW50KQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBxdWVyeShxdWVyeTogU3VwcG9ydFNRTGl0ZVF1ZXJ5KTogQ3Vyc29yIHsKICAgICAgICB2YWwgc3RhdGVtZW50ID0gY29ubmVjdGlvbi5wcmVwYXJlU3RhdGVtZW50KHF1ZXJ5LnNxbCkKICAgICAgICBxdWVyeS5iaW5kVG8ob2JqZWN0IDogYW5kcm9pZHguc3FsaXRlLmRiLlN1cHBvcnRTUUxpdGVQcm9ncmFtIHsKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGJpbmROdWxsKGluZGV4OiBJbnQpID0gc3RhdGVtZW50LnNldE51bGwoaW5kZXgsIGphdmEuc3FsLlR5cGVzLk5VTEwpCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBiaW5kTG9uZyhpbmRleDogSW50LCB2YWx1ZTogTG9uZykgPSBzdGF0ZW1lbnQuc2V0TG9uZyhpbmRleCwgdmFsdWUpCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBiaW5kRG91YmxlKGluZGV4OiBJbnQsIHZhbHVlOiBEb3VibGUpID0gc3RhdGVtZW50LnNldERvdWJsZShpbmRleCwgdmFsdWUpCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBiaW5kU3RyaW5nKGluZGV4OiBJbnQsIHZhbHVlOiBTdHJpbmcpID0gc3RhdGVtZW50LnNldFN0cmluZyhpbmRleCwgdmFsdWUpCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBiaW5kQmxvYihpbmRleDogSW50LCB2YWx1ZTogQnl0ZUFycmF5KSA9IHN0YXRlbWVudC5zZXRCeXRlcyhpbmRleCwgdmFsdWUpCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBjbGVhckJpbmRpbmdzKCkgPSBzdGF0ZW1lbnQuY2xlYXJQYXJhbWV0ZXJzKCkKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGNsb3NlKCkgPSBzdGF0ZW1lbnQuY2xvc2UoKQogICAgICAgIH0pCiAgICAgICAgcmV0dXJuIEp2bUN1cnNvcihzdGF0ZW1lbnQuZXhlY3V0ZVF1ZXJ5KCksIHN0YXRlbWVudCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gcXVlcnkocXVlcnk6IFN1cHBvcnRTUUxpdGVRdWVyeSwgY2FuY2VsbGF0aW9uU2lnbmFsOiBDYW5jZWxsYXRpb25TaWduYWw/KTogQ3Vyc29yID0KICAgICAgICBxdWVyeShxdWVyeSkKCiAgICBvdmVycmlkZSBmdW4gY2xvc2UoKSB7CiAgICAgICAgY29ubmVjdGlvbi5jbG9zZSgpCiAgICB9CgogICAgb3ZlcnJpZGUgdmFsIGlzT3BlbjogQm9vbGVhbgogICAgICAgIGdldCgpID0gIWNvbm5lY3Rpb24uaXNDbG9zZWQKCiAgICBvdmVycmlkZSB2YWwgcGF0aDogU3RyaW5nPwogICAgICAgIGdldCgpID0gImp2bS1zcWxpdGUiCgogICAgb3ZlcnJpZGUgdmFsIGlzUmVhZE9ubHk6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IGZhbHNlCgogICAgb3ZlcnJpZGUgdmFyIHZlcnNpb246IEludAogICAgICAgIGdldCgpID0gdW5zdXBwb3J0ZWQoInZlcnNpb24iKQogICAgICAgIHNldCh2YWx1ZSkgPSB1bnN1cHBvcnRlZCgidmVyc2lvbiIpCgogICAgb3ZlcnJpZGUgdmFsIG1heGltdW1TaXplOiBMb25nCiAgICAgICAgZ2V0KCkgPSB1bnN1cHBvcnRlZCgibWF4aW11bVNpemUiKQoKICAgIG92ZXJyaWRlIGZ1biBzZXRNYXhpbXVtU2l6ZShudW1CeXRlczogTG9uZyk6IExvbmcgPSB1bnN1cHBvcnRlZCgic2V0TWF4aW11bVNpemUiKQoKICAgIG92ZXJyaWRlIHZhciBwYWdlU2l6ZTogTG9uZwogICAgICAgIGdldCgpID0gdW5zdXBwb3J0ZWQoInBhZ2VTaXplIikKICAgICAgICBzZXQodmFsdWUpID0gdW5zdXBwb3J0ZWQoInBhZ2VTaXplIikKCiAgICBvdmVycmlkZSB2YWwgaXNEYkxvY2tlZEJ5Q3VycmVudFRocmVhZDogQm9vbGVhbgogICAgICAgIGdldCgpID0gdW5zdXBwb3J0ZWQoImlzRGJMb2NrZWRCeUN1cnJlbnRUaHJlYWQiKQoKICAgIG92ZXJyaWRlIHZhbCBpc1dyaXRlQWhlYWRMb2dnaW5nRW5hYmxlZDogQm9vbGVhbgogICAgICAgIGdldCgpID0gdW5zdXBwb3J0ZWQoImlzV3JpdGVBaGVhZExvZ2dpbmdFbmFibGVkIikKCiAgICBvdmVycmlkZSB2YWwgYXR0YWNoZWREYnM6IExpc3Q8UGFpcjxTdHJpbmcsIFN0cmluZz4+PwogICAgICAgIGdldCgpID0gdW5zdXBwb3J0ZWQoImF0dGFjaGVkRGJzIikKCiAgICBvdmVycmlkZSB2YWwgaXNEYXRhYmFzZUludGVncml0eU9rOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB1bnN1cHBvcnRlZCgiaXNEYXRhYmFzZUludGVncml0eU9rIikKCiAgICBvdmVycmlkZSBmdW4gY29tcGlsZVN0YXRlbWVudChzcWw6IFN0cmluZyk6IFN1cHBvcnRTUUxpdGVTdGF0ZW1lbnQgPQogICAgICAgIHVuc3VwcG9ydGVkKCJjb21waWxlU3RhdGVtZW50IikKCiAgICBvdmVycmlkZSBmdW4gYmVnaW5UcmFuc2FjdGlvbigpID0gdW5zdXBwb3J0ZWQoImJlZ2luVHJhbnNhY3Rpb24iKQoKICAgIG92ZXJyaWRlIGZ1biBiZWdpblRyYW5zYWN0aW9uTm9uRXhjbHVzaXZlKCkgPSB1bnN1cHBvcnRlZCgiYmVnaW5UcmFuc2FjdGlvbk5vbkV4Y2x1c2l2ZSIpCgogICAgb3ZlcnJpZGUgZnVuIGJlZ2luVHJhbnNhY3Rpb25XaXRoTGlzdGVuZXIobGlzdGVuZXI6IGFuZHJvaWQuZGF0YWJhc2Uuc3FsaXRlLlNRTGl0ZVRyYW5zYWN0aW9uTGlzdGVuZXIpID0KICAgICAgICB1bnN1cHBvcnRlZCgiYmVnaW5UcmFuc2FjdGlvbldpdGhMaXN0ZW5lciIpCgogICAgb3ZlcnJpZGUgZnVuIGJlZ2luVHJhbnNhY3Rpb25XaXRoTGlzdGVuZXJOb25FeGNsdXNpdmUoCiAgICAgICAgbGlzdGVuZXI6IGFuZHJvaWQuZGF0YWJhc2Uuc3FsaXRlLlNRTGl0ZVRyYW5zYWN0aW9uTGlzdGVuZXIsCiAgICApID0gdW5zdXBwb3J0ZWQoImJlZ2luVHJhbnNhY3Rpb25XaXRoTGlzdGVuZXJOb25FeGNsdXNpdmUiKQoKICAgIG92ZXJyaWRlIGZ1biBlbmRUcmFuc2FjdGlvbigpID0gdW5zdXBwb3J0ZWQoImVuZFRyYW5zYWN0aW9uIikKCiAgICBvdmVycmlkZSBmdW4gc2V0VHJhbnNhY3Rpb25TdWNjZXNzZnVsKCkgPSB1bnN1cHBvcnRlZCgic2V0VHJhbnNhY3Rpb25TdWNjZXNzZnVsIikKCiAgICBvdmVycmlkZSBmdW4gaW5UcmFuc2FjdGlvbigpOiBCb29sZWFuID0gdW5zdXBwb3J0ZWQoImluVHJhbnNhY3Rpb24iKQoKICAgIG92ZXJyaWRlIGZ1biB5aWVsZElmQ29udGVuZGVkU2FmZWx5KCk6IEJvb2xlYW4gPSB1bnN1cHBvcnRlZCgieWllbGRJZkNvbnRlbmRlZFNhZmVseSIpCgogICAgb3ZlcnJpZGUgZnVuIHlpZWxkSWZDb250ZW5kZWRTYWZlbHkoc2xlZXBBZnRlcllpZWxkRGVsYXlNaWxsaXM6IExvbmcpOiBCb29sZWFuID0KICAgICAgICB1bnN1cHBvcnRlZCgieWllbGRJZkNvbnRlbmRlZFNhZmVseSIpCgogICAgb3ZlcnJpZGUgZnVuIGluc2VydCh0YWJsZTogU3RyaW5nLCBjb25mbGljdEFsZ29yaXRobTogSW50LCB2YWx1ZXM6IENvbnRlbnRWYWx1ZXMpOiBMb25nID0KICAgICAgICB1bnN1cHBvcnRlZCgiaW5zZXJ0IikKCiAgICBvdmVycmlkZSBmdW4gZGVsZXRlKHRhYmxlOiBTdHJpbmcsIHdoZXJlQ2xhdXNlOiBTdHJpbmc/LCB3aGVyZUFyZ3M6IEFycmF5PG91dCBBbnk/Pj8pOiBJbnQgPQogICAgICAgIHVuc3VwcG9ydGVkKCJkZWxldGUiKQoKICAgIG92ZXJyaWRlIGZ1biB1cGRhdGUoCiAgICAgICAgdGFibGU6IFN0cmluZywKICAgICAgICBjb25mbGljdEFsZ29yaXRobTogSW50LAogICAgICAgIHZhbHVlczogQ29udGVudFZhbHVlcywKICAgICAgICB3aGVyZUNsYXVzZTogU3RyaW5nPywKICAgICAgICB3aGVyZUFyZ3M6IEFycmF5PG91dCBBbnk/Pj8sCiAgICApOiBJbnQgPSB1bnN1cHBvcnRlZCgidXBkYXRlIikKCiAgICBvdmVycmlkZSBmdW4gbmVlZFVwZ3JhZGUobmV3VmVyc2lvbjogSW50KTogQm9vbGVhbiA9IHVuc3VwcG9ydGVkKCJuZWVkVXBncmFkZSIpCgogICAgb3ZlcnJpZGUgZnVuIHNldExvY2FsZShsb2NhbGU6IExvY2FsZSkgPSB1bnN1cHBvcnRlZCgic2V0TG9jYWxlIikKCiAgICBvdmVycmlkZSBmdW4gc2V0TWF4U3FsQ2FjaGVTaXplKGNhY2hlU2l6ZTogSW50KSA9IHVuc3VwcG9ydGVkKCJzZXRNYXhTcWxDYWNoZVNpemUiKQoKICAgIG92ZXJyaWRlIGZ1biBzZXRGb3JlaWduS2V5Q29uc3RyYWludHNFbmFibGVkKGVuYWJsZTogQm9vbGVhbikgPQogICAgICAgIHVuc3VwcG9ydGVkKCJzZXRGb3JlaWduS2V5Q29uc3RyYWludHNFbmFibGVkIikKCiAgICBvdmVycmlkZSBmdW4gZW5hYmxlV3JpdGVBaGVhZExvZ2dpbmcoKTogQm9vbGVhbiA9IHVuc3VwcG9ydGVkKCJlbmFibGVXcml0ZUFoZWFkTG9nZ2luZyIpCgogICAgb3ZlcnJpZGUgZnVuIGRpc2FibGVXcml0ZUFoZWFkTG9nZ2luZygpID0gdW5zdXBwb3J0ZWQoImRpc2FibGVXcml0ZUFoZWFkTG9nZ2luZyIpCgogICAgcHJpdmF0ZSBmdW4gdW5zdXBwb3J0ZWQobWV0aG9kOiBTdHJpbmcpOiBOb3RoaW5nID0KICAgICAgICB0aHJvdyBVbnN1cHBvcnRlZE9wZXJhdGlvbkV4Y2VwdGlvbigKICAgICAgICAgICAgIkp2bVN1cHBvcnRTUUxpdGVEYXRhYmFzZSBkb2VzIG5vdCBzdXBwb3J0ICRtZXRob2QgKHRlc3QgZG91YmxlKSIKICAgICAgICApCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIG9wZW4oZGJQYXRoOiBTdHJpbmcpOiBKdm1TdXBwb3J0U1FMaXRlRGF0YWJhc2UgPQogICAgICAgICAgICBKdm1TdXBwb3J0U1FMaXRlRGF0YWJhc2UoRHJpdmVyTWFuYWdlci5nZXRDb25uZWN0aW9uKCJqZGJjOnNxbGl0ZTokZGJQYXRoIikpCiAgICB9Cn0KCi8qKiDmnIDlsI8gYW5kcm9pZC5kYXRhYmFzZS5DdXJzb3Ig5a6e546w77ya6L+B56e76Lev5b6E5Y+q55So5Yiw6K+75Y+W6KGM5LiO5YiX44CCICovCnByaXZhdGUgY2xhc3MgSnZtQ3Vyc29yKAogICAgcHJpdmF0ZSB2YWwgcmVzdWx0U2V0OiBSZXN1bHRTZXQsCiAgICBwcml2YXRlIHZhbCBjbG9zZWFibGU6IEF1dG9DbG9zZWFibGU/ID0gbnVsbCwKKSA6IEN1cnNvciB7CgogICAgcHJpdmF0ZSB2YWwgcm93czogTGlzdDxBcnJheTxBbnk/Pj4gPSBtYXRlcmlhbGl6ZShyZXN1bHRTZXQpCiAgICBwcml2YXRlIHZhbCBjb2x1bW5OYW1lczogQXJyYXk8U3RyaW5nPiA9IGNvbHVtbk5hbWVzKHJlc3VsdFNldC5tZXRhRGF0YSkKICAgIHByaXZhdGUgdmFsIGNvbHVtbkluZGV4QnlOYW1lOiBNYXA8U3RyaW5nLCBJbnQ+ID0KICAgICAgICBjb2x1bW5OYW1lcy53aXRoSW5kZXgoKS5hc3NvY2lhdGUgeyAoaW5kZXgsIG5hbWUpIC0+IG5hbWUubG93ZXJjYXNlKCkgdG8gaW5kZXggfQogICAgcHJpdmF0ZSB2YXIgcG9zaXRpb24gPSAtMQogICAgcHJpdmF0ZSB2YXIgY2xvc2VkID0gZmFsc2UKCiAgICBvdmVycmlkZSBmdW4gZ2V0Q291bnQoKTogSW50ID0gcm93cy5zaXplCgogICAgb3ZlcnJpZGUgZnVuIGdldFBvc2l0aW9uKCk6IEludCA9IHBvc2l0aW9uCgogICAgb3ZlcnJpZGUgZnVuIG1vdmUocG9zaXRpb246IEludCk6IEJvb2xlYW4gPSBtb3ZlVG9Qb3NpdGlvbih0aGlzLnBvc2l0aW9uICsgcG9zaXRpb24pCgogICAgb3ZlcnJpZGUgZnVuIG1vdmVUb1Bvc2l0aW9uKHBvc2l0aW9uOiBJbnQpOiBCb29sZWFuIHsKICAgICAgICBpZiAocG9zaXRpb24gPCAtMSB8fCBwb3NpdGlvbiA+PSByb3dzLnNpemUpIHsKICAgICAgICAgICAgdGhpcy5wb3NpdGlvbiA9IC0xCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICB0aGlzLnBvc2l0aW9uID0gcG9zaXRpb24KICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBtb3ZlVG9GaXJzdCgpOiBCb29sZWFuID0gbW92ZVRvUG9zaXRpb24oMCkKCiAgICBvdmVycmlkZSBmdW4gbW92ZVRvTGFzdCgpOiBCb29sZWFuID0gbW92ZVRvUG9zaXRpb24ocm93cy5zaXplIC0gMSkKCiAgICBvdmVycmlkZSBmdW4gbW92ZVRvTmV4dCgpOiBCb29sZWFuID0gbW92ZVRvUG9zaXRpb24ocG9zaXRpb24gKyAxKQoKICAgIG92ZXJyaWRlIGZ1biBtb3ZlVG9QcmV2aW91cygpOiBCb29sZWFuID0gbW92ZVRvUG9zaXRpb24ocG9zaXRpb24gLSAxKQoKICAgIG92ZXJyaWRlIGZ1biBpc0ZpcnN0KCk6IEJvb2xlYW4gPSBwb3NpdGlvbiA9PSAwICYmIHJvd3MuaXNOb3RFbXB0eSgpCgogICAgb3ZlcnJpZGUgZnVuIGlzTGFzdCgpOiBCb29sZWFuID0gcG9zaXRpb24gPT0gcm93cy5zaXplIC0gMSAmJiBwb3NpdGlvbiA+PSAwCgogICAgb3ZlcnJpZGUgZnVuIGlzQmVmb3JlRmlyc3QoKTogQm9vbGVhbiA9IHBvc2l0aW9uIDwgMCAmJiByb3dzLmlzTm90RW1wdHkoKQoKICAgIG92ZXJyaWRlIGZ1biBpc0FmdGVyTGFzdCgpOiBCb29sZWFuID0gcG9zaXRpb24gPj0gcm93cy5zaXplCgogICAgb3ZlcnJpZGUgZnVuIGdldENvbHVtbkNvdW50KCk6IEludCA9IGNvbHVtbk5hbWVzLnNpemUKCiAgICBvdmVycmlkZSBmdW4gZ2V0Q29sdW1uSW5kZXgoY29sdW1uTmFtZTogU3RyaW5nKTogSW50ID0KICAgICAgICBjb2x1bW5JbmRleEJ5TmFtZVtjb2x1bW5OYW1lLmxvd2VyY2FzZSgpXSA/OiAtMQoKICAgIG92ZXJyaWRlIGZ1biBnZXRDb2x1bW5JbmRleE9yVGhyb3coY29sdW1uTmFtZTogU3RyaW5nKTogSW50IHsKICAgICAgICB2YWwgaW5kZXggPSBnZXRDb2x1bW5JbmRleChjb2x1bW5OYW1lKQogICAgICAgIGlmIChpbmRleCA8IDApIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiY29sdW1uICckY29sdW1uTmFtZScgZG9lcyBub3QgZXhpc3QiKQogICAgICAgIHJldHVybiBpbmRleAogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBnZXRDb2x1bW5OYW1lKGNvbHVtbkluZGV4OiBJbnQpOiBTdHJpbmcgPSBjb2x1bW5OYW1lc1tjb2x1bW5JbmRleF0KCiAgICBvdmVycmlkZSBmdW4gZ2V0Q29sdW1uTmFtZXMoKTogQXJyYXk8U3RyaW5nPiA9IGNvbHVtbk5hbWVzLmNvcHlPZigpCgogICAgb3ZlcnJpZGUgZnVuIGdldFN0cmluZyhjb2x1bW5JbmRleDogSW50KTogU3RyaW5nIHsKICAgICAgICB2YWwgdmFsdWUgPSByb3coKVtjb2x1bW5JbmRleF0KICAgICAgICByZXR1cm4gd2hlbiAodmFsdWUpIHsKICAgICAgICAgICAgbnVsbCAtPiAiIgogICAgICAgICAgICBpcyBCeXRlQXJyYXkgLT4gU3RyaW5nKHZhbHVlKQogICAgICAgICAgICBlbHNlIC0+IHZhbHVlLnRvU3RyaW5nKCkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldExvbmcoY29sdW1uSW5kZXg6IEludCk6IExvbmcgewogICAgICAgIHZhbCB2YWx1ZSA9IHJvdygpW2NvbHVtbkluZGV4XQogICAgICAgIHJldHVybiB3aGVuICh2YWx1ZSkgewogICAgICAgICAgICBudWxsIC0+IDBMCiAgICAgICAgICAgIGlzIE51bWJlciAtPiB2YWx1ZS50b0xvbmcoKQogICAgICAgICAgICBlbHNlIC0+IHZhbHVlLnRvU3RyaW5nKCkudG9Mb25nKCkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldEludChjb2x1bW5JbmRleDogSW50KTogSW50ID0gZ2V0TG9uZyhjb2x1bW5JbmRleCkudG9JbnQoKQoKICAgIG92ZXJyaWRlIGZ1biBnZXRTaG9ydChjb2x1bW5JbmRleDogSW50KTogU2hvcnQgPSBnZXRMb25nKGNvbHVtbkluZGV4KS50b1Nob3J0KCkKCiAgICBvdmVycmlkZSBmdW4gZ2V0RmxvYXQoY29sdW1uSW5kZXg6IEludCk6IEZsb2F0IHsKICAgICAgICB2YWwgdmFsdWUgPSByb3coKVtjb2x1bW5JbmRleF0KICAgICAgICByZXR1cm4gd2hlbiAodmFsdWUpIHsKICAgICAgICAgICAgbnVsbCAtPiAwZgogICAgICAgICAgICBpcyBOdW1iZXIgLT4gdmFsdWUudG9GbG9hdCgpCiAgICAgICAgICAgIGVsc2UgLT4gdmFsdWUudG9TdHJpbmcoKS50b0Zsb2F0KCkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldERvdWJsZShjb2x1bW5JbmRleDogSW50KTogRG91YmxlIHsKICAgICAgICB2YWwgdmFsdWUgPSByb3coKVtjb2x1bW5JbmRleF0KICAgICAgICByZXR1cm4gd2hlbiAodmFsdWUpIHsKICAgICAgICAgICAgbnVsbCAtPiAwLjAKICAgICAgICAgICAgaXMgTnVtYmVyIC0+IHZhbHVlLnRvRG91YmxlKCkKICAgICAgICAgICAgZWxzZSAtPiB2YWx1ZS50b1N0cmluZygpLnRvRG91YmxlKCkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldEJsb2IoY29sdW1uSW5kZXg6IEludCk6IEJ5dGVBcnJheSA9IChyb3coKVtjb2x1bW5JbmRleF0gYXM/IEJ5dGVBcnJheSkgPzogQnl0ZUFycmF5KDApCgogICAgb3ZlcnJpZGUgZnVuIGlzTnVsbChjb2x1bW5JbmRleDogSW50KTogQm9vbGVhbiA9IHJvdygpW2NvbHVtbkluZGV4XSA9PSBudWxsCgogICAgb3ZlcnJpZGUgZnVuIGdldFR5cGUoY29sdW1uSW5kZXg6IEludCk6IEludCB7CiAgICAgICAgdmFsIHZhbHVlID0gcm93KClbY29sdW1uSW5kZXhdCiAgICAgICAgcmV0dXJuIHdoZW4gKHZhbHVlKSB7CiAgICAgICAgICAgIG51bGwgLT4gYW5kcm9pZC5kYXRhYmFzZS5DdXJzb3IuRklFTERfVFlQRV9OVUxMCiAgICAgICAgICAgIGlzIEJ5dGVBcnJheSAtPiBhbmRyb2lkLmRhdGFiYXNlLkN1cnNvci5GSUVMRF9UWVBFX0JMT0IKICAgICAgICAgICAgaXMgU3RyaW5nIC0+IGFuZHJvaWQuZGF0YWJhc2UuQ3Vyc29yLkZJRUxEX1RZUEVfU1RSSU5HCiAgICAgICAgICAgIGlzIE51bWJlciAtPiBhbmRyb2lkLmRhdGFiYXNlLkN1cnNvci5GSUVMRF9UWVBFX0lOVEVHRVIKICAgICAgICAgICAgZWxzZSAtPiBhbmRyb2lkLmRhdGFiYXNlLkN1cnNvci5GSUVMRF9UWVBFX1NUUklORwogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gY2xvc2UoKSB7CiAgICAgICAgaWYgKCFjbG9zZWQpIHsKICAgICAgICAgICAgY2xvc2VkID0gdHJ1ZQogICAgICAgICAgICBjbG9zZWFibGU/LmNsb3NlKCkKICAgICAgICAgICAgcmVzdWx0U2V0LmNsb3NlKCkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGlzQ2xvc2VkKCk6IEJvb2xlYW4gPSBjbG9zZWQKCiAgICBvdmVycmlkZSBmdW4gZGVhY3RpdmF0ZSgpID0gVW5pdAoKICAgIG92ZXJyaWRlIGZ1biByZXF1ZXJ5KCk6IEJvb2xlYW4gPSBmYWxzZQoKICAgIG92ZXJyaWRlIGZ1biBjb3B5U3RyaW5nVG9CdWZmZXIoY29sdW1uSW5kZXg6IEludCwgYnVmZmVyOiBhbmRyb2lkLmRhdGFiYXNlLkNoYXJBcnJheUJ1ZmZlcikgPQogICAgICAgIHVuc3VwcG9ydGVkKCJjb3B5U3RyaW5nVG9CdWZmZXIiKQoKICAgIG92ZXJyaWRlIGZ1biBnZXRXYW50c0FsbE9uTW92ZUNhbGxzKCk6IEJvb2xlYW4gPSBmYWxzZQoKICAgIG92ZXJyaWRlIGZ1biBnZXRFeHRyYXMoKTogQnVuZGxlPyA9IG51bGwKCiAgICBvdmVycmlkZSBmdW4gc2V0RXh0cmFzKGV4dHJhczogQnVuZGxlPykgPSBVbml0CgogICAgb3ZlcnJpZGUgZnVuIHJlc3BvbmQoZXh0cmFzOiBCdW5kbGU/KTogQnVuZGxlPyA9IG51bGwKCiAgICBvdmVycmlkZSBmdW4gZ2V0Tm90aWZpY2F0aW9uVXJpKCk6IFVyaT8gPSBudWxsCgogICAgb3ZlcnJpZGUgZnVuIHNldE5vdGlmaWNhdGlvblVyaShjcjogYW5kcm9pZC5jb250ZW50LkNvbnRlbnRSZXNvbHZlciwgbm90aWZ5VXJpOiBVcmk/KSA9IFVuaXQKCiAgICBvdmVycmlkZSBmdW4gcmVnaXN0ZXJDb250ZW50T2JzZXJ2ZXIob2JzZXJ2ZXI6IGFuZHJvaWQuZGF0YWJhc2UuQ29udGVudE9ic2VydmVyKSA9IFVuaXQKCiAgICBvdmVycmlkZSBmdW4gdW5yZWdpc3RlckNvbnRlbnRPYnNlcnZlcihvYnNlcnZlcjogYW5kcm9pZC5kYXRhYmFzZS5Db250ZW50T2JzZXJ2ZXIpID0gVW5pdAoKICAgIG92ZXJyaWRlIGZ1biByZWdpc3RlckRhdGFTZXRPYnNlcnZlcihvYnNlcnZlcjogYW5kcm9pZC5kYXRhYmFzZS5EYXRhU2V0T2JzZXJ2ZXIpID0gVW5pdAoKICAgIG92ZXJyaWRlIGZ1biB1bnJlZ2lzdGVyRGF0YVNldE9ic2VydmVyKG9ic2VydmVyOiBhbmRyb2lkLmRhdGFiYXNlLkRhdGFTZXRPYnNlcnZlcikgPSBVbml0CgogICAgcHJpdmF0ZSBmdW4gcm93KCk6IEFycmF5PEFueT8+IHsKICAgICAgICBpZiAocG9zaXRpb24gPCAwIHx8IHBvc2l0aW9uID49IHJvd3Muc2l6ZSkgewogICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oImN1cnNvciBwb3NpdGlvbiAkcG9zaXRpb24gaXMgb3V0IG9mIHJhbmdlIikKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHJvd3NbcG9zaXRpb25dCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdW5zdXBwb3J0ZWQobWV0aG9kOiBTdHJpbmcpOiBOb3RoaW5nID0KICAgICAgICB0aHJvdyBVbnN1cHBvcnRlZE9wZXJhdGlvbkV4Y2VwdGlvbigiSnZtQ3Vyc29yIGRvZXMgbm90IHN1cHBvcnQgJG1ldGhvZCAodGVzdCBkb3VibGUpIikKCiAgICBwcml2YXRlIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGZ1biBtYXRlcmlhbGl6ZShyZXN1bHRTZXQ6IFJlc3VsdFNldCk6IExpc3Q8QXJyYXk8QW55Pz4+IHsKICAgICAgICAgICAgdmFsIHJvd3MgPSBtdXRhYmxlTGlzdE9mPEFycmF5PEFueT8+PigpCiAgICAgICAgICAgIHZhbCBjb2x1bW5Db3VudCA9IHJlc3VsdFNldC5tZXRhRGF0YS5jb2x1bW5Db3VudAogICAgICAgICAgICB3aGlsZSAocmVzdWx0U2V0Lm5leHQoKSkgewogICAgICAgICAgICAgICAgdmFsIHJvdyA9IGFycmF5T2ZOdWxsczxBbnk/Pihjb2x1bW5Db3VudCkKICAgICAgICAgICAgICAgIGZvciAoaSBpbiAxLi5jb2x1bW5Db3VudCkgewogICAgICAgICAgICAgICAgICAgIHJvd1tpIC0gMV0gPSByZXN1bHRTZXQuZ2V0T2JqZWN0KGkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByb3dzICs9IHJvdwogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiByb3dzCiAgICAgICAgfQoKICAgICAgICBmdW4gY29sdW1uTmFtZXMobWV0YURhdGE6IFJlc3VsdFNldE1ldGFEYXRhKTogQXJyYXk8U3RyaW5nPiA9CiAgICAgICAgICAgIEFycmF5KG1ldGFEYXRhLmNvbHVtbkNvdW50KSB7IGluZGV4IC0+IG1ldGFEYXRhLmdldENvbHVtbk5hbWUoaW5kZXggKyAxKSB9CiAgICB9Cn0K
+package com.bslsjdk.operit.data.stats
+
+import android.content.ContentValues
+import android.database.Cursor
+import android.net.Uri
+import android.os.Bundle
+import android.os.CancellationSignal
+import android.util.Pair
+import androidx.sqlite.db.SupportSQLiteDatabase
+import androidx.sqlite.db.SupportSQLiteQuery
+import androidx.sqlite.db.SupportSQLiteStatement
+import java.sql.Connection
+import java.sql.DriverManager
+import java.sql.ResultSet
+import java.sql.ResultSetMetaData
+import java.util.Locale
+
+/**
+ * 纯 JVM 的最小 [SupportSQLiteDatabase] 测试替身（基于 sqlite-jdbc），
+ * 用于直接驱动生产 `Migration.migrate(SupportSQLiteDatabase)` 变体。
+ *
+ * 只实现迁移路径实际用到的方法（execSQL / query / close / isOpen），
+ * 其余方法抛 [UnsupportedOperationException]，避免无意义的全量模拟。
+ *
+ * 残余风险：生产环境该变体由 Room 的兼容模式（RoomOpenHelper +
+ * SupportSQLiteConnection）驱动，包含事务包装与 schema 校验；本替身只覆盖
+ * 迁移对象本身与共享 SQL 的真实执行，不覆盖 Room 兼容模式编排（需 Android 框架）。
+ */
+class JvmSupportSQLiteDatabase(private val connection: Connection) : SupportSQLiteDatabase {
+
+    override fun execSQL(sql: String) {
+        connection.createStatement().use { it.execute(sql) }
+    }
+
+    override fun execSQL(sql: String, bindArgs: Array<out Any?>) {
+        connection.prepareStatement(sql).use { statement ->
+            bindArgs.forEachIndexed { index, arg ->
+                when (arg) {
+                    null -> statement.setNull(index + 1, java.sql.Types.NULL)
+                    is Long -> statement.setLong(index + 1, arg)
+                    is Int -> statement.setLong(index + 1, arg.toLong())
+                    is Double -> statement.setDouble(index + 1, arg)
+                    is Float -> statement.setDouble(index + 1, arg.toDouble())
+                    is Boolean -> statement.setInt(index + 1, if (arg) 1 else 0)
+                    is ByteArray -> statement.setBytes(index + 1, arg)
+                    else -> statement.setString(index + 1, arg.toString())
+                }
+            }
+            statement.execute()
+        }
+    }
+
+    override fun query(query: String): Cursor {
+        val resultSet = connection.createStatement().executeQuery(query)
+        return JvmCursor(resultSet)
+    }
+
+    override fun query(query: String, bindArgs: Array<out Any?>): Cursor {
+        val statement = connection.prepareStatement(query)
+        bindArgs.forEachIndexed { index, arg ->
+            when (arg) {
+                null -> statement.setNull(index + 1, java.sql.Types.NULL)
+                is Long -> statement.setLong(index + 1, arg)
+                is Int -> statement.setLong(index + 1, arg.toLong())
+                is Double -> statement.setDouble(index + 1, arg)
+                is Float -> statement.setDouble(index + 1, arg.toDouble())
+                is Boolean -> statement.setInt(index + 1, if (arg) 1 else 0)
+                is ByteArray -> statement.setBytes(index + 1, arg)
+                else -> statement.setString(index + 1, arg.toString())
+            }
+        }
+        return JvmCursor(statement.executeQuery(), statement)
+    }
+
+    override fun query(query: SupportSQLiteQuery): Cursor {
+        val statement = connection.prepareStatement(query.sql)
+        query.bindTo(object : androidx.sqlite.db.SupportSQLiteProgram {
+            override fun bindNull(index: Int) = statement.setNull(index, java.sql.Types.NULL)
+            override fun bindLong(index: Int, value: Long) = statement.setLong(index, value)
+            override fun bindDouble(index: Int, value: Double) = statement.setDouble(index, value)
+            override fun bindString(index: Int, value: String) = statement.setString(index, value)
+            override fun bindBlob(index: Int, value: ByteArray) = statement.setBytes(index, value)
+            override fun clearBindings() = statement.clearParameters()
+            override fun close() = statement.close()
+        })
+        return JvmCursor(statement.executeQuery(), statement)
+    }
+
+    override fun query(query: SupportSQLiteQuery, cancellationSignal: CancellationSignal?): Cursor =
+        query(query)
+
+    override fun close() {
+        connection.close()
+    }
+
+    override val isOpen: Boolean
+        get() = !connection.isClosed
+
+    override val path: String?
+        get() = "jvm-sqlite"
+
+    override val isReadOnly: Boolean
+        get() = false
+
+    override var version: Int
+        get() = unsupported("version")
+        set(value) = unsupported("version")
+
+    override val maximumSize: Long
+        get() = unsupported("maximumSize")
+
+    override fun setMaximumSize(numBytes: Long): Long = unsupported("setMaximumSize")
+
+    override var pageSize: Long
+        get() = unsupported("pageSize")
+        set(value) = unsupported("pageSize")
+
+    override val isDbLockedByCurrentThread: Boolean
+        get() = unsupported("isDbLockedByCurrentThread")
+
+    override val isWriteAheadLoggingEnabled: Boolean
+        get() = unsupported("isWriteAheadLoggingEnabled")
+
+    override val attachedDbs: List<Pair<String, String>>?
+        get() = unsupported("attachedDbs")
+
+    override val isDatabaseIntegrityOk: Boolean
+        get() = unsupported("isDatabaseIntegrityOk")
+
+    override fun compileStatement(sql: String): SupportSQLiteStatement =
+        unsupported("compileStatement")
+
+    override fun beginTransaction() = unsupported("beginTransaction")
+
+    override fun beginTransactionNonExclusive() = unsupported("beginTransactionNonExclusive")
+
+    override fun beginTransactionWithListener(listener: android.database.sqlite.SQLiteTransactionListener) =
+        unsupported("beginTransactionWithListener")
+
+    override fun beginTransactionWithListenerNonExclusive(
+        listener: android.database.sqlite.SQLiteTransactionListener,
+    ) = unsupported("beginTransactionWithListenerNonExclusive")
+
+    override fun endTransaction() = unsupported("endTransaction")
+
+    override fun setTransactionSuccessful() = unsupported("setTransactionSuccessful")
+
+    override fun inTransaction(): Boolean = unsupported("inTransaction")
+
+    override fun yieldIfContendedSafely(): Boolean = unsupported("yieldIfContendedSafely")
+
+    override fun yieldIfContendedSafely(sleepAfterYieldDelayMillis: Long): Boolean =
+        unsupported("yieldIfContendedSafely")
+
+    override fun insert(table: String, conflictAlgorithm: Int, values: ContentValues): Long =
+        unsupported("insert")
+
+    override fun delete(table: String, whereClause: String?, whereArgs: Array<out Any?>?): Int =
+        unsupported("delete")
+
+    override fun update(
+        table: String,
+        conflictAlgorithm: Int,
+        values: ContentValues,
+        whereClause: String?,
+        whereArgs: Array<out Any?>?,
+    ): Int = unsupported("update")
+
+    override fun needUpgrade(newVersion: Int): Boolean = unsupported("needUpgrade")
+
+    override fun setLocale(locale: Locale) = unsupported("setLocale")
+
+    override fun setMaxSqlCacheSize(cacheSize: Int) = unsupported("setMaxSqlCacheSize")
+
+    override fun setForeignKeyConstraintsEnabled(enable: Boolean) =
+        unsupported("setForeignKeyConstraintsEnabled")
+
+    override fun enableWriteAheadLogging(): Boolean = unsupported("enableWriteAheadLogging")
+
+    override fun disableWriteAheadLogging() = unsupported("disableWriteAheadLogging")
+
+    private fun unsupported(method: String): Nothing =
+        throw UnsupportedOperationException(
+            "JvmSupportSQLiteDatabase does not support $method (test double)"
+        )
+
+    companion object {
+        fun open(dbPath: String): JvmSupportSQLiteDatabase =
+            JvmSupportSQLiteDatabase(DriverManager.getConnection("jdbc:sqlite:$dbPath"))
+    }
+}
+
+/** 最小 android.database.Cursor 实现：迁移路径只用到读取行与列。 */
+private class JvmCursor(
+    private val resultSet: ResultSet,
+    private val closeable: AutoCloseable? = null,
+) : Cursor {
+
+    private val rows: List<Array<Any?>> = materialize(resultSet)
+    private val columnNames: Array<String> = columnNames(resultSet.metaData)
+    private val columnIndexByName: Map<String, Int> =
+        columnNames.withIndex().associate { (index, name) -> name.lowercase() to index }
+    private var position = -1
+    private var closed = false
+
+    override fun getCount(): Int = rows.size
+
+    override fun getPosition(): Int = position
+
+    override fun move(position: Int): Boolean = moveToPosition(this.position + position)
+
+    override fun moveToPosition(position: Int): Boolean {
+        if (position < -1 || position >= rows.size) {
+            this.position = -1
+            return false
+        }
+        this.position = position
+        return true
+    }
+
+    override fun moveToFirst(): Boolean = moveToPosition(0)
+
+    override fun moveToLast(): Boolean = moveToPosition(rows.size - 1)
+
+    override fun moveToNext(): Boolean = moveToPosition(position + 1)
+
+    override fun moveToPrevious(): Boolean = moveToPosition(position - 1)
+
+    override fun isFirst(): Boolean = position == 0 && rows.isNotEmpty()
+
+    override fun isLast(): Boolean = position == rows.size - 1 && position >= 0
+
+    override fun isBeforeFirst(): Boolean = position < 0 && rows.isNotEmpty()
+
+    override fun isAfterLast(): Boolean = position >= rows.size
+
+    override fun getColumnCount(): Int = columnNames.size
+
+    override fun getColumnIndex(columnName: String): Int =
+        columnIndexByName[columnName.lowercase()] ?: -1
+
+    override fun getColumnIndexOrThrow(columnName: String): Int {
+        val index = getColumnIndex(columnName)
+        if (index < 0) throw IllegalArgumentException("column '$columnName' does not exist")
+        return index
+    }
+
+    override fun getColumnName(columnIndex: Int): String = columnNames[columnIndex]
+
+    override fun getColumnNames(): Array<String> = columnNames.copyOf()
+
+    override fun getString(columnIndex: Int): String {
+        val value = row()[columnIndex]
+        return when (value) {
+            null -> ""
+            is ByteArray -> String(value)
+            else -> value.toString()
+        }
+    }
+
+    override fun getLong(columnIndex: Int): Long {
+        val value = row()[columnIndex]
+        return when (value) {
+            null -> 0L
+            is Number -> value.toLong()
+            else -> value.toString().toLong()
+        }
+    }
+
+    override fun getInt(columnIndex: Int): Int = getLong(columnIndex).toInt()
+
+    override fun getShort(columnIndex: Int): Short = getLong(columnIndex).toShort()
+
+    override fun getFloat(columnIndex: Int): Float {
+        val value = row()[columnIndex]
+        return when (value) {
+            null -> 0f
+            is Number -> value.toFloat()
+            else -> value.toString().toFloat()
+        }
+    }
+
+    override fun getDouble(columnIndex: Int): Double {
+        val value = row()[columnIndex]
+        return when (value) {
+            null -> 0.0
+            is Number -> value.toDouble()
+            else -> value.toString().toDouble()
+        }
+    }
+
+    override fun getBlob(columnIndex: Int): ByteArray = (row()[columnIndex] as? ByteArray) ?: ByteArray(0)
+
+    override fun isNull(columnIndex: Int): Boolean = row()[columnIndex] == null
+
+    override fun getType(columnIndex: Int): Int {
+        val value = row()[columnIndex]
+        return when (value) {
+            null -> android.database.Cursor.FIELD_TYPE_NULL
+            is ByteArray -> android.database.Cursor.FIELD_TYPE_BLOB
+            is String -> android.database.Cursor.FIELD_TYPE_STRING
+            is Number -> android.database.Cursor.FIELD_TYPE_INTEGER
+            else -> android.database.Cursor.FIELD_TYPE_STRING
+        }
+    }
+
+    override fun close() {
+        if (!closed) {
+            closed = true
+            closeable?.close()
+            resultSet.close()
+        }
+    }
+
+    override fun isClosed(): Boolean = closed
+
+    override fun deactivate() = Unit
+
+    override fun requery(): Boolean = false
+
+    override fun copyStringToBuffer(columnIndex: Int, buffer: android.database.CharArrayBuffer) =
+        unsupported("copyStringToBuffer")
+
+    override fun getWantsAllOnMoveCalls(): Boolean = false
+
+    override fun getExtras(): Bundle? = null
+
+    override fun setExtras(extras: Bundle?) = Unit
+
+    override fun respond(extras: Bundle?): Bundle? = null
+
+    override fun getNotificationUri(): Uri? = null
+
+    override fun setNotificationUri(cr: android.content.ContentResolver, notifyUri: Uri?) = Unit
+
+    override fun registerContentObserver(observer: android.database.ContentObserver) = Unit
+
+    override fun unregisterContentObserver(observer: android.database.ContentObserver) = Unit
+
+    override fun registerDataSetObserver(observer: android.database.DataSetObserver) = Unit
+
+    override fun unregisterDataSetObserver(observer: android.database.DataSetObserver) = Unit
+
+    private fun row(): Array<Any?> {
+        if (position < 0 || position >= rows.size) {
+            throw IllegalStateException("cursor position $position is out of range")
+        }
+        return rows[position]
+    }
+
+    private fun unsupported(method: String): Nothing =
+        throw UnsupportedOperationException("JvmCursor does not support $method (test double)")
+
+    private companion object {
+        fun materialize(resultSet: ResultSet): List<Array<Any?>> {
+            val rows = mutableListOf<Array<Any?>>()
+            val columnCount = resultSet.metaData.columnCount
+            while (resultSet.next()) {
+                val row = arrayOfNulls<Any?>(columnCount)
+                for (i in 1..columnCount) {
+                    row[i - 1] = resultSet.getObject(i)
+                }
+                rows += row
+            }
+            return rows
+        }
+
+        fun columnNames(metaData: ResultSetMetaData): Array<String> =
+            Array(metaData.columnCount) { index -> metaData.getColumnName(index + 1) }
+    }
+}

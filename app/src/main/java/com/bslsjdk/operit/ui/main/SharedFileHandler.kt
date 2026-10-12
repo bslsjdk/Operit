@@ -1,1 +1,43 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbgoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CgovKioKICogU2luZ2xldG9uIHRvIGhhbmRsZSBzaGFyZWQgZmlsZXMgZnJvbSBleHRlcm5hbCBhcHBzCiAqIE1hbmFnZXMgdGhlIHN0YXRlIGZsb3cgb2Ygc2hhcmVkIGZpbGUgVVJJcyBiZXR3ZWVuIE1haW5BY3Rpdml0eSBhbmQgQUlDaGF0U2NyZWVuCiAqLwpvYmplY3QgU2hhcmVkRmlsZUhhbmRsZXIgewogICAgcHJpdmF0ZSB2YWwgX3NoYXJlZEZpbGVzID0gTXV0YWJsZVN0YXRlRmxvdzxMaXN0PFVyaT4/PihudWxsKQogICAgdmFsIHNoYXJlZEZpbGVzOiBTdGF0ZUZsb3c8TGlzdDxVcmk+Pz4gPSBfc2hhcmVkRmlsZXMKICAgIHByaXZhdGUgdmFsIF9zaGFyZWRGaWxlVGV4dCA9IE11dGFibGVTdGF0ZUZsb3c8U3RyaW5nPz4obnVsbCkKICAgIHZhbCBzaGFyZWRGaWxlVGV4dDogU3RhdGVGbG93PFN0cmluZz8+ID0gX3NoYXJlZEZpbGVUZXh0CiAgICBwcml2YXRlIHZhbCBfc2hhcmVkVGV4dCA9IE11dGFibGVTdGF0ZUZsb3c8U3RyaW5nPz4obnVsbCkKICAgIHZhbCBzaGFyZWRUZXh0OiBTdGF0ZUZsb3c8U3RyaW5nPz4gPSBfc2hhcmVkVGV4dAogICAgCiAgICAvKioKICAgICAqIFNldCB0aGUgc2hhcmVkIGZpbGVzIHRvIGJlIHByb2Nlc3NlZAogICAgICovCiAgICBmdW4gc2V0U2hhcmVkRmlsZXModXJpczogTGlzdDxVcmk+LCB0ZXh0OiBTdHJpbmc/ID0gbnVsbCkgewogICAgICAgIF9zaGFyZWRGaWxlVGV4dC52YWx1ZSA9IHRleHQKICAgICAgICBfc2hhcmVkRmlsZXMudmFsdWUgPSB1cmlzCiAgICB9CgogICAgZnVuIHNldFNoYXJlZFRleHQodGV4dDogU3RyaW5nKSB7CiAgICAgICAgX3NoYXJlZFRleHQudmFsdWUgPSB0ZXh0CiAgICB9CgogICAgLyoqCiAgICAgKiBDbGVhciB0aGUgc2hhcmVkIGZpbGVzIGFmdGVyIHByb2Nlc3NpbmcKICAgICAqLwogICAgZnVuIGNsZWFyU2hhcmVkRmlsZXMoKSB7CiAgICAgICAgX3NoYXJlZEZpbGVzLnZhbHVlID0gbnVsbAogICAgICAgIF9zaGFyZWRGaWxlVGV4dC52YWx1ZSA9IG51bGwKICAgIH0KCiAgICBmdW4gY2xlYXJTaGFyZWRUZXh0KCkgewogICAgICAgIF9zaGFyZWRUZXh0LnZhbHVlID0gbnVsbAogICAgfQp9Cgo=
+package com.bslsjdk.operit.ui.main
+
+import android.net.Uri
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+
+/**
+ * Singleton to handle shared files from external apps
+ * Manages the state flow of shared file URIs between MainActivity and AIChatScreen
+ */
+object SharedFileHandler {
+    private val _sharedFiles = MutableStateFlow<List<Uri>?>(null)
+    val sharedFiles: StateFlow<List<Uri>?> = _sharedFiles
+    private val _sharedFileText = MutableStateFlow<String?>(null)
+    val sharedFileText: StateFlow<String?> = _sharedFileText
+    private val _sharedText = MutableStateFlow<String?>(null)
+    val sharedText: StateFlow<String?> = _sharedText
+    
+    /**
+     * Set the shared files to be processed
+     */
+    fun setSharedFiles(uris: List<Uri>, text: String? = null) {
+        _sharedFileText.value = text
+        _sharedFiles.value = uris
+    }
+
+    fun setSharedText(text: String) {
+        _sharedText.value = text
+    }
+
+    /**
+     * Clear the shared files after processing
+     */
+    fun clearSharedFiles() {
+        _sharedFiles.value = null
+        _sharedFileText.value = null
+    }
+
+    fun clearSharedText() {
+        _sharedText.value = null
+    }
+}
+

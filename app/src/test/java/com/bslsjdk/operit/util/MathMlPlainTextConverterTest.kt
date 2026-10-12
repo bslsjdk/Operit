@@ -1,1 +1,76 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgTWF0aE1sUGxhaW5UZXh0Q29udmVydGVyVGVzdCB7CiAgICBAVGVzdCBmdW4gY29udmVydF9yZW5kZXJzRnJhY3Rpb25zUm9vdHNBbmRTdXBlcnNjcmlwdHMoKSB7CiAgICAgICAgdmFsIG1hdGhNbCA9CiAgICAgICAgICAgICIiIgogICAgICAgICAgICA8bWF0aD4KICAgICAgICAgICAgICA8c2VtYW50aWNzPgogICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgIDxtaT54PC9taT4KICAgICAgICAgICAgICAgICAgPG1vPj08L21vPgogICAgICAgICAgICAgICAgICA8bWZyYWM+CiAgICAgICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgICAgICA8bW8+4oiSPC9tbz48bWk+YjwvbWk+PG1vPsKxPC9tbz4KICAgICAgICAgICAgICAgICAgICAgIDxtc3FydD4KICAgICAgICAgICAgICAgICAgICAgICAgPG1yb3c+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPG1zdXA+PG1pPmI8L21pPjxtbj4yPC9tbj48L21zdXA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPG1vPuKIkjwvbW8+PG1uPjQ8L21uPjxtaT5hPC9taT48bWk+YzwvbWk+CiAgICAgICAgICAgICAgICAgICAgICAgIDwvbXJvdz4KICAgICAgICAgICAgICAgICAgICAgIDwvbXNxcnQ+CiAgICAgICAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICAgICAgICAgIDxtcm93Pjxtbj4yPC9tbj48bWk+YTwvbWk+PC9tcm93PgogICAgICAgICAgICAgICAgICA8L21mcmFjPgogICAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICAgICAgPGFubm90YXRpb24gZW5jb2Rpbmc9ImFwcGxpY2F0aW9uL3gtdGV4Ij5pZ25vcmVkPC9hbm5vdGF0aW9uPgogICAgICAgICAgICAgIDwvc2VtYW50aWNzPgogICAgICAgICAgICA8L21hdGg+CiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAieCA9ICjiiJIgYiDCsSDiiJooYsKyIOKIkiA0YWMpKS8oMmEpIiwKICAgICAgICAgICAgTWF0aE1sUGxhaW5UZXh0Q29udmVydGVyLmNvbnZlcnQobWF0aE1sKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gY29udmVydF9yZW5kZXJzU3Vic2NyaXB0c0FuZFN1bW1hdGlvbkxpbWl0cygpIHsKICAgICAgICB2YWwgbWF0aE1sID0KICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIDxtYXRoPgogICAgICAgICAgICAgIDxtcm93PgogICAgICAgICAgICAgICAgPG1zdWJzdXA+CiAgICAgICAgICAgICAgICAgIDxtbz7iiJE8L21vPgogICAgICAgICAgICAgICAgICA8bXJvdz48bWk+bjwvbWk+PG1vPj08L21vPjxtbj4wPC9tbj48L21yb3c+CiAgICAgICAgICAgICAgICAgIDxtaT7iiJ48L21pPgogICAgICAgICAgICAgICAgPC9tc3Vic3VwPgogICAgICAgICAgICAgICAgPG1zdXA+PG1pPmk8L21pPjxtbj4yPC9tbj48L21zdXA+CiAgICAgICAgICAgICAgPC9tcm93PgogICAgICAgICAgICA8L21hdGg+CiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAi4oiRXyhuID0gMCleKOKInikgacKyIiwKICAgICAgICAgICAgTWF0aE1sUGxhaW5UZXh0Q29udmVydGVyLmNvbnZlcnQobWF0aE1sKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gY29udmVydF9yZW5kZXJzTWF0cmljZXNBc1Jvd3NBbmRDb2x1bW5zKCkgewogICAgICAgIHZhbCBtYXRoTWwgPQogICAgICAgICAgICAiIiIKICAgICAgICAgICAgPG1hdGg+CiAgICAgICAgICAgICAgPG10YWJsZT4KICAgICAgICAgICAgICAgIDxtdHI+PG10ZD48bWk+YTwvbWk+PC9tdGQ+PG10ZD48bWk+YjwvbWk+PC9tdGQ+PC9tdHI+CiAgICAgICAgICAgICAgICA8bXRyPjxtdGQ+PG1pPmM8L21pPjwvbXRkPjxtdGQ+PG1pPmQ8L21pPjwvbXRkPjwvbXRyPgogICAgICAgICAgICAgIDwvbXRhYmxlPgogICAgICAgICAgICA8L21hdGg+CiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiW2EsIGI7IGMsIGRdIiwKICAgICAgICAgICAgTWF0aE1sUGxhaW5UZXh0Q29udmVydGVyLmNvbnZlcnQobWF0aE1sKQogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class MathMlPlainTextConverterTest {
+    @Test fun convert_rendersFractionsRootsAndSuperscripts() {
+        val mathMl =
+            """
+            <math>
+              <semantics>
+                <mrow>
+                  <mi>x</mi>
+                  <mo>=</mo>
+                  <mfrac>
+                    <mrow>
+                      <mo>−</mo><mi>b</mi><mo>±</mo>
+                      <msqrt>
+                        <mrow>
+                          <msup><mi>b</mi><mn>2</mn></msup>
+                          <mo>−</mo><mn>4</mn><mi>a</mi><mi>c</mi>
+                        </mrow>
+                      </msqrt>
+                    </mrow>
+                    <mrow><mn>2</mn><mi>a</mi></mrow>
+                  </mfrac>
+                </mrow>
+                <annotation encoding="application/x-tex">ignored</annotation>
+              </semantics>
+            </math>
+            """.trimIndent()
+
+        assertEquals(
+            "x = (− b ± √(b² − 4ac))/(2a)",
+            MathMlPlainTextConverter.convert(mathMl)
+        )
+    }
+
+    @Test fun convert_rendersSubscriptsAndSummationLimits() {
+        val mathMl =
+            """
+            <math>
+              <mrow>
+                <msubsup>
+                  <mo>∑</mo>
+                  <mrow><mi>n</mi><mo>=</mo><mn>0</mn></mrow>
+                  <mi>∞</mi>
+                </msubsup>
+                <msup><mi>i</mi><mn>2</mn></msup>
+              </mrow>
+            </math>
+            """.trimIndent()
+
+        assertEquals(
+            "∑_(n = 0)^(∞) i²",
+            MathMlPlainTextConverter.convert(mathMl)
+        )
+    }
+
+    @Test fun convert_rendersMatricesAsRowsAndColumns() {
+        val mathMl =
+            """
+            <math>
+              <mtable>
+                <mtr><mtd><mi>a</mi></mtd><mtd><mi>b</mi></mtd></mtr>
+                <mtr><mtd><mi>c</mi></mtd><mtd><mi>d</mi></mtd></mtr>
+              </mtable>
+            </math>
+            """.trimIndent()
+
+        assertEquals(
+            "[a, b; c, d]",
+            MathMlPlainTextConverter.convert(mathMl)
+        )
+    }
+}

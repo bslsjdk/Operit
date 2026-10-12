@@ -1,1 +1,142 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgeyBtYWtlRmlsZSwgUnVubmFibGUgfSA9IHJlcXVpcmUoJy4vY29tbW9uJyk7CgpleHBvcnRzLmNhdGFsb2cgPSBmdW5jdGlvbiBjYXRhbG9nKCkgewogIHJldHVybiB7CiAgICBmdW5jdGlvbnM6IFsKICAgICAgJ3JldHVyblBsYWluSnNvbicsCiAgICAgICdjb21wbGV0ZVBsYWluSnNvbicsCiAgICAgICdyZXR1cm5KYXZhUHJveHknLAogICAgICAnY29tcGxldGVKYXZhUHJveHknLAogICAgICAncmV0dXJuTmVzdGVkSmF2YVZhbHVlcycsCiAgICAgICdjb21wbGV0ZU5lc3RlZEphdmFWYWx1ZXMnLAogICAgICAncmV0dXJuQ2FsbGJhY2tQcm94eScsCiAgICAgICdjb21wbGV0ZUNhbGxiYWNrUHJveHknLAogICAgICAncmV0dXJuTWl4ZWRTdHJ1Y3R1cmVkVmFsdWUnLAogICAgICAnY29tcGxldGVNaXhlZFN0cnVjdHVyZWRWYWx1ZScsCiAgICAgICdyZXR1cm5KYXZhUHJveHlBcnJheScsCiAgICAgICdjb21wbGV0ZUphdmFQcm94eUFycmF5JywKICAgICAgJ3JldHVybkNsYXNzQW5kRW51bVZhbHVlcycsCiAgICAgICdjb21wbGV0ZUNsYXNzQW5kRW51bVZhbHVlcycsCiAgICBdLAogIH07Cn07CgpleHBvcnRzLnJldHVyblBsYWluSnNvbiA9IGZ1bmN0aW9uIHJldHVyblBsYWluSnNvbigpIHsKICByZXR1cm4gewogICAgb2s6IHRydWUsCiAgICBraW5kOiAncGxhaW4tanNvbicsCiAgICB2YWx1ZXM6IFsxLCAyLCAzXSwKICB9Owp9OwoKZXhwb3J0cy5jb21wbGV0ZVBsYWluSnNvbiA9IGZ1bmN0aW9uIGNvbXBsZXRlUGxhaW5Kc29uKCkgewogIGNvbXBsZXRlKHsKICAgIG9rOiB0cnVlLAogICAga2luZDogJ3BsYWluLWpzb24nLAogICAgdmFsdWVzOiBbMSwgMiwgM10sCiAgfSk7Cn07CgpleHBvcnRzLnJldHVybkphdmFQcm94eSA9IGZ1bmN0aW9uIHJldHVybkphdmFQcm94eSgpIHsKICByZXR1cm4gbWFrZUZpbGUoJy9zZGNhcmQvcmV0dXJuLWphdmEtcHJveHkudHh0Jyk7Cn07CgpleHBvcnRzLmNvbXBsZXRlSmF2YVByb3h5ID0gZnVuY3Rpb24gY29tcGxldGVKYXZhUHJveHkoKSB7CiAgY29tcGxldGUobWFrZUZpbGUoJy9zZGNhcmQvY29tcGxldGUtamF2YS1wcm94eS50eHQnKSk7Cn07CgpleHBvcnRzLnJldHVybk5lc3RlZEphdmFWYWx1ZXMgPSBmdW5jdGlvbiByZXR1cm5OZXN0ZWRKYXZhVmFsdWVzKCkgewogIHJldHVybiB7CiAgICB0aXRsZTogJ25lc3RlZC1qYXZhLXZhbHVlcycsCiAgICBmaWxlOiBtYWtlRmlsZSgnL3NkY2FyZC9uZXN0ZWQtYS50eHQnKSwKICAgIGZpbGVzOiBbCiAgICAgIG1ha2VGaWxlKCcvc2RjYXJkL25lc3RlZC1iLnR4dCcpLAogICAgICBtYWtlRmlsZSgnL3NkY2FyZC9uZXN0ZWQtYy50eHQnKSwKICAgIF0sCiAgfTsKfTsKCmV4cG9ydHMuY29tcGxldGVOZXN0ZWRKYXZhVmFsdWVzID0gZnVuY3Rpb24gY29tcGxldGVOZXN0ZWRKYXZhVmFsdWVzKCkgewogIGNvbXBsZXRlKHsKICAgIHRpdGxlOiAnbmVzdGVkLWphdmEtdmFsdWVzJywKICAgIGZpbGU6IG1ha2VGaWxlKCcvc2RjYXJkL25lc3RlZC1hLnR4dCcpLAogICAgZmlsZXM6IFsKICAgICAgbWFrZUZpbGUoJy9zZGNhcmQvbmVzdGVkLWIudHh0JyksCiAgICAgIG1ha2VGaWxlKCcvc2RjYXJkL25lc3RlZC1jLnR4dCcpLAogICAgXSwKICB9KTsKfTsKCmV4cG9ydHMucmV0dXJuQ2FsbGJhY2tQcm94eSA9IGZ1bmN0aW9uIHJldHVybkNhbGxiYWNrUHJveHkoKSB7CiAgcmV0dXJuIEphdmEuaW1wbGVtZW50KFJ1bm5hYmxlLCB7CiAgICBydW46IGZ1bmN0aW9uICgpIHt9LAogIH0pOwp9OwoKZXhwb3J0cy5jb21wbGV0ZUNhbGxiYWNrUHJveHkgPSBmdW5jdGlvbiBjb21wbGV0ZUNhbGxiYWNrUHJveHkoKSB7CiAgY29tcGxldGUoSmF2YS5pbXBsZW1lbnQoUnVubmFibGUsIHsKICAgIHJ1bjogZnVuY3Rpb24gKCkge30sCiAgfSkpOwp9OwoKZXhwb3J0cy5yZXR1cm5NaXhlZFN0cnVjdHVyZWRWYWx1ZSA9IGZ1bmN0aW9uIHJldHVybk1peGVkU3RydWN0dXJlZFZhbHVlKCkgewogIHJldHVybiB7CiAgICBvazogdHJ1ZSwKICAgIGNvdW50OiAzLAogICAgZmlsZTogbWFrZUZpbGUoJy9zZGNhcmQvbWl4ZWQtc3RydWN0dXJlZC50eHQnKSwKICAgIGNhbGxiYWNrOiBKYXZhLmltcGxlbWVudChSdW5uYWJsZSwgewogICAgICBydW46IGZ1bmN0aW9uICgpIHt9LAogICAgfSksCiAgICBuZXN0ZWQ6IHsKICAgICAgdmFsdWVzOiBbMSwgJ3R3bycsIG51bGxdLAogICAgICBleHRyYUZpbGU6IG1ha2VGaWxlKCcvc2RjYXJkL21peGVkLWV4dHJhLnR4dCcpLAogICAgfSwKICB9Owp9OwoKZXhwb3J0cy5jb21wbGV0ZU1peGVkU3RydWN0dXJlZFZhbHVlID0gZnVuY3Rpb24gY29tcGxldGVNaXhlZFN0cnVjdHVyZWRWYWx1ZSgpIHsKICBjb21wbGV0ZSh7CiAgICBvazogdHJ1ZSwKICAgIGNvdW50OiAzLAogICAgZmlsZTogbWFrZUZpbGUoJy9zZGNhcmQvbWl4ZWQtc3RydWN0dXJlZC50eHQnKSwKICAgIGNhbGxiYWNrOiBKYXZhLmltcGxlbWVudChSdW5uYWJsZSwgewogICAgICBydW46IGZ1bmN0aW9uICgpIHt9LAogICAgfSksCiAgICBuZXN0ZWQ6IHsKICAgICAgdmFsdWVzOiBbMSwgJ3R3bycsIG51bGxdLAogICAgICBleHRyYUZpbGU6IG1ha2VGaWxlKCcvc2RjYXJkL21peGVkLWV4dHJhLnR4dCcpLAogICAgfSwKICB9KTsKfTsKCmV4cG9ydHMucmV0dXJuSmF2YVByb3h5QXJyYXkgPSBmdW5jdGlvbiByZXR1cm5KYXZhUHJveHlBcnJheSgpIHsKICByZXR1cm4gWwogICAgbWFrZUZpbGUoJy9zZGNhcmQvYXJyYXktYS50eHQnKSwKICAgIG1ha2VGaWxlKCcvc2RjYXJkL2FycmF5LWIudHh0JyksCiAgICBtYWtlRmlsZSgnL3NkY2FyZC9hcnJheS1jLnR4dCcpLAogIF07Cn07CgpleHBvcnRzLmNvbXBsZXRlSmF2YVByb3h5QXJyYXkgPSBmdW5jdGlvbiBjb21wbGV0ZUphdmFQcm94eUFycmF5KCkgewogIGNvbXBsZXRlKFsKICAgIG1ha2VGaWxlKCcvc2RjYXJkL2FycmF5LWEudHh0JyksCiAgICBtYWtlRmlsZSgnL3NkY2FyZC9hcnJheS1iLnR4dCcpLAogICAgbWFrZUZpbGUoJy9zZGNhcmQvYXJyYXktYy50eHQnKSwKICBdKTsKfTsKCmV4cG9ydHMucmV0dXJuQ2xhc3NBbmRFbnVtVmFsdWVzID0gZnVuY3Rpb24gcmV0dXJuQ2xhc3NBbmRFbnVtVmFsdWVzKCkgewogIHJldHVybiB7CiAgICBmaWxlQ2xhc3M6IG1ha2VGaWxlKCcvc2RjYXJkL2NsYXNzLWVudW0udHh0JykuZ2V0Q2xhc3MoKSwKICAgIHRocmVhZFN0YXRlOiBKYXZhLmphdmEubGFuZy5UaHJlYWQuY3VycmVudFRocmVhZCgpLmdldFN0YXRlKCksCiAgfTsKfTsKCmV4cG9ydHMuY29tcGxldGVDbGFzc0FuZEVudW1WYWx1ZXMgPSBmdW5jdGlvbiBjb21wbGV0ZUNsYXNzQW5kRW51bVZhbHVlcygpIHsKICBjb21wbGV0ZSh7CiAgICBmaWxlQ2xhc3M6IG1ha2VGaWxlKCcvc2RjYXJkL2NsYXNzLWVudW0udHh0JykuZ2V0Q2xhc3MoKSwKICAgIHRocmVhZFN0YXRlOiBKYXZhLmphdmEubGFuZy5UaHJlYWQuY3VycmVudFRocmVhZCgpLmdldFN0YXRlKCksCiAgfSk7Cn07Cg==
+'use strict';
+
+const { makeFile, Runnable } = require('./common');
+
+exports.catalog = function catalog() {
+  return {
+    functions: [
+      'returnPlainJson',
+      'completePlainJson',
+      'returnJavaProxy',
+      'completeJavaProxy',
+      'returnNestedJavaValues',
+      'completeNestedJavaValues',
+      'returnCallbackProxy',
+      'completeCallbackProxy',
+      'returnMixedStructuredValue',
+      'completeMixedStructuredValue',
+      'returnJavaProxyArray',
+      'completeJavaProxyArray',
+      'returnClassAndEnumValues',
+      'completeClassAndEnumValues',
+    ],
+  };
+};
+
+exports.returnPlainJson = function returnPlainJson() {
+  return {
+    ok: true,
+    kind: 'plain-json',
+    values: [1, 2, 3],
+  };
+};
+
+exports.completePlainJson = function completePlainJson() {
+  complete({
+    ok: true,
+    kind: 'plain-json',
+    values: [1, 2, 3],
+  });
+};
+
+exports.returnJavaProxy = function returnJavaProxy() {
+  return makeFile('/sdcard/return-java-proxy.txt');
+};
+
+exports.completeJavaProxy = function completeJavaProxy() {
+  complete(makeFile('/sdcard/complete-java-proxy.txt'));
+};
+
+exports.returnNestedJavaValues = function returnNestedJavaValues() {
+  return {
+    title: 'nested-java-values',
+    file: makeFile('/sdcard/nested-a.txt'),
+    files: [
+      makeFile('/sdcard/nested-b.txt'),
+      makeFile('/sdcard/nested-c.txt'),
+    ],
+  };
+};
+
+exports.completeNestedJavaValues = function completeNestedJavaValues() {
+  complete({
+    title: 'nested-java-values',
+    file: makeFile('/sdcard/nested-a.txt'),
+    files: [
+      makeFile('/sdcard/nested-b.txt'),
+      makeFile('/sdcard/nested-c.txt'),
+    ],
+  });
+};
+
+exports.returnCallbackProxy = function returnCallbackProxy() {
+  return Java.implement(Runnable, {
+    run: function () {},
+  });
+};
+
+exports.completeCallbackProxy = function completeCallbackProxy() {
+  complete(Java.implement(Runnable, {
+    run: function () {},
+  }));
+};
+
+exports.returnMixedStructuredValue = function returnMixedStructuredValue() {
+  return {
+    ok: true,
+    count: 3,
+    file: makeFile('/sdcard/mixed-structured.txt'),
+    callback: Java.implement(Runnable, {
+      run: function () {},
+    }),
+    nested: {
+      values: [1, 'two', null],
+      extraFile: makeFile('/sdcard/mixed-extra.txt'),
+    },
+  };
+};
+
+exports.completeMixedStructuredValue = function completeMixedStructuredValue() {
+  complete({
+    ok: true,
+    count: 3,
+    file: makeFile('/sdcard/mixed-structured.txt'),
+    callback: Java.implement(Runnable, {
+      run: function () {},
+    }),
+    nested: {
+      values: [1, 'two', null],
+      extraFile: makeFile('/sdcard/mixed-extra.txt'),
+    },
+  });
+};
+
+exports.returnJavaProxyArray = function returnJavaProxyArray() {
+  return [
+    makeFile('/sdcard/array-a.txt'),
+    makeFile('/sdcard/array-b.txt'),
+    makeFile('/sdcard/array-c.txt'),
+  ];
+};
+
+exports.completeJavaProxyArray = function completeJavaProxyArray() {
+  complete([
+    makeFile('/sdcard/array-a.txt'),
+    makeFile('/sdcard/array-b.txt'),
+    makeFile('/sdcard/array-c.txt'),
+  ]);
+};
+
+exports.returnClassAndEnumValues = function returnClassAndEnumValues() {
+  return {
+    fileClass: makeFile('/sdcard/class-enum.txt').getClass(),
+    threadState: Java.java.lang.Thread.currentThread().getState(),
+  };
+};
+
+exports.completeClassAndEnumValues = function completeClassAndEnumValues() {
+  complete({
+    fileClass: makeFile('/sdcard/class-enum.txt').getClass(),
+    threadState: Java.java.lang.Thread.currentThread().getState(),
+  });
+};

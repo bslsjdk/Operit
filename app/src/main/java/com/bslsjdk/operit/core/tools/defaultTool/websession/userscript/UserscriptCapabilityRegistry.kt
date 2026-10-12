@@ -1,1 +1,244 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQKCmltcG9ydCBhbmRyb2lkeC53ZWJraXQuV2ViVmlld0ZlYXR1cmUKCmludGVybmFsIGRhdGEgY2xhc3MgVXNlcnNjcmlwdENhcGFiaWxpdHkoCiAgICB2YWwgY2Fub25pY2FsR3JhbnQ6IFN0cmluZywKICAgIHZhbCBhbGlhc2VzOiBTZXQ8U3RyaW5nPiA9IGVtcHR5U2V0KCksCiAgICB2YWwgcnVudGltZVN5bWJvbHM6IFNldDxTdHJpbmc+ID0gZW1wdHlTZXQoKSwKICAgIHZhbCBob3N0TWVzc2FnZXM6IFNldDxTdHJpbmc+ID0gZW1wdHlTZXQoKSwKICAgIHZhbCByZXF1aXJlc0RvY3VtZW50U3RhcnRJbmplY3Rpb246IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCByZXF1aXJlc1JlcXVlc3RJbnRlcmNlcHRpb246IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBibG9ja2luZ1JlYXNvbjogKCgpIC0+IFN0cmluZz8pPyA9IG51bGwKKQoKaW50ZXJuYWwgb2JqZWN0IFVzZXJzY3JpcHRDYXBhYmlsaXR5UmVnaXN0cnkgewogICAgcHJpdmF0ZSB2YWwgY2FwYWJpbGl0aWVzID0KICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00uYWRkRWxlbWVudCIsCiAgICAgICAgICAgICAgICBhbGlhc2VzID0gc2V0T2YoIkdNX2FkZEVsZW1lbnQiKSwKICAgICAgICAgICAgICAgIHJ1bnRpbWVTeW1ib2xzID0gc2V0T2YoIkdNLmFkZEVsZW1lbnQiLCAiR01fYWRkRWxlbWVudCIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00uYWRkU3R5bGUiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9hZGRTdHlsZSIpLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigiR00uYWRkU3R5bGUiLCAiR01fYWRkU3R5bGUiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLmRlbGV0ZVZhbHVlIiwKICAgICAgICAgICAgICAgIGFsaWFzZXMgPSBzZXRPZigiR01fZGVsZXRlVmFsdWUiKSwKICAgICAgICAgICAgICAgIHJ1bnRpbWVTeW1ib2xzID0gc2V0T2YoIkdNLmRlbGV0ZVZhbHVlIiwgIkdNX2RlbGV0ZVZhbHVlIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigic3RvcmFnZV9kZWxldGUiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLmRlbGV0ZVZhbHVlcyIsCiAgICAgICAgICAgICAgICBhbGlhc2VzID0gc2V0T2YoIkdNX2RlbGV0ZVZhbHVlcyIpLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigiR00uZGVsZXRlVmFsdWVzIiwgIkdNX2RlbGV0ZVZhbHVlcyIpLAogICAgICAgICAgICAgICAgaG9zdE1lc3NhZ2VzID0gc2V0T2YoInN0b3JhZ2VfZGVsZXRlX21hbnkiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLmRvd25sb2FkIiwKICAgICAgICAgICAgICAgIGFsaWFzZXMgPSBzZXRPZigiR01fZG93bmxvYWQiKSwKICAgICAgICAgICAgICAgIHJ1bnRpbWVTeW1ib2xzID0gc2V0T2YoIkdNLmRvd25sb2FkIiwgIkdNX2Rvd25sb2FkIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigiZ21fZG93bmxvYWQiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLmdldFJlc291cmNlVGV4dCIsCiAgICAgICAgICAgICAgICBhbGlhc2VzID0gc2V0T2YoIkdNX2dldFJlc291cmNlVGV4dCIpLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigiR00uZ2V0UmVzb3VyY2VUZXh0IiwgIkdNX2dldFJlc291cmNlVGV4dCIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00uZ2V0UmVzb3VyY2VVUkwiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9nZXRSZXNvdXJjZVVSTCIpLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigiR00uZ2V0UmVzb3VyY2VVUkwiLCAiR01fZ2V0UmVzb3VyY2VVUkwiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLmdldFRhYiIsCiAgICAgICAgICAgICAgICBhbGlhc2VzID0gc2V0T2YoIkdNX2dldFRhYiIpLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigiR00uZ2V0VGFiIiwgIkdNX2dldFRhYiIpLAogICAgICAgICAgICAgICAgaG9zdE1lc3NhZ2VzID0gc2V0T2YoImdtX2dldF90YWIiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLmdldFRhYnMiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9nZXRUYWJzIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS5nZXRUYWJzIiwgIkdNX2dldFRhYnMiKSwKICAgICAgICAgICAgICAgIGhvc3RNZXNzYWdlcyA9IHNldE9mKCJnbV9nZXRfdGFicyIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00uZ2V0VmFsdWUiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9nZXRWYWx1ZSIpLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigiR00uZ2V0VmFsdWUiLCAiR01fZ2V0VmFsdWUiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLmdldFZhbHVlcyIsCiAgICAgICAgICAgICAgICBhbGlhc2VzID0gc2V0T2YoIkdNX2dldFZhbHVlcyIpLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigiR00uZ2V0VmFsdWVzIiwgIkdNX2dldFZhbHVlcyIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00uaW5mbyIsCiAgICAgICAgICAgICAgICBhbGlhc2VzID0gc2V0T2YoIkdNX2luZm8iKSwKICAgICAgICAgICAgICAgIHJ1bnRpbWVTeW1ib2xzID0gc2V0T2YoIkdNLmluZm8iLCAiR01faW5mbyIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00ubGlzdFZhbHVlcyIsCiAgICAgICAgICAgICAgICBhbGlhc2VzID0gc2V0T2YoIkdNX2xpc3RWYWx1ZXMiKSwKICAgICAgICAgICAgICAgIHJ1bnRpbWVTeW1ib2xzID0gc2V0T2YoIkdNLmxpc3RWYWx1ZXMiLCAiR01fbGlzdFZhbHVlcyIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00ubG9nIiwKICAgICAgICAgICAgICAgIGFsaWFzZXMgPSBzZXRPZigiR01fbG9nIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS5sb2ciLCAiR01fbG9nIikKICAgICAgICAgICAgKSwKICAgICAgICAgICAgVXNlcnNjcmlwdENhcGFiaWxpdHkoCiAgICAgICAgICAgICAgICBjYW5vbmljYWxHcmFudCA9ICJHTS5ub3RpZmljYXRpb24iLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9ub3RpZmljYXRpb24iKSwKICAgICAgICAgICAgICAgIHJ1bnRpbWVTeW1ib2xzID0gc2V0T2YoIkdNLm5vdGlmaWNhdGlvbiIsICJHTV9ub3RpZmljYXRpb24iKSwKICAgICAgICAgICAgICAgIGhvc3RNZXNzYWdlcyA9IHNldE9mKCJnbV9ub3RpZmljYXRpb24iKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLm9wZW5JblRhYiIsCiAgICAgICAgICAgICAgICBhbGlhc2VzID0gc2V0T2YoIkdNX29wZW5JblRhYiIpLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigiR00ub3BlbkluVGFiIiwgIkdNX29wZW5JblRhYiIpLAogICAgICAgICAgICAgICAgaG9zdE1lc3NhZ2VzID0gc2V0T2YoImdtX29wZW5faW5fdGFiIiwgImdtX2ZvY3VzX3RhYiIsICJnbV9jbG9zZV90YWIiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLnJlZ2lzdGVyTWVudUNvbW1hbmQiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9yZWdpc3Rlck1lbnVDb21tYW5kIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS5yZWdpc3Rlck1lbnVDb21tYW5kIiwgIkdNX3JlZ2lzdGVyTWVudUNvbW1hbmQiKSwKICAgICAgICAgICAgICAgIGhvc3RNZXNzYWdlcyA9IHNldE9mKCJyZWdpc3Rlcl9tZW51X2NvbW1hbmQiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLmFkZFZhbHVlQ2hhbmdlTGlzdGVuZXIiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9hZGRWYWx1ZUNoYW5nZUxpc3RlbmVyIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS5hZGRWYWx1ZUNoYW5nZUxpc3RlbmVyIiwgIkdNX2FkZFZhbHVlQ2hhbmdlTGlzdGVuZXIiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLnJlbW92ZVZhbHVlQ2hhbmdlTGlzdGVuZXIiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9yZW1vdmVWYWx1ZUNoYW5nZUxpc3RlbmVyIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS5yZW1vdmVWYWx1ZUNoYW5nZUxpc3RlbmVyIiwgIkdNX3JlbW92ZVZhbHVlQ2hhbmdlTGlzdGVuZXIiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLnNhdmVUYWIiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9zYXZlVGFiIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS5zYXZlVGFiIiwgIkdNX3NhdmVUYWIiKSwKICAgICAgICAgICAgICAgIGhvc3RNZXNzYWdlcyA9IHNldE9mKCJnbV9zYXZlX3RhYiIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00uc2V0Q2xpcGJvYXJkIiwKICAgICAgICAgICAgICAgIGFsaWFzZXMgPSBzZXRPZigiR01fc2V0Q2xpcGJvYXJkIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS5zZXRDbGlwYm9hcmQiLCAiR01fc2V0Q2xpcGJvYXJkIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigiZ21fc2V0X2NsaXBib2FyZCIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00uc2V0VmFsdWUiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV9zZXRWYWx1ZSIpLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigiR00uc2V0VmFsdWUiLCAiR01fc2V0VmFsdWUiKSwKICAgICAgICAgICAgICAgIGhvc3RNZXNzYWdlcyA9IHNldE9mKCJzdG9yYWdlX3NldCIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00uc2V0VmFsdWVzIiwKICAgICAgICAgICAgICAgIGFsaWFzZXMgPSBzZXRPZigiR01fc2V0VmFsdWVzIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS5zZXRWYWx1ZXMiLCAiR01fc2V0VmFsdWVzIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigic3RvcmFnZV9zZXRfbWFueSIpCiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00udW5yZWdpc3Rlck1lbnVDb21tYW5kIiwKICAgICAgICAgICAgICAgIGFsaWFzZXMgPSBzZXRPZigiR01fdW5yZWdpc3Rlck1lbnVDb21tYW5kIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS51bnJlZ2lzdGVyTWVudUNvbW1hbmQiLCAiR01fdW5yZWdpc3Rlck1lbnVDb21tYW5kIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigidW5yZWdpc3Rlcl9tZW51X2NvbW1hbmQiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLndlYlJlcXVlc3QiLAogICAgICAgICAgICAgICAgYWxpYXNlcyA9IHNldE9mKCJHTV93ZWJSZXF1ZXN0IiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS53ZWJSZXF1ZXN0IiwgIkdNX3dlYlJlcXVlc3QiKSwKICAgICAgICAgICAgICAgIGhvc3RNZXNzYWdlcyA9IHNldE9mKCJnbV93ZWJfcmVxdWVzdF9yZWdpc3RlciIsICJnbV93ZWJfcmVxdWVzdF91bnJlZ2lzdGVyIiksCiAgICAgICAgICAgICAgICByZXF1aXJlc0RvY3VtZW50U3RhcnRJbmplY3Rpb24gPSB0cnVlLAogICAgICAgICAgICAgICAgcmVxdWlyZXNSZXF1ZXN0SW50ZXJjZXB0aW9uID0gdHJ1ZQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLnhtbEh0dHBSZXF1ZXN0IiwKICAgICAgICAgICAgICAgIGFsaWFzZXMgPSBzZXRPZigiR01feG1saHR0cFJlcXVlc3QiLCAiR01feG1sSHR0cFJlcXVlc3QiKSwKICAgICAgICAgICAgICAgIHJ1bnRpbWVTeW1ib2xzID0gc2V0T2YoIkdNLnhtbEh0dHBSZXF1ZXN0IiwgIkdNX3htbGh0dHBSZXF1ZXN0IiwgIkdNX3htbEh0dHBSZXF1ZXN0IiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigiZ21feG1saHR0cF9yZXF1ZXN0IiwgImdtX2Fib3J0X3JlcXVlc3QiKQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgKICAgICAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50ID0gIkdNLmF1ZGlvIiwKICAgICAgICAgICAgICAgIGFsaWFzZXMgPSBzZXRPZigiR01fYXVkaW8iKSwKICAgICAgICAgICAgICAgIHJ1bnRpbWVTeW1ib2xzID0gc2V0T2YoIkdNLmF1ZGlvIiwgIkdNX2F1ZGlvIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigiZ21fYXVkaW8iKSwKICAgICAgICAgICAgICAgIGJsb2NraW5nUmVhc29uID0gewogICAgICAgICAgICAgICAgICAgIGlmIChXZWJWaWV3RmVhdHVyZS5pc0ZlYXR1cmVTdXBwb3J0ZWQoV2ViVmlld0ZlYXR1cmUuTVVURV9BVURJTykpIHsKICAgICAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICJDdXJyZW50IFdlYlZpZXcgZG9lcyBub3Qgc3VwcG9ydCBHTV9hdWRpbyBiZWNhdXNlIG11dGUtYXVkaW8gY29udHJvbCBpcyB1bmF2YWlsYWJsZSIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICksCiAgICAgICAgICAgIFVzZXJzY3JpcHRDYXBhYmlsaXR5KAogICAgICAgICAgICAgICAgY2Fub25pY2FsR3JhbnQgPSAiR00uY29va2llIiwKICAgICAgICAgICAgICAgIGFsaWFzZXMgPSBzZXRPZigiR01fY29va2llIiksCiAgICAgICAgICAgICAgICBydW50aW1lU3ltYm9scyA9IHNldE9mKCJHTS5jb29raWUiLCAiR01fY29va2llIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigiZ21fY29va2llIikKICAgICAgICAgICAgKSwKICAgICAgICAgICAgVXNlcnNjcmlwdENhcGFiaWxpdHkoInVuc2FmZVdpbmRvdyIsIHJ1bnRpbWVTeW1ib2xzID0gc2V0T2YoInVuc2FmZVdpbmRvdyIpKSwKICAgICAgICAgICAgVXNlcnNjcmlwdENhcGFiaWxpdHkoCiAgICAgICAgICAgICAgICBjYW5vbmljYWxHcmFudCA9ICJ3aW5kb3cuY2xvc2UiLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigid2luZG93LmNsb3NlIiwgImNsb3NlIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigiZ21fY2xvc2VfdGFiIikKICAgICAgICAgICAgKSwKICAgICAgICAgICAgVXNlcnNjcmlwdENhcGFiaWxpdHkoCiAgICAgICAgICAgICAgICBjYW5vbmljYWxHcmFudCA9ICJ3aW5kb3cuZm9jdXMiLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigid2luZG93LmZvY3VzIiwgImZvY3VzIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigiZ21fZm9jdXNfdGFiIikKICAgICAgICAgICAgKSwKICAgICAgICAgICAgVXNlcnNjcmlwdENhcGFiaWxpdHkoCiAgICAgICAgICAgICAgICBjYW5vbmljYWxHcmFudCA9ICJ3aW5kb3cub251cmxjaGFuZ2UiLAogICAgICAgICAgICAgICAgcnVudGltZVN5bWJvbHMgPSBzZXRPZigid2luZG93Lm9udXJsY2hhbmdlIiksCiAgICAgICAgICAgICAgICBob3N0TWVzc2FnZXMgPSBzZXRPZigidXJsX2NoYW5nZSIpLAogICAgICAgICAgICAgICAgcmVxdWlyZXNEb2N1bWVudFN0YXJ0SW5qZWN0aW9uID0gdHJ1ZQogICAgICAgICAgICApLAogICAgICAgICAgICBVc2Vyc2NyaXB0Q2FwYWJpbGl0eSgibm9uZSIpCiAgICAgICAgKQoKICAgIHByaXZhdGUgdmFsIGNhcGFiaWxpdHlCeUNhbm9uaWNhbCA9IGNhcGFiaWxpdGllcy5hc3NvY2lhdGVCeSB7IGl0LmNhbm9uaWNhbEdyYW50IH0KCiAgICBwcml2YXRlIHZhbCBhbGlhc1RvQ2Fub25pY2FsID0KICAgICAgICBidWlsZE1hcDxTdHJpbmcsIFN0cmluZz4gewogICAgICAgICAgICBjYXBhYmlsaXRpZXMuZm9yRWFjaCB7IGNhcGFiaWxpdHkgLT4KICAgICAgICAgICAgICAgIHB1dChjYXBhYmlsaXR5LmNhbm9uaWNhbEdyYW50LCBjYXBhYmlsaXR5LmNhbm9uaWNhbEdyYW50KQogICAgICAgICAgICAgICAgY2FwYWJpbGl0eS5hbGlhc2VzLmZvckVhY2ggeyBhbGlhcyAtPgogICAgICAgICAgICAgICAgICAgIHB1dChhbGlhcywgY2FwYWJpbGl0eS5jYW5vbmljYWxHcmFudCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICBmdW4gY2Fub25pY2FsR3JhbnQocmF3R3JhbnQ6IFN0cmluZyk6IFN0cmluZz8gPQogICAgICAgIGFsaWFzVG9DYW5vbmljYWxbcmF3R3JhbnQudHJpbSgpXQoKICAgIGZ1biBpc0dyYW50S25vd24ocmF3R3JhbnQ6IFN0cmluZyk6IEJvb2xlYW4gPQogICAgICAgIGNhbm9uaWNhbEdyYW50KHJhd0dyYW50KSAhPSBudWxsCgogICAgZnVuIGtub3duR3JhbnRzKGdyYW50czogTGlzdDxTdHJpbmc+KTogTGlzdDxTdHJpbmc+ID0KICAgICAgICBncmFudHMubWFwTm90TnVsbCg6OmNhbm9uaWNhbEdyYW50KS5kaXN0aW5jdCgpCgogICAgZnVuIHVua25vd25HcmFudHMoZ3JhbnRzOiBMaXN0PFN0cmluZz4pOiBMaXN0PFN0cmluZz4gPQogICAgICAgIGdyYW50cy5tYXAgeyBpdC50cmltKCkgfS5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgJiYgIWlzR3JhbnRLbm93bihpdCkgfS5kaXN0aW5jdCgpCgogICAgZnVuIGJsb2NrZWRSZWFzb25zKGdyYW50czogTGlzdDxTdHJpbmc+KTogTGlzdDxTdHJpbmc+IHsKICAgICAgICB2YWwgY2Fub25pY2FsR3JhbnRzID0ga25vd25HcmFudHMoZ3JhbnRzKQogICAgICAgIHJldHVybiBidWlsZExpc3QgewogICAgICAgICAgICB2YWwgdW5rbm93biA9IHVua25vd25HcmFudHMoZ3JhbnRzKQogICAgICAgICAgICBpZiAodW5rbm93bi5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIGFkZCgiVW5rbm93biBncmFudHM6ICR7dW5rbm93bi5qb2luVG9TdHJpbmcoKX0iKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICgibm9uZSIgaW4gY2Fub25pY2FsR3JhbnRzICYmIGNhbm9uaWNhbEdyYW50cy5zaXplID4gMSkgewogICAgICAgICAgICAgICAgYWRkKCJAZ3JhbnQgbm9uZSBjYW5ub3QgYmUgY29tYmluZWQgd2l0aCBvdGhlciBncmFudHMiKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGNhbm9uaWNhbEdyYW50cwogICAgICAgICAgICAgICAgLm1hcE5vdE51bGwgeyBjYXBhYmlsaXR5QnlDYW5vbmljYWxbaXRdPy5ibG9ja2luZ1JlYXNvbj8uaW52b2tlKCkgfQogICAgICAgICAgICAgICAgLmRpc3RpbmN0KCkKICAgICAgICAgICAgICAgIC5mb3JFYWNoKDo6YWRkKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript
+
+import androidx.webkit.WebViewFeature
+
+internal data class UserscriptCapability(
+    val canonicalGrant: String,
+    val aliases: Set<String> = emptySet(),
+    val runtimeSymbols: Set<String> = emptySet(),
+    val hostMessages: Set<String> = emptySet(),
+    val requiresDocumentStartInjection: Boolean = false,
+    val requiresRequestInterception: Boolean = false,
+    val blockingReason: (() -> String?)? = null
+)
+
+internal object UserscriptCapabilityRegistry {
+    private val capabilities =
+        listOf(
+            UserscriptCapability(
+                canonicalGrant = "GM.addElement",
+                aliases = setOf("GM_addElement"),
+                runtimeSymbols = setOf("GM.addElement", "GM_addElement")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.addStyle",
+                aliases = setOf("GM_addStyle"),
+                runtimeSymbols = setOf("GM.addStyle", "GM_addStyle")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.deleteValue",
+                aliases = setOf("GM_deleteValue"),
+                runtimeSymbols = setOf("GM.deleteValue", "GM_deleteValue"),
+                hostMessages = setOf("storage_delete")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.deleteValues",
+                aliases = setOf("GM_deleteValues"),
+                runtimeSymbols = setOf("GM.deleteValues", "GM_deleteValues"),
+                hostMessages = setOf("storage_delete_many")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.download",
+                aliases = setOf("GM_download"),
+                runtimeSymbols = setOf("GM.download", "GM_download"),
+                hostMessages = setOf("gm_download")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.getResourceText",
+                aliases = setOf("GM_getResourceText"),
+                runtimeSymbols = setOf("GM.getResourceText", "GM_getResourceText")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.getResourceURL",
+                aliases = setOf("GM_getResourceURL"),
+                runtimeSymbols = setOf("GM.getResourceURL", "GM_getResourceURL")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.getTab",
+                aliases = setOf("GM_getTab"),
+                runtimeSymbols = setOf("GM.getTab", "GM_getTab"),
+                hostMessages = setOf("gm_get_tab")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.getTabs",
+                aliases = setOf("GM_getTabs"),
+                runtimeSymbols = setOf("GM.getTabs", "GM_getTabs"),
+                hostMessages = setOf("gm_get_tabs")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.getValue",
+                aliases = setOf("GM_getValue"),
+                runtimeSymbols = setOf("GM.getValue", "GM_getValue")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.getValues",
+                aliases = setOf("GM_getValues"),
+                runtimeSymbols = setOf("GM.getValues", "GM_getValues")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.info",
+                aliases = setOf("GM_info"),
+                runtimeSymbols = setOf("GM.info", "GM_info")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.listValues",
+                aliases = setOf("GM_listValues"),
+                runtimeSymbols = setOf("GM.listValues", "GM_listValues")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.log",
+                aliases = setOf("GM_log"),
+                runtimeSymbols = setOf("GM.log", "GM_log")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.notification",
+                aliases = setOf("GM_notification"),
+                runtimeSymbols = setOf("GM.notification", "GM_notification"),
+                hostMessages = setOf("gm_notification")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.openInTab",
+                aliases = setOf("GM_openInTab"),
+                runtimeSymbols = setOf("GM.openInTab", "GM_openInTab"),
+                hostMessages = setOf("gm_open_in_tab", "gm_focus_tab", "gm_close_tab")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.registerMenuCommand",
+                aliases = setOf("GM_registerMenuCommand"),
+                runtimeSymbols = setOf("GM.registerMenuCommand", "GM_registerMenuCommand"),
+                hostMessages = setOf("register_menu_command")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.addValueChangeListener",
+                aliases = setOf("GM_addValueChangeListener"),
+                runtimeSymbols = setOf("GM.addValueChangeListener", "GM_addValueChangeListener")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.removeValueChangeListener",
+                aliases = setOf("GM_removeValueChangeListener"),
+                runtimeSymbols = setOf("GM.removeValueChangeListener", "GM_removeValueChangeListener")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.saveTab",
+                aliases = setOf("GM_saveTab"),
+                runtimeSymbols = setOf("GM.saveTab", "GM_saveTab"),
+                hostMessages = setOf("gm_save_tab")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.setClipboard",
+                aliases = setOf("GM_setClipboard"),
+                runtimeSymbols = setOf("GM.setClipboard", "GM_setClipboard"),
+                hostMessages = setOf("gm_set_clipboard")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.setValue",
+                aliases = setOf("GM_setValue"),
+                runtimeSymbols = setOf("GM.setValue", "GM_setValue"),
+                hostMessages = setOf("storage_set")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.setValues",
+                aliases = setOf("GM_setValues"),
+                runtimeSymbols = setOf("GM.setValues", "GM_setValues"),
+                hostMessages = setOf("storage_set_many")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.unregisterMenuCommand",
+                aliases = setOf("GM_unregisterMenuCommand"),
+                runtimeSymbols = setOf("GM.unregisterMenuCommand", "GM_unregisterMenuCommand"),
+                hostMessages = setOf("unregister_menu_command")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.webRequest",
+                aliases = setOf("GM_webRequest"),
+                runtimeSymbols = setOf("GM.webRequest", "GM_webRequest"),
+                hostMessages = setOf("gm_web_request_register", "gm_web_request_unregister"),
+                requiresDocumentStartInjection = true,
+                requiresRequestInterception = true
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.xmlHttpRequest",
+                aliases = setOf("GM_xmlhttpRequest", "GM_xmlHttpRequest"),
+                runtimeSymbols = setOf("GM.xmlHttpRequest", "GM_xmlhttpRequest", "GM_xmlHttpRequest"),
+                hostMessages = setOf("gm_xmlhttp_request", "gm_abort_request")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.audio",
+                aliases = setOf("GM_audio"),
+                runtimeSymbols = setOf("GM.audio", "GM_audio"),
+                hostMessages = setOf("gm_audio"),
+                blockingReason = {
+                    if (WebViewFeature.isFeatureSupported(WebViewFeature.MUTE_AUDIO)) {
+                        null
+                    } else {
+                        "Current WebView does not support GM_audio because mute-audio control is unavailable"
+                    }
+                }
+            ),
+            UserscriptCapability(
+                canonicalGrant = "GM.cookie",
+                aliases = setOf("GM_cookie"),
+                runtimeSymbols = setOf("GM.cookie", "GM_cookie"),
+                hostMessages = setOf("gm_cookie")
+            ),
+            UserscriptCapability("unsafeWindow", runtimeSymbols = setOf("unsafeWindow")),
+            UserscriptCapability(
+                canonicalGrant = "window.close",
+                runtimeSymbols = setOf("window.close", "close"),
+                hostMessages = setOf("gm_close_tab")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "window.focus",
+                runtimeSymbols = setOf("window.focus", "focus"),
+                hostMessages = setOf("gm_focus_tab")
+            ),
+            UserscriptCapability(
+                canonicalGrant = "window.onurlchange",
+                runtimeSymbols = setOf("window.onurlchange"),
+                hostMessages = setOf("url_change"),
+                requiresDocumentStartInjection = true
+            ),
+            UserscriptCapability("none")
+        )
+
+    private val capabilityByCanonical = capabilities.associateBy { it.canonicalGrant }
+
+    private val aliasToCanonical =
+        buildMap<String, String> {
+            capabilities.forEach { capability ->
+                put(capability.canonicalGrant, capability.canonicalGrant)
+                capability.aliases.forEach { alias ->
+                    put(alias, capability.canonicalGrant)
+                }
+            }
+        }
+
+    fun canonicalGrant(rawGrant: String): String? =
+        aliasToCanonical[rawGrant.trim()]
+
+    fun isGrantKnown(rawGrant: String): Boolean =
+        canonicalGrant(rawGrant) != null
+
+    fun knownGrants(grants: List<String>): List<String> =
+        grants.mapNotNull(::canonicalGrant).distinct()
+
+    fun unknownGrants(grants: List<String>): List<String> =
+        grants.map { it.trim() }.filter { it.isNotBlank() && !isGrantKnown(it) }.distinct()
+
+    fun blockedReasons(grants: List<String>): List<String> {
+        val canonicalGrants = knownGrants(grants)
+        return buildList {
+            val unknown = unknownGrants(grants)
+            if (unknown.isNotEmpty()) {
+                add("Unknown grants: ${unknown.joinToString()}")
+            }
+            if ("none" in canonicalGrants && canonicalGrants.size > 1) {
+                add("@grant none cannot be combined with other grants")
+            }
+            canonicalGrants
+                .mapNotNull { capabilityByCanonical[it]?.blockingReason?.invoke() }
+                .distinct()
+                .forEach(::add)
+        }
+    }
+}

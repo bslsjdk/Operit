@@ -1,1 +1,112 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucy5tYXJrZXQudmlld21vZGVsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWwKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWxQcm92aWRlcgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLk1hcmtldFN0YXRzQXBpU2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLk1hcmtldFYyRW50cnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5NYXJrZXRWMlB1Ymxpc2hlckVudHJ5U3VtbWFyeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKY2xhc3MgVW5pZmllZE1hcmtldEF1dGhvclZpZXdNb2RlbCgKICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBhdXRob3JJZDogU3RyaW5nCikgOiBWaWV3TW9kZWwoKSB7CiAgICBwcml2YXRlIHZhbCBtYXJrZXRTdGF0c0FwaVNlcnZpY2UgPSBNYXJrZXRTdGF0c0FwaVNlcnZpY2UoKQoKICAgIHByaXZhdGUgdmFsIF9pc0xvYWRpbmcgPSBNdXRhYmxlU3RhdGVGbG93KGZhbHNlKQogICAgdmFsIGlzTG9hZGluZzogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2lzTG9hZGluZy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX2Vycm9yTWVzc2FnZSA9IE11dGFibGVTdGF0ZUZsb3c8U3RyaW5nPz4obnVsbCkKICAgIHZhbCBlcnJvck1lc3NhZ2U6IFN0YXRlRmxvdzxTdHJpbmc/PiA9IF9lcnJvck1lc3NhZ2UuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9lbnRyaWVzID0gTXV0YWJsZVN0YXRlRmxvdzxMaXN0PE1hcmtldFYyUHVibGlzaGVyRW50cnlTdW1tYXJ5Pj4oZW1wdHlMaXN0KCkpCiAgICB2YWwgZW50cmllczogU3RhdGVGbG93PExpc3Q8TWFya2V0VjJQdWJsaXNoZXJFbnRyeVN1bW1hcnk+PiA9IF9lbnRyaWVzLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfaGFzTG9hZGVkID0gTXV0YWJsZVN0YXRlRmxvdyhmYWxzZSkKICAgIHZhbCBoYXNMb2FkZWQ6IFN0YXRlRmxvdzxCb29sZWFuPiA9IF9oYXNMb2FkZWQuYXNTdGF0ZUZsb3coKQoKICAgIGZ1biBsb2FkRW50cmllcyhyZWZyZXNoOiBCb29sZWFuID0gZmFsc2UpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBpZiAoX2lzTG9hZGluZy52YWx1ZSkgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICBpZiAoIXJlZnJlc2ggJiYgX2hhc0xvYWRlZC52YWx1ZSkgcmV0dXJuQGxhdW5jaAoKICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IHRydWUKICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IG51bGwKCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgbG9hZGVkID0KICAgICAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgICAgICAgICBtYXJrZXRTdGF0c0FwaVNlcnZpY2UuZ2V0UHVibGlzaGVyRW50cmllcyhhdXRob3JJZCkuZ2V0T3JUaHJvdygpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgX2VudHJpZXMudmFsdWUgPSBsb2FkZWQKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gZS5tZXNzYWdlID86IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1hcmtldF9lcnJvcl9sb2FkX2ZhaWxlZCkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBsb2FkIG1hcmtldCBhdXRob3IgZW50cmllcyAkYXV0aG9ySWQiLCBlKQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgX2hhc0xvYWRlZC52YWx1ZSA9IHRydWUKICAgICAgICAgICAgICAgIF9pc0xvYWRpbmcudmFsdWUgPSBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBvcGVuRW50cnlEZXRhaWwoCiAgICAgICAgZW50cnk6IE1hcmtldFYyUHVibGlzaGVyRW50cnlTdW1tYXJ5LAogICAgICAgIG9uTG9hZGVkOiAoTWFya2V0VjJFbnRyeSkgLT4gVW5pdAogICAgKSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgaWYgKGVudHJ5LmlkLmlzQmxhbmsoKSkgewogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1hcmtldF9lcnJvcl9sb2FkX2ZhaWxlZCkKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQoKICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IHRydWUKICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IG51bGwKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBmdWxsRW50cnkgPQogICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmtldFN0YXRzQXBpU2VydmljZS5nZXRFbnRyeShlbnRyeS5pZCkuZ2V0T3JUaHJvdygpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKGZ1bGxFbnRyeSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1hcmtldF9lcnJvcl9sb2FkX2ZhaWxlZCkKICAgICAgICAgICAgICAgICAgICByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBvbkxvYWRlZChmdWxsRW50cnkpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGUubWVzc2FnZSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tYXJrZXRfZXJyb3JfbG9hZF9mYWlsZWQpCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gbG9hZCBhdXRob3IgbWFya2V0IGVudHJ5ICR7ZW50cnkuaWR9IiwgZSkKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIF9pc0xvYWRpbmcudmFsdWUgPSBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBjbGVhckVycm9yKCkgewogICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBudWxsCiAgICB9CgogICAgY2xhc3MgRmFjdG9yeSgKICAgICAgICBwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIHByaXZhdGUgdmFsIGF1dGhvcklkOiBTdHJpbmcKICAgICkgOiBWaWV3TW9kZWxQcm92aWRlci5GYWN0b3J5IHsKICAgICAgICBvdmVycmlkZSBmdW4gPFQgOiBWaWV3TW9kZWw+IGNyZWF0ZShtb2RlbENsYXNzOiBDbGFzczxUPik6IFQgewogICAgICAgICAgICBpZiAobW9kZWxDbGFzcy5pc0Fzc2lnbmFibGVGcm9tKFVuaWZpZWRNYXJrZXRBdXRob3JWaWV3TW9kZWw6OmNsYXNzLmphdmEpKSB7CiAgICAgICAgICAgICAgICBAU3VwcHJlc3MoIlVOQ0hFQ0tFRF9DQVNUIikKICAgICAgICAgICAgICAgIHJldHVybiBVbmlmaWVkTWFya2V0QXV0aG9yVmlld01vZGVsKGNvbnRleHQsIGF1dGhvcklkKSBhcyBUCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmtub3duIFZpZXdNb2RlbCBjbGFzcyIpCiAgICAgICAgfQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJVbmlmaWVkTWFya2V0QXV0aG9yVmlld01vZGVsIgogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.packages.screens.market.viewmodel
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.api.MarketStatsApiService
+import com.bslsjdk.operit.data.api.MarketV2Entry
+import com.bslsjdk.operit.data.api.MarketV2PublisherEntrySummary
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+class UnifiedMarketAuthorViewModel(
+    private val context: Context,
+    private val authorId: String
+) : ViewModel() {
+    private val marketStatsApiService = MarketStatsApiService()
+
+    private val _isLoading = MutableStateFlow(false)
+    val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
+
+    private val _errorMessage = MutableStateFlow<String?>(null)
+    val errorMessage: StateFlow<String?> = _errorMessage.asStateFlow()
+
+    private val _entries = MutableStateFlow<List<MarketV2PublisherEntrySummary>>(emptyList())
+    val entries: StateFlow<List<MarketV2PublisherEntrySummary>> = _entries.asStateFlow()
+
+    private val _hasLoaded = MutableStateFlow(false)
+    val hasLoaded: StateFlow<Boolean> = _hasLoaded.asStateFlow()
+
+    fun loadEntries(refresh: Boolean = false) {
+        viewModelScope.launch {
+            if (_isLoading.value) return@launch
+            if (!refresh && _hasLoaded.value) return@launch
+
+            _isLoading.value = true
+            _errorMessage.value = null
+
+            try {
+                val loaded =
+                    withContext(Dispatchers.IO) {
+                        marketStatsApiService.getPublisherEntries(authorId).getOrThrow()
+                    }
+                _entries.value = loaded
+            } catch (e: Exception) {
+                _errorMessage.value = e.message ?: context.getString(R.string.market_error_load_failed)
+                AppLogger.e(TAG, "Failed to load market author entries $authorId", e)
+            } finally {
+                _hasLoaded.value = true
+                _isLoading.value = false
+            }
+        }
+    }
+
+    fun openEntryDetail(
+        entry: MarketV2PublisherEntrySummary,
+        onLoaded: (MarketV2Entry) -> Unit
+    ) {
+        viewModelScope.launch {
+            if (entry.id.isBlank()) {
+                _errorMessage.value = context.getString(R.string.market_error_load_failed)
+                return@launch
+            }
+
+            _isLoading.value = true
+            _errorMessage.value = null
+            try {
+                val fullEntry =
+                    withContext(Dispatchers.IO) {
+                        marketStatsApiService.getEntry(entry.id).getOrThrow()
+                    }
+                if (fullEntry == null) {
+                    _errorMessage.value = context.getString(R.string.market_error_load_failed)
+                    return@launch
+                }
+                onLoaded(fullEntry)
+            } catch (e: Exception) {
+                _errorMessage.value = e.message ?: context.getString(R.string.market_error_load_failed)
+                AppLogger.e(TAG, "Failed to load author market entry ${entry.id}", e)
+            } finally {
+                _isLoading.value = false
+            }
+        }
+    }
+
+    fun clearError() {
+        _errorMessage.value = null
+    }
+
+    class Factory(
+        private val context: Context,
+        private val authorId: String
+    ) : ViewModelProvider.Factory {
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(UnifiedMarketAuthorViewModel::class.java)) {
+                @Suppress("UNCHECKED_CAST")
+                return UnifiedMarketAuthorViewModel(context, authorId) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+
+    companion object {
+        private const val TAG = "UnifiedMarketAuthorViewModel"
+    }
+}

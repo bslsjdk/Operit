@@ -1,1 +1,222 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgoKLyoqCiAqIOa1geWkhOeQhuWZqOaOpeWPo++8jOWumuS5ieS6huWmguS9leWkhOeQhua1geaVsOaNrgogKiBAcGFyYW0gVCDovpPlhaXmlbDmja7nsbvlnosKICogQHBhcmFtIFIg5aSE55CG57uT5p6c57G75Z6LCiAqLwppbnRlcmZhY2UgU3RyZWFtUHJvY2Vzc29yPFQsIFI+IHsKICAgIC8qKgogICAgICog5aSE55CG5rWB5pWw5o2uCiAgICAgKiBAcGFyYW0gc3RyZWFtIOi+k+WFpea1gQogICAgICogQHJldHVybiDlpITnkIbnu5PmnpwKICAgICAqLwogICAgc3VzcGVuZCBmdW4gcHJvY2VzcyhzdHJlYW06IFN0cmVhbTxUPik6IFIKfQoKLyoqCiAqIOWkjeWQiOWei+a1geWkhOeQhuWZqO+8jOWPr+S7pee7hOWQiOWkmuS4quWkhOeQhuWZqOaMiemhuuW6j+aJp+ihjAogKiBAcGFyYW0gVCDovpPlhaXmlbDmja7nsbvlnosKICogQHBhcmFtIFIg5pyA57uI57uT5p6c57G75Z6LCiAqLwpjbGFzcyBDb21wb3NpdGVTdHJlYW1Qcm9jZXNzb3I8VCwgUj4oCiAgICAgICAgcHJpdmF0ZSB2YWwgcHJvY2Vzc29yczogTGlzdDxTdHJlYW1Qcm9jZXNzb3I8VCwgKj4+LAogICAgICAgIHByaXZhdGUgdmFsIGZpbmFsUHJvY2Vzc29yOiBTdHJlYW1Qcm9jZXNzb3I8VCwgUj4KKSA6IFN0cmVhbVByb2Nlc3NvcjxULCBSPiB7CiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBwcm9jZXNzKHN0cmVhbTogU3RyZWFtPFQ+KTogUiB7CiAgICAgICAgLy8g5YWI5omn6KGM5Lit6Ze05aSE55CG5ZmoCiAgICAgICAgcHJvY2Vzc29ycy5mb3JFYWNoIHsgaXQucHJvY2VzcyhzdHJlYW0pIH0KICAgICAgICAvLyDmnIDlkI7miafooYzmnIDnu4jlpITnkIblmajlubbov5Tlm57nu5PmnpwKICAgICAgICByZXR1cm4gZmluYWxQcm9jZXNzb3IucHJvY2VzcyhzdHJlYW0pCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgLyoqIOaehOW7uuWkjeWQiOWkhOeQhuWZqOeahOW3peWOguaWueazlSAqLwogICAgICAgIGZ1biA8VCwgUj4gY29tcG9zZSgKICAgICAgICAgICAgICAgIHZhcmFyZyBwcm9jZXNzb3JzOiBTdHJlYW1Qcm9jZXNzb3I8VCwgKj4sCiAgICAgICAgICAgICAgICBmaW5hbDogU3RyZWFtUHJvY2Vzc29yPFQsIFI+CiAgICAgICAgKTogQ29tcG9zaXRlU3RyZWFtUHJvY2Vzc29yPFQsIFI+IHsKICAgICAgICAgICAgcmV0dXJuIENvbXBvc2l0ZVN0cmVhbVByb2Nlc3Nvcihwcm9jZXNzb3JzLnRvTGlzdCgpLCBmaW5hbCkKICAgICAgICB9CiAgICB9Cn0KCi8qKgogKiBTdHJlYW1Hcm91cOihqOekuuW4puacieWFs+iBlOagh+etvueahOa1geaVsOaNrue7hO+8jOaUr+aMgeW1jOWll+e7k+aehOWSjOWkhOeQhuWZqOe7keWumgogKgogKiBAcGFyYW0gVEFHIOagh+etvuexu+WeiwogKiBAcHJvcGVydHkgdGFnIOagh+ivhui/meS4qua1gee7hOeahOagh+etvgogKiBAcHJvcGVydHkgc3RyZWFtIOi/meS4que7hOS4reeahOaVsOaNrua1gQogKiBAcHJvcGVydHkgcHJvY2Vzc29yIOWkhOeQhui/meS4que7hOaVsOaNrueahOWkhOeQhuWZqAogKiBAcHJvcGVydHkgY2hpbGRyZW4g5a2Q5YiG57uE5YiX6KGoCiAqLwpjbGFzcyBTdHJlYW1Hcm91cDxUQUc+KAogICAgICAgIHZhbCB0YWc6IFRBRywKICAgICAgICB2YWwgc3RyZWFtOiBTdHJlYW08U3RyaW5nPiwKICAgICAgICB2YWwgcHJvY2Vzc29yOiBTdHJlYW1Qcm9jZXNzb3I8U3RyaW5nLCAqPj8gPSBudWxsLAogICAgICAgIHZhbCBjaGlsZHJlbjogTXV0YWJsZUxpc3Q8U3RyZWFtR3JvdXA8Kj4+ID0gbXV0YWJsZUxpc3RPZigpCikgewogICAgLyoqCiAgICAgKiDmlLbpm4bov5nkuKrnu4TnmoTmtYHmlbDmja4KICAgICAqIEBwYXJhbSBjb2xsZWN0b3Ig5a+55q+P5Liq5Y+R5bCE55qE5YC86LCD55So55qE5Ye95pWwCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGNvbGxlY3QoY29sbGVjdG9yOiBzdXNwZW5kIChTdHJpbmcpIC0+IFVuaXQpIHsKICAgICAgICBTdHJlYW1Mb2dnZXIuZCgiU3RyZWFtR3JvdXAiLCAi5byA5aeL5pS26ZuG57uEWyR0YWdd55qE5YWD57SgIikKICAgICAgICBzdHJlYW0uY29sbGVjdCB7IHZhbHVlIC0+CiAgICAgICAgICAgIFN0cmVhbUxvZ2dlci52KCJTdHJlYW1Hcm91cCIsICLnu4RbJHRhZ13mlLbpm4bliLDlhYPntKA6ICR2YWx1ZSIpCiAgICAgICAgICAgIGNvbGxlY3Rvcih2YWx1ZSkKICAgICAgICB9CiAgICAgICAgU3RyZWFtTG9nZ2VyLmQoIlN0cmVhbUdyb3VwIiwgIuWujOaIkOe7hFskdGFnXeeahOaUtumbhiIpCiAgICB9CgogICAgLyoqCiAgICAgKiDkvb/nlKhTdHJlYW1Db2xsZWN0b3LmlLbpm4bov5nkuKrnu4TnmoTmtYHmlbDmja4KICAgICAqIEBwYXJhbSBjb2xsZWN0b3Ig55So5LqO5pS26ZuG5YC855qEU3RyZWFtQ29sbGVjdG9yCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGNvbGxlY3QoY29sbGVjdG9yOiBTdHJlYW1Db2xsZWN0b3I8U3RyaW5nPikgewogICAgICAgIFN0cmVhbUxvZ2dlci5kKCJTdHJlYW1Hcm91cCIsICLlvIDlp4vkvb/nlKhTdHJlYW1Db2xsZWN0b3LmlLbpm4bnu4RbJHRhZ13nmoTlhYPntKAiKQogICAgICAgIHN0cmVhbS5jb2xsZWN0KGNvbGxlY3RvcikKICAgIH0KCiAgICAvKioKICAgICAqIOa3u+WKoOWtkOWIhue7hAogICAgICogQHBhcmFtIGNoaWxkIOimgea3u+WKoOeahOWtkOWIhue7hAogICAgICogQHJldHVybiDov5nkuKpTdHJlYW1Hcm91cOWunuS+i++8jOeUqOS6jumTvuW8j+iwg+eUqAogICAgICovCiAgICBmdW4gYWRkQ2hpbGQoY2hpbGQ6IFN0cmVhbUdyb3VwPCo+KTogU3RyZWFtR3JvdXA8VEFHPiB7CiAgICAgICAgY2hpbGRyZW4uYWRkKGNoaWxkKQogICAgICAgIHJldHVybiB0aGlzCiAgICB9CgogICAgLyoqCiAgICAgKiDpgJLlvZLlpITnkIblvZPliY3nu4TlkozmiYDmnInlrZDnu4QKICAgICAqIEBwYXJhbSBhY3Rpb24g6KaB5a+55q+P5Liq57uE5omn6KGM55qE5pON5L2cCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHByb2Nlc3NSZWN1cnNpdmVseShhY3Rpb246IHN1c3BlbmQgKFN0cmVhbUdyb3VwPCo+KSAtPiBVbml0KSB7CiAgICAgICAgYWN0aW9uKHRoaXMpCiAgICAgICAgY2hpbGRyZW4uZm9yRWFjaCB7IGl0LnByb2Nlc3NSZWN1cnNpdmVseShhY3Rpb24pIH0KICAgIH0KCiAgICAvKioKICAgICAqIOS9v+eUqOe7keWumueahOWkhOeQhuWZqOWkhOeQhui/meS4qua1gQogICAgICogQHJldHVybiDlpITnkIbnu5PmnpzvvIzlpoLmnpzmsqHmnInnu5HlrprlpITnkIblmajliJnov5Tlm55udWxsCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIDxSPiBwcm9jZXNzV2l0aEJvdW5kUHJvY2Vzc29yKCk6IFI/IHsKICAgICAgICBAU3VwcHJlc3MoIlVOQ0hFQ0tFRF9DQVNUIikgcmV0dXJuIHByb2Nlc3Nvcj8ucHJvY2VzcyhzdHJlYW0pIGFzPyBSCiAgICB9CgogICAgLyoqCiAgICAgKiDlsIbov5nkuKrmtYHnu4TovazmjaLkuLrmoIfnrb7lkozmtYHnmoRQYWlyCiAgICAgKiBAcmV0dXJuIOagh+etvuWSjOa1geeahFBhaXIKICAgICAqLwogICAgZnVuIHRvUGFpcigpOiBQYWlyPFRBRywgU3RyZWFtPFN0cmluZz4+ID0gdGFnIHRvIHN0cmVhbQoKICAgIG92ZXJyaWRlIGZ1biB0b1N0cmluZygpOiBTdHJpbmcgPSAiU3RyZWFtR3JvdXAodGFnPSR0YWcsIGNoaWxkcmVuQ291bnQ9JHtjaGlsZHJlbi5zaXplfSkiCn0KCi8qKiBTdHJlYW1Hcm91cEJ1aWxkZXIgLSDnlKjkuo7mnoTlu7rltYzlpZfnmoRTdHJlYW1Hcm91cOe7k+aehCAqLwpjbGFzcyBTdHJlYW1Hcm91cEJ1aWxkZXI8VEFHPiB7CiAgICBwcml2YXRlIHZhciB0YWc6IFRBRz8gPSBudWxsCiAgICBwcml2YXRlIHZhciBzdHJlYW06IFN0cmVhbTxTdHJpbmc+PyA9IG51bGwKICAgIHByaXZhdGUgdmFyIHByb2Nlc3NvcjogU3RyZWFtUHJvY2Vzc29yPFN0cmluZywgKj4/ID0gbnVsbAogICAgcHJpdmF0ZSB2YWwgY2hpbGRyZW4gPSBtdXRhYmxlTGlzdE9mPFN0cmVhbUdyb3VwPCo+PigpCgogICAgLyoqIOiuvue9rue7hOeahOagh+etviAqLwogICAgZnVuIHRhZyh0YWc6IFRBRyk6IFN0cmVhbUdyb3VwQnVpbGRlcjxUQUc+IHsKICAgICAgICB0aGlzLnRhZyA9IHRhZwogICAgICAgIHJldHVybiB0aGlzCiAgICB9CgogICAgLyoqIOiuvue9rue7hOeahOaVsOaNrua1gSAqLwogICAgZnVuIHN0cmVhbShzdHJlYW06IFN0cmVhbTxTdHJpbmc+KTogU3RyZWFtR3JvdXBCdWlsZGVyPFRBRz4gewogICAgICAgIHRoaXMuc3RyZWFtID0gc3RyZWFtCiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KCiAgICAvKiog6K6+572u57uE55qE5aSE55CG5ZmoICovCiAgICBmdW4gcHJvY2Vzc29yKHByb2Nlc3NvcjogU3RyZWFtUHJvY2Vzc29yPFN0cmluZywgKj4pOiBTdHJlYW1Hcm91cEJ1aWxkZXI8VEFHPiB7CiAgICAgICAgdGhpcy5wcm9jZXNzb3IgPSBwcm9jZXNzb3IKICAgICAgICByZXR1cm4gdGhpcwogICAgfQoKICAgIC8qKiDmt7vliqDlrZDnu4QgKi8KICAgIGZ1biBhZGRDaGlsZChjaGlsZDogU3RyZWFtR3JvdXA8Kj4pOiBTdHJlYW1Hcm91cEJ1aWxkZXI8VEFHPiB7CiAgICAgICAgY2hpbGRyZW4uYWRkKGNoaWxkKQogICAgICAgIHJldHVybiB0aGlzCiAgICB9CgogICAgLyoqIOS9v+eUqOW1jOWll+aehOW7uuWZqOa3u+WKoOWtkOe7hCAqLwogICAgZnVuIDxDSElMRF9UQUc+IGNoaWxkKGluaXQ6IFN0cmVhbUdyb3VwQnVpbGRlcjxDSElMRF9UQUc+LigpIC0+IFVuaXQpOiBTdHJlYW1Hcm91cEJ1aWxkZXI8VEFHPiB7CiAgICAgICAgdmFsIGNoaWxkQnVpbGRlciA9IFN0cmVhbUdyb3VwQnVpbGRlcjxDSElMRF9UQUc+KCkuYXBwbHkoaW5pdCkKICAgICAgICB2YWwgY2hpbGRHcm91cCA9IGNoaWxkQnVpbGRlci5idWlsZChudWxsKQogICAgICAgIGNoaWxkcmVuLmFkZChjaGlsZEdyb3VwKQogICAgICAgIHJldHVybiB0aGlzCiAgICB9CgogICAgLyoqCiAgICAgKiDmoLnmja7phY3nva7mnoTlu7pTdHJlYW1Hcm91cAogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paH77yI55So5LqO5pys5Zyw5YyW6ZSZ6K+v5raI5oGv77yJCiAgICAgKi8KICAgIGZ1biBidWlsZChjb250ZXh0OiBDb250ZXh0PyA9IG51bGwpOiBTdHJlYW1Hcm91cDxUQUc+IHsKICAgICAgICByZXF1aXJlTm90TnVsbCh0YWcpIHsKICAgICAgICAgICAgY29udGV4dD8uZ2V0U3RyaW5nKFIuc3RyaW5nLnN0cmVhbV9ncm91cF90YWdfbXVzdF9iZV9zZXQpID86ICLmoIfnrb7lv4Xpobvorr7nva4iCiAgICAgICAgfQogICAgICAgIHJlcXVpcmVOb3ROdWxsKHN0cmVhbSkgewogICAgICAgICAgICBjb250ZXh0Py5nZXRTdHJpbmcoUi5zdHJpbmcuc3RyZWFtX2dyb3VwX3N0cmVhbV9tdXN0X2JlX3NldCkgPzogIuaVsOaNrua1geW/hemhu+iuvue9riIKICAgICAgICB9CgogICAgICAgIHJldHVybiBTdHJlYW1Hcm91cCgKICAgICAgICAgICAgICAgIHRhZyA9IHRhZyEhLAogICAgICAgICAgICAgICAgc3RyZWFtID0gc3RyZWFtISEsCiAgICAgICAgICAgICAgICBwcm9jZXNzb3IgPSBwcm9jZXNzb3IsCiAgICAgICAgICAgICAgICBjaGlsZHJlbiA9IGNoaWxkcmVuLnRvTXV0YWJsZUxpc3QoKQogICAgICAgICkKICAgIH0KfQoKLyoqIOWIm+W7ulN0cmVhbUdyb3Vw55qE5L6/5o235omp5bGV5Ye95pWwICovCmZ1biA8VEFHPiBzdHJlYW1Hcm91cChpbml0OiBTdHJlYW1Hcm91cEJ1aWxkZXI8VEFHPi4oKSAtPiBVbml0KTogU3RyZWFtR3JvdXA8VEFHPiB7CiAgICByZXR1cm4gU3RyZWFtR3JvdXBCdWlsZGVyPFRBRz4oKS5hcHBseShpbml0KS5idWlsZChudWxsKQp9CgovKiog5Yib5bu65bWM5aWX57uT5p6E55qEU3RyZWFtR3JvdXDnmoTkvr/mjbfmianlsZXlh73mlbAgKi8KZnVuIDxUQUc+IFN0cmVhbTxTdHJpbmc+LmFzTmVzdGVkR3JvdXAoCiAgICAgICAgdGFnOiBUQUcsCiAgICAgICAgcHJvY2Vzc29yOiBTdHJlYW1Qcm9jZXNzb3I8U3RyaW5nLCAqPj8gPSBudWxsLAogICAgICAgIGluaXQ6IChTdHJlYW1Hcm91cEJ1aWxkZXI8VEFHPi4oKSAtPiBVbml0KT8gPSBudWxsCik6IFN0cmVhbUdyb3VwPFRBRz4gewogICAgdmFsIGJ1aWxkZXIgPSBTdHJlYW1Hcm91cEJ1aWxkZXI8VEFHPigpLnRhZyh0YWcpLnN0cmVhbSh0aGlzKQoKICAgIHByb2Nlc3Nvcj8ubGV0IHsgYnVpbGRlci5wcm9jZXNzb3IoaXQpIH0KICAgIGluaXQ/LmxldCB7IGJ1aWxkZXIuYXBwbHkoaXQpIH0KCiAgICByZXR1cm4gYnVpbGRlci5idWlsZChudWxsKQp9CgovKiog5bCGUGFpcjxUQUcsIFN0cmVhbTxTdHJpbmc+Pui9rOaNouS4ulN0cmVhbUdyb3Vw55qE5omp5bGV5Ye95pWwICovCmZ1biA8VEFHPiBQYWlyPFRBRywgU3RyZWFtPFN0cmluZz4+LmFzU3RyZWFtR3JvdXAoCiAgICAgICAgcHJvY2Vzc29yOiBTdHJlYW1Qcm9jZXNzb3I8U3RyaW5nLCAqPj8gPSBudWxsCik6IFN0cmVhbUdyb3VwPFRBRz4gPSBTdHJlYW1Hcm91cChmaXJzdCwgc2Vjb25kLCBwcm9jZXNzb3IpCgoKY2xhc3MgU3RyZWFtSW50ZXJjZXB0b3I8VCwgUj4oCiAgICBzb3VyY2VTdHJlYW06IFN0cmVhbTxUPiwKICAgIHByaXZhdGUgdmFyIG9uRWFjaDogKFQpIC0+ICBSCikgewogICAgLy8g5LiL5ri45rWB77yM55So5LqO5ZCR5aSW6YOo5o+Q5L6b5pWw5o2uCiAgICB2YWwgaW50ZXJjZXB0ZWRTdHJlYW06IFN0cmVhbTxSPiA9IHN0cmVhbSB7IAogICAgICAgIC8vIOaUtumbhuS4iua4uOa1geeahOaVsOaNruW5tui9rOWPkQogICAgICAgIHNvdXJjZVN0cmVhbS5jb2xsZWN0IHsgdmFsdWUgLT4KICAgICAgICAgICAgZW1pdChvbkVhY2godmFsdWUpKQogICAgICAgIH0KICAgICAgICBBcHBMb2dnZXIuZCgiU3RyZWFtSW50ZXJjZXB0b3IiLCAi5LiK5ri45rWB5pS26ZuG5a6M5oiQIikKICAgIH0KCiAgICBmdW4gc2V0T25FYWNoKG9uRWFjaDogKFQpIC0+IFIpIHsKICAgICAgICB0aGlzLm9uRWFjaCA9IG9uRWFjaAogICAgfQp9
+package com.bslsjdk.operit.util.stream
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+
+/**
+ * 流处理器接口，定义了如何处理流数据
+ * @param T 输入数据类型
+ * @param R 处理结果类型
+ */
+interface StreamProcessor<T, R> {
+    /**
+     * 处理流数据
+     * @param stream 输入流
+     * @return 处理结果
+     */
+    suspend fun process(stream: Stream<T>): R
+}
+
+/**
+ * 复合型流处理器，可以组合多个处理器按顺序执行
+ * @param T 输入数据类型
+ * @param R 最终结果类型
+ */
+class CompositeStreamProcessor<T, R>(
+        private val processors: List<StreamProcessor<T, *>>,
+        private val finalProcessor: StreamProcessor<T, R>
+) : StreamProcessor<T, R> {
+    override suspend fun process(stream: Stream<T>): R {
+        // 先执行中间处理器
+        processors.forEach { it.process(stream) }
+        // 最后执行最终处理器并返回结果
+        return finalProcessor.process(stream)
+    }
+
+    companion object {
+        /** 构建复合处理器的工厂方法 */
+        fun <T, R> compose(
+                vararg processors: StreamProcessor<T, *>,
+                final: StreamProcessor<T, R>
+        ): CompositeStreamProcessor<T, R> {
+            return CompositeStreamProcessor(processors.toList(), final)
+        }
+    }
+}
+
+/**
+ * StreamGroup表示带有关联标签的流数据组，支持嵌套结构和处理器绑定
+ *
+ * @param TAG 标签类型
+ * @property tag 标识这个流组的标签
+ * @property stream 这个组中的数据流
+ * @property processor 处理这个组数据的处理器
+ * @property children 子分组列表
+ */
+class StreamGroup<TAG>(
+        val tag: TAG,
+        val stream: Stream<String>,
+        val processor: StreamProcessor<String, *>? = null,
+        val children: MutableList<StreamGroup<*>> = mutableListOf()
+) {
+    /**
+     * 收集这个组的流数据
+     * @param collector 对每个发射的值调用的函数
+     */
+    suspend fun collect(collector: suspend (String) -> Unit) {
+        StreamLogger.d("StreamGroup", "开始收集组[$tag]的元素")
+        stream.collect { value ->
+            StreamLogger.v("StreamGroup", "组[$tag]收集到元素: $value")
+            collector(value)
+        }
+        StreamLogger.d("StreamGroup", "完成组[$tag]的收集")
+    }
+
+    /**
+     * 使用StreamCollector收集这个组的流数据
+     * @param collector 用于收集值的StreamCollector
+     */
+    suspend fun collect(collector: StreamCollector<String>) {
+        StreamLogger.d("StreamGroup", "开始使用StreamCollector收集组[$tag]的元素")
+        stream.collect(collector)
+    }
+
+    /**
+     * 添加子分组
+     * @param child 要添加的子分组
+     * @return 这个StreamGroup实例，用于链式调用
+     */
+    fun addChild(child: StreamGroup<*>): StreamGroup<TAG> {
+        children.add(child)
+        return this
+    }
+
+    /**
+     * 递归处理当前组和所有子组
+     * @param action 要对每个组执行的操作
+     */
+    suspend fun processRecursively(action: suspend (StreamGroup<*>) -> Unit) {
+        action(this)
+        children.forEach { it.processRecursively(action) }
+    }
+
+    /**
+     * 使用绑定的处理器处理这个流
+     * @return 处理结果，如果没有绑定处理器则返回null
+     */
+    suspend fun <R> processWithBoundProcessor(): R? {
+        @Suppress("UNCHECKED_CAST") return processor?.process(stream) as? R
+    }
+
+    /**
+     * 将这个流组转换为标签和流的Pair
+     * @return 标签和流的Pair
+     */
+    fun toPair(): Pair<TAG, Stream<String>> = tag to stream
+
+    override fun toString(): String = "StreamGroup(tag=$tag, childrenCount=${children.size})"
+}
+
+/** StreamGroupBuilder - 用于构建嵌套的StreamGroup结构 */
+class StreamGroupBuilder<TAG> {
+    private var tag: TAG? = null
+    private var stream: Stream<String>? = null
+    private var processor: StreamProcessor<String, *>? = null
+    private val children = mutableListOf<StreamGroup<*>>()
+
+    /** 设置组的标签 */
+    fun tag(tag: TAG): StreamGroupBuilder<TAG> {
+        this.tag = tag
+        return this
+    }
+
+    /** 设置组的数据流 */
+    fun stream(stream: Stream<String>): StreamGroupBuilder<TAG> {
+        this.stream = stream
+        return this
+    }
+
+    /** 设置组的处理器 */
+    fun processor(processor: StreamProcessor<String, *>): StreamGroupBuilder<TAG> {
+        this.processor = processor
+        return this
+    }
+
+    /** 添加子组 */
+    fun addChild(child: StreamGroup<*>): StreamGroupBuilder<TAG> {
+        children.add(child)
+        return this
+    }
+
+    /** 使用嵌套构建器添加子组 */
+    fun <CHILD_TAG> child(init: StreamGroupBuilder<CHILD_TAG>.() -> Unit): StreamGroupBuilder<TAG> {
+        val childBuilder = StreamGroupBuilder<CHILD_TAG>().apply(init)
+        val childGroup = childBuilder.build(null)
+        children.add(childGroup)
+        return this
+    }
+
+    /**
+     * 根据配置构建StreamGroup
+     * @param context 应用上下文（用于本地化错误消息）
+     */
+    fun build(context: Context? = null): StreamGroup<TAG> {
+        requireNotNull(tag) {
+            context?.getString(R.string.stream_group_tag_must_be_set) ?: "标签必须设置"
+        }
+        requireNotNull(stream) {
+            context?.getString(R.string.stream_group_stream_must_be_set) ?: "数据流必须设置"
+        }
+
+        return StreamGroup(
+                tag = tag!!,
+                stream = stream!!,
+                processor = processor,
+                children = children.toMutableList()
+        )
+    }
+}
+
+/** 创建StreamGroup的便捷扩展函数 */
+fun <TAG> streamGroup(init: StreamGroupBuilder<TAG>.() -> Unit): StreamGroup<TAG> {
+    return StreamGroupBuilder<TAG>().apply(init).build(null)
+}
+
+/** 创建嵌套结构的StreamGroup的便捷扩展函数 */
+fun <TAG> Stream<String>.asNestedGroup(
+        tag: TAG,
+        processor: StreamProcessor<String, *>? = null,
+        init: (StreamGroupBuilder<TAG>.() -> Unit)? = null
+): StreamGroup<TAG> {
+    val builder = StreamGroupBuilder<TAG>().tag(tag).stream(this)
+
+    processor?.let { builder.processor(it) }
+    init?.let { builder.apply(it) }
+
+    return builder.build(null)
+}
+
+/** 将Pair<TAG, Stream<String>>转换为StreamGroup的扩展函数 */
+fun <TAG> Pair<TAG, Stream<String>>.asStreamGroup(
+        processor: StreamProcessor<String, *>? = null
+): StreamGroup<TAG> = StreamGroup(first, second, processor)
+
+
+class StreamInterceptor<T, R>(
+    sourceStream: Stream<T>,
+    private var onEach: (T) ->  R
+) {
+    // 下游流，用于向外部提供数据
+    val interceptedStream: Stream<R> = stream { 
+        // 收集上游流的数据并转发
+        sourceStream.collect { value ->
+            emit(onEach(value))
+        }
+        AppLogger.d("StreamInterceptor", "上游流收集完成")
+    }
+
+    fun setOnEach(onEach: (T) -> R) {
+        this.onEach = onEach
+    }
+}

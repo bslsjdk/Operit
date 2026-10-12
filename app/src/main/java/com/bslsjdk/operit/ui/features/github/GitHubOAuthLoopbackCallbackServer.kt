@@ -1,1 +1,122 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuZ2l0aHViCgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBqYXZhLm5ldC5JbmV0QWRkcmVzcwppbXBvcnQgamF2YS5uZXQuU2VydmVyU29ja2V0CmltcG9ydCBqYXZhLm5ldC5Tb2NrZXQKaW1wb3J0IGphdmEubmlvLmNoYXJzZXQuU3RhbmRhcmRDaGFyc2V0cwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKCi8qKiBSZWNlaXZlcyB0aGUgb25lIGJyb3dzZXIgY2FsbGJhY2sgdGhhdCBjb21wbGV0ZXMgYW4gZXh0ZXJuYWwgR2l0SHViIGxvZ2luLiAqLwppbnRlcm5hbCBjbGFzcyBHaXRIdWJPQXV0aExvb3BiYWNrQ2FsbGJhY2tTZXJ2ZXIgcHJpdmF0ZSBjb25zdHJ1Y3RvcigKICAgIHByaXZhdGUgdmFsIHNlcnZlclNvY2tldDogU2VydmVyU29ja2V0CikgewogICAgdmFsIGNvbXBsZXRpb25SZWRpcmVjdFVyaTogU3RyaW5nID0gVXJpLkJ1aWxkZXIoKQogICAgICAgIC5zY2hlbWUoSFRUUF9TQ0hFTUUpCiAgICAgICAgLmVuY29kZWRBdXRob3JpdHkoIiRMT09QQkFDS19IT1NUOiR7c2VydmVyU29ja2V0LmxvY2FsUG9ydH0iKQogICAgICAgIC5hcHBlbmRQYXRoKCJvYXV0aCIpCiAgICAgICAgLmFwcGVuZFBhdGgoImdpdGh1YiIpCiAgICAgICAgLmFwcGVuZFBhdGgoImNvbXBsZXRlIikKICAgICAgICAuYnVpbGQoKQogICAgICAgIC50b1N0cmluZygpCgogICAgc3VzcGVuZCBmdW4gYXdhaXRDb21wbGV0aW9uKCk6IFVyaSA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFyIGNvbXBsZXRlZFVyaTogVXJpPyA9IG51bGwKICAgICAgICB3aGlsZSAoY29tcGxldGVkVXJpID09IG51bGwpIHsKICAgICAgICAgICAgdmFsIHNvY2tldCA9IHNlcnZlclNvY2tldC5hY2NlcHQoKQogICAgICAgICAgICBzb2NrZXQudXNlIHsKICAgICAgICAgICAgICAgIHNvY2tldC5zb1RpbWVvdXQgPSBSRVFVRVNUX1JFQURfVElNRU9VVF9NSUxMSVMKICAgICAgICAgICAgICAgIHZhbCByZWNlaXZlZFVyaSA9IHJlYWRDb21wbGV0aW9uVXJpKHNvY2tldCkKICAgICAgICAgICAgICAgIGlmIChyZWNlaXZlZFVyaSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgd3JpdGVSZXNwb25zZShzb2NrZXQsIE5PVF9GT1VORF9SRVNQT05TRSkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgd3JpdGVSZXNwb25zZShzb2NrZXQsIFNVQ0NFU1NfUkVTUE9OU0UpCiAgICAgICAgICAgICAgICAgICAgY29tcGxldGVkVXJpID0gcmVjZWl2ZWRVcmkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBjaGVja05vdE51bGwoY29tcGxldGVkVXJpKQogICAgfQoKICAgIGZ1biBjbG9zZSgpIHsKICAgICAgICBpZiAoIXNlcnZlclNvY2tldC5pc0Nsb3NlZCkgewogICAgICAgICAgICBzZXJ2ZXJTb2NrZXQuY2xvc2UoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWFkQ29tcGxldGlvblVyaShzb2NrZXQ6IFNvY2tldCk6IFVyaT8gewogICAgICAgIHZhbCByZXF1ZXN0TGluZSA9IHNvY2tldC5nZXRJbnB1dFN0cmVhbSgpCiAgICAgICAgICAgIC5idWZmZXJlZFJlYWRlcihTdGFuZGFyZENoYXJzZXRzLlVTX0FTQ0lJKQogICAgICAgICAgICAucmVhZExpbmUoKQogICAgICAgICAgICA/OiByZXR1cm4gbnVsbAogICAgICAgIHZhbCByZXF1ZXN0UGFydHMgPSByZXF1ZXN0TGluZS5zcGxpdCgnICcsIGxpbWl0ID0gMykKICAgICAgICBpZiAocmVxdWVzdFBhcnRzLnNpemUgIT0gMyB8fCByZXF1ZXN0UGFydHNbMF0gIT0gIkdFVCIpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIHZhbCByZXF1ZXN0VXJpID0gVXJpLnBhcnNlKHJlcXVlc3RQYXJ0c1sxXSkKICAgICAgICBpZiAocmVxdWVzdFVyaS5zY2hlbWUgIT0gbnVsbCB8fCByZXF1ZXN0VXJpLmF1dGhvcml0eSAhPSBudWxsKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgY2FsbGJhY2tVcmkgPSBVcmkucGFyc2UoY29tcGxldGlvblJlZGlyZWN0VXJpKQogICAgICAgIGlmIChyZXF1ZXN0VXJpLnBhdGggIT0gY2FsbGJhY2tVcmkucGF0aCkgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGNhbGxiYWNrVXJpLmJ1aWxkVXBvbigpCiAgICAgICAgICAgIC5lbmNvZGVkUXVlcnkocmVxdWVzdFVyaS5lbmNvZGVkUXVlcnkpCiAgICAgICAgICAgIC5idWlsZCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gd3JpdGVSZXNwb25zZShzb2NrZXQ6IFNvY2tldCwgcmVzcG9uc2U6IEh0dHBSZXNwb25zZSkgewogICAgICAgIHZhbCBib2R5ID0gcmVzcG9uc2UuYm9keS50b0J5dGVBcnJheShTdGFuZGFyZENoYXJzZXRzLlVURl84KQogICAgICAgIHZhbCBoZWFkZXIgPSBidWlsZFN0cmluZyB7CiAgICAgICAgICAgIGFwcGVuZCgiSFRUUC8xLjEgIikKICAgICAgICAgICAgYXBwZW5kKHJlc3BvbnNlLnN0YXR1cykKICAgICAgICAgICAgYXBwZW5kKCJcclxuQ29udGVudC1UeXBlOiB0ZXh0L2h0bWw7IGNoYXJzZXQ9dXRmLTgiKQogICAgICAgICAgICBhcHBlbmQoIlxyXG5Db250ZW50LUxlbmd0aDogIikKICAgICAgICAgICAgYXBwZW5kKGJvZHkuc2l6ZSkKICAgICAgICAgICAgYXBwZW5kKCJcclxuQ29ubmVjdGlvbjogY2xvc2VcclxuXHJcbiIpCiAgICAgICAgfS50b0J5dGVBcnJheShTdGFuZGFyZENoYXJzZXRzLlVTX0FTQ0lJKQogICAgICAgIHNvY2tldC5nZXRPdXRwdXRTdHJlYW0oKS51c2UgeyBvdXRwdXQgLT4KICAgICAgICAgICAgb3V0cHV0LndyaXRlKGhlYWRlcikKICAgICAgICAgICAgb3V0cHV0LndyaXRlKGJvZHkpCiAgICAgICAgICAgIG91dHB1dC5mbHVzaCgpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBIdHRwUmVzcG9uc2UoCiAgICAgICAgdmFsIHN0YXR1czogU3RyaW5nLAogICAgICAgIHZhbCBib2R5OiBTdHJpbmcKICAgICkKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBIVFRQX1NDSEVNRSA9ICJodHRwIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIExPT1BCQUNLX0hPU1QgPSAiMTI3LjAuMC4xIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIE1JTl9MT09QQkFDS19QT1JUID0gMTAyNAogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFJFUVVFU1RfUkVBRF9USU1FT1VUX01JTExJUyA9IDVfMDAwCiAgICAgICAgcHJpdmF0ZSB2YWwgU1VDQ0VTU19SRVNQT05TRSA9IEh0dHBSZXNwb25zZSgKICAgICAgICAgICAgc3RhdHVzID0gIjIwMCBPSyIsCiAgICAgICAgICAgIGJvZHkgPSAiPGh0bWw+PGJvZHk+R2l0SHViIGxvZ2luIGNvbXBsZXRlLiBSZXR1cm4gdG8gT3Blcml0LjwvYm9keT48L2h0bWw+IgogICAgICAgICkKICAgICAgICBwcml2YXRlIHZhbCBOT1RfRk9VTkRfUkVTUE9OU0UgPSBIdHRwUmVzcG9uc2UoCiAgICAgICAgICAgIHN0YXR1cyA9ICI0MDQgTm90IEZvdW5kIiwKICAgICAgICAgICAgYm9keSA9ICI8aHRtbD48Ym9keT5Ob3QgZm91bmQuPC9ib2R5PjwvaHRtbD4iCiAgICAgICAgKQoKICAgICAgICBmdW4gb3BlbigpOiBHaXRIdWJPQXV0aExvb3BiYWNrQ2FsbGJhY2tTZXJ2ZXIgewogICAgICAgICAgICB2YWwgc2VydmVyU29ja2V0ID0gU2VydmVyU29ja2V0KDAsIDEsIEluZXRBZGRyZXNzLmdldEJ5TmFtZShMT09QQkFDS19IT1NUKSkKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHJlcXVpcmUoc2VydmVyU29ja2V0LmxvY2FsUG9ydCA+PSBNSU5fTE9PUEJBQ0tfUE9SVCkgewogICAgICAgICAgICAgICAgICAgICJHaXRIdWIgT0F1dGggbG9vcGJhY2sgcG9ydCBpcyBvdXRzaWRlIHRoZSBwZXJtaXR0ZWQgcmFuZ2UiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4gR2l0SHViT0F1dGhMb29wYmFja0NhbGxiYWNrU2VydmVyKHNlcnZlclNvY2tldCkKICAgICAgICAgICAgfSBjYXRjaCAoZXJyb3I6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgc2VydmVyU29ja2V0LmNsb3NlKCkKICAgICAgICAgICAgICAgIHRocm93IGVycm9yCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.github
+
+import android.net.Uri
+import java.net.InetAddress
+import java.net.ServerSocket
+import java.net.Socket
+import java.nio.charset.StandardCharsets
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+/** Receives the one browser callback that completes an external GitHub login. */
+internal class GitHubOAuthLoopbackCallbackServer private constructor(
+    private val serverSocket: ServerSocket
+) {
+    val completionRedirectUri: String = Uri.Builder()
+        .scheme(HTTP_SCHEME)
+        .encodedAuthority("$LOOPBACK_HOST:${serverSocket.localPort}")
+        .appendPath("oauth")
+        .appendPath("github")
+        .appendPath("complete")
+        .build()
+        .toString()
+
+    suspend fun awaitCompletion(): Uri = withContext(Dispatchers.IO) {
+        var completedUri: Uri? = null
+        while (completedUri == null) {
+            val socket = serverSocket.accept()
+            socket.use {
+                socket.soTimeout = REQUEST_READ_TIMEOUT_MILLIS
+                val receivedUri = readCompletionUri(socket)
+                if (receivedUri == null) {
+                    writeResponse(socket, NOT_FOUND_RESPONSE)
+                } else {
+                    writeResponse(socket, SUCCESS_RESPONSE)
+                    completedUri = receivedUri
+                }
+            }
+        }
+        checkNotNull(completedUri)
+    }
+
+    fun close() {
+        if (!serverSocket.isClosed) {
+            serverSocket.close()
+        }
+    }
+
+    private fun readCompletionUri(socket: Socket): Uri? {
+        val requestLine = socket.getInputStream()
+            .bufferedReader(StandardCharsets.US_ASCII)
+            .readLine()
+            ?: return null
+        val requestParts = requestLine.split(' ', limit = 3)
+        if (requestParts.size != 3 || requestParts[0] != "GET") {
+            return null
+        }
+
+        val requestUri = Uri.parse(requestParts[1])
+        if (requestUri.scheme != null || requestUri.authority != null) {
+            return null
+        }
+
+        val callbackUri = Uri.parse(completionRedirectUri)
+        if (requestUri.path != callbackUri.path) {
+            return null
+        }
+
+        return callbackUri.buildUpon()
+            .encodedQuery(requestUri.encodedQuery)
+            .build()
+    }
+
+    private fun writeResponse(socket: Socket, response: HttpResponse) {
+        val body = response.body.toByteArray(StandardCharsets.UTF_8)
+        val header = buildString {
+            append("HTTP/1.1 ")
+            append(response.status)
+            append("\r\nContent-Type: text/html; charset=utf-8")
+            append("\r\nContent-Length: ")
+            append(body.size)
+            append("\r\nConnection: close\r\n\r\n")
+        }.toByteArray(StandardCharsets.US_ASCII)
+        socket.getOutputStream().use { output ->
+            output.write(header)
+            output.write(body)
+            output.flush()
+        }
+    }
+
+    private data class HttpResponse(
+        val status: String,
+        val body: String
+    )
+
+    companion object {
+        private const val HTTP_SCHEME = "http"
+        private const val LOOPBACK_HOST = "127.0.0.1"
+        private const val MIN_LOOPBACK_PORT = 1024
+        private const val REQUEST_READ_TIMEOUT_MILLIS = 5_000
+        private val SUCCESS_RESPONSE = HttpResponse(
+            status = "200 OK",
+            body = "<html><body>GitHub login complete. Return to Operit.</body></html>"
+        )
+        private val NOT_FOUND_RESPONSE = HttpResponse(
+            status = "404 Not Found",
+            body = "<html><body>Not found.</body></html>"
+        )
+
+        fun open(): GitHubOAuthLoopbackCallbackServer {
+            val serverSocket = ServerSocket(0, 1, InetAddress.getByName(LOOPBACK_HOST))
+            try {
+                require(serverSocket.localPort >= MIN_LOOPBACK_PORT) {
+                    "GitHub OAuth loopback port is outside the permitted range"
+                }
+                return GitHubOAuthLoopbackCallbackServer(serverSocket)
+            } catch (error: Exception) {
+                serverSocket.close()
+                throw error
+            }
+        }
+    }
+}

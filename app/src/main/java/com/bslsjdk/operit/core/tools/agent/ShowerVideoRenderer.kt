@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5hZ2VudAoKaW1wb3J0IGFuZHJvaWQudmlldy5TdXJmYWNlCgovKioKICogU2ltcGxlIEguMjY0IGRlY29kZXIgdGhhdCByZW5kZXJzIHRoZSBTaG93ZXIgdmlkZW8gc3RyZWFtIG9udG8gYSBTdXJmYWNlLgogKgogKiBUaGlzIGRlY29kZXIgYXNzdW1lcyB0aGF0IHRoZSBmaXJzdCB0d28gYmluYXJ5IGZyYW1lcyByZWNlaXZlZCBmcm9tIHRoZSBTaG93ZXIgc2VydmVyCiAqIGFyZSB0aGUgY29kZWMgY29uZmlndXJhdGlvbiBidWZmZXJzIChjc2QtMCBhbmQgY3NkLTEpLCBmb2xsb3dlZCBieSByZWd1bGFyIGFjY2VzcyB1bml0cy4KICoKICogVGhpcyBhcHAtbGV2ZWwgb2JqZWN0IGlzIGEgdGhpbiBmYWNhZGUgb3ZlciB0aGUgc2hhcmVkIGltcGxlbWVudGF0aW9uIGluIHRoZQogKiBgOnNob3dlcmNsaWVudGAgbW9kdWxlLgogKi8Kb2JqZWN0IFNob3dlclZpZGVvUmVuZGVyZXIgewoKICAgIHByaXZhdGUgdmFsIGNvcmUgPSBjb20uYWkuYXNzaXN0YW5jZS5zaG93ZXJjbGllbnQuU2hvd2VyVmlkZW9SZW5kZXJlcigpCgogICAgZnVuIGF0dGFjaChzdXJmYWNlOiBTdXJmYWNlLCB2aWRlb1dpZHRoOiBJbnQsIHZpZGVvSGVpZ2h0OiBJbnQpID0KICAgICAgICBjb3JlLmF0dGFjaChzdXJmYWNlLCB2aWRlb1dpZHRoLCB2aWRlb0hlaWdodCkKCiAgICBmdW4gZGV0YWNoKCkgPSBjb3JlLmRldGFjaCgpCgogICAgZnVuIG9uRnJhbWUoZGF0YTogQnl0ZUFycmF5KSA9IGNvcmUub25GcmFtZShkYXRhKQoKICAgIHN1c3BlbmQgZnVuIGNhcHR1cmVDdXJyZW50RnJhbWVQbmcoKTogQnl0ZUFycmF5PyA9CiAgICAgICAgY29yZS5jYXB0dXJlQ3VycmVudEZyYW1lUG5nKCkKfQo=
+package com.bslsjdk.operit.core.tools.agent
+
+import android.view.Surface
+
+/**
+ * Simple H.264 decoder that renders the Shower video stream onto a Surface.
+ *
+ * This decoder assumes that the first two binary frames received from the Shower server
+ * are the codec configuration buffers (csd-0 and csd-1), followed by regular access units.
+ *
+ * This app-level object is a thin facade over the shared implementation in the
+ * `:showerclient` module.
+ */
+object ShowerVideoRenderer {
+
+    private val core = com.ai.assistance.showerclient.ShowerVideoRenderer()
+
+    fun attach(surface: Surface, videoWidth: Int, videoHeight: Int) =
+        core.attach(surface, videoWidth, videoHeight)
+
+    fun detach() = core.detach()
+
+    fun onFrame(data: ByteArray) = core.onFrame(data)
+
+    suspend fun captureCurrentFramePng(): ByteArray? =
+        core.captureCurrentFramePng()
+}

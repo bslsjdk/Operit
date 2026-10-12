@@ -1,1 +1,255 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmZpbGVtYW5hZ2VyLmNvbXBvbmVudHMKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uRXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmNvbWJpbmVkQ2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5iYWNrZ3JvdW5kCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnZlY3Rvci5JbWFnZVZlY3RvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuc3R5bGUuVGV4dE92ZXJmbG93CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnRvb2xib3guc2NyZWVucy5maWxlbWFuYWdlci5tb2RlbHMuRmlsZUl0ZW0KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy50b29sYm94LnNjcmVlbnMuZmlsZW1hbmFnZXIudXRpbHMuZm9ybWF0RGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnRvb2xib3guc2NyZWVucy5maWxlbWFuYWdlci51dGlscy5mb3JtYXRGaWxlU2l6ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnRvb2xib3guc2NyZWVucy5maWxlbWFuYWdlci51dGlscy5nZXRGaWxlSWNvbgppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQKaW1wb3J0IGphdmEudXRpbC4qCgplbnVtIGNsYXNzIERpc3BsYXlNb2RlIHsKICAgIFNJTkdMRV9DT0xVTU4sCiAgICBUV09fQ09MVU1OUywKICAgIFRIUkVFX0NPTFVNTlMKfQoKQE9wdEluKEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gRmlsZUxpc3RJdGVtKAogICAgZmlsZTogRmlsZUl0ZW0sCiAgICBpc1NlbGVjdGVkOiBCb29sZWFuLAogICAgb25JdGVtQ2xpY2s6ICgpIC0+IFVuaXQsCiAgICBvbkl0ZW1Mb25nQ2xpY2s6ICgpIC0+IFVuaXQsCiAgICBpdGVtU2l6ZTogRmxvYXQgPSAxZiwKICAgIGRpc3BsYXlNb2RlOiBEaXNwbGF5TW9kZSA9IERpc3BsYXlNb2RlLlNJTkdMRV9DT0xVTU4KKSB7CiAgICB2YWwgYmFzZUhlaWdodCA9IDcyLmRwICAvLyDmiYDmnInmqKHlvI/kvb/nlKjnm7jlkIznmoTpq5jluqYKICAgIHZhbCBiYXNlSWNvblNpemUgPSB3aGVuIChkaXNwbGF5TW9kZSkgewogICAgICAgIERpc3BsYXlNb2RlLlNJTkdMRV9DT0xVTU4gLT4gNDAuZHAKICAgICAgICBEaXNwbGF5TW9kZS5UV09fQ09MVU1OUyAtPiAzNi5kcAogICAgICAgIERpc3BsYXlNb2RlLlRIUkVFX0NPTFVNTlMgLT4gMzIuZHAKICAgIH0KICAgIHZhbCBiYXNlUGFkZGluZyA9IHdoZW4gKGRpc3BsYXlNb2RlKSB7CiAgICAgICAgRGlzcGxheU1vZGUuU0lOR0xFX0NPTFVNTiAtPiAxMi5kcAogICAgICAgIERpc3BsYXlNb2RlLlRXT19DT0xVTU5TIC0+IDguZHAKICAgICAgICBEaXNwbGF5TW9kZS5USFJFRV9DT0xVTU5TIC0+IDYuZHAKICAgIH0KICAgIHZhbCBiYXNlU3BhY2luZyA9IHdoZW4gKGRpc3BsYXlNb2RlKSB7CiAgICAgICAgRGlzcGxheU1vZGUuU0lOR0xFX0NPTFVNTiAtPiA4LmRwCiAgICAgICAgRGlzcGxheU1vZGUuVFdPX0NPTFVNTlMgLT4gNi5kcAogICAgICAgIERpc3BsYXlNb2RlLlRIUkVFX0NPTFVNTlMgLT4gNC5kcAogICAgfQogICAgdmFsIGJhc2VUZXh0U2l6ZSA9IHdoZW4gKGRpc3BsYXlNb2RlKSB7CiAgICAgICAgRGlzcGxheU1vZGUuU0lOR0xFX0NPTFVNTiAtPiAxNi5zcAogICAgICAgIERpc3BsYXlNb2RlLlRXT19DT0xVTU5TIC0+IDE0LnNwCiAgICAgICAgRGlzcGxheU1vZGUuVEhSRUVfQ09MVU1OUyAtPiAxMi5zcAogICAgfQoKICAgIFN1cmZhY2UoCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgLmhlaWdodChiYXNlSGVpZ2h0ICogaXRlbVNpemUpCiAgICAgICAgICAgIC5jb21iaW5lZENsaWNrYWJsZSgKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkl0ZW1DbGljaywKICAgICAgICAgICAgICAgIG9uTG9uZ0NsaWNrID0gb25JdGVtTG9uZ0NsaWNrCiAgICAgICAgICAgICksCiAgICAgICAgY29sb3IgPSBpZiAoaXNTZWxlY3RlZCkgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5Q29udGFpbmVyCiAgICAgICAgICAgICAgICBlbHNlIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZSwKICAgICAgICB0b25hbEVsZXZhdGlvbiA9IGlmIChpc1NlbGVjdGVkKSAyLmRwIGVsc2UgMS5kcCwKICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgxMi5kcCkKICAgICkgewogICAgICAgIHdoZW4gKGRpc3BsYXlNb2RlKSB7CiAgICAgICAgICAgIERpc3BsYXlNb2RlLlNJTkdMRV9DT0xVTU4gLT4gewogICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoYmFzZVBhZGRpbmcgKiBpdGVtU2l6ZSksCiAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgU3VyZmFjZSgKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKGJhc2VJY29uU2l6ZSAqIGl0ZW1TaXplKSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBpZiAoaXNTZWxlY3RlZCkgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICAgICAgICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSg4LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgdG9uYWxFbGV2YXRpb24gPSAxLmRwCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFNpemUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnRBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyCiAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IGdldEZpbGVJY29uKGZpbGUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGludCA9IGlmIChpc1NlbGVjdGVkKSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uUHJpbWFyeQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoYmFzZUljb25TaXplICogMC42ZiAqIGl0ZW1TaXplKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aChiYXNlU3BhY2luZyAqIDEuNWYgKiBpdGVtU2l6ZSkpCgogICAgICAgICAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gZmlsZS5uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVNZWRpdW0uY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IGJhc2VUZXh0U2l6ZSAqIGl0ZW1TaXplCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBpZiAoaXNTZWxlY3RlZCkgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdyA9IFRleHRPdmVyZmxvdy5FbGxpcHNpcwogICAgICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoYmFzZVNwYWNpbmcgKiAwLjVmICogaXRlbVNpemUpKQoKICAgICAgICAgICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LlNwYWNlQmV0d2VlbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBpZiAoZmlsZS5pc0RpcmVjdG9yeSkgc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuZmlsZV9saXN0X2ZvbGRlcikgZWxzZSBmb3JtYXRGaWxlU2l6ZShmaWxlLnNpemUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0uY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSBiYXNlVGV4dFNpemUgKiAwLjg1ZiAqIGl0ZW1TaXplCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IGlmIChpc1NlbGVjdGVkKSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkuY29weShhbHBoYSA9IDAuN2YpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heExpbmVzID0gMSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdyA9IFRleHRPdmVyZmxvdy5FbGxpcHNpcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aChiYXNlU3BhY2luZyAqIGl0ZW1TaXplKSkKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBmb3JtYXREYXRlKGZpbGUubGFzdE1vZGlmaWVkKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gYmFzZVRleHRTaXplICogMC44NWYgKiBpdGVtU2l6ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBpZiAoaXNTZWxlY3RlZCkgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LmNvcHkoYWxwaGEgPSAwLjdmKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgRGlzcGxheU1vZGUuVFdPX0NPTFVNTlMsIERpc3BsYXlNb2RlLlRIUkVFX0NPTFVNTlMgLT4gewogICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoYmFzZVBhZGRpbmcgKiBpdGVtU2l6ZSksCiAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgU3VyZmFjZSgKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKGJhc2VJY29uU2l6ZSAqIGl0ZW1TaXplKSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBpZiAoaXNTZWxlY3RlZCkgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICAgICAgICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSg4LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgdG9uYWxFbGV2YXRpb24gPSAxLmRwCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFNpemUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnRBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyCiAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IGdldEZpbGVJY29uKGZpbGUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGludCA9IGlmIChpc1NlbGVjdGVkKSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uUHJpbWFyeQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoYmFzZUljb25TaXplICogMC42ZiAqIGl0ZW1TaXplKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aChiYXNlU3BhY2luZyAqIDEuNWYgKiBpdGVtU2l6ZSkpCgogICAgICAgICAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gZmlsZS5uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVNZWRpdW0uY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IGJhc2VUZXh0U2l6ZSAqIGl0ZW1TaXplCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBpZiAoaXNTZWxlY3RlZCkgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdyA9IFRleHRPdmVyZmxvdy5FbGxpcHNpcwogICAgICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoYmFzZVNwYWNpbmcgKiAwLjVmICogaXRlbVNpemUpKQoKICAgICAgICAgICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LlNwYWNlQmV0d2VlbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBpZiAoZmlsZS5pc0RpcmVjdG9yeSkgc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuZmlsZV9saXN0X2ZvbGRlcikgZWxzZSBmb3JtYXRGaWxlU2l6ZShmaWxlLnNpemUpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0uY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSBiYXNlVGV4dFNpemUgKiAwLjg1ZiAqIGl0ZW1TaXplCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IGlmIChpc1NlbGVjdGVkKSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkuY29weShhbHBoYSA9IDAuN2YpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heExpbmVzID0gMSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVyZmxvdyA9IFRleHRPdmVyZmxvdy5FbGxpcHNpcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aChiYXNlU3BhY2luZyAqIGl0ZW1TaXplKSkKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBmb3JtYXREYXRlKGZpbGUubGFzdE1vZGlmaWVkKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gYmFzZVRleHRTaXplICogMC44NWYgKiBpdGVtU2l6ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBpZiAoaXNTZWxlY3RlZCkgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LmNvcHkoYWxwaGEgPSAwLjdmKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCnByaXZhdGUgZnVuIGZvcm1hdEZpbGVTaXplKHNpemU6IExvbmcpOiBTdHJpbmcgewogICAgcmV0dXJuIHdoZW4gewogICAgICAgIHNpemUgPCAxMDI0IC0+ICIkc2l6ZSBCIgogICAgICAgIHNpemUgPCAxMDI0ICogMTAyNCAtPiAiJHtzaXplIC8gMTAyNH0gS0IiCiAgICAgICAgc2l6ZSA8IDEwMjQgKiAxMDI0ICogMTAyNCAtPiAiJHtzaXplIC8gKDEwMjQgKiAxMDI0KX0gTUIiCiAgICAgICAgZWxzZSAtPiAiJHtzaXplIC8gKDEwMjQgKiAxMDI0ICogMTAyNCl9IEdCIgogICAgfQp9Cgpwcml2YXRlIGZ1biBmb3JtYXREYXRlKHRpbWVzdGFtcDogTG9uZyk6IFN0cmluZyB7CiAgICByZXR1cm4gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eS1NTS1kZCBISDptbSIsIExvY2FsZS5nZXREZWZhdWx0KCkpCiAgICAgICAgLmZvcm1hdChEYXRlKHRpbWVzdGFtcCkpCn0=
+package com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.components
+
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.combinedClickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.background
+import androidx.compose.material.icons.Icons
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.text.style.TextOverflow
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.models.FileItem
+import com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.utils.formatDate
+import com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.utils.formatFileSize
+import com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.utils.getFileIcon
+import java.text.SimpleDateFormat
+import java.util.*
+
+enum class DisplayMode {
+    SINGLE_COLUMN,
+    TWO_COLUMNS,
+    THREE_COLUMNS
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+fun FileListItem(
+    file: FileItem,
+    isSelected: Boolean,
+    onItemClick: () -> Unit,
+    onItemLongClick: () -> Unit,
+    itemSize: Float = 1f,
+    displayMode: DisplayMode = DisplayMode.SINGLE_COLUMN
+) {
+    val baseHeight = 72.dp  // 所有模式使用相同的高度
+    val baseIconSize = when (displayMode) {
+        DisplayMode.SINGLE_COLUMN -> 40.dp
+        DisplayMode.TWO_COLUMNS -> 36.dp
+        DisplayMode.THREE_COLUMNS -> 32.dp
+    }
+    val basePadding = when (displayMode) {
+        DisplayMode.SINGLE_COLUMN -> 12.dp
+        DisplayMode.TWO_COLUMNS -> 8.dp
+        DisplayMode.THREE_COLUMNS -> 6.dp
+    }
+    val baseSpacing = when (displayMode) {
+        DisplayMode.SINGLE_COLUMN -> 8.dp
+        DisplayMode.TWO_COLUMNS -> 6.dp
+        DisplayMode.THREE_COLUMNS -> 4.dp
+    }
+    val baseTextSize = when (displayMode) {
+        DisplayMode.SINGLE_COLUMN -> 16.sp
+        DisplayMode.TWO_COLUMNS -> 14.sp
+        DisplayMode.THREE_COLUMNS -> 12.sp
+    }
+
+    Surface(
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(baseHeight * itemSize)
+            .combinedClickable(
+                onClick = onItemClick,
+                onLongClick = onItemLongClick
+            ),
+        color = if (isSelected) MaterialTheme.colorScheme.primaryContainer
+                else MaterialTheme.colorScheme.surface,
+        tonalElevation = if (isSelected) 2.dp else 1.dp,
+        shape = RoundedCornerShape(12.dp)
+    ) {
+        when (displayMode) {
+            DisplayMode.SINGLE_COLUMN -> {
+                Row(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(basePadding * itemSize),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Surface(
+                        modifier = Modifier.size(baseIconSize * itemSize),
+                        color = if (isSelected) MaterialTheme.colorScheme.primary
+                                else MaterialTheme.colorScheme.surfaceVariant,
+                        shape = RoundedCornerShape(8.dp),
+                        tonalElevation = 1.dp
+                    ) {
+                        Box(
+                            modifier = Modifier.fillMaxSize(),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                imageVector = getFileIcon(file),
+                                contentDescription = null,
+                                tint = if (isSelected) MaterialTheme.colorScheme.onPrimary
+                                       else MaterialTheme.colorScheme.onSurfaceVariant,
+                                modifier = Modifier.size(baseIconSize * 0.6f * itemSize)
+                            )
+                        }
+                    }
+
+                    Spacer(modifier = Modifier.width(baseSpacing * 1.5f * itemSize))
+
+                    Column(
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Text(
+                            text = file.name,
+                            style = MaterialTheme.typography.titleMedium.copy(
+                                fontSize = baseTextSize * itemSize
+                            ),
+                            color = if (isSelected) MaterialTheme.colorScheme.primary
+                                    else MaterialTheme.colorScheme.onSurface,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis
+                        )
+
+                        Spacer(modifier = Modifier.height(baseSpacing * 0.5f * itemSize))
+
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = if (file.isDirectory) stringResource(R.string.file_list_folder) else formatFileSize(file.size),
+                                style = MaterialTheme.typography.bodyMedium.copy(
+                                    fontSize = baseTextSize * 0.85f * itemSize
+                                ),
+                                color = if (isSelected) MaterialTheme.colorScheme.primary.copy(alpha = 0.7f)
+                                       else MaterialTheme.colorScheme.onSurfaceVariant,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                                modifier = Modifier.weight(1f)
+                            )
+
+                            Spacer(modifier = Modifier.width(baseSpacing * itemSize))
+
+                            Text(
+                                text = formatDate(file.lastModified),
+                                style = MaterialTheme.typography.bodyMedium.copy(
+                                    fontSize = baseTextSize * 0.85f * itemSize
+                                ),
+                                color = if (isSelected) MaterialTheme.colorScheme.primary.copy(alpha = 0.7f)
+                                       else MaterialTheme.colorScheme.onSurfaceVariant,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                                modifier = Modifier.weight(1f)
+                            )
+                        }
+                    }
+                }
+            }
+            DisplayMode.TWO_COLUMNS, DisplayMode.THREE_COLUMNS -> {
+                Row(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(basePadding * itemSize),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Surface(
+                        modifier = Modifier.size(baseIconSize * itemSize),
+                        color = if (isSelected) MaterialTheme.colorScheme.primary
+                                else MaterialTheme.colorScheme.surfaceVariant,
+                        shape = RoundedCornerShape(8.dp),
+                        tonalElevation = 1.dp
+                    ) {
+                        Box(
+                            modifier = Modifier.fillMaxSize(),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                imageVector = getFileIcon(file),
+                                contentDescription = null,
+                                tint = if (isSelected) MaterialTheme.colorScheme.onPrimary
+                                       else MaterialTheme.colorScheme.onSurfaceVariant,
+                                modifier = Modifier.size(baseIconSize * 0.6f * itemSize)
+                            )
+                        }
+                    }
+
+                    Spacer(modifier = Modifier.width(baseSpacing * 1.5f * itemSize))
+
+                    Column(
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Text(
+                            text = file.name,
+                            style = MaterialTheme.typography.titleMedium.copy(
+                                fontSize = baseTextSize * itemSize
+                            ),
+                            color = if (isSelected) MaterialTheme.colorScheme.primary
+                                    else MaterialTheme.colorScheme.onSurface,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis
+                        )
+
+                        Spacer(modifier = Modifier.height(baseSpacing * 0.5f * itemSize))
+
+                        Row(
+                            modifier = Modifier.fillMaxWidth(),
+                            horizontalArrangement = Arrangement.SpaceBetween,
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Text(
+                                text = if (file.isDirectory) stringResource(R.string.file_list_folder) else formatFileSize(file.size),
+                                style = MaterialTheme.typography.bodyMedium.copy(
+                                    fontSize = baseTextSize * 0.85f * itemSize
+                                ),
+                                color = if (isSelected) MaterialTheme.colorScheme.primary.copy(alpha = 0.7f)
+                                       else MaterialTheme.colorScheme.onSurfaceVariant,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                                modifier = Modifier.weight(1f)
+                            )
+
+                            Spacer(modifier = Modifier.width(baseSpacing * itemSize))
+
+                            Text(
+                                text = formatDate(file.lastModified),
+                                style = MaterialTheme.typography.bodyMedium.copy(
+                                    fontSize = baseTextSize * 0.85f * itemSize
+                                ),
+                                color = if (isSelected) MaterialTheme.colorScheme.primary.copy(alpha = 0.7f)
+                                       else MaterialTheme.colorScheme.onSurfaceVariant,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                                modifier = Modifier.weight(1f)
+                            )
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+private fun formatFileSize(size: Long): String {
+    return when {
+        size < 1024 -> "$size B"
+        size < 1024 * 1024 -> "${size / 1024} KB"
+        size < 1024 * 1024 * 1024 -> "${size / (1024 * 1024)} MB"
+        else -> "${size / (1024 * 1024 * 1024)} GB"
+    }
+}
+
+private fun formatDate(timestamp: Long): String {
+    return SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.getDefault())
+        .format(Date(timestamp))
+}

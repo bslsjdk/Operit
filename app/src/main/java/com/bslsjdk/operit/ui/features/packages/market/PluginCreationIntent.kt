@@ -1,1 +1,74 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCgpzZWFsZWQgaW50ZXJmYWNlIFBsdWdpbkNyZWF0aW9uSW50ZW50IHsKICAgIHZhbCByZXF1aXJlbWVudDogU3RyaW5nCgogICAgZnVuIHRvUHJvbXB0KGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcKCiAgICBkYXRhIGNsYXNzIEZyZXNoKAogICAgICAgIG92ZXJyaWRlIHZhbCByZXF1aXJlbWVudDogU3RyaW5nCiAgICApIDogUGx1Z2luQ3JlYXRpb25JbnRlbnQgewogICAgICAgIG92ZXJyaWRlIGZ1biB0b1Byb21wdChjb250ZXh0OiBDb250ZXh0KTogU3RyaW5nIHsKICAgICAgICAgICAgcmV0dXJuIGJ1aWxkQ3JlYXRpb25Qcm9tcHQoCiAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgICAgIHRhc2tMaW5lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcucGx1Z2luX2NyZWF0aW9uX2ZyZXNoX3Rhc2tfbGluZSksCiAgICAgICAgICAgICAgICBwYWNrYWdlUnVsZUxpbmUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5wbHVnaW5fY3JlYXRpb25fZnJlc2hfcGFja2FnZV9ydWxlX2xpbmUpLAogICAgICAgICAgICAgICAgZGV2RGlyZWN0b3J5TGluZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnBsdWdpbl9jcmVhdGlvbl9mcmVzaF9kZXZfZGlyZWN0b3J5X2xpbmUpLAogICAgICAgICAgICAgICAgcmVxdWlyZW1lbnQgPSByZXF1aXJlbWVudAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIGRhdGEgY2xhc3MgQ29udGludWUoCiAgICAgICAgdmFsIHJ1bnRpbWVQYWNrYWdlSWQ6IFN0cmluZywKICAgICAgICBvdmVycmlkZSB2YWwgcmVxdWlyZW1lbnQ6IFN0cmluZwogICAgKSA6IFBsdWdpbkNyZWF0aW9uSW50ZW50IHsKICAgICAgICBvdmVycmlkZSBmdW4gdG9Qcm9tcHQoY29udGV4dDogQ29udGV4dCk6IFN0cmluZyB7CiAgICAgICAgICAgIHJldHVybiBidWlsZENyZWF0aW9uUHJvbXB0KAogICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICB0YXNrTGluZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnBsdWdpbl9jcmVhdGlvbl9jb250aW51ZV90YXNrX2xpbmUsIHJ1bnRpbWVQYWNrYWdlSWQpLAogICAgICAgICAgICAgICAgcGFja2FnZVJ1bGVMaW5lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcucGx1Z2luX2NyZWF0aW9uX2V4aXN0aW5nX3BhY2thZ2VfcnVsZV9saW5lLCBydW50aW1lUGFja2FnZUlkKSwKICAgICAgICAgICAgICAgIGRldkRpcmVjdG9yeUxpbmUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5wbHVnaW5fY3JlYXRpb25fZXhpc3RpbmdfZGV2X2RpcmVjdG9yeV9saW5lLCBydW50aW1lUGFja2FnZUlkKSwKICAgICAgICAgICAgICAgIHJlcXVpcmVtZW50ID0gcmVxdWlyZW1lbnQKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBkYXRhIGNsYXNzIE1lcmdlKAogICAgICAgIHZhbCBydW50aW1lUGFja2FnZUlkOiBTdHJpbmcsCiAgICAgICAgb3ZlcnJpZGUgdmFsIHJlcXVpcmVtZW50OiBTdHJpbmcKICAgICkgOiBQbHVnaW5DcmVhdGlvbkludGVudCB7CiAgICAgICAgb3ZlcnJpZGUgZnVuIHRvUHJvbXB0KGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgewogICAgICAgICAgICByZXR1cm4gYnVpbGRDcmVhdGlvblByb21wdCgKICAgICAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICAgICAgdGFza0xpbmUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5wbHVnaW5fY3JlYXRpb25fbWVyZ2VfdGFza19saW5lLCBydW50aW1lUGFja2FnZUlkKSwKICAgICAgICAgICAgICAgIHBhY2thZ2VSdWxlTGluZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnBsdWdpbl9jcmVhdGlvbl9leGlzdGluZ19wYWNrYWdlX3J1bGVfbGluZSwgcnVudGltZVBhY2thZ2VJZCksCiAgICAgICAgICAgICAgICBkZXZEaXJlY3RvcnlMaW5lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcucGx1Z2luX2NyZWF0aW9uX2V4aXN0aW5nX2Rldl9kaXJlY3RvcnlfbGluZSwgcnVudGltZVBhY2thZ2VJZCksCiAgICAgICAgICAgICAgICByZXF1aXJlbWVudCA9IHJlcXVpcmVtZW50CiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCnByaXZhdGUgZnVuIGJ1aWxkQ3JlYXRpb25Qcm9tcHQoCiAgICBjb250ZXh0OiBDb250ZXh0LAogICAgdGFza0xpbmU6IFN0cmluZywKICAgIHBhY2thZ2VSdWxlTGluZTogU3RyaW5nLAogICAgZGV2RGlyZWN0b3J5TGluZTogU3RyaW5nLAogICAgcmVxdWlyZW1lbnQ6IFN0cmluZwopOiBTdHJpbmcgewogICAgcmV0dXJuIGJ1aWxkU3RyaW5nIHsKICAgICAgICBhcHBlbmRMaW5lKHRhc2tMaW5lKQogICAgICAgIGFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcucGx1Z2luX2NyZWF0aW9uX3VwZGF0ZV9zYW5kYm94X3BhY2thZ2VfZGV2KSkKICAgICAgICBhcHBlbmRMaW5lKGRldkRpcmVjdG9yeUxpbmUpCiAgICAgICAgYXBwZW5kTGluZShwYWNrYWdlUnVsZUxpbmUpCiAgICAgICAgYXBwZW5kTGluZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5wbHVnaW5fY3JlYXRpb25fY29weV90eXBlc190b19kZXZfZGlyKSkKICAgICAgICBhcHBlbmRMaW5lKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnBsdWdpbl9jcmVhdGlvbl91c2VfdGVybWluYWxfdHNfanNfaGludCkpCiAgICAgICAgYXBwZW5kTGluZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5wbHVnaW5fY3JlYXRpb25fcGFja2FnZV90c19oaW50KSkKICAgICAgICBhcHBlbmRMaW5lKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnBsdWdpbl9jcmVhdGlvbl9yZXF1aXJlbWVudF9sYWJlbCkpCiAgICAgICAgYXBwZW5kKHJlcXVpcmVtZW50LnRyaW0oKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.packages.market
+
+import android.content.Context
+import com.bslsjdk.operit.R
+
+sealed interface PluginCreationIntent {
+    val requirement: String
+
+    fun toPrompt(context: Context): String
+
+    data class Fresh(
+        override val requirement: String
+    ) : PluginCreationIntent {
+        override fun toPrompt(context: Context): String {
+            return buildCreationPrompt(
+                context = context,
+                taskLine = context.getString(R.string.plugin_creation_fresh_task_line),
+                packageRuleLine = context.getString(R.string.plugin_creation_fresh_package_rule_line),
+                devDirectoryLine = context.getString(R.string.plugin_creation_fresh_dev_directory_line),
+                requirement = requirement
+            )
+        }
+    }
+
+    data class Continue(
+        val runtimePackageId: String,
+        override val requirement: String
+    ) : PluginCreationIntent {
+        override fun toPrompt(context: Context): String {
+            return buildCreationPrompt(
+                context = context,
+                taskLine = context.getString(R.string.plugin_creation_continue_task_line, runtimePackageId),
+                packageRuleLine = context.getString(R.string.plugin_creation_existing_package_rule_line, runtimePackageId),
+                devDirectoryLine = context.getString(R.string.plugin_creation_existing_dev_directory_line, runtimePackageId),
+                requirement = requirement
+            )
+        }
+    }
+
+    data class Merge(
+        val runtimePackageId: String,
+        override val requirement: String
+    ) : PluginCreationIntent {
+        override fun toPrompt(context: Context): String {
+            return buildCreationPrompt(
+                context = context,
+                taskLine = context.getString(R.string.plugin_creation_merge_task_line, runtimePackageId),
+                packageRuleLine = context.getString(R.string.plugin_creation_existing_package_rule_line, runtimePackageId),
+                devDirectoryLine = context.getString(R.string.plugin_creation_existing_dev_directory_line, runtimePackageId),
+                requirement = requirement
+            )
+        }
+    }
+}
+
+private fun buildCreationPrompt(
+    context: Context,
+    taskLine: String,
+    packageRuleLine: String,
+    devDirectoryLine: String,
+    requirement: String
+): String {
+    return buildString {
+        appendLine(taskLine)
+        appendLine(context.getString(R.string.plugin_creation_update_sandbox_package_dev))
+        appendLine(devDirectoryLine)
+        appendLine(packageRuleLine)
+        appendLine(context.getString(R.string.plugin_creation_copy_types_to_dev_dir))
+        appendLine(context.getString(R.string.plugin_creation_use_terminal_ts_js_hint))
+        appendLine(context.getString(R.string.plugin_creation_package_ts_hint))
+        appendLine(context.getString(R.string.plugin_creation_requirement_label))
+        append(requirement.trim())
+    }
+}

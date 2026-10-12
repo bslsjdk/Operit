@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5hZ2VudAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5zaG93ZXJjbGllbnQuU2hvd2VyU2VydmVyTWFuYWdlciBhcyBDb3JlU2hvd2VyU2VydmVyTWFuYWdlcgoKLyoqCiAqIEhlbHBlciB0byBtYW5hZ2UgdGhlIGxpZmVjeWNsZSBvZiB0aGUgU2hvd2VyIHNlcnZlciAoc2hvd2VyLXNlcnZlci5qYXIpIG9uIHRoZSBkZXZpY2UuCiAqCiAqIFRoZSBqYXIgaXMgcGFja2FnZWQgaW4gYXBwIGFzc2V0cyAoc3JjL21haW4vYXNzZXRzL3Nob3dlci1zZXJ2ZXIuamFyKS4KICogQXQgcnVudGltZSB3ZSBjb3B5IGl0IHRvIHRoZSBhcHAncyBmaWxlcyBkaXJlY3RvcnkgYW5kIHN0YXJ0IGl0IHZpYSBhcHBfcHJvY2VzczoKICogICBDTEFTU1BBVEg9L2RhdGEvdXNlci88Y3VycmVudF91c2VyX2lkPi88cGtnPi9maWxlcy9zaG93ZXItc2VydmVyLmphciBhcHBfcHJvY2VzcyAvIGNvbS5haS5hc3Npc3RhbmNlLnNob3dlci5NYWluCiAqLwpvYmplY3QgU2hvd2VyU2VydmVyTWFuYWdlciB7CgogICAgLyoqCiAgICAgKiBFbnN1cmUgdGhlIFNob3dlciBzZXJ2ZXIgaXMgc3RhcnRlZCBpbiB0aGUgYmFja2dyb3VuZC4KICAgICAqIFJldHVybnMgdHJ1ZSBpZiB0aGUgc3RhcnQgY29tbWFuZCB3YXMgaXNzdWVkIHN1Y2Nlc3NmdWxseS4KICAgICAqLwogICAgc3VzcGVuZCBmdW4gZW5zdXJlU2VydmVyU3RhcnRlZChjb250ZXh0OiBDb250ZXh0KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIENvcmVTaG93ZXJTZXJ2ZXJNYW5hZ2VyLmVuc3VyZVNlcnZlclN0YXJ0ZWQoY29udGV4dCkKICAgIH0KCiAgICAvKioKICAgICAqIFN0b3AgdGhlIFNob3dlciBzZXJ2ZXIgcHJvY2VzcyBpZiBydW5uaW5nLgogICAgICovCiAgICBzdXNwZW5kIGZ1biBzdG9wU2VydmVyKCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBDb3JlU2hvd2VyU2VydmVyTWFuYWdlci5zdG9wU2VydmVyKCkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.agent
+
+import android.content.Context
+import com.ai.assistance.showerclient.ShowerServerManager as CoreShowerServerManager
+
+/**
+ * Helper to manage the lifecycle of the Shower server (shower-server.jar) on the device.
+ *
+ * The jar is packaged in app assets (src/main/assets/shower-server.jar).
+ * At runtime we copy it to the app's files directory and start it via app_process:
+ *   CLASSPATH=/data/user/<current_user_id>/<pkg>/files/shower-server.jar app_process / com.ai.assistance.shower.Main
+ */
+object ShowerServerManager {
+
+    /**
+     * Ensure the Shower server is started in the background.
+     * Returns true if the start command was issued successfully.
+     */
+    suspend fun ensureServerStarted(context: Context): Boolean {
+        return CoreShowerServerManager.ensureServerStarted(context)
+    }
+
+    /**
+     * Stop the Shower server process if running.
+     */
+    suspend fun stopServer(): Boolean {
+        return CoreShowerServerManager.stopServer()
+    }
+}

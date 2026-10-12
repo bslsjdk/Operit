@@ -1,1 +1,98 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC50ZXN0LmV4dC5qdW5pdC5ydW5uZXJzLkFuZHJvaWRKVW5pdDQKaW1wb3J0IGFuZHJvaWR4LnRlc3QucGxhdGZvcm0uYXBwLkluc3RydW1lbnRhdGlvblJlZ2lzdHJ5CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5CZWZvcmUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBDcmFzaFJlY292ZXJ5U3RhdGVBbmRyb2lkVGVzdCB7CgogICAgcHJpdmF0ZSB2YWwgY29udGV4dCA9IEluc3RydW1lbnRhdGlvblJlZ2lzdHJ5LmdldEluc3RydW1lbnRhdGlvbigpLnRhcmdldENvbnRleHQKCiAgICBAQmVmb3JlCiAgICBmdW4gcmVzZXRTdGF0ZSgpIHsKICAgICAgICBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgICAgICAgICAuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoImNyYXNoX3JlY292ZXJ5X3N0YXRlIiwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCiAgICAgICAgICAgIC5lZGl0KCkKICAgICAgICAgICAgLmNsZWFyKCkKICAgICAgICAgICAgLmNvbW1pdCgpCiAgICB9CgogICAgQFRlc3QgZnVuIGNvbnN1bWVXaXRob3V0TWFya19yZXR1cm5zRmFsc2UoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkpCiAgICB9CgogICAgQFRlc3QgZnVuIG1hcmtUaGVuQ29uc3VtZV9yZXR1cm5zVHJ1ZSgpIHsKICAgICAgICBDcmFzaFJlY292ZXJ5U3RhdGUubWFya1BlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KQogICAgICAgIGFzc2VydFRydWUoQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGNvbnN1bWVDbGVhcnNQZW5kaW5nRmxhZygpIHsKICAgICAgICBDcmFzaFJlY292ZXJ5U3RhdGUubWFya1BlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KQogICAgICAgIGFzc2VydFRydWUoQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkpCiAgICAgICAgYXNzZXJ0RmFsc2UoQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkpCiAgICB9CgogICAgQFRlc3QgZnVuIG11bHRpcGxlTWFya3NSZW1haW5TaW5nbGVQZW5kaW5nRmxhZygpIHsKICAgICAgICBDcmFzaFJlY292ZXJ5U3RhdGUubWFya1BlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KQogICAgICAgIENyYXNoUmVjb3ZlcnlTdGF0ZS5tYXJrUGVuZGluZ0NyYXNoUmVwb3J0TGF1bmNoKGNvbnRleHQpCiAgICAgICAgYXNzZXJ0VHJ1ZShDcmFzaFJlY292ZXJ5U3RhdGUuY29uc3VtZVBlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYXBwbGljYXRpb25Db250ZXh0UGF0aF9pc1VzZWRTYWZlbHkoKSB7CiAgICAgICAgQ3Jhc2hSZWNvdmVyeVN0YXRlLm1hcmtQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgYXNzZXJ0VHJ1ZShDcmFzaFJlY292ZXJ5U3RhdGUuY29uc3VtZVBlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gdW5yZWxhdGVkUHJlZmVyZW5jZUtleXNfYXJlUHJlc2VydmVkKCkgewogICAgICAgIHZhbCBwcmVmcyA9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKCJjcmFzaF9yZWNvdmVyeV9zdGF0ZSIsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgICAgIHByZWZzLmVkaXQoKS5wdXRTdHJpbmcoIm90aGVyIiwgInZhbHVlIikuY29tbWl0KCkKICAgICAgICBDcmFzaFJlY292ZXJ5U3RhdGUubWFya1BlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KQogICAgICAgIENyYXNoUmVjb3ZlcnlTdGF0ZS5jb25zdW1lUGVuZGluZ0NyYXNoUmVwb3J0TGF1bmNoKGNvbnRleHQpCiAgICAgICAgYXNzZXJ0VHJ1ZShwcmVmcy5jb250YWlucygib3RoZXIiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVwZWF0ZWRDb25zdW1lQWZ0ZXJDbGVhcl9zdGF5c0ZhbHNlKCkgewogICAgICAgIENyYXNoUmVjb3ZlcnlTdGF0ZS5tYXJrUGVuZGluZ0NyYXNoUmVwb3J0TGF1bmNoKGNvbnRleHQpCiAgICAgICAgQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkKICAgICAgICBhc3NlcnRGYWxzZShDcmFzaFJlY292ZXJ5U3RhdGUuY29uc3VtZVBlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbWFya0FmdGVyQ29uc3VtZV9iZWNvbWVzUGVuZGluZ0FnYWluKCkgewogICAgICAgIENyYXNoUmVjb3ZlcnlTdGF0ZS5tYXJrUGVuZGluZ0NyYXNoUmVwb3J0TGF1bmNoKGNvbnRleHQpCiAgICAgICAgQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkKICAgICAgICBDcmFzaFJlY292ZXJ5U3RhdGUubWFya1BlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KQogICAgICAgIGFzc2VydFRydWUoQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkpCiAgICB9CgogICAgQFRlc3QgZnVuIHNlcGFyYXRlQ29udGV4dFJlZmVyZW5jZXNfc2hhcmVTYW1lU3RhdGUoKSB7CiAgICAgICAgdmFsIGN0eDEgPSBjb250ZXh0CiAgICAgICAgdmFsIGN0eDIgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgICAgIENyYXNoUmVjb3ZlcnlTdGF0ZS5tYXJrUGVuZGluZ0NyYXNoUmVwb3J0TGF1bmNoKGN0eDEpCiAgICAgICAgYXNzZXJ0VHJ1ZShDcmFzaFJlY292ZXJ5U3RhdGUuY29uc3VtZVBlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjdHgyKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcGVuZGluZ0ZsYWdVc2VzQ29tbWl0QW5kUGVyc2lzdHNJbW1lZGlhdGVseSgpIHsKICAgICAgICBDcmFzaFJlY292ZXJ5U3RhdGUubWFya1BlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KQogICAgICAgIHZhbCBwcmVmcyA9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKCJjcmFzaF9yZWNvdmVyeV9zdGF0ZSIsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgICAgIGFzc2VydFRydWUocHJlZnMuZ2V0Qm9vbGVhbigicHJlc2VydmVfbG9nc19mb3JfY3Jhc2hfcmVwb3J0IiwgZmFsc2UpKQogICAgfQoKICAgIEBUZXN0IGZ1biBjb25zdW1lUmVtb3Zlc1N0b3JlZEtleSgpIHsKICAgICAgICBDcmFzaFJlY292ZXJ5U3RhdGUubWFya1BlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KQogICAgICAgIENyYXNoUmVjb3ZlcnlTdGF0ZS5jb25zdW1lUGVuZGluZ0NyYXNoUmVwb3J0TGF1bmNoKGNvbnRleHQpCiAgICAgICAgdmFsIHByZWZzID0gY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoImNyYXNoX3JlY292ZXJ5X3N0YXRlIiwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCiAgICAgICAgYXNzZXJ0RmFsc2UocHJlZnMuY29udGFpbnMoInByZXNlcnZlX2xvZ3NfZm9yX2NyYXNoX3JlcG9ydCIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBkb3VibGVDb25zdW1lQWZ0ZXJTaW5nbGVNYXJrX29ubHlGaXJzdElzVHJ1ZSgpIHsKICAgICAgICBDcmFzaFJlY292ZXJ5U3RhdGUubWFya1BlbmRpbmdDcmFzaFJlcG9ydExhdW5jaChjb250ZXh0KQogICAgICAgIGFzc2VydFRydWUoQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkpCiAgICAgICAgYXNzZXJ0RmFsc2UoQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Before
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class CrashRecoveryStateAndroidTest {
+
+    private val context = InstrumentationRegistry.getInstrumentation().targetContext
+
+    @Before
+    fun resetState() {
+        context.applicationContext
+            .getSharedPreferences("crash_recovery_state", Context.MODE_PRIVATE)
+            .edit()
+            .clear()
+            .commit()
+    }
+
+    @Test fun consumeWithoutMark_returnsFalse() {
+        assertFalse(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+    }
+
+    @Test fun markThenConsume_returnsTrue() {
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        assertTrue(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+    }
+
+    @Test fun consumeClearsPendingFlag() {
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        assertTrue(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+        assertFalse(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+    }
+
+    @Test fun multipleMarksRemainSinglePendingFlag() {
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        assertTrue(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+    }
+
+    @Test fun applicationContextPath_isUsedSafely() {
+        CrashRecoveryState.markPendingCrashReportLaunch(context.applicationContext)
+        assertTrue(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+    }
+
+    @Test fun unrelatedPreferenceKeys_arePreserved() {
+        val prefs = context.applicationContext.getSharedPreferences("crash_recovery_state", Context.MODE_PRIVATE)
+        prefs.edit().putString("other", "value").commit()
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        CrashRecoveryState.consumePendingCrashReportLaunch(context)
+        assertTrue(prefs.contains("other"))
+    }
+
+    @Test fun repeatedConsumeAfterClear_staysFalse() {
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        CrashRecoveryState.consumePendingCrashReportLaunch(context)
+        assertFalse(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+    }
+
+    @Test fun markAfterConsume_becomesPendingAgain() {
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        CrashRecoveryState.consumePendingCrashReportLaunch(context)
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        assertTrue(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+    }
+
+    @Test fun separateContextReferences_shareSameState() {
+        val ctx1 = context
+        val ctx2 = context.applicationContext
+        CrashRecoveryState.markPendingCrashReportLaunch(ctx1)
+        assertTrue(CrashRecoveryState.consumePendingCrashReportLaunch(ctx2))
+    }
+
+    @Test fun pendingFlagUsesCommitAndPersistsImmediately() {
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        val prefs = context.applicationContext.getSharedPreferences("crash_recovery_state", Context.MODE_PRIVATE)
+        assertTrue(prefs.getBoolean("preserve_logs_for_crash_report", false))
+    }
+
+    @Test fun consumeRemovesStoredKey() {
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        CrashRecoveryState.consumePendingCrashReportLaunch(context)
+        val prefs = context.applicationContext.getSharedPreferences("crash_recovery_state", Context.MODE_PRIVATE)
+        assertFalse(prefs.contains("preserve_logs_for_crash_report"))
+    }
+
+    @Test fun doubleConsumeAfterSingleMark_onlyFirstIsTrue() {
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        assertTrue(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+        assertFalse(CrashRecoveryState.consumePendingCrashReportLaunch(context))
+    }
+}

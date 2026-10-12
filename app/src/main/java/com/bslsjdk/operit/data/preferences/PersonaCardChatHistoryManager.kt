@@ -1,1 +1,108 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS4qCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMucHJlZmVyZW5jZXNEYXRhU3RvcmUKaW1wb3J0IGNvbS5nb29nbGUuZ3Nvbi5Hc29uCmltcG9ydCBjb20uZ29vZ2xlLmdzb24ucmVmbGVjdC5UeXBlVG9rZW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5tYXAKCnByaXZhdGUgdmFsIENvbnRleHQucGVyc29uYUNhcmRDaGF0RGF0YVN0b3JlIGJ5IHByZWZlcmVuY2VzRGF0YVN0b3JlKAogICAgbmFtZSA9ICJwZXJzb25hX2NhcmRfY2hhdF9oaXN0b3J5IgopCgovKioKICog5Lq66K6+5Y2h55Sf5oiQ55WM6Z2i55qE5a+56K+d5Y6G5Y+y566h55CG5ZmoCiAqIOS4uuavj+S4quinkuiJsuWNoeaPkOS+m+WNleeLrOeahOWvueivneWOhuWPsuWtmOWCqOanveS9jQogKi8KY2xhc3MgUGVyc29uYUNhcmRDaGF0SGlzdG9yeU1hbmFnZXIgcHJpdmF0ZSBjb25zdHJ1Y3Rvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CiAgICAKICAgIHByaXZhdGUgdmFsIGRhdGFTdG9yZSA9IGNvbnRleHQucGVyc29uYUNhcmRDaGF0RGF0YVN0b3JlCiAgICBwcml2YXRlIHZhbCBnc29uID0gR3NvbigpCiAgICAKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHByaXZhdGUgdmFyIElOU1RBTkNFOiBQZXJzb25hQ2FyZENoYXRIaXN0b3J5TWFuYWdlcj8gPSBudWxsCiAgICAgICAgCiAgICAgICAgZnVuIGdldEluc3RhbmNlKGNvbnRleHQ6IENvbnRleHQpOiBQZXJzb25hQ2FyZENoYXRIaXN0b3J5TWFuYWdlciB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRSA/OiBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICAgICAgSU5TVEFOQ0UgPzogUGVyc29uYUNhcmRDaGF0SGlzdG9yeU1hbmFnZXIoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpLmFsc28geyBJTlNUQU5DRSA9IGl0IH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDogYrlpKnmtojmga/mlbDmja7nsbsKICAgICAqLwogICAgZGF0YSBjbGFzcyBDaGF0TWVzc2FnZSgKICAgICAgICB2YWwgcm9sZTogU3RyaW5nLCAvLyAidXNlciIgfCAiYXNzaXN0YW50IgogICAgICAgIHZhbCBjb250ZW50OiBTdHJpbmcsCiAgICAgICAgdmFsIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICApCiAgICAKICAgIC8qKgogICAgICog6I635Y+W5oyH5a6a6KeS6Imy5Y2h55qE6IGK5aSp5Y6G5Y+yS2V5CiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGdldENoYXRIaXN0b3J5S2V5KGNoYXJhY3RlckNhcmRJZDogU3RyaW5nKTogUHJlZmVyZW5jZXMuS2V5PFN0cmluZz4gewogICAgICAgIHJldHVybiBzdHJpbmdQcmVmZXJlbmNlc0tleSgiY2hhdF9oaXN0b3J5XyRjaGFyYWN0ZXJDYXJkSWQiKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOS/neWtmOiBiuWkqeWOhuWPsgogICAgICovCiAgICBzdXNwZW5kIGZ1biBzYXZlQ2hhdEhpc3RvcnkoY2hhcmFjdGVyQ2FyZElkOiBTdHJpbmcsIG1lc3NhZ2VzOiBMaXN0PENoYXRNZXNzYWdlPikgewogICAgICAgIGRhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgdmFsIGpzb24gPSBnc29uLnRvSnNvbihtZXNzYWdlcykKICAgICAgICAgICAgcHJlZmVyZW5jZXNbZ2V0Q2hhdEhpc3RvcnlLZXkoY2hhcmFjdGVyQ2FyZElkKV0gPSBqc29uCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOWKoOi9veiBiuWkqeWOhuWPsgogICAgICovCiAgICBzdXNwZW5kIGZ1biBsb2FkQ2hhdEhpc3RvcnkoY2hhcmFjdGVyQ2FyZElkOiBTdHJpbmcpOiBMaXN0PENoYXRNZXNzYWdlPiB7CiAgICAgICAgdmFsIHByZWZlcmVuY2VzID0gZGF0YVN0b3JlLmRhdGEuZmlyc3QoKQogICAgICAgIHZhbCBqc29uID0gcHJlZmVyZW5jZXNbZ2V0Q2hhdEhpc3RvcnlLZXkoY2hhcmFjdGVyQ2FyZElkKV0gPzogcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCB0eXBlID0gb2JqZWN0IDogVHlwZVRva2VuPExpc3Q8Q2hhdE1lc3NhZ2U+PigpIHt9LnR5cGUKICAgICAgICAgICAgZ3Nvbi5mcm9tSnNvbihqc29uLCB0eXBlKSA/OiBlbXB0eUxpc3QoKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBlbXB0eUxpc3QoKQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDojrflj5bogYrlpKnljoblj7JGbG93CiAgICAgKi8KICAgIGZ1biBnZXRDaGF0SGlzdG9yeUZsb3coY2hhcmFjdGVyQ2FyZElkOiBTdHJpbmcpOiBGbG93PExpc3Q8Q2hhdE1lc3NhZ2U+PiB7CiAgICAgICAgcmV0dXJuIGRhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHZhbCBqc29uID0gcHJlZmVyZW5jZXNbZ2V0Q2hhdEhpc3RvcnlLZXkoY2hhcmFjdGVyQ2FyZElkKV0gPzogcmV0dXJuQG1hcCBlbXB0eUxpc3QoKQogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHR5cGUgPSBvYmplY3QgOiBUeXBlVG9rZW48TGlzdDxDaGF0TWVzc2FnZT4+KCkge30udHlwZQogICAgICAgICAgICAgICAgZ3Nvbi5mcm9tSnNvbjxMaXN0PENoYXRNZXNzYWdlPj4oanNvbiwgdHlwZSkgPzogZW1wdHlMaXN0KCkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBlbXB0eUxpc3QoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOa4heepuuaMh+WumuinkuiJsuWNoeeahOiBiuWkqeWOhuWPsgogICAgICovCiAgICBzdXNwZW5kIGZ1biBjbGVhckNoYXRIaXN0b3J5KGNoYXJhY3RlckNhcmRJZDogU3RyaW5nKSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlcy5yZW1vdmUoZ2V0Q2hhdEhpc3RvcnlLZXkoY2hhcmFjdGVyQ2FyZElkKSkKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5riF56m65omA5pyJ6IGK5aSp5Y6G5Y+yCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGNsZWFyQWxsQ2hhdEhpc3RvcnkoKSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlcy5jbGVhcigpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.preferences.core.*
+import androidx.datastore.preferences.preferencesDataStore
+import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+
+private val Context.personaCardChatDataStore by preferencesDataStore(
+    name = "persona_card_chat_history"
+)
+
+/**
+ * 人设卡生成界面的对话历史管理器
+ * 为每个角色卡提供单独的对话历史存储槽位
+ */
+class PersonaCardChatHistoryManager private constructor(private val context: Context) {
+    
+    private val dataStore = context.personaCardChatDataStore
+    private val gson = Gson()
+    
+    companion object {
+        @Volatile
+        private var INSTANCE: PersonaCardChatHistoryManager? = null
+        
+        fun getInstance(context: Context): PersonaCardChatHistoryManager {
+            return INSTANCE ?: synchronized(this) {
+                INSTANCE ?: PersonaCardChatHistoryManager(context.applicationContext).also { INSTANCE = it }
+            }
+        }
+    }
+    
+    /**
+     * 聊天消息数据类
+     */
+    data class ChatMessage(
+        val role: String, // "user" | "assistant"
+        val content: String,
+        val timestamp: Long = System.currentTimeMillis()
+    )
+    
+    /**
+     * 获取指定角色卡的聊天历史Key
+     */
+    private fun getChatHistoryKey(characterCardId: String): Preferences.Key<String> {
+        return stringPreferencesKey("chat_history_$characterCardId")
+    }
+    
+    /**
+     * 保存聊天历史
+     */
+    suspend fun saveChatHistory(characterCardId: String, messages: List<ChatMessage>) {
+        dataStore.edit { preferences ->
+            val json = gson.toJson(messages)
+            preferences[getChatHistoryKey(characterCardId)] = json
+        }
+    }
+    
+    /**
+     * 加载聊天历史
+     */
+    suspend fun loadChatHistory(characterCardId: String): List<ChatMessage> {
+        val preferences = dataStore.data.first()
+        val json = preferences[getChatHistoryKey(characterCardId)] ?: return emptyList()
+        return try {
+            val type = object : TypeToken<List<ChatMessage>>() {}.type
+            gson.fromJson(json, type) ?: emptyList()
+        } catch (e: Exception) {
+            emptyList()
+        }
+    }
+    
+    /**
+     * 获取聊天历史Flow
+     */
+    fun getChatHistoryFlow(characterCardId: String): Flow<List<ChatMessage>> {
+        return dataStore.data.map { preferences ->
+            val json = preferences[getChatHistoryKey(characterCardId)] ?: return@map emptyList()
+            try {
+                val type = object : TypeToken<List<ChatMessage>>() {}.type
+                gson.fromJson<List<ChatMessage>>(json, type) ?: emptyList()
+            } catch (e: Exception) {
+                emptyList()
+            }
+        }
+    }
+    
+    /**
+     * 清空指定角色卡的聊天历史
+     */
+    suspend fun clearChatHistory(characterCardId: String) {
+        dataStore.edit { preferences ->
+            preferences.remove(getChatHistoryKey(characterCardId))
+        }
+    }
+    
+    /**
+     * 清空所有聊天历史
+     */
+    suspend fun clearAllChatHistory() {
+        dataStore.edit { preferences ->
+            preferences.clear()
+        }
+    }
+}

@@ -1,1 +1,97 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3MuY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuUmVzdG9yZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuU3RvcmFnZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuSWNvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuSWNvbkJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuU3VyZmFjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlCgpAQ29tcG9zYWJsZQpmdW4gUm9vbURiQmFja3VwTGlzdEl0ZW0oCiAgICBmaWxlOiBGaWxlLAogICAgb25SZXN0b3JlQ2xpY2s6ICgpIC0+IFVuaXQKKSB7CiAgICB2YWwgcGFyc2VkID0gcmVtZW1iZXIoZmlsZS5uYW1lKSB7CiAgICAgICAgdmFsIG5hbWUgPSBmaWxlLm5hbWUKICAgICAgICB3aGVuIHsKICAgICAgICAgICAgbmFtZS5zdGFydHNXaXRoKCJyb29tX2RiX2JhY2t1cF8iKSAmJiBuYW1lLmVuZHNXaXRoKCIuemlwIikgLT4gewogICAgICAgICAgICAgICAgUGFpcigKICAgICAgICAgICAgICAgICAgICBSLnN0cmluZy5iYWNrdXBfcm9vbV9kYl9iYWNrdXBfdHlwZV9hdXRvLAogICAgICAgICAgICAgICAgICAgIG5hbWUucmVtb3ZlUHJlZml4KCJyb29tX2RiX2JhY2t1cF8iKS5yZW1vdmVTdWZmaXgoIi56aXAiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgICAgICBuYW1lLnN0YXJ0c1dpdGgoInJvb21fZGJfbWFudWFsX2JhY2t1cF8iKSAmJiBuYW1lLmVuZHNXaXRoKCIuemlwIikgLT4gewogICAgICAgICAgICAgICAgdmFsIHJhdyA9IG5hbWUucmVtb3ZlUHJlZml4KCJyb29tX2RiX21hbnVhbF9iYWNrdXBfIikucmVtb3ZlU3VmZml4KCIuemlwIikKICAgICAgICAgICAgICAgIHZhbCBmb3JtYXR0ZWQgPSB0cnkgewogICAgICAgICAgICAgICAgICAgIHZhbCBpbnB1dCA9IFNpbXBsZURhdGVGb3JtYXQoInl5eXktTU0tZGRfSEgtbW0tc3MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKQogICAgICAgICAgICAgICAgICAgIHZhbCBvdXRwdXQgPSBTaW1wbGVEYXRlRm9ybWF0KCJ5eXl5LU1NLWRkIEhIOm1tOnNzIiwgTG9jYWxlLmdldERlZmF1bHQoKSkKICAgICAgICAgICAgICAgICAgICBvdXRwdXQuZm9ybWF0KGlucHV0LnBhcnNlKHJhdykhISkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIHJhdwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgUGFpcihSLnN0cmluZy5iYWNrdXBfcm9vbV9kYl9iYWNrdXBfdHlwZV9tYW51YWwsIGZvcm1hdHRlZCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxzZSAtPiBQYWlyKFIuc3RyaW5nLmJhY2t1cF9yb29tX2RiX2JhY2t1cF90eXBlX21hbnVhbCwgbmFtZSkKICAgICAgICB9CiAgICB9CiAgICB2YWwgdHlwZUxhYmVsID0gc3RyaW5nUmVzb3VyY2UocGFyc2VkLmZpcnN0KQogICAgdmFsIGRpc3BsYXlUaW1lID0gcGFyc2VkLnNlY29uZAoKICAgIFN1cmZhY2UoCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgxNC5kcCksCiAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VWYXJpYW50LmNvcHkoYWxwaGEgPSAwLjVmKQogICAgKSB7CiAgICAgICAgUm93KAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoMTIuZHApLAogICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5LAogICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxMi5kcCkKICAgICAgICApIHsKICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5TdG9yYWdlLAogICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwKICAgICAgICAgICAgICAgIHRpbnQgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgKQoKICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSkgewogICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYmFja3VwX3Jvb21fZGJfcmVzdG9yZV90b19kYXksICIkdHlwZUxhYmVsICRkaXNwbGF5VGltZSIpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGZpbGUubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgSWNvbkJ1dHRvbihvbkNsaWNrID0gb25SZXN0b3JlQ2xpY2spIHsKICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LlJlc3RvcmUsCiAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYmFja3VwX3Jvb21fZGJfcmVzdG9yZV9jb25maXJtX2FjdGlvbikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.settings.components
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Restore
+import androidx.compose.material.icons.filled.Storage
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import java.io.File
+import java.text.SimpleDateFormat
+import java.util.Locale
+
+@Composable
+fun RoomDbBackupListItem(
+    file: File,
+    onRestoreClick: () -> Unit
+) {
+    val parsed = remember(file.name) {
+        val name = file.name
+        when {
+            name.startsWith("room_db_backup_") && name.endsWith(".zip") -> {
+                Pair(
+                    R.string.backup_room_db_backup_type_auto,
+                    name.removePrefix("room_db_backup_").removeSuffix(".zip")
+                )
+            }
+
+            name.startsWith("room_db_manual_backup_") && name.endsWith(".zip") -> {
+                val raw = name.removePrefix("room_db_manual_backup_").removeSuffix(".zip")
+                val formatted = try {
+                    val input = SimpleDateFormat("yyyy-MM-dd_HH-mm-ss", Locale.getDefault())
+                    val output = SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault())
+                    output.format(input.parse(raw)!!)
+                } catch (_: Exception) {
+                    raw
+                }
+                Pair(R.string.backup_room_db_backup_type_manual, formatted)
+            }
+
+            else -> Pair(R.string.backup_room_db_backup_type_manual, name)
+        }
+    }
+    val typeLabel = stringResource(parsed.first)
+    val displayTime = parsed.second
+
+    Surface(
+        modifier = Modifier.fillMaxWidth(),
+        shape = RoundedCornerShape(14.dp),
+        color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+    ) {
+        Row(
+            modifier = Modifier.padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            Icon(
+                imageVector = Icons.Default.Storage,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.primary
+            )
+
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = stringResource(R.string.backup_room_db_restore_to_day, "$typeLabel $displayTime"),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Text(
+                    text = file.name,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+
+            IconButton(onClick = onRestoreClick) {
+                Icon(
+                    imageVector = Icons.Default.Restore,
+                    contentDescription = stringResource(R.string.backup_room_db_restore_confirm_action)
+                )
+            }
+        }
+    }
+}

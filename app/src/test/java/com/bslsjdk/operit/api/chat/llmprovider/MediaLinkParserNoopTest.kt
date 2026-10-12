@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgTWVkaWFMaW5rUGFyc2VyTm9vcFRlc3QgewoKICAgIEBUZXN0IGZ1biBleHRyYWN0SW1hZ2VMaW5rSWRzX3JldHVybnNFbXB0eUZvclBsYWluVGV4dCgpIHsKICAgICAgICBhc3NlcnRUcnVlKE1lZGlhTGlua1BhcnNlci5leHRyYWN0SW1hZ2VMaW5rSWRzKCJwbGFpbiIpLmlzRW1wdHkoKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdE1lZGlhTGlua1RhZ3NfcmV0dXJuc0VtcHR5Rm9yUGxhaW5UZXh0KCkgewogICAgICAgIGFzc2VydFRydWUoTWVkaWFMaW5rUGFyc2VyLmV4dHJhY3RNZWRpYUxpbmtUYWdzKCJwbGFpbiIpLmlzRW1wdHkoKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVwbGFjZU1lZGlhTGlua3NfcmV0dXJuc09yaWdpbmFsV2hlbk5vTGlua3NFeGlzdCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoInBsYWluIiwgTWVkaWFMaW5rUGFyc2VyLnJlcGxhY2VNZWRpYUxpbmtzKCJwbGFpbiIpIHsgdHlwZSwgaWQgLT4gIiR0eXBlOiRpZCIgfSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class MediaLinkParserNoopTest {
+
+    @Test fun extractImageLinkIds_returnsEmptyForPlainText() {
+        assertTrue(MediaLinkParser.extractImageLinkIds("plain").isEmpty())
+    }
+
+    @Test fun extractMediaLinkTags_returnsEmptyForPlainText() {
+        assertTrue(MediaLinkParser.extractMediaLinkTags("plain").isEmpty())
+    }
+
+    @Test fun replaceMediaLinks_returnsOriginalWhenNoLinksExist() {
+        assertEquals("plain", MediaLinkParser.replaceMediaLinks("plain") { type, id -> "$type:$id" })
+    }
+}

@@ -1,1 +1,196 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3MuY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLkJvcmRlclN0cm9rZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLkltYWdlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5BcnJhbmdlbWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodEluCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC53aWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbWVtYmVyU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5DaXJjbGVTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnZlcnRpY2FsU2Nyb2xsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ2FyZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ2FyZERlZmF1bHRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5SYWRpb0J1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5jb2xsZWN0QXNTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuQ29udGVudFNjYWxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29pbC5jb21wb3NlLnJlbWVtYmVyQXN5bmNJbWFnZVBhaW50ZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DaGFyYWN0ZXJHcm91cENhcmQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLlVzZXJQcmVmZXJlbmNlc01hbmFnZXIKCkBDb21wb3NhYmxlCmZ1biBDaGFyYWN0ZXJHcm91cEFzc2lnbkRpYWxvZygKICAgIG1pc3NpbmdDaGF0Q291bnQ6IEludCwKICAgIGNoYXJhY3Rlckdyb3VwczogTGlzdDxDaGFyYWN0ZXJHcm91cENhcmQ+LAogICAgc2VsZWN0ZWRHcm91cElkOiBTdHJpbmc/LAogICAgb25Hcm91cFNlbGVjdGVkOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0LAogICAgb25Db25maXJtOiAoKSAtPiBVbml0LAogICAgaW5Qcm9ncmVzczogQm9vbGVhbgopIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIEFsZXJ0RGlhbG9nKAogICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MsCiAgICAgICAgdGl0bGUgPSB7IFRleHQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYXNzaWduX3RvX2NoYXJhY3Rlcl9ncm91cF90aXRsZSkpIH0sCiAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgQ29sdW1uKHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxMi5kcCkpIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVuYm91bmRfY2hhdHNfc2VsZWN0X2dyb3VwLCBtaXNzaW5nQ2hhdENvdW50KSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBpZiAoY2hhcmFjdGVyR3JvdXBzLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5ub19ncm91cHNfY3JlYXRlX2ZpcnN0KSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oZWlnaHRJbihtYXggPSAzNjAuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudmVydGljYWxTY3JvbGwocmVtZW1iZXJTY3JvbGxTdGF0ZSgpKQogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBjaGFyYWN0ZXJHcm91cHMuZm9yRWFjaCB7IGdyb3VwIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBDaGFyYWN0ZXJHcm91cEFzc2lnbk9wdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBncm91cCA9IGdyb3VwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkID0gc2VsZWN0ZWRHcm91cElkID09IGdyb3VwLmlkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uU2VsZWN0ID0geyBvbkdyb3VwU2VsZWN0ZWQoZ3JvdXAuaWQpIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkNvbmZpcm0sCiAgICAgICAgICAgICAgICBlbmFibGVkID0gIWluUHJvZ3Jlc3MgJiYgc2VsZWN0ZWRHcm91cElkICE9IG51bGwgJiYgY2hhcmFjdGVyR3JvdXBzLmlzTm90RW1wdHkoKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIGlmIChpblByb2dyZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcigKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDE2LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggPSAyLmRwCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDguZHApKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgVGV4dChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hc3NpZ25fYWN0aW9uKSkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgZGlzbWlzc0J1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0gb25EaXNtaXNzLCBlbmFibGVkID0gIWluUHJvZ3Jlc3MpIHsKICAgICAgICAgICAgICAgIFRleHQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY2FuY2VsKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkKfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gQ2hhcmFjdGVyR3JvdXBBc3NpZ25PcHRpb24oCiAgICBncm91cDogQ2hhcmFjdGVyR3JvdXBDYXJkLAogICAgc2VsZWN0ZWQ6IEJvb2xlYW4sCiAgICBvblNlbGVjdDogKCkgLT4gVW5pdAopIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIHZhbCB1c2VyUHJlZmVyZW5jZXNNYW5hZ2VyID0gcmVtZW1iZXIgeyBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpIH0KICAgIHZhbCBhdmF0YXJVcmkgYnkgdXNlclByZWZlcmVuY2VzTWFuYWdlcgogICAgICAgIC5nZXRBaUF2YXRhckZvckNoYXJhY3Rlckdyb3VwRmxvdyhncm91cC5pZCkKICAgICAgICAuY29sbGVjdEFzU3RhdGUoaW5pdGlhbCA9IG51bGwpCgogICAgQ2FyZCgKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAucGFkZGluZyh2ZXJ0aWNhbCA9IDQuZHApLAogICAgICAgIG9uQ2xpY2sgPSBvblNlbGVjdCwKICAgICAgICBjb2xvcnMgPSBDYXJkRGVmYXVsdHMuY2FyZENvbG9ycygKICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBpZiAoc2VsZWN0ZWQpIHsKICAgICAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeUNvbnRhaW5lci5jb3B5KGFscGhhID0gMC4zZikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZQogICAgICAgICAgICB9CiAgICAgICAgKSwKICAgICAgICBib3JkZXIgPSBpZiAoc2VsZWN0ZWQpIHsKICAgICAgICAgICAgQm9yZGVyU3Ryb2tlKDIuZHAsIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBCb3JkZXJTdHJva2UoMS5kcCwgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vdXRsaW5lVmFyaWFudCkKICAgICAgICB9CiAgICApIHsKICAgICAgICBSb3coCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgLnBhZGRpbmcoMTIuZHApLAogICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICAgICAgKSB7CiAgICAgICAgICAgIFJhZGlvQnV0dG9uKAogICAgICAgICAgICAgICAgc2VsZWN0ZWQgPSBzZWxlY3RlZCwKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvblNlbGVjdAogICAgICAgICAgICApCiAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDguZHApKQogICAgICAgICAgICBCb3goCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgLnNpemUoNDQuZHApCiAgICAgICAgICAgICAgICAgICAgLmNsaXAoQ2lyY2xlU2hhcGUpCiAgICAgICAgICAgICAgICAgICAgLmJhY2tncm91bmQoCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghYXZhdGFyVXJpLmlzTnVsbE9yQmxhbmsoKSkgQ29sb3IuVW5zcGVjaWZpZWQKICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnNlY29uZGFyeUNvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcgogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIGlmICghYXZhdGFyVXJpLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgIEltYWdlKAogICAgICAgICAgICAgICAgICAgICAgICBwYWludGVyID0gcmVtZW1iZXJBc3luY0ltYWdlUGFpbnRlcihtb2RlbCA9IFVyaS5wYXJzZShhdmF0YXJVcmkpKSwKICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY2hhcmFjdGVyX2dyb3VwX2F2YXRhciksCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnRTY2FsZSA9IENvbnRlbnRTY2FsZS5Dcm9wCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gZ3JvdXAubmFtZS5maXJzdE9yTnVsbCgpPy50b1N0cmluZygpID86IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNoYXJhY3Rlcl9ncm91cF9zaW5nbGVfY2hhciksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0uY29weShmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Cb2xkKSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU2Vjb25kYXJ5Q29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDEyLmRwKSkKICAgICAgICAgICAgQ29sdW1uIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGdyb3VwLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keUxhcmdlLAogICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBpZiAoc2VsZWN0ZWQpIEZvbnRXZWlnaHQuQm9sZCBlbHNlIEZvbnRXZWlnaHQuTm9ybWFsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBpZiAoZ3JvdXAuZGVzY3JpcHRpb24uaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGdyb3VwLmRlc2NyaXB0aW9uLAogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.settings.components
+
+import android.net.Uri
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.RadioButton
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import coil.compose.rememberAsyncImagePainter
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.CharacterGroupCard
+import com.bslsjdk.operit.data.preferences.UserPreferencesManager
+
+@Composable
+fun CharacterGroupAssignDialog(
+    missingChatCount: Int,
+    characterGroups: List<CharacterGroupCard>,
+    selectedGroupId: String?,
+    onGroupSelected: (String) -> Unit,
+    onDismiss: () -> Unit,
+    onConfirm: () -> Unit,
+    inProgress: Boolean
+) {
+    val context = LocalContext.current
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(context.getString(R.string.assign_to_character_group_title)) },
+        text = {
+            Column(verticalArrangement = Arrangement.spacedBy(12.dp)) {
+                Text(
+                    text = context.getString(R.string.unbound_chats_select_group, missingChatCount),
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                if (characterGroups.isEmpty()) {
+                    Text(
+                        text = context.getString(R.string.no_groups_create_first),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                } else {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .heightIn(max = 360.dp)
+                            .verticalScroll(rememberScrollState())
+                    ) {
+                        characterGroups.forEach { group ->
+                            CharacterGroupAssignOption(
+                                group = group,
+                                selected = selectedGroupId == group.id,
+                                onSelect = { onGroupSelected(group.id) }
+                            )
+                        }
+                    }
+                }
+            }
+        },
+        confirmButton = {
+            TextButton(
+                onClick = onConfirm,
+                enabled = !inProgress && selectedGroupId != null && characterGroups.isNotEmpty()
+            ) {
+                if (inProgress) {
+                    CircularProgressIndicator(
+                        modifier = Modifier.size(16.dp),
+                        strokeWidth = 2.dp
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+                }
+                Text(context.getString(R.string.assign_action))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss, enabled = !inProgress) {
+                Text(context.getString(R.string.cancel))
+            }
+        }
+    )
+}
+
+@Composable
+private fun CharacterGroupAssignOption(
+    group: CharacterGroupCard,
+    selected: Boolean,
+    onSelect: () -> Unit
+) {
+    val context = LocalContext.current
+    val userPreferencesManager = remember { UserPreferencesManager.getInstance(context) }
+    val avatarUri by userPreferencesManager
+        .getAiAvatarForCharacterGroupFlow(group.id)
+        .collectAsState(initial = null)
+
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(vertical = 4.dp),
+        onClick = onSelect,
+        colors = CardDefaults.cardColors(
+            containerColor = if (selected) {
+                MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f)
+            } else {
+                MaterialTheme.colorScheme.surface
+            }
+        ),
+        border = if (selected) {
+            BorderStroke(2.dp, MaterialTheme.colorScheme.primary)
+        } else {
+            BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)
+        }
+    ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            RadioButton(
+                selected = selected,
+                onClick = onSelect
+            )
+            Spacer(modifier = Modifier.width(8.dp))
+            Box(
+                modifier = Modifier
+                    .size(44.dp)
+                    .clip(CircleShape)
+                    .background(
+                        if (!avatarUri.isNullOrBlank()) Color.Unspecified
+                        else MaterialTheme.colorScheme.secondaryContainer
+                    ),
+                contentAlignment = Alignment.Center
+            ) {
+                if (!avatarUri.isNullOrBlank()) {
+                    Image(
+                        painter = rememberAsyncImagePainter(model = Uri.parse(avatarUri)),
+                        contentDescription = stringResource(R.string.character_group_avatar),
+                        modifier = Modifier.fillMaxWidth(),
+                        contentScale = ContentScale.Crop
+                    )
+                } else {
+                    Text(
+                        text = group.name.firstOrNull()?.toString() ?: stringResource(R.string.character_group_single_char),
+                        style = MaterialTheme.typography.bodyMedium.copy(fontWeight = FontWeight.Bold),
+                        color = MaterialTheme.colorScheme.onSecondaryContainer
+                    )
+                }
+            }
+            Spacer(modifier = Modifier.width(12.dp))
+            Column {
+                Text(
+                    text = group.name,
+                    style = MaterialTheme.typography.bodyLarge,
+                    fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal
+                )
+                if (group.description.isNotBlank()) {
+                    Text(
+                        text = group.description,
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+        }
+    }
+}

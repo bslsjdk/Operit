@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgoKcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkpzQXNzZXRMb2FkZXIiCgpwcml2YXRlIGZ1biByZWFkSmF2YVNjcmlwdEFzc2V0KAogICAgY29udGV4dDogQ29udGV4dCwKICAgIGFzc2V0UGF0aDogU3RyaW5nLAogICAgbGFiZWw6IFN0cmluZwopOiBTdHJpbmcgewogICAgcmV0dXJuIHRyeSB7CiAgICAgICAgY29udGV4dC5hc3NldHMub3Blbihhc3NldFBhdGgpLmJ1ZmZlcmVkUmVhZGVyKCkudXNlIHsgaXQucmVhZFRleHQoKSB9CiAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gbG9hZCAkbGFiZWwgZnJvbSAkYXNzZXRQYXRoIiwgZSkKICAgICAgICAiIgogICAgfQp9CgpmdW4gbG9hZFVJTm9kZUpzKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgPQogICAgcmVhZEphdmFTY3JpcHRBc3NldChjb250ZXh0LCAianMvVUlOb2RlLmpzIiwgIlVJTm9kZS5qcyIpCgpmdW4gbG9hZEFuZHJvaWRVdGlsc0pzKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgPQogICAgcmVhZEphdmFTY3JpcHRBc3NldChjb250ZXh0LCAianMvQW5kcm9pZFV0aWxzLmpzIiwgIkFuZHJvaWRVdGlscy5qcyIpCgpmdW4gbG9hZE9rSHR0cDNKcyhjb250ZXh0OiBDb250ZXh0KTogU3RyaW5nID0KICAgIHJlYWRKYXZhU2NyaXB0QXNzZXQoY29udGV4dCwgImpzL09rSHR0cDMuanMiLCAiT2tIdHRwMy5qcyIpCg==
+package com.bslsjdk.operit.core.tools.javascript
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+
+private const val TAG = "JsAssetLoader"
+
+private fun readJavaScriptAsset(
+    context: Context,
+    assetPath: String,
+    label: String
+): String {
+    return try {
+        context.assets.open(assetPath).bufferedReader().use { it.readText() }
+    } catch (e: Exception) {
+        AppLogger.e(TAG, "Failed to load $label from $assetPath", e)
+        ""
+    }
+}
+
+fun loadUINodeJs(context: Context): String =
+    readJavaScriptAsset(context, "js/UINode.js", "UINode.js")
+
+fun loadAndroidUtilsJs(context: Context): String =
+    readJavaScriptAsset(context, "js/AndroidUtils.js", "AndroidUtils.js")
+
+fun loadOkHttp3Js(context: Context): String =
+    readJavaScriptAsset(context, "js/OkHttp3.js", "OkHttp3.js")

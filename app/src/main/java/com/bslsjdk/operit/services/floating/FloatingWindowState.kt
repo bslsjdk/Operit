@@ -1,1 +1,124 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuZmxvYXRpbmcKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LlNoYXJlZFByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5EcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcuRmxvYXRpbmdNb2RlCgpjbGFzcyBGbG9hdGluZ1dpbmRvd1N0YXRlKGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHByaXZhdGUgdmFsIHByZWZzOiBTaGFyZWRQcmVmZXJlbmNlcyA9CiAgICAgICAgY29udGV4dC5nZXRTaGFyZWRQcmVmZXJlbmNlcygiZmxvYXRpbmdfY2hhdF9wcmVmcyIsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgcHJpdmF0ZSB2YWwgc2NyZWVuV2lkdGhEcDogRHAKICAgIHByaXZhdGUgdmFsIHNjcmVlbkhlaWdodERwOiBEcAogICAgcHJpdmF0ZSB2YWwgbWF4V2luZG93V2lkdGg6IEZsb2F0CiAgICBwcml2YXRlIHZhbCBtYXhXaW5kb3dIZWlnaHQ6IEZsb2F0CgogICAgLy8gV2luZG93IHBvc2l0aW9uCiAgICB2YXIgeDogSW50ID0gMjAwCiAgICB2YXIgeTogSW50ID0gMjAwCgogICAgLy8gV2luZG93IHNpemUKICAgIHZhbCB3aW5kb3dXaWR0aCA9IG11dGFibGVTdGF0ZU9mKDMwMC5kcCkKICAgIHZhbCB3aW5kb3dIZWlnaHQgPSBtdXRhYmxlU3RhdGVPZig0MDAuZHApCiAgICB2YWwgd2luZG93U2NhbGUgPSBtdXRhYmxlU3RhdGVPZigwLjhmKQogICAgdmFyIGxhc3RXaW5kb3dTY2FsZTogRmxvYXQgPSAwLjhmCgogICAgLy8gTW9kZSBzdGF0ZQogICAgdmFsIGN1cnJlbnRNb2RlID0gbXV0YWJsZVN0YXRlT2YoRmxvYXRpbmdNb2RlLldJTkRPVykKICAgIHZhciBwcmV2aW91c01vZGU6IEZsb2F0aW5nTW9kZSA9IEZsb2F0aW5nTW9kZS5XSU5ET1cKICAgIHZhbCBiYWxsU2l6ZSA9IG11dGFibGVTdGF0ZU9mKDYwLmRwKQogICAgdmFsIGlzQXRFZGdlID0gbXV0YWJsZVN0YXRlT2YoZmFsc2UpCgogICAgLy8gRHJhZ29uQm9uZXMgcGV0IG1vZGUgbG9jayBzdGF0ZQogICAgdmFyIGlzUGV0TW9kZUxvY2tlZCA9IG11dGFibGVTdGF0ZU9mKGZhbHNlKQoKICAgIC8vIFRyYW5zaXRpb24gc3RhdGUKICAgIHZhciBsYXN0V2luZG93UG9zaXRpb25YOiBJbnQgPSAwCiAgICB2YXIgbGFzdFdpbmRvd1Bvc2l0aW9uWTogSW50ID0gMAogICAgdmFyIGxhc3RCYWxsUG9zaXRpb25YOiBJbnQgPSAwCiAgICB2YXIgbGFzdEJhbGxQb3NpdGlvblk6IEludCA9IDAKICAgIHZhciBpc1RyYW5zaXRpb25pbmcgPSBmYWxzZQogICAgdmFsIHRyYW5zaXRpb25EZWJvdW5jZVRpbWUgPSA1MDBMIC8vIOmYsuaKluaXtumXtAogICAgCiAgICAvLyBCYWxsIGV4cGxvc2lvbiBhbmltYXRpb24gc3RhdGUKICAgIHZhbCBiYWxsRXhwbG9kaW5nID0gbXV0YWJsZVN0YXRlT2YoZmFsc2UpCgogICAgLy8gV2hldGhlciBzeXN0ZW0tbGV2ZWwgY3Jvc3Mtd2luZG93IGJsdXIgaXMgYWN0dWFsbHkgYWN0aXZlIGZvciBmdWxsc2NyZWVuCiAgICB2YWwgZnVsbHNjcmVlblN5c3RlbUJsdXJBY3RpdmUgPSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKCiAgICBpbml0IHsKICAgICAgICB2YWwgZGlzcGxheU1ldHJpY3MgPSBjb250ZXh0LnJlc291cmNlcy5kaXNwbGF5TWV0cmljcwogICAgICAgIHNjcmVlbldpZHRoRHAgPSAoZGlzcGxheU1ldHJpY3Mud2lkdGhQaXhlbHMgLyBkaXNwbGF5TWV0cmljcy5kZW5zaXR5KS5kcAogICAgICAgIHNjcmVlbkhlaWdodERwID0gKGRpc3BsYXlNZXRyaWNzLmhlaWdodFBpeGVscyAvIGRpc3BsYXlNZXRyaWNzLmRlbnNpdHkpLmRwCiAgICAgICAgLy8g5bCP5bGP5oiW5YiG5bGP5LiLIDgwJSDlsY/luZXlsLrlr7jlj6/og73lsI/kuo7nqpflj6PmnIDlsI/lsLrlr7jvvIzor7vlhpnlv4Xpobvkvb/nlKjlkIjms5XnmoTlkIzkuIDojIPlm7TjgIIKICAgICAgICBtYXhXaW5kb3dXaWR0aCA9IChzY3JlZW5XaWR0aERwLnZhbHVlICogMC44ZikuY29lcmNlQXRMZWFzdCgyMDBmKQogICAgICAgIG1heFdpbmRvd0hlaWdodCA9IChzY3JlZW5IZWlnaHREcC52YWx1ZSAqIDAuOGYpLmNvZXJjZUF0TGVhc3QoMjUwZikKICAgICAgICByZXN0b3JlU3RhdGUoKQogICAgfQoKICAgIGZ1biBzYXZlU3RhdGUoKSB7CiAgICAgICAgLy8g5ouS57ud5bCG6Z2e5rOV54q25oCB5oyB5LmF5YyW77yM5ZCm5YiZ5LiL5LiA5qyh5ZCv5Yqo5Lya5YaN5qyh5oqKIE5hTiDkvKDlhaXluIPlsYDmtYvph4/jgIIKICAgICAgICByZXF1aXJlKHdpbmRvd1dpZHRoLnZhbHVlLnZhbHVlLmlzRmluaXRlKCkpIHsgIk5vbi1maW5pdGUgd2luZG93X3dpZHRoIiB9CiAgICAgICAgcmVxdWlyZSh3aW5kb3dIZWlnaHQudmFsdWUudmFsdWUuaXNGaW5pdGUoKSkgeyAiTm9uLWZpbml0ZSB3aW5kb3dfaGVpZ2h0IiB9CiAgICAgICAgcmVxdWlyZSh3aW5kb3dTY2FsZS52YWx1ZS5pc0Zpbml0ZSgpKSB7ICJOb24tZmluaXRlIHdpbmRvd19zY2FsZSIgfQogICAgICAgIHJlcXVpcmUobGFzdFdpbmRvd1NjYWxlLmlzRmluaXRlKCkpIHsgIk5vbi1maW5pdGUgbGFzdF93aW5kb3dfc2NhbGUiIH0KICAgICAgICBwcmVmcy5lZGl0KCkuYXBwbHkgewogICAgICAgICAgICBwdXRJbnQoIndpbmRvd194IiwgeCkKICAgICAgICAgICAgcHV0SW50KCJ3aW5kb3dfeSIsIHkpCiAgICAgICAgICAgIHB1dEZsb2F0KAogICAgICAgICAgICAgICAgIndpbmRvd193aWR0aCIsCiAgICAgICAgICAgICAgICB3aW5kb3dXaWR0aC52YWx1ZS52YWx1ZS5jb2VyY2VJbigyMDBmLCBtYXhXaW5kb3dXaWR0aCkKICAgICAgICAgICAgKQogICAgICAgICAgICBwdXRGbG9hdCgKICAgICAgICAgICAgICAgICJ3aW5kb3dfaGVpZ2h0IiwKICAgICAgICAgICAgICAgIHdpbmRvd0hlaWdodC52YWx1ZS52YWx1ZS5jb2VyY2VJbigyNTBmLCBtYXhXaW5kb3dIZWlnaHQpCiAgICAgICAgICAgICkKICAgICAgICAgICAgcHV0U3RyaW5nKCJjdXJyZW50X21vZGUiLCBjdXJyZW50TW9kZS52YWx1ZS5uYW1lKQogICAgICAgICAgICBwdXRTdHJpbmcoInByZXZpb3VzX21vZGUiLCBwcmV2aW91c01vZGUubmFtZSkKICAgICAgICAgICAgcHV0RmxvYXQoIndpbmRvd19zY2FsZSIsIHdpbmRvd1NjYWxlLnZhbHVlLmNvZXJjZUluKDAuM2YsIDEuMGYpKQogICAgICAgICAgICBwdXRGbG9hdCgibGFzdF93aW5kb3dfc2NhbGUiLCBsYXN0V2luZG93U2NhbGUuY29lcmNlSW4oMC4zZiwgMS4wZikpCiAgICAgICAgICAgIGFwcGx5KCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIHJlc3RvcmVTdGF0ZSgpIHsKICAgICAgICB2YWwgZGVmYXVsdFggPSAyMDAKICAgICAgICB2YWwgZGVmYXVsdFkgPSAyMDAKICAgICAgICB4ID0gcHJlZnMuZ2V0SW50KCJ3aW5kb3dfeCIsIGRlZmF1bHRYKQogICAgICAgIHkgPSBwcmVmcy5nZXRJbnQoIndpbmRvd195IiwgZGVmYXVsdFkpCgogICAgICAgIHZhbCBkZWZhdWx0V2lkdGggPSAoc2NyZWVuV2lkdGhEcC52YWx1ZSAqIDAuOGYpLmNvZXJjZUF0TGVhc3QoMjAwZikKICAgICAgICB2YWwgZGVmYXVsdEhlaWdodCA9IChzY3JlZW5IZWlnaHREcC52YWx1ZSAqIDAuNWYpLmNvZXJjZUF0TGVhc3QoMjUwZikKICAgICAgICAvLyBjb2VyY2VJbiDkuI3kvJrmi5Lnu50gTmFO77yb5piO56Gu5ouS57ud6Z2e5rOV6YWN572u77yM6K6p5pyN5Yqh6K6w5b2V5Y6f5Zug5bm257uI5q2i5ZCv5Yqo77yMCiAgICAgICAgLy8g6YG/5YWN5bCG5YW25Lqk57uZIENvbXBvc2Ug5rWL6YeP5ZCO5Lqn55Sf6L+b56iL57qn5pyq5o2V6I635byC5bi444CCCiAgICAgICAgdmFsIHN0b3JlZFdpZHRoID0gcHJlZnMuZ2V0RmxvYXQoIndpbmRvd193aWR0aCIsIGRlZmF1bHRXaWR0aCkKICAgICAgICB2YWwgc3RvcmVkSGVpZ2h0ID0gcHJlZnMuZ2V0RmxvYXQoIndpbmRvd19oZWlnaHQiLCBkZWZhdWx0SGVpZ2h0KQogICAgICAgIHJlcXVpcmUoc3RvcmVkV2lkdGguaXNGaW5pdGUoKSkgeyAiTm9uLWZpbml0ZSBzdG9yZWQgd2luZG93X3dpZHRoOiAkc3RvcmVkV2lkdGgiIH0KICAgICAgICByZXF1aXJlKHN0b3JlZEhlaWdodC5pc0Zpbml0ZSgpKSB7ICJOb24tZmluaXRlIHN0b3JlZCB3aW5kb3dfaGVpZ2h0OiAkc3RvcmVkSGVpZ2h0IiB9CiAgICAgICAgd2luZG93V2lkdGgudmFsdWUgPSBzdG9yZWRXaWR0aC5jb2VyY2VJbigyMDBmLCBtYXhXaW5kb3dXaWR0aCkuZHAKICAgICAgICB3aW5kb3dIZWlnaHQudmFsdWUgPSBzdG9yZWRIZWlnaHQuY29lcmNlSW4oMjUwZiwgbWF4V2luZG93SGVpZ2h0KS5kcAoKICAgICAgICB2YWwgbW9kZU5hbWUgPSBwcmVmcy5nZXRTdHJpbmcoImN1cnJlbnRfbW9kZSIsIEZsb2F0aW5nTW9kZS5XSU5ET1cubmFtZSkKICAgICAgICBjdXJyZW50TW9kZS52YWx1ZSA9IHRyeSB7CiAgICAgICAgICAgIEZsb2F0aW5nTW9kZS52YWx1ZU9mKG1vZGVOYW1lID86IEZsb2F0aW5nTW9kZS5XSU5ET1cubmFtZSkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgRmxvYXRpbmdNb2RlLldJTkRPVwogICAgICAgIH0KCiAgICAgICAgdmFsIHByZXZNb2RlTmFtZSA9IHByZWZzLmdldFN0cmluZygicHJldmlvdXNfbW9kZSIsIEZsb2F0aW5nTW9kZS5XSU5ET1cubmFtZSkKICAgICAgICBwcmV2aW91c01vZGUgPSB0cnkgewogICAgICAgICAgICBGbG9hdGluZ01vZGUudmFsdWVPZihwcmV2TW9kZU5hbWUgPzogRmxvYXRpbmdNb2RlLldJTkRPVy5uYW1lKQogICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICBGbG9hdGluZ01vZGUuV0lORE9XCiAgICAgICAgfQoKICAgICAgICB2YWwgc3RvcmVkU2NhbGUgPSBwcmVmcy5nZXRGbG9hdCgid2luZG93X3NjYWxlIiwgMC44ZikKICAgICAgICB2YWwgc3RvcmVkTGFzdFNjYWxlID0gcHJlZnMuZ2V0RmxvYXQoImxhc3Rfd2luZG93X3NjYWxlIiwgMC44ZikKICAgICAgICByZXF1aXJlKHN0b3JlZFNjYWxlLmlzRmluaXRlKCkpIHsgIk5vbi1maW5pdGUgc3RvcmVkIHdpbmRvd19zY2FsZTogJHN0b3JlZFNjYWxlIiB9CiAgICAgICAgcmVxdWlyZShzdG9yZWRMYXN0U2NhbGUuaXNGaW5pdGUoKSkgeyAiTm9uLWZpbml0ZSBzdG9yZWQgbGFzdF93aW5kb3dfc2NhbGU6ICRzdG9yZWRMYXN0U2NhbGUiIH0KICAgICAgICB3aW5kb3dTY2FsZS52YWx1ZSA9IHN0b3JlZFNjYWxlLmNvZXJjZUluKDAuM2YsIDEuMGYpCiAgICAgICAgbGFzdFdpbmRvd1NjYWxlID0gc3RvcmVkTGFzdFNjYWxlLmNvZXJjZUluKDAuM2YsIDEuMGYpCiAgICB9Cn0K
+package com.bslsjdk.operit.services.floating
+
+import android.content.Context
+import android.content.SharedPreferences
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.ui.floating.FloatingMode
+
+class FloatingWindowState(context: Context) {
+    private val prefs: SharedPreferences =
+        context.getSharedPreferences("floating_chat_prefs", Context.MODE_PRIVATE)
+    private val screenWidthDp: Dp
+    private val screenHeightDp: Dp
+    private val maxWindowWidth: Float
+    private val maxWindowHeight: Float
+
+    // Window position
+    var x: Int = 200
+    var y: Int = 200
+
+    // Window size
+    val windowWidth = mutableStateOf(300.dp)
+    val windowHeight = mutableStateOf(400.dp)
+    val windowScale = mutableStateOf(0.8f)
+    var lastWindowScale: Float = 0.8f
+
+    // Mode state
+    val currentMode = mutableStateOf(FloatingMode.WINDOW)
+    var previousMode: FloatingMode = FloatingMode.WINDOW
+    val ballSize = mutableStateOf(60.dp)
+    val isAtEdge = mutableStateOf(false)
+
+    // DragonBones pet mode lock state
+    var isPetModeLocked = mutableStateOf(false)
+
+    // Transition state
+    var lastWindowPositionX: Int = 0
+    var lastWindowPositionY: Int = 0
+    var lastBallPositionX: Int = 0
+    var lastBallPositionY: Int = 0
+    var isTransitioning = false
+    val transitionDebounceTime = 500L // 防抖时间
+    
+    // Ball explosion animation state
+    val ballExploding = mutableStateOf(false)
+
+    // Whether system-level cross-window blur is actually active for fullscreen
+    val fullscreenSystemBlurActive = mutableStateOf(false)
+
+    init {
+        val displayMetrics = context.resources.displayMetrics
+        screenWidthDp = (displayMetrics.widthPixels / displayMetrics.density).dp
+        screenHeightDp = (displayMetrics.heightPixels / displayMetrics.density).dp
+        // 小屏或分屏下 80% 屏幕尺寸可能小于窗口最小尺寸，读写必须使用合法的同一范围。
+        maxWindowWidth = (screenWidthDp.value * 0.8f).coerceAtLeast(200f)
+        maxWindowHeight = (screenHeightDp.value * 0.8f).coerceAtLeast(250f)
+        restoreState()
+    }
+
+    fun saveState() {
+        // 拒绝将非法状态持久化，否则下一次启动会再次把 NaN 传入布局测量。
+        require(windowWidth.value.value.isFinite()) { "Non-finite window_width" }
+        require(windowHeight.value.value.isFinite()) { "Non-finite window_height" }
+        require(windowScale.value.isFinite()) { "Non-finite window_scale" }
+        require(lastWindowScale.isFinite()) { "Non-finite last_window_scale" }
+        prefs.edit().apply {
+            putInt("window_x", x)
+            putInt("window_y", y)
+            putFloat(
+                "window_width",
+                windowWidth.value.value.coerceIn(200f, maxWindowWidth)
+            )
+            putFloat(
+                "window_height",
+                windowHeight.value.value.coerceIn(250f, maxWindowHeight)
+            )
+            putString("current_mode", currentMode.value.name)
+            putString("previous_mode", previousMode.name)
+            putFloat("window_scale", windowScale.value.coerceIn(0.3f, 1.0f))
+            putFloat("last_window_scale", lastWindowScale.coerceIn(0.3f, 1.0f))
+            apply()
+        }
+    }
+
+    fun restoreState() {
+        val defaultX = 200
+        val defaultY = 200
+        x = prefs.getInt("window_x", defaultX)
+        y = prefs.getInt("window_y", defaultY)
+
+        val defaultWidth = (screenWidthDp.value * 0.8f).coerceAtLeast(200f)
+        val defaultHeight = (screenHeightDp.value * 0.5f).coerceAtLeast(250f)
+        // coerceIn 不会拒绝 NaN；明确拒绝非法配置，让服务记录原因并终止启动，
+        // 避免将其交给 Compose 测量后产生进程级未捕获异常。
+        val storedWidth = prefs.getFloat("window_width", defaultWidth)
+        val storedHeight = prefs.getFloat("window_height", defaultHeight)
+        require(storedWidth.isFinite()) { "Non-finite stored window_width: $storedWidth" }
+        require(storedHeight.isFinite()) { "Non-finite stored window_height: $storedHeight" }
+        windowWidth.value = storedWidth.coerceIn(200f, maxWindowWidth).dp
+        windowHeight.value = storedHeight.coerceIn(250f, maxWindowHeight).dp
+
+        val modeName = prefs.getString("current_mode", FloatingMode.WINDOW.name)
+        currentMode.value = try {
+            FloatingMode.valueOf(modeName ?: FloatingMode.WINDOW.name)
+        } catch (_: Exception) {
+            FloatingMode.WINDOW
+        }
+
+        val prevModeName = prefs.getString("previous_mode", FloatingMode.WINDOW.name)
+        previousMode = try {
+            FloatingMode.valueOf(prevModeName ?: FloatingMode.WINDOW.name)
+        } catch (_: Exception) {
+            FloatingMode.WINDOW
+        }
+
+        val storedScale = prefs.getFloat("window_scale", 0.8f)
+        val storedLastScale = prefs.getFloat("last_window_scale", 0.8f)
+        require(storedScale.isFinite()) { "Non-finite stored window_scale: $storedScale" }
+        require(storedLastScale.isFinite()) { "Non-finite stored last_window_scale: $storedLastScale" }
+        windowScale.value = storedScale.coerceIn(0.3f, 1.0f)
+        lastWindowScale = storedLastScale.coerceIn(0.3f, 1.0f)
+    }
+}

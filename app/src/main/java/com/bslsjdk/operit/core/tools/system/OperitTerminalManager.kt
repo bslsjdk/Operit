@@ -1,1 +1,51 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLlBhY2thZ2VNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkdpdGh1YlJlbGVhc2VVdGlsCmltcG9ydCBjb20uZ29vZ2xlLmdzb24uR3NvbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGphdmEubmV0Lkh0dHBVUkxDb25uZWN0aW9uCmltcG9ydCBqYXZhLm5ldC5VUkwKaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb24KCm9iamVjdCBPcGVyaXRUZXJtaW5hbE1hbmFnZXIgewogICAgY29uc3QgdmFsIFBBQ0tBR0VfTkFNRSA9ICJjb20uYWkuYXNzaXN0YW5jZS5vcGVyaXQudGVybWluYWwiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVBPX09XTkVSID0gIkFBc3dvcmRtYW4iCiAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVBPX05BTUUgPSAiT3Blcml0VGVybWluYWwiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiT3Blcml0VGVybWluYWxNYW5hZ2VyIgoKICAgIGRhdGEgY2xhc3MgUmVsZWFzZUluZm8oCiAgICAgICAgdmFsIHZlcnNpb246IFN0cmluZywKICAgICAgICB2YWwgZG93bmxvYWRVcmw6IFN0cmluZywKICAgICAgICB2YWwgcmVsZWFzZU5vdGVzOiBTdHJpbmcKICAgICkKCiAgICBmdW4gaXNJbnN0YWxsZWQoY29udGV4dDogQ29udGV4dCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBjb250ZXh0LnBhY2thZ2VNYW5hZ2VyLmdldFBhY2thZ2VJbmZvKFBBQ0tBR0VfTkFNRSwgMCkKICAgICAgICAgICAgdHJ1ZQogICAgICAgIH0gY2F0Y2ggKGU6IFBhY2thZ2VNYW5hZ2VyLk5hbWVOb3RGb3VuZEV4Y2VwdGlvbikgewogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gZ2V0SW5zdGFsbGVkVmVyc2lvbihjb250ZXh0OiBDb250ZXh0KTogU3RyaW5nPyB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBwYWNrYWdlSW5mbyA9IGNvbnRleHQucGFja2FnZU1hbmFnZXIuZ2V0UGFja2FnZUluZm8oUEFDS0FHRV9OQU1FLCAwKQogICAgICAgICAgICBwYWNrYWdlSW5mby52ZXJzaW9uTmFtZQogICAgICAgIH0gY2F0Y2ggKGU6IFBhY2thZ2VNYW5hZ2VyLk5hbWVOb3RGb3VuZEV4Y2VwdGlvbikgewogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGZldGNoTGF0ZXN0UmVsZWFzZUluZm8oY29udGV4dDogQ29udGV4dCk6IFJlbGVhc2VJbmZvPyA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdmFsIGdpdGh1YlJlbGVhc2VVdGlsID0gR2l0aHViUmVsZWFzZVV0aWwoY29udGV4dCkKICAgICAgICB2YWwgcmVsZWFzZUluZm8gPSBnaXRodWJSZWxlYXNlVXRpbC5mZXRjaExhdGVzdFJlbGVhc2VJbmZvKFJFUE9fT1dORVIsIFJFUE9fTkFNRSkKICAgICAgICByZWxlYXNlSW5mbz8ubGV0IHsKICAgICAgICAgICAgUmVsZWFzZUluZm8oaXQudmVyc2lvbiwgaXQuZG93bmxvYWRVcmwsIGl0LnJlbGVhc2VOb3RlcykKICAgICAgICB9CiAgICB9Cn0gCg==
+package com.bslsjdk.operit.core.tools.system
+
+import android.content.Context
+import android.content.pm.PackageManager
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.GithubReleaseUtil
+import com.google.gson.Gson
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import java.net.HttpURLConnection
+import java.net.URL
+import java.io.IOException
+
+object OperitTerminalManager {
+    const val PACKAGE_NAME = "com.ai.assistance.operit.terminal"
+    private const val REPO_OWNER = "AAswordman"
+    private const val REPO_NAME = "OperitTerminal"
+    private const val TAG = "OperitTerminalManager"
+
+    data class ReleaseInfo(
+        val version: String,
+        val downloadUrl: String,
+        val releaseNotes: String
+    )
+
+    fun isInstalled(context: Context): Boolean {
+        return try {
+            context.packageManager.getPackageInfo(PACKAGE_NAME, 0)
+            true
+        } catch (e: PackageManager.NameNotFoundException) {
+            false
+        }
+    }
+
+    fun getInstalledVersion(context: Context): String? {
+        return try {
+            val packageInfo = context.packageManager.getPackageInfo(PACKAGE_NAME, 0)
+            packageInfo.versionName
+        } catch (e: PackageManager.NameNotFoundException) {
+            null
+        }
+    }
+
+    suspend fun fetchLatestReleaseInfo(context: Context): ReleaseInfo? = withContext(Dispatchers.IO) {
+        val githubReleaseUtil = GithubReleaseUtil(context)
+        val releaseInfo = githubReleaseUtil.fetchLatestReleaseInfo(REPO_OWNER, REPO_NAME)
+        releaseInfo?.let {
+            ReleaseInfo(it.version, it.downloadUrl, it.releaseNotes)
+        }
+    }
+} 

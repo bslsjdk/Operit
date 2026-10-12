@@ -1,1 +1,47 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5wbHVnaW5zLnRvb2xib3guVG9vbGJveFBsdWdpbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnBsdWdpbnMudG9vbHBrZy5Ub29sUGtnQ29tbW9uQnJpZGdlUGx1Z2luCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy53b3JrZmxvdy5Xb3JrZmxvd0xpZmVjeWNsZVBsdWdpbgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29weU9uV3JpdGVBcnJheUxpc3QKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCgppbnRlcmZhY2UgT3Blcml0UGx1Z2luIHsKICAgIHZhbCBpZDogU3RyaW5nCgogICAgZnVuIHJlZ2lzdGVyKCkKfQoKb2JqZWN0IFBsdWdpblJlZ2lzdHJ5IHsKICAgIHByaXZhdGUgdmFsIHBsdWdpbnMgPSBDb3B5T25Xcml0ZUFycmF5TGlzdDxPcGVyaXRQbHVnaW4+KCkKICAgIHByaXZhdGUgdmFsIGluc3RhbGxlZFBsdWdpbklkcyA9IENvbmN1cnJlbnRIYXNoTWFwLm5ld0tleVNldDxTdHJpbmc+KCkKCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIGJ1aWx0aW5zSW5pdGlhbGl6ZWQgPSBmYWxzZQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biByZWdpc3RlcihwbHVnaW46IE9wZXJpdFBsdWdpbikgewogICAgICAgIHBsdWdpbnMucmVtb3ZlQWxsIHsgaXQuaWQgPT0gcGx1Z2luLmlkIH0KICAgICAgICBwbHVnaW5zLmFkZChwbHVnaW4pCiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIGluaXRpYWxpemVCdWlsdGlucygpIHsKICAgICAgICBpZiAoYnVpbHRpbnNJbml0aWFsaXplZCkgcmV0dXJuCiAgICAgICAgYnVpbHRpbnNJbml0aWFsaXplZCA9IHRydWUKCiAgICAgICAgcmVnaXN0ZXIoVG9vbGJveFBsdWdpbikKICAgICAgICByZWdpc3RlcihUb29sUGtnQ29tbW9uQnJpZGdlUGx1Z2luKQogICAgICAgIHJlZ2lzdGVyKFdvcmtmbG93TGlmZWN5Y2xlUGx1Z2luKQogICAgICAgIGluc3RhbGxBbGwoKQogICAgfQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBpbnN0YWxsQWxsKCkgewogICAgICAgIGZvciAocGx1Z2luIGluIHBsdWdpbnMpIHsKICAgICAgICAgICAgaWYgKGluc3RhbGxlZFBsdWdpbklkcy5hZGQocGx1Z2luLmlkKSkgewogICAgICAgICAgICAgICAgcGx1Z2luLnJlZ2lzdGVyKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.plugins
+
+import com.bslsjdk.operit.plugins.toolbox.ToolboxPlugin
+import com.bslsjdk.operit.plugins.toolpkg.ToolPkgCommonBridgePlugin
+import com.bslsjdk.operit.plugins.workflow.WorkflowLifecyclePlugin
+import java.util.concurrent.CopyOnWriteArrayList
+import java.util.concurrent.ConcurrentHashMap
+
+interface OperitPlugin {
+    val id: String
+
+    fun register()
+}
+
+object PluginRegistry {
+    private val plugins = CopyOnWriteArrayList<OperitPlugin>()
+    private val installedPluginIds = ConcurrentHashMap.newKeySet<String>()
+
+    @Volatile
+    private var builtinsInitialized = false
+
+    @Synchronized
+    fun register(plugin: OperitPlugin) {
+        plugins.removeAll { it.id == plugin.id }
+        plugins.add(plugin)
+    }
+
+    @Synchronized
+    fun initializeBuiltins() {
+        if (builtinsInitialized) return
+        builtinsInitialized = true
+
+        register(ToolboxPlugin)
+        register(ToolPkgCommonBridgePlugin)
+        register(WorkflowLifecyclePlugin)
+        installAll()
+    }
+
+    @Synchronized
+    fun installAll() {
+        for (plugin in plugins) {
+            if (installedPluginIds.add(plugin.id)) {
+                plugin.register()
+            }
+        }
+    }
+}

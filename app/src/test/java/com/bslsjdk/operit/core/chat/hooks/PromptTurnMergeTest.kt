@@ -1,1 +1,22 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzCgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBQcm9tcHRUdXJuTWVyZ2VUZXN0IHsKCiAgICBAVGVzdCBmdW4gbWVyZ2VBZGphY2VudFR1cm5zX2RvZXNOb3RNZXJnZVN5c3RlbVR1cm5zKCkgewogICAgICAgIHZhbCB0dXJucyA9IGxpc3RPZihQcm9tcHRUdXJuKFByb21wdFR1cm5LaW5kLlNZU1RFTSwgImEiKSwgUHJvbXB0VHVybihQcm9tcHRUdXJuS2luZC5TWVNURU0sICJiIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIsIHR1cm5zLm1lcmdlQWRqYWNlbnRUdXJucygpLnNpemUpCiAgICB9CgogICAgQFRlc3QgZnVuIG1lcmdlQWRqYWNlbnRUdXJuc19kb2VzTm90TWVyZ2VUb29sUmVzdWx0VHVybnMoKSB7CiAgICAgICAgdmFsIHR1cm5zID0gbGlzdE9mKFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuVE9PTF9SRVNVTFQsICJhIiksIFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuVE9PTF9SRVNVTFQsICJiIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIsIHR1cm5zLm1lcmdlQWRqYWNlbnRUdXJucygpLnNpemUpCiAgICB9CgogICAgQFRlc3QgZnVuIG1lcmdlQWRqYWNlbnRUdXJuc19tZXJnZXNBc3Npc3RhbnRUdXJucygpIHsKICAgICAgICB2YWwgdHVybnMgPSBsaXN0T2YoUHJvbXB0VHVybihQcm9tcHRUdXJuS2luZC5BU1NJU1RBTlQsICJhIiksIFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuQVNTSVNUQU5ULCAiYiIpKQogICAgICAgIGFzc2VydEVxdWFscygiYVxuYiIsIHR1cm5zLm1lcmdlQWRqYWNlbnRUdXJucygpLnNpbmdsZSgpLmNvbnRlbnQpCiAgICB9Cn0K
+package com.bslsjdk.operit.core.chat.hooks
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class PromptTurnMergeTest {
+
+    @Test fun mergeAdjacentTurns_doesNotMergeSystemTurns() {
+        val turns = listOf(PromptTurn(PromptTurnKind.SYSTEM, "a"), PromptTurn(PromptTurnKind.SYSTEM, "b"))
+        assertEquals(2, turns.mergeAdjacentTurns().size)
+    }
+
+    @Test fun mergeAdjacentTurns_doesNotMergeToolResultTurns() {
+        val turns = listOf(PromptTurn(PromptTurnKind.TOOL_RESULT, "a"), PromptTurn(PromptTurnKind.TOOL_RESULT, "b"))
+        assertEquals(2, turns.mergeAdjacentTurns().size)
+    }
+
+    @Test fun mergeAdjacentTurns_mergesAssistantTurns() {
+        val turns = listOf(PromptTurn(PromptTurnKind.ASSISTANT, "a"), PromptTurn(PromptTurnKind.ASSISTANT, "b"))
+        assertEquals("a\nb", turns.mergeAdjacentTurns().single().content)
+    }
+}

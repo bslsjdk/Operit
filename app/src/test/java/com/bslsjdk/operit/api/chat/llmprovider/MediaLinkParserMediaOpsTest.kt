@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgTWVkaWFMaW5rUGFyc2VyTWVkaWFPcHNUZXN0IHsKCiAgICBAVGVzdCBmdW4gcmVwbGFjZU1lZGlhTGlua3Nfc2tpcHNFcnJvcklkcygpIHsKICAgICAgICB2YWwgaW5wdXQgPSAiPGxpbmsgdHlwZT1cImF1ZGlvXCIgaWQ9XCJlcnJvclwiPkE8L2xpbms+IgogICAgICAgIGFzc2VydEVxdWFscygiIiwgTWVkaWFMaW5rUGFyc2VyLnJlcGxhY2VNZWRpYUxpbmtzKGlucHV0KSB7IHR5cGUsIGlkIC0+ICJbJHR5cGU6JGlkXSIgfSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlTWVkaWFMaW5rc193aXRoTm9NZWRpYVJldHVybnNPcmlnaW5hbFRleHQoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwbGFpbiIsIE1lZGlhTGlua1BhcnNlci5yZW1vdmVNZWRpYUxpbmtzKCJwbGFpbiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBoYXNNZWRpYUxpbmtzX2RldGVjdHNWaWRlb0xpbmsoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUxpbmtQYXJzZXIuaGFzTWVkaWFMaW5rcygiPGxpbmsgdHlwZT1cInZpZGVvXCIgaWQ9XCJ2MVwiPlY8L2xpbms+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGhhc01lZGlhTGlua3NfaWdub3Jlc0ltYWdlTGluaygpIHsKICAgICAgICBhc3NlcnRGYWxzZShNZWRpYUxpbmtQYXJzZXIuaGFzTWVkaWFMaW5rcygiPGxpbmsgdHlwZT1cImltYWdlXCIgaWQ9XCJpMVwiPkk8L2xpbms+IikpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class MediaLinkParserMediaOpsTest {
+
+    @Test fun replaceMediaLinks_skipsErrorIds() {
+        val input = "<link type=\"audio\" id=\"error\">A</link>"
+        assertEquals("", MediaLinkParser.replaceMediaLinks(input) { type, id -> "[$type:$id]" })
+    }
+
+    @Test fun removeMediaLinks_withNoMediaReturnsOriginalText() {
+        assertEquals("plain", MediaLinkParser.removeMediaLinks("plain"))
+    }
+
+    @Test fun hasMediaLinks_detectsVideoLink() {
+        assertTrue(MediaLinkParser.hasMediaLinks("<link type=\"video\" id=\"v1\">V</link>"))
+    }
+
+    @Test fun hasMediaLinks_ignoresImageLink() {
+        assertFalse(MediaLinkParser.hasMediaLinks("<link type=\"image\" id=\"i1\">I</link>"))
+    }
+}

@@ -1,1 +1,10 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5kZWJ1Z2dlcgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5hY2Nlc3NiaWxpdHkuQWNjZXNzaWJpbGl0eURldmljZUluZm9Ub29sRXhlY3V0b3IKCi8qKiDosIPor5XnuqfliKvnmoTorr7lpIfkv6Hmga/lt6XlhbfvvIznu6fmib/ml6Dpmpznoo3niYjmnKwgKi8Kb3BlbiBjbGFzcyBEZWJ1Z2dlckRldmljZUluZm9Ub29sRXhlY3V0b3IoY29udGV4dDogQ29udGV4dCkgOgogICAgICAgIEFjY2Vzc2liaWxpdHlEZXZpY2VJbmZvVG9vbEV4ZWN1dG9yKGNvbnRleHQpIHsKICAgIC8vIOW9k+WJjemYtuauteS4jea3u+WKoOaWsOWKn+iDve+8jOS7hee7p+aJv+aXoOmanOeijeWunueOsAp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.debugger
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.defaultTool.accessbility.AccessibilityDeviceInfoToolExecutor
+
+/** 调试级别的设备信息工具，继承无障碍版本 */
+open class DebuggerDeviceInfoToolExecutor(context: Context) :
+        AccessibilityDeviceInfoToolExecutor(context) {
+    // 当前阶段不添加新功能，仅继承无障碍实现
+}

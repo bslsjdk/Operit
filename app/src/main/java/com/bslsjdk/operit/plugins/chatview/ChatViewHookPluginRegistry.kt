@@ -1,1 +1,103 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5jaGF0dmlldwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvcHlPbldyaXRlQXJyYXlMaXN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCmVudW0gY2xhc3MgQ2hhdFZpZXdFdmVudCh2YWwgd2lyZU5hbWU6IFN0cmluZykgewogICAgVklFV19PUEVORUQoInZpZXdfb3BlbmVkIiksCiAgICBWSUVXX1VQREFURUQoInZpZXdfdXBkYXRlZCIpLAogICAgVklFV19DTE9TRUQoInZpZXdfY2xvc2VkIikKfQoKZGF0YSBjbGFzcyBDaGF0Vmlld0hvb2tQYXJhbXMoCiAgICB2YWwgY29udGV4dDogQ29udGV4dCwKICAgIHZhbCB2aWV3SWQ6IFN0cmluZywKICAgIHZhbCBjaGF0SWQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHdvcmtzcGFjZVBhdGg6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHdvcmtzcGFjZUVudjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgcnVudGltZTogU3RyaW5nLAogICAgdmFsIHRpdGxlOiBTdHJpbmc/ID0gbnVsbAopCgppbnRlcmZhY2UgQ2hhdFZpZXdIb29rUGx1Z2luIHsKICAgIHZhbCBpZDogU3RyaW5nCgogICAgc3VzcGVuZCBmdW4gb25FdmVudCgKICAgICAgICBldmVudDogQ2hhdFZpZXdFdmVudCwKICAgICAgICBwYXJhbXM6IENoYXRWaWV3SG9va1BhcmFtcwogICAgKQp9CgpvYmplY3QgQ2hhdFZpZXdIb29rUGx1Z2luUmVnaXN0cnkgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkNoYXRWaWV3SG9va3MiCiAgICBwcml2YXRlIHZhbCBwbHVnaW5zID0gQ29weU9uV3JpdGVBcnJheUxpc3Q8Q2hhdFZpZXdIb29rUGx1Z2luPigpCiAgICBwcml2YXRlIHZhbCBkaXNwYXRjaFNjb3BlID0gQ29yb3V0aW5lU2NvcGUoU3VwZXJ2aXNvckpvYigpICsgRGlzcGF0Y2hlcnMuRGVmYXVsdCkKICAgIHByaXZhdGUgdmFsIHN0YXRlTG9jayA9IEFueSgpCiAgICBwcml2YXRlIHZhbCBvcGVuVmlld3NCeUlkID0gTGlua2VkSGFzaE1hcDxTdHJpbmcsIENoYXRWaWV3SG9va1BhcmFtcz4oKQoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biByZWdpc3RlcihwbHVnaW46IENoYXRWaWV3SG9va1BsdWdpbikgewogICAgICAgIHVucmVnaXN0ZXIocGx1Z2luLmlkKQogICAgICAgIHBsdWdpbnMuYWRkKHBsdWdpbikKICAgIH0KCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gdW5yZWdpc3RlcihwbHVnaW5JZDogU3RyaW5nKSB7CiAgICAgICAgcGx1Z2lucy5yZW1vdmVBbGwgeyBpdC5pZCA9PSBwbHVnaW5JZCB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gZGlzcGF0Y2goCiAgICAgICAgZXZlbnQ6IENoYXRWaWV3RXZlbnQsCiAgICAgICAgcGFyYW1zOiBDaGF0Vmlld0hvb2tQYXJhbXMKICAgICkgewogICAgICAgIHJlY29yZFJlcGxheWFibGVTdGF0ZShldmVudCwgcGFyYW1zKQogICAgICAgIGZvciAocGx1Z2luIGluIHBsdWdpbnMpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHBsdWdpbi5vbkV2ZW50KGV2ZW50LCBwYXJhbXMpCiAgICAgICAgICAgIH0gY2F0Y2ggKGVycm9yOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKAogICAgICAgICAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgICAgICAgICAiQ2hhdCB2aWV3IGhvb2sgcGx1Z2luIGZhaWxlZDogJHtwbHVnaW4uaWR9LCBldmVudD0ke2V2ZW50LndpcmVOYW1lfSwgdmlld0lkPSR7cGFyYW1zLnZpZXdJZH0iLAogICAgICAgICAgICAgICAgICAgIGVycm9yCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGRpc3BhdGNoQXN5bmMoCiAgICAgICAgZXZlbnQ6IENoYXRWaWV3RXZlbnQsCiAgICAgICAgcGFyYW1zOiBDaGF0Vmlld0hvb2tQYXJhbXMKICAgICkgewogICAgICAgIGRpc3BhdGNoU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgZGlzcGF0Y2goZXZlbnQgPSBldmVudCwgcGFyYW1zID0gcGFyYW1zKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gZ2V0UmVwbGF5YWJsZU9wZW5WaWV3UGFyYW1zKCk6IExpc3Q8Q2hhdFZpZXdIb29rUGFyYW1zPiB7CiAgICAgICAgc3luY2hyb25pemVkKHN0YXRlTG9jaykgewogICAgICAgICAgICByZXR1cm4gb3BlblZpZXdzQnlJZC52YWx1ZXMudG9MaXN0KCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVjb3JkUmVwbGF5YWJsZVN0YXRlKAogICAgICAgIGV2ZW50OiBDaGF0Vmlld0V2ZW50LAogICAgICAgIHBhcmFtczogQ2hhdFZpZXdIb29rUGFyYW1zCiAgICApIHsKICAgICAgICBzeW5jaHJvbml6ZWQoc3RhdGVMb2NrKSB7CiAgICAgICAgICAgIHdoZW4gKGV2ZW50KSB7CiAgICAgICAgICAgICAgICBDaGF0Vmlld0V2ZW50LlZJRVdfT1BFTkVELCBDaGF0Vmlld0V2ZW50LlZJRVdfVVBEQVRFRCAtPiB7CiAgICAgICAgICAgICAgICAgICAgb3BlblZpZXdzQnlJZFtwYXJhbXMudmlld0lkXSA9IHBhcmFtcwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIENoYXRWaWV3RXZlbnQuVklFV19DTE9TRUQgLT4gewogICAgICAgICAgICAgICAgICAgIG9wZW5WaWV3c0J5SWQucmVtb3ZlKHBhcmFtcy52aWV3SWQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.plugins.chatview
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.CopyOnWriteArrayList
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.launch
+
+enum class ChatViewEvent(val wireName: String) {
+    VIEW_OPENED("view_opened"),
+    VIEW_UPDATED("view_updated"),
+    VIEW_CLOSED("view_closed")
+}
+
+data class ChatViewHookParams(
+    val context: Context,
+    val viewId: String,
+    val chatId: String? = null,
+    val workspacePath: String? = null,
+    val workspaceEnv: String? = null,
+    val runtime: String,
+    val title: String? = null
+)
+
+interface ChatViewHookPlugin {
+    val id: String
+
+    suspend fun onEvent(
+        event: ChatViewEvent,
+        params: ChatViewHookParams
+    )
+}
+
+object ChatViewHookPluginRegistry {
+    private const val TAG = "ChatViewHooks"
+    private val plugins = CopyOnWriteArrayList<ChatViewHookPlugin>()
+    private val dispatchScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+    private val stateLock = Any()
+    private val openViewsById = LinkedHashMap<String, ChatViewHookParams>()
+
+    @Synchronized
+    fun register(plugin: ChatViewHookPlugin) {
+        unregister(plugin.id)
+        plugins.add(plugin)
+    }
+
+    @Synchronized
+    fun unregister(pluginId: String) {
+        plugins.removeAll { it.id == pluginId }
+    }
+
+    suspend fun dispatch(
+        event: ChatViewEvent,
+        params: ChatViewHookParams
+    ) {
+        recordReplayableState(event, params)
+        for (plugin in plugins) {
+            try {
+                plugin.onEvent(event, params)
+            } catch (error: Exception) {
+                AppLogger.e(
+                    TAG,
+                    "Chat view hook plugin failed: ${plugin.id}, event=${event.wireName}, viewId=${params.viewId}",
+                    error
+                )
+            }
+        }
+    }
+
+    fun dispatchAsync(
+        event: ChatViewEvent,
+        params: ChatViewHookParams
+    ) {
+        dispatchScope.launch {
+            dispatch(event = event, params = params)
+        }
+    }
+
+    fun getReplayableOpenViewParams(): List<ChatViewHookParams> {
+        synchronized(stateLock) {
+            return openViewsById.values.toList()
+        }
+    }
+
+    private fun recordReplayableState(
+        event: ChatViewEvent,
+        params: ChatViewHookParams
+    ) {
+        synchronized(stateLock) {
+            when (event) {
+                ChatViewEvent.VIEW_OPENED, ChatViewEvent.VIEW_UPDATED -> {
+                    openViewsById[params.viewId] = params
+                }
+
+                ChatViewEvent.VIEW_CLOSED -> {
+                    openViewsById.remove(params.viewId)
+                }
+            }
+        }
+    }
+}

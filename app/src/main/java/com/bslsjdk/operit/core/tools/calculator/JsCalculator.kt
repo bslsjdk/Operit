@@ -1,1 +1,152 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jYWxjdWxhdG9yCgppbXBvcnQgamF2YS51dGlsLkRhdGUKCi8qKgogKiBKYXZhU2NyaXB06aOO5qC855qE6K6h566X5ZmoCiAqCiAqIOWfuuS6juivreazleagkeino+aekOS4juaJp+ihjOihqOi+vuW8j++8jOaUr+aMgUphdmFTY3JpcHTor63ms5XnibnmgKcKICovCmNsYXNzIEpzQ2FsY3VsYXRvciB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICAvKioKICAgICAgICAgKiDorqHnrpfooajovr7lvI/lubbov5Tlm57nu5PmnpwKICAgICAgICAgKgogICAgICAgICAqIEBwYXJhbSBleHByZXNzaW9uIOimgeiuoeeul+eahOihqOi+vuW8j+Wtl+espuS4sgogICAgICAgICAqIEByZXR1cm4g6K6h566X57uT5p6cCiAgICAgICAgICovCiAgICAgICAgZnVuIGV2YWx1YXRlKGV4cHJlc3Npb246IFN0cmluZyk6IERvdWJsZSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcGFyc2VyID0gRXhwcmVzc2lvblBhcnNlcihleHByZXNzaW9uKQogICAgICAgICAgICAgICAgdmFsIGV4cHJlc3Npb25UcmVlID0gcGFyc2VyLnBhcnNlKCkKICAgICAgICAgICAgICAgIHJldHVybiBleHByZXNzaW9uVHJlZS5ldmFsdWF0ZSgpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJFcnJvciBldmFsdWF0aW5nIGV4cHJlc3Npb246ICR7ZS5tZXNzYWdlfSIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOagvOW8j+WMluiuoeeul+e7k+aenOS4uuWtl+espuS4sgogICAgICAgICAqCiAgICAgICAgICogQHBhcmFtIHJlc3VsdCDorqHnrpfnu5PmnpwKICAgICAgICAgKiBAcmV0dXJuIOagvOW8j+WMluWQjueahOWtl+espuS4sgogICAgICAgICAqLwogICAgICAgIGZ1biBmb3JtYXRSZXN1bHQocmVzdWx0OiBEb3VibGUpOiBTdHJpbmcgewogICAgICAgICAgICByZXR1cm4gRXhwcmVzc2lvbkNvbnRleHQuZm9ybWF0UmVzdWx0KHJlc3VsdCkKICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOiuoeeul+ihqOi+vuW8j+W5tui/lOWbnuagvOW8j+WMlue7k+aenAogICAgICAgICAqCiAgICAgICAgICogQHBhcmFtIGV4cHJlc3Npb24g6KaB6K6h566X55qE6KGo6L6+5byP5a2X56ym5LiyCiAgICAgICAgICogQHJldHVybiDmoLzlvI/ljJblkI7nmoTorqHnrpfnu5PmnpwKICAgICAgICAgKi8KICAgICAgICBmdW4gY2FsYyhleHByZXNzaW9uOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgICAgICB2YWwgcmVzdWx0ID0gZXZhbHVhdGUoZXhwcmVzc2lvbikKICAgICAgICAgICAgcmV0dXJuIGZvcm1hdFJlc3VsdChyZXN1bHQpCiAgICAgICAgfQoKICAgICAgICAvKioKICAgICAgICAgKiDorr7nva7lj5jph4/lgLwKICAgICAgICAgKgogICAgICAgICAqIEBwYXJhbSBuYW1lIOWPmOmHj+WQjQogICAgICAgICAqIEBwYXJhbSB2YWx1ZSDlj5jph4/lgLwKICAgICAgICAgKi8KICAgICAgICBmdW4gc2V0VmFyaWFibGUobmFtZTogU3RyaW5nLCB2YWx1ZTogRG91YmxlKSB7CiAgICAgICAgICAgIEV4cHJlc3Npb25Db250ZXh0LnNldFZhcmlhYmxlKG5hbWUsIHZhbHVlKQogICAgICAgIH0KCiAgICAgICAgLyoqCiAgICAgICAgICog6I635Y+W5Y+Y6YeP5YC8CiAgICAgICAgICoKICAgICAgICAgKiBAcGFyYW0gbmFtZSDlj5jph4/lkI0KICAgICAgICAgKiBAcmV0dXJuIOWPmOmHj+WAvAogICAgICAgICAqLwogICAgICAgIGZ1biBnZXRWYXJpYWJsZShuYW1lOiBTdHJpbmcpOiBEb3VibGUgewogICAgICAgICAgICByZXR1cm4gRXhwcmVzc2lvbkNvbnRleHQuZ2V0VmFyaWFibGUobmFtZSkKICAgICAgICB9CgogICAgICAgIC8qKiDmuIXpmaTmiYDmnInlj5jph48gKi8KICAgICAgICBmdW4gY2xlYXJWYXJpYWJsZXMoKSB7CiAgICAgICAgICAgIEV4cHJlc3Npb25Db250ZXh0LmNsZWFyVmFyaWFibGVzKCkKICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOagvOW8j+WMluaXpeacnwogICAgICAgICAqCiAgICAgICAgICogQHBhcmFtIGRhdGUg5pel5pyf5a+56LGhCiAgICAgICAgICogQHBhcmFtIGZvcm1hdCDmoLzlvI/lrZfnrKbkuLIKICAgICAgICAgKiBAcmV0dXJuIOagvOW8j+WMluWQjueahOaXpeacn+Wtl+espuS4sgogICAgICAgICAqLwogICAgICAgIGZ1biBmb3JtYXREYXRlKGRhdGU6IERhdGUsIGZvcm1hdDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICAgICAgdmFsIGZvcm1hdHRlciA9IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0KGZvcm1hdCwgamF2YS51dGlsLkxvY2FsZS5nZXREZWZhdWx0KCkpCiAgICAgICAgICAgIHJldHVybiBmb3JtYXR0ZXIuZm9ybWF0KGRhdGUpCiAgICAgICAgfQoKICAgICAgICAvKiog6I635Y+W5pSv5oyB55qE5Y2V5L2N6L2s5o2i57G75Z6LICovCiAgICAgICAgZnVuIGdldFN1cHBvcnRlZFVuaXRzKCk6IE1hcDxTdHJpbmcsIExpc3Q8U3RyaW5nPj4gewogICAgICAgICAgICByZXR1cm4gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgIlRlbXBlcmF0dXJlIiB0byBsaXN0T2YoImMgKENlbHNpdXMpIiwgImYgKEZhaHJlbmhlaXQpIiwgImsgKEtlbHZpbikiKSwKICAgICAgICAgICAgICAgICAgICAiTGVuZ3RoIiB0bwogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAia20gKGtpbG9tZXRlcnMpIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIm1pIChtaWxlcykiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAibSAobWV0ZXJzKSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmdCAoZmVldCkiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiY20gKGNlbnRpbWV0ZXJzKSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJpbiAoaW5jaGVzKSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgIldlaWdodCIgdG8gbGlzdE9mKCJrZyAoa2lsb2dyYW1zKSIsICJsYiAocG91bmRzKSIsICJnIChncmFtcykiLCAib3ogKG91bmNlcykiKSwKICAgICAgICAgICAgICAgICAgICAiVm9sdW1lIiB0bwogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAibCAobGl0ZXJzKSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJnYWwgKGdhbGxvbnMpIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIm1sIChtaWxsaWxpdGVycykiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAib3ogKGZsdWlkIG91bmNlcykiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICJTcGVlZCIgdG8gbGlzdE9mKCJrcGggKGtpbG9tZXRlcnMgcGVyIGhvdXIpIiwgIm1waCAobWlsZXMgcGVyIGhvdXIpIikKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgLyoqIOiOt+WPluaUr+aMgeeahOaXpeacn+WHveaVsCAqLwogICAgICAgIGZ1biBnZXRTdXBwb3J0ZWREYXRlRnVuY3Rpb25zKCk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgICAgIHJldHVybiBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgInRvZGF5KCkgLSBDdXJyZW50IGRhdGUiLAogICAgICAgICAgICAgICAgICAgICJub3coKSAtIEN1cnJlbnQgdGltZXN0YW1wIGluIG1pbGxpc2Vjb25kcyIsCiAgICAgICAgICAgICAgICAgICAgImRhdGUoMjAyMy0wMS0wMSkgLSBQYXJzZSBkYXRlIHN0cmluZyIsCiAgICAgICAgICAgICAgICAgICAgImRhdGVfZGlmZihkYXRlMSwgZGF0ZTIpIC0gRGF5cyBiZXR3ZWVuIGRhdGVzIiwKICAgICAgICAgICAgICAgICAgICAiZGF0ZV9hZGQoZGF0ZSwgZGF5cykgLSBBZGQgZGF5cyB0byBkYXRlIiwKICAgICAgICAgICAgICAgICAgICAid2Vla2RheShkYXRlKSAtIEdldCBkYXkgb2Ygd2VlayAoMS03KSIsCiAgICAgICAgICAgICAgICAgICAgIm1vbnRoKGRhdGUpIC0gR2V0IG1vbnRoICgxLTEyKSIsCiAgICAgICAgICAgICAgICAgICAgInllYXIoZGF0ZSkgLSBHZXQgeWVhciIsCiAgICAgICAgICAgICAgICAgICAgImRheShkYXRlKSAtIEdldCBkYXkgb2YgbW9udGgiCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIC8qKiDojrflj5bmlK/mjIHnmoTnu5/orqHlh73mlbAgKi8KICAgICAgICBmdW4gZ2V0U3VwcG9ydGVkU3RhdEZ1bmN0aW9ucygpOiBMaXN0PFN0cmluZz4gewogICAgICAgICAgICByZXR1cm4gbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICJzdGF0cy5tZWFuKHZhbHVlcy4uLikgLSBDYWxjdWxhdGUgYXZlcmFnZSIsCiAgICAgICAgICAgICAgICAgICAgInN0YXRzLm1lZGlhbih2YWx1ZXMuLi4pIC0gRmluZCBtaWRkbGUgdmFsdWUiLAogICAgICAgICAgICAgICAgICAgICJzdGF0cy5taW4odmFsdWVzLi4uKSAtIEZpbmQgbWluaW11bSB2YWx1ZSIsCiAgICAgICAgICAgICAgICAgICAgInN0YXRzLm1heCh2YWx1ZXMuLi4pIC0gRmluZCBtYXhpbXVtIHZhbHVlIiwKICAgICAgICAgICAgICAgICAgICAic3RhdHMuc3VtKHZhbHVlcy4uLikgLSBTdW0gdmFsdWVzIiwKICAgICAgICAgICAgICAgICAgICAic3RhdHMuc3RkZXYodmFsdWVzLi4uKSAtIENhbGN1bGF0ZSBzdGFuZGFyZCBkZXZpYXRpb24iCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIC8qKiDojrflj5bmlK/mjIHnmoRKYXZhU2NyaXB06aOO5qC854m55oCnICovCiAgICAgICAgZnVuIGdldFN1cHBvcnRlZEpzRmVhdHVyZXMoKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICAgICAgcmV0dXJuIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAiY29uZGl0aW9uID8gdmFsdWUxIDogdmFsdWUyIC0gVGVybmFyeSBvcGVyYXRvciIsCiAgICAgICAgICAgICAgICAgICAgIk1hdGguc2luKCksIE1hdGguY29zKCkgLSBNYXRoIGZ1bmN0aW9ucyIsCiAgICAgICAgICAgICAgICAgICAgIlwke2EgKyBifSAtIFRlbXBsYXRlIHN0cmluZyIsCiAgICAgICAgICAgICAgICAgICAgInRydWUsIGZhbHNlLCBudWxsLCBOYU4gLSBKYXZhU2NyaXB0IGtleXdvcmRzIiwKICAgICAgICAgICAgICAgICAgICAiYSA9IDU7IGEgKz0gMiAtIEFzc2lnbm1lbnQgb3BlcmF0b3JzIiwKICAgICAgICAgICAgICAgICAgICAiMiAqKiAzIG9yIDIgXiAzIC0gRXhwb25lbnRpYXRpb24iLAogICAgICAgICAgICAgICAgICAgICJcInN0cmluZ1wiWzBdIC0gU3RyaW5nIGluZGV4IiwKICAgICAgICAgICAgICAgICAgICAiYXJyYXkubGVuZ3RoIC0gTGVuZ3RoIHByb3BlcnR5IgogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.calculator
+
+import java.util.Date
+
+/**
+ * JavaScript风格的计算器
+ *
+ * 基于语法树解析与执行表达式，支持JavaScript语法特性
+ */
+class JsCalculator {
+    companion object {
+        /**
+         * 计算表达式并返回结果
+         *
+         * @param expression 要计算的表达式字符串
+         * @return 计算结果
+         */
+        fun evaluate(expression: String): Double {
+            try {
+                val parser = ExpressionParser(expression)
+                val expressionTree = parser.parse()
+                return expressionTree.evaluate()
+            } catch (e: Exception) {
+                throw IllegalArgumentException("Error evaluating expression: ${e.message}", e)
+            }
+        }
+
+        /**
+         * 格式化计算结果为字符串
+         *
+         * @param result 计算结果
+         * @return 格式化后的字符串
+         */
+        fun formatResult(result: Double): String {
+            return ExpressionContext.formatResult(result)
+        }
+
+        /**
+         * 计算表达式并返回格式化结果
+         *
+         * @param expression 要计算的表达式字符串
+         * @return 格式化后的计算结果
+         */
+        fun calc(expression: String): String {
+            val result = evaluate(expression)
+            return formatResult(result)
+        }
+
+        /**
+         * 设置变量值
+         *
+         * @param name 变量名
+         * @param value 变量值
+         */
+        fun setVariable(name: String, value: Double) {
+            ExpressionContext.setVariable(name, value)
+        }
+
+        /**
+         * 获取变量值
+         *
+         * @param name 变量名
+         * @return 变量值
+         */
+        fun getVariable(name: String): Double {
+            return ExpressionContext.getVariable(name)
+        }
+
+        /** 清除所有变量 */
+        fun clearVariables() {
+            ExpressionContext.clearVariables()
+        }
+
+        /**
+         * 格式化日期
+         *
+         * @param date 日期对象
+         * @param format 格式字符串
+         * @return 格式化后的日期字符串
+         */
+        fun formatDate(date: Date, format: String): String {
+            val formatter = java.text.SimpleDateFormat(format, java.util.Locale.getDefault())
+            return formatter.format(date)
+        }
+
+        /** 获取支持的单位转换类型 */
+        fun getSupportedUnits(): Map<String, List<String>> {
+            return mapOf(
+                    "Temperature" to listOf("c (Celsius)", "f (Fahrenheit)", "k (Kelvin)"),
+                    "Length" to
+                            listOf(
+                                    "km (kilometers)",
+                                    "mi (miles)",
+                                    "m (meters)",
+                                    "ft (feet)",
+                                    "cm (centimeters)",
+                                    "in (inches)"
+                            ),
+                    "Weight" to listOf("kg (kilograms)", "lb (pounds)", "g (grams)", "oz (ounces)"),
+                    "Volume" to
+                            listOf(
+                                    "l (liters)",
+                                    "gal (gallons)",
+                                    "ml (milliliters)",
+                                    "oz (fluid ounces)"
+                            ),
+                    "Speed" to listOf("kph (kilometers per hour)", "mph (miles per hour)")
+            )
+        }
+
+        /** 获取支持的日期函数 */
+        fun getSupportedDateFunctions(): List<String> {
+            return listOf(
+                    "today() - Current date",
+                    "now() - Current timestamp in milliseconds",
+                    "date(2023-01-01) - Parse date string",
+                    "date_diff(date1, date2) - Days between dates",
+                    "date_add(date, days) - Add days to date",
+                    "weekday(date) - Get day of week (1-7)",
+                    "month(date) - Get month (1-12)",
+                    "year(date) - Get year",
+                    "day(date) - Get day of month"
+            )
+        }
+
+        /** 获取支持的统计函数 */
+        fun getSupportedStatFunctions(): List<String> {
+            return listOf(
+                    "stats.mean(values...) - Calculate average",
+                    "stats.median(values...) - Find middle value",
+                    "stats.min(values...) - Find minimum value",
+                    "stats.max(values...) - Find maximum value",
+                    "stats.sum(values...) - Sum values",
+                    "stats.stdev(values...) - Calculate standard deviation"
+            )
+        }
+
+        /** 获取支持的JavaScript风格特性 */
+        fun getSupportedJsFeatures(): List<String> {
+            return listOf(
+                    "condition ? value1 : value2 - Ternary operator",
+                    "Math.sin(), Math.cos() - Math functions",
+                    "\${a + b} - Template string",
+                    "true, false, null, NaN - JavaScript keywords",
+                    "a = 5; a += 2 - Assignment operators",
+                    "2 ** 3 or 2 ^ 3 - Exponentiation",
+                    "\"string\"[0] - String index",
+                    "array.length - Length property"
+            )
+        }
+    }
+}

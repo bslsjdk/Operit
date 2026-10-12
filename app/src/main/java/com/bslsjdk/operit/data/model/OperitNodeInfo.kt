@@ -1,1 +1,56 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGNvbS5nb29nbGUuZ3Nvbi5hbm5vdGF0aW9ucy5TZXJpYWxpemVkTmFtZQppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGUKCi8qKgogKiDkuIDkuKrlj6/luo/liJfljJbnmoTmlbDmja7nsbvvvIznlKjkuo7mm7/ku6NBY2Nlc3NpYmlsaXR5Tm9kZUluZm/vvIzku6Xkvr/lnKjov5vnqIvpl7TkvKDpgJLjgIIKICog5a6D5YyF5ZCr5LqG6IqC54K555qE5aSn6YOo5YiG5YWz6ZSu5L+h5oGv77yM5bm25LiU5Y+v5Lul5pa55L6/5Zyw6YCa6L+HR3Nvbui/m+ihjOW6j+WIl+WMluWSjOWPjeW6j+WIl+WMluOAggogKi8KZGF0YSBjbGFzcyBPcGVyaXROb2RlSW5mbygKICAgIEBTZXJpYWxpemVkTmFtZSgiY2hpbGRyZW4iKQogICAgdmFsIGNoaWxkcmVuOiBMaXN0PE9wZXJpdE5vZGVJbmZvPiA9IGVtcHR5TGlzdCgpLAoKICAgIEBTZXJpYWxpemVkTmFtZSgiY2xhc3NOYW1lIikKICAgIHZhbCBjbGFzc05hbWU6IFN0cmluZz8sCgogICAgQFNlcmlhbGl6ZWROYW1lKCJwYWNrYWdlTmFtZSIpCiAgICB2YWwgcGFja2FnZU5hbWU6IFN0cmluZz8sCgogICAgQFNlcmlhbGl6ZWROYW1lKCJ0ZXh0IikKICAgIHZhbCB0ZXh0OiBTdHJpbmc/LAoKICAgIEBTZXJpYWxpemVkTmFtZSgiY29udGVudC1kZXNjIikKICAgIHZhbCBjb250ZW50RGVzY3JpcHRpb246IFN0cmluZz8sCgogICAgQFNlcmlhbGl6ZWROYW1lKCJyZXNvdXJjZS1pZCIpCiAgICB2YWwgdmlld0lkUmVzb3VyY2VOYW1lOiBTdHJpbmc/LAoKICAgIEBTZXJpYWxpemVkTmFtZSgiYm91bmRzIikKICAgIHZhbCBib3VuZHNJblNjcmVlbjogU3RyaW5nPywgLy8gZS5nLiwgIlswLDBdWzEwODAsMjIyMF0iCgogICAgQFNlcmlhbGl6ZWROYW1lKCJjbGlja2FibGUiKQogICAgdmFsIGlzQ2xpY2thYmxlOiBCb29sZWFuLAoKICAgIEBTZXJpYWxpemVkTmFtZSgidmlzaWJsZSIpCiAgICB2YWwgaXNWaXNpYmxlVG9Vc2VyOiBCb29sZWFuLAogICAgCiAgICBAU2VyaWFsaXplZE5hbWUoImZvY3VzZWQiKQogICAgdmFsIGlzRm9jdXNlZDogQm9vbGVhbiwKICAgIAogICAgQFNlcmlhbGl6ZWROYW1lKCJjaGVja2VkIikKICAgIHZhbCBpc0NoZWNrZWQ6IEJvb2xlYW4KICAgIC8vIOWPr+S7peagueaNrumcgOimgea3u+WKoOabtOWkmuWxnuaApwopIDogU2VyaWFsaXphYmxlIHsKCiAgICAvLyDkuLrkuobmlrnkvr/vvIzlj6/ku6Xmt7vliqDkuIDkupvovoXliqnlh73mlbDmnaXop6PmnpBib3VuZHMKICAgIGZ1biBnZXRCb3VuZHMoKTogYW5kcm9pZC5ncmFwaGljcy5SZWN0PyB7CiAgICAgICAgaWYgKGJvdW5kc0luU2NyZWVuID09IG51bGwpIHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBwYXJ0cyA9IGJvdW5kc0luU2NyZWVuLnJlcGxhY2UoIlsiLCAiIikucmVwbGFjZSgiXSIsICIsIikuc3BsaXQoIiwiKQogICAgICAgICAgICBhbmRyb2lkLmdyYXBoaWNzLlJlY3QocGFydHNbMF0udG9JbnQoKSwgcGFydHNbMV0udG9JbnQoKSwgcGFydHNbMl0udG9JbnQoKSwgcGFydHNbM10udG9JbnQoKSkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KfSA=
+package com.bslsjdk.operit.data.model
+
+import com.google.gson.annotations.SerializedName
+import java.io.Serializable
+
+/**
+ * 一个可序列化的数据类，用于替代AccessibilityNodeInfo，以便在进程间传递。
+ * 它包含了节点的大部分关键信息，并且可以方便地通过Gson进行序列化和反序列化。
+ */
+data class OperitNodeInfo(
+    @SerializedName("children")
+    val children: List<OperitNodeInfo> = emptyList(),
+
+    @SerializedName("className")
+    val className: String?,
+
+    @SerializedName("packageName")
+    val packageName: String?,
+
+    @SerializedName("text")
+    val text: String?,
+
+    @SerializedName("content-desc")
+    val contentDescription: String?,
+
+    @SerializedName("resource-id")
+    val viewIdResourceName: String?,
+
+    @SerializedName("bounds")
+    val boundsInScreen: String?, // e.g., "[0,0][1080,2220]"
+
+    @SerializedName("clickable")
+    val isClickable: Boolean,
+
+    @SerializedName("visible")
+    val isVisibleToUser: Boolean,
+    
+    @SerializedName("focused")
+    val isFocused: Boolean,
+    
+    @SerializedName("checked")
+    val isChecked: Boolean
+    // 可以根据需要添加更多属性
+) : Serializable {
+
+    // 为了方便，可以添加一些辅助函数来解析bounds
+    fun getBounds(): android.graphics.Rect? {
+        if (boundsInScreen == null) return null
+        return try {
+            val parts = boundsInScreen.replace("[", "").replace("]", ",").split(",")
+            android.graphics.Rect(parts[0].toInt(), parts[1].toInt(), parts[2].toInt(), parts[3].toInt())
+        } catch (e: Exception) {
+            null
+        }
+    }
+} 

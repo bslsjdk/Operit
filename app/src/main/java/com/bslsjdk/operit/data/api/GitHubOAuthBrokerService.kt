@@ -1,1 +1,147 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5HaXRIdWJVc2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uYnVpbGRKc29uT2JqZWN0CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5wdXQKaW1wb3J0IG9raHR0cDMuTWVkaWFUeXBlLkNvbXBhbmlvbi50b01lZGlhVHlwZQppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdAppbXBvcnQgb2todHRwMy5SZXF1ZXN0Qm9keS5Db21wYW5pb24udG9SZXF1ZXN0Qm9keQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEdpdEh1Yk9BdXRoQnJva2VyU3RhcnRSZXNwb25zZSgKICAgIHZhbCBvazogQm9vbGVhbiwKICAgIHZhbCB0cmFuc2FjdGlvbklkOiBTdHJpbmcsCiAgICB2YWwgZGVsaXZlcnlDcmVkZW50aWFsOiBTdHJpbmcsCiAgICB2YWwgYXV0aG9yaXphdGlvblVybDogU3RyaW5nLAogICAgdmFsIGNvbXBsZXRpb25SZWRpcmVjdFVyaTogU3RyaW5nLAogICAgdmFsIGV4cGlyZXNBdDogTG9uZwopCgpAU2VyaWFsaXphYmxlCnByaXZhdGUgZGF0YSBjbGFzcyBHaXRIdWJPQXV0aEJyb2tlckNsYWltUmVzcG9uc2UoCiAgICB2YWwgb2s6IEJvb2xlYW4sCiAgICB2YWwgc3RhdHVzOiBTdHJpbmcsCiAgICB2YWwgYWNjZXNzVG9rZW46IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHRva2VuVHlwZTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgc2NvcGU6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGV4cGlyZXNJbjogTG9uZz8gPSBudWxsLAogICAgdmFsIHJlZnJlc2hUb2tlbjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdXNlcjogR2l0SHViVXNlcj8gPSBudWxsCikKCmRhdGEgY2xhc3MgR2l0SHViT0F1dGhCcm9rZXJDbGFpbVJlc3VsdCgKICAgIHZhbCBhY2Nlc3NUb2tlbjogU3RyaW5nLAogICAgdmFsIHRva2VuVHlwZTogU3RyaW5nLAogICAgdmFsIHNjb3BlOiBTdHJpbmcsCiAgICB2YWwgZXhwaXJlc0luOiBMb25nPywKICAgIHZhbCByZWZyZXNoVG9rZW46IFN0cmluZz8sCiAgICB2YWwgdXNlcjogR2l0SHViVXNlcgopCgpjbGFzcyBHaXRIdWJPQXV0aEJyb2tlclNlcnZpY2UgewogICAgcHJpdmF0ZSB2YWwgY2xpZW50ID0gT2tIdHRwQ2xpZW50LkJ1aWxkZXIoKQogICAgICAgIC5jb25uZWN0VGltZW91dCgzMCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAucmVhZFRpbWVvdXQoMzAsIFRpbWVVbml0LlNFQ09ORFMpCiAgICAgICAgLndyaXRlVGltZW91dCgzMCwgVGltZVVuaXQuU0VDT05EUykKICAgICAgICAuYnVpbGQoKQoKICAgIHByaXZhdGUgdmFsIGpzb24gPSBKc29uIHsKICAgICAgICBpZ25vcmVVbmtub3duS2V5cyA9IHRydWUKICAgICAgICBpc0xlbmllbnQgPSB0cnVlCiAgICB9CgogICAgc3VzcGVuZCBmdW4gc3RhcnRMb2dpbihjb21wbGV0aW9uUmVkaXJlY3RVcmk6IFN0cmluZyk6IFJlc3VsdDxHaXRIdWJPQXV0aEJyb2tlclN0YXJ0UmVzcG9uc2U+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgYm9keSA9IGJ1aWxkSnNvbk9iamVjdCB7CiAgICAgICAgICAgICAgICBwdXQoImNvbXBsZXRpb25SZWRpcmVjdFVyaSIsIGNvbXBsZXRpb25SZWRpcmVjdFVyaSkKICAgICAgICAgICAgfS50b1N0cmluZygpLnRvUmVxdWVzdEJvZHkoSlNPTl9NRURJQV9UWVBFKQogICAgICAgICAgICB2YWwgcmVxdWVzdCA9IFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAudXJsKCIkQlJPS0VSX0JBU0VfVVJML29hdXRoL2dpdGh1Yi9zdGFydCIpCiAgICAgICAgICAgICAgICAucG9zdChib2R5KQogICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICAgICAgY2xpZW50Lm5ld0NhbGwocmVxdWVzdCkuZXhlY3V0ZSgpLnVzZSB7IHJlc3BvbnNlIC0+CiAgICAgICAgICAgICAgICB2YWwgcmVzcG9uc2VCb2R5ID0gcmVzcG9uc2UuYm9keT8uc3RyaW5nKCkKICAgICAgICAgICAgICAgIGlmICghcmVzcG9uc2UuaXNTdWNjZXNzZnVsIHx8IHJlc3BvbnNlQm9keSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFJlc3VsdC5mYWlsdXJlKAogICAgICAgICAgICAgICAgICAgICAgICBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oaHR0cEVycm9yTWVzc2FnZShyZXNwb25zZS5jb2RlLCByZXNwb25zZS5tZXNzYWdlLCByZXNwb25zZUJvZHkpKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFJlc3VsdC5zdWNjZXNzKGpzb24uZGVjb2RlRnJvbVN0cmluZzxHaXRIdWJPQXV0aEJyb2tlclN0YXJ0UmVzcG9uc2U+KHJlc3BvbnNlQm9keSkpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIHN0YXJ0IEdpdEh1YiBPQXV0aCBicm9rZXIgdHJhbnNhY3Rpb24iLCBlKQogICAgICAgICAgICBSZXN1bHQuZmFpbHVyZShlKQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBjbGFpbUxvZ2luKAogICAgICAgIHRyYW5zYWN0aW9uSWQ6IFN0cmluZywKICAgICAgICBkZWxpdmVyeUNyZWRlbnRpYWw6IFN0cmluZwogICAgKTogUmVzdWx0PEdpdEh1Yk9BdXRoQnJva2VyQ2xhaW1SZXN1bHQ+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgYm9keSA9IGJ1aWxkSnNvbk9iamVjdCB7CiAgICAgICAgICAgICAgICBwdXQoInRyYW5zYWN0aW9uSWQiLCB0cmFuc2FjdGlvbklkKQogICAgICAgICAgICAgICAgcHV0KCJkZWxpdmVyeUNyZWRlbnRpYWwiLCBkZWxpdmVyeUNyZWRlbnRpYWwpCiAgICAgICAgICAgIH0udG9TdHJpbmcoKS50b1JlcXVlc3RCb2R5KEpTT05fTUVESUFfVFlQRSkKICAgICAgICAgICAgdmFsIHJlcXVlc3QgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAgICAgLnVybCgiJEJST0tFUl9CQVNFX1VSTC9vYXV0aC9naXRodWIvY2xhaW0iKQogICAgICAgICAgICAgICAgLnBvc3QoYm9keSkKICAgICAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgICAgIGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwb25zZSAtPgogICAgICAgICAgICAgICAgdmFsIHJlc3BvbnNlQm9keSA9IHJlc3BvbnNlLmJvZHk/LnN0cmluZygpCiAgICAgICAgICAgICAgICBpZiAocmVzcG9uc2UuY29kZSAhPSAyMDAgfHwgcmVzcG9uc2VCb2R5ID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgUmVzdWx0LmZhaWx1cmUoCiAgICAgICAgICAgICAgICAgICAgICAgIElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihodHRwRXJyb3JNZXNzYWdlKHJlc3BvbnNlLmNvZGUsIHJlc3BvbnNlLm1lc3NhZ2UsIHJlc3BvbnNlQm9keSkpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdmFsIHBheWxvYWQgPSBqc29uLmRlY29kZUZyb21TdHJpbmc8R2l0SHViT0F1dGhCcm9rZXJDbGFpbVJlc3BvbnNlPihyZXNwb25zZUJvZHkpCiAgICAgICAgICAgICAgICBpZiAoIXBheWxvYWQub2spIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgUmVzdWx0LmZhaWx1cmUoSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJHaXRIdWIgT0F1dGggYnJva2VyIHJlamVjdGVkIHRoZSB0cmFuc2FjdGlvbiIpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKHBheWxvYWQuc3RhdHVzICE9ICJjb21wbGV0ZSIpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgUmVzdWx0LmZhaWx1cmUoCiAgICAgICAgICAgICAgICAgICAgICAgIElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiVW5zdXBwb3J0ZWQgR2l0SHViIE9BdXRoIGJyb2tlciBzdGF0dXM6ICR7cGF5bG9hZC5zdGF0dXN9IikKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBSZXN1bHQuc3VjY2VzcygKICAgICAgICAgICAgICAgICAgICBHaXRIdWJPQXV0aEJyb2tlckNsYWltUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICBhY2Nlc3NUb2tlbiA9IHJlcXVpcmVWYWx1ZShwYXlsb2FkLmFjY2Vzc1Rva2VuLCAiYWNjZXNzVG9rZW4iKSwKICAgICAgICAgICAgICAgICAgICAgICAgdG9rZW5UeXBlID0gcmVxdWlyZVZhbHVlKHBheWxvYWQudG9rZW5UeXBlLCAidG9rZW5UeXBlIiksCiAgICAgICAgICAgICAgICAgICAgICAgIHNjb3BlID0gcmVxdWlyZVZhbHVlKHBheWxvYWQuc2NvcGUsICJzY29wZSIpLAogICAgICAgICAgICAgICAgICAgICAgICBleHBpcmVzSW4gPSBwYXlsb2FkLmV4cGlyZXNJbiwKICAgICAgICAgICAgICAgICAgICAgICAgcmVmcmVzaFRva2VuID0gcGF5bG9hZC5yZWZyZXNoVG9rZW4sCiAgICAgICAgICAgICAgICAgICAgICAgIHVzZXIgPSByZXF1aXJlVmFsdWUocGF5bG9hZC51c2VyLCAidXNlciIpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBjbGFpbSBHaXRIdWIgT0F1dGggYnJva2VyIHRyYW5zYWN0aW9uIiwgZSkKICAgICAgICAgICAgUmVzdWx0LmZhaWx1cmUoZSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaHR0cEVycm9yTWVzc2FnZShjb2RlOiBJbnQsIG1lc3NhZ2U6IFN0cmluZywgYm9keTogU3RyaW5nPyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGlmIChib2R5LmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAiR2l0SHViIE9BdXRoIGJyb2tlciByZXF1ZXN0IGZhaWxlZDogSFRUUCAkY29kZSAkbWVzc2FnZSIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiR2l0SHViIE9BdXRoIGJyb2tlciByZXF1ZXN0IGZhaWxlZDogSFRUUCAkY29kZSAkYm9keSIKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gPFQ+IHJlcXVpcmVWYWx1ZSh2YWx1ZTogVD8sIG5hbWU6IFN0cmluZyk6IFQgewogICAgICAgIHJldHVybiB2YWx1ZSA/OiB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkdpdEh1YiBPQXV0aCBicm9rZXIgcmVzcG9uc2UgaXMgbWlzc2luZyAkbmFtZSIpCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkdpdEh1Yk9BdXRoQnJva2VyIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEJST0tFUl9CQVNFX1VSTCA9ICJodHRwczovL2FwaS5vcGVyaXQuYXBwIgogICAgICAgIHByaXZhdGUgdmFsIEpTT05fTUVESUFfVFlQRSA9ICJhcHBsaWNhdGlvbi9qc29uIi50b01lZGlhVHlwZSgpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.api
+
+import com.bslsjdk.operit.data.preferences.GitHubUser
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.buildJsonObject
+import kotlinx.serialization.json.put
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+
+@Serializable
+data class GitHubOAuthBrokerStartResponse(
+    val ok: Boolean,
+    val transactionId: String,
+    val deliveryCredential: String,
+    val authorizationUrl: String,
+    val completionRedirectUri: String,
+    val expiresAt: Long
+)
+
+@Serializable
+private data class GitHubOAuthBrokerClaimResponse(
+    val ok: Boolean,
+    val status: String,
+    val accessToken: String? = null,
+    val tokenType: String? = null,
+    val scope: String? = null,
+    val expiresIn: Long? = null,
+    val refreshToken: String? = null,
+    val user: GitHubUser? = null
+)
+
+data class GitHubOAuthBrokerClaimResult(
+    val accessToken: String,
+    val tokenType: String,
+    val scope: String,
+    val expiresIn: Long?,
+    val refreshToken: String?,
+    val user: GitHubUser
+)
+
+class GitHubOAuthBrokerService {
+    private val client = OkHttpClient.Builder()
+        .connectTimeout(30, TimeUnit.SECONDS)
+        .readTimeout(30, TimeUnit.SECONDS)
+        .writeTimeout(30, TimeUnit.SECONDS)
+        .build()
+
+    private val json = Json {
+        ignoreUnknownKeys = true
+        isLenient = true
+    }
+
+    suspend fun startLogin(completionRedirectUri: String): Result<GitHubOAuthBrokerStartResponse> = withContext(Dispatchers.IO) {
+        try {
+            val body = buildJsonObject {
+                put("completionRedirectUri", completionRedirectUri)
+            }.toString().toRequestBody(JSON_MEDIA_TYPE)
+            val request = Request.Builder()
+                .url("$BROKER_BASE_URL/oauth/github/start")
+                .post(body)
+                .build()
+            client.newCall(request).execute().use { response ->
+                val responseBody = response.body?.string()
+                if (!response.isSuccessful || responseBody == null) {
+                    return@withContext Result.failure(
+                        IllegalStateException(httpErrorMessage(response.code, response.message, responseBody))
+                    )
+                }
+                Result.success(json.decodeFromString<GitHubOAuthBrokerStartResponse>(responseBody))
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to start GitHub OAuth broker transaction", e)
+            Result.failure(e)
+        }
+    }
+
+    suspend fun claimLogin(
+        transactionId: String,
+        deliveryCredential: String
+    ): Result<GitHubOAuthBrokerClaimResult> = withContext(Dispatchers.IO) {
+        try {
+            val body = buildJsonObject {
+                put("transactionId", transactionId)
+                put("deliveryCredential", deliveryCredential)
+            }.toString().toRequestBody(JSON_MEDIA_TYPE)
+            val request = Request.Builder()
+                .url("$BROKER_BASE_URL/oauth/github/claim")
+                .post(body)
+                .build()
+            client.newCall(request).execute().use { response ->
+                val responseBody = response.body?.string()
+                if (response.code != 200 || responseBody == null) {
+                    return@withContext Result.failure(
+                        IllegalStateException(httpErrorMessage(response.code, response.message, responseBody))
+                    )
+                }
+                val payload = json.decodeFromString<GitHubOAuthBrokerClaimResponse>(responseBody)
+                if (!payload.ok) {
+                    return@withContext Result.failure(IllegalStateException("GitHub OAuth broker rejected the transaction"))
+                }
+                if (payload.status != "complete") {
+                    return@withContext Result.failure(
+                        IllegalStateException("Unsupported GitHub OAuth broker status: ${payload.status}")
+                    )
+                }
+                Result.success(
+                    GitHubOAuthBrokerClaimResult(
+                        accessToken = requireValue(payload.accessToken, "accessToken"),
+                        tokenType = requireValue(payload.tokenType, "tokenType"),
+                        scope = requireValue(payload.scope, "scope"),
+                        expiresIn = payload.expiresIn,
+                        refreshToken = payload.refreshToken,
+                        user = requireValue(payload.user, "user")
+                    )
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to claim GitHub OAuth broker transaction", e)
+            Result.failure(e)
+        }
+    }
+
+    private fun httpErrorMessage(code: Int, message: String, body: String?): String {
+        return if (body.isNullOrBlank()) {
+            "GitHub OAuth broker request failed: HTTP $code $message"
+        } else {
+            "GitHub OAuth broker request failed: HTTP $code $body"
+        }
+    }
+
+    private fun <T> requireValue(value: T?, name: String): T {
+        return value ?: throw IllegalStateException("GitHub OAuth broker response is missing $name")
+    }
+
+    companion object {
+        private const val TAG = "GitHubOAuthBroker"
+        private const val BROKER_BASE_URL = "https://api.operit.app"
+        private val JSON_MEDIA_TYPE = "application/json".toMediaType()
+    }
+}

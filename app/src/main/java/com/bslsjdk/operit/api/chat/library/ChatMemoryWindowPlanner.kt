@@ -1,1 +1,82 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGlicmFyeQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlCgppbnRlcm5hbCBvYmplY3QgQ2hhdE1lbW9yeVdpbmRvd1BsYW5uZXIgewoKICAgIGNvbnN0IHZhbCBERUZBVUxUX1dJTkRPV19NRVNTQUdFX0NPVU5UID0gMzIKICAgIGNvbnN0IHZhbCBNSU5fV0lORE9XX01FU1NBR0VfQ09VTlQgPSA4CiAgICBjb25zdCB2YWwgTUFYX1dJTkRPV19NRVNTQUdFX0NPVU5UID0gNDgKCiAgICBkYXRhIGNsYXNzIFdpbmRvdygKICAgICAgICB2YWwgbWVzc2FnZXM6IExpc3Q8Q2hhdE1lc3NhZ2U+LAogICAgICAgIHZhbCBzb3VyY2VNZXNzYWdlQ291bnQ6IEludAogICAgKQoKICAgIGZ1biBwbGFuKAogICAgICAgIG1lc3NhZ2VzOiBMaXN0PENoYXRNZXNzYWdlPiwKICAgICAgICB3aW5kb3dNZXNzYWdlQ291bnQ6IEludCwKICAgICAgICB0aW1lU2NvcGU6IENoYXRNZW1vcnlSZWJ1aWxkVGltZVNjb3BlCiAgICApOiBMaXN0PFdpbmRvdz4gewogICAgICAgIHZhbCBib3VuZGVkV2luZG93U2l6ZSA9CiAgICAgICAgICAgIHdpbmRvd01lc3NhZ2VDb3VudC5jb2VyY2VJbihNSU5fV0lORE9XX01FU1NBR0VfQ09VTlQsIE1BWF9XSU5ET1dfTUVTU0FHRV9DT1VOVCkKICAgICAgICB2YWwgc2NvcGVkTWVzc2FnZXMgPQogICAgICAgICAgICB3aGVuICh0aW1lU2NvcGUpIHsKICAgICAgICAgICAgICAgIENoYXRNZW1vcnlSZWJ1aWxkVGltZVNjb3BlLkVudGlyZUNoYXQgLT4gbWVzc2FnZXMKICAgICAgICAgICAgICAgIGlzIENoYXRNZW1vcnlSZWJ1aWxkVGltZVNjb3BlLkluY2x1c2l2ZUxvY2FsUmFuZ2UgLT4KICAgICAgICAgICAgICAgICAgICBtZXNzYWdlcy5maWx0ZXIgeyB0aW1lU2NvcGUuY29udGFpbnMoaXQudGltZXN0YW1wKSB9CiAgICAgICAgICAgIH0KICAgICAgICB2YWwgd2luZG93cyA9IG11dGFibGVMaXN0T2Y8V2luZG93PigpCiAgICAgICAgdmFsIHBlbmRpbmdTb3VyY2VNZXNzYWdlcyA9IG11dGFibGVMaXN0T2Y8Q2hhdE1lc3NhZ2U+KCkKICAgICAgICB2YWwgcGVuZGluZ0NvbnRleHRNZXNzYWdlcyA9IG11dGFibGVMaXN0T2Y8Q2hhdE1lc3NhZ2U+KCkKICAgICAgICB2YXIgY3VycmVudFR1cm5Vc2VyOiBDaGF0TWVzc2FnZT8gPSBudWxsCgogICAgICAgIGZ1biBlbWl0V2luZG93KCkgewogICAgICAgICAgICBpZiAocGVuZGluZ1NvdXJjZU1lc3NhZ2VzLmlzRW1wdHkoKSB8fCBjdXJyZW50VHVyblVzZXIgPT0gbnVsbCkgcmV0dXJuCiAgICAgICAgICAgIHdpbmRvd3MgKz0gV2luZG93KAogICAgICAgICAgICAgICAgbWVzc2FnZXMgPSBwZW5kaW5nQ29udGV4dE1lc3NhZ2VzLnRvTGlzdCgpICsgcGVuZGluZ1NvdXJjZU1lc3NhZ2VzLnRvTGlzdCgpLAogICAgICAgICAgICAgICAgc291cmNlTWVzc2FnZUNvdW50ID0gcGVuZGluZ1NvdXJjZU1lc3NhZ2VzLnNpemUKICAgICAgICAgICAgKQogICAgICAgICAgICBwZW5kaW5nU291cmNlTWVzc2FnZXMuY2xlYXIoKQogICAgICAgICAgICBwZW5kaW5nQ29udGV4dE1lc3NhZ2VzLmNsZWFyKCkKICAgICAgICB9CgogICAgICAgIGZ1biBiZWdpbldpbmRvdyhjb250ZXh0VXNlcjogQ2hhdE1lc3NhZ2U/ID0gbnVsbCkgewogICAgICAgICAgICBjb250ZXh0VXNlcj8ubGV0KHBlbmRpbmdDb250ZXh0TWVzc2FnZXM6OmFkZCkKICAgICAgICB9CgogICAgICAgIHNjb3BlZE1lc3NhZ2VzLnNvcnRlZEJ5IHsgaXQudGltZXN0YW1wIH0uZm9yRWFjaCB7IG1lc3NhZ2UgLT4KICAgICAgICAgICAgd2hlbiAobWVzc2FnZS5zZW5kZXIpIHsKICAgICAgICAgICAgICAgICJ1c2VyIiAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKG1lc3NhZ2UuY29udGVudC5pc0JsYW5rKCkpIHJldHVybkBmb3JFYWNoCiAgICAgICAgICAgICAgICAgICAgaWYgKAogICAgICAgICAgICAgICAgICAgICAgICBwZW5kaW5nU291cmNlTWVzc2FnZXMuaXNOb3RFbXB0eSgpICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwZW5kaW5nU291cmNlTWVzc2FnZXMuc2l6ZSA+PSBib3VuZGVkV2luZG93U2l6ZSAtIDEKICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgZW1pdFdpbmRvdygpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmIChwZW5kaW5nU291cmNlTWVzc2FnZXMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGJlZ2luV2luZG93KCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgY3VycmVudFR1cm5Vc2VyID0gbWVzc2FnZQogICAgICAgICAgICAgICAgICAgIHBlbmRpbmdTb3VyY2VNZXNzYWdlcyArPSBtZXNzYWdlCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgImFpIiwgImFzc2lzdGFudCIgLT4gewogICAgICAgICAgICAgICAgICAgIGlmIChtZXNzYWdlLmNvbnRlbnQuaXNCbGFuaygpKSByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgICAgIHZhbCB0dXJuVXNlciA9IGN1cnJlbnRUdXJuVXNlciA/OiByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgICAgIGlmIChwZW5kaW5nU291cmNlTWVzc2FnZXMuc2l6ZSA+PSBib3VuZGVkV2luZG93U2l6ZSkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyBBIGdyb3VwIGNoYXQgY2FuIGhhdmUgbW9yZSBhc3Npc3RhbnQgcmVwbGllcyB0aGFuIHRoZSBzZWxlY3RlZCB3aW5kb3cKICAgICAgICAgICAgICAgICAgICAgICAgLy8gc2l6ZS4gUmVwZWF0IG9ubHkgdGhlIHByb21wdGluZyB1c2VyIHR1cm4gYXMgY29udGV4dCBmb3IgdGhlIG5leHQKICAgICAgICAgICAgICAgICAgICAgICAgLy8gc2xpY2Ugc28gZXZlcnkgcmVxdWVzdCByZW1haW5zIGJvdW5kZWQgYW5kIGV2ZXJ5IHJlcGx5IGlzIHJldGFpbmVkLgogICAgICAgICAgICAgICAgICAgICAgICBlbWl0V2luZG93KCkKICAgICAgICAgICAgICAgICAgICAgICAgYmVnaW5XaW5kb3coY29udGV4dFVzZXIgPSB0dXJuVXNlcikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcGVuZGluZ1NvdXJjZU1lc3NhZ2VzICs9IG1lc3NhZ2UKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBlbWl0V2luZG93KCkKICAgICAgICByZXR1cm4gd2luZG93cwogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.library
+
+import com.bslsjdk.operit.data.model.ChatMessage
+
+internal object ChatMemoryWindowPlanner {
+
+    const val DEFAULT_WINDOW_MESSAGE_COUNT = 32
+    const val MIN_WINDOW_MESSAGE_COUNT = 8
+    const val MAX_WINDOW_MESSAGE_COUNT = 48
+
+    data class Window(
+        val messages: List<ChatMessage>,
+        val sourceMessageCount: Int
+    )
+
+    fun plan(
+        messages: List<ChatMessage>,
+        windowMessageCount: Int,
+        timeScope: ChatMemoryRebuildTimeScope
+    ): List<Window> {
+        val boundedWindowSize =
+            windowMessageCount.coerceIn(MIN_WINDOW_MESSAGE_COUNT, MAX_WINDOW_MESSAGE_COUNT)
+        val scopedMessages =
+            when (timeScope) {
+                ChatMemoryRebuildTimeScope.EntireChat -> messages
+                is ChatMemoryRebuildTimeScope.InclusiveLocalRange ->
+                    messages.filter { timeScope.contains(it.timestamp) }
+            }
+        val windows = mutableListOf<Window>()
+        val pendingSourceMessages = mutableListOf<ChatMessage>()
+        val pendingContextMessages = mutableListOf<ChatMessage>()
+        var currentTurnUser: ChatMessage? = null
+
+        fun emitWindow() {
+            if (pendingSourceMessages.isEmpty() || currentTurnUser == null) return
+            windows += Window(
+                messages = pendingContextMessages.toList() + pendingSourceMessages.toList(),
+                sourceMessageCount = pendingSourceMessages.size
+            )
+            pendingSourceMessages.clear()
+            pendingContextMessages.clear()
+        }
+
+        fun beginWindow(contextUser: ChatMessage? = null) {
+            contextUser?.let(pendingContextMessages::add)
+        }
+
+        scopedMessages.sortedBy { it.timestamp }.forEach { message ->
+            when (message.sender) {
+                "user" -> {
+                    if (message.content.isBlank()) return@forEach
+                    if (
+                        pendingSourceMessages.isNotEmpty() &&
+                            pendingSourceMessages.size >= boundedWindowSize - 1
+                    ) {
+                        emitWindow()
+                    }
+                    if (pendingSourceMessages.isEmpty()) {
+                        beginWindow()
+                    }
+                    currentTurnUser = message
+                    pendingSourceMessages += message
+                }
+
+                "ai", "assistant" -> {
+                    if (message.content.isBlank()) return@forEach
+                    val turnUser = currentTurnUser ?: return@forEach
+                    if (pendingSourceMessages.size >= boundedWindowSize) {
+                        // A group chat can have more assistant replies than the selected window
+                        // size. Repeat only the prompting user turn as context for the next
+                        // slice so every request remains bounded and every reply is retained.
+                        emitWindow()
+                        beginWindow(contextUser = turnUser)
+                    }
+                    pendingSourceMessages += message
+                }
+            }
+        }
+        emitWindow()
+        return windows
+    }
+}

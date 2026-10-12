@@ -1,1 +1,120 @@
-LyoKICogQ29weXJpZ2h0IDIwMjEgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uSW50UmFuZ2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuU3RhYmxlCgovKioKICogUHJvdmlkZXMgYWxsIHRoZSBuZWVkZWQgaW5mbyBhYm91dCB0aGUgaXRlbXMgd2hpY2ggY291bGQgYmUgbGF0ZXIgY29tcG9zZWQgYW5kIGRpc3BsYXllZCBhcwogKiBjaGlsZHJlbiBvciBbTGF6eUxheW91dF0uIFRoZSBudW1iZXIgb2YgdmlydHVhbCBpdGVtcyBpcyBsaW1pdGVkIGJ5CiAqIFtMYXp5TGF5b3V0SXRlbVByb3ZpZGVyLml0ZW1Db3VudF0uIEZvciBhbiBlZmZpY2llbnQgaW1wbGVtZW50YXRpb24gdGhpcyBzaG91bGQgYmUgYW4gaW1tdXRhYmxlCiAqIHJlcHJlc2VudGF0aW9uIG9mIHRoZSB1bmRlcmx5aW5nIGRhdGEvaXRlbXMsIGlkZWFsbHkgY2hhbmdlcyB0byB5b3VyIGRhdGEgc291cmNlL3N0cnVjdHVyZSBzaG91bGQKICogcmUtY3JlYXRlIHRoaXMgcmVwcmVzZW50YXRpb24sIGluc3RlYWQgb2YgY2hhbmdpbmcgc3RhdGUgdmFsdWVzIHJlYWQgaW5zaWRlIHRoaXMgaW1wbGVtZW50YXRpb24uCiAqIFNlZSBbTGF6eUxheW91dF0gZm9yIGFkZGl0aW9uYWwgY29udGV4dC4KICoKICogQHNhbXBsZSBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2FtcGxlcy5MYXp5TGF5b3V0SXRlbVByb3ZpZGVyU2FtcGxlCiAqLwpAU3RhYmxlCmludGVyZmFjZSBMYXp5TGF5b3V0SXRlbVByb3ZpZGVyIHsKCiAgICAvKiogVGhlIHRvdGFsIG51bWJlciBvZiBpdGVtcyBpbiB0aGUgbGF6eSBsYXlvdXQgKHZpc2libGUgb3Igbm90KS4gKi8KICAgIEBnZXQ6SW50UmFuZ2UoZnJvbSA9IDApIHZhbCBpdGVtQ291bnQ6IEludAoKICAgIC8qKgogICAgICogVGhlIGl0ZW0gZm9yIHRoZSBnaXZlbiBbaW5kZXhdIGFuZCBba2V5XS4gSW5kaWNlcyBhcmUgYSBjb3JlIGNvbmNlcHQgb24gTGF6eUxheW91dHMgYW5kCiAgICAgKiBzaG91bGQgYWx3YXlzIGJlIHN1cHBvcnRlZCwgdGhlIGtleSBpcyBhbiBhZGRpdGlvbmFsIGNvbmNlcHQgdGhhdCBjYW4gYmUgaW50cm9kdWNlZCBwZXIgaXRlbQogICAgICogYW5kIGlzIHVzZWQgdG8gZ3VhcmFudGVlZCB0aGUgdW5pcXVlbmVzcyBvZiBhIGdpdmVuIGl0ZW0gaW4gdGhlIExhenkgTGF5b3V0IGltcGxlbWVudGF0aW9uLgogICAgICogRm9yIGluc3RhbmNlLCBpbiBsaXN0cywga2V5cyBhcmUgdXNlZCB0byBrZWVwIGFuIGl0ZW0ncyBzY3JvbGwgcG9zaXRpb24gaW4gY2FzZSBvZiBkYXRhc2V0CiAgICAgKiBjaGFuZ2VzLiBUaGVyZWZvcmUsIHRoZSBrZXkgcHJvdmlkZWQgaGVyZSB3aWxsIGRlcGVuZCBpZiB5b3VyIExhenlMYXlvdXQgaW1wbGVtZW50YXRpb24KICAgICAqIHN1cHBvcnRzIHRoaXMgY29uY2VwdCBvciBub3QuCiAgICAgKgogICAgICogQ3VzdG9tIGtleXMgYXJlIHByb3ZpZGVkIGluIHRoZSBbZ2V0S2V5XSBmdW5jdGlvbi4gSWYgYSBrZXkgY29uY2VwdCBpcyBub3QgbmVlZGVkIGJ5IHlvdXIKICAgICAqIExhenlMYXlvdXQgaW1wbGVtZW50YXRpb24gKFtnZXRLZXldIGlzIG5vdCBvdmVycmlkZGVuKSwgdGhlIGludGVybmFsIGltcGxlbWVudGF0aW9uIHdpbGwKICAgICAqIHNpbXBseSB1c2UgW2dldERlZmF1bHRMYXp5TGF5b3V0S2V5XSB0byBpbXBsZW1lbnQgYSBrZXkgYmFzZWQgb24gYW4gaXRlbSdzIGluZGV4LgogICAgICoKICAgICAqIEl0IGlzIHRoZSByZXNwb25zaWJpbGl0eSBvZiB0aGUgaW1wbGVtZW50YXRpb24gdG8gZW5zdXJlIGNvbnNpc3RlbmN5IGJldHdlZW4ga2V5cyBhbmQgaW5kaWNlcwogICAgICogaWYgY3VzdG9tIGtleXMgYXJlIHByb3ZpZGVkLCBzaW5jZSBib3RoIHRoZSBjYWxsZXIgYW5kIHRoZSBpbXBsZW1lbnRlciBvZiB0aGlzIGZ1bmN0aW9uIGFyZQogICAgICogdGhlIHNhbWUsIGEgY29udHJhY3QgY2FuIGJlIGVzdGFibGlzaGVkIHRvIGVuc3VyZSB0aGUgY29uc2lzdGVuY3kuCiAgICAgKgogICAgICogQHBhcmFtIGluZGV4IHRoZSBpbmRleCBvZiB0aGUgaXRlbSBpbiB0aGUgbGlzdAogICAgICogQHBhcmFtIGtleSBUaGUga2V5IG9mIHRoZSBpdGVtIGFzIGRlc2NyaWJlZCBhYm92ZS4KICAgICAqLwogICAgQENvbXBvc2FibGUgZnVuIEl0ZW0oQEludFJhbmdlKGZyb20gPSAwKSBpbmRleDogSW50LCBrZXk6IEFueSkKCiAgICAvKioKICAgICAqIFJldHVybnMgdGhlIGNvbnRlbnQgdHlwZSBmb3IgdGhlIGl0ZW0gb24gdGhpcyBpbmRleC4gSXQgaXMgdXNlZCB0byBpbXByb3ZlIHRoZSBpdGVtCiAgICAgKiBjb21wb3NpdGlvbnMgcmV1c2luZyBlZmZpY2llbmN5LiBOb3RlIHRoYXQgbnVsbCBpcyBhIHZhbGlkIHR5cGUgYW5kIGl0ZW1zIG9mIHN1Y2ggdHlwZSB3aWxsCiAgICAgKiBiZSBjb25zaWRlcmVkIGNvbXBhdGlibGUuCiAgICAgKgogICAgICogQHBhcmFtIGluZGV4IHRoZSBpbmRleCBvZiBhbiBpdGVtIGluIHRoZSBsYXlvdXQuCiAgICAgKiBAcmV0dXJuIFRoZSBjb250ZW50IHR5cGUgbWFwcGVkIGZyb20gW2luZGV4XS4KICAgICAqLwogICAgZnVuIGdldENvbnRlbnRUeXBlKEBJbnRSYW5nZShmcm9tID0gMCkgaW5kZXg6IEludCk6IEFueT8gPSBudWxsCgogICAgLyoqCiAgICAgKiBSZXR1cm5zIHRoZSBrZXkgZm9yIHRoZSBpdGVtIG9uIHRoaXMgaW5kZXguCiAgICAgKgogICAgICogQHBhcmFtIGluZGV4IHRoZSBpbmRleCBvZiBhbiBpdGVtIGluIHRoZSBsYXlvdXQuCiAgICAgKiBAcmV0dXJuIFRoZSBrZXkgbWFwcGVkIGZyb20gW2luZGV4XS4KICAgICAqIEBzZWUgZ2V0RGVmYXVsdExhenlMYXlvdXRLZXkgd2hpY2ggeW91IGNhbiB1c2UgaWYgdGhlIHVzZXIgZGlkbid0IHByb3ZpZGUgYSBrZXkuCiAgICAgKi8KICAgIGZ1biBnZXRLZXkoQEludFJhbmdlKGZyb20gPSAwKSBpbmRleDogSW50KTogQW55ID0gZ2V0RGVmYXVsdExhenlMYXlvdXRLZXkoaW5kZXgpCgogICAgLyoqCiAgICAgKiBHZXQgaW5kZXggZm9yIGdpdmVuIGtleS4gVGhlIGluZGV4IGlzIG5vdCBndWFyYW50ZWVkIHRvIGJlIGtub3duIGZvciBhbGwga2V5cyBpbiBsYXlvdXQgZm9yCiAgICAgKiBvcHRpbWl6YXRpb24gcHVycG9zZXMsIGJ1dCBtdXN0IGJlIHByZXNlbnQgZm9yIGVsZW1lbnRzIGluIGN1cnJlbnQgdmlld3BvcnQuIElmIHRoZSBrZXkgaXMKICAgICAqIG5vdCBwcmVzZW50IGluIHRoZSBsYXlvdXQgb3IgaXMgbm90IGtub3duLCByZXR1cm4gLTEuCiAgICAgKgogICAgICogQHBhcmFtIGtleSB0aGUga2V5IG9mIGFuIGl0ZW0gaW4gdGhlIGxheW91dC4KICAgICAqIEByZXR1cm4gVGhlIGluZGV4IG1hcHBlZCBmcm9tIFtrZXldIGlmIGl0IGlzIHByZXNlbnQgaW4gdGhlIGxheW91dCwgb3RoZXJ3aXNlIC0xLgogICAgICovCiAgICBmdW4gZ2V0SW5kZXgoa2V5OiBBbnkpOiBJbnQgPSAtMQp9CgovKioKICogRmluZHMgYSBwb3NpdGlvbiBvZiB0aGUgaXRlbSB3aXRoIHRoZSBnaXZlbiBrZXkgaW4gdGhlIGxpc3RzLiBUaGlzIGxvZ2ljIGFsbG93cyB1cyB0byBkZXRlY3Qgd2hlbgogKiB0aGVyZSB3ZXJlIGl0ZW1zIGFkZGVkIG9yIHJlbW92ZWQgYmVmb3JlIG91ciBjdXJyZW50IGZpcnN0IGl0ZW0uCiAqLwppbnRlcm5hbCBmdW4gTGF6eUxheW91dEl0ZW1Qcm92aWRlci5maW5kSW5kZXhCeUtleShrZXk6IEFueT8sIGxhc3RLbm93bkluZGV4OiBJbnQpOiBJbnQgewogICAgaWYgKGtleSA9PSBudWxsIHx8IGl0ZW1Db3VudCA9PSAwKSB7CiAgICAgICAgLy8gdGhlcmUgd2VyZSBubyByZWFsIGl0ZW0gZHVyaW5nIHRoZSBwcmV2aW91cyBtZWFzdXJlCiAgICAgICAgcmV0dXJuIGxhc3RLbm93bkluZGV4CiAgICB9CiAgICBpZiAobGFzdEtub3duSW5kZXggPCBpdGVtQ291bnQgJiYga2V5ID09IGdldEtleShsYXN0S25vd25JbmRleCkpIHsKICAgICAgICAvLyB0aGlzIGl0ZW0gaXMgc3RpbGwgYXQgdGhlIHNhbWUgaW5kZXgKICAgICAgICByZXR1cm4gbGFzdEtub3duSW5kZXgKICAgIH0KICAgIHZhbCBuZXdJbmRleCA9IGdldEluZGV4KGtleSkKICAgIGlmIChuZXdJbmRleCAhPSAtMSkgewogICAgICAgIHJldHVybiBuZXdJbmRleAogICAgfQogICAgLy8gZmFsbGJhY2sgdG8gdGhlIHByZXZpb3VzIGluZGV4IGlmIHdlIGRvbid0IGtub3cgdGhlIG5ldyBpbmRleCBvZiB0aGUgaXRlbQogICAgcmV0dXJuIGxhc3RLbm93bkluZGV4Cn0KCi8qKgogKiBUaGlzIGNyZWF0ZXMgYW4gb2JqZWN0IG1lZXRpbmcgZm9sbG93aW5nIHJlcXVpcmVtZW50czoKICogMSkgT2JqZWN0cyBjcmVhdGVkIGZvciB0aGUgc2FtZSBpbmRleCBhcmUgZXF1YWxzIGFuZCBuZXZlciBlcXVhbHMgZm9yIGRpZmZlcmVudCBpbmRleGVzLgogKiAyKSBUaGlzIGNsYXNzIGlzIHNhdmVhYmxlIHZpYSBhIGRlZmF1bHQgU2F2ZWFibGVTdGF0ZVJlZ2lzdHJ5IG9uIHRoZSBwbGF0Zm9ybS4KICogMykgVGhpcyBvYmplY3RzIGNhbid0IGJlIGVxdWFscyB0byBhbnkgb2JqZWN0IHdoaWNoIGNvdWxkIGJlIHByb3ZpZGVkIGJ5IGEgdXNlciBhcyBhIGN1c3RvbSBrZXkuCiAqCiAqIE5vdGU6IHRoaXMgZnVuY3Rpb24gaXMgYSBwYXJ0IG9mIFtMYXp5TGF5b3V0XSBoYXJuZXNzIHRoYXQgYWxsb3dzIGZvciBidWlsZGluZyBjdXN0b20gbGF6eQogKiBsYXlvdXRzLiBMYXp5TGF5b3V0IGFuZCBhbGwgY29ycmVzcG9uZGluZyBBUElzIGFyZSBzdGlsbCB1bmRlciBkZXZlbG9wbWVudCBhbmQgYXJlIHN1YmplY3QgdG8KICogY2hhbmdlLgogKi8K
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.annotation.IntRange
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.Stable
+
+/**
+ * Provides all the needed info about the items which could be later composed and displayed as
+ * children or [LazyLayout]. The number of virtual items is limited by
+ * [LazyLayoutItemProvider.itemCount]. For an efficient implementation this should be an immutable
+ * representation of the underlying data/items, ideally changes to your data source/structure should
+ * re-create this representation, instead of changing state values read inside this implementation.
+ * See [LazyLayout] for additional context.
+ *
+ * @sample androidx.compose.foundation.samples.LazyLayoutItemProviderSample
+ */
+@Stable
+interface LazyLayoutItemProvider {
+
+    /** The total number of items in the lazy layout (visible or not). */
+    @get:IntRange(from = 0) val itemCount: Int
+
+    /**
+     * The item for the given [index] and [key]. Indices are a core concept on LazyLayouts and
+     * should always be supported, the key is an additional concept that can be introduced per item
+     * and is used to guaranteed the uniqueness of a given item in the Lazy Layout implementation.
+     * For instance, in lists, keys are used to keep an item's scroll position in case of dataset
+     * changes. Therefore, the key provided here will depend if your LazyLayout implementation
+     * supports this concept or not.
+     *
+     * Custom keys are provided in the [getKey] function. If a key concept is not needed by your
+     * LazyLayout implementation ([getKey] is not overridden), the internal implementation will
+     * simply use [getDefaultLazyLayoutKey] to implement a key based on an item's index.
+     *
+     * It is the responsibility of the implementation to ensure consistency between keys and indices
+     * if custom keys are provided, since both the caller and the implementer of this function are
+     * the same, a contract can be established to ensure the consistency.
+     *
+     * @param index the index of the item in the list
+     * @param key The key of the item as described above.
+     */
+    @Composable fun Item(@IntRange(from = 0) index: Int, key: Any)
+
+    /**
+     * Returns the content type for the item on this index. It is used to improve the item
+     * compositions reusing efficiency. Note that null is a valid type and items of such type will
+     * be considered compatible.
+     *
+     * @param index the index of an item in the layout.
+     * @return The content type mapped from [index].
+     */
+    fun getContentType(@IntRange(from = 0) index: Int): Any? = null
+
+    /**
+     * Returns the key for the item on this index.
+     *
+     * @param index the index of an item in the layout.
+     * @return The key mapped from [index].
+     * @see getDefaultLazyLayoutKey which you can use if the user didn't provide a key.
+     */
+    fun getKey(@IntRange(from = 0) index: Int): Any = getDefaultLazyLayoutKey(index)
+
+    /**
+     * Get index for given key. The index is not guaranteed to be known for all keys in layout for
+     * optimization purposes, but must be present for elements in current viewport. If the key is
+     * not present in the layout or is not known, return -1.
+     *
+     * @param key the key of an item in the layout.
+     * @return The index mapped from [key] if it is present in the layout, otherwise -1.
+     */
+    fun getIndex(key: Any): Int = -1
+}
+
+/**
+ * Finds a position of the item with the given key in the lists. This logic allows us to detect when
+ * there were items added or removed before our current first item.
+ */
+internal fun LazyLayoutItemProvider.findIndexByKey(key: Any?, lastKnownIndex: Int): Int {
+    if (key == null || itemCount == 0) {
+        // there were no real item during the previous measure
+        return lastKnownIndex
+    }
+    if (lastKnownIndex < itemCount && key == getKey(lastKnownIndex)) {
+        // this item is still at the same index
+        return lastKnownIndex
+    }
+    val newIndex = getIndex(key)
+    if (newIndex != -1) {
+        return newIndex
+    }
+    // fallback to the previous index if we don't know the new index of the item
+    return lastKnownIndex
+}
+
+/**
+ * This creates an object meeting following requirements:
+ * 1) Objects created for the same index are equals and never equals for different indexes.
+ * 2) This class is saveable via a default SaveableStateRegistry on the platform.
+ * 3) This objects can't be equals to any object which could be provided by a user as a custom key.
+ *
+ * Note: this function is a part of [LazyLayout] harness that allows for building custom lazy
+ * layouts. LazyLayout and all corresponding APIs are still under development and are subject to
+ * change.
+ */

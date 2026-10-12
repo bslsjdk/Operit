@@ -1,1 +1,136 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGphdmEudGltZS5JbnN0YW50CmltcG9ydCBqYXZhLnRpbWUuWm9uZUlkCmltcG9ydCBqYXZhLnRpbWUuWm9uZWREYXRlVGltZQoKLyoqCiAqIOaXtumXtOiMg+WbtO+8jCoq5Y2K5byA5Yy66Ze0KiogYFtzdGFydE1zLCBlbmRNcylg77yaYHN0YXJ0ZWRBdE1zID09IGVuZE1zYCDnmoTkuovku7YKICog5LiN5bGe5LqO6K+l6IyD5Zu077ybZW5kTXMg5piv5LiL5LiA6L6555WM77yI5aaC5qyh5pelIDAg54K577yJ77yM5LiN5piv5YyF5ZCr5byP57uI54K544CCCiAqLwpkYXRhIGNsYXNzIFRva2VuU3RhdHNUaW1lUmFuZ2UodmFsIHN0YXJ0TXM6IExvbmcsIHZhbCBlbmRNczogTG9uZykgewogICAgaW5pdCB7CiAgICAgICAgcmVxdWlyZShlbmRNcyA+IHN0YXJ0TXMpIHsgImVuZE1zIG11c3QgYmUgYWZ0ZXIgc3RhcnRNcyIgfQogICAgfQoKICAgIHZhbCBkdXJhdGlvbk1zOiBMb25nCiAgICAgICAgZ2V0KCkgPSBlbmRNcyAtIHN0YXJ0TXMKfQoKLyoqIOWbvuihqOahtueykuW6pu+8mjEwIOWIhumSnyAvIDEg5bCP5pe2IC8gMSDoh6rnhLbml6XvvIjmnKzlnLDml7bljLrlr7npvZDvvInjgIIgKi8KZW51bSBjbGFzcyBUb2tlblN0YXRzR3JhbnVsYXJpdHkgewogICAgVEVOX01JTlVURVMsCiAgICBIT1VSTFksCiAgICBEQUlMWSwKfQoKLyoqCiAqIOaXpeWOhuiMg+WbtOeahOWbvuihqOahtuWvuem9kOiuoeeul+OAggogKgogKiDmobbovrnnlYzlnKgqKuacrOWcsOaXtumXtCoq5LiK5a+56b2Q77yIMTAg5YiG6ZKf5pW054K544CB5pW054K55bCP5pe244CB6Ieq54S25pelIDAg54K577yJ77yM5bm255SoCiAqIGphdmEudGltZSDnmoQgcGx1c01pbnV0ZXMvcGx1c0hvdXJzL3BsdXNEYXlzIOWcqOacrOWcsOaXtuWMuuS4iuaOqOi/m++8mui3qCBEU1Qg55qECiAqIOWwj+aXti/ml6Xmobboh6rliqjlvpfliLAgMjMvMjUg5bCP5pe255qE5q2j56GuIGVwb2NoIOi3qOW6pu+8jOS4lOebuOmCu+ahtui1t+eCueWNleiwg+mAkuWinuOAgQogKiDopobnm5bml6DnqbrmtJ7vvIjlpI/ku6Tml7bph43lpI3nmoTlsI/ml7bkuZ/kvJrlh7rnjrDkuKTkuKrkuI3lkIwgZXBvY2gg55qE5qG277yJ44CCCiAqLwpvYmplY3QgVG9rZW5TdGF0c1RpbWVSYW5nZXMgewoKICAgIGNvbnN0IHZhbCBURU5fTUlOVVRFU19NUzogTG9uZyA9IDEwICogNjAgKiAxMDAwTAogICAgY29uc3QgdmFsIEhPVVJfTVM6IExvbmcgPSA2MCAqIDYwICogMTAwMEwKICAgIGNvbnN0IHZhbCBEQVlfTVM6IExvbmcgPSAyNCAqIEhPVVJfTVMKCiAgICAvKiog6Ziy5b6h77ya6Ieq5a6a5LmJ6IyD5Zu06L+H5aSn5pe26ZmQ5Yi25qG25pWw6YeP77yM6YG/5YWN55eF5oCB6L6T5YWl5ouW5Z6u5YaF5a2YL1VJ44CCICovCiAgICBwcml2YXRlIGNvbnN0IHZhbCBNQVhfQlVDS0VUUyA9IDEwXzAwMAoKICAgIC8qKiDml6XljobpgInmi6nlmajmj5DkvpvmmL7lvI/ovrnnlYzvvIzlp4vnu4jkvb/nlKjljYrlvIDljLrpl7QgYFtzdGFydE1zLCBlbmRNcylg44CCICovCiAgICBmdW4gY3VzdG9tUmFuZ2Uoc3RhcnRNczogTG9uZywgZW5kTXM6IExvbmcpOiBUb2tlblN0YXRzVGltZVJhbmdlID0KICAgICAgICBUb2tlblN0YXRzVGltZVJhbmdlKHN0YXJ0TXMsIGVuZE1zKQoKICAgIC8qKgogICAgICog5oyJ6IyD5Zu05pe26ZW/6YCJ5oup5ZCI55CG5qG257KS5bqm77ya4omkMTJoIOKGkiAxMCDliIbpkp/vvJviiaQ0OGgg4oaSIDEg5bCP5pe277ybCiAgICAgKiDmm7Tplb/ml7bpl7TvvIg3ZC8zMGQv5pyI77yJ4oaSIDEg6Ieq54S25pel44CC6Ieq5a6a5LmJ6IyD5Zu05ZCM5qC36YCC55So44CCCiAgICAgKi8KICAgIGZ1biBncmFudWxhcml0eUZvcihyYW5nZTogVG9rZW5TdGF0c1RpbWVSYW5nZSk6IFRva2VuU3RhdHNHcmFudWxhcml0eSA9CiAgICAgICAgd2hlbiB7CiAgICAgICAgICAgIHJhbmdlLmR1cmF0aW9uTXMgPD0gMTJMICogSE9VUl9NUyAtPiBUb2tlblN0YXRzR3JhbnVsYXJpdHkuVEVOX01JTlVURVMKICAgICAgICAgICAgcmFuZ2UuZHVyYXRpb25NcyA8PSAyTCAqIERBWV9NUyAtPiBUb2tlblN0YXRzR3JhbnVsYXJpdHkuSE9VUkxZCiAgICAgICAgICAgIGVsc2UgLT4gVG9rZW5TdGF0c0dyYW51bGFyaXR5LkRBSUxZCiAgICAgICAgfQoKICAgIC8qKgogICAgICog6KaG55uWIFtyYW5nZV0g55qE5qG26LW354K55YiX6KGo77yI5pys5Zyw5pe26Ze05a+56b2Q77yM5Y2H5bqP44CB5LiN55u45Lqk77yJ44CCCiAgICAgKiDmnIDlkI7kuIDkuKrmobbnmoTnu4jngrnmmK/ml6Xljoblr7npvZDnmoTkuIvkuIDkuKrmobbotbfngrnvvIzlj6/og73otoXlh7ogcmFuZ2UuZW5kTXPvvJsKICAgICAqIOS6i+S7tuW9kuWxnuaMiSBgW+ahtui1t+eCuSwg5LiL5Liq5qG26LW354K5KWAg5Yik5a6a77yM6JC95Zyo6IyD5Zu05YaF55qE5q+P5Liq5LqL5Lu25oGw5aW95bGe5LqO5LiA5Liq5qG244CCCiAgICAgKi8KICAgIGZ1biBidWNrZXRTdGFydHMoCiAgICAgICAgcmFuZ2U6IFRva2VuU3RhdHNUaW1lUmFuZ2UsCiAgICAgICAgZ3JhbnVsYXJpdHk6IFRva2VuU3RhdHNHcmFudWxhcml0eSwKICAgICAgICB6b25lOiBab25lSWQsCiAgICApOiBMaXN0PExvbmc+IHsKICAgICAgICB2YWwgZmlyc3QgPSB0cnVuY2F0ZVRvQnVja2V0KEluc3RhbnQub2ZFcG9jaE1pbGxpKHJhbmdlLnN0YXJ0TXMpLmF0Wm9uZSh6b25lKSwgZ3JhbnVsYXJpdHkpCiAgICAgICAgdmFsIHN0YXJ0cyA9IEFycmF5TGlzdDxMb25nPigpCiAgICAgICAgdmFyIGN1cnJlbnQgPSBmaXJzdAogICAgICAgIHdoaWxlIChjdXJyZW50LnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpIDwgcmFuZ2UuZW5kTXMpIHsKICAgICAgICAgICAgc3RhcnRzICs9IGN1cnJlbnQudG9JbnN0YW50KCkudG9FcG9jaE1pbGxpKCkKICAgICAgICAgICAgY3VycmVudCA9IGFkdmFuY2VCdWNrZXQoY3VycmVudCwgZ3JhbnVsYXJpdHkpCiAgICAgICAgICAgIGlmIChzdGFydHMuc2l6ZSA+IE1BWF9CVUNLRVRTKSB7CiAgICAgICAgICAgICAgICBlcnJvcigKICAgICAgICAgICAgICAgICAgICAicmFuZ2UgdG9vIGxhcmdlIGZvciAkZ3JhbnVsYXJpdHkgZ3JhbnVsYXJpdHkgIiArCiAgICAgICAgICAgICAgICAgICAgICAgICIoYnVja2V0IGNvdW50IHdvdWxkIGV4Y2VlZCAkTUFYX0JVQ0tFVFMpIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBzdGFydHMKICAgIH0KCiAgICAvKiog5qG2IFtpbmRleF0g55qE57uT5p2f5pe26Ze077ya5pys5Zyw5a+56b2Q55qE5LiL5LiA5Liq5qG26LW354K577yI5pel5Y6G5o6o6L+b77yM6Z2e5Zu65a6a5q+r56eS77yJ44CCICovCiAgICBmdW4gYnVja2V0RW5kTXMoCiAgICAgICAgYnVja2V0U3RhcnRzOiBMaXN0PExvbmc+LAogICAgICAgIGluZGV4OiBJbnQsCiAgICAgICAgZ3JhbnVsYXJpdHk6IFRva2VuU3RhdHNHcmFudWxhcml0eSwKICAgICAgICB6b25lOiBab25lSWQsCiAgICApOiBMb25nIHsKICAgICAgICBpZiAoaW5kZXggKyAxIDwgYnVja2V0U3RhcnRzLnNpemUpIHJldHVybiBidWNrZXRTdGFydHNbaW5kZXggKyAxXQogICAgICAgIHZhbCBsYXN0ID0gSW5zdGFudC5vZkVwb2NoTWlsbGkoYnVja2V0U3RhcnRzW2luZGV4XSkuYXRab25lKHpvbmUpCiAgICAgICAgcmV0dXJuIGFkdmFuY2VCdWNrZXQobGFzdCwgZ3JhbnVsYXJpdHkpLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpCiAgICB9CgogICAgLyoqCiAgICAgKiDkuovku7bml7bpl7TmiLPmiYDlsZ7nmoTmobbkuIvmoIfvvIjmobbotbfngrnliJfooajljYfluo/vvInjgIJ0cyDokL3lnKgKICAgICAqIGBb56ys5LiA5Liq5qG26LW354K5LCDmnIDlkI7kuIDkuKrmobbnu4jngrkpYCDkuYvlpJbov5Tlm54gbnVsbO+8iOmYsuW+oe+8jOato+W4uOi+k+WFpeS4jeinpuWPke+8ieOAggogICAgICovCiAgICBmdW4gYnVja2V0SW5kZXhPZigKICAgICAgICB0czogTG9uZywKICAgICAgICBidWNrZXRTdGFydHM6IExpc3Q8TG9uZz4sCiAgICAgICAgZ3JhbnVsYXJpdHk6IFRva2VuU3RhdHNHcmFudWxhcml0eSwKICAgICAgICB6b25lOiBab25lSWQsCiAgICApOiBJbnQ/IHsKICAgICAgICB2YXIgZmxvb3IgPSBidWNrZXRTdGFydHMuYmluYXJ5U2VhcmNoKHRzKQogICAgICAgIGlmIChmbG9vciA8IDApIGZsb29yID0gLWZsb29yIC0gMgogICAgICAgIGlmIChmbG9vciA8IDApIHJldHVybiBudWxsCiAgICAgICAgaWYgKGJ1Y2tldEVuZE1zKGJ1Y2tldFN0YXJ0cywgZmxvb3IsIGdyYW51bGFyaXR5LCB6b25lKSA8PSB0cykgcmV0dXJuIG51bGwKICAgICAgICByZXR1cm4gZmxvb3IKICAgIH0KCiAgICBwcml2YXRlIGZ1biB0cnVuY2F0ZVRvQnVja2V0KAogICAgICAgIHpkdDogWm9uZWREYXRlVGltZSwKICAgICAgICBncmFudWxhcml0eTogVG9rZW5TdGF0c0dyYW51bGFyaXR5LAogICAgKTogWm9uZWREYXRlVGltZSA9CiAgICAgICAgd2hlbiAoZ3JhbnVsYXJpdHkpIHsKICAgICAgICAgICAgVG9rZW5TdGF0c0dyYW51bGFyaXR5LlRFTl9NSU5VVEVTIC0+CiAgICAgICAgICAgICAgICB6ZHQud2l0aE1pbnV0ZSh6ZHQubWludXRlIC8gMTAgKiAxMCkud2l0aFNlY29uZCgwKS53aXRoTmFubygwKQogICAgICAgICAgICBUb2tlblN0YXRzR3JhbnVsYXJpdHkuSE9VUkxZIC0+CiAgICAgICAgICAgICAgICB6ZHQud2l0aE1pbnV0ZSgwKS53aXRoU2Vjb25kKDApLndpdGhOYW5vKDApCiAgICAgICAgICAgIFRva2VuU3RhdHNHcmFudWxhcml0eS5EQUlMWSAtPgogICAgICAgICAgICAgICAgemR0LnRvTG9jYWxEYXRlKCkuYXRTdGFydE9mRGF5KHpkdC56b25lKQogICAgICAgIH0KCiAgICBwcml2YXRlIGZ1biBhZHZhbmNlQnVja2V0KAogICAgICAgIHpkdDogWm9uZWREYXRlVGltZSwKICAgICAgICBncmFudWxhcml0eTogVG9rZW5TdGF0c0dyYW51bGFyaXR5LAogICAgKTogWm9uZWREYXRlVGltZSA9CiAgICAgICAgd2hlbiAoZ3JhbnVsYXJpdHkpIHsKICAgICAgICAgICAgVG9rZW5TdGF0c0dyYW51bGFyaXR5LlRFTl9NSU5VVEVTIC0+IHpkdC5wbHVzTWludXRlcygxMCkKICAgICAgICAgICAgVG9rZW5TdGF0c0dyYW51bGFyaXR5LkhPVVJMWSAtPiB6ZHQucGx1c0hvdXJzKDEpCiAgICAgICAgICAgIFRva2VuU3RhdHNHcmFudWxhcml0eS5EQUlMWSAtPiB6ZHQucGx1c0RheXMoMSkKICAgICAgICB9Cn0K
+package com.bslsjdk.operit.data.stats
+
+import java.time.Instant
+import java.time.ZoneId
+import java.time.ZonedDateTime
+
+/**
+ * 时间范围，**半开区间** `[startMs, endMs)`：`startedAtMs == endMs` 的事件
+ * 不属于该范围；endMs 是下一边界（如次日 0 点），不是包含式终点。
+ */
+data class TokenStatsTimeRange(val startMs: Long, val endMs: Long) {
+    init {
+        require(endMs > startMs) { "endMs must be after startMs" }
+    }
+
+    val durationMs: Long
+        get() = endMs - startMs
+}
+
+/** 图表桶粒度：10 分钟 / 1 小时 / 1 自然日（本地时区对齐）。 */
+enum class TokenStatsGranularity {
+    TEN_MINUTES,
+    HOURLY,
+    DAILY,
+}
+
+/**
+ * 日历范围的图表桶对齐计算。
+ *
+ * 桶边界在**本地时间**上对齐（10 分钟整点、整点小时、自然日 0 点），并用
+ * java.time 的 plusMinutes/plusHours/plusDays 在本地时区上推进：跨 DST 的
+ * 小时/日桶自动得到 23/25 小时的正确 epoch 跨度，且相邻桶起点单调递增、
+ * 覆盖无空洞（夏令时重复的小时也会出现两个不同 epoch 的桶）。
+ */
+object TokenStatsTimeRanges {
+
+    const val TEN_MINUTES_MS: Long = 10 * 60 * 1000L
+    const val HOUR_MS: Long = 60 * 60 * 1000L
+    const val DAY_MS: Long = 24 * HOUR_MS
+
+    /** 防御：自定义范围过大时限制桶数量，避免病态输入拖垮内存/UI。 */
+    private const val MAX_BUCKETS = 10_000
+
+    /** 日历选择器提供显式边界，始终使用半开区间 `[startMs, endMs)`。 */
+    fun customRange(startMs: Long, endMs: Long): TokenStatsTimeRange =
+        TokenStatsTimeRange(startMs, endMs)
+
+    /**
+     * 按范围时长选择合理桶粒度：≤12h → 10 分钟；≤48h → 1 小时；
+     * 更长时间（7d/30d/月）→ 1 自然日。自定义范围同样适用。
+     */
+    fun granularityFor(range: TokenStatsTimeRange): TokenStatsGranularity =
+        when {
+            range.durationMs <= 12L * HOUR_MS -> TokenStatsGranularity.TEN_MINUTES
+            range.durationMs <= 2L * DAY_MS -> TokenStatsGranularity.HOURLY
+            else -> TokenStatsGranularity.DAILY
+        }
+
+    /**
+     * 覆盖 [range] 的桶起点列表（本地时间对齐，升序、不相交）。
+     * 最后一个桶的终点是日历对齐的下一个桶起点，可能超出 range.endMs；
+     * 事件归属按 `[桶起点, 下个桶起点)` 判定，落在范围内的每个事件恰好属于一个桶。
+     */
+    fun bucketStarts(
+        range: TokenStatsTimeRange,
+        granularity: TokenStatsGranularity,
+        zone: ZoneId,
+    ): List<Long> {
+        val first = truncateToBucket(Instant.ofEpochMilli(range.startMs).atZone(zone), granularity)
+        val starts = ArrayList<Long>()
+        var current = first
+        while (current.toInstant().toEpochMilli() < range.endMs) {
+            starts += current.toInstant().toEpochMilli()
+            current = advanceBucket(current, granularity)
+            if (starts.size > MAX_BUCKETS) {
+                error(
+                    "range too large for $granularity granularity " +
+                        "(bucket count would exceed $MAX_BUCKETS)"
+                )
+            }
+        }
+        return starts
+    }
+
+    /** 桶 [index] 的结束时间：本地对齐的下一个桶起点（日历推进，非固定毫秒）。 */
+    fun bucketEndMs(
+        bucketStarts: List<Long>,
+        index: Int,
+        granularity: TokenStatsGranularity,
+        zone: ZoneId,
+    ): Long {
+        if (index + 1 < bucketStarts.size) return bucketStarts[index + 1]
+        val last = Instant.ofEpochMilli(bucketStarts[index]).atZone(zone)
+        return advanceBucket(last, granularity).toInstant().toEpochMilli()
+    }
+
+    /**
+     * 事件时间戳所属的桶下标（桶起点列表升序）。ts 落在
+     * `[第一个桶起点, 最后一个桶终点)` 之外返回 null（防御，正常输入不触发）。
+     */
+    fun bucketIndexOf(
+        ts: Long,
+        bucketStarts: List<Long>,
+        granularity: TokenStatsGranularity,
+        zone: ZoneId,
+    ): Int? {
+        var floor = bucketStarts.binarySearch(ts)
+        if (floor < 0) floor = -floor - 2
+        if (floor < 0) return null
+        if (bucketEndMs(bucketStarts, floor, granularity, zone) <= ts) return null
+        return floor
+    }
+
+    private fun truncateToBucket(
+        zdt: ZonedDateTime,
+        granularity: TokenStatsGranularity,
+    ): ZonedDateTime =
+        when (granularity) {
+            TokenStatsGranularity.TEN_MINUTES ->
+                zdt.withMinute(zdt.minute / 10 * 10).withSecond(0).withNano(0)
+            TokenStatsGranularity.HOURLY ->
+                zdt.withMinute(0).withSecond(0).withNano(0)
+            TokenStatsGranularity.DAILY ->
+                zdt.toLocalDate().atStartOfDay(zdt.zone)
+        }
+
+    private fun advanceBucket(
+        zdt: ZonedDateTime,
+        granularity: TokenStatsGranularity,
+    ): ZonedDateTime =
+        when (granularity) {
+            TokenStatsGranularity.TEN_MINUTES -> zdt.plusMinutes(10)
+            TokenStatsGranularity.HOURLY -> zdt.plusHours(1)
+            TokenStatsGranularity.DAILY -> zdt.plusDays(1)
+        }
+}

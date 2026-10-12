@@ -1,1 +1,102 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuY29tcG9uZW50cy5kaWFsb2dzLmFjdGlvbnMKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5BcnJhbmdlbWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Sb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkRlbGV0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRG93bmxvYWQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkxpbmsKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQnV0dG9uRGVmYXVsdHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk91dGxpbmVkQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tY3AuTUNQTG9jYWxTZXJ2ZXIKCi8qKgogKiBBY3Rpb25zIGNvbXBvbmVudCBmb3IgdGhlIE1DUCBzZXJ2ZXIgZGV0YWlscyBkaWFBcHBMb2dnZXIuCiAqIAogKiBAcGFyYW0gc2VydmVyIFRoZSBNQ1Agc2VydmVyIHRvIGRpc3BsYXkgYWN0aW9ucyBmb3IKICogQHBhcmFtIGlzSW5zdGFsbGVkIFdoZXRoZXIgdGhlIHNlcnZlciBpcyBpbnN0YWxsZWQKICogQHBhcmFtIG9uSW5zdGFsbCBDYWxsYmFjayB0byBiZSBpbnZva2VkIHdoZW4gdGhlIGluc3RhbGwgYnV0dG9uIGlzIGNsaWNrZWQKICogQHBhcmFtIG9uVW5pbnN0YWxsIENhbGxiYWNrIHRvIGJlIGludm9rZWQgd2hlbiB0aGUgdW5pbnN0YWxsIGJ1dHRvbiBpcyBjbGlja2VkCiAqLwpAQ29tcG9zYWJsZQpmdW4gTUNQU2VydmVyRGV0YWlsc0FjdGlvbnMoCiAgICBzZXJ2ZXI6IE1DUExvY2FsU2VydmVyLlBsdWdpbk1ldGFkYXRhLAogICAgaXNJbnN0YWxsZWQ6IEJvb2xlYW4sCiAgICBvbkluc3RhbGw6IChNQ1BMb2NhbFNlcnZlci5QbHVnaW5NZXRhZGF0YSkgLT4gVW5pdCwKICAgIG9uVW5pbnN0YWxsOiAoTUNQTG9jYWxTZXJ2ZXIuUGx1Z2luTWV0YWRhdGEpIC0+IFVuaXQKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CgogICAgUm93KAogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgIC5wYWRkaW5nKDE2LmRwKSwKICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKQogICAgKSB7CiAgICAgICAgLy8gUmVwb3NpdG9yeSBsaW5rIGJ1dHRvbiAoaWYgYXZhaWxhYmxlKQogICAgICAgIGlmIChzZXJ2ZXIucmVwb1VybC5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgT3V0bGluZWRCdXR0b24oCiAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBpbnRlbnQgPSBJbnRlbnQoSW50ZW50LkFDVElPTl9WSUVXLCBVcmkucGFyc2Uoc2VydmVyLnJlcG9VcmwpKQogICAgICAgICAgICAgICAgICAgICAgICBpbnRlbnQuYWRkRmxhZ3MoSW50ZW50LkZMQUdfQUNUSVZJVFlfTkVXX1RBU0spCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eShpbnRlbnQpCiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKCJNQ1BTZXJ2ZXJEZXRhaWxzRGlhbG9nIiwgIuaJk+W8gOS7k+W6k+mTvuaOpeWksei0pSIsIGUpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LkxpbmssCiAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgVGV4dCh0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcucmVwbykpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIEluc3RhbGwvVW5pbnN0YWxsIGJ1dHRvbgogICAgICAgIGlmIChpc0luc3RhbGxlZCkgewogICAgICAgICAgICBCdXR0b24oCiAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBvblVuaW5zdGFsbChzZXJ2ZXIpIH0sCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZiksCiAgICAgICAgICAgICAgICBjb2xvcnMgPSBCdXR0b25EZWZhdWx0cy5idXR0b25Db2xvcnMoCiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yLAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25FcnJvcgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LkRlbGV0ZSwKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBUZXh0KHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy51bmluc3RhbGwpKQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgQnV0dG9uKAogICAgICAgICAgICAgICAgb25DbGljayA9IHsgb25JbnN0YWxsKHNlcnZlcikgfSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LkRvd25sb2FkLAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIFRleHQodGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmluc3RhbGwpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9IA==
+package com.bslsjdk.operit.ui.features.packages.components.dialogs.actions
+
+import android.content.Intent
+import android.net.Uri
+import com.bslsjdk.operit.util.AppLogger
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material.icons.filled.Download
+import androidx.compose.material.icons.filled.Link
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.mcp.MCPLocalServer
+
+/**
+ * Actions component for the MCP server details diaAppLogger.
+ * 
+ * @param server The MCP server to display actions for
+ * @param isInstalled Whether the server is installed
+ * @param onInstall Callback to be invoked when the install button is clicked
+ * @param onUninstall Callback to be invoked when the uninstall button is clicked
+ */
+@Composable
+fun MCPServerDetailsActions(
+    server: MCPLocalServer.PluginMetadata,
+    isInstalled: Boolean,
+    onInstall: (MCPLocalServer.PluginMetadata) -> Unit,
+    onUninstall: (MCPLocalServer.PluginMetadata) -> Unit
+) {
+    val context = LocalContext.current
+
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(16.dp),
+        horizontalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        // Repository link button (if available)
+        if (server.repoUrl.isNotBlank()) {
+            OutlinedButton(
+                onClick = {
+                    try {
+                        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(server.repoUrl))
+                        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                        context.startActivity(intent)
+                    } catch (e: Exception) {
+                        AppLogger.e("MCPServerDetailsDialog", "打开仓库链接失败", e)
+                    }
+                },
+                modifier = Modifier.weight(1f)
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Link,
+                    contentDescription = null
+                )
+                Text(text = stringResource(R.string.repo))
+            }
+        }
+
+        // Install/Uninstall button
+        if (isInstalled) {
+            Button(
+                onClick = { onUninstall(server) },
+                modifier = Modifier.weight(1f),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = MaterialTheme.colorScheme.error,
+                    contentColor = MaterialTheme.colorScheme.onError
+                )
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Delete,
+                    contentDescription = null
+                )
+                Text(text = stringResource(R.string.uninstall))
+            }
+        } else {
+            Button(
+                onClick = { onInstall(server) },
+                modifier = Modifier.weight(1f)
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Download,
+                    contentDescription = null
+                )
+                Text(text = stringResource(R.string.install))
+            }
+        }
+    }
+} 

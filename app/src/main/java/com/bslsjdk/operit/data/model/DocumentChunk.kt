@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGlvLm9iamVjdGJveC5hbm5vdGF0aW9uLkNvbnZlcnQKaW1wb3J0IGlvLm9iamVjdGJveC5hbm5vdGF0aW9uLkVudGl0eQppbXBvcnQgaW8ub2JqZWN0Ym94LmFubm90YXRpb24uSWQKaW1wb3J0IGlvLm9iamVjdGJveC5yZWxhdGlvbi5Ub09uZQppbXBvcnQgamF2YS5pby5TZXJpYWxpemFibGUKCi8qKgogKiDooajnpLrlpJbpg6jmlofmoaPkuK3nmoTkuIDkuKrlhoXlrrnljLrlnZfvvIjkvovlpoLvvIzkuIDkuKrmrrXokL3vvInjgIIKICog5q+P5Liq5Yy65Z2X6YO95pyJ6Ieq5bex55qE5YaF5a655ZKM5ZCR6YeP5bWM5YWl77yM5Lul5L6/6L+b6KGM54us56uL55qE6K+t5LmJ5pCc57Si44CCCiAqLwpARW50aXR5CmRhdGEgY2xhc3MgRG9jdW1lbnRDaHVuaygKICAgIEBJZCB2YXIgaWQ6IExvbmcgPSAwLAoKICAgIC8vIOWMuuWdl+eahOaWh+acrOWGheWuuQogICAgdmFyIGNvbnRlbnQ6IFN0cmluZyA9ICIiLAoKICAgIC8vIOWMuuWdl+WcqOaWh+aho+S4reeahOmhuuW6j+e0ouW8lQogICAgdmFyIGNodW5rSW5kZXg6IEludCA9IDAsCgogICAgLy8g5paH5pys5YaF5a6555qE5ZCR6YeP5bWM5YWlCiAgICBAQ29udmVydChjb252ZXJ0ZXIgPSBFbWJlZGRpbmdDb252ZXJ0ZXI6OmNsYXNzLCBkYlR5cGUgPSBCeXRlQXJyYXk6OmNsYXNzKQogICAgdmFyIGVtYmVkZGluZzogRW1iZWRkaW5nPyA9IG51bGwKKSB7CiAgICBsYXRlaW5pdCB2YXIgbWVtb3J5OiBUb09uZTxNZW1vcnk+Cn0g
+package com.bslsjdk.operit.data.model
+
+import io.objectbox.annotation.Convert
+import io.objectbox.annotation.Entity
+import io.objectbox.annotation.Id
+import io.objectbox.relation.ToOne
+import java.io.Serializable
+
+/**
+ * 表示外部文档中的一个内容区块（例如，一个段落）。
+ * 每个区块都有自己的内容和向量嵌入，以便进行独立的语义搜索。
+ */
+@Entity
+data class DocumentChunk(
+    @Id var id: Long = 0,
+
+    // 区块的文本内容
+    var content: String = "",
+
+    // 区块在文档中的顺序索引
+    var chunkIndex: Int = 0,
+
+    // 文本内容的向量嵌入
+    @Convert(converter = EmbeddingConverter::class, dbType = ByteArray::class)
+    var embedding: Embedding? = null
+) {
+    lateinit var memory: ToOne<Memory>
+} 

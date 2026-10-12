@@ -1,1 +1,196 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuZmxvYXRpbmcKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5QaXhlbEZvcm1hdAppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZC52aWV3LkdyYXZpdHkKaW1wb3J0IGFuZHJvaWQudmlldy5XaW5kb3dNYW5hZ2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmdlc3R1cmVzLmRldGVjdERyYWdHZXN0dXJlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmdlc3R1cmVzLmRldGVjdFRhcEdlc3R1cmVzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4U2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuQ2lyY2xlU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkJ1aWxkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmlucHV0LnBvaW50ZXIucG9pbnRlcklucHV0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkNvbXBvc2VWaWV3CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWxTdG9yZU93bmVyCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuc2V0Vmlld1RyZWVMaWZlY3ljbGVPd25lcgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnNldFZpZXdUcmVlVmlld01vZGVsU3RvcmVPd25lcgppbXBvcnQgYW5kcm9pZHguc2F2ZWRzdGF0ZS5zZXRWaWV3VHJlZVNhdmVkU3RhdGVSZWdpc3RyeU93bmVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuU2VydmljZUxpZmVjeWNsZU93bmVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuVUlEZWJ1Z2dlclNlcnZpY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy50b29sYm94LnNjcmVlbnMudWlkZWJ1Z2dlci5VSURlYnVnZ2VyT3ZlcmxheQppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLkxpZmVjeWNsZQppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLkxpZmVjeWNsZU93bmVyCmltcG9ydCBhbmRyb2lkeC5zYXZlZHN0YXRlLlNhdmVkU3RhdGVSZWdpc3RyeU93bmVyCgpjbGFzcyBVSURlYnVnZ2VyV2luZG93TWFuYWdlcigKICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCB2aWV3TW9kZWxTdG9yZU93bmVyOiBWaWV3TW9kZWxTdG9yZU93bmVyLAogICAgcHJpdmF0ZSB2YWwgbGlmZWN5Y2xlT3duZXI6IExpZmVjeWNsZU93bmVyCikgewogICAgcHJpdmF0ZSB2YWwgd2luZG93TWFuYWdlciA9IGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LldJTkRPV19TRVJWSUNFKSBhcyBXaW5kb3dNYW5hZ2VyCiAgICBwcml2YXRlIHZhciBjb21wb3NlVmlldzogQ29tcG9zZVZpZXc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgcGFyYW1zOiBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcz8gPSBudWxsCiAgICBwcml2YXRlIHZhciBpc0V4cGFuZGVkID0gbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICAKICAgIC8vIEZsb2F0aW5nIGJhbGwgcG9zaXRpb24gc3RhdGUKICAgIHByaXZhdGUgdmFyIGJhbGxYID0gbXV0YWJsZVN0YXRlT2YoMTAwZikKICAgIHByaXZhdGUgdmFyIGJhbGxZID0gbXV0YWJsZVN0YXRlT2YoMTAwZikKCiAgICBmdW4gc2hvdygpIHsKICAgICAgICBpZiAoY29tcG9zZVZpZXcgIT0gbnVsbCkgcmV0dXJuCgogICAgICAgIHZhbCBsYXlvdXRGbGFnID0gaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk8pIHsKICAgICAgICAgICAgV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMuVFlQRV9BUFBMSUNBVElPTl9PVkVSTEFZCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMuVFlQRV9QSE9ORQogICAgICAgIH0KCiAgICAgICAgLy8gU3RhcnQgd2l0aCBmbG9hdGluZyBiYWxsIHNpemUKICAgICAgICBwYXJhbXMgPSBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcygKICAgICAgICAgICAgV2luZG93TWFuYWdlci5MYXlvdXRQYXJhbXMuV1JBUF9DT05URU5ULAogICAgICAgICAgICBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcy5XUkFQX0NPTlRFTlQsCiAgICAgICAgICAgIGxheW91dEZsYWcsCiAgICAgICAgICAgIFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLkZMQUdfTk9UX0ZPQ1VTQUJMRSBvciBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcy5GTEFHX05PVF9UT1VDSF9NT0RBTCBvciBXaW5kb3dNYW5hZ2VyLkxheW91dFBhcmFtcy5GTEFHX0xBWU9VVF9JTl9TQ1JFRU4sCiAgICAgICAgICAgIFBpeGVsRm9ybWF0LlRSQU5TTFVDRU5UCiAgICAgICAgKS5hcHBseSB7CiAgICAgICAgICAgIGdyYXZpdHkgPSBHcmF2aXR5LlRPUCBvciBHcmF2aXR5LlNUQVJUCiAgICAgICAgICAgIHggPSBiYWxsWC52YWx1ZS50b0ludCgpCiAgICAgICAgICAgIHkgPSBiYWxsWS52YWx1ZS50b0ludCgpCiAgICAgICAgfQoKICAgICAgICBjb21wb3NlVmlldyA9IENvbXBvc2VWaWV3KGNvbnRleHQpLmFwcGx5IHsKICAgICAgICAgICAgc2V0Vmlld1RyZWVMaWZlY3ljbGVPd25lcihsaWZlY3ljbGVPd25lcikKICAgICAgICAgICAgc2V0Vmlld1RyZWVTYXZlZFN0YXRlUmVnaXN0cnlPd25lcihsaWZlY3ljbGVPd25lciBhcyBTYXZlZFN0YXRlUmVnaXN0cnlPd25lcikKICAgICAgICAgICAgc2V0Vmlld1RyZWVWaWV3TW9kZWxTdG9yZU93bmVyKHZpZXdNb2RlbFN0b3JlT3duZXIpCgogICAgICAgICAgICBzZXRDb250ZW50IHsKICAgICAgICAgICAgICAgIFVJRGVidWdnZXJGbG9hdGluZ0NvbnRlbnQoCiAgICAgICAgICAgICAgICAgICAgdmlld01vZGVsU3RvcmVPd25lciA9IHZpZXdNb2RlbFN0b3JlT3duZXIsCiAgICAgICAgICAgICAgICAgICAgaXNFeHBhbmRlZCA9IGlzRXhwYW5kZWQudmFsdWUsCiAgICAgICAgICAgICAgICAgICAgYmFsbFggPSBiYWxsWC52YWx1ZSwKICAgICAgICAgICAgICAgICAgICBiYWxsWSA9IGJhbGxZLnZhbHVlLAogICAgICAgICAgICAgICAgICAgIG9uQmFsbERyYWcgPSB7IGRlbHRhWCwgZGVsdGFZIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGJhbGxYLnZhbHVlICs9IGRlbHRhWAogICAgICAgICAgICAgICAgICAgICAgICBiYWxsWS52YWx1ZSArPSBkZWx0YVkKICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlV2luZG93UG9zaXRpb24oKQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgb25Ub2dnbGVFeHBhbmQgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlzRXhwYW5kZWQudmFsdWUgPSAhaXNFeHBhbmRlZC52YWx1ZQogICAgICAgICAgICAgICAgICAgICAgICB1cGRhdGVXaW5kb3dMYXlvdXQoKQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgb25DbG9zZSA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgKGNvbnRleHQgYXM/IFVJRGVidWdnZXJTZXJ2aWNlKT8uc3RvcFNlbGYoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICB3aW5kb3dNYW5hZ2VyLmFkZFZpZXcoY29tcG9zZVZpZXcsIHBhcmFtcykKICAgIH0KICAgIAogICAgcHJpdmF0ZSBmdW4gdXBkYXRlV2luZG93UG9zaXRpb24oKSB7CiAgICAgICAgcGFyYW1zPy5sZXQgeyBsYXlvdXRQYXJhbXMgLT4KICAgICAgICAgICAgbGF5b3V0UGFyYW1zLnggPSBiYWxsWC52YWx1ZS50b0ludCgpCiAgICAgICAgICAgIGxheW91dFBhcmFtcy55ID0gYmFsbFkudmFsdWUudG9JbnQoKQogICAgICAgICAgICBjb21wb3NlVmlldz8ubGV0IHsgdmlldyAtPgogICAgICAgICAgICAgICAgd2luZG93TWFuYWdlci51cGRhdGVWaWV3TGF5b3V0KHZpZXcsIGxheW91dFBhcmFtcykKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAogICAgcHJpdmF0ZSBmdW4gdXBkYXRlV2luZG93TGF5b3V0KCkgewogICAgICAgIHBhcmFtcz8ubGV0IHsgbGF5b3V0UGFyYW1zIC0+CiAgICAgICAgICAgIGlmIChpc0V4cGFuZGVkLnZhbHVlKSB7CiAgICAgICAgICAgICAgICAvLyBFeHBhbmQgdG8gZnVsbCBzY3JlZW4KICAgICAgICAgICAgICAgIGxheW91dFBhcmFtcy53aWR0aCA9IFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVAogICAgICAgICAgICAgICAgbGF5b3V0UGFyYW1zLmhlaWdodCA9IFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVAogICAgICAgICAgICAgICAgbGF5b3V0UGFyYW1zLnggPSAwCiAgICAgICAgICAgICAgICBsYXlvdXRQYXJhbXMueSA9IDAKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIC8vIFNocmluayBiYWNrIHRvIGZsb2F0aW5nIGJhbGwKICAgICAgICAgICAgICAgIGxheW91dFBhcmFtcy53aWR0aCA9IFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLldSQVBfQ09OVEVOVAogICAgICAgICAgICAgICAgbGF5b3V0UGFyYW1zLmhlaWdodCA9IFdpbmRvd01hbmFnZXIuTGF5b3V0UGFyYW1zLldSQVBfQ09OVEVOVAogICAgICAgICAgICAgICAgbGF5b3V0UGFyYW1zLnggPSBiYWxsWC52YWx1ZS50b0ludCgpCiAgICAgICAgICAgICAgICBsYXlvdXRQYXJhbXMueSA9IGJhbGxZLnZhbHVlLnRvSW50KCkKICAgICAgICAgICAgfQogICAgICAgICAgICBjb21wb3NlVmlldz8ubGV0IHsgdmlldyAtPgogICAgICAgICAgICAgICAgd2luZG93TWFuYWdlci51cGRhdGVWaWV3TGF5b3V0KHZpZXcsIGxheW91dFBhcmFtcykKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gcmVtb3ZlKCkgewogICAgICAgIGNvbXBvc2VWaWV3Py5sZXQgewogICAgICAgICAgICB3aW5kb3dNYW5hZ2VyLnJlbW92ZVZpZXcoaXQpCiAgICAgICAgICAgIGNvbXBvc2VWaWV3ID0gbnVsbAogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKZnVuIFVJRGVidWdnZXJGbG9hdGluZ0NvbnRlbnQoCiAgICB2aWV3TW9kZWxTdG9yZU93bmVyOiBWaWV3TW9kZWxTdG9yZU93bmVyLAogICAgaXNFeHBhbmRlZDogQm9vbGVhbiwKICAgIGJhbGxYOiBGbG9hdCwKICAgIGJhbGxZOiBGbG9hdCwKICAgIG9uQmFsbERyYWc6IChGbG9hdCwgRmxvYXQpIC0+IFVuaXQsCiAgICBvblRvZ2dsZUV4cGFuZDogKCkgLT4gVW5pdCwKICAgIG9uQ2xvc2U6ICgpIC0+IFVuaXQKKSB7CiAgICBpZiAoaXNFeHBhbmRlZCkgewogICAgICAgIC8vIEZ1bGwgc2NyZWVuIGFuYWx5c2lzIG1vZGUKICAgICAgICBVSURlYnVnZ2VyT3ZlcmxheSgKICAgICAgICAgICAgdmlld01vZGVsU3RvcmVPd25lciA9IHZpZXdNb2RlbFN0b3JlT3duZXIsCiAgICAgICAgICAgIG9uQ2xvc2UgPSBvbkNsb3NlLAogICAgICAgICAgICBvbk1pbmltaXplID0gb25Ub2dnbGVFeHBhbmQKICAgICAgICApCiAgICB9IGVsc2UgewogICAgICAgIC8vIEZsb2F0aW5nIGJhbGwgbW9kZQogICAgICAgIERyYWdnYWJsZUZsb2F0aW5nQmFsbCgKICAgICAgICAgICAgb25EcmFnID0gb25CYWxsRHJhZywKICAgICAgICAgICAgb25UYXAgPSBvblRvZ2dsZUV4cGFuZAogICAgICAgICkKICAgIH0KfQoKQENvbXBvc2FibGUKZnVuIERyYWdnYWJsZUZsb2F0aW5nQmFsbCgKICAgIG9uRHJhZzogKEZsb2F0LCBGbG9hdCkgLT4gVW5pdCwKICAgIG9uVGFwOiAoKSAtPiBVbml0CikgewogICAgQm94KAogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgLnNpemUoNTYuZHApCiAgICAgICAgICAgIC5jbGlwKENpcmNsZVNoYXBlKQogICAgICAgICAgICAuYmFja2dyb3VuZChDb2xvci5CbHVlLmNvcHkoYWxwaGEgPSAwLjhmKSkKICAgICAgICAgICAgLnBvaW50ZXJJbnB1dChVbml0KSB7CiAgICAgICAgICAgICAgICBkZXRlY3REcmFnR2VzdHVyZXMgeyBjaGFuZ2UsIGRyYWdBbW91bnQgLT4KICAgICAgICAgICAgICAgICAgICBvbkRyYWcoZHJhZ0Ftb3VudC54LCBkcmFnQW1vdW50LnkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgLnBvaW50ZXJJbnB1dChVbml0KSB7CiAgICAgICAgICAgICAgICBkZXRlY3RUYXBHZXN0dXJlcyB7CiAgICAgICAgICAgICAgICAgICAgb25UYXAoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgIGNvbnRlbnRBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyCiAgICApIHsKICAgICAgICBJY29uKAogICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuQnVpbGQsCiAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9ICJVSSBEZWJ1Z2dlciIsCiAgICAgICAgICAgIHRpbnQgPSBDb2xvci5XaGl0ZQogICAgICAgICkKICAgIH0KfSA=
+package com.bslsjdk.operit.services.floating
+
+import android.content.Context
+import android.graphics.PixelFormat
+import android.os.Build
+import android.view.Gravity
+import android.view.WindowManager
+import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.detectDragGestures
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Build
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.ComposeView
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.ViewModelStoreOwner
+import androidx.lifecycle.setViewTreeLifecycleOwner
+import androidx.lifecycle.setViewTreeViewModelStoreOwner
+import androidx.savedstate.setViewTreeSavedStateRegistryOwner
+import com.bslsjdk.operit.services.ServiceLifecycleOwner
+import com.bslsjdk.operit.services.UIDebuggerService
+import com.bslsjdk.operit.ui.features.toolbox.screens.uidebugger.UIDebuggerOverlay
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleOwner
+import androidx.savedstate.SavedStateRegistryOwner
+
+class UIDebuggerWindowManager(
+    private val context: Context,
+    private val viewModelStoreOwner: ViewModelStoreOwner,
+    private val lifecycleOwner: LifecycleOwner
+) {
+    private val windowManager = context.getSystemService(Context.WINDOW_SERVICE) as WindowManager
+    private var composeView: ComposeView? = null
+    private var params: WindowManager.LayoutParams? = null
+    private var isExpanded = mutableStateOf(false)
+    
+    // Floating ball position state
+    private var ballX = mutableStateOf(100f)
+    private var ballY = mutableStateOf(100f)
+
+    fun show() {
+        if (composeView != null) return
+
+        val layoutFlag = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY
+        } else {
+            WindowManager.LayoutParams.TYPE_PHONE
+        }
+
+        // Start with floating ball size
+        params = WindowManager.LayoutParams(
+            WindowManager.LayoutParams.WRAP_CONTENT,
+            WindowManager.LayoutParams.WRAP_CONTENT,
+            layoutFlag,
+            WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL or WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN,
+            PixelFormat.TRANSLUCENT
+        ).apply {
+            gravity = Gravity.TOP or Gravity.START
+            x = ballX.value.toInt()
+            y = ballY.value.toInt()
+        }
+
+        composeView = ComposeView(context).apply {
+            setViewTreeLifecycleOwner(lifecycleOwner)
+            setViewTreeSavedStateRegistryOwner(lifecycleOwner as SavedStateRegistryOwner)
+            setViewTreeViewModelStoreOwner(viewModelStoreOwner)
+
+            setContent {
+                UIDebuggerFloatingContent(
+                    viewModelStoreOwner = viewModelStoreOwner,
+                    isExpanded = isExpanded.value,
+                    ballX = ballX.value,
+                    ballY = ballY.value,
+                    onBallDrag = { deltaX, deltaY ->
+                        ballX.value += deltaX
+                        ballY.value += deltaY
+                        updateWindowPosition()
+                    },
+                    onToggleExpand = {
+                        isExpanded.value = !isExpanded.value
+                        updateWindowLayout()
+                    },
+                    onClose = {
+                        (context as? UIDebuggerService)?.stopSelf()
+                    }
+                )
+            }
+        }
+        windowManager.addView(composeView, params)
+    }
+    
+    private fun updateWindowPosition() {
+        params?.let { layoutParams ->
+            layoutParams.x = ballX.value.toInt()
+            layoutParams.y = ballY.value.toInt()
+            composeView?.let { view ->
+                windowManager.updateViewLayout(view, layoutParams)
+            }
+        }
+    }
+    
+    private fun updateWindowLayout() {
+        params?.let { layoutParams ->
+            if (isExpanded.value) {
+                // Expand to full screen
+                layoutParams.width = WindowManager.LayoutParams.MATCH_PARENT
+                layoutParams.height = WindowManager.LayoutParams.MATCH_PARENT
+                layoutParams.x = 0
+                layoutParams.y = 0
+            } else {
+                // Shrink back to floating ball
+                layoutParams.width = WindowManager.LayoutParams.WRAP_CONTENT
+                layoutParams.height = WindowManager.LayoutParams.WRAP_CONTENT
+                layoutParams.x = ballX.value.toInt()
+                layoutParams.y = ballY.value.toInt()
+            }
+            composeView?.let { view ->
+                windowManager.updateViewLayout(view, layoutParams)
+            }
+        }
+    }
+
+    fun remove() {
+        composeView?.let {
+            windowManager.removeView(it)
+            composeView = null
+        }
+    }
+}
+
+@Composable
+fun UIDebuggerFloatingContent(
+    viewModelStoreOwner: ViewModelStoreOwner,
+    isExpanded: Boolean,
+    ballX: Float,
+    ballY: Float,
+    onBallDrag: (Float, Float) -> Unit,
+    onToggleExpand: () -> Unit,
+    onClose: () -> Unit
+) {
+    if (isExpanded) {
+        // Full screen analysis mode
+        UIDebuggerOverlay(
+            viewModelStoreOwner = viewModelStoreOwner,
+            onClose = onClose,
+            onMinimize = onToggleExpand
+        )
+    } else {
+        // Floating ball mode
+        DraggableFloatingBall(
+            onDrag = onBallDrag,
+            onTap = onToggleExpand
+        )
+    }
+}
+
+@Composable
+fun DraggableFloatingBall(
+    onDrag: (Float, Float) -> Unit,
+    onTap: () -> Unit
+) {
+    Box(
+        modifier = Modifier
+            .size(56.dp)
+            .clip(CircleShape)
+            .background(Color.Blue.copy(alpha = 0.8f))
+            .pointerInput(Unit) {
+                detectDragGestures { change, dragAmount ->
+                    onDrag(dragAmount.x, dragAmount.y)
+                }
+            }
+            .pointerInput(Unit) {
+                detectTapGestures {
+                    onTap()
+                }
+            },
+        contentAlignment = Alignment.Center
+    ) {
+        Icon(
+            imageVector = Icons.Default.Build,
+            contentDescription = "UI Debugger",
+            tint = Color.White
+        )
+    }
+} 

@@ -1,1 +1,51 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlCgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlY29kZUZyb21TdHJpbmcKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEh0dHBUdHNSZXNwb25zZVBpcGVsaW5lU3RlcCgKICAgIHZhbCB0eXBlOiBTdHJpbmcsCiAgICB2YWwgcGF0aDogU3RyaW5nID0gIiIsCiAgICB2YWwgaGVhZGVyczogTWFwPFN0cmluZywgU3RyaW5nPiA9IGVtcHR5TWFwKCkKKSB7CiAgICB2YWwgbm9ybWFsaXplZFR5cGU6IFN0cmluZwogICAgICAgIGdldCgpID0gdHlwZS50cmltKCkubG93ZXJjYXNlKCkKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgVFlQRV9QQVJTRV9KU09OID0gInBhcnNlX2pzb24iCiAgICAgICAgY29uc3QgdmFsIFRZUEVfUElDSyA9ICJwaWNrIgogICAgICAgIGNvbnN0IHZhbCBUWVBFX1BBUlNFX0pTT05fU1RSSU5HID0gInBhcnNlX2pzb25fc3RyaW5nIgogICAgICAgIGNvbnN0IHZhbCBUWVBFX0hUVFBfR0VUID0gImh0dHBfZ2V0IgogICAgICAgIGNvbnN0IHZhbCBUWVBFX0hUVFBfUkVRVUVTVF9GUk9NX09CSkVDVCA9ICJodHRwX3JlcXVlc3RfZnJvbV9vYmplY3QiCiAgICAgICAgY29uc3QgdmFsIFRZUEVfQkFTRTY0X0RFQ09ERSA9ICJiYXNlNjRfZGVjb2RlIgoKICAgICAgICB2YWwgU1VQUE9SVEVEX1RZUEVTOiBTZXQ8U3RyaW5nPiA9CiAgICAgICAgICAgIHNldE9mKAogICAgICAgICAgICAgICAgVFlQRV9QQVJTRV9KU09OLAogICAgICAgICAgICAgICAgVFlQRV9QSUNLLAogICAgICAgICAgICAgICAgVFlQRV9QQVJTRV9KU09OX1NUUklORywKICAgICAgICAgICAgICAgIFRZUEVfSFRUUF9HRVQsCiAgICAgICAgICAgICAgICBUWVBFX0hUVFBfUkVRVUVTVF9GUk9NX09CSkVDVCwKICAgICAgICAgICAgICAgIFRZUEVfQkFTRTY0X0RFQ09ERQogICAgICAgICAgICApCgogICAgICAgIHByaXZhdGUgdmFsIGVkaXRhYmxlSnNvbiA9CiAgICAgICAgICAgIEpzb24gewogICAgICAgICAgICAgICAgaWdub3JlVW5rbm93bktleXMgPSB0cnVlCiAgICAgICAgICAgICAgICBwcmV0dHlQcmludCA9IHRydWUKICAgICAgICAgICAgfQoKICAgICAgICBmdW4gcGFyc2VMaXN0KHJhdzogU3RyaW5nKTogTGlzdDxIdHRwVHRzUmVzcG9uc2VQaXBlbGluZVN0ZXA+IHsKICAgICAgICAgICAgdmFsIHRyaW1tZWQgPSByYXcudHJpbSgpCiAgICAgICAgICAgIGlmICh0cmltbWVkLmlzQmxhbmsoKSkgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgICAgIHJldHVybiBlZGl0YWJsZUpzb24uZGVjb2RlRnJvbVN0cmluZyh0cmltbWVkKQogICAgICAgIH0KCiAgICAgICAgZnVuIGVuY29kZUxpc3Qoc3RlcHM6IExpc3Q8SHR0cFR0c1Jlc3BvbnNlUGlwZWxpbmVTdGVwPik6IFN0cmluZyB7CiAgICAgICAgICAgIHJldHVybiBlZGl0YWJsZUpzb24uZW5jb2RlVG9TdHJpbmcoc3RlcHMpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.voice
+
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+@Serializable
+data class HttpTtsResponsePipelineStep(
+    val type: String,
+    val path: String = "",
+    val headers: Map<String, String> = emptyMap()
+) {
+    val normalizedType: String
+        get() = type.trim().lowercase()
+
+    companion object {
+        const val TYPE_PARSE_JSON = "parse_json"
+        const val TYPE_PICK = "pick"
+        const val TYPE_PARSE_JSON_STRING = "parse_json_string"
+        const val TYPE_HTTP_GET = "http_get"
+        const val TYPE_HTTP_REQUEST_FROM_OBJECT = "http_request_from_object"
+        const val TYPE_BASE64_DECODE = "base64_decode"
+
+        val SUPPORTED_TYPES: Set<String> =
+            setOf(
+                TYPE_PARSE_JSON,
+                TYPE_PICK,
+                TYPE_PARSE_JSON_STRING,
+                TYPE_HTTP_GET,
+                TYPE_HTTP_REQUEST_FROM_OBJECT,
+                TYPE_BASE64_DECODE
+            )
+
+        private val editableJson =
+            Json {
+                ignoreUnknownKeys = true
+                prettyPrint = true
+            }
+
+        fun parseList(raw: String): List<HttpTtsResponsePipelineStep> {
+            val trimmed = raw.trim()
+            if (trimmed.isBlank()) return emptyList()
+            return editableJson.decodeFromString(trimmed)
+        }
+
+        fun encodeList(steps: List<HttpTtsResponsePipelineStep>): String {
+            return editableJson.encodeToString(steps)
+        }
+    }
+}

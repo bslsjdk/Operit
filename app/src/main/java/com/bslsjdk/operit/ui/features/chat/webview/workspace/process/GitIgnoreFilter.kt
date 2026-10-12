@@ -1,1 +1,246 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5wcm9jZXNzCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLmlvLkZpbGUKCi8qKgogKiBHaXRJZ25vcmUg5paH5Lu26L+H5ruk5ZmoCiAqIOagueaNriAuZ2l0aWdub3JlIOinhOWImei/h+a7pOaWh+S7tuWSjOebruW9lQogKi8Kb2JqZWN0IEdpdElnbm9yZUZpbHRlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiR2l0SWdub3JlRmlsdGVyIgoKICAgIC8vIOm7mOiupOmcgOimgeaOkumZpOeahOebruW9le+8iOWNs+S9vyAuZ2l0aWdub3JlIOS4reayoeacie+8iQogICAgcHJpdmF0ZSB2YWwgREVGQVVMVF9FWENMVURFUyA9IHNldE9mKCJiYWNrdXAiLCAiLmJhY2t1cCIsICIub3Blcml0IikKCiAgICBmdW4gZGVmYXVsdFJ1bGVzKCk6IExpc3Q8U3RyaW5nPiA9IERFRkFVTFRfRVhDTFVERVMudG9MaXN0KCkKCiAgICBmdW4gbm9ybWFsaXplUGF0aChwYXRoOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhciBwID0gcGF0aC50cmltKCkucmVwbGFjZSgnXFwnLCAnLycpCiAgICAgICAgaWYgKHAuaXNFbXB0eSgpKSByZXR1cm4gIi8iCiAgICAgICAgd2hpbGUgKHAuY29udGFpbnMoIi8vIikpIHAgPSBwLnJlcGxhY2UoIi8vIiwgIi8iKQogICAgICAgIHJldHVybiBwCiAgICB9CgogICAgZnVuIHBhcmVudFBhdGgocGF0aDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZVBhdGgocGF0aCkudHJpbUVuZCgnLycpCiAgICAgICAgaWYgKG5vcm1hbGl6ZWQuaXNCbGFuaygpIHx8IG5vcm1hbGl6ZWQgPT0gIi8iKSByZXR1cm4gIi8iCiAgICAgICAgdmFsIGlkeCA9IG5vcm1hbGl6ZWQubGFzdEluZGV4T2YoJy8nKQogICAgICAgIGlmIChpZHggPCAwKSByZXR1cm4gbm9ybWFsaXplZAogICAgICAgIGlmIChpZHggPT0gMCkgcmV0dXJuICIvIgogICAgICAgIHJldHVybiBub3JtYWxpemVkLnN1YnN0cmluZygwLCBpZHgpCiAgICB9CgogICAgZnVuIGpvaW5QYXRoKGJhc2U6IFN0cmluZywgY2hpbGQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBub3JtYWxpemVQYXRoKGJhc2UpCiAgICAgICAgcmV0dXJuIGlmIChub3JtYWxpemVkID09ICIvIikgewogICAgICAgICAgICAiLyRjaGlsZCIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBub3JtYWxpemVkLnRyaW1FbmQoJy8nKSArICIvIiArIGNoaWxkCiAgICAgICAgfQogICAgfQoKICAgIGZ1biB0b1JlbGF0aXZlUGF0aChiYXNlUGF0aDogU3RyaW5nLCBmdWxsUGF0aDogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgdmFsIGJhc2UgPSBub3JtYWxpemVQYXRoKGJhc2VQYXRoKS50cmltRW5kKCcvJykuaWZCbGFuayB7ICIvIiB9CiAgICAgICAgdmFsIGZ1bGwgPSBub3JtYWxpemVQYXRoKGZ1bGxQYXRoKQogICAgICAgIGlmIChmdWxsID09IGJhc2UpIHJldHVybiAiIgoKICAgICAgICB2YWwgcHJlZml4ID0gaWYgKGJhc2UgPT0gIi8iKSAiLyIgZWxzZSAiJGJhc2UvIgogICAgICAgIGlmICghZnVsbC5zdGFydHNXaXRoKHByZWZpeCkpIHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIGZ1bGwucmVtb3ZlUHJlZml4KHByZWZpeCkudHJpbVN0YXJ0KCcvJykKICAgIH0KCiAgICBmdW4gcGFyc2VSdWxlc0Zyb21Db250ZW50KGNvbnRlbnQ6IFN0cmluZz8pOiBMaXN0PFN0cmluZz4gewogICAgICAgIGlmIChjb250ZW50LmlzTnVsbE9yQmxhbmsoKSkgcmV0dXJuIGVtcHR5TGlzdCgpCgogICAgICAgIHZhbCBydWxlcyA9IExpbmtlZEhhc2hTZXQ8U3RyaW5nPigpCiAgICAgICAgY29udGVudAogICAgICAgICAgICAubGluZVNlcXVlbmNlKCkKICAgICAgICAgICAgLm1hcCB7IGl0LnRyaW0oKSB9CiAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5pc05vdEVtcHR5KCkgJiYgIWl0LnN0YXJ0c1dpdGgoIiMiKSB9CiAgICAgICAgICAgIC5mb3JFYWNoIHsgcnVsZSAtPgogICAgICAgICAgICAgICAgcnVsZXMuYWRkKHJ1bGUpCiAgICAgICAgICAgICAgICBpZiAocnVsZS5lbmRzV2l0aCgnLycpKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHdpdGhvdXRUcmFpbGluZ1NsYXNoID0gcnVsZS5yZW1vdmVTdWZmaXgoIi8iKS50cmltKCkKICAgICAgICAgICAgICAgICAgICBpZiAod2l0aG91dFRyYWlsaW5nU2xhc2guaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJ1bGVzLmFkZCh3aXRob3V0VHJhaWxpbmdTbGFzaCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHJ1bGVzLnRvTGlzdCgpCiAgICB9CgogICAgZnVuIG1lcmdlV2l0aERlZmF1bHRzKHJ1bGVzOiBMaXN0PFN0cmluZz4pOiBMaXN0PFN0cmluZz4gewogICAgICAgIHZhbCBtZXJnZWQgPSBMaW5rZWRIYXNoU2V0PFN0cmluZz4oKQogICAgICAgIG1lcmdlZC5hZGRBbGwoREVGQVVMVF9FWENMVURFUykKICAgICAgICBtZXJnZWQuYWRkQWxsKHJ1bGVzKQogICAgICAgIHJldHVybiBtZXJnZWQudG9MaXN0KCkKICAgIH0KCiAgICBmdW4gYnVpbGRSdWxlc0Zyb21Db250ZW50KGNvbnRlbnQ6IFN0cmluZz8pOiBMaXN0PFN0cmluZz4gewogICAgICAgIHJldHVybiBtZXJnZVdpdGhEZWZhdWx0cyhwYXJzZVJ1bGVzRnJvbUNvbnRlbnQoY29udGVudCkpCiAgICB9CgogICAgZnVuIHNob3VsZElnbm9yZUZpbGVSZWxhdGl2ZVBhdGgocmVsYXRpdmVQYXRoOiBTdHJpbmcsIHJ1bGVzOiBMaXN0PFN0cmluZz4pOiBCb29sZWFuIHsKICAgICAgICB2YWwgcmVsID0gcmVsYXRpdmVQYXRoLnJlcGxhY2UoJ1xcJywgJy8nKS50cmltU3RhcnQoJy8nKQogICAgICAgIGlmIChyZWwuaXNCbGFuaygpKSByZXR1cm4gZmFsc2UKICAgICAgICB2YWwgZmlsZU5hbWUgPSByZWwuc3Vic3RyaW5nQWZ0ZXJMYXN0KCcvJykKICAgICAgICByZXR1cm4gc2hvdWxkSWdub3JlKHJlbCwgZmlsZU5hbWUsIGlzRGlyZWN0b3J5ID0gZmFsc2UsIHJ1bGVzID0gcnVsZXMpCiAgICB9CgogICAgLyoqCiAgICAgKiDku47lt6XkvZzljLrnm67lvZXliqDovb0gLmdpdGlnbm9yZSDop4TliJkKICAgICAqLwogICAgZnVuIGxvYWRSdWxlcyh3b3Jrc3BhY2VEaXI6IEZpbGUpOiBMaXN0PFN0cmluZz4gewogICAgICAgIHZhbCBydWxlcyA9IExpbmtlZEhhc2hTZXQ8U3RyaW5nPigpCgogICAgICAgIC8vIOa3u+WKoOm7mOiupOaOkumZpOinhOWImQogICAgICAgIHJ1bGVzLmFkZEFsbChERUZBVUxUX0VYQ0xVREVTKQoKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgZ2l0aWdub3JlRmlsZSA9IEZpbGUod29ya3NwYWNlRGlyLCAiLmdpdGlnbm9yZSIpCiAgICAgICAgICAgIGlmIChnaXRpZ25vcmVGaWxlLmV4aXN0cygpICYmIGdpdGlnbm9yZUZpbGUuaXNGaWxlKSB7CiAgICAgICAgICAgICAgICBydWxlcy5hZGRBbGwocGFyc2VSdWxlc0Zyb21Db250ZW50KGdpdGlnbm9yZUZpbGUucmVhZFRleHQoKSkpCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlt7LliqDovb0gJHtydWxlcy5zaXplfSDmnaHop4TliJkgZnJvbSAke2dpdGlnbm9yZUZpbGUuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICIuZ2l0aWdub3JlIOaWh+S7tuS4jeWtmOWcqO+8jOS7heS9v+eUqOm7mOiupOaOkumZpOinhOWImSIpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5Yqg6L29IC5naXRpZ25vcmUg5paH5Lu25aSx6LSlIiwgZSkKICAgICAgICB9CgogICAgICAgIHJldHVybiBydWxlcy50b0xpc3QoKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOajgOafpeaWh+S7tuaIluebruW9leaYr+WQpuW6lOivpeiiq+W/veeVpQogICAgICogQHBhcmFtIGZpbGUg6KaB5qOA5p+l55qE5paH5Lu25oiW55uu5b2VCiAgICAgKiBAcGFyYW0gd29ya3NwYWNlRGlyIOW3peS9nOWMuuagueebruW9lQogICAgICogQHBhcmFtIHJ1bGVzIGdpdGlnbm9yZSDop4TliJnliJfooagKICAgICAqIEByZXR1cm4gdHJ1ZSDlpoLmnpzlupTor6Xooqvlv73nlaUKICAgICAqLwogICAgZnVuIHNob3VsZElnbm9yZShmaWxlOiBGaWxlLCB3b3Jrc3BhY2VEaXI6IEZpbGUsIHJ1bGVzOiBMaXN0PFN0cmluZz4pOiBCb29sZWFuIHsKICAgICAgICB2YWwgcmVsYXRpdmVQYXRoID0gdHJ5IHsKICAgICAgICAgICAgZmlsZS5yZWxhdGl2ZVRvKHdvcmtzcGFjZURpcikucGF0aC5yZXBsYWNlKEZpbGUuc2VwYXJhdG9yQ2hhciwgJy8nKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgdmFsIGZpbGVOYW1lID0gZmlsZS5uYW1lCiAgICAgICAgCiAgICAgICAgZm9yIChydWxlIGluIHJ1bGVzKSB7CiAgICAgICAgICAgIGlmIChtYXRjaGVzUnVsZShyZWxhdGl2ZVBhdGgsIGZpbGVOYW1lLCBmaWxlLmlzRGlyZWN0b3J5LCBydWxlKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICBmdW4gc2hvdWxkSWdub3JlKHJlbGF0aXZlUGF0aDogU3RyaW5nLCBmaWxlTmFtZTogU3RyaW5nLCBpc0RpcmVjdG9yeTogQm9vbGVhbiwgcnVsZXM6IExpc3Q8U3RyaW5nPik6IEJvb2xlYW4gewogICAgICAgIHZhbCByZWwgPSByZWxhdGl2ZVBhdGgudHJpbVN0YXJ0KCcvJykucmVwbGFjZSgnXFwnLCAnLycpLnRyaW1TdGFydCgnLycpCiAgICAgICAgdmFsIG5hbWUgPSBmaWxlTmFtZQoKICAgICAgICBmb3IgKHJ1bGUgaW4gcnVsZXMpIHsKICAgICAgICAgICAgaWYgKG1hdGNoZXNSdWxlKHJlbCwgbmFtZSwgaXNEaXJlY3RvcnksIHJ1bGUpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICAvKioKICAgICAqIOajgOafpeebruW9leWcqOmBjeWOhuaXtuaYr+WQpuW6lOivpee7p+e7rei/m+WFpeOAggogICAgICog6L+U5ZueIGZhbHNlIOaXtuiwg+eUqOaWueW6lOebtOaOpei3s+i/h+ivpeebruW9le+8jOmBv+WFjeaXoOaEj+S5ieeahOa3seWxgumBjeWOhuOAggogICAgICovCiAgICBmdW4gc2hvdWxkRW50ZXJEaXJlY3RvcnkoZGlyZWN0b3J5OiBGaWxlLCB3b3Jrc3BhY2VEaXI6IEZpbGUsIHJ1bGVzOiBMaXN0PFN0cmluZz4pOiBCb29sZWFuIHsKICAgICAgICBpZiAoIWRpcmVjdG9yeS5pc0RpcmVjdG9yeSkgcmV0dXJuIGZhbHNlCiAgICAgICAgcmV0dXJuICFzaG91bGRJZ25vcmUoZGlyZWN0b3J5LCB3b3Jrc3BhY2VEaXIsIHJ1bGVzKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOWMuemFjeWNleS4qiBnaXRpZ25vcmUg6KeE5YiZCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIG1hdGNoZXNSdWxlKHJlbGF0aXZlUGF0aDogU3RyaW5nLCBmaWxlTmFtZTogU3RyaW5nLCBpc0RpcmVjdG9yeTogQm9vbGVhbiwgcnVsZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFyIHBhdHRlcm4gPSBydWxlLnRyaW0oKQogICAgICAgIGlmIChwYXR0ZXJuLmlzRW1wdHkoKSkgcmV0dXJuIGZhbHNlCiAgICAgICAgCiAgICAgICAgLy8g5aSE55CG5ZCm5a6a6KeE5YiZ77yI5LulICEg5byA5aS077yJCiAgICAgICAgaWYgKHBhdHRlcm4uc3RhcnRzV2l0aCgiISIpKSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZSAvLyDmmoLkuI3mlK/mjIHlkKblrprop4TliJkKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5aSE55CG55uu5b2V6KeE5YiZ77yI5LulIC8g57uT5bC+77yJCiAgICAgICAgdmFsIGRpck9ubHkgPSBwYXR0ZXJuLmVuZHNXaXRoKCIvIikKICAgICAgICBpZiAoZGlyT25seSkgewogICAgICAgICAgICBpZiAoIWlzRGlyZWN0b3J5KSByZXR1cm4gZmFsc2UKICAgICAgICAgICAgcGF0dGVybiA9IHBhdHRlcm4ucmVtb3ZlU3VmZml4KCIvIikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5aSE55CG5qC555uu5b2V6KeE5YiZ77yI5LulIC8g5byA5aS077yJCiAgICAgICAgdmFsIHJvb3RPbmx5ID0gcGF0dGVybi5zdGFydHNXaXRoKCIvIikKICAgICAgICBpZiAocm9vdE9ubHkpIHsKICAgICAgICAgICAgcGF0dGVybiA9IHBhdHRlcm4ucmVtb3ZlUHJlZml4KCIvIikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g566A5Y2V5qih5byP5Yy56YWNCiAgICAgICAgcmV0dXJuIHdoZW4gewogICAgICAgICAgICAvLyDlrozmlbTot6/lvoTljLnphY0KICAgICAgICAgICAgcm9vdE9ubHkgLT4gbWF0Y2hQYXR0ZXJuKHJlbGF0aXZlUGF0aCwgcGF0dGVybikKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOaWh+S7tuWQjeWMuemFjQogICAgICAgICAgICBwYXR0ZXJuLmNvbnRhaW5zKCIvIikgLT4gbWF0Y2hQYXR0ZXJuKHJlbGF0aXZlUGF0aCwgcGF0dGVybikgfHwgcmVsYXRpdmVQYXRoLmVuZHNXaXRoKCIvJHBhdHRlcm4iKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5Lu75L2V5L2N572u55qE5paH5Lu25ZCN5Yy56YWNCiAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgZmlsZU5hbWUgPT0gcGF0dGVybiB8fCAKICAgICAgICAgICAgICAgIG1hdGNoUGF0dGVybihmaWxlTmFtZSwgcGF0dGVybikgfHwKICAgICAgICAgICAgICAgIHJlbGF0aXZlUGF0aC5zcGxpdCgiLyIpLmFueSB7IG1hdGNoUGF0dGVybihpdCwgcGF0dGVybikgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOeugOWNleeahOmAmumFjeespuaooeW8j+WMuemFjQogICAgICog5pSv5oyBICog5ZKMICoqIOmAmumFjeespgogICAgICovCiAgICBwcml2YXRlIGZ1biBtYXRjaFBhdHRlcm4odGV4dDogU3RyaW5nLCBwYXR0ZXJuOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICAvLyDlpITnkIYgKiovIOWJjee8gO+8iOWMuemFjeS7u+aEj+Wxgue6p+ebruW9le+8iQogICAgICAgIGlmIChwYXR0ZXJuLnN0YXJ0c1dpdGgoIioqLyIpKSB7CiAgICAgICAgICAgIHZhbCBzdWJQYXR0ZXJuID0gcGF0dGVybi5yZW1vdmVQcmVmaXgoIioqLyIpCiAgICAgICAgICAgIHJldHVybiB0ZXh0LmVuZHNXaXRoKHN1YlBhdHRlcm4pIHx8IG1hdGNoUGF0dGVybih0ZXh0LCBzdWJQYXR0ZXJuKQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDlpITnkIYgLyoqIOWQjue8gO+8iOWMuemFjeebruW9leS4i+aJgOacieWGheWuue+8iQogICAgICAgIGlmIChwYXR0ZXJuLmVuZHNXaXRoKCIvKioiKSkgewogICAgICAgICAgICB2YWwgcHJlZml4ID0gcGF0dGVybi5yZW1vdmVTdWZmaXgoIi8qKiIpCiAgICAgICAgICAgIHJldHVybiB0ZXh0LnN0YXJ0c1dpdGgocHJlZml4KSB8fCB0ZXh0ID09IHByZWZpeAogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDnroDljZXnmoQgKiDpgJrphY3nrKbljLnphY0KICAgICAgICBpZiAocGF0dGVybi5jb250YWlucygiKiIpKSB7CiAgICAgICAgICAgIHJldHVybiBtYXRjaFdpbGRjYXJkKHRleHQsIHBhdHRlcm4pCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOeyvuehruWMuemFjQogICAgICAgIHJldHVybiB0ZXh0ID09IHBhdHRlcm4KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDpgJrphY3nrKbljLnphY3vvIjmlK/mjIEgKiDlkowgP++8iQogICAgICovCiAgICBwcml2YXRlIGZ1biBtYXRjaFdpbGRjYXJkKHRleHQ6IFN0cmluZywgcGF0dGVybjogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIHJlZ2V4ID0gcGF0dGVybgogICAgICAgICAgICAucmVwbGFjZSgiLiIsICJcXC4iKQogICAgICAgICAgICAucmVwbGFjZSgiKiIsICIuKiIpCiAgICAgICAgICAgIC5yZXBsYWNlKCI/IiwgIi4iKQogICAgICAgIAogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB0ZXh0Lm1hdGNoZXMoUmVnZXgoIl4kcmVnZXgkIikpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.process
+
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+
+/**
+ * GitIgnore 文件过滤器
+ * 根据 .gitignore 规则过滤文件和目录
+ */
+object GitIgnoreFilter {
+    private const val TAG = "GitIgnoreFilter"
+
+    // 默认需要排除的目录（即使 .gitignore 中没有）
+    private val DEFAULT_EXCLUDES = setOf("backup", ".backup", ".operit")
+
+    fun defaultRules(): List<String> = DEFAULT_EXCLUDES.toList()
+
+    fun normalizePath(path: String): String {
+        var p = path.trim().replace('\\', '/')
+        if (p.isEmpty()) return "/"
+        while (p.contains("//")) p = p.replace("//", "/")
+        return p
+    }
+
+    fun parentPath(path: String): String {
+        val normalized = normalizePath(path).trimEnd('/')
+        if (normalized.isBlank() || normalized == "/") return "/"
+        val idx = normalized.lastIndexOf('/')
+        if (idx < 0) return normalized
+        if (idx == 0) return "/"
+        return normalized.substring(0, idx)
+    }
+
+    fun joinPath(base: String, child: String): String {
+        val normalized = normalizePath(base)
+        return if (normalized == "/") {
+            "/$child"
+        } else {
+            normalized.trimEnd('/') + "/" + child
+        }
+    }
+
+    fun toRelativePath(basePath: String, fullPath: String): String? {
+        val base = normalizePath(basePath).trimEnd('/').ifBlank { "/" }
+        val full = normalizePath(fullPath)
+        if (full == base) return ""
+
+        val prefix = if (base == "/") "/" else "$base/"
+        if (!full.startsWith(prefix)) return null
+        return full.removePrefix(prefix).trimStart('/')
+    }
+
+    fun parseRulesFromContent(content: String?): List<String> {
+        if (content.isNullOrBlank()) return emptyList()
+
+        val rules = LinkedHashSet<String>()
+        content
+            .lineSequence()
+            .map { it.trim() }
+            .filter { it.isNotEmpty() && !it.startsWith("#") }
+            .forEach { rule ->
+                rules.add(rule)
+                if (rule.endsWith('/')) {
+                    val withoutTrailingSlash = rule.removeSuffix("/").trim()
+                    if (withoutTrailingSlash.isNotEmpty()) {
+                        rules.add(withoutTrailingSlash)
+                    }
+                }
+            }
+
+        return rules.toList()
+    }
+
+    fun mergeWithDefaults(rules: List<String>): List<String> {
+        val merged = LinkedHashSet<String>()
+        merged.addAll(DEFAULT_EXCLUDES)
+        merged.addAll(rules)
+        return merged.toList()
+    }
+
+    fun buildRulesFromContent(content: String?): List<String> {
+        return mergeWithDefaults(parseRulesFromContent(content))
+    }
+
+    fun shouldIgnoreFileRelativePath(relativePath: String, rules: List<String>): Boolean {
+        val rel = relativePath.replace('\\', '/').trimStart('/')
+        if (rel.isBlank()) return false
+        val fileName = rel.substringAfterLast('/')
+        return shouldIgnore(rel, fileName, isDirectory = false, rules = rules)
+    }
+
+    /**
+     * 从工作区目录加载 .gitignore 规则
+     */
+    fun loadRules(workspaceDir: File): List<String> {
+        val rules = LinkedHashSet<String>()
+
+        // 添加默认排除规则
+        rules.addAll(DEFAULT_EXCLUDES)
+
+        try {
+            val gitignoreFile = File(workspaceDir, ".gitignore")
+            if (gitignoreFile.exists() && gitignoreFile.isFile) {
+                rules.addAll(parseRulesFromContent(gitignoreFile.readText()))
+                AppLogger.d(TAG, "已加载 ${rules.size} 条规则 from ${gitignoreFile.absolutePath}")
+            } else {
+                AppLogger.d(TAG, ".gitignore 文件不存在，仅使用默认排除规则")
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "加载 .gitignore 文件失败", e)
+        }
+
+        return rules.toList()
+    }
+    
+    /**
+     * 检查文件或目录是否应该被忽略
+     * @param file 要检查的文件或目录
+     * @param workspaceDir 工作区根目录
+     * @param rules gitignore 规则列表
+     * @return true 如果应该被忽略
+     */
+    fun shouldIgnore(file: File, workspaceDir: File, rules: List<String>): Boolean {
+        val relativePath = try {
+            file.relativeTo(workspaceDir).path.replace(File.separatorChar, '/')
+        } catch (e: Exception) {
+            return false
+        }
+        
+        val fileName = file.name
+        
+        for (rule in rules) {
+            if (matchesRule(relativePath, fileName, file.isDirectory, rule)) {
+                return true
+            }
+        }
+        
+        return false
+    }
+
+    fun shouldIgnore(relativePath: String, fileName: String, isDirectory: Boolean, rules: List<String>): Boolean {
+        val rel = relativePath.trimStart('/').replace('\\', '/').trimStart('/')
+        val name = fileName
+
+        for (rule in rules) {
+            if (matchesRule(rel, name, isDirectory, rule)) {
+                return true
+            }
+        }
+
+        return false
+    }
+
+    /**
+     * 检查目录在遍历时是否应该继续进入。
+     * 返回 false 时调用方应直接跳过该目录，避免无意义的深层遍历。
+     */
+    fun shouldEnterDirectory(directory: File, workspaceDir: File, rules: List<String>): Boolean {
+        if (!directory.isDirectory) return false
+        return !shouldIgnore(directory, workspaceDir, rules)
+    }
+    
+    /**
+     * 匹配单个 gitignore 规则
+     */
+    private fun matchesRule(relativePath: String, fileName: String, isDirectory: Boolean, rule: String): Boolean {
+        var pattern = rule.trim()
+        if (pattern.isEmpty()) return false
+        
+        // 处理否定规则（以 ! 开头）
+        if (pattern.startsWith("!")) {
+            return false // 暂不支持否定规则
+        }
+        
+        // 处理目录规则（以 / 结尾）
+        val dirOnly = pattern.endsWith("/")
+        if (dirOnly) {
+            if (!isDirectory) return false
+            pattern = pattern.removeSuffix("/")
+        }
+        
+        // 处理根目录规则（以 / 开头）
+        val rootOnly = pattern.startsWith("/")
+        if (rootOnly) {
+            pattern = pattern.removePrefix("/")
+        }
+        
+        // 简单模式匹配
+        return when {
+            // 完整路径匹配
+            rootOnly -> matchPattern(relativePath, pattern)
+            
+            // 文件名匹配
+            pattern.contains("/") -> matchPattern(relativePath, pattern) || relativePath.endsWith("/$pattern")
+            
+            // 任何位置的文件名匹配
+            else -> {
+                fileName == pattern || 
+                matchPattern(fileName, pattern) ||
+                relativePath.split("/").any { matchPattern(it, pattern) }
+            }
+        }
+    }
+    
+    /**
+     * 简单的通配符模式匹配
+     * 支持 * 和 ** 通配符
+     */
+    private fun matchPattern(text: String, pattern: String): Boolean {
+        // 处理 **/ 前缀（匹配任意层级目录）
+        if (pattern.startsWith("**/")) {
+            val subPattern = pattern.removePrefix("**/")
+            return text.endsWith(subPattern) || matchPattern(text, subPattern)
+        }
+        
+        // 处理 /** 后缀（匹配目录下所有内容）
+        if (pattern.endsWith("/**")) {
+            val prefix = pattern.removeSuffix("/**")
+            return text.startsWith(prefix) || text == prefix
+        }
+        
+        // 简单的 * 通配符匹配
+        if (pattern.contains("*")) {
+            return matchWildcard(text, pattern)
+        }
+        
+        // 精确匹配
+        return text == pattern
+    }
+    
+    /**
+     * 通配符匹配（支持 * 和 ?）
+     */
+    private fun matchWildcard(text: String, pattern: String): Boolean {
+        val regex = pattern
+            .replace(".", "\\.")
+            .replace("*", ".*")
+            .replace("?", ".")
+        
+        return try {
+            text.matches(Regex("^$regex$"))
+        } catch (e: Exception) {
+            false
+        }
+    }
+}

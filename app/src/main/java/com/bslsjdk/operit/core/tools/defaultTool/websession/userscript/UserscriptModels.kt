@@ -1,1 +1,191 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQKCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCgppbnRlcm5hbCBlbnVtIGNsYXNzIFVzZXJzY3JpcHRSdW5BdCh2YWwgcmF3VmFsdWU6IFN0cmluZykgewogICAgRE9DVU1FTlRfU1RBUlQoImRvY3VtZW50LXN0YXJ0IiksCiAgICBET0NVTUVOVF9FTkQoImRvY3VtZW50LWVuZCIpLAogICAgRE9DVU1FTlRfSURMRSgiZG9jdW1lbnQtaWRsZSIpOwoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGZ1biBmcm9tUmF3KHJhdzogU3RyaW5nPyk6IFVzZXJzY3JpcHRSdW5BdCA9CiAgICAgICAgICAgIGVudHJpZXMuZmlyc3RPck51bGwgeyBpdC5yYXdWYWx1ZS5lcXVhbHMocmF3Py50cmltKCksIGlnbm9yZUNhc2UgPSB0cnVlKSB9CiAgICAgICAgICAgICAgICA/OiBET0NVTUVOVF9FTkQKICAgIH0KfQoKaW50ZXJuYWwgZW51bSBjbGFzcyBVc2Vyc2NyaXB0SW5zdGFsbFNvdXJjZVR5cGUgewogICAgTE9DQUxfRklMRSwKICAgIFJFTU9URV9VUkwsCiAgICBQQUdFX0xJTkssCiAgICBVUERBVEUsCiAgICBUT09MX0lOUFVUCn0KCkBTZXJpYWxpemFibGUKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0UmVxdWlyZUVudHJ5KAogICAgdmFsIHVybDogU3RyaW5nCikKCkBTZXJpYWxpemFibGUKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0SGVhZGVyRW50cnkoCiAgICB2YWwga2V5OiBTdHJpbmcsCiAgICB2YWwgdmFsdWU6IFN0cmluZyA9ICIiCikKCkBTZXJpYWxpemFibGUKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0UmVzb3VyY2VFbnRyeSgKICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICB2YWwgdXJsOiBTdHJpbmcKKQoKQFNlcmlhbGl6YWJsZQppbnRlcm5hbCBkYXRhIGNsYXNzIFVzZXJzY3JpcHRJY29uU2V0KAogICAgdmFsIGljb246IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGljb242NDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgZGVmYXVsdEljb246IFN0cmluZz8gPSBudWxsCikKCkBTZXJpYWxpemFibGUKaW50ZXJuYWwgZGF0YSBjbGFzcyBQYXJzZWRVc2Vyc2NyaXB0TWV0YWRhdGEoCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgdmFsIG5hbWVzcGFjZTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdmVyc2lvbjogU3RyaW5nID0gIjAiLAogICAgdmFsIGRlc2NyaXB0aW9uOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBhdXRob3I6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGhvbWVwYWdlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCB3ZWJzaXRlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBzdXBwb3J0VXJsOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBkb3dubG9hZFVybDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdXBkYXRlVXJsOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBydW5BdDogVXNlcnNjcmlwdFJ1bkF0ID0gVXNlcnNjcmlwdFJ1bkF0LkRPQ1VNRU5UX0VORCwKICAgIHZhbCBncmFudHM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIG1hdGNoZXM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGluY2x1ZGVzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBleGNsdWRlczogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwgZXhjbHVkZU1hdGNoZXM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGNvbm5lY3RzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCByZXF1aXJlczogTGlzdDxVc2Vyc2NyaXB0UmVxdWlyZUVudHJ5PiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIHJlc291cmNlczogTGlzdDxVc2Vyc2NyaXB0UmVzb3VyY2VFbnRyeT4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBpY29uczogVXNlcnNjcmlwdEljb25TZXQgPSBVc2Vyc2NyaXB0SWNvblNldCgpLAogICAgdmFsIHRhZ3M6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIHNhbmRib3g6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHJ1bkluOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCB1bndyYXA6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCB3ZWJSZXF1ZXN0UnVsZXM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIHJhd0hlYWRlcnM6IExpc3Q8VXNlcnNjcmlwdEhlYWRlckVudHJ5PiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIG5vRnJhbWVzOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgbWV0YWRhdGFCbG9jazogU3RyaW5nID0gIiIKKQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0SW5zdGFsbFByZXZpZXcoCiAgICB2YWwgbWV0YWRhdGE6IFBhcnNlZFVzZXJzY3JpcHRNZXRhZGF0YSwKICAgIHZhbCByYXdTb3VyY2U6IFN0cmluZywKICAgIHZhbCBzb3VyY2VUeXBlOiBVc2Vyc2NyaXB0SW5zdGFsbFNvdXJjZVR5cGUsCiAgICB2YWwgc291cmNlVXJsOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBzb3VyY2VEaXNwbGF5OiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBrbm93bkdyYW50czogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwgdW5rbm93bkdyYW50czogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwgYmxvY2tlZFJlYXNvbnM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGlzVXBkYXRlOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgZXhpc3RpbmdTY3JpcHRJZDogTG9uZz8gPSBudWxsCikKCkBTZXJpYWxpemFibGUKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0Qm9vdHN0cmFwUGF5bG9hZCgKICAgIHZhbCBzY3JpcHRzOiBMaXN0PFVzZXJzY3JpcHRFeGVjdXRpb25QYXlsb2FkPiA9IGVtcHR5TGlzdCgpCikKCkBTZXJpYWxpemFibGUKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0RXhlY3V0aW9uUGF5bG9hZCgKICAgIHZhbCBzY3JpcHRJZDogTG9uZywKICAgIHZhbCBzZXNzaW9uSWQ6IFN0cmluZywKICAgIHZhbCBwYWdlVXJsOiBTdHJpbmcsCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgdmFsIG5hbWVzcGFjZTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdmVyc2lvbjogU3RyaW5nLAogICAgdmFsIHJ1bkF0OiBTdHJpbmcsCiAgICB2YWwgZ3JhbnRzOiBMaXN0PFN0cmluZz4sCiAgICB2YWwgY2FwYWJpbGl0aWVzOiBMaXN0PFN0cmluZz4sCiAgICB2YWwgbWV0YWRhdGFKc29uOiBTdHJpbmcsCiAgICB2YWwgY29kZTogU3RyaW5nLAogICAgdmFsIHJlcXVpcmVzOiBMaXN0PFN0cmluZz4sCiAgICB2YWwgdmFsdWVzOiBNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgdmFsIHJlc291cmNlczogTWFwPFN0cmluZywgVXNlcnNjcmlwdFJlc291cmNlUGF5bG9hZD4KKQoKQFNlcmlhbGl6YWJsZQppbnRlcm5hbCBkYXRhIGNsYXNzIFVzZXJzY3JpcHRSZXNvdXJjZVBheWxvYWQoCiAgICB2YWwgdGV4dDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgZGF0YVVybDogU3RyaW5nPyA9IG51bGwKKQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0TGlzdEl0ZW0oCiAgICB2YWwgaWQ6IExvbmcsCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgdmFsIG5hbWVzcGFjZTogU3RyaW5nPywKICAgIHZhbCB2ZXJzaW9uOiBTdHJpbmcsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZz8sCiAgICB2YWwgc291cmNlRGlzcGxheTogU3RyaW5nPywKICAgIHZhbCBlbmFibGVkOiBCb29sZWFuLAogICAgdmFsIHVua25vd25HcmFudHM6IExpc3Q8U3RyaW5nPiwKICAgIHZhbCBibG9ja2VkUmVhc29uczogTGlzdDxTdHJpbmc+LAogICAgdmFsIGdyYW50czogTGlzdDxTdHJpbmc+LAogICAgdmFsIG1hdGNoZXM6IExpc3Q8U3RyaW5nPiwKICAgIHZhbCBpbmNsdWRlczogTGlzdDxTdHJpbmc+LAogICAgdmFsIGV4Y2x1ZGVzOiBMaXN0PFN0cmluZz4sCiAgICB2YWwgZXhjbHVkZU1hdGNoZXM6IExpc3Q8U3RyaW5nPiwKICAgIHZhbCBjb25uZWN0czogTGlzdDxTdHJpbmc+LAogICAgdmFsIHJlcXVpcmVzOiBMaXN0PFVzZXJzY3JpcHRSZXF1aXJlRW50cnk+LAogICAgdmFsIHJlc291cmNlczogTGlzdDxVc2Vyc2NyaXB0UmVzb3VyY2VFbnRyeT4sCiAgICB2YWwgaG9tZXBhZ2U6IFN0cmluZz8sCiAgICB2YWwgd2Vic2l0ZTogU3RyaW5nPywKICAgIHZhbCBzdXBwb3J0VXJsOiBTdHJpbmc/LAogICAgdmFsIGljb25zOiBVc2Vyc2NyaXB0SWNvblNldCwKICAgIHZhbCB0YWdzOiBMaXN0PFN0cmluZz4sCiAgICB2YWwgc2FuZGJveDogU3RyaW5nPywKICAgIHZhbCBydW5JbjogU3RyaW5nPywKICAgIHZhbCB1bndyYXA6IEJvb2xlYW4sCiAgICB2YWwgd2ViUmVxdWVzdFJ1bGVzOiBMaXN0PFN0cmluZz4sCiAgICB2YWwgc291cmNlVXJsOiBTdHJpbmc/LAogICAgdmFsIHVwZGF0ZVVybDogU3RyaW5nPywKICAgIHZhbCBkb3dubG9hZFVybDogU3RyaW5nPywKICAgIHZhbCBpbnN0YWxsZWRBdDogTG9uZywKICAgIHZhbCB1cGRhdGVkQXQ6IExvbmcKKQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0TG9nSXRlbSgKICAgIHZhbCBpZDogTG9uZywKICAgIHZhbCB1c2Vyc2NyaXB0SWQ6IExvbmc/LAogICAgdmFsIGxldmVsOiBTdHJpbmcsCiAgICB2YWwgbWVzc2FnZTogU3RyaW5nLAogICAgdmFsIHBhZ2VVcmw6IFN0cmluZz8sCiAgICB2YWwgY3JlYXRlZEF0OiBMb25nCikKCmludGVybmFsIGRhdGEgY2xhc3MgVXNlcnNjcmlwdFBhZ2VNZW51Q29tbWFuZCgKICAgIHZhbCBjb21tYW5kSWQ6IFN0cmluZywKICAgIHZhbCB0aXRsZTogU3RyaW5nLAogICAgdmFsIHVzZXJzY3JpcHRJZDogTG9uZwopCgppbnRlcm5hbCBkYXRhIGNsYXNzIFVzZXJzY3JpcHRTdXBwb3J0U3RhdGUoCiAgICB2YWwgaXNTdXBwb3J0ZWQ6IEJvb2xlYW4sCiAgICB2YWwgcmVhc29uOiBTdHJpbmc/ID0gbnVsbAopCgppbnRlcm5hbCBlbnVtIGNsYXNzIFVzZXJzY3JpcHRQYWdlUnVudGltZVN0YXRlIHsKICAgIERJU0FCTEVELAogICAgVU5TVVBQT1JURUQsCiAgICBOT1RfTUFUQ0hFRCwKICAgIFFVRVVFRCwKICAgIFJVTk5JTkcsCiAgICBTVUNDRVNTLAogICAgRVJST1IKfQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0UGFnZVJ1bnRpbWVTdGF0dXMoCiAgICB2YWwgc3RhdGU6IFVzZXJzY3JpcHRQYWdlUnVudGltZVN0YXRlLAogICAgdmFsIGRldGFpbDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdXBkYXRlZEF0OiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKKQo=
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript
+
+import kotlinx.serialization.Serializable
+
+internal enum class UserscriptRunAt(val rawValue: String) {
+    DOCUMENT_START("document-start"),
+    DOCUMENT_END("document-end"),
+    DOCUMENT_IDLE("document-idle");
+
+    companion object {
+        fun fromRaw(raw: String?): UserscriptRunAt =
+            entries.firstOrNull { it.rawValue.equals(raw?.trim(), ignoreCase = true) }
+                ?: DOCUMENT_END
+    }
+}
+
+internal enum class UserscriptInstallSourceType {
+    LOCAL_FILE,
+    REMOTE_URL,
+    PAGE_LINK,
+    UPDATE,
+    TOOL_INPUT
+}
+
+@Serializable
+internal data class UserscriptRequireEntry(
+    val url: String
+)
+
+@Serializable
+internal data class UserscriptHeaderEntry(
+    val key: String,
+    val value: String = ""
+)
+
+@Serializable
+internal data class UserscriptResourceEntry(
+    val name: String,
+    val url: String
+)
+
+@Serializable
+internal data class UserscriptIconSet(
+    val icon: String? = null,
+    val icon64: String? = null,
+    val defaultIcon: String? = null
+)
+
+@Serializable
+internal data class ParsedUserscriptMetadata(
+    val name: String,
+    val namespace: String? = null,
+    val version: String = "0",
+    val description: String? = null,
+    val author: String? = null,
+    val homepage: String? = null,
+    val website: String? = null,
+    val supportUrl: String? = null,
+    val downloadUrl: String? = null,
+    val updateUrl: String? = null,
+    val runAt: UserscriptRunAt = UserscriptRunAt.DOCUMENT_END,
+    val grants: List<String> = emptyList(),
+    val matches: List<String> = emptyList(),
+    val includes: List<String> = emptyList(),
+    val excludes: List<String> = emptyList(),
+    val excludeMatches: List<String> = emptyList(),
+    val connects: List<String> = emptyList(),
+    val requires: List<UserscriptRequireEntry> = emptyList(),
+    val resources: List<UserscriptResourceEntry> = emptyList(),
+    val icons: UserscriptIconSet = UserscriptIconSet(),
+    val tags: List<String> = emptyList(),
+    val sandbox: String? = null,
+    val runIn: String? = null,
+    val unwrap: Boolean = false,
+    val webRequestRules: List<String> = emptyList(),
+    val rawHeaders: List<UserscriptHeaderEntry> = emptyList(),
+    val noFrames: Boolean = false,
+    val metadataBlock: String = ""
+)
+
+internal data class UserscriptInstallPreview(
+    val metadata: ParsedUserscriptMetadata,
+    val rawSource: String,
+    val sourceType: UserscriptInstallSourceType,
+    val sourceUrl: String? = null,
+    val sourceDisplay: String? = null,
+    val knownGrants: List<String> = emptyList(),
+    val unknownGrants: List<String> = emptyList(),
+    val blockedReasons: List<String> = emptyList(),
+    val isUpdate: Boolean = false,
+    val existingScriptId: Long? = null
+)
+
+@Serializable
+internal data class UserscriptBootstrapPayload(
+    val scripts: List<UserscriptExecutionPayload> = emptyList()
+)
+
+@Serializable
+internal data class UserscriptExecutionPayload(
+    val scriptId: Long,
+    val sessionId: String,
+    val pageUrl: String,
+    val name: String,
+    val namespace: String? = null,
+    val version: String,
+    val runAt: String,
+    val grants: List<String>,
+    val capabilities: List<String>,
+    val metadataJson: String,
+    val code: String,
+    val requires: List<String>,
+    val values: Map<String, String>,
+    val resources: Map<String, UserscriptResourcePayload>
+)
+
+@Serializable
+internal data class UserscriptResourcePayload(
+    val text: String? = null,
+    val dataUrl: String? = null
+)
+
+internal data class UserscriptListItem(
+    val id: Long,
+    val name: String,
+    val namespace: String?,
+    val version: String,
+    val description: String?,
+    val sourceDisplay: String?,
+    val enabled: Boolean,
+    val unknownGrants: List<String>,
+    val blockedReasons: List<String>,
+    val grants: List<String>,
+    val matches: List<String>,
+    val includes: List<String>,
+    val excludes: List<String>,
+    val excludeMatches: List<String>,
+    val connects: List<String>,
+    val requires: List<UserscriptRequireEntry>,
+    val resources: List<UserscriptResourceEntry>,
+    val homepage: String?,
+    val website: String?,
+    val supportUrl: String?,
+    val icons: UserscriptIconSet,
+    val tags: List<String>,
+    val sandbox: String?,
+    val runIn: String?,
+    val unwrap: Boolean,
+    val webRequestRules: List<String>,
+    val sourceUrl: String?,
+    val updateUrl: String?,
+    val downloadUrl: String?,
+    val installedAt: Long,
+    val updatedAt: Long
+)
+
+internal data class UserscriptLogItem(
+    val id: Long,
+    val userscriptId: Long?,
+    val level: String,
+    val message: String,
+    val pageUrl: String?,
+    val createdAt: Long
+)
+
+internal data class UserscriptPageMenuCommand(
+    val commandId: String,
+    val title: String,
+    val userscriptId: Long
+)
+
+internal data class UserscriptSupportState(
+    val isSupported: Boolean,
+    val reason: String? = null
+)
+
+internal enum class UserscriptPageRuntimeState {
+    DISABLED,
+    UNSUPPORTED,
+    NOT_MATCHED,
+    QUEUED,
+    RUNNING,
+    SUCCESS,
+    ERROR
+}
+
+internal data class UserscriptPageRuntimeStatus(
+    val state: UserscriptPageRuntimeState,
+    val detail: String? = null,
+    val updatedAt: Long = System.currentTimeMillis()
+)

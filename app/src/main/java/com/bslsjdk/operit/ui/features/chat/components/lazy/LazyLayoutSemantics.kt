@@ -1,1 +1,268 @@
-LyoKICogQ29weXJpZ2h0IDIwMjIgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5FeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uZ2VzdHVyZXMuT3JpZW50YXRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5pbnRlcm5hbC5yZXF1aXJlUHJlY29uZGl0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ub2RlLk1vZGlmaWVyTm9kZUVsZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubm9kZS5TZW1hbnRpY3NNb2RpZmllck5vZGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubm9kZS5pbnZhbGlkYXRlU2VtYW50aWNzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkluc3BlY3RvckluZm8KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLkNvbGxlY3Rpb25JbmZvCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnNlbWFudGljcy5TY3JvbGxBeGlzUmFuZ2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLlNlbWFudGljc1Byb3BlcnR5UmVjZWl2ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLmNvbGxlY3Rpb25JbmZvCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnNlbWFudGljcy5nZXRTY3JvbGxWaWV3cG9ydExlbmd0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5zZW1hbnRpY3MuaG9yaXpvbnRhbFNjcm9sbEF4aXNSYW5nZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5zZW1hbnRpY3MuaW5kZXhGb3JLZXkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLmlzVHJhdmVyc2FsR3JvdXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLnNjcm9sbFRvSW5kZXgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLnZlcnRpY2FsU2Nyb2xsQXhpc1JhbmdlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgpAT3B0SW4oRXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmludGVybmFsIGZ1biBNb2RpZmllci5sYXp5TGF5b3V0U2VtYW50aWNzKAogICAgaXRlbVByb3ZpZGVyTGFtYmRhOiAoKSAtPiBMYXp5TGF5b3V0SXRlbVByb3ZpZGVyLAogICAgc3RhdGU6IExhenlMYXlvdXRTZW1hbnRpY1N0YXRlLAogICAgb3JpZW50YXRpb246IE9yaWVudGF0aW9uLAogICAgdXNlclNjcm9sbEVuYWJsZWQ6IEJvb2xlYW4sCiAgICByZXZlcnNlU2Nyb2xsaW5nOiBCb29sZWFuLAopOiBNb2RpZmllciA9CiAgICB0aGlzIHRoZW4KICAgICAgICBMYXp5TGF5b3V0U2VtYW50aWNzTW9kaWZpZXIoCiAgICAgICAgICAgIGl0ZW1Qcm92aWRlckxhbWJkYSA9IGl0ZW1Qcm92aWRlckxhbWJkYSwKICAgICAgICAgICAgc3RhdGUgPSBzdGF0ZSwKICAgICAgICAgICAgb3JpZW50YXRpb24gPSBvcmllbnRhdGlvbiwKICAgICAgICAgICAgdXNlclNjcm9sbEVuYWJsZWQgPSB1c2VyU2Nyb2xsRW5hYmxlZCwKICAgICAgICAgICAgcmV2ZXJzZVNjcm9sbGluZyA9IHJldmVyc2VTY3JvbGxpbmcsCiAgICAgICAgKQoKQE9wdEluKEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGk6OmNsYXNzKQpwcml2YXRlIGNsYXNzIExhenlMYXlvdXRTZW1hbnRpY3NNb2RpZmllcigKICAgIHZhbCBpdGVtUHJvdmlkZXJMYW1iZGE6ICgpIC0+IExhenlMYXlvdXRJdGVtUHJvdmlkZXIsCiAgICB2YWwgc3RhdGU6IExhenlMYXlvdXRTZW1hbnRpY1N0YXRlLAogICAgdmFsIG9yaWVudGF0aW9uOiBPcmllbnRhdGlvbiwKICAgIHZhbCB1c2VyU2Nyb2xsRW5hYmxlZDogQm9vbGVhbiwKICAgIHZhbCByZXZlcnNlU2Nyb2xsaW5nOiBCb29sZWFuLAopIDogTW9kaWZpZXJOb2RlRWxlbWVudDxMYXp5TGF5b3V0U2VtYW50aWNzTW9kaWZpZXJOb2RlPigpIHsKICAgIG92ZXJyaWRlIGZ1biBjcmVhdGUoKTogTGF6eUxheW91dFNlbWFudGljc01vZGlmaWVyTm9kZSA9CiAgICAgICAgTGF6eUxheW91dFNlbWFudGljc01vZGlmaWVyTm9kZSgKICAgICAgICAgICAgaXRlbVByb3ZpZGVyTGFtYmRhID0gaXRlbVByb3ZpZGVyTGFtYmRhLAogICAgICAgICAgICBzdGF0ZSA9IHN0YXRlLAogICAgICAgICAgICBvcmllbnRhdGlvbiA9IG9yaWVudGF0aW9uLAogICAgICAgICAgICB1c2VyU2Nyb2xsRW5hYmxlZCA9IHVzZXJTY3JvbGxFbmFibGVkLAogICAgICAgICAgICByZXZlcnNlU2Nyb2xsaW5nID0gcmV2ZXJzZVNjcm9sbGluZywKICAgICAgICApCgogICAgb3ZlcnJpZGUgZnVuIHVwZGF0ZShub2RlOiBMYXp5TGF5b3V0U2VtYW50aWNzTW9kaWZpZXJOb2RlKSB7CiAgICAgICAgbm9kZS51cGRhdGUoCiAgICAgICAgICAgIGl0ZW1Qcm92aWRlckxhbWJkYSA9IGl0ZW1Qcm92aWRlckxhbWJkYSwKICAgICAgICAgICAgc3RhdGUgPSBzdGF0ZSwKICAgICAgICAgICAgb3JpZW50YXRpb24gPSBvcmllbnRhdGlvbiwKICAgICAgICAgICAgdXNlclNjcm9sbEVuYWJsZWQgPSB1c2VyU2Nyb2xsRW5hYmxlZCwKICAgICAgICAgICAgcmV2ZXJzZVNjcm9sbGluZyA9IHJldmVyc2VTY3JvbGxpbmcsCiAgICAgICAgKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBJbnNwZWN0b3JJbmZvLmluc3BlY3RhYmxlUHJvcGVydGllcygpIHsKICAgICAgICAvLyBOb3QgYSBwdWJsaWMgbW9kaWZpZXIuCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGVxdWFscyhvdGhlcjogQW55Pyk6IEJvb2xlYW4gewogICAgICAgIGlmICh0aGlzID09PSBvdGhlcikgcmV0dXJuIHRydWUKICAgICAgICBpZiAob3RoZXIgIWlzIExhenlMYXlvdXRTZW1hbnRpY3NNb2RpZmllcikgcmV0dXJuIGZhbHNlCgogICAgICAgIGlmIChpdGVtUHJvdmlkZXJMYW1iZGEgIT09IG90aGVyLml0ZW1Qcm92aWRlckxhbWJkYSkgcmV0dXJuIGZhbHNlCiAgICAgICAgaWYgKHN0YXRlICE9IG90aGVyLnN0YXRlKSByZXR1cm4gZmFsc2UKICAgICAgICBpZiAob3JpZW50YXRpb24gIT0gb3RoZXIub3JpZW50YXRpb24pIHJldHVybiBmYWxzZQogICAgICAgIGlmICh1c2VyU2Nyb2xsRW5hYmxlZCAhPSBvdGhlci51c2VyU2Nyb2xsRW5hYmxlZCkgcmV0dXJuIGZhbHNlCiAgICAgICAgaWYgKHJldmVyc2VTY3JvbGxpbmcgIT0gb3RoZXIucmV2ZXJzZVNjcm9sbGluZykgcmV0dXJuIGZhbHNlCgogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGhhc2hDb2RlKCk6IEludCB7CiAgICAgICAgdmFyIHJlc3VsdCA9IGl0ZW1Qcm92aWRlckxhbWJkYS5oYXNoQ29kZSgpCiAgICAgICAgcmVzdWx0ID0gMzEgKiByZXN1bHQgKyBzdGF0ZS5oYXNoQ29kZSgpCiAgICAgICAgcmVzdWx0ID0gMzEgKiByZXN1bHQgKyBvcmllbnRhdGlvbi5oYXNoQ29kZSgpCiAgICAgICAgcmVzdWx0ID0gMzEgKiByZXN1bHQgKyB1c2VyU2Nyb2xsRW5hYmxlZC5oYXNoQ29kZSgpCiAgICAgICAgcmVzdWx0ID0gMzEgKiByZXN1bHQgKyByZXZlcnNlU2Nyb2xsaW5nLmhhc2hDb2RlKCkKICAgICAgICByZXR1cm4gcmVzdWx0CiAgICB9Cn0KCkBPcHRJbihFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpOjpjbGFzcykKcHJpdmF0ZSBjbGFzcyBMYXp5TGF5b3V0U2VtYW50aWNzTW9kaWZpZXJOb2RlKAogICAgcHJpdmF0ZSB2YXIgaXRlbVByb3ZpZGVyTGFtYmRhOiAoKSAtPiBMYXp5TGF5b3V0SXRlbVByb3ZpZGVyLAogICAgcHJpdmF0ZSB2YXIgc3RhdGU6IExhenlMYXlvdXRTZW1hbnRpY1N0YXRlLAogICAgcHJpdmF0ZSB2YXIgb3JpZW50YXRpb246IE9yaWVudGF0aW9uLAogICAgcHJpdmF0ZSB2YXIgdXNlclNjcm9sbEVuYWJsZWQ6IEJvb2xlYW4sCiAgICBwcml2YXRlIHZhciByZXZlcnNlU2Nyb2xsaW5nOiBCb29sZWFuLAopIDogTW9kaWZpZXIuTm9kZSgpLCBTZW1hbnRpY3NNb2RpZmllck5vZGUgewoKICAgIG92ZXJyaWRlIHZhbCBzaG91bGRBdXRvSW52YWxpZGF0ZTogQm9vbGVhbgogICAgICAgIGdldCgpID0gZmFsc2UKCiAgICBwcml2YXRlIHZhbCBpc1ZlcnRpY2FsCiAgICAgICAgZ2V0KCkgPSBvcmllbnRhdGlvbiA9PSBPcmllbnRhdGlvbi5WZXJ0aWNhbAoKICAgIHByaXZhdGUgdmFsIGNvbGxlY3Rpb25JbmZvCiAgICAgICAgZ2V0KCkgPSBzdGF0ZS5jb2xsZWN0aW9uSW5mbygpCgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgc2Nyb2xsQXhpc1JhbmdlOiBTY3JvbGxBeGlzUmFuZ2UKCiAgICBwcml2YXRlIHZhbCBpbmRleEZvcktleU1hcHBpbmc6IChBbnkpIC0+IEludCA9IHsgbmVlZGxlIC0+CiAgICAgICAgdmFsIGl0ZW1Qcm92aWRlciA9IGl0ZW1Qcm92aWRlckxhbWJkYSgpCiAgICAgICAgdmFyIHJlc3VsdCA9IC0xCiAgICAgICAgZm9yIChpbmRleCBpbiAwIHVudGlsIGl0ZW1Qcm92aWRlci5pdGVtQ291bnQpIHsKICAgICAgICAgICAgaWYgKGl0ZW1Qcm92aWRlci5nZXRLZXkoaW5kZXgpID09IG5lZWRsZSkgewogICAgICAgICAgICAgICAgcmVzdWx0ID0gaW5kZXgKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmVzdWx0CiAgICB9CgogICAgcHJpdmF0ZSB2YXIgc2Nyb2xsVG9JbmRleEFjdGlvbjogKChJbnQpIC0+IEJvb2xlYW4pPyA9IG51bGwKCiAgICBpbml0IHsKICAgICAgICB1cGRhdGVDYWNoZWRTZW1hbnRpY3NWYWx1ZXMoKQogICAgfQoKICAgIGZ1biB1cGRhdGUoCiAgICAgICAgaXRlbVByb3ZpZGVyTGFtYmRhOiAoKSAtPiBMYXp5TGF5b3V0SXRlbVByb3ZpZGVyLAogICAgICAgIHN0YXRlOiBMYXp5TGF5b3V0U2VtYW50aWNTdGF0ZSwKICAgICAgICBvcmllbnRhdGlvbjogT3JpZW50YXRpb24sCiAgICAgICAgdXNlclNjcm9sbEVuYWJsZWQ6IEJvb2xlYW4sCiAgICAgICAgcmV2ZXJzZVNjcm9sbGluZzogQm9vbGVhbiwKICAgICkgewogICAgICAgIC8vIFRoZXNlIHByb3BlcnRpZXMgYXJlIG9ubHkgcmVhZCBsYXppbHksIHNvIHdlIGRvbid0IG5lZWQgdG8gaW52YWxpZGF0ZQogICAgICAgIC8vIHNlbWFudGljcyBpZiB0aGV5IGNoYW5nZS4KICAgICAgICB0aGlzLml0ZW1Qcm92aWRlckxhbWJkYSA9IGl0ZW1Qcm92aWRlckxhbWJkYQogICAgICAgIHRoaXMuc3RhdGUgPSBzdGF0ZQoKICAgICAgICAvLyBUaGVzZSBwcm9wZXJ0aWVzIGFyZSByZWFkIHdoZW4gYXBwbGluZyBzZW1hbnRpY3MsIGJ1dCBkb24ndCBuZWVkIHRvIHJlYnVpbGQgdGhlIGNhY2hlLgogICAgICAgIGlmICh0aGlzLm9yaWVudGF0aW9uICE9IG9yaWVudGF0aW9uKSB7CiAgICAgICAgICAgIHRoaXMub3JpZW50YXRpb24gPSBvcmllbnRhdGlvbgogICAgICAgICAgICBpbnZhbGlkYXRlU2VtYW50aWNzKCkKICAgICAgICB9CgogICAgICAgIC8vIFRoZXNlIHZhbHVlcyBhcmUgdXNlZCB0byBidWlsZCBkaWZmZXJlbnQgY2FjaGVkIHZhbHVlcy4gSWYgdGhleSwgd2UgbmVlZCB0byByZWJ1aWxkIHRoZQogICAgICAgIC8vIGNhY2hlLgogICAgICAgIGlmICgKICAgICAgICAgICAgdGhpcy51c2VyU2Nyb2xsRW5hYmxlZCAhPSB1c2VyU2Nyb2xsRW5hYmxlZCB8fCB0aGlzLnJldmVyc2VTY3JvbGxpbmcgIT0gcmV2ZXJzZVNjcm9sbGluZwogICAgICAgICkgewogICAgICAgICAgICB0aGlzLnVzZXJTY3JvbGxFbmFibGVkID0gdXNlclNjcm9sbEVuYWJsZWQKICAgICAgICAgICAgdGhpcy5yZXZlcnNlU2Nyb2xsaW5nID0gcmV2ZXJzZVNjcm9sbGluZwogICAgICAgICAgICB1cGRhdGVDYWNoZWRTZW1hbnRpY3NWYWx1ZXMoKQogICAgICAgICAgICBpbnZhbGlkYXRlU2VtYW50aWNzKCkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIFNlbWFudGljc1Byb3BlcnR5UmVjZWl2ZXIuYXBwbHlTZW1hbnRpY3MoKSB7CiAgICAgICAgaXNUcmF2ZXJzYWxHcm91cCA9IHRydWUKICAgICAgICBpbmRleEZvcktleShpbmRleEZvcktleU1hcHBpbmcpCgogICAgICAgIGlmIChpc1ZlcnRpY2FsKSB7CiAgICAgICAgICAgIHZlcnRpY2FsU2Nyb2xsQXhpc1JhbmdlID0gc2Nyb2xsQXhpc1JhbmdlCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgaG9yaXpvbnRhbFNjcm9sbEF4aXNSYW5nZSA9IHNjcm9sbEF4aXNSYW5nZQogICAgICAgIH0KCiAgICAgICAgc2Nyb2xsVG9JbmRleEFjdGlvbj8ubGV0IHsgc2Nyb2xsVG9JbmRleChhY3Rpb24gPSBpdCkgfQoKICAgICAgICBnZXRTY3JvbGxWaWV3cG9ydExlbmd0aCB7IChzdGF0ZS52aWV3cG9ydCAtIHN0YXRlLmNvbnRlbnRQYWRkaW5nKS50b0Zsb2F0KCkgfQoKICAgICAgICBjb2xsZWN0aW9uSW5mbyA9IHRoaXNATGF6eUxheW91dFNlbWFudGljc01vZGlmaWVyTm9kZS5jb2xsZWN0aW9uSW5mbwogICAgfQoKICAgIHByaXZhdGUgZnVuIHVwZGF0ZUNhY2hlZFNlbWFudGljc1ZhbHVlcygpIHsKICAgICAgICBzY3JvbGxBeGlzUmFuZ2UgPQogICAgICAgICAgICBTY3JvbGxBeGlzUmFuZ2UoCiAgICAgICAgICAgICAgICB2YWx1ZSA9IHsgc3RhdGUuc2Nyb2xsT2Zmc2V0IH0sCiAgICAgICAgICAgICAgICBtYXhWYWx1ZSA9IHsgc3RhdGUubWF4U2Nyb2xsT2Zmc2V0IH0sCiAgICAgICAgICAgICAgICByZXZlcnNlU2Nyb2xsaW5nID0gcmV2ZXJzZVNjcm9sbGluZywKICAgICAgICAgICAgKQoKICAgICAgICBzY3JvbGxUb0luZGV4QWN0aW9uID0KICAgICAgICAgICAgaWYgKHVzZXJTY3JvbGxFbmFibGVkKSB7CiAgICAgICAgICAgICAgICB7IGluZGV4IC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIGl0ZW1Qcm92aWRlciA9IGl0ZW1Qcm92aWRlckxhbWJkYSgpCiAgICAgICAgICAgICAgICAgICAgcmVxdWlyZVByZWNvbmRpdGlvbihpbmRleCA+PSAwICYmIGluZGV4IDwgaXRlbVByb3ZpZGVyLml0ZW1Db3VudCkgewogICAgICAgICAgICAgICAgICAgICAgICAiQ2FuJ3Qgc2Nyb2xsIHRvIGluZGV4ICRpbmRleCwgaXQgaXMgb3V0IG9mICIgKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgImJvdW5kcyBbMCwgJHtpdGVtUHJvdmlkZXIuaXRlbUNvdW50fSkiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGNvcm91dGluZVNjb3BlLmxhdW5jaCB7IHN0YXRlLnNjcm9sbFRvSXRlbShpbmRleCkgfQogICAgICAgICAgICAgICAgICAgIHRydWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfQogICAgfQp9CgppbnRlcm5hbCBpbnRlcmZhY2UgTGF6eUxheW91dFNlbWFudGljU3RhdGUgewogICAgdmFsIHZpZXdwb3J0OiBJbnQKICAgIHZhbCBjb250ZW50UGFkZGluZzogSW50CiAgICB2YWwgc2Nyb2xsT2Zmc2V0OiBGbG9hdAogICAgdmFsIG1heFNjcm9sbE9mZnNldDogRmxvYXQKCiAgICBmdW4gY29sbGVjdGlvbkluZm8oKTogQ29sbGVjdGlvbkluZm8KCiAgICBzdXNwZW5kIGZ1biBzY3JvbGxUb0l0ZW0oaW5kZXg6IEludCkKfQoKLy8gSXQgaXMgaW1wb3NzaWJsZSBmb3IgbGF6eSBsaXN0cyB0byBwcm92aWRlIGFuIGFic29sdXRlIHNjcm9sbCBvZmZzZXQgYmVjYXVzZSB0aGUgc2l6ZSBvZiB0aGUKLy8gaXRlbXMgYWJvdmUgdGhlIHZpZXdwb3J0IGlzIG5vdCBrbm93biwgYnV0IHRoZSBBY2Nlc3NpYmlsaXR5RXZlbnQgc3lzdGVtIEFQSSBleHBlY3RzIG9uZQovLyBhbnl3YXkuIFNvIHRoaXMgcHJvdmlkZXMgYSBiZXN0LWVmZm9ydCBwc2V1ZG8tb2Zmc2V0IHRoYXQgYXZvaWRzIGJyZWFraW5nIGV4aXN0aW5nIGJlaGF2aW9yLgovLwovLyBUaGUga2V5IHByb3BlcnRpZXMgdGhhdCBBMTF5IHNlcnZpY2VzIGFyZSBrbm93biB0byBhY3R1YWxseSByZWx5IG9uIGFyZToKLy8gQSkgZWFjaCBzY3JvbGwgY2hhbmdlIGdlbmVyYXRlcyBhIFRZUEVfVklFV19TQ1JPTExFRCBBY2Nlc3NpYmlsaXR5RXZlbnQKLy8gQikgdGhlIGludGVnZXIgb2Zmc2V0IGluIHRoZSBBY2Nlc3NpYmlsaXR5RXZlbnQgaXMgZGlmZmVyZW50IHRoYW4gdGhlIGxhc3Qgb25lIChub3RlIHRoYXQgdGhlCi8vIG1hZ25pdHVkZSBhbmQgZGlyZWN0aW9uIG9mIHRoZSBjaGFuZ2UgZG9lcyBub3QgbWF0dGVyIGZvciB0aGUga25vd24gdXNlIGNhc2VzKQovLyBDKSBzY3JvbGxhYmlsaXR5IGlzIGluZGljYXRlZCBieSB3aGV0aGVyIHRoZSBzY3JvbGwgcG9zaXRpb24gaXMgZXhhY3RseSAwIG9yIGV4YWN0bHkKLy8gbWF4U2Nyb2xsT2Zmc2V0Ci8vCi8vIFRvIHByZXNlcnZlIHByb3BlcnR5IEIpIGFzIG11Y2ggYXMgcG9zc2libGUsIHRoZSBjb25zdGFudCA1MDAgaXMgY2hvc2VuIHRvIGJlIGxhcmdlciB0aGFuIGEKLy8gc2luZ2xlIHNjcm9sbCBkZWx0YSB3b3VsZCByZWFsaXN0aWNhbGx5IGJlLCB3aGlsZSBzbWFsbCBlbm91Z2ggdG8gYXZvaWQgbG9zaW5nIHByZWNpc2lvbiBkdWUKLy8gdG8gdGhlIDI0LWJpdCBmbG9hdCBzaWduaWZpY2FuZCBvZiBTY3JvbGxBeGlzUmFuZ2Ugd2l0aCByZWFsaXN0aWMgbGlzdCBzaXplcyAoaWYgdGhlcmUgYXJlCi8vIGZld2VyIHRoYW4gfjE2MDAwIGl0ZW1zLCB0aGUgaW50ZWdlciB2YWx1ZSBpcyBleGFjdGx5IHByZXNlcnZlZCkuCmludGVybmFsIGZ1biBlc3RpbWF0ZWRMYXp5U2Nyb2xsT2Zmc2V0KAogICAgZmlyc3RWaXNpYmxlSXRlbUluZGV4OiBJbnQsCiAgICBmaXJzdFZpc2libGVJdGVtU2Nyb2xsT2Zmc2V0OiBJbnQsCik6IEZsb2F0IHsKICAgIHJldHVybiAoZmlyc3RWaXNpYmxlSXRlbVNjcm9sbE9mZnNldCArIGZpcnN0VmlzaWJsZUl0ZW1JbmRleCAqIDUwMCkudG9GbG9hdCgpCn0KCmludGVybmFsIGZ1biBlc3RpbWF0ZWRMYXp5TWF4U2Nyb2xsT2Zmc2V0KAogICAgZmlyc3RWaXNpYmxlSXRlbUluZGV4OiBJbnQsCiAgICBmaXJzdFZpc2libGVJdGVtU2Nyb2xsT2Zmc2V0OiBJbnQsCiAgICBjYW5TY3JvbGxGb3J3YXJkOiBCb29sZWFuLAopOiBGbG9hdCB7CiAgICByZXR1cm4gaWYgKGNhblNjcm9sbEZvcndhcmQpIHsKICAgICAgICAvLyBJZiB3ZSBjYW4gc2Nyb2xsIGZ1cnRoZXIsIGluZGljYXRlIHRoYXQgYnkgc2V0dGluZyBpdCBzbGlnaHRseSBoaWdoZXIgdGhhbgogICAgICAgIC8vIHRoZSBjdXJyZW50IHZhbHVlCiAgICAgICAgZXN0aW1hdGVkTGF6eVNjcm9sbE9mZnNldChmaXJzdFZpc2libGVJdGVtSW5kZXgsIGZpcnN0VmlzaWJsZUl0ZW1TY3JvbGxPZmZzZXQpICsgMTAwCiAgICB9IGVsc2UgewogICAgICAgIC8vIElmIHdlIGNhbid0IHNjcm9sbCBmdXJ0aGVyLCB0aGUgY3VycmVudCB2YWx1ZSBpcyB0aGUgbWF4CiAgICAgICAgZXN0aW1hdGVkTGF6eVNjcm9sbE9mZnNldChmaXJzdFZpc2libGVJdGVtSW5kZXgsIGZpcnN0VmlzaWJsZUl0ZW1TY3JvbGxPZmZzZXQpCiAgICB9Cn0K
+/*
+ * Copyright 2022 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.gestures.Orientation
+import androidx.compose.foundation.internal.requirePrecondition
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.node.ModifierNodeElement
+import androidx.compose.ui.node.SemanticsModifierNode
+import androidx.compose.ui.node.invalidateSemantics
+import androidx.compose.ui.platform.InspectorInfo
+import androidx.compose.ui.semantics.CollectionInfo
+import androidx.compose.ui.semantics.ScrollAxisRange
+import androidx.compose.ui.semantics.SemanticsPropertyReceiver
+import androidx.compose.ui.semantics.collectionInfo
+import androidx.compose.ui.semantics.getScrollViewportLength
+import androidx.compose.ui.semantics.horizontalScrollAxisRange
+import androidx.compose.ui.semantics.indexForKey
+import androidx.compose.ui.semantics.isTraversalGroup
+import androidx.compose.ui.semantics.scrollToIndex
+import androidx.compose.ui.semantics.verticalScrollAxisRange
+import kotlinx.coroutines.launch
+
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+internal fun Modifier.lazyLayoutSemantics(
+    itemProviderLambda: () -> LazyLayoutItemProvider,
+    state: LazyLayoutSemanticState,
+    orientation: Orientation,
+    userScrollEnabled: Boolean,
+    reverseScrolling: Boolean,
+): Modifier =
+    this then
+        LazyLayoutSemanticsModifier(
+            itemProviderLambda = itemProviderLambda,
+            state = state,
+            orientation = orientation,
+            userScrollEnabled = userScrollEnabled,
+            reverseScrolling = reverseScrolling,
+        )
+
+@OptIn(ExperimentalFoundationApi::class)
+private class LazyLayoutSemanticsModifier(
+    val itemProviderLambda: () -> LazyLayoutItemProvider,
+    val state: LazyLayoutSemanticState,
+    val orientation: Orientation,
+    val userScrollEnabled: Boolean,
+    val reverseScrolling: Boolean,
+) : ModifierNodeElement<LazyLayoutSemanticsModifierNode>() {
+    override fun create(): LazyLayoutSemanticsModifierNode =
+        LazyLayoutSemanticsModifierNode(
+            itemProviderLambda = itemProviderLambda,
+            state = state,
+            orientation = orientation,
+            userScrollEnabled = userScrollEnabled,
+            reverseScrolling = reverseScrolling,
+        )
+
+    override fun update(node: LazyLayoutSemanticsModifierNode) {
+        node.update(
+            itemProviderLambda = itemProviderLambda,
+            state = state,
+            orientation = orientation,
+            userScrollEnabled = userScrollEnabled,
+            reverseScrolling = reverseScrolling,
+        )
+    }
+
+    override fun InspectorInfo.inspectableProperties() {
+        // Not a public modifier.
+    }
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other !is LazyLayoutSemanticsModifier) return false
+
+        if (itemProviderLambda !== other.itemProviderLambda) return false
+        if (state != other.state) return false
+        if (orientation != other.orientation) return false
+        if (userScrollEnabled != other.userScrollEnabled) return false
+        if (reverseScrolling != other.reverseScrolling) return false
+
+        return true
+    }
+
+    override fun hashCode(): Int {
+        var result = itemProviderLambda.hashCode()
+        result = 31 * result + state.hashCode()
+        result = 31 * result + orientation.hashCode()
+        result = 31 * result + userScrollEnabled.hashCode()
+        result = 31 * result + reverseScrolling.hashCode()
+        return result
+    }
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+private class LazyLayoutSemanticsModifierNode(
+    private var itemProviderLambda: () -> LazyLayoutItemProvider,
+    private var state: LazyLayoutSemanticState,
+    private var orientation: Orientation,
+    private var userScrollEnabled: Boolean,
+    private var reverseScrolling: Boolean,
+) : Modifier.Node(), SemanticsModifierNode {
+
+    override val shouldAutoInvalidate: Boolean
+        get() = false
+
+    private val isVertical
+        get() = orientation == Orientation.Vertical
+
+    private val collectionInfo
+        get() = state.collectionInfo()
+
+    private lateinit var scrollAxisRange: ScrollAxisRange
+
+    private val indexForKeyMapping: (Any) -> Int = { needle ->
+        val itemProvider = itemProviderLambda()
+        var result = -1
+        for (index in 0 until itemProvider.itemCount) {
+            if (itemProvider.getKey(index) == needle) {
+                result = index
+                break
+            }
+        }
+        result
+    }
+
+    private var scrollToIndexAction: ((Int) -> Boolean)? = null
+
+    init {
+        updateCachedSemanticsValues()
+    }
+
+    fun update(
+        itemProviderLambda: () -> LazyLayoutItemProvider,
+        state: LazyLayoutSemanticState,
+        orientation: Orientation,
+        userScrollEnabled: Boolean,
+        reverseScrolling: Boolean,
+    ) {
+        // These properties are only read lazily, so we don't need to invalidate
+        // semantics if they change.
+        this.itemProviderLambda = itemProviderLambda
+        this.state = state
+
+        // These properties are read when appling semantics, but don't need to rebuild the cache.
+        if (this.orientation != orientation) {
+            this.orientation = orientation
+            invalidateSemantics()
+        }
+
+        // These values are used to build different cached values. If they, we need to rebuild the
+        // cache.
+        if (
+            this.userScrollEnabled != userScrollEnabled || this.reverseScrolling != reverseScrolling
+        ) {
+            this.userScrollEnabled = userScrollEnabled
+            this.reverseScrolling = reverseScrolling
+            updateCachedSemanticsValues()
+            invalidateSemantics()
+        }
+    }
+
+    override fun SemanticsPropertyReceiver.applySemantics() {
+        isTraversalGroup = true
+        indexForKey(indexForKeyMapping)
+
+        if (isVertical) {
+            verticalScrollAxisRange = scrollAxisRange
+        } else {
+            horizontalScrollAxisRange = scrollAxisRange
+        }
+
+        scrollToIndexAction?.let { scrollToIndex(action = it) }
+
+        getScrollViewportLength { (state.viewport - state.contentPadding).toFloat() }
+
+        collectionInfo = this@LazyLayoutSemanticsModifierNode.collectionInfo
+    }
+
+    private fun updateCachedSemanticsValues() {
+        scrollAxisRange =
+            ScrollAxisRange(
+                value = { state.scrollOffset },
+                maxValue = { state.maxScrollOffset },
+                reverseScrolling = reverseScrolling,
+            )
+
+        scrollToIndexAction =
+            if (userScrollEnabled) {
+                { index ->
+                    val itemProvider = itemProviderLambda()
+                    requirePrecondition(index >= 0 && index < itemProvider.itemCount) {
+                        "Can't scroll to index $index, it is out of " +
+                            "bounds [0, ${itemProvider.itemCount})"
+                    }
+                    coroutineScope.launch { state.scrollToItem(index) }
+                    true
+                }
+            } else {
+                null
+            }
+    }
+}
+
+internal interface LazyLayoutSemanticState {
+    val viewport: Int
+    val contentPadding: Int
+    val scrollOffset: Float
+    val maxScrollOffset: Float
+
+    fun collectionInfo(): CollectionInfo
+
+    suspend fun scrollToItem(index: Int)
+}
+
+// It is impossible for lazy lists to provide an absolute scroll offset because the size of the
+// items above the viewport is not known, but the AccessibilityEvent system API expects one
+// anyway. So this provides a best-effort pseudo-offset that avoids breaking existing behavior.
+//
+// The key properties that A11y services are known to actually rely on are:
+// A) each scroll change generates a TYPE_VIEW_SCROLLED AccessibilityEvent
+// B) the integer offset in the AccessibilityEvent is different than the last one (note that the
+// magnitude and direction of the change does not matter for the known use cases)
+// C) scrollability is indicated by whether the scroll position is exactly 0 or exactly
+// maxScrollOffset
+//
+// To preserve property B) as much as possible, the constant 500 is chosen to be larger than a
+// single scroll delta would realistically be, while small enough to avoid losing precision due
+// to the 24-bit float significand of ScrollAxisRange with realistic list sizes (if there are
+// fewer than ~16000 items, the integer value is exactly preserved).
+internal fun estimatedLazyScrollOffset(
+    firstVisibleItemIndex: Int,
+    firstVisibleItemScrollOffset: Int,
+): Float {
+    return (firstVisibleItemScrollOffset + firstVisibleItemIndex * 500).toFloat()
+}
+
+internal fun estimatedLazyMaxScrollOffset(
+    firstVisibleItemIndex: Int,
+    firstVisibleItemScrollOffset: Int,
+    canScrollForward: Boolean,
+): Float {
+    return if (canScrollForward) {
+        // If we can scroll further, indicate that by setting it slightly higher than
+        // the current value
+        estimatedLazyScrollOffset(firstVisibleItemIndex, firstVisibleItemScrollOffset) + 100
+    } else {
+        // If we can't scroll further, the current value is the max
+        estimatedLazyScrollOffset(firstVisibleItemIndex, firstVisibleItemScrollOffset)
+    }
+}

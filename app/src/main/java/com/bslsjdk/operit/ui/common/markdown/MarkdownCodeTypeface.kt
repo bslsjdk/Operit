@@ -1,1 +1,31 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuVHlwZWZhY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmFwcGxpY2F0aW9uLk9wZXJpdEFwcGxpY2F0aW9uCgpwcml2YXRlIG9iamVjdCBNYXJrZG93bkNvZGVUeXBlZmFjZUNhY2hlIHsKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgY2FjaGVkVHlwZWZhY2U6IFR5cGVmYWNlPyA9IG51bGwKCiAgICBmdW4gZ2V0KGNvbnRleHQ6IENvbnRleHQpOiBUeXBlZmFjZSB7CiAgICAgICAgY2FjaGVkVHlwZWZhY2U/LmxldCB7IHJldHVybiBpdCB9CgogICAgICAgIHJldHVybiBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICBjYWNoZWRUeXBlZmFjZQogICAgICAgICAgICAgICAgPzogcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgICAgIGNvbnRleHQucmVzb3VyY2VzLmdldEZvbnQoY29tLmFpLmFzc2lzdGFuY2Uub3Blcml0LnRlcm1pbmFsLlIuZm9udC5qZXRicmFpbnNfbW9ub19uZXJkX2ZvbnRfcmVndWxhcikKICAgICAgICAgICAgICAgIH0uZ2V0T3JFbHNlIHsKICAgICAgICAgICAgICAgICAgICBUeXBlZmFjZS5NT05PU1BBQ0UKICAgICAgICAgICAgICAgIH0uYWxzbyB7IGNhY2hlZFR5cGVmYWNlID0gaXQgfQogICAgICAgIH0KICAgIH0KfQoKaW50ZXJuYWwgZnVuIGdldE1hcmtkb3duQ29kZVR5cGVmYWNlKGNvbnRleHQ6IENvbnRleHQpOiBUeXBlZmFjZSB7CiAgICByZXR1cm4gTWFya2Rvd25Db2RlVHlwZWZhY2VDYWNoZS5nZXQoY29udGV4dCkKfQoKaW50ZXJuYWwgZnVuIGdldE1hcmtkb3duQ29kZVR5cGVmYWNlKCk6IFR5cGVmYWNlIHsKICAgIHJldHVybiBnZXRNYXJrZG93bkNvZGVUeXBlZmFjZShPcGVyaXRBcHBsaWNhdGlvbi5pbnN0YW5jZS5hcHBsaWNhdGlvbkNvbnRleHQpCn0K
+package com.bslsjdk.operit.ui.common.markdown
+
+import android.content.Context
+import android.graphics.Typeface
+import com.bslsjdk.operit.core.application.OperitApplication
+
+private object MarkdownCodeTypefaceCache {
+    @Volatile
+    private var cachedTypeface: Typeface? = null
+
+    fun get(context: Context): Typeface {
+        cachedTypeface?.let { return it }
+
+        return synchronized(this) {
+            cachedTypeface
+                ?: runCatching {
+                    context.resources.getFont(com.ai.assistance.operit.terminal.R.font.jetbrains_mono_nerd_font_regular)
+                }.getOrElse {
+                    Typeface.MONOSPACE
+                }.also { cachedTypeface = it }
+        }
+    }
+}
+
+internal fun getMarkdownCodeTypeface(context: Context): Typeface {
+    return MarkdownCodeTypefaceCache.get(context)
+}
+
+internal fun getMarkdownCodeTypeface(): Typeface {
+    return getMarkdownCodeTypeface(OperitApplication.instance.applicationContext)
+}

@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDbGF1ZGVQcm92aWRlckNhbmNlbGxhdGlvblRlc3QgewogICAgQFRlc3QKICAgIGZ1biBgbm9ybWFsIHN0cmVhbSB0ZXJtaW5hdGlvbiBpcyBub3QgdHJlYXRlZCBhcyBtYW51YWwgY2FuY2VsbGF0aW9uYCgpIHsKICAgICAgICBhc3NlcnRGYWxzZShzaG91bGRQcm9wYWdhdGVDbGF1ZGVDYW5jZWxsYXRpb24oZmFsc2UpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGNhbmNlbCBzdHJlYW1pbmcgbWFya3Mgbm9ybWFsIGxvb3AgZXhpdCBmb3IgY2FuY2VsbGF0aW9uIHByb3BhZ2F0aW9uYCgpIHsKICAgICAgICBhc3NlcnRUcnVlKHNob3VsZFByb3BhZ2F0ZUNsYXVkZUNhbmNlbGxhdGlvbih0cnVlKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ClaudeProviderCancellationTest {
+    @Test
+    fun `normal stream termination is not treated as manual cancellation`() {
+        assertFalse(shouldPropagateClaudeCancellation(false))
+    }
+
+    @Test
+    fun `cancel streaming marks normal loop exit for cancellation propagation`() {
+        assertTrue(shouldPropagateClaudeCancellation(true))
+    }
+}

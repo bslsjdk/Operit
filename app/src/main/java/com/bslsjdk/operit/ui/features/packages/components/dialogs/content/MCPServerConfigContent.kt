@@ -1,1 +1,141 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuY29tcG9uZW50cy5kaWFsb2dzLmNvbnRlbnQKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Sb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LndpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5JbmZvCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5TYXZlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5CdXR0b24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk91dGxpbmVkVGV4dEZpZWxkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TdXJmYWNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCgovKioKICogQ29uZmlnIGNvbnRlbnQgY29tcG9uZW50IGZvciB0aGUgTUNQIHNlcnZlciBkZXRhaWxzIGRpYUFwcExvZ2dlci4KICoKICogQHBhcmFtIGxvY2FsUGx1Z2luQ29uZmlnIFRoZSBjdXJyZW50IHBsdWdpbiBjb25maWd1cmF0aW9uCiAqIEBwYXJhbSBvbkNvbmZpZ0NoYW5nZWQgQ2FsbGJhY2sgdG8gYmUgaW52b2tlZCB3aGVuIHRoZSBjb25maWcgaXMgY2hhbmdlZAogKiBAcGFyYW0gaW5zdGFsbGVkUGF0aCBUaGUgcGF0aCB3aGVyZSB0aGUgcGx1Z2luIGlzIGluc3RhbGxlZAogKiBAcGFyYW0gb25TYXZlQ29uZmlnIENhbGxiYWNrIHRvIGJlIGludm9rZWQgd2hlbiB0aGUgc2F2ZSBidXR0b24gaXMgY2xpY2tlZAogKiBAcGFyYW0gbW9kaWZpZXIgT3B0aW9uYWwgbW9kaWZpZXIgZm9yIHRoZSBjb21wb25lbnQKICovCkBDb21wb3NhYmxlCmZ1biBNQ1BTZXJ2ZXJDb25maWdDb250ZW50KAogICAgbG9jYWxQbHVnaW5Db25maWc6IFN0cmluZywKICAgIG9uQ29uZmlnQ2hhbmdlZDogKFN0cmluZykgLT4gVW5pdCwKICAgIGluc3RhbGxlZFBhdGg6IFN0cmluZz8sCiAgICBvblNhdmVDb25maWc6ICgpIC0+IFVuaXQsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllcgopIHsKICAgIENvbHVtbigKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAucGFkZGluZygxMi5kcCksCiAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApCiAgICApIHsKICAgICAgICBpZiAoaW5zdGFsbGVkUGF0aCAhPSBudWxsKSB7CiAgICAgICAgICAgIFN1cmZhY2UoCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZVZhcmlhbnQuY29weShhbHBoYSA9IDAuM2YpLAogICAgICAgICAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoNi5kcCksCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyg4LmRwKSkgewogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1jcF9zZXJ2ZXJfcGx1Z2luX2luc3RhbGxfcGF0aF9sYWJlbCksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsU21hbGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIGluc3RhbGxlZFBhdGgsCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsU21hbGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoNC5kcCkpCiAgICAgICAgfQoKICAgICAgICBUZXh0KAogICAgICAgICAgICBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tY3Bfc2VydmVyX2pzb25fY29uZmlnX3RpdGxlKSwKICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0sCiAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQKICAgICAgICApCgogICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgICAgICB2YWx1ZSA9IGxvY2FsUGx1Z2luQ29uZmlnLAogICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyBvbkNvbmZpZ0NoYW5nZWQoaXQpIH0sCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgLndlaWdodCgxZiksCiAgICAgICAgICAgIHBsYWNlaG9sZGVyID0gewogICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAie1wia2V5XCI6IFwidmFsdWVcIn0iLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9LAogICAgICAgICAgICB0ZXh0U3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsCiAgICAgICAgKQoKICAgICAgICBTdXJmYWNlKAogICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeUNvbnRhaW5lci5jb3B5KGFscGhhID0gMC4zZiksCiAgICAgICAgICAgIHNoYXBlID0gUm91bmRlZENvcm5lclNoYXBlKDQuZHApLAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgKSB7CiAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyg2LmRwKSwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5JbmZvLAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMTQuZHApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg2LmRwKSkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWNwX3NlcnZlcl9jb25maWdfZWZmZWN0aXZlX2hpbnQpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsU21hbGwsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgQnV0dG9uKAogICAgICAgICAgICBvbkNsaWNrID0gb25TYXZlQ29uZmlnLAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmFsaWduKEFsaWdubWVudC5FbmQpLAogICAgICAgICAgICBjb250ZW50UGFkZGluZyA9IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUGFkZGluZ1ZhbHVlcygKICAgICAgICAgICAgICAgIGhvcml6b250YWwgPSAxMi5kcCwKICAgICAgICAgICAgICAgIHZlcnRpY2FsID0gNi5kcAogICAgICAgICAgICApCiAgICAgICAgKSB7CiAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuU2F2ZSwKICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMTYuZHApCiAgICAgICAgICAgICkKICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoNC5kcCkpCiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tY3Bfc2VydmVyX3NhdmVfY29uZmlnKSwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsTWVkaXVtCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.packages.components.dialogs.content
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Save
+import androidx.compose.material3.Button
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+
+/**
+ * Config content component for the MCP server details diaAppLogger.
+ *
+ * @param localPluginConfig The current plugin configuration
+ * @param onConfigChanged Callback to be invoked when the config is changed
+ * @param installedPath The path where the plugin is installed
+ * @param onSaveConfig Callback to be invoked when the save button is clicked
+ * @param modifier Optional modifier for the component
+ */
+@Composable
+fun MCPServerConfigContent(
+    localPluginConfig: String,
+    onConfigChanged: (String) -> Unit,
+    installedPath: String?,
+    onSaveConfig: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(12.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        if (installedPath != null) {
+            Surface(
+                color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f),
+                shape = RoundedCornerShape(6.dp),
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Column(modifier = Modifier.padding(8.dp)) {
+                    Text(
+                        stringResource(R.string.mcp_server_plugin_install_path_label),
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    Text(
+                        installedPath,
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+
+            Spacer(modifier = Modifier.height(4.dp))
+        }
+
+        Text(
+            stringResource(R.string.mcp_server_json_config_title),
+            style = MaterialTheme.typography.labelMedium,
+            fontWeight = FontWeight.Bold
+        )
+
+        OutlinedTextField(
+            value = localPluginConfig,
+            onValueChange = { onConfigChanged(it) },
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(1f),
+            placeholder = {
+                Text(
+                    "{\"key\": \"value\"}",
+                    style = MaterialTheme.typography.bodySmall
+                )
+            },
+            textStyle = MaterialTheme.typography.bodySmall
+        )
+
+        Surface(
+            color = MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.3f),
+            shape = RoundedCornerShape(4.dp),
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Row(
+                modifier = Modifier.padding(6.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Info,
+                    contentDescription = null,
+                    tint = MaterialTheme.colorScheme.primary,
+                    modifier = Modifier.size(14.dp)
+                )
+                Spacer(modifier = Modifier.width(6.dp))
+                Text(
+                    stringResource(R.string.mcp_server_config_effective_hint),
+                    style = MaterialTheme.typography.labelSmall,
+                    color = MaterialTheme.colorScheme.primary
+                )
+            }
+        }
+
+        Button(
+            onClick = onSaveConfig,
+            modifier = Modifier.align(Alignment.End),
+            contentPadding = androidx.compose.foundation.layout.PaddingValues(
+                horizontal = 12.dp,
+                vertical = 6.dp
+            )
+        ) {
+            Icon(
+                imageVector = Icons.Default.Save,
+                contentDescription = null,
+                modifier = Modifier.size(16.dp)
+            )
+            Spacer(modifier = Modifier.width(4.dp))
+            Text(
+                stringResource(R.string.mcp_server_save_config),
+                style = MaterialTheme.typography.labelMedium
+            )
+        }
+    }
+}

@@ -1,1 +1,49 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENvZGV4TW9kZWxMaXN0UGFyc2VyVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIHBhcnNlc09wZW5Db2RlQ2F0YWxvZ0FuZEV4cGFuZHNBbGxvd2VkTW9kZXMoKSB7CiAgICAgICAgdmFsIG1vZGVscyA9IENvZGV4TW9kZWxMaXN0RmV0Y2hlci5wYXJzZU1vZGVscygKICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAib3BlbmFpIjogewogICAgICAgICAgICAgICAgIm1vZGVscyI6IHsKICAgICAgICAgICAgICAgICAgImdwdC01LjYtbHVuYSI6IHsKICAgICAgICAgICAgICAgICAgICAiaWQiOiAiZ3B0LTUuNi1sdW5hIiwKICAgICAgICAgICAgICAgICAgICAibmFtZSI6ICJHUFQtNS42IEx1bmEiLAogICAgICAgICAgICAgICAgICAgICJleHBlcmltZW50YWwiOiB7CiAgICAgICAgICAgICAgICAgICAgICAibW9kZXMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICJmYXN0IjogeyJwcm92aWRlciI6IHsiYm9keSI6IHsic2VydmljZV90aWVyIjogInByaW9yaXR5In19fSwKICAgICAgICAgICAgICAgICAgICAgICAgInBybyI6IHsicHJvdmlkZXIiOiB7ImJvZHkiOiB7InJlYXNvbmluZyI6IHsibW9kZSI6ICJwcm8ifX19fQogICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgImdwdC01LjQiOiB7CiAgICAgICAgICAgICAgICAgICAgImlkIjogImdwdC01LjQiLAogICAgICAgICAgICAgICAgICAgICJuYW1lIjogIkdQVC01LjQiLAogICAgICAgICAgICAgICAgICAgICJleHBlcmltZW50YWwiOiB7CiAgICAgICAgICAgICAgICAgICAgICAibW9kZXMiOiB7CiAgICAgICAgICAgICAgICAgICAgICAgICJmYXN0IjogeyJwcm92aWRlciI6IHsiYm9keSI6IHsic2VydmljZV90aWVyIjogInByaW9yaXR5In19fQogICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgImdwdC01LjUtcHJvIjogewogICAgICAgICAgICAgICAgICAgICJpZCI6ICJncHQtNS41LXBybyIsCiAgICAgICAgICAgICAgICAgICAgIm5hbWUiOiAiR1BULTUuNSBQcm8iCiAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKSwKICAgICAgICApCgogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgc2V0T2YoImdwdC01LjYtbHVuYSIsICJncHQtNS42LWx1bmEtZmFzdCIsICJncHQtNS40IiwgImdwdC01LjQtZmFzdCIpLAogICAgICAgICAgICBtb2RlbHMubWFwIHsgaXQuaWQgfS50b1NldCgpLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoIkdQVC01LjYgTHVuYSBGYXN0IiwgbW9kZWxzLmZpcnN0IHsgaXQuaWQgPT0gImdwdC01LjYtbHVuYS1mYXN0IiB9Lm5hbWUpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class CodexModelListParserTest {
+    @Test
+    fun parsesOpenCodeCatalogAndExpandsAllowedModes() {
+        val models = CodexModelListFetcher.parseModels(
+            """
+            {
+              "openai": {
+                "models": {
+                  "gpt-5.6-luna": {
+                    "id": "gpt-5.6-luna",
+                    "name": "GPT-5.6 Luna",
+                    "experimental": {
+                      "modes": {
+                        "fast": {"provider": {"body": {"service_tier": "priority"}}},
+                        "pro": {"provider": {"body": {"reasoning": {"mode": "pro"}}}}
+                      }
+                    }
+                  },
+                  "gpt-5.4": {
+                    "id": "gpt-5.4",
+                    "name": "GPT-5.4",
+                    "experimental": {
+                      "modes": {
+                        "fast": {"provider": {"body": {"service_tier": "priority"}}}
+                      }
+                    }
+                  },
+                  "gpt-5.5-pro": {
+                    "id": "gpt-5.5-pro",
+                    "name": "GPT-5.5 Pro"
+                  }
+                }
+              }
+            }
+            """.trimIndent(),
+        )
+
+        assertEquals(
+            setOf("gpt-5.6-luna", "gpt-5.6-luna-fast", "gpt-5.4", "gpt-5.4-fast"),
+            models.map { it.id }.toSet(),
+        )
+        assertEquals("GPT-5.6 Luna Fast", models.first { it.id == "gpt-5.6-luna-fast" }.name)
+    }
+}

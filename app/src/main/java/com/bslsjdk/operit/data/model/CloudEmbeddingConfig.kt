@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKZGF0YSBjbGFzcyBDbG91ZEVtYmVkZGluZ0NvbmZpZygKICAgIHZhbCBlbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgZW5kcG9pbnQ6IFN0cmluZyA9ICIiLAogICAgdmFsIGFwaUtleTogU3RyaW5nID0gIiIsCiAgICB2YWwgbW9kZWw6IFN0cmluZyA9ICIiCikgewogICAgZnVuIG5vcm1hbGl6ZWQoKTogQ2xvdWRFbWJlZGRpbmdDb25maWcgewogICAgICAgIHJldHVybiBjb3B5KAogICAgICAgICAgICBlbmRwb2ludCA9IGVuZHBvaW50LnRyaW0oKSwKICAgICAgICAgICAgYXBpS2V5ID0gYXBpS2V5LnRyaW0oKSwKICAgICAgICAgICAgbW9kZWwgPSBtb2RlbC50cmltKCkKICAgICAgICApCiAgICB9CgogICAgZnVuIGlzUmVhZHkoKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBub3JtYWxpemVkKCkKICAgICAgICByZXR1cm4gbm9ybWFsaXplZC5lbmFibGVkICYmCiAgICAgICAgICAgIG5vcm1hbGl6ZWQuZW5kcG9pbnQuaXNOb3RCbGFuaygpICYmCiAgICAgICAgICAgIG5vcm1hbGl6ZWQuYXBpS2V5LmlzTm90QmxhbmsoKSAmJgogICAgICAgICAgICBub3JtYWxpemVkLm1vZGVsLmlzTm90QmxhbmsoKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+data class CloudEmbeddingConfig(
+    val enabled: Boolean = false,
+    val endpoint: String = "",
+    val apiKey: String = "",
+    val model: String = ""
+) {
+    fun normalized(): CloudEmbeddingConfig {
+        return copy(
+            endpoint = endpoint.trim(),
+            apiKey = apiKey.trim(),
+            model = model.trim()
+        )
+    }
+
+    fun isReady(): Boolean {
+        val normalized = normalized()
+        return normalized.enabled &&
+            normalized.endpoint.isNotBlank() &&
+            normalized.apiKey.isNotBlank() &&
+            normalized.model.isNotBlank()
+    }
+}

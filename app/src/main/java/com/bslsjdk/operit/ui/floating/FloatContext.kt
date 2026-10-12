@@ -1,1 +1,197 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsRGVuc2l0eQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkRlbnNpdHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5EcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BdHRhY2htZW50SW5mbwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdE1lc3NhZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLklucHV0UHJvY2Vzc2luZ1N0YXRlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Qcm9tcHRGdW5jdGlvblR5cGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5zZXJ2aWNlcy5GbG9hdGluZ0NoYXRTZXJ2aWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuZmxvYXRpbmcuRmxvYXRpbmdXaW5kb3dTdGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZsb2F0aW5nLnVpLndpbmRvdy5tb2RlbHMuUmVzaXplRWRnZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKCi8qKiDnroDljJblkI7nmoRGbG9hdENvbnRleHTnsbvvvIznp7vpmaTkuobot6/nlLHogKblkIjpgLvovpEgKi8KQENvbXBvc2FibGUKZnVuIHJlbWVtYmVyRmxvYXRDb250ZXh0KAogICAgICAgIG1lc3NhZ2VzOiBMaXN0PENoYXRNZXNzYWdlPiwKICAgICAgICB3aWR0aDogRHAsCiAgICAgICAgaGVpZ2h0OiBEcCwKICAgICAgICBvbkNsb3NlOiAoKSAtPiBVbml0LAogICAgICAgIG9uUmVzaXplOiAoRHAsIERwKSAtPiBVbml0LAogICAgICAgIGJhbGxTaXplOiBEcCA9IDQ4LmRwLAogICAgICAgIHdpbmRvd1NjYWxlOiBGbG9hdCA9IDEuMGYsCiAgICAgICAgb25TY2FsZUNoYW5nZTogKEZsb2F0KSAtPiBVbml0LAogICAgICAgIGN1cnJlbnRNb2RlOiBGbG9hdGluZ01vZGUsCiAgICAgICAgcHJldmlvdXNNb2RlOiBGbG9hdGluZ01vZGUgPSBGbG9hdGluZ01vZGUuV0lORE9XLAogICAgICAgIG9uTW9kZUNoYW5nZTogKEZsb2F0aW5nTW9kZSkgLT4gVW5pdCwKICAgICAgICBvbk1vdmU6IChGbG9hdCwgRmxvYXQsIEZsb2F0KSAtPiBVbml0ID0geyBfLCBfLCBfIC0+IH0sCiAgICAgICAgc25hcFRvRWRnZTogKEJvb2xlYW4pIC0+IFVuaXQgPSB7IF8gLT4gfSwKICAgICAgICBpc0F0RWRnZTogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHNjcmVlbldpZHRoOiBEcCA9IDEwODAuZHAsCiAgICAgICAgc2NyZWVuSGVpZ2h0OiBEcCA9IDIzNDAuZHAsCiAgICAgICAgY3VycmVudFg6IEZsb2F0ID0gMGYsCiAgICAgICAgY3VycmVudFk6IEZsb2F0ID0gMGYsCiAgICAgICAgc2F2ZVdpbmRvd1N0YXRlOiAoKCkgLT4gVW5pdCk/ID0gbnVsbCwKICAgICAgICBvblNlbmRNZXNzYWdlOiAoKFN0cmluZywgUHJvbXB0RnVuY3Rpb25UeXBlKSAtPiBVbml0KT8gPSBudWxsLAogICAgICAgIG9uQ2FuY2VsTWVzc2FnZTogKCgpIC0+IFVuaXQpPyA9IG51bGwsCiAgICAgICAgb25BdHRhY2htZW50UmVxdWVzdDogKChTdHJpbmcpIC0+IFVuaXQpPyA9IG51bGwsCiAgICAgICAgYXR0YWNobWVudHM6IExpc3Q8QXR0YWNobWVudEluZm8+ID0gZW1wdHlMaXN0KCksCiAgICAgICAgb25SZW1vdmVBdHRhY2htZW50OiAoKFN0cmluZykgLT4gVW5pdCk/ID0gbnVsbCwKICAgICAgICBvbklucHV0Rm9jdXNSZXF1ZXN0OiAoKEJvb2xlYW4pIC0+IFVuaXQpPyA9IG51bGwsCiAgICAgICAgY2hhdFNlcnZpY2U6IEZsb2F0aW5nQ2hhdFNlcnZpY2U/ID0gbnVsbCwKICAgICAgICB3aW5kb3dTdGF0ZTogRmxvYXRpbmdXaW5kb3dTdGF0ZT8gPSBudWxsLAogICAgICAgIGlucHV0UHJvY2Vzc2luZ1N0YXRlOiBTdGF0ZTxJbnB1dFByb2Nlc3NpbmdTdGF0ZT4gPSBtdXRhYmxlU3RhdGVPZihJbnB1dFByb2Nlc3NpbmdTdGF0ZS5JZGxlKQopOiBGbG9hdENvbnRleHQgewogICAgdmFsIGRlbnNpdHkgPSBMb2NhbERlbnNpdHkuY3VycmVudAogICAgdmFsIHNjb3BlID0gcmVtZW1iZXJDb3JvdXRpbmVTY29wZSgpCgogICAgLy8g5Yib5bu656iz5a6a55qEIEZsb2F0Q29udGV4dCDlrp7kvovvvIzlj6rkvp3otZbnnJ/mraPkuI3kvJrmlLnlj5jnmoTmnrbmnoTmgKflj4LmlbAKICAgIC8vIOi/meagt+WPr+S7pemBv+WFjeS4jeW/heimgeeahOWunuS+i+mHjeW7uu+8jOaPkOmrmOaAp+iDvQogICAgdmFsIGZsb2F0Q29udGV4dCA9IHJlbWVtYmVyKAogICAgICAgICAgICBjaGF0U2VydmljZSwgICAgICAvLyDmnI3liqHlrp7kvovpgJrluLjmmK/nqLPlrprnmoQKICAgICAgICAgICAgd2luZG93U3RhdGUsICAgICAgLy8g56qX5Y+j54q25oCB5a6e5L6L5piv56iz5a6a55qECiAgICAgICAgICAgIGRlbnNpdHksICAgICAgICAgIC8vIERlbnNpdHkg5Zyo6YWN572u5pS55Y+Y5YmN5piv56iz5a6a55qECiAgICAgICAgICAgIHNjb3BlICAgICAgICAgICAgIC8vIENvcm91dGluZVNjb3BlIOaYr+eos+WumueahAogICAgKSB7CiAgICAgICAgRmxvYXRDb250ZXh0KAogICAgICAgICAgICAgICAgaW5pdGlhbE1lc3NhZ2VzID0gbWVzc2FnZXMsCiAgICAgICAgICAgICAgICBpbml0aWFsV2lkdGggPSB3aWR0aCwKICAgICAgICAgICAgICAgIGluaXRpYWxIZWlnaHQgPSBoZWlnaHQsCiAgICAgICAgICAgICAgICBiYWxsU2l6ZSA9IGJhbGxTaXplLAogICAgICAgICAgICAgICAgaW5pdGlhbFdpbmRvd1NjYWxlID0gd2luZG93U2NhbGUsCiAgICAgICAgICAgICAgICBpbml0aWFsTW9kZSA9IGN1cnJlbnRNb2RlLAogICAgICAgICAgICAgICAgaW5pdGlhbFByZXZpb3VzTW9kZSA9IHByZXZpb3VzTW9kZSwKICAgICAgICAgICAgICAgIGluaXRpYWxJc0F0RWRnZSA9IGlzQXRFZGdlLAogICAgICAgICAgICAgICAgc2NyZWVuV2lkdGggPSBzY3JlZW5XaWR0aCwKICAgICAgICAgICAgICAgIHNjcmVlbkhlaWdodCA9IHNjcmVlbkhlaWdodCwKICAgICAgICAgICAgICAgIGluaXRpYWxYID0gY3VycmVudFgsCiAgICAgICAgICAgICAgICBpbml0aWFsWSA9IGN1cnJlbnRZLAogICAgICAgICAgICAgICAgaW5pdGlhbEF0dGFjaG1lbnRzID0gYXR0YWNobWVudHMsCiAgICAgICAgICAgICAgICBkZW5zaXR5ID0gZGVuc2l0eSwKICAgICAgICAgICAgICAgIGNvcm91dGluZVNjb3BlID0gc2NvcGUsCiAgICAgICAgICAgICAgICBjaGF0U2VydmljZSA9IGNoYXRTZXJ2aWNlLAogICAgICAgICAgICAgICAgd2luZG93U3RhdGUgPSB3aW5kb3dTdGF0ZSwKICAgICAgICAgICAgICAgIGlucHV0UHJvY2Vzc2luZ1N0YXRlID0gaW5wdXRQcm9jZXNzaW5nU3RhdGUKICAgICAgICApCiAgICB9CgogICAgLy8g5L2/55SoIHJlbWVtYmVyVXBkYXRlZFN0YXRlIOadpeaMgeacieacgOaWsOeahOWbnuiwg+WHveaVsO+8jOmBv+WFjeS9nOS4uiByZW1lbWJlciDnmoQga2V5CiAgICB2YWwgY3VycmVudE9uQ2xvc2UgYnkgcmVtZW1iZXJVcGRhdGVkU3RhdGUob25DbG9zZSkKICAgIHZhbCBjdXJyZW50T25SZXNpemUgYnkgcmVtZW1iZXJVcGRhdGVkU3RhdGUob25SZXNpemUpCiAgICB2YWwgY3VycmVudE9uU2NhbGVDaGFuZ2UgYnkgcmVtZW1iZXJVcGRhdGVkU3RhdGUob25TY2FsZUNoYW5nZSkKICAgIHZhbCBjdXJyZW50T25Nb2RlQ2hhbmdlIGJ5IHJlbWVtYmVyVXBkYXRlZFN0YXRlKG9uTW9kZUNoYW5nZSkKICAgIHZhbCBjdXJyZW50T25Nb3ZlIGJ5IHJlbWVtYmVyVXBkYXRlZFN0YXRlKG9uTW92ZSkKICAgIHZhbCBjdXJyZW50U25hcFRvRWRnZSBieSByZW1lbWJlclVwZGF0ZWRTdGF0ZShzbmFwVG9FZGdlKQogICAgdmFsIGN1cnJlbnRTYXZlV2luZG93U3RhdGUgYnkgcmVtZW1iZXJVcGRhdGVkU3RhdGUoc2F2ZVdpbmRvd1N0YXRlKQogICAgdmFsIGN1cnJlbnRPblNlbmRNZXNzYWdlIGJ5IHJlbWVtYmVyVXBkYXRlZFN0YXRlKG9uU2VuZE1lc3NhZ2UpCiAgICB2YWwgY3VycmVudE9uQ2FuY2VsTWVzc2FnZSBieSByZW1lbWJlclVwZGF0ZWRTdGF0ZShvbkNhbmNlbE1lc3NhZ2UpCiAgICB2YWwgY3VycmVudE9uQXR0YWNobWVudFJlcXVlc3QgYnkgcmVtZW1iZXJVcGRhdGVkU3RhdGUob25BdHRhY2htZW50UmVxdWVzdCkKICAgIHZhbCBjdXJyZW50T25SZW1vdmVBdHRhY2htZW50IGJ5IHJlbWVtYmVyVXBkYXRlZFN0YXRlKG9uUmVtb3ZlQXR0YWNobWVudCkKICAgIHZhbCBjdXJyZW50T25JbnB1dEZvY3VzUmVxdWVzdCBieSByZW1lbWJlclVwZGF0ZWRTdGF0ZShvbklucHV0Rm9jdXNSZXF1ZXN0KQoKICAgIC8vIOS9v+eUqCBTaWRlRWZmZWN0IOabtOaWsOWbnuiwg+WHveaVsOWSjOmikee5geWPmOWMlueahOeKtuaAgQogICAgU2lkZUVmZmVjdCB7CiAgICAgICAgLy8g5pu05paw5Zue6LCD5Ye95pWwCiAgICAgICAgZmxvYXRDb250ZXh0Lm9uQ2xvc2UgPSBjdXJyZW50T25DbG9zZQogICAgICAgIGZsb2F0Q29udGV4dC5vblJlc2l6ZSA9IGN1cnJlbnRPblJlc2l6ZQogICAgICAgIGZsb2F0Q29udGV4dC5vblNjYWxlQ2hhbmdlID0gY3VycmVudE9uU2NhbGVDaGFuZ2UKICAgICAgICBmbG9hdENvbnRleHQub25Nb2RlQ2hhbmdlID0gY3VycmVudE9uTW9kZUNoYW5nZQogICAgICAgIGZsb2F0Q29udGV4dC5vbk1vdmUgPSBjdXJyZW50T25Nb3ZlCiAgICAgICAgZmxvYXRDb250ZXh0LnNuYXBUb0VkZ2UgPSBjdXJyZW50U25hcFRvRWRnZQogICAgICAgIGZsb2F0Q29udGV4dC5zYXZlV2luZG93U3RhdGUgPSBjdXJyZW50U2F2ZVdpbmRvd1N0YXRlCiAgICAgICAgZmxvYXRDb250ZXh0Lm9uU2VuZE1lc3NhZ2UgPSBjdXJyZW50T25TZW5kTWVzc2FnZQogICAgICAgIGZsb2F0Q29udGV4dC5vbkNhbmNlbE1lc3NhZ2UgPSBjdXJyZW50T25DYW5jZWxNZXNzYWdlCiAgICAgICAgZmxvYXRDb250ZXh0Lm9uQXR0YWNobWVudFJlcXVlc3QgPSBjdXJyZW50T25BdHRhY2htZW50UmVxdWVzdAogICAgICAgIGZsb2F0Q29udGV4dC5vblJlbW92ZUF0dGFjaG1lbnQgPSBjdXJyZW50T25SZW1vdmVBdHRhY2htZW50CiAgICAgICAgZmxvYXRDb250ZXh0Lm9uSW5wdXRGb2N1c1JlcXVlc3QgPSBjdXJyZW50T25JbnB1dEZvY3VzUmVxdWVzdAogICAgICAgIAogICAgICAgIC8vIOabtOaWsOmikee5geWPmOWMlueahOaVsOaNrgogICAgICAgIGZsb2F0Q29udGV4dC5tZXNzYWdlcyA9IG1lc3NhZ2VzCiAgICAgICAgZmxvYXRDb250ZXh0LndpbmRvd1dpZHRoU3RhdGUgPSB3aWR0aAogICAgICAgIGZsb2F0Q29udGV4dC53aW5kb3dIZWlnaHRTdGF0ZSA9IGhlaWdodAogICAgICAgIGZsb2F0Q29udGV4dC53aW5kb3dTY2FsZSA9IHdpbmRvd1NjYWxlCiAgICAgICAgZmxvYXRDb250ZXh0LmN1cnJlbnRNb2RlID0gY3VycmVudE1vZGUKICAgICAgICBmbG9hdENvbnRleHQucHJldmlvdXNNb2RlID0gcHJldmlvdXNNb2RlCiAgICAgICAgZmxvYXRDb250ZXh0LmlzQXRFZGdlID0gaXNBdEVkZ2UKICAgICAgICBmbG9hdENvbnRleHQuY3VycmVudFggPSBjdXJyZW50WAogICAgICAgIGZsb2F0Q29udGV4dC5jdXJyZW50WSA9IGN1cnJlbnRZCiAgICAgICAgZmxvYXRDb250ZXh0LmF0dGFjaG1lbnRzID0gYXR0YWNobWVudHMKICAgIH0KCiAgICByZXR1cm4gZmxvYXRDb250ZXh0Cn0KCi8qKiDnroDljJbnmoTmgqzmta7nqpfnirbmgIHkuI7lm57osIPkuIrkuIvmlocgKi8KY2xhc3MgRmxvYXRDb250ZXh0KAogICAgICAgIGluaXRpYWxNZXNzYWdlczogTGlzdDxDaGF0TWVzc2FnZT4sCiAgICAgICAgaW5pdGlhbFdpZHRoOiBEcCwKICAgICAgICBpbml0aWFsSGVpZ2h0OiBEcCwKICAgICAgICB2YWwgYmFsbFNpemU6IERwLAogICAgICAgIGluaXRpYWxXaW5kb3dTY2FsZTogRmxvYXQsCiAgICAgICAgaW5pdGlhbE1vZGU6IEZsb2F0aW5nTW9kZSwKICAgICAgICBpbml0aWFsUHJldmlvdXNNb2RlOiBGbG9hdGluZ01vZGUsCiAgICAgICAgaW5pdGlhbElzQXRFZGdlOiBCb29sZWFuLAogICAgICAgIHZhbCBzY3JlZW5XaWR0aDogRHAsCiAgICAgICAgdmFsIHNjcmVlbkhlaWdodDogRHAsCiAgICAgICAgaW5pdGlhbFg6IEZsb2F0LAogICAgICAgIGluaXRpYWxZOiBGbG9hdCwKICAgICAgICBpbml0aWFsQXR0YWNobWVudHM6IExpc3Q8QXR0YWNobWVudEluZm8+LAogICAgICAgIHZhbCBkZW5zaXR5OiBEZW5zaXR5LAogICAgICAgIHZhbCBjb3JvdXRpbmVTY29wZTogQ29yb3V0aW5lU2NvcGUsCiAgICAgICAgdmFsIGNoYXRTZXJ2aWNlOiBGbG9hdGluZ0NoYXRTZXJ2aWNlPyA9IG51bGwsCiAgICAgICAgdmFsIHdpbmRvd1N0YXRlOiBGbG9hdGluZ1dpbmRvd1N0YXRlPyA9IG51bGwsCiAgICAgICAgdmFsIGlucHV0UHJvY2Vzc2luZ1N0YXRlOiBTdGF0ZTxJbnB1dFByb2Nlc3NpbmdTdGF0ZT4KKSB7CiAgICAvLyDlm57osIPlh73mlbDkvb/nlKggdmFyIOS7peS+v+mAmui/hyBTaWRlRWZmZWN0IOabtOaWsAogICAgdmFyIG9uQ2xvc2U6ICgpIC0+IFVuaXQgPSB7fQogICAgdmFyIG9uUmVzaXplOiAoRHAsIERwKSAtPiBVbml0ID0geyBfLCBfIC0+IH0KICAgIHZhciBvblNjYWxlQ2hhbmdlOiAoRmxvYXQpIC0+IFVuaXQgPSB7fQogICAgdmFyIG9uTW9kZUNoYW5nZTogKEZsb2F0aW5nTW9kZSkgLT4gVW5pdCA9IHt9CiAgICB2YXIgb25Nb3ZlOiAoRmxvYXQsIEZsb2F0LCBGbG9hdCkgLT4gVW5pdCA9IHsgXywgXywgXyAtPiB9CiAgICB2YXIgc25hcFRvRWRnZTogKEJvb2xlYW4pIC0+IFVuaXQgPSB7fQogICAgdmFyIHNhdmVXaW5kb3dTdGF0ZTogKCgpIC0+IFVuaXQpPyA9IG51bGwKICAgIHZhciBvblNlbmRNZXNzYWdlIGJ5IG11dGFibGVTdGF0ZU9mPCgoU3RyaW5nLCBQcm9tcHRGdW5jdGlvblR5cGUpIC0+IFVuaXQpPz4obnVsbCkKICAgIHZhciBvbkNhbmNlbE1lc3NhZ2U6ICgoKSAtPiBVbml0KT8gPSBudWxsCiAgICB2YXIgb25BdHRhY2htZW50UmVxdWVzdDogKChTdHJpbmcpIC0+IFVuaXQpPyA9IG51bGwKICAgIHZhciBvblJlbW92ZUF0dGFjaG1lbnQ6ICgoU3RyaW5nKSAtPiBVbml0KT8gPSBudWxsCiAgICB2YXIgb25JbnB1dEZvY3VzUmVxdWVzdDogKChCb29sZWFuKSAtPiBVbml0KT8gPSBudWxsCgogICAgLy8g5L2/55SoIG11dGFibGVTdGF0ZU9mIOiuqSBDb21wb3NlIOiDveaEn+efpeWPmOWMlgogICAgdmFyIG1lc3NhZ2VzIGJ5IG11dGFibGVTdGF0ZU9mKGluaXRpYWxNZXNzYWdlcykKICAgIHZhciB3aW5kb3dXaWR0aFN0YXRlIGJ5IG11dGFibGVTdGF0ZU9mKGluaXRpYWxXaWR0aCkKICAgIHZhciB3aW5kb3dIZWlnaHRTdGF0ZSBieSBtdXRhYmxlU3RhdGVPZihpbml0aWFsSGVpZ2h0KQogICAgdmFyIHdpbmRvd1NjYWxlIGJ5IG11dGFibGVTdGF0ZU9mKGluaXRpYWxXaW5kb3dTY2FsZSkKICAgIHZhciBjdXJyZW50TW9kZSBieSBtdXRhYmxlU3RhdGVPZihpbml0aWFsTW9kZSkKICAgIHZhciBwcmV2aW91c01vZGUgYnkgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbFByZXZpb3VzTW9kZSkKICAgIHZhciBpc0F0RWRnZSBieSBtdXRhYmxlU3RhdGVPZihpbml0aWFsSXNBdEVkZ2UpCiAgICB2YXIgY3VycmVudFggYnkgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbFgpCiAgICB2YXIgY3VycmVudFkgYnkgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbFkpCiAgICB2YXIgYXR0YWNobWVudHMgYnkgbXV0YWJsZVN0YXRlT2YoaW5pdGlhbEF0dGFjaG1lbnRzKQogICAgLy8gaW5wdXRQcm9jZXNzaW5nU3RhdGUgaXMgYSBTdGF0ZSBvYmplY3QsIGFjY2Vzc2VkIGRpcmVjdGx5CgogICAgLy8g5Yqo55S75LiO6L2s5o2i55u45YWz54q25oCBCiAgICB2YWwgYW5pbWF0ZWRBbHBoYSA9IEFuaW1hdGFibGUoMWYpCiAgICB2YWwgdHJhbnNpdGlvbkZlZWRiYWNrID0gQW5pbWF0YWJsZSgwZikKCiAgICAvLyDlpKflsI/osIPmlbTnm7jlhbPnirbmgIEKICAgIHZhciBpc0VkZ2VSZXNpemluZzogQm9vbGVhbiA9IGZhbHNlCiAgICB2YXIgYWN0aXZlRWRnZTogUmVzaXplRWRnZSA9IFJlc2l6ZUVkZ2UuTk9ORQogICAgdmFyIGluaXRpYWxXaW5kb3dXaWR0aDogRmxvYXQgPSAwZgogICAgdmFyIGluaXRpYWxXaW5kb3dIZWlnaHQ6IEZsb2F0ID0gMGYKCiAgICAvLyDlr7nor53moYbkuI7lhoXlrrnmmL7npLrnirbmgIEKICAgIHZhciBzaG93SW5wdXREaWFsb2c6IEJvb2xlYW4gYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICB2YXIgdXNlck1lc3NhZ2U6IFN0cmluZyBieSBtdXRhYmxlU3RhdGVPZigiIikKICAgIHZhciBjb250ZW50VmlzaWJsZTogQm9vbGVhbiBieSBtdXRhYmxlU3RhdGVPZih0cnVlKQogICAgdmFyIHNob3dBdHRhY2htZW50UGFuZWw6IEJvb2xlYW4gYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICAKICAgICAvLyDmoIfor4bmmK/lkKbliJrlrozmiJDkuoblsY/luZXlnIjpgInvvIznlKjkuo7ov5Tlm57lhajlsY/mqKHlvI/ml7boh6rliqjli77pgIki5bGP5bmV5YaF5a65IgogICAgdmFyIHBlbmRpbmdTY3JlZW5TZWxlY3Rpb246IEJvb2xlYW4gYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCn0K
+package com.bslsjdk.operit.ui.floating
+
+import androidx.compose.animation.core.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.Density
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.data.model.AttachmentInfo
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.data.model.InputProcessingState
+import com.bslsjdk.operit.data.model.PromptFunctionType
+import com.bslsjdk.operit.services.FloatingChatService
+import com.bslsjdk.operit.services.floating.FloatingWindowState
+import com.bslsjdk.operit.ui.floating.ui.window.models.ResizeEdge
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+
+/** 简化后的FloatContext类，移除了路由耦合逻辑 */
+@Composable
+fun rememberFloatContext(
+        messages: List<ChatMessage>,
+        width: Dp,
+        height: Dp,
+        onClose: () -> Unit,
+        onResize: (Dp, Dp) -> Unit,
+        ballSize: Dp = 48.dp,
+        windowScale: Float = 1.0f,
+        onScaleChange: (Float) -> Unit,
+        currentMode: FloatingMode,
+        previousMode: FloatingMode = FloatingMode.WINDOW,
+        onModeChange: (FloatingMode) -> Unit,
+        onMove: (Float, Float, Float) -> Unit = { _, _, _ -> },
+        snapToEdge: (Boolean) -> Unit = { _ -> },
+        isAtEdge: Boolean = false,
+        screenWidth: Dp = 1080.dp,
+        screenHeight: Dp = 2340.dp,
+        currentX: Float = 0f,
+        currentY: Float = 0f,
+        saveWindowState: (() -> Unit)? = null,
+        onSendMessage: ((String, PromptFunctionType) -> Unit)? = null,
+        onCancelMessage: (() -> Unit)? = null,
+        onAttachmentRequest: ((String) -> Unit)? = null,
+        attachments: List<AttachmentInfo> = emptyList(),
+        onRemoveAttachment: ((String) -> Unit)? = null,
+        onInputFocusRequest: ((Boolean) -> Unit)? = null,
+        chatService: FloatingChatService? = null,
+        windowState: FloatingWindowState? = null,
+        inputProcessingState: State<InputProcessingState> = mutableStateOf(InputProcessingState.Idle)
+): FloatContext {
+    val density = LocalDensity.current
+    val scope = rememberCoroutineScope()
+
+    // 创建稳定的 FloatContext 实例，只依赖真正不会改变的架构性参数
+    // 这样可以避免不必要的实例重建，提高性能
+    val floatContext = remember(
+            chatService,      // 服务实例通常是稳定的
+            windowState,      // 窗口状态实例是稳定的
+            density,          // Density 在配置改变前是稳定的
+            scope             // CoroutineScope 是稳定的
+    ) {
+        FloatContext(
+                initialMessages = messages,
+                initialWidth = width,
+                initialHeight = height,
+                ballSize = ballSize,
+                initialWindowScale = windowScale,
+                initialMode = currentMode,
+                initialPreviousMode = previousMode,
+                initialIsAtEdge = isAtEdge,
+                screenWidth = screenWidth,
+                screenHeight = screenHeight,
+                initialX = currentX,
+                initialY = currentY,
+                initialAttachments = attachments,
+                density = density,
+                coroutineScope = scope,
+                chatService = chatService,
+                windowState = windowState,
+                inputProcessingState = inputProcessingState
+        )
+    }
+
+    // 使用 rememberUpdatedState 来持有最新的回调函数，避免作为 remember 的 key
+    val currentOnClose by rememberUpdatedState(onClose)
+    val currentOnResize by rememberUpdatedState(onResize)
+    val currentOnScaleChange by rememberUpdatedState(onScaleChange)
+    val currentOnModeChange by rememberUpdatedState(onModeChange)
+    val currentOnMove by rememberUpdatedState(onMove)
+    val currentSnapToEdge by rememberUpdatedState(snapToEdge)
+    val currentSaveWindowState by rememberUpdatedState(saveWindowState)
+    val currentOnSendMessage by rememberUpdatedState(onSendMessage)
+    val currentOnCancelMessage by rememberUpdatedState(onCancelMessage)
+    val currentOnAttachmentRequest by rememberUpdatedState(onAttachmentRequest)
+    val currentOnRemoveAttachment by rememberUpdatedState(onRemoveAttachment)
+    val currentOnInputFocusRequest by rememberUpdatedState(onInputFocusRequest)
+
+    // 使用 SideEffect 更新回调函数和频繁变化的状态
+    SideEffect {
+        // 更新回调函数
+        floatContext.onClose = currentOnClose
+        floatContext.onResize = currentOnResize
+        floatContext.onScaleChange = currentOnScaleChange
+        floatContext.onModeChange = currentOnModeChange
+        floatContext.onMove = currentOnMove
+        floatContext.snapToEdge = currentSnapToEdge
+        floatContext.saveWindowState = currentSaveWindowState
+        floatContext.onSendMessage = currentOnSendMessage
+        floatContext.onCancelMessage = currentOnCancelMessage
+        floatContext.onAttachmentRequest = currentOnAttachmentRequest
+        floatContext.onRemoveAttachment = currentOnRemoveAttachment
+        floatContext.onInputFocusRequest = currentOnInputFocusRequest
+        
+        // 更新频繁变化的数据
+        floatContext.messages = messages
+        floatContext.windowWidthState = width
+        floatContext.windowHeightState = height
+        floatContext.windowScale = windowScale
+        floatContext.currentMode = currentMode
+        floatContext.previousMode = previousMode
+        floatContext.isAtEdge = isAtEdge
+        floatContext.currentX = currentX
+        floatContext.currentY = currentY
+        floatContext.attachments = attachments
+    }
+
+    return floatContext
+}
+
+/** 简化的悬浮窗状态与回调上下文 */
+class FloatContext(
+        initialMessages: List<ChatMessage>,
+        initialWidth: Dp,
+        initialHeight: Dp,
+        val ballSize: Dp,
+        initialWindowScale: Float,
+        initialMode: FloatingMode,
+        initialPreviousMode: FloatingMode,
+        initialIsAtEdge: Boolean,
+        val screenWidth: Dp,
+        val screenHeight: Dp,
+        initialX: Float,
+        initialY: Float,
+        initialAttachments: List<AttachmentInfo>,
+        val density: Density,
+        val coroutineScope: CoroutineScope,
+        val chatService: FloatingChatService? = null,
+        val windowState: FloatingWindowState? = null,
+        val inputProcessingState: State<InputProcessingState>
+) {
+    // 回调函数使用 var 以便通过 SideEffect 更新
+    var onClose: () -> Unit = {}
+    var onResize: (Dp, Dp) -> Unit = { _, _ -> }
+    var onScaleChange: (Float) -> Unit = {}
+    var onModeChange: (FloatingMode) -> Unit = {}
+    var onMove: (Float, Float, Float) -> Unit = { _, _, _ -> }
+    var snapToEdge: (Boolean) -> Unit = {}
+    var saveWindowState: (() -> Unit)? = null
+    var onSendMessage by mutableStateOf<((String, PromptFunctionType) -> Unit)?>(null)
+    var onCancelMessage: (() -> Unit)? = null
+    var onAttachmentRequest: ((String) -> Unit)? = null
+    var onRemoveAttachment: ((String) -> Unit)? = null
+    var onInputFocusRequest: ((Boolean) -> Unit)? = null
+
+    // 使用 mutableStateOf 让 Compose 能感知变化
+    var messages by mutableStateOf(initialMessages)
+    var windowWidthState by mutableStateOf(initialWidth)
+    var windowHeightState by mutableStateOf(initialHeight)
+    var windowScale by mutableStateOf(initialWindowScale)
+    var currentMode by mutableStateOf(initialMode)
+    var previousMode by mutableStateOf(initialPreviousMode)
+    var isAtEdge by mutableStateOf(initialIsAtEdge)
+    var currentX by mutableStateOf(initialX)
+    var currentY by mutableStateOf(initialY)
+    var attachments by mutableStateOf(initialAttachments)
+    // inputProcessingState is a State object, accessed directly
+
+    // 动画与转换相关状态
+    val animatedAlpha = Animatable(1f)
+    val transitionFeedback = Animatable(0f)
+
+    // 大小调整相关状态
+    var isEdgeResizing: Boolean = false
+    var activeEdge: ResizeEdge = ResizeEdge.NONE
+    var initialWindowWidth: Float = 0f
+    var initialWindowHeight: Float = 0f
+
+    // 对话框与内容显示状态
+    var showInputDialog: Boolean by mutableStateOf(false)
+    var userMessage: String by mutableStateOf("")
+    var contentVisible: Boolean by mutableStateOf(true)
+    var showAttachmentPanel: Boolean by mutableStateOf(false)
+    
+     // 标识是否刚完成了屏幕圈选，用于返回全屏模式时自动勾选"屏幕内容"
+    var pendingScreenSelection: Boolean by mutableStateOf(false)
+}

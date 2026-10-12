@@ -1,1 +1,36 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb252ZXJ0ZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DaGF0SGlzdG9yeQoKLyoqCiAqIOiBiuWkqeiusOW9leagvOW8j+i9rOaNouWZqOaOpeWPowogKi8KaW50ZXJmYWNlIENoYXRGb3JtYXRDb252ZXJ0ZXIgewogICAgLyoqCiAgICAgKiDlsIblrZfnrKbkuLLlhoXlrrnovazmjaLkuLogQ2hhdEhpc3Rvcnkg5YiX6KGoCiAgICAgKiBAcGFyYW0gY29udGVudCDmlofku7blhoXlrrkKICAgICAqIEByZXR1cm4g6L2s5o2i5ZCO55qE6IGK5aSp6K6w5b2V5YiX6KGoCiAgICAgKiBAdGhyb3dzIENvbnZlcnNpb25FeGNlcHRpb24g6L2s5o2i5aSx6LSl5pe25oqb5Ye6CiAgICAgKi8KICAgIGZ1biBjb252ZXJ0KGNvbnRlbnQ6IFN0cmluZyk6IExpc3Q8Q2hhdEhpc3Rvcnk+CiAgICAKICAgIC8qKgogICAgICog6I635Y+W6L2s5o2i5Zmo5pSv5oyB55qE5qC85byPCiAgICAgKi8KICAgIGZ1biBnZXRTdXBwb3J0ZWRGb3JtYXQoKTogQ2hhdEZvcm1hdAp9CgovKioKICog6L2s5o2i5byC5bi4CiAqLwpjbGFzcyBDb252ZXJzaW9uRXhjZXB0aW9uKG1lc3NhZ2U6IFN0cmluZywgY2F1c2U6IFRocm93YWJsZT8gPSBudWxsKSA6IEV4Y2VwdGlvbihtZXNzYWdlLCBjYXVzZSkKCi8qKgogKiDovazmjaLnu5PmnpwKICovCmRhdGEgY2xhc3MgQ29udmVyc2lvblJlc3VsdCgKICAgIHZhbCBjaGF0SGlzdG9yaWVzOiBMaXN0PENoYXRIaXN0b3J5PiwKICAgIHZhbCBmb3JtYXQ6IENoYXRGb3JtYXQsCiAgICB2YWwgdG90YWxNZXNzYWdlczogSW50LAogICAgdmFsIHdhcm5pbmdzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKQopCg==
+package com.bslsjdk.operit.data.converter
+
+import com.bslsjdk.operit.data.model.ChatHistory
+
+/**
+ * 聊天记录格式转换器接口
+ */
+interface ChatFormatConverter {
+    /**
+     * 将字符串内容转换为 ChatHistory 列表
+     * @param content 文件内容
+     * @return 转换后的聊天记录列表
+     * @throws ConversionException 转换失败时抛出
+     */
+    fun convert(content: String): List<ChatHistory>
+    
+    /**
+     * 获取转换器支持的格式
+     */
+    fun getSupportedFormat(): ChatFormat
+}
+
+/**
+ * 转换异常
+ */
+class ConversionException(message: String, cause: Throwable? = null) : Exception(message, cause)
+
+/**
+ * 转换结果
+ */
+data class ConversionResult(
+    val chatHistories: List<ChatHistory>,
+    val format: ChatFormat,
+    val totalMessages: Int,
+    val warnings: List<String> = emptyList()
+)

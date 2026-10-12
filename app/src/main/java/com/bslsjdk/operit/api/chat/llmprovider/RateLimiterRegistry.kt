@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAoKb2JqZWN0IFJhdGVMaW1pdGVyUmVnaXN0cnkgewogICAgcHJpdmF0ZSB2YWwgbGltaXRlcnMgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIFNsaWRpbmdXaW5kb3dSYXRlTGltaXRlcj4oKQoKICAgIGZ1biBnZXRPckNyZWF0ZShrZXk6IFN0cmluZywgbWF4UmVxdWVzdHNQZXJNaW51dGU6IEludCk6IFNsaWRpbmdXaW5kb3dSYXRlTGltaXRlciB7CiAgICAgICAgcmVxdWlyZShtYXhSZXF1ZXN0c1Blck1pbnV0ZSA+IDApIHsgIm1heFJlcXVlc3RzUGVyTWludXRlIG11c3QgYmUgPiAwIiB9CgogICAgICAgIHJldHVybiBsaW1pdGVycy5jb21wdXRlKGtleSkgeyBfLCBleGlzdGluZyAtPgogICAgICAgICAgICBpZiAoZXhpc3RpbmcgPT0gbnVsbCB8fCBleGlzdGluZy5tYXhSZXF1ZXN0c1Blck1pbnV0ZSAhPSBtYXhSZXF1ZXN0c1Blck1pbnV0ZSkgewogICAgICAgICAgICAgICAgU2xpZGluZ1dpbmRvd1JhdGVMaW1pdGVyKG1heFJlcXVlc3RzUGVyTWludXRlID0gbWF4UmVxdWVzdHNQZXJNaW51dGUpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBleGlzdGluZwogICAgICAgICAgICB9CiAgICAgICAgfSEhCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import java.util.concurrent.ConcurrentHashMap
+
+object RateLimiterRegistry {
+    private val limiters = ConcurrentHashMap<String, SlidingWindowRateLimiter>()
+
+    fun getOrCreate(key: String, maxRequestsPerMinute: Int): SlidingWindowRateLimiter {
+        require(maxRequestsPerMinute > 0) { "maxRequestsPerMinute must be > 0" }
+
+        return limiters.compute(key) { _, existing ->
+            if (existing == null || existing.maxRequestsPerMinute != maxRequestsPerMinute) {
+                SlidingWindowRateLimiter(maxRequestsPerMinute = maxRequestsPerMinute)
+            } else {
+                existing
+            }
+        }!!
+    }
+}

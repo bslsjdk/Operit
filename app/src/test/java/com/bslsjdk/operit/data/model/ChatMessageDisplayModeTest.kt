@@ -1,1 +1,30 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDaGF0TWVzc2FnZURpc3BsYXlNb2RlVGVzdCB7CgogICAgQFRlc3QgZnVuIGBOT1JNQUwgaXMgYSBkaXNwbGF5IG1vZGVgKCkgewogICAgICAgIGFzc2VydEVxdWFscyhDaGF0TWVzc2FnZURpc3BsYXlNb2RlLk5PUk1BTCwgQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS52YWx1ZU9mKCJOT1JNQUwiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYEhJRERFTl9QTEFDRUhPTERFUiBpcyBhIGRpc3BsYXkgbW9kZWAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKENoYXRNZXNzYWdlRGlzcGxheU1vZGUuSElEREVOX1BMQUNFSE9MREVSLCBDaGF0TWVzc2FnZURpc3BsYXlNb2RlLnZhbHVlT2YoIkhJRERFTl9QTEFDRUhPTERFUiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZW51bSBoYXMgZXhhY3RseSB0d28gdmFsdWVzYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS52YWx1ZXMoKS5zaXplKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdmFsdWVPZiBpcyBjYXNlIHNlbnNpdGl2ZWAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKENoYXRNZXNzYWdlRGlzcGxheU1vZGUuTk9STUFMLCBDaGF0TWVzc2FnZURpc3BsYXlNb2RlLnZhbHVlT2YoIk5PUk1BTCIpKQogICAgICAgIGFzc2VydEVxdWFscyhDaGF0TWVzc2FnZURpc3BsYXlNb2RlLkhJRERFTl9QTEFDRUhPTERFUiwgQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS52YWx1ZU9mKCJISURERU5fUExBQ0VIT0xERVIiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG5hbWUgcmV0dXJucyBjb3JyZWN0IHN0cmluZ2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJOT1JNQUwiLCBDaGF0TWVzc2FnZURpc3BsYXlNb2RlLk5PUk1BTC5uYW1lKQogICAgICAgIGFzc2VydEVxdWFscygiSElEREVOX1BMQUNFSE9MREVSIiwgQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS5ISURERU5fUExBQ0VIT0xERVIubmFtZSkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMessageDisplayModeTest {
+
+    @Test fun `NORMAL is a display mode`() {
+        assertEquals(ChatMessageDisplayMode.NORMAL, ChatMessageDisplayMode.valueOf("NORMAL"))
+    }
+
+    @Test fun `HIDDEN_PLACEHOLDER is a display mode`() {
+        assertEquals(ChatMessageDisplayMode.HIDDEN_PLACEHOLDER, ChatMessageDisplayMode.valueOf("HIDDEN_PLACEHOLDER"))
+    }
+
+    @Test fun `enum has exactly two values`() {
+        assertEquals(2, ChatMessageDisplayMode.values().size)
+    }
+
+    @Test fun `valueOf is case sensitive`() {
+        assertEquals(ChatMessageDisplayMode.NORMAL, ChatMessageDisplayMode.valueOf("NORMAL"))
+        assertEquals(ChatMessageDisplayMode.HIDDEN_PLACEHOLDER, ChatMessageDisplayMode.valueOf("HIDDEN_PLACEHOLDER"))
+    }
+
+    @Test fun `name returns correct string`() {
+        assertEquals("NORMAL", ChatMessageDisplayMode.NORMAL.name)
+        assertEquals("HIDDEN_PLACEHOLDER", ChatMessageDisplayMode.HIDDEN_PLACEHOLDER.name)
+    }
+}

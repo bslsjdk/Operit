@@ -1,1 +1,92 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCmltcG9ydCBhbmRyb2lkLmFwcC5BY3Rpdml0eQppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQubWVkaWEucHJvamVjdGlvbi5NZWRpYVByb2plY3Rpb25NYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZQppbXBvcnQgYW5kcm9pZC5vcy5IYW5kbGVyCmltcG9ydCBhbmRyb2lkLm9zLkxvb3BlcgppbXBvcnQgYW5kcm9pZC5vcy5TeXN0ZW1DbG9jawppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCgovKioKICogVHJhbnNwYXJlbnQgQWN0aXZpdHkgdG8gcmVxdWVzdCBTQ1JFRU5fQ0FQVFVSRSBwZXJtaXNzaW9uLgogKi8KY2xhc3MgU2NyZWVuQ2FwdHVyZUFjdGl2aXR5IDogQWN0aXZpdHkoKSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlNjcmVlbkNhcHR1cmVBY3Rpdml0eSIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVFVRVNUX0NPREVfQ0FQVFVSRSA9IDEwMDEKCiAgICAgICAgZnVuIGNsZWFuU3RhcnQoY29udGV4dDogQ29udGV4dCkgewogICAgICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KGNvbnRleHQsIFNjcmVlbkNhcHR1cmVBY3Rpdml0eTo6Y2xhc3MuamF2YSkuYXBwbHkgewogICAgICAgICAgICAgICAgYWRkRmxhZ3MoSW50ZW50LkZMQUdfQUNUSVZJVFlfTkVXX1RBU0sgb3IgSW50ZW50LkZMQUdfQUNUSVZJVFlfQ0xFQVJfVE9QKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eShpbnRlbnQpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIG1lZGlhUHJvamVjdGlvbk1hbmFnZXI6IE1lZGlhUHJvamVjdGlvbk1hbmFnZXIKCiAgICBvdmVycmlkZSBmdW4gb25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlOiBCdW5kbGU/KSB7CiAgICAgICAgc3VwZXIub25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlKQogICAgICAgIG1lZGlhUHJvamVjdGlvbk1hbmFnZXIgPSBnZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuTUVESUFfUFJPSkVDVElPTl9TRVJWSUNFKSBhcyBNZWRpYVByb2plY3Rpb25NYW5hZ2VyCgogICAgICAgIC8vIENoZWNrIGlmIHdlIGFscmVhZHkgaGF2ZSBwZXJtaXNzaW9uIChvcHRpb25hbCwgYnV0IGdvb2QgcHJhY3RpY2UgaWYgd2Ugc3RvcmVkIGl0KQogICAgICAgIC8vIEZvciBub3csIHNpbXBsZSBmbG93OiBhbHdheXMgcmVxdWVzdC4KICAgICAgICBzdGFydEFjdGl2aXR5Rm9yUmVzdWx0KG1lZGlhUHJvamVjdGlvbk1hbmFnZXIuY3JlYXRlU2NyZWVuQ2FwdHVyZUludGVudCgpLCBSRVFVRVNUX0NPREVfQ0FQVFVSRSkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25BY3Rpdml0eVJlc3VsdChyZXF1ZXN0Q29kZTogSW50LCByZXN1bHRDb2RlOiBJbnQsIGRhdGE6IEludGVudD8pIHsKICAgICAgICBzdXBlci5vbkFjdGl2aXR5UmVzdWx0KHJlcXVlc3RDb2RlLCByZXN1bHRDb2RlLCBkYXRhKQogICAgICAgIGlmIChyZXF1ZXN0Q29kZSA9PSBSRVFVRVNUX0NPREVfQ0FQVFVSRSkgewogICAgICAgICAgICBpZiAocmVzdWx0Q29kZSA9PSBBY3Rpdml0eS5SRVNVTFRfT0sgJiYgZGF0YSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTY3JlZW4gY2FwdHVyZSBwZXJtaXNzaW9uIGdyYW50ZWQiKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyBBbmRyb2lkIDE0IHJlcXVpcmVtZW50OiBTdGFydCBmb3JlZ3JvdW5kIHNlcnZpY2Ugd2l0aCBtZWRpYVByb2plY3Rpb24gdHlwZSBCRUZPUkUgY2FsbGluZyBnZXRNZWRpYVByb2plY3Rpb24KICAgICAgICAgICAgICAgIE1lZGlhUHJvamVjdGlvbkhvbGRlci5wZXJtaXNzaW9uUmVzdWx0Q29kZSA9IHJlc3VsdENvZGUKICAgICAgICAgICAgICAgIE1lZGlhUHJvamVjdGlvbkhvbGRlci5wZXJtaXNzaW9uUmVzdWx0RGF0YSA9IGRhdGEKCiAgICAgICAgICAgICAgICBTY3JlZW5DYXB0dXJlU2VydmljZS5zdGFydCh0aGlzKQoKICAgICAgICAgICAgICAgIHZhbCBoYW5kbGVyID0gSGFuZGxlcihMb29wZXIuZ2V0TWFpbkxvb3BlcigpKQogICAgICAgICAgICAgICAgdmFsIHN0YXJ0QXQgPSBTeXN0ZW1DbG9jay51cHRpbWVNaWxsaXMoKQogICAgICAgICAgICAgICAgdmFsIGNoZWNrSW50ZXJ2YWxNcyA9IDMwTAogICAgICAgICAgICAgICAgdmFsIHRpbWVvdXRNcyA9IDE1MDBMCgogICAgICAgICAgICAgICAgdmFsIHJ1bm5hYmxlID0gb2JqZWN0IDogUnVubmFibGUgewogICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBydW4oKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBlbGFwc2VkID0gU3lzdGVtQ2xvY2sudXB0aW1lTWlsbGlzKCkgLSBzdGFydEF0CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBpc1JlYWR5ID0gU2NyZWVuQ2FwdHVyZVNlcnZpY2UuaXNNZWRpYVByb2plY3Rpb25Gb3JlZ3JvdW5kUmVhZHkKCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc1JlYWR5IHx8IGVsYXBzZWQgPj0gdGltZW91dE1zKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1lZGlhUHJvamVjdGlvbkhvbGRlci5tZWRpYVByb2plY3Rpb24gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtZWRpYVByb2plY3Rpb25NYW5hZ2VyLmdldE1lZGlhUHJvamVjdGlvbihyZXN1bHRDb2RlLCBkYXRhKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogU2VjdXJpdHlFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gb2J0YWluIE1lZGlhUHJvamVjdGlvbiAoRkdTIG1lZGlhUHJvamVjdGlvbiBub3QgcmVhZHkpIiwgZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNZWRpYVByb2plY3Rpb25Ib2xkZXIuY2xlYXIodGhpc0BTY3JlZW5DYXB0dXJlQWN0aXZpdHkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gb2J0YWluIE1lZGlhUHJvamVjdGlvbiIsIGUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWVkaWFQcm9qZWN0aW9uSG9sZGVyLmNsZWFyKHRoaXNAU2NyZWVuQ2FwdHVyZUFjdGl2aXR5KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaW5pc2goKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIGhhbmRsZXIucG9zdERlbGF5ZWQodGhpcywgY2hlY2tJbnRlcnZhbE1zKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBoYW5kbGVyLnBvc3QocnVubmFibGUpCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNjcmVlbiBjYXB0dXJlIHBlcm1pc3Npb24gZGVuaWVkIG9yIGNhbmNlbGxlZCIpCiAgICAgICAgICAgICAgICBNZWRpYVByb2plY3Rpb25Ib2xkZXIuY2xlYXIodGhpcykKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBmaW5pc2goKQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.system
+
+import android.app.Activity
+import android.content.Context
+import android.content.Intent
+import android.media.projection.MediaProjectionManager
+import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.os.SystemClock
+import com.bslsjdk.operit.util.AppLogger
+
+/**
+ * Transparent Activity to request SCREEN_CAPTURE permission.
+ */
+class ScreenCaptureActivity : Activity() {
+
+    companion object {
+        private const val TAG = "ScreenCaptureActivity"
+        private const val REQUEST_CODE_CAPTURE = 1001
+
+        fun cleanStart(context: Context) {
+            val intent = Intent(context, ScreenCaptureActivity::class.java).apply {
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP)
+            }
+            context.startActivity(intent)
+        }
+    }
+
+    private lateinit var mediaProjectionManager: MediaProjectionManager
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        mediaProjectionManager = getSystemService(Context.MEDIA_PROJECTION_SERVICE) as MediaProjectionManager
+
+        // Check if we already have permission (optional, but good practice if we stored it)
+        // For now, simple flow: always request.
+        startActivityForResult(mediaProjectionManager.createScreenCaptureIntent(), REQUEST_CODE_CAPTURE)
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_CODE_CAPTURE) {
+            if (resultCode == Activity.RESULT_OK && data != null) {
+                AppLogger.d(TAG, "Screen capture permission granted")
+                
+                // Android 14 requirement: Start foreground service with mediaProjection type BEFORE calling getMediaProjection
+                MediaProjectionHolder.permissionResultCode = resultCode
+                MediaProjectionHolder.permissionResultData = data
+
+                ScreenCaptureService.start(this)
+
+                val handler = Handler(Looper.getMainLooper())
+                val startAt = SystemClock.uptimeMillis()
+                val checkIntervalMs = 30L
+                val timeoutMs = 1500L
+
+                val runnable = object : Runnable {
+                    override fun run() {
+                        val elapsed = SystemClock.uptimeMillis() - startAt
+                        val isReady = ScreenCaptureService.isMediaProjectionForegroundReady
+
+                        if (isReady || elapsed >= timeoutMs) {
+                            try {
+                                MediaProjectionHolder.mediaProjection =
+                                    mediaProjectionManager.getMediaProjection(resultCode, data)
+                            } catch (e: SecurityException) {
+                                AppLogger.e(TAG, "Failed to obtain MediaProjection (FGS mediaProjection not ready)", e)
+                                MediaProjectionHolder.clear(this@ScreenCaptureActivity)
+                            } catch (e: Exception) {
+                                AppLogger.e(TAG, "Failed to obtain MediaProjection", e)
+                                MediaProjectionHolder.clear(this@ScreenCaptureActivity)
+                            } finally {
+                                finish()
+                            }
+                            return
+                        }
+
+                        handler.postDelayed(this, checkIntervalMs)
+                    }
+                }
+
+                handler.post(runnable)
+                return
+            } else {
+                AppLogger.d(TAG, "Screen capture permission denied or cancelled")
+                MediaProjectionHolder.clear(this)
+            }
+        }
+        finish()
+    }
+}

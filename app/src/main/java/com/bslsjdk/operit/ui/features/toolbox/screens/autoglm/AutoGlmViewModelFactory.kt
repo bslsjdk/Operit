@@ -1,1 +1,15 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmF1dG9nbG0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbFByb3ZpZGVyCgpjbGFzcyBBdXRvR2xtVmlld01vZGVsRmFjdG9yeShwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IFZpZXdNb2RlbFByb3ZpZGVyLkZhY3RvcnkgewogICAgb3ZlcnJpZGUgZnVuIDxUIDogVmlld01vZGVsPiBjcmVhdGUobW9kZWxDbGFzczogQ2xhc3M8VD4pOiBUIHsKICAgICAgICBpZiAobW9kZWxDbGFzcy5pc0Fzc2lnbmFibGVGcm9tKEF1dG9HbG1WaWV3TW9kZWw6OmNsYXNzLmphdmEpKSB7CiAgICAgICAgICAgIEBTdXBwcmVzcygiVU5DSEVDS0VEX0NBU1QiKQogICAgICAgICAgICByZXR1cm4gQXV0b0dsbVZpZXdNb2RlbChjb250ZXh0KSBhcyBUCiAgICAgICAgfQogICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiVW5rbm93biBWaWV3TW9kZWwgY2xhc3MiKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.toolbox.screens.autoglm
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+
+class AutoGlmViewModelFactory(private val context: Context) : ViewModelProvider.Factory {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        if (modelClass.isAssignableFrom(AutoGlmViewModel::class.java)) {
+            @Suppress("UNCHECKED_CAST")
+            return AutoGlmViewModel(context) as T
+        }
+        throw IllegalArgumentException("Unknown ViewModel class")
+    }
+}

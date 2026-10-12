@@ -1,1 +1,59 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IubGFuZ3VhZ2UKCi8qKgogKiBEYXJ0IOivreiogOaUr+aMgQogKi8KY2xhc3MgRGFydFN1cHBvcnQgOiBCYXNlTGFuZ3VhZ2VTdXBwb3J0KCkgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZV09SRFMgPQogICAgICAgICAgICBzZXRPZigKICAgICAgICAgICAgICAgICJhYnN0cmFjdCIsICJhcyIsICJhc3NlcnQiLCAiYXN5bmMiLCAiYXdhaXQiLCAiYmFzZSIsICJicmVhayIsICJjYXNlIiwKICAgICAgICAgICAgICAgICJjYXRjaCIsICJjbGFzcyIsICJjb25zdCIsICJjb250aW51ZSIsICJjb3ZhcmlhbnQiLCAiZGVmYXVsdCIsICJkZWZlcnJlZCIsCiAgICAgICAgICAgICAgICAiZG8iLCAiZHluYW1pYyIsICJlbHNlIiwgImVudW0iLCAiZXhwb3J0IiwgImV4dGVuZHMiLCAiZXh0ZW5zaW9uIiwgImV4dGVybmFsIiwKICAgICAgICAgICAgICAgICJmYWN0b3J5IiwgImZhbHNlIiwgImZpbmFsIiwgImZpbmFsbHkiLCAiZm9yIiwgIkZ1bmN0aW9uIiwgImdldCIsICJoaWRlIiwKICAgICAgICAgICAgICAgICJpZiIsICJpbXBsZW1lbnRzIiwgImltcG9ydCIsICJpbiIsICJpbnRlcmZhY2UiLCAiaXMiLCAibGF0ZSIsICJsaWJyYXJ5IiwKICAgICAgICAgICAgICAgICJtaXhpbiIsICJuZXciLCAibnVsbCIsICJvZiIsICJvbiIsICJvcGVyYXRvciIsICJwYXJ0IiwgInJlcXVpcmVkIiwKICAgICAgICAgICAgICAgICJyZXRocm93IiwgInJldHVybiIsICJzZWFsZWQiLCAic2V0IiwgInNob3ciLCAic3RhdGljIiwgInN1cGVyIiwgInN3aXRjaCIsCiAgICAgICAgICAgICAgICAic3luYyIsICJ0aGlzIiwgInRocm93IiwgInRydWUiLCAidHJ5IiwgInR5cGVkZWYiLCAidmFyIiwgInZvaWQiLCAid2hlbiIsCiAgICAgICAgICAgICAgICAid2hpbGUiLCAid2l0aCIsICJ5aWVsZCIKICAgICAgICAgICAgKQoKICAgICAgICBwcml2YXRlIHZhbCBCVUlMVF9JTl9UWVBFUyA9CiAgICAgICAgICAgIHNldE9mKAogICAgICAgICAgICAgICAgImludCIsICJkb3VibGUiLCAibnVtIiwgImJvb2wiLCAiU3RyaW5nIiwgIk9iamVjdCIsICJkeW5hbWljIiwgIk5ldmVyIiwKICAgICAgICAgICAgICAgICJGdXR1cmUiLCAiU3RyZWFtIiwgIkxpc3QiLCAiTWFwIiwgIlNldCIsICJJdGVyYWJsZSIsICJEdXJhdGlvbiIsICJEYXRlVGltZSIsCiAgICAgICAgICAgICAgICAiUmVnRXhwIiwgIlBhdHRlcm4iLCAiVXJpIiwgIldpZGdldCIsICJCdWlsZENvbnRleHQiLCAiS2V5IiwgIlN0YXRlIiwKICAgICAgICAgICAgICAgICJTdGF0ZWxlc3NXaWRnZXQiLCAiU3RhdGVmdWxXaWRnZXQiCiAgICAgICAgICAgICkKCiAgICAgICAgcHJpdmF0ZSB2YWwgQlVJTFRfSU5fRlVOQ1RJT05TID0KICAgICAgICAgICAgc2V0T2YoCiAgICAgICAgICAgICAgICAicHJpbnQiLCAicnVuQXBwIiwgInNldFN0YXRlIiwgImRlYnVnUHJpbnQiLCAiaWRlbnRpY2FsIiwgInNjaGVkdWxlTWljcm90YXNrIiwKICAgICAgICAgICAgICAgICJGdXR1cmUiLCAiU3RyZWFtIiwgIlNpemVkQm94IiwgIlBhZGRpbmciLCAiQ29udGFpbmVyIiwgIkNlbnRlciIsICJDb2x1bW4iLAogICAgICAgICAgICAgICAgIlJvdyIsICJFeHBhbmRlZCIsICJUZXh0IiwgIkljb24iLCAiU2NhZmZvbGQiLCAiTWF0ZXJpYWxBcHAiCiAgICAgICAgICAgICkKCiAgICAgICAgcHJpdmF0ZSB2YWwgQlVJTFRfSU5fVkFSSUFCTEVTID0KICAgICAgICAgICAgc2V0T2YoCiAgICAgICAgICAgICAgICAiY29udGV4dCIsICJ3aWRnZXQiLCAibW91bnRlZCIsICJjaGlsZHJlbiIKICAgICAgICAgICAgKQoKICAgICAgICBwcml2YXRlIHZhbCBGSUxFX0VYVEVOU0lPTlMgPSBsaXN0T2YoImRhcnQiKQoKICAgICAgICBpbml0IHsKICAgICAgICAgICAgTGFuZ3VhZ2VTdXBwb3J0UmVnaXN0cnkucmVnaXN0ZXIoRGFydFN1cHBvcnQoKSkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldE5hbWUoKTogU3RyaW5nID0gImRhcnQiCgogICAgb3ZlcnJpZGUgZnVuIGdldEtleXdvcmRzKCk6IFNldDxTdHJpbmc+ID0gS0VZV09SRFMKCiAgICBvdmVycmlkZSBmdW4gZ2V0QnVpbHRJblR5cGVzKCk6IFNldDxTdHJpbmc+ID0gQlVJTFRfSU5fVFlQRVMKCiAgICBvdmVycmlkZSBmdW4gZ2V0QnVpbHRJbkZ1bmN0aW9ucygpOiBTZXQ8U3RyaW5nPiA9IEJVSUxUX0lOX0ZVTkNUSU9OUwoKICAgIG92ZXJyaWRlIGZ1biBnZXRCdWlsdEluVmFyaWFibGVzKCk6IFNldDxTdHJpbmc+ID0gQlVJTFRfSU5fVkFSSUFCTEVTCgogICAgb3ZlcnJpZGUgZnVuIGdldEZpbGVFeHRlbnNpb25zKCk6IExpc3Q8U3RyaW5nPiA9IEZJTEVfRVhURU5TSU9OUwp9Cg==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language
+
+/**
+ * Dart 语言支持
+ */
+class DartSupport : BaseLanguageSupport() {
+    companion object {
+        private val KEYWORDS =
+            setOf(
+                "abstract", "as", "assert", "async", "await", "base", "break", "case",
+                "catch", "class", "const", "continue", "covariant", "default", "deferred",
+                "do", "dynamic", "else", "enum", "export", "extends", "extension", "external",
+                "factory", "false", "final", "finally", "for", "Function", "get", "hide",
+                "if", "implements", "import", "in", "interface", "is", "late", "library",
+                "mixin", "new", "null", "of", "on", "operator", "part", "required",
+                "rethrow", "return", "sealed", "set", "show", "static", "super", "switch",
+                "sync", "this", "throw", "true", "try", "typedef", "var", "void", "when",
+                "while", "with", "yield"
+            )
+
+        private val BUILT_IN_TYPES =
+            setOf(
+                "int", "double", "num", "bool", "String", "Object", "dynamic", "Never",
+                "Future", "Stream", "List", "Map", "Set", "Iterable", "Duration", "DateTime",
+                "RegExp", "Pattern", "Uri", "Widget", "BuildContext", "Key", "State",
+                "StatelessWidget", "StatefulWidget"
+            )
+
+        private val BUILT_IN_FUNCTIONS =
+            setOf(
+                "print", "runApp", "setState", "debugPrint", "identical", "scheduleMicrotask",
+                "Future", "Stream", "SizedBox", "Padding", "Container", "Center", "Column",
+                "Row", "Expanded", "Text", "Icon", "Scaffold", "MaterialApp"
+            )
+
+        private val BUILT_IN_VARIABLES =
+            setOf(
+                "context", "widget", "mounted", "children"
+            )
+
+        private val FILE_EXTENSIONS = listOf("dart")
+
+        init {
+            LanguageSupportRegistry.register(DartSupport())
+        }
+    }
+
+    override fun getName(): String = "dart"
+
+    override fun getKeywords(): Set<String> = KEYWORDS
+
+    override fun getBuiltInTypes(): Set<String> = BUILT_IN_TYPES
+
+    override fun getBuiltInFunctions(): Set<String> = BUILT_IN_FUNCTIONS
+
+    override fun getBuiltInVariables(): Set<String> = BUILT_IN_VARIABLES
+
+    override fun getFileExtensions(): List<String> = FILE_EXTENSIONS
+}

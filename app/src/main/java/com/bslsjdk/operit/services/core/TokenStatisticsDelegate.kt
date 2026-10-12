@@ -1,1 +1,250 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuY29yZQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmFwaS5jaGF0LkVuaGFuY2VkQUlTZXJ2aWNlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuY29sbGVjdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkpvYgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXAKCi8qKiDlp5TmiZjnsbvvvIzotJ/otKPnrqHnkIZ0b2tlbue7n+iuoeebuOWFs+WKn+iDvSAqLwpjbGFzcyBUb2tlblN0YXRpc3RpY3NEZWxlZ2F0ZSgKICAgIHByaXZhdGUgdmFsIGNvcm91dGluZVNjb3BlOiBDb3JvdXRpbmVTY29wZSwKICAgIHByaXZhdGUgdmFsIGdldEVuaGFuY2VkQWlTZXJ2aWNlOiAoKSAtPiBFbmhhbmNlZEFJU2VydmljZT8KKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiVG9rZW5TdGF0aXN0aWNzRGVsZWdhdGUiCiAgICB9CgogICAgLy8gLS0tIFVJIFN0YXRlIEZsb3dzIC0tLQogICAgcHJpdmF0ZSB2YWwgX2N1bXVsYXRpdmVJbnB1dFRva2VucyA9IE11dGFibGVTdGF0ZUZsb3coMEwpCiAgICB2YWwgY3VtdWxhdGl2ZUlucHV0VG9rZW5zRmxvdzogU3RhdGVGbG93PExvbmc+ID0gX2N1bXVsYXRpdmVJbnB1dFRva2Vucy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX2N1bXVsYXRpdmVPdXRwdXRUb2tlbnMgPSBNdXRhYmxlU3RhdGVGbG93KDBMKQogICAgdmFsIGN1bXVsYXRpdmVPdXRwdXRUb2tlbnNGbG93OiBTdGF0ZUZsb3c8TG9uZz4gPSBfY3VtdWxhdGl2ZU91dHB1dFRva2Vucy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX2N1cnJlbnRXaW5kb3dTaXplID0gTXV0YWJsZVN0YXRlRmxvdygwTCkKICAgIHZhbCBjdXJyZW50V2luZG93U2l6ZUZsb3c6IFN0YXRlRmxvdzxMb25nPiA9IF9jdXJyZW50V2luZG93U2l6ZS5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX3BlclJlcXVlc3RUb2tlbkNvdW50ID0gTXV0YWJsZVN0YXRlRmxvdzxQYWlyPExvbmcsIExvbmc+Pz4obnVsbCkKICAgIHZhbCBwZXJSZXF1ZXN0VG9rZW5Db3VudEZsb3c6IFN0YXRlRmxvdzxQYWlyPExvbmcsIExvbmc+Pz4gPSBfcGVyUmVxdWVzdFRva2VuQ291bnQuYXNTdGF0ZUZsb3coKQoKICAgIC8vIC0tLSBJbnRlcm5hbCBTdGF0ZSAtLS0KICAgIHByaXZhdGUgdmFyIGxhc3RDdXJyZW50V2luZG93U2l6ZSA9IDBMCiAgICBwcml2YXRlIHZhciB0b2tlbkNvbGxlY3RvckpvYjogSm9iPyA9IG51bGwKCiAgICBwcml2YXRlIHZhbCB0b2tlbkNvbGxlY3RvckpvYnNCeUNoYXRLZXkgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIEpvYj4oKQogICAgcHJpdmF0ZSB2YWwgYm91bmRTZXJ2aWNlc0J5Q2hhdEtleSA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgRW5oYW5jZWRBSVNlcnZpY2U+KCkKCiAgICBwcml2YXRlIHZhbCBjdW11bGF0aXZlSW5wdXRUb2tlbnNCeUNoYXRLZXkgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIExvbmc+KCkKICAgIHByaXZhdGUgdmFsIGN1bXVsYXRpdmVPdXRwdXRUb2tlbnNCeUNoYXRLZXkgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIExvbmc+KCkKICAgIHByaXZhdGUgdmFsIGxhc3RXaW5kb3dTaXplQnlDaGF0S2V5ID0gQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBMb25nPigpCiAgICBwcml2YXRlIHZhbCBwZXJSZXF1ZXN0VG9rZW5Db3VudEJ5Q2hhdEtleSA9CiAgICAgICAgQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBQYWlyPExvbmcsIExvbmc+Pz4oKQoKICAgIEBWb2xhdGlsZSBwcml2YXRlIHZhciBhY3RpdmVDaGF0SWQ6IFN0cmluZz8gPSBudWxsCgogICAgcHJpdmF0ZSBmdW4gY2hhdEtleShjaGF0SWQ6IFN0cmluZz8pOiBTdHJpbmcgPSBjaGF0SWQgPzogIl9fREVGQVVMVF9DSEFUX18iCgogICAgcHJpdmF0ZSBmdW4gaXNBY3RpdmVLZXkoa2V5OiBTdHJpbmcpOiBCb29sZWFuID0ga2V5ID09IGNoYXRLZXkoYWN0aXZlQ2hhdElkKQoKICAgIHByaXZhdGUgZnVuIHJlZnJlc2hBY3RpdmVGcm9tQ2FjaGUoKSB7CiAgICAgICAgdmFsIGtleSA9IGNoYXRLZXkoYWN0aXZlQ2hhdElkKQogICAgICAgIHZhbCBpbnB1dCA9IGN1bXVsYXRpdmVJbnB1dFRva2Vuc0J5Q2hhdEtleVtrZXldID86IDBMCiAgICAgICAgdmFsIG91dHB1dCA9IGN1bXVsYXRpdmVPdXRwdXRUb2tlbnNCeUNoYXRLZXlba2V5XSA/OiAwTAogICAgICAgIHZhbCB3aW5kb3cgPSBsYXN0V2luZG93U2l6ZUJ5Q2hhdEtleVtrZXldID86IDBMCiAgICAgICAgdmFsIHBlclJlcXVlc3QgPSBwZXJSZXF1ZXN0VG9rZW5Db3VudEJ5Q2hhdEtleVtrZXldCgogICAgICAgIF9jdW11bGF0aXZlSW5wdXRUb2tlbnMudmFsdWUgPSBpbnB1dAogICAgICAgIF9jdW11bGF0aXZlT3V0cHV0VG9rZW5zLnZhbHVlID0gb3V0cHV0CiAgICAgICAgX2N1cnJlbnRXaW5kb3dTaXplLnZhbHVlID0gd2luZG93CiAgICAgICAgX3BlclJlcXVlc3RUb2tlbkNvdW50LnZhbHVlID0gcGVyUmVxdWVzdAogICAgICAgIGxhc3RDdXJyZW50V2luZG93U2l6ZSA9IHdpbmRvdwogICAgfQoKICAgIHByaXZhdGUgZnVuIGhhbmRsZVBlclJlcXVlc3RDb3VudHMoCiAgICAgICAga2V5OiBTdHJpbmcsCiAgICAgICAgY291bnRzOiBQYWlyPExvbmcsIExvbmc+PwogICAgKSB7CiAgICAgICAgaWYgKGNvdW50cyA9PSBudWxsKSB7CiAgICAgICAgICAgIHBlclJlcXVlc3RUb2tlbkNvdW50QnlDaGF0S2V5LnJlbW92ZShrZXkpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcGVyUmVxdWVzdFRva2VuQ291bnRCeUNoYXRLZXlba2V5XSA9IGNvdW50cwogICAgICAgIH0KCiAgICAgICAgaWYgKGlzQWN0aXZlS2V5KGtleSkpIHsKICAgICAgICAgICAgX3BlclJlcXVlc3RUb2tlbkNvdW50LnZhbHVlID0gY291bnRzCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGhhbmRsZVJlcXVlc3RXaW5kb3dFc3RpbWF0ZSgKICAgICAgICBrZXk6IFN0cmluZywKICAgICAgICB3aW5kb3dTaXplOiBMb25nPwogICAgKSB7CiAgICAgICAgaWYgKHdpbmRvd1NpemUgPT0gbnVsbCkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgdmFsIHNhZmVXaW5kb3dTaXplID0gd2luZG93U2l6ZS5jb2VyY2VBdExlYXN0KDBMKQoKICAgICAgICBsYXN0V2luZG93U2l6ZUJ5Q2hhdEtleVtrZXldID0gc2FmZVdpbmRvd1NpemUKCiAgICAgICAgaWYgKGlzQWN0aXZlS2V5KGtleSkpIHsKICAgICAgICAgICAgX2N1cnJlbnRXaW5kb3dTaXplLnZhbHVlID0gc2FmZVdpbmRvd1NpemUKICAgICAgICAgICAgbGFzdEN1cnJlbnRXaW5kb3dTaXplID0gc2FmZVdpbmRvd1NpemUKICAgICAgICB9CiAgICB9CgogICAgZnVuIHNldHVwQ29sbGVjdG9ycygpIHsKICAgICAgICB0b2tlbkNvbGxlY3RvckpvYj8uY2FuY2VsKCkgLy8gQ2FuY2VsIHByZXZpb3VzIGNvbGxlY3RvciBpZiBhbnkKICAgICAgICB2YWwgc2VydmljZSA9IGdldEVuaGFuY2VkQWlTZXJ2aWNlKCkgPzogcmV0dXJuIC8vIFNlcnZpY2Ugbm90IHJlYWR5CiAgICAgICAgdG9rZW5Db2xsZWN0b3JKb2IgPSBjb3JvdXRpbmVTY29wZS5sYXVuY2goRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgbGF1bmNoIHsKICAgICAgICAgICAgICAgIHNlcnZpY2UucGVyUmVxdWVzdFRva2VuQ291bnRzLmNvbGxlY3QgeyBjb3VudHMgLT4KICAgICAgICAgICAgICAgICAgICBoYW5kbGVQZXJSZXF1ZXN0Q291bnRzKAogICAgICAgICAgICAgICAgICAgICAgICBrZXkgPSBjaGF0S2V5KG51bGwpLAogICAgICAgICAgICAgICAgICAgICAgICBjb3VudHMgPSBjb3VudHMKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGF1bmNoIHsKICAgICAgICAgICAgICAgIHNlcnZpY2UucmVxdWVzdFdpbmRvd0VzdGltYXRlRmxvdy5jb2xsZWN0IHsgd2luZG93U2l6ZSAtPgogICAgICAgICAgICAgICAgICAgIGhhbmRsZVJlcXVlc3RXaW5kb3dFc3RpbWF0ZSgKICAgICAgICAgICAgICAgICAgICAgICAga2V5ID0gY2hhdEtleShudWxsKSwKICAgICAgICAgICAgICAgICAgICAgICAgd2luZG93U2l6ZSA9IHdpbmRvd1NpemUKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIHNldEFjdGl2ZUNoYXRJZChjaGF0SWQ6IFN0cmluZz8pIHsKICAgICAgICBhY3RpdmVDaGF0SWQgPSBjaGF0SWQKICAgICAgICByZWZyZXNoQWN0aXZlRnJvbUNhY2hlKCkKICAgIH0KCiAgICBmdW4gYmluZENoYXRTZXJ2aWNlKGNoYXRJZDogU3RyaW5nPywgc2VydmljZTogRW5oYW5jZWRBSVNlcnZpY2UpIHsKICAgICAgICB2YWwga2V5ID0gY2hhdEtleShjaGF0SWQpCiAgICAgICAgYm91bmRTZXJ2aWNlc0J5Q2hhdEtleVtrZXldID0gc2VydmljZQoKICAgICAgICB0b2tlbkNvbGxlY3RvckpvYnNCeUNoYXRLZXlba2V5XT8uY2FuY2VsKCkKICAgICAgICB0b2tlbkNvbGxlY3RvckpvYnNCeUNoYXRLZXlba2V5XSA9CiAgICAgICAgICAgIGNvcm91dGluZVNjb3BlLmxhdW5jaChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgbGF1bmNoIHsKICAgICAgICAgICAgICAgICAgICBzZXJ2aWNlLnBlclJlcXVlc3RUb2tlbkNvdW50cy5jb2xsZWN0IHsgY291bnRzIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGhhbmRsZVBlclJlcXVlc3RDb3VudHMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXkgPSBrZXksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb3VudHMgPSBjb3VudHMKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxhdW5jaCB7CiAgICAgICAgICAgICAgICAgICAgc2VydmljZS5yZXF1ZXN0V2luZG93RXN0aW1hdGVGbG93LmNvbGxlY3QgeyB3aW5kb3dTaXplIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGhhbmRsZVJlcXVlc3RXaW5kb3dFc3RpbWF0ZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtleSA9IGtleSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpbmRvd1NpemUgPSB3aW5kb3dTaXplCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgaWYgKGlzQWN0aXZlS2V5KGtleSkpIHsKICAgICAgICAgICAgcmVmcmVzaEFjdGl2ZUZyb21DYWNoZSgpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDph43nva50b2tlbue7n+iuoSAqLwogICAgZnVuIHJlc2V0VG9rZW5TdGF0aXN0aWNzKCkgewogICAgICAgIF9jdW11bGF0aXZlSW5wdXRUb2tlbnMudmFsdWUgPSAwTAogICAgICAgIF9jdW11bGF0aXZlT3V0cHV0VG9rZW5zLnZhbHVlID0gMEwKICAgICAgICBfY3VycmVudFdpbmRvd1NpemUudmFsdWUgPSAwTAogICAgICAgIF9wZXJSZXF1ZXN0VG9rZW5Db3VudC52YWx1ZSA9IG51bGwKICAgICAgICBsYXN0Q3VycmVudFdpbmRvd1NpemUgPSAwTAoKICAgICAgICBjdW11bGF0aXZlSW5wdXRUb2tlbnNCeUNoYXRLZXkuY2xlYXIoKQogICAgICAgIGN1bXVsYXRpdmVPdXRwdXRUb2tlbnNCeUNoYXRLZXkuY2xlYXIoKQogICAgICAgIGxhc3RXaW5kb3dTaXplQnlDaGF0S2V5LmNsZWFyKCkKICAgICAgICBwZXJSZXF1ZXN0VG9rZW5Db3VudEJ5Q2hhdEtleS5jbGVhcigpCgogICAgICAgIC8vIOWQjOaXtumHjee9ruacjeWKoeS4reeahHRva2Vu6K6h5pWwCiAgICAgICAgdmFsIHNlcnZpY2VzID0gYnVpbGRTZXQgewogICAgICAgICAgICBnZXRFbmhhbmNlZEFpU2VydmljZSgpPy5sZXQgeyBhZGQoaXQpIH0KICAgICAgICAgICAgYWRkQWxsKGJvdW5kU2VydmljZXNCeUNoYXRLZXkudmFsdWVzKQogICAgICAgIH0KICAgICAgICBzZXJ2aWNlcy5mb3JFYWNoIHsgaXQucmVzZXRUb2tlbkNvdW50ZXJzKCkgfQogICAgICAgIEFwcExvZ2dlci5kKFRBRywgInRva2Vu57uf6K6h5bey6YeN572uIikKICAgIH0KCiAgICAvKiog5pu05paw57Sv6K6h55qEdG9rZW7nu5/orqHkv6Hmga8gKi8KICAgIGZ1biB1cGRhdGVDdW11bGF0aXZlU3RhdGlzdGljcyhjaGF0SWQ6IFN0cmluZz8gPSBhY3RpdmVDaGF0SWQsIHNlcnZpY2VPdmVycmlkZTogRW5oYW5jZWRBSVNlcnZpY2U/ID0gbnVsbCkgewogICAgICAgIHZhbCBrZXkgPSBjaGF0S2V5KGNoYXRJZCkKICAgICAgICB2YWwgc2VydmljZSA9IHNlcnZpY2VPdmVycmlkZSA/OiBib3VuZFNlcnZpY2VzQnlDaGF0S2V5W2tleV0gPzogZ2V0RW5oYW5jZWRBaVNlcnZpY2UoKQogICAgICAgIHNlcnZpY2U/LmxldCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAvLyDku45BSeacjeWKoeiOt+WPluacgOaWsOeahHRva2Vu57uf6K6hCiAgICAgICAgICAgICAgICB2YWwgY3VycmVudElucHV0VG9rZW5zID0gaXQuZ2V0Q3VycmVudElucHV0VG9rZW5Db3VudCgpLmNvZXJjZUF0TGVhc3QoMEwpCiAgICAgICAgICAgICAgICB2YWwgY3VycmVudE91dHB1dFRva2VucyA9IGl0LmdldEN1cnJlbnRPdXRwdXRUb2tlbkNvdW50KCkuY29lcmNlQXRMZWFzdCgwTCkKCiAgICAgICAgICAgICAgICAvLyDmm7TmlrDntK/orqF0b2tlbuaVsAogICAgICAgICAgICAgICAgdmFsIG5ld0lucHV0ID0gKGN1bXVsYXRpdmVJbnB1dFRva2Vuc0J5Q2hhdEtleVtrZXldID86IDBMKSArIGN1cnJlbnRJbnB1dFRva2VucwogICAgICAgICAgICAgICAgdmFsIG5ld091dHB1dCA9IChjdW11bGF0aXZlT3V0cHV0VG9rZW5zQnlDaGF0S2V5W2tleV0gPzogMEwpICsgY3VycmVudE91dHB1dFRva2VucwogICAgICAgICAgICAgICAgY3VtdWxhdGl2ZUlucHV0VG9rZW5zQnlDaGF0S2V5W2tleV0gPSBuZXdJbnB1dAogICAgICAgICAgICAgICAgY3VtdWxhdGl2ZU91dHB1dFRva2Vuc0J5Q2hhdEtleVtrZXldID0gbmV3T3V0cHV0CgogICAgICAgICAgICAgICAgaWYgKGlzQWN0aXZlS2V5KGtleSkpIHsKICAgICAgICAgICAgICAgICAgICBfY3VtdWxhdGl2ZUlucHV0VG9rZW5zLnZhbHVlID0gbmV3SW5wdXQKICAgICAgICAgICAgICAgICAgICBfY3VtdWxhdGl2ZU91dHB1dFRva2Vucy52YWx1ZSA9IG5ld091dHB1dAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKAogICAgICAgICAgICAgICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICAgICAgICAgIkN1bXVsYXRpdmUgdG9rZW4gc3RhdHMgdXBkYXRlZCAtICIgKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgIklucHV0OiAkbmV3SW5wdXQsIE91dHB1dDogJG5ld091dHB1dCIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLojrflj5bntK/orqF0b2tlbuiuoeaVsOaXtuWHuumUmTogJHtlLm1lc3NhZ2V9IiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKiog6K6+572u57Sv6K6hdG9rZW7orqHmlbAgKi8KICAgIGZ1biBzZXRUb2tlbkNvdW50cyhjaGF0SWQ6IFN0cmluZz8sIGlucHV0VG9rZW5zOiBMb25nLCBvdXRwdXRUb2tlbnM6IExvbmcsIHdpbmRvd1NpemU6IExvbmcpIHsKICAgICAgICB2YWwga2V5ID0gY2hhdEtleShjaGF0SWQpCiAgICAgICAgdmFsIHNhZmVJbnB1dFRva2VucyA9IGlucHV0VG9rZW5zLmNvZXJjZUF0TGVhc3QoMEwpCiAgICAgICAgdmFsIHNhZmVPdXRwdXRUb2tlbnMgPSBvdXRwdXRUb2tlbnMuY29lcmNlQXRMZWFzdCgwTCkKICAgICAgICB2YWwgc2FmZVdpbmRvd1NpemUgPSB3aW5kb3dTaXplLmNvZXJjZUF0TGVhc3QoMEwpCiAgICAgICAgY3VtdWxhdGl2ZUlucHV0VG9rZW5zQnlDaGF0S2V5W2tleV0gPSBzYWZlSW5wdXRUb2tlbnMKICAgICAgICBjdW11bGF0aXZlT3V0cHV0VG9rZW5zQnlDaGF0S2V5W2tleV0gPSBzYWZlT3V0cHV0VG9rZW5zCiAgICAgICAgbGFzdFdpbmRvd1NpemVCeUNoYXRLZXlba2V5XSA9IHNhZmVXaW5kb3dTaXplCgogICAgICAgIGlmIChpc0FjdGl2ZUtleShrZXkpKSB7CiAgICAgICAgICAgIF9jdW11bGF0aXZlSW5wdXRUb2tlbnMudmFsdWUgPSBzYWZlSW5wdXRUb2tlbnMKICAgICAgICAgICAgX2N1bXVsYXRpdmVPdXRwdXRUb2tlbnMudmFsdWUgPSBzYWZlT3V0cHV0VG9rZW5zCiAgICAgICAgICAgIF9jdXJyZW50V2luZG93U2l6ZS52YWx1ZSA9IHNhZmVXaW5kb3dTaXplCiAgICAgICAgICAgIGxhc3RDdXJyZW50V2luZG93U2l6ZSA9IHNhZmVXaW5kb3dTaXplCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzZXRUb2tlbkNvdW50cyhpbnB1dFRva2VuczogTG9uZywgb3V0cHV0VG9rZW5zOiBMb25nLCB3aW5kb3dTaXplOiBMb25nKSB7CiAgICAgICAgc2V0VG9rZW5Db3VudHMoYWN0aXZlQ2hhdElkLCBpbnB1dFRva2Vucywgb3V0cHV0VG9rZW5zLCB3aW5kb3dTaXplKQogICAgfQoKICAgIC8qKiDojrflj5blvZPliY3ntK/orqF0b2tlbuiuoeaVsCAqLwogICAgZnVuIGdldEN1bXVsYXRpdmVUb2tlbkNvdW50cyhjaGF0SWQ6IFN0cmluZz8gPSBhY3RpdmVDaGF0SWQpOiBQYWlyPExvbmcsIExvbmc+IHsKICAgICAgICB2YWwga2V5ID0gY2hhdEtleShjaGF0SWQpCiAgICAgICAgcmV0dXJuIFBhaXIoCiAgICAgICAgICAgIGN1bXVsYXRpdmVJbnB1dFRva2Vuc0J5Q2hhdEtleVtrZXldID86IDBMLAogICAgICAgICAgICBjdW11bGF0aXZlT3V0cHV0VG9rZW5zQnlDaGF0S2V5W2tleV0gPzogMEwKICAgICAgICApCiAgICB9CgogICAgLyoqIOiOt+WPluacgOi/keS4gOasoeeahOWunumZheS4iuS4i+aWh+eql+WPo+Wkp+WwjyAqLwogICAgZnVuIGdldExhc3RDdXJyZW50V2luZG93U2l6ZShjaGF0SWQ6IFN0cmluZz8gPSBhY3RpdmVDaGF0SWQpOiBMb25nIHsKICAgICAgICB2YWwga2V5ID0gY2hhdEtleShjaGF0SWQpCiAgICAgICAgcmV0dXJuIGxhc3RXaW5kb3dTaXplQnlDaGF0S2V5W2tleV0gPzogMEwKICAgIH0KfQo=
+package com.bslsjdk.operit.services.core
+
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.api.chat.EnhancedAIService
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.Job
+import java.util.concurrent.ConcurrentHashMap
+
+/** 委托类，负责管理token统计相关功能 */
+class TokenStatisticsDelegate(
+    private val coroutineScope: CoroutineScope,
+    private val getEnhancedAiService: () -> EnhancedAIService?
+) {
+    companion object {
+        private const val TAG = "TokenStatisticsDelegate"
+    }
+
+    // --- UI State Flows ---
+    private val _cumulativeInputTokens = MutableStateFlow(0L)
+    val cumulativeInputTokensFlow: StateFlow<Long> = _cumulativeInputTokens.asStateFlow()
+
+    private val _cumulativeOutputTokens = MutableStateFlow(0L)
+    val cumulativeOutputTokensFlow: StateFlow<Long> = _cumulativeOutputTokens.asStateFlow()
+
+    private val _currentWindowSize = MutableStateFlow(0L)
+    val currentWindowSizeFlow: StateFlow<Long> = _currentWindowSize.asStateFlow()
+
+    private val _perRequestTokenCount = MutableStateFlow<Pair<Long, Long>?>(null)
+    val perRequestTokenCountFlow: StateFlow<Pair<Long, Long>?> = _perRequestTokenCount.asStateFlow()
+
+    // --- Internal State ---
+    private var lastCurrentWindowSize = 0L
+    private var tokenCollectorJob: Job? = null
+
+    private val tokenCollectorJobsByChatKey = ConcurrentHashMap<String, Job>()
+    private val boundServicesByChatKey = ConcurrentHashMap<String, EnhancedAIService>()
+
+    private val cumulativeInputTokensByChatKey = ConcurrentHashMap<String, Long>()
+    private val cumulativeOutputTokensByChatKey = ConcurrentHashMap<String, Long>()
+    private val lastWindowSizeByChatKey = ConcurrentHashMap<String, Long>()
+    private val perRequestTokenCountByChatKey =
+        ConcurrentHashMap<String, Pair<Long, Long>?>()
+
+    @Volatile private var activeChatId: String? = null
+
+    private fun chatKey(chatId: String?): String = chatId ?: "__DEFAULT_CHAT__"
+
+    private fun isActiveKey(key: String): Boolean = key == chatKey(activeChatId)
+
+    private fun refreshActiveFromCache() {
+        val key = chatKey(activeChatId)
+        val input = cumulativeInputTokensByChatKey[key] ?: 0L
+        val output = cumulativeOutputTokensByChatKey[key] ?: 0L
+        val window = lastWindowSizeByChatKey[key] ?: 0L
+        val perRequest = perRequestTokenCountByChatKey[key]
+
+        _cumulativeInputTokens.value = input
+        _cumulativeOutputTokens.value = output
+        _currentWindowSize.value = window
+        _perRequestTokenCount.value = perRequest
+        lastCurrentWindowSize = window
+    }
+
+    private fun handlePerRequestCounts(
+        key: String,
+        counts: Pair<Long, Long>?
+    ) {
+        if (counts == null) {
+            perRequestTokenCountByChatKey.remove(key)
+        } else {
+            perRequestTokenCountByChatKey[key] = counts
+        }
+
+        if (isActiveKey(key)) {
+            _perRequestTokenCount.value = counts
+        }
+    }
+
+    private fun handleRequestWindowEstimate(
+        key: String,
+        windowSize: Long?
+    ) {
+        if (windowSize == null) {
+            return
+        }
+        val safeWindowSize = windowSize.coerceAtLeast(0L)
+
+        lastWindowSizeByChatKey[key] = safeWindowSize
+
+        if (isActiveKey(key)) {
+            _currentWindowSize.value = safeWindowSize
+            lastCurrentWindowSize = safeWindowSize
+        }
+    }
+
+    fun setupCollectors() {
+        tokenCollectorJob?.cancel() // Cancel previous collector if any
+        val service = getEnhancedAiService() ?: return // Service not ready
+        tokenCollectorJob = coroutineScope.launch(Dispatchers.IO) {
+            launch {
+                service.perRequestTokenCounts.collect { counts ->
+                    handlePerRequestCounts(
+                        key = chatKey(null),
+                        counts = counts
+                    )
+                }
+            }
+            launch {
+                service.requestWindowEstimateFlow.collect { windowSize ->
+                    handleRequestWindowEstimate(
+                        key = chatKey(null),
+                        windowSize = windowSize
+                    )
+                }
+            }
+        }
+    }
+
+    fun setActiveChatId(chatId: String?) {
+        activeChatId = chatId
+        refreshActiveFromCache()
+    }
+
+    fun bindChatService(chatId: String?, service: EnhancedAIService) {
+        val key = chatKey(chatId)
+        boundServicesByChatKey[key] = service
+
+        tokenCollectorJobsByChatKey[key]?.cancel()
+        tokenCollectorJobsByChatKey[key] =
+            coroutineScope.launch(Dispatchers.IO) {
+                launch {
+                    service.perRequestTokenCounts.collect { counts ->
+                        handlePerRequestCounts(
+                            key = key,
+                            counts = counts
+                        )
+                    }
+                }
+                launch {
+                    service.requestWindowEstimateFlow.collect { windowSize ->
+                        handleRequestWindowEstimate(
+                            key = key,
+                            windowSize = windowSize
+                        )
+                    }
+                }
+            }
+
+        if (isActiveKey(key)) {
+            refreshActiveFromCache()
+        }
+    }
+
+    /** 重置token统计 */
+    fun resetTokenStatistics() {
+        _cumulativeInputTokens.value = 0L
+        _cumulativeOutputTokens.value = 0L
+        _currentWindowSize.value = 0L
+        _perRequestTokenCount.value = null
+        lastCurrentWindowSize = 0L
+
+        cumulativeInputTokensByChatKey.clear()
+        cumulativeOutputTokensByChatKey.clear()
+        lastWindowSizeByChatKey.clear()
+        perRequestTokenCountByChatKey.clear()
+
+        // 同时重置服务中的token计数
+        val services = buildSet {
+            getEnhancedAiService()?.let { add(it) }
+            addAll(boundServicesByChatKey.values)
+        }
+        services.forEach { it.resetTokenCounters() }
+        AppLogger.d(TAG, "token统计已重置")
+    }
+
+    /** 更新累计的token统计信息 */
+    fun updateCumulativeStatistics(chatId: String? = activeChatId, serviceOverride: EnhancedAIService? = null) {
+        val key = chatKey(chatId)
+        val service = serviceOverride ?: boundServicesByChatKey[key] ?: getEnhancedAiService()
+        service?.let {
+            try {
+                // 从AI服务获取最新的token统计
+                val currentInputTokens = it.getCurrentInputTokenCount().coerceAtLeast(0L)
+                val currentOutputTokens = it.getCurrentOutputTokenCount().coerceAtLeast(0L)
+
+                // 更新累计token数
+                val newInput = (cumulativeInputTokensByChatKey[key] ?: 0L) + currentInputTokens
+                val newOutput = (cumulativeOutputTokensByChatKey[key] ?: 0L) + currentOutputTokens
+                cumulativeInputTokensByChatKey[key] = newInput
+                cumulativeOutputTokensByChatKey[key] = newOutput
+
+                if (isActiveKey(key)) {
+                    _cumulativeInputTokens.value = newInput
+                    _cumulativeOutputTokens.value = newOutput
+                }
+
+                AppLogger.d(
+                        TAG,
+                    "Cumulative token stats updated - " +
+                            "Input: $newInput, Output: $newOutput"
+                )
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "获取累计token计数时出错: ${e.message}", e)
+            }
+        }
+    }
+
+    /** 设置累计token计数 */
+    fun setTokenCounts(chatId: String?, inputTokens: Long, outputTokens: Long, windowSize: Long) {
+        val key = chatKey(chatId)
+        val safeInputTokens = inputTokens.coerceAtLeast(0L)
+        val safeOutputTokens = outputTokens.coerceAtLeast(0L)
+        val safeWindowSize = windowSize.coerceAtLeast(0L)
+        cumulativeInputTokensByChatKey[key] = safeInputTokens
+        cumulativeOutputTokensByChatKey[key] = safeOutputTokens
+        lastWindowSizeByChatKey[key] = safeWindowSize
+
+        if (isActiveKey(key)) {
+            _cumulativeInputTokens.value = safeInputTokens
+            _cumulativeOutputTokens.value = safeOutputTokens
+            _currentWindowSize.value = safeWindowSize
+            lastCurrentWindowSize = safeWindowSize
+        }
+    }
+
+    fun setTokenCounts(inputTokens: Long, outputTokens: Long, windowSize: Long) {
+        setTokenCounts(activeChatId, inputTokens, outputTokens, windowSize)
+    }
+
+    /** 获取当前累计token计数 */
+    fun getCumulativeTokenCounts(chatId: String? = activeChatId): Pair<Long, Long> {
+        val key = chatKey(chatId)
+        return Pair(
+            cumulativeInputTokensByChatKey[key] ?: 0L,
+            cumulativeOutputTokensByChatKey[key] ?: 0L
+        )
+    }
+
+    /** 获取最近一次的实际上下文窗口大小 */
+    fun getLastCurrentWindowSize(chatId: String? = activeChatId): Long {
+        val key = chatKey(chatId)
+        return lastWindowSizeByChatKey[key] ?: 0L
+    }
+}

@@ -1,1 +1,84 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Qcm92aWRlclVzYWdlTm9ybWFsaXplcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuUHJvdmlkZXJVc2FnZVNuYXBzaG90CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5leGNlcHRpb25zLlVzZXJDYW5jZWxsYXRpb25FeGNlcHRpb24KaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNCb29sZWFuCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ2FuY2VsbGF0aW9uRXhjZXB0aW9uCgppbnRlcm5hbCBjbGFzcyBMb2NhbFVzYWdlUmVwb3J0ZXIoCiAgICBwcml2YXRlIHZhbCBzb3VyY2U6IFN0cmluZywKICAgIHByaXZhdGUgdmFsIG9uVXNhZ2VSZXBvcnRlZDogKHN1c3BlbmQgKFByb3ZpZGVyVXNhZ2VTbmFwc2hvdCwgSW50KSAtPiBVbml0KT8sCikgewogICAgcHJpdmF0ZSB2YWwgcmVwb3J0ZWQgPSBBdG9taWNCb29sZWFuKGZhbHNlKQoKICAgIHN1c3BlbmQgZnVuIHJlcG9ydChpbnB1dFRva2VuczogTG9uZywgb3V0cHV0VG9rZW5zOiBMb25nKSB7CiAgICAgICAgdmFsIGNhbGxiYWNrID0gb25Vc2FnZVJlcG9ydGVkID86IHJldHVybgogICAgICAgIGlmICghcmVwb3J0ZWQuY29tcGFyZUFuZFNldChmYWxzZSwgdHJ1ZSkpIHJldHVybgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNhbGxiYWNrKAogICAgICAgICAgICAgICAgUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIubG9jYWwoCiAgICAgICAgICAgICAgICAgICAgdW5jYWNoZWRJbnB1dFRva2VucyA9IGlucHV0VG9rZW5zLAogICAgICAgICAgICAgICAgICAgIG91dHB1dFRva2VucyA9IG91dHB1dFRva2VucywKICAgICAgICAgICAgICAgICAgICBzb3VyY2UgPSBzb3VyY2UsCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgMSwKICAgICAgICAgICAgKQogICAgICAgIH0gY2F0Y2ggKGU6IENhbmNlbGxhdGlvbkV4Y2VwdGlvbikgewogICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIFVzYWdlIGFjY291bnRpbmcgbXVzdCBub3QgcmVwbGFjZSBhIHN1Y2Nlc3NmdWwgZ2VuZXJhdGlvbiByZXN1bHQuCiAgICAgICAgfQogICAgfQp9CgovKioKICog5pys5ZywIHByb3ZpZGVy77yITGxhbWEvTU5O77yJ55Sf5oiQ57uT5p2f55qE57uf5LiA6aG65bqP5aWR57qm77yI6K+E5a6hIFAyLTMg5L+u5aSN77yJ44CCCiAqCiAqIOmhuuW6j+WNs+Wlkee6pu+8jOS+m+S4pOS4qiBwcm92aWRlciDlhbHnlKjlubbljZXni6zmtYvor5XvvJoKICogMS4gKirlj5bmtojkvJjlhYgqKu+8mm5hdGl2ZSDnlJ/miJDov5Tlm57lkI7vvIzlhYjliKTlrpogW2NhbmNlbGxlZF3igJTigJTlj5bmtojml7bnm7TmjqXmipsKICogICAgW1VzZXJDYW5jZWxsYXRpb25FeGNlcHRpb25d77yMKirnu53kuI0qKui9rOaNoi9lbWl0IOS4jeWujOaVtOeahOW3peWFtyBYTUwg5oiW5LiK5oqlIHVzYWdl77ybCiAqIDIuICoq5aSx6LSl5qyh5LmLKirvvJrmnKrlj5bmtojkvYYgW3N1Y2Nlc3NdID0gZmFsc2Ug5pe277yM55SxIFtmYWlsV2l0aF0g57uI5q2i77yI5L+d55WZ55So5oi35Y+v6KeBCiAqICAgIOmUmeivr+aWh+acrOW5tuS7peWksei0peW8guW4uOe7k+adn++8ie+8jOWksei0pei3r+W+hOWQjOagtyoq57ud5LiNKirovazmjaIvZW1pdCDlt6XlhbfnvJPlhrLmiJbkuIrmiqUgdXNhZ2XvvJsKICogMy4gKirmiJDlip/mnIDlkI4qKu+8muS7heaIkOWKn+i3r+W+hO+8iFtzdWNjZXNzXSA9IHRydWXvvInnlLEgW2VtaXRUb29sUmVzdWx0XSDlpITnkIblt6XlhbcKICogICAg57yT5Yay77yI6Kej5p6QICsgZW1pdO+8ie+8jOmaj+WQjuS4iuaKpSB1c2FnZeOAggogKgogKiDog4zmma/vvJrml6flrp7njrDlhYjovazmjaIvZW1pdCDlt6XlhbfnvJPlhrLlho3mo4Dmn6UgaXNDYW5jZWxsZWTvvIzlj5bmtojml7bkvJrlkJHosIPnlKjmlrnlj5Hlh7oKICog5Y2K5oiq5bel5YW3IFhNTO+8jOS4i+a4uOWPr+iDveaMieWujOaVtOW3peWFt+iwg+eUqOaJp+ihjOWvvOiHtOmUmeivr+iQvei0puOAggogKi8KaW50ZXJuYWwgb2JqZWN0IExvY2FsR2VuZXJhdGlvbkVuZCB7CgogICAgLyoqCiAgICAgKiBAcGFyYW0gY2FuY2VsbGVkIOeUqOaIt+aYr+WQpuW3suWPlua2iO+8iGNhbmNlbFN0cmVhbWluZyDop6blj5EgbmF0aXZlIOWBnOatou+8ieOAggogICAgICogQHBhcmFtIHN1Y2Nlc3MgbmF0aXZlIOeUn+aIkOaYr+WQpuato+W4uOe7k+adn++8iGZhbHNlID0g5aSx6LSl5oiW5Y+W5raI77yJ44CCCiAgICAgKiBAcGFyYW0gdXNhZ2VSZXBvcnRlciDmnKzmrKHnlJ/miJDlhbHkuqvnmoTkuIDmrKHmgKcgdXNhZ2Ug5LiK5oql5Zmo44CCCiAgICAgKiBAcGFyYW0gaW5wdXRUb2tlbnMg5bey5a6e5rWL6L6T5YWlIHRva2VuIOaVsO+8iHRva2VuaXplciDorqHmlbDvvInjgIIKICAgICAqIEBwYXJhbSBvdXRwdXRUb2tlbnMg5bey55Sf5oiQ6L6T5Ye6IHRva2VuIOaVsO+8iOmAkCB0b2tlbiDlrp7mtYvvvInjgIIKICAgICAqIEBwYXJhbSBjYW5jZWxNZXNzYWdlIOWPlua2iOW8guW4uOeahOeUqOaIt+WPr+ingea2iOaBr+OAggogICAgICogQHBhcmFtIGVtaXRUb29sUmVzdWx0IOS7heaIkOWKn+i3r+W+hOeahOW3peWFt+e8k+WGsuWkhOeQhu+8iOino+aekC/ovazmjaIvZW1pdO+8ieOAggogICAgICogQHBhcmFtIGZhaWxXaXRoIOWksei0peaXtueahOe7iOatouWKqOS9nO+8iOmUmeivr+aWh+acrCArIOaKmyBJT0V4Y2VwdGlvbiDnrYnvvInjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZW5kKAogICAgICAgIGNhbmNlbGxlZDogQm9vbGVhbiwKICAgICAgICBzdWNjZXNzOiBCb29sZWFuLAogICAgICAgIHVzYWdlUmVwb3J0ZXI6IExvY2FsVXNhZ2VSZXBvcnRlciwKICAgICAgICBpbnB1dFRva2VuczogTG9uZywKICAgICAgICBvdXRwdXRUb2tlbnM6IExvbmcsCiAgICAgICAgY2FuY2VsTWVzc2FnZTogU3RyaW5nLAogICAgICAgIGVtaXRUb29sUmVzdWx0OiBzdXNwZW5kICgpIC0+IFVuaXQsCiAgICAgICAgZmFpbFdpdGg6IHN1c3BlbmQgKCkgLT4gVW5pdCwKICAgICkgewogICAgICAgIGlmIChjYW5jZWxsZWQpIHsKICAgICAgICAgICAgLy8g5Y+W5raI57ud5LiN55Sf5oiQ6LSm5pysIHVzYWdl77yM5Lmf5LiNIGVtaXQg5LiN5a6M5pW055qE5bel5YW357yT5Yay44CCCiAgICAgICAgICAgIHRocm93IFVzZXJDYW5jZWxsYXRpb25FeGNlcHRpb24oY2FuY2VsTWVzc2FnZSkKICAgICAgICB9CiAgICAgICAgaWYgKCFzdWNjZXNzKSB7CiAgICAgICAgICAgIC8vIOWksei0pee7neS4jeeUn+aIkOi0puacrCB1c2FnZe+8jOS5n+S4jei9rOaNoi9lbWl0IOS4jeWujOaVtOeahOW3peWFt+e8k+WGsuOAggogICAgICAgICAgICBmYWlsV2l0aCgpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICAvLyDmiJDlip/mnIDlkI7vvJrku4XmiJDlip/ot6/lvoTlpITnkIblt6XlhbfnvJPlhrLvvIjop6PmnpAgKyBlbWl077yJ77yM6ZqP5ZCO5LiK5oqlIHVzYWdlCiAgICAgICAgZW1pdFRvb2xSZXN1bHQoKQogICAgICAgIHVzYWdlUmVwb3J0ZXIucmVwb3J0KGlucHV0VG9rZW5zLCBvdXRwdXRUb2tlbnMpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.stats.ProviderUsageNormalizer
+import com.bslsjdk.operit.data.stats.ProviderUsageSnapshot
+import com.bslsjdk.operit.util.exceptions.UserCancellationException
+import java.util.concurrent.atomic.AtomicBoolean
+import kotlinx.coroutines.CancellationException
+
+internal class LocalUsageReporter(
+    private val source: String,
+    private val onUsageReported: (suspend (ProviderUsageSnapshot, Int) -> Unit)?,
+) {
+    private val reported = AtomicBoolean(false)
+
+    suspend fun report(inputTokens: Long, outputTokens: Long) {
+        val callback = onUsageReported ?: return
+        if (!reported.compareAndSet(false, true)) return
+        try {
+            callback(
+                ProviderUsageNormalizer.local(
+                    uncachedInputTokens = inputTokens,
+                    outputTokens = outputTokens,
+                    source = source,
+                ),
+                1,
+            )
+        } catch (e: CancellationException) {
+            throw e
+        } catch (_: Exception) {
+            // Usage accounting must not replace a successful generation result.
+        }
+    }
+}
+
+/**
+ * 本地 provider（Llama/MNN）生成结束的统一顺序契约（评审 P2-3 修复）。
+ *
+ * 顺序即契约，供两个 provider 共用并单独测试：
+ * 1. **取消优先**：native 生成返回后，先判定 [cancelled]——取消时直接抛
+ *    [UserCancellationException]，**绝不**转换/emit 不完整的工具 XML 或上报 usage；
+ * 2. **失败次之**：未取消但 [success] = false 时，由 [failWith] 终止（保留用户可见
+ *    错误文本并以失败异常结束），失败路径同样**绝不**转换/emit 工具缓冲或上报 usage；
+ * 3. **成功最后**：仅成功路径（[success] = true）由 [emitToolResult] 处理工具
+ *    缓冲（解析 + emit），随后上报 usage。
+ *
+ * 背景：旧实现先转换/emit 工具缓冲再检查 isCancelled，取消时会向调用方发出
+ * 半截工具 XML，下游可能按完整工具调用执行导致错误落账。
+ */
+internal object LocalGenerationEnd {
+
+    /**
+     * @param cancelled 用户是否已取消（cancelStreaming 触发 native 停止）。
+     * @param success native 生成是否正常结束（false = 失败或取消）。
+     * @param usageReporter 本次生成共享的一次性 usage 上报器。
+     * @param inputTokens 已实测输入 token 数（tokenizer 计数）。
+     * @param outputTokens 已生成输出 token 数（逐 token 实测）。
+     * @param cancelMessage 取消异常的用户可见消息。
+     * @param emitToolResult 仅成功路径的工具缓冲处理（解析/转换/emit）。
+     * @param failWith 失败时的终止动作（错误文本 + 抛 IOException 等）。
+     */
+    suspend fun end(
+        cancelled: Boolean,
+        success: Boolean,
+        usageReporter: LocalUsageReporter,
+        inputTokens: Long,
+        outputTokens: Long,
+        cancelMessage: String,
+        emitToolResult: suspend () -> Unit,
+        failWith: suspend () -> Unit,
+    ) {
+        if (cancelled) {
+            // 取消绝不生成账本 usage，也不 emit 不完整的工具缓冲。
+            throw UserCancellationException(cancelMessage)
+        }
+        if (!success) {
+            // 失败绝不生成账本 usage，也不转换/emit 不完整的工具缓冲。
+            failWith()
+            return
+        }
+        // 成功最后：仅成功路径处理工具缓冲（解析 + emit），随后上报 usage
+        emitToolResult()
+        usageReporter.report(inputTokens, outputTokens)
+    }
+}

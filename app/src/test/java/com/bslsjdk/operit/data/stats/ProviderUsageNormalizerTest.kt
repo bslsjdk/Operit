@@ -1,1 +1,514 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCi8qKgogKiBwcm92aWRlciDljp/lp4sgdXNhZ2Ug4oaSIOmYtuautSAxIOWlkee6puW9kuS4gOWMlua1i+ivleOAggogKgogKiDor63kuYnopoHngrnvvJoKICogLSDmnKrnn6XvvIjnvLrlpLHlrZfmrrXvvInihpIgbnVsbO+8m+ehruiupCAwIOKGkiAw77yI5L6L5aaC5peg57yT5a2Y6K+75Y+W44CB5peg57yT5a2Y5YaZ5YWl77yJ77ybCiAqIC0gT3BlbkFJIOezuyBjb21wbGV0aW9uX3Rva2VucyDljIXlkKvmjqjnkIYg4oaSIHJlYXNvbmluZ0luY2x1ZGVkSW5PdXRwdXQgPSB0cnVl77ybCiAqIC0gQW50aHJvcGljIGlucHV0X3Rva2VucyDkuI3lkKvnvJPlrZjliIbph4/vvIjmlofmoaPvvJrmgLvph48gPSBpbnB1dCArIGNhY2hlX3JlYWQgKyBjYWNoZV9jcmVhdGlvbu+8ie+8jAogKiAgIOe8k+WtmOWGmeWFpeeLrOeri+S/neeVmeOAgeeLrOeri+iuoei0ue+8mwogKiAtIEdlbWluaSBjYW5kaWRhdGVzVG9rZW5Db3VudCDkuI3lkKsgdGhvdWdodHNUb2tlbkNvdW5077yI5a6Y5pa5IEFQSSDni6znq4vlrZfmrrXvvIwKICogICDmgJ3ogIMgdG9rZW4g5oyJ6L6T5Ye66K6h6LS577yJ4oaSIOaOqOeQhuacquWMheWQq+WcqOi+k+WHuuOAggogKi8KY2xhc3MgUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXJUZXN0IHsKCiAgICAvLyA9PT09IE9wZW5BSSBjaGF0L2NvbXBsZXRpb25zID09PT0KCiAgICBAVGVzdAogICAgZnVuIGBvcGVuYWkgY2hhdCBjb21wbGV0aW9ucyBzcGxpdHMgY2FjaGVkIGlucHV0IGFuZCBrZWVwcyBjYWNoZSB3cml0ZSBhbmQgcmVhc29uaW5nYCgpIHsKICAgICAgICB2YWwgdXNhZ2UgPQogICAgICAgICAgICBKU09OT2JqZWN0KAogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJwcm9tcHRfdG9rZW5zIjogMTAwMCwKICAgICAgICAgICAgICAgICAgImNvbXBsZXRpb25fdG9rZW5zIjogNTAwLAogICAgICAgICAgICAgICAgICAicHJvbXB0X3Rva2Vuc19kZXRhaWxzIjogeyJjYWNoZWRfdG9rZW5zIjogMjAwfSwKICAgICAgICAgICAgICAgICAgIm91dHB1dF90b2tlbnNfZGV0YWlscyI6IHsicmVhc29uaW5nX3Rva2VucyI6IDUwfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQogICAgICAgICAgICApCiAgICAgICAgdmFsIHNuYXBzaG90ID0gUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIub3BlbkFpQ2hhdENvbXBsZXRpb25zKHVzYWdlKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKDgwMEwsIHNuYXBzaG90LnVuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIwMEwsIHNuYXBzaG90LmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygxMDAwTCwgc25hcHNob3QudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnROdWxsKCJjYWNoZSB3cml0ZSBub3QgcHJvdmlkZWQgLT4gdW5rbm93biIsIHNuYXBzaG90LmNhY2hlV3JpdGVUb2tlbnMpCiAgICAgICAgYXNzZXJ0RmFsc2UoIk9wZW5BSSDml6Dni6znq4vnvJPlrZjlhpnlhaXorqHotLnmpoLlv7UiLCBzbmFwc2hvdC5jYWNoZVdyaXRlU2VwYXJhdGVCaWxsaW5nKQogICAgICAgIGFzc2VydEVxdWFscyg1MDBMLCBzbmFwc2hvdC5vdXRwdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDUwTCwgc25hcHNob3QucmVhc29uaW5nVG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscyh0cnVlLCBzbmFwc2hvdC5yZWFzb25pbmdJbmNsdWRlZEluT3V0cHV0KQogICAgICAgIGFzc2VydEVxdWFscyhQcm92aWRlclVzYWdlTm9ybWFsaXplci5TT1VSQ0VfT1BFTkFJX0NIQVRfQ09NUExFVElPTlMsIHNuYXBzaG90LnNvdXJjZSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBvcGVuYWkgY2hhdCBjb21wbGV0aW9ucyBzdXBwb3J0cyBjYWNoZSBjcmVhdGlvbiBhbmQgemVyby1jYWNoZWQgc2VtYW50aWNzYCgpIHsKICAgICAgICB2YWwgdXNhZ2UgPQogICAgICAgICAgICBKU09OT2JqZWN0KAogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJwcm9tcHRfdG9rZW5zIjogOTAwLAogICAgICAgICAgICAgICAgICAiY29tcGxldGlvbl90b2tlbnMiOiAxMDAsCiAgICAgICAgICAgICAgICAgICJwcm9tcHRfdG9rZW5zX2RldGFpbHMiOiB7ImNhY2hlZF90b2tlbnMiOiAwLCAiY2FjaGVfY3JlYXRpb25faW5wdXRfdG9rZW5zIjogMzAwfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQogICAgICAgICAgICApCiAgICAgICAgdmFsIHNuYXBzaG90ID0gUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIub3BlbkFpQ2hhdENvbXBsZXRpb25zKHVzYWdlKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKDkwMEwsIHNuYXBzaG90LnVuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBzbmFwc2hvdC5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMzAwTCwgc25hcHNob3QuY2FjaGVXcml0ZVRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMTAwTCwgc25hcHNob3Qub3V0cHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYG9wZW5haSBjaGF0IGNvbXBsZXRpb25zIHJldHVybnMgbnVsbCB3aGVuIG5vIHVzYWdlIHByZXNlbnRgKCkgewogICAgICAgIGFzc2VydE51bGwoUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIub3BlbkFpQ2hhdENvbXBsZXRpb25zKG51bGwpKQogICAgICAgIGFzc2VydE51bGwoUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIub3BlbkFpQ2hhdENvbXBsZXRpb25zKEpTT05PYmplY3QoInt9IikpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYG9wZW5haSB3aXRob3V0IGNhY2hlZCBkZXRhaWxzIGtlZXBzIGlucHV0IHNwbGl0IHVua25vd24gbm90IGNsYWltaW5nIHVuY2FjaGVkIHRvdGFsYCgpIHsKICAgICAgICAvLyDluLjop4QgT3BlbkFJIOWTjeW6lOW4uOe8uiBwcm9tcHRfdG9rZW5zX2RldGFpbHPvvJpjYWNoZWQg5ouG5YiG5pyq55+l5pe277yMCiAgICAgICAgLy8g5LiN5b6X5oqK5oC76L6T5YWl56Gu5a6a5Li6IHVuY2FjaGVk77yI5YiG57G756Gu5a6a5oCn77yJCiAgICAgICAgdmFsIHVzYWdlID0KICAgICAgICAgICAgSlNPTk9iamVjdCgKICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAicHJvbXB0X3Rva2VucyI6IDEwMDAsCiAgICAgICAgICAgICAgICAgICJjb21wbGV0aW9uX3Rva2VucyI6IDUwMAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQogICAgICAgICAgICApCiAgICAgICAgdmFsIHNuYXBzaG90ID0gUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIub3BlbkFpQ2hhdENvbXBsZXRpb25zKHVzYWdlKSEhCiAgICAgICAgYXNzZXJ0TnVsbChzbmFwc2hvdC51bmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydE51bGwoc25hcHNob3QuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgLy8g5ouG5YiG5pyq55+l5pe25LuN5L+d55WZIHByb3ZpZGVyIOaYjuehruS4iuaKpeeahOaAu+i+k+WFpe+8iOi0ueeUqOS7heWcqOWNleS7t+ebuOWQjOaXtuWPr+eul++8iQogICAgICAgIGFzc2VydEVxdWFscygxMDAwTCwgc25hcHNob3QudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoNTAwTCwgc25hcHNob3Qub3V0cHV0VG9rZW5zKQogICAgICAgIGFzc2VydE51bGwoc25hcHNob3QuY2FjaGVXcml0ZVRva2VucykKICAgICAgICBhc3NlcnRGYWxzZShzbmFwc2hvdC5jYWNoZVdyaXRlU2VwYXJhdGVCaWxsaW5nKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYG9wZW5haSBleHBsaWNpdCB6ZXJvIGNhY2hlZCBzcGxpdCBrZWVwcyB1bmNhY2hlZCBlcXVhbCB0byB0b3RhbGAoKSB7CiAgICAgICAgdmFsIHVzYWdlID0KICAgICAgICAgICAgSlNPTk9iamVjdCgKICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAicHJvbXB0X3Rva2VucyI6IDEwMCwKICAgICAgICAgICAgICAgICAgImNvbXBsZXRpb25fdG9rZW5zIjogNDAsCiAgICAgICAgICAgICAgICAgICJwcm9tcHRfdG9rZW5zX2RldGFpbHMiOiB7ImNhY2hlZF90b2tlbnMiOiAwfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQogICAgICAgICAgICApCiAgICAgICAgdmFsIHNuYXBzaG90ID0gUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIub3BlbkFpQ2hhdENvbXBsZXRpb25zKHVzYWdlKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBzbmFwc2hvdC5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMTAwTCwgc25hcHNob3QudW5jYWNoZWRJbnB1dFRva2VucykKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBvcGVuYWkgY2hhdCBjb21wbGV0aW9ucyBoYW5kbGVzIGlucHV0X3Rva2VucyBhbGlhc2VzYCgpIHsKICAgICAgICB2YWwgdXNhZ2UgPQogICAgICAgICAgICBKU09OT2JqZWN0KAogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJpbnB1dF90b2tlbnMiOiAxMDAsCiAgICAgICAgICAgICAgICAgICJvdXRwdXRfdG9rZW5zIjogNDAsCiAgICAgICAgICAgICAgICAgICJpbnB1dF90b2tlbnNfZGV0YWlscyI6IHsiY2FjaGVkX3Rva2VucyI6IDMwfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQogICAgICAgICAgICApCiAgICAgICAgdmFsIHNuYXBzaG90ID0gUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIub3BlbkFpQ2hhdENvbXBsZXRpb25zKHVzYWdlKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKDcwTCwgc25hcHNob3QudW5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMzBMLCBzbmFwc2hvdC5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoNDBMLCBzbmFwc2hvdC5vdXRwdXRUb2tlbnMpCiAgICB9CgogICAgLy8gPT09PSBPcGVuQUkgUmVzcG9uc2VzIEFQSSA9PT09CgogICAgQFRlc3QKICAgIGZ1biBgb3BlbmFpIHJlc3BvbnNlcyBrZWVwcyByZWFzb25pbmcgdG9rZW5zIHNlcGFyYXRlbHkgYW5kIG1hcmtzIGluY2x1ZGVkYCgpIHsKICAgICAgICB2YWwgdXNhZ2UgPQogICAgICAgICAgICBKU09OT2JqZWN0KAogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJpbnB1dF90b2tlbnMiOiAxMDAwLAogICAgICAgICAgICAgICAgICAib3V0cHV0X3Rva2VucyI6IDUwMCwKICAgICAgICAgICAgICAgICAgImlucHV0X3Rva2Vuc19kZXRhaWxzIjogeyJjYWNoZWRfdG9rZW5zIjogMjAwfSwKICAgICAgICAgICAgICAgICAgIm91dHB1dF90b2tlbnNfZGV0YWlscyI6IHsicmVhc29uaW5nX3Rva2VucyI6IDEyMH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKICAgICAgICAgICAgKQogICAgICAgIHZhbCBzbmFwc2hvdCA9IFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLm9wZW5BaVJlc3BvbnNlcyh1c2FnZSkhIQogICAgICAgIGFzc2VydEVxdWFscyg4MDBMLCBzbmFwc2hvdC51bmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygyMDBMLCBzbmFwc2hvdC5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMTAwMEwsIHNuYXBzaG90LnRvdGFsSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDUwMEwsIHNuYXBzaG90Lm91dHB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMTIwTCwgc25hcHNob3QucmVhc29uaW5nVG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscyh0cnVlLCBzbmFwc2hvdC5yZWFzb25pbmdJbmNsdWRlZEluT3V0cHV0KQogICAgICAgIGFzc2VydEZhbHNlKCJPcGVuQUkgUmVzcG9uc2VzIOaXoOeLrOeri+e8k+WtmOWGmeWFpeiuoei0ueamguW/tSIsIHNuYXBzaG90LmNhY2hlV3JpdGVTZXBhcmF0ZUJpbGxpbmcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLlNPVVJDRV9PUEVOQUlfUkVTUE9OU0VTLCBzbmFwc2hvdC5zb3VyY2UpCiAgICB9CgogICAgLy8gPT09PSBBbnRocm9waWMgPT09PQoKICAgIEBUZXN0CiAgICBmdW4gYGFudGhyb3BpYyBrZWVwcyBjYWNoZSByZWFkIGFuZCBjYWNoZSB3cml0ZSBhcyBpbmRlcGVuZGVudCBjb21wb25lbnRzYCgpIHsKICAgICAgICB2YWwgdXNhZ2UgPQogICAgICAgICAgICBKU09OT2JqZWN0KAogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJpbnB1dF90b2tlbnMiOiA1MDAsCiAgICAgICAgICAgICAgICAgICJjYWNoZV9yZWFkX2lucHV0X3Rva2VucyI6IDIwMCwKICAgICAgICAgICAgICAgICAgImNhY2hlX2NyZWF0aW9uX2lucHV0X3Rva2VucyI6IDEwMCwKICAgICAgICAgICAgICAgICAgIm91dHB1dF90b2tlbnMiOiAzMDAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKICAgICAgICAgICAgKQogICAgICAgIHZhbCBzbmFwc2hvdCA9IFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLmFudGhyb3BpYyh1c2FnZSkhIQogICAgICAgIC8vIOaWh+aho+ivreS5ie+8mmlucHV0X3Rva2VucyDkuI3lkKvnvJPlrZjliIbph4/vvIzkuInkuKrliIbph4/lkIToh6rni6znq4sKICAgICAgICBhc3NlcnRFcXVhbHMoNTAwTCwgc25hcHNob3QudW5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMjAwTCwgc25hcHNob3QuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMEwsIHNuYXBzaG90LmNhY2hlV3JpdGVUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDgwMEwsIHNuYXBzaG90LnRvdGFsSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMwMEwsIHNuYXBzaG90Lm91dHB1dFRva2VucykKICAgICAgICBhc3NlcnROdWxsKCJBbnRocm9waWMg5LiN5o+Q5L6b54us56uL5o6o55CGIHRva2VuIiwgc25hcHNob3QucmVhc29uaW5nVG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygiQW50aHJvcGljIG91dHB1dF90b2tlbnMg5YyF5ZCrIHRoaW5raW5nIiwgdHJ1ZSwgc25hcHNob3QucmVhc29uaW5nSW5jbHVkZWRJbk91dHB1dCkKICAgICAgICBhc3NlcnRUcnVlKCJBbnRocm9waWMg57yT5a2Y5Yib5bu654us56uL6K6h6LS5Iiwgc25hcHNob3QuY2FjaGVXcml0ZVNlcGFyYXRlQmlsbGluZykKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBhbnRocm9waWMgemVybyBjYWNoZSBjb21wb25lbnRzIGFyZSBleHBsaWNpdCB6ZXJvcyBub3QgdW5rbm93bmAoKSB7CiAgICAgICAgdmFsIHVzYWdlID0KICAgICAgICAgICAgSlNPTk9iamVjdCgKICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAiaW5wdXRfdG9rZW5zIjogNTAsCiAgICAgICAgICAgICAgICAgICJjYWNoZV9yZWFkX2lucHV0X3Rva2VucyI6IDAsCiAgICAgICAgICAgICAgICAgICJjYWNoZV9jcmVhdGlvbl9pbnB1dF90b2tlbnMiOiAwLAogICAgICAgICAgICAgICAgICAib3V0cHV0X3Rva2VucyI6IDEwCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICAgICAgICAgICkKICAgICAgICB2YWwgc25hcHNob3QgPSBQcm92aWRlclVzYWdlTm9ybWFsaXplci5hbnRocm9waWModXNhZ2UpISEKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIHNuYXBzaG90LmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3QuY2FjaGVXcml0ZVRva2VucykKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBhbnRocm9waWMgYWJzZW50IGNhY2hlIGZpZWxkcyBzdGF5IHVua25vd25gKCkgewogICAgICAgIHZhbCB1c2FnZSA9IEpTT05PYmplY3QoIiIieyJpbnB1dF90b2tlbnMiOiA1MCwgIm91dHB1dF90b2tlbnMiOiAxMH0iIiIpCiAgICAgICAgdmFsIHNuYXBzaG90ID0gUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIuYW50aHJvcGljKHVzYWdlKSEhCiAgICAgICAgYXNzZXJ0TnVsbChzbmFwc2hvdC5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnROdWxsKHNuYXBzaG90LmNhY2hlV3JpdGVUb2tlbnMpCiAgICAgICAgLy8g5peg5Lu75L2V57yT5a2Y5YiG6YeP77ya5oC76L6T5YWl5Y2zIGlucHV0X3Rva2VucwogICAgICAgIGFzc2VydEVxdWFscyg1MEwsIHNuYXBzaG90LnRvdGFsSW5wdXRUb2tlbnMpCiAgICB9CgogICAgLy8gPT09PSBHZW1pbmkgPT09PQoKICAgIEBUZXN0CiAgICBmdW4gYGdlbWluaSBub3JtYWxpemVzIHVzYWdlIG1ldGFkYXRhIHdpdGggY2FjaGVkIGNvbnRlbnQgYW5kIHRob3VnaHRzYCgpIHsKICAgICAgICB2YWwgbWV0YWRhdGEgPQogICAgICAgICAgICBKU09OT2JqZWN0KAogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJwcm9tcHRUb2tlbkNvdW50IjogMTAwMCwKICAgICAgICAgICAgICAgICAgImNhY2hlZENvbnRlbnRUb2tlbkNvdW50IjogMzAwLAogICAgICAgICAgICAgICAgICAiY2FuZGlkYXRlc1Rva2VuQ291bnQiOiA0MDAsCiAgICAgICAgICAgICAgICAgICJ0aG91Z2h0c1Rva2VuQ291bnQiOiA5MAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQogICAgICAgICAgICApCiAgICAgICAgdmFsIHNuYXBzaG90ID0gUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIuZ2VtaW5pKG1ldGFkYXRhKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKDcwMEwsIHNuYXBzaG90LnVuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMwMEwsIHNuYXBzaG90LmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygxMDAwTCwgc25hcHNob3QudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnROdWxsKCJHZW1pbmkg5peg57yT5a2Y5YaZ5YWl5qaC5b+1Iiwgc25hcHNob3QuY2FjaGVXcml0ZVRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoNDAwTCwgc25hcHNob3Qub3V0cHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscyg5MEwsIHNuYXBzaG90LnJlYXNvbmluZ1Rva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoImNhbmRpZGF0ZXNUb2tlbkNvdW50IOS4jeWQqyB0aG91Z2h077yI54us56uL6K6h6LS577yJIiwgZmFsc2UsIHNuYXBzaG90LnJlYXNvbmluZ0luY2x1ZGVkSW5PdXRwdXQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZ2VtaW5pIHRob3VnaHRzIGFyZSBiaWxsZWQgb24gdG9wIG9mIGNhbmRpZGF0ZXMgYnkgY29zdCBsYXllcmAoKSB7CiAgICAgICAgLy8gUDEtNO+8mnRob3VnaHRzVG9rZW5Db3VudCDni6znq4vkuo4gY2FuZGlkYXRlc1Rva2VuQ291bnTvvIzorqHotLnovpPlh7ogPSBjYW5kaWRhdGVzICsgdGhvdWdodHPjgIIKICAgICAgICAvLyBwcm9tcHQ9MTAwLCBjYW5kaWRhdGVzPTIwLCB0aG91Z2h0cz04MCDihpIgYmlsbGVkIG91dHB1dCA9IDEwMOOAggogICAgICAgIHZhbCBtZXRhZGF0YSA9CiAgICAgICAgICAgIEpTT05PYmplY3QoCiAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgInByb21wdFRva2VuQ291bnQiOiAxMDAsCiAgICAgICAgICAgICAgICAgICJjYWNoZWRDb250ZW50VG9rZW5Db3VudCI6IDAsCiAgICAgICAgICAgICAgICAgICJjYW5kaWRhdGVzVG9rZW5Db3VudCI6IDIwLAogICAgICAgICAgICAgICAgICAidGhvdWdodHNUb2tlbkNvdW50IjogODAsCiAgICAgICAgICAgICAgICAgICJ0b3RhbFRva2VuQ291bnQiOiAyMDAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKICAgICAgICAgICAgKQogICAgICAgIHZhbCBzbmFwc2hvdCA9IFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLmdlbWluaShtZXRhZGF0YSkhIQogICAgICAgIGFzc2VydEVxdWFscygxMDBMLCBzbmFwc2hvdC51bmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3QuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIwTCwgc25hcHNob3Qub3V0cHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscyg4MEwsIHNuYXBzaG90LnJlYXNvbmluZ1Rva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoZmFsc2UsIHNuYXBzaG90LnJlYXNvbmluZ0luY2x1ZGVkSW5PdXRwdXQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZ2VtaW5pIHVzYWdlIG1ldGFkYXRhIHdpdGhvdXQgY2FuZGlkYXRlcyBmaWVsZHMgc3RheXMgZnVsbHkgYmlsbGFibGVgKCkgewogICAgICAgIC8vIFAxLTTvvJpwcm9tcHQg6KKr5oum5oiq5pe25LiN6L+U5ZueIGNhbmRpZGF0ZXPvvIzkvYYgdXNhZ2VNZXRhZGF0YSDku43nhLblrZjlnKjvvJtwcm92aWRlcgogICAgICAgIC8vIOWxguW/hemhu+aKiuivpSB1c2FnZSDkuIrmiqXvvIzlvZLkuIDljJblkI7lupTlvpfliLDlrozmlbTlj6/orqHotLnlv6vnhafvvIjovpPlhaXnhafluLjorqHotLnvvIzovpPlh7rkuLrnnJ/lrp4gMO+8ieOAggogICAgICAgIHZhbCBtZXRhZGF0YSA9CiAgICAgICAgICAgIEpTT05PYmplY3QoCiAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgInByb21wdFRva2VuQ291bnQiOiAxMDAsCiAgICAgICAgICAgICAgICAgICJjYWNoZWRDb250ZW50VG9rZW5Db3VudCI6IDAsCiAgICAgICAgICAgICAgICAgICJjYW5kaWRhdGVzVG9rZW5Db3VudCI6IDAsCiAgICAgICAgICAgICAgICAgICJ0aG91Z2h0c1Rva2VuQ291bnQiOiAwCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICAgICAgICAgICkKICAgICAgICB2YWwgc25hcHNob3QgPSBQcm92aWRlclVzYWdlTm9ybWFsaXplci5nZW1pbmkobWV0YWRhdGEpISEKICAgICAgICBhc3NlcnRFcXVhbHMoMTAwTCwgc25hcHNob3QudW5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIHNuYXBzaG90LmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3Qub3V0cHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3QucmVhc29uaW5nVG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscyhmYWxzZSwgc25hcHNob3QucmVhc29uaW5nSW5jbHVkZWRJbk91dHB1dCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBnZW1pbmkgd2l0aG91dCB0aG91Z2h0cyBmaWVsZCBrZWVwcyByZWFzb25pbmcgdW5rbm93biBhbmQgY2FjaGVkIHNwbGl0IHVua25vd25gKCkgewogICAgICAgIHZhbCBtZXRhZGF0YSA9CiAgICAgICAgICAgIEpTT05PYmplY3QoCiAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgInByb21wdFRva2VuQ291bnQiOiAxMDAsCiAgICAgICAgICAgICAgICAgICJjYW5kaWRhdGVzVG9rZW5Db3VudCI6IDIwCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICAgICAgICAgICkKICAgICAgICB2YWwgc25hcHNob3QgPSBQcm92aWRlclVzYWdlTm9ybWFsaXplci5nZW1pbmkobWV0YWRhdGEpISEKICAgICAgICBhc3NlcnROdWxsKHNuYXBzaG90LnJlYXNvbmluZ1Rva2VucykKICAgICAgICAvLyBjYWNoZWRDb250ZW50VG9rZW5Db3VudCDnvLrlpLHvvJpjYWNoZWQg5ouG5YiG5pyq55+l77yM5LiN5b6X5oqK5oC76L6T5YWl56Gu5a6a5Li6IHVuY2FjaGVkCiAgICAgICAgYXNzZXJ0TnVsbChzbmFwc2hvdC5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnROdWxsKHNuYXBzaG90LnVuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgLy8g5ouG5YiG5pyq55+l5pe25LuN5L+d55WZIHByb3ZpZGVyIOaYjuehruS4iuaKpeeahOaAu+i+k+WFpQogICAgICAgIGFzc2VydEVxdWFscygxMDBMLCBzbmFwc2hvdC50b3RhbElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygyMEwsIHNuYXBzaG90Lm91dHB1dFRva2VucykKICAgICAgICBhc3NlcnRGYWxzZSgiR2VtaW5pIOaXoOeLrOeri+e8k+WtmOWGmeWFpeiuoei0ueamguW/tSIsIHNuYXBzaG90LmNhY2hlV3JpdGVTZXBhcmF0ZUJpbGxpbmcpCiAgICB9CgogICAgLy8gPT09PSDmnKzlnLDmqKHlnosgPT09PQoKICAgIEBUZXN0CiAgICBmdW4gYGxvY2FsIHByb3ZpZGVycyBwcmVzZXJ2ZSBsb25nIG1lYXN1cmVkIGNvdW50cyB3aXRoIGV4cGxpY2l0IHplcm8gY2FjaGVgKCkgewogICAgICAgIHZhbCBpbnB1dFRva2VucyA9IEludC5NQVhfVkFMVUUudG9Mb25nKCkgKyAxTAogICAgICAgIHZhbCBvdXRwdXRUb2tlbnMgPSBJbnQuTUFYX1ZBTFVFLnRvTG9uZygpICsgMkwKICAgICAgICB2YWwgc25hcHNob3QgPSBQcm92aWRlclVzYWdlTm9ybWFsaXplci5sb2NhbChpbnB1dFRva2Vucywgb3V0cHV0VG9rZW5zLCBQcm92aWRlclVzYWdlTm9ybWFsaXplci5TT1VSQ0VfTExBTUEpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGlucHV0VG9rZW5zLCBzbmFwc2hvdC51bmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3QuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBzbmFwc2hvdC5jYWNoZVdyaXRlVG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscyhpbnB1dFRva2Vucywgc25hcHNob3QudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMob3V0cHV0VG9rZW5zLCBzbmFwc2hvdC5vdXRwdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0TnVsbChzbmFwc2hvdC5yZWFzb25pbmdUb2tlbnMpCiAgICAgICAgYXNzZXJ0TnVsbChzbmFwc2hvdC5yZWFzb25pbmdJbmNsdWRlZEluT3V0cHV0KQogICAgICAgIGFzc2VydEZhbHNlKHNuYXBzaG90LmNhY2hlV3JpdGVTZXBhcmF0ZUJpbGxpbmcpCiAgICB9CgogICAgLy8gPT09PSBUb29sUGtnID09PT0KCiAgICBAVGVzdAogICAgZnVuIGB0b29scGtnIGRlcml2ZXMgdW5jYWNoZWQgZnJvbSB0b3RhbCBtaW51cyBjYWNoZWRgKCkgewogICAgICAgIHZhbCBzbmFwc2hvdCA9CiAgICAgICAgICAgIFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLnRvb2xQa2coCiAgICAgICAgICAgICAgICBpbnB1dCA9IDEwMDAsCiAgICAgICAgICAgICAgICBjYWNoZWRJbnB1dCA9IDI1MCwKICAgICAgICAgICAgICAgIG91dHB1dCA9IDMwMCwKICAgICAgICAgICAgICAgIGNvbXBsZXRlU25hcHNob3QgPSB0cnVlLAogICAgICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDc1MEwsIHNuYXBzaG90LnVuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDI1MEwsIHNuYXBzaG90LmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygxMDAwTCwgc25hcHNob3QudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnROdWxsKHNuYXBzaG90LmNhY2hlV3JpdGVUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMwMEwsIHNuYXBzaG90Lm91dHB1dFRva2VucykKICAgICAgICBhc3NlcnRGYWxzZShzbmFwc2hvdC5jYWNoZVdyaXRlU2VwYXJhdGVCaWxsaW5nKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHRvb2xwa2cgY2FjaGVkIGdyZWF0ZXIgdGhhbiBpbnB1dCBrZWVwcyB0b3RhbCBidXQgcmVqZWN0cyBzcGxpdGAoKSB7CiAgICAgICAgdmFsIHNuYXBzaG90ID0gUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIudG9vbFBrZygxMDBMLCAyNTBMLCAyMEwsIHRydWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMEwsIHNuYXBzaG90LnRvdGFsSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0TnVsbChzbmFwc2hvdC51bmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydE51bGwoc25hcHNob3QuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdG9vbHBrZyBuZWdhdGl2ZSBpbnB1dCBjb21wb25lbnRzIGJlY29tZSB1bmtub3duIGluZGVwZW5kZW50bHlgKCkgewogICAgICAgIHZhbCBuZWdhdGl2ZUlucHV0ID0gUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIudG9vbFBrZygtMUwsIDBMLCAyMEwsIHRydWUpCiAgICAgICAgYXNzZXJ0TnVsbChuZWdhdGl2ZUlucHV0LnRvdGFsSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0TnVsbChuZWdhdGl2ZUlucHV0LnVuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0TnVsbChuZWdhdGl2ZUlucHV0LmNhY2hlZElucHV0VG9rZW5zKQoKICAgICAgICB2YWwgbmVnYXRpdmVDYWNoZWQgPSBQcm92aWRlclVzYWdlTm9ybWFsaXplci50b29sUGtnKDEwMEwsIC0xTCwgMjBMLCB0cnVlKQogICAgICAgIGFzc2VydEVxdWFscygxMDBMLCBuZWdhdGl2ZUNhY2hlZC50b3RhbElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydE51bGwobmVnYXRpdmVDYWNoZWQudW5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnROdWxsKG5lZ2F0aXZlQ2FjaGVkLmNhY2hlZElucHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHRvb2xwa2cgZXF1YWwgY2FjaGVkIGFuZCBpbnB1dCBpcyBhIHZhbGlkIHplcm8gdW5jYWNoZWQgYm91bmRhcnlgKCkgewogICAgICAgIHZhbCBzbmFwc2hvdCA9IFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLnRvb2xQa2coMTAwTCwgMTAwTCwgMjBMLCB0cnVlKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3QudW5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMTAwTCwgc25hcHNob3QuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMEwsIHNuYXBzaG90LnRvdGFsSW5wdXRUb2tlbnMpCiAgICB9CgogICAgLy8gPT09PSDlv6vnhafor63kuYkgPT09PQoKICAgIEBUZXN0CiAgICBmdW4gYG5lZ2F0aXZlIHByb3ZpZGVyIHZhbHVlcyBhcmUgcmVqZWN0ZWQgYXMgdW5rbm93biBub3QgcmVjb3JkZWRgKCkgewogICAgICAgIC8vIOivhOWuoSBQMi0177ya6LSf5YC8L+W8guW4uOaVsOaNruW/hemhu+aLkue7neS4uuacquefpe+8jOe7neS4jemdmem7mOiQvei0n+aVsAogICAgICAgIHZhbCBuZWdhdGl2ZSA9CiAgICAgICAgICAgIFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLm9wZW5BaUNoYXRDb21wbGV0aW9ucygKICAgICAgICAgICAgICAgIEpTT05PYmplY3QoCiAgICAgICAgICAgICAgICAgICAgIiIieyJwcm9tcHRfdG9rZW5zIjogLTEwMCwgImNvbXBsZXRpb25fdG9rZW5zIjogNTAwfSIiIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgLy8g6LSf6L6T5YWl6KKr5ouSIOKGkiB1bmNhY2hlZC90b3RhbCDmnKrnn6XvvJtvdXRwdXQg5LuN5pyJ5pWICiAgICAgICAgYXNzZXJ0TnVsbChuZWdhdGl2ZSEhLnVuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0TnVsbChuZWdhdGl2ZS50b3RhbElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscyg1MDBMLCBuZWdhdGl2ZS5vdXRwdXRUb2tlbnMpCgogICAgICAgIHZhbCBuZWdhdGl2ZU91dHB1dCA9CiAgICAgICAgICAgIFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLm9wZW5BaUNoYXRDb21wbGV0aW9ucygKICAgICAgICAgICAgICAgIEpTT05PYmplY3QoIiIieyJwcm9tcHRfdG9rZW5zIjogMTAwLCAiY29tcGxldGlvbl90b2tlbnMiOiAtNTB9IiIiKQogICAgICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMEwsIG5lZ2F0aXZlT3V0cHV0ISEudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnROdWxsKCJuZWdhdGl2ZSBvdXRwdXQgbXVzdCBiZSB1bmtub3duIiwgbmVnYXRpdmVPdXRwdXQub3V0cHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHZhbHVlcyBiZXlvbmQgaW50IHJhbmdlIGFyZSBjYXJyaWVkIGFzIGxvbmcgd2l0aG91dCBvdmVyZmxvd2AoKSB7CiAgICAgICAgLy8g6K+E5a6hIFAyLTXvvJpKU09OIOWAvOi2hei/hyBJbnQg6IyD5Zu05pe25b+F6aG75Y6f5qC35LulIExvbmcg5om/6L29CiAgICAgICAgdmFsIGh1Z2UgPQogICAgICAgICAgICBQcm92aWRlclVzYWdlTm9ybWFsaXplci5vcGVuQWlDaGF0Q29tcGxldGlvbnMoCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KAogICAgICAgICAgICAgICAgICAgICIiInsicHJvbXB0X3Rva2VucyI6IDMwMDAwMDAwMDAsICJjb21wbGV0aW9uX3Rva2VucyI6IDI1MDAwMDAwMDB9IiIiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICAvLyDmi4bliIbmnKrnn6XvvIjml6AgcHJvbXB0X3Rva2Vuc19kZXRhaWxz77yJ5pe2IHVuY2FjaGVkIOW/hemhu+S/neaMgeacquefpe+8iOiuvuiuoeivreS5ie+8ie+8mwogICAgICAgIC8vIOaAu+mHj+S4jui+k+WHuuS7jeS7pSBMb25nIOWOn+agt+aJv+i9ve+8jOe7neS4jSBJbnQg5rqi5Ye6CiAgICAgICAgYXNzZXJ0TnVsbChodWdlISEudW5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMzAwMDAwMDAwMEwsIGh1Z2UudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMjUwMDAwMDAwMEwsIGh1Z2Uub3V0cHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHNuYXBzaG90IGhhc0tub3duRmllbGRzIGtlZXBzIGV4cGxpY2l0IHplcm8gY29tcG9uZW50cyBhbmQgZHJvcHMgZnVsbHkgdW5rbm93bmAoKSB7CiAgICAgICAgLy8g5a6M5YWo5peg5bey55+l5a2X5q61IOKGkiDml6DmnInmlYjlv6vnhafvvIhub3JtYWxpemVyIOi/lOWbniBudWxs77yJCiAgICAgICAgYXNzZXJ0RmFsc2UoUHJvdmlkZXJVc2FnZVNuYXBzaG90KHNvdXJjZSA9ICJ0IikuaGFzS25vd25GaWVsZHMoKSkKCiAgICAgICAgLy8gcHJvdmlkZXIg5piO56Gu5YWo6Zu25Lmf5piv5pyJ5pWI5b+r54Wn77yaMCDkuI3lvpflj5jmiJDmnKrnn6UKICAgICAgICB2YWwgemVyb09ubHkgPQogICAgICAgICAgICBQcm92aWRlclVzYWdlU25hcHNob3QoCnVuY2FjaGVkSW5wdXRUb2tlbnMgPSAwTCwKY2FjaGVkSW5wdXRUb2tlbnMgPSAwTCwKb3V0cHV0VG9rZW5zID0gMEwsCiAgICAgICAgICAgICAgICBzb3VyY2UgPSAidCIsCiAgICAgICAgICAgICkKICAgICAgICBhc3NlcnRUcnVlKHplcm9Pbmx5Lmhhc0tub3duRmllbGRzKCkpCgogICAgICAgIHZhbCB3aXRoVmFsdWUgPQogICAgICAgICAgICBQcm92aWRlclVzYWdlU25hcHNob3QoCnVuY2FjaGVkSW5wdXRUb2tlbnMgPSAwTCwKY2FjaGVkSW5wdXRUb2tlbnMgPSAwTCwKY2FjaGVXcml0ZVRva2VucyA9IDVMLApvdXRwdXRUb2tlbnMgPSAwTCwKICAgICAgICAgICAgICAgIHNvdXJjZSA9ICJ0IiwKICAgICAgICAgICAgKQogICAgICAgIGFzc2VydFRydWUod2l0aFZhbHVlLmhhc0tub3duRmllbGRzKCkpCiAgICB9CgogICAgLy8gPT09PSDor4TlrqEgUDEtNe+8muaYvuW8j+WFqOmbtiBwYXlsb2FkIOaMieWtl+auteWtmOWcqOWIpOaWre+8jDBMIOaYr+ecn+WuniAwIOiAjOmdnuacquefpSA9PT09CgogICAgQFRlc3QKICAgIGZ1biBgb3BlbmFpIGNoYXQgY29tcGxldGlvbnMgZXhwbGljaXQgemVybyBwYXlsb2FkIGlzIG9ic2VydmVkIHVzYWdlYCgpIHsKICAgICAgICB2YWwgc25hcHNob3QgPQogICAgICAgICAgICBQcm92aWRlclVzYWdlTm9ybWFsaXplci5vcGVuQWlDaGF0Q29tcGxldGlvbnMoCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KCIiInsicHJvbXB0X3Rva2VucyI6IDAsICJjb21wbGV0aW9uX3Rva2VucyI6IDB9IiIiKQogICAgICAgICAgICApISEKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIHNuYXBzaG90LnRvdGFsSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBzbmFwc2hvdC5vdXRwdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0TnVsbCgiY2FjaGVkIHNwbGl0IGFic2VudCBzdGF5cyB1bmtub3duIiwgc25hcHNob3QuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgb3BlbmFpIHJlc3BvbnNlcyBleHBsaWNpdCB6ZXJvIHBheWxvYWQgaXMgb2JzZXJ2ZWQgdXNhZ2VgKCkgewogICAgICAgIHZhbCBzbmFwc2hvdCA9CiAgICAgICAgICAgIFByb3ZpZGVyVXNhZ2VOb3JtYWxpemVyLm9wZW5BaVJlc3BvbnNlcygKICAgICAgICAgICAgICAgIEpTT05PYmplY3QoIiIieyJpbnB1dF90b2tlbnMiOiAwLCAib3V0cHV0X3Rva2VucyI6IDB9IiIiKQogICAgICAgICAgICApISEKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIHNuYXBzaG90LnRvdGFsSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBzbmFwc2hvdC5vdXRwdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgYW50aHJvcGljIGV4cGxpY2l0IHplcm8gcGF5bG9hZCBpcyBvYnNlcnZlZCB1c2FnZWAoKSB7CiAgICAgICAgdmFsIHNuYXBzaG90ID0KICAgICAgICAgICAgUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIuYW50aHJvcGljKAogICAgICAgICAgICAgICAgSlNPTk9iamVjdCgiIiJ7ImlucHV0X3Rva2VucyI6IDAsICJvdXRwdXRfdG9rZW5zIjogMH0iIiIpLAogICAgICAgICAgICAgICAgY29tcGxldGVTbmFwc2hvdCA9IHRydWUsCiAgICAgICAgICAgICkhIQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3QudW5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIHNuYXBzaG90Lm91dHB1dFRva2VucykKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBnZW1pbmkgZXhwbGljaXQgemVybyBwYXlsb2FkIGlzIG9ic2VydmVkIHVzYWdlYCgpIHsKICAgICAgICB2YWwgc25hcHNob3QgPQogICAgICAgICAgICBQcm92aWRlclVzYWdlTm9ybWFsaXplci5nZW1pbmkoCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KAogICAgICAgICAgICAgICAgICAgICIiInsicHJvbXB0VG9rZW5Db3VudCI6IDAsICJjYWNoZWRDb250ZW50VG9rZW5Db3VudCI6IDAsICJjYW5kaWRhdGVzVG9rZW5Db3VudCI6IDB9IiIiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkhIQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3QudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIHNuYXBzaG90LmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3Qub3V0cHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHRvb2xwa2cgZXhwbGljaXQgemVybyBwYXlsb2FkIGlzIG9ic2VydmVkIHVzYWdlYCgpIHsKICAgICAgICB2YWwgc25hcHNob3QgPQogICAgICAgICAgICBQcm92aWRlclVzYWdlTm9ybWFsaXplci50b29sUGtnKAogICAgICAgICAgICAgICAgaW5wdXQgPSAwTCwKICAgICAgICAgICAgICAgIGNhY2hlZElucHV0ID0gMEwsCiAgICAgICAgICAgICAgICBvdXRwdXQgPSAwTCwKICAgICAgICAgICAgICAgIGNvbXBsZXRlU25hcHNob3QgPSB0cnVlLAogICAgICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBzbmFwc2hvdC50b3RhbElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygwTCwgc25hcHNob3QuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBzbmFwc2hvdC5vdXRwdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBzbmFwc2hvdC51bmNhY2hlZElucHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHRvb2xwa2cgbWlzc2luZyBmaWVsZHMgc3RheSB1bmtub3duIGFuZCBuZXZlciBpbmhlcml0IGNvdW50ZXJzYCgpIHsKICAgICAgICB2YWwgc25hcHNob3QgPQogICAgICAgICAgICBQcm92aWRlclVzYWdlTm9ybWFsaXplci50b29sUGtnKAogICAgICAgICAgICAgICAgaW5wdXQgPSBudWxsLAogICAgICAgICAgICAgICAgY2FjaGVkSW5wdXQgPSBudWxsLAogICAgICAgICAgICAgICAgb3V0cHV0ID0gMTBMLAogICAgICAgICAgICAgICAgY29tcGxldGVTbmFwc2hvdCA9IGZhbHNlLAogICAgICAgICAgICApCiAgICAgICAgYXNzZXJ0TnVsbChzbmFwc2hvdC51bmNhY2hlZElucHV0VG9rZW5zKQogICAgICAgIGFzc2VydE51bGwoc25hcHNob3QudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMTBMLCBzbmFwc2hvdC5vdXRwdXRUb2tlbnMpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.stats
+
+import org.json.JSONObject
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+/**
+ * provider 原始 usage → 阶段 1 契约归一化测试。
+ *
+ * 语义要点：
+ * - 未知（缺失字段）→ null；确认 0 → 0（例如无缓存读取、无缓存写入）；
+ * - OpenAI 系 completion_tokens 包含推理 → reasoningIncludedInOutput = true；
+ * - Anthropic input_tokens 不含缓存分量（文档：总量 = input + cache_read + cache_creation），
+ *   缓存写入独立保留、独立计费；
+ * - Gemini candidatesTokenCount 不含 thoughtsTokenCount（官方 API 独立字段，
+ *   思考 token 按输出计费）→ 推理未包含在输出。
+ */
+class ProviderUsageNormalizerTest {
+
+    // ==== OpenAI chat/completions ====
+
+    @Test
+    fun `openai chat completions splits cached input and keeps cache write and reasoning`() {
+        val usage =
+            JSONObject(
+                """
+                {
+                  "prompt_tokens": 1000,
+                  "completion_tokens": 500,
+                  "prompt_tokens_details": {"cached_tokens": 200},
+                  "output_tokens_details": {"reasoning_tokens": 50}
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.openAiChatCompletions(usage)!!
+        assertEquals(800L, snapshot.uncachedInputTokens)
+        assertEquals(200L, snapshot.cachedInputTokens)
+        assertEquals(1000L, snapshot.totalInputTokens)
+        assertNull("cache write not provided -> unknown", snapshot.cacheWriteTokens)
+        assertFalse("OpenAI 无独立缓存写入计费概念", snapshot.cacheWriteSeparateBilling)
+        assertEquals(500L, snapshot.outputTokens)
+        assertEquals(50L, snapshot.reasoningTokens)
+        assertEquals(true, snapshot.reasoningIncludedInOutput)
+        assertEquals(ProviderUsageNormalizer.SOURCE_OPENAI_CHAT_COMPLETIONS, snapshot.source)
+    }
+
+    @Test
+    fun `openai chat completions supports cache creation and zero-cached semantics`() {
+        val usage =
+            JSONObject(
+                """
+                {
+                  "prompt_tokens": 900,
+                  "completion_tokens": 100,
+                  "prompt_tokens_details": {"cached_tokens": 0, "cache_creation_input_tokens": 300}
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.openAiChatCompletions(usage)!!
+        assertEquals(900L, snapshot.uncachedInputTokens)
+        assertEquals(0L, snapshot.cachedInputTokens)
+        assertEquals(300L, snapshot.cacheWriteTokens)
+        assertEquals(100L, snapshot.outputTokens)
+    }
+
+    @Test
+    fun `openai chat completions returns null when no usage present`() {
+        assertNull(ProviderUsageNormalizer.openAiChatCompletions(null))
+        assertNull(ProviderUsageNormalizer.openAiChatCompletions(JSONObject("{}")))
+    }
+
+    @Test
+    fun `openai without cached details keeps input split unknown not claiming uncached total`() {
+        // 常规 OpenAI 响应常缺 prompt_tokens_details：cached 拆分未知时，
+        // 不得把总输入确定为 uncached（分类确定性）
+        val usage =
+            JSONObject(
+                """
+                {
+                  "prompt_tokens": 1000,
+                  "completion_tokens": 500
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.openAiChatCompletions(usage)!!
+        assertNull(snapshot.uncachedInputTokens)
+        assertNull(snapshot.cachedInputTokens)
+        // 拆分未知时仍保留 provider 明确上报的总输入（费用仅在单价相同时可算）
+        assertEquals(1000L, snapshot.totalInputTokens)
+        assertEquals(500L, snapshot.outputTokens)
+        assertNull(snapshot.cacheWriteTokens)
+        assertFalse(snapshot.cacheWriteSeparateBilling)
+    }
+
+    @Test
+    fun `openai explicit zero cached split keeps uncached equal to total`() {
+        val usage =
+            JSONObject(
+                """
+                {
+                  "prompt_tokens": 100,
+                  "completion_tokens": 40,
+                  "prompt_tokens_details": {"cached_tokens": 0}
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.openAiChatCompletions(usage)!!
+        assertEquals(0L, snapshot.cachedInputTokens)
+        assertEquals(100L, snapshot.uncachedInputTokens)
+    }
+
+    @Test
+    fun `openai chat completions handles input_tokens aliases`() {
+        val usage =
+            JSONObject(
+                """
+                {
+                  "input_tokens": 100,
+                  "output_tokens": 40,
+                  "input_tokens_details": {"cached_tokens": 30}
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.openAiChatCompletions(usage)!!
+        assertEquals(70L, snapshot.uncachedInputTokens)
+        assertEquals(30L, snapshot.cachedInputTokens)
+        assertEquals(40L, snapshot.outputTokens)
+    }
+
+    // ==== OpenAI Responses API ====
+
+    @Test
+    fun `openai responses keeps reasoning tokens separately and marks included`() {
+        val usage =
+            JSONObject(
+                """
+                {
+                  "input_tokens": 1000,
+                  "output_tokens": 500,
+                  "input_tokens_details": {"cached_tokens": 200},
+                  "output_tokens_details": {"reasoning_tokens": 120}
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.openAiResponses(usage)!!
+        assertEquals(800L, snapshot.uncachedInputTokens)
+        assertEquals(200L, snapshot.cachedInputTokens)
+        assertEquals(1000L, snapshot.totalInputTokens)
+        assertEquals(500L, snapshot.outputTokens)
+        assertEquals(120L, snapshot.reasoningTokens)
+        assertEquals(true, snapshot.reasoningIncludedInOutput)
+        assertFalse("OpenAI Responses 无独立缓存写入计费概念", snapshot.cacheWriteSeparateBilling)
+        assertEquals(ProviderUsageNormalizer.SOURCE_OPENAI_RESPONSES, snapshot.source)
+    }
+
+    // ==== Anthropic ====
+
+    @Test
+    fun `anthropic keeps cache read and cache write as independent components`() {
+        val usage =
+            JSONObject(
+                """
+                {
+                  "input_tokens": 500,
+                  "cache_read_input_tokens": 200,
+                  "cache_creation_input_tokens": 100,
+                  "output_tokens": 300
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.anthropic(usage)!!
+        // 文档语义：input_tokens 不含缓存分量，三个分量各自独立
+        assertEquals(500L, snapshot.uncachedInputTokens)
+        assertEquals(200L, snapshot.cachedInputTokens)
+        assertEquals(100L, snapshot.cacheWriteTokens)
+        assertEquals(800L, snapshot.totalInputTokens)
+        assertEquals(300L, snapshot.outputTokens)
+        assertNull("Anthropic 不提供独立推理 token", snapshot.reasoningTokens)
+        assertEquals("Anthropic output_tokens 包含 thinking", true, snapshot.reasoningIncludedInOutput)
+        assertTrue("Anthropic 缓存创建独立计费", snapshot.cacheWriteSeparateBilling)
+    }
+
+    @Test
+    fun `anthropic zero cache components are explicit zeros not unknown`() {
+        val usage =
+            JSONObject(
+                """
+                {
+                  "input_tokens": 50,
+                  "cache_read_input_tokens": 0,
+                  "cache_creation_input_tokens": 0,
+                  "output_tokens": 10
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.anthropic(usage)!!
+        assertEquals(0L, snapshot.cachedInputTokens)
+        assertEquals(0L, snapshot.cacheWriteTokens)
+    }
+
+    @Test
+    fun `anthropic absent cache fields stay unknown`() {
+        val usage = JSONObject("""{"input_tokens": 50, "output_tokens": 10}""")
+        val snapshot = ProviderUsageNormalizer.anthropic(usage)!!
+        assertNull(snapshot.cachedInputTokens)
+        assertNull(snapshot.cacheWriteTokens)
+        // 无任何缓存分量：总输入即 input_tokens
+        assertEquals(50L, snapshot.totalInputTokens)
+    }
+
+    // ==== Gemini ====
+
+    @Test
+    fun `gemini normalizes usage metadata with cached content and thoughts`() {
+        val metadata =
+            JSONObject(
+                """
+                {
+                  "promptTokenCount": 1000,
+                  "cachedContentTokenCount": 300,
+                  "candidatesTokenCount": 400,
+                  "thoughtsTokenCount": 90
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.gemini(metadata)!!
+        assertEquals(700L, snapshot.uncachedInputTokens)
+        assertEquals(300L, snapshot.cachedInputTokens)
+        assertEquals(1000L, snapshot.totalInputTokens)
+        assertNull("Gemini 无缓存写入概念", snapshot.cacheWriteTokens)
+        assertEquals(400L, snapshot.outputTokens)
+        assertEquals(90L, snapshot.reasoningTokens)
+        assertEquals("candidatesTokenCount 不含 thought（独立计费）", false, snapshot.reasoningIncludedInOutput)
+    }
+
+    @Test
+    fun `gemini thoughts are billed on top of candidates by cost layer`() {
+        // P1-4：thoughtsTokenCount 独立于 candidatesTokenCount，计费输出 = candidates + thoughts。
+        // prompt=100, candidates=20, thoughts=80 → billed output = 100。
+        val metadata =
+            JSONObject(
+                """
+                {
+                  "promptTokenCount": 100,
+                  "cachedContentTokenCount": 0,
+                  "candidatesTokenCount": 20,
+                  "thoughtsTokenCount": 80,
+                  "totalTokenCount": 200
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.gemini(metadata)!!
+        assertEquals(100L, snapshot.uncachedInputTokens)
+        assertEquals(0L, snapshot.cachedInputTokens)
+        assertEquals(20L, snapshot.outputTokens)
+        assertEquals(80L, snapshot.reasoningTokens)
+        assertEquals(false, snapshot.reasoningIncludedInOutput)
+    }
+
+    @Test
+    fun `gemini usage metadata without candidates fields stays fully billable`() {
+        // P1-4：prompt 被拦截时不返回 candidates，但 usageMetadata 仍然存在；provider
+        // 层必须把该 usage 上报，归一化后应得到完整可计费快照（输入照常计费，输出为真实 0）。
+        val metadata =
+            JSONObject(
+                """
+                {
+                  "promptTokenCount": 100,
+                  "cachedContentTokenCount": 0,
+                  "candidatesTokenCount": 0,
+                  "thoughtsTokenCount": 0
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.gemini(metadata)!!
+        assertEquals(100L, snapshot.uncachedInputTokens)
+        assertEquals(0L, snapshot.cachedInputTokens)
+        assertEquals(0L, snapshot.outputTokens)
+        assertEquals(0L, snapshot.reasoningTokens)
+        assertEquals(false, snapshot.reasoningIncludedInOutput)
+    }
+
+    @Test
+    fun `gemini without thoughts field keeps reasoning unknown and cached split unknown`() {
+        val metadata =
+            JSONObject(
+                """
+                {
+                  "promptTokenCount": 100,
+                  "candidatesTokenCount": 20
+                }
+                """.trimIndent()
+            )
+        val snapshot = ProviderUsageNormalizer.gemini(metadata)!!
+        assertNull(snapshot.reasoningTokens)
+        // cachedContentTokenCount 缺失：cached 拆分未知，不得把总输入确定为 uncached
+        assertNull(snapshot.cachedInputTokens)
+        assertNull(snapshot.uncachedInputTokens)
+        // 拆分未知时仍保留 provider 明确上报的总输入
+        assertEquals(100L, snapshot.totalInputTokens)
+        assertEquals(20L, snapshot.outputTokens)
+        assertFalse("Gemini 无独立缓存写入计费概念", snapshot.cacheWriteSeparateBilling)
+    }
+
+    // ==== 本地模型 ====
+
+    @Test
+    fun `local providers preserve long measured counts with explicit zero cache`() {
+        val inputTokens = Int.MAX_VALUE.toLong() + 1L
+        val outputTokens = Int.MAX_VALUE.toLong() + 2L
+        val snapshot = ProviderUsageNormalizer.local(inputTokens, outputTokens, ProviderUsageNormalizer.SOURCE_LLAMA)
+        assertEquals(inputTokens, snapshot.uncachedInputTokens)
+        assertEquals(0L, snapshot.cachedInputTokens)
+        assertEquals(0L, snapshot.cacheWriteTokens)
+        assertEquals(inputTokens, snapshot.totalInputTokens)
+        assertEquals(outputTokens, snapshot.outputTokens)
+        assertNull(snapshot.reasoningTokens)
+        assertNull(snapshot.reasoningIncludedInOutput)
+        assertFalse(snapshot.cacheWriteSeparateBilling)
+    }
+
+    // ==== ToolPkg ====
+
+    @Test
+    fun `toolpkg derives uncached from total minus cached`() {
+        val snapshot =
+            ProviderUsageNormalizer.toolPkg(
+                input = 1000,
+                cachedInput = 250,
+                output = 300,
+                completeSnapshot = true,
+            )
+        assertEquals(750L, snapshot.uncachedInputTokens)
+        assertEquals(250L, snapshot.cachedInputTokens)
+        assertEquals(1000L, snapshot.totalInputTokens)
+        assertNull(snapshot.cacheWriteTokens)
+        assertEquals(300L, snapshot.outputTokens)
+        assertFalse(snapshot.cacheWriteSeparateBilling)
+    }
+
+    @Test
+    fun `toolpkg cached greater than input keeps total but rejects split`() {
+        val snapshot = ProviderUsageNormalizer.toolPkg(100L, 250L, 20L, true)
+        assertEquals(100L, snapshot.totalInputTokens)
+        assertNull(snapshot.uncachedInputTokens)
+        assertNull(snapshot.cachedInputTokens)
+    }
+
+    @Test
+    fun `toolpkg negative input components become unknown independently`() {
+        val negativeInput = ProviderUsageNormalizer.toolPkg(-1L, 0L, 20L, true)
+        assertNull(negativeInput.totalInputTokens)
+        assertNull(negativeInput.uncachedInputTokens)
+        assertNull(negativeInput.cachedInputTokens)
+
+        val negativeCached = ProviderUsageNormalizer.toolPkg(100L, -1L, 20L, true)
+        assertEquals(100L, negativeCached.totalInputTokens)
+        assertNull(negativeCached.uncachedInputTokens)
+        assertNull(negativeCached.cachedInputTokens)
+    }
+
+    @Test
+    fun `toolpkg equal cached and input is a valid zero uncached boundary`() {
+        val snapshot = ProviderUsageNormalizer.toolPkg(100L, 100L, 20L, true)
+        assertEquals(0L, snapshot.uncachedInputTokens)
+        assertEquals(100L, snapshot.cachedInputTokens)
+        assertEquals(100L, snapshot.totalInputTokens)
+    }
+
+    // ==== 快照语义 ====
+
+    @Test
+    fun `negative provider values are rejected as unknown not recorded`() {
+        // 评审 P2-5：负值/异常数据必须拒绝为未知，绝不静默落负数
+        val negative =
+            ProviderUsageNormalizer.openAiChatCompletions(
+                JSONObject(
+                    """{"prompt_tokens": -100, "completion_tokens": 500}"""
+                )
+            )
+        // 负输入被拒 → uncached/total 未知；output 仍有效
+        assertNull(negative!!.uncachedInputTokens)
+        assertNull(negative.totalInputTokens)
+        assertEquals(500L, negative.outputTokens)
+
+        val negativeOutput =
+            ProviderUsageNormalizer.openAiChatCompletions(
+                JSONObject("""{"prompt_tokens": 100, "completion_tokens": -50}""")
+            )
+        assertEquals(100L, negativeOutput!!.totalInputTokens)
+        assertNull("negative output must be unknown", negativeOutput.outputTokens)
+    }
+
+    @Test
+    fun `values beyond int range are carried as long without overflow`() {
+        // 评审 P2-5：JSON 值超过 Int 范围时必须原样以 Long 承载
+        val huge =
+            ProviderUsageNormalizer.openAiChatCompletions(
+                JSONObject(
+                    """{"prompt_tokens": 3000000000, "completion_tokens": 2500000000}"""
+                )
+            )
+        // 拆分未知（无 prompt_tokens_details）时 uncached 必须保持未知（设计语义）；
+        // 总量与输出仍以 Long 原样承载，绝不 Int 溢出
+        assertNull(huge!!.uncachedInputTokens)
+        assertEquals(3000000000L, huge.totalInputTokens)
+        assertEquals(2500000000L, huge.outputTokens)
+    }
+
+    @Test
+    fun `snapshot hasKnownFields keeps explicit zero components and drops fully unknown`() {
+        // 完全无已知字段 → 无有效快照（normalizer 返回 null）
+        assertFalse(ProviderUsageSnapshot(source = "t").hasKnownFields())
+
+        // provider 明确全零也是有效快照：0 不得变成未知
+        val zeroOnly =
+            ProviderUsageSnapshot(
+uncachedInputTokens = 0L,
+cachedInputTokens = 0L,
+outputTokens = 0L,
+                source = "t",
+            )
+        assertTrue(zeroOnly.hasKnownFields())
+
+        val withValue =
+            ProviderUsageSnapshot(
+uncachedInputTokens = 0L,
+cachedInputTokens = 0L,
+cacheWriteTokens = 5L,
+outputTokens = 0L,
+                source = "t",
+            )
+        assertTrue(withValue.hasKnownFields())
+    }
+
+    // ==== 评审 P1-5：显式全零 payload 按字段存在判断，0L 是真实 0 而非未知 ====
+
+    @Test
+    fun `openai chat completions explicit zero payload is observed usage`() {
+        val snapshot =
+            ProviderUsageNormalizer.openAiChatCompletions(
+                JSONObject("""{"prompt_tokens": 0, "completion_tokens": 0}""")
+            )!!
+        assertEquals(0L, snapshot.totalInputTokens)
+        assertEquals(0L, snapshot.outputTokens)
+        assertNull("cached split absent stays unknown", snapshot.cachedInputTokens)
+    }
+
+    @Test
+    fun `openai responses explicit zero payload is observed usage`() {
+        val snapshot =
+            ProviderUsageNormalizer.openAiResponses(
+                JSONObject("""{"input_tokens": 0, "output_tokens": 0}""")
+            )!!
+        assertEquals(0L, snapshot.totalInputTokens)
+        assertEquals(0L, snapshot.outputTokens)
+    }
+
+    @Test
+    fun `anthropic explicit zero payload is observed usage`() {
+        val snapshot =
+            ProviderUsageNormalizer.anthropic(
+                JSONObject("""{"input_tokens": 0, "output_tokens": 0}"""),
+                completeSnapshot = true,
+            )!!
+        assertEquals(0L, snapshot.uncachedInputTokens)
+        assertEquals(0L, snapshot.outputTokens)
+    }
+
+    @Test
+    fun `gemini explicit zero payload is observed usage`() {
+        val snapshot =
+            ProviderUsageNormalizer.gemini(
+                JSONObject(
+                    """{"promptTokenCount": 0, "cachedContentTokenCount": 0, "candidatesTokenCount": 0}"""
+                )
+            )!!
+        assertEquals(0L, snapshot.totalInputTokens)
+        assertEquals(0L, snapshot.cachedInputTokens)
+        assertEquals(0L, snapshot.outputTokens)
+    }
+
+    @Test
+    fun `toolpkg explicit zero payload is observed usage`() {
+        val snapshot =
+            ProviderUsageNormalizer.toolPkg(
+                input = 0L,
+                cachedInput = 0L,
+                output = 0L,
+                completeSnapshot = true,
+            )
+        assertEquals(0L, snapshot.totalInputTokens)
+        assertEquals(0L, snapshot.cachedInputTokens)
+        assertEquals(0L, snapshot.outputTokens)
+        assertEquals(0L, snapshot.uncachedInputTokens)
+    }
+
+    @Test
+    fun `toolpkg missing fields stay unknown and never inherit counters`() {
+        val snapshot =
+            ProviderUsageNormalizer.toolPkg(
+                input = null,
+                cachedInput = null,
+                output = 10L,
+                completeSnapshot = false,
+            )
+        assertNull(snapshot.uncachedInputTokens)
+        assertNull(snapshot.totalInputTokens)
+        assertEquals(10L, snapshot.outputTokens)
+    }
+}

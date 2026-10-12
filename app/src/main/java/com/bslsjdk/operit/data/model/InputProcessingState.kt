@@ -1,1 +1,40 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqIFVJ54q25oCB77yM55So5LqO5pi+56S6QUnmnI3liqHlnKjlgZrku4DkuYggKi8Kc2VhbGVkIGNsYXNzIElucHV0UHJvY2Vzc2luZ1N0YXRlIHsKICAgIC8qKiDnqbrpl7LnirbmgIEgKi8KICAgIG9iamVjdCBJZGxlIDogSW5wdXRQcm9jZXNzaW5nU3RhdGUoKQoKICAgIC8qKiDmraPlnKjlpITnkIbvvIzkvovlpoLlh4blpIfor7fmsYLmiJbop6PmnpDlk43lupQgKi8KICAgIGRhdGEgY2xhc3MgUHJvY2Vzc2luZyh2YWwgbWVzc2FnZTogU3RyaW5nKSA6IElucHV0UHJvY2Vzc2luZ1N0YXRlKCkKCiAgICAvKiog5q2j5Zyo6L+e5o6l5YiwQUnmnI3liqEgKi8KICAgIGRhdGEgY2xhc3MgQ29ubmVjdGluZyh2YWwgbWVzc2FnZTogU3RyaW5nKSA6IElucHV0UHJvY2Vzc2luZ1N0YXRlKCkKCiAgICAvKiog5q2j5Zyo5LuOQUnmnI3liqHmjqXmlLbmlbDmja4gKi8KICAgIGRhdGEgY2xhc3MgUmVjZWl2aW5nKHZhbCBtZXNzYWdlOiBTdHJpbmcpIDogSW5wdXRQcm9jZXNzaW5nU3RhdGUoKQoKICAgIC8qKiDmlrDlop7vvJrmraPlnKjmiafooYzlt6XlhbcgKi8KICAgIGRhdGEgY2xhc3MgRXhlY3V0aW5nVG9vbCh2YWwgdG9vbE5hbWU6IFN0cmluZykgOiBJbnB1dFByb2Nlc3NpbmdTdGF0ZSgpCgogICAgZGF0YSBjbGFzcyBUb29sUHJvZ3Jlc3MoCiAgICAgICAgdmFsIHRvb2xOYW1lOiBTdHJpbmcsCiAgICAgICAgdmFsIHByb2dyZXNzOiBGbG9hdCwKICAgICAgICB2YWwgbWVzc2FnZTogU3RyaW5nID0gIiIKICAgICkgOiBJbnB1dFByb2Nlc3NpbmdTdGF0ZSgpCgogICAgLyoqIOaWsOWinu+8muato+WcqOWkhOeQhuW3peWFt+e7k+aenCAqLwogICAgZGF0YSBjbGFzcyBQcm9jZXNzaW5nVG9vbFJlc3VsdCh2YWwgdG9vbE5hbWU6IFN0cmluZykgOiBJbnB1dFByb2Nlc3NpbmdTdGF0ZSgpCgogICAgLyoqIOaWsOWinu+8muato+WcqOaAu+e7k+iusOW/hiAqLwogICAgZGF0YSBjbGFzcyBTdW1tYXJpemluZyh2YWwgbWVzc2FnZTogU3RyaW5nKSA6IElucHV0UHJvY2Vzc2luZ1N0YXRlKCkKCiAgICAvKiog5paw5aKe77ya5q2j5Zyo5omn6KGM6K6h5YiSICovCiAgICBkYXRhIGNsYXNzIEV4ZWN1dGluZ1BsYW4odmFsIG1lc3NhZ2U6IFN0cmluZykgOiBJbnB1dFByb2Nlc3NpbmdTdGF0ZSgpCgogICAgLyoqIOWkhOeQhuWujOaIkCAqLwogICAgb2JqZWN0IENvbXBsZXRlZCA6IElucHV0UHJvY2Vzc2luZ1N0YXRlKCkKCiAgICAvKiog5Y+R55Sf6ZSZ6K+vICovCiAgICBkYXRhIGNsYXNzIEVycm9yKHZhbCBtZXNzYWdlOiBTdHJpbmcpIDogSW5wdXRQcm9jZXNzaW5nU3RhdGUoKQp9IA==
+package com.bslsjdk.operit.data.model
+
+/** UI状态，用于显示AI服务在做什么 */
+sealed class InputProcessingState {
+    /** 空闲状态 */
+    object Idle : InputProcessingState()
+
+    /** 正在处理，例如准备请求或解析响应 */
+    data class Processing(val message: String) : InputProcessingState()
+
+    /** 正在连接到AI服务 */
+    data class Connecting(val message: String) : InputProcessingState()
+
+    /** 正在从AI服务接收数据 */
+    data class Receiving(val message: String) : InputProcessingState()
+
+    /** 新增：正在执行工具 */
+    data class ExecutingTool(val toolName: String) : InputProcessingState()
+
+    data class ToolProgress(
+        val toolName: String,
+        val progress: Float,
+        val message: String = ""
+    ) : InputProcessingState()
+
+    /** 新增：正在处理工具结果 */
+    data class ProcessingToolResult(val toolName: String) : InputProcessingState()
+
+    /** 新增：正在总结记忆 */
+    data class Summarizing(val message: String) : InputProcessingState()
+
+    /** 新增：正在执行计划 */
+    data class ExecutingPlan(val message: String) : InputProcessingState()
+
+    /** 处理完成 */
+    object Completed : InputProcessingState()
+
+    /** 发生错误 */
+    data class Error(val message: String) : InputProcessingState()
+} 

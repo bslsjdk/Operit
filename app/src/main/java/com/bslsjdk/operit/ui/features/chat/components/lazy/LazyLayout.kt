@@ -1,1 +1,173 @@
-LyoKICogQ29weXJpZ2h0IDIwMjEgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24ubXV0YWJsZU9iamVjdEludE1hcE9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uRXhwZXJpbWVudGFsRm91bmRhdGlvbkFwaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5EaXNwb3NhYmxlRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlclVwZGF0ZWRTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuTWVhc3VyZVJlc3VsdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuU3ViY29tcG9zZUxheW91dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuU3ViY29tcG9zZUxheW91dFN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5TdWJjb21wb3NlU2xvdFJldXNlUG9saWN5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuQ29uc3RyYWludHMKCi8qKgogKiBBIGxheW91dCB0aGF0IG9ubHkgY29tcG9zZXMgYW5kIGxheXMgb3V0IGN1cnJlbnRseSBuZWVkZWQgaXRlbXMuIENhbiBiZSB1c2VkIHRvIGJ1aWxkIGVmZmljaWVudAogKiBjb21wbGV4IGxheW91dHMuIEN1cnJlbnRseSBuZWVkZWQgaXRlbXMgZGVwZW5kIG9uIHRoZSBMYXp5TGF5b3V0IGltcGxlbWVudGF0aW9uLCB0aGF0IGlzLCBvbiBob3cKICogdGhlIFtMYXp5TGF5b3V0TWVhc3VyZVBvbGljeV0gaXMgaW1wbGVtZW50ZWQuIENvbXBvc2luZyBpdGVtcyBkdXJpbmcgdGhlIG1lYXN1cmUgcGFzcyBpcyB0aGUKICogc2lnbmFsIHRvIGluZGljYXRlIHdoaWNoIGl0ZW1zIGFyZSAiY3VycmVudGx5IG5lZWRlZCIuIEluIGdlbmVyYWwsIG9ubHkgdmlzaWJsZSBpdGVtcyBhcmUKICogY29uc2lkZXJlZCBuZWVkZWQsIGJ1dCBhZGRpdGlvbmFsIGl0ZW1zIG1heSBiZSByZXF1ZXN0ZWQgYnkgY2FsbGluZwogKiBbTGF6eUxheW91dE1lYXN1cmVTY29wZS5jb21wb3NlXS4KICoKICogVGhpcyBpcyBhIGxvdyBsZXZlbCBBUEkgZm9yIGJ1aWxkaW5nIGVmZmljaWVudCBjb21wbGV4IGxheW91dHMsIGZvciBhIHJlYWR5LXRvLXVzZSBsaW5lYXJseQogKiBzY3JvbGxhYmxlIGxhenkgbGF5b3V0IGltcGxlbWVudGF0aW9uIHNlZSBbYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eUNvbHVtbl0gYW5kCiAqIFthbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5MYXp5Um93XS4gRm9yIGEgZ3JpZC1saWtlIHNjcm9sbGFibGUgbGF6eSBsYXlvdXQsIHNlZQogKiBbYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuZ3JpZC5MYXp5VmVydGljYWxHcmlkXSBhbmQKICogW2FuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LmdyaWQuTGF6eUhvcml6b250YWxHcmlkXS4gRm9yIGEgcGFnZXItbGlrZSBsYXp5IGxheW91dCwgc2VlCiAqIFthbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucGFnZXIuVmVydGljYWxQYWdlcl0gYW5kCiAqIFthbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucGFnZXIuSG9yaXpvbnRhbFBhZ2VyXQogKgogKiBGb3IgYSBiYXNpYyBsYXp5IGxheW91dCBzYW1wbGUsIHNlZToKICoKICogQHNhbXBsZSBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2FtcGxlcy5MYXp5TGF5b3V0U2FtcGxlCiAqCiAqIEZvciBhIHNjcm9sbGFibGUgbGF6eSBsYXlvdXQsIHNlZToKICoKICogQHNhbXBsZSBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2FtcGxlcy5MYXp5TGF5b3V0U2Nyb2xsYWJsZVNhbXBsZQogKiBAcGFyYW0gaXRlbVByb3ZpZGVyIGxhbWJkYSBwcm9kdWNpbmcgYW4gaXRlbSBwcm92aWRlciBjb250YWluaW5nIGFsbCB0aGUgbmVlZGVkIGluZm8gYWJvdXQgdGhlCiAqICAgaXRlbXMgd2hpY2ggY291bGQgYmUgdXNlZCB0byBjb21wb3NlIGFuZCBtZWFzdXJlIGl0ZW1zIGFzIHBhcnQgb2YgW21lYXN1cmVQb2xpY3ldLgogKiBAcGFyYW0gbW9kaWZpZXIgdG8gYXBwbHkgb24gdGhlIGxheW91dAogKiBAcGFyYW0gcHJlZmV0Y2hTdGF0ZSBhbGxvd3MgdG8gc2NoZWR1bGUgaXRlbXMgZm9yIHByZWZldGNoaW5nCiAqIEBwYXJhbSBtZWFzdXJlUG9saWN5IE1lYXN1cmUgcG9saWN5IHdoaWNoIGFsbG93cyB0byBvbmx5IGNvbXBvc2UgYW5kIG1lYXN1cmUgbmVlZGVkIGl0ZW1zLgogKi8KQERlcHJlY2F0ZWQoIlBsZWFzZSB1c2Ugb3ZlcmxvYWQgd2l0aCBMYXp5TGF5b3V0TWVhc3VyZVBvbGljeSIsIGxldmVsID0gRGVwcmVjYXRpb25MZXZlbC5ISURERU4pCkBFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCkBDb21wb3NhYmxlCmZ1biBMYXp5TGF5b3V0KAogICAgaXRlbVByb3ZpZGVyOiAoKSAtPiBMYXp5TGF5b3V0SXRlbVByb3ZpZGVyLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICBwcmVmZXRjaFN0YXRlOiBMYXp5TGF5b3V0UHJlZmV0Y2hTdGF0ZT8gPSBudWxsLAogICAgbWVhc3VyZVBvbGljeTogTGF6eUxheW91dE1lYXN1cmVTY29wZS4oQ29uc3RyYWludHMpIC0+IE1lYXN1cmVSZXN1bHQsCikgPSBMYXp5TGF5b3V0KGl0ZW1Qcm92aWRlciwgbW9kaWZpZXIsIHByZWZldGNoU3RhdGUsIExhenlMYXlvdXRNZWFzdXJlUG9saWN5KG1lYXN1cmVQb2xpY3kpKQoKLyoqCiAqIEEgbGF5b3V0IHRoYXQgb25seSBjb21wb3NlcyBhbmQgbGF5cyBvdXQgY3VycmVudGx5IG5lZWRlZCBpdGVtcy4gQ2FuIGJlIHVzZWQgdG8gYnVpbGQgZWZmaWNpZW50CiAqIGNvbXBsZXggbGF5b3V0cy4gQ3VycmVudGx5IG5lZWRlZCBpdGVtcyBkZXBlbmQgb24gdGhlIExhenlMYXlvdXQgaW1wbGVtZW50YXRpb24sIHRoYXQgaXMsIG9uIGhvdwogKiB0aGUgW0xhenlMYXlvdXRNZWFzdXJlUG9saWN5XSBpcyBpbXBsZW1lbnRlZC4gQ29tcG9zaW5nIGl0ZW1zIGR1cmluZyB0aGUgbWVhc3VyZSBwYXNzIGlzIHRoZQogKiBzaWduYWwgdG8gaW5kaWNhdGUgd2hpY2ggaXRlbXMgYXJlICJjdXJyZW50bHkgbmVlZGVkIi4gSW4gZ2VuZXJhbCwgb25seSB2aXNpYmxlIGl0ZW1zIGFyZQogKiBjb25zaWRlcmVkIG5lZWRlZCwgYnV0IGFkZGl0aW9uYWwgaXRlbXMgbWF5IGJlIHJlcXVlc3RlZCBieSBjYWxsaW5nCiAqIFtMYXp5TGF5b3V0TWVhc3VyZVNjb3BlLmNvbXBvc2VdLgogKgogKiBUaGlzIGlzIGEgbG93IGxldmVsIEFQSSBmb3IgYnVpbGRpbmcgZWZmaWNpZW50IGNvbXBsZXggbGF5b3V0cywgZm9yIGEgcmVhZHktdG8tdXNlIGxpbmVhcmx5CiAqIHNjcm9sbGFibGUgbGF6eSBsYXlvdXQgaW1wbGVtZW50YXRpb24gc2VlIFthbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5MYXp5Q29sdW1uXSBhbmQKICogW2FuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlSb3ddLiBGb3IgYSBncmlkLWxpa2Ugc2Nyb2xsYWJsZSBsYXp5IGxheW91dCwgc2VlCiAqIFthbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5ncmlkLkxhenlWZXJ0aWNhbEdyaWRdIGFuZAogKiBbYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuZ3JpZC5MYXp5SG9yaXpvbnRhbEdyaWRdLiBGb3IgYSBwYWdlci1saWtlIGxhenkgbGF5b3V0LCBzZWUKICogW2FuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5wYWdlci5WZXJ0aWNhbFBhZ2VyXSBhbmQKICogW2FuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5wYWdlci5Ib3Jpem9udGFsUGFnZXJdCiAqCiAqIEZvciBhIGJhc2ljIGxhenkgbGF5b3V0IHNhbXBsZSwgc2VlOgogKgogKiBAc2FtcGxlIGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zYW1wbGVzLkxhenlMYXlvdXRTYW1wbGUKICoKICogRm9yIGEgc2Nyb2xsYWJsZSBsYXp5IGxheW91dCwgc2VlOgogKgogKiBAc2FtcGxlIGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zYW1wbGVzLkxhenlMYXlvdXRTY3JvbGxhYmxlU2FtcGxlCiAqIEBwYXJhbSBpdGVtUHJvdmlkZXIgbGFtYmRhIHByb2R1Y2luZyBhbiBpdGVtIHByb3ZpZGVyIGNvbnRhaW5pbmcgYWxsIHRoZSBuZWVkZWQgaW5mbyBhYm91dCB0aGUKICogICBpdGVtcyB3aGljaCBjb3VsZCBiZSB1c2VkIHRvIGNvbXBvc2UgYW5kIG1lYXN1cmUgaXRlbXMgYXMgcGFydCBvZiBbbWVhc3VyZVBvbGljeV0uIFRoaXMgaXMgdGhlCiAqICAgYnJpZGdlIGJldHdlZW4geW91ciBpdGVtIGRhdGEgc291cmNlIGFuZCB0aGUgTGF6eUxheW91dCBhbmQgaXMgaW1wbGVtZW50ZWQgYXMgYSBsYW1iZGEgdG8KICogICBwcm9tb3RlIGEgcGVyZm9ybWFudCBpbXBsZW1lbnRhdGlvbi4gU3RhdGUgYmFja2VkIGltcGxlbWVudGF0aW9ucyBvZiBbTGF6eUxheW91dEl0ZW1Qcm92aWRlcl0KICogICBhcmUgc3VwcG9ydGVkLCB0aG91Z2ggaXQgaXMgZW5jb3VyYWdlZCB0byBpbXBsZW1lbnQgdGhpcyBhcyBhbiBpbW11dGFibGUgZW50aXR5IHRoYXQgd2lsbAogKiAgIHJldHVybiBhIG5ldyBpbnN0YW5jZSBpbiBjYXNlIHRoZSBkYXRhc2V0IHVwZGF0ZXMuCiAqIEBwYXJhbSBtb2RpZmllciB0byBhcHBseSBvbiB0aGUgbGF5b3V0CiAqIEBwYXJhbSBwcmVmZXRjaFN0YXRlIGFsbG93cyB0byBzY2hlZHVsZSBpdGVtcyBmb3IgcHJlZmV0Y2hpbmcuIFNlZSBbTGF6eUxheW91dFByZWZldGNoU3RhdGVdIG9uCiAqICAgaG93IHRvIGNvbnRyb2wgcHJlZmV0Y2hpbmcuIFBhc3NpbmcgbnVsbCB3aWxsIGRpc2FibGUgcHJlZmV0Y2hpbmcuCiAqIEBwYXJhbSBtZWFzdXJlUG9saWN5IE1lYXN1cmUgcG9saWN5IHdoaWNoIGFsbG93cyB0byBvbmx5IGNvbXBvc2UgYW5kIG1lYXN1cmUgbmVlZGVkIGl0ZW1zLgogKi8KQE9wdEluKEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gTGF6eUxheW91dCgKICAgIGl0ZW1Qcm92aWRlcjogKCkgLT4gTGF6eUxheW91dEl0ZW1Qcm92aWRlciwKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAogICAgcHJlZmV0Y2hTdGF0ZTogTGF6eUxheW91dFByZWZldGNoU3RhdGU/ID0gbnVsbCwKICAgIG1lYXN1cmVQb2xpY3k6IExhenlMYXlvdXRNZWFzdXJlUG9saWN5LAopIHsKICAgIHZhbCBjdXJyZW50SXRlbVByb3ZpZGVyID0gcmVtZW1iZXJVcGRhdGVkU3RhdGUoaXRlbVByb3ZpZGVyKQoKICAgIExhenlTYXZlYWJsZVN0YXRlSG9sZGVyUHJvdmlkZXIgeyBzYXZlYWJsZVN0YXRlSG9sZGVyIC0+CiAgICAgICAgdmFsIGl0ZW1Db250ZW50RmFjdG9yeSA9IHJlbWVtYmVyIHsKICAgICAgICAgICAgTGF6eUxheW91dEl0ZW1Db250ZW50RmFjdG9yeShzYXZlYWJsZVN0YXRlSG9sZGVyKSB7IGN1cnJlbnRJdGVtUHJvdmlkZXIudmFsdWUoKSB9CiAgICAgICAgfQogICAgICAgIHZhbCBzdWJjb21wb3NlTGF5b3V0U3RhdGUgPSByZW1lbWJlciB7CiAgICAgICAgICAgIFN1YmNvbXBvc2VMYXlvdXRTdGF0ZShMYXp5TGF5b3V0SXRlbVJldXNlUG9saWN5KGl0ZW1Db250ZW50RmFjdG9yeSkpCiAgICAgICAgfQogICAgICAgIGlmIChwcmVmZXRjaFN0YXRlICE9IG51bGwpIHsKICAgICAgICAgICAgdmFsIGV4ZWN1dG9yID0gcHJlZmV0Y2hTdGF0ZS5wcmVmZXRjaFNjaGVkdWxlciA/OiByZW1lbWJlckRlZmF1bHRQcmVmZXRjaFNjaGVkdWxlcigpCiAgICAgICAgICAgIERpc3Bvc2FibGVFZmZlY3QocHJlZmV0Y2hTdGF0ZSwgaXRlbUNvbnRlbnRGYWN0b3J5LCBzdWJjb21wb3NlTGF5b3V0U3RhdGUsIGV4ZWN1dG9yKSB7CiAgICAgICAgICAgICAgICBwcmVmZXRjaFN0YXRlLnByZWZldGNoSGFuZGxlUHJvdmlkZXIgPQogICAgICAgICAgICAgICAgICAgIFByZWZldGNoSGFuZGxlUHJvdmlkZXIoaXRlbUNvbnRlbnRGYWN0b3J5LCBzdWJjb21wb3NlTGF5b3V0U3RhdGUsIGV4ZWN1dG9yKQogICAgICAgICAgICAgICAgb25EaXNwb3NlIHsKICAgICAgICAgICAgICAgICAgICAvLyBjbGVhbiB1cCBwcmVmZXRjaCBoYW5kbGUgcHJvdmlkZXIKICAgICAgICAgICAgICAgICAgICBwcmVmZXRjaFN0YXRlLnByZWZldGNoSGFuZGxlUHJvdmlkZXI/Lm9uRGlzcG9zZWQoKQogICAgICAgICAgICAgICAgICAgIHByZWZldGNoU3RhdGUucHJlZmV0Y2hIYW5kbGVQcm92aWRlciA9IG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgU3ViY29tcG9zZUxheW91dCgKICAgICAgICAgICAgc3ViY29tcG9zZUxheW91dFN0YXRlLAogICAgICAgICAgICBtb2RpZmllci50cmF2ZXJzYWJsZVByZWZldGNoU3RhdGUocHJlZmV0Y2hTdGF0ZSksCiAgICAgICAgICAgIHJlbWVtYmVyKGl0ZW1Db250ZW50RmFjdG9yeSwgbWVhc3VyZVBvbGljeSkgewogICAgICAgICAgICAgICAgeyBjb25zdHJhaW50cyAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBzY29wZSA9IExhenlMYXlvdXRNZWFzdXJlU2NvcGVJbXBsKGl0ZW1Db250ZW50RmFjdG9yeSwgdGhpcykKICAgICAgICAgICAgICAgICAgICB3aXRoKG1lYXN1cmVQb2xpY3kpIHsgc2NvcGUubWVhc3VyZShjb25zdHJhaW50cykgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICkKICAgIH0KfQoKcHJpdmF0ZSBjbGFzcyBMYXp5TGF5b3V0SXRlbVJldXNlUG9saWN5KHByaXZhdGUgdmFsIGZhY3Rvcnk6IExhenlMYXlvdXRJdGVtQ29udGVudEZhY3RvcnkpIDoKICAgIFN1YmNvbXBvc2VTbG90UmV1c2VQb2xpY3kgewogICAgcHJpdmF0ZSB2YWwgY291bnRQZXJUeXBlID0gbXV0YWJsZU9iamVjdEludE1hcE9mPEFueT8+KCkKCiAgICBvdmVycmlkZSBmdW4gZ2V0U2xvdHNUb1JldGFpbihzbG90SWRzOiBTdWJjb21wb3NlU2xvdFJldXNlUG9saWN5LlNsb3RJZHNTZXQpIHsKICAgICAgICBjb3VudFBlclR5cGUuY2xlYXIoKQogICAgICAgIHNsb3RJZHMuZmFzdEZvckVhY2ggeyBzbG90SWQgLT4KICAgICAgICAgICAgdmFsIHR5cGUgPSBmYWN0b3J5LmdldENvbnRlbnRUeXBlKHNsb3RJZCkKICAgICAgICAgICAgdmFsIGN1cnJlbnRDb3VudCA9IGNvdW50UGVyVHlwZS5nZXRPckRlZmF1bHQodHlwZSwgMCkKICAgICAgICAgICAgaWYgKGN1cnJlbnRDb3VudCA9PSBNYXhJdGVtc1RvUmV0YWluRm9yUmV1c2UpIHsKICAgICAgICAgICAgICAgIHNsb3RJZHMucmVtb3ZlKHNsb3RJZCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvdW50UGVyVHlwZVt0eXBlXSA9IGN1cnJlbnRDb3VudCArIDEKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gYXJlQ29tcGF0aWJsZShzbG90SWQ6IEFueT8sIHJldXNhYmxlU2xvdElkOiBBbnk/KTogQm9vbGVhbiA9CiAgICAgICAgZmFjdG9yeS5nZXRDb250ZW50VHlwZShzbG90SWQpID09IGZhY3RvcnkuZ2V0Q29udGVudFR5cGUocmV1c2FibGVTbG90SWQpCn0KCi8qKgogKiBXZSBjdXJyZW50bHkgdXNlIHRoZSBzYW1lIG51bWJlciBvZiBpdGVtcyB0byByZXVzZSAocmVjeWNsZSkgaXRlbXMgYXMgUmVjeWNsZXJWaWV3IGRvZXM6IDUKICogKFJlY3ljbGVkVmlld1Bvb2wuREVGQVVMVF9NQVhfU0NSQVApICsgMiAoUmVjeWNsZXIuREVGQVVMVF9DQUNIRV9TSVpFKQogKi8KcHJpdmF0ZSBjb25zdCB2YWwgTWF4SXRlbXNUb1JldGFpbkZvclJldXNlID0gNwo=
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.collection.mutableObjectIntMapOf
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberUpdatedState
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.MeasureResult
+import androidx.compose.ui.layout.SubcomposeLayout
+import androidx.compose.ui.layout.SubcomposeLayoutState
+import androidx.compose.ui.layout.SubcomposeSlotReusePolicy
+import androidx.compose.ui.unit.Constraints
+
+/**
+ * A layout that only composes and lays out currently needed items. Can be used to build efficient
+ * complex layouts. Currently needed items depend on the LazyLayout implementation, that is, on how
+ * the [LazyLayoutMeasurePolicy] is implemented. Composing items during the measure pass is the
+ * signal to indicate which items are "currently needed". In general, only visible items are
+ * considered needed, but additional items may be requested by calling
+ * [LazyLayoutMeasureScope.compose].
+ *
+ * This is a low level API for building efficient complex layouts, for a ready-to-use linearly
+ * scrollable lazy layout implementation see [androidx.compose.foundation.lazy.LazyColumn] and
+ * [androidx.compose.foundation.lazy.LazyRow]. For a grid-like scrollable lazy layout, see
+ * [androidx.compose.foundation.lazy.grid.LazyVerticalGrid] and
+ * [androidx.compose.foundation.lazy.grid.LazyHorizontalGrid]. For a pager-like lazy layout, see
+ * [androidx.compose.foundation.pager.VerticalPager] and
+ * [androidx.compose.foundation.pager.HorizontalPager]
+ *
+ * For a basic lazy layout sample, see:
+ *
+ * @sample androidx.compose.foundation.samples.LazyLayoutSample
+ *
+ * For a scrollable lazy layout, see:
+ *
+ * @sample androidx.compose.foundation.samples.LazyLayoutScrollableSample
+ * @param itemProvider lambda producing an item provider containing all the needed info about the
+ *   items which could be used to compose and measure items as part of [measurePolicy].
+ * @param modifier to apply on the layout
+ * @param prefetchState allows to schedule items for prefetching
+ * @param measurePolicy Measure policy which allows to only compose and measure needed items.
+ */
+@Deprecated("Please use overload with LazyLayoutMeasurePolicy", level = DeprecationLevel.HIDDEN)
+@ExperimentalFoundationApi
+@Composable
+fun LazyLayout(
+    itemProvider: () -> LazyLayoutItemProvider,
+    modifier: Modifier = Modifier,
+    prefetchState: LazyLayoutPrefetchState? = null,
+    measurePolicy: LazyLayoutMeasureScope.(Constraints) -> MeasureResult,
+) = LazyLayout(itemProvider, modifier, prefetchState, LazyLayoutMeasurePolicy(measurePolicy))
+
+/**
+ * A layout that only composes and lays out currently needed items. Can be used to build efficient
+ * complex layouts. Currently needed items depend on the LazyLayout implementation, that is, on how
+ * the [LazyLayoutMeasurePolicy] is implemented. Composing items during the measure pass is the
+ * signal to indicate which items are "currently needed". In general, only visible items are
+ * considered needed, but additional items may be requested by calling
+ * [LazyLayoutMeasureScope.compose].
+ *
+ * This is a low level API for building efficient complex layouts, for a ready-to-use linearly
+ * scrollable lazy layout implementation see [androidx.compose.foundation.lazy.LazyColumn] and
+ * [androidx.compose.foundation.lazy.LazyRow]. For a grid-like scrollable lazy layout, see
+ * [androidx.compose.foundation.lazy.grid.LazyVerticalGrid] and
+ * [androidx.compose.foundation.lazy.grid.LazyHorizontalGrid]. For a pager-like lazy layout, see
+ * [androidx.compose.foundation.pager.VerticalPager] and
+ * [androidx.compose.foundation.pager.HorizontalPager]
+ *
+ * For a basic lazy layout sample, see:
+ *
+ * @sample androidx.compose.foundation.samples.LazyLayoutSample
+ *
+ * For a scrollable lazy layout, see:
+ *
+ * @sample androidx.compose.foundation.samples.LazyLayoutScrollableSample
+ * @param itemProvider lambda producing an item provider containing all the needed info about the
+ *   items which could be used to compose and measure items as part of [measurePolicy]. This is the
+ *   bridge between your item data source and the LazyLayout and is implemented as a lambda to
+ *   promote a performant implementation. State backed implementations of [LazyLayoutItemProvider]
+ *   are supported, though it is encouraged to implement this as an immutable entity that will
+ *   return a new instance in case the dataset updates.
+ * @param modifier to apply on the layout
+ * @param prefetchState allows to schedule items for prefetching. See [LazyLayoutPrefetchState] on
+ *   how to control prefetching. Passing null will disable prefetching.
+ * @param measurePolicy Measure policy which allows to only compose and measure needed items.
+ */
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+fun LazyLayout(
+    itemProvider: () -> LazyLayoutItemProvider,
+    modifier: Modifier = Modifier,
+    prefetchState: LazyLayoutPrefetchState? = null,
+    measurePolicy: LazyLayoutMeasurePolicy,
+) {
+    val currentItemProvider = rememberUpdatedState(itemProvider)
+
+    LazySaveableStateHolderProvider { saveableStateHolder ->
+        val itemContentFactory = remember {
+            LazyLayoutItemContentFactory(saveableStateHolder) { currentItemProvider.value() }
+        }
+        val subcomposeLayoutState = remember {
+            SubcomposeLayoutState(LazyLayoutItemReusePolicy(itemContentFactory))
+        }
+        if (prefetchState != null) {
+            val executor = prefetchState.prefetchScheduler ?: rememberDefaultPrefetchScheduler()
+            DisposableEffect(prefetchState, itemContentFactory, subcomposeLayoutState, executor) {
+                prefetchState.prefetchHandleProvider =
+                    PrefetchHandleProvider(itemContentFactory, subcomposeLayoutState, executor)
+                onDispose {
+                    // clean up prefetch handle provider
+                    prefetchState.prefetchHandleProvider?.onDisposed()
+                    prefetchState.prefetchHandleProvider = null
+                }
+            }
+        }
+
+        SubcomposeLayout(
+            subcomposeLayoutState,
+            modifier.traversablePrefetchState(prefetchState),
+            remember(itemContentFactory, measurePolicy) {
+                { constraints ->
+                    val scope = LazyLayoutMeasureScopeImpl(itemContentFactory, this)
+                    with(measurePolicy) { scope.measure(constraints) }
+                }
+            },
+        )
+    }
+}
+
+private class LazyLayoutItemReusePolicy(private val factory: LazyLayoutItemContentFactory) :
+    SubcomposeSlotReusePolicy {
+    private val countPerType = mutableObjectIntMapOf<Any?>()
+
+    override fun getSlotsToRetain(slotIds: SubcomposeSlotReusePolicy.SlotIdsSet) {
+        countPerType.clear()
+        slotIds.fastForEach { slotId ->
+            val type = factory.getContentType(slotId)
+            val currentCount = countPerType.getOrDefault(type, 0)
+            if (currentCount == MaxItemsToRetainForReuse) {
+                slotIds.remove(slotId)
+            } else {
+                countPerType[type] = currentCount + 1
+            }
+        }
+    }
+
+    override fun areCompatible(slotId: Any?, reusableSlotId: Any?): Boolean =
+        factory.getContentType(slotId) == factory.getContentType(reusableSlotId)
+}
+
+/**
+ * We currently use the same number of items to reuse (recycle) items as RecyclerView does: 5
+ * (RecycledViewPool.DEFAULT_MAX_SCRAP) + 2 (Recycler.DEFAULT_CACHE_SIZE)
+ */
+private const val MaxItemsToRetainForReuse = 7

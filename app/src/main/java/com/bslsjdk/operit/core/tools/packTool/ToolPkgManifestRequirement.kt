@@ -1,1 +1,84 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxOYW1lCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCgovKioKICogQSBwYWNrYWdlIGRlcGVuZGVuY3kgZGVjbGFyZWQgYnkgYSBUb29sUGtnIG1hbmlmZXN0LgogKgogKiBUaGUgZGVwZW5kZW5jeSBpdHNlbGYgYWxzbyBkZXRlcm1pbmVzIGxvYWQgb3JkZXI6IHRoZSByZXF1aXJlZCBwYWNrYWdlIGlzCiAqIGxvYWRlZCBiZWZvcmUgdGhlIHBhY2thZ2UgdGhhdCBkZWNsYXJlcyB0aGlzIGVudHJ5LgogKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFRvb2xQa2dNYW5pZmVzdFJlcXVpcmVtZW50KAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZywKICAgIEBTZXJpYWxOYW1lKCJtaW5fdmVyc2lvbiIpIHZhbCBtaW5WZXJzaW9uOiBTdHJpbmc/ID0gbnVsbCwKICAgIEBTZXJpYWxOYW1lKCJtYXhfdmVyc2lvbiIpIHZhbCBtYXhWZXJzaW9uOiBTdHJpbmc/ID0gbnVsbAopIHsKICAgIGludGVybmFsIGZ1biB2ZXJzaW9uQ29uc3RyYWludFRleHQoKTogU3RyaW5nPyB7CiAgICAgICAgcmV0dXJuIHdoZW4gewogICAgICAgICAgICBtaW5WZXJzaW9uICE9IG51bGwgJiYgbWF4VmVyc2lvbiAhPSBudWxsIC0+ICIkbWluVmVyc2lvbiAtICRtYXhWZXJzaW9uIgogICAgICAgICAgICBtaW5WZXJzaW9uICE9IG51bGwgLT4gIj49ICRtaW5WZXJzaW9uIgogICAgICAgICAgICBtYXhWZXJzaW9uICE9IG51bGwgLT4gIjw9ICRtYXhWZXJzaW9uIgogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICB9CgogICAgaW50ZXJuYWwgZnVuIHRhcmdldFZlcnNpb25GYWlsdXJlKHRhcmdldFZlcnNpb246IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIGlmIChtaW5WZXJzaW9uID09IG51bGwgJiYgbWF4VmVyc2lvbiA9PSBudWxsKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgbm9ybWFsaXplZFRhcmdldFZlcnNpb24gPSB0YXJnZXRWZXJzaW9uLnRyaW0oKQogICAgICAgIGlmIChub3JtYWxpemVkVGFyZ2V0VmVyc2lvbi5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuICJ0YXJnZXQgcGFja2FnZSAnJGlkJyBkb2VzIG5vdCBkZWNsYXJlIGEgdmVyc2lvbiIKICAgICAgICB9CgogICAgICAgIHZhbCBwYXJzZWRUYXJnZXRWZXJzaW9uID0KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIFRvb2xQa2dQYWNrYWdlVmVyc2lvbi5wYXJzZShub3JtYWxpemVkVGFyZ2V0VmVyc2lvbikKICAgICAgICAgICAgfSBjYXRjaCAoZXJyb3I6IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgcmV0dXJuICJ0YXJnZXQgcGFja2FnZSAnJGlkJyBoYXMgYW4gaW52YWxpZCB2ZXJzaW9uICckbm9ybWFsaXplZFRhcmdldFZlcnNpb24nIgogICAgICAgICAgICB9CiAgICAgICAgdmFsIG1pbmltdW1WZXJzaW9uID0gbWluVmVyc2lvbj8ubGV0IHsgdmVyc2lvbiAtPiBUb29sUGtnUGFja2FnZVZlcnNpb24ucGFyc2UodmVyc2lvbikgfQogICAgICAgIHZhbCBtYXhpbXVtVmVyc2lvbiA9IG1heFZlcnNpb24/LmxldCB7IHZlcnNpb24gLT4gVG9vbFBrZ1BhY2thZ2VWZXJzaW9uLnBhcnNlKHZlcnNpb24pIH0KCiAgICAgICAgcmV0dXJuIHdoZW4gewogICAgICAgICAgICBtaW5pbXVtVmVyc2lvbiAhPSBudWxsICYmIHBhcnNlZFRhcmdldFZlcnNpb24gPCBtaW5pbXVtVmVyc2lvbiAtPgogICAgICAgICAgICAgICAgInRhcmdldCBwYWNrYWdlICckaWQnIGhhcyB2ZXJzaW9uICckbm9ybWFsaXplZFRhcmdldFZlcnNpb24nLCBiZWxvdyBtaW5pbXVtICckbWluVmVyc2lvbiciCiAgICAgICAgICAgIG1heGltdW1WZXJzaW9uICE9IG51bGwgJiYgcGFyc2VkVGFyZ2V0VmVyc2lvbiA+IG1heGltdW1WZXJzaW9uIC0+CiAgICAgICAgICAgICAgICAidGFyZ2V0IHBhY2thZ2UgJyRpZCcgaGFzIHZlcnNpb24gJyRub3JtYWxpemVkVGFyZ2V0VmVyc2lvbicsIGFib3ZlIG1heGltdW0gJyRtYXhWZXJzaW9uJyIKICAgICAgICAgICAgZWxzZSAtPiBudWxsCiAgICAgICAgfQogICAgfQp9CgppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dQYWNrYWdlVmVyc2lvbigKICAgIHZhbCBtYWpvcjogSW50LAogICAgdmFsIG1pbm9yOiBJbnQsCiAgICB2YWwgcGF0Y2g6IEludAopIDogQ29tcGFyYWJsZTxUb29sUGtnUGFja2FnZVZlcnNpb24+IHsKICAgIG92ZXJyaWRlIGZ1biBjb21wYXJlVG8ob3RoZXI6IFRvb2xQa2dQYWNrYWdlVmVyc2lvbik6IEludCB7CiAgICAgICAgcmV0dXJuIGNvbXBhcmVWYWx1ZXNCeSh0aGlzLCBvdGhlciwgVG9vbFBrZ1BhY2thZ2VWZXJzaW9uOjptYWpvciwgVG9vbFBrZ1BhY2thZ2VWZXJzaW9uOjptaW5vciwgVG9vbFBrZ1BhY2thZ2VWZXJzaW9uOjpwYXRjaCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gdG9TdHJpbmcoKTogU3RyaW5nID0gIiRtYWpvci4kbWlub3IuJHBhdGNoIgoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgdmFsIFZFUlNJT05fUEFUVEVSTiA9IFJlZ2V4KCJeKFxcZCspXFwuKFxcZCspXFwuKFxcZCspJCIpCgogICAgICAgIGZ1biBwYXJzZSh2YWx1ZTogU3RyaW5nKTogVG9vbFBrZ1BhY2thZ2VWZXJzaW9uIHsKICAgICAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSB2YWx1ZS50cmltKCkKICAgICAgICAgICAgdmFsIG1hdGNoID0gVkVSU0lPTl9QQVRURVJOLm1hdGNoRW50aXJlKG5vcm1hbGl6ZWQpCiAgICAgICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oCiAgICAgICAgICAgICAgICAgICAgIlBhY2thZ2UgdmVyc2lvbiBtdXN0IHVzZSBtYWpvci5taW5vci5wYXRjaCBmb3JtYXQ6ICckdmFsdWUnIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICByZXR1cm4gVG9vbFBrZ1BhY2thZ2VWZXJzaW9uKAogICAgICAgICAgICAgICAgbWFqb3IgPSBtYXRjaC5ncm91cFZhbHVlc1sxXS50b0ludCgpLAogICAgICAgICAgICAgICAgbWlub3IgPSBtYXRjaC5ncm91cFZhbHVlc1syXS50b0ludCgpLAogICAgICAgICAgICAgICAgcGF0Y2ggPSBtYXRjaC5ncm91cFZhbHVlc1szXS50b0ludCgpCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.packTool
+
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+/**
+ * A package dependency declared by a ToolPkg manifest.
+ *
+ * The dependency itself also determines load order: the required package is
+ * loaded before the package that declares this entry.
+ */
+@Serializable
+data class ToolPkgManifestRequirement(
+    val id: String,
+    val description: String,
+    @SerialName("min_version") val minVersion: String? = null,
+    @SerialName("max_version") val maxVersion: String? = null
+) {
+    internal fun versionConstraintText(): String? {
+        return when {
+            minVersion != null && maxVersion != null -> "$minVersion - $maxVersion"
+            minVersion != null -> ">= $minVersion"
+            maxVersion != null -> "<= $maxVersion"
+            else -> null
+        }
+    }
+
+    internal fun targetVersionFailure(targetVersion: String): String? {
+        if (minVersion == null && maxVersion == null) {
+            return null
+        }
+
+        val normalizedTargetVersion = targetVersion.trim()
+        if (normalizedTargetVersion.isBlank()) {
+            return "target package '$id' does not declare a version"
+        }
+
+        val parsedTargetVersion =
+            try {
+                ToolPkgPackageVersion.parse(normalizedTargetVersion)
+            } catch (error: IllegalArgumentException) {
+                return "target package '$id' has an invalid version '$normalizedTargetVersion'"
+            }
+        val minimumVersion = minVersion?.let { version -> ToolPkgPackageVersion.parse(version) }
+        val maximumVersion = maxVersion?.let { version -> ToolPkgPackageVersion.parse(version) }
+
+        return when {
+            minimumVersion != null && parsedTargetVersion < minimumVersion ->
+                "target package '$id' has version '$normalizedTargetVersion', below minimum '$minVersion'"
+            maximumVersion != null && parsedTargetVersion > maximumVersion ->
+                "target package '$id' has version '$normalizedTargetVersion', above maximum '$maxVersion'"
+            else -> null
+        }
+    }
+}
+
+internal data class ToolPkgPackageVersion(
+    val major: Int,
+    val minor: Int,
+    val patch: Int
+) : Comparable<ToolPkgPackageVersion> {
+    override fun compareTo(other: ToolPkgPackageVersion): Int {
+        return compareValuesBy(this, other, ToolPkgPackageVersion::major, ToolPkgPackageVersion::minor, ToolPkgPackageVersion::patch)
+    }
+
+    override fun toString(): String = "$major.$minor.$patch"
+
+    companion object {
+        private val VERSION_PATTERN = Regex("^(\\d+)\\.(\\d+)\\.(\\d+)$")
+
+        fun parse(value: String): ToolPkgPackageVersion {
+            val normalized = value.trim()
+            val match = VERSION_PATTERN.matchEntire(normalized)
+                ?: throw IllegalArgumentException(
+                    "Package version must use major.minor.patch format: '$value'"
+                )
+            return ToolPkgPackageVersion(
+                major = match.groupValues[1].toInt(),
+                minor = match.groupValues[2].toInt(),
+                patch = match.groupValues[3].toInt()
+            )
+        }
+    }
+}

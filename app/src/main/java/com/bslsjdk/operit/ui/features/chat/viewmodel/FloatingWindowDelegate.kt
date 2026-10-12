@@ -1,1 +1,282 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC52aWV3bW9kZWwKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQnJvYWRjYXN0UmVjZWl2ZXIKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db21wb25lbnROYW1lCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudEZpbHRlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LlNlcnZpY2VDb25uZWN0aW9uCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkLm9zLklCaW5kZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkNvbG9yU2NoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UeXBvZ3JhcGh5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5JbnB1dFByb2Nlc3NpbmdTdGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwudG9TZXJpYWxpemFibGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5zZXJ2aWNlcy5GbG9hdGluZ0NoYXRTZXJ2aWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mbG9hdGluZy5GbG9hdGluZ01vZGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVNoYXJlZEZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlNoYXJlZEZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTaGFyZWRGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqIOWnlOaJmOexu++8jOi0n+i0o+euoeeQhuaCrOa1rueql+S6pOS6kiAqLwpjbGFzcyBGbG9hdGluZ1dpbmRvd0RlbGVnYXRlKAogICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCwKICAgIHByaXZhdGUgdmFsIGNvcm91dGluZVNjb3BlOiBDb3JvdXRpbmVTY29wZSwKICAgIHByaXZhdGUgdmFsIGlucHV0UHJvY2Vzc2luZ1N0YXRlOiBTdGF0ZUZsb3c8SW5wdXRQcm9jZXNzaW5nU3RhdGU+CikgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkZsb2F0aW5nV2luZG93RGVsZWdhdGUiCiAgICB9CgogICAgLy8g5oKs5rWu56qX54q25oCBCiAgICBwcml2YXRlIHZhbCBfaXNGbG9hdGluZ01vZGUgPSBNdXRhYmxlU3RhdGVGbG93KGZhbHNlKQogICAgdmFsIGlzRmxvYXRpbmdNb2RlOiBTdGF0ZUZsb3c8Qm9vbGVhbj4gPSBfaXNGbG9hdGluZ01vZGUuYXNTdGF0ZUZsb3coKQogICAgcHJpdmF0ZSB2YWwgX21vdmVUYXNrVG9CYWNrRXZlbnRzID0gTXV0YWJsZVNoYXJlZEZsb3c8VW5pdD4oZXh0cmFCdWZmZXJDYXBhY2l0eSA9IDEpCiAgICB2YWwgbW92ZVRhc2tUb0JhY2tFdmVudHM6IFNoYXJlZEZsb3c8VW5pdD4gPSBfbW92ZVRhc2tUb0JhY2tFdmVudHMuYXNTaGFyZWRGbG93KCkKCiAgICAvLyDmgqzmta7nqpfmnI3liqEKICAgIHByaXZhdGUgdmFyIGZsb2F0aW5nU2VydmljZTogRmxvYXRpbmdDaGF0U2VydmljZT8gPSBudWxsCgogICAgcHJpdmF0ZSB2YXIgZmxvYXRpbmdCaW5kZXI6IEZsb2F0aW5nQ2hhdFNlcnZpY2UuTG9jYWxCaW5kZXI/ID0gbnVsbAoKICAgIHByaXZhdGUgdmFyIGlzQm91bmRUb1NlcnZpY2U6IEJvb2xlYW4gPSBmYWxzZQogICAgcHJpdmF0ZSB2YXIgbW92ZVRhc2tUb0JhY2tPbldpbmRvd1Nob3duUGVuZGluZzogQm9vbGVhbiA9IGZhbHNlCgogICAgcHJpdmF0ZSB2YWwgc2VydmljZUxpZmVjeWNsZVJlY2VpdmVyID0KICAgICAgICBvYmplY3QgOiBCcm9hZGNhc3RSZWNlaXZlcigpIHsKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uUmVjZWl2ZShjb250ZXh0OiBDb250ZXh0PywgaW50ZW50OiBJbnRlbnQ/KSB7CiAgICAgICAgICAgICAgICB3aGVuIChpbnRlbnQ/LmFjdGlvbikgewogICAgICAgICAgICAgICAgICAgIEZsb2F0aW5nQ2hhdFNlcnZpY2UuQUNUSU9OX0ZMT0FUSU5HX0NIQVRfU0VSVklDRV9TVEFSVEVEIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdHJ5QmluZFRvUnVubmluZ1NlcnZpY2UoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBGbG9hdGluZ0NoYXRTZXJ2aWNlLkFDVElPTl9GTE9BVElOR19DSEFUX1NFUlZJQ0VfU1RPUFBFRCAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIG1vdmVUYXNrVG9CYWNrT25XaW5kb3dTaG93blBlbmRpbmcgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICBkaXNjb25uZWN0RnJvbVNlcnZpY2UodXBkYXRlRmxvYXRpbmdNb2RlID0gZmFsc2UpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIEZsb2F0aW5nQ2hhdFNlcnZpY2UuQUNUSU9OX0ZMT0FUSU5HX0NIQVRfV0lORE9XX1NIT1dOIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKG1vdmVUYXNrVG9CYWNrT25XaW5kb3dTaG93blBlbmRpbmcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vdmVUYXNrVG9CYWNrT25XaW5kb3dTaG93blBlbmRpbmcgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgX21vdmVUYXNrVG9CYWNrRXZlbnRzLnRyeUVtaXQoVW5pdCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBGbG9hdGluZ0NoYXRTZXJ2aWNlLkFDVElPTl9GTE9BVElOR19DSEFUX1dJTkRPV19TSE9XX0ZBSUxFRCAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRpc2Nvbm5lY3RGcm9tU2VydmljZSh1cGRhdGVGbG9hdGluZ01vZGUgPSB0cnVlKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAvLyDmnI3liqHov57mjqUKICAgIHByaXZhdGUgdmFsIHNlcnZpY2VDb25uZWN0aW9uID0KICAgICAgICBvYmplY3QgOiBTZXJ2aWNlQ29ubmVjdGlvbiB7CiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvblNlcnZpY2VDb25uZWN0ZWQobmFtZTogQ29tcG9uZW50TmFtZT8sIHNlcnZpY2U6IElCaW5kZXI/KSB7CiAgICAgICAgICAgICAgICB2YWwgYmluZGVyID0gc2VydmljZSBhcyBGbG9hdGluZ0NoYXRTZXJ2aWNlLkxvY2FsQmluZGVyCiAgICAgICAgICAgICAgICBmbG9hdGluZ1NlcnZpY2UgPSBiaW5kZXIuZ2V0U2VydmljZSgpCiAgICAgICAgICAgICAgICBmbG9hdGluZ0JpbmRlciA9IGJpbmRlcgogICAgICAgICAgICAgICAgLy8g6K6+572u5Zue6LCD77yM5YWB6K645pyN5Yqh6YCa55+l5aeU5omY5YWz6ZetCiAgICAgICAgICAgICAgICBiaW5kZXIuc2V0Q2xvc2VDYWxsYmFjayB7CiAgICAgICAgICAgICAgICAgICAgY2xvc2VGbG9hdGluZ1dpbmRvdygpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvblNlcnZpY2VEaXNjb25uZWN0ZWQobmFtZTogQ29tcG9uZW50TmFtZT8pIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgZmxvYXRpbmdCaW5kZXI/LmNsZWFyQ2FsbGJhY2tzKCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZmxvYXRpbmdCaW5kZXIgPSBudWxsCiAgICAgICAgICAgICAgICBmbG9hdGluZ1NlcnZpY2UgPSBudWxsCiAgICAgICAgICAgICAgICBpc0JvdW5kVG9TZXJ2aWNlID0gZmFsc2UKICAgICAgICAgICAgfQoKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uTnVsbEJpbmRpbmcobmFtZTogQ29tcG9uZW50TmFtZT8pIHsKICAgICAgICAgICAgICAgIC8vIOiiq+WBnOeUqOaIluWIneWni+WMluWksei0peeahOacjeWKoeayoeacieWPr+eUqCBCaW5kZXLvvIzph4rmlL7nu5HlrprmiY3og73lrozmiJDlgZzmraLjgIIKICAgICAgICAgICAgICAgIGRpc2Nvbm5lY3RGcm9tU2VydmljZSh1cGRhdGVGbG9hdGluZ01vZGUgPSB0cnVlKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIGluaXQgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBmaWx0ZXIgPSBJbnRlbnRGaWx0ZXIoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBhZGRBY3Rpb24oRmxvYXRpbmdDaGF0U2VydmljZS5BQ1RJT05fRkxPQVRJTkdfQ0hBVF9TRVJWSUNFX1NUQVJURUQpCiAgICAgICAgICAgICAgICBhZGRBY3Rpb24oRmxvYXRpbmdDaGF0U2VydmljZS5BQ1RJT05fRkxPQVRJTkdfQ0hBVF9TRVJWSUNFX1NUT1BQRUQpCiAgICAgICAgICAgICAgICBhZGRBY3Rpb24oRmxvYXRpbmdDaGF0U2VydmljZS5BQ1RJT05fRkxPQVRJTkdfQ0hBVF9XSU5ET1dfU0hPV04pCiAgICAgICAgICAgICAgICBhZGRBY3Rpb24oRmxvYXRpbmdDaGF0U2VydmljZS5BQ1RJT05fRkxPQVRJTkdfQ0hBVF9XSU5ET1dfU0hPV19GQUlMRUQpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSAzMykgewogICAgICAgICAgICAgICAgY29udGV4dC5yZWdpc3RlclJlY2VpdmVyKHNlcnZpY2VMaWZlY3ljbGVSZWNlaXZlciwgZmlsdGVyLCBDb250ZXh0LlJFQ0VJVkVSX05PVF9FWFBPUlRFRCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEBTdXBwcmVzcygiREVQUkVDQVRJT04iKQogICAgICAgICAgICAgICAgY29udGV4dC5yZWdpc3RlclJlY2VpdmVyKHNlcnZpY2VMaWZlY3ljbGVSZWNlaXZlciwgZmlsdGVyKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgfQoKICAgICAgICAvLyBJZiB0aGUgc2VydmljZSBpcyBhbHJlYWR5IHJ1bm5pbmcgKHN0YXJ0ZWQgYnkgd2FrZS93b3JrZmxvdy93aWRnZXQpLCBiaW5kIHRvIGl0LgogICAgICAgIHRyeUJpbmRUb1J1bm5pbmdTZXJ2aWNlKCkKICAgICAgICBzZXR1cElucHV0U3RhdGVDb2xsZWN0aW9uKCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biB0cnlCaW5kVG9SdW5uaW5nU2VydmljZSgpIHsKICAgICAgICBpZiAoaXNCb3VuZFRvU2VydmljZSkgcmV0dXJuCiAgICAgICAgaWYgKEZsb2F0aW5nQ2hhdFNlcnZpY2UuZ2V0SW5zdGFuY2UoKSA9PSBudWxsKSByZXR1cm4KICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KGNvbnRleHQsIEZsb2F0aW5nQ2hhdFNlcnZpY2U6OmNsYXNzLmphdmEpCiAgICAgICAgICAgIC8vIEJpbmQgd2l0aG91dCBhdXRvLWNyZWF0ZTogb25seSBzdWNjZWVkIGlmIHNlcnZpY2UgaXMgYWxyZWFkeSBydW5uaW5nLgogICAgICAgICAgICB2YWwgb2sgPSBjb250ZXh0LmJpbmRTZXJ2aWNlKGludGVudCwgc2VydmljZUNvbm5lY3Rpb24sIDApCiAgICAgICAgICAgIGlmIChvaykgewogICAgICAgICAgICAgICAgaXNCb3VuZFRvU2VydmljZSA9IHRydWUKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuW3sue7keWumuWIsOW3sui/kOihjOeahOaCrOa1rueql+acjeWKoSIpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi57uR5a6a5Yiw5bey6L+Q6KGM55qE5oKs5rWu56qX5pyN5Yqh5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDnlKjmiLflnKjkuLvnlYzpnaLmmL7lvI/ov5vlhaXmgqzmta7nqpfvvIzop4bkuLrlr7nltKnmuoPlgZznlKjkv53miqTnmoTph43mlrDmjojmnYPvvJoKICAgICAqIOa4hemZpOWBnOeUqOagh+iusOS4juaMgeS5heWMluW0qea6g+iuoeaVsO+8jOiuqeacjeWKoeWPr+S7peWGjeasoeWQr+WKqOOAggogICAgICog6Iul5ZCM5LiA5bSp5rqD5LuN5Zyo77yM5pyN5Yqh5Lya5YaN5qyh6L+e5bSpIDQg5qyh5ZCO6YeN5paw5YGc55So77yM5b2i5oiQ6Zet546v44CCCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGNsZWFyRmxvYXRpbmdDcmFzaERpc2FibGVGbGFnKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnRleHQKICAgICAgICAgICAgICAgIC5nZXRTaGFyZWRQcmVmZXJlbmNlcygiZmxvYXRpbmdfY2hhdF9wcmVmcyIsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgICAgICAgICAgICAgLmVkaXQoKQogICAgICAgICAgICAgICAgLnJlbW92ZSgic2VydmljZV9kaXNhYmxlZF9kdWVfdG9fY3Jhc2hlcyIpCiAgICAgICAgICAgICAgICAucmVtb3ZlKCJjcmFzaF9jb3VudCIpCiAgICAgICAgICAgICAgICAucmVtb3ZlKCJsYXN0X2NyYXNoX3RpbWUiKQogICAgICAgICAgICAgICAgLmFwcGx5KCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5riF6Zmk5oKs5rWu56qX5bSp5rqD5YGc55So5qCH6K6w5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgLyoqIOWIh+aNouaCrOa1rueql+aooeW8jyAqLwogICAgZnVuIHRvZ2dsZUZsb2F0aW5nTW9kZShjb2xvclNjaGVtZTogQ29sb3JTY2hlbWU/ID0gbnVsbCwgdHlwb2dyYXBoeTogVHlwb2dyYXBoeT8gPSBudWxsKSB7CiAgICAgICAgdmFsIG5ld01vZGUgPSAhX2lzRmxvYXRpbmdNb2RlLnZhbHVlCgogICAgICAgIGlmIChuZXdNb2RlKSB7CiAgICAgICAgICAgIF9pc0Zsb2F0aW5nTW9kZS52YWx1ZSA9IHRydWUKICAgICAgICAgICAgbW92ZVRhc2tUb0JhY2tPbldpbmRvd1Nob3duUGVuZGluZyA9IGZhbHNlCgogICAgICAgICAgICBjbGVhckZsb2F0aW5nQ3Jhc2hEaXNhYmxlRmxhZygpCgogICAgICAgICAgICAvLyDlhYjlkK/liqjlubbnu5HlrprmnI3liqEKICAgICAgICAgICAgdmFsIGludGVudCA9IEludGVudChjb250ZXh0LCBGbG9hdGluZ0NoYXRTZXJ2aWNlOjpjbGFzcy5qYXZhKQogICAgICAgICAgICBjb2xvclNjaGVtZT8ubGV0IHsKICAgICAgICAgICAgICAgIGludGVudC5wdXRFeHRyYSgiQ09MT1JfU0NIRU1FIiwgaXQudG9TZXJpYWxpemFibGUoKSkKICAgICAgICAgICAgfQogICAgICAgICAgICB0eXBvZ3JhcGh5Py5sZXQgewogICAgICAgICAgICAgICAgaW50ZW50LnB1dEV4dHJhKCJUWVBPR1JBUEhZIiwgaXQudG9TZXJpYWxpemFibGUoKSkKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTykgewogICAgICAgICAgICAgICAgY29udGV4dC5zdGFydEZvcmVncm91bmRTZXJ2aWNlKGludGVudCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRTZXJ2aWNlKGludGVudCkKICAgICAgICAgICAgfQogICAgICAgICAgICBpc0JvdW5kVG9TZXJ2aWNlID0gY29udGV4dC5iaW5kU2VydmljZShpbnRlbnQsIHNlcnZpY2VDb25uZWN0aW9uLCBDb250ZXh0LkJJTkRfQVVUT19DUkVBVEUpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbW92ZVRhc2tUb0JhY2tPbldpbmRvd1Nob3duUGVuZGluZyA9IGZhbHNlCiAgICAgICAgICAgIC8vIOe7n+S4gOiwg+eUqOWFs+mXremAu+i+ke+8jOehruS/neacjeWKoeiiq+ato+ehruWFs+mXrQogICAgICAgICAgICBmbG9hdGluZ1NlcnZpY2U/Lm9uQ2xvc2UoKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWQr+WKqOaCrOa1rueql+W5tuaMh+WumuS4gOS4quWIneWni+aooeW8jwogICAgICovCiAgICBmdW4gbGF1bmNoSW5Nb2RlKAogICAgICAgIG1vZGU6IEZsb2F0aW5nTW9kZSwKICAgICAgICBjb2xvclNjaGVtZTogQ29sb3JTY2hlbWU/ID0gbnVsbCwKICAgICAgICB0eXBvZ3JhcGh5OiBUeXBvZ3JhcGh5PyA9IG51bGwsCiAgICAgICAgbW92ZVRhc2tUb0JhY2tPblJlYWR5OiBCb29sZWFuID0gZmFsc2UKICAgICkgewogICAgICAgIGlmIChfaXNGbG9hdGluZ01vZGUudmFsdWUgJiYgZmxvYXRpbmdTZXJ2aWNlICE9IG51bGwpIHsKICAgICAgICAgICAgLy8g5aaC5p6c5pyN5Yqh5bey5Zyo6L+Q6KGM77yM55u05o6l5YiH5o2i5qih5byPCiAgICAgICAgICAgIGZsb2F0aW5nU2VydmljZT8uc3dpdGNoVG9Nb2RlKG1vZGUpCiAgICAgICAgICAgIGlmIChtb3ZlVGFza1RvQmFja09uUmVhZHkpIHsKICAgICAgICAgICAgICAgIF9tb3ZlVGFza1RvQmFja0V2ZW50cy50cnlFbWl0KFVuaXQpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5oKs5rWu56qX5bey5Zyo6L+Q6KGM77yM55u05o6l5YiH5o2i5Yiw5qih5byPOiAkbW9kZSIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgX2lzRmxvYXRpbmdNb2RlLnZhbHVlID0gdHJ1ZQogICAgICAgIG1vdmVUYXNrVG9CYWNrT25XaW5kb3dTaG93blBlbmRpbmcgPSBtb3ZlVGFza1RvQmFja09uUmVhZHkKCiAgICAgICAgY2xlYXJGbG9hdGluZ0NyYXNoRGlzYWJsZUZsYWcoKQoKICAgICAgICAvLyDlhYjlkK/liqjlubbnu5HlrprmnI3liqEKICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KGNvbnRleHQsIEZsb2F0aW5nQ2hhdFNlcnZpY2U6OmNsYXNzLmphdmEpCiAgICAgICAgLy8g5re75Yqg5Yid5aeL5qih5byP5Y+C5pWwCiAgICAgICAgaW50ZW50LnB1dEV4dHJhKCJJTklUSUFMX01PREUiLCBtb2RlLm5hbWUpCgogICAgICAgIGNvbG9yU2NoZW1lPy5sZXQgewogICAgICAgICAgICBpbnRlbnQucHV0RXh0cmEoIkNPTE9SX1NDSEVNRSIsIGl0LnRvU2VyaWFsaXphYmxlKCkpCiAgICAgICAgfQogICAgICAgIHR5cG9ncmFwaHk/LmxldCB7CiAgICAgICAgICAgIGludGVudC5wdXRFeHRyYSgiVFlQT0dSQVBIWSIsIGl0LnRvU2VyaWFsaXphYmxlKCkpCiAgICAgICAgfQogICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5PKSB7CiAgICAgICAgICAgIGNvbnRleHQuc3RhcnRGb3JlZ3JvdW5kU2VydmljZShpbnRlbnQpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgY29udGV4dC5zdGFydFNlcnZpY2UoaW50ZW50KQogICAgICAgIH0KICAgICAgICBpc0JvdW5kVG9TZXJ2aWNlID0gY29udGV4dC5iaW5kU2VydmljZShpbnRlbnQsIHNlcnZpY2VDb25uZWN0aW9uLCBDb250ZXh0LkJJTkRfQVVUT19DUkVBVEUpCiAgICB9CgogICAgLyoqCiAgICAgKiDnlLHmnI3liqHlm57osIPmiJbnlKjmiLfmk43kvZzosIPnlKjvvIznlKjkuo7lhbPpl63mgqzmta7nqpflubbmm7TmlrDnirbmgIEKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gY2xvc2VGbG9hdGluZ1dpbmRvdygpIHsKICAgICAgICBkaXNjb25uZWN0RnJvbVNlcnZpY2UodXBkYXRlRmxvYXRpbmdNb2RlID0gdHJ1ZSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBkaXNjb25uZWN0RnJvbVNlcnZpY2UodXBkYXRlRmxvYXRpbmdNb2RlOiBCb29sZWFuKSB7CiAgICAgICAgaWYgKHVwZGF0ZUZsb2F0aW5nTW9kZSAmJiBfaXNGbG9hdGluZ01vZGUudmFsdWUpIHsKICAgICAgICAgICAgX2lzRmxvYXRpbmdNb2RlLnZhbHVlID0gZmFsc2UKICAgICAgICB9CiAgICAgICAgbW92ZVRhc2tUb0JhY2tPbldpbmRvd1Nob3duUGVuZGluZyA9IGZhbHNlCiAgICAgICAgaWYgKGlzQm91bmRUb1NlcnZpY2UpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGNvbnRleHQudW5iaW5kU2VydmljZShzZXJ2aWNlQ29ubmVjdGlvbikKICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgZmxvYXRpbmdCaW5kZXI/LmNsZWFyQ2FsbGJhY2tzKCkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICB9CiAgICAgICAgZmxvYXRpbmdCaW5kZXIgPSBudWxsCiAgICAgICAgZmxvYXRpbmdTZXJ2aWNlID0gbnVsbAogICAgICAgIGlzQm91bmRUb1NlcnZpY2UgPSBmYWxzZQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNldHVwSW5wdXRTdGF0ZUNvbGxlY3Rpb24oKSB7CiAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgaW5wdXRQcm9jZXNzaW5nU3RhdGUuY29sbGVjdCB7IHN0YXRlIC0+CiAgICAgICAgICAgICAgICB2YWwgaXNVaVRvb2xFeGVjdXRpbmcgPSBzdGF0ZSBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5FeGVjdXRpbmdUb29sCgogICAgICAgICAgICAgICAgLy8gVXBkYXRlIFVJIGJ1c3kgc3RhdGUgZGlyZWN0bHkgb24gdGhlIHdpbmRvdyBzdGF0ZQogICAgICAgICAgICAgICAgLy8gZmxvYXRpbmdTZXJ2aWNlPy53aW5kb3dTdGF0ZT8uaXNVaUJ1c3k/LnZhbHVlID0gaXNVaVRvb2xFeGVjdXRpbmcKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5riF55CG6LWE5rqQICovCiAgICBmdW4gY2xlYW51cCgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb250ZXh0LnVucmVnaXN0ZXJSZWNlaXZlcihzZXJ2aWNlTGlmZWN5Y2xlUmVjZWl2ZXIpCiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgfQogICAgICAgIC8vIOino+e7keacjeWKoQogICAgICAgIGRpc2Nvbm5lY3RGcm9tU2VydmljZSh1cGRhdGVGbG9hdGluZ01vZGUgPSBmYWxzZSkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.viewmodel
+
+import android.content.BroadcastReceiver
+import android.content.ComponentName
+import android.content.Context
+import android.content.Intent
+import android.content.IntentFilter
+import android.content.ServiceConnection
+import android.os.Build
+import android.os.IBinder
+import androidx.compose.material3.ColorScheme
+import androidx.compose.material3.Typography
+import com.bslsjdk.operit.data.model.InputProcessingState
+import com.bslsjdk.operit.data.model.toSerializable
+import com.bslsjdk.operit.services.FloatingChatService
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.ui.floating.FloatingMode
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asSharedFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+
+/** 委托类，负责管理悬浮窗交互 */
+class FloatingWindowDelegate(
+    private val context: Context,
+    private val coroutineScope: CoroutineScope,
+    private val inputProcessingState: StateFlow<InputProcessingState>
+) {
+    companion object {
+        private const val TAG = "FloatingWindowDelegate"
+    }
+
+    // 悬浮窗状态
+    private val _isFloatingMode = MutableStateFlow(false)
+    val isFloatingMode: StateFlow<Boolean> = _isFloatingMode.asStateFlow()
+    private val _moveTaskToBackEvents = MutableSharedFlow<Unit>(extraBufferCapacity = 1)
+    val moveTaskToBackEvents: SharedFlow<Unit> = _moveTaskToBackEvents.asSharedFlow()
+
+    // 悬浮窗服务
+    private var floatingService: FloatingChatService? = null
+
+    private var floatingBinder: FloatingChatService.LocalBinder? = null
+
+    private var isBoundToService: Boolean = false
+    private var moveTaskToBackOnWindowShownPending: Boolean = false
+
+    private val serviceLifecycleReceiver =
+        object : BroadcastReceiver() {
+            override fun onReceive(context: Context?, intent: Intent?) {
+                when (intent?.action) {
+                    FloatingChatService.ACTION_FLOATING_CHAT_SERVICE_STARTED -> {
+                        tryBindToRunningService()
+                    }
+                    FloatingChatService.ACTION_FLOATING_CHAT_SERVICE_STOPPED -> {
+                        moveTaskToBackOnWindowShownPending = false
+                        disconnectFromService(updateFloatingMode = false)
+                    }
+                    FloatingChatService.ACTION_FLOATING_CHAT_WINDOW_SHOWN -> {
+                        if (moveTaskToBackOnWindowShownPending) {
+                            moveTaskToBackOnWindowShownPending = false
+                            _moveTaskToBackEvents.tryEmit(Unit)
+                        }
+                    }
+                    FloatingChatService.ACTION_FLOATING_CHAT_WINDOW_SHOW_FAILED -> {
+                        disconnectFromService(updateFloatingMode = true)
+                    }
+                }
+            }
+        }
+
+    // 服务连接
+    private val serviceConnection =
+        object : ServiceConnection {
+            override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
+                val binder = service as FloatingChatService.LocalBinder
+                floatingService = binder.getService()
+                floatingBinder = binder
+                // 设置回调，允许服务通知委托关闭
+                binder.setCloseCallback {
+                    closeFloatingWindow()
+                }
+            }
+
+            override fun onServiceDisconnected(name: ComponentName?) {
+                try {
+                    floatingBinder?.clearCallbacks()
+                } catch (_: Exception) {
+                }
+                floatingBinder = null
+                floatingService = null
+                isBoundToService = false
+            }
+
+            override fun onNullBinding(name: ComponentName?) {
+                // 被停用或初始化失败的服务没有可用 Binder，释放绑定才能完成停止。
+                disconnectFromService(updateFloatingMode = true)
+            }
+        }
+
+    init {
+        try {
+            val filter = IntentFilter().apply {
+                addAction(FloatingChatService.ACTION_FLOATING_CHAT_SERVICE_STARTED)
+                addAction(FloatingChatService.ACTION_FLOATING_CHAT_SERVICE_STOPPED)
+                addAction(FloatingChatService.ACTION_FLOATING_CHAT_WINDOW_SHOWN)
+                addAction(FloatingChatService.ACTION_FLOATING_CHAT_WINDOW_SHOW_FAILED)
+            }
+            if (Build.VERSION.SDK_INT >= 33) {
+                context.registerReceiver(serviceLifecycleReceiver, filter, Context.RECEIVER_NOT_EXPORTED)
+            } else {
+                @Suppress("DEPRECATION")
+                context.registerReceiver(serviceLifecycleReceiver, filter)
+            }
+        } catch (_: Exception) {
+        }
+
+        // If the service is already running (started by wake/workflow/widget), bind to it.
+        tryBindToRunningService()
+        setupInputStateCollection()
+    }
+
+    private fun tryBindToRunningService() {
+        if (isBoundToService) return
+        if (FloatingChatService.getInstance() == null) return
+        try {
+            val intent = Intent(context, FloatingChatService::class.java)
+            // Bind without auto-create: only succeed if service is already running.
+            val ok = context.bindService(intent, serviceConnection, 0)
+            if (ok) {
+                isBoundToService = true
+                AppLogger.d(TAG, "已绑定到已运行的悬浮窗服务")
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "绑定到已运行的悬浮窗服务失败", e)
+        }
+    }
+
+    /**
+     * 用户在主界面显式进入悬浮窗，视为对崩溃停用保护的重新授权：
+     * 清除停用标记与持久化崩溃计数，让服务可以再次启动。
+     * 若同一崩溃仍在，服务会再次连崩 4 次后重新停用，形成闭环。
+     */
+    private fun clearFloatingCrashDisableFlag() {
+        try {
+            context
+                .getSharedPreferences("floating_chat_prefs", Context.MODE_PRIVATE)
+                .edit()
+                .remove("service_disabled_due_to_crashes")
+                .remove("crash_count")
+                .remove("last_crash_time")
+                .apply()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "清除悬浮窗崩溃停用标记失败", e)
+        }
+    }
+
+    /** 切换悬浮窗模式 */
+    fun toggleFloatingMode(colorScheme: ColorScheme? = null, typography: Typography? = null) {
+        val newMode = !_isFloatingMode.value
+
+        if (newMode) {
+            _isFloatingMode.value = true
+            moveTaskToBackOnWindowShownPending = false
+
+            clearFloatingCrashDisableFlag()
+
+            // 先启动并绑定服务
+            val intent = Intent(context, FloatingChatService::class.java)
+            colorScheme?.let {
+                intent.putExtra("COLOR_SCHEME", it.toSerializable())
+            }
+            typography?.let {
+                intent.putExtra("TYPOGRAPHY", it.toSerializable())
+            }
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                context.startForegroundService(intent)
+            } else {
+                context.startService(intent)
+            }
+            isBoundToService = context.bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE)
+        } else {
+            moveTaskToBackOnWindowShownPending = false
+            // 统一调用关闭逻辑，确保服务被正确关闭
+            floatingService?.onClose()
+        }
+    }
+
+    /**
+     * 启动悬浮窗并指定一个初始模式
+     */
+    fun launchInMode(
+        mode: FloatingMode,
+        colorScheme: ColorScheme? = null,
+        typography: Typography? = null,
+        moveTaskToBackOnReady: Boolean = false
+    ) {
+        if (_isFloatingMode.value && floatingService != null) {
+            // 如果服务已在运行，直接切换模式
+            floatingService?.switchToMode(mode)
+            if (moveTaskToBackOnReady) {
+                _moveTaskToBackEvents.tryEmit(Unit)
+            }
+            AppLogger.d(TAG, "悬浮窗已在运行，直接切换到模式: $mode")
+            return
+        }
+
+        _isFloatingMode.value = true
+        moveTaskToBackOnWindowShownPending = moveTaskToBackOnReady
+
+        clearFloatingCrashDisableFlag()
+
+        // 先启动并绑定服务
+        val intent = Intent(context, FloatingChatService::class.java)
+        // 添加初始模式参数
+        intent.putExtra("INITIAL_MODE", mode.name)
+
+        colorScheme?.let {
+            intent.putExtra("COLOR_SCHEME", it.toSerializable())
+        }
+        typography?.let {
+            intent.putExtra("TYPOGRAPHY", it.toSerializable())
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            context.startForegroundService(intent)
+        } else {
+            context.startService(intent)
+        }
+        isBoundToService = context.bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE)
+    }
+
+    /**
+     * 由服务回调或用户操作调用，用于关闭悬浮窗并更新状态
+     */
+    private fun closeFloatingWindow() {
+        disconnectFromService(updateFloatingMode = true)
+    }
+
+    private fun disconnectFromService(updateFloatingMode: Boolean) {
+        if (updateFloatingMode && _isFloatingMode.value) {
+            _isFloatingMode.value = false
+        }
+        moveTaskToBackOnWindowShownPending = false
+        if (isBoundToService) {
+            try {
+                context.unbindService(serviceConnection)
+            } catch (_: Exception) {
+            }
+        }
+        try {
+            floatingBinder?.clearCallbacks()
+        } catch (_: Exception) {
+        }
+        floatingBinder = null
+        floatingService = null
+        isBoundToService = false
+    }
+
+    private fun setupInputStateCollection() {
+        coroutineScope.launch {
+            inputProcessingState.collect { state ->
+                val isUiToolExecuting = state is InputProcessingState.ExecutingTool
+
+                // Update UI busy state directly on the window state
+                // floatingService?.windowState?.isUiBusy?.value = isUiToolExecuting
+            }
+        }
+    }
+
+    /** 清理资源 */
+    fun cleanup() {
+        try {
+            context.unregisterReceiver(serviceLifecycleReceiver)
+        } catch (_: Exception) {
+        }
+        // 解绑服务
+        disconnectFromService(updateFloatingMode = false)
+    }
+}

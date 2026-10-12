@@ -1,1 +1,56 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5wcm9jZXNzCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCgpvYmplY3QgV29ya3NwYWNlQXR0YWNobWVudFByb2Nlc3NvciB7CiAgICBmdW4gZ2VuZXJhdGVXb3Jrc3BhY2VBdHRhY2htZW50KAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgd29ya3NwYWNlRW52OiBTdHJpbmc/LAogICAgICAgIGNoYW5nZXM6IFdvcmtzcGFjZUNoYW5nZVNuYXBzaG90ID0gV29ya3NwYWNlQ2hhbmdlU25hcHNob3QoZW1wdHlMaXN0KCksIDApCiAgICApOiBTdHJpbmcgewogICAgICAgIHZhbCB3b3Jrc3BhY2VUYWcgPSB3b3Jrc3BhY2VFbnY/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICByZXR1cm4gYnVpbGRTdHJpbmcgewogICAgICAgICAgICBhcHBlbmRMaW5lKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLndvcmtzcGFjZV9hdHRhY2htZW50X2F0dGFjaGVkKSkKICAgICAgICAgICAgaWYgKHdvcmtzcGFjZVRhZy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIGFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcud29ya3NwYWNlX2F0dGFjaG1lbnRfZW52aXJvbm1lbnQsIGVzY2FwZVRleHQod29ya3NwYWNlVGFnKSkpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2hhbmdlcy5pbml0aWFsUm9vdFN0cnVjdHVyZT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0/LmxldCB7IHJvb3RTdHJ1Y3R1cmUgLT4KICAgICAgICAgICAgICAgIGFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcud29ya3NwYWNlX2F0dGFjaG1lbnRfaW5pdGlhbF9sb2FkKSkKICAgICAgICAgICAgICAgIGFwcGVuZExpbmUoZXNjYXBlVGV4dChyb290U3RydWN0dXJlKSkKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoY2hhbmdlcy5jaGFuZ2VzLmlzTm90RW1wdHkoKSB8fCBjaGFuZ2VzLm9taXR0ZWRDb3VudCA+IDApIHsKICAgICAgICAgICAgICAgIGFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcud29ya3NwYWNlX2F0dGFjaG1lbnRfZmlsZV9jaGFuZ2VzKSkKICAgICAgICAgICAgICAgIGNoYW5nZXMuY2hhbmdlcy5mb3JFYWNoIHsgY2hhbmdlIC0+CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kTGluZSgiLSAke2NoYW5nZS5raW5kLmRpc3BsYXlOYW1lKGNvbnRleHQpfSAke2VzY2FwZVRleHQoY2hhbmdlLnJlbGF0aXZlUGF0aCl9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChjaGFuZ2VzLm9taXR0ZWRDb3VudCA+IDApIHsKICAgICAgICAgICAgICAgICAgICBhcHBlbmRMaW5lKAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFIuc3RyaW5nLndvcmtzcGFjZV9hdHRhY2htZW50X29taXR0ZWRfY2hhbmdlcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoYW5nZXMub21pdHRlZENvdW50CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LnRyaW0oKQogICAgfQoKICAgIHByaXZhdGUgZnVuIFdvcmtzcGFjZUZpbGVDaGFuZ2VLaW5kLmRpc3BsYXlOYW1lKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB3aGVuICh0aGlzKSB7CiAgICAgICAgICAgIFdvcmtzcGFjZUZpbGVDaGFuZ2VLaW5kLkNSRUFURUQgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcud29ya3NwYWNlX2F0dGFjaG1lbnRfY2hhbmdlX2NyZWF0ZWQpCiAgICAgICAgICAgIFdvcmtzcGFjZUZpbGVDaGFuZ2VLaW5kLk1PRElGSUVEIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLndvcmtzcGFjZV9hdHRhY2htZW50X2NoYW5nZV9tb2RpZmllZCkKICAgICAgICAgICAgV29ya3NwYWNlRmlsZUNoYW5nZUtpbmQuREVMRVRFRCAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy53b3Jrc3BhY2VfYXR0YWNobWVudF9jaGFuZ2VfZGVsZXRlZCkKICAgICAgICAgICAgV29ya3NwYWNlRmlsZUNoYW5nZUtpbmQuTU9WRUQgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcud29ya3NwYWNlX2F0dGFjaG1lbnRfY2hhbmdlX21vdmVkKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBlc2NhcGVUZXh0KHRleHQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHRleHQKICAgICAgICAgICAgLnJlcGxhY2UoIiYiLCAiJmFtcDsiKQogICAgICAgICAgICAucmVwbGFjZSgiPCIsICImbHQ7IikKICAgICAgICAgICAgLnJlcGxhY2UoIj4iLCAiJmd0OyIpCiAgICAgICAgICAgIC5yZXBsYWNlKCJcIiIsICImcXVvdDsiKQogICAgICAgICAgICAucmVwbGFjZSgiJyIsICImYXBvczsiKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.process
+
+import android.content.Context
+import com.bslsjdk.operit.R
+
+object WorkspaceAttachmentProcessor {
+    fun generateWorkspaceAttachment(
+        context: Context,
+        workspaceEnv: String?,
+        changes: WorkspaceChangeSnapshot = WorkspaceChangeSnapshot(emptyList(), 0)
+    ): String {
+        val workspaceTag = workspaceEnv?.trim().orEmpty()
+        return buildString {
+            appendLine(context.getString(R.string.workspace_attachment_attached))
+            if (workspaceTag.isNotEmpty()) {
+                appendLine(context.getString(R.string.workspace_attachment_environment, escapeText(workspaceTag)))
+            }
+            changes.initialRootStructure?.takeIf { it.isNotBlank() }?.let { rootStructure ->
+                appendLine(context.getString(R.string.workspace_attachment_initial_load))
+                appendLine(escapeText(rootStructure))
+            }
+            if (changes.changes.isNotEmpty() || changes.omittedCount > 0) {
+                appendLine(context.getString(R.string.workspace_attachment_file_changes))
+                changes.changes.forEach { change ->
+                    appendLine("- ${change.kind.displayName(context)} ${escapeText(change.relativePath)}")
+                }
+                if (changes.omittedCount > 0) {
+                    appendLine(
+                        context.getString(
+                            R.string.workspace_attachment_omitted_changes,
+                            changes.omittedCount
+                        )
+                    )
+                }
+            }
+        }.trim()
+    }
+
+    private fun WorkspaceFileChangeKind.displayName(context: Context): String {
+        return when (this) {
+            WorkspaceFileChangeKind.CREATED -> context.getString(R.string.workspace_attachment_change_created)
+            WorkspaceFileChangeKind.MODIFIED -> context.getString(R.string.workspace_attachment_change_modified)
+            WorkspaceFileChangeKind.DELETED -> context.getString(R.string.workspace_attachment_change_deleted)
+            WorkspaceFileChangeKind.MOVED -> context.getString(R.string.workspace_attachment_change_moved)
+        }
+    }
+
+    private fun escapeText(text: String): String {
+        return text
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace("\"", "&quot;")
+            .replace("'", "&apos;")
+    }
+}

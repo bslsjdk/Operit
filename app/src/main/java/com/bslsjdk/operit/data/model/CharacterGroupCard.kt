@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqCiAqIOe+pOe7hOinkuiJsuWNoeaIkOWRmOmFjee9rgogKi8KZGF0YSBjbGFzcyBHcm91cE1lbWJlckNvbmZpZygKICAgIHZhbCBjaGFyYWN0ZXJDYXJkSWQ6IFN0cmluZywKICAgIHZhbCBvcmRlckluZGV4OiBJbnQgPSAwCikKCi8qKgogKiDnvqTnu4Top5LoibLljaEKICovCmRhdGEgY2xhc3MgQ2hhcmFjdGVyR3JvdXBDYXJkKAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgdmFsIGRlc2NyaXB0aW9uOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBtZW1iZXJzOiBMaXN0PEdyb3VwTWVtYmVyQ29uZmlnPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGNyZWF0ZWRBdDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgdmFsIHVwZGF0ZWRBdDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCikK
+package com.bslsjdk.operit.data.model
+
+/**
+ * 群组角色卡成员配置
+ */
+data class GroupMemberConfig(
+    val characterCardId: String,
+    val orderIndex: Int = 0
+)
+
+/**
+ * 群组角色卡
+ */
+data class CharacterGroupCard(
+    val id: String,
+    val name: String,
+    val description: String = "",
+    val members: List<GroupMemberConfig> = emptyList(),
+    val createdAt: Long = System.currentTimeMillis(),
+    val updatedAt: Long = System.currentTimeMillis()
+)

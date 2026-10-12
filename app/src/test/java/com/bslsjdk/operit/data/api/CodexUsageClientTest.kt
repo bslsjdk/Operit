@@ -1,1 +1,90 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5Db2RleFN0b3JlZFVzYWdlU25hcHNob3QKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROdWxsCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE5vdE51bGwKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uZGVjb2RlRnJvbVN0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmVuY29kZVRvU3RyaW5nCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uCgpjbGFzcyBDb2RleFVzYWdlQ2xpZW50VGVzdCB7CiAgICBwcml2YXRlIHZhbCBjbGllbnQgPSBDb2RleFVzYWdlQ2xpZW50KE9rSHR0cENsaWVudCgpKQoKICAgIEBUZXN0CiAgICBmdW4gcGFyc2VzUGxhbkFuZFJvbGxpbmdXaW5kb3dzKCkgewogICAgICAgIHZhbCB1c2FnZSA9IGNsaWVudC5wYXJzZVVzYWdlKAogICAgICAgICAgICAiIiIKICAgICAgICAgICAgewogICAgICAgICAgICAgICJwbGFuX3R5cGUiOiAicGx1cyIsCiAgICAgICAgICAgICAgICAicmF0ZV9saW1pdCI6IHsKICAgICAgICAgICAgICAgICAgInByaW1hcnlfd2luZG93IjogewogICAgICAgICAgICAgICAgICAidXNlZF9wZXJjZW50IjogNTIsCiAgICAgICAgICAgICAgICAgICJsaW1pdF93aW5kb3dfc2Vjb25kcyI6IDYwNDgwMCwKICAgICAgICAgICAgICAgICAgInJlc2V0X2F0IjogMTcwMDQwMDEyMwogICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAic2Vjb25kYXJ5X3dpbmRvdyI6IHsKICAgICAgICAgICAgICAgICAgInVzZWRfcGVyY2VudCI6IDE4LAogICAgICAgICAgICAgICAgICAibGltaXRfd2luZG93X3NlY29uZHMiOiAxODAwMCwKICAgICAgICAgICAgICAgICAgInJlc2V0X2F0IjogMTcwMDAwMDEyMwogICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCksCiAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMoInBsdXMiLCB1c2FnZS5wbGFuVHlwZSkKICAgICAgICBhc3NlcnRFcXVhbHMoODIsIHVzYWdlLmZpdmVIb3VyV2luZG93Py5yZW1haW5pbmdQZXJjZW50KQogICAgICAgIGFzc2VydEVxdWFscyg0OCwgdXNhZ2Uuc2V2ZW5EYXlXaW5kb3c/LnJlbWFpbmluZ1BlcmNlbnQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDE4MDAwTCwgdXNhZ2UuZml2ZUhvdXJXaW5kb3c/LndpbmRvd0R1cmF0aW9uU2Vjb25kcykKICAgICAgICBhc3NlcnRFcXVhbHMoMTcwMDQwMDEyM0wsIHVzYWdlLnNldmVuRGF5V2luZG93Py5yZXNldHNBdEVwb2NoU2Vjb25kcykKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGNsYXNzaWZpZXNTZXZlbkRheVdpbmRvd0Zyb21QcmltYXJ5U2xvdCgpIHsKICAgICAgICB2YWwgdXNhZ2UgPSBjbGllbnQucGFyc2VVc2FnZSgKICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAicGxhbl90eXBlIjogInBsdXMiLAogICAgICAgICAgICAgICJyYXRlX2xpbWl0IjogewogICAgICAgICAgICAgICAgInByaW1hcnlfd2luZG93IjogewogICAgICAgICAgICAgICAgICAidXNlZF9wZXJjZW50IjogNTIsCiAgICAgICAgICAgICAgICAgICJsaW1pdF93aW5kb3dfc2Vjb25kcyI6IDYwNDgwMCwKICAgICAgICAgICAgICAgICAgInJlc2V0X2F0IjogMTcwMDQwMDEyMwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAiIiIudHJpbUluZGVudCgpLAogICAgICAgICkKCiAgICAgICAgYXNzZXJ0TnVsbCh1c2FnZS5maXZlSG91cldpbmRvdykKICAgICAgICBhc3NlcnROb3ROdWxsKHVzYWdlLnNldmVuRGF5V2luZG93KQogICAgICAgIGFzc2VydEVxdWFscyg0OCwgdXNhZ2Uuc2V2ZW5EYXlXaW5kb3c/LnJlbWFpbmluZ1BlcmNlbnQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBwZXJzaXN0ZWRTbmFwc2hvdFJvdW5kVHJpcHNXaXRob3V0VG9rZW5EYXRhKCkgewogICAgICAgIHZhbCB1c2FnZSA9IENvZGV4VXNhZ2VTbmFwc2hvdCgKICAgICAgICAgICAgcGxhblR5cGUgPSAicGx1cyIsCiAgICAgICAgICAgIGZpdmVIb3VyV2luZG93ID0gbnVsbCwKICAgICAgICAgICAgc2V2ZW5EYXlXaW5kb3cgPSBDb2RleFVzYWdlV2luZG93KAogICAgICAgICAgICAgICAgdXNlZFBlcmNlbnQgPSA1NSwKICAgICAgICAgICAgICAgIHdpbmRvd0R1cmF0aW9uU2Vjb25kcyA9IDYwNDgwMEwsCiAgICAgICAgICAgICAgICByZXNldHNBdEVwb2NoU2Vjb25kcyA9IDE3MDA0MDAxMjNMLAogICAgICAgICAgICApLAogICAgICAgICkKICAgICAgICB2YWwgc3RvcmVkID0gQ29kZXhTdG9yZWRVc2FnZVNuYXBzaG90KAogICAgICAgICAgICBhY2NvdW50SWQgPSAiYWNjb3VudC0xIiwKICAgICAgICAgICAgdXNhZ2UgPSB1c2FnZSwKICAgICAgICAgICAgZmV0Y2hlZEF0TWlsbGlzID0gMTcwMDAwMDAwMDAwMEwsCiAgICAgICAgKQoKICAgICAgICB2YWwgZGVjb2RlZCA9IEpzb24uZGVjb2RlRnJvbVN0cmluZzxDb2RleFN0b3JlZFVzYWdlU25hcHNob3Q+KAogICAgICAgICAgICBKc29uLmVuY29kZVRvU3RyaW5nKHN0b3JlZCksCiAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMoc3RvcmVkLCBkZWNvZGVkKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.api
+
+import com.bslsjdk.operit.data.preferences.CodexStoredUsageSnapshot
+import okhttp3.OkHttpClient
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertNotNull
+import org.junit.Test
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+class CodexUsageClientTest {
+    private val client = CodexUsageClient(OkHttpClient())
+
+    @Test
+    fun parsesPlanAndRollingWindows() {
+        val usage = client.parseUsage(
+            """
+            {
+              "plan_type": "plus",
+                "rate_limit": {
+                  "primary_window": {
+                  "used_percent": 52,
+                  "limit_window_seconds": 604800,
+                  "reset_at": 1700400123
+                  },
+                  "secondary_window": {
+                  "used_percent": 18,
+                  "limit_window_seconds": 18000,
+                  "reset_at": 1700000123
+                  }
+              }
+            }
+            """.trimIndent(),
+        )
+
+        assertEquals("plus", usage.planType)
+        assertEquals(82, usage.fiveHourWindow?.remainingPercent)
+        assertEquals(48, usage.sevenDayWindow?.remainingPercent)
+        assertEquals(18000L, usage.fiveHourWindow?.windowDurationSeconds)
+        assertEquals(1700400123L, usage.sevenDayWindow?.resetsAtEpochSeconds)
+    }
+
+    @Test
+    fun classifiesSevenDayWindowFromPrimarySlot() {
+        val usage = client.parseUsage(
+            """
+            {
+              "plan_type": "plus",
+              "rate_limit": {
+                "primary_window": {
+                  "used_percent": 52,
+                  "limit_window_seconds": 604800,
+                  "reset_at": 1700400123
+                }
+              }
+            }
+            """.trimIndent(),
+        )
+
+        assertNull(usage.fiveHourWindow)
+        assertNotNull(usage.sevenDayWindow)
+        assertEquals(48, usage.sevenDayWindow?.remainingPercent)
+    }
+
+    @Test
+    fun persistedSnapshotRoundTripsWithoutTokenData() {
+        val usage = CodexUsageSnapshot(
+            planType = "plus",
+            fiveHourWindow = null,
+            sevenDayWindow = CodexUsageWindow(
+                usedPercent = 55,
+                windowDurationSeconds = 604800L,
+                resetsAtEpochSeconds = 1700400123L,
+            ),
+        )
+        val stored = CodexStoredUsageSnapshot(
+            accountId = "account-1",
+            usage = usage,
+            fetchedAtMillis = 1700000000000L,
+        )
+
+        val decoded = Json.decodeFromString<CodexStoredUsageSnapshot>(
+            Json.encodeToString(stored),
+        )
+
+        assertEquals(stored, decoded)
+    }
+}

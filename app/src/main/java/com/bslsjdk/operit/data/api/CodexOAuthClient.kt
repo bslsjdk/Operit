@@ -1,1 +1,254 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkKCmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQudXRpbC5CYXNlNjQKaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb24KaW1wb3J0IGphdmEubmlvLmNoYXJzZXQuU3RhbmRhcmRDaGFyc2V0cwppbXBvcnQgamF2YS5zZWN1cml0eS5NZXNzYWdlRGlnZXN0CmltcG9ydCBqYXZhLnNlY3VyaXR5LlNlY3VyZVJhbmRvbQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9raHR0cDMuTWVkaWFUeXBlLkNvbXBhbmlvbi50b01lZGlhVHlwZQppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdAppbXBvcnQgb2todHRwMy5SZXF1ZXN0Qm9keS5Db21wYW5pb24udG9SZXF1ZXN0Qm9keQppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CgpkYXRhIGNsYXNzIENvZGV4UGtjZUNvZGVzKAogICAgdmFsIHZlcmlmaWVyOiBTdHJpbmcsCiAgICB2YWwgY2hhbGxlbmdlOiBTdHJpbmcsCikKCmRhdGEgY2xhc3MgQ29kZXhKd3RDbGFpbXMoCiAgICB2YWwgYWNjb3VudElkOiBTdHJpbmc/LAogICAgdmFsIHJlc2lkZW5jeTogU3RyaW5nPywKICAgIHZhbCBlbWFpbDogU3RyaW5nPywKICAgIHZhbCBleHBpcmVzQXRNaWxsaXM6IExvbmc/LAopCgpkYXRhIGNsYXNzIENvZGV4T0F1dGhUb2tlblJlc3BvbnNlKAogICAgdmFsIGlkVG9rZW46IFN0cmluZz8sCiAgICB2YWwgYWNjZXNzVG9rZW46IFN0cmluZz8sCiAgICB2YWwgcmVmcmVzaFRva2VuOiBTdHJpbmc/LAogICAgdmFsIGV4cGlyZXNJblNlY29uZHM6IExvbmc/LAopIHsKICAgIGZ1biByZXF1aXJlQ29tcGxldGUoKTogQ29kZXhPQXV0aFRva2VuUmVzcG9uc2UgewogICAgICAgIHJlcXVpcmUoIWlkVG9rZW4uaXNOdWxsT3JCbGFuaygpKSB7ICJDb2RleCBPQXV0aCByZXNwb25zZSBoYXMgbm8gSUQgdG9rZW4iIH0KICAgICAgICByZXF1aXJlKCFhY2Nlc3NUb2tlbi5pc051bGxPckJsYW5rKCkpIHsgIkNvZGV4IE9BdXRoIHJlc3BvbnNlIGhhcyBubyBhY2Nlc3MgdG9rZW4iIH0KICAgICAgICByZXF1aXJlKCFyZWZyZXNoVG9rZW4uaXNOdWxsT3JCbGFuaygpKSB7ICJDb2RleCBPQXV0aCByZXNwb25zZSBoYXMgbm8gcmVmcmVzaCB0b2tlbiIgfQogICAgICAgIHJldHVybiB0aGlzCiAgICB9Cn0KCm9iamVjdCBDb2RleE9BdXRoUHJvdG9jb2wgewogICAgY29uc3QgdmFsIENMSUVOVF9JRCA9ICJhcHBfRU1vYW1FRVo3M2YwQ2tYYVhwN2hyYW5uIgogICAgY29uc3QgdmFsIElTU1VFUiA9ICJodHRwczovL2F1dGgub3BlbmFpLmNvbSIKICAgIGNvbnN0IHZhbCBDT0RFWF9SRVNQT05TRVNfRU5EUE9JTlQgPSAiaHR0cHM6Ly9jaGF0Z3B0LmNvbS9iYWNrZW5kLWFwaS9jb2RleC9yZXNwb25zZXMiCiAgICBjb25zdCB2YWwgQ09ERVhfVVNBR0VfRU5EUE9JTlQgPSAiaHR0cHM6Ly9jaGF0Z3B0LmNvbS9iYWNrZW5kLWFwaS93aGFtL3VzYWdlIgogICAgY29uc3QgdmFsIE1PREVMX0NBVEFMT0dfRU5EUE9JTlQgPSAiaHR0cHM6Ly9tb2RlbHMub3BlbmNvZGUuYWkvYXBpLmpzb24iCiAgICBjb25zdCB2YWwgUFJJTUFSWV9DQUxMQkFDS19QT1JUID0gMTQ1NQogICAgY29uc3QgdmFsIENBTExCQUNLX1BBVEggPSAiL2F1dGgvY2FsbGJhY2siCiAgICBjb25zdCB2YWwgT0FVVEhfVElNRU9VVF9NSUxMSVMgPSA1ICogNjAgKiAxMDAwTAoKICAgIGZ1biBnZW5lcmF0ZVBrY2UocmFuZG9tOiBTZWN1cmVSYW5kb20gPSBTZWN1cmVSYW5kb20oKSk6IENvZGV4UGtjZUNvZGVzIHsKICAgICAgICB2YWwgdmVyaWZpZXJCeXRlcyA9IEJ5dGVBcnJheSg2NCkKICAgICAgICByYW5kb20ubmV4dEJ5dGVzKHZlcmlmaWVyQnl0ZXMpCiAgICAgICAgdmFsIHZlcmlmaWVyID0gZW5jb2RlQmFzZTY0VXJsKHZlcmlmaWVyQnl0ZXMpCiAgICAgICAgdmFsIGNoYWxsZW5nZSA9IGVuY29kZUJhc2U2NFVybCgKICAgICAgICAgICAgTWVzc2FnZURpZ2VzdC5nZXRJbnN0YW5jZSgiU0hBLTI1NiIpLmRpZ2VzdCh2ZXJpZmllci50b0J5dGVBcnJheShTdGFuZGFyZENoYXJzZXRzLlVTX0FTQ0lJKSkKICAgICAgICApCiAgICAgICAgcmV0dXJuIENvZGV4UGtjZUNvZGVzKHZlcmlmaWVyID0gdmVyaWZpZXIsIGNoYWxsZW5nZSA9IGNoYWxsZW5nZSkKICAgIH0KCiAgICBmdW4gZ2VuZXJhdGVTdGF0ZShyYW5kb206IFNlY3VyZVJhbmRvbSA9IFNlY3VyZVJhbmRvbSgpKTogU3RyaW5nIHsKICAgICAgICB2YWwgc3RhdGVCeXRlcyA9IEJ5dGVBcnJheSgzMikKICAgICAgICByYW5kb20ubmV4dEJ5dGVzKHN0YXRlQnl0ZXMpCiAgICAgICAgcmV0dXJuIGVuY29kZUJhc2U2NFVybChzdGF0ZUJ5dGVzKQogICAgfQoKICAgIGZ1biBidWlsZEF1dGhvcml6YXRpb25VcmwoCiAgICAgICAgcmVkaXJlY3RVcmk6IFN0cmluZywKICAgICAgICBwa2NlOiBDb2RleFBrY2VDb2RlcywKICAgICAgICBzdGF0ZTogU3RyaW5nLAogICAgKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gVXJpLnBhcnNlKCIkSVNTVUVSL29hdXRoL2F1dGhvcml6ZSIpLmJ1aWxkVXBvbigpCiAgICAgICAgICAgIC5hcHBlbmRRdWVyeVBhcmFtZXRlcigicmVzcG9uc2VfdHlwZSIsICJjb2RlIikKICAgICAgICAgICAgLmFwcGVuZFF1ZXJ5UGFyYW1ldGVyKCJjbGllbnRfaWQiLCBDTElFTlRfSUQpCiAgICAgICAgICAgIC5hcHBlbmRRdWVyeVBhcmFtZXRlcigicmVkaXJlY3RfdXJpIiwgcmVkaXJlY3RVcmkpCiAgICAgICAgICAgIC5hcHBlbmRRdWVyeVBhcmFtZXRlcigKICAgICAgICAgICAgICAgICJzY29wZSIsCiAgICAgICAgICAgICAgICAib3BlbmlkIHByb2ZpbGUgZW1haWwgb2ZmbGluZV9hY2Nlc3MiLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5hcHBlbmRRdWVyeVBhcmFtZXRlcigiY29kZV9jaGFsbGVuZ2UiLCBwa2NlLmNoYWxsZW5nZSkKICAgICAgICAgICAgLmFwcGVuZFF1ZXJ5UGFyYW1ldGVyKCJjb2RlX2NoYWxsZW5nZV9tZXRob2QiLCAiUzI1NiIpCiAgICAgICAgICAgIC5hcHBlbmRRdWVyeVBhcmFtZXRlcigiaWRfdG9rZW5fYWRkX29yZ2FuaXphdGlvbnMiLCAidHJ1ZSIpCiAgICAgICAgICAgIC5hcHBlbmRRdWVyeVBhcmFtZXRlcigiY29kZXhfY2xpX3NpbXBsaWZpZWRfZmxvdyIsICJ0cnVlIikKICAgICAgICAgICAgLmFwcGVuZFF1ZXJ5UGFyYW1ldGVyKCJzdGF0ZSIsIHN0YXRlKQogICAgICAgICAgICAuYXBwZW5kUXVlcnlQYXJhbWV0ZXIoIm9yaWdpbmF0b3IiLCAib3Blcml0IikKICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICAgICAgLnRvU3RyaW5nKCkKICAgIH0KCiAgICBmdW4gcGFyc2VKd3RDbGFpbXModG9rZW46IFN0cmluZyk6IENvZGV4Snd0Q2xhaW1zPyB7CiAgICAgICAgdmFsIHBhcnRzID0gdG9rZW4uc3BsaXQoJy4nKQogICAgICAgIGlmIChwYXJ0cy5zaXplICE9IDMgfHwgcGFydHNbMV0uaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgcGF5bG9hZCA9IHRyeSB7CiAgICAgICAgICAgIEJhc2U2NC5kZWNvZGUocGFydHNbMV0sIEJhc2U2NC5VUkxfU0FGRSBvciBCYXNlNjQuTk9fV1JBUCBvciBCYXNlNjQuTk9fUEFERElORykKICAgICAgICB9IGNhdGNoIChfOiBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24pIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgdmFsIGpzb24gPSB0cnkgewogICAgICAgICAgICBKU09OT2JqZWN0KFN0cmluZyhwYXlsb2FkLCBTdGFuZGFyZENoYXJzZXRzLlVURl84KSkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIHZhbCBhdXRoQ2xhaW1zID0ganNvbi5vcHRKU09OT2JqZWN0KCJodHRwczovL2FwaS5vcGVuYWkuY29tL2F1dGgiKQogICAgICAgIHZhbCBhY2NvdW50SWQgPSBmaXJzdE5vbkJsYW5rKAogICAgICAgICAgICBqc29uLm9wdFN0cmluZygiY2hhdGdwdF9hY2NvdW50X2lkIiwgIiIpLAogICAgICAgICAgICBhdXRoQ2xhaW1zPy5vcHRTdHJpbmcoImNoYXRncHRfYWNjb3VudF9pZCIsICIiKS5vckVtcHR5KCksCiAgICAgICAgICAgIGZpcnN0T3JnYW5pemF0aW9uSWQoanNvbi5vcHRKU09OQXJyYXkoIm9yZ2FuaXphdGlvbnMiKSksCiAgICAgICAgKQogICAgICAgIHZhbCByZXNpZGVuY3kgPSBmaXJzdE5vbkJsYW5rKAogICAgICAgICAgICBqc29uLm9wdFN0cmluZygiY2hhdGdwdF9jb21wdXRlX3Jlc2lkZW5jeSIsICIiKSwKICAgICAgICAgICAgYXV0aENsYWltcz8ub3B0U3RyaW5nKCJjaGF0Z3B0X2NvbXB1dGVfcmVzaWRlbmN5IiwgIiIpLm9yRW1wdHkoKSwKICAgICAgICApPy50YWtlVW5sZXNzIHsgaXQgPT0gIm5vX2NvbnN0cmFpbnQiIH0KICAgICAgICB2YWwgZW1haWwgPSBmaXJzdE5vbkJsYW5rKAogICAgICAgICAgICBqc29uLm9wdFN0cmluZygiZW1haWwiLCAiIiksCiAgICAgICAgICAgIGpzb24ub3B0SlNPTk9iamVjdCgiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS9wcm9maWxlIik/Lm9wdFN0cmluZygiZW1haWwiLCAiIikub3JFbXB0eSgpLAogICAgICAgICkKICAgICAgICB2YWwgZXhwaXJlc0F0TWlsbGlzID0ganNvbi5vcHRMb25nKCJleHAiLCAtMUwpCiAgICAgICAgICAgIC50YWtlSWYgeyBpdCA+IDBMIH0KICAgICAgICAgICAgPy50aW1lcygxMDAwTCkKCiAgICAgICAgcmV0dXJuIENvZGV4Snd0Q2xhaW1zKAogICAgICAgICAgICBhY2NvdW50SWQgPSBhY2NvdW50SWQsCiAgICAgICAgICAgIHJlc2lkZW5jeSA9IHJlc2lkZW5jeSwKICAgICAgICAgICAgZW1haWwgPSBlbWFpbCwKICAgICAgICAgICAgZXhwaXJlc0F0TWlsbGlzID0gZXhwaXJlc0F0TWlsbGlzLAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBmaXJzdE9yZ2FuaXphdGlvbklkKG9yZ2FuaXphdGlvbnM6IEpTT05BcnJheT8pOiBTdHJpbmcgewogICAgICAgIHJldHVybiBvcmdhbml6YXRpb25zPy5vcHRKU09OT2JqZWN0KDApPy5vcHRTdHJpbmcoImlkIiwgIiIpLm9yRW1wdHkoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGZpcnN0Tm9uQmxhbmsodmFyYXJnIHZhbHVlczogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgcmV0dXJuIHZhbHVlcy5maXJzdE9yTnVsbCB7IGl0LmlzTm90QmxhbmsoKSB9Py50cmltKCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBlbmNvZGVCYXNlNjRVcmwoYnl0ZXM6IEJ5dGVBcnJheSk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIEJhc2U2NC5lbmNvZGVUb1N0cmluZygKICAgICAgICAgICAgYnl0ZXMsCiAgICAgICAgICAgIEJhc2U2NC5VUkxfU0FGRSBvciBCYXNlNjQuTk9fV1JBUCBvciBCYXNlNjQuTk9fUEFERElORywKICAgICAgICApCiAgICB9Cn0KCmNsYXNzIENvZGV4T0F1dGhDbGllbnQoCiAgICBwcml2YXRlIHZhbCBjbGllbnQ6IE9rSHR0cENsaWVudCwKICAgIHByaXZhdGUgdmFsIGlzc3VlcjogU3RyaW5nID0gQ29kZXhPQXV0aFByb3RvY29sLklTU1VFUiwKKSB7CiAgICBzdXNwZW5kIGZ1biBleGNoYW5nZUF1dGhvcml6YXRpb25Db2RlKAogICAgICAgIGNvZGU6IFN0cmluZywKICAgICAgICByZWRpcmVjdFVyaTogU3RyaW5nLAogICAgICAgIHZlcmlmaWVyOiBTdHJpbmcsCiAgICApOiBDb2RleE9BdXRoVG9rZW5SZXNwb25zZSB7CiAgICAgICAgdmFsIGJvZHkgPSBsaXN0T2YoCiAgICAgICAgICAgICJncmFudF90eXBlIiB0byAiYXV0aG9yaXphdGlvbl9jb2RlIiwKICAgICAgICAgICAgImNvZGUiIHRvIGNvZGUsCiAgICAgICAgICAgICJyZWRpcmVjdF91cmkiIHRvIHJlZGlyZWN0VXJpLAogICAgICAgICAgICAiY2xpZW50X2lkIiB0byBDb2RleE9BdXRoUHJvdG9jb2wuQ0xJRU5UX0lELAogICAgICAgICAgICAiY29kZV92ZXJpZmllciIgdG8gdmVyaWZpZXIsCiAgICAgICAgKS50b0Zvcm1Cb2R5KCkKICAgICAgICByZXR1cm4gZXhlY3V0ZVRva2VuUmVxdWVzdCgKICAgICAgICAgICAgUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgICAgIC51cmwoZW5kcG9pbnQoIi9vYXV0aC90b2tlbiIpKQogICAgICAgICAgICAgICAgLnBvc3QoYm9keSkKICAgICAgICAgICAgICAgIC5oZWFkZXIoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQiKQogICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICApLnJlcXVpcmVDb21wbGV0ZSgpCiAgICB9CgogICAgc3VzcGVuZCBmdW4gcmVmcmVzaEFjY2Vzc1Rva2VuKHJlZnJlc2hUb2tlbjogU3RyaW5nKTogQ29kZXhPQXV0aFRva2VuUmVzcG9uc2UgewogICAgICAgIHZhbCBib2R5ID0gbGlzdE9mKAogICAgICAgICAgICAiZ3JhbnRfdHlwZSIgdG8gInJlZnJlc2hfdG9rZW4iLAogICAgICAgICAgICAicmVmcmVzaF90b2tlbiIgdG8gcmVmcmVzaFRva2VuLAogICAgICAgICAgICAiY2xpZW50X2lkIiB0byBDb2RleE9BdXRoUHJvdG9jb2wuQ0xJRU5UX0lELAogICAgICAgICkudG9Gb3JtQm9keSgpCiAgICAgICAgcmV0dXJuIGV4ZWN1dGVUb2tlblJlcXVlc3QoCiAgICAgICAgICAgIFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAudXJsKGVuZHBvaW50KCIvb2F1dGgvdG9rZW4iKSkKICAgICAgICAgICAgICAgIC5wb3N0KGJvZHkpCiAgICAgICAgICAgICAgICAuaGVhZGVyKCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24veC13d3ctZm9ybS11cmxlbmNvZGVkIikKICAgICAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHJldm9rZVRva2VuKHRva2VuOiBTdHJpbmcsIHRva2VuVHlwZUhpbnQ6IFN0cmluZykgewogICAgICAgIHZhbCBib2R5ID0gbGlzdE9mKAogICAgICAgICAgICAidG9rZW4iIHRvIHRva2VuLAogICAgICAgICAgICAidG9rZW5fdHlwZV9oaW50IiB0byB0b2tlblR5cGVIaW50LAogICAgICAgICAgICAiY2xpZW50X2lkIiB0byBDb2RleE9BdXRoUHJvdG9jb2wuQ0xJRU5UX0lELAogICAgICAgICkudG9Gb3JtQm9keSgpCiAgICAgICAgZXhlY3V0ZVJlcXVlc3QoCiAgICAgICAgICAgIFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAudXJsKGVuZHBvaW50KCIvb2F1dGgvcmV2b2tlIikpCiAgICAgICAgICAgICAgICAucG9zdChib2R5KQogICAgICAgICAgICAgICAgLmhlYWRlcigiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL3gtd3d3LWZvcm0tdXJsZW5jb2RlZCIpCiAgICAgICAgICAgICAgICAuYnVpbGQoKQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGV4ZWN1dGVUb2tlblJlcXVlc3QocmVxdWVzdDogUmVxdWVzdCk6IENvZGV4T0F1dGhUb2tlblJlc3BvbnNlIHsKICAgICAgICB2YWwgcmVzcG9uc2VCb2R5ID0gZXhlY3V0ZVJlcXVlc3QocmVxdWVzdCkKICAgICAgICB2YWwganNvbiA9IEpTT05PYmplY3QocmVzcG9uc2VCb2R5KQogICAgICAgIHJldHVybiBDb2RleE9BdXRoVG9rZW5SZXNwb25zZSgKICAgICAgICAgICAgaWRUb2tlbiA9IGpzb24ub3B0U3RyaW5nKCJpZF90b2tlbiIsICIiKS50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSwKICAgICAgICAgICAgYWNjZXNzVG9rZW4gPSBqc29uLm9wdFN0cmluZygiYWNjZXNzX3Rva2VuIiwgIiIpLnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9LAogICAgICAgICAgICByZWZyZXNoVG9rZW4gPSBqc29uLm9wdFN0cmluZygicmVmcmVzaF90b2tlbiIsICIiKS50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSwKICAgICAgICAgICAgZXhwaXJlc0luU2Vjb25kcyA9IGpzb24ub3B0TG9uZygiZXhwaXJlc19pbiIsIC0xTCkudGFrZUlmIHsgaXQgPiAwTCB9LAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGV4ZWN1dGVSZXF1ZXN0KHJlcXVlc3Q6IFJlcXVlc3QpOiBTdHJpbmcgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIGNsaWVudC5uZXdDYWxsKHJlcXVlc3QpLmV4ZWN1dGUoKS51c2UgeyByZXNwb25zZSAtPgogICAgICAgICAgICB2YWwgYm9keSA9IHJlc3BvbnNlLmJvZHk/LnN0cmluZygpLm9yRW1wdHkoKQogICAgICAgICAgICBpZiAoIXJlc3BvbnNlLmlzU3VjY2Vzc2Z1bCkgewogICAgICAgICAgICAgICAgdGhyb3cgSU9FeGNlcHRpb24oCiAgICAgICAgICAgICAgICAgICAgIkNvZGV4IE9BdXRoIHJlcXVlc3QgZmFpbGVkIHdpdGggSFRUUCAke3Jlc3BvbnNlLmNvZGV9OiAiICsKICAgICAgICAgICAgICAgICAgICAgICAgb2F1dGhFcnJvck1lc3NhZ2UoYm9keSksCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYm9keQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBlbmRwb2ludChwYXRoOiBTdHJpbmcpOiBTdHJpbmcgPSBpc3N1ZXIudHJpbUVuZCgnLycpICsgcGF0aAoKICAgIHByaXZhdGUgZnVuIG9hdXRoRXJyb3JNZXNzYWdlKGJvZHk6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgaWYgKGJvZHkuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiAiZW1wdHkgcmVzcG9uc2UiCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwganNvbiA9IEpTT05PYmplY3QoYm9keSkKICAgICAgICAgICAganNvbi5vcHRTdHJpbmcoImVycm9yX2Rlc2NyaXB0aW9uIiwgIiIpCiAgICAgICAgICAgICAgICAuaWZCbGFuayB7IGpzb24ub3B0U3RyaW5nKCJlcnJvciIsICIiKSB9CiAgICAgICAgICAgICAgICAuaWZCbGFuayB7ICJpbnZhbGlkIHJlc3BvbnNlIiB9CiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICJpbnZhbGlkIHJlc3BvbnNlIgogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBMaXN0PFBhaXI8U3RyaW5nLCBTdHJpbmc+Pi50b0Zvcm1Cb2R5KCk6IG9raHR0cDMuUmVxdWVzdEJvZHkgewogICAgICAgIHZhbCBlbmNvZGVkID0gam9pblRvU3RyaW5nKCImIikgeyAoa2V5LCB2YWx1ZSkgLT4KICAgICAgICAgICAgamF2YS5uZXQuVVJMRW5jb2Rlci5lbmNvZGUoa2V5LCBTdGFuZGFyZENoYXJzZXRzLlVURl84Lm5hbWUoKSkgKyAiPSIgKwogICAgICAgICAgICAgICAgamF2YS5uZXQuVVJMRW5jb2Rlci5lbmNvZGUodmFsdWUsIFN0YW5kYXJkQ2hhcnNldHMuVVRGXzgubmFtZSgpKQogICAgICAgIH0KICAgICAgICByZXR1cm4gZW5jb2RlZC50b1JlcXVlc3RCb2R5KCJhcHBsaWNhdGlvbi94LXd3dy1mb3JtLXVybGVuY29kZWQiLnRvTWVkaWFUeXBlKCkpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.api
+
+import android.net.Uri
+import android.util.Base64
+import java.io.IOException
+import java.nio.charset.StandardCharsets
+import java.security.MessageDigest
+import java.security.SecureRandom
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody.Companion.toRequestBody
+import org.json.JSONArray
+import org.json.JSONObject
+
+data class CodexPkceCodes(
+    val verifier: String,
+    val challenge: String,
+)
+
+data class CodexJwtClaims(
+    val accountId: String?,
+    val residency: String?,
+    val email: String?,
+    val expiresAtMillis: Long?,
+)
+
+data class CodexOAuthTokenResponse(
+    val idToken: String?,
+    val accessToken: String?,
+    val refreshToken: String?,
+    val expiresInSeconds: Long?,
+) {
+    fun requireComplete(): CodexOAuthTokenResponse {
+        require(!idToken.isNullOrBlank()) { "Codex OAuth response has no ID token" }
+        require(!accessToken.isNullOrBlank()) { "Codex OAuth response has no access token" }
+        require(!refreshToken.isNullOrBlank()) { "Codex OAuth response has no refresh token" }
+        return this
+    }
+}
+
+object CodexOAuthProtocol {
+    const val CLIENT_ID = "app_EMoamEEZ73f0CkXaXp7hrann"
+    const val ISSUER = "https://auth.openai.com"
+    const val CODEX_RESPONSES_ENDPOINT = "https://chatgpt.com/backend-api/codex/responses"
+    const val CODEX_USAGE_ENDPOINT = "https://chatgpt.com/backend-api/wham/usage"
+    const val MODEL_CATALOG_ENDPOINT = "https://models.opencode.ai/api.json"
+    const val PRIMARY_CALLBACK_PORT = 1455
+    const val CALLBACK_PATH = "/auth/callback"
+    const val OAUTH_TIMEOUT_MILLIS = 5 * 60 * 1000L
+
+    fun generatePkce(random: SecureRandom = SecureRandom()): CodexPkceCodes {
+        val verifierBytes = ByteArray(64)
+        random.nextBytes(verifierBytes)
+        val verifier = encodeBase64Url(verifierBytes)
+        val challenge = encodeBase64Url(
+            MessageDigest.getInstance("SHA-256").digest(verifier.toByteArray(StandardCharsets.US_ASCII))
+        )
+        return CodexPkceCodes(verifier = verifier, challenge = challenge)
+    }
+
+    fun generateState(random: SecureRandom = SecureRandom()): String {
+        val stateBytes = ByteArray(32)
+        random.nextBytes(stateBytes)
+        return encodeBase64Url(stateBytes)
+    }
+
+    fun buildAuthorizationUrl(
+        redirectUri: String,
+        pkce: CodexPkceCodes,
+        state: String,
+    ): String {
+        return Uri.parse("$ISSUER/oauth/authorize").buildUpon()
+            .appendQueryParameter("response_type", "code")
+            .appendQueryParameter("client_id", CLIENT_ID)
+            .appendQueryParameter("redirect_uri", redirectUri)
+            .appendQueryParameter(
+                "scope",
+                "openid profile email offline_access",
+            )
+            .appendQueryParameter("code_challenge", pkce.challenge)
+            .appendQueryParameter("code_challenge_method", "S256")
+            .appendQueryParameter("id_token_add_organizations", "true")
+            .appendQueryParameter("codex_cli_simplified_flow", "true")
+            .appendQueryParameter("state", state)
+            .appendQueryParameter("originator", "operit")
+            .build()
+            .toString()
+    }
+
+    fun parseJwtClaims(token: String): CodexJwtClaims? {
+        val parts = token.split('.')
+        if (parts.size != 3 || parts[1].isBlank()) {
+            return null
+        }
+
+        val payload = try {
+            Base64.decode(parts[1], Base64.URL_SAFE or Base64.NO_WRAP or Base64.NO_PADDING)
+        } catch (_: IllegalArgumentException) {
+            return null
+        }
+        val json = try {
+            JSONObject(String(payload, StandardCharsets.UTF_8))
+        } catch (_: Exception) {
+            return null
+        }
+
+        val authClaims = json.optJSONObject("https://api.openai.com/auth")
+        val accountId = firstNonBlank(
+            json.optString("chatgpt_account_id", ""),
+            authClaims?.optString("chatgpt_account_id", "").orEmpty(),
+            firstOrganizationId(json.optJSONArray("organizations")),
+        )
+        val residency = firstNonBlank(
+            json.optString("chatgpt_compute_residency", ""),
+            authClaims?.optString("chatgpt_compute_residency", "").orEmpty(),
+        )?.takeUnless { it == "no_constraint" }
+        val email = firstNonBlank(
+            json.optString("email", ""),
+            json.optJSONObject("https://api.openai.com/profile")?.optString("email", "").orEmpty(),
+        )
+        val expiresAtMillis = json.optLong("exp", -1L)
+            .takeIf { it > 0L }
+            ?.times(1000L)
+
+        return CodexJwtClaims(
+            accountId = accountId,
+            residency = residency,
+            email = email,
+            expiresAtMillis = expiresAtMillis,
+        )
+    }
+
+    private fun firstOrganizationId(organizations: JSONArray?): String {
+        return organizations?.optJSONObject(0)?.optString("id", "").orEmpty()
+    }
+
+    private fun firstNonBlank(vararg values: String): String? {
+        return values.firstOrNull { it.isNotBlank() }?.trim()
+    }
+
+    private fun encodeBase64Url(bytes: ByteArray): String {
+        return Base64.encodeToString(
+            bytes,
+            Base64.URL_SAFE or Base64.NO_WRAP or Base64.NO_PADDING,
+        )
+    }
+}
+
+class CodexOAuthClient(
+    private val client: OkHttpClient,
+    private val issuer: String = CodexOAuthProtocol.ISSUER,
+) {
+    suspend fun exchangeAuthorizationCode(
+        code: String,
+        redirectUri: String,
+        verifier: String,
+    ): CodexOAuthTokenResponse {
+        val body = listOf(
+            "grant_type" to "authorization_code",
+            "code" to code,
+            "redirect_uri" to redirectUri,
+            "client_id" to CodexOAuthProtocol.CLIENT_ID,
+            "code_verifier" to verifier,
+        ).toFormBody()
+        return executeTokenRequest(
+            Request.Builder()
+                .url(endpoint("/oauth/token"))
+                .post(body)
+                .header("Content-Type", "application/x-www-form-urlencoded")
+                .build()
+        ).requireComplete()
+    }
+
+    suspend fun refreshAccessToken(refreshToken: String): CodexOAuthTokenResponse {
+        val body = listOf(
+            "grant_type" to "refresh_token",
+            "refresh_token" to refreshToken,
+            "client_id" to CodexOAuthProtocol.CLIENT_ID,
+        ).toFormBody()
+        return executeTokenRequest(
+            Request.Builder()
+                .url(endpoint("/oauth/token"))
+                .post(body)
+                .header("Content-Type", "application/x-www-form-urlencoded")
+                .build()
+        )
+    }
+
+    suspend fun revokeToken(token: String, tokenTypeHint: String) {
+        val body = listOf(
+            "token" to token,
+            "token_type_hint" to tokenTypeHint,
+            "client_id" to CodexOAuthProtocol.CLIENT_ID,
+        ).toFormBody()
+        executeRequest(
+            Request.Builder()
+                .url(endpoint("/oauth/revoke"))
+                .post(body)
+                .header("Content-Type", "application/x-www-form-urlencoded")
+                .build()
+        )
+    }
+
+    private suspend fun executeTokenRequest(request: Request): CodexOAuthTokenResponse {
+        val responseBody = executeRequest(request)
+        val json = JSONObject(responseBody)
+        return CodexOAuthTokenResponse(
+            idToken = json.optString("id_token", "").takeIf { it.isNotBlank() },
+            accessToken = json.optString("access_token", "").takeIf { it.isNotBlank() },
+            refreshToken = json.optString("refresh_token", "").takeIf { it.isNotBlank() },
+            expiresInSeconds = json.optLong("expires_in", -1L).takeIf { it > 0L },
+        )
+    }
+
+    private suspend fun executeRequest(request: Request): String = withContext(Dispatchers.IO) {
+        client.newCall(request).execute().use { response ->
+            val body = response.body?.string().orEmpty()
+            if (!response.isSuccessful) {
+                throw IOException(
+                    "Codex OAuth request failed with HTTP ${response.code}: " +
+                        oauthErrorMessage(body),
+                )
+            }
+            body
+        }
+    }
+
+    private fun endpoint(path: String): String = issuer.trimEnd('/') + path
+
+    private fun oauthErrorMessage(body: String): String {
+        if (body.isBlank()) {
+            return "empty response"
+        }
+        return try {
+            val json = JSONObject(body)
+            json.optString("error_description", "")
+                .ifBlank { json.optString("error", "") }
+                .ifBlank { "invalid response" }
+        } catch (_: Exception) {
+            "invalid response"
+        }
+    }
+
+    private fun List<Pair<String, String>>.toFormBody(): okhttp3.RequestBody {
+        val encoded = joinToString("&") { (key, value) ->
+            java.net.URLEncoder.encode(key, StandardCharsets.UTF_8.name()) + "=" +
+                java.net.URLEncoder.encode(value, StandardCharsets.UTF_8.name())
+        }
+        return encoded.toRequestBody("application/x-www-form-urlencoded".toMediaType())
+    }
+}

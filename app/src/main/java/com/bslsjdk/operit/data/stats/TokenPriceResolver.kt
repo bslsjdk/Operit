@@ -1,1 +1,86 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmNvbGxlY3RzLkRlZmF1bHRNb2RlbFByaWNpbmdDb2xsZWN0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cy5QcmljaW5nQ3VycmVuY3kKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkJpbGxpbmdNb2RlCgpkYXRhIGNsYXNzIE1vZGVsUHJpY2VTZXR0aW5ncygKICAgIHZhbCBiaWxsaW5nTW9kZTogQmlsbGluZ01vZGU/ID0gbnVsbCwKICAgIHZhbCBjdXJyZW5jeTogUHJpY2luZ0N1cnJlbmN5PyA9IG51bGwsCiAgICB2YWwgaW5wdXRQcmljZVBlck1pbGxpb246IERvdWJsZT8gPSBudWxsLAogICAgdmFsIGNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uOiBEb3VibGU/ID0gbnVsbCwKICAgIHZhbCBjYWNoZVdyaXRlUHJpY2VQZXJNaWxsaW9uOiBEb3VibGU/ID0gbnVsbCwKICAgIHZhbCBvdXRwdXRQcmljZVBlck1pbGxpb246IERvdWJsZT8gPSBudWxsLAogICAgdmFsIHByaWNlUGVyUmVxdWVzdDogRG91YmxlPyA9IG51bGwsCikgewogICAgZnVuIGhhc0FueVVzZXJTZXR0aW5nKCk6IEJvb2xlYW4gPQogICAgICAgIGJpbGxpbmdNb2RlICE9IG51bGwgfHwKICAgICAgICAgICAgY3VycmVuY3kgIT0gbnVsbCB8fAogICAgICAgICAgICBpbnB1dFByaWNlUGVyTWlsbGlvbiAhPSBudWxsIHx8CiAgICAgICAgICAgIGNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uICE9IG51bGwgfHwKICAgICAgICAgICAgY2FjaGVXcml0ZVByaWNlUGVyTWlsbGlvbiAhPSBudWxsIHx8CiAgICAgICAgICAgIG91dHB1dFByaWNlUGVyTWlsbGlvbiAhPSBudWxsIHx8CiAgICAgICAgICAgIHByaWNlUGVyUmVxdWVzdCAhPSBudWxsCn0KCmRhdGEgY2xhc3MgVG9rZW5QcmljZVNldHRpbmdzU25hcHNob3QoCiAgICB2YWwgcHJvdmlkZXJNb2RlbHM6IE1hcDxTdHJpbmcsIE1vZGVsUHJpY2VTZXR0aW5ncz8+LAogICAgdmFsIGNvbmZpZ3M6IE1hcDxTdHJpbmcsIE1vZGVsUHJpY2VTZXR0aW5ncz4sCikgewogICAgZnVuIHNldHRpbmdGb3IocHJvdmlkZXJNb2RlbDogU3RyaW5nLCBjb25maWdJZDogU3RyaW5nPyk6IE1vZGVsUHJpY2VTZXR0aW5ncz8gewogICAgICAgIHZhbCBtb2RlbCA9IHByb3ZpZGVyTW9kZWxzW3Byb3ZpZGVyTW9kZWxdCiAgICAgICAgdmFsIGNvbmZpZyA9IGNvbmZpZ0lkPy5sZXQgeyBjb25maWdzW3Rva2VuUHJpY2VDb25maWdLZXkocHJvdmlkZXJNb2RlbCwgaXQpXSB9CiAgICAgICAgaWYgKGNvbmZpZyA9PSBudWxsKSByZXR1cm4gbW9kZWwKICAgICAgICByZXR1cm4gTW9kZWxQcmljZVNldHRpbmdzKAogICAgICAgICAgICBiaWxsaW5nTW9kZSA9IGNvbmZpZy5iaWxsaW5nTW9kZSA/OiBtb2RlbD8uYmlsbGluZ01vZGUsCiAgICAgICAgICAgIGN1cnJlbmN5ID0gY29uZmlnLmN1cnJlbmN5ID86IG1vZGVsPy5jdXJyZW5jeSwKICAgICAgICAgICAgaW5wdXRQcmljZVBlck1pbGxpb24gPSBjb25maWcuaW5wdXRQcmljZVBlck1pbGxpb24gPzogbW9kZWw/LmlucHV0UHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICBjYWNoZWRJbnB1dFByaWNlUGVyTWlsbGlvbiA9CiAgICAgICAgICAgICAgICBjb25maWcuY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb24gPzogbW9kZWw/LmNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICBjYWNoZVdyaXRlUHJpY2VQZXJNaWxsaW9uID0KICAgICAgICAgICAgICAgIGNvbmZpZy5jYWNoZVdyaXRlUHJpY2VQZXJNaWxsaW9uID86IG1vZGVsPy5jYWNoZVdyaXRlUHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICBvdXRwdXRQcmljZVBlck1pbGxpb24gPSBjb25maWcub3V0cHV0UHJpY2VQZXJNaWxsaW9uID86IG1vZGVsPy5vdXRwdXRQcmljZVBlck1pbGxpb24sCiAgICAgICAgICAgIHByaWNlUGVyUmVxdWVzdCA9IGNvbmZpZy5wcmljZVBlclJlcXVlc3QgPzogbW9kZWw/LnByaWNlUGVyUmVxdWVzdCwKICAgICAgICApCiAgICB9Cn0KCmludGVybmFsIGZ1biB0b2tlblByaWNlQ29uZmlnS2V5KHByb3ZpZGVyTW9kZWw6IFN0cmluZywgY29uZmlnSWQ6IFN0cmluZyk6IFN0cmluZyA9CiAgICAiJHByb3ZpZGVyTW9kZWxcdTAwMWYkY29uZmlnSWQiCgpkYXRhIGNsYXNzIFJlc29sdmVkVG9rZW5QcmljaW5nKAogICAgdmFsIGJpbGxpbmdNb2RlOiBCaWxsaW5nTW9kZSwKICAgIHZhbCBjdXJyZW5jeTogUHJpY2luZ0N1cnJlbmN5LAogICAgdmFsIGlucHV0UHJpY2VQZXJNaWxsaW9uOiBEb3VibGUsCiAgICB2YWwgY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb246IERvdWJsZSwKICAgIHZhbCBjYWNoZVdyaXRlUHJpY2VQZXJNaWxsaW9uOiBEb3VibGUsCiAgICB2YWwgb3V0cHV0UHJpY2VQZXJNaWxsaW9uOiBEb3VibGUsCiAgICB2YWwgcHJpY2VQZXJSZXF1ZXN0OiBEb3VibGUsCiAgICB2YWwgc291cmNlOiBQcmljaW5nU291cmNlLAopCgovKiogUmVzb2x2ZXMgb25seSB0aGUgY3VycmVudCBwcmljZTogdXNlciBzZXR0aW5nIGZpcnN0LCB0aGVuIHRoZSBidWlsdC1pbiBtb2RlbCB0YWJsZS4gKi8Kb2JqZWN0IFRva2VuUHJpY2VSZXNvbHZlciB7CiAgICBmdW4gcmVzb2x2ZSgKICAgICAgICBwcm92aWRlck1vZGVsOiBTdHJpbmcsCiAgICAgICAgdXNlcjogTW9kZWxQcmljZVNldHRpbmdzPywKICAgICk6IFJlc29sdmVkVG9rZW5QcmljaW5nIHsKICAgICAgICB2YWwgZGVmYXVsdHMgPSBEZWZhdWx0TW9kZWxQcmljaW5nQ29sbGVjdC5nZXREZWZhdWx0UHJpY2luZyhwcm92aWRlck1vZGVsKQogICAgICAgIHJldHVybiBSZXNvbHZlZFRva2VuUHJpY2luZygKICAgICAgICAgICAgYmlsbGluZ01vZGUgPSB1c2VyPy5iaWxsaW5nTW9kZSA/OiBkZWZhdWx0cy5iaWxsaW5nTW9kZSwKICAgICAgICAgICAgY3VycmVuY3kgPSB1c2VyPy5jdXJyZW5jeSA/OiBkZWZhdWx0cy5jdXJyZW5jeSwKICAgICAgICAgICAgaW5wdXRQcmljZVBlck1pbGxpb24gPSB1c2VyPy5pbnB1dFByaWNlUGVyTWlsbGlvbiA/OiBkZWZhdWx0cy5pbnB1dFByaWNlUGVyTWlsbGlvbiwKICAgICAgICAgICAgY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb24gPQogICAgICAgICAgICAgICAgdXNlcj8uY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb24KICAgICAgICAgICAgICAgICAgICA/OiB1c2VyPy5pbnB1dFByaWNlUGVyTWlsbGlvbgogICAgICAgICAgICAgICAgICAgID86IGRlZmF1bHRzLmNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICBjYWNoZVdyaXRlUHJpY2VQZXJNaWxsaW9uID0KICAgICAgICAgICAgICAgIHVzZXI/LmNhY2hlV3JpdGVQcmljZVBlck1pbGxpb24KICAgICAgICAgICAgICAgICAgICA/OiB1c2VyPy5pbnB1dFByaWNlUGVyTWlsbGlvbgogICAgICAgICAgICAgICAgICAgID86IGRlZmF1bHRzLmlucHV0UHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICBvdXRwdXRQcmljZVBlck1pbGxpb24gPSB1c2VyPy5vdXRwdXRQcmljZVBlck1pbGxpb24gPzogZGVmYXVsdHMub3V0cHV0UHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICBwcmljZVBlclJlcXVlc3QgPSB1c2VyPy5wcmljZVBlclJlcXVlc3QgPzogZGVmYXVsdHMucHJpY2VQZXJSZXF1ZXN0LAogICAgICAgICAgICBzb3VyY2UgPSBpZiAodXNlcj8uaGFzQW55VXNlclNldHRpbmcoKSA9PSB0cnVlKSBQcmljaW5nU291cmNlLlVTRVIgZWxzZSBQcmljaW5nU291cmNlLkJVSUxUX0lOLAogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.stats
+
+import com.bslsjdk.operit.data.collects.DefaultModelPricingCollect
+import com.bslsjdk.operit.data.collects.PricingCurrency
+import com.bslsjdk.operit.data.model.BillingMode
+
+data class ModelPriceSettings(
+    val billingMode: BillingMode? = null,
+    val currency: PricingCurrency? = null,
+    val inputPricePerMillion: Double? = null,
+    val cachedInputPricePerMillion: Double? = null,
+    val cacheWritePricePerMillion: Double? = null,
+    val outputPricePerMillion: Double? = null,
+    val pricePerRequest: Double? = null,
+) {
+    fun hasAnyUserSetting(): Boolean =
+        billingMode != null ||
+            currency != null ||
+            inputPricePerMillion != null ||
+            cachedInputPricePerMillion != null ||
+            cacheWritePricePerMillion != null ||
+            outputPricePerMillion != null ||
+            pricePerRequest != null
+}
+
+data class TokenPriceSettingsSnapshot(
+    val providerModels: Map<String, ModelPriceSettings?>,
+    val configs: Map<String, ModelPriceSettings>,
+) {
+    fun settingFor(providerModel: String, configId: String?): ModelPriceSettings? {
+        val model = providerModels[providerModel]
+        val config = configId?.let { configs[tokenPriceConfigKey(providerModel, it)] }
+        if (config == null) return model
+        return ModelPriceSettings(
+            billingMode = config.billingMode ?: model?.billingMode,
+            currency = config.currency ?: model?.currency,
+            inputPricePerMillion = config.inputPricePerMillion ?: model?.inputPricePerMillion,
+            cachedInputPricePerMillion =
+                config.cachedInputPricePerMillion ?: model?.cachedInputPricePerMillion,
+            cacheWritePricePerMillion =
+                config.cacheWritePricePerMillion ?: model?.cacheWritePricePerMillion,
+            outputPricePerMillion = config.outputPricePerMillion ?: model?.outputPricePerMillion,
+            pricePerRequest = config.pricePerRequest ?: model?.pricePerRequest,
+        )
+    }
+}
+
+internal fun tokenPriceConfigKey(providerModel: String, configId: String): String =
+    "$providerModel\u001f$configId"
+
+data class ResolvedTokenPricing(
+    val billingMode: BillingMode,
+    val currency: PricingCurrency,
+    val inputPricePerMillion: Double,
+    val cachedInputPricePerMillion: Double,
+    val cacheWritePricePerMillion: Double,
+    val outputPricePerMillion: Double,
+    val pricePerRequest: Double,
+    val source: PricingSource,
+)
+
+/** Resolves only the current price: user setting first, then the built-in model table. */
+object TokenPriceResolver {
+    fun resolve(
+        providerModel: String,
+        user: ModelPriceSettings?,
+    ): ResolvedTokenPricing {
+        val defaults = DefaultModelPricingCollect.getDefaultPricing(providerModel)
+        return ResolvedTokenPricing(
+            billingMode = user?.billingMode ?: defaults.billingMode,
+            currency = user?.currency ?: defaults.currency,
+            inputPricePerMillion = user?.inputPricePerMillion ?: defaults.inputPricePerMillion,
+            cachedInputPricePerMillion =
+                user?.cachedInputPricePerMillion
+                    ?: user?.inputPricePerMillion
+                    ?: defaults.cachedInputPricePerMillion,
+            cacheWritePricePerMillion =
+                user?.cacheWritePricePerMillion
+                    ?: user?.inputPricePerMillion
+                    ?: defaults.inputPricePerMillion,
+            outputPricePerMillion = user?.outputPricePerMillion ?: defaults.outputPricePerMillion,
+            pricePerRequest = user?.pricePerRequest ?: defaults.pricePerRequest,
+            source = if (user?.hasAnyUserSetting() == true) PricingSource.USER else PricingSource.BUILT_IN,
+        )
+    }
+}

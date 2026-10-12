@@ -1,1 +1,45 @@
-LyoKICogQ29weXJpZ2h0IDIwMjEgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGFuZHJvaWQub3MuUGFyY2VsCmltcG9ydCBhbmRyb2lkLm9zLlBhcmNlbGFibGUKCmZ1biBnZXREZWZhdWx0TGF6eUxheW91dEtleShpbmRleDogSW50KTogQW55ID0gRGVmYXVsdExhenlLZXkoaW5kZXgpCgpAU3VwcHJlc3NMaW50KCJCYW5QYXJjZWxhYmxlVXNhZ2UiKQpwcml2YXRlIGRhdGEgY2xhc3MgRGVmYXVsdExhenlLZXkocHJpdmF0ZSB2YWwgaW5kZXg6IEludCkgOiBQYXJjZWxhYmxlIHsKICAgIG92ZXJyaWRlIGZ1biB3cml0ZVRvUGFyY2VsKHBhcmNlbDogUGFyY2VsLCBmbGFnczogSW50KSB7CiAgICAgICAgcGFyY2VsLndyaXRlSW50KGluZGV4KQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBkZXNjcmliZUNvbnRlbnRzKCk6IEludCB7CiAgICAgICAgcmV0dXJuIDAKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBAU3VwcHJlc3MoInVudXNlZCIpCiAgICAgICAgQEp2bUZpZWxkCiAgICAgICAgdmFsIENSRUFUT1I6IFBhcmNlbGFibGUuQ3JlYXRvcjxEZWZhdWx0TGF6eUtleT4gPQogICAgICAgICAgICBvYmplY3QgOiBQYXJjZWxhYmxlLkNyZWF0b3I8RGVmYXVsdExhenlLZXk+IHsKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBjcmVhdGVGcm9tUGFyY2VsKHBhcmNlbDogUGFyY2VsKSA9IERlZmF1bHRMYXp5S2V5KHBhcmNlbC5yZWFkSW50KCkpCgogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG5ld0FycmF5KHNpemU6IEludCkgPSBhcnJheU9mTnVsbHM8RGVmYXVsdExhenlLZXk/PihzaXplKQogICAgICAgICAgICB9CiAgICB9Cn0K
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import android.annotation.SuppressLint
+import android.os.Parcel
+import android.os.Parcelable
+
+fun getDefaultLazyLayoutKey(index: Int): Any = DefaultLazyKey(index)
+
+@SuppressLint("BanParcelableUsage")
+private data class DefaultLazyKey(private val index: Int) : Parcelable {
+    override fun writeToParcel(parcel: Parcel, flags: Int) {
+        parcel.writeInt(index)
+    }
+
+    override fun describeContents(): Int {
+        return 0
+    }
+
+    companion object {
+        @Suppress("unused")
+        @JvmField
+        val CREATOR: Parcelable.Creator<DefaultLazyKey> =
+            object : Parcelable.Creator<DefaultLazyKey> {
+                override fun createFromParcel(parcel: Parcel) = DefaultLazyKey(parcel.readInt())
+
+                override fun newArray(size: Int) = arrayOfNulls<DefaultLazyKey?>(size)
+            }
+    }
+}

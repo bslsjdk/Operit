@@ -1,1 +1,162 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5BZnRlcgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0Tm90TnVsbAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ2hhdE1lc3NhZ2VUZXN0IHsKCiAgICBAQWZ0ZXIKICAgIGZ1biB0ZWFyRG93bigpIHsKICAgICAgICBDaGF0TWVzc2FnZVRpbWVzdGFtcEFsbG9jYXRvci5uZXh0KCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGRlZmF1bHQgc2VuZGVyIGlzIHVzZXJgKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ1c2VyIiwgbXNnLnNlbmRlcikKICAgIH0KCiAgICBAVGVzdCBmdW4gYGRlZmF1bHQgY29udGVudCBpcyBlbXB0eWAoKSB7CiAgICAgICAgdmFsIG1zZyA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJ1c2VyIikKICAgICAgICBhc3NlcnRFcXVhbHMoIiIsIG1zZy5jb250ZW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3VzdG9tIGNvbnRlbnQgaXMgc3RvcmVkYCgpIHsKICAgICAgICB2YWwgbXNnID0gQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiLCBjb250ZW50ID0gIkhlbGxvIikKICAgICAgICBhc3NlcnRFcXVhbHMoIkhlbGxvIiwgbXNnLmNvbnRlbnQpCiAgICB9CgogICAgQFRlc3QgZnVuIGB0aW1lc3RhbXAgaXMgYWxsb2NhdGVkYCgpIHsKICAgICAgICB2YWwgbXNnID0gQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiKQogICAgICAgIGFzc2VydFRydWUobXNnLnRpbWVzdGFtcCA+IDApCiAgICB9CgogICAgQFRlc3QgZnVuIGBjb25zZWN1dGl2ZSBtZXNzYWdlcyBoYXZlIGluY3JlYXNpbmcgdGltZXN0YW1wc2AoKSB7CiAgICAgICAgdmFsIG1zZzEgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgdmFsIG1zZzIgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgYXNzZXJ0VHJ1ZShtc2cyLnRpbWVzdGFtcCA+IG1zZzEudGltZXN0YW1wKQogICAgfQoKICAgIEBUZXN0IGZ1biBgcm9sZSBuYW1lIGNhbiBiZSBzZXRgKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIsIHJvbGVOYW1lID0gImFzc2lzdGFudCIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJhc3Npc3RhbnQiLCBtc2cucm9sZU5hbWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGBzZWxlY3RlZCB2YXJpYW50IGluZGV4IGRlZmF1bHRzIHRvIHplcm9gKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIG1zZy5zZWxlY3RlZFZhcmlhbnRJbmRleCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHZhcmlhbnQgY291bnQgZGVmYXVsdHMgdG8gb25lYCgpIHsKICAgICAgICB2YWwgbXNnID0gQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiKQogICAgICAgIGFzc2VydEVxdWFscygxLCBtc2cudmFyaWFudENvdW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgcHJvdmlkZXIgZGVmYXVsdHMgdG8gZW1wdHlgKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCBtc2cucHJvdmlkZXIpCiAgICB9CgogICAgQFRlc3QgZnVuIGBtb2RlbCBuYW1lIGRlZmF1bHRzIHRvIGVtcHR5YCgpIHsKICAgICAgICB2YWwgbXNnID0gQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiKQogICAgICAgIGFzc2VydEVxdWFscygiIiwgbXNnLm1vZGVsTmFtZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGlucHV0IHRva2VucyBkZWZhdWx0cyB0byB6ZXJvYCgpIHsKICAgICAgICB2YWwgbXNnID0gQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiKQogICAgICAgIGFzc2VydEVxdWFscygwLCBtc2cuaW5wdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QgZnVuIGBvdXRwdXQgdG9rZW5zIGRlZmF1bHRzIHRvIHplcm9gKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIG1zZy5vdXRwdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QgZnVuIGBkaXNwbGF5IG1vZGUgZGVmYXVsdHMgdG8gbm9ybWFsYCgpIHsKICAgICAgICB2YWwgbXNnID0gQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiKQogICAgICAgIGFzc2VydEVxdWFscyhDaGF0TWVzc2FnZURpc3BsYXlNb2RlLk5PUk1BTCwgbXNnLmRpc3BsYXlNb2RlKQogICAgfQoKICAgIEBUZXN0IGZ1biBgaXMgZmF2b3JpdGUgZGVmYXVsdHMgdG8gZmFsc2VgKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgYXNzZXJ0RmFsc2UobXNnLmlzRmF2b3JpdGUpCiAgICB9CgogICAgQFRlc3QgZnVuIGBpcyBmYXZvcml0ZSBjYW4gYmUgc2V0IHRvIHRydWVgKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIsIGlzRmF2b3JpdGUgPSB0cnVlKQogICAgICAgIGFzc2VydFRydWUobXNnLmlzRmF2b3JpdGUpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjb3B5IHdpdGggbmV3IGNvbnRlbnRgKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIsIGNvbnRlbnQgPSAib3JpZ2luYWwiKQogICAgICAgIHZhbCBjb3B5ID0gbXNnLmNvcHkoY29udGVudCA9ICJtb2RpZmllZCIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJtb2RpZmllZCIsIGNvcHkuY29udGVudCkKICAgICAgICBhc3NlcnRFcXVhbHMobXNnLnNlbmRlciwgY29weS5zZW5kZXIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG1zZy50aW1lc3RhbXAsIGNvcHkudGltZXN0YW1wKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSB3aXRoIG5ldyBwcm92aWRlcmAoKSB7CiAgICAgICAgdmFsIG1zZyA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJhaSIsIHByb3ZpZGVyID0gIm9wZW5haSIpCiAgICAgICAgdmFsIGNvcHkgPSBtc2cuY29weShwcm92aWRlciA9ICJhbnRocm9waWMiKQogICAgICAgIGFzc2VydEVxdWFscygiYW50aHJvcGljIiwgY29weS5wcm92aWRlcikKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNvcHkgd2l0aCB0b2tlbnMgdXBkYXRlZGAoKSB7CiAgICAgICAgdmFsIG1zZyA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJhaSIpCiAgICAgICAgdmFsIGNvcHkgPSBtc2cuY29weShpbnB1dFRva2VucyA9IDEwMCwgb3V0cHV0VG9rZW5zID0gNTApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMCwgY29weS5pbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoNTAsIGNvcHkub3V0cHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSB3aXRoIGRpc3BsYXkgbW9kZWAoKSB7CiAgICAgICAgdmFsIG1zZyA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJhaSIpCiAgICAgICAgdmFsIGNvcHkgPSBtc2cuY29weShkaXNwbGF5TW9kZSA9IENoYXRNZXNzYWdlRGlzcGxheU1vZGUuSElEREVOX1BMQUNFSE9MREVSKQogICAgICAgIGFzc2VydEVxdWFscyhDaGF0TWVzc2FnZURpc3BsYXlNb2RlLkhJRERFTl9QTEFDRUhPTERFUiwgY29weS5kaXNwbGF5TW9kZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGlzIHZhcmlhbnQgcHJldmlldyBkZWZhdWx0cyB0byBmYWxzZWAoKSB7CiAgICAgICAgdmFsIG1zZyA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJ1c2VyIikKICAgICAgICBhc3NlcnRGYWxzZShtc2cuaXNWYXJpYW50UHJldmlldykKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNvbnRlbnQgc3RyZWFtIGRlZmF1bHRzIHRvIG51bGxgKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG51bGwsIG1zZy5jb250ZW50U3RyZWFtKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY2FjaGVkIGlucHV0IHRva2VucyBkZWZhdWx0cyB0byB6ZXJvYCgpIHsKICAgICAgICB2YWwgbXNnID0gQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiKQogICAgICAgIGFzc2VydEVxdWFscygwLCBtc2cuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QgZnVuIGBzZW50IGF0IGRlZmF1bHRzIHRvIHplcm9gKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBtc2cuc2VudEF0KQogICAgfQoKICAgIEBUZXN0IGZ1biBgb3V0cHV0IGR1cmF0aW9uIGRlZmF1bHRzIHRvIHplcm9gKCkgewogICAgICAgIHZhbCBtc2cgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBtc2cub3V0cHV0RHVyYXRpb25NcykKICAgIH0KCiAgICBAVGVzdCBmdW4gYHdhaXQgZHVyYXRpb24gZGVmYXVsdHMgdG8gemVyb2AoKSB7CiAgICAgICAgdmFsIG1zZyA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJ1c2VyIikKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIG1zZy53YWl0RHVyYXRpb25NcykKICAgIH0KCiAgICBAVGVzdCBmdW4gYGFpIG1lc3NhZ2UgY2FuIGhhdmUgbW9kZWwgaW5mb2AoKSB7CiAgICAgICAgdmFsIG1zZyA9IENoYXRNZXNzYWdlKHNlbmRlciA9ICJhaSIsIG1vZGVsTmFtZSA9ICJncHQtNCIsIHByb3ZpZGVyID0gIm9wZW5haSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJncHQtNCIsIG1zZy5tb2RlbE5hbWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJvcGVuYWkiLCBtc2cucHJvdmlkZXIpCiAgICB9CgogICAgQFRlc3QgZnVuIGBtdWx0aXBsZSBtZXNzYWdlcyBoYXZlIGRpc3RpbmN0IHRpbWVzdGFtcHNgKCkgewogICAgICAgIHZhbCBtc2dzID0gKDEuLjEwKS5tYXAgeyBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIpIH0KICAgICAgICBmb3IgKGkgaW4gMSB1bnRpbCBtc2dzLnNpemUpIHsKICAgICAgICAgICAgYXNzZXJ0VHJ1ZShtc2dzW2ldLnRpbWVzdGFtcCA+IG1zZ3NbaSAtIDFdLnRpbWVzdGFtcCkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.data.model
+
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMessageTest {
+
+    @After
+    fun tearDown() {
+        ChatMessageTimestampAllocator.next()
+    }
+
+    @Test fun `default sender is user`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals("user", msg.sender)
+    }
+
+    @Test fun `default content is empty`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals("", msg.content)
+    }
+
+    @Test fun `custom content is stored`() {
+        val msg = ChatMessage(sender = "user", content = "Hello")
+        assertEquals("Hello", msg.content)
+    }
+
+    @Test fun `timestamp is allocated`() {
+        val msg = ChatMessage(sender = "user")
+        assertTrue(msg.timestamp > 0)
+    }
+
+    @Test fun `consecutive messages have increasing timestamps`() {
+        val msg1 = ChatMessage(sender = "user")
+        val msg2 = ChatMessage(sender = "user")
+        assertTrue(msg2.timestamp > msg1.timestamp)
+    }
+
+    @Test fun `role name can be set`() {
+        val msg = ChatMessage(sender = "user", roleName = "assistant")
+        assertEquals("assistant", msg.roleName)
+    }
+
+    @Test fun `selected variant index defaults to zero`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(0, msg.selectedVariantIndex)
+    }
+
+    @Test fun `variant count defaults to one`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(1, msg.variantCount)
+    }
+
+    @Test fun `provider defaults to empty`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals("", msg.provider)
+    }
+
+    @Test fun `model name defaults to empty`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals("", msg.modelName)
+    }
+
+    @Test fun `input tokens defaults to zero`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(0, msg.inputTokens)
+    }
+
+    @Test fun `output tokens defaults to zero`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(0, msg.outputTokens)
+    }
+
+    @Test fun `display mode defaults to normal`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(ChatMessageDisplayMode.NORMAL, msg.displayMode)
+    }
+
+    @Test fun `is favorite defaults to false`() {
+        val msg = ChatMessage(sender = "user")
+        assertFalse(msg.isFavorite)
+    }
+
+    @Test fun `is favorite can be set to true`() {
+        val msg = ChatMessage(sender = "user", isFavorite = true)
+        assertTrue(msg.isFavorite)
+    }
+
+    @Test fun `copy with new content`() {
+        val msg = ChatMessage(sender = "user", content = "original")
+        val copy = msg.copy(content = "modified")
+        assertEquals("modified", copy.content)
+        assertEquals(msg.sender, copy.sender)
+        assertEquals(msg.timestamp, copy.timestamp)
+    }
+
+    @Test fun `copy with new provider`() {
+        val msg = ChatMessage(sender = "ai", provider = "openai")
+        val copy = msg.copy(provider = "anthropic")
+        assertEquals("anthropic", copy.provider)
+    }
+
+    @Test fun `copy with tokens updated`() {
+        val msg = ChatMessage(sender = "ai")
+        val copy = msg.copy(inputTokens = 100, outputTokens = 50)
+        assertEquals(100, copy.inputTokens)
+        assertEquals(50, copy.outputTokens)
+    }
+
+    @Test fun `copy with display mode`() {
+        val msg = ChatMessage(sender = "ai")
+        val copy = msg.copy(displayMode = ChatMessageDisplayMode.HIDDEN_PLACEHOLDER)
+        assertEquals(ChatMessageDisplayMode.HIDDEN_PLACEHOLDER, copy.displayMode)
+    }
+
+    @Test fun `is variant preview defaults to false`() {
+        val msg = ChatMessage(sender = "user")
+        assertFalse(msg.isVariantPreview)
+    }
+
+    @Test fun `content stream defaults to null`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(null, msg.contentStream)
+    }
+
+    @Test fun `cached input tokens defaults to zero`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(0, msg.cachedInputTokens)
+    }
+
+    @Test fun `sent at defaults to zero`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(0L, msg.sentAt)
+    }
+
+    @Test fun `output duration defaults to zero`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(0L, msg.outputDurationMs)
+    }
+
+    @Test fun `wait duration defaults to zero`() {
+        val msg = ChatMessage(sender = "user")
+        assertEquals(0L, msg.waitDurationMs)
+    }
+
+    @Test fun `ai message can have model info`() {
+        val msg = ChatMessage(sender = "ai", modelName = "gpt-4", provider = "openai")
+        assertEquals("gpt-4", msg.modelName)
+        assertEquals("openai", msg.provider)
+    }
+
+    @Test fun `multiple messages have distinct timestamps`() {
+        val msgs = (1..10).map { ChatMessage(sender = "user") }
+        for (i in 1 until msgs.size) {
+            assertTrue(msgs[i].timestamp > msgs[i - 1].timestamp)
+        }
+    }
+}

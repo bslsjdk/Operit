@@ -1,1 +1,126 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGphdmEudXRpbC5Db2xsZWN0aW9ucwppbXBvcnQgamF2YS51dGlsLklkZW50aXR5SGFzaE1hcAoKb2JqZWN0IFRocm93YWJsZVRleHRGb3JtYXR0ZXIgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIERFRkFVTFRfTUFYX0NIQVJTID0gMjRfMDAwCiAgICBwcml2YXRlIGNvbnN0IHZhbCBNSU5fTUFYX0NIQVJTID0gNTEyCiAgICBwcml2YXRlIGNvbnN0IHZhbCBNQVhfRlJBTUVTX1BFUl9USFJPV0FCTEUgPSA2NAogICAgcHJpdmF0ZSBjb25zdCB2YWwgTUFYX0NBVVNFX0RFUFRIID0gOAogICAgcHJpdmF0ZSBjb25zdCB2YWwgVFJVTkNBVEVEX01BUktFUiA9ICJcbi4uLiBbdHJ1bmNhdGVkXSIKICAgIHByaXZhdGUgY29uc3QgdmFsIEZPUk1BVF9GQUlMVVJFX01BUktFUiA9ICJcbjxzdGFjayB0cmFjZSBvbWl0dGVkPiIKCiAgICBASnZtU3RhdGljCiAgICBmdW4gZm9ybWF0KHRocm93YWJsZTogVGhyb3dhYmxlPywgbWF4Q2hhcnM6IEludCA9IERFRkFVTFRfTUFYX0NIQVJTKTogU3RyaW5nIHsKICAgICAgICBpZiAodGhyb3dhYmxlID09IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuICIiCiAgICAgICAgfQogICAgICAgIHZhbCBsaW1pdCA9IG1heENoYXJzLmNvZXJjZUF0TGVhc3QoTUlOX01BWF9DSEFSUykKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJpbmdCdWlsZGVyKG1pbk9mKDIwNDgsIGxpbWl0KSkKICAgICAgICAgICAgdmFsIHNlZW4gPSBDb2xsZWN0aW9ucy5uZXdTZXRGcm9tTWFwKElkZW50aXR5SGFzaE1hcDxUaHJvd2FibGUsIEJvb2xlYW4+KCkpCiAgICAgICAgICAgIGFwcGVuZFRocm93YWJsZShidWlsZGVyLCB0aHJvd2FibGUsIHNlZW4sIGxpbWl0LCAwKQogICAgICAgICAgICBidWlsZGVyLnRvU3RyaW5nKCkKICAgICAgICB9IGNhdGNoIChfOiBPdXRPZk1lbW9yeUVycm9yKSB7CiAgICAgICAgICAgIGJ1aWxkTWluaW1hbFRleHQodGhyb3dhYmxlLCBsaW1pdCkKICAgICAgICB9IGNhdGNoIChfOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgYnVpbGRNaW5pbWFsVGV4dCh0aHJvd2FibGUsIGxpbWl0KQogICAgICAgIH0KICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBmdW4gdHJ1bmNhdGVUZXh0KHRleHQ6IFN0cmluZz8sIG1heENoYXJzOiBJbnQgPSBERUZBVUxUX01BWF9DSEFSUyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGxpbWl0ID0gbWF4Q2hhcnMuY29lcmNlQXRMZWFzdChNSU5fTUFYX0NIQVJTKQogICAgICAgIHZhbCBzb3VyY2UgPSB0ZXh0Lm9yRW1wdHkoKQogICAgICAgIGlmIChzb3VyY2UubGVuZ3RoIDw9IGxpbWl0KSB7CiAgICAgICAgICAgIHJldHVybiBzb3VyY2UKICAgICAgICB9CiAgICAgICAgdmFsIHZpc2libGVDaGFycyA9IChsaW1pdCAtIFRSVU5DQVRFRF9NQVJLRVIubGVuZ3RoKS5jb2VyY2VBdExlYXN0KDApCiAgICAgICAgcmV0dXJuIGlmICh2aXNpYmxlQ2hhcnMgPT0gMCkgewogICAgICAgICAgICBUUlVOQ0FURURfTUFSS0VSLnRha2UobGltaXQpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc291cmNlLnRha2UodmlzaWJsZUNoYXJzKSArIFRSVU5DQVRFRF9NQVJLRVIKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGRNaW5pbWFsVGV4dCh0aHJvd2FibGU6IFRocm93YWJsZSwgbWF4Q2hhcnM6IEludCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGJhc2UgPSBidWlsZFN0cmluZyB7CiAgICAgICAgICAgIGFwcGVuZCh0aHJvd2FibGUuamF2YUNsYXNzLm5hbWUpCiAgICAgICAgICAgIHZhbCBtZXNzYWdlID0gdGhyb3dhYmxlLm1lc3NhZ2U/LnRyaW0oKS50YWtlVW5sZXNzIHsgaXQuaXNOdWxsT3JFbXB0eSgpIH0KICAgICAgICAgICAgaWYgKG1lc3NhZ2UgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgYXBwZW5kKCI6ICIpLmFwcGVuZChtZXNzYWdlKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGFwcGVuZChGT1JNQVRfRkFJTFVSRV9NQVJLRVIpCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVuY2F0ZVRleHQoYmFzZSwgbWF4Q2hhcnMpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwZW5kVGhyb3dhYmxlKAogICAgICAgIGJ1aWxkZXI6IFN0cmluZ0J1aWxkZXIsCiAgICAgICAgdGhyb3dhYmxlOiBUaHJvd2FibGUsCiAgICAgICAgc2VlbjogTXV0YWJsZVNldDxUaHJvd2FibGU+LAogICAgICAgIG1heENoYXJzOiBJbnQsCiAgICAgICAgZGVwdGg6IEludAogICAgKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKGRlcHRoID49IE1BWF9DQVVTRV9ERVBUSCkgewogICAgICAgICAgICByZXR1cm4gYXBwZW5kQm91bmRlZChidWlsZGVyLCAiQ2F1c2VkIGJ5OiA8Y2F1c2UgY2hhaW4gdHJ1bmNhdGVkPlxuIiwgbWF4Q2hhcnMpCiAgICAgICAgfQogICAgICAgIGlmICghc2Vlbi5hZGQodGhyb3dhYmxlKSkgewogICAgICAgICAgICByZXR1cm4gYXBwZW5kQm91bmRlZChidWlsZGVyLCAiQ2F1c2VkIGJ5OiA8Y2lyY3VsYXIgY2F1c2Ugb21pdHRlZD5cbiIsIG1heENoYXJzKQogICAgICAgIH0KICAgICAgICBpZiAoZGVwdGggPiAwICYmICFhcHBlbmRCb3VuZGVkKGJ1aWxkZXIsICJDYXVzZWQgYnk6ICIsIG1heENoYXJzKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgaWYgKCFhcHBlbmRCb3VuZGVkKGJ1aWxkZXIsIHRocm93YWJsZS5qYXZhQ2xhc3MubmFtZSwgbWF4Q2hhcnMpKSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICB2YWwgbWVzc2FnZSA9IHRocm93YWJsZS5tZXNzYWdlPy50cmltKCkudGFrZVVubGVzcyB7IGl0LmlzTnVsbE9yRW1wdHkoKSB9CiAgICAgICAgaWYgKG1lc3NhZ2UgIT0gbnVsbCAmJiAhYXBwZW5kQm91bmRlZChidWlsZGVyLCAiOiAkbWVzc2FnZSIsIG1heENoYXJzKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgaWYgKCFhcHBlbmRCb3VuZGVkKGJ1aWxkZXIsICJcbiIsIG1heENoYXJzKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CgogICAgICAgIHZhbCBmcmFtZXMgPSB0aHJvd2FibGUuc3RhY2tUcmFjZQogICAgICAgIHZhbCBmcmFtZUNvdW50ID0gbWluT2YoZnJhbWVzLnNpemUsIE1BWF9GUkFNRVNfUEVSX1RIUk9XQUJMRSkKICAgICAgICBmb3IgKGluZGV4IGluIDAgdW50aWwgZnJhbWVDb3VudCkgewogICAgICAgICAgICBpZiAoIWFwcGVuZEJvdW5kZWQoYnVpbGRlciwgIiAgICBhdCAke2ZyYW1lc1tpbmRleF19XG4iLCBtYXhDaGFycykpIHsKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmIChmcmFtZXMuc2l6ZSA+IGZyYW1lQ291bnQgJiYgIWFwcGVuZEJvdW5kZWQoYnVpbGRlciwgIiAgICAuLi4gJHtmcmFtZXMuc2l6ZSAtIGZyYW1lQ291bnR9IG1vcmUgZnJhbWVzXG4iLCBtYXhDaGFycykpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICB2YWwgY2F1c2UgPSB0aHJvd2FibGUuY2F1c2UKICAgICAgICBpZiAoY2F1c2UgIT0gbnVsbCAmJiBjYXVzZSAhPT0gdGhyb3dhYmxlKSB7CiAgICAgICAgICAgIHJldHVybiBhcHBlbmRUaHJvd2FibGUoYnVpbGRlciwgY2F1c2UsIHNlZW4sIG1heENoYXJzLCBkZXB0aCArIDEpCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwZW5kQm91bmRlZChidWlsZGVyOiBTdHJpbmdCdWlsZGVyLCB0ZXh0OiBTdHJpbmcsIG1heENoYXJzOiBJbnQpOiBCb29sZWFuIHsKICAgICAgICBpZiAodGV4dC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICB9CiAgICAgICAgdmFsIHJlbWFpbmluZyA9IG1heENoYXJzIC0gYnVpbGRlci5sZW5ndGgKICAgICAgICBpZiAocmVtYWluaW5nIDw9IDApIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIGlmICh0ZXh0Lmxlbmd0aCA8PSByZW1haW5pbmcpIHsKICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQodGV4dCkKICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICB9CiAgICAgICAgaWYgKHJlbWFpbmluZyA8PSBUUlVOQ0FURURfTUFSS0VSLmxlbmd0aCkgewogICAgICAgICAgICBidWlsZGVyLmFwcGVuZChUUlVOQ0FURURfTUFSS0VSLCAwLCByZW1haW5pbmcpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICB2YWwgdmlzaWJsZUNoYXJzID0gcmVtYWluaW5nIC0gVFJVTkNBVEVEX01BUktFUi5sZW5ndGgKICAgICAgICBidWlsZGVyLmFwcGVuZCh0ZXh0LCAwLCB2aXNpYmxlQ2hhcnMpCiAgICAgICAgYnVpbGRlci5hcHBlbmQoVFJVTkNBVEVEX01BUktFUikKICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import java.util.Collections
+import java.util.IdentityHashMap
+
+object ThrowableTextFormatter {
+
+    private const val DEFAULT_MAX_CHARS = 24_000
+    private const val MIN_MAX_CHARS = 512
+    private const val MAX_FRAMES_PER_THROWABLE = 64
+    private const val MAX_CAUSE_DEPTH = 8
+    private const val TRUNCATED_MARKER = "\n... [truncated]"
+    private const val FORMAT_FAILURE_MARKER = "\n<stack trace omitted>"
+
+    @JvmStatic
+    fun format(throwable: Throwable?, maxChars: Int = DEFAULT_MAX_CHARS): String {
+        if (throwable == null) {
+            return ""
+        }
+        val limit = maxChars.coerceAtLeast(MIN_MAX_CHARS)
+        return try {
+            val builder = StringBuilder(minOf(2048, limit))
+            val seen = Collections.newSetFromMap(IdentityHashMap<Throwable, Boolean>())
+            appendThrowable(builder, throwable, seen, limit, 0)
+            builder.toString()
+        } catch (_: OutOfMemoryError) {
+            buildMinimalText(throwable, limit)
+        } catch (_: Throwable) {
+            buildMinimalText(throwable, limit)
+        }
+    }
+
+    @JvmStatic
+    fun truncateText(text: String?, maxChars: Int = DEFAULT_MAX_CHARS): String {
+        val limit = maxChars.coerceAtLeast(MIN_MAX_CHARS)
+        val source = text.orEmpty()
+        if (source.length <= limit) {
+            return source
+        }
+        val visibleChars = (limit - TRUNCATED_MARKER.length).coerceAtLeast(0)
+        return if (visibleChars == 0) {
+            TRUNCATED_MARKER.take(limit)
+        } else {
+            source.take(visibleChars) + TRUNCATED_MARKER
+        }
+    }
+
+    private fun buildMinimalText(throwable: Throwable, maxChars: Int): String {
+        val base = buildString {
+            append(throwable.javaClass.name)
+            val message = throwable.message?.trim().takeUnless { it.isNullOrEmpty() }
+            if (message != null) {
+                append(": ").append(message)
+            }
+            append(FORMAT_FAILURE_MARKER)
+        }
+        return truncateText(base, maxChars)
+    }
+
+    private fun appendThrowable(
+        builder: StringBuilder,
+        throwable: Throwable,
+        seen: MutableSet<Throwable>,
+        maxChars: Int,
+        depth: Int
+    ): Boolean {
+        if (depth >= MAX_CAUSE_DEPTH) {
+            return appendBounded(builder, "Caused by: <cause chain truncated>\n", maxChars)
+        }
+        if (!seen.add(throwable)) {
+            return appendBounded(builder, "Caused by: <circular cause omitted>\n", maxChars)
+        }
+        if (depth > 0 && !appendBounded(builder, "Caused by: ", maxChars)) {
+            return false
+        }
+        if (!appendBounded(builder, throwable.javaClass.name, maxChars)) {
+            return false
+        }
+        val message = throwable.message?.trim().takeUnless { it.isNullOrEmpty() }
+        if (message != null && !appendBounded(builder, ": $message", maxChars)) {
+            return false
+        }
+        if (!appendBounded(builder, "\n", maxChars)) {
+            return false
+        }
+
+        val frames = throwable.stackTrace
+        val frameCount = minOf(frames.size, MAX_FRAMES_PER_THROWABLE)
+        for (index in 0 until frameCount) {
+            if (!appendBounded(builder, "    at ${frames[index]}\n", maxChars)) {
+                return false
+            }
+        }
+        if (frames.size > frameCount && !appendBounded(builder, "    ... ${frames.size - frameCount} more frames\n", maxChars)) {
+            return false
+        }
+
+        val cause = throwable.cause
+        if (cause != null && cause !== throwable) {
+            return appendThrowable(builder, cause, seen, maxChars, depth + 1)
+        }
+        return true
+    }
+
+    private fun appendBounded(builder: StringBuilder, text: String, maxChars: Int): Boolean {
+        if (text.isEmpty()) {
+            return true
+        }
+        val remaining = maxChars - builder.length
+        if (remaining <= 0) {
+            return false
+        }
+        if (text.length <= remaining) {
+            builder.append(text)
+            return true
+        }
+        if (remaining <= TRUNCATED_MARKER.length) {
+            builder.append(TRUNCATED_MARKER, 0, remaining)
+            return false
+        }
+        val visibleChars = remaining - TRUNCATED_MARKER.length
+        builder.append(text, 0, visibleChars)
+        builder.append(TRUNCATED_MARKER)
+        return false
+    }
+}

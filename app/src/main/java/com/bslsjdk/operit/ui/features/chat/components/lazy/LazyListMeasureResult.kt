@@ -1,1 +1,179 @@
-LyoKICogQ29weXJpZ2h0IDIwMjAgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5PcmllbnRhdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuTWVhc3VyZVJlc3VsdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkNvbnN0cmFpbnRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRGVuc2l0eQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkludFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudXRpbC5mYXN0Rm9yRWFjaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCgovKiogVGhlIHJlc3VsdCBvZiB0aGUgbWVhc3VyZSBwYXNzIGZvciBsYXp5IGxpc3QgbGF5b3V0LiAqLwppbnRlcm5hbCBjbGFzcyBMYXp5TGlzdE1lYXN1cmVSZXN1bHQoCiAgICAvLyBwcm9wZXJ0aWVzIGRlZmluaW5nIHRoZSBzY3JvbGwgcG9zaXRpb246CiAgICAvKiogVGhlIG5ldyBmaXJzdCB2aXNpYmxlIGl0ZW0uICovCiAgICB2YWwgZmlyc3RWaXNpYmxlSXRlbTogTGF6eUxpc3RNZWFzdXJlZEl0ZW0/LAogICAgLyoqIFRoZSBuZXcgdmFsdWUgZm9yIFtMYXp5TGlzdFN0YXRlLmZpcnN0VmlzaWJsZUl0ZW1TY3JvbGxPZmZzZXRdLiAqLwogICAgdmFsIGZpcnN0VmlzaWJsZUl0ZW1TY3JvbGxPZmZzZXQ6IEludCwKICAgIC8qKiBUcnVlIGlmIHRoZXJlIGlzIHNvbWUgc3BhY2UgYXZhaWxhYmxlIHRvIGNvbnRpbnVlIHNjcm9sbGluZyBpbiB0aGUgZm9yd2FyZCBkaXJlY3Rpb24uICovCiAgICB2YWwgY2FuU2Nyb2xsRm9yd2FyZDogQm9vbGVhbiwKICAgIC8qKiBUaGUgYW1vdW50IG9mIHNjcm9sbCBjb25zdW1lZCBkdXJpbmcgdGhlIG1lYXN1cmUgcGFzcy4gKi8KICAgIHZhbCBjb25zdW1lZFNjcm9sbDogRmxvYXQsCiAgICAvKiogTWVhc3VyZVJlc3VsdCBkZWZpbmluZyB0aGUgbGF5b3V0LiAqLwogICAgcHJpdmF0ZSB2YWwgbWVhc3VyZVJlc3VsdDogTWVhc3VyZVJlc3VsdCwKICAgIC8qKiBUaGUgYW1vdW50IG9mIHNjcm9sbC1iYWNrIHRoYXQgaGFwcGVuZWQgZHVlIHRvIHJlYWNoaW5nIHRoZSBlbmQgb2YgdGhlIGxpc3QuICovCiAgICB2YWwgc2Nyb2xsQmFja0Ftb3VudDogRmxvYXQsCiAgICAvKiogVHJ1ZSB3aGVuIGV4dHJhIHJlbWVhc3VyZSBpcyByZXF1aXJlZC4gKi8KICAgIHZhbCByZW1lYXN1cmVOZWVkZWQ6IEJvb2xlYW4sCiAgICAvKiogU2NvcGUgZm9yIGFuaW1hdGlvbnMuICovCiAgICB2YWwgY29yb3V0aW5lU2NvcGU6IENvcm91dGluZVNjb3BlLAogICAgLyoqIERlbnNpdHkgb2YgdGhlIGxhc3QgbWVhc3VyZS4gKi8KICAgIHZhbCBkZW5zaXR5OiBEZW5zaXR5LAogICAgLyoqIENvbnN0cmFpbnRzIHVzZWQgdG8gbWVhc3VyZSBjaGlsZHJlbi4gKi8KICAgIHZhbCBjaGlsZENvbnN0cmFpbnRzOiBDb25zdHJhaW50cywKICAgIC8vIHByb3BlcnRpZXMgcmVwcmVzZW50aW5nIHRoZSBpbmZvIG5lZWRlZCBmb3IgTGF6eUxpc3RMYXlvdXRJbmZvOgogICAgLyoqIHNlZSBbTGF6eUxpc3RMYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm9dICovCiAgICBvdmVycmlkZSB2YWwgdmlzaWJsZUl0ZW1zSW5mbzogTGlzdDxMYXp5TGlzdE1lYXN1cmVkSXRlbT4sCiAgICAvKiogc2VlIFtMYXp5TGlzdExheW91dEluZm8udmlld3BvcnRTdGFydE9mZnNldF0gKi8KICAgIG92ZXJyaWRlIHZhbCB2aWV3cG9ydFN0YXJ0T2Zmc2V0OiBJbnQsCiAgICAvKiogc2VlIFtMYXp5TGlzdExheW91dEluZm8udmlld3BvcnRFbmRPZmZzZXRdICovCiAgICBvdmVycmlkZSB2YWwgdmlld3BvcnRFbmRPZmZzZXQ6IEludCwKICAgIC8qKiBzZWUgW0xhenlMaXN0TGF5b3V0SW5mby50b3RhbEl0ZW1zQ291bnRdICovCiAgICBvdmVycmlkZSB2YWwgdG90YWxJdGVtc0NvdW50OiBJbnQsCiAgICAvKiogc2VlIFtMYXp5TGlzdExheW91dEluZm8ucmV2ZXJzZUxheW91dF0gKi8KICAgIG92ZXJyaWRlIHZhbCByZXZlcnNlTGF5b3V0OiBCb29sZWFuLAogICAgLyoqIHNlZSBbTGF6eUxpc3RMYXlvdXRJbmZvLm9yaWVudGF0aW9uXSAqLwogICAgb3ZlcnJpZGUgdmFsIG9yaWVudGF0aW9uOiBPcmllbnRhdGlvbiwKICAgIC8qKiBzZWUgW0xhenlMaXN0TGF5b3V0SW5mby5hZnRlckNvbnRlbnRQYWRkaW5nXSAqLwogICAgb3ZlcnJpZGUgdmFsIGFmdGVyQ29udGVudFBhZGRpbmc6IEludCwKICAgIC8qKiBzZWUgW0xhenlMaXN0TGF5b3V0SW5mby5tYWluQXhpc0l0ZW1TcGFjaW5nXSAqLwogICAgb3ZlcnJpZGUgdmFsIG1haW5BeGlzSXRlbVNwYWNpbmc6IEludCwKKSA6IExhenlMaXN0TGF5b3V0SW5mbywgTWVhc3VyZVJlc3VsdCBieSBtZWFzdXJlUmVzdWx0IHsKCiAgICB2YWwgY2FuU2Nyb2xsQmFja3dhcmQKICAgICAgICBnZXQoKSA9IChmaXJzdFZpc2libGVJdGVtPy5pbmRleCA/OiAwKSAhPSAwIHx8IGZpcnN0VmlzaWJsZUl0ZW1TY3JvbGxPZmZzZXQgIT0gMAoKICAgIG92ZXJyaWRlIHZhbCB2aWV3cG9ydFNpemU6IEludFNpemUKICAgICAgICBnZXQoKSA9IEludFNpemUod2lkdGgsIGhlaWdodCkKCiAgICBvdmVycmlkZSB2YWwgYmVmb3JlQ29udGVudFBhZGRpbmc6IEludAogICAgICAgIGdldCgpID0gLXZpZXdwb3J0U3RhcnRPZmZzZXQKCiAgICAvKioKICAgICAqIENyZWF0ZXMgYSBuZXcgbGF5b3V0IGluZm8gd2l0aCBhcHBseWluZyBhIHNjcm9sbCBbZGVsdGFdIGZvciB0aGlzIGxheW91dCBpbmZvLiBJbiBzb21lIGNhc2VzCiAgICAgKiB3ZSBjYW4gYXBwbHkgc21hbGwgc2Nyb2xsIGRlbHRhcyBieSBqdXN0IGNoYW5naW5nIHRoZSBvZmZzZXRzIGZvciBlYWNoIFt2aXNpYmxlSXRlbXNJbmZvXS4KICAgICAqIEJ1dCB3ZSBjYW4gb25seSBkbyBzbyBpZiBhZnRlciBhcHBseWluZyB0aGUgZGVsdGEgd2Ugd291bGQgbm90IG5lZWQgdG8gY29tcG9zZSBhIG5ldyBpdGVtIG9yCiAgICAgKiBkaXNwb3NlIGFuIGl0ZW0gd2hpY2ggaXMgY3VycmVudGx5IHZpc2libGUuIEluIHRoaXMgY2FzZSB0aGlzIGZ1bmN0aW9uIHdpbGwgbm90IGFwcGx5IHRoZQogICAgICogW2RlbHRhXSBhbmQgcmV0dXJuIG51bGwuCiAgICAgKgogICAgICogQHJldHVybiBuZXcgbGF5b3V0IGluZm8gaWYgd2UgY2FuIHNhZmVseSBhcHBseSBhIHBhc3NlZCBzY3JvbGwgW2RlbHRhXSB0byB0aGlzIGxheW91dCBpbmZvLgogICAgICogICBJZiBJZiBuZXcgbGF5b3V0IGluZm8gaXMgcmV0dXJuZWQsIG9ubHkgdGhlIHBsYWNlbWVudCBwaGFzZSBpcyBuZWVkZWQgdG8gYXBwbHkgbmV3IG9mZnNldHMuCiAgICAgKiAgIElmIG51bGwgaXMgcmV0dXJuZWQsIGl0IG1lYW5zIHdlIGhhdmUgdG8gcmVydW4gdGhlIGZ1bGwgbWVhc3VyZSBwaGFzZSB0byBhcHBseSB0aGUgW2RlbHRhXS4KICAgICAqLwogICAgZnVuIGNvcHlXaXRoU2Nyb2xsRGVsdGFXaXRob3V0UmVtZWFzdXJlKAogICAgICAgIGRlbHRhOiBJbnQsCiAgICAgICAgdXBkYXRlQW5pbWF0aW9uczogQm9vbGVhbiwKICAgICk6IExhenlMaXN0TWVhc3VyZVJlc3VsdD8gewogICAgICAgIGlmICgKICAgICAgICAgICAgcmVtZWFzdXJlTmVlZGVkIHx8CiAgICAgICAgICAgICAgICB2aXNpYmxlSXRlbXNJbmZvLmlzRW1wdHkoKSB8fAogICAgICAgICAgICAgICAgZmlyc3RWaXNpYmxlSXRlbSA9PSBudWxsIHx8CiAgICAgICAgICAgICAgICAvLyBhcHBseWluZyB0aGlzIGRlbHRhIHdpbGwgY2hhbmdlIGZpcnN0VmlzaWJsZUl0ZW0KICAgICAgICAgICAgICAgIChmaXJzdFZpc2libGVJdGVtU2Nyb2xsT2Zmc2V0IC0gZGVsdGEpICFpbgogICAgICAgICAgICAgICAgICAgIDAgdW50aWwgZmlyc3RWaXNpYmxlSXRlbS5tYWluQXhpc1NpemVXaXRoU3BhY2luZ3MKICAgICAgICApIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgdmFsIGZpcnN0ID0gdmlzaWJsZUl0ZW1zSW5mby5maXJzdCgpCiAgICAgICAgdmFsIGxhc3QgPSB2aXNpYmxlSXRlbXNJbmZvLmxhc3QoKQogICAgICAgIGlmIChmaXJzdC5ub25TY3JvbGxhYmxlSXRlbSB8fCBsYXN0Lm5vblNjcm9sbGFibGVJdGVtKSB7CiAgICAgICAgICAgIC8vIG5vbiBzY3JvbGxhYmxlIGl0ZW1zIGxpa2UgaGVhZGVycyByZXF1aXJlIHNwZWNpYWwgaGFuZGxpbmcgaW4gdGhlIG1lYXN1cmVtZW50LgogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgICAgICB2YWwgY2FuQXBwbHkgPQogICAgICAgICAgICBpZiAoZGVsdGEgPCAwKSB7CiAgICAgICAgICAgICAgICAvLyBzY3JvbGxpbmcgZm9yd2FyZAogICAgICAgICAgICAgICAgdmFsIGRlbHRhVG9GaXJzdEl0ZW1DaGFuZ2UgPQogICAgICAgICAgICAgICAgICAgIGZpcnN0Lm9mZnNldCArIGZpcnN0Lm1haW5BeGlzU2l6ZVdpdGhTcGFjaW5ncyAtIHZpZXdwb3J0U3RhcnRPZmZzZXQKICAgICAgICAgICAgICAgIHZhbCBkZWx0YVRvTGFzdEl0ZW1DaGFuZ2UgPQogICAgICAgICAgICAgICAgICAgIGxhc3Qub2Zmc2V0ICsgbGFzdC5tYWluQXhpc1NpemVXaXRoU3BhY2luZ3MgLSB2aWV3cG9ydEVuZE9mZnNldAogICAgICAgICAgICAgICAgbWluT2YoZGVsdGFUb0ZpcnN0SXRlbUNoYW5nZSwgZGVsdGFUb0xhc3RJdGVtQ2hhbmdlKSA+IC1kZWx0YQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgLy8gc2Nyb2xsaW5nIGJhY2t3YXJkCiAgICAgICAgICAgICAgICB2YWwgZGVsdGFUb0ZpcnN0SXRlbUNoYW5nZSA9IHZpZXdwb3J0U3RhcnRPZmZzZXQgLSBmaXJzdC5vZmZzZXQKICAgICAgICAgICAgICAgIHZhbCBkZWx0YVRvTGFzdEl0ZW1DaGFuZ2UgPSB2aWV3cG9ydEVuZE9mZnNldCAtIGxhc3Qub2Zmc2V0CiAgICAgICAgICAgICAgICBtaW5PZihkZWx0YVRvRmlyc3RJdGVtQ2hhbmdlLCBkZWx0YVRvTGFzdEl0ZW1DaGFuZ2UpID4gZGVsdGEKICAgICAgICAgICAgfQogICAgICAgIHJldHVybiBpZiAoY2FuQXBwbHkpIHsKICAgICAgICAgICAgdmlzaWJsZUl0ZW1zSW5mby5mYXN0Rm9yRWFjaCB7IGl0LmFwcGx5U2Nyb2xsRGVsdGEoZGVsdGEsIHVwZGF0ZUFuaW1hdGlvbnMpIH0KICAgICAgICAgICAgTGF6eUxpc3RNZWFzdXJlUmVzdWx0KAogICAgICAgICAgICAgICAgZmlyc3RWaXNpYmxlSXRlbSA9IGZpcnN0VmlzaWJsZUl0ZW0sCiAgICAgICAgICAgICAgICBmaXJzdFZpc2libGVJdGVtU2Nyb2xsT2Zmc2V0ID0gZmlyc3RWaXNpYmxlSXRlbVNjcm9sbE9mZnNldCAtIGRlbHRhLAogICAgICAgICAgICAgICAgY2FuU2Nyb2xsRm9yd2FyZCA9CiAgICAgICAgICAgICAgICAgICAgY2FuU2Nyb2xsRm9yd2FyZCB8fAogICAgICAgICAgICAgICAgICAgICAgICBkZWx0YSA+IDAsIC8vIHdlIHNjcm9sbGVkIGJhY2t3YXJkLCBzbyBub3cgd2UgY2FuIHNjcm9sbCBmb3J3YXJkCiAgICAgICAgICAgICAgICBjb25zdW1lZFNjcm9sbCA9IGRlbHRhLnRvRmxvYXQoKSwKICAgICAgICAgICAgICAgIG1lYXN1cmVSZXN1bHQgPSBtZWFzdXJlUmVzdWx0LAogICAgICAgICAgICAgICAgc2Nyb2xsQmFja0Ftb3VudCA9IHNjcm9sbEJhY2tBbW91bnQsCiAgICAgICAgICAgICAgICByZW1lYXN1cmVOZWVkZWQgPSByZW1lYXN1cmVOZWVkZWQsCiAgICAgICAgICAgICAgICBjb3JvdXRpbmVTY29wZSA9IGNvcm91dGluZVNjb3BlLAogICAgICAgICAgICAgICAgZGVuc2l0eSA9IGRlbnNpdHksCiAgICAgICAgICAgICAgICBjaGlsZENvbnN0cmFpbnRzID0gY2hpbGRDb25zdHJhaW50cywKICAgICAgICAgICAgICAgIHZpc2libGVJdGVtc0luZm8gPSB2aXNpYmxlSXRlbXNJbmZvLAogICAgICAgICAgICAgICAgdmlld3BvcnRTdGFydE9mZnNldCA9IHZpZXdwb3J0U3RhcnRPZmZzZXQsCiAgICAgICAgICAgICAgICB2aWV3cG9ydEVuZE9mZnNldCA9IHZpZXdwb3J0RW5kT2Zmc2V0LAogICAgICAgICAgICAgICAgdG90YWxJdGVtc0NvdW50ID0gdG90YWxJdGVtc0NvdW50LAogICAgICAgICAgICAgICAgcmV2ZXJzZUxheW91dCA9IHJldmVyc2VMYXlvdXQsCiAgICAgICAgICAgICAgICBvcmllbnRhdGlvbiA9IG9yaWVudGF0aW9uLAogICAgICAgICAgICAgICAgYWZ0ZXJDb250ZW50UGFkZGluZyA9IGFmdGVyQ29udGVudFBhZGRpbmcsCiAgICAgICAgICAgICAgICBtYWluQXhpc0l0ZW1TcGFjaW5nID0gbWFpbkF4aXNJdGVtU3BhY2luZywKICAgICAgICAgICAgKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgZnVuIGNvcHlXaXRoQW5jaG9yT2Zmc2V0Q29tcGVuc2F0aW9uKGRlbHRhOiBJbnQpOiBMYXp5TGlzdE1lYXN1cmVSZXN1bHQgewogICAgICAgIGlmIChkZWx0YSA9PSAwKSB7CiAgICAgICAgICAgIHJldHVybiB0aGlzCiAgICAgICAgfQoKICAgICAgICB2aXNpYmxlSXRlbXNJbmZvLmZhc3RGb3JFYWNoIHsgaXQuYXBwbHlTY3JvbGxEZWx0YSgtZGVsdGEsIHVwZGF0ZUFuaW1hdGlvbnMgPSBmYWxzZSkgfQogICAgICAgIHJldHVybiBMYXp5TGlzdE1lYXN1cmVSZXN1bHQoCiAgICAgICAgICAgIGZpcnN0VmlzaWJsZUl0ZW0gPSBmaXJzdFZpc2libGVJdGVtLAogICAgICAgICAgICBmaXJzdFZpc2libGVJdGVtU2Nyb2xsT2Zmc2V0ID0gZmlyc3RWaXNpYmxlSXRlbVNjcm9sbE9mZnNldCArIGRlbHRhLAogICAgICAgICAgICBjYW5TY3JvbGxGb3J3YXJkID0gY2FuU2Nyb2xsRm9yd2FyZCwKICAgICAgICAgICAgY29uc3VtZWRTY3JvbGwgPSBjb25zdW1lZFNjcm9sbCwKICAgICAgICAgICAgbWVhc3VyZVJlc3VsdCA9IG1lYXN1cmVSZXN1bHQsCiAgICAgICAgICAgIHNjcm9sbEJhY2tBbW91bnQgPSBzY3JvbGxCYWNrQW1vdW50LAogICAgICAgICAgICByZW1lYXN1cmVOZWVkZWQgPSByZW1lYXN1cmVOZWVkZWQsCiAgICAgICAgICAgIGNvcm91dGluZVNjb3BlID0gY29yb3V0aW5lU2NvcGUsCiAgICAgICAgICAgIGRlbnNpdHkgPSBkZW5zaXR5LAogICAgICAgICAgICBjaGlsZENvbnN0cmFpbnRzID0gY2hpbGRDb25zdHJhaW50cywKICAgICAgICAgICAgdmlzaWJsZUl0ZW1zSW5mbyA9IHZpc2libGVJdGVtc0luZm8sCiAgICAgICAgICAgIHZpZXdwb3J0U3RhcnRPZmZzZXQgPSB2aWV3cG9ydFN0YXJ0T2Zmc2V0LAogICAgICAgICAgICB2aWV3cG9ydEVuZE9mZnNldCA9IHZpZXdwb3J0RW5kT2Zmc2V0LAogICAgICAgICAgICB0b3RhbEl0ZW1zQ291bnQgPSB0b3RhbEl0ZW1zQ291bnQsCiAgICAgICAgICAgIHJldmVyc2VMYXlvdXQgPSByZXZlcnNlTGF5b3V0LAogICAgICAgICAgICBvcmllbnRhdGlvbiA9IG9yaWVudGF0aW9uLAogICAgICAgICAgICBhZnRlckNvbnRlbnRQYWRkaW5nID0gYWZ0ZXJDb250ZW50UGFkZGluZywKICAgICAgICAgICAgbWFpbkF4aXNJdGVtU3BhY2luZyA9IG1haW5BeGlzSXRlbVNwYWNpbmcsCiAgICAgICAgKQogICAgfQp9Cg==
+/*
+ * Copyright 2020 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.gestures.Orientation
+import androidx.compose.ui.layout.MeasureResult
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.Density
+import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.util.fastForEach
+import kotlinx.coroutines.CoroutineScope
+
+/** The result of the measure pass for lazy list layout. */
+internal class LazyListMeasureResult(
+    // properties defining the scroll position:
+    /** The new first visible item. */
+    val firstVisibleItem: LazyListMeasuredItem?,
+    /** The new value for [LazyListState.firstVisibleItemScrollOffset]. */
+    val firstVisibleItemScrollOffset: Int,
+    /** True if there is some space available to continue scrolling in the forward direction. */
+    val canScrollForward: Boolean,
+    /** The amount of scroll consumed during the measure pass. */
+    val consumedScroll: Float,
+    /** MeasureResult defining the layout. */
+    private val measureResult: MeasureResult,
+    /** The amount of scroll-back that happened due to reaching the end of the list. */
+    val scrollBackAmount: Float,
+    /** True when extra remeasure is required. */
+    val remeasureNeeded: Boolean,
+    /** Scope for animations. */
+    val coroutineScope: CoroutineScope,
+    /** Density of the last measure. */
+    val density: Density,
+    /** Constraints used to measure children. */
+    val childConstraints: Constraints,
+    // properties representing the info needed for LazyListLayoutInfo:
+    /** see [LazyListLayoutInfo.visibleItemsInfo] */
+    override val visibleItemsInfo: List<LazyListMeasuredItem>,
+    /** see [LazyListLayoutInfo.viewportStartOffset] */
+    override val viewportStartOffset: Int,
+    /** see [LazyListLayoutInfo.viewportEndOffset] */
+    override val viewportEndOffset: Int,
+    /** see [LazyListLayoutInfo.totalItemsCount] */
+    override val totalItemsCount: Int,
+    /** see [LazyListLayoutInfo.reverseLayout] */
+    override val reverseLayout: Boolean,
+    /** see [LazyListLayoutInfo.orientation] */
+    override val orientation: Orientation,
+    /** see [LazyListLayoutInfo.afterContentPadding] */
+    override val afterContentPadding: Int,
+    /** see [LazyListLayoutInfo.mainAxisItemSpacing] */
+    override val mainAxisItemSpacing: Int,
+) : LazyListLayoutInfo, MeasureResult by measureResult {
+
+    val canScrollBackward
+        get() = (firstVisibleItem?.index ?: 0) != 0 || firstVisibleItemScrollOffset != 0
+
+    override val viewportSize: IntSize
+        get() = IntSize(width, height)
+
+    override val beforeContentPadding: Int
+        get() = -viewportStartOffset
+
+    /**
+     * Creates a new layout info with applying a scroll [delta] for this layout info. In some cases
+     * we can apply small scroll deltas by just changing the offsets for each [visibleItemsInfo].
+     * But we can only do so if after applying the delta we would not need to compose a new item or
+     * dispose an item which is currently visible. In this case this function will not apply the
+     * [delta] and return null.
+     *
+     * @return new layout info if we can safely apply a passed scroll [delta] to this layout info.
+     *   If If new layout info is returned, only the placement phase is needed to apply new offsets.
+     *   If null is returned, it means we have to rerun the full measure phase to apply the [delta].
+     */
+    fun copyWithScrollDeltaWithoutRemeasure(
+        delta: Int,
+        updateAnimations: Boolean,
+    ): LazyListMeasureResult? {
+        if (
+            remeasureNeeded ||
+                visibleItemsInfo.isEmpty() ||
+                firstVisibleItem == null ||
+                // applying this delta will change firstVisibleItem
+                (firstVisibleItemScrollOffset - delta) !in
+                    0 until firstVisibleItem.mainAxisSizeWithSpacings
+        ) {
+            return null
+        }
+        val first = visibleItemsInfo.first()
+        val last = visibleItemsInfo.last()
+        if (first.nonScrollableItem || last.nonScrollableItem) {
+            // non scrollable items like headers require special handling in the measurement.
+            return null
+        }
+        val canApply =
+            if (delta < 0) {
+                // scrolling forward
+                val deltaToFirstItemChange =
+                    first.offset + first.mainAxisSizeWithSpacings - viewportStartOffset
+                val deltaToLastItemChange =
+                    last.offset + last.mainAxisSizeWithSpacings - viewportEndOffset
+                minOf(deltaToFirstItemChange, deltaToLastItemChange) > -delta
+            } else {
+                // scrolling backward
+                val deltaToFirstItemChange = viewportStartOffset - first.offset
+                val deltaToLastItemChange = viewportEndOffset - last.offset
+                minOf(deltaToFirstItemChange, deltaToLastItemChange) > delta
+            }
+        return if (canApply) {
+            visibleItemsInfo.fastForEach { it.applyScrollDelta(delta, updateAnimations) }
+            LazyListMeasureResult(
+                firstVisibleItem = firstVisibleItem,
+                firstVisibleItemScrollOffset = firstVisibleItemScrollOffset - delta,
+                canScrollForward =
+                    canScrollForward ||
+                        delta > 0, // we scrolled backward, so now we can scroll forward
+                consumedScroll = delta.toFloat(),
+                measureResult = measureResult,
+                scrollBackAmount = scrollBackAmount,
+                remeasureNeeded = remeasureNeeded,
+                coroutineScope = coroutineScope,
+                density = density,
+                childConstraints = childConstraints,
+                visibleItemsInfo = visibleItemsInfo,
+                viewportStartOffset = viewportStartOffset,
+                viewportEndOffset = viewportEndOffset,
+                totalItemsCount = totalItemsCount,
+                reverseLayout = reverseLayout,
+                orientation = orientation,
+                afterContentPadding = afterContentPadding,
+                mainAxisItemSpacing = mainAxisItemSpacing,
+            )
+        } else {
+            null
+        }
+    }
+
+    fun copyWithAnchorOffsetCompensation(delta: Int): LazyListMeasureResult {
+        if (delta == 0) {
+            return this
+        }
+
+        visibleItemsInfo.fastForEach { it.applyScrollDelta(-delta, updateAnimations = false) }
+        return LazyListMeasureResult(
+            firstVisibleItem = firstVisibleItem,
+            firstVisibleItemScrollOffset = firstVisibleItemScrollOffset + delta,
+            canScrollForward = canScrollForward,
+            consumedScroll = consumedScroll,
+            measureResult = measureResult,
+            scrollBackAmount = scrollBackAmount,
+            remeasureNeeded = remeasureNeeded,
+            coroutineScope = coroutineScope,
+            density = density,
+            childConstraints = childConstraints,
+            visibleItemsInfo = visibleItemsInfo,
+            viewportStartOffset = viewportStartOffset,
+            viewportEndOffset = viewportEndOffset,
+            totalItemsCount = totalItemsCount,
+            reverseLayout = reverseLayout,
+            orientation = orientation,
+            afterContentPadding = afterContentPadding,
+            mainAxisItemSpacing = mainAxisItemSpacing,
+        )
+    }
+}

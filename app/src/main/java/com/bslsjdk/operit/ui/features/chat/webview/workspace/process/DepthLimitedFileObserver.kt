@@ -1,1 +1,164 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5wcm9jZXNzCgppbXBvcnQgYW5kcm9pZC5vcy5GaWxlT2JzZXJ2ZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS5pby5GaWxlCgpkYXRhIGNsYXNzIFdvcmtzcGFjZUZpbGVDaGFuZ2UoCiAgICB2YWwgcmVsYXRpdmVQYXRoOiBTdHJpbmcsCiAgICB2YWwga2luZDogV29ya3NwYWNlRmlsZUNoYW5nZUtpbmQKKQoKZW51bSBjbGFzcyBXb3Jrc3BhY2VGaWxlQ2hhbmdlS2luZCB7CiAgICBDUkVBVEVELAogICAgTU9ESUZJRUQsCiAgICBERUxFVEVELAogICAgTU9WRUQKfQoKY2xhc3MgRGVwdGhMaW1pdGVkRmlsZU9ic2VydmVyKAogICAgcHJpdmF0ZSB2YWwgcm9vdERpcjogRmlsZSwKICAgIG1heERlcHRoOiBJbnQsCiAgICBwcml2YXRlIHZhbCBzaG91bGRJZ25vcmU6IChyZWxhdGl2ZVBhdGg6IFN0cmluZywgaXNEaXJlY3Rvcnk6IEJvb2xlYW4pIC0+IEJvb2xlYW4sCiAgICBwcml2YXRlIHZhbCBvbkNoYW5nZTogKFdvcmtzcGFjZUZpbGVDaGFuZ2UpIC0+IFVuaXQKKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiRGVwdGhMaW1pdGVkRmlsZU9ic2VydmVyIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEVWRU5UX01BU0sgPQogICAgICAgICAgICBGaWxlT2JzZXJ2ZXIuQ1JFQVRFIG9yCiAgICAgICAgICAgICAgICBGaWxlT2JzZXJ2ZXIuREVMRVRFIG9yCiAgICAgICAgICAgICAgICBGaWxlT2JzZXJ2ZXIuTU9ESUZZIG9yCiAgICAgICAgICAgICAgICBGaWxlT2JzZXJ2ZXIuQ0xPU0VfV1JJVEUgb3IKICAgICAgICAgICAgICAgIEZpbGVPYnNlcnZlci5NT1ZFRF9GUk9NIG9yCiAgICAgICAgICAgICAgICBGaWxlT2JzZXJ2ZXIuTU9WRURfVE8gb3IKICAgICAgICAgICAgICAgIEZpbGVPYnNlcnZlci5ERUxFVEVfU0VMRiBvcgogICAgICAgICAgICAgICAgRmlsZU9ic2VydmVyLk1PVkVfU0VMRgogICAgfQoKICAgIHByaXZhdGUgdmFsIG1heERlcHRoID0gbWF4RGVwdGguY29lcmNlQXRMZWFzdCgwKQogICAgcHJpdmF0ZSB2YWwgb2JzZXJ2ZXJzID0gTGlua2VkSGFzaE1hcDxTdHJpbmcsIERpcmVjdG9yeU9ic2VydmVyPigpCiAgICBwcml2YXRlIHZhbCByb290UGF0aDogU3RyaW5nID0gcm9vdERpci5jYW5vbmljYWxGaWxlLmFic29sdXRlUGF0aAoKICAgIEBTeW5jaHJvbml6ZWQKICAgIGZ1biBzdGFydCgpIHsKICAgICAgICBpZiAob2JzZXJ2ZXJzLmlzTm90RW1wdHkoKSkgcmV0dXJuCiAgICAgICAgaWYgKCFyb290RGlyLmV4aXN0cygpIHx8ICFyb290RGlyLmlzRGlyZWN0b3J5KSByZXR1cm4KICAgICAgICB3YXRjaERpcmVjdG9yeShyb290RGlyLmNhbm9uaWNhbEZpbGUpCiAgICAgICAgYWRkRXhpc3RpbmdEaXJlY3Rvcmllcyhyb290RGlyLmNhbm9uaWNhbEZpbGUsIDApCiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgZnVuIHN0b3AoKSB7CiAgICAgICAgb2JzZXJ2ZXJzLnZhbHVlcy5mb3JFYWNoIHsgb2JzZXJ2ZXIgLT4KICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBvYnNlcnZlci5zdG9wV2F0Y2hpbmcoKSB9CiAgICAgICAgICAgICAgICAub25GYWlsdXJlIHsgQXBwTG9nZ2VyLncoVEFHLCAiRmFpbGVkIHRvIHN0b3Agb2JzZXJ2ZXIgZm9yICR7b2JzZXJ2ZXIuZGlyZWN0b3J5fSIsIGl0KSB9CiAgICAgICAgfQogICAgICAgIG9ic2VydmVycy5jbGVhcigpCiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgcHJpdmF0ZSBmdW4gd2F0Y2hEaXJlY3RvcnkoZGlyZWN0b3J5OiBGaWxlKSB7CiAgICAgICAgdmFsIGNhbm9uaWNhbERpciA9IGRpcmVjdG9yeS5jYW5vbmljYWxGaWxlCiAgICAgICAgdmFsIHJlbGF0aXZlUGF0aCA9IHJlbGF0aXZlUGF0aEZvcihjYW5vbmljYWxEaXIpCiAgICAgICAgaWYgKHJlbGF0aXZlUGF0aCAhPSBudWxsICYmIHNob3VsZElnbm9yZShyZWxhdGl2ZVBhdGgsIHRydWUpKSByZXR1cm4KICAgICAgICB2YWwgZGVwdGggPSBkZXB0aE9mKHJlbGF0aXZlUGF0aC5vckVtcHR5KCkpCiAgICAgICAgaWYgKGRlcHRoID4gbWF4RGVwdGgpIHJldHVybgoKICAgICAgICB2YWwga2V5ID0gY2Fub25pY2FsRGlyLmFic29sdXRlUGF0aAogICAgICAgIGlmIChvYnNlcnZlcnMuY29udGFpbnNLZXkoa2V5KSkgcmV0dXJuCgogICAgICAgIHZhbCBvYnNlcnZlciA9IERpcmVjdG9yeU9ic2VydmVyKGNhbm9uaWNhbERpcikKICAgICAgICBvYnNlcnZlci5zdGFydFdhdGNoaW5nKCkKICAgICAgICBvYnNlcnZlcnNba2V5XSA9IG9ic2VydmVyCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYWRkRXhpc3RpbmdEaXJlY3RvcmllcyhkaXJlY3Rvcnk6IEZpbGUsIGRlcHRoOiBJbnQpIHsKICAgICAgICBpZiAoZGVwdGggPj0gbWF4RGVwdGgpIHJldHVybgogICAgICAgIGRpcmVjdG9yeS5saXN0RmlsZXMoKQogICAgICAgICAgICA/LmFzU2VxdWVuY2UoKQogICAgICAgICAgICA/LmZpbHRlciB7IGl0LmlzRGlyZWN0b3J5IH0KICAgICAgICAgICAgPy5mb3JFYWNoIHsgY2hpbGQgLT4KICAgICAgICAgICAgICAgIHZhbCByZWxhdGl2ZVBhdGggPSByZWxhdGl2ZVBhdGhGb3IoY2hpbGQuY2Fub25pY2FsRmlsZSkgPzogcmV0dXJuQGZvckVhY2gKICAgICAgICAgICAgICAgIGlmIChzaG91bGRJZ25vcmUocmVsYXRpdmVQYXRoLCB0cnVlKSkgcmV0dXJuQGZvckVhY2gKICAgICAgICAgICAgICAgIHdhdGNoRGlyZWN0b3J5KGNoaWxkKQogICAgICAgICAgICAgICAgYWRkRXhpc3RpbmdEaXJlY3RvcmllcyhjaGlsZCwgZGVwdGggKyAxKQogICAgICAgICAgICB9CiAgICB9CgogICAgQFN5bmNocm9uaXplZAogICAgcHJpdmF0ZSBmdW4gcmVtb3ZlRGlyZWN0b3J5T2JzZXJ2ZXJzKGRpcmVjdG9yeTogRmlsZSkgewogICAgICAgIHZhbCBjYW5vbmljYWxQYXRoID0gZGlyZWN0b3J5LmNhbm9uaWNhbEZpbGUuYWJzb2x1dGVQYXRoCiAgICAgICAgdmFsIGtleXNUb1JlbW92ZSA9CiAgICAgICAgICAgIG9ic2VydmVycy5rZXlzLmZpbHRlciB7IGtleSAtPgogICAgICAgICAgICAgICAga2V5ID09IGNhbm9uaWNhbFBhdGggfHwga2V5LnN0YXJ0c1dpdGgoIiRjYW5vbmljYWxQYXRoJHtGaWxlLnNlcGFyYXRvcn0iKQogICAgICAgICAgICB9CiAgICAgICAga2V5c1RvUmVtb3ZlLmZvckVhY2ggeyBrZXkgLT4KICAgICAgICAgICAgb2JzZXJ2ZXJzLnJlbW92ZShrZXkpPy5zdG9wV2F0Y2hpbmcoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWxhdGl2ZVBhdGhGb3IoZmlsZTogRmlsZSk6IFN0cmluZz8gewogICAgICAgIHZhbCBmdWxsUGF0aCA9IGZpbGUuY2Fub25pY2FsRmlsZS5hYnNvbHV0ZVBhdGgKICAgICAgICBpZiAoZnVsbFBhdGggPT0gcm9vdFBhdGgpIHJldHVybiAiIgogICAgICAgIGlmICghZnVsbFBhdGguc3RhcnRzV2l0aCgiJHJvb3RQYXRoJHtGaWxlLnNlcGFyYXRvcn0iKSkgcmV0dXJuIG51bGwKICAgICAgICByZXR1cm4gZnVsbFBhdGgucmVtb3ZlUHJlZml4KCIkcm9vdFBhdGgke0ZpbGUuc2VwYXJhdG9yfSIpLnJlcGxhY2UoRmlsZS5zZXBhcmF0b3JDaGFyLCAnLycpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZGVwdGhPZihyZWxhdGl2ZVBhdGg6IFN0cmluZyk6IEludCB7CiAgICAgICAgdmFsIHJlbCA9IHJlbGF0aXZlUGF0aC50cmltKCcvJykucmVwbGFjZSgnXFwnLCAnLycpCiAgICAgICAgaWYgKHJlbC5pc0JsYW5rKCkpIHJldHVybiAwCiAgICAgICAgcmV0dXJuIHJlbC5jb3VudCB7IGl0ID09ICcvJyB9ICsgMQogICAgfQoKICAgIHByaXZhdGUgZnVuIGtpbmRGb3IoZXZlbnQ6IEludCk6IFdvcmtzcGFjZUZpbGVDaGFuZ2VLaW5kPyB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBldmVudCBhbmQgRmlsZU9ic2VydmVyLkFMTF9FVkVOVFMKICAgICAgICByZXR1cm4gd2hlbiB7CiAgICAgICAgICAgIG5vcm1hbGl6ZWQgYW5kIChGaWxlT2JzZXJ2ZXIuQ1JFQVRFIG9yIEZpbGVPYnNlcnZlci5NT1ZFRF9UTykgIT0gMCAtPgogICAgICAgICAgICAgICAgV29ya3NwYWNlRmlsZUNoYW5nZUtpbmQuQ1JFQVRFRAogICAgICAgICAgICBub3JtYWxpemVkIGFuZCAoRmlsZU9ic2VydmVyLkRFTEVURSBvciBGaWxlT2JzZXJ2ZXIuTU9WRURfRlJPTSkgIT0gMCAtPgogICAgICAgICAgICAgICAgV29ya3NwYWNlRmlsZUNoYW5nZUtpbmQuREVMRVRFRAogICAgICAgICAgICBub3JtYWxpemVkIGFuZCAoRmlsZU9ic2VydmVyLk1PRElGWSBvciBGaWxlT2JzZXJ2ZXIuQ0xPU0VfV1JJVEUpICE9IDAgLT4KICAgICAgICAgICAgICAgIFdvcmtzcGFjZUZpbGVDaGFuZ2VLaW5kLk1PRElGSUVECiAgICAgICAgICAgIG5vcm1hbGl6ZWQgYW5kIChGaWxlT2JzZXJ2ZXIuREVMRVRFX1NFTEYgb3IgRmlsZU9ic2VydmVyLk1PVkVfU0VMRikgIT0gMCAtPgogICAgICAgICAgICAgICAgV29ya3NwYWNlRmlsZUNoYW5nZUtpbmQuTU9WRUQKICAgICAgICAgICAgZWxzZSAtPiBudWxsCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgaW5uZXIgY2xhc3MgRGlyZWN0b3J5T2JzZXJ2ZXIodmFsIGRpcmVjdG9yeTogRmlsZSkgOgogICAgICAgIEZpbGVPYnNlcnZlcihkaXJlY3RvcnkuYWJzb2x1dGVQYXRoLCBFVkVOVF9NQVNLKSB7CiAgICAgICAgb3ZlcnJpZGUgZnVuIG9uRXZlbnQoZXZlbnQ6IEludCwgcGF0aDogU3RyaW5nPykgewogICAgICAgICAgICB2YWwgcmVsYXRpdmVDaGlsZCA9IHBhdGg/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9ID86IHJldHVybgogICAgICAgICAgICB2YWwgY2hhbmdlZEZpbGUgPSBGaWxlKGRpcmVjdG9yeSwgcmVsYXRpdmVDaGlsZCkKICAgICAgICAgICAgdmFsIHJlbGF0aXZlUGF0aCA9IHJlbGF0aXZlUGF0aEZvcihjaGFuZ2VkRmlsZSkgPzogcmV0dXJuCiAgICAgICAgICAgIHZhbCBldmVudEtpbmQgPSBraW5kRm9yKGV2ZW50KSA/OiByZXR1cm4KCiAgICAgICAgICAgIHZhbCBpc0RpcmVjdG9yeU5vdyA9IGNoYW5nZWRGaWxlLmV4aXN0cygpICYmIGNoYW5nZWRGaWxlLmlzRGlyZWN0b3J5CiAgICAgICAgICAgIHZhbCB3YXNPYnNlcnZlZERpcmVjdG9yeSA9CiAgICAgICAgICAgICAgICBzeW5jaHJvbml6ZWQodGhpc0BEZXB0aExpbWl0ZWRGaWxlT2JzZXJ2ZXIpIHsKICAgICAgICAgICAgICAgICAgICBvYnNlcnZlcnMuY29udGFpbnNLZXkoY2hhbmdlZEZpbGUuY2Fub25pY2FsRmlsZS5hYnNvbHV0ZVBhdGgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChzaG91bGRJZ25vcmUocmVsYXRpdmVQYXRoLCBpc0RpcmVjdG9yeU5vdyB8fCB3YXNPYnNlcnZlZERpcmVjdG9yeSkpIHJldHVybgoKICAgICAgICAgICAgaWYgKGV2ZW50S2luZCA9PSBXb3Jrc3BhY2VGaWxlQ2hhbmdlS2luZC5DUkVBVEVEICYmIGlzRGlyZWN0b3J5Tm93KSB7CiAgICAgICAgICAgICAgICBzeW5jaHJvbml6ZWQodGhpc0BEZXB0aExpbWl0ZWRGaWxlT2JzZXJ2ZXIpIHsKICAgICAgICAgICAgICAgICAgICB3YXRjaERpcmVjdG9yeShjaGFuZ2VkRmlsZSkKICAgICAgICAgICAgICAgICAgICBhZGRFeGlzdGluZ0RpcmVjdG9yaWVzKGNoYW5nZWRGaWxlLCBkZXB0aE9mKHJlbGF0aXZlUGF0aCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChldmVudEtpbmQgPT0gV29ya3NwYWNlRmlsZUNoYW5nZUtpbmQuREVMRVRFRCB8fCBldmVudEtpbmQgPT0gV29ya3NwYWNlRmlsZUNoYW5nZUtpbmQuTU9WRUQpIHsKICAgICAgICAgICAgICAgIHN5bmNocm9uaXplZCh0aGlzQERlcHRoTGltaXRlZEZpbGVPYnNlcnZlcikgewogICAgICAgICAgICAgICAgICAgIHJlbW92ZURpcmVjdG9yeU9ic2VydmVycyhjaGFuZ2VkRmlsZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgb25DaGFuZ2UoCiAgICAgICAgICAgICAgICBXb3Jrc3BhY2VGaWxlQ2hhbmdlKAogICAgICAgICAgICAgICAgICAgIHJlbGF0aXZlUGF0aCA9IHJlbGF0aXZlUGF0aCwKICAgICAgICAgICAgICAgICAgICBraW5kID0gZXZlbnRLaW5kCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.process
+
+import android.os.FileObserver
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+
+data class WorkspaceFileChange(
+    val relativePath: String,
+    val kind: WorkspaceFileChangeKind
+)
+
+enum class WorkspaceFileChangeKind {
+    CREATED,
+    MODIFIED,
+    DELETED,
+    MOVED
+}
+
+class DepthLimitedFileObserver(
+    private val rootDir: File,
+    maxDepth: Int,
+    private val shouldIgnore: (relativePath: String, isDirectory: Boolean) -> Boolean,
+    private val onChange: (WorkspaceFileChange) -> Unit
+) {
+    companion object {
+        private const val TAG = "DepthLimitedFileObserver"
+        private const val EVENT_MASK =
+            FileObserver.CREATE or
+                FileObserver.DELETE or
+                FileObserver.MODIFY or
+                FileObserver.CLOSE_WRITE or
+                FileObserver.MOVED_FROM or
+                FileObserver.MOVED_TO or
+                FileObserver.DELETE_SELF or
+                FileObserver.MOVE_SELF
+    }
+
+    private val maxDepth = maxDepth.coerceAtLeast(0)
+    private val observers = LinkedHashMap<String, DirectoryObserver>()
+    private val rootPath: String = rootDir.canonicalFile.absolutePath
+
+    @Synchronized
+    fun start() {
+        if (observers.isNotEmpty()) return
+        if (!rootDir.exists() || !rootDir.isDirectory) return
+        watchDirectory(rootDir.canonicalFile)
+        addExistingDirectories(rootDir.canonicalFile, 0)
+    }
+
+    @Synchronized
+    fun stop() {
+        observers.values.forEach { observer ->
+            runCatching { observer.stopWatching() }
+                .onFailure { AppLogger.w(TAG, "Failed to stop observer for ${observer.directory}", it) }
+        }
+        observers.clear()
+    }
+
+    @Synchronized
+    private fun watchDirectory(directory: File) {
+        val canonicalDir = directory.canonicalFile
+        val relativePath = relativePathFor(canonicalDir)
+        if (relativePath != null && shouldIgnore(relativePath, true)) return
+        val depth = depthOf(relativePath.orEmpty())
+        if (depth > maxDepth) return
+
+        val key = canonicalDir.absolutePath
+        if (observers.containsKey(key)) return
+
+        val observer = DirectoryObserver(canonicalDir)
+        observer.startWatching()
+        observers[key] = observer
+    }
+
+    private fun addExistingDirectories(directory: File, depth: Int) {
+        if (depth >= maxDepth) return
+        directory.listFiles()
+            ?.asSequence()
+            ?.filter { it.isDirectory }
+            ?.forEach { child ->
+                val relativePath = relativePathFor(child.canonicalFile) ?: return@forEach
+                if (shouldIgnore(relativePath, true)) return@forEach
+                watchDirectory(child)
+                addExistingDirectories(child, depth + 1)
+            }
+    }
+
+    @Synchronized
+    private fun removeDirectoryObservers(directory: File) {
+        val canonicalPath = directory.canonicalFile.absolutePath
+        val keysToRemove =
+            observers.keys.filter { key ->
+                key == canonicalPath || key.startsWith("$canonicalPath${File.separator}")
+            }
+        keysToRemove.forEach { key ->
+            observers.remove(key)?.stopWatching()
+        }
+    }
+
+    private fun relativePathFor(file: File): String? {
+        val fullPath = file.canonicalFile.absolutePath
+        if (fullPath == rootPath) return ""
+        if (!fullPath.startsWith("$rootPath${File.separator}")) return null
+        return fullPath.removePrefix("$rootPath${File.separator}").replace(File.separatorChar, '/')
+    }
+
+    private fun depthOf(relativePath: String): Int {
+        val rel = relativePath.trim('/').replace('\\', '/')
+        if (rel.isBlank()) return 0
+        return rel.count { it == '/' } + 1
+    }
+
+    private fun kindFor(event: Int): WorkspaceFileChangeKind? {
+        val normalized = event and FileObserver.ALL_EVENTS
+        return when {
+            normalized and (FileObserver.CREATE or FileObserver.MOVED_TO) != 0 ->
+                WorkspaceFileChangeKind.CREATED
+            normalized and (FileObserver.DELETE or FileObserver.MOVED_FROM) != 0 ->
+                WorkspaceFileChangeKind.DELETED
+            normalized and (FileObserver.MODIFY or FileObserver.CLOSE_WRITE) != 0 ->
+                WorkspaceFileChangeKind.MODIFIED
+            normalized and (FileObserver.DELETE_SELF or FileObserver.MOVE_SELF) != 0 ->
+                WorkspaceFileChangeKind.MOVED
+            else -> null
+        }
+    }
+
+    private inner class DirectoryObserver(val directory: File) :
+        FileObserver(directory.absolutePath, EVENT_MASK) {
+        override fun onEvent(event: Int, path: String?) {
+            val relativeChild = path?.takeIf { it.isNotBlank() } ?: return
+            val changedFile = File(directory, relativeChild)
+            val relativePath = relativePathFor(changedFile) ?: return
+            val eventKind = kindFor(event) ?: return
+
+            val isDirectoryNow = changedFile.exists() && changedFile.isDirectory
+            val wasObservedDirectory =
+                synchronized(this@DepthLimitedFileObserver) {
+                    observers.containsKey(changedFile.canonicalFile.absolutePath)
+                }
+            if (shouldIgnore(relativePath, isDirectoryNow || wasObservedDirectory)) return
+
+            if (eventKind == WorkspaceFileChangeKind.CREATED && isDirectoryNow) {
+                synchronized(this@DepthLimitedFileObserver) {
+                    watchDirectory(changedFile)
+                    addExistingDirectories(changedFile, depthOf(relativePath))
+                }
+            }
+
+            if (eventKind == WorkspaceFileChangeKind.DELETED || eventKind == WorkspaceFileChangeKind.MOVED) {
+                synchronized(this@DepthLimitedFileObserver) {
+                    removeDirectoryObservers(changedFile)
+                }
+            }
+
+            onChange(
+                WorkspaceFileChange(
+                    relativePath = relativePath,
+                    kind = eventKind
+                )
+            )
+        }
+    }
+}

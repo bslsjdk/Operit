@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuU2hhcmVkUHJlZmVyZW5jZXMKCi8qKiBTdG9yZXMgdGhlIGxvY2FsbHkgYnVuZGxlZCBwbHVnaW4gbWFya2V0IGFncmVlbWVudCB2ZXJzaW9uIGFjY2VwdGVkIGJ5IHRoZSB1c2VyLiAqLwpjbGFzcyBNYXJrZXRBZ3JlZW1lbnRQcmVmZXJlbmNlcyhjb250ZXh0OiBDb250ZXh0KSB7CiAgICBwcml2YXRlIHZhbCBwcmVmc05hbWUgPSAibWFya2V0X2FncmVlbWVudF9wcmVmZXJlbmNlcyIKICAgIHByaXZhdGUgdmFsIGFjY2VwdGVkVmVyc2lvbktleSA9ICJhY2NlcHRlZF9tYXJrZXRfYWdyZWVtZW50X3ZlcnNpb24iCgogICAgcHJpdmF0ZSB2YWwgcHJlZnM6IFNoYXJlZFByZWZlcmVuY2VzID0KICAgICAgICBjb250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKHByZWZzTmFtZSwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCgogICAgZnVuIGlzQWdyZWVtZW50QWNjZXB0ZWQoKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHByZWZzLmdldFN0cmluZyhhY2NlcHRlZFZlcnNpb25LZXksIG51bGwpID09IENVUlJFTlRfTUFSS0VUX0FHUkVFTUVOVF9WRVJTSU9OCiAgICB9CgogICAgZnVuIGFjY2VwdEN1cnJlbnRBZ3JlZW1lbnQoKSB7CiAgICAgICAgcHJlZnMuZWRpdCgpCiAgICAgICAgICAgIC5wdXRTdHJpbmcoYWNjZXB0ZWRWZXJzaW9uS2V5LCBDVVJSRU5UX01BUktFVF9BR1JFRU1FTlRfVkVSU0lPTikKICAgICAgICAgICAgLmFwcGx5KCkKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICAvKiogQnVtcCB0aGlzIHZhbHVlIHdoZW5ldmVyIHRoZSBidW5kbGVkIG1hcmtldCBhZ3JlZW1lbnQgY2hhbmdlcyBzdWJzdGFudGl2ZWx5LiAqLwogICAgICAgIGNvbnN0IHZhbCBDVVJSRU5UX01BUktFVF9BR1JFRU1FTlRfVkVSU0lPTiA9ICIyMDI2LTA4LTA4LjEiCiAgICB9Cn0K
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import android.content.SharedPreferences
+
+/** Stores the locally bundled plugin market agreement version accepted by the user. */
+class MarketAgreementPreferences(context: Context) {
+    private val prefsName = "market_agreement_preferences"
+    private val acceptedVersionKey = "accepted_market_agreement_version"
+
+    private val prefs: SharedPreferences =
+        context.getSharedPreferences(prefsName, Context.MODE_PRIVATE)
+
+    fun isAgreementAccepted(): Boolean {
+        return prefs.getString(acceptedVersionKey, null) == CURRENT_MARKET_AGREEMENT_VERSION
+    }
+
+    fun acceptCurrentAgreement() {
+        prefs.edit()
+            .putString(acceptedVersionKey, CURRENT_MARKET_AGREEMENT_VERSION)
+            .apply()
+    }
+
+    companion object {
+        /** Bump this value whenever the bundled market agreement changes substantively. */
+        const val CURRENT_MARKET_AGREEMENT_VERSION = "2026-08-08.1"
+    }
+}

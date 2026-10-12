@@ -1,1 +1,255 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucy5tY3Audmlld21vZGVsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWwKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWxQcm92aWRlcgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubWNwLk1DUFJlcG9zaXRvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1jcC5wbHVnaW5zLk1DUERlcGxveWVyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgovKioKICogTUNQ6YOo572yVmlld01vZGVsCiAqCiAqIOi0n+i0o+WkhOeQhuaPkuS7tumDqOe9suS4muWKoemAu+i+kQogKi8KY2xhc3MgTUNQRGVwbG95Vmlld01vZGVsKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQsIHByaXZhdGUgdmFsIG1jcFJlcG9zaXRvcnk6IE1DUFJlcG9zaXRvcnkpIDoKICAgICAgICBWaWV3TW9kZWwoKSB7CgogICAgcHJpdmF0ZSB2YWwgbWNwRGVwbG95ZXIgPSBNQ1BEZXBsb3llcihjb250ZXh0KQoKICAgIC8vIOmDqOe9sueKtuaAgQogICAgcHJpdmF0ZSB2YWwgX2RlcGxveW1lbnRTdGF0dXMgPQogICAgICAgICAgICBNdXRhYmxlU3RhdGVGbG93PE1DUERlcGxveWVyLkRlcGxveW1lbnRTdGF0dXM+KE1DUERlcGxveWVyLkRlcGxveW1lbnRTdGF0dXMuTm90U3RhcnRlZCkKICAgIHZhbCBkZXBsb3ltZW50U3RhdHVzOiBTdGF0ZUZsb3c8TUNQRGVwbG95ZXIuRGVwbG95bWVudFN0YXR1cz4gPSBfZGVwbG95bWVudFN0YXR1cy5hc1N0YXRlRmxvdygpCgogICAgLy8g5b2T5YmN5q2j5Zyo6YOo572y55qE5o+S5Lu2SUQKICAgIHByaXZhdGUgdmFsIF9jdXJyZW50RGVwbG95aW5nUGx1Z2luID0gTXV0YWJsZVN0YXRlRmxvdzxTdHJpbmc/PihudWxsKQogICAgdmFsIGN1cnJlbnREZXBsb3lpbmdQbHVnaW46IFN0YXRlRmxvdzxTdHJpbmc/PiA9IF9jdXJyZW50RGVwbG95aW5nUGx1Z2luLmFzU3RhdGVGbG93KCkKCiAgICAvLyDpg6jnvbLovpPlh7rmtojmga8KICAgIHByaXZhdGUgdmFsIF9vdXRwdXRNZXNzYWdlcyA9IE11dGFibGVTdGF0ZUZsb3c8TGlzdDxTdHJpbmc+PihlbXB0eUxpc3QoKSkKICAgIHZhbCBvdXRwdXRNZXNzYWdlczogU3RhdGVGbG93PExpc3Q8U3RyaW5nPj4gPSBfb3V0cHV0TWVzc2FnZXMuYXNTdGF0ZUZsb3coKQoKICAgIC8vIOeUn+aIkOeahOmDqOe9suWRveS7pAogICAgcHJpdmF0ZSB2YWwgX2dlbmVyYXRlZENvbW1hbmRzID0gTXV0YWJsZVN0YXRlRmxvdzxMaXN0PFN0cmluZz4+KGVtcHR5TGlzdCgpKQogICAgdmFsIGdlbmVyYXRlZENvbW1hbmRzOiBTdGF0ZUZsb3c8TGlzdDxTdHJpbmc+PiA9IF9nZW5lcmF0ZWRDb21tYW5kcy5hc1N0YXRlRmxvdygpCgogICAgLy8g546v5aKD5Y+Y6YePCiAgICBwcml2YXRlIHZhbCBfZW52aXJvbm1lbnRWYXJpYWJsZXMgPSBNdXRhYmxlU3RhdGVGbG93PE1hcDxTdHJpbmcsIFN0cmluZz4+KGVtcHR5TWFwKCkpCiAgICB2YWwgZW52aXJvbm1lbnRWYXJpYWJsZXM6IFN0YXRlRmxvdzxNYXA8U3RyaW5nLCBTdHJpbmc+PiA9IF9lbnZpcm9ubWVudFZhcmlhYmxlcy5hc1N0YXRlRmxvdygpCgogICAgLyoqCiAgICAgKiDojrflj5bpg6jnvbLlkb3ku6QgLSDlnKjpg6jnvbLliY3osIPnlKjvvIznlKjkuo7mmL7npLrlkoznvJbovpEKICAgICAqCiAgICAgKiBAcGFyYW0gcGx1Z2luSWQg5o+S5Lu2SUQKICAgICAqIEByZXR1cm4g5piv5ZCm5oiQ5Yqf6I635Y+W5ZG95LukCiAgICAgKi8KICAgIGZ1biBnZXREZXBsb3lDb21tYW5kcyhwbHVnaW5JZDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgLy8g6I635Y+W5o+S5Lu26Lev5b6ECiAgICAgICAgdmFsIHBsdWdpblBhdGggPSBtY3BSZXBvc2l0b3J5LmdldEluc3RhbGxlZFBsdWdpblBhdGgocGx1Z2luSWQpCiAgICAgICAgaWYgKHBsdWdpblBhdGggPT0gbnVsbCkgewogICAgICAgICAgICBfZGVwbG95bWVudFN0YXR1cy52YWx1ZSA9IE1DUERlcGxveWVyLkRlcGxveW1lbnRTdGF0dXMuRXJyb3IoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWNwX2RlcGxveV9lcnJvcl9jYW5ub3RfZ2V0X3BhdGgsIHBsdWdpbklkKSkKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICAvLyDlr7nkuo7omZrmi5/ot6/lvoTvvIhucHgvdXZ4IOaPkuS7tu+8ie+8jOebtOaOpei/lOWbnuepuuWRveS7pOWIl+ihqAogICAgICAgIGlmIChwbHVnaW5QYXRoLnN0YXJ0c1dpdGgoInZpcnR1YWw6Ly8iKSkgewogICAgICAgICAgICBfZ2VuZXJhdGVkQ29tbWFuZHMudmFsdWUgPSBlbXB0eUxpc3QoKQogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KCiAgICAgICAgLy8g5Zyo5Y2P56iL5Lit6LCD55So5oyC6LW35Ye95pWwCiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIOS9v+eUqE1DUERlcGxveWVy55qEZ2V0RGVwbG95Q29tbWFuZHPmlrnms5UKICAgICAgICAgICAgICAgIHZhbCBkZXBsb3lDb21tYW5kcyA9IG1jcERlcGxveWVyLmdldERlcGxveUNvbW1hbmRzKHBsdWdpbklkLCBwbHVnaW5QYXRoKQoKICAgICAgICAgICAgICAgIGlmIChkZXBsb3lDb21tYW5kcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBfZGVwbG95bWVudFN0YXR1cy52YWx1ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBNQ1BEZXBsb3llci5EZXBsb3ltZW50U3RhdHVzLkVycm9yKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1jcF9kZXBsb3lfZXJyb3JfY2Fubm90X2RldGVybWluZSkpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIC8vIOS/neWtmOeUn+aIkOeahOWRveS7pAogICAgICAgICAgICAgICAgICAgIF9nZW5lcmF0ZWRDb21tYW5kcy52YWx1ZSA9IGRlcGxveUNvbW1hbmRzCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgX2RlcGxveW1lbnRTdGF0dXMudmFsdWUgPSBNQ1BEZXBsb3llci5EZXBsb3ltZW50U3RhdHVzLkVycm9yKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1jcF9kZXBsb3lfZXJyb3JfYW5hbHlzaXNfZmFpbGVkLCBlLm1lc3NhZ2UgPzogIiIpKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIC8qKgogICAgICog6K6+572u546v5aKD5Y+Y6YePCiAgICAgKgogICAgICogQHBhcmFtIGVudlZhcnMg546v5aKD5Y+Y6YeP6ZSu5YC85a+5CiAgICAgKi8KICAgIGZ1biBzZXRFbnZpcm9ubWVudFZhcmlhYmxlcyhlbnZWYXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+KSB7CiAgICAgICAgX2Vudmlyb25tZW50VmFyaWFibGVzLnZhbHVlID0gZW52VmFycwogICAgfQoKICAgIC8qKgogICAgICog5re75Yqg5Y2V5Liq546v5aKD5Y+Y6YePCiAgICAgKgogICAgICogQHBhcmFtIGtleSDlj5jph4/lkI0KICAgICAqIEBwYXJhbSB2YWx1ZSDlj5jph4/lgLwKICAgICAqLwogICAgZnVuIGFkZEVudmlyb25tZW50VmFyaWFibGUoa2V5OiBTdHJpbmcsIHZhbHVlOiBTdHJpbmcpIHsKICAgICAgICB2YWwgY3VycmVudFZhcnMgPSBfZW52aXJvbm1lbnRWYXJpYWJsZXMudmFsdWUudG9NdXRhYmxlTWFwKCkKICAgICAgICBjdXJyZW50VmFyc1trZXldID0gdmFsdWUKICAgICAgICBfZW52aXJvbm1lbnRWYXJpYWJsZXMudmFsdWUgPSBjdXJyZW50VmFycwogICAgfQoKICAgIC8qKgogICAgICog56e76Zmk546v5aKD5Y+Y6YePCiAgICAgKgogICAgICogQHBhcmFtIGtleSDopoHnp7vpmaTnmoTnjq/looPlj5jph4/lkI0KICAgICAqLwogICAgZnVuIHJlbW92ZUVudmlyb25tZW50VmFyaWFibGUoa2V5OiBTdHJpbmcpIHsKICAgICAgICB2YWwgY3VycmVudFZhcnMgPSBfZW52aXJvbm1lbnRWYXJpYWJsZXMudmFsdWUudG9NdXRhYmxlTWFwKCkKICAgICAgICBjdXJyZW50VmFycy5yZW1vdmUoa2V5KQogICAgICAgIF9lbnZpcm9ubWVudFZhcmlhYmxlcy52YWx1ZSA9IGN1cnJlbnRWYXJzCiAgICB9CgogICAgLyoqIOa4hemZpOeOr+Wig+WPmOmHjyAqLwogICAgZnVuIGNsZWFyRW52aXJvbm1lbnRWYXJpYWJsZXMoKSB7CiAgICAgICAgX2Vudmlyb25tZW50VmFyaWFibGVzLnZhbHVlID0gZW1wdHlNYXAoKQogICAgfQoKICAgIC8qKgogICAgICog6YOo572y5o+S5Lu277yI5L2/55So6buY6K6k55Sf5oiQ55qE5ZG95Luk77yJCiAgICAgKgogICAgICogQHBhcmFtIHBsdWdpbklkIOimgemDqOe9sueahOaPkuS7tklECiAgICAgKi8KICAgIGZ1biBkZXBsb3lQbHVnaW4ocGx1Z2luSWQ6IFN0cmluZykgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHZhbCBwbHVnaW5QYXRoID0gbWNwUmVwb3NpdG9yeS5nZXRJbnN0YWxsZWRQbHVnaW5QYXRoKHBsdWdpbklkKQogICAgICAgICAgICBpZiAocGx1Z2luUGF0aCA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBfZGVwbG95bWVudFN0YXR1cy52YWx1ZSA9IE1DUERlcGxveWVyLkRlcGxveW1lbnRTdGF0dXMuRXJyb3IoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWNwX2RlcGxveV9lcnJvcl9jYW5ub3RfZ2V0X3BhdGgsIHBsdWdpbklkKSkKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g5a+55LqOIG5weC91dngg57G75Z6L55qE5o+S5Lu277yI6Jma5ouf6Lev5b6E77yJ77yM5L2/55So56m65ZG95Luk5YiX6KGo55u05o6l6YOo572yCiAgICAgICAgICAgIGlmIChwbHVnaW5QYXRoLnN0YXJ0c1dpdGgoInZpcnR1YWw6Ly8iKSkgewogICAgICAgICAgICAgICAgZGVwbG95UGx1Z2luV2l0aENvbW1hbmRzKHBsdWdpbklkLCBlbXB0eUxpc3QoKSkKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g56Gu5L+d5ZG95Luk5bey55Sf5oiQ77yI5pmu6YCa5o+S5Lu277yJCiAgICAgICAgICAgIGlmIChfZ2VuZXJhdGVkQ29tbWFuZHMudmFsdWUuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAvLyDlhYjojrflj5blkb3ku6QKICAgICAgICAgICAgICAgIHZhbCBkZXBsb3lDb21tYW5kcyA9IHRyeSB7CiAgICAgICAgICAgICAgICAgICAgbWNwRGVwbG95ZXIuZ2V0RGVwbG95Q29tbWFuZHMocGx1Z2luSWQsIHBsdWdpblBhdGgpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBfZGVwbG95bWVudFN0YXR1cy52YWx1ZSA9IE1DUERlcGxveWVyLkRlcGxveW1lbnRTdGF0dXMuRXJyb3IoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWNwX2RlcGxveV9lcnJvcl9hbmFseXNpc19mYWlsZWQsIGUubWVzc2FnZSA/OiAiIikpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGlmIChkZXBsb3lDb21tYW5kcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBfZGVwbG95bWVudFN0YXR1cy52YWx1ZSA9IE1DUERlcGxveWVyLkRlcGxveW1lbnRTdGF0dXMuRXJyb3IoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWNwX2RlcGxveV9lcnJvcl9jYW5ub3RfZGV0ZXJtaW5lKSkKICAgICAgICAgICAgICAgICAgICByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8g5L+d5a2Y55Sf5oiQ55qE5ZG95LukCiAgICAgICAgICAgICAgICBfZ2VuZXJhdGVkQ29tbWFuZHMudmFsdWUgPSBkZXBsb3lDb21tYW5kcwogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDkvb/nlKjnlJ/miJDnmoTlkb3ku6Tpg6jnvbIKICAgICAgICAgICAgZGVwbG95UGx1Z2luV2l0aENvbW1hbmRzKHBsdWdpbklkLCBfZ2VuZXJhdGVkQ29tbWFuZHMudmFsdWUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5L2/55So6Ieq5a6a5LmJ5ZG95Luk6YOo572y5o+S5Lu2CiAgICAgKgogICAgICogQHBhcmFtIHBsdWdpbklkIOimgemDqOe9sueahOaPkuS7tklECiAgICAgKiBAcGFyYW0gY3VzdG9tQ29tbWFuZHMg6Ieq5a6a5LmJ5ZG95Luk5YiX6KGoCiAgICAgKi8KICAgIGZ1biBkZXBsb3lQbHVnaW5XaXRoQ29tbWFuZHMocGx1Z2luSWQ6IFN0cmluZywgY3VzdG9tQ29tbWFuZHM6IExpc3Q8U3RyaW5nPikgewogICAgICAgIC8vIOiOt+WPluaPkuS7tui3r+W+hAogICAgICAgIHZhbCBwbHVnaW5QYXRoID0gbWNwUmVwb3NpdG9yeS5nZXRJbnN0YWxsZWRQbHVnaW5QYXRoKHBsdWdpbklkKQogICAgICAgIGlmIChwbHVnaW5QYXRoID09IG51bGwpIHsKICAgICAgICAgICAgX2RlcGxveW1lbnRTdGF0dXMudmFsdWUgPSBNQ1BEZXBsb3llci5EZXBsb3ltZW50U3RhdHVzLkVycm9yKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1jcF9kZXBsb3lfZXJyb3JfY2Fubm90X2dldF9wYXRoLCBwbHVnaW5JZCkpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgLy8g5riF6Zmk5LmL5YmN55qE6L6T5Ye6CiAgICAgICAgX291dHB1dE1lc3NhZ2VzLnZhbHVlID0gZW1wdHlMaXN0KCkKCiAgICAgICAgLy8g6K6+572u5b2T5YmN6YOo572y55qE5o+S5Lu2CiAgICAgICAgX2N1cnJlbnREZXBsb3lpbmdQbHVnaW4udmFsdWUgPSBwbHVnaW5JZAoKICAgICAgICAvLyDlvIDlp4vpg6jnvbIKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICAvLyDmm7TmlrDnirbmgIEKICAgICAgICAgICAgX2RlcGxveW1lbnRTdGF0dXMudmFsdWUgPSBNQ1BEZXBsb3llci5EZXBsb3ltZW50U3RhdHVzLkluUHJvZ3Jlc3MoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWNwX2RlcGxveV9zdGF0dXNfcHJlcGFyaW5nKSkKCiAgICAgICAgICAgIC8vIOaJp+ihjOmDqOe9su+8jOWMheWQq+eOr+Wig+WPmOmHjwogICAgICAgICAgICBtY3BEZXBsb3llci5kZXBsb3lQbHVnaW5XaXRoQ29tbWFuZHMoCiAgICAgICAgICAgICAgICAgICAgcGx1Z2luSWQgPSBwbHVnaW5JZCwKICAgICAgICAgICAgICAgICAgICBwbHVnaW5QYXRoID0gcGx1Z2luUGF0aCwKICAgICAgICAgICAgICAgICAgICBjdXN0b21Db21tYW5kcyA9IGN1c3RvbUNvbW1hbmRzLAogICAgICAgICAgICAgICAgICAgIGVudmlyb25tZW50VmFyaWFibGVzID0gX2Vudmlyb25tZW50VmFyaWFibGVzLnZhbHVlLAogICAgICAgICAgICAgICAgICAgIHN0YXR1c0NhbGxiYWNrID0geyBzdGF0dXMgLT4KICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGNvbnN1bWVkQXNPdXRwdXQgPSBmYWxzZQoKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5pS26ZuG6L6T5Ye65raI5oGvCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzdGF0dXMgaXMgTUNQRGVwbG95ZXIuRGVwbG95bWVudFN0YXR1cy5JblByb2dyZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgb3V0cHV0UHJlZml4ID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWNwX2RlcGxveW1lbnRfb3V0cHV0X3ByZWZpeCkudHJpbUVuZCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgbGVnYWN5UHJlZml4ID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWNwX2RlcGxveV9vdXRwdXRfcHJlZml4KS50cmltRW5kKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByYXdNZXNzYWdlID0gc3RhdHVzLm1lc3NhZ2UKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgb3V0cHV0Q29udGVudCA9IHdoZW4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhd01lc3NhZ2Uuc3RhcnRzV2l0aChvdXRwdXRQcmVmaXgpIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhd01lc3NhZ2UucmVtb3ZlUHJlZml4KG91dHB1dFByZWZpeCkudHJpbVN0YXJ0KCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdNZXNzYWdlLnN0YXJ0c1dpdGgobGVnYWN5UHJlZml4KSAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdNZXNzYWdlLnJlbW92ZVByZWZpeChsZWdhY3lQcmVmaXgpLnRyaW1TdGFydCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCFvdXRwdXRDb250ZW50LmlzTnVsbE9yRW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBuZXdMaW5lcyA9IG91dHB1dENvbnRlbnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlcGxhY2UoIlxyXG4iLCAiXG4iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc3BsaXQoJ1xuJykKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKG5ld0xpbmVzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBfb3V0cHV0TWVzc2FnZXMudmFsdWUgPSBfb3V0cHV0TWVzc2FnZXMudmFsdWUgKyBuZXdMaW5lcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdW1lZEFzT3V0cHV0ID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCFjb25zdW1lZEFzT3V0cHV0KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfZGVwbG95bWVudFN0YXR1cy52YWx1ZSA9IHN0YXR1cwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDph43nva7pg6jnvbLnirbmgIEgKi8KICAgIGZ1biByZXNldERlcGxveW1lbnRTdGF0ZSgpIHsKICAgICAgICBfZGVwbG95bWVudFN0YXR1cy52YWx1ZSA9IE1DUERlcGxveWVyLkRlcGxveW1lbnRTdGF0dXMuTm90U3RhcnRlZAogICAgICAgIF9jdXJyZW50RGVwbG95aW5nUGx1Z2luLnZhbHVlID0gbnVsbAogICAgICAgIF9vdXRwdXRNZXNzYWdlcy52YWx1ZSA9IGVtcHR5TGlzdCgpCiAgICAgICAgX2dlbmVyYXRlZENvbW1hbmRzLnZhbHVlID0gZW1wdHlMaXN0KCkKICAgICAgICAvLyDkuI3ph43nva7njq/looPlj5jph4/vvIzlm6DkuLrlj6/og73pnIDopoHlnKjlpJrmrKHpg6jnvbLkuK3ph43nlKgKICAgIH0KCiAgICAvKiog5bel5Y6C57G7ICovCiAgICBjbGFzcyBGYWN0b3J5KHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQsIHByaXZhdGUgdmFsIG1jcFJlcG9zaXRvcnk6IE1DUFJlcG9zaXRvcnkpIDoKICAgICAgICAgICAgVmlld01vZGVsUHJvdmlkZXIuRmFjdG9yeSB7CiAgICAgICAgQFN1cHByZXNzKCJVTkNIRUNLRURfQ0FTVCIpCiAgICAgICAgb3ZlcnJpZGUgZnVuIDxUIDogVmlld01vZGVsPiBjcmVhdGUobW9kZWxDbGFzczogQ2xhc3M8VD4pOiBUIHsKICAgICAgICAgICAgaWYgKG1vZGVsQ2xhc3MuaXNBc3NpZ25hYmxlRnJvbShNQ1BEZXBsb3lWaWV3TW9kZWw6OmNsYXNzLmphdmEpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gTUNQRGVwbG95Vmlld01vZGVsKGNvbnRleHQsIG1jcFJlcG9zaXRvcnkpIGFzIFQKICAgICAgICAgICAgfQogICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIlVua25vd24gVmlld01vZGVsIGNsYXNzIikKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.packages.screens.mcp.viewmodel
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.mcp.MCPRepository
+import com.bslsjdk.operit.data.mcp.plugins.MCPDeployer
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+
+/**
+ * MCP部署ViewModel
+ *
+ * 负责处理插件部署业务逻辑
+ */
+class MCPDeployViewModel(private val context: Context, private val mcpRepository: MCPRepository) :
+        ViewModel() {
+
+    private val mcpDeployer = MCPDeployer(context)
+
+    // 部署状态
+    private val _deploymentStatus =
+            MutableStateFlow<MCPDeployer.DeploymentStatus>(MCPDeployer.DeploymentStatus.NotStarted)
+    val deploymentStatus: StateFlow<MCPDeployer.DeploymentStatus> = _deploymentStatus.asStateFlow()
+
+    // 当前正在部署的插件ID
+    private val _currentDeployingPlugin = MutableStateFlow<String?>(null)
+    val currentDeployingPlugin: StateFlow<String?> = _currentDeployingPlugin.asStateFlow()
+
+    // 部署输出消息
+    private val _outputMessages = MutableStateFlow<List<String>>(emptyList())
+    val outputMessages: StateFlow<List<String>> = _outputMessages.asStateFlow()
+
+    // 生成的部署命令
+    private val _generatedCommands = MutableStateFlow<List<String>>(emptyList())
+    val generatedCommands: StateFlow<List<String>> = _generatedCommands.asStateFlow()
+
+    // 环境变量
+    private val _environmentVariables = MutableStateFlow<Map<String, String>>(emptyMap())
+    val environmentVariables: StateFlow<Map<String, String>> = _environmentVariables.asStateFlow()
+
+    /**
+     * 获取部署命令 - 在部署前调用，用于显示和编辑
+     *
+     * @param pluginId 插件ID
+     * @return 是否成功获取命令
+     */
+    fun getDeployCommands(pluginId: String): Boolean {
+        // 获取插件路径
+        val pluginPath = mcpRepository.getInstalledPluginPath(pluginId)
+        if (pluginPath == null) {
+            _deploymentStatus.value = MCPDeployer.DeploymentStatus.Error(context.getString(R.string.mcp_deploy_error_cannot_get_path, pluginId))
+            return false
+        }
+
+        // 对于虚拟路径（npx/uvx 插件），直接返回空命令列表
+        if (pluginPath.startsWith("virtual://")) {
+            _generatedCommands.value = emptyList()
+            return true
+        }
+
+        // 在协程中调用挂起函数
+        viewModelScope.launch {
+            try {
+                // 使用MCPDeployer的getDeployCommands方法
+                val deployCommands = mcpDeployer.getDeployCommands(pluginId, pluginPath)
+
+                if (deployCommands.isEmpty()) {
+                    _deploymentStatus.value =
+                            MCPDeployer.DeploymentStatus.Error(context.getString(R.string.mcp_deploy_error_cannot_determine))
+                } else {
+                    // 保存生成的命令
+                    _generatedCommands.value = deployCommands
+                }
+            } catch (e: Exception) {
+                _deploymentStatus.value = MCPDeployer.DeploymentStatus.Error(context.getString(R.string.mcp_deploy_error_analysis_failed, e.message ?: ""))
+            }
+        }
+
+        return true
+    }
+
+    /**
+     * 设置环境变量
+     *
+     * @param envVars 环境变量键值对
+     */
+    fun setEnvironmentVariables(envVars: Map<String, String>) {
+        _environmentVariables.value = envVars
+    }
+
+    /**
+     * 添加单个环境变量
+     *
+     * @param key 变量名
+     * @param value 变量值
+     */
+    fun addEnvironmentVariable(key: String, value: String) {
+        val currentVars = _environmentVariables.value.toMutableMap()
+        currentVars[key] = value
+        _environmentVariables.value = currentVars
+    }
+
+    /**
+     * 移除环境变量
+     *
+     * @param key 要移除的环境变量名
+     */
+    fun removeEnvironmentVariable(key: String) {
+        val currentVars = _environmentVariables.value.toMutableMap()
+        currentVars.remove(key)
+        _environmentVariables.value = currentVars
+    }
+
+    /** 清除环境变量 */
+    fun clearEnvironmentVariables() {
+        _environmentVariables.value = emptyMap()
+    }
+
+    /**
+     * 部署插件（使用默认生成的命令）
+     *
+     * @param pluginId 要部署的插件ID
+     */
+    fun deployPlugin(pluginId: String) {
+        viewModelScope.launch {
+            val pluginPath = mcpRepository.getInstalledPluginPath(pluginId)
+            if (pluginPath == null) {
+                _deploymentStatus.value = MCPDeployer.DeploymentStatus.Error(context.getString(R.string.mcp_deploy_error_cannot_get_path, pluginId))
+                return@launch
+            }
+
+            // 对于 npx/uvx 类型的插件（虚拟路径），使用空命令列表直接部署
+            if (pluginPath.startsWith("virtual://")) {
+                deployPluginWithCommands(pluginId, emptyList())
+                return@launch
+            }
+
+            // 确保命令已生成（普通插件）
+            if (_generatedCommands.value.isEmpty()) {
+                // 先获取命令
+                val deployCommands = try {
+                    mcpDeployer.getDeployCommands(pluginId, pluginPath)
+                } catch (e: Exception) {
+                    _deploymentStatus.value = MCPDeployer.DeploymentStatus.Error(context.getString(R.string.mcp_deploy_error_analysis_failed, e.message ?: ""))
+                    return@launch
+                }
+
+                if (deployCommands.isEmpty()) {
+                    _deploymentStatus.value = MCPDeployer.DeploymentStatus.Error(context.getString(R.string.mcp_deploy_error_cannot_determine))
+                    return@launch
+                }
+
+                // 保存生成的命令
+                _generatedCommands.value = deployCommands
+            }
+
+            // 使用生成的命令部署
+            deployPluginWithCommands(pluginId, _generatedCommands.value)
+        }
+    }
+
+    /**
+     * 使用自定义命令部署插件
+     *
+     * @param pluginId 要部署的插件ID
+     * @param customCommands 自定义命令列表
+     */
+    fun deployPluginWithCommands(pluginId: String, customCommands: List<String>) {
+        // 获取插件路径
+        val pluginPath = mcpRepository.getInstalledPluginPath(pluginId)
+        if (pluginPath == null) {
+            _deploymentStatus.value = MCPDeployer.DeploymentStatus.Error(context.getString(R.string.mcp_deploy_error_cannot_get_path, pluginId))
+            return
+        }
+
+        // 清除之前的输出
+        _outputMessages.value = emptyList()
+
+        // 设置当前部署的插件
+        _currentDeployingPlugin.value = pluginId
+
+        // 开始部署
+        viewModelScope.launch {
+            // 更新状态
+            _deploymentStatus.value = MCPDeployer.DeploymentStatus.InProgress(context.getString(R.string.mcp_deploy_status_preparing))
+
+            // 执行部署，包含环境变量
+            mcpDeployer.deployPluginWithCommands(
+                    pluginId = pluginId,
+                    pluginPath = pluginPath,
+                    customCommands = customCommands,
+                    environmentVariables = _environmentVariables.value,
+                    statusCallback = { status ->
+                        var consumedAsOutput = false
+
+                        // 收集输出消息
+                        if (status is MCPDeployer.DeploymentStatus.InProgress) {
+                            val outputPrefix = context.getString(R.string.mcp_deployment_output_prefix).trimEnd()
+                            val legacyPrefix = context.getString(R.string.mcp_deploy_output_prefix).trimEnd()
+                            val rawMessage = status.message
+
+                            val outputContent = when {
+                                rawMessage.startsWith(outputPrefix) ->
+                                    rawMessage.removePrefix(outputPrefix).trimStart()
+                                rawMessage.startsWith(legacyPrefix) ->
+                                    rawMessage.removePrefix(legacyPrefix).trimStart()
+                                else -> null
+                            }
+
+                            if (!outputContent.isNullOrEmpty()) {
+                                val newLines = outputContent
+                                    .replace("\r\n", "\n")
+                                    .split('\n')
+                                    .filter { it.isNotBlank() }
+                                if (newLines.isNotEmpty()) {
+                                    _outputMessages.value = _outputMessages.value + newLines
+                                    consumedAsOutput = true
+                                }
+                            }
+                        }
+
+                        if (!consumedAsOutput) {
+                            _deploymentStatus.value = status
+                        }
+                    }
+            )
+        }
+    }
+
+    /** 重置部署状态 */
+    fun resetDeploymentState() {
+        _deploymentStatus.value = MCPDeployer.DeploymentStatus.NotStarted
+        _currentDeployingPlugin.value = null
+        _outputMessages.value = emptyList()
+        _generatedCommands.value = emptyList()
+        // 不重置环境变量，因为可能需要在多次部署中重用
+    }
+
+    /** 工厂类 */
+    class Factory(private val context: Context, private val mcpRepository: MCPRepository) :
+            ViewModelProvider.Factory {
+        @Suppress("UNCHECKED_CAST")
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(MCPDeployViewModel::class.java)) {
+                return MCPDeployViewModel(context, mcpRepository) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+}

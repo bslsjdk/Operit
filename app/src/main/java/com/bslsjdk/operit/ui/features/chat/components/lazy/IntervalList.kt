@@ -1,1 +1,203 @@
-LyoKICogQ29weXJpZ2h0IDIwMjIgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5pbnRlcm5hbC5yZXF1aXJlUHJlY29uZGl0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uaW50ZXJuYWwudGhyb3dJbmRleE91dE9mQm91bmRzRXhjZXB0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuY29sbGVjdGlvbi5NdXRhYmxlVmVjdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuY29sbGVjdGlvbi5tdXRhYmxlVmVjdG9yT2YKCi8qKgogKiBUaGUgbGlzdCBjb25zaXN0aW5nIG9mIG11bHRpcGxlIGludGVydmFscy4KICoKICogSXQgaXMgdXNlZnVsIHdoZW4geW91IHdhbnQgdG8gZGVmaW5lIHlvdXIgb3duIGRzbCBzaW1pbGFyIHRvIHRoZSBvbmUgdXNlZCBieSBMYXp5Q29sdW1uIHdoZXJlCiAqIGxpc3QgaXRlbXMgY2FuIGJlIGRlZmluZWQgdmlhIG11bHRpcGxlIGl0ZW0vaXRlbXMgY2FsbHMuCiAqCiAqIFRoaXMgaW50ZXJmYWNlIGlzIHJlYWQgb25seSwgaW4gb3JkZXIgdG8gY3JlYXRlIGEgbGlzdCB5b3UgbmVlZCB0byB1c2UgW011dGFibGVJbnRlcnZhbExpc3RdLgogKgogKiBAcGFyYW0gVCB0eXBlIG9mIHZhbHVlcyBlYWNoIGludGVydmFsIGNvbnRhaW5zIGluIFtJbnRlcnZhbC52YWx1ZV0uCiAqCiAqIE5vdGU6IHRoaXMgY2xhc3MgaXMgYSBwYXJ0IG9mIFtMYXp5TGF5b3V0XSBoYXJuZXNzIHRoYXQgYWxsb3dzIGZvciBidWlsZGluZyBjdXN0b20gbGF6eSBsYXlvdXRzLgogKiBMYXp5TGF5b3V0IGFuZCBhbGwgY29ycmVzcG9uZGluZyBBUElzIGFyZSBzdGlsbCB1bmRlciBkZXZlbG9wbWVudCBhbmQgYXJlIHN1YmplY3QgdG8gY2hhbmdlLgogKi8Kc2VhbGVkIGludGVyZmFjZSBJbnRlcnZhbExpc3Q8b3V0IFQ+IHsKCiAgICAvKioKICAgICAqIFRoZSB0b3RhbCBhbW91bnQgb2YgaXRlbXMgaW4gYWxsIHRoZSBpbnRlcnZhbHMuCiAgICAgKgogICAgICogTm90ZSB0aGF0IGl0IGlzIG5vdCB0aGUgYW1vdW50IG9mIGludGVydmFscywgYnV0IHRoZSBzdW0gb2YgW0ludGVydmFsLnNpemVdIGZvciBhbGwgdGhlCiAgICAgKiBpbnRlcnZhbHMgYWRkZWQgaW50byB0aGlzIGxpc3QuCiAgICAgKi8KICAgIHZhbCBzaXplOiBJbnQKCiAgICAvKioKICAgICAqIFJldHVybnMgdGhlIGludGVydmFsIGNvbnRhaW5pbmcgdGhlIGdpdmVuIFtpbmRleF0uCiAgICAgKgogICAgICogQHRocm93cyBJbmRleE91dE9mQm91bmRzRXhjZXB0aW9uIGlmIHRoZSBpbmRleCBpcyBub3Qgd2l0aGluIDAuLltzaXplXSAtIDEgcmFuZ2UuCiAgICAgKi8KICAgIG9wZXJhdG9yIGZ1biBnZXQoaW5kZXg6IEludCk6IEludGVydmFsPFQ+CgogICAgLyoqCiAgICAgKiBJdGVyYXRlcyB0aHJvdWdoIGFsbCB0aGUgaW50ZXJ2YWxzIHN0YXJ0aW5nIGZyb20gdGhlIG9uZSBjb250YWluaW5nIFtmcm9tSW5kZXhdIHVudGlsIHRoZSBvbmUKICAgICAqIGNvbnRhaW5pbmcgW3RvSW5kZXhdLgogICAgICoKICAgICAqIEBwYXJhbSBmcm9tSW5kZXggd2Ugd2lsbCBzdGFydCBpdGVyYXRpbmcgZnJvbSB0aGUgaW50ZXJ2YWwgY29udGFpbmluZyB0aGlzIGluZGV4LgogICAgICogQHBhcmFtIHRvSW5kZXggdGhlIGxhc3QgaW50ZXJ2YWwgd2UgaXRlcmF0ZSB0aHJvdWdoIHdpbGwgY29udGFpbiB0aGlzIGluZGV4LiBUaGlzIGluZGV4CiAgICAgKiAgIHNob3VsZCBiZSBub3Qgc21hbGxlciB0aGFuIFtmcm9tSW5kZXhdLgogICAgICogQHBhcmFtIGJsb2NrIHdpbGwgYmUgaW52b2tlZCBvbiBlYWNoIGludGVydmFsIHdpdGhpbiB0aGUgZGVmaW5lZCBpbmRleGVzCiAgICAgKiBAdGhyb3dzIEluZGV4T3V0T2ZCb3VuZHNFeGNlcHRpb24gaWYgdGhlIGluZGV4ZXMgYXJlIG5vdCB3aXRoaW4gMC4uW3NpemVdIC0gMSByYW5nZS4KICAgICAqLwogICAgZnVuIGZvckVhY2goZnJvbUluZGV4OiBJbnQgPSAwLCB0b0luZGV4OiBJbnQgPSBzaXplIC0gMSwgYmxvY2s6IChJbnRlcnZhbDxUPikgLT4gVW5pdCkKCiAgICAvKioKICAgICAqIFRoZSBpbnRlcnZhbCBob2xkZXIuCiAgICAgKgogICAgICogQHNlZSBnZXQKICAgICAqLwogICAgY2xhc3MgSW50ZXJ2YWw8b3V0IFQ+CiAgICBpbnRlcm5hbCBjb25zdHJ1Y3RvcigKICAgICAgICAvKiogVGhlIGluZGV4IG9mIHRoZSBmaXJzdCBpdGVtIGluIHRoZSBpbnRlcnZhbC4gKi8KICAgICAgICB2YWwgc3RhcnRJbmRleDogSW50LAogICAgICAgIC8qKiBUaGUgYW1vdW50IG9mIGl0ZW1zIGluIHRoZSBpbnRlcnZhbC4gKi8KICAgICAgICB2YWwgc2l6ZTogSW50LAogICAgICAgIC8qKiBUaGUgdmFsdWUgcmVwcmVzZW50aW5nIHRoaXMgaW50ZXJ2YWwuICovCiAgICAgICAgdmFsIHZhbHVlOiBULAogICAgKSB7CiAgICAgICAgaW5pdCB7CiAgICAgICAgICAgIHJlcXVpcmVQcmVjb25kaXRpb24oc3RhcnRJbmRleCA+PSAwKSB7ICJzdGFydEluZGV4IHNob3VsZCBiZSA+PSAwIiB9CiAgICAgICAgICAgIHJlcXVpcmVQcmVjb25kaXRpb24oc2l6ZSA+IDApIHsgInNpemUgc2hvdWxkIGJlID4gMCIgfQogICAgICAgIH0KICAgIH0KfQoKLyoqCiAqIE11dGFibGUgdmVyc2lvbiBvZiBbSW50ZXJ2YWxMaXN0XS4gSXQgYWxsb3dzIHlvdSB0byBhZGQgbmV3IGludGVydmFscyB2aWEgW2FkZEludGVydmFsXS4KICoKICogTm90ZTogdGhpcyBjbGFzcyBpcyBhIHBhcnQgb2YgW0xhenlMYXlvdXRdIGhhcm5lc3MgdGhhdCBhbGxvd3MgZm9yIGJ1aWxkaW5nIGN1c3RvbSBsYXp5IGxheW91dHMuCiAqIExhenlMYXlvdXQgYW5kIGFsbCBjb3JyZXNwb25kaW5nIEFQSXMgYXJlIHN0aWxsIHVuZGVyIGRldmVsb3BtZW50IGFuZCBhcmUgc3ViamVjdCB0byBjaGFuZ2UuCiAqLwpjbGFzcyBNdXRhYmxlSW50ZXJ2YWxMaXN0PFQ+IDogSW50ZXJ2YWxMaXN0PFQ+IHsKICAgIHByaXZhdGUgdmFsIGludGVydmFscyA9IG11dGFibGVWZWN0b3JPZjxJbnRlcnZhbExpc3QuSW50ZXJ2YWw8VD4+KCkKCiAgICBvdmVycmlkZSB2YXIgc2l6ZSA9IDAKICAgICAgICBwcml2YXRlIHNldAoKICAgIC8qKgogICAgICogQ2FjaGVzIHRoZSBsYXN0IGludGVydmFsIHdlIGJpbmFyeSBzZWFyY2hlZCBmb3IuIFdlIG1pZ2h0IG5vdCBuZWVkIHRvIHJlY2FsY3VsYXRlIGZvcgogICAgICogc3Vic2VxdWVudCBxdWVyaWVzLCBhcyB0aGV5IHRlbmQgdG8gYmUgbG9jYWxpc2VkLgogICAgICovCiAgICBwcml2YXRlIHZhciBsYXN0SW50ZXJ2YWw6IEludGVydmFsTGlzdC5JbnRlcnZhbDxUPj8gPSBudWxsCgogICAgLyoqCiAgICAgKiBBZGRzIGEgbmV3IGludGVydmFsIGludG8gdGhpcyBsaXN0LgogICAgICoKICAgICAqIEBwYXJhbSBzaXplIHRoZSBhbW91bnQgb2YgaXRlbXMgaW4gdGhlIG5ldyBpbnRlcnZhbC4KICAgICAqIEBwYXJhbSB2YWx1ZSB0aGUgdmFsdWUgcmVwcmVzZW50aW5nIHRoaXMgaW50ZXJ2YWwuCiAgICAgKi8KICAgIGZ1biBhZGRJbnRlcnZhbChzaXplOiBJbnQsIHZhbHVlOiBUKSB7CiAgICAgICAgcmVxdWlyZVByZWNvbmRpdGlvbihzaXplID49IDApIHsgInNpemUgc2hvdWxkIGJlID49MCIgfQogICAgICAgIGlmIChzaXplID09IDApIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB2YWwgaW50ZXJ2YWwgPSBJbnRlcnZhbExpc3QuSW50ZXJ2YWwoc3RhcnRJbmRleCA9IHRoaXMuc2l6ZSwgc2l6ZSA9IHNpemUsIHZhbHVlID0gdmFsdWUpCiAgICAgICAgdGhpcy5zaXplICs9IHNpemUKICAgICAgICBpbnRlcnZhbHMuYWRkKGludGVydmFsKQogICAgfQoKICAgIC8qKgogICAgICogQWxsb3dzIHRvIGl0ZXJhdGUgdGhyb3VnaCBhbGwgdGhlIGludGVydmFscyBzdGFydGluZyBmcm9tIHRoZSBvbmUgY29udGFpbmluZyBbZnJvbUluZGV4XQogICAgICogdW50aWwgdGhlIG9uZSBjb250YWluaW5nIFt0b0luZGV4XS4KICAgICAqCiAgICAgKiBAcGFyYW0gZnJvbUluZGV4IHdlIHdpbGwgc3RhcnQgaXRlcmF0aW5nIGZyb20gdGhlIGludGVydmFsIGNvbnRhaW5pbmcgdGhpcyBpbmRleC4KICAgICAqIEBwYXJhbSB0b0luZGV4IHRoZSBsYXN0IGludGVydmFsIHdlIGl0ZXJhdGUgdGhyb3VnaCB3aWxsIGNvbnRhaW4gdGhpcyBpbmRleC4gVGhpcyBpbmRleAogICAgICogICBzaG91bGQgYmUgbm90IHNtYWxsZXIgdGhhbiBbZnJvbUluZGV4XS4KICAgICAqIEBwYXJhbSBibG9jayB3aWxsIGJlIGludm9rZWQgb24gZWFjaCBpbnRlcnZhbCB3aXRoaW4gdGhlIGRlZmluZWQgaW5kZXhlcwogICAgICogQHRocm93cyBJbmRleE91dE9mQm91bmRzRXhjZXB0aW9uIGlmIHRoZSBpbmRleGVzIGFyZSBub3Qgd2l0aGluIDAuLltzaXplXSAtIDEgcmFuZ2UuCiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biBmb3JFYWNoKGZyb21JbmRleDogSW50LCB0b0luZGV4OiBJbnQsIGJsb2NrOiAoSW50ZXJ2YWxMaXN0LkludGVydmFsPFQ+KSAtPiBVbml0KSB7CiAgICAgICAgY2hlY2tJbmRleEJvdW5kcyhmcm9tSW5kZXgpCiAgICAgICAgY2hlY2tJbmRleEJvdW5kcyh0b0luZGV4KQogICAgICAgIHJlcXVpcmVQcmVjb25kaXRpb24odG9JbmRleCA+PSBmcm9tSW5kZXgpIHsKICAgICAgICAgICAgInRvSW5kZXggKCR0b0luZGV4KSBzaG91bGQgYmUgbm90IHNtYWxsZXIgdGhhbiBmcm9tSW5kZXggKCRmcm9tSW5kZXgpIgogICAgICAgIH0KCiAgICAgICAgdmFyIGludGVydmFsSW5kZXggPSBpbnRlcnZhbHMuYmluYXJ5U2VhcmNoKGZyb21JbmRleCkKICAgICAgICB2YXIgaXRlbUluZGV4ID0gaW50ZXJ2YWxzW2ludGVydmFsSW5kZXhdLnN0YXJ0SW5kZXgKICAgICAgICB3aGlsZSAoaXRlbUluZGV4IDw9IHRvSW5kZXgpIHsKICAgICAgICAgICAgdmFsIGludGVydmFsID0gaW50ZXJ2YWxzW2ludGVydmFsSW5kZXhdCiAgICAgICAgICAgIGJsb2NrKGludGVydmFsKQogICAgICAgICAgICBpdGVtSW5kZXggKz0gaW50ZXJ2YWwuc2l6ZQogICAgICAgICAgICBpbnRlcnZhbEluZGV4KysKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldChpbmRleDogSW50KTogSW50ZXJ2YWxMaXN0LkludGVydmFsPFQ+IHsKICAgICAgICBjaGVja0luZGV4Qm91bmRzKGluZGV4KQogICAgICAgIHJldHVybiBnZXRJbnRlcnZhbEZvckluZGV4KGluZGV4KQogICAgfQoKICAgIHByaXZhdGUgZnVuIGdldEludGVydmFsRm9ySW5kZXgoaXRlbUluZGV4OiBJbnQpOiBJbnRlcnZhbExpc3QuSW50ZXJ2YWw8VD4gewogICAgICAgIHZhbCBsYXN0SW50ZXJ2YWwgPSBsYXN0SW50ZXJ2YWwKICAgICAgICByZXR1cm4gaWYgKGxhc3RJbnRlcnZhbCAhPSBudWxsICYmIGxhc3RJbnRlcnZhbC5jb250YWlucyhpdGVtSW5kZXgpKSB7CiAgICAgICAgICAgIGxhc3RJbnRlcnZhbAogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGludGVydmFsc1tpbnRlcnZhbHMuYmluYXJ5U2VhcmNoKGl0ZW1JbmRleCldLmFsc28geyB0aGlzLmxhc3RJbnRlcnZhbCA9IGl0IH0KICAgICAgICB9CiAgICB9CgogICAgQFN1cHByZXNzKCJOT1RISU5HX1RPX0lOTElORSIpCiAgICBwcml2YXRlIGlubGluZSBmdW4gY2hlY2tJbmRleEJvdW5kcyhpbmRleDogSW50KSB7CiAgICAgICAgaWYgKGluZGV4ICFpbiAwIHVudGlsIHNpemUpIHsKICAgICAgICAgICAgdGhyb3dJbmRleE91dE9mQm91bmRzRXhjZXB0aW9uKCJJbmRleCAkaW5kZXgsIHNpemUgJHNpemUiKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBJbnRlcnZhbExpc3QuSW50ZXJ2YWw8VD4uY29udGFpbnMoaW5kZXg6IEludCkgPQogICAgICAgIGluZGV4IGluIHN0YXJ0SW5kZXggdW50aWwgc3RhcnRJbmRleCArIHNpemUKfQoKLyoqCiAqIEZpbmRzIHRoZSBpbmRleCBvZiB0aGUgaW50ZXJ2YWwgd2hpY2ggY29udGFpbnMgdGhlIGhpZ2hlc3QgdmFsdWUgb2YKICogW0ludGVydmFsTGlzdC5JbnRlcnZhbC5zdGFydEluZGV4XSB0aGF0IGlzIGxlc3MgdGhhbiBvciBlcXVhbCB0byB0aGUgZ2l2ZW4gW2l0ZW1JbmRleF0uCiAqLwpwcml2YXRlIGZ1biA8VD4gTXV0YWJsZVZlY3RvcjxJbnRlcnZhbExpc3QuSW50ZXJ2YWw8VD4+LmJpbmFyeVNlYXJjaChpdGVtSW5kZXg6IEludCk6IEludCB7CiAgICB2YXIgbGVmdCA9IDAKICAgIHZhciByaWdodCA9IGxhc3RJbmRleAoKICAgIHdoaWxlIChsZWZ0IDwgcmlnaHQpIHsKICAgICAgICB2YWwgbWlkZGxlID0gbGVmdCArIChyaWdodCAtIGxlZnQpIC8gMgoKICAgICAgICB2YWwgbWlkZGxlVmFsdWUgPSBnZXQobWlkZGxlKS5zdGFydEluZGV4CiAgICAgICAgaWYgKG1pZGRsZVZhbHVlID09IGl0ZW1JbmRleCkgewogICAgICAgICAgICByZXR1cm4gbWlkZGxlCiAgICAgICAgfQoKICAgICAgICBpZiAobWlkZGxlVmFsdWUgPCBpdGVtSW5kZXgpIHsKICAgICAgICAgICAgbGVmdCA9IG1pZGRsZSArIDEKCiAgICAgICAgICAgIC8vIFZlcmlmeSB0aGF0IHRoZSBsZWZ0IHdpbGwgbm90IGJlIGJpZ2dlciB0aGFuIG91ciB2YWx1ZQogICAgICAgICAgICBpZiAoaXRlbUluZGV4IDwgZ2V0KGxlZnQpLnN0YXJ0SW5kZXgpIHsKICAgICAgICAgICAgICAgIHJldHVybiBtaWRkbGUKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHJpZ2h0ID0gbWlkZGxlIC0gMQogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gbGVmdAp9Cg==
+/*
+ * Copyright 2022 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.internal.requirePrecondition
+import androidx.compose.foundation.internal.throwIndexOutOfBoundsException
+import androidx.compose.runtime.collection.MutableVector
+import androidx.compose.runtime.collection.mutableVectorOf
+
+/**
+ * The list consisting of multiple intervals.
+ *
+ * It is useful when you want to define your own dsl similar to the one used by LazyColumn where
+ * list items can be defined via multiple item/items calls.
+ *
+ * This interface is read only, in order to create a list you need to use [MutableIntervalList].
+ *
+ * @param T type of values each interval contains in [Interval.value].
+ *
+ * Note: this class is a part of [LazyLayout] harness that allows for building custom lazy layouts.
+ * LazyLayout and all corresponding APIs are still under development and are subject to change.
+ */
+sealed interface IntervalList<out T> {
+
+    /**
+     * The total amount of items in all the intervals.
+     *
+     * Note that it is not the amount of intervals, but the sum of [Interval.size] for all the
+     * intervals added into this list.
+     */
+    val size: Int
+
+    /**
+     * Returns the interval containing the given [index].
+     *
+     * @throws IndexOutOfBoundsException if the index is not within 0..[size] - 1 range.
+     */
+    operator fun get(index: Int): Interval<T>
+
+    /**
+     * Iterates through all the intervals starting from the one containing [fromIndex] until the one
+     * containing [toIndex].
+     *
+     * @param fromIndex we will start iterating from the interval containing this index.
+     * @param toIndex the last interval we iterate through will contain this index. This index
+     *   should be not smaller than [fromIndex].
+     * @param block will be invoked on each interval within the defined indexes
+     * @throws IndexOutOfBoundsException if the indexes are not within 0..[size] - 1 range.
+     */
+    fun forEach(fromIndex: Int = 0, toIndex: Int = size - 1, block: (Interval<T>) -> Unit)
+
+    /**
+     * The interval holder.
+     *
+     * @see get
+     */
+    class Interval<out T>
+    internal constructor(
+        /** The index of the first item in the interval. */
+        val startIndex: Int,
+        /** The amount of items in the interval. */
+        val size: Int,
+        /** The value representing this interval. */
+        val value: T,
+    ) {
+        init {
+            requirePrecondition(startIndex >= 0) { "startIndex should be >= 0" }
+            requirePrecondition(size > 0) { "size should be > 0" }
+        }
+    }
+}
+
+/**
+ * Mutable version of [IntervalList]. It allows you to add new intervals via [addInterval].
+ *
+ * Note: this class is a part of [LazyLayout] harness that allows for building custom lazy layouts.
+ * LazyLayout and all corresponding APIs are still under development and are subject to change.
+ */
+class MutableIntervalList<T> : IntervalList<T> {
+    private val intervals = mutableVectorOf<IntervalList.Interval<T>>()
+
+    override var size = 0
+        private set
+
+    /**
+     * Caches the last interval we binary searched for. We might not need to recalculate for
+     * subsequent queries, as they tend to be localised.
+     */
+    private var lastInterval: IntervalList.Interval<T>? = null
+
+    /**
+     * Adds a new interval into this list.
+     *
+     * @param size the amount of items in the new interval.
+     * @param value the value representing this interval.
+     */
+    fun addInterval(size: Int, value: T) {
+        requirePrecondition(size >= 0) { "size should be >=0" }
+        if (size == 0) {
+            return
+        }
+
+        val interval = IntervalList.Interval(startIndex = this.size, size = size, value = value)
+        this.size += size
+        intervals.add(interval)
+    }
+
+    /**
+     * Allows to iterate through all the intervals starting from the one containing [fromIndex]
+     * until the one containing [toIndex].
+     *
+     * @param fromIndex we will start iterating from the interval containing this index.
+     * @param toIndex the last interval we iterate through will contain this index. This index
+     *   should be not smaller than [fromIndex].
+     * @param block will be invoked on each interval within the defined indexes
+     * @throws IndexOutOfBoundsException if the indexes are not within 0..[size] - 1 range.
+     */
+    override fun forEach(fromIndex: Int, toIndex: Int, block: (IntervalList.Interval<T>) -> Unit) {
+        checkIndexBounds(fromIndex)
+        checkIndexBounds(toIndex)
+        requirePrecondition(toIndex >= fromIndex) {
+            "toIndex ($toIndex) should be not smaller than fromIndex ($fromIndex)"
+        }
+
+        var intervalIndex = intervals.binarySearch(fromIndex)
+        var itemIndex = intervals[intervalIndex].startIndex
+        while (itemIndex <= toIndex) {
+            val interval = intervals[intervalIndex]
+            block(interval)
+            itemIndex += interval.size
+            intervalIndex++
+        }
+    }
+
+    override fun get(index: Int): IntervalList.Interval<T> {
+        checkIndexBounds(index)
+        return getIntervalForIndex(index)
+    }
+
+    private fun getIntervalForIndex(itemIndex: Int): IntervalList.Interval<T> {
+        val lastInterval = lastInterval
+        return if (lastInterval != null && lastInterval.contains(itemIndex)) {
+            lastInterval
+        } else {
+            intervals[intervals.binarySearch(itemIndex)].also { this.lastInterval = it }
+        }
+    }
+
+    @Suppress("NOTHING_TO_INLINE")
+    private inline fun checkIndexBounds(index: Int) {
+        if (index !in 0 until size) {
+            throwIndexOutOfBoundsException("Index $index, size $size")
+        }
+    }
+
+    private fun IntervalList.Interval<T>.contains(index: Int) =
+        index in startIndex until startIndex + size
+}
+
+/**
+ * Finds the index of the interval which contains the highest value of
+ * [IntervalList.Interval.startIndex] that is less than or equal to the given [itemIndex].
+ */
+private fun <T> MutableVector<IntervalList.Interval<T>>.binarySearch(itemIndex: Int): Int {
+    var left = 0
+    var right = lastIndex
+
+    while (left < right) {
+        val middle = left + (right - left) / 2
+
+        val middleValue = get(middle).startIndex
+        if (middleValue == itemIndex) {
+            return middle
+        }
+
+        if (middleValue < itemIndex) {
+            left = middle + 1
+
+            // Verify that the left will not be bigger than our value
+            if (itemIndex < get(left).startIndex) {
+                return middle
+            }
+        } else {
+            right = middle - 1
+        }
+    }
+
+    return left
+}

@@ -1,1 +1,39 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5NdXRhYmxlU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm5ldmVyRXF1YWxQb2xpY3kKaW1wb3J0IGtvdGxpbi5qdm0uSnZtSW5saW5lCgovKioKICogU2ltcGxlIHdyYXBwZXIgb3ZlciBhIG11dGFibGUgc3RhdGUgd2hpY2ggYWxsb3dzIHRvIGludmFsaWRhdGUgYW4gb2JzZXJ2YWJsZSBzY29wZS4gV2UgbWlnaHQKICogY29uc2lkZXIgcHJvdmlkaW5nIHNvbWV0aGluZyBsaWtlIHRoaXMgaW4gdGhlIHB1YmxpYyBhcGkgaW4gdGhlIGZ1dHVyZS4KICovCkBKdm1JbmxpbmUKaW50ZXJuYWwgdmFsdWUgY2xhc3MgT2JzZXJ2YWJsZVNjb3BlSW52YWxpZGF0b3IoCiAgICBwcml2YXRlIHZhbCBzdGF0ZTogTXV0YWJsZVN0YXRlPFVuaXQ+ID0gbXV0YWJsZVN0YXRlT2YoVW5pdCwgbmV2ZXJFcXVhbFBvbGljeSgpKQopIHsKICAgIGZ1biBhdHRhY2hUb1Njb3BlKCkgewogICAgICAgIHN0YXRlLnZhbHVlCiAgICB9CgogICAgZnVuIGludmFsaWRhdGVTY29wZSgpIHsKICAgICAgICBzdGF0ZS52YWx1ZSA9IFVuaXQKICAgIH0KfQo=
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.neverEqualPolicy
+import kotlin.jvm.JvmInline
+
+/**
+ * Simple wrapper over a mutable state which allows to invalidate an observable scope. We might
+ * consider providing something like this in the public api in the future.
+ */
+@JvmInline
+internal value class ObservableScopeInvalidator(
+    private val state: MutableState<Unit> = mutableStateOf(Unit, neverEqualPolicy())
+) {
+    fun attachToScope() {
+        state.value
+    }
+
+    fun invalidateScope() {
+        state.value = Unit
+    }
+}

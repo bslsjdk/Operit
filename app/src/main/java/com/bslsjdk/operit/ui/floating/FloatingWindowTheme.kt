@@ -1,1 +1,130 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVHlwb2dyYXBoeQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMubGlnaHRDb2xvclNjaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LlRleHRTdHlsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udEZhbWlseQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5Db2xvclNjaGVtZQoKLyoqCiAqIOS4uuaCrOa1rueql+aPkOS+m+eahOeLrOeri+S4u+mimAogKiDkvb/nlKjpnZnmgIHpopzoibLvvIzpgb/lhY3lr7lBY3Rpdml0eeS4iuS4i+aWh+eahOS+nei1lgogKi8KQENvbXBvc2FibGUKZnVuIEZsb2F0aW5nV2luZG93VGhlbWUoCiAgICBjb2xvclNjaGVtZTogQ29sb3JTY2hlbWU/ID0gbnVsbCwKICAgIHR5cG9ncmFwaHk6IFR5cG9ncmFwaHk/ID0gbnVsbCwKICAgIGNvbnRlbnQ6IEBDb21wb3NhYmxlICgpIC0+IFVuaXQKKSB7CiAgICAvLyDkvb/nlKjpnZnmgIHpopzoibLvvIzljLnphY3liqjmgIHkuLvpopjnmoTpu5jorqTlgLwKICAgIHZhbCBmaW5hbENvbG9yU2NoZW1lID0gY29sb3JTY2hlbWUgPzogbGlnaHRDb2xvclNjaGVtZSgKICAgICAgICAvLyDkuLvopoHpopzoibIKICAgICAgICBwcmltYXJ5ID0gQ29sb3IoMHhGRjY2NTBhNCksICAgICAgICAgICAgICAgIC8vIFB1cnBsZTQwIC0g5LiO5Li75bqU55So6buY6K6k5Li76Imy5Yy56YWNCiAgICAgICAgb25QcmltYXJ5ID0gQ29sb3IuV2hpdGUsCiAgICAgICAgcHJpbWFyeUNvbnRhaW5lciA9IENvbG9yKDB4RkZFQURERkYpLCAgICAgICAvLyDmtYXntKvoibLlrrnlmagKICAgICAgICBvblByaW1hcnlDb250YWluZXIgPSBDb2xvcigweEZGMjEwMDVFKSwgICAgIC8vIOa3see0q+iJsuaWh+acrAoKICAgICAgICAvLyDmrKHopoHpopzoibIKICAgICAgICBzZWNvbmRhcnkgPSBDb2xvcigweEZGNjI1YjcxKSwgICAgICAgICAgICAgIC8vIFB1cnBsZUdyZXk0MCAtIOasoeimgeiJsgogICAgICAgIG9uU2Vjb25kYXJ5ID0gQ29sb3IuV2hpdGUsCiAgICAgICAgc2Vjb25kYXJ5Q29udGFpbmVyID0gQ29sb3IoMHhGRkU4REVGOCksICAgICAvLyDmtYXngbDntKvoibLlrrnlmagKICAgICAgICBvblNlY29uZGFyeUNvbnRhaW5lciA9IENvbG9yKDB4RkYxRTE5MkIpLCAgIC8vIOa3seeBsOe0q+iJsuaWh+acrAoKICAgICAgICAvLyDnrKzkuInpopzoibIKICAgICAgICB0ZXJ0aWFyeSA9IENvbG9yKDB4RkY3RDUyNjApLCAgICAgICAgICAgICAgIC8vIFBpbms0MCAtIOesrOS4ieiJsgogICAgICAgIG9uVGVydGlhcnkgPSBDb2xvci5XaGl0ZSwKICAgICAgICB0ZXJ0aWFyeUNvbnRhaW5lciA9IENvbG9yKDB4RkZGRkQ4RTQpLCAgICAgIC8vIOa1heeyieiJsuWuueWZqAogICAgICAgIG9uVGVydGlhcnlDb250YWluZXIgPSBDb2xvcigweEZGMzcwQjFFKSwgICAgLy8g5rex57KJ6Imy5paH5pysCgogICAgICAgIC8vIOmUmeivr+minOiJsgogICAgICAgIGVycm9yID0gQ29sb3IoMHhGRkIzMjYxRSksICAgICAgICAgICAgICAgICAgLy8g5qCH5YeGTWF0ZXJpYWzplJnor6/oibIKICAgICAgICBvbkVycm9yID0gQ29sb3IuV2hpdGUsCiAgICAgICAgZXJyb3JDb250YWluZXIgPSBDb2xvcigweEZGRjlERURDKSwgICAgICAgICAvLyDmtYXnuqLoibLlrrnlmagKICAgICAgICBvbkVycm9yQ29udGFpbmVyID0gQ29sb3IoMHhGRjQxMEUwQiksICAgICAgIC8vIOa3see6ouiJsuaWh+acrAoKICAgICAgICAvLyDog4zmma/lkozooajpnaIKICAgICAgICBiYWNrZ3JvdW5kID0gQ29sb3IoMHhGRkZGRkJGRSksICAgICAgICAgICAgIC8vIOWHoOS5jueZveiJsuiDjOaZrwogICAgICAgIG9uQmFja2dyb3VuZCA9IENvbG9yKDB4RkYxQzFCMUYpLCAgICAgICAgICAgLy8g5rex6Imy5paH5pysCiAgICAgICAgc3VyZmFjZSA9IENvbG9yKDB4RkZGRkZCRkUpLCAgICAgICAgICAgICAgICAvLyDooajpnaLkuI7og4zmma/nm7jlkIwKICAgICAgICBvblN1cmZhY2UgPSBDb2xvcigweEZGMUMxQjFGKSwgICAgICAgICAgICAgIC8vIOihqOmdouS4iueahOaWh+acrAogICAgICAgIHN1cmZhY2VWYXJpYW50ID0gQ29sb3IoMHhGRkU3RTBFQyksICAgICAgICAgLy8g5rWF54Gw6Imy5Y+Y5L2T6KGo6Z2iCiAgICAgICAgb25TdXJmYWNlVmFyaWFudCA9IENvbG9yKDB4RkY0OTQ1NEYpLCAgICAgICAvLyDlj5jkvZPooajpnaLkuIrnmoTmlofmnKwKCiAgICAgICAgLy8g6L2u5buTCiAgICAgICAgb3V0bGluZSA9IENvbG9yKDB4RkY3OTc0N0UpICAgICAgICAgICAgICAgICAvLyDmoIflh4bova7lu5PoibIKICAgICkKICAgIAogICAgLy8g5Yib5bu66LCD5pW05aSn5bCP5ZCO55qE6buY6K6kVHlwb2dyYXBoee+8jOWmguaenOayoeacieS8oOWFpXR5cG9ncmFwaHnlj4LmlbDliJnkvb/nlKjmraTpu5jorqTlgLwKICAgIHZhbCBkZWZhdWx0U21hbGxUeXBvZ3JhcGh5ID0gVHlwb2dyYXBoeSgKICAgICAgICAvLyDmraPmloflpKflrZflj7cKICAgICAgICBib2R5TGFyZ2UgPSBUZXh0U3R5bGUoCiAgICAgICAgICAgIGZvbnRGYW1pbHkgPSBGb250RmFtaWx5LkRlZmF1bHQsCiAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0Lk5vcm1hbCwKICAgICAgICAgICAgZm9udFNpemUgPSAxNC5zcCwKICAgICAgICAgICAgbGluZUhlaWdodCA9IDE4LnNwLAogICAgICAgICAgICBsZXR0ZXJTcGFjaW5nID0gMC41LnNwCiAgICAgICAgKSwKICAgICAgICAvLyDmraPmlofkuK3lrZflj7cgCiAgICAgICAgYm9keU1lZGl1bSA9IFRleHRTdHlsZSgKICAgICAgICAgICAgZm9udEZhbWlseSA9IEZvbnRGYW1pbHkuRGVmYXVsdCwKICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTm9ybWFsLAogICAgICAgICAgICBmb250U2l6ZSA9IDEyLnNwLAogICAgICAgICAgICBsaW5lSGVpZ2h0ID0gMTYuc3AsCiAgICAgICAgICAgIGxldHRlclNwYWNpbmcgPSAwLjI1LnNwCiAgICAgICAgKSwKICAgICAgICAvLyDmraPmloflsI/lrZflj7cgCiAgICAgICAgYm9keVNtYWxsID0gVGV4dFN0eWxlKAogICAgICAgICAgICBmb250RmFtaWx5ID0gRm9udEZhbWlseS5EZWZhdWx0LAogICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Ob3JtYWwsCiAgICAgICAgICAgIGZvbnRTaXplID0gMTAuc3AsCiAgICAgICAgICAgIGxpbmVIZWlnaHQgPSAxNC5zcCwKICAgICAgICAgICAgbGV0dGVyU3BhY2luZyA9IDAuNC5zcAogICAgICAgICksCiAgICAgICAgLy8g5qCH562+5bCP5a2X5Y+3CiAgICAgICAgbGFiZWxTbWFsbCA9IFRleHRTdHlsZSgKICAgICAgICAgICAgZm9udEZhbWlseSA9IEZvbnRGYW1pbHkuRGVmYXVsdCwKICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLAogICAgICAgICAgICBmb250U2l6ZSA9IDEwLnNwLAogICAgICAgICAgICBsaW5lSGVpZ2h0ID0gMTQuc3AsCiAgICAgICAgICAgIGxldHRlclNwYWNpbmcgPSAwLjUuc3AKICAgICAgICApLAogICAgICAgIC8vIOagh+mimOWwj+Wtl+WPtwogICAgICAgIHRpdGxlU21hbGwgPSBUZXh0U3R5bGUoCiAgICAgICAgICAgIGZvbnRGYW1pbHkgPSBGb250RmFtaWx5LkRlZmF1bHQsCiAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0Lk1lZGl1bSwKICAgICAgICAgICAgZm9udFNpemUgPSAxNC5zcCwKICAgICAgICAgICAgbGluZUhlaWdodCA9IDE4LnNwLAogICAgICAgICAgICBsZXR0ZXJTcGFjaW5nID0gMC41LnNwCiAgICAgICAgKSwKICAgICAgICAvLyDmjInpkq7mlofmnKzmoLflvI8KICAgICAgICBsYWJlbE1lZGl1bSA9IFRleHRTdHlsZSgKICAgICAgICAgICAgZm9udEZhbWlseSA9IEZvbnRGYW1pbHkuRGVmYXVsdCwKICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLAogICAgICAgICAgICBmb250U2l6ZSA9IDEyLnNwLAogICAgICAgICAgICBsaW5lSGVpZ2h0ID0gMTYuc3AsCiAgICAgICAgICAgIGxldHRlclNwYWNpbmcgPSAwLjUuc3AKICAgICAgICApLAogICAgICAgIC8vIOaMiemSruWkp+aWh+acrOagt+W8jwogICAgICAgIGxhYmVsTGFyZ2UgPSBUZXh0U3R5bGUoCiAgICAgICAgICAgIGZvbnRGYW1pbHkgPSBGb250RmFtaWx5LkRlZmF1bHQsCiAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0Lk1lZGl1bSwKICAgICAgICAgICAgZm9udFNpemUgPSAxNC5zcCwKICAgICAgICAgICAgbGluZUhlaWdodCA9IDE4LnNwLAogICAgICAgICAgICBsZXR0ZXJTcGFjaW5nID0gMC41LnNwCiAgICAgICAgKQogICAgKQoKICAgIC8vIOS8mOWFiOS9v+eUqOS8oOWFpeeahHR5cG9ncmFwaHnvvIzlpoLmnpzmsqHmnInliJnkvb/nlKjpu5jorqTnmoTlsI/lnot0eXBvZ3JhcGh5CiAgICB2YWwgZmluYWxUeXBvZ3JhcGh5ID0gdHlwb2dyYXBoeSA/OiBkZWZhdWx0U21hbGxUeXBvZ3JhcGh5CiAgICAKICAgIE1hdGVyaWFsVGhlbWUoCiAgICAgICAgY29sb3JTY2hlbWUgPSBmaW5hbENvbG9yU2NoZW1lLAogICAgICAgIHR5cG9ncmFwaHkgPSBmaW5hbFR5cG9ncmFwaHksCiAgICAgICAgY29udGVudCA9IGNvbnRlbnQKICAgICkKfSA=
+package com.bslsjdk.operit.ui.floating
+
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Typography
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+import androidx.compose.material3.ColorScheme
+
+/**
+ * 为悬浮窗提供的独立主题
+ * 使用静态颜色，避免对Activity上下文的依赖
+ */
+@Composable
+fun FloatingWindowTheme(
+    colorScheme: ColorScheme? = null,
+    typography: Typography? = null,
+    content: @Composable () -> Unit
+) {
+    // 使用静态颜色，匹配动态主题的默认值
+    val finalColorScheme = colorScheme ?: lightColorScheme(
+        // 主要颜色
+        primary = Color(0xFF6650a4),                // Purple40 - 与主应用默认主色匹配
+        onPrimary = Color.White,
+        primaryContainer = Color(0xFFEADDFF),       // 浅紫色容器
+        onPrimaryContainer = Color(0xFF21005E),     // 深紫色文本
+
+        // 次要颜色
+        secondary = Color(0xFF625b71),              // PurpleGrey40 - 次要色
+        onSecondary = Color.White,
+        secondaryContainer = Color(0xFFE8DEF8),     // 浅灰紫色容器
+        onSecondaryContainer = Color(0xFF1E192B),   // 深灰紫色文本
+
+        // 第三颜色
+        tertiary = Color(0xFF7D5260),               // Pink40 - 第三色
+        onTertiary = Color.White,
+        tertiaryContainer = Color(0xFFFFD8E4),      // 浅粉色容器
+        onTertiaryContainer = Color(0xFF370B1E),    // 深粉色文本
+
+        // 错误颜色
+        error = Color(0xFFB3261E),                  // 标准Material错误色
+        onError = Color.White,
+        errorContainer = Color(0xFFF9DEDC),         // 浅红色容器
+        onErrorContainer = Color(0xFF410E0B),       // 深红色文本
+
+        // 背景和表面
+        background = Color(0xFFFFFBFE),             // 几乎白色背景
+        onBackground = Color(0xFF1C1B1F),           // 深色文本
+        surface = Color(0xFFFFFBFE),                // 表面与背景相同
+        onSurface = Color(0xFF1C1B1F),              // 表面上的文本
+        surfaceVariant = Color(0xFFE7E0EC),         // 浅灰色变体表面
+        onSurfaceVariant = Color(0xFF49454F),       // 变体表面上的文本
+
+        // 轮廓
+        outline = Color(0xFF79747E)                 // 标准轮廓色
+    )
+    
+    // 创建调整大小后的默认Typography，如果没有传入typography参数则使用此默认值
+    val defaultSmallTypography = Typography(
+        // 正文大字号
+        bodyLarge = TextStyle(
+            fontFamily = FontFamily.Default,
+            fontWeight = FontWeight.Normal,
+            fontSize = 14.sp,
+            lineHeight = 18.sp,
+            letterSpacing = 0.5.sp
+        ),
+        // 正文中字号 
+        bodyMedium = TextStyle(
+            fontFamily = FontFamily.Default,
+            fontWeight = FontWeight.Normal,
+            fontSize = 12.sp,
+            lineHeight = 16.sp,
+            letterSpacing = 0.25.sp
+        ),
+        // 正文小字号 
+        bodySmall = TextStyle(
+            fontFamily = FontFamily.Default,
+            fontWeight = FontWeight.Normal,
+            fontSize = 10.sp,
+            lineHeight = 14.sp,
+            letterSpacing = 0.4.sp
+        ),
+        // 标签小字号
+        labelSmall = TextStyle(
+            fontFamily = FontFamily.Default,
+            fontWeight = FontWeight.Medium,
+            fontSize = 10.sp,
+            lineHeight = 14.sp,
+            letterSpacing = 0.5.sp
+        ),
+        // 标题小字号
+        titleSmall = TextStyle(
+            fontFamily = FontFamily.Default,
+            fontWeight = FontWeight.Medium,
+            fontSize = 14.sp,
+            lineHeight = 18.sp,
+            letterSpacing = 0.5.sp
+        ),
+        // 按钮文本样式
+        labelMedium = TextStyle(
+            fontFamily = FontFamily.Default,
+            fontWeight = FontWeight.Medium,
+            fontSize = 12.sp,
+            lineHeight = 16.sp,
+            letterSpacing = 0.5.sp
+        ),
+        // 按钮大文本样式
+        labelLarge = TextStyle(
+            fontFamily = FontFamily.Default,
+            fontWeight = FontWeight.Medium,
+            fontSize = 14.sp,
+            lineHeight = 18.sp,
+            letterSpacing = 0.5.sp
+        )
+    )
+
+    // 优先使用传入的typography，如果没有则使用默认的小型typography
+    val finalTypography = typography ?: defaultSmallTypography
+    
+    MaterialTheme(
+        colorScheme = finalColorScheme,
+        typography = finalTypography,
+        content = content
+    )
+} 

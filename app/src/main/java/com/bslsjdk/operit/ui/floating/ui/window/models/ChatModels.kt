@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkud2luZG93Lm1vZGVscwoKLy8g5a6a5LmJ6L6557yY57G75Z6LCmVudW0gY2xhc3MgUmVzaXplRWRnZSB7CiAgICBOT05FLAogICAgTEVGVCwKICAgIFJJR0hULAogICAgVE9QLAogICAgQk9UVE9NLAogICAgVE9QX0xFRlQsCiAgICBUT1BfUklHSFQsCiAgICBCT1RUT01fTEVGVCwKICAgIEJPVFRPTV9SSUdIVAp9CgovLyDoh6rlrprkuYnnur/mgKfmj5LlgLzlh73mlbAKZnVuIGxlcnAoc3RhcnQ6IEZsb2F0LCBlbmQ6IEZsb2F0LCBmcmFjdGlvbjogRmxvYXQpOiBGbG9hdCB7CiAgICByZXR1cm4gc3RhcnQgKyAoZW5kIC0gc3RhcnQpICogZnJhY3Rpb24uY29lcmNlSW4oMGYsIDFmKQp9Cg==
+package com.bslsjdk.operit.ui.floating.ui.window.models
+
+// 定义边缘类型
+enum class ResizeEdge {
+    NONE,
+    LEFT,
+    RIGHT,
+    TOP,
+    BOTTOM,
+    TOP_LEFT,
+    TOP_RIGHT,
+    BOTTOM_LEFT,
+    BOTTOM_RIGHT
+}
+
+// 自定义线性插值函数
+fun lerp(start: Float, end: Float, fraction: Float): Float {
+    return start + (end - start) * fraction.coerceIn(0f, 1f)
+}

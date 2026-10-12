@@ -1,1 +1,86 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuU2hhcmVkUHJlZmVyZW5jZXMKCi8qKgogKiBDZW50cmFsIHByb3ZpZGVyIGZvciBlbnZpcm9ubWVudC1saWtlIGNvbmZpZ3VyYXRpb24gdmFsdWVzIHVzZWQgYnkgdG9vbCBwYWNrYWdlcy4KICoKICogVmFsdWVzIGFyZSBzdG9yZWQgaW4gYXBwLXByaXZhdGUgU2hhcmVkUHJlZmVyZW5jZXMgYW5kIGNhbiBvcHRpb25hbGx5IGZhbGwgYmFjawogKiB0byB0aGUgcHJvY2VzcyBlbnZpcm9ubWVudCB2aWEgU3lzdGVtLmdldGVudiB3aGVuIG5vdCBleHBsaWNpdGx5IHNldC4KICovCmNsYXNzIEVudlByZWZlcmVuY2VzIHByaXZhdGUgY29uc3RydWN0b3IoY29udGV4dDogQ29udGV4dCkgewoKICAgIHByaXZhdGUgdmFsIHByZWZzOiBTaGFyZWRQcmVmZXJlbmNlcyA9CiAgICAgICAgY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoUFJFRlNfTkFNRSwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCgogICAgLyoqCiAgICAgKiBHZXQgZWZmZWN0aXZlIGVudmlyb25tZW50IHZhbHVlIGZvciB0aGUgZ2l2ZW4ga2V5LgogICAgICoKICAgICAqIExvb2t1cCBvcmRlcjoKICAgICAqIDEuIEFwcCBwcmVmZXJlbmNlcyAoaWYgbm9uLWJsYW5rKQogICAgICogMi4gU3lzdGVtLmdldGVudiAobWF5IGJlIG51bGwpCiAgICAgKi8KICAgIGZ1biBnZXRFbnYoa2V5OiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgbmFtZSA9IGtleS50cmltKCkKICAgICAgICBpZiAobmFtZS5pc0VtcHR5KCkpIHJldHVybiBudWxsCgogICAgICAgIHZhbCBmcm9tUHJlZnMgPSBwcmVmcy5nZXRTdHJpbmcobmFtZSwgbnVsbCkKICAgICAgICBpZiAoIWZyb21QcmVmcy5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIGZyb21QcmVmcwogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIFN5c3RlbS5nZXRlbnYobmFtZSkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICAvKiogU2V0IG9yIG92ZXJyaWRlIGFuIGVudmlyb25tZW50IHZhbHVlIGluIGFwcCBwcmVmZXJlbmNlcy4gKi8KICAgIGZ1biBzZXRFbnYoa2V5OiBTdHJpbmcsIHZhbHVlOiBTdHJpbmcpIHsKICAgICAgICB2YWwgbmFtZSA9IGtleS50cmltKCkKICAgICAgICBpZiAobmFtZS5pc0VtcHR5KCkpIHJldHVybgogICAgICAgIHByZWZzLmVkaXQoKS5wdXRTdHJpbmcobmFtZSwgdmFsdWUpLmFwcGx5KCkKICAgIH0KCiAgICAvKiogUmVtb3ZlIGEgc3RvcmVkIGVudmlyb25tZW50IHZhbHVlIChkb2VzIG5vdCBhZmZlY3QgcHJvY2VzcyBlbnYpLiAqLwogICAgZnVuIHJlbW92ZUVudihrZXk6IFN0cmluZykgewogICAgICAgIHZhbCBuYW1lID0ga2V5LnRyaW0oKQogICAgICAgIGlmIChuYW1lLmlzRW1wdHkoKSkgcmV0dXJuCiAgICAgICAgcHJlZnMuZWRpdCgpLnJlbW92ZShuYW1lKS5hcHBseSgpCiAgICB9CgogICAgLyoqIEdldCBhbGwgc3RvcmVkIGVudmlyb25tZW50IHZhbHVlcyBmcm9tIHByZWZlcmVuY2VzLiAqLwogICAgZnVuIGdldEFsbEVudigpOiBNYXA8U3RyaW5nLCBTdHJpbmc+IHsKICAgICAgICByZXR1cm4gcHJlZnMuYWxsLm1hcE5vdE51bGwgeyAoaywgdikgLT4KICAgICAgICAgICAgdmFsIGtleSA9IGsudHJpbSgpCiAgICAgICAgICAgIHZhbCB2YWx1ZSA9IHYgYXM/IFN0cmluZwogICAgICAgICAgICBpZiAoa2V5LmlzTm90RW1wdHkoKSAmJiAhdmFsdWUuaXNOdWxsT3JFbXB0eSgpKSBrZXkgdG8gdmFsdWUgZWxzZSBudWxsCiAgICAgICAgfS50b01hcCgpCiAgICB9CgogICAgLyoqIFJlcGxhY2UgYWxsIHN0b3JlZCBlbnZpcm9ubWVudCB2YWx1ZXMgd2l0aCB0aGUgZ2l2ZW4gbWFwLiAqLwogICAgZnVuIHNldEFsbEVudih2YXJpYWJsZXM6IE1hcDxTdHJpbmcsIFN0cmluZz4pIHsKICAgICAgICB2YWwgZWRpdG9yID0gcHJlZnMuZWRpdCgpLmNsZWFyKCkKICAgICAgICB2YXJpYWJsZXMuZm9yRWFjaCB7IChrLCB2KSAtPgogICAgICAgICAgICB2YWwga2V5ID0gay50cmltKCkKICAgICAgICAgICAgaWYgKGtleS5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIGVkaXRvci5wdXRTdHJpbmcoa2V5LCB2KQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGVkaXRvci5hcHBseSgpCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgUFJFRlNfTkFNRSA9ICJlbnZfcHJlZmVyZW5jZXMiCgogICAgICAgIEBWb2xhdGlsZSBwcml2YXRlIHZhciBJTlNUQU5DRTogRW52UHJlZmVyZW5jZXM/ID0gbnVsbAoKICAgICAgICBmdW4gZ2V0SW5zdGFuY2UoY29udGV4dDogQ29udGV4dCk6IEVudlByZWZlcmVuY2VzIHsKICAgICAgICAgICAgcmV0dXJuIElOU1RBTkNFID86IHN5bmNocm9uaXplZCh0aGlzKSB7CiAgICAgICAgICAgICAgICBJTlNUQU5DRSA/OiBFbnZQcmVmZXJlbmNlcyhjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkuYWxzbyB7IElOU1RBTkNFID0gaXQgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import android.content.SharedPreferences
+
+/**
+ * Central provider for environment-like configuration values used by tool packages.
+ *
+ * Values are stored in app-private SharedPreferences and can optionally fall back
+ * to the process environment via System.getenv when not explicitly set.
+ */
+class EnvPreferences private constructor(context: Context) {
+
+    private val prefs: SharedPreferences =
+        context.applicationContext.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+
+    /**
+     * Get effective environment value for the given key.
+     *
+     * Lookup order:
+     * 1. App preferences (if non-blank)
+     * 2. System.getenv (may be null)
+     */
+    fun getEnv(key: String): String? {
+        val name = key.trim()
+        if (name.isEmpty()) return null
+
+        val fromPrefs = prefs.getString(name, null)
+        if (!fromPrefs.isNullOrEmpty()) {
+            return fromPrefs
+        }
+
+        return try {
+            System.getenv(name)
+        } catch (_: Exception) {
+            null
+        }
+    }
+
+    /** Set or override an environment value in app preferences. */
+    fun setEnv(key: String, value: String) {
+        val name = key.trim()
+        if (name.isEmpty()) return
+        prefs.edit().putString(name, value).apply()
+    }
+
+    /** Remove a stored environment value (does not affect process env). */
+    fun removeEnv(key: String) {
+        val name = key.trim()
+        if (name.isEmpty()) return
+        prefs.edit().remove(name).apply()
+    }
+
+    /** Get all stored environment values from preferences. */
+    fun getAllEnv(): Map<String, String> {
+        return prefs.all.mapNotNull { (k, v) ->
+            val key = k.trim()
+            val value = v as? String
+            if (key.isNotEmpty() && !value.isNullOrEmpty()) key to value else null
+        }.toMap()
+    }
+
+    /** Replace all stored environment values with the given map. */
+    fun setAllEnv(variables: Map<String, String>) {
+        val editor = prefs.edit().clear()
+        variables.forEach { (k, v) ->
+            val key = k.trim()
+            if (key.isNotEmpty()) {
+                editor.putString(key, v)
+            }
+        }
+        editor.apply()
+    }
+
+    companion object {
+        private const val PREFS_NAME = "env_preferences"
+
+        @Volatile private var INSTANCE: EnvPreferences? = null
+
+        fun getInstance(context: Context): EnvPreferences {
+            return INSTANCE ?: synchronized(this) {
+                INSTANCE ?: EnvPreferences(context.applicationContext).also { INSTANCE = it }
+            }
+        }
+    }
+}

@@ -1,1 +1,341 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5Qcm9tcHRUdXJuCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdFR1cm5LaW5kCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IG9yZy5qdW5pdC5BZnRlcgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LkJlZm9yZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5tb2NraXRvLmtvdGxpbi5tb2NrCgovKioKICogUHJvdG9jb2wtbGV2ZWwgcmVncmVzc2lvbiB0ZXN0cyBmb3IgdGhlIE9wZW5BSSB0b29sLWNhbGwgaGlzdG9yeSBjb252ZXJzaW9uLgogKgogKiBHYXRld2F5cyB0aGF0IHRyYW5zbGF0ZSB0aGUgT3BlbkFJIHBheWxvYWQgaW50byBhbm90aGVyIHByb3RvY29sIChQb2Ugb250byBBbnRocm9waWMpIGVuZm9yY2UKICogdGhhdCBldmVyeSBgdG9vbGAgbWVzc2FnZSBhbnN3ZXJzIGEgY2FsbCBvcGVuZWQgYnkgdGhlIG1lc3NhZ2UgcmlnaHQgYmVmb3JlIGl0LiBTZWUgaXNzdWUgIzEwMjcuCiAqLwpjbGFzcyBPcGVuQWlUb29sQ2FsbEhpc3RvcnlUZXN0IHsKCiAgICBwcml2YXRlIHZhciBwcmV2aW91c1N5c3RlbUxvZ0VuYWJsZWQgPSB0cnVlCiAgICBwcml2YXRlIHZhciBwcmV2aW91c0ZpbGVMb2dFbmFibGVkID0gdHJ1ZQoKICAgIEBCZWZvcmUKICAgIGZ1biBkaXNhYmxlQW5kcm9pZExvZ2dpbmcoKSB7CiAgICAgICAgcHJldmlvdXNTeXN0ZW1Mb2dFbmFibGVkID0gQXBwTG9nZ2VyLmVuYWJsZVN5c3RlbUxvZwogICAgICAgIHByZXZpb3VzRmlsZUxvZ0VuYWJsZWQgPSBBcHBMb2dnZXIuZW5hYmxlRmlsZUxvZ2dpbmcKICAgICAgICBBcHBMb2dnZXIuZW5hYmxlU3lzdGVtTG9nID0gZmFsc2UKICAgICAgICBBcHBMb2dnZXIuZW5hYmxlRmlsZUxvZ2dpbmcgPSBmYWxzZQogICAgfQoKICAgIEBBZnRlcgogICAgZnVuIHJlc3RvcmVBbmRyb2lkTG9nZ2luZygpIHsKICAgICAgICBBcHBMb2dnZXIuZW5hYmxlU3lzdGVtTG9nID0gcHJldmlvdXNTeXN0ZW1Mb2dFbmFibGVkCiAgICAgICAgQXBwTG9nZ2VyLmVuYWJsZUZpbGVMb2dnaW5nID0gcHJldmlvdXNGaWxlTG9nRW5hYmxlZAogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGNvbm5lY3Rpb24gdGVzdCB0b29sIGNhbGwgcHJvYmUgYW5zd2VycyB0aGUgY2FsbCBpdCBvcGVuZWRgKCkgewogICAgICAgIHZhbCBtZXNzYWdlcyA9CiAgICAgICAgICAgIGJ1aWxkTWVzc2FnZXMoTW9kZWxDb25maWdDb25uZWN0aW9uVGVzdGVyLmJ1aWxkVG9vbENhbGxQcm9iZUhpc3RvcnkoImVjaG8iKSkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBsaXN0T2YoInN5c3RlbSIsICJ1c2VyIiwgImFzc2lzdGFudCIsICJ0b29sIiksCiAgICAgICAgICAgIG1lc3NhZ2VzLnJvbGVzKCkKICAgICAgICApCiAgICAgICAgYXNzZXJ0VG9vbFJlc3VsdHNGb2xsb3dUaGVpckNhbGxzKG1lc3NhZ2VzKQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgbWVzc2FnZXMuYXQoMikuZ2V0SlNPTkFycmF5KCJ0b29sX2NhbGxzIikuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoImlkIiksCiAgICAgICAgICAgIG1lc3NhZ2VzLmF0KDMpLmdldFN0cmluZygidG9vbF9jYWxsX2lkIikKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwb25nIiwgbWVzc2FnZXMuYXQoMykuZ2V0U3RyaW5nKCJjb250ZW50IikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdW5hbnN3ZXJlZCBjYWxscyBhcmUgY2xvc2VkIGJlZm9yZSB0aGUgdHJhaWxpbmcgdG9vbCByZXN1bHQgdGV4dGAoKSB7CiAgICAgICAgdmFsIG1lc3NhZ2VzID0KICAgICAgICAgICAgYnVpbGRNZXNzYWdlcygKICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKGtpbmQgPSBQcm9tcHRUdXJuS2luZC5TWVNURU0sIGNvbnRlbnQgPSAiWW91IGFyZSBhIGhlbHBmdWwgYXNzaXN0YW50LiIpLAogICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm4oa2luZCA9IFByb21wdFR1cm5LaW5kLlVTRVIsIGNvbnRlbnQgPSAiUmVhZCBib3RoIGZpbGVzLiIpLAogICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm4oCiAgICAgICAgICAgICAgICAgICAgICAgIGtpbmQgPSBQcm9tcHRUdXJuS2luZC5BU1NJU1RBTlQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQgPSB0b29sQ2FsbCgicmVhZF9maWxlIiwgInBhdGgiIHRvICJhLnR4dCIpICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvb2xDYWxsKCJyZWFkX2ZpbGVfcGFydCIsICJwYXRoIiB0byAiYi50eHQiKQogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgUHJvbXB0VHVybigKICAgICAgICAgICAgICAgICAgICAgICAga2luZCA9IFByb21wdFR1cm5LaW5kLlRPT0xfUkVTVUxULAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50ID0gdG9vbFJlc3VsdCgicmVhZF9maWxlIiwgImFscGhhIikgKyAiXG5UaGUgc2Vjb25kIHJlYWQgd2FzIHNraXBwZWQuIgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRUb29sUmVzdWx0c0ZvbGxvd1RoZWlyQ2FsbHMobWVzc2FnZXMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBsaXN0T2YoInN5c3RlbSIsICJ1c2VyIiwgImFzc2lzdGFudCIsICJ0b29sIiwgInRvb2wiLCAidXNlciIpLAogICAgICAgICAgICBtZXNzYWdlcy5yb2xlcygpCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygiVGhlIHNlY29uZCByZWFkIHdhcyBza2lwcGVkLiIsIG1lc3NhZ2VzLmF0KDUpLmdldFN0cmluZygiY29udGVudCIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHRvb2wgcmVzdWx0cyBhcmUgcGFpcmVkIGJ5IHRvb2wgbmFtZSB3aGVuIHRoZXkgY29tZSBiYWNrIG91dCBvZiBvcmRlcmAoKSB7CiAgICAgICAgdmFsIG1lc3NhZ2VzID0KICAgICAgICAgICAgYnVpbGRNZXNzYWdlcygKICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKGtpbmQgPSBQcm9tcHRUdXJuS2luZC5VU0VSLCBjb250ZW50ID0gIkRvIGJvdGguIiksCiAgICAgICAgICAgICAgICAgICAgUHJvbXB0VHVybigKICAgICAgICAgICAgICAgICAgICAgICAga2luZCA9IFByb21wdFR1cm5LaW5kLkFTU0lTVEFOVCwKICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudCA9IHRvb2xDYWxsKCJsaXN0X2ZpbGVzIiwgInBhdGgiIHRvICIuIikgKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9vbENhbGwoImNhbGN1bGF0ZSIsICJleHByZXNzaW9uIiB0byAiMSsxIikKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIC8vIERlbmllZCBvciBpbnRlcnJ1cHRlZCBpbnZvY2F0aW9ucyBhcmUgaG9pc3RlZCB0byB0aGUgZnJvbnQgb2YgdGhlIHJlc3VsdCBsaXN0LAogICAgICAgICAgICAgICAgICAgIC8vIHNvIHRoZSByZXN1bHRzIGRvIG5vdCBuZWNlc3NhcmlseSBhcnJpdmUgaW4gY2FsbCBvcmRlci4KICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgICAgICBraW5kID0gUHJvbXB0VHVybktpbmQuVE9PTF9SRVNVTFQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQgPSB0b29sUmVzdWx0KCJjYWxjdWxhdGUiLCAiMiIpICsgdG9vbFJlc3VsdCgibGlzdF9maWxlcyIsICJhLnR4dCIpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCgogICAgICAgIGFzc2VydFRvb2xSZXN1bHRzRm9sbG93VGhlaXJDYWxscyhtZXNzYWdlcykKICAgICAgICB2YWwgdG9vbENhbGxzID0gbWVzc2FnZXMuYXQoMSkuZ2V0SlNPTkFycmF5KCJ0b29sX2NhbGxzIikKICAgICAgICB2YWwgbGlzdEZpbGVzSWQgPSB0b29sQ2FsbHMuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoImlkIikKICAgICAgICB2YWwgY2FsY3VsYXRlSWQgPSB0b29sQ2FsbHMuZ2V0SlNPTk9iamVjdCgxKS5nZXRTdHJpbmcoImlkIikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKGNhbGN1bGF0ZUlkLCBtZXNzYWdlcy5hdCgyKS5nZXRTdHJpbmcoInRvb2xfY2FsbF9pZCIpKQogICAgICAgIGFzc2VydEVxdWFscygiMiIsIG1lc3NhZ2VzLmF0KDIpLmdldFN0cmluZygiY29udGVudCIpKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0RmlsZXNJZCwgbWVzc2FnZXMuYXQoMykuZ2V0U3RyaW5nKCJ0b29sX2NhbGxfaWQiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImEudHh0IiwgbWVzc2FnZXMuYXQoMykuZ2V0U3RyaW5nKCJjb250ZW50IikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcGFja2FnZSB0b29sIHJlc3VsdHMgYXJlIHBhaXJlZCB0aHJvdWdoIHRoZSBwYWNrYWdlIHByb3h5IGVudmVsb3BlYCgpIHsKICAgICAgICB2YWwgbWVzc2FnZXMgPQogICAgICAgICAgICBidWlsZE1lc3NhZ2VzKAogICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm4oa2luZCA9IFByb21wdFR1cm5LaW5kLlVTRVIsIGNvbnRlbnQgPSAiRHJhdyBpdC4iKSwKICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgICAgICBraW5kID0gUHJvbXB0VHVybktpbmQuQVNTSVNUQU5ULAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50ID0gdG9vbENhbGwoInF3ZW5fZHJhdzpkcmF3IiwgInByb21wdCIgdG8gImNhdCIpCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgICAgICBraW5kID0gUHJvbXB0VHVybktpbmQuVE9PTF9SRVNVTFQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQgPSB0b29sUmVzdWx0KCJxd2VuX2RyYXc6ZHJhdyIsICJkb25lIikKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0VG9vbFJlc3VsdHNGb2xsb3dUaGVpckNhbGxzKG1lc3NhZ2VzKQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgInBhY2thZ2VfcHJveHkiLAogICAgICAgICAgICBtZXNzYWdlcy5hdCgxKS5nZXRKU09OQXJyYXkoInRvb2xfY2FsbHMiKS5nZXRKU09OT2JqZWN0KDApCiAgICAgICAgICAgICAgICAuZ2V0SlNPTk9iamVjdCgiZnVuY3Rpb24iKS5nZXRTdHJpbmcoIm5hbWUiKQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoImRvbmUiLCBtZXNzYWdlcy5hdCgyKS5nZXRTdHJpbmcoImNvbnRlbnQiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBPcGVuQUkgbG9jYWwgcHJveHkgcmVzdWx0cyBhcmUgcGFpcmVkIHRocm91Z2ggdGhlIHRhcmdldCB0b29sIG5hbWVgKCkgewogICAgICAgIHZhbCBtZXNzYWdlcyA9CiAgICAgICAgICAgIGJ1aWxkTWVzc2FnZXMoCiAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgUHJvbXB0VHVybihraW5kID0gUHJvbXB0VHVybktpbmQuVVNFUiwgY29udGVudCA9ICJSZWFkIGl0LiIpLAogICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm4oCiAgICAgICAgICAgICAgICAgICAgICAgIGtpbmQgPSBQcm9tcHRUdXJuS2luZC5BU1NJU1RBTlQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9vbENhbGwoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInByb3h5IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidG9vbF9uYW1lIiB0byAicmVhZF9maWxlIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicGFyYW1zIiB0byAie1wicGF0aFwiOlwiYS50eHRcIn0iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgICAgICBraW5kID0gUHJvbXB0VHVybktpbmQuVE9PTF9SRVNVTFQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQgPSB0b29sUmVzdWx0KCJyZWFkX2ZpbGUiLCAiYWxwaGEiKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRUb29sUmVzdWx0c0ZvbGxvd1RoZWlyQ2FsbHMobWVzc2FnZXMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigidXNlciIsICJhc3Npc3RhbnQiLCAidG9vbCIpLCBtZXNzYWdlcy5yb2xlcygpKQogICAgICAgIHZhbCBwcm94eUNhbGwgPSBtZXNzYWdlcy5hdCgxKS5nZXRKU09OQXJyYXkoInRvb2xfY2FsbHMiKS5nZXRKU09OT2JqZWN0KDApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwcm94eSIsIHByb3h5Q2FsbC5nZXRKU09OT2JqZWN0KCJmdW5jdGlvbiIpLmdldFN0cmluZygibmFtZSIpKQogICAgICAgIGFzc2VydEVxdWFscyhwcm94eUNhbGwuZ2V0U3RyaW5nKCJpZCIpLCBtZXNzYWdlcy5hdCgyKS5nZXRTdHJpbmcoInRvb2xfY2FsbF9pZCIpKQogICAgICAgIGFzc2VydEVxdWFscygiYWxwaGEiLCBtZXNzYWdlcy5hdCgyKS5nZXRTdHJpbmcoImNvbnRlbnQiKSkKICAgICAgICBhc3NlcnRGYWxzZShtZXNzYWdlcy50b1N0cmluZygpLmNvbnRhaW5zKCLlt6Xlhbfnu5PmnpznvLrlpLEiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBhc3Npc3RhbnQgdG9vbCBjYWxsIG1lc3NhZ2Ugb21pdHMgZW1wdHkgY29udGVudGAoKSB7CiAgICAgICAgdmFsIG1lc3NhZ2VzID0KICAgICAgICAgICAgYnVpbGRNZXNzYWdlcyhNb2RlbENvbmZpZ0Nvbm5lY3Rpb25UZXN0ZXIuYnVpbGRUb29sQ2FsbFByb2JlSGlzdG9yeSgiZWNobyIpKQoKICAgICAgICBhc3NlcnRGYWxzZShtZXNzYWdlcy5hdCgyKS5oYXMoImNvbnRlbnQiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGB1bm1hdGNoZWQgdG9vbCByZXN1bHRzIGFyZSBpZ25vcmVkIHdpdGhvdXQgc3RlYWxpbmcgYSBjYWxsIGlkYCgpIHsKICAgICAgICB2YWwgbWVzc2FnZXMgPQogICAgICAgICAgICBidWlsZE1lc3NhZ2VzKAogICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm4oa2luZCA9IFByb21wdFR1cm5LaW5kLlVTRVIsIGNvbnRlbnQgPSAiRG8gYm90aC4iKSwKICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgICAgICBraW5kID0gUHJvbXB0VHVybktpbmQuQVNTSVNUQU5ULAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50ID0gdG9vbENhbGwoImZpcnN0IiwgInZhbHVlIiB0byAiMSIpICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvb2xDYWxsKCJzZWNvbmQiLCAidmFsdWUiIHRvICIyIikKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm4oCiAgICAgICAgICAgICAgICAgICAgICAgIGtpbmQgPSBQcm9tcHRUdXJuS2luZC5UT09MX1JFU1VMVCwKICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudCA9IHRvb2xSZXN1bHQoIm1pc3NpbmciLCAidW5tYXRjaGVkIikgKyB0b29sUmVzdWx0KCJmaXJzdCIsICJvayIpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCgogICAgICAgIHZhbCB0b29sQ2FsbHMgPSBtZXNzYWdlcy5hdCgxKS5nZXRKU09OQXJyYXkoInRvb2xfY2FsbHMiKQogICAgICAgIGFzc2VydEVxdWFscyh0b29sQ2FsbHMuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoImlkIiksIG1lc3NhZ2VzLmF0KDIpLmdldFN0cmluZygidG9vbF9jYWxsX2lkIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJvayIsIG1lc3NhZ2VzLmF0KDIpLmdldFN0cmluZygiY29udGVudCIpKQogICAgICAgIGFzc2VydEVxdWFscyh0b29sQ2FsbHMuZ2V0SlNPTk9iamVjdCgxKS5nZXRTdHJpbmcoImlkIiksIG1lc3NhZ2VzLmF0KDMpLmdldFN0cmluZygidG9vbF9jYWxsX2lkIikpCiAgICAgICAgdmFsIHBsYWNlaG9sZGVyID0gbWVzc2FnZXMuYXQoMykuZ2V0U3RyaW5nKCJjb250ZW50IikKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIFN0cnVjdHVyZWRUb29sQ2FsbEJyaWRnZS51bm1hdGNoZWRUb29sUmVzdWx0Q29udGVudCgKICAgICAgICAgICAgICAgICJ0b29sX3Jlc3VsdF9wYXJ0aWFsX2JhdGNoIiwKICAgICAgICAgICAgICAgICJzZWNvbmQiCiAgICAgICAgICAgICksCiAgICAgICAgICAgIHBsYWNlaG9sZGVyCiAgICAgICAgKQogICAgICAgIGFzc2VydEZhbHNlKHBsYWNlaG9sZGVyLmNvbnRhaW5zKCLnlKjmiLflj5bmtogiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoNCwgbWVzc2FnZXMubGVuZ3RoKCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgaGlzdG9yeSBwbGFjZWhvbGRlcnMgZGVzY3JpYmUgbWlzc2luZyByZXN1bHRzIHdpdGhvdXQgcmVwb3J0aW5nIGNhbmNlbGxhdGlvbmAoKSB7CiAgICAgICAgdmFsIHBhcnRpYWxCYXRjaCA9CiAgICAgICAgICAgIFN0cnVjdHVyZWRUb29sQ2FsbEJyaWRnZS51bm1hdGNoZWRUb29sUmVzdWx0Q29udGVudCgKICAgICAgICAgICAgICAgICJ0b29sX3Jlc3VsdF9wYXJ0aWFsX2JhdGNoIiwKICAgICAgICAgICAgICAgICJyZWFkX2ZpbGUiCiAgICAgICAgICAgICkKICAgICAgICB2YWwgaGlzdG9yeUVuZCA9CiAgICAgICAgICAgIFN0cnVjdHVyZWRUb29sQ2FsbEJyaWRnZS51bm1hdGNoZWRUb29sUmVzdWx0Q29udGVudCgiaGlzdG9yeV9lbmQiLCAiZWNobyIpCgogICAgICAgIGFzc2VydEVxdWFscygi5bel5YW357uT5p6c57y65aSx77yacmVhZF9maWxlIOayoeacieWMuemFjeWIsOaJp+ihjOe7k+aenOOAgui/meS4jeaYr+eUqOaIt+WPlua2iOOAgiIsIHBhcnRpYWxCYXRjaCkKICAgICAgICBhc3NlcnRFcXVhbHMoIuW3peWFt+e7k+aenOe8uuWkse+8mmVjaG8g5ZCO57ut5a+56K+d5Y6G5Y+y5bey5Yiw6L6+77yM5L2G5pyq6L+U5Zue5omn6KGM57uT5p6c44CC6L+Z5LiN5piv55So5oi35Y+W5raI44CCIiwgaGlzdG9yeUVuZCkKICAgICAgICBhc3NlcnRGYWxzZShwYXJ0aWFsQmF0Y2guY29udGFpbnMoIlVzZXIgY2FuY2VsbGVkIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoaGlzdG9yeUVuZC5jb250YWlucygiVXNlciBjYW5jZWxsZWQiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBidWlsdC1pbiB0b29sIGNoYW5uZWwgc2VuZHMgbm8gdG9vbCBjYWxsIHByb3RvY29sIGZpZWxkc2AoKSB7CiAgICAgICAgdmFsIGhpc3RvcnkgPQogICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKGtpbmQgPSBQcm9tcHRUdXJuS2luZC5TWVNURU0sIGNvbnRlbnQgPSAiWW91IGFyZSBhIGhlbHBmdWwgYXNzaXN0YW50LiIpLAogICAgICAgICAgICAgICAgUHJvbXB0VHVybihraW5kID0gUHJvbXB0VHVybktpbmQuVVNFUiwgY29udGVudCA9ICJVc2UgdGhlIHBhY2thZ2UuIiksCiAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgIGtpbmQgPSBQcm9tcHRUdXJuS2luZC5UT09MX0NBTEwsCiAgICAgICAgICAgICAgICAgICAgY29udGVudCA9IHRvb2xDYWxsKCJ1c2VfcGFja2FnZSIsICJwYWNrYWdlX25hbWUiIHRvICJxd2VuX2RyYXciKQogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIFByb21wdFR1cm4oCiAgICAgICAgICAgICAgICAgICAga2luZCA9IFByb21wdFR1cm5LaW5kLlRPT0xfUkVTVUxULAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnQgPSB0b29sUmVzdWx0KCJ1c2VfcGFja2FnZSIsICJhY3RpdmF0ZWQiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCgogICAgICAgIHZhbCBtZXNzYWdlcyA9IGJ1aWxkTWVzc2FnZXMoaGlzdG9yeSwgdXNlVG9vbENhbGwgPSBmYWxzZSkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigic3lzdGVtIiwgInVzZXIiLCAiYXNzaXN0YW50IiwgInVzZXIiKSwgbWVzc2FnZXMucm9sZXMoKSkKICAgICAgICBmb3IgKGluZGV4IGluIDAgdW50aWwgbWVzc2FnZXMubGVuZ3RoKCkpIHsKICAgICAgICAgICAgdmFsIG1lc3NhZ2UgPSBtZXNzYWdlcy5hdChpbmRleCkKICAgICAgICAgICAgYXNzZXJ0RmFsc2UobWVzc2FnZS5oYXMoInRvb2xfY2FsbHMiKSkKICAgICAgICAgICAgYXNzZXJ0RmFsc2UobWVzc2FnZS5oYXMoInRvb2xfY2FsbF9pZCIpKQogICAgICAgIH0KICAgICAgICBhc3NlcnRUcnVlKG1lc3NhZ2VzLmF0KDMpLmdldFN0cmluZygiY29udGVudCIpLmNvbnRhaW5zKCJhY3RpdmF0ZWQiKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZE1lc3NhZ2VzKAogICAgICAgIGhpc3Rvcnk6IExpc3Q8UHJvbXB0VHVybj4sCiAgICAgICAgdXNlVG9vbENhbGw6IEJvb2xlYW4gPSB0cnVlCiAgICApOiBKU09OQXJyYXkgewogICAgICAgIHZhbCBwcm92aWRlciA9CiAgICAgICAgICAgIG9iamVjdCA6IE9wZW5BSVByb3ZpZGVyKAogICAgICAgICAgICAgICAgYXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9leGFtcGxlLnRlc3QvdjEvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgICAgICBhcGlLZXlQcm92aWRlciA9IFNpbmdsZUFwaUtleVByb3ZpZGVyKCJ0ZXN0LWtleSIpLAogICAgICAgICAgICAgICAgbW9kZWxOYW1lID0gInRlc3QtbW9kZWwiLAogICAgICAgICAgICAgICAgY2xpZW50ID0gT2tIdHRwQ2xpZW50KCksCiAgICAgICAgICAgICAgICBlbmFibGVUb29sQ2FsbCA9IHRydWUKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBmdW4gYnVpbGRNZXNzYWdlcyhjb250ZXh0OiBDb250ZXh0KTogSlNPTkFycmF5ID0KICAgICAgICAgICAgICAgICAgICBidWlsZE1lc3NhZ2VzQW5kQ291bnRUb2tlbnMoY29udGV4dCwgaGlzdG9yeSwgdXNlVG9vbENhbGwgPSB1c2VUb29sQ2FsbCkuZmlyc3QKICAgICAgICAgICAgfQogICAgICAgIHJldHVybiBwcm92aWRlci5idWlsZE1lc3NhZ2VzKG1vY2s8Q29udGV4dD4oKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biB0b29sQ2FsbChuYW1lOiBTdHJpbmcsIHZhcmFyZyBwYXJhbXM6IFBhaXI8U3RyaW5nLCBTdHJpbmc+KTogU3RyaW5nIHsKICAgICAgICB2YWwgYm9keSA9IHBhcmFtcy5qb2luVG9TdHJpbmcoIiIpIHsgKGtleSwgdmFsdWUpIC0+CiAgICAgICAgICAgICI8cGFyYW0gbmFtZT1cIiRrZXlcIj4kdmFsdWU8L3BhcmFtPiIKICAgICAgICB9CiAgICAgICAgcmV0dXJuICI8dG9vbCBuYW1lPVwiJG5hbWVcIj4kYm9keTwvdG9vbD4iCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdG9vbFJlc3VsdChuYW1lOiBTdHJpbmcsIGNvbnRlbnQ6IFN0cmluZyk6IFN0cmluZyA9CiAgICAgICAgIjx0b29sX3Jlc3VsdCBuYW1lPVwiJG5hbWVcIiBzdGF0dXM9XCJzdWNjZXNzXCI+PGNvbnRlbnQ+JGNvbnRlbnQ8L2NvbnRlbnQ+PC90b29sX3Jlc3VsdD4iCgogICAgcHJpdmF0ZSBmdW4gSlNPTkFycmF5LmF0KGluZGV4OiBJbnQpOiBKU09OT2JqZWN0ID0gZ2V0SlNPTk9iamVjdChpbmRleCkKCiAgICBwcml2YXRlIGZ1biBKU09OQXJyYXkucm9sZXMoKTogTGlzdDxTdHJpbmc+ID0KICAgICAgICAoMCB1bnRpbCBsZW5ndGgoKSkubWFwIHsgYXQoaXQpLmdldFN0cmluZygicm9sZSIpIH0KCiAgICAvKioKICAgICAqIE1pcnJvcnMgd2hhdCBhbiBBbnRocm9waWMtYmFja2VkIGdhdGV3YXkgY2hlY2tzOiB0aGUgY29udmVyc2F0aW9uIG1heSBub3Qgb3BlbiB3aXRoIGFuCiAgICAgKiBhc3Npc3RhbnQgdHVybiwgZXZlcnkgYHRvb2xgIG1lc3NhZ2UgbXVzdCBhbnN3ZXIgYSBjYWxsIG9wZW5lZCBieSB0aGUgbWVzc2FnZSByaWdodCBiZWZvcmUKICAgICAqIGl0cyBydW4sIGFuZCBubyBvdGhlciBtZXNzYWdlIG1heSBjdXQgaW50byB0aGF0IHJ1bi4KICAgICAqLwogICAgcHJpdmF0ZSBmdW4gYXNzZXJ0VG9vbFJlc3VsdHNGb2xsb3dUaGVpckNhbGxzKG1lc3NhZ2VzOiBKU09OQXJyYXkpIHsKICAgICAgICB2YWwgZmlyc3ROb25TeXN0ZW0gPSAoMCB1bnRpbCBtZXNzYWdlcy5sZW5ndGgoKSkKICAgICAgICAgICAgLmZpcnN0T3JOdWxsIHsgbWVzc2FnZXMuYXQoaXQpLmdldFN0cmluZygicm9sZSIpICE9ICJzeXN0ZW0iIH0KICAgICAgICBpZiAoZmlyc3ROb25TeXN0ZW0gIT0gbnVsbCkgewogICAgICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICAgICAiY29udmVyc2F0aW9uIG11c3Qgbm90IG9wZW4gd2l0aCBhbiBhc3Npc3RhbnQgdHVybiIsCiAgICAgICAgICAgICAgICAidXNlciIsCiAgICAgICAgICAgICAgICBtZXNzYWdlcy5hdChmaXJzdE5vblN5c3RlbSkuZ2V0U3RyaW5nKCJyb2xlIikKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgdmFsIHBlbmRpbmdDYWxsSWRzID0gbXV0YWJsZVNldE9mPFN0cmluZz4oKQogICAgICAgIGZvciAoaW5kZXggaW4gMCB1bnRpbCBtZXNzYWdlcy5sZW5ndGgoKSkgewogICAgICAgICAgICB2YWwgbWVzc2FnZSA9IG1lc3NhZ2VzLmF0KGluZGV4KQogICAgICAgICAgICB3aGVuIChtZXNzYWdlLmdldFN0cmluZygicm9sZSIpKSB7CiAgICAgICAgICAgICAgICAidG9vbCIgLT4gewogICAgICAgICAgICAgICAgICAgIHZhbCB0b29sQ2FsbElkID0gbWVzc2FnZS5nZXRTdHJpbmcoInRvb2xfY2FsbF9pZCIpCiAgICAgICAgICAgICAgICAgICAgYXNzZXJ0VHJ1ZSgKICAgICAgICAgICAgICAgICAgICAgICAgIm1lc3NhZ2UgJGluZGV4IGFuc3dlcnMgJHRvb2xDYWxsSWQgd2l0aCBubyBtYXRjaGluZyB0b29sIGNhbGwgYmVmb3JlIGl0IiwKICAgICAgICAgICAgICAgICAgICAgICAgcGVuZGluZ0NhbGxJZHMucmVtb3ZlKHRvb2xDYWxsSWQpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICJhc3Npc3RhbnQiIC0+IHsKICAgICAgICAgICAgICAgICAgICBhc3NlcnRUcnVlKAogICAgICAgICAgICAgICAgICAgICAgICAibWVzc2FnZSAkaW5kZXggbGVhdmVzIGNhbGxzICRwZW5kaW5nQ2FsbElkcyB1bmFuc3dlcmVkIiwKICAgICAgICAgICAgICAgICAgICAgICAgcGVuZGluZ0NhbGxJZHMuaXNFbXB0eSgpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHZhbCB0b29sQ2FsbHMgPSBtZXNzYWdlLm9wdEpTT05BcnJheSgidG9vbF9jYWxscyIpID86IEpTT05BcnJheSgpCiAgICAgICAgICAgICAgICAgICAgZm9yIChjYWxsSW5kZXggaW4gMCB1bnRpbCB0b29sQ2FsbHMubGVuZ3RoKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGVuZGluZ0NhbGxJZHMuYWRkKHRvb2xDYWxscy5nZXRKU09OT2JqZWN0KGNhbGxJbmRleCkuZ2V0U3RyaW5nKCJpZCIpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBlbHNlIC0+CiAgICAgICAgICAgICAgICAgICAgYXNzZXJ0VHJ1ZSgKICAgICAgICAgICAgICAgICAgICAgICAgIm1lc3NhZ2UgJGluZGV4IGxlYXZlcyBjYWxscyAkcGVuZGluZ0NhbGxJZHMgdW5hbnN3ZXJlZCIsCiAgICAgICAgICAgICAgICAgICAgICAgIHBlbmRpbmdDYWxsSWRzLmlzRW1wdHkoKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBhc3NlcnRUcnVlKCJoaXN0b3J5IGVuZHMgd2l0aCB1bmFuc3dlcmVkIGNhbGxzICRwZW5kaW5nQ2FsbElkcyIsIHBlbmRpbmdDYWxsSWRzLmlzRW1wdHkoKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.core.chat.hooks.PromptTurnKind
+import com.bslsjdk.operit.util.AppLogger
+import okhttp3.OkHttpClient
+import org.json.JSONArray
+import org.json.JSONObject
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Before
+import org.junit.Test
+import org.mockito.kotlin.mock
+
+/**
+ * Protocol-level regression tests for the OpenAI tool-call history conversion.
+ *
+ * Gateways that translate the OpenAI payload into another protocol (Poe onto Anthropic) enforce
+ * that every `tool` message answers a call opened by the message right before it. See issue #1027.
+ */
+class OpenAiToolCallHistoryTest {
+
+    private var previousSystemLogEnabled = true
+    private var previousFileLogEnabled = true
+
+    @Before
+    fun disableAndroidLogging() {
+        previousSystemLogEnabled = AppLogger.enableSystemLog
+        previousFileLogEnabled = AppLogger.enableFileLogging
+        AppLogger.enableSystemLog = false
+        AppLogger.enableFileLogging = false
+    }
+
+    @After
+    fun restoreAndroidLogging() {
+        AppLogger.enableSystemLog = previousSystemLogEnabled
+        AppLogger.enableFileLogging = previousFileLogEnabled
+    }
+
+    @Test
+    fun `connection test tool call probe answers the call it opened`() {
+        val messages =
+            buildMessages(ModelConfigConnectionTester.buildToolCallProbeHistory("echo"))
+
+        assertEquals(
+            listOf("system", "user", "assistant", "tool"),
+            messages.roles()
+        )
+        assertToolResultsFollowTheirCalls(messages)
+        assertEquals(
+            messages.at(2).getJSONArray("tool_calls").getJSONObject(0).getString("id"),
+            messages.at(3).getString("tool_call_id")
+        )
+        assertEquals("pong", messages.at(3).getString("content"))
+    }
+
+    @Test
+    fun `unanswered calls are closed before the trailing tool result text`() {
+        val messages =
+            buildMessages(
+                listOf(
+                    PromptTurn(kind = PromptTurnKind.SYSTEM, content = "You are a helpful assistant."),
+                    PromptTurn(kind = PromptTurnKind.USER, content = "Read both files."),
+                    PromptTurn(
+                        kind = PromptTurnKind.ASSISTANT,
+                        content = toolCall("read_file", "path" to "a.txt") +
+                            toolCall("read_file_part", "path" to "b.txt")
+                    ),
+                    PromptTurn(
+                        kind = PromptTurnKind.TOOL_RESULT,
+                        content = toolResult("read_file", "alpha") + "\nThe second read was skipped."
+                    )
+                )
+            )
+
+        assertToolResultsFollowTheirCalls(messages)
+        assertEquals(
+            listOf("system", "user", "assistant", "tool", "tool", "user"),
+            messages.roles()
+        )
+        assertEquals("The second read was skipped.", messages.at(5).getString("content"))
+    }
+
+    @Test
+    fun `tool results are paired by tool name when they come back out of order`() {
+        val messages =
+            buildMessages(
+                listOf(
+                    PromptTurn(kind = PromptTurnKind.USER, content = "Do both."),
+                    PromptTurn(
+                        kind = PromptTurnKind.ASSISTANT,
+                        content = toolCall("list_files", "path" to ".") +
+                            toolCall("calculate", "expression" to "1+1")
+                    ),
+                    // Denied or interrupted invocations are hoisted to the front of the result list,
+                    // so the results do not necessarily arrive in call order.
+                    PromptTurn(
+                        kind = PromptTurnKind.TOOL_RESULT,
+                        content = toolResult("calculate", "2") + toolResult("list_files", "a.txt")
+                    )
+                )
+            )
+
+        assertToolResultsFollowTheirCalls(messages)
+        val toolCalls = messages.at(1).getJSONArray("tool_calls")
+        val listFilesId = toolCalls.getJSONObject(0).getString("id")
+        val calculateId = toolCalls.getJSONObject(1).getString("id")
+
+        assertEquals(calculateId, messages.at(2).getString("tool_call_id"))
+        assertEquals("2", messages.at(2).getString("content"))
+        assertEquals(listFilesId, messages.at(3).getString("tool_call_id"))
+        assertEquals("a.txt", messages.at(3).getString("content"))
+    }
+
+    @Test
+    fun `package tool results are paired through the package proxy envelope`() {
+        val messages =
+            buildMessages(
+                listOf(
+                    PromptTurn(kind = PromptTurnKind.USER, content = "Draw it."),
+                    PromptTurn(
+                        kind = PromptTurnKind.ASSISTANT,
+                        content = toolCall("qwen_draw:draw", "prompt" to "cat")
+                    ),
+                    PromptTurn(
+                        kind = PromptTurnKind.TOOL_RESULT,
+                        content = toolResult("qwen_draw:draw", "done")
+                    )
+                )
+            )
+
+        assertToolResultsFollowTheirCalls(messages)
+        assertEquals(
+            "package_proxy",
+            messages.at(1).getJSONArray("tool_calls").getJSONObject(0)
+                .getJSONObject("function").getString("name")
+        )
+        assertEquals("done", messages.at(2).getString("content"))
+    }
+
+    @Test
+    fun `OpenAI local proxy results are paired through the target tool name`() {
+        val messages =
+            buildMessages(
+                listOf(
+                    PromptTurn(kind = PromptTurnKind.USER, content = "Read it."),
+                    PromptTurn(
+                        kind = PromptTurnKind.ASSISTANT,
+                        content =
+                            toolCall(
+                                "proxy",
+                                "tool_name" to "read_file",
+                                "params" to "{\"path\":\"a.txt\"}"
+                            )
+                    ),
+                    PromptTurn(
+                        kind = PromptTurnKind.TOOL_RESULT,
+                        content = toolResult("read_file", "alpha")
+                    )
+                )
+            )
+
+        assertToolResultsFollowTheirCalls(messages)
+        assertEquals(listOf("user", "assistant", "tool"), messages.roles())
+        val proxyCall = messages.at(1).getJSONArray("tool_calls").getJSONObject(0)
+        assertEquals("proxy", proxyCall.getJSONObject("function").getString("name"))
+        assertEquals(proxyCall.getString("id"), messages.at(2).getString("tool_call_id"))
+        assertEquals("alpha", messages.at(2).getString("content"))
+        assertFalse(messages.toString().contains("工具结果缺失"))
+    }
+
+    @Test
+    fun `assistant tool call message omits empty content`() {
+        val messages =
+            buildMessages(ModelConfigConnectionTester.buildToolCallProbeHistory("echo"))
+
+        assertFalse(messages.at(2).has("content"))
+    }
+
+    @Test
+    fun `unmatched tool results are ignored without stealing a call id`() {
+        val messages =
+            buildMessages(
+                listOf(
+                    PromptTurn(kind = PromptTurnKind.USER, content = "Do both."),
+                    PromptTurn(
+                        kind = PromptTurnKind.ASSISTANT,
+                        content = toolCall("first", "value" to "1") +
+                            toolCall("second", "value" to "2")
+                    ),
+                    PromptTurn(
+                        kind = PromptTurnKind.TOOL_RESULT,
+                        content = toolResult("missing", "unmatched") + toolResult("first", "ok")
+                    )
+                )
+            )
+
+        val toolCalls = messages.at(1).getJSONArray("tool_calls")
+        assertEquals(toolCalls.getJSONObject(0).getString("id"), messages.at(2).getString("tool_call_id"))
+        assertEquals("ok", messages.at(2).getString("content"))
+        assertEquals(toolCalls.getJSONObject(1).getString("id"), messages.at(3).getString("tool_call_id"))
+        val placeholder = messages.at(3).getString("content")
+        assertEquals(
+            StructuredToolCallBridge.unmatchedToolResultContent(
+                "tool_result_partial_batch",
+                "second"
+            ),
+            placeholder
+        )
+        assertFalse(placeholder.contains("用户取消"))
+        assertEquals(4, messages.length())
+    }
+
+    @Test
+    fun `history placeholders describe missing results without reporting cancellation`() {
+        val partialBatch =
+            StructuredToolCallBridge.unmatchedToolResultContent(
+                "tool_result_partial_batch",
+                "read_file"
+            )
+        val historyEnd =
+            StructuredToolCallBridge.unmatchedToolResultContent("history_end", "echo")
+
+        assertEquals("工具结果缺失：read_file 没有匹配到执行结果。这不是用户取消。", partialBatch)
+        assertEquals("工具结果缺失：echo 后续对话历史已到达，但未返回执行结果。这不是用户取消。", historyEnd)
+        assertFalse(partialBatch.contains("User cancelled"))
+        assertFalse(historyEnd.contains("User cancelled"))
+    }
+
+    @Test
+    fun `built-in tool channel sends no tool call protocol fields`() {
+        val history =
+            listOf(
+                PromptTurn(kind = PromptTurnKind.SYSTEM, content = "You are a helpful assistant."),
+                PromptTurn(kind = PromptTurnKind.USER, content = "Use the package."),
+                PromptTurn(
+                    kind = PromptTurnKind.TOOL_CALL,
+                    content = toolCall("use_package", "package_name" to "qwen_draw")
+                ),
+                PromptTurn(
+                    kind = PromptTurnKind.TOOL_RESULT,
+                    content = toolResult("use_package", "activated")
+                )
+            )
+
+        val messages = buildMessages(history, useToolCall = false)
+
+        assertEquals(listOf("system", "user", "assistant", "user"), messages.roles())
+        for (index in 0 until messages.length()) {
+            val message = messages.at(index)
+            assertFalse(message.has("tool_calls"))
+            assertFalse(message.has("tool_call_id"))
+        }
+        assertTrue(messages.at(3).getString("content").contains("activated"))
+    }
+
+    private fun buildMessages(
+        history: List<PromptTurn>,
+        useToolCall: Boolean = true
+    ): JSONArray {
+        val provider =
+            object : OpenAIProvider(
+                apiEndpoint = "https://example.test/v1/chat/completions",
+                apiKeyProvider = SingleApiKeyProvider("test-key"),
+                modelName = "test-model",
+                client = OkHttpClient(),
+                enableToolCall = true
+            ) {
+                fun buildMessages(context: Context): JSONArray =
+                    buildMessagesAndCountTokens(context, history, useToolCall = useToolCall).first
+            }
+        return provider.buildMessages(mock<Context>())
+    }
+
+    private fun toolCall(name: String, vararg params: Pair<String, String>): String {
+        val body = params.joinToString("") { (key, value) ->
+            "<param name=\"$key\">$value</param>"
+        }
+        return "<tool name=\"$name\">$body</tool>"
+    }
+
+    private fun toolResult(name: String, content: String): String =
+        "<tool_result name=\"$name\" status=\"success\"><content>$content</content></tool_result>"
+
+    private fun JSONArray.at(index: Int): JSONObject = getJSONObject(index)
+
+    private fun JSONArray.roles(): List<String> =
+        (0 until length()).map { at(it).getString("role") }
+
+    /**
+     * Mirrors what an Anthropic-backed gateway checks: the conversation may not open with an
+     * assistant turn, every `tool` message must answer a call opened by the message right before
+     * its run, and no other message may cut into that run.
+     */
+    private fun assertToolResultsFollowTheirCalls(messages: JSONArray) {
+        val firstNonSystem = (0 until messages.length())
+            .firstOrNull { messages.at(it).getString("role") != "system" }
+        if (firstNonSystem != null) {
+            assertEquals(
+                "conversation must not open with an assistant turn",
+                "user",
+                messages.at(firstNonSystem).getString("role")
+            )
+        }
+
+        val pendingCallIds = mutableSetOf<String>()
+        for (index in 0 until messages.length()) {
+            val message = messages.at(index)
+            when (message.getString("role")) {
+                "tool" -> {
+                    val toolCallId = message.getString("tool_call_id")
+                    assertTrue(
+                        "message $index answers $toolCallId with no matching tool call before it",
+                        pendingCallIds.remove(toolCallId)
+                    )
+                }
+
+                "assistant" -> {
+                    assertTrue(
+                        "message $index leaves calls $pendingCallIds unanswered",
+                        pendingCallIds.isEmpty()
+                    )
+                    val toolCalls = message.optJSONArray("tool_calls") ?: JSONArray()
+                    for (callIndex in 0 until toolCalls.length()) {
+                        pendingCallIds.add(toolCalls.getJSONObject(callIndex).getString("id"))
+                    }
+                }
+
+                else ->
+                    assertTrue(
+                        "message $index leaves calls $pendingCallIds unanswered",
+                        pendingCallIds.isEmpty()
+                    )
+            }
+        }
+        assertTrue("history ends with unanswered calls $pendingCallIds", pendingCallIds.isEmpty())
+    }
+}

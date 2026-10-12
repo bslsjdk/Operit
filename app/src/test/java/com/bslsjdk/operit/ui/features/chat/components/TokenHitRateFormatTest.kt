@@ -1,1 +1,39 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBUb2tlbkhpdFJhdGVGb3JtYXRUZXN0IHsKICAgIEBUZXN0CiAgICBmdW4gZm9ybWF0c1JlYWxXb3JsZFJhdGUoKSB7CiAgICAgICAgLy8gNjU3MjgwIC8gNjg1NDg3ID0gOTUuODg0OS4uLiUgLT4gOTUuODglCiAgICAgICAgYXNzZXJ0RXF1YWxzKCI5NS44OCUiLCBmb3JtYXRDYWNoZUhpdFJhdGUoNjU3XzI4MEwsIDY4NV80ODdMKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRydW5jYXRlc0luc3RlYWRPZlJvdW5kaW5nKCkgewogICAgICAgIC8vIDk5Ljk5OSUg5ZCR5LiL5oiq5pat5Li6IDk5Ljk5Je+8jOS4jeW+l+Wbm+iIjeS6lOWFpeS4uiAxMDAuMDAlCiAgICAgICAgYXNzZXJ0RXF1YWxzKCI5OS45OSUiLCBmb3JtYXRDYWNoZUhpdFJhdGUoOTk5Xzk5MEwsIDFfMDAwXzAwMEwpKQogICAgICAgIGFzc2VydEVxdWFscygiOTkuOTklIiwgZm9ybWF0Q2FjaGVIaXRSYXRlKDk5OV85OTlMLCAxXzAwMF8wMDBMKSkKICAgICAgICAvLyA5OS41JSDkv53nlZnkuLogOTkuNTAl77yM5LiN5b6X6L+b5L2N5Li6IDEwMC4wMCUKICAgICAgICBhc3NlcnRFcXVhbHMoIjk5LjUwJSIsIGZvcm1hdENhY2hlSGl0UmF0ZSg5OTVMLCAxXzAwMEwpKQogICAgICAgIC8vIDY2LjY2Ni4uLiUgLT4gNjYuNjYlCiAgICAgICAgYXNzZXJ0RXF1YWxzKCI2Ni42NiUiLCBmb3JtYXRDYWNoZUhpdFJhdGUoMkwsIDNMKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGtlZXBzRXhhY3RIdW5kcmVkUGVyY2VudCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIjEwMC4wMCUiLCBmb3JtYXRDYWNoZUhpdFJhdGUoMV8wMDBMLCAxXzAwMEwpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gaGFuZGxlc1plcm9JbnB1dCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIi0iLCBmb3JtYXRDYWNoZUhpdFJhdGUoMEwsIDBMKSkKICAgICAgICBhc3NlcnRFcXVhbHMoIi0iLCBmb3JtYXRDYWNoZUhpdFJhdGUoMTBMLCAwTCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBoYW5kbGVzWmVyb0NhY2hlKCkgewogICAgICAgIGFzc2VydEVxdWFscygiMC4wMCUiLCBmb3JtYXRDYWNoZUhpdFJhdGUoMEwsIDEwMEwpKQogICAgfQp9
+package com.bslsjdk.operit.ui.features.chat.components
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class TokenHitRateFormatTest {
+    @Test
+    fun formatsRealWorldRate() {
+        // 657280 / 685487 = 95.8849...% -> 95.88%
+        assertEquals("95.88%", formatCacheHitRate(657_280L, 685_487L))
+    }
+
+    @Test
+    fun truncatesInsteadOfRounding() {
+        // 99.999% 向下截断为 99.99%，不得四舍五入为 100.00%
+        assertEquals("99.99%", formatCacheHitRate(999_990L, 1_000_000L))
+        assertEquals("99.99%", formatCacheHitRate(999_999L, 1_000_000L))
+        // 99.5% 保留为 99.50%，不得进位为 100.00%
+        assertEquals("99.50%", formatCacheHitRate(995L, 1_000L))
+        // 66.666...% -> 66.66%
+        assertEquals("66.66%", formatCacheHitRate(2L, 3L))
+    }
+
+    @Test
+    fun keepsExactHundredPercent() {
+        assertEquals("100.00%", formatCacheHitRate(1_000L, 1_000L))
+    }
+
+    @Test
+    fun handlesZeroInput() {
+        assertEquals("-", formatCacheHitRate(0L, 0L))
+        assertEquals("-", formatCacheHitRate(10L, 0L))
+    }
+
+    @Test
+    fun handlesZeroCache() {
+        assertEquals("0.00%", formatCacheHitRate(0L, 100L))
+    }
+}

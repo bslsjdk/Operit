@@ -1,1 +1,100 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmNvbXBvc2Vkc2wKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENvbXBvc2VEc2xUZXh0RmllbGRFY2hvR3VhcmRUZXN0IHsKCiAgICBAVGVzdAogICAgZnVuIGBzdGFsZSBlY2hvIG9mIG93biBkZWxldGlvbiBpcyBpZ25vcmVkIHdoaWxlIGZvY3VzZWRgKCkgewogICAgICAgIC8vIFJlZ3Jlc3Npb24gdGVzdCBmb3IgaHR0cHM6Ly9naXRodWIuY29tL0FBc3dvcmRtYW4vT3Blcml0L2lzc3Vlcy8xMTUwOgogICAgICAgIC8vIHJhcGlkIGRlbGV0aW9ucyBkaXNwYXRjaCBvbmUgZWRpdCBwZXIga2V5c3Ryb2tlLCBhbmQgYSB0cmVlIHNuYXBzaG90IGJ1aWx0IGFmdGVyCiAgICAgICAgLy8gb25seSB0aGUgZmlyc3QgZGVsZXRpb24gdXNlZCB0byBvdmVyd3JpdGUgdGhlIGZpZWxkIHdoaWxlIHRoZSB1c2VyIGtlcHQgZGVsZXRpbmcuCiAgICAgICAgdmFsIGd1YXJkID0gQ29tcG9zZURzbFRleHRGaWVsZEVjaG9HdWFyZCgiaGVsbG8gd29ybGQiKQogICAgICAgIGd1YXJkLm9uTG9jYWxFZGl0RGlzcGF0Y2hlZCgiaGVsbG8gd29ybCIpCiAgICAgICAgZ3VhcmQub25Mb2NhbEVkaXREaXNwYXRjaGVkKCJoZWxsbyB3b3IiKQoKICAgICAgICB2YWwgZGVjaXNpb24gPQogICAgICAgICAgICBndWFyZC5yZWNvbmNpbGUoZXh0ZXJuYWxUZXh0ID0gImhlbGxvIHdvcmwiLCBmaWVsZFRleHQgPSAiaGVsbG8gd29yIiwgaXNGb2N1c2VkID0gdHJ1ZSkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKENvbXBvc2VEc2xUZXh0RmllbGRFY2hvR3VhcmQuRXh0ZXJuYWxVcGRhdGUuT1dOX0VDSE8sIGRlY2lzaW9uKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGNvbnZlcmdlZCB0cmVlIGNsZWFycyBwZW5kaW5nIGVjaG9lc2AoKSB7CiAgICAgICAgdmFsIGd1YXJkID0gQ29tcG9zZURzbFRleHRGaWVsZEVjaG9HdWFyZCgiYWJjIikKICAgICAgICBndWFyZC5vbkxvY2FsRWRpdERpc3BhdGNoZWQoImFiIikKICAgICAgICBndWFyZC5vbkxvY2FsRWRpdERpc3BhdGNoZWQoImEiKQoKICAgICAgICB2YWwgZGVjaXNpb24gPSBndWFyZC5yZWNvbmNpbGUoZXh0ZXJuYWxUZXh0ID0gImEiLCBmaWVsZFRleHQgPSAiYSIsIGlzRm9jdXNlZCA9IHRydWUpCgogICAgICAgIGFzc2VydEVxdWFscyhDb21wb3NlRHNsVGV4dEZpZWxkRWNob0d1YXJkLkV4dGVybmFsVXBkYXRlLkNPTlZFUkdFRCwgZGVjaXNpb24pCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdmFsdWUgdW5rbm93biB0byB0aGUgZWRpdCBoaXN0b3J5IGlzIGFwcGxpZWQgd2hpbGUgZm9jdXNlZGAoKSB7CiAgICAgICAgLy8gZS5nLiB0aGUgd29ybGRib29rICJpbnNlcnQgdGVtcGxhdGUiIGFjdGlvbiBhcHBlbmRzIGEgc25pcHBldCB0byB0aGUgY29udGVudC4KICAgICAgICB2YWwgZ3VhcmQgPSBDb21wb3NlRHNsVGV4dEZpZWxkRWNob0d1YXJkKCJhYmMiKQogICAgICAgIGd1YXJkLm9uTG9jYWxFZGl0RGlzcGF0Y2hlZCgiYWJjZCIpCgogICAgICAgIHZhbCBkZWNpc2lvbiA9CiAgICAgICAgICAgIGd1YXJkLnJlY29uY2lsZSgKICAgICAgICAgICAgICAgIGV4dGVybmFsVGV4dCA9ICJhYmNkXG5cbnt7Z2V0dmFyOjpzdGF0X2RhdGF9fSIsCiAgICAgICAgICAgICAgICBmaWVsZFRleHQgPSAiYWJjZCIsCiAgICAgICAgICAgICAgICBpc0ZvY3VzZWQgPSB0cnVlCiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKENvbXBvc2VEc2xUZXh0RmllbGRFY2hvR3VhcmQuRXh0ZXJuYWxVcGRhdGUuRVhURVJOQUxfQ0hBTkdFLCBkZWNpc2lvbikKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGB0cmVlIGZyb20gYmVmb3JlIHRoZSBlZGl0aW5nIHNlc3Npb24gaXMgaWdub3JlZCB3aGlsZSBmb2N1c2VkYCgpIHsKICAgICAgICB2YWwgZ3VhcmQgPSBDb21wb3NlRHNsVGV4dEZpZWxkRWNob0d1YXJkKCJhYmMiKQogICAgICAgIGd1YXJkLm9uTG9jYWxFZGl0RGlzcGF0Y2hlZCgiYWIiKQoKICAgICAgICB2YWwgZGVjaXNpb24gPSBndWFyZC5yZWNvbmNpbGUoZXh0ZXJuYWxUZXh0ID0gImFiYyIsIGZpZWxkVGV4dCA9ICJhYiIsIGlzRm9jdXNlZCA9IHRydWUpCgogICAgICAgIGFzc2VydEVxdWFscyhDb21wb3NlRHNsVGV4dEZpZWxkRWNob0d1YXJkLkV4dGVybmFsVXBkYXRlLk9XTl9FQ0hPLCBkZWNpc2lvbikKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBhbnkgZGlmZmVyaW5nIHZhbHVlIGlzIGFwcGxpZWQgd2hpbGUgdW5mb2N1c2VkYCgpIHsKICAgICAgICB2YWwgZ3VhcmQgPSBDb21wb3NlRHNsVGV4dEZpZWxkRWNob0d1YXJkKCJhYmMiKQogICAgICAgIGd1YXJkLm9uTG9jYWxFZGl0RGlzcGF0Y2hlZCgiYWIiKQoKICAgICAgICB2YWwgZGVjaXNpb24gPSBndWFyZC5yZWNvbmNpbGUoZXh0ZXJuYWxUZXh0ID0gImFiIiwgZmllbGRUZXh0ID0gImFiYyIsIGlzRm9jdXNlZCA9IGZhbHNlKQoKICAgICAgICBhc3NlcnRFcXVhbHMoQ29tcG9zZURzbFRleHRGaWVsZEVjaG9HdWFyZC5FeHRlcm5hbFVwZGF0ZS5FWFRFUk5BTF9DSEFOR0UsIGRlY2lzaW9uKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHByZS1lZGl0IHRyZWUgc25hcHNob3RzIGFyZSBpZ25vcmVkIHJlcGVhdGVkbHkgd2hpbGUgZm9jdXNlZGAoKSB7CiAgICAgICAgdmFsIGd1YXJkID0gQ29tcG9zZURzbFRleHRGaWVsZEVjaG9HdWFyZCgiYWJjIikKICAgICAgICBndWFyZC5vbkxvY2FsRWRpdERpc3BhdGNoZWQoImFiIikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBDb21wb3NlRHNsVGV4dEZpZWxkRWNob0d1YXJkLkV4dGVybmFsVXBkYXRlLk9XTl9FQ0hPLAogICAgICAgICAgICBndWFyZC5yZWNvbmNpbGUoZXh0ZXJuYWxUZXh0ID0gImFiYyIsIGZpZWxkVGV4dCA9ICJhYiIsIGlzRm9jdXNlZCA9IHRydWUpCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgQ29tcG9zZURzbFRleHRGaWVsZEVjaG9HdWFyZC5FeHRlcm5hbFVwZGF0ZS5PV05fRUNITywKICAgICAgICAgICAgZ3VhcmQucmVjb25jaWxlKGV4dGVybmFsVGV4dCA9ICJhYmMiLCBmaWVsZFRleHQgPSAiYWIiLCBpc0ZvY3VzZWQgPSB0cnVlKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBkZWxldGUgdGhlbiByZXR5cGUga2VlcHMgbGF0ZXIgZWNob2VzIGNsYXNzaWZpZWRgKCkgewogICAgICAgIHZhbCBndWFyZCA9IENvbXBvc2VEc2xUZXh0RmllbGRFY2hvR3VhcmQoImFiIikKICAgICAgICBndWFyZC5vbkxvY2FsRWRpdERpc3BhdGNoZWQoImEiKQogICAgICAgIGd1YXJkLm9uTG9jYWxFZGl0RGlzcGF0Y2hlZCgiYWIiKQoKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIENvbXBvc2VEc2xUZXh0RmllbGRFY2hvR3VhcmQuRXh0ZXJuYWxVcGRhdGUuT1dOX0VDSE8sCiAgICAgICAgICAgIGd1YXJkLnJlY29uY2lsZShleHRlcm5hbFRleHQgPSAiYSIsIGZpZWxkVGV4dCA9ICJhYiIsIGlzRm9jdXNlZCA9IHRydWUpCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgQ29tcG9zZURzbFRleHRGaWVsZEVjaG9HdWFyZC5FeHRlcm5hbFVwZGF0ZS5DT05WRVJHRUQsCiAgICAgICAgICAgIGd1YXJkLnJlY29uY2lsZShleHRlcm5hbFRleHQgPSAiYWIiLCBmaWVsZFRleHQgPSAiYWIiLCBpc0ZvY3VzZWQgPSB0cnVlKQogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.common.composedsl
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class ComposeDslTextFieldEchoGuardTest {
+
+    @Test
+    fun `stale echo of own deletion is ignored while focused`() {
+        // Regression test for https://github.com/AAswordman/Operit/issues/1150:
+        // rapid deletions dispatch one edit per keystroke, and a tree snapshot built after
+        // only the first deletion used to overwrite the field while the user kept deleting.
+        val guard = ComposeDslTextFieldEchoGuard("hello world")
+        guard.onLocalEditDispatched("hello worl")
+        guard.onLocalEditDispatched("hello wor")
+
+        val decision =
+            guard.reconcile(externalText = "hello worl", fieldText = "hello wor", isFocused = true)
+
+        assertEquals(ComposeDslTextFieldEchoGuard.ExternalUpdate.OWN_ECHO, decision)
+    }
+
+    @Test
+    fun `converged tree clears pending echoes`() {
+        val guard = ComposeDslTextFieldEchoGuard("abc")
+        guard.onLocalEditDispatched("ab")
+        guard.onLocalEditDispatched("a")
+
+        val decision = guard.reconcile(externalText = "a", fieldText = "a", isFocused = true)
+
+        assertEquals(ComposeDslTextFieldEchoGuard.ExternalUpdate.CONVERGED, decision)
+    }
+
+    @Test
+    fun `value unknown to the edit history is applied while focused`() {
+        // e.g. the worldbook "insert template" action appends a snippet to the content.
+        val guard = ComposeDslTextFieldEchoGuard("abc")
+        guard.onLocalEditDispatched("abcd")
+
+        val decision =
+            guard.reconcile(
+                externalText = "abcd\n\n{{getvar::stat_data}}",
+                fieldText = "abcd",
+                isFocused = true
+            )
+
+        assertEquals(ComposeDslTextFieldEchoGuard.ExternalUpdate.EXTERNAL_CHANGE, decision)
+    }
+
+    @Test
+    fun `tree from before the editing session is ignored while focused`() {
+        val guard = ComposeDslTextFieldEchoGuard("abc")
+        guard.onLocalEditDispatched("ab")
+
+        val decision = guard.reconcile(externalText = "abc", fieldText = "ab", isFocused = true)
+
+        assertEquals(ComposeDslTextFieldEchoGuard.ExternalUpdate.OWN_ECHO, decision)
+    }
+
+    @Test
+    fun `any differing value is applied while unfocused`() {
+        val guard = ComposeDslTextFieldEchoGuard("abc")
+        guard.onLocalEditDispatched("ab")
+
+        val decision = guard.reconcile(externalText = "ab", fieldText = "abc", isFocused = false)
+
+        assertEquals(ComposeDslTextFieldEchoGuard.ExternalUpdate.EXTERNAL_CHANGE, decision)
+    }
+
+    @Test
+    fun `pre-edit tree snapshots are ignored repeatedly while focused`() {
+        val guard = ComposeDslTextFieldEchoGuard("abc")
+        guard.onLocalEditDispatched("ab")
+
+        assertEquals(
+            ComposeDslTextFieldEchoGuard.ExternalUpdate.OWN_ECHO,
+            guard.reconcile(externalText = "abc", fieldText = "ab", isFocused = true)
+        )
+        assertEquals(
+            ComposeDslTextFieldEchoGuard.ExternalUpdate.OWN_ECHO,
+            guard.reconcile(externalText = "abc", fieldText = "ab", isFocused = true)
+        )
+    }
+
+    @Test
+    fun `delete then retype keeps later echoes classified`() {
+        val guard = ComposeDslTextFieldEchoGuard("ab")
+        guard.onLocalEditDispatched("a")
+        guard.onLocalEditDispatched("ab")
+
+        assertEquals(
+            ComposeDslTextFieldEchoGuard.ExternalUpdate.OWN_ECHO,
+            guard.reconcile(externalText = "a", fieldText = "ab", isFocused = true)
+        )
+        assertEquals(
+            ComposeDslTextFieldEchoGuard.ExternalUpdate.CONVERGED,
+            guard.reconcile(externalText = "ab", fieldText = "ab", isFocused = true)
+        )
+    }
+}

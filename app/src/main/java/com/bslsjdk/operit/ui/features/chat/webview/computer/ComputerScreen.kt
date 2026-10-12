@@ -1,1 +1,51 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LmNvbXB1dGVyCgppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5SZXF1aXJlc0FwaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5kZXRlY3RUYXBHZXN0dXJlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuaW5wdXQucG9pbnRlci5wb2ludGVySW5wdXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5vcGVyaXQudGVybWluYWwuVGVybWluYWxNYW5hZ2VyCmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5vcGVyaXQudGVybWluYWwucmVtZW1iZXJUZXJtaW5hbEVudgppbXBvcnQgY29tLmFpLmFzc2lzdGFuY2Uub3Blcml0LnRlcm1pbmFsLm1haW4uVGVybWluYWxTY3JlZW4KCkBSZXF1aXJlc0FwaShCdWlsZC5WRVJTSU9OX0NPREVTLk8pCkBDb21wb3NhYmxlCmZ1biBDb21wdXRlclNjcmVlbigpIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIAogICAgLy8gQ3JlYXRlIGEgVGVybWluYWxNYW5hZ2VyIGFuZCBUZXJtaW5hbEVudiBpbnN0YW5jZSBmb3IgdGhlIHRlcm1pbmFsCiAgICB2YWwgdGVybWluYWxNYW5hZ2VyID0gcmVtZW1iZXIgeyBUZXJtaW5hbE1hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dCkgfQogICAgdmFsIHRlcm1pbmFsRW52ID0gcmVtZW1iZXJUZXJtaW5hbEVudih0ZXJtaW5hbE1hbmFnZXIpCiAgICAKICAgIEJveCgKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgIC8vIOenu+mZpOiDjOaZr+iJsu+8jOmBv+WFjemBruaMoSBTdXJmYWNlVmlldwogICAgICAgICAgICAvLyAuYmFja2dyb3VuZChDb2xvci5CbGFjaykgCiAgICAgICAgICAgIC8vIOS9v+eUqCBwb2ludGVySW5wdXQg5oum5oiq6Kem5pG45LqL5Lu277yM6Ziy5q2i56m/6YCP5Yiw5LiL5bGC6IGK5aSp55WM6Z2iCiAgICAgICAgICAgIC8vIOebuOavlCBjbGlja2FibGXvvIzov5nnp43mlrnlvI/lr7nml6Dpmpznoo3mnI3liqHmm7Tlj4vlpb3vvIzkuI3kvJrpmLvmraLlhoXpg6jnu4Tku7bnmoTml6Dpmpznoo3orr/pl64KICAgICAgICAgICAgLnBvaW50ZXJJbnB1dChVbml0KSB7CiAgICAgICAgICAgICAgICBkZXRlY3RUYXBHZXN0dXJlcygKICAgICAgICAgICAgICAgICAgICBvblRhcCA9IHsgLyog5raI6LS554K55Ye75LqL5Lu2ICovIH0sCiAgICAgICAgICAgICAgICAgICAgb25Eb3VibGVUYXAgPSB7IC8qIOa2iOi0ueWPjOWHu+S6i+S7tiAqLyB9LAogICAgICAgICAgICAgICAgICAgIG9uTG9uZ1ByZXNzID0geyAvKiDmtojotLnplb/mjInkuovku7YgKi8gfSwKICAgICAgICAgICAgICAgICAgICBvblByZXNzID0geyAvKiDmtojotLnmjInljovkuovku7YgKi8gfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICApIHsKICAgICAgICAvLyBTaG93IHRoZSB0ZXJtaW5hbCBpbnRlcmZhY2UgaW5zdGVhZCBvZiB0aGUgd2ViIGRlc2t0b3AKICAgICAgICBUZXJtaW5hbFNjcmVlbigKICAgICAgICAgICAgZW52ID0gdGVybWluYWxFbnYsCiAgICAgICAgICAgIHVzZUxvY2FsSW1lSGFuZGxpbmcgPSBmYWxzZSwKICAgICAgICAgICAgY2hlY2tVcGRhdGVzT25FbnRlciA9IGZhbHNlLAogICAgICAgICkKICAgIH0KfSAK
+package com.bslsjdk.operit.ui.features.chat.webview.computer
+
+import android.os.Build
+import androidx.annotation.RequiresApi
+import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.platform.LocalContext
+import com.ai.assistance.operit.terminal.TerminalManager
+import com.ai.assistance.operit.terminal.rememberTerminalEnv
+import com.ai.assistance.operit.terminal.main.TerminalScreen
+
+@RequiresApi(Build.VERSION_CODES.O)
+@Composable
+fun ComputerScreen() {
+    val context = LocalContext.current
+    
+    // Create a TerminalManager and TerminalEnv instance for the terminal
+    val terminalManager = remember { TerminalManager.getInstance(context) }
+    val terminalEnv = rememberTerminalEnv(terminalManager)
+    
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            // 移除背景色，避免遮挡 SurfaceView
+            // .background(Color.Black) 
+            // 使用 pointerInput 拦截触摸事件，防止穿透到下层聊天界面
+            // 相比 clickable，这种方式对无障碍服务更友好，不会阻止内部组件的无障碍访问
+            .pointerInput(Unit) {
+                detectTapGestures(
+                    onTap = { /* 消费点击事件 */ },
+                    onDoubleTap = { /* 消费双击事件 */ },
+                    onLongPress = { /* 消费长按事件 */ },
+                    onPress = { /* 消费按压事件 */ }
+                )
+            }
+    ) {
+        // Show the terminal interface instead of the web desktop
+        TerminalScreen(
+            env = terminalEnv,
+            useLocalImeHandling = false,
+            checkUpdatesOnEnter = false,
+        )
+    }
+} 

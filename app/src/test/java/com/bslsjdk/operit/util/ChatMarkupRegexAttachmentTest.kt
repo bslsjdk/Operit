@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDaGF0TWFya3VwUmVnZXhBdHRhY2htZW50VGVzdCB7CgogICAgQFRlc3QgZnVuIGF0dGFjaG1lbnRUYWdfbWF0Y2hlc0V4cGxpY2l0QXR0YWNobWVudEJsb2NrKCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LmF0dGFjaG1lbnRUYWcuY29udGFpbnNNYXRjaEluKCI8YXR0YWNobWVudCBpZD1cIjFcIj5hPC9hdHRhY2htZW50PiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBhdHRhY2htZW50U2VsZkNsb3NpbmdUYWdfbWF0Y2hlc1NlbGZDbG9zaW5nQXR0YWNobWVudCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC5hdHRhY2htZW50U2VsZkNsb3NpbmdUYWcuY29udGFpbnNNYXRjaEluKCI8YXR0YWNobWVudCBpZD1cIjFcIiAvPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biB3b3Jrc3BhY2VBdHRhY2htZW50VGFnX21hdGNoZXNXb3Jrc3BhY2VCbG9jaygpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC53b3Jrc3BhY2VBdHRhY2htZW50VGFnLmNvbnRhaW5zTWF0Y2hJbigiPHdvcmtzcGFjZV9hdHRhY2htZW50PmRhdGE8L3dvcmtzcGFjZV9hdHRhY2htZW50PiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBwcm94eVNlbmRlclRhZ19leHRyYWN0c05hbWUoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJib3QiLCBDaGF0TWFya3VwUmVnZXgucHJveHlTZW5kZXJUYWcuZmluZCgiPHByb3h5X3NlbmRlciBuYW1lPVwiYm90XCIgLz4iKSEhLmdyb3VwVmFsdWVzWzFdKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMarkupRegexAttachmentTest {
+
+    @Test fun attachmentTag_matchesExplicitAttachmentBlock() {
+        assertTrue(ChatMarkupRegex.attachmentTag.containsMatchIn("<attachment id=\"1\">a</attachment>"))
+    }
+
+    @Test fun attachmentSelfClosingTag_matchesSelfClosingAttachment() {
+        assertTrue(ChatMarkupRegex.attachmentSelfClosingTag.containsMatchIn("<attachment id=\"1\" />"))
+    }
+
+    @Test fun workspaceAttachmentTag_matchesWorkspaceBlock() {
+        assertTrue(ChatMarkupRegex.workspaceAttachmentTag.containsMatchIn("<workspace_attachment>data</workspace_attachment>"))
+    }
+
+    @Test fun proxySenderTag_extractsName() {
+        assertEquals("bot", ChatMarkupRegex.proxySenderTag.find("<proxy_sender name=\"bot\" />")!!.groupValues[1])
+    }
+}

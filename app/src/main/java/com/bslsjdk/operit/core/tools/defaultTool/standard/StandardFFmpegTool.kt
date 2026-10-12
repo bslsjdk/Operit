@@ -1,1 +1,365 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5zdGFuZGFyZAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5GRm1wZWdSZXN1bHREYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5TdHJpbmdSZXN1bHREYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5Ub29sRXhlY3V0b3IKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFJVG9vbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFJlc3VsdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFZhbGlkYXRpb25SZXN1bHQKaW1wb3J0IGNvbS5hcnRoZW5pY2EuZmZtcGVna2l0LkZGbXBlZ0tpdAppbXBvcnQgY29tLmFydGhlbmljYS5mZm1wZWdraXQuRkZtcGVnS2l0Q29uZmlnCmltcG9ydCBjb20uYXJ0aGVuaWNhLmZmbXBlZ2tpdC5GRnByb2JlS2l0CmltcG9ydCBjb20uYXJ0aGVuaWNhLmZmbXBlZ2tpdC5SZXR1cm5Db2RlCmltcG9ydCBqYXZhLmlvLkZpbGUKCi8qKiBGRm1wZWflt6XlhbfmiafooYzlmagg5o+Q5L6b5aqS5L2T5paH5Lu25aSE55CG6IO95Yqb77yM5YyF5ous6L2s5o2i44CB6KOB5Ymq44CB5ZCI5bm2562J5Yqf6IO9ICovCmNsYXNzIFN0YW5kYXJkRkZtcGVnVG9vbEV4ZWN1dG9yKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIDogVG9vbEV4ZWN1dG9yIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJGRm1wZWdUb29sRXhlY3V0b3IiCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGludm9rZSh0b29sOiBBSVRvb2wpOiBUb29sUmVzdWx0IHsKICAgICAgICB2YWwgY29tbWFuZCA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAiY29tbWFuZCIgfT8udmFsdWUgPzogIiIKCiAgICAgICAgaWYgKGNvbW1hbmQuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICJDb21tYW5kIGNhbm5vdCBiZSBlbXB0eSIKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBzdGFydFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQoKICAgICAgICAgICAgLy8g5omn6KGMRkZtcGVn5ZG95LukCiAgICAgICAgICAgIHZhbCBzZXNzaW9uID0gRkZtcGVnS2l0LmV4ZWN1dGUoY29tbWFuZCkKICAgICAgICAgICAgdmFsIHJldHVybkNvZGUgPSBzZXNzaW9uLnJldHVybkNvZGUKICAgICAgICAgICAgdmFsIG91dHB1dCA9IHNlc3Npb24ub3V0cHV0ID86ICIiCiAgICAgICAgICAgIHZhbCBkdXJhdGlvbiA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnRUaW1lCgogICAgICAgICAgICBpZiAoUmV0dXJuQ29kZS5pc1N1Y2Nlc3MocmV0dXJuQ29kZSkpIHsKICAgICAgICAgICAgICAgIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBGRm1wZWdSZXN1bHREYXRhKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbWFuZCA9IGNvbW1hbmQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5Db2RlID0gcmV0dXJuQ29kZS52YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dHB1dCA9IG91dHB1dCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGR1cmF0aW9uID0gZHVyYXRpb24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZWxzZSBpZiAoUmV0dXJuQ29kZS5pc0NhbmNlbChyZXR1cm5Db2RlKSkgewogICAgICAgICAgICAgICAgVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yID0gIkZGbXBlZyBjb21tYW5kIHdhcyBjYW5jZWxsZWQiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiRkZtcGVnIGV4ZWN1dGlvbiBmYWlsZWQsIHJldHVybiBjb2RlOiAke3JldHVybkNvZGUudmFsdWV9XG5PdXRwdXQ6XG4kb3V0cHV0IgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgICAgIGVycm9yID0gIkZGbXBlZyBleGVjdXRpb24gZXhjZXB0aW9uOiAke2UubWVzc2FnZX0iCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHZhbGlkYXRlUGFyYW1ldGVycyh0b29sOiBBSVRvb2wpOiBUb29sVmFsaWRhdGlvblJlc3VsdCB7CiAgICAgICAgdmFsIGNvbW1hbmQgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gImNvbW1hbmQiIH0/LnZhbHVlCgogICAgICAgIGlmIChjb21tYW5kLmlzTnVsbE9yRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gVG9vbFZhbGlkYXRpb25SZXN1bHQodmFsaWQgPSBmYWxzZSwgZXJyb3JNZXNzYWdlID0gIk11c3QgcHJvdmlkZSBjb21tYW5kIHBhcmFtZXRlciIpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gVG9vbFZhbGlkYXRpb25SZXN1bHQodmFsaWQgPSB0cnVlKQogICAgfQp9CgovKiogRkZtcGVn5L+h5oGv5bel5YW35omn6KGM5ZmoIOiOt+WPluacieWFs+ezu+e7n0ZGbXBlZ+mFjee9rueahOS/oeaBryAqLwpjbGFzcyBTdGFuZGFyZEZGbXBlZ0luZm9Ub29sRXhlY3V0b3IgOiBUb29sRXhlY3V0b3IgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkZGbXBlZ0luZm9Ub29sRXhlY3V0b3IiCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGludm9rZSh0b29sOiBBSVRvb2wpOiBUb29sUmVzdWx0IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGluZm8gPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICAgICAgdmFsIHN0YXJ0VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCgogICAgICAgICAgICAvLyDojrflj5ZGRm1wZWfniYjmnKzkv6Hmga8KICAgICAgICAgICAgaW5mby5hcHBlbmRMaW5lKCJGRm1wZWcgdmVyc2lvbjogJHtGRm1wZWdLaXRDb25maWcuZ2V0VmVyc2lvbigpfSIpCiAgICAgICAgICAgIGluZm8uYXBwZW5kTGluZSgiQnVpbGQgY29uZmlndXJhdGlvbjogJHtGRm1wZWdLaXRDb25maWcuZ2V0QnVpbGREYXRlKCl9IikKCiAgICAgICAgICAgIC8vIOWIl+WHuuaUr+aMgeeahOe8luino+eggeWZqAogICAgICAgICAgICB2YWwgY29kZWNzU2Vzc2lvbiA9IEZGbXBlZ0tpdC5leGVjdXRlKCItY29kZWNzIikKICAgICAgICAgICAgdmFsIGNvZGVjc091dHB1dCA9IGNvZGVjc1Nlc3Npb24ub3V0cHV0ID86ICIiCiAgICAgICAgICAgIHZhbCBkdXJhdGlvbiA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnRUaW1lCgogICAgICAgICAgICBpbmZvLmFwcGVuZExpbmUoIlxuU3VwcG9ydGVkIGNvZGVjczoiKQogICAgICAgICAgICBpbmZvLmFwcGVuZExpbmUoY29kZWNzT3V0cHV0KQoKICAgICAgICAgICAgVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgRkZtcGVnUmVzdWx0RGF0YSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tbWFuZCA9ICItY29kZWNzIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQ29kZSA9IGNvZGVjc1Nlc3Npb24ucmV0dXJuQ29kZS52YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0ID0gaW5mby50b1N0cmluZygpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkdXJhdGlvbiA9IGR1cmF0aW9uCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiRmFpbGVkIHRvIGdldCBGRm1wZWcgaW5mbzogJHtlLm1lc3NhZ2V9IgogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biB2YWxpZGF0ZVBhcmFtZXRlcnModG9vbDogQUlUb29sKTogVG9vbFZhbGlkYXRpb25SZXN1bHQgewogICAgICAgIC8vIOS4jemcgOimgeWPguaVsAogICAgICAgIHJldHVybiBUb29sVmFsaWRhdGlvblJlc3VsdCh2YWxpZCA9IHRydWUpCiAgICB9Cn0KCi8qKiBGRm1wZWfovazmjaLop4bpopHlt6XlhbfmiafooYzlmagg5o+Q5L6b5LiA5Liq566A5YyW55qE5o6l5Y+j55So5LqO5bi46KeB55qE6KeG6aKR6L2s5o2i5pON5L2cICovCmNsYXNzIFN0YW5kYXJkRkZtcGVnQ29udmVydFRvb2xFeGVjdXRvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IFRvb2xFeGVjdXRvciB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiRkZtcGVnQ29udmVydFRvb2xFeGVjdXRvciIKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaW52b2tlKHRvb2w6IEFJVG9vbCk6IFRvb2xSZXN1bHQgewogICAgICAgIHZhbCBpbnB1dFBhdGggPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gImlucHV0X3BhdGgiIH0/LnZhbHVlID86ICIiCiAgICAgICAgdmFsIG91dHB1dFBhdGggPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gIm91dHB1dF9wYXRoIiB9Py52YWx1ZSA/OiAiIgogICAgICAgIHZhbCBmb3JtYXQgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gImZvcm1hdCIgfT8udmFsdWUKICAgICAgICB2YWwgcmVzb2x1dGlvbiA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAicmVzb2x1dGlvbiIgfT8udmFsdWUKICAgICAgICB2YWwgYml0cmF0ZSA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAiYml0cmF0ZSIgfT8udmFsdWUKICAgICAgICB2YWwgYXVkaW9Db2RlYyA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAiYXVkaW9fY29kZWMiIH0/LnZhbHVlCiAgICAgICAgdmFsIHZpZGVvQ29kZWMgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gInZpZGVvX2NvZGVjIiB9Py52YWx1ZQoKICAgICAgICBpZiAoaW5wdXRQYXRoLmlzRW1wdHkoKSB8fCBvdXRwdXRQYXRoLmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiSW5wdXQgcGF0aCBhbmQgb3V0cHV0IHBhdGggY2Fubm90IGJlIGVtcHR5IgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgaW5wdXRGaWxlID0gRmlsZShpbnB1dFBhdGgpCiAgICAgICAgaWYgKCFpbnB1dEZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgICAgIGVycm9yID0gIklucHV0IGZpbGUgZG9lcyBub3QgZXhpc3Q6ICRpbnB1dFBhdGgiCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIC8vIOaehOW7ukZGbXBlZ+WRveS7pAogICAgICAgIHZhbCBjb21tYW5kQnVpbGRlciA9IFN0cmluZ0J1aWxkZXIoIi1pIFwiJGlucHV0UGF0aFwiIikKCiAgICAgICAgLy8g5re75Yqg5Y+v6YCJ5Y+C5pWwCiAgICAgICAgaWYgKCF2aWRlb0NvZGVjLmlzTnVsbE9yRW1wdHkoKSkgewogICAgICAgICAgICBjb21tYW5kQnVpbGRlci5hcHBlbmQoIiAtYzp2ICR2aWRlb0NvZGVjIikKICAgICAgICB9CgogICAgICAgIGlmICghYXVkaW9Db2RlYy5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgY29tbWFuZEJ1aWxkZXIuYXBwZW5kKCIgLWM6YSAkYXVkaW9Db2RlYyIpCiAgICAgICAgfQoKICAgICAgICBpZiAoIXJlc29sdXRpb24uaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgIGNvbW1hbmRCdWlsZGVyLmFwcGVuZCgiIC1zICRyZXNvbHV0aW9uIikKICAgICAgICB9CgogICAgICAgIGlmICghYml0cmF0ZS5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgY29tbWFuZEJ1aWxkZXIuYXBwZW5kKCIgLWI6diAkYml0cmF0ZSIpCiAgICAgICAgfQoKICAgICAgICAvLyDmt7vliqDovpPlh7rmlofku7YKICAgICAgICBjb21tYW5kQnVpbGRlci5hcHBlbmQoIiBcIiRvdXRwdXRQYXRoXCIiKQoKICAgICAgICB2YWwgY29tbWFuZCA9IGNvbW1hbmRCdWlsZGVyLnRvU3RyaW5nKCkKCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBzdGFydFRpbWUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQoKICAgICAgICAgICAgLy8g5omn6KGMRkZtcGVn5ZG95LukCiAgICAgICAgICAgIHZhbCBzZXNzaW9uID0gRkZtcGVnS2l0LmV4ZWN1dGUoY29tbWFuZCkKICAgICAgICAgICAgdmFsIHJldHVybkNvZGUgPSBzZXNzaW9uLnJldHVybkNvZGUKICAgICAgICAgICAgdmFsIG91dHB1dCA9IHNlc3Npb24ub3V0cHV0ID86ICIiCiAgICAgICAgICAgIHZhbCBkdXJhdGlvbiA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gc3RhcnRUaW1lCgogICAgICAgICAgICBpZiAoUmV0dXJuQ29kZS5pc1N1Y2Nlc3MocmV0dXJuQ29kZSkpIHsKICAgICAgICAgICAgICAgIC8vIOiOt+WPlui+k+WHuuaWh+S7tueahOWqkuS9k+S/oeaBrwogICAgICAgICAgICAgICAgdmFsIG1lZGlhU2Vzc2lvbiA9IEZGcHJvYmVLaXQuZ2V0TWVkaWFJbmZvcm1hdGlvbihvdXRwdXRQYXRoKQogICAgICAgICAgICAgICAgdmFsIG1lZGlhSW5mbyA9IG1lZGlhU2Vzc2lvbj8ubWVkaWFJbmZvcm1hdGlvbgoKICAgICAgICAgICAgICAgIHZhbCBmZm1wZWdSZXN1bHQgPQogICAgICAgICAgICAgICAgICAgICAgICBpZiAobWVkaWFJbmZvICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB2aWRlb1N0cmVhbXMgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtZWRpYUluZm8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc3RyZWFtcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWx0ZXIgeyBpdC50eXBlLmVxdWFscygidmlkZW8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAgeyBzdHJlYW0gLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRkZtcGVnUmVzdWx0RGF0YS5TdHJlYW1JbmZvKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluZGV4ID0gc3RyZWFtLmluZGV4Py50b0ludCgpID86IDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29kZWNUeXBlID0gc3RyZWFtLnR5cGUgPzogInVua25vd24iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvZGVjTmFtZSA9IHN0cmVhbS5jb2RlYyA/OiAidW5rbm93biIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzb2x1dGlvbiA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiJHtzdHJlYW0ud2lkdGh9eCR7c3RyZWFtLmhlaWdodH0iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZyYW1lUmF0ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBudWxsIC8vIFdlJ2xsIGdldCB0aGlzIGZyb20gRkZwcm9iZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGlmIG5lZWRlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnRvTXV0YWJsZUxpc3QoKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhdWRpb1N0cmVhbXMgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtZWRpYUluZm8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc3RyZWFtcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWx0ZXIgeyBpdC50eXBlLmVxdWFscygiYXVkaW8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAgeyBzdHJlYW0gLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRkZtcGVnUmVzdWx0RGF0YS5TdHJlYW1JbmZvKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGluZGV4ID0gc3RyZWFtLmluZGV4Py50b0ludCgpID86IDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29kZWNUeXBlID0gc3RyZWFtLnR5cGUgPzogInVua25vd24iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvZGVjTmFtZSA9IHN0cmVhbS5jb2RlYyA/OiAidW5rbm93biIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2FtcGxlUmF0ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBudWxsLCAvLyBXZSdsbCBnZXQgdGhpcyBmcm9tIEZGcHJvYmUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBpZiBuZWVkZWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGFubmVscyA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBudWxsIC8vIFdlJ2xsIGdldCB0aGlzIGZyb20gRkZwcm9iZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIGlmIG5lZWRlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnRvTXV0YWJsZUxpc3QoKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIEdldCBhZGRpdGlvbmFsIG1lZGlhIGluZm9ybWF0aW9uIHVzaW5nIEZGcHJvYmUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBmZnByb2JlU2Vzc2lvbiA9IEZGcHJvYmVLaXQuZ2V0TWVkaWFJbmZvcm1hdGlvbihvdXRwdXRQYXRoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGZmcHJvYmVJbmZvID0gZmZwcm9iZVNlc3Npb24/Lm1lZGlhSW5mb3JtYXRpb24KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZmZwcm9iZUluZm8gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIFVwZGF0ZSBzdHJlYW0gaW5mb3JtYXRpb24gd2l0aCBGRnByb2JlIGRhdGEKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmZnByb2JlSW5mby5zdHJlYW1zLmZvckVhY2ggeyBwcm9iZVN0cmVhbSAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGVuIChwcm9iZVN0cmVhbS50eXBlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAidmlkZW8iIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgaW5kZXggPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlkZW9TdHJlYW1zLmluZGV4T2ZGaXJzdCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXQuaW5kZXggPT0gcHJvYmVTdHJlYW0uaW5kZXg/LnRvSW50KCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoaW5kZXggIT0gLTEpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHN0cmVhbSA9IHZpZGVvU3RyZWFtc1tpbmRleF0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlkZW9TdHJlYW1zW2luZGV4XSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RyZWFtLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmcmFtZVJhdGUgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm9iZVN0cmVhbQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5hbGxQcm9wZXJ0aWVzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPy5nZXQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAicl9mcmFtZV9yYXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/LnRvU3RyaW5nKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImF1ZGlvIiAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGluZGV4ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF1ZGlvU3RyZWFtcy5pbmRleE9mRmlyc3QgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGl0LmluZGV4ID09IHByb2JlU3RyZWFtLmluZGV4Py50b0ludCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGluZGV4ICE9IC0xKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBzdHJlYW0gPSBhdWRpb1N0cmVhbXNbaW5kZXhdCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF1ZGlvU3RyZWFtc1tpbmRleF0gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0cmVhbS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2FtcGxlUmF0ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb2JlU3RyZWFtCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmFsbFByb3BlcnRpZXMKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/LmdldCgic2FtcGxlX3JhdGUiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID8udG9TdHJpbmcoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoYW5uZWxzID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvYmVTdHJlYW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYWxsUHJvcGVydGllcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID8uZ2V0KCJjaGFubmVscyIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPy50b1N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPy50b0ludE9yTnVsbCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBGRm1wZWdSZXN1bHREYXRhKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb21tYW5kID0gY29tbWFuZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQ29kZSA9IHJldHVybkNvZGUudmFsdWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dHB1dCA9IG91dHB1dCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZHVyYXRpb24gPSBkdXJhdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0RmlsZSA9IG91dHB1dFBhdGgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1lZGlhSW5mbyA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRkZtcGVnUmVzdWx0RGF0YS5NZWRpYUluZm8oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3JtYXQgPSBtZWRpYUluZm8uZm9ybWF0ID86ICJ1bmtub3duIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGR1cmF0aW9uID0gbWVkaWFJbmZvLmR1cmF0aW9uID86ICIwIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJpdHJhdGUgPSBtZWRpYUluZm8uYml0cmF0ZSA/OiAiMCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2aWRlb1N0cmVhbXMgPSB2aWRlb1N0cmVhbXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhdWRpb1N0cmVhbXMgPSBhdWRpb1N0cmVhbXMKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBGRm1wZWdSZXN1bHREYXRhKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb21tYW5kID0gY29tbWFuZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQ29kZSA9IHJldHVybkNvZGUudmFsdWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dHB1dCA9IG91dHB1dCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZHVyYXRpb24gPSBkdXJhdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0RmlsZSA9IG91dHB1dFBhdGgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIFRvb2xSZXN1bHQodG9vbE5hbWUgPSB0b29sLm5hbWUsIHN1Y2Nlc3MgPSB0cnVlLCByZXN1bHQgPSBmZm1wZWdSZXN1bHQpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiVmlkZW8gY29udmVyc2lvbiBmYWlsZWQsIHJldHVybiBjb2RlOiAke3JldHVybkNvZGUudmFsdWV9XG5Db21tYW5kOiAkY29tbWFuZFxuT3V0cHV0OlxuJG91dHB1dCIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICJWaWRlbyBjb252ZXJzaW9uIGV4Y2VwdGlvbjogJHtlLm1lc3NhZ2V9XG5Db21tYW5kOiAkY29tbWFuZCIKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gdmFsaWRhdGVQYXJhbWV0ZXJzKHRvb2w6IEFJVG9vbCk6IFRvb2xWYWxpZGF0aW9uUmVzdWx0IHsKICAgICAgICB2YWwgaW5wdXRQYXRoID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJpbnB1dF9wYXRoIiB9Py52YWx1ZQogICAgICAgIHZhbCBvdXRwdXRQYXRoID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJvdXRwdXRfcGF0aCIgfT8udmFsdWUKCiAgICAgICAgaWYgKGlucHV0UGF0aC5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIFRvb2xWYWxpZGF0aW9uUmVzdWx0KHZhbGlkID0gZmFsc2UsIGVycm9yTWVzc2FnZSA9ICJNdXN0IHByb3ZpZGUgaW5wdXRfcGF0aCBwYXJhbWV0ZXIiKQogICAgICAgIH0KCiAgICAgICAgaWYgKG91dHB1dFBhdGguaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sVmFsaWRhdGlvblJlc3VsdCh2YWxpZCA9IGZhbHNlLCBlcnJvck1lc3NhZ2UgPSAiTXVzdCBwcm92aWRlIG91dHB1dF9wYXRoIHBhcmFtZXRlciIpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gVG9vbFZhbGlkYXRpb25SZXN1bHQodmFsaWQgPSB0cnVlKQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.standard
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.FFmpegResultData
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.core.tools.ToolExecutor
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.data.model.ToolValidationResult
+import com.arthenica.ffmpegkit.FFmpegKit
+import com.arthenica.ffmpegkit.FFmpegKitConfig
+import com.arthenica.ffmpegkit.FFprobeKit
+import com.arthenica.ffmpegkit.ReturnCode
+import java.io.File
+
+/** FFmpeg工具执行器 提供媒体文件处理能力，包括转换、裁剪、合并等功能 */
+class StandardFFmpegToolExecutor(private val context: Context) : ToolExecutor {
+    companion object {
+        private const val TAG = "FFmpegToolExecutor"
+    }
+
+    override fun invoke(tool: AITool): ToolResult {
+        val command = tool.parameters.find { it.name == "command" }?.value ?: ""
+
+        if (command.isEmpty()) {
+            return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Command cannot be empty"
+            )
+        }
+
+        return try {
+            val startTime = System.currentTimeMillis()
+
+            // 执行FFmpeg命令
+            val session = FFmpegKit.execute(command)
+            val returnCode = session.returnCode
+            val output = session.output ?: ""
+            val duration = System.currentTimeMillis() - startTime
+
+            if (ReturnCode.isSuccess(returnCode)) {
+                ToolResult(
+                        toolName = tool.name,
+                        success = true,
+                        result =
+                                FFmpegResultData(
+                                        command = command,
+                                        returnCode = returnCode.value,
+                                        output = output,
+                                        duration = duration
+                                )
+                )
+            } else if (ReturnCode.isCancel(returnCode)) {
+                ToolResult(
+                        toolName = tool.name,
+                        success = false,
+                        result = StringResultData(""),
+                        error = "FFmpeg command was cancelled"
+                )
+            } else {
+                ToolResult(
+                        toolName = tool.name,
+                        success = false,
+                        result = StringResultData(""),
+                        error = "FFmpeg execution failed, return code: ${returnCode.value}\nOutput:\n$output"
+                )
+            }
+        } catch (e: Exception) {
+            ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "FFmpeg execution exception: ${e.message}"
+            )
+        }
+    }
+
+    override fun validateParameters(tool: AITool): ToolValidationResult {
+        val command = tool.parameters.find { it.name == "command" }?.value
+
+        if (command.isNullOrEmpty()) {
+            return ToolValidationResult(valid = false, errorMessage = "Must provide command parameter")
+        }
+
+        return ToolValidationResult(valid = true)
+    }
+}
+
+/** FFmpeg信息工具执行器 获取有关系统FFmpeg配置的信息 */
+class StandardFFmpegInfoToolExecutor : ToolExecutor {
+    companion object {
+        private const val TAG = "FFmpegInfoToolExecutor"
+    }
+
+    override fun invoke(tool: AITool): ToolResult {
+        return try {
+            val info = StringBuilder()
+            val startTime = System.currentTimeMillis()
+
+            // 获取FFmpeg版本信息
+            info.appendLine("FFmpeg version: ${FFmpegKitConfig.getVersion()}")
+            info.appendLine("Build configuration: ${FFmpegKitConfig.getBuildDate()}")
+
+            // 列出支持的编解码器
+            val codecsSession = FFmpegKit.execute("-codecs")
+            val codecsOutput = codecsSession.output ?: ""
+            val duration = System.currentTimeMillis() - startTime
+
+            info.appendLine("\nSupported codecs:")
+            info.appendLine(codecsOutput)
+
+            ToolResult(
+                    toolName = tool.name,
+                    success = true,
+                    result =
+                            FFmpegResultData(
+                                    command = "-codecs",
+                                    returnCode = codecsSession.returnCode.value,
+                                    output = info.toString(),
+                                    duration = duration
+                            )
+            )
+        } catch (e: Exception) {
+            ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Failed to get FFmpeg info: ${e.message}"
+            )
+        }
+    }
+
+    override fun validateParameters(tool: AITool): ToolValidationResult {
+        // 不需要参数
+        return ToolValidationResult(valid = true)
+    }
+}
+
+/** FFmpeg转换视频工具执行器 提供一个简化的接口用于常见的视频转换操作 */
+class StandardFFmpegConvertToolExecutor(private val context: Context) : ToolExecutor {
+    companion object {
+        private const val TAG = "FFmpegConvertToolExecutor"
+    }
+
+    override fun invoke(tool: AITool): ToolResult {
+        val inputPath = tool.parameters.find { it.name == "input_path" }?.value ?: ""
+        val outputPath = tool.parameters.find { it.name == "output_path" }?.value ?: ""
+        val format = tool.parameters.find { it.name == "format" }?.value
+        val resolution = tool.parameters.find { it.name == "resolution" }?.value
+        val bitrate = tool.parameters.find { it.name == "bitrate" }?.value
+        val audioCodec = tool.parameters.find { it.name == "audio_codec" }?.value
+        val videoCodec = tool.parameters.find { it.name == "video_codec" }?.value
+
+        if (inputPath.isEmpty() || outputPath.isEmpty()) {
+            return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Input path and output path cannot be empty"
+            )
+        }
+
+        val inputFile = File(inputPath)
+        if (!inputFile.exists()) {
+            return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Input file does not exist: $inputPath"
+            )
+        }
+
+        // 构建FFmpeg命令
+        val commandBuilder = StringBuilder("-i \"$inputPath\"")
+
+        // 添加可选参数
+        if (!videoCodec.isNullOrEmpty()) {
+            commandBuilder.append(" -c:v $videoCodec")
+        }
+
+        if (!audioCodec.isNullOrEmpty()) {
+            commandBuilder.append(" -c:a $audioCodec")
+        }
+
+        if (!resolution.isNullOrEmpty()) {
+            commandBuilder.append(" -s $resolution")
+        }
+
+        if (!bitrate.isNullOrEmpty()) {
+            commandBuilder.append(" -b:v $bitrate")
+        }
+
+        // 添加输出文件
+        commandBuilder.append(" \"$outputPath\"")
+
+        val command = commandBuilder.toString()
+
+        return try {
+            val startTime = System.currentTimeMillis()
+
+            // 执行FFmpeg命令
+            val session = FFmpegKit.execute(command)
+            val returnCode = session.returnCode
+            val output = session.output ?: ""
+            val duration = System.currentTimeMillis() - startTime
+
+            if (ReturnCode.isSuccess(returnCode)) {
+                // 获取输出文件的媒体信息
+                val mediaSession = FFprobeKit.getMediaInformation(outputPath)
+                val mediaInfo = mediaSession?.mediaInformation
+
+                val ffmpegResult =
+                        if (mediaInfo != null) {
+                            val videoStreams =
+                                    mediaInfo
+                                            .streams
+                                            .filter { it.type.equals("video", ignoreCase = true) }
+                                            .map { stream ->
+                                                FFmpegResultData.StreamInfo(
+                                                        index = stream.index?.toInt() ?: 0,
+                                                        codecType = stream.type ?: "unknown",
+                                                        codecName = stream.codec ?: "unknown",
+                                                        resolution =
+                                                                "${stream.width}x${stream.height}",
+                                                        frameRate =
+                                                                null // We'll get this from FFprobe
+                                                        // if needed
+                                                        )
+                                            }
+                                            .toMutableList()
+
+                            val audioStreams =
+                                    mediaInfo
+                                            .streams
+                                            .filter { it.type.equals("audio", ignoreCase = true) }
+                                            .map { stream ->
+                                                FFmpegResultData.StreamInfo(
+                                                        index = stream.index?.toInt() ?: 0,
+                                                        codecType = stream.type ?: "unknown",
+                                                        codecName = stream.codec ?: "unknown",
+                                                        sampleRate =
+                                                                null, // We'll get this from FFprobe
+                                                        // if needed
+                                                        channels =
+                                                                null // We'll get this from FFprobe
+                                                        // if needed
+                                                        )
+                                            }
+                                            .toMutableList()
+
+                            // Get additional media information using FFprobe
+                            val ffprobeSession = FFprobeKit.getMediaInformation(outputPath)
+                            val ffprobeInfo = ffprobeSession?.mediaInformation
+
+                            if (ffprobeInfo != null) {
+                                // Update stream information with FFprobe data
+                                ffprobeInfo.streams.forEach { probeStream ->
+                                    when (probeStream.type) {
+                                        "video" -> {
+                                            val index =
+                                                    videoStreams.indexOfFirst {
+                                                        it.index == probeStream.index?.toInt()
+                                                    }
+                                            if (index != -1) {
+                                                val stream = videoStreams[index]
+                                                videoStreams[index] =
+                                                        stream.copy(
+                                                                frameRate =
+                                                                        probeStream
+                                                                                .allProperties
+                                                                                ?.get(
+                                                                                        "r_frame_rate"
+                                                                                )
+                                                                                ?.toString()
+                                                        )
+                                            }
+                                        }
+                                        "audio" -> {
+                                            val index =
+                                                    audioStreams.indexOfFirst {
+                                                        it.index == probeStream.index?.toInt()
+                                                    }
+                                            if (index != -1) {
+                                                val stream = audioStreams[index]
+                                                audioStreams[index] =
+                                                        stream.copy(
+                                                                sampleRate =
+                                                                        probeStream
+                                                                                .allProperties
+                                                                                ?.get("sample_rate")
+                                                                                ?.toString(),
+                                                                channels =
+                                                                        probeStream
+                                                                                .allProperties
+                                                                                ?.get("channels")
+                                                                                ?.toString()
+                                                                                ?.toIntOrNull()
+                                                        )
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            FFmpegResultData(
+                                    command = command,
+                                    returnCode = returnCode.value,
+                                    output = output,
+                                    duration = duration,
+                                    outputFile = outputPath,
+                                    mediaInfo =
+                                            FFmpegResultData.MediaInfo(
+                                                    format = mediaInfo.format ?: "unknown",
+                                                    duration = mediaInfo.duration ?: "0",
+                                                    bitrate = mediaInfo.bitrate ?: "0",
+                                                    videoStreams = videoStreams,
+                                                    audioStreams = audioStreams
+                                            )
+                            )
+                        } else {
+                            FFmpegResultData(
+                                    command = command,
+                                    returnCode = returnCode.value,
+                                    output = output,
+                                    duration = duration,
+                                    outputFile = outputPath
+                            )
+                        }
+
+                ToolResult(toolName = tool.name, success = true, result = ffmpegResult)
+            } else {
+                ToolResult(
+                        toolName = tool.name,
+                        success = false,
+                        result = StringResultData(""),
+                        error = "Video conversion failed, return code: ${returnCode.value}\nCommand: $command\nOutput:\n$output"
+                )
+            }
+        } catch (e: Exception) {
+            ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Video conversion exception: ${e.message}\nCommand: $command"
+            )
+        }
+    }
+
+    override fun validateParameters(tool: AITool): ToolValidationResult {
+        val inputPath = tool.parameters.find { it.name == "input_path" }?.value
+        val outputPath = tool.parameters.find { it.name == "output_path" }?.value
+
+        if (inputPath.isNullOrEmpty()) {
+            return ToolValidationResult(valid = false, errorMessage = "Must provide input_path parameter")
+        }
+
+        if (outputPath.isNullOrEmpty()) {
+            return ToolValidationResult(valid = false, errorMessage = "Must provide output_path parameter")
+        }
+
+        return ToolValidationResult(valid = true)
+    }
+}

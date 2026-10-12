@@ -1,1 +1,111 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuTW9kZWxDb25maWdNYW5hZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy5NdXRleAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMud2l0aExvY2sKCi8qKgogKiBBUEnlr4bpkqXmj5DkvpvnqIvluo/mjqXlj6MKICog5oq96LGh5LqGQVBJ5a+G6ZKl55qE6I635Y+W6YC76L6R77yM5Lul5pSv5oyB5Y2V5Liq5a+G6ZKl5ZKM5a+G6ZKl5rGg6L2u6K+i44CCCiAqLwppbnRlcmZhY2UgQXBpS2V5UHJvdmlkZXIgewogICAgLyoqIOiOt+WPluW9k+WJjeWPr+eUqOeahEFQSSBLZXkgKi8KICAgIHN1c3BlbmQgZnVuIGdldEFwaUtleSgpOiBTdHJpbmcKCiAgICAvKiog6I635Y+W5b2T5YmN5Lya5Y+C5LiO6L2u6K+i55qEQVBJIEtleeaVsOmHjyAqLwogICAgc3VzcGVuZCBmdW4gZ2V0Q2FuZGlkYXRlS2V5Q291bnQoKTogSW50Cn0KCi8qKgogKiDljZXkuKpBUEkgS2V555qE566A5Y2V5o+Q5L6b56iL5bqP77yM55So5LqO5YW85a655pen6YWN572u44CCCiAqLwpjbGFzcyBTaW5nbGVBcGlLZXlQcm92aWRlcihwcml2YXRlIHZhbCBhcGlLZXk6IFN0cmluZykgOiBBcGlLZXlQcm92aWRlciB7CiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBnZXRBcGlLZXkoKTogU3RyaW5nIHsKICAgICAgICBBcHBMb2dnZXIuZCgiQXBpS2V5UHJvdmlkZXIiLCAiVXNpbmcgc2luZ2xlIEFQSSBrZXk6ICR7YXBpS2V5LnRha2UoNCl9Li4uJHthcGlLZXkudGFrZUxhc3QoNCl9IikKICAgICAgICByZXR1cm4gYXBpS2V5CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZ2V0Q2FuZGlkYXRlS2V5Q291bnQoKTogSW50ID0gaWYgKGFwaUtleS5pc05vdEJsYW5rKCkpIDEgZWxzZSAwCn0KCi8qKgogKiDlpJpBUEkgS2V55o+Q5L6b56iL5bqP77yM5a6e546w5a+G6ZKl55qE6L2u6K+i5ZKM54q25oCB566h55CG44CCCiAqIEBwYXJhbSBjb25maWdJZCDphY3nva5JRAogKiBAcGFyYW0gbW9kZWxDb25maWdNYW5hZ2VyIOeUqOS6juivu+WPluWSjOabtOaWsOaooeWei+mFjee9rueahOeuoeeQhuWZqAogKi8KY2xhc3MgTXVsdGlBcGlLZXlQcm92aWRlcigKICAgIHByaXZhdGUgdmFsIGNvbmZpZ0lkOiBTdHJpbmcsCiAgICBwcml2YXRlIHZhbCBtb2RlbENvbmZpZ01hbmFnZXI6IE1vZGVsQ29uZmlnTWFuYWdlcgopIDogQXBpS2V5UHJvdmlkZXIgewogICAgcHJpdmF0ZSB2YWwgbXV0ZXggPSBNdXRleCgpCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZ2V0QXBpS2V5KCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIG11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgdmFsIGNvbmZpZyA9IG1vZGVsQ29uZmlnTWFuYWdlci5nZXRNb2RlbENvbmZpZyhjb25maWdJZCkKICAgICAgICAgICAgICAgID86IHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiQ29uZmlnIHdpdGggSUQgJGNvbmZpZ0lkIG5vdCBmb3VuZCIpCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDnrZvpgInlh7rlkK/nlKjnmoRrZXkKICAgICAgICAgICAgdmFsIGVuYWJsZWRLZXlzID0gY29uZmlnLmFwaUtleVBvb2wuZmlsdGVyIHsgaXQuaXNFbmFibGVkIH0KICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIkFwaUtleVByb3ZpZGVyIiwgIkNvbmZpZyAke2NvbmZpZy5uYW1lfTogRm91bmQgJHtlbmFibGVkS2V5cy5zaXplfSBlbmFibGVkIGtleXMgb3V0IG9mICR7Y29uZmlnLmFwaUtleVBvb2wuc2l6ZX0gdG90YWwga2V5cyIpCgogICAgICAgICAgICB2YWwgaGFzQW55QXZhaWxhYmlsaXR5TWFyayA9IGVuYWJsZWRLZXlzLmFueSB7IGl0LmF2YWlsYWJpbGl0eVN0YXR1cyAhPSBBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMuVU5URVNURUQgfQogICAgICAgICAgICB2YWwgY2FuZGlkYXRlS2V5cyA9CiAgICAgICAgICAgICAgICBpZiAoaGFzQW55QXZhaWxhYmlsaXR5TWFyaykgewogICAgICAgICAgICAgICAgICAgIGVuYWJsZWRLZXlzLmZpbHRlciB7IGl0LmF2YWlsYWJpbGl0eVN0YXR1cyA9PSBBcGlLZXlBdmFpbGFiaWxpdHlTdGF0dXMuQVZBSUxBQkxFIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgZW5hYmxlZEtleXMKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIChjYW5kaWRhdGVLZXlzLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgaWYgKGhhc0FueUF2YWlsYWJpbGl0eU1hcmspIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgKICAgICAgICAgICAgICAgICAgICAgICAgIkFwaUtleVByb3ZpZGVyIiwKICAgICAgICAgICAgICAgICAgICAgICAgIkNvbmZpZyAke2NvbmZpZy5uYW1lfTogTm8gQVZBSUxBQkxFIGtleXMgZm91bmQgaW4gcG9vbC4gUGxlYXNlIHRlc3Qga2V5cyBvciBjbGVhciBhdmFpbGFiaWxpdHkgbWFya3MuIgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgICJObyBBVkFJTEFCTEUgQVBJIGtleXMgaW4gcG9vbCBmb3IgJHtjb25maWcubmFtZX0uIFBsZWFzZSB0ZXN0IGtleXMgb3IgY2xlYXIgYXZhaWxhYmlsaXR5IG1hcmtzLiIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyDlpoLmnpzmsaDkuLrnqbrvvIzlsJ3or5Xlm57pgIDliLDljZVrZXkKICAgICAgICAgICAgICAgIGlmIChjb25maWcuYXBpS2V5LmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKCJBcGlLZXlQcm92aWRlciIsICJDb25maWcgJHtjb25maWcubmFtZX06IE5vIGVuYWJsZWQga2V5cyBpbiBwb29sLCBmYWxsaW5nIGJhY2sgdG8gc2luZ2xlIEFQSSBrZXk6IHNrLS4uLiR7Y29uZmlnLmFwaUtleS50YWtlTGFzdCg0KX0iKQogICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoTG9jayBjb25maWcuYXBpS2V5CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgiQXBpS2V5UHJvdmlkZXIiLCAiQ29uZmlnICR7Y29uZmlnLm5hbWV9OiBBUEkga2V5IHBvb2wgaXMgZW1wdHkgb3IgYWxsIGtleXMgYXJlIGRpc2FibGVkLCBhbmQgbm8gZmFsbGJhY2sgQVBJIGtleSBpcyBhdmFpbGFibGUiKQogICAgICAgICAgICAgICAgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJBUEkga2V5IHBvb2wgZm9yICR7Y29uZmlnLm5hbWV9IGlzIGVtcHR5IG9yIGFsbCBrZXlzIGFyZSBkaXNhYmxlZCwgYW5kIG5vIGZhbGxiYWNrIEFQSSBrZXkgaXMgYXZhaWxhYmxlLiIpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOS7juW9k+WJjee0ouW8leW8gOWni+Wvu+aJvuS4i+S4gOS4quacieaViOeahGtleQogICAgICAgICAgICB2YWwgc3RhcnRJbmRleCA9IGNvbmZpZy5jdXJyZW50S2V5SW5kZXggJSBjYW5kaWRhdGVLZXlzLnNpemUKICAgICAgICAgICAgdmFsIHNlbGVjdGVkS2V5ID0gY2FuZGlkYXRlS2V5c1tzdGFydEluZGV4XQogICAgICAgICAgICAKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIkFwaUtleVByb3ZpZGVyIiwgIkNvbmZpZyAke2NvbmZpZy5uYW1lfTogVXNpbmcga2V5ICR7c3RhcnRJbmRleCArIDF9LyR7Y2FuZGlkYXRlS2V5cy5zaXplfSAtICcke3NlbGVjdGVkS2V5Lm5hbWV9JyAoc2stLi4uJHtzZWxlY3RlZEtleS5rZXkudGFrZUxhc3QoNCl9KSIpCgogICAgICAgICAgICAvLyDmm7TmlrDlubbkv53lrZjkuIvkuIDkuKrntKLlvJUKICAgICAgICAgICAgdmFsIG5leHRJbmRleCA9IChzdGFydEluZGV4ICsgMSkgJSBjYW5kaWRhdGVLZXlzLnNpemUKICAgICAgICAgICAgbW9kZWxDb25maWdNYW5hZ2VyLnVwZGF0ZUNvbmZpZ0tleUluZGV4KGNvbmZpZ0lkLCBuZXh0SW5kZXgpCgogICAgICAgICAgICBzZWxlY3RlZEtleS5rZXkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZ2V0Q2FuZGlkYXRlS2V5Q291bnQoKTogSW50IHsKICAgICAgICByZXR1cm4gbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgY29uZmlnID0gbW9kZWxDb25maWdNYW5hZ2VyLmdldE1vZGVsQ29uZmlnKGNvbmZpZ0lkKQogICAgICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJDb25maWcgd2l0aCBJRCAkY29uZmlnSWQgbm90IGZvdW5kIikKCiAgICAgICAgICAgIHZhbCBlbmFibGVkS2V5cyA9IGNvbmZpZy5hcGlLZXlQb29sLmZpbHRlciB7IGl0LmlzRW5hYmxlZCB9CiAgICAgICAgICAgIHZhbCBoYXNBbnlBdmFpbGFiaWxpdHlNYXJrID0gZW5hYmxlZEtleXMuYW55IHsgaXQuYXZhaWxhYmlsaXR5U3RhdHVzICE9IEFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cy5VTlRFU1RFRCB9CiAgICAgICAgICAgIHZhbCBjYW5kaWRhdGVLZXlzID0KICAgICAgICAgICAgICAgIGlmIChoYXNBbnlBdmFpbGFiaWxpdHlNYXJrKSB7CiAgICAgICAgICAgICAgICAgICAgZW5hYmxlZEtleXMuZmlsdGVyIHsgaXQuYXZhaWxhYmlsaXR5U3RhdHVzID09IEFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cy5BVkFJTEFCTEUgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBlbmFibGVkS2V5cwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgY2FuZGlkYXRlS2V5cy5zaXplCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.data.model.ApiKeyAvailabilityStatus
+import com.bslsjdk.operit.data.preferences.ModelConfigManager
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+/**
+ * API密钥提供程序接口
+ * 抽象了API密钥的获取逻辑，以支持单个密钥和密钥池轮询。
+ */
+interface ApiKeyProvider {
+    /** 获取当前可用的API Key */
+    suspend fun getApiKey(): String
+
+    /** 获取当前会参与轮询的API Key数量 */
+    suspend fun getCandidateKeyCount(): Int
+}
+
+/**
+ * 单个API Key的简单提供程序，用于兼容旧配置。
+ */
+class SingleApiKeyProvider(private val apiKey: String) : ApiKeyProvider {
+    override suspend fun getApiKey(): String {
+        AppLogger.d("ApiKeyProvider", "Using single API key: ${apiKey.take(4)}...${apiKey.takeLast(4)}")
+        return apiKey
+    }
+
+    override suspend fun getCandidateKeyCount(): Int = if (apiKey.isNotBlank()) 1 else 0
+}
+
+/**
+ * 多API Key提供程序，实现密钥的轮询和状态管理。
+ * @param configId 配置ID
+ * @param modelConfigManager 用于读取和更新模型配置的管理器
+ */
+class MultiApiKeyProvider(
+    private val configId: String,
+    private val modelConfigManager: ModelConfigManager
+) : ApiKeyProvider {
+    private val mutex = Mutex()
+
+    override suspend fun getApiKey(): String {
+        return mutex.withLock {
+            val config = modelConfigManager.getModelConfig(configId)
+                ?: throw IllegalStateException("Config with ID $configId not found")
+            
+            // 筛选出启用的key
+            val enabledKeys = config.apiKeyPool.filter { it.isEnabled }
+            AppLogger.d("ApiKeyProvider", "Config ${config.name}: Found ${enabledKeys.size} enabled keys out of ${config.apiKeyPool.size} total keys")
+
+            val hasAnyAvailabilityMark = enabledKeys.any { it.availabilityStatus != ApiKeyAvailabilityStatus.UNTESTED }
+            val candidateKeys =
+                if (hasAnyAvailabilityMark) {
+                    enabledKeys.filter { it.availabilityStatus == ApiKeyAvailabilityStatus.AVAILABLE }
+                } else {
+                    enabledKeys
+                }
+            
+            if (candidateKeys.isEmpty()) {
+                if (hasAnyAvailabilityMark) {
+                    AppLogger.e(
+                        "ApiKeyProvider",
+                        "Config ${config.name}: No AVAILABLE keys found in pool. Please test keys or clear availability marks."
+                    )
+                    throw IllegalStateException(
+                        "No AVAILABLE API keys in pool for ${config.name}. Please test keys or clear availability marks."
+                    )
+                }
+                // 如果池为空，尝试回退到单key
+                if (config.apiKey.isNotBlank()) {
+                    AppLogger.d("ApiKeyProvider", "Config ${config.name}: No enabled keys in pool, falling back to single API key: sk-...${config.apiKey.takeLast(4)}")
+                    return@withLock config.apiKey
+                }
+                AppLogger.e("ApiKeyProvider", "Config ${config.name}: API key pool is empty or all keys are disabled, and no fallback API key is available")
+                throw IllegalStateException("API key pool for ${config.name} is empty or all keys are disabled, and no fallback API key is available.")
+            }
+
+            // 从当前索引开始寻找下一个有效的key
+            val startIndex = config.currentKeyIndex % candidateKeys.size
+            val selectedKey = candidateKeys[startIndex]
+            
+            AppLogger.d("ApiKeyProvider", "Config ${config.name}: Using key ${startIndex + 1}/${candidateKeys.size} - '${selectedKey.name}' (sk-...${selectedKey.key.takeLast(4)})")
+
+            // 更新并保存下一个索引
+            val nextIndex = (startIndex + 1) % candidateKeys.size
+            modelConfigManager.updateConfigKeyIndex(configId, nextIndex)
+
+            selectedKey.key
+        }
+    }
+
+    override suspend fun getCandidateKeyCount(): Int {
+        return mutex.withLock {
+            val config = modelConfigManager.getModelConfig(configId)
+                ?: throw IllegalStateException("Config with ID $configId not found")
+
+            val enabledKeys = config.apiKeyPool.filter { it.isEnabled }
+            val hasAnyAvailabilityMark = enabledKeys.any { it.availabilityStatus != ApiKeyAvailabilityStatus.UNTESTED }
+            val candidateKeys =
+                if (hasAnyAvailabilityMark) {
+                    enabledKeys.filter { it.availabilityStatus == ApiKeyAvailabilityStatus.AVAILABLE }
+                } else {
+                    enabledKeys
+                }
+
+            candidateKeys.size
+        }
+    }
+}

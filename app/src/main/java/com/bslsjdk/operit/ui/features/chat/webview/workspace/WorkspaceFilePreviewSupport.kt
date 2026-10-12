@@ -1,1 +1,198 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZQoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZC53ZWJraXQuTWltZVR5cGVNYXAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LndlYnZpZXcuTG9jYWxXZWJTZXJ2ZXIKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKcHJpdmF0ZSBjb25zdCB2YWwgTE9DQUxfV09SS1NQQUNFX0hPU1QgPSAiMTI3LjAuMC4xIgoKaW50ZXJuYWwgZnVuIHdvcmtzcGFjZU1pbWVUeXBlRm9yUGF0aChwYXRoOiBTdHJpbmcpOiBTdHJpbmcgewogICAgdmFsIGV4dGVuc2lvbiA9IHBhdGguc3Vic3RyaW5nQWZ0ZXJMYXN0KCcuJywgIiIpLmxvd2VyY2FzZShMb2NhbGUuUk9PVCkKICAgIGlmIChleHRlbnNpb24uaXNCbGFuaygpKSByZXR1cm4gImFwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSIKCiAgICByZXR1cm4gd2hlbiAoZXh0ZW5zaW9uKSB7CiAgICAgICAgImh0bWwiLCAiaHRtIiAtPiAidGV4dC9odG1sIgogICAgICAgICJjc3MiIC0+ICJ0ZXh0L2NzcyIKICAgICAgICAianMiLCAibWpzIiwgImNqcyIgLT4gImFwcGxpY2F0aW9uL2phdmFzY3JpcHQiCiAgICAgICAgImpzb24iIC0+ICJhcHBsaWNhdGlvbi9qc29uIgogICAgICAgICJ0eHQiLCAibWQiLCAibG9nIiAtPiAidGV4dC9wbGFpbiIKICAgICAgICAieG1sIiAtPiAiYXBwbGljYXRpb24veG1sIgogICAgICAgICJjc3YiIC0+ICJ0ZXh0L2NzdiIKICAgICAgICAieWFtbCIsICJ5bWwiIC0+ICJhcHBsaWNhdGlvbi95YW1sIgogICAgICAgICJwbmciIC0+ICJpbWFnZS9wbmciCiAgICAgICAgImpwZyIsICJqcGVnIiAtPiAiaW1hZ2UvanBlZyIKICAgICAgICAiZ2lmIiAtPiAiaW1hZ2UvZ2lmIgogICAgICAgICJibXAiIC0+ICJpbWFnZS9ibXAiCiAgICAgICAgIndlYnAiIC0+ICJpbWFnZS93ZWJwIgogICAgICAgICJzdmciIC0+ICJpbWFnZS9zdmcreG1sIgogICAgICAgICJoZWljIiAtPiAiaW1hZ2UvaGVpYyIKICAgICAgICAiaGVpZiIgLT4gImltYWdlL2hlaWYiCiAgICAgICAgIm1wMyIgLT4gImF1ZGlvL21wZWciCiAgICAgICAgIndhdiIgLT4gImF1ZGlvL3dhdiIKICAgICAgICAibTRhIiAtPiAiYXVkaW8vbXA0IgogICAgICAgICJhYWMiIC0+ICJhdWRpby9hYWMiCiAgICAgICAgIm9nZyIsICJvcHVzIiAtPiAiYXVkaW8vb2dnIgogICAgICAgICJmbGFjIiAtPiAiYXVkaW8vZmxhYyIKICAgICAgICAid2VibSIgLT4gInZpZGVvL3dlYm0iCiAgICAgICAgIm1wNCIsICJtNHYiIC0+ICJ2aWRlby9tcDQiCiAgICAgICAgIm1vdiIgLT4gInZpZGVvL3F1aWNrdGltZSIKICAgICAgICAibWt2IiAtPiAidmlkZW8veC1tYXRyb3NrYSIKICAgICAgICAiYXZpIiAtPiAidmlkZW8veC1tc3ZpZGVvIgogICAgICAgICIzZ3AiIC0+ICJ2aWRlby8zZ3BwIgogICAgICAgICJkb2MiIC0+ICJhcHBsaWNhdGlvbi9tc3dvcmQiCiAgICAgICAgImRvY3giIC0+ICJhcHBsaWNhdGlvbi92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQud29yZHByb2Nlc3NpbmdtbC5kb2N1bWVudCIKICAgICAgICAieGxzIiAtPiAiYXBwbGljYXRpb24vdm5kLm1zLWV4Y2VsIgogICAgICAgICJ4bHN4IiAtPiAiYXBwbGljYXRpb24vdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LnNwcmVhZHNoZWV0bWwuc2hlZXQiCiAgICAgICAgInBkZiIgLT4gImFwcGxpY2F0aW9uL3BkZiIKICAgICAgICBlbHNlIC0+IE1pbWVUeXBlTWFwLmdldFNpbmdsZXRvbigpLmdldE1pbWVUeXBlRnJvbUV4dGVuc2lvbihleHRlbnNpb24pCiAgICAgICAgICAgID86ICJhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0iCiAgICB9Cn0KCmludGVybmFsIHZhbCBPcGVuRmlsZUluZm8uaXNIdG1sOiBCb29sZWFuCiAgICBnZXQoKSA9IG5hbWUuZW5kc1dpdGgoIi5odG1sIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8IG5hbWUuZW5kc1dpdGgoIi5odG0iLCBpZ25vcmVDYXNlID0gdHJ1ZSkKCmludGVybmFsIHZhbCBPcGVuRmlsZUluZm8uaXNNYXJrZG93bjogQm9vbGVhbgogICAgZ2V0KCkgPSBuYW1lLmVuZHNXaXRoKCIubWQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICBuYW1lLmVuZHNXaXRoKCIubWFya2Rvd24iLCBpZ25vcmVDYXNlID0gdHJ1ZSkKCmludGVybmFsIHZhbCBPcGVuRmlsZUluZm8uaXNJbWFnZTogQm9vbGVhbgogICAgZ2V0KCkgPSByZXNvbHZlZE1pbWVUeXBlLnN0YXJ0c1dpdGgoImltYWdlLyIsIGlnbm9yZUNhc2UgPSB0cnVlKQoKaW50ZXJuYWwgdmFsIE9wZW5GaWxlSW5mby5pc0F1ZGlvOiBCb29sZWFuCiAgICBnZXQoKSA9IHJlc29sdmVkTWltZVR5cGUuc3RhcnRzV2l0aCgiYXVkaW8vIiwgaWdub3JlQ2FzZSA9IHRydWUpCgppbnRlcm5hbCB2YWwgT3BlbkZpbGVJbmZvLmlzVmlkZW86IEJvb2xlYW4KICAgIGdldCgpID0gcmVzb2x2ZWRNaW1lVHlwZS5zdGFydHNXaXRoKCJ2aWRlby8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkKCmludGVybmFsIHZhbCBPcGVuRmlsZUluZm8uaXNNZWRpYVByZXZpZXdhYmxlOiBCb29sZWFuCiAgICBnZXQoKSA9IGlzSW1hZ2UgfHwgaXNBdWRpbyB8fCBpc1ZpZGVvCgppbnRlcm5hbCB2YWwgT3BlbkZpbGVJbmZvLmlzUGRmOiBCb29sZWFuCiAgICBnZXQoKSA9IHJlc29sdmVkTWltZVR5cGUuZXF1YWxzKCJhcHBsaWNhdGlvbi9wZGYiLCBpZ25vcmVDYXNlID0gdHJ1ZSkKCmludGVybmFsIHZhbCBPcGVuRmlsZUluZm8uaXNXb3JkRG9jdW1lbnQ6IEJvb2xlYW4KICAgIGdldCgpID0gcmVzb2x2ZWRNaW1lVHlwZS5lcXVhbHMoImFwcGxpY2F0aW9uL21zd29yZCIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgIHJlc29sdmVkTWltZVR5cGUuZXF1YWxzKAogICAgICAgICAgICAiYXBwbGljYXRpb24vdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LndvcmRwcm9jZXNzaW5nbWwuZG9jdW1lbnQiLAogICAgICAgICAgICBpZ25vcmVDYXNlID0gdHJ1ZQogICAgICAgICkKCmludGVybmFsIHZhbCBPcGVuRmlsZUluZm8uaXNTcHJlYWRzaGVldERvY3VtZW50OiBCb29sZWFuCiAgICBnZXQoKSA9IHJlc29sdmVkTWltZVR5cGUuZXF1YWxzKCJhcHBsaWNhdGlvbi92bmQubXMtZXhjZWwiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICByZXNvbHZlZE1pbWVUeXBlLmVxdWFscygKICAgICAgICAgICAgImFwcGxpY2F0aW9uL3ZuZC5vcGVueG1sZm9ybWF0cy1vZmZpY2Vkb2N1bWVudC5zcHJlYWRzaGVldG1sLnNoZWV0IiwKICAgICAgICAgICAgaWdub3JlQ2FzZSA9IHRydWUKICAgICAgICApCgppbnRlcm5hbCB2YWwgT3BlbkZpbGVJbmZvLmlzUmVhZE9ubHlEb2N1bWVudFByZXZpZXdhYmxlOiBCb29sZWFuCiAgICBnZXQoKSA9IGlzUGRmIHx8IGlzV29yZERvY3VtZW50IHx8IGlzU3ByZWFkc2hlZXREb2N1bWVudAoKaW50ZXJuYWwgdmFsIE9wZW5GaWxlSW5mby5pc1JlYWRPbmx5UHJldmlldzogQm9vbGVhbgogICAgZ2V0KCkgPSBpc01lZGlhUHJldmlld2FibGUgfHwgaXNSZWFkT25seURvY3VtZW50UHJldmlld2FibGUKCmludGVybmFsIHZhbCBPcGVuRmlsZUluZm8ucmVzb2x2ZWRNaW1lVHlwZTogU3RyaW5nCiAgICBnZXQoKSA9IG1pbWVUeXBlLmlmQmxhbmsgeyB3b3Jrc3BhY2VNaW1lVHlwZUZvclBhdGgocGF0aCkgfQoKaW50ZXJuYWwgZnVuIHdvcmtzcGFjZVNob3VsZE9wZW5Bc0RpcmVjdFByZXZpZXcocGF0aDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICB2YWwgbWltZVR5cGUgPSB3b3Jrc3BhY2VNaW1lVHlwZUZvclBhdGgocGF0aCkKICAgIHJldHVybiBtaW1lVHlwZS5zdGFydHNXaXRoKCJpbWFnZS8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICBtaW1lVHlwZS5zdGFydHNXaXRoKCJhdWRpby8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICBtaW1lVHlwZS5zdGFydHNXaXRoKCJ2aWRlby8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICBtaW1lVHlwZS5lcXVhbHMoImFwcGxpY2F0aW9uL3BkZiIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgIG1pbWVUeXBlLmVxdWFscygiYXBwbGljYXRpb24vbXN3b3JkIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgbWltZVR5cGUuZXF1YWxzKAogICAgICAgICAgICAiYXBwbGljYXRpb24vdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LndvcmRwcm9jZXNzaW5nbWwuZG9jdW1lbnQiLAogICAgICAgICAgICBpZ25vcmVDYXNlID0gdHJ1ZQogICAgICAgICkgfHwKICAgICAgICBtaW1lVHlwZS5lcXVhbHMoImFwcGxpY2F0aW9uL3ZuZC5tcy1leGNlbCIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgIG1pbWVUeXBlLmVxdWFscygKICAgICAgICAgICAgImFwcGxpY2F0aW9uL3ZuZC5vcGVueG1sZm9ybWF0cy1vZmZpY2Vkb2N1bWVudC5zcHJlYWRzaGVldG1sLnNoZWV0IiwKICAgICAgICAgICAgaWdub3JlQ2FzZSA9IHRydWUKICAgICAgICApCn0KCmludGVybmFsIGZ1biBidWlsZFdvcmtzcGFjZVByZXZpZXdVcmkoCiAgICBmaWxlUGF0aDogU3RyaW5nLAogICAgd29ya3NwYWNlUm9vdFBhdGg6IFN0cmluZywKICAgIHdvcmtzcGFjZUVudjogU3RyaW5nPywKICAgIGNhY2hlQnVzdFRva2VuOiBTdHJpbmc/ID0gbnVsbAopOiBVcmk/IHsKICAgIHZhbCByZWxhdGl2ZVBhdGggPSByZXNvbHZlV29ya3NwYWNlUHJldmlld1JlbGF0aXZlUGF0aChmaWxlUGF0aCwgd29ya3NwYWNlUm9vdFBhdGgsIHdvcmtzcGFjZUVudikKICAgIGlmIChyZWxhdGl2ZVBhdGggIT0gbnVsbCkgewogICAgICAgIHZhbCBidWlsZGVyID0gVXJpLkJ1aWxkZXIoKQogICAgICAgICAgICAuc2NoZW1lKCJodHRwIikKICAgICAgICAgICAgLmVuY29kZWRBdXRob3JpdHkoIiRMT0NBTF9XT1JLU1BBQ0VfSE9TVDoke0xvY2FsV2ViU2VydmVyLldPUktTUEFDRV9QT1JUfSIpCiAgICAgICAgICAgIC5wYXRoKHJlbGF0aXZlUGF0aCkKICAgICAgICBpZiAoIWNhY2hlQnVzdFRva2VuLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICBidWlsZGVyLmFwcGVuZFF1ZXJ5UGFyYW1ldGVyKCJ2IiwgY2FjaGVCdXN0VG9rZW4pCiAgICAgICAgfQogICAgICAgIHJldHVybiBidWlsZGVyLmJ1aWxkKCkKICAgIH0KCiAgICBpZiAod29ya3NwYWNlRW52LmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgIHJldHVybiBVcmkuZnJvbUZpbGUoRmlsZShmaWxlUGF0aCkpCiAgICB9CgogICAgcmV0dXJuIG51bGwKfQoKcHJpdmF0ZSBmdW4gcmVzb2x2ZVdvcmtzcGFjZVByZXZpZXdSZWxhdGl2ZVBhdGgoCiAgICBmaWxlUGF0aDogU3RyaW5nLAogICAgd29ya3NwYWNlUm9vdFBhdGg6IFN0cmluZywKICAgIHdvcmtzcGFjZUVudjogU3RyaW5nPwopOiBTdHJpbmc/IHsKICAgIHJldHVybiBpZiAod29ya3NwYWNlRW52LmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgIHJlc29sdmVMb2NhbFdvcmtzcGFjZVJlbGF0aXZlUGF0aChmaWxlUGF0aCwgd29ya3NwYWNlUm9vdFBhdGgpCiAgICB9IGVsc2UgewogICAgICAgIHJlc29sdmVWaXJ0dWFsV29ya3NwYWNlUmVsYXRpdmVQYXRoKGZpbGVQYXRoLCB3b3Jrc3BhY2VSb290UGF0aCkKICAgIH0KfQoKcHJpdmF0ZSBmdW4gcmVzb2x2ZUxvY2FsV29ya3NwYWNlUmVsYXRpdmVQYXRoKGZpbGVQYXRoOiBTdHJpbmcsIHdvcmtzcGFjZVJvb3RQYXRoOiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgIHZhbCBjYW5vbmljYWxGaWxlID0gcnVuQ2F0Y2hpbmcgeyBGaWxlKGZpbGVQYXRoKS5jYW5vbmljYWxQYXRoLm5vcm1hbGl6ZVdvcmtzcGFjZVBhdGgoKSB9CiAgICAgICAgLmdldE9yRWxzZSB7IGZpbGVQYXRoLm5vcm1hbGl6ZVdvcmtzcGFjZVBhdGgoKSB9CiAgICB2YWwgY2Fub25pY2FsUm9vdCA9IHJ1bkNhdGNoaW5nIHsgRmlsZSh3b3Jrc3BhY2VSb290UGF0aCkuY2Fub25pY2FsUGF0aC5ub3JtYWxpemVXb3Jrc3BhY2VQYXRoKCkgfQogICAgICAgIC5nZXRPckVsc2UgeyB3b3Jrc3BhY2VSb290UGF0aC5ub3JtYWxpemVXb3Jrc3BhY2VQYXRoKCkgfQogICAgICAgIC50cmltRW5kKCcvJykKICAgICAgICAuaWZCbGFuayB7ICIvIiB9CgogICAgaWYgKGNhbm9uaWNhbEZpbGUgPT0gY2Fub25pY2FsUm9vdCkgewogICAgICAgIHJldHVybiAiLyIKICAgIH0KCiAgICByZXR1cm4gaWYgKGNhbm9uaWNhbEZpbGUuc3RhcnRzV2l0aCgiJGNhbm9uaWNhbFJvb3QvIikpIHsKICAgICAgICAiLyIgKyBjYW5vbmljYWxGaWxlLnJlbW92ZVByZWZpeCgiJGNhbm9uaWNhbFJvb3QvIikudHJpbVN0YXJ0KCcvJykKICAgIH0gZWxzZSB7CiAgICAgICAgbnVsbAogICAgfQp9Cgpwcml2YXRlIGZ1biByZXNvbHZlVmlydHVhbFdvcmtzcGFjZVJlbGF0aXZlUGF0aChmaWxlUGF0aDogU3RyaW5nLCB3b3Jrc3BhY2VSb290UGF0aDogU3RyaW5nKTogU3RyaW5nPyB7CiAgICB2YWwgbm9ybWFsaXplZEZpbGUgPSBmaWxlUGF0aC5ub3JtYWxpemVXb3Jrc3BhY2VQYXRoKCkKICAgIHZhbCBub3JtYWxpemVkUm9vdCA9IHdvcmtzcGFjZVJvb3RQYXRoLm5vcm1hbGl6ZVdvcmtzcGFjZVBhdGgoKS50cmltRW5kKCcvJykuaWZCbGFuayB7ICIvIiB9CgogICAgaWYgKG5vcm1hbGl6ZWRGaWxlID09IG5vcm1hbGl6ZWRSb290KSB7CiAgICAgICAgcmV0dXJuICIvIgogICAgfQoKICAgIHJldHVybiBpZiAobm9ybWFsaXplZFJvb3QgPT0gIi8iKSB7CiAgICAgICAgbm9ybWFsaXplZEZpbGUuZW5zdXJlTGVhZGluZ1NsYXNoKCkKICAgIH0gZWxzZSBpZiAobm9ybWFsaXplZEZpbGUuc3RhcnRzV2l0aCgiJG5vcm1hbGl6ZWRSb290LyIpKSB7CiAgICAgICAgIi8iICsgbm9ybWFsaXplZEZpbGUucmVtb3ZlUHJlZml4KCIkbm9ybWFsaXplZFJvb3QvIikudHJpbVN0YXJ0KCcvJykKICAgIH0gZWxzZSB7CiAgICAgICAgbnVsbAogICAgfQp9Cgpwcml2YXRlIGZ1biBTdHJpbmcubm9ybWFsaXplV29ya3NwYWNlUGF0aCgpOiBTdHJpbmcgewogICAgdmFsIHdpdGhGb3J3YXJkU2xhc2ggPSByZXBsYWNlKCdcXCcsICcvJykKICAgIHZhbCBjb2xsYXBzZWQgPSB3aXRoRm9yd2FyZFNsYXNoLnJlcGxhY2UoUmVnZXgoIi8rIiksICIvIikKICAgIHJldHVybiBjb2xsYXBzZWQuZW5zdXJlTGVhZGluZ1NsYXNoKCkKfQoKcHJpdmF0ZSBmdW4gU3RyaW5nLmVuc3VyZUxlYWRpbmdTbGFzaCgpOiBTdHJpbmcgewogICAgcmV0dXJuIGlmIChzdGFydHNXaXRoKCIvIikpIHRoaXMgZWxzZSAiLyR0aGlzIgp9Cg==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace
+
+import android.net.Uri
+import android.webkit.MimeTypeMap
+import com.bslsjdk.operit.ui.features.chat.webview.LocalWebServer
+import java.io.File
+import java.util.Locale
+
+private const val LOCAL_WORKSPACE_HOST = "127.0.0.1"
+
+internal fun workspaceMimeTypeForPath(path: String): String {
+    val extension = path.substringAfterLast('.', "").lowercase(Locale.ROOT)
+    if (extension.isBlank()) return "application/octet-stream"
+
+    return when (extension) {
+        "html", "htm" -> "text/html"
+        "css" -> "text/css"
+        "js", "mjs", "cjs" -> "application/javascript"
+        "json" -> "application/json"
+        "txt", "md", "log" -> "text/plain"
+        "xml" -> "application/xml"
+        "csv" -> "text/csv"
+        "yaml", "yml" -> "application/yaml"
+        "png" -> "image/png"
+        "jpg", "jpeg" -> "image/jpeg"
+        "gif" -> "image/gif"
+        "bmp" -> "image/bmp"
+        "webp" -> "image/webp"
+        "svg" -> "image/svg+xml"
+        "heic" -> "image/heic"
+        "heif" -> "image/heif"
+        "mp3" -> "audio/mpeg"
+        "wav" -> "audio/wav"
+        "m4a" -> "audio/mp4"
+        "aac" -> "audio/aac"
+        "ogg", "opus" -> "audio/ogg"
+        "flac" -> "audio/flac"
+        "webm" -> "video/webm"
+        "mp4", "m4v" -> "video/mp4"
+        "mov" -> "video/quicktime"
+        "mkv" -> "video/x-matroska"
+        "avi" -> "video/x-msvideo"
+        "3gp" -> "video/3gpp"
+        "doc" -> "application/msword"
+        "docx" -> "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        "xls" -> "application/vnd.ms-excel"
+        "xlsx" -> "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        "pdf" -> "application/pdf"
+        else -> MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension)
+            ?: "application/octet-stream"
+    }
+}
+
+internal val OpenFileInfo.isHtml: Boolean
+    get() = name.endsWith(".html", ignoreCase = true) || name.endsWith(".htm", ignoreCase = true)
+
+internal val OpenFileInfo.isMarkdown: Boolean
+    get() = name.endsWith(".md", ignoreCase = true) ||
+        name.endsWith(".markdown", ignoreCase = true)
+
+internal val OpenFileInfo.isImage: Boolean
+    get() = resolvedMimeType.startsWith("image/", ignoreCase = true)
+
+internal val OpenFileInfo.isAudio: Boolean
+    get() = resolvedMimeType.startsWith("audio/", ignoreCase = true)
+
+internal val OpenFileInfo.isVideo: Boolean
+    get() = resolvedMimeType.startsWith("video/", ignoreCase = true)
+
+internal val OpenFileInfo.isMediaPreviewable: Boolean
+    get() = isImage || isAudio || isVideo
+
+internal val OpenFileInfo.isPdf: Boolean
+    get() = resolvedMimeType.equals("application/pdf", ignoreCase = true)
+
+internal val OpenFileInfo.isWordDocument: Boolean
+    get() = resolvedMimeType.equals("application/msword", ignoreCase = true) ||
+        resolvedMimeType.equals(
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            ignoreCase = true
+        )
+
+internal val OpenFileInfo.isSpreadsheetDocument: Boolean
+    get() = resolvedMimeType.equals("application/vnd.ms-excel", ignoreCase = true) ||
+        resolvedMimeType.equals(
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            ignoreCase = true
+        )
+
+internal val OpenFileInfo.isReadOnlyDocumentPreviewable: Boolean
+    get() = isPdf || isWordDocument || isSpreadsheetDocument
+
+internal val OpenFileInfo.isReadOnlyPreview: Boolean
+    get() = isMediaPreviewable || isReadOnlyDocumentPreviewable
+
+internal val OpenFileInfo.resolvedMimeType: String
+    get() = mimeType.ifBlank { workspaceMimeTypeForPath(path) }
+
+internal fun workspaceShouldOpenAsDirectPreview(path: String): Boolean {
+    val mimeType = workspaceMimeTypeForPath(path)
+    return mimeType.startsWith("image/", ignoreCase = true) ||
+        mimeType.startsWith("audio/", ignoreCase = true) ||
+        mimeType.startsWith("video/", ignoreCase = true) ||
+        mimeType.equals("application/pdf", ignoreCase = true) ||
+        mimeType.equals("application/msword", ignoreCase = true) ||
+        mimeType.equals(
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+            ignoreCase = true
+        ) ||
+        mimeType.equals("application/vnd.ms-excel", ignoreCase = true) ||
+        mimeType.equals(
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            ignoreCase = true
+        )
+}
+
+internal fun buildWorkspacePreviewUri(
+    filePath: String,
+    workspaceRootPath: String,
+    workspaceEnv: String?,
+    cacheBustToken: String? = null
+): Uri? {
+    val relativePath = resolveWorkspacePreviewRelativePath(filePath, workspaceRootPath, workspaceEnv)
+    if (relativePath != null) {
+        val builder = Uri.Builder()
+            .scheme("http")
+            .encodedAuthority("$LOCAL_WORKSPACE_HOST:${LocalWebServer.WORKSPACE_PORT}")
+            .path(relativePath)
+        if (!cacheBustToken.isNullOrBlank()) {
+            builder.appendQueryParameter("v", cacheBustToken)
+        }
+        return builder.build()
+    }
+
+    if (workspaceEnv.isNullOrBlank()) {
+        return Uri.fromFile(File(filePath))
+    }
+
+    return null
+}
+
+private fun resolveWorkspacePreviewRelativePath(
+    filePath: String,
+    workspaceRootPath: String,
+    workspaceEnv: String?
+): String? {
+    return if (workspaceEnv.isNullOrBlank()) {
+        resolveLocalWorkspaceRelativePath(filePath, workspaceRootPath)
+    } else {
+        resolveVirtualWorkspaceRelativePath(filePath, workspaceRootPath)
+    }
+}
+
+private fun resolveLocalWorkspaceRelativePath(filePath: String, workspaceRootPath: String): String? {
+    val canonicalFile = runCatching { File(filePath).canonicalPath.normalizeWorkspacePath() }
+        .getOrElse { filePath.normalizeWorkspacePath() }
+    val canonicalRoot = runCatching { File(workspaceRootPath).canonicalPath.normalizeWorkspacePath() }
+        .getOrElse { workspaceRootPath.normalizeWorkspacePath() }
+        .trimEnd('/')
+        .ifBlank { "/" }
+
+    if (canonicalFile == canonicalRoot) {
+        return "/"
+    }
+
+    return if (canonicalFile.startsWith("$canonicalRoot/")) {
+        "/" + canonicalFile.removePrefix("$canonicalRoot/").trimStart('/')
+    } else {
+        null
+    }
+}
+
+private fun resolveVirtualWorkspaceRelativePath(filePath: String, workspaceRootPath: String): String? {
+    val normalizedFile = filePath.normalizeWorkspacePath()
+    val normalizedRoot = workspaceRootPath.normalizeWorkspacePath().trimEnd('/').ifBlank { "/" }
+
+    if (normalizedFile == normalizedRoot) {
+        return "/"
+    }
+
+    return if (normalizedRoot == "/") {
+        normalizedFile.ensureLeadingSlash()
+    } else if (normalizedFile.startsWith("$normalizedRoot/")) {
+        "/" + normalizedFile.removePrefix("$normalizedRoot/").trimStart('/')
+    } else {
+        null
+    }
+}
+
+private fun String.normalizeWorkspacePath(): String {
+    val withForwardSlash = replace('\\', '/')
+    val collapsed = withForwardSlash.replace(Regex("/+"), "/")
+    return collapsed.ensureLeadingSlash()
+}
+
+private fun String.ensureLeadingSlash(): String {
+    return if (startsWith("/")) this else "/$this"
+}

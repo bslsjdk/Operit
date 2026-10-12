@@ -1,1 +1,262 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy50b29scGtnCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXBwbGljYXRpb24uT3Blcml0QXBwbGljYXRpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFJVG9vbEhvb2sKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFJVG9vbEhvb2tEZWNpc2lvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuQUlUb29sSGFuZGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuUGFja2FnZU1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlRvb2xQa2dDb250YWluZXJSdW50aW1lCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5UT09MUEtHX0VWRU5UX1RPT0xfTElGRUNZQ0xFCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BSVRvb2wKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xSZXN1bHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0Jvb2xlYW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuU3VwZXJ2aXNvckpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNoYW5uZWxzLkNoYW5uZWwKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAppbXBvcnQgb3JnLmpzb24uSlNPTlRva2VuZXIKCnByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJUb29sUGtnVG9vbExpZmVjeWNsZUJyaWRnZSIKcHJpdmF0ZSBjb25zdCB2YWwgVE9PTF9MSUZFQ1lDTEVfRVZFTlRfVE9PTF9DQUxMX0lOVEVSQ0VQVCA9ICJ0b29sX2NhbGxfaW50ZXJjZXB0IgoKcHJpdmF0ZSBkYXRhIGNsYXNzIFRvb2xMaWZlY3ljbGVEaXNwYXRjaCgKICAgIHZhbCBldmVudE5hbWU6IFN0cmluZywKICAgIHZhbCBldmVudFBheWxvYWQ6IE1hcDxTdHJpbmcsIEFueT8+CikKCmludGVybmFsIG9iamVjdCBUb29sUGtnVG9vbExpZmVjeWNsZUJyaWRnZSA6IEFJVG9vbEhvb2sgewogICAgcHJpdmF0ZSB2YWwgaW5zdGFsbGVkID0gQXRvbWljQm9vbGVhbihmYWxzZSkKICAgIHByaXZhdGUgdmFsIGRpc3BhdGNoU2NvcGUgPSBDb3JvdXRpbmVTY29wZShTdXBlcnZpc29ySm9iKCkgKyBEaXNwYXRjaGVycy5JTykKICAgIHByaXZhdGUgdmFsIGRpc3BhdGNoQ2hhbm5lbCA9IENoYW5uZWw8VG9vbExpZmVjeWNsZURpc3BhdGNoPihDaGFubmVsLlVOTElNSVRFRCkKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgaG9va3M6IExpc3Q8VG9vbFBrZ1Rvb2xMaWZlY3ljbGVIb29rUmVnaXN0cmF0aW9uPiA9IGVtcHR5TGlzdCgpCiAgICBwcml2YXRlIHZhbCBydW50aW1lQ2hhbmdlTGlzdGVuZXIgPQogICAgICAgIFBhY2thZ2VNYW5hZ2VyLlRvb2xQa2dSdW50aW1lQ2hhbmdlTGlzdGVuZXIgeyBhY3RpdmVDb250YWluZXJzIC0+CiAgICAgICAgICAgIHN5bmNUb29sUGtnUmVnaXN0cmF0aW9ucyhhY3RpdmVDb250YWluZXJzKQogICAgICAgIH0KCiAgICBpbml0IHsKICAgICAgICBkaXNwYXRjaFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIGZvciAoZGlzcGF0Y2ggaW4gZGlzcGF0Y2hDaGFubmVsKSB7CiAgICAgICAgICAgICAgICBkZWxpdmVyKGRpc3BhdGNoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biByZWdpc3RlcigpIHsKICAgICAgICBpZiAoIWluc3RhbGxlZC5jb21wYXJlQW5kU2V0KGZhbHNlLCB0cnVlKSkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgdmFsIGFwcGxpY2F0aW9uID0gT3Blcml0QXBwbGljYXRpb24uaW5zdGFuY2UuYXBwbGljYXRpb25Db250ZXh0CiAgICAgICAgQUlUb29sSGFuZGxlci5nZXRJbnN0YW5jZShhcHBsaWNhdGlvbikuYWRkVG9vbEhvb2sodGhpcykKICAgICAgICB2YWwgbWFuYWdlciA9IHRvb2xQa2dQYWNrYWdlTWFuYWdlcigpCiAgICAgICAgbWFuYWdlci5hZGRUb29sUGtnUnVudGltZUNoYW5nZUxpc3RlbmVyKHJ1bnRpbWVDaGFuZ2VMaXN0ZW5lcikKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25Ub29sQ2FsbFJlcXVlc3RlZCh0b29sOiBBSVRvb2wpIHsKICAgICAgICBlbnF1ZXVlKAogICAgICAgICAgICBldmVudE5hbWUgPSAidG9vbF9jYWxsX3JlcXVlc3RlZCIsCiAgICAgICAgICAgIGV2ZW50UGF5bG9hZCA9IGJ1aWxkQmFzZVBheWxvYWQodG9vbCkKICAgICAgICApCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uVG9vbENhbGxJbnRlcmNlcHQodG9vbDogQUlUb29sKTogQUlUb29sSG9va0RlY2lzaW9uIHsKICAgICAgICB2YWwgZXZlbnRQYXlsb2FkID0gYnVpbGRCYXNlUGF5bG9hZCh0b29sKQogICAgICAgIHZhbCBtYW5hZ2VyID0gdG9vbFBrZ1BhY2thZ2VNYW5hZ2VyKCkKICAgICAgICBob29rcy5mb3JFYWNoIHsgaG9vayAtPgogICAgICAgICAgICB2YWwgcmF3ID0KICAgICAgICAgICAgICAgIG1hbmFnZXIucnVuVG9vbFBrZ01haW5Ib29rKAogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lID0gaG9vay5jb250YWluZXJQYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgICAgICBmdW5jdGlvbk5hbWUgPSBob29rLmZ1bmN0aW9uTmFtZSwKICAgICAgICAgICAgICAgICAgICBldmVudCA9IFRPT0xQS0dfRVZFTlRfVE9PTF9MSUZFQ1lDTEUsCiAgICAgICAgICAgICAgICAgICAgZXZlbnROYW1lID0gVE9PTF9MSUZFQ1lDTEVfRVZFTlRfVE9PTF9DQUxMX0lOVEVSQ0VQVCwKICAgICAgICAgICAgICAgICAgICBwbHVnaW5JZCA9IGhvb2suaG9va0lkLAogICAgICAgICAgICAgICAgICAgIGlubGluZUZ1bmN0aW9uU291cmNlID0gaG9vay5mdW5jdGlvblNvdXJjZSwKICAgICAgICAgICAgICAgICAgICBldmVudFBheWxvYWQgPSBldmVudFBheWxvYWQKICAgICAgICAgICAgICAgICkuZ2V0T3JFbHNlIHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgKICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAiVG9vbFBrZyB0b29sIGxpZmVjeWNsZSBpbnRlcmNlcHQgaG9vayBmYWlsZWQ6ICR7aG9vay5jb250YWluZXJQYWNrYWdlTmFtZX06JHtob29rLmhvb2tJZH0iLAogICAgICAgICAgICAgICAgICAgICAgICBlcnJvcgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICByZXR1cm4gQUlUb29sSG9va0RlY2lzaW9uLkJsb2NrKAogICAgICAgICAgICAgICAgICAgICAgICAiVG9vbFBrZyB0b29sIGxpZmVjeWNsZSBpbnRlcmNlcHQgaG9vayBmYWlsZWQ6ICR7ZXJyb3IuamF2YUNsYXNzLnNpbXBsZU5hbWV9IgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGRlY29kZWQgPQogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBkZWNvZGVUb29sUGtnSG9va1Jlc3VsdChyYXcpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoCiAgICAgICAgICAgICAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgICAgICAgICAgICAgIlRvb2xQa2cgdG9vbCBsaWZlY3ljbGUgaW50ZXJjZXB0IGhvb2sgcmV0dXJuZWQgaW52YWxpZCByZXN1bHQ6ICR7aG9vay5jb250YWluZXJQYWNrYWdlTmFtZX06JHtob29rLmhvb2tJZH0iLAogICAgICAgICAgICAgICAgICAgICAgICBlcnJvcgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICByZXR1cm4gQUlUb29sSG9va0RlY2lzaW9uLkJsb2NrKAogICAgICAgICAgICAgICAgICAgICAgICAiVG9vbFBrZyB0b29sIGxpZmVjeWNsZSBpbnRlcmNlcHQgaG9vayByZXR1cm5lZCBpbnZhbGlkIHJlc3VsdDogJHtlcnJvci5qYXZhQ2xhc3Muc2ltcGxlTmFtZX0iCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBwYXJzZVRvb2xDYWxsSW50ZXJjZXB0RGVjaXNpb24oZGVjb2RlZCk/LmxldCB7IGRlY2lzaW9uIC0+CiAgICAgICAgICAgICAgICByZXR1cm4gZGVjaXNpb24KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gQUlUb29sSG9va0RlY2lzaW9uLkFsbG93CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uVG9vbFBlcm1pc3Npb25DaGVja2VkKHRvb2w6IEFJVG9vbCwgZ3JhbnRlZDogQm9vbGVhbiwgcmVhc29uOiBTdHJpbmc/KSB7CiAgICAgICAgZW5xdWV1ZSgKICAgICAgICAgICAgZXZlbnROYW1lID0gInRvb2xfcGVybWlzc2lvbl9jaGVja2VkIiwKICAgICAgICAgICAgZXZlbnRQYXlsb2FkID0gYnVpbGRCYXNlUGF5bG9hZCh0b29sKSArIG1hcE9mKAogICAgICAgICAgICAgICAgImdyYW50ZWQiIHRvIGdyYW50ZWQsCiAgICAgICAgICAgICAgICAicmVhc29uIiB0byByZWFzb24KICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25Ub29sRXhlY3V0aW9uU3RhcnRlZCh0b29sOiBBSVRvb2wpIHsKICAgICAgICBlbnF1ZXVlKAogICAgICAgICAgICBldmVudE5hbWUgPSAidG9vbF9leGVjdXRpb25fc3RhcnRlZCIsCiAgICAgICAgICAgIGV2ZW50UGF5bG9hZCA9IGJ1aWxkQmFzZVBheWxvYWQodG9vbCkKICAgICAgICApCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uVG9vbEV4ZWN1dGlvblJlc3VsdCh0b29sOiBBSVRvb2wsIHJlc3VsdDogVG9vbFJlc3VsdCkgewogICAgICAgIGVucXVldWUoCiAgICAgICAgICAgIGV2ZW50TmFtZSA9ICJ0b29sX2V4ZWN1dGlvbl9yZXN1bHQiLAogICAgICAgICAgICBldmVudFBheWxvYWQgPSBidWlsZEJhc2VQYXlsb2FkKHRvb2wpICsgbWFwT2YoCiAgICAgICAgICAgICAgICAic3VjY2VzcyIgdG8gcmVzdWx0LnN1Y2Nlc3MsCiAgICAgICAgICAgICAgICAiZXJyb3JNZXNzYWdlIiB0byByZXN1bHQuZXJyb3IsCiAgICAgICAgICAgICAgICAicmVzdWx0VGV4dCIgdG8gcmVzdWx0LnJlc3VsdC50b1N0cmluZygpLAogICAgICAgICAgICAgICAgInJlc3VsdEpzb24iIHRvIHBhcnNlVG9vbFJlc3VsdEpzb24ocmVzdWx0KQogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblRvb2xFeGVjdXRpb25FcnJvcih0b29sOiBBSVRvb2wsIHRocm93YWJsZTogVGhyb3dhYmxlKSB7CiAgICAgICAgZW5xdWV1ZSgKICAgICAgICAgICAgZXZlbnROYW1lID0gInRvb2xfZXhlY3V0aW9uX2Vycm9yIiwKICAgICAgICAgICAgZXZlbnRQYXlsb2FkID0gYnVpbGRCYXNlUGF5bG9hZCh0b29sKSArIG1hcE9mKAogICAgICAgICAgICAgICAgInN1Y2Nlc3MiIHRvIGZhbHNlLAogICAgICAgICAgICAgICAgImVycm9yTWVzc2FnZSIgdG8gKHRocm93YWJsZS5tZXNzYWdlID86IHRocm93YWJsZS5qYXZhQ2xhc3Muc2ltcGxlTmFtZSkKICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25Ub29sRXhlY3V0aW9uRmluaXNoZWQodG9vbDogQUlUb29sKSB7CiAgICAgICAgZW5xdWV1ZSgKICAgICAgICAgICAgZXZlbnROYW1lID0gInRvb2xfZXhlY3V0aW9uX2ZpbmlzaGVkIiwKICAgICAgICAgICAgZXZlbnRQYXlsb2FkID0gYnVpbGRCYXNlUGF5bG9hZCh0b29sKQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBlbnF1ZXVlKGV2ZW50TmFtZTogU3RyaW5nLCBldmVudFBheWxvYWQ6IE1hcDxTdHJpbmcsIEFueT8+KSB7CiAgICAgICAgdmFsIHJlc3VsdCA9IGRpc3BhdGNoQ2hhbm5lbC50cnlTZW5kKAogICAgICAgICAgICBUb29sTGlmZWN5Y2xlRGlzcGF0Y2goCiAgICAgICAgICAgICAgICBldmVudE5hbWUgPSBldmVudE5hbWUsCiAgICAgICAgICAgICAgICBldmVudFBheWxvYWQgPSBldmVudFBheWxvYWQKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICBpZiAocmVzdWx0LmlzRmFpbHVyZSkgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJUb29sIGxpZmVjeWNsZSBldmVudCBkcm9wcGVkOiAkZXZlbnROYW1lIikKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZGVsaXZlcihkaXNwYXRjaDogVG9vbExpZmVjeWNsZURpc3BhdGNoKSB7CiAgICAgICAgdmFsIG1hbmFnZXIgPSB0b29sUGtnUGFja2FnZU1hbmFnZXIoKQogICAgICAgIGhvb2tzLmZvckVhY2ggeyBob29rIC0+CiAgICAgICAgICAgIHZhbCByZXN1bHQgPQogICAgICAgICAgICAgICAgbWFuYWdlci5ydW5Ub29sUGtnTWFpbkhvb2soCiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVyUGFja2FnZU5hbWUgPSBob29rLmNvbnRhaW5lclBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgICAgIGZ1bmN0aW9uTmFtZSA9IGhvb2suZnVuY3Rpb25OYW1lLAogICAgICAgICAgICAgICAgICAgIGV2ZW50ID0gVE9PTFBLR19FVkVOVF9UT09MX0xJRkVDWUNMRSwKICAgICAgICAgICAgICAgICAgICBldmVudE5hbWUgPSBkaXNwYXRjaC5ldmVudE5hbWUsCiAgICAgICAgICAgICAgICAgICAgcGx1Z2luSWQgPSBob29rLmhvb2tJZCwKICAgICAgICAgICAgICAgICAgICBpbmxpbmVGdW5jdGlvblNvdXJjZSA9IGhvb2suZnVuY3Rpb25Tb3VyY2UsCiAgICAgICAgICAgICAgICAgICAgZXZlbnRQYXlsb2FkID0gZGlzcGF0Y2guZXZlbnRQYXlsb2FkCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIHJlc3VsdC5vbkZhaWx1cmUgeyBlcnJvciAtPgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoCiAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICJUb29sUGtnIHRvb2wgbGlmZWN5Y2xlIGhvb2sgZmFpbGVkOiAke2hvb2suY29udGFpbmVyUGFja2FnZU5hbWV9OiR7aG9vay5ob29rSWR9IiwKICAgICAgICAgICAgICAgICAgICBlcnJvcgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBhcnNlVG9vbENhbGxJbnRlcmNlcHREZWNpc2lvbihkZWNvZGVkOiBBbnk/KTogQUlUb29sSG9va0RlY2lzaW9uPyB7CiAgICAgICAgcmV0dXJuIHdoZW4gKGRlY29kZWQpIHsKICAgICAgICAgICAgbnVsbCAtPiBudWxsCiAgICAgICAgICAgIGlzIEpTT05PYmplY3QgLT4gcGFyc2VUb29sQ2FsbEludGVyY2VwdERlY2lzaW9uKGpzb25PYmplY3RUb01hcChkZWNvZGVkKSkKICAgICAgICAgICAgaXMgTWFwPCosICo+IC0+IHsKICAgICAgICAgICAgICAgIHZhbCBhY3Rpb24gPSBkZWNvZGVkWyJhY3Rpb24iXQogICAgICAgICAgICAgICAgaWYgKGFjdGlvbiAhaXMgU3RyaW5nKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHdoZW4gKGFjdGlvbi50cmltKCkubG93ZXJjYXNlKCkpIHsKICAgICAgICAgICAgICAgICAgICAiYmxvY2siIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJlYXNvblZhbHVlID0gZGVjb2RlZFsicmVhc29uIl0KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHJlYXNvblZhbHVlICFpcyBTdHJpbmcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBBSVRvb2xIb29rRGVjaXNpb24uQmxvY2soCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRvb2wgbGlmZWN5Y2xlIGhvb2sgYmxvY2sgcmVzdWx0IHJlcXVpcmVzIGEgc3RyaW5nIHJlYXNvbi4iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJlYXNvbiA9IHJlYXNvblZhbHVlLnRyaW0oKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAocmVhc29uLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQUlUb29sSG9va0RlY2lzaW9uLkJsb2NrKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJUb29sIGxpZmVjeWNsZSBob29rIGJsb2NrIHJlc3VsdCByZXF1aXJlcyBhIG5vbi1lbXB0eSByZWFzb24uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQUlUb29sSG9va0RlY2lzaW9uLkJsb2NrKHJlYXNvbikKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGRCYXNlUGF5bG9hZCh0b29sOiBBSVRvb2wpOiBNYXA8U3RyaW5nLCBBbnk/PiB7CiAgICAgICAgcmV0dXJuIGJ1aWxkTWFwIHsKICAgICAgICAgICAgcHV0KCJ0b29sTmFtZSIsIHRvb2wubmFtZSkKICAgICAgICAgICAgcHV0KCJwYXJhbWV0ZXJzIiwgdG9vbC5wYXJhbWV0ZXJzLmFzc29jaWF0ZSB7IHBhcmFtZXRlciAtPiBwYXJhbWV0ZXIubmFtZSB0byBwYXJhbWV0ZXIudmFsdWUgfSkKICAgICAgICAgICAgcHV0KCJkZXNjcmlwdGlvbiIsIHRvb2wuZGVzY3JpcHRpb24pCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBhcnNlVG9vbFJlc3VsdEpzb24ocmVzdWx0OiBUb29sUmVzdWx0KTogQW55PyB7CiAgICAgICAgdmFsIHRleHQgPSByZXN1bHQucmVzdWx0LnRvSnNvbigpLnRyaW0oKQogICAgICAgIGlmICh0ZXh0LmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgICAgICB2YWwgcGFyc2VkID0gcnVuQ2F0Y2hpbmcgeyBKU09OVG9rZW5lcih0ZXh0KS5uZXh0VmFsdWUoKSB9LmdldE9yTnVsbCgpCiAgICAgICAgcmV0dXJuIHdoZW4gKHBhcnNlZCkgewogICAgICAgICAgICBpcyBKU09OT2JqZWN0IC0+IGpzb25PYmplY3RUb01hcChwYXJzZWQpCiAgICAgICAgICAgIGlzIEpTT05BcnJheSAtPiBqc29uQXJyYXlUb0xpc3QocGFyc2VkKQogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc3luY1Rvb2xQa2dSZWdpc3RyYXRpb25zKGFjdGl2ZUNvbnRhaW5lcnM6IExpc3Q8VG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWU+KSB7CiAgICAgICAgaG9va3MgPQogICAgICAgICAgICBhY3RpdmVDb250YWluZXJzLmZsYXRNYXAgeyBydW50aW1lIC0+CiAgICAgICAgICAgICAgICBydW50aW1lLnRvb2xMaWZlY3ljbGVIb29rcy5tYXAgeyBob29rIC0+CiAgICAgICAgICAgICAgICAgICAgVG9vbFBrZ1Rvb2xMaWZlY3ljbGVIb29rUmVnaXN0cmF0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICBjb250YWluZXJQYWNrYWdlTmFtZSA9IHJ1bnRpbWUucGFja2FnZU5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGhvb2tJZCA9IGhvb2suaWQsCiAgICAgICAgICAgICAgICAgICAgICAgIGZ1bmN0aW9uTmFtZSA9IGhvb2suZnVuY3Rpb24sCiAgICAgICAgICAgICAgICAgICAgICAgIGZ1bmN0aW9uU291cmNlID0gaG9vay5mdW5jdGlvblNvdXJjZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfS5zb3J0ZWRCeVRvb2xQa2dMb2FkT3JkZXIoCiAgICAgICAgICAgICAgICBhY3RpdmVDb250YWluZXJzID0gYWN0aXZlQ29udGFpbmVycywKICAgICAgICAgICAgICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lID0gVG9vbFBrZ1Rvb2xMaWZlY3ljbGVIb29rUmVnaXN0cmF0aW9uOjpjb250YWluZXJQYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgIHJlZ2lzdHJhdGlvbklkID0gVG9vbFBrZ1Rvb2xMaWZlY3ljbGVIb29rUmVnaXN0cmF0aW9uOjpob29rSWQKICAgICAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.plugins.toolpkg
+
+import com.bslsjdk.operit.core.application.OperitApplication
+import com.bslsjdk.operit.core.tools.AIToolHook
+import com.bslsjdk.operit.core.tools.AIToolHookDecision
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgContainerRuntime
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_TOOL_LIFECYCLE
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.atomic.AtomicBoolean
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.launch
+import org.json.JSONArray
+import org.json.JSONObject
+import org.json.JSONTokener
+
+private const val TAG = "ToolPkgToolLifecycleBridge"
+private const val TOOL_LIFECYCLE_EVENT_TOOL_CALL_INTERCEPT = "tool_call_intercept"
+
+private data class ToolLifecycleDispatch(
+    val eventName: String,
+    val eventPayload: Map<String, Any?>
+)
+
+internal object ToolPkgToolLifecycleBridge : AIToolHook {
+    private val installed = AtomicBoolean(false)
+    private val dispatchScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val dispatchChannel = Channel<ToolLifecycleDispatch>(Channel.UNLIMITED)
+    @Volatile
+    private var hooks: List<ToolPkgToolLifecycleHookRegistration> = emptyList()
+    private val runtimeChangeListener =
+        PackageManager.ToolPkgRuntimeChangeListener { activeContainers ->
+            syncToolPkgRegistrations(activeContainers)
+        }
+
+    init {
+        dispatchScope.launch {
+            for (dispatch in dispatchChannel) {
+                deliver(dispatch)
+            }
+        }
+    }
+
+    fun register() {
+        if (!installed.compareAndSet(false, true)) {
+            return
+        }
+        val application = OperitApplication.instance.applicationContext
+        AIToolHandler.getInstance(application).addToolHook(this)
+        val manager = toolPkgPackageManager()
+        manager.addToolPkgRuntimeChangeListener(runtimeChangeListener)
+    }
+
+    override fun onToolCallRequested(tool: AITool) {
+        enqueue(
+            eventName = "tool_call_requested",
+            eventPayload = buildBasePayload(tool)
+        )
+    }
+
+    override fun onToolCallIntercept(tool: AITool): AIToolHookDecision {
+        val eventPayload = buildBasePayload(tool)
+        val manager = toolPkgPackageManager()
+        hooks.forEach { hook ->
+            val raw =
+                manager.runToolPkgMainHook(
+                    containerPackageName = hook.containerPackageName,
+                    functionName = hook.functionName,
+                    event = TOOLPKG_EVENT_TOOL_LIFECYCLE,
+                    eventName = TOOL_LIFECYCLE_EVENT_TOOL_CALL_INTERCEPT,
+                    pluginId = hook.hookId,
+                    inlineFunctionSource = hook.functionSource,
+                    eventPayload = eventPayload
+                ).getOrElse { error ->
+                    AppLogger.e(
+                        TAG,
+                        "ToolPkg tool lifecycle intercept hook failed: ${hook.containerPackageName}:${hook.hookId}",
+                        error
+                    )
+                    return AIToolHookDecision.Block(
+                        "ToolPkg tool lifecycle intercept hook failed: ${error.javaClass.simpleName}"
+                    )
+                }
+            val decoded =
+                try {
+                    decodeToolPkgHookResult(raw)
+                } catch (error: Exception) {
+                    AppLogger.e(
+                        TAG,
+                        "ToolPkg tool lifecycle intercept hook returned invalid result: ${hook.containerPackageName}:${hook.hookId}",
+                        error
+                    )
+                    return AIToolHookDecision.Block(
+                        "ToolPkg tool lifecycle intercept hook returned invalid result: ${error.javaClass.simpleName}"
+                    )
+                }
+            parseToolCallInterceptDecision(decoded)?.let { decision ->
+                return decision
+            }
+        }
+        return AIToolHookDecision.Allow
+    }
+
+    override fun onToolPermissionChecked(tool: AITool, granted: Boolean, reason: String?) {
+        enqueue(
+            eventName = "tool_permission_checked",
+            eventPayload = buildBasePayload(tool) + mapOf(
+                "granted" to granted,
+                "reason" to reason
+            )
+        )
+    }
+
+    override fun onToolExecutionStarted(tool: AITool) {
+        enqueue(
+            eventName = "tool_execution_started",
+            eventPayload = buildBasePayload(tool)
+        )
+    }
+
+    override fun onToolExecutionResult(tool: AITool, result: ToolResult) {
+        enqueue(
+            eventName = "tool_execution_result",
+            eventPayload = buildBasePayload(tool) + mapOf(
+                "success" to result.success,
+                "errorMessage" to result.error,
+                "resultText" to result.result.toString(),
+                "resultJson" to parseToolResultJson(result)
+            )
+        )
+    }
+
+    override fun onToolExecutionError(tool: AITool, throwable: Throwable) {
+        enqueue(
+            eventName = "tool_execution_error",
+            eventPayload = buildBasePayload(tool) + mapOf(
+                "success" to false,
+                "errorMessage" to (throwable.message ?: throwable.javaClass.simpleName)
+            )
+        )
+    }
+
+    override fun onToolExecutionFinished(tool: AITool) {
+        enqueue(
+            eventName = "tool_execution_finished",
+            eventPayload = buildBasePayload(tool)
+        )
+    }
+
+    private fun enqueue(eventName: String, eventPayload: Map<String, Any?>) {
+        val result = dispatchChannel.trySend(
+            ToolLifecycleDispatch(
+                eventName = eventName,
+                eventPayload = eventPayload
+            )
+        )
+        if (result.isFailure) {
+            AppLogger.w(TAG, "Tool lifecycle event dropped: $eventName")
+        }
+    }
+
+    private fun deliver(dispatch: ToolLifecycleDispatch) {
+        val manager = toolPkgPackageManager()
+        hooks.forEach { hook ->
+            val result =
+                manager.runToolPkgMainHook(
+                    containerPackageName = hook.containerPackageName,
+                    functionName = hook.functionName,
+                    event = TOOLPKG_EVENT_TOOL_LIFECYCLE,
+                    eventName = dispatch.eventName,
+                    pluginId = hook.hookId,
+                    inlineFunctionSource = hook.functionSource,
+                    eventPayload = dispatch.eventPayload
+                )
+            result.onFailure { error ->
+                AppLogger.e(
+                    TAG,
+                    "ToolPkg tool lifecycle hook failed: ${hook.containerPackageName}:${hook.hookId}",
+                    error
+                )
+            }
+        }
+    }
+
+    private fun parseToolCallInterceptDecision(decoded: Any?): AIToolHookDecision? {
+        return when (decoded) {
+            null -> null
+            is JSONObject -> parseToolCallInterceptDecision(jsonObjectToMap(decoded))
+            is Map<*, *> -> {
+                val action = decoded["action"]
+                if (action !is String) {
+                    return null
+                }
+                when (action.trim().lowercase()) {
+                    "block" -> {
+                        val reasonValue = decoded["reason"]
+                        if (reasonValue !is String) {
+                            return AIToolHookDecision.Block(
+                                "Tool lifecycle hook block result requires a string reason."
+                            )
+                        }
+                        val reason = reasonValue.trim()
+                        if (reason.isEmpty()) {
+                            AIToolHookDecision.Block(
+                                "Tool lifecycle hook block result requires a non-empty reason."
+                            )
+                        } else {
+                            AIToolHookDecision.Block(reason)
+                        }
+                    }
+                    else -> null
+                }
+            }
+            else -> null
+        }
+    }
+
+    private fun buildBasePayload(tool: AITool): Map<String, Any?> {
+        return buildMap {
+            put("toolName", tool.name)
+            put("parameters", tool.parameters.associate { parameter -> parameter.name to parameter.value })
+            put("description", tool.description)
+        }
+    }
+
+    private fun parseToolResultJson(result: ToolResult): Any? {
+        val text = result.result.toJson().trim()
+        if (text.isEmpty()) {
+            return null
+        }
+        val parsed = runCatching { JSONTokener(text).nextValue() }.getOrNull()
+        return when (parsed) {
+            is JSONObject -> jsonObjectToMap(parsed)
+            is JSONArray -> jsonArrayToList(parsed)
+            else -> null
+        }
+    }
+
+    private fun syncToolPkgRegistrations(activeContainers: List<ToolPkgContainerRuntime>) {
+        hooks =
+            activeContainers.flatMap { runtime ->
+                runtime.toolLifecycleHooks.map { hook ->
+                    ToolPkgToolLifecycleHookRegistration(
+                        containerPackageName = runtime.packageName,
+                        hookId = hook.id,
+                        functionName = hook.function,
+                        functionSource = hook.functionSource
+                    )
+                }
+            }.sortedByToolPkgLoadOrder(
+                activeContainers = activeContainers,
+                containerPackageName = ToolPkgToolLifecycleHookRegistration::containerPackageName,
+                registrationId = ToolPkgToolLifecycleHookRegistration::hookId
+            )
+    }
+}

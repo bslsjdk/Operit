@@ -1,1 +1,534 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5HaXRIdWJBcGlTZXJ2aWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuR2l0SHViUmVsZWFzZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLkdpdEh1YlJlbGVhc2VBc3NldAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLk1hcmtldFN0YXRzQXBpU2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLk1hcmtldFYyRW50cnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5NYXJrZXRWMk5ld1ZlcnNpb25FbnRyeVBhdGNoCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0VjJQdWJsaXNoQXNzZXQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5NYXJrZXRWMlB1Ymxpc2hSZXF1ZXN0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0VjJQdWJsaXNoVmVyc2lvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLk1hcmtldFYyVmVyc2lvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuR2l0SHViQXV0aFByZWZlcmVuY2VzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5Ub29sUGtnTWFya2V0T3JpZ2luCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5Ub29sUGtnQXJ0aWZhY3RNaW5pZmllcgppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLm5ldC5VUkkKaW1wb3J0IGphdmEuc2VjdXJpdHkuTWVzc2FnZURpZ2VzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKCmRhdGEgY2xhc3MgUHVibGlzaEFydGlmYWN0UmVxdWVzdCgKICAgIHZhbCBsb2NhbEFydGlmYWN0OiBMb2NhbFB1Ymxpc2hhYmxlQXJ0aWZhY3QsCiAgICB2YWwgZGlzcGxheU5hbWU6IFN0cmluZywKICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nLAogICAgdmFsIGRldGFpbDogU3RyaW5nLAogICAgdmFsIGNhdGVnb3J5SWQ6IFN0cmluZywKICAgIHZhbCBhbGxvd1B1YmxpY1VwZGF0ZXM6IEJvb2xlYW4gPSB0cnVlLAogICAgdmFsIHZlcnNpb246IFN0cmluZywKICAgIHZhbCBtaW5TdXBwb3J0ZWRBcHBWZXJzaW9uOiBTdHJpbmc/LAogICAgdmFsIG1heFN1cHBvcnRlZEFwcFZlcnNpb246IFN0cmluZz8sCiAgICB2YWwgcHVibGlzaENvbnRleHQ6IEFydGlmYWN0UHVibGlzaENsdXN0ZXJDb250ZXh0PyA9IG51bGwsCiAgICB2YWwgc291cmNlOiBQdWJsaXNoQXJ0aWZhY3RTb3VyY2UKKQoKc2VhbGVkIGNsYXNzIFB1Ymxpc2hBdHRlbXB0UmVzdWx0IHsKICAgIGRhdGEgY2xhc3MgTmVlZHNGb3JnZUluaXRpYWxpemF0aW9uKAogICAgICAgIHZhbCBwdWJsaXNoZXJMb2dpbjogU3RyaW5nCiAgICApIDogUHVibGlzaEF0dGVtcHRSZXN1bHQoKQoKICAgIGRhdGEgY2xhc3MgU3VjY2VzcygKICAgICAgICB2YWwgZW50cnk6IE1hcmtldFYyRW50cnksCiAgICAgICAgdmFsIHJlbGVhc2U6IEdpdEh1YlJlbGVhc2UsCiAgICAgICAgdmFsIGFzc2V0OiBHaXRIdWJSZWxlYXNlQXNzZXQsCiAgICAgICAgdmFsIHBheWxvYWQ6IE1hcmtldFJlZ2lzdHJhdGlvblBheWxvYWQKICAgICkgOiBQdWJsaXNoQXR0ZW1wdFJlc3VsdCgpCgogICAgZGF0YSBjbGFzcyBSZWdpc3RyYXRpb25GYWlsZWQoCiAgICAgICAgdmFsIGVycm9yTWVzc2FnZTogU3RyaW5nCiAgICApIDogUHVibGlzaEF0dGVtcHRSZXN1bHQoKQp9CgpjbGFzcyBHaXRIdWJGb3JnZVB1Ymxpc2hTZXJ2aWNlKAogICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCwKICAgIHByaXZhdGUgdmFsIGdpdGh1YkFwaVNlcnZpY2U6IEdpdEh1YkFwaVNlcnZpY2UsCiAgICBwcml2YXRlIHZhbCBtYXJrZXRTdGF0c0FwaVNlcnZpY2U6IE1hcmtldFN0YXRzQXBpU2VydmljZSA9IE1hcmtldFN0YXRzQXBpU2VydmljZSgpCikgewogICAgcHJpdmF0ZSB2YWwgZ2l0aHViQXV0aCA9IEdpdEh1YkF1dGhQcmVmZXJlbmNlcy5nZXRJbnN0YW5jZShjb250ZXh0KQoKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBFbnN1cmVkUmVsZWFzZSgKICAgICAgICB2YWwgcmVsZWFzZTogR2l0SHViUmVsZWFzZSwKICAgICAgICB2YWwgY3JlYXRlZDogQm9vbGVhbgogICAgKQoKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBSZXNvbHZlZFJlbGVhc2VBc3NldCgKICAgICAgICB2YWwgb3duZXI6IFN0cmluZywKICAgICAgICB2YWwgcmVwb3NpdG9yeTogU3RyaW5nLAogICAgICAgIHZhbCByZWxlYXNlOiBHaXRIdWJSZWxlYXNlLAogICAgICAgIHZhbCBhc3NldDogR2l0SHViUmVsZWFzZUFzc2V0LAogICAgICAgIHZhbCBzaGEyNTY6IFN0cmluZywKICAgICAgICB2YWwgcmVsZWFzZVdhc0NyZWF0ZWQ6IEJvb2xlYW4/CiAgICApCgogICAgc3VzcGVuZCBmdW4gbG9hZEdpdEh1YlJlbGVhc2VDYXRhbG9nKHJlcG9zaXRvcnlVcmw6IFN0cmluZyk6IFJlc3VsdDxHaXRIdWJSZWxlYXNlQ2F0YWxvZz4gPQogICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcmVwb3NpdG9yeSA9IHBhcnNlR2l0SHViUmVwb3NpdG9yeVVybChyZXBvc2l0b3J5VXJsKQogICAgICAgICAgICAgICAgZ2l0aHViQXBpU2VydmljZS5nZXRSZXBvc2l0b3J5UmVsZWFzZXMoCiAgICAgICAgICAgICAgICAgICAgb3duZXIgPSByZXBvc2l0b3J5Lm93bmVyLAogICAgICAgICAgICAgICAgICAgIHJlcG8gPSByZXBvc2l0b3J5LnJlcG9zaXRvcnkKICAgICAgICAgICAgICAgICkubWFwIHsgcmVsZWFzZXMgLT4KICAgICAgICAgICAgICAgICAgICBHaXRIdWJSZWxlYXNlQ2F0YWxvZygKICAgICAgICAgICAgICAgICAgICAgICAgcmVwb3NpdG9yeSA9IHJlcG9zaXRvcnksCiAgICAgICAgICAgICAgICAgICAgICAgIHJlbGVhc2VzID0gcmVsZWFzZXMuZmlsdGVyIHsgIWl0LmRyYWZ0IH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgUmVzdWx0LmZhaWx1cmUoZSkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICBzdXNwZW5kIGZ1biBwdWJsaXNoQXJ0aWZhY3QoCiAgICAgICAgcmVxdWVzdDogUHVibGlzaEFydGlmYWN0UmVxdWVzdCwKICAgICAgICBhbGxvd0NyZWF0ZUZvcmdlUmVwbzogQm9vbGVhbiwKICAgICAgICBvblByb2dyZXNzOiAoUHVibGlzaFByb2dyZXNzU3RhZ2UpIC0+IFVuaXQgPSB7fQogICAgKTogUmVzdWx0PFB1Ymxpc2hBdHRlbXB0UmVzdWx0PiA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKCFnaXRodWJBdXRoLmlzTG9nZ2VkSW4oKSkgewogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFJlc3VsdC5mYWlsdXJlKEV4Y2VwdGlvbigiR2l0SHViIGxvZ2luIHJlcXVpcmVkIikpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG9uUHJvZ3Jlc3MoUHVibGlzaFByb2dyZXNzU3RhZ2UuVkFMSURBVElORykKICAgICAgICAgICAgdmFsIHNvdXJjZUZpbGUgPSByZXF1ZXN0LmxvY2FsQXJ0aWZhY3Quc291cmNlRmlsZQogICAgICAgICAgICB2YWxpZGF0ZVNvdXJjZUZpbGUoc291cmNlRmlsZSkKICAgICAgICAgICAgdmFsaWRhdGVTdXBwb3J0ZWRBcHBWZXJzaW9ucygKICAgICAgICAgICAgICAgIG1pblN1cHBvcnRlZEFwcFZlcnNpb24gPSByZXF1ZXN0Lm1pblN1cHBvcnRlZEFwcFZlcnNpb24sCiAgICAgICAgICAgICAgICBtYXhTdXBwb3J0ZWRBcHBWZXJzaW9uID0gcmVxdWVzdC5tYXhTdXBwb3J0ZWRBcHBWZXJzaW9uCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIHZhbCBjdXJyZW50VXNlciA9CiAgICAgICAgICAgICAgICBnaXRodWJBcGlTZXJ2aWNlLmdldEN1cnJlbnRVc2VyKCkuZ2V0T3JFbHNlIHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgUmVzdWx0LmZhaWx1cmUoZXJyb3IpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgZGVzY3JpcHRvciA9CiAgICAgICAgICAgICAgICBidWlsZFB1Ymxpc2hBcnRpZmFjdERlc2NyaXB0b3IoCiAgICAgICAgICAgICAgICAgICAgdHlwZSA9IHJlcXVlc3QubG9jYWxBcnRpZmFjdC50eXBlLAogICAgICAgICAgICAgICAgICAgIGxvY2FsQXJ0aWZhY3QgPSByZXF1ZXN0LmxvY2FsQXJ0aWZhY3QsCiAgICAgICAgICAgICAgICAgICAgZGlzcGxheU5hbWUgPSByZXF1ZXN0LmRpc3BsYXlOYW1lLAogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gcmVxdWVzdC5kZXNjcmlwdGlvbiwKICAgICAgICAgICAgICAgICAgICBkZXRhaWwgPSByZXF1ZXN0LmRldGFpbCwKICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeUlkID0gcmVxdWVzdC5jYXRlZ29yeUlkLAogICAgICAgICAgICAgICAgICAgIHZlcnNpb24gPSByZXF1ZXN0LnZlcnNpb24sCiAgICAgICAgICAgICAgICAgICAgYWxsb3dQdWJsaWNVcGRhdGVzID0gcmVxdWVzdC5hbGxvd1B1YmxpY1VwZGF0ZXMsCiAgICAgICAgICAgICAgICAgICAgbWluU3VwcG9ydGVkQXBwVmVyc2lvbiA9IHJlcXVlc3QubWluU3VwcG9ydGVkQXBwVmVyc2lvbiwKICAgICAgICAgICAgICAgICAgICBtYXhTdXBwb3J0ZWRBcHBWZXJzaW9uID0gcmVxdWVzdC5tYXhTdXBwb3J0ZWRBcHBWZXJzaW9uLAogICAgICAgICAgICAgICAgICAgIHB1Ymxpc2hDb250ZXh0ID0gcmVxdWVzdC5wdWJsaXNoQ29udGV4dAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB2YWwgcmVzb2x2ZWRBc3NldCA9CiAgICAgICAgICAgICAgICB3aGVuICh2YWwgc291cmNlID0gcmVxdWVzdC5zb3VyY2UpIHsKICAgICAgICAgICAgICAgICAgICBpcyBQdWJsaXNoQXJ0aWZhY3RTb3VyY2UuRGlyZWN0VXBsb2FkIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgb25Qcm9ncmVzcyhQdWJsaXNoUHJvZ3Jlc3NTdGFnZS5FTlNVUklOR19SRVBPKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZm9yZ2VSZXBvID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuc3VyZUZvcmdlUmVwb3NpdG9yeSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwdWJsaXNoZXJMb2dpbiA9IGN1cnJlbnRVc2VyLmxvZ2luLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsbG93Q3JlYXRlRm9yZ2VSZXBvID0gYWxsb3dDcmVhdGVGb3JnZVJlcG8KICAgICAgICAgICAgICAgICAgICAgICAgICAgICkuZ2V0T3JFbHNlIHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgUmVzdWx0LmZhaWx1cmUoZXJyb3IpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICBpZiAoZm9yZ2VSZXBvID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBSZXN1bHQuc3VjY2VzcygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBQdWJsaXNoQXR0ZW1wdFJlc3VsdC5OZWVkc0ZvcmdlSW5pdGlhbGl6YXRpb24oY3VycmVudFVzZXIubG9naW4pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByZWxlYXNlRGVzY3JpcHRvciA9IGJ1aWxkUHVibGlzaFJlbGVhc2VEZXNjcmlwdG9yKGRlc2NyaXB0b3IpCiAgICAgICAgICAgICAgICAgICAgICAgIG9uUHJvZ3Jlc3MoUHVibGlzaFByb2dyZXNzU3RhZ2UuQ1JFQVRJTkdfUkVMRUFTRSkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGVuc3VyZWRSZWxlYXNlID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuc3VyZVJlbGVhc2UoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3duZXIgPSBjdXJyZW50VXNlci5sb2dpbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXBvID0gZm9yZ2VSZXBvLnJlcG9OYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlbGVhc2VEZXNjcmlwdG9yID0gcmVsZWFzZURlc2NyaXB0b3IKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkuZ2V0T3JFbHNlIHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgUmVzdWx0LmZhaWx1cmUoZXJyb3IpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICBvblByb2dyZXNzKFB1Ymxpc2hQcm9ncmVzc1N0YWdlLlVQTE9BRElOR19BU1NFVCkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG1hcmtldE9yaWdpbiA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb29sUGtnTWFya2V0T3JpZ2luKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmtldCA9ICJPcGVyaXQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvb2xwa2dJZCA9IGRlc2NyaXB0b3IucnVudGltZVBhY2thZ2VJZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2ZXJzaW9uID0gZGVzY3JpcHRvci52ZXJzaW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF1dGhvciA9IGxpc3RPZihjdXJyZW50VXNlci5sb2dpbikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHByb2Nlc3NlZEZpbGVCeXRlcyA9IFRvb2xQa2dBcnRpZmFjdE1pbmlmaWVyLnByb2Nlc3NBcnRpZmFjdEZpbGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNvdXJjZUZpbGUgPSBzb3VyY2VGaWxlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNUb29sUGtnID0gZGVzY3JpcHRvci50eXBlID09IFB1Ymxpc2hBcnRpZmFjdFR5cGUuUEFDS0FHRSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmtldE9yaWdpbiA9IG1hcmtldE9yaWdpbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbmlmeSA9IHNvdXJjZS5taW5pZnlBcnRpZmFjdAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB1cGxvYWRlZEFzc2V0ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVwbG9hZEFzc2V0UmVwbGFjaW5nRXhpc3RpbmcoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3duZXIgPSBjdXJyZW50VXNlci5sb2dpbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXBvID0gZm9yZ2VSZXBvLnJlcG9OYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlbGVhc2UgPSBlbnN1cmVkUmVsZWFzZS5yZWxlYXNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0b3IgPSBkZXNjcmlwdG9yLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnQgPSBwcm9jZXNzZWRGaWxlQnl0ZXMKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkuZ2V0T3JFbHNlIHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgUmVzdWx0LmZhaWx1cmUoZXJyb3IpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICBSZXNvbHZlZFJlbGVhc2VBc3NldCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG93bmVyID0gY3VycmVudFVzZXIubG9naW4sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXBvc2l0b3J5ID0gZm9yZ2VSZXBvLnJlcG9OYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVsZWFzZSA9IGVuc3VyZWRSZWxlYXNlLnJlbGVhc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhc3NldCA9IHVwbG9hZGVkQXNzZXQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGEyNTYgPSBzaGEyNTZIZXgocHJvY2Vzc2VkRmlsZUJ5dGVzKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlbGVhc2VXYXNDcmVhdGVkID0gZW5zdXJlZFJlbGVhc2UuY3JlYXRlZAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBpcyBQdWJsaXNoQXJ0aWZhY3RTb3VyY2UuR2l0SHViUmVsZWFzZUFzc2V0IC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgb25Qcm9ncmVzcyhQdWJsaXNoUHJvZ3Jlc3NTdGFnZS5SRVNPTFZJTkdfUkVMRUFTRV9BU1NFVCkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJlbGVhc2UgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZ2l0aHViQXBpU2VydmljZS5nZXRSZWxlYXNlQnlUYWcoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3duZXIgPSBzb3VyY2Uub3duZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVwbyA9IHNvdXJjZS5yZXBvc2l0b3J5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZyA9IHNvdXJjZS5yZWxlYXNlVGFnCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLmdldE9yRWxzZSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFJlc3VsdC5mYWlsdXJlKGVycm9yKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgYXNzZXQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVsZWFzZS5hc3NldHMuZmlyc3RPck51bGwgeyBpdC5uYW1lID09IHNvdXJjZS5hc3NldE5hbWUgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IHJldHVybkB3aXRoQ29udGV4dCBSZXN1bHQuZmFpbHVyZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJTZWxlY3RlZCBHaXRIdWIgUmVsZWFzZSBhc3NldCB3YXMgbm90IGZvdW5kIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhc3NldEJ5dGVzID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdpdGh1YkFwaVNlcnZpY2UuZG93bmxvYWRSZWxlYXNlQXNzZXQoYXNzZXQuYnJvd3Nlcl9kb3dubG9hZF91cmwpLmdldE9yRWxzZSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFJlc3VsdC5mYWlsdXJlKGVycm9yKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmVtb3RlU2hhMjU2ID0gc2hhMjU2SGV4KGFzc2V0Qnl0ZXMpCiAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVpcmUocmVtb3RlU2hhMjU2ID09IHNoYTI1NkhleChzb3VyY2VGaWxlLnJlYWRCeXRlcygpKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIlRoZSBzZWxlY3RlZCBHaXRIdWIgUmVsZWFzZSBhc3NldCBkb2VzIG5vdCBtYXRjaCB0aGUgbG9jYWwgYXJ0aWZhY3QiCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIFJlc29sdmVkUmVsZWFzZUFzc2V0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb3duZXIgPSBzb3VyY2Uub3duZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXBvc2l0b3J5ID0gc291cmNlLnJlcG9zaXRvcnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWxlYXNlID0gcmVsZWFzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFzc2V0ID0gYXNzZXQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGEyNTYgPSByZW1vdGVTaGEyNTYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWxlYXNlV2FzQ3JlYXRlZCA9IG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG9uUHJvZ3Jlc3MoUHVibGlzaFByb2dyZXNzU3RhZ2UuUkVHSVNURVJJTkdfTUFSS0VUKQogICAgICAgICAgICB2YWwgcGF5bG9hZCA9CiAgICAgICAgICAgICAgICBNYXJrZXRSZWdpc3RyYXRpb25QYXlsb2FkKAogICAgICAgICAgICAgICAgICAgIHR5cGUgPSBkZXNjcmlwdG9yLnR5cGUsCiAgICAgICAgICAgICAgICAgICAgcHJvamVjdElkID0gZGVzY3JpcHRvci5wcm9qZWN0SWQsCiAgICAgICAgICAgICAgICAgICAgcHJvamVjdERpc3BsYXlOYW1lID0gZGVzY3JpcHRvci5wcm9qZWN0RGlzcGxheU5hbWUsCiAgICAgICAgICAgICAgICAgICAgcHJvamVjdERlc2NyaXB0aW9uID0gZGVzY3JpcHRvci5wcm9qZWN0RGVzY3JpcHRpb24sCiAgICAgICAgICAgICAgICAgICAgcnVudGltZVBhY2thZ2VJZCA9IGRlc2NyaXB0b3IucnVudGltZVBhY2thZ2VJZCwKICAgICAgICAgICAgICAgICAgICBwdWJsaXNoZXJMb2dpbiA9IGN1cnJlbnRVc2VyLmxvZ2luLAogICAgICAgICAgICAgICAgICAgIHJlbGVhc2VPd25lciA9IHJlc29sdmVkQXNzZXQub3duZXIsCiAgICAgICAgICAgICAgICAgICAgcmVsZWFzZVJlcG9zaXRvcnkgPSByZXNvbHZlZEFzc2V0LnJlcG9zaXRvcnksCiAgICAgICAgICAgICAgICAgICAgcmVsZWFzZVRhZyA9IHJlc29sdmVkQXNzZXQucmVsZWFzZS50YWdfbmFtZSwKICAgICAgICAgICAgICAgICAgICBhc3NldE5hbWUgPSByZXNvbHZlZEFzc2V0LmFzc2V0Lm5hbWUsCiAgICAgICAgICAgICAgICAgICAgZG93bmxvYWRVcmwgPSByZXNvbHZlZEFzc2V0LmFzc2V0LmJyb3dzZXJfZG93bmxvYWRfdXJsLAogICAgICAgICAgICAgICAgICAgIHNoYTI1NiA9IHJlc29sdmVkQXNzZXQuc2hhMjU2LAogICAgICAgICAgICAgICAgICAgIHZlcnNpb24gPSBkZXNjcmlwdG9yLnZlcnNpb24sCiAgICAgICAgICAgICAgICAgICAgYXBpVmVyc2lvbiA9IGRlc2NyaXB0b3IuYXBpVmVyc2lvbiwKICAgICAgICAgICAgICAgICAgICBkaXNwbGF5TmFtZSA9IGRlc2NyaXB0b3IuZGlzcGxheU5hbWUsCiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBkZXNjcmlwdG9yLmRlc2NyaXB0aW9uLAogICAgICAgICAgICAgICAgICAgIGRldGFpbCA9IGRlc2NyaXB0b3IuZGV0YWlsLAogICAgICAgICAgICAgICAgICAgIGNhdGVnb3J5SWQgPSBkZXNjcmlwdG9yLmNhdGVnb3J5SWQsCiAgICAgICAgICAgICAgICAgICAgYWxsb3dQdWJsaWNVcGRhdGVzID0gZGVzY3JpcHRvci5hbGxvd1B1YmxpY1VwZGF0ZXMsCiAgICAgICAgICAgICAgICAgICAgc291cmNlRmlsZU5hbWUgPSBzb3VyY2VGaWxlLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgbWluU3VwcG9ydGVkQXBwVmVyc2lvbiA9IGRlc2NyaXB0b3IubWluU3VwcG9ydGVkQXBwVmVyc2lvbiwKICAgICAgICAgICAgICAgICAgICBtYXhTdXBwb3J0ZWRBcHBWZXJzaW9uID0gZGVzY3JpcHRvci5tYXhTdXBwb3J0ZWRBcHBWZXJzaW9uLAogICAgICAgICAgICAgICAgICAgIHByb3RlY3Rpb24gPSBkZXNjcmlwdG9yLnByb3RlY3Rpb24KICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgIHZhbCBlbnRyeSA9CiAgICAgICAgICAgICAgICByZWdpc3Rlck1hcmtldEVudHJ5KAogICAgICAgICAgICAgICAgICAgIHBheWxvYWQgPSBwYXlsb2FkLAogICAgICAgICAgICAgICAgICAgIGV4aXN0aW5nRW50cnlJZCA9IHJlcXVlc3QucHVibGlzaENvbnRleHQ/LmVudHJ5SWQsCiAgICAgICAgICAgICAgICAgICAgcHVibGlzaENvbnRleHQgPSByZXF1ZXN0LnB1Ymxpc2hDb250ZXh0CiAgICAgICAgICAgICAgICApLmdldE9yRWxzZSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFJlc3VsdC5zdWNjZXNzKAogICAgICAgICAgICAgICAgICAgICAgICBQdWJsaXNoQXR0ZW1wdFJlc3VsdC5SZWdpc3RyYXRpb25GYWlsZWQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvck1lc3NhZ2UgPSBlcnJvci5tZXNzYWdlID86ICJGYWlsZWQgdG8gcmVnaXN0ZXIgbWFya2V0IGVudHJ5IgogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgb25Qcm9ncmVzcyhQdWJsaXNoUHJvZ3Jlc3NTdGFnZS5DT01QTEVURUQpCiAgICAgICAgICAgIFJlc3VsdC5zdWNjZXNzKAogICAgICAgICAgICAgICAgUHVibGlzaEF0dGVtcHRSZXN1bHQuU3VjY2VzcygKICAgICAgICAgICAgICAgICAgICBlbnRyeSA9IGVudHJ5LAogICAgICAgICAgICAgICAgICAgIHJlbGVhc2UgPSByZXNvbHZlZEFzc2V0LnJlbGVhc2UsCiAgICAgICAgICAgICAgICAgICAgYXNzZXQgPSByZXNvbHZlZEFzc2V0LmFzc2V0LAogICAgICAgICAgICAgICAgICAgIHBheWxvYWQgPSBwYXlsb2FkCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgUmVzdWx0LmZhaWx1cmUoZSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBlbnN1cmVGb3JnZVJlcG9zaXRvcnkoCiAgICAgICAgcHVibGlzaGVyTG9naW46IFN0cmluZywKICAgICAgICBhbGxvd0NyZWF0ZUZvcmdlUmVwbzogQm9vbGVhbgogICAgKTogUmVzdWx0PEZvcmdlUmVwb0luZm8/PiB7CiAgICAgICAgdmFsIGV4aXN0aW5nUmVwbyA9IGdpdGh1YkFwaVNlcnZpY2UuZ2V0UmVwb3NpdG9yeShwdWJsaXNoZXJMb2dpbiwgT1BFUklUX0ZPUkdFX1JFUE9fTkFNRSkKICAgICAgICB2YWwgZXhpc3RpbmdSZXBvVmFsdWUgPSBleGlzdGluZ1JlcG8uZ2V0T3JOdWxsKCkKICAgICAgICBpZiAoZXhpc3RpbmdSZXBvVmFsdWUgIT0gbnVsbCkgewogICAgICAgICAgICBpZiAoZXhpc3RpbmdSZXBvVmFsdWUuc2l6ZSA9PSAwKSB7CiAgICAgICAgICAgICAgICBpbml0aWFsaXplRm9yZ2VSZXBvc2l0b3J5KAogICAgICAgICAgICAgICAgICAgIG93bmVyID0gcHVibGlzaGVyTG9naW4sCiAgICAgICAgICAgICAgICAgICAgcmVwbyA9IGV4aXN0aW5nUmVwb1ZhbHVlLm5hbWUKICAgICAgICAgICAgICAgICkuZ2V0T3JFbHNlIHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgICAgICByZXR1cm4gUmVzdWx0LmZhaWx1cmUoZXJyb3IpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIFJlc3VsdC5zdWNjZXNzKAogICAgICAgICAgICAgICAgRm9yZ2VSZXBvSW5mbygKICAgICAgICAgICAgICAgICAgICBvd25lckxvZ2luID0gcHVibGlzaGVyTG9naW4sCiAgICAgICAgICAgICAgICAgICAgcmVwb05hbWUgPSBleGlzdGluZ1JlcG9WYWx1ZS5uYW1lLAogICAgICAgICAgICAgICAgICAgIGh0bWxVcmwgPSBleGlzdGluZ1JlcG9WYWx1ZS5odG1sX3VybCwKICAgICAgICAgICAgICAgICAgICBleGlzdGVkQmVmb3JlID0gdHJ1ZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgZmFpbHVyZU1lc3NhZ2UgPSBleGlzdGluZ1JlcG8uZXhjZXB0aW9uT3JOdWxsKCk/Lm1lc3NhZ2Uub3JFbXB0eSgpCiAgICAgICAgaWYgKCFmYWlsdXJlTWVzc2FnZS5jb250YWlucygiSFRUUCA0MDQiKSkgewogICAgICAgICAgICByZXR1cm4gUmVzdWx0LmZhaWx1cmUoZXhpc3RpbmdSZXBvLmV4Y2VwdGlvbk9yTnVsbCgpID86IEV4Y2VwdGlvbigiRmFpbGVkIHRvIGxvYWQgT3Blcml0Rm9yZ2UiKSkKICAgICAgICB9CgogICAgICAgIGlmICghYWxsb3dDcmVhdGVGb3JnZVJlcG8pIHsKICAgICAgICAgICAgcmV0dXJuIFJlc3VsdC5zdWNjZXNzKG51bGwpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gZ2l0aHViQXBpU2VydmljZS5jcmVhdGVSZXBvc2l0b3J5KAogICAgICAgICAgICBuYW1lID0gT1BFUklUX0ZPUkdFX1JFUE9fTkFNRSwKICAgICAgICAgICAgZGVzY3JpcHRpb24gPSAiT3Blcml0IHB1Ymxpc2gtb25seSBhcnRpZmFjdCByZXBvc2l0b3J5IGZvciByZWxlYXNlIGFzc2V0cy4iLAogICAgICAgICAgICBpc1ByaXZhdGUgPSBmYWxzZSwKICAgICAgICAgICAgYXV0b0luaXQgPSB0cnVlCiAgICAgICAgKS5tYXAgeyByZXBvIC0+CiAgICAgICAgICAgIEZvcmdlUmVwb0luZm8oCiAgICAgICAgICAgICAgICBvd25lckxvZ2luID0gcHVibGlzaGVyTG9naW4sCiAgICAgICAgICAgICAgICByZXBvTmFtZSA9IHJlcG8ubmFtZSwKICAgICAgICAgICAgICAgIGh0bWxVcmwgPSByZXBvLmh0bWxfdXJsLAogICAgICAgICAgICAgICAgZXhpc3RlZEJlZm9yZSA9IGZhbHNlCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VHaXRIdWJSZXBvc2l0b3J5VXJsKHJlcG9zaXRvcnlVcmw6IFN0cmluZyk6IEdpdEh1YlJlbGVhc2VSZXBvc2l0b3J5IHsKICAgICAgICB2YWwgcGFyc2VkID0gVVJJKHJlcG9zaXRvcnlVcmwudHJpbSgpKQogICAgICAgIHJlcXVpcmUocGFyc2VkLnNjaGVtZS5lcXVhbHMoImh0dHBzIiwgaWdub3JlQ2FzZSA9IHRydWUpKSB7CiAgICAgICAgICAgICJHaXRIdWIgcmVwb3NpdG9yeSBVUkwgbXVzdCB1c2UgSFRUUFMiCiAgICAgICAgfQogICAgICAgIHJlcXVpcmUocGFyc2VkLmhvc3QuZXF1YWxzKCJnaXRodWIuY29tIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8IHBhcnNlZC5ob3N0LmVxdWFscygid3d3LmdpdGh1Yi5jb20iLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHsKICAgICAgICAgICAgIkdpdEh1YiByZXBvc2l0b3J5IFVSTCBtdXN0IHBvaW50IHRvIGdpdGh1Yi5jb20iCiAgICAgICAgfQogICAgICAgIHZhbCBwYXRoUGFydHMgPSBwYXJzZWQucGF0aC50cmltKCcvJykuc3BsaXQoJy8nKS5maWx0ZXIoU3RyaW5nOjppc05vdEJsYW5rKQogICAgICAgIHJlcXVpcmUocGF0aFBhcnRzLnNpemUgPj0gMikgewogICAgICAgICAgICAiR2l0SHViIHJlcG9zaXRvcnkgVVJMIG11c3QgaW5jbHVkZSBvd25lciBhbmQgcmVwb3NpdG9yeSIKICAgICAgICB9CiAgICAgICAgdmFsIG93bmVyID0gcGF0aFBhcnRzWzBdCiAgICAgICAgdmFsIHJlcG9zaXRvcnkgPSBwYXRoUGFydHNbMV0ucmVtb3ZlU3VmZml4KCIuZ2l0IikKICAgICAgICB2YWwgdmFsaWRTZWdtZW50ID0gUmVnZXgoIltBLVphLXowLTlfLi1dKyIpCiAgICAgICAgcmVxdWlyZSh2YWxpZFNlZ21lbnQubWF0Y2hlcyhvd25lcikgJiYgdmFsaWRTZWdtZW50Lm1hdGNoZXMocmVwb3NpdG9yeSkpIHsKICAgICAgICAgICAgIkdpdEh1YiByZXBvc2l0b3J5IFVSTCBjb250YWlucyBhbiBpbnZhbGlkIG93bmVyIG9yIHJlcG9zaXRvcnkiCiAgICAgICAgfQogICAgICAgIHJldHVybiBHaXRIdWJSZWxlYXNlUmVwb3NpdG9yeShvd25lciA9IG93bmVyLCByZXBvc2l0b3J5ID0gcmVwb3NpdG9yeSkKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGluaXRpYWxpemVGb3JnZVJlcG9zaXRvcnkoCiAgICAgICAgb3duZXI6IFN0cmluZywKICAgICAgICByZXBvOiBTdHJpbmcKICAgICk6IFJlc3VsdDxVbml0PiB7CiAgICAgICAgcmV0dXJuIGdpdGh1YkFwaVNlcnZpY2UuY3JlYXRlVGV4dEZpbGUoCiAgICAgICAgICAgIG93bmVyID0gb3duZXIsCiAgICAgICAgICAgIHJlcG8gPSByZXBvLAogICAgICAgICAgICBwYXRoID0gIlJFQURNRS5tZCIsCiAgICAgICAgICAgIG1lc3NhZ2UgPSAiSW5pdGlhbGl6ZSBPcGVyaXRGb3JnZSByZXBvc2l0b3J5IiwKICAgICAgICAgICAgdGV4dENvbnRlbnQgPQogICAgICAgICAgICAgICAgYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgICAgIGFwcGVuZExpbmUoIiMgT3Blcml0Rm9yZ2UiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZExpbmUoKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZExpbmUoIlRoaXMgcmVwb3NpdG9yeSBzdG9yZXMgcmVsZWFzZSBhc3NldHMgcHVibGlzaGVkIGZyb20gT3Blcml0LiIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZW5zdXJlUmVsZWFzZSgKICAgICAgICBvd25lcjogU3RyaW5nLAogICAgICAgIHJlcG86IFN0cmluZywKICAgICAgICByZWxlYXNlRGVzY3JpcHRvcjogUHVibGlzaFJlbGVhc2VEZXNjcmlwdG9yCiAgICApOiBSZXN1bHQ8RW5zdXJlZFJlbGVhc2U+IHsKICAgICAgICB2YWwgZXhpc3RpbmcgPQogICAgICAgICAgICBnaXRodWJBcGlTZXJ2aWNlLmZpbmRSZWxlYXNlQnlUYWcob3duZXIsIHJlcG8sIHJlbGVhc2VEZXNjcmlwdG9yLnRhZ05hbWUpLmdldE9yRWxzZSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICByZXR1cm4gUmVzdWx0LmZhaWx1cmUoZXJyb3IpCiAgICAgICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGlmIChleGlzdGluZyA9PSBudWxsKSB7CiAgICAgICAgICAgIGdpdGh1YkFwaVNlcnZpY2UuY3JlYXRlUmVsZWFzZSgKICAgICAgICAgICAgICAgIG93bmVyID0gb3duZXIsCiAgICAgICAgICAgICAgICByZXBvID0gcmVwbywKICAgICAgICAgICAgICAgIHRhZ05hbWUgPSByZWxlYXNlRGVzY3JpcHRvci50YWdOYW1lLAogICAgICAgICAgICAgICAgbmFtZSA9IHJlbGVhc2VEZXNjcmlwdG9yLnJlbGVhc2VOYW1lLAogICAgICAgICAgICAgICAgYm9keSA9IHJlbGVhc2VEZXNjcmlwdG9yLnJlbGVhc2VCb2R5LAogICAgICAgICAgICAgICAgZHJhZnQgPSBmYWxzZSwKICAgICAgICAgICAgICAgIHByZXJlbGVhc2UgPSBmYWxzZQogICAgICAgICAgICApLm1hcCB7IHJlbGVhc2UgLT4gRW5zdXJlZFJlbGVhc2UocmVsZWFzZSA9IHJlbGVhc2UsIGNyZWF0ZWQgPSB0cnVlKSB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZ2l0aHViQXBpU2VydmljZS51cGRhdGVSZWxlYXNlKAogICAgICAgICAgICAgICAgb3duZXIgPSBvd25lciwKICAgICAgICAgICAgICAgIHJlcG8gPSByZXBvLAogICAgICAgICAgICAgICAgcmVsZWFzZUlkID0gZXhpc3RpbmcuaWQsCiAgICAgICAgICAgICAgICBuYW1lID0gcmVsZWFzZURlc2NyaXB0b3IucmVsZWFzZU5hbWUsCiAgICAgICAgICAgICAgICBib2R5ID0gcmVsZWFzZURlc2NyaXB0b3IucmVsZWFzZUJvZHksCiAgICAgICAgICAgICAgICBkcmFmdCA9IGZhbHNlLAogICAgICAgICAgICAgICAgcHJlcmVsZWFzZSA9IGZhbHNlCiAgICAgICAgICAgICkubWFwIHsgcmVsZWFzZSAtPiBFbnN1cmVkUmVsZWFzZShyZWxlYXNlID0gcmVsZWFzZSwgY3JlYXRlZCA9IGZhbHNlKSB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gdXBsb2FkQXNzZXRSZXBsYWNpbmdFeGlzdGluZygKICAgICAgICBvd25lcjogU3RyaW5nLAogICAgICAgIHJlcG86IFN0cmluZywKICAgICAgICByZWxlYXNlOiBHaXRIdWJSZWxlYXNlLAogICAgICAgIGRlc2NyaXB0b3I6IFB1Ymxpc2hBcnRpZmFjdERlc2NyaXB0b3IsCiAgICAgICAgY29udGVudDogQnl0ZUFycmF5CiAgICApOiBSZXN1bHQ8R2l0SHViUmVsZWFzZUFzc2V0PiB7CiAgICAgICAgcmVsZWFzZS5hc3NldHMKICAgICAgICAgICAgLmZpcnN0T3JOdWxsIHsgaXQubmFtZS5lcXVhbHMoZGVzY3JpcHRvci5hc3NldE5hbWUsIGlnbm9yZUNhc2UgPSB0cnVlKSB9CiAgICAgICAgICAgID8ubGV0IHsgZXhpc3RpbmdBc3NldCAtPgogICAgICAgICAgICAgICAgZ2l0aHViQXBpU2VydmljZS5kZWxldGVSZWxlYXNlQXNzZXQob3duZXIsIHJlcG8sIGV4aXN0aW5nQXNzZXQuaWQpLmdldE9yRWxzZSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFJlc3VsdC5mYWlsdXJlKGVycm9yKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgIHJldHVybiBnaXRodWJBcGlTZXJ2aWNlLnVwbG9hZFJlbGVhc2VBc3NldCgKICAgICAgICAgICAgb3duZXIgPSBvd25lciwKICAgICAgICAgICAgcmVwbyA9IHJlcG8sCiAgICAgICAgICAgIHJlbGVhc2VJZCA9IHJlbGVhc2UuaWQsCiAgICAgICAgICAgIGFzc2V0TmFtZSA9IGRlc2NyaXB0b3IuYXNzZXROYW1lLAogICAgICAgICAgICBjb250ZW50VHlwZSA9IGRlc2NyaXB0b3IuY29udGVudFR5cGUsCiAgICAgICAgICAgIGNvbnRlbnQgPSBjb250ZW50CiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gcmVnaXN0ZXJNYXJrZXRFbnRyeSgKICAgICAgICBwYXlsb2FkOiBNYXJrZXRSZWdpc3RyYXRpb25QYXlsb2FkLAogICAgICAgIGV4aXN0aW5nRW50cnlJZDogU3RyaW5nPywKICAgICAgICBwdWJsaXNoQ29udGV4dDogQXJ0aWZhY3RQdWJsaXNoQ2x1c3RlckNvbnRleHQ/CiAgICApOiBSZXN1bHQ8TWFya2V0VjJFbnRyeT4gewogICAgICAgIHZhbCByZXF1ZXN0ID0KICAgICAgICAgICAgTWFya2V0VjJQdWJsaXNoUmVxdWVzdCgKICAgICAgICAgICAgICAgIHR5cGUgPSBwYXlsb2FkLnR5cGUud2lyZVZhbHVlLAogICAgICAgICAgICAgICAgdGl0bGUgPSBwYXlsb2FkLmRpc3BsYXlOYW1lLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBwYXlsb2FkLmRlc2NyaXB0aW9uLAogICAgICAgICAgICAgICAgY2F0ZWdvcnlJZCA9IHBheWxvYWQuY2F0ZWdvcnlJZCwKICAgICAgICAgICAgICAgIGFsbG93UHVibGljVXBkYXRlcyA9IHBheWxvYWQuYWxsb3dQdWJsaWNVcGRhdGVzLAogICAgICAgICAgICAgICAgZGV0YWlsID0gcGF5bG9hZC5kZXRhaWwuaWZCbGFuayB7IHBheWxvYWQuZGVzY3JpcHRpb24gfSwKICAgICAgICAgICAgICAgIHZlcnNpb24gPSBNYXJrZXRWMlB1Ymxpc2hWZXJzaW9uKAogICAgICAgICAgICAgICAgICAgIHZlcnNpb24gPSBwYXlsb2FkLnZlcnNpb24sCiAgICAgICAgICAgICAgICAgICAgZm9ybWF0VmVyID0gcGF5bG9hZC50eXBlLm1hcmtldEZvcm1hdFZlcnNpb24oKSwKICAgICAgICAgICAgICAgICAgICBtaW5BcHBWZXIgPSByZXF1aXJlTm90TnVsbChwYXlsb2FkLm1pblN1cHBvcnRlZEFwcFZlcnNpb24pIHsgIk1pbmltdW0gc3VwcG9ydGVkIGFwcCB2ZXJzaW9uIGlzIHJlcXVpcmVkIiB9LAogICAgICAgICAgICAgICAgICAgIG1heEFwcFZlciA9IHBheWxvYWQubWF4U3VwcG9ydGVkQXBwVmVyc2lvbiA/OiBERUZBVUxUX01BWF9TVVBQT1JURURfQVBQX1ZFUlNJT04sCiAgICAgICAgICAgICAgICAgICAgYXBpVmVyc2lvbiA9IHBheWxvYWQuYXBpVmVyc2lvbiwKICAgICAgICAgICAgICAgICAgICBwcm9qZWN0SWQgPSBwYXlsb2FkLnByb2plY3RJZCwKICAgICAgICAgICAgICAgICAgICBydW50aW1lUGFja2FnZUlkID0gcGF5bG9hZC5ydW50aW1lUGFja2FnZUlkCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgYXNzZXQgPSBNYXJrZXRWMlB1Ymxpc2hBc3NldCgKICAgICAgICAgICAgICAgICAgICBraW5kID0gImdpdGh1Yl9yZWxlYXNlX2Fzc2V0IiwKICAgICAgICAgICAgICAgICAgICB1cmwgPSBwYXlsb2FkLmRvd25sb2FkVXJsLAogICAgICAgICAgICAgICAgICAgIGdoT3duZXIgPSBwYXlsb2FkLnJlbGVhc2VPd25lciwKICAgICAgICAgICAgICAgICAgICBnaFJlcG8gPSBwYXlsb2FkLnJlbGVhc2VSZXBvc2l0b3J5LAogICAgICAgICAgICAgICAgICAgIGdoUmVsZWFzZVRhZyA9IHBheWxvYWQucmVsZWFzZVRhZywKICAgICAgICAgICAgICAgICAgICBhc3NldE5hbWUgPSBwYXlsb2FkLmFzc2V0TmFtZSwKICAgICAgICAgICAgICAgICAgICBzaGEyNTYgPSBwYXlsb2FkLnNoYTI1NgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgdmFsIHJlc29sdmVkRW50cnlJZCA9IGV4aXN0aW5nRW50cnlJZD8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIGlmIChyZXNvbHZlZEVudHJ5SWQuaXNCbGFuaygpKSByZXR1cm4gbWFya2V0U3RhdHNBcGlTZXJ2aWNlLnB1Ymxpc2gocmVxdWVzdCkKCiAgICAgICAgcmV0dXJuIG1hcmtldFN0YXRzQXBpU2VydmljZS5wdWJsaXNoTmV3VmVyc2lvbigKICAgICAgICAgICAgZW50cnlJZCA9IHJlc29sdmVkRW50cnlJZCwKICAgICAgICAgICAgcmVxdWVzdCA9IHJlcXVlc3QsCiAgICAgICAgICAgIGVudHJ5UGF0Y2ggPSBidWlsZE5ld1ZlcnNpb25FbnRyeVBhdGNoKHBheWxvYWQsIHB1Ymxpc2hDb250ZXh0KQogICAgICAgICkubWFwIHsgcmVzcG9uc2UgLT4KICAgICAgICAgICAgTWFya2V0VjJFbnRyeSgKICAgICAgICAgICAgICAgIHR5cGUgPSBwYXlsb2FkLnR5cGUud2lyZVZhbHVlLAogICAgICAgICAgICAgICAgaWQgPSByZXNwb25zZS5lbnRyeUlkLAogICAgICAgICAgICAgICAgdGl0bGUgPSBwYXlsb2FkLmRpc3BsYXlOYW1lLAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBwYXlsb2FkLmRlc2NyaXB0aW9uLAogICAgICAgICAgICAgICAgZGV0YWlsID0gcGF5bG9hZC5kZXRhaWwuaWZCbGFuayB7IHBheWxvYWQuZGVzY3JpcHRpb24gfSwKICAgICAgICAgICAgICAgIHN0YXRlQ29kZSA9ICJwZW5kaW5nIiwKICAgICAgICAgICAgICAgIGxhdGVzdFZlcnNpb24gPSBNYXJrZXRWMlZlcnNpb24oCiAgICAgICAgICAgICAgICAgICAgaWQgPSByZXNwb25zZS52ZXJzaW9uSWQsCiAgICAgICAgICAgICAgICAgICAgdmVyc2lvbiA9IHBheWxvYWQudmVyc2lvbiwKICAgICAgICAgICAgICAgICAgICBmb3JtYXRWZXIgPSBwYXlsb2FkLnR5cGUubWFya2V0Rm9ybWF0VmVyc2lvbigpLAogICAgICAgICAgICAgICAgICAgIG1pbkFwcFZlciA9IHJlcXVpcmVOb3ROdWxsKHBheWxvYWQubWluU3VwcG9ydGVkQXBwVmVyc2lvbikgeyAiTWluaW11bSBzdXBwb3J0ZWQgYXBwIHZlcnNpb24gaXMgcmVxdWlyZWQiIH0sCiAgICAgICAgICAgICAgICAgICAgbWF4QXBwVmVyID0gcGF5bG9hZC5tYXhTdXBwb3J0ZWRBcHBWZXJzaW9uID86IERFRkFVTFRfTUFYX1NVUFBPUlRFRF9BUFBfVkVSU0lPTiwKICAgICAgICAgICAgICAgICAgICBhcGlWZXJzaW9uID0gcGF5bG9hZC5hcGlWZXJzaW9uLAogICAgICAgICAgICAgICAgICAgIHN0YXRlQ29kZSA9ICJwZW5kaW5nIiwKICAgICAgICAgICAgICAgICAgICBwcm9qZWN0SWQgPSBwYXlsb2FkLnByb2plY3RJZCwKICAgICAgICAgICAgICAgICAgICBydW50aW1lUGFja2FnZUlkID0gcGF5bG9hZC5ydW50aW1lUGFja2FnZUlkCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGROZXdWZXJzaW9uRW50cnlQYXRjaCgKICAgICAgICBwYXlsb2FkOiBNYXJrZXRSZWdpc3RyYXRpb25QYXlsb2FkLAogICAgICAgIHB1Ymxpc2hDb250ZXh0OiBBcnRpZmFjdFB1Ymxpc2hDbHVzdGVyQ29udGV4dD8KICAgICk6IE1hcmtldFYyTmV3VmVyc2lvbkVudHJ5UGF0Y2g/IHsKICAgICAgICB2YWwgY29udGV4dCA9IHB1Ymxpc2hDb250ZXh0ID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIHBhdGNoID0KICAgICAgICAgICAgaWYgKGNvbnRleHQuY2FuRWRpdEVudHJ5KSB7CiAgICAgICAgICAgICAgICBNYXJrZXRWMk5ld1ZlcnNpb25FbnRyeVBhdGNoKAogICAgICAgICAgICAgICAgICAgIHRpdGxlID0gcGF5bG9hZC5kaXNwbGF5TmFtZS50YWtlSWYgeyBpdCAhPSBjb250ZXh0LmxvY2tlZERpc3BsYXlOYW1lIH0sCiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBwYXlsb2FkLmRlc2NyaXB0aW9uLnRha2VJZiB7IGl0ICE9IGNvbnRleHQubWFya2V0RGVzY3JpcHRpb24gfSwKICAgICAgICAgICAgICAgICAgICBkZXRhaWwgPSBwYXlsb2FkLmRldGFpbC50YWtlSWYgeyBpdCAhPSBjb250ZXh0Lm1hcmtldERldGFpbCB9LAogICAgICAgICAgICAgICAgICAgIGNhdGVnb3J5SWQgPSBwYXlsb2FkLmNhdGVnb3J5SWQudGFrZUlmIHsgaXQgIT0gY29udGV4dC5jYXRlZ29yeUlkIH0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIE1hcmtldFYyTmV3VmVyc2lvbkVudHJ5UGF0Y2goCiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBwYXlsb2FkLmRlc2NyaXB0aW9uLnRha2VJZiB7IGl0ICE9IGNvbnRleHQubWFya2V0RGVzY3JpcHRpb24gfSwKICAgICAgICAgICAgICAgICAgICBkZXRhaWwgPSBwYXlsb2FkLmRldGFpbC50YWtlSWYgeyBpdCAhPSBjb250ZXh0Lm1hcmtldERldGFpbCB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICByZXR1cm4gcGF0Y2gudGFrZUlmIHsKICAgICAgICAgICAgaXQudGl0bGUgIT0gbnVsbCB8fAogICAgICAgICAgICAgICAgaXQuZGVzY3JpcHRpb24gIT0gbnVsbCB8fAogICAgICAgICAgICAgICAgaXQuZGV0YWlsICE9IG51bGwgfHwKICAgICAgICAgICAgICAgIGl0LmNhdGVnb3J5SWQgIT0gbnVsbCB8fAogICAgICAgICAgICAgICAgaXQuYWxsb3dQdWJsaWNVcGRhdGVzICE9IG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdmFsaWRhdGVTb3VyY2VGaWxlKGZpbGU6IEZpbGUpIHsKICAgICAgICByZXF1aXJlKGZpbGUuZXhpc3RzKCkpIHsgIlNvdXJjZSBmaWxlIG5vdCBmb3VuZDogJHtmaWxlLmFic29sdXRlUGF0aH0iIH0KICAgICAgICByZXF1aXJlKGZpbGUuaXNGaWxlKSB7ICJTb3VyY2UgcGF0aCBpcyBub3QgYSBmaWxlOiAke2ZpbGUuYWJzb2x1dGVQYXRofSIgfQogICAgICAgIHJlcXVpcmUoZmlsZS5jYW5SZWFkKCkpIHsgIkNhbm5vdCByZWFkIHNvdXJjZSBmaWxlOiAke2ZpbGUuYWJzb2x1dGVQYXRofSIgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNoYTI1NkhleChieXRlczogQnl0ZUFycmF5KTogU3RyaW5nIHsKICAgICAgICB2YWwgZGlnZXN0ID0gTWVzc2FnZURpZ2VzdC5nZXRJbnN0YW5jZSgiU0hBLTI1NiIpLmRpZ2VzdChieXRlcykKICAgICAgICByZXR1cm4gZGlnZXN0LmpvaW5Ub1N0cmluZygiIikgeyAiJTAyeCIuZm9ybWF0KGl0KSB9CiAgICB9CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9NQVhfU1VQUE9SVEVEX0FQUF9WRVJTSU9OID0gIjEuOTkuOTkiCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.packages.market
+
+import android.content.Context
+import com.bslsjdk.operit.data.api.GitHubApiService
+import com.bslsjdk.operit.data.api.GitHubRelease
+import com.bslsjdk.operit.data.api.GitHubReleaseAsset
+import com.bslsjdk.operit.data.api.MarketStatsApiService
+import com.bslsjdk.operit.data.api.MarketV2Entry
+import com.bslsjdk.operit.data.api.MarketV2NewVersionEntryPatch
+import com.bslsjdk.operit.data.api.MarketV2PublishAsset
+import com.bslsjdk.operit.data.api.MarketV2PublishRequest
+import com.bslsjdk.operit.data.api.MarketV2PublishVersion
+import com.bslsjdk.operit.data.api.MarketV2Version
+import com.bslsjdk.operit.data.preferences.GitHubAuthPreferences
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgMarketOrigin
+import com.bslsjdk.operit.util.ToolPkgArtifactMinifier
+import java.io.File
+import java.net.URI
+import java.security.MessageDigest
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+data class PublishArtifactRequest(
+    val localArtifact: LocalPublishableArtifact,
+    val displayName: String,
+    val description: String,
+    val detail: String,
+    val categoryId: String,
+    val allowPublicUpdates: Boolean = true,
+    val version: String,
+    val minSupportedAppVersion: String?,
+    val maxSupportedAppVersion: String?,
+    val publishContext: ArtifactPublishClusterContext? = null,
+    val source: PublishArtifactSource
+)
+
+sealed class PublishAttemptResult {
+    data class NeedsForgeInitialization(
+        val publisherLogin: String
+    ) : PublishAttemptResult()
+
+    data class Success(
+        val entry: MarketV2Entry,
+        val release: GitHubRelease,
+        val asset: GitHubReleaseAsset,
+        val payload: MarketRegistrationPayload
+    ) : PublishAttemptResult()
+
+    data class RegistrationFailed(
+        val errorMessage: String
+    ) : PublishAttemptResult()
+}
+
+class GitHubForgePublishService(
+    private val context: Context,
+    private val githubApiService: GitHubApiService,
+    private val marketStatsApiService: MarketStatsApiService = MarketStatsApiService()
+) {
+    private val githubAuth = GitHubAuthPreferences.getInstance(context)
+
+    private data class EnsuredRelease(
+        val release: GitHubRelease,
+        val created: Boolean
+    )
+
+    private data class ResolvedReleaseAsset(
+        val owner: String,
+        val repository: String,
+        val release: GitHubRelease,
+        val asset: GitHubReleaseAsset,
+        val sha256: String,
+        val releaseWasCreated: Boolean?
+    )
+
+    suspend fun loadGitHubReleaseCatalog(repositoryUrl: String): Result<GitHubReleaseCatalog> =
+        withContext(Dispatchers.IO) {
+            try {
+                val repository = parseGitHubRepositoryUrl(repositoryUrl)
+                githubApiService.getRepositoryReleases(
+                    owner = repository.owner,
+                    repo = repository.repository
+                ).map { releases ->
+                    GitHubReleaseCatalog(
+                        repository = repository,
+                        releases = releases.filter { !it.draft }
+                    )
+                }
+            } catch (e: Exception) {
+                Result.failure(e)
+            }
+        }
+
+    suspend fun publishArtifact(
+        request: PublishArtifactRequest,
+        allowCreateForgeRepo: Boolean,
+        onProgress: (PublishProgressStage) -> Unit = {}
+    ): Result<PublishAttemptResult> = withContext(Dispatchers.IO) {
+        try {
+            if (!githubAuth.isLoggedIn()) {
+                return@withContext Result.failure(Exception("GitHub login required"))
+            }
+
+            onProgress(PublishProgressStage.VALIDATING)
+            val sourceFile = request.localArtifact.sourceFile
+            validateSourceFile(sourceFile)
+            validateSupportedAppVersions(
+                minSupportedAppVersion = request.minSupportedAppVersion,
+                maxSupportedAppVersion = request.maxSupportedAppVersion
+            )
+
+            val currentUser =
+                githubApiService.getCurrentUser().getOrElse { error ->
+                    return@withContext Result.failure(error)
+                }
+
+            val descriptor =
+                buildPublishArtifactDescriptor(
+                    type = request.localArtifact.type,
+                    localArtifact = request.localArtifact,
+                    displayName = request.displayName,
+                    description = request.description,
+                    detail = request.detail,
+                    categoryId = request.categoryId,
+                    version = request.version,
+                    allowPublicUpdates = request.allowPublicUpdates,
+                    minSupportedAppVersion = request.minSupportedAppVersion,
+                    maxSupportedAppVersion = request.maxSupportedAppVersion,
+                    publishContext = request.publishContext
+                )
+            val resolvedAsset =
+                when (val source = request.source) {
+                    is PublishArtifactSource.DirectUpload -> {
+                        onProgress(PublishProgressStage.ENSURING_REPO)
+                        val forgeRepo =
+                            ensureForgeRepository(
+                                publisherLogin = currentUser.login,
+                                allowCreateForgeRepo = allowCreateForgeRepo
+                            ).getOrElse { error ->
+                                return@withContext Result.failure(error)
+                            }
+
+                        if (forgeRepo == null) {
+                            return@withContext Result.success(
+                                PublishAttemptResult.NeedsForgeInitialization(currentUser.login)
+                            )
+                        }
+
+                        val releaseDescriptor = buildPublishReleaseDescriptor(descriptor)
+                        onProgress(PublishProgressStage.CREATING_RELEASE)
+                        val ensuredRelease =
+                            ensureRelease(
+                                owner = currentUser.login,
+                                repo = forgeRepo.repoName,
+                                releaseDescriptor = releaseDescriptor
+                            ).getOrElse { error ->
+                                return@withContext Result.failure(error)
+                            }
+
+                        onProgress(PublishProgressStage.UPLOADING_ASSET)
+                        val marketOrigin =
+                            ToolPkgMarketOrigin(
+                                market = "Operit",
+                                toolpkgId = descriptor.runtimePackageId,
+                                version = descriptor.version,
+                                author = listOf(currentUser.login)
+                            )
+                        val processedFileBytes = ToolPkgArtifactMinifier.processArtifactFile(
+                            context = context,
+                            sourceFile = sourceFile,
+                            isToolPkg = descriptor.type == PublishArtifactType.PACKAGE,
+                            marketOrigin = marketOrigin,
+                            minify = source.minifyArtifact
+                        )
+                        val uploadedAsset =
+                            uploadAssetReplacingExisting(
+                                owner = currentUser.login,
+                                repo = forgeRepo.repoName,
+                                release = ensuredRelease.release,
+                                descriptor = descriptor,
+                                content = processedFileBytes
+                            ).getOrElse { error ->
+                                return@withContext Result.failure(error)
+                            }
+
+                        ResolvedReleaseAsset(
+                            owner = currentUser.login,
+                            repository = forgeRepo.repoName,
+                            release = ensuredRelease.release,
+                            asset = uploadedAsset,
+                            sha256 = sha256Hex(processedFileBytes),
+                            releaseWasCreated = ensuredRelease.created
+                        )
+                    }
+
+                    is PublishArtifactSource.GitHubReleaseAsset -> {
+                        onProgress(PublishProgressStage.RESOLVING_RELEASE_ASSET)
+                        val release =
+                            githubApiService.getReleaseByTag(
+                                owner = source.owner,
+                                repo = source.repository,
+                                tag = source.releaseTag
+                            ).getOrElse { error ->
+                                return@withContext Result.failure(error)
+                            }
+                        val asset =
+                            release.assets.firstOrNull { it.name == source.assetName }
+                                ?: return@withContext Result.failure(
+                                    IllegalStateException("Selected GitHub Release asset was not found")
+                                )
+                        val assetBytes =
+                            githubApiService.downloadReleaseAsset(asset.browser_download_url).getOrElse { error ->
+                                return@withContext Result.failure(error)
+                            }
+                        val remoteSha256 = sha256Hex(assetBytes)
+                        require(remoteSha256 == sha256Hex(sourceFile.readBytes())) {
+                            "The selected GitHub Release asset does not match the local artifact"
+                        }
+
+                        ResolvedReleaseAsset(
+                            owner = source.owner,
+                            repository = source.repository,
+                            release = release,
+                            asset = asset,
+                            sha256 = remoteSha256,
+                            releaseWasCreated = null
+                        )
+                    }
+                }
+
+            onProgress(PublishProgressStage.REGISTERING_MARKET)
+            val payload =
+                MarketRegistrationPayload(
+                    type = descriptor.type,
+                    projectId = descriptor.projectId,
+                    projectDisplayName = descriptor.projectDisplayName,
+                    projectDescription = descriptor.projectDescription,
+                    runtimePackageId = descriptor.runtimePackageId,
+                    publisherLogin = currentUser.login,
+                    releaseOwner = resolvedAsset.owner,
+                    releaseRepository = resolvedAsset.repository,
+                    releaseTag = resolvedAsset.release.tag_name,
+                    assetName = resolvedAsset.asset.name,
+                    downloadUrl = resolvedAsset.asset.browser_download_url,
+                    sha256 = resolvedAsset.sha256,
+                    version = descriptor.version,
+                    apiVersion = descriptor.apiVersion,
+                    displayName = descriptor.displayName,
+                    description = descriptor.description,
+                    detail = descriptor.detail,
+                    categoryId = descriptor.categoryId,
+                    allowPublicUpdates = descriptor.allowPublicUpdates,
+                    sourceFileName = sourceFile.name,
+                    minSupportedAppVersion = descriptor.minSupportedAppVersion,
+                    maxSupportedAppVersion = descriptor.maxSupportedAppVersion,
+                    protection = descriptor.protection
+                )
+
+            val entry =
+                registerMarketEntry(
+                    payload = payload,
+                    existingEntryId = request.publishContext?.entryId,
+                    publishContext = request.publishContext
+                ).getOrElse { error ->
+                    return@withContext Result.success(
+                        PublishAttemptResult.RegistrationFailed(
+                            errorMessage = error.message ?: "Failed to register market entry"
+                        )
+                    )
+                }
+
+            onProgress(PublishProgressStage.COMPLETED)
+            Result.success(
+                PublishAttemptResult.Success(
+                    entry = entry,
+                    release = resolvedAsset.release,
+                    asset = resolvedAsset.asset,
+                    payload = payload
+                )
+            )
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
+    private suspend fun ensureForgeRepository(
+        publisherLogin: String,
+        allowCreateForgeRepo: Boolean
+    ): Result<ForgeRepoInfo?> {
+        val existingRepo = githubApiService.getRepository(publisherLogin, OPERIT_FORGE_REPO_NAME)
+        val existingRepoValue = existingRepo.getOrNull()
+        if (existingRepoValue != null) {
+            if (existingRepoValue.size == 0) {
+                initializeForgeRepository(
+                    owner = publisherLogin,
+                    repo = existingRepoValue.name
+                ).getOrElse { error ->
+                    return Result.failure(error)
+                }
+            }
+            return Result.success(
+                ForgeRepoInfo(
+                    ownerLogin = publisherLogin,
+                    repoName = existingRepoValue.name,
+                    htmlUrl = existingRepoValue.html_url,
+                    existedBefore = true
+                )
+            )
+        }
+
+        val failureMessage = existingRepo.exceptionOrNull()?.message.orEmpty()
+        if (!failureMessage.contains("HTTP 404")) {
+            return Result.failure(existingRepo.exceptionOrNull() ?: Exception("Failed to load OperitForge"))
+        }
+
+        if (!allowCreateForgeRepo) {
+            return Result.success(null)
+        }
+
+        return githubApiService.createRepository(
+            name = OPERIT_FORGE_REPO_NAME,
+            description = "Operit publish-only artifact repository for release assets.",
+            isPrivate = false,
+            autoInit = true
+        ).map { repo ->
+            ForgeRepoInfo(
+                ownerLogin = publisherLogin,
+                repoName = repo.name,
+                htmlUrl = repo.html_url,
+                existedBefore = false
+            )
+        }
+    }
+
+    private fun parseGitHubRepositoryUrl(repositoryUrl: String): GitHubReleaseRepository {
+        val parsed = URI(repositoryUrl.trim())
+        require(parsed.scheme.equals("https", ignoreCase = true)) {
+            "GitHub repository URL must use HTTPS"
+        }
+        require(parsed.host.equals("github.com", ignoreCase = true) || parsed.host.equals("www.github.com", ignoreCase = true)) {
+            "GitHub repository URL must point to github.com"
+        }
+        val pathParts = parsed.path.trim('/').split('/').filter(String::isNotBlank)
+        require(pathParts.size >= 2) {
+            "GitHub repository URL must include owner and repository"
+        }
+        val owner = pathParts[0]
+        val repository = pathParts[1].removeSuffix(".git")
+        val validSegment = Regex("[A-Za-z0-9_.-]+")
+        require(validSegment.matches(owner) && validSegment.matches(repository)) {
+            "GitHub repository URL contains an invalid owner or repository"
+        }
+        return GitHubReleaseRepository(owner = owner, repository = repository)
+    }
+
+    private suspend fun initializeForgeRepository(
+        owner: String,
+        repo: String
+    ): Result<Unit> {
+        return githubApiService.createTextFile(
+            owner = owner,
+            repo = repo,
+            path = "README.md",
+            message = "Initialize OperitForge repository",
+            textContent =
+                buildString {
+                    appendLine("# OperitForge")
+                    appendLine()
+                    appendLine("This repository stores release assets published from Operit.")
+                }
+        )
+    }
+
+    private suspend fun ensureRelease(
+        owner: String,
+        repo: String,
+        releaseDescriptor: PublishReleaseDescriptor
+    ): Result<EnsuredRelease> {
+        val existing =
+            githubApiService.findReleaseByTag(owner, repo, releaseDescriptor.tagName).getOrElse { error ->
+                return Result.failure(error)
+            }
+
+        return if (existing == null) {
+            githubApiService.createRelease(
+                owner = owner,
+                repo = repo,
+                tagName = releaseDescriptor.tagName,
+                name = releaseDescriptor.releaseName,
+                body = releaseDescriptor.releaseBody,
+                draft = false,
+                prerelease = false
+            ).map { release -> EnsuredRelease(release = release, created = true) }
+        } else {
+            githubApiService.updateRelease(
+                owner = owner,
+                repo = repo,
+                releaseId = existing.id,
+                name = releaseDescriptor.releaseName,
+                body = releaseDescriptor.releaseBody,
+                draft = false,
+                prerelease = false
+            ).map { release -> EnsuredRelease(release = release, created = false) }
+        }
+    }
+
+    private suspend fun uploadAssetReplacingExisting(
+        owner: String,
+        repo: String,
+        release: GitHubRelease,
+        descriptor: PublishArtifactDescriptor,
+        content: ByteArray
+    ): Result<GitHubReleaseAsset> {
+        release.assets
+            .firstOrNull { it.name.equals(descriptor.assetName, ignoreCase = true) }
+            ?.let { existingAsset ->
+                githubApiService.deleteReleaseAsset(owner, repo, existingAsset.id).getOrElse { error ->
+                    return Result.failure(error)
+                }
+            }
+
+        return githubApiService.uploadReleaseAsset(
+            owner = owner,
+            repo = repo,
+            releaseId = release.id,
+            assetName = descriptor.assetName,
+            contentType = descriptor.contentType,
+            content = content
+        )
+    }
+
+    private suspend fun registerMarketEntry(
+        payload: MarketRegistrationPayload,
+        existingEntryId: String?,
+        publishContext: ArtifactPublishClusterContext?
+    ): Result<MarketV2Entry> {
+        val request =
+            MarketV2PublishRequest(
+                type = payload.type.wireValue,
+                title = payload.displayName,
+                description = payload.description,
+                categoryId = payload.categoryId,
+                allowPublicUpdates = payload.allowPublicUpdates,
+                detail = payload.detail.ifBlank { payload.description },
+                version = MarketV2PublishVersion(
+                    version = payload.version,
+                    formatVer = payload.type.marketFormatVersion(),
+                    minAppVer = requireNotNull(payload.minSupportedAppVersion) { "Minimum supported app version is required" },
+                    maxAppVer = payload.maxSupportedAppVersion ?: DEFAULT_MAX_SUPPORTED_APP_VERSION,
+                    apiVersion = payload.apiVersion,
+                    projectId = payload.projectId,
+                    runtimePackageId = payload.runtimePackageId
+                ),
+                asset = MarketV2PublishAsset(
+                    kind = "github_release_asset",
+                    url = payload.downloadUrl,
+                    ghOwner = payload.releaseOwner,
+                    ghRepo = payload.releaseRepository,
+                    ghReleaseTag = payload.releaseTag,
+                    assetName = payload.assetName,
+                    sha256 = payload.sha256
+                )
+            )
+        val resolvedEntryId = existingEntryId?.trim().orEmpty()
+        if (resolvedEntryId.isBlank()) return marketStatsApiService.publish(request)
+
+        return marketStatsApiService.publishNewVersion(
+            entryId = resolvedEntryId,
+            request = request,
+            entryPatch = buildNewVersionEntryPatch(payload, publishContext)
+        ).map { response ->
+            MarketV2Entry(
+                type = payload.type.wireValue,
+                id = response.entryId,
+                title = payload.displayName,
+                description = payload.description,
+                detail = payload.detail.ifBlank { payload.description },
+                stateCode = "pending",
+                latestVersion = MarketV2Version(
+                    id = response.versionId,
+                    version = payload.version,
+                    formatVer = payload.type.marketFormatVersion(),
+                    minAppVer = requireNotNull(payload.minSupportedAppVersion) { "Minimum supported app version is required" },
+                    maxAppVer = payload.maxSupportedAppVersion ?: DEFAULT_MAX_SUPPORTED_APP_VERSION,
+                    apiVersion = payload.apiVersion,
+                    stateCode = "pending",
+                    projectId = payload.projectId,
+                    runtimePackageId = payload.runtimePackageId
+                )
+            )
+        }
+    }
+
+    private fun buildNewVersionEntryPatch(
+        payload: MarketRegistrationPayload,
+        publishContext: ArtifactPublishClusterContext?
+    ): MarketV2NewVersionEntryPatch? {
+        val context = publishContext ?: return null
+        val patch =
+            if (context.canEditEntry) {
+                MarketV2NewVersionEntryPatch(
+                    title = payload.displayName.takeIf { it != context.lockedDisplayName },
+                    description = payload.description.takeIf { it != context.marketDescription },
+                    detail = payload.detail.takeIf { it != context.marketDetail },
+                    categoryId = payload.categoryId.takeIf { it != context.categoryId }
+                )
+            } else {
+                MarketV2NewVersionEntryPatch(
+                    description = payload.description.takeIf { it != context.marketDescription },
+                    detail = payload.detail.takeIf { it != context.marketDetail }
+                )
+            }
+        return patch.takeIf {
+            it.title != null ||
+                it.description != null ||
+                it.detail != null ||
+                it.categoryId != null ||
+                it.allowPublicUpdates != null
+        }
+    }
+
+    private fun validateSourceFile(file: File) {
+        require(file.exists()) { "Source file not found: ${file.absolutePath}" }
+        require(file.isFile) { "Source path is not a file: ${file.absolutePath}" }
+        require(file.canRead()) { "Cannot read source file: ${file.absolutePath}" }
+    }
+
+    private fun sha256Hex(bytes: ByteArray): String {
+        val digest = MessageDigest.getInstance("SHA-256").digest(bytes)
+        return digest.joinToString("") { "%02x".format(it) }
+    }
+    companion object {
+        const val DEFAULT_MAX_SUPPORTED_APP_VERSION = "1.99.99"
+    }
+}

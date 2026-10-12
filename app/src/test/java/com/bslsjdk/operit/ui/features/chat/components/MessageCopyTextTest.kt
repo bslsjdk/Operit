@@ -1,1 +1,124 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdE1lc3NhZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlRGlzcGxheU1vZGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy50ZXN0LnJ1blRlc3QKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgTWVzc2FnZUNvcHlUZXh0VGVzdCB7CgogICAgQFRlc3QgZnVuIGNsZWFuTWVzc2FnZUNvbnRlbnRGb3JDb3B5X3JlbW92ZXNNdWx0aXBsZU9wZW5BaVJlYXNvbmluZ01ldGFkYXRhKCkgewogICAgICAgIHZhbCBjb250ZW50ID0KICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIDxtZXRhIHByb3ZpZGVyPSJvcGVuYWk6cmVzcG9uc2VzX3JlYXNvbmluZyI+Zmlyc3QtcGF5bG9hZDwvbWV0YT4KICAgICAgICAgICAgPHRvb2wgbmFtZT0icnVuIj48cGFyYW0gbmFtZT0iY29tbWFuZCI+cHdkPC9wYXJhbT48L3Rvb2w+CiAgICAgICAgICAgIDxtZXRhIHByb3ZpZGVyPSJvcGVuYWk6cmVzcG9uc2VzX3JlYXNvbmluZyI+c2Vjb25kLXBheWxvYWQ8L21ldGE+CiAgICAgICAgICAgIGZpbmFsIGFuc3dlcgogICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIGFzc2VydEVxdWFscygiZmluYWwgYW5zd2VyIiwgY2xlYW5NZXNzYWdlQ29udGVudEZvckNvcHkoY29udGVudCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGNsZWFuTWVzc2FnZUNvbnRlbnRGb3JDb3B5X3JlbW92ZXNHZW1pbmlUaG91Z2h0U2lnbmF0dXJlKCkgewogICAgICAgIHZhbCBjb250ZW50ID0gInByZWZpeDxtZXRhIHByb3ZpZGVyPVwiZ2VtaW5pOnRob3VnaHRfc2lnbmF0dXJlXCI+c2lnbmF0dXJlPC9tZXRhPnN1ZmZpeCIKCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwcmVmaXhzdWZmaXgiLCBjbGVhbk1lc3NhZ2VDb250ZW50Rm9yQ29weShjb250ZW50KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gY2xlYW5NZXNzYWdlQ29udGVudEZvckNvcHlfcHJlc2VydmVzT3RoZXJNZXRhQW5kTWFya2Rvd24oKSB7CiAgICAgICAgdmFsIGNvbnRlbnQgPSAiPG1ldGEgcHJvdmlkZXI9XCJvdGhlclwiPnZhbHVlPC9tZXRhPlxuKiphbnN3ZXIqKiIKCiAgICAgICAgYXNzZXJ0RXF1YWxzKGNvbnRlbnQsIGNsZWFuTWVzc2FnZUNvbnRlbnRGb3JDb3B5KGNvbnRlbnQpKQogICAgfQoKICAgIEBUZXN0IGZ1biBjbGVhbk1lc3NhZ2VDb250ZW50Rm9yQ29weV9wcmVzZXJ2ZXNIdG1sTWV0YUJlZm9yZUludGVybmFsTWV0YWRhdGEoKSB7CiAgICAgICAgdmFsIGNvbnRlbnQgPQogICAgICAgICAgICAiPG1ldGEgY2hhcnNldD1cInV0Zi04XCI+dmlzaWJsZSIgKwogICAgICAgICAgICAgICAgIjxtZXRhIHByb3ZpZGVyPVwib3BlbmFpOnJlc3BvbnNlc19yZWFzb25pbmdcIj5wYXlsb2FkPC9tZXRhPmFuc3dlciIKCiAgICAgICAgYXNzZXJ0RXF1YWxzKCI8bWV0YSBjaGFyc2V0PVwidXRmLThcIj52aXNpYmxlYW5zd2VyIiwgY2xlYW5NZXNzYWdlQ29udGVudEZvckNvcHkoY29udGVudCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGNsZWFuTWVzc2FnZUNvbnRlbnRGb3JDb3B5X3JlbW92ZXNPcGVuQWlSZXNwb25zZXNPdXRwdXRJdGVtTWV0YWRhdGEoKSB7CiAgICAgICAgdmFsIGNvbnRlbnQgPQogICAgICAgICAgICAiYW5zd2VyIiArCiAgICAgICAgICAgICAgICAiPG1ldGEgcHJvdmlkZXI9XCJvcGVuYWk6cmVzcG9uc2VzX291dHB1dF9pdGVtXCI+cGF5bG9hZDwvbWV0YT4iICsKICAgICAgICAgICAgICAgICI8c2VhcmNoIHByb3ZpZGVyPVwiZGVlcHNlZWtcIj48cXVlcnk+cTwvcXVlcnk+PC9zZWFyY2g+IgoKICAgICAgICBhc3NlcnRFcXVhbHMoImFuc3dlciIsIGNsZWFuTWVzc2FnZUNvbnRlbnRGb3JDb3B5KGNvbnRlbnQpKQogICAgfQoKICAgIEBUZXN0IGZ1biBjbGVhbk1lc3NhZ2VDb250ZW50Rm9yWG1sQ29weV9wcmVzZXJ2ZXNUb29sTWFya3VwV2l0aG91dFByb3ZpZGVyTWV0YWRhdGEoKSB7CiAgICAgICAgdmFsIGNvbnRlbnQgPQogICAgICAgICAgICAiPG1ldGEgcHJvdmlkZXI9XCJvcGVuYWk6cmVzcG9uc2VzX291dHB1dF9pdGVtXCI+cGF5bG9hZDwvbWV0YT4iICsKICAgICAgICAgICAgICAgICI8dG9vbCBuYW1lPVwicnVuXCI+PHBhcmFtIG5hbWU9XCJjb21tYW5kXCI+cHdkPC9wYXJhbT48L3Rvb2w+IiArCiAgICAgICAgICAgICAgICAiPHRvb2xfcmVzdWx0IG5hbWU9XCJydW5cIj48Y29udGVudD5vazwvY29udGVudD48L3Rvb2xfcmVzdWx0PiIKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiPHRvb2wgbmFtZT1cInJ1blwiPjxwYXJhbSBuYW1lPVwiY29tbWFuZFwiPnB3ZDwvcGFyYW0+PC90b29sPiIgKwogICAgICAgICAgICAgICAgIjx0b29sX3Jlc3VsdCBuYW1lPVwicnVuXCI+PGNvbnRlbnQ+b2s8L2NvbnRlbnQ+PC90b29sX3Jlc3VsdD4iLAogICAgICAgICAgICBjbGVhbk1lc3NhZ2VDb250ZW50Rm9yWG1sQ29weShjb250ZW50KSwKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIGJ1aWxkU2VsZWN0ZWRNZXNzYWdlc1BsYWluVGV4dF91c2VzTWVzc2FnZU9yZGVyQW5kUGxhaW5UZXh0Q29udmVyc2lvbigpID0gcnVuVGVzdCB7CiAgICAgICAgdmFsIGNoYXRIaXN0b3J5ID0KICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gInVzZXIiLCBjb250ZW50ID0gIioqZmlyc3QqKiIsIHRpbWVzdGFtcCA9IDMwTCksCiAgICAgICAgICAgICAgICBDaGF0TWVzc2FnZShzZW5kZXIgPSAiYWkiLCBjb250ZW50ID0gInNlY29uZCIsIHRpbWVzdGFtcCA9IDEwTCksCiAgICAgICAgICAgICAgICBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIsIGNvbnRlbnQgPSAidGhpcmQiLCB0aW1lc3RhbXAgPSAyMEwpLAogICAgICAgICAgICApCgogICAgICAgIHZhbCByZXN1bHQgPQogICAgICAgICAgICBidWlsZFNlbGVjdGVkTWVzc2FnZXNQbGFpblRleHQoY2hhdEhpc3RvcnkpIHsgbWFya2Rvd24gLT4KICAgICAgICAgICAgICAgIG1hcmtkb3duLnJlcGxhY2UoIioqIiwgIiIpCiAgICAgICAgICAgIH0KCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJmaXJzdFxuXG5zZWNvbmRcblxudGhpcmQiLCByZXN1bHQpCiAgICB9CgogICAgQFRlc3QgZnVuIGJ1aWxkU2VsZWN0ZWRNZXNzYWdlc1BsYWluVGV4dF9jbGVhbnNNZXRhZGF0YUFuZEtlZXBzT25seVVzZXJBbmRBaSgpID0gcnVuVGVzdCB7CiAgICAgICAgdmFsIGNoYXRIaXN0b3J5ID0KICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgQ2hhdE1lc3NhZ2UoCiAgICAgICAgICAgICAgICAgICAgc2VuZGVyID0gInVzZXIiLAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnQgPSAiYW5zd2VyPG1ldGEgcHJvdmlkZXI9XCJnZW1pbmk6dGhvdWdodF9zaWduYXR1cmVcIj5zaWduYXR1cmU8L21ldGE+IiwKICAgICAgICAgICAgICAgICAgICB0aW1lc3RhbXAgPSAxTCwKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBDaGF0TWVzc2FnZShzZW5kZXIgPSAic3lzdGVtIiwgY29udGVudCA9ICJoaWRkZW4iLCB0aW1lc3RhbXAgPSAyTCksCiAgICAgICAgICAgICAgICBDaGF0TWVzc2FnZSgKICAgICAgICAgICAgICAgICAgICBzZW5kZXIgPSAidXNlciIsCiAgICAgICAgICAgICAgICAgICAgY29udGVudCA9ICJoaWRkZW4gcGxhY2Vob2xkZXIiLAogICAgICAgICAgICAgICAgICAgIHRpbWVzdGFtcCA9IDNMLAogICAgICAgICAgICAgICAgICAgIGRpc3BsYXlNb2RlID0gQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS5ISURERU5fUExBQ0VIT0xERVIsCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgQ2hhdE1lc3NhZ2Uoc2VuZGVyID0gImFpIiwgY29udGVudCA9ICI8dGhpbms+ZW1wdHk8L3RoaW5rPiIsIHRpbWVzdGFtcCA9IDRMKSwKICAgICAgICAgICAgICAgIENoYXRNZXNzYWdlKHNlbmRlciA9ICJhaSIsIGNvbnRlbnQgPSAicmVwbHkiLCB0aW1lc3RhbXAgPSA1TCksCiAgICAgICAgICAgICkKCiAgICAgICAgdmFsIHJlc3VsdCA9CiAgICAgICAgICAgIGJ1aWxkU2VsZWN0ZWRNZXNzYWdlc1BsYWluVGV4dChjaGF0SGlzdG9yeSkgeyBjb250ZW50IC0+IGNvbnRlbnQgfQoKICAgICAgICBhc3NlcnRFcXVhbHMoImFuc3dlclxuXG5yZXBseSIsIHJlc3VsdCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYnVpbGRTZWxlY3RlZE1lc3NhZ2VzUGxhaW5UZXh0X2NvbnZlcnRzRWFjaE1lc3NhZ2VPbmNlRm9yTGFyZ2VTZWxlY3Rpb24oKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCBtZXNzYWdlQ291bnQgPSAxMDAKICAgICAgICB2YWwgbWVzc2FnZUNvbnRlbnQgPSAieCIucmVwZWF0KDRfMDk2KQogICAgICAgIHZhbCBjaGF0SGlzdG9yeSA9CiAgICAgICAgICAgIExpc3QobWVzc2FnZUNvdW50KSB7IGluZGV4IC0+CiAgICAgICAgICAgICAgICBDaGF0TWVzc2FnZShzZW5kZXIgPSBpZiAoaW5kZXggJSAyID09IDApICJ1c2VyIiBlbHNlICJhaSIsIGNvbnRlbnQgPSBtZXNzYWdlQ29udGVudCkKICAgICAgICAgICAgfQogICAgICAgIHZhciBjb252ZXJzaW9uQ291bnQgPSAwCgogICAgICAgIHZhbCByZXN1bHQgPQogICAgICAgICAgICBidWlsZFNlbGVjdGVkTWVzc2FnZXNQbGFpblRleHQoY2hhdEhpc3RvcnkpIHsgY29udGVudCAtPgogICAgICAgICAgICAgICAgY29udmVyc2lvbkNvdW50ICs9IDEKICAgICAgICAgICAgICAgIGNvbnRlbnQKICAgICAgICAgICAgfQoKICAgICAgICBhc3NlcnRFcXVhbHMobWVzc2FnZUNvdW50LCBjb252ZXJzaW9uQ291bnQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG1lc3NhZ2VDb3VudCAqIG1lc3NhZ2VDb250ZW50Lmxlbmd0aCArIChtZXNzYWdlQ291bnQgLSAxKSAqIDIsIHJlc3VsdC5sZW5ndGgpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.chat.components
+
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.data.model.ChatMessageDisplayMode
+import kotlinx.coroutines.test.runTest
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class MessageCopyTextTest {
+
+    @Test fun cleanMessageContentForCopy_removesMultipleOpenAiReasoningMetadata() {
+        val content =
+            """
+            <meta provider="openai:responses_reasoning">first-payload</meta>
+            <tool name="run"><param name="command">pwd</param></tool>
+            <meta provider="openai:responses_reasoning">second-payload</meta>
+            final answer
+            """.trimIndent()
+
+        assertEquals("final answer", cleanMessageContentForCopy(content))
+    }
+
+    @Test fun cleanMessageContentForCopy_removesGeminiThoughtSignature() {
+        val content = "prefix<meta provider=\"gemini:thought_signature\">signature</meta>suffix"
+
+        assertEquals("prefixsuffix", cleanMessageContentForCopy(content))
+    }
+
+    @Test fun cleanMessageContentForCopy_preservesOtherMetaAndMarkdown() {
+        val content = "<meta provider=\"other\">value</meta>\n**answer**"
+
+        assertEquals(content, cleanMessageContentForCopy(content))
+    }
+
+    @Test fun cleanMessageContentForCopy_preservesHtmlMetaBeforeInternalMetadata() {
+        val content =
+            "<meta charset=\"utf-8\">visible" +
+                "<meta provider=\"openai:responses_reasoning\">payload</meta>answer"
+
+        assertEquals("<meta charset=\"utf-8\">visibleanswer", cleanMessageContentForCopy(content))
+    }
+
+    @Test fun cleanMessageContentForCopy_removesOpenAiResponsesOutputItemMetadata() {
+        val content =
+            "answer" +
+                "<meta provider=\"openai:responses_output_item\">payload</meta>" +
+                "<search provider=\"deepseek\"><query>q</query></search>"
+
+        assertEquals("answer", cleanMessageContentForCopy(content))
+    }
+
+    @Test fun cleanMessageContentForXmlCopy_preservesToolMarkupWithoutProviderMetadata() {
+        val content =
+            "<meta provider=\"openai:responses_output_item\">payload</meta>" +
+                "<tool name=\"run\"><param name=\"command\">pwd</param></tool>" +
+                "<tool_result name=\"run\"><content>ok</content></tool_result>"
+
+        assertEquals(
+            "<tool name=\"run\"><param name=\"command\">pwd</param></tool>" +
+                "<tool_result name=\"run\"><content>ok</content></tool_result>",
+            cleanMessageContentForXmlCopy(content),
+        )
+    }
+
+    @Test fun buildSelectedMessagesPlainText_usesMessageOrderAndPlainTextConversion() = runTest {
+        val chatHistory =
+            listOf(
+                ChatMessage(sender = "user", content = "**first**", timestamp = 30L),
+                ChatMessage(sender = "ai", content = "second", timestamp = 10L),
+                ChatMessage(sender = "user", content = "third", timestamp = 20L),
+            )
+
+        val result =
+            buildSelectedMessagesPlainText(chatHistory) { markdown ->
+                markdown.replace("**", "")
+            }
+
+        assertEquals("first\n\nsecond\n\nthird", result)
+    }
+
+    @Test fun buildSelectedMessagesPlainText_cleansMetadataAndKeepsOnlyUserAndAi() = runTest {
+        val chatHistory =
+            listOf(
+                ChatMessage(
+                    sender = "user",
+                    content = "answer<meta provider=\"gemini:thought_signature\">signature</meta>",
+                    timestamp = 1L,
+                ),
+                ChatMessage(sender = "system", content = "hidden", timestamp = 2L),
+                ChatMessage(
+                    sender = "user",
+                    content = "hidden placeholder",
+                    timestamp = 3L,
+                    displayMode = ChatMessageDisplayMode.HIDDEN_PLACEHOLDER,
+                ),
+                ChatMessage(sender = "ai", content = "<think>empty</think>", timestamp = 4L),
+                ChatMessage(sender = "ai", content = "reply", timestamp = 5L),
+            )
+
+        val result =
+            buildSelectedMessagesPlainText(chatHistory) { content -> content }
+
+        assertEquals("answer\n\nreply", result)
+    }
+
+    @Test fun buildSelectedMessagesPlainText_convertsEachMessageOnceForLargeSelection() = runTest {
+        val messageCount = 100
+        val messageContent = "x".repeat(4_096)
+        val chatHistory =
+            List(messageCount) { index ->
+                ChatMessage(sender = if (index % 2 == 0) "user" else "ai", content = messageContent)
+            }
+        var conversionCount = 0
+
+        val result =
+            buildSelectedMessagesPlainText(chatHistory) { content ->
+                conversionCount += 1
+                content
+            }
+
+        assertEquals(messageCount, conversionCount)
+        assertEquals(messageCount * messageContent.length + (messageCount - 1) * 2, result.length)
+    }
+}

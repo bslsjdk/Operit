@@ -1,1 +1,102 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLnRhc2tlcgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Ccm9hZGNhc3RSZWNlaXZlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnJlcG9zaXRvcnkuV29ya2Zsb3dSZXBvc2l0b3J5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqCiAqIEJyb2FkY2FzdFJlY2VpdmVyIGZvciByZWNlaXZpbmcgd29ya2Zsb3cgdHJpZ2dlciByZXF1ZXN0cyBmcm9tIFRhc2tlcgogKiAKICogVGhpcyByZWNlaXZlciBhbGxvd3MgVGFza2VyIHRvIHRyaWdnZXIgT3Blcml0IHdvcmtmbG93cyB2aWEgYnJvYWRjYXN0cy4KICovCmNsYXNzIFdvcmtmbG93VGFza2VyUmVjZWl2ZXIgOiBCcm9hZGNhc3RSZWNlaXZlcigpIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiV29ya2Zsb3dUYXNrZXJSZWNlaXZlciIKICAgICAgICBjb25zdCB2YWwgQUNUSU9OX1RSSUdHRVJfV09SS0ZMT1cgPSAiY29tLmJzbHNqZGsub3Blcml0LlRSSUdHRVJfV09SS0ZMT1ciCiAgICAgICAgCiAgICAgICAgLyoqCiAgICAgICAgICogQ3JlYXRlcyBhbiBpbnRlbnQgdG8gdHJpZ2dlciB3b3JrZmxvd3MgYmFzZWQgb24gaW50ZW50IGRhdGEuCiAgICAgICAgICogVGhpcyBjYW4gYmUgdXNlZCBieSBvdGhlciBwYXJ0cyBvZiB0aGUgYXBwIG9yIGV4dGVybmFsIGFwcHMgdG8gdHJpZ2dlciBhIGNoZWNrLgogICAgICAgICAqLwogICAgICAgIGZ1biBjcmVhdGVUcmlnZ2VySW50ZW50KGNvbnRleHQ6IENvbnRleHQsIGV4dHJhczogQnVuZGxlPyA9IG51bGwpOiBJbnRlbnQgewogICAgICAgICAgICByZXR1cm4gSW50ZW50KEFDVElPTl9UUklHR0VSX1dPUktGTE9XKS5hcHBseSB7CiAgICAgICAgICAgICAgICBzZXRQYWNrYWdlKGNvbnRleHQucGFja2FnZU5hbWUpCiAgICAgICAgICAgICAgICBleHRyYXM/LmxldCB7IHB1dEV4dHJhcyhpdCkgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblJlY2VpdmUoY29udGV4dDogQ29udGV4dCwgaW50ZW50OiBJbnRlbnQpIHsKICAgICAgICB2YWwgYWN0aW9uID0gaW50ZW50LmFjdGlvbgogICAgICAgIGlmIChhY3Rpb24uaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUmVjZWl2ZWQgd29ya2Zsb3cgdHJpZ2dlciBicm9hZGNhc3QgZm9yIGFjdGlvbjogJGFjdGlvbi4gQ2hlY2tpbmcgZm9yIG1hdGNoaW5nIHdvcmtmbG93cy4iKQoKICAgICAgICAvLyBVc2UgZ29Bc3luYyB0byBhbGxvdyBhc3luYyB3b3JrCiAgICAgICAgdmFsIHBlbmRpbmdSZXN1bHQgPSBnb0FzeW5jKCkKICAgICAgICAKICAgICAgICBDb3JvdXRpbmVTY29wZShEaXNwYXRjaGVycy5JTykubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCByZXBvc2l0b3J5ID0gV29ya2Zsb3dSZXBvc2l0b3J5KGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KQogICAgICAgICAgICAgICAgLy8gTmV3IG1ldGhvZCB0byBmaW5kIGFuZCB0cmlnZ2VyIHdvcmtmbG93cyBiYXNlZCBvbiB0aGUgaW50ZW50J3MgY29udGVudCAoYWN0aW9uLCBleHRyYXMsIGV0Yy4pCiAgICAgICAgICAgICAgICByZXBvc2l0b3J5LnRyaWdnZXJXb3JrZmxvd3NCeUludGVudEV2ZW50KGludGVudCkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkZpbmlzaGVkIHByb2Nlc3NpbmcgaW50ZW50IHRyaWdnZXIuIikKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBwcm9jZXNzaW5nIGludGVudCB0cmlnZ2VyIGZvciB3b3JrZmxvd3MiLCBlKQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgcGVuZGluZ1Jlc3VsdC5maW5pc2goKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgovKioKICogQnJvYWRjYXN0UmVjZWl2ZXIgZm9yIGJvb3QgY29tcGxldGVkIGV2ZW50CiAqIAogKiBSZS1zY2hlZHVsZXMgYWxsIGVuYWJsZWQgd29ya2Zsb3dzIGFmdGVyIGRldmljZSByZWJvb3QKICovCmNsYXNzIFdvcmtmbG93Qm9vdFJlY2VpdmVyIDogQnJvYWRjYXN0UmVjZWl2ZXIoKSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIldvcmtmbG93Qm9vdFJlY2VpdmVyIgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblJlY2VpdmUoY29udGV4dDogQ29udGV4dCwgaW50ZW50OiBJbnRlbnQpIHsKICAgICAgICBpZiAoaW50ZW50LmFjdGlvbiAhPSBJbnRlbnQuQUNUSU9OX0JPT1RfQ09NUExFVEVEKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiRGV2aWNlIGJvb3RlZCwgcmVzY2hlZHVsaW5nIHdvcmtmbG93cyIpCgogICAgICAgIC8vIFVzZSBnb0FzeW5jIHRvIGFsbG93IGFzeW5jIHdvcmsKICAgICAgICB2YWwgcGVuZGluZ1Jlc3VsdCA9IGdvQXN5bmMoKQogICAgICAgIAogICAgICAgIENvcm91dGluZVNjb3BlKERpc3BhdGNoZXJzLklPKS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHJlcG9zaXRvcnkgPSBXb3JrZmxvd1JlcG9zaXRvcnkoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gcmVwb3NpdG9yeS5nZXRBbGxXb3JrZmxvd3MoKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICByZXN1bHQuZ2V0T3JOdWxsKCk/LmZvckVhY2ggeyB3b3JrZmxvdyAtPgogICAgICAgICAgICAgICAgICAgIGlmICh3b3JrZmxvdy5lbmFibGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJlcG9zaXRvcnkuc2NoZWR1bGVXb3JrZmxvdyh3b3JrZmxvdy5pZCkKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUmVzY2hlZHVsZWQgd29ya2Zsb3c6ICR7d29ya2Zsb3cubmFtZX0iKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciByZXNjaGVkdWxpbmcgd29ya2Zsb3dzIGFmdGVyIGJvb3QiLCBlKQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgcGVuZGluZ1Jlc3VsdC5maW5pc2goKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cgo=
+package com.bslsjdk.operit.integrations.tasker
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import android.os.Bundle
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.data.repository.WorkflowRepository
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+/**
+ * BroadcastReceiver for receiving workflow trigger requests from Tasker
+ * 
+ * This receiver allows Tasker to trigger Operit workflows via broadcasts.
+ */
+class WorkflowTaskerReceiver : BroadcastReceiver() {
+
+    companion object {
+        private const val TAG = "WorkflowTaskerReceiver"
+        const val ACTION_TRIGGER_WORKFLOW = "com.bslsjdk.operit.TRIGGER_WORKFLOW"
+        
+        /**
+         * Creates an intent to trigger workflows based on intent data.
+         * This can be used by other parts of the app or external apps to trigger a check.
+         */
+        fun createTriggerIntent(context: Context, extras: Bundle? = null): Intent {
+            return Intent(ACTION_TRIGGER_WORKFLOW).apply {
+                setPackage(context.packageName)
+                extras?.let { putExtras(it) }
+            }
+        }
+    }
+
+    override fun onReceive(context: Context, intent: Intent) {
+        val action = intent.action
+        if (action.isNullOrBlank()) {
+            return
+        }
+
+        AppLogger.d(TAG, "Received workflow trigger broadcast for action: $action. Checking for matching workflows.")
+
+        // Use goAsync to allow async work
+        val pendingResult = goAsync()
+        
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val repository = WorkflowRepository(context.applicationContext)
+                // New method to find and trigger workflows based on the intent's content (action, extras, etc.)
+                repository.triggerWorkflowsByIntentEvent(intent)
+                AppLogger.d(TAG, "Finished processing intent trigger.")
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error processing intent trigger for workflows", e)
+            } finally {
+                pendingResult.finish()
+            }
+        }
+    }
+}
+
+/**
+ * BroadcastReceiver for boot completed event
+ * 
+ * Re-schedules all enabled workflows after device reboot
+ */
+class WorkflowBootReceiver : BroadcastReceiver() {
+
+    companion object {
+        private const val TAG = "WorkflowBootReceiver"
+    }
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action != Intent.ACTION_BOOT_COMPLETED) {
+            return
+        }
+
+        AppLogger.d(TAG, "Device booted, rescheduling workflows")
+
+        // Use goAsync to allow async work
+        val pendingResult = goAsync()
+        
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val repository = WorkflowRepository(context.applicationContext)
+                val result = repository.getAllWorkflows()
+                
+                result.getOrNull()?.forEach { workflow ->
+                    if (workflow.enabled) {
+                        repository.scheduleWorkflow(workflow.id)
+                        AppLogger.d(TAG, "Rescheduled workflow: ${workflow.name}")
+                    }
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error rescheduling workflows after boot", e)
+            } finally {
+                pendingResult.finish()
+            }
+        }
+    }
+}
+

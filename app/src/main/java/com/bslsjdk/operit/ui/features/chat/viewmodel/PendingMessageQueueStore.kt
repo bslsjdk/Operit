@@ -1,1 +1,105 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC52aWV3bW9kZWwKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnN0eWxlLmlucHV0LmNvbW1vbi5QZW5kaW5nUXVldWVNZXNzYWdlSXRlbQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0xvbmcKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKCmludGVybmFsIGRhdGEgY2xhc3MgUGVuZGluZ01lc3NhZ2VRdWV1ZVN0YXRlKAogICAgdmFsIG1lc3NhZ2VzOiBMaXN0PFBlbmRpbmdRdWV1ZU1lc3NhZ2VJdGVtPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGlzRXhwYW5kZWQ6IEJvb2xlYW4gPSB0cnVlLAogICAgdmFsIHdhc0Jsb2NrZWQ6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBzdXBwcmVzc05leHRBdXRvRGVxdWV1ZTogQm9vbGVhbiA9IGZhbHNlLAopCgppbnRlcm5hbCBjbGFzcyBQZW5kaW5nTWVzc2FnZVF1ZXVlU3RvcmUgewogICAgcHJpdmF0ZSB2YWwgbG9jayA9IEFueSgpCiAgICBwcml2YXRlIHZhbCBuZXh0TWVzc2FnZUlkID0gQXRvbWljTG9uZygxTCkKICAgIHByaXZhdGUgdmFsIF9zdGF0ZXMgPSBNdXRhYmxlU3RhdGVGbG93PE1hcDxTdHJpbmcsIFBlbmRpbmdNZXNzYWdlUXVldWVTdGF0ZT4+KGVtcHR5TWFwKCkpCgogICAgdmFsIHN0YXRlczogU3RhdGVGbG93PE1hcDxTdHJpbmcsIFBlbmRpbmdNZXNzYWdlUXVldWVTdGF0ZT4+ID0gX3N0YXRlcy5hc1N0YXRlRmxvdygpCgogICAgZnVuIGVucXVldWUoY2hhdElkOiBTdHJpbmcsIHRleHQ6IFN0cmluZywgaXNRdWV1ZUJsb2NrZWQ6IEJvb2xlYW4pIHsKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICB1cGRhdGVTdGF0ZShjaGF0SWQpIHsgc3RhdGUgLT4KICAgICAgICAgICAgICAgIHN0YXRlLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZXMgPSBzdGF0ZS5tZXNzYWdlcyArIFBlbmRpbmdRdWV1ZU1lc3NhZ2VJdGVtKG5leHRNZXNzYWdlSWQuZ2V0QW5kSW5jcmVtZW50KCksIHRleHQpLAogICAgICAgICAgICAgICAgICAgIGlzRXhwYW5kZWQgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgIHdhc0Jsb2NrZWQgPSBpc1F1ZXVlQmxvY2tlZCwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gcmVtb3ZlKGNoYXRJZDogU3RyaW5nLCBtZXNzYWdlSWQ6IExvbmcpOiBQZW5kaW5nUXVldWVNZXNzYWdlSXRlbT8gPSBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgIHZhbCBzdGF0ZSA9IF9zdGF0ZXMudmFsdWVbY2hhdElkXSA/OiByZXR1cm5Ac3luY2hyb25pemVkIG51bGwKICAgICAgICB2YWwgbWVzc2FnZUluZGV4ID0gc3RhdGUubWVzc2FnZXMuaW5kZXhPZkZpcnN0IHsgaXRlbSAtPiBpdGVtLmlkID09IG1lc3NhZ2VJZCB9CiAgICAgICAgaWYgKG1lc3NhZ2VJbmRleCA8IDApIHJldHVybkBzeW5jaHJvbml6ZWQgbnVsbAoKICAgICAgICB2YWwgbWVzc2FnZSA9IHN0YXRlLm1lc3NhZ2VzW21lc3NhZ2VJbmRleF0KICAgICAgICB1cGRhdGVTdGF0ZShjaGF0SWQpIHsKICAgICAgICAgICAgaXQuY29weShtZXNzYWdlcyA9IGl0Lm1lc3NhZ2VzLmZpbHRlck5vdCB7IGl0ZW0gLT4gaXRlbS5pZCA9PSBtZXNzYWdlSWQgfSkKICAgICAgICB9CiAgICAgICAgbWVzc2FnZQogICAgfQoKICAgIGZ1biByZXN0b3JlKGNoYXRJZDogU3RyaW5nLCBtZXNzYWdlOiBQZW5kaW5nUXVldWVNZXNzYWdlSXRlbSkgewogICAgICAgIHN5bmNocm9uaXplZChsb2NrKSB7CiAgICAgICAgICAgIHVwZGF0ZVN0YXRlKGNoYXRJZCkgeyBzdGF0ZSAtPgogICAgICAgICAgICAgICAgaWYgKHN0YXRlLm1lc3NhZ2VzLmFueSB7IGl0ZW0gLT4gaXRlbS5pZCA9PSBtZXNzYWdlLmlkIH0pIHsKICAgICAgICAgICAgICAgICAgICBzdGF0ZQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBzdGF0ZS5jb3B5KG1lc3NhZ2VzID0gbGlzdE9mKG1lc3NhZ2UpICsgc3RhdGUubWVzc2FnZXMpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIHNldEV4cGFuZGVkKGNoYXRJZDogU3RyaW5nLCBleHBhbmRlZDogQm9vbGVhbikgewogICAgICAgIHN5bmNocm9uaXplZChsb2NrKSB7CiAgICAgICAgICAgIHVwZGF0ZVN0YXRlKGNoYXRJZCkgeyBzdGF0ZSAtPiBzdGF0ZS5jb3B5KGlzRXhwYW5kZWQgPSBleHBhbmRlZCkgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gc3VwcHJlc3NOZXh0QXV0b0RlcXVldWUoY2hhdElkOiBTdHJpbmcpIHsKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICB1cGRhdGVTdGF0ZShjaGF0SWQpIHsgc3RhdGUgLT4gc3RhdGUuY29weShzdXBwcmVzc05leHRBdXRvRGVxdWV1ZSA9IHRydWUpIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGNvbnN1bWVBdXRvRGVxdWV1ZVNpZ25hbChjaGF0SWQ6IFN0cmluZywgaXNRdWV1ZUJsb2NrZWQ6IEJvb2xlYW4pOiBCb29sZWFuID0KICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICB2YWwgc3RhdGUgPSBfc3RhdGVzLnZhbHVlW2NoYXRJZF0gPzogcmV0dXJuQHN5bmNocm9uaXplZCBmYWxzZQogICAgICAgICAgICB2YWwgc2hvdWxkQXV0b0RlcXVldWUgPQogICAgICAgICAgICAgICAgc3RhdGUud2FzQmxvY2tlZCAmJgogICAgICAgICAgICAgICAgICAgICFpc1F1ZXVlQmxvY2tlZCAmJgogICAgICAgICAgICAgICAgICAgICFzdGF0ZS5zdXBwcmVzc05leHRBdXRvRGVxdWV1ZSAmJgogICAgICAgICAgICAgICAgICAgIHN0YXRlLm1lc3NhZ2VzLmlzTm90RW1wdHkoKQogICAgICAgICAgICB1cGRhdGVTdGF0ZShjaGF0SWQpIHsKICAgICAgICAgICAgICAgIGl0LmNvcHkoCiAgICAgICAgICAgICAgICAgICAgd2FzQmxvY2tlZCA9IGlzUXVldWVCbG9ja2VkLAogICAgICAgICAgICAgICAgICAgIHN1cHByZXNzTmV4dEF1dG9EZXF1ZXVlID0KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGlzUXVldWVCbG9ja2VkKSBpdC5zdXBwcmVzc05leHRBdXRvRGVxdWV1ZSBlbHNlIGZhbHNlLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHNob3VsZEF1dG9EZXF1ZXVlCiAgICAgICAgfQoKICAgIGZ1biByZW1vdmVDaGF0KGNoYXRJZDogU3RyaW5nKSB7CiAgICAgICAgc3luY2hyb25pemVkKGxvY2spIHsKICAgICAgICAgICAgaWYgKGNoYXRJZCBpbiBfc3RhdGVzLnZhbHVlKSB7CiAgICAgICAgICAgICAgICBfc3RhdGVzLnZhbHVlID0gX3N0YXRlcy52YWx1ZSAtIGNoYXRJZAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHVwZGF0ZVN0YXRlKAogICAgICAgIGNoYXRJZDogU3RyaW5nLAogICAgICAgIHRyYW5zZm9ybTogKFBlbmRpbmdNZXNzYWdlUXVldWVTdGF0ZSkgLT4gUGVuZGluZ01lc3NhZ2VRdWV1ZVN0YXRlLAogICAgKSB7CiAgICAgICAgdmFsIHVwZGF0ZWRTdGF0ZXMgPSBfc3RhdGVzLnZhbHVlLnRvTXV0YWJsZU1hcCgpCiAgICAgICAgdXBkYXRlZFN0YXRlc1tjaGF0SWRdID0gdHJhbnNmb3JtKHVwZGF0ZWRTdGF0ZXNbY2hhdElkXSA/OiBQZW5kaW5nTWVzc2FnZVF1ZXVlU3RhdGUoKSkKICAgICAgICBfc3RhdGVzLnZhbHVlID0gdXBkYXRlZFN0YXRlcwogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.viewmodel
+
+import com.bslsjdk.operit.ui.features.chat.components.style.input.common.PendingQueueMessageItem
+import java.util.concurrent.atomic.AtomicLong
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+internal data class PendingMessageQueueState(
+    val messages: List<PendingQueueMessageItem> = emptyList(),
+    val isExpanded: Boolean = true,
+    val wasBlocked: Boolean = false,
+    val suppressNextAutoDequeue: Boolean = false,
+)
+
+internal class PendingMessageQueueStore {
+    private val lock = Any()
+    private val nextMessageId = AtomicLong(1L)
+    private val _states = MutableStateFlow<Map<String, PendingMessageQueueState>>(emptyMap())
+
+    val states: StateFlow<Map<String, PendingMessageQueueState>> = _states.asStateFlow()
+
+    fun enqueue(chatId: String, text: String, isQueueBlocked: Boolean) {
+        synchronized(lock) {
+            updateState(chatId) { state ->
+                state.copy(
+                    messages = state.messages + PendingQueueMessageItem(nextMessageId.getAndIncrement(), text),
+                    isExpanded = true,
+                    wasBlocked = isQueueBlocked,
+                )
+            }
+        }
+    }
+
+    fun remove(chatId: String, messageId: Long): PendingQueueMessageItem? = synchronized(lock) {
+        val state = _states.value[chatId] ?: return@synchronized null
+        val messageIndex = state.messages.indexOfFirst { item -> item.id == messageId }
+        if (messageIndex < 0) return@synchronized null
+
+        val message = state.messages[messageIndex]
+        updateState(chatId) {
+            it.copy(messages = it.messages.filterNot { item -> item.id == messageId })
+        }
+        message
+    }
+
+    fun restore(chatId: String, message: PendingQueueMessageItem) {
+        synchronized(lock) {
+            updateState(chatId) { state ->
+                if (state.messages.any { item -> item.id == message.id }) {
+                    state
+                } else {
+                    state.copy(messages = listOf(message) + state.messages)
+                }
+            }
+        }
+    }
+
+    fun setExpanded(chatId: String, expanded: Boolean) {
+        synchronized(lock) {
+            updateState(chatId) { state -> state.copy(isExpanded = expanded) }
+        }
+    }
+
+    fun suppressNextAutoDequeue(chatId: String) {
+        synchronized(lock) {
+            updateState(chatId) { state -> state.copy(suppressNextAutoDequeue = true) }
+        }
+    }
+
+    fun consumeAutoDequeueSignal(chatId: String, isQueueBlocked: Boolean): Boolean =
+        synchronized(lock) {
+            val state = _states.value[chatId] ?: return@synchronized false
+            val shouldAutoDequeue =
+                state.wasBlocked &&
+                    !isQueueBlocked &&
+                    !state.suppressNextAutoDequeue &&
+                    state.messages.isNotEmpty()
+            updateState(chatId) {
+                it.copy(
+                    wasBlocked = isQueueBlocked,
+                    suppressNextAutoDequeue =
+                        if (isQueueBlocked) it.suppressNextAutoDequeue else false,
+                )
+            }
+            shouldAutoDequeue
+        }
+
+    fun removeChat(chatId: String) {
+        synchronized(lock) {
+            if (chatId in _states.value) {
+                _states.value = _states.value - chatId
+            }
+        }
+    }
+
+    private fun updateState(
+        chatId: String,
+        transform: (PendingMessageQueueState) -> PendingMessageQueueState,
+    ) {
+        val updatedStates = _states.value.toMutableMap()
+        updatedStates[chatId] = transform(updatedStates[chatId] ?: PendingMessageQueueState())
+        _states.value = updatedStates
+    }
+}

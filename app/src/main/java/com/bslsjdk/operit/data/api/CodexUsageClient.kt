@@ -1,1 +1,111 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuQnVpbGRDb25maWcKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS5pby5JT0V4Y2VwdGlvbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CmltcG9ydCBva2h0dHAzLlJlcXVlc3QKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBDb2RleFVzYWdlV2luZG93KAogICAgdmFsIHVzZWRQZXJjZW50OiBJbnQsCiAgICB2YWwgd2luZG93RHVyYXRpb25TZWNvbmRzOiBMb25nPywKICAgIHZhbCByZXNldHNBdEVwb2NoU2Vjb25kczogTG9uZz8sCikgewogICAgdmFsIHJlbWFpbmluZ1BlcmNlbnQ6IEludAogICAgICAgIGdldCgpID0gKDEwMCAtIHVzZWRQZXJjZW50KS5jb2VyY2VJbigwLCAxMDApCn0KCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBDb2RleFVzYWdlU25hcHNob3QoCiAgICB2YWwgcGxhblR5cGU6IFN0cmluZz8sCiAgICB2YWwgZml2ZUhvdXJXaW5kb3c6IENvZGV4VXNhZ2VXaW5kb3c/LAogICAgdmFsIHNldmVuRGF5V2luZG93OiBDb2RleFVzYWdlV2luZG93PywKKQoKY2xhc3MgQ29kZXhVc2FnZUNsaWVudCgKICAgIHByaXZhdGUgdmFsIGNsaWVudDogT2tIdHRwQ2xpZW50LAopIHsKICAgIHN1c3BlbmQgZnVuIGZldGNoKAogICAgICAgIGFjY2Vzc1Rva2VuOiBTdHJpbmcsCiAgICAgICAgYWNjb3VudElkOiBTdHJpbmcsCiAgICAgICAgcmVzaWRlbmN5OiBTdHJpbmc/LAogICAgKTogUmVzdWx0PENvZGV4VXNhZ2VTbmFwc2hvdD4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgcmVxdWVzdCA9IFJlcXVlc3QuQnVpbGRlcigpCiAgICAgICAgICAgICAgICAudXJsKENvZGV4T0F1dGhQcm90b2NvbC5DT0RFWF9VU0FHRV9FTkRQT0lOVCkKICAgICAgICAgICAgICAgIC5nZXQoKQogICAgICAgICAgICAgICAgLmhlYWRlcigiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgJGFjY2Vzc1Rva2VuIikKICAgICAgICAgICAgICAgIC5oZWFkZXIoIkNoYXRHUFQtQWNjb3VudC1JRCIsIGFjY291bnRJZCkKICAgICAgICAgICAgICAgIC5oZWFkZXIoIm9yaWdpbmF0b3IiLCAib3Blcml0IikKICAgICAgICAgICAgICAgIC5oZWFkZXIoIlVzZXItQWdlbnQiLCAiT3Blcml0LyR7QnVpbGRDb25maWcuVkVSU0lPTl9OQU1FfSIpCiAgICAgICAgICAgICAgICAuaGVhZGVyKCJBY2NlcHQiLCAiYXBwbGljYXRpb24vanNvbiIpCiAgICAgICAgICAgICAgICAuaGVhZGVyKCJDYWNoZS1Db250cm9sIiwgIm5vLWNhY2hlIikKICAgICAgICAgICAgICAgIC5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgcmVzaWRlbmN5Py5sZXQgeyBoZWFkZXIoIngtb3BlbmFpLWludGVybmFsLWNvZGV4LXJlc2lkZW5jeSIsIGl0KSB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAuYnVpbGQoKQoKICAgICAgICAgICAgdmFsIGJvZHkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgY2xpZW50Lm5ld0NhbGwocmVxdWVzdCkuZXhlY3V0ZSgpLnVzZSB7IHJlc3BvbnNlIC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3BvbnNlQm9keSA9IHJlc3BvbnNlLmJvZHk/LnN0cmluZygpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgICAgIGlmICghcmVzcG9uc2UuaXNTdWNjZXNzZnVsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IElPRXhjZXB0aW9uKCJDb2RleCB1c2FnZSByZXF1ZXN0IGZhaWxlZCB3aXRoIEhUVFAgJHtyZXNwb25zZS5jb2RlfSIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJlc3BvbnNlQm9keQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBSZXN1bHQuc3VjY2VzcyhwYXJzZVVzYWdlKGJvZHkpKQogICAgICAgIH0gY2F0Y2ggKGVycm9yOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGZldGNoIENvZGV4IHVzYWdlIiwgZXJyb3IpCiAgICAgICAgICAgIFJlc3VsdC5mYWlsdXJlKGVycm9yKQogICAgICAgIH0KICAgIH0KCiAgICBpbnRlcm5hbCBmdW4gcGFyc2VVc2FnZShyZXNwb25zZUJvZHk6IFN0cmluZyk6IENvZGV4VXNhZ2VTbmFwc2hvdCB7CiAgICAgICAgdmFsIHJvb3QgPSBKU09OT2JqZWN0KHJlc3BvbnNlQm9keSkKICAgICAgICB2YWwgcmF0ZUxpbWl0ID0gcm9vdC5vcHRKU09OT2JqZWN0KCJyYXRlX2xpbWl0IikKICAgICAgICB2YWwgd2luZG93cyA9IGxpc3RPZigKICAgICAgICAgICAgcGFyc2VXaW5kb3cocmF0ZUxpbWl0Py5vcHRKU09OT2JqZWN0KCJwcmltYXJ5X3dpbmRvdyIpKSwKICAgICAgICAgICAgcGFyc2VXaW5kb3cocmF0ZUxpbWl0Py5vcHRKU09OT2JqZWN0KCJzZWNvbmRhcnlfd2luZG93IikpLAogICAgICAgICkuZmlsdGVyTm90TnVsbCgpCiAgICAgICAgcmV0dXJuIENvZGV4VXNhZ2VTbmFwc2hvdCgKICAgICAgICAgICAgcGxhblR5cGUgPSByb290Lm9wdFN0cmluZygicGxhbl90eXBlIiwgIiIpLnRyaW0oKS50YWtlSWYgeyBpdC5pc05vdEVtcHR5KCkgfSwKICAgICAgICAgICAgZml2ZUhvdXJXaW5kb3cgPSB3aW5kb3dzLmZpcnN0T3JOdWxsIHsKICAgICAgICAgICAgICAgIGl0LndpbmRvd0R1cmF0aW9uU2Vjb25kcyA9PSBGSVZFX0hPVVJfV0lORE9XX1NFQ09ORFMKICAgICAgICAgICAgfSwKICAgICAgICAgICAgc2V2ZW5EYXlXaW5kb3cgPSB3aW5kb3dzLmZpcnN0T3JOdWxsIHsKICAgICAgICAgICAgICAgIGl0LndpbmRvd0R1cmF0aW9uU2Vjb25kcyA9PSBTRVZFTl9EQVlfV0lORE9XX1NFQ09ORFMKICAgICAgICAgICAgfSwKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VXaW5kb3cod2luZG93OiBKU09OT2JqZWN0Pyk6IENvZGV4VXNhZ2VXaW5kb3c/IHsKICAgICAgICB3aW5kb3cgPzogcmV0dXJuIG51bGwKICAgICAgICBpZiAoIXdpbmRvdy5oYXMoInVzZWRfcGVyY2VudCIpKSByZXR1cm4gbnVsbAoKICAgICAgICB2YWwgdXNlZFBlcmNlbnQgPSB3aW5kb3cub3B0SW50KCJ1c2VkX3BlcmNlbnQiLCAtMSkKICAgICAgICBpZiAodXNlZFBlcmNlbnQgPCAwKSByZXR1cm4gbnVsbAoKICAgICAgICB2YWwgZHVyYXRpb25TZWNvbmRzID0gd2luZG93Lm9wdExvbmcoImxpbWl0X3dpbmRvd19zZWNvbmRzIiwgLTFMKQogICAgICAgICAgICAudGFrZUlmIHsgaXQgPiAwTCB9CiAgICAgICAgdmFsIHJlc2V0c0F0ID0gd2luZG93Lm9wdExvbmcoInJlc2V0X2F0IiwgLTFMKQogICAgICAgICAgICAudGFrZUlmIHsgaXQgPiAwTCB9CiAgICAgICAgcmV0dXJuIENvZGV4VXNhZ2VXaW5kb3coCiAgICAgICAgICAgIHVzZWRQZXJjZW50ID0gdXNlZFBlcmNlbnQuY29lcmNlQXRNb3N0KDEwMCksCiAgICAgICAgICAgIHdpbmRvd0R1cmF0aW9uU2Vjb25kcyA9IGR1cmF0aW9uU2Vjb25kcywKICAgICAgICAgICAgcmVzZXRzQXRFcG9jaFNlY29uZHMgPSByZXNldHNBdCwKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgVEFHID0gIkNvZGV4VXNhZ2VDbGllbnQiCiAgICAgICAgY29uc3QgdmFsIEZJVkVfSE9VUl9XSU5ET1dfU0VDT05EUyA9IDVMICogNjBMICogNjBMCiAgICAgICAgY29uc3QgdmFsIFNFVkVOX0RBWV9XSU5ET1dfU0VDT05EUyA9IDdMICogMjRMICogNjBMICogNjBMCiAgICB9Cn0K
+package com.bslsjdk.operit.data.api
+
+import com.bslsjdk.operit.BuildConfig
+import com.bslsjdk.operit.util.AppLogger
+import java.io.IOException
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.Serializable
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import org.json.JSONObject
+
+@Serializable
+data class CodexUsageWindow(
+    val usedPercent: Int,
+    val windowDurationSeconds: Long?,
+    val resetsAtEpochSeconds: Long?,
+) {
+    val remainingPercent: Int
+        get() = (100 - usedPercent).coerceIn(0, 100)
+}
+
+@Serializable
+data class CodexUsageSnapshot(
+    val planType: String?,
+    val fiveHourWindow: CodexUsageWindow?,
+    val sevenDayWindow: CodexUsageWindow?,
+)
+
+class CodexUsageClient(
+    private val client: OkHttpClient,
+) {
+    suspend fun fetch(
+        accessToken: String,
+        accountId: String,
+        residency: String?,
+    ): Result<CodexUsageSnapshot> {
+        return try {
+            val request = Request.Builder()
+                .url(CodexOAuthProtocol.CODEX_USAGE_ENDPOINT)
+                .get()
+                .header("Authorization", "Bearer $accessToken")
+                .header("ChatGPT-Account-ID", accountId)
+                .header("originator", "operit")
+                .header("User-Agent", "Operit/${BuildConfig.VERSION_NAME}")
+                .header("Accept", "application/json")
+                .header("Cache-Control", "no-cache")
+                .apply {
+                    residency?.let { header("x-openai-internal-codex-residency", it) }
+                }
+                .build()
+
+            val body = withContext(Dispatchers.IO) {
+                client.newCall(request).execute().use { response ->
+                    val responseBody = response.body?.string().orEmpty()
+                    if (!response.isSuccessful) {
+                        throw IOException("Codex usage request failed with HTTP ${response.code}")
+                    }
+                    responseBody
+                }
+            }
+
+            Result.success(parseUsage(body))
+        } catch (error: Exception) {
+            AppLogger.e(TAG, "Failed to fetch Codex usage", error)
+            Result.failure(error)
+        }
+    }
+
+    internal fun parseUsage(responseBody: String): CodexUsageSnapshot {
+        val root = JSONObject(responseBody)
+        val rateLimit = root.optJSONObject("rate_limit")
+        val windows = listOf(
+            parseWindow(rateLimit?.optJSONObject("primary_window")),
+            parseWindow(rateLimit?.optJSONObject("secondary_window")),
+        ).filterNotNull()
+        return CodexUsageSnapshot(
+            planType = root.optString("plan_type", "").trim().takeIf { it.isNotEmpty() },
+            fiveHourWindow = windows.firstOrNull {
+                it.windowDurationSeconds == FIVE_HOUR_WINDOW_SECONDS
+            },
+            sevenDayWindow = windows.firstOrNull {
+                it.windowDurationSeconds == SEVEN_DAY_WINDOW_SECONDS
+            },
+        )
+    }
+
+    private fun parseWindow(window: JSONObject?): CodexUsageWindow? {
+        window ?: return null
+        if (!window.has("used_percent")) return null
+
+        val usedPercent = window.optInt("used_percent", -1)
+        if (usedPercent < 0) return null
+
+        val durationSeconds = window.optLong("limit_window_seconds", -1L)
+            .takeIf { it > 0L }
+        val resetsAt = window.optLong("reset_at", -1L)
+            .takeIf { it > 0L }
+        return CodexUsageWindow(
+            usedPercent = usedPercent.coerceAtMost(100),
+            windowDurationSeconds = durationSeconds,
+            resetsAtEpochSeconds = resetsAt,
+        )
+    }
+
+    private companion object {
+        const val TAG = "CodexUsageClient"
+        const val FIVE_HOUR_WINDOW_SECONDS = 5L * 60L * 60L
+        const val SEVEN_DAY_WINDOW_SECONDS = 7L * 24L * 60L * 60L
+    }
+}

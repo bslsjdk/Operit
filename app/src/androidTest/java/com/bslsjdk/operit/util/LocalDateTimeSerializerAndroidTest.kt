@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZVRpbWUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb24KaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLmp1bml0LnJ1bm5lci5SdW5XaXRoCgpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgTG9jYWxEYXRlVGltZVNlcmlhbGl6ZXJBbmRyb2lkVGVzdCB7CgogICAgQFRlc3QgZnVuIG1pZG5pZ2h0X3JvdW5kVHJpcHMoKSB7CiAgICAgICAgdmFsIG9yaWdpbmFsID0gTG9jYWxEYXRlVGltZS5vZigyMDI1LCAxLCAxLCAwLCAwLCAwKQogICAgICAgIHZhbCBlbmNvZGVkID0gSnNvbi5lbmNvZGVUb1N0cmluZyhMb2NhbERhdGVUaW1lU2VyaWFsaXplciwgb3JpZ2luYWwpCiAgICAgICAgdmFsIGRlY29kZWQgPSBKc29uLmRlY29kZUZyb21TdHJpbmcoTG9jYWxEYXRlVGltZVNlcmlhbGl6ZXIsIGVuY29kZWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG9yaWdpbmFsLCBkZWNvZGVkKQogICAgfQoKICAgIEBUZXN0IGZ1biBlbmRPZkRheV9yb3VuZFRyaXBzKCkgewogICAgICAgIHZhbCBvcmlnaW5hbCA9IExvY2FsRGF0ZVRpbWUub2YoMjAyNSwgMTIsIDMxLCAyMywgNTksIDU5KQogICAgICAgIHZhbCBlbmNvZGVkID0gSnNvbi5lbmNvZGVUb1N0cmluZyhMb2NhbERhdGVUaW1lU2VyaWFsaXplciwgb3JpZ2luYWwpCiAgICAgICAgdmFsIGRlY29kZWQgPSBKc29uLmRlY29kZUZyb21TdHJpbmcoTG9jYWxEYXRlVGltZVNlcmlhbGl6ZXIsIGVuY29kZWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG9yaWdpbmFsLCBkZWNvZGVkKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import java.time.LocalDateTime
+import kotlinx.serialization.json.Json
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class LocalDateTimeSerializerAndroidTest {
+
+    @Test fun midnight_roundTrips() {
+        val original = LocalDateTime.of(2025, 1, 1, 0, 0, 0)
+        val encoded = Json.encodeToString(LocalDateTimeSerializer, original)
+        val decoded = Json.decodeFromString(LocalDateTimeSerializer, encoded)
+        assertEquals(original, decoded)
+    }
+
+    @Test fun endOfDay_roundTrips() {
+        val original = LocalDateTime.of(2025, 12, 31, 23, 59, 59)
+        val encoded = Json.encodeToString(LocalDateTimeSerializer, original)
+        val decoded = Json.decodeFromString(LocalDateTimeSerializer, encoded)
+        assertEquals(original, decoded)
+    }
+}

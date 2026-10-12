@@ -1,1 +1,157 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCi8qKgogKiBPcGVuQUkgUmVzcG9uc2VzL2NoYXQg5YW85a656Kej5p6Q55qEIHVzYWdlIOiuoeaVsOmXqOa1i+ivle+8iOivhOWuoSBQMS01L1AyLTHvvInvvJoKICogLSDmjInlrZfmrrXlrZjlnKjliKTmlq3vvJrmmL7lvI/lhajpm7YgcGF5bG9hZCDkuZ/mmK/igJzlt7Lop4Llr5/liLDnmoQgdXNhZ2XigJ3vvIjov5Tlm57pnZ4gbnVsbO+8jAogKiAgIOWtl+auteS4uiAw77yJ77yM5LiN5oyJIOKAnD4w4oCdIOi/h+a7pO+8mwogKiAtIOWFqOeoiyBMb25nIOino+aekO+8jOWkp+S6jiBJbnQg6IyD5Zu055qEIHVzYWdlIOS4jeaIquaWre+8mwogKiAtIHVzYWdlIOWvueixoeWujOWFqOe8uuWksS/ml6Dku7vkvZXnm7jlhbPlrZfmrrUg4oaSIG51bGzvvIjmnKrop4Llr5/liLDvvInjgIIKICovCmNsYXNzIE9wZW5BSVJlc3BvbnNlc1BheWxvYWRBZGFwdGVyVGVzdCB7CgogICAgQFRlc3QKICAgIGZ1biBgZXhwbGljaXQgemVybyBwYXlsb2FkIGlzIG9ic2VydmVkIHVzYWdlIHdpdGggemVybyBmaWVsZHNgKCkgewogICAgICAgIHZhbCBjb3VudHMgPQogICAgICAgICAgICBPcGVuQUlSZXNwb25zZXNQYXlsb2FkQWRhcHRlci5wYXJzZVVzYWdlQ291bnRzKAogICAgICAgICAgICAgICAgSlNPTk9iamVjdCgiIiJ7InByb21wdF90b2tlbnMiOiAwLCAiY29tcGxldGlvbl90b2tlbnMiOiAwfSIiIikKICAgICAgICAgICAgKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBjb3VudHMudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIGNvdW50cy5vdXRwdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBjb3VudHMuY2FjaGVkSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBjb3VudHMuYWN0dWFsSW5wdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgemVybyBjYWNoZWQgc3BsaXQgd2l0aCBub24temVybyB0b3RhbHMgaXMgcGFyc2VkYCgpIHsKICAgICAgICB2YWwgY291bnRzID0KICAgICAgICAgICAgT3BlbkFJUmVzcG9uc2VzUGF5bG9hZEFkYXB0ZXIucGFyc2VVc2FnZUNvdW50cygKICAgICAgICAgICAgICAgIEpTT05PYmplY3QoCiAgICAgICAgICAgICAgICAgICAgIiIieyJwcm9tcHRfdG9rZW5zIjogMTAwLCAiY29tcGxldGlvbl90b2tlbnMiOiA1MCwgInByb21wdF90b2tlbnNfZGV0YWlscyI6IHsiY2FjaGVkX3Rva2VucyI6IDB9fSIiIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApISEKICAgICAgICBhc3NlcnRFcXVhbHMoMTAwTCwgY291bnRzLnRvdGFsSW5wdXRUb2tlbnMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwMEwsIGNvdW50cy5hY3R1YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIGNvdW50cy5jYWNoZWRJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoNTBMLCBjb3VudHMub3V0cHV0VG9rZW5zKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHZhbHVlcyBiZXlvbmQgaW50IHJhbmdlIHN0YXkgZXhhY3QgaW5zdGVhZCBvZiB0cnVuY2F0aW5nYCgpIHsKICAgICAgICB2YWwgY291bnRzID0KICAgICAgICAgICAgT3BlbkFJUmVzcG9uc2VzUGF5bG9hZEFkYXB0ZXIucGFyc2VVc2FnZUNvdW50cygKICAgICAgICAgICAgICAgIEpTT05PYmplY3QoCiAgICAgICAgICAgICAgICAgICAgIiIieyJwcm9tcHRfdG9rZW5zIjogNTAwMDAwMDAwMCwgImNvbXBsZXRpb25fdG9rZW5zIjogNDAwMDAwMDAwMH0iIiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKDVfMDAwXzAwMF8wMDBMLCBjb3VudHMudG90YWxJbnB1dFRva2VucykKICAgICAgICBhc3NlcnRFcXVhbHMoNF8wMDBfMDAwXzAwMEwsIGNvdW50cy5vdXRwdXRUb2tlbnMpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgdXNhZ2UgYWJzZW50IG9yIHdpdGhvdXQgYW55IHRva2VuIGZpZWxkcyByZXR1cm5zIG51bGxgKCkgewogICAgICAgIGFzc2VydE51bGwoT3BlbkFJUmVzcG9uc2VzUGF5bG9hZEFkYXB0ZXIucGFyc2VVc2FnZUNvdW50cyhudWxsKSkKICAgICAgICBhc3NlcnROdWxsKE9wZW5BSVJlc3BvbnNlc1BheWxvYWRBZGFwdGVyLnBhcnNlVXNhZ2VDb3VudHMoSlNPTk9iamVjdCgie30iKSkpCiAgICAgICAgYXNzZXJ0TnVsbCgKICAgICAgICAgICAgT3BlbkFJUmVzcG9uc2VzUGF5bG9hZEFkYXB0ZXIucGFyc2VVc2FnZUNvdW50cygKICAgICAgICAgICAgICAgIEpTT05PYmplY3QoIiIieyJvdGhlciI6ICJ4In0iIiIpCiAgICAgICAgICAgICkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgbm9uIHN0cmVhbWluZyByZXNwb25zZSByZWNvcmRzIHdlYiBzZWFyY2ggY2FsbCBvdXRwdXQgaXRlbSBtZXRhZGF0YWAoKSB7CiAgICAgICAgdmFsIHJlc3BvbnNlID0KICAgICAgICAgICAgSlNPTk9iamVjdCgKICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAic3RhdHVzIjogImluY29tcGxldGUiLAogICAgICAgICAgICAgICAgICAib3V0cHV0IjogWwogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICJ0eXBlIjogIndlYl9zZWFyY2hfY2FsbCIsCiAgICAgICAgICAgICAgICAgICAgICAiaWQiOiAiY2FsbF8wMF93ZWIiLAogICAgICAgICAgICAgICAgICAgICAgInN0YXR1cyI6ICJjb21wbGV0ZWQiLAogICAgICAgICAgICAgICAgICAgICAgImFjdGlvbiI6IHsKICAgICAgICAgICAgICAgICAgICAgICAgInR5cGUiOiAic2VhcmNoIiwKICAgICAgICAgICAgICAgICAgICAgICAgInF1ZXJpZXMiOiBbImRlZXBzZWVrIHJlc3BvbnNlcyB3ZWIgc2VhcmNoIl0KICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICJ0eXBlIjogIm1lc3NhZ2UiLAogICAgICAgICAgICAgICAgICAgICAgImNvbnRlbnQiOiBbCiAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAidHlwZSI6ICJvdXRwdXRfdGV4dCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgInRleHQiOiAiYW5zd2VyIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAiYW5ub3RhdGlvbnMiOiBbXQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICAgICAgICAgICkKCiAgICAgICAgdmFsIHBhcnNlZCA9IE9wZW5BSVJlc3BvbnNlc1BheWxvYWRBZGFwdGVyLnBhcnNlTm9uU3RyZWFtaW5nUmVzcG9uc2UocmVzcG9uc2UpCgogICAgICAgIGFzc2VydEVxdWFscygxLCBwYXJzZWQub3V0cHV0SXRlbU1ldGFkYXRhVGFncy5zaXplKQogICAgICAgIGFzc2VydFRydWUoCiAgICAgICAgICAgIHBhcnNlZC5vdXRwdXRJdGVtTWV0YWRhdGFUYWdzLnNpbmdsZSgpCiAgICAgICAgICAgICAgICAuY29udGFpbnMoInByb3ZpZGVyPVwib3BlbmFpOnJlc3BvbnNlc19vdXRwdXRfaXRlbVwiIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcmVzcG9uc2VzIHJlcXVlc3QgcmVwbGF5cyB3ZWIgc2VhcmNoIG91dHB1dCBpdGVtIGFuZCByZW1vdmVzIGRpc3BsYXkgc2VhcmNoIG1hcmt1cGAoKSB7CiAgICAgICAgdmFsIHdlYlNlYXJjaEl0ZW0gPQogICAgICAgICAgICBKU09OT2JqZWN0KCkKICAgICAgICAgICAgICAgIC5wdXQoInR5cGUiLCAid2ViX3NlYXJjaF9jYWxsIikKICAgICAgICAgICAgICAgIC5wdXQoImlkIiwgImNhbGxfMDBfd2ViIikKICAgICAgICAgICAgICAgIC5wdXQoInN0YXR1cyIsICJjb21wbGV0ZWQiKQogICAgICAgICAgICAgICAgLnB1dCgKICAgICAgICAgICAgICAgICAgICAiYWN0aW9uIiwKICAgICAgICAgICAgICAgICAgICBKU09OT2JqZWN0KCkKICAgICAgICAgICAgICAgICAgICAgICAgLnB1dCgidHlwZSIsICJzZWFyY2giKQogICAgICAgICAgICAgICAgICAgICAgICAucHV0KCJxdWVyaWVzIiwgSlNPTkFycmF5KCkucHV0KCJkZWVwc2VlayByZXNwb25zZXMgd2ViIHNlYXJjaCIpKQogICAgICAgICAgICAgICAgKQogICAgICAgIHZhbCBvdXRwdXRJdGVtTWV0YSA9IE9wZW5BSVJlc3BvbnNlc1BheWxvYWRBZGFwdGVyLmNyZWF0ZU91dHB1dEl0ZW1NZXRhZGF0YVRhZyh3ZWJTZWFyY2hJdGVtKSEhCiAgICAgICAgdmFsIGNoYXRTdHlsZVJlcXVlc3QgPQogICAgICAgICAgICBKU09OT2JqZWN0KCkKICAgICAgICAgICAgICAgIC5wdXQoIm1vZGVsIiwgImRlZXBzZWVrLXJlYXNvbmVyIikKICAgICAgICAgICAgICAgIC5wdXQoCiAgICAgICAgICAgICAgICAgICAgIm1lc3NhZ2VzIiwKICAgICAgICAgICAgICAgICAgICBKU09OQXJyYXkoKQogICAgICAgICAgICAgICAgICAgICAgICAucHV0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgSlNPTk9iamVjdCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnB1dCgicm9sZSIsICJhc3Npc3RhbnQiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wdXQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJjb250ZW50IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0SXRlbU1ldGEgKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlxuPHNlYXJjaCBwcm92aWRlcj1cImRlZXBzZWVrXCI+PHF1ZXJ5PmRlZXBzZWVrIHJlc3BvbnNlcyB3ZWIgc2VhcmNoPC9xdWVyeT48L3NlYXJjaD4iICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJcbmFuc3dlciIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKCiAgICAgICAgdmFsIHJlc3BvbnNlc1JlcXVlc3QgPSBPcGVuQUlSZXNwb25zZXNQYXlsb2FkQWRhcHRlci50b1Jlc3BvbnNlc1JlcXVlc3QoY2hhdFN0eWxlUmVxdWVzdCkKICAgICAgICB2YWwgaW5wdXQgPSByZXNwb25zZXNSZXF1ZXN0LmdldEpTT05BcnJheSgiaW5wdXQiKQogICAgICAgIHZhbCByZXBsYXllZEl0ZW0gPSBpbnB1dC5nZXRKU09OT2JqZWN0KDApCiAgICAgICAgdmFsIHZpc2libGVNZXNzYWdlID0gaW5wdXQuZ2V0SlNPTk9iamVjdCgxKQoKICAgICAgICBhc3NlcnRFcXVhbHMoIndlYl9zZWFyY2hfY2FsbCIsIHJlcGxheWVkSXRlbS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImNhbGxfMDBfd2ViIiwgcmVwbGF5ZWRJdGVtLmdldFN0cmluZygiaWQiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoInNlYXJjaCIsIHJlcGxheWVkSXRlbS5nZXRKU09OT2JqZWN0KCJhY3Rpb24iKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJkZWVwc2VlayByZXNwb25zZXMgd2ViIHNlYXJjaCIsCiAgICAgICAgICAgIHJlcGxheWVkSXRlbS5nZXRKU09OT2JqZWN0KCJhY3Rpb24iKS5nZXRKU09OQXJyYXkoInF1ZXJpZXMiKS5nZXRTdHJpbmcoMCkKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJtZXNzYWdlIiwgdmlzaWJsZU1lc3NhZ2UuZ2V0U3RyaW5nKCJ0eXBlIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJhc3Npc3RhbnQiLCB2aXNpYmxlTWVzc2FnZS5nZXRTdHJpbmcoInJvbGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImFuc3dlciIsIHZpc2libGVNZXNzYWdlLmdldFN0cmluZygiY29udGVudCIpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.json.JSONArray
+import org.json.JSONObject
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+/**
+ * OpenAI Responses/chat 兼容解析的 usage 计数门测试（评审 P1-5/P2-1）：
+ * - 按字段存在判断：显式全零 payload 也是“已观察到的 usage”（返回非 null，
+ *   字段为 0），不按 “>0” 过滤；
+ * - 全程 Long 解析，大于 Int 范围的 usage 不截断；
+ * - usage 对象完全缺失/无任何相关字段 → null（未观察到）。
+ */
+class OpenAIResponsesPayloadAdapterTest {
+
+    @Test
+    fun `explicit zero payload is observed usage with zero fields`() {
+        val counts =
+            OpenAIResponsesPayloadAdapter.parseUsageCounts(
+                JSONObject("""{"prompt_tokens": 0, "completion_tokens": 0}""")
+            )!!
+        assertEquals(0L, counts.totalInputTokens)
+        assertEquals(0L, counts.outputTokens)
+        assertEquals(0L, counts.cachedInputTokens)
+        assertEquals(0L, counts.actualInputTokens)
+    }
+
+    @Test
+    fun `zero cached split with non-zero totals is parsed`() {
+        val counts =
+            OpenAIResponsesPayloadAdapter.parseUsageCounts(
+                JSONObject(
+                    """{"prompt_tokens": 100, "completion_tokens": 50, "prompt_tokens_details": {"cached_tokens": 0}}"""
+                )
+            )!!
+        assertEquals(100L, counts.totalInputTokens)
+        assertEquals(100L, counts.actualInputTokens)
+        assertEquals(0L, counts.cachedInputTokens)
+        assertEquals(50L, counts.outputTokens)
+    }
+
+    @Test
+    fun `values beyond int range stay exact instead of truncating`() {
+        val counts =
+            OpenAIResponsesPayloadAdapter.parseUsageCounts(
+                JSONObject(
+                    """{"prompt_tokens": 5000000000, "completion_tokens": 4000000000}"""
+                )
+            )!!
+        assertEquals(5_000_000_000L, counts.totalInputTokens)
+        assertEquals(4_000_000_000L, counts.outputTokens)
+    }
+
+    @Test
+    fun `usage absent or without any token fields returns null`() {
+        assertNull(OpenAIResponsesPayloadAdapter.parseUsageCounts(null))
+        assertNull(OpenAIResponsesPayloadAdapter.parseUsageCounts(JSONObject("{}")))
+        assertNull(
+            OpenAIResponsesPayloadAdapter.parseUsageCounts(
+                JSONObject("""{"other": "x"}""")
+            )
+        )
+    }
+
+    @Test
+    fun `non streaming response records web search call output item metadata`() {
+        val response =
+            JSONObject(
+                """
+                {
+                  "status": "incomplete",
+                  "output": [
+                    {
+                      "type": "web_search_call",
+                      "id": "call_00_web",
+                      "status": "completed",
+                      "action": {
+                        "type": "search",
+                        "queries": ["deepseek responses web search"]
+                      }
+                    },
+                    {
+                      "type": "message",
+                      "content": [
+                        {
+                          "type": "output_text",
+                          "text": "answer",
+                          "annotations": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+                """.trimIndent()
+            )
+
+        val parsed = OpenAIResponsesPayloadAdapter.parseNonStreamingResponse(response)
+
+        assertEquals(1, parsed.outputItemMetadataTags.size)
+        assertTrue(
+            parsed.outputItemMetadataTags.single()
+                .contains("provider=\"openai:responses_output_item\"")
+        )
+    }
+
+    @Test
+    fun `responses request replays web search output item and removes display search markup`() {
+        val webSearchItem =
+            JSONObject()
+                .put("type", "web_search_call")
+                .put("id", "call_00_web")
+                .put("status", "completed")
+                .put(
+                    "action",
+                    JSONObject()
+                        .put("type", "search")
+                        .put("queries", JSONArray().put("deepseek responses web search"))
+                )
+        val outputItemMeta = OpenAIResponsesPayloadAdapter.createOutputItemMetadataTag(webSearchItem)!!
+        val chatStyleRequest =
+            JSONObject()
+                .put("model", "deepseek-reasoner")
+                .put(
+                    "messages",
+                    JSONArray()
+                        .put(
+                            JSONObject()
+                                .put("role", "assistant")
+                                .put(
+                                    "content",
+                                    outputItemMeta +
+                                        "\n<search provider=\"deepseek\"><query>deepseek responses web search</query></search>" +
+                                        "\nanswer"
+                                )
+                        )
+                )
+
+        val responsesRequest = OpenAIResponsesPayloadAdapter.toResponsesRequest(chatStyleRequest)
+        val input = responsesRequest.getJSONArray("input")
+        val replayedItem = input.getJSONObject(0)
+        val visibleMessage = input.getJSONObject(1)
+
+        assertEquals("web_search_call", replayedItem.getString("type"))
+        assertEquals("call_00_web", replayedItem.getString("id"))
+        assertEquals("search", replayedItem.getJSONObject("action").getString("type"))
+        assertEquals(
+            "deepseek responses web search",
+            replayedItem.getJSONObject("action").getJSONArray("queries").getString(0)
+        )
+        assertEquals("message", visibleMessage.getString("type"))
+        assertEquals("assistant", visibleMessage.getString("role"))
+        assertEquals("answer", visibleMessage.getString("content"))
+    }
+}

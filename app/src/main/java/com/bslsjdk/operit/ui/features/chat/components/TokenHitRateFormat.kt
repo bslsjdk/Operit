@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgamF2YS51dGlsLkxvY2FsZQppbXBvcnQga290bGluLm1hdGguZmxvb3IKCi8qKgogKiDorqHnrpfnvJPlrZjlkb3kuK3njofvvJrnvJPlrZjovpPlhaUgLyDovpPlhaXvvIzkv53nlZnkuKTkvY3lsI/mlbDlubblkJHkuIvmiKrmlq3vvIjkuI3lgZrlm5voiI3kupTlhaXvvInjgIIKICog5L6L5aaCIDk5Ljk5OSUg5pi+56S65Li6IDk5Ljk5Je+8jOS4jeS8mui/m+S9jeWIsCAxMDAuMDAl44CCCiAqIOi+k+WFpeS4uiAwIOaXtuWRveS4reeOh+aXoOaEj+S5ie+8jOi/lOWbniAiLSLjgIIKICovCmludGVybmFsIGZ1biBmb3JtYXRDYWNoZUhpdFJhdGUoY2FjaGVkSW5wdXQ6IExvbmcsIGlucHV0OiBMb25nKTogU3RyaW5nIHsKICAgIGlmIChpbnB1dCA8PSAwTCkgcmV0dXJuICItIgogICAgdmFsIHJhdGUgPSBjYWNoZWRJbnB1dC5jb2VyY2VBdExlYXN0KDBMKSAqIDEwMC4wIC8gaW5wdXQKICAgIC8vICsxZS05IOS7heeUqOS6juaKtea2iOa1rueCueihqOekuuivr+W3ru+8jOS/neivgSA5NS44OCDkuI3kvJrooqvmiKrmiJAgOTUuODcKICAgIHZhbCB0cnVuY2F0ZWQgPSBmbG9vcihyYXRlICogMTAwLjAgKyAxZS05KSAvIDEwMC4wCiAgICByZXR1cm4gU3RyaW5nLmZvcm1hdChMb2NhbGUuVVMsICIlLjJmJSUiLCB0cnVuY2F0ZWQpCn0K
+package com.bslsjdk.operit.ui.features.chat.components
+
+import java.util.Locale
+import kotlin.math.floor
+
+/**
+ * 计算缓存命中率：缓存输入 / 输入，保留两位小数并向下截断（不做四舍五入）。
+ * 例如 99.999% 显示为 99.99%，不会进位到 100.00%。
+ * 输入为 0 时命中率无意义，返回 "-"。
+ */
+internal fun formatCacheHitRate(cachedInput: Long, input: Long): String {
+    if (input <= 0L) return "-"
+    val rate = cachedInput.coerceAtLeast(0L) * 100.0 / input
+    // +1e-9 仅用于抵消浮点表示误差，保证 95.88 不会被截成 95.87
+    val truncated = floor(rate * 100.0 + 1e-9) / 100.0
+    return String.format(Locale.US, "%.2f%%", truncated)
+}

@@ -1,1 +1,44 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5kcmFnb25ib25lcy5tb2RlbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24ubW9kZWwuQXZhdGFyVHlwZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5tb2RlbC5JU2tlbGV0YWxBdmF0YXJNb2RlbAppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5EcmFnb25Cb25lc01vZGVsIGFzIERyYWdvbkJvbmVzRGF0YU1vZGVsCgovKioKICogQSBjb25jcmV0ZSBpbXBsZW1lbnRhdGlvbiBvZiBbSVNrZWxldGFsQXZhdGFyTW9kZWxdIGZvciBEcmFnb25Cb25lcyBhdmF0YXJzLgogKiBUaGlzIGNsYXNzIGFjdHMgYXMgYW4gYWRhcHRlciwgd3JhcHBpbmcgdGhlIGRhdGEtbGF5ZXIgW0RyYWdvbkJvbmVzRGF0YU1vZGVsXQogKiB0byBwcm92aWRlIHRoZSBuZWNlc3NhcnkgYXNzZXQgcGF0aHMgcmVxdWlyZWQgYnkgdGhlIGF2YXRhciBzeXN0ZW0uCiAqCiAqIEBwcm9wZXJ0eSBkYXRhTW9kZWwgVGhlIHVuZGVybHlpbmcgZGF0YSBtb2RlbCBmcm9tIHRoZSByZXBvc2l0b3J5LgogKi8KZGF0YSBjbGFzcyBEcmFnb25Cb25lc0F2YXRhck1vZGVsKAogICAgdmFsIGRhdGFNb2RlbDogRHJhZ29uQm9uZXNEYXRhTW9kZWwKKSA6IElTa2VsZXRhbEF2YXRhck1vZGVsIHsKCiAgICBvdmVycmlkZSB2YWwgaWQ6IFN0cmluZwogICAgICAgIGdldCgpID0gZGF0YU1vZGVsLmlkCgogICAgb3ZlcnJpZGUgdmFsIG5hbWU6IFN0cmluZwogICAgICAgIGdldCgpID0gZGF0YU1vZGVsLm5hbWUKCiAgICBvdmVycmlkZSB2YWwgdHlwZTogQXZhdGFyVHlwZQogICAgICAgIGdldCgpID0gQXZhdGFyVHlwZS5EUkFHT05CT05FUwoKICAgIG92ZXJyaWRlIHZhbCBza2VsZXRvblBhdGg6IFN0cmluZwogICAgICAgIGdldCgpID0gRmlsZShkYXRhTW9kZWwuZm9sZGVyUGF0aCwgZGF0YU1vZGVsLnNrZWxldG9uRmlsZSkuYWJzb2x1dGVQYXRoCgogICAgb3ZlcnJpZGUgdmFsIHRleHR1cmVBdGxhc1BhdGg6IFN0cmluZwogICAgICAgIGdldCgpID0gRmlsZShkYXRhTW9kZWwuZm9sZGVyUGF0aCwgZGF0YU1vZGVsLnRleHR1cmVKc29uRmlsZSkuYWJzb2x1dGVQYXRoCgogICAgb3ZlcnJpZGUgdmFsIHRleHR1cmVQYXRoOiBTdHJpbmcKICAgICAgICBnZXQoKSA9IEZpbGUoZGF0YU1vZGVsLmZvbGRlclBhdGgsIGRhdGFNb2RlbC50ZXh0dXJlSW1hZ2VGaWxlKS5hYnNvbHV0ZVBhdGgKfQoKLyoqCiAqIEV4dGVuc2lvbiBmdW5jdGlvbiB0byBjb252ZW5pZW50bHkgY29udmVydCBhIGRhdGEtbGF5ZXIgW0RyYWdvbkJvbmVzRGF0YU1vZGVsXQogKiBpbnRvIGEgY29yZS1sYXllciBbRHJhZ29uQm9uZXNBdmF0YXJNb2RlbF0uCiAqLwpmdW4gRHJhZ29uQm9uZXNEYXRhTW9kZWwudG9BdmF0YXJNb2RlbCgpOiBEcmFnb25Cb25lc0F2YXRhck1vZGVsIHsKICAgIHJldHVybiBEcmFnb25Cb25lc0F2YXRhck1vZGVsKHRoaXMpCn0g
+package com.bslsjdk.operit.core.avatar.impl.dragonbones.model
+
+import com.bslsjdk.operit.core.avatar.common.model.AvatarType
+import com.bslsjdk.operit.core.avatar.common.model.ISkeletalAvatarModel
+import java.io.File
+import com.bslsjdk.operit.data.model.DragonBonesModel as DragonBonesDataModel
+
+/**
+ * A concrete implementation of [ISkeletalAvatarModel] for DragonBones avatars.
+ * This class acts as an adapter, wrapping the data-layer [DragonBonesDataModel]
+ * to provide the necessary asset paths required by the avatar system.
+ *
+ * @property dataModel The underlying data model from the repository.
+ */
+data class DragonBonesAvatarModel(
+    val dataModel: DragonBonesDataModel
+) : ISkeletalAvatarModel {
+
+    override val id: String
+        get() = dataModel.id
+
+    override val name: String
+        get() = dataModel.name
+
+    override val type: AvatarType
+        get() = AvatarType.DRAGONBONES
+
+    override val skeletonPath: String
+        get() = File(dataModel.folderPath, dataModel.skeletonFile).absolutePath
+
+    override val textureAtlasPath: String
+        get() = File(dataModel.folderPath, dataModel.textureJsonFile).absolutePath
+
+    override val texturePath: String
+        get() = File(dataModel.folderPath, dataModel.textureImageFile).absolutePath
+}
+
+/**
+ * Extension function to conveniently convert a data-layer [DragonBonesDataModel]
+ * into a core-layer [DragonBonesAvatarModel].
+ */
+fun DragonBonesDataModel.toAvatarModel(): DragonBonesAvatarModel {
+    return DragonBonesAvatarModel(this)
+} 

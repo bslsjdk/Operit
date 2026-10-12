@@ -1,1 +1,434 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW5zdGF0cwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsUHJvdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS52aWV3TW9kZWxTY29wZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmNvbGxlY3RzLlByaWNpbmdDdXJyZW5jeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuTW9kZWxDb25maWdNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzUHJlZmVyZW5jZXNTdG9yZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuVG9rZW5BY3Rpdml0eUFnZ3JlZ2F0b3IKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuQWN0aXZpdHlWaWV3TW9kZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuVG9rZW5BY3Rpdml0eVJhbmdlRGF0YQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuVG9rZW5Db3N0Q3VycmVuY3kKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuU3RhdHNEaXNwbGF5TW9kZWxCcmVha2Rvd24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuU3RhdHNEaXNwbGF5VW5pdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuVG9rZW5TdGF0c1ByaWNlRHJhZnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuU3RhdHNMaWZldGltZU92ZXJ2aWV3CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzUHJpY2VTZXR0aW5nCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzUXVlcnlQYXJhbXMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuU3RhdHNRdWVyeVNlcnZpY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuU3RhdHNSYW5nZURhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuU3RhdHNTZXR0aW5nc01hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuU3RhdHNTZXR0aW5nc1N0b3JlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzVGltZVJhbmdlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzVGltZVJhbmdlcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLnRpbWUuWm9uZUlkCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ2FuY2VsbGF0aW9uRXhjZXB0aW9uCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lRGlzcGF0Y2hlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuYXN5bmMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5jb3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cudXBkYXRlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgpkYXRhIGNsYXNzIFRva2VuQWN0aXZpdHlVaVN0YXRlKAogICAgdmFsIGxvYWRpbmc6IEJvb2xlYW4gPSB0cnVlLAogICAgdmFsIHZpZXdNb2RlOiBUb2tlbkFjdGl2aXR5Vmlld01vZGUgPSBUb2tlbkFjdGl2aXR5Vmlld01vZGUuREFJTFksCiAgICB2YWwgcmFuZ2VEYXRhOiBUb2tlbkFjdGl2aXR5UmFuZ2VEYXRhPyA9IG51bGwsCikKCmRhdGEgY2xhc3MgVG9rZW5TdGF0c1VpU3RhdGUoCiAgICB2YWwgbG9hZGluZzogQm9vbGVhbiA9IHRydWUsCiAgICB2YWwgZXJyb3JNZXNzYWdlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCByZWZyZXNoVmVyc2lvbjogTG9uZyA9IDBMLAogICAgdmFsIGxpZmV0aW1lOiBUb2tlblN0YXRzTGlmZXRpbWVPdmVydmlldz8gPSBudWxsLAogICAgdmFsIHJhbmdlOiBUb2tlblN0YXRzUmFuZ2VEYXRhPyA9IG51bGwsCiAgICB2YWwgY3VycmVudFJhbmdlOiBUb2tlblN0YXRzVGltZVJhbmdlPyA9IG51bGwsCiAgICB2YWwgdGFyZ2V0Q3VycmVuY3k6IFByaWNpbmdDdXJyZW5jeSA9IFByaWNpbmdDdXJyZW5jeS5DTlksCiAgICB2YWwgdG9rZW5EaXNwbGF5VW5pdDogVG9rZW5TdGF0c0Rpc3BsYXlVbml0ID0gVG9rZW5TdGF0c0Rpc3BsYXlVbml0Lk1JTExJT05TLAogICAgdmFsIG1hbnVhbFJhdGU6IERvdWJsZSA9IFRva2VuQ29zdEN1cnJlbmN5LkRFRkFVTFRfVVNEX1RPX0NOWV9SQVRFLAogICAgdmFsIHJhdGVJc0VzdGltYXRlZDogQm9vbGVhbiA9IHRydWUsCiAgICB2YWwgc2VsZWN0ZWRNb2RlbHM6IFNldDxTdHJpbmc+ID0gZW1wdHlTZXQoKSwKICAgIHZhbCBhdmFpbGFibGVEaXNwbGF5TW9kZWxzOiBMaXN0PFRva2VuU3RhdHNEaXNwbGF5TW9kZWxCcmVha2Rvd24+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwga25vd25Nb2RlbE5hbWVzOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKSwKICAgIHZhbCBjb25maWd1cmF0aW9uTmFtZXM6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpLAogICAgdmFsIHByaWNlU2V0dGluZ3M6IExpc3Q8VG9rZW5TdGF0c1ByaWNlU2V0dGluZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBhY3Rpdml0eTogVG9rZW5BY3Rpdml0eVVpU3RhdGUgPSBUb2tlbkFjdGl2aXR5VWlTdGF0ZSgpLAopCgpkYXRhIGNsYXNzIFRva2VuU3RhdHNBY3Rpb25NZXNzYWdlKAogICAgdmFsIHRleHQ6IFN0cmluZywKICAgIHZhbCBpc0Vycm9yOiBCb29sZWFuID0gZmFsc2UsCikKCkBhbmRyb2lkLmFubm90YXRpb24uU3VwcHJlc3NMaW50KCJTdGF0aWNGaWVsZExlYWsiKQpjbGFzcyBUb2tlblVzYWdlU3RhdGlzdGljc1ZpZXdNb2RlbCgKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBzZXR0aW5nczogVG9rZW5TdGF0c1NldHRpbmdzU3RvcmUgPSBUb2tlblN0YXRzUHJlZmVyZW5jZXNTdG9yZShjb250ZXh0KSwKICAgIHZhbCB6b25lOiBab25lSWQgPSBab25lSWQuc3lzdGVtRGVmYXVsdCgpLAogICAgcHJpdmF0ZSB2YWwgbm93TXM6ICgpIC0+IExvbmcgPSB7IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIH0sCiAgICBwcml2YXRlIHZhbCBzdHJpbmdSZXNvbHZlcjogKEludCkgLT4gU3RyaW5nID0geyBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dC5nZXRTdHJpbmcoaXQpIH0sCiAgICBwcml2YXRlIHZhbCBkaXNwYXRjaGVyOiBDb3JvdXRpbmVEaXNwYXRjaGVyID0gRGlzcGF0Y2hlcnMuTWFpbi5pbW1lZGlhdGUsCikgOiBWaWV3TW9kZWwoKSB7CiAgICBwcml2YXRlIHZhbCBhcHBDb250ZXh0ID0gY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQKICAgIHByaXZhdGUgdmFsIG1hbmFnZXIgPSBUb2tlblN0YXRzU2V0dGluZ3NNYW5hZ2VyKGFwcENvbnRleHQpCiAgICBwcml2YXRlIHZhbCBtb2RlbENvbmZpZ01hbmFnZXIgPSBNb2RlbENvbmZpZ01hbmFnZXIoYXBwQ29udGV4dCkKICAgIHByaXZhdGUgdmFsIHRhZyA9ICJUb2tlblVzYWdlU3RhdGlzdGljc1ZpZXdNb2RlbCIKCiAgICBwcml2YXRlIHZhbCBfc3RhdGUgPSBNdXRhYmxlU3RhdGVGbG93KFRva2VuU3RhdHNVaVN0YXRlKCkpCiAgICB2YWwgc3RhdGU6IFN0YXRlRmxvdzxUb2tlblN0YXRzVWlTdGF0ZT4gPSBfc3RhdGUuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9hY3Rpb25NZXNzYWdlID0gTXV0YWJsZVN0YXRlRmxvdzxUb2tlblN0YXRzQWN0aW9uTWVzc2FnZT8+KG51bGwpCiAgICB2YWwgYWN0aW9uTWVzc2FnZTogU3RhdGVGbG93PFRva2VuU3RhdHNBY3Rpb25NZXNzYWdlPz4gPSBfYWN0aW9uTWVzc2FnZS5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YXIgbG9hZEdlbmVyYXRpb24gPSAwCiAgICBwcml2YXRlIHZhciBsb2FkSm9iOiBKb2I/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgbW9kZVJhbmdlSm9iOiBKb2I/ID0gbnVsbAogICAgcHJpdmF0ZSB2YWwga25vd25Nb2RlbE5hbWVzID0gbGlua2VkTWFwT2Y8U3RyaW5nLCBTdHJpbmc+KCkKICAgIHByaXZhdGUgdmFsIGtub3duTW9kZWxQcm92aWRlck1vZGVscyA9IGxpbmtlZE1hcE9mPFN0cmluZywgU2V0PFN0cmluZz4+KCkKCiAgICBmdW4gY29uc3VtZUFjdGlvbk1lc3NhZ2UoKSB7CiAgICAgICAgX2FjdGlvbk1lc3NhZ2UudmFsdWUgPSBudWxsCiAgICB9CgogICAgZnVuIGxvYWQoKSA9IGxvYWRJbnRlcm5hbChsb2FkVmlld01vZGUgPSBmYWxzZSkKCiAgICBmdW4gbG9hZEZvckVudHJ5KCkgPSBsb2FkSW50ZXJuYWwobG9hZFZpZXdNb2RlID0gdHJ1ZSkKCiAgICBmdW4gc2V0QWN0aXZpdHlWaWV3TW9kZShtb2RlOiBUb2tlbkFjdGl2aXR5Vmlld01vZGUpIHsKICAgICAgICB2YWwgc25hcHNob3QgPSBfc3RhdGUudmFsdWUKICAgICAgICB2YWwgY3VycmVudFJhbmdlID0gc25hcHNob3QuY3VycmVudFJhbmdlID86IGRlZmF1bHREYXRlUmFuZ2Uobm93TXMoKSwgem9uZSkKICAgICAgICB2YWwgYW5jaG9yRGF0ZSA9IGFjdGl2aXR5UmFuZ2VBbmNob3JEYXRlKGN1cnJlbnRSYW5nZSwgem9uZSkKICAgICAgICB2YWwgcHJvdmlkZXJNb2RlbHMgPSBwcm92aWRlck1vZGVsc0ZvcihzbmFwc2hvdCkKICAgICAgICBtb2RlUmFuZ2VKb2I/LmNhbmNlbCgpCiAgICAgICAgbW9kZVJhbmdlSm9iID0gdmlld01vZGVsU2NvcGUubGF1bmNoKGRpc3BhdGNoZXIpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBoaXN0b3J5U3RhcnREYXRlID0gaWYgKG1vZGUgPT0gVG9rZW5BY3Rpdml0eVZpZXdNb2RlLkNVTVVMQVRJVkUpIHsKICAgICAgICAgICAgICAgICAgICBUb2tlblN0YXRzUXVlcnlTZXJ2aWNlLmVhcmxpZXN0T2NjdXJyZWREYXRlKAogICAgICAgICAgICAgICAgICAgICAgICBhcHBDb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICBUb2tlblN0YXRzUXVlcnlQYXJhbXMocHJvdmlkZXJNb2RlbHMgPSBwcm92aWRlck1vZGVscyksCiAgICAgICAgICAgICAgICAgICAgICAgIHpvbmUsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgcmFuZ2UgPSBhY3Rpdml0eVJhbmdlRm9yTW9kZShtb2RlLCBhbmNob3JEYXRlLCBoaXN0b3J5U3RhcnREYXRlLCB6b25lKQogICAgICAgICAgICAgICAgICAgID86IHJldHVybkBsYXVuY2gKICAgICAgICAgICAgICAgIHNldHRpbmdzLnNhdmVBY3Rpdml0eVZpZXdNb2RlKG1vZGUpCiAgICAgICAgICAgICAgICBzZXR0aW5ncy5zYXZlVGltZVJhbmdlKHJhbmdlKQogICAgICAgICAgICAgICAgX3N0YXRlLnVwZGF0ZSB7CiAgICAgICAgICAgICAgICAgICAgaXQuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudFJhbmdlID0gcmFuZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgIGFjdGl2aXR5ID0gaXQuYWN0aXZpdHkuY29weSh2aWV3TW9kZSA9IG1vZGUpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxvYWQoKQogICAgICAgICAgICB9IGNhdGNoIChlOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIHRocm93IGUKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSh0YWcsICJGYWlsZWQgdG8gY2hhbmdlIHRva2VuIGFjdGl2aXR5IHZpZXcgbW9kZSIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIHRvZ2dsZVRva2VuRGlzcGxheVVuaXQoKSB7CiAgICAgICAgdmFsIHVuaXQgPSBfc3RhdGUudmFsdWUudG9rZW5EaXNwbGF5VW5pdC50b2dnbGVkKCkKICAgICAgICBfc3RhdGUudXBkYXRlIHsgaXQuY29weSh0b2tlbkRpc3BsYXlVbml0ID0gdW5pdCkgfQogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaChkaXNwYXRjaGVyKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBzZXR0aW5ncy5zYXZlVG9rZW5EaXNwbGF5VW5pdCh1bml0KQogICAgICAgICAgICB9IGNhdGNoIChlOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIHRocm93IGUKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSh0YWcsICJGYWlsZWQgdG8gc2F2ZSB0b2tlbiBkaXNwbGF5IHVuaXQiLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGxvYWRJbnRlcm5hbChsb2FkVmlld01vZGU6IEJvb2xlYW4pIHsKICAgICAgICBsb2FkSm9iPy5jYW5jZWwoKQogICAgICAgIHZhbCBnZW5lcmF0aW9uID0gKytsb2FkR2VuZXJhdGlvbgogICAgICAgIHZhbCBmaWx0ZXJTbmFwc2hvdCA9IF9zdGF0ZS52YWx1ZQogICAgICAgIGxvYWRKb2IgPSB2aWV3TW9kZWxTY29wZS5sYXVuY2goZGlzcGF0Y2hlcikgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHJhdGVJbmZvID0gc2V0dGluZ3MubG9hZFJhdGVXaXRoRXN0aW1hdGUoKQogICAgICAgICAgICAgICAgdmFsIGN1cnJlbmN5ID0gc2V0dGluZ3MubG9hZFRhcmdldEN1cnJlbmN5KCkKICAgICAgICAgICAgICAgIHZhbCB0b2tlbkRpc3BsYXlVbml0ID0gc2V0dGluZ3MubG9hZFRva2VuRGlzcGxheVVuaXQoKQogICAgICAgICAgICAgICAgdmFsIGVudHJ5Vmlld01vZGUgPSBpZiAobG9hZFZpZXdNb2RlKSBzZXR0aW5ncy5sb2FkQWN0aXZpdHlWaWV3TW9kZSgpIGVsc2UgbnVsbAogICAgICAgICAgICAgICAgdmFsIHJhbmdlID0gc2V0dGluZ3MubG9hZFRpbWVSYW5nZSgpID86IGRlZmF1bHREYXRlUmFuZ2Uobm93TXMoKSwgem9uZSkKCiAgICAgICAgICAgICAgICBpZiAoZ2VuZXJhdGlvbiAhPSBsb2FkR2VuZXJhdGlvbikgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICAgICAgX3N0YXRlLnVwZGF0ZSB7CiAgICAgICAgICAgICAgICAgICAgaXQuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgbG9hZGluZyA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGFjdGl2aXR5ID0gaXQuYWN0aXZpdHkuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvYWRpbmcgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlld01vZGUgPSBlbnRyeVZpZXdNb2RlID86IGl0LmFjdGl2aXR5LnZpZXdNb2RlLAogICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gY29yb3V0aW5lU2NvcGUgewogICAgICAgICAgICAgICAgICAgIHZhbCBwcmljZXNEZWZlcnJlZCA9IGFzeW5jKERpc3BhdGNoZXJzLklPKSB7IG1hbmFnZXIuYWxsUHJpY2VTZXR0aW5ncygpIH0KICAgICAgICAgICAgICAgICAgICB2YWwgc2VsZWN0ZWRQcm92aWRlck1vZGVscyA9IHByb3ZpZGVyTW9kZWxzRm9yKGZpbHRlclNuYXBzaG90KQogICAgICAgICAgICAgICAgICAgIHZhbCByYW5nZVBhcmFtcyA9IFRva2VuU3RhdHNRdWVyeVBhcmFtcygKICAgICAgICAgICAgICAgICAgICAgICAgdGFyZ2V0Q3VycmVuY3kgPSBjdXJyZW5jeSwKICAgICAgICAgICAgICAgICAgICAgICAgbWFudWFsUmF0ZSA9IHJhdGVJbmZvLmZpcnN0LAogICAgICAgICAgICAgICAgICAgICAgICBwcm92aWRlck1vZGVscyA9IHNlbGVjdGVkUHJvdmlkZXJNb2RlbHMsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHZhbCBhdmFpbGFibGVQYXJhbXMgPSByYW5nZVBhcmFtcy5jb3B5KHByb3ZpZGVyTW9kZWxzID0gbnVsbCkKICAgICAgICAgICAgICAgICAgICB2YWwgbGlmZXRpbWVEZWZlcnJlZCA9IGFzeW5jKERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRva2VuU3RhdHNRdWVyeVNlcnZpY2UubGlmZXRpbWVPdmVydmlldygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcENvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb2tlblN0YXRzUXVlcnlQYXJhbXMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFyZ2V0Q3VycmVuY3kgPSBjdXJyZW5jeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYW51YWxSYXRlID0gcmF0ZUluZm8uZmlyc3QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHZhbCByYW5nZURlZmVycmVkID0gYXN5bmMoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgICAgICAgICAgVG9rZW5TdGF0c1F1ZXJ5U2VydmljZS5yYW5nZURhdGEoYXBwQ29udGV4dCwgcmFuZ2UsIHJhbmdlUGFyYW1zLCB6b25lKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB2YWwgYXZhaWxhYmxlRGVmZXJyZWQgPSBhc3luYyhEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2VsZWN0ZWRQcm92aWRlck1vZGVscyA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb2tlblN0YXRzUXVlcnlTZXJ2aWNlLnJhbmdlRGF0YSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcHBDb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJhbmdlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF2YWlsYWJsZVBhcmFtcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB6b25lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHZhbCBhY3Rpdml0eURlZmVycmVkID0gYXN5bmMoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgICAgICAgICAgVG9rZW5TdGF0c1F1ZXJ5U2VydmljZS5hY3Rpdml0eVNuYXBzaG90KGFwcENvbnRleHQsIHJhbmdlLCByYW5nZVBhcmFtcywgem9uZSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdmFsIHJhbmdlRGF0YSA9IHJhbmdlRGVmZXJyZWQuYXdhaXQoKQogICAgICAgICAgICAgICAgICAgIHZhbCBjb25maWd1cmF0aW9uSWRzID0KICAgICAgICAgICAgICAgICAgICAgICAgcmFuZ2VEYXRhCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA/LmRpc3BsYXlNb2RlbHMKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5vckVtcHR5KCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5mbGF0TWFwIHsgaXQuaWRlbnRpdGllcyB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAubWFwTm90TnVsbCB7IGl0LmNvbmZpZ0lkIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5kaXN0aW5jdCgpCiAgICAgICAgICAgICAgICAgICAgdmFsIGNvbmZpZ3VyYXRpb25OYW1lc0RlZmVycmVkID0gYXN5bmMoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgICAgICAgICAgYnVpbGRNYXAgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlndXJhdGlvbklkcy5mb3JFYWNoIHsgY29uZmlnSWQgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RlbENvbmZpZ01hbmFnZXIuZ2V0TW9kZWxDb25maWcoY29uZmlnSWQpPy5sZXQgeyBjb25maWcgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHV0KGNvbmZpZ0lkLCBjb25maWcubmFtZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgUXVlcnlMb2FkUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICBsaWZldGltZSA9IGxpZmV0aW1lRGVmZXJyZWQuYXdhaXQoKSwKICAgICAgICAgICAgICAgICAgICAgICAgcmFuZ2UgPSByYW5nZURhdGEsCiAgICAgICAgICAgICAgICAgICAgICAgIGF2YWlsYWJsZSA9IGF2YWlsYWJsZURlZmVycmVkLmF3YWl0KCkgPzogcmFuZ2VEYXRhLAogICAgICAgICAgICAgICAgICAgICAgICBwcmljZXMgPSBwcmljZXNEZWZlcnJlZC5hd2FpdCgpLAogICAgICAgICAgICAgICAgICAgICAgICBjb25maWd1cmF0aW9uTmFtZXMgPSBjb25maWd1cmF0aW9uTmFtZXNEZWZlcnJlZC5hd2FpdCgpLAogICAgICAgICAgICAgICAgICAgICAgICBhY3Rpdml0eSA9IFRva2VuQWN0aXZpdHlBZ2dyZWdhdG9yLnJhbmdlRGF0YShhY3Rpdml0eURlZmVycmVkLmF3YWl0KCksIHJhbmdlKSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKGdlbmVyYXRpb24gIT0gbG9hZEdlbmVyYXRpb24pIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgICAgIHJlbWVtYmVyTW9kZWxOYW1lcyhyZXN1bHQubGlmZXRpbWUuZGlzcGxheU1vZGVscykKICAgICAgICAgICAgICAgIHJlbWVtYmVyTW9kZWxOYW1lcyhyZXN1bHQucmFuZ2U/LmRpc3BsYXlNb2RlbHMub3JFbXB0eSgpKQogICAgICAgICAgICAgICAgcmVtZW1iZXJNb2RlbE5hbWVzKHJlc3VsdC5hdmFpbGFibGU/LmRpc3BsYXlNb2RlbHMub3JFbXB0eSgpKQogICAgICAgICAgICAgICAgX3N0YXRlLnVwZGF0ZSB7CiAgICAgICAgICAgICAgICAgICAgaXQuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgbG9hZGluZyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICBlcnJvck1lc3NhZ2UgPSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICBsaWZldGltZSA9IHJlc3VsdC5saWZldGltZSwKICAgICAgICAgICAgICAgICAgICAgICAgcmFuZ2UgPSByZXN1bHQucmFuZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJlbnRSYW5nZSA9IHJhbmdlLAogICAgICAgICAgICAgICAgICAgICAgICB0YXJnZXRDdXJyZW5jeSA9IGN1cnJlbmN5LAogICAgICAgICAgICAgICAgICAgICAgICB0b2tlbkRpc3BsYXlVbml0ID0gdG9rZW5EaXNwbGF5VW5pdCwKICAgICAgICAgICAgICAgICAgICAgICAgbWFudWFsUmF0ZSA9IHJhdGVJbmZvLmZpcnN0LAogICAgICAgICAgICAgICAgICAgICAgICByYXRlSXNFc3RpbWF0ZWQgPSByYXRlSW5mby5zZWNvbmQsCiAgICAgICAgICAgICAgICAgICAgICAgIGF2YWlsYWJsZURpc3BsYXlNb2RlbHMgPSByZXN1bHQuYXZhaWxhYmxlPy5kaXNwbGF5TW9kZWxzLm9yRW1wdHkoKSwKICAgICAgICAgICAgICAgICAgICAgICAga25vd25Nb2RlbE5hbWVzID0ga25vd25Nb2RlbE5hbWVzLnRvTWFwKCksCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbmZpZ3VyYXRpb25OYW1lcyA9IHJlc3VsdC5jb25maWd1cmF0aW9uTmFtZXMsCiAgICAgICAgICAgICAgICAgICAgICAgIHByaWNlU2V0dGluZ3MgPSByZXN1bHQucHJpY2VzLAogICAgICAgICAgICAgICAgICAgICAgICBhY3Rpdml0eSA9IGl0LmFjdGl2aXR5LmNvcHkobG9hZGluZyA9IGZhbHNlLCByYW5nZURhdGEgPSByZXN1bHQuYWN0aXZpdHkpLAogICAgICAgICAgICAgICAgICAgICAgICByZWZyZXNoVmVyc2lvbiA9IGl0LnJlZnJlc2hWZXJzaW9uICsgMUwsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIHRocm93IGUKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBpZiAoZ2VuZXJhdGlvbiA9PSBsb2FkR2VuZXJhdGlvbikgewogICAgICAgICAgICAgICAgICAgIF9zdGF0ZS51cGRhdGUgewogICAgICAgICAgICAgICAgICAgICAgICBpdC5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9hZGluZyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gc3RyaW5nUmVzb2x2ZXIoUi5zdHJpbmcudG9rZW5fc3RhdHNfbG9hZF9mYWlsZWQpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYWN0aXZpdHkgPSBpdC5hY3Rpdml0eS5jb3B5KGxvYWRpbmcgPSBmYWxzZSksCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSh0YWcsICJUb2tlbiBzdGF0aXN0aWNzIGxvYWQgZmFpbGVkIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZW1lbWJlck1vZGVsTmFtZXMobW9kZWxzOiBMaXN0PFRva2VuU3RhdHNEaXNwbGF5TW9kZWxCcmVha2Rvd24+KSB7CiAgICAgICAgbW9kZWxzLmZvckVhY2ggewogICAgICAgICAgICBrbm93bk1vZGVsTmFtZXNbaXQuZGlzcGxheU1vZGVsSWRdID0gaXQuZGlzcGxheU5hbWUKICAgICAgICAgICAga25vd25Nb2RlbFByb3ZpZGVyTW9kZWxzW2l0LmRpc3BsYXlNb2RlbElkXSA9CiAgICAgICAgICAgICAgICBrbm93bk1vZGVsUHJvdmlkZXJNb2RlbHNbaXQuZGlzcGxheU1vZGVsSWRdLm9yRW1wdHkoKSArIGl0LnByb3ZpZGVyTW9kZWxzCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHByb3ZpZGVyTW9kZWxzRm9yKHN0YXRlOiBUb2tlblN0YXRzVWlTdGF0ZSk6IFNldDxTdHJpbmc+PyB7CiAgICAgICAgdmFsIHByb3ZpZGVyTW9kZWxzQnlEaXNwbGF5SWQgPSBrbm93bk1vZGVsUHJvdmlkZXJNb2RlbHMudG9NdXRhYmxlTWFwKCkuYXBwbHkgewogICAgICAgICAgICBzdGF0ZS5hdmFpbGFibGVEaXNwbGF5TW9kZWxzLmZvckVhY2ggeyBtb2RlbCAtPgogICAgICAgICAgICAgICAgdGhpc1ttb2RlbC5kaXNwbGF5TW9kZWxJZF0gPSB0aGlzW21vZGVsLmRpc3BsYXlNb2RlbElkXS5vckVtcHR5KCkgKyBtb2RlbC5wcm92aWRlck1vZGVscwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmIChzdGF0ZS5zZWxlY3RlZE1vZGVscy5pc0VtcHR5KCkpIHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIHN0YXRlLnNlbGVjdGVkTW9kZWxzCiAgICAgICAgICAgIC5hc1NlcXVlbmNlKCkKICAgICAgICAgICAgLmZsYXRNYXAgeyBwcm92aWRlck1vZGVsc0J5RGlzcGxheUlkW2l0XS5vckVtcHR5KCkuYXNTZXF1ZW5jZSgpIH0KICAgICAgICAgICAgLnRvU2V0KCkKICAgIH0KCiAgICBmdW4gc2V0Q3VzdG9tUmFuZ2Uoc3RhcnRNczogTG9uZywgZW5kTXM6IExvbmcpOiBCb29sZWFuIHsKICAgICAgICBtb2RlUmFuZ2VKb2I/LmNhbmNlbCgpCiAgICAgICAgd2hlbiAodmFsaWRhdGVDdXN0b21SYW5nZShzdGFydE1zLCBlbmRNcywgem9uZSwgTUFYX0NVU1RPTV9SQU5HRV9EQVlTKSkgewogICAgICAgICAgICBDdXN0b21SYW5nZVZhbGlkYXRpb24uSU5WQUxJRF9CT1VORFMgLT4gewogICAgICAgICAgICAgICAgX2FjdGlvbk1lc3NhZ2UudmFsdWUgPSBUb2tlblN0YXRzQWN0aW9uTWVzc2FnZSgKICAgICAgICAgICAgICAgICAgICBzdHJpbmdSZXNvbHZlcihSLnN0cmluZy50b2tlbl9zdGF0c19jdXN0b21fcmFuZ2VfaW52YWxpZCksCiAgICAgICAgICAgICAgICAgICAgaXNFcnJvciA9IHRydWUsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgICAgICBDdXN0b21SYW5nZVZhbGlkYXRpb24uVE9PX0xPTkcgLT4gewogICAgICAgICAgICAgICAgLy8gQSBnZW5lcmF0ZWQgY3VtdWxhdGl2ZSByYW5nZSBtYXkgZXhjZWVkIHRoZSBtYW51YWwgcmFuZ2UgbGltaXQ7CiAgICAgICAgICAgICAgICAvLyBjb25maXJtaW5nIGl0IHVuY2hhbmdlZCBtdXN0IHJlbWFpbiBhIHZhbGlkIG5vLW9wIHNlbGVjdGlvbi4KICAgICAgICAgICAgICAgIHZhbCBjdXJyZW50UmFuZ2UgPSBfc3RhdGUudmFsdWUuY3VycmVudFJhbmdlCiAgICAgICAgICAgICAgICBpZiAoY3VycmVudFJhbmdlPy5sZXQgeyBpdC5zdGFydE1zID09IHN0YXJ0TXMgJiYgaXQuZW5kTXMgPT0gZW5kTXMgfSA9PSB0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHNhdmVDdXN0b21SYW5nZShUb2tlblN0YXRzVGltZVJhbmdlcy5jdXN0b21SYW5nZShzdGFydE1zLCBlbmRNcykpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBfYWN0aW9uTWVzc2FnZS52YWx1ZSA9IFRva2VuU3RhdHNBY3Rpb25NZXNzYWdlKAogICAgICAgICAgICAgICAgICAgIHN0cmluZ1Jlc29sdmVyKFIuc3RyaW5nLnRva2VuX3N0YXRzX2N1c3RvbV9yYW5nZV90b29fbG9uZyksCiAgICAgICAgICAgICAgICAgICAgaXNFcnJvciA9IHRydWUsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgICAgICBDdXN0b21SYW5nZVZhbGlkYXRpb24uVkFMSUQgLT4gVW5pdAogICAgICAgIH0KICAgICAgICByZXR1cm4gc2F2ZUN1c3RvbVJhbmdlKFRva2VuU3RhdHNUaW1lUmFuZ2VzLmN1c3RvbVJhbmdlKHN0YXJ0TXMsIGVuZE1zKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBzYXZlQ3VzdG9tUmFuZ2UocmFuZ2U6IFRva2VuU3RhdHNUaW1lUmFuZ2UpOiBCb29sZWFuIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2goZGlzcGF0Y2hlcikgewogICAgICAgICAgICBzZXR0aW5ncy5zYXZlVGltZVJhbmdlKHJhbmdlKQogICAgICAgICAgICBsb2FkKCkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICBmdW4gdG9nZ2xlTW9kZWwoZGlzcGxheU1vZGVsSWQ6IFN0cmluZykgewogICAgICAgIG1vZGVSYW5nZUpvYj8uY2FuY2VsKCkKICAgICAgICBfc3RhdGUudXBkYXRlIHsgc3RhdGUgLT4KICAgICAgICAgICAgdmFsIHNlbGVjdGVkID0gc3RhdGUuc2VsZWN0ZWRNb2RlbHMudG9NdXRhYmxlU2V0KCkKICAgICAgICAgICAgaWYgKCFzZWxlY3RlZC5hZGQoZGlzcGxheU1vZGVsSWQpKSBzZWxlY3RlZC5yZW1vdmUoZGlzcGxheU1vZGVsSWQpCiAgICAgICAgICAgIHN0YXRlLmNvcHkoc2VsZWN0ZWRNb2RlbHMgPSBzZWxlY3RlZCkKICAgICAgICB9CiAgICAgICAgbG9hZCgpCiAgICB9CgogICAgZnVuIHNlbGVjdEFsbE1vZGVscygpIHsKICAgICAgICBtb2RlUmFuZ2VKb2I/LmNhbmNlbCgpCiAgICAgICAgX3N0YXRlLnVwZGF0ZSB7IGl0LmNvcHkoc2VsZWN0ZWRNb2RlbHMgPSBlbXB0eVNldCgpKSB9CiAgICAgICAgbG9hZCgpCiAgICB9CgogICAgZnVuIHNldFRhcmdldEN1cnJlbmN5KGN1cnJlbmN5OiBQcmljaW5nQ3VycmVuY3kpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2goZGlzcGF0Y2hlcikgewogICAgICAgICAgICBzZXR0aW5ncy5zYXZlVGFyZ2V0Q3VycmVuY3koY3VycmVuY3kpCiAgICAgICAgICAgIGxvYWQoKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gc2V0TWFudWFsUmF0ZShyYXRlOiBEb3VibGUpOiBCb29sZWFuIHsKICAgICAgICBpZiAoIXJhdGUuaXNGaW5pdGUoKSB8fCByYXRlIDw9IDAuMCkgcmV0dXJuIGZhbHNlCiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoKGRpc3BhdGNoZXIpIHsKICAgICAgICAgICAgc2V0dGluZ3Muc2F2ZVJhdGUocmF0ZSkKICAgICAgICAgICAgbG9hZCgpCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgZnVuIHNhdmVQcmljZShkcmFmdDogVG9rZW5TdGF0c1ByaWNlRHJhZnQpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2goZGlzcGF0Y2hlcikgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgbWFuYWdlci5zYXZlUHJpY2UoZHJhZnQpCiAgICAgICAgICAgICAgICBsb2FkKCkKICAgICAgICAgICAgfSBjYXRjaCAoZTogQ2FuY2VsbGF0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgX2FjdGlvbk1lc3NhZ2UudmFsdWUgPSBUb2tlblN0YXRzQWN0aW9uTWVzc2FnZSgKICAgICAgICAgICAgICAgICAgICBzdHJpbmdSZXNvbHZlcihSLnN0cmluZy50b2tlbl9zdGF0c19wcmljaW5nX3NhdmVfZmFpbGVkKSwKICAgICAgICAgICAgICAgICAgICBpc0Vycm9yID0gdHJ1ZSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gZGVsZXRlUHJpY2Uoc2V0dGluZzogVG9rZW5TdGF0c1ByaWNlU2V0dGluZykgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaChkaXNwYXRjaGVyKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBpZiAoc2V0dGluZy5zY29wZSA9PSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzUHJpY2VTY29wZS5DT05GSUcpIHsKICAgICAgICAgICAgICAgICAgICBtYW5hZ2VyLnJlc2V0Q29uZmlnUHJpY2Uoc2V0dGluZy5wcm92aWRlck1vZGVsLCByZXF1aXJlTm90TnVsbChzZXR0aW5nLmNvbmZpZ0lkKSkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgbWFuYWdlci5yZXN0b3JlQnVpbHRJblByaWNlKHNldHRpbmcucHJvdmlkZXJNb2RlbCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxvYWQoKQogICAgICAgICAgICB9IGNhdGNoIChlOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIHRocm93IGUKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBfYWN0aW9uTWVzc2FnZS52YWx1ZSA9IFRva2VuU3RhdHNBY3Rpb25NZXNzYWdlKAogICAgICAgICAgICAgICAgICAgIHN0cmluZ1Jlc29sdmVyKFIuc3RyaW5nLnRva2VuX3N0YXRzX3ByaWNpbmdfZGVsZXRlX2ZhaWxlZCksCiAgICAgICAgICAgICAgICAgICAgaXNFcnJvciA9IHRydWUsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgY2xhc3MgRmFjdG9yeShjb250ZXh0OiBDb250ZXh0KSA6IFZpZXdNb2RlbFByb3ZpZGVyLkZhY3RvcnkgewogICAgICAgIHByaXZhdGUgdmFsIGFwcENvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAoKICAgICAgICBAU3VwcHJlc3MoIlVOQ0hFQ0tFRF9DQVNUIikKICAgICAgICBvdmVycmlkZSBmdW4gPFQgOiBWaWV3TW9kZWw+IGNyZWF0ZShtb2RlbENsYXNzOiBDbGFzczxUPik6IFQgPQogICAgICAgICAgICBUb2tlblVzYWdlU3RhdGlzdGljc1ZpZXdNb2RlbChhcHBDb250ZXh0KSBhcyBUCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgY29uc3QgdmFsIE1BWF9DVVNUT01fUkFOR0VfREFZUyA9IDMgKiAzNjZMCiAgICB9Cn0KCnByaXZhdGUgZGF0YSBjbGFzcyBRdWVyeUxvYWRSZXN1bHQoCiAgICB2YWwgbGlmZXRpbWU6IFRva2VuU3RhdHNMaWZldGltZU92ZXJ2aWV3LAogICAgdmFsIHJhbmdlOiBUb2tlblN0YXRzUmFuZ2VEYXRhPywKICAgIHZhbCBhdmFpbGFibGU6IFRva2VuU3RhdHNSYW5nZURhdGE/LAogICAgdmFsIHByaWNlczogTGlzdDxUb2tlblN0YXRzUHJpY2VTZXR0aW5nPiwKICAgIHZhbCBjb25maWd1cmF0aW9uTmFtZXM6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICB2YWwgYWN0aXZpdHk6IFRva2VuQWN0aXZpdHlSYW5nZURhdGEsCikKCnByaXZhdGUgZnVuIGRlZmF1bHREYXRlUmFuZ2Uobm93TXM6IExvbmcsIHpvbmU6IFpvbmVJZCk6IFRva2VuU3RhdHNUaW1lUmFuZ2UgewogICAgdmFsIHRvZGF5ID0gamF2YS50aW1lLkluc3RhbnQub2ZFcG9jaE1pbGxpKG5vd01zKS5hdFpvbmUoem9uZSkudG9Mb2NhbERhdGUoKQogICAgdmFsIHN0YXJ0ID0gdG9kYXkubWludXNEYXlzKDI5TCkuYXRTdGFydE9mRGF5KHpvbmUpLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpCiAgICB2YWwgZW5kID0gdG9kYXkucGx1c0RheXMoMUwpLmF0U3RhcnRPZkRheSh6b25lKS50b0luc3RhbnQoKS50b0Vwb2NoTWlsbGkoKQogICAgcmV0dXJuIFRva2VuU3RhdHNUaW1lUmFuZ2VzLmN1c3RvbVJhbmdlKHN0YXJ0LCBlbmQpCn0K
+package com.bslsjdk.operit.ui.features.tokenstats
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.collects.PricingCurrency
+import com.bslsjdk.operit.data.preferences.ModelConfigManager
+import com.bslsjdk.operit.data.stats.TokenStatsPreferencesStore
+import com.bslsjdk.operit.data.stats.TokenActivityAggregator
+import com.bslsjdk.operit.data.stats.TokenActivityViewMode
+import com.bslsjdk.operit.data.stats.TokenActivityRangeData
+import com.bslsjdk.operit.data.stats.TokenCostCurrency
+import com.bslsjdk.operit.data.stats.TokenStatsDisplayModelBreakdown
+import com.bslsjdk.operit.data.stats.TokenStatsDisplayUnit
+import com.bslsjdk.operit.data.stats.TokenStatsPriceDraft
+import com.bslsjdk.operit.data.stats.TokenStatsLifetimeOverview
+import com.bslsjdk.operit.data.stats.TokenStatsPriceSetting
+import com.bslsjdk.operit.data.stats.TokenStatsQueryParams
+import com.bslsjdk.operit.data.stats.TokenStatsQueryService
+import com.bslsjdk.operit.data.stats.TokenStatsRangeData
+import com.bslsjdk.operit.data.stats.TokenStatsSettingsManager
+import com.bslsjdk.operit.data.stats.TokenStatsSettingsStore
+import com.bslsjdk.operit.data.stats.TokenStatsTimeRange
+import com.bslsjdk.operit.data.stats.TokenStatsTimeRanges
+import com.bslsjdk.operit.util.AppLogger
+import java.time.ZoneId
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.async
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+
+data class TokenActivityUiState(
+    val loading: Boolean = true,
+    val viewMode: TokenActivityViewMode = TokenActivityViewMode.DAILY,
+    val rangeData: TokenActivityRangeData? = null,
+)
+
+data class TokenStatsUiState(
+    val loading: Boolean = true,
+    val errorMessage: String? = null,
+    val refreshVersion: Long = 0L,
+    val lifetime: TokenStatsLifetimeOverview? = null,
+    val range: TokenStatsRangeData? = null,
+    val currentRange: TokenStatsTimeRange? = null,
+    val targetCurrency: PricingCurrency = PricingCurrency.CNY,
+    val tokenDisplayUnit: TokenStatsDisplayUnit = TokenStatsDisplayUnit.MILLIONS,
+    val manualRate: Double = TokenCostCurrency.DEFAULT_USD_TO_CNY_RATE,
+    val rateIsEstimated: Boolean = true,
+    val selectedModels: Set<String> = emptySet(),
+    val availableDisplayModels: List<TokenStatsDisplayModelBreakdown> = emptyList(),
+    val knownModelNames: Map<String, String> = emptyMap(),
+    val configurationNames: Map<String, String> = emptyMap(),
+    val priceSettings: List<TokenStatsPriceSetting> = emptyList(),
+    val activity: TokenActivityUiState = TokenActivityUiState(),
+)
+
+data class TokenStatsActionMessage(
+    val text: String,
+    val isError: Boolean = false,
+)
+
+@android.annotation.SuppressLint("StaticFieldLeak")
+class TokenUsageStatisticsViewModel(
+    context: Context,
+    private val settings: TokenStatsSettingsStore = TokenStatsPreferencesStore(context),
+    val zone: ZoneId = ZoneId.systemDefault(),
+    private val nowMs: () -> Long = { System.currentTimeMillis() },
+    private val stringResolver: (Int) -> String = { context.applicationContext.getString(it) },
+    private val dispatcher: CoroutineDispatcher = Dispatchers.Main.immediate,
+) : ViewModel() {
+    private val appContext = context.applicationContext
+    private val manager = TokenStatsSettingsManager(appContext)
+    private val modelConfigManager = ModelConfigManager(appContext)
+    private val tag = "TokenUsageStatisticsViewModel"
+
+    private val _state = MutableStateFlow(TokenStatsUiState())
+    val state: StateFlow<TokenStatsUiState> = _state.asStateFlow()
+
+    private val _actionMessage = MutableStateFlow<TokenStatsActionMessage?>(null)
+    val actionMessage: StateFlow<TokenStatsActionMessage?> = _actionMessage.asStateFlow()
+
+    private var loadGeneration = 0
+    private var loadJob: Job? = null
+    private var modeRangeJob: Job? = null
+    private val knownModelNames = linkedMapOf<String, String>()
+    private val knownModelProviderModels = linkedMapOf<String, Set<String>>()
+
+    fun consumeActionMessage() {
+        _actionMessage.value = null
+    }
+
+    fun load() = loadInternal(loadViewMode = false)
+
+    fun loadForEntry() = loadInternal(loadViewMode = true)
+
+    fun setActivityViewMode(mode: TokenActivityViewMode) {
+        val snapshot = _state.value
+        val currentRange = snapshot.currentRange ?: defaultDateRange(nowMs(), zone)
+        val anchorDate = activityRangeAnchorDate(currentRange, zone)
+        val providerModels = providerModelsFor(snapshot)
+        modeRangeJob?.cancel()
+        modeRangeJob = viewModelScope.launch(dispatcher) {
+            try {
+                val historyStartDate = if (mode == TokenActivityViewMode.CUMULATIVE) {
+                    TokenStatsQueryService.earliestOccurredDate(
+                        appContext,
+                        TokenStatsQueryParams(providerModels = providerModels),
+                        zone,
+                    )
+                } else {
+                    null
+                }
+                val range = activityRangeForMode(mode, anchorDate, historyStartDate, zone)
+                    ?: return@launch
+                settings.saveActivityViewMode(mode)
+                settings.saveTimeRange(range)
+                _state.update {
+                    it.copy(
+                        currentRange = range,
+                        activity = it.activity.copy(viewMode = mode),
+                    )
+                }
+                load()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                AppLogger.e(tag, "Failed to change token activity view mode", e)
+            }
+        }
+    }
+
+    fun toggleTokenDisplayUnit() {
+        val unit = _state.value.tokenDisplayUnit.toggled()
+        _state.update { it.copy(tokenDisplayUnit = unit) }
+        viewModelScope.launch(dispatcher) {
+            try {
+                settings.saveTokenDisplayUnit(unit)
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                AppLogger.e(tag, "Failed to save token display unit", e)
+            }
+        }
+    }
+
+    private fun loadInternal(loadViewMode: Boolean) {
+        loadJob?.cancel()
+        val generation = ++loadGeneration
+        val filterSnapshot = _state.value
+        loadJob = viewModelScope.launch(dispatcher) {
+            try {
+                val rateInfo = settings.loadRateWithEstimate()
+                val currency = settings.loadTargetCurrency()
+                val tokenDisplayUnit = settings.loadTokenDisplayUnit()
+                val entryViewMode = if (loadViewMode) settings.loadActivityViewMode() else null
+                val range = settings.loadTimeRange() ?: defaultDateRange(nowMs(), zone)
+
+                if (generation != loadGeneration) return@launch
+                _state.update {
+                    it.copy(
+                        loading = true,
+                        errorMessage = null,
+                        activity = it.activity.copy(
+                            loading = true,
+                            viewMode = entryViewMode ?: it.activity.viewMode,
+                        ),
+                    )
+                }
+
+                val result = coroutineScope {
+                    val pricesDeferred = async(Dispatchers.IO) { manager.allPriceSettings() }
+                    val selectedProviderModels = providerModelsFor(filterSnapshot)
+                    val rangeParams = TokenStatsQueryParams(
+                        targetCurrency = currency,
+                        manualRate = rateInfo.first,
+                        providerModels = selectedProviderModels,
+                    )
+                    val availableParams = rangeParams.copy(providerModels = null)
+                    val lifetimeDeferred = async(Dispatchers.IO) {
+                        TokenStatsQueryService.lifetimeOverview(
+                            appContext,
+                            TokenStatsQueryParams(
+                                targetCurrency = currency,
+                                manualRate = rateInfo.first,
+                            ),
+                        )
+                    }
+                    val rangeDeferred = async(Dispatchers.IO) {
+                        TokenStatsQueryService.rangeData(appContext, range, rangeParams, zone)
+                    }
+                    val availableDeferred = async(Dispatchers.IO) {
+                        if (selectedProviderModels == null) {
+                            null
+                        } else {
+                            TokenStatsQueryService.rangeData(
+                                appContext,
+                                range,
+                                availableParams,
+                                zone,
+                            )
+                        }
+                    }
+                    val activityDeferred = async(Dispatchers.IO) {
+                        TokenStatsQueryService.activitySnapshot(appContext, range, rangeParams, zone)
+                    }
+                    val rangeData = rangeDeferred.await()
+                    val configurationIds =
+                        rangeData
+                            ?.displayModels
+                            .orEmpty()
+                            .flatMap { it.identities }
+                            .mapNotNull { it.configId }
+                            .distinct()
+                    val configurationNamesDeferred = async(Dispatchers.IO) {
+                        buildMap {
+                            configurationIds.forEach { configId ->
+                                modelConfigManager.getModelConfig(configId)?.let { config ->
+                                    put(configId, config.name)
+                                }
+                            }
+                        }
+                    }
+                    QueryLoadResult(
+                        lifetime = lifetimeDeferred.await(),
+                        range = rangeData,
+                        available = availableDeferred.await() ?: rangeData,
+                        prices = pricesDeferred.await(),
+                        configurationNames = configurationNamesDeferred.await(),
+                        activity = TokenActivityAggregator.rangeData(activityDeferred.await(), range),
+                    )
+                }
+
+                if (generation != loadGeneration) return@launch
+                rememberModelNames(result.lifetime.displayModels)
+                rememberModelNames(result.range?.displayModels.orEmpty())
+                rememberModelNames(result.available?.displayModels.orEmpty())
+                _state.update {
+                    it.copy(
+                        loading = false,
+                        errorMessage = null,
+                        lifetime = result.lifetime,
+                        range = result.range,
+                        currentRange = range,
+                        targetCurrency = currency,
+                        tokenDisplayUnit = tokenDisplayUnit,
+                        manualRate = rateInfo.first,
+                        rateIsEstimated = rateInfo.second,
+                        availableDisplayModels = result.available?.displayModels.orEmpty(),
+                        knownModelNames = knownModelNames.toMap(),
+                        configurationNames = result.configurationNames,
+                        priceSettings = result.prices,
+                        activity = it.activity.copy(loading = false, rangeData = result.activity),
+                        refreshVersion = it.refreshVersion + 1L,
+                    )
+                }
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                if (generation == loadGeneration) {
+                    _state.update {
+                        it.copy(
+                            loading = false,
+                            errorMessage = stringResolver(R.string.token_stats_load_failed),
+                            activity = it.activity.copy(loading = false),
+                        )
+                    }
+                }
+                AppLogger.e(tag, "Token statistics load failed", e)
+            }
+        }
+    }
+
+    private fun rememberModelNames(models: List<TokenStatsDisplayModelBreakdown>) {
+        models.forEach {
+            knownModelNames[it.displayModelId] = it.displayName
+            knownModelProviderModels[it.displayModelId] =
+                knownModelProviderModels[it.displayModelId].orEmpty() + it.providerModels
+        }
+    }
+
+    private fun providerModelsFor(state: TokenStatsUiState): Set<String>? {
+        val providerModelsByDisplayId = knownModelProviderModels.toMutableMap().apply {
+            state.availableDisplayModels.forEach { model ->
+                this[model.displayModelId] = this[model.displayModelId].orEmpty() + model.providerModels
+            }
+        }
+        if (state.selectedModels.isEmpty()) return null
+        return state.selectedModels
+            .asSequence()
+            .flatMap { providerModelsByDisplayId[it].orEmpty().asSequence() }
+            .toSet()
+    }
+
+    fun setCustomRange(startMs: Long, endMs: Long): Boolean {
+        modeRangeJob?.cancel()
+        when (validateCustomRange(startMs, endMs, zone, MAX_CUSTOM_RANGE_DAYS)) {
+            CustomRangeValidation.INVALID_BOUNDS -> {
+                _actionMessage.value = TokenStatsActionMessage(
+                    stringResolver(R.string.token_stats_custom_range_invalid),
+                    isError = true,
+                )
+                return false
+            }
+            CustomRangeValidation.TOO_LONG -> {
+                // A generated cumulative range may exceed the manual range limit;
+                // confirming it unchanged must remain a valid no-op selection.
+                val currentRange = _state.value.currentRange
+                if (currentRange?.let { it.startMs == startMs && it.endMs == endMs } == true) {
+                    return saveCustomRange(TokenStatsTimeRanges.customRange(startMs, endMs))
+                }
+                _actionMessage.value = TokenStatsActionMessage(
+                    stringResolver(R.string.token_stats_custom_range_too_long),
+                    isError = true,
+                )
+                return false
+            }
+            CustomRangeValidation.VALID -> Unit
+        }
+        return saveCustomRange(TokenStatsTimeRanges.customRange(startMs, endMs))
+    }
+
+    private fun saveCustomRange(range: TokenStatsTimeRange): Boolean {
+        viewModelScope.launch(dispatcher) {
+            settings.saveTimeRange(range)
+            load()
+        }
+        return true
+    }
+
+    fun toggleModel(displayModelId: String) {
+        modeRangeJob?.cancel()
+        _state.update { state ->
+            val selected = state.selectedModels.toMutableSet()
+            if (!selected.add(displayModelId)) selected.remove(displayModelId)
+            state.copy(selectedModels = selected)
+        }
+        load()
+    }
+
+    fun selectAllModels() {
+        modeRangeJob?.cancel()
+        _state.update { it.copy(selectedModels = emptySet()) }
+        load()
+    }
+
+    fun setTargetCurrency(currency: PricingCurrency) {
+        viewModelScope.launch(dispatcher) {
+            settings.saveTargetCurrency(currency)
+            load()
+        }
+    }
+
+    fun setManualRate(rate: Double): Boolean {
+        if (!rate.isFinite() || rate <= 0.0) return false
+        viewModelScope.launch(dispatcher) {
+            settings.saveRate(rate)
+            load()
+        }
+        return true
+    }
+
+    fun savePrice(draft: TokenStatsPriceDraft) {
+        viewModelScope.launch(dispatcher) {
+            try {
+                manager.savePrice(draft)
+                load()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                _actionMessage.value = TokenStatsActionMessage(
+                    stringResolver(R.string.token_stats_pricing_save_failed),
+                    isError = true,
+                )
+            }
+        }
+    }
+
+    fun deletePrice(setting: TokenStatsPriceSetting) {
+        viewModelScope.launch(dispatcher) {
+            try {
+                if (setting.scope == com.bslsjdk.operit.data.stats.TokenStatsPriceScope.CONFIG) {
+                    manager.resetConfigPrice(setting.providerModel, requireNotNull(setting.configId))
+                } else {
+                    manager.restoreBuiltInPrice(setting.providerModel)
+                }
+                load()
+            } catch (e: CancellationException) {
+                throw e
+            } catch (e: Exception) {
+                _actionMessage.value = TokenStatsActionMessage(
+                    stringResolver(R.string.token_stats_pricing_delete_failed),
+                    isError = true,
+                )
+            }
+        }
+    }
+
+    class Factory(context: Context) : ViewModelProvider.Factory {
+        private val appContext = context.applicationContext
+
+        @Suppress("UNCHECKED_CAST")
+        override fun <T : ViewModel> create(modelClass: Class<T>): T =
+            TokenUsageStatisticsViewModel(appContext) as T
+    }
+
+    companion object {
+        const val MAX_CUSTOM_RANGE_DAYS = 3 * 366L
+    }
+}
+
+private data class QueryLoadResult(
+    val lifetime: TokenStatsLifetimeOverview,
+    val range: TokenStatsRangeData?,
+    val available: TokenStatsRangeData?,
+    val prices: List<TokenStatsPriceSetting>,
+    val configurationNames: Map<String, String>,
+    val activity: TokenActivityRangeData,
+)
+
+private fun defaultDateRange(nowMs: Long, zone: ZoneId): TokenStatsTimeRange {
+    val today = java.time.Instant.ofEpochMilli(nowMs).atZone(zone).toLocalDate()
+    val start = today.minusDays(29L).atStartOfDay(zone).toInstant().toEpochMilli()
+    val end = today.plusDays(1L).atStartOfDay(zone).toInstant().toEpochMilli()
+    return TokenStatsTimeRanges.customRange(start, end)
+}

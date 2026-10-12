@@ -1,1 +1,233 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmljb25zCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQml0bWFwCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLkJpdG1hcEZhY3RvcnkKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQ2FudmFzCmltcG9ydCBqYXZhLmlvLklucHV0U3RyZWFtCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucHJvZHVjZVN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkltYWdlQml0bWFwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLmFzSW1hZ2VCaXRtYXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3JGaWx0ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MubHVtaW5hbmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnBhaW50ZXIuQml0bWFwUGFpbnRlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5wYWludGVyLlBhaW50ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsRGVuc2l0eQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5jYXZlcm9jay5hbmRyb2lkc3ZnLlNWRwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwubm9ybWFsaXplUHJvdmlkZXJUeXBlSWQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBrb3RsaW4ubWF0aC5tYXgKCi8qKgogKiDmqKHlnosgUHJvdmlkZXIgTG9nbyDliqDovb3lmajvvIjmlrnmoYggQe+8iQogKgogKiBMb2dvIOe0oOadkOWtmOaUvuS6jiBhc3NldHMvbW9kZWxfbG9nb3Mve0FwaVByb3ZpZGVyVHlwZS5uYW1lfS8g55uu5b2V5LiL77yMCiAqIOavj+S4qiBwcm92aWRlciDmlofku7blpLnlhoXlj6rmnInkuIDkuKrmlofku7bvvIguc3ZnIOaIliAucG5n77yJ44CCCiAqIC0gLnN2ZyDkvb/nlKggQW5kcm9pZFNWRyDop6PmnpDmuLLmn5PkuLogQml0bWFwCiAqIC0gLnBuZyDnm7TmjqXop6PnoIHlubbmjInnm67moIflsLrlr7jnvKnmlL4KICovCm9iamVjdCBQcm92aWRlckxvZ29Mb2FkZXIgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIExPR09fUk9PVCA9ICJtb2RlbF9sb2dvcyIKCiAgICAvKiog5p+l5om+IHByb3ZpZGVyIOWvueW6lOeahCBhc3NldHMg5YaFIGxvZ28g5paH5Lu26Lev5b6E77yM5LiN5a2Y5Zyo6L+U5ZueIG51bGwgKi8KICAgIGZ1biBmaW5kTG9nb0Fzc2V0UGF0aChjb250ZXh0OiBDb250ZXh0LCBwcm92aWRlclR5cGVJZDogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWRQcm92aWRlclR5cGVJZCA9IG5vcm1hbGl6ZVByb3ZpZGVyVHlwZUlkKHByb3ZpZGVyVHlwZUlkKQogICAgICAgIGlmIChub3JtYWxpemVkUHJvdmlkZXJUeXBlSWQuaXNCbGFuaygpKSByZXR1cm4gbnVsbAogICAgICAgIHZhbCBkaXIgPSAiJExPR09fUk9PVC8kbm9ybWFsaXplZFByb3ZpZGVyVHlwZUlkIgogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgZmlsZXMgPSBjb250ZXh0LmFzc2V0cy5saXN0KGRpcikgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgdmFsIGZpbGUgPQogICAgICAgICAgICAgICAgZmlsZXMuZmlyc3RPck51bGwgewogICAgICAgICAgICAgICAgICAgIGl0LmVuZHNXaXRoKCIuc3ZnIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgICAgICAgICAgICAgICAgIGl0LmVuZHNXaXRoKCIucG5nIiwgaWdub3JlQ2FzZSA9IHRydWUpCiAgICAgICAgICAgICAgICB9ID86IHJldHVybiBudWxsCiAgICAgICAgICAgICIkZGlyLyRmaWxlIgogICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDliqDovb0gcHJvdmlkZXIgbG9nbyDkuLrmjIflrprlsLrlr7jnmoQgQml0bWFw77yI5q2j5pa55b2i55S75biD77yM5YaF5a655oyJ5q+U5L6L5bGF5Lit77yJICovCiAgICBmdW4gbG9hZExvZ29CaXRtYXAoY29udGV4dDogQ29udGV4dCwgcHJvdmlkZXJUeXBlSWQ6IFN0cmluZywgc2l6ZVB4OiBJbnQpOiBCaXRtYXA/IHsKICAgICAgICB2YWwgcGF0aCA9IGZpbmRMb2dvQXNzZXRQYXRoKGNvbnRleHQsIHByb3ZpZGVyVHlwZUlkKSA/OiByZXR1cm4gbnVsbAogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBjb250ZXh0LmFzc2V0cy5vcGVuKHBhdGgpLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICBMb2dvQml0bWFwTG9hZGVyLmxvYWQoCiAgICAgICAgICAgICAgICAgICAgaW5wdXQgPSBpbnB1dCwKICAgICAgICAgICAgICAgICAgICBtaW1lVHlwZSA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgZmlsZU5hbWUgPSBwYXRoLAogICAgICAgICAgICAgICAgICAgIHNpemVQeCA9IHNpemVQeAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9Cn0KCm9iamVjdCBMb2dvQml0bWFwTG9hZGVyIHsKICAgIHByaXZhdGUgdmFsIHJhc3RlckV4dGVuc2lvbnMgPSBzZXRPZigicG5nIiwgImpwZyIsICJqcGVnIiwgIndlYnAiKQogICAgcHJpdmF0ZSB2YWwgcmFzdGVyTWltZVR5cGVzID0gc2V0T2YoImltYWdlL3BuZyIsICJpbWFnZS9qcGVnIiwgImltYWdlL3dlYnAiKQoKICAgIGZ1biBsb2FkKAogICAgICAgIGJ5dGVzOiBCeXRlQXJyYXksCiAgICAgICAgbWltZVR5cGU6IFN0cmluZz8sCiAgICAgICAgZmlsZU5hbWU6IFN0cmluZz8sCiAgICAgICAgc2l6ZVB4OiBJbnQKICAgICk6IEJpdG1hcD8gewogICAgICAgIHJldHVybiBieXRlcy5pbnB1dFN0cmVhbSgpLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgIGxvYWQoaW5wdXQgPSBpbnB1dCwgbWltZVR5cGUgPSBtaW1lVHlwZSwgZmlsZU5hbWUgPSBmaWxlTmFtZSwgc2l6ZVB4ID0gc2l6ZVB4KQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gbG9hZCgKICAgICAgICBpbnB1dDogSW5wdXRTdHJlYW0sCiAgICAgICAgbWltZVR5cGU6IFN0cmluZz8sCiAgICAgICAgZmlsZU5hbWU6IFN0cmluZz8sCiAgICAgICAgc2l6ZVB4OiBJbnQKICAgICk6IEJpdG1hcD8gewogICAgICAgIHJlcXVpcmUoc2l6ZVB4ID4gMCkgeyAiTG9nbyBzaXplIG11c3QgYmUgcG9zaXRpdmUiIH0KICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICBpc1N2ZyhtaW1lVHlwZSwgZmlsZU5hbWUpIC0+IHJlbmRlclN2Z1RvQml0bWFwKGlucHV0LCBzaXplUHgpCiAgICAgICAgICAgICAgICBpc1Jhc3RlcihtaW1lVHlwZSwgZmlsZU5hbWUpIC0+IHNjYWxlQml0bWFwVG9CaXRtYXAoaW5wdXQsIHNpemVQeCkKICAgICAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaXNTdmcobWltZVR5cGU6IFN0cmluZz8sIGZpbGVOYW1lOiBTdHJpbmc/KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIG1pbWVUeXBlLmVxdWFscygiaW1hZ2Uvc3ZnK3htbCIsIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICBmaWxlTmFtZS5leHRlbnNpb24oKS5lcXVhbHMoInN2ZyIsIGlnbm9yZUNhc2UgPSB0cnVlKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzUmFzdGVyKG1pbWVUeXBlOiBTdHJpbmc/LCBmaWxlTmFtZTogU3RyaW5nPyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBtaW1lVHlwZT8udHJpbSgpPy5sb3dlcmNhc2UoKT8ubGV0IHsgaXQgaW4gcmFzdGVyTWltZVR5cGVzIH0gPT0gdHJ1ZSB8fAogICAgICAgICAgICBmaWxlTmFtZS5leHRlbnNpb24oKS5sb3dlcmNhc2UoKSBpbiByYXN0ZXJFeHRlbnNpb25zCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVuZGVyU3ZnVG9CaXRtYXAoaW5wdXQ6IElucHV0U3RyZWFtLCBzaXplUHg6IEludCk6IEJpdG1hcD8gewogICAgICAgIHZhbCBzdmcgPSBTVkcuZ2V0RnJvbUlucHV0U3RyZWFtKGlucHV0KQogICAgICAgIHZhbCB2aWV3V2lkdGggPSBpZiAoc3ZnLmRvY3VtZW50V2lkdGggPiAwZikgc3ZnLmRvY3VtZW50V2lkdGggZWxzZSAyNGYKICAgICAgICB2YWwgdmlld0hlaWdodCA9IGlmIChzdmcuZG9jdW1lbnRIZWlnaHQgPiAwZikgc3ZnLmRvY3VtZW50SGVpZ2h0IGVsc2UgMjRmCiAgICAgICAgdmFsIHNjYWxlID0gc2l6ZVB4IC8gbWF4KHZpZXdXaWR0aCwgdmlld0hlaWdodCkKICAgICAgICB2YWwgc2NhbGVkV2lkdGggPSB2aWV3V2lkdGggKiBzY2FsZQogICAgICAgIHZhbCBzY2FsZWRIZWlnaHQgPSB2aWV3SGVpZ2h0ICogc2NhbGUKCiAgICAgICAgc3ZnLnNldERvY3VtZW50V2lkdGgoc2NhbGVkV2lkdGgpCiAgICAgICAgc3ZnLnNldERvY3VtZW50SGVpZ2h0KHNjYWxlZEhlaWdodCkKCiAgICAgICAgdmFsIHBpY3R1cmUgPSBzdmcucmVuZGVyVG9QaWN0dXJlKCkKICAgICAgICB2YWwgYml0bWFwID0gQml0bWFwLmNyZWF0ZUJpdG1hcChzaXplUHgsIHNpemVQeCwgQml0bWFwLkNvbmZpZy5BUkdCXzg4ODgpCiAgICAgICAgdmFsIGNhbnZhcyA9IENhbnZhcyhiaXRtYXApCiAgICAgICAgY2FudmFzLnRyYW5zbGF0ZSgoc2l6ZVB4IC0gc2NhbGVkV2lkdGgpIC8gMmYsIChzaXplUHggLSBzY2FsZWRIZWlnaHQpIC8gMmYpCiAgICAgICAgcGljdHVyZS5kcmF3KGNhbnZhcykKICAgICAgICByZXR1cm4gYml0bWFwCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2NhbGVCaXRtYXBUb0JpdG1hcChpbnB1dDogSW5wdXRTdHJlYW0sIHNpemVQeDogSW50KTogQml0bWFwPyB7CiAgICAgICAgdmFsIHNvdXJjZSA9IEJpdG1hcEZhY3RvcnkuZGVjb2RlU3RyZWFtKGlucHV0KSA/OiByZXR1cm4gbnVsbAogICAgICAgIGlmIChzb3VyY2Uud2lkdGggPT0gc2l6ZVB4ICYmIHNvdXJjZS5oZWlnaHQgPT0gc2l6ZVB4KSByZXR1cm4gc291cmNlCiAgICAgICAgdmFsIHNjYWxlID0gc2l6ZVB4IC8gbWF4KHNvdXJjZS53aWR0aCwgc291cmNlLmhlaWdodCkudG9GbG9hdCgpCiAgICAgICAgdmFsIHNjYWxlZFdpZHRoID0gKHNvdXJjZS53aWR0aCAqIHNjYWxlKS50b0ludCgpLmNvZXJjZUF0TGVhc3QoMSkKICAgICAgICB2YWwgc2NhbGVkSGVpZ2h0ID0gKHNvdXJjZS5oZWlnaHQgKiBzY2FsZSkudG9JbnQoKS5jb2VyY2VBdExlYXN0KDEpCiAgICAgICAgdmFsIGJpdG1hcCA9IEJpdG1hcC5jcmVhdGVCaXRtYXAoc2l6ZVB4LCBzaXplUHgsIEJpdG1hcC5Db25maWcuQVJHQl84ODg4KQogICAgICAgIHZhbCBjYW52YXMgPSBDYW52YXMoYml0bWFwKQogICAgICAgIGNhbnZhcy5kcmF3Qml0bWFwKAogICAgICAgICAgICBzb3VyY2UsCiAgICAgICAgICAgIG51bGwsCiAgICAgICAgICAgIGFuZHJvaWQuZ3JhcGhpY3MuUmVjdEYoCiAgICAgICAgICAgICAgICAoc2l6ZVB4IC0gc2NhbGVkV2lkdGgpIC8gMmYsCiAgICAgICAgICAgICAgICAoc2l6ZVB4IC0gc2NhbGVkSGVpZ2h0KSAvIDJmLAogICAgICAgICAgICAgICAgKHNpemVQeCArIHNjYWxlZFdpZHRoKSAvIDJmLAogICAgICAgICAgICAgICAgKHNpemVQeCArIHNjYWxlZEhlaWdodCkgLyAyZgogICAgICAgICAgICApLAogICAgICAgICAgICBudWxsCiAgICAgICAgKQogICAgICAgIHNvdXJjZS5yZWN5Y2xlKCkKICAgICAgICByZXR1cm4gYml0bWFwCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gU3RyaW5nPy5leHRlbnNpb24oKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdGhpcz8uc3Vic3RyaW5nQWZ0ZXJMYXN0KCcuJywgIiIpLm9yRW1wdHkoKQogICAgfQp9CgovKioKICog5LulIENvbXBvc2UgUGFpbnRlciDlvaLlvI/ojrflj5YgcHJvdmlkZXIgbG9nb+OAggogKiBwcm92aWRlciDml6AgbG9nbyDntKDmnZDml7bov5Tlm54gbnVsbO+8jOiwg+eUqOaWueaYvuekuum7mOiupOWbvuagh+aIlummluWtl+avjeiJsuWdl+OAggogKi8KQENvbXBvc2FibGUKZnVuIHJlbWVtYmVyUHJvdmlkZXJMb2dvUGFpbnRlcihwcm92aWRlclR5cGVJZDogU3RyaW5nPywgc2l6ZTogRHAgPSAyNC5kcCk6IFBhaW50ZXI/IHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIHZhbCBkZW5zaXR5ID0gTG9jYWxEZW5zaXR5LmN1cnJlbnQKICAgIHZhbCBzaXplUHggPSB3aXRoKGRlbnNpdHkpIHsgc2l6ZS5yb3VuZFRvUHgoKSB9CiAgICB2YWwgYml0bWFwIGJ5CiAgICAgICAgcHJvZHVjZVN0YXRlPEltYWdlQml0bWFwPz4oaW5pdGlhbFZhbHVlID0gbnVsbCwgcHJvdmlkZXJUeXBlSWQsIHNpemVQeCkgewogICAgICAgICAgICB2YWx1ZSA9CiAgICAgICAgICAgICAgICBpZiAocHJvdmlkZXJUeXBlSWQuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgICAgICAgICBQcm92aWRlckxvZ29Mb2FkZXIubG9hZExvZ29CaXRtYXAoY29udGV4dCwgcHJvdmlkZXJUeXBlSWQsIHNpemVQeCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgID8uYXNJbWFnZUJpdG1hcCgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgIH0KICAgIHJldHVybiBiaXRtYXA/LmxldCB7IEJpdG1hcFBhaW50ZXIoaXQpIH0KfQoKQENvbXBvc2FibGUKZnVuIHJlbWVtYmVyTG9nb1BhaW50ZXIoCiAgICBsb2dvS2V5OiBBbnk/LAogICAgYnl0ZXM6IEJ5dGVBcnJheT8sCiAgICBtaW1lVHlwZTogU3RyaW5nPywKICAgIGZpbGVOYW1lOiBTdHJpbmc/LAogICAgc2l6ZTogRHAgPSAyNC5kcAopOiBQYWludGVyPyB7CiAgICB2YWwgZGVuc2l0eSA9IExvY2FsRGVuc2l0eS5jdXJyZW50CiAgICB2YWwgc2l6ZVB4ID0gd2l0aChkZW5zaXR5KSB7IHNpemUucm91bmRUb1B4KCkgfQogICAgdmFsIGJpdG1hcCBieQogICAgICAgIHByb2R1Y2VTdGF0ZTxJbWFnZUJpdG1hcD8+KAogICAgICAgICAgICBpbml0aWFsVmFsdWUgPSBudWxsLAogICAgICAgICAgICBsb2dvS2V5LAogICAgICAgICAgICBieXRlcz8uY29udGVudEhhc2hDb2RlKCksCiAgICAgICAgICAgIG1pbWVUeXBlLAogICAgICAgICAgICBmaWxlTmFtZSwKICAgICAgICAgICAgc2l6ZVB4CiAgICAgICAgKSB7CiAgICAgICAgICAgIHZhbHVlID0KICAgICAgICAgICAgICAgIGJ5dGVzPy5sZXQgewogICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIExvZ29CaXRtYXBMb2FkZXIubG9hZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJ5dGVzID0gaXQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW1lVHlwZSA9IG1pbWVUeXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZmlsZU5hbWUgPSBmaWxlTmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemVQeCA9IHNpemVQeAogICAgICAgICAgICAgICAgICAgICAgICApPy5hc0ltYWdlQml0bWFwKCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgfQogICAgcmV0dXJuIGJpdG1hcD8ubGV0IHsgQml0bWFwUGFpbnRlcihpdCkgfQp9CgovKiog5rex6Imy6KGo6Z2i5LiL5bCG6buR6Imy5ZOB54mM57Sg5p2Q5p+T5Lqu77yM5rWF6Imy5qih5byP5L+d55WZIGxvZ28g5Y6f6Imy44CCICovCkBDb21wb3NhYmxlCmZ1biBwcm92aWRlckxvZ29Db2xvckZpbHRlcigpOiBDb2xvckZpbHRlcj8gewogICAgdmFsIHNjaGVtZSA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUKICAgIHJldHVybiBpZiAoc2NoZW1lLnN1cmZhY2UubHVtaW5hbmNlKCkgPCAwLjVmKSB7CiAgICAgICAgQ29sb3JGaWx0ZXIudGludChzY2hlbWUub25TdXJmYWNlKQogICAgfSBlbHNlIHsKICAgICAgICBudWxsCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.common.icons
+
+import android.content.Context
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.graphics.Canvas
+import java.io.InputStream
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.produceState
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.ui.graphics.ImageBitmap
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.graphics.luminance
+import androidx.compose.ui.graphics.painter.BitmapPainter
+import androidx.compose.ui.graphics.painter.Painter
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.caverock.androidsvg.SVG
+import com.bslsjdk.operit.data.model.normalizeProviderTypeId
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlin.math.max
+
+/**
+ * 模型 Provider Logo 加载器（方案 A）
+ *
+ * Logo 素材存放于 assets/model_logos/{ApiProviderType.name}/ 目录下，
+ * 每个 provider 文件夹内只有一个文件（.svg 或 .png）。
+ * - .svg 使用 AndroidSVG 解析渲染为 Bitmap
+ * - .png 直接解码并按目标尺寸缩放
+ */
+object ProviderLogoLoader {
+
+    private const val LOGO_ROOT = "model_logos"
+
+    /** 查找 provider 对应的 assets 内 logo 文件路径，不存在返回 null */
+    fun findLogoAssetPath(context: Context, providerTypeId: String): String? {
+        val normalizedProviderTypeId = normalizeProviderTypeId(providerTypeId)
+        if (normalizedProviderTypeId.isBlank()) return null
+        val dir = "$LOGO_ROOT/$normalizedProviderTypeId"
+        return try {
+            val files = context.assets.list(dir) ?: return null
+            val file =
+                files.firstOrNull {
+                    it.endsWith(".svg", ignoreCase = true) ||
+                        it.endsWith(".png", ignoreCase = true)
+                } ?: return null
+            "$dir/$file"
+        } catch (_: Exception) {
+            null
+        }
+    }
+
+    /** 加载 provider logo 为指定尺寸的 Bitmap（正方形画布，内容按比例居中） */
+    fun loadLogoBitmap(context: Context, providerTypeId: String, sizePx: Int): Bitmap? {
+        val path = findLogoAssetPath(context, providerTypeId) ?: return null
+        return try {
+            context.assets.open(path).use { input ->
+                LogoBitmapLoader.load(
+                    input = input,
+                    mimeType = null,
+                    fileName = path,
+                    sizePx = sizePx
+                )
+            }
+        } catch (_: Exception) {
+            null
+        }
+    }
+}
+
+object LogoBitmapLoader {
+    private val rasterExtensions = setOf("png", "jpg", "jpeg", "webp")
+    private val rasterMimeTypes = setOf("image/png", "image/jpeg", "image/webp")
+
+    fun load(
+        bytes: ByteArray,
+        mimeType: String?,
+        fileName: String?,
+        sizePx: Int
+    ): Bitmap? {
+        return bytes.inputStream().use { input ->
+            load(input = input, mimeType = mimeType, fileName = fileName, sizePx = sizePx)
+        }
+    }
+
+    fun load(
+        input: InputStream,
+        mimeType: String?,
+        fileName: String?,
+        sizePx: Int
+    ): Bitmap? {
+        require(sizePx > 0) { "Logo size must be positive" }
+        return try {
+            when {
+                isSvg(mimeType, fileName) -> renderSvgToBitmap(input, sizePx)
+                isRaster(mimeType, fileName) -> scaleBitmapToBitmap(input, sizePx)
+                else -> null
+            }
+        } catch (_: Exception) {
+            null
+        }
+    }
+
+    private fun isSvg(mimeType: String?, fileName: String?): Boolean {
+        return mimeType.equals("image/svg+xml", ignoreCase = true) ||
+            fileName.extension().equals("svg", ignoreCase = true)
+    }
+
+    private fun isRaster(mimeType: String?, fileName: String?): Boolean {
+        return mimeType?.trim()?.lowercase()?.let { it in rasterMimeTypes } == true ||
+            fileName.extension().lowercase() in rasterExtensions
+    }
+
+    private fun renderSvgToBitmap(input: InputStream, sizePx: Int): Bitmap? {
+        val svg = SVG.getFromInputStream(input)
+        val viewWidth = if (svg.documentWidth > 0f) svg.documentWidth else 24f
+        val viewHeight = if (svg.documentHeight > 0f) svg.documentHeight else 24f
+        val scale = sizePx / max(viewWidth, viewHeight)
+        val scaledWidth = viewWidth * scale
+        val scaledHeight = viewHeight * scale
+
+        svg.setDocumentWidth(scaledWidth)
+        svg.setDocumentHeight(scaledHeight)
+
+        val picture = svg.renderToPicture()
+        val bitmap = Bitmap.createBitmap(sizePx, sizePx, Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(bitmap)
+        canvas.translate((sizePx - scaledWidth) / 2f, (sizePx - scaledHeight) / 2f)
+        picture.draw(canvas)
+        return bitmap
+    }
+
+    private fun scaleBitmapToBitmap(input: InputStream, sizePx: Int): Bitmap? {
+        val source = BitmapFactory.decodeStream(input) ?: return null
+        if (source.width == sizePx && source.height == sizePx) return source
+        val scale = sizePx / max(source.width, source.height).toFloat()
+        val scaledWidth = (source.width * scale).toInt().coerceAtLeast(1)
+        val scaledHeight = (source.height * scale).toInt().coerceAtLeast(1)
+        val bitmap = Bitmap.createBitmap(sizePx, sizePx, Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(bitmap)
+        canvas.drawBitmap(
+            source,
+            null,
+            android.graphics.RectF(
+                (sizePx - scaledWidth) / 2f,
+                (sizePx - scaledHeight) / 2f,
+                (sizePx + scaledWidth) / 2f,
+                (sizePx + scaledHeight) / 2f
+            ),
+            null
+        )
+        source.recycle()
+        return bitmap
+    }
+
+    private fun String?.extension(): String {
+        return this?.substringAfterLast('.', "").orEmpty()
+    }
+}
+
+/**
+ * 以 Compose Painter 形式获取 provider logo。
+ * provider 无 logo 素材时返回 null，调用方显示默认图标或首字母色块。
+ */
+@Composable
+fun rememberProviderLogoPainter(providerTypeId: String?, size: Dp = 24.dp): Painter? {
+    val context = LocalContext.current
+    val density = LocalDensity.current
+    val sizePx = with(density) { size.roundToPx() }
+    val bitmap by
+        produceState<ImageBitmap?>(initialValue = null, providerTypeId, sizePx) {
+            value =
+                if (providerTypeId.isNullOrBlank()) {
+                    null
+                } else {
+                    withContext(Dispatchers.IO) {
+                        ProviderLogoLoader.loadLogoBitmap(context, providerTypeId, sizePx)
+                            ?.asImageBitmap()
+                    }
+                }
+        }
+    return bitmap?.let { BitmapPainter(it) }
+}
+
+@Composable
+fun rememberLogoPainter(
+    logoKey: Any?,
+    bytes: ByteArray?,
+    mimeType: String?,
+    fileName: String?,
+    size: Dp = 24.dp
+): Painter? {
+    val density = LocalDensity.current
+    val sizePx = with(density) { size.roundToPx() }
+    val bitmap by
+        produceState<ImageBitmap?>(
+            initialValue = null,
+            logoKey,
+            bytes?.contentHashCode(),
+            mimeType,
+            fileName,
+            sizePx
+        ) {
+            value =
+                bytes?.let {
+                    withContext(Dispatchers.IO) {
+                        LogoBitmapLoader.load(
+                            bytes = it,
+                            mimeType = mimeType,
+                            fileName = fileName,
+                            sizePx = sizePx
+                        )?.asImageBitmap()
+                    }
+                }
+        }
+    return bitmap?.let { BitmapPainter(it) }
+}
+
+/** 深色表面下将黑色品牌素材染亮，浅色模式保留 logo 原色。 */
+@Composable
+fun providerLogoColorFilter(): ColorFilter? {
+    val scheme = MaterialTheme.colorScheme
+    return if (scheme.surface.luminance() < 0.5f) {
+        ColorFilter.tint(scheme.onSurface)
+    } else {
+        null
+    }
+}

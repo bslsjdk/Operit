@@ -1,1 +1,162 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgeyBhc3NlcnQsIGFzc2VydEVxLCB0ZXN0LCBydW5UZXN0cyB9ID0gcmVxdWlyZSgnLi4vLi4vLi4vLi4vLi4vLi4vbGliL2hhcm5lc3MnKTsKCmZ1bmN0aW9uIGdldFR0c0NsZWFuZXJJbnN0YW5jZSgpIHsKICByZXR1cm4gSmF2YS50eXBlKCdjb20uYnNsc2pkay5vcGVyaXQudXRpbC5UdHNDbGVhbmVyJykuSU5TVEFOQ0U7Cn0KCmZ1bmN0aW9uIGdldFdhaWZ1TWVzc2FnZVByb2Nlc3Nvckluc3RhbmNlKCkgewogIHJldHVybiBKYXZhLnR5cGUoJ2NvbS5ic2xzamRrLm9wZXJpdC51dGlsLldhaWZ1TWVzc2FnZVByb2Nlc3NvcicpLklOU1RBTkNFOwp9CgpmdW5jdGlvbiBtYWtlSmF2YVN0cmluZ0xpc3QoaXRlbXMpIHsKICByZXR1cm4gaXRlbXMubWFwKChpdGVtKSA9PiBTdHJpbmcoaXRlbSkpOwp9CgpmdW5jdGlvbiBjbGVhbkZvclNwZWVjaChpbnB1dCwgcmVnZXhzID0gW10pIHsKICBjb25zdCBjbGVhbmVyID0gZ2V0VHRzQ2xlYW5lckluc3RhbmNlKCk7CiAgY29uc3QgcHJvY2Vzc29yID0gZ2V0V2FpZnVNZXNzYWdlUHJvY2Vzc29ySW5zdGFuY2UoKTsKICBjb25zdCBjbGVhbmVkVGV4dCA9IGNsZWFuZXIuY2xlYW4oU3RyaW5nKGlucHV0KSwgbWFrZUphdmFTdHJpbmdMaXN0KHJlZ2V4cykpOwogIHJldHVybiBTdHJpbmcocHJvY2Vzc29yLmNsZWFuQ29udGVudEZvcldhaWZ1KFN0cmluZyhjbGVhbmVkVGV4dCkpKTsKfQoKZXhwb3J0cy5ydW4gPSBhc3luYyBmdW5jdGlvbiBydW4oKSB7CiAgY29uc3QgY2xlYW5lciA9IGdldFR0c0NsZWFuZXJJbnN0YW5jZSgpOwoKICBjb25zdCB0ZXN0cyA9IFsKICAgIHRlc3QoJ3NpbmdsZTogYmxhbmsgcGF0dGVybiByZXR1cm5zIG9yaWdpbmFsJywgKCkgPT4gewogICAgICBjb25zdCBvdXQgPSBjbGVhbmVyLmNsZWFuKCdhYmMnLCAnJyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhvdXQpLCAnYWJjJyk7CiAgICB9KSwKICAgIHRlc3QoJ3NpbmdsZTogaW52YWxpZCBwYXR0ZXJuIHJldHVybnMgb3JpZ2luYWwnLCAoKSA9PiB7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuZXIuY2xlYW4oJ2FiYycsICcoJyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhvdXQpLCAnYWJjJyk7CiAgICB9KSwKICAgIHRlc3QoJ3NpbmdsZTogcmVtb3ZlcyBicmFja2V0IGNvbnRlbnQgKGVuZ2xpc2gpJywgKCkgPT4gewogICAgICBjb25zdCBvdXQgPSBjbGVhbmVyLmNsZWFuKCdhKGIpYycsICdcXChbXildK1xcKScpOwogICAgICBhc3NlcnRFcShTdHJpbmcob3V0KSwgJ2FjJyk7CiAgICB9KSwKICAgIHRlc3QoJ2xpc3Q6IGVtcHR5IGxpc3QgcmV0dXJucyBvcmlnaW5hbCcsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5lci5jbGVhbignYWJjJywgbWFrZUphdmFTdHJpbmdMaXN0KFtdKSk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhvdXQpLCAnYWJjJyk7CiAgICB9KSwKICAgIHRlc3QoJ2xpc3Q6IHJlbW92ZXMgZW5nbGlzaCBhbmQgY2hpbmVzZSBwYXJlbnRoZXNlcyBjb250ZW50JywgKCkgPT4gewogICAgICBjb25zdCBwYXR0ZXJucyA9IG1ha2VKYXZhU3RyaW5nTGlzdChbJ1xcKFteKV0rXFwpJywgJ++8iFte77yJXSvvvIknXSk7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuZXIuY2xlYW4oJ2EoYilj77yIZO+8iWUnLCBwYXR0ZXJucyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhvdXQpLCAnYWNlJyk7CiAgICB9KSwKICAgIHRlc3QoJ2xpc3Q6IHNraXBzIGludmFsaWQgcGF0dGVybiBidXQgc3RpbGwgYXBwbGllcyB2YWxpZCBvbmVzJywgKCkgPT4gewogICAgICBjb25zdCBwYXR0ZXJucyA9IG1ha2VKYXZhU3RyaW5nTGlzdChbJygnLCAnXFwoW14pXStcXCknXSk7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuZXIuY2xlYW4oJ2EoYiljJywgcGF0dGVybnMpOwogICAgICBhc3NlcnRFcShTdHJpbmcob3V0KSwgJ2FjJyk7CiAgICB9KSwKICAgIHRlc3QoJ2xpc3Q6IG5vIG1hdGNoIGlzIHN0YWJsZScsICgpID0+IHsKICAgICAgY29uc3QgcGF0dGVybnMgPSBtYWtlSmF2YVN0cmluZ0xpc3QoWydcXChbXildK1xcKSddKTsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5lci5jbGVhbignYWJjZGVmJywgcGF0dGVybnMpOwogICAgICBhc3NlcnRFcShTdHJpbmcob3V0KSwgJ2FiY2RlZicpOwogICAgfSksCiAgICB0ZXN0KCdsaXN0OiBzdXBwb3J0cyBtdWx0aXBsZSByZW1vdmFscycsICgpID0+IHsKICAgICAgY29uc3QgcGF0dGVybnMgPSBtYWtlSmF2YVN0cmluZ0xpc3QoWydcXChbXildK1xcKSddKTsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5lci5jbGVhbignYShiKWMoZCllJywgcGF0dGVybnMpOwogICAgICBhc3NlcnRFcShTdHJpbmcob3V0KSwgJ2FjZScpOwogICAgfSksCiAgICB0ZXN0KCdsaXN0OiBwcmVzZXJ2ZXMgbmV3bGluZXMgaWYgcGF0dGVybiBkb2VzIG5vdCBpbmNsdWRlIHRoZW0nLCAoKSA9PiB7CiAgICAgIGNvbnN0IHBhdHRlcm5zID0gbWFrZUphdmFTdHJpbmdMaXN0KFsnXFwoW14pXStcXCknXSk7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuZXIuY2xlYW4oJ2EoYilcXG4oYyknLCBwYXR0ZXJucyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhvdXQpLCAnYVxcbicpOwogICAgfSksCiAgICB0ZXN0KCdzcGVlY2ggcGlwZWxpbmU6IHJlbW92ZXMgY2xvc2VkIHRoaW5rIGJsb2NrIGFuZCBrZWVwcyBhbnN3ZXInLCAoKSA9PiB7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuRm9yU3BlZWNoKCc8dGhpbms+ZHJhZnQ8L3RoaW5rPmZpbmFsIGFuc3dlcicpOwogICAgICBhc3NlcnRFcShvdXQsICdmaW5hbCBhbnN3ZXInKTsKICAgIH0pLAogICAgdGVzdCgnc3BlZWNoIHBpcGVsaW5lOiByZW1vdmVzIGNsb3NlZCB0aGlua2luZyBibG9jayBhbmQga2VlcHMgYW5zd2VyJywgKCkgPT4gewogICAgICBjb25zdCBvdXQgPSBjbGVhbkZvclNwZWVjaCgnPHRoaW5raW5nPmRyYWZ0PC90aGlua2luZz5maW5hbCBhbnN3ZXInKTsKICAgICAgYXNzZXJ0RXEob3V0LCAnZmluYWwgYW5zd2VyJyk7CiAgICB9KSwKICAgIHRlc3QoJ3NwZWVjaCBwaXBlbGluZTogcmVtb3ZlcyB1bmNsb3NlZCB0aGluayBibG9jayB0byBlbmQnLCAoKSA9PiB7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuRm9yU3BlZWNoKCdhbnN3ZXI8dGhpbms+aGlkZGVuIGZvcmV2ZXInKTsKICAgICAgYXNzZXJ0RXEob3V0LCAnYW5zd2VyJyk7CiAgICB9KSwKICAgIHRlc3QoJ3NwZWVjaCBwaXBlbGluZTogcmVtb3ZlcyB1bmNsb3NlZCB0aGluayBhdCBzdGFydCcsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5Gb3JTcGVlY2goJzx0aGluaz5oaWRkZW4gZm9yZXZlcicpOwogICAgICBhc3NlcnRFcShvdXQsICcnKTsKICAgIH0pLAogICAgdGVzdCgnc3BlZWNoIHBpcGVsaW5lOiByZW1vdmVzIHNlYXJjaCBibG9jayBhbmQga2VlcHMgc3Bva2VuIGFuc3dlcicsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5Gb3JTcGVlY2goJzxzZWFyY2g+c291cmNlIGR1bXA8L3NlYXJjaD5zcG9rZW4gYW5zd2VyJyk7CiAgICAgIGFzc2VydEVxKG91dCwgJ3Nwb2tlbiBhbnN3ZXInKTsKICAgIH0pLAogICAgdGVzdCgnc3BlZWNoIHBpcGVsaW5lOiByZW1vdmVzIG11bHRpbGluZSB0aGluayBibG9jaycsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5Gb3JTcGVlY2goJ2hlbGxvPHRoaW5rPmxpbmUxXFxubGluZTJcXG5saW5lMzwvdGhpbms+d29ybGQnKTsKICAgICAgYXNzZXJ0RXEob3V0LCAnaGVsbG93b3JsZCcpOwogICAgfSksCiAgICB0ZXN0KCdzcGVlY2ggcGlwZWxpbmU6IHN0cmlwcyB0aGluayBiZWZvcmUgbWFya2Rvd24gY2xlYW51cCcsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5Gb3JTcGVlY2goJzx0aGluaz5pZ25vcmU8L3RoaW5rPioqSGVsbG8qKiBgd29ybGRgJyk7CiAgICAgIGFzc2VydEVxKG91dCwgJ0hlbGxvIHdvcmxkJyk7CiAgICB9KSwKICAgIHRlc3QoJ3NwZWVjaCBwaXBlbGluZTogYXBwbGllcyByZWdleCBjbGVhbmVyIGJlZm9yZSB0aGluayBjbGVhbnVwJywgKCkgPT4gewogICAgICBjb25zdCBvdXQgPSBjbGVhbkZvclNwZWVjaCgnQSAoYXNpZGUpIDx0aGluaz5oaWRkZW48L3RoaW5rPiBCJywgWydcXChbXildK1xcKSddKTsKICAgICAgYXNzZXJ0RXEob3V0LCAnQSBCJyk7CiAgICB9KSwKICAgIHRlc3QoJ3NwZWVjaCBwaXBlbGluZToga2VlcHMgdmlzaWJsZSB0ZXh0IGFyb3VuZCBtdWx0aXBsZSB0aGluay9zZWFyY2ggYmxvY2tzJywgKCkgPT4gewogICAgICBjb25zdCBvdXQgPSBjbGVhbkZvclNwZWVjaCgnQTx0aGluaz4xPC90aGluaz5CPHNlYXJjaD4yPC9zZWFyY2g+Qzx0aGlua2luZz4zPC90aGlua2luZz5EJyk7CiAgICAgIGFzc2VydEVxKG91dCwgJ0FCQ0QnKTsKICAgIH0pLAogICAgdGVzdCgnc3BlZWNoIHBpcGVsaW5lOiBuZXN0ZWQgdGhpbmsgY3VycmVudGx5IGxlYXZlcyB0cmFpbGluZyB0YWlsIHRleHQnLCAoKSA9PiB7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuRm9yU3BlZWNoKCdBPHRoaW5rPm91dGVyPHRoaW5rPmlubmVyPC90aGluaz50YWlsPC90aGluaz5CJyk7CiAgICAgIGFzc2VydEVxKG91dCwgJ0F0YWlsQicpOwogICAgfSksCiAgICB0ZXN0KCdzcGVlY2ggcGlwZWxpbmU6IHJlbW92ZXMgdGhpbmsgYmxvY2sgY29udGFpbmluZyBzZWFyY2ggYmxvY2snLCAoKSA9PiB7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuRm9yU3BlZWNoKCdBPHRoaW5rPmRyYWZ0PHNlYXJjaD5zcmM8L3NlYXJjaD5lbmQ8L3RoaW5rPkInKTsKICAgICAgYXNzZXJ0RXEob3V0LCAnQUInKTsKICAgIH0pLAogICAgdGVzdCgnc3BlZWNoIHBpcGVsaW5lOiB1bmNsb3NlZCBzZWFyY2ggcmVtb3ZlcyB0byBlbmQnLCAoKSA9PiB7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuRm9yU3BlZWNoKCdBPHNlYXJjaD5zcmMgZHVtcCcpOwogICAgICBhc3NlcnRFcShvdXQsICdBJyk7CiAgICB9KSwKICAgIHRlc3QoJ3NwZWVjaCBwaXBlbGluZTogd2hpdGVzcGFjZSBjb2xsYXBzZXMgYWZ0ZXIgdGhpbmsgcmVtb3ZhbCcsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5Gb3JTcGVlY2goJ0EgIDx0aGluaz5kcmFmdDwvdGhpbms+ICAgQicpOwogICAgICBhc3NlcnRFcShvdXQsICdBIEInKTsKICAgIH0pLAogICAgdGVzdCgnc3BlZWNoIHBpcGVsaW5lOiBjaGluZXNlIHRleHQgc3Vydml2ZXMgYXJvdW5kIHRoaW5rIGJsb2NrcycsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5Gb3JTcGVlY2goJ+S9oOWlvTx0aGluaz7lhoXpg6jmjqjnkIY8L3RoaW5rPuS4lueVjCcpOwogICAgICBhc3NlcnRFcShvdXQsICfkvaDlpb3kuJbnlYwnKTsKICAgIH0pLAogICAgdGVzdCgnc3BlZWNoIHBpcGVsaW5lOiBlbW9qaSBzdXJ2aXZlcyBhcm91bmQgdGhpbmsgYmxvY2tzJywgKCkgPT4gewogICAgICBjb25zdCBvdXQgPSBjbGVhbkZvclNwZWVjaCgn8J+Zgjx0aGluaz5kcmFmdDwvdGhpbms+8J+ZgycpOwogICAgICBhc3NlcnRFcShvdXQsICfwn5mC8J+ZgycpOwogICAgfSksCiAgICB0ZXN0KCdzcGVlY2ggcGlwZWxpbmU6IHVwcGVyY2FzZSBUSElOSyBjdXJyZW50bHkgbGVha3MgaW5uZXIgdGV4dCcsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5Gb3JTcGVlY2goJ0E8VEhJTks+c2VjcmV0PC9USElOSz5CJyk7CiAgICAgIGFzc2VydEVxKG91dCwgJ0FzZWNyZXRCJyk7CiAgICB9KSwKICAgIHRlc3QoJ3NwZWVjaCBwaXBlbGluZTogdGhpbmsgdGFnIHdpdGggYXR0cmlidXRlcyBjdXJyZW50bHkgbGVha3MgaW5uZXIgdGV4dCcsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5Gb3JTcGVlY2goJ0E8dGhpbmsgdHlwZT0iaGlkZGVuIj5zZWNyZXQ8L3RoaW5rPkInKTsKICAgICAgYXNzZXJ0RXEob3V0LCAnQXNlY3JldEInKTsKICAgIH0pLAogICAgdGVzdCgnc3BlZWNoIHBpcGVsaW5lOiB1cHBlcmNhc2UgU0VBUkNIIGN1cnJlbnRseSBsZWFrcyBpbm5lciB0ZXh0JywgKCkgPT4gewogICAgICBjb25zdCBvdXQgPSBjbGVhbkZvclNwZWVjaCgnQTxTRUFSQ0g+c291cmNlPC9TRUFSQ0g+QicpOwogICAgICBhc3NlcnRFcShvdXQsICdBc291cmNlQicpOwogICAgfSksCiAgICB0ZXN0KCdzcGVlY2ggcGlwZWxpbmU6IG1hbGZvcm1lZCBjbG9zaW5nIHRoaW5rIHN0aWxsIHJlbW92ZXMgdG8gZW5kJywgKCkgPT4gewogICAgICBjb25zdCBvdXQgPSBjbGVhbkZvclNwZWVjaCgnQTx0aGluaz5kcmFmdDwvdGhpbmtpbmc+QicpOwogICAgICBhc3NlcnRFcShvdXQsICdBQicpOwogICAgfSksCiAgICB0ZXN0KCdzcGVlY2ggcGlwZWxpbmU6IGVtcHR5IHRoaW5rIGJsb2NrIGlzIHJlbW92ZWQgY2xlYW5seScsICgpID0+IHsKICAgICAgY29uc3Qgb3V0ID0gY2xlYW5Gb3JTcGVlY2goJ0E8dGhpbms+PC90aGluaz5CJyk7CiAgICAgIGFzc2VydEVxKG91dCwgJ0FCJyk7CiAgICB9KSwKICAgIHRlc3QoJ3NwZWVjaCBwaXBlbGluZTogbXVsdGlwbGUgY29uc2VjdXRpdmUgdGhpbmsgYmxvY2tzIGFsbCBkaXNhcHBlYXInLCAoKSA9PiB7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuRm9yU3BlZWNoKCdBPHRoaW5rPjE8L3RoaW5rPjx0aGluaz4yPC90aGluaz48dGhpbmtpbmc+MzwvdGhpbmtpbmc+QicpOwogICAgICBhc3NlcnRFcShvdXQsICdBQicpOwogICAgfSksCiAgICB0ZXN0KCdzcGVlY2ggcGlwZWxpbmU6IG1hcmtkb3duIGNvZGUgZmVuY2VzIGFyb3VuZCB0aGluayBhcmUgZmxhdHRlbmVkIGFmdGVyIHJlbW92YWwnLCAoKSA9PiB7CiAgICAgIGNvbnN0IG91dCA9IGNsZWFuRm9yU3BlZWNoKCdgYGB0eHRcbjx0aGluaz5kcmFmdDwvdGhpbms+XG5gYGBcbmFuc3dlcicpOwogICAgICBhc3NlcnRFcShvdXQsICdhbnN3ZXInKTsKICAgIH0pLAogIF07CgogIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJ1blRlc3RzKHRlc3RzKTsKICBhc3NlcnQocmVzdWx0LnBhc3NlZCArIHJlc3VsdC5mYWlsZWQgPiAwLCAnbm8gdGVzdHMgZXhlY3V0ZWQnKTsKICByZXR1cm4gcmVzdWx0Owp9Owo=
+'use strict';
+
+const { assert, assertEq, test, runTests } = require('../../../../../../lib/harness');
+
+function getTtsCleanerInstance() {
+  return Java.type('com.bslsjdk.operit.util.TtsCleaner').INSTANCE;
+}
+
+function getWaifuMessageProcessorInstance() {
+  return Java.type('com.bslsjdk.operit.util.WaifuMessageProcessor').INSTANCE;
+}
+
+function makeJavaStringList(items) {
+  return items.map((item) => String(item));
+}
+
+function cleanForSpeech(input, regexs = []) {
+  const cleaner = getTtsCleanerInstance();
+  const processor = getWaifuMessageProcessorInstance();
+  const cleanedText = cleaner.clean(String(input), makeJavaStringList(regexs));
+  return String(processor.cleanContentForWaifu(String(cleanedText)));
+}
+
+exports.run = async function run() {
+  const cleaner = getTtsCleanerInstance();
+
+  const tests = [
+    test('single: blank pattern returns original', () => {
+      const out = cleaner.clean('abc', '');
+      assertEq(String(out), 'abc');
+    }),
+    test('single: invalid pattern returns original', () => {
+      const out = cleaner.clean('abc', '(');
+      assertEq(String(out), 'abc');
+    }),
+    test('single: removes bracket content (english)', () => {
+      const out = cleaner.clean('a(b)c', '\\([^)]+\\)');
+      assertEq(String(out), 'ac');
+    }),
+    test('list: empty list returns original', () => {
+      const out = cleaner.clean('abc', makeJavaStringList([]));
+      assertEq(String(out), 'abc');
+    }),
+    test('list: removes english and chinese parentheses content', () => {
+      const patterns = makeJavaStringList(['\\([^)]+\\)', '（[^）]+）']);
+      const out = cleaner.clean('a(b)c（d）e', patterns);
+      assertEq(String(out), 'ace');
+    }),
+    test('list: skips invalid pattern but still applies valid ones', () => {
+      const patterns = makeJavaStringList(['(', '\\([^)]+\\)']);
+      const out = cleaner.clean('a(b)c', patterns);
+      assertEq(String(out), 'ac');
+    }),
+    test('list: no match is stable', () => {
+      const patterns = makeJavaStringList(['\\([^)]+\\)']);
+      const out = cleaner.clean('abcdef', patterns);
+      assertEq(String(out), 'abcdef');
+    }),
+    test('list: supports multiple removals', () => {
+      const patterns = makeJavaStringList(['\\([^)]+\\)']);
+      const out = cleaner.clean('a(b)c(d)e', patterns);
+      assertEq(String(out), 'ace');
+    }),
+    test('list: preserves newlines if pattern does not include them', () => {
+      const patterns = makeJavaStringList(['\\([^)]+\\)']);
+      const out = cleaner.clean('a(b)\\n(c)', patterns);
+      assertEq(String(out), 'a\\n');
+    }),
+    test('speech pipeline: removes closed think block and keeps answer', () => {
+      const out = cleanForSpeech('<think>draft</think>final answer');
+      assertEq(out, 'final answer');
+    }),
+    test('speech pipeline: removes closed thinking block and keeps answer', () => {
+      const out = cleanForSpeech('<thinking>draft</thinking>final answer');
+      assertEq(out, 'final answer');
+    }),
+    test('speech pipeline: removes unclosed think block to end', () => {
+      const out = cleanForSpeech('answer<think>hidden forever');
+      assertEq(out, 'answer');
+    }),
+    test('speech pipeline: removes unclosed think at start', () => {
+      const out = cleanForSpeech('<think>hidden forever');
+      assertEq(out, '');
+    }),
+    test('speech pipeline: removes search block and keeps spoken answer', () => {
+      const out = cleanForSpeech('<search>source dump</search>spoken answer');
+      assertEq(out, 'spoken answer');
+    }),
+    test('speech pipeline: removes multiline think block', () => {
+      const out = cleanForSpeech('hello<think>line1\\nline2\\nline3</think>world');
+      assertEq(out, 'helloworld');
+    }),
+    test('speech pipeline: strips think before markdown cleanup', () => {
+      const out = cleanForSpeech('<think>ignore</think>**Hello** `world`');
+      assertEq(out, 'Hello world');
+    }),
+    test('speech pipeline: applies regex cleaner before think cleanup', () => {
+      const out = cleanForSpeech('A (aside) <think>hidden</think> B', ['\\([^)]+\\)']);
+      assertEq(out, 'A B');
+    }),
+    test('speech pipeline: keeps visible text around multiple think/search blocks', () => {
+      const out = cleanForSpeech('A<think>1</think>B<search>2</search>C<thinking>3</thinking>D');
+      assertEq(out, 'ABCD');
+    }),
+    test('speech pipeline: nested think currently leaves trailing tail text', () => {
+      const out = cleanForSpeech('A<think>outer<think>inner</think>tail</think>B');
+      assertEq(out, 'AtailB');
+    }),
+    test('speech pipeline: removes think block containing search block', () => {
+      const out = cleanForSpeech('A<think>draft<search>src</search>end</think>B');
+      assertEq(out, 'AB');
+    }),
+    test('speech pipeline: unclosed search removes to end', () => {
+      const out = cleanForSpeech('A<search>src dump');
+      assertEq(out, 'A');
+    }),
+    test('speech pipeline: whitespace collapses after think removal', () => {
+      const out = cleanForSpeech('A  <think>draft</think>   B');
+      assertEq(out, 'A B');
+    }),
+    test('speech pipeline: chinese text survives around think blocks', () => {
+      const out = cleanForSpeech('你好<think>内部推理</think>世界');
+      assertEq(out, '你好世界');
+    }),
+    test('speech pipeline: emoji survives around think blocks', () => {
+      const out = cleanForSpeech('🙂<think>draft</think>🙃');
+      assertEq(out, '🙂🙃');
+    }),
+    test('speech pipeline: uppercase THINK currently leaks inner text', () => {
+      const out = cleanForSpeech('A<THINK>secret</THINK>B');
+      assertEq(out, 'AsecretB');
+    }),
+    test('speech pipeline: think tag with attributes currently leaks inner text', () => {
+      const out = cleanForSpeech('A<think type="hidden">secret</think>B');
+      assertEq(out, 'AsecretB');
+    }),
+    test('speech pipeline: uppercase SEARCH currently leaks inner text', () => {
+      const out = cleanForSpeech('A<SEARCH>source</SEARCH>B');
+      assertEq(out, 'AsourceB');
+    }),
+    test('speech pipeline: malformed closing think still removes to end', () => {
+      const out = cleanForSpeech('A<think>draft</thinking>B');
+      assertEq(out, 'AB');
+    }),
+    test('speech pipeline: empty think block is removed cleanly', () => {
+      const out = cleanForSpeech('A<think></think>B');
+      assertEq(out, 'AB');
+    }),
+    test('speech pipeline: multiple consecutive think blocks all disappear', () => {
+      const out = cleanForSpeech('A<think>1</think><think>2</think><thinking>3</thinking>B');
+      assertEq(out, 'AB');
+    }),
+    test('speech pipeline: markdown code fences around think are flattened after removal', () => {
+      const out = cleanForSpeech('```txt\n<think>draft</think>\n```\nanswer');
+      assertEq(out, 'answer');
+    }),
+  ];
+
+  const result = await runTests(tests);
+  assert(result.passed + result.failed > 0, 'no tests executed');
+  return result;
+};

@@ -1,1 +1,328 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uc2hlbGwKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uQW5kcm9pZFBlcm1pc3Npb25MZXZlbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLlNoZWxsSWRlbnRpdHkKaW1wb3J0IGphdmEuaW8uQnVmZmVyZWRSZWFkZXIKaW1wb3J0IGphdmEuaW8uSW5wdXRTdHJlYW1SZWFkZXIKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNoYW5uZWxzLmF3YWl0Q2xvc2UKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmNhbGxiYWNrRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmxvd09uCgovKiog5Z+65LqO5qCH5YeGQW5kcm9pZOadg+mZkOeahFNoZWxs5ZG95Luk5omn6KGM5ZmoIOWunueOsFNUQU5EQVJE5p2D6ZmQ57qn5Yir55qE5ZG95Luk5omn6KGMICovCmNsYXNzIFN0YW5kYXJkU2hlbGxFeGVjdXRvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IFNoZWxsRXhlY3V0b3IgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlN0YW5kYXJkU2hlbGxFeGVjdXRvciIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBDT01NQU5EX1RJTUVPVVQgPSAzMEwgLy8g56eSCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldFBlcm1pc3Npb25MZXZlbCgpOiBBbmRyb2lkUGVybWlzc2lvbkxldmVsID0gQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5TVEFOREFSRAoKICAgIG92ZXJyaWRlIGZ1biBpc0F2YWlsYWJsZSgpOiBCb29sZWFuID0gdHJ1ZSAvLyDmoIflh4bmiafooYzlmajlp4vnu4jlj6/nlKgKCiAgICBvdmVycmlkZSBmdW4gaGFzUGVybWlzc2lvbigpOiBTaGVsbEV4ZWN1dG9yLlBlcm1pc3Npb25TdGF0dXMgPQogICAgICAgICAgICBTaGVsbEV4ZWN1dG9yLlBlcm1pc3Npb25TdGF0dXMuZ3JhbnRlZCgpIC8vIOagh+WHhuaJp+ihjOWZqOS4jemcgOimgemineWkluadg+mZkAoKICAgIG92ZXJyaWRlIGZ1biBpbml0aWFsaXplKCkgewogICAgICAgIC8vIOagh+WHhuaJp+ihjOWZqOS4jemcgOimgeWIneWni+WMlgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biByZXF1ZXN0UGVybWlzc2lvbihvblJlc3VsdDogKEJvb2xlYW4pIC0+IFVuaXQpIHsKICAgICAgICAvLyDmoIflh4bmiafooYzlmajkuI3pnIDopoHpop3lpJbmnYPpmZAKICAgICAgICBvblJlc3VsdCh0cnVlKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGV4ZWN1dGVDb21tYW5kKAogICAgICAgIGNvbW1hbmQ6IFN0cmluZywKICAgICAgICBpZGVudGl0eTogU2hlbGxJZGVudGl0eQogICAgKTogU2hlbGxFeGVjdXRvci5Db21tYW5kUmVzdWx0ID0KICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkV4ZWN1dGluZyBzdGFuZGFyZCBjb21tYW5kOiAkY29tbWFuZCIpCgogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAvLyDliKTmlq3mmK/lkKbljIXlkKtzaGVsbOeJueauiuWtl+espgogICAgICAgICAgICAgICAgICAgIGlmIChjb250YWluc1NoZWxsT3BlcmF0b3JzKGNvbW1hbmQpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBleGVjdXRlV2l0aFNoZWxsKGNvbW1hbmQpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAvLyDkvb/nlKhSdW50aW1l5omn6KGM566A5Y2V5ZG95LukCiAgICAgICAgICAgICAgICAgICAgdmFsIHByb2Nlc3MgPSBSdW50aW1lLmdldFJ1bnRpbWUoKS5leGVjKGNvbW1hbmQpCgogICAgICAgICAgICAgICAgICAgIC8vIOiuvue9rui2heaXtgogICAgICAgICAgICAgICAgICAgIHZhbCBjb21wbGV0ZWQgPSBwcm9jZXNzLndhaXRGb3IoQ09NTUFORF9USU1FT1VULCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAgICAgICAgIGlmICghY29tcGxldGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHByb2Nlc3MuZGVzdHJveSgpCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBTaGVsbEV4ZWN1dG9yLkNvbW1hbmRSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIiIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNvbW1hbmQgdGltZWQgb3V0IGFmdGVyICRDT01NQU5EX1RJTUVPVVQgc2Vjb25kcyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLTEKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgLy8g6K+75Y+W5qCH5YeG6L6T5Ye6CiAgICAgICAgICAgICAgICAgICAgdmFsIHN0ZG91dCA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBCdWZmZXJlZFJlYWRlcihJbnB1dFN0cmVhbVJlYWRlcihwcm9jZXNzLmlucHV0U3RyZWFtKSkudXNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpdC5yZWFkVGV4dCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIC8vIOivu+WPlumUmeivr+i+k+WHugogICAgICAgICAgICAgICAgICAgIHZhbCBzdGRlcnIgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgQnVmZmVyZWRSZWFkZXIoSW5wdXRTdHJlYW1SZWFkZXIocHJvY2Vzcy5lcnJvclN0cmVhbSkpLnVzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXQucmVhZFRleHQoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB2YWwgZXhpdENvZGUgPSBwcm9jZXNzLmV4aXRWYWx1ZSgpCgogICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBTaGVsbEV4ZWN1dG9yLkNvbW1hbmRSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleGl0Q29kZSA9PSAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3Rkb3V0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RkZXJyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhpdENvZGUKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBleGVjdXRpbmcgc3RhbmRhcmQgY29tbWFuZCIsIGUpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFNoZWxsRXhlY3V0b3IuQ29tbWFuZFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIiIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiRXJyb3I6ICR7ZS5tZXNzYWdlfSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAtMQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHN0YXJ0UHJvY2Vzcyhjb21tYW5kOiBTdHJpbmcpOiBTaGVsbFByb2Nlc3MgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIFN0YW5kYXJkU2hlbGxQcm9jZXNzKGNvbW1hbmQpCiAgICAgICAgICAgIH0KCiAgICAvKiog6YCa6L+Hc2hlbGzop6Pph4rlmajmiafooYzljIXlkKvnibnmrormk43kvZznrKbnmoTlkb3ku6QgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZXhlY3V0ZVdpdGhTaGVsbChjb21tYW5kOiBTdHJpbmcpOiBTaGVsbEV4ZWN1dG9yLkNvbW1hbmRSZXN1bHQgPQogICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAvLyDkvb/nlKhzaCAtY+aJp+ihjOW4puaciXNoZWxs54m55oCn55qE5ZG95LukCiAgICAgICAgICAgICAgICAgICAgdmFsIHByb2Nlc3MgPSBSdW50aW1lLmdldFJ1bnRpbWUoKS5leGVjKGFycmF5T2YoInNoIiwgIi1jIiwgY29tbWFuZCkpCgogICAgICAgICAgICAgICAgICAgIC8vIOiuvue9rui2heaXtgogICAgICAgICAgICAgICAgICAgIHZhbCBjb21wbGV0ZWQgPSBwcm9jZXNzLndhaXRGb3IoQ09NTUFORF9USU1FT1VULCBUaW1lVW5pdC5TRUNPTkRTKQogICAgICAgICAgICAgICAgICAgIGlmICghY29tcGxldGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHByb2Nlc3MuZGVzdHJveSgpCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBTaGVsbEV4ZWN1dG9yLkNvbW1hbmRSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIiIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIkNvbW1hbmQgdGltZWQgb3V0IGFmdGVyICRDT01NQU5EX1RJTUVPVVQgc2Vjb25kcyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLTEKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgLy8g6K+75Y+W5qCH5YeG6L6T5Ye6CiAgICAgICAgICAgICAgICAgICAgdmFsIHN0ZG91dCA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBCdWZmZXJlZFJlYWRlcihJbnB1dFN0cmVhbVJlYWRlcihwcm9jZXNzLmlucHV0U3RyZWFtKSkudXNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpdC5yZWFkVGV4dCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIC8vIOivu+WPlumUmeivr+i+k+WHugogICAgICAgICAgICAgICAgICAgIHZhbCBzdGRlcnIgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgQnVmZmVyZWRSZWFkZXIoSW5wdXRTdHJlYW1SZWFkZXIocHJvY2Vzcy5lcnJvclN0cmVhbSkpLnVzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXQucmVhZFRleHQoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB2YWwgZXhpdENvZGUgPSBwcm9jZXNzLmV4aXRWYWx1ZSgpCgogICAgICAgICAgICAgICAgICAgIC8vIOWvueS6jmdyZXDlkb3ku6TvvIzljbPkvb/msqHmnInljLnphY3kuZ/orqTkuLrmiJDlip8KICAgICAgICAgICAgICAgICAgICB2YWwgc3VjY2VzcyA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoY29tbWFuZC5jb250YWlucygiZ3JlcCIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhpdENvZGUgPT0gMCB8fCBleGl0Q29kZSA9PSAxCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4aXRDb2RlID09IDAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFNoZWxsRXhlY3V0b3IuQ29tbWFuZFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGRvdXQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGRlcnIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleGl0Q29kZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGV4ZWN1dGluZyBzaGVsbCBjb21tYW5kIiwgZSkKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgU2hlbGxFeGVjdXRvci5Db21tYW5kUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJFcnJvcjogJHtlLm1lc3NhZ2V9IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC0xCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgLyoqCiAgICAgKiDmo4DmtYvlkb3ku6TmmK/lkKbljIXlkKvpnIDopoFzaGVsbOino+mHiueahOeJueauiuaTjeS9nOespgogICAgICogQHBhcmFtIGNvbW1hbmQg6KaB5qOA5p+l55qE5ZG95LukCiAgICAgKiBAcmV0dXJuIOaYr+WQpuWMheWQq3NoZWxs5pON5L2c56ymCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGNvbnRhaW5zU2hlbGxPcGVyYXRvcnMoY29tbWFuZDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgLy8g6aKE5aSE55CG77ya5qCH6K6w5byV5Y+35YaF55qE5YaF5a6577yM6YG/5YWN5qOA5rWL5byV5Y+35YaF55qE5pON5L2c56ymCiAgICAgICAgdmFyIGluU2luZ2xlUXVvdGVzID0gZmFsc2UKICAgICAgICB2YXIgaW5Eb3VibGVRdW90ZXMgPSBmYWxzZQogICAgICAgIHZhciBlc2NhcGVkID0gZmFsc2UKICAgICAgICB2YXIgaSA9IDAKCiAgICAgICAgd2hpbGUgKGkgPCBjb21tYW5kLmxlbmd0aCkgewogICAgICAgICAgICB2YWwgYyA9IGNvbW1hbmRbaV0KCiAgICAgICAgICAgIC8vIOWkhOeQhui9rOS5ieWtl+espgogICAgICAgICAgICBpZiAoYyA9PSAnXFwnICYmICFlc2NhcGVkKSB7CiAgICAgICAgICAgICAgICBlc2NhcGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDlpITnkIblvJXlj7cKICAgICAgICAgICAgaWYgKGMgPT0gJ1wnJyAmJiAhZXNjYXBlZCAmJiAhaW5Eb3VibGVRdW90ZXMpIHsKICAgICAgICAgICAgICAgIGluU2luZ2xlUXVvdGVzID0gIWluU2luZ2xlUXVvdGVzCiAgICAgICAgICAgIH0gZWxzZSBpZiAoYyA9PSAnIicgJiYgIWVzY2FwZWQgJiYgIWluU2luZ2xlUXVvdGVzKSB7CiAgICAgICAgICAgICAgICBpbkRvdWJsZVF1b3RlcyA9ICFpbkRvdWJsZVF1b3RlcwogICAgICAgICAgICB9CiAgICAgICAgICAgIC8vIOWPquWcqOS4jeWcqOW8leWPt+WGheaXtuajgOa1i+aTjeS9nOespgogICAgICAgICAgICBlbHNlIGlmICghaW5TaW5nbGVRdW90ZXMgJiYgIWluRG91YmxlUXVvdGVzICYmICFlc2NhcGVkKSB7CiAgICAgICAgICAgICAgICAvLyDmo4DmtYvnrqHpgZMKICAgICAgICAgICAgICAgIGlmIChjID09ICd8JykgewogICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8g5qOA5rWLICYmIOWSjCAmIOaTjeS9nOespgogICAgICAgICAgICAgICAgaWYgKGMgPT0gJyYnKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyDmo4DmtYvph43lrprlkJEKICAgICAgICAgICAgICAgIGlmIChjID09ICc+JyB8fCBjID09ICc8JykgewogICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8g5qOA5rWL5YiG5Y+3CiAgICAgICAgICAgICAgICBpZiAoYyA9PSAnOycpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBlc2NhcGVkID0gZmFsc2UKICAgICAgICAgICAgaSsrCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KfQoKLyoqCiAqIOagh+WHhueahCBTaGVsbFByb2Nlc3Mg5a6e546w77yM5L2/55SoIFJ1bnRpbWUuZXhlYygpCiAqLwpwcml2YXRlIGNsYXNzIFN0YW5kYXJkU2hlbGxQcm9jZXNzKGNvbW1hbmQ6IFN0cmluZykgOiBTaGVsbFByb2Nlc3MgewogICAgcHJpdmF0ZSB2YWwgcHJvY2VzczogUHJvY2VzcyA9IGlmIChjb250YWluc1NoZWxsT3BlcmF0b3JzKGNvbW1hbmQpKSB7CiAgICAgICAgUnVudGltZS5nZXRSdW50aW1lKCkuZXhlYyhhcnJheU9mKCJzaCIsICItYyIsIGNvbW1hbmQpKQogICAgfSBlbHNlIHsKICAgICAgICBSdW50aW1lLmdldFJ1bnRpbWUoKS5leGVjKGNvbW1hbmQpCiAgICB9CiAgICAKICAgIG92ZXJyaWRlIHZhbCBzdGRvdXQ6IEZsb3c8U3RyaW5nPiA9IGNhbGxiYWNrRmxvdyB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgQnVmZmVyZWRSZWFkZXIoSW5wdXRTdHJlYW1SZWFkZXIocHJvY2Vzcy5pbnB1dFN0cmVhbSkpLnVzZSB7IHJlYWRlciAtPgogICAgICAgICAgICAgICAgdmFyIGxpbmU6IFN0cmluZz8KICAgICAgICAgICAgICAgIHdoaWxlIChyZWFkZXIucmVhZExpbmUoKS5hbHNvIHsgbGluZSA9IGl0IH0gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIHRyeVNlbmQobGluZSEhKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIFByb2Nlc3MgZW5kZWQgb3IgZXJyb3Igb2NjdXJyZWQKICAgICAgICB9CiAgICAgICAgY2xvc2UoKQogICAgICAgIGF3YWl0Q2xvc2UgeyB9CiAgICB9LmZsb3dPbihEaXNwYXRjaGVycy5JTykKCiAgICBvdmVycmlkZSB2YWwgc3RkZXJyOiBGbG93PFN0cmluZz4gPSBjYWxsYmFja0Zsb3cgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIEJ1ZmZlcmVkUmVhZGVyKElucHV0U3RyZWFtUmVhZGVyKHByb2Nlc3MuZXJyb3JTdHJlYW0pKS51c2UgeyByZWFkZXIgLT4KICAgICAgICAgICAgICAgIHZhciBsaW5lOiBTdHJpbmc/CiAgICAgICAgICAgICAgICB3aGlsZSAocmVhZGVyLnJlYWRMaW5lKCkuYWxzbyB7IGxpbmUgPSBpdCB9ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICB0cnlTZW5kKGxpbmUhISkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAvLyBQcm9jZXNzIGVuZGVkIG9yIGVycm9yIG9jY3VycmVkCiAgICAgICAgfQogICAgICAgIGNsb3NlKCkKICAgICAgICBhd2FpdENsb3NlIHsgfQogICAgfS5mbG93T24oRGlzcGF0Y2hlcnMuSU8pCgogICAgb3ZlcnJpZGUgdmFsIGlzQWxpdmU6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHByb2Nlc3MuaXNBbGl2ZQoKICAgIG92ZXJyaWRlIGZ1biBkZXN0cm95KCkgewogICAgICAgIHByb2Nlc3MuZGVzdHJveSgpCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gd2FpdEZvcigpOiBJbnQgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHByb2Nlc3Mud2FpdEZvcigpCiAgICB9CiAgICAKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIC8qKgogICAgICAgICAqIOajgOa1i+WRveS7pOaYr+WQpuWMheWQq+mcgOimgXNoZWxs6Kej6YeK55qE54m55q6K5pON5L2c56ymCiAgICAgICAgICovCiAgICAgICAgcHJpdmF0ZSBmdW4gY29udGFpbnNTaGVsbE9wZXJhdG9ycyhjb21tYW5kOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICAgICAgLy8g6aKE5aSE55CG77ya5qCH6K6w5byV5Y+35YaF55qE5YaF5a6577yM6YG/5YWN5qOA5rWL5byV5Y+35YaF55qE5pON5L2c56ymCiAgICAgICAgICAgIHZhciBpblNpbmdsZVF1b3RlcyA9IGZhbHNlCiAgICAgICAgICAgIHZhciBpbkRvdWJsZVF1b3RlcyA9IGZhbHNlCiAgICAgICAgICAgIHZhciBlc2NhcGVkID0gZmFsc2UKICAgICAgICAgICAgdmFyIGkgPSAwCgogICAgICAgICAgICB3aGlsZSAoaSA8IGNvbW1hbmQubGVuZ3RoKSB7CiAgICAgICAgICAgICAgICB2YWwgYyA9IGNvbW1hbmRbaV0KCiAgICAgICAgICAgICAgICAvLyDlpITnkIbovazkuYnlrZfnrKYKICAgICAgICAgICAgICAgIGlmIChjID09ICdcXCcgJiYgIWVzY2FwZWQpIHsKICAgICAgICAgICAgICAgICAgICBlc2NhcGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgIGkrKwogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8g5aSE55CG5byV5Y+3CiAgICAgICAgICAgICAgICBpZiAoYyA9PSAnXCcnICYmICFlc2NhcGVkICYmICFpbkRvdWJsZVF1b3RlcykgewogICAgICAgICAgICAgICAgICAgIGluU2luZ2xlUXVvdGVzID0gIWluU2luZ2xlUXVvdGVzCiAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKGMgPT0gJyInICYmICFlc2NhcGVkICYmICFpblNpbmdsZVF1b3RlcykgewogICAgICAgICAgICAgICAgICAgIGluRG91YmxlUXVvdGVzID0gIWluRG91YmxlUXVvdGVzCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyDlj6rlnKjkuI3lnKjlvJXlj7flhoXml7bmo4DmtYvmk43kvZznrKYKICAgICAgICAgICAgICAgIGVsc2UgaWYgKCFpblNpbmdsZVF1b3RlcyAmJiAhaW5Eb3VibGVRdW90ZXMgJiYgIWVzY2FwZWQpIHsKICAgICAgICAgICAgICAgICAgICAvLyDmo4DmtYvnrqHpgZMKICAgICAgICAgICAgICAgICAgICBpZiAoYyA9PSAnfCcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIC8vIOajgOa1iyAmJiDlkowgJiDmk43kvZznrKYKICAgICAgICAgICAgICAgICAgICBpZiAoYyA9PSAnJicpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIC8vIOajgOa1i+mHjeWumuWQkQogICAgICAgICAgICAgICAgICAgIGlmIChjID09ICc+JyB8fCBjID09ICc8JykgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgLy8g5qOA5rWL5YiG5Y+3CiAgICAgICAgICAgICAgICAgICAgaWYgKGMgPT0gJzsnKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGVzY2FwZWQgPSBmYWxzZQogICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.system.shell
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+import com.bslsjdk.operit.core.tools.system.ShellIdentity
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.util.concurrent.TimeUnit
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.channels.awaitClose
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.callbackFlow
+import kotlinx.coroutines.flow.flowOn
+
+/** 基于标准Android权限的Shell命令执行器 实现STANDARD权限级别的命令执行 */
+class StandardShellExecutor(private val context: Context) : ShellExecutor {
+    companion object {
+        private const val TAG = "StandardShellExecutor"
+        private const val COMMAND_TIMEOUT = 30L // 秒
+    }
+
+    override fun getPermissionLevel(): AndroidPermissionLevel = AndroidPermissionLevel.STANDARD
+
+    override fun isAvailable(): Boolean = true // 标准执行器始终可用
+
+    override fun hasPermission(): ShellExecutor.PermissionStatus =
+            ShellExecutor.PermissionStatus.granted() // 标准执行器不需要额外权限
+
+    override fun initialize() {
+        // 标准执行器不需要初始化
+    }
+
+    override fun requestPermission(onResult: (Boolean) -> Unit) {
+        // 标准执行器不需要额外权限
+        onResult(true)
+    }
+
+    override suspend fun executeCommand(
+        command: String,
+        identity: ShellIdentity
+    ): ShellExecutor.CommandResult =
+            withContext(Dispatchers.IO) {
+                AppLogger.d(TAG, "Executing standard command: $command")
+
+                try {
+                    // 判断是否包含shell特殊字符
+                    if (containsShellOperators(command)) {
+                        return@withContext executeWithShell(command)
+                    }
+
+                    // 使用Runtime执行简单命令
+                    val process = Runtime.getRuntime().exec(command)
+
+                    // 设置超时
+                    val completed = process.waitFor(COMMAND_TIMEOUT, TimeUnit.SECONDS)
+                    if (!completed) {
+                        process.destroy()
+                        return@withContext ShellExecutor.CommandResult(
+                                false,
+                                "",
+                                "Command timed out after $COMMAND_TIMEOUT seconds",
+                                -1
+                        )
+                    }
+
+                    // 读取标准输出
+                    val stdout =
+                            BufferedReader(InputStreamReader(process.inputStream)).use {
+                                it.readText()
+                            }
+
+                    // 读取错误输出
+                    val stderr =
+                            BufferedReader(InputStreamReader(process.errorStream)).use {
+                                it.readText()
+                            }
+
+                    val exitCode = process.exitValue()
+
+                    return@withContext ShellExecutor.CommandResult(
+                            exitCode == 0,
+                            stdout,
+                            stderr,
+                            exitCode
+                    )
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "Error executing standard command", e)
+                    return@withContext ShellExecutor.CommandResult(
+                            false,
+                            "",
+                            "Error: ${e.message}",
+                            -1
+                    )
+                }
+            }
+
+    override suspend fun startProcess(command: String): ShellProcess = withContext(Dispatchers.IO) {
+        StandardShellProcess(command)
+            }
+
+    /** 通过shell解释器执行包含特殊操作符的命令 */
+    private suspend fun executeWithShell(command: String): ShellExecutor.CommandResult =
+            withContext(Dispatchers.IO) {
+                try {
+                    // 使用sh -c执行带有shell特性的命令
+                    val process = Runtime.getRuntime().exec(arrayOf("sh", "-c", command))
+
+                    // 设置超时
+                    val completed = process.waitFor(COMMAND_TIMEOUT, TimeUnit.SECONDS)
+                    if (!completed) {
+                        process.destroy()
+                        return@withContext ShellExecutor.CommandResult(
+                                false,
+                                "",
+                                "Command timed out after $COMMAND_TIMEOUT seconds",
+                                -1
+                        )
+                    }
+
+                    // 读取标准输出
+                    val stdout =
+                            BufferedReader(InputStreamReader(process.inputStream)).use {
+                                it.readText()
+                            }
+
+                    // 读取错误输出
+                    val stderr =
+                            BufferedReader(InputStreamReader(process.errorStream)).use {
+                                it.readText()
+                            }
+
+                    val exitCode = process.exitValue()
+
+                    // 对于grep命令，即使没有匹配也认为成功
+                    val success =
+                            if (command.contains("grep")) {
+                                exitCode == 0 || exitCode == 1
+                            } else {
+                                exitCode == 0
+                            }
+
+                    return@withContext ShellExecutor.CommandResult(
+                            success,
+                            stdout,
+                            stderr,
+                            exitCode
+                    )
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "Error executing shell command", e)
+                    return@withContext ShellExecutor.CommandResult(
+                            false,
+                            "",
+                            "Error: ${e.message}",
+                            -1
+                    )
+                }
+            }
+
+    /**
+     * 检测命令是否包含需要shell解释的特殊操作符
+     * @param command 要检查的命令
+     * @return 是否包含shell操作符
+     */
+    private fun containsShellOperators(command: String): Boolean {
+        // 预处理：标记引号内的内容，避免检测引号内的操作符
+        var inSingleQuotes = false
+        var inDoubleQuotes = false
+        var escaped = false
+        var i = 0
+
+        while (i < command.length) {
+            val c = command[i]
+
+            // 处理转义字符
+            if (c == '\\' && !escaped) {
+                escaped = true
+                i++
+                continue
+            }
+
+            // 处理引号
+            if (c == '\'' && !escaped && !inDoubleQuotes) {
+                inSingleQuotes = !inSingleQuotes
+            } else if (c == '"' && !escaped && !inSingleQuotes) {
+                inDoubleQuotes = !inDoubleQuotes
+            }
+            // 只在不在引号内时检测操作符
+            else if (!inSingleQuotes && !inDoubleQuotes && !escaped) {
+                // 检测管道
+                if (c == '|') {
+                    return true
+                }
+
+                // 检测 && 和 & 操作符
+                if (c == '&') {
+                    return true
+                }
+
+                // 检测重定向
+                if (c == '>' || c == '<') {
+                    return true
+                }
+
+                // 检测分号
+                if (c == ';') {
+                    return true
+                }
+            }
+
+            escaped = false
+            i++
+        }
+
+        return false
+    }
+}
+
+/**
+ * 标准的 ShellProcess 实现，使用 Runtime.exec()
+ */
+private class StandardShellProcess(command: String) : ShellProcess {
+    private val process: Process = if (containsShellOperators(command)) {
+        Runtime.getRuntime().exec(arrayOf("sh", "-c", command))
+    } else {
+        Runtime.getRuntime().exec(command)
+    }
+    
+    override val stdout: Flow<String> = callbackFlow {
+        try {
+            BufferedReader(InputStreamReader(process.inputStream)).use { reader ->
+                var line: String?
+                while (reader.readLine().also { line = it } != null) {
+                    trySend(line!!)
+                }
+            }
+        } catch (e: Exception) {
+            // Process ended or error occurred
+        }
+        close()
+        awaitClose { }
+    }.flowOn(Dispatchers.IO)
+
+    override val stderr: Flow<String> = callbackFlow {
+        try {
+            BufferedReader(InputStreamReader(process.errorStream)).use { reader ->
+                var line: String?
+                while (reader.readLine().also { line = it } != null) {
+                    trySend(line!!)
+                }
+            }
+        } catch (e: Exception) {
+            // Process ended or error occurred
+        }
+        close()
+        awaitClose { }
+    }.flowOn(Dispatchers.IO)
+
+    override val isAlive: Boolean
+        get() = process.isAlive
+
+    override fun destroy() {
+        process.destroy()
+    }
+
+    override suspend fun waitFor(): Int = withContext(Dispatchers.IO) {
+        process.waitFor()
+    }
+    
+    companion object {
+        /**
+         * 检测命令是否包含需要shell解释的特殊操作符
+         */
+        private fun containsShellOperators(command: String): Boolean {
+            // 预处理：标记引号内的内容，避免检测引号内的操作符
+            var inSingleQuotes = false
+            var inDoubleQuotes = false
+            var escaped = false
+            var i = 0
+
+            while (i < command.length) {
+                val c = command[i]
+
+                // 处理转义字符
+                if (c == '\\' && !escaped) {
+                    escaped = true
+                    i++
+                    continue
+                }
+
+                // 处理引号
+                if (c == '\'' && !escaped && !inDoubleQuotes) {
+                    inSingleQuotes = !inSingleQuotes
+                } else if (c == '"' && !escaped && !inSingleQuotes) {
+                    inDoubleQuotes = !inDoubleQuotes
+                }
+                // 只在不在引号内时检测操作符
+                else if (!inSingleQuotes && !inDoubleQuotes && !escaped) {
+                    // 检测管道
+                    if (c == '|') {
+                        return true
+                    }
+
+                    // 检测 && 和 & 操作符
+                    if (c == '&') {
+                        return true
+                    }
+
+                    // 检测重定向
+                    if (c == '>' || c == '<') {
+                        return true
+                    }
+
+                    // 检测分号
+                    if (c == ';') {
+                        return true
+                    }
+                }
+
+                escaped = false
+                i++
+            }
+
+            return false
+        }
+    }
+}

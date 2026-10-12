@@ -1,1 +1,153 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3MuY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5Cb3JkZXJTdHJva2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5iYWNrZ3JvdW5kCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYm9yZGVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uY2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLkNpcmNsZVNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DYXJkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DYXJkRGVmYXVsdHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5kcmF3LmNsaXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MudmVjdG9yLkltYWdlVmVjdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuc3R5bGUuVGV4dEFsaWduCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKCi8qKgogKiBBIHNlbGVjdGFibGUgdGhlbWUgbW9kZSBvcHRpb24gYnV0dG9uCiAqLwpAQ29tcG9zYWJsZQpmdW4gVGhlbWVNb2RlT3B0aW9uKAogICAgdGl0bGU6IFN0cmluZywKICAgIHNlbGVjdGVkOiBCb29sZWFuLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICBvbkNsaWNrOiAoKSAtPiBVbml0CikgewogICAgQ2FyZCgKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyLmNsaWNrYWJsZShvbkNsaWNrID0gb25DbGljayksCiAgICAgICAgY29sb3JzID0gQ2FyZERlZmF1bHRzLmNhcmRDb2xvcnMoCiAgICAgICAgICAgIGNvbnRhaW5lckNvbG9yID0gaWYgKHNlbGVjdGVkKQogICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LmNvcHkoYWxwaGEgPSAwLjJmKQogICAgICAgICAgICBlbHNlIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZQogICAgICAgICksCiAgICAgICAgYm9yZGVyID0gaWYgKHNlbGVjdGVkKSBCb3JkZXJTdHJva2UoMi5kcCwgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5KSBlbHNlIG51bGwKICAgICkgewogICAgICAgIEJveCgKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKDE2LmRwKS5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgY29udGVudEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXIKICAgICAgICApIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSB0aXRsZSwKICAgICAgICAgICAgICAgIHRleHRBbGlnbiA9IFRleHRBbGlnbi5DZW50ZXIsCiAgICAgICAgICAgICAgICBmb250V2VpZ2h0ID0gaWYgKHNlbGVjdGVkKSBGb250V2VpZ2h0LkJvbGQgZWxzZSBGb250V2VpZ2h0Lk5vcm1hbCwKICAgICAgICAgICAgICAgIGNvbG9yID0gaWYgKHNlbGVjdGVkKSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgICAgIGVsc2UgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKLyoqCiAqIEEgc2VsZWN0YWJsZSBtZWRpYSB0eXBlIG9wdGlvbiBidXR0b24gd2l0aCBpY29uCiAqLwpAQ29tcG9zYWJsZQpmdW4gTWVkaWFUeXBlT3B0aW9uKAogICAgdGl0bGU6IFN0cmluZywKICAgIGljb246IEltYWdlVmVjdG9yLAogICAgc2VsZWN0ZWQ6IEJvb2xlYW4sCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIG9uQ2xpY2s6ICgpIC0+IFVuaXQKKSB7CiAgICBDYXJkKAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIuY2xpY2thYmxlKG9uQ2xpY2sgPSBvbkNsaWNrKSwKICAgICAgICBjb2xvcnMgPSBDYXJkRGVmYXVsdHMuY2FyZENvbG9ycygKICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBpZiAoc2VsZWN0ZWQpCiAgICAgICAgICAgICAgICBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkuY29weShhbHBoYSA9IDAuMmYpCiAgICAgICAgICAgIGVsc2UgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlCiAgICAgICAgKSwKICAgICAgICBib3JkZXIgPSBpZiAoc2VsZWN0ZWQpIEJvcmRlclN0cm9rZSgyLmRwLCBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkpIGVsc2UgbnVsbAogICAgKSB7CiAgICAgICAgQ29sdW1uKAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoMTYuZHApLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseQogICAgICAgICkgewogICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBpY29uLAogICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwKICAgICAgICAgICAgICAgIHRpbnQgPSBpZiAoc2VsZWN0ZWQpIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgZWxzZSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyNC5kcCkucGFkZGluZyhib3R0b20gPSA0LmRwKQogICAgICAgICAgICApCgogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHRpdGxlLAogICAgICAgICAgICAgICAgdGV4dEFsaWduID0gVGV4dEFsaWduLkNlbnRlciwKICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBpZiAoc2VsZWN0ZWQpIEZvbnRXZWlnaHQuQm9sZCBlbHNlIEZvbnRXZWlnaHQuTm9ybWFsLAogICAgICAgICAgICAgICAgY29sb3IgPSBpZiAoc2VsZWN0ZWQpIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgZWxzZSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9CgovKioKICogQSBjb2xvciBzZWxlY3Rpb24gaXRlbSB3aXRoIHRpdGxlIGFuZCBjb2xvciBwcmV2aWV3CiAqLwpAQ29tcG9zYWJsZQpmdW4gQ29sb3JTZWxlY3Rpb25JdGVtKAogICAgdGl0bGU6IFN0cmluZywKICAgIGNvbG9yOiBDb2xvciwKICAgIGVuYWJsZWQ6IEJvb2xlYW4gPSB0cnVlLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICBvbkNsaWNrOiAoKSAtPiBVbml0CikgewogICAgdmFsIGFscGhhID0gaWYgKGVuYWJsZWQpIDFmIGVsc2UgMC4zOGYKICAgIENvbHVtbigKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyLmNsaWNrYWJsZShlbmFibGVkID0gZW5hYmxlZCwgb25DbGljayA9IG9uQ2xpY2spLAogICAgICAgIGhvcml6b250YWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVySG9yaXpvbnRhbGx5CiAgICApIHsKICAgICAgICBUZXh0KAogICAgICAgICAgICB0ZXh0ID0gdGl0bGUsCiAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKGJvdHRvbSA9IDguZHApLAogICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlLmNvcHkoYWxwaGEgPSBhbHBoYSkKICAgICAgICApCgogICAgICAgIEJveCgKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDQ4LmRwKQogICAgICAgICAgICAgICAgLmNsaXAoQ2lyY2xlU2hhcGUpCiAgICAgICAgICAgICAgICAuYmFja2dyb3VuZChjb2xvci5jb3B5KGFscGhhID0gaWYgKGVuYWJsZWQpIGNvbG9yLmFscGhhIGVsc2UgY29sb3IuYWxwaGEgKiAwLjVmKSkKICAgICAgICAgICAgICAgIC5ib3JkZXIoCiAgICAgICAgICAgICAgICAgICAgMi5kcCwKICAgICAgICAgICAgICAgICAgICBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm91dGxpbmUuY29weShhbHBoYSA9IGFscGhhKSwKICAgICAgICAgICAgICAgICAgICBDaXJjbGVTaGFwZQogICAgICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KfQoKLyoqCiAqIEEgcHJlc2V0IGNvbG9yIGl0ZW0gZm9yIHRoZSBjb2xvciBwaWNrZXIKICovCkBDb21wb3NhYmxlCmZ1biBQcmVzZXRDb2xvckl0ZW0oY29sb3I6IENvbG9yLCBvblNlbGVjdDogKENvbG9yKSAtPiBVbml0KSB7CiAgICBCb3goCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDMyLmRwKQogICAgICAgICAgICAuY2xpcChDaXJjbGVTaGFwZSkKICAgICAgICAgICAgLmJhY2tncm91bmQoY29sb3IpCiAgICAgICAgICAgIC5ib3JkZXIoMS5kcCwgQ29sb3IuV2hpdGUsIENpcmNsZVNoYXBlKQogICAgICAgICAgICAuY2xpY2thYmxlIHsgb25TZWxlY3QoY29sb3IpIH0KICAgICkKfSA=
+package com.bslsjdk.operit.ui.features.settings.components
+
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+
+/**
+ * A selectable theme mode option button
+ */
+@Composable
+fun ThemeModeOption(
+    title: String,
+    selected: Boolean,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit
+) {
+    Card(
+        modifier = modifier.clickable(onClick = onClick),
+        colors = CardDefaults.cardColors(
+            containerColor = if (selected)
+                MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)
+            else MaterialTheme.colorScheme.surface
+        ),
+        border = if (selected) BorderStroke(2.dp, MaterialTheme.colorScheme.primary) else null
+    ) {
+        Box(
+            modifier = Modifier.padding(16.dp).fillMaxWidth(),
+            contentAlignment = Alignment.Center
+        ) {
+            Text(
+                text = title,
+                textAlign = TextAlign.Center,
+                fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal,
+                color = if (selected) MaterialTheme.colorScheme.primary
+                else MaterialTheme.colorScheme.onSurface
+            )
+        }
+    }
+}
+
+/**
+ * A selectable media type option button with icon
+ */
+@Composable
+fun MediaTypeOption(
+    title: String,
+    icon: ImageVector,
+    selected: Boolean,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit
+) {
+    Card(
+        modifier = modifier.clickable(onClick = onClick),
+        colors = CardDefaults.cardColors(
+            containerColor = if (selected)
+                MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)
+            else MaterialTheme.colorScheme.surface
+        ),
+        border = if (selected) BorderStroke(2.dp, MaterialTheme.colorScheme.primary) else null
+    ) {
+        Column(
+            modifier = Modifier.padding(16.dp).fillMaxWidth(),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Icon(
+                imageVector = icon,
+                contentDescription = null,
+                tint = if (selected) MaterialTheme.colorScheme.primary
+                else MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.size(24.dp).padding(bottom = 4.dp)
+            )
+
+            Text(
+                text = title,
+                textAlign = TextAlign.Center,
+                fontWeight = if (selected) FontWeight.Bold else FontWeight.Normal,
+                color = if (selected) MaterialTheme.colorScheme.primary
+                else MaterialTheme.colorScheme.onSurface
+            )
+        }
+    }
+}
+
+/**
+ * A color selection item with title and color preview
+ */
+@Composable
+fun ColorSelectionItem(
+    title: String,
+    color: Color,
+    enabled: Boolean = true,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit
+) {
+    val alpha = if (enabled) 1f else 0.38f
+    Column(
+        modifier = modifier.clickable(enabled = enabled, onClick = onClick),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = title,
+            style = MaterialTheme.typography.bodySmall,
+            modifier = Modifier.padding(bottom = 8.dp),
+            color = MaterialTheme.colorScheme.onSurface.copy(alpha = alpha)
+        )
+
+        Box(
+            modifier = Modifier.size(48.dp)
+                .clip(CircleShape)
+                .background(color.copy(alpha = if (enabled) color.alpha else color.alpha * 0.5f))
+                .border(
+                    2.dp,
+                    MaterialTheme.colorScheme.outline.copy(alpha = alpha),
+                    CircleShape
+                )
+        )
+    }
+}
+
+/**
+ * A preset color item for the color picker
+ */
+@Composable
+fun PresetColorItem(color: Color, onSelect: (Color) -> Unit) {
+    Box(
+        modifier = Modifier.size(32.dp)
+            .clip(CircleShape)
+            .background(color)
+            .border(1.dp, Color.White, CircleShape)
+            .clickable { onSelect(color) }
+    )
+} 

@@ -1,1 +1,187 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jYWxjdWxhdG9yCgppbXBvcnQgb3JnLmp1bml0LkFmdGVyCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgSnNDYWxjdWxhdG9yVGVzdCB7CgogICAgQEFmdGVyCiAgICBmdW4gdGVhckRvd24oKSB7CiAgICAgICAgSnNDYWxjdWxhdG9yLmNsZWFyVmFyaWFibGVzKCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWx1YXRlIHNpbXBsZSBhZGRpdGlvbmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDUuMCwgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCIyICsgMyIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWx1YXRlIGNvbXBsZXggZXhwcmVzc2lvbmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDE0LjAsIEpzQ2FsY3VsYXRvci5ldmFsdWF0ZSgiMiArIDMgKiA0IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZXZhbHVhdGUgd2l0aCBwYXJlbnRoZXNlc2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDIwLjAsIEpzQ2FsY3VsYXRvci5ldmFsdWF0ZSgiKDIgKyAzKSAqIDQiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsdWF0ZSBmdW5jdGlvbiBjYWxsYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoNS4wLCBKc0NhbGN1bGF0b3IuZXZhbHVhdGUoImFicygtNSkiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsdWF0ZSB0cmlnb25vbWV0cmljIGZ1bmN0aW9uYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoTWF0aC5zaW4oMC4wKSwgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCJzaW4oMCkiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsdWF0ZSB3aXRoIHZhcmlhYmxlIGFzc2lnbm1lbnRgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxMC4wLCBKc0NhbGN1bGF0b3IuZXZhbHVhdGUoIng9MTAiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsdWF0ZSB3aXRoIHZhcmlhYmxlIHVzYWdlYCgpIHsKICAgICAgICBKc0NhbGN1bGF0b3Iuc2V0VmFyaWFibGUoIngiLCA1LjApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDguMCwgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCJ4ICsgMyIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWx1YXRlIHVzaW5nIHN0b3JlZCB2YXJpYWJsZWAoKSB7CiAgICAgICAgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCJ4PTciKQogICAgICAgIGFzc2VydEVxdWFscygxMS4wLCBKc0NhbGN1bGF0b3IuZXZhbHVhdGUoInggKyA0IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0KGV4cGVjdGVkID0gSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uOjpjbGFzcykKICAgIGZ1biBgZXZhbHVhdGUgaW52YWxpZCBleHByZXNzaW9uIHRocm93c2AoKSB7CiAgICAgICAgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCIyICsiKQogICAgfQoKICAgIEBUZXN0KGV4cGVjdGVkID0gSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uOjpjbGFzcykKICAgIGZ1biBgZXZhbHVhdGUgdW5kZWZpbmVkIHZhcmlhYmxlIHRocm93c2AoKSB7CiAgICAgICAgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCJ1bmRlZmluZWRfdmFyIikKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNhbGMgcmV0dXJucyBmb3JtYXR0ZWQgc3RyaW5nYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIjUiLCBKc0NhbGN1bGF0b3IuY2FsYygiMiArIDMiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNhbGMgcmV0dXJucyBkZWNpbWFsIGZvcm1hdHRlZGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCIzLjE0IiwgSnNDYWxjdWxhdG9yLmNhbGMoIjEuMTQgKyAyIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjYWxjIGludGVnZXIgcmVzdWx0YCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIjQyIiwgSnNDYWxjdWxhdG9yLmNhbGMoIjYgKiA3IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjYWxjIG5lZ2F0aXZlIHJlc3VsdGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCItNSIsIEpzQ2FsY3VsYXRvci5jYWxjKCIyIC0gNyIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZm9ybWF0UmVzdWx0IGRlbGVnYXRlcyBjb3JyZWN0bHlgKCkgewogICAgICAgIGFzc2VydEVxdWFscygiNDIiLCBKc0NhbGN1bGF0b3IuZm9ybWF0UmVzdWx0KDQyLjApKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZm9ybWF0UmVzdWx0IHdpdGggZGVjaW1hbGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCIzLjE0IiwgSnNDYWxjdWxhdG9yLmZvcm1hdFJlc3VsdCgzLjE0KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHNldFZhcmlhYmxlIGFuZCBnZXRWYXJpYWJsZSByb3VuZCB0cmlwYCgpIHsKICAgICAgICBKc0NhbGN1bGF0b3Iuc2V0VmFyaWFibGUoInRlc3QiLCA5OS4wKQogICAgICAgIGFzc2VydEVxdWFscyg5OS4wLCBKc0NhbGN1bGF0b3IuZ2V0VmFyaWFibGUoInRlc3QiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBnZXRWYXJpYWJsZSByZXR1cm5zIHNldCB2YWx1ZWAoKSB7CiAgICAgICAgSnNDYWxjdWxhdG9yLnNldFZhcmlhYmxlKCJ2YWx1ZSIsIDMuMTQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMuMTQsIEpzQ2FsY3VsYXRvci5nZXRWYXJpYWJsZSgidmFsdWUiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QoZXhwZWN0ZWQgPSBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb246OmNsYXNzKQogICAgZnVuIGBnZXRWYXJpYWJsZSB1bmRlZmluZWQgdGhyb3dzYCgpIHsKICAgICAgICBKc0NhbGN1bGF0b3IuZ2V0VmFyaWFibGUoIm5vbmV4aXN0ZW50IikKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNsZWFyVmFyaWFibGVzIHJlc2V0cyBzdGF0ZWAoKSB7CiAgICAgICAgSnNDYWxjdWxhdG9yLnNldFZhcmlhYmxlKCJ0ZW1wIiwgMTAwLjApCiAgICAgICAgSnNDYWxjdWxhdG9yLmNsZWFyVmFyaWFibGVzKCkKICAgICAgICAvLyBQSSBzaG91bGQgc3RpbGwgYmUgYWNjZXNzaWJsZQogICAgICAgIGFzc2VydEVxdWFscyhNYXRoLlBJLCBKc0NhbGN1bGF0b3IuZ2V0VmFyaWFibGUoIlBJIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZ2V0U3VwcG9ydGVkVW5pdHMgcmV0dXJucyBjYXRlZ29yaWVzYCgpIHsKICAgICAgICB2YWwgdW5pdHMgPSBKc0NhbGN1bGF0b3IuZ2V0U3VwcG9ydGVkVW5pdHMoKQogICAgICAgIGFzc2VydFRydWUodW5pdHMuY29udGFpbnNLZXkoIlRlbXBlcmF0dXJlIikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh1bml0cy5jb250YWluc0tleSgiTGVuZ3RoIikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh1bml0cy5jb250YWluc0tleSgiV2VpZ2h0IikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh1bml0cy5jb250YWluc0tleSgiVm9sdW1lIikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh1bml0cy5jb250YWluc0tleSgiU3BlZWQiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoNSwgdW5pdHMuc2l6ZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGdldFN1cHBvcnRlZFVuaXRzIHRlbXBlcmF0dXJlIGxpc3RgKCkgewogICAgICAgIHZhbCB1bml0cyA9IEpzQ2FsY3VsYXRvci5nZXRTdXBwb3J0ZWRVbml0cygpCiAgICAgICAgdmFsIHRlbXBVbml0cyA9IHVuaXRzWyJUZW1wZXJhdHVyZSJdID86IGVtcHR5TGlzdCgpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0ZW1wVW5pdHMuYW55IHsgaXQuY29udGFpbnMoImMiKSB9KQogICAgICAgIGFzc2VydFRydWUodGVtcFVuaXRzLmFueSB7IGl0LmNvbnRhaW5zKCJmIikgfSkKICAgICAgICBhc3NlcnRUcnVlKHRlbXBVbml0cy5hbnkgeyBpdC5jb250YWlucygiayIpIH0pCiAgICB9CgogICAgQFRlc3QgZnVuIGBnZXRTdXBwb3J0ZWREYXRlRnVuY3Rpb25zIHJldHVybnMgbGlzdGAoKSB7CiAgICAgICAgdmFsIGZ1bmNzID0gSnNDYWxjdWxhdG9yLmdldFN1cHBvcnRlZERhdGVGdW5jdGlvbnMoKQogICAgICAgIGFzc2VydFRydWUoZnVuY3MuYW55IHsgaXQuc3RhcnRzV2l0aCgidG9kYXkoKSIpIH0pCiAgICAgICAgYXNzZXJ0VHJ1ZShmdW5jcy5hbnkgeyBpdC5zdGFydHNXaXRoKCJub3coKSIpIH0pCiAgICAgICAgYXNzZXJ0VHJ1ZShmdW5jcy5hbnkgeyBpdC5zdGFydHNXaXRoKCJkYXRlX2RpZmYiKSB9KQogICAgICAgIGFzc2VydFRydWUoZnVuY3MuYW55IHsgaXQuc3RhcnRzV2l0aCgiZGF0ZV9hZGQiKSB9KQogICAgfQoKICAgIEBUZXN0IGZ1biBgZ2V0U3VwcG9ydGVkU3RhdEZ1bmN0aW9ucyByZXR1cm5zIGxpc3RgKCkgewogICAgICAgIHZhbCBmdW5jcyA9IEpzQ2FsY3VsYXRvci5nZXRTdXBwb3J0ZWRTdGF0RnVuY3Rpb25zKCkKICAgICAgICBhc3NlcnRUcnVlKGZ1bmNzLmFueSB7IGl0LnN0YXJ0c1dpdGgoInN0YXRzLm1lYW4iKSB9KQogICAgICAgIGFzc2VydFRydWUoZnVuY3MuYW55IHsgaXQuc3RhcnRzV2l0aCgic3RhdHMubWVkaWFuIikgfSkKICAgICAgICBhc3NlcnRUcnVlKGZ1bmNzLmFueSB7IGl0LnN0YXJ0c1dpdGgoInN0YXRzLm1pbiIpIH0pCiAgICAgICAgYXNzZXJ0VHJ1ZShmdW5jcy5hbnkgeyBpdC5zdGFydHNXaXRoKCJzdGF0cy5tYXgiKSB9KQogICAgICAgIGFzc2VydFRydWUoZnVuY3MuYW55IHsgaXQuc3RhcnRzV2l0aCgic3RhdHMuc3VtIikgfSkKICAgICAgICBhc3NlcnRUcnVlKGZ1bmNzLmFueSB7IGl0LnN0YXJ0c1dpdGgoInN0YXRzLnN0ZGV2IikgfSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGdldFN1cHBvcnRlZEpzRmVhdHVyZXMgcmV0dXJucyBsaXN0YCgpIHsKICAgICAgICB2YWwgZmVhdHVyZXMgPSBKc0NhbGN1bGF0b3IuZ2V0U3VwcG9ydGVkSnNGZWF0dXJlcygpCiAgICAgICAgYXNzZXJ0VHJ1ZShmZWF0dXJlcy5hbnkgeyBpdC5jb250YWlucygiVGVybmFyeSIpIH0pCiAgICAgICAgYXNzZXJ0VHJ1ZShmZWF0dXJlcy5hbnkgeyBpdC5jb250YWlucygiTWF0aC4iKSB9KQogICAgfQoKICAgIEBUZXN0IGZ1biBgZXZhbHVhdGUgd2l0aCBjaGFpbmVkIG9wZXJhdGlvbnNgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxMC4wLCBKc0NhbGN1bGF0b3IuZXZhbHVhdGUoIjEgKyAyICsgMyArIDQiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsdWF0ZSBkaXZpc2lvbmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDMuMCwgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCI5IC8gMyIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWx1YXRlIG1vZHVsb2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDEuMCwgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCIxMCAlIDMiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsdWF0ZSBleHBvbmVudGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDguMCwgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCIyICoqIDMiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsdWF0ZSBjb21wYXJpc29uYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBKc0NhbGN1bGF0b3IuZXZhbHVhdGUoIjUgPiAzIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZXZhbHVhdGUgbG9naWNhbGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDEuMCwgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCIxICYmIDEiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBldmFsdWF0ZSB0ZXJuYXJ5YCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMTAuMCwgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCIxID8gMTAgOiAyMCIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWx1YXRlIGNvbXBvdW5kIGFzc2lnbm1lbnRgKCkgewogICAgICAgIEpzQ2FsY3VsYXRvci5ldmFsdWF0ZSgieD0xMCIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDE1LjAsIEpzQ2FsY3VsYXRvci5ldmFsdWF0ZSgieCs9NSIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWx1YXRlIHBpIGNvbnN0YW50YCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoTWF0aC5QSSwgSnNDYWxjdWxhdG9yLmV2YWx1YXRlKCJQSSIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGV2YWx1YXRlIGUgY29uc3RhbnRgKCkgewogICAgICAgIGFzc2VydEVxdWFscyhNYXRoLkUsIEpzQ2FsY3VsYXRvci5ldmFsdWF0ZSgiRSIpLCAwLjAwMSkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.calculator
+
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class JsCalculatorTest {
+
+    @After
+    fun tearDown() {
+        JsCalculator.clearVariables()
+    }
+
+    @Test fun `evaluate simple addition`() {
+        assertEquals(5.0, JsCalculator.evaluate("2 + 3"), 0.001)
+    }
+
+    @Test fun `evaluate complex expression`() {
+        assertEquals(14.0, JsCalculator.evaluate("2 + 3 * 4"), 0.001)
+    }
+
+    @Test fun `evaluate with parentheses`() {
+        assertEquals(20.0, JsCalculator.evaluate("(2 + 3) * 4"), 0.001)
+    }
+
+    @Test fun `evaluate function call`() {
+        assertEquals(5.0, JsCalculator.evaluate("abs(-5)"), 0.001)
+    }
+
+    @Test fun `evaluate trigonometric function`() {
+        assertEquals(Math.sin(0.0), JsCalculator.evaluate("sin(0)"), 0.001)
+    }
+
+    @Test fun `evaluate with variable assignment`() {
+        assertEquals(10.0, JsCalculator.evaluate("x=10"), 0.001)
+    }
+
+    @Test fun `evaluate with variable usage`() {
+        JsCalculator.setVariable("x", 5.0)
+        assertEquals(8.0, JsCalculator.evaluate("x + 3"), 0.001)
+    }
+
+    @Test fun `evaluate using stored variable`() {
+        JsCalculator.evaluate("x=7")
+        assertEquals(11.0, JsCalculator.evaluate("x + 4"), 0.001)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `evaluate invalid expression throws`() {
+        JsCalculator.evaluate("2 +")
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `evaluate undefined variable throws`() {
+        JsCalculator.evaluate("undefined_var")
+    }
+
+    @Test fun `calc returns formatted string`() {
+        assertEquals("5", JsCalculator.calc("2 + 3"))
+    }
+
+    @Test fun `calc returns decimal formatted`() {
+        assertEquals("3.14", JsCalculator.calc("1.14 + 2"))
+    }
+
+    @Test fun `calc integer result`() {
+        assertEquals("42", JsCalculator.calc("6 * 7"))
+    }
+
+    @Test fun `calc negative result`() {
+        assertEquals("-5", JsCalculator.calc("2 - 7"))
+    }
+
+    @Test fun `formatResult delegates correctly`() {
+        assertEquals("42", JsCalculator.formatResult(42.0))
+    }
+
+    @Test fun `formatResult with decimal`() {
+        assertEquals("3.14", JsCalculator.formatResult(3.14))
+    }
+
+    @Test fun `setVariable and getVariable round trip`() {
+        JsCalculator.setVariable("test", 99.0)
+        assertEquals(99.0, JsCalculator.getVariable("test"), 0.001)
+    }
+
+    @Test fun `getVariable returns set value`() {
+        JsCalculator.setVariable("value", 3.14)
+        assertEquals(3.14, JsCalculator.getVariable("value"), 0.001)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `getVariable undefined throws`() {
+        JsCalculator.getVariable("nonexistent")
+    }
+
+    @Test fun `clearVariables resets state`() {
+        JsCalculator.setVariable("temp", 100.0)
+        JsCalculator.clearVariables()
+        // PI should still be accessible
+        assertEquals(Math.PI, JsCalculator.getVariable("PI"), 0.001)
+    }
+
+    @Test fun `getSupportedUnits returns categories`() {
+        val units = JsCalculator.getSupportedUnits()
+        assertTrue(units.containsKey("Temperature"))
+        assertTrue(units.containsKey("Length"))
+        assertTrue(units.containsKey("Weight"))
+        assertTrue(units.containsKey("Volume"))
+        assertTrue(units.containsKey("Speed"))
+        assertEquals(5, units.size)
+    }
+
+    @Test fun `getSupportedUnits temperature list`() {
+        val units = JsCalculator.getSupportedUnits()
+        val tempUnits = units["Temperature"] ?: emptyList()
+        assertTrue(tempUnits.any { it.contains("c") })
+        assertTrue(tempUnits.any { it.contains("f") })
+        assertTrue(tempUnits.any { it.contains("k") })
+    }
+
+    @Test fun `getSupportedDateFunctions returns list`() {
+        val funcs = JsCalculator.getSupportedDateFunctions()
+        assertTrue(funcs.any { it.startsWith("today()") })
+        assertTrue(funcs.any { it.startsWith("now()") })
+        assertTrue(funcs.any { it.startsWith("date_diff") })
+        assertTrue(funcs.any { it.startsWith("date_add") })
+    }
+
+    @Test fun `getSupportedStatFunctions returns list`() {
+        val funcs = JsCalculator.getSupportedStatFunctions()
+        assertTrue(funcs.any { it.startsWith("stats.mean") })
+        assertTrue(funcs.any { it.startsWith("stats.median") })
+        assertTrue(funcs.any { it.startsWith("stats.min") })
+        assertTrue(funcs.any { it.startsWith("stats.max") })
+        assertTrue(funcs.any { it.startsWith("stats.sum") })
+        assertTrue(funcs.any { it.startsWith("stats.stdev") })
+    }
+
+    @Test fun `getSupportedJsFeatures returns list`() {
+        val features = JsCalculator.getSupportedJsFeatures()
+        assertTrue(features.any { it.contains("Ternary") })
+        assertTrue(features.any { it.contains("Math.") })
+    }
+
+    @Test fun `evaluate with chained operations`() {
+        assertEquals(10.0, JsCalculator.evaluate("1 + 2 + 3 + 4"), 0.001)
+    }
+
+    @Test fun `evaluate division`() {
+        assertEquals(3.0, JsCalculator.evaluate("9 / 3"), 0.001)
+    }
+
+    @Test fun `evaluate modulo`() {
+        assertEquals(1.0, JsCalculator.evaluate("10 % 3"), 0.001)
+    }
+
+    @Test fun `evaluate exponent`() {
+        assertEquals(8.0, JsCalculator.evaluate("2 ** 3"), 0.001)
+    }
+
+    @Test fun `evaluate comparison`() {
+        assertEquals(1.0, JsCalculator.evaluate("5 > 3"), 0.001)
+    }
+
+    @Test fun `evaluate logical`() {
+        assertEquals(1.0, JsCalculator.evaluate("1 && 1"), 0.001)
+    }
+
+    @Test fun `evaluate ternary`() {
+        assertEquals(10.0, JsCalculator.evaluate("1 ? 10 : 20"), 0.001)
+    }
+
+    @Test fun `evaluate compound assignment`() {
+        JsCalculator.evaluate("x=10")
+        assertEquals(15.0, JsCalculator.evaluate("x+=5"), 0.001)
+    }
+
+    @Test fun `evaluate pi constant`() {
+        assertEquals(Math.PI, JsCalculator.evaluate("PI"), 0.001)
+    }
+
+    @Test fun `evaluate e constant`() {
+        assertEquals(Math.E, JsCalculator.evaluate("E"), 0.001)
+    }
+}

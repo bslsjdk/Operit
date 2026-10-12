@@ -1,1 +1,177 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKCmRhdGEgY2xhc3MgVGV4dFN0cmVhbUV2ZW50KAogICAgdmFsIGV2ZW50VHlwZTogVGV4dFN0cmVhbUV2ZW50VHlwZSwKICAgIHZhbCBpZDogU3RyaW5nCikKCmVudW0gY2xhc3MgVGV4dFN0cmVhbUV2ZW50VHlwZSB7CiAgICBTQVZFUE9JTlQsCiAgICBST0xMQkFDSwp9CgppbnRlcmZhY2UgVGV4dFN0cmVhbUV2ZW50Q2FycmllciB7CiAgICB2YWwgZXZlbnRDaGFubmVsOiBTaGFyZWRTdHJlYW08VGV4dFN0cmVhbUV2ZW50Pgp9CgovKiogTWFya3MgYSByZXBsYWNlbWVudCBzdHJlYW0gd2l0aCBjb250ZW50IGFscmVhZHkgcmVuZGVyZWQgYmVmb3JlIGEgcm9sbGJhY2suICovCmludGVybmFsIGludGVyZmFjZSBTdHJlYW1Sb2xsYmFja1ByZWZpeCB7CiAgICB2YWwgcm9sbGJhY2tQcmVmaXg6IFN0cmluZwp9CgppbnRlcmZhY2UgUmV2aXNhYmxlVGV4dFN0cmVhbSA6IFN0cmVhbTxTdHJpbmc+LCBUZXh0U3RyZWFtRXZlbnRDYXJyaWVyCgppbnRlcmZhY2UgUmV2aXNhYmxlU2hhcmVkVGV4dFN0cmVhbSA6IFNoYXJlZFN0cmVhbTxTdHJpbmc+LCBSZXZpc2FibGVUZXh0U3RyZWFtCgppbnRlcmZhY2UgUmV2aXNhYmxlQ2hhclN0cmVhbSA6IFN0cmVhbTxDaGFyPiwgVGV4dFN0cmVhbUV2ZW50Q2FycmllcgoKcHJpdmF0ZSBjbGFzcyBEZWxlZ2F0aW5nUmV2aXNhYmxlVGV4dFN0cmVhbSgKICAgIHByaXZhdGUgdmFsIHVwc3RyZWFtOiBTdHJlYW08U3RyaW5nPiwKICAgIG92ZXJyaWRlIHZhbCBldmVudENoYW5uZWw6IFNoYXJlZFN0cmVhbTxUZXh0U3RyZWFtRXZlbnQ+CikgOiBSZXZpc2FibGVUZXh0U3RyZWFtIHsKICAgIG92ZXJyaWRlIHZhbCBpc0xvY2tlZDogQm9vbGVhbgogICAgICAgIGdldCgpID0gdXBzdHJlYW0uaXNMb2NrZWQKCiAgICBvdmVycmlkZSB2YWwgYnVmZmVyZWRDb3VudDogSW50CiAgICAgICAgZ2V0KCkgPSB1cHN0cmVhbS5idWZmZXJlZENvdW50CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gbG9jaygpIHsKICAgICAgICB1cHN0cmVhbS5sb2NrKCkKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biB1bmxvY2soKSB7CiAgICAgICAgdXBzdHJlYW0udW5sb2NrKCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gY2xlYXJCdWZmZXIoKSB7CiAgICAgICAgdXBzdHJlYW0uY2xlYXJCdWZmZXIoKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGNvbGxlY3QoY29sbGVjdG9yOiBTdHJlYW1Db2xsZWN0b3I8U3RyaW5nPikgewogICAgICAgIHVwc3RyZWFtLmNvbGxlY3QoY29sbGVjdG9yKQogICAgfQp9Cgpwcml2YXRlIGNsYXNzIERlbGVnYXRpbmdSZXZpc2FibGVTaGFyZWRUZXh0U3RyZWFtKAogICAgcHJpdmF0ZSB2YWwgdXBzdHJlYW06IFNoYXJlZFN0cmVhbTxTdHJpbmc+LAogICAgb3ZlcnJpZGUgdmFsIGV2ZW50Q2hhbm5lbDogU2hhcmVkU3RyZWFtPFRleHRTdHJlYW1FdmVudD4KKSA6IFJldmlzYWJsZVNoYXJlZFRleHRTdHJlYW0gewogICAgb3ZlcnJpZGUgdmFsIGlzTG9ja2VkOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB1cHN0cmVhbS5pc0xvY2tlZAoKICAgIG92ZXJyaWRlIHZhbCBidWZmZXJlZENvdW50OiBJbnQKICAgICAgICBnZXQoKSA9IHVwc3RyZWFtLmJ1ZmZlcmVkQ291bnQKCiAgICBvdmVycmlkZSB2YWwgc3Vic2NyaXB0aW9uQ291bnQ6IEludAogICAgICAgIGdldCgpID0gdXBzdHJlYW0uc3Vic2NyaXB0aW9uQ291bnQKCiAgICBvdmVycmlkZSB2YWwgcmVwbGF5Q2FjaGU6IExpc3Q8U3RyaW5nPgogICAgICAgIGdldCgpID0gdXBzdHJlYW0ucmVwbGF5Q2FjaGUKCiAgICBvdmVycmlkZSB2YWwgY29tcGxldGlvbkNhdXNlOiBUaHJvd2FibGU/CiAgICAgICAgZ2V0KCkgPSB1cHN0cmVhbS5jb21wbGV0aW9uQ2F1c2UKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBsb2NrKCkgewogICAgICAgIHVwc3RyZWFtLmxvY2soKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHVubG9jaygpIHsKICAgICAgICB1cHN0cmVhbS51bmxvY2soKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBjbGVhckJ1ZmZlcigpIHsKICAgICAgICB1cHN0cmVhbS5jbGVhckJ1ZmZlcigpCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gY29sbGVjdChjb2xsZWN0b3I6IFN0cmVhbUNvbGxlY3RvcjxTdHJpbmc+KSB7CiAgICAgICAgdXBzdHJlYW0uY29sbGVjdChjb2xsZWN0b3IpCiAgICB9Cn0KCnByaXZhdGUgY2xhc3MgRGVsZWdhdGluZ1JldmlzYWJsZUNoYXJTdHJlYW0oCiAgICBwcml2YXRlIHZhbCB1cHN0cmVhbTogU3RyZWFtPENoYXI+LAogICAgb3ZlcnJpZGUgdmFsIGV2ZW50Q2hhbm5lbDogU2hhcmVkU3RyZWFtPFRleHRTdHJlYW1FdmVudD4KKSA6IFJldmlzYWJsZUNoYXJTdHJlYW0gewogICAgb3ZlcnJpZGUgdmFsIGlzTG9ja2VkOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB1cHN0cmVhbS5pc0xvY2tlZAoKICAgIG92ZXJyaWRlIHZhbCBidWZmZXJlZENvdW50OiBJbnQKICAgICAgICBnZXQoKSA9IHVwc3RyZWFtLmJ1ZmZlcmVkQ291bnQKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBsb2NrKCkgewogICAgICAgIHVwc3RyZWFtLmxvY2soKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHVubG9jaygpIHsKICAgICAgICB1cHN0cmVhbS51bmxvY2soKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBjbGVhckJ1ZmZlcigpIHsKICAgICAgICB1cHN0cmVhbS5jbGVhckJ1ZmZlcigpCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gY29sbGVjdChjb2xsZWN0b3I6IFN0cmVhbUNvbGxlY3RvcjxDaGFyPikgewogICAgICAgIHVwc3RyZWFtLmNvbGxlY3QoY29sbGVjdG9yKQogICAgfQp9Cgpwcml2YXRlIGNsYXNzIERlbGVnYXRpbmdSb2xsYmFja1ByZWZpeENoYXJTdHJlYW0oCiAgICBwcml2YXRlIHZhbCB1cHN0cmVhbTogU3RyZWFtPENoYXI+LAogICAgb3ZlcnJpZGUgdmFsIHJvbGxiYWNrUHJlZml4OiBTdHJpbmcsCikgOiBTdHJlYW08Q2hhcj4gYnkgdXBzdHJlYW0sIFN0cmVhbVJvbGxiYWNrUHJlZml4CgpmdW4gU3RyZWFtPFN0cmluZz4ud2l0aEV2ZW50Q2hhbm5lbChldmVudENoYW5uZWw6IFNoYXJlZFN0cmVhbTxUZXh0U3RyZWFtRXZlbnQ+KTogU3RyZWFtPFN0cmluZz4gewogICAgaWYgKHRoaXMgaXMgUmV2aXNhYmxlVGV4dFN0cmVhbSAmJiB0aGlzLmV2ZW50Q2hhbm5lbCA9PT0gZXZlbnRDaGFubmVsKSB7CiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KICAgIHJldHVybiBEZWxlZ2F0aW5nUmV2aXNhYmxlVGV4dFN0cmVhbSh0aGlzLCBldmVudENoYW5uZWwpCn0KCmZ1biBTaGFyZWRTdHJlYW08U3RyaW5nPi53aXRoRXZlbnRDaGFubmVsKAogICAgZXZlbnRDaGFubmVsOiBTaGFyZWRTdHJlYW08VGV4dFN0cmVhbUV2ZW50PgopOiBTaGFyZWRTdHJlYW08U3RyaW5nPiB7CiAgICBpZiAodGhpcyBpcyBSZXZpc2FibGVTaGFyZWRUZXh0U3RyZWFtICYmIHRoaXMuZXZlbnRDaGFubmVsID09PSBldmVudENoYW5uZWwpIHsKICAgICAgICByZXR1cm4gdGhpcwogICAgfQogICAgcmV0dXJuIERlbGVnYXRpbmdSZXZpc2FibGVTaGFyZWRUZXh0U3RyZWFtKHRoaXMsIGV2ZW50Q2hhbm5lbCkKfQoKZnVuIFN0cmVhbTxDaGFyPi53aXRoVGV4dEV2ZW50Q2hhbm5lbChldmVudENoYW5uZWw6IFNoYXJlZFN0cmVhbTxUZXh0U3RyZWFtRXZlbnQ+KTogU3RyZWFtPENoYXI+IHsKICAgIGlmICh0aGlzIGlzIFJldmlzYWJsZUNoYXJTdHJlYW0gJiYgdGhpcy5ldmVudENoYW5uZWwgPT09IGV2ZW50Q2hhbm5lbCkgewogICAgICAgIHJldHVybiB0aGlzCiAgICB9CiAgICByZXR1cm4gRGVsZWdhdGluZ1JldmlzYWJsZUNoYXJTdHJlYW0odGhpcywgZXZlbnRDaGFubmVsKQp9CgppbnRlcm5hbCBmdW4gU3RyZWFtPENoYXI+LndpdGhSb2xsYmFja1ByZWZpeChyb2xsYmFja1ByZWZpeDogU3RyaW5nKTogU3RyZWFtPENoYXI+IHsKICAgIGlmICh0aGlzIGlzIFN0cmVhbVJvbGxiYWNrUHJlZml4ICYmIHRoaXMucm9sbGJhY2tQcmVmaXggPT0gcm9sbGJhY2tQcmVmaXgpIHsKICAgICAgICByZXR1cm4gdGhpcwogICAgfQogICAgcmV0dXJuIERlbGVnYXRpbmdSb2xsYmFja1ByZWZpeENoYXJTdHJlYW0odGhpcywgcm9sbGJhY2tQcmVmaXgpCn0KCmZ1biBTdHJlYW08U3RyaW5nPi5zaGFyZVJldmlzYWJsZSgKICAgIHNjb3BlOiBDb3JvdXRpbmVTY29wZSwKICAgIHJlcGxheTogSW50ID0gMCwKICAgIHN0YXJ0ZWQ6IFN0cmVhbVN0YXJ0ID0gU3RyZWFtU3RhcnQuRUFHRVJMWSwKICAgIG9uQ29tcGxldGU6IHN1c3BlbmQgKCkgLT4gVW5pdCA9IHt9LAogICAgcHJvcGFnYXRlQ29tcGxldGlvbkNhdXNlOiBCb29sZWFuID0gdHJ1ZSwKKTogU2hhcmVkU3RyZWFtPFN0cmluZz4gewogICAgdmFsIHNoYXJlZFRleHRTdHJlYW0gPSBzaGFyZSgKICAgICAgICBzY29wZSA9IHNjb3BlLAogICAgICAgIHJlcGxheSA9IHJlcGxheSwKICAgICAgICBzdGFydGVkID0gc3RhcnRlZCwKICAgICAgICBvbkNvbXBsZXRlID0gb25Db21wbGV0ZSwKICAgICAgICBwcm9wYWdhdGVDb21wbGV0aW9uQ2F1c2UgPSBwcm9wYWdhdGVDb21wbGV0aW9uQ2F1c2UsCiAgICApCiAgICB2YWwgY2FycmllciA9IHRoaXMgYXM/IFRleHRTdHJlYW1FdmVudENhcnJpZXIgPzogcmV0dXJuIHNoYXJlZFRleHRTdHJlYW0KICAgIHZhbCBzaGFyZWRFdmVudFN0cmVhbSA9IGNhcnJpZXIuZXZlbnRDaGFubmVsLnNoYXJlKAogICAgICAgIHNjb3BlID0gc2NvcGUsCiAgICAgICAgcmVwbGF5ID0gSW50Lk1BWF9WQUxVRSwKICAgICAgICBzdGFydGVkID0gc3RhcnRlZCwKICAgICAgICBwcm9wYWdhdGVDb21wbGV0aW9uQ2F1c2UgPSBwcm9wYWdhdGVDb21wbGV0aW9uQ2F1c2UsCiAgICApCiAgICByZXR1cm4gc2hhcmVkVGV4dFN0cmVhbS53aXRoRXZlbnRDaGFubmVsKHNoYXJlZEV2ZW50U3RyZWFtKQp9Cg==
+package com.bslsjdk.operit.util.stream
+
+import kotlinx.coroutines.CoroutineScope
+
+data class TextStreamEvent(
+    val eventType: TextStreamEventType,
+    val id: String
+)
+
+enum class TextStreamEventType {
+    SAVEPOINT,
+    ROLLBACK
+}
+
+interface TextStreamEventCarrier {
+    val eventChannel: SharedStream<TextStreamEvent>
+}
+
+/** Marks a replacement stream with content already rendered before a rollback. */
+internal interface StreamRollbackPrefix {
+    val rollbackPrefix: String
+}
+
+interface RevisableTextStream : Stream<String>, TextStreamEventCarrier
+
+interface RevisableSharedTextStream : SharedStream<String>, RevisableTextStream
+
+interface RevisableCharStream : Stream<Char>, TextStreamEventCarrier
+
+private class DelegatingRevisableTextStream(
+    private val upstream: Stream<String>,
+    override val eventChannel: SharedStream<TextStreamEvent>
+) : RevisableTextStream {
+    override val isLocked: Boolean
+        get() = upstream.isLocked
+
+    override val bufferedCount: Int
+        get() = upstream.bufferedCount
+
+    override suspend fun lock() {
+        upstream.lock()
+    }
+
+    override suspend fun unlock() {
+        upstream.unlock()
+    }
+
+    override fun clearBuffer() {
+        upstream.clearBuffer()
+    }
+
+    override suspend fun collect(collector: StreamCollector<String>) {
+        upstream.collect(collector)
+    }
+}
+
+private class DelegatingRevisableSharedTextStream(
+    private val upstream: SharedStream<String>,
+    override val eventChannel: SharedStream<TextStreamEvent>
+) : RevisableSharedTextStream {
+    override val isLocked: Boolean
+        get() = upstream.isLocked
+
+    override val bufferedCount: Int
+        get() = upstream.bufferedCount
+
+    override val subscriptionCount: Int
+        get() = upstream.subscriptionCount
+
+    override val replayCache: List<String>
+        get() = upstream.replayCache
+
+    override val completionCause: Throwable?
+        get() = upstream.completionCause
+
+    override suspend fun lock() {
+        upstream.lock()
+    }
+
+    override suspend fun unlock() {
+        upstream.unlock()
+    }
+
+    override fun clearBuffer() {
+        upstream.clearBuffer()
+    }
+
+    override suspend fun collect(collector: StreamCollector<String>) {
+        upstream.collect(collector)
+    }
+}
+
+private class DelegatingRevisableCharStream(
+    private val upstream: Stream<Char>,
+    override val eventChannel: SharedStream<TextStreamEvent>
+) : RevisableCharStream {
+    override val isLocked: Boolean
+        get() = upstream.isLocked
+
+    override val bufferedCount: Int
+        get() = upstream.bufferedCount
+
+    override suspend fun lock() {
+        upstream.lock()
+    }
+
+    override suspend fun unlock() {
+        upstream.unlock()
+    }
+
+    override fun clearBuffer() {
+        upstream.clearBuffer()
+    }
+
+    override suspend fun collect(collector: StreamCollector<Char>) {
+        upstream.collect(collector)
+    }
+}
+
+private class DelegatingRollbackPrefixCharStream(
+    private val upstream: Stream<Char>,
+    override val rollbackPrefix: String,
+) : Stream<Char> by upstream, StreamRollbackPrefix
+
+fun Stream<String>.withEventChannel(eventChannel: SharedStream<TextStreamEvent>): Stream<String> {
+    if (this is RevisableTextStream && this.eventChannel === eventChannel) {
+        return this
+    }
+    return DelegatingRevisableTextStream(this, eventChannel)
+}
+
+fun SharedStream<String>.withEventChannel(
+    eventChannel: SharedStream<TextStreamEvent>
+): SharedStream<String> {
+    if (this is RevisableSharedTextStream && this.eventChannel === eventChannel) {
+        return this
+    }
+    return DelegatingRevisableSharedTextStream(this, eventChannel)
+}
+
+fun Stream<Char>.withTextEventChannel(eventChannel: SharedStream<TextStreamEvent>): Stream<Char> {
+    if (this is RevisableCharStream && this.eventChannel === eventChannel) {
+        return this
+    }
+    return DelegatingRevisableCharStream(this, eventChannel)
+}
+
+internal fun Stream<Char>.withRollbackPrefix(rollbackPrefix: String): Stream<Char> {
+    if (this is StreamRollbackPrefix && this.rollbackPrefix == rollbackPrefix) {
+        return this
+    }
+    return DelegatingRollbackPrefixCharStream(this, rollbackPrefix)
+}
+
+fun Stream<String>.shareRevisable(
+    scope: CoroutineScope,
+    replay: Int = 0,
+    started: StreamStart = StreamStart.EAGERLY,
+    onComplete: suspend () -> Unit = {},
+    propagateCompletionCause: Boolean = true,
+): SharedStream<String> {
+    val sharedTextStream = share(
+        scope = scope,
+        replay = replay,
+        started = started,
+        onComplete = onComplete,
+        propagateCompletionCause = propagateCompletionCause,
+    )
+    val carrier = this as? TextStreamEventCarrier ?: return sharedTextStream
+    val sharedEventStream = carrier.eventChannel.share(
+        scope = scope,
+        replay = Int.MAX_VALUE,
+        started = started,
+        propagateCompletionCause = propagateCompletionCause,
+    )
+    return sharedTextStream.withEventChannel(sharedEventStream)
+}

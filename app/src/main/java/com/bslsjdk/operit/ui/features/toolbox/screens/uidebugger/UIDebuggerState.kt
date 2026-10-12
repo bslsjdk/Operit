@@ -1,1 +1,88 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnVpZGVidWdnZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5SZWN0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLmFjdGlvbi5BY3Rpb25MaXN0ZW5lcgoKLyoqIFVJ6LCD6K+V5bel5YW355qE54q25oCB57G777yI5LuF5L+d55WZ5biD5bGA5YiG5p6Q5ZKMIEFjdGl2aXR5IOebkeWQrOebuOWFs+eKtuaAge+8iSAqLwpkYXRhIGNsYXNzIFVJRGVidWdnZXJTdGF0ZSgKICAgIHZhbCBlbGVtZW50czogTGlzdDxVSUVsZW1lbnQ+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwgc2VsZWN0ZWRFbGVtZW50SWQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHNob3dBY3Rpb25GZWVkYmFjazogQm9vbGVhbiA9IGZhbHNlLAogICAgdmFsIGFjdGlvbkZlZWRiYWNrTWVzc2FnZTogU3RyaW5nID0gIiIsCiAgICB2YWwgZXJyb3JNZXNzYWdlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBjdXJyZW50QW5hbHl6ZWRBY3Rpdml0eU5hbWU6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGN1cnJlbnRBbmFseXplZFBhY2thZ2VOYW1lOiBTdHJpbmc/ID0gbnVsbCwKICAgIC8vIEFjdGl2aXR5IOebkeWQrOebuOWFs+eKtuaAgQogICAgdmFsIGlzQWN0aXZpdHlMaXN0ZW5pbmc6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBhY3Rpdml0eUV2ZW50czogTGlzdDxBY3Rpb25MaXN0ZW5lci5BY3Rpb25FdmVudD4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBzaG93QWN0aXZpdHlNb25pdG9yOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgY3VycmVudEFjdGl2aXR5TmFtZTogU3RyaW5nPyA9IG51bGwKKQoKLyoqIFVJ5YWD57Sg5pWw5o2u5qih5Z6LICovCmRhdGEgY2xhc3MgVUlFbGVtZW50KAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgY2xhc3NOYW1lOiBTdHJpbmcsCiAgICB2YWwgcmVzb3VyY2VJZDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgY29udGVudERlc2M6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHRleHQ6IFN0cmluZyA9ICIiLAogICAgdmFsIGJvdW5kczogUmVjdD8gPSBudWxsLAogICAgdmFsIGlzQ2xpY2thYmxlOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgYWN0aXZpdHlOYW1lOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBwYWNrYWdlTmFtZTogU3RyaW5nPyA9IG51bGwKKSB7CiAgICBmdW4gZ2V0VHlwZURlc2NyaXB0aW9uKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgY2xhc3NOYW1lLmNvbnRhaW5zKCJCdXR0b24iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfZWxlbWVudF90eXBlX2J1dHRvbikKICAgICAgICAgICAgY2xhc3NOYW1lLmNvbnRhaW5zKCJUZXh0IiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+CiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51aWRlYnVnZ2VyX2VsZW1lbnRfdHlwZV90ZXh0KQogICAgICAgICAgICBjbGFzc05hbWUuY29udGFpbnMoIkVkaXQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfZWxlbWVudF90eXBlX2lucHV0KQogICAgICAgICAgICBjbGFzc05hbWUuY29udGFpbnMoIkltYWdlIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+CiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51aWRlYnVnZ2VyX2VsZW1lbnRfdHlwZV9pbWFnZSkKICAgICAgICAgICAgY2xhc3NOYW1lLmNvbnRhaW5zKCJWaWV3IiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+CiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51aWRlYnVnZ2VyX2VsZW1lbnRfdHlwZV92aWV3KQogICAgICAgICAgICBlbHNlIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfZWxlbWVudF90eXBlX2dlbmVyaWMpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBnZXRGdWxsRGV0YWlscyhjb250ZXh0OiBDb250ZXh0KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gYnVpbGRTdHJpbmcgewogICAgICAgICAgICBhcHBlbmQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudWlkZWJ1Z2dlcl9lbGVtZW50X2RldGFpbF9jbGFzc19uYW1lLCBjbGFzc05hbWUpKQogICAgICAgICAgICBhcHBlbmQoIlxuIikKICAgICAgICAgICAgaWYgKHBhY2thZ2VOYW1lICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGFwcGVuZChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51aWRlYnVnZ2VyX2VsZW1lbnRfZGV0YWlsX3BhY2thZ2VfbmFtZSwgcGFja2FnZU5hbWUpKQogICAgICAgICAgICAgICAgYXBwZW5kKCJcbiIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGFjdGl2aXR5TmFtZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBhcHBlbmQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudWlkZWJ1Z2dlcl9lbGVtZW50X2RldGFpbF9hY3Rpdml0eV9uYW1lLCBhY3Rpdml0eU5hbWUpKQogICAgICAgICAgICAgICAgYXBwZW5kKCJcbiIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHJlc291cmNlSWQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgYXBwZW5kKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVpZGVidWdnZXJfZWxlbWVudF9kZXRhaWxfcmVzb3VyY2VfaWQsIHJlc291cmNlSWQpKQogICAgICAgICAgICAgICAgYXBwZW5kKCJcbiIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGNvbnRlbnREZXNjICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGFwcGVuZChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51aWRlYnVnZ2VyX2VsZW1lbnRfZGV0YWlsX2NvbnRlbnRfZGVzYywgY29udGVudERlc2MpKQogICAgICAgICAgICAgICAgYXBwZW5kKCJcbiIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHRleHQuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBhcHBlbmQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudWlkZWJ1Z2dlcl9lbGVtZW50X2RldGFpbF90ZXh0LCB0ZXh0KSkKICAgICAgICAgICAgICAgIGFwcGVuZCgiXG4iKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChib3VuZHMgIT0gbnVsbCkKICAgICAgICAgICAgICAgIGFwcGVuZChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51aWRlYnVnZ2VyX2VsZW1lbnRfZGV0YWlsX2JvdW5kcywgYm91bmRzLmxlZnQsIGJvdW5kcy50b3AsIGJvdW5kcy5yaWdodCwgYm91bmRzLmJvdHRvbSkgKyAiXG4iKQogICAgICAgICAgICBhcHBlbmQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudWlkZWJ1Z2dlcl9lbGVtZW50X2RldGFpbF9jbGlja2FibGUsIGlmIChpc0NsaWNrYWJsZSkgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcueWVzKSBlbHNlIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm5vKSkpCiAgICAgICAgfQogICAgfQp9CgovKiogVUnlhYPntKDmk43kvZznsbvlnosgKi8KZW51bSBjbGFzcyBVSUVsZW1lbnRBY3Rpb24gewogICAgQ0xJQ0ssCiAgICBISUdITElHSFQsCiAgICBJTlNQRUNUCn0K
+package com.bslsjdk.operit.ui.features.toolbox.screens.uidebugger
+
+import android.content.Context
+import android.graphics.Rect
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.tools.system.action.ActionListener
+
+/** UI调试工具的状态类（仅保留布局分析和 Activity 监听相关状态） */
+data class UIDebuggerState(
+    val elements: List<UIElement> = emptyList(),
+    val selectedElementId: String? = null,
+    val showActionFeedback: Boolean = false,
+    val actionFeedbackMessage: String = "",
+    val errorMessage: String? = null,
+    val currentAnalyzedActivityName: String? = null,
+    val currentAnalyzedPackageName: String? = null,
+    // Activity 监听相关状态
+    val isActivityListening: Boolean = false,
+    val activityEvents: List<ActionListener.ActionEvent> = emptyList(),
+    val showActivityMonitor: Boolean = false,
+    val currentActivityName: String? = null
+)
+
+/** UI元素数据模型 */
+data class UIElement(
+    val id: String,
+    val className: String,
+    val resourceId: String? = null,
+    val contentDesc: String? = null,
+    val text: String = "",
+    val bounds: Rect? = null,
+    val isClickable: Boolean = false,
+    val activityName: String? = null,
+    val packageName: String? = null
+) {
+    fun getTypeDescription(context: Context): String {
+        return when {
+            className.contains("Button", ignoreCase = true) ->
+                context.getString(R.string.uidebugger_element_type_button)
+            className.contains("Text", ignoreCase = true) ->
+                context.getString(R.string.uidebugger_element_type_text)
+            className.contains("Edit", ignoreCase = true) ->
+                context.getString(R.string.uidebugger_element_type_input)
+            className.contains("Image", ignoreCase = true) ->
+                context.getString(R.string.uidebugger_element_type_image)
+            className.contains("View", ignoreCase = true) ->
+                context.getString(R.string.uidebugger_element_type_view)
+            else -> context.getString(R.string.uidebugger_element_type_generic)
+        }
+    }
+
+    fun getFullDetails(context: Context): String {
+        return buildString {
+            append(context.getString(R.string.uidebugger_element_detail_class_name, className))
+            append("\n")
+            if (packageName != null) {
+                append(context.getString(R.string.uidebugger_element_detail_package_name, packageName))
+                append("\n")
+            }
+            if (activityName != null) {
+                append(context.getString(R.string.uidebugger_element_detail_activity_name, activityName))
+                append("\n")
+            }
+            if (resourceId != null) {
+                append(context.getString(R.string.uidebugger_element_detail_resource_id, resourceId))
+                append("\n")
+            }
+            if (contentDesc != null) {
+                append(context.getString(R.string.uidebugger_element_detail_content_desc, contentDesc))
+                append("\n")
+            }
+            if (text.isNotEmpty()) {
+                append(context.getString(R.string.uidebugger_element_detail_text, text))
+                append("\n")
+            }
+            if (bounds != null)
+                append(context.getString(R.string.uidebugger_element_detail_bounds, bounds.left, bounds.top, bounds.right, bounds.bottom) + "\n")
+            append(context.getString(R.string.uidebugger_element_detail_clickable, if (isClickable) context.getString(R.string.yes) else context.getString(R.string.no)))
+        }
+    }
+}
+
+/** UI元素操作类型 */
+enum class UIElementAction {
+    CLICK,
+    HIGHLIGHT,
+    INSPECT
+}

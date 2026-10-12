@@ -1,1 +1,15 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5leGNlcHRpb25zCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNhbmNlbGxhdGlvbkV4Y2VwdGlvbgoKLyoqCiAqIEFuIGV4Y2VwdGlvbiB0byBpbmRpY2F0ZSB0aGF0IGFuIG9wZXJhdGlvbiB3YXMgZXhwbGljaXRseSBjYW5jZWxsZWQgYnkgdGhlIHVzZXIuCiAqIFRoaXMgaGVscHMgZGlzdGluZ3Vpc2ggdXNlciBjYW5jZWxsYXRpb24gZnJvbSBvdGhlciBuZXR3b3JrIG9yIEkvTyBlcnJvcnMsCiAqIGFuZCBhbGxvd3MgZm9yIGNsZWFuIGFuZCBzaWxlbnQgdGVybWluYXRpb24gb2YgY29yb3V0aW5lcyB3aXRob3V0IGJlaW5nCiAqIHRyZWF0ZWQgYXMgYSBnZW5lcmFsIGVycm9yLgogKi8KY2xhc3MgVXNlckNhbmNlbGxhdGlvbkV4Y2VwdGlvbihtZXNzYWdlOiBTdHJpbmcsIGNhdXNlOiBUaHJvd2FibGU/ID0gbnVsbCkgOiBDYW5jZWxsYXRpb25FeGNlcHRpb24obWVzc2FnZSkgewogICAgaW5pdCB7CiAgICAgICAgaW5pdENhdXNlKGNhdXNlKQogICAgfQp9IA==
+package com.bslsjdk.operit.util.exceptions
+
+import kotlinx.coroutines.CancellationException
+
+/**
+ * An exception to indicate that an operation was explicitly cancelled by the user.
+ * This helps distinguish user cancellation from other network or I/O errors,
+ * and allows for clean and silent termination of coroutines without being
+ * treated as a general error.
+ */
+class UserCancellationException(message: String, cause: Throwable? = null) : CancellationException(message) {
+    init {
+        initCause(cause)
+    }
+} 

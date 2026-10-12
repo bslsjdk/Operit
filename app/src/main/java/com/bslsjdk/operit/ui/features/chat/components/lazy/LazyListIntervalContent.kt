@@ -1,1 +1,79 @@
-LyoKICogQ29weXJpZ2h0IDIwMjEgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24uSW50TGlzdAppbXBvcnQgYW5kcm9pZHguY29sbGVjdGlvbi5NdXRhYmxlSW50TGlzdAppbXBvcnQgYW5kcm9pZHguY29sbGVjdGlvbi5lbXB0eUludExpc3QKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24ubXV0YWJsZUludExpc3RPZgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMYXlvdXRJbnRlcnZhbENvbnRlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5NdXRhYmxlSW50ZXJ2YWxMaXN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQoKaW50ZXJuYWwgY2xhc3MgTGF6eUxpc3RJbnRlcnZhbENvbnRlbnQoY29udGVudDogTGF6eUxpc3RTY29wZS4oKSAtPiBVbml0KSA6CiAgICBMYXp5TGF5b3V0SW50ZXJ2YWxDb250ZW50PExhenlMaXN0SW50ZXJ2YWw+KCksIExhenlMaXN0U2NvcGUgewogICAgb3ZlcnJpZGUgdmFsIGludGVydmFsczogTXV0YWJsZUludGVydmFsTGlzdDxMYXp5TGlzdEludGVydmFsPiA9IE11dGFibGVJbnRlcnZhbExpc3QoKQoKICAgIHByaXZhdGUgdmFyIF9oZWFkZXJJbmRleGVzOiBNdXRhYmxlSW50TGlzdD8gPSBudWxsCiAgICB2YWwgaGVhZGVySW5kZXhlczogSW50TGlzdAogICAgICAgIGdldCgpID0gX2hlYWRlckluZGV4ZXMgPzogZW1wdHlJbnRMaXN0KCkKCiAgICBpbml0IHsKICAgICAgICBhcHBseShjb250ZW50KQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBpdGVtcygKICAgICAgICBjb3VudDogSW50LAogICAgICAgIGtleTogKChpbmRleDogSW50KSAtPiBBbnkpPywKICAgICAgICBjb250ZW50VHlwZTogKGluZGV4OiBJbnQpIC0+IEFueT8sCiAgICAgICAgaXRlbUNvbnRlbnQ6IEBDb21wb3NhYmxlIExhenlJdGVtU2NvcGUuKGluZGV4OiBJbnQpIC0+IFVuaXQsCiAgICApIHsKICAgICAgICBpbnRlcnZhbHMuYWRkSW50ZXJ2YWwoCiAgICAgICAgICAgIGNvdW50LAogICAgICAgICAgICBMYXp5TGlzdEludGVydmFsKGtleSA9IGtleSwgdHlwZSA9IGNvbnRlbnRUeXBlLCBpdGVtID0gaXRlbUNvbnRlbnQpLAogICAgICAgICkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaXRlbShrZXk6IEFueT8sIGNvbnRlbnRUeXBlOiBBbnk/LCBjb250ZW50OiBAQ29tcG9zYWJsZSBMYXp5SXRlbVNjb3BlLigpIC0+IFVuaXQpIHsKICAgICAgICBpbnRlcnZhbHMuYWRkSW50ZXJ2YWwoCiAgICAgICAgICAgIDEsCiAgICAgICAgICAgIExhenlMaXN0SW50ZXJ2YWwoCiAgICAgICAgICAgICAgICBrZXkgPSBpZiAoa2V5ICE9IG51bGwpIHsgXzogSW50IC0+IGtleSB9IGVsc2UgbnVsbCwKICAgICAgICAgICAgICAgIHR5cGUgPSB7IGNvbnRlbnRUeXBlIH0sCiAgICAgICAgICAgICAgICBpdGVtID0geyBjb250ZW50KCkgfSwKICAgICAgICAgICAgKSwKICAgICAgICApCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHN0aWNreUhlYWRlcigKICAgICAgICBrZXk6IEFueT8sCiAgICAgICAgY29udGVudFR5cGU6IEFueT8sCiAgICAgICAgY29udGVudDogQENvbXBvc2FibGUgTGF6eUl0ZW1TY29wZS4oSW50KSAtPiBVbml0LAogICAgKSB7CiAgICAgICAgdmFsIGhlYWRlcnNJbmRleGVzID0gX2hlYWRlckluZGV4ZXMgPzogbXV0YWJsZUludExpc3RPZigpLmFsc28geyBfaGVhZGVySW5kZXhlcyA9IGl0IH0KICAgICAgICBoZWFkZXJzSW5kZXhlcy5hZGQoaW50ZXJ2YWxzLnNpemUpCiAgICAgICAgdmFsIGhlYWRlckluZGV4ID0gaW50ZXJ2YWxzLnNpemUKCiAgICAgICAgaXRlbShrZXksIGNvbnRlbnRUeXBlKSB7IGNvbnRlbnQoaGVhZGVySW5kZXgpIH0KICAgIH0KfQoKaW50ZXJuYWwgY2xhc3MgTGF6eUxpc3RJbnRlcnZhbCgKICAgIG92ZXJyaWRlIHZhbCBrZXk6ICgoaW5kZXg6IEludCkgLT4gQW55KT8sCiAgICBvdmVycmlkZSB2YWwgdHlwZTogKChpbmRleDogSW50KSAtPiBBbnk/KSwKICAgIHZhbCBpdGVtOiBAQ29tcG9zYWJsZSBMYXp5SXRlbVNjb3BlLihpbmRleDogSW50KSAtPiBVbml0LAopIDogTGF6eUxheW91dEludGVydmFsQ29udGVudC5JbnRlcnZhbAo=
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.collection.IntList
+import androidx.collection.MutableIntList
+import androidx.collection.emptyIntList
+import androidx.collection.mutableIntListOf
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutIntervalContent
+import com.bslsjdk.operit.ui.features.chat.components.lazy.MutableIntervalList
+import androidx.compose.runtime.Composable
+
+internal class LazyListIntervalContent(content: LazyListScope.() -> Unit) :
+    LazyLayoutIntervalContent<LazyListInterval>(), LazyListScope {
+    override val intervals: MutableIntervalList<LazyListInterval> = MutableIntervalList()
+
+    private var _headerIndexes: MutableIntList? = null
+    val headerIndexes: IntList
+        get() = _headerIndexes ?: emptyIntList()
+
+    init {
+        apply(content)
+    }
+
+    override fun items(
+        count: Int,
+        key: ((index: Int) -> Any)?,
+        contentType: (index: Int) -> Any?,
+        itemContent: @Composable LazyItemScope.(index: Int) -> Unit,
+    ) {
+        intervals.addInterval(
+            count,
+            LazyListInterval(key = key, type = contentType, item = itemContent),
+        )
+    }
+
+    override fun item(key: Any?, contentType: Any?, content: @Composable LazyItemScope.() -> Unit) {
+        intervals.addInterval(
+            1,
+            LazyListInterval(
+                key = if (key != null) { _: Int -> key } else null,
+                type = { contentType },
+                item = { content() },
+            ),
+        )
+    }
+
+    override fun stickyHeader(
+        key: Any?,
+        contentType: Any?,
+        content: @Composable LazyItemScope.(Int) -> Unit,
+    ) {
+        val headersIndexes = _headerIndexes ?: mutableIntListOf().also { _headerIndexes = it }
+        headersIndexes.add(intervals.size)
+        val headerIndex = intervals.size
+
+        item(key, contentType) { content(headerIndex) }
+    }
+}
+
+internal class LazyListInterval(
+    override val key: ((index: Int) -> Any)?,
+    override val type: ((index: Int) -> Any?),
+    val item: @Composable LazyItemScope.(index: Int) -> Unit,
+) : LazyLayoutIntervalContent.Interval

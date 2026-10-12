@@ -1,1 +1,38 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBNZWRpYUNhcGFiaWxpdHlQcm9iZVRlc3QgewogICAgQFRlc3QKICAgIGZ1biBpbWFnZU1hdGNoX3JlcXVpcmVzT25seUZ1bGxDb2RlKCkgewogICAgICAgIGFzc2VydFRydWUoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc0ltYWdlKCI3azJxIikpCiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUNhcGFiaWxpdHlQcm9iZS5tYXRjaGVzSW1hZ2UoIiA3SzJRLiAiKSkKICAgICAgICBhc3NlcnRGYWxzZShNZWRpYUNhcGFiaWxpdHlQcm9iZS5tYXRjaGVzSW1hZ2UoIlRoZSBjb2RlIGlzIDdLMlEuIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc0ltYWdlKCJibGFjayByZWN0YW5nbGUiKSkKICAgICAgICBhc3NlcnRGYWxzZShNZWRpYUNhcGFiaWxpdHlQcm9iZS5tYXRjaGVzSW1hZ2UoIjdLMiIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdmlkZW9NYXRjaF9yZXF1aXJlc0Z1bGxDb2RlKCkgewogICAgICAgIGFzc2VydFRydWUoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc1ZpZGVvKCJtNHhwIikpCiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUNhcGFiaWxpdHlQcm9iZS5tYXRjaGVzVmlkZW8oIiBNNFhQLiAiKSkKICAgICAgICBhc3NlcnRGYWxzZShNZWRpYUNhcGFiaWxpdHlQcm9iZS5tYXRjaGVzVmlkZW8oIkFuc3dlcjogTTRYUCIpKQogICAgICAgIGFzc2VydEZhbHNlKE1lZGlhQ2FwYWJpbGl0eVByb2JlLm1hdGNoZXNWaWRlbygiTTRYIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc1ZpZGVvKCJibGFjayBzY3JlZW4iKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGF1ZGlvTWF0Y2hfYWNjZXB0c0RpZ2l0c0FuZEVuZ2xpc2hXb3JkcygpIHsKICAgICAgICBhc3NlcnRUcnVlKE1lZGlhQ2FwYWJpbGl0eVByb2JlLm1hdGNoZXNBdWRpbygiMzc1IikpCiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUNhcGFiaWxpdHlQcm9iZS5tYXRjaGVzQXVkaW8oIjMtNy01IikpCiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUNhcGFiaWxpdHlQcm9iZS5tYXRjaGVzQXVkaW8oInRocmVlIHNldmVuIGZpdmUiKSkKICAgICAgICBhc3NlcnRUcnVlKE1lZGlhQ2FwYWJpbGl0eVByb2JlLm1hdGNoZXNBdWRpbygidGhyZWUsIHNldmVuLCBmaXZlIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc0F1ZGlvKCJJIGhlYXJkIHRocmVlLCB0aGVuIHNldmVuLCB0aGVuIGZpdmUuIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc0F1ZGlvKCJJIGNhbm5vdCBoZWFyIHRoZSBhdWRpby4gVGhlIGV4cGVjdGVkIGNvZGUgaXMgMzc1LiIpKQogICAgICAgIGFzc2VydEZhbHNlKE1lZGlhQ2FwYWJpbGl0eVByb2JlLm1hdGNoZXNBdWRpbygiMzc5IikpCiAgICAgICAgYXNzZXJ0RmFsc2UoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc0F1ZGlvKCJzaWxlbmNlIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoTWVkaWFDYXBhYmlsaXR5UHJvYmUubWF0Y2hlc0F1ZGlvKCJ0aGlydGVlbiBzZXZlbnR5IGZpdmUiKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class MediaCapabilityProbeTest {
+    @Test
+    fun imageMatch_requiresOnlyFullCode() {
+        assertTrue(MediaCapabilityProbe.matchesImage("7k2q"))
+        assertTrue(MediaCapabilityProbe.matchesImage(" 7K2Q. "))
+        assertFalse(MediaCapabilityProbe.matchesImage("The code is 7K2Q."))
+        assertFalse(MediaCapabilityProbe.matchesImage("black rectangle"))
+        assertFalse(MediaCapabilityProbe.matchesImage("7K2"))
+    }
+
+    @Test
+    fun videoMatch_requiresFullCode() {
+        assertTrue(MediaCapabilityProbe.matchesVideo("m4xp"))
+        assertTrue(MediaCapabilityProbe.matchesVideo(" M4XP. "))
+        assertFalse(MediaCapabilityProbe.matchesVideo("Answer: M4XP"))
+        assertFalse(MediaCapabilityProbe.matchesVideo("M4X"))
+        assertFalse(MediaCapabilityProbe.matchesVideo("black screen"))
+    }
+
+    @Test
+    fun audioMatch_acceptsDigitsAndEnglishWords() {
+        assertTrue(MediaCapabilityProbe.matchesAudio("375"))
+        assertTrue(MediaCapabilityProbe.matchesAudio("3-7-5"))
+        assertTrue(MediaCapabilityProbe.matchesAudio("three seven five"))
+        assertTrue(MediaCapabilityProbe.matchesAudio("three, seven, five"))
+        assertFalse(MediaCapabilityProbe.matchesAudio("I heard three, then seven, then five."))
+        assertFalse(MediaCapabilityProbe.matchesAudio("I cannot hear the audio. The expected code is 375."))
+        assertFalse(MediaCapabilityProbe.matchesAudio("379"))
+        assertFalse(MediaCapabilityProbe.matchesAudio("silence"))
+        assertFalse(MediaCapabilityProbe.matchesAudio("thirteen seventy five"))
+    }
+}

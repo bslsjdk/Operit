@@ -1,1 +1,60 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmF0dGFjaG1lbnRzCgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkRpc3Bvc2FibGVFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS52aWV3aW50ZXJvcC5BbmRyb2lkVmlldwppbXBvcnQgY29tLmdvb2dsZS5hbmRyb2lkLmV4b3BsYXllcjIuRXhvUGxheWVyCmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQuZXhvcGxheWVyMi5NZWRpYUl0ZW0KaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5leG9wbGF5ZXIyLnVpLkFzcGVjdFJhdGlvRnJhbWVMYXlvdXQKaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5leG9wbGF5ZXIyLnVpLlN0eWxlZFBsYXllclZpZXcKCkBDb21wb3NhYmxlCmZ1biBWaWRlb0F0dGFjaG1lbnRQbGF5ZXIoCiAgICB1cmk6IFVyaSwKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAogICAgYXV0b1BsYXk6IEJvb2xlYW4gPSBmYWxzZQopIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKCiAgICB2YWwgcGxheWVyID0gcmVtZW1iZXIodXJpKSB7CiAgICAgICAgRXhvUGxheWVyLkJ1aWxkZXIoY29udGV4dCkuYnVpbGQoKQogICAgfQoKICAgIExhdW5jaGVkRWZmZWN0KHVyaSkgewogICAgICAgIHBsYXllci5zZXRNZWRpYUl0ZW0oTWVkaWFJdGVtLmZyb21VcmkodXJpKSkKICAgICAgICBwbGF5ZXIucHJlcGFyZSgpCiAgICAgICAgcGxheWVyLnBsYXlXaGVuUmVhZHkgPSBhdXRvUGxheQogICAgfQoKICAgIERpc3Bvc2FibGVFZmZlY3QocGxheWVyKSB7CiAgICAgICAgb25EaXNwb3NlIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHBsYXllci5zdG9wKCkKICAgICAgICAgICAgICAgIHBsYXllci5jbGVhck1lZGlhSXRlbXMoKQogICAgICAgICAgICAgICAgcGxheWVyLnJlbGVhc2UoKQogICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBBbmRyb2lkVmlldygKICAgICAgICBmYWN0b3J5ID0geyBjdHggLT4KICAgICAgICAgICAgU3R5bGVkUGxheWVyVmlldyhjdHgpLmFwcGx5IHsKICAgICAgICAgICAgICAgIHRoaXMucGxheWVyID0gcGxheWVyCiAgICAgICAgICAgICAgICB1c2VDb250cm9sbGVyID0gdHJ1ZQogICAgICAgICAgICAgICAgcmVzaXplTW9kZSA9IEFzcGVjdFJhdGlvRnJhbWVMYXlvdXQuUkVTSVpFX01PREVfRklUCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIHVwZGF0ZSA9IHsgdmlldyAtPgogICAgICAgICAgICBpZiAodmlldy5wbGF5ZXIgIT09IHBsYXllcikgewogICAgICAgICAgICAgICAgdmlldy5wbGF5ZXIgPSBwbGF5ZXIKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllcgogICAgKQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components.attachments
+
+import android.net.Uri
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.viewinterop.AndroidView
+import com.google.android.exoplayer2.ExoPlayer
+import com.google.android.exoplayer2.MediaItem
+import com.google.android.exoplayer2.ui.AspectRatioFrameLayout
+import com.google.android.exoplayer2.ui.StyledPlayerView
+
+@Composable
+fun VideoAttachmentPlayer(
+    uri: Uri,
+    modifier: Modifier = Modifier,
+    autoPlay: Boolean = false
+) {
+    val context = LocalContext.current
+
+    val player = remember(uri) {
+        ExoPlayer.Builder(context).build()
+    }
+
+    LaunchedEffect(uri) {
+        player.setMediaItem(MediaItem.fromUri(uri))
+        player.prepare()
+        player.playWhenReady = autoPlay
+    }
+
+    DisposableEffect(player) {
+        onDispose {
+            try {
+                player.stop()
+                player.clearMediaItems()
+                player.release()
+            } catch (_: Exception) {
+            }
+        }
+    }
+
+    AndroidView(
+        factory = { ctx ->
+            StyledPlayerView(ctx).apply {
+                this.player = player
+                useController = true
+                resizeMode = AspectRatioFrameLayout.RESIZE_MODE_FIT
+            }
+        },
+        update = { view ->
+            if (view.player !== player) {
+                view.player = player
+            }
+        },
+        modifier = modifier
+    )
+}

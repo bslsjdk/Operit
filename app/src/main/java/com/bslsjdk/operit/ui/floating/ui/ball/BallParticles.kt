@@ -1,1 +1,233 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuYmFsbAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuQW5pbWF0YWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5MaW5lYXJFYXNpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUudHdlZW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTGF1bmNoZWRFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5TdGFibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZUxpc3RPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLndpdGhGcmFtZU5hbm9zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdlb21ldHJ5Lk9mZnNldAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5CbGVuZE1vZGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQnJ1c2gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuVGlsZU1vZGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuZHJhd3Njb3BlLkRyYXdTY29wZQppbXBvcnQga290bGluLm1hdGguUEkKaW1wb3J0IGtvdGxpbi5tYXRoLmNvcwppbXBvcnQga290bGluLm1hdGgucG93CmltcG9ydCBrb3RsaW4ubWF0aC5zaW4KaW1wb3J0IGtvdGxpbi5yYW5kb20uUmFuZG9tCgovLyDnroDljZXnmoQzROWQkemHj+exuwpkYXRhIGNsYXNzIFZlY3RvcjModmFsIHg6IEZsb2F0LCB2YWwgeTogRmxvYXQsIHZhbCB6OiBGbG9hdCkKCkBTdGFibGUKY2xhc3MgUGFydGljbGUoCiAgICB2YXIgYW5nbGU6IEZsb2F0LCAgICAgICAgICAvLyDlvZPliY3lnKjovajpgZPkuIrnmoTop5LluqYgKDAtMzYwKQogICAgdmFsIHNwZWVkOiBGbG9hdCwgICAgICAgICAgLy8g6L+Q5Yqo6YCf5bqmCiAgICB2YWwgb3JiaXRSYWRpdXM6IEZsb2F0LCAgICAvLyDovajpgZPljYrlvoTns7vmlbAgKOebuOWvueS6jueQg+WNiuW+hCkKICAgIHZhbCBvcmJpdFRpbHRYOiBGbG9hdCwgICAgIC8vIOi9qOmBk+e7lVjovbTlgL7op5IgKOW8p+W6pikKICAgIHZhbCBvcmJpdFRpbHRZOiBGbG9hdCwgICAgIC8vIOi9qOmBk+e7lVnovbTlgL7op5IgKOW8p+W6pikKICAgIHZhbCBjb2xvcjogQ29sb3IsICAgICAgICAgIC8vIOS4u+iJsgogICAgdmFsIGFjY2VudENvbG9yOiBDb2xvciwgICAgLy8g6L6F6Imy77yI55So5LqO5riQ5Y+Y5re35ZCI77yJCiAgICB2YWwgYmFzZVNpemU6IEZsb2F0CikgewogICAgLy8g5ouW5bC+5Y6G5Y+y5L2N572uICjmnIDmlrDnmoTlnKjliY3pnaIpCiAgICB2YWwgdHJhaWwgPSBBcnJheURlcXVlPFZlY3RvcjM+KCkKICAgIHZhbCBtYXhUcmFpbExlbmd0aCA9IDEwMCAvLyDmi5blsL7lho3liqDplb8KfQoKQENvbXBvc2FibGUKZnVuIHJlbWVtYmVyUGFydGljbGVTeXN0ZW0oY291bnQ6IEludCA9IDIpOiBQYXJ0aWNsZVN5c3RlbSB7IC8vIOaVsOmHj+WHj+WwkeWIsDLkuKoKICAgIHJldHVybiByZW1lbWJlciB7IFBhcnRpY2xlU3lzdGVtKGNvdW50KSB9Cn0KCmNsYXNzIFBhcnRpY2xlU3lzdGVtKGNvdW50OiBJbnQpIHsKICAgIHByaXZhdGUgdmFsIHBhcnRpY2xlcyA9IG11dGFibGVTdGF0ZUxpc3RPZjxQYXJ0aWNsZT4oKQogICAgCiAgICAvLyDliqjnlLvnirbmgIEKICAgIHZhciBpc0FjdGl2ZSBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgIHZhbCB2aXNpYmlsaXR5ID0gQW5pbWF0YWJsZSgwZikKICAgIAogICAgaW5pdCB7CiAgICAgICAgLy8gU2lyaSDpo47moLznmoTpq5jppbHlkozluqbpnJPombnoibIKICAgICAgICB2YWwgcGFsZXR0ZSA9IGxpc3RPZigKICAgICAgICAgICAgQ29sb3IoMHhGRjBBODRGRiksIC8vIEJsdWUKICAgICAgICAgICAgQ29sb3IoMHhGRkJGNUFGMiksIC8vIFB1cnBsZQogICAgICAgICAgICBDb2xvcigweEZGRkYzNzVGKSwgLy8gUGluawogICAgICAgICAgICBDb2xvcigweEZGMDBENEZGKSwgLy8gQ3lhbgogICAgICAgICAgICBDb2xvcigweEZGMzBEMTU4KSwgLy8gR3JlZW4KICAgICAgICAgICAgQ29sb3IoMHhGRkZGOUYwQSkgIC8vIE9yYW5nZQogICAgICAgICkKICAgICAgICAKICAgICAgICByZXBlYXQoY291bnQpIHsgaW5kZXggLT4KICAgICAgICAgICAgdmFsIG1haW5Db2xvciA9IHBhbGV0dGUucmFuZG9tKCkKICAgICAgICAgICAgdmFsIGFjY2VudENvbG9yID0gcGFsZXR0ZS5maWx0ZXIgeyBpdCAhPSBtYWluQ29sb3IgfS5yYW5kb20oKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5omL5Yqo6YWN572u5Z6C55u0L+S6pOWPiei9qOmBkwogICAgICAgICAgICAvLyDnspLlrZAxOiDlgL7op5IgNjDluqYKICAgICAgICAgICAgLy8g57KS5a2QMjog5YC+6KeSIDE1MOW6piAo5LiONjDluqblnoLnm7QpCiAgICAgICAgICAgIHZhbCBmaXhlZFRpbHRYID0gaWYgKGluZGV4ID09IDApIDYwZiBlbHNlIDE1MGYKICAgICAgICAgICAgdmFsIGZpeGVkVGlsdFkgPSBpZiAoaW5kZXggPT0gMCkgMzBmIGVsc2UgMTIwZgogICAgICAgICAgICAKICAgICAgICAgICAgcGFydGljbGVzLmFkZCgKICAgICAgICAgICAgICAgIFBhcnRpY2xlKAogICAgICAgICAgICAgICAgICAgIGFuZ2xlID0gUmFuZG9tLm5leHRGbG9hdCgpICogMzYwZiwKICAgICAgICAgICAgICAgICAgICBzcGVlZCA9IChSYW5kb20ubmV4dEZsb2F0KCkgKiAxLjJmICsgMS4yZikgKiAoaWYoUmFuZG9tLm5leHRCb29sZWFuKCkpIDEgZWxzZSAtMSksCiAgICAgICAgICAgICAgICAgICAgb3JiaXRSYWRpdXMgPSBSYW5kb20ubmV4dEZsb2F0KCkgKiAwLjFmICsgMS40ZiwgLy8gMS40IC0gMS41CiAgICAgICAgICAgICAgICAgICAgb3JiaXRUaWx0WCA9IGZpeGVkVGlsdFggKiAoUEkudG9GbG9hdCgpIC8gMTgwZiksCiAgICAgICAgICAgICAgICAgICAgb3JiaXRUaWx0WSA9IGZpeGVkVGlsdFkgKiAoUEkudG9GbG9hdCgpIC8gMTgwZiksCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBtYWluQ29sb3IsCiAgICAgICAgICAgICAgICAgICAgYWNjZW50Q29sb3IgPSBhY2NlbnRDb2xvciwKICAgICAgICAgICAgICAgICAgICBiYXNlU2l6ZSA9IDIwZgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQogICAgCiAgICBAQ29tcG9zYWJsZQogICAgZnVuIFVwZGF0ZUVmZmVjdChpc1ByZXNzZWQ6IEJvb2xlYW4pIHsKICAgICAgICAvLyDnirbmgIHnrqHnkIYKICAgICAgICBMYXVuY2hlZEVmZmVjdChpc1ByZXNzZWQpIHsKICAgICAgICAgICAgaWYgKGlzUHJlc3NlZCkgewogICAgICAgICAgICAgICAgaXNBY3RpdmUgPSB0cnVlCiAgICAgICAgICAgICAgICB2aXNpYmlsaXR5LmFuaW1hdGVUbygKICAgICAgICAgICAgICAgICAgICB0YXJnZXRWYWx1ZSA9IDFmLAogICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvblNwZWMgPSB0d2Vlbig0MDAsIGVhc2luZyA9IExpbmVhckVhc2luZykKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHZpc2liaWxpdHkuYW5pbWF0ZVRvKAogICAgICAgICAgICAgICAgICAgIHRhcmdldFZhbHVlID0gMGYsCiAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uU3BlYyA9IHR3ZWVuKDMwMCwgZWFzaW5nID0gTGluZWFyRWFzaW5nKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgaXNBY3RpdmUgPSBmYWxzZQogICAgICAgICAgICAgICAgLy8g5riF56m65ouW5bC+77yM6Ziy5q2i5LiL5qyh5pi+56S65pe25pyJ5q6L55WZCiAgICAgICAgICAgICAgICBwYXJ0aWNsZXMuZm9yRWFjaCB7IGl0LnRyYWlsLmNsZWFyKCkgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyDnspLlrZDov5Dliqjlvqrnjq8KICAgICAgICBMYXVuY2hlZEVmZmVjdChVbml0KSB7CiAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICB3aXRoRnJhbWVOYW5vcyB7IF8gLT4KICAgICAgICAgICAgICAgICAgICBpZiAodmlzaWJpbGl0eS52YWx1ZSA+IDBmKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZVBhcnRpY2xlcygpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHVwZGF0ZVBhcnRpY2xlcygpIHsKICAgICAgICBwYXJ0aWNsZXMuZm9yRWFjaCB7IHAgLT4KICAgICAgICAgICAgLy8gMS4g5pu05paw6KeS5bqmCiAgICAgICAgICAgIHAuYW5nbGUgPSAocC5hbmdsZSArIHAuc3BlZWQpICUgMzYwZgogICAgICAgICAgICAKICAgICAgICAgICAgLy8gMi4g6K6h566X5b2T5YmNM0TkvY3nva4KICAgICAgICAgICAgLy8g5L+u5q2j77ya5Z+656GA6L2o6YGT5pS55Li6IFhaIOW5s+mdoiAo5rC05bmz5ZyG5ZGoKe+8jOehruS/nSBaIOi9tOWPmOWMluaYjuaYvgogICAgICAgICAgICB2YWwgcmFkID0gcC5hbmdsZSAqIChQSS50b0Zsb2F0KCkgLyAxODBmKQogICAgICAgICAgICB2YWwgcmF3WCA9IGNvcyhyYWQpICogcC5vcmJpdFJhZGl1cwogICAgICAgICAgICB2YWwgcmF3WiA9IHNpbihyYWQpICogcC5vcmJpdFJhZGl1cyAvLyBaIOi9tOeOsOWcqOacieWkp+W5heW6puWPmOWMlgogICAgICAgICAgICB2YWwgcmF3WSA9IDBmCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyAzLiDlupTnlKjovajpgZPml4vovawKICAgICAgICAgICAgLy8g57uVWOi9tOaXi+i9rCAo5Yaz5a6a6L2o6YGT55qE5L+v5Luw6KeSKQogICAgICAgICAgICB2YWwgeTEgPSByYXdZICogY29zKHAub3JiaXRUaWx0WCkgLSByYXdaICogc2luKHAub3JiaXRUaWx0WCkKICAgICAgICAgICAgdmFsIHoxID0gcmF3WSAqIHNpbihwLm9yYml0VGlsdFgpICsgcmF3WiAqIGNvcyhwLm9yYml0VGlsdFgpCiAgICAgICAgICAgIHZhbCB4MSA9IHJhd1gKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOe7lVnovbTml4vovawgKOWGs+Wumui9qOmBk+eahOaWueS9jeinkikKICAgICAgICAgICAgdmFsIHgyID0geDEgKiBjb3MocC5vcmJpdFRpbHRZKSArIHoxICogc2luKHAub3JiaXRUaWx0WSkKICAgICAgICAgICAgdmFsIHoyID0gLXgxICogc2luKHAub3JiaXRUaWx0WSkgKyB6MSAqIGNvcyhwLm9yYml0VGlsdFkpCiAgICAgICAgICAgIHZhbCB5MiA9IHkxCiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgcG9zID0gVmVjdG9yMyh4MiwgeTIsIHoyKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8gNC4g5pu05paw5ouW5bC+CiAgICAgICAgICAgIHAudHJhaWwuYWRkRmlyc3QocG9zKQogICAgICAgICAgICBpZiAocC50cmFpbC5zaXplID4gcC5tYXhUcmFpbExlbmd0aCkgewogICAgICAgICAgICAgICAgcC50cmFpbC5yZW1vdmVMYXN0KCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gRHJhd1Njb3BlLmRyYXdCYWNrUGFydGljbGVzKGNlbnRlcjogT2Zmc2V0LCBiYXNlUmFkaXVzOiBGbG9hdCkgewogICAgICAgIGlmICh2aXNpYmlsaXR5LnZhbHVlIDw9IDAuMDFmKSByZXR1cm4KICAgICAgICBkcmF3UGFydGljbGVUcmFpbHMoY2VudGVyLCBiYXNlUmFkaXVzLCB0cnVlKQogICAgfQoKICAgIGZ1biBEcmF3U2NvcGUuZHJhd0Zyb250UGFydGljbGVzKGNlbnRlcjogT2Zmc2V0LCBiYXNlUmFkaXVzOiBGbG9hdCkgewogICAgICAgIGlmICh2aXNpYmlsaXR5LnZhbHVlIDw9IDAuMDFmKSByZXR1cm4KICAgICAgICBkcmF3UGFydGljbGVUcmFpbHMoY2VudGVyLCBiYXNlUmFkaXVzLCBmYWxzZSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBEcmF3U2NvcGUuZHJhd1BhcnRpY2xlVHJhaWxzKGNlbnRlcjogT2Zmc2V0LCBiYXNlUmFkaXVzOiBGbG9hdCwgaXNCYWNrOiBCb29sZWFuKSB7CiAgICAgICAgdmFsIGN1cnJlbnRWaXNpYmlsaXR5ID0gdmlzaWJpbGl0eS52YWx1ZQogICAgICAgIHZhbCBmb2NhbExlbmd0aCA9IDEwMDBmIAogICAgICAgIAogICAgICAgIHBhcnRpY2xlcy5mb3JFYWNoIHsgcCAtPgogICAgICAgICAgICAvLyDlgJLluo/nu5jliLYKICAgICAgICAgICAgZm9yIChpIGluIHAudHJhaWwubGFzdEluZGV4IGRvd25UbyAwKSB7CiAgICAgICAgICAgICAgICB2YWwgcG9zID0gcC50cmFpbFtpXQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyA9PT0g5L+u5pS577ya5Y+q57uY5Yi25YmN5pa557KS5a2QID09PQogICAgICAgICAgICAgICAgLy8g55So5oi36KaB5rGC77ya546v57uV5Yiw5ZCO6Z2i5LiN57uY5Yi2CiAgICAgICAgICAgICAgICBpZiAocG9zLnogPiAwKSBjb250aW51ZQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDljbPkvb/mmK/liY3mma/vvIzlnKjmjqXov5HovrnnvJggKFo9MCkg5pe25Lmf6ZyA6KaB5reh5Ye677yM5ZCm5YiZ5raI5aSx5b6X5aSq56qB5YWACiAgICAgICAgICAgICAgICAvLyBaIOiMg+WbtOWkp+e6puaYryAtMS41IOWIsCAwICjliY3mlrkp44CC5oiR5Lus6K6+5a6a5ZyoIC0wLjMg5byA5aeL5Y+Y5rehCiAgICAgICAgICAgICAgICB2YWwgelRocmVzaG9sZCA9IC0wLjNmCiAgICAgICAgICAgICAgICB2YWwgZWRnZUZhZGUgPSBpZiAocG9zLnogPiB6VGhyZXNob2xkKSB7CiAgICAgICAgICAgICAgICAgICAgKHBvcy56IC8gelRocmVzaG9sZCkuY29lcmNlSW4oMGYsIDFmKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAxZgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDmt7HluqbliIblsYLmo4Dmn6UgKGlzQmFjaz10cnVlIOaXtuWwhuS4jeS8mue7mOWItuS7u+S9leS4nOilv++8jOWboOS4uiB6PD0wKQogICAgICAgICAgICAgICAgdmFsIGlzSW5CYWNrID0gZmFsc2UgCiAgICAgICAgICAgICAgICBpZiAoaXNCYWNrICE9IGlzSW5CYWNrKSBjb250aW51ZQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICB2YWwgZGVwdGggPSBwb3MueiAqIGJhc2VSYWRpdXMgKyBmb2NhbExlbmd0aAogICAgICAgICAgICAgICAgdmFsIHNjYWxlID0gaWYgKGRlcHRoID4gMCkgZm9jYWxMZW5ndGggLyBkZXB0aCBlbHNlIDFmCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIHZhbCBwcm9qWCA9IGNlbnRlci54ICsgcG9zLnggKiBiYXNlUmFkaXVzICogc2NhbGUKICAgICAgICAgICAgICAgIHZhbCBwcm9qWSA9IGNlbnRlci55ICsgcG9zLnkgKiBiYXNlUmFkaXVzICogc2NhbGUKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g6KeG6KeJ5bGe5oCnCiAgICAgICAgICAgICAgICB2YWwgcHJvZ3Jlc3MgPSBpLnRvRmxvYXQoKSAvIHAubWF4VHJhaWxMZW5ndGgKICAgICAgICAgICAgICAgIHZhbCBzaXplU2NhbGUgPSBzY2FsZSAqICgxZiAtIHByb2dyZXNzICogMC45ZikKICAgICAgICAgICAgICAgIC8vIOWHj+e8k+mAj+aYjuW6puihsOWHj++8jOiuqeWFieadn+S4u+S9k+abtOmVv+abtOWungogICAgICAgICAgICAgICAgdmFsIGFscGhhRmFkZSA9IDFmIC0gcHJvZ3Jlc3MucG93KDAuOWYpIAogICAgICAgICAgICAgICAgLy8g5Y+g5Yqg6L6557yY5reh5Ye6IGVkZ2VGYWRlCiAgICAgICAgICAgICAgICB2YWwgYWxwaGFCYXNlID0gcC5jb2xvci5hbHBoYSAqIGN1cnJlbnRWaXNpYmlsaXR5ICogYWxwaGFGYWRlICogZWRnZUZhZGUKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgaWYgKGFscGhhQmFzZSA8PSAwLjAxZikgY29udGludWUKCiAgICAgICAgICAgICAgICAvLyA9PT0g57uf5LiA5YWJ5p2f57uY5Yi2ID09PQogICAgICAgICAgICAgICAgLy8g5p6B5L2O6YCP5piO5bqm5qih5byP77ya5L6d6Z2g5Y+g5Yqg5Lqn55Sf5Lqu5bqmCiAgICAgICAgICAgICAgICAvLyDlm6DkuLrmnIkxMDDkuKrngrnph43lj6DvvIzljZXngrnlv4XpobvmnoHpgI/vvIzmiY3og73pgb/lhY3mlbTkvZPlj5jmiJDlrp7lv4MKICAgICAgICAgICAgICAgIHZhbCB0YWlsQWxwaGEgPSAoYWxwaGFCYXNlICogMC4wOGYpLmNvZXJjZUluKDBmLCAxZikgCiAgICAgICAgICAgICAgICB2YWwgYmFzZUNvbG9yID0gaWYgKGkgJSA1ID09IDApIHAuYWNjZW50Q29sb3IgZWxzZSBwLmNvbG9yCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIHZhbCBiZWFtQ29sb3IgPSBDb2xvcigKICAgICAgICAgICAgICAgICAgICByZWQgPSAwLjg1ZiArIDAuMTVmICogYmFzZUNvbG9yLnJlZCwgICAvLyA4NSUg55m9CiAgICAgICAgICAgICAgICAgICAgZ3JlZW4gPSAwLjg1ZiArIDAuMTVmICogYmFzZUNvbG9yLmdyZWVuLAogICAgICAgICAgICAgICAgICAgIGJsdWUgPSAwLjg1ZiArIDAuMTVmICogYmFzZUNvbG9yLmJsdWUsCiAgICAgICAgICAgICAgICAgICAgYWxwaGEgPSB0YWlsQWxwaGEKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZHJhd0NpcmNsZSgKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IGJlYW1Db2xvciwKICAgICAgICAgICAgICAgICAgICByYWRpdXMgPSBwLmJhc2VTaXplICogc2l6ZVNjYWxlLAogICAgICAgICAgICAgICAgICAgIGNlbnRlciA9IE9mZnNldChwcm9qWCwgcHJvalkpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.floating.ui.ball
+
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.tween
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.Stable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.withFrameNanos
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.BlendMode
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.TileMode
+import androidx.compose.ui.graphics.drawscope.DrawScope
+import kotlin.math.PI
+import kotlin.math.cos
+import kotlin.math.pow
+import kotlin.math.sin
+import kotlin.random.Random
+
+// 简单的3D向量类
+data class Vector3(val x: Float, val y: Float, val z: Float)
+
+@Stable
+class Particle(
+    var angle: Float,          // 当前在轨道上的角度 (0-360)
+    val speed: Float,          // 运动速度
+    val orbitRadius: Float,    // 轨道半径系数 (相对于球半径)
+    val orbitTiltX: Float,     // 轨道绕X轴倾角 (弧度)
+    val orbitTiltY: Float,     // 轨道绕Y轴倾角 (弧度)
+    val color: Color,          // 主色
+    val accentColor: Color,    // 辅色（用于渐变混合）
+    val baseSize: Float
+) {
+    // 拖尾历史位置 (最新的在前面)
+    val trail = ArrayDeque<Vector3>()
+    val maxTrailLength = 100 // 拖尾再加长
+}
+
+@Composable
+fun rememberParticleSystem(count: Int = 2): ParticleSystem { // 数量减少到2个
+    return remember { ParticleSystem(count) }
+}
+
+class ParticleSystem(count: Int) {
+    private val particles = mutableStateListOf<Particle>()
+    
+    // 动画状态
+    var isActive by mutableStateOf(false)
+    val visibility = Animatable(0f)
+    
+    init {
+        // Siri 风格的高饱和度霓虹色
+        val palette = listOf(
+            Color(0xFF0A84FF), // Blue
+            Color(0xFFBF5AF2), // Purple
+            Color(0xFFFF375F), // Pink
+            Color(0xFF00D4FF), // Cyan
+            Color(0xFF30D158), // Green
+            Color(0xFFFF9F0A)  // Orange
+        )
+        
+        repeat(count) { index ->
+            val mainColor = palette.random()
+            val accentColor = palette.filter { it != mainColor }.random()
+            
+            // 手动配置垂直/交叉轨道
+            // 粒子1: 倾角 60度
+            // 粒子2: 倾角 150度 (与60度垂直)
+            val fixedTiltX = if (index == 0) 60f else 150f
+            val fixedTiltY = if (index == 0) 30f else 120f
+            
+            particles.add(
+                Particle(
+                    angle = Random.nextFloat() * 360f,
+                    speed = (Random.nextFloat() * 1.2f + 1.2f) * (if(Random.nextBoolean()) 1 else -1),
+                    orbitRadius = Random.nextFloat() * 0.1f + 1.4f, // 1.4 - 1.5
+                    orbitTiltX = fixedTiltX * (PI.toFloat() / 180f),
+                    orbitTiltY = fixedTiltY * (PI.toFloat() / 180f),
+                    color = mainColor,
+                    accentColor = accentColor,
+                    baseSize = 20f
+                )
+            )
+        }
+    }
+    
+    @Composable
+    fun UpdateEffect(isPressed: Boolean) {
+        // 状态管理
+        LaunchedEffect(isPressed) {
+            if (isPressed) {
+                isActive = true
+                visibility.animateTo(
+                    targetValue = 1f,
+                    animationSpec = tween(400, easing = LinearEasing)
+                )
+            } else {
+                visibility.animateTo(
+                    targetValue = 0f,
+                    animationSpec = tween(300, easing = LinearEasing)
+                )
+                isActive = false
+                // 清空拖尾，防止下次显示时有残留
+                particles.forEach { it.trail.clear() }
+            }
+        }
+
+        // 粒子运动循环
+        LaunchedEffect(Unit) {
+            while (true) {
+                withFrameNanos { _ ->
+                    if (visibility.value > 0f) {
+                        updateParticles()
+                    }
+                }
+            }
+        }
+    }
+
+    private fun updateParticles() {
+        particles.forEach { p ->
+            // 1. 更新角度
+            p.angle = (p.angle + p.speed) % 360f
+            
+            // 2. 计算当前3D位置
+            // 修正：基础轨道改为 XZ 平面 (水平圆周)，确保 Z 轴变化明显
+            val rad = p.angle * (PI.toFloat() / 180f)
+            val rawX = cos(rad) * p.orbitRadius
+            val rawZ = sin(rad) * p.orbitRadius // Z 轴现在有大幅度变化
+            val rawY = 0f
+            
+            // 3. 应用轨道旋转
+            // 绕X轴旋转 (决定轨道的俯仰角)
+            val y1 = rawY * cos(p.orbitTiltX) - rawZ * sin(p.orbitTiltX)
+            val z1 = rawY * sin(p.orbitTiltX) + rawZ * cos(p.orbitTiltX)
+            val x1 = rawX
+            
+            // 绕Y轴旋转 (决定轨道的方位角)
+            val x2 = x1 * cos(p.orbitTiltY) + z1 * sin(p.orbitTiltY)
+            val z2 = -x1 * sin(p.orbitTiltY) + z1 * cos(p.orbitTiltY)
+            val y2 = y1
+            
+            val pos = Vector3(x2, y2, z2)
+            
+            // 4. 更新拖尾
+            p.trail.addFirst(pos)
+            if (p.trail.size > p.maxTrailLength) {
+                p.trail.removeLast()
+            }
+        }
+    }
+
+    fun DrawScope.drawBackParticles(center: Offset, baseRadius: Float) {
+        if (visibility.value <= 0.01f) return
+        drawParticleTrails(center, baseRadius, true)
+    }
+
+    fun DrawScope.drawFrontParticles(center: Offset, baseRadius: Float) {
+        if (visibility.value <= 0.01f) return
+        drawParticleTrails(center, baseRadius, false)
+    }
+
+    private fun DrawScope.drawParticleTrails(center: Offset, baseRadius: Float, isBack: Boolean) {
+        val currentVisibility = visibility.value
+        val focalLength = 1000f 
+        
+        particles.forEach { p ->
+            // 倒序绘制
+            for (i in p.trail.lastIndex downTo 0) {
+                val pos = p.trail[i]
+                
+                // === 修改：只绘制前方粒子 ===
+                // 用户要求：环绕到后面不绘制
+                if (pos.z > 0) continue
+                
+                // 即使是前景，在接近边缘 (Z=0) 时也需要淡出，否则消失得太突兀
+                // Z 范围大约是 -1.5 到 0 (前方)。我们设定在 -0.3 开始变淡
+                val zThreshold = -0.3f
+                val edgeFade = if (pos.z > zThreshold) {
+                    (pos.z / zThreshold).coerceIn(0f, 1f)
+                } else {
+                    1f
+                }
+                
+                // 深度分层检查 (isBack=true 时将不会绘制任何东西，因为 z<=0)
+                val isInBack = false 
+                if (isBack != isInBack) continue
+                
+                val depth = pos.z * baseRadius + focalLength
+                val scale = if (depth > 0) focalLength / depth else 1f
+                
+                val projX = center.x + pos.x * baseRadius * scale
+                val projY = center.y + pos.y * baseRadius * scale
+                
+                // 视觉属性
+                val progress = i.toFloat() / p.maxTrailLength
+                val sizeScale = scale * (1f - progress * 0.9f)
+                // 减缓透明度衰减，让光束主体更长更实
+                val alphaFade = 1f - progress.pow(0.9f) 
+                // 叠加边缘淡出 edgeFade
+                val alphaBase = p.color.alpha * currentVisibility * alphaFade * edgeFade
+                
+                if (alphaBase <= 0.01f) continue
+
+                // === 统一光束绘制 ===
+                // 极低透明度模式：依靠叠加产生亮度
+                // 因为有100个点重叠，单点必须极透，才能避免整体变成实心
+                val tailAlpha = (alphaBase * 0.08f).coerceIn(0f, 1f) 
+                val baseColor = if (i % 5 == 0) p.accentColor else p.color
+                
+                val beamColor = Color(
+                    red = 0.85f + 0.15f * baseColor.red,   // 85% 白
+                    green = 0.85f + 0.15f * baseColor.green,
+                    blue = 0.85f + 0.15f * baseColor.blue,
+                    alpha = tailAlpha
+                )
+                
+                drawCircle(
+                    color = beamColor,
+                    radius = p.baseSize * sizeScale,
+                    center = Offset(projX, projY)
+                )
+            }
+        }
+    }
+}

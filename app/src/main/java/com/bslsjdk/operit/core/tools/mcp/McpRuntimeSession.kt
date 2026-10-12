@@ -1,1 +1,54 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5tY3AKCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CgovKiogUnVudGltZSB0cmFuc3BvcnQgc2VsZWN0ZWQgZm9yIGFuIGluc3RhbGxlZCBNQ1AgcGx1Z2luLiAqLwpzZWFsZWQgaW50ZXJmYWNlIE1jcFJ1bnRpbWVEZXNjcmlwdG9yIHsKICAgIGRhdGEgY2xhc3MgTG9jYWwodmFsIHNlcnZpY2VOYW1lOiBTdHJpbmcpIDogTWNwUnVudGltZURlc2NyaXB0b3IKCiAgICBkYXRhIGNsYXNzIFJlbW90ZSgKICAgICAgICB2YWwgZW5kcG9pbnQ6IFN0cmluZywKICAgICAgICB2YWwgY29ubmVjdGlvblR5cGU6IFN0cmluZywKICAgICAgICB2YWwgYmVhcmVyVG9rZW46IFN0cmluZz8sCiAgICAgICAgdmFsIGhlYWRlcnM6IE1hcDxTdHJpbmcsIFN0cmluZz4KICAgICkgOiBNY3BSdW50aW1lRGVzY3JpcHRvcgp9CgovKiogQSB0cmFuc3BvcnQtbmV1dHJhbCBNQ1AgdG9vbCBkZWZpbml0aW9uIHVzZWQgYnkgdGhlIGFwcGxpY2F0aW9uIHJ1bnRpbWUuICovCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBNY3BSdW50aW1lVG9vbCgKICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZywKICAgIHZhbCBpbnB1dFNjaGVtYTogU3RyaW5nCikgewogICAgZnVuIGlucHV0U2NoZW1hT2JqZWN0KCk6IEpTT05PYmplY3QgPSBKU09OT2JqZWN0KGlucHV0U2NoZW1hKQp9CgpkYXRhIGNsYXNzIE1jcFJ1bnRpbWVDYWxsUmVzdWx0KAogICAgdmFsIHN1Y2Nlc3M6IEJvb2xlYW4sCiAgICB2YWwgcmVzdWx0OiBKU09OT2JqZWN0PywKICAgIHZhbCBlcnJvck1lc3NhZ2U6IFN0cmluZz8gPSBudWxsCikKCi8qKgogKiBBcHBsaWNhdGlvbi1mYWNpbmcgTUNQIHNlc3Npb24uIEltcGxlbWVudGF0aW9ucyBvd24gdGhlaXIgdHJhbnNwb3J0IGFuZCBsaWZlY3ljbGUuCiAqIFRoZSBtYW5hZ2VyIGlzIHRoZSBvbmx5IGNvbXBvbmVudCB0aGF0IGNob29zZXMgYSBjb25jcmV0ZSBpbXBsZW1lbnRhdGlvbi4KICovCmludGVyZmFjZSBNY3BSdW50aW1lU2Vzc2lvbiB7CiAgICBzdXNwZW5kIGZ1biBjb25uZWN0KCk6IEJvb2xlYW4KCiAgICBmdW4gaXNDb25uZWN0ZWQoKTogQm9vbGVhbgoKICAgIHN1c3BlbmQgZnVuIGlzQWN0aXZlKCk6IEJvb2xlYW4KCiAgICBzdXNwZW5kIGZ1biBsaXN0VG9vbHMoKTogTGlzdDxNY3BSdW50aW1lVG9vbD4KCiAgICBzdXNwZW5kIGZ1biBnZXRUb29sRGVzY3JpcHRpb25zKCk6IExpc3Q8U3RyaW5nPiA9IGxpc3RUb29scygpLm1hcCB7IHRvb2wgLT4KICAgICAgICB0b29sLmRlc2NyaXB0aW9uLnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9Py5sZXQgeyAiJHt0b29sLm5hbWV9OiAkaXQiIH0gPzogdG9vbC5uYW1lCiAgICB9CgogICAgc3VzcGVuZCBmdW4gY2FsbFRvb2wobmFtZTogU3RyaW5nLCBhcmd1bWVudHM6IE1hcDxTdHJpbmcsIEFueT8+KTogTWNwUnVudGltZUNhbGxSZXN1bHQKCiAgICBzdXNwZW5kIGZ1biBjbG9zZSgpCn0K
+package com.bslsjdk.operit.core.tools.mcp
+
+import kotlinx.serialization.Serializable
+import org.json.JSONObject
+
+/** Runtime transport selected for an installed MCP plugin. */
+sealed interface McpRuntimeDescriptor {
+    data class Local(val serviceName: String) : McpRuntimeDescriptor
+
+    data class Remote(
+        val endpoint: String,
+        val connectionType: String,
+        val bearerToken: String?,
+        val headers: Map<String, String>
+    ) : McpRuntimeDescriptor
+}
+
+/** A transport-neutral MCP tool definition used by the application runtime. */
+@Serializable
+data class McpRuntimeTool(
+    val name: String,
+    val description: String,
+    val inputSchema: String
+) {
+    fun inputSchemaObject(): JSONObject = JSONObject(inputSchema)
+}
+
+data class McpRuntimeCallResult(
+    val success: Boolean,
+    val result: JSONObject?,
+    val errorMessage: String? = null
+)
+
+/**
+ * Application-facing MCP session. Implementations own their transport and lifecycle.
+ * The manager is the only component that chooses a concrete implementation.
+ */
+interface McpRuntimeSession {
+    suspend fun connect(): Boolean
+
+    fun isConnected(): Boolean
+
+    suspend fun isActive(): Boolean
+
+    suspend fun listTools(): List<McpRuntimeTool>
+
+    suspend fun getToolDescriptions(): List<String> = listTools().map { tool ->
+        tool.description.takeIf { it.isNotBlank() }?.let { "${tool.name}: $it" } ?: tool.name
+    }
+
+    suspend fun callTool(name: String, arguments: Map<String, Any?>): McpRuntimeCallResult
+
+    suspend fun close()
+}

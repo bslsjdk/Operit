@@ -1,1 +1,75 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy50b29scGtnCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXBwbGljYXRpb24uT3Blcml0QXBwbGljYXRpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmphdmFzY3JpcHQuZXh0cmFjdEpzRXhlY3V0aW9uRXJyb3JNZXNzYWdlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5EaXNwbGF5UHJlZmVyZW5jZXNNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CgovKioKICogQSBzaGFyZWQgZGVhZGxpbmUgZm9yIG9uZSBzeW5jaHJvbm91cyBUb29sUGtnIGhvb2sgZGlzcGF0Y2ggY2hhaW4uCiAqCiAqIEEgY2hhaW4gbWF5IGludm9rZSBzZXZlcmFsIGhvb2tzIHNlcmlhbGx5LiBHaXZpbmcgZWFjaCBob29rIHRoZSBmdWxsIGNvbmZpZ3VyZWQgdGltZW91dCB3b3VsZAogKiBtdWx0aXBseSB0aGUgdGltZSBzcGVudCBiZWZvcmUgYSBtZXNzYWdlIGNhbiBjb250aW51ZSwgc28gZWFjaCBpbnZvY2F0aW9uIHJlY2VpdmVzIG9ubHkgdGhlCiAqIHRpbWUgc3RpbGwgYXZhaWxhYmxlIGZyb20gdGhpcyBzaW5nbGUgZGVhZGxpbmUuCiAqLwppbnRlcm5hbCBjbGFzcyBUb29sUGtnSG9va0V4ZWN1dGlvbkJ1ZGdldCBwcml2YXRlIGNvbnN0cnVjdG9yKAogICAgcHJpdmF0ZSB2YWwgc3RhcnRlZEF0TmFub3M6IExvbmcsCiAgICBwcml2YXRlIHZhbCBkZWFkbGluZU5hbm9zOiBMb25nCikgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIGNyZWF0ZSgpOiBUb29sUGtnSG9va0V4ZWN1dGlvbkJ1ZGdldCB7CiAgICAgICAgICAgIHZhbCBjb250ZXh0ID0gT3Blcml0QXBwbGljYXRpb24uaW5zdGFuY2UuYXBwbGljYXRpb25Db250ZXh0CiAgICAgICAgICAgIHZhbCB0aW1lb3V0U2Vjb25kcyA9CiAgICAgICAgICAgICAgICBEaXNwbGF5UHJlZmVyZW5jZXNNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpLmdldFRvb2xQa2dIb29rVGltZW91dFNlY29uZHMoKQogICAgICAgICAgICB2YWwgc3RhcnRlZEF0TmFub3MgPSBTeXN0ZW0ubmFub1RpbWUoKQogICAgICAgICAgICByZXR1cm4gVG9vbFBrZ0hvb2tFeGVjdXRpb25CdWRnZXQoCiAgICAgICAgICAgICAgICBzdGFydGVkQXROYW5vcyA9IHN0YXJ0ZWRBdE5hbm9zLAogICAgICAgICAgICAgICAgZGVhZGxpbmVOYW5vcyA9IHN0YXJ0ZWRBdE5hbm9zICsgVGltZVVuaXQuU0VDT05EUy50b05hbm9zKHRpbWVvdXRTZWNvbmRzLnRvTG9uZygpKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIGZ1biByZW1haW5pbmdNaWxsaXMoKTogTG9uZz8gewogICAgICAgIHZhbCByZW1haW5pbmdOYW5vcyA9IGRlYWRsaW5lTmFub3MgLSBTeXN0ZW0ubmFub1RpbWUoKQogICAgICAgIGlmIChyZW1haW5pbmdOYW5vcyA8PSAwTCkgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgICAgICByZXR1cm4gVGltZVVuaXQuTkFOT1NFQ09ORFMudG9NaWxsaXMocmVtYWluaW5nTmFub3MpLmNvZXJjZUF0TGVhc3QoMUwpCiAgICB9CgogICAgZnVuIGVsYXBzZWRNaWxsaXMoKTogTG9uZyA9CiAgICAgICAgVGltZVVuaXQuTkFOT1NFQ09ORFMudG9NaWxsaXMoU3lzdGVtLm5hbm9UaW1lKCkgLSBzdGFydGVkQXROYW5vcykKCiAgICBmdW4gbG9nRGVhZGxpbmVSZWFjaGVkKAogICAgICAgIHRhZzogU3RyaW5nLAogICAgICAgIHN0YWdlOiBTdHJpbmcsCiAgICAgICAgY29udGFpbmVyUGFja2FnZU5hbWU6IFN0cmluZywKICAgICAgICBob29rSWQ6IFN0cmluZwogICAgKSB7CiAgICAgICAgQXBwTG9nZ2VyLncoCiAgICAgICAgICAgIHRhZywKICAgICAgICAgICAgIlRvb2xQa2cgaG9vayBza2lwcGVkIGFmdGVyIHRpbWVvdXQ6IHN0YWdlPSRzdGFnZSwgY29udGFpbmVyPSRjb250YWluZXJQYWNrYWdlTmFtZSwgaG9vaz0kaG9va0lkLCBlbGFwc2VkTXM9JHtlbGFwc2VkTWlsbGlzKCl9IgogICAgICAgICkKICAgIH0KCiAgICBmdW4gbG9nVGltZW91dElmUHJlc2VudCgKICAgICAgICByZXN1bHQ6IFJlc3VsdDxBbnk/PiwKICAgICAgICB0YWc6IFN0cmluZywKICAgICAgICBzdGFnZTogU3RyaW5nLAogICAgICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICAgICAgaG9va0lkOiBTdHJpbmcKICAgICk6IEJvb2xlYW4gewogICAgICAgIHZhbCBmYWlsdXJlTWVzc2FnZSA9CiAgICAgICAgICAgIHJlc3VsdC5nZXRPck51bGwoKT8ubGV0KDo6ZXh0cmFjdEpzRXhlY3V0aW9uRXJyb3JNZXNzYWdlKQogICAgICAgICAgICAgICAgPzogcmVzdWx0LmV4Y2VwdGlvbk9yTnVsbCgpPy5tZXNzYWdlCiAgICAgICAgaWYgKGZhaWx1cmVNZXNzYWdlPy5jb250YWlucygidGltZWQgb3V0IiwgaWdub3JlQ2FzZSA9IHRydWUpICE9IHRydWUpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIEFwcExvZ2dlci53KAogICAgICAgICAgICB0YWcsCiAgICAgICAgICAgICJUb29sUGtnIGhvb2sgdGltZWQgb3V0OiBzdGFnZT0kc3RhZ2UsIGNvbnRhaW5lcj0kY29udGFpbmVyUGFja2FnZU5hbWUsIGhvb2s9JGhvb2tJZCwgZWxhcHNlZE1zPSR7ZWxhcHNlZE1pbGxpcygpfSwgcmVhc29uPSRmYWlsdXJlTWVzc2FnZSIKICAgICAgICApCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KfQo=
+package com.bslsjdk.operit.plugins.toolpkg
+
+import com.bslsjdk.operit.core.application.OperitApplication
+import com.bslsjdk.operit.core.tools.javascript.extractJsExecutionErrorMessage
+import com.bslsjdk.operit.data.preferences.DisplayPreferencesManager
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.TimeUnit
+
+/**
+ * A shared deadline for one synchronous ToolPkg hook dispatch chain.
+ *
+ * A chain may invoke several hooks serially. Giving each hook the full configured timeout would
+ * multiply the time spent before a message can continue, so each invocation receives only the
+ * time still available from this single deadline.
+ */
+internal class ToolPkgHookExecutionBudget private constructor(
+    private val startedAtNanos: Long,
+    private val deadlineNanos: Long
+) {
+    companion object {
+        fun create(): ToolPkgHookExecutionBudget {
+            val context = OperitApplication.instance.applicationContext
+            val timeoutSeconds =
+                DisplayPreferencesManager.getInstance(context).getToolPkgHookTimeoutSeconds()
+            val startedAtNanos = System.nanoTime()
+            return ToolPkgHookExecutionBudget(
+                startedAtNanos = startedAtNanos,
+                deadlineNanos = startedAtNanos + TimeUnit.SECONDS.toNanos(timeoutSeconds.toLong())
+            )
+        }
+    }
+
+    fun remainingMillis(): Long? {
+        val remainingNanos = deadlineNanos - System.nanoTime()
+        if (remainingNanos <= 0L) {
+            return null
+        }
+        return TimeUnit.NANOSECONDS.toMillis(remainingNanos).coerceAtLeast(1L)
+    }
+
+    fun elapsedMillis(): Long =
+        TimeUnit.NANOSECONDS.toMillis(System.nanoTime() - startedAtNanos)
+
+    fun logDeadlineReached(
+        tag: String,
+        stage: String,
+        containerPackageName: String,
+        hookId: String
+    ) {
+        AppLogger.w(
+            tag,
+            "ToolPkg hook skipped after timeout: stage=$stage, container=$containerPackageName, hook=$hookId, elapsedMs=${elapsedMillis()}"
+        )
+    }
+
+    fun logTimeoutIfPresent(
+        result: Result<Any?>,
+        tag: String,
+        stage: String,
+        containerPackageName: String,
+        hookId: String
+    ): Boolean {
+        val failureMessage =
+            result.getOrNull()?.let(::extractJsExecutionErrorMessage)
+                ?: result.exceptionOrNull()?.message
+        if (failureMessage?.contains("timed out", ignoreCase = true) != true) {
+            return false
+        }
+        AppLogger.w(
+            tag,
+            "ToolPkg hook timed out: stage=$stage, container=$containerPackageName, hook=$hookId, elapsedMs=${elapsedMillis()}, reason=$failureMessage"
+        )
+        return true
+    }
+}

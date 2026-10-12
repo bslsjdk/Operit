@@ -1,1 +1,33 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnN0eWxlLmlucHV0LmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkFsZXJ0RGlhbG9nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0QnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCgpAQ29tcG9zYWJsZQpmdW4gQ2hhcmFjdGVyQ2FyZE1lbW9yeUJpbmRpbmdTd2l0Y2hDb25maXJtRGlhbG9nKAogICAgdmlzaWJsZTogQm9vbGVhbiwKICAgIG9uQ29uZmlybTogKCkgLT4gVW5pdCwKICAgIG9uRGlzbWlzczogKCkgLT4gVW5pdCwKKSB7CiAgICBpZiAoIXZpc2libGUpIHJldHVybgoKICAgIEFsZXJ0RGlhbG9nKAogICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MsCiAgICAgICAgdGl0bGUgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY2hhcmFjdGVyX2NhcmRfbWVtb3J5X3N3aXRjaF9jb25maXJtX3RpdGxlKSkgfSwKICAgICAgICB0ZXh0ID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNoYXJhY3Rlcl9jYXJkX21lbW9yeV9zd2l0Y2hfY29uZmlybV9tZXNzYWdlKSkgfSwKICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSBvbkNvbmZpcm0pIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY2hhcmFjdGVyX2NhcmRfbWVtb3J5X3N3aXRjaF9jb25maXJtX2FjdGlvbikpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IG9uRGlzbWlzcykgewogICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5jYW5jZWwpKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICkKfQo=
+package com.bslsjdk.operit.ui.features.chat.components.style.input.common
+
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.stringResource
+import com.bslsjdk.operit.R
+
+@Composable
+fun CharacterCardMemoryBindingSwitchConfirmDialog(
+    visible: Boolean,
+    onConfirm: () -> Unit,
+    onDismiss: () -> Unit,
+) {
+    if (!visible) return
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.character_card_memory_switch_confirm_title)) },
+        text = { Text(stringResource(R.string.character_card_memory_switch_confirm_message)) },
+        confirmButton = {
+            TextButton(onClick = onConfirm) {
+                Text(stringResource(R.string.character_card_memory_switch_confirm_action))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.cancel))
+            }
+        },
+    )
+}

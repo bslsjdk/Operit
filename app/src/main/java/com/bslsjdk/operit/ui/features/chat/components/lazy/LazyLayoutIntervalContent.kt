@@ -1,1 +1,71 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKLyoqCiAqIENvbW1vbiBwYXJ0cyBiYWNraW5nIHRoZSBpbnRlcnZhbC1iYXNlZCBjb250ZW50IG9mIGxhenkgbGF5b3V0IGRlZmluZWQgdGhyb3VnaCBgaXRlbWAgRFNMLgogKgogKiBOb3RlOiB0aGlzIGNsYXNzIGlzIGEgcGFydCBvZiBbTGF6eUxheW91dF0gaGFybmVzcyB0aGF0IGFsbG93cyBmb3IgYnVpbGRpbmcgY3VzdG9tIGxhenkgbGF5b3V0cy4KICogTGF6eUxheW91dCBhbmQgYWxsIGNvcnJlc3BvbmRpbmcgQVBJcyBhcmUgc3RpbGwgdW5kZXIgZGV2ZWxvcG1lbnQgYW5kIGFyZSBzdWJqZWN0IHRvIGNoYW5nZS4KICovCmFic3RyYWN0IGNsYXNzIExhenlMYXlvdXRJbnRlcnZhbENvbnRlbnQ8SW50ZXJ2YWwgOiBMYXp5TGF5b3V0SW50ZXJ2YWxDb250ZW50LkludGVydmFsPiB7CiAgICBhYnN0cmFjdCB2YWwgaW50ZXJ2YWxzOiBJbnRlcnZhbExpc3Q8SW50ZXJ2YWw+CgogICAgLyoqIFRoZSB0b3RhbCBhbW91bnQgb2YgaXRlbXMgaW4gYWxsIHRoZSBpbnRlcnZhbHMuICovCiAgICB2YWwgaXRlbUNvdW50OiBJbnQKICAgICAgICBnZXQoKSA9IGludGVydmFscy5zaXplCgogICAgLyoqIFJldHVybnMgaXRlbSBrZXkgYmFzZWQgb24gYSBnbG9iYWwgaW5kZXguICovCiAgICBmdW4gZ2V0S2V5KGluZGV4OiBJbnQpOiBBbnkgPQogICAgICAgIHdpdGhJbnRlcnZhbChpbmRleCkgeyBsb2NhbEluZGV4LCBjb250ZW50IC0+CiAgICAgICAgICAgIGNvbnRlbnQua2V5Py5pbnZva2UobG9jYWxJbmRleCkgPzogZ2V0RGVmYXVsdExhenlMYXlvdXRLZXkoaW5kZXgpCiAgICAgICAgfQoKICAgIC8qKiBSZXR1cm5zIGNvbnRlbnQgdHlwZSBiYXNlZCBvbiBhIGdsb2JhbCBpbmRleC4gKi8KICAgIGZ1biBnZXRDb250ZW50VHlwZShpbmRleDogSW50KTogQW55PyA9CiAgICAgICAgd2l0aEludGVydmFsKGluZGV4KSB7IGxvY2FsSW5kZXgsIGNvbnRlbnQgLT4gY29udGVudC50eXBlLmludm9rZShsb2NhbEluZGV4KSB9CgogICAgLyoqCiAgICAgKiBSdW5zIGEgW2Jsb2NrXSBvbiB0aGUgY29udGVudCBvZiB0aGUgaW50ZXJ2YWwgYXNzb2NpYXRlZCB3aXRoIHRoZSBwcm92aWRlZCBbZ2xvYmFsSW5kZXhdIHdpdGgKICAgICAqIHByb3ZpZGluZyBhIGxvY2FsIGluZGV4IGluIHRoZSBnaXZlbiBpbnRlcnZhbC4KICAgICAqLwogICAgaW5saW5lIGZ1biA8VD4gd2l0aEludGVydmFsKAogICAgICAgIGdsb2JhbEluZGV4OiBJbnQsCiAgICAgICAgYmxvY2s6IChsb2NhbEludGVydmFsSW5kZXg6IEludCwgY29udGVudDogSW50ZXJ2YWwpIC0+IFQsCiAgICApOiBUIHsKICAgICAgICB2YWwgaW50ZXJ2YWwgPSBpbnRlcnZhbHNbZ2xvYmFsSW5kZXhdCiAgICAgICAgdmFsIGxvY2FsSW50ZXJ2YWxJbmRleCA9IGdsb2JhbEluZGV4IC0gaW50ZXJ2YWwuc3RhcnRJbmRleAogICAgICAgIHJldHVybiBibG9jayhsb2NhbEludGVydmFsSW5kZXgsIGludGVydmFsLnZhbHVlKQogICAgfQoKICAgIC8qKgogICAgICogQ29tbW9uIGNvbnRlbnQgb2YgaW5kaXZpZHVhbCBpbnRlcnZhbHMgaW4gYGl0ZW1gIERTTCBvZiBsYXp5IGxheW91dHMuCiAgICAgKgogICAgICogTm90ZTogdGhpcyBjbGFzcyBpcyBhIHBhcnQgb2YgW0xhenlMYXlvdXRdIGhhcm5lc3MgdGhhdCBhbGxvd3MgZm9yIGJ1aWxkaW5nIGN1c3RvbSBsYXp5CiAgICAgKiBsYXlvdXRzLiBMYXp5TGF5b3V0IGFuZCBhbGwgY29ycmVzcG9uZGluZyBBUElzIGFyZSBzdGlsbCB1bmRlciBkZXZlbG9wbWVudCBhbmQgYXJlIHN1YmplY3QgdG8KICAgICAqIGNoYW5nZS4KICAgICAqLwogICAgaW50ZXJmYWNlIEludGVydmFsIHsKICAgICAgICAvKiogUmV0dXJucyBpdGVtIGtleSBiYXNlZCBvbiBhIGxvY2FsIGluZGV4IGZvciB0aGUgY3VycmVudCBpbnRlcnZhbC4gKi8KICAgICAgICB2YWwga2V5OiAoKGluZGV4OiBJbnQpIC0+IEFueSk/CiAgICAgICAgICAgIGdldCgpID0gbnVsbAoKICAgICAgICAvKiogUmV0dXJucyBpdGVtIHR5cGUgYmFzZWQgb24gYSBsb2NhbCBpbmRleCBmb3IgdGhlIGN1cnJlbnQgaW50ZXJ2YWwuICovCiAgICAgICAgdmFsIHR5cGU6ICgoaW5kZXg6IEludCkgLT4gQW55PykKICAgICAgICAgICAgZ2V0KCkgPSB7IG51bGwgfQogICAgfQp9Cg==
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+/**
+ * Common parts backing the interval-based content of lazy layout defined through `item` DSL.
+ *
+ * Note: this class is a part of [LazyLayout] harness that allows for building custom lazy layouts.
+ * LazyLayout and all corresponding APIs are still under development and are subject to change.
+ */
+abstract class LazyLayoutIntervalContent<Interval : LazyLayoutIntervalContent.Interval> {
+    abstract val intervals: IntervalList<Interval>
+
+    /** The total amount of items in all the intervals. */
+    val itemCount: Int
+        get() = intervals.size
+
+    /** Returns item key based on a global index. */
+    fun getKey(index: Int): Any =
+        withInterval(index) { localIndex, content ->
+            content.key?.invoke(localIndex) ?: getDefaultLazyLayoutKey(index)
+        }
+
+    /** Returns content type based on a global index. */
+    fun getContentType(index: Int): Any? =
+        withInterval(index) { localIndex, content -> content.type.invoke(localIndex) }
+
+    /**
+     * Runs a [block] on the content of the interval associated with the provided [globalIndex] with
+     * providing a local index in the given interval.
+     */
+    inline fun <T> withInterval(
+        globalIndex: Int,
+        block: (localIntervalIndex: Int, content: Interval) -> T,
+    ): T {
+        val interval = intervals[globalIndex]
+        val localIntervalIndex = globalIndex - interval.startIndex
+        return block(localIntervalIndex, interval.value)
+    }
+
+    /**
+     * Common content of individual intervals in `item` DSL of lazy layouts.
+     *
+     * Note: this class is a part of [LazyLayout] harness that allows for building custom lazy
+     * layouts. LazyLayout and all corresponding APIs are still under development and are subject to
+     * change.
+     */
+    interface Interval {
+        /** Returns item key based on a local index for the current interval. */
+        val key: ((index: Int) -> Any)?
+            get() = null
+
+        /** Returns item type based on a local index for the current interval. */
+        val type: ((index: Int) -> Any?)
+            get() = { null }
+    }
+}

@@ -1,1 +1,115 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0LkpzRW5naW5lCmltcG9ydCBqYXZhLnV0aWwuQXJyYXlEZXF1ZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROdWxsCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFNhbWUKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VGhyb3dzCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLm1vY2tpdG8ua290bGluLm1vY2sKaW1wb3J0IG9yZy5tb2NraXRvLmtvdGxpbi5uZXZlcgppbXBvcnQgb3JnLm1vY2tpdG8ua290bGluLnZlcmlmeQoKY2xhc3MgVG9vbFBrZ01hbmFnZXJUZXN0IHsKICAgIEBUZXN0CiAgICBmdW4gYGV4ZWN1dGlvbiBjb250ZXh0IGNhbm5vdCBiZSBzaGFyZWQgYnkgZGlmZmVyZW50IGNvbnRhaW5lcnNgKCkgewogICAgICAgIHZhbCBlbmdpbmUgPSBtb2NrPEpzRW5naW5lPigpCiAgICAgICAgdmFsIG1hbmFnZXIgPSBjcmVhdGVNYW5hZ2VyKGVuZ2luZSkKCiAgICAgICAgYXNzZXJ0U2FtZSgKICAgICAgICAgICAgZW5naW5lLAogICAgICAgICAgICBtYW5hZ2VyLmdldFRvb2xQa2dFeGVjdXRpb25FbmdpbmUoCiAgICAgICAgICAgICAgICBjb250ZXh0S2V5ID0gInRvb2xwa2dfbWFpbjpwYWNrYWdlLWEiLAogICAgICAgICAgICAgICAgY29udGFpbmVyUGFja2FnZU5hbWUgPSAicGFja2FnZS1hIgogICAgICAgICAgICApCiAgICAgICAgKQoKICAgICAgICBhc3NlcnRUaHJvd3MoSWxsZWdhbFN0YXRlRXhjZXB0aW9uOjpjbGFzcy5qYXZhKSB7CiAgICAgICAgICAgIG1hbmFnZXIuZ2V0VG9vbFBrZ0V4ZWN1dGlvbkVuZ2luZSgKICAgICAgICAgICAgICAgIGNvbnRleHRLZXkgPSAidG9vbHBrZ19tYWluOnBhY2thZ2UtYSIsCiAgICAgICAgICAgICAgICBjb250YWluZXJQYWNrYWdlTmFtZSA9ICJwYWNrYWdlLWIiCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZGVzdHJveWluZyBjb250YWluZXIgcmVsZWFzZXMgZXZlcnkgb3duZWQgY29udGV4dCBvbmx5YCgpIHsKICAgICAgICB2YWwgbWFpbkVuZ2luZSA9IG1vY2s8SnNFbmdpbmU+KCkKICAgICAgICB2YWwgeG1sRW5naW5lID0gbW9jazxKc0VuZ2luZT4oKQogICAgICAgIHZhbCBvdGhlckVuZ2luZSA9IG1vY2s8SnNFbmdpbmU+KCkKICAgICAgICB2YWwgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIobWFpbkVuZ2luZSwgeG1sRW5naW5lLCBvdGhlckVuZ2luZSkKCiAgICAgICAgbWFuYWdlci5nZXRUb29sUGtnRXhlY3V0aW9uRW5naW5lKCJ0b29scGtnX21haW46cGFja2FnZS1hIiwgInBhY2thZ2UtYSIpCiAgICAgICAgbWFuYWdlci5nZXRUb29sUGtnRXhlY3V0aW9uRW5naW5lKCJ0b29scGtnX3htbF9yZW5kZXI6cGFja2FnZS1hOnNjcmVlbjpub2RlIiwgInBhY2thZ2UtYSIpCiAgICAgICAgbWFuYWdlci5nZXRUb29sUGtnRXhlY3V0aW9uRW5naW5lKCJ0b29scGtnX21haW46cGFja2FnZS1iIiwgInBhY2thZ2UtYiIpCgogICAgICAgIG1hbmFnZXIuZGVzdHJveVRvb2xQa2dFeGVjdXRpb25FbmdpbmVzKCJwYWNrYWdlLWEiKQoKICAgICAgICBhc3NlcnROdWxsKG1hbmFnZXIuZmluZFRvb2xQa2dFeGVjdXRpb25FbmdpbmUoInRvb2xwa2dfbWFpbjpwYWNrYWdlLWEiKSkKICAgICAgICBhc3NlcnROdWxsKG1hbmFnZXIuZmluZFRvb2xQa2dFeGVjdXRpb25FbmdpbmUoInRvb2xwa2dfeG1sX3JlbmRlcjpwYWNrYWdlLWE6c2NyZWVuOm5vZGUiKSkKICAgICAgICBhc3NlcnRTYW1lKG90aGVyRW5naW5lLCBtYW5hZ2VyLmZpbmRUb29sUGtnRXhlY3V0aW9uRW5naW5lKCJ0b29scGtnX21haW46cGFja2FnZS1iIikpCiAgICAgICAgdmVyaWZ5KG1haW5FbmdpbmUpLmRlc3Ryb3koKQogICAgICAgIHZlcmlmeSh4bWxFbmdpbmUpLmRlc3Ryb3koKQogICAgICAgIHZlcmlmeShvdGhlckVuZ2luZSwgbmV2ZXIoKSkuZGVzdHJveSgpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgc3RhbGUgY29udGV4dCByZWxlYXNlIGRvZXMgbm90IGRlc3Ryb3kgcmVwbGFjZW1lbnQgZW5naW5lYCgpIHsKICAgICAgICB2YWwgcHJldmlvdXNFbmdpbmUgPSBtb2NrPEpzRW5naW5lPigpCiAgICAgICAgdmFsIHJlcGxhY2VtZW50RW5naW5lID0gbW9jazxKc0VuZ2luZT4oKQogICAgICAgIHZhbCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcihwcmV2aW91c0VuZ2luZSwgcmVwbGFjZW1lbnRFbmdpbmUpCiAgICAgICAgdmFsIGNvbnRleHRLZXkgPSAidG9vbHBrZ194bWxfcmVuZGVyOnBhY2thZ2UtYTpzY3JlZW46bm9kZSIKCiAgICAgICAgbWFuYWdlci5nZXRUb29sUGtnRXhlY3V0aW9uRW5naW5lKGNvbnRleHRLZXksICJwYWNrYWdlLWEiKQogICAgICAgIG1hbmFnZXIucmVsZWFzZVRvb2xQa2dFeGVjdXRpb25FbmdpbmUoY29udGV4dEtleSwgcHJldmlvdXNFbmdpbmUpCiAgICAgICAgbWFuYWdlci5nZXRUb29sUGtnRXhlY3V0aW9uRW5naW5lKGNvbnRleHRLZXksICJwYWNrYWdlLWEiKQoKICAgICAgICBtYW5hZ2VyLnJlbGVhc2VUb29sUGtnRXhlY3V0aW9uRW5naW5lKGNvbnRleHRLZXksIHByZXZpb3VzRW5naW5lKQoKICAgICAgICBhc3NlcnRTYW1lKHJlcGxhY2VtZW50RW5naW5lLCBtYW5hZ2VyLmZpbmRUb29sUGtnRXhlY3V0aW9uRW5naW5lKGNvbnRleHRLZXkpKQogICAgICAgIHZlcmlmeShwcmV2aW91c0VuZ2luZSkuZGVzdHJveSgpCiAgICAgICAgdmVyaWZ5KHJlcGxhY2VtZW50RW5naW5lLCBuZXZlcigpKS5kZXN0cm95KCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGByZWxlYXNpbmcgb25lIG9mIG11bHRpcGxlIGNvbnRleHQgbGVhc2VzIGtlZXBzIHRoZSBlbmdpbmUgYWN0aXZlYCgpIHsKICAgICAgICB2YWwgZW5naW5lID0gbW9jazxKc0VuZ2luZT4oKQogICAgICAgIHZhbCBtYW5hZ2VyID0gY3JlYXRlTWFuYWdlcihlbmdpbmUpCiAgICAgICAgdmFsIGNvbnRleHRLZXkgPSAidG9vbHBrZ194bWxfcmVuZGVyOnBhY2thZ2UtYTpzY3JlZW46bm9kZSIKCiAgICAgICAgdmFsIGZpcnN0TGVhc2UgPSBtYW5hZ2VyLmFjcXVpcmVUb29sUGtnRXhlY3V0aW9uRW5naW5lKGNvbnRleHRLZXksICJwYWNrYWdlLWEiKQogICAgICAgIHZhbCBzZWNvbmRMZWFzZSA9IG1hbmFnZXIuYWNxdWlyZVRvb2xQa2dFeGVjdXRpb25FbmdpbmUoY29udGV4dEtleSwgInBhY2thZ2UtYSIpCgogICAgICAgIG1hbmFnZXIucmVsZWFzZVRvb2xQa2dFeGVjdXRpb25FbmdpbmUoY29udGV4dEtleSwgZmlyc3RMZWFzZSkKCiAgICAgICAgYXNzZXJ0U2FtZShlbmdpbmUsIG1hbmFnZXIuZmluZFRvb2xQa2dFeGVjdXRpb25FbmdpbmUoY29udGV4dEtleSkpCiAgICAgICAgdmVyaWZ5KGVuZ2luZSwgbmV2ZXIoKSkuZGVzdHJveSgpCgogICAgICAgIG1hbmFnZXIucmVsZWFzZVRvb2xQa2dFeGVjdXRpb25FbmdpbmUoY29udGV4dEtleSwgc2Vjb25kTGVhc2UpCgogICAgICAgIGFzc2VydE51bGwobWFuYWdlci5maW5kVG9vbFBrZ0V4ZWN1dGlvbkVuZ2luZShjb250ZXh0S2V5KSkKICAgICAgICB2ZXJpZnkoZW5naW5lKS5kZXN0cm95KCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBkZXN0cm95IGNsb3NlcyByZWdpc3RyeSBhbmQgcmVqZWN0cyBsYXRlciBhY3F1aXNpdGlvbmAoKSB7CiAgICAgICAgdmFsIGVuZ2luZSA9IG1vY2s8SnNFbmdpbmU+KCkKICAgICAgICB2YWwgbWFuYWdlciA9IGNyZWF0ZU1hbmFnZXIoZW5naW5lKQogICAgICAgIG1hbmFnZXIuZ2V0VG9vbFBrZ0V4ZWN1dGlvbkVuZ2luZSgidG9vbHBrZ19tYWluOnBhY2thZ2UtYSIsICJwYWNrYWdlLWEiKQoKICAgICAgICBtYW5hZ2VyLmRlc3Ryb3koKQoKICAgICAgICB2ZXJpZnkoZW5naW5lKS5kZXN0cm95KCkKICAgICAgICBhc3NlcnRUaHJvd3MoSWxsZWdhbFN0YXRlRXhjZXB0aW9uOjpjbGFzcy5qYXZhKSB7CiAgICAgICAgICAgIG1hbmFnZXIuZ2V0VG9vbFBrZ0V4ZWN1dGlvbkVuZ2luZSgidG9vbHBrZ19tYWluOnBhY2thZ2UtYSIsICJwYWNrYWdlLWEiKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBjcmVhdGVNYW5hZ2VyKHZhcmFyZyBlbmdpbmVzOiBKc0VuZ2luZSk6IFRvb2xQa2dNYW5hZ2VyIHsKICAgICAgICB2YWwgYXZhaWxhYmxlRW5naW5lcyA9IEFycmF5RGVxdWUoZW5naW5lcy50b0xpc3QoKSkKICAgICAgICByZXR1cm4gVG9vbFBrZ01hbmFnZXIobW9jazxDb250ZXh0PigpKSB7CiAgICAgICAgICAgIGF2YWlsYWJsZUVuZ2luZXMucmVtb3ZlRmlyc3QoKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.packTool
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.javascript.JsEngine
+import java.util.ArrayDeque
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertSame
+import org.junit.Assert.assertThrows
+import org.junit.Test
+import org.mockito.kotlin.mock
+import org.mockito.kotlin.never
+import org.mockito.kotlin.verify
+
+class ToolPkgManagerTest {
+    @Test
+    fun `execution context cannot be shared by different containers`() {
+        val engine = mock<JsEngine>()
+        val manager = createManager(engine)
+
+        assertSame(
+            engine,
+            manager.getToolPkgExecutionEngine(
+                contextKey = "toolpkg_main:package-a",
+                containerPackageName = "package-a"
+            )
+        )
+
+        assertThrows(IllegalStateException::class.java) {
+            manager.getToolPkgExecutionEngine(
+                contextKey = "toolpkg_main:package-a",
+                containerPackageName = "package-b"
+            )
+        }
+    }
+
+    @Test
+    fun `destroying container releases every owned context only`() {
+        val mainEngine = mock<JsEngine>()
+        val xmlEngine = mock<JsEngine>()
+        val otherEngine = mock<JsEngine>()
+        val manager = createManager(mainEngine, xmlEngine, otherEngine)
+
+        manager.getToolPkgExecutionEngine("toolpkg_main:package-a", "package-a")
+        manager.getToolPkgExecutionEngine("toolpkg_xml_render:package-a:screen:node", "package-a")
+        manager.getToolPkgExecutionEngine("toolpkg_main:package-b", "package-b")
+
+        manager.destroyToolPkgExecutionEngines("package-a")
+
+        assertNull(manager.findToolPkgExecutionEngine("toolpkg_main:package-a"))
+        assertNull(manager.findToolPkgExecutionEngine("toolpkg_xml_render:package-a:screen:node"))
+        assertSame(otherEngine, manager.findToolPkgExecutionEngine("toolpkg_main:package-b"))
+        verify(mainEngine).destroy()
+        verify(xmlEngine).destroy()
+        verify(otherEngine, never()).destroy()
+    }
+
+    @Test
+    fun `stale context release does not destroy replacement engine`() {
+        val previousEngine = mock<JsEngine>()
+        val replacementEngine = mock<JsEngine>()
+        val manager = createManager(previousEngine, replacementEngine)
+        val contextKey = "toolpkg_xml_render:package-a:screen:node"
+
+        manager.getToolPkgExecutionEngine(contextKey, "package-a")
+        manager.releaseToolPkgExecutionEngine(contextKey, previousEngine)
+        manager.getToolPkgExecutionEngine(contextKey, "package-a")
+
+        manager.releaseToolPkgExecutionEngine(contextKey, previousEngine)
+
+        assertSame(replacementEngine, manager.findToolPkgExecutionEngine(contextKey))
+        verify(previousEngine).destroy()
+        verify(replacementEngine, never()).destroy()
+    }
+
+    @Test
+    fun `releasing one of multiple context leases keeps the engine active`() {
+        val engine = mock<JsEngine>()
+        val manager = createManager(engine)
+        val contextKey = "toolpkg_xml_render:package-a:screen:node"
+
+        val firstLease = manager.acquireToolPkgExecutionEngine(contextKey, "package-a")
+        val secondLease = manager.acquireToolPkgExecutionEngine(contextKey, "package-a")
+
+        manager.releaseToolPkgExecutionEngine(contextKey, firstLease)
+
+        assertSame(engine, manager.findToolPkgExecutionEngine(contextKey))
+        verify(engine, never()).destroy()
+
+        manager.releaseToolPkgExecutionEngine(contextKey, secondLease)
+
+        assertNull(manager.findToolPkgExecutionEngine(contextKey))
+        verify(engine).destroy()
+    }
+
+    @Test
+    fun `destroy closes registry and rejects later acquisition`() {
+        val engine = mock<JsEngine>()
+        val manager = createManager(engine)
+        manager.getToolPkgExecutionEngine("toolpkg_main:package-a", "package-a")
+
+        manager.destroy()
+
+        verify(engine).destroy()
+        assertThrows(IllegalStateException::class.java) {
+            manager.getToolPkgExecutionEngine("toolpkg_main:package-a", "package-a")
+        }
+    }
+
+    private fun createManager(vararg engines: JsEngine): ToolPkgManager {
+        val availableEngines = ArrayDeque(engines.toList())
+        return ToolPkgManager(mock<Context>()) {
+            availableEngines.removeFirst()
+        }
+    }
+}

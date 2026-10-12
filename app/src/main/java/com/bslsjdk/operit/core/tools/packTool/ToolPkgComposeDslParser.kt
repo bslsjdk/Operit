@@ -1,1 +1,207 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAppbXBvcnQgb3JnLmpzb24uSlNPTlRva2VuZXIKCmRhdGEgY2xhc3MgVG9vbFBrZ0NvbXBvc2VEc2xOb2RlKAogICAgdmFsIHR5cGU6IFN0cmluZywKICAgIHZhbCBwcm9wczogTWFwPFN0cmluZywgQW55Pz4sCiAgICB2YWwgY2hpbGRyZW46IExpc3Q8VG9vbFBrZ0NvbXBvc2VEc2xOb2RlPiwKICAgIHZhbCBzbG90czogTWFwPFN0cmluZywgTGlzdDxUb29sUGtnQ29tcG9zZURzbE5vZGU+PiA9IGVtcHR5TWFwKCkKKQoKZGF0YSBjbGFzcyBUb29sUGtnQ29tcG9zZURzbFJlbmRlclJlc3VsdCgKICAgIHZhbCB0cmVlOiBUb29sUGtnQ29tcG9zZURzbE5vZGUsCiAgICB2YWwgc3RhdGU6IE1hcDxTdHJpbmcsIEFueT8+LAogICAgdmFsIG1lbW86IE1hcDxTdHJpbmcsIEFueT8+CikKCm9iamVjdCBUb29sUGtnQ29tcG9zZURzbFBhcnNlciB7CiAgICBmdW4gcGFyc2VSZW5kZXJSZXN1bHQocmF3UmVzdWx0OiBBbnk/KTogVG9vbFBrZ0NvbXBvc2VEc2xSZW5kZXJSZXN1bHQ/IHsKICAgICAgICB2YWwgcm9vdCA9IHBhcnNlUm9vdE9iamVjdChyYXdSZXN1bHQpID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIHRyZWVOb2RlID0gcGFyc2VOb2RlKHJvb3Qub3B0KCJ0cmVlIikpID86IHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIFRvb2xQa2dDb21wb3NlRHNsUmVuZGVyUmVzdWx0KAogICAgICAgICAgICB0cmVlID0gdHJlZU5vZGUsCiAgICAgICAgICAgIHN0YXRlID0gYXNNYXAocm9vdC5vcHQoInN0YXRlIikpLAogICAgICAgICAgICBtZW1vID0gYXNNYXAocm9vdC5vcHQoIm1lbW8iKSkKICAgICAgICApCiAgICB9CgogICAgZnVuIGV4dHJhY3RBY3Rpb25JZCh2YWx1ZTogQW55Pyk6IFN0cmluZz8gewogICAgICAgIHJldHVybiB3aGVuICh2YWx1ZSkgewogICAgICAgICAgICBpcyBKU09OT2JqZWN0IC0+IHZhbHVlLm9wdFN0cmluZygiX19hY3Rpb25JZCIpLnRyaW0oKS5pZkJsYW5rIHsgbnVsbCB9CiAgICAgICAgICAgIGlzIE1hcDwqLCAqPiAtPiB2YWx1ZVsiX19hY3Rpb25JZCJdPy50b1N0cmluZygpPy50cmltKCk/LmlmQmxhbmsgeyBudWxsIH0KICAgICAgICAgICAgaXMgU3RyaW5nIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBub3JtYWxpemVkID0gdmFsdWUudHJpbSgpCiAgICAgICAgICAgICAgICB3aGVuIHsKICAgICAgICAgICAgICAgICAgICBub3JtYWxpemVkLnN0YXJ0c1dpdGgoIl9fYWN0aW9uOiIpIC0+IG5vcm1hbGl6ZWQucmVtb3ZlUHJlZml4KCJfX2FjdGlvbjoiKS50cmltKCkuaWZCbGFuayB7IG51bGwgfQogICAgICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWQuaXNOb3RCbGFuaygpIC0+IG5vcm1hbGl6ZWQKICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VSb290T2JqZWN0KHJhd1Jlc3VsdDogQW55Pyk6IEpTT05PYmplY3Q/IHsKICAgICAgICByZXR1cm4gd2hlbiAocmF3UmVzdWx0KSB7CiAgICAgICAgICAgIGlzIEpTT05PYmplY3QgLT4gcmF3UmVzdWx0CiAgICAgICAgICAgIGlzIFN0cmluZyAtPiBwYXJzZVJvb3RPYmplY3RGcm9tU3RyaW5nKHJhd1Jlc3VsdCkKICAgICAgICAgICAgZWxzZSAtPiBwYXJzZVJvb3RPYmplY3RGcm9tU3RyaW5nKHJhd1Jlc3VsdD8udG9TdHJpbmcoKS5vckVtcHR5KCkpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBhcnNlUm9vdE9iamVjdEZyb21TdHJpbmcocmF3OiBTdHJpbmcpOiBKU09OT2JqZWN0PyB7CiAgICAgICAgdmFsIHRyaW1tZWQgPSByYXcudHJpbSgpCiAgICAgICAgaWYgKHRyaW1tZWQuaXNCbGFuaygpIHx8IHRyaW1tZWQuZXF1YWxzKCJudWxsIiwgaWdub3JlQ2FzZSA9IHRydWUpKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgZmlyc3QgPSBydW5DYXRjaGluZyB7IEpTT05Ub2tlbmVyKHRyaW1tZWQpLm5leHRWYWx1ZSgpIH0uZ2V0T3JOdWxsKCkgPzogcmV0dXJuIG51bGwKICAgICAgICBpZiAoZmlyc3QgaXMgSlNPTk9iamVjdCkgewogICAgICAgICAgICByZXR1cm4gZmlyc3QKICAgICAgICB9CgogICAgICAgIGlmIChmaXJzdCBpcyBTdHJpbmcpIHsKICAgICAgICAgICAgdmFsIG5lc3RlZCA9IGZpcnN0LnRyaW0oKQogICAgICAgICAgICBpZiAobmVzdGVkLnN0YXJ0c1dpdGgoInsiKSAmJiBuZXN0ZWQuZW5kc1dpdGgoIn0iKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsgSlNPTk9iamVjdChuZXN0ZWQpIH0uZ2V0T3JOdWxsKCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIG51bGwKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZU5vZGUodmFsdWU6IEFueT8pOiBUb29sUGtnQ29tcG9zZURzbE5vZGU/IHsKICAgICAgICB2YWwgbm9kZU9iaiA9CiAgICAgICAgICAgIHdoZW4gKHZhbHVlKSB7CiAgICAgICAgICAgICAgICBpcyBKU09OT2JqZWN0IC0+IHZhbHVlCiAgICAgICAgICAgICAgICBpcyBNYXA8KiwgKj4gLT4gSlNPTk9iamVjdCh2YWx1ZSkKICAgICAgICAgICAgICAgIGVsc2UgLT4gcmV0dXJuIG51bGwKICAgICAgICAgICAgfQoKICAgICAgICB2YWwgdHlwZSA9IG5vZGVPYmoub3B0U3RyaW5nKCJ0eXBlIikudHJpbSgpCiAgICAgICAgaWYgKHR5cGUuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgcHJvcHMgPSBhc01hcChub2RlT2JqLm9wdCgicHJvcHMiKSkKICAgICAgICB2YWwgY2hpbGRyZW4gPSBtdXRhYmxlTGlzdE9mPFRvb2xQa2dDb21wb3NlRHNsTm9kZT4oKQogICAgICAgIHZhbCBzbG90cyA9IGxpbmtlZE1hcE9mPFN0cmluZywgTGlzdDxUb29sUGtnQ29tcG9zZURzbE5vZGU+PigpCgogICAgICAgIHZhbCByYXdDaGlsZHJlbiA9IG5vZGVPYmoub3B0KCJjaGlsZHJlbiIpCiAgICAgICAgd2hlbiAocmF3Q2hpbGRyZW4pIHsKICAgICAgICAgICAgaXMgSlNPTkFycmF5IC0+IHsKICAgICAgICAgICAgICAgIGZvciAoaW5kZXggaW4gMCB1bnRpbCByYXdDaGlsZHJlbi5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgICAgIHBhcnNlTm9kZShyYXdDaGlsZHJlbi5vcHQoaW5kZXgpKT8ubGV0IHsgY2hpbGRyZW4uYWRkKGl0KSB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaXMgTGlzdDwqPiAtPiB7CiAgICAgICAgICAgICAgICByYXdDaGlsZHJlbi5mb3JFYWNoIHsgY2hpbGQgLT4KICAgICAgICAgICAgICAgICAgICBwYXJzZU5vZGUoY2hpbGQpPy5sZXQgeyBjaGlsZHJlbi5hZGQoaXQpIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBpcyBKU09OT2JqZWN0IC0+IHsKICAgICAgICAgICAgICAgIHBhcnNlTm9kZShyYXdDaGlsZHJlbik/LmxldCB7IGNoaWxkcmVuLmFkZChpdCkgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB2YWwgcmF3U2xvdHMgPSBub2RlT2JqLm9wdCgic2xvdHMiKQogICAgICAgIHdoZW4gKHJhd1Nsb3RzKSB7CiAgICAgICAgICAgIGlzIEpTT05PYmplY3QgLT4gewogICAgICAgICAgICAgICAgcmF3U2xvdHMua2V5cygpLmZvckVhY2ggeyBzbG90TmFtZSAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBzbG90Q2hpbGRyZW4gPSBtdXRhYmxlTGlzdE9mPFRvb2xQa2dDb21wb3NlRHNsTm9kZT4oKQogICAgICAgICAgICAgICAgICAgIHdoZW4gKHZhbCByYXdTbG90VmFsdWUgPSByYXdTbG90cy5vcHQoc2xvdE5hbWUpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlzIEpTT05BcnJheSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgKGluZGV4IGluIDAgdW50aWwgcmF3U2xvdFZhbHVlLmxlbmd0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyc2VOb2RlKHJhd1Nsb3RWYWx1ZS5vcHQoaW5kZXgpKT8ubGV0IHsgc2xvdENoaWxkcmVuLmFkZChpdCkgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGlzIExpc3Q8Kj4gLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmF3U2xvdFZhbHVlLmZvckVhY2ggeyBjaGlsZCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcnNlTm9kZShjaGlsZCk/LmxldCB7IHNsb3RDaGlsZHJlbi5hZGQoaXQpIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBpcyBKU09OT2JqZWN0IC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcnNlTm9kZShyYXdTbG90VmFsdWUpPy5sZXQgeyBzbG90Q2hpbGRyZW4uYWRkKGl0KSB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaWYgKHNsb3RDaGlsZHJlbi5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2xvdHNbc2xvdE5hbWVdID0gc2xvdENoaWxkcmVuCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlzIE1hcDwqLCAqPiAtPiB7CiAgICAgICAgICAgICAgICByYXdTbG90cy5lbnRyaWVzLmZvckVhY2ggeyAoc2xvdE5hbWUsIHJhd1Nsb3RWYWx1ZSkgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgbm9ybWFsaXplZFNsb3ROYW1lID0gc2xvdE5hbWU/LnRvU3RyaW5nKCk/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgICAgICBpZiAobm9ybWFsaXplZFNsb3ROYW1lLmlzQmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB2YWwgc2xvdENoaWxkcmVuID0gbXV0YWJsZUxpc3RPZjxUb29sUGtnQ29tcG9zZURzbE5vZGU+KCkKICAgICAgICAgICAgICAgICAgICB3aGVuIChyYXdTbG90VmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaXMgTGlzdDwqPiAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdTbG90VmFsdWUuZm9yRWFjaCB7IGNoaWxkIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyc2VOb2RlKGNoaWxkKT8ubGV0IHsgc2xvdENoaWxkcmVuLmFkZChpdCkgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGlzIE1hcDwqLCAqPiAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJzZU5vZGUocmF3U2xvdFZhbHVlKT8ubGV0IHsgc2xvdENoaWxkcmVuLmFkZChpdCkgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmIChzbG90Q2hpbGRyZW4uaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHNsb3RzW25vcm1hbGl6ZWRTbG90TmFtZV0gPSBzbG90Q2hpbGRyZW4KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBUb29sUGtnQ29tcG9zZURzbE5vZGUoCiAgICAgICAgICAgIHR5cGUgPSB0eXBlLAogICAgICAgICAgICBwcm9wcyA9IHByb3BzLAogICAgICAgICAgICBjaGlsZHJlbiA9IGNoaWxkcmVuLAogICAgICAgICAgICBzbG90cyA9IHNsb3RzCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGFzTWFwKHZhbHVlOiBBbnk/KTogTWFwPFN0cmluZywgQW55Pz4gewogICAgICAgIHJldHVybiB3aGVuICh2YWx1ZSkgewogICAgICAgICAgICBpcyBKU09OT2JqZWN0IC0+IHsKICAgICAgICAgICAgICAgIHZhbCBtYXAgPSBsaW5rZWRNYXBPZjxTdHJpbmcsIEFueT8+KCkKICAgICAgICAgICAgICAgIHZhbHVlLmtleXMoKS5mb3JFYWNoIHsga2V5IC0+CiAgICAgICAgICAgICAgICAgICAgbWFwW2tleV0gPSBub3JtYWxpemUodmFsdWUub3B0KGtleSkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBtYXAKICAgICAgICAgICAgfQogICAgICAgICAgICBpcyBNYXA8KiwgKj4gLT4gewogICAgICAgICAgICAgICAgdmFsdWUuZW50cmllcy5hc3NvY2lhdGUgeyBlbnRyeSAtPgogICAgICAgICAgICAgICAgICAgIGVudHJ5LmtleS50b1N0cmluZygpIHRvIG5vcm1hbGl6ZShlbnRyeS52YWx1ZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIC0+IGVtcHR5TWFwKCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXNMaXN0KHZhbHVlOiBBbnk/KTogTGlzdDxBbnk/PiB7CiAgICAgICAgcmV0dXJuIHdoZW4gKHZhbHVlKSB7CiAgICAgICAgICAgIGlzIEpTT05BcnJheSAtPiB7CiAgICAgICAgICAgICAgICBidWlsZExpc3QgewogICAgICAgICAgICAgICAgICAgIGZvciAoaW5kZXggaW4gMCB1bnRpbCB2YWx1ZS5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgICAgICAgICBhZGQobm9ybWFsaXplKHZhbHVlLm9wdChpbmRleCkpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBpcyBMaXN0PCo+IC0+IHZhbHVlLm1hcCB7IG5vcm1hbGl6ZShpdCkgfQogICAgICAgICAgICBlbHNlIC0+IGVtcHR5TGlzdCgpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIG5vcm1hbGl6ZSh2YWx1ZTogQW55Pyk6IEFueT8gewogICAgICAgIHJldHVybiB3aGVuICh2YWx1ZSkgewogICAgICAgICAgICBudWxsLCBKU09OT2JqZWN0Lk5VTEwgLT4gbnVsbAogICAgICAgICAgICBpcyBKU09OT2JqZWN0IC0+IGFzTWFwKHZhbHVlKQogICAgICAgICAgICBpcyBKU09OQXJyYXkgLT4gYXNMaXN0KHZhbHVlKQogICAgICAgICAgICBlbHNlIC0+IHZhbHVlCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.packTool
+
+import org.json.JSONArray
+import org.json.JSONObject
+import org.json.JSONTokener
+
+data class ToolPkgComposeDslNode(
+    val type: String,
+    val props: Map<String, Any?>,
+    val children: List<ToolPkgComposeDslNode>,
+    val slots: Map<String, List<ToolPkgComposeDslNode>> = emptyMap()
+)
+
+data class ToolPkgComposeDslRenderResult(
+    val tree: ToolPkgComposeDslNode,
+    val state: Map<String, Any?>,
+    val memo: Map<String, Any?>
+)
+
+object ToolPkgComposeDslParser {
+    fun parseRenderResult(rawResult: Any?): ToolPkgComposeDslRenderResult? {
+        val root = parseRootObject(rawResult) ?: return null
+        val treeNode = parseNode(root.opt("tree")) ?: return null
+        return ToolPkgComposeDslRenderResult(
+            tree = treeNode,
+            state = asMap(root.opt("state")),
+            memo = asMap(root.opt("memo"))
+        )
+    }
+
+    fun extractActionId(value: Any?): String? {
+        return when (value) {
+            is JSONObject -> value.optString("__actionId").trim().ifBlank { null }
+            is Map<*, *> -> value["__actionId"]?.toString()?.trim()?.ifBlank { null }
+            is String -> {
+                val normalized = value.trim()
+                when {
+                    normalized.startsWith("__action:") -> normalized.removePrefix("__action:").trim().ifBlank { null }
+                    normalized.isNotBlank() -> normalized
+                    else -> null
+                }
+            }
+            else -> null
+        }
+    }
+
+    private fun parseRootObject(rawResult: Any?): JSONObject? {
+        return when (rawResult) {
+            is JSONObject -> rawResult
+            is String -> parseRootObjectFromString(rawResult)
+            else -> parseRootObjectFromString(rawResult?.toString().orEmpty())
+        }
+    }
+
+    private fun parseRootObjectFromString(raw: String): JSONObject? {
+        val trimmed = raw.trim()
+        if (trimmed.isBlank() || trimmed.equals("null", ignoreCase = true)) {
+            return null
+        }
+
+        val first = runCatching { JSONTokener(trimmed).nextValue() }.getOrNull() ?: return null
+        if (first is JSONObject) {
+            return first
+        }
+
+        if (first is String) {
+            val nested = first.trim()
+            if (nested.startsWith("{") && nested.endsWith("}")) {
+                return runCatching { JSONObject(nested) }.getOrNull()
+            }
+        }
+
+        return null
+    }
+
+    private fun parseNode(value: Any?): ToolPkgComposeDslNode? {
+        val nodeObj =
+            when (value) {
+                is JSONObject -> value
+                is Map<*, *> -> JSONObject(value)
+                else -> return null
+            }
+
+        val type = nodeObj.optString("type").trim()
+        if (type.isBlank()) {
+            return null
+        }
+
+        val props = asMap(nodeObj.opt("props"))
+        val children = mutableListOf<ToolPkgComposeDslNode>()
+        val slots = linkedMapOf<String, List<ToolPkgComposeDslNode>>()
+
+        val rawChildren = nodeObj.opt("children")
+        when (rawChildren) {
+            is JSONArray -> {
+                for (index in 0 until rawChildren.length()) {
+                    parseNode(rawChildren.opt(index))?.let { children.add(it) }
+                }
+            }
+            is List<*> -> {
+                rawChildren.forEach { child ->
+                    parseNode(child)?.let { children.add(it) }
+                }
+            }
+            is JSONObject -> {
+                parseNode(rawChildren)?.let { children.add(it) }
+            }
+        }
+
+        val rawSlots = nodeObj.opt("slots")
+        when (rawSlots) {
+            is JSONObject -> {
+                rawSlots.keys().forEach { slotName ->
+                    val slotChildren = mutableListOf<ToolPkgComposeDslNode>()
+                    when (val rawSlotValue = rawSlots.opt(slotName)) {
+                        is JSONArray -> {
+                            for (index in 0 until rawSlotValue.length()) {
+                                parseNode(rawSlotValue.opt(index))?.let { slotChildren.add(it) }
+                            }
+                        }
+                        is List<*> -> {
+                            rawSlotValue.forEach { child ->
+                                parseNode(child)?.let { slotChildren.add(it) }
+                            }
+                        }
+                        is JSONObject -> {
+                            parseNode(rawSlotValue)?.let { slotChildren.add(it) }
+                        }
+                    }
+                    if (slotChildren.isNotEmpty()) {
+                        slots[slotName] = slotChildren
+                    }
+                }
+            }
+            is Map<*, *> -> {
+                rawSlots.entries.forEach { (slotName, rawSlotValue) ->
+                    val normalizedSlotName = slotName?.toString()?.trim().orEmpty()
+                    if (normalizedSlotName.isBlank()) {
+                        return@forEach
+                    }
+                    val slotChildren = mutableListOf<ToolPkgComposeDslNode>()
+                    when (rawSlotValue) {
+                        is List<*> -> {
+                            rawSlotValue.forEach { child ->
+                                parseNode(child)?.let { slotChildren.add(it) }
+                            }
+                        }
+                        is Map<*, *> -> {
+                            parseNode(rawSlotValue)?.let { slotChildren.add(it) }
+                        }
+                    }
+                    if (slotChildren.isNotEmpty()) {
+                        slots[normalizedSlotName] = slotChildren
+                    }
+                }
+            }
+        }
+
+        return ToolPkgComposeDslNode(
+            type = type,
+            props = props,
+            children = children,
+            slots = slots
+        )
+    }
+
+    private fun asMap(value: Any?): Map<String, Any?> {
+        return when (value) {
+            is JSONObject -> {
+                val map = linkedMapOf<String, Any?>()
+                value.keys().forEach { key ->
+                    map[key] = normalize(value.opt(key))
+                }
+                map
+            }
+            is Map<*, *> -> {
+                value.entries.associate { entry ->
+                    entry.key.toString() to normalize(entry.value)
+                }
+            }
+            else -> emptyMap()
+        }
+    }
+
+    private fun asList(value: Any?): List<Any?> {
+        return when (value) {
+            is JSONArray -> {
+                buildList {
+                    for (index in 0 until value.length()) {
+                        add(normalize(value.opt(index)))
+                    }
+                }
+            }
+            is List<*> -> value.map { normalize(it) }
+            else -> emptyList()
+        }
+    }
+
+    private fun normalize(value: Any?): Any? {
+        return when (value) {
+            null, JSONObject.NULL -> null
+            is JSONObject -> asMap(value)
+            is JSONArray -> asList(value)
+            else -> value
+        }
+    }
+}

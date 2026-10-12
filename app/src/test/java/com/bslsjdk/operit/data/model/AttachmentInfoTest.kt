@@ -1,1 +1,81 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQXR0YWNobWVudEluZm9UZXN0IHsKCiAgICBAVGVzdCBmdW4gYGNyZWF0ZSB3aXRoIHJlcXVpcmVkIGZpZWxkc2AoKSB7CiAgICAgICAgdmFsIGluZm8gPSBBdHRhY2htZW50SW5mbygKICAgICAgICAgICAgZmlsZVBhdGggPSAiL3BhdGgvdG8vZmlsZS50eHQiLAogICAgICAgICAgICBmaWxlTmFtZSA9ICJmaWxlLnR4dCIsCiAgICAgICAgICAgIG1pbWVUeXBlID0gInRleHQvcGxhaW4iLAogICAgICAgICAgICBmaWxlU2l6ZSA9IDEwMjRMLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoIi9wYXRoL3RvL2ZpbGUudHh0IiwgaW5mby5maWxlUGF0aCkKICAgICAgICBhc3NlcnRFcXVhbHMoImZpbGUudHh0IiwgaW5mby5maWxlTmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoInRleHQvcGxhaW4iLCBpbmZvLm1pbWVUeXBlKQogICAgICAgIGFzc2VydEVxdWFscygxMDI0TCwgaW5mby5maWxlU2l6ZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNvbnRlbnQgZGVmYXVsdHMgdG8gZW1wdHlgKCkgewogICAgICAgIHZhbCBpbmZvID0gQXR0YWNobWVudEluZm8oCiAgICAgICAgICAgIGZpbGVQYXRoID0gIi9wYXRoL2ZpbGUudHh0IiwKICAgICAgICAgICAgZmlsZU5hbWUgPSAiZmlsZS50eHQiLAogICAgICAgICAgICBtaW1lVHlwZSA9ICJ0ZXh0L3BsYWluIiwKICAgICAgICAgICAgZmlsZVNpemUgPSAwTCwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCBpbmZvLmNvbnRlbnQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjb250ZW50IGNhbiBiZSBzZXRgKCkgewogICAgICAgIHZhbCBpbmZvID0gQXR0YWNobWVudEluZm8oCiAgICAgICAgICAgIGZpbGVQYXRoID0gIi9wYXRoL2ZpbGUudHh0IiwKICAgICAgICAgICAgZmlsZU5hbWUgPSAiZmlsZS50eHQiLAogICAgICAgICAgICBtaW1lVHlwZSA9ICJ0ZXh0L3BsYWluIiwKICAgICAgICAgICAgZmlsZVNpemUgPSAxMEwsCiAgICAgICAgICAgIGNvbnRlbnQgPSAiaW5saW5lIGNvbnRlbnQiLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoImlubGluZSBjb250ZW50IiwgaW5mby5jb250ZW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSB3aXRoIGRpZmZlcmVudCBmaWxlIHBhdGhgKCkgewogICAgICAgIHZhbCBpbmZvID0gQXR0YWNobWVudEluZm8oIi9vbGQiLCAiZmlsZS50eHQiLCAidGV4dC9wbGFpbiIsIDEwMEwpCiAgICAgICAgdmFsIGNvcHkgPSBpbmZvLmNvcHkoZmlsZVBhdGggPSAiL25ldyIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIvbmV3IiwgY29weS5maWxlUGF0aCkKICAgICAgICBhc3NlcnRFcXVhbHMoImZpbGUudHh0IiwgY29weS5maWxlTmFtZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGltYWdlIGF0dGFjaG1lbnRgKCkgewogICAgICAgIHZhbCBpbmZvID0gQXR0YWNobWVudEluZm8oIi9pbWcvcGhvdG8uanBnIiwgInBob3RvLmpwZyIsICJpbWFnZS9qcGVnIiwgNTAwMDBMKQogICAgICAgIGFzc2VydEVxdWFscygiaW1hZ2UvanBlZyIsIGluZm8ubWltZVR5cGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDUwMDAwTCwgaW5mby5maWxlU2l6ZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHBkZiBhdHRhY2htZW50YCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEF0dGFjaG1lbnRJbmZvKCIvZG9jcy9yZXBvcnQucGRmIiwgInJlcG9ydC5wZGYiLCAiYXBwbGljYXRpb24vcGRmIiwgMjAwMDAwTCkKICAgICAgICBhc3NlcnRFcXVhbHMoImFwcGxpY2F0aW9uL3BkZiIsIGluZm8ubWltZVR5cGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIwMDAwMEwsIGluZm8uZmlsZVNpemUpCiAgICB9CgogICAgQFRlc3QgZnVuIGB6ZXJvIGZpbGUgc2l6ZWAoKSB7CiAgICAgICAgdmFsIGluZm8gPSBBdHRhY2htZW50SW5mbygiL2VtcHR5IiwgImVtcHR5LnR4dCIsICJ0ZXh0L3BsYWluIiwgMEwpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBMLCBpbmZvLmZpbGVTaXplKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbGFyZ2UgZmlsZSBzaXplYCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEF0dGFjaG1lbnRJbmZvKCIvYmlnIiwgImJpZy5tcDQiLCAidmlkZW8vbXA0IiwgMV8wMDBfMDAwXzAwMEwpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDFfMDAwXzAwMF8wMDBMLCBpbmZvLmZpbGVTaXplKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29udGVudCB3aXRoIHNwZWNpYWwgY2hhcmFjdGVyc2AoKSB7CiAgICAgICAgdmFsIGluZm8gPSBBdHRhY2htZW50SW5mbygiL2YiLCAiZi50eHQiLCAidGV4dC9wbGFpbiIsIDEwTCwgY29udGVudCA9ICJIZWxsb1xuV29ybGQiKQogICAgICAgIGFzc2VydEVxdWFscygiSGVsbG9cbldvcmxkIiwgaW5mby5jb250ZW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSBwcmVzZXJ2ZXMgbWltZSB0eXBlYCgpIHsKICAgICAgICB2YWwgaW5mbyA9IEF0dGFjaG1lbnRJbmZvKCIvYSIsICJhLnBkZiIsICJhcHBsaWNhdGlvbi9wZGYiLCAxMDBMKQogICAgICAgIHZhbCBjb3B5ID0gaW5mby5jb3B5KGZpbGVTaXplID0gMjAwTCkKICAgICAgICBhc3NlcnRFcXVhbHMoImFwcGxpY2F0aW9uL3BkZiIsIGNvcHkubWltZVR5cGUpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class AttachmentInfoTest {
+
+    @Test fun `create with required fields`() {
+        val info = AttachmentInfo(
+            filePath = "/path/to/file.txt",
+            fileName = "file.txt",
+            mimeType = "text/plain",
+            fileSize = 1024L,
+        )
+        assertEquals("/path/to/file.txt", info.filePath)
+        assertEquals("file.txt", info.fileName)
+        assertEquals("text/plain", info.mimeType)
+        assertEquals(1024L, info.fileSize)
+    }
+
+    @Test fun `content defaults to empty`() {
+        val info = AttachmentInfo(
+            filePath = "/path/file.txt",
+            fileName = "file.txt",
+            mimeType = "text/plain",
+            fileSize = 0L,
+        )
+        assertEquals("", info.content)
+    }
+
+    @Test fun `content can be set`() {
+        val info = AttachmentInfo(
+            filePath = "/path/file.txt",
+            fileName = "file.txt",
+            mimeType = "text/plain",
+            fileSize = 10L,
+            content = "inline content",
+        )
+        assertEquals("inline content", info.content)
+    }
+
+    @Test fun `copy with different file path`() {
+        val info = AttachmentInfo("/old", "file.txt", "text/plain", 100L)
+        val copy = info.copy(filePath = "/new")
+        assertEquals("/new", copy.filePath)
+        assertEquals("file.txt", copy.fileName)
+    }
+
+    @Test fun `image attachment`() {
+        val info = AttachmentInfo("/img/photo.jpg", "photo.jpg", "image/jpeg", 50000L)
+        assertEquals("image/jpeg", info.mimeType)
+        assertEquals(50000L, info.fileSize)
+    }
+
+    @Test fun `pdf attachment`() {
+        val info = AttachmentInfo("/docs/report.pdf", "report.pdf", "application/pdf", 200000L)
+        assertEquals("application/pdf", info.mimeType)
+        assertEquals(200000L, info.fileSize)
+    }
+
+    @Test fun `zero file size`() {
+        val info = AttachmentInfo("/empty", "empty.txt", "text/plain", 0L)
+        assertEquals(0L, info.fileSize)
+    }
+
+    @Test fun `large file size`() {
+        val info = AttachmentInfo("/big", "big.mp4", "video/mp4", 1_000_000_000L)
+        assertEquals(1_000_000_000L, info.fileSize)
+    }
+
+    @Test fun `content with special characters`() {
+        val info = AttachmentInfo("/f", "f.txt", "text/plain", 10L, content = "Hello\nWorld")
+        assertEquals("Hello\nWorld", info.content)
+    }
+
+    @Test fun `copy preserves mime type`() {
+        val info = AttachmentInfo("/a", "a.pdf", "application/pdf", 100L)
+        val copy = info.copy(fileSize = 200L)
+        assertEquals("application/pdf", copy.mimeType)
+    }
+}

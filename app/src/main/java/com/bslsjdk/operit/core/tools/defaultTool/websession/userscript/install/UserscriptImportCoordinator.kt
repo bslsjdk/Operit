@@ -1,1 +1,78 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQuaW5zdGFsbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hcHBsaWNhdGlvbi5BY3Rpdml0eUxpZmVjeWNsZU1hbmFnZXIKaW1wb3J0IGphdmEudXRpbC5VVUlECmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvbXBsZXRhYmxlRGVmZXJyZWQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aFRpbWVvdXRPck51bGwKCmludGVybmFsIGRhdGEgY2xhc3MgVXNlcnNjcmlwdEltcG9ydFJlc3VsdCgKICAgIHZhbCByYXdTb3VyY2U6IFN0cmluZywKICAgIHZhbCBkaXNwbGF5TmFtZTogU3RyaW5nPywKICAgIHZhbCBzb3VyY2VVcmk6IFN0cmluZz8KKQoKaW50ZXJuYWwgb2JqZWN0IFVzZXJzY3JpcHRJbXBvcnRDb29yZGluYXRvciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBFWFRSQV9SRVFVRVNUX0lEID0gInVzZXJzY3JpcHRfaW1wb3J0X3JlcXVlc3RfaWQiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVFVRVNUX1RJTUVPVVRfTVMgPSA2MF8wMDBMCgogICAgcHJpdmF0ZSB2YWwgcGVuZGluZ1JlcXVlc3RzID0gQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBDb21wbGV0YWJsZURlZmVycmVkPFVzZXJzY3JpcHRJbXBvcnRSZXN1bHQ/Pj4oKQoKICAgIHN1c3BlbmQgZnVuIHJlcXVlc3RJbXBvcnQoY29udGV4dDogQ29udGV4dCk6IFVzZXJzY3JpcHRJbXBvcnRSZXN1bHQ/IHsKICAgICAgICB2YWwgcmVxdWVzdElkID0gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKQogICAgICAgIHZhbCBkZWZlcnJlZCA9IENvbXBsZXRhYmxlRGVmZXJyZWQ8VXNlcnNjcmlwdEltcG9ydFJlc3VsdD8+KCkKICAgICAgICBwZW5kaW5nUmVxdWVzdHNbcmVxdWVzdElkXSA9IGRlZmVycmVkCgogICAgICAgIHZhbCBsYXVuY2hlZCA9CiAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLk1haW4pIHsKICAgICAgICAgICAgICAgIGxhdW5jaFBpY2tlckFjdGl2aXR5KGNvbnRleHQsIHJlcXVlc3RJZCkKICAgICAgICAgICAgfQogICAgICAgIGlmICghbGF1bmNoZWQpIHsKICAgICAgICAgICAgcGVuZGluZ1JlcXVlc3RzLnJlbW92ZShyZXF1ZXN0SWQpCiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gd2l0aFRpbWVvdXRPck51bGwoUkVRVUVTVF9USU1FT1VUX01TKSB7CiAgICAgICAgICAgIGRlZmVycmVkLmF3YWl0KCkKICAgICAgICB9LmFsc28gewogICAgICAgICAgICBwZW5kaW5nUmVxdWVzdHMucmVtb3ZlKHJlcXVlc3RJZCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbGF1bmNoUGlja2VyQWN0aXZpdHkoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICByZXF1ZXN0SWQ6IFN0cmluZwogICAgKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgdmFsIGludGVudCA9CiAgICAgICAgICAgICAgICBJbnRlbnQoY29udGV4dCwgVXNlcnNjcmlwdEltcG9ydFBpY2tlckFjdGl2aXR5OjpjbGFzcy5qYXZhKS5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgcHV0RXh0cmEoRVhUUkFfUkVRVUVTVF9JRCwgcmVxdWVzdElkKQogICAgICAgICAgICAgICAgICAgIGFkZEZsYWdzKEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgYWN0aXZpdHkgPSBBY3Rpdml0eUxpZmVjeWNsZU1hbmFnZXIuZ2V0Q3VycmVudEFjdGl2aXR5KCkKICAgICAgICAgICAgaWYgKGFjdGl2aXR5ICE9IG51bGwgJiYgIWFjdGl2aXR5LmlzRmluaXNoaW5nICYmICFhY3Rpdml0eS5pc0Rlc3Ryb3llZCkgewogICAgICAgICAgICAgICAgYWN0aXZpdHkuc3RhcnRBY3Rpdml0eShpbnRlbnQuYXBwbHkgeyByZW1vdmVGbGFncyhJbnRlbnQuRkxBR19BQ1RJVklUWV9ORVdfVEFTSykgfSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eShpbnRlbnQpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdHJ1ZQogICAgICAgIH0uZ2V0T3JEZWZhdWx0KGZhbHNlKQogICAgfQoKICAgIGludGVybmFsIGZ1biBjb21wbGV0ZSgKICAgICAgICByZXF1ZXN0SWQ6IFN0cmluZywKICAgICAgICByZXN1bHQ6IFVzZXJzY3JpcHRJbXBvcnRSZXN1bHQ/CiAgICApIHsKICAgICAgICBwZW5kaW5nUmVxdWVzdHMucmVtb3ZlKHJlcXVlc3RJZCk/LmNvbXBsZXRlKHJlc3VsdCkKICAgIH0KCiAgICBpbnRlcm5hbCBmdW4gY2FuY2VsKHJlcXVlc3RJZDogU3RyaW5nKSB7CiAgICAgICAgcGVuZGluZ1JlcXVlc3RzLnJlbW92ZShyZXF1ZXN0SWQpPy5jb21wbGV0ZShudWxsKQogICAgfQoKICAgIGludGVybmFsIGZ1biByZXF1ZXN0SWRFeHRyYSgpOiBTdHJpbmcgPSBFWFRSQV9SRVFVRVNUX0lECn0K
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript.install
+
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.core.application.ActivityLifecycleManager
+import java.util.UUID
+import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeoutOrNull
+
+internal data class UserscriptImportResult(
+    val rawSource: String,
+    val displayName: String?,
+    val sourceUri: String?
+)
+
+internal object UserscriptImportCoordinator {
+    private const val EXTRA_REQUEST_ID = "userscript_import_request_id"
+    private const val REQUEST_TIMEOUT_MS = 60_000L
+
+    private val pendingRequests = ConcurrentHashMap<String, CompletableDeferred<UserscriptImportResult?>>()
+
+    suspend fun requestImport(context: Context): UserscriptImportResult? {
+        val requestId = UUID.randomUUID().toString()
+        val deferred = CompletableDeferred<UserscriptImportResult?>()
+        pendingRequests[requestId] = deferred
+
+        val launched =
+            withContext(Dispatchers.Main) {
+                launchPickerActivity(context, requestId)
+            }
+        if (!launched) {
+            pendingRequests.remove(requestId)
+            return null
+        }
+
+        return withTimeoutOrNull(REQUEST_TIMEOUT_MS) {
+            deferred.await()
+        }.also {
+            pendingRequests.remove(requestId)
+        }
+    }
+
+    private fun launchPickerActivity(
+        context: Context,
+        requestId: String
+    ): Boolean {
+        return runCatching {
+            val intent =
+                Intent(context, UserscriptImportPickerActivity::class.java).apply {
+                    putExtra(EXTRA_REQUEST_ID, requestId)
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                }
+            val activity = ActivityLifecycleManager.getCurrentActivity()
+            if (activity != null && !activity.isFinishing && !activity.isDestroyed) {
+                activity.startActivity(intent.apply { removeFlags(Intent.FLAG_ACTIVITY_NEW_TASK) })
+            } else {
+                context.startActivity(intent)
+            }
+            true
+        }.getOrDefault(false)
+    }
+
+    internal fun complete(
+        requestId: String,
+        result: UserscriptImportResult?
+    ) {
+        pendingRequests.remove(requestId)?.complete(result)
+    }
+
+    internal fun cancel(requestId: String) {
+        pendingRequests.remove(requestId)?.complete(null)
+    }
+
+    internal fun requestIdExtra(): String = EXTRA_REQUEST_ID
+}

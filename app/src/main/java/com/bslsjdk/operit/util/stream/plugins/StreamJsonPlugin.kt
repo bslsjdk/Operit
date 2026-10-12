@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0ucGx1Z2lucwoKLyoqCiAqIEEgc3RyZWFtIHByb2Nlc3NpbmcgcGx1Z2luIHRoYXQgaWRlbnRpZmllcyBhbmQgZXh0cmFjdHMgY29tcGxldGUgSlNPTiBvYmplY3RzIG9yIGFycmF5cy4KICoKICogVGhpcyBwbHVnaW4gdHJlYXRzIGFuIGVudGlyZSBKU09OIHN0cnVjdHVyZSBhcyBhIHNpbmdsZSBibG9jayBhbmQgZW1pdHMgYWxsIG9mIGl0cwogKiBjaGFyYWN0ZXJzLCBpbmNsdWRpbmcgc3RydWN0dXJhbCBvbmVzIGxpa2UgYHt9W10iLDpgLgogKi8KY2xhc3MgU3RyZWFtSnNvblBsdWdpbiA6IEJhc2VKc29uUGx1Z2luKCkgewogICAgLyoqCiAgICAgKiBEZXRlcm1pbmVzIHRoYXQgYWxsIGNoYXJhY3RlcnMgd2l0aGluIHRoZSBKU09OIHN0cnVjdHVyZSBzaG91bGQgYmUgZW1pdHRlZC4KICAgICAqIEByZXR1cm4gQWx3YXlzIGB0cnVlYCB0byBpbmNsdWRlIGV2ZXJ5IGNoYXJhY3Rlci4KICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIHNob3VsZEVtaXQoYzogQ2hhcik6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnVlCiAgICB9Cn0K
+package com.bslsjdk.operit.util.stream.plugins
+
+/**
+ * A stream processing plugin that identifies and extracts complete JSON objects or arrays.
+ *
+ * This plugin treats an entire JSON structure as a single block and emits all of its
+ * characters, including structural ones like `{}[]",:`.
+ */
+class StreamJsonPlugin : BaseJsonPlugin() {
+    /**
+     * Determines that all characters within the JSON structure should be emitted.
+     * @return Always `true` to include every character.
+     */
+    override fun shouldEmit(c: Char): Boolean {
+        return true
+    }
+}

@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENoYXRNYXJrdXBSZWdleFNlYXJjaFRlc3QgewoKICAgIEBUZXN0IGZ1biBzZWFyY2hUYWdfaXNDYXNlSW5zZW5zaXRpdmUoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0TWFya3VwUmVnZXguc2VhcmNoVGFnLmNvbnRhaW5zTWF0Y2hJbigiPFNFQVJDSD5xPC9TRUFSQ0g+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHRoaW5rVGFnX2lzQ2FzZUluc2Vuc2l0aXZlKCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LnRoaW5rVGFnLmNvbnRhaW5zTWF0Y2hJbigiPFRISU5LSU5HPng8L1RISU5LSU5HPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBtZXRhVGFnX2RvZXNOb3RNYXRjaFBsYWluVGV4dCgpIHsKICAgICAgICBhc3NlcnRGYWxzZShDaGF0TWFya3VwUmVnZXgubWV0YVRhZy5jb250YWluc01hdGNoSW4oInBsYWluIHRleHQiKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMarkupRegexSearchTest {
+
+    @Test fun searchTag_isCaseInsensitive() {
+        assertTrue(ChatMarkupRegex.searchTag.containsMatchIn("<SEARCH>q</SEARCH>"))
+    }
+
+    @Test fun thinkTag_isCaseInsensitive() {
+        assertTrue(ChatMarkupRegex.thinkTag.containsMatchIn("<THINKING>x</THINKING>"))
+    }
+
+    @Test fun metaTag_doesNotMatchPlainText() {
+        assertFalse(ChatMarkupRegex.metaTag.containsMatchIn("plain text"))
+    }
+}

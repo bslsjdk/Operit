@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZQoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTaGFyZWRGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1NoYXJlZEZsb3cKCmRhdGEgY2xhc3MgV29ya3NwYWNlUHJldmlld1JlZnJlc2hFdmVudCgKICAgIHZhbCB3b3Jrc3BhY2VQYXRoOiBTdHJpbmcsCiAgICB2YWwgd29ya3NwYWNlRW52OiBTdHJpbmc/LAogICAgdmFsIGFmZmVjdGVkUGF0aHM6IExpc3Q8U3RyaW5nPiwKICAgIHZhbCBzb3VyY2U6IFN0cmluZwopCgpvYmplY3QgV29ya3NwYWNlUHJldmlld1JlZnJlc2hCdXMgewogICAgcHJpdmF0ZSB2YWwgX2V2ZW50cyA9CiAgICAgICAgTXV0YWJsZVNoYXJlZEZsb3c8V29ya3NwYWNlUHJldmlld1JlZnJlc2hFdmVudD4oCiAgICAgICAgICAgIGV4dHJhQnVmZmVyQ2FwYWNpdHkgPSAzMgogICAgICAgICkKCiAgICB2YWwgZXZlbnRzID0gX2V2ZW50cy5hc1NoYXJlZEZsb3coKQoKICAgIGZ1biB0cnlFbWl0KGV2ZW50OiBXb3Jrc3BhY2VQcmV2aWV3UmVmcmVzaEV2ZW50KSB7CiAgICAgICAgX2V2ZW50cy50cnlFbWl0KGV2ZW50KQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace
+
+import kotlinx.coroutines.flow.MutableSharedFlow
+import kotlinx.coroutines.flow.asSharedFlow
+
+data class WorkspacePreviewRefreshEvent(
+    val workspacePath: String,
+    val workspaceEnv: String?,
+    val affectedPaths: List<String>,
+    val source: String
+)
+
+object WorkspacePreviewRefreshBus {
+    private val _events =
+        MutableSharedFlow<WorkspacePreviewRefreshEvent>(
+            extraBufferCapacity = 32
+        )
+
+    val events = _events.asSharedFlow()
+
+    fun tryEmit(event: WorkspacePreviewRefreshEvent) {
+        _events.tryEmit(event)
+    }
+}

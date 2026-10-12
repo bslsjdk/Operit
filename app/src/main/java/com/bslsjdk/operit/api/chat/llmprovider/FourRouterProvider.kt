@@ -1,1 +1,32 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CgpjbGFzcyBGb3VyUm91dGVyUHJvdmlkZXIoCiAgICBhcGlFbmRwb2ludDogU3RyaW5nLAogICAgYXBpS2V5UHJvdmlkZXI6IEFwaUtleVByb3ZpZGVyLAogICAgbW9kZWxOYW1lOiBTdHJpbmcsCiAgICBjbGllbnQ6IE9rSHR0cENsaWVudCwKICAgIGN1c3RvbUhlYWRlcnM6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpLAogICAgcHJvdmlkZXJUeXBlOiBBcGlQcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuRk9VUl9ST1VURVIsCiAgICBzdXBwb3J0c1Zpc2lvbjogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNBdWRpbzogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNWaWRlbzogQm9vbGVhbiA9IGZhbHNlLAogICAgZW5hYmxlVG9vbENhbGw6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnM6IFN0cmluZyA9ICIiLAogICAgdGhpbmtpbmdPcHRpb25JZDogU3RyaW5nID0gIiIKKSA6IE9wZW5BSVByb3ZpZGVyKAogICAgYXBpRW5kcG9pbnQgPSBhcGlFbmRwb2ludCwKICAgIGFwaUtleVByb3ZpZGVyID0gYXBpS2V5UHJvdmlkZXIsCiAgICBtb2RlbE5hbWUgPSBtb2RlbE5hbWUsCiAgICBjbGllbnQgPSBjbGllbnQsCiAgICBjdXN0b21IZWFkZXJzID0gY3VzdG9tSGVhZGVycywKICAgIHByb3ZpZGVyVHlwZSA9IHByb3ZpZGVyVHlwZSwKICAgIHN1cHBvcnRzVmlzaW9uID0gc3VwcG9ydHNWaXNpb24sCiAgICBzdXBwb3J0c0F1ZGlvID0gc3VwcG9ydHNBdWRpbywKICAgIHN1cHBvcnRzVmlkZW8gPSBzdXBwb3J0c1ZpZGVvLAogICAgZW5hYmxlVG9vbENhbGwgPSBlbmFibGVUb29sQ2FsbCwKICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnMgPSB0aGlua2luZ0NvbmZpZ3VyYXRpb25zLAogICAgICAgIHRoaW5raW5nT3B0aW9uSWQgPSB0aGlua2luZ09wdGlvbklkCikK
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import okhttp3.OkHttpClient
+
+class FourRouterProvider(
+    apiEndpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String> = emptyMap(),
+    providerType: ApiProviderType = ApiProviderType.FOUR_ROUTER,
+    supportsVision: Boolean = false,
+    supportsAudio: Boolean = false,
+    supportsVideo: Boolean = false,
+    enableToolCall: Boolean = false,
+    thinkingConfigurations: String = "",
+    thinkingOptionId: String = ""
+) : OpenAIProvider(
+    apiEndpoint = apiEndpoint,
+    apiKeyProvider = apiKeyProvider,
+    modelName = modelName,
+    client = client,
+    customHeaders = customHeaders,
+    providerType = providerType,
+    supportsVision = supportsVision,
+    supportsAudio = supportsAudio,
+    supportsVideo = supportsVideo,
+    enableToolCall = enableToolCall,
+    thinkingConfigurations = thinkingConfigurations,
+        thinkingOptionId = thinkingOptionId
+)

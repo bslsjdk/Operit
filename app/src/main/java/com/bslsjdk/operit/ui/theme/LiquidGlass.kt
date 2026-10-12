@@ -1,1 +1,127 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkudGhlbWUKCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmNvbXBvc2l0aW9uTG9jYWxPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5ib3JkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Db3JuZXJCYXNlZFNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuZHJhd1dpdGhDb250ZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuc2hhZG93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLmx1bWluYW5jZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5reWFudC5iYWNrZHJvcC5CYWNrZHJvcAppbXBvcnQgY29tLmt5YW50LmJhY2tkcm9wLmRyYXdCYWNrZHJvcAppbXBvcnQgY29tLmt5YW50LmJhY2tkcm9wLmVmZmVjdHMuYmx1cgppbXBvcnQgY29tLmt5YW50LmJhY2tkcm9wLmVmZmVjdHMubGVucwppbXBvcnQgY29tLmt5YW50LmJhY2tkcm9wLmVmZmVjdHMudmlicmFuY3kKaW1wb3J0IGNvbS5reWFudC5iYWNrZHJvcC5oaWdobGlnaHQuSGlnaGxpZ2h0CmltcG9ydCBjb20ua3lhbnQuYmFja2Ryb3Auc2hhZG93LlNoYWRvdwoKdmFsIExvY2FsTGlxdWlkR2xhc3NCYWNrZHJvcCA9IGNvbXBvc2l0aW9uTG9jYWxPZjxCYWNrZHJvcD8+IHsgbnVsbCB9Cgpwcml2YXRlIGNvbnN0IHZhbCBMaXF1aWRHbGFzc01pbkFwaSA9IEJ1aWxkLlZFUlNJT05fQ09ERVMuVElSQU1JU1UKCmZ1biBpc0xpcXVpZEdsYXNzU3VwcG9ydGVkKCk6IEJvb2xlYW4gPSBCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gTGlxdWlkR2xhc3NNaW5BcGkKCkBDb21wb3NhYmxlCmZ1biBNb2RpZmllci5saXF1aWRHbGFzcygKICAgIGVuYWJsZWQ6IEJvb2xlYW4sCiAgICBzaGFwZTogQ29ybmVyQmFzZWRTaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgwLmRwKSwKICAgIGNvbnRhaW5lckNvbG9yOiBDb2xvciwKICAgIHNoYWRvd0VsZXZhdGlvbjogRHAgPSAxNC5kcCwKICAgIGJvcmRlcldpZHRoOiBEcCA9IDEuZHAsCiAgICBibHVyUmFkaXVzOiBEcCA9IDEwLmRwLAogICAgb3ZlcmxheUFscGhhQm9vc3Q6IEZsb2F0ID0gMGYsCiAgICBlbmFibGVMZW5zOiBCb29sZWFuID0gdHJ1ZSwKKTogTW9kaWZpZXIgewogICAgaWYgKCFlbmFibGVkKSB7CiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KCiAgICB2YWwgYmFja2Ryb3AgPSBpZiAoaXNMaXF1aWRHbGFzc1N1cHBvcnRlZCgpKSBMb2NhbExpcXVpZEdsYXNzQmFja2Ryb3AuY3VycmVudCBlbHNlIG51bGwKICAgIHZhbCBpc0xpZ2h0R2xhc3MgPSBjb250YWluZXJDb2xvci5sdW1pbmFuY2UoKSA+PSAwLjVmCiAgICBpZiAoYmFja2Ryb3AgPT0gbnVsbCkgewogICAgICAgIHZhbCBmYWxsYmFja0JvcmRlckNvbG9yID0KICAgICAgICAgICAgaWYgKGlzTGlnaHRHbGFzcykgewogICAgICAgICAgICAgICAgQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IDAuMjhmKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IDAuMTZmKQogICAgICAgICAgICB9CiAgICAgICAgdmFsIGZhbGxiYWNrU2hhZG93ID0gc2hhZG93RWxldmF0aW9uLmNvZXJjZUF0TGVhc3QoMTAuZHApCiAgICAgICAgdmFsIGZhbGxiYWNrU3VyZmFjZVRpbnQgPQogICAgICAgICAgICBpZiAoaXNMaWdodEdsYXNzKSB7CiAgICAgICAgICAgICAgICBjb250YWluZXJDb2xvci5jb3B5KGFscGhhID0gMC4xNmYpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBjb250YWluZXJDb2xvci5jb3B5KGFscGhhID0gMC4yNGYpCiAgICAgICAgICAgIH0KICAgICAgICB2YWwgZmFsbGJhY2tHbG9zcyA9CiAgICAgICAgICAgIGlmIChpc0xpZ2h0R2xhc3MpIHsKICAgICAgICAgICAgICAgIENvbG9yLldoaXRlLmNvcHkoYWxwaGEgPSAwLjEyZikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIENvbG9yLldoaXRlLmNvcHkoYWxwaGEgPSAwLjA2ZikKICAgICAgICAgICAgfQoKICAgICAgICByZXR1cm4gdGhpcwogICAgICAgICAgICAuc2hhZG93KAogICAgICAgICAgICAgICAgZWxldmF0aW9uID0gZmFsbGJhY2tTaGFkb3csCiAgICAgICAgICAgICAgICBzaGFwZSA9IHNoYXBlLAogICAgICAgICAgICAgICAgY2xpcCA9IGZhbHNlLAogICAgICAgICAgICAgICAgYW1iaWVudENvbG9yID0gQ29sb3IuQmxhY2suY29weShhbHBoYSA9IGlmIChpc0xpZ2h0R2xhc3MpIDAuMTBmIGVsc2UgMC4xOGYpLAogICAgICAgICAgICAgICAgc3BvdENvbG9yID0gQ29sb3IuQmxhY2suY29weShhbHBoYSA9IGlmIChpc0xpZ2h0R2xhc3MpIDAuMTBmIGVsc2UgMC4xOGYpLAogICAgICAgICAgICApCiAgICAgICAgICAgIC5ib3JkZXIod2lkdGggPSBib3JkZXJXaWR0aC5jb2VyY2VBdExlYXN0KDAuNi5kcCksIGNvbG9yID0gZmFsbGJhY2tCb3JkZXJDb2xvciwgc2hhcGUgPSBzaGFwZSkKICAgICAgICAgICAgLmJhY2tncm91bmQoY29sb3IgPSBmYWxsYmFja1N1cmZhY2VUaW50LCBzaGFwZSA9IHNoYXBlKQogICAgICAgICAgICAuZHJhd1dpdGhDb250ZW50IHsKICAgICAgICAgICAgICAgIGRyYXdDb250ZW50KCkKICAgICAgICAgICAgICAgIGRyYXdSZWN0KGZhbGxiYWNrR2xvc3MpCiAgICAgICAgICAgIH0KICAgIH0KICAgIHZhbCBiYXNlVGludEFscGhhID0gaWYgKGlzTGlnaHRHbGFzcykgMC4xNmYgZWxzZSAwLjIzZgogICAgdmFsIHN1cmZhY2VUaW50ID0KICAgICAgICBjb250YWluZXJDb2xvci5jb3B5KGFscGhhID0gKGJhc2VUaW50QWxwaGEgKyBvdmVybGF5QWxwaGFCb29zdCkuY29lcmNlSW4oMGYsIDAuNDhmKSkKICAgIHZhbCBlZGdlV2lkdGggPSBib3JkZXJXaWR0aC5jb2VyY2VBdExlYXN0KDAuMi5kcCkKICAgIHZhbCBzaGFkb3dSYWRpdXMgPSBzaGFkb3dFbGV2YXRpb24uY29lcmNlQXRMZWFzdCgxMi5kcCkKICAgIHZhbCBzaGFkb3dDb2xvciA9CiAgICAgICAgaWYgKGlzTGlnaHRHbGFzcykgewogICAgICAgICAgICBDb2xvci5CbGFjay5jb3B5KGFscGhhID0gMC4xMGYpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgQ29sb3IuQmxhY2suY29weShhbHBoYSA9IDAuMThmKQogICAgICAgIH0KCiAgICByZXR1cm4gdGhpcy5kcmF3QmFja2Ryb3AoCiAgICAgICAgYmFja2Ryb3AgPSBiYWNrZHJvcCwKICAgICAgICBzaGFwZSA9IHsgc2hhcGUgfSwKICAgICAgICBlZmZlY3RzID0gewogICAgICAgICAgICB2aWJyYW5jeSgpCiAgICAgICAgICAgIGJsdXIoYmx1clJhZGl1cy50b1B4KCkpCiAgICAgICAgICAgIGlmIChlbmFibGVMZW5zKSB7CiAgICAgICAgICAgICAgICBsZW5zKAogICAgICAgICAgICAgICAgICAgIHJlZnJhY3Rpb25IZWlnaHQgPSAxMi5kcC50b1B4KCksCiAgICAgICAgICAgICAgICAgICAgcmVmcmFjdGlvbkFtb3VudCA9IDE4LmRwLnRvUHgoKSwKICAgICAgICAgICAgICAgICAgICBjaHJvbWF0aWNBYmVycmF0aW9uID0gdHJ1ZSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgaGlnaGxpZ2h0ID0gewogICAgICAgICAgICBIaWdobGlnaHQoCiAgICAgICAgICAgICAgICB3aWR0aCA9IGVkZ2VXaWR0aCwKICAgICAgICAgICAgICAgIGJsdXJSYWRpdXMgPSBlZGdlV2lkdGggKiAyLjRmLAogICAgICAgICAgICAgICAgYWxwaGEgPSBpZiAoaXNMaWdodEdsYXNzKSAwLjYyZiBlbHNlIDAuNTBmLAogICAgICAgICAgICApCiAgICAgICAgfSwKICAgICAgICBzaGFkb3cgPSB7CiAgICAgICAgICAgIFNoYWRvdygKICAgICAgICAgICAgICAgIHJhZGl1cyA9IHNoYWRvd1JhZGl1cywKICAgICAgICAgICAgICAgIGNvbG9yID0gc2hhZG93Q29sb3IsCiAgICAgICAgICAgICkKICAgICAgICB9LAogICAgICAgIG9uRHJhd1N1cmZhY2UgPSB7CiAgICAgICAgICAgIGRyYXdSZWN0KHN1cmZhY2VUaW50KQogICAgICAgIH0sCiAgICApCn0K
+package com.bslsjdk.operit.ui.theme
+
+import android.os.Build
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.compositionLocalOf
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.shape.CornerBasedShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.luminance
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.kyant.backdrop.Backdrop
+import com.kyant.backdrop.drawBackdrop
+import com.kyant.backdrop.effects.blur
+import com.kyant.backdrop.effects.lens
+import com.kyant.backdrop.effects.vibrancy
+import com.kyant.backdrop.highlight.Highlight
+import com.kyant.backdrop.shadow.Shadow
+
+val LocalLiquidGlassBackdrop = compositionLocalOf<Backdrop?> { null }
+
+private const val LiquidGlassMinApi = Build.VERSION_CODES.TIRAMISU
+
+fun isLiquidGlassSupported(): Boolean = Build.VERSION.SDK_INT >= LiquidGlassMinApi
+
+@Composable
+fun Modifier.liquidGlass(
+    enabled: Boolean,
+    shape: CornerBasedShape = RoundedCornerShape(0.dp),
+    containerColor: Color,
+    shadowElevation: Dp = 14.dp,
+    borderWidth: Dp = 1.dp,
+    blurRadius: Dp = 10.dp,
+    overlayAlphaBoost: Float = 0f,
+    enableLens: Boolean = true,
+): Modifier {
+    if (!enabled) {
+        return this
+    }
+
+    val backdrop = if (isLiquidGlassSupported()) LocalLiquidGlassBackdrop.current else null
+    val isLightGlass = containerColor.luminance() >= 0.5f
+    if (backdrop == null) {
+        val fallbackBorderColor =
+            if (isLightGlass) {
+                Color.White.copy(alpha = 0.28f)
+            } else {
+                Color.White.copy(alpha = 0.16f)
+            }
+        val fallbackShadow = shadowElevation.coerceAtLeast(10.dp)
+        val fallbackSurfaceTint =
+            if (isLightGlass) {
+                containerColor.copy(alpha = 0.16f)
+            } else {
+                containerColor.copy(alpha = 0.24f)
+            }
+        val fallbackGloss =
+            if (isLightGlass) {
+                Color.White.copy(alpha = 0.12f)
+            } else {
+                Color.White.copy(alpha = 0.06f)
+            }
+
+        return this
+            .shadow(
+                elevation = fallbackShadow,
+                shape = shape,
+                clip = false,
+                ambientColor = Color.Black.copy(alpha = if (isLightGlass) 0.10f else 0.18f),
+                spotColor = Color.Black.copy(alpha = if (isLightGlass) 0.10f else 0.18f),
+            )
+            .border(width = borderWidth.coerceAtLeast(0.6.dp), color = fallbackBorderColor, shape = shape)
+            .background(color = fallbackSurfaceTint, shape = shape)
+            .drawWithContent {
+                drawContent()
+                drawRect(fallbackGloss)
+            }
+    }
+    val baseTintAlpha = if (isLightGlass) 0.16f else 0.23f
+    val surfaceTint =
+        containerColor.copy(alpha = (baseTintAlpha + overlayAlphaBoost).coerceIn(0f, 0.48f))
+    val edgeWidth = borderWidth.coerceAtLeast(0.2.dp)
+    val shadowRadius = shadowElevation.coerceAtLeast(12.dp)
+    val shadowColor =
+        if (isLightGlass) {
+            Color.Black.copy(alpha = 0.10f)
+        } else {
+            Color.Black.copy(alpha = 0.18f)
+        }
+
+    return this.drawBackdrop(
+        backdrop = backdrop,
+        shape = { shape },
+        effects = {
+            vibrancy()
+            blur(blurRadius.toPx())
+            if (enableLens) {
+                lens(
+                    refractionHeight = 12.dp.toPx(),
+                    refractionAmount = 18.dp.toPx(),
+                    chromaticAberration = true,
+                )
+            }
+        },
+        highlight = {
+            Highlight(
+                width = edgeWidth,
+                blurRadius = edgeWidth * 2.4f,
+                alpha = if (isLightGlass) 0.62f else 0.50f,
+            )
+        },
+        shadow = {
+            Shadow(
+                radius = shadowRadius,
+                color = shadowColor,
+            )
+        },
+        onDrawSurface = {
+            drawRect(surfaceTint)
+        },
+    )
+}

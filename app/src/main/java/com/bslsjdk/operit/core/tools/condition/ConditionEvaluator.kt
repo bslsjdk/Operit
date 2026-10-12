@@ -1,1 +1,417 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jb25kaXRpb24KCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKCm9iamVjdCBDb25kaXRpb25FdmFsdWF0b3IgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkNvbmRpdGlvbkV2YWx1YXRvciIKCiAgICBmdW4gZXZhbHVhdGUoZXhwcmVzc2lvbjogU3RyaW5nLCBjYXBhYmlsaXRpZXM6IE1hcDxTdHJpbmcsIEFueT8+KTogQm9vbGVhbiB7CiAgICAgICAgdmFsIHRyaW1tZWQgPSBleHByZXNzaW9uLnRyaW0oKQogICAgICAgIGlmICh0cmltbWVkLmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCB0b2tlbnMgPSBUb2tlbml6ZXIodHJpbW1lZCkudG9rZW5pemUoKQogICAgICAgICAgICB2YWwgcGFyc2VyID0gUGFyc2VyKHRva2VucykKICAgICAgICAgICAgdmFsIGFzdCA9IHBhcnNlci5wYXJzZUV4cHJlc3Npb24oKQogICAgICAgICAgICB2YWwgdmFsdWUgPSBhc3QuZXZhbChjYXBhYmlsaXRpZXMpCiAgICAgICAgICAgIHZhbHVlLmlzVHJ1dGh5KCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiQ29uZGl0aW9uIGV2YWx1YXRpb24gZmFpbGVkOiAnJGV4cHJlc3Npb24nICgke2UubWVzc2FnZX0pIikKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBzZWFsZWQgaW50ZXJmYWNlIFRva2VuIHsKICAgICAgICBkYXRhIGNsYXNzIElkZW50aWZpZXIodmFsIHRleHQ6IFN0cmluZykgOiBUb2tlbgogICAgICAgIGRhdGEgY2xhc3MgU3RyaW5nTGl0ZXJhbCh2YWwgdmFsdWU6IFN0cmluZykgOiBUb2tlbgogICAgICAgIGRhdGEgY2xhc3MgTnVtYmVyTGl0ZXJhbCh2YWwgdmFsdWU6IERvdWJsZSkgOiBUb2tlbgogICAgICAgIGRhdGEgY2xhc3MgQm9vbGVhbkxpdGVyYWwodmFsIHZhbHVlOiBCb29sZWFuKSA6IFRva2VuCiAgICAgICAgZGF0YSBvYmplY3QgTnVsbExpdGVyYWwgOiBUb2tlbgogICAgICAgIGRhdGEgY2xhc3MgT3BlcmF0b3IodmFsIG9wOiBTdHJpbmcpIDogVG9rZW4KICAgICAgICBkYXRhIGNsYXNzIFB1bmN0KHZhbCBjaDogQ2hhcikgOiBUb2tlbgogICAgICAgIGRhdGEgb2JqZWN0IEVvZiA6IFRva2VuCiAgICB9CgogICAgcHJpdmF0ZSBjbGFzcyBUb2tlbml6ZXIocHJpdmF0ZSB2YWwgaW5wdXQ6IFN0cmluZykgewogICAgICAgIHByaXZhdGUgdmFyIGkgPSAwCgogICAgICAgIGZ1biB0b2tlbml6ZSgpOiBMaXN0PFRva2VuPiB7CiAgICAgICAgICAgIHZhbCBvdXQgPSBtdXRhYmxlTGlzdE9mPFRva2VuPigpCiAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICBza2lwV3MoKQogICAgICAgICAgICAgICAgaWYgKGkgPj0gaW5wdXQubGVuZ3RoKSB7CiAgICAgICAgICAgICAgICAgICAgb3V0LmFkZChUb2tlbi5Fb2YpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG91dAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbCBjID0gaW5wdXRbaV0KICAgICAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgICAgIGMgPT0gJygnIHx8IGMgPT0gJyknIHx8IGMgPT0gJ1snIHx8IGMgPT0gJ10nIHx8IGMgPT0gJywnIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgb3V0LmFkZChUb2tlbi5QdW5jdChjKSkKICAgICAgICAgICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGMgPT0gJyInIHx8IGMgPT0gJ1wnJyAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIG91dC5hZGQoVG9rZW4uU3RyaW5nTGl0ZXJhbChyZWFkU3RyaW5nKGMpKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgYy5pc0RpZ2l0KCkgfHwgKGMgPT0gJy4nICYmIGkgKyAxIDwgaW5wdXQubGVuZ3RoICYmIGlucHV0W2kgKyAxXS5pc0RpZ2l0KCkpIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgb3V0LmFkZChUb2tlbi5OdW1iZXJMaXRlcmFsKHJlYWROdW1iZXIoKSkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlzSWRlbnRTdGFydChjKSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBpZGVudCA9IHJlYWRJZGVudGlmaWVyKCkKICAgICAgICAgICAgICAgICAgICAgICAgd2hlbiAoaWRlbnQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0cnVlIiAtPiBvdXQuYWRkKFRva2VuLkJvb2xlYW5MaXRlcmFsKHRydWUpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgImZhbHNlIiAtPiBvdXQuYWRkKFRva2VuLkJvb2xlYW5MaXRlcmFsKGZhbHNlKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJudWxsIiAtPiBvdXQuYWRkKFRva2VuLk51bGxMaXRlcmFsKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgImluIiAtPiBvdXQuYWRkKFRva2VuLk9wZXJhdG9yKCJpbiIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBvdXQuYWRkKFRva2VuLklkZW50aWZpZXIoaWRlbnQpKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgb3AgPSByZWFkT3BlcmF0b3IoKSA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIlVuZXhwZWN0ZWQgY2hhcmFjdGVyICckYyciKQogICAgICAgICAgICAgICAgICAgICAgICBvdXQuYWRkKFRva2VuLk9wZXJhdG9yKG9wKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIHNraXBXcygpIHsKICAgICAgICAgICAgd2hpbGUgKGkgPCBpbnB1dC5sZW5ndGggJiYgaW5wdXRbaV0uaXNXaGl0ZXNwYWNlKCkpIGkrKwogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gaXNJZGVudFN0YXJ0KGM6IENoYXIpOiBCb29sZWFuID0gYy5pc0xldHRlcigpIHx8IGMgPT0gJ18nCgogICAgICAgIHByaXZhdGUgZnVuIGlzSWRlbnRQYXJ0KGM6IENoYXIpOiBCb29sZWFuID0gYy5pc0xldHRlck9yRGlnaXQoKSB8fCBjID09ICdfJyB8fCBjID09ICcuJwoKICAgICAgICBwcml2YXRlIGZ1biByZWFkSWRlbnRpZmllcigpOiBTdHJpbmcgewogICAgICAgICAgICB2YWwgc3RhcnQgPSBpCiAgICAgICAgICAgIGkrKwogICAgICAgICAgICB3aGlsZSAoaSA8IGlucHV0Lmxlbmd0aCAmJiBpc0lkZW50UGFydChpbnB1dFtpXSkpIGkrKwogICAgICAgICAgICByZXR1cm4gaW5wdXQuc3Vic3RyaW5nKHN0YXJ0LCBpKQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gcmVhZFN0cmluZyhxdW90ZTogQ2hhcik6IFN0cmluZyB7CiAgICAgICAgICAgIGkrKwogICAgICAgICAgICB2YWwgc2IgPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICAgICAgd2hpbGUgKGkgPCBpbnB1dC5sZW5ndGgpIHsKICAgICAgICAgICAgICAgIHZhbCBjID0gaW5wdXRbaV0KICAgICAgICAgICAgICAgIGlmIChjID09IHF1b3RlKSB7CiAgICAgICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHNiLnRvU3RyaW5nKCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChjID09ICdcXCcpIHsKICAgICAgICAgICAgICAgICAgICBpZiAoaSArIDEgPj0gaW5wdXQubGVuZ3RoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiVW50ZXJtaW5hdGVkIGVzY2FwZSIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHZhbCBuID0gaW5wdXRbaSArIDFdCiAgICAgICAgICAgICAgICAgICAgd2hlbiAobikgewogICAgICAgICAgICAgICAgICAgICAgICAnbicgLT4gc2IuYXBwZW5kKCdcbicpCiAgICAgICAgICAgICAgICAgICAgICAgICdyJyAtPiBzYi5hcHBlbmQoJ1xyJykKICAgICAgICAgICAgICAgICAgICAgICAgJ3QnIC0+IHNiLmFwcGVuZCgnXHQnKQogICAgICAgICAgICAgICAgICAgICAgICAnXFwnIC0+IHNiLmFwcGVuZCgnXFwnKQogICAgICAgICAgICAgICAgICAgICAgICAnXCcnIC0+IHNiLmFwcGVuZCgnXCcnKQogICAgICAgICAgICAgICAgICAgICAgICAnIicgLT4gc2IuYXBwZW5kKCciJykKICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBzYi5hcHBlbmQobikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaSArPSAyCiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHNiLmFwcGVuZChjKQogICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbnRlcm1pbmF0ZWQgc3RyaW5nIikKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIHJlYWROdW1iZXIoKTogRG91YmxlIHsKICAgICAgICAgICAgdmFsIHN0YXJ0ID0gaQogICAgICAgICAgICB2YXIgaGFzRG90ID0gZmFsc2UKICAgICAgICAgICAgd2hpbGUgKGkgPCBpbnB1dC5sZW5ndGgpIHsKICAgICAgICAgICAgICAgIHZhbCBjID0gaW5wdXRbaV0KICAgICAgICAgICAgICAgIGlmIChjLmlzRGlnaXQoKSkgewogICAgICAgICAgICAgICAgICAgIGkrKwogICAgICAgICAgICAgICAgfSBlbHNlIGlmIChjID09ICcuJyAmJiAhaGFzRG90KSB7CiAgICAgICAgICAgICAgICAgICAgaGFzRG90ID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgIGkrKwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBpbnB1dC5zdWJzdHJpbmcoc3RhcnQsIGkpLnRvRG91YmxlKCkKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIHJlYWRPcGVyYXRvcigpOiBTdHJpbmc/IHsKICAgICAgICAgICAgZnVuIG1hdGNoKHM6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgICAgICAgICAgaWYgKCFpbnB1dC5zdGFydHNXaXRoKHMsIGkpKSByZXR1cm4gZmFsc2UKICAgICAgICAgICAgICAgIGkgKz0gcy5sZW5ndGgKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgICAgIG1hdGNoKCImJiIpIC0+ICImJiIKICAgICAgICAgICAgICAgIG1hdGNoKCJ8fCIpIC0+ICJ8fCIKICAgICAgICAgICAgICAgIG1hdGNoKCI9PSIpIC0+ICI9PSIKICAgICAgICAgICAgICAgIG1hdGNoKCIhPSIpIC0+ICIhPSIKICAgICAgICAgICAgICAgIG1hdGNoKCI+PSIpIC0+ICI+PSIKICAgICAgICAgICAgICAgIG1hdGNoKCI8PSIpIC0+ICI8PSIKICAgICAgICAgICAgICAgIG1hdGNoKCI+IikgLT4gIj4iCiAgICAgICAgICAgICAgICBtYXRjaCgiPCIpIC0+ICI8IgogICAgICAgICAgICAgICAgbWF0Y2goIiEiKSAtPiAiISIKICAgICAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc2VhbGVkIGludGVyZmFjZSBFeHByIHsKICAgICAgICBmdW4gZXZhbChjYXBhYmlsaXRpZXM6IE1hcDxTdHJpbmcsIEFueT8+KTogVmFsdWUKICAgIH0KCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgTGl0ZXJhbEV4cHIodmFsIHZhbHVlOiBWYWx1ZSkgOiBFeHByIHsKICAgICAgICBvdmVycmlkZSBmdW4gZXZhbChjYXBhYmlsaXRpZXM6IE1hcDxTdHJpbmcsIEFueT8+KTogVmFsdWUgPSB2YWx1ZQogICAgfQoKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBJZGVudGlmaWVyRXhwcih2YWwgbmFtZTogU3RyaW5nKSA6IEV4cHIgewogICAgICAgIG92ZXJyaWRlIGZ1biBldmFsKGNhcGFiaWxpdGllczogTWFwPFN0cmluZywgQW55Pz4pOiBWYWx1ZSB7CiAgICAgICAgICAgIHJldHVybiBWYWx1ZS5mcm9tQW55KGNhcGFiaWxpdGllc1tuYW1lXSkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIEFycmF5RXhwcih2YWwgZWxlbWVudHM6IExpc3Q8RXhwcj4pIDogRXhwciB7CiAgICAgICAgb3ZlcnJpZGUgZnVuIGV2YWwoY2FwYWJpbGl0aWVzOiBNYXA8U3RyaW5nLCBBbnk/Pik6IFZhbHVlIHsKICAgICAgICAgICAgcmV0dXJuIFZhbHVlLkFycmF5KGVsZW1lbnRzLm1hcCB7IGl0LmV2YWwoY2FwYWJpbGl0aWVzKSB9KQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgVW5hcnlFeHByKHZhbCBvcDogU3RyaW5nLCB2YWwgZXhwcjogRXhwcikgOiBFeHByIHsKICAgICAgICBvdmVycmlkZSBmdW4gZXZhbChjYXBhYmlsaXRpZXM6IE1hcDxTdHJpbmcsIEFueT8+KTogVmFsdWUgewogICAgICAgICAgICB2YWwgdiA9IGV4cHIuZXZhbChjYXBhYmlsaXRpZXMpCiAgICAgICAgICAgIHJldHVybiB3aGVuIChvcCkgewogICAgICAgICAgICAgICAgIiEiIC0+IFZhbHVlLkJvb2woIXYuaXNUcnV0aHkoKSkKICAgICAgICAgICAgICAgIGVsc2UgLT4gdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbnN1cHBvcnRlZCB1bmFyeSBvcGVyYXRvcjogJG9wIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgQmluYXJ5RXhwcih2YWwgbGVmdDogRXhwciwgdmFsIG9wOiBTdHJpbmcsIHZhbCByaWdodDogRXhwcikgOiBFeHByIHsKICAgICAgICBvdmVycmlkZSBmdW4gZXZhbChjYXBhYmlsaXRpZXM6IE1hcDxTdHJpbmcsIEFueT8+KTogVmFsdWUgewogICAgICAgICAgICByZXR1cm4gd2hlbiAob3ApIHsKICAgICAgICAgICAgICAgICImJiIgLT4gewogICAgICAgICAgICAgICAgICAgIHZhbCBsdiA9IGxlZnQuZXZhbChjYXBhYmlsaXRpZXMpCiAgICAgICAgICAgICAgICAgICAgaWYgKCFsdi5pc1RydXRoeSgpKSByZXR1cm4gVmFsdWUuQm9vbChmYWxzZSkKICAgICAgICAgICAgICAgICAgICB2YWwgcnYgPSByaWdodC5ldmFsKGNhcGFiaWxpdGllcykKICAgICAgICAgICAgICAgICAgICBWYWx1ZS5Cb29sKHJ2LmlzVHJ1dGh5KCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAifHwiIC0+IHsKICAgICAgICAgICAgICAgICAgICB2YWwgbHYgPSBsZWZ0LmV2YWwoY2FwYWJpbGl0aWVzKQogICAgICAgICAgICAgICAgICAgIGlmIChsdi5pc1RydXRoeSgpKSByZXR1cm4gVmFsdWUuQm9vbCh0cnVlKQogICAgICAgICAgICAgICAgICAgIHZhbCBydiA9IHJpZ2h0LmV2YWwoY2FwYWJpbGl0aWVzKQogICAgICAgICAgICAgICAgICAgIFZhbHVlLkJvb2wocnYuaXNUcnV0aHkoKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICI9PSIgLT4gVmFsdWUuQm9vbChsZWZ0LmV2YWwoY2FwYWJpbGl0aWVzKSA9PSByaWdodC5ldmFsKGNhcGFiaWxpdGllcykpCiAgICAgICAgICAgICAgICAiIT0iIC0+IFZhbHVlLkJvb2wobGVmdC5ldmFsKGNhcGFiaWxpdGllcykgIT0gcmlnaHQuZXZhbChjYXBhYmlsaXRpZXMpKQogICAgICAgICAgICAgICAgIj4iIC0+IFZhbHVlLkJvb2wobGVmdC5ldmFsKGNhcGFiaWxpdGllcykuY29tcGFyZVRvKHJpZ2h0LmV2YWwoY2FwYWJpbGl0aWVzKSkgPiAwKQogICAgICAgICAgICAgICAgIj49IiAtPiBWYWx1ZS5Cb29sKGxlZnQuZXZhbChjYXBhYmlsaXRpZXMpLmNvbXBhcmVUbyhyaWdodC5ldmFsKGNhcGFiaWxpdGllcykpID49IDApCiAgICAgICAgICAgICAgICAiPCIgLT4gVmFsdWUuQm9vbChsZWZ0LmV2YWwoY2FwYWJpbGl0aWVzKS5jb21wYXJlVG8ocmlnaHQuZXZhbChjYXBhYmlsaXRpZXMpKSA8IDApCiAgICAgICAgICAgICAgICAiPD0iIC0+IFZhbHVlLkJvb2wobGVmdC5ldmFsKGNhcGFiaWxpdGllcykuY29tcGFyZVRvKHJpZ2h0LmV2YWwoY2FwYWJpbGl0aWVzKSkgPD0gMCkKICAgICAgICAgICAgICAgICJpbiIgLT4gewogICAgICAgICAgICAgICAgICAgIHZhbCBpdGVtID0gbGVmdC5ldmFsKGNhcGFiaWxpdGllcykKICAgICAgICAgICAgICAgICAgICB2YWwgY29udGFpbmVyID0gcmlnaHQuZXZhbChjYXBhYmlsaXRpZXMpCiAgICAgICAgICAgICAgICAgICAgdmFsIG9rID0gKGNvbnRhaW5lciBhcz8gVmFsdWUuQXJyYXkpPy5pdGVtcz8uYW55IHsgaXQgPT0gaXRlbSB9ID09IHRydWUKICAgICAgICAgICAgICAgICAgICBWYWx1ZS5Cb29sKG9rKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWxzZSAtPiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIlVuc3VwcG9ydGVkIG9wZXJhdG9yOiAkb3AiKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc2VhbGVkIGludGVyZmFjZSBWYWx1ZSA6IENvbXBhcmFibGU8VmFsdWU+IHsKICAgICAgICBmdW4gaXNUcnV0aHkoKTogQm9vbGVhbgoKICAgICAgICBkYXRhIGNsYXNzIEJvb2wodmFsIHZhbHVlOiBCb29sZWFuKSA6IFZhbHVlIHsKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGlzVHJ1dGh5KCk6IEJvb2xlYW4gPSB2YWx1ZQogICAgICAgICAgICBvdmVycmlkZSBmdW4gY29tcGFyZVRvKG90aGVyOiBWYWx1ZSk6IEludCA9IGNvbXBhcmVWYWx1ZXModG9OdW1iZXJPck51bGwoKSwgb3RoZXIudG9OdW1iZXJPck51bGwoKSkKICAgICAgICB9CgogICAgICAgIGRhdGEgY2xhc3MgTnVtKHZhbCB2YWx1ZTogRG91YmxlKSA6IFZhbHVlIHsKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGlzVHJ1dGh5KCk6IEJvb2xlYW4gPSB2YWx1ZSAhPSAwLjAgJiYgIXZhbHVlLmlzTmFOKCkKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGNvbXBhcmVUbyhvdGhlcjogVmFsdWUpOiBJbnQgPSBjb21wYXJlVmFsdWVzKHZhbHVlLCBvdGhlci50b051bWJlck9yTnVsbCgpKQogICAgICAgIH0KCiAgICAgICAgZGF0YSBjbGFzcyBTdHIodmFsIHZhbHVlOiBTdHJpbmcpIDogVmFsdWUgewogICAgICAgICAgICBvdmVycmlkZSBmdW4gaXNUcnV0aHkoKTogQm9vbGVhbiA9IHZhbHVlLmlzTm90RW1wdHkoKQogICAgICAgICAgICBvdmVycmlkZSBmdW4gY29tcGFyZVRvKG90aGVyOiBWYWx1ZSk6IEludCB7CiAgICAgICAgICAgICAgICB2YWwgb3RoZXJTdHIgPSAob3RoZXIgYXM/IFN0cik/LnZhbHVlCiAgICAgICAgICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJDYW5ub3QgY29tcGFyZSBzdHJpbmcgdG8gJHtvdGhlcjo6Y2xhc3Muc2ltcGxlTmFtZX0iKQogICAgICAgICAgICAgICAgcmV0dXJuIHZhbHVlLmNvbXBhcmVUbyhvdGhlclN0cikKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgZGF0YSBvYmplY3QgTnVsbCA6IFZhbHVlIHsKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIGlzVHJ1dGh5KCk6IEJvb2xlYW4gPSBmYWxzZQogICAgICAgICAgICBvdmVycmlkZSBmdW4gY29tcGFyZVRvKG90aGVyOiBWYWx1ZSk6IEludCA9IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiQ2Fubm90IGNvbXBhcmUgbnVsbCIpCiAgICAgICAgfQoKICAgICAgICBkYXRhIGNsYXNzIEFycmF5KHZhbCBpdGVtczogTGlzdDxWYWx1ZT4pIDogVmFsdWUgewogICAgICAgICAgICBvdmVycmlkZSBmdW4gaXNUcnV0aHkoKTogQm9vbGVhbiA9IGl0ZW1zLmlzTm90RW1wdHkoKQogICAgICAgICAgICBvdmVycmlkZSBmdW4gY29tcGFyZVRvKG90aGVyOiBWYWx1ZSk6IEludCA9IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiQ2Fubm90IGNvbXBhcmUgYXJyYXkiKQogICAgICAgIH0KCiAgICAgICAgZnVuIHRvTnVtYmVyT3JOdWxsKCk6IERvdWJsZT8gPSB3aGVuICh0aGlzKSB7CiAgICAgICAgICAgIGlzIE51bSAtPiB2YWx1ZQogICAgICAgICAgICBpcyBCb29sIC0+IGlmICh2YWx1ZSkgMS4wIGVsc2UgMC4wCiAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgIH0KCiAgICAgICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgICAgIGZ1biBmcm9tQW55KHY6IEFueT8pOiBWYWx1ZSB7CiAgICAgICAgICAgICAgICByZXR1cm4gd2hlbiAodikgewogICAgICAgICAgICAgICAgICAgIG51bGwgLT4gTnVsbAogICAgICAgICAgICAgICAgICAgIGlzIFZhbHVlIC0+IHYKICAgICAgICAgICAgICAgICAgICBpcyBCb29sZWFuIC0+IEJvb2wodikKICAgICAgICAgICAgICAgICAgICBpcyBOdW1iZXIgLT4gTnVtKHYudG9Eb3VibGUoKSkKICAgICAgICAgICAgICAgICAgICBpcyBDaGFyU2VxdWVuY2UgLT4gU3RyKHYudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICBpcyBFbnVtPCo+IC0+IFN0cih2Lm5hbWUpCiAgICAgICAgICAgICAgICAgICAgaXMgTGlzdDwqPiAtPiBBcnJheSh2Lm1hcCB7IGZyb21BbnkoaXQpIH0pCiAgICAgICAgICAgICAgICAgICAgaXMga290bGluLkFycmF5PCo+IC0+IEFycmF5KHYubWFwIHsgZnJvbUFueShpdCkgfSkKICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IFN0cih2LnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBjbGFzcyBQYXJzZXIocHJpdmF0ZSB2YWwgdG9rZW5zOiBMaXN0PFRva2VuPikgewogICAgICAgIHByaXZhdGUgdmFyIHBvcyA9IDAKCiAgICAgICAgZnVuIHBhcnNlRXhwcmVzc2lvbigpOiBFeHByID0gcGFyc2VPcigpCgogICAgICAgIHByaXZhdGUgZnVuIHBhcnNlT3IoKTogRXhwciB7CiAgICAgICAgICAgIHZhciBsZWZ0ID0gcGFyc2VBbmQoKQogICAgICAgICAgICB3aGlsZSAobWF0Y2hPcCgifHwiKSkgewogICAgICAgICAgICAgICAgdmFsIHJpZ2h0ID0gcGFyc2VBbmQoKQogICAgICAgICAgICAgICAgbGVmdCA9IEJpbmFyeUV4cHIobGVmdCwgInx8IiwgcmlnaHQpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGxlZnQKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIHBhcnNlQW5kKCk6IEV4cHIgewogICAgICAgICAgICB2YXIgbGVmdCA9IHBhcnNlRXF1YWxpdHkoKQogICAgICAgICAgICB3aGlsZSAobWF0Y2hPcCgiJiYiKSkgewogICAgICAgICAgICAgICAgdmFsIHJpZ2h0ID0gcGFyc2VFcXVhbGl0eSgpCiAgICAgICAgICAgICAgICBsZWZ0ID0gQmluYXJ5RXhwcihsZWZ0LCAiJiYiLCByaWdodCkKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gbGVmdAogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gcGFyc2VFcXVhbGl0eSgpOiBFeHByIHsKICAgICAgICAgICAgdmFyIGxlZnQgPSBwYXJzZVJlbGF0aW9uYWwoKQogICAgICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICAgICAgbGVmdCA9IHdoZW4gewogICAgICAgICAgICAgICAgICAgIG1hdGNoT3AoIj09IikgLT4gQmluYXJ5RXhwcihsZWZ0LCAiPT0iLCBwYXJzZVJlbGF0aW9uYWwoKSkKICAgICAgICAgICAgICAgICAgICBtYXRjaE9wKCIhPSIpIC0+IEJpbmFyeUV4cHIobGVmdCwgIiE9IiwgcGFyc2VSZWxhdGlvbmFsKCkpCiAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiByZXR1cm4gbGVmdAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biBwYXJzZVJlbGF0aW9uYWwoKTogRXhwciB7CiAgICAgICAgICAgIHZhciBsZWZ0ID0gcGFyc2VVbmFyeSgpCiAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICBsZWZ0ID0gd2hlbiB7CiAgICAgICAgICAgICAgICAgICAgbWF0Y2hPcCgiPj0iKSAtPiBCaW5hcnlFeHByKGxlZnQsICI+PSIsIHBhcnNlVW5hcnkoKSkKICAgICAgICAgICAgICAgICAgICBtYXRjaE9wKCI8PSIpIC0+IEJpbmFyeUV4cHIobGVmdCwgIjw9IiwgcGFyc2VVbmFyeSgpKQogICAgICAgICAgICAgICAgICAgIG1hdGNoT3AoIj4iKSAtPiBCaW5hcnlFeHByKGxlZnQsICI+IiwgcGFyc2VVbmFyeSgpKQogICAgICAgICAgICAgICAgICAgIG1hdGNoT3AoIjwiKSAtPiBCaW5hcnlFeHByKGxlZnQsICI8IiwgcGFyc2VVbmFyeSgpKQogICAgICAgICAgICAgICAgICAgIG1hdGNoT3AoImluIikgLT4gQmluYXJ5RXhwcihsZWZ0LCAiaW4iLCBwYXJzZVVuYXJ5KCkpCiAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiByZXR1cm4gbGVmdAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biBwYXJzZVVuYXJ5KCk6IEV4cHIgewogICAgICAgICAgICBpZiAobWF0Y2hPcCgiISIpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gVW5hcnlFeHByKCIhIiwgcGFyc2VVbmFyeSgpKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBwYXJzZVByaW1hcnkoKQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gcGFyc2VQcmltYXJ5KCk6IEV4cHIgewogICAgICAgICAgICB2YWwgdCA9IHBlZWsoKQogICAgICAgICAgICB3aGVuICh0KSB7CiAgICAgICAgICAgICAgICBpcyBUb2tlbi5Cb29sZWFuTGl0ZXJhbCAtPiB7CiAgICAgICAgICAgICAgICAgICAgcG9zKysKICAgICAgICAgICAgICAgICAgICByZXR1cm4gTGl0ZXJhbEV4cHIoVmFsdWUuQm9vbCh0LnZhbHVlKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlzIFRva2VuLk51bGxMaXRlcmFsIC0+IHsKICAgICAgICAgICAgICAgICAgICBwb3MrKwogICAgICAgICAgICAgICAgICAgIHJldHVybiBMaXRlcmFsRXhwcihWYWx1ZS5OdWxsKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaXMgVG9rZW4uTnVtYmVyTGl0ZXJhbCAtPiB7CiAgICAgICAgICAgICAgICAgICAgcG9zKysKICAgICAgICAgICAgICAgICAgICByZXR1cm4gTGl0ZXJhbEV4cHIoVmFsdWUuTnVtKHQudmFsdWUpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaXMgVG9rZW4uU3RyaW5nTGl0ZXJhbCAtPiB7CiAgICAgICAgICAgICAgICAgICAgcG9zKysKICAgICAgICAgICAgICAgICAgICByZXR1cm4gTGl0ZXJhbEV4cHIoVmFsdWUuU3RyKHQudmFsdWUpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaXMgVG9rZW4uSWRlbnRpZmllciAtPiB7CiAgICAgICAgICAgICAgICAgICAgcG9zKysKICAgICAgICAgICAgICAgICAgICByZXR1cm4gSWRlbnRpZmllckV4cHIodC50ZXh0KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaXMgVG9rZW4uUHVuY3QgLT4gewogICAgICAgICAgICAgICAgICAgIGlmICh0LmNoID09ICcoJykgewogICAgICAgICAgICAgICAgICAgICAgICBwb3MrKwogICAgICAgICAgICAgICAgICAgICAgICB2YWwgaW5uZXIgPSBwYXJzZUV4cHJlc3Npb24oKQogICAgICAgICAgICAgICAgICAgICAgICBleHBlY3RQdW5jdCgnKScpCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBpbm5lcgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBpZiAodC5jaCA9PSAnWycpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcG9zKysKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGVsZW1lbnRzID0gbXV0YWJsZUxpc3RPZjxFeHByPigpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghY2hlY2tQdW5jdCgnXScpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50cy5hZGQocGFyc2VFeHByZXNzaW9uKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGlsZSAobWF0Y2hQdW5jdCgnLCcpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudHMuYWRkKHBhcnNlRXhwcmVzc2lvbigpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGV4cGVjdFB1bmN0KCddJykKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEFycmF5RXhwcihlbGVtZW50cykKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIlVuZXhwZWN0ZWQgdG9rZW46ICR0IikKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIHBlZWsoKTogVG9rZW4gPSB0b2tlbnMuZ2V0T3JFbHNlKHBvcykgeyBUb2tlbi5Fb2YgfQoKICAgICAgICBwcml2YXRlIGZ1biBtYXRjaE9wKG9wOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICAgICAgdmFsIHQgPSBwZWVrKCkKICAgICAgICAgICAgaWYgKHQgaXMgVG9rZW4uT3BlcmF0b3IgJiYgdC5vcCA9PSBvcCkgewogICAgICAgICAgICAgICAgcG9zKysKICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biBtYXRjaFB1bmN0KGNoOiBDaGFyKTogQm9vbGVhbiB7CiAgICAgICAgICAgIHZhbCB0ID0gcGVlaygpCiAgICAgICAgICAgIGlmICh0IGlzIFRva2VuLlB1bmN0ICYmIHQuY2ggPT0gY2gpIHsKICAgICAgICAgICAgICAgIHBvcysrCiAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gY2hlY2tQdW5jdChjaDogQ2hhcik6IEJvb2xlYW4gewogICAgICAgICAgICB2YWwgdCA9IHBlZWsoKQogICAgICAgICAgICByZXR1cm4gdCBpcyBUb2tlbi5QdW5jdCAmJiB0LmNoID09IGNoCiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biBleHBlY3RQdW5jdChjaDogQ2hhcikgewogICAgICAgICAgICBpZiAoIW1hdGNoUHVuY3QoY2gpKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkV4cGVjdGVkICckY2gnIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.condition
+
+import com.bslsjdk.operit.util.AppLogger
+
+object ConditionEvaluator {
+    private const val TAG = "ConditionEvaluator"
+
+    fun evaluate(expression: String, capabilities: Map<String, Any?>): Boolean {
+        val trimmed = expression.trim()
+        if (trimmed.isEmpty()) {
+            return true
+        }
+
+        return try {
+            val tokens = Tokenizer(trimmed).tokenize()
+            val parser = Parser(tokens)
+            val ast = parser.parseExpression()
+            val value = ast.eval(capabilities)
+            value.isTruthy()
+        } catch (e: Exception) {
+            AppLogger.w(TAG, "Condition evaluation failed: '$expression' (${e.message})")
+            false
+        }
+    }
+
+    private sealed interface Token {
+        data class Identifier(val text: String) : Token
+        data class StringLiteral(val value: String) : Token
+        data class NumberLiteral(val value: Double) : Token
+        data class BooleanLiteral(val value: Boolean) : Token
+        data object NullLiteral : Token
+        data class Operator(val op: String) : Token
+        data class Punct(val ch: Char) : Token
+        data object Eof : Token
+    }
+
+    private class Tokenizer(private val input: String) {
+        private var i = 0
+
+        fun tokenize(): List<Token> {
+            val out = mutableListOf<Token>()
+            while (true) {
+                skipWs()
+                if (i >= input.length) {
+                    out.add(Token.Eof)
+                    return out
+                }
+
+                val c = input[i]
+                when {
+                    c == '(' || c == ')' || c == '[' || c == ']' || c == ',' -> {
+                        out.add(Token.Punct(c))
+                        i++
+                    }
+                    c == '"' || c == '\'' -> {
+                        out.add(Token.StringLiteral(readString(c)))
+                    }
+                    c.isDigit() || (c == '.' && i + 1 < input.length && input[i + 1].isDigit()) -> {
+                        out.add(Token.NumberLiteral(readNumber()))
+                    }
+                    isIdentStart(c) -> {
+                        val ident = readIdentifier()
+                        when (ident) {
+                            "true" -> out.add(Token.BooleanLiteral(true))
+                            "false" -> out.add(Token.BooleanLiteral(false))
+                            "null" -> out.add(Token.NullLiteral)
+                            "in" -> out.add(Token.Operator("in"))
+                            else -> out.add(Token.Identifier(ident))
+                        }
+                    }
+                    else -> {
+                        val op = readOperator() ?: throw IllegalArgumentException("Unexpected character '$c'")
+                        out.add(Token.Operator(op))
+                    }
+                }
+            }
+        }
+
+        private fun skipWs() {
+            while (i < input.length && input[i].isWhitespace()) i++
+        }
+
+        private fun isIdentStart(c: Char): Boolean = c.isLetter() || c == '_'
+
+        private fun isIdentPart(c: Char): Boolean = c.isLetterOrDigit() || c == '_' || c == '.'
+
+        private fun readIdentifier(): String {
+            val start = i
+            i++
+            while (i < input.length && isIdentPart(input[i])) i++
+            return input.substring(start, i)
+        }
+
+        private fun readString(quote: Char): String {
+            i++
+            val sb = StringBuilder()
+            while (i < input.length) {
+                val c = input[i]
+                if (c == quote) {
+                    i++
+                    return sb.toString()
+                }
+                if (c == '\\') {
+                    if (i + 1 >= input.length) {
+                        throw IllegalArgumentException("Unterminated escape")
+                    }
+                    val n = input[i + 1]
+                    when (n) {
+                        'n' -> sb.append('\n')
+                        'r' -> sb.append('\r')
+                        't' -> sb.append('\t')
+                        '\\' -> sb.append('\\')
+                        '\'' -> sb.append('\'')
+                        '"' -> sb.append('"')
+                        else -> sb.append(n)
+                    }
+                    i += 2
+                    continue
+                }
+                sb.append(c)
+                i++
+            }
+            throw IllegalArgumentException("Unterminated string")
+        }
+
+        private fun readNumber(): Double {
+            val start = i
+            var hasDot = false
+            while (i < input.length) {
+                val c = input[i]
+                if (c.isDigit()) {
+                    i++
+                } else if (c == '.' && !hasDot) {
+                    hasDot = true
+                    i++
+                } else {
+                    break
+                }
+            }
+            return input.substring(start, i).toDouble()
+        }
+
+        private fun readOperator(): String? {
+            fun match(s: String): Boolean {
+                if (!input.startsWith(s, i)) return false
+                i += s.length
+                return true
+            }
+
+            return when {
+                match("&&") -> "&&"
+                match("||") -> "||"
+                match("==") -> "=="
+                match("!=") -> "!="
+                match(">=") -> ">="
+                match("<=") -> "<="
+                match(">") -> ">"
+                match("<") -> "<"
+                match("!") -> "!"
+                else -> null
+            }
+        }
+    }
+
+    private sealed interface Expr {
+        fun eval(capabilities: Map<String, Any?>): Value
+    }
+
+    private data class LiteralExpr(val value: Value) : Expr {
+        override fun eval(capabilities: Map<String, Any?>): Value = value
+    }
+
+    private data class IdentifierExpr(val name: String) : Expr {
+        override fun eval(capabilities: Map<String, Any?>): Value {
+            return Value.fromAny(capabilities[name])
+        }
+    }
+
+    private data class ArrayExpr(val elements: List<Expr>) : Expr {
+        override fun eval(capabilities: Map<String, Any?>): Value {
+            return Value.Array(elements.map { it.eval(capabilities) })
+        }
+    }
+
+    private data class UnaryExpr(val op: String, val expr: Expr) : Expr {
+        override fun eval(capabilities: Map<String, Any?>): Value {
+            val v = expr.eval(capabilities)
+            return when (op) {
+                "!" -> Value.Bool(!v.isTruthy())
+                else -> throw IllegalArgumentException("Unsupported unary operator: $op")
+            }
+        }
+    }
+
+    private data class BinaryExpr(val left: Expr, val op: String, val right: Expr) : Expr {
+        override fun eval(capabilities: Map<String, Any?>): Value {
+            return when (op) {
+                "&&" -> {
+                    val lv = left.eval(capabilities)
+                    if (!lv.isTruthy()) return Value.Bool(false)
+                    val rv = right.eval(capabilities)
+                    Value.Bool(rv.isTruthy())
+                }
+                "||" -> {
+                    val lv = left.eval(capabilities)
+                    if (lv.isTruthy()) return Value.Bool(true)
+                    val rv = right.eval(capabilities)
+                    Value.Bool(rv.isTruthy())
+                }
+                "==" -> Value.Bool(left.eval(capabilities) == right.eval(capabilities))
+                "!=" -> Value.Bool(left.eval(capabilities) != right.eval(capabilities))
+                ">" -> Value.Bool(left.eval(capabilities).compareTo(right.eval(capabilities)) > 0)
+                ">=" -> Value.Bool(left.eval(capabilities).compareTo(right.eval(capabilities)) >= 0)
+                "<" -> Value.Bool(left.eval(capabilities).compareTo(right.eval(capabilities)) < 0)
+                "<=" -> Value.Bool(left.eval(capabilities).compareTo(right.eval(capabilities)) <= 0)
+                "in" -> {
+                    val item = left.eval(capabilities)
+                    val container = right.eval(capabilities)
+                    val ok = (container as? Value.Array)?.items?.any { it == item } == true
+                    Value.Bool(ok)
+                }
+                else -> throw IllegalArgumentException("Unsupported operator: $op")
+            }
+        }
+    }
+
+    private sealed interface Value : Comparable<Value> {
+        fun isTruthy(): Boolean
+
+        data class Bool(val value: Boolean) : Value {
+            override fun isTruthy(): Boolean = value
+            override fun compareTo(other: Value): Int = compareValues(toNumberOrNull(), other.toNumberOrNull())
+        }
+
+        data class Num(val value: Double) : Value {
+            override fun isTruthy(): Boolean = value != 0.0 && !value.isNaN()
+            override fun compareTo(other: Value): Int = compareValues(value, other.toNumberOrNull())
+        }
+
+        data class Str(val value: String) : Value {
+            override fun isTruthy(): Boolean = value.isNotEmpty()
+            override fun compareTo(other: Value): Int {
+                val otherStr = (other as? Str)?.value
+                    ?: throw IllegalArgumentException("Cannot compare string to ${other::class.simpleName}")
+                return value.compareTo(otherStr)
+            }
+        }
+
+        data object Null : Value {
+            override fun isTruthy(): Boolean = false
+            override fun compareTo(other: Value): Int = throw IllegalArgumentException("Cannot compare null")
+        }
+
+        data class Array(val items: List<Value>) : Value {
+            override fun isTruthy(): Boolean = items.isNotEmpty()
+            override fun compareTo(other: Value): Int = throw IllegalArgumentException("Cannot compare array")
+        }
+
+        fun toNumberOrNull(): Double? = when (this) {
+            is Num -> value
+            is Bool -> if (value) 1.0 else 0.0
+            else -> null
+        }
+
+        companion object {
+            fun fromAny(v: Any?): Value {
+                return when (v) {
+                    null -> Null
+                    is Value -> v
+                    is Boolean -> Bool(v)
+                    is Number -> Num(v.toDouble())
+                    is CharSequence -> Str(v.toString())
+                    is Enum<*> -> Str(v.name)
+                    is List<*> -> Array(v.map { fromAny(it) })
+                    is kotlin.Array<*> -> Array(v.map { fromAny(it) })
+                    else -> Str(v.toString())
+                }
+            }
+        }
+    }
+
+    private class Parser(private val tokens: List<Token>) {
+        private var pos = 0
+
+        fun parseExpression(): Expr = parseOr()
+
+        private fun parseOr(): Expr {
+            var left = parseAnd()
+            while (matchOp("||")) {
+                val right = parseAnd()
+                left = BinaryExpr(left, "||", right)
+            }
+            return left
+        }
+
+        private fun parseAnd(): Expr {
+            var left = parseEquality()
+            while (matchOp("&&")) {
+                val right = parseEquality()
+                left = BinaryExpr(left, "&&", right)
+            }
+            return left
+        }
+
+        private fun parseEquality(): Expr {
+            var left = parseRelational()
+            while (true) {
+                left = when {
+                    matchOp("==") -> BinaryExpr(left, "==", parseRelational())
+                    matchOp("!=") -> BinaryExpr(left, "!=", parseRelational())
+                    else -> return left
+                }
+            }
+        }
+
+        private fun parseRelational(): Expr {
+            var left = parseUnary()
+            while (true) {
+                left = when {
+                    matchOp(">=") -> BinaryExpr(left, ">=", parseUnary())
+                    matchOp("<=") -> BinaryExpr(left, "<=", parseUnary())
+                    matchOp(">") -> BinaryExpr(left, ">", parseUnary())
+                    matchOp("<") -> BinaryExpr(left, "<", parseUnary())
+                    matchOp("in") -> BinaryExpr(left, "in", parseUnary())
+                    else -> return left
+                }
+            }
+        }
+
+        private fun parseUnary(): Expr {
+            if (matchOp("!")) {
+                return UnaryExpr("!", parseUnary())
+            }
+            return parsePrimary()
+        }
+
+        private fun parsePrimary(): Expr {
+            val t = peek()
+            when (t) {
+                is Token.BooleanLiteral -> {
+                    pos++
+                    return LiteralExpr(Value.Bool(t.value))
+                }
+                is Token.NullLiteral -> {
+                    pos++
+                    return LiteralExpr(Value.Null)
+                }
+                is Token.NumberLiteral -> {
+                    pos++
+                    return LiteralExpr(Value.Num(t.value))
+                }
+                is Token.StringLiteral -> {
+                    pos++
+                    return LiteralExpr(Value.Str(t.value))
+                }
+                is Token.Identifier -> {
+                    pos++
+                    return IdentifierExpr(t.text)
+                }
+                is Token.Punct -> {
+                    if (t.ch == '(') {
+                        pos++
+                        val inner = parseExpression()
+                        expectPunct(')')
+                        return inner
+                    }
+                    if (t.ch == '[') {
+                        pos++
+                        val elements = mutableListOf<Expr>()
+                        if (!checkPunct(']')) {
+                            elements.add(parseExpression())
+                            while (matchPunct(',')) {
+                                elements.add(parseExpression())
+                            }
+                        }
+                        expectPunct(']')
+                        return ArrayExpr(elements)
+                    }
+                }
+                else -> {
+                }
+            }
+            throw IllegalArgumentException("Unexpected token: $t")
+        }
+
+        private fun peek(): Token = tokens.getOrElse(pos) { Token.Eof }
+
+        private fun matchOp(op: String): Boolean {
+            val t = peek()
+            if (t is Token.Operator && t.op == op) {
+                pos++
+                return true
+            }
+            return false
+        }
+
+        private fun matchPunct(ch: Char): Boolean {
+            val t = peek()
+            if (t is Token.Punct && t.ch == ch) {
+                pos++
+                return true
+            }
+            return false
+        }
+
+        private fun checkPunct(ch: Char): Boolean {
+            val t = peek()
+            return t is Token.Punct && t.ch == ch
+        }
+
+        private fun expectPunct(ch: Char) {
+            if (!matchPunct(ch)) {
+                throw IllegalArgumentException("Expected '$ch'")
+            }
+        }
+    }
+}

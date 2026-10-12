@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5tZWRpYS5wcm9qZWN0aW9uLk1lZGlhUHJvamVjdGlvbgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAoKLyoqCiAqIEdsb2JhbCBob2xkZXIgZm9yIHRoZSBNZWRpYVByb2plY3Rpb24gdG9rZW4vaW5zdGFuY2UuCiAqIFRoaXMgYWxsb3dzIFN0YW5kYXJkVUlUb29scyB0byBhY2Nlc3MgdGhlIHByb2plY3Rpb24gd2l0aG91dCBwYXNzaW5nIGl0IGFyb3VuZCBldmVyeXdoZXJlLgogKi8Kb2JqZWN0IE1lZGlhUHJvamVjdGlvbkhvbGRlciB7CiAgICB2YXIgbWVkaWFQcm9qZWN0aW9uOiBNZWRpYVByb2plY3Rpb24/ID0gbnVsbAogICAgdmFyIHBlcm1pc3Npb25SZXN1bHREYXRhOiBJbnRlbnQ/ID0gbnVsbAogICAgdmFyIHBlcm1pc3Npb25SZXN1bHRDb2RlOiBJbnQgPSAwCgogICAgZnVuIGNsZWFyKGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBtZWRpYVByb2plY3Rpb24/LnN0b3AoKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAvLyBJZ25vcmUKICAgICAgICB9CiAgICAgICAgbWVkaWFQcm9qZWN0aW9uID0gbnVsbAogICAgICAgIHBlcm1pc3Npb25SZXN1bHREYXRhID0gbnVsbAogICAgICAgIHBlcm1pc3Npb25SZXN1bHRDb2RlID0gMAogICAgICAgIFNjcmVlbkNhcHR1cmVTZXJ2aWNlLnN0b3AoY29udGV4dCkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.system
+
+import android.content.Context
+import android.media.projection.MediaProjection
+import android.content.Intent
+
+/**
+ * Global holder for the MediaProjection token/instance.
+ * This allows StandardUITools to access the projection without passing it around everywhere.
+ */
+object MediaProjectionHolder {
+    var mediaProjection: MediaProjection? = null
+    var permissionResultData: Intent? = null
+    var permissionResultCode: Int = 0
+
+    fun clear(context: Context) {
+        try {
+            mediaProjection?.stop()
+        } catch (e: Exception) {
+            // Ignore
+        }
+        mediaProjection = null
+        permissionResultData = null
+        permissionResultCode = 0
+        ScreenCaptureService.stop(context)
+    }
+}

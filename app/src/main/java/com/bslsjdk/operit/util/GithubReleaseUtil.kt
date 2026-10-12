@@ -1,1 +1,219 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5HaXRIdWJBcGlTZXJ2aWNlCmltcG9ydCBqYXZhLm5ldC5IdHRwVVJMQ29ubmVjdGlvbgppbXBvcnQgamF2YS5uZXQuVVJMCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuYXN5bmMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5hd2FpdEFsbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKLyoqCiAqIEdpdEh1YiBSZWxlYXNlIOW3peWFt+exuwogKiDkvb/nlKjnu5/kuIDnmoQgR2l0SHViQXBpU2VydmljZSDmnaXojrflj5YgUmVsZWFzZSDkv6Hmga8KICog5pSv5oyB6Ieq5Yqo5re75Yqg6K6k6K+B5aS05Lul5o+Q6auYIEFQSSDphY3pop0KICovCmNsYXNzIEdpdGh1YlJlbGVhc2VVdGlsKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHByaXZhdGUgdmFsIFRBRyA9ICJHaXRodWJSZWxlYXNlVXRpbCIKICAgIHByaXZhdGUgdmFsIGdpdGh1YkFwaVNlcnZpY2UgPSBHaXRIdWJBcGlTZXJ2aWNlKGNvbnRleHQpCgogICAgZGF0YSBjbGFzcyBSZWxlYXNlSW5mbygKICAgICAgICB2YWwgdmVyc2lvbjogU3RyaW5nLAogICAgICAgIHZhbCBkb3dubG9hZFVybDogU3RyaW5nLAogICAgICAgIHZhbCByZWxlYXNlTm90ZXM6IFN0cmluZywKICAgICAgICB2YWwgcmVsZWFzZVBhZ2VVcmw6IFN0cmluZwogICAgKQoKICAgIGRhdGEgY2xhc3MgUHJvYmVSZXN1bHQoCiAgICAgICAgdmFsIG9rOiBCb29sZWFuLAogICAgICAgIHZhbCBsYXRlbmN5TXM6IExvbmc/LAogICAgICAgIHZhbCBieXRlc1BlclNlYzogTG9uZz8gPSBudWxsLAogICAgICAgIHZhbCBzYW1wbGVkQnl0ZXM6IExvbmc/ID0gbnVsbCwKICAgICAgICB2YWwgZXJyb3I6IFN0cmluZz8gPSBudWxsCiAgICApCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSB2YWwgR0lUSFVCX01JUlJPUlMgPSBsaW5rZWRNYXBPZigKICAgICAgICAgICAgIkdoZmFzdCIgdG8gImh0dHBzOi8vZ2hmYXN0LnRvcC8iLAogICAgICAgICAgICAiR2hQcm94eSIgdG8gImh0dHBzOi8vZ2hwcm94eS5jb20vIiwKICAgICAgICAgICAgIkdoUHJveHlOZXQiIHRvICJodHRwczovL2docHJveHkubmV0LyIsCiAgICAgICAgICAgICJHaFByb3h5TWlycm9yIiB0byAiaHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vIiwKICAgICAgICAgICAgIkdoLVByb3h5IiB0byAiaHR0cHM6Ly9naC1wcm94eS5jb20vIiwKICAgICAgICAgICAgIkdpdE1pcnJvciIgdG8gImh0dHBzOi8vaHViLmdpdG1pcnJvci5jb20vIiwKICAgICAgICAgICAgIk1vZXl5IiB0byAiaHR0cHM6Ly9naXRodWIubW9leXkueHl6LyIsCiAgICAgICAgICAgICJXb3JrZXJzIiB0byAiaHR0cHM6Ly9naXRodWIuYWJza29vcC53b3JrZXJzLmRldi8iLAogICAgICAgICAgICAiSDIzMyIgdG8gImh0dHBzOi8vZ2guaDIzMy5ldS5vcmcvIiwKICAgICAgICAgICAgIkdoMTg4ODg2NiIgdG8gImh0dHBzOi8vZ2hwcm94eS4xODg4ODY2Lnh5ei8iLAogICAgICAgICAgICAiR2hQcm94eUNmZCIgdG8gImh0dHBzOi8vZ2hwcm94eS5jZmQvIiwKICAgICAgICAgICAgIkJva2lNb2UiIHRvICJodHRwczovL2dpdGh1Yi5ib2tpLm1vZS8iLAogICAgICAgICAgICAiR2hQcm94eU5ldEh5cGhlbiIgdG8gImh0dHBzOi8vZ2gtcHJveHkubmV0LyIsCiAgICAgICAgICAgICJKYXNvblplbmciIHRvICJodHRwczovL2doLmphc29uemVuZy5kZXYvIiwKICAgICAgICAgICAgIk1vbmxvciIgdG8gImh0dHBzOi8vZ2gubW9ubG9yLmNvbS8iLAogICAgICAgICAgICAiRmFzdEdpdENjIiB0byAiaHR0cHM6Ly9mYXN0Z2l0LmNjLyIsCiAgICAgICAgICAgICJUYmVkdSIgdG8gImh0dHBzOi8vZ2l0aHViLnRiZWR1LnRvcC8iLAogICAgICAgICAgICAiRmlyZXdhbGxMeHN0ZCIgdG8gImh0dHBzOi8vZmlyZXdhbGwubHhzdGQub3JnLyIsCiAgICAgICAgICAgICJFZG5vdmFzIiB0byAiaHR0cHM6Ly9naXRodWIuZWRub3Zhcy54eXovIiwKICAgICAgICAgICAgIkdlZWtlclRhbyIgdG8gImh0dHBzOi8vZ2hmaWxlLmdlZWtlcnRhby50b3AvIiwKICAgICAgICAgICAgIkNoamluYSIgdG8gImh0dHBzOi8vZ2guY2hqaW5hLmNvbS8iLAogICAgICAgICAgICAiSHdpbnpuaWVqIiB0byAiaHR0cHM6Ly9naHB4eS5od2luem5pZWoudG9wLyIsCiAgICAgICAgICAgICJDcmFzaE1jIiB0byAiaHR0cHM6Ly9jZG4uY3Jhc2htYy5jb20vIiwKICAgICAgICAgICAgIll5bHgiIHRvICJodHRwczovL2dpdC55eWx4Lndpbi8iLAogICAgICAgICAgICAiTXJoangiIHRvICJodHRwczovL2dpdHByb3h5Lm1yaGp4LmNuLyIsCiAgICAgICAgICAgICJDeGtwcm8iIHRvICJodHRwczovL2docHJveHkuY3hrcHJvLnRvcC8iLAogICAgICAgICAgICAiWHhvb28iIHRvICJodHRwczovL2doLnh4b29vLmNmLyIsCiAgICAgICAgICAgICJMaW1vcnVpcnVpIiB0byAiaHR0cHM6Ly9naXRodWIubGltb3J1aXJ1aS5jb20vIiwKICAgICAgICAgICAgIkxsa2siIHRvICJodHRwczovL2doLmxsa2suY2MvIiwKICAgICAgICAgICAgIk5wZWUiIHRvICJodHRwczovL2Rvd24ubnBlZS5jbi8/IiwKICAgICAgICAgICAgIk54bm93IiB0byAiaHR0cHM6Ly9naC5ueG5vdy50b3AvIiwKICAgICAgICAgICAgIlp3eSIgdG8gImh0dHBzOi8vZ2guend5Lm9uZS8iLAogICAgICAgICAgICAiTW9ua2V5cmF5IiB0byAiaHR0cHM6Ly9naHByb3h5Lm1vbmtleXJheS5uZXQvIiwKICAgICAgICAgICAgIlh4OTUyNyIgdG8gImh0dHBzOi8vZ2gueHg5NTI3LmNuLyIKICAgICAgICApCgogICAgICAgIC8qKgogICAgICAgICAqIOiOt+WPlumVnOWDj+WKoOmAnyBVUkwKICAgICAgICAgKiDnlKjkuo7liqDpgJ8gR2l0SHViIOS4i+i9vQogICAgICAgICAqLwogICAgICAgIGZ1biBnZXRNaXJyb3JlZFVybHMob3JpZ2luYWxVcmw6IFN0cmluZyk6IE1hcDxTdHJpbmcsIFN0cmluZz4gewogICAgICAgICAgICBpZiAoIW9yaWdpbmFsVXJsLmNvbnRhaW5zKCJnaXRodWIuY29tIikgfHwgIW9yaWdpbmFsVXJsLmNvbnRhaW5zKCIvcmVsZWFzZXMvZG93bmxvYWQvIikpIHsKICAgICAgICAgICAgICAgIHJldHVybiBlbXB0eU1hcCgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiBHSVRIVUJfTUlSUk9SUy5tYXBWYWx1ZXMgeyBlbnRyeSAtPgogICAgICAgICAgICAgICAgIiR7ZW50cnkudmFsdWV9JG9yaWdpbmFsVXJsIgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzdXNwZW5kIGZ1biBwcm9iZU1pcnJvclVybHMoCiAgICAgICAgICAgIHVybHM6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICAgICAgICAgIHRpbWVvdXRNczogSW50ID0gMjUwMAogICAgICAgICk6IE1hcDxTdHJpbmcsIFByb2JlUmVzdWx0PiB7CiAgICAgICAgICAgIHJldHVybiB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgY29yb3V0aW5lU2NvcGUgewogICAgICAgICAgICAgICAgICAgIHVybHMuZW50cmllcwogICAgICAgICAgICAgICAgICAgICAgICAubWFwIHsgKG5hbWUsIHVybCkgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFzeW5jIHsgbmFtZSB0byBwcm9iZU9uZVVybCh1cmwsIHRpbWVvdXRNcykgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIC5hd2FpdEFsbCgpCiAgICAgICAgICAgICAgICAgICAgICAgIC50b01hcCgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFNQRUVEX1RFU1RfQllURVMgPSAyNTYgKiAxMDI0TAoKICAgICAgICBwcml2YXRlIGZ1biBwcm9iZU9uZVVybCh1cmw6IFN0cmluZywgdGltZW91dE1zOiBJbnQpOiBQcm9iZVJlc3VsdCB7CiAgICAgICAgICAgIHZhbCBzdGFydE5zID0gU3lzdGVtLm5hbm9UaW1lKCkKICAgICAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgICAgICB2YXIgY29ubjogSHR0cFVSTENvbm5lY3Rpb24/ID0gbnVsbAogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBjb25uID0gVVJMKHVybCkub3BlbkNvbm5lY3Rpb24oKSBhcyBIdHRwVVJMQ29ubmVjdGlvbgogICAgICAgICAgICAgICAgICAgIGNvbm4uaW5zdGFuY2VGb2xsb3dSZWRpcmVjdHMgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgY29ubi5jb25uZWN0VGltZW91dCA9IHRpbWVvdXRNcwogICAgICAgICAgICAgICAgICAgIGNvbm4ucmVhZFRpbWVvdXQgPSB0aW1lb3V0TXMKICAgICAgICAgICAgICAgICAgICBjb25uLnJlcXVlc3RNZXRob2QgPSAiR0VUIgogICAgICAgICAgICAgICAgICAgIGNvbm4uc2V0UmVxdWVzdFByb3BlcnR5KCJVc2VyLUFnZW50IiwgIk9wZXJpdCIpCiAgICAgICAgICAgICAgICAgICAgY29ubi5zZXRSZXF1ZXN0UHJvcGVydHkoIlJhbmdlIiwgImJ5dGVzPTAtJHtTUEVFRF9URVNUX0JZVEVTIC0gMX0iKQogICAgICAgICAgICAgICAgICAgIGNvbm4uY29ubmVjdCgpCgogICAgICAgICAgICAgICAgICAgIHZhbCBjb2RlID0gY29ubi5yZXNwb25zZUNvZGUKICAgICAgICAgICAgICAgICAgICBpZiAoY29kZSAhaW4gMjAwLi4zOTkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFByb2JlUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb2sgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhdGVuY3lNcyA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBieXRlc1BlclNlYyA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzYW1wbGVkQnl0ZXMgPSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiSFRUUCAkY29kZSIKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgdmFyIHNhbXBsZWQgPSAwTAogICAgICAgICAgICAgICAgICAgIHZhbCBidWYgPSBCeXRlQXJyYXkoMTYgKiAxMDI0KQogICAgICAgICAgICAgICAgICAgIGNvbm4uaW5wdXRTdHJlYW0udXNlIHsgaW5zIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHdoaWxlIChzYW1wbGVkIDwgU1BFRURfVEVTVF9CWVRFUykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHRvUmVhZCA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluT2YoYnVmLnNpemUudG9Mb25nKCksIFNQRUVEX1RFU1RfQllURVMgLSBzYW1wbGVkKS50b0ludCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgbiA9IGlucy5yZWFkKGJ1ZiwgMCwgdG9SZWFkKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKG4gPD0gMCkgYnJlYWsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNhbXBsZWQgKz0gbi50b0xvbmcoKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB2YWwgY29zdE1zID0gKFN5c3RlbS5uYW5vVGltZSgpIC0gc3RhcnROcykgLyAxXzAwMF8wMDAKICAgICAgICAgICAgICAgICAgICB2YWwgc2FmZU1zID0gaWYgKGNvc3RNcyA8PSAwTCkgMUwgZWxzZSBjb3N0TXMKICAgICAgICAgICAgICAgICAgICB2YWwgc3BlZWQgPSBpZiAoc2FtcGxlZCA+IDBMKSAoc2FtcGxlZCAqIDEwMDBMKSAvIHNhZmVNcyBlbHNlIG51bGwKCiAgICAgICAgICAgICAgICAgICAgUHJvYmVSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgICAgIG9rID0gc2FtcGxlZCA+IDBMLAogICAgICAgICAgICAgICAgICAgICAgICBsYXRlbmN5TXMgPSBjb3N0TXMsCiAgICAgICAgICAgICAgICAgICAgICAgIGJ5dGVzUGVyU2VjID0gc3BlZWQsCiAgICAgICAgICAgICAgICAgICAgICAgIHNhbXBsZWRCeXRlcyA9IHNhbXBsZWQsCiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yID0gaWYgKHNhbXBsZWQgPiAwTCkgbnVsbCBlbHNlICJFTVBUWV9CT0RZIgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgY29ubj8uZGlzY29ubmVjdCgpCiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIFByb2JlUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIG9rID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgbGF0ZW5jeU1zID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICBieXRlc1BlclNlYyA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgc2FtcGxlZEJ5dGVzID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9IGUuamF2YUNsYXNzLnNpbXBsZU5hbWUKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOiOt+WPluacgOaWsOeahCBSZWxlYXNlIOS/oeaBrwogICAgICog5aaC5p6c55So5oi35bey55m75b2V77yM5Lya6Ieq5Yqo5bim5LiK6K6k6K+B5aS05Lul5o+Q6auYIEFQSSDphY3pop0KICAgICAqLwogICAgc3VzcGVuZCBmdW4gZmV0Y2hMYXRlc3RSZWxlYXNlSW5mbyhyZXBvT3duZXI6IFN0cmluZywgcmVwb05hbWU6IFN0cmluZyk6IFJlbGVhc2VJbmZvPyA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IGdpdGh1YkFwaVNlcnZpY2UuZ2V0UmVwb3NpdG9yeVJlbGVhc2VzKAogICAgICAgICAgICAgICAgb3duZXIgPSByZXBvT3duZXIsCiAgICAgICAgICAgICAgICByZXBvID0gcmVwb05hbWUsCiAgICAgICAgICAgICAgICBwYWdlID0gMSwKICAgICAgICAgICAgICAgIHBlclBhZ2UgPSAxCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIHJlc3VsdC5mb2xkKAogICAgICAgICAgICAgICAgb25TdWNjZXNzID0geyByZWxlYXNlcyAtPgogICAgICAgICAgICAgICAgICAgIGlmIChyZWxlYXNlcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiTm8gcmVsZWFzZXMgZm91bmQgZm9yICRyZXBvT3duZXIvJHJlcG9OYW1lIikKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHZhbCBsYXRlc3RSZWxlYXNlID0gcmVsZWFzZXMuZmlyc3QoKQogICAgICAgICAgICAgICAgICAgIHZhbCB0YWdOYW1lID0gbGF0ZXN0UmVsZWFzZS50YWdfbmFtZQogICAgICAgICAgICAgICAgICAgIHZhbCB2ZXJzaW9uID0gdGFnTmFtZS5yZW1vdmVQcmVmaXgoInYiKQoKICAgICAgICAgICAgICAgICAgICAvLyDmn6Xmib4gQVBLIOi1hOa6kAogICAgICAgICAgICAgICAgICAgIHZhbCBhcGtBc3NldCA9IGxhdGVzdFJlbGVhc2UuYXNzZXRzLmZpbmQgeyBpdC5uYW1lLmVuZHNXaXRoKCIuYXBrIikgfQogICAgICAgICAgICAgICAgICAgIHZhbCBkb3dubG9hZFVybCA9IGFwa0Fzc2V0Py5icm93c2VyX2Rvd25sb2FkX3VybCA/OiBsYXRlc3RSZWxlYXNlLmh0bWxfdXJsCgogICAgICAgICAgICAgICAgICAgIFJlbGVhc2VJbmZvKAogICAgICAgICAgICAgICAgICAgICAgICB2ZXJzaW9uID0gdmVyc2lvbiwKICAgICAgICAgICAgICAgICAgICAgICAgZG93bmxvYWRVcmwgPSBkb3dubG9hZFVybCwKICAgICAgICAgICAgICAgICAgICAgICAgcmVsZWFzZU5vdGVzID0gbGF0ZXN0UmVsZWFzZS5ib2R5ID86ICIiLAogICAgICAgICAgICAgICAgICAgICAgICByZWxlYXNlUGFnZVVybCA9IGxhdGVzdFJlbGVhc2UuaHRtbF91cmwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgb25GYWlsdXJlID0geyBleGNlcHRpb24gLT4KICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gZ2V0IHJlbGVhc2UgaW5mbyBmb3IgJHJlcG9Pd25lci8kcmVwb05hbWUiLCBleGNlcHRpb24pCiAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGZldGNoaW5nIGxhdGVzdCByZWxlYXNlIGluZm8gZm9yICRyZXBvT3duZXIvJHJlcG9OYW1lIiwgZSkKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KfSAK
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.data.api.GitHubApiService
+import java.net.HttpURLConnection
+import java.net.URL
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+/**
+ * GitHub Release 工具类
+ * 使用统一的 GitHubApiService 来获取 Release 信息
+ * 支持自动添加认证头以提高 API 配额
+ */
+class GithubReleaseUtil(private val context: Context) {
+    private val TAG = "GithubReleaseUtil"
+    private val githubApiService = GitHubApiService(context)
+
+    data class ReleaseInfo(
+        val version: String,
+        val downloadUrl: String,
+        val releaseNotes: String,
+        val releasePageUrl: String
+    )
+
+    data class ProbeResult(
+        val ok: Boolean,
+        val latencyMs: Long?,
+        val bytesPerSec: Long? = null,
+        val sampledBytes: Long? = null,
+        val error: String? = null
+    )
+
+    companion object {
+        private val GITHUB_MIRRORS = linkedMapOf(
+            "Ghfast" to "https://ghfast.top/",
+            "GhProxy" to "https://ghproxy.com/",
+            "GhProxyNet" to "https://ghproxy.net/",
+            "GhProxyMirror" to "https://mirror.ghproxy.com/",
+            "Gh-Proxy" to "https://gh-proxy.com/",
+            "GitMirror" to "https://hub.gitmirror.com/",
+            "Moeyy" to "https://github.moeyy.xyz/",
+            "Workers" to "https://github.abskoop.workers.dev/",
+            "H233" to "https://gh.h233.eu.org/",
+            "Gh1888866" to "https://ghproxy.1888866.xyz/",
+            "GhProxyCfd" to "https://ghproxy.cfd/",
+            "BokiMoe" to "https://github.boki.moe/",
+            "GhProxyNetHyphen" to "https://gh-proxy.net/",
+            "JasonZeng" to "https://gh.jasonzeng.dev/",
+            "Monlor" to "https://gh.monlor.com/",
+            "FastGitCc" to "https://fastgit.cc/",
+            "Tbedu" to "https://github.tbedu.top/",
+            "FirewallLxstd" to "https://firewall.lxstd.org/",
+            "Ednovas" to "https://github.ednovas.xyz/",
+            "GeekerTao" to "https://ghfile.geekertao.top/",
+            "Chjina" to "https://gh.chjina.com/",
+            "Hwinzniej" to "https://ghpxy.hwinzniej.top/",
+            "CrashMc" to "https://cdn.crashmc.com/",
+            "Yylx" to "https://git.yylx.win/",
+            "Mrhjx" to "https://gitproxy.mrhjx.cn/",
+            "Cxkpro" to "https://ghproxy.cxkpro.top/",
+            "Xxooo" to "https://gh.xxooo.cf/",
+            "Limoruirui" to "https://github.limoruirui.com/",
+            "Llkk" to "https://gh.llkk.cc/",
+            "Npee" to "https://down.npee.cn/?",
+            "Nxnow" to "https://gh.nxnow.top/",
+            "Zwy" to "https://gh.zwy.one/",
+            "Monkeyray" to "https://ghproxy.monkeyray.net/",
+            "Xx9527" to "https://gh.xx9527.cn/"
+        )
+
+        /**
+         * 获取镜像加速 URL
+         * 用于加速 GitHub 下载
+         */
+        fun getMirroredUrls(originalUrl: String): Map<String, String> {
+            if (!originalUrl.contains("github.com") || !originalUrl.contains("/releases/download/")) {
+                return emptyMap()
+            }
+
+            return GITHUB_MIRRORS.mapValues { entry ->
+                "${entry.value}$originalUrl"
+            }
+        }
+
+        suspend fun probeMirrorUrls(
+            urls: Map<String, String>,
+            timeoutMs: Int = 2500
+        ): Map<String, ProbeResult> {
+            return withContext(Dispatchers.IO) {
+                coroutineScope {
+                    urls.entries
+                        .map { (name, url) ->
+                            async { name to probeOneUrl(url, timeoutMs) }
+                        }
+                        .awaitAll()
+                        .toMap()
+                }
+            }
+        }
+
+        private const val SPEED_TEST_BYTES = 256 * 1024L
+
+        private fun probeOneUrl(url: String, timeoutMs: Int): ProbeResult {
+            val startNs = System.nanoTime()
+            return try {
+                var conn: HttpURLConnection? = null
+                try {
+                    conn = URL(url).openConnection() as HttpURLConnection
+                    conn.instanceFollowRedirects = true
+                    conn.connectTimeout = timeoutMs
+                    conn.readTimeout = timeoutMs
+                    conn.requestMethod = "GET"
+                    conn.setRequestProperty("User-Agent", "Operit")
+                    conn.setRequestProperty("Range", "bytes=0-${SPEED_TEST_BYTES - 1}")
+                    conn.connect()
+
+                    val code = conn.responseCode
+                    if (code !in 200..399) {
+                        return ProbeResult(
+                            ok = false,
+                            latencyMs = null,
+                            bytesPerSec = null,
+                            sampledBytes = null,
+                            error = "HTTP $code"
+                        )
+                    }
+
+                    var sampled = 0L
+                    val buf = ByteArray(16 * 1024)
+                    conn.inputStream.use { ins ->
+                        while (sampled < SPEED_TEST_BYTES) {
+                            val toRead =
+                                minOf(buf.size.toLong(), SPEED_TEST_BYTES - sampled).toInt()
+                            val n = ins.read(buf, 0, toRead)
+                            if (n <= 0) break
+                            sampled += n.toLong()
+                        }
+                    }
+
+                    val costMs = (System.nanoTime() - startNs) / 1_000_000
+                    val safeMs = if (costMs <= 0L) 1L else costMs
+                    val speed = if (sampled > 0L) (sampled * 1000L) / safeMs else null
+
+                    ProbeResult(
+                        ok = sampled > 0L,
+                        latencyMs = costMs,
+                        bytesPerSec = speed,
+                        sampledBytes = sampled,
+                        error = if (sampled > 0L) null else "EMPTY_BODY"
+                    )
+                } finally {
+                    try {
+                        conn?.disconnect()
+                    } catch (_: Exception) {
+                    }
+                }
+            } catch (e: Exception) {
+                ProbeResult(
+                    ok = false,
+                    latencyMs = null,
+                    bytesPerSec = null,
+                    sampledBytes = null,
+                    error = e.javaClass.simpleName
+                )
+            }
+        }
+    }
+
+    /**
+     * 获取最新的 Release 信息
+     * 如果用户已登录，会自动带上认证头以提高 API 配额
+     */
+    suspend fun fetchLatestReleaseInfo(repoOwner: String, repoName: String): ReleaseInfo? = withContext(Dispatchers.IO) {
+        try {
+            val result = githubApiService.getRepositoryReleases(
+                owner = repoOwner,
+                repo = repoName,
+                page = 1,
+                perPage = 1
+            )
+
+            result.fold(
+                onSuccess = { releases ->
+                    if (releases.isEmpty()) {
+                        AppLogger.e(TAG, "No releases found for $repoOwner/$repoName")
+                        return@withContext null
+                    }
+
+                    val latestRelease = releases.first()
+                    val tagName = latestRelease.tag_name
+                    val version = tagName.removePrefix("v")
+
+                    // 查找 APK 资源
+                    val apkAsset = latestRelease.assets.find { it.name.endsWith(".apk") }
+                    val downloadUrl = apkAsset?.browser_download_url ?: latestRelease.html_url
+
+                    ReleaseInfo(
+                        version = version,
+                        downloadUrl = downloadUrl,
+                        releaseNotes = latestRelease.body ?: "",
+                        releasePageUrl = latestRelease.html_url
+                    )
+                },
+                onFailure = { exception ->
+                    AppLogger.e(TAG, "Failed to get release info for $repoOwner/$repoName", exception)
+                    null
+                }
+            )
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error fetching latest release info for $repoOwner/$repoName", e)
+            null
+        }
+    }
+} 

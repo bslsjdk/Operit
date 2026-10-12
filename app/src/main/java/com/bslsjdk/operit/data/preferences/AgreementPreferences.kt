@@ -1,1 +1,37 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuU2hhcmVkUHJlZmVyZW5jZXMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKCi8qKiBNYW5hZ2VzIGFncmVlbWVudC1yZWxhdGVkIHByZWZlcmVuY2VzIGZvciB0aGUgYXBwbGljYXRpb24gKi8KY2xhc3MgQWdyZWVtZW50UHJlZmVyZW5jZXMoY29udGV4dDogQ29udGV4dCkgewogICAgcHJpdmF0ZSB2YWwgUFJFRlNfTkFNRSA9ICJhZ3JlZW1lbnRfcHJlZmVyZW5jZXMiCiAgICBwcml2YXRlIHZhbCBLRVlfQUNDRVBURURfQUdSRUVNRU5UX1ZFUlNJT04gPSAiYWNjZXB0ZWRfYWdyZWVtZW50X3ZlcnNpb24iCgogICAgcHJpdmF0ZSB2YWwgcHJlZnM6IFNoYXJlZFByZWZlcmVuY2VzID0KICAgICAgICAgICAgY29udGV4dC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhQUkVGU19OQU1FLCBDb250ZXh0Lk1PREVfUFJJVkFURSkKCiAgICBwcml2YXRlIHZhbCBfYWdyZWVtZW50QWNjZXB0ZWRGbG93ID0gTXV0YWJsZVN0YXRlRmxvdyhpc0FncmVlbWVudEFjY2VwdGVkKCkpCiAgICB2YWwgYWdyZWVtZW50QWNjZXB0ZWRGbG93OiBTdGF0ZUZsb3c8Qm9vbGVhbj4gPSBfYWdyZWVtZW50QWNjZXB0ZWRGbG93LmFzU3RhdGVGbG93KCkKCiAgICAvKiogQ2hlY2sgd2hldGhlciB0aGUgdXNlciBoYXMgYWNjZXB0ZWQgdGhlIGN1cnJlbnQgYWdyZWVtZW50IHZlcnNpb24uICovCiAgICBmdW4gaXNBZ3JlZW1lbnRBY2NlcHRlZCgpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gcHJlZnMuZ2V0U3RyaW5nKEtFWV9BQ0NFUFRFRF9BR1JFRU1FTlRfVkVSU0lPTiwgbnVsbCkgPT0gQ1VSUkVOVF9BR1JFRU1FTlRfVkVSU0lPTgogICAgfQoKICAgIC8qKiBSZWNvcmRzIGFjY2VwdGFuY2Ugb2YgdGhlIGFncmVlbWVudCB2ZXJzaW9uIGJ1bmRsZWQgd2l0aCB0aGlzIGFwcCByZWxlYXNlLiAqLwogICAgZnVuIGFjY2VwdEN1cnJlbnRBZ3JlZW1lbnQoKSB7CiAgICAgICAgcHJlZnMuZWRpdCgpCiAgICAgICAgICAgIC5wdXRTdHJpbmcoS0VZX0FDQ0VQVEVEX0FHUkVFTUVOVF9WRVJTSU9OLCBDVVJSRU5UX0FHUkVFTUVOVF9WRVJTSU9OKQogICAgICAgICAgICAuYXBwbHkoKQogICAgICAgIF9hZ3JlZW1lbnRBY2NlcHRlZEZsb3cudmFsdWUgPSB0cnVlCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgLyoqIEJ1bXAgdGhpcyB2YWx1ZSB3aGVuZXZlciB0aGUgdXNlciBhZ3JlZW1lbnQgY2hhbmdlcyBzdWJzdGFudGl2ZWx5LiAqLwogICAgICAgIGNvbnN0IHZhbCBDVVJSRU5UX0FHUkVFTUVOVF9WRVJTSU9OID0gIjIwMjYtMDctMTUiCiAgICB9Cn0K
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import android.content.SharedPreferences
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+/** Manages agreement-related preferences for the application */
+class AgreementPreferences(context: Context) {
+    private val PREFS_NAME = "agreement_preferences"
+    private val KEY_ACCEPTED_AGREEMENT_VERSION = "accepted_agreement_version"
+
+    private val prefs: SharedPreferences =
+            context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+
+    private val _agreementAcceptedFlow = MutableStateFlow(isAgreementAccepted())
+    val agreementAcceptedFlow: StateFlow<Boolean> = _agreementAcceptedFlow.asStateFlow()
+
+    /** Check whether the user has accepted the current agreement version. */
+    fun isAgreementAccepted(): Boolean {
+        return prefs.getString(KEY_ACCEPTED_AGREEMENT_VERSION, null) == CURRENT_AGREEMENT_VERSION
+    }
+
+    /** Records acceptance of the agreement version bundled with this app release. */
+    fun acceptCurrentAgreement() {
+        prefs.edit()
+            .putString(KEY_ACCEPTED_AGREEMENT_VERSION, CURRENT_AGREEMENT_VERSION)
+            .apply()
+        _agreementAcceptedFlow.value = true
+    }
+
+    companion object {
+        /** Bump this value whenever the user agreement changes substantively. */
+        const val CURRENT_AGREEMENT_VERSION = "2026-07-15"
+    }
+}

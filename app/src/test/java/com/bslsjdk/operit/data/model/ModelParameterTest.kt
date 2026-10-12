@@ -1,1 +1,166 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIE1vZGVsUGFyYW1ldGVyVGVzdCB7CgogICAgQFRlc3QgZnVuIGBjcmVhdGUgaW50IHBhcmFtZXRlcmAoKSB7CiAgICAgICAgdmFsIHBhcmFtID0gTW9kZWxQYXJhbWV0ZXIoCiAgICAgICAgICAgIGlkID0gInRlbXAiLCBuYW1lID0gIlRlbXBlcmF0dXJlIiwgYXBpTmFtZSA9ICJ0ZW1wZXJhdHVyZSIsCiAgICAgICAgICAgIGRlZmF1bHRWYWx1ZSA9IDAuNywgY3VycmVudFZhbHVlID0gMC44LCBpc0VuYWJsZWQgPSB0cnVlLAogICAgICAgICAgICB2YWx1ZVR5cGUgPSBQYXJhbWV0ZXJWYWx1ZVR5cGUuRkxPQVQsCiAgICAgICAgICAgIG1pblZhbHVlID0gMC4wLCBtYXhWYWx1ZSA9IDIuMCwKICAgICAgICAgICAgY2F0ZWdvcnkgPSBQYXJhbWV0ZXJDYXRlZ29yeS5DUkVBVElWSVRZLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoInRlbXAiLCBwYXJhbS5pZCkKICAgICAgICBhc3NlcnRFcXVhbHMoIlRlbXBlcmF0dXJlIiwgcGFyYW0ubmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoInRlbXBlcmF0dXJlIiwgcGFyYW0uYXBpTmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoMC43LCBwYXJhbS5kZWZhdWx0VmFsdWUsIDAuMDAxKQogICAgICAgIGFzc2VydEVxdWFscygwLjgsIHBhcmFtLmN1cnJlbnRWYWx1ZSwgMC4wMDEpCiAgICAgICAgYXNzZXJ0VHJ1ZShwYXJhbS5pc0VuYWJsZWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFBhcmFtZXRlclZhbHVlVHlwZS5GTE9BVCwgcGFyYW0udmFsdWVUeXBlKQogICAgICAgIGFzc2VydEVxdWFscygwLjAsIChwYXJhbS5taW5WYWx1ZSBhcyBEb3VibGUpLCAwLjAwMSkKICAgICAgICBhc3NlcnRFcXVhbHMoMi4wLCAocGFyYW0ubWF4VmFsdWUgYXMgRG91YmxlKSwgMC4wMDEpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFBhcmFtZXRlckNhdGVnb3J5LkNSRUFUSVZJVFksIHBhcmFtLmNhdGVnb3J5KQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIGJvb2xlYW4gcGFyYW1ldGVyYCgpIHsKICAgICAgICB2YWwgcGFyYW0gPSBNb2RlbFBhcmFtZXRlcigKICAgICAgICAgICAgaWQgPSAic3RyZWFtIiwgbmFtZSA9ICJTdHJlYW0iLCBhcGlOYW1lID0gInN0cmVhbSIsCiAgICAgICAgICAgIGRlZmF1bHRWYWx1ZSA9IHRydWUsIGN1cnJlbnRWYWx1ZSA9IGZhbHNlLCBpc0VuYWJsZWQgPSB0cnVlLAogICAgICAgICAgICB2YWx1ZVR5cGUgPSBQYXJhbWV0ZXJWYWx1ZVR5cGUuQk9PTEVBTiwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRydWUsIHBhcmFtLmRlZmF1bHRWYWx1ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoZmFsc2UsIHBhcmFtLmN1cnJlbnRWYWx1ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoUGFyYW1ldGVyVmFsdWVUeXBlLkJPT0xFQU4sIHBhcmFtLnZhbHVlVHlwZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNyZWF0ZSBzdHJpbmcgcGFyYW1ldGVyYCgpIHsKICAgICAgICB2YWwgcGFyYW0gPSBNb2RlbFBhcmFtZXRlcigKICAgICAgICAgICAgaWQgPSAibW9kZWwiLCBuYW1lID0gIk1vZGVsIiwgYXBpTmFtZSA9ICJtb2RlbCIsCiAgICAgICAgICAgIGRlZmF1bHRWYWx1ZSA9ICJncHQtNCIsIGN1cnJlbnRWYWx1ZSA9ICJncHQtMy41IiwgaXNFbmFibGVkID0gdHJ1ZSwKICAgICAgICAgICAgdmFsdWVUeXBlID0gUGFyYW1ldGVyVmFsdWVUeXBlLlNUUklORywKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJncHQtNCIsIHBhcmFtLmRlZmF1bHRWYWx1ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoImdwdC0zLjUiLCBwYXJhbS5jdXJyZW50VmFsdWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFBhcmFtZXRlclZhbHVlVHlwZS5TVFJJTkcsIHBhcmFtLnZhbHVlVHlwZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGRlc2NyaXB0aW9uIGRlZmF1bHRzIHRvIGVtcHR5YCgpIHsKICAgICAgICB2YWwgcGFyYW0gPSBNb2RlbFBhcmFtZXRlcigKICAgICAgICAgICAgaWQgPSAidCIsIG5hbWUgPSAiVCIsIGFwaU5hbWUgPSAidCIsCiAgICAgICAgICAgIGRlZmF1bHRWYWx1ZSA9IDEsIGN1cnJlbnRWYWx1ZSA9IDEsIGlzRW5hYmxlZCA9IHRydWUsCiAgICAgICAgICAgIHZhbHVlVHlwZSA9IFBhcmFtZXRlclZhbHVlVHlwZS5JTlQsCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygiIiwgcGFyYW0uZGVzY3JpcHRpb24pCiAgICB9CgogICAgQFRlc3QgZnVuIGBtaW4gYW5kIG1heCBjYW4gYmUgbnVsbGAoKSB7CiAgICAgICAgdmFsIHBhcmFtID0gTW9kZWxQYXJhbWV0ZXIoCiAgICAgICAgICAgIGlkID0gInQiLCBuYW1lID0gIlQiLCBhcGlOYW1lID0gInQiLAogICAgICAgICAgICBkZWZhdWx0VmFsdWUgPSAxLCBjdXJyZW50VmFsdWUgPSAxLCBpc0VuYWJsZWQgPSB0cnVlLAogICAgICAgICAgICB2YWx1ZVR5cGUgPSBQYXJhbWV0ZXJWYWx1ZVR5cGUuSU5ULAogICAgICAgICkKICAgICAgICBhc3NlcnROdWxsKHBhcmFtLm1pblZhbHVlKQogICAgICAgIGFzc2VydE51bGwocGFyYW0ubWF4VmFsdWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjYXRlZ29yeSBkZWZhdWx0cyB0byBPVEhFUmAoKSB7CiAgICAgICAgdmFsIHBhcmFtID0gTW9kZWxQYXJhbWV0ZXIoCiAgICAgICAgICAgIGlkID0gInQiLCBuYW1lID0gIlQiLCBhcGlOYW1lID0gInQiLAogICAgICAgICAgICBkZWZhdWx0VmFsdWUgPSAxLCBjdXJyZW50VmFsdWUgPSAxLCBpc0VuYWJsZWQgPSB0cnVlLAogICAgICAgICAgICB2YWx1ZVR5cGUgPSBQYXJhbWV0ZXJWYWx1ZVR5cGUuSU5ULAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoUGFyYW1ldGVyQ2F0ZWdvcnkuT1RIRVIsIHBhcmFtLmNhdGVnb3J5KQogICAgfQoKICAgIEBUZXN0IGZ1biBgaXNDdXN0b20gZGVmYXVsdHMgdG8gZmFsc2VgKCkgewogICAgICAgIHZhbCBwYXJhbSA9IE1vZGVsUGFyYW1ldGVyKAogICAgICAgICAgICBpZCA9ICJ0IiwgbmFtZSA9ICJUIiwgYXBpTmFtZSA9ICJ0IiwKICAgICAgICAgICAgZGVmYXVsdFZhbHVlID0gMSwgY3VycmVudFZhbHVlID0gMSwgaXNFbmFibGVkID0gdHJ1ZSwKICAgICAgICAgICAgdmFsdWVUeXBlID0gUGFyYW1ldGVyVmFsdWVUeXBlLklOVCwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RmFsc2UocGFyYW0uaXNDdXN0b20pCiAgICB9CgogICAgQFRlc3QgZnVuIGBjdXN0b20gcGFyYW1ldGVyYCgpIHsKICAgICAgICB2YWwgcGFyYW0gPSBNb2RlbFBhcmFtZXRlcigKICAgICAgICAgICAgaWQgPSAiY3VzdG9tIiwgbmFtZSA9ICJDdXN0b20iLCBhcGlOYW1lID0gImN1c3RvbSIsCiAgICAgICAgICAgIGRlZmF1bHRWYWx1ZSA9IDUsIGN1cnJlbnRWYWx1ZSA9IDEwLCBpc0VuYWJsZWQgPSB0cnVlLAogICAgICAgICAgICB2YWx1ZVR5cGUgPSBQYXJhbWV0ZXJWYWx1ZVR5cGUuSU5ULCBpc0N1c3RvbSA9IHRydWUsCiAgICAgICAgKQogICAgICAgIGFzc2VydFRydWUocGFyYW0uaXNDdXN0b20pCiAgICB9CgogICAgQFRlc3QgZnVuIGBwYXJhbWV0ZXIgY2FuIGJlIGRpc2FibGVkYCgpIHsKICAgICAgICB2YWwgcGFyYW0gPSBNb2RlbFBhcmFtZXRlcigKICAgICAgICAgICAgaWQgPSAidCIsIG5hbWUgPSAiVCIsIGFwaU5hbWUgPSAidCIsCiAgICAgICAgICAgIGRlZmF1bHRWYWx1ZSA9IDEsIGN1cnJlbnRWYWx1ZSA9IDEsIGlzRW5hYmxlZCA9IGZhbHNlLAogICAgICAgICAgICB2YWx1ZVR5cGUgPSBQYXJhbWV0ZXJWYWx1ZVR5cGUuSU5ULAogICAgICAgICkKICAgICAgICBhc3NlcnRGYWxzZShwYXJhbS5pc0VuYWJsZWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBwYXJhbWV0ZXIgdmFsdWUgdHlwZSBlbnVtIGhhcyBhbGwgdmFsdWVzYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoNSwgUGFyYW1ldGVyVmFsdWVUeXBlLnZhbHVlcygpLnNpemUpCiAgICAgICAgYXNzZXJ0VHJ1ZShQYXJhbWV0ZXJWYWx1ZVR5cGUudmFsdWVzKCkuY29udGFpbnMoUGFyYW1ldGVyVmFsdWVUeXBlLklOVCkpCiAgICAgICAgYXNzZXJ0VHJ1ZShQYXJhbWV0ZXJWYWx1ZVR5cGUudmFsdWVzKCkuY29udGFpbnMoUGFyYW1ldGVyVmFsdWVUeXBlLkZMT0FUKSkKICAgICAgICBhc3NlcnRUcnVlKFBhcmFtZXRlclZhbHVlVHlwZS52YWx1ZXMoKS5jb250YWlucyhQYXJhbWV0ZXJWYWx1ZVR5cGUuU1RSSU5HKSkKICAgICAgICBhc3NlcnRUcnVlKFBhcmFtZXRlclZhbHVlVHlwZS52YWx1ZXMoKS5jb250YWlucyhQYXJhbWV0ZXJWYWx1ZVR5cGUuQk9PTEVBTikpCiAgICAgICAgYXNzZXJ0VHJ1ZShQYXJhbWV0ZXJWYWx1ZVR5cGUudmFsdWVzKCkuY29udGFpbnMoUGFyYW1ldGVyVmFsdWVUeXBlLk9CSkVDVCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBwYXJhbWV0ZXIgY2F0ZWdvcnkgZW51bSBoYXMgYWxsIHZhbHVlc2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDQsIFBhcmFtZXRlckNhdGVnb3J5LnZhbHVlcygpLnNpemUpCiAgICAgICAgYXNzZXJ0VHJ1ZShQYXJhbWV0ZXJDYXRlZ29yeS52YWx1ZXMoKS5jb250YWlucyhQYXJhbWV0ZXJDYXRlZ29yeS5HRU5FUkFUSU9OKSkKICAgICAgICBhc3NlcnRUcnVlKFBhcmFtZXRlckNhdGVnb3J5LnZhbHVlcygpLmNvbnRhaW5zKFBhcmFtZXRlckNhdGVnb3J5LkNSRUFUSVZJVFkpKQogICAgICAgIGFzc2VydFRydWUoUGFyYW1ldGVyQ2F0ZWdvcnkudmFsdWVzKCkuY29udGFpbnMoUGFyYW1ldGVyQ2F0ZWdvcnkuUkVQRVRJVElPTikpCiAgICAgICAgYXNzZXJ0VHJ1ZShQYXJhbWV0ZXJDYXRlZ29yeS52YWx1ZXMoKS5jb250YWlucyhQYXJhbWV0ZXJDYXRlZ29yeS5PVEhFUikpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjdXN0b20gcGFyYW1ldGVyIGRhdGEgd2l0aCBhbGwgZmllbGRzYCgpIHsKICAgICAgICB2YWwgZGF0YSA9IEN1c3RvbVBhcmFtZXRlckRhdGEoCiAgICAgICAgICAgIGlkID0gImN1c3RvbTEiLCBuYW1lID0gIkN1c3RvbSBQYXJhbSIsIGFwaU5hbWUgPSAiY3VzdG9tX3BhcmFtIiwKICAgICAgICAgICAgZGVzY3JpcHRpb24gPSAiQSBjdXN0b20gcGFyYW1ldGVyIiwgZGVmYXVsdFZhbHVlID0gIjEwIiwKICAgICAgICAgICAgY3VycmVudFZhbHVlID0gIjIwIiwgaXNFbmFibGVkID0gdHJ1ZSwgdmFsdWVUeXBlID0gIklOVCIsCiAgICAgICAgICAgIG1pblZhbHVlID0gIjAiLCBtYXhWYWx1ZSA9ICIxMDAiLCBjYXRlZ29yeSA9ICJHRU5FUkFUSU9OIiwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJjdXN0b20xIiwgZGF0YS5pZCkKICAgICAgICBhc3NlcnRFcXVhbHMoIkN1c3RvbSBQYXJhbSIsIGRhdGEubmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoImN1c3RvbV9wYXJhbSIsIGRhdGEuYXBpTmFtZSkKICAgICAgICBhc3NlcnRFcXVhbHMoIkEgY3VzdG9tIHBhcmFtZXRlciIsIGRhdGEuZGVzY3JpcHRpb24pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIxMCIsIGRhdGEuZGVmYXVsdFZhbHVlKQogICAgICAgIGFzc2VydEVxdWFscygiMjAiLCBkYXRhLmN1cnJlbnRWYWx1ZSkKICAgICAgICBhc3NlcnRUcnVlKGRhdGEuaXNFbmFibGVkKQogICAgICAgIGFzc2VydEVxdWFscygiSU5UIiwgZGF0YS52YWx1ZVR5cGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIwIiwgZGF0YS5taW5WYWx1ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoIjEwMCIsIGRhdGEubWF4VmFsdWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJHRU5FUkFUSU9OIiwgZGF0YS5jYXRlZ29yeSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGN1c3RvbSBwYXJhbWV0ZXIgZGF0YSB3aXRoIGRlZmF1bHRzYCgpIHsKICAgICAgICB2YWwgZGF0YSA9IEN1c3RvbVBhcmFtZXRlckRhdGEoCiAgICAgICAgICAgIGlkID0gImMiLCBuYW1lID0gIkMiLCBhcGlOYW1lID0gImMiLAogICAgICAgICAgICBkZWZhdWx0VmFsdWUgPSAiMSIsIGN1cnJlbnRWYWx1ZSA9ICIxIiwgaXNFbmFibGVkID0gdHJ1ZSwgdmFsdWVUeXBlID0gIkZMT0FUIiwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCBkYXRhLmRlc2NyaXB0aW9uKQogICAgICAgIGFzc2VydE51bGwoZGF0YS5taW5WYWx1ZSkKICAgICAgICBhc3NlcnROdWxsKGRhdGEubWF4VmFsdWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJPVEhFUiIsIGRhdGEuY2F0ZWdvcnkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjdXN0b20gcGFyYW1ldGVyIGRhdGEgY29weWAoKSB7CiAgICAgICAgdmFsIGRhdGEgPSBDdXN0b21QYXJhbWV0ZXJEYXRhKAogICAgICAgICAgICBpZCA9ICJjIiwgbmFtZSA9ICJDIiwgYXBpTmFtZSA9ICJjIiwKICAgICAgICAgICAgZGVmYXVsdFZhbHVlID0gIjEiLCBjdXJyZW50VmFsdWUgPSAiMiIsIGlzRW5hYmxlZCA9IHRydWUsIHZhbHVlVHlwZSA9ICJJTlQiLAogICAgICAgICkKICAgICAgICB2YWwgY29weSA9IGRhdGEuY29weShjdXJyZW50VmFsdWUgPSAiMyIsIGlzRW5hYmxlZCA9IGZhbHNlKQogICAgICAgIGFzc2VydEVxdWFscygiMyIsIGNvcHkuY3VycmVudFZhbHVlKQogICAgICAgIGFzc2VydEZhbHNlKGNvcHkuaXNFbmFibGVkKQogICAgICAgIGFzc2VydEVxdWFscygiMSIsIGNvcHkuZGVmYXVsdFZhbHVlKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ModelParameterTest {
+
+    @Test fun `create int parameter`() {
+        val param = ModelParameter(
+            id = "temp", name = "Temperature", apiName = "temperature",
+            defaultValue = 0.7, currentValue = 0.8, isEnabled = true,
+            valueType = ParameterValueType.FLOAT,
+            minValue = 0.0, maxValue = 2.0,
+            category = ParameterCategory.CREATIVITY,
+        )
+        assertEquals("temp", param.id)
+        assertEquals("Temperature", param.name)
+        assertEquals("temperature", param.apiName)
+        assertEquals(0.7, param.defaultValue, 0.001)
+        assertEquals(0.8, param.currentValue, 0.001)
+        assertTrue(param.isEnabled)
+        assertEquals(ParameterValueType.FLOAT, param.valueType)
+        assertEquals(0.0, (param.minValue as Double), 0.001)
+        assertEquals(2.0, (param.maxValue as Double), 0.001)
+        assertEquals(ParameterCategory.CREATIVITY, param.category)
+    }
+
+    @Test fun `create boolean parameter`() {
+        val param = ModelParameter(
+            id = "stream", name = "Stream", apiName = "stream",
+            defaultValue = true, currentValue = false, isEnabled = true,
+            valueType = ParameterValueType.BOOLEAN,
+        )
+        assertEquals(true, param.defaultValue)
+        assertEquals(false, param.currentValue)
+        assertEquals(ParameterValueType.BOOLEAN, param.valueType)
+    }
+
+    @Test fun `create string parameter`() {
+        val param = ModelParameter(
+            id = "model", name = "Model", apiName = "model",
+            defaultValue = "gpt-4", currentValue = "gpt-3.5", isEnabled = true,
+            valueType = ParameterValueType.STRING,
+        )
+        assertEquals("gpt-4", param.defaultValue)
+        assertEquals("gpt-3.5", param.currentValue)
+        assertEquals(ParameterValueType.STRING, param.valueType)
+    }
+
+    @Test fun `description defaults to empty`() {
+        val param = ModelParameter(
+            id = "t", name = "T", apiName = "t",
+            defaultValue = 1, currentValue = 1, isEnabled = true,
+            valueType = ParameterValueType.INT,
+        )
+        assertEquals("", param.description)
+    }
+
+    @Test fun `min and max can be null`() {
+        val param = ModelParameter(
+            id = "t", name = "T", apiName = "t",
+            defaultValue = 1, currentValue = 1, isEnabled = true,
+            valueType = ParameterValueType.INT,
+        )
+        assertNull(param.minValue)
+        assertNull(param.maxValue)
+    }
+
+    @Test fun `category defaults to OTHER`() {
+        val param = ModelParameter(
+            id = "t", name = "T", apiName = "t",
+            defaultValue = 1, currentValue = 1, isEnabled = true,
+            valueType = ParameterValueType.INT,
+        )
+        assertEquals(ParameterCategory.OTHER, param.category)
+    }
+
+    @Test fun `isCustom defaults to false`() {
+        val param = ModelParameter(
+            id = "t", name = "T", apiName = "t",
+            defaultValue = 1, currentValue = 1, isEnabled = true,
+            valueType = ParameterValueType.INT,
+        )
+        assertFalse(param.isCustom)
+    }
+
+    @Test fun `custom parameter`() {
+        val param = ModelParameter(
+            id = "custom", name = "Custom", apiName = "custom",
+            defaultValue = 5, currentValue = 10, isEnabled = true,
+            valueType = ParameterValueType.INT, isCustom = true,
+        )
+        assertTrue(param.isCustom)
+    }
+
+    @Test fun `parameter can be disabled`() {
+        val param = ModelParameter(
+            id = "t", name = "T", apiName = "t",
+            defaultValue = 1, currentValue = 1, isEnabled = false,
+            valueType = ParameterValueType.INT,
+        )
+        assertFalse(param.isEnabled)
+    }
+
+    @Test fun `parameter value type enum has all values`() {
+        assertEquals(5, ParameterValueType.values().size)
+        assertTrue(ParameterValueType.values().contains(ParameterValueType.INT))
+        assertTrue(ParameterValueType.values().contains(ParameterValueType.FLOAT))
+        assertTrue(ParameterValueType.values().contains(ParameterValueType.STRING))
+        assertTrue(ParameterValueType.values().contains(ParameterValueType.BOOLEAN))
+        assertTrue(ParameterValueType.values().contains(ParameterValueType.OBJECT))
+    }
+
+    @Test fun `parameter category enum has all values`() {
+        assertEquals(4, ParameterCategory.values().size)
+        assertTrue(ParameterCategory.values().contains(ParameterCategory.GENERATION))
+        assertTrue(ParameterCategory.values().contains(ParameterCategory.CREATIVITY))
+        assertTrue(ParameterCategory.values().contains(ParameterCategory.REPETITION))
+        assertTrue(ParameterCategory.values().contains(ParameterCategory.OTHER))
+    }
+
+    @Test fun `custom parameter data with all fields`() {
+        val data = CustomParameterData(
+            id = "custom1", name = "Custom Param", apiName = "custom_param",
+            description = "A custom parameter", defaultValue = "10",
+            currentValue = "20", isEnabled = true, valueType = "INT",
+            minValue = "0", maxValue = "100", category = "GENERATION",
+        )
+        assertEquals("custom1", data.id)
+        assertEquals("Custom Param", data.name)
+        assertEquals("custom_param", data.apiName)
+        assertEquals("A custom parameter", data.description)
+        assertEquals("10", data.defaultValue)
+        assertEquals("20", data.currentValue)
+        assertTrue(data.isEnabled)
+        assertEquals("INT", data.valueType)
+        assertEquals("0", data.minValue)
+        assertEquals("100", data.maxValue)
+        assertEquals("GENERATION", data.category)
+    }
+
+    @Test fun `custom parameter data with defaults`() {
+        val data = CustomParameterData(
+            id = "c", name = "C", apiName = "c",
+            defaultValue = "1", currentValue = "1", isEnabled = true, valueType = "FLOAT",
+        )
+        assertEquals("", data.description)
+        assertNull(data.minValue)
+        assertNull(data.maxValue)
+        assertEquals("OTHER", data.category)
+    }
+
+    @Test fun `custom parameter data copy`() {
+        val data = CustomParameterData(
+            id = "c", name = "C", apiName = "c",
+            defaultValue = "1", currentValue = "2", isEnabled = true, valueType = "INT",
+        )
+        val copy = data.copy(currentValue = "3", isEnabled = false)
+        assertEquals("3", copy.currentValue)
+        assertFalse(copy.isEnabled)
+        assertEquals("1", copy.defaultValue)
+    }
+}

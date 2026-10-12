@@ -1,1 +1,97 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZS5PcmRlcmVkVG9vbFJlc3VsdHMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5hcGkuY2hhdC5lbmhhbmNlLlRvb2xFeGVjdXRpb25NYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdFR1cm4KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmNoYXQuaG9va3MuUHJvbXB0VHVybktpbmQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlN0cmluZ1Jlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xSZXN1bHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQ2hhdE1hcmt1cFJlZ2V4CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5mbG93T2YKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5ydW5CbG9ja2luZwppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheQppbXBvcnQgb3JnLmp1bml0LkFmdGVyCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkJlZm9yZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENsYXVkZU9yZGVyZWRUb29sSGlzdG9yeVRlc3QgewogICAgcHJpdmF0ZSB2YXIgc3lzdGVtTG9nID0gdHJ1ZQogICAgcHJpdmF0ZSB2YXIgZmlsZUxvZyA9IHRydWUKCiAgICBAQmVmb3JlIGZ1biBkaXNhYmxlQW5kcm9pZExvZ2dpbmcoKSB7CiAgICAgICAgc3lzdGVtTG9nID0gQXBwTG9nZ2VyLmVuYWJsZVN5c3RlbUxvZwogICAgICAgIGZpbGVMb2cgPSBBcHBMb2dnZXIuZW5hYmxlRmlsZUxvZ2dpbmcKICAgICAgICBBcHBMb2dnZXIuZW5hYmxlU3lzdGVtTG9nID0gZmFsc2UKICAgICAgICBBcHBMb2dnZXIuZW5hYmxlRmlsZUxvZ2dpbmcgPSBmYWxzZQogICAgfQoKICAgIEBBZnRlciBmdW4gcmVzdG9yZUxvZ2dpbmcoKSB7CiAgICAgICAgQXBwTG9nZ2VyLmVuYWJsZVN5c3RlbUxvZyA9IHN5c3RlbUxvZwogICAgICAgIEFwcExvZ2dlci5lbmFibGVGaWxlTG9nZ2luZyA9IGZpbGVMb2cKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBDbGF1ZGUgdG9vbCBoaXN0b3J5IGlzIGlkZW50aWNhbCBhZnRlciBvcmRlcmVkIHN0cmVhbSBpcyBzcGxpdCBpbnRvIHNhdmVkIHR1cm5zYCgpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBzdHJlYW0gPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICB2YWwgb3JkZXJlZCA9IE9yZGVyZWRUb29sUmVzdWx0cygzKSB7IHN0cmVhbS5hcHBlbmQoVG9vbEV4ZWN1dGlvbk1hbmFnZXIuZW5zdXJlT3duTGluZShpdCkpIH0KICAgICAgICBvcmRlcmVkLmNvbXBsZXRlKDIsIFRvb2xSZXN1bHQoInJlYWRfZmlsZSIsIGZhbHNlLCBTdHJpbmdSZXN1bHREYXRhKCIiKSwgInBlcm1pc3Npb24gZGVuaWVkIikpCiAgICAgICAgb3JkZXJlZC5jb21wbGV0ZSgxLCBUb29sUmVzdWx0KCJyZWFkX2ZpbGUiLCB0cnVlLCBTdHJpbmdSZXN1bHREYXRhKCJjb250ZW50LWIiKSkpCiAgICAgICAgb3JkZXJlZC5jb21wbGV0ZSgwLCBUb29sRXhlY3V0aW9uTWFuYWdlci5hZ2dyZWdhdGVUb29sUmVzdWx0cygKICAgICAgICAgICAgInJlYWRfZmlsZSIsIGZsb3dPZigKICAgICAgICAgICAgICAgIFRvb2xSZXN1bHQoInJlYWRfZmlsZSIsIHRydWUsIFN0cmluZ1Jlc3VsdERhdGEoImNvbnRlbnQtYTEiKSksCiAgICAgICAgICAgICAgICBUb29sUmVzdWx0KCJyZWFkX2ZpbGUiLCB0cnVlLCBTdHJpbmdSZXN1bHREYXRhKCJjb250ZW50LWEyIikpCiAgICAgICAgICAgICkKICAgICAgICApKQogICAgICAgIHZhbCBiYXRjaCA9IG9yZGVyZWQuZmluaXNoKCkKICAgICAgICB2YWwgY2FsbHMgPSBsaXN0T2YoImEiLCAiYiIsICJiIikubWFwIHsgcGF0aCAtPgogICAgICAgICAgICAiIiI8dG9vbCBuYW1lPSJyZWFkX2ZpbGUiPjxwYXJhbSBuYW1lPSJwYXRoIj4kcGF0aDwvcGFyYW0+PC90b29sPiIiIgogICAgICAgIH0KICAgICAgICB2YWwgdXNlciA9IFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuVVNFUiwgIlJlYWQgZmlsZXMiKQogICAgICAgIHZhbCBsaXZlID0gYnVpbGRNZXNzYWdlcyhsaXN0T2YoCiAgICAgICAgICAgIHVzZXIsCiAgICAgICAgICAgIFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuQVNTSVNUQU5ULCBjYWxscy5qb2luVG9TdHJpbmcoIlxuIikpLAogICAgICAgICAgICBQcm9tcHRUdXJuKFByb21wdFR1cm5LaW5kLlRPT0xfUkVTVUxULCBiYXRjaC5tZXNzYWdlKQogICAgICAgICkpCiAgICAgICAgLy8gRXhlcmNpc2UgdGhlIHByb2R1Y3Rpb24gQ2xhdWRlIHNlcmlhbGl6ZXIgd2l0aCB0aGUgcGVyLWJsb2NrIHR1cm5zIHVzZWQgYnkgc2F2ZWQgaGlzdG9yeS4KICAgICAgICAvLyBUaGlzIGlzIG5vdCBhIGRhdGFiYXNlIG9yIG5hdGl2ZSBYTUwgc3BsaXR0ZXIgdGVzdC4KICAgICAgICB2YWwgc2F2ZWRSZXN1bHRUdXJucyA9IENoYXRNYXJrdXBSZWdleC50b29sUmVzdWx0QW55UGF0dGVybi5maW5kQWxsKHN0cmVhbS50b1N0cmluZygpKS5tYXAgewogICAgICAgICAgICBQcm9tcHRUdXJuKFByb21wdFR1cm5LaW5kLlRPT0xfUkVTVUxULCBpdC52YWx1ZSkKICAgICAgICB9LnRvTGlzdCgpCiAgICAgICAgdmFsIHJlYnVpbHQgPSBidWlsZE1lc3NhZ2VzKAogICAgICAgICAgICBsaXN0T2YodXNlcikgKyBjYWxscy5tYXAgeyBQcm9tcHRUdXJuKFByb21wdFR1cm5LaW5kLlRPT0xfQ0FMTCwgaXQpIH0gKyBzYXZlZFJlc3VsdFR1cm5zICsKICAgICAgICAgICAgICAgIGxpc3RPZihQcm9tcHRUdXJuKFByb21wdFR1cm5LaW5kLkFTU0lTVEFOVCwgIkRvbmUiKSwgUHJvbXB0VHVybihQcm9tcHRUdXJuS2luZC5VU0VSLCAiQ29udGludWUiKSkKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMsIHNhdmVkUmVzdWx0VHVybnMuc2l6ZSkKICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBsaXZlLmxlbmd0aCgpKSB7CiAgICAgICAgICAgIGFzc2VydEVxdWFscyhsaXZlLmdldEpTT05PYmplY3QoaSkudG9TdHJpbmcoKSwgcmVidWlsdC5nZXRKU09OT2JqZWN0KGkpLnRvU3RyaW5nKCkpCiAgICAgICAgfQogICAgICAgIHZhbCB1c2VzID0gbGl2ZS5nZXRKU09OT2JqZWN0KDEpLmdldEpTT05BcnJheSgiY29udGVudCIpCiAgICAgICAgdmFsIHJlc3VsdHMgPSBsaXZlLmdldEpTT05PYmplY3QoMikuZ2V0SlNPTkFycmF5KCJjb250ZW50IikKICAgICAgICBhc3NlcnRFcXVhbHMoMywgcmVzdWx0cy5sZW5ndGgoKSkKICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCAzKSB7CiAgICAgICAgICAgIGFzc2VydEVxdWFscyh1c2VzLmdldEpTT05PYmplY3QoaSkuZ2V0U3RyaW5nKCJpZCIpLCByZXN1bHRzLmdldEpTT05PYmplY3QoaSkuZ2V0U3RyaW5nKCJ0b29sX3VzZV9pZCIpKQogICAgICAgIH0KICAgICAgICBhc3NlcnRFcXVhbHMoImNvbnRlbnQtYTFcbmNvbnRlbnQtYTIiLCByZXN1bHRzLmdldEpTT05PYmplY3QoMCkuZ2V0U3RyaW5nKCJjb250ZW50IikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJjb250ZW50LWIiLCByZXN1bHRzLmdldEpTT05PYmplY3QoMSkuZ2V0U3RyaW5nKCJjb250ZW50IikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCI8ZXJyb3I+cGVybWlzc2lvbiBkZW5pZWQ8L2Vycm9yPiIsIHJlc3VsdHMuZ2V0SlNPTk9iamVjdCgyKS5nZXRTdHJpbmcoImNvbnRlbnQiKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZE1lc3NhZ2VzKGhpc3Rvcnk6IExpc3Q8UHJvbXB0VHVybj4pOiBKU09OQXJyYXkgewogICAgICAgIHZhbCBwcm92aWRlciA9IENsYXVkZVByb3ZpZGVyKAogICAgICAgICAgICBhcGlFbmRwb2ludCA9ICJodHRwczovL2V4YW1wbGUudGVzdC92MS9tZXNzYWdlcyIsCiAgICAgICAgICAgIGFwaUtleVByb3ZpZGVyID0gU2luZ2xlQXBpS2V5UHJvdmlkZXIoInRlc3QiKSwKICAgICAgICAgICAgbW9kZWxOYW1lID0gInRlc3QiLAogICAgICAgICAgICBjbGllbnQgPSBPa0h0dHBDbGllbnQoKSwKICAgICAgICAgICAgZW5hYmxlVG9vbENhbGwgPSB0cnVlCiAgICAgICAgKQogICAgICAgIHZhbCBzZXJpYWxpemUgPSBDbGF1ZGVQcm92aWRlcjo6Y2xhc3MuamF2YS5nZXREZWNsYXJlZE1ldGhvZCgKICAgICAgICAgICAgImJ1aWxkU2VyaWFsaXplZEhpc3RvcnkiLCBMaXN0OjpjbGFzcy5qYXZhLCBCb29sZWFuOjpjbGFzcy5qYXZhUHJpbWl0aXZlVHlwZQogICAgICAgICkuYXBwbHkgeyBpc0FjY2Vzc2libGUgPSB0cnVlIH0KICAgICAgICB2YWwgc2VyaWFsaXplZCA9IGNoZWNrTm90TnVsbChzZXJpYWxpemUuaW52b2tlKHByb3ZpZGVyLCBoaXN0b3J5LCBmYWxzZSkpCiAgICAgICAgdmFsIG1lc3NhZ2VzID0gc2VyaWFsaXplZC5qYXZhQ2xhc3MuZ2V0RGVjbGFyZWRGaWVsZCgibWVzc2FnZXNBcnJheSIpLmFwcGx5IHsgaXNBY2Nlc3NpYmxlID0gdHJ1ZSB9CiAgICAgICAgcmV0dXJuIG1lc3NhZ2VzLmdldChzZXJpYWxpemVkKSBhcyBKU09OQXJyYXkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.api.chat.enhance.OrderedToolResults
+import com.bslsjdk.operit.api.chat.enhance.ToolExecutionManager
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.core.chat.hooks.PromptTurnKind
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.ChatMarkupRegex
+import kotlinx.coroutines.flow.flowOf
+import kotlinx.coroutines.runBlocking
+import okhttp3.OkHttpClient
+import org.json.JSONArray
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Before
+import org.junit.Test
+
+class ClaudeOrderedToolHistoryTest {
+    private var systemLog = true
+    private var fileLog = true
+
+    @Before fun disableAndroidLogging() {
+        systemLog = AppLogger.enableSystemLog
+        fileLog = AppLogger.enableFileLogging
+        AppLogger.enableSystemLog = false
+        AppLogger.enableFileLogging = false
+    }
+
+    @After fun restoreLogging() {
+        AppLogger.enableSystemLog = systemLog
+        AppLogger.enableFileLogging = fileLog
+    }
+
+    @Test
+    fun `Claude tool history is identical after ordered stream is split into saved turns`() = runBlocking {
+        val stream = StringBuilder()
+        val ordered = OrderedToolResults(3) { stream.append(ToolExecutionManager.ensureOwnLine(it)) }
+        ordered.complete(2, ToolResult("read_file", false, StringResultData(""), "permission denied"))
+        ordered.complete(1, ToolResult("read_file", true, StringResultData("content-b")))
+        ordered.complete(0, ToolExecutionManager.aggregateToolResults(
+            "read_file", flowOf(
+                ToolResult("read_file", true, StringResultData("content-a1")),
+                ToolResult("read_file", true, StringResultData("content-a2"))
+            )
+        ))
+        val batch = ordered.finish()
+        val calls = listOf("a", "b", "b").map { path ->
+            """<tool name="read_file"><param name="path">$path</param></tool>"""
+        }
+        val user = PromptTurn(PromptTurnKind.USER, "Read files")
+        val live = buildMessages(listOf(
+            user,
+            PromptTurn(PromptTurnKind.ASSISTANT, calls.joinToString("\n")),
+            PromptTurn(PromptTurnKind.TOOL_RESULT, batch.message)
+        ))
+        // Exercise the production Claude serializer with the per-block turns used by saved history.
+        // This is not a database or native XML splitter test.
+        val savedResultTurns = ChatMarkupRegex.toolResultAnyPattern.findAll(stream.toString()).map {
+            PromptTurn(PromptTurnKind.TOOL_RESULT, it.value)
+        }.toList()
+        val rebuilt = buildMessages(
+            listOf(user) + calls.map { PromptTurn(PromptTurnKind.TOOL_CALL, it) } + savedResultTurns +
+                listOf(PromptTurn(PromptTurnKind.ASSISTANT, "Done"), PromptTurn(PromptTurnKind.USER, "Continue"))
+        )
+        assertEquals(3, savedResultTurns.size)
+        for (i in 0 until live.length()) {
+            assertEquals(live.getJSONObject(i).toString(), rebuilt.getJSONObject(i).toString())
+        }
+        val uses = live.getJSONObject(1).getJSONArray("content")
+        val results = live.getJSONObject(2).getJSONArray("content")
+        assertEquals(3, results.length())
+        for (i in 0 until 3) {
+            assertEquals(uses.getJSONObject(i).getString("id"), results.getJSONObject(i).getString("tool_use_id"))
+        }
+        assertEquals("content-a1\ncontent-a2", results.getJSONObject(0).getString("content"))
+        assertEquals("content-b", results.getJSONObject(1).getString("content"))
+        assertEquals("<error>permission denied</error>", results.getJSONObject(2).getString("content"))
+    }
+
+    private fun buildMessages(history: List<PromptTurn>): JSONArray {
+        val provider = ClaudeProvider(
+            apiEndpoint = "https://example.test/v1/messages",
+            apiKeyProvider = SingleApiKeyProvider("test"),
+            modelName = "test",
+            client = OkHttpClient(),
+            enableToolCall = true
+        )
+        val serialize = ClaudeProvider::class.java.getDeclaredMethod(
+            "buildSerializedHistory", List::class.java, Boolean::class.javaPrimitiveType
+        ).apply { isAccessible = true }
+        val serialized = checkNotNull(serialize.invoke(provider, history, false))
+        val messages = serialized.javaClass.getDeclaredField("messagesArray").apply { isAccessible = true }
+        return messages.get(serialized) as JSONArray
+    }
+}

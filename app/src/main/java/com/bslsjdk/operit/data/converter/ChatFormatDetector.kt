@@ -1,1 +1,181 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb252ZXJ0ZXIKCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi4qCgovKioKICog6IGK5aSp6K6w5b2V5qC85byP5qOA5rWL5ZmoCiAqIOiHquWKqOivhuWIq+WvvOWFpeaWh+S7tueahOagvOW8jwogKi8Kb2JqZWN0IENoYXRGb3JtYXREZXRlY3RvciB7CiAgICAKICAgIC8qKgogICAgICog5qOA5rWL5paH5Lu25YaF5a6555qE5qC85byPCiAgICAgKiBAcGFyYW0gY29udGVudCDmlofku7blhoXlrrnlrZfnrKbkuLIKICAgICAqIEByZXR1cm4g5qOA5rWL5Yiw55qE5qC85byPCiAgICAgKi8KICAgIGZ1biBkZXRlY3RGb3JtYXQoY29udGVudDogU3RyaW5nKTogQ2hhdEZvcm1hdCB7CiAgICAgICAgaWYgKGNvbnRlbnQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBDaGF0Rm9ybWF0LlVOS05PV04KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgdmFsIHRyaW1tZWRDb250ZW50ID0gY29udGVudC50cmltKCkKICAgICAgICAKICAgICAgICAvLyDmo4DmtYsgTWFya2Rvd24g5qC85byPCiAgICAgICAgaWYgKGlzTWFya2Rvd25Gb3JtYXQodHJpbW1lZENvbnRlbnQpKSB7CiAgICAgICAgICAgIHJldHVybiBDaGF0Rm9ybWF0Lk1BUktET1dOCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOajgOa1iyBDU1Yg5qC85byPCiAgICAgICAgaWYgKGlzQ3N2Rm9ybWF0KHRyaW1tZWRDb250ZW50KSkgewogICAgICAgICAgICByZXR1cm4gQ2hhdEZvcm1hdC5DU1YKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5qOA5rWLIEpTT04g5qC85byPCiAgICAgICAgaWYgKHRyaW1tZWRDb250ZW50LnN0YXJ0c1dpdGgoInsiKSB8fCB0cmltbWVkQ29udGVudC5zdGFydHNXaXRoKCJbIikpIHsKICAgICAgICAgICAgcmV0dXJuIGRldGVjdEpzb25Gb3JtYXQodHJpbW1lZENvbnRlbnQpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOm7mOiupOS4uue6r+aWh+acrAogICAgICAgIHJldHVybiBDaGF0Rm9ybWF0LlBMQUlOX1RFWFQKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmo4DmtYsgSlNPTiDnmoTlhbfkvZPmoLzlvI8KICAgICAqLwogICAgcHJpdmF0ZSBmdW4gZGV0ZWN0SnNvbkZvcm1hdChjb250ZW50OiBTdHJpbmcpOiBDaGF0Rm9ybWF0IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGpzb24gPSBKc29uIHsgaWdub3JlVW5rbm93bktleXMgPSB0cnVlIH0KICAgICAgICAgICAgdmFsIGVsZW1lbnQgPSBqc29uLnBhcnNlVG9Kc29uRWxlbWVudChjb250ZW50KQogICAgICAgICAgICAKICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICAvLyDmo4DmtYvmmK/lkKbkuLrmlbDnu4QKICAgICAgICAgICAgICAgIGVsZW1lbnQgaXMgSnNvbkFycmF5IC0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAoZWxlbWVudC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIENoYXRGb3JtYXQuR0VORVJJQ19KU09OCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIHZhbCBmaXJzdEl0ZW0gPSBlbGVtZW50LmZpcnN0KCkKICAgICAgICAgICAgICAgICAgICBpZiAoZmlyc3RJdGVtIGlzIEpzb25PYmplY3QpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGV0ZWN0SnNvbk9iamVjdEZvcm1hdChmaXJzdEl0ZW0pCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgQ2hhdEZvcm1hdC5HRU5FUklDX0pTT04KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyDljZXkuKrlr7nosaEKICAgICAgICAgICAgICAgIGVsZW1lbnQgaXMgSnNvbk9iamVjdCAtPiB7CiAgICAgICAgICAgICAgICAgICAgZGV0ZWN0SnNvbk9iamVjdEZvcm1hdChlbGVtZW50KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWxzZSAtPiBDaGF0Rm9ybWF0LlVOS05PV04KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBDaGF0Rm9ybWF0LlVOS05PV04KICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5qOA5rWLIEpTT04g5a+56LGh55qE5YW35L2T5qC85byPCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGRldGVjdEpzb25PYmplY3RGb3JtYXQob2JqOiBKc29uT2JqZWN0KTogQ2hhdEZvcm1hdCB7CiAgICAgICAgdmFsIGtleXMgPSBvYmoua2V5cwogICAgICAgIAogICAgICAgIC8vIENoYXRHUFQg5qC85byP54m55b6BOiBtYXBwaW5nLCBjdXJyZW50X25vZGUsIGNyZWF0ZV90aW1lCiAgICAgICAgaWYgKGtleXMuY29udGFpbnMoIm1hcHBpbmciKSAmJiBrZXlzLmNvbnRhaW5zKCJjdXJyZW50X25vZGUiKSkgewogICAgICAgICAgICByZXR1cm4gQ2hhdEZvcm1hdC5DSEFUR1BUCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIE9wZXJpdCDmoLzlvI/nibnlvoE6IGlkLCB0aXRsZSwgbWVzc2FnZXMsIGNyZWF0ZWRBdAogICAgICAgIGlmIChrZXlzLmNvbnRhaW5zKCJpZCIpICYmIGtleXMuY29udGFpbnMoInRpdGxlIikgJiYgCiAgICAgICAgICAgIGtleXMuY29udGFpbnMoIm1lc3NhZ2VzIikgJiYga2V5cy5jb250YWlucygiY3JlYXRlZEF0IikpIHsKICAgICAgICAgICAgcmV0dXJuIENoYXRGb3JtYXQuT1BFUklUCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIENsYXVkZSDmoLzlvI/nibnlvoE6IHV1aWQsIGNoYXRfbWVzc2FnZXMKICAgICAgICBpZiAoa2V5cy5jb250YWlucygidXVpZCIpIHx8IGtleXMuY29udGFpbnMoImNoYXRfbWVzc2FnZXMiKSkgewogICAgICAgICAgICByZXR1cm4gQ2hhdEZvcm1hdC5DTEFVREUKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g6YCa55So5qC85byP54m55b6BOiByb2xlLCBjb250ZW50IOaIliBtZXNzYWdlcyDmlbDnu4QKICAgICAgICBpZiAoa2V5cy5jb250YWlucygicm9sZSIpICYmIGtleXMuY29udGFpbnMoImNvbnRlbnQiKSkgewogICAgICAgICAgICByZXR1cm4gQ2hhdEZvcm1hdC5HRU5FUklDX0pTT04KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgaWYgKGtleXMuY29udGFpbnMoIm1lc3NhZ2VzIikpIHsKICAgICAgICAgICAgdmFsIG1lc3NhZ2VzID0gb2JqWyJtZXNzYWdlcyJdCiAgICAgICAgICAgIGlmIChtZXNzYWdlcyBpcyBKc29uQXJyYXkgJiYgbWVzc2FnZXMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICB2YWwgZmlyc3RNc2cgPSBtZXNzYWdlcy5maXJzdCgpCiAgICAgICAgICAgICAgICBpZiAoZmlyc3RNc2cgaXMgSnNvbk9iamVjdCAmJiAKICAgICAgICAgICAgICAgICAgICBmaXJzdE1zZy5jb250YWluc0tleSgicm9sZSIpICYmIAogICAgICAgICAgICAgICAgICAgIGZpcnN0TXNnLmNvbnRhaW5zS2V5KCJjb250ZW50IikpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gQ2hhdEZvcm1hdC5HRU5FUklDX0pTT04KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICByZXR1cm4gQ2hhdEZvcm1hdC5HRU5FUklDX0pTT04KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmo4DmtYvmmK/lkKbkuLogTWFya2Rvd24g5qC85byPCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGlzTWFya2Rvd25Gb3JtYXQoY29udGVudDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIGxpbmVzID0gY29udGVudC5saW5lcygpCiAgICAgICAgCiAgICAgICAgLy8g5qOA5rWL5paw54mI5rOo6YeK5qCH6K6wICjlvLrljLnphY0pCiAgICAgICAgdmFsIGhhc0NvbW1lbnRNYXJrZXJzID0gbGluZXMuYW55IHsKICAgICAgICAgICAgdmFsIHRyaW1tZWQgPSBpdC50cmltKCkKICAgICAgICAgICAgdHJpbW1lZC5zdGFydHNXaXRoKCI8IS0tIGNoYXQtaW5mbzoiKSB8fCB0cmltbWVkLnN0YXJ0c1dpdGgoIjwhLS0gbXNnOiIpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIGlmIChoYXNDb21tZW50TWFya2VycykgewogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDmo4DmtYvmmK/lkKbljIXlkKsgTWFya2Rvd24g5qCH6aKYCiAgICAgICAgdmFsIGhhc01hcmtkb3duSGVhZGVycyA9IGxpbmVzLmFueSB7IAogICAgICAgICAgICBpdC50cmltKCkuc3RhcnRzV2l0aCgiIyIpIAogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDmo4DmtYvmmK/lkKbljIXlkKvluLjop4HnmoTlr7nor53moIforrAgKOS4peagvOWMuemFjSkKICAgICAgICAvLyDlj6rljLnphY06ICMjIFJvbGUg5oiWICMjIFJvbGU6IOS4lOaVtOihjOWPquiDveaciei/meS6m+WGheWuuQogICAgICAgIHZhbCBoYXNEaWFsb2d1ZU1hcmtlcnMgPSBsaW5lcy5hbnkgeyBsaW5lIC0+CiAgICAgICAgICAgIHZhbCB0cmltbWVkID0gbGluZS50cmltKCkKICAgICAgICAgICAgdHJpbW1lZC5tYXRjaGVzKFJlZ2V4KCJeIyNcXHMqKFVzZXJ8QXNzaXN0YW50fEFJfFN5c3RlbXxNb2RlbHznlKjmiLd85Yqp5omLfOezu+e7n3zmqKHlnospWzrvvJpdP1xccyokIiwgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UpKQogICAgICAgIH0KICAgICAgICAKICAgICAgICByZXR1cm4gaGFzTWFya2Rvd25IZWFkZXJzICYmIGhhc0RpYWxvZ3VlTWFya2VycwogICAgfQogICAgCiAgICAvKioKICAgICAqIOajgOa1i+aYr+WQpuS4uiBDU1Yg5qC85byPCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGlzQ3N2Rm9ybWF0KGNvbnRlbnQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHZhbCBsaW5lcyA9IGNvbnRlbnQubGluZXMoKS5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgIGlmIChsaW5lcy5pc0VtcHR5KCkpIHJldHVybiBmYWxzZQogICAgICAgIAogICAgICAgIC8vIOajgOafpeesrOS4gOihjOaYr+WQpuWMheWQqyBDU1Yg5aS0CiAgICAgICAgdmFsIGZpcnN0TGluZSA9IGxpbmVzLmZpcnN0KCkubG93ZXJjYXNlKCkKICAgICAgICB2YWwgaGFzQ3N2SGVhZGVycyA9IGZpcnN0TGluZS5jb250YWlucygidGltZXN0YW1wIikgfHwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpcnN0TGluZS5jb250YWlucygicm9sZSIpIHx8IAogICAgICAgICAgICAgICAgICAgICAgICAgICBmaXJzdExpbmUuY29udGFpbnMoImNvbnRlbnQiKSB8fAogICAgICAgICAgICAgICAgICAgICAgICAgICBmaXJzdExpbmUuY29udGFpbnMoInNlbmRlciIpCiAgICAgICAgCiAgICAgICAgLy8g5qOA5p+l5piv5ZCm5pyJ6YCX5Y+35YiG6ZqUCiAgICAgICAgdmFsIGhhc0NvbW1hU2VwYXJhdG9ycyA9IGxpbmVzLmNvdW50IHsgaXQuY29udGFpbnMoIiwiKSB9ID4gbGluZXMuc2l6ZSAvIDIKICAgICAgICAKICAgICAgICByZXR1cm4gaGFzQ3N2SGVhZGVycyAmJiBoYXNDb21tYVNlcGFyYXRvcnMKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmoLnmja7mlofku7bmianlsZXlkI3mjqjmtYvmoLzlvI8KICAgICAqLwogICAgZnVuIGRldGVjdEZvcm1hdEJ5RXh0ZW5zaW9uKGZpbGVOYW1lOiBTdHJpbmcpOiBDaGF0Rm9ybWF0PyB7CiAgICAgICAgcmV0dXJuIHdoZW4gKGZpbGVOYW1lLnN1YnN0cmluZ0FmdGVyTGFzdCgnLicpLmxvd2VyY2FzZSgpKSB7CiAgICAgICAgICAgICJqc29uIiAtPiBudWxsIC8vIEpTT04g6ZyA6KaB6L+b5LiA5q2l5qOA5rWL5YaF5a65CiAgICAgICAgICAgICJtZCIsICJtYXJrZG93biIgLT4gQ2hhdEZvcm1hdC5NQVJLRE9XTgogICAgICAgICAgICAiY3N2IiAtPiBDaGF0Rm9ybWF0LkNTVgogICAgICAgICAgICAidHh0IiAtPiBDaGF0Rm9ybWF0LlBMQUlOX1RFWFQKICAgICAgICAgICAgImh0bWwiLCAiaHRtIiAtPiBDaGF0Rm9ybWF0LlVOS05PV04gLy8gSFRNTCDmmoLkuI3mlK/mjIHlr7zlhaUKICAgICAgICAgICAgZWxzZSAtPiBudWxsCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.converter
+
+import kotlinx.serialization.json.*
+
+/**
+ * 聊天记录格式检测器
+ * 自动识别导入文件的格式
+ */
+object ChatFormatDetector {
+    
+    /**
+     * 检测文件内容的格式
+     * @param content 文件内容字符串
+     * @return 检测到的格式
+     */
+    fun detectFormat(content: String): ChatFormat {
+        if (content.isBlank()) {
+            return ChatFormat.UNKNOWN
+        }
+        
+        val trimmedContent = content.trim()
+        
+        // 检测 Markdown 格式
+        if (isMarkdownFormat(trimmedContent)) {
+            return ChatFormat.MARKDOWN
+        }
+        
+        // 检测 CSV 格式
+        if (isCsvFormat(trimmedContent)) {
+            return ChatFormat.CSV
+        }
+        
+        // 检测 JSON 格式
+        if (trimmedContent.startsWith("{") || trimmedContent.startsWith("[")) {
+            return detectJsonFormat(trimmedContent)
+        }
+        
+        // 默认为纯文本
+        return ChatFormat.PLAIN_TEXT
+    }
+    
+    /**
+     * 检测 JSON 的具体格式
+     */
+    private fun detectJsonFormat(content: String): ChatFormat {
+        return try {
+            val json = Json { ignoreUnknownKeys = true }
+            val element = json.parseToJsonElement(content)
+            
+            when {
+                // 检测是否为数组
+                element is JsonArray -> {
+                    if (element.isEmpty()) {
+                        return ChatFormat.GENERIC_JSON
+                    }
+                    
+                    val firstItem = element.first()
+                    if (firstItem is JsonObject) {
+                        detectJsonObjectFormat(firstItem)
+                    } else {
+                        ChatFormat.GENERIC_JSON
+                    }
+                }
+                // 单个对象
+                element is JsonObject -> {
+                    detectJsonObjectFormat(element)
+                }
+                else -> ChatFormat.UNKNOWN
+            }
+        } catch (e: Exception) {
+            ChatFormat.UNKNOWN
+        }
+    }
+    
+    /**
+     * 检测 JSON 对象的具体格式
+     */
+    private fun detectJsonObjectFormat(obj: JsonObject): ChatFormat {
+        val keys = obj.keys
+        
+        // ChatGPT 格式特征: mapping, current_node, create_time
+        if (keys.contains("mapping") && keys.contains("current_node")) {
+            return ChatFormat.CHATGPT
+        }
+        
+        // Operit 格式特征: id, title, messages, createdAt
+        if (keys.contains("id") && keys.contains("title") && 
+            keys.contains("messages") && keys.contains("createdAt")) {
+            return ChatFormat.OPERIT
+        }
+        
+        // Claude 格式特征: uuid, chat_messages
+        if (keys.contains("uuid") || keys.contains("chat_messages")) {
+            return ChatFormat.CLAUDE
+        }
+        
+        // 通用格式特征: role, content 或 messages 数组
+        if (keys.contains("role") && keys.contains("content")) {
+            return ChatFormat.GENERIC_JSON
+        }
+        
+        if (keys.contains("messages")) {
+            val messages = obj["messages"]
+            if (messages is JsonArray && messages.isNotEmpty()) {
+                val firstMsg = messages.first()
+                if (firstMsg is JsonObject && 
+                    firstMsg.containsKey("role") && 
+                    firstMsg.containsKey("content")) {
+                    return ChatFormat.GENERIC_JSON
+                }
+            }
+        }
+        
+        return ChatFormat.GENERIC_JSON
+    }
+    
+    /**
+     * 检测是否为 Markdown 格式
+     */
+    private fun isMarkdownFormat(content: String): Boolean {
+        val lines = content.lines()
+        
+        // 检测新版注释标记 (强匹配)
+        val hasCommentMarkers = lines.any {
+            val trimmed = it.trim()
+            trimmed.startsWith("<!-- chat-info:") || trimmed.startsWith("<!-- msg:")
+        }
+        
+        if (hasCommentMarkers) {
+            return true
+        }
+        
+        // 检测是否包含 Markdown 标题
+        val hasMarkdownHeaders = lines.any { 
+            it.trim().startsWith("#") 
+        }
+        
+        // 检测是否包含常见的对话标记 (严格匹配)
+        // 只匹配: ## Role 或 ## Role: 且整行只能有这些内容
+        val hasDialogueMarkers = lines.any { line ->
+            val trimmed = line.trim()
+            trimmed.matches(Regex("^##\\s*(User|Assistant|AI|System|Model|用户|助手|系统|模型)[:：]?\\s*$", RegexOption.IGNORE_CASE))
+        }
+        
+        return hasMarkdownHeaders && hasDialogueMarkers
+    }
+    
+    /**
+     * 检测是否为 CSV 格式
+     */
+    private fun isCsvFormat(content: String): Boolean {
+        val lines = content.lines().filter { it.isNotBlank() }
+        if (lines.isEmpty()) return false
+        
+        // 检查第一行是否包含 CSV 头
+        val firstLine = lines.first().lowercase()
+        val hasCsvHeaders = firstLine.contains("timestamp") || 
+                           firstLine.contains("role") || 
+                           firstLine.contains("content") ||
+                           firstLine.contains("sender")
+        
+        // 检查是否有逗号分隔
+        val hasCommaSeparators = lines.count { it.contains(",") } > lines.size / 2
+        
+        return hasCsvHeaders && hasCommaSeparators
+    }
+    
+    /**
+     * 根据文件扩展名推测格式
+     */
+    fun detectFormatByExtension(fileName: String): ChatFormat? {
+        return when (fileName.substringAfterLast('.').lowercase()) {
+            "json" -> null // JSON 需要进一步检测内容
+            "md", "markdown" -> ChatFormat.MARKDOWN
+            "csv" -> ChatFormat.CSV
+            "txt" -> ChatFormat.PLAIN_TEXT
+            "html", "htm" -> ChatFormat.UNKNOWN // HTML 暂不支持导入
+            else -> null
+        }
+    }
+}

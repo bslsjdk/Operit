@@ -1,1 +1,8 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCi8qKgogKiDmtYvor5XnlKjmianlsZXlh73mlbDvvJrlsIblrZfnrKbkuLLovazmjaLkuLrlrZfnrKbmtYEKICovCmZ1biBTdHJpbmcuYXNDaGFyU3RyZWFtKCk6IFN0cmVhbTxDaGFyPiB7CiAgICByZXR1cm4gdGhpcy5hc1NlcXVlbmNlKCkuYXNTdHJlYW0oKQp9IA==
+package com.bslsjdk.operit.util.stream
+
+/**
+ * 测试用扩展函数：将字符串转换为字符流
+ */
+fun String.asCharStream(): Stream<Char> {
+    return this.asSequence().asStream()
+} 

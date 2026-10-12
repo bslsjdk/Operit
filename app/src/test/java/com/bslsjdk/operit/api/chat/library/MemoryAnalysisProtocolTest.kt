@@ -1,1 +1,105 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGlicmFyeQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgb3JnLmp1bml0LkFmdGVyCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROdWxsCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRocm93cwppbXBvcnQgb3JnLmp1bml0LkJlZm9yZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIE1lbW9yeUFuYWx5c2lzUHJvdG9jb2xUZXN0IHsKCiAgICBwcml2YXRlIHZhciBwcmV2aW91c1N5c3RlbUxvZ0VuYWJsZWQgPSB0cnVlCgogICAgQEJlZm9yZQogICAgZnVuIGRpc2FibGVBbmRyb2lkU3lzdGVtTG9nRm9ySnZtVGVzdHMoKSB7CiAgICAgICAgcHJldmlvdXNTeXN0ZW1Mb2dFbmFibGVkID0gQXBwTG9nZ2VyLmVuYWJsZVN5c3RlbUxvZwogICAgICAgIEFwcExvZ2dlci5lbmFibGVTeXN0ZW1Mb2cgPSBmYWxzZQogICAgfQoKICAgIEBBZnRlcgogICAgZnVuIHJlc3RvcmVBbmRyb2lkU3lzdGVtTG9nKCkgewogICAgICAgIEFwcExvZ2dlci5lbmFibGVTeXN0ZW1Mb2cgPSBwcmV2aW91c1N5c3RlbUxvZ0VuYWJsZWQKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHBhcnNlQW5hbHlzaXNSZXN1bHRfYWNjZXB0c09iamVjdFByb3RvY29sV2l0aG91dE1haW5FdmVudCgpIHsKICAgICAgICB2YWwgYW5hbHlzaXMgPQogICAgICAgICAgICBNZW1vcnlMaWJyYXJ5LnBhcnNlQW5hbHlzaXNSZXN1bHQoCiAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgIm1haW4iOiBudWxsLAogICAgICAgICAgICAgICAgICAibmV3IjogW3sKICAgICAgICAgICAgICAgICAgICAidGl0bGUiOiAiVE1VWCBjbG9zZSByZXN1bHQiLAogICAgICAgICAgICAgICAgICAgICJjb250ZW50IjogIlRoZSBjbG9zZSBjb21tYW5kIHdvcmtzIGFmdGVyIHN0YXRlIHZlcmlmaWNhdGlvbi4iLAogICAgICAgICAgICAgICAgICAgICJ0YWdzIjogWyJ0bXV4IiwgInZlcmlmaWNhdGlvbiJdLAogICAgICAgICAgICAgICAgICAgICJmb2xkZXJfcGF0aCI6ICJUb29sIHN0YXRlIiwKICAgICAgICAgICAgICAgICAgICAiYWxpYXNfZm9yIjogbnVsbAogICAgICAgICAgICAgICAgICB9XSwKICAgICAgICAgICAgICAgICAgInVwZGF0ZSI6IFt7CiAgICAgICAgICAgICAgICAgICAgInRpdGxlIjogIlNTSCB0b29sIHN0YXRlIiwKICAgICAgICAgICAgICAgICAgICAiY29udGVudCI6ICJUaGUgbHMgdGltZW91dCBpcyByZXNvbHZlZC4iLAogICAgICAgICAgICAgICAgICAgICJyZWFzb24iOiAiVGhlIGN1cnJlbnQgdGVzdCBjb25maXJtcyB0aGUgdG9vbCBpcyBoZWFsdGh5LiIsCiAgICAgICAgICAgICAgICAgICAgImNyZWRpYmlsaXR5IjogMS4wLAogICAgICAgICAgICAgICAgICAgICJpbXBvcnRhbmNlIjogMC42CiAgICAgICAgICAgICAgICAgIH1dLAogICAgICAgICAgICAgICAgICAibWVyZ2UiOiBbewogICAgICAgICAgICAgICAgICAgICJzb3VyY2VfdGl0bGVzIjogWyJPbGQgQSIsICJPbGQgQiJdLAogICAgICAgICAgICAgICAgICAgICJ0aXRsZSI6ICJNZXJnZWQgc3RhdGUiLAogICAgICAgICAgICAgICAgICAgICJjb250ZW50IjogIlRoZSBtZXJnZWQgZmFjdC4iLAogICAgICAgICAgICAgICAgICAgICJ0YWdzIjogWyJzdGF0ZSJdLAogICAgICAgICAgICAgICAgICAgICJmb2xkZXJfcGF0aCI6ICJUb29sIHN0YXRlIiwKICAgICAgICAgICAgICAgICAgICAicmVhc29uIjogIlRoZXkgZGVzY3JpYmUgdGhlIHNhbWUgZmFjdC4iCiAgICAgICAgICAgICAgICAgIH1dLAogICAgICAgICAgICAgICAgICAibGlua3MiOiBbewogICAgICAgICAgICAgICAgICAgICJzb3VyY2UiOiAiVE1VWCBjbG9zZSByZXN1bHQiLAogICAgICAgICAgICAgICAgICAgICJ0YXJnZXQiOiAiU1NIIHRvb2wgc3RhdGUiLAogICAgICAgICAgICAgICAgICAgICJ0eXBlIjogIklOVk9MVkVTIiwKICAgICAgICAgICAgICAgICAgICAiZGVzY3JpcHRpb24iOiAiVGhlIHRlc3QgdXNlZCB0aGUgU1NIIHRvb2wuIiwKICAgICAgICAgICAgICAgICAgICAid2VpZ2h0IjogMC44CiAgICAgICAgICAgICAgICAgIH1dCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICAgICAgICAgICkKCiAgICAgICAgYXNzZXJ0TnVsbChhbmFseXNpcy5tYWluUHJvYmxlbSkKICAgICAgICBhc3NlcnRFcXVhbHMoIlRNVVggY2xvc2UgcmVzdWx0IiwgYW5hbHlzaXMuZXh0cmFjdGVkRW50aXRpZXMuc2luZ2xlKCkudGl0bGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJTU0ggdG9vbCBzdGF0ZSIsIGFuYWx5c2lzLnVwZGF0ZWRFbnRpdGllcy5zaW5nbGUoKS50aXRsZVRvVXBkYXRlKQogICAgICAgIGFzc2VydEVxdWFscygiTWVyZ2VkIHN0YXRlIiwgYW5hbHlzaXMubWVyZ2VkRW50aXRpZXMuc2luZ2xlKCkubmV3VGl0bGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJJTlZPTFZFUyIsIGFuYWx5c2lzLmxpbmtzLnNpbmdsZSgpLnR5cGUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBwYXJzZUFuYWx5c2lzUmVzdWx0X3JlamVjdHNMZWdhY3lQb3NpdGlvbmFsQXJyYXlQcm90b2NvbCgpIHsKICAgICAgICBhc3NlcnRUaHJvd3MoRXhjZXB0aW9uOjpjbGFzcy5qYXZhKSB7CiAgICAgICAgICAgIE1lbW9yeUxpYnJhcnkucGFyc2VBbmFseXNpc1Jlc3VsdCgKICAgICAgICAgICAgICAgICIiIgogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAibWFpbiI6IG51bGwsCiAgICAgICAgICAgICAgICAgICJuZXciOiBbWyJUaXRsZSIsICJDb250ZW50IiwgWyJ0YWciXSwgIkZvbGRlciIsIG51bGxdXSwKICAgICAgICAgICAgICAgICAgInVwZGF0ZSI6IFtdLAogICAgICAgICAgICAgICAgICAibWVyZ2UiOiBbXSwKICAgICAgICAgICAgICAgICAgImxpbmtzIjogW10KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHBhcnNlQW5hbHlzaXNSZXN1bHRfcmVqZWN0c01pc3NpbmdSZXF1aXJlZE9wZXJhdGlvbkZpZWxkKCkgewogICAgICAgIGFzc2VydFRocm93cyhJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb246OmNsYXNzLmphdmEpIHsKICAgICAgICAgICAgTWVtb3J5TGlicmFyeS5wYXJzZUFuYWx5c2lzUmVzdWx0KAogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICJtYWluIjogbnVsbCwKICAgICAgICAgICAgICAgICAgIm5ldyI6IFtdLAogICAgICAgICAgICAgICAgICAidXBkYXRlIjogW10sCiAgICAgICAgICAgICAgICAgICJtZXJnZSI6IFtdCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.library
+
+import com.bslsjdk.operit.util.AppLogger
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertThrows
+import org.junit.Before
+import org.junit.Test
+
+class MemoryAnalysisProtocolTest {
+
+    private var previousSystemLogEnabled = true
+
+    @Before
+    fun disableAndroidSystemLogForJvmTests() {
+        previousSystemLogEnabled = AppLogger.enableSystemLog
+        AppLogger.enableSystemLog = false
+    }
+
+    @After
+    fun restoreAndroidSystemLog() {
+        AppLogger.enableSystemLog = previousSystemLogEnabled
+    }
+
+    @Test
+    fun parseAnalysisResult_acceptsObjectProtocolWithoutMainEvent() {
+        val analysis =
+            MemoryLibrary.parseAnalysisResult(
+                """
+                {
+                  "main": null,
+                  "new": [{
+                    "title": "TMUX close result",
+                    "content": "The close command works after state verification.",
+                    "tags": ["tmux", "verification"],
+                    "folder_path": "Tool state",
+                    "alias_for": null
+                  }],
+                  "update": [{
+                    "title": "SSH tool state",
+                    "content": "The ls timeout is resolved.",
+                    "reason": "The current test confirms the tool is healthy.",
+                    "credibility": 1.0,
+                    "importance": 0.6
+                  }],
+                  "merge": [{
+                    "source_titles": ["Old A", "Old B"],
+                    "title": "Merged state",
+                    "content": "The merged fact.",
+                    "tags": ["state"],
+                    "folder_path": "Tool state",
+                    "reason": "They describe the same fact."
+                  }],
+                  "links": [{
+                    "source": "TMUX close result",
+                    "target": "SSH tool state",
+                    "type": "INVOLVES",
+                    "description": "The test used the SSH tool.",
+                    "weight": 0.8
+                  }]
+                }
+                """.trimIndent()
+            )
+
+        assertNull(analysis.mainProblem)
+        assertEquals("TMUX close result", analysis.extractedEntities.single().title)
+        assertEquals("SSH tool state", analysis.updatedEntities.single().titleToUpdate)
+        assertEquals("Merged state", analysis.mergedEntities.single().newTitle)
+        assertEquals("INVOLVES", analysis.links.single().type)
+    }
+
+    @Test
+    fun parseAnalysisResult_rejectsLegacyPositionalArrayProtocol() {
+        assertThrows(Exception::class.java) {
+            MemoryLibrary.parseAnalysisResult(
+                """
+                {
+                  "main": null,
+                  "new": [["Title", "Content", ["tag"], "Folder", null]],
+                  "update": [],
+                  "merge": [],
+                  "links": []
+                }
+                """.trimIndent()
+            )
+        }
+    }
+
+    @Test
+    fun parseAnalysisResult_rejectsMissingRequiredOperationField() {
+        assertThrows(IllegalArgumentException::class.java) {
+            MemoryLibrary.parseAnalysisResult(
+                """
+                {
+                  "main": null,
+                  "new": [],
+                  "update": [],
+                  "merge": []
+                }
+                """.trimIndent()
+            )
+        }
+    }
+}

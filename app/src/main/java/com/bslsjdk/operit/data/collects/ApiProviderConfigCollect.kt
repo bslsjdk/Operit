@@ -1,1 +1,375 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaVByb3ZpZGVyVHlwZQppbXBvcnQgamF2YS5uZXQuVVJJCgpkYXRhIGNsYXNzIFByb3ZpZGVyRW5kcG9pbnRPcHRpb24oCiAgICB2YWwgZW5kcG9pbnQ6IFN0cmluZywKICAgIHZhbCBsYWJlbDogU3RyaW5nCikKCmRhdGEgY2xhc3MgUHJvdmlkZXJBcGlDb25maWcoCiAgICB2YWwgcHJvdmlkZXJUeXBlOiBBcGlQcm92aWRlclR5cGUsCiAgICB2YWwgZGVmYXVsdE1vZGVsTmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgZGVmYXVsdEFwaUVuZHBvaW50OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBlbmRwb2ludE9wdGlvbnM6IExpc3Q8UHJvdmlkZXJFbmRwb2ludE9wdGlvbj4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCByZXF1aXJlc0FwaUtleTogQm9vbGVhbiA9IHRydWUKKQoKb2JqZWN0IEFwaVByb3ZpZGVyQ29uZmlncyB7CiAgICBwcml2YXRlIHZhbCBjb25maWdzOiBNYXA8QXBpUHJvdmlkZXJUeXBlLCBQcm92aWRlckFwaUNvbmZpZz4gPSBsaXN0T2YoCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5PUEVOQUksCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiZ3B0LTRvIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vYXBpLm9wZW5haS5jb20vdjEvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuWEFJLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gImdyb2stNC42IiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vYXBpLnguYWkvdjEvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuT1BFTkFJX1JFU1BPTlNFUywKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICJncHQtNG8iLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MS9yZXNwb25zZXMiCiAgICAgICAgKSwKICAgICAgICBQcm92aWRlckFwaUNvbmZpZygKICAgICAgICAgICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9DT0RFWCwKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICJncHQtNS42LWx1bmEiLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9jaGF0Z3B0LmNvbS9iYWNrZW5kLWFwaS9jb2RleC9yZXNwb25zZXMiLAogICAgICAgICAgICByZXF1aXJlc0FwaUtleSA9IGZhbHNlLAogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTX0dFTkVSSUMsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gIiIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuT1BFTkFJX0dFTkVSSUMsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gIiIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuQU5USFJPUElDLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gImNsYXVkZS0zLW9wdXMtMjAyNDAyMjkiLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkuYW50aHJvcGljLmNvbS92MS9tZXNzYWdlcyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuQU5USFJPUElDX0dFTkVSSUMsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gIiIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuR09PR0xFLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gImdlbWluaS0yLjAtZmxhc2giLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9nZW5lcmF0aXZlbGFuZ3VhZ2UuZ29vZ2xlYXBpcy5jb20vdjFiZXRhL21vZGVscyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuR0VNSU5JX0dFTkVSSUMsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiZ2VtaW5pLTIuMC1mbGFzaCIsCiAgICAgICAgICAgIGRlZmF1bHRBcGlFbmRwb2ludCA9ICIiCiAgICAgICAgKSwKICAgICAgICBQcm92aWRlckFwaUNvbmZpZygKICAgICAgICAgICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLkRFRVBTRUVLLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gImRlZXBzZWVrLXY0LWZsYXNoIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vYXBpLmRlZXBzZWVrLmNvbS92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgZW5kcG9pbnRPcHRpb25zID0gbGlzdE9mKAogICAgICAgICAgICAgICAgUHJvdmlkZXJFbmRwb2ludE9wdGlvbigKICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCA9ICJodHRwczovL2FwaS5kZWVwc2Vlay5jb20vdjEvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAiQ2hhdCBDb21wbGV0aW9ucyIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBQcm92aWRlckVuZHBvaW50T3B0aW9uKAogICAgICAgICAgICAgICAgICAgIGVuZHBvaW50ID0gImh0dHBzOi8vYXBpLmRlZXBzZWVrLmNvbS92MS9yZXNwb25zZXMiLAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0gIlJlc3BvbnNlcyIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5CQUlEVSwKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICJlcm5pZS1ib3QtNCIsCiAgICAgICAgICAgIGRlZmF1bHRBcGlFbmRwb2ludCA9ICJodHRwczovL2FpcC5iYWlkdWJjZS5jb20vcnBjLzIuMC9haV9jdXN0b20vdjEvd2VueGlud29ya3Nob3AvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuQUxJWVVOLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gInF3ZW4tbWF4IiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vZGFzaHNjb3BlLmFsaXl1bmNzLmNvbS9jb21wYXRpYmxlLW1vZGUvdjEvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuWFVORkVJLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gInNwYXJrMy41IiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vc3BhcmstYXBpLW9wZW4ueGYteXVuLmNvbS92Mi9jaGF0L2NvbXBsZXRpb25zIgogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5aSElQVSwKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICJnbG0tNC41IiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vb3Blbi5iaWdtb2RlbC5jbi9hcGkvcGFhcy92NC9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgZW5kcG9pbnRPcHRpb25zID0gbGlzdE9mKAogICAgICAgICAgICAgICAgUHJvdmlkZXJFbmRwb2ludE9wdGlvbigKICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCA9ICJodHRwczovL29wZW4uYmlnbW9kZWwuY24vYXBpL3BhYXMvdjQvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAiQ04gc3RhbmRhcmQiCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgUHJvdmlkZXJFbmRwb2ludE9wdGlvbigKICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCA9ICJodHRwczovL29wZW4uYmlnbW9kZWwuY24vYXBpL2NvZGluZy9wYWFzL3Y0L2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0gIkNOIGNvZGluZyIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBQcm92aWRlckVuZHBvaW50T3B0aW9uKAogICAgICAgICAgICAgICAgICAgIGVuZHBvaW50ID0gImh0dHBzOi8vYXBpLnouYWkvYXBpL3BhYXMvdjQvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAiSW50ZXJuYXRpb25hbCBzdGFuZGFyZCIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBQcm92aWRlckVuZHBvaW50T3B0aW9uKAogICAgICAgICAgICAgICAgICAgIGVuZHBvaW50ID0gImh0dHBzOi8vYXBpLnouYWkvYXBpL2NvZGluZy9wYWFzL3Y0L2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0gIkludGVybmF0aW9uYWwgY29kaW5nIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgKSwKICAgICAgICBQcm92aWRlckFwaUNvbmZpZygKICAgICAgICAgICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLkJBSUNIVUFOLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gImJhaWNodWFuNCIsCiAgICAgICAgICAgIGRlZmF1bHRBcGlFbmRwb2ludCA9ICJodHRwczovL2FwaS5iYWljaHVhbi1haS5jb20vdjEvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuTU9PTlNIT1QsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAibW9vbnNob3QtdjEtMTI4ayIsCiAgICAgICAgICAgIGRlZmF1bHRBcGlFbmRwb2ludCA9ICJodHRwczovL2FwaS5tb29uc2hvdC5jbi92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgZW5kcG9pbnRPcHRpb25zID0gbGlzdE9mKAogICAgICAgICAgICAgICAgUHJvdmlkZXJFbmRwb2ludE9wdGlvbigKICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCA9ICJodHRwczovL2FwaS5tb29uc2hvdC5jbi92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9ICJDaGluYSAobW9vbnNob3QuY24pIgogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIFByb3ZpZGVyRW5kcG9pbnRPcHRpb24oCiAgICAgICAgICAgICAgICAgICAgZW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkubW9vbnNob3QuYWkvdjEvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAiSW50ZXJuYXRpb25hbCAobW9vbnNob3QuYWkpIgogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIFByb3ZpZGVyRW5kcG9pbnRPcHRpb24oCiAgICAgICAgICAgICAgICAgICAgZW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkua2ltaS5jb20vY29kaW5nL3YxL2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0gIktpbWkgQ29kZSAoYXBpLmtpbWkuY29tKSIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5NSU1PLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gIm1pbW8tdjIuNS1wcm8iLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkueGlhb21pbWltby5jb20vdjEvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuTUlTVFJBTCwKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICJjb2Rlc3RyYWwtbGF0ZXN0IiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vY29kZXN0cmFsLm1pc3RyYWwuYWkvdjEvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuU0lMSUNPTkZMT1csCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAieWktMS41LTM0YiIsCiAgICAgICAgICAgIGRlZmF1bHRBcGlFbmRwb2ludCA9ICJodHRwczovL2FwaS5zaWxpY29uZmxvdy5jbi92MS9jaGF0L2NvbXBsZXRpb25zIgogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5JRkxPVywKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICJUQlN0YXJzMi0yMDBCLUExM0IiLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGlzLmlmbG93LmNuL3YxL2NoYXQvY29tcGxldGlvbnMiCiAgICAgICAgKSwKICAgICAgICBQcm92aWRlckFwaUNvbmZpZygKICAgICAgICAgICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLk9QRU5ST1VURVIsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiZ29vZ2xlL2dlbWluaS1wcm8iLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9vcGVucm91dGVyLmFpL2FwaS92MS9jaGF0L2NvbXBsZXRpb25zIgogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5PUEVOQ09ERSwKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICIiLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9vcGVuY29kZS5haS96ZW4iLAogICAgICAgICAgICBlbmRwb2ludE9wdGlvbnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICBQcm92aWRlckVuZHBvaW50T3B0aW9uKAogICAgICAgICAgICAgICAgICAgIGVuZHBvaW50ID0gImh0dHBzOi8vb3BlbmNvZGUuYWkvemVuIiwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9ICJaZW4iCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgUHJvdmlkZXJFbmRwb2ludE9wdGlvbigKICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCA9ICJodHRwczovL29wZW5jb2RlLmFpL3plbi9nbyIsCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAiR28iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuRk9VUl9ST1VURVIsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiZ3B0LTUuNC1taW5pIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vNHJvdXRlci5uZXQvdjEvY2hhdC9jb21wbGV0aW9ucyIKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuTk9VU19QT1JUQUwsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vaW5mZXJlbmNlLWFwaS5ub3VzcmVzZWFyY2guY29tL3YxL2NoYXQvY29tcGxldGlvbnMiCiAgICAgICAgKSwKICAgICAgICBQcm92aWRlckFwaUNvbmZpZygKICAgICAgICAgICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLklORklOSUFJLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gImluZmluaS1taW5pIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vY2xvdWQuaW5maW5pLWFpLmNvbS9tYWFzL3YxL2NoYXQvY29tcGxldGlvbnMiCiAgICAgICAgKSwKICAgICAgICBQcm92aWRlckFwaUNvbmZpZygKICAgICAgICAgICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLkFMSVBBWV9CQUlMSU5HLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gIkxpbmctMVQiLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkudGJveC5jbi9hcGkvbGxtL3YxL2NoYXQvY29tcGxldGlvbnMiCiAgICAgICAgKSwKICAgICAgICBQcm92aWRlckFwaUNvbmZpZygKICAgICAgICAgICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLkRPVUJBTywKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICJEb3ViYW8tcHJvLTRrIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vYXJrLmNuLWJlaWppbmcudm9sY2VzLmNvbS9hcGkvdjMvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgIGVuZHBvaW50T3B0aW9ucyA9IGxpc3RPZigKICAgICAgICAgICAgICAgIFByb3ZpZGVyRW5kcG9pbnRPcHRpb24oCiAgICAgICAgICAgICAgICAgICAgZW5kcG9pbnQgPSAiaHR0cHM6Ly9hcmsuY24tYmVpamluZy52b2xjZXMuY29tL2FwaS92My9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9ICJDTiBzdGFuZGFyZCIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBQcm92aWRlckVuZHBvaW50T3B0aW9uKAogICAgICAgICAgICAgICAgICAgIGVuZHBvaW50ID0gImh0dHBzOi8vYXJrLmNuLWJlaWppbmcudm9sY2VzLmNvbS9hcGkvY29kaW5nL3YzL2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0gIkNOIGNvZGluZyIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5OVklESUEsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAibnZpZGlhL25lbW90cm9uLTMtbmFuby0zMGItYTNiIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vaW50ZWdyYXRlLmFwaS5udmlkaWEuY29tL3YxL2NoYXQvY29tcGxldGlvbnMiCiAgICAgICAgKSwKICAgICAgICBQcm92aWRlckFwaUNvbmZpZygKICAgICAgICAgICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLkxNU1RVRElPLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gIm1ldGEtbGxhbWEtMy4xLThiLWluc3RydWN0IiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHA6Ly9sb2NhbGhvc3Q6MTIzNC92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgcmVxdWlyZXNBcGlLZXkgPSBmYWxzZQogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5PTExBTUEsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHA6Ly9sb2NhbGhvc3Q6MTE0MzQvdjEvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgIHJlcXVpcmVzQXBpS2V5ID0gZmFsc2UKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuT1BFTkFJX0xPQ0FMLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gIiIsCiAgICAgICAgICAgIGRlZmF1bHRBcGlFbmRwb2ludCA9ICJodHRwOi8vbG9jYWxob3N0OjgwMDAvdjEvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgIHJlcXVpcmVzQXBpS2V5ID0gZmFsc2UKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuTU5OLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gIiIsCiAgICAgICAgICAgIGRlZmF1bHRBcGlFbmRwb2ludCA9ICIiLAogICAgICAgICAgICByZXF1aXJlc0FwaUtleSA9IGZhbHNlCiAgICAgICAgKSwKICAgICAgICBQcm92aWRlckFwaUNvbmZpZygKICAgICAgICAgICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLkxMQU1BX0NQUCwKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICIiLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiIiwKICAgICAgICAgICAgcmVxdWlyZXNBcGlLZXkgPSBmYWxzZQogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5QUElORlJBLAogICAgICAgICAgICBkZWZhdWx0TW9kZWxOYW1lID0gImdwdC00by1taW5pIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gImh0dHBzOi8vYXBpLnBwaW5mcmEuY29tL29wZW5haS92MS9jaGF0L2NvbXBsZXRpb25zIgogICAgICAgICksCiAgICAgICAgUHJvdmlkZXJBcGlDb25maWcoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5OT1ZJVEEsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAibW9vbnNob3RhaS9raW1pLWsyLjUiLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkubm92aXRhLmFpL29wZW5haS92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgZW5kcG9pbnRPcHRpb25zID0gbGlzdE9mKAogICAgICAgICAgICAgICAgUHJvdmlkZXJFbmRwb2ludE9wdGlvbigKICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCA9ICJodHRwczovL2FwaS5ub3ZpdGEuYWkvb3BlbmFpL3YxL2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0gIk9wZW5BSS1jb21wYXRpYmxlIgogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIFByb3ZpZGVyRW5kcG9pbnRPcHRpb24oCiAgICAgICAgICAgICAgICAgICAgZW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkubm92aXRhLmFpL2FudGhyb3BpYy92MS9tZXNzYWdlcyIsCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAiQW50aHJvcGljLWNvbXBhdGlibGUiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuTUlOSU1BWCwKICAgICAgICAgICAgZGVmYXVsdE1vZGVsTmFtZSA9ICJNaW5pTWF4LU0yLjciLAogICAgICAgICAgICBkZWZhdWx0QXBpRW5kcG9pbnQgPSAiaHR0cHM6Ly9hcGkubWluaW1heGkuY29tL3YxL2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICBlbmRwb2ludE9wdGlvbnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICBQcm92aWRlckVuZHBvaW50T3B0aW9uKAogICAgICAgICAgICAgICAgICAgIGVuZHBvaW50ID0gImh0dHBzOi8vYXBpLm1pbmltYXhpLmNvbS92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9ICJDaGluYSAobWluaW1heGkuY29tKSIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBQcm92aWRlckVuZHBvaW50T3B0aW9uKAogICAgICAgICAgICAgICAgICAgIGVuZHBvaW50ID0gImh0dHBzOi8vYXBpLm1pbmltYXguaW8vdjEvY2hhdC9jb21wbGV0aW9ucyIsCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAiSW50ZXJuYXRpb25hbCAobWluaW1heC5pbykiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICApLAogICAgICAgIFByb3ZpZGVyQXBpQ29uZmlnKAogICAgICAgICAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuT1RIRVIsCiAgICAgICAgICAgIGRlZmF1bHRNb2RlbE5hbWUgPSAiIiwKICAgICAgICAgICAgZGVmYXVsdEFwaUVuZHBvaW50ID0gIiIKICAgICAgICApCiAgICApLmFzc29jaWF0ZUJ5KFByb3ZpZGVyQXBpQ29uZmlnOjpwcm92aWRlclR5cGUpCgogICAgZnVuIGdldChwcm92aWRlclR5cGU6IEFwaVByb3ZpZGVyVHlwZSk6IFByb3ZpZGVyQXBpQ29uZmlnIHsKICAgICAgICByZXR1cm4gY29uZmlnc1twcm92aWRlclR5cGVdID86IFByb3ZpZGVyQXBpQ29uZmlnKHByb3ZpZGVyVHlwZSA9IHByb3ZpZGVyVHlwZSkKICAgIH0KCiAgICBmdW4gZ2V0RGVmYXVsdE1vZGVsTmFtZShwcm92aWRlclR5cGU6IEFwaVByb3ZpZGVyVHlwZSk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGdldChwcm92aWRlclR5cGUpLmRlZmF1bHRNb2RlbE5hbWUKICAgIH0KCiAgICBmdW4gZ2V0RGVmYXVsdEFwaUVuZHBvaW50KHByb3ZpZGVyVHlwZTogQXBpUHJvdmlkZXJUeXBlKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gZ2V0KHByb3ZpZGVyVHlwZSkuZGVmYXVsdEFwaUVuZHBvaW50CiAgICB9CgogICAgZnVuIGdldEVuZHBvaW50T3B0aW9ucyhwcm92aWRlclR5cGU6IEFwaVByb3ZpZGVyVHlwZSk6IExpc3Q8UHJvdmlkZXJFbmRwb2ludE9wdGlvbj4/IHsKICAgICAgICByZXR1cm4gZ2V0KHByb3ZpZGVyVHlwZSkuZW5kcG9pbnRPcHRpb25zLnRha2VJZiB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICB9CgogICAgZnVuIHJlcXVpcmVzQXBpS2V5KHByb3ZpZGVyVHlwZTogQXBpUHJvdmlkZXJUeXBlLCBhcGlFbmRwb2ludDogU3RyaW5nID0gIiIpOiBCb29sZWFuIHsKICAgICAgICBpZiAoIWdldChwcm92aWRlclR5cGUpLnJlcXVpcmVzQXBpS2V5KSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuICFpc0xvb3BiYWNrRW5kcG9pbnQoYXBpRW5kcG9pbnQpCiAgICB9CgogICAgZnVuIHJlcXVpcmVzQXBpS2V5KHByb3ZpZGVyVHlwZUlkOiBTdHJpbmcsIGFwaUVuZHBvaW50OiBTdHJpbmcgPSAiIik6IEJvb2xlYW4gewogICAgICAgIHZhbCBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuZnJvbVByb3ZpZGVyVHlwZUlkKHByb3ZpZGVyVHlwZUlkKSA/OiByZXR1cm4gIWlzTG9vcGJhY2tFbmRwb2ludChhcGlFbmRwb2ludCkKICAgICAgICByZXR1cm4gcmVxdWlyZXNBcGlLZXkocHJvdmlkZXJUeXBlLCBhcGlFbmRwb2ludCkKICAgIH0KCiAgICBmdW4gaXNEZWZhdWx0TW9kZWxOYW1lKG1vZGVsTmFtZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGNvbmZpZ3MudmFsdWVzLmFueSB7IGl0LmRlZmF1bHRNb2RlbE5hbWUgPT0gbW9kZWxOYW1lIH0KICAgIH0KCiAgICBmdW4gaXNEZWZhdWx0QXBpRW5kcG9pbnQoZW5kcG9pbnQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBjb25maWdzLnZhbHVlcy5hbnkgeyBpdC5kZWZhdWx0QXBpRW5kcG9pbnQgPT0gZW5kcG9pbnQgfQogICAgfQoKICAgIGZ1biBpc0xvb3BiYWNrRW5kcG9pbnQoYXBpRW5kcG9pbnQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIGlmIChhcGlFbmRwb2ludC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQoKICAgICAgICB2YWwgbm9ybWFsaXplZEVuZHBvaW50ID0gYXBpRW5kcG9pbnQudHJpbSgpLmxvd2VyY2FzZSgpCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBob3N0ID0gVVJJKGFwaUVuZHBvaW50KS5ob3N0CiAgICAgICAgICAgIGlmIChob3N0ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGlzTG9vcGJhY2tIb3N0KGhvc3QpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBpc0xvb3BiYWNrRW5kcG9pbnRUZXh0KG5vcm1hbGl6ZWRFbmRwb2ludCkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICBpc0xvb3BiYWNrRW5kcG9pbnRUZXh0KG5vcm1hbGl6ZWRFbmRwb2ludCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaXNMb29wYmFja0hvc3QoaG9zdDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHdoZW4gKGhvc3QubG93ZXJjYXNlKCkudHJpbSgnWycsICddJykpIHsKICAgICAgICAgICAgImxvY2FsaG9zdCIsCiAgICAgICAgICAgICIxMjcuMC4wLjEiLAogICAgICAgICAgICAiOjoxIiwKICAgICAgICAgICAgIjAuMC4wLjAiLAogICAgICAgICAgICAiMTAuMC4yLjIiIC0+IHRydWUKICAgICAgICAgICAgZWxzZSAtPiBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc0xvb3BiYWNrRW5kcG9pbnRUZXh0KGFwaUVuZHBvaW50OiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gYXBpRW5kcG9pbnQuc3RhcnRzV2l0aCgibG9jYWxob3N0OiIpIHx8CiAgICAgICAgICAgIGFwaUVuZHBvaW50LnN0YXJ0c1dpdGgoIjEyNy4wLjAuMToiKSB8fAogICAgICAgICAgICBhcGlFbmRwb2ludC5zdGFydHNXaXRoKCJbOjoxXToiKSB8fAogICAgICAgICAgICBhcGlFbmRwb2ludC5zdGFydHNXaXRoKCI6OjE6IikgfHwKICAgICAgICAgICAgYXBpRW5kcG9pbnQuc3RhcnRzV2l0aCgiMC4wLjAuMDoiKSB8fAogICAgICAgICAgICBhcGlFbmRwb2ludC5zdGFydHNXaXRoKCIxMC4wLjIuMjoiKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.collects
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import java.net.URI
+
+data class ProviderEndpointOption(
+    val endpoint: String,
+    val label: String
+)
+
+data class ProviderApiConfig(
+    val providerType: ApiProviderType,
+    val defaultModelName: String = "",
+    val defaultApiEndpoint: String = "",
+    val endpointOptions: List<ProviderEndpointOption> = emptyList(),
+    val requiresApiKey: Boolean = true
+)
+
+object ApiProviderConfigs {
+    private val configs: Map<ApiProviderType, ProviderApiConfig> = listOf(
+        ProviderApiConfig(
+            providerType = ApiProviderType.OPENAI,
+            defaultModelName = "gpt-4o",
+            defaultApiEndpoint = "https://api.openai.com/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.XAI,
+            defaultModelName = "grok-4.6",
+            defaultApiEndpoint = "https://api.x.ai/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.OPENAI_RESPONSES,
+            defaultModelName = "gpt-4o",
+            defaultApiEndpoint = "https://api.openai.com/v1/responses"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.OPENAI_CODEX,
+            defaultModelName = "gpt-5.6-luna",
+            defaultApiEndpoint = "https://chatgpt.com/backend-api/codex/responses",
+            requiresApiKey = false,
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.OPENAI_RESPONSES_GENERIC,
+            defaultModelName = "",
+            defaultApiEndpoint = ""
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.OPENAI_GENERIC,
+            defaultModelName = "",
+            defaultApiEndpoint = ""
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.ANTHROPIC,
+            defaultModelName = "claude-3-opus-20240229",
+            defaultApiEndpoint = "https://api.anthropic.com/v1/messages"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.ANTHROPIC_GENERIC,
+            defaultModelName = "",
+            defaultApiEndpoint = ""
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.GOOGLE,
+            defaultModelName = "gemini-2.0-flash",
+            defaultApiEndpoint = "https://generativelanguage.googleapis.com/v1beta/models"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.GEMINI_GENERIC,
+            defaultModelName = "gemini-2.0-flash",
+            defaultApiEndpoint = ""
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.DEEPSEEK,
+            defaultModelName = "deepseek-v4-flash",
+            defaultApiEndpoint = "https://api.deepseek.com/v1/chat/completions",
+            endpointOptions = listOf(
+                ProviderEndpointOption(
+                    endpoint = "https://api.deepseek.com/v1/chat/completions",
+                    label = "Chat Completions"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://api.deepseek.com/v1/responses",
+                    label = "Responses"
+                )
+            )
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.BAIDU,
+            defaultModelName = "ernie-bot-4",
+            defaultApiEndpoint = "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.ALIYUN,
+            defaultModelName = "qwen-max",
+            defaultApiEndpoint = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.XUNFEI,
+            defaultModelName = "spark3.5",
+            defaultApiEndpoint = "https://spark-api-open.xf-yun.com/v2/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.ZHIPU,
+            defaultModelName = "glm-4.5",
+            defaultApiEndpoint = "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+            endpointOptions = listOf(
+                ProviderEndpointOption(
+                    endpoint = "https://open.bigmodel.cn/api/paas/v4/chat/completions",
+                    label = "CN standard"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://open.bigmodel.cn/api/coding/paas/v4/chat/completions",
+                    label = "CN coding"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://api.z.ai/api/paas/v4/chat/completions",
+                    label = "International standard"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://api.z.ai/api/coding/paas/v4/chat/completions",
+                    label = "International coding"
+                )
+            )
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.BAICHUAN,
+            defaultModelName = "baichuan4",
+            defaultApiEndpoint = "https://api.baichuan-ai.com/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.MOONSHOT,
+            defaultModelName = "moonshot-v1-128k",
+            defaultApiEndpoint = "https://api.moonshot.cn/v1/chat/completions",
+            endpointOptions = listOf(
+                ProviderEndpointOption(
+                    endpoint = "https://api.moonshot.cn/v1/chat/completions",
+                    label = "China (moonshot.cn)"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://api.moonshot.ai/v1/chat/completions",
+                    label = "International (moonshot.ai)"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://api.kimi.com/coding/v1/chat/completions",
+                    label = "Kimi Code (api.kimi.com)"
+                )
+            )
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.MIMO,
+            defaultModelName = "mimo-v2.5-pro",
+            defaultApiEndpoint = "https://api.xiaomimimo.com/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.MISTRAL,
+            defaultModelName = "codestral-latest",
+            defaultApiEndpoint = "https://codestral.mistral.ai/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.SILICONFLOW,
+            defaultModelName = "yi-1.5-34b",
+            defaultApiEndpoint = "https://api.siliconflow.cn/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.IFLOW,
+            defaultModelName = "TBStars2-200B-A13B",
+            defaultApiEndpoint = "https://apis.iflow.cn/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.OPENROUTER,
+            defaultModelName = "google/gemini-pro",
+            defaultApiEndpoint = "https://openrouter.ai/api/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.OPENCODE,
+            defaultModelName = "",
+            defaultApiEndpoint = "https://opencode.ai/zen",
+            endpointOptions = listOf(
+                ProviderEndpointOption(
+                    endpoint = "https://opencode.ai/zen",
+                    label = "Zen"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://opencode.ai/zen/go",
+                    label = "Go"
+                )
+            )
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.FOUR_ROUTER,
+            defaultModelName = "gpt-5.4-mini",
+            defaultApiEndpoint = "https://4router.net/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.NOUS_PORTAL,
+            defaultModelName = "",
+            defaultApiEndpoint = "https://inference-api.nousresearch.com/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.INFINIAI,
+            defaultModelName = "infini-mini",
+            defaultApiEndpoint = "https://cloud.infini-ai.com/maas/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.ALIPAY_BAILING,
+            defaultModelName = "Ling-1T",
+            defaultApiEndpoint = "https://api.tbox.cn/api/llm/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.DOUBAO,
+            defaultModelName = "Doubao-pro-4k",
+            defaultApiEndpoint = "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+            endpointOptions = listOf(
+                ProviderEndpointOption(
+                    endpoint = "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+                    label = "CN standard"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://ark.cn-beijing.volces.com/api/coding/v3/chat/completions",
+                    label = "CN coding"
+                )
+            )
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.NVIDIA,
+            defaultModelName = "nvidia/nemotron-3-nano-30b-a3b",
+            defaultApiEndpoint = "https://integrate.api.nvidia.com/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.LMSTUDIO,
+            defaultModelName = "meta-llama-3.1-8b-instruct",
+            defaultApiEndpoint = "http://localhost:1234/v1/chat/completions",
+            requiresApiKey = false
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.OLLAMA,
+            defaultModelName = "",
+            defaultApiEndpoint = "http://localhost:11434/v1/chat/completions",
+            requiresApiKey = false
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.OPENAI_LOCAL,
+            defaultModelName = "",
+            defaultApiEndpoint = "http://localhost:8000/v1/chat/completions",
+            requiresApiKey = false
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.MNN,
+            defaultModelName = "",
+            defaultApiEndpoint = "",
+            requiresApiKey = false
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.LLAMA_CPP,
+            defaultModelName = "",
+            defaultApiEndpoint = "",
+            requiresApiKey = false
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.PPINFRA,
+            defaultModelName = "gpt-4o-mini",
+            defaultApiEndpoint = "https://api.ppinfra.com/openai/v1/chat/completions"
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.NOVITA,
+            defaultModelName = "moonshotai/kimi-k2.5",
+            defaultApiEndpoint = "https://api.novita.ai/openai/v1/chat/completions",
+            endpointOptions = listOf(
+                ProviderEndpointOption(
+                    endpoint = "https://api.novita.ai/openai/v1/chat/completions",
+                    label = "OpenAI-compatible"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://api.novita.ai/anthropic/v1/messages",
+                    label = "Anthropic-compatible"
+                )
+            )
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.MINIMAX,
+            defaultModelName = "MiniMax-M2.7",
+            defaultApiEndpoint = "https://api.minimaxi.com/v1/chat/completions",
+            endpointOptions = listOf(
+                ProviderEndpointOption(
+                    endpoint = "https://api.minimaxi.com/v1/chat/completions",
+                    label = "China (minimaxi.com)"
+                ),
+                ProviderEndpointOption(
+                    endpoint = "https://api.minimax.io/v1/chat/completions",
+                    label = "International (minimax.io)"
+                )
+            )
+        ),
+        ProviderApiConfig(
+            providerType = ApiProviderType.OTHER,
+            defaultModelName = "",
+            defaultApiEndpoint = ""
+        )
+    ).associateBy(ProviderApiConfig::providerType)
+
+    fun get(providerType: ApiProviderType): ProviderApiConfig {
+        return configs[providerType] ?: ProviderApiConfig(providerType = providerType)
+    }
+
+    fun getDefaultModelName(providerType: ApiProviderType): String {
+        return get(providerType).defaultModelName
+    }
+
+    fun getDefaultApiEndpoint(providerType: ApiProviderType): String {
+        return get(providerType).defaultApiEndpoint
+    }
+
+    fun getEndpointOptions(providerType: ApiProviderType): List<ProviderEndpointOption>? {
+        return get(providerType).endpointOptions.takeIf { it.isNotEmpty() }
+    }
+
+    fun requiresApiKey(providerType: ApiProviderType, apiEndpoint: String = ""): Boolean {
+        if (!get(providerType).requiresApiKey) {
+            return false
+        }
+
+        return !isLoopbackEndpoint(apiEndpoint)
+    }
+
+    fun requiresApiKey(providerTypeId: String, apiEndpoint: String = ""): Boolean {
+        val providerType = ApiProviderType.fromProviderTypeId(providerTypeId) ?: return !isLoopbackEndpoint(apiEndpoint)
+        return requiresApiKey(providerType, apiEndpoint)
+    }
+
+    fun isDefaultModelName(modelName: String): Boolean {
+        return configs.values.any { it.defaultModelName == modelName }
+    }
+
+    fun isDefaultApiEndpoint(endpoint: String): Boolean {
+        return configs.values.any { it.defaultApiEndpoint == endpoint }
+    }
+
+    fun isLoopbackEndpoint(apiEndpoint: String): Boolean {
+        if (apiEndpoint.isBlank()) {
+            return false
+        }
+
+        val normalizedEndpoint = apiEndpoint.trim().lowercase()
+        return try {
+            val host = URI(apiEndpoint).host
+            if (host != null) {
+                isLoopbackHost(host)
+            } else {
+                isLoopbackEndpointText(normalizedEndpoint)
+            }
+        } catch (_: Exception) {
+            isLoopbackEndpointText(normalizedEndpoint)
+        }
+    }
+
+    private fun isLoopbackHost(host: String): Boolean {
+        return when (host.lowercase().trim('[', ']')) {
+            "localhost",
+            "127.0.0.1",
+            "::1",
+            "0.0.0.0",
+            "10.0.2.2" -> true
+            else -> false
+        }
+    }
+
+    private fun isLoopbackEndpointText(apiEndpoint: String): Boolean {
+        return apiEndpoint.startsWith("localhost:") ||
+            apiEndpoint.startsWith("127.0.0.1:") ||
+            apiEndpoint.startsWith("[::1]:") ||
+            apiEndpoint.startsWith("::1:") ||
+            apiEndpoint.startsWith("0.0.0.0:") ||
+            apiEndpoint.startsWith("10.0.2.2:")
+    }
+}

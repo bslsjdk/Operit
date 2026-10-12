@@ -1,1 +1,194 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGFuZHJvaWR4LnJvb20uRW50aXR5CmltcG9ydCBhbmRyb2lkeC5yb29tLlByaW1hcnlLZXkKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBDaGFyYWN0ZXJDYXJkVG9vbEFjY2Vzc0NvbmZpZygKICAgIHZhbCBlbmFibGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgYWxsb3dlZEJ1aWx0aW5Ub29sczogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwgYWxsb3dlZFBhY2thZ2VzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBhbGxvd2VkU2tpbGxzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBhbGxvd2VkTWNwU2VydmVyczogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCkKKSB7CiAgICBmdW4gbm9ybWFsaXplZCgpOiBDaGFyYWN0ZXJDYXJkVG9vbEFjY2Vzc0NvbmZpZyB7CiAgICAgICAgcmV0dXJuIGNvcHkoCiAgICAgICAgICAgIGFsbG93ZWRCdWlsdGluVG9vbHMgPSBub3JtYWxpemVFbnRyaWVzKGFsbG93ZWRCdWlsdGluVG9vbHMpLAogICAgICAgICAgICBhbGxvd2VkUGFja2FnZXMgPSBub3JtYWxpemVFbnRyaWVzKGFsbG93ZWRQYWNrYWdlcyksCiAgICAgICAgICAgIGFsbG93ZWRTa2lsbHMgPSBub3JtYWxpemVFbnRyaWVzKGFsbG93ZWRTa2lsbHMpLAogICAgICAgICAgICBhbGxvd2VkTWNwU2VydmVycyA9IG5vcm1hbGl6ZUVudHJpZXMoYWxsb3dlZE1jcFNlcnZlcnMpCiAgICAgICAgKQogICAgfQoKICAgIGZ1biBoYXNFeHRlcm5hbFNlbGVjdGlvbnMoKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGFsbG93ZWRQYWNrYWdlcy5pc05vdEVtcHR5KCkgfHwKICAgICAgICAgICAgYWxsb3dlZFNraWxscy5pc05vdEVtcHR5KCkgfHwKICAgICAgICAgICAgYWxsb3dlZE1jcFNlcnZlcnMuaXNOb3RFbXB0eSgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbm9ybWFsaXplRW50cmllcyh2YWx1ZXM6IExpc3Q8U3RyaW5nPik6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgcmV0dXJuIHZhbHVlcwogICAgICAgICAgICAubWFwIHsgaXQudHJpbSgpIH0KICAgICAgICAgICAgLmZpbHRlciB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICAgICAgICAgIC5kaXN0aW5jdCgpCiAgICB9Cn0KCi8qKgogKiDop5LoibLljaHmlbDmja7mqKHlnosKICovCkBFbnRpdHkodGFibGVOYW1lID0gImNoYXJhY3Rlcl9jYXJkcyIpCmRhdGEgY2xhc3MgQ2hhcmFjdGVyQ2FyZCgKICAgIEBQcmltYXJ5S2V5CiAgICB2YWwgaWQ6IFN0cmluZywKICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZyA9ICIiLAogICAgdmFsIGNoYXJhY3RlclNldHRpbmc6IFN0cmluZyA9ICIiLCAvLyDop5LoibLorr7lrprvvIjlvJXlr7zor43vvIkKICAgIHZhbCBvcGVuaW5nU3RhdGVtZW50OiBTdHJpbmcgPSAiIiwgLy8g5paw5aKe77ya5byA5Zy655m9CiAgICB2YWwgb3RoZXJDb250ZW50Q2hhdDogU3RyaW5nID0gIiIsIC8vIOWFtuS7luWGheWuue+8iOiBiuWkqe+8iQogICAgdmFsIG90aGVyQ29udGVudFZvaWNlOiBTdHJpbmcgPSAiIiwgLy8g5YW25LuW5YaF5a6577yI6K+t6Z+z77yJCiAgICB2YWwgYXR0YWNoZWRUYWdJZHM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLCAvLyDpmYTnnYDnmoTmoIfnrb5JROWIl+ihqAogICAgdmFsIGFkdmFuY2VkQ3VzdG9tUHJvbXB0OiBTdHJpbmcgPSAiIiwgLy8g6auY57qn6K6+572u55qE6Ieq5a6a5LmJ77yI5byV5a+86K+N77yJCiAgICB2YWwgbWFya3M6IFN0cmluZyA9ICIiLCAvLyDlpIfms6jkv6Hmga/vvIjkuI3kvJrooqvmi7zmjqXliLDmj5DnpLror43kuK3vvIkKICAgIHZhbCBjaGF0TW9kZWxCaW5kaW5nTW9kZTogU3RyaW5nID0gQ2hhcmFjdGVyQ2FyZENoYXRNb2RlbEJpbmRpbmdNb2RlLkZPTExPV19HTE9CQUwsIC8vIOWvueivneaooeWei+e7keWumuaooeW8jwogICAgdmFsIGNoYXRNb2RlbENvbmZpZ0lkOiBTdHJpbmc/ID0gbnVsbCwgLy8g5Zu65a6a57uR5a6a5pe25L2/55So55qE6YWN572uSUQKICAgIHZhbCBjaGF0TW9kZWxJbmRleDogSW50ID0gMCwgLy8g5Zu65a6a57uR5a6a5pe25L2/55So55qE5qih5Z6L57Si5byVCiAgICB2YWwgbWVtb3J5UHJvZmlsZUJpbmRpbmdNb2RlOiBTdHJpbmcgPSBDaGFyYWN0ZXJDYXJkTWVtb3J5UHJvZmlsZUJpbmRpbmdNb2RlLkZPTExPV19HTE9CQUwsIC8vIOiusOW/humFjee9rue7keWumuaooeW8jwogICAgdmFsIG1lbW9yeVByb2ZpbGVJZDogU3RyaW5nPyA9IG51bGwsIC8vIOWbuuWumue7keWumuaXtuS9v+eUqOeahOiusOW/humFjee9rklECiAgICB2YWwgdG9vbEFjY2Vzc0NvbmZpZzogQ2hhcmFjdGVyQ2FyZFRvb2xBY2Nlc3NDb25maWcgPSBDaGFyYWN0ZXJDYXJkVG9vbEFjY2Vzc0NvbmZpZygpLCAvLyDop5LoibLljaHoh6rlrprkuYnlt6Xlhbfnmb3lkI3ljZUKICAgIHZhbCBpc0RlZmF1bHQ6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBjcmVhdGVkQXQ6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSwKICAgIHZhbCB1cGRhdGVkQXQ6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQopCgpvYmplY3QgQ2hhcmFjdGVyQ2FyZENoYXRNb2RlbEJpbmRpbmdNb2RlIHsKICAgIGNvbnN0IHZhbCBGT0xMT1dfR0xPQkFMID0gIkZPTExPV19HTE9CQUwiCiAgICBjb25zdCB2YWwgRklYRURfQ09ORklHID0gIkZJWEVEX0NPTkZJRyIKCiAgICBmdW4gbm9ybWFsaXplKG1vZGU6IFN0cmluZz8pOiBTdHJpbmcgewogICAgICAgIHJldHVybiBpZiAobW9kZSA9PSBGSVhFRF9DT05GSUcpIEZJWEVEX0NPTkZJRyBlbHNlIEZPTExPV19HTE9CQUwKICAgIH0KfQoKb2JqZWN0IENoYXJhY3RlckNhcmRNZW1vcnlQcm9maWxlQmluZGluZ01vZGUgewogICAgY29uc3QgdmFsIEZPTExPV19HTE9CQUwgPSAiRk9MTE9XX0dMT0JBTCIKICAgIGNvbnN0IHZhbCBGSVhFRF9QUk9GSUxFID0gIkZJWEVEX1BST0ZJTEUiCgogICAgZnVuIG5vcm1hbGl6ZShtb2RlOiBTdHJpbmc/KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gaWYgKG1vZGUgPT0gRklYRURfUFJPRklMRSkgRklYRURfUFJPRklMRSBlbHNlIEZPTExPV19HTE9CQUwKICAgIH0KfQoKLyoqCiAqIOmFkummhuinkuiJsuWNoeagvOW8j+aVsOaNruaooeWeiwogKi8KZGF0YSBjbGFzcyBUYXZlcm5DaGFyYWN0ZXJDYXJkKAogICAgdmFsIHNwZWM6IFN0cmluZyA9ICIiLAogICAgdmFsIHNwZWNfdmVyc2lvbjogU3RyaW5nID0gIiIsCiAgICB2YWwgZGF0YTogVGF2ZXJuQ2hhcmFjdGVyRGF0YQopCgpkYXRhIGNsYXNzIFRhdmVybkNoYXJhY3RlckRhdGEoCiAgICB2YWwgbmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZyA9ICIiLAogICAgdmFsIHBlcnNvbmFsaXR5OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBmaXJzdF9tZXM6IFN0cmluZyA9ICIiLAogICAgdmFsIGF2YXRhcjogU3RyaW5nID0gIiIsCiAgICB2YWwgbWVzX2V4YW1wbGU6IFN0cmluZyA9ICIiLAogICAgdmFsIHNjZW5hcmlvOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBjcmVhdG9yX25vdGVzOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBzeXN0ZW1fcHJvbXB0OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBwb3N0X2hpc3RvcnlfaW5zdHJ1Y3Rpb25zOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBhbHRlcm5hdGVfZ3JlZXRpbmdzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCB0YWdzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBjcmVhdG9yOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBjaGFyYWN0ZXJfdmVyc2lvbjogU3RyaW5nID0gIiIsCiAgICB2YWwgZXh0ZW5zaW9uczogVGF2ZXJuRXh0ZW5zaW9ucz8gPSBudWxsLAogICAgdmFsIGNoYXJhY3Rlcl9ib29rOiBUYXZlcm5DaGFyYWN0ZXJCb29rPyA9IG51bGwKKQoKZGF0YSBjbGFzcyBUYXZlcm5FeHRlbnNpb25zKAogICAgdmFsIGNodWI6IFRhdmVybkNodWJFeHRlbnNpb24/ID0gbnVsbCwKICAgIHZhbCBkZXB0aF9wcm9tcHQ6IFRhdmVybkRlcHRoUHJvbXB0PyA9IG51bGwsCiAgICB2YWwgb3Blcml0OiBPcGVyaXRUYXZlcm5FeHRlbnNpb24/ID0gbnVsbAopCgpkYXRhIGNsYXNzIE9wZXJpdFRhdmVybkV4dGVuc2lvbigKICAgIHZhbCBzY2hlbWE6IFN0cmluZyA9ICJvcGVyaXRfY2hhcmFjdGVyX2NhcmRfdjEiLAogICAgdmFsIGNoYXJhY3Rlcl9jYXJkOiBPcGVyaXRDaGFyYWN0ZXJDYXJkUGF5bG9hZAopCgpkYXRhIGNsYXNzIE9wZXJpdENoYXJhY3RlckNhcmRQYXlsb2FkKAogICAgdmFsIG5hbWU6IFN0cmluZyA9ICIiLAogICAgdmFsIGRlc2NyaXB0aW9uOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBjaGFyYWN0ZXJTZXR0aW5nOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBvcGVuaW5nU3RhdGVtZW50OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBvdGhlckNvbnRlbnQ6IFN0cmluZyA9ICIiLAogICAgdmFsIG90aGVyQ29udGVudENoYXQ6IFN0cmluZyA9ICIiLAogICAgdmFsIG90aGVyQ29udGVudFZvaWNlOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBhdHRhY2hlZFRhZ0lkczogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwgYXR0YWNoZWRUYWdzOiBMaXN0PE9wZXJpdEF0dGFjaGVkVGFnUGF5bG9hZD4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBhZHZhbmNlZEN1c3RvbVByb21wdDogU3RyaW5nID0gIiIsCiAgICB2YWwgbWFya3M6IFN0cmluZyA9ICIiLAogICAgdmFsIGNoYXRNb2RlbEJpbmRpbmdNb2RlOiBTdHJpbmcgPSBDaGFyYWN0ZXJDYXJkQ2hhdE1vZGVsQmluZGluZ01vZGUuRk9MTE9XX0dMT0JBTCwKICAgIHZhbCBjaGF0TW9kZWxDb25maWdJZDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgY2hhdE1vZGVsSW5kZXg6IEludCA9IDAsCiAgICB2YWwgbWVtb3J5UHJvZmlsZUJpbmRpbmdNb2RlOiBTdHJpbmcgPSBDaGFyYWN0ZXJDYXJkTWVtb3J5UHJvZmlsZUJpbmRpbmdNb2RlLkZPTExPV19HTE9CQUwsCiAgICB2YWwgbWVtb3J5UHJvZmlsZUlkOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCB0b29sQWNjZXNzQ29uZmlnOiBDaGFyYWN0ZXJDYXJkVG9vbEFjY2Vzc0NvbmZpZz8gPSBudWxsCikKCmRhdGEgY2xhc3MgT3Blcml0QXR0YWNoZWRUYWdQYXlsb2FkKAogICAgdmFsIGlkOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBuYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nID0gIiIsCiAgICB2YWwgcHJvbXB0Q29udGVudDogU3RyaW5nID0gIiIsCiAgICB2YWwgdGFnVHlwZTogU3RyaW5nID0gIkNVU1RPTSIKKQoKZGF0YSBjbGFzcyBUYXZlcm5DaHViRXh0ZW5zaW9uKAogICAgdmFsIGlkOiBMb25nID0gMCwKICAgIHZhbCBwcmVzZXQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGZ1bGxfcGF0aDogU3RyaW5nID0gIiIsCiAgICB2YWwgZXh0ZW5zaW9uczogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwgZXhwcmVzc2lvbnM6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGFsdF9leHByZXNzaW9uczogTWFwPFN0cmluZywgU3RyaW5nPiA9IGVtcHR5TWFwKCksCiAgICB2YWwgYmFja2dyb3VuZF9pbWFnZTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgcmVsYXRlZF9sb3JlYm9va3M6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpCikKCmRhdGEgY2xhc3MgVGF2ZXJuRGVwdGhQcm9tcHQoCiAgICB2YWwgcm9sZTogU3RyaW5nID0gIiIsCiAgICB2YWwgZGVwdGg6IEludCA9IDAsCiAgICB2YWwgcHJvbXB0OiBTdHJpbmcgPSAiIgopCgpkYXRhIGNsYXNzIFRhdmVybkNoYXJhY3RlckJvb2soCiAgICB2YWwgbmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZyA9ICIiLAogICAgdmFsIHNjYW5fZGVwdGg6IEludCA9IDAsCiAgICB2YWwgdG9rZW5fYnVkZ2V0OiBJbnQgPSAwLAogICAgdmFsIHJlY3Vyc2l2ZV9zY2FubmluZzogQm9vbGVhbiA9IGZhbHNlLAogICAgdmFsIGV4dGVuc2lvbnM6IE1hcDxTdHJpbmcsIEFueT4gPSBlbXB0eU1hcCgpLAogICAgdmFsIGVudHJpZXM6IExpc3Q8VGF2ZXJuQm9va0VudHJ5PiA9IGVtcHR5TGlzdCgpCikKCmRhdGEgY2xhc3MgVGF2ZXJuQm9va0VudHJ5KAogICAgdmFsIG5hbWU6IFN0cmluZyA9ICIiLAogICAgdmFsIGtleXM6IExpc3Q8U3RyaW5nPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIHNlY29uZGFyeV9rZXlzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKSwKICAgIHZhbCBjb250ZW50OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBlbmFibGVkOiBCb29sZWFuID0gdHJ1ZSwKICAgIHZhbCBpbnNlcnRpb25fb3JkZXI6IEludCA9IDAsCiAgICB2YWwgY2FzZV9zZW5zaXRpdmU6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBwcmlvcml0eTogSW50ID0gMCwKICAgIHZhbCBpZDogSW50ID0gMCwKICAgIHZhbCBjb21tZW50OiBTdHJpbmcgPSAiIiwKICAgIHZhbCBzZWxlY3RpdmU6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCBjb25zdGFudDogQm9vbGVhbiA9IGZhbHNlLAogICAgdmFsIHBvc2l0aW9uOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBleHRlbnNpb25zOiBNYXA8U3RyaW5nLCBBbnk+ID0gZW1wdHlNYXAoKSwKICAgIHZhbCBwcm9iYWJpbGl0eTogSW50ID0gMTAwLAogICAgdmFsIHNlbGVjdGl2ZUxvZ2ljOiBJbnQgPSAwCikgCg==
+package com.bslsjdk.operit.data.model
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class CharacterCardToolAccessConfig(
+    val enabled: Boolean = false,
+    val allowedBuiltinTools: List<String> = emptyList(),
+    val allowedPackages: List<String> = emptyList(),
+    val allowedSkills: List<String> = emptyList(),
+    val allowedMcpServers: List<String> = emptyList()
+) {
+    fun normalized(): CharacterCardToolAccessConfig {
+        return copy(
+            allowedBuiltinTools = normalizeEntries(allowedBuiltinTools),
+            allowedPackages = normalizeEntries(allowedPackages),
+            allowedSkills = normalizeEntries(allowedSkills),
+            allowedMcpServers = normalizeEntries(allowedMcpServers)
+        )
+    }
+
+    fun hasExternalSelections(): Boolean {
+        return allowedPackages.isNotEmpty() ||
+            allowedSkills.isNotEmpty() ||
+            allowedMcpServers.isNotEmpty()
+    }
+
+    private fun normalizeEntries(values: List<String>): List<String> {
+        return values
+            .map { it.trim() }
+            .filter { it.isNotEmpty() }
+            .distinct()
+    }
+}
+
+/**
+ * 角色卡数据模型
+ */
+@Entity(tableName = "character_cards")
+data class CharacterCard(
+    @PrimaryKey
+    val id: String,
+    val name: String,
+    val description: String = "",
+    val characterSetting: String = "", // 角色设定（引导词）
+    val openingStatement: String = "", // 新增：开场白
+    val otherContentChat: String = "", // 其他内容（聊天）
+    val otherContentVoice: String = "", // 其他内容（语音）
+    val attachedTagIds: List<String> = emptyList(), // 附着的标签ID列表
+    val advancedCustomPrompt: String = "", // 高级设置的自定义（引导词）
+    val marks: String = "", // 备注信息（不会被拼接到提示词中）
+    val chatModelBindingMode: String = CharacterCardChatModelBindingMode.FOLLOW_GLOBAL, // 对话模型绑定模式
+    val chatModelConfigId: String? = null, // 固定绑定时使用的配置ID
+    val chatModelIndex: Int = 0, // 固定绑定时使用的模型索引
+    val memoryProfileBindingMode: String = CharacterCardMemoryProfileBindingMode.FOLLOW_GLOBAL, // 记忆配置绑定模式
+    val memoryProfileId: String? = null, // 固定绑定时使用的记忆配置ID
+    val toolAccessConfig: CharacterCardToolAccessConfig = CharacterCardToolAccessConfig(), // 角色卡自定义工具白名单
+    val isDefault: Boolean = false,
+    val createdAt: Long = System.currentTimeMillis(),
+    val updatedAt: Long = System.currentTimeMillis()
+)
+
+object CharacterCardChatModelBindingMode {
+    const val FOLLOW_GLOBAL = "FOLLOW_GLOBAL"
+    const val FIXED_CONFIG = "FIXED_CONFIG"
+
+    fun normalize(mode: String?): String {
+        return if (mode == FIXED_CONFIG) FIXED_CONFIG else FOLLOW_GLOBAL
+    }
+}
+
+object CharacterCardMemoryProfileBindingMode {
+    const val FOLLOW_GLOBAL = "FOLLOW_GLOBAL"
+    const val FIXED_PROFILE = "FIXED_PROFILE"
+
+    fun normalize(mode: String?): String {
+        return if (mode == FIXED_PROFILE) FIXED_PROFILE else FOLLOW_GLOBAL
+    }
+}
+
+/**
+ * 酒馆角色卡格式数据模型
+ */
+data class TavernCharacterCard(
+    val spec: String = "",
+    val spec_version: String = "",
+    val data: TavernCharacterData
+)
+
+data class TavernCharacterData(
+    val name: String = "",
+    val description: String = "",
+    val personality: String = "",
+    val first_mes: String = "",
+    val avatar: String = "",
+    val mes_example: String = "",
+    val scenario: String = "",
+    val creator_notes: String = "",
+    val system_prompt: String = "",
+    val post_history_instructions: String = "",
+    val alternate_greetings: List<String> = emptyList(),
+    val tags: List<String> = emptyList(),
+    val creator: String = "",
+    val character_version: String = "",
+    val extensions: TavernExtensions? = null,
+    val character_book: TavernCharacterBook? = null
+)
+
+data class TavernExtensions(
+    val chub: TavernChubExtension? = null,
+    val depth_prompt: TavernDepthPrompt? = null,
+    val operit: OperitTavernExtension? = null
+)
+
+data class OperitTavernExtension(
+    val schema: String = "operit_character_card_v1",
+    val character_card: OperitCharacterCardPayload
+)
+
+data class OperitCharacterCardPayload(
+    val name: String = "",
+    val description: String = "",
+    val characterSetting: String = "",
+    val openingStatement: String = "",
+    val otherContent: String = "",
+    val otherContentChat: String = "",
+    val otherContentVoice: String = "",
+    val attachedTagIds: List<String> = emptyList(),
+    val attachedTags: List<OperitAttachedTagPayload> = emptyList(),
+    val advancedCustomPrompt: String = "",
+    val marks: String = "",
+    val chatModelBindingMode: String = CharacterCardChatModelBindingMode.FOLLOW_GLOBAL,
+    val chatModelConfigId: String? = null,
+    val chatModelIndex: Int = 0,
+    val memoryProfileBindingMode: String = CharacterCardMemoryProfileBindingMode.FOLLOW_GLOBAL,
+    val memoryProfileId: String? = null,
+    val toolAccessConfig: CharacterCardToolAccessConfig? = null
+)
+
+data class OperitAttachedTagPayload(
+    val id: String = "",
+    val name: String = "",
+    val description: String = "",
+    val promptContent: String = "",
+    val tagType: String = "CUSTOM"
+)
+
+data class TavernChubExtension(
+    val id: Long = 0,
+    val preset: String? = null,
+    val full_path: String = "",
+    val extensions: List<String> = emptyList(),
+    val expressions: String? = null,
+    val alt_expressions: Map<String, String> = emptyMap(),
+    val background_image: String? = null,
+    val related_lorebooks: List<String> = emptyList()
+)
+
+data class TavernDepthPrompt(
+    val role: String = "",
+    val depth: Int = 0,
+    val prompt: String = ""
+)
+
+data class TavernCharacterBook(
+    val name: String = "",
+    val description: String = "",
+    val scan_depth: Int = 0,
+    val token_budget: Int = 0,
+    val recursive_scanning: Boolean = false,
+    val extensions: Map<String, Any> = emptyMap(),
+    val entries: List<TavernBookEntry> = emptyList()
+)
+
+data class TavernBookEntry(
+    val name: String = "",
+    val keys: List<String> = emptyList(),
+    val secondary_keys: List<String> = emptyList(),
+    val content: String = "",
+    val enabled: Boolean = true,
+    val insertion_order: Int = 0,
+    val case_sensitive: Boolean = false,
+    val priority: Int = 0,
+    val id: Int = 0,
+    val comment: String = "",
+    val selective: Boolean = false,
+    val constant: Boolean = false,
+    val position: String = "",
+    val extensions: Map<String, Any> = emptyMap(),
+    val probability: Int = 100,
+    val selectiveLogic: Int = 0
+) 

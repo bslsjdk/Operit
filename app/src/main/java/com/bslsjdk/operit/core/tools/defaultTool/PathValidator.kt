@@ -1,1 +1,58 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkZpbGVPcGVyYXRpb25EYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUmVzdWx0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5TdHJpbmdSZXN1bHREYXRhCgpvYmplY3QgUGF0aFZhbGlkYXRvciB7CiAgICBmdW4gdmFsaWRhdGVBbmRyb2lkUGF0aChwYXRoOiBTdHJpbmcsIHRvb2xOYW1lOiBTdHJpbmcsIHBhcmFtTmFtZTogU3RyaW5nID0gInBhdGgiKTogVG9vbFJlc3VsdD8gewogICAgICAgIGlmIChwYXRoLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbE5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gIiRwYXJhbU5hbWUgcGFyYW1ldGVyIGlzIHJlcXVpcmVkIgogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIGlmICghcGF0aC5zdGFydHNXaXRoKCIvIikpIHsKICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2xOYW1lLAogICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0gRmlsZU9wZXJhdGlvbkRhdGEoCiAgICAgICAgICAgICAgICAgICAgb3BlcmF0aW9uID0gdG9vbE5hbWUsCiAgICAgICAgICAgICAgICAgICAgcGF0aCA9IHBhdGgsCiAgICAgICAgICAgICAgICAgICAgc3VjY2Vzc2Z1bCA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgIGRldGFpbHMgPSAiSW52YWxpZCBwYXRoOiAnJHBhdGgnLiBQYXRoIG11c3QgYmUgYW4gYWJzb2x1dGUgcGF0aCBzdGFydGluZyB3aXRoICcvJy4iCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgZXJyb3IgPSAiSW52YWxpZCBwYXRoOiAnJHBhdGgnLiBQYXRoIG11c3QgYmUgYW4gYWJzb2x1dGUgcGF0aCBzdGFydGluZyB3aXRoICcvJy4iCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIG51bGwKICAgIH0KCiAgICBmdW4gdmFsaWRhdGVMaW51eFBhdGgocGF0aDogU3RyaW5nLCB0b29sTmFtZTogU3RyaW5nLCBwYXJhbU5hbWU6IFN0cmluZyA9ICJwYXRoIik6IFRvb2xSZXN1bHQ/IHsKICAgICAgICBpZiAocGF0aC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2xOYW1lLAogICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICBlcnJvciA9ICIkcGFyYW1OYW1lIHBhcmFtZXRlciBpcyByZXF1aXJlZCIKICAgICAgICAgICAgKQogICAgICAgIH0KICAgICAgICBpZiAoIXBhdGguc3RhcnRzV2l0aCgiLyIpICYmICFwYXRoLnN0YXJ0c1dpdGgoIn4iKSkgewogICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbE5hbWUsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBGaWxlT3BlcmF0aW9uRGF0YSgKICAgICAgICAgICAgICAgICAgICBvcGVyYXRpb24gPSB0b29sTmFtZSwKICAgICAgICAgICAgICAgICAgICBlbnYgPSAibGludXgiLAogICAgICAgICAgICAgICAgICAgIHBhdGggPSBwYXRoLAogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3NmdWwgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICBkZXRhaWxzID0gIkludmFsaWQgcGF0aDogJyRwYXRoJy4gUGF0aCBtdXN0IHN0YXJ0IHdpdGggJy8nIG9yICd+Jy4iCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgZXJyb3IgPSAiSW52YWxpZCBwYXRoOiAnJHBhdGgnLiBQYXRoIG11c3Qgc3RhcnQgd2l0aCAnLycgb3IgJ34nLiIKICAgICAgICAgICAgKQogICAgICAgIH0KICAgICAgICByZXR1cm4gbnVsbAogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool
+
+import com.bslsjdk.operit.core.tools.FileOperationData
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.core.tools.StringResultData
+
+object PathValidator {
+    fun validateAndroidPath(path: String, toolName: String, paramName: String = "path"): ToolResult? {
+        if (path.isBlank()) {
+            return ToolResult(
+                toolName = toolName,
+                success = false,
+                result = StringResultData(""),
+                error = "$paramName parameter is required"
+            )
+        }
+        if (!path.startsWith("/")) {
+            return ToolResult(
+                toolName = toolName,
+                success = false,
+                result = FileOperationData(
+                    operation = toolName,
+                    path = path,
+                    successful = false,
+                    details = "Invalid path: '$path'. Path must be an absolute path starting with '/'."
+                ),
+                error = "Invalid path: '$path'. Path must be an absolute path starting with '/'."
+            )
+        }
+        return null
+    }
+
+    fun validateLinuxPath(path: String, toolName: String, paramName: String = "path"): ToolResult? {
+        if (path.isBlank()) {
+            return ToolResult(
+                toolName = toolName,
+                success = false,
+                result = StringResultData(""),
+                error = "$paramName parameter is required"
+            )
+        }
+        if (!path.startsWith("/") && !path.startsWith("~")) {
+            return ToolResult(
+                toolName = toolName,
+                success = false,
+                result = FileOperationData(
+                    operation = toolName,
+                    env = "linux",
+                    path = path,
+                    successful = false,
+                    details = "Invalid path: '$path'. Path must start with '/' or '~'."
+                ),
+                error = "Invalid path: '$path'. Path must start with '/' or '~'."
+            )
+        }
+        return null
+    }
+}

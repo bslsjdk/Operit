@@ -1,1 +1,99 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC53aWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbWVtYmVyU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi52ZXJ0aWNhbFNjcm9sbAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdlb21ldHJ5Lk9mZnNldAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5hc0FuZHJvaWRCaXRtYXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGVzdC5hc3NlcnRJc0Rpc3BsYXllZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXN0LmNhcHR1cmVUb0ltYWdlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRlc3QuanVuaXQ0LmNyZWF0ZUNvbXBvc2VSdWxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRlc3Qub25Ob2RlV2l0aENvbnRlbnREZXNjcmlwdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXN0LnBlcmZvcm1Ub3VjaElucHV0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRlc3Quc3dpcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHgudGVzdC5leHQuanVuaXQucnVubmVycy5BbmRyb2lkSlVuaXQ0CmltcG9ydCBhbmRyb2lkeC50ZXN0LnBsYXRmb3JtLmFwcC5JbnN0cnVtZW50YXRpb25SZWdpc3RyeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlJ1bGUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBFbmhhbmNlZFRhYmxlQmxvY2tBbmRyb2lkVGVzdCB7CgogICAgQGdldDpSdWxlCiAgICB2YWwgY29tcG9zZVRlc3RSdWxlID0gY3JlYXRlQ29tcG9zZVJ1bGUoKQoKICAgIEBUZXN0CiAgICBmdW4gc3RyZWFtaW5nQ29udGVudFVwZGF0ZV9rZWVwc0hvcml6b250YWxTY3JvbGxJbnRlcmFjdGl2ZSgpIHsKICAgICAgICB2YWwgY29udGVudCA9IG11dGFibGVTdGF0ZU9mKFdJREVfVEFCTEUpCiAgICAgICAgdmFsIHRhYmxlRGVzY3JpcHRpb24gPQogICAgICAgICAgICBJbnN0cnVtZW50YXRpb25SZWdpc3RyeS5nZXRJbnN0cnVtZW50YXRpb24oKS50YXJnZXRDb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy50YWJsZV9ibG9jaykKCiAgICAgICAgY29tcG9zZVRlc3RSdWxlLnNldENvbnRlbnQgewogICAgICAgICAgICBNYXRlcmlhbFRoZW1lIHsKICAgICAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9CiAgICAgICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAud2lkdGgoMjQwLmRwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhlaWdodCgzMDAuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAudmVydGljYWxTY3JvbGwocmVtZW1iZXJTY3JvbGxTdGF0ZSgpKQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgRW5oYW5jZWRUYWJsZUJsb2NrKHRhYmxlQ29udGVudCA9IGNvbnRlbnQudmFsdWUpCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDUwMC5kcCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHZhbCB0YWJsZSA9IGNvbXBvc2VUZXN0UnVsZS5vbk5vZGVXaXRoQ29udGVudERlc2NyaXB0aW9uKHRhYmxlRGVzY3JpcHRpb24pCiAgICAgICAgdGFibGUuYXNzZXJ0SXNEaXNwbGF5ZWQoKQogICAgICAgIHZhbCBpbml0aWFsSW1hZ2UgPSB0YWJsZS5jYXB0dXJlVG9JbWFnZSgpLmFzQW5kcm9pZEJpdG1hcCgpCgogICAgICAgIHRhYmxlLnBlcmZvcm1Ub3VjaElucHV0IHsKICAgICAgICAgICAgc3dpcGUoCiAgICAgICAgICAgICAgICBzdGFydCA9IGNlbnRlciArIE9mZnNldCg4MGYsIDBmKSwKICAgICAgICAgICAgICAgIGVuZCA9IGNlbnRlciAtIE9mZnNldCg4MGYsIDBmKSwKICAgICAgICAgICAgICAgIGR1cmF0aW9uTWlsbGlzID0gMl8wMDBMLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIGNvbXBvc2VUZXN0UnVsZS53YWl0Rm9ySWRsZSgpCiAgICAgICAgdmFsIGFmdGVyRmlyc3RTd2lwZSA9IHRhYmxlLmNhcHR1cmVUb0ltYWdlKCkuYXNBbmRyb2lkQml0bWFwKCkKICAgICAgICBhc3NlcnRGYWxzZShpbml0aWFsSW1hZ2Uuc2FtZUFzKGFmdGVyRmlyc3RTd2lwZSkpCgogICAgICAgIGNvbXBvc2VUZXN0UnVsZS5ydW5PbklkbGUgewogICAgICAgICAgICBjb250ZW50LnZhbHVlID0gIiRXSURFX1RBQkxFXG4iCiAgICAgICAgfQogICAgICAgIGNvbXBvc2VUZXN0UnVsZS53YWl0Rm9ySWRsZSgpCiAgICAgICAgdmFsIGFmdGVyU3RyZWFtaW5nVXBkYXRlID0gdGFibGUuY2FwdHVyZVRvSW1hZ2UoKS5hc0FuZHJvaWRCaXRtYXAoKQogICAgICAgIGFzc2VydFRydWUoYWZ0ZXJGaXJzdFN3aXBlLnNhbWVBcyhhZnRlclN0cmVhbWluZ1VwZGF0ZSkpCgogICAgICAgIHRhYmxlLnBlcmZvcm1Ub3VjaElucHV0IHsKICAgICAgICAgICAgc3dpcGUoCiAgICAgICAgICAgICAgICBzdGFydCA9IGNlbnRlciAtIE9mZnNldCg4MGYsIDBmKSwKICAgICAgICAgICAgICAgIGVuZCA9IGNlbnRlciArIE9mZnNldCg4MGYsIDBmKSwKICAgICAgICAgICAgICAgIGR1cmF0aW9uTWlsbGlzID0gMl8wMDBMLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIGNvbXBvc2VUZXN0UnVsZS53YWl0Rm9ySWRsZSgpCiAgICAgICAgdmFsIGFmdGVyU2Vjb25kU3dpcGUgPSB0YWJsZS5jYXB0dXJlVG9JbWFnZSgpLmFzQW5kcm9pZEJpdG1hcCgpCiAgICAgICAgYXNzZXJ0RmFsc2UoYWZ0ZXJTdHJlYW1pbmdVcGRhdGUuc2FtZUFzKGFmdGVyU2Vjb25kU3dpcGUpKQogICAgfQoKICAgIHByaXZhdGUgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgdmFsIFdJREVfVEFCTEUgPQogICAgICAgICAgICAiIiIKICAgICAgICAgICAgfCBQYWNrYWdlIGlkZW50aWZpZXIgd2l0aCBhIGxvbmcgdmFsdWUgfCBSZWNvbW1lbmRhdGlvbiB3aXRoIGRldGFpbGVkIHN0YXR1cyB8IFJlYXNvbiBmb3IgdGhlIHJlY29tbWVuZGF0aW9uIHwgQXBwbGljYXRpb24gY2F0ZWdvcnkgfCBEaXNjb3Zlcnkgc291cmNlIHwgQWRkaXRpb25hbCBub3RlcyB8CiAgICAgICAgICAgIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwKICAgICAgICAgICAgfCBjb20uZXhhbXBsZS5hcHBsaWNhdGlvbi5pZGVudGlmaWVyIHwgS2VlcCBpbnN0YWxsZWQgZm9yIHN5c3RlbSBiZWhhdmlvciB8IFJlcXVpcmVkIGJ5IGEgY29yZSBkZXZpY2Ugc2VydmljZSB8IFN5c3RlbSBhcHBsaWNhdGlvbiB8IFBhY2thZ2UgbWFuYWdlciB8IERvIG5vdCBkaXNhYmxlIHRoaXMgcGFja2FnZSB8CiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.common.markdown
+
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.asAndroidBitmap
+import androidx.compose.ui.test.assertIsDisplayed
+import androidx.compose.ui.test.captureToImage
+import androidx.compose.ui.test.junit4.createComposeRule
+import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.performTouchInput
+import androidx.compose.ui.test.swipe
+import androidx.compose.ui.unit.dp
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import com.bslsjdk.operit.R
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Rule
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class EnhancedTableBlockAndroidTest {
+
+    @get:Rule
+    val composeTestRule = createComposeRule()
+
+    @Test
+    fun streamingContentUpdate_keepsHorizontalScrollInteractive() {
+        val content = mutableStateOf(WIDE_TABLE)
+        val tableDescription =
+            InstrumentationRegistry.getInstrumentation().targetContext.getString(R.string.table_block)
+
+        composeTestRule.setContent {
+            MaterialTheme {
+                Column(
+                    modifier =
+                        Modifier
+                            .width(240.dp)
+                            .height(300.dp)
+                            .verticalScroll(rememberScrollState())
+                ) {
+                    EnhancedTableBlock(tableContent = content.value)
+                    Spacer(modifier = Modifier.height(500.dp))
+                }
+            }
+        }
+
+        val table = composeTestRule.onNodeWithContentDescription(tableDescription)
+        table.assertIsDisplayed()
+        val initialImage = table.captureToImage().asAndroidBitmap()
+
+        table.performTouchInput {
+            swipe(
+                start = center + Offset(80f, 0f),
+                end = center - Offset(80f, 0f),
+                durationMillis = 2_000L,
+            )
+        }
+        composeTestRule.waitForIdle()
+        val afterFirstSwipe = table.captureToImage().asAndroidBitmap()
+        assertFalse(initialImage.sameAs(afterFirstSwipe))
+
+        composeTestRule.runOnIdle {
+            content.value = "$WIDE_TABLE\n"
+        }
+        composeTestRule.waitForIdle()
+        val afterStreamingUpdate = table.captureToImage().asAndroidBitmap()
+        assertTrue(afterFirstSwipe.sameAs(afterStreamingUpdate))
+
+        table.performTouchInput {
+            swipe(
+                start = center - Offset(80f, 0f),
+                end = center + Offset(80f, 0f),
+                durationMillis = 2_000L,
+            )
+        }
+        composeTestRule.waitForIdle()
+        val afterSecondSwipe = table.captureToImage().asAndroidBitmap()
+        assertFalse(afterStreamingUpdate.sameAs(afterSecondSwipe))
+    }
+
+    private companion object {
+        val WIDE_TABLE =
+            """
+            | Package identifier with a long value | Recommendation with detailed status | Reason for the recommendation | Application category | Discovery source | Additional notes |
+            | --- | --- | --- | --- | --- | --- |
+            | com.example.application.identifier | Keep installed for system behavior | Required by a core device service | System application | Package manager | Do not disable this package |
+            """.trimIndent()
+    }
+}

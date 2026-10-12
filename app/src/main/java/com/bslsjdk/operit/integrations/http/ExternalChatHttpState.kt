@@ -1,1 +1,7 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLmh0dHAKCmRhdGEgY2xhc3MgRXh0ZXJuYWxDaGF0SHR0cFN0YXRlKAogICAgdmFsIGlzUnVubmluZzogQm9vbGVhbiA9IGZhbHNlLAogICAgdmFsIHBvcnQ6IEludD8gPSBudWxsLAogICAgdmFsIGxhc3RFcnJvcjogU3RyaW5nPyA9IG51bGwKKQo=
+package com.bslsjdk.operit.integrations.http
+
+data class ExternalChatHttpState(
+    val isRunning: Boolean = false,
+    val port: Int? = null,
+    val lastError: String? = null
+)

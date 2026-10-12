@@ -1,1 +1,138 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmF1dG9nbG0KCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucmVtZW1iZXJTY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnZlcnRpY2FsU2Nyb2xsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdtb2RlbC5jb21wb3NlLnZpZXdNb2RlbAoKQENvbXBvc2FibGUKZnVuIEF1dG9HbG1Ub29sU2NyZWVuKAogICAgdmlld01vZGVsOiBBdXRvR2xtVmlld01vZGVsID0gdmlld01vZGVsKGZhY3RvcnkgPSBBdXRvR2xtVmlld01vZGVsRmFjdG9yeShMb2NhbENvbnRleHQuY3VycmVudCkpCikgewogICAgdmFsIHVpU3RhdGUgYnkgdmlld01vZGVsLnVpU3RhdGUuY29sbGVjdEFzU3RhdGUoKQogICAgdmFyIHRhc2sgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiIikgfQogICAgdmFyIHVzZVZpcnR1YWxTY3JlZW4gYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQoKICAgIEF1dG9HbG1Ub29sQ29udGVudCgKICAgICAgICB1aVN0YXRlID0gdWlTdGF0ZSwKICAgICAgICB0YXNrID0gdGFzaywKICAgICAgICB1c2VWaXJ0dWFsU2NyZWVuID0gdXNlVmlydHVhbFNjcmVlbiwKICAgICAgICBvblVzZVZpcnR1YWxTY3JlZW5DaGFuZ2UgPSB7IHVzZVZpcnR1YWxTY3JlZW4gPSBpdCB9LAogICAgICAgIG9uVGFza0NoYW5nZSA9IHsgdGFzayA9IGl0IH0sCiAgICAgICAgb25FeGVjdXRlID0geyB2aWV3TW9kZWwuZXhlY3V0ZVRhc2soaXQsIHVzZVZpcnR1YWxTY3JlZW4pIH0sCiAgICAgICAgb25DYW5jZWwgPSB7IHZpZXdNb2RlbC5jYW5jZWxUYXNrKCkgfQogICAgKQp9CgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBBdXRvR2xtVG9vbENvbnRlbnQoCiAgICB1aVN0YXRlOiBBdXRvR2xtVWlTdGF0ZSwKICAgIHRhc2s6IFN0cmluZywKICAgIHVzZVZpcnR1YWxTY3JlZW46IEJvb2xlYW4sCiAgICBvblVzZVZpcnR1YWxTY3JlZW5DaGFuZ2U6IChCb29sZWFuKSAtPiBVbml0LAogICAgb25UYXNrQ2hhbmdlOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25FeGVjdXRlOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25DYW5jZWw6ICgpIC0+IFVuaXQKKSB7CiAgICB2YWwgbG9nU2Nyb2xsU3RhdGUgPSByZW1lbWJlclNjcm9sbFN0YXRlKCkKCiAgICBDb2x1bW4oCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4U2l6ZSgpCiAgICApIHsKICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZygxNi5kcCkKICAgICAgICApIHsKICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICB2YWx1ZSA9IHRhc2ssCiAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0gb25UYXNrQ2hhbmdlLAogICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoIkVudGVyIFRhc2siLCBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCkgfSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDUKICAgICAgICAgICAgKQoKICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDguZHApKQoKICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LlNwYWNlQmV0d2VlbiwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgKQogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmF1dG9nbG1fdmlydHVhbF9zY3JlZW4pLAogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICBTd2l0Y2goCiAgICAgICAgICAgICAgICAgICAgY2hlY2tlZCA9IHVzZVZpcnR1YWxTY3JlZW4sCiAgICAgICAgICAgICAgICAgICAgb25DaGVja2VkQ2hhbmdlID0geyBvblVzZVZpcnR1YWxTY3JlZW5DaGFuZ2UoaXQpIH0sCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlZCA9ICF1aVN0YXRlLmlzTG9hZGluZwogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCgogICAgICAgICAgICBCdXR0b24oCiAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgIGlmICh1aVN0YXRlLmlzTG9hZGluZykgewogICAgICAgICAgICAgICAgICAgICAgICBvbkNhbmNlbCgpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgb25FeGVjdXRlKHRhc2spCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICBjb2xvcnMgPSBCdXR0b25EZWZhdWx0cy5idXR0b25Db2xvcnMoCiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBpZiAodWlTdGF0ZS5pc0xvYWRpbmcpIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IgZWxzZSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIGlmICh1aVN0YXRlLmlzTG9hZGluZykgIkNhbmNlbCIgZWxzZSAiRXhlY3V0ZSIsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBpZiAodWlTdGF0ZS5pc0xvYWRpbmcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vbkVycm9yCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblByaW1hcnkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgxNi5kcCkpCgogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgIkV4ZWN1dGlvbiBMb2ciLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZSwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTWVkaXVtCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICB9CgogICAgICAgIEJveCgKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAud2VpZ2h0KDFmKQogICAgICAgICAgICAgICAgLmJhY2tncm91bmQoTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudCkKICAgICAgICAgICAgICAgIC5wYWRkaW5nKDguZHApCiAgICAgICAgKSB7CiAgICAgICAgICAgIExhdW5jaGVkRWZmZWN0KHVpU3RhdGUubG9nKSB7CiAgICAgICAgICAgICAgICBsb2dTY3JvbGxTdGF0ZS5hbmltYXRlU2Nyb2xsVG8obG9nU2Nyb2xsU3RhdGUubWF4VmFsdWUpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICB0ZXh0ID0gdWlTdGF0ZS5sb2csCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAgICAgICAgIC52ZXJ0aWNhbFNjcm9sbChsb2dTY3JvbGxTdGF0ZSkKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.toolbox.screens.autoglm
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import com.bslsjdk.operit.R
+import androidx.compose.ui.unit.dp
+import androidx.lifecycle.viewmodel.compose.viewModel
+
+@Composable
+fun AutoGlmToolScreen(
+    viewModel: AutoGlmViewModel = viewModel(factory = AutoGlmViewModelFactory(LocalContext.current))
+) {
+    val uiState by viewModel.uiState.collectAsState()
+    var task by remember { mutableStateOf("") }
+    var useVirtualScreen by remember { mutableStateOf(false) }
+
+    AutoGlmToolContent(
+        uiState = uiState,
+        task = task,
+        useVirtualScreen = useVirtualScreen,
+        onUseVirtualScreenChange = { useVirtualScreen = it },
+        onTaskChange = { task = it },
+        onExecute = { viewModel.executeTask(it, useVirtualScreen) },
+        onCancel = { viewModel.cancelTask() }
+    )
+}
+
+@Composable
+private fun AutoGlmToolContent(
+    uiState: AutoGlmUiState,
+    task: String,
+    useVirtualScreen: Boolean,
+    onUseVirtualScreenChange: (Boolean) -> Unit,
+    onTaskChange: (String) -> Unit,
+    onExecute: (String) -> Unit,
+    onCancel: () -> Unit
+) {
+    val logScrollState = rememberScrollState()
+
+    Column(
+        modifier = Modifier.fillMaxSize()
+    ) {
+        Column(
+            modifier = Modifier.padding(16.dp)
+        ) {
+            OutlinedTextField(
+                value = task,
+                onValueChange = onTaskChange,
+                label = { Text("Enter Task", color = MaterialTheme.colorScheme.onSurfaceVariant) },
+                modifier = Modifier.fillMaxWidth(),
+                maxLines = 5
+            )
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            )
+            {
+                Text(
+                    stringResource(R.string.autoglm_virtual_screen),
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+
+                Switch(
+                    checked = useVirtualScreen,
+                    onCheckedChange = { onUseVirtualScreenChange(it) },
+                    enabled = !uiState.isLoading
+                )
+            }
+
+            Spacer(modifier = Modifier.height(8.dp))
+
+            Button(
+                onClick = {
+                    if (uiState.isLoading) {
+                        onCancel()
+                    } else {
+                        onExecute(task)
+                    }
+                },
+                modifier = Modifier.fillMaxWidth(),
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = if (uiState.isLoading) MaterialTheme.colorScheme.error else MaterialTheme.colorScheme.primary
+                )
+            ) {
+                Text(
+                    if (uiState.isLoading) "Cancel" else "Execute",
+                    color = if (uiState.isLoading) {
+                        MaterialTheme.colorScheme.onError
+                    } else {
+                        MaterialTheme.colorScheme.onPrimary
+                    }
+                )
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Text(
+                "Execution Log",
+                color = MaterialTheme.colorScheme.onSurface,
+                style = MaterialTheme.typography.titleMedium
+            )
+
+            Spacer(modifier = Modifier.height(8.dp))
+        }
+
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .weight(1f)
+                .background(MaterialTheme.colorScheme.surfaceVariant)
+                .padding(8.dp)
+        ) {
+            LaunchedEffect(uiState.log) {
+                logScrollState.animateScrollTo(logScrollState.maxValue)
+            }
+
+            Text(
+                text = uiState.log,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier
+                    .fillMaxSize()
+                    .verticalScroll(logScrollState)
+            )
+        }
+    }
+}

@@ -1,1 +1,412 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC50ZXN0LmNvcmUuYXBwLkFwcGxpY2F0aW9uUHJvdmlkZXIKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkJlZm9yZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAppbXBvcnQgamF2YS5sYW5nLnJlZmxlY3QuTWV0aG9kCgpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgRmlsZUJpbmRpbmdTZXJ2aWNlVGVzdCB7CgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgZmlsZUJpbmRpbmdTZXJ2aWNlOiBGaWxlQmluZGluZ1NlcnZpY2UKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIGFwcGx5TGluZUJhc2VkUGF0Y2hNZXRob2Q6IE1ldGhvZAoKICAgIEBCZWZvcmUKICAgIGZ1biBzZXRVcCgpIHsKICAgICAgICB2YWwgY29udGV4dCA9IEFwcGxpY2F0aW9uUHJvdmlkZXIuZ2V0QXBwbGljYXRpb25Db250ZXh0PENvbnRleHQ+KCkKICAgICAgICBmaWxlQmluZGluZ1NlcnZpY2UgPSBGaWxlQmluZGluZ1NlcnZpY2UoY29udGV4dCkKCiAgICAgICAgLy8gVXNlIHJlZmxlY3Rpb24gdG8gbWFrZSB0aGUgcHJpdmF0ZSBtZXRob2QgYWNjZXNzaWJsZSBmb3IgdGVzdGluZwogICAgICAgIGFwcGx5TGluZUJhc2VkUGF0Y2hNZXRob2QgPSBGaWxlQmluZGluZ1NlcnZpY2U6OmNsYXNzLmphdmEuZ2V0RGVjbGFyZWRNZXRob2QoCiAgICAgICAgICAgICJhcHBseUxpbmVCYXNlZFBhdGNoIiwKICAgICAgICAgICAgU3RyaW5nOjpjbGFzcy5qYXZhLAogICAgICAgICAgICBTdHJpbmc6OmNsYXNzLmphdmEKICAgICAgICApLmFwcGx5IHsKICAgICAgICAgICAgaXNBY2Nlc3NpYmxlID0gdHJ1ZQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBpbnZva2VBcHBseUxpbmVCYXNlZFBhdGNoKG9yaWdpbmFsQ29udGVudDogU3RyaW5nLCBwYXRjaDogU3RyaW5nKTogUGFpcjxCb29sZWFuLCBTdHJpbmc+IHsKICAgICAgICBAU3VwcHJlc3MoIlVOQ0hFQ0tFRF9DQVNUIikKICAgICAgICByZXR1cm4gYXBwbHlMaW5lQmFzZWRQYXRjaE1ldGhvZC5pbnZva2UoZmlsZUJpbmRpbmdTZXJ2aWNlLCBvcmlnaW5hbENvbnRlbnQsIHBhdGNoKSBhcyBQYWlyPEJvb2xlYW4sIFN0cmluZz4KICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RDb21wbGV4TWl4ZWRPcGVyYXRpb25zX1Nob3VsZEFwcGx5Q29ycmVjdGx5KCkgewogICAgICAgIC8vIE9yaWdpbmFsIGZpbGUgY29udGVudCAoMTMgbGluZXMpCiAgICAgICAgdmFsIG9yaWdpbmFsQ29udGVudCA9ICIiImZ1biBtYWluKCkgewogICAgcHJpbnRsbigiSGVsbG8sIE9yaWdpbmFsIFdvcmxkISIpCiAgICAvLyBUaGlzIGlzIGEgY29tbWVudAogICAgdmFsIHggPSAxMAogICAgdmFsIHkgPSAyMAogICAgdmFsIHogPSB4ICsgeQogICAgcHJpbnRsbigiVGhlIHN1bSBpcyAiICsgeikKICAgIC8vIEFub3RoZXIgY29tbWVudAogICAgZm9yIChpIGluIDEuLjUpIHsKICAgICAgICBwcmludGxuKGkpCiAgICB9CiAgICBwcmludGxuKCJFbmQgb2YgcHJvZ3JhbSIpCn0iIiIKCiAgICAgICAgLy8gUGF0Y2ggd2l0aCA0IG9wZXJhdGlvbnM6IERFTEVURSAobGluZXMgOS0xMSksIFJFUExBQ0UgKGxpbmVzIDQtNiksIElOU0VSVCAoYWZ0ZXIgbGluZSAxKSwgSU5TRVJUIChhZnRlciBsaW5lIDEzKQogICAgICAgIHZhbCBwYXRjaCA9ICIiIgovLyBbU1RBUlQtREVMRVRFOjktMTFdCi8vIFtFTkQtREVMRVRFXQovLyBbU1RBUlQtUkVQTEFDRTo0LTZdCiAgICB2YWwgeCA9IDEwMAogICAgdmFsIHkgPSAyMDAKICAgIHZhbCBzdW0gPSB4ICsgeQovLyBbRU5ELVJFUExBQ0VdCi8vIFtTVEFSVC1JTlNFUlQ6YWZ0ZXJfbGluZT0xXQogICAgLy8gVGhpcyBpcyBhbiBpbnNlcnRlZCBsaW5lCiAgICB2YWwgaW5zZXJ0ZWRWYXIgPSAiSSdtIG5ldyBoZXJlISIKLy8gW0VORC1JTlNFUlRdCi8vIFtTVEFSVC1JTlNFUlQ6YWZ0ZXJfbGluZT0xM10KLy8gVGhpcyBpcyB0aGUgZmluYWwgbGluZS4KLy8gW0VORC1JTlNFUlRdCiIiIi50cmltKCkKCiAgICAgICAgLy8gRXhwZWN0ZWQgcmVzdWx0IGFmdGVyIGFwcGx5aW5nIGFsbCBvcGVyYXRpb25zCiAgICAgICAgdmFsIGV4cGVjdGVkQ29udGVudCA9ICIiImZ1biBtYWluKCkgewogICAgLy8gVGhpcyBpcyBhbiBpbnNlcnRlZCBsaW5lCiAgICB2YWwgaW5zZXJ0ZWRWYXIgPSAiSSdtIG5ldyBoZXJlISIKICAgIHByaW50bG4oIkhlbGxvLCBPcmlnaW5hbCBXb3JsZCEiKQogICAgLy8gVGhpcyBpcyBhIGNvbW1lbnQKICAgIHZhbCB4ID0gMTAwCiAgICB2YWwgeSA9IDIwMAogICAgdmFsIHN1bSA9IHggKyB5CiAgICBwcmludGxuKCJUaGUgc3VtIGlzICIgKyB6KQogICAgLy8gQW5vdGhlciBjb21tZW50CiAgICBwcmludGxuKCJFbmQgb2YgcHJvZ3JhbSIpCn0KLy8gVGhpcyBpcyB0aGUgZmluYWwgbGluZS4iIiIKCiAgICAgICAgdmFsIChzdWNjZXNzLCByZXN1bHRDb250ZW50KSA9IGludm9rZUFwcGx5TGluZUJhc2VkUGF0Y2gob3JpZ2luYWxDb250ZW50LCBwYXRjaCkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRydWUsIHN1Y2Nlc3MpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGV4cGVjdGVkQ29udGVudCwgcmVzdWx0Q29udGVudCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RCb3VuZGFyeU9wZXJhdGlvbnNfQXRTdGFydEFuZEVuZE9mRmlsZSgpIHsKICAgICAgICB2YWwgb3JpZ2luYWxDb250ZW50ID0gIiIiCmxpbmUgMQpsaW5lIDIKbGluZSAzCmxpbmUgNApsaW5lIDUKICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIC8vIFRlc3Qgb3BlcmF0aW9ucyBhdCB0aGUgYm91bmRhcmllczoKICAgICAgICAvLyAxLiBSZXBsYWNlIHRoZSB2ZXJ5IGZpcnN0IGxpbmUuCiAgICAgICAgLy8gMi4gSW5zZXJ0IGFmdGVyIHRoZSB2ZXJ5IGxhc3QgbGluZS4KICAgICAgICAvLyAzLiBEZWxldGUgdGhlIGxhc3QgdHdvIGxpbmVzIG9mIHRoZSAqb3JpZ2luYWwqIGNvbnRlbnQuCiAgICAgICAgdmFsIHBhdGNoID0gIiIiCi8vIFtTVEFSVC1SRVBMQUNFOjEtMV0KRmlyc3QgbGluZSByZXBsYWNlZAovLyBbRU5ELVJFUExBQ0VdCi8vIFtTVEFSVC1JTlNFUlQ6YWZ0ZXJfbGluZT01XQpBcHBlbmRlZCBhZnRlciBsYXN0IGxpbmUKLy8gW0VORC1JTlNFUlRdCi8vIFtTVEFSVC1ERUxFVEU6NC01XQovLyBbRU5ELURFTEVURV0KICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIC8vIEV4ZWN1dGlvbiBpcyBib3R0b20tdG8tdG9wOgogICAgICAgIC8vIDEuIERFTEVURSA0LTUgLT4gY29udGVudCBpcyBub3cgbGluZXMgMSwgMiwgMy4gKDMgbGluZXMgdG90YWwpCiAgICAgICAgLy8gMi4gSU5TRVJUIGFmdGVyX2xpbmU9NSAtPiB0aGlzIGxpbmUgbm8gbG9uZ2VyIGV4aXN0cy4gVGhlIGxvZ2ljIHNob3VsZCBoYW5kbGUgdGhpcyBieSBjbGFtcGluZyB0byB0aGUgbmV3IGVuZCBvZiBmaWxlLgogICAgICAgIC8vICAgIFNvIGl0IHdpbGwgaW5zZXJ0IGFmdGVyIGxpbmUgMy4KICAgICAgICAvLyAzLiBSRVBMQUNFIDEtMSAtPiBSZXBsYWNlcyB0aGUgZmlyc3QgbGluZS4KICAgICAgICB2YWwgZXhwZWN0ZWRDb250ZW50ID0gIiIiCkZpcnN0IGxpbmUgcmVwbGFjZWQKbGluZSAyCmxpbmUgMwpBcHBlbmRlZCBhZnRlciBsYXN0IGxpbmUKICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCAoc3VjY2VzcywgcmVzdWx0Q29udGVudCkgPSBpbnZva2VBcHBseUxpbmVCYXNlZFBhdGNoKG9yaWdpbmFsQ29udGVudCwgcGF0Y2gpCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRydWUsIHN1Y2Nlc3MpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGV4cGVjdGVkQ29udGVudCwgcmVzdWx0Q29udGVudC50cmltKCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0SW5zZXJ0T25seU9wZXJhdGlvbnNfSW5NaWRkbGVPZkZpbGUoKSB7CiAgICAgICAgdmFsIG9yaWdpbmFsQ29udGVudCA9ICIiIgpMaW5lIDEKTGluZSAyCkxpbmUgNQpMaW5lIDYKICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCBwYXRjaCA9ICIiIgovLyBbU1RBUlQtSU5TRVJUOmFmdGVyX2xpbmU9Ml0KTGluZSAzCkxpbmUgNAovLyBbRU5ELUlOU0VSVF0KICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCBleHBlY3RlZENvbnRlbnQgPSAiIiIKTGluZSAxCkxpbmUgMgpMaW5lIDMKTGluZSA0CkxpbmUgNQpMaW5lIDYKICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCAoc3VjY2VzcywgcmVzdWx0Q29udGVudCkgPSBpbnZva2VBcHBseUxpbmVCYXNlZFBhdGNoKG9yaWdpbmFsQ29udGVudCwgcGF0Y2gpCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRydWUsIHN1Y2Nlc3MpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGV4cGVjdGVkQ29udGVudCwgcmVzdWx0Q29udGVudC50cmltKCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0RnV6enlSZXBsYWNlX1Nob3VsZE5vdEVhcmx5U3RvcE9uV3JvbmdXaW5kb3dTaXplKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIG9yaWdpbmFsQ29udGVudCA9ICIiIgo8ZGl2IGlkPVwiY2F0RGV0YWlsXCIgY2xhc3M9XCJjYXQtZGV0YWlsXCI+CiAgICA8cD7ngrnlh7vkuIrpnaLnmoTlsI/njKvlm77niYfmn6XnnIvor6bnu4bkv6Hmga88L3A+CjwvZGl2Pgo8L2Rpdj4KPC9kaXY+CjwvZGl2Pgo8L2Rpdj4KPHNjcmlwdCBzcmM9XCJqcy9hcHAuanNcIj48L3NjcmlwdD4KICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCBvbGRDb250ZW50ID0gIiIiCjxkaXYgaWQ9XCJjYXREZXRhaWxcIiBjbGFzcz1cImNhdC1kZXRhaWxcIj4KICAgIDxwPueCueWHu+S4iumdoueahOWwj+eMq+WbvueJh+afpeeci+ivpue7huS/oeaBrzwvcD4KPC9kaXY+CjwvZGl2Pgo8L2Rpdj4KPC9kaXY+CjwvZGl2PgogICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgdmFsIG5ld0NvbnRlbnQgPSAiIiIKPGRpdiBpZD1cImNhdERldGFpbFwiIGNsYXNzPVwiY2F0LWRldGFpbFwiPgogICAgPHA+54K55Ye75LiK6Z2i55qE5bCP54yr5Zu+54mH5p+l55yL6K+m57uG5L+h5oGvPC9wPgo8L2Rpdj4KPC9kaXY+CiAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICB2YWwgKHJlc3VsdENvbnRlbnQsIF8pID0gZmlsZUJpbmRpbmdTZXJ2aWNlLnByb2Nlc3NGaWxlQmluZGluZ09wZXJhdGlvbnMoCiAgICAgICAgICAgIG9yaWdpbmFsQ29udGVudCA9IG9yaWdpbmFsQ29udGVudCwKICAgICAgICAgICAgb3BlcmF0aW9ucyA9CiAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgRmlsZUJpbmRpbmdTZXJ2aWNlLlN0cnVjdHVyZWRFZGl0T3BlcmF0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICBhY3Rpb24gPSBGaWxlQmluZGluZ1NlcnZpY2UuU3RydWN0dXJlZEVkaXRBY3Rpb24uUkVQTEFDRSwKICAgICAgICAgICAgICAgICAgICAgICAgb2xkQ29udGVudCA9IG9sZENvbnRlbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIG5ld0NvbnRlbnQgPSBuZXdDb250ZW50CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICkKCiAgICAgICAgdmFsIGV4cGVjdGVkQ29udGVudCA9ICIiIgo8ZGl2IGlkPVwiY2F0RGV0YWlsXCIgY2xhc3M9XCJjYXQtZGV0YWlsXCI+CiAgICA8cD7ngrnlh7vkuIrpnaLnmoTlsI/njKvlm77niYfmn6XnnIvor6bnu4bkv6Hmga88L3A+CjwvZGl2Pgo8L2Rpdj4KPHNjcmlwdCBzcmM9XCJqcy9hcHAuanNcIj48L3NjcmlwdD4KICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIGFzc2VydEVxdWFscyhleHBlY3RlZENvbnRlbnQsIHJlc3VsdENvbnRlbnQudHJpbSgpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdEhpZ2hDb21wbGV4aXR5TWl4ZWRPcGVyYXRpb25zX1Nob3VsZFN1Y2NlZWQoKSB7CiAgICAgICAgdmFsIG9yaWdpbmFsQ29udGVudCA9ICIiIgpmdW4gbWFpbigpIHsKICAgIHByaW50bG4oIkhlbGxvLCBXb3JsZCEiKQoKICAgIHZhbCB4ID0gMTAKICAgIHZhbCB5ID0gMjAKCiAgICBpZiAoeCA+IDUpIHsKICAgICAgICBwcmludGxuKCJ4IGlzIGdyZWF0ZXIgdGhhbiA1IikKICAgIH0gZWxzZSB7CiAgICAgICAgcHJpbnRsbigieCBpcyBub3QgZ3JlYXRlciB0aGFuIDUiKQogICAgfQoKICAgIGZvciAoaSBpbiAxLi41KSB7CiAgICAgICAgcHJpbnRsbigibG9vcCBpdGVyYXRpb24gJHsiJCJ9aSIpCiAgICB9CgogICAgLy8gVGhpcyBpcyBhIGNvbW1lbnQKICAgIHZhbCB6ID0geCArIHkKICAgIHByaW50bG4oIlJlc3VsdDogJHsiJCJ9eiIpCn0KICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCBwYXRjaCA9ICIiIgovLyBbU1RBUlQtUkVQTEFDRToyLTJdCiAgICBwcmludGxuKCJIZWxsbywgQ29tcGxleCBXb3JsZCEiKQovLyBbRU5ELVJFUExBQ0VdCi8vIFtTVEFSVC1JTlNFUlQ6YWZ0ZXJfbGluZT02XQogICAgLy8gQSBuZXcgY2hlY2sKICAgIGlmICh5ID09IDIwKSB7CiAgICAgICAgcHJpbnRsbigieSBpcyAyMCEiKQogICAgfQovLyBbRU5ELUlOU0VSVF0KLy8gW1NUQVJULURFTEVURTo3LTExXQovLyBbRU5ELURFTEVURV0KLy8gW1NUQVJULVJFUExBQ0U6MTMtMTVdCiAgICAvLyBOZXcgbG9vcAogICAgKDEuLjMpLmZvckVhY2ggewogICAgICAgIHByaW50bG4oIk5ldyBpdGVyYXRpb24gJHsiJCJ9aXQiKQogICAgfQovLyBbRU5ELVJFUExBQ0VdCi8vIFtTVEFSVC1JTlNFUlQ6YWZ0ZXJfbGluZT0xOF0KICAgIHZhbCBhID0geiAqIDIKICAgIHByaW50bG4oIk5ldyB2YWx1ZTogJHsiJCJ9YSIpCi8vIFtFTkQtSU5TRVJUXQogICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgLy8gTWFudWFsbHkgZGVyaXZlZCBleHBlY3RlZCBjb250ZW50IGJ5IGFwcGx5aW5nIHBhdGNoZXMgZnJvbSBib3R0b20gdG8gdG9wLgogICAgICAgIHZhbCBleHBlY3RlZENvbnRlbnQgPSAiIiIKZnVuIG1haW4oKSB7CiAgICBwcmludGxuKCJIZWxsbywgQ29tcGxleCBXb3JsZCEiKQoKICAgIHZhbCB4ID0gMTAKICAgIHZhbCB5ID0gMjAKCiAgICAvLyBBIG5ldyBjaGVjawogICAgaWYgKHkgPT0gMjApIHsKICAgICAgICBwcmludGxuKCJ5IGlzIDIwISIpCiAgICB9CgogICAgLy8gTmV3IGxvb3AKICAgICgxLi4zKS5mb3JFYWNoIHsKICAgICAgICBwcmludGxuKCJOZXcgaXRlcmF0aW9uICR7IiQifWl0IikKICAgIH0KCiAgICAvLyBUaGlzIGlzIGEgY29tbWVudAogICAgdmFsIHogPSB4ICsgeQogICAgdmFsIGEgPSB6ICogMgogICAgcHJpbnRsbigiTmV3IHZhbHVlOiAkeyIkIn1hIikKICAgIHByaW50bG4oIlJlc3VsdDogJHsiJCJ9eiIpCn0KICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCAoc3VjY2VzcywgcmVzdWx0Q29udGVudCkgPSBpbnZva2VBcHBseUxpbmVCYXNlZFBhdGNoKG9yaWdpbmFsQ29udGVudCwgcGF0Y2gpCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRydWUsIHN1Y2Nlc3MpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGV4cGVjdGVkQ29udGVudCwgcmVzdWx0Q29udGVudC50cmltKCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0RXh0cmVtZUNvbXBsZXhpdHlfVG9ydHVyZVRlc3QoKSB7CiAgICAgICAgdmFsIG9yaWdpbmFsQ29udGVudCA9ICIiIgovLyBGaWxlOiBDYWxjdWxhdG9yLmt0CnBhY2thZ2UgY29tLmV4YW1wbGUubWF0aAoKY2xhc3MgQ2FsY3VsYXRvciB7CiAgICBwcml2YXRlIHZhciBsYXN0UmVzdWx0OiBEb3VibGUgPSAwLjAKCiAgICAvKioKICAgICAqIEFkZHMgdHdvIGludGVnZXJzIGFuZCByZXR1cm5zIHRoZSBzdW0uCiAgICAgKiBBbHNvIHVwZGF0ZXMgdGhlIGxhc3RSZXN1bHQuCiAgICAgKi8KICAgIGZ1biBhZGQoYTogSW50LCBiOiBJbnQpOiBJbnQgewogICAgICAgIHZhbCByZXN1bHQgPSBhICsgYgogICAgICAgIGxhc3RSZXN1bHQgPSByZXN1bHQudG9Eb3VibGUoKQogICAgICAgIHJldHVybiByZXN1bHQKICAgIH0KCiAgICAvKgogICAgICogVGhpcyBpcyBhIGJsb2NrIGNvbW1lbnQKICAgICAqIGZvciB0aGUgc3VidHJhY3QgZnVuY3Rpb24uCiAgICAgKi8KICAgIGZ1biBzdWJ0cmFjdChhOiBJbnQsIGI6IEludCk6IEludCB7CiAgICAgICAgLy8gU2ltcGxlIHN1YnRyYWN0aW9uCiAgICAgICAgdmFsIHJlc3VsdCA9IGEgLSBiCiAgICAgICAgbGFzdFJlc3VsdCA9IHJlc3VsdC50b0RvdWJsZSgpCiAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgfQoKICAgIGZ1biBtdWx0aXBseShhOiBJbnQsIGI6IEludCk6IEludCB7CiAgICAgICAgcmV0dXJuIGEgKiBiCiAgICB9CgogICAgZnVuIGdldExhc3RSZXN1bHQoKTogRG91YmxlIHsKICAgICAgICByZXR1cm4gbGFzdFJlc3VsdAogICAgfQp9CiAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICAvLyBUaGlzIGlzIGEgdG9ydHVyZSB0ZXN0LiBJdCBjb21iaW5lcyBtdWx0aXBsZSBjb21wbGV4IG9wZXJhdGlvbnMKICAgICAgICAvLyB0byB0ZXN0IHRoZSByb2J1c3RuZXNzIG9mIHRoZSBwYXRjaGluZyBsb2dpYyBpbiBhIGNsZWFuLCBsb2dpY2FsIHdheS4KICAgICAgICB2YWwgcGF0Y2ggPSAiIiIKLy8gW1NUQVJULVJFUExBQ0U6MS00XQovLyBGaWxlOiBBZHZhbmNlZENhbGN1bGF0b3Iua3QKcGFja2FnZSBjb20uZXhhbXBsZS5hZHZfbWF0aAoKY2xhc3MgQWR2YW5jZWRDYWxjdWxhdG9yIHsKLy8gW0VORC1SRVBMQUNFXQovLyBbU1RBUlQtSU5TRVJUOmFmdGVyX2xpbmU9MTNdCiAgICAgICAgLy8gQSBuZXcgY29tbWVudCBsaW5lCi8vIFtFTkQtSU5TRVJUXQovLyBbU1RBUlQtUkVQTEFDRToyMS0yNl0KICAgIGZ1biBzdWJ0cmFjdChhOiBJbnQsIGI6IEludCk6IEludCB7CiAgICAgICAgLy8gQSBtb3JlIGNvbXBsZXggc3VidHJhY3Rpb24KICAgICAgICB2YWwgcmVzdWx0ID0gYSAtIGIgLSAxCiAgICAgICAgbGFzdFJlc3VsdCA9IHJlc3VsdC50b0RvdWJsZSgpCiAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgfQovLyBbRU5ELVJFUExBQ0VdCi8vIFtTVEFSVC1ERUxFVEU6MjgtMzFdCi8vIFtFTkQtREVMRVRFXQovLyBbU1RBUlQtSU5TRVJUOmFmdGVyX2xpbmU9MzRdCiAgICBmdW4gcG93ZXIoYmFzZTogRG91YmxlLCBleHA6IERvdWJsZSk6IERvdWJsZSB7CiAgICAgICAgcmV0dXJuIE1hdGgucG93KGJhc2UsIGV4cCkKICAgIH0KLy8gW0VORC1JTlNFUlRdCiAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICAvLyBNYW51YWxseSBkZXJpdmVkIGV4cGVjdGVkIGNvbnRlbnQgYnkgYXBwbHlpbmcgdGhlIGNsZWFuIHBhdGNoIGZyb20gYm90dG9tIHRvIHRvcC4KICAgICAgICB2YWwgZXhwZWN0ZWRDb250ZW50ID0gIiIiCi8vIEZpbGU6IEFkdmFuY2VkQ2FsY3VsYXRvci5rdApwYWNrYWdlIGNvbS5leGFtcGxlLmFkdl9tYXRoCgpjbGFzcyBBZHZhbmNlZENhbGN1bGF0b3IgewogICAgcHJpdmF0ZSB2YXIgbGFzdFJlc3VsdDogRG91YmxlID0gMC4wCgogICAgLyoqCiAgICAgKiBBZGRzIHR3byBpbnRlZ2VycyBhbmQgcmV0dXJucyB0aGUgc3VtLgogICAgICogQWxzbyB1cGRhdGVzIHRoZSBsYXN0UmVzdWx0LgogICAgICovCiAgICBmdW4gYWRkKGE6IEludCwgYjogSW50KTogSW50IHsKICAgICAgICB2YWwgcmVzdWx0ID0gYSArIGIKICAgICAgICBsYXN0UmVzdWx0ID0gcmVzdWx0LnRvRG91YmxlKCkKICAgICAgICAvLyBBIG5ldyBjb21tZW50IGxpbmUKICAgICAgICByZXR1cm4gcmVzdWx0CiAgICB9CgogICAgLyoKICAgICAqIFRoaXMgaXMgYSBibG9jayBjb21tZW50CiAgICAgKiBmb3IgdGhlIHN1YnRyYWN0IGZ1bmN0aW9uLgogICAgICovCiAgICBmdW4gc3VidHJhY3QoYTogSW50LCBiOiBJbnQpOiBJbnQgewogICAgICAgIC8vIEEgbW9yZSBjb21wbGV4IHN1YnRyYWN0aW9uCiAgICAgICAgdmFsIHJlc3VsdCA9IGEgLSBiIC0gMQogICAgICAgIGxhc3RSZXN1bHQgPSByZXN1bHQudG9Eb3VibGUoKQogICAgICAgIHJldHVybiByZXN1bHQKICAgIH0KCiAgICBmdW4gZ2V0TGFzdFJlc3VsdCgpOiBEb3VibGUgewogICAgICAgIHJldHVybiBsYXN0UmVzdWx0CiAgICB9CiAgICBmdW4gcG93ZXIoYmFzZTogRG91YmxlLCBleHA6IERvdWJsZSk6IERvdWJsZSB7CiAgICAgICAgcmV0dXJuIE1hdGgucG93KGJhc2UsIGV4cCkKICAgIH0KfQogICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgdmFsIChzdWNjZXNzLCByZXN1bHRDb250ZW50KSA9IGludm9rZUFwcGx5TGluZUJhc2VkUGF0Y2gob3JpZ2luYWxDb250ZW50LCBwYXRjaCkKICAgICAgICBhc3NlcnRFcXVhbHModHJ1ZSwgc3VjY2VzcykKICAgICAgICBhc3NlcnRFcXVhbHMoZXhwZWN0ZWRDb250ZW50LCByZXN1bHRDb250ZW50LnRyaW0oKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.enhance
+
+import android.content.Context
+import androidx.test.core.app.ApplicationProvider
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.assertEquals
+import org.junit.Before
+import org.junit.Test
+import org.junit.runner.RunWith
+import java.lang.reflect.Method
+
+@RunWith(AndroidJUnit4::class)
+class FileBindingServiceTest {
+
+    private lateinit var fileBindingService: FileBindingService
+    private lateinit var applyLineBasedPatchMethod: Method
+
+    @Before
+    fun setUp() {
+        val context = ApplicationProvider.getApplicationContext<Context>()
+        fileBindingService = FileBindingService(context)
+
+        // Use reflection to make the private method accessible for testing
+        applyLineBasedPatchMethod = FileBindingService::class.java.getDeclaredMethod(
+            "applyLineBasedPatch",
+            String::class.java,
+            String::class.java
+        ).apply {
+            isAccessible = true
+        }
+    }
+
+    private fun invokeApplyLineBasedPatch(originalContent: String, patch: String): Pair<Boolean, String> {
+        @Suppress("UNCHECKED_CAST")
+        return applyLineBasedPatchMethod.invoke(fileBindingService, originalContent, patch) as Pair<Boolean, String>
+    }
+
+    @Test
+    fun testComplexMixedOperations_ShouldApplyCorrectly() {
+        // Original file content (13 lines)
+        val originalContent = """fun main() {
+    println("Hello, Original World!")
+    // This is a comment
+    val x = 10
+    val y = 20
+    val z = x + y
+    println("The sum is " + z)
+    // Another comment
+    for (i in 1..5) {
+        println(i)
+    }
+    println("End of program")
+}"""
+
+        // Patch with 4 operations: DELETE (lines 9-11), REPLACE (lines 4-6), INSERT (after line 1), INSERT (after line 13)
+        val patch = """
+// [START-DELETE:9-11]
+// [END-DELETE]
+// [START-REPLACE:4-6]
+    val x = 100
+    val y = 200
+    val sum = x + y
+// [END-REPLACE]
+// [START-INSERT:after_line=1]
+    // This is an inserted line
+    val insertedVar = "I'm new here!"
+// [END-INSERT]
+// [START-INSERT:after_line=13]
+// This is the final line.
+// [END-INSERT]
+""".trim()
+
+        // Expected result after applying all operations
+        val expectedContent = """fun main() {
+    // This is an inserted line
+    val insertedVar = "I'm new here!"
+    println("Hello, Original World!")
+    // This is a comment
+    val x = 100
+    val y = 200
+    val sum = x + y
+    println("The sum is " + z)
+    // Another comment
+    println("End of program")
+}
+// This is the final line."""
+
+        val (success, resultContent) = invokeApplyLineBasedPatch(originalContent, patch)
+
+        assertEquals(true, success)
+        assertEquals(expectedContent, resultContent)
+    }
+
+    @Test
+    fun testBoundaryOperations_AtStartAndEndOfFile() {
+        val originalContent = """
+line 1
+line 2
+line 3
+line 4
+line 5
+        """.trimIndent()
+
+        // Test operations at the boundaries:
+        // 1. Replace the very first line.
+        // 2. Insert after the very last line.
+        // 3. Delete the last two lines of the *original* content.
+        val patch = """
+// [START-REPLACE:1-1]
+First line replaced
+// [END-REPLACE]
+// [START-INSERT:after_line=5]
+Appended after last line
+// [END-INSERT]
+// [START-DELETE:4-5]
+// [END-DELETE]
+        """.trimIndent()
+
+        // Execution is bottom-to-top:
+        // 1. DELETE 4-5 -> content is now lines 1, 2, 3. (3 lines total)
+        // 2. INSERT after_line=5 -> this line no longer exists. The logic should handle this by clamping to the new end of file.
+        //    So it will insert after line 3.
+        // 3. REPLACE 1-1 -> Replaces the first line.
+        val expectedContent = """
+First line replaced
+line 2
+line 3
+Appended after last line
+        """.trimIndent()
+
+        val (success, resultContent) = invokeApplyLineBasedPatch(originalContent, patch)
+        assertEquals(true, success)
+        assertEquals(expectedContent, resultContent.trim())
+    }
+
+    @Test
+    fun testInsertOnlyOperations_InMiddleOfFile() {
+        val originalContent = """
+Line 1
+Line 2
+Line 5
+Line 6
+        """.trimIndent()
+
+        val patch = """
+// [START-INSERT:after_line=2]
+Line 3
+Line 4
+// [END-INSERT]
+        """.trimIndent()
+
+        val expectedContent = """
+Line 1
+Line 2
+Line 3
+Line 4
+Line 5
+Line 6
+        """.trimIndent()
+
+        val (success, resultContent) = invokeApplyLineBasedPatch(originalContent, patch)
+        assertEquals(true, success)
+        assertEquals(expectedContent, resultContent.trim())
+    }
+
+    @Test
+    fun testFuzzyReplace_ShouldNotEarlyStopOnWrongWindowSize() = runBlocking {
+        val originalContent = """
+<div id=\"catDetail\" class=\"cat-detail\">
+    <p>点击上面的小猫图片查看详细信息</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src=\"js/app.js\"></script>
+        """.trimIndent()
+
+        val oldContent = """
+<div id=\"catDetail\" class=\"cat-detail\">
+    <p>点击上面的小猫图片查看详细信息</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+        """.trimIndent()
+
+        val newContent = """
+<div id=\"catDetail\" class=\"cat-detail\">
+    <p>点击上面的小猫图片查看详细信息</p>
+</div>
+</div>
+        """.trimIndent()
+
+        val (resultContent, _) = fileBindingService.processFileBindingOperations(
+            originalContent = originalContent,
+            operations =
+                listOf(
+                    FileBindingService.StructuredEditOperation(
+                        action = FileBindingService.StructuredEditAction.REPLACE,
+                        oldContent = oldContent,
+                        newContent = newContent
+                    )
+                )
+        )
+
+        val expectedContent = """
+<div id=\"catDetail\" class=\"cat-detail\">
+    <p>点击上面的小猫图片查看详细信息</p>
+</div>
+</div>
+<script src=\"js/app.js\"></script>
+        """.trimIndent()
+
+        assertEquals(expectedContent, resultContent.trim())
+    }
+
+    @Test
+    fun testHighComplexityMixedOperations_ShouldSucceed() {
+        val originalContent = """
+fun main() {
+    println("Hello, World!")
+
+    val x = 10
+    val y = 20
+
+    if (x > 5) {
+        println("x is greater than 5")
+    } else {
+        println("x is not greater than 5")
+    }
+
+    for (i in 1..5) {
+        println("loop iteration ${"$"}i")
+    }
+
+    // This is a comment
+    val z = x + y
+    println("Result: ${"$"}z")
+}
+        """.trimIndent()
+
+        val patch = """
+// [START-REPLACE:2-2]
+    println("Hello, Complex World!")
+// [END-REPLACE]
+// [START-INSERT:after_line=6]
+    // A new check
+    if (y == 20) {
+        println("y is 20!")
+    }
+// [END-INSERT]
+// [START-DELETE:7-11]
+// [END-DELETE]
+// [START-REPLACE:13-15]
+    // New loop
+    (1..3).forEach {
+        println("New iteration ${"$"}it")
+    }
+// [END-REPLACE]
+// [START-INSERT:after_line=18]
+    val a = z * 2
+    println("New value: ${"$"}a")
+// [END-INSERT]
+        """.trimIndent()
+
+        // Manually derived expected content by applying patches from bottom to top.
+        val expectedContent = """
+fun main() {
+    println("Hello, Complex World!")
+
+    val x = 10
+    val y = 20
+
+    // A new check
+    if (y == 20) {
+        println("y is 20!")
+    }
+
+    // New loop
+    (1..3).forEach {
+        println("New iteration ${"$"}it")
+    }
+
+    // This is a comment
+    val z = x + y
+    val a = z * 2
+    println("New value: ${"$"}a")
+    println("Result: ${"$"}z")
+}
+        """.trimIndent()
+
+        val (success, resultContent) = invokeApplyLineBasedPatch(originalContent, patch)
+        assertEquals(true, success)
+        assertEquals(expectedContent, resultContent.trim())
+    }
+
+    @Test
+    fun testExtremeComplexity_TortureTest() {
+        val originalContent = """
+// File: Calculator.kt
+package com.example.math
+
+class Calculator {
+    private var lastResult: Double = 0.0
+
+    /**
+     * Adds two integers and returns the sum.
+     * Also updates the lastResult.
+     */
+    fun add(a: Int, b: Int): Int {
+        val result = a + b
+        lastResult = result.toDouble()
+        return result
+    }
+
+    /*
+     * This is a block comment
+     * for the subtract function.
+     */
+    fun subtract(a: Int, b: Int): Int {
+        // Simple subtraction
+        val result = a - b
+        lastResult = result.toDouble()
+        return result
+    }
+
+    fun multiply(a: Int, b: Int): Int {
+        return a * b
+    }
+
+    fun getLastResult(): Double {
+        return lastResult
+    }
+}
+        """.trimIndent()
+
+        // This is a torture test. It combines multiple complex operations
+        // to test the robustness of the patching logic in a clean, logical way.
+        val patch = """
+// [START-REPLACE:1-4]
+// File: AdvancedCalculator.kt
+package com.example.adv_math
+
+class AdvancedCalculator {
+// [END-REPLACE]
+// [START-INSERT:after_line=13]
+        // A new comment line
+// [END-INSERT]
+// [START-REPLACE:21-26]
+    fun subtract(a: Int, b: Int): Int {
+        // A more complex subtraction
+        val result = a - b - 1
+        lastResult = result.toDouble()
+        return result
+    }
+// [END-REPLACE]
+// [START-DELETE:28-31]
+// [END-DELETE]
+// [START-INSERT:after_line=34]
+    fun power(base: Double, exp: Double): Double {
+        return Math.pow(base, exp)
+    }
+// [END-INSERT]
+        """.trimIndent()
+
+        // Manually derived expected content by applying the clean patch from bottom to top.
+        val expectedContent = """
+// File: AdvancedCalculator.kt
+package com.example.adv_math
+
+class AdvancedCalculator {
+    private var lastResult: Double = 0.0
+
+    /**
+     * Adds two integers and returns the sum.
+     * Also updates the lastResult.
+     */
+    fun add(a: Int, b: Int): Int {
+        val result = a + b
+        lastResult = result.toDouble()
+        // A new comment line
+        return result
+    }
+
+    /*
+     * This is a block comment
+     * for the subtract function.
+     */
+    fun subtract(a: Int, b: Int): Int {
+        // A more complex subtraction
+        val result = a - b - 1
+        lastResult = result.toDouble()
+        return result
+    }
+
+    fun getLastResult(): Double {
+        return lastResult
+    }
+    fun power(base: Double, exp: Double): Double {
+        return Math.pow(base, exp)
+    }
+}
+        """.trimIndent()
+
+        val (success, resultContent) = invokeApplyLineBasedPatch(originalContent, patch)
+        assertEquals(true, success)
+        assertEquals(expectedContent, resultContent.trim())
+    }
+}

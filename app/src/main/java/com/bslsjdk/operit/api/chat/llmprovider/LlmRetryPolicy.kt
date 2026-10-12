@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmludGVybmFsIG9iamVjdCBMbG1SZXRyeVBvbGljeSB7CiAgICBjb25zdCB2YWwgTUFYX1JFVFJZX0FUVEVNUFRTID0gNQogICAgcHJpdmF0ZSBjb25zdCB2YWwgUkVUUllfQkFTRV9ERUxBWV9NUyA9IDFfMDAwTAogICAgcHJpdmF0ZSBjb25zdCB2YWwgUkVUUllfTUFYX0RFTEFZX01TID0gMTZfMDAwTAoKICAgIGZ1biBuZXh0RGVsYXlNcyhyZXRyeUF0dGVtcHQ6IEludCk6IExvbmcgewogICAgICAgIHZhbCBub3JtYWxpemVkQXR0ZW1wdCA9IHJldHJ5QXR0ZW1wdC5jb2VyY2VBdExlYXN0KDEpCiAgICAgICAgdmFsIGV4cG9uZW50ID0gKG5vcm1hbGl6ZWRBdHRlbXB0IC0gMSkuY29lcmNlQXRNb3N0KDQpCiAgICAgICAgcmV0dXJuIChSRVRSWV9CQVNFX0RFTEFZX01TICogKDFMIHNobCBleHBvbmVudCkpLmNvZXJjZUF0TW9zdChSRVRSWV9NQVhfREVMQVlfTVMpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+internal object LlmRetryPolicy {
+    const val MAX_RETRY_ATTEMPTS = 5
+    private const val RETRY_BASE_DELAY_MS = 1_000L
+    private const val RETRY_MAX_DELAY_MS = 16_000L
+
+    fun nextDelayMs(retryAttempt: Int): Long {
+        val normalizedAttempt = retryAttempt.coerceAtLeast(1)
+        val exponent = (normalizedAttempt - 1).coerceAtMost(4)
+        return (RETRY_BASE_DELAY_MS * (1L shl exponent)).coerceAtMost(RETRY_MAX_DELAY_MS)
+    }
+}

@@ -1,1 +1,107 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5LU2VyaWFsaXplcgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlc2NyaXB0b3JzLlByaW1pdGl2ZUtpbmQKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5kZXNjcmlwdG9ycy5QcmltaXRpdmVTZXJpYWxEZXNjcmlwdG9yCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uZGVzY3JpcHRvcnMuU2VyaWFsRGVzY3JpcHRvcgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmVuY29kaW5nLkRlY29kZXIKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGluZy5FbmNvZGVyCmltcG9ydCBqYXZhLnV0aWwuRGF0ZQoKLyoqCiAqIERhdGUg57G75Z6L55qE5bqP5YiX5YyW5ZmoCiAqIOWwhiBEYXRlIOW6j+WIl+WMluS4uuaXtumXtOaIs++8iExvbmfvvIkKICovCm9iamVjdCBEYXRlU2VyaWFsaXplciA6IEtTZXJpYWxpemVyPERhdGU+IHsKICAgIG92ZXJyaWRlIHZhbCBkZXNjcmlwdG9yOiBTZXJpYWxEZXNjcmlwdG9yID0gCiAgICAgICAgUHJpbWl0aXZlU2VyaWFsRGVzY3JpcHRvcigiRGF0ZSIsIFByaW1pdGl2ZUtpbmQuTE9ORykKCiAgICBvdmVycmlkZSBmdW4gc2VyaWFsaXplKGVuY29kZXI6IEVuY29kZXIsIHZhbHVlOiBEYXRlKSB7CiAgICAgICAgZW5jb2Rlci5lbmNvZGVMb25nKHZhbHVlLnRpbWUpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGRlc2VyaWFsaXplKGRlY29kZXI6IERlY29kZXIpOiBEYXRlIHsKICAgICAgICByZXR1cm4gRGF0ZShkZWNvZGVyLmRlY29kZUxvbmcoKSkKICAgIH0KfQoKLyoqCiAqIOWPr+W6j+WIl+WMlueahOiusOW/huaVsOaNrgogKiDnlKjkuo7lr7zlh7rlr7zlhaXml7bnmoTmlbDmja7kvKDovpMKICovCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBTZXJpYWxpemFibGVNZW1vcnkoCiAgICB2YWwgdXVpZDogU3RyaW5nLAogICAgdmFsIHRpdGxlOiBTdHJpbmcsCiAgICB2YWwgY29udGVudDogU3RyaW5nLAogICAgdmFsIGNvbnRlbnRUeXBlOiBTdHJpbmcsCiAgICB2YWwgc291cmNlOiBTdHJpbmcsCiAgICB2YWwgY3JlZGliaWxpdHk6IEZsb2F0LAogICAgdmFsIGltcG9ydGFuY2U6IEZsb2F0LAogICAgdmFsIGZvbGRlclBhdGg6IFN0cmluZz8sCiAgICBAU2VyaWFsaXphYmxlKHdpdGggPSBEYXRlU2VyaWFsaXplcjo6Y2xhc3MpCiAgICB2YWwgY3JlYXRlZEF0OiBEYXRlLAogICAgQFNlcmlhbGl6YWJsZSh3aXRoID0gRGF0ZVNlcmlhbGl6ZXI6OmNsYXNzKQogICAgdmFsIHVwZGF0ZWRBdDogRGF0ZSwKICAgIHZhbCB0YWdOYW1lczogTGlzdDxTdHJpbmc+IC8vIOagh+etvuWQjeensOWIl+ihqAopCgovKioKICog5Y+v5bqP5YiX5YyW55qE6ZO+5o6l5YWz57O7CiAqIOS9v+eUqCBVVUlEIOadpeW8leeUqOiusOW/hgogKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFNlcmlhbGl6YWJsZUxpbmsoCiAgICB2YWwgc291cmNlVXVpZDogU3RyaW5nLAogICAgdmFsIHRhcmdldFV1aWQ6IFN0cmluZywKICAgIHZhbCB0eXBlOiBTdHJpbmcsCiAgICB2YWwgd2VpZ2h0OiBGbG9hdCwKICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nCikKCi8qKgogKiDorrDlv4blr7zlh7rmlbDmja7lrrnlmagKICog5YyF5ZCr5a6M5pW055qE6K6w5b+G5bqT5pWw5o2uCiAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgTWVtb3J5RXhwb3J0RGF0YSgKICAgIHZhbCBtZW1vcmllczogTGlzdDxTZXJpYWxpemFibGVNZW1vcnk+LAogICAgdmFsIGxpbmtzOiBMaXN0PFNlcmlhbGl6YWJsZUxpbms+LAogICAgQFNlcmlhbGl6YWJsZSh3aXRoID0gRGF0ZVNlcmlhbGl6ZXI6OmNsYXNzKQogICAgdmFsIGV4cG9ydERhdGU6IERhdGUsCiAgICB2YWwgdmVyc2lvbjogU3RyaW5nID0gIjEuMCIgLy8g5pWw5o2u5qC85byP54mI5pysCikKCi8qKgogKiDlr7zlhaXnrZbnlaXmnprkuL4KICog5a6a5LmJ6YGH5Yiw6YeN5aSN6K6w5b+G5pe255qE5aSE55CG5pa55byPCiAqLwplbnVtIGNsYXNzIEltcG9ydFN0cmF0ZWd5IHsKICAgIC8qKgogICAgICog6Lez6L+H5bey5a2Y5Zyo55qE6K6w5b+GCiAgICAgKi8KICAgIFNLSVAsCiAgICAKICAgIC8qKgogICAgICog5pu05paw5bey5a2Y5Zyo55qE6K6w5b+GCiAgICAgKi8KICAgIFVQREFURSwKICAgIAogICAgLyoqCiAgICAgKiDliJvlu7rmlrDnmoTorrDlv4bvvIjljbPkvb9VVUlE55u45ZCM5Lmf5Yib5bu65paw6K6w5b2V77yJCiAgICAgKi8KICAgIENSRUFURV9ORVcKfQoKLyoqCiAqIOiusOW/huWvvOWFpee7k+aenAogKiDorrDlvZXlr7zlhaXmk43kvZznmoTnu5/orqHkv6Hmga8KICovCmRhdGEgY2xhc3MgTWVtb3J5SW1wb3J0UmVzdWx0KAogICAgdmFsIG5ld01lbW9yaWVzOiBJbnQgPSAwLCAgICAgIC8vIOaWsOWIm+W7uueahOiusOW/huaVsAogICAgdmFsIHVwZGF0ZWRNZW1vcmllczogSW50ID0gMCwgIC8vIOabtOaWsOeahOiusOW/huaVsAogICAgdmFsIHNraXBwZWRNZW1vcmllczogSW50ID0gMCwgIC8vIOi3s+i/h+eahOiusOW/huaVsAogICAgdmFsIG5ld0xpbmtzOiBJbnQgPSAwICAgICAgICAgIC8vIOaWsOWIm+W7uueahOmTvuaOpeaVsAopCgo=
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.KSerializer
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.descriptors.PrimitiveKind
+import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
+import kotlinx.serialization.descriptors.SerialDescriptor
+import kotlinx.serialization.encoding.Decoder
+import kotlinx.serialization.encoding.Encoder
+import java.util.Date
+
+/**
+ * Date 类型的序列化器
+ * 将 Date 序列化为时间戳（Long）
+ */
+object DateSerializer : KSerializer<Date> {
+    override val descriptor: SerialDescriptor = 
+        PrimitiveSerialDescriptor("Date", PrimitiveKind.LONG)
+
+    override fun serialize(encoder: Encoder, value: Date) {
+        encoder.encodeLong(value.time)
+    }
+
+    override fun deserialize(decoder: Decoder): Date {
+        return Date(decoder.decodeLong())
+    }
+}
+
+/**
+ * 可序列化的记忆数据
+ * 用于导出导入时的数据传输
+ */
+@Serializable
+data class SerializableMemory(
+    val uuid: String,
+    val title: String,
+    val content: String,
+    val contentType: String,
+    val source: String,
+    val credibility: Float,
+    val importance: Float,
+    val folderPath: String?,
+    @Serializable(with = DateSerializer::class)
+    val createdAt: Date,
+    @Serializable(with = DateSerializer::class)
+    val updatedAt: Date,
+    val tagNames: List<String> // 标签名称列表
+)
+
+/**
+ * 可序列化的链接关系
+ * 使用 UUID 来引用记忆
+ */
+@Serializable
+data class SerializableLink(
+    val sourceUuid: String,
+    val targetUuid: String,
+    val type: String,
+    val weight: Float,
+    val description: String
+)
+
+/**
+ * 记忆导出数据容器
+ * 包含完整的记忆库数据
+ */
+@Serializable
+data class MemoryExportData(
+    val memories: List<SerializableMemory>,
+    val links: List<SerializableLink>,
+    @Serializable(with = DateSerializer::class)
+    val exportDate: Date,
+    val version: String = "1.0" // 数据格式版本
+)
+
+/**
+ * 导入策略枚举
+ * 定义遇到重复记忆时的处理方式
+ */
+enum class ImportStrategy {
+    /**
+     * 跳过已存在的记忆
+     */
+    SKIP,
+    
+    /**
+     * 更新已存在的记忆
+     */
+    UPDATE,
+    
+    /**
+     * 创建新的记忆（即使UUID相同也创建新记录）
+     */
+    CREATE_NEW
+}
+
+/**
+ * 记忆导入结果
+ * 记录导入操作的统计信息
+ */
+data class MemoryImportResult(
+    val newMemories: Int = 0,      // 新创建的记忆数
+    val updatedMemories: Int = 0,  // 更新的记忆数
+    val skippedMemories: Int = 0,  // 跳过的记忆数
+    val newLinks: Int = 0          // 新创建的链接数
+)
+

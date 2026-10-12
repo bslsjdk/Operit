@@ -1,1 +1,120 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLnRhc2tlcgoKaW1wb3J0IGFuZHJvaWQuYXBwLkFjdGl2aXR5CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5vcy5CdW5kbGUKaW1wb3J0IGNvbS5qb2FvbWdjZC50YXNrZXJwbHVnaW5saWJyYXJ5LmNvbmZpZy5UYXNrZXJQbHVnaW5Db25maWcKaW1wb3J0IGNvbS5qb2FvbWdjZC50YXNrZXJwbHVnaW5saWJyYXJ5LmNvbmZpZy5UYXNrZXJQbHVnaW5Db25maWdIZWxwZXJDb25kaXRpb25Ob0lucHV0CmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5jb25maWcuVGFza2VyUGx1Z2luQ29uZmlnTm9JbnB1dAppbXBvcnQgY29tLmpvYW9tZ2NkLnRhc2tlcnBsdWdpbmxpYnJhcnkuZXh0ZW5zaW9ucy5yZXF1ZXN0UXVlcnkKaW1wb3J0IGNvbS5qb2FvbWdjZC50YXNrZXJwbHVnaW5saWJyYXJ5LmlucHV0LlRhc2tlcklucHV0CmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5pbnB1dC5UYXNrZXJJbnB1dEZpZWxkCmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5pbnB1dC5UYXNrZXJJbnB1dFJvb3QKaW1wb3J0IGNvbS5qb2FvbWdjZC50YXNrZXJwbHVnaW5saWJyYXJ5LmNvbmRpdGlvbi5UYXNrZXJQbHVnaW5SdW5uZXJDb25kaXRpb25Ob0lucHV0CmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5vdXRwdXQuVGFza2VyT3V0cHV0T2JqZWN0CmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5vdXRwdXQuVGFza2VyT3V0cHV0VmFyaWFibGUKaW1wb3J0IGNvbS5qb2FvbWdjZC50YXNrZXJwbHVnaW5saWJyYXJ5LnJ1bm5lci5UYXNrZXJQbHVnaW5SZXN1bHRDb25kaXRpb24KaW1wb3J0IGNvbS5qb2FvbWdjZC50YXNrZXJwbHVnaW5saWJyYXJ5LnJ1bm5lci5UYXNrZXJQbHVnaW5SZXN1bHRDb25kaXRpb25TYXRpc2ZpZWQKCkBUYXNrZXJJbnB1dFJvb3QKY2xhc3MgQUlBZ2VudEFjdGlvblVwZGF0ZSBASnZtT3ZlcmxvYWRzIGNvbnN0cnVjdG9yKAogICAgQGZpZWxkOlRhc2tlcklucHV0RmllbGQoInRhc2tfdHlwZSIpCiAgICB2YXIgdGFza1R5cGU6IFN0cmluZz8gPSBudWxsLAoKICAgIEBmaWVsZDpUYXNrZXJJbnB1dEZpZWxkKCJhcmcxIikKICAgIHZhciBhcmcxOiBTdHJpbmc/ID0gbnVsbCwKCiAgICBAZmllbGQ6VGFza2VySW5wdXRGaWVsZCgiYXJnMiIpCiAgICB2YXIgYXJnMjogU3RyaW5nPyA9IG51bGwsCgogICAgQGZpZWxkOlRhc2tlcklucHV0RmllbGQoImFyZzMiKQogICAgdmFyIGFyZzM6IFN0cmluZz8gPSBudWxsLAoKICAgIEBmaWVsZDpUYXNrZXJJbnB1dEZpZWxkKCJhcmc0IikKICAgIHZhciBhcmc0OiBTdHJpbmc/ID0gbnVsbCwKCiAgICBAZmllbGQ6VGFza2VySW5wdXRGaWVsZCgiYXJnNSIpCiAgICB2YXIgYXJnNTogU3RyaW5nPyA9IG51bGwsCgogICAgQGZpZWxkOlRhc2tlcklucHV0RmllbGQoImFyZ3NfanNvbiIpCiAgICB2YXIgYXJnc0pzb246IFN0cmluZz8gPSBudWxsCikKCkBUYXNrZXJPdXRwdXRPYmplY3QKY2xhc3MgQUlBZ2VudEFjdGlvbk91dHB1dCgKICAgIHByaXZhdGUgdmFsIHRhc2tUeXBlOiBTdHJpbmc/LAogICAgcHJpdmF0ZSB2YWwgYXJnMTogU3RyaW5nPywKICAgIHByaXZhdGUgdmFsIGFyZzI6IFN0cmluZz8sCiAgICBwcml2YXRlIHZhbCBhcmczOiBTdHJpbmc/LAogICAgcHJpdmF0ZSB2YWwgYXJnNDogU3RyaW5nPywKICAgIHByaXZhdGUgdmFsIGFyZzU6IFN0cmluZz8sCiAgICBwcml2YXRlIHZhbCBhcmdzSnNvbjogU3RyaW5nPwopIHsKICAgIEBnZXQ6VGFza2VyT3V0cHV0VmFyaWFibGUoInRhc2tfdHlwZSIpCiAgICB2YWwgb3V0VGFza1R5cGUgZ2V0KCkgPSB0YXNrVHlwZSA/OiAiIgogICAgQGdldDpUYXNrZXJPdXRwdXRWYXJpYWJsZSgiYXJnMSIpCiAgICB2YWwgb3V0QXJnMSBnZXQoKSA9IGFyZzEgPzogIiIKICAgIEBnZXQ6VGFza2VyT3V0cHV0VmFyaWFibGUoImFyZzIiKQogICAgdmFsIG91dEFyZzIgZ2V0KCkgPSBhcmcyID86ICIiCiAgICBAZ2V0OlRhc2tlck91dHB1dFZhcmlhYmxlKCJhcmczIikKICAgIHZhbCBvdXRBcmczIGdldCgpID0gYXJnMyA/OiAiIgogICAgQGdldDpUYXNrZXJPdXRwdXRWYXJpYWJsZSgiYXJnNCIpCiAgICB2YWwgb3V0QXJnNCBnZXQoKSA9IGFyZzQgPzogIiIKICAgIEBnZXQ6VGFza2VyT3V0cHV0VmFyaWFibGUoImFyZzUiKQogICAgdmFsIG91dEFyZzUgZ2V0KCkgPSBhcmc1ID86ICIiCiAgICBAZ2V0OlRhc2tlck91dHB1dFZhcmlhYmxlKCJhcmdzX2pzb24iKQogICAgdmFsIG91dEFyZ3NKc29uIGdldCgpID0gYXJnc0pzb24gPzogIiIKfQoKY2xhc3MgQUlBZ2VudEFjdGlvbkV2ZW50UnVubmVyIDoKICAgIFRhc2tlclBsdWdpblJ1bm5lckNvbmRpdGlvbk5vSW5wdXQ8QUlBZ2VudEFjdGlvbk91dHB1dCwgQUlBZ2VudEFjdGlvblVwZGF0ZT4oKSB7CiAgICBvdmVycmlkZSB2YWwgaXNFdmVudDogQm9vbGVhbiBnZXQoKSA9IHRydWUKICAgIG92ZXJyaWRlIGZ1biBnZXRTYXRpc2ZpZWRDb25kaXRpb24oCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICBpbnB1dDogVGFza2VySW5wdXQ8VW5pdD4sCiAgICAgICAgdXBkYXRlOiBBSUFnZW50QWN0aW9uVXBkYXRlPwogICAgKTogVGFza2VyUGx1Z2luUmVzdWx0Q29uZGl0aW9uPEFJQWdlbnRBY3Rpb25PdXRwdXQ+IHsKICAgICAgICB2YWwgdSA9IHVwZGF0ZSA/OiBBSUFnZW50QWN0aW9uVXBkYXRlKCkKICAgICAgICB2YWwgb3V0cHV0ID0gQUlBZ2VudEFjdGlvbk91dHB1dCgKICAgICAgICAgICAgdS50YXNrVHlwZSwKICAgICAgICAgICAgdS5hcmcxLAogICAgICAgICAgICB1LmFyZzIsCiAgICAgICAgICAgIHUuYXJnMywKICAgICAgICAgICAgdS5hcmc0LAogICAgICAgICAgICB1LmFyZzUsCiAgICAgICAgICAgIHUuYXJnc0pzb24KICAgICAgICApCiAgICAgICAgcmV0dXJuIFRhc2tlclBsdWdpblJlc3VsdENvbmRpdGlvblNhdGlzZmllZChjb250ZXh0LCBvdXRwdXQpCiAgICB9Cn0KCmNsYXNzIEFJQWdlbnRBY3Rpb25IZWxwZXIoY29uZmlnOiBUYXNrZXJQbHVnaW5Db25maWc8VW5pdD4pIDoKICAgIFRhc2tlclBsdWdpbkNvbmZpZ0hlbHBlckNvbmRpdGlvbk5vSW5wdXQ8QUlBZ2VudEFjdGlvbk91dHB1dCwgQUlBZ2VudEFjdGlvblVwZGF0ZSwgQUlBZ2VudEFjdGlvbkV2ZW50UnVubmVyPihjb25maWcpIHsKICAgIG92ZXJyaWRlIHZhbCBydW5uZXJDbGFzcyA9IEFJQWdlbnRBY3Rpb25FdmVudFJ1bm5lcjo6Y2xhc3MuamF2YQogICAgb3ZlcnJpZGUgdmFsIG91dHB1dENsYXNzID0gQUlBZ2VudEFjdGlvbk91dHB1dDo6Y2xhc3MuamF2YQogICAgb3ZlcnJpZGUgZnVuIGFkZFRvU3RyaW5nQmx1cmIoaW5wdXQ6IFRhc2tlcklucHV0PFVuaXQ+LCBibHVyYkJ1aWxkZXI6IFN0cmluZ0J1aWxkZXIpIHsKICAgICAgICBibHVyYkJ1aWxkZXIuYXBwZW5kKCJBSSBBZ2VudCBBY3Rpb24gRXZlbnQiKQogICAgfQp9CgpjbGFzcyBBY3Rpdml0eUNvbmZpZ0FJQWdlbnRBY3Rpb24gOiBBY3Rpdml0eSgpLCBUYXNrZXJQbHVnaW5Db25maWdOb0lucHV0IHsKICAgIG92ZXJyaWRlIHZhbCBjb250ZXh0IGdldCgpID0gYXBwbGljYXRpb25Db250ZXh0CgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSkKICAgICAgICBBSUFnZW50QWN0aW9uSGVscGVyKHRoaXMpLmZpbmlzaEZvclRhc2tlcigpCiAgICB9Cn0KCmZ1biBDb250ZXh0LnRyaWdnZXJBSUFnZW50QWN0aW9uKHRhc2tUeXBlOiBTdHJpbmcsIGFyZ3M6IE1hcDxTdHJpbmcsIFN0cmluZz8+ID0gZW1wdHlNYXAoKSkgewogICAgdmFsIHVwZGF0ZSA9IEFJQWdlbnRBY3Rpb25VcGRhdGUoCiAgICAgICAgdGFza1R5cGUgPSB0YXNrVHlwZSwKICAgICAgICBhcmcxID0gYXJnc1siYXJnMSJdLAogICAgICAgIGFyZzIgPSBhcmdzWyJhcmcyIl0sCiAgICAgICAgYXJnMyA9IGFyZ3NbImFyZzMiXSwKICAgICAgICBhcmc0ID0gYXJnc1siYXJnNCJdLAogICAgICAgIGFyZzUgPSBhcmdzWyJhcmc1Il0sCiAgICAgICAgYXJnc0pzb24gPSB0cnkgeyBjb20uZ29vZ2xlLmdzb24uR3NvbigpLnRvSnNvbihhcmdzKSB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsgbnVsbCB9CiAgICApCiAgICBBY3Rpdml0eUNvbmZpZ0FJQWdlbnRBY3Rpb246OmNsYXNzLmphdmEucmVxdWVzdFF1ZXJ5KHRoaXMsIHVwZGF0ZSkKfQo=
+package com.bslsjdk.operit.integrations.tasker
+
+import android.app.Activity
+import android.content.Context
+import android.os.Bundle
+import com.joaomgcd.taskerpluginlibrary.config.TaskerPluginConfig
+import com.joaomgcd.taskerpluginlibrary.config.TaskerPluginConfigHelperConditionNoInput
+import com.joaomgcd.taskerpluginlibrary.config.TaskerPluginConfigNoInput
+import com.joaomgcd.taskerpluginlibrary.extensions.requestQuery
+import com.joaomgcd.taskerpluginlibrary.input.TaskerInput
+import com.joaomgcd.taskerpluginlibrary.input.TaskerInputField
+import com.joaomgcd.taskerpluginlibrary.input.TaskerInputRoot
+import com.joaomgcd.taskerpluginlibrary.condition.TaskerPluginRunnerConditionNoInput
+import com.joaomgcd.taskerpluginlibrary.output.TaskerOutputObject
+import com.joaomgcd.taskerpluginlibrary.output.TaskerOutputVariable
+import com.joaomgcd.taskerpluginlibrary.runner.TaskerPluginResultCondition
+import com.joaomgcd.taskerpluginlibrary.runner.TaskerPluginResultConditionSatisfied
+
+@TaskerInputRoot
+class AIAgentActionUpdate @JvmOverloads constructor(
+    @field:TaskerInputField("task_type")
+    var taskType: String? = null,
+
+    @field:TaskerInputField("arg1")
+    var arg1: String? = null,
+
+    @field:TaskerInputField("arg2")
+    var arg2: String? = null,
+
+    @field:TaskerInputField("arg3")
+    var arg3: String? = null,
+
+    @field:TaskerInputField("arg4")
+    var arg4: String? = null,
+
+    @field:TaskerInputField("arg5")
+    var arg5: String? = null,
+
+    @field:TaskerInputField("args_json")
+    var argsJson: String? = null
+)
+
+@TaskerOutputObject
+class AIAgentActionOutput(
+    private val taskType: String?,
+    private val arg1: String?,
+    private val arg2: String?,
+    private val arg3: String?,
+    private val arg4: String?,
+    private val arg5: String?,
+    private val argsJson: String?
+) {
+    @get:TaskerOutputVariable("task_type")
+    val outTaskType get() = taskType ?: ""
+    @get:TaskerOutputVariable("arg1")
+    val outArg1 get() = arg1 ?: ""
+    @get:TaskerOutputVariable("arg2")
+    val outArg2 get() = arg2 ?: ""
+    @get:TaskerOutputVariable("arg3")
+    val outArg3 get() = arg3 ?: ""
+    @get:TaskerOutputVariable("arg4")
+    val outArg4 get() = arg4 ?: ""
+    @get:TaskerOutputVariable("arg5")
+    val outArg5 get() = arg5 ?: ""
+    @get:TaskerOutputVariable("args_json")
+    val outArgsJson get() = argsJson ?: ""
+}
+
+class AIAgentActionEventRunner :
+    TaskerPluginRunnerConditionNoInput<AIAgentActionOutput, AIAgentActionUpdate>() {
+    override val isEvent: Boolean get() = true
+    override fun getSatisfiedCondition(
+        context: Context,
+        input: TaskerInput<Unit>,
+        update: AIAgentActionUpdate?
+    ): TaskerPluginResultCondition<AIAgentActionOutput> {
+        val u = update ?: AIAgentActionUpdate()
+        val output = AIAgentActionOutput(
+            u.taskType,
+            u.arg1,
+            u.arg2,
+            u.arg3,
+            u.arg4,
+            u.arg5,
+            u.argsJson
+        )
+        return TaskerPluginResultConditionSatisfied(context, output)
+    }
+}
+
+class AIAgentActionHelper(config: TaskerPluginConfig<Unit>) :
+    TaskerPluginConfigHelperConditionNoInput<AIAgentActionOutput, AIAgentActionUpdate, AIAgentActionEventRunner>(config) {
+    override val runnerClass = AIAgentActionEventRunner::class.java
+    override val outputClass = AIAgentActionOutput::class.java
+    override fun addToStringBlurb(input: TaskerInput<Unit>, blurbBuilder: StringBuilder) {
+        blurbBuilder.append("AI Agent Action Event")
+    }
+}
+
+class ActivityConfigAIAgentAction : Activity(), TaskerPluginConfigNoInput {
+    override val context get() = applicationContext
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        AIAgentActionHelper(this).finishForTasker()
+    }
+}
+
+fun Context.triggerAIAgentAction(taskType: String, args: Map<String, String?> = emptyMap()) {
+    val update = AIAgentActionUpdate(
+        taskType = taskType,
+        arg1 = args["arg1"],
+        arg2 = args["arg2"],
+        arg3 = args["arg3"],
+        arg4 = args["arg4"],
+        arg5 = args["arg5"],
+        argsJson = try { com.google.gson.Gson().toJson(args) } catch (_: Exception) { null }
+    )
+    ActivityConfigAIAgentAction::class.java.requestQuery(this, update)
+}

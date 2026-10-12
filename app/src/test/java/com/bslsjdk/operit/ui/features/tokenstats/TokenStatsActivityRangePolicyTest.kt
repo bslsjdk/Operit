@@ -1,1 +1,82 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW5zdGF0cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuQWN0aXZpdHlWaWV3TW9kZQppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZQppbXBvcnQgamF2YS50aW1lLlpvbmVJZAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0TnVsbAppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIFRva2VuU3RhdHNBY3Rpdml0eVJhbmdlUG9saWN5VGVzdCB7CgogICAgcHJpdmF0ZSB2YWwgem9uZSA9IFpvbmVJZC5vZigiQXNpYS9TaGFuZ2hhaSIpCgogICAgQFRlc3QKICAgIGZ1biBgZGFpbHkgbW9kZSBzZWxlY3RzIHRoZSBhbmNob3IgZGF0ZWAoKSB7CiAgICAgICAgdmFsIHJhbmdlID0gYWN0aXZpdHlSYW5nZUZvck1vZGUoCiAgICAgICAgICAgIG1vZGUgPSBUb2tlbkFjdGl2aXR5Vmlld01vZGUuREFJTFksCiAgICAgICAgICAgIGFuY2hvckRhdGUgPSBMb2NhbERhdGUub2YoMjAyNiwgOCwgMjIpLAogICAgICAgICAgICBoaXN0b3J5U3RhcnREYXRlID0gbnVsbCwKICAgICAgICAgICAgem9uZSA9IHpvbmUsCiAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIGN1c3RvbVJhbmdlSW5jbHVzaXZlRW5kKAogICAgICAgICAgICAgICAgTG9jYWxEYXRlLm9mKDIwMjYsIDgsIDIyKSwKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCA4LCAyMiksCiAgICAgICAgICAgICAgICB6b25lLAogICAgICAgICAgICApLAogICAgICAgICAgICByYW5nZSwKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgd2Vla2x5IG1vZGUgc2VsZWN0cyB0aGUgZXhpc3RpbmcgU3VuZGF5LWZpcnN0IGNhbGVuZGFyIHdlZWtgKCkgewogICAgICAgIHZhbCByYW5nZSA9IGFjdGl2aXR5UmFuZ2VGb3JNb2RlKAogICAgICAgICAgICBtb2RlID0gVG9rZW5BY3Rpdml0eVZpZXdNb2RlLldFRUtMWSwKICAgICAgICAgICAgYW5jaG9yRGF0ZSA9IExvY2FsRGF0ZS5vZigyMDI2LCA4LCAyMiksCiAgICAgICAgICAgIGhpc3RvcnlTdGFydERhdGUgPSBudWxsLAogICAgICAgICAgICB6b25lID0gem9uZSwKICAgICAgICApCgogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgY3VzdG9tUmFuZ2VJbmNsdXNpdmVFbmQoCiAgICAgICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgOCwgMTYpLAogICAgICAgICAgICAgICAgTG9jYWxEYXRlLm9mKDIwMjYsIDgsIDIyKSwKICAgICAgICAgICAgICAgIHpvbmUsCiAgICAgICAgICAgICksCiAgICAgICAgICAgIHJhbmdlLAogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBjdW11bGF0aXZlIG1vZGUgc3RhcnRzIGF0IHRoZSBmaWx0ZXJlZCBoaXN0b3J5IHN0YXJ0IGFuZCBlbmRzIGF0IGFuY2hvcmAoKSB7CiAgICAgICAgdmFsIHJhbmdlID0gYWN0aXZpdHlSYW5nZUZvck1vZGUoCiAgICAgICAgICAgIG1vZGUgPSBUb2tlbkFjdGl2aXR5Vmlld01vZGUuQ1VNVUxBVElWRSwKICAgICAgICAgICAgYW5jaG9yRGF0ZSA9IExvY2FsRGF0ZS5vZigyMDI2LCA4LCAyMiksCiAgICAgICAgICAgIGhpc3RvcnlTdGFydERhdGUgPSBMb2NhbERhdGUub2YoMjAyNiwgOCwgMSksCiAgICAgICAgICAgIHpvbmUgPSB6b25lLAogICAgICAgICkKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBjdXN0b21SYW5nZUluY2x1c2l2ZUVuZCgKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCA4LCAxKSwKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCA4LCAyMiksCiAgICAgICAgICAgICAgICB6b25lLAogICAgICAgICAgICApLAogICAgICAgICAgICByYW5nZSwKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgY3VtdWxhdGl2ZSBtb2RlIGhhcyBubyByYW5nZSBiZWZvcmUgdGhlIGZpcnN0IHJlY29yZGVkIGRhdGVgKCkgewogICAgICAgIGFzc2VydE51bGwoCiAgICAgICAgICAgIGFjdGl2aXR5UmFuZ2VGb3JNb2RlKAogICAgICAgICAgICAgICAgbW9kZSA9IFRva2VuQWN0aXZpdHlWaWV3TW9kZS5DVU1VTEFUSVZFLAogICAgICAgICAgICAgICAgYW5jaG9yRGF0ZSA9IExvY2FsRGF0ZS5vZigyMDI2LCA4LCAxKSwKICAgICAgICAgICAgICAgIGhpc3RvcnlTdGFydERhdGUgPSBMb2NhbERhdGUub2YoMjAyNiwgOCwgMiksCiAgICAgICAgICAgICAgICB6b25lID0gem9uZSwKICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.tokenstats
+
+import com.bslsjdk.operit.data.stats.TokenActivityViewMode
+import java.time.LocalDate
+import java.time.ZoneId
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+
+class TokenStatsActivityRangePolicyTest {
+
+    private val zone = ZoneId.of("Asia/Shanghai")
+
+    @Test
+    fun `daily mode selects the anchor date`() {
+        val range = activityRangeForMode(
+            mode = TokenActivityViewMode.DAILY,
+            anchorDate = LocalDate.of(2026, 8, 22),
+            historyStartDate = null,
+            zone = zone,
+        )
+
+        assertEquals(
+            customRangeInclusiveEnd(
+                LocalDate.of(2026, 8, 22),
+                LocalDate.of(2026, 8, 22),
+                zone,
+            ),
+            range,
+        )
+    }
+
+    @Test
+    fun `weekly mode selects the existing Sunday-first calendar week`() {
+        val range = activityRangeForMode(
+            mode = TokenActivityViewMode.WEEKLY,
+            anchorDate = LocalDate.of(2026, 8, 22),
+            historyStartDate = null,
+            zone = zone,
+        )
+
+        assertEquals(
+            customRangeInclusiveEnd(
+                LocalDate.of(2026, 8, 16),
+                LocalDate.of(2026, 8, 22),
+                zone,
+            ),
+            range,
+        )
+    }
+
+    @Test
+    fun `cumulative mode starts at the filtered history start and ends at anchor`() {
+        val range = activityRangeForMode(
+            mode = TokenActivityViewMode.CUMULATIVE,
+            anchorDate = LocalDate.of(2026, 8, 22),
+            historyStartDate = LocalDate.of(2026, 8, 1),
+            zone = zone,
+        )
+
+        assertEquals(
+            customRangeInclusiveEnd(
+                LocalDate.of(2026, 8, 1),
+                LocalDate.of(2026, 8, 22),
+                zone,
+            ),
+            range,
+        )
+    }
+
+    @Test
+    fun `cumulative mode has no range before the first recorded date`() {
+        assertNull(
+            activityRangeForMode(
+                mode = TokenActivityViewMode.CUMULATIVE,
+                anchorDate = LocalDate.of(2026, 8, 1),
+                historyStartDate = LocalDate.of(2026, 8, 2),
+                zone = zone,
+            )
+        )
+    }
+}

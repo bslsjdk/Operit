@@ -1,1 +1,22 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBJbnRSYW5nZVNlcmlhbGl6ZXJBbmRyb2lkVGVzdCB7CgogICAgQFRlc3QgZnVuIHNpbmdsZVBvaW50UmFuZ2Vfcm91bmRUcmlwcygpIHsKICAgICAgICB2YWwgZW5jb2RlZCA9IEpzb24uZW5jb2RlVG9TdHJpbmcoSW50UmFuZ2VTZXJpYWxpemVyLCA1Li41KQogICAgICAgIHZhbCBkZWNvZGVkID0gSnNvbi5kZWNvZGVGcm9tU3RyaW5nKEludFJhbmdlU2VyaWFsaXplciwgZW5jb2RlZCkKICAgICAgICBhc3NlcnRFcXVhbHMoNS4uNSwgZGVjb2RlZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gZGVzY2VuZGluZ1ZhbHVlc19wcmVzZXJ2ZVN0b3JlZEJvdW5kcygpIHsKICAgICAgICB2YWwgZGVjb2RlZCA9IEpzb24uZGVjb2RlRnJvbVN0cmluZyhJbnRSYW5nZVNlcmlhbGl6ZXIsICJ7XCJzdGFydFwiOjUsXCJlbmRJbmNsdXNpdmVcIjozfSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKEludFJhbmdlKDUsIDMpLCBkZWNvZGVkKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import kotlinx.serialization.json.Json
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class IntRangeSerializerAndroidTest {
+
+    @Test fun singlePointRange_roundTrips() {
+        val encoded = Json.encodeToString(IntRangeSerializer, 5..5)
+        val decoded = Json.decodeFromString(IntRangeSerializer, encoded)
+        assertEquals(5..5, decoded)
+    }
+
+    @Test fun descendingValues_preserveStoredBounds() {
+        val decoded = Json.decodeFromString(IntRangeSerializer, "{\"start\":5,\"endInclusive\":3}")
+        assertEquals(IntRange(5, 3), decoded)
+    }
+}

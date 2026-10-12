@@ -1,1 +1,14 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPGFwcHdpZGdldC1wcm92aWRlciB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiCiAgICBhbmRyb2lkOm1pbldpZHRoPSIxMTBkcCIKICAgIGFuZHJvaWQ6bWluSGVpZ2h0PSIxMTBkcCIKICAgIGFuZHJvaWQ6dGFyZ2V0Q2VsbFdpZHRoPSIyIgogICAgYW5kcm9pZDp0YXJnZXRDZWxsSGVpZ2h0PSIyIgogICAgYW5kcm9pZDptaW5SZXNpemVXaWR0aD0iMTEwZHAiCiAgICBhbmRyb2lkOm1pblJlc2l6ZUhlaWdodD0iMTEwZHAiCiAgICBhbmRyb2lkOnVwZGF0ZVBlcmlvZE1pbGxpcz0iMCIKICAgIGFuZHJvaWQ6cmVzaXplTW9kZT0iaG9yaXpvbnRhbHx2ZXJ0aWNhbCIKICAgIGFuZHJvaWQ6d2lkZ2V0Q2F0ZWdvcnk9ImhvbWVfc2NyZWVuIgogICAgYW5kcm9pZDpkZXNjcmlwdGlvbj0iQHN0cmluZy90b29scGtnX3dpZGdldF9ob3N0X2Rlc2NyaXB0aW9uIgogICAgYW5kcm9pZDpwcmV2aWV3SW1hZ2U9IkBkcmF3YWJsZS90b29scGtnX3dpZGdldF9wcmV2aWV3IgogICAgYW5kcm9pZDpjb25maWd1cmU9ImNvbS5ic2xzamRrLm9wZXJpdC53aWRnZXQuVG9vbFBrZ0Rlc2t0b3BXaWRnZXRDb25maWdBY3Rpdml0eSIgLz4K
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="110dp"
+    android:minHeight="110dp"
+    android:targetCellWidth="2"
+    android:targetCellHeight="2"
+    android:minResizeWidth="110dp"
+    android:minResizeHeight="110dp"
+    android:updatePeriodMillis="0"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:description="@string/toolpkg_widget_host_description"
+    android:previewImage="@drawable/toolpkg_widget_preview"
+    android:configure="com.bslsjdk.operit.widget.ToolPkgDesktopWidgetConfigActivity" />

@@ -1,1 +1,129 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5zZWN1cml0eS5NZXNzYWdlRGlnZXN0CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMuTXV0ZXgKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLndpdGhMb2NrCgpvYmplY3QgU2tpbGxSZXBvWmlwUG9vbE1hbmFnZXIgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlNraWxsUmVwb1ppcFBvb2xNYW5hZ2VyIgoKICAgIHZhciBtYXhQb29sU2l6ZSA9IDYKICAgICAgICBzZXQodmFsdWUpIHsKICAgICAgICAgICAgaWYgKHZhbHVlID4gMCkgewogICAgICAgICAgICAgICAgZmllbGQgPSB2YWx1ZQogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5rGg5a2Q5aSn5bCP6ZmQ5Yi25bey5pu05paw5Li6OiAkdmFsdWUiKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIHByaXZhdGUgdmFyIGNhY2hlRGlyOiBGaWxlPyA9IG51bGwKCiAgICBwcml2YXRlIHZhbCBrZXlNdXRleGVzID0gQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBNdXRleD4oKQogICAgcHJpdmF0ZSB2YWwgZXZpY3Rpb25NdXRleCA9IE11dGV4KCkKCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gaW5pdGlhbGl6ZShiYXNlRGlyOiBGaWxlKSB7CiAgICAgICAgY2FjaGVEaXIgPSBPcGVyaXRQYXRocy5za2lsbFJlcG9aaXBQb29sRGlyKGJhc2VEaXIpCiAgICAgICAgaWYgKGNhY2hlRGlyPy5leGlzdHMoKSAhPSB0cnVlKSB7CiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgY2FjaGVEaXI/Lm1rZGlycygpIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2hhMjU2SGV4MTYodmFsdWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGJ5dGVzID0gTWVzc2FnZURpZ2VzdC5nZXRJbnN0YW5jZSgiU0hBLTI1NiIpCiAgICAgICAgICAgIC5kaWdlc3QodmFsdWUudG9CeXRlQXJyYXkoQ2hhcnNldHMuVVRGXzgpKQogICAgICAgIHZhbCBoZXhDaGFycyA9ICIwMTIzNDU2Nzg5YWJjZGVmIgogICAgICAgIHZhbCBoZXggPSBidWlsZFN0cmluZyhieXRlcy5zaXplICogMikgewogICAgICAgICAgICBmb3IgKGIgaW4gYnl0ZXMpIHsKICAgICAgICAgICAgICAgIHZhbCB2ID0gYi50b0ludCgpIGFuZCAweEZGCiAgICAgICAgICAgICAgICBhcHBlbmQoaGV4Q2hhcnNbdiB1c2hyIDRdKQogICAgICAgICAgICAgICAgYXBwZW5kKGhleENoYXJzW3YgYW5kIDB4MEZdKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBoZXgudGFrZSgxNikKICAgIH0KCiAgICBwcml2YXRlIGZ1biB6aXBGaWxlRm9yKGRpcjogRmlsZSwga2V5OiBTdHJpbmcpOiBGaWxlID0gRmlsZShkaXIsICJyZXBvXyR7c2hhMjU2SGV4MTYoa2V5KX0uemlwIikKCiAgICBwcml2YXRlIGZ1biBwYXJ0RmlsZUZvcihkaXI6IEZpbGUsIGtleTogU3RyaW5nKTogRmlsZSA9IEZpbGUoZGlyLCAicmVwb18ke3NoYTI1NkhleDE2KGtleSl9LmRvd25sb2FkIikKCiAgICBwcml2YXRlIGZ1biB0b3VjaChmaWxlOiBGaWxlKSB7CiAgICAgICAgcnVuQ2F0Y2hpbmcgeyBmaWxlLnNldExhc3RNb2RpZmllZChTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV2aWN0SWZOZWVkZWRMb2NrZWQoZGlyOiBGaWxlKSB7CiAgICAgICAgdmFsIGZpbGVzID0gZGlyLmxpc3RGaWxlcyB7IGYgLT4gZi5pc0ZpbGUgJiYgZi5uYW1lLmVuZHNXaXRoKCIuemlwIiwgaWdub3JlQ2FzZSA9IHRydWUpIH0gPzogcmV0dXJuCiAgICAgICAgaWYgKGZpbGVzLnNpemUgPD0gbWF4UG9vbFNpemUpIHJldHVybgoKICAgICAgICB2YWwgcmVtb3ZlQ291bnQgPSBmaWxlcy5zaXplIC0gbWF4UG9vbFNpemUKICAgICAgICB2YWwgc29ydGVkID0gZmlsZXMuc29ydGVkQnkgeyBpdC5sYXN0TW9kaWZpZWQoKSB9CiAgICAgICAgZm9yIChpIGluIDAgdW50aWwgcmVtb3ZlQ291bnQpIHsKICAgICAgICAgICAgdmFsIGYgPSBzb3J0ZWQuZ2V0T3JOdWxsKGkpID86IGNvbnRpbnVlCiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgZi5kZWxldGUoKSB9CiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGdldE9yRG93bmxvYWRaaXAoCiAgICAgICAga2V5OiBTdHJpbmcsCiAgICAgICAgZG93bmxvYWRUbzogc3VzcGVuZCAob3V0RmlsZTogRmlsZSkgLT4gQm9vbGVhbgogICAgKTogRmlsZT8gewogICAgICAgIHZhbCBkaXIgPSBjYWNoZURpcgogICAgICAgIGlmIChkaXIgPT0gbnVsbCkgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICLnvJPlrZjnm67lvZXmnKrliJ3lp4vljJbvvIzml6Dms5XlpI3nlKggWklQIikKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIHZhbCBtdXRleCA9IGtleU11dGV4ZXMuZ2V0T3JQdXQoa2V5KSB7IE11dGV4KCkgfQogICAgICAgIHJldHVybiBtdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIHZhbCB6aXBGaWxlID0gemlwRmlsZUZvcihkaXIsIGtleSkKICAgICAgICAgICAgaWYgKHppcEZpbGUuZXhpc3RzKCkgJiYgemlwRmlsZS5pc0ZpbGUgJiYgemlwRmlsZS5sZW5ndGgoKSA+IDBMKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJaSVAg5ZG95Lit57yT5a2YOiBrZXk9JGtleSwgZmlsZT0ke3ppcEZpbGUubmFtZX0sIGJ5dGVzPSR7emlwRmlsZS5sZW5ndGgoKX0iKQogICAgICAgICAgICAgICAgdG91Y2goemlwRmlsZSkKICAgICAgICAgICAgICAgIHJldHVybkB3aXRoTG9jayB6aXBGaWxlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlpJUCDnvJPlrZjmnKrlkb3kuK3vvIzlvIDlp4vkuIvovb06IGtleT0ka2V5IikKICAgICAgICAgICAgdmFsIHBhcnRGaWxlID0gcGFydEZpbGVGb3IoZGlyLCBrZXkpCiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgcGFydEZpbGUuZGVsZXRlKCkgfQoKICAgICAgICAgICAgdmFsIG9rID0gdHJ5IHsKICAgICAgICAgICAgICAgIGRvd25sb2FkVG8ocGFydEZpbGUpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5LiL6L295aSx6LSlOiBrZXk9JGtleSIsIGUpCiAgICAgICAgICAgICAgICBmYWxzZQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoIW9rIHx8ICFwYXJ0RmlsZS5leGlzdHMoKSB8fCBwYXJ0RmlsZS5sZW5ndGgoKSA8PSAwTCkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiWklQIOS4i+i9veWksei0peaIluaWh+S7tuS4uuepujoga2V5PSRrZXkiKQogICAgICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBwYXJ0RmlsZS5kZWxldGUoKSB9CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aExvY2sgbnVsbAogICAgICAgICAgICB9CgogICAgICAgICAgICBydW5DYXRjaGluZyB7IGlmICh6aXBGaWxlLmV4aXN0cygpKSB6aXBGaWxlLmRlbGV0ZSgpIH0KCiAgICAgICAgICAgIHZhbCByZW5hbWVkID0gcnVuQ2F0Y2hpbmcgeyBwYXJ0RmlsZS5yZW5hbWVUbyh6aXBGaWxlKSB9LmdldE9yTnVsbCgpID09IHRydWUKICAgICAgICAgICAgaWYgKCFyZW5hbWVkKSB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHBhcnRGaWxlLmNvcHlUbyh6aXBGaWxlLCBvdmVyd3JpdGUgPSB0cnVlKQogICAgICAgICAgICAgICAgICAgIHBhcnRGaWxlLmRlbGV0ZSgpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLlhpnlhaUgWklQIOWksei0pToga2V5PSRrZXkiLCBlKQogICAgICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgcGFydEZpbGUuZGVsZXRlKCkgfQogICAgICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgemlwRmlsZS5kZWxldGUoKSB9CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhMb2NrIG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgdG91Y2goemlwRmlsZSkKCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlpJUCDlt7LnvJPlrZg6IGtleT0ka2V5LCBmaWxlPSR7emlwRmlsZS5uYW1lfSwgYnl0ZXM9JHt6aXBGaWxlLmxlbmd0aCgpfSIpCgogICAgICAgICAgICBldmljdGlvbk11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgICAgIGV2aWN0SWZOZWVkZWRMb2NrZWQoZGlyKQogICAgICAgICAgICB9CgogICAgICAgICAgICB6aXBGaWxlCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import java.io.File
+import java.security.MessageDigest
+import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+object SkillRepoZipPoolManager {
+    private const val TAG = "SkillRepoZipPoolManager"
+
+    var maxPoolSize = 6
+        set(value) {
+            if (value > 0) {
+                field = value
+                AppLogger.d(TAG, "池子大小限制已更新为: $value")
+            }
+        }
+
+    private var cacheDir: File? = null
+
+    private val keyMutexes = ConcurrentHashMap<String, Mutex>()
+    private val evictionMutex = Mutex()
+
+    @Synchronized
+    fun initialize(baseDir: File) {
+        cacheDir = OperitPaths.skillRepoZipPoolDir(baseDir)
+        if (cacheDir?.exists() != true) {
+            runCatching { cacheDir?.mkdirs() }
+        }
+    }
+
+    private fun sha256Hex16(value: String): String {
+        val bytes = MessageDigest.getInstance("SHA-256")
+            .digest(value.toByteArray(Charsets.UTF_8))
+        val hexChars = "0123456789abcdef"
+        val hex = buildString(bytes.size * 2) {
+            for (b in bytes) {
+                val v = b.toInt() and 0xFF
+                append(hexChars[v ushr 4])
+                append(hexChars[v and 0x0F])
+            }
+        }
+        return hex.take(16)
+    }
+
+    private fun zipFileFor(dir: File, key: String): File = File(dir, "repo_${sha256Hex16(key)}.zip")
+
+    private fun partFileFor(dir: File, key: String): File = File(dir, "repo_${sha256Hex16(key)}.download")
+
+    private fun touch(file: File) {
+        runCatching { file.setLastModified(System.currentTimeMillis()) }
+    }
+
+    private fun evictIfNeededLocked(dir: File) {
+        val files = dir.listFiles { f -> f.isFile && f.name.endsWith(".zip", ignoreCase = true) } ?: return
+        if (files.size <= maxPoolSize) return
+
+        val removeCount = files.size - maxPoolSize
+        val sorted = files.sortedBy { it.lastModified() }
+        for (i in 0 until removeCount) {
+            val f = sorted.getOrNull(i) ?: continue
+            runCatching { f.delete() }
+        }
+    }
+
+    suspend fun getOrDownloadZip(
+        key: String,
+        downloadTo: suspend (outFile: File) -> Boolean
+    ): File? {
+        val dir = cacheDir
+        if (dir == null) {
+            AppLogger.w(TAG, "缓存目录未初始化，无法复用 ZIP")
+            return null
+        }
+
+        val mutex = keyMutexes.getOrPut(key) { Mutex() }
+        return mutex.withLock {
+            val zipFile = zipFileFor(dir, key)
+            if (zipFile.exists() && zipFile.isFile && zipFile.length() > 0L) {
+                AppLogger.d(TAG, "ZIP 命中缓存: key=$key, file=${zipFile.name}, bytes=${zipFile.length()}")
+                touch(zipFile)
+                return@withLock zipFile
+            }
+
+            AppLogger.d(TAG, "ZIP 缓存未命中，开始下载: key=$key")
+            val partFile = partFileFor(dir, key)
+            runCatching { partFile.delete() }
+
+            val ok = try {
+                downloadTo(partFile)
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "下载失败: key=$key", e)
+                false
+            }
+
+            if (!ok || !partFile.exists() || partFile.length() <= 0L) {
+                AppLogger.w(TAG, "ZIP 下载失败或文件为空: key=$key")
+                runCatching { partFile.delete() }
+                return@withLock null
+            }
+
+            runCatching { if (zipFile.exists()) zipFile.delete() }
+
+            val renamed = runCatching { partFile.renameTo(zipFile) }.getOrNull() == true
+            if (!renamed) {
+                try {
+                    partFile.copyTo(zipFile, overwrite = true)
+                    partFile.delete()
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "写入 ZIP 失败: key=$key", e)
+                    runCatching { partFile.delete() }
+                    runCatching { zipFile.delete() }
+                    return@withLock null
+                }
+            }
+
+            touch(zipFile)
+
+            AppLogger.d(TAG, "ZIP 已缓存: key=$key, file=${zipFile.name}, bytes=${zipFile.length()}")
+
+            evictionMutex.withLock {
+                evictIfNeededLocked(dir)
+            }
+
+            zipFile
+        }
+    }
+}

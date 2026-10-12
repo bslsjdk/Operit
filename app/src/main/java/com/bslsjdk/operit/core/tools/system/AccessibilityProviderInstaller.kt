@@ -1,1 +1,160 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLlBhY2thZ2VJbmZvCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucG0uUGFja2FnZU1hbmFnZXIKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnJlcG9zaXRvcnkuVUlIaWVyYXJjaHlNYW5hZ2VyCmltcG9ydCBrb3RsaW4ubWF0aC5taW4KCi8qKgogKiDnlKjkuo7nrqHnkIblhoXnva7ml6Dpmpznoo3mnI3liqHmj5DkvpvogIXlupTnlKjnmoTlronoo4Xlkozmm7TmlrAKICovCmNsYXNzIEFjY2Vzc2liaWxpdHlQcm92aWRlckluc3RhbGxlciB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiQWNjZXNzaWJpbGl0eVByb3ZpZGVySW5zdGFsbGVyIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEFDQ0VTU0lCSUxJVFlfUEFDS0FHRV9OQU1FID0gImNvbS5haS5hc3Npc3RhbmNlLm9wZXJpdC5wcm92aWRlciIKCiAgICAgICAgLy8g57yT5a2Y54mI5pys5L+h5oGvCiAgICAgICAgcHJpdmF0ZSB2YXIgY2FjaGVkSW5zdGFsbGVkVmVyc2lvbjogU3RyaW5nPyA9IG51bGwKICAgICAgICBwcml2YXRlIHZhciBjYWNoZWRCdW5kbGVkVmVyc2lvbjogU3RyaW5nPyA9IG51bGwKICAgICAgICBwcml2YXRlIHZhciBjYWNoZWRVcGRhdGVOZWVkZWQ6IEJvb2xlYW4/ID0gbnVsbAogICAgICAgIHByaXZhdGUgdmFyIGxhc3RDaGVja1RpbWU6IExvbmcgPSAwCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgQ0FDSEVfRVhQSVJFX1RJTUUgPSA2MCAqIDEwMDAgLy8g57yT5a2Y5pyJ5pWI5pyfMeWIhumSnwoKICAgICAgICAvKioKICAgICAgICAgKiDojrflj5blhoXnva7ml6Dpmpznoo3mnI3liqFBUEvniYjmnKzkv6Hmga8KICAgICAgICAgKi8KICAgICAgICBmdW4gZ2V0QnVuZGxlZFZlcnNpb24oY29udGV4dDogQ29udGV4dCk6IFN0cmluZyB7CiAgICAgICAgICAgIGlmIChjYWNoZWRCdW5kbGVkVmVyc2lvbiAhPSBudWxsICYmICFpc0NhY2hlRXhwaXJlZCgpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gY2FjaGVkQnVuZGxlZFZlcnNpb24hIQogICAgICAgICAgICB9CgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHZlcnNpb25JbmZvID0gY29udGV4dC5hc3NldHMub3BlbigiYWNjZXNzaWJpbGl0eV92ZXJzaW9uLnR4dCIpLnVzZSB7CiAgICAgICAgICAgICAgICAgICAgaXQuYnVmZmVyZWRSZWFkZXIoKS5yZWFkVGV4dCgpLnRyaW0oKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2FjaGVkQnVuZGxlZFZlcnNpb24gPSB2ZXJzaW9uSW5mbwogICAgICAgICAgICAgICAgcmV0dXJuIHZlcnNpb25JbmZvCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6I635Y+W5YaF572u5peg6Zqc56KN5pyN5Yqh54mI5pys5aSx6LSlIiwgZSkKICAgICAgICAgICAgICAgIHZhbCB1bmtub3duID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYWNjZXNzaWJpbGl0eV9wcm92aWRlcl91bmtub3duKQogICAgICAgICAgICAgICAgY2FjaGVkQnVuZGxlZFZlcnNpb24gPSB1bmtub3duCiAgICAgICAgICAgICAgICByZXR1cm4gdW5rbm93bgogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvKioKICAgICAgICAgKiDojrflj5blt7Llronoo4XnmoTml6Dpmpznoo3mnI3liqHniYjmnKwKICAgICAgICAgKi8KICAgICAgICBmdW4gZ2V0SW5zdGFsbGVkVmVyc2lvbihjb250ZXh0OiBDb250ZXh0KTogU3RyaW5nPyB7CiAgICAgICAgICAgIGlmIChjYWNoZWRJbnN0YWxsZWRWZXJzaW9uICE9IG51bGwgJiYgIWlzQ2FjaGVFeHBpcmVkKCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBjYWNoZWRJbnN0YWxsZWRWZXJzaW9uCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcGFja2FnZU1hbmFnZXIgPSBjb250ZXh0LnBhY2thZ2VNYW5hZ2VyCiAgICAgICAgICAgICAgICB2YWwgcGFja2FnZUluZm86IFBhY2thZ2VJbmZvID0gaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLlRJUkFNSVNVKSB7CiAgICAgICAgICAgICAgICAgICAgcGFja2FnZU1hbmFnZXIuZ2V0UGFja2FnZUluZm8oQUNDRVNTSUJJTElUWV9QQUNLQUdFX05BTUUsIFBhY2thZ2VNYW5hZ2VyLlBhY2thZ2VJbmZvRmxhZ3Mub2YoMCkpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEBTdXBwcmVzcygiREVQUkVDQVRJT04iKQogICAgICAgICAgICAgICAgICAgIHBhY2thZ2VNYW5hZ2VyLmdldFBhY2thZ2VJbmZvKEFDQ0VTU0lCSUxJVFlfUEFDS0FHRV9OQU1FLCAwKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdmFsIHZlcnNpb25OYW1lID0gcGFja2FnZUluZm8udmVyc2lvbk5hbWUKICAgICAgICAgICAgICAgIGNhY2hlZEluc3RhbGxlZFZlcnNpb24gPSB2ZXJzaW9uTmFtZQogICAgICAgICAgICAgICAgcmV0dXJuIHZlcnNpb25OYW1lCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IFBhY2thZ2VNYW5hZ2VyLk5hbWVOb3RGb3VuZEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgY2FjaGVkSW5zdGFsbGVkVmVyc2lvbiA9IG51bGwKICAgICAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6I635Y+W5bey5a6J6KOF5peg6Zqc56KN5pyN5Yqh54mI5pys5Ye66ZSZIiwgZSkKICAgICAgICAgICAgICAgIGNhY2hlZEluc3RhbGxlZFZlcnNpb24gPSBudWxsCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvKioKICAgICAgICAgKiDmo4Dmn6XmmK/lkKbpnIDopoHmm7TmlrDml6Dpmpznoo3mnI3liqEKICAgICAgICAgKi8KICAgICAgICBmdW4gaXNVcGRhdGVOZWVkZWQoY29udGV4dDogQ29udGV4dCk6IEJvb2xlYW4gewogICAgICAgICAgICBpZiAoY2FjaGVkVXBkYXRlTmVlZGVkICE9IG51bGwgJiYgIWlzQ2FjaGVFeHBpcmVkKCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBjYWNoZWRVcGRhdGVOZWVkZWQhIQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgaW5zdGFsbGVkVmVyc2lvbiA9IGdldEluc3RhbGxlZFZlcnNpb24oY29udGV4dCkKICAgICAgICAgICAgaWYgKGluc3RhbGxlZFZlcnNpb24gPT0gbnVsbCkgewogICAgICAgICAgICAgICAgY2FjaGVkVXBkYXRlTmVlZGVkID0gZmFsc2UKICAgICAgICAgICAgICAgIHVwZGF0ZUNhY2hlVGltZXN0YW1wKCkKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZSAvLyBOb3QgaW5zdGFsbGVkLCBubyBuZWVkIHRvIHVwZGF0ZQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgYnVuZGxlZFZlcnNpb24gPSBnZXRCdW5kbGVkVmVyc2lvbihjb250ZXh0KQogICAgICAgICAgICB2YWwgdW5rbm93biA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFjY2Vzc2liaWxpdHlfcHJvdmlkZXJfdW5rbm93bikKICAgICAgICAgICAgaWYgKGJ1bmRsZWRWZXJzaW9uID09IHVua25vd24pIHsKICAgICAgICAgICAgICAgIGNhY2hlZFVwZGF0ZU5lZWRlZCA9IGZhbHNlCiAgICAgICAgICAgICAgICB1cGRhdGVDYWNoZVRpbWVzdGFtcCgpCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UgLy8gQ2Fubm90IGRldGVybWluZSBidW5kbGVkIHZlcnNpb24sIGRvIG5vdCBzdWdnZXN0IHVwZGF0ZQogICAgICAgICAgICB9CgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGluc3RhbGxlZCA9IGluc3RhbGxlZFZlcnNpb24uc3BsaXQoIi4iKS5tYXAgeyBpdC50b0ludE9yTnVsbCgpID86IDAgfQogICAgICAgICAgICAgICAgdmFsIGJ1bmRsZWQgPSBidW5kbGVkVmVyc2lvbi5zcGxpdCgiLiIpLm1hcCB7IGl0LnRvSW50T3JOdWxsKCkgPzogMCB9CgogICAgICAgICAgICAgICAgdmFsIGNvbW1vblBhcnRMZW5ndGggPSBtaW4oaW5zdGFsbGVkLnNpemUsIGJ1bmRsZWQuc2l6ZSkKICAgICAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIGNvbW1vblBhcnRMZW5ndGgpIHsKICAgICAgICAgICAgICAgICAgICBpZiAoYnVuZGxlZFtpXSA+IGluc3RhbGxlZFtpXSkgewogICAgICAgICAgICAgICAgICAgICAgICBjYWNoZWRVcGRhdGVOZWVkZWQgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZUNhY2hlVGltZXN0YW1wKCkKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaWYgKGJ1bmRsZWRbaV0gPCBpbnN0YWxsZWRbaV0pIHsKICAgICAgICAgICAgICAgICAgICAgICAgY2FjaGVkVXBkYXRlTmVlZGVkID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlQ2FjaGVUaW1lc3RhbXAoKQogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKGJ1bmRsZWQuc2l6ZSA+IGluc3RhbGxlZC5zaXplKSB7CiAgICAgICAgICAgICAgICAgICAgY2FjaGVkVXBkYXRlTmVlZGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgIHVwZGF0ZUNhY2hlVGltZXN0YW1wKCkKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBjYWNoZWRVcGRhdGVOZWVkZWQgPSBmYWxzZQogICAgICAgICAgICAgICAgdXBkYXRlQ2FjaGVUaW1lc3RhbXAoKQogICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5q+U6L6D5peg6Zqc56KN5pyN5Yqh54mI5pys5pe25Ye66ZSZIiwgZSkKICAgICAgICAgICAgICAgIGNhY2hlZFVwZGF0ZU5lZWRlZCA9IGZhbHNlCiAgICAgICAgICAgICAgICB1cGRhdGVDYWNoZVRpbWVzdGFtcCgpCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLyoqCiAgICAgICAgICog6Kem5Y+R5YaF572u5peg6Zqc56KN5pyN5Yqh55qE5a6J6KOF5rWB56iLCiAgICAgICAgICovCiAgICAgICAgZnVuIGxhdW5jaEluc3RhbGwoY29udGV4dDogQ29udGV4dCkgewogICAgICAgICAgICBVSUhpZXJhcmNoeU1hbmFnZXIubGF1bmNoUHJvdmlkZXJJbnN0YWxsKGNvbnRleHQpCiAgICAgICAgICAgIGNsZWFyQ2FjaGUoKSAvLyDmuIXpmaTnvJPlrZjku6XlnKjlronoo4XlkI7liLfmlrDnirbmgIEKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIHVwZGF0ZUNhY2hlVGltZXN0YW1wKCkgewogICAgICAgICAgICBsYXN0Q2hlY2tUaW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIGlzQ2FjaGVFeHBpcmVkKCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgLSBsYXN0Q2hlY2tUaW1lID4gQ0FDSEVfRVhQSVJFX1RJTUUKICAgICAgICB9CgogICAgICAgIGZ1biBjbGVhckNhY2hlKCkgewogICAgICAgICAgICBjYWNoZWRJbnN0YWxsZWRWZXJzaW9uID0gbnVsbAogICAgICAgICAgICBjYWNoZWRCdW5kbGVkVmVyc2lvbiA9IG51bGwKICAgICAgICAgICAgY2FjaGVkVXBkYXRlTmVlZGVkID0gbnVsbAogICAgICAgICAgICBsYXN0Q2hlY2tUaW1lID0gMAogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLml6Dpmpznoo3mnI3liqHniYjmnKznvJPlrZjlt7LmuIXpmaQiKQogICAgICAgIH0KICAgIH0KfSAK
+package com.bslsjdk.operit.core.tools.system
+
+import android.content.Context
+import android.content.pm.PackageInfo
+import android.content.pm.PackageManager
+import android.os.Build
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.data.repository.UIHierarchyManager
+import kotlin.math.min
+
+/**
+ * 用于管理内置无障碍服务提供者应用的安装和更新
+ */
+class AccessibilityProviderInstaller {
+    companion object {
+        private const val TAG = "AccessibilityProviderInstaller"
+        private const val ACCESSIBILITY_PACKAGE_NAME = "com.ai.assistance.operit.provider"
+
+        // 缓存版本信息
+        private var cachedInstalledVersion: String? = null
+        private var cachedBundledVersion: String? = null
+        private var cachedUpdateNeeded: Boolean? = null
+        private var lastCheckTime: Long = 0
+        private const val CACHE_EXPIRE_TIME = 60 * 1000 // 缓存有效期1分钟
+
+        /**
+         * 获取内置无障碍服务APK版本信息
+         */
+        fun getBundledVersion(context: Context): String {
+            if (cachedBundledVersion != null && !isCacheExpired()) {
+                return cachedBundledVersion!!
+            }
+
+            try {
+                val versionInfo = context.assets.open("accessibility_version.txt").use {
+                    it.bufferedReader().readText().trim()
+                }
+                cachedBundledVersion = versionInfo
+                return versionInfo
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "获取内置无障碍服务版本失败", e)
+                val unknown = context.getString(R.string.accessibility_provider_unknown)
+                cachedBundledVersion = unknown
+                return unknown
+            }
+        }
+
+        /**
+         * 获取已安装的无障碍服务版本
+         */
+        fun getInstalledVersion(context: Context): String? {
+            if (cachedInstalledVersion != null && !isCacheExpired()) {
+                return cachedInstalledVersion
+            }
+
+            try {
+                val packageManager = context.packageManager
+                val packageInfo: PackageInfo = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    packageManager.getPackageInfo(ACCESSIBILITY_PACKAGE_NAME, PackageManager.PackageInfoFlags.of(0))
+                } else {
+                    @Suppress("DEPRECATION")
+                    packageManager.getPackageInfo(ACCESSIBILITY_PACKAGE_NAME, 0)
+                }
+                val versionName = packageInfo.versionName
+                cachedInstalledVersion = versionName
+                return versionName
+            } catch (e: PackageManager.NameNotFoundException) {
+                cachedInstalledVersion = null
+                return null
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "获取已安装无障碍服务版本出错", e)
+                cachedInstalledVersion = null
+                return null
+            }
+        }
+
+        /**
+         * 检查是否需要更新无障碍服务
+         */
+        fun isUpdateNeeded(context: Context): Boolean {
+            if (cachedUpdateNeeded != null && !isCacheExpired()) {
+                return cachedUpdateNeeded!!
+            }
+
+            val installedVersion = getInstalledVersion(context)
+            if (installedVersion == null) {
+                cachedUpdateNeeded = false
+                updateCacheTimestamp()
+                return false // Not installed, no need to update
+            }
+
+            val bundledVersion = getBundledVersion(context)
+            val unknown = context.getString(R.string.accessibility_provider_unknown)
+            if (bundledVersion == unknown) {
+                cachedUpdateNeeded = false
+                updateCacheTimestamp()
+                return false // Cannot determine bundled version, do not suggest update
+            }
+
+            try {
+                val installed = installedVersion.split(".").map { it.toIntOrNull() ?: 0 }
+                val bundled = bundledVersion.split(".").map { it.toIntOrNull() ?: 0 }
+
+                val commonPartLength = min(installed.size, bundled.size)
+                for (i in 0 until commonPartLength) {
+                    if (bundled[i] > installed[i]) {
+                        cachedUpdateNeeded = true
+                        updateCacheTimestamp()
+                        return true
+                    }
+                    if (bundled[i] < installed[i]) {
+                        cachedUpdateNeeded = false
+                        updateCacheTimestamp()
+                        return false
+                    }
+                }
+
+                if (bundled.size > installed.size) {
+                    cachedUpdateNeeded = true
+                    updateCacheTimestamp()
+                    return true
+                }
+                
+                cachedUpdateNeeded = false
+                updateCacheTimestamp()
+                return false
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "比较无障碍服务版本时出错", e)
+                cachedUpdateNeeded = false
+                updateCacheTimestamp()
+                return false
+            }
+        }
+
+        /**
+         * 触发内置无障碍服务的安装流程
+         */
+        fun launchInstall(context: Context) {
+            UIHierarchyManager.launchProviderInstall(context)
+            clearCache() // 清除缓存以在安装后刷新状态
+        }
+
+        private fun updateCacheTimestamp() {
+            lastCheckTime = System.currentTimeMillis()
+        }
+
+        private fun isCacheExpired(): Boolean {
+            return System.currentTimeMillis() - lastCheckTime > CACHE_EXPIRE_TIME
+        }
+
+        fun clearCache() {
+            cachedInstalledVersion = null
+            cachedBundledVersion = null
+            cachedUpdateNeeded = null
+            lastCheckTime = 0
+            AppLogger.d(TAG, "无障碍服务版本缓存已清除")
+        }
+    }
+} 

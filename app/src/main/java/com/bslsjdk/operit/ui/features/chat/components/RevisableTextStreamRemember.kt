@@ -1,1 +1,95 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uTXV0YWJsZVNoYXJlZFN0cmVhbQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLk11dGFibGVTaGFyZWRTdHJlYW1JbXBsCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uU3RyZWFtCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uU3RyZWFtUm9sbGJhY2tQcmVmaXgKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5UZXh0U3RyZWFtRXZlbnRDYXJyaWVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uVGV4dFN0cmVhbUV2ZW50VHlwZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLlRleHRTdHJlYW1SZXZpc2lvblRyYWNrZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5jYW5jZWxBbmRKb2luCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuY29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLk11dGV4CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy53aXRoTG9jawoKcHJpdmF0ZSBjbGFzcyBSb2xsYmFja1RhaWxTdHJlYW0oCiAgICBwcml2YXRlIHZhbCB1cHN0cmVhbTogU3RyZWFtPFN0cmluZz4sCiAgICBvdmVycmlkZSB2YWwgcm9sbGJhY2tQcmVmaXg6IFN0cmluZywKKSA6IFN0cmVhbTxTdHJpbmc+IGJ5IHVwc3RyZWFtLCBTdHJlYW1Sb2xsYmFja1ByZWZpeAoKQENvbXBvc2FibGUKZnVuIHJlbWVtYmVyUmV2aXNhYmxlVGV4dFN0cmVhbShzb3VyY2VTdHJlYW06IFN0cmVhbTxTdHJpbmc+Pyk6IFN0cmVhbTxTdHJpbmc+PyB7CiAgICB2YWwgY2FycmllciA9IHNvdXJjZVN0cmVhbSBhcz8gVGV4dFN0cmVhbUV2ZW50Q2FycmllciA/OiByZXR1cm4gc291cmNlU3RyZWFtCgogICAgdmFyIGRpc3BsYXlTdHJlYW0gYnkgcmVtZW1iZXIoc291cmNlU3RyZWFtKSB7CiAgICAgICAgbXV0YWJsZVN0YXRlT2Y8U3RyZWFtPFN0cmluZz4/PihNdXRhYmxlU2hhcmVkU3RyZWFtKHJlcGxheSA9IEludC5NQVhfVkFMVUUpKQogICAgfQoKICAgIExhdW5jaGVkRWZmZWN0KHNvdXJjZVN0cmVhbSkgewogICAgICAgIHZhbCB0cmFja2VyID0gVGV4dFN0cmVhbVJldmlzaW9uVHJhY2tlcigpCiAgICAgICAgdmFsIHN0YXRlTXV0ZXggPSBNdXRleCgpCiAgICAgICAgdmFyIGN1cnJlbnRPdXRwdXRTdHJlYW0gPSBNdXRhYmxlU2hhcmVkU3RyZWFtPFN0cmluZz4ocmVwbGF5ID0gSW50Lk1BWF9WQUxVRSkKICAgICAgICBkaXNwbGF5U3RyZWFtID0gY3VycmVudE91dHB1dFN0cmVhbQoKICAgICAgICBjb3JvdXRpbmVTY29wZSB7CiAgICAgICAgICAgIHZhbCBldmVudEpvYiA9IGxhdW5jaCB7CiAgICAgICAgICAgICAgICBjYXJyaWVyLmV2ZW50Q2hhbm5lbC5jb2xsZWN0IHsgZXZlbnQgLT4KICAgICAgICAgICAgICAgICAgICB3aGVuIChldmVudC5ldmVudFR5cGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dFN0cmVhbUV2ZW50VHlwZS5TQVZFUE9JTlQgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGVNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2tlci5zYXZlcG9pbnQoZXZlbnQuaWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIFRleHRTdHJlYW1FdmVudFR5cGUuUk9MTEJBQ0sgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJvbGxiYWNrVXBkYXRlID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZU11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHNuYXBzaG90ID0gdHJhY2tlci5yb2xsYmFjayhldmVudC5pZCk/LnRvU3RyaW5nKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IHJldHVybkB3aXRoTG9jayBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByZXBsYWNlbWVudFN0cmVhbSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNdXRhYmxlU2hhcmVkU3RyZWFtPFN0cmluZz4ocmVwbGF5ID0gSW50Lk1BWF9WQUxVRSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHByZXZpb3VzT3V0cHV0U3RyZWFtID0gY3VycmVudE91dHB1dFN0cmVhbQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50T3V0cHV0U3RyZWFtID0gcmVwbGFjZW1lbnRTdHJlYW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVHJpcGxlKHByZXZpb3VzT3V0cHV0U3RyZWFtLCByZXBsYWNlbWVudFN0cmVhbSwgc25hcHNob3QpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSA/OiByZXR1cm5AY29sbGVjdAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIChwcmV2aW91c091dHB1dFN0cmVhbSwgcmVwbGFjZW1lbnRTdHJlYW0sIHNuYXBzaG90KSA9IHJvbGxiYWNrVXBkYXRlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBUaGUgcmVuZGVyZXIgcmVzdG9yZXMgdGhpcyBwcmVmaXggaXRzZWxmOyB0aGUgcmVwbGFjZW1lbnQgc3RyZWFtIGNhcnJpZXMgb25seSBuZXcgdGFpbCBvdXRwdXQuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgcm9sbGJhY2tTdHJlYW0gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJvbGxiYWNrVGFpbFN0cmVhbSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdXBzdHJlYW0gPSByZXBsYWNlbWVudFN0cmVhbSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcm9sbGJhY2tQcmVmaXggPSBzbmFwc2hvdCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5U3RyZWFtID0gcm9sbGJhY2tTdHJlYW0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByZXZpb3VzT3V0cHV0U3RyZWFtLnJlc2V0UmVwbGF5Q2FjaGUoKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgc291cmNlU3RyZWFtLmNvbGxlY3QgeyBjaHVuayAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBhY3RpdmVEaXNwbGF5U3RyZWFtID0KICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGVNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFja2VyLmFwcGVuZChjaHVuaykKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJlbnRPdXRwdXRTdHJlYW0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGFjdGl2ZURpc3BsYXlTdHJlYW0uZW1pdChjaHVuaykKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIGV2ZW50Sm9iLmNhbmNlbEFuZEpvaW4oKQogICAgICAgICAgICAgICAgLy8gS2VlcCBjb21wbGV0ZWQgcmVwbGF5IGF2YWlsYWJsZSB1bnRpbCB0aGUgbWVzc2FnZSBzd2l0Y2hlcyB0byBzdGF0aWMgY29udGVudC4KICAgICAgICAgICAgICAgIC8vIENsZWFyaW5nIGl0IGhlcmUgY2FuIHJhY2UgdGhlIHJlbmRlcmVyJ3MgZmluYWwgZnJhbWUgYW5kIGxlYXZlIGEgdG9vbCByZXN1bHQgYmxhbmsuCiAgICAgICAgICAgICAgICAoY3VycmVudE91dHB1dFN0cmVhbSBhcz8gTXV0YWJsZVNoYXJlZFN0cmVhbUltcGw8U3RyaW5nPik/LmNsb3NlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gZGlzcGxheVN0cmVhbQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import com.bslsjdk.operit.util.stream.MutableSharedStream
+import com.bslsjdk.operit.util.stream.MutableSharedStreamImpl
+import com.bslsjdk.operit.util.stream.Stream
+import com.bslsjdk.operit.util.stream.StreamRollbackPrefix
+import com.bslsjdk.operit.util.stream.TextStreamEventCarrier
+import com.bslsjdk.operit.util.stream.TextStreamEventType
+import com.bslsjdk.operit.util.stream.TextStreamRevisionTracker
+import kotlinx.coroutines.cancelAndJoin
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+private class RollbackTailStream(
+    private val upstream: Stream<String>,
+    override val rollbackPrefix: String,
+) : Stream<String> by upstream, StreamRollbackPrefix
+
+@Composable
+fun rememberRevisableTextStream(sourceStream: Stream<String>?): Stream<String>? {
+    val carrier = sourceStream as? TextStreamEventCarrier ?: return sourceStream
+
+    var displayStream by remember(sourceStream) {
+        mutableStateOf<Stream<String>?>(MutableSharedStream(replay = Int.MAX_VALUE))
+    }
+
+    LaunchedEffect(sourceStream) {
+        val tracker = TextStreamRevisionTracker()
+        val stateMutex = Mutex()
+        var currentOutputStream = MutableSharedStream<String>(replay = Int.MAX_VALUE)
+        displayStream = currentOutputStream
+
+        coroutineScope {
+            val eventJob = launch {
+                carrier.eventChannel.collect { event ->
+                    when (event.eventType) {
+                        TextStreamEventType.SAVEPOINT -> {
+                            stateMutex.withLock {
+                                tracker.savepoint(event.id)
+                            }
+                        }
+
+                        TextStreamEventType.ROLLBACK -> {
+                            val rollbackUpdate =
+                                stateMutex.withLock {
+                                    val snapshot = tracker.rollback(event.id)?.toString()
+                                        ?: return@withLock null
+                                    val replacementStream =
+                                        MutableSharedStream<String>(replay = Int.MAX_VALUE)
+                                    val previousOutputStream = currentOutputStream
+                                    currentOutputStream = replacementStream
+                                    Triple(previousOutputStream, replacementStream, snapshot)
+                                } ?: return@collect
+                            val (previousOutputStream, replacementStream, snapshot) = rollbackUpdate
+                            // The renderer restores this prefix itself; the replacement stream carries only new tail output.
+                            val rollbackStream =
+                                RollbackTailStream(
+                                    upstream = replacementStream,
+                                    rollbackPrefix = snapshot,
+                                )
+                            displayStream = rollbackStream
+                            previousOutputStream.resetReplayCache()
+                        }
+                    }
+                }
+            }
+
+            try {
+                sourceStream.collect { chunk ->
+                    val activeDisplayStream =
+                        stateMutex.withLock {
+                            tracker.append(chunk)
+                            currentOutputStream
+                        }
+                    activeDisplayStream.emit(chunk)
+                }
+            } finally {
+                eventJob.cancelAndJoin()
+                // Keep completed replay available until the message switches to static content.
+                // Clearing it here can race the renderer's final frame and leave a tool result blank.
+                (currentOutputStream as? MutableSharedStreamImpl<String>)?.close()
+            }
+        }
+    }
+
+    return displayStream
+}

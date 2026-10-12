@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmRhby5Ub2tlblVzYWdlTW9kZWxBZ2dyZWdhdGVSb3cKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLmhhc0luZGVwZW5kZW50Q2FjaGVXcml0ZUJpbGxpbmcKCi8qKgogKiBSZXBhaXJzIG9ubHkgdGhlIGluLW1lbW9yeSBzaGFwZSBvZiB2MjAtPnYyMSBoaXN0b3J5IHJvd3MuCiAqCiAqIFRoZSBvbGQgaW1wb3J0IGxlZnQgY2FjaGUtd3JpdGUgdXNhZ2UgbnVsbC4gS25vd24gcHJvdmlkZXJzIHdob3NlIGNhY2hlLXdyaXRlCiAqIGNvc3QgaXMgaW5jbHVkZWQgaW4gaW5wdXQgcHJpY2luZyBjYW4gdHJlYXQgdGhhdCBtaXNzaW5nIGNvbXBvbmVudCBhcyBhCiAqIGNvbmZpcm1lZCB6ZXJvOyBpbmRlcGVuZGVudGx5IGJpbGxlZCBhbmQgdW5rbm93biBwcm92aWRlcnMgc3RheSB1bmtub3duLgogKi8KaW50ZXJuYWwgZnVuIG5vcm1hbGl6ZUxlZ2FjeUNhY2hlV3JpdGVVc2FnZSgKICAgIHJvdzogVG9rZW5Vc2FnZU1vZGVsQWdncmVnYXRlUm93LAopOiBUb2tlblVzYWdlTW9kZWxBZ2dyZWdhdGVSb3cgewogICAgaWYgKAogICAgICAgIHJvdy5jb25maWdJZC5pc05vdEVtcHR5KCkgfHwKICAgICAgICAgICAgcm93LmNhY2hlV3JpdGVLbm93biA+PSByb3cucmVxdWVzdHMgfHwKICAgICAgICAgICAgaGFzSW5kZXBlbmRlbnRDYWNoZVdyaXRlQmlsbGluZyhyb3cucHJvdmlkZXIpCiAgICApIHsKICAgICAgICByZXR1cm4gcm93CiAgICB9CiAgICByZXR1cm4gcm93LmNvcHkoCiAgICAgICAgY2FjaGVXcml0ZVRva2VucyA9IDBMLAogICAgICAgIGNhY2hlV3JpdGVLbm93biA9IHJvdy5yZXF1ZXN0cywKICAgICkKfQo=
+package com.bslsjdk.operit.data.stats
+
+import com.bslsjdk.operit.data.dao.TokenUsageModelAggregateRow
+import com.bslsjdk.operit.data.model.hasIndependentCacheWriteBilling
+
+/**
+ * Repairs only the in-memory shape of v20->v21 history rows.
+ *
+ * The old import left cache-write usage null. Known providers whose cache-write
+ * cost is included in input pricing can treat that missing component as a
+ * confirmed zero; independently billed and unknown providers stay unknown.
+ */
+internal fun normalizeLegacyCacheWriteUsage(
+    row: TokenUsageModelAggregateRow,
+): TokenUsageModelAggregateRow {
+    if (
+        row.configId.isNotEmpty() ||
+            row.cacheWriteKnown >= row.requests ||
+            hasIndependentCacheWriteBilling(row.provider)
+    ) {
+        return row
+    }
+    return row.copy(
+        cacheWriteTokens = 0L,
+        cacheWriteKnown = row.requests,
+    )
+}

@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5yaXBncmVwCgppbnRlcm5hbCBvYmplY3QgTmF0aXZlUmlwZ3JlcCB7CiAgICBpbml0IHsKICAgICAgICBTeXN0ZW0ubG9hZExpYnJhcnkoIm9wZXJpdF9yaXBncmVwIikKICAgIH0KCiAgICBASnZtU3RhdGljCiAgICBleHRlcm5hbCBmdW4gc2VhcmNoSnNvbigKICAgICAgICBwYXRoOiBTdHJpbmcsCiAgICAgICAgcGF0dGVybnM6IEFycmF5PFN0cmluZz4sCiAgICAgICAgZmlsZVBhdHRlcm46IFN0cmluZywKICAgICAgICBjYXNlSW5zZW5zaXRpdmU6IEJvb2xlYW4sCiAgICAgICAgbGl0ZXJhbDogQm9vbGVhbiwKICAgICAgICBjb250ZXh0TGluZXM6IEludCwKICAgICAgICBtYXhSZXN1bHRzOiBJbnQKICAgICk6IFN0cmluZwp9Cg==
+package com.bslsjdk.operit.util.ripgrep
+
+internal object NativeRipgrep {
+    init {
+        System.loadLibrary("operit_ripgrep")
+    }
+
+    @JvmStatic
+    external fun searchJson(
+        path: String,
+        patterns: Array<String>,
+        filePattern: String,
+        caseInsensitive: Boolean,
+        literal: Boolean,
+        contextLines: Int,
+        maxResults: Int
+    ): String
+}

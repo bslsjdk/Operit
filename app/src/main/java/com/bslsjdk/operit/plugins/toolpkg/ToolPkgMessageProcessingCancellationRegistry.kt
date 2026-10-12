@@ -1,1 +1,64 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy50b29scGtnCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5wbHVnaW5zLk1lc3NhZ2VQcm9jZXNzaW5nQ29udHJvbGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAoKb2JqZWN0IFRvb2xQa2dNZXNzYWdlUHJvY2Vzc2luZ0NhbmNlbGxhdGlvblJlZ2lzdHJ5IHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJUb29sUGtnTXNnQ2FuY2VsUmVnaXN0cnkiCgogICAgcHJpdmF0ZSB2YWwgY29udHJvbGxlcnMgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIE1lc3NhZ2VQcm9jZXNzaW5nQ29udHJvbGxlcj4oKQogICAgcHJpdmF0ZSB2YWwgcGVuZGluZ0NhbmNlbHMgPSBDb25jdXJyZW50SGFzaE1hcC5uZXdLZXlTZXQ8U3RyaW5nPigpCgogICAgQEp2bVN0YXRpYwogICAgZnVuIHJlZ2lzdGVyKGV4ZWN1dGlvbklkOiBTdHJpbmcsIGNvbnRyb2xsZXI6IE1lc3NhZ2VQcm9jZXNzaW5nQ29udHJvbGxlcik6IEJvb2xlYW4gewogICAgICAgIHZhbCBrZXkgPSBleGVjdXRpb25JZC50cmltKCkKICAgICAgICBpZiAoa2V5LmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CgogICAgICAgIGNvbnRyb2xsZXJzW2tleV0gPSBjb250cm9sbGVyCiAgICAgICAgaWYgKHBlbmRpbmdDYW5jZWxzLnJlbW92ZShrZXkpKSB7CiAgICAgICAgICAgIGNvbnRyb2xsZXJzLnJlbW92ZShrZXksIGNvbnRyb2xsZXIpCiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgIGNvbnRyb2xsZXIuY2FuY2VsKCkKICAgICAgICAgICAgfS5vbkZhaWx1cmUgeyBlcnJvciAtPgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGNhbmNlbCBwZW5kaW5nIGV4ZWN1dGlvbiBvbiByZWdpc3RlcjogJGtleSIsIGVycm9yKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biB1bnJlZ2lzdGVyKGV4ZWN1dGlvbklkOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwga2V5ID0gZXhlY3V0aW9uSWQudHJpbSgpCiAgICAgICAgaWYgKGtleS5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIHZhbCByZW1vdmVkQ29udHJvbGxlciA9IGNvbnRyb2xsZXJzLnJlbW92ZShrZXkpCiAgICAgICAgdmFsIHJlbW92ZWRQZW5kaW5nID0gcGVuZGluZ0NhbmNlbHMucmVtb3ZlKGtleSkKICAgICAgICByZXR1cm4gcmVtb3ZlZENvbnRyb2xsZXIgIT0gbnVsbCB8fCByZW1vdmVkUGVuZGluZwogICAgfQoKICAgIEBKdm1TdGF0aWMKICAgIGZ1biBjYW5jZWwoZXhlY3V0aW9uSWQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHZhbCBrZXkgPSBleGVjdXRpb25JZC50cmltKCkKICAgICAgICBpZiAoa2V5LmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CgogICAgICAgIHZhbCBjb250cm9sbGVyID0gY29udHJvbGxlcnMucmVtb3ZlKGtleSkKICAgICAgICBpZiAoY29udHJvbGxlciA9PSBudWxsKSB7CiAgICAgICAgICAgIHBlbmRpbmdDYW5jZWxzLmFkZChrZXkpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICBjb250cm9sbGVyLmNhbmNlbCgpCiAgICAgICAgfS5vbkZhaWx1cmUgeyBlcnJvciAtPgogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gY2FuY2VsIHJlZ2lzdGVyZWQgZXhlY3V0aW9uOiAka2V5IiwgZXJyb3IpCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnVlCiAgICB9Cn0K
+package com.bslsjdk.operit.plugins.toolpkg
+
+import com.bslsjdk.operit.core.chat.plugins.MessageProcessingController
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.ConcurrentHashMap
+
+object ToolPkgMessageProcessingCancellationRegistry {
+    private const val TAG = "ToolPkgMsgCancelRegistry"
+
+    private val controllers = ConcurrentHashMap<String, MessageProcessingController>()
+    private val pendingCancels = ConcurrentHashMap.newKeySet<String>()
+
+    @JvmStatic
+    fun register(executionId: String, controller: MessageProcessingController): Boolean {
+        val key = executionId.trim()
+        if (key.isBlank()) {
+            return false
+        }
+
+        controllers[key] = controller
+        if (pendingCancels.remove(key)) {
+            controllers.remove(key, controller)
+            runCatching {
+                controller.cancel()
+            }.onFailure { error ->
+                AppLogger.e(TAG, "Failed to cancel pending execution on register: $key", error)
+            }
+            return false
+        }
+        return true
+    }
+
+    @JvmStatic
+    fun unregister(executionId: String): Boolean {
+        val key = executionId.trim()
+        if (key.isBlank()) {
+            return false
+        }
+        val removedController = controllers.remove(key)
+        val removedPending = pendingCancels.remove(key)
+        return removedController != null || removedPending
+    }
+
+    @JvmStatic
+    fun cancel(executionId: String): Boolean {
+        val key = executionId.trim()
+        if (key.isBlank()) {
+            return false
+        }
+
+        val controller = controllers.remove(key)
+        if (controller == null) {
+            pendingCancels.add(key)
+            return false
+        }
+
+        runCatching {
+            controller.cancel()
+        }.onFailure { error ->
+            AppLogger.e(TAG, "Failed to cancel registered execution: $key", error)
+        }
+        return true
+    }
+}

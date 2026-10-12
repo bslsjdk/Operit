@@ -1,1 +1,159 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0ucGx1Z2lucwoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLmFzQ2hhclN0cmVhbQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLnNwbGl0QnkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5ydW5CbG9ja2luZwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC4qCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLmp1bml0LnJ1bm5lci5SdW5XaXRoCgpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgU3RyZWFtSnNvblBsdWdpblRlc3QgewoKICAgIC8vIC0tLSBUZXN0cyBmb3IgU3RyZWFtSnNvblBsdWdpbiAoZXh0cmFjdHMgZnVsbCBKU09OKSAtLS0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RTaW1wbGVKc29uT2JqZWN0KCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIGpzb24gPSAiIiJ7ImtleSI6InZhbHVlIiwibnVtYmVyIjoxMjN9IiIiCiAgICAgICAgdmFsIHN0cmVhbSA9ICJTb21lIHRleHQgYmVmb3JlICRqc29uIGFuZCBzb21lIGFmdGVyIi5hc0NoYXJTdHJlYW0oKQogICAgICAgIHZhbCBwbHVnaW4gPSBTdHJlYW1Kc29uUGx1Z2luKCkKCiAgICAgICAgdmFsIGdyb3VwcyA9IGNvbGxlY3RHcm91cHMoc3RyZWFtLCBwbHVnaW4pCgogICAgICAgIGFzc2VydEVxdWFscygzLCBncm91cHMuc2l6ZSkKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwc1swXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJTb21lIHRleHQgYmVmb3JlICIsIGdyb3Vwc1swXS5jb250ZW50KQoKICAgICAgICBhc3NlcnRTYW1lKHBsdWdpbiwgZ3JvdXBzWzFdLnRhZykKICAgICAgICBhc3NlcnRFcXVhbHMoanNvbiwgZ3JvdXBzWzFdLmNvbnRlbnQpCgogICAgICAgIGFzc2VydE51bGwoZ3JvdXBzWzJdLnRhZykKICAgICAgICBhc3NlcnRFcXVhbHMoIiBhbmQgc29tZSBhZnRlciIsIGdyb3Vwc1syXS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFNpbXBsZUpzb25BcnJheSgpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBqc29uID0gIiIiWyJhcHBsZSIsICJiYW5hbmEiLCAxLCB0cnVlXSIiIgogICAgICAgIHZhbCBzdHJlYW0gPSAiRGF0YTogJGpzb24iLmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbUpzb25QbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIsIGdyb3Vwcy5zaXplKQogICAgICAgIGFzc2VydEVxdWFscygiRGF0YTogIiwgZ3JvdXBzWzBdLmNvbnRlbnQpCiAgICAgICAgYXNzZXJ0U2FtZShwbHVnaW4sIGdyb3Vwc1sxXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGpzb24sIGdyb3Vwc1sxXS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdE5lc3RlZEpzb25PYmplY3QoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwganNvbiA9ICIiInsidXNlciI6eyJuYW1lIjoidGVzdCIsInJvbGVzIjpbImFkbWluIiwiZWRpdG9yIl19fSIiIgogICAgICAgIHZhbCBzdHJlYW0gPSBqc29uLmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbUpzb25QbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEsIGdyb3Vwcy5zaXplKQogICAgICAgIGFzc2VydFNhbWUocGx1Z2luLCBncm91cHNbMF0udGFnKQogICAgICAgIGFzc2VydEVxdWFscyhqc29uLCBncm91cHNbMF0uY29udGVudCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RKc29uV2l0aEVzY2FwZWRDaGFycygpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBqc29uID0gIiIieyJrZXkiOiJ2YWx1ZSB3aXRoIFwiZXNjYXBlZCBxdW90ZVwiIGFuZCBcXCBiYWNrc2xhc2gifSIiIgogICAgICAgIHZhbCBzdHJlYW0gPSBqc29uLmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbUpzb25QbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgZ3JvdXBzLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGpzb24sIGdyb3Vwc1swXS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdEpzb25XaXRoU3RyaW5nc0NvbnRhaW5pbmdCcmFjZXMoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwganNvbiA9ICIiInsicSI6IlNFTEVDVCAqIEZST00gdXNlcnMgV0hFUkUgbmFtZSA9ICdKb2huIHtEb2V9JyJ9IiIiCiAgICAgICAgdmFsIHN0cmVhbSA9IGpzb24uYXNDaGFyU3RyZWFtKCkKICAgICAgICB2YWwgcGx1Z2luID0gU3RyZWFtSnNvblBsdWdpbigpCgogICAgICAgIHZhbCBncm91cHMgPSBjb2xsZWN0R3JvdXBzKHN0cmVhbSwgcGx1Z2luKQogICAgICAgIGFzc2VydEVxdWFscygxLCBncm91cHMuc2l6ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoanNvbiwgZ3JvdXBzWzBdLmNvbnRlbnQpCiAgICB9CgogICAgLy8gLS0tIFRlc3RzIGZvciBTdHJlYW1QdXJlSnNvblBsdWdpbiAoZXh0cmFjdHMgYW5kIGZpbHRlcnMgY29udGVudCkgLS0tCgogICAgQFRlc3QKICAgIGZ1biB0ZXN0U2ltcGxlSnNvbk9iamVjdF9QdXJlKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIGpzb24gPSAiIiJ7ImtleSI6ICJ2YWx1ZSIsICJudW1iZXIiOiAxMjN9IiIiCiAgICAgICAgdmFsIHN0cmVhbSA9ICJJZ25vcmUgdGhpcy4gJGpzb24gQW5kIHRoaXMuIi5hc0NoYXJTdHJlYW0oKQogICAgICAgIHZhbCBwbHVnaW4gPSBTdHJlYW1QdXJlSnNvblBsdWdpbigpCgogICAgICAgIHZhbCBncm91cHMgPSBjb2xsZWN0R3JvdXBzKHN0cmVhbSwgcGx1Z2luKQoKICAgICAgICBhc3NlcnRFcXVhbHMoIlNob3VsZCBwcm9kdWNlIDMgZ3JvdXBzOiBiZWZvcmUsIGpzb24sIGFmdGVyIiwgMywgZ3JvdXBzLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJrZXl2YWx1ZTEyMyIsIGdyb3Vwc1sxXS5jb250ZW50KQogICAgICAgIGFzc2VydEVxdWFscygiIEFuZCB0aGlzLiIsIGdyb3Vwc1syXS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFNpbXBsZUpzb25BcnJheV9QdXJlKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIGpzb24gPSAiIiJbICJhcHBsZSIsICJiYW5hbmEiLCAxLCB0cnVlIF0iIiIKICAgICAgICB2YWwgc3RyZWFtID0ganNvbi5hc0NoYXJTdHJlYW0oKQogICAgICAgIHZhbCBwbHVnaW4gPSBTdHJlYW1QdXJlSnNvblBsdWdpbigpCgogICAgICAgIHZhbCBncm91cHMgPSBjb2xsZWN0R3JvdXBzKHN0cmVhbSwgcGx1Z2luKQoKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgZ3JvdXBzLnNpemUpCiAgICAgICAgYXNzZXJ0U2FtZShwbHVnaW4sIGdyb3Vwc1swXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJhcHBsZWJhbmFuYTF0cnVlIiwgZ3JvdXBzWzBdLmNvbnRlbnQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0TmVzdGVkSnNvbk9iamVjdF9QdXJlKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIGpzb24gPQogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgewogICAgICAgICAgICAidXNlciI6IHsKICAgICAgICAgICAgICAgICJuYW1lIjogInRlc3QiLAogICAgICAgICAgICAgICAgImFjdGl2ZSI6IHRydWUKICAgICAgICAgICAgfSwKICAgICAgICAgICAgInBlcm1pc3Npb25zIjogWyAicmVhZCIsICJ3cml0ZSIgXQogICAgICAgIH0KICAgICAgICAiIiIudHJpbUluZGVudCgpCiAgICAgICAgdmFsIHN0cmVhbSA9IGpzb24uYXNDaGFyU3RyZWFtKCkKICAgICAgICB2YWwgcGx1Z2luID0gU3RyZWFtUHVyZUpzb25QbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgZ3JvdXBzLnNpemUpCiAgICAgICAgYXNzZXJ0U2FtZShwbHVnaW4sIGdyb3Vwc1swXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ1c2VybmFtZXRlc3RhY3RpdmVwZXJtaXNzaW9uc3JlYWR3cml0ZSIsIGdyb3Vwc1swXS5jb250ZW50KQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFB1cmVXaXRoRXNjYXBlZENoYXJzKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIGpzb24gPSAiIiJ7ImtleSI6InZhbHVlIHdpdGggXCJlc2NhcGVkIHF1b3RlXCIgYW5kIFxcIGJhY2tzbGFzaCJ9IiIiCiAgICAgICAgdmFsIHN0cmVhbSA9IGpzb24uYXNDaGFyU3RyZWFtKCkKICAgICAgICB2YWwgcGx1Z2luID0gU3RyZWFtUHVyZUpzb25QbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgZ3JvdXBzLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiImtleXZhbHVld2l0aCJlc2NhcGVkIHF1b3RlImFuZFxiYWNrc2xhc2giIiIsIGdyb3Vwc1swXS5jb250ZW50KQogICAgfQoKICAgIC8vIC0tLSBIZWxwZXIgZnVuY3Rpb24gLS0tCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGNvbGxlY3RHcm91cHMoCiAgICAgICAgc3RyZWFtOiBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uU3RyZWFtPENoYXI+LAogICAgICAgIHBsdWdpbjogU3RyZWFtUGx1Z2luCiAgICApOiBMaXN0PEdyb3VwSW5mbz4gewogICAgICAgIHZhbCBncm91cExpc3QgPSBtdXRhYmxlTGlzdE9mPEdyb3VwSW5mbz4oKQogICAgICAgIHN0cmVhbS5zcGxpdEJ5KGxpc3RPZihwbHVnaW4pKS5jb2xsZWN0IHsgZ3JvdXAgLT4KICAgICAgICAgICAgdmFsIGNvbnRlbnQgPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICAgICAgZ3JvdXAuc3RyZWFtLmNvbGxlY3QgeyBjb250ZW50LmFwcGVuZChpdCkgfQogICAgICAgICAgICBncm91cExpc3QuYWRkKEdyb3VwSW5mbyhncm91cC50YWcsIGNvbnRlbnQudG9TdHJpbmcoKSkpCiAgICAgICAgfQogICAgICAgIHJldHVybiBncm91cExpc3QKICAgIH0KCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgR3JvdXBJbmZvKHZhbCB0YWc6IFN0cmVhbVBsdWdpbj8sIHZhbCBjb250ZW50OiBTdHJpbmcpCn0K
+package com.bslsjdk.operit.util.stream.plugins
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.bslsjdk.operit.util.stream.asCharStream
+import com.bslsjdk.operit.util.stream.splitBy
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.*
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class StreamJsonPluginTest {
+
+    // --- Tests for StreamJsonPlugin (extracts full JSON) ---
+
+    @Test
+    fun testSimpleJsonObject() = runBlocking {
+        val json = """{"key":"value","number":123}"""
+        val stream = "Some text before $json and some after".asCharStream()
+        val plugin = StreamJsonPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+        assertNull(groups[0].tag)
+        assertEquals("Some text before ", groups[0].content)
+
+        assertSame(plugin, groups[1].tag)
+        assertEquals(json, groups[1].content)
+
+        assertNull(groups[2].tag)
+        assertEquals(" and some after", groups[2].content)
+    }
+
+    @Test
+    fun testSimpleJsonArray() = runBlocking {
+        val json = """["apple", "banana", 1, true]"""
+        val stream = "Data: $json".asCharStream()
+        val plugin = StreamJsonPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(2, groups.size)
+        assertEquals("Data: ", groups[0].content)
+        assertSame(plugin, groups[1].tag)
+        assertEquals(json, groups[1].content)
+    }
+
+    @Test
+    fun testNestedJsonObject() = runBlocking {
+        val json = """{"user":{"name":"test","roles":["admin","editor"]}}"""
+        val stream = json.asCharStream()
+        val plugin = StreamJsonPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(1, groups.size)
+        assertSame(plugin, groups[0].tag)
+        assertEquals(json, groups[0].content)
+    }
+
+    @Test
+    fun testJsonWithEscapedChars() = runBlocking {
+        val json = """{"key":"value with \"escaped quote\" and \\ backslash"}"""
+        val stream = json.asCharStream()
+        val plugin = StreamJsonPlugin()
+
+        val groups = collectGroups(stream, plugin)
+        assertEquals(1, groups.size)
+        assertEquals(json, groups[0].content)
+    }
+
+    @Test
+    fun testJsonWithStringsContainingBraces() = runBlocking {
+        val json = """{"q":"SELECT * FROM users WHERE name = 'John {Doe}'"}"""
+        val stream = json.asCharStream()
+        val plugin = StreamJsonPlugin()
+
+        val groups = collectGroups(stream, plugin)
+        assertEquals(1, groups.size)
+        assertEquals(json, groups[0].content)
+    }
+
+    // --- Tests for StreamPureJsonPlugin (extracts and filters content) ---
+
+    @Test
+    fun testSimpleJsonObject_Pure() = runBlocking {
+        val json = """{"key": "value", "number": 123}"""
+        val stream = "Ignore this. $json And this.".asCharStream()
+        val plugin = StreamPureJsonPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals("Should produce 3 groups: before, json, after", 3, groups.size)
+        assertEquals("keyvalue123", groups[1].content)
+        assertEquals(" And this.", groups[2].content)
+    }
+
+    @Test
+    fun testSimpleJsonArray_Pure() = runBlocking {
+        val json = """[ "apple", "banana", 1, true ]"""
+        val stream = json.asCharStream()
+        val plugin = StreamPureJsonPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(1, groups.size)
+        assertSame(plugin, groups[0].tag)
+        assertEquals("applebanana1true", groups[0].content)
+    }
+
+    @Test
+    fun testNestedJsonObject_Pure() = runBlocking {
+        val json =
+                """
+        {
+            "user": {
+                "name": "test",
+                "active": true
+            },
+            "permissions": [ "read", "write" ]
+        }
+        """.trimIndent()
+        val stream = json.asCharStream()
+        val plugin = StreamPureJsonPlugin()
+
+        val groups = collectGroups(stream, plugin)
+        assertEquals(1, groups.size)
+        assertSame(plugin, groups[0].tag)
+        assertEquals("usernametestactivepermissionsreadwrite", groups[0].content)
+    }
+
+    @Test
+    fun testPureWithEscapedChars() = runBlocking {
+        val json = """{"key":"value with \"escaped quote\" and \\ backslash"}"""
+        val stream = json.asCharStream()
+        val plugin = StreamPureJsonPlugin()
+
+        val groups = collectGroups(stream, plugin)
+        assertEquals(1, groups.size)
+        assertEquals("""keyvaluewith"escaped quote"and\backslash""", groups[0].content)
+    }
+
+    // --- Helper function ---
+    private suspend fun collectGroups(
+        stream: com.bslsjdk.operit.util.stream.Stream<Char>,
+        plugin: StreamPlugin
+    ): List<GroupInfo> {
+        val groupList = mutableListOf<GroupInfo>()
+        stream.splitBy(listOf(plugin)).collect { group ->
+            val content = StringBuilder()
+            group.stream.collect { content.append(it) }
+            groupList.add(GroupInfo(group.tag, content.toString()))
+        }
+        return groupList
+    }
+
+    private data class GroupInfo(val tag: StreamPlugin?, val content: String)
+}

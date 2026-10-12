@@ -1,1 +1,105 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5TdHJpbmdSZXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5ob3Jpem9udGFsU2Nyb2xsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucmVtZW1iZXJTY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuQ2hlY2sKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkRvd25sb2FkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5GaWx0ZXJDaGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5GaWx0ZXJDaGlwRGVmYXVsdHMKCkBDb21wb3NhYmxlCmZ1biBNYXJrZXRCcm93c2VDb250cm9scygKICAgIHNlYXJjaFF1ZXJ5OiBTdHJpbmcsCiAgICBvblNlYXJjaFF1ZXJ5Q2hhbmdlZDogKFN0cmluZykgLT4gVW5pdCwKICAgIHNvcnRPcHRpb246IE1hcmtldFNvcnRPcHRpb24sCiAgICBvblNvcnRPcHRpb25DaGFuZ2VkOiAoTWFya2V0U29ydE9wdGlvbikgLT4gVW5pdCwKICAgIEBTdHJpbmdSZXMgc2VhcmNoUGxhY2Vob2xkZXJSZXM6IEludCwKICAgIHNvcnRPcHRpb25zOiBMaXN0PE1hcmtldFNvcnRPcHRpb24+ID0gTWFya2V0U29ydE9wdGlvbi5lbnRyaWVzLAogICAgZmVhdHVyZWRPbmx5OiBCb29sZWFuID0gdHJ1ZSwKICAgIG9uRmVhdHVyZWRPbmx5Q2hhbmdlZDogKEJvb2xlYW4pIC0+IFVuaXQgPSB7fSwKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyCikgewogICAgUm93KAogICAgICAgIG1vZGlmaWVyID0KICAgICAgICAgICAgbW9kaWZpZXIKICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDEyLmRwLCB2ZXJ0aWNhbCA9IDguZHApCiAgICAgICAgICAgICAgICAuaG9yaXpvbnRhbFNjcm9sbChyZW1lbWJlclNjcm9sbFN0YXRlKCkpLAogICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApLAogICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICkgewogICAgICAgIFRleHQoCiAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5jaGFyYWN0ZXJfY2FyZF9zb3J0KSwKICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0sCiAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0Lk1lZGl1bSwKICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICApCiAgICAgICAgc29ydE9wdGlvbnMuZm9yRWFjaCB7IG9wdGlvbiAtPgogICAgICAgICAgICBGaWx0ZXJDaGlwKAogICAgICAgICAgICAgICAgc2VsZWN0ZWQgPSBzb3J0T3B0aW9uID09IG9wdGlvbiwKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IG9uU29ydE9wdGlvbkNoYW5nZWQob3B0aW9uKSB9LAogICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2Uob3B0aW9uLmxhYmVsUmVzKSkgfQogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIEZpbHRlckNoaXAoCiAgICAgICAgICAgIHNlbGVjdGVkID0gZmVhdHVyZWRPbmx5LAogICAgICAgICAgICBvbkNsaWNrID0geyBvbkZlYXR1cmVkT25seUNoYW5nZWQoIWZlYXR1cmVkT25seSkgfSwKICAgICAgICAgICAgbGVhZGluZ0ljb24gPSB7CiAgICAgICAgICAgICAgICBpZiAoZmVhdHVyZWRPbmx5KSB7CiAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LkNoZWNrLAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoRmlsdGVyQ2hpcERlZmF1bHRzLkljb25TaXplKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWFya2V0X2ZpbHRlcl9mZWF0dXJlZF9vbmx5KSkgfQogICAgICAgICkKICAgIH0KfQoKQENvbXBvc2FibGUKZnVuIE1hcmtldFN0YXRzU3VtbWFyeSgKICAgIGRvd25sb2FkczogSW50LAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICBSb3coCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllciwKICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg0LmRwKSwKICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICApIHsKICAgICAgICBSb3coCiAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDQuZHApLAogICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICAgICAgKSB7CiAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICBJY29ucy5EZWZhdWx0LkRvd25sb2FkLAogICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgxMi5kcCksCiAgICAgICAgICAgICAgICB0aW50ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICkKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tYXJrZXRfc3RhdF9kb3dubG9hZHNfc2hvcnQsIGRvd25sb2FkcyksCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbFNtYWxsLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.packages.market
+
+import androidx.annotation.StringRes
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Download
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import androidx.compose.material3.FilterChipDefaults
+
+@Composable
+fun MarketBrowseControls(
+    searchQuery: String,
+    onSearchQueryChanged: (String) -> Unit,
+    sortOption: MarketSortOption,
+    onSortOptionChanged: (MarketSortOption) -> Unit,
+    @StringRes searchPlaceholderRes: Int,
+    sortOptions: List<MarketSortOption> = MarketSortOption.entries,
+    featuredOnly: Boolean = true,
+    onFeaturedOnlyChanged: (Boolean) -> Unit = {},
+    modifier: Modifier = Modifier
+) {
+    Row(
+        modifier =
+            modifier
+                .fillMaxWidth()
+                .padding(horizontal = 12.dp, vertical = 8.dp)
+                .horizontalScroll(rememberScrollState()),
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Text(
+            text = stringResource(R.string.character_card_sort),
+            style = MaterialTheme.typography.labelMedium,
+            fontWeight = FontWeight.Medium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+        sortOptions.forEach { option ->
+            FilterChip(
+                selected = sortOption == option,
+                onClick = { onSortOptionChanged(option) },
+                label = { Text(stringResource(option.labelRes)) }
+            )
+        }
+        FilterChip(
+            selected = featuredOnly,
+            onClick = { onFeaturedOnlyChanged(!featuredOnly) },
+            leadingIcon = {
+                if (featuredOnly) {
+                    Icon(
+                        imageVector = Icons.Default.Check,
+                        contentDescription = null,
+                        modifier = Modifier.size(FilterChipDefaults.IconSize)
+                    )
+                }
+            },
+            label = { Text(stringResource(R.string.market_filter_featured_only)) }
+        )
+    }
+}
+
+@Composable
+fun MarketStatsSummary(
+    downloads: Int,
+    modifier: Modifier = Modifier
+) {
+    Row(
+        modifier = modifier,
+        horizontalArrangement = Arrangement.spacedBy(4.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Row(
+            horizontalArrangement = Arrangement.spacedBy(4.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(
+                Icons.Default.Download,
+                contentDescription = null,
+                modifier = Modifier.size(12.dp),
+                tint = MaterialTheme.colorScheme.primary
+            )
+            Text(
+                text = stringResource(R.string.market_stat_downloads_short, downloads),
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.primary
+            )
+        }
+    }
+}

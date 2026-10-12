@@ -1,1 +1,238 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLlByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5lZGl0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5mbG9hdFByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5zdHJpbmdQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuc3RyaW5nU2V0UHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5wcmVmZXJlbmNlc0RhdGFTdG9yZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmFwaS5zcGVlY2guU3BlZWNoU2VydmljZUZhY3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5hcGkudm9pY2UuSHR0cFR0c1Jlc3BvbnNlUGlwZWxpbmVTdGVwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlLlZvaWNlU2VydmljZUZhY3RvcnkKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5tYXAKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKcHJpdmF0ZSB2YWwgQ29udGV4dC5zcGVlY2hTZXJ2aWNlc0RhdGFTdG9yZTogRGF0YVN0b3JlPFByZWZlcmVuY2VzPiBieQogICAgcHJlZmVyZW5jZXNEYXRhU3RvcmUobmFtZSA9ICJzcGVlY2hfc2VydmljZXNfcHJlZmVyZW5jZXMiKQoKLyoqCiAqIExlZ2FjeSBzaW5nbGUtY29uZmlnIHN0b3JlIGZvciBzcGVlY2ggc2VydmljZXMuCiAqCiAqIE5ldyBjb2RlIG1hbmFnZXMgcHJvZmlsZXMgdGhyb3VnaCBbU3BlZWNoU2VydmljZVByb2ZpbGVzUHJlZmVyZW5jZXNdLiBUaGlzIHN0b3JlIHJlbWFpbnMgdGhlCiAqIGFjdGl2ZS1wcm9maWxlIHByb2plY3Rpb24gY29uc3VtZWQgYnkgZXhpc3RpbmcgcHJvdmlkZXJzIGFuZCBwdWJsaXNoZWQtdmVyc2lvbiBpbnRlZ3JhdGlvbnMuCiAqLwpjbGFzcyBTcGVlY2hTZXJ2aWNlc1ByZWZlcmVuY2VzKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKCiAgICBwcml2YXRlIHZhbCBkYXRhU3RvcmUgPSBjb250ZXh0LnNwZWVjaFNlcnZpY2VzRGF0YVN0b3JlCiAgICBwcml2YXRlIHZhbCBzZXJpYWxpemVySnNvbiA9IEpzb24geyBpZ25vcmVVbmtub3duS2V5cyA9IHRydWUgfQoKICAgIEBTZXJpYWxpemFibGUKICAgIGRhdGEgY2xhc3MgVHRzSHR0cENvbmZpZygKICAgICAgICB2YWwgdXJsVGVtcGxhdGU6IFN0cmluZywKICAgICAgICB2YWwgYXBpS2V5OiBTdHJpbmcsIC8vIEtlZXAgYXBpS2V5IGZvciBoZWFkZXItYmFzZWQgYXV0aAogICAgICAgIHZhbCBoZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgICAgIHZhbCBodHRwTWV0aG9kOiBTdHJpbmcgPSAiR0VUIiwgLy8gSFRUUOaWueazle+8mkdFVCDmiJYgUE9TVAogICAgICAgIHZhbCByZXF1ZXN0Qm9keTogU3RyaW5nID0gIiIsIC8vIFBPU1Tor7fmsYLnmoRib2R55qih5p2/77yM5pSv5oyB5Y2g5L2N56ym5aaCe3RleHR9CiAgICAgICAgdmFsIGNvbnRlbnRUeXBlOiBTdHJpbmcgPSAiYXBwbGljYXRpb24vanNvbiIsIC8vIFBPU1Tor7fmsYLnmoRDb250ZW50LVR5cGUKICAgICAgICB2YWwgbG9jYWxlVGFnOiBTdHJpbmcgPSAiIiwgLy8g6YCa55SoIFRUUyDor63oqIDmoIfnrb7vvIzlpoIgemgtQ07jgIFlbi1VUwogICAgICAgIHZhbCB2b2ljZUlkOiBTdHJpbmcgPSAiIiwgLy8g54m55a6a5LqOVFRT5o+Q5L6b5ZWG55qE6Z+z6ImySUQKICAgICAgICB2YWwgbW9kZWxOYW1lOiBTdHJpbmcgPSAiIiwgLy8gVFRT5qih5Z6L5ZCN56ew77yI55So5LqOU2lsaWNvbkZsb3fnrYnvvIkKICAgICAgICB2YWwgcmVzcG9uc2VQaXBlbGluZTogTGlzdDxIdHRwVHRzUmVzcG9uc2VQaXBlbGluZVN0ZXA+ID0gZW1wdHlMaXN0KCkKICAgICkKCiAgICBAU2VyaWFsaXphYmxlCiAgICBkYXRhIGNsYXNzIFZpdHNUdHNQYWNrYWdlQ29uZmlnKAogICAgICAgIHZhbCBwYWNrYWdlUGF0aDogU3RyaW5nID0gIiIsCiAgICAgICAgdmFsIHNwZWFrZXJJZDogU3RyaW5nID0gIiIsCiAgICAgICAgdmFsIG9wdGlvbnM6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpCiAgICApCgogICAgQFNlcmlhbGl6YWJsZQogICAgZGF0YSBjbGFzcyBTdHRIdHRwQ29uZmlnKAogICAgICAgIHZhbCBlbmRwb2ludFVybDogU3RyaW5nLAogICAgICAgIHZhbCBhcGlLZXk6IFN0cmluZywKICAgICAgICB2YWwgbW9kZWxOYW1lOiBTdHJpbmcsCiAgICApCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgLy8gVFRTIFByZWZlcmVuY2UgS2V5cwogICAgICAgIHZhbCBUVFNfU0VSVklDRV9UWVBFID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoInR0c19zZXJ2aWNlX3R5cGUiKQogICAgICAgIHZhbCBUVFNfSFRUUF9DT05GSUcgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgidHRzX2h0dHBfY29uZmlnIikKICAgICAgICB2YWwgVFRTX1ZJVFNfUEFDS0FHRV9DT05GSUcgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgidHRzX3ZpdHNfcGFja2FnZV9jb25maWciKQogICAgICAgIHZhbCBUVFNfQ0xFQU5FUl9SRUdFWFMgPSBzdHJpbmdTZXRQcmVmZXJlbmNlc0tleSgidHRzX2NsZWFuZXJfcmVnZXhzIikKICAgICAgICB2YWwgVFRTX1NQRUVDSF9SQVRFID0gZmxvYXRQcmVmZXJlbmNlc0tleSgidHRzX3NwZWVjaF9yYXRlIikKICAgICAgICB2YWwgVFRTX1BJVENIID0gZmxvYXRQcmVmZXJlbmNlc0tleSgidHRzX3BpdGNoIikKCiAgICAgICAgLy8gU1RUIFByZWZlcmVuY2UgS2V5cwogICAgICAgIHZhbCBTVFRfU0VSVklDRV9UWVBFID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoInN0dF9zZXJ2aWNlX3R5cGUiKQogICAgICAgIHZhbCBTVFRfSFRUUF9DT05GSUcgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgic3R0X2h0dHBfY29uZmlnIikKCiAgICAgICAgLy8gRGVmYXVsdCBWYWx1ZXMKICAgICAgICB2YWwgREVGQVVMVF9UVFNfU0VSVklDRV9UWVBFID0gVm9pY2VTZXJ2aWNlRmFjdG9yeS5Wb2ljZVNlcnZpY2VUeXBlLlNJTVBMRV9UVFMKICAgICAgICB2YWwgREVGQVVMVF9TVFRfU0VSVklDRV9UWVBFID0gU3BlZWNoU2VydmljZUZhY3RvcnkuU3BlZWNoU2VydmljZVR5cGUuU0hFUlBBX05DTk4KCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfVFRTX1NQRUVDSF9SQVRFID0gMS4wZgogICAgICAgIGNvbnN0IHZhbCBERUZBVUxUX1RUU19QSVRDSCA9IDEuMGYKCiAgICAgICAgLy8gSFRUUCBUVFPnmoTpu5jorqTpooTorr4KICAgICAgICB2YWwgREVGQVVMVF9IVFRQX1RUU19QUkVTRVQgPSBUdHNIdHRwQ29uZmlnKAogICAgICAgICAgICB1cmxUZW1wbGF0ZSA9ICIiLAogICAgICAgICAgICBhcGlLZXkgPSAiIiwKICAgICAgICAgICAgaGVhZGVycyA9IGVtcHR5TWFwKCksCiAgICAgICAgICAgIGh0dHBNZXRob2QgPSAiR0VUIiwKICAgICAgICAgICAgcmVxdWVzdEJvZHkgPSAiIiwKICAgICAgICAgICAgY29udGVudFR5cGUgPSAiYXBwbGljYXRpb24vanNvbiIsCiAgICAgICAgICAgIGxvY2FsZVRhZyA9ICIiLAogICAgICAgICAgICB2b2ljZUlkID0gIiIsCiAgICAgICAgICAgIG1vZGVsTmFtZSA9ICIiLAogICAgICAgICAgICByZXNwb25zZVBpcGVsaW5lID0gZW1wdHlMaXN0KCkKICAgICAgICApCgogICAgICAgIHZhbCBERUZBVUxUX1ZJVFNfVFRTX1BBQ0tBR0VfQ09ORklHID0gVml0c1R0c1BhY2thZ2VDb25maWcoKQoKICAgICAgICB2YWwgREVGQVVMVF9TVFRfSFRUUF9QUkVTRVQgPSBTdHRIdHRwQ29uZmlnKAogICAgICAgICAgICBlbmRwb2ludFVybCA9ICJodHRwczovL2FwaS5vcGVuYWkuY29tL3YxL2F1ZGlvL3RyYW5zY3JpcHRpb25zIiwKICAgICAgICAgICAgYXBpS2V5ID0gIiIsCiAgICAgICAgICAgIG1vZGVsTmFtZSA9ICJ3aGlzcGVyLTEiLAogICAgICAgICkKCiAgICAgICAgLy8gVFRTIENsZWFuZXIg55qE6buY6K6k5q2j5YiZ6KGo6L6+5byP5YiX6KGo77yI5Y676Zmk5Lit6Iux5paH5ous5Y+35YaF5a6577yJCiAgICAgICAgdmFsIERFRkFVTFRfVFRTX0NMRUFORVJfUkVHRVhTID0gbGlzdE9mKAogICAgICAgICAgICAiXFwoW14pXStcXCkiLCAgLy8g6Iux5paH5ous5Y+3CiAgICAgICAgICAgICLvvIhbXu+8iV0r77yJIiAgICAgLy8g5Lit5paH5ous5Y+3CiAgICAgICAgKQoKICAgICAgICBwcml2YXRlIGZ1biBwYXJzZVN0dFNlcnZpY2VUeXBlKHJhdzogU3RyaW5nPyk6IFNwZWVjaFNlcnZpY2VGYWN0b3J5LlNwZWVjaFNlcnZpY2VUeXBlIHsKICAgICAgICAgICAgaWYgKHJhdyA9PSBudWxsKSByZXR1cm4gREVGQVVMVF9TVFRfU0VSVklDRV9UWVBFCiAgICAgICAgICAgIGlmIChyYXcgPT0gIlNIRVJQQV9NTk4iKSByZXR1cm4gU3BlZWNoU2VydmljZUZhY3RvcnkuU3BlZWNoU2VydmljZVR5cGUuU0hFUlBBX05DTk4KICAgICAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsgU3BlZWNoU2VydmljZUZhY3RvcnkuU3BlZWNoU2VydmljZVR5cGUudmFsdWVPZihyYXcpIH0KICAgICAgICAgICAgICAgIC5nZXRPckVsc2UgeyBERUZBVUxUX1NUVF9TRVJWSUNFX1RZUEUgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyAtLS0gVFRTIEZsb3dzIC0tLQogICAgdmFsIHR0c1NlcnZpY2VUeXBlRmxvdzogRmxvdzxWb2ljZVNlcnZpY2VGYWN0b3J5LlZvaWNlU2VydmljZVR5cGU+ID0gZGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZnMgLT4KICAgICAgICBWb2ljZVNlcnZpY2VGYWN0b3J5LlZvaWNlU2VydmljZVR5cGUudmFsdWVPZigKICAgICAgICAgICAgcHJlZnNbVFRTX1NFUlZJQ0VfVFlQRV0gPzogREVGQVVMVF9UVFNfU0VSVklDRV9UWVBFLm5hbWUKICAgICAgICApCiAgICB9CgogICAgdmFsIHR0c0h0dHBDb25maWdGbG93OiBGbG93PFR0c0h0dHBDb25maWc+ID0gZGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZnMgLT4KICAgICAgICB2YWwganNvbiA9IHByZWZzW1RUU19IVFRQX0NPTkZJR10KICAgICAgICBpZiAoanNvbiAhPSBudWxsKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBzZXJpYWxpemVySnNvbi5kZWNvZGVGcm9tU3RyaW5nPFR0c0h0dHBDb25maWc+KGpzb24pCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgREVGQVVMVF9IVFRQX1RUU19QUkVTRVQgLy8gRmFsbGJhY2sgdG8gZGVmYXVsdCBwcmVzZXQgb24gcGFyc2luZyBlcnJvcgogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgREVGQVVMVF9IVFRQX1RUU19QUkVTRVQKICAgICAgICB9CiAgICB9CgogICAgdmFsIHR0c1ZpdHNQYWNrYWdlQ29uZmlnRmxvdzogRmxvdzxWaXRzVHRzUGFja2FnZUNvbmZpZz4gPSBkYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmcyAtPgogICAgICAgIHZhbCBqc29uID0gcHJlZnNbVFRTX1ZJVFNfUEFDS0FHRV9DT05GSUddCiAgICAgICAgaWYgKGpzb24gPT0gbnVsbCkgewogICAgICAgICAgICBERUZBVUxUX1ZJVFNfVFRTX1BBQ0tBR0VfQ09ORklHCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc2VyaWFsaXplckpzb24uZGVjb2RlRnJvbVN0cmluZzxWaXRzVHRzUGFja2FnZUNvbmZpZz4oanNvbikKICAgICAgICB9CiAgICB9CgogICAgdmFsIHR0c0NsZWFuZXJSZWdleHNGbG93OiBGbG93PExpc3Q8U3RyaW5nPj4gPSBkYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmcyAtPgogICAgICAgIHZhbCBzdG9yZWRSZWdleHMgPSBwcmVmc1tUVFNfQ0xFQU5FUl9SRUdFWFNdCiAgICAgICAgaWYgKHN0b3JlZFJlZ2V4cyA9PSBudWxsKSB7CiAgICAgICAgICAgIERFRkFVTFRfVFRTX0NMRUFORVJfUkVHRVhTCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc3RvcmVkUmVnZXhzLnRvTGlzdCgpCiAgICAgICAgfQogICAgfQoKICAgIHZhbCB0dHNTcGVlY2hSYXRlRmxvdzogRmxvdzxGbG9hdD4gPSBkYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmcyAtPgogICAgICAgIHByZWZzW1RUU19TUEVFQ0hfUkFURV0gPzogREVGQVVMVF9UVFNfU1BFRUNIX1JBVEUKICAgIH0KCiAgICB2YWwgdHRzUGl0Y2hGbG93OiBGbG93PEZsb2F0PiA9IGRhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZzIC0+CiAgICAgICAgcHJlZnNbVFRTX1BJVENIXSA/OiBERUZBVUxUX1RUU19QSVRDSAogICAgfQoKICAgIC8vIC0tLSBTVFQgRmxvd3MgLS0tCiAgICB2YWwgc3R0U2VydmljZVR5cGVGbG93OiBGbG93PFNwZWVjaFNlcnZpY2VGYWN0b3J5LlNwZWVjaFNlcnZpY2VUeXBlPiA9IGRhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZzIC0+CiAgICAgICAgcGFyc2VTdHRTZXJ2aWNlVHlwZShwcmVmc1tTVFRfU0VSVklDRV9UWVBFXSkKICAgIH0KCiAgICB2YWwgc3R0SHR0cENvbmZpZ0Zsb3c6IEZsb3c8U3R0SHR0cENvbmZpZz4gPSBkYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmcyAtPgogICAgICAgIHZhbCBqc29uID0gcHJlZnNbU1RUX0hUVFBfQ09ORklHXQogICAgICAgIGlmIChqc29uICE9IG51bGwpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHNlcmlhbGl6ZXJKc29uLmRlY29kZUZyb21TdHJpbmc8U3R0SHR0cENvbmZpZz4oanNvbikKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBERUZBVUxUX1NUVF9IVFRQX1BSRVNFVAogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgREVGQVVMVF9TVFRfSFRUUF9QUkVTRVQKICAgICAgICB9CiAgICB9CgogICAgLy8gLS0tIFNhdmUgVFRTIFNldHRpbmdzIC0tLQogICAgc3VzcGVuZCBmdW4gc2F2ZVR0c1NldHRpbmdzKAogICAgICAgIHNlcnZpY2VUeXBlOiBWb2ljZVNlcnZpY2VGYWN0b3J5LlZvaWNlU2VydmljZVR5cGUsCiAgICAgICAgaHR0cENvbmZpZzogVHRzSHR0cENvbmZpZz8gPSBudWxsLAogICAgICAgIHZpdHNDb25maWc6IFZpdHNUdHNQYWNrYWdlQ29uZmlnPyA9IG51bGwsCiAgICAgICAgY2xlYW5lclJlZ2V4czogTGlzdDxTdHJpbmc+PyA9IG51bGwsCiAgICAgICAgc3BlZWNoUmF0ZTogRmxvYXQ/ID0gbnVsbCwKICAgICAgICBwaXRjaDogRmxvYXQ/ID0gbnVsbAogICAgKSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tUVFNfU0VSVklDRV9UWVBFXSA9IHNlcnZpY2VUeXBlLm5hbWUKCiAgICAgICAgICAgIC8vIOezu+e7nyBUVFMg5Lmf5LuO6L+Z5Lu95pen5a2X5q616K+75Y+W6K+t6KiA5ZKM6Z+z6Imy77yM6L+B56e75oqV5b2x5b+F6aG75L+d55WZ5a6D5Lus44CCCiAgICAgICAgICAgIGh0dHBDb25maWc/LmxldCB7IHByZWZzW1RUU19IVFRQX0NPTkZJR10gPSBzZXJpYWxpemVySnNvbi5lbmNvZGVUb1N0cmluZyhpdCkgfQoKICAgICAgICAgICAgY2xlYW5lclJlZ2V4cz8ubGV0IHsKICAgICAgICAgICAgICAgIHByZWZzW1RUU19DTEVBTkVSX1JFR0VYU10gPSBpdC5maWx0ZXIgeyByZWdleCAtPiByZWdleC5pc05vdEJsYW5rKCkgfS50b1NldCgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHNwZWVjaFJhdGU/LmxldCB7IHByZWZzW1RUU19TUEVFQ0hfUkFURV0gPSBpdCB9CiAgICAgICAgICAgIHBpdGNoPy5sZXQgeyBwcmVmc1tUVFNfUElUQ0hdID0gaXQgfQoKICAgICAgICAgICAgaWYgKHNlcnZpY2VUeXBlID09IFZvaWNlU2VydmljZUZhY3RvcnkuVm9pY2VTZXJ2aWNlVHlwZS5WSVRTX1RUUykgewogICAgICAgICAgICAgICAgdml0c0NvbmZpZz8ubGV0IHsgcHJlZnNbVFRTX1ZJVFNfUEFDS0FHRV9DT05GSUddID0gc2VyaWFsaXplckpzb24uZW5jb2RlVG9TdHJpbmcoaXQpIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5Y+q5L+d5a2YIFRUUyDmuIXnkIbmraPliJnliJfooaggKi8KICAgIHN1c3BlbmQgZnVuIHNhdmVUdHNDbGVhbmVyUmVnZXhzKHJlZ2V4czogTGlzdDxTdHJpbmc+KSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmcyAtPgogICAgICAgICAgICBwcmVmc1tUVFNfQ0xFQU5FUl9SRUdFWFNdID0gcmVnZXhzLmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9LnRvU2V0KCkKICAgICAgICB9CiAgICB9CgogICAgLy8gLS0tIFNhdmUgU1RUIFNldHRpbmdzIC0tLQogICAgc3VzcGVuZCBmdW4gc2F2ZVN0dFNldHRpbmdzKAogICAgICAgIHNlcnZpY2VUeXBlOiBTcGVlY2hTZXJ2aWNlRmFjdG9yeS5TcGVlY2hTZXJ2aWNlVHlwZSwKICAgICAgICBodHRwQ29uZmlnOiBTdHRIdHRwQ29uZmlnPyA9IG51bGwsCiAgICApIHsKICAgICAgICBkYXRhU3RvcmUuZWRpdCB7IHByZWZzIC0+CiAgICAgICAgICAgIHByZWZzW1NUVF9TRVJWSUNFX1RZUEVdID0gc2VydmljZVR5cGUubmFtZQoKICAgICAgICAgICAgd2hlbiAoc2VydmljZVR5cGUpIHsKICAgICAgICAgICAgICAgIFNwZWVjaFNlcnZpY2VGYWN0b3J5LlNwZWVjaFNlcnZpY2VUeXBlLlNIRVJQQV9OQ05OIC0+IHsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFNwZWVjaFNlcnZpY2VGYWN0b3J5LlNwZWVjaFNlcnZpY2VUeXBlLk9QRU5BSV9TVFQgLT4gewogICAgICAgICAgICAgICAgICAgIGh0dHBDb25maWc/LmxldCB7IHByZWZzW1NUVF9IVFRQX0NPTkZJR10gPSBzZXJpYWxpemVySnNvbi5lbmNvZGVUb1N0cmluZyhpdCkgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgU3BlZWNoU2VydmljZUZhY3RvcnkuU3BlZWNoU2VydmljZVR5cGUuREVFUEdSQU1fU1RUIC0+IHsKICAgICAgICAgICAgICAgICAgICBodHRwQ29uZmlnPy5sZXQgeyBwcmVmc1tTVFRfSFRUUF9DT05GSUddID0gc2VyaWFsaXplckpzb24uZW5jb2RlVG9TdHJpbmcoaXQpIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.floatPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.core.stringSetPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import com.bslsjdk.operit.api.speech.SpeechServiceFactory
+import com.bslsjdk.operit.api.voice.HttpTtsResponsePipelineStep
+import com.bslsjdk.operit.api.voice.VoiceServiceFactory
+
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+private val Context.speechServicesDataStore: DataStore<Preferences> by
+    preferencesDataStore(name = "speech_services_preferences")
+
+/**
+ * Legacy single-config store for speech services.
+ *
+ * New code manages profiles through [SpeechServiceProfilesPreferences]. This store remains the
+ * active-profile projection consumed by existing providers and published-version integrations.
+ */
+class SpeechServicesPreferences(private val context: Context) {
+
+    private val dataStore = context.speechServicesDataStore
+    private val serializerJson = Json { ignoreUnknownKeys = true }
+
+    @Serializable
+    data class TtsHttpConfig(
+        val urlTemplate: String,
+        val apiKey: String, // Keep apiKey for header-based auth
+        val headers: Map<String, String>,
+        val httpMethod: String = "GET", // HTTP方法：GET 或 POST
+        val requestBody: String = "", // POST请求的body模板，支持占位符如{text}
+        val contentType: String = "application/json", // POST请求的Content-Type
+        val localeTag: String = "", // 通用 TTS 语言标签，如 zh-CN、en-US
+        val voiceId: String = "", // 特定于TTS提供商的音色ID
+        val modelName: String = "", // TTS模型名称（用于SiliconFlow等）
+        val responsePipeline: List<HttpTtsResponsePipelineStep> = emptyList()
+    )
+
+    @Serializable
+    data class VitsTtsPackageConfig(
+        val packagePath: String = "",
+        val speakerId: String = "",
+        val options: Map<String, String> = emptyMap()
+    )
+
+    @Serializable
+    data class SttHttpConfig(
+        val endpointUrl: String,
+        val apiKey: String,
+        val modelName: String,
+    )
+
+    companion object {
+        // TTS Preference Keys
+        val TTS_SERVICE_TYPE = stringPreferencesKey("tts_service_type")
+        val TTS_HTTP_CONFIG = stringPreferencesKey("tts_http_config")
+        val TTS_VITS_PACKAGE_CONFIG = stringPreferencesKey("tts_vits_package_config")
+        val TTS_CLEANER_REGEXS = stringSetPreferencesKey("tts_cleaner_regexs")
+        val TTS_SPEECH_RATE = floatPreferencesKey("tts_speech_rate")
+        val TTS_PITCH = floatPreferencesKey("tts_pitch")
+
+        // STT Preference Keys
+        val STT_SERVICE_TYPE = stringPreferencesKey("stt_service_type")
+        val STT_HTTP_CONFIG = stringPreferencesKey("stt_http_config")
+
+        // Default Values
+        val DEFAULT_TTS_SERVICE_TYPE = VoiceServiceFactory.VoiceServiceType.SIMPLE_TTS
+        val DEFAULT_STT_SERVICE_TYPE = SpeechServiceFactory.SpeechServiceType.SHERPA_NCNN
+
+        const val DEFAULT_TTS_SPEECH_RATE = 1.0f
+        const val DEFAULT_TTS_PITCH = 1.0f
+
+        // HTTP TTS的默认预设
+        val DEFAULT_HTTP_TTS_PRESET = TtsHttpConfig(
+            urlTemplate = "",
+            apiKey = "",
+            headers = emptyMap(),
+            httpMethod = "GET",
+            requestBody = "",
+            contentType = "application/json",
+            localeTag = "",
+            voiceId = "",
+            modelName = "",
+            responsePipeline = emptyList()
+        )
+
+        val DEFAULT_VITS_TTS_PACKAGE_CONFIG = VitsTtsPackageConfig()
+
+        val DEFAULT_STT_HTTP_PRESET = SttHttpConfig(
+            endpointUrl = "https://api.openai.com/v1/audio/transcriptions",
+            apiKey = "",
+            modelName = "whisper-1",
+        )
+
+        // TTS Cleaner 的默认正则表达式列表（去除中英文括号内容）
+        val DEFAULT_TTS_CLEANER_REGEXS = listOf(
+            "\\([^)]+\\)",  // 英文括号
+            "（[^）]+）"     // 中文括号
+        )
+
+        private fun parseSttServiceType(raw: String?): SpeechServiceFactory.SpeechServiceType {
+            if (raw == null) return DEFAULT_STT_SERVICE_TYPE
+            if (raw == "SHERPA_MNN") return SpeechServiceFactory.SpeechServiceType.SHERPA_NCNN
+            return runCatching { SpeechServiceFactory.SpeechServiceType.valueOf(raw) }
+                .getOrElse { DEFAULT_STT_SERVICE_TYPE }
+        }
+    }
+
+    // --- TTS Flows ---
+    val ttsServiceTypeFlow: Flow<VoiceServiceFactory.VoiceServiceType> = dataStore.data.map { prefs ->
+        VoiceServiceFactory.VoiceServiceType.valueOf(
+            prefs[TTS_SERVICE_TYPE] ?: DEFAULT_TTS_SERVICE_TYPE.name
+        )
+    }
+
+    val ttsHttpConfigFlow: Flow<TtsHttpConfig> = dataStore.data.map { prefs ->
+        val json = prefs[TTS_HTTP_CONFIG]
+        if (json != null) {
+            try {
+                serializerJson.decodeFromString<TtsHttpConfig>(json)
+            } catch (e: Exception) {
+                DEFAULT_HTTP_TTS_PRESET // Fallback to default preset on parsing error
+            }
+        } else {
+            DEFAULT_HTTP_TTS_PRESET
+        }
+    }
+
+    val ttsVitsPackageConfigFlow: Flow<VitsTtsPackageConfig> = dataStore.data.map { prefs ->
+        val json = prefs[TTS_VITS_PACKAGE_CONFIG]
+        if (json == null) {
+            DEFAULT_VITS_TTS_PACKAGE_CONFIG
+        } else {
+            serializerJson.decodeFromString<VitsTtsPackageConfig>(json)
+        }
+    }
+
+    val ttsCleanerRegexsFlow: Flow<List<String>> = dataStore.data.map { prefs ->
+        val storedRegexs = prefs[TTS_CLEANER_REGEXS]
+        if (storedRegexs == null) {
+            DEFAULT_TTS_CLEANER_REGEXS
+        } else {
+            storedRegexs.toList()
+        }
+    }
+
+    val ttsSpeechRateFlow: Flow<Float> = dataStore.data.map { prefs ->
+        prefs[TTS_SPEECH_RATE] ?: DEFAULT_TTS_SPEECH_RATE
+    }
+
+    val ttsPitchFlow: Flow<Float> = dataStore.data.map { prefs ->
+        prefs[TTS_PITCH] ?: DEFAULT_TTS_PITCH
+    }
+
+    // --- STT Flows ---
+    val sttServiceTypeFlow: Flow<SpeechServiceFactory.SpeechServiceType> = dataStore.data.map { prefs ->
+        parseSttServiceType(prefs[STT_SERVICE_TYPE])
+    }
+
+    val sttHttpConfigFlow: Flow<SttHttpConfig> = dataStore.data.map { prefs ->
+        val json = prefs[STT_HTTP_CONFIG]
+        if (json != null) {
+            try {
+                serializerJson.decodeFromString<SttHttpConfig>(json)
+            } catch (e: Exception) {
+                DEFAULT_STT_HTTP_PRESET
+            }
+        } else {
+            DEFAULT_STT_HTTP_PRESET
+        }
+    }
+
+    // --- Save TTS Settings ---
+    suspend fun saveTtsSettings(
+        serviceType: VoiceServiceFactory.VoiceServiceType,
+        httpConfig: TtsHttpConfig? = null,
+        vitsConfig: VitsTtsPackageConfig? = null,
+        cleanerRegexs: List<String>? = null,
+        speechRate: Float? = null,
+        pitch: Float? = null
+    ) {
+        dataStore.edit { prefs ->
+            prefs[TTS_SERVICE_TYPE] = serviceType.name
+
+            // 系统 TTS 也从这份旧字段读取语言和音色，迁移投影必须保留它们。
+            httpConfig?.let { prefs[TTS_HTTP_CONFIG] = serializerJson.encodeToString(it) }
+
+            cleanerRegexs?.let {
+                prefs[TTS_CLEANER_REGEXS] = it.filter { regex -> regex.isNotBlank() }.toSet()
+            }
+
+            speechRate?.let { prefs[TTS_SPEECH_RATE] = it }
+            pitch?.let { prefs[TTS_PITCH] = it }
+
+            if (serviceType == VoiceServiceFactory.VoiceServiceType.VITS_TTS) {
+                vitsConfig?.let { prefs[TTS_VITS_PACKAGE_CONFIG] = serializerJson.encodeToString(it) }
+            }
+        }
+    }
+
+    /** 只保存 TTS 清理正则列表 */
+    suspend fun saveTtsCleanerRegexs(regexs: List<String>) {
+        dataStore.edit { prefs ->
+            prefs[TTS_CLEANER_REGEXS] = regexs.filter { it.isNotBlank() }.toSet()
+        }
+    }
+
+    // --- Save STT Settings ---
+    suspend fun saveSttSettings(
+        serviceType: SpeechServiceFactory.SpeechServiceType,
+        httpConfig: SttHttpConfig? = null,
+    ) {
+        dataStore.edit { prefs ->
+            prefs[STT_SERVICE_TYPE] = serviceType.name
+
+            when (serviceType) {
+                SpeechServiceFactory.SpeechServiceType.SHERPA_NCNN -> {
+                }
+                SpeechServiceFactory.SpeechServiceType.OPENAI_STT -> {
+                    httpConfig?.let { prefs[STT_HTTP_CONFIG] = serializerJson.encodeToString(it) }
+                }
+                SpeechServiceFactory.SpeechServiceType.DEEPGRAM_STT -> {
+                    httpConfig?.let { prefs[STT_HTTP_CONFIG] = serializerJson.encodeToString(it) }
+                }
+            }
+        }
+    }
+}

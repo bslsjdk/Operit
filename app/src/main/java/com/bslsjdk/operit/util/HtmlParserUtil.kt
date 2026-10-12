@@ -1,1 +1,242 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkNvbXB1dGVyUGFnZUluZm9Ob2RlCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uZGVjb2RlRnJvbVN0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKb2JqZWN0IEh0bWxQYXJzZXJVdGlsIHsKCiAgICBmdW4gZ2V0RXh0cmFjdGlvblNjcmlwdCgpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiIiIKICAgICAgICAgICAgKGZ1bmN0aW9uKCkgewogICAgICAgICAgICAgICAgY29uc3QgSUdOT1JFX1RBR1MgPSBuZXcgU2V0KFsnU0NSSVBUJywgJ1NUWUxFJywgJ01FVEEnLCAnTElOSycsICdIRUFEJywgJ05PU0NSSVBUJ10pOwogICAgICAgICAgICAgICAgY29uc3QgSU5URVJBQ1RJVkVfVEFHUyA9IG5ldyBTZXQoWydBJywgJ0JVVFRPTicsICdJTlBVVCcsICdURVhUQVJFQScsICdTRUxFQ1QnLCAnT1BUSU9OJ10pOwogICAgICAgICAgICAgICAgY29uc3QgSU1QT1JUQU5UX0FUVFJJQlVURVMgPSBuZXcgU2V0KFsKICAgICAgICAgICAgICAgICAgICAnaWQnLCAnY2xhc3MnLCAnaHJlZicsICdzcmMnLCAnYWx0JywgJ3RpdGxlJywgJ3R5cGUnLCAndmFsdWUnLAogICAgICAgICAgICAgICAgICAgICdwbGFjZWhvbGRlcicsICduYW1lJywgJ3JvbGUnLCAnYXJpYS1sYWJlbCcsICdvbmNsaWNrJwogICAgICAgICAgICAgICAgXSk7CiAgICAgICAgICAgICAgICBjb25zdCBNQVhfREVQVEggPSAyMDsKICAgICAgICAgICAgICAgIGNvbnN0IE1BWF9FTEVNRU5UUyA9IDUwMDsgLy8gSW5jcmVhc2VkIGxpbWl0CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGxldCBpbnRlcmFjdGlvbklkQ291bnRlciA9IDE7CiAgICAgICAgICAgICAgICBsZXQgcHJvY2Vzc2VkRWxlbWVudHMgPSAwOwogICAgICAgICAgICAgICAgY29uc3QgaW50ZXJhY3Rpb25NYXAgPSB7fTsKCiAgICAgICAgICAgICAgICBmdW5jdGlvbiBmaW5kVG9wbW9zdE1vZGFsKCkgewogICAgICAgICAgICAgICAgICAgIGxldCBtYXhaID0gLTE7CiAgICAgICAgICAgICAgICAgICAgbGV0IHRvcG1vc3RNb2RhbCA9IG51bGw7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgZWxlbWVudHMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdkaXYsIHNlY3Rpb24sIGFzaWRlLCBmb3JtJyk7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgbW9kYWxLZXl3b3JkcyA9IFsnbW9kYWwnLCAnZGlhbG9nJywgJ3BvcHVwJywgJ292ZXJsYXknXTsKCiAgICAgICAgICAgICAgICAgICAgZm9yIChjb25zdCBlbCBvZiBlbGVtZW50cykgewogICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgc3R5bGUgPSB3aW5kb3cuZ2V0Q29tcHV0ZWRTdHlsZShlbCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCB6SW5kZXggPSBwYXJzZUludChzdHlsZS56SW5kZXgsIDEwKSB8fCAwOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgcG9zaXRpb24gPSBzdHlsZS5wb3NpdGlvbjsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnN0IGNsYXNzTGlzdCA9IEFycmF5LmZyb20oZWwuY2xhc3NMaXN0KTsKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyAtLS0gRW5oYW5jZWQgTW9kYWwgRGV0ZWN0aW9uIExvZ2ljIC0tLQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IHNjb3JlID0gMDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChwb3NpdGlvbiA9PT0gJ2ZpeGVkJyB8fCBwb3NpdGlvbiA9PT0gJ2Fic29sdXRlJykgc2NvcmUgKz0gMjsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICh6SW5kZXggPiAxMDApIHNjb3JlICs9IDI7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZWwuZ2V0QXR0cmlidXRlKCdyb2xlJykgPT09ICdkaWFsb2cnKSBzY29yZSArPSAzOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGVsLmdldEF0dHJpYnV0ZSgnYXJpYS1tb2RhbCcpID09PSAndHJ1ZScpIHNjb3JlICs9IDM7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAobW9kYWxLZXl3b3Jkcy5zb21lKGtleXdvcmQgPT4gY2xhc3NMaXN0LnNvbWUoY2xzID0+IGNscy5pbmNsdWRlcyhrZXl3b3JkKSkpKSBzY29yZSArPSAyOwoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIEEgaGlnaCBzY29yZSBzdHJvbmdseSBpbmRpY2F0ZXMgYSBtb2RhbC4gV2UgYWxzbyBjaGVjayB2aXNpYmlsaXR5IGFuZCBjb21wYXJlIHotaW5kZXguCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2NvcmUgPj0gNSAmJiBpc1Zpc2libGUoZWwpICYmIHpJbmRleCA+PSBtYXhaKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4WiA9IHpJbmRleDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3Btb3N0TW9kYWwgPSBlbDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZSkgeyAvKiBJZ25vcmUgZWxlbWVudHMgdGhhdCBtaWdodCBjYXVzZSBlcnJvcnMgKi8gfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gdG9wbW9zdE1vZGFsOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGZ1bmN0aW9uIGdldENzc1NlbGVjdG9yKGVsKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKCEoZWwgaW5zdGFuY2VvZiBFbGVtZW50KSkgcmV0dXJuICcnOwogICAgICAgICAgICAgICAgICAgIGxldCBwYXRoID0gW107CiAgICAgICAgICAgICAgICAgICAgd2hpbGUgKGVsLm5vZGVUeXBlID09PSBOb2RlLkVMRU1FTlRfTk9ERSkgewogICAgICAgICAgICAgICAgICAgICAgICBsZXQgc2VsZWN0b3IgPSBlbC5ub2RlTmFtZS50b0xvd2VyQ2FzZSgpOwogICAgICAgICAgICAgICAgICAgICAgICBpZiAoZWwuaWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdG9yICs9ICcjJyArIGVsLmlkLnRyaW0oKS5yZXBsYWNlKC9ccysvZywgJyAnKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhdGgudW5zaGlmdChzZWxlY3Rvcik7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIFVzZSBhbGwgdmFsaWQgY2xhc3Nlcy4gTW9kZXJuIGZyYW1ld29ya3MgZ2VuZXJhdGUgY29tcGxleCBidXQgb2Z0ZW4gc3RhYmxlICh3aXRoaW4gYSBzZXNzaW9uKSBjbGFzcyBuYW1lcy4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIEZpbHRlcmluZyB0aGVtIHdpdGggaGV1cmlzdGljcyBpcyBtb3JlIGxpa2VseSB0byBicmVhayB0aGluZ3MgdGhhbiB0byBoZWxwLgogICAgICAgICAgICAgICAgICAgICAgICAgICAgbGV0IGNsYXNzZXMgPSBBcnJheS5mcm9tKGVsLmNsYXNzTGlzdCB8fCBbXSkuZmlsdGVyKGMgPT4gL15bYS16QS1aMC05LV9dKyQvLnRlc3QoYykpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNsYXNzZXMubGVuZ3RoID4gMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdG9yICs9ICcuJyArIGNsYXNzZXMuam9pbignLicpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBGYWxsYmFjayB0byBudGgtb2YtdHlwZSBpZiBubyBjbGFzc2VzIGFyZSBmb3VuZCBhdCBhbGwuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZXQgc2liID0gZWwsIG50aCA9IDE7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGlsZSAoc2liID0gc2liLnByZXZpb3VzRWxlbWVudFNpYmxpbmcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2liLm5vZGVOYW1lLnRvTG93ZXJDYXNlKCkgPT09IHNlbGVjdG9yKSBudGgrKzsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChudGggIT09IDEpIHNlbGVjdG9yICs9IGA6bnRoLW9mLXR5cGUoJHsnJCd9e250aH0pYDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBwYXRoLnVuc2hpZnQoc2VsZWN0b3IpOwogICAgICAgICAgICAgICAgICAgICAgICBlbCA9IGVsLnBhcmVudE5vZGU7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybiBwYXRoLmpvaW4oJyA+ICcpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmdW5jdGlvbiBpc1Zpc2libGUoZWxlbSkgewogICAgICAgICAgICAgICAgICAgICBpZiAoIShlbGVtIGluc3RhbmNlb2YgRWxlbWVudCkpIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgICAgICAgY29uc3Qgc3R5bGUgPSB3aW5kb3cuZ2V0Q29tcHV0ZWRTdHlsZShlbGVtKTsKICAgICAgICAgICAgICAgICAgICAgaWYgKHN0eWxlLmRpc3BsYXkgPT09ICdub25lJyB8fCBzdHlsZS52aXNpYmlsaXR5ID09PSAnaGlkZGVuJyB8fCBzdHlsZS5vcGFjaXR5ID09PSAnMCcpIHJldHVybiBmYWxzZTsKICAgICAgICAgICAgICAgICAgICAgY29uc3QgcmVjdCA9IGVsZW0uZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CiAgICAgICAgICAgICAgICAgICAgIHJldHVybiByZWN0LndpZHRoID4gMCAmJiByZWN0LmhlaWdodCA+IDA7CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZnVuY3Rpb24gaXNJbnRlcmFjdGl2ZShlbGVtKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKCEoZWxlbSBpbnN0YW5jZW9mIEVsZW1lbnQpKSByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgdGFnTmFtZSA9IGVsZW0udGFnTmFtZS50b1VwcGVyQ2FzZSgpOwogICAgICAgICAgICAgICAgICAgIGNvbnN0IHN0eWxlID0gd2luZG93LmdldENvbXB1dGVkU3R5bGUoZWxlbSk7CgogICAgICAgICAgICAgICAgICAgIC8vIEFueSBJTlBVVCBlbGVtZW50IGlzIGNvbnNpZGVyZWQgaW50ZXJhY3RpdmUuCiAgICAgICAgICAgICAgICAgICAgLy8gVGhlIHNwZWNpZmljIHR5cGUgKCd0ZXh0JywgJ2J1dHRvbicsICdzZWFyY2gnLCBldGMuKSBpcyBkZXRlcm1pbmVkIGxhdGVyLgogICAgICAgICAgICAgICAgICAgIHJldHVybiBJTlRFUkFDVElWRV9UQUdTLmhhcyh0YWdOYW1lKSB8fAogICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtLmhhc0F0dHJpYnV0ZSgnb25jbGljaycpIHx8CiAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlLmN1cnNvciA9PT0gJ3BvaW50ZXInOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGZ1bmN0aW9uIGdldE5vZGVEZXNjcmlwdGlvbihlbGVtZW50KSB7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgYXR0cnMgPSBbJ2FyaWEtbGFiZWwnLCAnYWx0JywgJ3RpdGxlJywgJ3BsYWNlaG9sZGVyJywgJ25hbWUnXTsKICAgICAgICAgICAgICAgICAgICBmb3IgKGNvbnN0IGF0dHIgb2YgYXR0cnMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgdmFsID0gZWxlbWVudC5nZXRBdHRyaWJ1dGUoYXR0cik7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmICh2YWwpIHJldHVybiB2YWwudHJpbSgpOwogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgLy8gUHJpb3JpdGl6ZSBkaXJlY3QgdGV4dCBjb250ZW50LgogICAgICAgICAgICAgICAgICAgIGxldCBkaXJlY3RUZXh0ID0gQXJyYXkuZnJvbShlbGVtZW50LmNoaWxkTm9kZXMpCiAgICAgICAgICAgICAgICAgICAgICAgIC5maWx0ZXIobiA9PiBuLm5vZGVUeXBlID09PSBOb2RlLlRFWFRfTk9ERSkKICAgICAgICAgICAgICAgICAgICAgICAgLm1hcChuID0+IG4udGV4dENvbnRlbnQudHJpbSgpKQogICAgICAgICAgICAgICAgICAgICAgICAuam9pbignICcpCiAgICAgICAgICAgICAgICAgICAgICAgIC50cmltKCk7CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgaWYgKGRpcmVjdFRleHQpIHJldHVybiBkaXJlY3RUZXh0OwoKICAgICAgICAgICAgICAgICAgICAvLyBGYWxsYmFjayB0byB0ZXh0Q29udGVudCwgd2hpY2ggaW5jbHVkZXMgY2hpbGRyZW4sIGJ1dCBrZWVwIGl0IHNob3J0LgogICAgICAgICAgICAgICAgICAgIGxldCBmdWxsVGV4dCA9IChlbGVtZW50LnRleHRDb250ZW50IHx8ICIiKS5yZXBsYWNlKC9ccysvZywgJyAnKS50cmltKCk7CgogICAgICAgICAgICAgICAgICAgIC8vIFRvIGF2b2lkIGEgcGFyZW50J3MgZGVzY3JpcHRpb24gc3RlYWxpbmcgdGhlIHVuaXF1ZSB0ZXh0IG9mIGl0cyBpbnRlcmFjdGl2ZSBjaGlsZHJlbiwKICAgICAgICAgICAgICAgICAgICAvLyB3ZSB0cnkgdG8gc3VidHJhY3QgdGhlaXIgdGV4dCBmcm9tIHRoZSBwYXJlbnQncyBmdWxsIHRleHQuCiAgICAgICAgICAgICAgICAgICAgY29uc3QgY2hpbGRyZW4gPSBlbGVtZW50LmNoaWxkcmVuIHx8IFtdOwogICAgICAgICAgICAgICAgICAgIGZvcihjb25zdCBjaGlsZCBvZiBjaGlsZHJlbikgewogICAgICAgICAgICAgICAgICAgICAgICBpZihpc0ludGVyYWN0aXZlKGNoaWxkKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgY2hpbGRUZXh0ID0gKGNoaWxkLnRleHRDb250ZW50IHx8ICIiKS5yZXBsYWNlKC9ccysvZywgJyAnKS50cmltKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZihjaGlsZFRleHQgJiYgZnVsbFRleHQuaW5jbHVkZXMoY2hpbGRUZXh0KSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZ1bGxUZXh0ID0gZnVsbFRleHQucmVwbGFjZShjaGlsZFRleHQsICcnKS50cmltKCk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHJldHVybiBmdWxsVGV4dC5sZW5ndGggPiA4MCA/IGZ1bGxUZXh0LnN1YnN0cmluZygwLCA3NykgKyAnLi4uJyA6IGZ1bGxUZXh0OwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGZ1bmN0aW9uIHNpbXBsaWZ5Tm9kZShlbGVtZW50LCBkZXB0aCkgewogICAgICAgICAgICAgICAgICAgIGlmIChkZXB0aCA+IE1BWF9ERVBUSCB8fCBwcm9jZXNzZWRFbGVtZW50cyA+PSBNQVhfRUxFTUVOVFMgfHwgIWVsZW1lbnQudGFnTmFtZSB8fCBJR05PUkVfVEFHUy5oYXMoZWxlbWVudC50YWdOYW1lLnRvVXBwZXJDYXNlKCkpIHx8ICFpc1Zpc2libGUoZWxlbWVudCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIGxldCBjaGlsZHJlbiA9IFtdOwogICAgICAgICAgICAgICAgICAgIC8vIEFMV0FZUyBwcm9jZXNzIGNoaWxkcmVuLCByZWdhcmRsZXNzIG9mIHdoZXRoZXIgdGhlIHBhcmVudCBpcyBpbnRlcmFjdGl2ZS4KICAgICAgICAgICAgICAgICAgICAvLyBUaGlzIGZpeGVzIHRoZSBpc3N1ZSB3aGVyZSBhbiBpbnRlcmFjdGl2ZSBjb250YWluZXIgd291bGQgaGlkZSBpdHMgaW50ZXJhY3RpdmUgY2hpbGRyZW4uCiAgICAgICAgICAgICAgICAgICAgaWYgKGVsZW1lbnQuY2hpbGROb2RlcykgewogICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50LmNoaWxkTm9kZXMuZm9yRWFjaChjaGlsZCA9PiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoY2hpbGQubm9kZVR5cGUgPT09IE5vZGUuRUxFTUVOVF9OT0RFKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgc2ltcGxpZmllZENoaWxkID0gc2ltcGxpZnlOb2RlKGNoaWxkLCBkZXB0aCArIDEpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzaW1wbGlmaWVkQ2hpbGQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hpbGRyZW4ucHVzaChzaW1wbGlmaWVkQ2hpbGQpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIHByb2Nlc3NlZEVsZW1lbnRzKys7CgogICAgICAgICAgICAgICAgICAgIGNvbnN0IGlzSXRzZWxmSW50ZXJhY3RpdmUgPSBpc0ludGVyYWN0aXZlKGVsZW1lbnQpOwogICAgICAgICAgICAgICAgICAgIGNvbnN0IGZsYXRDaGlsZHJlbiA9IGNoaWxkcmVuLmZsYXQoKTsKICAgICAgICAgICAgICAgICAgICBjb25zdCBoYXNJbnRlcmFjdGl2ZURlc2NlbmRhbnQgPSBmbGF0Q2hpbGRyZW4uc29tZShjID0+IGMuaW50ZXJhY3Rpb25JZCAhPSBudWxsKTsKICAgICAgICAgICAgICAgICAgICBjb25zdCBvd25EZXNjcmlwdGlvbiA9IGdldE5vZGVEZXNjcmlwdGlvbihlbGVtZW50KS50cmltKCk7CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgLy8gUHJ1bmluZzogSWYgYSBub2RlIGlzbid0IGludGVyYWN0aXZlLCBoYXMgbm8gdGV4dCwgYW5kIGhhcyBubyBpbnRlcmFjdGl2ZSBjaGlsZHJlbiwgaXQncyBqdXN0IGEgbGF5b3V0IGRpdi4gRGlzY2FyZCBpdC4KICAgICAgICAgICAgICAgICAgICBpZiAoIWlzSXRzZWxmSW50ZXJhY3RpdmUgJiYgIW93bkRlc2NyaXB0aW9uICYmICFoYXNJbnRlcmFjdGl2ZURlc2NlbmRhbnQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZsYXRDaGlsZHJlbjsKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGNvbnN0IHRhZ05hbWUgPSBlbGVtZW50LnRhZ05hbWUudG9VcHBlckNhc2UoKTsKICAgICAgICAgICAgICAgICAgICBsZXQgdHlwZSA9ICJjb250YWluZXIiOwogICAgICAgICAgICAgICAgICAgICBpZiAoaXNJdHNlbGZJbnRlcmFjdGl2ZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHRhZ05hbWUgPT09ICdBJykgdHlwZSA9ICdsaW5rJzsKICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgaWYgKHRhZ05hbWUgPT09ICdCVVRUT04nKSB0eXBlID0gJ2J1dHRvbic7CiAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIGlmICh0YWdOYW1lID09PSAnSU5QVVQnKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBpbnB1dFR5cGUgPSBlbGVtZW50LmdldEF0dHJpYnV0ZSgndHlwZScpPy50b0xvd2VyQ2FzZSgpOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZSA9IChpbnB1dFR5cGUgPT09ICdidXR0b24nIHx8IGlucHV0VHlwZSA9PT0gJ3N1Ym1pdCcpID8gJ2lucHV0X2J1dHRvbicgOiAnaW5wdXRfdGV4dCc7CiAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIGlmICh0YWdOYW1lID09PSAnVEVYVEFSRUEnIHx8IHRhZ05hbWUgPT09ICdTRUxFQ1QnKSB0eXBlID0gJ2lucHV0X3RleHQnOwogICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSB0eXBlID0gJ2ludGVyYWN0aXZlJzsKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGxldCBpbnRlcmFjdGlvbklkID0gbnVsbDsKICAgICAgICAgICAgICAgICAgICBpZiAoaXNJdHNlbGZJbnRlcmFjdGl2ZSkgewogICAgICAgICAgICAgICAgICAgICAgICBpbnRlcmFjdGlvbklkID0gaW50ZXJhY3Rpb25JZENvdW50ZXIrKzsKICAgICAgICAgICAgICAgICAgICAgICAgaW50ZXJhY3Rpb25NYXBbaW50ZXJhY3Rpb25JZF0gPSBnZXRDc3NTZWxlY3RvcihlbGVtZW50KTsKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGNvbnN0IGZpbmFsTm9kZSA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgaW50ZXJhY3Rpb25JZDogaW50ZXJhY3Rpb25JZCwKICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogdHlwZSwKICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb246IG93bkRlc2NyaXB0aW9uIHx8IChpc0l0c2VsZkludGVyYWN0aXZlID8gdHlwZSA6ICcnKSwgLy8gRmFsbGJhY2sgZGVzY3JpcHRpb24KICAgICAgICAgICAgICAgICAgICAgICAgY2hpbGRyZW46IGZsYXRDaGlsZHJlbgogICAgICAgICAgICAgICAgICAgIH07CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFtmaW5hbE5vZGVdOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBjb25zdCByb290RWxlbWVudCA9IGZpbmRUb3Btb3N0TW9kYWwoKSB8fCBkb2N1bWVudC5ib2R5OwogICAgICAgICAgICAgICAgY29uc3Qgc2ltcGxpZmllZFRyZWUgPSBzaW1wbGlmeU5vZGUocm9vdEVsZW1lbnQsIDApOwoKICAgICAgICAgICAgICAgIHJldHVybiBKU09OLnN0cmluZ2lmeSh7CiAgICAgICAgICAgICAgICAgICAgdHJlZTogc2ltcGxpZmllZFRyZWUsCiAgICAgICAgICAgICAgICAgICAgbWFwOiBpbnRlcmFjdGlvbk1hcAogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIH0pKCk7CiAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQogICAgfQoKICAgIEBTZXJpYWxpemFibGUKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBFeHRyYWN0aW9uUmVzdWx0KAogICAgICAgIHZhbCB0cmVlOiBMaXN0PENvbXB1dGVyUGFnZUluZm9Ob2RlPj8sCiAgICAgICAgdmFsIG1hcDogTWFwPFN0cmluZywgU3RyaW5nPgogICAgKQoKICAgIGZ1biBwYXJzZUFuZFNpbXBsaWZ5KGpzb25TdHJpbmc6IFN0cmluZywgdXBkYXRlSW50ZXJhY3Rpb25NYXA6IChNYXA8SW50LCBTdHJpbmc+KSAtPiBVbml0KTogQ29tcHV0ZXJQYWdlSW5mb05vZGU/IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGpzb24gPSBKc29uIHsgaWdub3JlVW5rbm93bktleXMgPSB0cnVlIH0KICAgICAgICAgICAgdmFsIHJlc3VsdCA9IGpzb24uZGVjb2RlRnJvbVN0cmluZzxFeHRyYWN0aW9uUmVzdWx0Pihqc29uU3RyaW5nKQogICAgICAgICAgICAKICAgICAgICAgICAgdmFsIGludGVyYWN0aW9uTWFwSW50S2V5cyA9IHJlc3VsdC5tYXAubWFwS2V5cyB7IGl0LmtleS50b0ludE9yTnVsbCgpID86IC0xIH0uZmlsdGVyS2V5cyB7IGl0ICE9IC0xIH0KICAgICAgICAgICAgdXBkYXRlSW50ZXJhY3Rpb25NYXAoaW50ZXJhY3Rpb25NYXBJbnRLZXlzKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8gVGhlIHJlc3VsdCBmcm9tIHRoZSBuZXcgc2NyaXB0IGlzIGEgbGlzdCAob3IgYSBzaW5nbGUgcm9vdCBvYmplY3QgaW4gYSBsaXN0KQogICAgICAgICAgICAvLyBXZSBjYW4gd3JhcCBpdCBpbiBhIHJvb3Qgbm9kZSBmb3IgY29uc2lzdGVuY3kgd2l0aCB0aGUgb2xkIHN0cnVjdHVyZSBpZiBuZWVkZWQKICAgICAgICAgICAgdmFsIHJvb3RDaGlsZHJlbiA9IHJlc3VsdC50cmVlID86IGVtcHR5TGlzdCgpCiAgICAgICAgICAgIAogICAgICAgICAgICByZXR1cm4gQ29tcHV0ZXJQYWdlSW5mb05vZGUoCiAgICAgICAgICAgICAgICBpbnRlcmFjdGlvbklkID0gbnVsbCwKICAgICAgICAgICAgICAgIHR5cGUgPSAiY29udGFpbmVyIiwKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gIlJvb3QiLAogICAgICAgICAgICAgICAgY2hpbGRyZW4gPSByb290Q2hpbGRyZW4uZmlsdGVyTm90TnVsbCgpCiAgICAgICAgICAgICkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgLy8gTG9nIHRoZSBleGNlcHRpb24KICAgICAgICAgICAgcHJpbnRsbigiRXJyb3IgcGFyc2luZyBzaW1wbGlmaWVkIEhUTUw6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9Cn0g
+package com.bslsjdk.operit.util
+
+import com.bslsjdk.operit.core.tools.ComputerPageInfoNode
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.json.Json
+
+object HtmlParserUtil {
+
+    fun getExtractionScript(): String {
+        return """
+            (function() {
+                const IGNORE_TAGS = new Set(['SCRIPT', 'STYLE', 'META', 'LINK', 'HEAD', 'NOSCRIPT']);
+                const INTERACTIVE_TAGS = new Set(['A', 'BUTTON', 'INPUT', 'TEXTAREA', 'SELECT', 'OPTION']);
+                const IMPORTANT_ATTRIBUTES = new Set([
+                    'id', 'class', 'href', 'src', 'alt', 'title', 'type', 'value',
+                    'placeholder', 'name', 'role', 'aria-label', 'onclick'
+                ]);
+                const MAX_DEPTH = 20;
+                const MAX_ELEMENTS = 500; // Increased limit
+                
+                let interactionIdCounter = 1;
+                let processedElements = 0;
+                const interactionMap = {};
+
+                function findTopmostModal() {
+                    let maxZ = -1;
+                    let topmostModal = null;
+                    const elements = document.querySelectorAll('div, section, aside, form');
+                    const modalKeywords = ['modal', 'dialog', 'popup', 'overlay'];
+
+                    for (const el of elements) {
+                        try {
+                            const style = window.getComputedStyle(el);
+                            const zIndex = parseInt(style.zIndex, 10) || 0;
+                            const position = style.position;
+                            const classList = Array.from(el.classList);
+
+                            // --- Enhanced Modal Detection Logic ---
+                            let score = 0;
+                            if (position === 'fixed' || position === 'absolute') score += 2;
+                            if (zIndex > 100) score += 2;
+                            if (el.getAttribute('role') === 'dialog') score += 3;
+                            if (el.getAttribute('aria-modal') === 'true') score += 3;
+                            if (modalKeywords.some(keyword => classList.some(cls => cls.includes(keyword)))) score += 2;
+
+                            // A high score strongly indicates a modal. We also check visibility and compare z-index.
+                            if (score >= 5 && isVisible(el) && zIndex >= maxZ) {
+                                maxZ = zIndex;
+                                topmostModal = el;
+                            }
+                        } catch (e) { /* Ignore elements that might cause errors */ }
+                    }
+                    return topmostModal;
+                }
+
+                function getCssSelector(el) {
+                    if (!(el instanceof Element)) return '';
+                    let path = [];
+                    while (el.nodeType === Node.ELEMENT_NODE) {
+                        let selector = el.nodeName.toLowerCase();
+                        if (el.id) {
+                            selector += '#' + el.id.trim().replace(/\s+/g, ' ');
+                            path.unshift(selector);
+                            break;
+                        } else {
+                            // Use all valid classes. Modern frameworks generate complex but often stable (within a session) class names.
+                            // Filtering them with heuristics is more likely to break things than to help.
+                            let classes = Array.from(el.classList || []).filter(c => /^[a-zA-Z0-9-_]+$/.test(c));
+                            if (classes.length > 0) {
+                                selector += '.' + classes.join('.');
+                            } else {
+                                // Fallback to nth-of-type if no classes are found at all.
+                            let sib = el, nth = 1;
+                            while (sib = sib.previousElementSibling) {
+                                if (sib.nodeName.toLowerCase() === selector) nth++;
+                            }
+                            if (nth !== 1) selector += `:nth-of-type(${'$'}{nth})`;
+                            }
+                        }
+                        path.unshift(selector);
+                        el = el.parentNode;
+                    }
+                    return path.join(' > ');
+                }
+                
+                function isVisible(elem) {
+                     if (!(elem instanceof Element)) return false;
+                     const style = window.getComputedStyle(elem);
+                     if (style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0') return false;
+                     const rect = elem.getBoundingClientRect();
+                     return rect.width > 0 && rect.height > 0;
+                }
+
+                function isInteractive(elem) {
+                    if (!(elem instanceof Element)) return false;
+                    const tagName = elem.tagName.toUpperCase();
+                    const style = window.getComputedStyle(elem);
+
+                    // Any INPUT element is considered interactive.
+                    // The specific type ('text', 'button', 'search', etc.) is determined later.
+                    return INTERACTIVE_TAGS.has(tagName) ||
+                           elem.hasAttribute('onclick') ||
+                           style.cursor === 'pointer';
+                }
+
+                function getNodeDescription(element) {
+                    const attrs = ['aria-label', 'alt', 'title', 'placeholder', 'name'];
+                    for (const attr of attrs) {
+                        const val = element.getAttribute(attr);
+                        if (val) return val.trim();
+                    }
+
+                    // Prioritize direct text content.
+                    let directText = Array.from(element.childNodes)
+                        .filter(n => n.nodeType === Node.TEXT_NODE)
+                        .map(n => n.textContent.trim())
+                        .join(' ')
+                        .trim();
+                    
+                    if (directText) return directText;
+
+                    // Fallback to textContent, which includes children, but keep it short.
+                    let fullText = (element.textContent || "").replace(/\s+/g, ' ').trim();
+
+                    // To avoid a parent's description stealing the unique text of its interactive children,
+                    // we try to subtract their text from the parent's full text.
+                    const children = element.children || [];
+                    for(const child of children) {
+                        if(isInteractive(child)) {
+                            const childText = (child.textContent || "").replace(/\s+/g, ' ').trim();
+                            if(childText && fullText.includes(childText)) {
+                                fullText = fullText.replace(childText, '').trim();
+                            }
+                        }
+                    }
+
+                    return fullText.length > 80 ? fullText.substring(0, 77) + '...' : fullText;
+                }
+
+                function simplifyNode(element, depth) {
+                    if (depth > MAX_DEPTH || processedElements >= MAX_ELEMENTS || !element.tagName || IGNORE_TAGS.has(element.tagName.toUpperCase()) || !isVisible(element)) {
+                        return null;
+                    }
+                    
+                    let children = [];
+                    // ALWAYS process children, regardless of whether the parent is interactive.
+                    // This fixes the issue where an interactive container would hide its interactive children.
+                    if (element.childNodes) {
+                        element.childNodes.forEach(child => {
+                            if (child.nodeType === Node.ELEMENT_NODE) {
+                                const simplifiedChild = simplifyNode(child, depth + 1);
+                                if (simplifiedChild) {
+                                    children.push(simplifiedChild);
+                                }
+                            }
+                        });
+                    }
+                    
+                    processedElements++;
+
+                    const isItselfInteractive = isInteractive(element);
+                    const flatChildren = children.flat();
+                    const hasInteractiveDescendant = flatChildren.some(c => c.interactionId != null);
+                    const ownDescription = getNodeDescription(element).trim();
+                    
+                    // Pruning: If a node isn't interactive, has no text, and has no interactive children, it's just a layout div. Discard it.
+                    if (!isItselfInteractive && !ownDescription && !hasInteractiveDescendant) {
+                        return flatChildren;
+                    }
+
+                    const tagName = element.tagName.toUpperCase();
+                    let type = "container";
+                     if (isItselfInteractive) {
+                         if (tagName === 'A') type = 'link';
+                         else if (tagName === 'BUTTON') type = 'button';
+                         else if (tagName === 'INPUT') {
+                            const inputType = element.getAttribute('type')?.toLowerCase();
+                            type = (inputType === 'button' || inputType === 'submit') ? 'input_button' : 'input_text';
+                         }
+                         else if (tagName === 'TEXTAREA' || tagName === 'SELECT') type = 'input_text';
+                         else type = 'interactive';
+                    }
+
+                    let interactionId = null;
+                    if (isItselfInteractive) {
+                        interactionId = interactionIdCounter++;
+                        interactionMap[interactionId] = getCssSelector(element);
+                    }
+
+                    const finalNode = {
+                        interactionId: interactionId,
+                        type: type,
+                        description: ownDescription || (isItselfInteractive ? type : ''), // Fallback description
+                        children: flatChildren
+                    };
+                    
+                    return [finalNode];
+                }
+                
+                const rootElement = findTopmostModal() || document.body;
+                const simplifiedTree = simplifyNode(rootElement, 0);
+
+                return JSON.stringify({
+                    tree: simplifiedTree,
+                    map: interactionMap
+                });
+            })();
+        """.trimIndent()
+    }
+
+    @Serializable
+    private data class ExtractionResult(
+        val tree: List<ComputerPageInfoNode>?,
+        val map: Map<String, String>
+    )
+
+    fun parseAndSimplify(jsonString: String, updateInteractionMap: (Map<Int, String>) -> Unit): ComputerPageInfoNode? {
+        return try {
+            val json = Json { ignoreUnknownKeys = true }
+            val result = json.decodeFromString<ExtractionResult>(jsonString)
+            
+            val interactionMapIntKeys = result.map.mapKeys { it.key.toIntOrNull() ?: -1 }.filterKeys { it != -1 }
+            updateInteractionMap(interactionMapIntKeys)
+            
+            // The result from the new script is a list (or a single root object in a list)
+            // We can wrap it in a root node for consistency with the old structure if needed
+            val rootChildren = result.tree ?: emptyList()
+            
+            return ComputerPageInfoNode(
+                interactionId = null,
+                type = "container",
+                description = "Root",
+                children = rootChildren.filterNotNull()
+            )
+        } catch (e: Exception) {
+            // Log the exception
+            println("Error parsing simplified HTML: ${e.message}")
+            null
+        }
+    }
+} 

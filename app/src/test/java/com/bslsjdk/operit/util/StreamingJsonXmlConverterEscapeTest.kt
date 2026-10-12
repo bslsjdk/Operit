@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlckVzY2FwZVRlc3QgewoKICAgIEBUZXN0IGZ1biBhcG9zdHJvcGhlSW5TdHJpbmdfaXNFc2NhcGVkRm9yWG1sKCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICBhc3NlcnRFcXVhbHMoIlxuICA8cGFyYW0gbmFtZT1cInRleHRcIj4mYXBvczs8L3BhcmFtPiIsIHJlbmRlcihjb252ZXJ0ZXIuZmVlZCgie1widGV4dFwiOlwiJ1wifSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcXVvdGVJblN0cmluZ19pc0VzY2FwZWRGb3JYbWwoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwidGV4dFwiPiZxdW90OzwvcGFyYW0+IiwgcmVuZGVyKGNvbnZlcnRlci5mZWVkKCJ7XCJ0ZXh0XCI6XCJcXFwiXCJ9IikpKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlbmRlcihldmVudHM6IExpc3Q8U3RyZWFtaW5nSnNvblhtbENvbnZlcnRlci5FdmVudD4pOiBTdHJpbmcgewogICAgICAgIHJldHVybiBldmVudHMuam9pblRvU3RyaW5nKCIiKSB7IHdoZW4gKGl0KSB7CiAgICAgICAgICAgIGlzIFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIuRXZlbnQuVGFnIC0+IGl0LnRleHQKICAgICAgICAgICAgaXMgU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlci5FdmVudC5Db250ZW50IC0+IGl0LnRleHQKICAgICAgICB9IH0KICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class StreamingJsonXmlConverterEscapeTest {
+
+    @Test fun apostropheInString_isEscapedForXml() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"text\">&apos;</param>", render(converter.feed("{\"text\":\"'\"}")))
+    }
+
+    @Test fun quoteInString_isEscapedForXml() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"text\">&quot;</param>", render(converter.feed("{\"text\":\"\\\"\"}")))
+    }
+
+    private fun render(events: List<StreamingJsonXmlConverter.Event>): String {
+        return events.joinToString("") { when (it) {
+            is StreamingJsonXmlConverter.Event.Tag -> it.text
+            is StreamingJsonXmlConverter.Event.Content -> it.text
+        } }
+    }
+}

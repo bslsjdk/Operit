@@ -1,1 +1,132 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5leHBvcnRlcgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdEhpc3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlCmltcG9ydCBqYXZhLnRpbWUuZm9ybWF0LkRhdGVUaW1lRm9ybWF0dGVyCgovKioKICogTWFya2Rvd24g5qC85byP5a+85Ye65ZmoCiAqLwpvYmplY3QgTWFya2Rvd25FeHBvcnRlciB7CiAgICAKICAgIHByaXZhdGUgdmFsIGRhdGVGb3JtYXR0ZXIgPSBEYXRlVGltZUZvcm1hdHRlci5vZlBhdHRlcm4oInl5eXktTU0tZGQgSEg6bW06c3MiKQogICAgCiAgICAvKioKICAgICAqIOWvvOWHuuWNleS4quWvueivneS4uiBNYXJrZG93bgogICAgICovCiAgICBmdW4gZXhwb3J0U2luZ2xlKGNvbnRleHQ6IENvbnRleHQsIGNoYXRIaXN0b3J5OiBDaGF0SGlzdG9yeSk6IFN0cmluZyB7CiAgICAgICAgdmFsIHNiID0gU3RyaW5nQnVpbGRlcigpCgogICAgICAgIC8vIOe7k+aehOWMluWFg+aVsOaNruazqOmHiiAo566A5YyW5qC85byPKQogICAgICAgIC8vIOagvOW8jzoga2V5PXZhbHVlLCBrZXk9dmFsdWUKICAgICAgICB2YWwgbWV0YVBhcnRzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKICAgICAgICBtZXRhUGFydHMuYWRkKCJpZD0ke2NoYXRIaXN0b3J5LmlkfSIpCiAgICAgICAgbWV0YVBhcnRzLmFkZCgidGl0bGU9JHtjaGF0SGlzdG9yeS50aXRsZX0iKQogICAgICAgIG1ldGFQYXJ0cy5hZGQoImNyZWF0ZWQ9JHtjaGF0SGlzdG9yeS5jcmVhdGVkQXQuZm9ybWF0KGRhdGVGb3JtYXR0ZXIpfSIpCiAgICAgICAgbWV0YVBhcnRzLmFkZCgidXBkYXRlZD0ke2NoYXRIaXN0b3J5LnVwZGF0ZWRBdC5mb3JtYXQoZGF0ZUZvcm1hdHRlcil9IikKICAgICAgICBpZiAoY2hhdEhpc3RvcnkuZ3JvdXAgIT0gbnVsbCkgewogICAgICAgICAgICBtZXRhUGFydHMuYWRkKCJncm91cD0ke2NoYXRIaXN0b3J5Lmdyb3VwfSIpCiAgICAgICAgfQogICAgICAgIHNiLmFwcGVuZExpbmUoIjwhLS0gY2hhdC1pbmZvOiAke21ldGFQYXJ0cy5qb2luVG9TdHJpbmcoIiwgIil9IC0tPiIpCgogICAgICAgIC8vIFlBTUwgRnJvbnQgTWF0dGVyICjkv53nlZnnlKjkuo7lhbzlrrnmgKflkozlj6/or7vmgKcpCiAgICAgICAgc2IuYXBwZW5kTGluZSgiLS0tIikKICAgICAgICBzYi5hcHBlbmRMaW5lKCJ0aXRsZTogJHtjaGF0SGlzdG9yeS50aXRsZX0iKQogICAgICAgIHNiLmFwcGVuZExpbmUoImNyZWF0ZWQ6ICR7Y2hhdEhpc3RvcnkuY3JlYXRlZEF0LmZvcm1hdChkYXRlRm9ybWF0dGVyKX0iKQogICAgICAgIHNiLmFwcGVuZExpbmUoInVwZGF0ZWQ6ICR7Y2hhdEhpc3RvcnkudXBkYXRlZEF0LmZvcm1hdChkYXRlRm9ybWF0dGVyKX0iKQogICAgICAgIGlmIChjaGF0SGlzdG9yeS5ncm91cCAhPSBudWxsKSB7CiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoImdyb3VwOiAke2NoYXRIaXN0b3J5Lmdyb3VwfSIpCiAgICAgICAgfQogICAgICAgIHNiLmFwcGVuZExpbmUoIm1lc3NhZ2VzOiAke2NoYXRIaXN0b3J5Lm1lc3NhZ2VzLnNpemV9IikKICAgICAgICBzYi5hcHBlbmRMaW5lKCItLS0iKQogICAgICAgIHNiLmFwcGVuZExpbmUoKQoKICAgICAgICAvLyDmoIfpopgKICAgICAgICBzYi5hcHBlbmRMaW5lKCIjICR7Y2hhdEhpc3RvcnkudGl0bGV9IikKICAgICAgICBzYi5hcHBlbmRMaW5lKCkKCiAgICAgICAgLy8g5YWD5L+h5oGvCiAgICAgICAgc2IuYXBwZW5kTGluZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tYXJrZG93bl9leHBvcnRfY3JlYXRlZF90aW1lLCBjaGF0SGlzdG9yeS5jcmVhdGVkQXQuZm9ybWF0KGRhdGVGb3JtYXR0ZXIpKSkKICAgICAgICBzYi5hcHBlbmRMaW5lKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1hcmtkb3duX2V4cG9ydF91cGRhdGVkX3RpbWUsIGNoYXRIaXN0b3J5LnVwZGF0ZWRBdC5mb3JtYXQoZGF0ZUZvcm1hdHRlcikpKQogICAgICAgIGlmIChjaGF0SGlzdG9yeS5ncm91cCAhPSBudWxsKSB7CiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFya2Rvd25fZXhwb3J0X2dyb3VwLCBjaGF0SGlzdG9yeS5ncm91cCkpCiAgICAgICAgfQogICAgICAgIHNiLmFwcGVuZExpbmUoKQogICAgICAgIHNiLmFwcGVuZExpbmUoIi0tLSIpCiAgICAgICAgc2IuYXBwZW5kTGluZSgpCgogICAgICAgIC8vIOa2iOaBr+WGheWuuQogICAgICAgIGZvciAobWVzc2FnZSBpbiBjaGF0SGlzdG9yeS5tZXNzYWdlcykgewogICAgICAgICAgICBhcHBlbmRNZXNzYWdlKHNiLCBtZXNzYWdlKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHNiLnRvU3RyaW5nKCkKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDlr7zlh7rlpJrkuKrlr7nor53kuLogTWFya2Rvd24KICAgICAqLwogICAgZnVuIGV4cG9ydE11bHRpcGxlKGNvbnRleHQ6IENvbnRleHQsIGNoYXRIaXN0b3JpZXM6IExpc3Q8Q2hhdEhpc3Rvcnk+KTogU3RyaW5nIHsKICAgICAgICB2YWwgc2IgPSBTdHJpbmdCdWlsZGVyKCkKCiAgICAgICAgc2IuYXBwZW5kTGluZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tYXJrZG93bl9leHBvcnRfdGl0bGUpKQogICAgICAgIHNiLmFwcGVuZExpbmUoKQogICAgICAgIHNiLmFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFya2Rvd25fZXhwb3J0X2V4cG9ydF90aW1lLCBqYXZhLnRpbWUuTG9jYWxEYXRlVGltZS5ub3coKS5mb3JtYXQoZGF0ZUZvcm1hdHRlcikpKQogICAgICAgIHNiLmFwcGVuZExpbmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFya2Rvd25fZXhwb3J0X2NvbnZlcnNhdGlvbl9jb3VudCwgY2hhdEhpc3Rvcmllcy5zaXplKSkKICAgICAgICBzYi5hcHBlbmRMaW5lKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1hcmtkb3duX2V4cG9ydF90b3RhbF9tZXNzYWdlcywgY2hhdEhpc3Rvcmllcy5zdW1PZiB7IGl0Lm1lc3NhZ2VzLnNpemUgfSkpCiAgICAgICAgc2IuYXBwZW5kTGluZSgpCiAgICAgICAgc2IuYXBwZW5kTGluZSgiLS0tIikKICAgICAgICBzYi5hcHBlbmRMaW5lKCkKCiAgICAgICAgZm9yICgoaW5kZXgsIGNoYXRIaXN0b3J5KSBpbiBjaGF0SGlzdG9yaWVzLndpdGhJbmRleCgpKSB7CiAgICAgICAgICAgIGlmIChpbmRleCA+IDApIHsKICAgICAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoKQogICAgICAgICAgICAgICAgc2IuYXBwZW5kTGluZSgiLS0tIikKICAgICAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoKQogICAgICAgICAgICB9CgogICAgICAgICAgICBzYi5hcHBlbmQoZXhwb3J0U2luZ2xlKGNvbnRleHQsIGNoYXRIaXN0b3J5KSkKICAgICAgICB9CgogICAgICAgIHJldHVybiBzYi50b1N0cmluZygpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5re75Yqg5Y2V5p2h5raI5oGvCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGFwcGVuZE1lc3NhZ2Uoc2I6IFN0cmluZ0J1aWxkZXIsIG1lc3NhZ2U6IENoYXRNZXNzYWdlKSB7CiAgICAgICAgLy8g5raI5oGv5YWD5pWw5o2u5rOo6YeKICjnroDljJbmoLzlvI8pCiAgICAgICAgdmFsIG1zZ1BhcnRzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKICAgICAgICAKICAgICAgICAvLyDop5LoibLnm7TmjqXkvZzkuLrnrKzkuIDkuKrlj4LmlbDvvIzmiJbogIXkvb/nlKggcm9sZT14eHgKICAgICAgICAvLyDkuLrkuobnroDmtIHvvIzmiJHku6zkvb/nlKggcm9sZT14eHjvvIzkvYblr7zlhaXml7bmlK/mjIHnroDlhpkKICAgICAgICB2YWwgcm9sZSA9IGlmIChtZXNzYWdlLnNlbmRlciA9PSAidXNlciIpICJ1c2VyIiBlbHNlICJhaSIKICAgICAgICBtc2dQYXJ0cy5hZGQocm9sZSkgLy8g566A5YaZOiA8IS0tIG1zZzogdXNlciAtLT4KICAgICAgICAKICAgICAgICBpZiAobWVzc2FnZS5tb2RlbE5hbWUuaXNOb3RFbXB0eSgpICYmIG1lc3NhZ2UubW9kZWxOYW1lICE9ICJtYXJrZG93biIpIHsKICAgICAgICAgICAgbXNnUGFydHMuYWRkKCJtb2RlbD0ke21lc3NhZ2UubW9kZWxOYW1lfSIpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIG1zZ1BhcnRzLmFkZCgidGltZXN0YW1wPSR7bWVzc2FnZS50aW1lc3RhbXB9IikKICAgICAgICAKICAgICAgICBzYi5hcHBlbmRMaW5lKCI8IS0tIG1zZzogJHttc2dQYXJ0cy5qb2luVG9TdHJpbmcoIiwgIil9IC0tPiIpCiAgICAgICAgCiAgICAgICAgLy8g6KeS6Imy5qCH6aKYICjkv53nlZnnlKjkuo7lj6/or7vmgKcpCiAgICAgICAgdmFsIHJvbGVJY29uID0gaWYgKG1lc3NhZ2Uuc2VuZGVyID09ICJ1c2VyIikgIvCfkaQiIGVsc2UgIvCfpJYiCiAgICAgICAgdmFsIHJvbGVUZXh0ID0gaWYgKG1lc3NhZ2Uuc2VuZGVyID09ICJ1c2VyIikgIlVzZXIiIGVsc2UgIkFzc2lzdGFudCIKICAgICAgICBzYi5hcHBlbmRMaW5lKCIjIyAkcm9sZUljb24gJHJvbGVUZXh0IikKICAgICAgICBzYi5hcHBlbmRMaW5lKCkKICAgICAgICAKICAgICAgICAvLyDmtojmga/lhYPmlbDmja7vvIjlj6/pgInvvIzop4bop4nlsZXnpLrvvIkKICAgICAgICBpZiAobWVzc2FnZS5tb2RlbE5hbWUuaXNOb3RFbXB0eSgpICYmIG1lc3NhZ2UubW9kZWxOYW1lICE9ICJtYXJrZG93biIgJiYgbWVzc2FnZS5tb2RlbE5hbWUgIT0gInVua25vd24iKSB7CiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIipNb2RlbDogJHttZXNzYWdlLm1vZGVsTmFtZX0qIikKICAgICAgICAgICAgc2IuYXBwZW5kTGluZSgpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOa2iOaBr+WGheWuuQogICAgICAgIHNiLmFwcGVuZExpbmUobWVzc2FnZS5jb250ZW50KQogICAgICAgIHNiLmFwcGVuZExpbmUoKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.exporter
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.ChatHistory
+import com.bslsjdk.operit.data.model.ChatMessage
+import java.time.format.DateTimeFormatter
+
+/**
+ * Markdown 格式导出器
+ */
+object MarkdownExporter {
+    
+    private val dateFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
+    
+    /**
+     * 导出单个对话为 Markdown
+     */
+    fun exportSingle(context: Context, chatHistory: ChatHistory): String {
+        val sb = StringBuilder()
+
+        // 结构化元数据注释 (简化格式)
+        // 格式: key=value, key=value
+        val metaParts = mutableListOf<String>()
+        metaParts.add("id=${chatHistory.id}")
+        metaParts.add("title=${chatHistory.title}")
+        metaParts.add("created=${chatHistory.createdAt.format(dateFormatter)}")
+        metaParts.add("updated=${chatHistory.updatedAt.format(dateFormatter)}")
+        if (chatHistory.group != null) {
+            metaParts.add("group=${chatHistory.group}")
+        }
+        sb.appendLine("<!-- chat-info: ${metaParts.joinToString(", ")} -->")
+
+        // YAML Front Matter (保留用于兼容性和可读性)
+        sb.appendLine("---")
+        sb.appendLine("title: ${chatHistory.title}")
+        sb.appendLine("created: ${chatHistory.createdAt.format(dateFormatter)}")
+        sb.appendLine("updated: ${chatHistory.updatedAt.format(dateFormatter)}")
+        if (chatHistory.group != null) {
+            sb.appendLine("group: ${chatHistory.group}")
+        }
+        sb.appendLine("messages: ${chatHistory.messages.size}")
+        sb.appendLine("---")
+        sb.appendLine()
+
+        // 标题
+        sb.appendLine("# ${chatHistory.title}")
+        sb.appendLine()
+
+        // 元信息
+        sb.appendLine(context.getString(R.string.markdown_export_created_time, chatHistory.createdAt.format(dateFormatter)))
+        sb.appendLine(context.getString(R.string.markdown_export_updated_time, chatHistory.updatedAt.format(dateFormatter)))
+        if (chatHistory.group != null) {
+            sb.appendLine(context.getString(R.string.markdown_export_group, chatHistory.group))
+        }
+        sb.appendLine()
+        sb.appendLine("---")
+        sb.appendLine()
+
+        // 消息内容
+        for (message in chatHistory.messages) {
+            appendMessage(sb, message)
+        }
+
+        return sb.toString()
+    }
+    
+    /**
+     * 导出多个对话为 Markdown
+     */
+    fun exportMultiple(context: Context, chatHistories: List<ChatHistory>): String {
+        val sb = StringBuilder()
+
+        sb.appendLine(context.getString(R.string.markdown_export_title))
+        sb.appendLine()
+        sb.appendLine(context.getString(R.string.markdown_export_export_time, java.time.LocalDateTime.now().format(dateFormatter)))
+        sb.appendLine(context.getString(R.string.markdown_export_conversation_count, chatHistories.size))
+        sb.appendLine(context.getString(R.string.markdown_export_total_messages, chatHistories.sumOf { it.messages.size }))
+        sb.appendLine()
+        sb.appendLine("---")
+        sb.appendLine()
+
+        for ((index, chatHistory) in chatHistories.withIndex()) {
+            if (index > 0) {
+                sb.appendLine()
+                sb.appendLine("---")
+                sb.appendLine()
+            }
+
+            sb.append(exportSingle(context, chatHistory))
+        }
+
+        return sb.toString()
+    }
+    
+    /**
+     * 添加单条消息
+     */
+    private fun appendMessage(sb: StringBuilder, message: ChatMessage) {
+        // 消息元数据注释 (简化格式)
+        val msgParts = mutableListOf<String>()
+        
+        // 角色直接作为第一个参数，或者使用 role=xxx
+        // 为了简洁，我们使用 role=xxx，但导入时支持简写
+        val role = if (message.sender == "user") "user" else "ai"
+        msgParts.add(role) // 简写: <!-- msg: user -->
+        
+        if (message.modelName.isNotEmpty() && message.modelName != "markdown") {
+            msgParts.add("model=${message.modelName}")
+        }
+        
+        msgParts.add("timestamp=${message.timestamp}")
+        
+        sb.appendLine("<!-- msg: ${msgParts.joinToString(", ")} -->")
+        
+        // 角色标题 (保留用于可读性)
+        val roleIcon = if (message.sender == "user") "👤" else "🤖"
+        val roleText = if (message.sender == "user") "User" else "Assistant"
+        sb.appendLine("## $roleIcon $roleText")
+        sb.appendLine()
+        
+        // 消息元数据（可选，视觉展示）
+        if (message.modelName.isNotEmpty() && message.modelName != "markdown" && message.modelName != "unknown") {
+            sb.appendLine("*Model: ${message.modelName}*")
+            sb.appendLine()
+        }
+        
+        // 消息内容
+        sb.appendLine(message.content)
+        sb.appendLine()
+    }
+}

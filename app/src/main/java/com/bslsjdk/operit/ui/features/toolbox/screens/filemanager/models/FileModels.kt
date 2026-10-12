@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmZpbGVtYW5hZ2VyLm1vZGVscwoKLyoqIOagh+etvumhueaVsOaNruexuyAqLwpkYXRhIGNsYXNzIFRhYkl0ZW0oCiAgICB2YWwgcGF0aDogU3RyaW5nLAogICAgdmFsIHRpdGxlOiBTdHJpbmcsCiAgICB2YWwgZW52aXJvbm1lbnQ6IFN0cmluZz8gPSBudWxsCikKCi8qKiDmlofku7bpobnmlbDmja7nsbsgKi8KZGF0YSBjbGFzcyBGaWxlSXRlbSgKICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICB2YWwgaXNEaXJlY3Rvcnk6IEJvb2xlYW4sCiAgICB2YWwgc2l6ZTogTG9uZyA9IDAsCiAgICB2YWwgbGFzdE1vZGlmaWVkOiBMb25nID0gMCwKICAgIHZhbCBmdWxsUGF0aDogU3RyaW5nPyA9IG51bGwKKQ==
+package com.bslsjdk.operit.ui.features.toolbox.screens.filemanager.models
+
+/** 标签项数据类 */
+data class TabItem(
+    val path: String,
+    val title: String,
+    val environment: String? = null
+)
+
+/** 文件项数据类 */
+data class FileItem(
+    val name: String,
+    val isDirectory: Boolean,
+    val size: Long = 0,
+    val lastModified: Long = 0,
+    val fullPath: String? = null
+)

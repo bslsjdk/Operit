@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZHgudGVzdC5leHQuanVuaXQucnVubmVycy5BbmRyb2lkSlVuaXQ0CmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlVGltZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBTZXJpYWxpemVyUm91bmRUcmlwQW5kcm9pZFRlc3QgewoKICAgIEBUZXN0IGZ1biB1cmlTZXJpYWxpemVyX3JvdW5kVHJpcHNIdHRwVXJpKCkgewogICAgICAgIHZhbCBvcmlnaW5hbCA9IFVyaS5wYXJzZSgiaHR0cHM6Ly9leGFtcGxlLmNvbSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKG9yaWdpbmFsLCBKc29uLmRlY29kZUZyb21TdHJpbmcoVXJpU2VyaWFsaXplciwgSnNvbi5lbmNvZGVUb1N0cmluZyhVcmlTZXJpYWxpemVyLCBvcmlnaW5hbCkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBpbnRSYW5nZVNlcmlhbGl6ZXJfcm91bmRUcmlwc05lZ2F0aXZlUmFuZ2UoKSB7CiAgICAgICAgdmFsIG9yaWdpbmFsID0gLTIuLjIKICAgICAgICBhc3NlcnRFcXVhbHMob3JpZ2luYWwsIEpzb24uZGVjb2RlRnJvbVN0cmluZyhJbnRSYW5nZVNlcmlhbGl6ZXIsIEpzb24uZW5jb2RlVG9TdHJpbmcoSW50UmFuZ2VTZXJpYWxpemVyLCBvcmlnaW5hbCkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBsb2NhbERhdGVUaW1lU2VyaWFsaXplcl9yb3VuZFRyaXBzU2ltcGxlVmFsdWUoKSB7CiAgICAgICAgdmFsIG9yaWdpbmFsID0gTG9jYWxEYXRlVGltZS5vZigyMDI0LCA2LCAxLCAxMiwgMCwgMCkKICAgICAgICBhc3NlcnRFcXVhbHMob3JpZ2luYWwsIEpzb24uZGVjb2RlRnJvbVN0cmluZyhMb2NhbERhdGVUaW1lU2VyaWFsaXplciwgSnNvbi5lbmNvZGVUb1N0cmluZyhMb2NhbERhdGVUaW1lU2VyaWFsaXplciwgb3JpZ2luYWwpKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import android.net.Uri
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import java.time.LocalDateTime
+import kotlinx.serialization.json.Json
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class SerializerRoundTripAndroidTest {
+
+    @Test fun uriSerializer_roundTripsHttpUri() {
+        val original = Uri.parse("https://example.com")
+        assertEquals(original, Json.decodeFromString(UriSerializer, Json.encodeToString(UriSerializer, original)))
+    }
+
+    @Test fun intRangeSerializer_roundTripsNegativeRange() {
+        val original = -2..2
+        assertEquals(original, Json.decodeFromString(IntRangeSerializer, Json.encodeToString(IntRangeSerializer, original)))
+    }
+
+    @Test fun localDateTimeSerializer_roundTripsSimpleValue() {
+        val original = LocalDateTime.of(2024, 6, 1, 12, 0, 0)
+        assertEquals(original, Json.decodeFromString(LocalDateTimeSerializer, Json.encodeToString(LocalDateTimeSerializer, original)))
+    }
+}

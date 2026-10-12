@@ -1,1 +1,10 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcKCmVudW0gY2xhc3MgRmxvYXRpbmdNb2RlIHsKICAgIFdJTkRPVywKICAgIEJBTEwsCiAgICBWT0lDRV9CQUxMLAogICAgRlVMTFNDUkVFTiwKICAgIFJFU1VMVF9ESVNQTEFZLAogICAgU0NSRUVOX09DUgp9Cg==
+package com.bslsjdk.operit.ui.floating
+
+enum class FloatingMode {
+    WINDOW,
+    BALL,
+    VOICE_BALL,
+    FULLSCREEN,
+    RESULT_DISPLAY,
+    SCREEN_OCR
+}

@@ -1,1 +1,157 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLmJyb3dzZXIKCmltcG9ydCBhbmRyb2lkLnZpZXcuR3Jhdml0eQppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXcKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3R3JvdXAKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LkZyYW1lTGF5b3V0CmltcG9ydCBhbmRyb2lkLndlYmtpdC5XZWJWaWV3CmltcG9ydCBrb3RsaW4ubWF0aC5taW4KaW1wb3J0IGtvdGxpbi5tYXRoLnJvdW5kVG9JbnQKCmludGVybmFsIGNsYXNzIFdlYlNlc3Npb25XZWJWaWV3SG9zdCB7CiAgICBwcml2YXRlIHZhciBjb250YWluZXI6IEZyYW1lTGF5b3V0PyA9IG51bGwKICAgIHByaXZhdGUgdmFyIGFjdGl2ZVdlYlZpZXc6IFdlYlZpZXc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgdmlld3BvcnRXaWR0aENzc1B4OiBJbnQ/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgdmlld3BvcnRIZWlnaHRDc3NQeDogSW50PyA9IG51bGwKICAgIHByaXZhdGUgdmFsIGNvbnRhaW5lckxheW91dENoYW5nZUxpc3RlbmVyID0KICAgICAgICBWaWV3Lk9uTGF5b3V0Q2hhbmdlTGlzdGVuZXIgeyB2aWV3LCBsZWZ0LCB0b3AsIHJpZ2h0LCBib3R0b20sIG9sZExlZnQsIG9sZFRvcCwgb2xkUmlnaHQsIG9sZEJvdHRvbSAtPgogICAgICAgICAgICBpZiAoCiAgICAgICAgICAgICAgICByaWdodCAtIGxlZnQgIT0gb2xkUmlnaHQgLSBvbGRMZWZ0IHx8CiAgICAgICAgICAgICAgICAgICAgYm90dG9tIC0gdG9wICE9IG9sZEJvdHRvbSAtIG9sZFRvcAogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIGFwcGx5V2ViVmlld0xheW91dCh2aWV3IGFzIEZyYW1lTGF5b3V0KQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIGZ1biBhdHRhY2hDb250YWluZXIodGFyZ2V0OiBGcmFtZUxheW91dCkgewogICAgICAgIGlmIChjb250YWluZXIgIT09IHRhcmdldCkgewogICAgICAgICAgICBjb250YWluZXI/LnJlbW92ZU9uTGF5b3V0Q2hhbmdlTGlzdGVuZXIoY29udGFpbmVyTGF5b3V0Q2hhbmdlTGlzdGVuZXIpCiAgICAgICAgICAgIHRhcmdldC5hZGRPbkxheW91dENoYW5nZUxpc3RlbmVyKGNvbnRhaW5lckxheW91dENoYW5nZUxpc3RlbmVyKQogICAgICAgIH0KICAgICAgICBjb250YWluZXIgPSB0YXJnZXQKICAgICAgICByZWF0dGFjaCgpCiAgICB9CgogICAgZnVuIGRldGFjaENvbnRhaW5lcih0YXJnZXQ6IEZyYW1lTGF5b3V0KSB7CiAgICAgICAgaWYgKGNvbnRhaW5lciA9PT0gdGFyZ2V0KSB7CiAgICAgICAgICAgIHRhcmdldC5yZW1vdmVPbkxheW91dENoYW5nZUxpc3RlbmVyKGNvbnRhaW5lckxheW91dENoYW5nZUxpc3RlbmVyKQogICAgICAgICAgICBjb250YWluZXIgPSBudWxsCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzZXRBY3RpdmVXZWJWaWV3KHdlYlZpZXc6IFdlYlZpZXc/LCB2aWV3cG9ydFdpZHRoOiBJbnQ/LCB2aWV3cG9ydEhlaWdodDogSW50PykgewogICAgICAgIGFjdGl2ZVdlYlZpZXcgPSB3ZWJWaWV3CiAgICAgICAgdmlld3BvcnRXaWR0aENzc1B4ID0gdmlld3BvcnRXaWR0aAogICAgICAgIHZpZXdwb3J0SGVpZ2h0Q3NzUHggPSB2aWV3cG9ydEhlaWdodAogICAgICAgIHJlYXR0YWNoKCkKICAgIH0KCiAgICBmdW4gc2V0Vmlld3BvcnRTaXplKHdpZHRoOiBJbnQ/LCBoZWlnaHQ6IEludD8pIHsKICAgICAgICB2aWV3cG9ydFdpZHRoQ3NzUHggPSB3aWR0aAogICAgICAgIHZpZXdwb3J0SGVpZ2h0Q3NzUHggPSBoZWlnaHQKICAgICAgICByZWF0dGFjaCgpCiAgICB9CgogICAgZnVuIGN1cnJlbnRXZWJWaWV3KCk6IFdlYlZpZXc/ID0gYWN0aXZlV2ViVmlldwoKICAgIGZ1biBjbGVhcigpIHsKICAgICAgICBjb250YWluZXI/LnJlbW92ZUFsbFZpZXdzKCkKICAgICAgICBjb250YWluZXI/LnJlbW92ZU9uTGF5b3V0Q2hhbmdlTGlzdGVuZXIoY29udGFpbmVyTGF5b3V0Q2hhbmdlTGlzdGVuZXIpCiAgICAgICAgY29udGFpbmVyID0gbnVsbAogICAgICAgIGFjdGl2ZVdlYlZpZXcgPSBudWxsCiAgICAgICAgdmlld3BvcnRXaWR0aENzc1B4ID0gbnVsbAogICAgICAgIHZpZXdwb3J0SGVpZ2h0Q3NzUHggPSBudWxsCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVhdHRhY2goKSB7CiAgICAgICAgdmFsIHRhcmdldCA9IGNvbnRhaW5lciA/OiByZXR1cm4KICAgICAgICB2YWwgd2ViVmlldyA9IGFjdGl2ZVdlYlZpZXcKCiAgICAgICAgaWYgKHdlYlZpZXcgPT0gbnVsbCkgewogICAgICAgICAgICB0YXJnZXQucmVtb3ZlQWxsVmlld3MoKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZhbCBwYXJlbnQgPSB3ZWJWaWV3LnBhcmVudAogICAgICAgIGlmIChwYXJlbnQgaXMgVmlld0dyb3VwICYmIHBhcmVudCAhPT0gdGFyZ2V0KSB7CiAgICAgICAgICAgIHBhcmVudC5yZW1vdmVWaWV3KHdlYlZpZXcpCiAgICAgICAgfQoKICAgICAgICBpZiAodGFyZ2V0LmNoaWxkQ291bnQgIT0gMSB8fCB0YXJnZXQuZ2V0Q2hpbGRBdCgwKSAhPT0gd2ViVmlldykgewogICAgICAgICAgICB0YXJnZXQucmVtb3ZlQWxsVmlld3MoKQogICAgICAgICAgICB0YXJnZXQuYWRkVmlldygKICAgICAgICAgICAgICAgIHdlYlZpZXcsCiAgICAgICAgICAgICAgICBGcmFtZUxheW91dC5MYXlvdXRQYXJhbXMoCiAgICAgICAgICAgICAgICAgICAgRnJhbWVMYXlvdXQuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVCwKICAgICAgICAgICAgICAgICAgICBGcmFtZUxheW91dC5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5UCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGFwcGx5V2ViVmlld0xheW91dCh0YXJnZXQpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwbHlXZWJWaWV3TGF5b3V0KHRhcmdldDogRnJhbWVMYXlvdXQpIHsKICAgICAgICB2YWwgd2ViVmlldyA9IGFjdGl2ZVdlYlZpZXcgPzogcmV0dXJuCiAgICAgICAgaWYgKHdlYlZpZXcucGFyZW50ICE9PSB0YXJnZXQpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB2YWwgcmVxdWVzdGVkV2lkdGggPSB2aWV3cG9ydFdpZHRoQ3NzUHgKICAgICAgICB2YWwgcmVxdWVzdGVkSGVpZ2h0ID0gdmlld3BvcnRIZWlnaHRDc3NQeAogICAgICAgIGlmIChyZXF1ZXN0ZWRXaWR0aCA9PSBudWxsIHx8IHJlcXVlc3RlZEhlaWdodCA9PSBudWxsKSB7CiAgICAgICAgICAgIHdlYlZpZXcucGl2b3RYID0gMGYKICAgICAgICAgICAgd2ViVmlldy5waXZvdFkgPSAwZgogICAgICAgICAgICB3ZWJWaWV3LnNjYWxlWCA9IDFmCiAgICAgICAgICAgIHdlYlZpZXcuc2NhbGVZID0gMWYKICAgICAgICAgICAgd2ViVmlldy50cmFuc2xhdGlvblggPSAwZgogICAgICAgICAgICB3ZWJWaWV3LnRyYW5zbGF0aW9uWSA9IDBmCiAgICAgICAgICAgIHVwZGF0ZUxheW91dFBhcmFtcygKICAgICAgICAgICAgICAgIHdlYlZpZXcsCiAgICAgICAgICAgICAgICBGcmFtZUxheW91dC5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5ULAogICAgICAgICAgICAgICAgRnJhbWVMYXlvdXQuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVAogICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgLy8gV2ViVmlldyBsYXlzIG91dCBDU1MgcGl4ZWxzIGFzIGRlbnNpdHktaW5kZXBlbmRlbnQgcGl4ZWxzLiBHaXZpbmcgaXQgdGhlIHJlcXVlc3RlZAogICAgICAgIC8vIENTUyB2aWV3cG9ydCBpbiBwaHlzaWNhbCBwaXhlbHMgbWFrZXMgd2luZG93LmlubmVyV2lkdGgvaW5uZXJIZWlnaHQgbWF0Y2ggdGhlIHRvb2wKICAgICAgICAvLyBhcmd1bWVudHM7IHRoZSB2aWV3IHRyYW5zZm9ybSBiZWxvdyBvbmx5IGZpdHMgdGhhdCBsb2dpY2FsIHZpZXdwb3J0IG9uIHRoZSBwaG9uZS4KICAgICAgICB2YWwgZGVuc2l0eSA9CiAgICAgICAgICAgIHdlYlZpZXcucmVzb3VyY2VzLmRpc3BsYXlNZXRyaWNzLmRlbnNpdHkKICAgICAgICAgICAgICAgIC50YWtlSWYgeyBpdC5pc0Zpbml0ZSgpICYmIGl0ID4gMGYgfQogICAgICAgICAgICAgICAgPzogMWYKICAgICAgICB2YWwgbGF5b3V0V2lkdGggPSAocmVxdWVzdGVkV2lkdGggKiBkZW5zaXR5KS5yb3VuZFRvSW50KCkuY29lcmNlQXRMZWFzdCgxKQogICAgICAgIHZhbCBsYXlvdXRIZWlnaHQgPSAocmVxdWVzdGVkSGVpZ2h0ICogZGVuc2l0eSkucm91bmRUb0ludCgpLmNvZXJjZUF0TGVhc3QoMSkKICAgICAgICB1cGRhdGVMYXlvdXRQYXJhbXMod2ViVmlldywgbGF5b3V0V2lkdGgsIGxheW91dEhlaWdodCkKCiAgICAgICAgdmFsIGF2YWlsYWJsZVdpZHRoID0gdGFyZ2V0LndpZHRoCiAgICAgICAgdmFsIGF2YWlsYWJsZUhlaWdodCA9IHRhcmdldC5oZWlnaHQKICAgICAgICBpZiAoYXZhaWxhYmxlV2lkdGggPD0gMCB8fCBhdmFpbGFibGVIZWlnaHQgPD0gMCkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZhbCBwcmV2aWV3U2NhbGUgPQogICAgICAgICAgICBtaW4oCiAgICAgICAgICAgICAgICBhdmFpbGFibGVXaWR0aC50b0Zsb2F0KCkgLyBsYXlvdXRXaWR0aC50b0Zsb2F0KCksCiAgICAgICAgICAgICAgICBhdmFpbGFibGVIZWlnaHQudG9GbG9hdCgpIC8gbGF5b3V0SGVpZ2h0LnRvRmxvYXQoKQogICAgICAgICAgICApCiAgICAgICAgd2ViVmlldy5waXZvdFggPSAwZgogICAgICAgIHdlYlZpZXcucGl2b3RZID0gMGYKICAgICAgICB3ZWJWaWV3LnNjYWxlWCA9IHByZXZpZXdTY2FsZQogICAgICAgIHdlYlZpZXcuc2NhbGVZID0gcHJldmlld1NjYWxlCiAgICAgICAgd2ViVmlldy50cmFuc2xhdGlvblggPSAoYXZhaWxhYmxlV2lkdGggLSBsYXlvdXRXaWR0aCAqIHByZXZpZXdTY2FsZSkgLyAyZgogICAgICAgIHdlYlZpZXcudHJhbnNsYXRpb25ZID0gKGF2YWlsYWJsZUhlaWdodCAtIGxheW91dEhlaWdodCAqIHByZXZpZXdTY2FsZSkgLyAyZgogICAgfQoKICAgIHByaXZhdGUgZnVuIHVwZGF0ZUxheW91dFBhcmFtcyh3ZWJWaWV3OiBXZWJWaWV3LCB3aWR0aDogSW50LCBoZWlnaHQ6IEludCkgewogICAgICAgIHZhbCBjdXJyZW50ID0gd2ViVmlldy5sYXlvdXRQYXJhbXMgYXM/IEZyYW1lTGF5b3V0LkxheW91dFBhcmFtcwogICAgICAgIGlmIChjdXJyZW50Py53aWR0aCA9PSB3aWR0aCAmJiBjdXJyZW50LmhlaWdodCA9PSBoZWlnaHQgJiYgY3VycmVudC5ncmF2aXR5ID09IEdyYXZpdHkuVE9QKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB3ZWJWaWV3LmxheW91dFBhcmFtcyA9CiAgICAgICAgICAgIEZyYW1lTGF5b3V0LkxheW91dFBhcmFtcyh3aWR0aCwgaGVpZ2h0KS5hcHBseSB7CiAgICAgICAgICAgICAgICBncmF2aXR5ID0gR3Jhdml0eS5UT1AKICAgICAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.websession.browser
+
+import android.view.Gravity
+import android.view.View
+import android.view.ViewGroup
+import android.widget.FrameLayout
+import android.webkit.WebView
+import kotlin.math.min
+import kotlin.math.roundToInt
+
+internal class WebSessionWebViewHost {
+    private var container: FrameLayout? = null
+    private var activeWebView: WebView? = null
+    private var viewportWidthCssPx: Int? = null
+    private var viewportHeightCssPx: Int? = null
+    private val containerLayoutChangeListener =
+        View.OnLayoutChangeListener { view, left, top, right, bottom, oldLeft, oldTop, oldRight, oldBottom ->
+            if (
+                right - left != oldRight - oldLeft ||
+                    bottom - top != oldBottom - oldTop
+            ) {
+                applyWebViewLayout(view as FrameLayout)
+            }
+        }
+
+    fun attachContainer(target: FrameLayout) {
+        if (container !== target) {
+            container?.removeOnLayoutChangeListener(containerLayoutChangeListener)
+            target.addOnLayoutChangeListener(containerLayoutChangeListener)
+        }
+        container = target
+        reattach()
+    }
+
+    fun detachContainer(target: FrameLayout) {
+        if (container === target) {
+            target.removeOnLayoutChangeListener(containerLayoutChangeListener)
+            container = null
+        }
+    }
+
+    fun setActiveWebView(webView: WebView?, viewportWidth: Int?, viewportHeight: Int?) {
+        activeWebView = webView
+        viewportWidthCssPx = viewportWidth
+        viewportHeightCssPx = viewportHeight
+        reattach()
+    }
+
+    fun setViewportSize(width: Int?, height: Int?) {
+        viewportWidthCssPx = width
+        viewportHeightCssPx = height
+        reattach()
+    }
+
+    fun currentWebView(): WebView? = activeWebView
+
+    fun clear() {
+        container?.removeAllViews()
+        container?.removeOnLayoutChangeListener(containerLayoutChangeListener)
+        container = null
+        activeWebView = null
+        viewportWidthCssPx = null
+        viewportHeightCssPx = null
+    }
+
+    private fun reattach() {
+        val target = container ?: return
+        val webView = activeWebView
+
+        if (webView == null) {
+            target.removeAllViews()
+            return
+        }
+
+        val parent = webView.parent
+        if (parent is ViewGroup && parent !== target) {
+            parent.removeView(webView)
+        }
+
+        if (target.childCount != 1 || target.getChildAt(0) !== webView) {
+            target.removeAllViews()
+            target.addView(
+                webView,
+                FrameLayout.LayoutParams(
+                    FrameLayout.LayoutParams.MATCH_PARENT,
+                    FrameLayout.LayoutParams.MATCH_PARENT
+                )
+            )
+        }
+
+        applyWebViewLayout(target)
+    }
+
+    private fun applyWebViewLayout(target: FrameLayout) {
+        val webView = activeWebView ?: return
+        if (webView.parent !== target) {
+            return
+        }
+
+        val requestedWidth = viewportWidthCssPx
+        val requestedHeight = viewportHeightCssPx
+        if (requestedWidth == null || requestedHeight == null) {
+            webView.pivotX = 0f
+            webView.pivotY = 0f
+            webView.scaleX = 1f
+            webView.scaleY = 1f
+            webView.translationX = 0f
+            webView.translationY = 0f
+            updateLayoutParams(
+                webView,
+                FrameLayout.LayoutParams.MATCH_PARENT,
+                FrameLayout.LayoutParams.MATCH_PARENT
+            )
+            return
+        }
+
+        // WebView lays out CSS pixels as density-independent pixels. Giving it the requested
+        // CSS viewport in physical pixels makes window.innerWidth/innerHeight match the tool
+        // arguments; the view transform below only fits that logical viewport on the phone.
+        val density =
+            webView.resources.displayMetrics.density
+                .takeIf { it.isFinite() && it > 0f }
+                ?: 1f
+        val layoutWidth = (requestedWidth * density).roundToInt().coerceAtLeast(1)
+        val layoutHeight = (requestedHeight * density).roundToInt().coerceAtLeast(1)
+        updateLayoutParams(webView, layoutWidth, layoutHeight)
+
+        val availableWidth = target.width
+        val availableHeight = target.height
+        if (availableWidth <= 0 || availableHeight <= 0) {
+            return
+        }
+
+        val previewScale =
+            min(
+                availableWidth.toFloat() / layoutWidth.toFloat(),
+                availableHeight.toFloat() / layoutHeight.toFloat()
+            )
+        webView.pivotX = 0f
+        webView.pivotY = 0f
+        webView.scaleX = previewScale
+        webView.scaleY = previewScale
+        webView.translationX = (availableWidth - layoutWidth * previewScale) / 2f
+        webView.translationY = (availableHeight - layoutHeight * previewScale) / 2f
+    }
+
+    private fun updateLayoutParams(webView: WebView, width: Int, height: Int) {
+        val current = webView.layoutParams as? FrameLayout.LayoutParams
+        if (current?.width == width && current.height == height && current.gravity == Gravity.TOP) {
+            return
+        }
+        webView.layoutParams =
+            FrameLayout.LayoutParams(width, height).apply {
+                gravity = Gravity.TOP
+            }
+    }
+}

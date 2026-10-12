@@ -1,1 +1,557 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0ucGx1Z2lucwoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLmFzQ2hhclN0cmVhbQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLnNwbGl0QnkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5ydW5CbG9ja2luZwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC4qCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLmp1bml0LnJ1bm5lci5SdW5XaXRoCgpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgU3RyZWFtTWFya2Rvd25QbHVnaW5UZXN0IHsKCiAgICAvLyAtLS0g5rWL6K+V5Z+65pys55qEIE1hcmtkb3duIOeyl+S9k+aPkuS7tiAtLS0KICAgIEBUZXN0CiAgICBmdW4gdGVzdEJvbGRQbHVnaW4oKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgYm9sZFRleHQgPSAi6L+Z5piv5LiA5q61KirnspfkvZPmloflrZcqKuaZrumAmuaWh+WtlyIKICAgICAgICB2YWwgc3RyZWFtID0gYm9sZFRleHQuYXNDaGFyU3RyZWFtKCkKICAgICAgICB2YWwgcGx1Z2luID0gU3RyZWFtTWFya2Rvd25Cb2xkUGx1Z2luKCkKCiAgICAgICAgdmFsIGdyb3VwcyA9IGNvbGxlY3RHcm91cHMoc3RyZWFtLCBwbHVnaW4pCgogICAgICAgIGFzc2VydEVxdWFscygzLCBncm91cHMuc2l6ZSkKCiAgICAgICAgLy8g56ys5LiA57uE77ya5pmu6YCa5paH5pysCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMF0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygi6L+Z5piv5LiA5q61IiwgZ3JvdXBzWzBdLmNvbnRlbnQpCgogICAgICAgIC8vIOesrOS6jOe7hO+8mueyl+S9k+aWh+acrAogICAgICAgIGFzc2VydFNhbWUocGx1Z2luLCBncm91cHNbMV0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygiKirnspfkvZPmloflrZcqKiIsIGdyb3Vwc1sxXS5jb250ZW50KQoKICAgICAgICAvLyDnrKzkuInnu4TvvJrmma7pgJrmlofmnKwKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwc1syXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCLmma7pgJrmloflrZciLCBncm91cHNbMl0uY29udGVudCkKICAgIH0KCiAgICAvLyAtLS0g5rWL6K+V5Z+65pys55qEIE1hcmtkb3duIOaWnOS9k+aPkuS7tiAtLS0KICAgIEBUZXN0CiAgICBmdW4gdGVzdEl0YWxpY1BsdWdpbigpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBpdGFsaWNUZXh0ID0gIuaZrumAmuaWh+WtlyrmlpzkvZPlhoXlrrkq5ZCO6Z2i55qE5paH5a2XIgogICAgICAgIHZhbCBzdHJlYW0gPSBpdGFsaWNUZXh0LmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbU1hcmtkb3duSXRhbGljUGx1Z2luKCkKCiAgICAgICAgdmFsIGdyb3VwcyA9IGNvbGxlY3RHcm91cHMoc3RyZWFtLCBwbHVnaW4pCgogICAgICAgIGFzc2VydEVxdWFscygzLCBncm91cHMuc2l6ZSkKCiAgICAgICAgLy8g56ys5LiA57uE77ya5pmu6YCa5paH5pysCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMF0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygi5pmu6YCa5paH5a2XIiwgZ3JvdXBzWzBdLmNvbnRlbnQpCgogICAgICAgIC8vIOesrOS6jOe7hO+8muaWnOS9k+aWh+acrAogICAgICAgIGFzc2VydFNhbWUocGx1Z2luLCBncm91cHNbMV0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygiKuaWnOS9k+WGheWuuSoiLCBncm91cHNbMV0uY29udGVudCkKCiAgICAgICAgLy8g56ys5LiJ57uE77ya5pmu6YCa5paH5pysCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMl0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygi5ZCO6Z2i55qE5paH5a2XIiwgZ3JvdXBzWzJdLmNvbnRlbnQpCiAgICB9CgogICAgLy8gLS0tIOa1i+ivleihjOWGheS7o+eggeaPkuS7tiAtLS0KICAgIEBUZXN0CiAgICBmdW4gdGVzdElubGluZUNvZGVQbHVnaW4oKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgY29kZVRleHQgPSAi6L+Z5pivYOihjOWGheS7o+eggWDnpLrkvosiCiAgICAgICAgdmFsIHN0cmVhbSA9IGNvZGVUZXh0LmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbU1hcmtkb3duSW5saW5lQ29kZVBsdWdpbigpCgogICAgICAgIHZhbCBncm91cHMgPSBjb2xsZWN0R3JvdXBzKHN0cmVhbSwgcGx1Z2luKQoKICAgICAgICBhc3NlcnRFcXVhbHMoMywgZ3JvdXBzLnNpemUpCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMF0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygi6L+Z5pivIiwgZ3JvdXBzWzBdLmNvbnRlbnQpCgogICAgICAgIGFzc2VydFNhbWUocGx1Z2luLCBncm91cHNbMV0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygiYOihjOWGheS7o+eggWAiLCBncm91cHNbMV0uY29udGVudCkKCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMl0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygi56S65L6LIiwgZ3JvdXBzWzJdLmNvbnRlbnQpCiAgICB9CgogICAgLy8gLS0tIOa1i+ivleS7o+eggeWdl+aPkuS7tiAtLS0KICAgIEBUZXN0CiAgICBmdW4gdGVzdEZlbmNlZENvZGVCbG9ja1BsdWdpbigpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBjb2RlQmxvY2sgPQogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIOWJjee9ruaWh+acrAogICAgICAgICAgICBgYGAKICAgICAgICAgICAg5Luj56CB5Z2X5YaF5a65CiAgICAgICAgICAgIOWkmuihjOS7o+eggQogICAgICAgICAgICBgYGAKICAgICAgICAgICAg5ZCO572u5paH5pysCiAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICB2YWwgc3RyZWFtID0gY29kZUJsb2NrLmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbU1hcmtkb3duRmVuY2VkQ29kZUJsb2NrUGx1Z2luKCkKCiAgICAgICAgdmFsIGdyb3VwcyA9IGNvbGxlY3RHcm91cHMoc3RyZWFtLCBwbHVnaW4pCgogICAgICAgIGFzc2VydEVxdWFscygzLCBncm91cHMuc2l6ZSkKCiAgICAgICAgLy8g56ys5LiA57uE77ya5YmN572u5paH5pysCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMF0udGFnKQogICAgICAgIGFzc2VydFRydWUoZ3JvdXBzWzBdLmNvbnRlbnQuY29udGFpbnMoIuWJjee9ruaWh+acrCIpKQoKICAgICAgICAvLyDnrKzkuoznu4TvvJrku6PnoIHlnZcKICAgICAgICBhc3NlcnRTYW1lKHBsdWdpbiwgZ3JvdXBzWzFdLnRhZykKICAgICAgICBhc3NlcnRUcnVlKGdyb3Vwc1sxXS5jb250ZW50LmNvbnRhaW5zKCJgYGAiKSkKICAgICAgICBhc3NlcnRUcnVlKGdyb3Vwc1sxXS5jb250ZW50LmNvbnRhaW5zKCLku6PnoIHlnZflhoXlrrkiKSkKICAgICAgICBhc3NlcnRUcnVlKGdyb3Vwc1sxXS5jb250ZW50LmNvbnRhaW5zKCLlpJrooYzku6PnoIEiKSkKCiAgICAgICAgLy8g56ys5LiJ57uE77ya5ZCO572u5paH5pysCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMl0udGFnKQogICAgICAgIGFzc2VydFRydWUoZ3JvdXBzWzJdLmNvbnRlbnQuY29udGFpbnMoIuWQjue9ruaWh+acrCIpKQogICAgfQoKICAgIC8vIC0tLSDmtYvor5XmoIfpopjmj5Lku7YgLS0tCiAgICBAVGVzdAogICAgZnVuIHRlc3RIZWFkZXJQbHVnaW4oKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgaGVhZGVyVGV4dCA9CiAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAgIyDkuIDnuqfmoIfpopgKICAgICAgICAgICAg5pmu6YCa5paH5a2XCiAgICAgICAgICAgICMjIOS6jOe6p+agh+mimAogICAgICAgICAgICDmm7TlpJrlhoXlrrkKICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCBzdHJlYW0gPSBoZWFkZXJUZXh0LmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbU1hcmtkb3duSGVhZGVyUGx1Z2luKCkKCiAgICAgICAgdmFsIGdyb3VwcyA9IGNvbGxlY3RHcm91cHMoc3RyZWFtLCBwbHVnaW4pCgogICAgICAgIGFzc2VydEVxdWFscyg0LCBncm91cHMuc2l6ZSkKCiAgICAgICAgLy8g56ys5LiA57uE77ya5LiA57qn5qCH6aKYCiAgICAgICAgYXNzZXJ0U2FtZShwbHVnaW4sIGdyb3Vwc1swXS50YWcpCiAgICAgICAgYXNzZXJ0VHJ1ZShncm91cHNbMF0uY29udGVudC5jb250YWlucygiIyDkuIDnuqfmoIfpopgiKSkKCiAgICAgICAgLy8g56ys5LqM57uE77ya5pmu6YCa5paH5a2XCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMV0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygi5pmu6YCa5paH5a2XXG4iLCBncm91cHNbMV0uY29udGVudCkKCiAgICAgICAgLy8g56ys5LiJ57uE77ya5LqM57qn5qCH6aKYCiAgICAgICAgYXNzZXJ0U2FtZShwbHVnaW4sIGdyb3Vwc1syXS50YWcpCiAgICAgICAgYXNzZXJ0VHJ1ZShncm91cHNbMl0uY29udGVudC5jb250YWlucygiIyMg5LqM57qn5qCH6aKYIikpCgogICAgICAgIC8vIOesrOWbm+e7hO+8muWQjue7reWGheWuuQogICAgICAgIGFzc2VydE51bGwoZ3JvdXBzWzNdLnRhZykKICAgICAgICBhc3NlcnRFcXVhbHMoIuabtOWkmuWGheWuuSIsIGdyb3Vwc1szXS5jb250ZW50KQogICAgfQoKICAgIC8vIC0tLSDmtYvor5Xpk77mjqXmj5Lku7YgLS0tCiAgICBAVGVzdAogICAgZnVuIHRlc3RMaW5rUGx1Z2luKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIGxpbmtUZXh0ID0gIui/meaYr+S4gOS4qlvpk77mjqXmlofmnKxdKGh0dHBzOi8vZXhhbXBsZS5jb20p56S65L6LIgogICAgICAgIHZhbCBzdHJlYW0gPSBsaW5rVGV4dC5hc0NoYXJTdHJlYW0oKQogICAgICAgIHZhbCBwbHVnaW4gPSBTdHJlYW1NYXJrZG93bkxpbmtQbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMsIGdyb3Vwcy5zaXplKQoKICAgICAgICAvLyDnrKzkuIDnu4TvvJrmma7pgJrmlofmnKwKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwc1swXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCLov5nmmK/kuIDkuKoiLCBncm91cHNbMF0uY29udGVudCkKCiAgICAgICAgLy8g56ys5LqM57uE77ya6ZO+5o6lCiAgICAgICAgYXNzZXJ0U2FtZShwbHVnaW4sIGdyb3Vwc1sxXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJb6ZO+5o6l5paH5pysXShodHRwczovL2V4YW1wbGUuY29tKSIsIGdyb3Vwc1sxXS5jb250ZW50KQoKICAgICAgICAvLyDnrKzkuInnu4TvvJrmma7pgJrmlofmnKwKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwc1syXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCLnpLrkvosiLCBncm91cHNbMl0uY29udGVudCkKICAgIH0KCiAgICAvLyAtLS0g5rWL6K+V5Zu+54mH5o+S5Lu2IC0tLQogICAgQFRlc3QKICAgIGZ1biB0ZXN0SW1hZ2VQbHVnaW4oKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgaW1hZ2VUZXh0ID0gIui/meaYr+S4gOW8oOWbvueJhyFb5Zu+54mH5o+P6L+wXShpbWFnZS5qcGcp56S65L6LIgogICAgICAgIHZhbCBzdHJlYW0gPSBpbWFnZVRleHQuYXNDaGFyU3RyZWFtKCkKICAgICAgICB2YWwgcGx1Z2luID0gU3RyZWFtTWFya2Rvd25JbWFnZVBsdWdpbigpCgogICAgICAgIHZhbCBncm91cHMgPSBjb2xsZWN0R3JvdXBzKHN0cmVhbSwgcGx1Z2luKQoKICAgICAgICBhc3NlcnRFcXVhbHMoMywgZ3JvdXBzLnNpemUpCgogICAgICAgIC8vIOesrOS4gOe7hO+8muaZrumAmuaWh+acrAogICAgICAgIGFzc2VydE51bGwoZ3JvdXBzWzBdLnRhZykKICAgICAgICBhc3NlcnRFcXVhbHMoIui/meaYr+S4gOW8oOWbvueJhyIsIGdyb3Vwc1swXS5jb250ZW50KQoKICAgICAgICAvLyDnrKzkuoznu4TvvJrlm77niYcKICAgICAgICBhc3NlcnRTYW1lKHBsdWdpbiwgZ3JvdXBzWzFdLnRhZykKICAgICAgICBhc3NlcnRFcXVhbHMoIiFb5Zu+54mH5o+P6L+wXShpbWFnZS5qcGcpIiwgZ3JvdXBzWzFdLmNvbnRlbnQpCgogICAgICAgIC8vIOesrOS4iee7hO+8muaZrumAmuaWh+acrAogICAgICAgIGFzc2VydE51bGwoZ3JvdXBzWzJdLnRhZykKICAgICAgICBhc3NlcnRFcXVhbHMoIuekuuS+iyIsIGdyb3Vwc1syXS5jb250ZW50KQogICAgfQoKICAgIC8vIC0tLSDmtYvor5XlvJXnlKjlnZfmj5Lku7YgLS0tCiAgICBAVGVzdAogICAgZnVuIHRlc3RCbG9ja1F1b3RlUGx1Z2luKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIHF1b3RlVGV4dCA9CiAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAg5YmN572u5paH5pysCiAgICAgICAgICAgID4g6L+Z5piv5LiA5q615byV55So5paH5a2XCiAgICAgICAgICAgID4g6L+Z5piv5byV55So55qE56ys5LqM6KGMCiAgICAgICAgICAgIOaZrumAmuaWh+WtlwogICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgdmFsIHN0cmVhbSA9IHF1b3RlVGV4dC5hc0NoYXJTdHJlYW0oKQogICAgICAgIHZhbCBwbHVnaW4gPSBTdHJlYW1NYXJrZG93bkJsb2NrUXVvdGVQbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKCiAgICAgICAgYXNzZXJ0VHJ1ZSgi5bqU6Iez5bCR5YyF5ZCrM+S4que7hCIsIGdyb3Vwcy5zaXplID49IDMpCgogICAgICAgIC8vIOesrOS4gOe7hO+8muaZrumAmuaWh+acrAogICAgICAgIGFzc2VydE51bGwoZ3JvdXBzWzBdLnRhZykKICAgICAgICBhc3NlcnRUcnVlKGdyb3Vwc1swXS5jb250ZW50LmNvbnRhaW5zKCLliY3nva7mlofmnKwiKSkKCiAgICAgICAgLy8g5byV55So5Z2X77yI5Y+v6IO95YiG5Li65aSa5Liq57uE77yJCiAgICAgICAgdmFyIGZvdW5kUXVvdGUgPSBmYWxzZQogICAgICAgIGZvciAoaSBpbiAxIHVudGlsIGdyb3Vwcy5zaXplIC0gMSkgewogICAgICAgICAgICBpZiAoZ3JvdXBzW2ldLnRhZyA9PT0gcGx1Z2luKSB7CiAgICAgICAgICAgICAgICBmb3VuZFF1b3RlID0gdHJ1ZQogICAgICAgICAgICAgICAgYXNzZXJ0VHJ1ZShncm91cHNbaV0uY29udGVudC5jb250YWlucygiPiDov5nmmK8iKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBhc3NlcnRUcnVlKCLlupTmib7liLDlvJXnlKjlnZciLCBmb3VuZFF1b3RlKQoKICAgICAgICAvLyDmnIDlkI7kuIDnu4TvvJrmma7pgJrmlofmnKwKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwcy5sYXN0KCkudGFnKQogICAgICAgIGFzc2VydFRydWUoZ3JvdXBzLmxhc3QoKS5jb250ZW50LmNvbnRhaW5zKCLmma7pgJrmloflrZciKSkKICAgIH0KCiAgICAvLyAtLS0g5rWL6K+V5rC05bmz57q/5o+S5Lu2IC0tLQogICAgQFRlc3QKICAgIGZ1biB0ZXN0SG9yaXpvbnRhbFJ1bGVQbHVnaW4oKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgaHJUZXh0ID0gIiIiCiAgICAgICAgICAgIOWJjee9ruaWh+acrAogICAgICAgICAgICAtLS0KICAgICAgICAgICAg5ZCO572u5paH5pysCiAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICB2YWwgc3RyZWFtID0gaHJUZXh0LmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbU1hcmtkb3duSG9yaXpvbnRhbFJ1bGVQbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMsIGdyb3Vwcy5zaXplKQoKICAgICAgICAvLyDnrKzkuIDnu4TvvJrmma7pgJrmlofmnKwKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwc1swXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCLliY3nva7mlofmnKxcbiIsIGdyb3Vwc1swXS5jb250ZW50KQoKICAgICAgICAvLyDnrKzkuoznu4TvvJrmsLTlubPnur8KICAgICAgICBhc3NlcnRTYW1lKHBsdWdpbiwgZ3JvdXBzWzFdLnRhZykKICAgICAgICBhc3NlcnRFcXVhbHMoIi0tLVxuIiwgZ3JvdXBzWzFdLmNvbnRlbnQpCgogICAgICAgIC8vIOesrOS4iee7hO+8muaZrumAmuaWh+acrAogICAgICAgIGFzc2VydE51bGwoZ3JvdXBzWzJdLnRhZykKICAgICAgICBhc3NlcnRFcXVhbHMoIuWQjue9ruaWh+acrCIsIGdyb3Vwc1syXS5jb250ZW50KQoKICAgICAgICAvLyDmtYvor5Xlhbbku5bmsLTlubPnur/moLzlvI8KICAgICAgICB2YWwgb3RoZXJIclRleHQgPSAiIiIKICAgICAgICAgICAgKioqCiAgICAgICAgICAgIF9fXwogICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgdmFsIG90aGVyU3RyZWFtID0gb3RoZXJIclRleHQuYXNDaGFyU3RyZWFtKCkKICAgICAgICB2YWwgb3RoZXJHcm91cHMgPSBjb2xsZWN0R3JvdXBzKG90aGVyU3RyZWFtLCBwbHVnaW4pCgogICAgICAgIGFzc2VydFRydWUoIuW6lOiHs+WwkeaJvuWIsOS4pOS4quawtOW5s+e6vyIsIG90aGVyR3JvdXBzLmNvdW50IHsgaXQudGFnID09PSBwbHVnaW4gfSA+PSAyKQogICAgfQoKICAgIC8vIC0tLSDmtYvor5XliKDpmaTnur/mj5Lku7YgLS0tCiAgICBAVGVzdAogICAgZnVuIHRlc3RTdHJpa2V0aHJvdWdoUGx1Z2luKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIHN0cmlrZVRleHQgPSAi6L+Z5pivfn7liKDpmaTnur9+fuaWh+acrCIKICAgICAgICB2YWwgc3RyZWFtID0gc3RyaWtlVGV4dC5hc0NoYXJTdHJlYW0oKQogICAgICAgIHZhbCBwbHVnaW4gPSBTdHJlYW1NYXJrZG93blN0cmlrZXRocm91Z2hQbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMsIGdyb3Vwcy5zaXplKQoKICAgICAgICAvLyDnrKzkuIDnu4TvvJrmma7pgJrmlofmnKwKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwc1swXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCLov5nmmK8iLCBncm91cHNbMF0uY29udGVudCkKCiAgICAgICAgLy8g56ys5LqM57uE77ya5Yig6Zmk57q/CiAgICAgICAgYXNzZXJ0U2FtZShwbHVnaW4sIGdyb3Vwc1sxXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ+fuWIoOmZpOe6v35+IiwgZ3JvdXBzWzFdLmNvbnRlbnQpCgogICAgICAgIC8vIOesrOS4iee7hO+8muaZrumAmuaWh+acrAogICAgICAgIGFzc2VydE51bGwoZ3JvdXBzWzJdLnRhZykKICAgICAgICBhc3NlcnRFcXVhbHMoIuaWh+acrCIsIGdyb3Vwc1syXS5jb250ZW50KQogICAgfQoKICAgIC8vIC0tLSDmtYvor5XkuIvliJLnur/mj5Lku7YgLS0tCiAgICBAVGVzdAogICAgZnVuIHRlc3RVbmRlcmxpbmVQbHVnaW4oKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgdW5kZXJsaW5lVGV4dCA9ICLov5nmmK9fX+S4i+WIkue6v19f5paH5pysIgogICAgICAgIHZhbCBzdHJlYW0gPSB1bmRlcmxpbmVUZXh0LmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbU1hcmtkb3duVW5kZXJsaW5lUGx1Z2luKCkKCiAgICAgICAgdmFsIGdyb3VwcyA9IGNvbGxlY3RHcm91cHMoc3RyZWFtLCBwbHVnaW4pCgogICAgICAgIGFzc2VydEVxdWFscygzLCBncm91cHMuc2l6ZSkKCiAgICAgICAgLy8g56ys5LiA57uE77ya5pmu6YCa5paH5pysCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMF0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygi6L+Z5pivIiwgZ3JvdXBzWzBdLmNvbnRlbnQpCgogICAgICAgIC8vIOesrOS6jOe7hO+8muS4i+WIkue6vwogICAgICAgIGFzc2VydFNhbWUocGx1Z2luLCBncm91cHNbMV0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygiX1/kuIvliJLnur9fXyIsIGdyb3Vwc1sxXS5jb250ZW50KQoKICAgICAgICAvLyDnrKzkuInnu4TvvJrmma7pgJrmlofmnKwKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwc1syXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCLmlofmnKwiLCBncm91cHNbMl0uY29udGVudCkKICAgIH0KCiAgICAvLyAtLS0g5rWL6K+V5pyJ5bqP5YiX6KGo5o+S5Lu2IC0tLQogICAgQFRlc3QKICAgIGZ1biB0ZXN0T3JkZXJlZExpc3RQbHVnaW4oKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgbGlzdFRleHQgPQogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIOWJjee9ruaWh+acrAogICAgICAgICAgICAxLiDnrKzkuIDpobkKICAgICAgICAgICAgMi4g56ys5LqM6aG5CiAgICAgICAgICAgIOWQjue9ruaWh+acrAogICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgdmFsIHN0cmVhbSA9IGxpc3RUZXh0LmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbU1hcmtkb3duT3JkZXJlZExpc3RQbHVnaW4oKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKCiAgICAgICAgYXNzZXJ0VHJ1ZSgi5bqU6Iez5bCR5YyF5ZCrM+S4que7hCIsIGdyb3Vwcy5zaXplID49IDMpCgogICAgICAgIC8vIOesrOS4gOe7hO+8muaZrumAmuaWh+acrAogICAgICAgIGFzc2VydE51bGwoZ3JvdXBzWzBdLnRhZykKICAgICAgICBhc3NlcnRUcnVlKGdyb3Vwc1swXS5jb250ZW50LmNvbnRhaW5zKCLliY3nva7mlofmnKwiKSkKCiAgICAgICAgLy8g5YiX6KGo77yI5Y+v6IO95YiG5Li65aSa5Liq57uE77yJCiAgICAgICAgdmFyIGxpc3RJdGVtQ291bnQgPSAwCiAgICAgICAgZm9yIChncm91cCBpbiBncm91cHMpIHsKICAgICAgICAgICAgaWYgKGdyb3VwLnRhZyA9PT0gcGx1Z2luKSB7CiAgICAgICAgICAgICAgICBsaXN0SXRlbUNvdW50KysKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBhc3NlcnRFcXVhbHMoIuW6lOaJvuWIsDLkuKrliJfooajpobkiLCAyLCBsaXN0SXRlbUNvdW50KQoKICAgICAgICAvLyDmnIDlkI7kuIDnu4TvvJrmma7pgJrmlofmnKwKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwcy5sYXN0KCkudGFnKQogICAgICAgIGFzc2VydFRydWUoZ3JvdXBzLmxhc3QoKS5jb250ZW50LmNvbnRhaW5zKCLlkI7nva7mlofmnKwiKSkKICAgIH0KCiAgICAvLyAtLS0g5rWL6K+V5peg5bqP5YiX6KGo5o+S5Lu2IC0tLQogICAgQFRlc3QKICAgIGZ1biB0ZXN0VW5vcmRlcmVkTGlzdFBsdWdpbigpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBsaXN0VGV4dCA9CiAgICAgICAgICAgICAgICAiIiIKICAgICAgICAgICAg5YmN572u5paH5pysCiAgICAgICAgICAgIC0g5YeP5Y+36aG5CiAgICAgICAgICAgICsg5Yqg5Y+36aG5CiAgICAgICAgICAgIOWQjue9ruaWh+acrAogICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgdmFsIHN0cmVhbSA9IGxpc3RUZXh0LmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIHBsdWdpbiA9IFN0cmVhbU1hcmtkb3duVW5vcmRlcmVkTGlzdFBsdWdpbigpCgogICAgICAgIHZhbCBncm91cHMgPSBjb2xsZWN0R3JvdXBzKHN0cmVhbSwgcGx1Z2luKQoKICAgICAgICBhc3NlcnRUcnVlKCLlupToh7PlsJHljIXlkKs05Liq57uEIiwgZ3JvdXBzLnNpemUgPj0gNCkKCiAgICAgICAgLy8g56ys5LiA57uE77ya5pmu6YCa5paH5pysCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMF0udGFnKQogICAgICAgIGFzc2VydFRydWUoZ3JvdXBzWzBdLmNvbnRlbnQuY29udGFpbnMoIuWJjee9ruaWh+acrCIpKQoKICAgICAgICAvLyDliJfooajvvIjlj6/og73liIbkuLrlpJrkuKrnu4TvvIkKICAgICAgICB2YXIgbGlzdEl0ZW1Db3VudCA9IDAKICAgICAgICBmb3IgKGdyb3VwIGluIGdyb3VwcykgewogICAgICAgICAgICBpZiAoZ3JvdXAudGFnID09PSBwbHVnaW4pIHsKICAgICAgICAgICAgICAgIGxpc3RJdGVtQ291bnQrKwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGFzc2VydEVxdWFscygi5bqU5om+5YiwMuS4quWIl+ihqOmhuSIsIDIsIGxpc3RJdGVtQ291bnQpCgogICAgICAgIC8vIOacgOWQjuS4gOe7hO+8muaZrumAmuaWh+acrAogICAgICAgIGFzc2VydE51bGwoZ3JvdXBzLmxhc3QoKS50YWcpCiAgICAgICAgYXNzZXJ0VHJ1ZShncm91cHMubGFzdCgpLmNvbnRlbnQuY29udGFpbnMoIuWQjue9ruaWh+acrCIpKQogICAgfQoKICAgIC8vIC0tLSDmtYvor5XlpJrkuKrmj5Lku7blhbHlkIzlt6XkvZwgLS0tCiAgICBAVGVzdAogICAgZnVuIHRlc3RNdWx0aXBsZU1hcmtkb3duUGx1Z2lucygpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBtYXJrZG93blRleHQgPQogICAgICAgICAgICAgICAgIiIiCiAgICAgICAgICAgICMg5qCH6aKYCiAgICAgICAgICAgIAogICAgICAgICAgICDov5nmmK8qKueyl+S9kyoq5ZKMKuaWnOS9kyrvvIzov5jmnIlg5Luj56CBYOOAggogICAgICAgICAgICAKICAgICAgICAgICAgYGBgCiAgICAgICAgICAgIOS7o+eggeWdlwogICAgICAgICAgICBgYGAKICAgICAgICAgICAgCiAgICAgICAgICAgID4g5byV55So5Z2XCiAgICAgICAgICAgIAogICAgICAgICAgICBb6ZO+5o6lXShodHRwczovL2V4YW1wbGUuY29tKQogICAgICAgICAgICAKICAgICAgICAgICAgIVvlm77niYddKGltYWdlLmpwZykKICAgICAgICAgICAgCiAgICAgICAgICAgIDEuIOacieW6j+WIl+ihqAogICAgICAgICAgICAtIOaXoOW6j+WIl+ihqAogICAgICAgICAgICAKICAgICAgICAgICAgLS0tCiAgICAgICAgICAgIAogICAgICAgICAgICB+fuWIoOmZpOe6v35+5ZKMX1/kuIvliJLnur9fXwogICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgdmFsIHN0cmVhbSA9IG1hcmtkb3duVGV4dC5hc0NoYXJTdHJlYW0oKQogICAgICAgIC8vIOazqOaEj+mhuuW6j+W+iOmHjeimge+8jOmVv+WIhumalOespueahOaPkuS7tuW/hemhu+aOkuWcqOWJjemdogogICAgICAgIHZhbCBwbHVnaW5zID0KICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICAgICAgU3RyZWFtTWFya2Rvd25GZW5jZWRDb2RlQmxvY2tQbHVnaW4oKSwKICAgICAgICAgICAgICAgICAgICAgICAgU3RyZWFtTWFya2Rvd25VbmRlcmxpbmVQbHVnaW4oKSwKICAgICAgICAgICAgICAgICAgICAgICAgU3RyZWFtTWFya2Rvd25Cb2xkUGx1Z2luKCksCiAgICAgICAgICAgICAgICAgICAgICAgIFN0cmVhbU1hcmtkb3duU3RyaWtldGhyb3VnaFBsdWdpbigpLAogICAgICAgICAgICAgICAgICAgICAgICBTdHJlYW1NYXJrZG93bkl0YWxpY1BsdWdpbigpLAogICAgICAgICAgICAgICAgICAgICAgICBTdHJlYW1NYXJrZG93bklubGluZUNvZGVQbHVnaW4oKSwKICAgICAgICAgICAgICAgICAgICAgICAgU3RyZWFtTWFya2Rvd25IZWFkZXJQbHVnaW4oKSwKICAgICAgICAgICAgICAgICAgICAgICAgU3RyZWFtTWFya2Rvd25MaW5rUGx1Z2luKCksCiAgICAgICAgICAgICAgICAgICAgICAgIFN0cmVhbU1hcmtkb3duSW1hZ2VQbHVnaW4oKSwKICAgICAgICAgICAgICAgICAgICAgICAgU3RyZWFtTWFya2Rvd25CbG9ja1F1b3RlUGx1Z2luKCksCiAgICAgICAgICAgICAgICAgICAgICAgIFN0cmVhbU1hcmtkb3duSG9yaXpvbnRhbFJ1bGVQbHVnaW4oKSwKICAgICAgICAgICAgICAgICAgICAgICAgU3RyZWFtTWFya2Rvd25PcmRlcmVkTGlzdFBsdWdpbigpLAogICAgICAgICAgICAgICAgICAgICAgICBTdHJlYW1NYXJrZG93blVub3JkZXJlZExpc3RQbHVnaW4oKQogICAgICAgICAgICAgICAgKQoKICAgICAgICB2YWwgZ3JvdXBMaXN0ID0gbXV0YWJsZUxpc3RPZjxHcm91cEluZm8+KCkKICAgICAgICBzdHJlYW0uc3BsaXRCeShwbHVnaW5zKS5jb2xsZWN0IHsgZ3JvdXAgLT4KICAgICAgICAgICAgdmFsIGNvbnRlbnQgPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICAgICAgZ3JvdXAuc3RyZWFtLmNvbGxlY3QgeyBjb250ZW50LmFwcGVuZChpdCkgfQogICAgICAgICAgICBncm91cExpc3QuYWRkKEdyb3VwSW5mbyhncm91cC50YWcsIGNvbnRlbnQudG9TdHJpbmcoKSkpCiAgICAgICAgfQoKICAgICAgICAvLyDpqozor4Hoh7PlsJHmiYDmnInmj5Lku7bnsbvlnovpg73ooqvmib7liLAKICAgICAgICBhc3NlcnRUcnVlKCLlupTmib7liLDmoIfpopjmj5Lku7YiLCBncm91cExpc3QuYW55IHsgaXQudGFnIGlzIFN0cmVhbU1hcmtkb3duSGVhZGVyUGx1Z2luIH0pCiAgICAgICAgYXNzZXJ0VHJ1ZSgi5bqU5om+5Yiw57KX5L2T5o+S5Lu2IiwgZ3JvdXBMaXN0LmFueSB7IGl0LnRhZyBpcyBTdHJlYW1NYXJrZG93bkJvbGRQbHVnaW4gfSkKICAgICAgICBhc3NlcnRUcnVlKCLlupTmib7liLDmlpzkvZPmj5Lku7YiLCBncm91cExpc3QuYW55IHsgaXQudGFnIGlzIFN0cmVhbU1hcmtkb3duSXRhbGljUGx1Z2luIH0pCiAgICAgICAgYXNzZXJ0VHJ1ZSgi5bqU5om+5Yiw6KGM5YaF5Luj56CB5o+S5Lu2IiwgZ3JvdXBMaXN0LmFueSB7IGl0LnRhZyBpcyBTdHJlYW1NYXJrZG93bklubGluZUNvZGVQbHVnaW4gfSkKICAgICAgICBhc3NlcnRUcnVlKCLlupTmib7liLDku6PnoIHlnZfmj5Lku7YiLCBncm91cExpc3QuYW55IHsgaXQudGFnIGlzIFN0cmVhbU1hcmtkb3duRmVuY2VkQ29kZUJsb2NrUGx1Z2luIH0pCiAgICAgICAgYXNzZXJ0VHJ1ZSgi5bqU5om+5Yiw6ZO+5o6l5o+S5Lu2IiwgZ3JvdXBMaXN0LmFueSB7IGl0LnRhZyBpcyBTdHJlYW1NYXJrZG93bkxpbmtQbHVnaW4gfSkKICAgICAgICBhc3NlcnRUcnVlKCLlupTmib7liLDlm77niYfmj5Lku7YiLCBncm91cExpc3QuYW55IHsgaXQudGFnIGlzIFN0cmVhbU1hcmtkb3duSW1hZ2VQbHVnaW4gfSkKICAgICAgICBhc3NlcnRUcnVlKCLlupTmib7liLDlvJXnlKjlnZfmj5Lku7YiLCBncm91cExpc3QuYW55IHsgaXQudGFnIGlzIFN0cmVhbU1hcmtkb3duQmxvY2tRdW90ZVBsdWdpbiB9KQogICAgICAgIGFzc2VydFRydWUoIuW6lOaJvuWIsOawtOW5s+e6v+aPkuS7tiIsIGdyb3VwTGlzdC5hbnkgeyBpdC50YWcgaXMgU3RyZWFtTWFya2Rvd25Ib3Jpem9udGFsUnVsZVBsdWdpbiB9KQogICAgICAgIGFzc2VydFRydWUoIuW6lOaJvuWIsOWIoOmZpOe6v+aPkuS7tiIsIGdyb3VwTGlzdC5hbnkgeyBpdC50YWcgaXMgU3RyZWFtTWFya2Rvd25TdHJpa2V0aHJvdWdoUGx1Z2luIH0pCiAgICAgICAgYXNzZXJ0VHJ1ZSgi5bqU5om+5Yiw5LiL5YiS57q/5o+S5Lu2IiwgZ3JvdXBMaXN0LmFueSB7IGl0LnRhZyBpcyBTdHJlYW1NYXJrZG93blVuZGVybGluZVBsdWdpbiB9KQogICAgICAgIGFzc2VydFRydWUoIuW6lOaJvuWIsOacieW6j+WIl+ihqOaPkuS7tiIsIGdyb3VwTGlzdC5hbnkgeyBpdC50YWcgaXMgU3RyZWFtTWFya2Rvd25PcmRlcmVkTGlzdFBsdWdpbiB9KQogICAgICAgIGFzc2VydFRydWUoIuW6lOaJvuWIsOaXoOW6j+WIl+ihqOaPkuS7tiIsIGdyb3VwTGlzdC5hbnkgeyBpdC50YWcgaXMgU3RyZWFtTWFya2Rvd25Vbm9yZGVyZWRMaXN0UGx1Z2luIH0pCiAgICB9CgogICAgLy8gLS0tIOa1i+ivleS4jeWMheWQq+WIhumalOespiAtLS0KICAgIEBUZXN0CiAgICBmdW4gdGVzdFBsdWdpbnNXaXRob3V0RGVsaW1pdGVycygpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBib2xkVGV4dCA9ICLov5nmmK/kuIDmrrUqKueyl+S9k+aWh+Wtlyoq5pmu6YCa5paH5a2XIgogICAgICAgIHZhbCBzdHJlYW0gPSBib2xkVGV4dC5hc0NoYXJTdHJlYW0oKQogICAgICAgIC8vIOS4jeWMheWQq+WIhumalOespgogICAgICAgIHZhbCBwbHVnaW4gPSBTdHJlYW1NYXJrZG93bkJvbGRQbHVnaW4oaW5jbHVkZUFzdGVyaXNrcyA9IGZhbHNlKQoKICAgICAgICB2YWwgZ3JvdXBzID0gY29sbGVjdEdyb3VwcyhzdHJlYW0sIHBsdWdpbikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMsIGdyb3Vwcy5zaXplKQoKICAgICAgICAvLyDnrKzkuIDnu4TvvJrmma7pgJrmlofmnKwKICAgICAgICBhc3NlcnROdWxsKGdyb3Vwc1swXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCLov5nmmK/kuIDmrrUiLCBncm91cHNbMF0uY29udGVudCkKCiAgICAgICAgLy8g56ys5LqM57uE77ya57KX5L2T5paH5pys77yI5LiN5ZCr5YiG6ZqU56ym77yJCiAgICAgICAgYXNzZXJ0U2FtZShwbHVnaW4sIGdyb3Vwc1sxXS50YWcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCLnspfkvZPmloflrZciLCBncm91cHNbMV0uY29udGVudCkgLy8g5LiN5ZCrKioKCiAgICAgICAgLy8g56ys5LiJ57uE77ya5pmu6YCa5paH5pysCiAgICAgICAgYXNzZXJ0TnVsbChncm91cHNbMl0udGFnKQogICAgICAgIGFzc2VydEVxdWFscygi5pmu6YCa5paH5a2XIiwgZ3JvdXBzWzJdLmNvbnRlbnQpCgogICAgICAgIC8vIOa1i+ivleS4jeWMheWQq+WIhumalOespueahOmTvuaOpQogICAgICAgIHZhbCBsaW5rVGV4dCA9ICLov5nmmK9b6ZO+5o6lXShodHRwczovL2V4YW1wbGUuY29tKSIKICAgICAgICB2YWwgbGlua1N0cmVhbSA9IGxpbmtUZXh0LmFzQ2hhclN0cmVhbSgpCiAgICAgICAgdmFsIGxpbmtQbHVnaW4gPSBTdHJlYW1NYXJrZG93bkxpbmtQbHVnaW4oKQoKICAgICAgICB2YWwgbGlua0dyb3VwcyA9IGNvbGxlY3RHcm91cHMobGlua1N0cmVhbSwgbGlua1BsdWdpbikKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgbGlua0dyb3Vwcy5zaXplKQogICAgICAgIGFzc2VydFNhbWUobGlua1BsdWdpbiwgbGlua0dyb3Vwc1sxXS50YWcpCiAgICAgICAgLy8g55Sx5LqO5oiR5Lus55qE5a6e546w5LiN5pSv5oyB5LiN5YyF5ZCr5YiG6ZqU56ym5pe25YiG5Yir5o+Q5Y+W5paH5pys5ZKMVVJM77yM6L+Z6YeM5LuN54S25Lya5YyF5ous5YiG6ZqU56ymCiAgICAgICAgYXNzZXJ0Tm90RXF1YWxzKCLpk77mjqUiLCBsaW5rR3JvdXBzWzFdLmNvbnRlbnQpCiAgICB9CgogICAgLy8gLS0tIOa1i+ivleW8guW4uOaDheWGtSAtLS0KICAgIEBUZXN0CiAgICBmdW4gdGVzdEVkZ2VDYXNlcygpID0gcnVuQmxvY2tpbmcgewogICAgICAgIC8vIDEuIOa1i+ivleS4jemXreWQiOeahOeyl+S9kwogICAgICAgIHZhbCB1bmNsb3NlZEJvbGQgPSAi6L+Z5pivKirkuI3pl63lkIjnmoTnspfkvZMiCiAgICAgICAgdmFsIGJvbGRQbHVnaW4gPSBTdHJlYW1NYXJrZG93bkJvbGRQbHVnaW4oKQoKICAgICAgICB2YWwgdW5jbG9zZWRHcm91cHMgPSBjb2xsZWN0R3JvdXBzKHVuY2xvc2VkQm9sZC5hc0NoYXJTdHJlYW0oKSwgYm9sZFBsdWdpbikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIsIHVuY2xvc2VkR3JvdXBzLnNpemUpCiAgICAgICAgYXNzZXJ0TnVsbCh1bmNsb3NlZEdyb3Vwc1swXS50YWcpCgogICAgICAgIC8vIDIuIOa1i+ivleaNouihjOS4reaWreeahOihjOWGheS7o+eggQogICAgICAgIHZhbCBuZXdsaW5lSW5Db2RlID0gIui/meaYr2DooYzlhoVcbuS7o+eggWDmtYvor5UiCiAgICAgICAgdmFsIGNvZGVQbHVnaW4gPSBTdHJlYW1NYXJrZG93bklubGluZUNvZGVQbHVnaW4oKQoKICAgICAgICB2YWwgbmV3bGluZUdyb3VwcyA9IGNvbGxlY3RHcm91cHMobmV3bGluZUluQ29kZS5hc0NoYXJTdHJlYW0oKSwgY29kZVBsdWdpbikKICAgICAgICAvLyDooYzlhoXku6PnoIHkuK3mlq3vvIzliKTlrprkuLo0CiAgICAgICAgYXNzZXJ0RXF1YWxzKDQsIG5ld2xpbmVHcm91cHMuc2l6ZSkKICAgICAgICBhc3NlcnROdWxsKG5ld2xpbmVHcm91cHNbMF0udGFnKQoKICAgICAgICAvLyAzLiDmtYvor5Xov4fplb/nmoTmoIfpopjvvIjotoXov4c25LiqI++8iQogICAgICAgIHZhbCB0b29Mb25nSGVhZGVyID0gIiMjIyMjIyMg6L+Z5LiN5piv5pyJ5pWI5qCH6aKYIgogICAgICAgIHZhbCBoZWFkZXJQbHVnaW4gPSBTdHJlYW1NYXJrZG93bkhlYWRlclBsdWdpbigpCgogICAgICAgIHZhbCBoZWFkZXJHcm91cHMgPSBjb2xsZWN0R3JvdXBzKHRvb0xvbmdIZWFkZXIuYXNDaGFyU3RyZWFtKCksIGhlYWRlclBsdWdpbikKICAgICAgICAvLyDkuI3lupTooqvor4bliKvkuLrmoIfpopgKICAgICAgICBwcmludGxuKGhlYWRlckdyb3Vwc1swXS5jb250ZW50KQogICAgICAgIGFzc2VydEVxdWFscygxLCBoZWFkZXJHcm91cHMuc2l6ZSkKICAgICAgICBhc3NlcnROdWxsKGhlYWRlckdyb3Vwc1swXS50YWcpCgogICAgICAgIC8vIDQuIOa1i+ivleS4jeWujOaVtOeahOmTvuaOpQogICAgICAgIHZhbCBpbnZhbGlkTGluayA9ICLov5nmmK/kuIDkuKpb6ZO+5o6l5paH5pysXShodHRwczovL2V4YW1wbGUiCiAgICAgICAgdmFsIGxpbmtQbHVnaW4gPSBTdHJlYW1NYXJrZG93bkxpbmtQbHVnaW4oKQoKICAgICAgICB2YWwgbGlua0dyb3VwcyA9IGNvbGxlY3RHcm91cHMoaW52YWxpZExpbmsuYXNDaGFyU3RyZWFtKCksIGxpbmtQbHVnaW4pCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIsIGxpbmtHcm91cHMuc2l6ZSkKICAgICAgICBhc3NlcnROdWxsKGxpbmtHcm91cHNbMF0udGFnKQogICAgfQoKICAgIC8vIC0tLSBIZWxwZXIgZnVuY3Rpb24gLS0tCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGNvbGxlY3RHcm91cHMoCiAgICAgICAgICAgIHN0cmVhbTogY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLlN0cmVhbTxDaGFyPiwKICAgICAgICAgICAgcGx1Z2luOiBTdHJlYW1QbHVnaW4KICAgICk6IExpc3Q8R3JvdXBJbmZvPiB7CiAgICAgICAgdmFsIGdyb3VwTGlzdCA9IG11dGFibGVMaXN0T2Y8R3JvdXBJbmZvPigpCiAgICAgICAgc3RyZWFtLnNwbGl0QnkobGlzdE9mKHBsdWdpbikpLmNvbGxlY3QgeyBncm91cCAtPgogICAgICAgICAgICB2YWwgY29udGVudCA9IFN0cmluZ0J1aWxkZXIoKQogICAgICAgICAgICBncm91cC5zdHJlYW0uY29sbGVjdCB7IGNvbnRlbnQuYXBwZW5kKGl0KSB9CiAgICAgICAgICAgIGdyb3VwTGlzdC5hZGQoR3JvdXBJbmZvKGdyb3VwLnRhZywgY29udGVudC50b1N0cmluZygpKSkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGdyb3VwTGlzdAogICAgfQoKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBHcm91cEluZm8odmFsIHRhZzogU3RyZWFtUGx1Z2luPywgdmFsIGNvbnRlbnQ6IFN0cmluZykKfQo=
+package com.bslsjdk.operit.util.stream.plugins
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.bslsjdk.operit.util.stream.asCharStream
+import com.bslsjdk.operit.util.stream.splitBy
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.*
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class StreamMarkdownPluginTest {
+
+    // --- 测试基本的 Markdown 粗体插件 ---
+    @Test
+    fun testBoldPlugin() = runBlocking {
+        val boldText = "这是一段**粗体文字**普通文字"
+        val stream = boldText.asCharStream()
+        val plugin = StreamMarkdownBoldPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertEquals("这是一段", groups[0].content)
+
+        // 第二组：粗体文本
+        assertSame(plugin, groups[1].tag)
+        assertEquals("**粗体文字**", groups[1].content)
+
+        // 第三组：普通文本
+        assertNull(groups[2].tag)
+        assertEquals("普通文字", groups[2].content)
+    }
+
+    // --- 测试基本的 Markdown 斜体插件 ---
+    @Test
+    fun testItalicPlugin() = runBlocking {
+        val italicText = "普通文字*斜体内容*后面的文字"
+        val stream = italicText.asCharStream()
+        val plugin = StreamMarkdownItalicPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertEquals("普通文字", groups[0].content)
+
+        // 第二组：斜体文本
+        assertSame(plugin, groups[1].tag)
+        assertEquals("*斜体内容*", groups[1].content)
+
+        // 第三组：普通文本
+        assertNull(groups[2].tag)
+        assertEquals("后面的文字", groups[2].content)
+    }
+
+    // --- 测试行内代码插件 ---
+    @Test
+    fun testInlineCodePlugin() = runBlocking {
+        val codeText = "这是`行内代码`示例"
+        val stream = codeText.asCharStream()
+        val plugin = StreamMarkdownInlineCodePlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+        assertNull(groups[0].tag)
+        assertEquals("这是", groups[0].content)
+
+        assertSame(plugin, groups[1].tag)
+        assertEquals("`行内代码`", groups[1].content)
+
+        assertNull(groups[2].tag)
+        assertEquals("示例", groups[2].content)
+    }
+
+    // --- 测试代码块插件 ---
+    @Test
+    fun testFencedCodeBlockPlugin() = runBlocking {
+        val codeBlock =
+                """
+            前置文本
+            ```
+            代码块内容
+            多行代码
+            ```
+            后置文本
+        """.trimIndent()
+
+        val stream = codeBlock.asCharStream()
+        val plugin = StreamMarkdownFencedCodeBlockPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+
+        // 第一组：前置文本
+        assertNull(groups[0].tag)
+        assertTrue(groups[0].content.contains("前置文本"))
+
+        // 第二组：代码块
+        assertSame(plugin, groups[1].tag)
+        assertTrue(groups[1].content.contains("```"))
+        assertTrue(groups[1].content.contains("代码块内容"))
+        assertTrue(groups[1].content.contains("多行代码"))
+
+        // 第三组：后置文本
+        assertNull(groups[2].tag)
+        assertTrue(groups[2].content.contains("后置文本"))
+    }
+
+    // --- 测试标题插件 ---
+    @Test
+    fun testHeaderPlugin() = runBlocking {
+        val headerText =
+                """
+            # 一级标题
+            普通文字
+            ## 二级标题
+            更多内容
+        """.trimIndent()
+
+        val stream = headerText.asCharStream()
+        val plugin = StreamMarkdownHeaderPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(4, groups.size)
+
+        // 第一组：一级标题
+        assertSame(plugin, groups[0].tag)
+        assertTrue(groups[0].content.contains("# 一级标题"))
+
+        // 第二组：普通文字
+        assertNull(groups[1].tag)
+        assertEquals("普通文字\n", groups[1].content)
+
+        // 第三组：二级标题
+        assertSame(plugin, groups[2].tag)
+        assertTrue(groups[2].content.contains("## 二级标题"))
+
+        // 第四组：后续内容
+        assertNull(groups[3].tag)
+        assertEquals("更多内容", groups[3].content)
+    }
+
+    // --- 测试链接插件 ---
+    @Test
+    fun testLinkPlugin() = runBlocking {
+        val linkText = "这是一个[链接文本](https://example.com)示例"
+        val stream = linkText.asCharStream()
+        val plugin = StreamMarkdownLinkPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertEquals("这是一个", groups[0].content)
+
+        // 第二组：链接
+        assertSame(plugin, groups[1].tag)
+        assertEquals("[链接文本](https://example.com)", groups[1].content)
+
+        // 第三组：普通文本
+        assertNull(groups[2].tag)
+        assertEquals("示例", groups[2].content)
+    }
+
+    // --- 测试图片插件 ---
+    @Test
+    fun testImagePlugin() = runBlocking {
+        val imageText = "这是一张图片![图片描述](image.jpg)示例"
+        val stream = imageText.asCharStream()
+        val plugin = StreamMarkdownImagePlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertEquals("这是一张图片", groups[0].content)
+
+        // 第二组：图片
+        assertSame(plugin, groups[1].tag)
+        assertEquals("![图片描述](image.jpg)", groups[1].content)
+
+        // 第三组：普通文本
+        assertNull(groups[2].tag)
+        assertEquals("示例", groups[2].content)
+    }
+
+    // --- 测试引用块插件 ---
+    @Test
+    fun testBlockQuotePlugin() = runBlocking {
+        val quoteText =
+                """
+            前置文本
+            > 这是一段引用文字
+            > 这是引用的第二行
+            普通文字
+        """.trimIndent()
+
+        val stream = quoteText.asCharStream()
+        val plugin = StreamMarkdownBlockQuotePlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertTrue("应至少包含3个组", groups.size >= 3)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertTrue(groups[0].content.contains("前置文本"))
+
+        // 引用块（可能分为多个组）
+        var foundQuote = false
+        for (i in 1 until groups.size - 1) {
+            if (groups[i].tag === plugin) {
+                foundQuote = true
+                assertTrue(groups[i].content.contains("> 这是"))
+            }
+        }
+        assertTrue("应找到引用块", foundQuote)
+
+        // 最后一组：普通文本
+        assertNull(groups.last().tag)
+        assertTrue(groups.last().content.contains("普通文字"))
+    }
+
+    // --- 测试水平线插件 ---
+    @Test
+    fun testHorizontalRulePlugin() = runBlocking {
+        val hrText = """
+            前置文本
+            ---
+            后置文本
+        """.trimIndent()
+
+        val stream = hrText.asCharStream()
+        val plugin = StreamMarkdownHorizontalRulePlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertEquals("前置文本\n", groups[0].content)
+
+        // 第二组：水平线
+        assertSame(plugin, groups[1].tag)
+        assertEquals("---\n", groups[1].content)
+
+        // 第三组：普通文本
+        assertNull(groups[2].tag)
+        assertEquals("后置文本", groups[2].content)
+
+        // 测试其他水平线格式
+        val otherHrText = """
+            ***
+            ___
+        """.trimIndent()
+
+        val otherStream = otherHrText.asCharStream()
+        val otherGroups = collectGroups(otherStream, plugin)
+
+        assertTrue("应至少找到两个水平线", otherGroups.count { it.tag === plugin } >= 2)
+    }
+
+    // --- 测试删除线插件 ---
+    @Test
+    fun testStrikethroughPlugin() = runBlocking {
+        val strikeText = "这是~~删除线~~文本"
+        val stream = strikeText.asCharStream()
+        val plugin = StreamMarkdownStrikethroughPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertEquals("这是", groups[0].content)
+
+        // 第二组：删除线
+        assertSame(plugin, groups[1].tag)
+        assertEquals("~~删除线~~", groups[1].content)
+
+        // 第三组：普通文本
+        assertNull(groups[2].tag)
+        assertEquals("文本", groups[2].content)
+    }
+
+    // --- 测试下划线插件 ---
+    @Test
+    fun testUnderlinePlugin() = runBlocking {
+        val underlineText = "这是__下划线__文本"
+        val stream = underlineText.asCharStream()
+        val plugin = StreamMarkdownUnderlinePlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertEquals("这是", groups[0].content)
+
+        // 第二组：下划线
+        assertSame(plugin, groups[1].tag)
+        assertEquals("__下划线__", groups[1].content)
+
+        // 第三组：普通文本
+        assertNull(groups[2].tag)
+        assertEquals("文本", groups[2].content)
+    }
+
+    // --- 测试有序列表插件 ---
+    @Test
+    fun testOrderedListPlugin() = runBlocking {
+        val listText =
+                """
+            前置文本
+            1. 第一项
+            2. 第二项
+            后置文本
+        """.trimIndent()
+
+        val stream = listText.asCharStream()
+        val plugin = StreamMarkdownOrderedListPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertTrue("应至少包含3个组", groups.size >= 3)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertTrue(groups[0].content.contains("前置文本"))
+
+        // 列表（可能分为多个组）
+        var listItemCount = 0
+        for (group in groups) {
+            if (group.tag === plugin) {
+                listItemCount++
+            }
+        }
+        assertEquals("应找到2个列表项", 2, listItemCount)
+
+        // 最后一组：普通文本
+        assertNull(groups.last().tag)
+        assertTrue(groups.last().content.contains("后置文本"))
+    }
+
+    // --- 测试无序列表插件 ---
+    @Test
+    fun testUnorderedListPlugin() = runBlocking {
+        val listText =
+                """
+            前置文本
+            - 减号项
+            + 加号项
+            后置文本
+        """.trimIndent()
+
+        val stream = listText.asCharStream()
+        val plugin = StreamMarkdownUnorderedListPlugin()
+
+        val groups = collectGroups(stream, plugin)
+
+        assertTrue("应至少包含4个组", groups.size >= 4)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertTrue(groups[0].content.contains("前置文本"))
+
+        // 列表（可能分为多个组）
+        var listItemCount = 0
+        for (group in groups) {
+            if (group.tag === plugin) {
+                listItemCount++
+            }
+        }
+        assertEquals("应找到2个列表项", 2, listItemCount)
+
+        // 最后一组：普通文本
+        assertNull(groups.last().tag)
+        assertTrue(groups.last().content.contains("后置文本"))
+    }
+
+    // --- 测试多个插件共同工作 ---
+    @Test
+    fun testMultipleMarkdownPlugins() = runBlocking {
+        val markdownText =
+                """
+            # 标题
+            
+            这是**粗体**和*斜体*，还有`代码`。
+            
+            ```
+            代码块
+            ```
+            
+            > 引用块
+            
+            [链接](https://example.com)
+            
+            ![图片](image.jpg)
+            
+            1. 有序列表
+            - 无序列表
+            
+            ---
+            
+            ~~删除线~~和__下划线__
+        """.trimIndent()
+
+        val stream = markdownText.asCharStream()
+        // 注意顺序很重要，长分隔符的插件必须排在前面
+        val plugins =
+                listOf(
+                        StreamMarkdownFencedCodeBlockPlugin(),
+                        StreamMarkdownUnderlinePlugin(),
+                        StreamMarkdownBoldPlugin(),
+                        StreamMarkdownStrikethroughPlugin(),
+                        StreamMarkdownItalicPlugin(),
+                        StreamMarkdownInlineCodePlugin(),
+                        StreamMarkdownHeaderPlugin(),
+                        StreamMarkdownLinkPlugin(),
+                        StreamMarkdownImagePlugin(),
+                        StreamMarkdownBlockQuotePlugin(),
+                        StreamMarkdownHorizontalRulePlugin(),
+                        StreamMarkdownOrderedListPlugin(),
+                        StreamMarkdownUnorderedListPlugin()
+                )
+
+        val groupList = mutableListOf<GroupInfo>()
+        stream.splitBy(plugins).collect { group ->
+            val content = StringBuilder()
+            group.stream.collect { content.append(it) }
+            groupList.add(GroupInfo(group.tag, content.toString()))
+        }
+
+        // 验证至少所有插件类型都被找到
+        assertTrue("应找到标题插件", groupList.any { it.tag is StreamMarkdownHeaderPlugin })
+        assertTrue("应找到粗体插件", groupList.any { it.tag is StreamMarkdownBoldPlugin })
+        assertTrue("应找到斜体插件", groupList.any { it.tag is StreamMarkdownItalicPlugin })
+        assertTrue("应找到行内代码插件", groupList.any { it.tag is StreamMarkdownInlineCodePlugin })
+        assertTrue("应找到代码块插件", groupList.any { it.tag is StreamMarkdownFencedCodeBlockPlugin })
+        assertTrue("应找到链接插件", groupList.any { it.tag is StreamMarkdownLinkPlugin })
+        assertTrue("应找到图片插件", groupList.any { it.tag is StreamMarkdownImagePlugin })
+        assertTrue("应找到引用块插件", groupList.any { it.tag is StreamMarkdownBlockQuotePlugin })
+        assertTrue("应找到水平线插件", groupList.any { it.tag is StreamMarkdownHorizontalRulePlugin })
+        assertTrue("应找到删除线插件", groupList.any { it.tag is StreamMarkdownStrikethroughPlugin })
+        assertTrue("应找到下划线插件", groupList.any { it.tag is StreamMarkdownUnderlinePlugin })
+        assertTrue("应找到有序列表插件", groupList.any { it.tag is StreamMarkdownOrderedListPlugin })
+        assertTrue("应找到无序列表插件", groupList.any { it.tag is StreamMarkdownUnorderedListPlugin })
+    }
+
+    // --- 测试不包含分隔符 ---
+    @Test
+    fun testPluginsWithoutDelimiters() = runBlocking {
+        val boldText = "这是一段**粗体文字**普通文字"
+        val stream = boldText.asCharStream()
+        // 不包含分隔符
+        val plugin = StreamMarkdownBoldPlugin(includeAsterisks = false)
+
+        val groups = collectGroups(stream, plugin)
+
+        assertEquals(3, groups.size)
+
+        // 第一组：普通文本
+        assertNull(groups[0].tag)
+        assertEquals("这是一段", groups[0].content)
+
+        // 第二组：粗体文本（不含分隔符）
+        assertSame(plugin, groups[1].tag)
+        assertEquals("粗体文字", groups[1].content) // 不含**
+
+        // 第三组：普通文本
+        assertNull(groups[2].tag)
+        assertEquals("普通文字", groups[2].content)
+
+        // 测试不包含分隔符的链接
+        val linkText = "这是[链接](https://example.com)"
+        val linkStream = linkText.asCharStream()
+        val linkPlugin = StreamMarkdownLinkPlugin()
+
+        val linkGroups = collectGroups(linkStream, linkPlugin)
+        assertEquals(2, linkGroups.size)
+        assertSame(linkPlugin, linkGroups[1].tag)
+        // 由于我们的实现不支持不包含分隔符时分别提取文本和URL，这里仍然会包括分隔符
+        assertNotEquals("链接", linkGroups[1].content)
+    }
+
+    // --- 测试异常情况 ---
+    @Test
+    fun testEdgeCases() = runBlocking {
+        // 1. 测试不闭合的粗体
+        val unclosedBold = "这是**不闭合的粗体"
+        val boldPlugin = StreamMarkdownBoldPlugin()
+
+        val unclosedGroups = collectGroups(unclosedBold.asCharStream(), boldPlugin)
+
+        assertEquals(2, unclosedGroups.size)
+        assertNull(unclosedGroups[0].tag)
+
+        // 2. 测试换行中断的行内代码
+        val newlineInCode = "这是`行内\n代码`测试"
+        val codePlugin = StreamMarkdownInlineCodePlugin()
+
+        val newlineGroups = collectGroups(newlineInCode.asCharStream(), codePlugin)
+        // 行内代码中断，判定为4
+        assertEquals(4, newlineGroups.size)
+        assertNull(newlineGroups[0].tag)
+
+        // 3. 测试过长的标题（超过6个#）
+        val tooLongHeader = "####### 这不是有效标题"
+        val headerPlugin = StreamMarkdownHeaderPlugin()
+
+        val headerGroups = collectGroups(tooLongHeader.asCharStream(), headerPlugin)
+        // 不应被识别为标题
+        println(headerGroups[0].content)
+        assertEquals(1, headerGroups.size)
+        assertNull(headerGroups[0].tag)
+
+        // 4. 测试不完整的链接
+        val invalidLink = "这是一个[链接文本](https://example"
+        val linkPlugin = StreamMarkdownLinkPlugin()
+
+        val linkGroups = collectGroups(invalidLink.asCharStream(), linkPlugin)
+        assertEquals(2, linkGroups.size)
+        assertNull(linkGroups[0].tag)
+    }
+
+    // --- Helper function ---
+    private suspend fun collectGroups(
+            stream: com.bslsjdk.operit.util.stream.Stream<Char>,
+            plugin: StreamPlugin
+    ): List<GroupInfo> {
+        val groupList = mutableListOf<GroupInfo>()
+        stream.splitBy(listOf(plugin)).collect { group ->
+            val content = StringBuilder()
+            group.stream.collect { content.append(it) }
+            groupList.add(GroupInfo(group.tag, content.toString()))
+        }
+        return groupList
+    }
+
+    private data class GroupInfo(val tag: StreamPlugin?, val content: String)
+}

@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLmp1bml0LnJ1bm5lci5SdW5XaXRoCgpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgSW50UmFuZ2VTZXJpYWxpemVyU2hhcGVBbmRyb2lkVGVzdCB7CgogICAgQFRlc3QgZnVuIHNlcmlhbGl6ZWRSYW5nZUNvbnRhaW5zU3RhcnRGaWVsZCgpIHsKICAgICAgICB2YWwgZW5jb2RlZCA9IEpzb24uZW5jb2RlVG9TdHJpbmcoSW50UmFuZ2VTZXJpYWxpemVyLCAxLi4yKQogICAgICAgIGFzc2VydFRydWUoZW5jb2RlZC5jb250YWlucygiXCJzdGFydFwiOjEiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gc2VyaWFsaXplZFJhbmdlQ29udGFpbnNFbmRJbmNsdXNpdmVGaWVsZCgpIHsKICAgICAgICB2YWwgZW5jb2RlZCA9IEpzb24uZW5jb2RlVG9TdHJpbmcoSW50UmFuZ2VTZXJpYWxpemVyLCAxLi4yKQogICAgICAgIGFzc2VydFRydWUoZW5jb2RlZC5jb250YWlucygiXCJlbmRJbmNsdXNpdmVcIjoyIikpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import kotlinx.serialization.json.Json
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class IntRangeSerializerShapeAndroidTest {
+
+    @Test fun serializedRangeContainsStartField() {
+        val encoded = Json.encodeToString(IntRangeSerializer, 1..2)
+        assertTrue(encoded.contains("\"start\":1"))
+    }
+
+    @Test fun serializedRangeContainsEndInclusiveField() {
+        val encoded = Json.encodeToString(IntRangeSerializer, 1..2)
+        assertTrue(encoded.contains("\"endInclusive\":2"))
+    }
+}

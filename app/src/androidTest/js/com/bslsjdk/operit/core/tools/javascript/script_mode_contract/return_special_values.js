@@ -1,1 +1,22 @@
-J3VzZSBzdHJpY3QnOwoKcmV0dXJuIHsKICBzdWNjZXNzOiB0cnVlLAogIG1vZGU6ICdzY3JpcHQtbW9kZS1yZXR1cm4tc3BlY2lhbC12YWx1ZXMnLAogIHBheWxvYWQ6IHsKICAgIGNyZWF0ZWRBdDogbmV3IERhdGUoJzIwMjQtMDEtMDJUMDM6MDQ6MDUuMDAwWicpLAogICAgbWF0Y2hlcjogL3NjcmlwdC1tb2RlLXNwZWNpYWwvZ2ksCiAgICBjb3VudDogMTIzNDU2Nzg5MDEyMzQ1Njc4OTBuLAogICAgbWFwOiBuZXcgTWFwKFsKICAgICAgWydhbHBoYScsIDFdLAogICAgICBbJ2JldGEnLCB0cnVlXSwKICAgIF0pLAogICAgc2V0OiBuZXcgU2V0KFsnbGVmdCcsICdyaWdodCddKSwKICAgIHN5bWJvbDogU3ltYm9sKCdzY3JpcHQtbW9kZS1zcGVjaWFsJyksCiAgICBuZXN0ZWQ6IHsKICAgICAga2VlcDogJ3ZhbHVlJywKICAgICAgc2tpcDogdW5kZWZpbmVkLAogICAgfSwKICAgIGFycmF5OiBbMSwgdW5kZWZpbmVkLCBmdW5jdGlvbiAoKSB7IHJldHVybiAnaWdub3JlZCc7IH0sIDRdLAogIH0sCn07Cg==
+'use strict';
+
+return {
+  success: true,
+  mode: 'script-mode-return-special-values',
+  payload: {
+    createdAt: new Date('2024-01-02T03:04:05.000Z'),
+    matcher: /script-mode-special/gi,
+    count: 12345678901234567890n,
+    map: new Map([
+      ['alpha', 1],
+      ['beta', true],
+    ]),
+    set: new Set(['left', 'right']),
+    symbol: Symbol('script-mode-special'),
+    nested: {
+      keep: 'value',
+      skip: undefined,
+    },
+    array: [1, undefined, function () { return 'ignored'; }, 4],
+  },
+};

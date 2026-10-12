@@ -1,1 +1,468 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZWNvdmVyeQoKaW1wb3J0IGFuZHJvaWQuYXBwLkFjdGl2aXR5TWFuYWdlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQub3MuUHJvY2VzcwppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLmNvcmUuQ29ycnVwdGlvbkV4Y2VwdGlvbgppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuUHJlZmVyZW5jZURhdGFTdG9yZUZhY3RvcnkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLlByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMucHJlZmVyZW5jZXNEYXRhU3RvcmVGaWxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYmFja3VwLk9wZXJpdEJhY2t1cERpcnMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS5pby5CdWZmZXJlZElucHV0U3RyZWFtCmltcG9ydCBqYXZhLmlvLkJ1ZmZlcmVkT3V0cHV0U3RyZWFtCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uRmlsZUlucHV0U3RyZWFtCmltcG9ydCBqYXZhLmlvLkZpbGVPdXRwdXRTdHJlYW0KaW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGVUaW1lCmltcG9ydCBqYXZhLnRpbWUuZm9ybWF0LkRhdGVUaW1lRm9ybWF0dGVyCmltcG9ydCBqYXZhLnV0aWwuVVVJRAppbXBvcnQgamF2YS51dGlsLnppcC5aaXBFbnRyeQppbXBvcnQgamF2YS51dGlsLnppcC5aaXBPdXRwdXRTdHJlYW0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuU3VwZXJ2aXNvckpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNhbmNlbEFuZEpvaW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy5NdXRleAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMud2l0aExvY2sKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YXRpb25FeGNlcHRpb24KCi8qKiBVc2VyLXRyaWdnZXJlZCBwaHlzaWNhbCB2YWxpZGF0aW9uIGFuZCBwcmVzZXJ2YXRpb24tZmlyc3QgcmVwYWlyIGZvciBQcmVmZXJlbmNlcyBEYXRhU3RvcmUgZmlsZXMuICovCm9iamVjdCBQcmVmZXJlbmNlc0hlYWx0aE1hbmFnZXIgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlByZWZlcmVuY2VzSGVhbHRoIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgUFJFRkVSRU5DRVNfU1VGRklYID0gIi5wcmVmZXJlbmNlc19wYiIKICAgIHByaXZhdGUgdmFsIG9wZXJhdGlvbk11dGV4ID0gTXV0ZXgoKQogICAgcHJpdmF0ZSB2YWwgZG9tYWluSnNvbiA9IEpzb24gewogICAgICAgIGlnbm9yZVVua25vd25LZXlzID0gdHJ1ZQogICAgICAgIGlzTGVuaWVudCA9IHRydWUKICAgIH0KCiAgICBlbnVtIGNsYXNzIFN0YXR1cyB7CiAgICAgICAgSEVBTFRIWSwKICAgICAgICBORUVEU19SRVBBSVIsCiAgICAgICAgTUFOVUFMX1JFQ09WRVJZX1JFUVVJUkVECiAgICB9CgogICAgZW51bSBjbGFzcyBJdGVtU3RhdHVzIHsKICAgICAgICBQQVNTLAogICAgICAgIFdBUk5JTkcsCiAgICAgICAgRkFJTFVSRQogICAgfQoKICAgIGRhdGEgY2xhc3MgQ2hlY2tJdGVtKAogICAgICAgIHZhbCB0aXRsZTogU3RyaW5nLAogICAgICAgIHZhbCBkZXRhaWw6IFN0cmluZywKICAgICAgICB2YWwgc3RhdHVzOiBJdGVtU3RhdHVzCiAgICApCgogICAgZGF0YSBjbGFzcyBSZXBvcnQoCiAgICAgICAgdmFsIHN0YXR1czogU3RhdHVzLAogICAgICAgIHZhbCBzdW1tYXJ5OiBTdHJpbmcsCiAgICAgICAgdmFsIGNoZWNrczogTGlzdDxDaGVja0l0ZW0+LAogICAgICAgIHZhbCByZXBhaXJhYmxlRmlsZU5hbWVzOiBMaXN0PFN0cmluZz4KICAgICkgewogICAgICAgIHZhbCBjYW5SZXBhaXI6IEJvb2xlYW4KICAgICAgICAgICAgZ2V0KCkgPSBzdGF0dXMgPT0gU3RhdHVzLk5FRURTX1JFUEFJUiAmJiByZXBhaXJhYmxlRmlsZU5hbWVzLmlzTm90RW1wdHkoKQogICAgfQoKICAgIGRhdGEgY2xhc3MgRG9tYWluSXNzdWUoCiAgICAgICAgdmFsIHN0b3JlTmFtZTogU3RyaW5nLAogICAgICAgIHZhbCBkZXRhaWw6IFN0cmluZwogICAgKQoKICAgIGRhdGEgY2xhc3MgUmVwYWlyUmVzdWx0KAogICAgICAgIHZhbCBzb3VyY2VBcmNoaXZlOiBGaWxlLAogICAgICAgIHZhbCByZXNldEZpbGVOYW1lczogTGlzdDxTdHJpbmc+LAogICAgICAgIHZhbCByZXBvcnQ6IFJlcG9ydAogICAgKQoKICAgIGNsYXNzIFJlcGFpckZhaWxlZEV4Y2VwdGlvbigKICAgICAgICB2YWwgc291cmNlQXJjaGl2ZTogRmlsZSwKICAgICAgICBjYXVzZTogVGhyb3dhYmxlCiAgICApIDogSWxsZWdhbFN0YXRlRXhjZXB0aW9uKGNhdXNlLm1lc3NhZ2UsIGNhdXNlKQoKICAgIHByaXZhdGUgZW51bSBjbGFzcyBNYWluUHJvY2Vzc1N0YXRlIHsKICAgICAgICBSVU5OSU5HLAogICAgICAgIE5PVF9SVU5OSU5HLAogICAgICAgIFVOS05PV04KICAgIH0KCiAgICBwcml2YXRlIHNlYWxlZCBpbnRlcmZhY2UgQ29weVZhbGlkYXRpb24gewogICAgICAgIGRhdGEgb2JqZWN0IFJlYWRhYmxlIDogQ29weVZhbGlkYXRpb24KCiAgICAgICAgZGF0YSBjbGFzcyBEb21haW5Jc3N1ZXModmFsIGlzc3VlczogTGlzdDxEb21haW5Jc3N1ZT4pIDogQ29weVZhbGlkYXRpb24KCiAgICAgICAgZGF0YSBjbGFzcyBDb3JydXB0KHZhbCByZWFzb246IFN0cmluZykgOiBDb3B5VmFsaWRhdGlvbgoKICAgICAgICBkYXRhIGNsYXNzIEZhaWxlZCh2YWwgcmVhc29uOiBTdHJpbmcpIDogQ29weVZhbGlkYXRpb24KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBpbnNwZWN0KGNvbnRleHQ6IENvbnRleHQpOiBSZXBvcnQgPQogICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIG9wZXJhdGlvbk11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgICAgIGluc3BlY3RMb2NrZWQoY29udGV4dCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICBzdXNwZW5kIGZ1biByZXBhaXIoY29udGV4dDogQ29udGV4dCk6IFJlcGFpclJlc3VsdCA9CiAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgb3BlcmF0aW9uTXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICAgICAgdmFsIGRpc3BsYXlDb250ZXh0ID0gY29udGV4dAogICAgICAgICAgICAgICAgdmFsIGFwcENvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgICAgICAgICAgICAgdmFsIGJlZm9yZSA9IGluc3BlY3RMb2NrZWQoZGlzcGxheUNvbnRleHQpCiAgICAgICAgICAgICAgICBjaGVjayhiZWZvcmUuY2FuUmVwYWlyKSB7CiAgICAgICAgICAgICAgICAgICAgZGlzcGxheUNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfY29uZmlndXJhdGlvbl9ub19zdXBwb3J0ZWRfcmVwYWlyKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHJlcXVpcmVNYWluUHJvY2Vzc1N0b3BwZWQoZGlzcGxheUNvbnRleHQpCiAgICAgICAgICAgICAgICB2YWwgc291cmNlcyA9IHJlc29sdmVSZXBhaXJTb3VyY2VzKGFwcENvbnRleHQsIGJlZm9yZS5yZXBhaXJhYmxlRmlsZU5hbWVzKQogICAgICAgICAgICAgICAgdmFsIGFyY2hpdmUgPSBwcmVzZXJ2ZUNvbmZpZ3VyYXRpb25GaWxlcyhzb3VyY2VzKQogICAgICAgICAgICAgICAgdmFsIHJlc2V0RmlsZXMgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBzb3VyY2VzLmZvckVhY2ggeyBzb3VyY2UgLT4KICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWlyZU1haW5Qcm9jZXNzU3RvcHBlZChkaXNwbGF5Q29udGV4dCkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHZhbGlkYXRpb24gPSB2YWxpZGF0ZUNvcHkoYXBwQ29udGV4dCwgc291cmNlKQogICAgICAgICAgICAgICAgICAgICAgICBjaGVjaygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbGlkYXRpb24gaXMgQ29weVZhbGlkYXRpb24uQ29ycnVwdCB8fAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbGlkYXRpb24gaXMgQ29weVZhbGlkYXRpb24uRG9tYWluSXNzdWVzCiAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheUNvbnRleHQuZ2V0U3RyaW5nKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfY29uZmlndXJhdGlvbl9jaGFuZ2VkX2JlZm9yZV9yZXBhaXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc291cmNlLm5hbWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBjaGVjayhzb3VyY2UuZGVsZXRlKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXlDb250ZXh0LmdldFN0cmluZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2NvbmZpZ3VyYXRpb25fZGVsZXRlX2ZhaWxlZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzb3VyY2UubmFtZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHJlc2V0RmlsZXMgKz0gc291cmNlLm5hbWUKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIFJlcGFpclJlc3VsdCgKICAgICAgICAgICAgICAgICAgICAgICAgc291cmNlQXJjaGl2ZSA9IGFyY2hpdmUsCiAgICAgICAgICAgICAgICAgICAgICAgIHJlc2V0RmlsZU5hbWVzID0gcmVzZXRGaWxlcywKICAgICAgICAgICAgICAgICAgICAgICAgcmVwb3J0ID0gaW5zcGVjdExvY2tlZChkaXNwbGF5Q29udGV4dCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICB0aHJvdyBSZXBhaXJGYWlsZWRFeGNlcHRpb24oYXJjaGl2ZSwgZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGluc3BlY3RMb2NrZWQoY29udGV4dDogQ29udGV4dCk6IFJlcG9ydCB7CiAgICAgICAgdmFsIGFwcENvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgICAgIHZhbCBjaGVja3MgPSBtdXRhYmxlTGlzdE9mPENoZWNrSXRlbT4oKQogICAgICAgIHZhbCByZXBhaXJhYmxlRmlsZU5hbWVzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKICAgICAgICB2YXIgaGFzQmxvY2tpbmdGYWlsdXJlID0gZmFsc2UKICAgICAgICB2YXIgaGFzUmVwYWlyYWJsZUlzc3VlID0gZmFsc2UKCiAgICAgICAgdmFsIGRpcmVjdG9yeSA9IHByZWZlcmVuY2VzRGlyZWN0b3J5KGFwcENvbnRleHQpCiAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICFkaXJlY3RvcnkuZXhpc3RzKCkgLT4gewogICAgICAgICAgICAgICAgY2hlY2tzICs9CiAgICAgICAgICAgICAgICAgICAgQ2hlY2tJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICB0aXRsZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfY29uZmlndXJhdGlvbl9jaGVja19maWxlcyksCiAgICAgICAgICAgICAgICAgICAgICAgIGRldGFpbCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfY29uZmlndXJhdGlvbl9maWxlc19ub25lKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gSXRlbVN0YXR1cy5QQVNTCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgcmV0dXJuIHJlcG9ydChjb250ZXh0LCBjaGVja3MsIHJlcGFpcmFibGVGaWxlTmFtZXMsIGZhbHNlLCBmYWxzZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgIWRpcmVjdG9yeS5pc0RpcmVjdG9yeSAtPiB7CiAgICAgICAgICAgICAgICBjaGVja3MgKz0KICAgICAgICAgICAgICAgICAgICBDaGVja0l0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9jb25maWd1cmF0aW9uX2NoZWNrX2ZpbGVzKSwKICAgICAgICAgICAgICAgICAgICAgICAgZGV0YWlsID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9jb25maWd1cmF0aW9uX2RpcmVjdG9yeV9pbnZhbGlkKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gSXRlbVN0YXR1cy5GQUlMVVJFCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgcmV0dXJuIHJlcG9ydChjb250ZXh0LCBjaGVja3MsIHJlcGFpcmFibGVGaWxlTmFtZXMsIHRydWUsIGZhbHNlKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB2YWwgcHJlZmVyZW5jZVBhdGhzID0KICAgICAgICAgICAgZGlyZWN0b3J5Lmxpc3RGaWxlcygpCiAgICAgICAgICAgICAgICA/LmZpbHRlciB7IHBhdGggLT4gcGF0aC5uYW1lLmVuZHNXaXRoKFBSRUZFUkVOQ0VTX1NVRkZJWCkgfQogICAgICAgICAgICAgICAgPy5zb3J0ZWRCeSB7IHBhdGggLT4gcGF0aC5uYW1lIH0KICAgICAgICAgICAgICAgID86IHJ1biB7CiAgICAgICAgICAgICAgICAgICAgY2hlY2tzICs9CiAgICAgICAgICAgICAgICAgICAgICAgIENoZWNrSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9jb25maWd1cmF0aW9uX2NoZWNrX2ZpbGVzKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRldGFpbCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfY29uZmlndXJhdGlvbl9kaXJlY3RvcnlfdW5yZWFkYWJsZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPSBJdGVtU3RhdHVzLkZBSUxVUkUKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHJldHVybiByZXBvcnQoY29udGV4dCwgY2hlY2tzLCByZXBhaXJhYmxlRmlsZU5hbWVzLCB0cnVlLCBmYWxzZSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgaWYgKHByZWZlcmVuY2VQYXRocy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgY2hlY2tzICs9CiAgICAgICAgICAgICAgICBDaGVja0l0ZW0oCiAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2NvbmZpZ3VyYXRpb25fY2hlY2tfZmlsZXMpLAogICAgICAgICAgICAgICAgICAgIGRldGFpbCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfY29uZmlndXJhdGlvbl9maWxlc19ub25lKSwKICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPSBJdGVtU3RhdHVzLlBBU1MKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgcmV0dXJuIHJlcG9ydChjb250ZXh0LCBjaGVja3MsIHJlcGFpcmFibGVGaWxlTmFtZXMsIGZhbHNlLCBmYWxzZSkKICAgICAgICB9CgogICAgICAgIHZhciByZWFkYWJsZUZpbGVDb3VudCA9IDAKICAgICAgICBwcmVmZXJlbmNlUGF0aHMuZm9yRWFjaCB7IHNvdXJjZSAtPgogICAgICAgICAgICBpZiAoIXNvdXJjZS5pc0ZpbGUgfHwgIWhhc0V4cGVjdGVkUGF0aChzb3VyY2UsIGRpcmVjdG9yeSkpIHsKICAgICAgICAgICAgICAgIGhhc0Jsb2NraW5nRmFpbHVyZSA9IHRydWUKICAgICAgICAgICAgICAgIGNoZWNrcyArPQogICAgICAgICAgICAgICAgICAgIENoZWNrSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSBzb3VyY2UubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgZGV0YWlsID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9jb25maWd1cmF0aW9uX2ZpbGVfaW52YWxpZF9wYXRoKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gSXRlbVN0YXR1cy5GQUlMVVJFCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgcmV0dXJuQGZvckVhY2gKICAgICAgICAgICAgfQoKICAgICAgICAgICAgd2hlbiAodmFsIHZhbGlkYXRpb24gPSB2YWxpZGF0ZUNvcHkoYXBwQ29udGV4dCwgc291cmNlKSkgewogICAgICAgICAgICAgICAgQ29weVZhbGlkYXRpb24uUmVhZGFibGUgLT4gcmVhZGFibGVGaWxlQ291bnQrKwogICAgICAgICAgICAgICAgaXMgQ29weVZhbGlkYXRpb24uRG9tYWluSXNzdWVzIC0+IHsKICAgICAgICAgICAgICAgICAgICBoYXNSZXBhaXJhYmxlSXNzdWUgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgcmVwYWlyYWJsZUZpbGVOYW1lcyArPSBzb3VyY2UubmFtZQogICAgICAgICAgICAgICAgICAgIGNoZWNrcyArPQogICAgICAgICAgICAgICAgICAgICAgICBDaGVja0l0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aXRsZSA9IHNvdXJjZS5uYW1lLnJlbW92ZVN1ZmZpeChQUkVGRVJFTkNFU19TVUZGSVgpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGV0YWlsID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2NvbmZpZ3VyYXRpb25fZmlsZV9kb21haW5faXNzdWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsaWRhdGlvbi5pc3N1ZXMuam9pblRvU3RyaW5nKHNlcGFyYXRvciA9ICIsICIpIHsgaXQuZGV0YWlsIH0pLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gSXRlbVN0YXR1cy5XQVJOSU5HCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJQcmVmZXJlbmNlcyBkb21haW4gaXNzdWVzIGZvdW5kOiAke3NvdXJjZS5uYW1lfTsgJHt2YWxpZGF0aW9uLmlzc3Vlcy5qb2luVG9TdHJpbmcoc2VwYXJhdG9yID0gIiwgIikgeyBpdC5kZXRhaWwgfX0iKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaXMgQ29weVZhbGlkYXRpb24uQ29ycnVwdCAtPiB7CiAgICAgICAgICAgICAgICAgICAgaGFzUmVwYWlyYWJsZUlzc3VlID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgIHJlcGFpcmFibGVGaWxlTmFtZXMgKz0gc291cmNlLm5hbWUKICAgICAgICAgICAgICAgICAgICBjaGVja3MgKz0KICAgICAgICAgICAgICAgICAgICAgICAgQ2hlY2tJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSBzb3VyY2UubmFtZS5yZW1vdmVTdWZmaXgoUFJFRkVSRU5DRVNfU1VGRklYKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRldGFpbCA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfY29uZmlndXJhdGlvbl9maWxlX2NvcnJ1cHQpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gSXRlbVN0YXR1cy5XQVJOSU5HCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJQcmVmZXJlbmNlcyBmaWxlIGlzIGNvcnJ1cHQ6ICR7c291cmNlLm5hbWV9OyAke3ZhbGlkYXRpb24ucmVhc29ufSIpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaXMgQ29weVZhbGlkYXRpb24uRmFpbGVkIC0+IHsKICAgICAgICAgICAgICAgICAgICBoYXNCbG9ja2luZ0ZhaWx1cmUgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgY2hlY2tzICs9CiAgICAgICAgICAgICAgICAgICAgICAgIENoZWNrSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gc291cmNlLm5hbWUucmVtb3ZlU3VmZml4KFBSRUZFUkVOQ0VTX1NVRkZJWCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXRhaWwgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2NvbmZpZ3VyYXRpb25fZmlsZV9jaGVja19mYWlsZWQpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gSXRlbVN0YXR1cy5GQUlMVVJFCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgKICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAiUHJlZmVyZW5jZXMgZmlsZSBjaGVjayBmYWlsZWQ6ICR7c291cmNlLm5hbWV9OyAke3ZhbGlkYXRpb24ucmVhc29ufSIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGlmIChyZWFkYWJsZUZpbGVDb3VudCA+IDApIHsKICAgICAgICAgICAgY2hlY2tzLmFkZCgKICAgICAgICAgICAgICAgIDAsCiAgICAgICAgICAgICAgICBDaGVja0l0ZW0oCiAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2NvbmZpZ3VyYXRpb25fY2hlY2tfZmlsZXMpLAogICAgICAgICAgICAgICAgICAgIGRldGFpbCA9CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9jb25maWd1cmF0aW9uX2ZpbGVzX29rLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVhZGFibGVGaWxlQ291bnQKICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPSBJdGVtU3RhdHVzLlBBU1MKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgaWYgKGhhc1JlcGFpcmFibGVJc3N1ZSAmJiBtYWluUHJvY2Vzc1N0YXRlKGFwcENvbnRleHQpICE9IE1haW5Qcm9jZXNzU3RhdGUuTk9UX1JVTk5JTkcpIHsKICAgICAgICAgICAgaGFzQmxvY2tpbmdGYWlsdXJlID0gdHJ1ZQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHJlcG9ydCgKICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgIGNoZWNrcyA9IGNoZWNrcywKICAgICAgICAgICAgcmVwYWlyYWJsZUZpbGVOYW1lcyA9IHJlcGFpcmFibGVGaWxlTmFtZXMsCiAgICAgICAgICAgIGhhc0Jsb2NraW5nRmFpbHVyZSA9IGhhc0Jsb2NraW5nRmFpbHVyZSwKICAgICAgICAgICAgaGFzUmVwYWlyYWJsZUlzc3VlID0gaGFzUmVwYWlyYWJsZUlzc3VlCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlcG9ydCgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGNoZWNrczogTGlzdDxDaGVja0l0ZW0+LAogICAgICAgIHJlcGFpcmFibGVGaWxlTmFtZXM6IExpc3Q8U3RyaW5nPiwKICAgICAgICBoYXNCbG9ja2luZ0ZhaWx1cmU6IEJvb2xlYW4sCiAgICAgICAgaGFzUmVwYWlyYWJsZUlzc3VlOiBCb29sZWFuCiAgICApOiBSZXBvcnQgewogICAgICAgIHZhbCBzdGF0dXMgPQogICAgICAgICAgICB3aGVuIHsKICAgICAgICAgICAgICAgIGhhc0Jsb2NraW5nRmFpbHVyZSAtPiBTdGF0dXMuTUFOVUFMX1JFQ09WRVJZX1JFUVVJUkVECiAgICAgICAgICAgICAgICBoYXNSZXBhaXJhYmxlSXNzdWUgLT4gU3RhdHVzLk5FRURTX1JFUEFJUgogICAgICAgICAgICAgICAgZWxzZSAtPiBTdGF0dXMuSEVBTFRIWQogICAgICAgICAgICB9CiAgICAgICAgcmV0dXJuIFJlcG9ydCgKICAgICAgICAgICAgc3RhdHVzID0gc3RhdHVzLAogICAgICAgICAgICBzdW1tYXJ5ID0gc3VtbWFyeUZvcihjb250ZXh0LCBzdGF0dXMpLAogICAgICAgICAgICBjaGVja3MgPSBjaGVja3MsCiAgICAgICAgICAgIHJlcGFpcmFibGVGaWxlTmFtZXMgPQogICAgICAgICAgICAgICAgaWYgKGhhc0Jsb2NraW5nRmFpbHVyZSkgZW1wdHlMaXN0KCkgZWxzZSByZXBhaXJhYmxlRmlsZU5hbWVzLnRvTGlzdCgpCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHN1bW1hcnlGb3IoY29udGV4dDogQ29udGV4dCwgc3RhdHVzOiBTdGF0dXMpOiBTdHJpbmcgPQogICAgICAgIHdoZW4gKHN0YXR1cykgewogICAgICAgICAgICBTdGF0dXMuSEVBTFRIWSAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2RhdGFiYXNlX3N1bW1hcnlfaGVhbHRoeSkKICAgICAgICAgICAgU3RhdHVzLk5FRURTX1JFUEFJUiAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2RhdGFiYXNlX3N1bW1hcnlfcmVwYWlyYWJsZSkKICAgICAgICAgICAgU3RhdHVzLk1BTlVBTF9SRUNPVkVSWV9SRVFVSVJFRCAtPgogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9kYXRhYmFzZV9zdW1tYXJ5X21hbnVhbCkKICAgICAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biB2YWxpZGF0ZUNvcHkoY29udGV4dDogQ29udGV4dCwgc291cmNlOiBGaWxlKTogQ29weVZhbGlkYXRpb24gewogICAgICAgIHZhbCBkaXJlY3RvcnkgPSBGaWxlKGNvbnRleHQuY2FjaGVEaXIsICJwcmVmZXJlbmNlc19oZWFsdGhfJHtVVUlELnJhbmRvbVVVSUQoKX0iKQogICAgICAgIHZhbCBjb3B5ID0gRmlsZShkaXJlY3RvcnksIHNvdXJjZS5uYW1lKQogICAgICAgIHZhbCBqb2IgPSBTdXBlcnZpc29ySm9iKCkKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgY2hlY2soZGlyZWN0b3J5Lm1rZGlyKCkpIHsgIkZhaWxlZCB0byBjcmVhdGUgUHJlZmVyZW5jZXMgdmFsaWRhdGlvbiBkaXJlY3RvcnkiIH0KICAgICAgICAgICAgc291cmNlLmNvcHlUbyhjb3B5LCBvdmVyd3JpdGUgPSBmYWxzZSkKICAgICAgICAgICAgdmFsIHN0b3JlID0KICAgICAgICAgICAgICAgIFByZWZlcmVuY2VEYXRhU3RvcmVGYWN0b3J5LmNyZWF0ZSgKICAgICAgICAgICAgICAgICAgICBzY29wZSA9IENvcm91dGluZVNjb3BlKGpvYiArIERpc3BhdGNoZXJzLklPKSwKICAgICAgICAgICAgICAgICAgICBwcm9kdWNlRmlsZSA9IHsgY29weSB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIHZhbCBwcmVmZXJlbmNlcyA9IHN0b3JlLmRhdGEuZmlyc3QoKQogICAgICAgICAgICB2YWwgaXNzdWVzID0gaW5zcGVjdERvbWFpbklzc3Vlcyhzb3VyY2UsIHByZWZlcmVuY2VzKQogICAgICAgICAgICByZXR1cm4gaWYgKGlzc3Vlcy5pc0VtcHR5KCkpIENvcHlWYWxpZGF0aW9uLlJlYWRhYmxlIGVsc2UgQ29weVZhbGlkYXRpb24uRG9tYWluSXNzdWVzKGlzc3VlcykKICAgICAgICB9IGNhdGNoIChlOiBDb3JydXB0aW9uRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIENvcHlWYWxpZGF0aW9uLkNvcnJ1cHQoZS5tZXNzYWdlID86IGUuamF2YUNsYXNzLnNpbXBsZU5hbWUpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlByZWZlcmVuY2VzIGNvcHkgdmFsaWRhdGlvbiBmYWlsZWQgZm9yICR7c291cmNlLm5hbWV9IiwgZSkKICAgICAgICAgICAgQ29weVZhbGlkYXRpb24uRmFpbGVkKGUubWVzc2FnZSA/OiBlLmphdmFDbGFzcy5zaW1wbGVOYW1lKQogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIGpvYi5jYW5jZWxBbmRKb2luKCkKICAgICAgICAgICAgaWYgKGRpcmVjdG9yeS5leGlzdHMoKSAmJiAhZGlyZWN0b3J5LmRlbGV0ZVJlY3Vyc2l2ZWx5KCkpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIkZhaWxlZCB0byBkZWxldGUgUHJlZmVyZW5jZXMgdmFsaWRhdGlvbiBkaXJlY3RvcnkiKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGluc3BlY3REb21haW5Jc3N1ZXMoCiAgICAgICAgc291cmNlOiBGaWxlLAogICAgICAgIHByZWZlcmVuY2VzOiBQcmVmZXJlbmNlcwogICAgKTogTGlzdDxEb21haW5Jc3N1ZT4gewogICAgICAgIHZhbCBzdG9yZU5hbWUgPSBzb3VyY2UubmFtZS5yZW1vdmVTdWZmaXgoUFJFRkVSRU5DRVNfU1VGRklYKQogICAgICAgIHJldHVybiBwcmVmZXJlbmNlcy5hc01hcCgpLmVudHJpZXMubWFwTm90TnVsbCB7IChrZXksIHZhbHVlKSAtPgogICAgICAgICAgICB2YWwgdGV4dCA9ICh2YWx1ZSBhcz8gU3RyaW5nKT8udHJpbSgpID86IHJldHVybkBtYXBOb3ROdWxsIG51bGwKICAgICAgICAgICAgaWYgKCFzaG91bGRJbnNwZWN0U3RydWN0dXJlZEpzb25WYWx1ZSh0ZXh0KSkgcmV0dXJuQG1hcE5vdE51bGwgbnVsbAogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgZG9tYWluSnNvbi5wYXJzZVRvSnNvbkVsZW1lbnQodGV4dCkKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfSBjYXRjaCAoZXJyb3I6IFNlcmlhbGl6YXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIERvbWFpbklzc3VlKAogICAgICAgICAgICAgICAgICAgIHN0b3JlTmFtZSA9IHN0b3JlTmFtZSwKICAgICAgICAgICAgICAgICAgICBkZXRhaWwgPSAiTWFsZm9ybWVkIEpTT04gaW4gJHtrZXkubmFtZX06ICR7ZXJyb3IubWVzc2FnZSA/OiBlcnJvci5qYXZhQ2xhc3Muc2ltcGxlTmFtZX0iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2hvdWxkSW5zcGVjdFN0cnVjdHVyZWRKc29uVmFsdWUodmFsdWU6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIGlmICh2YWx1ZS5pc0VtcHR5KCkpIHJldHVybiBmYWxzZQogICAgICAgIHJldHVybiB2YWx1ZS5maXJzdCgpID09ICd7JyB8fCB2YWx1ZS5maXJzdCgpID09ICdbJwogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc29sdmVSZXBhaXJTb3VyY2VzKGNvbnRleHQ6IENvbnRleHQsIGZpbGVOYW1lczogTGlzdDxTdHJpbmc+KTogTGlzdDxGaWxlPiB7CiAgICAgICAgdmFsIGRpcmVjdG9yeSA9IHByZWZlcmVuY2VzRGlyZWN0b3J5KGNvbnRleHQpCiAgICAgICAgY2hlY2soZGlyZWN0b3J5LmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfY29uZmlndXJhdGlvbl9kaXJlY3RvcnlfaW52YWxpZCkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZpbGVOYW1lcy5tYXAgeyBmaWxlTmFtZSAtPgogICAgICAgICAgICBjaGVjaygKICAgICAgICAgICAgICAgIGZpbGVOYW1lLmVuZHNXaXRoKFBSRUZFUkVOQ0VTX1NVRkZJWCkgJiYKICAgICAgICAgICAgICAgICAgICBGaWxlKGZpbGVOYW1lKS5uYW1lID09IGZpbGVOYW1lCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9jb25maWd1cmF0aW9uX2ZpbGVfaW52YWxpZF9wYXRoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIEZpbGUoZGlyZWN0b3J5LCBmaWxlTmFtZSkuYWxzbyB7IHNvdXJjZSAtPgogICAgICAgICAgICAgICAgY2hlY2soc291cmNlLmlzRmlsZSAmJiBoYXNFeHBlY3RlZFBhdGgoc291cmNlLCBkaXJlY3RvcnkpKSB7CiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9jb25maWd1cmF0aW9uX2ZpbGVfaW52YWxpZF9wYXRoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHByZXNlcnZlQ29uZmlndXJhdGlvbkZpbGVzKHNvdXJjZXM6IExpc3Q8RmlsZT4pOiBGaWxlIHsKICAgICAgICB2YWwgdGltZXN0YW1wID0KICAgICAgICAgICAgTG9jYWxEYXRlVGltZS5ub3coKS5mb3JtYXQoRGF0ZVRpbWVGb3JtYXR0ZXIub2ZQYXR0ZXJuKCJ5eXl5LU1NLWRkX0hILW1tLXNzX1NTUyIpKQogICAgICAgIHZhbCBzdWZmaXggPSBVVUlELnJhbmRvbVVVSUQoKS50b1N0cmluZygpLnN1YnN0cmluZygwLCA4KQogICAgICAgIHZhbCBkaXJlY3RvcnkgPSBPcGVyaXRCYWNrdXBEaXJzLnByZWZlcmVuY2VzRGlyKCkKICAgICAgICB2YWwgdGFyZ2V0ID0gRmlsZShkaXJlY3RvcnksICJwcmVmZXJlbmNlc19yZXBhaXJfc291cmNlXyR7dGltZXN0YW1wfV8kc3VmZml4LnppcCIpCiAgICAgICAgdmFsIHRlbXBvcmFyeSA9IEZpbGUoZGlyZWN0b3J5LCAiLiR7dGFyZ2V0Lm5hbWV9LnRtcCIpCiAgICAgICAgY2hlY2soIXRlbXBvcmFyeS5leGlzdHMoKSAmJiAhdGFyZ2V0LmV4aXN0cygpKSB7CiAgICAgICAgICAgICJQcmVmZXJlbmNlcyByZXBhaXIgYXJjaGl2ZSBwYXRoIGFscmVhZHkgZXhpc3RzIgogICAgICAgIH0KCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgWmlwT3V0cHV0U3RyZWFtKEJ1ZmZlcmVkT3V0cHV0U3RyZWFtKEZpbGVPdXRwdXRTdHJlYW0odGVtcG9yYXJ5KSkpLnVzZSB7IG91dHB1dCAtPgogICAgICAgICAgICAgICAgc291cmNlcy5mb3JFYWNoIHsgc291cmNlIC0+CiAgICAgICAgICAgICAgICAgICAgb3V0cHV0LnB1dE5leHRFbnRyeShaaXBFbnRyeShzb3VyY2UubmFtZSkpCiAgICAgICAgICAgICAgICAgICAgQnVmZmVyZWRJbnB1dFN0cmVhbShGaWxlSW5wdXRTdHJlYW0oc291cmNlKSkudXNlIHsgaW5wdXQgLT4gaW5wdXQuY29weVRvKG91dHB1dCkgfQogICAgICAgICAgICAgICAgICAgIG91dHB1dC5jbG9zZUVudHJ5KCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBjaGVjayh0ZW1wb3JhcnkucmVuYW1lVG8odGFyZ2V0KSkgewogICAgICAgICAgICAgICAgIkZhaWxlZCB0byBwdWJsaXNoIFByZWZlcmVuY2VzIHJlcGFpciBzb3VyY2UgYXJjaGl2ZSIKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gdGFyZ2V0CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGlmICh0ZW1wb3JhcnkuZXhpc3RzKCkgJiYgIXRlbXBvcmFyeS5kZWxldGUoKSkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiRmFpbGVkIHRvIGRlbGV0ZSBpbmNvbXBsZXRlIFByZWZlcmVuY2VzIHJlcGFpciBhcmNoaXZlIikKICAgICAgICAgICAgfQogICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHByZWZlcmVuY2VzRGlyZWN0b3J5KGNvbnRleHQ6IENvbnRleHQpOiBGaWxlID0KICAgICAgICByZXF1aXJlTm90TnVsbChjb250ZXh0LnByZWZlcmVuY2VzRGF0YVN0b3JlRmlsZSgicmVjb3ZlcnlfcHJvYmUiKS5wYXJlbnRGaWxlKQoKICAgIHByaXZhdGUgZnVuIGhhc0V4cGVjdGVkUGF0aChmaWxlOiBGaWxlLCBkaXJlY3Rvcnk6IEZpbGUpOiBCb29sZWFuIHsKICAgICAgICB2YWwgY2Fub25pY2FsRGlyZWN0b3J5ID0gZGlyZWN0b3J5LmNhbm9uaWNhbEZpbGUKICAgICAgICB2YWwgY2Fub25pY2FsRmlsZSA9IGZpbGUuY2Fub25pY2FsRmlsZQogICAgICAgIHJldHVybiBjYW5vbmljYWxGaWxlLnBhcmVudEZpbGUgPT0gY2Fub25pY2FsRGlyZWN0b3J5ICYmIGNhbm9uaWNhbEZpbGUubmFtZSA9PSBmaWxlLm5hbWUKICAgIH0KCiAgICBwcml2YXRlIGZ1biBtYWluUHJvY2Vzc1N0YXRlKGNvbnRleHQ6IENvbnRleHQpOiBNYWluUHJvY2Vzc1N0YXRlIHsKICAgICAgICB2YWwgYWN0aXZpdHlNYW5hZ2VyID0KICAgICAgICAgICAgY29udGV4dC5nZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuQUNUSVZJVFlfU0VSVklDRSkgYXM/IEFjdGl2aXR5TWFuYWdlcgogICAgICAgICAgICAgICAgPzogcmV0dXJuIE1haW5Qcm9jZXNzU3RhdGUuVU5LTk9XTgogICAgICAgIHZhbCBwcm9jZXNzZXMgPSBhY3Rpdml0eU1hbmFnZXIucnVubmluZ0FwcFByb2Nlc3NlcyA/OiByZXR1cm4gTWFpblByb2Nlc3NTdGF0ZS5VTktOT1dOCiAgICAgICAgcmV0dXJuIGlmICgKICAgICAgICAgICAgcHJvY2Vzc2VzLmFueSB7IHByb2Nlc3MgLT4KICAgICAgICAgICAgICAgIHByb2Nlc3MucGlkICE9IFByb2Nlc3MubXlQaWQoKSAmJiBwcm9jZXNzLnByb2Nlc3NOYW1lID09IGNvbnRleHQucGFja2FnZU5hbWUKICAgICAgICAgICAgfQogICAgICAgICkgewogICAgICAgICAgICBNYWluUHJvY2Vzc1N0YXRlLlJVTk5JTkcKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBNYWluUHJvY2Vzc1N0YXRlLk5PVF9SVU5OSU5HCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlcXVpcmVNYWluUHJvY2Vzc1N0b3BwZWQoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIHdoZW4gKG1haW5Qcm9jZXNzU3RhdGUoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpKSB7CiAgICAgICAgICAgIE1haW5Qcm9jZXNzU3RhdGUuTk9UX1JVTk5JTkcgLT4gVW5pdAogICAgICAgICAgICBNYWluUHJvY2Vzc1N0YXRlLlJVTk5JTkcgLT4KICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2RhdGFiYXNlX21haW5fcHJvY2Vzc19ydW5uaW5nKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICBNYWluUHJvY2Vzc1N0YXRlLlVOS05PV04gLT4KICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2RhdGFiYXNlX21haW5fcHJvY2Vzc191bmtub3duKQogICAgICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.recovery
+
+import android.app.ActivityManager
+import android.content.Context
+import android.os.Process
+import androidx.datastore.core.CorruptionException
+import androidx.datastore.preferences.core.PreferenceDataStoreFactory
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.preferencesDataStoreFile
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.backup.OperitBackupDirs
+import com.bslsjdk.operit.util.AppLogger
+import java.io.BufferedInputStream
+import java.io.BufferedOutputStream
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+import java.util.UUID
+import java.util.zip.ZipEntry
+import java.util.zip.ZipOutputStream
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.cancelAndJoin
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.SerializationException
+
+/** User-triggered physical validation and preservation-first repair for Preferences DataStore files. */
+object PreferencesHealthManager {
+    private const val TAG = "PreferencesHealth"
+    private const val PREFERENCES_SUFFIX = ".preferences_pb"
+    private val operationMutex = Mutex()
+    private val domainJson = Json {
+        ignoreUnknownKeys = true
+        isLenient = true
+    }
+
+    enum class Status {
+        HEALTHY,
+        NEEDS_REPAIR,
+        MANUAL_RECOVERY_REQUIRED
+    }
+
+    enum class ItemStatus {
+        PASS,
+        WARNING,
+        FAILURE
+    }
+
+    data class CheckItem(
+        val title: String,
+        val detail: String,
+        val status: ItemStatus
+    )
+
+    data class Report(
+        val status: Status,
+        val summary: String,
+        val checks: List<CheckItem>,
+        val repairableFileNames: List<String>
+    ) {
+        val canRepair: Boolean
+            get() = status == Status.NEEDS_REPAIR && repairableFileNames.isNotEmpty()
+    }
+
+    data class DomainIssue(
+        val storeName: String,
+        val detail: String
+    )
+
+    data class RepairResult(
+        val sourceArchive: File,
+        val resetFileNames: List<String>,
+        val report: Report
+    )
+
+    class RepairFailedException(
+        val sourceArchive: File,
+        cause: Throwable
+    ) : IllegalStateException(cause.message, cause)
+
+    private enum class MainProcessState {
+        RUNNING,
+        NOT_RUNNING,
+        UNKNOWN
+    }
+
+    private sealed interface CopyValidation {
+        data object Readable : CopyValidation
+
+        data class DomainIssues(val issues: List<DomainIssue>) : CopyValidation
+
+        data class Corrupt(val reason: String) : CopyValidation
+
+        data class Failed(val reason: String) : CopyValidation
+    }
+
+    suspend fun inspect(context: Context): Report =
+        withContext(Dispatchers.IO) {
+            operationMutex.withLock {
+                inspectLocked(context)
+            }
+        }
+
+    suspend fun repair(context: Context): RepairResult =
+        withContext(Dispatchers.IO) {
+            operationMutex.withLock {
+                val displayContext = context
+                val appContext = context.applicationContext
+                val before = inspectLocked(displayContext)
+                check(before.canRepair) {
+                    displayContext.getString(R.string.data_recovery_configuration_no_supported_repair)
+                }
+
+                requireMainProcessStopped(displayContext)
+                val sources = resolveRepairSources(appContext, before.repairableFileNames)
+                val archive = preserveConfigurationFiles(sources)
+                val resetFiles = mutableListOf<String>()
+                try {
+                    sources.forEach { source ->
+                        requireMainProcessStopped(displayContext)
+                        val validation = validateCopy(appContext, source)
+                        check(
+                            validation is CopyValidation.Corrupt ||
+                                validation is CopyValidation.DomainIssues
+                        ) {
+                            displayContext.getString(
+                                R.string.data_recovery_configuration_changed_before_repair,
+                                source.name
+                            )
+                        }
+                        check(source.delete()) {
+                            displayContext.getString(
+                                R.string.data_recovery_configuration_delete_failed,
+                                source.name
+                            )
+                        }
+                        resetFiles += source.name
+                    }
+
+                    RepairResult(
+                        sourceArchive = archive,
+                        resetFileNames = resetFiles,
+                        report = inspectLocked(displayContext)
+                    )
+                } catch (e: Exception) {
+                    throw RepairFailedException(archive, e)
+                }
+            }
+        }
+
+    private suspend fun inspectLocked(context: Context): Report {
+        val appContext = context.applicationContext
+        val checks = mutableListOf<CheckItem>()
+        val repairableFileNames = mutableListOf<String>()
+        var hasBlockingFailure = false
+        var hasRepairableIssue = false
+
+        val directory = preferencesDirectory(appContext)
+        when {
+            !directory.exists() -> {
+                checks +=
+                    CheckItem(
+                        title = context.getString(R.string.data_recovery_configuration_check_files),
+                        detail = context.getString(R.string.data_recovery_configuration_files_none),
+                        status = ItemStatus.PASS
+                    )
+                return report(context, checks, repairableFileNames, false, false)
+            }
+
+            !directory.isDirectory -> {
+                checks +=
+                    CheckItem(
+                        title = context.getString(R.string.data_recovery_configuration_check_files),
+                        detail = context.getString(R.string.data_recovery_configuration_directory_invalid),
+                        status = ItemStatus.FAILURE
+                    )
+                return report(context, checks, repairableFileNames, true, false)
+            }
+        }
+
+        val preferencePaths =
+            directory.listFiles()
+                ?.filter { path -> path.name.endsWith(PREFERENCES_SUFFIX) }
+                ?.sortedBy { path -> path.name }
+                ?: run {
+                    checks +=
+                        CheckItem(
+                            title = context.getString(R.string.data_recovery_configuration_check_files),
+                            detail = context.getString(R.string.data_recovery_configuration_directory_unreadable),
+                            status = ItemStatus.FAILURE
+                        )
+                    return report(context, checks, repairableFileNames, true, false)
+                }
+
+        if (preferencePaths.isEmpty()) {
+            checks +=
+                CheckItem(
+                    title = context.getString(R.string.data_recovery_configuration_check_files),
+                    detail = context.getString(R.string.data_recovery_configuration_files_none),
+                    status = ItemStatus.PASS
+                )
+            return report(context, checks, repairableFileNames, false, false)
+        }
+
+        var readableFileCount = 0
+        preferencePaths.forEach { source ->
+            if (!source.isFile || !hasExpectedPath(source, directory)) {
+                hasBlockingFailure = true
+                checks +=
+                    CheckItem(
+                        title = source.name,
+                        detail = context.getString(R.string.data_recovery_configuration_file_invalid_path),
+                        status = ItemStatus.FAILURE
+                    )
+                return@forEach
+            }
+
+            when (val validation = validateCopy(appContext, source)) {
+                CopyValidation.Readable -> readableFileCount++
+                is CopyValidation.DomainIssues -> {
+                    hasRepairableIssue = true
+                    repairableFileNames += source.name
+                    checks +=
+                        CheckItem(
+                            title = source.name.removeSuffix(PREFERENCES_SUFFIX),
+                            detail =
+                                context.getString(R.string.data_recovery_configuration_file_domain_issue,
+                                validation.issues.joinToString(separator = ", ") { it.detail }),
+                            status = ItemStatus.WARNING
+                        )
+                    AppLogger.w(TAG, "Preferences domain issues found: ${source.name}; ${validation.issues.joinToString(separator = ", ") { it.detail }}")
+                }
+                is CopyValidation.Corrupt -> {
+                    hasRepairableIssue = true
+                    repairableFileNames += source.name
+                    checks +=
+                        CheckItem(
+                            title = source.name.removeSuffix(PREFERENCES_SUFFIX),
+                            detail = context.getString(R.string.data_recovery_configuration_file_corrupt),
+                            status = ItemStatus.WARNING
+                        )
+                    AppLogger.w(TAG, "Preferences file is corrupt: ${source.name}; ${validation.reason}")
+                }
+
+                is CopyValidation.Failed -> {
+                    hasBlockingFailure = true
+                    checks +=
+                        CheckItem(
+                            title = source.name.removeSuffix(PREFERENCES_SUFFIX),
+                            detail = context.getString(R.string.data_recovery_configuration_file_check_failed),
+                            status = ItemStatus.FAILURE
+                        )
+                    AppLogger.e(
+                        TAG,
+                        "Preferences file check failed: ${source.name}; ${validation.reason}"
+                    )
+                }
+            }
+        }
+
+        if (readableFileCount > 0) {
+            checks.add(
+                0,
+                CheckItem(
+                    title = context.getString(R.string.data_recovery_configuration_check_files),
+                    detail =
+                        context.getString(
+                            R.string.data_recovery_configuration_files_ok,
+                            readableFileCount
+                        ),
+                    status = ItemStatus.PASS
+                )
+            )
+        }
+
+        if (hasRepairableIssue && mainProcessState(appContext) != MainProcessState.NOT_RUNNING) {
+            hasBlockingFailure = true
+        }
+
+        return report(
+            context = context,
+            checks = checks,
+            repairableFileNames = repairableFileNames,
+            hasBlockingFailure = hasBlockingFailure,
+            hasRepairableIssue = hasRepairableIssue
+        )
+    }
+
+    private fun report(
+        context: Context,
+        checks: List<CheckItem>,
+        repairableFileNames: List<String>,
+        hasBlockingFailure: Boolean,
+        hasRepairableIssue: Boolean
+    ): Report {
+        val status =
+            when {
+                hasBlockingFailure -> Status.MANUAL_RECOVERY_REQUIRED
+                hasRepairableIssue -> Status.NEEDS_REPAIR
+                else -> Status.HEALTHY
+            }
+        return Report(
+            status = status,
+            summary = summaryFor(context, status),
+            checks = checks,
+            repairableFileNames =
+                if (hasBlockingFailure) emptyList() else repairableFileNames.toList()
+        )
+    }
+
+    private fun summaryFor(context: Context, status: Status): String =
+        when (status) {
+            Status.HEALTHY -> context.getString(R.string.data_recovery_database_summary_healthy)
+            Status.NEEDS_REPAIR -> context.getString(R.string.data_recovery_database_summary_repairable)
+            Status.MANUAL_RECOVERY_REQUIRED ->
+                context.getString(R.string.data_recovery_database_summary_manual)
+        }
+
+    private suspend fun validateCopy(context: Context, source: File): CopyValidation {
+        val directory = File(context.cacheDir, "preferences_health_${UUID.randomUUID()}")
+        val copy = File(directory, source.name)
+        val job = SupervisorJob()
+        return try {
+            check(directory.mkdir()) { "Failed to create Preferences validation directory" }
+            source.copyTo(copy, overwrite = false)
+            val store =
+                PreferenceDataStoreFactory.create(
+                    scope = CoroutineScope(job + Dispatchers.IO),
+                    produceFile = { copy }
+                )
+            val preferences = store.data.first()
+            val issues = inspectDomainIssues(source, preferences)
+            return if (issues.isEmpty()) CopyValidation.Readable else CopyValidation.DomainIssues(issues)
+        } catch (e: CorruptionException) {
+            CopyValidation.Corrupt(e.message ?: e.javaClass.simpleName)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Preferences copy validation failed for ${source.name}", e)
+            CopyValidation.Failed(e.message ?: e.javaClass.simpleName)
+        } finally {
+            job.cancelAndJoin()
+            if (directory.exists() && !directory.deleteRecursively()) {
+                AppLogger.w(TAG, "Failed to delete Preferences validation directory")
+            }
+        }
+    }
+
+    private fun inspectDomainIssues(
+        source: File,
+        preferences: Preferences
+    ): List<DomainIssue> {
+        val storeName = source.name.removeSuffix(PREFERENCES_SUFFIX)
+        return preferences.asMap().entries.mapNotNull { (key, value) ->
+            val text = (value as? String)?.trim() ?: return@mapNotNull null
+            if (!shouldInspectStructuredJsonValue(text)) return@mapNotNull null
+            try {
+                domainJson.parseToJsonElement(text)
+                null
+            } catch (error: SerializationException) {
+                DomainIssue(
+                    storeName = storeName,
+                    detail = "Malformed JSON in ${key.name}: ${error.message ?: error.javaClass.simpleName}"
+                )
+            }
+        }
+    }
+
+    private fun shouldInspectStructuredJsonValue(value: String): Boolean {
+        if (value.isEmpty()) return false
+        return value.first() == '{' || value.first() == '['
+    }
+
+    private fun resolveRepairSources(context: Context, fileNames: List<String>): List<File> {
+        val directory = preferencesDirectory(context)
+        check(directory.isDirectory) {
+            context.getString(R.string.data_recovery_configuration_directory_invalid)
+        }
+        return fileNames.map { fileName ->
+            check(
+                fileName.endsWith(PREFERENCES_SUFFIX) &&
+                    File(fileName).name == fileName
+            ) {
+                context.getString(R.string.data_recovery_configuration_file_invalid_path)
+            }
+            File(directory, fileName).also { source ->
+                check(source.isFile && hasExpectedPath(source, directory)) {
+                    context.getString(R.string.data_recovery_configuration_file_invalid_path)
+                }
+            }
+        }
+    }
+
+    private fun preserveConfigurationFiles(sources: List<File>): File {
+        val timestamp =
+            LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss_SSS"))
+        val suffix = UUID.randomUUID().toString().substring(0, 8)
+        val directory = OperitBackupDirs.preferencesDir()
+        val target = File(directory, "preferences_repair_source_${timestamp}_$suffix.zip")
+        val temporary = File(directory, ".${target.name}.tmp")
+        check(!temporary.exists() && !target.exists()) {
+            "Preferences repair archive path already exists"
+        }
+
+        try {
+            ZipOutputStream(BufferedOutputStream(FileOutputStream(temporary))).use { output ->
+                sources.forEach { source ->
+                    output.putNextEntry(ZipEntry(source.name))
+                    BufferedInputStream(FileInputStream(source)).use { input -> input.copyTo(output) }
+                    output.closeEntry()
+                }
+            }
+            check(temporary.renameTo(target)) {
+                "Failed to publish Preferences repair source archive"
+            }
+            return target
+        } catch (e: Exception) {
+            if (temporary.exists() && !temporary.delete()) {
+                AppLogger.w(TAG, "Failed to delete incomplete Preferences repair archive")
+            }
+            throw e
+        }
+    }
+
+    private fun preferencesDirectory(context: Context): File =
+        requireNotNull(context.preferencesDataStoreFile("recovery_probe").parentFile)
+
+    private fun hasExpectedPath(file: File, directory: File): Boolean {
+        val canonicalDirectory = directory.canonicalFile
+        val canonicalFile = file.canonicalFile
+        return canonicalFile.parentFile == canonicalDirectory && canonicalFile.name == file.name
+    }
+
+    private fun mainProcessState(context: Context): MainProcessState {
+        val activityManager =
+            context.getSystemService(Context.ACTIVITY_SERVICE) as? ActivityManager
+                ?: return MainProcessState.UNKNOWN
+        val processes = activityManager.runningAppProcesses ?: return MainProcessState.UNKNOWN
+        return if (
+            processes.any { process ->
+                process.pid != Process.myPid() && process.processName == context.packageName
+            }
+        ) {
+            MainProcessState.RUNNING
+        } else {
+            MainProcessState.NOT_RUNNING
+        }
+    }
+
+    private fun requireMainProcessStopped(context: Context) {
+        when (mainProcessState(context.applicationContext)) {
+            MainProcessState.NOT_RUNNING -> Unit
+            MainProcessState.RUNNING ->
+                throw IllegalStateException(
+                    context.getString(R.string.data_recovery_database_main_process_running)
+                )
+            MainProcessState.UNKNOWN ->
+                throw IllegalStateException(
+                    context.getString(R.string.data_recovery_database_main_process_unknown)
+                )
+        }
+    }
+}

@@ -1,1 +1,25 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkeC50ZXN0LmV4dC5qdW5pdC5ydW5uZXJzLkFuZHJvaWRKVW5pdDQKaW1wb3J0IGFuZHJvaWR4LnRlc3QucGxhdGZvcm0uYXBwLkluc3RydW1lbnRhdGlvblJlZ2lzdHJ5CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBNZWRpYUxpbmtCdWlsZGVySWRBbmRyb2lkVGVzdCB7CgogICAgcHJpdmF0ZSB2YWwgY29udGV4dCA9IEluc3RydW1lbnRhdGlvblJlZ2lzdHJ5LmdldEluc3RydW1lbnRhdGlvbigpLnRhcmdldENvbnRleHQKCiAgICBAVGVzdCBmdW4gaW1hZ2VMaW5rX3N1cHBvcnRzRGFzaGVkSWQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUxpbmtCdWlsZGVyLmltYWdlKGNvbnRleHQsICJpbWctMSIpLmNvbnRhaW5zKCJpbWctMSIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBhdWRpb0xpbmtfc3VwcG9ydHNEYXNoZWRJZCgpIHsKICAgICAgICBhc3NlcnRUcnVlKE1lZGlhTGlua0J1aWxkZXIuYXVkaW8oY29udGV4dCwgImF1ZC0xIikuY29udGFpbnMoImF1ZC0xIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHZpZGVvTGlua19zdXBwb3J0c0Rhc2hlZElkKCkgewogICAgICAgIGFzc2VydFRydWUoTWVkaWFMaW5rQnVpbGRlci52aWRlbyhjb250ZXh0LCAidmlkLTEiKS5jb250YWlucygidmlkLTEiKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class MediaLinkBuilderIdAndroidTest {
+
+    private val context = InstrumentationRegistry.getInstrumentation().targetContext
+
+    @Test fun imageLink_supportsDashedId() {
+        assertTrue(MediaLinkBuilder.image(context, "img-1").contains("img-1"))
+    }
+
+    @Test fun audioLink_supportsDashedId() {
+        assertTrue(MediaLinkBuilder.audio(context, "aud-1").contains("aud-1"))
+    }
+
+    @Test fun videoLink_supportsDashedId() {
+        assertTrue(MediaLinkBuilder.video(context, "vid-1").contains("vid-1"))
+    }
+}

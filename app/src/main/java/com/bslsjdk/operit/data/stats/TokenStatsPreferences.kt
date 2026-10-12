@@ -1,1 +1,101 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLlByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5kb3VibGVQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuZWRpdAppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUubG9uZ1ByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5zdHJpbmdQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLnByZWZlcmVuY2VzRGF0YVN0b3JlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cy5QcmljaW5nQ3VycmVuY3kKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0Cgpwcml2YXRlIHZhbCBDb250ZXh0LnRva2VuU3RhdHNEYXRhU3RvcmU6IERhdGFTdG9yZTxQcmVmZXJlbmNlcz4gYnkKICAgIHByZWZlcmVuY2VzRGF0YVN0b3JlKG5hbWUgPSAidG9rZW5fc3RhdHNfcHJlZmVyZW5jZXMiKQoKLyoqIFNjYWxhciBzdGF0aXN0aWNzIHNldHRpbmdzLiBTdHJ1Y3R1cmVkIHVzYWdlLCBncm91cGluZywgYW5kIHByaWNpbmcgc3RheSBpbiBSb29tLiAqLwppbnRlcm5hbCBjbGFzcyBUb2tlblN0YXRzUHJlZmVyZW5jZXMoY29udGV4dDogQ29udGV4dCkgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSB2YWwgVEFSR0VUX0NVUlJFTkNZID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoInRhcmdldF9jdXJyZW5jeSIpCiAgICAgICAgcHJpdmF0ZSB2YWwgVE9LRU5fRElTUExBWV9VTklUID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoInRva2VuX2Rpc3BsYXlfdW5pdCIpCiAgICAgICAgcHJpdmF0ZSB2YWwgVVNEX1RPX0NOWV9SQVRFID0gZG91YmxlUHJlZmVyZW5jZXNLZXkoInVzZF90b19jbnlfcmF0ZSIpCiAgICAgICAgcHJpdmF0ZSB2YWwgVElNRV9SQU5HRV9TVEFSVCA9IGxvbmdQcmVmZXJlbmNlc0tleSgidGltZV9yYW5nZV9zdGFydCIpCiAgICAgICAgcHJpdmF0ZSB2YWwgVElNRV9SQU5HRV9FTkQgPSBsb25nUHJlZmVyZW5jZXNLZXkoInRpbWVfcmFuZ2VfZW5kIikKICAgICAgICBwcml2YXRlIHZhbCBBQ1RJVklUWV9WSUVXX01PREUgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgiYWN0aXZpdHlfdmlld19tb2RlIikKICAgICAgICBwcml2YXRlIHZhbCBJTVBPUlRFRF9BVCA9IGxvbmdQcmVmZXJlbmNlc0tleSgiaW1wb3J0ZWRfYXRfbXMiKQogICAgfQoKICAgIHByaXZhdGUgdmFsIGRhdGFTdG9yZSA9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LnRva2VuU3RhdHNEYXRhU3RvcmUKCiAgICBzdXNwZW5kIGZ1biBpbXBvcnRlZEF0TXMoKTogTG9uZz8gPSBkYXRhU3RvcmUuZGF0YS5maXJzdCgpW0lNUE9SVEVEX0FUXQoKICAgIHN1c3BlbmQgZnVuIGNvbXBsZXRlTWlncmF0aW9uKGltcG9ydGVkQXRNczogTG9uZywgcmVsZWFzZWRVc2RUb0NueVJhdGU6IERvdWJsZT8pIHsKICAgICAgICBkYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHJlbGVhc2VkVXNkVG9DbnlSYXRlPy5sZXQgeyBwcmVmZXJlbmNlc1tVU0RfVE9fQ05ZX1JBVEVdID0gaXQgfQogICAgICAgICAgICBwcmVmZXJlbmNlc1tJTVBPUlRFRF9BVF0gPSBpbXBvcnRlZEF0TXMKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gbG9hZFJhdGVXaXRoRXN0aW1hdGUoKTogUGFpcjxEb3VibGUsIEJvb2xlYW4+IHsKICAgICAgICB2YWwgc3RvcmVkID0gZGF0YVN0b3JlLmRhdGEuZmlyc3QoKVtVU0RfVE9fQ05ZX1JBVEVdCiAgICAgICAgcmV0dXJuIGlmIChzdG9yZWQgPT0gbnVsbCkgewogICAgICAgICAgICBUb2tlbkNvc3RDdXJyZW5jeS5ERUZBVUxUX1VTRF9UT19DTllfUkFURSB0byB0cnVlCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcmVxdWlyZShzdG9yZWQuaXNGaW5pdGUoKSAmJiBzdG9yZWQgPiAwLjApIHsgInN0b3JlZCBleGNoYW5nZSByYXRlIGlzIGludmFsaWQiIH0KICAgICAgICAgICAgc3RvcmVkIHRvIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVSYXRlKHJhdGU6IERvdWJsZSkgewogICAgICAgIHJlcXVpcmUocmF0ZS5pc0Zpbml0ZSgpICYmIHJhdGUgPiAwLjApIHsgImV4Y2hhbmdlIHJhdGUgbXVzdCBiZSBwb3NpdGl2ZSBhbmQgZmluaXRlIiB9CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPiBwcmVmZXJlbmNlc1tVU0RfVE9fQ05ZX1JBVEVdID0gcmF0ZSB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gbG9hZFRhcmdldEN1cnJlbmN5KCk6IFByaWNpbmdDdXJyZW5jeSB7CiAgICAgICAgdmFsIHN0b3JlZCA9IGRhdGFTdG9yZS5kYXRhLmZpcnN0KClbVEFSR0VUX0NVUlJFTkNZXQogICAgICAgIHJldHVybiBzdG9yZWQ/LmxldCB7IFByaWNpbmdDdXJyZW5jeS52YWx1ZU9mKGl0KSB9ID86IFByaWNpbmdDdXJyZW5jeS5DTlkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzYXZlVGFyZ2V0Q3VycmVuY3koY3VycmVuY3k6IFByaWNpbmdDdXJyZW5jeSkgewogICAgICAgIGRhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4gcHJlZmVyZW5jZXNbVEFSR0VUX0NVUlJFTkNZXSA9IGN1cnJlbmN5Lm5hbWUgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGxvYWRUb2tlbkRpc3BsYXlVbml0KCk6IFRva2VuU3RhdHNEaXNwbGF5VW5pdCB7CiAgICAgICAgdmFsIHN0b3JlZCA9IGRhdGFTdG9yZS5kYXRhLmZpcnN0KClbVE9LRU5fRElTUExBWV9VTklUXQogICAgICAgIHJldHVybiBzdG9yZWQ/LmxldCB7IFRva2VuU3RhdHNEaXNwbGF5VW5pdC52YWx1ZU9mKGl0KSB9CiAgICAgICAgICAgID86IFRva2VuU3RhdHNEaXNwbGF5VW5pdC5NSUxMSU9OUwogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVUb2tlbkRpc3BsYXlVbml0KHVuaXQ6IFRva2VuU3RhdHNEaXNwbGF5VW5pdCkgewogICAgICAgIGRhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4gcHJlZmVyZW5jZXNbVE9LRU5fRElTUExBWV9VTklUXSA9IHVuaXQubmFtZSB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gbG9hZEFjdGl2aXR5Vmlld01vZGUoKTogVG9rZW5BY3Rpdml0eVZpZXdNb2RlIHsKICAgICAgICB2YWwgc3RvcmVkID0gZGF0YVN0b3JlLmRhdGEuZmlyc3QoKVtBQ1RJVklUWV9WSUVXX01PREVdCiAgICAgICAgcmV0dXJuIHN0b3JlZD8ubGV0IHsgVG9rZW5BY3Rpdml0eVZpZXdNb2RlLnZhbHVlT2YoaXQpIH0gPzogVG9rZW5BY3Rpdml0eVZpZXdNb2RlLkRBSUxZCiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2F2ZUFjdGl2aXR5Vmlld01vZGUobW9kZTogVG9rZW5BY3Rpdml0eVZpZXdNb2RlKSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPiBwcmVmZXJlbmNlc1tBQ1RJVklUWV9WSUVXX01PREVdID0gbW9kZS5uYW1lIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBsb2FkVGltZVJhbmdlKCk6IFRva2VuU3RhdHNUaW1lUmFuZ2U/IHsKICAgICAgICB2YWwgcHJlZmVyZW5jZXMgPSBkYXRhU3RvcmUuZGF0YS5maXJzdCgpCiAgICAgICAgdmFsIHN0YXJ0TXMgPSBwcmVmZXJlbmNlc1tUSU1FX1JBTkdFX1NUQVJUXSA/OiByZXR1cm4gbnVsbAogICAgICAgIHZhbCBlbmRNcyA9IGNoZWNrTm90TnVsbChwcmVmZXJlbmNlc1tUSU1FX1JBTkdFX0VORF0pCiAgICAgICAgcmV0dXJuIFRva2VuU3RhdHNUaW1lUmFuZ2VzLmN1c3RvbVJhbmdlKHN0YXJ0TXMsIGVuZE1zKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHNhdmVUaW1lUmFuZ2UocmFuZ2U6IFRva2VuU3RhdHNUaW1lUmFuZ2U/KSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBpZiAocmFuZ2UgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgcHJlZmVyZW5jZXMucmVtb3ZlKFRJTUVfUkFOR0VfU1RBUlQpCiAgICAgICAgICAgICAgICBwcmVmZXJlbmNlcy5yZW1vdmUoVElNRV9SQU5HRV9FTkQpCiAgICAgICAgICAgICAgICByZXR1cm5AZWRpdAogICAgICAgICAgICB9CiAgICAgICAgICAgIHByZWZlcmVuY2VzW1RJTUVfUkFOR0VfU1RBUlRdID0gcmFuZ2Uuc3RhcnRNcwogICAgICAgICAgICBwcmVmZXJlbmNlc1tUSU1FX1JBTkdFX0VORF0gPSByYW5nZS5lbmRNcwogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.stats
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.doublePreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.longPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import com.bslsjdk.operit.data.collects.PricingCurrency
+import kotlinx.coroutines.flow.first
+
+private val Context.tokenStatsDataStore: DataStore<Preferences> by
+    preferencesDataStore(name = "token_stats_preferences")
+
+/** Scalar statistics settings. Structured usage, grouping, and pricing stay in Room. */
+internal class TokenStatsPreferences(context: Context) {
+    companion object {
+        private val TARGET_CURRENCY = stringPreferencesKey("target_currency")
+        private val TOKEN_DISPLAY_UNIT = stringPreferencesKey("token_display_unit")
+        private val USD_TO_CNY_RATE = doublePreferencesKey("usd_to_cny_rate")
+        private val TIME_RANGE_START = longPreferencesKey("time_range_start")
+        private val TIME_RANGE_END = longPreferencesKey("time_range_end")
+        private val ACTIVITY_VIEW_MODE = stringPreferencesKey("activity_view_mode")
+        private val IMPORTED_AT = longPreferencesKey("imported_at_ms")
+    }
+
+    private val dataStore = context.applicationContext.tokenStatsDataStore
+
+    suspend fun importedAtMs(): Long? = dataStore.data.first()[IMPORTED_AT]
+
+    suspend fun completeMigration(importedAtMs: Long, releasedUsdToCnyRate: Double?) {
+        dataStore.edit { preferences ->
+            releasedUsdToCnyRate?.let { preferences[USD_TO_CNY_RATE] = it }
+            preferences[IMPORTED_AT] = importedAtMs
+        }
+    }
+
+    suspend fun loadRateWithEstimate(): Pair<Double, Boolean> {
+        val stored = dataStore.data.first()[USD_TO_CNY_RATE]
+        return if (stored == null) {
+            TokenCostCurrency.DEFAULT_USD_TO_CNY_RATE to true
+        } else {
+            require(stored.isFinite() && stored > 0.0) { "stored exchange rate is invalid" }
+            stored to false
+        }
+    }
+
+    suspend fun saveRate(rate: Double) {
+        require(rate.isFinite() && rate > 0.0) { "exchange rate must be positive and finite" }
+        dataStore.edit { preferences -> preferences[USD_TO_CNY_RATE] = rate }
+    }
+
+    suspend fun loadTargetCurrency(): PricingCurrency {
+        val stored = dataStore.data.first()[TARGET_CURRENCY]
+        return stored?.let { PricingCurrency.valueOf(it) } ?: PricingCurrency.CNY
+    }
+
+    suspend fun saveTargetCurrency(currency: PricingCurrency) {
+        dataStore.edit { preferences -> preferences[TARGET_CURRENCY] = currency.name }
+    }
+
+    suspend fun loadTokenDisplayUnit(): TokenStatsDisplayUnit {
+        val stored = dataStore.data.first()[TOKEN_DISPLAY_UNIT]
+        return stored?.let { TokenStatsDisplayUnit.valueOf(it) }
+            ?: TokenStatsDisplayUnit.MILLIONS
+    }
+
+    suspend fun saveTokenDisplayUnit(unit: TokenStatsDisplayUnit) {
+        dataStore.edit { preferences -> preferences[TOKEN_DISPLAY_UNIT] = unit.name }
+    }
+
+    suspend fun loadActivityViewMode(): TokenActivityViewMode {
+        val stored = dataStore.data.first()[ACTIVITY_VIEW_MODE]
+        return stored?.let { TokenActivityViewMode.valueOf(it) } ?: TokenActivityViewMode.DAILY
+    }
+
+    suspend fun saveActivityViewMode(mode: TokenActivityViewMode) {
+        dataStore.edit { preferences -> preferences[ACTIVITY_VIEW_MODE] = mode.name }
+    }
+
+    suspend fun loadTimeRange(): TokenStatsTimeRange? {
+        val preferences = dataStore.data.first()
+        val startMs = preferences[TIME_RANGE_START] ?: return null
+        val endMs = checkNotNull(preferences[TIME_RANGE_END])
+        return TokenStatsTimeRanges.customRange(startMs, endMs)
+    }
+
+    suspend fun saveTimeRange(range: TokenStatsTimeRange?) {
+        dataStore.edit { preferences ->
+            if (range == null) {
+                preferences.remove(TIME_RANGE_START)
+                preferences.remove(TIME_RANGE_END)
+                return@edit
+            }
+            preferences[TIME_RANGE_START] = range.startMs
+            preferences[TIME_RANGE_END] = range.endMs
+        }
+    }
+}

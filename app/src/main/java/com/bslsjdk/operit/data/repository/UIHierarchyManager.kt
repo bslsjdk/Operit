@@ -1,1 +1,503 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZXBvc2l0b3J5CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbXBvbmVudE5hbWUKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuU2VydmljZUNvbm5lY3Rpb24KaW1wb3J0IGFuZHJvaWQuY29udGVudC5wbS5QYWNrYWdlTWFuYWdlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLlJlc29sdmVJbmZvCmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQub3MuSUJpbmRlcgppbXBvcnQgYW5kcm9pZC5vcy5SZW1vdGVFeGNlcHRpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZC53aWRnZXQuVG9hc3QKaW1wb3J0IGFuZHJvaWR4LmNvcmUuY29udGVudC5GaWxlUHJvdmlkZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uQWNjZXNzaWJpbGl0eVByb3ZpZGVySW5zdGFsbGVyCmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5vcGVyaXQucHJvdmlkZXIuSUFjY2Vzc2liaWxpdHlQcm92aWRlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN1c3BlbmRDYW5jZWxsYWJsZUNvcm91dGluZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aFRpbWVvdXRPck51bGwKaW1wb3J0IG9yZy54bWxwdWxsLnYxLlhtbFB1bGxQYXJzZXIKaW1wb3J0IG9yZy54bWxwdWxsLnYxLlhtbFB1bGxQYXJzZXJGYWN0b3J5CmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uRmlsZU91dHB1dFN0cmVhbQppbXBvcnQgamF2YS5pby5TdHJpbmdSZWFkZXIKaW1wb3J0IGtvdGxpbi5jb3JvdXRpbmVzLnJlc3VtZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkdsb2JhbFNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy5NdXRleAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMud2l0aExvY2sKCi8qKgogKiBVSeWxguasoee7k+aehOeuoeeQhuWZqAogKiDotJ/otKPkuI7ni6znq4vnmoTml6Dpmpznoo3mnI3liqHmj5DkvpvogIVBcHDov5vooYzpgJrkv6HvvIzojrflj5ZVSeWxguasoee7k+aehOOAggogKi8Kb2JqZWN0IFVJSGllcmFyY2h5TWFuYWdlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiVUlIaWVyYXJjaHlNYW5hZ2VyIgogICAgcHJpdmF0ZSBjb25zdCB2YWwgQklORF9TRVJWSUNFX1RJTUVPVVRfTVMgPSAzMDAwTCAvLyAz56eS6LaF5pe2CgogICAgLy8g5paw55qE5peg6Zqc56KN5pyN5Yqh5o+Q5L6b6ICF5bqU55So55qE5YyF5ZCNCiAgICBwcml2YXRlIGNvbnN0IHZhbCBQUk9WSURFUl9QQUNLQUdFX05BTUUgPSAiY29tLmFpLmFzc2lzdGFuY2Uub3Blcml0LnByb3ZpZGVyIgogICAgLy8g5peg6Zqc56KN5pyN5Yqh5o+Q5L6b6ICFQVBL55qE5paH5Lu25ZCNCiAgICBwcml2YXRlIGNvbnN0IHZhbCBQUk9WSURFUl9BUEtfTkFNRSA9ICJhY2Nlc3NpYmlsaXR5LmFwayIKICAgIC8vIOeUqOS6jue7keWumueahOiHquWumuS5iUFjdGlvbu+8jOW/hemhu+S4juacjeWKoeaPkOS+m+iAheW6lOeUqOS4reeahOWjsOaYjuS4gOiHtAogICAgcHJpdmF0ZSBjb25zdCB2YWwgUFJPVklERVJfQUNUSU9OID0gImNvbS5haS5hc3Npc3RhbmNlLm9wZXJpdC5wcm92aWRlci5JQWNjZXNzaWJpbGl0eVByb3ZpZGVyIgogICAgLy8gVE9ETzog5aaC5p6c5L2g5LiN5ZyoR29vZ2xlIFBsYXnkuIrlj5HluIPvvIzlj6/ku6XlsIblhbbmm7TmlLnkuLrnm7TmjqXkuIvovb3nmoRVUkwKICAgIHByaXZhdGUgY29uc3QgdmFsIFBST1ZJREVSX01BUktFVF9VUkwgPSAibWFya2V0Oi8vZGV0YWlscz9pZD0kUFJPVklERVJfUEFDS0FHRV9OQU1FIgoKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgYWNjZXNzaWJpbGl0eVByb3ZpZGVyOiBJQWNjZXNzaWJpbGl0eVByb3ZpZGVyPyA9IG51bGwKCiAgICBwcml2YXRlIHZhbCBfaXNCb3VuZCA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICB2YWwgaXNCb3VuZCA9IF9pc0JvdW5kLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBiaW5kaW5nTXV0ZXggPSBNdXRleCgpCgogICAgQFZvbGF0aWxlCiAgICBwcml2YXRlIHZhciBjb25uZWN0aW9uQ29udGludWF0aW9uOiAoKEJvb2xlYW4pIC0+IFVuaXQpPyA9IG51bGwKCiAgICBwcml2YXRlIHZhbCBzZXJ2aWNlQ29ubmVjdGlvbiA9IG9iamVjdCA6IFNlcnZpY2VDb25uZWN0aW9uIHsKICAgICAgICBvdmVycmlkZSBmdW4gb25TZXJ2aWNlQ29ubmVjdGVkKG5hbWU6IENvbXBvbmVudE5hbWU/LCBzZXJ2aWNlOiBJQmluZGVyPykgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLml6Dpmpznoo3mnI3liqHmj5DkvpvogIXlt7Lov57mjqUiKQogICAgICAgICAgICBhY2Nlc3NpYmlsaXR5UHJvdmlkZXIgPSBJQWNjZXNzaWJpbGl0eVByb3ZpZGVyLlN0dWIuYXNJbnRlcmZhY2Uoc2VydmljZSkKICAgICAgICAgICAgX2lzQm91bmQudmFsdWUgPSB0cnVlCiAgICAgICAgICAgIGNvbm5lY3Rpb25Db250aW51YXRpb24/Lmludm9rZSh0cnVlKQogICAgICAgICAgICBjb25uZWN0aW9uQ29udGludWF0aW9uID0gbnVsbAogICAgICAgIH0KCiAgICAgICAgb3ZlcnJpZGUgZnVuIG9uU2VydmljZURpc2Nvbm5lY3RlZChuYW1lOiBDb21wb25lbnROYW1lPykgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLml6Dpmpznoo3mnI3liqHmj5DkvpvogIXlt7Lmlq3lvIAiKQogICAgICAgICAgICBhY2Nlc3NpYmlsaXR5UHJvdmlkZXIgPSBudWxsCiAgICAgICAgICAgIF9pc0JvdW5kLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgY29ubmVjdGlvbkNvbnRpbnVhdGlvbj8uaW52b2tlKGZhbHNlKQogICAgICAgICAgICBjb25uZWN0aW9uQ29udGludWF0aW9uID0gbnVsbAogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOS7juW6lOeUqOWGhWFzc2V0c+ebruW9leS4reaPkOWPluaXoOmanOeijeacjeWKoeaPkOS+m+iAhUFQS+aWh+S7tuOAggogICAgICogQHBhcmFtIGNvbnRleHQgQ29udGV4dAogICAgICogQHJldHVybiDmj5Dlj5blh7rnmoRBUEvmlofku7bvvIzlpoLmnpzlpLHotKXliJnov5Tlm55udWxs44CCCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGV4dHJhY3RQcm92aWRlckFwa0Zyb21Bc3NldHMoY29udGV4dDogQ29udGV4dCk6IEZpbGU/IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGFwa0ZpbGUgPSBGaWxlKGNvbnRleHQuY2FjaGVEaXIsIFBST1ZJREVSX0FQS19OQU1FKQogICAgICAgICAgICAvLyDlpoLmnpzmlofku7blt7LlrZjlnKjkuJTlpKflsI/ljLnphY3vvIzlj6/ku6Xot7Pov4fmj5Dlj5bvvIzkvYbkuLrkuobnroDljZXotbfop4HvvIzov5nph4zmgLvmmK/opobnm5YKICAgICAgICAgICAgY29udGV4dC5hc3NldHMub3BlbihQUk9WSURFUl9BUEtfTkFNRSkudXNlIHsgaW5wdXRTdHJlYW0gLT4KICAgICAgICAgICAgICAgIEZpbGVPdXRwdXRTdHJlYW0oYXBrRmlsZSkudXNlIHsgb3V0cHV0U3RyZWFtIC0+CiAgICAgICAgICAgICAgICAgICAgaW5wdXRTdHJlYW0uY29weVRvKG91dHB1dFN0cmVhbSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLml6Dpmpznoo3mnI3liqFBUEvlt7Lmj5Dlj5bliLA6ICR7YXBrRmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICAgICAgYXBrRmlsZQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLku45hc3NldHPmj5Dlj5bml6Dpmpznoo3mnI3liqFBUEvlpLHotKUiLCBlKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5ZCv5Yqo5a6J6KOF5rWB56iL5p2l5a6J6KOF5o+Q5L6b6ICF5bqU55SoCiAgICAgKi8KICAgIGZ1biBsYXVuY2hQcm92aWRlckluc3RhbGwoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIEdsb2JhbFNjb3BlLmxhdW5jaChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICB2YWwgYXBrRmlsZSA9IGV4dHJhY3RQcm92aWRlckFwa0Zyb21Bc3NldHMoY29udGV4dCkKICAgICAgICAgICAgaWYgKGFwa0ZpbGUgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy50b2FzdF9hcGtfZXh0cmFjdF9mYWlsZWQpLAogICAgICAgICAgICAgICAgICAgICAgICBUb2FzdC5MRU5HVEhfU0hPUlQKICAgICAgICAgICAgICAgICAgICApLnNob3coKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgYXBrVXJpID0KICAgICAgICAgICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5OKSB7CiAgICAgICAgICAgICAgICAgICAgRmlsZVByb3ZpZGVyLmdldFVyaUZvckZpbGUoCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICIke2NvbnRleHQucGFja2FnZU5hbWV9LmZpbGVwcm92aWRlciIsCiAgICAgICAgICAgICAgICAgICAgICAgIGFwa0ZpbGUKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIFVyaS5mcm9tRmlsZShhcGtGaWxlKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIGluc3RhbGxJbnRlbnQgPSBJbnRlbnQoSW50ZW50LkFDVElPTl9WSUVXKS5hcHBseSB7CiAgICAgICAgICAgICAgICBzZXREYXRhQW5kVHlwZShhcGtVcmksICJhcHBsaWNhdGlvbi92bmQuYW5kcm9pZC5wYWNrYWdlLWFyY2hpdmUiKQogICAgICAgICAgICAgICAgZmxhZ3MgPSBJbnRlbnQuRkxBR19BQ1RJVklUWV9ORVdfVEFTSwogICAgICAgICAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk4pIHsKICAgICAgICAgICAgICAgICAgICBhZGRGbGFncyhJbnRlbnQuRkxBR19HUkFOVF9SRUFEX1VSSV9QRVJNSVNTSU9OKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5NYWluKSB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eShpbnN0YWxsSW50ZW50KQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5ZCv5Yqo5a6J6KOF55WM6Z2i5aSx6LSlIiwgZSkKICAgICAgICAgICAgICAgICAgICBUb2FzdC5tYWtlVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCwKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudG9hc3Rfb3BlcmF0aW9uX2ZhaWxlZCwgZS5tZXNzYWdlID86ICIiKSwKICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3QuTEVOR1RIX1NIT1JUCiAgICAgICAgICAgICAgICAgICAgKS5zaG93KCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOajgOafpeaXoOmanOeijeacjeWKoeaPkOS+m+iAheaYr+WQpumcgOimgeabtOaWsAogICAgICovCiAgICBmdW4gaXNVcGRhdGVOZWVkZWQoY29udGV4dDogQ29udGV4dCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBBY2Nlc3NpYmlsaXR5UHJvdmlkZXJJbnN0YWxsZXIuaXNVcGRhdGVOZWVkZWQoY29udGV4dCkKICAgIH0KCiAgICAvKioKICAgICAqIOehruS/neacjeWKoeW3sue7keWumu+8jOWmguaenOacque7keWumuWImeWwneivleiHquWKqOmHjeaWsOe7keWumuOAggogICAgICogQHJldHVybiBhIGJvb2xlYW4gaW5kaWNhdGluZyBpZiB0aGUgc2VydmljZSBpcyByZWFkeS4KICAgICAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBlbnN1cmVCb3VuZChjb250ZXh0OiBDb250ZXh0KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKCFfaXNCb3VuZC52YWx1ZSB8fCBhY2Nlc3NpYmlsaXR5UHJvdmlkZXIgPT0gbnVsbCkgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICLmnI3liqHmnKrnu5HlrprmiJbmj5DkvpvogIXkuLpudWxs77yM5bCd6K+V6Ieq5Yqo6YeN5paw57uR5a6aLi4uIikKICAgICAgICAgICAgdmFsIGJvdW5kID0gYmluZFRvU2VydmljZShjb250ZXh0KQogICAgICAgICAgICBpZiAoIWJvdW5kKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLoh6rliqjph43mlrDnu5HlrprlpLHotKUiKQogICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgLy8gQSBmaW5hbCBjaGVjayB0byBwcm90ZWN0IGFnYWluc3QgcmFjZSBjb25kaXRpb25zIHdoZXJlIHRoZSBzZXJ2aWNlIGRpc2Nvbm5lY3RzCiAgICAgICAgLy8gcmlnaHQgYWZ0ZXIgdGhlIGNoZWNrIG9yIGR1cmluZyB0aGUgYmluZGluZyBwcm9jZXNzLgogICAgICAgIHJldHVybiBfaXNCb3VuZC52YWx1ZSAmJiBhY2Nlc3NpYmlsaXR5UHJvdmlkZXIgIT0gbnVsbAogICAgfQoKICAgIC8qKgogICAgICog5qOA5p+l5peg6Zqc56KN5pyN5Yqh5o+Q5L6b6ICF5bqU55So5piv5ZCm5bey5a6J6KOFCiAgICAgKi8KICAgIGZ1biBpc1Byb3ZpZGVyQXBwSW5zdGFsbGVkKGNvbnRleHQ6IENvbnRleHQpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgY29udGV4dC5wYWNrYWdlTWFuYWdlci5nZXRQYWNrYWdlSW5mbyhQUk9WSURFUl9QQUNLQUdFX05BTUUsIDApCiAgICAgICAgICAgIHRydWUKICAgICAgICB9IGNhdGNoIChlOiBQYWNrYWdlTWFuYWdlci5OYW1lTm90Rm91bmRFeGNlcHRpb24pIHsKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDnu5HlrprliLDlpJbpg6jml6Dpmpznoo3mnI3liqHjgIIKICAgICAqIOi/meaYr+S4gOS4quaMgui1t+WHveaVsO+8jOWug+S8muetieW+heacjeWKoei/nuaOpeaIkOWKn+aIluWksei0peOAggogICAgICogQHJldHVybiBhIGJvb2xlYW4gaW5kaWNhdGluZyBpZiB0aGUgYmluZGluZyB3YXMgc3VjY2Vzc2Z1bC4KICAgICAqLwogICAgc3VzcGVuZCBmdW4gYmluZFRvU2VydmljZShjb250ZXh0OiBDb250ZXh0KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGJpbmRpbmdNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgImJpbmRUb1NlcnZpY2UgaW52b2tlZC4gVGhyZWFkOiAke1RocmVhZC5jdXJyZW50VGhyZWFkKCkubmFtZX0sIENvbnRleHQ6ICR7Y29udGV4dC5qYXZhQ2xhc3MubmFtZX0iKQoKICAgICAgICAgICAgLy8g5Y+q5pyJ5Zyo5bey5a6M5YWo57uR5a6a77yIYm91bmTkuJRwcm92aWRlcuS4jeS4uuepuu+8ieaIluiAheW6lOeUqOacquWuieijheeahOaDheWGteS4i+aJjeebtOaOpei/lOWbngogICAgICAgICAgICAvLyDlpoLmnpwgX2lzQm91bmQg5Li6IHRydWUg5L2GIHByb3ZpZGVyIOS4uiBudWxs77yM5YiZ6K6k5Li65piv54q25oCB5LiN5LiA6Ie077yM6ZyA6KaB6YeN5paw57uR5a6aCiAgICAgICAgICAgIGlmICgoX2lzQm91bmQudmFsdWUgJiYgYWNjZXNzaWJpbGl0eVByb3ZpZGVyICE9IG51bGwpIHx8ICFpc1Byb3ZpZGVyQXBwSW5zdGFsbGVkKGNvbnRleHQpKSB7CiAgICAgICAgICAgICAgICBpZiAoIV9pc0JvdW5kLnZhbHVlKSBBcHBMb2dnZXIudyhUQUcsICLml6Dms5Xnu5HlrprvvJrmnI3liqHlt7Lnu5HlrprmiJbmj5DkvpvogIXlupTnlKjmnKrlronoo4UiKQogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhMb2NrIF9pc0JvdW5kLnZhbHVlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBpbXBsaWNpdEludGVudCA9IEludGVudChQUk9WSURFUl9BQ1RJT04pLnNldFBhY2thZ2UoUFJPVklERVJfUEFDS0FHRV9OQU1FKQogICAgICAgICAgICB2YWwgcmVzb2x2ZUluZm86IFJlc29sdmVJbmZvPyA9IGNvbnRleHQucGFja2FnZU1hbmFnZXIucmVzb2x2ZVNlcnZpY2UoaW1wbGljaXRJbnRlbnQsIFBhY2thZ2VNYW5hZ2VyLk1BVENIX0FMTCkKCiAgICAgICAgICAgIGlmIChyZXNvbHZlSW5mbyA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLml6Dms5Xop6PmnpDmnI3liqE6ICRQUk9WSURFUl9BQ1RJT04uIOivt+ehruiupOaPkOS+m+iAheW6lOeUqOW3suato+ehruWuieijheOAgiIpCiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aExvY2sgZmFsc2UKICAgICAgICAgICAgfQoKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5pyN5Yqh6Kej5p6Q5oiQ5YqfOiAke3Jlc29sdmVJbmZvLnNlcnZpY2VJbmZvLnBhY2thZ2VOYW1lfS8ke3Jlc29sdmVJbmZvLnNlcnZpY2VJbmZvLm5hbWV9IikKCiAgICAgICAgICAgIHZhbCBleHBsaWNpdEludGVudCA9IEludGVudChQUk9WSURFUl9BQ1RJT04pLmFwcGx5IHsKICAgICAgICAgICAgICAgIGNvbXBvbmVudCA9IENvbXBvbmVudE5hbWUocmVzb2x2ZUluZm8uc2VydmljZUluZm8ucGFja2FnZU5hbWUsIHJlc29sdmVJbmZvLnNlcnZpY2VJbmZvLm5hbWUpCiAgICAgICAgICAgICAgICBhZGRGbGFncyhJbnRlbnQuRkxBR19JTkNMVURFX1NUT1BQRURfUEFDS0FHRVMpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSB3aXRoVGltZW91dE9yTnVsbChCSU5EX1NFUlZJQ0VfVElNRU9VVF9NUykgewogICAgICAgICAgICAgICAgc3VzcGVuZENhbmNlbGxhYmxlQ29yb3V0aW5lIHsgY29udGludWF0aW9uIC0+CiAgICAgICAgICAgICAgICAgICAgY29ubmVjdGlvbkNvbnRpbnVhdGlvbiA9IHsgc3VjY2VzcyAtPgogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJjb25uZWN0aW9uQ29udGludWF0aW9uIGNhbGxlZCB3aXRoIHN1Y2Nlc3M9JHN1Y2Nlc3MiKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoY29udGludWF0aW9uLmlzQWN0aXZlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250aW51YXRpb24ucmVzdW1lKHN1Y2Nlc3MpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5bCd6K+V5L2/55SoIEFwcGxpY2F0aW9uQ29udGV4dCDnu5HlrpouLi4iKQogICAgICAgICAgICAgICAgICAgICAgICB2YXIgYm91bmQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dC5iaW5kU2VydmljZShleHBsaWNpdEludGVudCwgc2VydmljZUNvbm5lY3Rpb24sIENvbnRleHQuQklORF9BVVRPX0NSRUFURSkKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQXBwbGljYXRpb25Db250ZXh0IOe7keWumue7k+aenDogJGJvdW5kIikKCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghYm91bmQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIkFwcGxpY2F0aW9uQ29udGV4dOe7keWumuWksei0pe+8jOWwneivleS9v+eUqOWOn+Wni0NvbnRleHQgKCR7Y29udGV4dC5qYXZhQ2xhc3Muc2ltcGxlTmFtZX0pIC4uLiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3VuZCA9IGNvbnRleHQuYmluZFNlcnZpY2UoZXhwbGljaXRJbnRlbnQsIHNlcnZpY2VDb25uZWN0aW9uLCBDb250ZXh0LkJJTkRfQVVUT19DUkVBVEUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLljp/lp4sgQ29udGV4dCDnu5Hlrprnu5Pmnpw6ICRib3VuZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghYm91bmQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgImJpbmRTZXJ2aWNl6L+U5ZueZmFsc2XvvIznu5HlrprlpLHotKXjgILlj6/og73mmK/mnYPpmZDpl67popjmiJblkI7lj7DlkK/liqjpmZDliLbjgIIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNvbnRpbnVhdGlvbi5pc0FjdGl2ZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVhdGlvbi5yZXN1bWUoZmFsc2UpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25uZWN0aW9uQ29udGludWF0aW9uID0gbnVsbAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogU2VjdXJpdHlFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi57uR5a6a5pyN5Yqh5pe25Ye6546w5a6J5YWo5byC5bi4IiwgZSkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNvbnRpbnVhdGlvbi5pc0FjdGl2ZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWF0aW9uLnJlc3VtZShmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBjb25uZWN0aW9uQ29udGludWF0aW9uID0gbnVsbAogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLnu5HlrprmnI3liqHml7blh7rnjrDmnKrnn6XlvILluLgiLCBlKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoY29udGludWF0aW9uLmlzQWN0aXZlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250aW51YXRpb24ucmVzdW1lKGZhbHNlKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbm5lY3Rpb25Db250aW51YXRpb24gPSBudWxsCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAocmVzdWx0ID09IG51bGwpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIue7keWumuacjeWKoei2heaXtiAoJHtCSU5EX1NFUlZJQ0VfVElNRU9VVF9NU31tcykuIOaXoOmanOeijeacjeWKoeaPkOS+m+iAheWPr+iDveacquWTjeW6lOaIluW0qea6gy4iKQogICAgICAgICAgICAgICAgY29ubmVjdGlvbkNvbnRpbnVhdGlvbiA9IG51bGwKICAgICAgICAgICAgICAgIF9pc0JvdW5kLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQudW5iaW5kU2VydmljZShzZXJ2aWNlQ29ubmVjdGlvbikKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIC8vIElnbm9yZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLy8g5bCd6K+V6Kej57uR5Y6f5aeLIGNvbnRleHQg5Lul6Ziy5LiH5LiACiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGlmIChjb250ZXh0ICE9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQudW5iaW5kU2VydmljZShzZXJ2aWNlQ29ubmVjdGlvbikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHt9CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aExvY2sgZmFsc2UKICAgICAgICAgICAgfQoKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiYmluZFRvU2VydmljZSDmiJDlip/lrozmiJAiKQogICAgICAgICAgICByZXN1bHQKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDop6Pnu5HmnI3liqEKICAgICAqLwogICAgZnVuIHVuYmluZEZyb21TZXJ2aWNlKGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICBpZiAoX2lzQm91bmQudmFsdWUpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LnVuYmluZFNlcnZpY2Uoc2VydmljZUNvbm5lY3Rpb24pCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6Kej57uR5pyN5Yqh5aSx6LSlIiwgZSkKICAgICAgICAgICAgfQogICAgICAgICAgICBfaXNCb3VuZC52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIGFjY2Vzc2liaWxpdHlQcm92aWRlciA9IG51bGwKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5pyN5Yqh5bey6Kej57uRIikKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDku47lpJbpg6jmnI3liqHojrflj5ZVSeWxguasoee7k+aehOOAggogICAgICog5aaC5p6c5pyN5Yqh5pyq57uR5a6a77yM5Lya5bCd6K+V6Ieq5Yqo6YeN5paw57uR5a6a5LiA5qyh44CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGdldFVJSGllcmFyY2h5KGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgewogICAgICAgIGlmICghZW5zdXJlQm91bmQoY29udGV4dCkpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi57uR5a6a5aSx6LSl77yM5peg5rOV6I635Y+WVUnlsYLmrKHnu5PmnoQiKQogICAgICAgICAgICByZXR1cm4gIiIKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGFjY2Vzc2liaWxpdHlQcm92aWRlcj8udWlIaWVyYXJjaHkgPzogIiIKICAgICAgICB9IGNhdGNoIChlOiBSZW1vdGVFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5LuO5o+Q5L6b6ICF6I635Y+WVUnlsYLmrKHnu5PmnoTlpLHotKUiLCBlKQogICAgICAgICAgICAvLyBDb25zaWRlciByZS1iaW5kaW5nIG9yIG5vdGlmeWluZyB0aGUgdXNlcgogICAgICAgICAgICAiIgogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOS7jlVJ5bGC5qyh57uT5p6E55qEWE1M5Lit6Kej5p6Q5Ye656qX5Y+j5L+h5oGv77yI5YyF5ZCN77yJ44CCCiAgICAgKiDmtLvliqjlkI3np7DnjrDlnKjpgJrov4cgZ2V0Q3VycmVudEFjdGl2aXR5TmFtZSgpIOWHveaVsOWNleeLrOiOt+WPluOAggogICAgICogQHBhcmFtIHhtbEhpZXJhcmNoeSBVSeWxguasoee7k+aehOeahFhNTOWtl+espuS4sgogICAgICogQHJldHVybiDkuIDkuKpQYWly77yM56ys5LiA5Liq5YWD57Sg5piv5YyF5ZCN77yM56ys5LqM5Liq5pivbnVsbO+8iOa0u+WKqOWQjeensOmcgOWNleeLrOiOt+WPlu+8ieOAggogICAgICovCiAgICBmdW4gZXh0cmFjdFdpbmRvd0luZm8oeG1sSGllcmFyY2h5OiBTdHJpbmcpOiBQYWlyPFN0cmluZz8sIFN0cmluZz8+IHsKICAgICAgICBpZiAoeG1sSGllcmFyY2h5LmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4gUGFpcihudWxsLCBudWxsKQogICAgICAgIH0KICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgZmFjdG9yeSA9IFhtbFB1bGxQYXJzZXJGYWN0b3J5Lm5ld0luc3RhbmNlKCkKICAgICAgICAgICAgZmFjdG9yeS5pc05hbWVzcGFjZUF3YXJlID0gZmFsc2UKICAgICAgICAgICAgdmFsIHBhcnNlciA9IGZhY3RvcnkubmV3UHVsbFBhcnNlcigpCiAgICAgICAgICAgIHBhcnNlci5zZXRJbnB1dChTdHJpbmdSZWFkZXIoeG1sSGllcmFyY2h5KSkKCiAgICAgICAgICAgIHZhciBldmVudFR5cGUgPSBwYXJzZXIuZXZlbnRUeXBlCiAgICAgICAgICAgIHdoaWxlIChldmVudFR5cGUgIT0gWG1sUHVsbFBhcnNlci5FTkRfRE9DVU1FTlQpIHsKICAgICAgICAgICAgICAgIHdoZW4gKGV2ZW50VHlwZSkgewogICAgICAgICAgICAgICAgICAgIFhtbFB1bGxQYXJzZXIuU1RBUlRfVEFHIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHBhcnNlci5uYW1lID09ICJub2RlIikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5Y+q6I635Y+W5qC56IqC54K555qE5YyF5ZCN77yM5rS75Yqo5ZCN56ew6YCa6L+H5Y2V54us55qE5Ye95pWw6I635Y+WCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgcm9vdFBhY2thZ2UgPSBwYXJzZXIuZ2V0QXR0cmlidXRlVmFsdWUobnVsbCwgInBhY2thZ2UiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFBhaXIocm9vdFBhY2thZ2UsIG51bGwpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBldmVudFR5cGUgPSBwYXJzZXIubmV4dCgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHJldHVybiBQYWlyKG51bGwsIG51bGwpCgogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLop6PmnpDnqpflj6Pkv6Hmga/ml7blh7rplJkiLCBlKQogICAgICAgICAgICByZXR1cm4gUGFpcihudWxsLCBudWxsKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOivt+axgui/nOeoi+acjeWKoeWcqOaMh+WumuWdkOagh+aJp+ihjOeCueWHu+OAggogICAgICovCiAgICBzdXNwZW5kIGZ1biBwZXJmb3JtQ2xpY2soY29udGV4dDogQ29udGV4dCwgeDogSW50LCB5OiBJbnQpOiBCb29sZWFuIHsKICAgICAgICBpZiAoIWVuc3VyZUJvdW5kKGNvbnRleHQpKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIue7keWumuWksei0pe+8jOaXoOazleaJp+ihjOeCueWHuyIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgYWNjZXNzaWJpbGl0eVByb3ZpZGVyPy5wZXJmb3JtQ2xpY2soeCwgeSkgPzogZmFsc2UKICAgICAgICB9IGNhdGNoIChlOiBSZW1vdGVFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6K+35rGC54K55Ye75pON5L2c5aSx6LSlIiwgZSkKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gcGVyZm9ybUxvbmdQcmVzcyhjb250ZXh0OiBDb250ZXh0LCB4OiBJbnQsIHk6IEludCk6IEJvb2xlYW4gewogICAgICAgIGlmICghZW5zdXJlQm91bmQoY29udGV4dCkpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAi57uR5a6a5aSx6LSl77yM5peg5rOV5omn6KGM6ZW/5oyJIikKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBhY2Nlc3NpYmlsaXR5UHJvdmlkZXI/LnBlcmZvcm1Mb25nUHJlc3MoeCwgeSkgPzogZmFsc2UKICAgICAgICB9IGNhdGNoIChlOiBSZW1vdGVFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6ZW/5oyJ54K55Ye75pON5L2c5aSx6LSlIiwgZSkKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDor7fmsYLov5znqIvmnI3liqHmiafooYzmu5HliqjjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gcGVyZm9ybVN3aXBlKGNvbnRleHQ6IENvbnRleHQsIHN0YXJ0WDogSW50LCBzdGFydFk6IEludCwgZW5kWDogSW50LCBlbmRZOiBJbnQsIGR1cmF0aW9uOiBMb25nKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKCFlbnN1cmVCb3VuZChjb250ZXh0KSkgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICLnu5HlrprlpLHotKXvvIzml6Dms5XmiafooYzmu5HliqgiKQogICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgYWNjZXNzaWJpbGl0eVByb3ZpZGVyPy5wZXJmb3JtU3dpcGUoc3RhcnRYLCBzdGFydFksIGVuZFgsIGVuZFksIGR1cmF0aW9uKSA/OiBmYWxzZQogICAgICAgIH0gY2F0Y2ggKGU6IFJlbW90ZUV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLor7fmsYLmu5Hliqjmk43kvZzlpLHotKUiLCBlKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOivt+axgui/nOeoi+acjeWKoeaJp+ihjOWFqOWxgOaTjeS9nOOAggogICAgICovCiAgICBzdXNwZW5kIGZ1biBwZXJmb3JtR2xvYmFsQWN0aW9uKGNvbnRleHQ6IENvbnRleHQsIGFjdGlvbklkOiBJbnQpOiBCb29sZWFuIHsKICAgICAgICBpZiAoIWVuc3VyZUJvdW5kKGNvbnRleHQpKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIue7keWumuWksei0pe+8jOaXoOazleaJp+ihjOWFqOWxgOaTjeS9nCIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgYWNjZXNzaWJpbGl0eVByb3ZpZGVyPy5wZXJmb3JtR2xvYmFsQWN0aW9uKGFjdGlvbklkKSA/OiBmYWxzZQogICAgICAgIH0gY2F0Y2ggKGU6IFJlbW90ZUV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLor7fmsYLlhajlsYDmk43kvZzlpLHotKUiLCBlKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOivt+axgui/nOeoi+acjeWKoeafpeaJvuacieeEpueCueeahOiKgueCueeahElE44CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGZpbmRGb2N1c2VkTm9kZUlkKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmc/IHsKICAgICAgICBpZiAoIWVuc3VyZUJvdW5kKGNvbnRleHQpKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIue7keWumuWksei0pe+8jOaXoOazleafpeaJvueEpueCueiKgueCuSIpCiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBhY2Nlc3NpYmlsaXR5UHJvdmlkZXI/LmZpbmRGb2N1c2VkTm9kZUlkKCkKICAgICAgICB9IGNhdGNoIChlOiBSZW1vdGVFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6K+35rGC5p+l5om+54Sm54K56IqC54K5SUTlpLHotKUiLCBlKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6K+35rGC6L+c56iL5pyN5Yqh5Zyo5oyH5a6aSUTnmoToioLngrnkuIrorr7nva7mlofmnKzjgIIKICAgICAqLwogICAgc3VzcGVuZCBmdW4gc2V0VGV4dE9uTm9kZShjb250ZXh0OiBDb250ZXh0LCBub2RlSWQ6IFN0cmluZywgdGV4dDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKCFlbnN1cmVCb3VuZChjb250ZXh0KSkgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICLnu5HlrprlpLHotKXvvIzml6Dms5Xorr7nva7mlofmnKwiKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGFjY2Vzc2liaWxpdHlQcm92aWRlcj8uc2V0VGV4dE9uTm9kZShub2RlSWQsIHRleHQpID86IGZhbHNlCiAgICAgICAgfSBjYXRjaCAoZTogUmVtb3RlRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuivt+axguiuvue9ruaWh+acrOWksei0pSIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuivt+axguiuvue9ruaWh+acrOaXtui/nOeoi+acjeWKoeWPkeeUn+W8guW4uCIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog6K+35rGC6L+c56iL5pyN5Yqh5oiq5Y+W5bGP5bmV5oiq5Zu+44CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHRha2VTY3JlZW5zaG90KGNvbnRleHQ6IENvbnRleHQsIHBhdGg6IFN0cmluZywgZm9ybWF0OiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICBpZiAoIWVuc3VyZUJvdW5kKGNvbnRleHQpKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIue7keWumuWksei0pe+8jOaXoOazleaIquWPluWxj+W5leaIquWbviIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgYWNjZXNzaWJpbGl0eVByb3ZpZGVyPy50YWtlU2NyZWVuc2hvdChwYXRoLCBmb3JtYXQpID86IGZhbHNlCiAgICAgICAgfSBjYXRjaCAoZTogUmVtb3RlRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuivt+axguaIquWPluWxj+W5leaIquWbvuWksei0pSIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5qOA5p+l6L+c56iL5peg6Zqc56KN5pyN5Yqh5piv5ZCm5bey5Zyo57O757uf6K6+572u5Lit5ZCv55So44CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGlzQWNjZXNzaWJpbGl0eVNlcnZpY2VFbmFibGVkKGNvbnRleHQ6IENvbnRleHQpOiBCb29sZWFuIHsKICAgICAgICBpZiAoIWVuc3VyZUJvdW5kKGNvbnRleHQpKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIue7keWumuWksei0pe+8jOaXoOazleajgOafpeaXoOmanOeijeacjeWKoeeKtuaAgSIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgYWNjZXNzaWJpbGl0eVByb3ZpZGVyPy5pc0FjY2Vzc2liaWxpdHlTZXJ2aWNlRW5hYmxlZCA/OiBmYWxzZQogICAgICAgIH0gY2F0Y2ggKGU6IFJlbW90ZUV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLmo4Dmn6Xml6Dpmpznoo3mnI3liqHnirbmgIHlpLHotKUiLCBlKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOS7jui/nOeoi+acjeWKoeiOt+WPluW9k+WJjUFjdGl2aXR55ZCN56ew44CCCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGdldEN1cnJlbnRBY3Rpdml0eU5hbWUoY29udGV4dDogQ29udGV4dCk6IFN0cmluZz8gewogICAgICAgIGlmICghZW5zdXJlQm91bmQoY29udGV4dCkpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAi57uR5a6a5aSx6LSl77yM5peg5rOV6I635Y+WQWN0aXZpdHnlkI3np7AiKQogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgYWNjZXNzaWJpbGl0eVByb3ZpZGVyPy5jdXJyZW50QWN0aXZpdHlOYW1lCiAgICAgICAgfSBjYXRjaCAoZTogUmVtb3RlRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuS7juaPkOS+m+iAheiOt+WPlkFjdGl2aXR55ZCN56ew5aSx6LSlIiwgZSkKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KfQ==
+package com.bslsjdk.operit.data.repository
+
+import android.content.ComponentName
+import android.content.Context
+import android.content.Intent
+import android.content.ServiceConnection
+import android.content.pm.PackageManager
+import android.content.pm.ResolveInfo
+import android.net.Uri
+import android.os.Build
+import android.os.IBinder
+import android.os.RemoteException
+import com.bslsjdk.operit.util.AppLogger
+import android.widget.Toast
+import androidx.core.content.FileProvider
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.tools.system.AccessibilityProviderInstaller
+import com.ai.assistance.operit.provider.IAccessibilityProvider
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.suspendCancellableCoroutine
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeoutOrNull
+import org.xmlpull.v1.XmlPullParser
+import org.xmlpull.v1.XmlPullParserFactory
+import java.io.File
+import java.io.FileOutputStream
+import java.io.StringReader
+import kotlin.coroutines.resume
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+/**
+ * UI层次结构管理器
+ * 负责与独立的无障碍服务提供者App进行通信，获取UI层次结构。
+ */
+object UIHierarchyManager {
+    private const val TAG = "UIHierarchyManager"
+    private const val BIND_SERVICE_TIMEOUT_MS = 3000L // 3秒超时
+
+    // 新的无障碍服务提供者应用的包名
+    private const val PROVIDER_PACKAGE_NAME = "com.ai.assistance.operit.provider"
+    // 无障碍服务提供者APK的文件名
+    private const val PROVIDER_APK_NAME = "accessibility.apk"
+    // 用于绑定的自定义Action，必须与服务提供者应用中的声明一致
+    private const val PROVIDER_ACTION = "com.ai.assistance.operit.provider.IAccessibilityProvider"
+    // TODO: 如果你不在Google Play上发布，可以将其更改为直接下载的URL
+    private const val PROVIDER_MARKET_URL = "market://details?id=$PROVIDER_PACKAGE_NAME"
+
+    @Volatile
+    private var accessibilityProvider: IAccessibilityProvider? = null
+
+    private val _isBound = MutableStateFlow(false)
+    val isBound = _isBound.asStateFlow()
+
+    private val bindingMutex = Mutex()
+
+    @Volatile
+    private var connectionContinuation: ((Boolean) -> Unit)? = null
+
+    private val serviceConnection = object : ServiceConnection {
+        override fun onServiceConnected(name: ComponentName?, service: IBinder?) {
+            AppLogger.d(TAG, "无障碍服务提供者已连接")
+            accessibilityProvider = IAccessibilityProvider.Stub.asInterface(service)
+            _isBound.value = true
+            connectionContinuation?.invoke(true)
+            connectionContinuation = null
+        }
+
+        override fun onServiceDisconnected(name: ComponentName?) {
+            AppLogger.d(TAG, "无障碍服务提供者已断开")
+            accessibilityProvider = null
+            _isBound.value = false
+            connectionContinuation?.invoke(false)
+            connectionContinuation = null
+        }
+    }
+
+    /**
+     * 从应用内assets目录中提取无障碍服务提供者APK文件。
+     * @param context Context
+     * @return 提取出的APK文件，如果失败则返回null。
+     */
+    private fun extractProviderApkFromAssets(context: Context): File? {
+        return try {
+            val apkFile = File(context.cacheDir, PROVIDER_APK_NAME)
+            // 如果文件已存在且大小匹配，可以跳过提取，但为了简单起见，这里总是覆盖
+            context.assets.open(PROVIDER_APK_NAME).use { inputStream ->
+                FileOutputStream(apkFile).use { outputStream ->
+                    inputStream.copyTo(outputStream)
+                }
+            }
+            AppLogger.d(TAG, "无障碍服务APK已提取到: ${apkFile.absolutePath}")
+            apkFile
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "从assets提取无障碍服务APK失败", e)
+            null
+        }
+    }
+
+    /**
+     * 启动安装流程来安装提供者应用
+     */
+    fun launchProviderInstall(context: Context) {
+        GlobalScope.launch(Dispatchers.IO) {
+            val apkFile = extractProviderApkFromAssets(context)
+            if (apkFile == null) {
+                withContext(Dispatchers.Main) {
+                    Toast.makeText(
+                        context,
+                        context.getString(R.string.toast_apk_extract_failed),
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+                return@launch
+            }
+
+            val apkUri =
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    FileProvider.getUriForFile(
+                        context,
+                        "${context.packageName}.fileprovider",
+                        apkFile
+                    )
+                } else {
+                    Uri.fromFile(apkFile)
+                }
+
+            val installIntent = Intent(Intent.ACTION_VIEW).apply {
+                setDataAndType(apkUri, "application/vnd.android.package-archive")
+                flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                }
+            }
+
+            withContext(Dispatchers.Main) {
+                try {
+                    context.startActivity(installIntent)
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "启动安装界面失败", e)
+                    Toast.makeText(
+                        context,
+                        context.getString(R.string.toast_operation_failed, e.message ?: ""),
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+            }
+        }
+    }
+
+    /**
+     * 检查无障碍服务提供者是否需要更新
+     */
+    fun isUpdateNeeded(context: Context): Boolean {
+        return AccessibilityProviderInstaller.isUpdateNeeded(context)
+    }
+
+    /**
+     * 确保服务已绑定，如果未绑定则尝试自动重新绑定。
+     * @return a boolean indicating if the service is ready.
+     */
+    private suspend fun ensureBound(context: Context): Boolean {
+        if (!_isBound.value || accessibilityProvider == null) {
+            AppLogger.w(TAG, "服务未绑定或提供者为null，尝试自动重新绑定...")
+            val bound = bindToService(context)
+            if (!bound) {
+                AppLogger.e(TAG, "自动重新绑定失败")
+                return false
+            }
+        }
+        // A final check to protect against race conditions where the service disconnects
+        // right after the check or during the binding process.
+        return _isBound.value && accessibilityProvider != null
+    }
+
+    /**
+     * 检查无障碍服务提供者应用是否已安装
+     */
+    fun isProviderAppInstalled(context: Context): Boolean {
+        return try {
+            context.packageManager.getPackageInfo(PROVIDER_PACKAGE_NAME, 0)
+            true
+        } catch (e: PackageManager.NameNotFoundException) {
+            false
+        }
+    }
+
+    /**
+     * 绑定到外部无障碍服务。
+     * 这是一个挂起函数，它会等待服务连接成功或失败。
+     * @return a boolean indicating if the binding was successful.
+     */
+    suspend fun bindToService(context: Context): Boolean {
+        return bindingMutex.withLock {
+            AppLogger.d(TAG, "bindToService invoked. Thread: ${Thread.currentThread().name}, Context: ${context.javaClass.name}")
+
+            // 只有在已完全绑定（bound且provider不为空）或者应用未安装的情况下才直接返回
+            // 如果 _isBound 为 true 但 provider 为 null，则认为是状态不一致，需要重新绑定
+            if ((_isBound.value && accessibilityProvider != null) || !isProviderAppInstalled(context)) {
+                if (!_isBound.value) AppLogger.w(TAG, "无法绑定：服务已绑定或提供者应用未安装")
+                return@withLock _isBound.value
+            }
+
+            val implicitIntent = Intent(PROVIDER_ACTION).setPackage(PROVIDER_PACKAGE_NAME)
+            val resolveInfo: ResolveInfo? = context.packageManager.resolveService(implicitIntent, PackageManager.MATCH_ALL)
+
+            if (resolveInfo == null) {
+                AppLogger.e(TAG, "无法解析服务: $PROVIDER_ACTION. 请确认提供者应用已正确安装。")
+                return@withLock false
+            }
+
+            AppLogger.d(TAG, "服务解析成功: ${resolveInfo.serviceInfo.packageName}/${resolveInfo.serviceInfo.name}")
+
+            val explicitIntent = Intent(PROVIDER_ACTION).apply {
+                component = ComponentName(resolveInfo.serviceInfo.packageName, resolveInfo.serviceInfo.name)
+                addFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES)
+            }
+
+            val result = withTimeoutOrNull(BIND_SERVICE_TIMEOUT_MS) {
+                suspendCancellableCoroutine { continuation ->
+                    connectionContinuation = { success ->
+                        AppLogger.d(TAG, "connectionContinuation called with success=$success")
+                        if (continuation.isActive) {
+                            continuation.resume(success)
+                        }
+                    }
+                    try {
+                        AppLogger.d(TAG, "尝试使用 ApplicationContext 绑定...")
+                        var bound = context.applicationContext.bindService(explicitIntent, serviceConnection, Context.BIND_AUTO_CREATE)
+                        AppLogger.d(TAG, "ApplicationContext 绑定结果: $bound")
+
+                        if (!bound) {
+                            AppLogger.w(TAG, "ApplicationContext绑定失败，尝试使用原始Context (${context.javaClass.simpleName}) ...")
+                            bound = context.bindService(explicitIntent, serviceConnection, Context.BIND_AUTO_CREATE)
+                            AppLogger.d(TAG, "原始 Context 绑定结果: $bound")
+                        }
+
+                        if (!bound) {
+                            AppLogger.e(TAG, "bindService返回false，绑定失败。可能是权限问题或后台启动限制。")
+                            if (continuation.isActive) {
+                                continuation.resume(false)
+                            }
+                            connectionContinuation = null
+                        }
+                    } catch (e: SecurityException) {
+                        AppLogger.e(TAG, "绑定服务时出现安全异常", e)
+                        if (continuation.isActive) {
+                            continuation.resume(false)
+                        }
+                        connectionContinuation = null
+                    } catch (e: Exception) {
+                        AppLogger.e(TAG, "绑定服务时出现未知异常", e)
+                        if (continuation.isActive) {
+                            continuation.resume(false)
+                        }
+                        connectionContinuation = null
+                    }
+                }
+            }
+
+            if (result == null) {
+                AppLogger.e(TAG, "绑定服务超时 (${BIND_SERVICE_TIMEOUT_MS}ms). 无障碍服务提供者可能未响应或崩溃.")
+                connectionContinuation = null
+                _isBound.value = false
+                try {
+                    context.applicationContext.unbindService(serviceConnection)
+                } catch (e: Exception) {
+                    // Ignore
+                }
+                // 尝试解绑原始 context 以防万一
+                try {
+                    if (context != context.applicationContext) {
+                        context.unbindService(serviceConnection)
+                    }
+                } catch (e: Exception) {}
+                return@withLock false
+            }
+
+            AppLogger.d(TAG, "bindToService 成功完成")
+            result
+        }
+    }
+
+    /**
+     * 解绑服务
+     */
+    fun unbindFromService(context: Context) {
+        if (_isBound.value) {
+            try {
+                context.applicationContext.unbindService(serviceConnection)
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "解绑服务失败", e)
+            }
+            _isBound.value = false
+            accessibilityProvider = null
+            AppLogger.d(TAG, "服务已解绑")
+        }
+    }
+
+    /**
+     * 从外部服务获取UI层次结构。
+     * 如果服务未绑定，会尝试自动重新绑定一次。
+     */
+    suspend fun getUIHierarchy(context: Context): String {
+        if (!ensureBound(context)) {
+            AppLogger.e(TAG, "绑定失败，无法获取UI层次结构")
+            return ""
+        }
+        return try {
+            accessibilityProvider?.uiHierarchy ?: ""
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "从提供者获取UI层次结构失败", e)
+            // Consider re-binding or notifying the user
+            ""
+        }
+    }
+
+    /**
+     * 从UI层次结构的XML中解析出窗口信息（包名）。
+     * 活动名称现在通过 getCurrentActivityName() 函数单独获取。
+     * @param xmlHierarchy UI层次结构的XML字符串
+     * @return 一个Pair，第一个元素是包名，第二个是null（活动名称需单独获取）。
+     */
+    fun extractWindowInfo(xmlHierarchy: String): Pair<String?, String?> {
+        if (xmlHierarchy.isEmpty()) {
+            return Pair(null, null)
+        }
+        try {
+            val factory = XmlPullParserFactory.newInstance()
+            factory.isNamespaceAware = false
+            val parser = factory.newPullParser()
+            parser.setInput(StringReader(xmlHierarchy))
+
+            var eventType = parser.eventType
+            while (eventType != XmlPullParser.END_DOCUMENT) {
+                when (eventType) {
+                    XmlPullParser.START_TAG -> {
+                        if (parser.name == "node") {
+                            // 只获取根节点的包名，活动名称通过单独的函数获取
+                            val rootPackage = parser.getAttributeValue(null, "package")
+                            return Pair(rootPackage, null)
+                        }
+                    }
+                }
+                eventType = parser.next()
+            }
+            
+            return Pair(null, null)
+
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "解析窗口信息时出错", e)
+            return Pair(null, null)
+        }
+    }
+
+    /**
+     * 请求远程服务在指定坐标执行点击。
+     */
+    suspend fun performClick(context: Context, x: Int, y: Int): Boolean {
+        if (!ensureBound(context)) {
+            AppLogger.w(TAG, "绑定失败，无法执行点击")
+            return false
+        }
+        return try {
+            accessibilityProvider?.performClick(x, y) ?: false
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "请求点击操作失败", e)
+            false
+        }
+    }
+
+    suspend fun performLongPress(context: Context, x: Int, y: Int): Boolean {
+        if (!ensureBound(context)) {
+            AppLogger.w(TAG, "绑定失败，无法执行长按")
+            return false
+        }
+        return try {
+            accessibilityProvider?.performLongPress(x, y) ?: false
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "长按点击操作失败", e)
+            false
+        }
+    }
+
+    /**
+     * 请求远程服务执行滑动。
+     */
+    suspend fun performSwipe(context: Context, startX: Int, startY: Int, endX: Int, endY: Int, duration: Long): Boolean {
+        if (!ensureBound(context)) {
+            AppLogger.w(TAG, "绑定失败，无法执行滑动")
+                return false
+            }
+        return try {
+            accessibilityProvider?.performSwipe(startX, startY, endX, endY, duration) ?: false
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "请求滑动操作失败", e)
+            false
+        }
+    }
+
+    /**
+     * 请求远程服务执行全局操作。
+     */
+    suspend fun performGlobalAction(context: Context, actionId: Int): Boolean {
+        if (!ensureBound(context)) {
+            AppLogger.w(TAG, "绑定失败，无法执行全局操作")
+            return false
+        }
+        return try {
+            accessibilityProvider?.performGlobalAction(actionId) ?: false
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "请求全局操作失败", e)
+            false
+        }
+    }
+
+    /**
+     * 请求远程服务查找有焦点的节点的ID。
+     */
+    suspend fun findFocusedNodeId(context: Context): String? {
+        if (!ensureBound(context)) {
+            AppLogger.w(TAG, "绑定失败，无法查找焦点节点")
+            return null
+        }
+        return try {
+            accessibilityProvider?.findFocusedNodeId()
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "请求查找焦点节点ID失败", e)
+            null
+        }
+    }
+
+    /**
+     * 请求远程服务在指定ID的节点上设置文本。
+     */
+    suspend fun setTextOnNode(context: Context, nodeId: String, text: String): Boolean {
+        if (!ensureBound(context)) {
+            AppLogger.w(TAG, "绑定失败，无法设置文本")
+            return false
+        }
+        return try {
+            accessibilityProvider?.setTextOnNode(nodeId, text) ?: false
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "请求设置文本失败", e)
+            false
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "请求设置文本时远程服务发生异常", e)
+            false
+        }
+    }
+
+    /**
+     * 请求远程服务截取屏幕截图。
+     */
+    suspend fun takeScreenshot(context: Context, path: String, format: String): Boolean {
+        if (!ensureBound(context)) {
+            AppLogger.w(TAG, "绑定失败，无法截取屏幕截图")
+            return false
+        }
+        return try {
+            accessibilityProvider?.takeScreenshot(path, format) ?: false
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "请求截取屏幕截图失败", e)
+            false
+        }
+    }
+
+    /**
+     * 检查远程无障碍服务是否已在系统设置中启用。
+     */
+    suspend fun isAccessibilityServiceEnabled(context: Context): Boolean {
+        if (!ensureBound(context)) {
+            AppLogger.w(TAG, "绑定失败，无法检查无障碍服务状态")
+            return false
+        }
+        return try {
+            accessibilityProvider?.isAccessibilityServiceEnabled ?: false
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "检查无障碍服务状态失败", e)
+            false
+        }
+    }
+
+    /**
+     * 从远程服务获取当前Activity名称。
+     */
+    suspend fun getCurrentActivityName(context: Context): String? {
+        if (!ensureBound(context)) {
+            AppLogger.w(TAG, "绑定失败，无法获取Activity名称")
+            return null
+        }
+        return try {
+            accessibilityProvider?.currentActivityName
+        } catch (e: RemoteException) {
+            AppLogger.e(TAG, "从提供者获取Activity名称失败", e)
+            null
+        }
+    }
+}

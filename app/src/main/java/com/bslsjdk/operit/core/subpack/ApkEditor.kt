@@ -1,1 +1,299 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5zdWJwYWNrCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuQml0bWFwCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLkJpdG1hcEZhY3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFzc2V0Q29weVV0aWxzCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uSW5wdXRTdHJlYW0KCi8qKiBBUEvnvJbovpHlmaggLSDmj5Dkvpvpk77lvI/osIPnlKhBUEkg5pSv5oyB5L+u5pS55YyF5ZCN44CB5bqU55So5ZCN44CB5Zu+5qCH5ZKM6YeN5paw562+5ZCN562J5pON5L2cICovCmNsYXNzIEFwa0VkaXRvcgpwcml2YXRlIGNvbnN0cnVjdG9yKAogICAgICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgcHJpdmF0ZSB2YWwgYXBrRmlsZTogRmlsZSwKICAgICAgICBwcml2YXRlIHZhbCBhcGtSZXZlcnNlRW5naW5lZXI6IEFwa1JldmVyc2VFbmdpbmVlcgopIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJBcGtFZGl0b3IiCgogICAgICAgIC8qKgogICAgICAgICAqIOS7jui1hOS6p+aWh+S7tuWIm+W7ukFQS+e8lui+keWZqAogICAgICAgICAqIEBwYXJhbSBjb250ZXh0IOS4iuS4i+aWhwogICAgICAgICAqIEBwYXJhbSBhc3NldFBhdGgg6LWE5Lqn6Lev5b6ECiAgICAgICAgICogQHJldHVybiBBUEvnvJbovpHlmajlrp7kvosKICAgICAgICAgKi8KICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGZyb21Bc3NldChjb250ZXh0OiBDb250ZXh0LCBhc3NldFBhdGg6IFN0cmluZyk6IEFwa0VkaXRvciB7CiAgICAgICAgICAgIHZhbCBmaWxlTmFtZSA9IGFzc2V0UGF0aC5zdWJzdHJpbmdBZnRlckxhc3QoJy8nKQogICAgICAgICAgICB2YWwgb3V0cHV0RmlsZSA9IEZpbGUoY29udGV4dC5jYWNoZURpciwgImFwa19lZGl0b3JfJGZpbGVOYW1lIikKICAgICAgICAgICAgdmFsIGFwa0ZpbGUgPSBBc3NldENvcHlVdGlscy5jb3B5QXNzZXRUb0ZpbGUoY29udGV4dCwgYXNzZXRQYXRoLCBvdXRwdXRGaWxlLCBvdmVyd3JpdGUgPSB0cnVlKQogICAgICAgICAgICB2YWwgYXBrUmV2ZXJzZUVuZ2luZWVyID0gQXBrUmV2ZXJzZUVuZ2luZWVyKGNvbnRleHQpCiAgICAgICAgICAgIHJldHVybiBBcGtFZGl0b3IoY29udGV4dCwgYXBrRmlsZSwgYXBrUmV2ZXJzZUVuZ2luZWVyKQogICAgICAgIH0KCiAgICAgICAgLyoqCiAgICAgICAgICog5LuO5paH5Lu25Yib5bu6QVBL57yW6L6R5ZmoCiAgICAgICAgICogQHBhcmFtIGNvbnRleHQg5LiK5LiL5paHCiAgICAgICAgICogQHBhcmFtIGFwa0ZpbGUgQVBL5paH5Lu2CiAgICAgICAgICogQHJldHVybiBBUEvnvJbovpHlmajlrp7kvosKICAgICAgICAgKi8KICAgICAgICBASnZtU3RhdGljCiAgICAgICAgZnVuIGZyb21GaWxlKGNvbnRleHQ6IENvbnRleHQsIGFwa0ZpbGU6IEZpbGUpOiBBcGtFZGl0b3IgewogICAgICAgICAgICB2YWwgYXBrUmV2ZXJzZUVuZ2luZWVyID0gQXBrUmV2ZXJzZUVuZ2luZWVyKGNvbnRleHQpCiAgICAgICAgICAgIHJldHVybiBBcGtFZGl0b3IoY29udGV4dCwgYXBrRmlsZSwgYXBrUmV2ZXJzZUVuZ2luZWVyKQogICAgICAgIH0KCiAgICAgICAgLyoqCiAgICAgICAgICog5LuO5paH5Lu26Lev5b6E5Yib5bu6QVBL57yW6L6R5ZmoCiAgICAgICAgICogQHBhcmFtIGNvbnRleHQg5LiK5LiL5paHCiAgICAgICAgICogQHBhcmFtIGFwa0ZpbGVQYXRoIEFQS+aWh+S7tui3r+W+hAogICAgICAgICAqIEByZXR1cm4gQVBL57yW6L6R5Zmo5a6e5L6LCiAgICAgICAgICovCiAgICAgICAgQEp2bVN0YXRpYwogICAgICAgIGZ1biBmcm9tUGF0aChjb250ZXh0OiBDb250ZXh0LCBhcGtGaWxlUGF0aDogU3RyaW5nKTogQXBrRWRpdG9yIHsKICAgICAgICAgICAgdmFsIGFwa0ZpbGUgPSBGaWxlKGFwa0ZpbGVQYXRoKQogICAgICAgICAgICByZXR1cm4gZnJvbUZpbGUoY29udGV4dCwgYXBrRmlsZSkKICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOWkjeWItui1hOS6p+aWh+S7tuWIsOe8k+WtmOebruW9lQogICAgICAgICAqIEBwYXJhbSBjb250ZXh0IOS4iuS4i+aWhwogICAgICAgICAqIEBwYXJhbSBhc3NldFBhdGgg6LWE5Lqn6Lev5b6ECiAgICAgICAgICogQHJldHVybiDnvJPlrZjmlofku7YKICAgICAgICAgKi8KICAgIH0KCiAgICBwcml2YXRlIHZhciBuZXdQYWNrYWdlTmFtZTogU3RyaW5nPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIG5ld0FwcE5hbWU6IFN0cmluZz8gPSBudWxsCiAgICBwcml2YXRlIHZhciBuZXdWZXJzaW9uTmFtZTogU3RyaW5nPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIG5ld1ZlcnNpb25Db2RlOiBTdHJpbmc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgbmV3SWNvbkJpdG1hcDogQml0bWFwPyA9IG51bGwKCiAgICBwcml2YXRlIHZhciBrZXlTdG9yZUZpbGU6IEZpbGU/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIga2V5U3RvcmVQYXNzd29yZDogU3RyaW5nPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIGtleUFsaWFzOiBTdHJpbmc/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIga2V5UGFzc3dvcmQ6IFN0cmluZz8gPSBudWxsCgogICAgcHJpdmF0ZSB2YXIgb3V0cHV0RmlsZTogRmlsZT8gPSBudWxsCgogICAgLyoqCiAgICAgKiDkv67mlLnljIXlkI0KICAgICAqIEBwYXJhbSBwYWNrYWdlTmFtZSDmlrDljIXlkI0KICAgICAqIEByZXR1cm4g5b2T5YmNQVBL57yW6L6R5Zmo5a6e5L6LCiAgICAgKi8KICAgIGZ1biBjaGFuZ2VQYWNrYWdlTmFtZShwYWNrYWdlTmFtZTogU3RyaW5nKTogQXBrRWRpdG9yIHsKICAgICAgICB0aGlzLm5ld1BhY2thZ2VOYW1lID0gcGFja2FnZU5hbWUKICAgICAgICByZXR1cm4gdGhpcwogICAgfQoKICAgIC8qKgogICAgICog5L+u5pS55bqU55So5ZCN56ewCiAgICAgKiBAcGFyYW0gYXBwTmFtZSDmlrDlupTnlKjlkI3np7AKICAgICAqIEByZXR1cm4g5b2T5YmNQVBL57yW6L6R5Zmo5a6e5L6LCiAgICAgKi8KICAgIGZ1biBjaGFuZ2VBcHBOYW1lKGFwcE5hbWU6IFN0cmluZyk6IEFwa0VkaXRvciB7CiAgICAgICAgdGhpcy5uZXdBcHBOYW1lID0gYXBwTmFtZQogICAgICAgIHJldHVybiB0aGlzCiAgICB9CgogICAgLyoqCiAgICAgKiDkv67mlLnniYjmnKzlkI0KICAgICAqIEBwYXJhbSB2ZXJzaW9uTmFtZSDmlrDniYjmnKzlkI0KICAgICAqIEByZXR1cm4g5b2T5YmNQVBL57yW6L6R5Zmo5a6e5L6LCiAgICAgKi8KICAgIGZ1biBjaGFuZ2VWZXJzaW9uTmFtZSh2ZXJzaW9uTmFtZTogU3RyaW5nKTogQXBrRWRpdG9yIHsKICAgICAgICB0aGlzLm5ld1ZlcnNpb25OYW1lID0gdmVyc2lvbk5hbWUKICAgICAgICByZXR1cm4gdGhpcwogICAgfQoKICAgIC8qKgogICAgICog5L+u5pS554mI5pys5Y+3CiAgICAgKiBAcGFyYW0gdmVyc2lvbkNvZGUg5paw54mI5pys5Y+3CiAgICAgKiBAcmV0dXJuIOW9k+WJjUFQS+e8lui+keWZqOWunuS+iwogICAgICovCiAgICBmdW4gY2hhbmdlVmVyc2lvbkNvZGUodmVyc2lvbkNvZGU6IFN0cmluZyk6IEFwa0VkaXRvciB7CiAgICAgICAgdGhpcy5uZXdWZXJzaW9uQ29kZSA9IHZlcnNpb25Db2RlCiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KCiAgICAvKioKICAgICAqIOabtOaUueWbvuagh++8iOS7juS9jeWbvu+8iQogICAgICogQHBhcmFtIGljb25CaXRtYXAg5Zu+5qCH5L2N5Zu+CiAgICAgKiBAcmV0dXJuIOW9k+WJjUFQS+e8lui+keWZqOWunuS+iwogICAgICovCiAgICBmdW4gY2hhbmdlSWNvbihpY29uQml0bWFwOiBCaXRtYXApOiBBcGtFZGl0b3IgewogICAgICAgIHRoaXMubmV3SWNvbkJpdG1hcCA9IGljb25CaXRtYXAKICAgICAgICByZXR1cm4gdGhpcwogICAgfQoKICAgIC8qKgogICAgICog5pu05pS55Zu+5qCH77yI5LuO6L6T5YWl5rWB77yJCiAgICAgKiBAcGFyYW0gaWNvbklucHV0U3RyZWFtIOWbvuagh+i+k+WFpea1gQogICAgICogQHJldHVybiDlvZPliY1BUEvnvJbovpHlmajlrp7kvosKICAgICAqLwogICAgZnVuIGNoYW5nZUljb24oaWNvbklucHV0U3RyZWFtOiBJbnB1dFN0cmVhbSk6IEFwa0VkaXRvciB7CiAgICAgICAgdmFsIGJpdG1hcCA9IEJpdG1hcEZhY3RvcnkuZGVjb2RlU3RyZWFtKGljb25JbnB1dFN0cmVhbSkKICAgICAgICByZXR1cm4gY2hhbmdlSWNvbihiaXRtYXApCiAgICB9CgogICAgLyoqCiAgICAgKiDmm7TmlLnlm77moIfvvIjku47otYTkuqfmlofku7bvvIkKICAgICAqIEBwYXJhbSBpY29uQXNzZXRQYXRoIOWbvuagh+i1hOS6p+i3r+W+hAogICAgICogQHJldHVybiDlvZPliY1BUEvnvJbovpHlmajlrp7kvosKICAgICAqLwogICAgZnVuIGNoYW5nZUljb25Gcm9tQXNzZXQoaWNvbkFzc2V0UGF0aDogU3RyaW5nKTogQXBrRWRpdG9yIHsKICAgICAgICBjb250ZXh0LmFzc2V0cy5vcGVuKGljb25Bc3NldFBhdGgpLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgIHJldHVybiBjaGFuZ2VJY29uKGlucHV0KQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOiuvue9ruetvuWQjeS/oeaBrwogICAgICogQHBhcmFtIGtleVN0b3JlRmlsZSDlr4bpkqXlupPmlofku7YKICAgICAqIEBwYXJhbSBrZXlTdG9yZVBhc3N3b3JkIOWvhumSpeW6k+WvhueggQogICAgICogQHBhcmFtIGtleUFsaWFzIOWvhumSpeWIq+WQjQogICAgICogQHBhcmFtIGtleVBhc3N3b3JkIOWvhumSpeWvhueggQogICAgICogQHJldHVybiDlvZPliY1BUEvnvJbovpHlmajlrp7kvosKICAgICAqLwogICAgZnVuIHdpdGhTaWduYXR1cmUoCiAgICAgICAgICAgIGtleVN0b3JlRmlsZTogRmlsZSwKICAgICAgICAgICAga2V5U3RvcmVQYXNzd29yZDogU3RyaW5nLAogICAgICAgICAgICBrZXlBbGlhczogU3RyaW5nLAogICAgICAgICAgICBrZXlQYXNzd29yZDogU3RyaW5nCiAgICApOiBBcGtFZGl0b3IgewogICAgICAgIHRoaXMua2V5U3RvcmVGaWxlID0ga2V5U3RvcmVGaWxlCiAgICAgICAgdGhpcy5rZXlTdG9yZVBhc3N3b3JkID0ga2V5U3RvcmVQYXNzd29yZAogICAgICAgIHRoaXMua2V5QWxpYXMgPSBrZXlBbGlhcwogICAgICAgIHRoaXMua2V5UGFzc3dvcmQgPSBrZXlQYXNzd29yZAogICAgICAgIHJldHVybiB0aGlzCiAgICB9CgogICAgLyoqCiAgICAgKiDorr7nva7ovpPlh7rmlofku7YKICAgICAqIEBwYXJhbSBvdXRwdXRGaWxlIOi+k+WHuuaWh+S7tgogICAgICogQHJldHVybiDlvZPliY1BUEvnvJbovpHlmajlrp7kvosKICAgICAqLwogICAgZnVuIHNldE91dHB1dChvdXRwdXRGaWxlOiBGaWxlKTogQXBrRWRpdG9yIHsKICAgICAgICB0aGlzLm91dHB1dEZpbGUgPSBvdXRwdXRGaWxlCiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KCiAgICAvKioKICAgICAqIOiuvue9rui+k+WHuuaWh+S7tui3r+W+hAogICAgICogQHBhcmFtIG91dHB1dFBhdGgg6L6T5Ye65paH5Lu26Lev5b6ECiAgICAgKiBAcmV0dXJuIOW9k+WJjUFQS+e8lui+keWZqOWunuS+iwogICAgICovCiAgICBmdW4gc2V0T3V0cHV0KG91dHB1dFBhdGg6IFN0cmluZyk6IEFwa0VkaXRvciB7CiAgICAgICAgcmV0dXJuIHNldE91dHB1dChGaWxlKG91dHB1dFBhdGgpKQogICAgfQoKICAgIC8qKgogICAgICog5LuF5pu/5o2iV2Vi5YaF5a655bm25pu05paw5riF5Y2V5L+h5oGv55qE5b+r6YCf5omT5YyF77yI5LiN6JC95Zyw6Kej5Y6L77yJCiAgICAgKiBAcGFyYW0gd2ViQ29udGVudERpciDnvZHpobXlhoXlrrnnm67lvZUKICAgICAqIEByZXR1cm4g6YeN5paw5omT5YyF5ZCO55qEQVBL5paH5Lu277yI5pyq562+5ZCN77yJCiAgICAgKi8KICAgIGZ1biByZXBhY2tXaXRoV2ViQ29udGVudCh3ZWJDb250ZW50RGlyOiBGaWxlKTogRmlsZSB7CiAgICAgICAgaWYgKCF3ZWJDb250ZW50RGlyLmV4aXN0cygpIHx8ICF3ZWJDb250ZW50RGlyLmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigid2ViQ29udGVudERpciBpcyBtaXNzaW5nIG9yIG5vdCBhIGRpcmVjdG9yeTogJHt3ZWJDb250ZW50RGlyLmFic29sdXRlUGF0aH0iKQogICAgICAgIH0KCiAgICAgICAgdmFsIHVuc2lnbmVkT3V0cHV0RmlsZSA9CiAgICAgICAgICAgICAgICBpZiAob3V0cHV0RmlsZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgb3V0cHV0RmlsZSEhCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEZpbGUoY29udGV4dC5jYWNoZURpciwgInVuc2lnbmVkXyR7YXBrRmlsZS5uYW1lfSIpCiAgICAgICAgICAgICAgICB9CgogICAgICAgIGlmICghYXBrUmV2ZXJzZUVuZ2luZWVyLnJlcGFja2FnZUFwa1dpdGhXZWJDb250ZW50KAogICAgICAgICAgICAgICAgICAgICAgICBhcGtGaWxlLAogICAgICAgICAgICAgICAgICAgICAgICB1bnNpZ25lZE91dHB1dEZpbGUsCiAgICAgICAgICAgICAgICAgICAgICAgIHdlYkNvbnRlbnREaXIsCiAgICAgICAgICAgICAgICAgICAgICAgIG5ld1BhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBuZXdBcHBOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBuZXdWZXJzaW9uTmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgbmV3VmVyc2lvbkNvZGUsCiAgICAgICAgICAgICAgICAgICAgICAgIG5ld0ljb25CaXRtYXAKICAgICAgICAgICAgICAgICkKICAgICAgICApIHsKICAgICAgICAgICAgdGhyb3cgUnVudGltZUV4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hcGtfZWRpdG9yX3JlcGFja19mYWlsZWQpKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHVuc2lnbmVkT3V0cHV0RmlsZQogICAgfQoKICAgIC8qKgogICAgICog5LuF5pu/5o2iV2Vi5YaF5a655bm25pu05paw5riF5Y2V5L+h5oGv5ZCO6YeN5paw5omT5YyF5bm2562+5ZCNQVBLCiAgICAgKiBAcGFyYW0gd2ViQ29udGVudERpciDnvZHpobXlhoXlrrnnm67lvZUKICAgICAqIEByZXR1cm4g562+5ZCN5ZCO55qEQVBL5paH5Lu2CiAgICAgKi8KICAgIGZ1biByZXBhY2tBbmRTaWduV2l0aFdlYkNvbnRlbnQod2ViQ29udGVudERpcjogRmlsZSk6IEZpbGUgewogICAgICAgIHZhbCB1bnNpZ25lZEFwayA9IHJlcGFja1dpdGhXZWJDb250ZW50KHdlYkNvbnRlbnREaXIpCgogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuacquetvuWQjUFQS+eUn+aIkOaIkOWKnzogJHt1bnNpZ25lZEFway5hYnNvbHV0ZVBhdGh9LCDmlofku7blpKflsI86ICR7dW5zaWduZWRBcGsubGVuZ3RoKCl9IikKCiAgICAgICAgaWYgKCF1bnNpZ25lZEFway5leGlzdHMoKSB8fCB1bnNpZ25lZEFway5sZW5ndGgoKSA9PSAwTCkgewogICAgICAgICAgICB0aHJvdyBSdW50aW1lRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFwa19lZGl0b3JfdW5zaWduZWRfYXBrX25vdF9mb3VuZCwgdW5zaWduZWRBcGsuYWJzb2x1dGVQYXRoKSkKICAgICAgICB9CgogICAgICAgIGlmIChrZXlTdG9yZUZpbGUgPT0gbnVsbCB8fAogICAgICAgICAgICAgICAgICAgICAgICBrZXlTdG9yZVBhc3N3b3JkID09IG51bGwgfHwKICAgICAgICAgICAgICAgICAgICAgICAga2V5QWxpYXMgPT0gbnVsbCB8fAogICAgICAgICAgICAgICAgICAgICAgICBrZXlQYXNzd29yZCA9PSBudWxsCiAgICAgICAgKSB7CiAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hcGtfZWRpdG9yX3NpZ25hdHVyZV9pbmNvbXBsZXRlKSkKICAgICAgICB9CgogICAgICAgIHZhbCBzaWduZWRPdXRwdXRGaWxlID0gaWYgKG91dHB1dEZpbGUgIT0gbnVsbCkgewogICAgICAgICAgICBGaWxlKHVuc2lnbmVkQXBrLnBhcmVudEZpbGUsICJ0b19zaWduXyR7U3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCl9XyR7dW5zaWduZWRBcGsubmFtZX0iKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIEZpbGUoY29udGV4dC5jYWNoZURpciwgInNpZ25lZF8ke2Fwa0ZpbGUubmFtZX0iKQogICAgICAgIH0KCiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5byA5aeL562+5ZCNQVBL77yM6L6T5YWlOiAke3Vuc2lnbmVkQXBrLmFic29sdXRlUGF0aH0sIOi+k+WHujogJHtzaWduZWRPdXRwdXRGaWxlLmFic29sdXRlUGF0aH0iKQoKICAgICAgICB2YWwgc2lnblJlc3VsdCA9IGFwa1JldmVyc2VFbmdpbmVlci5zaWduQXBrKAogICAgICAgICAgICAgICAgdW5zaWduZWRBcGssCiAgICAgICAgICAgICAgICBrZXlTdG9yZUZpbGUhISwKICAgICAgICAgICAgICAgIGtleVN0b3JlUGFzc3dvcmQhISwKICAgICAgICAgICAgICAgIGtleUFsaWFzISEsCiAgICAgICAgICAgICAgICBrZXlQYXNzd29yZCEhLAogICAgICAgICAgICAgICAgc2lnbmVkT3V0cHV0RmlsZQogICAgICAgICkKCiAgICAgICAgaWYgKCFzaWduUmVzdWx0LmZpcnN0KSB7CiAgICAgICAgICAgIHZhbCBlcnJvck1lc3NhZ2UgPSBzaWduUmVzdWx0LnNlY29uZCA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hcGtfZWRpdG9yX3Vua25vd25fc2lnbl9lcnJvcikKICAgICAgICAgICAgdGhyb3cgUnVudGltZUV4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hcGtfZWRpdG9yX3NpZ25fZmFpbGVkLCBlcnJvck1lc3NhZ2UpKQogICAgICAgIH0KCiAgICAgICAgdmFsIGZpbmFsT3V0cHV0RmlsZSA9IGlmIChvdXRwdXRGaWxlICE9IG51bGwgJiYgc2lnbmVkT3V0cHV0RmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICBvdXRwdXRGaWxlISEucGFyZW50RmlsZT8ubWtkaXJzKCkKCiAgICAgICAgICAgIGlmIChvdXRwdXRGaWxlISEuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIG91dHB1dEZpbGUhIS5kZWxldGUoKQogICAgICAgICAgICB9CgogICAgICAgICAgICBzaWduZWRPdXRwdXRGaWxlLmlucHV0U3RyZWFtKCkudXNlIHsgaW5wdXQgLT4KICAgICAgICAgICAgICAgIG91dHB1dEZpbGUhIS5vdXRwdXRTdHJlYW0oKS51c2UgeyBvdXRwdXQgLT4gaW5wdXQuY29weVRvKG91dHB1dCkgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBzaWduZWRPdXRwdXRGaWxlLmRlbGV0ZSgpCgogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlt7LlsIbnrb7lkI3lkI7nmoRBUEvku47kuLTml7bmlofku7blpI3liLbliLDmjIflrprovpPlh7rkvY3nva46ICR7b3V0cHV0RmlsZSEhLmFic29sdXRlUGF0aH0iKQogICAgICAgICAgICBvdXRwdXRGaWxlISEKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzaWduZWRPdXRwdXRGaWxlCiAgICAgICAgfQoKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJBUEvnrb7lkI3lrozmiJA6ICR7ZmluYWxPdXRwdXRGaWxlLmFic29sdXRlUGF0aH0sIOaWh+S7tuWkp+WwjzogJHtmaW5hbE91dHB1dEZpbGUubGVuZ3RoKCl95a2X6IqCIikKICAgICAgICByZXR1cm4gZmluYWxPdXRwdXRGaWxlCiAgICB9CgogICAgLyoqIOa4heeQhuS4tOaXtuaWh+S7tiAqLwogICAgZnVuIGNsZWFudXAoKSB7CiAgICAgICAgbmV3SWNvbkJpdG1hcD8ucmVjeWNsZSgpCiAgICAgICAgbmV3SWNvbkJpdG1hcCA9IG51bGwKICAgIH0KfQo=
+package com.bslsjdk.operit.core.subpack
+
+import android.content.Context
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.AssetCopyUtils
+import java.io.File
+import java.io.InputStream
+
+/** APK编辑器 - 提供链式调用API 支持修改包名、应用名、图标和重新签名等操作 */
+class ApkEditor
+private constructor(
+        private val context: Context,
+        private val apkFile: File,
+        private val apkReverseEngineer: ApkReverseEngineer
+) {
+    companion object {
+        private const val TAG = "ApkEditor"
+
+        /**
+         * 从资产文件创建APK编辑器
+         * @param context 上下文
+         * @param assetPath 资产路径
+         * @return APK编辑器实例
+         */
+        @JvmStatic
+        fun fromAsset(context: Context, assetPath: String): ApkEditor {
+            val fileName = assetPath.substringAfterLast('/')
+            val outputFile = File(context.cacheDir, "apk_editor_$fileName")
+            val apkFile = AssetCopyUtils.copyAssetToFile(context, assetPath, outputFile, overwrite = true)
+            val apkReverseEngineer = ApkReverseEngineer(context)
+            return ApkEditor(context, apkFile, apkReverseEngineer)
+        }
+
+        /**
+         * 从文件创建APK编辑器
+         * @param context 上下文
+         * @param apkFile APK文件
+         * @return APK编辑器实例
+         */
+        @JvmStatic
+        fun fromFile(context: Context, apkFile: File): ApkEditor {
+            val apkReverseEngineer = ApkReverseEngineer(context)
+            return ApkEditor(context, apkFile, apkReverseEngineer)
+        }
+
+        /**
+         * 从文件路径创建APK编辑器
+         * @param context 上下文
+         * @param apkFilePath APK文件路径
+         * @return APK编辑器实例
+         */
+        @JvmStatic
+        fun fromPath(context: Context, apkFilePath: String): ApkEditor {
+            val apkFile = File(apkFilePath)
+            return fromFile(context, apkFile)
+        }
+
+        /**
+         * 复制资产文件到缓存目录
+         * @param context 上下文
+         * @param assetPath 资产路径
+         * @return 缓存文件
+         */
+    }
+
+    private var newPackageName: String? = null
+    private var newAppName: String? = null
+    private var newVersionName: String? = null
+    private var newVersionCode: String? = null
+    private var newIconBitmap: Bitmap? = null
+
+    private var keyStoreFile: File? = null
+    private var keyStorePassword: String? = null
+    private var keyAlias: String? = null
+    private var keyPassword: String? = null
+
+    private var outputFile: File? = null
+
+    /**
+     * 修改包名
+     * @param packageName 新包名
+     * @return 当前APK编辑器实例
+     */
+    fun changePackageName(packageName: String): ApkEditor {
+        this.newPackageName = packageName
+        return this
+    }
+
+    /**
+     * 修改应用名称
+     * @param appName 新应用名称
+     * @return 当前APK编辑器实例
+     */
+    fun changeAppName(appName: String): ApkEditor {
+        this.newAppName = appName
+        return this
+    }
+
+    /**
+     * 修改版本名
+     * @param versionName 新版本名
+     * @return 当前APK编辑器实例
+     */
+    fun changeVersionName(versionName: String): ApkEditor {
+        this.newVersionName = versionName
+        return this
+    }
+
+    /**
+     * 修改版本号
+     * @param versionCode 新版本号
+     * @return 当前APK编辑器实例
+     */
+    fun changeVersionCode(versionCode: String): ApkEditor {
+        this.newVersionCode = versionCode
+        return this
+    }
+
+    /**
+     * 更改图标（从位图）
+     * @param iconBitmap 图标位图
+     * @return 当前APK编辑器实例
+     */
+    fun changeIcon(iconBitmap: Bitmap): ApkEditor {
+        this.newIconBitmap = iconBitmap
+        return this
+    }
+
+    /**
+     * 更改图标（从输入流）
+     * @param iconInputStream 图标输入流
+     * @return 当前APK编辑器实例
+     */
+    fun changeIcon(iconInputStream: InputStream): ApkEditor {
+        val bitmap = BitmapFactory.decodeStream(iconInputStream)
+        return changeIcon(bitmap)
+    }
+
+    /**
+     * 更改图标（从资产文件）
+     * @param iconAssetPath 图标资产路径
+     * @return 当前APK编辑器实例
+     */
+    fun changeIconFromAsset(iconAssetPath: String): ApkEditor {
+        context.assets.open(iconAssetPath).use { input ->
+            return changeIcon(input)
+        }
+    }
+
+    /**
+     * 设置签名信息
+     * @param keyStoreFile 密钥库文件
+     * @param keyStorePassword 密钥库密码
+     * @param keyAlias 密钥别名
+     * @param keyPassword 密钥密码
+     * @return 当前APK编辑器实例
+     */
+    fun withSignature(
+            keyStoreFile: File,
+            keyStorePassword: String,
+            keyAlias: String,
+            keyPassword: String
+    ): ApkEditor {
+        this.keyStoreFile = keyStoreFile
+        this.keyStorePassword = keyStorePassword
+        this.keyAlias = keyAlias
+        this.keyPassword = keyPassword
+        return this
+    }
+
+    /**
+     * 设置输出文件
+     * @param outputFile 输出文件
+     * @return 当前APK编辑器实例
+     */
+    fun setOutput(outputFile: File): ApkEditor {
+        this.outputFile = outputFile
+        return this
+    }
+
+    /**
+     * 设置输出文件路径
+     * @param outputPath 输出文件路径
+     * @return 当前APK编辑器实例
+     */
+    fun setOutput(outputPath: String): ApkEditor {
+        return setOutput(File(outputPath))
+    }
+
+    /**
+     * 仅替换Web内容并更新清单信息的快速打包（不落地解压）
+     * @param webContentDir 网页内容目录
+     * @return 重新打包后的APK文件（未签名）
+     */
+    fun repackWithWebContent(webContentDir: File): File {
+        if (!webContentDir.exists() || !webContentDir.isDirectory) {
+            throw IllegalArgumentException("webContentDir is missing or not a directory: ${webContentDir.absolutePath}")
+        }
+
+        val unsignedOutputFile =
+                if (outputFile != null) {
+                    outputFile!!
+                } else {
+                    File(context.cacheDir, "unsigned_${apkFile.name}")
+                }
+
+        if (!apkReverseEngineer.repackageApkWithWebContent(
+                        apkFile,
+                        unsignedOutputFile,
+                        webContentDir,
+                        newPackageName,
+                        newAppName,
+                        newVersionName,
+                        newVersionCode,
+                        newIconBitmap
+                )
+        ) {
+            throw RuntimeException(context.getString(R.string.apk_editor_repack_failed))
+        }
+
+        return unsignedOutputFile
+    }
+
+    /**
+     * 仅替换Web内容并更新清单信息后重新打包并签名APK
+     * @param webContentDir 网页内容目录
+     * @return 签名后的APK文件
+     */
+    fun repackAndSignWithWebContent(webContentDir: File): File {
+        val unsignedApk = repackWithWebContent(webContentDir)
+
+        AppLogger.d(TAG, "未签名APK生成成功: ${unsignedApk.absolutePath}, 文件大小: ${unsignedApk.length()}")
+
+        if (!unsignedApk.exists() || unsignedApk.length() == 0L) {
+            throw RuntimeException(context.getString(R.string.apk_editor_unsigned_apk_not_found, unsignedApk.absolutePath))
+        }
+
+        if (keyStoreFile == null ||
+                        keyStorePassword == null ||
+                        keyAlias == null ||
+                        keyPassword == null
+        ) {
+            throw IllegalStateException(context.getString(R.string.apk_editor_signature_incomplete))
+        }
+
+        val signedOutputFile = if (outputFile != null) {
+            File(unsignedApk.parentFile, "to_sign_${System.currentTimeMillis()}_${unsignedApk.name}")
+        } else {
+            File(context.cacheDir, "signed_${apkFile.name}")
+        }
+
+        AppLogger.d(TAG, "开始签名APK，输入: ${unsignedApk.absolutePath}, 输出: ${signedOutputFile.absolutePath}")
+
+        val signResult = apkReverseEngineer.signApk(
+                unsignedApk,
+                keyStoreFile!!,
+                keyStorePassword!!,
+                keyAlias!!,
+                keyPassword!!,
+                signedOutputFile
+        )
+
+        if (!signResult.first) {
+            val errorMessage = signResult.second ?: context.getString(R.string.apk_editor_unknown_sign_error)
+            throw RuntimeException(context.getString(R.string.apk_editor_sign_failed, errorMessage))
+        }
+
+        val finalOutputFile = if (outputFile != null && signedOutputFile.exists()) {
+            outputFile!!.parentFile?.mkdirs()
+
+            if (outputFile!!.exists()) {
+                outputFile!!.delete()
+            }
+
+            signedOutputFile.inputStream().use { input ->
+                outputFile!!.outputStream().use { output -> input.copyTo(output) }
+            }
+
+            signedOutputFile.delete()
+
+            AppLogger.d(TAG, "已将签名后的APK从临时文件复制到指定输出位置: ${outputFile!!.absolutePath}")
+            outputFile!!
+        } else {
+            signedOutputFile
+        }
+
+        AppLogger.d(TAG, "APK签名完成: ${finalOutputFile.absolutePath}, 文件大小: ${finalOutputFile.length()}字节")
+        return finalOutputFile
+    }
+
+    /** 清理临时文件 */
+    fun cleanup() {
+        newIconBitmap?.recycle()
+        newIconBitmap = null
+    }
+}

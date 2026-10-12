@@ -1,1 +1,42 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBqYXZhLnV0aWwuQXJyYXlEZXF1ZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy5NdXRleAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMud2l0aExvY2sKCmNsYXNzIFNsaWRpbmdXaW5kb3dSYXRlTGltaXRlcigKICAgIHZhbCBtYXhSZXF1ZXN0c1Blck1pbnV0ZTogSW50LAogICAgcHJpdmF0ZSB2YWwgd2luZG93TXM6IExvbmcgPSA2MF8wMDBMCikgewogICAgcHJpdmF0ZSB2YWwgbXV0ZXggPSBNdXRleCgpCiAgICBwcml2YXRlIHZhbCB0aW1lc3RhbXBzID0gQXJyYXlEZXF1ZTxMb25nPigpCgogICAgc3VzcGVuZCBmdW4gdHJ5QWNxdWlyZShub3dNczogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKTogTG9uZyB7CiAgICAgICAgaWYgKG1heFJlcXVlc3RzUGVyTWludXRlIDw9IDApIHJldHVybiAwTAoKICAgICAgICByZXR1cm4gbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB3aGlsZSAodGltZXN0YW1wcy5pc05vdEVtcHR5KCkgJiYgbm93TXMgLSB0aW1lc3RhbXBzLmZpcnN0KCkgPj0gd2luZG93TXMpIHsKICAgICAgICAgICAgICAgIHRpbWVzdGFtcHMucmVtb3ZlRmlyc3QoKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAodGltZXN0YW1wcy5zaXplID49IG1heFJlcXVlc3RzUGVyTWludXRlKSB7CiAgICAgICAgICAgICAgICB2YWwgb2xkZXN0ID0gdGltZXN0YW1wcy5maXJzdCgpCiAgICAgICAgICAgICAgICAod2luZG93TXMgLSAobm93TXMgLSBvbGRlc3QpKS5jb2VyY2VBdExlYXN0KDFMKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgdGltZXN0YW1wcy5hZGRMYXN0KG5vd01zKQogICAgICAgICAgICAgICAgMEwKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBhY3F1aXJlKCkgewogICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgIHZhbCByZXRyeUFmdGVyTXMgPSB0cnlBY3F1aXJlKCkKICAgICAgICAgICAgaWYgKHJldHJ5QWZ0ZXJNcyA8PSAwTCkgewogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGVsYXkocmV0cnlBZnRlck1zKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import java.util.ArrayDeque
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+class SlidingWindowRateLimiter(
+    val maxRequestsPerMinute: Int,
+    private val windowMs: Long = 60_000L
+) {
+    private val mutex = Mutex()
+    private val timestamps = ArrayDeque<Long>()
+
+    suspend fun tryAcquire(nowMs: Long = System.currentTimeMillis()): Long {
+        if (maxRequestsPerMinute <= 0) return 0L
+
+        return mutex.withLock {
+            while (timestamps.isNotEmpty() && nowMs - timestamps.first() >= windowMs) {
+                timestamps.removeFirst()
+            }
+
+            if (timestamps.size >= maxRequestsPerMinute) {
+                val oldest = timestamps.first()
+                (windowMs - (nowMs - oldest)).coerceAtLeast(1L)
+            } else {
+                timestamps.addLast(nowMs)
+                0L
+            }
+        }
+    }
+
+    suspend fun acquire() {
+        while (true) {
+            val retryAfterMs = tryAcquire()
+            if (retryAfterMs <= 0L) {
+                return
+            }
+            delay(retryAfterMs)
+        }
+    }
+}

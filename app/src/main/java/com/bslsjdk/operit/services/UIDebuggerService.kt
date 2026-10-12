@@ -1,1 +1,139 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMKCmltcG9ydCBhbmRyb2lkLmFwcC5Ob3RpZmljYXRpb24KaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbkNoYW5uZWwKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbk1hbmFnZXIKaW1wb3J0IGFuZHJvaWQuYXBwLlNlcnZpY2UKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkLm9zLklCaW5kZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZHguY29yZS5hcHAuTm90aWZpY2F0aW9uQ29tcGF0CmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWxTdG9yZU93bmVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnNlcnZpY2VzLmZsb2F0aW5nLlVJRGVidWdnZXJXaW5kb3dNYW5hZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbXBvbmVudE5hbWUKaW1wb3J0IGFuZHJvaWQuY29udGVudC5TZXJ2aWNlQ29ubmVjdGlvbgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbFByb3ZpZGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnVpZGVidWdnZXIuVUlEZWJ1Z2dlclZpZXdNb2RlbAoKLyoqCiAqIEEgc2VydmljZSBmb3IgbWFuYWdpbmcgdGhlIFVJIERlYnVnZ2VyIGZsb2F0aW5nIHdpbmRvdy4KICoKICogVGhpcyBzZXJ2aWNlIGFsbG93cyB0aGUgVUkgZGVidWdnZXIgdG8gYmUgZGlzcGxheWVkIGFzIGEgZmxvYXRpbmcgd2luZG93IG92ZXIgb3RoZXIgYXBwcywKICogcHJvdmlkaW5nIHRvb2xzIHRvIGluc3BlY3QgYW5kIGRlYnVnIHRoZSBVSSBoaWVyYXJjaHkgb24gdGhlIHNjcmVlbi4KICovCmNsYXNzIFVJRGVidWdnZXJTZXJ2aWNlIDogU2VydmljZSgpLCBWaWV3TW9kZWxTdG9yZU93bmVyIHsKICAgIHByaXZhdGUgdmFsIFRBRyA9ICJVSURlYnVnZ2VyU2VydmljZSIKICAgIHByaXZhdGUgbGF0ZWluaXQgdmFyIHdpbmRvd01hbmFnZXI6IFVJRGVidWdnZXJXaW5kb3dNYW5hZ2VyCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciBsaWZlY3ljbGVPd25lcjogU2VydmljZUxpZmVjeWNsZU93bmVyCiAgICBvdmVycmlkZSB2YWwgdmlld01vZGVsU3RvcmUgPSBWaWV3TW9kZWxTdG9yZSgpCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciB2aWV3TW9kZWw6IFVJRGVidWdnZXJWaWV3TW9kZWwKCiAgICBwcml2YXRlIHZhciBmbG9hdGluZ0NoYXRTZXJ2aWNlOiBGbG9hdGluZ0NoYXRTZXJ2aWNlPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIGlzQm91bmQgPSBmYWxzZQoKICAgIHByaXZhdGUgdmFsIGNvbm5lY3Rpb24gPSBvYmplY3QgOiBTZXJ2aWNlQ29ubmVjdGlvbiB7CiAgICAgICAgb3ZlcnJpZGUgZnVuIG9uU2VydmljZUNvbm5lY3RlZChjbGFzc05hbWU6IENvbXBvbmVudE5hbWUsIHNlcnZpY2U6IElCaW5kZXIpIHsKICAgICAgICAgICAgdmFsIGJpbmRlciA9IHNlcnZpY2UgYXMgRmxvYXRpbmdDaGF0U2VydmljZS5Mb2NhbEJpbmRlcgogICAgICAgICAgICB2YWwgY2hhdFNlcnZpY2UgPSBiaW5kZXIuZ2V0U2VydmljZSgpCiAgICAgICAgICAgIGZsb2F0aW5nQ2hhdFNlcnZpY2UgPSBjaGF0U2VydmljZQogICAgICAgICAgICBpc0JvdW5kID0gdHJ1ZQogICAgICAgICAgICB2aWV3TW9kZWwuc2V0V2luZG93SW50ZXJhY3Rpb25Db250cm9sbGVyIHsgdmlzaWJsZSAtPgogICAgICAgICAgICAgICAgLy8g5o6n5Yi25oKs5rWu56qX55qE5Y+v6KeB5oCn77yM5LuO6ICM5o6n5Yi25YW25Y+v5Lqk5LqS5oCnCiAgICAgICAgICAgICAgICBjaGF0U2VydmljZS5zZXRGbG9hdGluZ1dpbmRvd1Zpc2libGUodmlzaWJsZSkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgb3ZlcnJpZGUgZnVuIG9uU2VydmljZURpc2Nvbm5lY3RlZChhcmcwOiBDb21wb25lbnROYW1lKSB7CiAgICAgICAgICAgIGlzQm91bmQgPSBmYWxzZQogICAgICAgICAgICBmbG9hdGluZ0NoYXRTZXJ2aWNlID0gbnVsbAogICAgICAgICAgICB2aWV3TW9kZWwuc2V0V2luZG93SW50ZXJhY3Rpb25Db250cm9sbGVyKG51bGwpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIE5PVElGSUNBVElPTl9JRCA9IDEzMzcKICAgIHByaXZhdGUgdmFsIENIQU5ORUxfSUQgPSAiVUlEZWJ1Z2dlckNoYW5uZWwiCgogICAgb3ZlcnJpZGUgZnVuIG9uQmluZChpbnRlbnQ6IEludGVudD8pOiBJQmluZGVyPyA9IG51bGwKCiAgICBvdmVycmlkZSBmdW4gb25DcmVhdGUoKSB7CiAgICAgICAgc3VwZXIub25DcmVhdGUoKQogICAgICAgIGxpZmVjeWNsZU93bmVyID0gU2VydmljZUxpZmVjeWNsZU93bmVyKCkKICAgICAgICBsaWZlY3ljbGVPd25lci5oYW5kbGVMaWZlY3ljbGVFdmVudChhbmRyb2lkeC5saWZlY3ljbGUuTGlmZWN5Y2xlLkV2ZW50Lk9OX0NSRUFURSkKICAgICAgICAKICAgICAgICAvLyBJbml0aWFsaXplIFZpZXdNb2RlbCAtIHVzZSBzaW5nbGV0b24gaW5zdGFuY2UgdG8gc2hhcmUgc3RhdGUgd2l0aCBtYWluIGFwcAogICAgICAgIHZpZXdNb2RlbCA9IFVJRGVidWdnZXJWaWV3TW9kZWwuZ2V0SW5zdGFuY2UoKQoKICAgICAgICB3aW5kb3dNYW5hZ2VyID0gVUlEZWJ1Z2dlcldpbmRvd01hbmFnZXIodGhpcywgdGhpcywgbGlmZWN5Y2xlT3duZXIpCiAgICAgICAgY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbCgpCgogICAgICAgIC8vIEJpbmQgdG8gRmxvYXRpbmdDaGF0U2VydmljZQogICAgICAgIEludGVudCh0aGlzLCBGbG9hdGluZ0NoYXRTZXJ2aWNlOjpjbGFzcy5qYXZhKS5hbHNvIHsgaW50ZW50IC0+CiAgICAgICAgICAgIGJpbmRTZXJ2aWNlKGludGVudCwgY29ubmVjdGlvbiwgQ29udGV4dC5CSU5EX0FVVE9fQ1JFQVRFKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25TdGFydENvbW1hbmQoaW50ZW50OiBJbnRlbnQ/LCBmbGFnczogSW50LCBzdGFydElkOiBJbnQpOiBJbnQgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlVJIERlYnVnZ2VyIHNlcnZpY2Ugc3RhcnRlZCIpCiAgICAgICAgdmFsIG5vdGlmaWNhdGlvbiA9IGNyZWF0ZU5vdGlmaWNhdGlvbigpCiAgICAgICAgc3RhcnRGb3JlZ3JvdW5kKE5PVElGSUNBVElPTl9JRCwgbm90aWZpY2F0aW9uKQogICAgICAgIGxpZmVjeWNsZU93bmVyLmhhbmRsZUxpZmVjeWNsZUV2ZW50KGFuZHJvaWR4LmxpZmVjeWNsZS5MaWZlY3ljbGUuRXZlbnQuT05fU1RBUlQpCiAgICAgICAgaXNTZXJ2aWNlUnVubmluZy52YWx1ZSA9IHRydWUKICAgICAgICB3aW5kb3dNYW5hZ2VyLnNob3coKQogICAgICAgIHJldHVybiBTVEFSVF9OT1RfU1RJQ0tZCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uRGVzdHJveSgpIHsKICAgICAgICBzdXBlci5vbkRlc3Ryb3koKQogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlVJIERlYnVnZ2VyIHNlcnZpY2Ugc3RvcHBlZCIpCiAgICAgICAgbGlmZWN5Y2xlT3duZXIuaGFuZGxlTGlmZWN5Y2xlRXZlbnQoYW5kcm9pZHgubGlmZWN5Y2xlLkxpZmVjeWNsZS5FdmVudC5PTl9ERVNUUk9ZKQogICAgICAgIGlzU2VydmljZVJ1bm5pbmcudmFsdWUgPSBmYWxzZQogICAgICAgIHdpbmRvd01hbmFnZXIucmVtb3ZlKCkKICAgICAgICB2aWV3TW9kZWxTdG9yZS5jbGVhcigpCiAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk4pIHsKICAgICAgICAgICAgQFN1cHByZXNzKCJERVBSRUNBVElPTiIpCiAgICAgICAgICAgIHN0b3BGb3JlZ3JvdW5kKFNlcnZpY2UuU1RPUF9GT1JFR1JPVU5EX1JFTU9WRSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBAU3VwcHJlc3MoIkRFUFJFQ0FUSU9OIikKICAgICAgICAgICAgc3RvcEZvcmVncm91bmQodHJ1ZSkKICAgICAgICB9CgogICAgICAgIC8vIFVuYmluZCBmcm9tIEZsb2F0aW5nQ2hhdFNlcnZpY2UKICAgICAgICBpZiAoaXNCb3VuZCkgewogICAgICAgICAgICB1bmJpbmRTZXJ2aWNlKGNvbm5lY3Rpb24pCiAgICAgICAgICAgIGlzQm91bmQgPSBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBjcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKCkgewogICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5PKSB7CiAgICAgICAgICAgIHZhbCBuYW1lID0gIlVJIERlYnVnZ2VyIFNlcnZpY2UiCiAgICAgICAgICAgIHZhbCBkZXNjcmlwdGlvblRleHQgPSAiRGlzcGxheXMgYSBmbG9hdGluZyBvdmVybGF5IGZvciBVSSBkZWJ1Z2dpbmciCiAgICAgICAgICAgIHZhbCBpbXBvcnRhbmNlID0gTm90aWZpY2F0aW9uTWFuYWdlci5JTVBPUlRBTkNFX0xPVwogICAgICAgICAgICB2YWwgY2hhbm5lbCA9IE5vdGlmaWNhdGlvbkNoYW5uZWwoQ0hBTk5FTF9JRCwgbmFtZSwgaW1wb3J0YW5jZSkuYXBwbHkgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBkZXNjcmlwdGlvblRleHQKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgbm90aWZpY2F0aW9uTWFuYWdlcjogTm90aWZpY2F0aW9uTWFuYWdlciA9CiAgICAgICAgICAgICAgICBnZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuTk9USUZJQ0FUSU9OX1NFUlZJQ0UpIGFzIE5vdGlmaWNhdGlvbk1hbmFnZXIKICAgICAgICAgICAgbm90aWZpY2F0aW9uTWFuYWdlci5jcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKGNoYW5uZWwpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNyZWF0ZU5vdGlmaWNhdGlvbigpOiBOb3RpZmljYXRpb24gewogICAgICAgIHJldHVybiBOb3RpZmljYXRpb25Db21wYXQuQnVpbGRlcih0aGlzLCBDSEFOTkVMX0lEKQogICAgICAgICAgICAuc2V0Q29udGVudFRpdGxlKCJVSSBEZWJ1Z2dlciBBY3RpdmUiKQogICAgICAgICAgICAuc2V0Q29udGVudFRleHQoIlRhcCB0byBtYW5hZ2UgdGhlIFVJIGRlYnVnZ2VyIG92ZXJsYXkuIikKICAgICAgICAgICAgLnNldFNtYWxsSWNvbihSLmRyYXdhYmxlLmljX2xhdW5jaGVyX3NpbXBsZV9mb3JlZ3JvdW5kKQogICAgICAgICAgICAuc2V0UHJpb3JpdHkoTm90aWZpY2F0aW9uQ29tcGF0LlBSSU9SSVRZX0xPVykKICAgICAgICAgICAgLmJ1aWxkKCkKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICB2YWwgaXNTZXJ2aWNlUnVubmluZyA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICB9Cn0gCg==
+package com.bslsjdk.operit.services
+
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.Service
+import android.content.Context
+import android.content.Intent
+import android.os.Build
+import android.os.IBinder
+import com.bslsjdk.operit.util.AppLogger
+import androidx.core.app.NotificationCompat
+import androidx.lifecycle.ViewModelStore
+import androidx.lifecycle.ViewModelStoreOwner
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.services.floating.UIDebuggerWindowManager
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import android.content.ComponentName
+import android.content.ServiceConnection
+import androidx.lifecycle.ViewModelProvider
+import com.bslsjdk.operit.ui.features.toolbox.screens.uidebugger.UIDebuggerViewModel
+
+/**
+ * A service for managing the UI Debugger floating window.
+ *
+ * This service allows the UI debugger to be displayed as a floating window over other apps,
+ * providing tools to inspect and debug the UI hierarchy on the screen.
+ */
+class UIDebuggerService : Service(), ViewModelStoreOwner {
+    private val TAG = "UIDebuggerService"
+    private lateinit var windowManager: UIDebuggerWindowManager
+    private lateinit var lifecycleOwner: ServiceLifecycleOwner
+    override val viewModelStore = ViewModelStore()
+    private lateinit var viewModel: UIDebuggerViewModel
+
+    private var floatingChatService: FloatingChatService? = null
+    private var isBound = false
+
+    private val connection = object : ServiceConnection {
+        override fun onServiceConnected(className: ComponentName, service: IBinder) {
+            val binder = service as FloatingChatService.LocalBinder
+            val chatService = binder.getService()
+            floatingChatService = chatService
+            isBound = true
+            viewModel.setWindowInteractionController { visible ->
+                // 控制悬浮窗的可见性，从而控制其可交互性
+                chatService.setFloatingWindowVisible(visible)
+            }
+        }
+
+        override fun onServiceDisconnected(arg0: ComponentName) {
+            isBound = false
+            floatingChatService = null
+            viewModel.setWindowInteractionController(null)
+        }
+    }
+
+    private val NOTIFICATION_ID = 1337
+    private val CHANNEL_ID = "UIDebuggerChannel"
+
+    override fun onBind(intent: Intent?): IBinder? = null
+
+    override fun onCreate() {
+        super.onCreate()
+        lifecycleOwner = ServiceLifecycleOwner()
+        lifecycleOwner.handleLifecycleEvent(androidx.lifecycle.Lifecycle.Event.ON_CREATE)
+        
+        // Initialize ViewModel - use singleton instance to share state with main app
+        viewModel = UIDebuggerViewModel.getInstance()
+
+        windowManager = UIDebuggerWindowManager(this, this, lifecycleOwner)
+        createNotificationChannel()
+
+        // Bind to FloatingChatService
+        Intent(this, FloatingChatService::class.java).also { intent ->
+            bindService(intent, connection, Context.BIND_AUTO_CREATE)
+        }
+    }
+
+    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        AppLogger.d(TAG, "UI Debugger service started")
+        val notification = createNotification()
+        startForeground(NOTIFICATION_ID, notification)
+        lifecycleOwner.handleLifecycleEvent(androidx.lifecycle.Lifecycle.Event.ON_START)
+        isServiceRunning.value = true
+        windowManager.show()
+        return START_NOT_STICKY
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        AppLogger.d(TAG, "UI Debugger service stopped")
+        lifecycleOwner.handleLifecycleEvent(androidx.lifecycle.Lifecycle.Event.ON_DESTROY)
+        isServiceRunning.value = false
+        windowManager.remove()
+        viewModelStore.clear()
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            @Suppress("DEPRECATION")
+            stopForeground(Service.STOP_FOREGROUND_REMOVE)
+        } else {
+            @Suppress("DEPRECATION")
+            stopForeground(true)
+        }
+
+        // Unbind from FloatingChatService
+        if (isBound) {
+            unbindService(connection)
+            isBound = false
+        }
+    }
+
+    private fun createNotificationChannel() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val name = "UI Debugger Service"
+            val descriptionText = "Displays a floating overlay for UI debugging"
+            val importance = NotificationManager.IMPORTANCE_LOW
+            val channel = NotificationChannel(CHANNEL_ID, name, importance).apply {
+                description = descriptionText
+            }
+            val notificationManager: NotificationManager =
+                getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+            notificationManager.createNotificationChannel(channel)
+        }
+    }
+
+    private fun createNotification(): Notification {
+        return NotificationCompat.Builder(this, CHANNEL_ID)
+            .setContentTitle("UI Debugger Active")
+            .setContentText("Tap to manage the UI debugger overlay.")
+            .setSmallIcon(R.drawable.ic_launcher_simple_foreground)
+            .setPriority(NotificationCompat.PRIORITY_LOW)
+            .build()
+    }
+
+    companion object {
+        val isServiceRunning = MutableStateFlow(false)
+    }
+} 

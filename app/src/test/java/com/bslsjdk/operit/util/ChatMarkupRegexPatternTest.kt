@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDaGF0TWFya3VwUmVnZXhQYXR0ZXJuVGVzdCB7CgogICAgQFRlc3QgZnVuIG5hbWVQYXR0ZXJuX2V4dHJhY3RzVG9vbE5hbWUoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJydW4iLCBDaGF0TWFya3VwUmVnZXgubmFtZVBhdHRlcm4uZmluZCgiPHRvb2wgbmFtZT1cInJ1blwiPiIpISEuZ3JvdXBWYWx1ZXNbMV0pCiAgICB9CgogICAgQFRlc3QgZnVuIHRvb2xQYXJhbVBhdHRlcm5fZXh0cmFjdHNQYXJhbU5hbWVBbmRCb2R5KCkgewogICAgICAgIHZhbCBtYXRjaCA9IENoYXRNYXJrdXBSZWdleC50b29sUGFyYW1QYXR0ZXJuLmZpbmQoIjxwYXJhbSBuYW1lPVwicGF0aFwiPi90bXA8L3BhcmFtPiIpISEKICAgICAgICBhc3NlcnRFcXVhbHMoInBhdGgiLCBtYXRjaC5ncm91cFZhbHVlc1sxXSkKICAgICAgICBhc3NlcnRFcXVhbHMoIi90bXAiLCBtYXRjaC5ncm91cFZhbHVlc1syXSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYW55WG1sVGFnX21hdGNoZXNTaW1wbGVUYWcoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0TWFya3VwUmVnZXguYW55WG1sVGFnLmNvbnRhaW5zTWF0Y2hJbigiPGhlbGxvPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBwcnVuZVRvb2xSZXN1bHRDb250ZW50UGF0dGVybl9tYXRjaGVzU3RhdHVzUGF5bG9hZCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC5wcnVuZVRvb2xSZXN1bHRDb250ZW50UGF0dGVybi5jb250YWluc01hdGNoSW4oIjx0b29sX3Jlc3VsdCBzdGF0dXM9XCJva1wiPmJvZHk8L3Rvb2xfcmVzdWx0PiIpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMarkupRegexPatternTest {
+
+    @Test fun namePattern_extractsToolName() {
+        assertEquals("run", ChatMarkupRegex.namePattern.find("<tool name=\"run\">")!!.groupValues[1])
+    }
+
+    @Test fun toolParamPattern_extractsParamNameAndBody() {
+        val match = ChatMarkupRegex.toolParamPattern.find("<param name=\"path\">/tmp</param>")!!
+        assertEquals("path", match.groupValues[1])
+        assertEquals("/tmp", match.groupValues[2])
+    }
+
+    @Test fun anyXmlTag_matchesSimpleTag() {
+        assertTrue(ChatMarkupRegex.anyXmlTag.containsMatchIn("<hello>"))
+    }
+
+    @Test fun pruneToolResultContentPattern_matchesStatusPayload() {
+        assertTrue(ChatMarkupRegex.pruneToolResultContentPattern.containsMatchIn("<tool_result status=\"ok\">body</tool_result>"))
+    }
+}

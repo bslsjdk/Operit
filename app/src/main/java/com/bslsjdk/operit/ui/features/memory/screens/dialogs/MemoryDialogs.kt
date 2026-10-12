@@ -1,1 +1,251 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMubWVtb3J5LnNjcmVlbnMuZGlhbG9ncwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkV4cGVyaW1lbnRhbExheW91dEFwaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5GbG93Um93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5pbWVQYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucmVtZW1iZXJTY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnZlcnRpY2FsU2Nyb2xsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5CdXR0b25EZWZhdWx0cwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuSG9yaXpvbnRhbERpdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk91dGxpbmVkQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5PdXRsaW5lZFRleHRGaWVsZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5NZW1vcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5tZW1vcnkuc2NyZWVucy5ncmFwaC5tb2RlbC5FZGdlCmltcG9ydCBqYXZhLnRleHQuU2ltcGxlRGF0ZUZvcm1hdAppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKQE9wdEluKEV4cGVyaW1lbnRhbExheW91dEFwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmZ1biBNZW1vcnlJbmZvRGlhbG9nKAogICAgICAgIG1lbW9yeTogTWVtb3J5LAogICAgICAgIG9uRGlzbWlzczogKCkgLT4gVW5pdCwKICAgICAgICBvbkVkaXQ6ICgpIC0+IFVuaXQsCiAgICAgICAgb25EZWxldGU6ICgpIC0+IFVuaXQKKSB7CiAgICB2YWwgc2Nyb2xsU3RhdGUgPSByZW1lbWJlclNjcm9sbFN0YXRlKCkKICAgIHZhbCBkYXRlRm9ybWF0ID0gcmVtZW1iZXIgeyBTaW1wbGVEYXRlRm9ybWF0KCJ5eXl5LU1NLWRkIEhIOm1tOnNzIiwgTG9jYWxlLmdldERlZmF1bHQoKSkgfQoKICAgIEFsZXJ0RGlhbG9nKAogICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzLAogICAgICAgICAgICB0aXRsZSA9IHsgVGV4dCh0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2RldGFpbHNfdGl0bGUpKSB9LAogICAgICAgICAgICB0ZXh0ID0gewogICAgICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnZlcnRpY2FsU2Nyb2xsKHNjcm9sbFN0YXRlKSwKICAgICAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBUZXh0KCIke3N0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV90aXRsZSl9OiAke21lbW9yeS50aXRsZX0iLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bSkKICAgICAgICAgICAgICAgICAgICBIb3Jpem9udGFsRGl2aWRlcigpCiAgICAgICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfY29udGVudCkgKyAiOiIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlU21hbGwpCiAgICAgICAgICAgICAgICAgICAgVGV4dChtZW1vcnkuY29udGVudCkKICAgICAgICAgICAgICAgICAgICBIb3Jpem9udGFsRGl2aWRlcigpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgiJHtzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfZm9sZGVyKX06ICR7bWVtb3J5LmZvbGRlclBhdGg/LmlmRW1wdHkgeyBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfdW5jYXRlZ29yaXplZCkgfX0iLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgiJHtzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfdXVpZCl9OiAke21lbW9yeS51dWlkfSIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCkKICAgICAgICAgICAgICAgICAgICBUZXh0KCIke3N0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9zb3VyY2UpfTogJHttZW1vcnkuc291cmNlfSIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCkKICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIiR7c3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2ltcG9ydGFuY2UpfTogJHtTdHJpbmcuZm9ybWF0KCIlLjJmIiwgbWVtb3J5LmltcG9ydGFuY2UpfSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICIke3N0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jcmVkaWJpbGl0eSl9OiAke1N0cmluZy5mb3JtYXQoIiUuMmYiLCBtZW1vcnkuY3JlZGliaWxpdHkpfSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICIke3N0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jcmVhdGVkX2F0KX06ICR7ZGF0ZUZvcm1hdC5mb3JtYXQobWVtb3J5LmNyZWF0ZWRBdCl9IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIiR7c3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X3VwZGF0ZWRfYXQpfTogJHtkYXRlRm9ybWF0LmZvcm1hdChtZW1vcnkudXBkYXRlZEF0KX0iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICAgICAgRmxvd1JvdygKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCwgQWxpZ25tZW50LkVuZCksCiAgICAgICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5DZW50ZXIKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIEJ1dHRvbihvbkNsaWNrID0gb25FZGl0KSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2VkaXQpKSB9CiAgICAgICAgICAgICAgICAgICAgQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IG9uRGVsZXRlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3JzID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQnV0dG9uRGVmYXVsdHMuYnV0dG9uQ29sb3JzKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2RlbGV0ZSkpIH0KICAgICAgICAgICAgICAgICAgICBPdXRsaW5lZEJ1dHRvbihvbkNsaWNrID0gb25EaXNtaXNzKSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2Nsb3NlKSkgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICApCn0KCkBPcHRJbihFeHBlcmltZW50YWxMYXlvdXRBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gRWRnZUluZm9EaWFsb2coCiAgICBlZGdlOiBFZGdlLAogICAgZ3JhcGg6IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5tZW1vcnkuc2NyZWVucy5ncmFwaC5tb2RlbC5HcmFwaCwKICAgIG9uRGlzbWlzczogKCkgLT4gVW5pdCwKICAgIG9uRWRpdDogKCkgLT4gVW5pdCwKICAgIG9uRGVsZXRlOiAoKSAtPiBVbml0CikgewogICAgdmFsIHNvdXJjZU5vZGUgPSBncmFwaC5ub2Rlcy5maW5kIHsgaXQuaWQgPT0gZWRnZS5zb3VyY2VJZCB9CiAgICB2YWwgdGFyZ2V0Tm9kZSA9IGdyYXBoLm5vZGVzLmZpbmQgeyBpdC5pZCA9PSBlZGdlLnRhcmdldElkIH0KCiAgICBBbGVydERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzLAogICAgICAgIHRpdGxlID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9saW5rX2RldGFpbHMpKSB9LAogICAgICAgIHRleHQgPSB7CiAgICAgICAgICAgIENvbHVtbih2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkpIHsKICAgICAgICAgICAgICAgIFRleHQoIiR7c3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2Zyb20pfTogJHtzb3VyY2VOb2RlPy5sYWJlbCA/OiBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfdW5jYXRlZ29yaXplZCl9IikKICAgICAgICAgICAgICAgIFRleHQoIiR7c3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X3RvKX06ICR7dGFyZ2V0Tm9kZT8ubGFiZWwgPzogc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X3VuY2F0ZWdvcml6ZWQpfSIpCiAgICAgICAgICAgICAgICBIb3Jpem9udGFsRGl2aWRlcigpCiAgICAgICAgICAgICAgICBUZXh0KCIke3N0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV90eXBlKX06ICR7ZWRnZS5sYWJlbH0iKQogICAgICAgICAgICAgICAgVGV4dCgiJHtzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfd2VpZ2h0KX06ICR7ZWRnZS53ZWlnaHR9IikKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgRmxvd1JvdygKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwLCBBbGlnbm1lbnQuRW5kKSwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5DZW50ZXIKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBCdXR0b24ob25DbGljayA9IG9uRWRpdCkgeyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9lZGl0KSkgfQogICAgICAgICAgICAgICAgQnV0dG9uKAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkRlbGV0ZSwKICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBCdXR0b25EZWZhdWx0cy5idXR0b25Db2xvcnMoY29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yKQogICAgICAgICAgICAgICAgKSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2RlbGV0ZSkpIH0KICAgICAgICAgICAgICAgIE91dGxpbmVkQnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3MpIHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfY2xvc2UpKSB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApCn0KCkBDb21wb3NhYmxlCmZ1biBFZGl0RWRnZURpYWxvZygKICAgIGVkZ2U6IEVkZ2UsCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQsCiAgICBvblNhdmU6ICh0eXBlOiBTdHJpbmcsIHdlaWdodDogRmxvYXQsIGRlc2NyaXB0aW9uOiBTdHJpbmcpIC0+IFVuaXQKKSB7CiAgICB2YXIgdHlwZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGVkZ2UubGFiZWwgPzogInJlbGF0ZWQiKSB9CiAgICB2YXIgd2VpZ2h0IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZWRnZS53ZWlnaHQudG9TdHJpbmcoKSkgfQogICAgdmFyIGRlc2NyaXB0aW9uIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0gLy8g5YGH6K6+6ZyA6KaB57yW6L6RZGVzY3JpcHRpb24KCiAgICBBbGVydERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzLAogICAgICAgIHRpdGxlID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9lZGl0X2xpbmspKSB9LAogICAgICAgIHRleHQgPSB7CiAgICAgICAgICAgIENvbHVtbih2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkpIHsKICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKHZhbHVlID0gdHlwZSwgb25WYWx1ZUNoYW5nZSA9IHsgdHlwZSA9IGl0IH0sIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV90eXBlKSkgfSkKICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKHZhbHVlID0gd2VpZ2h0LCBvblZhbHVlQ2hhbmdlID0geyB3ZWlnaHQgPSBpdCB9LCBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfd2VpZ2h0KSkgfSkKICAgICAgICAgICAgICAgIE91dGxpbmVkVGV4dEZpZWxkKHZhbHVlID0gZGVzY3JpcHRpb24sIG9uVmFsdWVDaGFuZ2UgPSB7IGRlc2NyaXB0aW9uID0gaXQgfSwgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2Rlc2NyaXB0aW9uKSkgfSkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgQnV0dG9uKG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICBvblNhdmUodHlwZSwgd2VpZ2h0LnRvRmxvYXRPck51bGwoKSA/OiAxLjBmLCBkZXNjcmlwdGlvbikKICAgICAgICAgICAgfSkgeyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9zYXZlKSkgfQogICAgICAgIH0sCiAgICAgICAgZGlzbWlzc0J1dHRvbiA9IHsgT3V0bGluZWRCdXR0b24ob25DbGljayA9IG9uRGlzbWlzcykgeyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jYW5jZWwpKSB9IH0KICAgICkKfQoKQENvbXBvc2FibGUKZnVuIExpbmtNZW1vcnlEaWFsb2coCiAgICBzb3VyY2VOb2RlTGFiZWw6IFN0cmluZywKICAgIHRhcmdldE5vZGVMYWJlbDogU3RyaW5nLAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0LAogICAgb25MaW5rOiAodHlwZTogU3RyaW5nLCB3ZWlnaHQ6IEZsb2F0LCBkZXNjcmlwdGlvbjogU3RyaW5nKSAtPiBVbml0CikgewogICAgdmFyIHR5cGUgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigicmVsYXRlZCIpIH0KICAgIHZhciB3ZWlnaHQgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigiMS4wIikgfQogICAgdmFyIGRlc2NyaXB0aW9uIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0KICAgIEFsZXJ0RGlhbG9nKAogICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MsCiAgICAgICAgdGl0bGUgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2xpbmtfbm9kZXMsIHNvdXJjZU5vZGVMYWJlbCwgdGFyZ2V0Tm9kZUxhYmVsKSkgfSwKICAgICAgICB0ZXh0ID0gewogICAgICAgICAgICBDb2x1bW4odmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApKSB7CiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHR5cGUsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgdHlwZSA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X3R5cGUpKSB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHdlaWdodCwKICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyB3ZWlnaHQgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV93ZWlnaHQpKSB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IGRlc2NyaXB0aW9uLAogICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IGRlc2NyaXB0aW9uID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfZGVzY3JpcHRpb24pKSB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGNvbmZpcm1CdXR0b24gPSB7CiAgICAgICAgICAgIEJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHcgPSB3ZWlnaHQudG9GbG9hdE9yTnVsbCgpID86IDEuMGYKICAgICAgICAgICAgICAgICAgICBvbkxpbmsodHlwZSwgdywgZGVzY3JpcHRpb24pCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkgeyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jcmVhdGVfbGluaykpIH0KICAgICAgICB9LAogICAgICAgIGRpc21pc3NCdXR0b24gPSB7IE91dGxpbmVkQnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3MpIHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfY2FuY2VsKSkgfSB9CiAgICApCn0KCkBDb21wb3NhYmxlCmZ1biBCYXRjaERlbGV0ZUNvbmZpcm1EaWFsb2coCiAgICBzZWxlY3RlZENvdW50OiBJbnQsCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQsCiAgICBvbkNvbmZpcm06ICgpIC0+IFVuaXQKKSB7CiAgICBBbGVydERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzLAogICAgICAgIHRpdGxlID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNvbmZpcm1fZGVsZXRlKSkgfSwKICAgICAgICB0ZXh0ID0gewogICAgICAgICAgICBDb2x1bW4odmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfZGVsZXRlX2NvbmZpcm1hdGlvbiwgc2VsZWN0ZWRDb3VudCksCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keUxhcmdlCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfZGVsZXRlX3dhcm5pbmcpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGNvbmZpcm1CdXR0b24gPSB7CiAgICAgICAgICAgIEJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkNvbmZpcm0sCiAgICAgICAgICAgICAgICBjb2xvcnMgPSBCdXR0b25EZWZhdWx0cy5idXR0b25Db2xvcnMoCiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5jb25maXJtX2RlbGV0ZSkpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgIE91dGxpbmVkQnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3MpIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY2FuY2VsKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkKfSA=
+package com.bslsjdk.operit.ui.features.memory.screens.dialogs
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.Memory
+import com.bslsjdk.operit.ui.features.memory.screens.graph.model.Edge
+import java.text.SimpleDateFormat
+import java.util.Locale
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+fun MemoryInfoDialog(
+        memory: Memory,
+        onDismiss: () -> Unit,
+        onEdit: () -> Unit,
+        onDelete: () -> Unit
+) {
+    val scrollState = rememberScrollState()
+    val dateFormat = remember { SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()) }
+
+    AlertDialog(
+            onDismissRequest = onDismiss,
+            title = { Text(text = stringResource(R.string.memory_details_title)) },
+            text = {
+                Column(
+                        modifier = Modifier.verticalScroll(scrollState),
+                        verticalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    Text("${stringResource(R.string.memory_title)}: ${memory.title}", style = MaterialTheme.typography.titleMedium)
+                    HorizontalDivider()
+                    Text(stringResource(R.string.memory_content) + ":", style = MaterialTheme.typography.titleSmall)
+                    Text(memory.content)
+                    HorizontalDivider()
+                    Text("${stringResource(R.string.memory_folder)}: ${memory.folderPath?.ifEmpty { stringResource(R.string.memory_uncategorized) }}", style = MaterialTheme.typography.bodySmall)
+                    Text("${stringResource(R.string.memory_uuid)}: ${memory.uuid}", style = MaterialTheme.typography.bodySmall)
+                    Text("${stringResource(R.string.memory_source)}: ${memory.source}", style = MaterialTheme.typography.bodySmall)
+                    Text(
+                            "${stringResource(R.string.memory_importance)}: ${String.format("%.2f", memory.importance)}",
+                            style = MaterialTheme.typography.bodySmall
+                    )
+                    Text(
+                            "${stringResource(R.string.memory_credibility)}: ${String.format("%.2f", memory.credibility)}",
+                            style = MaterialTheme.typography.bodySmall
+                    )
+                    Text(
+                            "${stringResource(R.string.memory_created_at)}: ${dateFormat.format(memory.createdAt)}",
+                            style = MaterialTheme.typography.bodySmall
+                    )
+                    Text(
+                            "${stringResource(R.string.memory_updated_at)}: ${dateFormat.format(memory.updatedAt)}",
+                            style = MaterialTheme.typography.bodySmall
+                    )
+                }
+            },
+            confirmButton = {
+                FlowRow(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End),
+                        verticalArrangement = Arrangement.Center
+                ) {
+                    Button(onClick = onEdit) { Text(stringResource(R.string.memory_edit)) }
+                    Button(
+                            onClick = onDelete,
+                            colors =
+                                    ButtonDefaults.buttonColors(
+                                            containerColor = MaterialTheme.colorScheme.error
+                                    )
+                    ) { Text(stringResource(R.string.memory_delete)) }
+                    OutlinedButton(onClick = onDismiss) { Text(stringResource(R.string.memory_close)) }
+                }
+            }
+    )
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+fun EdgeInfoDialog(
+    edge: Edge,
+    graph: com.bslsjdk.operit.ui.features.memory.screens.graph.model.Graph,
+    onDismiss: () -> Unit,
+    onEdit: () -> Unit,
+    onDelete: () -> Unit
+) {
+    val sourceNode = graph.nodes.find { it.id == edge.sourceId }
+    val targetNode = graph.nodes.find { it.id == edge.targetId }
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.memory_link_details)) },
+        text = {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("${stringResource(R.string.memory_from)}: ${sourceNode?.label ?: stringResource(R.string.memory_uncategorized)}")
+                Text("${stringResource(R.string.memory_to)}: ${targetNode?.label ?: stringResource(R.string.memory_uncategorized)}")
+                HorizontalDivider()
+                Text("${stringResource(R.string.memory_type)}: ${edge.label}")
+                Text("${stringResource(R.string.memory_weight)}: ${edge.weight}")
+            }
+        },
+        confirmButton = {
+            FlowRow(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End),
+                verticalArrangement = Arrangement.Center
+            ) {
+                Button(onClick = onEdit) { Text(stringResource(R.string.memory_edit)) }
+                Button(
+                    onClick = onDelete,
+                    colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.error)
+                ) { Text(stringResource(R.string.memory_delete)) }
+                OutlinedButton(onClick = onDismiss) { Text(stringResource(R.string.memory_close)) }
+            }
+        }
+    )
+}
+
+@Composable
+fun EditEdgeDialog(
+    edge: Edge,
+    onDismiss: () -> Unit,
+    onSave: (type: String, weight: Float, description: String) -> Unit
+) {
+    var type by remember { mutableStateOf(edge.label ?: "related") }
+    var weight by remember { mutableStateOf(edge.weight.toString()) }
+    var description by remember { mutableStateOf("") } // 假设需要编辑description
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.memory_edit_link)) },
+        text = {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                OutlinedTextField(value = type, onValueChange = { type = it }, label = { Text(stringResource(R.string.memory_type)) })
+                OutlinedTextField(value = weight, onValueChange = { weight = it }, label = { Text(stringResource(R.string.memory_weight)) })
+                OutlinedTextField(value = description, onValueChange = { description = it }, label = { Text(stringResource(R.string.memory_description)) })
+            }
+        },
+        confirmButton = {
+            Button(onClick = {
+                onSave(type, weight.toFloatOrNull() ?: 1.0f, description)
+            }) { Text(stringResource(R.string.memory_save)) }
+        },
+        dismissButton = { OutlinedButton(onClick = onDismiss) { Text(stringResource(R.string.memory_cancel)) } }
+    )
+}
+
+@Composable
+fun LinkMemoryDialog(
+    sourceNodeLabel: String,
+    targetNodeLabel: String,
+    onDismiss: () -> Unit,
+    onLink: (type: String, weight: Float, description: String) -> Unit
+) {
+    var type by remember { mutableStateOf("related") }
+    var weight by remember { mutableStateOf("1.0") }
+    var description by remember { mutableStateOf("") }
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.memory_link_nodes, sourceNodeLabel, targetNodeLabel)) },
+        text = {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                OutlinedTextField(
+                    value = type,
+                    onValueChange = { type = it },
+                    label = { Text(stringResource(R.string.memory_type)) }
+                )
+                OutlinedTextField(
+                    value = weight,
+                    onValueChange = { weight = it },
+                    label = { Text(stringResource(R.string.memory_weight)) }
+                )
+                OutlinedTextField(
+                    value = description,
+                    onValueChange = { description = it },
+                    label = { Text(stringResource(R.string.memory_description)) }
+                )
+            }
+        },
+        confirmButton = {
+            Button(
+                onClick = {
+                    val w = weight.toFloatOrNull() ?: 1.0f
+                    onLink(type, w, description)
+                }
+            ) { Text(stringResource(R.string.memory_create_link)) }
+        },
+        dismissButton = { OutlinedButton(onClick = onDismiss) { Text(stringResource(R.string.memory_cancel)) } }
+    )
+}
+
+@Composable
+fun BatchDeleteConfirmDialog(
+    selectedCount: Int,
+    onDismiss: () -> Unit,
+    onConfirm: () -> Unit
+) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.confirm_delete)) },
+        text = {
+            Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text(
+                    text = stringResource(R.string.memory_delete_confirmation, selectedCount),
+                    style = MaterialTheme.typography.bodyLarge
+                )
+                Text(
+                    text = stringResource(R.string.memory_delete_warning),
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.error
+                )
+            }
+        },
+        confirmButton = {
+            Button(
+                onClick = onConfirm,
+                colors = ButtonDefaults.buttonColors(
+                    containerColor = MaterialTheme.colorScheme.error
+                )
+            ) {
+                Text(stringResource(R.string.confirm_delete))
+            }
+        },
+        dismissButton = {
+            OutlinedButton(onClick = onDismiss) {
+                Text(stringResource(R.string.cancel))
+            }
+        }
+    )
+} 

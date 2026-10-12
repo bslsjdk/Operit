@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIE1lZGlhTGlua1BhcnNlclJlcGxhY2VtZW50VGVzdCB7CgogICAgQFRlc3QgZnVuIHJlcGxhY2VNZWRpYUxpbmtzX2tlZXBzU3Vycm91bmRpbmdUZXh0KCkgewogICAgICAgIHZhbCBpbnB1dCA9ICJhPGxpbmsgdHlwZT1cImF1ZGlvXCIgaWQ9XCJhMVwiPkE8L2xpbms+YiIKICAgICAgICBhc3NlcnRFcXVhbHMoImFbYXVkaW86YTFdYiIsIE1lZGlhTGlua1BhcnNlci5yZXBsYWNlTWVkaWFMaW5rcyhpbnB1dCkgeyB0eXBlLCBpZCAtPiAiWyR0eXBlOiRpZF0iIH0pCiAgICB9CgogICAgQFRlc3QgZnVuIHJlcGxhY2VJbWFnZUxpbmtzX3JlcGxhY2VzTXVsdGlwbGVEaWZmZXJlbnRJZHMoKSB7CiAgICAgICAgdmFsIGlucHV0ID0gIjxsaW5rIHR5cGU9XCJpbWFnZVwiIGlkPVwiaTFcIj5JPC9saW5rPjxsaW5rIHR5cGU9XCJpbWFnZVwiIGlkPVwiaTJcIj5JPC9saW5rPiIKICAgICAgICBhc3NlcnRFcXVhbHMoIltpMV1baTJdIiwgTWVkaWFMaW5rUGFyc2VyLnJlcGxhY2VJbWFnZUxpbmtzKGlucHV0KSB7IGlkIC0+ICJbJGlkXSIgfSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class MediaLinkParserReplacementTest {
+
+    @Test fun replaceMediaLinks_keepsSurroundingText() {
+        val input = "a<link type=\"audio\" id=\"a1\">A</link>b"
+        assertEquals("a[audio:a1]b", MediaLinkParser.replaceMediaLinks(input) { type, id -> "[$type:$id]" })
+    }
+
+    @Test fun replaceImageLinks_replacesMultipleDifferentIds() {
+        val input = "<link type=\"image\" id=\"i1\">I</link><link type=\"image\" id=\"i2\">I</link>"
+        assertEquals("[i1][i2]", MediaLinkParser.replaceImageLinks(input) { id -> "[$id]" })
+    }
+}

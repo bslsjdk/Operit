@@ -1,1 +1,124 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cy5Nb2RlbFRoaW5raW5nQ29uZmlnRGVmYXVsdHMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaVByb3ZpZGVyVHlwZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5Qcm9tcHRUdXJuCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdFR1cm5LaW5kCmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCmNsYXNzIEdlbWluaVRoaW5raW5nQ29uZmlnVGVzdCB7CiAgICBwcml2YXRlIHZhbCB0aGlua2luZ0NvbmZpZ3VyYXRpb25zID0KICAgICAgICBNb2RlbFRoaW5raW5nQ29uZmlnRGVmYXVsdHMuZm9yUHJvdmlkZXIoQXBpUHJvdmlkZXJUeXBlLkdPT0dMRS5uYW1lKQoKICAgIEBUZXN0CiAgICBmdW4gbWFwc01vZGVsT3B0aW9uVG9HZW1pbmlMZXZlbCgpIHsKICAgICAgICB2YWwgY29uZmlnID0gR2VtaW5pVGhpbmtpbmdDb25maWcuZnJvbU9wdGlvbigiZ2VtaW5pLTMtcHJvIiwgIkhJR0giLCB0aGlua2luZ0NvbmZpZ3VyYXRpb25zKQogICAgICAgIGFzc2VydEVxdWFscygiSElHSCIsIGNvbmZpZy50aGlua2luZ0xldmVsKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gcmVxdWVzdHNUaG91Z2h0U3VtbWFyaWVzRm9yQW5FbmFibGVkT3B0aW9uKCkgewogICAgICAgIHZhbCBjb25maWcgPSBHZW1pbmlUaGlua2luZ0NvbmZpZy5mcm9tT3B0aW9uKCJnZW1pbmktMy1wcm8iLCAiSElHSCIsIHRoaW5raW5nQ29uZmlndXJhdGlvbnMpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb25maWcuaW5jbHVkZVRob3VnaHRzKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHJlcXVpcmVkIEdlbWluaSByZWFzb25pbmcgaGlkZXMgdGhvdWdodCB0ZXh0IHdoZW4gY2FsbGVyIGRpc2FibGVzIHRoaW5raW5nYCgpIHsKICAgICAgICB2YWwgcmVxdWVzdEpzb24gPSBKU09OT2JqZWN0KCkucHV0KCJnZW5lcmF0aW9uQ29uZmlnIiwgSlNPTk9iamVjdCgpKQoKICAgICAgICBhcHBseUdlbWluaVRoaW5raW5nQ29uZmlndXJhdGlvbigKICAgICAgICAgICAgcmVxdWVzdEpzb24gPSByZXF1ZXN0SnNvbiwKICAgICAgICAgICAgcHJvdmlkZXJUeXBlSWQgPSBBcGlQcm92aWRlclR5cGUuR09PR0xFLm5hbWUsCiAgICAgICAgICAgIG1vZGVsTmFtZSA9ICJnZW1pbmktMy1wcm8iLAogICAgICAgICAgICBhcGlFbmRwb2ludCA9ICJodHRwczovL2dlbmVyYXRpdmVsYW5ndWFnZS5nb29nbGVhcGlzLmNvbSIsCiAgICAgICAgICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnMgPSB0aGlua2luZ0NvbmZpZ3VyYXRpb25zLAogICAgICAgICAgICBlbmFibGVUaGlua2luZyA9IGZhbHNlLAogICAgICAgICAgICBvcHRpb25JZCA9ICJISUdIIiwKICAgICAgICApCgogICAgICAgIHZhbCB0aGlua2luZ0NvbmZpZyA9IHJlcXVlc3RKc29uCiAgICAgICAgICAgIC5nZXRKU09OT2JqZWN0KCJnZW5lcmF0aW9uQ29uZmlnIikKICAgICAgICAgICAgLmdldEpTT05PYmplY3QoInRoaW5raW5nQ29uZmlnIikKICAgICAgICBhc3NlcnRGYWxzZSh0aGlua2luZ0NvbmZpZy5nZXRCb29sZWFuKCJpbmNsdWRlVGhvdWdodHMiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoIkhJR0giLCB0aGlua2luZ0NvbmZpZy5nZXRTdHJpbmcoInRoaW5raW5nTGV2ZWwiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBHZW1pbmkgZnVuY3Rpb24gY2FsbCBwYXJ0cyB1c2UgdGhlIHRob3VnaHRTaWduYXR1cmUgd2lyZSBmaWVsZGAoKSB7CiAgICAgICAgdmFsIHBhcnQgPQogICAgICAgICAgICBidWlsZEdlbWluaUZ1bmN0aW9uQ2FsbFBhcnQoCiAgICAgICAgICAgICAgICBmdW5jdGlvbkNhbGwgPSBKU09OT2JqZWN0KCkucHV0KCJuYW1lIiwgInBhY2thZ2VfcHJveHkiKSwKICAgICAgICAgICAgICAgIHRob3VnaHRTaWduYXR1cmUgPSAic2lnbmF0dXJlIiwKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMoInNpZ25hdHVyZSIsIHBhcnQuZ2V0U3RyaW5nKCJ0aG91Z2h0U2lnbmF0dXJlIikpCiAgICAgICAgYXNzZXJ0RmFsc2UocGFydC5oYXMoInRob3VnaHRfc2lnbmF0dXJlIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcGFja2FnZSBwcm94eSBoaXN0b3J5IHJldHVybnMgY29uY3JldGUgdG9vbCByZXN1bHQgd2l0aG91dCBhIGNhbmNlbGxhdGlvbmAoKSB7CiAgICAgICAgdmFsIHByb3ZpZGVyID0KICAgICAgICAgICAgR2VtaW5pUHJvdmlkZXIoCiAgICAgICAgICAgICAgICBhcGlFbmRwb2ludCA9ICJodHRwczovL2V4YW1wbGUudGVzdCIsCiAgICAgICAgICAgICAgICBhcGlLZXlQcm92aWRlciA9IFNpbmdsZUFwaUtleVByb3ZpZGVyKCJ0ZXN0LWtleSIpLAogICAgICAgICAgICAgICAgbW9kZWxOYW1lID0gImdlbWluaS10ZXN0IiwKICAgICAgICAgICAgICAgIGNsaWVudCA9IE9rSHR0cENsaWVudCgpLAogICAgICAgICAgICAgICAgZW5hYmxlVG9vbENhbGwgPSB0cnVlLAogICAgICAgICAgICApCiAgICAgICAgdmFsIGNvbnRlbnRzID0gYnVpbGRHZW1pbmlDb250ZW50cygKICAgICAgICAgICAgcHJvdmlkZXIsCiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIFByb21wdFR1cm4oCiAgICAgICAgICAgICAgICAgICAga2luZCA9IFByb21wdFR1cm5LaW5kLlRPT0xfQ0FMTCwKICAgICAgICAgICAgICAgICAgICBjb250ZW50ID0KICAgICAgICAgICAgICAgICAgICAgICAgIjx0b29sIG5hbWU9XCJwYWNrYWdlX3Byb3h5XCI+IiArCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiPHBhcmFtIG5hbWU9XCJ0b29sX25hbWVcIj5leHRlbmRlZF9odHRwX3Rvb2xzOmh0dHBfcmVxdWVzdDwvcGFyYW0+IiArCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiPHBhcmFtIG5hbWU9XCJwYXJhbXNcIj57JnF1b3Q7dXJsJnF1b3Q7OiZxdW90O2h0dHBzOi8vZXhhbXBsZS50ZXN0JnF1b3Q7fTwvcGFyYW0+IiArCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiPC90b29sPiIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBQcm9tcHRUdXJuKAogICAgICAgICAgICAgICAgICAgIGtpbmQgPSBQcm9tcHRUdXJuS2luZC5UT09MX1JFU1VMVCwKICAgICAgICAgICAgICAgICAgICBjb250ZW50ID0KICAgICAgICAgICAgICAgICAgICAgICAgIjx0b29sX3Jlc3VsdCBuYW1lPVwiZXh0ZW5kZWRfaHR0cF90b29sczpodHRwX3JlcXVlc3RcIiBzdGF0dXM9XCJzdWNjZXNzXCI+IiArCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiPGNvbnRlbnQ+ZG9uZTwvY29udGVudD48L3Rvb2xfcmVzdWx0PiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICkKCiAgICAgICAgdmFsIGZ1bmN0aW9uQ2FsbCA9CiAgICAgICAgICAgIGNvbnRlbnRzCiAgICAgICAgICAgICAgICAuZ2V0SlNPTk9iamVjdCgwKQogICAgICAgICAgICAgICAgLmdldEpTT05BcnJheSgicGFydHMiKQogICAgICAgICAgICAgICAgLmdldEpTT05PYmplY3QoMCkKICAgICAgICAgICAgICAgIC5nZXRKU09OT2JqZWN0KCJmdW5jdGlvbkNhbGwiKQogICAgICAgIHZhbCBmdW5jdGlvblJlc3BvbnNlID0KICAgICAgICAgICAgY29udGVudHMKICAgICAgICAgICAgICAgIC5nZXRKU09OT2JqZWN0KDEpCiAgICAgICAgICAgICAgICAuZ2V0SlNPTkFycmF5KCJwYXJ0cyIpCiAgICAgICAgICAgICAgICAuZ2V0SlNPTk9iamVjdCgwKQogICAgICAgICAgICAgICAgLmdldEpTT05PYmplY3QoImZ1bmN0aW9uUmVzcG9uc2UiKQoKICAgICAgICBhc3NlcnRFcXVhbHMoInBhY2thZ2VfcHJveHkiLCBmdW5jdGlvbkNhbGwuZ2V0U3RyaW5nKCJuYW1lIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwYWNrYWdlX3Byb3h5IiwgZnVuY3Rpb25SZXNwb25zZS5nZXRTdHJpbmcoIm5hbWUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImRvbmUiLCBmdW5jdGlvblJlc3BvbnNlLmdldEpTT05PYmplY3QoInJlc3BvbnNlIikuZ2V0U3RyaW5nKCJyZXN1bHQiKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZEdlbWluaUNvbnRlbnRzKAogICAgICAgIHByb3ZpZGVyOiBHZW1pbmlQcm92aWRlciwKICAgICAgICBoaXN0b3J5OiBMaXN0PFByb21wdFR1cm4+LAogICAgKTogb3JnLmpzb24uSlNPTkFycmF5IHsKICAgICAgICB2YWwgbWV0aG9kID0KICAgICAgICAgICAgR2VtaW5pUHJvdmlkZXI6OmNsYXNzLmphdmEuZGVjbGFyZWRNZXRob2RzLnNpbmdsZSB7CiAgICAgICAgICAgICAgICBpdC5uYW1lID09ICJidWlsZENvbnRlbnRzQW5kQ291bnRUb2tlbnMiICYmIGl0LnBhcmFtZXRlckNvdW50ID09IDMKICAgICAgICAgICAgfQogICAgICAgIG1ldGhvZC5pc0FjY2Vzc2libGUgPSB0cnVlCiAgICAgICAgdmFsIHJlc3VsdCA9IG1ldGhvZC5pbnZva2UocHJvdmlkZXIsIGhpc3RvcnksIG51bGwsIGZhbHNlKSBhcyBQYWlyPCosICo+CiAgICAgICAgdmFsIGNvbnRlbnRzQW5kU3lzdGVtID0gcmVzdWx0LmZpcnN0IGFzIFBhaXI8KiwgKj4KICAgICAgICByZXR1cm4gY29udGVudHNBbmRTeXN0ZW0uZmlyc3QgYXMgb3JnLmpzb24uSlNPTkFycmF5CiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.collects.ModelThinkingConfigDefaults
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.core.chat.hooks.PromptTurnKind
+import okhttp3.OkHttpClient
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.json.JSONObject
+
+class GeminiThinkingConfigTest {
+    private val thinkingConfigurations =
+        ModelThinkingConfigDefaults.forProvider(ApiProviderType.GOOGLE.name)
+
+    @Test
+    fun mapsModelOptionToGeminiLevel() {
+        val config = GeminiThinkingConfig.fromOption("gemini-3-pro", "HIGH", thinkingConfigurations)
+        assertEquals("HIGH", config.thinkingLevel)
+    }
+
+    @Test
+    fun requestsThoughtSummariesForAnEnabledOption() {
+        val config = GeminiThinkingConfig.fromOption("gemini-3-pro", "HIGH", thinkingConfigurations)
+        assertTrue(config.includeThoughts)
+    }
+
+    @Test
+    fun `required Gemini reasoning hides thought text when caller disables thinking`() {
+        val requestJson = JSONObject().put("generationConfig", JSONObject())
+
+        applyGeminiThinkingConfiguration(
+            requestJson = requestJson,
+            providerTypeId = ApiProviderType.GOOGLE.name,
+            modelName = "gemini-3-pro",
+            apiEndpoint = "https://generativelanguage.googleapis.com",
+            thinkingConfigurations = thinkingConfigurations,
+            enableThinking = false,
+            optionId = "HIGH",
+        )
+
+        val thinkingConfig = requestJson
+            .getJSONObject("generationConfig")
+            .getJSONObject("thinkingConfig")
+        assertFalse(thinkingConfig.getBoolean("includeThoughts"))
+        assertEquals("HIGH", thinkingConfig.getString("thinkingLevel"))
+    }
+
+    @Test
+    fun `Gemini function call parts use the thoughtSignature wire field`() {
+        val part =
+            buildGeminiFunctionCallPart(
+                functionCall = JSONObject().put("name", "package_proxy"),
+                thoughtSignature = "signature",
+            )
+
+        assertEquals("signature", part.getString("thoughtSignature"))
+        assertFalse(part.has("thought_signature"))
+    }
+
+    @Test
+    fun `package proxy history returns concrete tool result without a cancellation`() {
+        val provider =
+            GeminiProvider(
+                apiEndpoint = "https://example.test",
+                apiKeyProvider = SingleApiKeyProvider("test-key"),
+                modelName = "gemini-test",
+                client = OkHttpClient(),
+                enableToolCall = true,
+            )
+        val contents = buildGeminiContents(
+            provider,
+            listOf(
+                PromptTurn(
+                    kind = PromptTurnKind.TOOL_CALL,
+                    content =
+                        "<tool name=\"package_proxy\">" +
+                            "<param name=\"tool_name\">extended_http_tools:http_request</param>" +
+                            "<param name=\"params\">{&quot;url&quot;:&quot;https://example.test&quot;}</param>" +
+                            "</tool>"
+                ),
+                PromptTurn(
+                    kind = PromptTurnKind.TOOL_RESULT,
+                    content =
+                        "<tool_result name=\"extended_http_tools:http_request\" status=\"success\">" +
+                            "<content>done</content></tool_result>"
+                )
+            )
+        )
+
+        val functionCall =
+            contents
+                .getJSONObject(0)
+                .getJSONArray("parts")
+                .getJSONObject(0)
+                .getJSONObject("functionCall")
+        val functionResponse =
+            contents
+                .getJSONObject(1)
+                .getJSONArray("parts")
+                .getJSONObject(0)
+                .getJSONObject("functionResponse")
+
+        assertEquals("package_proxy", functionCall.getString("name"))
+        assertEquals("package_proxy", functionResponse.getString("name"))
+        assertEquals("done", functionResponse.getJSONObject("response").getString("result"))
+    }
+
+    private fun buildGeminiContents(
+        provider: GeminiProvider,
+        history: List<PromptTurn>,
+    ): org.json.JSONArray {
+        val method =
+            GeminiProvider::class.java.declaredMethods.single {
+                it.name == "buildContentsAndCountTokens" && it.parameterCount == 3
+            }
+        method.isAccessible = true
+        val result = method.invoke(provider, history, null, false) as Pair<*, *>
+        val contentsAndSystem = result.first as Pair<*, *>
+        return contentsAndSystem.first as org.json.JSONArray
+    }
+}

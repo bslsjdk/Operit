@@ -1,1 +1,38 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLmZhY3RvcnkKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5jb250cm9sLkF2YXRhckNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24ubW9kZWwuQXZhdGFyTW9kZWwKCi8qKgogKiBBIGZhY3RvcnkgaW50ZXJmYWNlIGZvciBjcmVhdGluZyBbQXZhdGFyQ29udHJvbGxlcl0gaW5zdGFuY2VzLgogKiBUaGlzIGFic3RyYWN0aW9uIGFsbG93cyB0aGUgYXZhdGFyIHN5c3RlbSB0byBjcmVhdGUgdGhlIGFwcHJvcHJpYXRlIGNvbnRyb2xsZXIKICogZm9yIGEgZ2l2ZW4gYXZhdGFyIG1vZGVsIHdpdGhvdXQga25vd2luZyB0aGUgc3BlY2lmaWMgaW1wbGVtZW50YXRpb24gZGV0YWlscy4KICovCmludGVyZmFjZSBBdmF0YXJDb250cm9sbGVyRmFjdG9yeSB7CiAgICAKICAgIC8qKgogICAgICogQ3JlYXRlcyBhbiBhcHByb3ByaWF0ZSBjb250cm9sbGVyIGZvciB0aGUgZ2l2ZW4gYXZhdGFyIG1vZGVsLgogICAgICogCiAgICAgKiBAcGFyYW0gbW9kZWwgVGhlIGF2YXRhciBtb2RlbCBmb3Igd2hpY2ggdG8gY3JlYXRlIGEgY29udHJvbGxlci4KICAgICAqIEByZXR1cm4gQW4gW0F2YXRhckNvbnRyb2xsZXJdIGluc3RhbmNlIHRoYXQgY2FuIG1hbmFnZSB0aGUgZ2l2ZW4gbW9kZWwsCiAgICAgKiAgICAgICAgIG9yIG51bGwgaWYgdGhlIG1vZGVsIHR5cGUgaXMgbm90IHN1cHBvcnRlZCBieSB0aGlzIGZhY3RvcnkuCiAgICAgKi8KICAgIEBDb21wb3NhYmxlCiAgICBmdW4gY3JlYXRlQ29udHJvbGxlcihtb2RlbDogQXZhdGFyTW9kZWwpOiBBdmF0YXJDb250cm9sbGVyPwogICAgCiAgICAvKioKICAgICAqIENoZWNrcyBpZiB0aGlzIGZhY3RvcnkgY2FuIGNyZWF0ZSBhIGNvbnRyb2xsZXIgZm9yIHRoZSBnaXZlbiBtb2RlbCB0eXBlLgogICAgICogCiAgICAgKiBAcGFyYW0gbW9kZWwgVGhlIGF2YXRhciBtb2RlbCB0byBjaGVjay4KICAgICAqIEByZXR1cm4gdHJ1ZSBpZiB0aGlzIGZhY3RvcnkgY2FuIGNyZWF0ZSBhIGNvbnRyb2xsZXIgZm9yIHRoZSBtb2RlbCwgZmFsc2Ugb3RoZXJ3aXNlLgogICAgICovCiAgICBmdW4gY2FuQ3JlYXRlQ29udHJvbGxlcihtb2RlbDogQXZhdGFyTW9kZWwpOiBCb29sZWFuCiAgICAKICAgIC8qKgogICAgICogR2V0cyB0aGUgbGlzdCBvZiBhdmF0YXIgbW9kZWwgdHlwZXMgc3VwcG9ydGVkIGJ5IHRoaXMgZmFjdG9yeS4KICAgICAqIAogICAgICogQHJldHVybiBBIGxpc3Qgb2Ygc3VwcG9ydGVkIGF2YXRhciBtb2RlbCB0eXBlcy4KICAgICAqLwogICAgdmFsIHN1cHBvcnRlZFR5cGVzOiBMaXN0PFN0cmluZz4KfSA=
+package com.bslsjdk.operit.core.avatar.common.factory
+
+import androidx.compose.runtime.Composable
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.common.model.AvatarModel
+
+/**
+ * A factory interface for creating [AvatarController] instances.
+ * This abstraction allows the avatar system to create the appropriate controller
+ * for a given avatar model without knowing the specific implementation details.
+ */
+interface AvatarControllerFactory {
+    
+    /**
+     * Creates an appropriate controller for the given avatar model.
+     * 
+     * @param model The avatar model for which to create a controller.
+     * @return An [AvatarController] instance that can manage the given model,
+     *         or null if the model type is not supported by this factory.
+     */
+    @Composable
+    fun createController(model: AvatarModel): AvatarController?
+    
+    /**
+     * Checks if this factory can create a controller for the given model type.
+     * 
+     * @param model The avatar model to check.
+     * @return true if this factory can create a controller for the model, false otherwise.
+     */
+    fun canCreateController(model: AvatarModel): Boolean
+    
+    /**
+     * Gets the list of avatar model types supported by this factory.
+     * 
+     * @return A list of supported avatar model types.
+     */
+    val supportedTypes: List<String>
+} 

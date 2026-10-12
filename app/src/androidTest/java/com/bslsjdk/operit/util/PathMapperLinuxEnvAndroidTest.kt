@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLmp1bml0LnJ1bm5lci5SdW5XaXRoCgpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgUGF0aE1hcHBlckxpbnV4RW52QW5kcm9pZFRlc3QgewoKICAgIEBUZXN0IGZ1biBpc0xpbnV4RW52aXJvbm1lbnRfYWNjZXB0c01peGVkQ2FzZSgpIHsKICAgICAgICBhc3NlcnRUcnVlKFBhdGhNYXBwZXIuaXNMaW51eEVudmlyb25tZW50KCJMaU51WCIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBpc0xpbnV4RW52aXJvbm1lbnRfcmVqZWN0c0VtcHR5U3RyaW5nKCkgewogICAgICAgIGFzc2VydEZhbHNlKFBhdGhNYXBwZXIuaXNMaW51eEVudmlyb25tZW50KCIiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gaXNMaW51eEVudmlyb25tZW50X3JlamVjdHNXaGl0ZXNwYWNlU3RyaW5nKCkgewogICAgICAgIGFzc2VydEZhbHNlKFBhdGhNYXBwZXIuaXNMaW51eEVudmlyb25tZW50KCIgIikpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class PathMapperLinuxEnvAndroidTest {
+
+    @Test fun isLinuxEnvironment_acceptsMixedCase() {
+        assertTrue(PathMapper.isLinuxEnvironment("LiNuX"))
+    }
+
+    @Test fun isLinuxEnvironment_rejectsEmptyString() {
+        assertFalse(PathMapper.isLinuxEnvironment(""))
+    }
+
+    @Test fun isLinuxEnvironment_rejectsWhitespaceString() {
+        assertFalse(PathMapper.isLinuxEnvironment(" "))
+    }
+}

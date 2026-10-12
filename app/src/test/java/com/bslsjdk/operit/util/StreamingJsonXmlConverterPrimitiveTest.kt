@@ -1,1 +1,30 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlclByaW1pdGl2ZVRlc3QgewoKICAgIEBUZXN0IGZ1biBwcmltaXRpdmVGYWxzZV9mb2xsb3dlZEJ5T2JqZWN0RW5kX2lzQ2xvc2VkKCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICBhc3NlcnRFcXVhbHMoIlxuICA8cGFyYW0gbmFtZT1cIm9rXCI+ZmFsc2U8L3BhcmFtPiIsIHJlbmRlcihjb252ZXJ0ZXIuZmVlZCgie1wib2tcIjpmYWxzZX0iKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIHByaW1pdGl2ZVdpdGhXaGl0ZXNwYWNlQmVmb3JlQ29tbWFfaXNDbG9zZWQoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgIlxuICA8cGFyYW0gbmFtZT1cImFcIj4xPC9wYXJhbT5cbiAgPHBhcmFtIG5hbWU9XCJiXCI+MjwvcGFyYW0+IiwKICAgICAgICAgICAgcmVuZGVyKGNvbnZlcnRlci5mZWVkKCJ7XCJhXCI6MSAsXCJiXCI6Mn0iKSkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIG5lc3RlZENvbXBsZXhQcmltaXRpdmVfZmx1c2hlc09ubHlBZnRlckNsb3N1cmUoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGNvbnZlcnRlci5mZWVkKCJ7XCJhXCI6e1wiYlwiOlsxIikKICAgICAgICBhc3NlcnRFcXVhbHMoIiIsIHJlbmRlcihjb252ZXJ0ZXIuZmx1c2goKSkpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVuZGVyKGV2ZW50czogTGlzdDxTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyLkV2ZW50Pik6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGV2ZW50cy5qb2luVG9TdHJpbmcoIiIpIHsgaWYgKGl0IGlzIFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIuRXZlbnQuVGFnKSBpdC50ZXh0IGVsc2UgKGl0IGFzIFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIuRXZlbnQuQ29udGVudCkudGV4dCB9CiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class StreamingJsonXmlConverterPrimitiveTest {
+
+    @Test fun primitiveFalse_followedByObjectEnd_isClosed() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"ok\">false</param>", render(converter.feed("{\"ok\":false}")))
+    }
+
+    @Test fun primitiveWithWhitespaceBeforeComma_isClosed() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals(
+            "\n  <param name=\"a\">1</param>\n  <param name=\"b\">2</param>",
+            render(converter.feed("{\"a\":1 ,\"b\":2}"))
+        )
+    }
+
+    @Test fun nestedComplexPrimitive_flushesOnlyAfterClosure() {
+        val converter = StreamingJsonXmlConverter()
+        converter.feed("{\"a\":{\"b\":[1")
+        assertEquals("", render(converter.flush()))
+    }
+
+    private fun render(events: List<StreamingJsonXmlConverter.Event>): String {
+        return events.joinToString("") { if (it is StreamingJsonXmlConverter.Event.Tag) it.text else (it as StreamingJsonXmlConverter.Event.Content).text }
+    }
+}

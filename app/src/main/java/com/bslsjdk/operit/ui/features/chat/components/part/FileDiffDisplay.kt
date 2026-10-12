@@ -1,1 +1,107 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnBhcnQKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uQm9yZGVyU3Ryb2tlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmNsaWNrYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5MYXp5Q29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5pdGVtcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRGlmZmVyZW5jZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuU3ViZGlyZWN0b3J5QXJyb3dSaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDbGlwYm9hcmRNYW5hZ2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuQW5ub3RhdGVkU3RyaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250RmFtaWx5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5zcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKCi8vIERlZmluZSBhIGxvY2FsIGRhdGEgY2xhc3MgZm9yIFVJIHB1cnBvc2VzIHRvIGF2b2lkIGRlcGVuZGVuY3kgb24gdGhlIGNvcmUgdG9vbHMgcGFja2FnZS4KZGF0YSBjbGFzcyBGaWxlRGlmZigKICAgIHZhbCBwYXRoOiBTdHJpbmcsCiAgICB2YWwgZGlmZkNvbnRlbnQ6IFN0cmluZywKICAgIHZhbCBkZXRhaWxzOiBTdHJpbmcKKQoKQENvbXBvc2FibGUKZnVuIEZpbGVEaWZmRGlzcGxheShkaWZmOiBGaWxlRGlmZikgewogICAgdmFsIGRpZmZMaW5lcyA9IGRpZmYuZGlmZkNvbnRlbnQudHJpbUVuZCgpLmxpbmVzKCkKICAgIHZhciBzaG93RGV0YWlsRGlhbG9nIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIHZhbCBjbGlwYm9hcmRNYW5hZ2VyID0gTG9jYWxDbGlwYm9hcmRNYW5hZ2VyLmN1cnJlbnQKCiAgICBpZiAoc2hvd0RldGFpbERpYWxvZykgewogICAgICAgIENvbnRlbnREZXRhaWxEaWFsb2coCiAgICAgICAgICAgIHRpdGxlID0gIkZpbGUgQ2hhbmdlczogJHtkaWZmLnBhdGguc3Vic3RyaW5nQWZ0ZXJMYXN0KCcvJyl9IiwKICAgICAgICAgICAgY29udGVudCA9IGRpZmYuZGlmZkNvbnRlbnQsCiAgICAgICAgICAgIGljb24gPSBJY29ucy5EZWZhdWx0LkRpZmZlcmVuY2UsCiAgICAgICAgICAgIG9uRGlzbWlzcyA9IHsgc2hvd0RldGFpbERpYWxvZyA9IGZhbHNlIH0sCiAgICAgICAgICAgIGlzRGlmZkNvbnRlbnQgPSB0cnVlCiAgICAgICAgKQogICAgfQoKICAgIHZhbCBzdW1tYXJ5ID0gcmVtZW1iZXIoZGlmZkxpbmVzKSB7CiAgICAgICAgdmFsIGFkZGl0aW9ucyA9IGRpZmZMaW5lcy5jb3VudCB7IGl0LnN0YXJ0c1dpdGgoIisiKSB9CiAgICAgICAgdmFsIGRlbGV0aW9ucyA9IGRpZmZMaW5lcy5jb3VudCB7IGl0LnN0YXJ0c1dpdGgoIi0iKSB9CiAgICAgICAgd2hlbiB7CiAgICAgICAgICAgIGFkZGl0aW9ucyA+IDAgJiYgZGVsZXRpb25zID4gMCAtPiAiJGFkZGl0aW9ucyBpbnNlcnRpb25zKCspLCAkZGVsZXRpb25zIGRlbGV0aW9ucygtKSIKICAgICAgICAgICAgYWRkaXRpb25zID4gMCAtPiAiJGFkZGl0aW9ucyBpbnNlcnRpb25zKCspIgogICAgICAgICAgICBkZWxldGlvbnMgPiAwIC0+ICIkZGVsZXRpb25zIGRlbGV0aW9ucygtKSIKICAgICAgICAgICAgZWxzZSAtPiAiTm8gY2hhbmdlcyBkZXRlY3RlZCIKICAgICAgICB9CiAgICB9CgogICAgQ29sdW1uKAogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgIC5jbGlwKFJvdW5kZWRDb3JuZXJTaGFwZSg0LmRwKSkKICAgICAgICAgICAgLmNsaWNrYWJsZSB7IHNob3dEZXRhaWxEaWFsb2cgPSB0cnVlIH0KICAgICAgICAgICAgLnBhZGRpbmcoc3RhcnQgPSAyNC5kcCxib3R0b20gPSA4LmRwKSAvLyDlt6bkvqfnmoTnvKnov5sKICAgICkgewogICAgICAgIFJvdygKICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICkgewogICAgICAgICAgICAvLyDlrZDnm67lvZXnrq3lpLTlm77moIfvvIzooajnpLrov5nmmK/kuIrkuKrlt6XlhbfnmoTmiafooYznu5PmnpwKICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuU3ViZGlyZWN0b3J5QXJyb3dSaWdodCwKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5maWxlZGlmZl90b29sX3Jlc3VsdCksCiAgICAgICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeS5jb3B5KGFscGhhID0gMC43ZiksCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDE4LmRwKQogICAgICAgICAgICApCgogICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg4LmRwKSkKICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5EaWZmZXJlbmNlLAogICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gIkZpbGUgRGlmZiIsCiAgICAgICAgICAgICAgICB0aW50ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LmNvcHkoYWxwaGEgPSAwLjdmKSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgxNi5kcCkKICAgICAgICAgICAgKQogICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg4LmRwKSkKICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSkgewogICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gZGlmZi5wYXRoLnN1YnN0cmluZ0FmdGVyTGFzdCgnLycpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsTWVkaXVtLAogICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0Lk1lZGl1bSwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuc3R5bGUuVGV4dE92ZXJmbG93LkVsbGlwc2lzCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdW1tYXJ5LAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudC5jb3B5KGFscGhhID0gMC43ZiksCiAgICAgICAgICAgICAgICAgICAgbWF4TGluZXMgPSAxLAogICAgICAgICAgICAgICAgICAgIG92ZXJmbG93ID0gYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRPdmVyZmxvdy5FbGxpcHNpcwogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9
+package com.bslsjdk.operit.ui.features.chat.components.part
+
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Difference
+import androidx.compose.material.icons.filled.SubdirectoryArrowRight
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalClipboardManager
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.bslsjdk.operit.R
+
+// Define a local data class for UI purposes to avoid dependency on the core tools package.
+data class FileDiff(
+    val path: String,
+    val diffContent: String,
+    val details: String
+)
+
+@Composable
+fun FileDiffDisplay(diff: FileDiff) {
+    val diffLines = diff.diffContent.trimEnd().lines()
+    var showDetailDialog by remember { mutableStateOf(false) }
+    val clipboardManager = LocalClipboardManager.current
+
+    if (showDetailDialog) {
+        ContentDetailDialog(
+            title = "File Changes: ${diff.path.substringAfterLast('/')}",
+            content = diff.diffContent,
+            icon = Icons.Default.Difference,
+            onDismiss = { showDetailDialog = false },
+            isDiffContent = true
+        )
+    }
+
+    val summary = remember(diffLines) {
+        val additions = diffLines.count { it.startsWith("+") }
+        val deletions = diffLines.count { it.startsWith("-") }
+        when {
+            additions > 0 && deletions > 0 -> "$additions insertions(+), $deletions deletions(-)"
+            additions > 0 -> "$additions insertions(+)"
+            deletions > 0 -> "$deletions deletions(-)"
+            else -> "No changes detected"
+        }
+    }
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .clip(RoundedCornerShape(4.dp))
+            .clickable { showDetailDialog = true }
+            .padding(start = 24.dp,bottom = 8.dp) // 左侧的缩进
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            // 子目录箭头图标，表示这是上个工具的执行结果
+            Icon(
+                    imageVector = Icons.Default.SubdirectoryArrowRight,
+                    contentDescription = stringResource(R.string.filediff_tool_result),
+                    tint = MaterialTheme.colorScheme.primary.copy(alpha = 0.7f),
+                    modifier = Modifier.size(18.dp)
+            )
+
+            Spacer(modifier = Modifier.width(8.dp))
+            Icon(
+                imageVector = Icons.Default.Difference,
+                contentDescription = "File Diff",
+                tint = MaterialTheme.colorScheme.primary.copy(alpha = 0.7f),
+                modifier = Modifier.size(16.dp)
+            )
+            Spacer(modifier = Modifier.width(8.dp))
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = diff.path.substringAfterLast('/'),
+                    style = MaterialTheme.typography.labelMedium,
+                    fontWeight = FontWeight.Medium,
+                    color = MaterialTheme.colorScheme.primary,
+                    maxLines = 1,
+                    overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
+                )
+                Text(
+                    text = summary,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f),
+                    maxLines = 1,
+                    overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis
+                )
+            }
+        }
+    }
+}

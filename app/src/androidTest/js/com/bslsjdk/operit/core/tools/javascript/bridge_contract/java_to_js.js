@@ -1,1 +1,95 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgewogIGFzc2VydCwKICBhc3NlcnRFcSwKICB0ZXN0LAogIHJ1blN1aXRlLAogIGFzc2VydEFycmF5LAogIGFzc2VydFBsYWluT2JqZWN0LAogIG1ha2VGaWxlLAogIFRocmVhZCwKICBKU09OT2JqZWN0LAogIEpTT05BcnJheSwKICBDb2xsZWN0aW9ucywKICBBcnJheXNDbGFzcywKICBBcnJheUxpc3QsCiAgSGFzaE1hcCwKfSA9IHJlcXVpcmUoJy4vY29tbW9uJyk7CgpleHBvcnRzLnJ1biA9IGFzeW5jIGZ1bmN0aW9uIHJ1bigpIHsKICByZXR1cm4gcnVuU3VpdGUoWwogICAgdGVzdCgnTWFwIHJldHVybnMgdG8gSlMgYXMgcGxhaW4gb2JqZWN0JywgKCkgPT4gewogICAgICBjb25zdCBtYXBWYWx1ZSA9IENvbGxlY3Rpb25zLnNpbmdsZXRvbk1hcCgnYWxwaGEnLCAxKTsKICAgICAgYXNzZXJ0UGxhaW5PYmplY3QobWFwVmFsdWUsICdNYXAgc2hvdWxkIG5vcm1hbGl6ZSB0byBwbGFpbiBvYmplY3QnKTsKICAgICAgYXNzZXJ0RXEoTnVtYmVyKG1hcFZhbHVlLmFscGhhKSwgMSk7CiAgICB9KSwKICAgIHRlc3QoJ0xpc3QgcmV0dXJucyB0byBKUyBhcyBhcnJheScsICgpID0+IHsKICAgICAgY29uc3QgbGlzdFZhbHVlID0gQXJyYXlzQ2xhc3MuYXNMaXN0KCdhJywgJ2InLCAnYycpOwogICAgICBhc3NlcnRBcnJheShsaXN0VmFsdWUsICdMaXN0IHNob3VsZCBub3JtYWxpemUgdG8gSlMgYXJyYXknKTsKICAgICAgYXNzZXJ0RXEobGlzdFZhbHVlLmxlbmd0aCwgMyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhsaXN0VmFsdWVbMV0pLCAnYicpOwogICAgfSksCiAgICB0ZXN0KCdjb25zdHJ1Y3RlZCBBcnJheUxpc3QgcmVtYWlucyBhIEphdmEgcHJveHknLCAoKSA9PiB7CiAgICAgIGNvbnN0IGxpc3RWYWx1ZSA9IG5ldyBBcnJheUxpc3QoQXJyYXlzQ2xhc3MuYXNMaXN0KCdsZWZ0JywgJ3JpZ2h0JykpOwogICAgICBhc3NlcnRFcShTdHJpbmcobGlzdFZhbHVlLmNsYXNzTmFtZSksICdqYXZhLnV0aWwuQXJyYXlMaXN0Jyk7CiAgICAgIGFzc2VydEVxKE51bWJlcihsaXN0VmFsdWUuc2l6ZSgpKSwgMik7CiAgICAgIGFzc2VydEVxKFN0cmluZyhsaXN0VmFsdWUuY2FsbCgnZ2V0JywgMCkpLCAnbGVmdCcpOwogICAgfSksCiAgICB0ZXN0KCdKU09OQXJyYXkgcmV0dXJucyB0byBKUyBhcyBhcnJheScsICgpID0+IHsKICAgICAgY29uc3QgYXJyYXlWYWx1ZSA9IG5ldyBKU09OT2JqZWN0KCd7ImFyciI6WyJ4IiwieSIsInoiXX0nKS5nZXRKU09OQXJyYXkoJ2FycicpOwogICAgICBhc3NlcnRBcnJheShhcnJheVZhbHVlLCAnSlNPTkFycmF5IHNob3VsZCBub3JtYWxpemUgdG8gSlMgYXJyYXknKTsKICAgICAgYXNzZXJ0RXEoYXJyYXlWYWx1ZS5sZW5ndGgsIDMpOwogICAgICBhc3NlcnRFcShTdHJpbmcoYXJyYXlWYWx1ZVsyXSksICd6Jyk7CiAgICB9KSwKICAgIHRlc3QoJ0pTT05PYmplY3QgcmV0dXJuZWQgZnJvbSBKYXZhIG1ldGhvZCBub3JtYWxpemVzIHRvIHBsYWluIG9iamVjdCcsICgpID0+IHsKICAgICAgY29uc3QganNvblZhbHVlID0gbmV3IEpTT05PYmplY3QoJ3sicGF5bG9hZCI6eyJhbHBoYSI6MSwiZW5hYmxlZCI6dHJ1ZX19JykuZ2V0SlNPTk9iamVjdCgncGF5bG9hZCcpOwogICAgICBhc3NlcnRQbGFpbk9iamVjdChqc29uVmFsdWUsICdKU09OT2JqZWN0IHNob3VsZCBub3JtYWxpemUgdG8gcGxhaW4gb2JqZWN0Jyk7CiAgICAgIGFzc2VydEVxKE51bWJlcihqc29uVmFsdWUuYWxwaGEpLCAxKTsKICAgICAgYXNzZXJ0RXEoQm9vbGVhbihqc29uVmFsdWUuZW5hYmxlZCksIHRydWUpOwogICAgfSksCiAgICB0ZXN0KCduZXN0ZWQgSlNPTk9iamVjdCBhbmQgSlNPTkFycmF5IG5vcm1hbGl6ZSByZWN1cnNpdmVseScsICgpID0+IHsKICAgICAgY29uc3QgbmVzdGVkID0gbmV3IEpTT05PYmplY3QoJ3sicGF5bG9hZCI6eyJtZXRhIjp7Im5hbWUiOiJicmlkZ2UifSwiaXRlbXMiOlsxLDIsM119fScpLmdldEpTT05PYmplY3QoJ3BheWxvYWQnKTsKICAgICAgYXNzZXJ0UGxhaW5PYmplY3QobmVzdGVkLCAnbmVzdGVkIEpTT05PYmplY3Qgc2hvdWxkIG5vcm1hbGl6ZSB0byBwbGFpbiBvYmplY3QnKTsKICAgICAgYXNzZXJ0UGxhaW5PYmplY3QobmVzdGVkLm1ldGEsICduZXN0ZWQgbWV0YSBzaG91bGQgbm9ybWFsaXplIHRvIHBsYWluIG9iamVjdCcpOwogICAgICBhc3NlcnRBcnJheShuZXN0ZWQuaXRlbXMsICduZXN0ZWQgaXRlbXMgc2hvdWxkIG5vcm1hbGl6ZSB0byBKUyBhcnJheScpOwogICAgICBhc3NlcnRFcShTdHJpbmcobmVzdGVkLm1ldGEubmFtZSksICdicmlkZ2UnKTsKICAgICAgYXNzZXJ0RXEoTnVtYmVyKG5lc3RlZC5pdGVtc1sxXSksIDIpOwogICAgfSksCiAgICB0ZXN0KCdKYXZhIGFycmF5IHJldHVybnMgdG8gSlMgYXMgYXJyYXknLCAoKSA9PiB7CiAgICAgIGNvbnN0IGFycmF5VmFsdWUgPSBKYXZhLmNhbGxTdGF0aWMoJ2phdmEubGFuZy5yZWZsZWN0LkFycmF5JywgJ25ld0luc3RhbmNlJywgJ2phdmEubGFuZy5TdHJpbmcnLCAyKTsKICAgICAgYXNzZXJ0QXJyYXkoYXJyYXlWYWx1ZSwgJ0phdmEgYXJyYXkgc2hvdWxkIG5vcm1hbGl6ZSB0byBKUyBhcnJheScpOwogICAgICBhc3NlcnRFcShhcnJheVZhbHVlLmxlbmd0aCwgMik7CiAgICAgIGFzc2VydEVxKGFycmF5VmFsdWVbMF0sIG51bGwpOwogICAgfSksCiAgICB0ZXN0KCdNYXAgd2l0aCBuZXN0ZWQgbGlzdCBub3JtYWxpemVzIHJlY3Vyc2l2ZWx5JywgKCkgPT4gewogICAgICBjb25zdCBtYXBWYWx1ZSA9IENvbGxlY3Rpb25zLnNpbmdsZXRvbk1hcCgKICAgICAgICAncGF5bG9hZCcsCiAgICAgICAgQ29sbGVjdGlvbnMuc2luZ2xldG9uTWFwKCdsZXR0ZXJzJywgQXJyYXlzQ2xhc3MuYXNMaXN0KCdhJywgJ2InKSkKICAgICAgKTsKICAgICAgYXNzZXJ0UGxhaW5PYmplY3QobWFwVmFsdWUsICdIYXNoTWFwIHNob3VsZCBub3JtYWxpemUgdG8gcGxhaW4gb2JqZWN0Jyk7CiAgICAgIGFzc2VydFBsYWluT2JqZWN0KG1hcFZhbHVlLnBheWxvYWQsICduZXN0ZWQgbWFwIHNob3VsZCBub3JtYWxpemUgdG8gSlMgb2JqZWN0Jyk7CiAgICAgIGFzc2VydEFycmF5KG1hcFZhbHVlLnBheWxvYWQubGV0dGVycywgJ25lc3RlZCBsaXN0IHNob3VsZCBub3JtYWxpemUgdG8gSlMgYXJyYXknKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKG1hcFZhbHVlLnBheWxvYWQubGV0dGVyc1sxXSksICdiJyk7CiAgICB9KSwKICAgIHRlc3QoJ0NsYXNzIHZhbHVlcyByZXR1cm4gdG8gSlMgYXMgc3RyaW5ncycsICgpID0+IHsKICAgICAgY29uc3QgY2xhc3NWYWx1ZSA9IG1ha2VGaWxlKCcvc2RjYXJkL2NsYXNzLXZhbHVlLnR4dCcpLmdldENsYXNzKCk7CiAgICAgIGFzc2VydEVxKHR5cGVvZiBjbGFzc1ZhbHVlLCAnc3RyaW5nJyk7CiAgICAgIGFzc2VydEVxKFN0cmluZyhjbGFzc1ZhbHVlKSwgJ2phdmEuaW8uRmlsZScpOwogICAgfSksCiAgICB0ZXN0KCdFbnVtIHZhbHVlcyByZXR1cm4gdG8gSlMgYXMgc3RyaW5ncycsICgpID0+IHsKICAgICAgY29uc3Qgc3RhdGVWYWx1ZSA9IFRocmVhZC5jdXJyZW50VGhyZWFkKCkuZ2V0U3RhdGUoKTsKICAgICAgYXNzZXJ0RXEodHlwZW9mIHN0YXRlVmFsdWUsICdzdHJpbmcnKTsKICAgICAgYXNzZXJ0KFN0cmluZyhzdGF0ZVZhbHVlKS5sZW5ndGggPiAwLCAnZW51bSBzdHJpbmcgc2hvdWxkIG5vdCBiZSBlbXB0eScpOwogICAgfSksCiAgICB0ZXN0KCdvcmRpbmFyeSBKYXZhIG9iamVjdHMgcmV0dXJuIHRvIEpTIGFzIHByb3hpZXMnLCAoKSA9PiB7CiAgICAgIGNvbnN0IGZpbGUgPSBtYWtlRmlsZSgnL3NkY2FyZC9wcm94eS12YWx1ZS50eHQnKTsKICAgICAgYXNzZXJ0RXEoU3RyaW5nKGZpbGUuY2xhc3NOYW1lKSwgJ2phdmEuaW8uRmlsZScpOwogICAgICBhc3NlcnRFcShTdHJpbmcoZmlsZS5nZXROYW1lKCkpLCAncHJveHktdmFsdWUudHh0Jyk7CiAgICB9KSwKICAgIHRlc3QoJ2FwcGxpY2F0aW9uIGNvbnRleHQgcmV0dXJucyB0byBKUyBhcyBwcm94eSBvYmplY3QnLCAoKSA9PiB7CiAgICAgIGNvbnN0IGNvbnRleHQgPSBKYXZhLmdldEFwcGxpY2F0aW9uQ29udGV4dCgpOwogICAgICBhc3NlcnRFcShTdHJpbmcoY29udGV4dC5nZXRQYWNrYWdlTmFtZSgpKSwgJ2NvbS5ic2xzamRrLm9wZXJpdCcpOwogICAgfSksCiAgXSk7Cn07Cg==
+'use strict';
+
+const {
+  assert,
+  assertEq,
+  test,
+  runSuite,
+  assertArray,
+  assertPlainObject,
+  makeFile,
+  Thread,
+  JSONObject,
+  JSONArray,
+  Collections,
+  ArraysClass,
+  ArrayList,
+  HashMap,
+} = require('./common');
+
+exports.run = async function run() {
+  return runSuite([
+    test('Map returns to JS as plain object', () => {
+      const mapValue = Collections.singletonMap('alpha', 1);
+      assertPlainObject(mapValue, 'Map should normalize to plain object');
+      assertEq(Number(mapValue.alpha), 1);
+    }),
+    test('List returns to JS as array', () => {
+      const listValue = ArraysClass.asList('a', 'b', 'c');
+      assertArray(listValue, 'List should normalize to JS array');
+      assertEq(listValue.length, 3);
+      assertEq(String(listValue[1]), 'b');
+    }),
+    test('constructed ArrayList remains a Java proxy', () => {
+      const listValue = new ArrayList(ArraysClass.asList('left', 'right'));
+      assertEq(String(listValue.className), 'java.util.ArrayList');
+      assertEq(Number(listValue.size()), 2);
+      assertEq(String(listValue.call('get', 0)), 'left');
+    }),
+    test('JSONArray returns to JS as array', () => {
+      const arrayValue = new JSONObject('{"arr":["x","y","z"]}').getJSONArray('arr');
+      assertArray(arrayValue, 'JSONArray should normalize to JS array');
+      assertEq(arrayValue.length, 3);
+      assertEq(String(arrayValue[2]), 'z');
+    }),
+    test('JSONObject returned from Java method normalizes to plain object', () => {
+      const jsonValue = new JSONObject('{"payload":{"alpha":1,"enabled":true}}').getJSONObject('payload');
+      assertPlainObject(jsonValue, 'JSONObject should normalize to plain object');
+      assertEq(Number(jsonValue.alpha), 1);
+      assertEq(Boolean(jsonValue.enabled), true);
+    }),
+    test('nested JSONObject and JSONArray normalize recursively', () => {
+      const nested = new JSONObject('{"payload":{"meta":{"name":"bridge"},"items":[1,2,3]}}').getJSONObject('payload');
+      assertPlainObject(nested, 'nested JSONObject should normalize to plain object');
+      assertPlainObject(nested.meta, 'nested meta should normalize to plain object');
+      assertArray(nested.items, 'nested items should normalize to JS array');
+      assertEq(String(nested.meta.name), 'bridge');
+      assertEq(Number(nested.items[1]), 2);
+    }),
+    test('Java array returns to JS as array', () => {
+      const arrayValue = Java.callStatic('java.lang.reflect.Array', 'newInstance', 'java.lang.String', 2);
+      assertArray(arrayValue, 'Java array should normalize to JS array');
+      assertEq(arrayValue.length, 2);
+      assertEq(arrayValue[0], null);
+    }),
+    test('Map with nested list normalizes recursively', () => {
+      const mapValue = Collections.singletonMap(
+        'payload',
+        Collections.singletonMap('letters', ArraysClass.asList('a', 'b'))
+      );
+      assertPlainObject(mapValue, 'HashMap should normalize to plain object');
+      assertPlainObject(mapValue.payload, 'nested map should normalize to JS object');
+      assertArray(mapValue.payload.letters, 'nested list should normalize to JS array');
+      assertEq(String(mapValue.payload.letters[1]), 'b');
+    }),
+    test('Class values return to JS as strings', () => {
+      const classValue = makeFile('/sdcard/class-value.txt').getClass();
+      assertEq(typeof classValue, 'string');
+      assertEq(String(classValue), 'java.io.File');
+    }),
+    test('Enum values return to JS as strings', () => {
+      const stateValue = Thread.currentThread().getState();
+      assertEq(typeof stateValue, 'string');
+      assert(String(stateValue).length > 0, 'enum string should not be empty');
+    }),
+    test('ordinary Java objects return to JS as proxies', () => {
+      const file = makeFile('/sdcard/proxy-value.txt');
+      assertEq(String(file.className), 'java.io.File');
+      assertEq(String(file.getName()), 'proxy-value.txt');
+    }),
+    test('application context returns to JS as proxy object', () => {
+      const context = Java.getApplicationContext();
+      assertEq(String(context.getPackageName()), 'com.bslsjdk.operit');
+    }),
+  ]);
+};

@@ -1,1 +1,131 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duCgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmFzcGVjdFJhdGlvCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHRJbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkRpc3Bvc2FibGVFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnNlbWFudGljcy5jb250ZW50RGVzY3JpcHRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuc2VtYW50aWNzLnNlbWFudGljcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRBbGlnbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRPdmVyZmxvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnZpZXdpbnRlcm9wLkFuZHJvaWRWaWV3CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmdvb2dsZS5hbmRyb2lkLmV4b3BsYXllcjIuRXhvUGxheWVyCmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQuZXhvcGxheWVyMi5NZWRpYUl0ZW0KaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5leG9wbGF5ZXIyLnVpLkFzcGVjdFJhdGlvRnJhbWVMYXlvdXQKaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5leG9wbGF5ZXIyLnVpLlN0eWxlZFBsYXllclZpZXcKCnByaXZhdGUgdmFsIE1BUktET1dOX1ZJREVPX0VYVEVOU0lPTlMgPQogICAgc2V0T2YoIm1wNCIsICJ3ZWJtIiwgIm1rdiIsICJtb3YiLCAibTR2IiwgIjNncCIsICJhdmkiLCAib2d2IikKCmludGVybmFsIGZ1biBpc0xpa2VseVZpZGVvVXJsKHVybDogU3RyaW5nKTogQm9vbGVhbiB7CiAgICB2YWwgZXh0ZW5zaW9uID0gbm9ybWFsaXplTWFya2Rvd25NZWRpYVVybCh1cmwpLnN1YnN0cmluZ0FmdGVyTGFzdCgnLicsICIiKQogICAgcmV0dXJuIGV4dGVuc2lvbiBpbiBNQVJLRE9XTl9WSURFT19FWFRFTlNJT05TCn0KCkBDb21wb3NhYmxlCmZ1biBNYXJrZG93blZpZGVvUmVuZGVyZXIoCiAgICB2aWRlb01hcmtkb3duOiBTdHJpbmcsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIG1heFZpZGVvSGVpZ2h0OiBJbnQgPSAyMjAKKSB7CiAgICBpZiAoIWlzQ29tcGxldGVJbWFnZU1hcmtkb3duKHZpZGVvTWFya2Rvd24pKSB7CiAgICAgICAgcmV0dXJuCiAgICB9CgogICAgdmFsIHZpZGVvQWx0ID0gZXh0cmFjdE1hcmtkb3duSW1hZ2VBbHQodmlkZW9NYXJrZG93bikKICAgIHZhbCB2aWRlb1VybCA9IGV4dHJhY3RNYXJrZG93bkltYWdlVXJsKHZpZGVvTWFya2Rvd24pCiAgICBpZiAodmlkZW9VcmwuaXNCbGFuaygpIHx8ICFpc0xpa2VseVZpZGVvVXJsKHZpZGVvVXJsKSkgewogICAgICAgIHJldHVybgogICAgfQoKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIHZhbCB2aWRlb1VyaSA9IHJlbWVtYmVyKHZpZGVvVXJsKSB7IFVyaS5wYXJzZSh2aWRlb1VybCkgfQogICAgdmFsIHBsYXllciA9IHJlbWVtYmVyKHZpZGVvVXJsKSB7IEV4b1BsYXllci5CdWlsZGVyKGNvbnRleHQpLmJ1aWxkKCkgfQoKICAgIExhdW5jaGVkRWZmZWN0KHBsYXllciwgdmlkZW9VcmkpIHsKICAgICAgICBwbGF5ZXIuc2V0TWVkaWFJdGVtKE1lZGlhSXRlbS5mcm9tVXJpKHZpZGVvVXJpKSkKICAgICAgICBwbGF5ZXIucHJlcGFyZSgpCiAgICAgICAgcGxheWVyLnBsYXlXaGVuUmVhZHkgPSBmYWxzZQogICAgfQoKICAgIERpc3Bvc2FibGVFZmZlY3QocGxheWVyKSB7CiAgICAgICAgb25EaXNwb3NlIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHBsYXllci5zdG9wKCkKICAgICAgICAgICAgICAgIHBsYXllci5jbGVhck1lZGlhSXRlbXMoKQogICAgICAgICAgICAgICAgcGxheWVyLnJlbGVhc2UoKQogICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICB2YWwgYWNjZXNzaWJpbGl0eURlc2MgPSBpZiAodmlkZW9BbHQuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgIiR7c3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudmlkZW9fYmxvY2spfTogJHZpZGVvQWx0IgogICAgfSBlbHNlIHsKICAgICAgICBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy52aWRlb19ibG9jaykKICAgIH0KCiAgICBDb2x1bW4oCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllcgogICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgLnBhZGRpbmcodmVydGljYWwgPSAyLmRwKQogICAgICAgICAgICAuc2VtYW50aWNzIHsgY29udGVudERlc2NyaXB0aW9uID0gYWNjZXNzaWJpbGl0eURlc2MgfQogICAgKSB7CiAgICAgICAgQm94KAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgIC5jbGlwKFJvdW5kZWRDb3JuZXJTaGFwZSgxMi5kcCkpCiAgICAgICAgICAgICAgICAuYmFja2dyb3VuZChNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VWYXJpYW50LmNvcHkoYWxwaGEgPSAwLjE4ZikpCiAgICAgICAgKSB7CiAgICAgICAgICAgIEFuZHJvaWRWaWV3KAogICAgICAgICAgICAgICAgZmFjdG9yeSA9IHsgY3R4IC0+CiAgICAgICAgICAgICAgICAgICAgU3R5bGVkUGxheWVyVmlldyhjdHgpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICAgICAgdGhpcy5wbGF5ZXIgPSBwbGF5ZXIKICAgICAgICAgICAgICAgICAgICAgICAgdXNlQ29udHJvbGxlciA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgcmVzaXplTW9kZSA9IEFzcGVjdFJhdGlvRnJhbWVMYXlvdXQuUkVTSVpFX01PREVfRklUCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHVwZGF0ZSA9IHsgdmlldyAtPgogICAgICAgICAgICAgICAgICAgIGlmICh2aWV3LnBsYXllciAhPT0gcGxheWVyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZpZXcucGxheWVyID0gcGxheWVyCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAuYXNwZWN0UmF0aW8oMTZmIC8gOWYpCiAgICAgICAgICAgICAgICAgICAgLmhlaWdodEluKG1heCA9IG1heFZpZGVvSGVpZ2h0LmRwKQogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICBpZiAodmlkZW9BbHQuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICB0ZXh0ID0gdmlkZW9BbHQsCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwsCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudC5jb3B5KGFscGhhID0gMC43ZiksCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDIuZHAsIHZlcnRpY2FsID0gMS5kcCksCiAgICAgICAgICAgICAgICB0ZXh0QWxpZ24gPSBUZXh0QWxpZ24uQ2VudGVyLAogICAgICAgICAgICAgICAgbWF4TGluZXMgPSAxLAogICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.common.markdown
+
+import android.net.Uri
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
+import com.bslsjdk.operit.R
+import com.google.android.exoplayer2.ExoPlayer
+import com.google.android.exoplayer2.MediaItem
+import com.google.android.exoplayer2.ui.AspectRatioFrameLayout
+import com.google.android.exoplayer2.ui.StyledPlayerView
+
+private val MARKDOWN_VIDEO_EXTENSIONS =
+    setOf("mp4", "webm", "mkv", "mov", "m4v", "3gp", "avi", "ogv")
+
+internal fun isLikelyVideoUrl(url: String): Boolean {
+    val extension = normalizeMarkdownMediaUrl(url).substringAfterLast('.', "")
+    return extension in MARKDOWN_VIDEO_EXTENSIONS
+}
+
+@Composable
+fun MarkdownVideoRenderer(
+    videoMarkdown: String,
+    modifier: Modifier = Modifier,
+    maxVideoHeight: Int = 220
+) {
+    if (!isCompleteImageMarkdown(videoMarkdown)) {
+        return
+    }
+
+    val videoAlt = extractMarkdownImageAlt(videoMarkdown)
+    val videoUrl = extractMarkdownImageUrl(videoMarkdown)
+    if (videoUrl.isBlank() || !isLikelyVideoUrl(videoUrl)) {
+        return
+    }
+
+    val context = LocalContext.current
+    val videoUri = remember(videoUrl) { Uri.parse(videoUrl) }
+    val player = remember(videoUrl) { ExoPlayer.Builder(context).build() }
+
+    LaunchedEffect(player, videoUri) {
+        player.setMediaItem(MediaItem.fromUri(videoUri))
+        player.prepare()
+        player.playWhenReady = false
+    }
+
+    DisposableEffect(player) {
+        onDispose {
+            try {
+                player.stop()
+                player.clearMediaItems()
+                player.release()
+            } catch (_: Exception) {
+            }
+        }
+    }
+
+    val accessibilityDesc = if (videoAlt.isNotBlank()) {
+        "${stringResource(R.string.video_block)}: $videoAlt"
+    } else {
+        stringResource(R.string.video_block)
+    }
+
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(vertical = 2.dp)
+            .semantics { contentDescription = accessibilityDesc }
+    ) {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .clip(RoundedCornerShape(12.dp))
+                .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.18f))
+        ) {
+            AndroidView(
+                factory = { ctx ->
+                    StyledPlayerView(ctx).apply {
+                        this.player = player
+                        useController = true
+                        resizeMode = AspectRatioFrameLayout.RESIZE_MODE_FIT
+                    }
+                },
+                update = { view ->
+                    if (view.player !== player) {
+                        view.player = player
+                    }
+                },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .aspectRatio(16f / 9f)
+                    .heightIn(max = maxVideoHeight.dp)
+            )
+        }
+
+        if (videoAlt.isNotBlank()) {
+            Text(
+                text = videoAlt,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 2.dp, vertical = 1.dp),
+                textAlign = TextAlign.Center,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
+            )
+        }
+    }
+}

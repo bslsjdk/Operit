@@ -1,1 +1,434 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LkJ1aWxkQ29uZmlnCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdFR1cm4KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaVByb3ZpZGVyVHlwZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTW9kZWxDb25maWdEYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbE9wdGlvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTW9kZWxQYXJhbWV0ZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlBhcmFtZXRlclZhbHVlVHlwZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFByb21wdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuUHJvdmlkZXJVc2FnZVNuYXBzaG90CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkNoYXRVdGlscwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLlN0cmVhbQppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdAppbXBvcnQgb2todHRwMy5SZXF1ZXN0Qm9keQppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CgovKiogUm91dGVzIE9wZW5Db2RlIFplbi9HbyBtb2RlbHMgdG8gdGhlIHByb3RvY29sLXNwZWNpZmljIHByb3ZpZGVyIGFscmVhZHkgdXNlZCBieSBPcGVyaXQuICovCmNsYXNzIE9wZW5Db2RlUHJvdmlkZXIgcHJpdmF0ZSBjb25zdHJ1Y3RvcigKICAgIHByaXZhdGUgdmFsIGRlbGVnYXRlOiBBSVNlcnZpY2UsCiAgICBwcml2YXRlIHZhbCBiYXNlRW5kcG9pbnQ6IFN0cmluZywKICAgIHByaXZhdGUgdmFsIG1vZGVsTmFtZTogU3RyaW5nLAogICAgcHJpdmF0ZSB2YWwgcHJvdG9jb2w6IEFwaVByb3ZpZGVyVHlwZSwKICAgIHByaXZhdGUgdmFsIGFwaUtleVByb3ZpZGVyOiBBcGlLZXlQcm92aWRlciwKICAgIHByaXZhdGUgdmFsIHRoaW5raW5nQ29uZmlndXJhdGlvbnM6IFN0cmluZywKICAgIHByaXZhdGUgdmFsIHRoaW5raW5nT3B0aW9uSWQ6IFN0cmluZwopIDogQUlTZXJ2aWNlIGJ5IGRlbGVnYXRlIHsKICAgIC8vIEtlZXAgdGhlIHJvdXRlZCBwcm92aWRlciBpZGVudGl0eSBzbyBzaGFyZWQgcmVzcG9uc2UgaGFuZGxpbmcgcmVjb2duaXplcyBSZXNwb25zZXMvR2VtaW5pIHN0cmVhbXMuCiAgICBvdmVycmlkZSB2YWwgcHJvdmlkZXJNb2RlbDogU3RyaW5nID0gZGVsZWdhdGUucHJvdmlkZXJNb2RlbAoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGdldE1vZGVsc0xpc3QoY29udGV4dDogQ29udGV4dCk6IFJlc3VsdDxMaXN0PE1vZGVsT3B0aW9uPj4gewogICAgICAgIHJldHVybiBNb2RlbExpc3RGZXRjaGVyLmdldE1vZGVsc0xpc3QoCiAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICBhcGlLZXkgPSBhcGlLZXlQcm92aWRlci5nZXRBcGlLZXkoKSwKICAgICAgICAgICAgYXBpRW5kcG9pbnQgPSBiYXNlRW5kcG9pbnQsCiAgICAgICAgICAgIGFwaVByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5PUEVOQ09ERQogICAgICAgICkKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBzZW5kTWVzc2FnZSgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGNoYXRIaXN0b3J5OiBMaXN0PFByb21wdFR1cm4+LAogICAgICAgIG1vZGVsUGFyYW1ldGVyczogTGlzdDxNb2RlbFBhcmFtZXRlcjwqPj4sCiAgICAgICAgZW5hYmxlVGhpbmtpbmc6IEJvb2xlYW4sCiAgICAgICAgc3RyZWFtOiBCb29sZWFuLAogICAgICAgIGF2YWlsYWJsZVRvb2xzOiBMaXN0PFRvb2xQcm9tcHQ+PywKICAgICAgICBwcmVzZXJ2ZVRoaW5rSW5IaXN0b3J5OiBCb29sZWFuLAogICAgICAgIG9uVG9rZW5zVXBkYXRlZDogc3VzcGVuZCAoaW5wdXQ6IExvbmcsIGNhY2hlZElucHV0OiBMb25nLCBvdXRwdXQ6IExvbmcpIC0+IFVuaXQsCiAgICAgICAgb25Vc2FnZVJlcG9ydGVkOiAoc3VzcGVuZCAoUHJvdmlkZXJVc2FnZVNuYXBzaG90LCBhdHRlbXB0OiBJbnQpIC0+IFVuaXQpPywKICAgICAgICBvbk5vbkZhdGFsRXJyb3I6IHN1c3BlbmQgKGVycm9yOiBTdHJpbmcpIC0+IFVuaXQsCiAgICAgICAgZW5hYmxlUmV0cnk6IEJvb2xlYW4sCiAgICAgICAgcmVjb3JkVG9rZW5Vc2FnZTogQm9vbGVhbiwKICAgICAgICBvblVzYWdlRmluYWxpemVkOiAoc3VzcGVuZCAoYXR0ZW1wdDogSW50PykgLT4gVW5pdCk/LAogICAgKTogU3RyZWFtPFN0cmluZz4gewogICAgICAgIHZhbCAodGhpbmtpbmdNYXBwaW5nLCBvcGVuY29kZVBhcmFtZXRlcnMpID0gVGhpbmtpbmdDb25maWd1cmF0aW9uQXBwbGllci5tb2RlbFBhcmFtZXRlcnMoCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZUlkID0gQXBpUHJvdmlkZXJUeXBlLk9QRU5DT0RFLm5hbWUsCiAgICAgICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZSwKICAgICAgICAgICAgYXBpRW5kcG9pbnQgPSBiYXNlRW5kcG9pbnQsCiAgICAgICAgICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnMgPSB0aGlua2luZ0NvbmZpZ3VyYXRpb25zLAogICAgICAgICAgICBlbmFibGVUaGlua2luZyA9IGVuYWJsZVRoaW5raW5nLAogICAgICAgICAgICBvcHRpb25JZCA9IHRoaW5raW5nT3B0aW9uSWQsCiAgICAgICAgICAgIHByb3RvY29sID0gcHJvdG9jb2wsCiAgICAgICAgKQogICAgICAgIHZhbCB0aGlua2luZ0VuYWJsZWQgPSBlbmFibGVUaGlua2luZyB8fCB0aGlua2luZ01hcHBpbmcucmVhc29uaW5nUmVxdWlyZWQKCiAgICAgICAgcmV0dXJuIGRlbGVnYXRlLnNlbmRNZXNzYWdlKAogICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgY2hhdEhpc3RvcnkgPSBjaGF0SGlzdG9yeSwKICAgICAgICAgICAgbW9kZWxQYXJhbWV0ZXJzID0gbW9kZWxQYXJhbWV0ZXJzICsgb3BlbmNvZGVQYXJhbWV0ZXJzLAogICAgICAgICAgICBlbmFibGVUaGlua2luZyA9IHRoaW5raW5nRW5hYmxlZCAmJiBwcm90b2NvbCA9PSBBcGlQcm92aWRlclR5cGUuT1BFTkFJX1JFU1BPTlNFU19HRU5FUklDLAogICAgICAgICAgICBzdHJlYW0gPSBzdHJlYW0sCiAgICAgICAgICAgIGF2YWlsYWJsZVRvb2xzID0gYXZhaWxhYmxlVG9vbHMsCiAgICAgICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3RvcnkgPSBwcmVzZXJ2ZVRoaW5rSW5IaXN0b3J5LAogICAgICAgICAgICBvblRva2Vuc1VwZGF0ZWQgPSBvblRva2Vuc1VwZGF0ZWQsCiAgICAgICAgICAgIG9uVXNhZ2VSZXBvcnRlZCA9IG9uVXNhZ2VSZXBvcnRlZCwKICAgICAgICAgICAgb25Ob25GYXRhbEVycm9yID0gb25Ob25GYXRhbEVycm9yLAogICAgICAgICAgICBlbmFibGVSZXRyeSA9IGVuYWJsZVJldHJ5LAogICAgICAgICAgICByZWNvcmRUb2tlblVzYWdlID0gcmVjb3JkVG9rZW5Vc2FnZSwKICAgICAgICAgICAgb25Vc2FnZUZpbmFsaXplZCA9IG9uVXNhZ2VGaW5hbGl6ZWQsCiAgICAgICAgKQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGZ1biBjcmVhdGUoCiAgICAgICAgICAgIGNvbmZpZzogTW9kZWxDb25maWdEYXRhLAogICAgICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgICAgICBjbGllbnQ6IE9rSHR0cENsaWVudCwKICAgICAgICAgICAgY3VzdG9tSGVhZGVyczogTWFwPFN0cmluZywgU3RyaW5nPiwKICAgICAgICAgICAgYXBpS2V5UHJvdmlkZXI6IEFwaUtleVByb3ZpZGVyLAogICAgICAgICAgICBzdXBwb3J0c1Zpc2lvbjogQm9vbGVhbiwKICAgICAgICAgICAgc3VwcG9ydHNBdWRpbzogQm9vbGVhbiwKICAgICAgICAgICAgc3VwcG9ydHNWaWRlbzogQm9vbGVhbiwKICAgICAgICAgICAgZW5hYmxlVG9vbENhbGw6IEJvb2xlYW4KICAgICAgICApOiBBSVNlcnZpY2UgewogICAgICAgICAgICB2YWwgbW9kZWwgPSBjb25maWcubW9kZWxOYW1lLnRyaW0oKS5yZW1vdmVQcmVmaXgoIm9wZW5jb2RlLyIpLnJlbW92ZVByZWZpeCgib3BlbmNvZGUtZ28vIikKICAgICAgICAgICAgdmFsIGVuZHBvaW50ID0gT3BlbkNvZGVSb3V0aW5nLmVuZHBvaW50Rm9yKGNvbmZpZy5hcGlFbmRwb2ludCwgbW9kZWwpCiAgICAgICAgICAgIHZhbCBwcm92aWRlciA9IE9wZW5Db2RlUm91dGluZy5wcm90b2NvbEZvcihjb25maWcuYXBpRW5kcG9pbnQsIG1vZGVsKQogICAgICAgICAgICB2YWwgcm91dGVkSGVhZGVycyA9IGN1c3RvbUhlYWRlcnMudG9NdXRhYmxlTWFwKCkuYXBwbHkgewogICAgICAgICAgICAgICAgLy8gR28gcmVxdWlyZXMgYW4gYWdlbnQtb3duZWQgdXNlciBhZ2VudCBhbmQgYSBzdGFibGUgc2Vzc2lvbiBoZWFkZXIgc28gaXRzCiAgICAgICAgICAgICAgICAvLyBnYXRld2F5IGNhbiBpZGVudGlmeSB0aGUgY2xpZW50IGFuZCBrZWVwIHByb21wdC1jYWNoZSByb3V0aW5nIHN0YWJsZS4KICAgICAgICAgICAgICAgIHB1dCgiVXNlci1BZ2VudCIsICJPcGVyaXQvJHtCdWlsZENvbmZpZy5WRVJTSU9OX05BTUV9IikKICAgICAgICAgICAgICAgIGlmIChPcGVuQ29kZVJvdXRpbmcuaXNHbyhjb25maWcuYXBpRW5kcG9pbnQpKSB7CiAgICAgICAgICAgICAgICAgICAgcHV0KCJ4LW9wZW5jb2RlLXNlc3Npb24iLCAib3Blcml0LSR7Y29uZmlnLmlkfSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIHJvdXRlZDogQUlTZXJ2aWNlID0gd2hlbiAocHJvdmlkZXIpIHsKICAgICAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTX0dFTkVSSUMgLT4gT3BlbkNvZGVSZXNwb25zZXNQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCwgYXBpS2V5UHJvdmlkZXIsIG1vZGVsLCBjbGllbnQsIHJvdXRlZEhlYWRlcnMsCiAgICAgICAgICAgICAgICAgICAgc3VwcG9ydHNWaXNpb24sIHN1cHBvcnRzQXVkaW8sIHN1cHBvcnRzVmlkZW8sIGVuYWJsZVRvb2xDYWxsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBBcGlQcm92aWRlclR5cGUuQU5USFJPUElDX0dFTkVSSUMgLT4gT3BlbkNvZGVDbGF1ZGVQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCwgYXBpS2V5UHJvdmlkZXIsIG1vZGVsLCBjbGllbnQsIHJvdXRlZEhlYWRlcnMsIGVuYWJsZVRvb2xDYWxsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBBcGlQcm92aWRlclR5cGUuR0VNSU5JX0dFTkVSSUMgLT4gT3BlbkNvZGVHZW1pbmlQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICBlbmRwb2ludCwgYXBpS2V5UHJvdmlkZXIsIG1vZGVsLCBjbGllbnQsIHJvdXRlZEhlYWRlcnMsIGVuYWJsZVRvb2xDYWxsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBlbHNlIC0+IE9wZW5Db2RlQ2hhdFByb3ZpZGVyKAogICAgICAgICAgICAgICAgICAgIGVuZHBvaW50LCBhcGlLZXlQcm92aWRlciwgbW9kZWwsIGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LCBjbGllbnQsIHJvdXRlZEhlYWRlcnMsCiAgICAgICAgICAgICAgICAgICAgc3VwcG9ydHNWaXNpb24sIHN1cHBvcnRzQXVkaW8sIHN1cHBvcnRzVmlkZW8sIGVuYWJsZVRvb2xDYWxsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIE9wZW5Db2RlUHJvdmlkZXIoCiAgICAgICAgICAgICAgICBkZWxlZ2F0ZSA9IHJvdXRlZCwKICAgICAgICAgICAgICAgIGJhc2VFbmRwb2ludCA9IGNvbmZpZy5hcGlFbmRwb2ludCwKICAgICAgICAgICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsLAogICAgICAgICAgICAgICAgcHJvdG9jb2wgPSBwcm92aWRlciwKICAgICAgICAgICAgICAgIGFwaUtleVByb3ZpZGVyID0gYXBpS2V5UHJvdmlkZXIsCiAgICAgICAgICAgICAgICB0aGlua2luZ0NvbmZpZ3VyYXRpb25zID0gY29uZmlnLnRoaW5raW5nQ29uZmlndXJhdGlvbnMsCiAgICAgICAgICAgICAgICB0aGlua2luZ09wdGlvbklkID0gY29uZmlnLnRoaW5raW5nT3B0aW9uSWQKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKaW50ZXJuYWwgb2JqZWN0IE9wZW5Db2RlUm91dGluZyB7CiAgICBmdW4gcHJvdG9jb2xGb3IoYmFzZUVuZHBvaW50OiBTdHJpbmcsIG1vZGVsTmFtZTogU3RyaW5nKTogQXBpUHJvdmlkZXJUeXBlIHsKICAgICAgICB2YWwgbW9kZWwgPSBtb2RlbE5hbWUudHJpbSgpLmxvd2VyY2FzZSgpCiAgICAgICAgdmFsIG1vZGVsSWQgPSBtb2RlbC5zdWJzdHJpbmdBZnRlckxhc3QoJy8nKQogICAgICAgIHZhbCBpc0dvRW5kcG9pbnQgPSBpc0dvKGJhc2VFbmRwb2ludCkKICAgICAgICByZXR1cm4gd2hlbiB7CiAgICAgICAgICAgIG1vZGVsSWQuc3RhcnRzV2l0aCgiZ2VtaW5pLSIpIC0+IEFwaVByb3ZpZGVyVHlwZS5HRU1JTklfR0VORVJJQwogICAgICAgICAgICBtb2RlbElkLnN0YXJ0c1dpdGgoImNsYXVkZS0iKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJxd2VuMy4iKSB8fAogICAgICAgICAgICAgICAgKGlzR29FbmRwb2ludCAmJiBtb2RlbElkLnN0YXJ0c1dpdGgoIm1pbmltYXgtIikpIHx8CiAgICAgICAgICAgICAgICAoIWlzR29FbmRwb2ludCAmJiBtb2RlbElkLnN0YXJ0c1dpdGgoIm1pbmltYXgtIikgJiYgbW9kZWxJZC5lbmRzV2l0aCgiLWZyZWUiKSkgLT4KICAgICAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5BTlRIUk9QSUNfR0VORVJJQwogICAgICAgICAgICBtb2RlbElkLnN0YXJ0c1dpdGgoImdwdC0iKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJncm9rLSIpIHx8CiAgICAgICAgICAgICAgICBtb2RlbElkLnN0YXJ0c1dpdGgoIm11c2Utc3BhcmstIikgLT4KICAgICAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTX0dFTkVSSUMKICAgICAgICAgICAgIWlzR29FbmRwb2ludCAmJiBtb2RlbElkLnN0YXJ0c1dpdGgoIm1pbmltYXgtIikgLT4gQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9HRU5FUklDCiAgICAgICAgICAgIG1vZGVsSWQuc3RhcnRzV2l0aCgiYmlnLXBpY2tsZSIpIHx8CiAgICAgICAgICAgICAgICBtb2RlbElkLnN0YXJ0c1dpdGgoImRlZXBzZWVrLSIpIHx8CiAgICAgICAgICAgICAgICBtb2RlbElkLnN0YXJ0c1dpdGgoImdsbS0iKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJoeTMiKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJoeTQtIikgfHwKICAgICAgICAgICAgICAgIG1vZGVsSWQuc3RhcnRzV2l0aCgia2ltaS0iKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJsaW5nLSIpIHx8CiAgICAgICAgICAgICAgICBtb2RlbElkLnN0YXJ0c1dpdGgoImxvbmdjYXQtIikgfHwKICAgICAgICAgICAgICAgIG1vZGVsSWQuc3RhcnRzV2l0aCgibWltby0iKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJuZW1vdHJvbi0iKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJvbWVuLSIpIHx8CiAgICAgICAgICAgICAgICBtb2RlbElkLnN0YXJ0c1dpdGgoInF3ZW4zLWNvZGVyIikgfHwKICAgICAgICAgICAgICAgIG1vZGVsSWQuc3RhcnRzV2l0aCgicmluZy0iKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJub3J0aC0iKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJsYWd1bmEtIikgfHwKICAgICAgICAgICAgICAgIG1vZGVsSWQuc3RhcnRzV2l0aCgidHJpbml0eS0iKSB8fAogICAgICAgICAgICAgICAgbW9kZWxJZC5zdGFydHNXaXRoKCJ4LXByZXZpZXctIikgLT4gQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9HRU5FUklDCiAgICAgICAgICAgIGVsc2UgLT4gdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbnN1cHBvcnRlZCBPcGVuQ29kZSBtb2RlbCBwcm90b2NvbDogJG1vZGVsTmFtZSIpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBlbmRwb2ludEZvcihiYXNlRW5kcG9pbnQ6IFN0cmluZywgbW9kZWxOYW1lOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBiYXNlID0gbm9ybWFsaXplZEJhc2UoYmFzZUVuZHBvaW50KQogICAgICAgIHJldHVybiB3aGVuIChwcm90b2NvbEZvcihiYXNlRW5kcG9pbnQsIG1vZGVsTmFtZSkpIHsKICAgICAgICAgICAgQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9SRVNQT05TRVNfR0VORVJJQyAtPiAiJGJhc2UvcmVzcG9uc2VzIgogICAgICAgICAgICBBcGlQcm92aWRlclR5cGUuQU5USFJPUElDX0dFTkVSSUMgLT4gIiRiYXNlL21lc3NhZ2VzIgogICAgICAgICAgICBBcGlQcm92aWRlclR5cGUuR0VNSU5JX0dFTkVSSUMgLT4gIiRiYXNlL21vZGVscy8kbW9kZWxOYW1lIgogICAgICAgICAgICBlbHNlIC0+ICIkYmFzZS9jaGF0L2NvbXBsZXRpb25zIgogICAgICAgIH0KICAgIH0KCiAgICBmdW4gbW9kZWxzRW5kcG9pbnQoYmFzZUVuZHBvaW50OiBTdHJpbmcpOiBTdHJpbmcgPSAiJHtub3JtYWxpemVkQmFzZShiYXNlRW5kcG9pbnQpfS9tb2RlbHMiCgogICAgZnVuIGNhdGFsb2dQcm92aWRlcklkKGJhc2VFbmRwb2ludDogU3RyaW5nKTogU3RyaW5nID0KICAgICAgICBpZiAoaXNHbyhiYXNlRW5kcG9pbnQpKSAib3BlbmNvZGUtZ28iIGVsc2UgIm9wZW5jb2RlIgoKICAgIHByaXZhdGUgZnVuIG5vcm1hbGl6ZWRCYXNlKGVuZHBvaW50OiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCB0cmltbWVkID0gZW5kcG9pbnQudHJpbSgpLnJlbW92ZVN1ZmZpeCgiLyIpCiAgICAgICAgcmV0dXJuIGlmICh0cmltbWVkLmVuZHNXaXRoKCIvdjEiKSkgdHJpbW1lZCBlbHNlICIkdHJpbW1lZC92MSIKICAgIH0KCiAgICBmdW4gYXBpQmFzZShlbmRwb2ludDogU3RyaW5nKTogU3RyaW5nID0KICAgICAgICBub3JtYWxpemVkQmFzZShlbmRwb2ludC5zdWJzdHJpbmdCZWZvcmUoIi9tb2RlbHMvIikpCgogICAgZnVuIGlzR28oZW5kcG9pbnQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHZhbCB0cmltbWVkID0gZW5kcG9pbnQudHJpbSgpLnJlbW92ZVN1ZmZpeCgiLyIpLmxvd2VyY2FzZSgpCiAgICAgICAgcmV0dXJuIHRyaW1tZWQuZW5kc1dpdGgoIi96ZW4vZ28iKSB8fCB0cmltbWVkLmVuZHNXaXRoKCIvemVuL2dvL3YxIikKICAgIH0KfQoKLyoqIE9wZW5Db2RlJ3MgT3BlbkFJLWNvbXBhdGlibGUgY2hhdCByb3V0ZS4gKi8KaW50ZXJuYWwgY2xhc3MgT3BlbkNvZGVDaGF0UHJvdmlkZXIoCiAgICBlbmRwb2ludDogU3RyaW5nLAogICAgYXBpS2V5UHJvdmlkZXI6IEFwaUtleVByb3ZpZGVyLAogICAgbW9kZWxOYW1lOiBTdHJpbmcsCiAgICBwcml2YXRlIHZhbCBhcHBDb250ZXh0OiBDb250ZXh0LAogICAgY2xpZW50OiBPa0h0dHBDbGllbnQsCiAgICBjdXN0b21IZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgc3VwcG9ydHNWaXNpb246IEJvb2xlYW4sCiAgICBzdXBwb3J0c0F1ZGlvOiBCb29sZWFuLAogICAgc3VwcG9ydHNWaWRlbzogQm9vbGVhbiwKICAgIGVuYWJsZVRvb2xDYWxsOiBCb29sZWFuCikgOiBPcGVuQUlQcm92aWRlcigKICAgIGFwaUVuZHBvaW50ID0gZW5kcG9pbnQsCiAgICBhcGlLZXlQcm92aWRlciA9IGFwaUtleVByb3ZpZGVyLAogICAgbW9kZWxOYW1lID0gbW9kZWxOYW1lLAogICAgY2xpZW50ID0gY2xpZW50LAogICAgY3VzdG9tSGVhZGVycyA9IGN1c3RvbUhlYWRlcnMsCiAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuT1BFTkFJX0dFTkVSSUMsCiAgICBzdXBwb3J0c1Zpc2lvbiA9IHN1cHBvcnRzVmlzaW9uLAogICAgc3VwcG9ydHNBdWRpbyA9IHN1cHBvcnRzQXVkaW8sCiAgICBzdXBwb3J0c1ZpZGVvID0gc3VwcG9ydHNWaWRlbywKICAgIGVuYWJsZVRvb2xDYWxsID0gZW5hYmxlVG9vbENhbGwKKSB7CiAgICAvLyBPcGVuQ29kZSDnmoQgT3BlbkFJIENoYXQg6Lev55Sx5Lya5ZCR5ZCO56uv6YCP5LygIERlZXBTZWVrIOmjjuagvCB0aGlua2luZyDovpPlh7oKICAgIC8vIO+8iOWNs+S9vyBPcGVyaXQg5pyq5pi+5byP5byA5ZCvIHRoaW5raW5n77yMT3BlbkNvZGUg5Lmf5Y+v6IO95oyJ5qih5Z6L6IO95Yqb6Ieq6KGM5byA5ZCv77yJ44CCCiAgICAvLyDor6XljY/orq7opoHmsYLljoblj7IgYXNzaXN0YW50IOa2iOaBr+W/hemhu+WOn+agt+WbnuS8oCByZWFzb25pbmdfY29udGVudO+8jOWQpuWImQogICAgLy8g5Zyo5qih5Z6L5a6M5oiQ5bel5YW36LCD55So5ZCO55qE5LiL5LiA6L2u6K+35rGC5Lya6L+U5ZueIDQwMO+8mgogICAgLy8gICAiVGhlIHJlYXNvbmluZ19jb250ZW50IGluIHRoZSB0aGlua2luZyBtb2RlIG11c3QgYmUgcGFzc2VkIGJhY2sgdG8gdGhlIEFQSS4iCiAgICAvLwogICAgLy8g5Lul5LiL6YeN5YaZ5bCGIHJlYXNvbmluZ19jb250ZW50IOeahOaPkOWPluS4juWbnuS8oOWujOWFqOaUtuaVm+WcqCBPcGVuQ29kZUNoYXRQcm92aWRlciDlhoXpg6jvvJoKICAgIC8vICAgMSkg5by65Yi2IHByZXNlcnZlVGhpbmtJbkhpc3RvcnkgPSB0cnVl77yM6K6p54i257G7IGJ1aWxkTWVzc2FnZXNBbmRDb3VudFRva2VucwogICAgLy8gICAgICDkv53nlZnljoblj7IgYXNzaXN0YW50IOa2iOaBr+S4reeahCA8dGhpbms+IOWGheWuue+8mwogICAgLy8gICAyKSDopobnm5YgY3VzdG9taXplRmluYWxSZXF1ZXN0T2JqZWN077yM5ZyoIG1lc3NhZ2VzQXJyYXkg5ZCO5aSE55CG6Zi25q615a+5CiAgICAvLyAgICAgIGFzc2lzdGFudCDmtojmga/lgZogdGhpbmsgLT4gcmVhc29uaW5nX2NvbnRlbnQg55qE5ouG5YiG5LiO5Zue5aGr44CCCiAgICAvLyDor6Xlrp7njrDkuI3liqjpgJrnlKggT3BlbkFJUHJvdmlkZXLvvIzkuI3lvbHlk43lhbblroMgT3BlbkFJIOWFvOWuuSBwcm92aWRlciDnmoTooYzkuLrjgIIKICAgIG92ZXJyaWRlIGZ1biBjcmVhdGVSZXF1ZXN0Qm9keSgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGNoYXRIaXN0b3J5OiBMaXN0PFByb21wdFR1cm4+LAogICAgICAgIG1vZGVsUGFyYW1ldGVyczogTGlzdDxNb2RlbFBhcmFtZXRlcjwqPj4sCiAgICAgICAgZW5hYmxlVGhpbmtpbmc6IEJvb2xlYW4sCiAgICAgICAgc3RyZWFtOiBCb29sZWFuLAogICAgICAgIGF2YWlsYWJsZVRvb2xzOiBMaXN0PFRvb2xQcm9tcHQ+PywKICAgICAgICBwcmVzZXJ2ZVRoaW5rSW5IaXN0b3J5OiBCb29sZWFuCiAgICApOiBSZXF1ZXN0Qm9keSA9IGNyZWF0ZUpzb25SZXF1ZXN0Qm9keSgKICAgICAgICBjcmVhdGVSZXF1ZXN0Qm9keUludGVybmFsKAogICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgY2hhdEhpc3RvcnkgPSBjaGF0SGlzdG9yeSwKICAgICAgICAgICAgbW9kZWxQYXJhbWV0ZXJzID0gbW9kZWxQYXJhbWV0ZXJzLAogICAgICAgICAgICBzdHJlYW0gPSBzdHJlYW0sCiAgICAgICAgICAgIGF2YWlsYWJsZVRvb2xzID0gYXZhaWxhYmxlVG9vbHMsCiAgICAgICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3RvcnkgPSB0cnVlCiAgICAgICAgKQogICAgKQoKICAgIG92ZXJyaWRlIGZ1biBjdXN0b21pemVGaW5hbFJlcXVlc3RPYmplY3QoCiAgICAgICAgcmVxdWVzdE9iamVjdDogSlNPTk9iamVjdCwKICAgICAgICBtZXNzYWdlc0FycmF5OiBKU09OQXJyYXksCiAgICAgICAgdG9vbHNKc29uOiBTdHJpbmc/CiAgICApIHsKICAgICAgICBpZiAobWVzc2FnZXNBcnJheS5sZW5ndGgoKSA9PSAwKSByZXR1cm4KICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBtZXNzYWdlc0FycmF5Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgIHZhbCBtZXNzYWdlID0gbWVzc2FnZXNBcnJheS5vcHRKU09OT2JqZWN0KGkpID86IGNvbnRpbnVlCiAgICAgICAgICAgIGlmIChtZXNzYWdlLm9wdFN0cmluZygicm9sZSIpICE9ICJhc3Npc3RhbnQiKSBjb250aW51ZQogICAgICAgICAgICBleHRyYWN0UmVhc29uaW5nQ29udGVudEludG9NZXNzYWdlKGFwcENvbnRleHQsIG1lc3NhZ2UpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5a+55Y2V5LiqIGFzc2lzdGFudCDmtojmga/mj5Dlj5YgPHRoaW5rPi4uLjwvdGhpbms+IOWGheWuue+8jOWGmeWFpSByZWFzb25pbmdfY29udGVudCDlrZfmrrXvvIwKICAgICAqIOW5tuWwhua4heeQhuWQjueahOWGheWuueWGmeWbniBjb250ZW50IOWtl+auteOAggogICAgICoKICAgICAqIOS7heWkhOeQhue6r+aWh+acrCBjb250ZW5077yI5aSa5qih5oCBIEpTT05BcnJheSDlvaLmgIHot7Pov4fvvIzpgb/lhY3mlLnliqjml6LmnIkKICAgICAqIOWkmuaooeaAgeaehOmAoOmAu+i+ke+8m+ivpei3r+W+hOWcqCBPcGVuQ29kZUNoYXRQcm92aWRlciDlrp7pmYXor7fmsYLkuK3mnoHlsJHop6blj5HvvInjgIIKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gZXh0cmFjdFJlYXNvbmluZ0NvbnRlbnRJbnRvTWVzc2FnZShjb250ZXh0OiBDb250ZXh0LCBtZXNzYWdlOiBKU09OT2JqZWN0KSB7CiAgICAgICAgdmFsIHRleHRDb250ZW50ID0gbWVzc2FnZS5vcHQoImNvbnRlbnQiKSBhcz8gU3RyaW5nCiAgICAgICAgdmFsIChjbGVhbkNvbnRlbnQsIHJlYXNvbmluZykgPSB0ZXh0Q29udGVudD8ubGV0KENoYXRVdGlsczo6ZXh0cmFjdFRoaW5raW5nQ29udGVudCkKICAgICAgICAgICAgPzogKCIiIHRvICIiKQogICAgICAgIC8vIOaAu+aYr+WGmeWFpSByZWFzb25pbmdfY29udGVudO+8iOWNs+S9v+S4uuepuu+8jE9wZW5BSSBDaGF0IOi3r+eUseS4iua4uOWcqOWOhuWPsuS4jeWQqwogICAgICAgIC8vIOivpeWtl+auteaXtuS5n+S8muaLkue7ne+8m+WGmeepuuWtl+espuS4suS4juacquWGmeWQq+S5ieS4jeWQjO+8ieOAggogICAgICAgIG1lc3NhZ2UucHV0KCJyZWFzb25pbmdfY29udGVudCIsIHJlYXNvbmluZykKICAgICAgICBpZiAodGV4dENvbnRlbnQgIT0gbnVsbCkgewogICAgICAgICAgICAvLyBBc3Npc3RhbnQgaGlzdG9yeSBtdXN0IG5vdCByZS1pbmplY3QgcmljaCBtZWRpYSBsaW5rcyB3aGlsZSB0aGUgdGhpbmtpbmcKICAgICAgICAgICAgLy8gbWFya2VyIGlzIGJlaW5nIHNwbGl0IGludG8gdGhlIHByb3ZpZGVyLXNwZWNpZmljIHJlYXNvbmluZyBmaWVsZC4KICAgICAgICAgICAgbWVzc2FnZS5wdXQoImNvbnRlbnQiLCBidWlsZENvbnRlbnRGaWVsZChjb250ZXh0LCBjbGVhbkNvbnRlbnQsIHJvbGUgPSAiYXNzaXN0YW50IikpCiAgICAgICAgfQogICAgfQp9CgovKiogT3BlbkNvZGUncyBPcGVuQUkgUmVzcG9uc2VzIHJvdXRlLiAqLwppbnRlcm5hbCBjbGFzcyBPcGVuQ29kZVJlc3BvbnNlc1Byb3ZpZGVyKAogICAgZW5kcG9pbnQ6IFN0cmluZywKICAgIGFwaUtleVByb3ZpZGVyOiBBcGlLZXlQcm92aWRlciwKICAgIG1vZGVsTmFtZTogU3RyaW5nLAogICAgY2xpZW50OiBPa0h0dHBDbGllbnQsCiAgICBjdXN0b21IZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgc3VwcG9ydHNWaXNpb246IEJvb2xlYW4sCiAgICBzdXBwb3J0c0F1ZGlvOiBCb29sZWFuLAogICAgc3VwcG9ydHNWaWRlbzogQm9vbGVhbiwKICAgIGVuYWJsZVRvb2xDYWxsOiBCb29sZWFuCikgOiBPcGVuQUlQcm92aWRlcigKICAgIGFwaUVuZHBvaW50ID0gZW5kcG9pbnQsCiAgICBhcGlLZXlQcm92aWRlciA9IGFwaUtleVByb3ZpZGVyLAogICAgbW9kZWxOYW1lID0gbW9kZWxOYW1lLAogICAgY2xpZW50ID0gY2xpZW50LAogICAgY3VzdG9tSGVhZGVycyA9IGN1c3RvbUhlYWRlcnMsCiAgICBwcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuT1BFTkFJX1JFU1BPTlNFU19HRU5FUklDLAogICAgc3VwcG9ydHNWaXNpb24gPSBzdXBwb3J0c1Zpc2lvbiwKICAgIHN1cHBvcnRzQXVkaW8gPSBzdXBwb3J0c0F1ZGlvLAogICAgc3VwcG9ydHNWaWRlbyA9IHN1cHBvcnRzVmlkZW8sCiAgICBlbmFibGVUb29sQ2FsbCA9IGVuYWJsZVRvb2xDYWxsCikgewogICAgb3ZlcnJpZGUgdmFsIHVzZVJlc3BvbnNlc0FwaTogQm9vbGVhbiA9IHRydWUKCiAgICBvdmVycmlkZSBmdW4gY3JlYXRlUmVxdWVzdEJvZHkoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICBjaGF0SGlzdG9yeTogTGlzdDxQcm9tcHRUdXJuPiwKICAgICAgICBtb2RlbFBhcmFtZXRlcnM6IExpc3Q8TW9kZWxQYXJhbWV0ZXI8Kj4+LAogICAgICAgIGVuYWJsZVRoaW5raW5nOiBCb29sZWFuLAogICAgICAgIHN0cmVhbTogQm9vbGVhbiwKICAgICAgICBhdmFpbGFibGVUb29sczogTGlzdDxUb29sUHJvbXB0Pj8sCiAgICAgICAgcHJlc2VydmVUaGlua0luSGlzdG9yeTogQm9vbGVhbgogICAgKTogUmVxdWVzdEJvZHkgewogICAgICAgIHZhbCByZXF1ZXN0Q2hhdEhpc3RvcnkgPQogICAgICAgICAgICBpZiAoZW5hYmxlVGhpbmtpbmcpIGNoYXRIaXN0b3J5CiAgICAgICAgICAgIGVsc2UgQ2hhdFV0aWxzLnN0cmlwT3BlbkFpUmVzcG9uc2VzUmVhc29uaW5nTWV0YVR1cm5zKGNoYXRIaXN0b3J5KQogICAgICAgIHJldHVybiBjcmVhdGVKc29uUmVxdWVzdEJvZHkoCiAgICAgICAgICAgIGNyZWF0ZVJlcXVlc3RCb2R5SW50ZXJuYWwoCiAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgICAgIGNoYXRIaXN0b3J5ID0gcmVxdWVzdENoYXRIaXN0b3J5LAogICAgICAgICAgICAgICAgbW9kZWxQYXJhbWV0ZXJzID0gbW9kZWxQYXJhbWV0ZXJzLAogICAgICAgICAgICAgICAgc3RyZWFtID0gc3RyZWFtLAogICAgICAgICAgICAgICAgYXZhaWxhYmxlVG9vbHMgPSBhdmFpbGFibGVUb29scywKICAgICAgICAgICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3RvcnkgPSBwcmVzZXJ2ZVRoaW5rSW5IaXN0b3J5CiAgICAgICAgICAgICkKICAgICAgICApCiAgICB9Cn0KCi8qKiBPcGVuQ29kZSdzIEFudGhyb3BpYy1jb21wYXRpYmxlIHJvdXRlLiAqLwppbnRlcm5hbCBjbGFzcyBPcGVuQ29kZUNsYXVkZVByb3ZpZGVyKAogICAgZW5kcG9pbnQ6IFN0cmluZywKICAgIGFwaUtleVByb3ZpZGVyOiBBcGlLZXlQcm92aWRlciwKICAgIG1vZGVsTmFtZTogU3RyaW5nLAogICAgY2xpZW50OiBPa0h0dHBDbGllbnQsCiAgICBjdXN0b21IZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgZW5hYmxlVG9vbENhbGw6IEJvb2xlYW4KKSA6IENsYXVkZVByb3ZpZGVyKAogICAgYXBpRW5kcG9pbnQgPSBlbmRwb2ludCwKICAgIGFwaUtleVByb3ZpZGVyID0gYXBpS2V5UHJvdmlkZXIsCiAgICBtb2RlbE5hbWUgPSBtb2RlbE5hbWUsCiAgICBjbGllbnQgPSBjbGllbnQsCiAgICBjdXN0b21IZWFkZXJzID0gY3VzdG9tSGVhZGVycywKICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5BTlRIUk9QSUNfR0VORVJJQywKICAgIGVuYWJsZVRvb2xDYWxsID0gZW5hYmxlVG9vbENhbGwsCiAgICB0aGlua2luZ0NvbmZpZ3VyYXRpb25zID0gIltdIgopIHsKICAgIG92ZXJyaWRlIGZ1biBhZGRQYXJhbWV0ZXJzKAogICAgICAgIGpzb25PYmplY3Q6IEpTT05PYmplY3QsCiAgICAgICAgbW9kZWxQYXJhbWV0ZXJzOiBMaXN0PE1vZGVsUGFyYW1ldGVyPCo+PgogICAgKSB7CiAgICAgICAgc3VwZXIuYWRkUGFyYW1ldGVycyhqc29uT2JqZWN0LCBtb2RlbFBhcmFtZXRlcnMpCiAgICAgICAgbW9kZWxQYXJhbWV0ZXJzCiAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5pc0VuYWJsZWQgfQogICAgICAgICAgICAuZmlsdGVyIHsgaXQuYXBpTmFtZSA9PSAidGhpbmtpbmciIHx8IGl0LmFwaU5hbWUgPT0gImJ1ZGdldF90b2tlbnMiIHx8IGl0LmFwaU5hbWUgPT0gIm91dHB1dF9jb25maWciIH0KICAgICAgICAgICAgLmZvckVhY2ggeyBwYXJhbWV0ZXIgLT4gcHV0SnNvblBhcmFtZXRlcihqc29uT2JqZWN0LCBwYXJhbWV0ZXIpIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBwdXRKc29uUGFyYW1ldGVyKGpzb25PYmplY3Q6IEpTT05PYmplY3QsIHBhcmFtZXRlcjogTW9kZWxQYXJhbWV0ZXI8Kj4pIHsKICAgICAgICB3aGVuIChwYXJhbWV0ZXIudmFsdWVUeXBlKSB7CiAgICAgICAgICAgIFBhcmFtZXRlclZhbHVlVHlwZS5PQkpFQ1QgLT4gewogICAgICAgICAgICAgICAgdmFsIHJhdyA9IHBhcmFtZXRlci5jdXJyZW50VmFsdWUudG9TdHJpbmcoKS50cmltKCkKICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgSlNPTk9iamVjdChyYXcpIH0KICAgICAgICAgICAgICAgICAgICAub25TdWNjZXNzIHsganNvbk9iamVjdC5wdXQocGFyYW1ldGVyLmFwaU5hbWUsIGl0KSB9CiAgICAgICAgICAgICAgICAgICAgLm9uRmFpbHVyZSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIk9wZW5Db2RlQ2xhdWRlUHJvdmlkZXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkludmFsaWQgT3BlbkNvZGUgSlNPTiBwYXJhbWV0ZXI6ICIgKyBwYXJhbWV0ZXIuYXBpTmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgUGFyYW1ldGVyVmFsdWVUeXBlLlNUUklORyAtPiBqc29uT2JqZWN0LnB1dChwYXJhbWV0ZXIuYXBpTmFtZSwgcGFyYW1ldGVyLmN1cnJlbnRWYWx1ZSBhcyBTdHJpbmcpCiAgICAgICAgICAgIFBhcmFtZXRlclZhbHVlVHlwZS5JTlQgLT4ganNvbk9iamVjdC5wdXQocGFyYW1ldGVyLmFwaU5hbWUsIHBhcmFtZXRlci5jdXJyZW50VmFsdWUgYXMgSW50KQogICAgICAgICAgICBQYXJhbWV0ZXJWYWx1ZVR5cGUuRkxPQVQgLT4ganNvbk9iamVjdC5wdXQocGFyYW1ldGVyLmFwaU5hbWUsIHBhcmFtZXRlci5jdXJyZW50VmFsdWUgYXMgRmxvYXQpCiAgICAgICAgICAgIFBhcmFtZXRlclZhbHVlVHlwZS5CT09MRUFOIC0+IGpzb25PYmplY3QucHV0KHBhcmFtZXRlci5hcGlOYW1lLCBwYXJhbWV0ZXIuY3VycmVudFZhbHVlIGFzIEJvb2xlYW4pCiAgICAgICAgfQogICAgfQp9CgovKiogT3BlbkNvZGUncyBHb29nbGUtY29tcGF0aWJsZSByb3V0ZSwgaW5jbHVkaW5nIGl0cyBBUEkga2V5IGFuZCBTU0UgY29udmVudGlvbnMuICovCmludGVybmFsIGNsYXNzIE9wZW5Db2RlR2VtaW5pUHJvdmlkZXIoCiAgICBwcml2YXRlIHZhbCBlbmRwb2ludDogU3RyaW5nLAogICAgcHJpdmF0ZSB2YWwgb3BlbmNvZGVBcGlLZXlQcm92aWRlcjogQXBpS2V5UHJvdmlkZXIsCiAgICBwcml2YXRlIHZhbCBvcGVuY29kZU1vZGVsTmFtZTogU3RyaW5nLAogICAgY2xpZW50OiBPa0h0dHBDbGllbnQsCiAgICBwcml2YXRlIHZhbCBvcGVuY29kZUN1c3RvbUhlYWRlcnM6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICBlbmFibGVUb29sQ2FsbDogQm9vbGVhbgopIDogR2VtaW5pUHJvdmlkZXIoCiAgICBhcGlFbmRwb2ludCA9IGVuZHBvaW50LAogICAgYXBpS2V5UHJvdmlkZXIgPSBvcGVuY29kZUFwaUtleVByb3ZpZGVyLAogICAgbW9kZWxOYW1lID0gb3BlbmNvZGVNb2RlbE5hbWUsCiAgICBjbGllbnQgPSBjbGllbnQsCiAgICBjdXN0b21IZWFkZXJzID0gb3BlbmNvZGVDdXN0b21IZWFkZXJzLAogICAgcHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLkdFTUlOSV9HRU5FUklDLAogICAgZW5hYmxlVG9vbENhbGwgPSBlbmFibGVUb29sQ2FsbCwKICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnMgPSAiW10iCikgewogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gY3JlYXRlUmVxdWVzdCgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIHJlcXVlc3RCb2R5OiBSZXF1ZXN0Qm9keSwKICAgICAgICBpc1N0cmVhbWluZzogQm9vbGVhbiwKICAgICAgICByZXF1ZXN0SWQ6IFN0cmluZwogICAgKTogUmVxdWVzdCB7CiAgICAgICAgdmFsIGJhc2UgPSBPcGVuQ29kZVJvdXRpbmcuYXBpQmFzZShlbmRwb2ludCkKICAgICAgICB2YWwgbWV0aG9kID0gaWYgKGlzU3RyZWFtaW5nKSAic3RyZWFtR2VuZXJhdGVDb250ZW50IiBlbHNlICJnZW5lcmF0ZUNvbnRlbnQiCiAgICAgICAgdmFsIHN1ZmZpeCA9IGlmIChpc1N0cmVhbWluZykgIj9hbHQ9c3NlIiBlbHNlICIiCiAgICAgICAgdmFsIHJlcXVlc3RVcmwgPSBiYXNlICsgIi9tb2RlbHMvIiArIG9wZW5jb2RlTW9kZWxOYW1lICsgIjoiICsgbWV0aG9kICsgc3VmZml4CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBSZXF1ZXN0LkJ1aWxkZXIoKQogICAgICAgICAgICAudXJsKHJlcXVlc3RVcmwpCiAgICAgICAgICAgIC5wb3N0KHJlcXVlc3RCb2R5KQogICAgICAgICAgICAuYWRkSGVhZGVyKCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIpCiAgICAgICAgICAgIC5hZGRIZWFkZXIoIngtZ29vZy1hcGkta2V5Iiwgb3BlbmNvZGVBcGlLZXlQcm92aWRlci5nZXRBcGlLZXkoKSkKICAgICAgICBvcGVuY29kZUN1c3RvbUhlYWRlcnMuZm9yRWFjaCB7IChrZXksIHZhbHVlKSAtPiBidWlsZGVyLmFkZEhlYWRlcihrZXksIHZhbHVlKSB9CiAgICAgICAgQXBwTG9nZ2VyLmQoIk9wZW5Db2RlR2VtaW5pUHJvdmlkZXIiLCAiT3BlbkNvZGUgR2VtaW5pIHJlcXVlc3QgVVJMOiAiICsgcmVxdWVzdFVybCkKICAgICAgICByZXR1cm4gYnVpbGRlci5idWlsZCgpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.BuildConfig
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.data.model.ModelConfigData
+import com.bslsjdk.operit.data.model.ModelOption
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.model.ParameterValueType
+import com.bslsjdk.operit.data.model.ToolPrompt
+import com.bslsjdk.operit.data.stats.ProviderUsageSnapshot
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.ChatUtils
+import com.bslsjdk.operit.util.stream.Stream
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.RequestBody
+import org.json.JSONArray
+import org.json.JSONObject
+
+/** Routes OpenCode Zen/Go models to the protocol-specific provider already used by Operit. */
+class OpenCodeProvider private constructor(
+    private val delegate: AIService,
+    private val baseEndpoint: String,
+    private val modelName: String,
+    private val protocol: ApiProviderType,
+    private val apiKeyProvider: ApiKeyProvider,
+    private val thinkingConfigurations: String,
+    private val thinkingOptionId: String
+) : AIService by delegate {
+    // Keep the routed provider identity so shared response handling recognizes Responses/Gemini streams.
+    override val providerModel: String = delegate.providerModel
+
+    override suspend fun getModelsList(context: Context): Result<List<ModelOption>> {
+        return ModelListFetcher.getModelsList(
+            context = context,
+            apiKey = apiKeyProvider.getApiKey(),
+            apiEndpoint = baseEndpoint,
+            apiProviderType = ApiProviderType.OPENCODE
+        )
+    }
+
+    override suspend fun sendMessage(
+        context: Context,
+        chatHistory: List<PromptTurn>,
+        modelParameters: List<ModelParameter<*>>,
+        enableThinking: Boolean,
+        stream: Boolean,
+        availableTools: List<ToolPrompt>?,
+        preserveThinkInHistory: Boolean,
+        onTokensUpdated: suspend (input: Long, cachedInput: Long, output: Long) -> Unit,
+        onUsageReported: (suspend (ProviderUsageSnapshot, attempt: Int) -> Unit)?,
+        onNonFatalError: suspend (error: String) -> Unit,
+        enableRetry: Boolean,
+        recordTokenUsage: Boolean,
+        onUsageFinalized: (suspend (attempt: Int?) -> Unit)?,
+    ): Stream<String> {
+        val (thinkingMapping, opencodeParameters) = ThinkingConfigurationApplier.modelParameters(
+            providerTypeId = ApiProviderType.OPENCODE.name,
+            modelName = modelName,
+            apiEndpoint = baseEndpoint,
+            thinkingConfigurations = thinkingConfigurations,
+            enableThinking = enableThinking,
+            optionId = thinkingOptionId,
+            protocol = protocol,
+        )
+        val thinkingEnabled = enableThinking || thinkingMapping.reasoningRequired
+
+        return delegate.sendMessage(
+            context = context,
+            chatHistory = chatHistory,
+            modelParameters = modelParameters + opencodeParameters,
+            enableThinking = thinkingEnabled && protocol == ApiProviderType.OPENAI_RESPONSES_GENERIC,
+            stream = stream,
+            availableTools = availableTools,
+            preserveThinkInHistory = preserveThinkInHistory,
+            onTokensUpdated = onTokensUpdated,
+            onUsageReported = onUsageReported,
+            onNonFatalError = onNonFatalError,
+            enableRetry = enableRetry,
+            recordTokenUsage = recordTokenUsage,
+            onUsageFinalized = onUsageFinalized,
+        )
+    }
+
+    companion object {
+        fun create(
+            config: ModelConfigData,
+            context: Context,
+            client: OkHttpClient,
+            customHeaders: Map<String, String>,
+            apiKeyProvider: ApiKeyProvider,
+            supportsVision: Boolean,
+            supportsAudio: Boolean,
+            supportsVideo: Boolean,
+            enableToolCall: Boolean
+        ): AIService {
+            val model = config.modelName.trim().removePrefix("opencode/").removePrefix("opencode-go/")
+            val endpoint = OpenCodeRouting.endpointFor(config.apiEndpoint, model)
+            val provider = OpenCodeRouting.protocolFor(config.apiEndpoint, model)
+            val routedHeaders = customHeaders.toMutableMap().apply {
+                // Go requires an agent-owned user agent and a stable session header so its
+                // gateway can identify the client and keep prompt-cache routing stable.
+                put("User-Agent", "Operit/${BuildConfig.VERSION_NAME}")
+                if (OpenCodeRouting.isGo(config.apiEndpoint)) {
+                    put("x-opencode-session", "operit-${config.id}")
+                }
+            }
+            val routed: AIService = when (provider) {
+                ApiProviderType.OPENAI_RESPONSES_GENERIC -> OpenCodeResponsesProvider(
+                    endpoint, apiKeyProvider, model, client, routedHeaders,
+                    supportsVision, supportsAudio, supportsVideo, enableToolCall
+                )
+                ApiProviderType.ANTHROPIC_GENERIC -> OpenCodeClaudeProvider(
+                    endpoint, apiKeyProvider, model, client, routedHeaders, enableToolCall
+                )
+                ApiProviderType.GEMINI_GENERIC -> OpenCodeGeminiProvider(
+                    endpoint, apiKeyProvider, model, client, routedHeaders, enableToolCall
+                )
+                else -> OpenCodeChatProvider(
+                    endpoint, apiKeyProvider, model, context.applicationContext, client, routedHeaders,
+                    supportsVision, supportsAudio, supportsVideo, enableToolCall
+                )
+            }
+            return OpenCodeProvider(
+                delegate = routed,
+                baseEndpoint = config.apiEndpoint,
+                modelName = model,
+                protocol = provider,
+                apiKeyProvider = apiKeyProvider,
+                thinkingConfigurations = config.thinkingConfigurations,
+                thinkingOptionId = config.thinkingOptionId
+            )
+        }
+    }
+}
+
+internal object OpenCodeRouting {
+    fun protocolFor(baseEndpoint: String, modelName: String): ApiProviderType {
+        val model = modelName.trim().lowercase()
+        val modelId = model.substringAfterLast('/')
+        val isGoEndpoint = isGo(baseEndpoint)
+        return when {
+            modelId.startsWith("gemini-") -> ApiProviderType.GEMINI_GENERIC
+            modelId.startsWith("claude-") ||
+                modelId.startsWith("qwen3.") ||
+                (isGoEndpoint && modelId.startsWith("minimax-")) ||
+                (!isGoEndpoint && modelId.startsWith("minimax-") && modelId.endsWith("-free")) ->
+                ApiProviderType.ANTHROPIC_GENERIC
+            modelId.startsWith("gpt-") ||
+                modelId.startsWith("grok-") ||
+                modelId.startsWith("muse-spark-") ->
+                ApiProviderType.OPENAI_RESPONSES_GENERIC
+            !isGoEndpoint && modelId.startsWith("minimax-") -> ApiProviderType.OPENAI_GENERIC
+            modelId.startsWith("big-pickle") ||
+                modelId.startsWith("deepseek-") ||
+                modelId.startsWith("glm-") ||
+                modelId.startsWith("hy3") ||
+                modelId.startsWith("hy4-") ||
+                modelId.startsWith("kimi-") ||
+                modelId.startsWith("ling-") ||
+                modelId.startsWith("longcat-") ||
+                modelId.startsWith("mimo-") ||
+                modelId.startsWith("nemotron-") ||
+                modelId.startsWith("omen-") ||
+                modelId.startsWith("qwen3-coder") ||
+                modelId.startsWith("ring-") ||
+                modelId.startsWith("north-") ||
+                modelId.startsWith("laguna-") ||
+                modelId.startsWith("trinity-") ||
+                modelId.startsWith("x-preview-") -> ApiProviderType.OPENAI_GENERIC
+            else -> throw IllegalArgumentException("Unsupported OpenCode model protocol: $modelName")
+        }
+    }
+
+    fun endpointFor(baseEndpoint: String, modelName: String): String {
+        val base = normalizedBase(baseEndpoint)
+        return when (protocolFor(baseEndpoint, modelName)) {
+            ApiProviderType.OPENAI_RESPONSES_GENERIC -> "$base/responses"
+            ApiProviderType.ANTHROPIC_GENERIC -> "$base/messages"
+            ApiProviderType.GEMINI_GENERIC -> "$base/models/$modelName"
+            else -> "$base/chat/completions"
+        }
+    }
+
+    fun modelsEndpoint(baseEndpoint: String): String = "${normalizedBase(baseEndpoint)}/models"
+
+    fun catalogProviderId(baseEndpoint: String): String =
+        if (isGo(baseEndpoint)) "opencode-go" else "opencode"
+
+    private fun normalizedBase(endpoint: String): String {
+        val trimmed = endpoint.trim().removeSuffix("/")
+        return if (trimmed.endsWith("/v1")) trimmed else "$trimmed/v1"
+    }
+
+    fun apiBase(endpoint: String): String =
+        normalizedBase(endpoint.substringBefore("/models/"))
+
+    fun isGo(endpoint: String): Boolean {
+        val trimmed = endpoint.trim().removeSuffix("/").lowercase()
+        return trimmed.endsWith("/zen/go") || trimmed.endsWith("/zen/go/v1")
+    }
+}
+
+/** OpenCode's OpenAI-compatible chat route. */
+internal class OpenCodeChatProvider(
+    endpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    private val appContext: Context,
+    client: OkHttpClient,
+    customHeaders: Map<String, String>,
+    supportsVision: Boolean,
+    supportsAudio: Boolean,
+    supportsVideo: Boolean,
+    enableToolCall: Boolean
+) : OpenAIProvider(
+    apiEndpoint = endpoint,
+    apiKeyProvider = apiKeyProvider,
+    modelName = modelName,
+    client = client,
+    customHeaders = customHeaders,
+    providerType = ApiProviderType.OPENAI_GENERIC,
+    supportsVision = supportsVision,
+    supportsAudio = supportsAudio,
+    supportsVideo = supportsVideo,
+    enableToolCall = enableToolCall
+) {
+    // OpenCode 的 OpenAI Chat 路由会向后端透传 DeepSeek 风格 thinking 输出
+    // （即使 Operit 未显式开启 thinking，OpenCode 也可能按模型能力自行开启）。
+    // 该协议要求历史 assistant 消息必须原样回传 reasoning_content，否则
+    // 在模型完成工具调用后的下一轮请求会返回 400：
+    //   "The reasoning_content in the thinking mode must be passed back to the API."
+    //
+    // 以下重写将 reasoning_content 的提取与回传完全收敛在 OpenCodeChatProvider 内部：
+    //   1) 强制 preserveThinkInHistory = true，让父类 buildMessagesAndCountTokens
+    //      保留历史 assistant 消息中的 <think> 内容；
+    //   2) 覆盖 customizeFinalRequestObject，在 messagesArray 后处理阶段对
+    //      assistant 消息做 think -> reasoning_content 的拆分与回填。
+    // 该实现不动通用 OpenAIProvider，不影响其它 OpenAI 兼容 provider 的行为。
+    override fun createRequestBody(
+        context: Context,
+        chatHistory: List<PromptTurn>,
+        modelParameters: List<ModelParameter<*>>,
+        enableThinking: Boolean,
+        stream: Boolean,
+        availableTools: List<ToolPrompt>?,
+        preserveThinkInHistory: Boolean
+    ): RequestBody = createJsonRequestBody(
+        createRequestBodyInternal(
+            context = context,
+            chatHistory = chatHistory,
+            modelParameters = modelParameters,
+            stream = stream,
+            availableTools = availableTools,
+            preserveThinkInHistory = true
+        )
+    )
+
+    override fun customizeFinalRequestObject(
+        requestObject: JSONObject,
+        messagesArray: JSONArray,
+        toolsJson: String?
+    ) {
+        if (messagesArray.length() == 0) return
+        for (i in 0 until messagesArray.length()) {
+            val message = messagesArray.optJSONObject(i) ?: continue
+            if (message.optString("role") != "assistant") continue
+            extractReasoningContentIntoMessage(appContext, message)
+        }
+    }
+
+    /**
+     * 对单个 assistant 消息提取 <think>...</think> 内容，写入 reasoning_content 字段，
+     * 并将清理后的内容写回 content 字段。
+     *
+     * 仅处理纯文本 content（多模态 JSONArray 形态跳过，避免改动既有
+     * 多模态构造逻辑；该路径在 OpenCodeChatProvider 实际请求中极少触发）。
+     */
+    private fun extractReasoningContentIntoMessage(context: Context, message: JSONObject) {
+        val textContent = message.opt("content") as? String
+        val (cleanContent, reasoning) = textContent?.let(ChatUtils::extractThinkingContent)
+            ?: ("" to "")
+        // 总是写入 reasoning_content（即使为空，OpenAI Chat 路由上游在历史不含
+        // 该字段时也会拒绝；写空字符串与未写含义不同）。
+        message.put("reasoning_content", reasoning)
+        if (textContent != null) {
+            // Assistant history must not re-inject rich media links while the thinking
+            // marker is being split into the provider-specific reasoning field.
+            message.put("content", buildContentField(context, cleanContent, role = "assistant"))
+        }
+    }
+}
+
+/** OpenCode's OpenAI Responses route. */
+internal class OpenCodeResponsesProvider(
+    endpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String>,
+    supportsVision: Boolean,
+    supportsAudio: Boolean,
+    supportsVideo: Boolean,
+    enableToolCall: Boolean
+) : OpenAIProvider(
+    apiEndpoint = endpoint,
+    apiKeyProvider = apiKeyProvider,
+    modelName = modelName,
+    client = client,
+    customHeaders = customHeaders,
+    providerType = ApiProviderType.OPENAI_RESPONSES_GENERIC,
+    supportsVision = supportsVision,
+    supportsAudio = supportsAudio,
+    supportsVideo = supportsVideo,
+    enableToolCall = enableToolCall
+) {
+    override val useResponsesApi: Boolean = true
+
+    override fun createRequestBody(
+        context: Context,
+        chatHistory: List<PromptTurn>,
+        modelParameters: List<ModelParameter<*>>,
+        enableThinking: Boolean,
+        stream: Boolean,
+        availableTools: List<ToolPrompt>?,
+        preserveThinkInHistory: Boolean
+    ): RequestBody {
+        val requestChatHistory =
+            if (enableThinking) chatHistory
+            else ChatUtils.stripOpenAiResponsesReasoningMetaTurns(chatHistory)
+        return createJsonRequestBody(
+            createRequestBodyInternal(
+                context = context,
+                chatHistory = requestChatHistory,
+                modelParameters = modelParameters,
+                stream = stream,
+                availableTools = availableTools,
+                preserveThinkInHistory = preserveThinkInHistory
+            )
+        )
+    }
+}
+
+/** OpenCode's Anthropic-compatible route. */
+internal class OpenCodeClaudeProvider(
+    endpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String>,
+    enableToolCall: Boolean
+) : ClaudeProvider(
+    apiEndpoint = endpoint,
+    apiKeyProvider = apiKeyProvider,
+    modelName = modelName,
+    client = client,
+    customHeaders = customHeaders,
+    providerType = ApiProviderType.ANTHROPIC_GENERIC,
+    enableToolCall = enableToolCall,
+    thinkingConfigurations = "[]"
+) {
+    override fun addParameters(
+        jsonObject: JSONObject,
+        modelParameters: List<ModelParameter<*>>
+    ) {
+        super.addParameters(jsonObject, modelParameters)
+        modelParameters
+            .filter { it.isEnabled }
+            .filter { it.apiName == "thinking" || it.apiName == "budget_tokens" || it.apiName == "output_config" }
+            .forEach { parameter -> putJsonParameter(jsonObject, parameter) }
+    }
+
+    private fun putJsonParameter(jsonObject: JSONObject, parameter: ModelParameter<*>) {
+        when (parameter.valueType) {
+            ParameterValueType.OBJECT -> {
+                val raw = parameter.currentValue.toString().trim()
+                runCatching { JSONObject(raw) }
+                    .onSuccess { jsonObject.put(parameter.apiName, it) }
+                    .onFailure { error ->
+                        AppLogger.w(
+                            "OpenCodeClaudeProvider",
+                            "Invalid OpenCode JSON parameter: " + parameter.apiName,
+                            error
+                        )
+                    }
+            }
+            ParameterValueType.STRING -> jsonObject.put(parameter.apiName, parameter.currentValue as String)
+            ParameterValueType.INT -> jsonObject.put(parameter.apiName, parameter.currentValue as Int)
+            ParameterValueType.FLOAT -> jsonObject.put(parameter.apiName, parameter.currentValue as Float)
+            ParameterValueType.BOOLEAN -> jsonObject.put(parameter.apiName, parameter.currentValue as Boolean)
+        }
+    }
+}
+
+/** OpenCode's Google-compatible route, including its API key and SSE conventions. */
+internal class OpenCodeGeminiProvider(
+    private val endpoint: String,
+    private val opencodeApiKeyProvider: ApiKeyProvider,
+    private val opencodeModelName: String,
+    client: OkHttpClient,
+    private val opencodeCustomHeaders: Map<String, String>,
+    enableToolCall: Boolean
+) : GeminiProvider(
+    apiEndpoint = endpoint,
+    apiKeyProvider = opencodeApiKeyProvider,
+    modelName = opencodeModelName,
+    client = client,
+    customHeaders = opencodeCustomHeaders,
+    providerType = ApiProviderType.GEMINI_GENERIC,
+    enableToolCall = enableToolCall,
+    thinkingConfigurations = "[]"
+) {
+    override suspend fun createRequest(
+        context: Context,
+        requestBody: RequestBody,
+        isStreaming: Boolean,
+        requestId: String
+    ): Request {
+        val base = OpenCodeRouting.apiBase(endpoint)
+        val method = if (isStreaming) "streamGenerateContent" else "generateContent"
+        val suffix = if (isStreaming) "?alt=sse" else ""
+        val requestUrl = base + "/models/" + opencodeModelName + ":" + method + suffix
+        val builder = Request.Builder()
+            .url(requestUrl)
+            .post(requestBody)
+            .addHeader("Content-Type", "application/json")
+            .addHeader("x-goog-api-key", opencodeApiKeyProvider.getApiKey())
+        opencodeCustomHeaders.forEach { (key, value) -> builder.addHeader(key, value) }
+        AppLogger.d("OpenCodeGeminiProvider", "OpenCode Gemini request URL: " + requestUrl)
+        return builder.build()
+    }
+}

@@ -1,1 +1,107 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IudGhlbWUKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuVGV4dFVuaXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5zcAoKLyoqCiAqIOe8lui+keWZqOS4u+mimOWumuS5iQogKi8KZGF0YSBjbGFzcyBFZGl0b3JUaGVtZSgKICAgIC8vIOWfuuehgOminOiJsgogICAgdmFsIGJhY2tncm91bmQ6IENvbG9yLAogICAgdmFsIHRleHRDb2xvcjogQ29sb3IsCiAgICB2YWwgY3Vyc29yQ29sb3I6IENvbG9yLAogICAgdmFsIHNlbGVjdGlvbkNvbG9yOiBDb2xvciwKCiAgICAvLyDor63ms5Xpq5jkuq7popzoibIKICAgIHZhbCBrZXl3b3JkQ29sb3I6IENvbG9yLAogICAgdmFsIHR5cGVDb2xvcjogQ29sb3IsCiAgICB2YWwgc3RyaW5nQ29sb3I6IENvbG9yLAogICAgdmFsIGNvbW1lbnRDb2xvcjogQ29sb3IsCiAgICB2YWwgbnVtYmVyQ29sb3I6IENvbG9yLAogICAgdmFsIGF0dHJpYnV0ZUNvbG9yOiBDb2xvciwKICAgIHZhbCBzZWxlY3RvckNvbG9yOiBDb2xvciwKICAgIHZhbCBwcm9jZXNzaW5nQ29sb3I6IENvbG9yLAogICAgCiAgICAvLyBNYXJrZG93bueJueWumuminOiJsgogICAgdmFsIGhlYWRpbmdDb2xvcjogQ29sb3IsCiAgICB2YWwgcXVvdGVDb2xvcjogQ29sb3IsCiAgICB2YWwgbGlzdEl0ZW1Db2xvcjogQ29sb3IsCiAgICB2YWwgY29kZUNvbG9yOiBDb2xvciwKICAgIAogICAgLy8g6KGM5Y+3CiAgICB2YWwgZ3V0dGVyQmFja2dyb3VuZDogQ29sb3IsCiAgICB2YWwgZ3V0dGVyQm9yZGVyOiBDb2xvciwKICAgIHZhbCBsaW5lTnVtYmVyQ29sb3I6IENvbG9yLAogICAgCiAgICAvLyDlrZfkvZPlpKflsI8KICAgIHZhbCBmb250U2l6ZTogVGV4dFVuaXQKKQoKLyoqCiAqIOaal+iJsuS4u+mimAogKi8KdmFsIERhcmtUaGVtZSA9IEVkaXRvclRoZW1lKAogICAgYmFja2dyb3VuZCA9IENvbG9yKDB4RkYxRTFFMUUpLAogICAgdGV4dENvbG9yID0gQ29sb3IoMHhGRkQ0RDRENCksCiAgICBjdXJzb3JDb2xvciA9IENvbG9yKDB4RkZBRUFGQUQpLAogICAgc2VsZWN0aW9uQ29sb3IgPSBDb2xvcigweDgwMjY0Rjc4KSwKCiAgICBrZXl3b3JkQ29sb3IgPSBDb2xvcigweEZGNkNCNkZGKSwKICAgIHR5cGVDb2xvciA9IENvbG9yKDB4RkY0RUM5QjApLAogICAgc3RyaW5nQ29sb3IgPSBDb2xvcigweEZGQ0U5MTc4KSwKICAgIGNvbW1lbnRDb2xvciA9IENvbG9yKDB4RkY2QTk5NTUpLAogICAgbnVtYmVyQ29sb3IgPSBDb2xvcigweEZGQjVDRUE4KSwKICAgIGF0dHJpYnV0ZUNvbG9yID0gQ29sb3IoMHhGRjlDRENGRSksCiAgICBzZWxlY3RvckNvbG9yID0gQ29sb3IoMHhGRkQ3QkE3RCksCiAgICBwcm9jZXNzaW5nQ29sb3IgPSBDb2xvcigweEZGQzU4NkMwKSwKICAgIAogICAgaGVhZGluZ0NvbG9yID0gQ29sb3IoMHhGRjU2OUNENiksCiAgICBxdW90ZUNvbG9yID0gQ29sb3IoMHhGRjYwOEI0RSksCiAgICBsaXN0SXRlbUNvbG9yID0gQ29sb3IoMHhGRkQ3QkE3RCksCiAgICBjb2RlQ29sb3IgPSBDb2xvcigweEZGRENEQ0FBKSwKICAgIAogICAgZ3V0dGVyQmFja2dyb3VuZCA9IENvbG9yKDB4RkYyQTJEMkUpLAogICAgZ3V0dGVyQm9yZGVyID0gQ29sb3IoMHhGRjNBM0Q0MSksCiAgICBsaW5lTnVtYmVyQ29sb3IgPSBDb2xvcigweEZGODU4NTg1KSwKICAgIAogICAgZm9udFNpemUgPSAxNC5zcAopCgovKioKICog5Lqu6Imy5Li76aKYCiAqLwp2YWwgTGlnaHRUaGVtZSA9IEVkaXRvclRoZW1lKAogICAgYmFja2dyb3VuZCA9IENvbG9yKDB4RkZGRkZGRkYpLAogICAgdGV4dENvbG9yID0gQ29sb3IoMHhGRjFGMjMyOCksCiAgICBjdXJzb3JDb2xvciA9IENvbG9yKDB4RkYxRjIzMjgpLAogICAgc2VsZWN0aW9uQ29sb3IgPSBDb2xvcigweDY2QURENkZGKSwKCiAgICBrZXl3b3JkQ29sb3IgPSBDb2xvcigweEZGMDAwMEZGKSwKICAgIHR5cGVDb2xvciA9IENvbG9yKDB4RkYyNjdGOTkpLAogICAgc3RyaW5nQ29sb3IgPSBDb2xvcigweEZGQTMxNTE1KSwKICAgIGNvbW1lbnRDb2xvciA9IENvbG9yKDB4RkYwMDgwMDApLAogICAgbnVtYmVyQ29sb3IgPSBDb2xvcigweEZGMDk4NjU4KSwKICAgIGF0dHJpYnV0ZUNvbG9yID0gQ29sb3IoMHhGRjAwMTA4MCksCiAgICBzZWxlY3RvckNvbG9yID0gQ29sb3IoMHhGRjgwMDAwMCksCiAgICBwcm9jZXNzaW5nQ29sb3IgPSBDb2xvcigweEZGQUYwMERCKSwKICAgIAogICAgaGVhZGluZ0NvbG9yID0gQ29sb3IoMHhGRjAwMDBGRiksCiAgICBxdW90ZUNvbG9yID0gQ29sb3IoMHhGRjAwODAwMCksCiAgICBsaXN0SXRlbUNvbG9yID0gQ29sb3IoMHhGRjgwMDAwMCksCiAgICBjb2RlQ29sb3IgPSBDb2xvcigweEZGNzk1RTI2KSwKICAgIAogICAgZ3V0dGVyQmFja2dyb3VuZCA9IENvbG9yKDB4RkZGOEY4RjgpLAogICAgZ3V0dGVyQm9yZGVyID0gQ29sb3IoMHhGRkU1RTVFNSksCiAgICBsaW5lTnVtYmVyQ29sb3IgPSBDb2xvcigweEZGOEE4Rjk4KSwKICAgIAogICAgZm9udFNpemUgPSAxNC5zcAopCgovKioKICog5qC55o2u6K+t6KiA6I635Y+W6YCC5ZCI55qE5Li76aKYCiAqLwpmdW4gZ2V0VGhlbWVGb3JMYW5ndWFnZShfbGFuZ3VhZ2U6IFN0cmluZyk6IEVkaXRvclRoZW1lIHsKICAgIHJldHVybiBEYXJrVGhlbWUKfQo=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.theme
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.sp
+
+/**
+ * 编辑器主题定义
+ */
+data class EditorTheme(
+    // 基础颜色
+    val background: Color,
+    val textColor: Color,
+    val cursorColor: Color,
+    val selectionColor: Color,
+
+    // 语法高亮颜色
+    val keywordColor: Color,
+    val typeColor: Color,
+    val stringColor: Color,
+    val commentColor: Color,
+    val numberColor: Color,
+    val attributeColor: Color,
+    val selectorColor: Color,
+    val processingColor: Color,
+    
+    // Markdown特定颜色
+    val headingColor: Color,
+    val quoteColor: Color,
+    val listItemColor: Color,
+    val codeColor: Color,
+    
+    // 行号
+    val gutterBackground: Color,
+    val gutterBorder: Color,
+    val lineNumberColor: Color,
+    
+    // 字体大小
+    val fontSize: TextUnit
+)
+
+/**
+ * 暗色主题
+ */
+val DarkTheme = EditorTheme(
+    background = Color(0xFF1E1E1E),
+    textColor = Color(0xFFD4D4D4),
+    cursorColor = Color(0xFFAEAFAD),
+    selectionColor = Color(0x80264F78),
+
+    keywordColor = Color(0xFF6CB6FF),
+    typeColor = Color(0xFF4EC9B0),
+    stringColor = Color(0xFFCE9178),
+    commentColor = Color(0xFF6A9955),
+    numberColor = Color(0xFFB5CEA8),
+    attributeColor = Color(0xFF9CDCFE),
+    selectorColor = Color(0xFFD7BA7D),
+    processingColor = Color(0xFFC586C0),
+    
+    headingColor = Color(0xFF569CD6),
+    quoteColor = Color(0xFF608B4E),
+    listItemColor = Color(0xFFD7BA7D),
+    codeColor = Color(0xFFDCDCAA),
+    
+    gutterBackground = Color(0xFF2A2D2E),
+    gutterBorder = Color(0xFF3A3D41),
+    lineNumberColor = Color(0xFF858585),
+    
+    fontSize = 14.sp
+)
+
+/**
+ * 亮色主题
+ */
+val LightTheme = EditorTheme(
+    background = Color(0xFFFFFFFF),
+    textColor = Color(0xFF1F2328),
+    cursorColor = Color(0xFF1F2328),
+    selectionColor = Color(0x66ADD6FF),
+
+    keywordColor = Color(0xFF0000FF),
+    typeColor = Color(0xFF267F99),
+    stringColor = Color(0xFFA31515),
+    commentColor = Color(0xFF008000),
+    numberColor = Color(0xFF098658),
+    attributeColor = Color(0xFF001080),
+    selectorColor = Color(0xFF800000),
+    processingColor = Color(0xFFAF00DB),
+    
+    headingColor = Color(0xFF0000FF),
+    quoteColor = Color(0xFF008000),
+    listItemColor = Color(0xFF800000),
+    codeColor = Color(0xFF795E26),
+    
+    gutterBackground = Color(0xFFF8F8F8),
+    gutterBorder = Color(0xFFE5E5E5),
+    lineNumberColor = Color(0xFF8A8F98),
+    
+    fontSize = 14.sp
+)
+
+/**
+ * 根据语言获取适合的主题
+ */
+fun getThemeForLanguage(_language: String): EditorTheme {
+    return DarkTheme
+}

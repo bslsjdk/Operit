@@ -1,1 +1,217 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uc2hlbGwKCmltcG9ydCBhbmRyb2lkLmFwcC5hZG1pbi5EZXZpY2VQb2xpY3lNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29tcG9uZW50TmFtZQppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLkFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnN5c3RlbS5TaGVsbElkZW50aXR5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5jaGFubmVscy5hd2FpdENsb3NlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5jYWxsYmFja0Zsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqIOWfuuS6juiuvuWkh+euoeeQhuWRmOeahFNoZWxs5ZG95Luk5omn6KGM5ZmoIOWunueOsEFETUlO5p2D6ZmQ57qn5Yir55qE5ZG95Luk5omn6KGMICovCmNsYXNzIEFkbWluU2hlbGxFeGVjdXRvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IFNoZWxsRXhlY3V0b3IgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkFkbWluU2hlbGxFeGVjdXRvciIKICAgICAgICBwcml2YXRlIHZhciBhZG1pbkNvbXBvbmVudE5hbWU6IENvbXBvbmVudE5hbWU/ID0gbnVsbAoKICAgICAgICAvKioKICAgICAgICAgKiDorr7nva7orr7lpIfnrqHnkIblkZjnu4Tku7blkI3np7AKICAgICAgICAgKiBAcGFyYW0gY29tcG9uZW50TmFtZSDorr7lpIfnrqHnkIblkZjnu4Tku7blkI3np7AKICAgICAgICAgKi8KICAgICAgICBmdW4gc2V0QWRtaW5Db21wb25lbnROYW1lKGNvbXBvbmVudE5hbWU6IENvbXBvbmVudE5hbWUpIHsKICAgICAgICAgICAgYWRtaW5Db21wb25lbnROYW1lID0gY29tcG9uZW50TmFtZQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZhbCBkZXZpY2VQb2xpY3lNYW5hZ2VyID0KICAgICAgICAgICAgY29udGV4dC5nZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuREVWSUNFX1BPTElDWV9TRVJWSUNFKSBhcyBEZXZpY2VQb2xpY3lNYW5hZ2VyCgogICAgb3ZlcnJpZGUgZnVuIGdldFBlcm1pc3Npb25MZXZlbCgpOiBBbmRyb2lkUGVybWlzc2lvbkxldmVsID0gQW5kcm9pZFBlcm1pc3Npb25MZXZlbC5BRE1JTgoKICAgIG92ZXJyaWRlIGZ1biBpc0F2YWlsYWJsZSgpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gYWRtaW5Db21wb25lbnROYW1lICE9IG51bGwgJiYgaXNEZXZpY2VBZG1pbkFjdGl2ZSgpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGhhc1Blcm1pc3Npb24oKTogU2hlbGxFeGVjdXRvci5QZXJtaXNzaW9uU3RhdHVzIHsKICAgICAgICBpZiAoYWRtaW5Db21wb25lbnROYW1lID09IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIFNoZWxsRXhlY3V0b3IuUGVybWlzc2lvblN0YXR1cy5kZW5pZWQoIkRldmljZSBhZG1pbiBjb21wb25lbnQgbmFtZSBub3Qgc2V0IikKICAgICAgICB9CgogICAgICAgIHJldHVybiBpZiAoaXNEZXZpY2VBZG1pbkFjdGl2ZSgpKSB7CiAgICAgICAgICAgIFNoZWxsRXhlY3V0b3IuUGVybWlzc2lvblN0YXR1cy5ncmFudGVkKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBTaGVsbEV4ZWN1dG9yLlBlcm1pc3Npb25TdGF0dXMuZGVuaWVkKCJEZXZpY2UgYWRtaW4gaXMgbm90IGFjdGl2ZSBmb3IgdGhpcyBhcHAiKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaW5pdGlhbGl6ZSgpIHsKICAgICAgICAvLyDorr7lpIfnrqHnkIblkZjliJ3lp4vljJbnlLHns7vnu5/mjqfliLbvvIzmraTlpITml6DpnIDpop3lpJbmk43kvZwKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gcmVxdWVzdFBlcm1pc3Npb24ob25SZXN1bHQ6IChCb29sZWFuKSAtPiBVbml0KSB7CiAgICAgICAgaWYgKGlzQXZhaWxhYmxlKCkpIHsKICAgICAgICAgICAgb25SZXN1bHQodHJ1ZSkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBpZiAoYWRtaW5Db21wb25lbnROYW1lID09IG51bGwpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiQWRtaW4gY29tcG9uZW50IG5hbWUgbm90IHNldCIpCiAgICAgICAgICAgIG9uUmVzdWx0KGZhbHNlKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIC8vIOW8leWvvOeUqOaIt+a/gOa0u+iuvuWkh+euoeeQhuWRmAogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBpbnRlbnQgPSBJbnRlbnQoRGV2aWNlUG9saWN5TWFuYWdlci5BQ1RJT05fQUREX0RFVklDRV9BRE1JTikKICAgICAgICAgICAgaW50ZW50LnB1dEV4dHJhKERldmljZVBvbGljeU1hbmFnZXIuRVhUUkFfREVWSUNFX0FETUlOLCBhZG1pbkNvbXBvbmVudE5hbWUpCiAgICAgICAgICAgIGludGVudC5wdXRFeHRyYShEZXZpY2VQb2xpY3lNYW5hZ2VyLkVYVFJBX0FERF9FWFBMQU5BVElPTiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYWRtaW5fc2hlbGxfcmVxdWlyZXNfcGVybWlzc2lvbikpCiAgICAgICAgICAgIGludGVudC5mbGFncyA9IEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLCiAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eShpbnRlbnQpCgogICAgICAgICAgICAvLyDnlLHkuo7ml6Dms5Xnn6XpgZPnlKjmiLfmmK/lkKbmv4DmtLvkuobnrqHnkIblkZjvvIzov5Tlm55mYWxzZe+8jOiuqeiwg+eUqOiAheiHquihjOWkhOeQhuWQjue7reajgOafpQogICAgICAgICAgICBvblJlc3VsdChmYWxzZSkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3Igb3BlbmluZyBkZXZpY2UgYWRtaW4gc2V0dGluZ3MiLCBlKQogICAgICAgICAgICBvblJlc3VsdChmYWxzZSkKICAgICAgICB9CiAgICB9CgogICAgLyoqIOajgOafpeiuvuWkh+euoeeQhuWRmOaYr+WQpuW3sua/gOa0uyAqLwogICAgcHJpdmF0ZSBmdW4gaXNEZXZpY2VBZG1pbkFjdGl2ZSgpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgYWRtaW5Db21wb25lbnROYW1lPy5sZXQgeyBkZXZpY2VQb2xpY3lNYW5hZ2VyLmlzQWRtaW5BY3RpdmUoaXQpIH0gPzogZmFsc2UKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgY2hlY2tpbmcgZGV2aWNlIGFkbWluIHN0YXR1cyIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGV4ZWN1dGVDb21tYW5kKAogICAgICAgIGNvbW1hbmQ6IFN0cmluZywKICAgICAgICBpZGVudGl0eTogU2hlbGxJZGVudGl0eQogICAgKTogU2hlbGxFeGVjdXRvci5Db21tYW5kUmVzdWx0ID0KICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgIHZhbCBwZXJtU3RhdHVzID0gaGFzUGVybWlzc2lvbigpCiAgICAgICAgICAgICAgICBpZiAoIXBlcm1TdGF0dXMuZ3JhbnRlZCkgewogICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBTaGVsbEV4ZWN1dG9yLkNvbW1hbmRSZXN1bHQoZmFsc2UsICIiLCBwZXJtU3RhdHVzLnJlYXNvbiwgLTEpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiRXhlY3V0aW5nIGNvbW1hbmQgdmlhIGRldmljZSBhZG1pbjogJGNvbW1hbmQiKQoKICAgICAgICAgICAgICAgIC8vIOiuvuWkh+euoeeQhuWRmEFQSeS4jeiDveebtOaOpeaJp+ihjHNoZWxs5ZG95Luk77yM5L2G5Y+v5Lul5omn6KGM5LiA5Lqb57O757uf5pON5L2cCiAgICAgICAgICAgICAgICAvLyDov5nph4zlrp7njrDlsIbmoLnmja7lrp7pmYXlj6/nlKjnmoTnrqHnkIblkZhBUEnogIzlrpoKCiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgICAgICAgICBjb21tYW5kLnN0YXJ0c1dpdGgoImxvY2tzY3JlZW4iKSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXZpY2VQb2xpY3lNYW5hZ2VyLmxvY2tOb3coKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFNoZWxsRXhlY3V0b3IuQ29tbWFuZFJlc3VsdCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlNjcmVlbiBsb2NrZWQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbW1hbmQuc3RhcnRzV2l0aCgid2lwZSIpIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRldmljZVBvbGljeU1hbmFnZXIud2lwZURhdGEoMCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBTaGVsbEV4ZWN1dG9yLkNvbW1hbmRSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJEZXZpY2Ugd2lwZSBpbml0aWF0ZWQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWPr+S7pea3u+WKoOabtOWkmuiuvuWkh+euoeeQhuWRmEFQSeaUr+aMgeeahOaTjeS9nAogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBTaGVsbEV4ZWN1dG9yLkNvbW1hbmRSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlVuc3VwcG9ydGVkIGNvbW1hbmQgZm9yIGRldmljZSBhZG1pbjogJGNvbW1hbmQiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAtMQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgZXhlY3V0aW5nIGFkbWluIGNvbW1hbmQiLCBlKQogICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBTaGVsbEV4ZWN1dG9yLkNvbW1hbmRSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIkVycm9yOiAke2UubWVzc2FnZX0iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgLTEKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBzdGFydFByb2Nlc3MoY29tbWFuZDogU3RyaW5nKTogU2hlbGxQcm9jZXNzIHsKICAgICAgICByZXR1cm4gQWRtaW5TaGVsbFByb2Nlc3MoY29tbWFuZCwgdGhpcykKICAgIH0KfQoKLyoqCiAqIOiuvuWkh+euoeeQhuWRmOeahCBTaGVsbFByb2Nlc3Mg5a6e546wCiAqLwpwcml2YXRlIGNsYXNzIEFkbWluU2hlbGxQcm9jZXNzKAogICAgcHJpdmF0ZSB2YWwgY29tbWFuZDogU3RyaW5nLAogICAgcHJpdmF0ZSB2YWwgZXhlY3V0b3I6IEFkbWluU2hlbGxFeGVjdXRvcgopIDogU2hlbGxQcm9jZXNzIHsKICAgIHByaXZhdGUgdmFyIGNvbXBsZXRlZCA9IGZhbHNlCiAgICBwcml2YXRlIHZhciBleGl0Q29kZSA9IC0xCiAgICBwcml2YXRlIHZhciByZXN1bHQ6IFNoZWxsRXhlY3V0b3IuQ29tbWFuZFJlc3VsdD8gPSBudWxsCiAgICAKICAgIGluaXQgewogICAgICAgIC8vIOW8guatpeaJp+ihjOWRveS7pAogICAgICAgIENvcm91dGluZVNjb3BlKERpc3BhdGNoZXJzLklPKS5sYXVuY2ggewogICAgICAgICAgICByZXN1bHQgPSBleGVjdXRvci5leGVjdXRlQ29tbWFuZChjb21tYW5kLCBTaGVsbElkZW50aXR5LkRFRkFVTFQpCiAgICAgICAgICAgIGV4aXRDb2RlID0gcmVzdWx0Py5leGl0Q29kZSA/OiAtMQogICAgICAgICAgICBjb21wbGV0ZWQgPSB0cnVlCiAgICAgICAgfQogICAgfQogICAgCiAgICBvdmVycmlkZSB2YWwgc3Rkb3V0OiBGbG93PFN0cmluZz4gPSBjYWxsYmFja0Zsb3cgewogICAgICAgIHdoaWxlICghY29tcGxldGVkKSB7CiAgICAgICAgICAgIGtvdGxpbnguY29yb3V0aW5lcy5kZWxheSgxMCkKICAgICAgICB9CiAgICAgICAgcmVzdWx0Py5zdGRvdXQ/LmxldCB7IG91dHB1dCAtPgogICAgICAgICAgICBpZiAob3V0cHV0LmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgdHJ5U2VuZChvdXRwdXQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgY2xvc2UoKQogICAgICAgIGF3YWl0Q2xvc2UgeyB9CiAgICB9CgogICAgb3ZlcnJpZGUgdmFsIHN0ZGVycjogRmxvdzxTdHJpbmc+ID0gY2FsbGJhY2tGbG93IHsKICAgICAgICB3aGlsZSAoIWNvbXBsZXRlZCkgewogICAgICAgICAgICBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkoMTApCiAgICAgICAgfQogICAgICAgIHJlc3VsdD8uc3RkZXJyPy5sZXQgeyBlcnJvciAtPgogICAgICAgICAgICBpZiAoZXJyb3IuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICB0cnlTZW5kKGVycm9yKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGNsb3NlKCkKICAgICAgICBhd2FpdENsb3NlIHsgfQogICAgfQoKICAgIG92ZXJyaWRlIHZhbCBpc0FsaXZlOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSAhY29tcGxldGVkCgogICAgb3ZlcnJpZGUgZnVuIGRlc3Ryb3koKSB7CiAgICAgICAgY29tcGxldGVkID0gdHJ1ZQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHdhaXRGb3IoKTogSW50ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB3aGlsZSAoIWNvbXBsZXRlZCkgewogICAgICAgICAgICBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkoMTApCiAgICAgICAgfQogICAgICAgIGV4aXRDb2RlCiAgICAgICAgICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.system.shell
+
+import android.app.admin.DevicePolicyManager
+import android.content.ComponentName
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+import com.bslsjdk.operit.core.tools.system.ShellIdentity
+import com.bslsjdk.operit.R
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.channels.awaitClose
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.callbackFlow
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.launch
+
+/** 基于设备管理员的Shell命令执行器 实现ADMIN权限级别的命令执行 */
+class AdminShellExecutor(private val context: Context) : ShellExecutor {
+    companion object {
+        private const val TAG = "AdminShellExecutor"
+        private var adminComponentName: ComponentName? = null
+
+        /**
+         * 设置设备管理员组件名称
+         * @param componentName 设备管理员组件名称
+         */
+        fun setAdminComponentName(componentName: ComponentName) {
+            adminComponentName = componentName
+        }
+    }
+
+    private val devicePolicyManager =
+            context.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
+
+    override fun getPermissionLevel(): AndroidPermissionLevel = AndroidPermissionLevel.ADMIN
+
+    override fun isAvailable(): Boolean {
+        return adminComponentName != null && isDeviceAdminActive()
+    }
+
+    override fun hasPermission(): ShellExecutor.PermissionStatus {
+        if (adminComponentName == null) {
+            return ShellExecutor.PermissionStatus.denied("Device admin component name not set")
+        }
+
+        return if (isDeviceAdminActive()) {
+            ShellExecutor.PermissionStatus.granted()
+        } else {
+            ShellExecutor.PermissionStatus.denied("Device admin is not active for this app")
+        }
+    }
+
+    override fun initialize() {
+        // 设备管理员初始化由系统控制，此处无需额外操作
+    }
+
+    override fun requestPermission(onResult: (Boolean) -> Unit) {
+        if (isAvailable()) {
+            onResult(true)
+            return
+        }
+
+        if (adminComponentName == null) {
+            AppLogger.e(TAG, "Admin component name not set")
+            onResult(false)
+            return
+        }
+
+        // 引导用户激活设备管理员
+        try {
+            val intent = Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN)
+            intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, adminComponentName)
+            intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION, context.getString(R.string.admin_shell_requires_permission))
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            context.startActivity(intent)
+
+            // 由于无法知道用户是否激活了管理员，返回false，让调用者自行处理后续检查
+            onResult(false)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error opening device admin settings", e)
+            onResult(false)
+        }
+    }
+
+    /** 检查设备管理员是否已激活 */
+    private fun isDeviceAdminActive(): Boolean {
+        return try {
+            adminComponentName?.let { devicePolicyManager.isAdminActive(it) } ?: false
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error checking device admin status", e)
+            false
+        }
+    }
+
+    override suspend fun executeCommand(
+        command: String,
+        identity: ShellIdentity
+    ): ShellExecutor.CommandResult =
+            withContext(Dispatchers.IO) {
+                val permStatus = hasPermission()
+                if (!permStatus.granted) {
+                    return@withContext ShellExecutor.CommandResult(false, "", permStatus.reason, -1)
+                }
+
+                AppLogger.d(TAG, "Executing command via device admin: $command")
+
+                // 设备管理员API不能直接执行shell命令，但可以执行一些系统操作
+                // 这里实现将根据实际可用的管理员API而定
+
+                try {
+                    when {
+                        command.startsWith("lockscreen") -> {
+                            devicePolicyManager.lockNow()
+                            return@withContext ShellExecutor.CommandResult(
+                                    true,
+                                    "Screen locked",
+                                    "",
+                                    0
+                            )
+                        }
+                        command.startsWith("wipe") -> {
+                            devicePolicyManager.wipeData(0)
+                            return@withContext ShellExecutor.CommandResult(
+                                    true,
+                                    "Device wipe initiated",
+                                    "",
+                                    0
+                            )
+                        }
+                        // 可以添加更多设备管理员API支持的操作
+                        else -> {
+                            return@withContext ShellExecutor.CommandResult(
+                                    false,
+                                    "",
+                                    "Unsupported command for device admin: $command",
+                                    -1
+                            )
+                        }
+                    }
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "Error executing admin command", e)
+                    return@withContext ShellExecutor.CommandResult(
+                            false,
+                            "",
+                            "Error: ${e.message}",
+                            -1
+                    )
+                }
+            }
+
+    override suspend fun startProcess(command: String): ShellProcess {
+        return AdminShellProcess(command, this)
+    }
+}
+
+/**
+ * 设备管理员的 ShellProcess 实现
+ */
+private class AdminShellProcess(
+    private val command: String,
+    private val executor: AdminShellExecutor
+) : ShellProcess {
+    private var completed = false
+    private var exitCode = -1
+    private var result: ShellExecutor.CommandResult? = null
+    
+    init {
+        // 异步执行命令
+        CoroutineScope(Dispatchers.IO).launch {
+            result = executor.executeCommand(command, ShellIdentity.DEFAULT)
+            exitCode = result?.exitCode ?: -1
+            completed = true
+        }
+    }
+    
+    override val stdout: Flow<String> = callbackFlow {
+        while (!completed) {
+            kotlinx.coroutines.delay(10)
+        }
+        result?.stdout?.let { output ->
+            if (output.isNotEmpty()) {
+                trySend(output)
+            }
+        }
+        close()
+        awaitClose { }
+    }
+
+    override val stderr: Flow<String> = callbackFlow {
+        while (!completed) {
+            kotlinx.coroutines.delay(10)
+        }
+        result?.stderr?.let { error ->
+            if (error.isNotEmpty()) {
+                trySend(error)
+            }
+        }
+        close()
+        awaitClose { }
+    }
+
+    override val isAlive: Boolean
+        get() = !completed
+
+    override fun destroy() {
+        completed = true
+    }
+
+    override suspend fun waitFor(): Int = withContext(Dispatchers.IO) {
+        while (!completed) {
+            kotlinx.coroutines.delay(10)
+        }
+        exitCode
+            }
+}

@@ -1,1 +1,148 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqCiAqIOW3peWFt+WPguaVsOaooeW8j+WumuS5ie+8iOeUqOS6juWumuS5ieW3peWFt+eahOWPguaVsOe7k+aehO+8iQogKi8KZGF0YSBjbGFzcyBUb29sUGFyYW1ldGVyU2NoZW1hKAogICAgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCB0eXBlOiBTdHJpbmcgPSAic3RyaW5nIiwgLy8gInN0cmluZyIsICJib29sZWFuIiwgImludGVnZXIiLCAibnVtYmVyIiwgIm9iamVjdCIsICJhcnJheSIKICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nLAogICAgdmFsIHJlcXVpcmVkOiBCb29sZWFuID0gdHJ1ZSwKICAgIHZhbCBkZWZhdWx0OiBTdHJpbmc/ID0gbnVsbAopCgovKioKICog5bel5YW35o+Q56S66K+N5pWw5o2u57G7CiAqIOihqOekuuWNleS4quW3peWFt+eahOWujOaVtOaPkOekuuivjeS/oeaBrwogKi8KZGF0YSBjbGFzcyBUb29sUHJvbXB0KAogICAgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nLAogICAgdmFsIHBhcmFtZXRlcnM6IFN0cmluZyA9ICIiLCAvLyDlhbzlrrnml6fmoLzlvI/nmoTlrZfnrKbkuLLlj4LmlbAKICAgIHZhbCBwYXJhbWV0ZXJzU3RydWN0dXJlZDogTGlzdDxUb29sUGFyYW1ldGVyU2NoZW1hPj8gPSBudWxsLCAvLyDmlrDnmoTnu5PmnoTljJblj4LmlbAKICAgIHZhbCBkZXRhaWxzOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBub3RlczogU3RyaW5nID0gIiIKKSB7CiAgICAvKioKICAgICAqIOWwhuW3peWFt+aPkOekuuivjei9rOaNouS4uuWOn+Wni+ezu+e7n+aPkOekuuivjeagvOW8jwogICAgICovCiAgICBvdmVycmlkZSBmdW4gdG9TdHJpbmcoKTogU3RyaW5nIHsKICAgICAgICB2YWwgYnVpbGRlciA9IFN0cmluZ0J1aWxkZXIoKQogICAgICAgIGJ1aWxkZXIuYXBwZW5kKCItICRuYW1lOiAkZGVzY3JpcHRpb24iKQogICAgICAgIAogICAgICAgIC8vIOS8mOWFiOS9v+eUqOe7k+aehOWMluWPguaVsO+8jOi9rOaNouS4uuWtl+espuS4suagvOW8jwogICAgICAgIHZhbCBwYXJhbXNTdHJpbmcgPSBpZiAocGFyYW1ldGVyc1N0cnVjdHVyZWQgIT0gbnVsbCAmJiBwYXJhbWV0ZXJzU3RydWN0dXJlZC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgcGFyYW1ldGVyc1N0cnVjdHVyZWQuam9pblRvU3RyaW5nKCIsICIpIHsgcGFyYW0gLT4KICAgICAgICAgICAgICAgIC8vIOaehOW7uuWujOaVtOeahOWPguaVsOaPj+i/sAogICAgICAgICAgICAgICAgdmFsIHBhcnRzID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g5re75Yqg5Li75o+P6L+wCiAgICAgICAgICAgICAgICBwYXJ0cy5hZGQocGFyYW0uZGVzY3JpcHRpb24pCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIOWmguaenOaciem7mOiupOWAvOS4lOaPj+i/sOS4reayoeacieaPkOWIsO+8jOa3u+WKoOm7mOiupOWAvOS/oeaBrwogICAgICAgICAgICAgICAgaWYgKHBhcmFtLmRlZmF1bHQgIT0gbnVsbCAmJiAhcGFyYW0uZGVzY3JpcHRpb24uY29udGFpbnMoImRlZmF1bHQiKSkgewogICAgICAgICAgICAgICAgICAgIHBhcnRzLmFkZCgiZGVmYXVsdCAke3BhcmFtLmRlZmF1bHR9IikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgdmFsIGZ1bGxEZXNjID0gcGFydHMuam9pblRvU3RyaW5nKCIsICIpCiAgICAgICAgICAgICAgICAiJHtwYXJhbS5uYW1lfSAoJGZ1bGxEZXNjKSIKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHBhcmFtZXRlcnMKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgaWYgKHBhcmFtc1N0cmluZy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQoIiBQYXJhbWV0ZXJzOiAkcGFyYW1zU3RyaW5nIikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgaWYgKGRldGFpbHMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIGJ1aWxkZXIuYXBwZW5kKCJcbiRkZXRhaWxzIikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgaWYgKG5vdGVzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiXG4kbm90ZXMiKQogICAgICAgIH0KICAgICAgICAKICAgICAgICByZXR1cm4gYnVpbGRlci50b1N0cmluZygpCiAgICB9Cn0KCi8qKgogKiDlt6XlhbfliIbnsbvmlbDmja7nsbsKICog6KGo56S65LiA57uE55u45YWz5bel5YW355qE6ZuG5ZCICiAqLwpkYXRhIGNsYXNzIFN5c3RlbVRvb2xQcm9tcHRDYXRlZ29yeSgKICAgIHZhbCBjYXRlZ29yeU5hbWU6IFN0cmluZywKICAgIHZhbCBjYXRlZ29yeUhlYWRlcjogU3RyaW5nID0gIiIsCiAgICB2YWwgdG9vbHM6IExpc3Q8VG9vbFByb21wdD4sCiAgICB2YWwgY2F0ZWdvcnlGb290ZXI6IFN0cmluZyA9ICIiCikgewogICAgLyoqCiAgICAgKiDlsIbmlbTkuKrliIbnsbvovazmjaLkuLrljp/lp4vns7vnu5/mj5DnpLror43moLzlvI8KICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIHRvU3RyaW5nKCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICAKICAgICAgICBpZiAoY2F0ZWdvcnlOYW1lLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBidWlsZGVyLmFwcGVuZChjYXRlZ29yeU5hbWUpCiAgICAgICAgICAgIGJ1aWxkZXIuYXBwZW5kKCI6IikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgaWYgKGNhdGVnb3J5SGVhZGVyLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiXG4iKQogICAgICAgICAgICBidWlsZGVyLmFwcGVuZChjYXRlZ29yeUhlYWRlcikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgaWYgKHRvb2xzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiXG4iKQogICAgICAgICAgICB0b29scy5mb3JFYWNoSW5kZXhlZCB7IGluZGV4LCB0b29sIC0+CiAgICAgICAgICAgICAgICBidWlsZGVyLmFwcGVuZCh0b29sLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICBpZiAoaW5kZXggPCB0b29scy5zaXplIC0gMSkgewogICAgICAgICAgICAgICAgICAgIGJ1aWxkZXIuYXBwZW5kKCJcbiIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgaWYgKGNhdGVnb3J5Rm9vdGVyLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiXG4iKQogICAgICAgICAgICBidWlsZGVyLmFwcGVuZChjYXRlZ29yeUZvb3RlcikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgcmV0dXJuIGJ1aWxkZXIudG9TdHJpbmcoKQogICAgfQp9CgovKioKICog5YyF5bel5YW35o+Q56S66K+N5YiG57G75pWw5o2u57G7CiAqIOihqOekuuadpeiHquWMhe+8iFBhY2thZ2XvvInnmoTlt6Xlhbfpm4blkIjvvIznlKjkuo7liqjmgIHnlJ/miJDljIXlt6XlhbfnmoTmj5DnpLror40KICovCmRhdGEgY2xhc3MgUGFja2FnZVRvb2xQcm9tcHRDYXRlZ29yeSgKICAgIHZhbCBwYWNrYWdlTmFtZTogU3RyaW5nLAogICAgdmFsIHBhY2thZ2VEZXNjcmlwdGlvbjogU3RyaW5nLAogICAgdmFsIHRvb2xzOiBMaXN0PFRvb2xQcm9tcHQ+CikgewogICAgLyoqCiAgICAgKiDlsIbljIXlt6XlhbfliIbnsbvovazmjaLkuLrns7vnu5/mj5DnpLror43moLzlvI8KICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIHRvU3RyaW5nKCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGJ1aWxkZXIgPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICAKICAgICAgICBidWlsZGVyLmFwcGVuZCgiUGFja2FnZTogJHBhY2thZ2VOYW1lIikKICAgICAgICBidWlsZGVyLmFwcGVuZCgiXG4iKQogICAgICAgIGJ1aWxkZXIuYXBwZW5kKCJEZXNjcmlwdGlvbjogJHBhY2thZ2VEZXNjcmlwdGlvbiIpCiAgICAgICAgCiAgICAgICAgaWYgKHRvb2xzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiXG4iKQogICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiVG9vbHM6IikKICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQoIlxuIikKICAgICAgICAgICAgdG9vbHMuZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgdG9vbCAtPgogICAgICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQodG9vbC50b1N0cmluZygpKQogICAgICAgICAgICAgICAgaWYgKGluZGV4IDwgdG9vbHMuc2l6ZSAtIDEpIHsKICAgICAgICAgICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiXG4iKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIHJldHVybiBidWlsZGVyLnRvU3RyaW5nKCkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.model
+
+/**
+ * 工具参数模式定义（用于定义工具的参数结构）
+ */
+data class ToolParameterSchema(
+    val name: String,
+    val type: String = "string", // "string", "boolean", "integer", "number", "object", "array"
+    val description: String,
+    val required: Boolean = true,
+    val default: String? = null
+)
+
+/**
+ * 工具提示词数据类
+ * 表示单个工具的完整提示词信息
+ */
+data class ToolPrompt(
+    val name: String,
+    val description: String,
+    val parameters: String = "", // 兼容旧格式的字符串参数
+    val parametersStructured: List<ToolParameterSchema>? = null, // 新的结构化参数
+    val details: String = "",
+    val notes: String = ""
+) {
+    /**
+     * 将工具提示词转换为原始系统提示词格式
+     */
+    override fun toString(): String {
+        val builder = StringBuilder()
+        builder.append("- $name: $description")
+        
+        // 优先使用结构化参数，转换为字符串格式
+        val paramsString = if (parametersStructured != null && parametersStructured.isNotEmpty()) {
+            parametersStructured.joinToString(", ") { param ->
+                // 构建完整的参数描述
+                val parts = mutableListOf<String>()
+                
+                // 添加主描述
+                parts.add(param.description)
+                
+                // 如果有默认值且描述中没有提到，添加默认值信息
+                if (param.default != null && !param.description.contains("default")) {
+                    parts.add("default ${param.default}")
+                }
+                
+                val fullDesc = parts.joinToString(", ")
+                "${param.name} ($fullDesc)"
+            }
+        } else {
+            parameters
+        }
+        
+        if (paramsString.isNotEmpty()) {
+            builder.append(" Parameters: $paramsString")
+        }
+        
+        if (details.isNotEmpty()) {
+            builder.append("\n$details")
+        }
+        
+        if (notes.isNotEmpty()) {
+            builder.append("\n$notes")
+        }
+        
+        return builder.toString()
+    }
+}
+
+/**
+ * 工具分类数据类
+ * 表示一组相关工具的集合
+ */
+data class SystemToolPromptCategory(
+    val categoryName: String,
+    val categoryHeader: String = "",
+    val tools: List<ToolPrompt>,
+    val categoryFooter: String = ""
+) {
+    /**
+     * 将整个分类转换为原始系统提示词格式
+     */
+    override fun toString(): String {
+        val builder = StringBuilder()
+        
+        if (categoryName.isNotEmpty()) {
+            builder.append(categoryName)
+            builder.append(":")
+        }
+        
+        if (categoryHeader.isNotEmpty()) {
+            builder.append("\n")
+            builder.append(categoryHeader)
+        }
+        
+        if (tools.isNotEmpty()) {
+            builder.append("\n")
+            tools.forEachIndexed { index, tool ->
+                builder.append(tool.toString())
+                if (index < tools.size - 1) {
+                    builder.append("\n")
+                }
+            }
+        }
+        
+        if (categoryFooter.isNotEmpty()) {
+            builder.append("\n")
+            builder.append(categoryFooter)
+        }
+        
+        return builder.toString()
+    }
+}
+
+/**
+ * 包工具提示词分类数据类
+ * 表示来自包（Package）的工具集合，用于动态生成包工具的提示词
+ */
+data class PackageToolPromptCategory(
+    val packageName: String,
+    val packageDescription: String,
+    val tools: List<ToolPrompt>
+) {
+    /**
+     * 将包工具分类转换为系统提示词格式
+     */
+    override fun toString(): String {
+        val builder = StringBuilder()
+        
+        builder.append("Package: $packageName")
+        builder.append("\n")
+        builder.append("Description: $packageDescription")
+        
+        if (tools.isNotEmpty()) {
+            builder.append("\n")
+            builder.append("Tools:")
+            builder.append("\n")
+            tools.forEachIndexed { index, tool ->
+                builder.append(tool.toString())
+                if (index < tools.size - 1) {
+                    builder.append("\n")
+                }
+            }
+        }
+        
+        return builder.toString()
+    }
+}

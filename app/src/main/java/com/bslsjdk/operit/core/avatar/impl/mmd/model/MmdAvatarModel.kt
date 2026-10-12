@@ -1,1 +1,43 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5tbWQubW9kZWwKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsLkF2YXRhck1vZGVsCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsLkF2YXRhclR5cGUKaW1wb3J0IGphdmEuaW8uRmlsZQoKZGF0YSBjbGFzcyBNbWRBdmF0YXJNb2RlbCgKICAgIG92ZXJyaWRlIHZhbCBpZDogU3RyaW5nLAogICAgb3ZlcnJpZGUgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCBiYXNlUGF0aDogU3RyaW5nLAogICAgdmFsIG1vZGVsRmlsZTogU3RyaW5nLAogICAgdmFsIG1vdGlvbkZpbGU6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIG1vdGlvbkZpbGVzOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKQopIDogQXZhdGFyTW9kZWwgewoKICAgIG92ZXJyaWRlIHZhbCB0eXBlOiBBdmF0YXJUeXBlCiAgICAgICAgZ2V0KCkgPSBBdmF0YXJUeXBlLk1NRAoKICAgIHZhbCBtb2RlbFBhdGg6IFN0cmluZwogICAgICAgIGdldCgpID0gRmlsZShiYXNlUGF0aCwgbW9kZWxGaWxlKS5hYnNvbHV0ZVBhdGgKCiAgICB2YWwgYXZhaWxhYmxlTW90aW9uRmlsZXM6IExpc3Q8U3RyaW5nPgogICAgICAgIGdldCgpIHsKICAgICAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBtb3Rpb25GaWxlcy5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgfS5kaXN0aW5jdCgpCiAgICAgICAgICAgIHJldHVybiBpZiAobm9ybWFsaXplZC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWQKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG1vdGlvbkZpbGU/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9Py5sZXQgeyBsaXN0T2YoaXQpIH0gPzogZW1wdHlMaXN0KCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICB2YWwgbW90aW9uUGF0aDogU3RyaW5nPwogICAgICAgIGdldCgpID0gYXZhaWxhYmxlTW90aW9uRmlsZXMuZmlyc3RPck51bGwoKT8ubGV0IHsgRmlsZShiYXNlUGF0aCwgaXQpLmFic29sdXRlUGF0aCB9CgogICAgdmFsIG1vdGlvblBhdGhzOiBMaXN0PFN0cmluZz4KICAgICAgICBnZXQoKSA9IGF2YWlsYWJsZU1vdGlvbkZpbGVzLm1hcCB7IEZpbGUoYmFzZVBhdGgsIGl0KS5hYnNvbHV0ZVBhdGggfQoKICAgIHZhbCBkaXNwbGF5TW90aW9uTmFtZTogU3RyaW5nPwogICAgICAgIGdldCgpID0gYXZhaWxhYmxlTW90aW9uRmlsZXMuZmlyc3RPck51bGwoKQoKICAgIHZhbCBkaXNwbGF5TW90aW9uTmFtZXM6IExpc3Q8U3RyaW5nPgogICAgICAgIGdldCgpID0gYXZhaWxhYmxlTW90aW9uRmlsZXMKfQo=
+package com.bslsjdk.operit.core.avatar.impl.mmd.model
+
+import com.bslsjdk.operit.core.avatar.common.model.AvatarModel
+import com.bslsjdk.operit.core.avatar.common.model.AvatarType
+import java.io.File
+
+data class MmdAvatarModel(
+    override val id: String,
+    override val name: String,
+    val basePath: String,
+    val modelFile: String,
+    val motionFile: String? = null,
+    val motionFiles: List<String> = emptyList()
+) : AvatarModel {
+
+    override val type: AvatarType
+        get() = AvatarType.MMD
+
+    val modelPath: String
+        get() = File(basePath, modelFile).absolutePath
+
+    val availableMotionFiles: List<String>
+        get() {
+            val normalized = motionFiles.filter { it.isNotBlank() }.distinct()
+            return if (normalized.isNotEmpty()) {
+                normalized
+            } else {
+                motionFile?.takeIf { it.isNotBlank() }?.let { listOf(it) } ?: emptyList()
+            }
+        }
+
+    val motionPath: String?
+        get() = availableMotionFiles.firstOrNull()?.let { File(basePath, it).absolutePath }
+
+    val motionPaths: List<String>
+        get() = availableMotionFiles.map { File(basePath, it).absolutePath }
+
+    val displayMotionName: String?
+        get() = availableMotionFiles.firstOrNull()
+
+    val displayMotionNames: List<String>
+        get() = availableMotionFiles
+}

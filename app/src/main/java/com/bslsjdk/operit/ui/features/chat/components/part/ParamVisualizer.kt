@@ -1,1 +1,113 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnBhcnQKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5MYXp5Q29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5pdGVtcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuQ29udGVudENvcHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb25CdXR0b24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENsaXBib2FyZE1hbmFnZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5Bbm5vdGF0ZWRTdHJpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAoKZGF0YSBjbGFzcyBQYXJhbUl0ZW0odmFsIG5hbWU6IFN0cmluZywgdmFsIHZhbHVlOiBTdHJpbmcpCgpwcml2YXRlIGZ1biB1bmVzY2FwZVhtbChpbnB1dDogU3RyaW5nKTogU3RyaW5nIHsKICAgIHZhciByZXN1bHQgPSBpbnB1dAoKICAgIGlmIChyZXN1bHQuc3RhcnRzV2l0aCgiPCFbQ0RBVEFbIikgJiYgcmVzdWx0LmVuZHNXaXRoKCJdXT4iKSApIHsKICAgICAgICByZXN1bHQgPSByZXN1bHQuc3Vic3RyaW5nKDksIHJlc3VsdC5sZW5ndGggLSAzKQogICAgfQoKICAgIGlmIChyZXN1bHQuZW5kc1dpdGgoIl1dPiIpICkgewogICAgICAgIHJlc3VsdCA9IHJlc3VsdC5zdWJzdHJpbmcoMCwgcmVzdWx0Lmxlbmd0aCAtIDMpCiAgICB9CgogICAgaWYgKHJlc3VsdC5zdGFydHNXaXRoKCI8IVtDREFUQVsiKSApIHsKICAgICAgICByZXN1bHQgPSByZXN1bHQuc3Vic3RyaW5nKDkpCiAgICB9CgogICAgcmV0dXJuIHJlc3VsdC5yZXBsYWNlKCImbHQ7IiwgIjwiKQogICAgICAgIC5yZXBsYWNlKCImZ3Q7IiwgIj4iKQogICAgICAgIC5yZXBsYWNlKCImYW1wOyIsICImIikKICAgICAgICAucmVwbGFjZSgiJnF1b3Q7IiwgIlwiIikKICAgICAgICAucmVwbGFjZSgiJmFwb3M7IiwgIiciKQp9CgpAQ29tcG9zYWJsZQpmdW4gUGFyYW1WaXN1YWxpemVyKHhtbENvbnRlbnQ6IFN0cmluZykgewogICAgdmFsIHBhcmFtcyA9IHJlbWVtYmVyKHhtbENvbnRlbnQpIHsKICAgICAgICB2YWwgcGFyYW1SZWdleCA9ICIiIjxwYXJhbVxzK25hbWU9IihbXiJdKykiPiguKj8pPC9wYXJhbT4iIiIudG9SZWdleChSZWdleE9wdGlvbi5ET1RfTUFUQ0hFU19BTEwpCiAgICAgICAgcGFyYW1SZWdleC5maW5kQWxsKHhtbENvbnRlbnQpLm1hcCB7CiAgICAgICAgICAgIFBhcmFtSXRlbShuYW1lID0gaXQuZ3JvdXBWYWx1ZXNbMV0sIHZhbHVlID0gdW5lc2NhcGVYbWwoaXQuZ3JvdXBWYWx1ZXNbMl0udHJpbSgpKSkKICAgICAgICB9LnRvTGlzdCgpCiAgICB9CgogICAgaWYgKHBhcmFtcy5pc05vdEVtcHR5KCkpIHsKICAgICAgICBMYXp5Q29sdW1uKAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCksCiAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKQogICAgICAgICkgewogICAgICAgICAgICBpdGVtcyhwYXJhbXMpIHsgcGFyYW0gLT4KICAgICAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgICAgICAuY2xpcChSb3VuZGVkQ29ybmVyU2hhcGUoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5iYWNrZ3JvdW5kKE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZSkKICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoMTIuZHApCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICB2YWwgY2xpcGJvYXJkTWFuYWdlciA9IExvY2FsQ2xpcGJvYXJkTWFuYWdlci5jdXJyZW50CiAgICAgICAgICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gcGFyYW0ubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsTGFyZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Cb2xkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICBJY29uQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDI0LmRwKSwgLy8g6ZmQ5Yi2SWNvbkJ1dHRvbueahOWkp+WwjwogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGlwYm9hcmRNYW5hZ2VyLnNldFRleHQoQW5ub3RhdGVkU3RyaW5nKHBhcmFtLnZhbHVlKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5Db250ZW50Q29weSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSAiQ29weSB2YWx1ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeS5jb3B5KGFscGhhID0gMC42ZiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDE2LmRwKSAvLyDpmZDliLZJY29u55qE5aSn5bCPCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDQuZHApKQogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBwYXJhbS52YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0gZWxzZSB7CiAgICAgICAgLy8g5aaC5p6c5peg5rOV6Kej5p6Q5Ye65Y+C5pWw77yM5oiW6ICF5YaF5a655LiN5piv6aKE5pyf55qEWE1M5qC85byP77yM5YiZ55u05o6l5pi+56S65Y6f5aeL5YaF5a65CiAgICAgICAgVGV4dCgKICAgICAgICAgICAgdGV4dCA9IHhtbENvbnRlbnQsCiAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UKICAgICAgICApCiAgICB9Cn0=
+package com.bslsjdk.operit.ui.features.chat.components.part
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ContentCopy
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.platform.LocalClipboardManager
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+
+data class ParamItem(val name: String, val value: String)
+
+private fun unescapeXml(input: String): String {
+    var result = input
+
+    if (result.startsWith("<![CDATA[") && result.endsWith("]]>") ) {
+        result = result.substring(9, result.length - 3)
+    }
+
+    if (result.endsWith("]]>") ) {
+        result = result.substring(0, result.length - 3)
+    }
+
+    if (result.startsWith("<![CDATA[") ) {
+        result = result.substring(9)
+    }
+
+    return result.replace("&lt;", "<")
+        .replace("&gt;", ">")
+        .replace("&amp;", "&")
+        .replace("&quot;", "\"")
+        .replace("&apos;", "'")
+}
+
+@Composable
+fun ParamVisualizer(xmlContent: String) {
+    val params = remember(xmlContent) {
+        val paramRegex = """<param\s+name="([^"]+)">(.*?)</param>""".toRegex(RegexOption.DOT_MATCHES_ALL)
+        paramRegex.findAll(xmlContent).map {
+            ParamItem(name = it.groupValues[1], value = unescapeXml(it.groupValues[2].trim()))
+        }.toList()
+    }
+
+    if (params.isNotEmpty()) {
+        LazyColumn(
+            modifier = Modifier.fillMaxSize(),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            items(params) { param ->
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clip(RoundedCornerShape(8.dp))
+                        .background(MaterialTheme.colorScheme.surface)
+                        .padding(12.dp)
+                ) {
+                    val clipboardManager = LocalClipboardManager.current
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        Text(
+                            text = param.name,
+                            style = MaterialTheme.typography.labelLarge,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.weight(1f)
+                        )
+                        IconButton(
+                            modifier = Modifier.size(24.dp), // 限制IconButton的大小
+                            onClick = {
+                                clipboardManager.setText(AnnotatedString(param.value))
+                            }
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.ContentCopy,
+                                contentDescription = "Copy value",
+                                tint = MaterialTheme.colorScheme.primary.copy(alpha = 0.6f),
+                                modifier = Modifier.size(16.dp) // 限制Icon的大小
+                            )
+                        }
+                    }
+                    Spacer(modifier = Modifier.height(4.dp))
+                    Text(
+                        text = param.value,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                }
+            }
+        }
+    } else {
+        // 如果无法解析出参数，或者内容不是预期的XML格式，则直接显示原始内容
+        Text(
+            text = xmlContent,
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurface
+        )
+    }
+}

@@ -1,1 +1,56 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS53b3JrZmxvdwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnJlcG9zaXRvcnkuV29ya2Zsb3dSZXBvc2l0b3J5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqCiAqIFdvcmtmbG93U2NoZWR1bGVySW5pdGlhbGl6ZXIKICogCiAqIEluaXRpYWxpemVzIHdvcmtmbG93IHNjaGVkdWxpbmcgd2hlbiB0aGUgYXBwIHN0YXJ0cy4KICogUmUtc2NoZWR1bGVzIGFsbCBlbmFibGVkIHdvcmtmbG93cyB0byBlbnN1cmUgdGhleSBjb250aW51ZSBydW5uaW5nCiAqIGV2ZW4gaWYgdGhlIGFwcCB3YXMgZm9yY2Utc3RvcHBlZCBvciB1cGRhdGVkLgogKi8Kb2JqZWN0IFdvcmtmbG93U2NoZWR1bGVySW5pdGlhbGl6ZXIgewogICAgCiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiV29ya2Zsb3dTY2hlZHVsZXJJbml0IgogICAgCiAgICAvKioKICAgICAqIEluaXRpYWxpemUgd29ya2Zsb3cgc2NoZWR1bGluZwogICAgICogU2hvdWxkIGJlIGNhbGxlZCBmcm9tIEFwcGxpY2F0aW9uLm9uQ3JlYXRlKCkKICAgICAqLwogICAgZnVuIGluaXRpYWxpemUoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkluaXRpYWxpemluZyB3b3JrZmxvdyBzY2hlZHVsZXIuLi4iKQogICAgICAgIAogICAgICAgIENvcm91dGluZVNjb3BlKERpc3BhdGNoZXJzLklPKS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHJlcG9zaXRvcnkgPSBXb3JrZmxvd1JlcG9zaXRvcnkoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gcmVwb3NpdG9yeS5nZXRBbGxXb3JrZmxvd3MoKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICByZXN1bHQuZ2V0T3JOdWxsKCk/LmxldCB7IHdvcmtmbG93cyAtPgogICAgICAgICAgICAgICAgICAgIHZhciBzY2hlZHVsZWRDb3VudCA9IDAKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICB3b3JrZmxvd3MuZm9yRWFjaCB7IHdvcmtmbG93IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGlmICh3b3JrZmxvdy5lbmFibGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgc3VjY2VzcyA9IHJlcG9zaXRvcnkuc2NoZWR1bGVXb3JrZmxvdyh3b3JrZmxvdy5pZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzdWNjZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NoZWR1bGVkQ291bnQrKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNjaGVkdWxlZCB3b3JrZmxvdzogJHt3b3JrZmxvdy5uYW1lfSAoJHt3b3JrZmxvdy5pZH0pIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJXb3JrZmxvdyBzY2hlZHVsZXIgaW5pdGlhbGl6ZWQuIFNjaGVkdWxlZCAkc2NoZWR1bGVkQ291bnQgd29ya2Zsb3dzLiIpCiAgICAgICAgICAgICAgICB9ID86IHJ1biB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiRmFpbGVkIHRvIGdldCB3b3JrZmxvd3MgZHVyaW5nIGluaXRpYWxpemF0aW9uIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBpbml0aWFsaXppbmcgd29ya2Zsb3cgc2NoZWR1bGVyIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoK
+package com.bslsjdk.operit.core.workflow
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.data.repository.WorkflowRepository
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+/**
+ * WorkflowSchedulerInitializer
+ * 
+ * Initializes workflow scheduling when the app starts.
+ * Re-schedules all enabled workflows to ensure they continue running
+ * even if the app was force-stopped or updated.
+ */
+object WorkflowSchedulerInitializer {
+    
+    private const val TAG = "WorkflowSchedulerInit"
+    
+    /**
+     * Initialize workflow scheduling
+     * Should be called from Application.onCreate()
+     */
+    fun initialize(context: Context) {
+        AppLogger.d(TAG, "Initializing workflow scheduler...")
+        
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val repository = WorkflowRepository(context.applicationContext)
+                val result = repository.getAllWorkflows()
+                
+                result.getOrNull()?.let { workflows ->
+                    var scheduledCount = 0
+                    
+                    workflows.forEach { workflow ->
+                        if (workflow.enabled) {
+                            val success = repository.scheduleWorkflow(workflow.id)
+                            if (success) {
+                                scheduledCount++
+                                AppLogger.d(TAG, "Scheduled workflow: ${workflow.name} (${workflow.id})")
+                            }
+                        }
+                    }
+                    
+                    AppLogger.d(TAG, "Workflow scheduler initialized. Scheduled $scheduledCount workflows.")
+                } ?: run {
+                    AppLogger.w(TAG, "Failed to get workflows during initialization")
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error initializing workflow scheduler", e)
+            }
+        }
+    }
+}
+

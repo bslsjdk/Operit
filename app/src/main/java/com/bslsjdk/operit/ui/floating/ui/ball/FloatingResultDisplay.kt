@@ -1,1 +1,56 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuYmFsbAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5iYWNrZ3JvdW5kCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uY2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mbG9hdGluZy5GbG9hdENvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mbG9hdGluZy5GbG9hdGluZ01vZGUKCi8qKgogKiDmmL7npLrnu5PmnpznmoTmgqzmta7nu4Tku7YKICog55uu5YmN5Y+q5pi+56S65LiA5Liq566A5Y2V55qEIuS9oOWlvSLmsJTms6EKICovCkBDb21wb3NhYmxlCmZ1biBGbG9hdGluZ1Jlc3VsdERpc3BsYXkoZmxvYXRDb250ZXh0OiBGbG9hdENvbnRleHQpIHsKICAgIC8vIOiOt+WPluacgOWQjuS4gOadoea2iOaBr+eahOWGheWuuQogICAgdmFsIGxhc3RNZXNzYWdlID0gZmxvYXRDb250ZXh0Lm1lc3NhZ2VzLmxhc3RPck51bGwoKQogICAgdmFsIGRpc3BsYXlUZXh0ID0gaWYgKGxhc3RNZXNzYWdlICE9IG51bGwgJiYgbGFzdE1lc3NhZ2Uuc2VuZGVyID09ICJhaSIpIHsKICAgICAgICBsYXN0TWVzc2FnZS5jb250ZW50CiAgICB9IGVsc2UgewogICAgICAgIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmZsb2F0aW5nX2hlbGxvKQogICAgfQoKICAgIEJveCgKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5iYWNrZ3JvdW5kKENvbG9yLlRyYW5zcGFyZW50KSAvLyDog4zmma/pgI/mmI4KICAgICAgICAgICAgLmNsaWNrYWJsZSB7IAogICAgICAgICAgICAgICAgLy8g54K55Ye75YiH5Zue55CD5qih5byPCiAgICAgICAgICAgICAgICBmbG9hdENvbnRleHQub25Nb2RlQ2hhbmdlKEZsb2F0aW5nTW9kZS5CQUxMKSAKICAgICAgICAgICAgfSwKICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcgogICAgKSB7CiAgICAgICAgQm94KAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAuYmFja2dyb3VuZChDb2xvci5XaGl0ZSwgUm91bmRlZENvcm5lclNoYXBlKDEyLmRwKSkKICAgICAgICAgICAgICAgIC5jbGlja2FibGUgeyBmbG9hdENvbnRleHQub25Nb2RlQ2hhbmdlKEZsb2F0aW5nTW9kZS5CQUxMKSB9CiAgICAgICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gMTYuZHAsIHZlcnRpY2FsID0gMTAuZHApCiAgICAgICAgKSB7CiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICB0ZXh0ID0gZGlzcGxheVRleHQsCiAgICAgICAgICAgICAgICBjb2xvciA9IENvbG9yLkJsYWNrLAogICAgICAgICAgICAgICAgZm9udFNpemUgPSAxNi5zcAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.floating.ui.ball
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.res.stringResource
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.floating.FloatContext
+import com.bslsjdk.operit.ui.floating.FloatingMode
+
+/**
+ * 显示结果的悬浮组件
+ * 目前只显示一个简单的"你好"气泡
+ */
+@Composable
+fun FloatingResultDisplay(floatContext: FloatContext) {
+    // 获取最后一条消息的内容
+    val lastMessage = floatContext.messages.lastOrNull()
+    val displayText = if (lastMessage != null && lastMessage.sender == "ai") {
+        lastMessage.content
+    } else {
+        stringResource(R.string.floating_hello)
+    }
+
+    Box(
+        modifier = Modifier
+            .background(Color.Transparent) // 背景透明
+            .clickable { 
+                // 点击切回球模式
+                floatContext.onModeChange(FloatingMode.BALL) 
+            },
+        contentAlignment = Alignment.Center
+    ) {
+        Box(
+            modifier = Modifier
+                .background(Color.White, RoundedCornerShape(12.dp))
+                .clickable { floatContext.onModeChange(FloatingMode.BALL) }
+                .padding(horizontal = 16.dp, vertical = 10.dp)
+        ) {
+            Text(
+                text = displayText,
+                color = Color.Black,
+                fontSize = 16.sp
+            )
+        }
+    }
+}

@@ -1,1 +1,181 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnNxbHZpZXdlcgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmRhdGFiYXNlLkN1cnNvcgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbFByb3ZpZGVyCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUudmlld01vZGVsU2NvcGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5kYi5BcHBEYXRhYmFzZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKCmNsYXNzIFNxbFZpZXdlclZpZXdNb2RlbChwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IFZpZXdNb2RlbCgpIHsKICAgIGRhdGEgY2xhc3MgUXVlcnlSZXN1bHQoCiAgICAgICAgdmFsIGNvbHVtbnM6IExpc3Q8U3RyaW5nPiwKICAgICAgICB2YWwgcm93czogTGlzdDxMaXN0PFN0cmluZz4+CiAgICApCgogICAgZGF0YSBjbGFzcyBTdGF0ZSgKICAgICAgICB2YWwgaXNSdW5uaW5nOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmFsIHJlc3VsdDogUXVlcnlSZXN1bHQ/ID0gbnVsbCwKICAgICAgICB2YWwgZXJyb3I6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHZhbCBtZXNzYWdlOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICB2YWwgYWZmZWN0ZWRSb3dzOiBJbnQ/ID0gbnVsbCwKICAgICAgICB2YWwgbGFzdEJhc2VRdWVyeTogU3RyaW5nID0gIiIsCiAgICAgICAgdmFsIGNhblBhZ2luYXRlOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmFsIGN1cnJlbnRPZmZzZXQ6IEludCA9IDAsCiAgICAgICAgdmFsIHBhZ2VTaXplOiBJbnQgPSA1MCwKICAgICAgICB2YWwgbGFzdEZldGNoQ291bnQ6IEludCA9IDAKICAgICkKCiAgICBwcml2YXRlIHZhbCBfc3RhdGUgPSBNdXRhYmxlU3RhdGVGbG93KFN0YXRlKCkpCiAgICB2YWwgc3RhdGU6IFN0YXRlRmxvdzxTdGF0ZT4gPSBfc3RhdGUuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIGRhdGFiYXNlIGJ5IGxhenkgeyBBcHBEYXRhYmFzZS5nZXREYXRhYmFzZShjb250ZXh0KS5vcGVuSGVscGVyLndyaXRhYmxlRGF0YWJhc2UgfQoKICAgIGZ1biBydW5RdWVyeSgKICAgICAgICByYXdTcWw6IFN0cmluZywKICAgICAgICBwYWdlU2l6ZTogSW50LAogICAgICAgIG9mZnNldDogSW50LAogICAgICAgIGNhblBhZ2luYXRlOiBCb29sZWFuLAogICAgICAgIGFwcGVuZDogQm9vbGVhbgogICAgKSB7CiAgICAgICAgdmFsIHRyaW1tZWQgPSBzYW5pdGl6ZVNxbChyYXdTcWwpCiAgICAgICAgaWYgKHRyaW1tZWQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9IF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICAgICAgZXJyb3IgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zcWxfdmlld2VyX2VtcHR5X3NxbCksCiAgICAgICAgICAgICAgICBtZXNzYWdlID0gbnVsbCwKICAgICAgICAgICAgICAgIGFmZmVjdGVkUm93cyA9IG51bGwKICAgICAgICAgICAgKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgdmFsIGVmZmVjdGl2ZVNxbCA9CiAgICAgICAgICAgIGlmIChjYW5QYWdpbmF0ZSAmJiBpc1F1ZXJ5U3RhdGVtZW50KHRyaW1tZWQpKSB7CiAgICAgICAgICAgICAgICBidWlsZFBhZ2luYXRlZFF1ZXJ5KHRyaW1tZWQsIHBhZ2VTaXplLCBvZmZzZXQpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB0cmltbWVkCiAgICAgICAgICAgIH0KCiAgICAgICAgX3N0YXRlLnZhbHVlID0gX3N0YXRlLnZhbHVlLmNvcHkoaXNSdW5uaW5nID0gdHJ1ZSwgZXJyb3IgPSBudWxsLCBtZXNzYWdlID0gbnVsbCwgYWZmZWN0ZWRSb3dzID0gbnVsbCkKCiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoKERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBpZiAoaXNRdWVyeVN0YXRlbWVudCh0cmltbWVkKSkgewogICAgICAgICAgICAgICAgICAgIHZhbCBxdWVyeVJlc3VsdCA9IGV4ZWN1dGVRdWVyeShlZmZlY3RpdmVTcWwpCiAgICAgICAgICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUgPSBfc3RhdGUudmFsdWUubGV0IHsgY3VycmVudCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG1lcmdlZFJvd3MgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhcHBlbmQgJiYgY3VycmVudC5yZXN1bHQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50LnJlc3VsdC5yb3dzICsgcXVlcnlSZXN1bHQucm93cwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHF1ZXJ5UmVzdWx0LnJvd3MKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50LmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNSdW5uaW5nID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gcXVlcnlSZXN1bHQuY29weShyb3dzID0gbWVyZ2VkUm93cyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFzdEJhc2VRdWVyeSA9IHRyaW1tZWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FuUGFnaW5hdGUgPSBjYW5QYWdpbmF0ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50T2Zmc2V0ID0gb2Zmc2V0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZ2VTaXplID0gcGFnZVNpemUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGFzdEZldGNoQ291bnQgPSBxdWVyeVJlc3VsdC5yb3dzLnNpemUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgZGF0YWJhc2UuZXhlY1NRTCh0cmltbWVkKQogICAgICAgICAgICAgICAgICAgIHZhbCBhZmZlY3RlZCA9IHF1ZXJ5Q2hhbmdlcygpCiAgICAgICAgICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUgPSBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzUnVubmluZyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFmZmVjdGVkUm93cyA9IGFmZmVjdGVkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9ICJPSyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYXN0QmFzZVF1ZXJ5ID0gdHJpbW1lZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhblBhZ2luYXRlID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50T2Zmc2V0ID0gMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZ2VTaXplID0gcGFnZVNpemUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsYXN0RmV0Y2hDb3VudCA9IDAKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5NYWluKSB7CiAgICAgICAgICAgICAgICAgICAgX3N0YXRlLnZhbHVlID0gX3N0YXRlLnZhbHVlLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgIGlzUnVubmluZyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICBlcnJvciA9IGUubWVzc2FnZSA/OiAiVW5rbm93biBlcnJvciIsCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICBhZmZlY3RlZFJvd3MgPSBudWxsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV4ZWN1dGVRdWVyeShzcWw6IFN0cmluZyk6IFF1ZXJ5UmVzdWx0IHsKICAgICAgICBkYXRhYmFzZS5xdWVyeShzcWwpLnVzZSB7IGN1cnNvciAtPgogICAgICAgICAgICB2YWwgY29sdW1ucyA9IGN1cnNvci5jb2x1bW5OYW1lcy50b0xpc3QoKQogICAgICAgICAgICB2YWwgcm93cyA9IG11dGFibGVMaXN0T2Y8TGlzdDxTdHJpbmc+PigpCiAgICAgICAgICAgIHdoaWxlIChjdXJzb3IubW92ZVRvTmV4dCgpKSB7CiAgICAgICAgICAgICAgICB2YWwgcm93ID0gYnVpbGRMaXN0IHsKICAgICAgICAgICAgICAgICAgICBmb3IgKGluZGV4IGluIGNvbHVtbnMuaW5kaWNlcykgewogICAgICAgICAgICAgICAgICAgICAgICBhZGQocmVhZENlbGwoY3Vyc29yLCBpbmRleCkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcm93cy5hZGQocm93KQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBRdWVyeVJlc3VsdChjb2x1bW5zID0gY29sdW1ucywgcm93cyA9IHJvd3MpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlYWRDZWxsKGN1cnNvcjogQ3Vyc29yLCBpbmRleDogSW50KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gd2hlbiAoY3Vyc29yLmdldFR5cGUoaW5kZXgpKSB7CiAgICAgICAgICAgIGFuZHJvaWQuZGF0YWJhc2UuQ3Vyc29yLkZJRUxEX1RZUEVfTlVMTCAtPiAiTlVMTCIKICAgICAgICAgICAgYW5kcm9pZC5kYXRhYmFzZS5DdXJzb3IuRklFTERfVFlQRV9JTlRFR0VSIC0+IGN1cnNvci5nZXRMb25nKGluZGV4KS50b1N0cmluZygpCiAgICAgICAgICAgIGFuZHJvaWQuZGF0YWJhc2UuQ3Vyc29yLkZJRUxEX1RZUEVfRkxPQVQgLT4gY3Vyc29yLmdldERvdWJsZShpbmRleCkudG9TdHJpbmcoKQogICAgICAgICAgICBhbmRyb2lkLmRhdGFiYXNlLkN1cnNvci5GSUVMRF9UWVBFX0JMT0IgLT4gewogICAgICAgICAgICAgICAgdmFsIGJsb2IgPSBjdXJzb3IuZ2V0QmxvYihpbmRleCkKICAgICAgICAgICAgICAgICJCTE9CKCR7YmxvYi5zaXplfSkiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZSAtPiBjdXJzb3IuZ2V0U3RyaW5nKGluZGV4KSA/OiAiIgogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBxdWVyeUNoYW5nZXMoKTogSW50PyB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGRhdGFiYXNlLnF1ZXJ5KCJTRUxFQ1QgY2hhbmdlcygpIik/LnVzZSB7IGN1cnNvciAtPgogICAgICAgICAgICAgICAgaWYgKGN1cnNvci5tb3ZlVG9GaXJzdCgpKSBjdXJzb3IuZ2V0SW50KDApIGVsc2UgbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaXNRdWVyeVN0YXRlbWVudChzcWw6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHZhbCBub3JtYWxpemVkID0gc3FsLnRyaW1TdGFydCgpLmxvd2VyY2FzZSgpCiAgICAgICAgcmV0dXJuIG5vcm1hbGl6ZWQuc3RhcnRzV2l0aCgic2VsZWN0IikgfHwgbm9ybWFsaXplZC5zdGFydHNXaXRoKCJ3aXRoIikgfHwgbm9ybWFsaXplZC5zdGFydHNXaXRoKCJwcmFnbWEiKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkUGFnaW5hdGVkUXVlcnkoYmFzZVF1ZXJ5OiBTdHJpbmcsIGxpbWl0OiBJbnQsIG9mZnNldDogSW50KTogU3RyaW5nIHsKICAgICAgICB2YWwgdHJpbW1lZCA9IHNhbml0aXplU3FsKGJhc2VRdWVyeSkKICAgICAgICByZXR1cm4gIiR0cmltbWVkIExJTUlUICRsaW1pdCBPRkZTRVQgJG9mZnNldCIKICAgIH0KCiAgICBwcml2YXRlIGZ1biBzYW5pdGl6ZVNxbChzcWw6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHNxbC50cmltKCkucmVtb3ZlU3VmZml4KCI7IikKICAgIH0KCiAgICBjbGFzcyBGYWN0b3J5KHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIDogVmlld01vZGVsUHJvdmlkZXIuRmFjdG9yeSB7CiAgICAgICAgQFN1cHByZXNzKCJVTkNIRUNLRURfQ0FTVCIpCiAgICAgICAgb3ZlcnJpZGUgZnVuIDxUIDogVmlld01vZGVsPiBjcmVhdGUobW9kZWxDbGFzczogQ2xhc3M8VD4pOiBUIHsKICAgICAgICAgICAgaWYgKG1vZGVsQ2xhc3MuaXNBc3NpZ25hYmxlRnJvbShTcWxWaWV3ZXJWaWV3TW9kZWw6OmNsYXNzLmphdmEpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gU3FsVmlld2VyVmlld01vZGVsKGNvbnRleHQpIGFzIFQKICAgICAgICAgICAgfQogICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIlVua25vd24gVmlld01vZGVsIGNsYXNzIikKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.toolbox.screens.sqlviewer
+
+import android.content.Context
+import android.database.Cursor
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.db.AppDatabase
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+class SqlViewerViewModel(private val context: Context) : ViewModel() {
+    data class QueryResult(
+        val columns: List<String>,
+        val rows: List<List<String>>
+    )
+
+    data class State(
+        val isRunning: Boolean = false,
+        val result: QueryResult? = null,
+        val error: String? = null,
+        val message: String? = null,
+        val affectedRows: Int? = null,
+        val lastBaseQuery: String = "",
+        val canPaginate: Boolean = false,
+        val currentOffset: Int = 0,
+        val pageSize: Int = 50,
+        val lastFetchCount: Int = 0
+    )
+
+    private val _state = MutableStateFlow(State())
+    val state: StateFlow<State> = _state.asStateFlow()
+
+    private val database by lazy { AppDatabase.getDatabase(context).openHelper.writableDatabase }
+
+    fun runQuery(
+        rawSql: String,
+        pageSize: Int,
+        offset: Int,
+        canPaginate: Boolean,
+        append: Boolean
+    ) {
+        val trimmed = sanitizeSql(rawSql)
+        if (trimmed.isBlank()) {
+            _state.value = _state.value.copy(
+                error = context.getString(R.string.sql_viewer_empty_sql),
+                message = null,
+                affectedRows = null
+            )
+            return
+        }
+        val effectiveSql =
+            if (canPaginate && isQueryStatement(trimmed)) {
+                buildPaginatedQuery(trimmed, pageSize, offset)
+            } else {
+                trimmed
+            }
+
+        _state.value = _state.value.copy(isRunning = true, error = null, message = null, affectedRows = null)
+
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                if (isQueryStatement(trimmed)) {
+                    val queryResult = executeQuery(effectiveSql)
+                    withContext(Dispatchers.Main) {
+                        _state.value = _state.value.let { current ->
+                            val mergedRows =
+                                if (append && current.result != null) {
+                                    current.result.rows + queryResult.rows
+                                } else {
+                                    queryResult.rows
+                                }
+                            current.copy(
+                                isRunning = false,
+                                result = queryResult.copy(rows = mergedRows),
+                                lastBaseQuery = trimmed,
+                                canPaginate = canPaginate,
+                                currentOffset = offset,
+                                pageSize = pageSize,
+                                lastFetchCount = queryResult.rows.size
+                            )
+                        }
+                    }
+                } else {
+                    database.execSQL(trimmed)
+                    val affected = queryChanges()
+                    withContext(Dispatchers.Main) {
+                        _state.value = _state.value.copy(
+                            isRunning = false,
+                            result = null,
+                            affectedRows = affected,
+                            message = "OK",
+                            lastBaseQuery = trimmed,
+                            canPaginate = false,
+                            currentOffset = 0,
+                            pageSize = pageSize,
+                            lastFetchCount = 0
+                        )
+                    }
+                }
+            } catch (e: Exception) {
+                withContext(Dispatchers.Main) {
+                    _state.value = _state.value.copy(
+                        isRunning = false,
+                        error = e.message ?: "Unknown error",
+                        message = null,
+                        affectedRows = null
+                    )
+                }
+            }
+        }
+    }
+
+    private fun executeQuery(sql: String): QueryResult {
+        database.query(sql).use { cursor ->
+            val columns = cursor.columnNames.toList()
+            val rows = mutableListOf<List<String>>()
+            while (cursor.moveToNext()) {
+                val row = buildList {
+                    for (index in columns.indices) {
+                        add(readCell(cursor, index))
+                    }
+                }
+                rows.add(row)
+            }
+            return QueryResult(columns = columns, rows = rows)
+        }
+    }
+
+    private fun readCell(cursor: Cursor, index: Int): String {
+        return when (cursor.getType(index)) {
+            android.database.Cursor.FIELD_TYPE_NULL -> "NULL"
+            android.database.Cursor.FIELD_TYPE_INTEGER -> cursor.getLong(index).toString()
+            android.database.Cursor.FIELD_TYPE_FLOAT -> cursor.getDouble(index).toString()
+            android.database.Cursor.FIELD_TYPE_BLOB -> {
+                val blob = cursor.getBlob(index)
+                "BLOB(${blob.size})"
+            }
+            else -> cursor.getString(index) ?: ""
+        }
+    }
+
+    private fun queryChanges(): Int? {
+        return try {
+            database.query("SELECT changes()")?.use { cursor ->
+                if (cursor.moveToFirst()) cursor.getInt(0) else null
+            }
+        } catch (_: Exception) {
+            null
+        }
+    }
+
+    private fun isQueryStatement(sql: String): Boolean {
+        val normalized = sql.trimStart().lowercase()
+        return normalized.startsWith("select") || normalized.startsWith("with") || normalized.startsWith("pragma")
+    }
+
+    private fun buildPaginatedQuery(baseQuery: String, limit: Int, offset: Int): String {
+        val trimmed = sanitizeSql(baseQuery)
+        return "$trimmed LIMIT $limit OFFSET $offset"
+    }
+
+    private fun sanitizeSql(sql: String): String {
+        return sql.trim().removeSuffix(";")
+    }
+
+    class Factory(private val context: Context) : ViewModelProvider.Factory {
+        @Suppress("UNCHECKED_CAST")
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(SqlViewerViewModel::class.java)) {
+                return SqlViewerViewModel(context) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+}

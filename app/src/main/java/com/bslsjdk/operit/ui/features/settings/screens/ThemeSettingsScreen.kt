@@ -1,1 +1,9 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3Muc2NyZWVucwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3Muc2NyZWVucy50aGVtZS5UaGVtZVNldHRpbmdzQ29udGVudAoKQENvbXBvc2FibGUKZnVuIFRoZW1lU2V0dGluZ3NTY3JlZW4oKSB7CiAgICBUaGVtZVNldHRpbmdzQ29udGVudCgpCn0K
+package com.bslsjdk.operit.ui.features.settings.screens
+
+import androidx.compose.runtime.Composable
+import com.bslsjdk.operit.ui.features.settings.screens.theme.ThemeSettingsContent
+
+@Composable
+fun ThemeSettingsScreen() {
+    ThemeSettingsContent()
+}

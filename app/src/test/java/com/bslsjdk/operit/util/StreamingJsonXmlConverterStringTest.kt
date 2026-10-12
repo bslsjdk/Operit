@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlclN0cmluZ1Rlc3QgewoKICAgIEBUZXN0IGZ1biBzdHJpbmdWYWx1ZV93aXRoU2xhc2hFc2NhcGVfaXNEZWNvZGVkKCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICBhc3NlcnRFcXVhbHMoIlxuICA8cGFyYW0gbmFtZT1cInVybFwiPi9hPC9wYXJhbT4iLCByZW5kZXIoY29udmVydGVyLmZlZWQoIntcInVybFwiOlwiXFwvYVwifSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gc3RyaW5nVmFsdWVfd2l0aEZvcm1GZWVkRXNjYXBlX2lzRGVjb2RlZCgpIHsKICAgICAgICB2YWwgY29udmVydGVyID0gU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlcigpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJcbiAgPHBhcmFtIG5hbWU9XCJ0ZXh0XCI+XHUwMDBjPC9wYXJhbT4iLCByZW5kZXIoY29udmVydGVyLmZlZWQoIntcInRleHRcIjpcIlxcZlwifSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gc3RyaW5nVmFsdWVfd2l0aEJhY2tzcGFjZUVzY2FwZV9pc0RlY29kZWQoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwidGV4dFwiPlxiPC9wYXJhbT4iLCByZW5kZXIoY29udmVydGVyLmZlZWQoIntcInRleHRcIjpcIlxcYlwifSIpKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZW5kZXIoZXZlbnRzOiBMaXN0PFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIuRXZlbnQ+KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gZXZlbnRzLmpvaW5Ub1N0cmluZygiIikgeyBpZiAoaXQgaXMgU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlci5FdmVudC5UYWcpIGl0LnRleHQgZWxzZSAoaXQgYXMgU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlci5FdmVudC5Db250ZW50KS50ZXh0IH0KICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class StreamingJsonXmlConverterStringTest {
+
+    @Test fun stringValue_withSlashEscape_isDecoded() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"url\">/a</param>", render(converter.feed("{\"url\":\"\\/a\"}")))
+    }
+
+    @Test fun stringValue_withFormFeedEscape_isDecoded() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"text\">\u000c</param>", render(converter.feed("{\"text\":\"\\f\"}")))
+    }
+
+    @Test fun stringValue_withBackspaceEscape_isDecoded() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"text\">\b</param>", render(converter.feed("{\"text\":\"\\b\"}")))
+    }
+
+    private fun render(events: List<StreamingJsonXmlConverter.Event>): String {
+        return events.joinToString("") { if (it is StreamingJsonXmlConverter.Event.Tag) it.text else (it as StreamingJsonXmlConverter.Event.Content).text }
+    }
+}

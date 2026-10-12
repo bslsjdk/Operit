@@ -1,1 +1,93 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubGlzdHMKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlDb2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuVG9vbFBhY2thZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5wYWNrYWdlcy5jb21wb25lbnRzLlBhY2thZ2VJdGVtCgpAQ29tcG9zYWJsZQpmdW4gUGFja2FnZXNMaXN0KAogICAgICAgIHBhY2thZ2VzOiBNYXA8U3RyaW5nLCBUb29sUGFja2FnZT4sCiAgICAgICAgaW1wb3J0ZWRQYWNrYWdlczogTGlzdDxTdHJpbmc+LAogICAgICAgIG9uUGFja2FnZUNsaWNrOiAoU3RyaW5nKSAtPiBVbml0LAogICAgICAgIG9uVG9nZ2xlSW1wb3J0OiAoU3RyaW5nLCBCb29sZWFuKSAtPiBVbml0CikgewogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgTGF6eUNvbHVtbigKICAgICAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDYuZHApLAogICAgICAgICAgICBjb250ZW50UGFkZGluZyA9IFBhZGRpbmdWYWx1ZXMoCiAgICAgICAgICAgICAgICBzdGFydCA9IDQuZHAsCiAgICAgICAgICAgICAgICBlbmQgPSA0LmRwLAogICAgICAgICAgICAgICAgdG9wID0gOC5kcCwKICAgICAgICAgICAgICAgIGJvdHRvbSA9IDg4LmRwIC8vIOWinuWKoOW6lemDqOi+uei3nemBv+WFjeiiq0ZBQumBruaMoQogICAgICAgICAgICApCiAgICApIHsKICAgICAgICBpdGVtcyhpdGVtcyA9IHBhY2thZ2VzLmVudHJpZXMudG9MaXN0KCksIGtleSA9IHsgKG5hbWUsIF8pIC0+IG5hbWUgfSkgeyAobmFtZSwgcGFjaykgLT4KICAgICAgICAgICAgdmFsIGlzSW1wb3J0ZWQgPSBpbXBvcnRlZFBhY2thZ2VzLmNvbnRhaW5zKG5hbWUpCiAgICAgICAgICAgIHZhbCBkaXNwbGF5TmFtZSA9IHBhY2suZGlzcGxheU5hbWUucmVzb2x2ZShjb250ZXh0KS5pZkJsYW5rIHsgbmFtZSB9CiAgICAgICAgICAgIFBhY2thZ2VJdGVtKAogICAgICAgICAgICAgICAgICAgIG5hbWUgPSBkaXNwbGF5TmFtZSwKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IHBhY2suZGVzY3JpcHRpb24ucmVzb2x2ZShjb250ZXh0KSwKICAgICAgICAgICAgICAgICAgICBpc0ltcG9ydGVkID0gaXNJbXBvcnRlZCwKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBvblBhY2thZ2VDbGljayhuYW1lKSB9LAogICAgICAgICAgICAgICAgICAgIG9uVG9nZ2xlSW1wb3J0ID0geyBjaGVja2VkIC0+IG9uVG9nZ2xlSW1wb3J0KG5hbWUsIGNoZWNrZWQpIH0KICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKLy8g5L+d55WZ6L+Z5Lqb5Ye95pWw5Lul6Ziy5YW25LuW5Zyw5pa56L+Y5Zyo5L2/55So77yM5L2G5qCH6K6w5Li65bey5byD55SoCkBEZXByZWNhdGVkKCJVc2UgUGFja2FnZXNMaXN0IGluc3RlYWQiKQpAQ29tcG9zYWJsZQpmdW4gQXZhaWxhYmxlUGFja2FnZXNMaXN0KAogICAgICAgIHBhY2thZ2VzOiBNYXA8U3RyaW5nLCBUb29sUGFja2FnZT4sCiAgICAgICAgb25QYWNrYWdlQ2xpY2s6IChTdHJpbmcpIC0+IFVuaXQsCiAgICAgICAgb25JbXBvcnRDbGljazogKFN0cmluZykgLT4gVW5pdAopIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIExhenlDb2x1bW4oCiAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSwKICAgICAgICAgICAgY29udGVudFBhZGRpbmcgPSBQYWRkaW5nVmFsdWVzKGJvdHRvbSA9IDgwLmRwKQogICAgKSB7CiAgICAgICAgaXRlbXMoaXRlbXMgPSBwYWNrYWdlcy5lbnRyaWVzLnRvTGlzdCgpLCBrZXkgPSB7IChuYW1lLCBfKSAtPiBuYW1lIH0pIHsgKG5hbWUsIHBhY2spIC0+CiAgICAgICAgICAgIHZhbCBkaXNwbGF5TmFtZSA9IHBhY2suZGlzcGxheU5hbWUucmVzb2x2ZShjb250ZXh0KS5pZkJsYW5rIHsgbmFtZSB9CiAgICAgICAgICAgIFBhY2thZ2VJdGVtKAogICAgICAgICAgICAgICAgICAgIG5hbWUgPSBkaXNwbGF5TmFtZSwKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IHBhY2suZGVzY3JpcHRpb24ucmVzb2x2ZShjb250ZXh0KSwKICAgICAgICAgICAgICAgICAgICBpc0ltcG9ydGVkID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgb25QYWNrYWdlQ2xpY2sobmFtZSkgfSwKICAgICAgICAgICAgICAgICAgICBvblRvZ2dsZUltcG9ydCA9IHsgaWYgKGl0KSBvbkltcG9ydENsaWNrKG5hbWUpIH0KICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKQERlcHJlY2F0ZWQoIlVzZSBQYWNrYWdlc0xpc3QgaW5zdGVhZCIpCkBDb21wb3NhYmxlCmZ1biBJbXBvcnRlZFBhY2thZ2VzTGlzdCgKICAgICAgICBwYWNrYWdlczogTGlzdDxTdHJpbmc+LAogICAgICAgIGF2YWlsYWJsZVBhY2thZ2VzOiBNYXA8U3RyaW5nLCBUb29sUGFja2FnZT4sCiAgICAgICAgb25QYWNrYWdlQ2xpY2s6IChTdHJpbmcpIC0+IFVuaXQsCiAgICAgICAgb25SZW1vdmVDbGljazogKFN0cmluZykgLT4gVW5pdAopIHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIExhenlDb2x1bW4oCiAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSwKICAgICAgICAgICAgY29udGVudFBhZGRpbmcgPSBQYWRkaW5nVmFsdWVzKGJvdHRvbSA9IDgwLmRwKQogICAgKSB7CiAgICAgICAgaXRlbXMoaXRlbXMgPSBwYWNrYWdlcywga2V5ID0geyBuYW1lIC0+IG5hbWUgfSkgeyBuYW1lIC0+CiAgICAgICAgICAgIHZhbCBkaXNwbGF5TmFtZSA9IGF2YWlsYWJsZVBhY2thZ2VzW25hbWVdPy5kaXNwbGF5TmFtZT8ucmVzb2x2ZShjb250ZXh0KS5vckVtcHR5KCkuaWZCbGFuayB7IG5hbWUgfQogICAgICAgICAgICBQYWNrYWdlSXRlbSgKICAgICAgICAgICAgICAgICAgICBuYW1lID0gZGlzcGxheU5hbWUsCiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBhdmFpbGFibGVQYWNrYWdlc1tuYW1lXT8uZGVzY3JpcHRpb24/LnJlc29sdmUoY29udGV4dCkgPzogIiIsCiAgICAgICAgICAgICAgICAgICAgaXNJbXBvcnRlZCA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgb25QYWNrYWdlQ2xpY2sobmFtZSkgfSwKICAgICAgICAgICAgICAgICAgICBvblRvZ2dsZUltcG9ydCA9IHsgaWYgKCFpdCkgb25SZW1vdmVDbGljayhuYW1lKSB9CiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.packages.lists
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.core.tools.ToolPackage
+import com.bslsjdk.operit.ui.features.packages.components.PackageItem
+
+@Composable
+fun PackagesList(
+        packages: Map<String, ToolPackage>,
+        importedPackages: List<String>,
+        onPackageClick: (String) -> Unit,
+        onToggleImport: (String, Boolean) -> Unit
+) {
+    val context = LocalContext.current
+    LazyColumn(
+            verticalArrangement = Arrangement.spacedBy(6.dp),
+            contentPadding = PaddingValues(
+                start = 4.dp,
+                end = 4.dp,
+                top = 8.dp,
+                bottom = 88.dp // 增加底部边距避免被FAB遮挡
+            )
+    ) {
+        items(items = packages.entries.toList(), key = { (name, _) -> name }) { (name, pack) ->
+            val isImported = importedPackages.contains(name)
+            val displayName = pack.displayName.resolve(context).ifBlank { name }
+            PackageItem(
+                    name = displayName,
+                    description = pack.description.resolve(context),
+                    isImported = isImported,
+                    onClick = { onPackageClick(name) },
+                    onToggleImport = { checked -> onToggleImport(name, checked) }
+            )
+        }
+    }
+}
+
+// 保留这些函数以防其他地方还在使用，但标记为已弃用
+@Deprecated("Use PackagesList instead")
+@Composable
+fun AvailablePackagesList(
+        packages: Map<String, ToolPackage>,
+        onPackageClick: (String) -> Unit,
+        onImportClick: (String) -> Unit
+) {
+    val context = LocalContext.current
+    LazyColumn(
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+            contentPadding = PaddingValues(bottom = 80.dp)
+    ) {
+        items(items = packages.entries.toList(), key = { (name, _) -> name }) { (name, pack) ->
+            val displayName = pack.displayName.resolve(context).ifBlank { name }
+            PackageItem(
+                    name = displayName,
+                    description = pack.description.resolve(context),
+                    isImported = false,
+                    onClick = { onPackageClick(name) },
+                    onToggleImport = { if (it) onImportClick(name) }
+            )
+        }
+    }
+}
+
+@Deprecated("Use PackagesList instead")
+@Composable
+fun ImportedPackagesList(
+        packages: List<String>,
+        availablePackages: Map<String, ToolPackage>,
+        onPackageClick: (String) -> Unit,
+        onRemoveClick: (String) -> Unit
+) {
+    val context = LocalContext.current
+    LazyColumn(
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+            contentPadding = PaddingValues(bottom = 80.dp)
+    ) {
+        items(items = packages, key = { name -> name }) { name ->
+            val displayName = availablePackages[name]?.displayName?.resolve(context).orEmpty().ifBlank { name }
+            PackageItem(
+                    name = displayName,
+                    description = availablePackages[name]?.description?.resolve(context) ?: "",
+                    isImported = true,
+                    onClick = { onPackageClick(name) },
+                    onToggleImport = { if (!it) onRemoveClick(name) }
+            )
+        }
+    }
+}

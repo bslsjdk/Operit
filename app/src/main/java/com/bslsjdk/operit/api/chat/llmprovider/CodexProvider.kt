@@ -1,1 +1,303 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LkJ1aWxkQ29uZmlnCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuQ29kZXhBdXRoTWFuYWdlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLkNvZGV4T0F1dGhQcm90b2NvbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQXBpUHJvdmlkZXJUeXBlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbE9wdGlvbgppbXBvcnQgamF2YS51dGlsLlVVSUQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudAppbXBvcnQgb2todHRwMy5SZXF1ZXN0CmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCnByaXZhdGUgY2xhc3MgQ29kZXhBY2Nlc3NUb2tlblByb3ZpZGVyKAogICAgcHJpdmF0ZSB2YWwgYXV0aE1hbmFnZXI6IENvZGV4QXV0aE1hbmFnZXIsCikgOiBBcGlLZXlQcm92aWRlciB7CiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBnZXRBcGlLZXkoKTogU3RyaW5nID0gYXV0aE1hbmFnZXIuZ2V0VmFsaWRBY2Nlc3NUb2tlbigpCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZ2V0Q2FuZGlkYXRlS2V5Q291bnQoKTogSW50ID0KICAgICAgICBpZiAoYXV0aE1hbmFnZXIuYXV0aFN0YXRlLnZhbHVlID09IG51bGwpIDAgZWxzZSAxCn0KCmNsYXNzIENvZGV4UHJvdmlkZXIoCiAgICBwcml2YXRlIHZhbCBhdXRoTWFuYWdlcjogQ29kZXhBdXRoTWFuYWdlciwKICAgIG1vZGVsTmFtZTogU3RyaW5nLAogICAgcHJpdmF0ZSB2YWwgaHR0cENsaWVudDogT2tIdHRwQ2xpZW50LAogICAgY3VzdG9tSGVhZGVyczogTWFwPFN0cmluZywgU3RyaW5nPiA9IGVtcHR5TWFwKCksCiAgICBzdXBwb3J0c1Zpc2lvbjogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNBdWRpbzogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNWaWRlbzogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNGaWxlczogQm9vbGVhbiA9IGZhbHNlLAogICAgZW5hYmxlVG9vbENhbGw6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHByaXZhdGUgdmFsIGVuYWJsZVdlYlNlYXJjaDogQm9vbGVhbiA9IGZhbHNlLAogICAgdGhpbmtpbmdDb25maWd1cmF0aW9uczogU3RyaW5nID0gIiIsCiAgICB0aGlua2luZ09wdGlvbklkOiBTdHJpbmcgPSAiIiwKKSA6IE9wZW5BSVJlc3BvbnNlc1Byb3ZpZGVyKAogICAgcmVzcG9uc2VzQXBpRW5kcG9pbnQgPSBDb2RleE9BdXRoUHJvdG9jb2wuQ09ERVhfUkVTUE9OU0VTX0VORFBPSU5ULAogICAgYXBpS2V5UHJvdmlkZXIgPSBDb2RleEFjY2Vzc1Rva2VuUHJvdmlkZXIoYXV0aE1hbmFnZXIpLAogICAgbW9kZWxOYW1lID0gbW9kZWxOYW1lLAogICAgY2xpZW50ID0gaHR0cENsaWVudCwKICAgIGN1c3RvbUhlYWRlcnMgPSBjdXN0b21IZWFkZXJzLAogICAgcmVzcG9uc2VzUHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9DT0RFWCwKICAgIHN1cHBvcnRzVmlzaW9uID0gc3VwcG9ydHNWaXNpb24sCiAgICBzdXBwb3J0c0F1ZGlvID0gc3VwcG9ydHNBdWRpbywKICAgIHN1cHBvcnRzVmlkZW8gPSBzdXBwb3J0c1ZpZGVvLAogICAgc3VwcG9ydHNGaWxlcyA9IHN1cHBvcnRzRmlsZXMsCiAgICBlbmFibGVUb29sQ2FsbCA9IGVuYWJsZVRvb2xDYWxsLAogICAgdGhpbmtpbmdDb25maWd1cmF0aW9ucyA9IHRoaW5raW5nQ29uZmlndXJhdGlvbnMsCiAgICB0aGlua2luZ09wdGlvbklkID0gdGhpbmtpbmdPcHRpb25JZCwKKSB7CiAgICBvdmVycmlkZSBmdW4gYXBwbHlBdXRoZW50aWNhdGlvbkhlYWRlcnMoYnVpbGRlcjogUmVxdWVzdC5CdWlsZGVyLCBjdXJyZW50QXBpS2V5OiBTdHJpbmcpIHsKICAgICAgICBzdXBlci5hcHBseUF1dGhlbnRpY2F0aW9uSGVhZGVycyhidWlsZGVyLCBjdXJyZW50QXBpS2V5KQogICAgICAgIHZhbCBhY2NvdW50SWQgPSBhdXRoTWFuYWdlci5jdXJyZW50QWNjb3VudElkKCkKICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJDb2RleCBhY2NvdW50IElEIGlzIHVuYXZhaWxhYmxlIikKICAgICAgICBidWlsZGVyLmhlYWRlcigiQ2hhdEdQVC1BY2NvdW50LUlEIiwgYWNjb3VudElkKQogICAgICAgIGJ1aWxkZXIuaGVhZGVyKCJvcmlnaW5hdG9yIiwgIm9wZXJpdCIpCiAgICAgICAgYnVpbGRlci5oZWFkZXIoIlVzZXItQWdlbnQiLCAiT3Blcml0LyR7QnVpbGRDb25maWcuVkVSU0lPTl9OQU1FfSIpCiAgICAgICAgYnVpbGRlci5oZWFkZXIoInNlc3Npb24taWQiLCBVVUlELnJhbmRvbVVVSUQoKS50b1N0cmluZygpKQogICAgICAgIGF1dGhNYW5hZ2VyLmN1cnJlbnRSZXNpZGVuY3koKT8ubGV0IHsgcmVzaWRlbmN5IC0+CiAgICAgICAgICAgIGJ1aWxkZXIuaGVhZGVyKCJ4LW9wZW5haS1pbnRlcm5hbC1jb2RleC1yZXNpZGVuY3kiLCByZXNpZGVuY3kpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBjdXN0b21pemVGaW5hbFJlcXVlc3RPYmplY3QoCiAgICAgICAgcmVxdWVzdE9iamVjdDogSlNPTk9iamVjdCwKICAgICAgICBtZXNzYWdlc0FycmF5OiBKU09OQXJyYXksCiAgICAgICAgdG9vbHNKc29uOiBTdHJpbmc/LAogICAgKSB7CiAgICAgICAgc3VwZXIuY3VzdG9taXplRmluYWxSZXF1ZXN0T2JqZWN0KHJlcXVlc3RPYmplY3QsIG1lc3NhZ2VzQXJyYXksIHRvb2xzSnNvbikKICAgICAgICBpZiAoZW5hYmxlV2ViU2VhcmNoKSB7CiAgICAgICAgICAgIGFwcGVuZFdlYlNlYXJjaFRvb2wocmVxdWVzdE9iamVjdCkKICAgICAgICB9CiAgICAgICAgQ29kZXhNb2RlbFZhcmlhbnQuYXBwbHlSZXF1ZXN0UGFyYW1ldGVycyhyZXF1ZXN0T2JqZWN0LCBtb2RlbE5hbWUpCiAgICAgICAgcmVxdWVzdE9iamVjdC5wdXQoInN0b3JlIiwgZmFsc2UpCiAgICAgICAgcmVxdWVzdE9iamVjdC5wdXQoInBhcmFsbGVsX3Rvb2xfY2FsbHMiLCBmYWxzZSkKICAgICAgICB2YWwgaW5jbHVkZSA9IHJlcXVlc3RPYmplY3Qub3B0SlNPTkFycmF5KCJpbmNsdWRlIikgPzogSlNPTkFycmF5KCkuYWxzbyB7CiAgICAgICAgICAgIHJlcXVlc3RPYmplY3QucHV0KCJpbmNsdWRlIiwgaXQpCiAgICAgICAgfQogICAgICAgIGlmICghY29udGFpbnNTdHJpbmcoaW5jbHVkZSwgInJlYXNvbmluZy5lbmNyeXB0ZWRfY29udGVudCIpKSB7CiAgICAgICAgICAgIGluY2x1ZGUucHV0KCJyZWFzb25pbmcuZW5jcnlwdGVkX2NvbnRlbnQiKQogICAgICAgIH0KICAgICAgICBpZiAoZW5hYmxlV2ViU2VhcmNoICYmICFjb250YWluc1N0cmluZyhpbmNsdWRlLCAid2ViX3NlYXJjaF9jYWxsLmFjdGlvbi5zb3VyY2VzIikpIHsKICAgICAgICAgICAgaW5jbHVkZS5wdXQoIndlYl9zZWFyY2hfY2FsbC5hY3Rpb24uc291cmNlcyIpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBmb3JtYXRSZXNwb25zZXNXZWJTZWFyY2hEaXNwbGF5WG1sKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgaXRlbTogSlNPTk9iamVjdCwKICAgICAgICByZXNwb25zZTogSlNPTk9iamVjdD8KICAgICk6IFN0cmluZz8gewogICAgICAgIGlmIChpdGVtLm9wdFN0cmluZygidHlwZSIsICIiKSAhPSAid2ViX3NlYXJjaF9jYWxsIikgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KCiAgICAgICAgdmFsIGFjdGlvbiA9IGl0ZW0ub3B0SlNPTk9iamVjdCgiYWN0aW9uIikKICAgICAgICB2YWwgYWN0aW9uVHlwZSA9IGFjdGlvbj8ub3B0U3RyaW5nKCJ0eXBlIiwgIiIpPy50cmltKCkub3JFbXB0eSgpCiAgICAgICAgdmFsIHF1ZXJpZXMgPSBjb2xsZWN0UmVzcG9uc2VzV2ViU2VhcmNoUXVlcmllcyhhY3Rpb24sIGFjdGlvblR5cGUpCiAgICAgICAgdmFsIHN0YXR1cyA9IGl0ZW0ub3B0U3RyaW5nKCJzdGF0dXMiLCAiIikudHJpbSgpCiAgICAgICAgdmFsIHNvdXJjZXMgPSBtZXJnZVJlc3BvbnNlc1dlYlNlYXJjaFNvdXJjZXMoCiAgICAgICAgICAgIHByaW1hcnkgPSBjb2xsZWN0UmVzcG9uc2VzV2ViU2VhcmNoQWN0aW9uU291cmNlcyhhY3Rpb24sIGFjdGlvblR5cGUpICsKICAgICAgICAgICAgICAgIGNvbGxlY3RSZXNwb25zZXNXZWJTZWFyY2hTb3VyY2VBcnJheShhY3Rpb24/Lm9wdEpTT05BcnJheSgic291cmNlcyIpKSwKICAgICAgICAgICAgYWRkaXRpb25hbCA9IGNvbGxlY3RSZXNwb25zZXNXZWJTZWFyY2hTb3VyY2VzKHJlc3BvbnNlKQogICAgICAgICkKICAgICAgICBpZiAocXVlcmllcy5pc0VtcHR5KCkgJiYgc291cmNlcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIHJldHVybiBidWlsZENvZGV4U2VhcmNoWG1sKAogICAgICAgICAgICBhY3Rpb25UeXBlID0gYWN0aW9uVHlwZSwKICAgICAgICAgICAgcXVlcmllcyA9IHF1ZXJpZXMsCiAgICAgICAgICAgIHN0YXR1cyA9IHN0YXR1cywKICAgICAgICAgICAgc291cmNlcyA9IHNvdXJjZXMsCiAgICAgICAgKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGdldE1vZGVsc0xpc3QoX2NvbnRleHQ6IENvbnRleHQpOiBSZXN1bHQ8TGlzdDxNb2RlbE9wdGlvbj4+IHsKICAgICAgICByZXR1cm4gQ29kZXhNb2RlbExpc3RGZXRjaGVyLmdldE1vZGVsc0xpc3QoaHR0cENsaWVudCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBhcHBlbmRXZWJTZWFyY2hUb29sKHJlcXVlc3RPYmplY3Q6IEpTT05PYmplY3QpIHsKICAgICAgICB2YWwgdG9vbHMgPSByZXF1ZXN0T2JqZWN0Lm9wdEpTT05BcnJheSgidG9vbHMiKSA/OiBKU09OQXJyYXkoKS5hbHNvIHsKICAgICAgICAgICAgcmVxdWVzdE9iamVjdC5wdXQoInRvb2xzIiwgaXQpCiAgICAgICAgfQogICAgICAgIGZvciAoaW5kZXggaW4gMCB1bnRpbCB0b29scy5sZW5ndGgoKSkgewogICAgICAgICAgICB2YWwgdG9vbCA9IHRvb2xzLm9wdEpTT05PYmplY3QoaW5kZXgpID86IGNvbnRpbnVlCiAgICAgICAgICAgIGlmICh0b29sLm9wdFN0cmluZygidHlwZSIpID09ICJ3ZWJfc2VhcmNoIikgewogICAgICAgICAgICAgICAgcmVxdWVzdE9iamVjdC5wdXQoInRvb2xfY2hvaWNlIiwgImF1dG8iKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgdG9vbHMucHV0KEpTT05PYmplY3QoKS5wdXQoInR5cGUiLCAid2ViX3NlYXJjaCIpKQogICAgICAgIHJlcXVlc3RPYmplY3QucHV0KCJ0b29sX2Nob2ljZSIsICJhdXRvIikKICAgIH0KCiAgICBwcml2YXRlIGZ1biBjb250YWluc1N0cmluZyhhcnJheTogSlNPTkFycmF5LCB2YWx1ZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgZm9yIChpbmRleCBpbiAwIHVudGlsIGFycmF5Lmxlbmd0aCgpKSB7CiAgICAgICAgICAgIGlmIChhcnJheS5vcHRTdHJpbmcoaW5kZXgpID09IHZhbHVlKSByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZENvZGV4U2VhcmNoWG1sKAogICAgICAgIGFjdGlvblR5cGU6IFN0cmluZywKICAgICAgICBxdWVyaWVzOiBMaXN0PFN0cmluZz4sCiAgICAgICAgc3RhdHVzOiBTdHJpbmcsCiAgICAgICAgc291cmNlczogTGlzdDxSZXNwb25zZXNXZWJTZWFyY2hTb3VyY2U+CiAgICApOiBTdHJpbmcgewogICAgICAgIHJldHVybiBidWlsZFN0cmluZyB7CiAgICAgICAgICAgIGFwcGVuZCgiPHNlYXJjaCIpCiAgICAgICAgICAgIGFwcGVuZFhtbEF0dHJpYnV0ZSgicHJvdmlkZXIiLCAiY29kZXgiKQogICAgICAgICAgICBhcHBlbmRYbWxBdHRyaWJ1dGUoImFjdGlvbiIsIGFjdGlvblR5cGUpCiAgICAgICAgICAgIGFwcGVuZFhtbEF0dHJpYnV0ZSgic3RhdHVzIiwgc3RhdHVzKQogICAgICAgICAgICBhcHBlbmQoIj4iKQogICAgICAgICAgICBxdWVyaWVzLmZvckVhY2ggeyBxdWVyeSAtPgogICAgICAgICAgICAgICAgYXBwZW5kKCJcbiAgPHF1ZXJ5PiIpCiAgICAgICAgICAgICAgICBhcHBlbmQoZXNjYXBlWG1sVGV4dChxdWVyeSkpCiAgICAgICAgICAgICAgICBhcHBlbmQoIjwvcXVlcnk+IikKICAgICAgICAgICAgfQogICAgICAgICAgICBzb3VyY2VzLmZvckVhY2ggeyBzb3VyY2UgLT4KICAgICAgICAgICAgICAgIGFwcGVuZCgiXG4gIDxzb3VyY2UiKQogICAgICAgICAgICAgICAgYXBwZW5kUmVzcG9uc2VzV2ViU2VhcmNoU291cmNlQXR0cmlidXRlcyh0aGlzLCBzb3VyY2UpCiAgICAgICAgICAgICAgICBhcHBlbmQoIiAvPiIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXBwZW5kKCJcbjwvc2VhcmNoPiIpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIFN0cmluZ0J1aWxkZXIuYXBwZW5kWG1sQXR0cmlidXRlKG5hbWU6IFN0cmluZywgdmFsdWU6IFN0cmluZykgewogICAgICAgIGlmICh2YWx1ZS5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIGFwcGVuZCgiICIpCiAgICAgICAgYXBwZW5kKG5hbWUpCiAgICAgICAgYXBwZW5kKCI9XCIiKQogICAgICAgIGFwcGVuZChlc2NhcGVYbWxBdHRyaWJ1dGUodmFsdWUpKQogICAgICAgIGFwcGVuZCgiXCIiKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGVzY2FwZVhtbEF0dHJpYnV0ZSh0ZXh0OiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB0ZXh0CiAgICAgICAgICAgIC5yZXBsYWNlKCImIiwgIiZhbXA7IikKICAgICAgICAgICAgLnJlcGxhY2UoIjwiLCAiJmx0OyIpCiAgICAgICAgICAgIC5yZXBsYWNlKCI+IiwgIiZndDsiKQogICAgICAgICAgICAucmVwbGFjZSgiXCIiLCAiJnF1b3Q7IikKICAgICAgICAgICAgLnJlcGxhY2UoIiciLCAiJmFwb3M7IikKICAgIH0KCiAgICBwcml2YXRlIGZ1biBlc2NhcGVYbWxUZXh0KHRleHQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHRleHQKICAgICAgICAgICAgLnJlcGxhY2UoIiYiLCAiJmFtcDsiKQogICAgICAgICAgICAucmVwbGFjZSgiPCIsICImbHQ7IikKICAgICAgICAgICAgLnJlcGxhY2UoIj4iLCAiJmd0OyIpCiAgICB9Cgp9CgpvYmplY3QgQ29kZXhNb2RlbFBvbGljeSB7CiAgICBwcml2YXRlIHZhbCBleHBsaWNpdGx5QWxsb3dlZCA9IHNldE9mKAogICAgICAgICJncHQtNS41IiwKICAgICAgICAiZ3B0LTUuMy1jb2RleC1zcGFyayIsCiAgICAgICAgImdwdC01LjQiLAogICAgICAgICJncHQtNS40LW1pbmkiLAogICAgKQogICAgcHJpdmF0ZSB2YWwgZXhwbGljaXRseURpc2FsbG93ZWQgPSBzZXRPZigiZ3B0LTUuNS1wcm8iKQogICAgcHJpdmF0ZSB2YWwgdmVyc2lvblBhdHRlcm4gPSBSZWdleCgiXmdwdC0oXFxkK1xcLlxcZCspIikKCiAgICBmdW4gYWxsb3dzKG1vZGVsSWQ6IFN0cmluZywgcmVhc29uaW5nTW9kZTogU3RyaW5nPyA9IG51bGwpOiBCb29sZWFuIHsKICAgICAgICB2YWwgbm9ybWFsaXplZCA9IG1vZGVsSWQudHJpbSgpLmxvd2VyY2FzZSgpCiAgICAgICAgaWYgKHJlYXNvbmluZ01vZGU/LnRyaW0oKT8uZXF1YWxzKCJwcm8iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgPT0gdHJ1ZSkgcmV0dXJuIGZhbHNlCiAgICAgICAgaWYgKG5vcm1hbGl6ZWQgaW4gZXhwbGljaXRseURpc2FsbG93ZWQpIHJldHVybiBmYWxzZQogICAgICAgIGlmIChub3JtYWxpemVkIGluIGV4cGxpY2l0bHlBbGxvd2VkKSByZXR1cm4gdHJ1ZQogICAgICAgIGlmIChub3JtYWxpemVkID09ICJncHQtNS42IikgcmV0dXJuIGZhbHNlCiAgICAgICAgdmFsIHZlcnNpb24gPSB2ZXJzaW9uUGF0dGVybi5maW5kKG5vcm1hbGl6ZWQpPy5ncm91cFZhbHVlcz8uZ2V0KDEpPy50b0RvdWJsZU9yTnVsbCgpCiAgICAgICAgICAgID86IHJldHVybiBmYWxzZQogICAgICAgIHJldHVybiB2ZXJzaW9uID4gNS40CiAgICB9Cn0KCmludGVybmFsIG9iamVjdCBDb2RleE1vZGVsVmFyaWFudCB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBGQVNUX1NVRkZJWCA9ICItZmFzdCIKCiAgICBmdW4gYXBwbHlSZXF1ZXN0UGFyYW1ldGVycyhyZXF1ZXN0T2JqZWN0OiBKU09OT2JqZWN0LCBtb2RlbE5hbWU6IFN0cmluZykgewogICAgICAgIHZhbCBhcGlNb2RlbElkID0gYXBpTW9kZWxJZChtb2RlbE5hbWUpCiAgICAgICAgaWYgKGFwaU1vZGVsSWQgPT0gbW9kZWxOYW1lKSByZXR1cm4KCiAgICAgICAgcmVxdWVzdE9iamVjdC5wdXQoIm1vZGVsIiwgYXBpTW9kZWxJZCkKICAgICAgICByZXF1ZXN0T2JqZWN0LnB1dCgic2VydmljZV90aWVyIiwgInByaW9yaXR5IikKICAgIH0KCiAgICBmdW4gYXBpTW9kZWxJZChtb2RlbE5hbWU6IFN0cmluZyk6IFN0cmluZyA9IG1vZGVsTmFtZS5yZW1vdmVTdWZmaXgoRkFTVF9TVUZGSVgpCn0KCm9iamVjdCBDb2RleE1vZGVsTGlzdEZldGNoZXIgewogICAgc3VzcGVuZCBmdW4gZ2V0TW9kZWxzTGlzdCgKICAgICAgICBodHRwQ2xpZW50OiBPa0h0dHBDbGllbnQgPSBTaGFyZWRIdHRwQ2xpZW50Lmluc3RhbmNlLAogICAgKTogUmVzdWx0PExpc3Q8TW9kZWxPcHRpb24+PiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCByZXF1ZXN0ID0gUmVxdWVzdC5CdWlsZGVyKCkKICAgICAgICAgICAgICAgIC51cmwoQ29kZXhPQXV0aFByb3RvY29sLk1PREVMX0NBVEFMT0dfRU5EUE9JTlQpCiAgICAgICAgICAgICAgICAuZ2V0KCkKICAgICAgICAgICAgICAgIC5oZWFkZXIoIlVzZXItQWdlbnQiLCAiT3Blcml0LyR7QnVpbGRDb25maWcuVkVSU0lPTl9OQU1FfSIpCiAgICAgICAgICAgICAgICAuaGVhZGVyKCJBY2NlcHQiLCAiYXBwbGljYXRpb24vanNvbiIpCiAgICAgICAgICAgICAgICAuYnVpbGQoKQogICAgICAgICAgICB2YWwgcmVzcG9uc2VCb2R5ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgIGh0dHBDbGllbnQubmV3Q2FsbChyZXF1ZXN0KS5leGVjdXRlKCkudXNlIHsgcmVzcG9uc2UgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgYm9keSA9IHJlc3BvbnNlLmJvZHk/LnN0cmluZygpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgICAgIGlmICghcmVzcG9uc2UuaXNTdWNjZXNzZnVsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiT3BlbkNvZGUgbW9kZWwgY2F0YWxvZyByZXF1ZXN0IGZhaWxlZCB3aXRoIEhUVFAgJHtyZXNwb25zZS5jb2RlfSIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGJvZHkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBSZXN1bHQuc3VjY2VzcyhwYXJzZU1vZGVscyhyZXNwb25zZUJvZHkpKQogICAgICAgIH0gY2F0Y2ggKGVycm9yOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgUmVzdWx0LmZhaWx1cmUoZXJyb3IpCiAgICAgICAgfQogICAgfQoKICAgIGludGVybmFsIGZ1biBwYXJzZU1vZGVscyhyZXNwb25zZUJvZHk6IFN0cmluZyk6IExpc3Q8TW9kZWxPcHRpb24+IHsKICAgICAgICB2YWwgcm9vdCA9IEpTT05PYmplY3QocmVzcG9uc2VCb2R5KQogICAgICAgIHZhbCBvcGVuQWlQcm92aWRlciA9IHJvb3Qub3B0SlNPTk9iamVjdCgib3BlbmFpIikKICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJPcGVuQ29kZSBtb2RlbCBjYXRhbG9nIGhhcyBubyBvcGVuYWkgcHJvdmlkZXIiKQogICAgICAgIHZhbCBtb2RlbHMgPSBvcGVuQWlQcm92aWRlci5vcHRKU09OT2JqZWN0KCJtb2RlbHMiKQogICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIk9wZW5Db2RlIG1vZGVsIGNhdGFsb2cgaGFzIG5vIG9wZW5haSBtb2RlbHMiKQogICAgICAgIHZhbCByZXN1bHQgPSBtdXRhYmxlTGlzdE9mPE1vZGVsT3B0aW9uPigpCiAgICAgICAgdmFsIG1vZGVsS2V5cyA9IG1vZGVscy5rZXlzKCkKICAgICAgICB3aGlsZSAobW9kZWxLZXlzLmhhc05leHQoKSkgewogICAgICAgICAgICB2YWwgbW9kZWxLZXkgPSBtb2RlbEtleXMubmV4dCgpCiAgICAgICAgICAgIHZhbCBtb2RlbCA9IG1vZGVscy5vcHRKU09OT2JqZWN0KG1vZGVsS2V5KSA/OiBjb250aW51ZQogICAgICAgICAgICB2YWwgaWQgPSBtb2RlbC5vcHRTdHJpbmcoImlkIikudHJpbSgpCiAgICAgICAgICAgIHZhbCBuYW1lID0gbW9kZWwub3B0U3RyaW5nKCJuYW1lIikudHJpbSgpCiAgICAgICAgICAgIGlmIChpZC5pc0JsYW5rKCkgfHwgbmFtZS5pc0JsYW5rKCkgfHwgIUNvZGV4TW9kZWxQb2xpY3kuYWxsb3dzKGlkKSkgewogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgfQogICAgICAgICAgICByZXN1bHQgKz0gTW9kZWxPcHRpb24oaWQgPSBpZCwgbmFtZSA9IG5hbWUpCgogICAgICAgICAgICB2YWwgbW9kZXMgPSBtb2RlbC5vcHRKU09OT2JqZWN0KCJleHBlcmltZW50YWwiKT8ub3B0SlNPTk9iamVjdCgibW9kZXMiKSA/OiBjb250aW51ZQogICAgICAgICAgICB2YWwgbW9kZUtleXMgPSBtb2Rlcy5rZXlzKCkKICAgICAgICAgICAgd2hpbGUgKG1vZGVLZXlzLmhhc05leHQoKSkgewogICAgICAgICAgICAgICAgdmFsIG1vZGUgPSBtb2RlS2V5cy5uZXh0KCkudHJpbSgpCiAgICAgICAgICAgICAgICBpZiAobW9kZS5pc0JsYW5rKCkpIGNvbnRpbnVlCiAgICAgICAgICAgICAgICB2YWwgbW9kZUNvbmZpZyA9IG1vZGVzLm9wdEpTT05PYmplY3QobW9kZSkgPzogY29udGludWUKICAgICAgICAgICAgICAgIHZhbCByZWFzb25pbmdNb2RlID0gbW9kZUNvbmZpZwogICAgICAgICAgICAgICAgICAgIC5vcHRKU09OT2JqZWN0KCJwcm92aWRlciIpCiAgICAgICAgICAgICAgICAgICAgPy5vcHRKU09OT2JqZWN0KCJib2R5IikKICAgICAgICAgICAgICAgICAgICA/Lm9wdEpTT05PYmplY3QoInJlYXNvbmluZyIpCiAgICAgICAgICAgICAgICAgICAgPy5vcHRTdHJpbmcoIm1vZGUiKQogICAgICAgICAgICAgICAgICAgID8udHJpbSgpCiAgICAgICAgICAgICAgICBpZiAoIUNvZGV4TW9kZWxQb2xpY3kuYWxsb3dzKGlkLCByZWFzb25pbmdNb2RlKSkgY29udGludWUKCiAgICAgICAgICAgICAgICByZXN1bHQgKz0gTW9kZWxPcHRpb24oCiAgICAgICAgICAgICAgICAgICAgaWQgPSAiJGlkLSRtb2RlIiwKICAgICAgICAgICAgICAgICAgICBuYW1lID0gIiRuYW1lICR7bW9kZS5yZXBsYWNlRmlyc3RDaGFyIHsgaXQudXBwZXJjYXNlQ2hhcigpIH19IiwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gcmVzdWx0CiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.BuildConfig
+import com.bslsjdk.operit.data.api.CodexAuthManager
+import com.bslsjdk.operit.data.api.CodexOAuthProtocol
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.data.model.ModelOption
+import java.util.UUID
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import org.json.JSONArray
+import org.json.JSONObject
+
+private class CodexAccessTokenProvider(
+    private val authManager: CodexAuthManager,
+) : ApiKeyProvider {
+    override suspend fun getApiKey(): String = authManager.getValidAccessToken()
+
+    override suspend fun getCandidateKeyCount(): Int =
+        if (authManager.authState.value == null) 0 else 1
+}
+
+class CodexProvider(
+    private val authManager: CodexAuthManager,
+    modelName: String,
+    private val httpClient: OkHttpClient,
+    customHeaders: Map<String, String> = emptyMap(),
+    supportsVision: Boolean = false,
+    supportsAudio: Boolean = false,
+    supportsVideo: Boolean = false,
+    supportsFiles: Boolean = false,
+    enableToolCall: Boolean = false,
+    private val enableWebSearch: Boolean = false,
+    thinkingConfigurations: String = "",
+    thinkingOptionId: String = "",
+) : OpenAIResponsesProvider(
+    responsesApiEndpoint = CodexOAuthProtocol.CODEX_RESPONSES_ENDPOINT,
+    apiKeyProvider = CodexAccessTokenProvider(authManager),
+    modelName = modelName,
+    client = httpClient,
+    customHeaders = customHeaders,
+    responsesProviderType = ApiProviderType.OPENAI_CODEX,
+    supportsVision = supportsVision,
+    supportsAudio = supportsAudio,
+    supportsVideo = supportsVideo,
+    supportsFiles = supportsFiles,
+    enableToolCall = enableToolCall,
+    thinkingConfigurations = thinkingConfigurations,
+    thinkingOptionId = thinkingOptionId,
+) {
+    override fun applyAuthenticationHeaders(builder: Request.Builder, currentApiKey: String) {
+        super.applyAuthenticationHeaders(builder, currentApiKey)
+        val accountId = authManager.currentAccountId()
+            ?: throw IllegalStateException("Codex account ID is unavailable")
+        builder.header("ChatGPT-Account-ID", accountId)
+        builder.header("originator", "operit")
+        builder.header("User-Agent", "Operit/${BuildConfig.VERSION_NAME}")
+        builder.header("session-id", UUID.randomUUID().toString())
+        authManager.currentResidency()?.let { residency ->
+            builder.header("x-openai-internal-codex-residency", residency)
+        }
+    }
+
+    override fun customizeFinalRequestObject(
+        requestObject: JSONObject,
+        messagesArray: JSONArray,
+        toolsJson: String?,
+    ) {
+        super.customizeFinalRequestObject(requestObject, messagesArray, toolsJson)
+        if (enableWebSearch) {
+            appendWebSearchTool(requestObject)
+        }
+        CodexModelVariant.applyRequestParameters(requestObject, modelName)
+        requestObject.put("store", false)
+        requestObject.put("parallel_tool_calls", false)
+        val include = requestObject.optJSONArray("include") ?: JSONArray().also {
+            requestObject.put("include", it)
+        }
+        if (!containsString(include, "reasoning.encrypted_content")) {
+            include.put("reasoning.encrypted_content")
+        }
+        if (enableWebSearch && !containsString(include, "web_search_call.action.sources")) {
+            include.put("web_search_call.action.sources")
+        }
+    }
+
+    override fun formatResponsesWebSearchDisplayXml(
+        context: Context,
+        item: JSONObject,
+        response: JSONObject?
+    ): String? {
+        if (item.optString("type", "") != "web_search_call") {
+            return null
+        }
+
+        val action = item.optJSONObject("action")
+        val actionType = action?.optString("type", "")?.trim().orEmpty()
+        val queries = collectResponsesWebSearchQueries(action, actionType)
+        val status = item.optString("status", "").trim()
+        val sources = mergeResponsesWebSearchSources(
+            primary = collectResponsesWebSearchActionSources(action, actionType) +
+                collectResponsesWebSearchSourceArray(action?.optJSONArray("sources")),
+            additional = collectResponsesWebSearchSources(response)
+        )
+        if (queries.isEmpty() && sources.isEmpty()) {
+            return null
+        }
+
+        return buildCodexSearchXml(
+            actionType = actionType,
+            queries = queries,
+            status = status,
+            sources = sources,
+        )
+    }
+
+    override suspend fun getModelsList(_context: Context): Result<List<ModelOption>> {
+        return CodexModelListFetcher.getModelsList(httpClient)
+    }
+
+    private fun appendWebSearchTool(requestObject: JSONObject) {
+        val tools = requestObject.optJSONArray("tools") ?: JSONArray().also {
+            requestObject.put("tools", it)
+        }
+        for (index in 0 until tools.length()) {
+            val tool = tools.optJSONObject(index) ?: continue
+            if (tool.optString("type") == "web_search") {
+                requestObject.put("tool_choice", "auto")
+                return
+            }
+        }
+        tools.put(JSONObject().put("type", "web_search"))
+        requestObject.put("tool_choice", "auto")
+    }
+
+    private fun containsString(array: JSONArray, value: String): Boolean {
+        for (index in 0 until array.length()) {
+            if (array.optString(index) == value) return true
+        }
+        return false
+    }
+
+    private fun buildCodexSearchXml(
+        actionType: String,
+        queries: List<String>,
+        status: String,
+        sources: List<ResponsesWebSearchSource>
+    ): String {
+        return buildString {
+            append("<search")
+            appendXmlAttribute("provider", "codex")
+            appendXmlAttribute("action", actionType)
+            appendXmlAttribute("status", status)
+            append(">")
+            queries.forEach { query ->
+                append("\n  <query>")
+                append(escapeXmlText(query))
+                append("</query>")
+            }
+            sources.forEach { source ->
+                append("\n  <source")
+                appendResponsesWebSearchSourceAttributes(this, source)
+                append(" />")
+            }
+            append("\n</search>")
+        }
+    }
+
+    private fun StringBuilder.appendXmlAttribute(name: String, value: String) {
+        if (value.isEmpty()) {
+            return
+        }
+        append(" ")
+        append(name)
+        append("=\"")
+        append(escapeXmlAttribute(value))
+        append("\"")
+    }
+
+    private fun escapeXmlAttribute(text: String): String {
+        return text
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+            .replace("\"", "&quot;")
+            .replace("'", "&apos;")
+    }
+
+    private fun escapeXmlText(text: String): String {
+        return text
+            .replace("&", "&amp;")
+            .replace("<", "&lt;")
+            .replace(">", "&gt;")
+    }
+
+}
+
+object CodexModelPolicy {
+    private val explicitlyAllowed = setOf(
+        "gpt-5.5",
+        "gpt-5.3-codex-spark",
+        "gpt-5.4",
+        "gpt-5.4-mini",
+    )
+    private val explicitlyDisallowed = setOf("gpt-5.5-pro")
+    private val versionPattern = Regex("^gpt-(\\d+\\.\\d+)")
+
+    fun allows(modelId: String, reasoningMode: String? = null): Boolean {
+        val normalized = modelId.trim().lowercase()
+        if (reasoningMode?.trim()?.equals("pro", ignoreCase = true) == true) return false
+        if (normalized in explicitlyDisallowed) return false
+        if (normalized in explicitlyAllowed) return true
+        if (normalized == "gpt-5.6") return false
+        val version = versionPattern.find(normalized)?.groupValues?.get(1)?.toDoubleOrNull()
+            ?: return false
+        return version > 5.4
+    }
+}
+
+internal object CodexModelVariant {
+    private const val FAST_SUFFIX = "-fast"
+
+    fun applyRequestParameters(requestObject: JSONObject, modelName: String) {
+        val apiModelId = apiModelId(modelName)
+        if (apiModelId == modelName) return
+
+        requestObject.put("model", apiModelId)
+        requestObject.put("service_tier", "priority")
+    }
+
+    fun apiModelId(modelName: String): String = modelName.removeSuffix(FAST_SUFFIX)
+}
+
+object CodexModelListFetcher {
+    suspend fun getModelsList(
+        httpClient: OkHttpClient = SharedHttpClient.instance,
+    ): Result<List<ModelOption>> {
+        return try {
+            val request = Request.Builder()
+                .url(CodexOAuthProtocol.MODEL_CATALOG_ENDPOINT)
+                .get()
+                .header("User-Agent", "Operit/${BuildConfig.VERSION_NAME}")
+                .header("Accept", "application/json")
+                .build()
+            val responseBody = withContext(Dispatchers.IO) {
+                httpClient.newCall(request).execute().use { response ->
+                    val body = response.body?.string().orEmpty()
+                    if (!response.isSuccessful) {
+                        throw IllegalStateException("OpenCode model catalog request failed with HTTP ${response.code}")
+                    }
+                    body
+                }
+            }
+            Result.success(parseModels(responseBody))
+        } catch (error: Exception) {
+            Result.failure(error)
+        }
+    }
+
+    internal fun parseModels(responseBody: String): List<ModelOption> {
+        val root = JSONObject(responseBody)
+        val openAiProvider = root.optJSONObject("openai")
+            ?: throw IllegalArgumentException("OpenCode model catalog has no openai provider")
+        val models = openAiProvider.optJSONObject("models")
+            ?: throw IllegalArgumentException("OpenCode model catalog has no openai models")
+        val result = mutableListOf<ModelOption>()
+        val modelKeys = models.keys()
+        while (modelKeys.hasNext()) {
+            val modelKey = modelKeys.next()
+            val model = models.optJSONObject(modelKey) ?: continue
+            val id = model.optString("id").trim()
+            val name = model.optString("name").trim()
+            if (id.isBlank() || name.isBlank() || !CodexModelPolicy.allows(id)) {
+                continue
+            }
+            result += ModelOption(id = id, name = name)
+
+            val modes = model.optJSONObject("experimental")?.optJSONObject("modes") ?: continue
+            val modeKeys = modes.keys()
+            while (modeKeys.hasNext()) {
+                val mode = modeKeys.next().trim()
+                if (mode.isBlank()) continue
+                val modeConfig = modes.optJSONObject(mode) ?: continue
+                val reasoningMode = modeConfig
+                    .optJSONObject("provider")
+                    ?.optJSONObject("body")
+                    ?.optJSONObject("reasoning")
+                    ?.optString("mode")
+                    ?.trim()
+                if (!CodexModelPolicy.allows(id, reasoningMode)) continue
+
+                result += ModelOption(
+                    id = "$id-$mode",
+                    name = "$name ${mode.replaceFirstChar { it.uppercaseChar() }}",
+                )
+            }
+        }
+        return result
+    }
+}

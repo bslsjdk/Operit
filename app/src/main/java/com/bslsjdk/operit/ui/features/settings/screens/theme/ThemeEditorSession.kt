@@ -1,1 +1,191 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3Muc2NyZWVucy50aGVtZQoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuVGhlbWVQcmVmZXJlbmNlVmFsdWVzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5Vc2VyUHJlZmVyZW5jZXNNYW5hZ2VyCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKCmludGVybmFsIGNsYXNzIFRoZW1lRWRpdG9yU2Vzc2lvbigKICAgIHByaXZhdGUgdmFsIHBlcnNpc3RlbnRQcmVmZXJlbmNlczogVXNlclByZWZlcmVuY2VzTWFuYWdlciwKICAgIGluaXRpYWxWYWx1ZXM6IFRoZW1lUHJlZmVyZW5jZVZhbHVlcywKKSB7CiAgICBwcml2YXRlIHZhbCBfdmFsdWVzID0gTXV0YWJsZVN0YXRlRmxvdyhpbml0aWFsVmFsdWVzKQogICAgcHJpdmF0ZSB2YWwgX2hhc1Vuc2F2ZWRDaGFuZ2VzID0gTXV0YWJsZVN0YXRlRmxvdyhmYWxzZSkKICAgIHByaXZhdGUgdmFyIGJhc2VsaW5lVmFsdWVzID0gaW5pdGlhbFZhbHVlcwogICAgcHJpdmF0ZSB2YXIgcmVzZXRSZXF1ZXN0ZWQgPSBmYWxzZQogICAgcHJpdmF0ZSB2YWwgc3RhZ2VkQXNzZXRVcmlzID0gbXV0YWJsZVNldE9mPFN0cmluZz4oKQogICAgcHJpdmF0ZSB2YXIgaW5GbGlnaHRTYXZlZFZhbHVlczogVGhlbWVQcmVmZXJlbmNlVmFsdWVzPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIGRpc3Bvc2VkID0gZmFsc2UKCiAgICB2YWwgdmFsdWVzOiBTdGF0ZUZsb3c8VGhlbWVQcmVmZXJlbmNlVmFsdWVzPiA9IF92YWx1ZXMuYXNTdGF0ZUZsb3coKQogICAgdmFsIGhhc1Vuc2F2ZWRDaGFuZ2VzRmxvdzogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2hhc1Vuc2F2ZWRDaGFuZ2VzLmFzU3RhdGVGbG93KCkKICAgIHZhbCByZWNlbnRDb2xvcnNGbG93OiBGbG93PExpc3Q8SW50Pj4gPSBwZXJzaXN0ZW50UHJlZmVyZW5jZXMucmVjZW50Q29sb3JzRmxvdwoKICAgIHZhbCBjdXJyZW50VmFsdWVzOiBUaGVtZVByZWZlcmVuY2VWYWx1ZXMKICAgICAgICBnZXQoKSA9IF92YWx1ZXMudmFsdWUKCiAgICB2YWwgaGFzVW5zYXZlZENoYW5nZXM6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHJlc2V0UmVxdWVzdGVkIHx8IGN1cnJlbnRWYWx1ZXMgIT0gYmFzZWxpbmVWYWx1ZXMKCiAgICB2YWwgaXNSZXNldFJlcXVlc3RlZDogQm9vbGVhbgogICAgICAgIGdldCgpID0gcmVzZXRSZXF1ZXN0ZWQKCiAgICBmdW4gdXBkYXRlKHRyYW5zZm9ybTogKFRoZW1lUHJlZmVyZW5jZVZhbHVlcykgLT4gVGhlbWVQcmVmZXJlbmNlVmFsdWVzKSB7CiAgICAgICAgaWYgKGRpc3Bvc2VkKSByZXR1cm4KICAgICAgICB2YWwgdXBkYXRlZCA9IHRyYW5zZm9ybShjdXJyZW50VmFsdWVzKQogICAgICAgIGlmICh1cGRhdGVkID09IGN1cnJlbnRWYWx1ZXMpIHJldHVybgogICAgICAgIF92YWx1ZXMudmFsdWUgPSB1cGRhdGVkCiAgICAgICAgcmVzZXRSZXF1ZXN0ZWQgPSBmYWxzZQogICAgICAgIGRlbGV0ZVVucmVmZXJlbmNlZFN0YWdlZEFzc2V0cyh1cGRhdGVkKQogICAgICAgIHVwZGF0ZURpcnR5U3RhdGUoKQogICAgfQoKICAgIGZ1biBzZXRTdHJpbmcobmFtZTogU3RyaW5nLCB2YWx1ZTogU3RyaW5nKSB7CiAgICAgICAgdXBkYXRlIHsgaXQud2l0aFN0cmluZyhuYW1lLCB2YWx1ZSkgfQogICAgfQoKICAgIGZ1biBzZXRPcHRpb25hbFN0cmluZyhuYW1lOiBTdHJpbmcsIHZhbHVlOiBTdHJpbmc/KSB7CiAgICAgICAgdXBkYXRlIHsgaXQud2l0aFN0cmluZyhuYW1lLCB2YWx1ZT8udGFrZUlmKFN0cmluZzo6aXNOb3RCbGFuaykpIH0KICAgIH0KCiAgICBmdW4gc2V0Qm9vbGVhbihuYW1lOiBTdHJpbmcsIHZhbHVlOiBCb29sZWFuKSB7CiAgICAgICAgdXBkYXRlIHsgY3VycmVudCAtPgogICAgICAgICAgICB2YXIgdXBkYXRlZCA9IGN1cnJlbnQud2l0aEJvb2xlYW4obmFtZSwgdmFsdWUpCiAgICAgICAgICAgIGlmICh2YWx1ZSkgewogICAgICAgICAgICAgICAgdXBkYXRlZCA9IHdoZW4gKG5hbWUpIHsKICAgICAgICAgICAgICAgICAgICAiY2hhdF9pbnB1dF9saXF1aWRfZ2xhc3MiIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZWQud2l0aEJvb2xlYW4oImNoYXRfaW5wdXRfd2F0ZXJfZ2xhc3MiLCBmYWxzZSkKCiAgICAgICAgICAgICAgICAgICAgImNoYXRfaW5wdXRfd2F0ZXJfZ2xhc3MiIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZWQud2l0aEJvb2xlYW4oImNoYXRfaW5wdXRfbGlxdWlkX2dsYXNzIiwgZmFsc2UpCgogICAgICAgICAgICAgICAgICAgICJjdXJzb3JfdXNlcl9idWJibGVfbGlxdWlkX2dsYXNzIiAtPgogICAgICAgICAgICAgICAgICAgICAgICB1cGRhdGVkLndpdGhCb29sZWFuKCJjdXJzb3JfdXNlcl9idWJibGVfd2F0ZXJfZ2xhc3MiLCBmYWxzZSkKCiAgICAgICAgICAgICAgICAgICAgImN1cnNvcl91c2VyX2J1YmJsZV93YXRlcl9nbGFzcyIgLT4KICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlZC53aXRoQm9vbGVhbigiY3Vyc29yX3VzZXJfYnViYmxlX2xpcXVpZF9nbGFzcyIsIGZhbHNlKQoKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX3VzZXJfYnViYmxlX2xpcXVpZF9nbGFzcyIgLT4KICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgLndpdGhCb29sZWFuKCJidWJibGVfdXNlcl9idWJibGVfd2F0ZXJfZ2xhc3MiLCBmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC53aXRoQm9vbGVhbigiYnViYmxlX3VzZXJfdXNlX2ltYWdlIiwgZmFsc2UpCgogICAgICAgICAgICAgICAgICAgICJidWJibGVfdXNlcl9idWJibGVfd2F0ZXJfZ2xhc3MiIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZWQKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC53aXRoQm9vbGVhbigiYnViYmxlX3VzZXJfYnViYmxlX2xpcXVpZF9nbGFzcyIsIGZhbHNlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLndpdGhCb29sZWFuKCJidWJibGVfdXNlcl91c2VfaW1hZ2UiLCBmYWxzZSkKCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9haV9idWJibGVfbGlxdWlkX2dsYXNzIiAtPgogICAgICAgICAgICAgICAgICAgICAgICB1cGRhdGVkCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAud2l0aEJvb2xlYW4oImJ1YmJsZV9haV9idWJibGVfd2F0ZXJfZ2xhc3MiLCBmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC53aXRoQm9vbGVhbigiYnViYmxlX2FpX3VzZV9pbWFnZSIsIGZhbHNlKQoKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX2FpX2J1YmJsZV93YXRlcl9nbGFzcyIgLT4KICAgICAgICAgICAgICAgICAgICAgICAgdXBkYXRlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgLndpdGhCb29sZWFuKCJidWJibGVfYWlfYnViYmxlX2xpcXVpZF9nbGFzcyIsIGZhbHNlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLndpdGhCb29sZWFuKCJidWJibGVfYWlfdXNlX2ltYWdlIiwgZmFsc2UpCgogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gdXBkYXRlZAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHVwZGF0ZWQKICAgICAgICB9CiAgICB9CgogICAgZnVuIHNldEludChuYW1lOiBTdHJpbmcsIHZhbHVlOiBJbnQ/KSB7CiAgICAgICAgdXBkYXRlIHsgaXQud2l0aEludChuYW1lLCB2YWx1ZSkgfQogICAgfQoKICAgIGZ1biBzZXRGbG9hdChuYW1lOiBTdHJpbmcsIHZhbHVlOiBGbG9hdCkgewogICAgICAgIHVwZGF0ZSB7IGl0LndpdGhGbG9hdChuYW1lLCB2YWx1ZSkgfQogICAgfQoKICAgIGZ1biByZXNldCgpIHsKICAgICAgICB2YWwgcmVzZXRWYWx1ZXMgPQogICAgICAgICAgICBUaGVtZVByZWZlcmVuY2VWYWx1ZXMuZGVmYXVsdFZpc3VhbCgpCiAgICAgICAgICAgICAgICAud2l0aFN0cmluZygiY3VzdG9tX2FpX2F2YXRhcl91cmkiLCBjdXJyZW50VmFsdWVzLnN0cmluZygiY3VzdG9tX2FpX2F2YXRhcl91cmkiKSkKICAgICAgICAgICAgICAgIC53aXRoU3RyaW5nKCJjdXN0b21fY2hhdF90aXRsZSIsIGN1cnJlbnRWYWx1ZXMuc3RyaW5nKCJjdXN0b21fY2hhdF90aXRsZSIpKQogICAgICAgIF92YWx1ZXMudmFsdWUgPSByZXNldFZhbHVlcwogICAgICAgIHJlc2V0UmVxdWVzdGVkID0gdHJ1ZQogICAgICAgIGRlbGV0ZVVucmVmZXJlbmNlZFN0YWdlZEFzc2V0cyhyZXNldFZhbHVlcykKICAgICAgICB1cGRhdGVEaXJ0eVN0YXRlKCkKICAgIH0KCiAgICBmdW4gZGlzY2FyZCgpIHsKICAgICAgICBkZWxldGVTdGFnZWRBc3NldHMoc3RhZ2VkQXNzZXRVcmlzLnRvU2V0KCkpCiAgICAgICAgX3ZhbHVlcy52YWx1ZSA9IGJhc2VsaW5lVmFsdWVzCiAgICAgICAgcmVzZXRSZXF1ZXN0ZWQgPSBmYWxzZQogICAgICAgIHVwZGF0ZURpcnR5U3RhdGUoKQogICAgfQoKICAgIGZ1biBiZWdpblNhdmUoc2F2ZWRWYWx1ZXM6IFRoZW1lUHJlZmVyZW5jZVZhbHVlcykgewogICAgICAgIGluRmxpZ2h0U2F2ZWRWYWx1ZXMgPSBzYXZlZFZhbHVlcwogICAgfQoKICAgIGZ1biBtYXJrU2F2ZWQoc2F2ZWRWYWx1ZXM6IFRoZW1lUHJlZmVyZW5jZVZhbHVlcykgewogICAgICAgIHN0YWdlZEFzc2V0VXJpcy5yZW1vdmVBbGwoc2F2ZWRWYWx1ZXMuc3RyaW5ncy52YWx1ZXMpCiAgICAgICAgaW5GbGlnaHRTYXZlZFZhbHVlcyA9IG51bGwKICAgICAgICBiYXNlbGluZVZhbHVlcyA9IHNhdmVkVmFsdWVzCiAgICAgICAgcmVzZXRSZXF1ZXN0ZWQgPSBmYWxzZQogICAgICAgIGlmIChkaXNwb3NlZCkgewogICAgICAgICAgICBkZWxldGVTdGFnZWRBc3NldHMoc3RhZ2VkQXNzZXRVcmlzLnRvU2V0KCkpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZGVsZXRlVW5yZWZlcmVuY2VkU3RhZ2VkQXNzZXRzKGN1cnJlbnRWYWx1ZXMpCiAgICAgICAgfQogICAgICAgIHVwZGF0ZURpcnR5U3RhdGUoKQogICAgfQoKICAgIGZ1biBjYW5jZWxTYXZlKCkgewogICAgICAgIGluRmxpZ2h0U2F2ZWRWYWx1ZXMgPSBudWxsCiAgICAgICAgaWYgKGRpc3Bvc2VkKSB7CiAgICAgICAgICAgIGRlbGV0ZVN0YWdlZEFzc2V0cyhzdGFnZWRBc3NldFVyaXMudG9TZXQoKSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBkZWxldGVVbnJlZmVyZW5jZWRTdGFnZWRBc3NldHMoY3VycmVudFZhbHVlcykKICAgICAgICB9CiAgICB9CgogICAgZnVuIGRpc3Bvc2UoKSB7CiAgICAgICAgZGlzcG9zZWQgPSB0cnVlCiAgICAgICAgaWYgKGluRmxpZ2h0U2F2ZWRWYWx1ZXMgPT0gbnVsbCkgewogICAgICAgICAgICBkZWxldGVTdGFnZWRBc3NldHMoc3RhZ2VkQXNzZXRVcmlzLnRvU2V0KCkpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biByZWdpc3RlclN0YWdlZEFzc2V0KHVyaTogU3RyaW5nKSB7CiAgICAgICAgaWYgKGRpc3Bvc2VkKSB7CiAgICAgICAgICAgIGRlbGV0ZVN0YWdlZEFzc2V0cyhzZXRPZih1cmkpKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgc3RhZ2VkQXNzZXRVcmlzICs9IHVyaQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGFkZFJlY2VudENvbG9yKGNvbG9yOiBJbnQpIHsKICAgICAgICBwZXJzaXN0ZW50UHJlZmVyZW5jZXMuYWRkUmVjZW50Q29sb3IoY29sb3IpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZGVsZXRlVW5yZWZlcmVuY2VkU3RhZ2VkQXNzZXRzKHZhbHVlczogVGhlbWVQcmVmZXJlbmNlVmFsdWVzKSB7CiAgICAgICAgdmFsIHJlZmVyZW5jZWRVcmlzID0gYnVpbGRTZXQgewogICAgICAgICAgICBhZGRBbGwodmFsdWVzLnN0cmluZ3MudmFsdWVzKQogICAgICAgICAgICBpbkZsaWdodFNhdmVkVmFsdWVzPy5zdHJpbmdzPy52YWx1ZXM/LmxldCg6OmFkZEFsbCkKICAgICAgICB9CiAgICAgICAgZGVsZXRlU3RhZ2VkQXNzZXRzKHN0YWdlZEFzc2V0VXJpcy5maWx0ZXJOb3QocmVmZXJlbmNlZFVyaXM6OmNvbnRhaW5zKS50b1NldCgpKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGRlbGV0ZVN0YWdlZEFzc2V0cyh1cmlzOiBTZXQ8U3RyaW5nPikgewogICAgICAgIHVyaXMuZm9yRWFjaCB7IHVyaVN0cmluZyAtPgogICAgICAgICAgICB2YWwgdXJpID0gVXJpLnBhcnNlKHVyaVN0cmluZykKICAgICAgICAgICAgaWYgKHVyaS5zY2hlbWUgPT0gImZpbGUiKSB7CiAgICAgICAgICAgICAgICB1cmkucGF0aD8ubGV0IHsgcGF0aCAtPiBGaWxlKHBhdGgpLmRlbGV0ZSgpIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBzdGFnZWRBc3NldFVyaXMucmVtb3ZlKHVyaVN0cmluZykKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdXBkYXRlRGlydHlTdGF0ZSgpIHsKICAgICAgICBfaGFzVW5zYXZlZENoYW5nZXMudmFsdWUgPSBoYXNVbnNhdmVkQ2hhbmdlcwogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.settings.screens.theme
+
+import android.net.Uri
+import com.bslsjdk.operit.data.preferences.ThemePreferenceValues
+import com.bslsjdk.operit.data.preferences.UserPreferencesManager
+import java.io.File
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+internal class ThemeEditorSession(
+    private val persistentPreferences: UserPreferencesManager,
+    initialValues: ThemePreferenceValues,
+) {
+    private val _values = MutableStateFlow(initialValues)
+    private val _hasUnsavedChanges = MutableStateFlow(false)
+    private var baselineValues = initialValues
+    private var resetRequested = false
+    private val stagedAssetUris = mutableSetOf<String>()
+    private var inFlightSavedValues: ThemePreferenceValues? = null
+    private var disposed = false
+
+    val values: StateFlow<ThemePreferenceValues> = _values.asStateFlow()
+    val hasUnsavedChangesFlow: StateFlow<Boolean> = _hasUnsavedChanges.asStateFlow()
+    val recentColorsFlow: Flow<List<Int>> = persistentPreferences.recentColorsFlow
+
+    val currentValues: ThemePreferenceValues
+        get() = _values.value
+
+    val hasUnsavedChanges: Boolean
+        get() = resetRequested || currentValues != baselineValues
+
+    val isResetRequested: Boolean
+        get() = resetRequested
+
+    fun update(transform: (ThemePreferenceValues) -> ThemePreferenceValues) {
+        if (disposed) return
+        val updated = transform(currentValues)
+        if (updated == currentValues) return
+        _values.value = updated
+        resetRequested = false
+        deleteUnreferencedStagedAssets(updated)
+        updateDirtyState()
+    }
+
+    fun setString(name: String, value: String) {
+        update { it.withString(name, value) }
+    }
+
+    fun setOptionalString(name: String, value: String?) {
+        update { it.withString(name, value?.takeIf(String::isNotBlank)) }
+    }
+
+    fun setBoolean(name: String, value: Boolean) {
+        update { current ->
+            var updated = current.withBoolean(name, value)
+            if (value) {
+                updated = when (name) {
+                    "chat_input_liquid_glass" ->
+                        updated.withBoolean("chat_input_water_glass", false)
+
+                    "chat_input_water_glass" ->
+                        updated.withBoolean("chat_input_liquid_glass", false)
+
+                    "cursor_user_bubble_liquid_glass" ->
+                        updated.withBoolean("cursor_user_bubble_water_glass", false)
+
+                    "cursor_user_bubble_water_glass" ->
+                        updated.withBoolean("cursor_user_bubble_liquid_glass", false)
+
+                    "bubble_user_bubble_liquid_glass" ->
+                        updated
+                            .withBoolean("bubble_user_bubble_water_glass", false)
+                            .withBoolean("bubble_user_use_image", false)
+
+                    "bubble_user_bubble_water_glass" ->
+                        updated
+                            .withBoolean("bubble_user_bubble_liquid_glass", false)
+                            .withBoolean("bubble_user_use_image", false)
+
+                    "bubble_ai_bubble_liquid_glass" ->
+                        updated
+                            .withBoolean("bubble_ai_bubble_water_glass", false)
+                            .withBoolean("bubble_ai_use_image", false)
+
+                    "bubble_ai_bubble_water_glass" ->
+                        updated
+                            .withBoolean("bubble_ai_bubble_liquid_glass", false)
+                            .withBoolean("bubble_ai_use_image", false)
+
+                    else -> updated
+                }
+            }
+            updated
+        }
+    }
+
+    fun setInt(name: String, value: Int?) {
+        update { it.withInt(name, value) }
+    }
+
+    fun setFloat(name: String, value: Float) {
+        update { it.withFloat(name, value) }
+    }
+
+    fun reset() {
+        val resetValues =
+            ThemePreferenceValues.defaultVisual()
+                .withString("custom_ai_avatar_uri", currentValues.string("custom_ai_avatar_uri"))
+                .withString("custom_chat_title", currentValues.string("custom_chat_title"))
+        _values.value = resetValues
+        resetRequested = true
+        deleteUnreferencedStagedAssets(resetValues)
+        updateDirtyState()
+    }
+
+    fun discard() {
+        deleteStagedAssets(stagedAssetUris.toSet())
+        _values.value = baselineValues
+        resetRequested = false
+        updateDirtyState()
+    }
+
+    fun beginSave(savedValues: ThemePreferenceValues) {
+        inFlightSavedValues = savedValues
+    }
+
+    fun markSaved(savedValues: ThemePreferenceValues) {
+        stagedAssetUris.removeAll(savedValues.strings.values)
+        inFlightSavedValues = null
+        baselineValues = savedValues
+        resetRequested = false
+        if (disposed) {
+            deleteStagedAssets(stagedAssetUris.toSet())
+        } else {
+            deleteUnreferencedStagedAssets(currentValues)
+        }
+        updateDirtyState()
+    }
+
+    fun cancelSave() {
+        inFlightSavedValues = null
+        if (disposed) {
+            deleteStagedAssets(stagedAssetUris.toSet())
+        } else {
+            deleteUnreferencedStagedAssets(currentValues)
+        }
+    }
+
+    fun dispose() {
+        disposed = true
+        if (inFlightSavedValues == null) {
+            deleteStagedAssets(stagedAssetUris.toSet())
+        }
+    }
+
+    fun registerStagedAsset(uri: String) {
+        if (disposed) {
+            deleteStagedAssets(setOf(uri))
+            return
+        }
+        stagedAssetUris += uri
+    }
+
+    suspend fun addRecentColor(color: Int) {
+        persistentPreferences.addRecentColor(color)
+    }
+
+    private fun deleteUnreferencedStagedAssets(values: ThemePreferenceValues) {
+        val referencedUris = buildSet {
+            addAll(values.strings.values)
+            inFlightSavedValues?.strings?.values?.let(::addAll)
+        }
+        deleteStagedAssets(stagedAssetUris.filterNot(referencedUris::contains).toSet())
+    }
+
+    private fun deleteStagedAssets(uris: Set<String>) {
+        uris.forEach { uriString ->
+            val uri = Uri.parse(uriString)
+            if (uri.scheme == "file") {
+                uri.path?.let { path -> File(path).delete() }
+            }
+            stagedAssetUris.remove(uriString)
+        }
+    }
+
+    private fun updateDirtyState() {
+        _hasUnsavedChanges.value = hasUnsavedChanges
+    }
+}

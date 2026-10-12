@@ -1,1 +1,623 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jYWxjdWxhdG9yCgovKioKICog6KGo6L6+5byP6Kej5p6Q5ZmoCiAqCiAqIOWwhuihqOi+vuW8j+Wtl+espuS4suino+aekOS4uuivreazleagkQogKi8KY2xhc3MgRXhwcmVzc2lvblBhcnNlcihwcml2YXRlIHZhbCBleHByZXNzaW9uOiBTdHJpbmcpIHsKICAgIHByaXZhdGUgdmFyIHBvc2l0aW9uID0gMAogICAgcHJpdmF0ZSB2YXIgY3VycmVudFRva2VuID0gIiIKICAgIHByaXZhdGUgdmFyIGN1cnJlbnRUb2tlblR5cGUgPSBUb2tlblR5cGUuTk9ORQoKICAgIC8qKiDor43ms5XljZXlhYPnsbvlnosgKi8KICAgIGVudW0gY2xhc3MgVG9rZW5UeXBlIHsKICAgICAgICBOT05FLAogICAgICAgIE5VTUJFUiwKICAgICAgICBJREVOVElGSUVSLAogICAgICAgIE9QRVJBVE9SLAogICAgICAgIExFRlRfUEFSRU4sCiAgICAgICAgUklHSFRfUEFSRU4sCiAgICAgICAgTEVGVF9CUkFDS0VULAogICAgICAgIFJJR0hUX0JSQUNLRVQsCiAgICAgICAgQ09NTUEsCiAgICAgICAgU1RSSU5HLAogICAgICAgIFRFTVBMQVRFX1NUQVJULAogICAgICAgIFRFTVBMQVRFX01JRERMRSwKICAgICAgICBURU1QTEFURV9FTkQsCiAgICAgICAgRU9GCiAgICB9CgogICAgLyoqIOino+aekOihqOi+vuW8jyAqLwogICAgZnVuIHBhcnNlKCk6IEV4cHJlc3Npb25Ob2RlIHsKICAgICAgICBuZXh0VG9rZW4oKQogICAgICAgIHZhbCByZXN1bHQgPSBwYXJzZUV4cHJlc3Npb24oKQoKICAgICAgICBpZiAoY3VycmVudFRva2VuVHlwZSAhPSBUb2tlblR5cGUuRU9GKSB7CiAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiVW5leHBlY3RlZCB0b2tlbjogJGN1cnJlbnRUb2tlbiIpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gcmVzdWx0CiAgICB9CgogICAgLyoqIOino+aekOihqOi+vuW8jyAqLwogICAgcHJpdmF0ZSBmdW4gcGFyc2VFeHByZXNzaW9uKCk6IEV4cHJlc3Npb25Ob2RlIHsKICAgICAgICByZXR1cm4gcGFyc2VUZXJuYXJ5KCkKICAgIH0KCiAgICAvKiog6Kej5p6Q5LiJ5YWD6L+Q566X56ymICovCiAgICBwcml2YXRlIGZ1biBwYXJzZVRlcm5hcnkoKTogRXhwcmVzc2lvbk5vZGUgewogICAgICAgIHZhbCBjb25kaXRpb24gPSBwYXJzZUFzc2lnbm1lbnQoKQoKICAgICAgICBpZiAoY3VycmVudFRva2VuID09ICI/IikgewogICAgICAgICAgICBuZXh0VG9rZW4oKQogICAgICAgICAgICB2YWwgdHJ1ZUV4cHIgPSBwYXJzZUFzc2lnbm1lbnQoKQoKICAgICAgICAgICAgaWYgKGN1cnJlbnRUb2tlbiAhPSAiOiIpIHsKICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiRXhwZWN0ZWQgJzonIGluIHRlcm5hcnkgb3BlcmF0b3IiKQogICAgICAgICAgICB9CiAgICAgICAgICAgIG5leHRUb2tlbigpCgogICAgICAgICAgICB2YWwgZmFsc2VFeHByID0gcGFyc2VBc3NpZ25tZW50KCkKICAgICAgICAgICAgcmV0dXJuIFRlcm5hcnlPcGVyYXRpb25Ob2RlKGNvbmRpdGlvbiwgdHJ1ZUV4cHIsIGZhbHNlRXhwcikKICAgICAgICB9CgogICAgICAgIHJldHVybiBjb25kaXRpb24KICAgIH0KCiAgICAvKiog6Kej5p6Q6LWL5YC86KGo6L6+5byPICovCiAgICBwcml2YXRlIGZ1biBwYXJzZUFzc2lnbm1lbnQoKTogRXhwcmVzc2lvbk5vZGUgewogICAgICAgIGlmIChjdXJyZW50VG9rZW5UeXBlID09IFRva2VuVHlwZS5JREVOVElGSUVSKSB7CiAgICAgICAgICAgIHZhbCB2YXJpYWJsZU5hbWUgPSBjdXJyZW50VG9rZW4KICAgICAgICAgICAgdmFsIG5leHRQb3MgPSBwb3NpdGlvbgogICAgICAgICAgICB2YWwgbmV4dENoYXIgPSBpZiAocG9zaXRpb24gPCBleHByZXNzaW9uLmxlbmd0aCkgZXhwcmVzc2lvbltwb3NpdGlvbl0gZWxzZSAnICcKCiAgICAgICAgICAgIGlmIChuZXh0Q2hhciA9PSAnPScpIHsKICAgICAgICAgICAgICAgIHZhbCBmb2xsb3dpbmdDaGFyID0KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHBvc2l0aW9uICsgMSA8IGV4cHJlc3Npb24ubGVuZ3RoKSBleHByZXNzaW9uW3Bvc2l0aW9uICsgMV0gZWxzZSAnICcKCiAgICAgICAgICAgICAgICBpZiAoZm9sbG93aW5nQ2hhciA9PSAnPScpIHsKICAgICAgICAgICAgICAgICAgICAvLyDov5nmmK89Pei/kOeul+espu+8jOS4jeaYr+i1i+WAvAogICAgICAgICAgICAgICAgICAgIHJldHVybiBwYXJzZUxvZ2ljYWxPcigpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8g566A5Y2V6LWL5YC8OiB4ID0gZXhwcgogICAgICAgICAgICAgICAgbmV4dFRva2VuKCkgLy8g6Lez6L+HPQogICAgICAgICAgICAgICAgbmV4dFRva2VuKCkgLy8g6I635Y+W5LiL5LiA5LiqdG9rZW4KCiAgICAgICAgICAgICAgICB2YWwgdmFsdWVFeHByID0gcGFyc2VBc3NpZ25tZW50KCkgLy8g6YCS5b2S6Kej5p6Q5Y+z5L6n6KGo6L6+5byPCiAgICAgICAgICAgICAgICByZXR1cm4gQXNzaWdubWVudE5vZGUodmFyaWFibGVOYW1lLCB2YWx1ZUV4cHIpCiAgICAgICAgICAgIH0gZWxzZSBpZiAobmV4dENoYXIgPT0gJysnIHx8IG5leHRDaGFyID09ICctJyB8fCBuZXh0Q2hhciA9PSAnKicgfHwgbmV4dENoYXIgPT0gJy8nKSB7CiAgICAgICAgICAgICAgICBpZiAocG9zaXRpb24gKyAxIDwgZXhwcmVzc2lvbi5sZW5ndGggJiYgZXhwcmVzc2lvbltwb3NpdGlvbiArIDFdID09ICc9JykgewogICAgICAgICAgICAgICAgICAgIC8vIOWkjeWQiOi1i+WAvDogeCArPSBleHByLCB4IC09IGV4cHIsIGV0Yy4KICAgICAgICAgICAgICAgICAgICB2YWwgb3BlcmF0b3IgPSBuZXh0Q2hhci50b1N0cmluZygpICsgIj0iCiAgICAgICAgICAgICAgICAgICAgcG9zaXRpb24gKz0gMiAvLyDot7Pov4fmk43kvZznrKYKICAgICAgICAgICAgICAgICAgICBuZXh0VG9rZW4oKQoKICAgICAgICAgICAgICAgICAgICB2YWwgdmFsdWVFeHByID0gcGFyc2VBc3NpZ25tZW50KCkKICAgICAgICAgICAgICAgICAgICByZXR1cm4gQ29tcG91bmRBc3NpZ25tZW50Tm9kZSh2YXJpYWJsZU5hbWUsIG9wZXJhdG9yLCB2YWx1ZUV4cHIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBwYXJzZUxvZ2ljYWxPcigpCiAgICB9CgogICAgLyoqIOino+aekOmAu+i+kU9S6KGo6L6+5byPICovCiAgICBwcml2YXRlIGZ1biBwYXJzZUxvZ2ljYWxPcigpOiBFeHByZXNzaW9uTm9kZSB7CiAgICAgICAgdmFyIGxlZnQgPSBwYXJzZUxvZ2ljYWxBbmQoKQoKICAgICAgICB3aGlsZSAoY3VycmVudFRva2VuID09ICJ8fCIpIHsKICAgICAgICAgICAgdmFsIG9wZXJhdG9yID0gY3VycmVudFRva2VuCiAgICAgICAgICAgIG5leHRUb2tlbigpCiAgICAgICAgICAgIHZhbCByaWdodCA9IHBhcnNlTG9naWNhbEFuZCgpCiAgICAgICAgICAgIGxlZnQgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKGxlZnQsIG9wZXJhdG9yLCByaWdodCkKICAgICAgICB9CgogICAgICAgIHJldHVybiBsZWZ0CiAgICB9CgogICAgLyoqIOino+aekOmAu+i+kUFOROihqOi+vuW8jyAqLwogICAgcHJpdmF0ZSBmdW4gcGFyc2VMb2dpY2FsQW5kKCk6IEV4cHJlc3Npb25Ob2RlIHsKICAgICAgICB2YXIgbGVmdCA9IHBhcnNlRXF1YWxpdHkoKQoKICAgICAgICB3aGlsZSAoY3VycmVudFRva2VuID09ICImJiIpIHsKICAgICAgICAgICAgdmFsIG9wZXJhdG9yID0gY3VycmVudFRva2VuCiAgICAgICAgICAgIG5leHRUb2tlbigpCiAgICAgICAgICAgIHZhbCByaWdodCA9IHBhcnNlRXF1YWxpdHkoKQogICAgICAgICAgICBsZWZ0ID0gQmluYXJ5T3BlcmF0aW9uTm9kZShsZWZ0LCBvcGVyYXRvciwgcmlnaHQpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gbGVmdAogICAgfQoKICAgIC8qKiDop6PmnpDnm7jnrYnmgKfooajovr7lvI8gKi8KICAgIHByaXZhdGUgZnVuIHBhcnNlRXF1YWxpdHkoKTogRXhwcmVzc2lvbk5vZGUgewogICAgICAgIHZhciBsZWZ0ID0gcGFyc2VDb21wYXJpc29uKCkKCiAgICAgICAgd2hpbGUgKGN1cnJlbnRUb2tlbiA9PSAiPT0iIHx8IGN1cnJlbnRUb2tlbiA9PSAiIT0iKSB7CiAgICAgICAgICAgIHZhbCBvcGVyYXRvciA9IGN1cnJlbnRUb2tlbgogICAgICAgICAgICBuZXh0VG9rZW4oKQogICAgICAgICAgICB2YWwgcmlnaHQgPSBwYXJzZUNvbXBhcmlzb24oKQogICAgICAgICAgICBsZWZ0ID0gQmluYXJ5T3BlcmF0aW9uTm9kZShsZWZ0LCBvcGVyYXRvciwgcmlnaHQpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gbGVmdAogICAgfQoKICAgIC8qKiDop6PmnpDmr5TovoPooajovr7lvI8gKi8KICAgIHByaXZhdGUgZnVuIHBhcnNlQ29tcGFyaXNvbigpOiBFeHByZXNzaW9uTm9kZSB7CiAgICAgICAgdmFyIGxlZnQgPSBwYXJzZUFkZGl0aXZlKCkKCiAgICAgICAgd2hpbGUgKGN1cnJlbnRUb2tlbiA9PSAiPiIgfHwKICAgICAgICAgICAgICAgIGN1cnJlbnRUb2tlbiA9PSAiPj0iIHx8CiAgICAgICAgICAgICAgICBjdXJyZW50VG9rZW4gPT0gIjwiIHx8CiAgICAgICAgICAgICAgICBjdXJyZW50VG9rZW4gPT0gIjw9IikgewogICAgICAgICAgICB2YWwgb3BlcmF0b3IgPSBjdXJyZW50VG9rZW4KICAgICAgICAgICAgbmV4dFRva2VuKCkKICAgICAgICAgICAgdmFsIHJpZ2h0ID0gcGFyc2VBZGRpdGl2ZSgpCiAgICAgICAgICAgIGxlZnQgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKGxlZnQsIG9wZXJhdG9yLCByaWdodCkKICAgICAgICB9CgogICAgICAgIHJldHVybiBsZWZ0CiAgICB9CgogICAgLyoqIOino+aekOWKoOazleWSjOWHj+azlSAqLwogICAgcHJpdmF0ZSBmdW4gcGFyc2VBZGRpdGl2ZSgpOiBFeHByZXNzaW9uTm9kZSB7CiAgICAgICAgdmFyIGxlZnQgPSBwYXJzZU11bHRpcGxpY2F0aXZlKCkKCiAgICAgICAgd2hpbGUgKGN1cnJlbnRUb2tlbiA9PSAiKyIgfHwgY3VycmVudFRva2VuID09ICItIikgewogICAgICAgICAgICB2YWwgb3BlcmF0b3IgPSBjdXJyZW50VG9rZW4KICAgICAgICAgICAgbmV4dFRva2VuKCkKICAgICAgICAgICAgdmFsIHJpZ2h0ID0gcGFyc2VNdWx0aXBsaWNhdGl2ZSgpCiAgICAgICAgICAgIGxlZnQgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKGxlZnQsIG9wZXJhdG9yLCByaWdodCkKICAgICAgICB9CgogICAgICAgIHJldHVybiBsZWZ0CiAgICB9CgogICAgLyoqIOino+aekOS5mOazleWSjOmZpOazlSAqLwogICAgcHJpdmF0ZSBmdW4gcGFyc2VNdWx0aXBsaWNhdGl2ZSgpOiBFeHByZXNzaW9uTm9kZSB7CiAgICAgICAgdmFyIGxlZnQgPSBwYXJzZUV4cG9uZW50aWFsKCkKCiAgICAgICAgd2hpbGUgKGN1cnJlbnRUb2tlbiA9PSAiKiIgfHwgY3VycmVudFRva2VuID09ICIvIiB8fCBjdXJyZW50VG9rZW4gPT0gIiUiKSB7CiAgICAgICAgICAgIHZhbCBvcGVyYXRvciA9IGN1cnJlbnRUb2tlbgogICAgICAgICAgICBuZXh0VG9rZW4oKQogICAgICAgICAgICB2YWwgcmlnaHQgPSBwYXJzZUV4cG9uZW50aWFsKCkKICAgICAgICAgICAgbGVmdCA9IEJpbmFyeU9wZXJhdGlvbk5vZGUobGVmdCwgb3BlcmF0b3IsIHJpZ2h0KQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGxlZnQKICAgIH0KCiAgICAvKiog6Kej5p6Q5oyH5pWw6L+Q566XICovCiAgICBwcml2YXRlIGZ1biBwYXJzZUV4cG9uZW50aWFsKCk6IEV4cHJlc3Npb25Ob2RlIHsKICAgICAgICB2YXIgbGVmdCA9IHBhcnNlVW5hcnkoKQoKICAgICAgICB3aGlsZSAoY3VycmVudFRva2VuID09ICIqKiIgfHwgY3VycmVudFRva2VuID09ICJeIikgewogICAgICAgICAgICB2YWwgb3BlcmF0b3IgPSBjdXJyZW50VG9rZW4KICAgICAgICAgICAgbmV4dFRva2VuKCkKICAgICAgICAgICAgdmFsIHJpZ2h0ID0gcGFyc2VVbmFyeSgpCiAgICAgICAgICAgIGxlZnQgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKGxlZnQsIG9wZXJhdG9yLCByaWdodCkKICAgICAgICB9CgogICAgICAgIHJldHVybiBsZWZ0CiAgICB9CgogICAgLyoqIOino+aekOS4gOWFg+aTjeS9nOespiAqLwogICAgcHJpdmF0ZSBmdW4gcGFyc2VVbmFyeSgpOiBFeHByZXNzaW9uTm9kZSB7CiAgICAgICAgaWYgKGN1cnJlbnRUb2tlbiA9PSAiKyIgfHwgY3VycmVudFRva2VuID09ICItIiB8fCBjdXJyZW50VG9rZW4gPT0gIiEiKSB7CiAgICAgICAgICAgIHZhbCBvcGVyYXRvciA9IGN1cnJlbnRUb2tlbgogICAgICAgICAgICBuZXh0VG9rZW4oKQogICAgICAgICAgICB2YWwgb3BlcmFuZCA9IHBhcnNlVW5hcnkoKQogICAgICAgICAgICByZXR1cm4gVW5hcnlPcGVyYXRpb25Ob2RlKG9wZXJhdG9yLCBvcGVyYW5kKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHBhcnNlQXJyYXlBY2Nlc3MoKQogICAgfQoKICAgIC8qKiDop6PmnpDmlbDnu4Torr/pl64gKi8KICAgIHByaXZhdGUgZnVuIHBhcnNlQXJyYXlBY2Nlc3MoKTogRXhwcmVzc2lvbk5vZGUgewogICAgICAgIHZhciBleHByID0gcGFyc2VQcmltYXJ5KCkKCiAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgaWYgKGN1cnJlbnRUb2tlbiA9PSAiWyIpIHsKICAgICAgICAgICAgICAgIG5leHRUb2tlbigpIC8vIOi3s+i/h1sKICAgICAgICAgICAgICAgIHZhbCBpbmRleCA9IHBhcnNlRXhwcmVzc2lvbigpCgogICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRUb2tlbiAhPSAiXSIpIHsKICAgICAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkV4cGVjdGVkICddJyBpbiBhcnJheSBhY2Nlc3MiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbmV4dFRva2VuKCkgLy8g6Lez6L+HXQoKICAgICAgICAgICAgICAgIGV4cHIgPSBBcnJheUFjY2Vzc05vZGUoZXhwciwgaW5kZXgpCiAgICAgICAgICAgIH0gZWxzZSBpZiAoY3VycmVudFRva2VuID09ICIuIiAmJiBwZWVrTmV4dFRva2VuKCkgPT0gImxlbmd0aCIpIHsKICAgICAgICAgICAgICAgIC8vIOeJueauiuWkhOeQhiAubGVuZ3RoIOWxnuaAp+iuv+mXrgogICAgICAgICAgICAgICAgbmV4dFRva2VuKCkgLy8g6Lez6L+HLgogICAgICAgICAgICAgICAgbmV4dFRva2VuKCkgLy8g6Lez6L+HbGVuZ3RoCgogICAgICAgICAgICAgICAgZXhwciA9IEZ1bmN0aW9uQ2FsbE5vZGUoImxlbmd0aCIsIGxpc3RPZihleHByKSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBleHByCiAgICB9CgogICAgLyoqIOino+aekOWfuuacrOihqOi+vuW8jyAqLwogICAgcHJpdmF0ZSBmdW4gcGFyc2VQcmltYXJ5KCk6IEV4cHJlc3Npb25Ob2RlIHsKICAgICAgICB3aGVuIChjdXJyZW50VG9rZW5UeXBlKSB7CiAgICAgICAgICAgIFRva2VuVHlwZS5OVU1CRVIgLT4gewogICAgICAgICAgICAgICAgdmFsIHZhbHVlID0gY3VycmVudFRva2VuLnRvRG91YmxlKCkKICAgICAgICAgICAgICAgIG5leHRUb2tlbigpCiAgICAgICAgICAgICAgICByZXR1cm4gTnVtYmVyTm9kZSh2YWx1ZSkKICAgICAgICAgICAgfQogICAgICAgICAgICBUb2tlblR5cGUuSURFTlRJRklFUiAtPiB7CiAgICAgICAgICAgICAgICB2YWwgaWRlbnRpZmllciA9IGN1cnJlbnRUb2tlbgogICAgICAgICAgICAgICAgbmV4dFRva2VuKCkKCiAgICAgICAgICAgICAgICAvLyDlh73mlbDosIPnlKgKICAgICAgICAgICAgICAgIGlmIChjdXJyZW50VG9rZW4gPT0gIigiKSB7CiAgICAgICAgICAgICAgICAgICAgbmV4dFRva2VuKCkgLy8g6Lez6L+HKAogICAgICAgICAgICAgICAgICAgIHZhbCBhcmdzID0gbXV0YWJsZUxpc3RPZjxFeHByZXNzaW9uTm9kZT4oKQoKICAgICAgICAgICAgICAgICAgICBpZiAoY3VycmVudFRva2VuICE9ICIpIikgewogICAgICAgICAgICAgICAgICAgICAgICBhcmdzLmFkZChwYXJzZUV4cHJlc3Npb24oKSkKCiAgICAgICAgICAgICAgICAgICAgICAgIHdoaWxlIChjdXJyZW50VG9rZW4gPT0gIiwiKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBuZXh0VG9rZW4oKSAvLyDot7Pov4csCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmdzLmFkZChwYXJzZUV4cHJlc3Npb24oKSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRUb2tlbiAhPSAiKSIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJFeHBlY3RlZCAnKScgaW4gZnVuY3Rpb24gY2FsbCIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIG5leHRUb2tlbigpIC8vIOi3s+i/hykKCiAgICAgICAgICAgICAgICAgICAgLy8g54m55q6K5aSE55CGIGNvbnZlcnQg5Ye95pWw77yM5a6D6ZyA6KaB5LiJ5Liq5Y+C5pWw77yM5L2G56ysMuWSjOesrDPkuKrmmK/lrZfnrKbkuLIKICAgICAgICAgICAgICAgICAgICBpZiAoaWRlbnRpZmllci5lcXVhbHMoImNvbnZlcnQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgJiYgYXJncy5zaXplID49IDMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGZyb21Vbml0ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoYXJnc1sxXSBhcz8gVmFyaWFibGVOb2RlKT8ubmFtZSA/OiBhcmdzWzFdLmV2YWx1YXRlKCkudG9TdHJpbmcoKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgdG9Vbml0ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoYXJnc1syXSBhcz8gVmFyaWFibGVOb2RlKT8ubmFtZSA/OiBhcmdzWzJdLmV2YWx1YXRlKCkudG9TdHJpbmcoKQoKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5bCG5Y2V5L2N5a2Y5YKo5Li65Li05pe25Y+Y6YeP5L6b5Ye95pWw5L2/55SoCiAgICAgICAgICAgICAgICAgICAgICAgIEV4cHJlc3Npb25Db250ZXh0LnNldFZhcmlhYmxlKCJfY29udmVydF9mcm9tIiwgMC4wKSAvLyDkvJrooqvnsbvlnovovazmjaLkuLrlrZfnrKbkuLIKICAgICAgICAgICAgICAgICAgICAgICAgRXhwcmVzc2lvbkNvbnRleHQuc2V0VmFyaWFibGUoIl9jb252ZXJ0X3RvIiwgMC4wKSAvLyDlkIzkuIoKCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBGdW5jdGlvbkNhbGxOb2RlKGlkZW50aWZpZXIsIGxpc3RPZihhcmdzWzBdKSkKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHJldHVybiBGdW5jdGlvbkNhbGxOb2RlKGlkZW50aWZpZXIsIGFyZ3MpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8g6K6h566X5Zmo5YWs5byA55qE5ZG95ZCN56m66Ze05Ye95pWw6LCD55SoCiAgICAgICAgICAgICAgICBpZiAoKGlkZW50aWZpZXIgPT0gIk1hdGgiIHx8IGlkZW50aWZpZXIgPT0gInN0YXRzIikgJiYgY3VycmVudFRva2VuID09ICIuIikgewogICAgICAgICAgICAgICAgICAgIG5leHRUb2tlbigpIC8vIOi3s+i/hy4KICAgICAgICAgICAgICAgICAgICBpZiAoY3VycmVudFRva2VuVHlwZSAhPSBUb2tlblR5cGUuSURFTlRJRklFUikgewogICAgICAgICAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkV4cGVjdGVkIG1lbWJlciBuYW1lIGFmdGVyICRpZGVudGlmaWVyLiIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHZhbCBtZXRob2ROYW1lID0gY3VycmVudFRva2VuCiAgICAgICAgICAgICAgICAgICAgbmV4dFRva2VuKCkKCiAgICAgICAgICAgICAgICAgICAgaWYgKGlkZW50aWZpZXIgPT0gIk1hdGgiICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAobWV0aG9kTmFtZSA9PSAiUEkiIHx8IG1ldGhvZE5hbWUgPT0gIkUiKSAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudFRva2VuICE9ICIoIikgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gVmFyaWFibGVOb2RlKG1ldGhvZE5hbWUpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBpZiAoY3VycmVudFRva2VuICE9ICIoIikgewogICAgICAgICAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkV4cGVjdGVkICcoJyBhZnRlciAkaWRlbnRpZmllci4kbWV0aG9kTmFtZSIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIG5leHRUb2tlbigpIC8vIOi3s+i/hygKCiAgICAgICAgICAgICAgICAgICAgdmFsIGFyZ3MgPSBtdXRhYmxlTGlzdE9mPEV4cHJlc3Npb25Ob2RlPigpCiAgICAgICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRUb2tlbiAhPSAiKSIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgYXJncy5hZGQocGFyc2VFeHByZXNzaW9uKCkpCgogICAgICAgICAgICAgICAgICAgICAgICB3aGlsZSAoY3VycmVudFRva2VuID09ICIsIikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV4dFRva2VuKCkgLy8g6Lez6L+HLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXJncy5hZGQocGFyc2VFeHByZXNzaW9uKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGlmIChjdXJyZW50VG9rZW4gIT0gIikiKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiRXhwZWN0ZWQgJyknIGluICRpZGVudGlmaWVyLiRtZXRob2ROYW1lIGNhbGwiCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgbmV4dFRva2VuKCkgLy8g6Lez6L+HKQoKICAgICAgICAgICAgICAgICAgICByZXR1cm4gRnVuY3Rpb25DYWxsTm9kZSgiJGlkZW50aWZpZXIuJG1ldGhvZE5hbWUiLCBhcmdzKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOWPmOmHj+W8leeUqAogICAgICAgICAgICAgICAgcmV0dXJuIFZhcmlhYmxlTm9kZShpZGVudGlmaWVyKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFRva2VuVHlwZS5MRUZUX1BBUkVOIC0+IHsKICAgICAgICAgICAgICAgIG5leHRUb2tlbigpIC8vIOi3s+i/hygKICAgICAgICAgICAgICAgIHZhbCBleHByID0gcGFyc2VFeHByZXNzaW9uKCkKCiAgICAgICAgICAgICAgICBpZiAoY3VycmVudFRva2VuICE9ICIpIikgewogICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiRXhwZWN0ZWQgJyknIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIG5leHRUb2tlbigpIC8vIOi3s+i/hykKCiAgICAgICAgICAgICAgICByZXR1cm4gZXhwcgogICAgICAgICAgICB9CiAgICAgICAgICAgIFRva2VuVHlwZS5MRUZUX0JSQUNLRVQgLT4gewogICAgICAgICAgICAgICAgbmV4dFRva2VuKCkgLy8g6Lez6L+HWwogICAgICAgICAgICAgICAgdmFsIGVsZW1lbnRzID0gbXV0YWJsZUxpc3RPZjxFeHByZXNzaW9uTm9kZT4oKQoKICAgICAgICAgICAgICAgIGlmIChjdXJyZW50VG9rZW4gIT0gIl0iKSB7CiAgICAgICAgICAgICAgICAgICAgZWxlbWVudHMuYWRkKHBhcnNlRXhwcmVzc2lvbigpKQoKICAgICAgICAgICAgICAgICAgICB3aGlsZSAoY3VycmVudFRva2VuID09ICIsIikgewogICAgICAgICAgICAgICAgICAgICAgICBuZXh0VG9rZW4oKSAvLyDot7Pov4csCiAgICAgICAgICAgICAgICAgICAgICAgIGVsZW1lbnRzLmFkZChwYXJzZUV4cHJlc3Npb24oKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKGN1cnJlbnRUb2tlbiAhPSAiXSIpIHsKICAgICAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkV4cGVjdGVkICddJyIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBuZXh0VG9rZW4oKSAvLyDot7Pov4ddCgogICAgICAgICAgICAgICAgLy8g5Yib5bu65LiA5Liq5Luj6KGo5pWw57uE55qE6IqC54K5CiAgICAgICAgICAgICAgICByZXR1cm4gRnVuY3Rpb25DYWxsTm9kZSgiYXJyYXkiLCBlbGVtZW50cykKICAgICAgICAgICAgfQogICAgICAgICAgICBUb2tlblR5cGUuU1RSSU5HIC0+IHsKICAgICAgICAgICAgICAgIHZhbCB2YWx1ZSA9IGN1cnJlbnRUb2tlbgogICAgICAgICAgICAgICAgbmV4dFRva2VuKCkKICAgICAgICAgICAgICAgIC8vIOWtl+espuS4suiKgueCueWkhOeQhuS4uuS4gOS4quWPmOmHj+iKgueCuQogICAgICAgICAgICAgICAgcmV0dXJuIFZhcmlhYmxlTm9kZSh2YWx1ZSkKICAgICAgICAgICAgfQogICAgICAgICAgICBUb2tlblR5cGUuVEVNUExBVEVfU1RBUlQgLT4gewogICAgICAgICAgICAgICAgcmV0dXJuIHBhcnNlVGVtcGxhdGUoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmV4cGVjdGVkIHRva2VuOiAkY3VycmVudFRva2VuIikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKiog6Kej5p6Q5qih5p2/5a2X56ym5LiyICovCiAgICBwcml2YXRlIGZ1biBwYXJzZVRlbXBsYXRlKCk6IEV4cHJlc3Npb25Ob2RlIHsKICAgICAgICB2YWwgcGFydHMgPSBtdXRhYmxlTGlzdE9mPEFueT4oKQoKICAgICAgICAvLyDmt7vliqDmqKHmnb/otbflp4vpg6jliIYKICAgICAgICBwYXJ0cy5hZGQoY3VycmVudFRva2VuLnN1YnN0cmluZygxKSkgLy8g5Y675o6J5byA5aeL55qEIgogICAgICAgIG5leHRUb2tlbigpCgogICAgICAgIHdoaWxlIChjdXJyZW50VG9rZW5UeXBlID09IFRva2VuVHlwZS5URU1QTEFURV9NSURETEUgfHwKICAgICAgICAgICAgICAgIGN1cnJlbnRUb2tlblR5cGUgPT0gVG9rZW5UeXBlLlRFTVBMQVRFX0VORCkgewogICAgICAgICAgICBpZiAoY3VycmVudFRva2VuVHlwZSA9PSBUb2tlblR5cGUuVEVNUExBVEVfTUlERExFKSB7CiAgICAgICAgICAgICAgICB2YWwgZXhwciA9IHBhcnNlRXhwcmVzc2lvbigpCiAgICAgICAgICAgICAgICBwYXJ0cy5hZGQoZXhwcikKICAgICAgICAgICAgfSBlbHNlIHsgLy8gVEVNUExBVEVfRU5ECiAgICAgICAgICAgICAgICBwYXJ0cy5hZGQoY3VycmVudFRva2VuLnN1YnN0cmluZygwLCBjdXJyZW50VG9rZW4ubGVuZ3RoIC0gMSkpIC8vIOWOu+aOiee7k+adn+eahCIKICAgICAgICAgICAgICAgIG5leHRUb2tlbigpCiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gVGVtcGxhdGVTdHJpbmdOb2RlKHBhcnRzKQogICAgfQoKICAgIC8qKiDojrflj5bkuIvkuIDkuKror43ms5XljZXlhYMgKi8KICAgIHByaXZhdGUgZnVuIG5leHRUb2tlbigpIHsKICAgICAgICAvLyDot7Pov4fnqbrnmb3lrZfnrKYKICAgICAgICB3aGlsZSAocG9zaXRpb24gPCBleHByZXNzaW9uLmxlbmd0aCAmJiBDaGFyYWN0ZXIuaXNXaGl0ZXNwYWNlKGV4cHJlc3Npb25bcG9zaXRpb25dKSkgewogICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgfQoKICAgICAgICBpZiAocG9zaXRpb24gPj0gZXhwcmVzc2lvbi5sZW5ndGgpIHsKICAgICAgICAgICAgY3VycmVudFRva2VuID0gIiIKICAgICAgICAgICAgY3VycmVudFRva2VuVHlwZSA9IFRva2VuVHlwZS5FT0YKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB2YWwgYyA9IGV4cHJlc3Npb25bcG9zaXRpb25dCgogICAgICAgIHdoZW4gewogICAgICAgICAgICBjLmlzRGlnaXQoKSB8fAogICAgICAgICAgICAgICAgICAgIChjID09ICcuJyAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb24gKyAxIDwgZXhwcmVzc2lvbi5sZW5ndGggJiYKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cHJlc3Npb25bcG9zaXRpb24gKyAxXS5pc0RpZ2l0KCkpIC0+IHsKICAgICAgICAgICAgICAgIHNjYW5OdW1iZXIoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGMuaXNMZXR0ZXIoKSB8fCBjID09ICdfJyAtPiB7CiAgICAgICAgICAgICAgICBzY2FuSWRlbnRpZmllcigpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYyA9PSAnIicgfHwgYyA9PSAnXCcnIC0+IHsKICAgICAgICAgICAgICAgIHNjYW5TdHJpbmcoYykKICAgICAgICAgICAgfQogICAgICAgICAgICBjID09ICdgJyAtPiB7CiAgICAgICAgICAgICAgICBzY2FuVGVtcGxhdGVTdHJpbmcoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGMgPT0gJygnIC0+IHsKICAgICAgICAgICAgICAgIGN1cnJlbnRUb2tlbiA9ICIoIgogICAgICAgICAgICAgICAgY3VycmVudFRva2VuVHlwZSA9IFRva2VuVHlwZS5MRUZUX1BBUkVOCiAgICAgICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYyA9PSAnKScgLT4gewogICAgICAgICAgICAgICAgY3VycmVudFRva2VuID0gIikiCiAgICAgICAgICAgICAgICBjdXJyZW50VG9rZW5UeXBlID0gVG9rZW5UeXBlLlJJR0hUX1BBUkVOCiAgICAgICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYyA9PSAnWycgLT4gewogICAgICAgICAgICAgICAgY3VycmVudFRva2VuID0gIlsiCiAgICAgICAgICAgICAgICBjdXJyZW50VG9rZW5UeXBlID0gVG9rZW5UeXBlLkxFRlRfQlJBQ0tFVAogICAgICAgICAgICAgICAgcG9zaXRpb24rKwogICAgICAgICAgICB9CiAgICAgICAgICAgIGMgPT0gJ10nIC0+IHsKICAgICAgICAgICAgICAgIGN1cnJlbnRUb2tlbiA9ICJdIgogICAgICAgICAgICAgICAgY3VycmVudFRva2VuVHlwZSA9IFRva2VuVHlwZS5SSUdIVF9CUkFDS0VUCiAgICAgICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYyA9PSAnLCcgLT4gewogICAgICAgICAgICAgICAgY3VycmVudFRva2VuID0gIiwiCiAgICAgICAgICAgICAgICBjdXJyZW50VG9rZW5UeXBlID0gVG9rZW5UeXBlLkNPTU1BCiAgICAgICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYyA9PSAnKycgfHwKICAgICAgICAgICAgICAgICAgICBjID09ICctJyB8fAogICAgICAgICAgICAgICAgICAgIGMgPT0gJyonIHx8CiAgICAgICAgICAgICAgICAgICAgYyA9PSAnLycgfHwKICAgICAgICAgICAgICAgICAgICBjID09ICclJyB8fAogICAgICAgICAgICAgICAgICAgIGMgPT0gJ14nIHx8CiAgICAgICAgICAgICAgICAgICAgYyA9PSAnPScgfHwKICAgICAgICAgICAgICAgICAgICBjID09ICchJyB8fAogICAgICAgICAgICAgICAgICAgIGMgPT0gJz4nIHx8CiAgICAgICAgICAgICAgICAgICAgYyA9PSAnPCcgfHwKICAgICAgICAgICAgICAgICAgICBjID09ICcmJyB8fAogICAgICAgICAgICAgICAgICAgIGMgPT0gJ3wnIHx8CiAgICAgICAgICAgICAgICAgICAgYyA9PSAnPycgfHwKICAgICAgICAgICAgICAgICAgICBjID09ICc6JyB8fAogICAgICAgICAgICAgICAgICAgIGMgPT0gJy4nIC0+IHsKICAgICAgICAgICAgICAgIHNjYW5PcGVyYXRvcigpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkludmFsaWQgY2hhcmFjdGVyOiAkYyIpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqIOaJq+aPj+aVsOWtlyAqLwogICAgcHJpdmF0ZSBmdW4gc2Nhbk51bWJlcigpIHsKICAgICAgICB2YWwgc3RhcnQgPSBwb3NpdGlvbgogICAgICAgIHZhciBoYXNEb3QgPSBmYWxzZQoKICAgICAgICB3aGlsZSAocG9zaXRpb24gPCBleHByZXNzaW9uLmxlbmd0aCkgewogICAgICAgICAgICB2YWwgYyA9IGV4cHJlc3Npb25bcG9zaXRpb25dCiAgICAgICAgICAgIGlmIChjLmlzRGlnaXQoKSkgewogICAgICAgICAgICAgICAgcG9zaXRpb24rKwogICAgICAgICAgICB9IGVsc2UgaWYgKGMgPT0gJy4nICYmICFoYXNEb3QpIHsKICAgICAgICAgICAgICAgIGhhc0RvdCA9IHRydWUKICAgICAgICAgICAgICAgIHBvc2l0aW9uKysKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGN1cnJlbnRUb2tlbiA9IGV4cHJlc3Npb24uc3Vic3RyaW5nKHN0YXJ0LCBwb3NpdGlvbikKICAgICAgICBjdXJyZW50VG9rZW5UeXBlID0gVG9rZW5UeXBlLk5VTUJFUgogICAgfQoKICAgIC8qKiDmiavmj4/moIfor4bnrKYgKi8KICAgIHByaXZhdGUgZnVuIHNjYW5JZGVudGlmaWVyKCkgewogICAgICAgIHZhbCBzdGFydCA9IHBvc2l0aW9uCgogICAgICAgIHdoaWxlIChwb3NpdGlvbiA8IGV4cHJlc3Npb24ubGVuZ3RoKSB7CiAgICAgICAgICAgIHZhbCBjID0gZXhwcmVzc2lvbltwb3NpdGlvbl0KICAgICAgICAgICAgaWYgKGMuaXNMZXR0ZXJPckRpZ2l0KCkgfHwgYyA9PSAnXycpIHsKICAgICAgICAgICAgICAgIHBvc2l0aW9uKysKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGN1cnJlbnRUb2tlbiA9IGV4cHJlc3Npb24uc3Vic3RyaW5nKHN0YXJ0LCBwb3NpdGlvbikKICAgICAgICBjdXJyZW50VG9rZW5UeXBlID0gVG9rZW5UeXBlLklERU5USUZJRVIKICAgIH0KCiAgICAvKiog5omr5o+P5a2X56ym5Liy5a2X6Z2i6YePICovCiAgICBwcml2YXRlIGZ1biBzY2FuU3RyaW5nKHF1b3RlQ2hhcjogQ2hhcikgewogICAgICAgIHZhbCBzdGFydCA9IHBvc2l0aW9uCiAgICAgICAgcG9zaXRpb24rKyAvLyDot7Pov4flvIDlp4vnmoTlvJXlj7cKCiAgICAgICAgd2hpbGUgKHBvc2l0aW9uIDwgZXhwcmVzc2lvbi5sZW5ndGgpIHsKICAgICAgICAgICAgdmFsIGMgPSBleHByZXNzaW9uW3Bvc2l0aW9uXQogICAgICAgICAgICBwb3NpdGlvbisrCgogICAgICAgICAgICBpZiAoYyA9PSBxdW90ZUNoYXIpIHsKICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgIH0gZWxzZSBpZiAoYyA9PSAnXFwnICYmIHBvc2l0aW9uIDwgZXhwcmVzc2lvbi5sZW5ndGgpIHsKICAgICAgICAgICAgICAgIC8vIOWkhOeQhui9rOS5ieWtl+espgogICAgICAgICAgICAgICAgcG9zaXRpb24rKwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBjdXJyZW50VG9rZW4gPSBleHByZXNzaW9uLnN1YnN0cmluZyhzdGFydCwgcG9zaXRpb24pCiAgICAgICAgY3VycmVudFRva2VuVHlwZSA9IFRva2VuVHlwZS5TVFJJTkcKICAgIH0KCiAgICAvKiog5omr5o+P5qih5p2/5a2X56ym5LiyICovCiAgICBwcml2YXRlIGZ1biBzY2FuVGVtcGxhdGVTdHJpbmcoKSB7CiAgICAgICAgdmFsIHN0YXJ0ID0gcG9zaXRpb24KICAgICAgICBwb3NpdGlvbisrIC8vIOi3s+i/h+W8gOWni+eahCBgCgogICAgICAgIC8vIOafpeaJviR75oiW6ICF57uT5p2f55qEYAogICAgICAgIHdoaWxlIChwb3NpdGlvbiA8IGV4cHJlc3Npb24ubGVuZ3RoKSB7CiAgICAgICAgICAgIGlmIChwb3NpdGlvbiArIDEgPCBleHByZXNzaW9uLmxlbmd0aCAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwcmVzc2lvbltwb3NpdGlvbl0gPT0gJyQnICYmCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHByZXNzaW9uW3Bvc2l0aW9uICsgMV0gPT0gJ3snCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgY3VycmVudFRva2VuID0gZXhwcmVzc2lvbi5zdWJzdHJpbmcoc3RhcnQsIHBvc2l0aW9uKQogICAgICAgICAgICAgICAgY3VycmVudFRva2VuVHlwZSA9IFRva2VuVHlwZS5URU1QTEFURV9TVEFSVAogICAgICAgICAgICAgICAgcG9zaXRpb24gKz0gMiAvLyDot7Pov4cgJHsKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9IGVsc2UgaWYgKGV4cHJlc3Npb25bcG9zaXRpb25dID09ICdgJykgewogICAgICAgICAgICAgICAgY3VycmVudFRva2VuID0gZXhwcmVzc2lvbi5zdWJzdHJpbmcoc3RhcnQsIHBvc2l0aW9uICsgMSkKICAgICAgICAgICAgICAgIGN1cnJlbnRUb2tlblR5cGUgPSBUb2tlblR5cGUuVEVNUExBVEVfRU5ECiAgICAgICAgICAgICAgICBwb3NpdGlvbisrIC8vIOi3s+i/h+e7k+adn+eahCBgCiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgfQoKICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIlVuY2xvc2VkIHRlbXBsYXRlIHN0cmluZyIpCiAgICB9CgogICAgLyoqIOaJq+aPj+aTjeS9nOespiAqLwogICAgcHJpdmF0ZSBmdW4gc2Nhbk9wZXJhdG9yKCkgewogICAgICAgIHZhbCBzdGFydCA9IHBvc2l0aW9uCiAgICAgICAgdmFsIGMgPSBleHByZXNzaW9uW3Bvc2l0aW9uXQogICAgICAgIHBvc2l0aW9uKysKCiAgICAgICAgLy8g5aSE55CG5aSa5a2X56ym5pON5L2c56ymCiAgICAgICAgaWYgKHBvc2l0aW9uIDwgZXhwcmVzc2lvbi5sZW5ndGgpIHsKICAgICAgICAgICAgdmFsIG5leHRDaGFyID0gZXhwcmVzc2lvbltwb3NpdGlvbl0KCiAgICAgICAgICAgIGlmICgoYyA9PSAnKycgfHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGMgPT0gJy0nIHx8CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjID09ICcqJyB8fAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYyA9PSAnLycgfHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGMgPT0gJz0nIHx8CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjID09ICchJyB8fAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYyA9PSAnPicgfHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGMgPT0gJzwnKSAmJiBuZXh0Q2hhciA9PSAnPScKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgICAgIH0gZWxzZSBpZiAoYyA9PSAnKicgJiYgbmV4dENoYXIgPT0gJyonKSB7CiAgICAgICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgICAgIH0gZWxzZSBpZiAoYyA9PSAnJicgJiYgbmV4dENoYXIgPT0gJyYnKSB7CiAgICAgICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgICAgIH0gZWxzZSBpZiAoYyA9PSAnfCcgJiYgbmV4dENoYXIgPT0gJ3wnKSB7CiAgICAgICAgICAgICAgICBwb3NpdGlvbisrCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGN1cnJlbnRUb2tlbiA9IGV4cHJlc3Npb24uc3Vic3RyaW5nKHN0YXJ0LCBwb3NpdGlvbikKICAgICAgICBjdXJyZW50VG9rZW5UeXBlID0gVG9rZW5UeXBlLk9QRVJBVE9SCiAgICB9CgogICAgLyoqIOafpeeci+S4i+S4gOS4quivjeazleWNleWFg+S9huS4jea2iOi0ueWugyAqLwogICAgcHJpdmF0ZSBmdW4gcGVla05leHRUb2tlbigpOiBTdHJpbmcgewogICAgICAgIHZhbCBzYXZlZFBvc2l0aW9uID0gcG9zaXRpb24KICAgICAgICB2YWwgc2F2ZWRUb2tlbiA9IGN1cnJlbnRUb2tlbgogICAgICAgIHZhbCBzYXZlZFR5cGUgPSBjdXJyZW50VG9rZW5UeXBlCgogICAgICAgIG5leHRUb2tlbigpCiAgICAgICAgdmFsIG5leHRUb2tlbiA9IGN1cnJlbnRUb2tlbgoKICAgICAgICAvLyDmgaLlpI3nirbmgIEKICAgICAgICBwb3NpdGlvbiA9IHNhdmVkUG9zaXRpb24KICAgICAgICBjdXJyZW50VG9rZW4gPSBzYXZlZFRva2VuCiAgICAgICAgY3VycmVudFRva2VuVHlwZSA9IHNhdmVkVHlwZQoKICAgICAgICByZXR1cm4gbmV4dFRva2VuCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.calculator
+
+/**
+ * 表达式解析器
+ *
+ * 将表达式字符串解析为语法树
+ */
+class ExpressionParser(private val expression: String) {
+    private var position = 0
+    private var currentToken = ""
+    private var currentTokenType = TokenType.NONE
+
+    /** 词法单元类型 */
+    enum class TokenType {
+        NONE,
+        NUMBER,
+        IDENTIFIER,
+        OPERATOR,
+        LEFT_PAREN,
+        RIGHT_PAREN,
+        LEFT_BRACKET,
+        RIGHT_BRACKET,
+        COMMA,
+        STRING,
+        TEMPLATE_START,
+        TEMPLATE_MIDDLE,
+        TEMPLATE_END,
+        EOF
+    }
+
+    /** 解析表达式 */
+    fun parse(): ExpressionNode {
+        nextToken()
+        val result = parseExpression()
+
+        if (currentTokenType != TokenType.EOF) {
+            throw IllegalArgumentException("Unexpected token: $currentToken")
+        }
+
+        return result
+    }
+
+    /** 解析表达式 */
+    private fun parseExpression(): ExpressionNode {
+        return parseTernary()
+    }
+
+    /** 解析三元运算符 */
+    private fun parseTernary(): ExpressionNode {
+        val condition = parseAssignment()
+
+        if (currentToken == "?") {
+            nextToken()
+            val trueExpr = parseAssignment()
+
+            if (currentToken != ":") {
+                throw IllegalArgumentException("Expected ':' in ternary operator")
+            }
+            nextToken()
+
+            val falseExpr = parseAssignment()
+            return TernaryOperationNode(condition, trueExpr, falseExpr)
+        }
+
+        return condition
+    }
+
+    /** 解析赋值表达式 */
+    private fun parseAssignment(): ExpressionNode {
+        if (currentTokenType == TokenType.IDENTIFIER) {
+            val variableName = currentToken
+            val nextPos = position
+            val nextChar = if (position < expression.length) expression[position] else ' '
+
+            if (nextChar == '=') {
+                val followingChar =
+                        if (position + 1 < expression.length) expression[position + 1] else ' '
+
+                if (followingChar == '=') {
+                    // 这是==运算符，不是赋值
+                    return parseLogicalOr()
+                }
+
+                // 简单赋值: x = expr
+                nextToken() // 跳过=
+                nextToken() // 获取下一个token
+
+                val valueExpr = parseAssignment() // 递归解析右侧表达式
+                return AssignmentNode(variableName, valueExpr)
+            } else if (nextChar == '+' || nextChar == '-' || nextChar == '*' || nextChar == '/') {
+                if (position + 1 < expression.length && expression[position + 1] == '=') {
+                    // 复合赋值: x += expr, x -= expr, etc.
+                    val operator = nextChar.toString() + "="
+                    position += 2 // 跳过操作符
+                    nextToken()
+
+                    val valueExpr = parseAssignment()
+                    return CompoundAssignmentNode(variableName, operator, valueExpr)
+                }
+            }
+        }
+
+        return parseLogicalOr()
+    }
+
+    /** 解析逻辑OR表达式 */
+    private fun parseLogicalOr(): ExpressionNode {
+        var left = parseLogicalAnd()
+
+        while (currentToken == "||") {
+            val operator = currentToken
+            nextToken()
+            val right = parseLogicalAnd()
+            left = BinaryOperationNode(left, operator, right)
+        }
+
+        return left
+    }
+
+    /** 解析逻辑AND表达式 */
+    private fun parseLogicalAnd(): ExpressionNode {
+        var left = parseEquality()
+
+        while (currentToken == "&&") {
+            val operator = currentToken
+            nextToken()
+            val right = parseEquality()
+            left = BinaryOperationNode(left, operator, right)
+        }
+
+        return left
+    }
+
+    /** 解析相等性表达式 */
+    private fun parseEquality(): ExpressionNode {
+        var left = parseComparison()
+
+        while (currentToken == "==" || currentToken == "!=") {
+            val operator = currentToken
+            nextToken()
+            val right = parseComparison()
+            left = BinaryOperationNode(left, operator, right)
+        }
+
+        return left
+    }
+
+    /** 解析比较表达式 */
+    private fun parseComparison(): ExpressionNode {
+        var left = parseAdditive()
+
+        while (currentToken == ">" ||
+                currentToken == ">=" ||
+                currentToken == "<" ||
+                currentToken == "<=") {
+            val operator = currentToken
+            nextToken()
+            val right = parseAdditive()
+            left = BinaryOperationNode(left, operator, right)
+        }
+
+        return left
+    }
+
+    /** 解析加法和减法 */
+    private fun parseAdditive(): ExpressionNode {
+        var left = parseMultiplicative()
+
+        while (currentToken == "+" || currentToken == "-") {
+            val operator = currentToken
+            nextToken()
+            val right = parseMultiplicative()
+            left = BinaryOperationNode(left, operator, right)
+        }
+
+        return left
+    }
+
+    /** 解析乘法和除法 */
+    private fun parseMultiplicative(): ExpressionNode {
+        var left = parseExponential()
+
+        while (currentToken == "*" || currentToken == "/" || currentToken == "%") {
+            val operator = currentToken
+            nextToken()
+            val right = parseExponential()
+            left = BinaryOperationNode(left, operator, right)
+        }
+
+        return left
+    }
+
+    /** 解析指数运算 */
+    private fun parseExponential(): ExpressionNode {
+        var left = parseUnary()
+
+        while (currentToken == "**" || currentToken == "^") {
+            val operator = currentToken
+            nextToken()
+            val right = parseUnary()
+            left = BinaryOperationNode(left, operator, right)
+        }
+
+        return left
+    }
+
+    /** 解析一元操作符 */
+    private fun parseUnary(): ExpressionNode {
+        if (currentToken == "+" || currentToken == "-" || currentToken == "!") {
+            val operator = currentToken
+            nextToken()
+            val operand = parseUnary()
+            return UnaryOperationNode(operator, operand)
+        }
+
+        return parseArrayAccess()
+    }
+
+    /** 解析数组访问 */
+    private fun parseArrayAccess(): ExpressionNode {
+        var expr = parsePrimary()
+
+        while (true) {
+            if (currentToken == "[") {
+                nextToken() // 跳过[
+                val index = parseExpression()
+
+                if (currentToken != "]") {
+                    throw IllegalArgumentException("Expected ']' in array access")
+                }
+                nextToken() // 跳过]
+
+                expr = ArrayAccessNode(expr, index)
+            } else if (currentToken == "." && peekNextToken() == "length") {
+                // 特殊处理 .length 属性访问
+                nextToken() // 跳过.
+                nextToken() // 跳过length
+
+                expr = FunctionCallNode("length", listOf(expr))
+            } else {
+                break
+            }
+        }
+
+        return expr
+    }
+
+    /** 解析基本表达式 */
+    private fun parsePrimary(): ExpressionNode {
+        when (currentTokenType) {
+            TokenType.NUMBER -> {
+                val value = currentToken.toDouble()
+                nextToken()
+                return NumberNode(value)
+            }
+            TokenType.IDENTIFIER -> {
+                val identifier = currentToken
+                nextToken()
+
+                // 函数调用
+                if (currentToken == "(") {
+                    nextToken() // 跳过(
+                    val args = mutableListOf<ExpressionNode>()
+
+                    if (currentToken != ")") {
+                        args.add(parseExpression())
+
+                        while (currentToken == ",") {
+                            nextToken() // 跳过,
+                            args.add(parseExpression())
+                        }
+                    }
+
+                    if (currentToken != ")") {
+                        throw IllegalArgumentException("Expected ')' in function call")
+                    }
+                    nextToken() // 跳过)
+
+                    // 特殊处理 convert 函数，它需要三个参数，但第2和第3个是字符串
+                    if (identifier.equals("convert", ignoreCase = true) && args.size >= 3) {
+                        val fromUnit =
+                                (args[1] as? VariableNode)?.name ?: args[1].evaluate().toString()
+                        val toUnit =
+                                (args[2] as? VariableNode)?.name ?: args[2].evaluate().toString()
+
+                        // 将单位存储为临时变量供函数使用
+                        ExpressionContext.setVariable("_convert_from", 0.0) // 会被类型转换为字符串
+                        ExpressionContext.setVariable("_convert_to", 0.0) // 同上
+
+                        return FunctionCallNode(identifier, listOf(args[0]))
+                    }
+
+                    return FunctionCallNode(identifier, args)
+                }
+
+                // 计算器公开的命名空间函数调用
+                if ((identifier == "Math" || identifier == "stats") && currentToken == ".") {
+                    nextToken() // 跳过.
+                    if (currentTokenType != TokenType.IDENTIFIER) {
+                        throw IllegalArgumentException("Expected member name after $identifier.")
+                    }
+                    val methodName = currentToken
+                    nextToken()
+
+                    if (identifier == "Math" &&
+                            (methodName == "PI" || methodName == "E") &&
+                            currentToken != "(") {
+                        return VariableNode(methodName)
+                    }
+
+                    if (currentToken != "(") {
+                        throw IllegalArgumentException("Expected '(' after $identifier.$methodName")
+                    }
+                    nextToken() // 跳过(
+
+                    val args = mutableListOf<ExpressionNode>()
+                    if (currentToken != ")") {
+                        args.add(parseExpression())
+
+                        while (currentToken == ",") {
+                            nextToken() // 跳过,
+                            args.add(parseExpression())
+                        }
+                    }
+
+                    if (currentToken != ")") {
+                        throw IllegalArgumentException(
+                                "Expected ')' in $identifier.$methodName call"
+                        )
+                    }
+                    nextToken() // 跳过)
+
+                    return FunctionCallNode("$identifier.$methodName", args)
+                }
+
+                // 变量引用
+                return VariableNode(identifier)
+            }
+            TokenType.LEFT_PAREN -> {
+                nextToken() // 跳过(
+                val expr = parseExpression()
+
+                if (currentToken != ")") {
+                    throw IllegalArgumentException("Expected ')'")
+                }
+                nextToken() // 跳过)
+
+                return expr
+            }
+            TokenType.LEFT_BRACKET -> {
+                nextToken() // 跳过[
+                val elements = mutableListOf<ExpressionNode>()
+
+                if (currentToken != "]") {
+                    elements.add(parseExpression())
+
+                    while (currentToken == ",") {
+                        nextToken() // 跳过,
+                        elements.add(parseExpression())
+                    }
+                }
+
+                if (currentToken != "]") {
+                    throw IllegalArgumentException("Expected ']'")
+                }
+                nextToken() // 跳过]
+
+                // 创建一个代表数组的节点
+                return FunctionCallNode("array", elements)
+            }
+            TokenType.STRING -> {
+                val value = currentToken
+                nextToken()
+                // 字符串节点处理为一个变量节点
+                return VariableNode(value)
+            }
+            TokenType.TEMPLATE_START -> {
+                return parseTemplate()
+            }
+            else -> {
+                throw IllegalArgumentException("Unexpected token: $currentToken")
+            }
+        }
+    }
+
+    /** 解析模板字符串 */
+    private fun parseTemplate(): ExpressionNode {
+        val parts = mutableListOf<Any>()
+
+        // 添加模板起始部分
+        parts.add(currentToken.substring(1)) // 去掉开始的"
+        nextToken()
+
+        while (currentTokenType == TokenType.TEMPLATE_MIDDLE ||
+                currentTokenType == TokenType.TEMPLATE_END) {
+            if (currentTokenType == TokenType.TEMPLATE_MIDDLE) {
+                val expr = parseExpression()
+                parts.add(expr)
+            } else { // TEMPLATE_END
+                parts.add(currentToken.substring(0, currentToken.length - 1)) // 去掉结束的"
+                nextToken()
+                break
+            }
+        }
+
+        return TemplateStringNode(parts)
+    }
+
+    /** 获取下一个词法单元 */
+    private fun nextToken() {
+        // 跳过空白字符
+        while (position < expression.length && Character.isWhitespace(expression[position])) {
+            position++
+        }
+
+        if (position >= expression.length) {
+            currentToken = ""
+            currentTokenType = TokenType.EOF
+            return
+        }
+
+        val c = expression[position]
+
+        when {
+            c.isDigit() ||
+                    (c == '.' &&
+                            position + 1 < expression.length &&
+                            expression[position + 1].isDigit()) -> {
+                scanNumber()
+            }
+            c.isLetter() || c == '_' -> {
+                scanIdentifier()
+            }
+            c == '"' || c == '\'' -> {
+                scanString(c)
+            }
+            c == '`' -> {
+                scanTemplateString()
+            }
+            c == '(' -> {
+                currentToken = "("
+                currentTokenType = TokenType.LEFT_PAREN
+                position++
+            }
+            c == ')' -> {
+                currentToken = ")"
+                currentTokenType = TokenType.RIGHT_PAREN
+                position++
+            }
+            c == '[' -> {
+                currentToken = "["
+                currentTokenType = TokenType.LEFT_BRACKET
+                position++
+            }
+            c == ']' -> {
+                currentToken = "]"
+                currentTokenType = TokenType.RIGHT_BRACKET
+                position++
+            }
+            c == ',' -> {
+                currentToken = ","
+                currentTokenType = TokenType.COMMA
+                position++
+            }
+            c == '+' ||
+                    c == '-' ||
+                    c == '*' ||
+                    c == '/' ||
+                    c == '%' ||
+                    c == '^' ||
+                    c == '=' ||
+                    c == '!' ||
+                    c == '>' ||
+                    c == '<' ||
+                    c == '&' ||
+                    c == '|' ||
+                    c == '?' ||
+                    c == ':' ||
+                    c == '.' -> {
+                scanOperator()
+            }
+            else -> {
+                throw IllegalArgumentException("Invalid character: $c")
+            }
+        }
+    }
+
+    /** 扫描数字 */
+    private fun scanNumber() {
+        val start = position
+        var hasDot = false
+
+        while (position < expression.length) {
+            val c = expression[position]
+            if (c.isDigit()) {
+                position++
+            } else if (c == '.' && !hasDot) {
+                hasDot = true
+                position++
+            } else {
+                break
+            }
+        }
+
+        currentToken = expression.substring(start, position)
+        currentTokenType = TokenType.NUMBER
+    }
+
+    /** 扫描标识符 */
+    private fun scanIdentifier() {
+        val start = position
+
+        while (position < expression.length) {
+            val c = expression[position]
+            if (c.isLetterOrDigit() || c == '_') {
+                position++
+            } else {
+                break
+            }
+        }
+
+        currentToken = expression.substring(start, position)
+        currentTokenType = TokenType.IDENTIFIER
+    }
+
+    /** 扫描字符串字面量 */
+    private fun scanString(quoteChar: Char) {
+        val start = position
+        position++ // 跳过开始的引号
+
+        while (position < expression.length) {
+            val c = expression[position]
+            position++
+
+            if (c == quoteChar) {
+                break
+            } else if (c == '\\' && position < expression.length) {
+                // 处理转义字符
+                position++
+            }
+        }
+
+        currentToken = expression.substring(start, position)
+        currentTokenType = TokenType.STRING
+    }
+
+    /** 扫描模板字符串 */
+    private fun scanTemplateString() {
+        val start = position
+        position++ // 跳过开始的 `
+
+        // 查找${或者结束的`
+        while (position < expression.length) {
+            if (position + 1 < expression.length &&
+                            expression[position] == '$' &&
+                            expression[position + 1] == '{'
+            ) {
+                currentToken = expression.substring(start, position)
+                currentTokenType = TokenType.TEMPLATE_START
+                position += 2 // 跳过 ${
+                return
+            } else if (expression[position] == '`') {
+                currentToken = expression.substring(start, position + 1)
+                currentTokenType = TokenType.TEMPLATE_END
+                position++ // 跳过结束的 `
+                return
+            }
+            position++
+        }
+
+        throw IllegalArgumentException("Unclosed template string")
+    }
+
+    /** 扫描操作符 */
+    private fun scanOperator() {
+        val start = position
+        val c = expression[position]
+        position++
+
+        // 处理多字符操作符
+        if (position < expression.length) {
+            val nextChar = expression[position]
+
+            if ((c == '+' ||
+                            c == '-' ||
+                            c == '*' ||
+                            c == '/' ||
+                            c == '=' ||
+                            c == '!' ||
+                            c == '>' ||
+                            c == '<') && nextChar == '='
+            ) {
+                position++
+            } else if (c == '*' && nextChar == '*') {
+                position++
+            } else if (c == '&' && nextChar == '&') {
+                position++
+            } else if (c == '|' && nextChar == '|') {
+                position++
+            }
+        }
+
+        currentToken = expression.substring(start, position)
+        currentTokenType = TokenType.OPERATOR
+    }
+
+    /** 查看下一个词法单元但不消费它 */
+    private fun peekNextToken(): String {
+        val savedPosition = position
+        val savedToken = currentToken
+        val savedType = currentTokenType
+
+        nextToken()
+        val nextToken = currentToken
+
+        // 恢复状态
+        position = savedPosition
+        currentToken = savedToken
+        currentTokenType = savedType
+
+        return nextToken
+    }
+}

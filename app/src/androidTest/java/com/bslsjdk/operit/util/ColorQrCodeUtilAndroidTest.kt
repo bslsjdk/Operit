@@ -1,1 +1,46 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRBcnJheUVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBDb2xvclFyQ29kZVV0aWxBbmRyb2lkVGVzdCB7CgogICAgQFRlc3QKICAgIGZ1biByb3VuZFRyaXBfMl80XzhfMTZfY29sb3JzKCkgewogICAgICAgIHZhbCBwYXlsb2FkID0gQnl0ZUFycmF5KDEyOCkgeyBpIC0+ICgoaSAqIDMxKSB4b3IgKGkgdXNociAxKSkudG9CeXRlKCkgfQoKICAgICAgICBmb3IgKGNvbG9ycyBpbiBsaXN0T2YoMiwgNCwgOCwgMTYpKSB7CiAgICAgICAgICAgIHZhbCBibXAgPSBDb2xvclFyQ29kZVV0aWwuZ2VuZXJhdGUoCiAgICAgICAgICAgICAgICBwYXlsb2FkID0gcGF5bG9hZCwKICAgICAgICAgICAgICAgIGNvbG9yQ291bnQgPSBjb2xvcnMsCiAgICAgICAgICAgICAgICBtb2R1bGVTaXplUHggPSAxNiwKICAgICAgICAgICAgICAgIG1hcmdpbk1vZHVsZXMgPSA0LAogICAgICAgICAgICApCgogICAgICAgICAgICB2YWwgZGVjb2RlZCA9IENvbG9yUXJDb2RlVXRpbC5kZWNvZGUoYm1wLCBleHBlY3RlZENvbG9yQ291bnQgPSBjb2xvcnMpCiAgICAgICAgICAgIGFzc2VydEVxdWFscyhjb2xvcnMsIGRlY29kZWQuY29sb3JDb3VudCkKICAgICAgICAgICAgYXNzZXJ0QXJyYXlFcXVhbHMocGF5bG9hZCwgZGVjb2RlZC5wYXlsb2FkKQogICAgICAgIH0KICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHJvdW5kVHJpcF9hdXRvRGV0ZWN0Q29sb3JDb3VudCgpIHsKICAgICAgICB2YWwgcGF5bG9hZCA9ICJoZWxsby1jb2xvci1xciIuZW5jb2RlVG9CeXRlQXJyYXkoKQogICAgICAgIHZhbCBjb2xvcnMgPSA4CgogICAgICAgIHZhbCBibXAgPSBDb2xvclFyQ29kZVV0aWwuZ2VuZXJhdGUoCiAgICAgICAgICAgIHBheWxvYWQgPSBwYXlsb2FkLAogICAgICAgICAgICBjb2xvckNvdW50ID0gY29sb3JzLAogICAgICAgICAgICBtb2R1bGVTaXplUHggPSAxNiwKICAgICAgICAgICAgbWFyZ2luTW9kdWxlcyA9IDQsCiAgICAgICAgKQoKICAgICAgICB2YWwgZGVjb2RlZCA9IENvbG9yUXJDb2RlVXRpbC5kZWNvZGUoYm1wKQogICAgICAgIGFzc2VydEVxdWFscyhjb2xvcnMsIGRlY29kZWQuY29sb3JDb3VudCkKICAgICAgICBhc3NlcnRBcnJheUVxdWFscyhwYXlsb2FkLCBkZWNvZGVkLnBheWxvYWQpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import org.junit.Assert.assertArrayEquals
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class ColorQrCodeUtilAndroidTest {
+
+    @Test
+    fun roundTrip_2_4_8_16_colors() {
+        val payload = ByteArray(128) { i -> ((i * 31) xor (i ushr 1)).toByte() }
+
+        for (colors in listOf(2, 4, 8, 16)) {
+            val bmp = ColorQrCodeUtil.generate(
+                payload = payload,
+                colorCount = colors,
+                moduleSizePx = 16,
+                marginModules = 4,
+            )
+
+            val decoded = ColorQrCodeUtil.decode(bmp, expectedColorCount = colors)
+            assertEquals(colors, decoded.colorCount)
+            assertArrayEquals(payload, decoded.payload)
+        }
+    }
+
+    @Test
+    fun roundTrip_autoDetectColorCount() {
+        val payload = "hello-color-qr".encodeToByteArray()
+        val colors = 8
+
+        val bmp = ColorQrCodeUtil.generate(
+            payload = payload,
+            colorCount = colors,
+            moduleSizePx = 16,
+            marginModules = 4,
+        )
+
+        val decoded = ColorQrCodeUtil.decode(bmp)
+        assertEquals(colors, decoded.colorCount)
+        assertArrayEquals(payload, decoded.payload)
+    }
+}

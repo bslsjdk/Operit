@@ -1,1 +1,79 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb24KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuU3VwZXJ2aXNvckpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNhbmNlbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCmltcG9ydCBvcmcuanVuaXQuQWZ0ZXIKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFNhbWUKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuZmFpbAppbXBvcnQgb3JnLmp1bml0LkJlZm9yZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIEhvdFN0cmVhbVRlc3QgewoKICAgIHByaXZhdGUgdmFyIHByZXZpb3VzU3lzdGVtTG9nRW5hYmxlZCA9IHRydWUKCiAgICBAQmVmb3JlCiAgICBmdW4gZGlzYWJsZUFuZHJvaWRTeXN0ZW1Mb2dGb3JKdm1UZXN0cygpIHsKICAgICAgICBwcmV2aW91c1N5c3RlbUxvZ0VuYWJsZWQgPSBBcHBMb2dnZXIuZW5hYmxlU3lzdGVtTG9nCiAgICAgICAgQXBwTG9nZ2VyLmVuYWJsZVN5c3RlbUxvZyA9IGZhbHNlCiAgICB9CgogICAgQEFmdGVyCiAgICBmdW4gcmVzdG9yZUFuZHJvaWRTeXN0ZW1Mb2coKSB7CiAgICAgICAgQXBwTG9nZ2VyLmVuYWJsZVN5c3RlbUxvZyA9IHByZXZpb3VzU3lzdGVtTG9nRW5hYmxlZAogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gc2hhcmVGb3J3YXJkc1Vwc3RyZWFtRmFpbHVyZUFmdGVyUmVwbGF5aW5nUGFydGlhbENvbnRlbnQoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgc2NvcGUgPSBDb3JvdXRpbmVTY29wZShTdXBlcnZpc29ySm9iKCkgKyBEaXNwYXRjaGVycy5VbmNvbmZpbmVkKQogICAgICAgIHZhbCBleHBlY3RlZCA9IElPRXhjZXB0aW9uKCJuZXR3b3JrIGludGVycnVwdGVkIikKICAgICAgICB2YWwgc2hhcmVkID0KICAgICAgICAgICAgc3RyZWFtPFN0cmluZz4gewogICAgICAgICAgICAgICAgZW1pdCgicGFydGlhbCIpCiAgICAgICAgICAgICAgICB0aHJvdyBleHBlY3RlZAogICAgICAgICAgICB9LnNoYXJlKAogICAgICAgICAgICAgICAgc2NvcGUgPSBzY29wZSwKICAgICAgICAgICAgICAgIHJlcGxheSA9IEludC5NQVhfVkFMVUUsCiAgICAgICAgICAgICkKICAgICAgICB2YWwgcmVjZWl2ZWQgPSBTdHJpbmdCdWlsZGVyKCkKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgc2hhcmVkLmNvbGxlY3QgeyBjaHVuayAtPiByZWNlaXZlZC5hcHBlbmQoY2h1bmspIH0KICAgICAgICAgICAgZmFpbCgic2hhcmVkIHN0cmVhbSBtdXN0IHByb3BhZ2F0ZSB0aGUgdXBzdHJlYW0gZmFpbHVyZSIpCiAgICAgICAgfSBjYXRjaCAoYWN0dWFsOiBJT0V4Y2VwdGlvbikgewogICAgICAgICAgICBhc3NlcnRTYW1lKGV4cGVjdGVkLCBhY3R1YWwpCiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgc2NvcGUuY2FuY2VsKCkKICAgICAgICB9CgogICAgICAgIGFzc2VydEVxdWFscygicGFydGlhbCIsIHJlY2VpdmVkLnRvU3RyaW5nKCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBzaGFyZUNhblJlY29yZFVwc3RyZWFtRmFpbHVyZVdpdGhvdXRGYWlsaW5nT2JzZXJ2ZXJzKCkgPSBydW5CbG9ja2luZyB7CiAgICAgICAgdmFsIHNjb3BlID0gQ29yb3V0aW5lU2NvcGUoU3VwZXJ2aXNvckpvYigpICsgRGlzcGF0Y2hlcnMuVW5jb25maW5lZCkKICAgICAgICB2YWwgZXhwZWN0ZWQgPSBJT0V4Y2VwdGlvbigibmV0d29yayBpbnRlcnJ1cHRlZCIpCiAgICAgICAgdmFsIHNoYXJlZCA9CiAgICAgICAgICAgIHN0cmVhbTxTdHJpbmc+IHsKICAgICAgICAgICAgICAgIGVtaXQoInBhcnRpYWwiKQogICAgICAgICAgICAgICAgdGhyb3cgZXhwZWN0ZWQKICAgICAgICAgICAgfS5zaGFyZSgKICAgICAgICAgICAgICAgIHNjb3BlID0gc2NvcGUsCiAgICAgICAgICAgICAgICByZXBsYXkgPSBJbnQuTUFYX1ZBTFVFLAogICAgICAgICAgICAgICAgcHJvcGFnYXRlQ29tcGxldGlvbkNhdXNlID0gZmFsc2UsCiAgICAgICAgICAgICkKICAgICAgICB2YWwgcmVjZWl2ZWQgPSBTdHJpbmdCdWlsZGVyKCkKCiAgICAgICAgc2hhcmVkLmNvbGxlY3QgeyBjaHVuayAtPiByZWNlaXZlZC5hcHBlbmQoY2h1bmspIH0KCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwYXJ0aWFsIiwgcmVjZWl2ZWQudG9TdHJpbmcoKSkKICAgICAgICBhc3NlcnRTYW1lKGV4cGVjdGVkLCBzaGFyZWQuY29tcGxldGlvbkNhdXNlKQogICAgICAgIHNjb3BlLmNhbmNlbCgpCiAgICB9Cn0K
+package com.bslsjdk.operit.util.stream
+
+import com.bslsjdk.operit.util.AppLogger
+import java.io.IOException
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.runBlocking
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertSame
+import org.junit.Assert.fail
+import org.junit.Before
+import org.junit.Test
+
+class HotStreamTest {
+
+    private var previousSystemLogEnabled = true
+
+    @Before
+    fun disableAndroidSystemLogForJvmTests() {
+        previousSystemLogEnabled = AppLogger.enableSystemLog
+        AppLogger.enableSystemLog = false
+    }
+
+    @After
+    fun restoreAndroidSystemLog() {
+        AppLogger.enableSystemLog = previousSystemLogEnabled
+    }
+
+    @Test
+    fun shareForwardsUpstreamFailureAfterReplayingPartialContent() = runBlocking {
+        val scope = CoroutineScope(SupervisorJob() + Dispatchers.Unconfined)
+        val expected = IOException("network interrupted")
+        val shared =
+            stream<String> {
+                emit("partial")
+                throw expected
+            }.share(
+                scope = scope,
+                replay = Int.MAX_VALUE,
+            )
+        val received = StringBuilder()
+
+        try {
+            shared.collect { chunk -> received.append(chunk) }
+            fail("shared stream must propagate the upstream failure")
+        } catch (actual: IOException) {
+            assertSame(expected, actual)
+        } finally {
+            scope.cancel()
+        }
+
+        assertEquals("partial", received.toString())
+    }
+
+    @Test
+    fun shareCanRecordUpstreamFailureWithoutFailingObservers() = runBlocking {
+        val scope = CoroutineScope(SupervisorJob() + Dispatchers.Unconfined)
+        val expected = IOException("network interrupted")
+        val shared =
+            stream<String> {
+                emit("partial")
+                throw expected
+            }.share(
+                scope = scope,
+                replay = Int.MAX_VALUE,
+                propagateCompletionCause = false,
+            )
+        val received = StringBuilder()
+
+        shared.collect { chunk -> received.append(chunk) }
+
+        assertEquals("partial", received.toString())
+        assertSame(expected, shared.completionCause)
+        scope.cancel()
+    }
+}

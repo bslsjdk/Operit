@@ -1,1 +1,332 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5Ub29sUGFja2FnZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuamF2YXNjcmlwdC5Kc0VuZ2luZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuamF2YXNjcmlwdC5RdWlja0pzTWVtb3J5VXNhZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXAKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvcHlPbldyaXRlQXJyYXlMaXN0CmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljQm9vbGVhbgoKLyoqCiAqIOS4gOS4qiBUb29sUGtnIOWuueWZqOW9k+WJjea0u+i3g+aJp+ihjOW8leaTjueahOi/kOihjOS/oeaBr+OAggogKiDmgKfog73liIbmnpDnlYzpnaLnlKjlroPmioogUXVpY2tKUyDov5DooYznur/nqIvnmoQgQ1BVIOWSjCBKUyDloIblhoXlrZjlvZLlsZ7liLDlhbfkvZPmj5Lku7bjgIIKICovCmludGVybmFsIGRhdGEgY2xhc3MgVG9vbFBrZ0VuZ2luZVJ1bnRpbWVJbmZvKAogICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICB2YWwgZW5naW5lQ291bnQ6IEludCwKICAgIHZhbCBlbmdpbmVUaHJlYWRJZHM6IExpc3Q8TG9uZz4sCiAgICB2YWwgcXVpY2tKc01lbW9yeVVzZWRCeXRlczogTG9uZywKICAgIHZhbCBxdWlja0pzTWFsbG9jQnl0ZXM6IExvbmcKKQoKaW50ZXJuYWwgY2xhc3MgVG9vbFBrZ01hbmFnZXIoCiAgICBwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0LAogICAgcHJpdmF0ZSB2YWwgY3JlYXRlRXhlY3V0aW9uRW5naW5lOiAoKSAtPiBKc0VuZ2luZSA9IHsgSnNFbmdpbmUoY29udGV4dCkgfQopIHsKICAgIGludGVybmFsIHZhbCBjb250YWluZXJzSW50ZXJuYWwgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIFRvb2xQa2dDb250YWluZXJSdW50aW1lPigpCiAgICBpbnRlcm5hbCB2YWwgc3VicGFja2FnZUJ5UGFja2FnZU5hbWVJbnRlcm5hbCA9CiAgICAgICAgQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBUb29sUGtnU3VicGFja2FnZVJ1bnRpbWU+KCkKCiAgICBwcml2YXRlIHZhbCBydW50aW1lQ2hhbmdlTGlzdGVuZXJzID0KICAgICAgICBDb3B5T25Xcml0ZUFycmF5TGlzdDxQYWNrYWdlTWFuYWdlci5Ub29sUGtnUnVudGltZUNoYW5nZUxpc3RlbmVyPigpCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgRXhlY3V0aW9uRW5naW5lRW50cnkoCiAgICAgICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICAgICAgdmFsIGVuZ2luZTogSnNFbmdpbmUsCiAgICAgICAgdmFsIGFjdGl2ZUxlYXNlczogSW50ID0gMAogICAgKQoKICAgIHByaXZhdGUgdmFsIGV4ZWN1dGlvbkVuZ2luZUxvY2sgPSBBbnkoKQogICAgcHJpdmF0ZSB2YWwgZXhlY3V0aW9uRW5naW5lcyA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgRXhlY3V0aW9uRW5naW5lRW50cnk+KCkKICAgIHByaXZhdGUgdmFsIGRlc3Ryb3llZCA9IEF0b21pY0Jvb2xlYW4oZmFsc2UpCgogICAgZnVuIGlzVG9vbFBrZ0NvbnRhaW5lcihwYWNrYWdlTmFtZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGNvbnRhaW5lcnNJbnRlcm5hbC5jb250YWluc0tleShwYWNrYWdlTmFtZS50cmltKCkpCiAgICB9CgogICAgZnVuIGhhc1N1YnBhY2thZ2UocGFja2FnZU5hbWU6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBzdWJwYWNrYWdlQnlQYWNrYWdlTmFtZUludGVybmFsLmNvbnRhaW5zS2V5KHBhY2thZ2VOYW1lLnRyaW0oKSkKICAgIH0KCiAgICBmdW4gZ2V0VG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWVzKCk6IExpc3Q8VG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWU+IHsKICAgICAgICByZXR1cm4gY29udGFpbmVyc0ludGVybmFsLnZhbHVlcy5zb3J0ZWRCeShUb29sUGtnQ29udGFpbmVyUnVudGltZTo6cGFja2FnZU5hbWUpCiAgICB9CgogICAgZnVuIGdldFRvb2xQa2dDb250YWluZXJSdW50aW1lKGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcpOiBUb29sUGtnQ29udGFpbmVyUnVudGltZT8gewogICAgICAgIHJldHVybiBjb250YWluZXJzSW50ZXJuYWxbY29udGFpbmVyUGFja2FnZU5hbWUudHJpbSgpXQogICAgfQoKICAgIGZ1biBjYW5SZWdpc3RlclRvb2xQa2coCiAgICAgICAgbG9hZFJlc3VsdDogVG9vbFBrZ0xvYWRSZXN1bHQsCiAgICAgICAgYXZhaWxhYmxlUGFja2FnZXM6IE1hcDxTdHJpbmcsIFRvb2xQYWNrYWdlPgogICAgKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIGNvbnRhaW5lck5hbWUgPSBsb2FkUmVzdWx0LmNvbnRhaW5lclBhY2thZ2UubmFtZS50cmltKCkKICAgICAgICBpZiAoCiAgICAgICAgICAgIGNvbnRhaW5lck5hbWUuaXNCbGFuaygpIHx8CiAgICAgICAgICAgICAgICBjb250YWluZXJzSW50ZXJuYWwuY29udGFpbnNLZXkoY29udGFpbmVyTmFtZSkgfHwKICAgICAgICAgICAgICAgIGF2YWlsYWJsZVBhY2thZ2VzLmNvbnRhaW5zS2V5KGNvbnRhaW5lck5hbWUpCiAgICAgICAgKSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgbG9hZFJlc3VsdC5zdWJwYWNrYWdlUGFja2FnZXMuZm9yRWFjaCB7IHN1YnBhY2thZ2UgLT4KICAgICAgICAgICAgdmFsIHBhY2thZ2VOYW1lID0gc3VicGFja2FnZS5uYW1lLnRyaW0oKQogICAgICAgICAgICBpZiAoCiAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZS5pc0JsYW5rKCkgfHwKICAgICAgICAgICAgICAgICAgICBjb250YWluZXJzSW50ZXJuYWwuY29udGFpbnNLZXkocGFja2FnZU5hbWUpIHx8CiAgICAgICAgICAgICAgICAgICAgYXZhaWxhYmxlUGFja2FnZXMuY29udGFpbnNLZXkocGFja2FnZU5hbWUpIHx8CiAgICAgICAgICAgICAgICAgICAgc3VicGFja2FnZUJ5UGFja2FnZU5hbWVJbnRlcm5hbC5jb250YWluc0tleShwYWNrYWdlTmFtZSkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIGZ1biByZWdpc3RlclRvb2xQa2cobG9hZFJlc3VsdDogVG9vbFBrZ0xvYWRSZXN1bHQpOiBMaXN0PFRvb2xQYWNrYWdlPiB7CiAgICAgICAgdmFsIGNvbnRhaW5lck5hbWUgPSBsb2FkUmVzdWx0LmNvbnRhaW5lclBhY2thZ2UubmFtZQogICAgICAgIGNvbnRhaW5lcnNJbnRlcm5hbFtjb250YWluZXJOYW1lXSA9IGxvYWRSZXN1bHQuY29udGFpbmVyUnVudGltZQogICAgICAgIGxvYWRSZXN1bHQuY29udGFpbmVyUnVudGltZS5zdWJwYWNrYWdlcy5mb3JFYWNoIHsgcnVudGltZSAtPgogICAgICAgICAgICBzdWJwYWNrYWdlQnlQYWNrYWdlTmFtZUludGVybmFsW3J1bnRpbWUucGFja2FnZU5hbWVdID0gcnVudGltZQogICAgICAgIH0KICAgICAgICByZXR1cm4gbG9hZFJlc3VsdC5zdWJwYWNrYWdlUGFja2FnZXMKICAgIH0KCiAgICBmdW4gZ2V0RW5hYmxlZFRvb2xQa2dDb250YWluZXJSdW50aW1lcygKICAgICAgICBlbmFibGVkUGFja2FnZU5hbWVzOiBMaXN0PFN0cmluZz4sCiAgICAgICAgYXZhaWxhYmxlUGFja2FnZXM6IE1hcDxTdHJpbmcsIFRvb2xQYWNrYWdlPiwKICAgICAgICBwcmVmZXJyZWRPcmRlcjogTGlzdDxTdHJpbmc+CiAgICApOiBMaXN0PFRvb2xQa2dDb250YWluZXJSdW50aW1lPiB7CiAgICAgICAgdmFsIGVuYWJsZWRTZXQgPSBlbmFibGVkUGFja2FnZU5hbWVzLnRvU2V0KCkKICAgICAgICB2YWwgcmVzdWx0ID0gVG9vbFBrZ0xvYWRPcmRlclJlc29sdmVyLnJlc29sdmUoCiAgICAgICAgICAgIGNvbnRhaW5lcnMgPSBjb250YWluZXJzSW50ZXJuYWwudmFsdWVzLAogICAgICAgICAgICBhdmFpbGFibGVQYWNrYWdlcyA9IGF2YWlsYWJsZVBhY2thZ2VzLAogICAgICAgICAgICBlbmFibGVkUGFja2FnZU5hbWVzID0gZW5hYmxlZFNldCwKICAgICAgICAgICAgcHJlZmVycmVkT3JkZXIgPSBwcmVmZXJyZWRPcmRlcgogICAgICAgICkKICAgICAgICByZXN1bHQuZmFpbHVyZXMuZm9yRWFjaCB7IChwYWNrYWdlTmFtZSwgbWVzc2FnZSkgLT4KICAgICAgICAgICAgQXBwTG9nZ2VyLncoIlRvb2xQa2ciLCAiU2tpcHBlZCBlbmFibGVkIFRvb2xQa2cgJyRwYWNrYWdlTmFtZSc6ICRtZXNzYWdlIikKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHJlc3VsdC5vcmRlcmVkQ29udGFpbmVycwogICAgfQoKICAgIGZ1biBhZGRUb29sUGtnUnVudGltZUNoYW5nZUxpc3RlbmVyKAogICAgICAgIGxpc3RlbmVyOiBQYWNrYWdlTWFuYWdlci5Ub29sUGtnUnVudGltZUNoYW5nZUxpc3RlbmVyLAogICAgICAgIGFjdGl2ZUNvbnRhaW5lcnM6IExpc3Q8VG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWU+CiAgICApIHsKICAgICAgICBpZiAoIXJ1bnRpbWVDaGFuZ2VMaXN0ZW5lcnMuY29udGFpbnMobGlzdGVuZXIpKSB7CiAgICAgICAgICAgIHJ1bnRpbWVDaGFuZ2VMaXN0ZW5lcnMuYWRkKGxpc3RlbmVyKQogICAgICAgIH0KICAgICAgICBsaXN0ZW5lci5vblRvb2xQa2dSdW50aW1lQ2hhbmdlZChhY3RpdmVDb250YWluZXJzKQogICAgfQoKICAgIGZ1biByZW1vdmVUb29sUGtnUnVudGltZUNoYW5nZUxpc3RlbmVyKGxpc3RlbmVyOiBQYWNrYWdlTWFuYWdlci5Ub29sUGtnUnVudGltZUNoYW5nZUxpc3RlbmVyKSB7CiAgICAgICAgcnVudGltZUNoYW5nZUxpc3RlbmVycy5yZW1vdmUobGlzdGVuZXIpCiAgICB9CgogICAgZnVuIG5vdGlmeVRvb2xQa2dSdW50aW1lQ2hhbmdlTGlzdGVuZXJzKGFjdGl2ZUNvbnRhaW5lcnM6IExpc3Q8VG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWU+KSB7CiAgICAgICAgcnVudGltZUNoYW5nZUxpc3RlbmVycy5mb3JFYWNoIHsgbGlzdGVuZXIgLT4KICAgICAgICAgICAgbGlzdGVuZXIub25Ub29sUGtnUnVudGltZUNoYW5nZWQoYWN0aXZlQ29udGFpbmVycykKICAgICAgICB9CiAgICB9CgogICAgZnVuIGdldFRvb2xQa2dFeGVjdXRpb25FbmdpbmUoCiAgICAgICAgY29udGV4dEtleTogU3RyaW5nLAogICAgICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcKICAgICk6IEpzRW5naW5lIHsKICAgICAgICB2YWwgbm9ybWFsaXplZEtleSA9IGNvbnRleHRLZXkudHJpbSgpCiAgICAgICAgdmFsIG5vcm1hbGl6ZWRDb250YWluZXIgPSBjb250YWluZXJQYWNrYWdlTmFtZS50cmltKCkKICAgICAgICByZXF1aXJlKG5vcm1hbGl6ZWRLZXkuaXNOb3RCbGFuaygpKSB7ICJUb29sUGtnIGV4ZWN1dGlvbiBjb250ZXh0IGtleSBpcyByZXF1aXJlZCIgfQogICAgICAgIHJlcXVpcmUobm9ybWFsaXplZENvbnRhaW5lci5pc05vdEJsYW5rKCkpIHsgIlRvb2xQa2cgZXhlY3V0aW9uIGNvbnRhaW5lciBpcyByZXF1aXJlZCIgfQoKICAgICAgICByZXR1cm4gc3luY2hyb25pemVkKGV4ZWN1dGlvbkVuZ2luZUxvY2spIHsKICAgICAgICAgICAgY2hlY2soIWRlc3Ryb3llZC5nZXQoKSkgeyAiVG9vbFBrZyBtYW5hZ2VyIGFscmVhZHkgZGVzdHJveWVkIiB9CiAgICAgICAgICAgIHZhbCBlbnRyeSA9CiAgICAgICAgICAgICAgICBleGVjdXRpb25FbmdpbmVzLmNvbXB1dGVJZkFic2VudChub3JtYWxpemVkS2V5KSB7CiAgICAgICAgICAgICAgICAgICAgRXhlY3V0aW9uRW5naW5lRW50cnkoCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lID0gbm9ybWFsaXplZENvbnRhaW5lciwKICAgICAgICAgICAgICAgICAgICAgICAgZW5naW5lID0gY3JlYXRlRXhlY3V0aW9uRW5naW5lKCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGNoZWNrKGVudHJ5LmNvbnRhaW5lclBhY2thZ2VOYW1lID09IG5vcm1hbGl6ZWRDb250YWluZXIpIHsKICAgICAgICAgICAgICAgICJUb29sUGtnIGV4ZWN1dGlvbiBjb250ZXh0ICckbm9ybWFsaXplZEtleScgYmVsb25ncyB0byAnJHtlbnRyeS5jb250YWluZXJQYWNrYWdlTmFtZX0nLCBub3QgJyRub3JtYWxpemVkQ29udGFpbmVyJyIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbnRyeS5lbmdpbmUKICAgICAgICB9CiAgICB9CgogICAgZnVuIGFjcXVpcmVUb29sUGtnRXhlY3V0aW9uRW5naW5lKAogICAgICAgIGNvbnRleHRLZXk6IFN0cmluZywKICAgICAgICBjb250YWluZXJQYWNrYWdlTmFtZTogU3RyaW5nCiAgICApOiBKc0VuZ2luZSB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWRLZXkgPSBjb250ZXh0S2V5LnRyaW0oKQogICAgICAgIHZhbCBub3JtYWxpemVkQ29udGFpbmVyID0gY29udGFpbmVyUGFja2FnZU5hbWUudHJpbSgpCiAgICAgICAgcmVxdWlyZShub3JtYWxpemVkS2V5LmlzTm90QmxhbmsoKSkgeyAiVG9vbFBrZyBleGVjdXRpb24gY29udGV4dCBrZXkgaXMgcmVxdWlyZWQiIH0KICAgICAgICByZXF1aXJlKG5vcm1hbGl6ZWRDb250YWluZXIuaXNOb3RCbGFuaygpKSB7ICJUb29sUGtnIGV4ZWN1dGlvbiBjb250YWluZXIgaXMgcmVxdWlyZWQiIH0KCiAgICAgICAgcmV0dXJuIHN5bmNocm9uaXplZChleGVjdXRpb25FbmdpbmVMb2NrKSB7CiAgICAgICAgICAgIGNoZWNrKCFkZXN0cm95ZWQuZ2V0KCkpIHsgIlRvb2xQa2cgbWFuYWdlciBhbHJlYWR5IGRlc3Ryb3llZCIgfQogICAgICAgICAgICB2YWwgZW50cnkgPSBleGVjdXRpb25FbmdpbmVzW25vcm1hbGl6ZWRLZXldCiAgICAgICAgICAgIGlmIChlbnRyeSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICB2YWwgY3JlYXRlZEVudHJ5ID0KICAgICAgICAgICAgICAgICAgICBFeGVjdXRpb25FbmdpbmVFbnRyeSgKICAgICAgICAgICAgICAgICAgICAgICAgY29udGFpbmVyUGFja2FnZU5hbWUgPSBub3JtYWxpemVkQ29udGFpbmVyLAogICAgICAgICAgICAgICAgICAgICAgICBlbmdpbmUgPSBjcmVhdGVFeGVjdXRpb25FbmdpbmUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgYWN0aXZlTGVhc2VzID0gMQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGV4ZWN1dGlvbkVuZ2luZXNbbm9ybWFsaXplZEtleV0gPSBjcmVhdGVkRW50cnkKICAgICAgICAgICAgICAgIHJldHVybkBzeW5jaHJvbml6ZWQgY3JlYXRlZEVudHJ5LmVuZ2luZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGNoZWNrKGVudHJ5LmNvbnRhaW5lclBhY2thZ2VOYW1lID09IG5vcm1hbGl6ZWRDb250YWluZXIpIHsKICAgICAgICAgICAgICAgICJUb29sUGtnIGV4ZWN1dGlvbiBjb250ZXh0IGJlbG9uZ3MgdG8gYW5vdGhlciBjb250YWluZXIiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZXhlY3V0aW9uRW5naW5lc1tub3JtYWxpemVkS2V5XSA9IGVudHJ5LmNvcHkoYWN0aXZlTGVhc2VzID0gZW50cnkuYWN0aXZlTGVhc2VzICsgMSkKICAgICAgICAgICAgZW50cnkuZW5naW5lCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBmaW5kVG9vbFBrZ0V4ZWN1dGlvbkVuZ2luZShjb250ZXh0S2V5OiBTdHJpbmcpOiBKc0VuZ2luZT8gewogICAgICAgIHZhbCBub3JtYWxpemVkS2V5ID0gY29udGV4dEtleS50cmltKCkKICAgICAgICBpZiAobm9ybWFsaXplZEtleS5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGV4ZWN1dGlvbkVuZ2luZXNbbm9ybWFsaXplZEtleV0/LmVuZ2luZQogICAgfQoKICAgIGZ1biBnZXRUb29sUGtnUnVudGltZU1lbW9yeVVzYWdlKGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcpOiBMaXN0PFF1aWNrSnNNZW1vcnlVc2FnZT4gewogICAgICAgIHZhbCBub3JtYWxpemVkQ29udGFpbmVyID0gY29udGFpbmVyUGFja2FnZU5hbWUudHJpbSgpCiAgICAgICAgaWYgKG5vcm1hbGl6ZWRDb250YWluZXIuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybiBlbXB0eUxpc3QoKQogICAgICAgIH0KICAgICAgICB2YWwgZW5naW5lcyA9CiAgICAgICAgICAgIHN5bmNocm9uaXplZChleGVjdXRpb25FbmdpbmVMb2NrKSB7CiAgICAgICAgICAgICAgICBleGVjdXRpb25FbmdpbmVzLnZhbHVlcwogICAgICAgICAgICAgICAgICAgIC5maWx0ZXIgeyBlbnRyeSAtPiBlbnRyeS5jb250YWluZXJQYWNrYWdlTmFtZSA9PSBub3JtYWxpemVkQ29udGFpbmVyIH0KICAgICAgICAgICAgICAgICAgICAubWFwIHsgZW50cnkgLT4gZW50cnkuZW5naW5lIH0KICAgICAgICAgICAgfQogICAgICAgIHJldHVybiBlbmdpbmVzLm1hcE5vdE51bGwgeyBlbmdpbmUgLT4gZW5naW5lLmdldFF1aWNrSnNNZW1vcnlVc2FnZSgpIH0KICAgIH0KCiAgICBmdW4gZ2V0VG9vbFBrZ0VuZ2luZVJ1bnRpbWVJbmZvKCk6IExpc3Q8VG9vbFBrZ0VuZ2luZVJ1bnRpbWVJbmZvPiB7CiAgICAgICAgdmFsIGVuZ2luZXNCeUNvbnRhaW5lciA9CiAgICAgICAgICAgIHN5bmNocm9uaXplZChleGVjdXRpb25FbmdpbmVMb2NrKSB7CiAgICAgICAgICAgICAgICBleGVjdXRpb25FbmdpbmVzLnZhbHVlcy5ncm91cEJ5KAogICAgICAgICAgICAgICAgICAgIGtleVNlbGVjdG9yID0geyBlbnRyeSAtPiBlbnRyeS5jb250YWluZXJQYWNrYWdlTmFtZSB9LAogICAgICAgICAgICAgICAgICAgIHZhbHVlVHJhbnNmb3JtID0geyBlbnRyeSAtPiBlbnRyeS5lbmdpbmUgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgcmV0dXJuIGVuZ2luZXNCeUNvbnRhaW5lci5tYXAgeyAoY29udGFpbmVyUGFja2FnZU5hbWUsIGVuZ2luZXMpIC0+CiAgICAgICAgICAgIHZhbCBtZW1vcnlVc2FnZXMgPSBlbmdpbmVzLm1hcE5vdE51bGwgeyBlbmdpbmUgLT4gZW5naW5lLmdldFF1aWNrSnNNZW1vcnlVc2FnZSgpIH0KICAgICAgICAgICAgVG9vbFBrZ0VuZ2luZVJ1bnRpbWVJbmZvKAogICAgICAgICAgICAgICAgY29udGFpbmVyUGFja2FnZU5hbWUgPSBjb250YWluZXJQYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgIGVuZ2luZUNvdW50ID0gZW5naW5lcy5zaXplLAogICAgICAgICAgICAgICAgZW5naW5lVGhyZWFkSWRzID0gZW5naW5lcy5tYXBOb3ROdWxsIHsgZW5naW5lIC0+IGVuZ2luZS5nZXRRdWlja0pzUnVudGltZVRpZCgpIH0sCiAgICAgICAgICAgICAgICBxdWlja0pzTWVtb3J5VXNlZEJ5dGVzID0gbWVtb3J5VXNhZ2VzLnN1bU9mIHsgdXNhZ2UgLT4gdXNhZ2UubWVtb3J5VXNlZEJ5dGVzIH0sCiAgICAgICAgICAgICAgICBxdWlja0pzTWFsbG9jQnl0ZXMgPSBtZW1vcnlVc2FnZXMuc3VtT2YgeyB1c2FnZSAtPiB1c2FnZS5tYWxsb2NTaXplQnl0ZXMgfQogICAgICAgICAgICApCiAgICAgICAgfS5zb3J0ZWRCeSB7IGluZm8gLT4gaW5mby5jb250YWluZXJQYWNrYWdlTmFtZSB9CiAgICB9CgogICAgZnVuIHJlbGVhc2VUb29sUGtnRXhlY3V0aW9uRW5naW5lKAogICAgICAgIGNvbnRleHRLZXk6IFN0cmluZywKICAgICAgICBleGVjdXRpb25FbmdpbmU6IEpzRW5naW5lCiAgICApIHsKICAgICAgICB2YWwgbm9ybWFsaXplZEtleSA9IGNvbnRleHRLZXkudHJpbSgpCiAgICAgICAgaWYgKG5vcm1hbGl6ZWRLZXkuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgcmVtb3ZlZEVudHJ5ID0KICAgICAgICAgICAgc3luY2hyb25pemVkKGV4ZWN1dGlvbkVuZ2luZUxvY2spIHsKICAgICAgICAgICAgICAgIHZhbCBlbnRyeSA9IGV4ZWN1dGlvbkVuZ2luZXNbbm9ybWFsaXplZEtleV0KICAgICAgICAgICAgICAgIGlmICgKICAgICAgICAgICAgICAgICAgICBlbnRyeSAhPSBudWxsICYmCiAgICAgICAgICAgICAgICAgICAgICAgIGVudHJ5LmVuZ2luZSA9PT0gZXhlY3V0aW9uRW5naW5lICYmCiAgICAgICAgICAgICAgICAgICAgICAgIGVudHJ5LmFjdGl2ZUxlYXNlcyA+IDEKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIGV4ZWN1dGlvbkVuZ2luZXNbbm9ybWFsaXplZEtleV0gPSBlbnRyeS5jb3B5KGFjdGl2ZUxlYXNlcyA9IGVudHJ5LmFjdGl2ZUxlYXNlcyAtIDEpCiAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgfSBlbHNlIGlmICgKICAgICAgICAgICAgICAgICAgICBlbnRyeSAhPSBudWxsICYmCiAgICAgICAgICAgICAgICAgICAgICAgIGVudHJ5LmVuZ2luZSA9PT0gZXhlY3V0aW9uRW5naW5lICYmCiAgICAgICAgICAgICAgICAgICAgICAgIGV4ZWN1dGlvbkVuZ2luZXMucmVtb3ZlKG5vcm1hbGl6ZWRLZXksIGVudHJ5KQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgZW50cnkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgaWYgKHJlbW92ZWRFbnRyeSAhPSBudWxsKSB7CiAgICAgICAgICAgIHJlbW92ZWRFbnRyeS5lbmdpbmUuZGVzdHJveSgpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biByZWxlYXNlVG9vbFBrZ0V4ZWN1dGlvbkVuZ2luZShjb250ZXh0S2V5OiBTdHJpbmcpIHsKICAgICAgICAvLyBLZXB0IGZvciBleGlzdGluZyBjYWxsZXJzOyBsaWZlY3ljbGUtYXdhcmUgb3duZXJzIHVzZSB0aGUgaWRlbnRpdHktY2hlY2tlZCBvdmVybG9hZC4KICAgICAgICB2YWwgbm9ybWFsaXplZEtleSA9IGNvbnRleHRLZXkudHJpbSgpCiAgICAgICAgaWYgKG5vcm1hbGl6ZWRLZXkuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgcmVtb3ZlZEVudHJ5ID0KICAgICAgICAgICAgc3luY2hyb25pemVkKGV4ZWN1dGlvbkVuZ2luZUxvY2spIHsKICAgICAgICAgICAgICAgIHZhbCBlbnRyeSA9IGV4ZWN1dGlvbkVuZ2luZXNbbm9ybWFsaXplZEtleV0KICAgICAgICAgICAgICAgIGlmIChlbnRyeSAhPSBudWxsICYmIGVudHJ5LmFjdGl2ZUxlYXNlcyA+IDEpIHsKICAgICAgICAgICAgICAgICAgICBleGVjdXRpb25FbmdpbmVzW25vcm1hbGl6ZWRLZXldID0gZW50cnkuY29weShhY3RpdmVMZWFzZXMgPSBlbnRyeS5hY3RpdmVMZWFzZXMgLSAxKQogICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgZXhlY3V0aW9uRW5naW5lcy5yZW1vdmUobm9ybWFsaXplZEtleSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIHJlbW92ZWRFbnRyeT8uZW5naW5lPy5kZXN0cm95KCkKICAgIH0KCiAgICBmdW4gY2FuY2VsRXhlY3V0aW9uc0ZvckNoYXQoY2hhdElkOiBTdHJpbmcsIHJlYXNvbjogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFyIGNhbmNlbGxlZEFueSA9IGZhbHNlCiAgICAgICAgZXhlY3V0aW9uRW5naW5lcy52YWx1ZXMuZm9yRWFjaCB7IGVudHJ5IC0+CiAgICAgICAgICAgIGlmIChlbnRyeS5lbmdpbmUuY2FuY2VsRXhlY3V0aW9uc0ZvckNoYXQoY2hhdElkLCByZWFzb24pKSB7CiAgICAgICAgICAgICAgICBjYW5jZWxsZWRBbnkgPSB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNhbmNlbGxlZEFueQogICAgfQoKICAgIGZ1biBkZXN0cm95VG9vbFBrZ0V4ZWN1dGlvbkVuZ2luZXMoY29udGFpbmVyUGFja2FnZU5hbWU6IFN0cmluZykgewogICAgICAgIHZhbCBub3JtYWxpemVkQ29udGFpbmVyID0gY29udGFpbmVyUGFja2FnZU5hbWUudHJpbSgpCiAgICAgICAgaWYgKG5vcm1hbGl6ZWRDb250YWluZXIuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgcmVtb3ZlZEVudHJpZXMgPQogICAgICAgICAgICBzeW5jaHJvbml6ZWQoZXhlY3V0aW9uRW5naW5lTG9jaykgewogICAgICAgICAgICAgICAgZXhlY3V0aW9uRW5naW5lcy5lbnRyaWVzCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlciB7IChfLCBlbnRyeSkgLT4gZW50cnkuY29udGFpbmVyUGFja2FnZU5hbWUgPT0gbm9ybWFsaXplZENvbnRhaW5lciB9CiAgICAgICAgICAgICAgICAgICAgLm1hcE5vdE51bGwgeyAoY29udGV4dEtleSwgZW50cnkpIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChleGVjdXRpb25FbmdpbmVzLnJlbW92ZShjb250ZXh0S2V5LCBlbnRyeSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVudHJ5CiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICByZW1vdmVkRW50cmllcy5mb3JFYWNoIHsgZW50cnkgLT4KICAgICAgICAgICAgZW50cnkuZW5naW5lLmRlc3Ryb3koKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gY2xlYXIoKSB7CiAgICAgICAgY29udGFpbmVyc0ludGVybmFsLmNsZWFyKCkKICAgICAgICBzdWJwYWNrYWdlQnlQYWNrYWdlTmFtZUludGVybmFsLmNsZWFyKCkKICAgIH0KCiAgICBmdW4gZGVzdHJveSgpIHsKICAgICAgICBpZiAoIWRlc3Ryb3llZC5jb21wYXJlQW5kU2V0KGZhbHNlLCB0cnVlKSkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgdmFsIGVudHJpZXMgPQogICAgICAgICAgICBzeW5jaHJvbml6ZWQoZXhlY3V0aW9uRW5naW5lTG9jaykgewogICAgICAgICAgICAgICAgZXhlY3V0aW9uRW5naW5lcy52YWx1ZXMudG9MaXN0KCkuYWxzbyB7CiAgICAgICAgICAgICAgICAgICAgZXhlY3V0aW9uRW5naW5lcy5jbGVhcigpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICBlbnRyaWVzLmZvckVhY2ggeyBlbnRyeSAtPiBlbnRyeS5lbmdpbmUuZGVzdHJveSgpIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.packTool
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.ToolPackage
+import com.bslsjdk.operit.core.tools.javascript.JsEngine
+import com.bslsjdk.operit.core.tools.javascript.QuickJsMemoryUsage
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.CopyOnWriteArrayList
+import java.util.concurrent.atomic.AtomicBoolean
+
+/**
+ * 一个 ToolPkg 容器当前活跃执行引擎的运行信息。
+ * 性能分析界面用它把 QuickJS 运行线程的 CPU 和 JS 堆内存归属到具体插件。
+ */
+internal data class ToolPkgEngineRuntimeInfo(
+    val containerPackageName: String,
+    val engineCount: Int,
+    val engineThreadIds: List<Long>,
+    val quickJsMemoryUsedBytes: Long,
+    val quickJsMallocBytes: Long
+)
+
+internal class ToolPkgManager(
+    private val context: Context,
+    private val createExecutionEngine: () -> JsEngine = { JsEngine(context) }
+) {
+    internal val containersInternal = ConcurrentHashMap<String, ToolPkgContainerRuntime>()
+    internal val subpackageByPackageNameInternal =
+        ConcurrentHashMap<String, ToolPkgSubpackageRuntime>()
+
+    private val runtimeChangeListeners =
+        CopyOnWriteArrayList<PackageManager.ToolPkgRuntimeChangeListener>()
+    private data class ExecutionEngineEntry(
+        val containerPackageName: String,
+        val engine: JsEngine,
+        val activeLeases: Int = 0
+    )
+
+    private val executionEngineLock = Any()
+    private val executionEngines = ConcurrentHashMap<String, ExecutionEngineEntry>()
+    private val destroyed = AtomicBoolean(false)
+
+    fun isToolPkgContainer(packageName: String): Boolean {
+        return containersInternal.containsKey(packageName.trim())
+    }
+
+    fun hasSubpackage(packageName: String): Boolean {
+        return subpackageByPackageNameInternal.containsKey(packageName.trim())
+    }
+
+    fun getToolPkgContainerRuntimes(): List<ToolPkgContainerRuntime> {
+        return containersInternal.values.sortedBy(ToolPkgContainerRuntime::packageName)
+    }
+
+    fun getToolPkgContainerRuntime(containerPackageName: String): ToolPkgContainerRuntime? {
+        return containersInternal[containerPackageName.trim()]
+    }
+
+    fun canRegisterToolPkg(
+        loadResult: ToolPkgLoadResult,
+        availablePackages: Map<String, ToolPackage>
+    ): Boolean {
+        val containerName = loadResult.containerPackage.name.trim()
+        if (
+            containerName.isBlank() ||
+                containersInternal.containsKey(containerName) ||
+                availablePackages.containsKey(containerName)
+        ) {
+            return false
+        }
+
+        loadResult.subpackagePackages.forEach { subpackage ->
+            val packageName = subpackage.name.trim()
+            if (
+                packageName.isBlank() ||
+                    containersInternal.containsKey(packageName) ||
+                    availablePackages.containsKey(packageName) ||
+                    subpackageByPackageNameInternal.containsKey(packageName)
+            ) {
+                return false
+            }
+        }
+        return true
+    }
+
+    fun registerToolPkg(loadResult: ToolPkgLoadResult): List<ToolPackage> {
+        val containerName = loadResult.containerPackage.name
+        containersInternal[containerName] = loadResult.containerRuntime
+        loadResult.containerRuntime.subpackages.forEach { runtime ->
+            subpackageByPackageNameInternal[runtime.packageName] = runtime
+        }
+        return loadResult.subpackagePackages
+    }
+
+    fun getEnabledToolPkgContainerRuntimes(
+        enabledPackageNames: List<String>,
+        availablePackages: Map<String, ToolPackage>,
+        preferredOrder: List<String>
+    ): List<ToolPkgContainerRuntime> {
+        val enabledSet = enabledPackageNames.toSet()
+        val result = ToolPkgLoadOrderResolver.resolve(
+            containers = containersInternal.values,
+            availablePackages = availablePackages,
+            enabledPackageNames = enabledSet,
+            preferredOrder = preferredOrder
+        )
+        result.failures.forEach { (packageName, message) ->
+            AppLogger.w("ToolPkg", "Skipped enabled ToolPkg '$packageName': $message")
+        }
+        return result.orderedContainers
+    }
+
+    fun addToolPkgRuntimeChangeListener(
+        listener: PackageManager.ToolPkgRuntimeChangeListener,
+        activeContainers: List<ToolPkgContainerRuntime>
+    ) {
+        if (!runtimeChangeListeners.contains(listener)) {
+            runtimeChangeListeners.add(listener)
+        }
+        listener.onToolPkgRuntimeChanged(activeContainers)
+    }
+
+    fun removeToolPkgRuntimeChangeListener(listener: PackageManager.ToolPkgRuntimeChangeListener) {
+        runtimeChangeListeners.remove(listener)
+    }
+
+    fun notifyToolPkgRuntimeChangeListeners(activeContainers: List<ToolPkgContainerRuntime>) {
+        runtimeChangeListeners.forEach { listener ->
+            listener.onToolPkgRuntimeChanged(activeContainers)
+        }
+    }
+
+    fun getToolPkgExecutionEngine(
+        contextKey: String,
+        containerPackageName: String
+    ): JsEngine {
+        val normalizedKey = contextKey.trim()
+        val normalizedContainer = containerPackageName.trim()
+        require(normalizedKey.isNotBlank()) { "ToolPkg execution context key is required" }
+        require(normalizedContainer.isNotBlank()) { "ToolPkg execution container is required" }
+
+        return synchronized(executionEngineLock) {
+            check(!destroyed.get()) { "ToolPkg manager already destroyed" }
+            val entry =
+                executionEngines.computeIfAbsent(normalizedKey) {
+                    ExecutionEngineEntry(
+                        containerPackageName = normalizedContainer,
+                        engine = createExecutionEngine()
+                    )
+                }
+            check(entry.containerPackageName == normalizedContainer) {
+                "ToolPkg execution context '$normalizedKey' belongs to '${entry.containerPackageName}', not '$normalizedContainer'"
+            }
+            entry.engine
+        }
+    }
+
+    fun acquireToolPkgExecutionEngine(
+        contextKey: String,
+        containerPackageName: String
+    ): JsEngine {
+        val normalizedKey = contextKey.trim()
+        val normalizedContainer = containerPackageName.trim()
+        require(normalizedKey.isNotBlank()) { "ToolPkg execution context key is required" }
+        require(normalizedContainer.isNotBlank()) { "ToolPkg execution container is required" }
+
+        return synchronized(executionEngineLock) {
+            check(!destroyed.get()) { "ToolPkg manager already destroyed" }
+            val entry = executionEngines[normalizedKey]
+            if (entry == null) {
+                val createdEntry =
+                    ExecutionEngineEntry(
+                        containerPackageName = normalizedContainer,
+                        engine = createExecutionEngine(),
+                        activeLeases = 1
+                    )
+                executionEngines[normalizedKey] = createdEntry
+                return@synchronized createdEntry.engine
+            }
+            check(entry.containerPackageName == normalizedContainer) {
+                "ToolPkg execution context belongs to another container"
+            }
+            executionEngines[normalizedKey] = entry.copy(activeLeases = entry.activeLeases + 1)
+            entry.engine
+        }
+    }
+
+    fun findToolPkgExecutionEngine(contextKey: String): JsEngine? {
+        val normalizedKey = contextKey.trim()
+        if (normalizedKey.isBlank()) {
+            return null
+        }
+        return executionEngines[normalizedKey]?.engine
+    }
+
+    fun getToolPkgRuntimeMemoryUsage(containerPackageName: String): List<QuickJsMemoryUsage> {
+        val normalizedContainer = containerPackageName.trim()
+        if (normalizedContainer.isBlank()) {
+            return emptyList()
+        }
+        val engines =
+            synchronized(executionEngineLock) {
+                executionEngines.values
+                    .filter { entry -> entry.containerPackageName == normalizedContainer }
+                    .map { entry -> entry.engine }
+            }
+        return engines.mapNotNull { engine -> engine.getQuickJsMemoryUsage() }
+    }
+
+    fun getToolPkgEngineRuntimeInfo(): List<ToolPkgEngineRuntimeInfo> {
+        val enginesByContainer =
+            synchronized(executionEngineLock) {
+                executionEngines.values.groupBy(
+                    keySelector = { entry -> entry.containerPackageName },
+                    valueTransform = { entry -> entry.engine }
+                )
+            }
+        return enginesByContainer.map { (containerPackageName, engines) ->
+            val memoryUsages = engines.mapNotNull { engine -> engine.getQuickJsMemoryUsage() }
+            ToolPkgEngineRuntimeInfo(
+                containerPackageName = containerPackageName,
+                engineCount = engines.size,
+                engineThreadIds = engines.mapNotNull { engine -> engine.getQuickJsRuntimeTid() },
+                quickJsMemoryUsedBytes = memoryUsages.sumOf { usage -> usage.memoryUsedBytes },
+                quickJsMallocBytes = memoryUsages.sumOf { usage -> usage.mallocSizeBytes }
+            )
+        }.sortedBy { info -> info.containerPackageName }
+    }
+
+    fun releaseToolPkgExecutionEngine(
+        contextKey: String,
+        executionEngine: JsEngine
+    ) {
+        val normalizedKey = contextKey.trim()
+        if (normalizedKey.isBlank()) {
+            return
+        }
+        val removedEntry =
+            synchronized(executionEngineLock) {
+                val entry = executionEngines[normalizedKey]
+                if (
+                    entry != null &&
+                        entry.engine === executionEngine &&
+                        entry.activeLeases > 1
+                ) {
+                    executionEngines[normalizedKey] = entry.copy(activeLeases = entry.activeLeases - 1)
+                    null
+                } else if (
+                    entry != null &&
+                        entry.engine === executionEngine &&
+                        executionEngines.remove(normalizedKey, entry)
+                ) {
+                    entry
+                } else {
+                    null
+                }
+            }
+        if (removedEntry != null) {
+            removedEntry.engine.destroy()
+        }
+    }
+
+    fun releaseToolPkgExecutionEngine(contextKey: String) {
+        // Kept for existing callers; lifecycle-aware owners use the identity-checked overload.
+        val normalizedKey = contextKey.trim()
+        if (normalizedKey.isBlank()) {
+            return
+        }
+        val removedEntry =
+            synchronized(executionEngineLock) {
+                val entry = executionEngines[normalizedKey]
+                if (entry != null && entry.activeLeases > 1) {
+                    executionEngines[normalizedKey] = entry.copy(activeLeases = entry.activeLeases - 1)
+                    null
+                } else {
+                    executionEngines.remove(normalizedKey)
+                }
+            }
+        removedEntry?.engine?.destroy()
+    }
+
+    fun cancelExecutionsForChat(chatId: String, reason: String): Boolean {
+        var cancelledAny = false
+        executionEngines.values.forEach { entry ->
+            if (entry.engine.cancelExecutionsForChat(chatId, reason)) {
+                cancelledAny = true
+            }
+        }
+        return cancelledAny
+    }
+
+    fun destroyToolPkgExecutionEngines(containerPackageName: String) {
+        val normalizedContainer = containerPackageName.trim()
+        if (normalizedContainer.isBlank()) {
+            return
+        }
+        val removedEntries =
+            synchronized(executionEngineLock) {
+                executionEngines.entries
+                    .filter { (_, entry) -> entry.containerPackageName == normalizedContainer }
+                    .mapNotNull { (contextKey, entry) ->
+                        if (executionEngines.remove(contextKey, entry)) {
+                            entry
+                        } else {
+                            null
+                        }
+                    }
+            }
+        removedEntries.forEach { entry ->
+            entry.engine.destroy()
+        }
+    }
+
+    fun clear() {
+        containersInternal.clear()
+        subpackageByPackageNameInternal.clear()
+    }
+
+    fun destroy() {
+        if (!destroyed.compareAndSet(false, true)) {
+            return
+        }
+        val entries =
+            synchronized(executionEngineLock) {
+                executionEngines.values.toList().also {
+                    executionEngines.clear()
+                }
+            }
+        entries.forEach { entry -> entry.engine.destroy() }
+    }
+}

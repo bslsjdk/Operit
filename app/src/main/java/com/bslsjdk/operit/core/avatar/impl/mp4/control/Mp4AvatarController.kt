@@ -1,1 +1,222 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5tcDQuY29udHJvbAoKaW1wb3J0IGFuZHJvaWQubWVkaWEuTWVkaWFNZXRhZGF0YVJldHJpZXZlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5jb250cm9sLkF2YXRhckNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24uc3RhdGUuQXZhdGFyRW1vdGlvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5zdGF0ZS5BdmF0YXJNb29kVHlwZXMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24uc3RhdGUuQXZhdGFyU3RhdGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5pbXBsLm1wNC5tb2RlbC5NcDRBdmF0YXJNb2RlbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQgamF2YS5pby5GaWxlCgpjbGFzcyBNcDRBdmF0YXJDb250cm9sbGVyKAogICAgcHJpdmF0ZSB2YWwgbW9kZWw6IE1wNEF2YXRhck1vZGVsCikgOiBBdmF0YXJDb250cm9sbGVyIHsKCiAgICBwcml2YXRlIHZhbCBfc3RhdGUgPSBNdXRhYmxlU3RhdGVGbG93KEF2YXRhclN0YXRlKCkpCiAgICBvdmVycmlkZSB2YWwgc3RhdGU6IFN0YXRlRmxvdzxBdmF0YXJTdGF0ZT4gPSBfc3RhdGUuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9zY2FsZSA9IE11dGFibGVTdGF0ZUZsb3coMS4wZikKICAgIHZhbCBzY2FsZTogU3RhdGVGbG93PEZsb2F0PiA9IF9zY2FsZS5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX3RyYW5zbGF0ZVggPSBNdXRhYmxlU3RhdGVGbG93KDAuMGYpCiAgICB2YWwgdHJhbnNsYXRlWDogU3RhdGVGbG93PEZsb2F0PiA9IF90cmFuc2xhdGVYLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfdHJhbnNsYXRlWSA9IE11dGFibGVTdGF0ZUZsb3coMC4wZikKICAgIHZhbCB0cmFuc2xhdGVZOiBTdGF0ZUZsb3c8RmxvYXQ+ID0gX3RyYW5zbGF0ZVkuYXNTdGF0ZUZsb3coKQoKICAgIG92ZXJyaWRlIHZhbCBhdmFpbGFibGVBbmltYXRpb25zOiBMaXN0PFN0cmluZz4KICAgICAgICBnZXQoKSA9IG1vZGVsLmF2YWlsYWJsZUZpbGVzCgogICAgcHJpdmF0ZSB2YXIgZW1vdGlvbkFuaW1hdGlvbk1hcHBpbmc6IE1hcDxBdmF0YXJFbW90aW9uLCBTdHJpbmc+ID0gZW1wdHlNYXAoKQogICAgcHJpdmF0ZSB2YXIgdHJpZ2dlckFuaW1hdGlvbk1hcHBpbmc6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpCgogICAgaW5pdCB7CiAgICAgICAgdmFsIGluaXRpYWxBbmltYXRpb24gPQogICAgICAgICAgICBtb2RlbC5hbmltYXRpb25GaWxlRm9yRW1vdGlvbihtb2RlbC5jdXJyZW50RW1vdGlvbikKICAgICAgICAgICAgICAgID86IG1vZGVsLmFuaW1hdGlvbkZpbGVGb3JFbW90aW9uKEF2YXRhckVtb3Rpb24uSURMRSkKICAgICAgICAgICAgICAgID86IG1vZGVsLmF2YWlsYWJsZUZpbGVzLmZpcnN0T3JOdWxsKCkKCiAgICAgICAgaWYgKCFpbml0aWFsQW5pbWF0aW9uLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICBfc3RhdGUudmFsdWUgPSBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgIGVtb3Rpb24gPSBtb2RlbC5jdXJyZW50RW1vdGlvbiwKICAgICAgICAgICAgICAgIGN1cnJlbnRBbmltYXRpb24gPSBpbml0aWFsQW5pbWF0aW9uLAogICAgICAgICAgICAgICAgaXNMb29waW5nID0gdHJ1ZQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBzZXRFbW90aW9uKG5ld0Vtb3Rpb246IEF2YXRhckVtb3Rpb24pIHsKICAgICAgICBwbGF5RW1vdGlvbihuZXdFbW90aW9uLCBsb29wID0gMCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gcGxheUVtb3Rpb24oZW1vdGlvbjogQXZhdGFyRW1vdGlvbiwgbG9vcDogSW50KSB7CiAgICAgICAgdmFsIHRhcmdldEFuaW1hdGlvbiA9IHJlc29sdmVBbmltYXRpb25Gb3JFbW90aW9uKGVtb3Rpb24pID86IHJldHVybgogICAgICAgIGFwcGx5QW5pbWF0aW9uKGVtb3Rpb24sIHRhcmdldEFuaW1hdGlvbiwgaXNMb29waW5nID0gbG9vcCA9PSAwKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBwbGF5VHJpZ2dlcih0cmlnZ2VyTmFtZTogU3RyaW5nLCBsb29wOiBJbnQpOiBCb29sZWFuIHsKICAgICAgICB2YWwgbm9ybWFsaXplZFRyaWdnZXIgPSBBdmF0YXJNb29kVHlwZXMubm9ybWFsaXplS2V5KHRyaWdnZXJOYW1lKQogICAgICAgIHZhbCB0YXJnZXRBbmltYXRpb24gPSByZXNvbHZlQW5pbWF0aW9uRm9yVHJpZ2dlcihub3JtYWxpemVkVHJpZ2dlcikgPzogcmV0dXJuIGZhbHNlCiAgICAgICAgdmFsIGRpc3BsYXlFbW90aW9uID0KICAgICAgICAgICAgQXZhdGFyTW9vZFR5cGVzLmJ1aWx0SW5GYWxsYmFja0Vtb3Rpb24obm9ybWFsaXplZFRyaWdnZXIpCiAgICAgICAgICAgICAgICA/OiByZXNvbHZlTW9kZWxFbW90aW9uKHRhcmdldEFuaW1hdGlvbikKICAgICAgICAgICAgICAgID86IF9zdGF0ZS52YWx1ZS5lbW90aW9uCgogICAgICAgIGFwcGx5QW5pbWF0aW9uKGRpc3BsYXlFbW90aW9uLCB0YXJnZXRBbmltYXRpb24sIGlzTG9vcGluZyA9IGxvb3AgPT0gMCkKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBwbGF5QW5pbWF0aW9uKGFuaW1hdGlvbk5hbWU6IFN0cmluZywgbG9vcDogSW50KSB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWROYW1lID0gYW5pbWF0aW9uTmFtZS50cmltKCkKICAgICAgICBpZiAobm9ybWFsaXplZE5hbWUuaXNFbXB0eSgpIHx8ICFtb2RlbC5hdmFpbGFibGVGaWxlcy5jb250YWlucyhub3JtYWxpemVkTmFtZSkpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBhcHBseUFuaW1hdGlvbigKICAgICAgICAgICAgZGlzcGxheUVtb3Rpb24gPSByZXNvbHZlTW9kZWxFbW90aW9uKG5vcm1hbGl6ZWROYW1lKSA/OiBfc3RhdGUudmFsdWUuZW1vdGlvbiwKICAgICAgICAgICAgYW5pbWF0aW9uTmFtZSA9IG5vcm1hbGl6ZWROYW1lLAogICAgICAgICAgICBpc0xvb3BpbmcgPSBsb29wID09IDAKICAgICAgICApCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGVzdGltYXRlRW1vdGlvbkR1cmF0aW9uTWlsbGlzKGVtb3Rpb246IEF2YXRhckVtb3Rpb24pOiBMb25nPyB7CiAgICAgICAgdmFsIGFuaW1hdGlvbk5hbWUgPSByZXNvbHZlQW5pbWF0aW9uRm9yRW1vdGlvbihlbW90aW9uKSA/OiByZXR1cm4gbnVsbAogICAgICAgIHZhbCBhbmltYXRpb25QYXRoID0gRmlsZShtb2RlbC5iYXNlUGF0aCwgYW5pbWF0aW9uTmFtZSkuYWJzb2x1dGVQYXRoCiAgICAgICAgdmFsIHJldHJpZXZlciA9IE1lZGlhTWV0YWRhdGFSZXRyaWV2ZXIoKQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICByZXRyaWV2ZXIuc2V0RGF0YVNvdXJjZShhbmltYXRpb25QYXRoKQogICAgICAgICAgICByZXRyaWV2ZXIuZXh0cmFjdE1ldGFkYXRhKE1lZGlhTWV0YWRhdGFSZXRyaWV2ZXIuTUVUQURBVEFfS0VZX0RVUkFUSU9OKQogICAgICAgICAgICAgICAgPy50b0xvbmdPck51bGwoKQogICAgICAgICAgICAgICAgPy5jb2VyY2VBdExlYXN0KDFMKQogICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICBudWxsCiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyByZXRyaWV2ZXIucmVsZWFzZSgpIH0KICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGVzdGltYXRlVHJpZ2dlckR1cmF0aW9uTWlsbGlzKHRyaWdnZXJOYW1lOiBTdHJpbmcpOiBMb25nPyB7CiAgICAgICAgdmFsIGFuaW1hdGlvbk5hbWUgPQogICAgICAgICAgICByZXNvbHZlQW5pbWF0aW9uRm9yVHJpZ2dlcihBdmF0YXJNb29kVHlwZXMubm9ybWFsaXplS2V5KHRyaWdnZXJOYW1lKSkgPzogcmV0dXJuIG51bGwKICAgICAgICB2YWwgYW5pbWF0aW9uUGF0aCA9IEZpbGUobW9kZWwuYmFzZVBhdGgsIGFuaW1hdGlvbk5hbWUpLmFic29sdXRlUGF0aAogICAgICAgIHZhbCByZXRyaWV2ZXIgPSBNZWRpYU1ldGFkYXRhUmV0cmlldmVyKCkKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgcmV0cmlldmVyLnNldERhdGFTb3VyY2UoYW5pbWF0aW9uUGF0aCkKICAgICAgICAgICAgcmV0cmlldmVyLmV4dHJhY3RNZXRhZGF0YShNZWRpYU1ldGFkYXRhUmV0cmlldmVyLk1FVEFEQVRBX0tFWV9EVVJBVElPTikKICAgICAgICAgICAgICAgID8udG9Mb25nT3JOdWxsKCkKICAgICAgICAgICAgICAgID8uY29lcmNlQXRMZWFzdCgxTCkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgbnVsbAogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsgcmV0cmlldmVyLnJlbGVhc2UoKSB9CiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBsb29rQXQoeDogRmxvYXQsIHk6IEZsb2F0KSB7CiAgICAgICAgLy8gTVA0IGF2YXRhcnMgZG8gbm90IHN1cHBvcnQgbG9va0F0LgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biB1cGRhdGVTZXR0aW5ncyhzZXR0aW5nczogTWFwPFN0cmluZywgQW55PikgewogICAgICAgIHNldHRpbmdzWyJzY2FsZSJdPy5sZXQgeyBpZiAoaXQgaXMgTnVtYmVyKSBfc2NhbGUudmFsdWUgPSBpdC50b0Zsb2F0KCkgfQogICAgICAgIHNldHRpbmdzWyJ0cmFuc2xhdGVYIl0/LmxldCB7IGlmIChpdCBpcyBOdW1iZXIpIF90cmFuc2xhdGVYLnZhbHVlID0gaXQudG9GbG9hdCgpIH0KICAgICAgICBzZXR0aW5nc1sidHJhbnNsYXRlWSJdPy5sZXQgeyBpZiAoaXQgaXMgTnVtYmVyKSBfdHJhbnNsYXRlWS52YWx1ZSA9IGl0LnRvRmxvYXQoKSB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHVwZGF0ZUVtb3Rpb25BbmltYXRpb25NYXBwaW5nKG1hcHBpbmc6IE1hcDxBdmF0YXJFbW90aW9uLCBTdHJpbmc+KSB7CiAgICAgICAgZW1vdGlvbkFuaW1hdGlvbk1hcHBpbmcgPSBtYXBwaW5nCiAgICAgICAgICAgIC5tYXBWYWx1ZXMgeyAoXywgYW5pbWF0aW9uTmFtZSkgLT4gYW5pbWF0aW9uTmFtZS50cmltKCkgfQogICAgICAgICAgICAuZmlsdGVyVmFsdWVzIHsgYW5pbWF0aW9uTmFtZSAtPiBhbmltYXRpb25OYW1lLmlzTm90QmxhbmsoKSB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHVwZGF0ZVRyaWdnZXJBbmltYXRpb25NYXBwaW5nKG1hcHBpbmc6IE1hcDxTdHJpbmcsIFN0cmluZz4pIHsKICAgICAgICB0cmlnZ2VyQW5pbWF0aW9uTWFwcGluZyA9CiAgICAgICAgICAgIG1hcHBpbmcuZW50cmllcy5tYXBOb3ROdWxsIHsgKHJhd0tleSwgcmF3QW5pbWF0aW9uTmFtZSkgLT4KICAgICAgICAgICAgICAgIHZhbCBrZXkgPSBBdmF0YXJNb29kVHlwZXMubm9ybWFsaXplS2V5KHJhd0tleSkKICAgICAgICAgICAgICAgIHZhbCBhbmltYXRpb25OYW1lID0gcmF3QW5pbWF0aW9uTmFtZS50cmltKCkKICAgICAgICAgICAgICAgIGlmIChrZXkuaXNCbGFuaygpIHx8IGFuaW1hdGlvbk5hbWUuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQG1hcE5vdE51bGwgbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAga2V5IHRvIGFuaW1hdGlvbk5hbWUKICAgICAgICAgICAgfS50b01hcCgpCiAgICB9CgogICAgZnVuIG9uQW5pbWF0aW9uUGxheWJhY2tDb21wbGV0ZWQoYW5pbWF0aW9uTmFtZTogU3RyaW5nKSB7CiAgICAgICAgdmFsIGN1cnJlbnRTdGF0ZSA9IF9zdGF0ZS52YWx1ZQogICAgICAgIGlmIChjdXJyZW50U3RhdGUuaXNMb29waW5nKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICBpZiAoY3VycmVudFN0YXRlLmN1cnJlbnRBbmltYXRpb24gIT0gYW5pbWF0aW9uTmFtZSkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHNldEVtb3Rpb24oQXZhdGFyRW1vdGlvbi5JRExFKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc29sdmVBbmltYXRpb25Gb3JFbW90aW9uKGVtb3Rpb246IEF2YXRhckVtb3Rpb24pOiBTdHJpbmc/IHsKICAgICAgICB2YWwgcHJlZmVycmVkID0gZW1vdGlvbkFuaW1hdGlvbk1hcHBpbmdbZW1vdGlvbl0KICAgICAgICBpZiAoIXByZWZlcnJlZC5pc051bGxPckJsYW5rKCkgJiYgbW9kZWwuYXZhaWxhYmxlRmlsZXMuY29udGFpbnMocHJlZmVycmVkKSkgewogICAgICAgICAgICByZXR1cm4gcHJlZmVycmVkCiAgICAgICAgfQoKICAgICAgICB2YWwgZGlyZWN0ID0gbW9kZWwuYW5pbWF0aW9uRmlsZUZvckVtb3Rpb24oZW1vdGlvbikKICAgICAgICBpZiAoIWRpcmVjdC5pc051bGxPckJsYW5rKCkgJiYgbW9kZWwuYXZhaWxhYmxlRmlsZXMuY29udGFpbnMoZGlyZWN0KSkgewogICAgICAgICAgICByZXR1cm4gZGlyZWN0CiAgICAgICAgfQoKICAgICAgICBpZiAoZW1vdGlvbiAhPSBBdmF0YXJFbW90aW9uLklETEUpIHsKICAgICAgICAgICAgdmFsIGlkbGVQcmVmZXJyZWQgPSBlbW90aW9uQW5pbWF0aW9uTWFwcGluZ1tBdmF0YXJFbW90aW9uLklETEVdCiAgICAgICAgICAgIGlmICghaWRsZVByZWZlcnJlZC5pc051bGxPckJsYW5rKCkgJiYgbW9kZWwuYXZhaWxhYmxlRmlsZXMuY29udGFpbnMoaWRsZVByZWZlcnJlZCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBpZGxlUHJlZmVycmVkCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBpZGxlRGlyZWN0ID0gbW9kZWwuYW5pbWF0aW9uRmlsZUZvckVtb3Rpb24oQXZhdGFyRW1vdGlvbi5JRExFKQogICAgICAgICAgICBpZiAoIWlkbGVEaXJlY3QuaXNOdWxsT3JCbGFuaygpICYmIG1vZGVsLmF2YWlsYWJsZUZpbGVzLmNvbnRhaW5zKGlkbGVEaXJlY3QpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gaWRsZURpcmVjdAogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gbW9kZWwuYXZhaWxhYmxlRmlsZXMuZmlyc3RPck51bGwoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc29sdmVBbmltYXRpb25Gb3JUcmlnZ2VyKHRyaWdnZXJOYW1lOiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgcHJlZmVycmVkID0gdHJpZ2dlckFuaW1hdGlvbk1hcHBpbmdbdHJpZ2dlck5hbWVdCiAgICAgICAgaWYgKCFwcmVmZXJyZWQuaXNOdWxsT3JCbGFuaygpICYmIG1vZGVsLmF2YWlsYWJsZUZpbGVzLmNvbnRhaW5zKHByZWZlcnJlZCkpIHsKICAgICAgICAgICAgcmV0dXJuIHByZWZlcnJlZAogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIG51bGwKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXNvbHZlTW9kZWxFbW90aW9uKGFuaW1hdGlvbk5hbWU6IFN0cmluZyk6IEF2YXRhckVtb3Rpb24/IHsKICAgICAgICByZXR1cm4gbW9kZWwuZW1vdGlvblRvRmlsZU1hcC5lbnRyaWVzCiAgICAgICAgICAgIC5maW5kIHsgaXQudmFsdWUgPT0gYW5pbWF0aW9uTmFtZSB9CiAgICAgICAgICAgID8ua2V5CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwbHlBbmltYXRpb24oCiAgICAgICAgZGlzcGxheUVtb3Rpb246IEF2YXRhckVtb3Rpb24sCiAgICAgICAgYW5pbWF0aW9uTmFtZTogU3RyaW5nLAogICAgICAgIGlzTG9vcGluZzogQm9vbGVhbgogICAgKSB7CiAgICAgICAgaWYgKCFtb2RlbC5hdmFpbGFibGVGaWxlcy5jb250YWlucyhhbmltYXRpb25OYW1lKSkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIF9zdGF0ZS52YWx1ZSA9IF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICBlbW90aW9uID0gZGlzcGxheUVtb3Rpb24sCiAgICAgICAgICAgIGN1cnJlbnRBbmltYXRpb24gPSBhbmltYXRpb25OYW1lLAogICAgICAgICAgICBpc0xvb3BpbmcgPSBpc0xvb3BpbmcsCiAgICAgICAgICAgIHBsYXliYWNrTm9uY2UgPSBfc3RhdGUudmFsdWUucGxheWJhY2tOb25jZSArIDEKICAgICAgICApCiAgICB9Cn0KCkBDb21wb3NhYmxlCmZ1biByZW1lbWJlck1wNEF2YXRhckNvbnRyb2xsZXIobW9kZWw6IE1wNEF2YXRhck1vZGVsKTogTXA0QXZhdGFyQ29udHJvbGxlciB7CiAgICByZXR1cm4gcmVtZW1iZXIobW9kZWwpIHsgTXA0QXZhdGFyQ29udHJvbGxlcihtb2RlbCkgfQp9Cg==
+package com.bslsjdk.operit.core.avatar.impl.mp4.control
+
+import android.media.MediaMetadataRetriever
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.common.state.AvatarEmotion
+import com.bslsjdk.operit.core.avatar.common.state.AvatarMoodTypes
+import com.bslsjdk.operit.core.avatar.common.state.AvatarState
+import com.bslsjdk.operit.core.avatar.impl.mp4.model.Mp4AvatarModel
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import java.io.File
+
+class Mp4AvatarController(
+    private val model: Mp4AvatarModel
+) : AvatarController {
+
+    private val _state = MutableStateFlow(AvatarState())
+    override val state: StateFlow<AvatarState> = _state.asStateFlow()
+
+    private val _scale = MutableStateFlow(1.0f)
+    val scale: StateFlow<Float> = _scale.asStateFlow()
+
+    private val _translateX = MutableStateFlow(0.0f)
+    val translateX: StateFlow<Float> = _translateX.asStateFlow()
+
+    private val _translateY = MutableStateFlow(0.0f)
+    val translateY: StateFlow<Float> = _translateY.asStateFlow()
+
+    override val availableAnimations: List<String>
+        get() = model.availableFiles
+
+    private var emotionAnimationMapping: Map<AvatarEmotion, String> = emptyMap()
+    private var triggerAnimationMapping: Map<String, String> = emptyMap()
+
+    init {
+        val initialAnimation =
+            model.animationFileForEmotion(model.currentEmotion)
+                ?: model.animationFileForEmotion(AvatarEmotion.IDLE)
+                ?: model.availableFiles.firstOrNull()
+
+        if (!initialAnimation.isNullOrBlank()) {
+            _state.value = _state.value.copy(
+                emotion = model.currentEmotion,
+                currentAnimation = initialAnimation,
+                isLooping = true
+            )
+        }
+    }
+
+    override fun setEmotion(newEmotion: AvatarEmotion) {
+        playEmotion(newEmotion, loop = 0)
+    }
+
+    override fun playEmotion(emotion: AvatarEmotion, loop: Int) {
+        val targetAnimation = resolveAnimationForEmotion(emotion) ?: return
+        applyAnimation(emotion, targetAnimation, isLooping = loop == 0)
+    }
+
+    override fun playTrigger(triggerName: String, loop: Int): Boolean {
+        val normalizedTrigger = AvatarMoodTypes.normalizeKey(triggerName)
+        val targetAnimation = resolveAnimationForTrigger(normalizedTrigger) ?: return false
+        val displayEmotion =
+            AvatarMoodTypes.builtInFallbackEmotion(normalizedTrigger)
+                ?: resolveModelEmotion(targetAnimation)
+                ?: _state.value.emotion
+
+        applyAnimation(displayEmotion, targetAnimation, isLooping = loop == 0)
+        return true
+    }
+
+    override fun playAnimation(animationName: String, loop: Int) {
+        val normalizedName = animationName.trim()
+        if (normalizedName.isEmpty() || !model.availableFiles.contains(normalizedName)) {
+            return
+        }
+
+        applyAnimation(
+            displayEmotion = resolveModelEmotion(normalizedName) ?: _state.value.emotion,
+            animationName = normalizedName,
+            isLooping = loop == 0
+        )
+    }
+
+    override fun estimateEmotionDurationMillis(emotion: AvatarEmotion): Long? {
+        val animationName = resolveAnimationForEmotion(emotion) ?: return null
+        val animationPath = File(model.basePath, animationName).absolutePath
+        val retriever = MediaMetadataRetriever()
+        return try {
+            retriever.setDataSource(animationPath)
+            retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION)
+                ?.toLongOrNull()
+                ?.coerceAtLeast(1L)
+        } catch (_: Exception) {
+            null
+        } finally {
+            runCatching { retriever.release() }
+        }
+    }
+
+    override fun estimateTriggerDurationMillis(triggerName: String): Long? {
+        val animationName =
+            resolveAnimationForTrigger(AvatarMoodTypes.normalizeKey(triggerName)) ?: return null
+        val animationPath = File(model.basePath, animationName).absolutePath
+        val retriever = MediaMetadataRetriever()
+        return try {
+            retriever.setDataSource(animationPath)
+            retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION)
+                ?.toLongOrNull()
+                ?.coerceAtLeast(1L)
+        } catch (_: Exception) {
+            null
+        } finally {
+            runCatching { retriever.release() }
+        }
+    }
+
+    override fun lookAt(x: Float, y: Float) {
+        // MP4 avatars do not support lookAt.
+    }
+
+    override fun updateSettings(settings: Map<String, Any>) {
+        settings["scale"]?.let { if (it is Number) _scale.value = it.toFloat() }
+        settings["translateX"]?.let { if (it is Number) _translateX.value = it.toFloat() }
+        settings["translateY"]?.let { if (it is Number) _translateY.value = it.toFloat() }
+    }
+
+    override fun updateEmotionAnimationMapping(mapping: Map<AvatarEmotion, String>) {
+        emotionAnimationMapping = mapping
+            .mapValues { (_, animationName) -> animationName.trim() }
+            .filterValues { animationName -> animationName.isNotBlank() }
+    }
+
+    override fun updateTriggerAnimationMapping(mapping: Map<String, String>) {
+        triggerAnimationMapping =
+            mapping.entries.mapNotNull { (rawKey, rawAnimationName) ->
+                val key = AvatarMoodTypes.normalizeKey(rawKey)
+                val animationName = rawAnimationName.trim()
+                if (key.isBlank() || animationName.isBlank()) {
+                    return@mapNotNull null
+                }
+                key to animationName
+            }.toMap()
+    }
+
+    fun onAnimationPlaybackCompleted(animationName: String) {
+        val currentState = _state.value
+        if (currentState.isLooping) {
+            return
+        }
+        if (currentState.currentAnimation != animationName) {
+            return
+        }
+
+        setEmotion(AvatarEmotion.IDLE)
+    }
+
+    private fun resolveAnimationForEmotion(emotion: AvatarEmotion): String? {
+        val preferred = emotionAnimationMapping[emotion]
+        if (!preferred.isNullOrBlank() && model.availableFiles.contains(preferred)) {
+            return preferred
+        }
+
+        val direct = model.animationFileForEmotion(emotion)
+        if (!direct.isNullOrBlank() && model.availableFiles.contains(direct)) {
+            return direct
+        }
+
+        if (emotion != AvatarEmotion.IDLE) {
+            val idlePreferred = emotionAnimationMapping[AvatarEmotion.IDLE]
+            if (!idlePreferred.isNullOrBlank() && model.availableFiles.contains(idlePreferred)) {
+                return idlePreferred
+            }
+
+            val idleDirect = model.animationFileForEmotion(AvatarEmotion.IDLE)
+            if (!idleDirect.isNullOrBlank() && model.availableFiles.contains(idleDirect)) {
+                return idleDirect
+            }
+        }
+
+        return model.availableFiles.firstOrNull()
+    }
+
+    private fun resolveAnimationForTrigger(triggerName: String): String? {
+        val preferred = triggerAnimationMapping[triggerName]
+        if (!preferred.isNullOrBlank() && model.availableFiles.contains(preferred)) {
+            return preferred
+        }
+
+        return null
+    }
+
+    private fun resolveModelEmotion(animationName: String): AvatarEmotion? {
+        return model.emotionToFileMap.entries
+            .find { it.value == animationName }
+            ?.key
+    }
+
+    private fun applyAnimation(
+        displayEmotion: AvatarEmotion,
+        animationName: String,
+        isLooping: Boolean
+    ) {
+        if (!model.availableFiles.contains(animationName)) {
+            return
+        }
+
+        _state.value = _state.value.copy(
+            emotion = displayEmotion,
+            currentAnimation = animationName,
+            isLooping = isLooping,
+            playbackNonce = _state.value.playbackNonce + 1
+        )
+    }
+}
+
+@Composable
+fun rememberMp4AvatarController(model: Mp4AvatarModel): Mp4AvatarController {
+    return remember(model) { Mp4AvatarController(model) }
+}

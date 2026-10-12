@@ -1,1 +1,101 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5zdGFuZGFyZAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkNhbGN1bGF0aW9uUmVzdWx0RGF0YQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuRGF0ZVJlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmNhbGN1bGF0b3IuQ2FsY3VsYXRvciBhcyBDYWxjSW1wbAppbXBvcnQgamF2YS51dGlsLkRhdGUKCi8qKiDlop7lvLrnmoTorqHnrpflmajnsbvvvIzmlK/mjIHmlbDlrabooajovr7lvI/orqHnrpfjgIHml6XmnJ/orqHnrpflkoxKYXZhU2NyaXB06K+t5rOV54m55oCnIOaPkOS+m+WuieWFqOeahOihqOi+vuW8j+iuoeeul++8jOabv+S7o2V2YWwoKSAqLwpjbGFzcyBTdGFuZGFyZENhbGN1bGF0b3IgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgLyoqIOiuoeeul+ihqOi+vuW8jyAqLwogICAgICAgIGZ1biBldmFsRXhwcmVzc2lvbihleHByZXNzaW9uOiBTdHJpbmcpOiBEb3VibGUgewogICAgICAgICAgICByZXR1cm4gQ2FsY0ltcGwuZXZhbEV4cHJlc3Npb24oZXhwcmVzc2lvbikKICAgICAgICB9CgogICAgICAgIC8qKiDorqHnrpfooajovr7lvI/lubbov5Tlm57nu5PmnoTljJbmlbDmja4gKi8KICAgICAgICBmdW4gY2FsY3VsYXRlRXhwcmVzc2lvbihleHByZXNzaW9uOiBTdHJpbmcpOiBDYWxjdWxhdGlvblJlc3VsdERhdGEgewogICAgICAgICAgICB2YWwgcmVzdWx0ID0gQ2FsY0ltcGwuZXZhbEV4cHJlc3Npb24oZXhwcmVzc2lvbikKICAgICAgICAgICAgdmFsIGZvcm1hdHRlZFJlc3VsdCA9IENhbGNJbXBsLmZvcm1hdFJlc3VsdChyZXN1bHQpCiAgICAgICAgICAgIHZhbCB2YXJpYWJsZXMgPSBnZXRWYXJpYWJsZXNNYXAoKQoKICAgICAgICAgICAgcmV0dXJuIENhbGN1bGF0aW9uUmVzdWx0RGF0YSgKICAgICAgICAgICAgICAgICAgICBleHByZXNzaW9uID0gZXhwcmVzc2lvbiwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSByZXN1bHQsCiAgICAgICAgICAgICAgICAgICAgZm9ybWF0dGVkUmVzdWx0ID0gZm9ybWF0dGVkUmVzdWx0LAogICAgICAgICAgICAgICAgICAgIHZhcmlhYmxlcyA9IHZhcmlhYmxlcwogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICAvKiog6I635Y+W5omA5pyJ5Y+Y6YeP5L2c5Li6TWFwICovCiAgICAgICAgcHJpdmF0ZSBmdW4gZ2V0VmFyaWFibGVzTWFwKCk6IE1hcDxTdHJpbmcsIERvdWJsZT4gewogICAgICAgICAgICAvLyDlgYforr7ov5nkupvmmK9DYWxjSW1wbOWGhemDqOW4uOeUqOeahOWPmOmHjwogICAgICAgICAgICB2YWwgY29tbW9uVmFycyA9IGxpc3RPZigiYW5zIiwgInBpIiwgImUiKQogICAgICAgICAgICB2YWwgcmVzdWx0ID0gbXV0YWJsZU1hcE9mPFN0cmluZywgRG91YmxlPigpCgogICAgICAgICAgICBmb3IgKHZhck5hbWUgaW4gY29tbW9uVmFycykgewogICAgICAgICAgICAgICAgdmFsIHZhbHVlID0gZ2V0VmFyaWFibGUodmFyTmFtZSkKICAgICAgICAgICAgICAgIGlmICh2YWx1ZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgcmVzdWx0W3Zhck5hbWVdID0gdmFsdWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgICAgIH0KCiAgICAgICAgLyoqIOiOt+WPluWPmOmHj+WAvCAqLwogICAgICAgIGZ1biBnZXRWYXJpYWJsZShuYW1lOiBTdHJpbmcpOiBEb3VibGU/IHsKICAgICAgICAgICAgcmV0dXJuIENhbGNJbXBsLmdldFZhcmlhYmxlKG5hbWUpCiAgICAgICAgfQoKICAgICAgICAvKiog6K6+572u5Y+Y6YeP5YC8ICovCiAgICAgICAgZnVuIHNldFZhcmlhYmxlKG5hbWU6IFN0cmluZywgdmFsdWU6IERvdWJsZSkgewogICAgICAgICAgICBDYWxjSW1wbC5zZXRWYXJpYWJsZShuYW1lLCB2YWx1ZSkKICAgICAgICB9CgogICAgICAgIC8qKiDmuIXpmaTmiYDmnInlj5jph48gKi8KICAgICAgICBmdW4gY2xlYXJWYXJpYWJsZXMoKSB7CiAgICAgICAgICAgIENhbGNJbXBsLmNsZWFyVmFyaWFibGVzKCkKICAgICAgICB9CgogICAgICAgIC8qKiDmoLzlvI/ljJbml6XmnJ8gKi8KICAgICAgICBmdW4gZm9ybWF0RGF0ZShkYXRlOiBEYXRlLCBmb3JtYXQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgICAgIHJldHVybiBDYWxjSW1wbC5mb3JtYXREYXRlKGRhdGUsIGZvcm1hdCkKICAgICAgICB9CgogICAgICAgIC8qKiDmoLzlvI/ljJbml6XmnJ/lubbov5Tlm57nu5PmnoTljJbmlbDmja4gKi8KICAgICAgICBmdW4gZm9ybWF0RGF0ZVN0cnVjdHVyZWQoZGF0ZTogRGF0ZSwgZm9ybWF0OiBTdHJpbmcpOiBEYXRlUmVzdWx0RGF0YSB7CiAgICAgICAgICAgIHZhbCBmb3JtYXR0ZWREYXRlID0gQ2FsY0ltcGwuZm9ybWF0RGF0ZShkYXRlLCBmb3JtYXQpCiAgICAgICAgICAgIHJldHVybiBEYXRlUmVzdWx0RGF0YSgKICAgICAgICAgICAgICAgICAgICBkYXRlID0gZGF0ZS50b1N0cmluZygpLAogICAgICAgICAgICAgICAgICAgIGZvcm1hdCA9IGZvcm1hdCwKICAgICAgICAgICAgICAgICAgICBmb3JtYXR0ZWREYXRlID0gZm9ybWF0dGVkRGF0ZQogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICAvKiog5qC85byP5YyW57uT5p6cICovCiAgICAgICAgZnVuIGZvcm1hdFJlc3VsdChyZXN1bHQ6IERvdWJsZSk6IFN0cmluZyB7CiAgICAgICAgICAgIHJldHVybiBDYWxjSW1wbC5mb3JtYXRSZXN1bHQocmVzdWx0KQogICAgICAgIH0KCiAgICAgICAgLyoqIOiOt+WPluaUr+aMgeeahOWNleS9jeWIl+ihqCAqLwogICAgICAgIGZ1biBnZXRTdXBwb3J0ZWRVbml0cygpOiBNYXA8U3RyaW5nLCBMaXN0PFN0cmluZz4+IHsKICAgICAgICAgICAgcmV0dXJuIENhbGNJbXBsLmdldFN1cHBvcnRlZFVuaXRzKCkKICAgICAgICB9CgogICAgICAgIC8qKiDojrflj5bmlK/mjIHnmoTml6XmnJ/lh73mlbAgKi8KICAgICAgICBmdW4gZ2V0U3VwcG9ydGVkRGF0ZUZ1bmN0aW9ucygpOiBMaXN0PFN0cmluZz4gewogICAgICAgICAgICByZXR1cm4gQ2FsY0ltcGwuZ2V0U3VwcG9ydGVkRGF0ZUZ1bmN0aW9ucygpCiAgICAgICAgfQoKICAgICAgICAvKiog6I635Y+W5pSv5oyB55qE57uf6K6h5Ye95pWwICovCiAgICAgICAgZnVuIGdldFN1cHBvcnRlZFN0YXRGdW5jdGlvbnMoKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICAgICAgcmV0dXJuIENhbGNJbXBsLmdldFN1cHBvcnRlZFN0YXRGdW5jdGlvbnMoKQogICAgICAgIH0KCiAgICAgICAgLyoqIOiOt+WPluaUr+aMgeeahEphdmFTY3JpcHTnibnmgKcgKi8KICAgICAgICBmdW4gZ2V0U3VwcG9ydGVkSnNGZWF0dXJlcygpOiBMaXN0PFN0cmluZz4gewogICAgICAgICAgICByZXR1cm4gQ2FsY0ltcGwuZ2V0U3VwcG9ydGVkSnNGZWF0dXJlcygpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.standard
+
+import com.bslsjdk.operit.core.tools.CalculationResultData
+import com.bslsjdk.operit.core.tools.DateResultData
+import com.bslsjdk.operit.core.tools.calculator.Calculator as CalcImpl
+import java.util.Date
+
+/** 增强的计算器类，支持数学表达式计算、日期计算和JavaScript语法特性 提供安全的表达式计算，替代eval() */
+class StandardCalculator {
+    companion object {
+        /** 计算表达式 */
+        fun evalExpression(expression: String): Double {
+            return CalcImpl.evalExpression(expression)
+        }
+
+        /** 计算表达式并返回结构化数据 */
+        fun calculateExpression(expression: String): CalculationResultData {
+            val result = CalcImpl.evalExpression(expression)
+            val formattedResult = CalcImpl.formatResult(result)
+            val variables = getVariablesMap()
+
+            return CalculationResultData(
+                    expression = expression,
+                    result = result,
+                    formattedResult = formattedResult,
+                    variables = variables
+            )
+        }
+
+        /** 获取所有变量作为Map */
+        private fun getVariablesMap(): Map<String, Double> {
+            // 假设这些是CalcImpl内部常用的变量
+            val commonVars = listOf("ans", "pi", "e")
+            val result = mutableMapOf<String, Double>()
+
+            for (varName in commonVars) {
+                val value = getVariable(varName)
+                if (value != null) {
+                    result[varName] = value
+                }
+            }
+
+            return result
+        }
+
+        /** 获取变量值 */
+        fun getVariable(name: String): Double? {
+            return CalcImpl.getVariable(name)
+        }
+
+        /** 设置变量值 */
+        fun setVariable(name: String, value: Double) {
+            CalcImpl.setVariable(name, value)
+        }
+
+        /** 清除所有变量 */
+        fun clearVariables() {
+            CalcImpl.clearVariables()
+        }
+
+        /** 格式化日期 */
+        fun formatDate(date: Date, format: String): String {
+            return CalcImpl.formatDate(date, format)
+        }
+
+        /** 格式化日期并返回结构化数据 */
+        fun formatDateStructured(date: Date, format: String): DateResultData {
+            val formattedDate = CalcImpl.formatDate(date, format)
+            return DateResultData(
+                    date = date.toString(),
+                    format = format,
+                    formattedDate = formattedDate
+            )
+        }
+
+        /** 格式化结果 */
+        fun formatResult(result: Double): String {
+            return CalcImpl.formatResult(result)
+        }
+
+        /** 获取支持的单位列表 */
+        fun getSupportedUnits(): Map<String, List<String>> {
+            return CalcImpl.getSupportedUnits()
+        }
+
+        /** 获取支持的日期函数 */
+        fun getSupportedDateFunctions(): List<String> {
+            return CalcImpl.getSupportedDateFunctions()
+        }
+
+        /** 获取支持的统计函数 */
+        fun getSupportedStatFunctions(): List<String> {
+            return CalcImpl.getSupportedStatFunctions()
+        }
+
+        /** 获取支持的JavaScript特性 */
+        fun getSupportedJsFeatures(): List<String> {
+            return CalcImpl.getSupportedJsFeatures()
+        }
+    }
+}

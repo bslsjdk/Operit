@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuYmFsbAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcuRmxvYXRDb250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcuRmxvYXRpbmdNb2RlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCi8qKiAKICog5riy5p+T5oKs5rWu56qX55qE6K+t6Z+z55CD5qih5byP55WM6Z2iIC0gU2lyaemjjuagvOWKqOaEn+eQg+S9kwogKiDpgLvovpHlt7Lmj5Dlj5bliLAgU2lyaUJhbGwua3QKICog54K55Ye755u05o6l6L+b5YWl5YWo5bGP6K+t6Z+z5qih5byPCiAqLwpAQ29tcG9zYWJsZQpmdW4gRmxvYXRpbmdWb2ljZUJhbGxNb2RlKGZsb2F0Q29udGV4dDogRmxvYXRDb250ZXh0KSB7CiAgICBTaXJpQmFsbCgKICAgICAgICBmbG9hdENvbnRleHQgPSBmbG9hdENvbnRleHQsCiAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgZmxvYXRDb250ZXh0Lm9uTW9kZUNoYW5nZShGbG9hdGluZ01vZGUuRlVMTFNDUkVFTikKICAgICAgICB9LAogICAgICAgIG9uVHJpZ2dlclJlc3VsdCA9IHsKICAgICAgICAgICAgLy8g5YiH5o2i5Yiw57uT5p6c5bGV56S65qih5byP5pi+56S657uT5p6cCiAgICAgICAgICAgIGZsb2F0Q29udGV4dC5vbk1vZGVDaGFuZ2UoRmxvYXRpbmdNb2RlLlJFU1VMVF9ESVNQTEFZKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8gM+enkuWQjuiHquWKqOWIh+WbnueQg+aooeW8jwogICAgICAgICAgICBmbG9hdENvbnRleHQuY29yb3V0aW5lU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgIGRlbGF5KDMwMDApCiAgICAgICAgICAgICAgICAvLyDlj6rmnInlvZPliY3ov5jmmK/nu5PmnpzlsZXnpLrmqKHlvI/ml7bmiY3liIflm57vvIjpgb/lhY3nlKjmiLflt7Lnu4/liIfmjaLliLDlhbbku5bmqKHlvI/vvIkKICAgICAgICAgICAgICAgIGlmIChmbG9hdENvbnRleHQuY3VycmVudE1vZGUgPT0gRmxvYXRpbmdNb2RlLlJFU1VMVF9ESVNQTEFZKSB7CiAgICAgICAgICAgICAgICAgICAgZmxvYXRDb250ZXh0Lm9uTW9kZUNoYW5nZShGbG9hdGluZ01vZGUuQkFMTCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkKfQo=
+package com.bslsjdk.operit.ui.floating.ui.ball
+
+import androidx.compose.runtime.Composable
+import com.bslsjdk.operit.ui.floating.FloatContext
+import com.bslsjdk.operit.ui.floating.FloatingMode
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+
+/** 
+ * 渲染悬浮窗的语音球模式界面 - Siri风格动感球体
+ * 逻辑已提取到 SiriBall.kt
+ * 点击直接进入全屏语音模式
+ */
+@Composable
+fun FloatingVoiceBallMode(floatContext: FloatContext) {
+    SiriBall(
+        floatContext = floatContext,
+        onClick = {
+            floatContext.onModeChange(FloatingMode.FULLSCREEN)
+        },
+        onTriggerResult = {
+            // 切换到结果展示模式显示结果
+            floatContext.onModeChange(FloatingMode.RESULT_DISPLAY)
+            
+            // 3秒后自动切回球模式
+            floatContext.coroutineScope.launch {
+                delay(3000)
+                // 只有当前还是结果展示模式时才切回（避免用户已经切换到其他模式）
+                if (floatContext.currentMode == FloatingMode.RESULT_DISPLAY) {
+                    floatContext.onModeChange(FloatingMode.BALL)
+                }
+            }
+        }
+    )
+}

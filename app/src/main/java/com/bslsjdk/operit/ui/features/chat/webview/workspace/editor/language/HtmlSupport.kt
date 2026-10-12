@@ -1,1 +1,47 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IubGFuZ3VhZ2UKCi8qKgogKiBIVE1M6K+t6KiA5pSv5oyBCiAqLwpjbGFzcyBIdG1sU3VwcG9ydCA6IEJhc2VMYW5ndWFnZVN1cHBvcnQoKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIHZhbCBUQUdTID0gc2V0T2YoCiAgICAgICAgICAgICJodG1sIiwgImhlYWQiLCAidGl0bGUiLCAiYm9keSIsICJkaXYiLCAicCIsICJzcGFuIiwgImEiLCAiaW1nIiwgInVsIiwgIm9sIiwgImxpIiwKICAgICAgICAgICAgImgxIiwgImgyIiwgImgzIiwgImg0IiwgImg1IiwgImg2IiwgInN0cm9uZyIsICJlbSIsICJiciIsICJociIsICJtZXRhIiwgImxpbmsiLAogICAgICAgICAgICAic2NyaXB0IiwgInN0eWxlIiwgInRhYmxlIiwgInRyIiwgInRkIiwgInRoIiwgImZvcm0iLCAiaW5wdXQiLCAiYnV0dG9uIiwgInRleHRhcmVhIiwKICAgICAgICAgICAgInNlbGVjdCIsICJvcHRpb24iLCAibGFiZWwiLCAiaGVhZGVyIiwgImZvb3RlciIsICJuYXYiLCAic2VjdGlvbiIsICJhcnRpY2xlIiwgImFzaWRlIiwKICAgICAgICAgICAgIm1haW4iLCAiY2FudmFzIiwgImF1ZGlvIiwgInZpZGVvIiwgInNvdXJjZSIsICJpZnJhbWUiLCAic3ZnIiwgInBhdGgiLCAicmVjdCIsICJjaXJjbGUiLAogICAgICAgICAgICAibGluZSIsICJwb2x5bGluZSIsICJwb2x5Z29uIiwgInRleHQiLCAiZyIsICJkZWZzIiwgInVzZSIsICJzeW1ib2wiLCAibWFya2VyIiwgInBhdHRlcm4iLAogICAgICAgICAgICAiY2xpcFBhdGgiLCAibWFzayIsICJmaWx0ZXIiLCAiZmVHYXVzc2lhbkJsdXIiLCAiZmVPZmZzZXQiLCAiZmVCbGVuZCIsICJmZUNvbG9yTWF0cml4IgogICAgICAgICkKICAgICAgICAKICAgICAgICBwcml2YXRlIHZhbCBBVFRSSUJVVEVTID0gc2V0T2YoCiAgICAgICAgICAgICJpZCIsICJjbGFzcyIsICJzdHlsZSIsICJocmVmIiwgInNyYyIsICJhbHQiLCAidGl0bGUiLCAid2lkdGgiLCAiaGVpZ2h0IiwgInR5cGUiLAogICAgICAgICAgICAidmFsdWUiLCAibmFtZSIsICJwbGFjZWhvbGRlciIsICJkaXNhYmxlZCIsICJjaGVja2VkIiwgInNlbGVjdGVkIiwgInJlYWRvbmx5IiwgInJlcXVpcmVkIiwKICAgICAgICAgICAgIm1heGxlbmd0aCIsICJtaW5sZW5ndGgiLCAibWF4IiwgIm1pbiIsICJwYXR0ZXJuIiwgImF1dG9jb21wbGV0ZSIsICJhdXRvZm9jdXMiLCAiZm9ybWFjdGlvbiIsCiAgICAgICAgICAgICJmb3JtbWV0aG9kIiwgImZvcm1ub3ZhbGlkYXRlIiwgImZvcm10YXJnZXQiLCAicmVsIiwgInRhcmdldCIsICJkb3dubG9hZCIsICJjb2xzcGFuIiwKICAgICAgICAgICAgInJvd3NwYW4iLCAiaGVhZGVycyIsICJzY29wZSIsICJhY3Rpb24iLCAibWV0aG9kIiwgImVuY3R5cGUiLCAiYWNjZXB0IiwgImFjY2VwdC1jaGFyc2V0IiwKICAgICAgICAgICAgIm5vdmFsaWRhdGUiLCAib25zdWJtaXQiLCAib25jbGljayIsICJvbmNoYW5nZSIsICJvbmtleXVwIiwgIm9ua2V5ZG93biIsICJvbmtleXByZXNzIiwKICAgICAgICAgICAgIm9ubW91c2VvdmVyIiwgIm9ubW91c2VvdXQiLCAib25tb3VzZWRvd24iLCAib25tb3VzZXVwIiwgIm9ubG9hZCIsICJvbmVycm9yIgogICAgICAgICkKICAgICAgICAKICAgICAgICBwcml2YXRlIHZhbCBGSUxFX0VYVEVOU0lPTlMgPSBsaXN0T2YoImh0bWwiLCAiaHRtIiwgInhodG1sIikKICAgICAgICAKICAgICAgICBpbml0IHsKICAgICAgICAgICAgLy8g5rOo5YaM6K+t6KiA5pSv5oyBCiAgICAgICAgICAgIExhbmd1YWdlU3VwcG9ydFJlZ2lzdHJ5LnJlZ2lzdGVyKEh0bWxTdXBwb3J0KCkpCiAgICAgICAgfQogICAgfQogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0TmFtZSgpOiBTdHJpbmcgPSAiaHRtbCIKICAgIAogICAgb3ZlcnJpZGUgZnVuIGdldEtleXdvcmRzKCk6IFNldDxTdHJpbmc+ID0gVEFHUwogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0QnVpbHRJbkZ1bmN0aW9ucygpOiBTZXQ8U3RyaW5nPiA9IEFUVFJJQlVURVMKICAgIAogICAgb3ZlcnJpZGUgZnVuIGdldENvbW1lbnRTdGFydCgpOiBMaXN0PFN0cmluZz4gPSBsaXN0T2YoIjwhLS0iKQogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0TXVsdGlMaW5lQ29tbWVudEVuZCgpOiBTdHJpbmc/ID0gIi0tPiIKICAgIAogICAgb3ZlcnJpZGUgZnVuIGdldEZpbGVFeHRlbnNpb25zKCk6IExpc3Q8U3RyaW5nPiA9IEZJTEVfRVhURU5TSU9OUwp9IA==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language
+
+/**
+ * HTML语言支持
+ */
+class HtmlSupport : BaseLanguageSupport() {
+    companion object {
+        private val TAGS = setOf(
+            "html", "head", "title", "body", "div", "p", "span", "a", "img", "ul", "ol", "li",
+            "h1", "h2", "h3", "h4", "h5", "h6", "strong", "em", "br", "hr", "meta", "link",
+            "script", "style", "table", "tr", "td", "th", "form", "input", "button", "textarea",
+            "select", "option", "label", "header", "footer", "nav", "section", "article", "aside",
+            "main", "canvas", "audio", "video", "source", "iframe", "svg", "path", "rect", "circle",
+            "line", "polyline", "polygon", "text", "g", "defs", "use", "symbol", "marker", "pattern",
+            "clipPath", "mask", "filter", "feGaussianBlur", "feOffset", "feBlend", "feColorMatrix"
+        )
+        
+        private val ATTRIBUTES = setOf(
+            "id", "class", "style", "href", "src", "alt", "title", "width", "height", "type",
+            "value", "name", "placeholder", "disabled", "checked", "selected", "readonly", "required",
+            "maxlength", "minlength", "max", "min", "pattern", "autocomplete", "autofocus", "formaction",
+            "formmethod", "formnovalidate", "formtarget", "rel", "target", "download", "colspan",
+            "rowspan", "headers", "scope", "action", "method", "enctype", "accept", "accept-charset",
+            "novalidate", "onsubmit", "onclick", "onchange", "onkeyup", "onkeydown", "onkeypress",
+            "onmouseover", "onmouseout", "onmousedown", "onmouseup", "onload", "onerror"
+        )
+        
+        private val FILE_EXTENSIONS = listOf("html", "htm", "xhtml")
+        
+        init {
+            // 注册语言支持
+            LanguageSupportRegistry.register(HtmlSupport())
+        }
+    }
+    
+    override fun getName(): String = "html"
+    
+    override fun getKeywords(): Set<String> = TAGS
+    
+    override fun getBuiltInFunctions(): Set<String> = ATTRIBUTES
+    
+    override fun getCommentStart(): List<String> = listOf("<!--")
+    
+    override fun getMultiLineCommentEnd(): String? = "-->"
+    
+    override fun getFileExtensions(): List<String> = FILE_EXTENSIONS
+} 

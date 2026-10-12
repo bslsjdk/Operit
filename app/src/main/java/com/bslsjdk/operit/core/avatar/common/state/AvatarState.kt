@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLnN0YXRlCgovKioKICogUmVwcmVzZW50cyBhIHNuYXBzaG90IG9mIHRoZSBhdmF0YXIncyBjdXJyZW50IHN0YXRlLgogKiBUaGlzIGlzIGFuIGltbXV0YWJsZSBkYXRhIGNsYXNzLCBtYWtpbmcgc3RhdGUgbWFuYWdlbWVudCBwcmVkaWN0YWJsZS4KICoKICogQHBhcmFtIGVtb3Rpb24gVGhlIGN1cnJlbnQgaGlnaC1sZXZlbCBlbW90aW9uYWwgc3RhdGUgb2YgdGhlIGF2YXRhci4KICogQHBhcmFtIGN1cnJlbnRBbmltYXRpb24gVGhlIG5hbWUgb2YgdGhlIHNwZWNpZmljIGFuaW1hdGlvbiBjdXJyZW50bHkgcGxheWluZy4KICogICAgICAgICAgICAgICAgICAgICAgICAgVGhpcyBjb3VsZCBiZSBudWxsIGlmIG5vIGFuaW1hdGlvbiBpcyBhY3RpdmUuCiAqIEBwYXJhbSBpc0xvb3BpbmcgV2hldGhlciB0aGUgY3VycmVudCBhbmltYXRpb24gaXMgc2V0IHRvIGxvb3AgaW5kZWZpbml0ZWx5LgogKiBAcGFyYW0gcGxheWJhY2tOb25jZSBBIG1vbm90b25pY2FsbHkgaW5jcmVhc2luZyB0b2tlbiB0aGF0IGFsbG93cyByZW5kZXJlcnMgdG8gcmVzdGFydCB0aGUgc2FtZSBhbmltYXRpb24uCiAqLwpkYXRhIGNsYXNzIEF2YXRhclN0YXRlKAogICAgdmFsIGVtb3Rpb246IEF2YXRhckVtb3Rpb24gPSBBdmF0YXJFbW90aW9uLklETEUsCiAgICB2YWwgY3VycmVudEFuaW1hdGlvbjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgaXNMb29waW5nOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgcGxheWJhY2tOb25jZTogTG9uZyA9IDBMCikK
+package com.bslsjdk.operit.core.avatar.common.state
+
+/**
+ * Represents a snapshot of the avatar's current state.
+ * This is an immutable data class, making state management predictable.
+ *
+ * @param emotion The current high-level emotional state of the avatar.
+ * @param currentAnimation The name of the specific animation currently playing.
+ *                         This could be null if no animation is active.
+ * @param isLooping Whether the current animation is set to loop indefinitely.
+ * @param playbackNonce A monotonically increasing token that allows renderers to restart the same animation.
+ */
+data class AvatarState(
+    val emotion: AvatarEmotion = AvatarEmotion.IDLE,
+    val currentAnimation: String? = null,
+    val isLooping: Boolean = false,
+    val playbackNonce: Long = 0L
+)

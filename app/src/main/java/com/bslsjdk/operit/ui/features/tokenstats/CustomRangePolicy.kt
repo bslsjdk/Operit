@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW5zdGF0cwoKaW1wb3J0IGphdmEudGltZS5JbnN0YW50CmltcG9ydCBqYXZhLnRpbWUuWm9uZUlkCmltcG9ydCBqYXZhLnRpbWUudGVtcG9yYWwuQ2hyb25vVW5pdAoKaW50ZXJuYWwgZW51bSBjbGFzcyBDdXN0b21SYW5nZVZhbGlkYXRpb24gewogICAgVkFMSUQsCiAgICBJTlZBTElEX0JPVU5EUywKICAgIFRPT19MT05HLAp9CgppbnRlcm5hbCBmdW4gdmFsaWRhdGVDdXN0b21SYW5nZSgKICAgIHN0YXJ0TXM6IExvbmcsCiAgICBlbmRNczogTG9uZywKICAgIHpvbmU6IFpvbmVJZCwKICAgIG1heFJhbmdlRGF5czogTG9uZywKKTogQ3VzdG9tUmFuZ2VWYWxpZGF0aW9uIHsKICAgIGlmIChlbmRNcyA8PSBzdGFydE1zKSByZXR1cm4gQ3VzdG9tUmFuZ2VWYWxpZGF0aW9uLklOVkFMSURfQk9VTkRTCiAgICB2YWwgc3RhcnREYXRlID0gSW5zdGFudC5vZkVwb2NoTWlsbGkoc3RhcnRNcykuYXRab25lKHpvbmUpLnRvTG9jYWxEYXRlKCkKICAgIHZhbCBleGNsdXNpdmVFbmREYXRlID0gSW5zdGFudC5vZkVwb2NoTWlsbGkoZW5kTXMpLmF0Wm9uZSh6b25lKS50b0xvY2FsRGF0ZSgpCiAgICByZXR1cm4gaWYgKENocm9ub1VuaXQuREFZUy5iZXR3ZWVuKHN0YXJ0RGF0ZSwgZXhjbHVzaXZlRW5kRGF0ZSkgPiBtYXhSYW5nZURheXMpIHsKICAgICAgICBDdXN0b21SYW5nZVZhbGlkYXRpb24uVE9PX0xPTkcKICAgIH0gZWxzZSB7CiAgICAgICAgQ3VzdG9tUmFuZ2VWYWxpZGF0aW9uLlZBTElECiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.tokenstats
+
+import java.time.Instant
+import java.time.ZoneId
+import java.time.temporal.ChronoUnit
+
+internal enum class CustomRangeValidation {
+    VALID,
+    INVALID_BOUNDS,
+    TOO_LONG,
+}
+
+internal fun validateCustomRange(
+    startMs: Long,
+    endMs: Long,
+    zone: ZoneId,
+    maxRangeDays: Long,
+): CustomRangeValidation {
+    if (endMs <= startMs) return CustomRangeValidation.INVALID_BOUNDS
+    val startDate = Instant.ofEpochMilli(startMs).atZone(zone).toLocalDate()
+    val exclusiveEndDate = Instant.ofEpochMilli(endMs).atZone(zone).toLocalDate()
+    return if (ChronoUnit.DAYS.between(startDate, exclusiveEndDate) > maxRangeDays) {
+        CustomRangeValidation.TOO_LONG
+    } else {
+        CustomRangeValidation.VALID
+    }
+}

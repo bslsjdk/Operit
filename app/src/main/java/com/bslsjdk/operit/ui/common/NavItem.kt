@@ -1,1 +1,49 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuQWNjb3VudFRyZWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkFwcHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkJ1aWxkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5EZXNjcmlwdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRW1haWwKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkV4dGVuc2lvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5hdXRvbWlycm9yZWQuZmlsbGVkLkhlbHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkhpc3RvcnkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkluZm8KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlBlcnNvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuU2VjdXJpdHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlNldHRpbmdzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5UZXJtaW5hbAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuVG9rZW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlR1bmUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MudmVjdG9yLkltYWdlVmVjdG9yCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgoKLy8g5bqU55So5a+86Iiq6aG5CnNlYWxlZCBjbGFzcyBOYXZJdGVtKHZhbCByb3V0ZTogU3RyaW5nLCB2YWwgdGl0bGVSZXNJZDogSW50LCB2YWwgaWNvbjogSW1hZ2VWZWN0b3IpIHsKICAgICAgICBvYmplY3QgQWlDaGF0IDogTmF2SXRlbSgiYWlfY2hhdCIsIFIuc3RyaW5nLm5hdl9haV9jaGF0LCBJY29ucy5EZWZhdWx0LkVtYWlsKQogICAgICAgIG9iamVjdCBTaGl6dWt1Q29tbWFuZHMgOgogICAgICAgICAgICAgICAgTmF2SXRlbSgic2hpenVrdV9jb21tYW5kcyIsIFIuc3RyaW5nLnNoaXp1a3VfY29tbWFuZHMsIEljb25zLkRlZmF1bHQuQnVpbGQpCiAgICAgICAgb2JqZWN0IEFzc2lzdGFudENvbmZpZyA6CiAgICAgICAgICAgICAgICBOYXZJdGVtKCJhc3Npc3RhbnRfY29uZmlnIiwgUi5zdHJpbmcubmF2X2Fzc2lzdGFudF9jb25maWcsIEljb25zLkRlZmF1bHQuVHVuZSkKICAgICAgICBvYmplY3QgU2V0dGluZ3MgOiBOYXZJdGVtKCJzZXR0aW5ncyIsIFIuc3RyaW5nLm5hdl9zZXR0aW5ncywgSWNvbnMuRGVmYXVsdC5TZXR0aW5ncykKICAgICAgICBvYmplY3QgVG9vbFBlcm1pc3Npb25zIDoKICAgICAgICAgICAgICAgIE5hdkl0ZW0oInRvb2xfcGVybWlzc2lvbnMiLCBSLnN0cmluZy50b29sX3Blcm1pc3Npb25zLCBJY29ucy5EZWZhdWx0LlNlY3VyaXR5KQogICAgICAgIG9iamVjdCBDaGF0SGlzdG9yeVNldHRpbmdzIDoKICAgICAgICAgICAgICAgIE5hdkl0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgICJjaGF0X2hpc3Rvcnlfc2V0dGluZ3MiLAogICAgICAgICAgICAgICAgICAgICAgICBSLnN0cmluZy5jaGF0X2hpc3Rvcnlfc2V0dGluZ3MsCiAgICAgICAgICAgICAgICAgICAgICAgIEljb25zLkRlZmF1bHQuSGlzdG9yeQogICAgICAgICAgICAgICAgKQogICAgICAgIG9iamVjdCBQYWNrYWdlcyA6IE5hdkl0ZW0oInBhY2thZ2VzIiwgUi5zdHJpbmcubmF2X3BhY2thZ2VzLCBJY29ucy5EZWZhdWx0LkV4dGVuc2lvbikKICAgICAgICBvYmplY3QgTWVtb3J5QmFzZSA6CiAgICAgICAgICAgICAgICBOYXZJdGVtKCJtZW1vcnlfYmFzZSIsIFIuc3RyaW5nLm5hdl9tZW1vcnlfYmFzZSwgSWNvbnMuRGVmYXVsdC5IaXN0b3J5KQogICAgICAgIG9iamVjdCBUZXJtaW5hbCA6IE5hdkl0ZW0oInRlcm1pbmFsIiwgUi5zdHJpbmcudGVybWluYWwsIEljb25zLkRlZmF1bHQuVGVybWluYWwpCiAgICAgICAgb2JqZWN0IFRvb2xib3ggOiBOYXZJdGVtKCJ0b29sYm94IiwgUi5zdHJpbmcudG9vbGJveCwgSWNvbnMuRGVmYXVsdC5BcHBzKQogICAgICAgIG9iamVjdCBBYm91dCA6IE5hdkl0ZW0oImFib3V0IiwgUi5zdHJpbmcubmF2X2Fib3V0LCBJY29ucy5EZWZhdWx0LkluZm8pCiAgICAgICAgb2JqZWN0IEFncmVlbWVudCA6CiAgICAgICAgICAgICAgICBOYXZJdGVtKCJhZ3JlZW1lbnQiLCBSLnN0cmluZy5uYXZfaXRlbV9hZ3JlZW1lbnQsIEljb25zLkRlZmF1bHQuRGVzY3JpcHRpb24pCiAgICAgICAgb2JqZWN0IEhlbHAgOiBOYXZJdGVtKCJoZWxwIiwgUi5zdHJpbmcubmF2X2hlbHAsIEljb25zLkF1dG9NaXJyb3JlZC5GaWxsZWQuSGVscCkKICAgICAgICBvYmplY3QgVG9rZW5Db25maWcgOiBOYXZJdGVtKCJ0b2tlbl9jb25maWciLCBSLnN0cmluZy50b2tlbl9jb25maWcsIEljb25zLkRlZmF1bHQuVG9rZW4pCiAgICAgICAgb2JqZWN0IFdvcmtmbG93IDogTmF2SXRlbSgid29ya2Zsb3ciLCBSLnN0cmluZy5uYXZfd29ya2Zsb3csIEljb25zLkRlZmF1bHQuQWNjb3VudFRyZWUpCn0K
+package com.bslsjdk.operit.ui.common
+
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountTree
+import androidx.compose.material.icons.filled.Apps
+import androidx.compose.material.icons.filled.Build
+import androidx.compose.material.icons.filled.Description
+import androidx.compose.material.icons.filled.Email
+import androidx.compose.material.icons.filled.Extension
+import androidx.compose.material.icons.automirrored.filled.Help
+import androidx.compose.material.icons.filled.History
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.Security
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Terminal
+import androidx.compose.material.icons.filled.Token
+import androidx.compose.material.icons.filled.Tune
+import androidx.compose.ui.graphics.vector.ImageVector
+import com.bslsjdk.operit.R
+
+// 应用导航项
+sealed class NavItem(val route: String, val titleResId: Int, val icon: ImageVector) {
+        object AiChat : NavItem("ai_chat", R.string.nav_ai_chat, Icons.Default.Email)
+        object ShizukuCommands :
+                NavItem("shizuku_commands", R.string.shizuku_commands, Icons.Default.Build)
+        object AssistantConfig :
+                NavItem("assistant_config", R.string.nav_assistant_config, Icons.Default.Tune)
+        object Settings : NavItem("settings", R.string.nav_settings, Icons.Default.Settings)
+        object ToolPermissions :
+                NavItem("tool_permissions", R.string.tool_permissions, Icons.Default.Security)
+        object ChatHistorySettings :
+                NavItem(
+                        "chat_history_settings",
+                        R.string.chat_history_settings,
+                        Icons.Default.History
+                )
+        object Packages : NavItem("packages", R.string.nav_packages, Icons.Default.Extension)
+        object MemoryBase :
+                NavItem("memory_base", R.string.nav_memory_base, Icons.Default.History)
+        object Terminal : NavItem("terminal", R.string.terminal, Icons.Default.Terminal)
+        object Toolbox : NavItem("toolbox", R.string.toolbox, Icons.Default.Apps)
+        object About : NavItem("about", R.string.nav_about, Icons.Default.Info)
+        object Agreement :
+                NavItem("agreement", R.string.nav_item_agreement, Icons.Default.Description)
+        object Help : NavItem("help", R.string.nav_help, Icons.AutoMirrored.Filled.Help)
+        object TokenConfig : NavItem("token_config", R.string.token_config, Icons.Default.Token)
+        object Workflow : NavItem("workflow", R.string.nav_workflow, Icons.Default.AccountTree)
+}

@@ -1,1 +1,331 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tY3AucGx1Z2lucwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmdvb2dsZS5nc29uLkdzb25CdWlsZGVyCmltcG9ydCBjb20uZ29vZ2xlLmdzb24uSnNvbk9iamVjdAppbXBvcnQgY29tLmdvb2dsZS5nc29uLkpzb25QYXJzZXIKaW1wb3J0IGphdmEuaW8uRmlsZQoKLyoqCiAqIE1DUCDphY3nva7nlJ/miJDlmagKICoKICog6LSf6LSj55Sf5oiQTUNQ5o+S5Lu255qE6YWN572u5paH5Lu2CiAqLwpjbGFzcyBNQ1BDb25maWdHZW5lcmF0b3IgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJNQ1BDb25maWdHZW5lcmF0b3IiCiAgICB9CgogICAgLyoqCiAgICAgKiDnlJ/miJBNQ1DphY3nva4KICAgICAqCiAgICAgKiBAcGFyYW0gcGx1Z2luSWQg5o+S5Lu2SUQKICAgICAqIEBwYXJhbSBwcm9qZWN0U3RydWN0dXJlIOmhueebrue7k+aehAogICAgICogQHBhcmFtIGVudmlyb25tZW50VmFyaWFibGVzIOeOr+Wig+WPmOmHj+mUruWAvOWvuQogICAgICogQHBhcmFtIHBsdWdpbkRpclBhdGgg5o+S5Lu25Zyo57uI56uv546v5aKD5Lit55qE6YOo572y6Lev5b6E77yI5aaCIH4vbWNwX3BsdWdpbnMvcGx1Z2luX25hbWXvvIkKICAgICAqIEByZXR1cm4gTUNQ6YWN572uSlNPTgogICAgICovCiAgICBmdW4gZ2VuZXJhdGVNY3BDb25maWcoCiAgICAgICAgICAgIHBsdWdpbklkOiBTdHJpbmcsCiAgICAgICAgICAgIHByb2plY3RTdHJ1Y3R1cmU6IFByb2plY3RTdHJ1Y3R1cmUsCiAgICAgICAgICAgIGVudmlyb25tZW50VmFyaWFibGVzOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKSwKICAgICAgICAgICAgcGx1Z2luRGlyUGF0aDogU3RyaW5nPyA9IG51bGwKICAgICk6IFN0cmluZyB7CiAgICAgICAgLy8g5a2Y5YKo5pyA57uI6KaB5L2/55So55qE6YWN572uSlNPTgogICAgICAgIHZhciBmaW5hbENvbmZpZ0pzb246IEpzb25PYmplY3Q/ID0gbnVsbAogICAgICAgIC8vIOWtmOWCqOaJvuWIsOeahOacjeWKoeWZqOWQjeensAogICAgICAgIHZhciBleGlzdGluZ1NlcnZlck5hbWU6IFN0cmluZz8gPSBudWxsCgogICAgICAgIC8vIOWmguaenOS7jlJFQURNReaPkOWPluWIsOS6humFjee9ruekuuS+i++8jOWFiOWwneivleino+aekOWugwogICAgICAgIGlmIChwcm9qZWN0U3RydWN0dXJlLmNvbmZpZ0V4YW1wbGUgIT0gbnVsbCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgLy8g6aqM6K+BSlNPTuaYr+WQpuacieaViAogICAgICAgICAgICAgICAgdmFsIGpzb25PYmplY3QgPSBKc29uUGFyc2VyLnBhcnNlU3RyaW5nKHByb2plY3RTdHJ1Y3R1cmUuY29uZmlnRXhhbXBsZSkuYXNKc29uT2JqZWN0CiAgICAgICAgICAgICAgICBpZiAoanNvbk9iamVjdC5oYXMoIm1jcFNlcnZlcnMiKSkgewogICAgICAgICAgICAgICAgICAgIC8vIOS/neWtmOi/meS4qumFjee9ru+8jOS9huS4jeeri+WNs+i/lOWbngogICAgICAgICAgICAgICAgICAgIGZpbmFsQ29uZmlnSnNvbiA9IGpzb25PYmplY3QKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLku47phY3nva7npLrkvovmj5Dlj5bliLDmnInmlYjnmoTphY3nva5KU09OIikKCiAgICAgICAgICAgICAgICAgICAgLy8g5bCd6K+V5o+Q5Y+W56ys5LiA5Liq5pyN5Yqh5Zmo5ZCN56ew5L2c5Li65bey5a2Y5Zyo55qE5pyN5Yqh5Zmo5ZCNCiAgICAgICAgICAgICAgICAgICAgdmFsIG1jcFNlcnZlcnMgPSBqc29uT2JqZWN0LmdldEFzSnNvbk9iamVjdCgibWNwU2VydmVycyIpCiAgICAgICAgICAgICAgICAgICAgaWYgKG1jcFNlcnZlcnMuc2l6ZSgpID4gMCkgewogICAgICAgICAgICAgICAgICAgICAgICBleGlzdGluZ1NlcnZlck5hbWUgPSBtY3BTZXJ2ZXJzLmtleVNldCgpLmZpcnN0T3JOdWxsKCkKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5LuO6YWN572u56S65L6L5o+Q5Y+W5Yiw5pyN5Yqh5Zmo5ZCN56ewOiAkZXhpc3RpbmdTZXJ2ZXJOYW1lIikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6Kej5p6Q6YWN572u56S65L6L5aSx6LSl77yM5bCG5L2/55So55Sf5oiQ55qE6YWN572uIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8g56Gu5a6a6KaB5L2/55So55qE5pyN5Yqh5Zmo5ZCN56ewCiAgICAgICAgdmFsIHNlcnZlck5hbWUgPSBwbHVnaW5JZAogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuS9v+eUqOacjeWKoeWZqOWQjeensDogJHNlcnZlck5hbWUiKQoKICAgICAgICAvLyDlpoLmnpzmsqHmnInku47npLrkvovmj5Dlj5bliLDphY3nva7vvIzmiJbogIXmmK9UeXBlU2NyaXB06aG555uu6ZyA6KaB6L+b6KGM54m55q6K5aSE55CGCiAgICAgICAgaWYgKGZpbmFsQ29uZmlnSnNvbiA9PSBudWxsIHx8IHByb2plY3RTdHJ1Y3R1cmUudHlwZSA9PSBQcm9qZWN0VHlwZS5UWVBFU0NSSVBUKSB7CiAgICAgICAgICAgIC8vIOWIm+W7uuaWsOeahOmFjee9ruaIluS9v+eUqOeOsOaciemFjee9ruS9nOS4uuWfuuehgAogICAgICAgICAgICB2YWwgY29uZmlnSnNvbiA9IGZpbmFsQ29uZmlnSnNvbiA/OiBKc29uT2JqZWN0KCkKICAgICAgICAgICAgdmFyIG1jcFNlcnZlcnNKc29uOiBKc29uT2JqZWN0CgogICAgICAgICAgICAvLyDnoa7kv51tY3BTZXJ2ZXJz5a2Y5ZyoCiAgICAgICAgICAgIGlmIChjb25maWdKc29uLmhhcygibWNwU2VydmVycyIpKSB7CiAgICAgICAgICAgICAgICBtY3BTZXJ2ZXJzSnNvbiA9IGNvbmZpZ0pzb24uZ2V0QXNKc29uT2JqZWN0KCJtY3BTZXJ2ZXJzIikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG1jcFNlcnZlcnNKc29uID0gSnNvbk9iamVjdCgpCiAgICAgICAgICAgICAgICBjb25maWdKc29uLmFkZCgibWNwU2VydmVycyIsIG1jcFNlcnZlcnNKc29uKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YXIgc2VydmVySnNvbjogSnNvbk9iamVjdAoKICAgICAgICAgICAgLy8g5qOA5p+l5pyN5Yqh5Zmo6YWN572u5piv5ZCm5bey5a2Y5ZyoCiAgICAgICAgICAgIGlmIChtY3BTZXJ2ZXJzSnNvbi5oYXMoc2VydmVyTmFtZSkpIHsKICAgICAgICAgICAgICAgIHNlcnZlckpzb24gPSBtY3BTZXJ2ZXJzSnNvbi5nZXRBc0pzb25PYmplY3Qoc2VydmVyTmFtZSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHNlcnZlckpzb24gPSBKc29uT2JqZWN0KCkKICAgICAgICAgICAgICAgIG1jcFNlcnZlcnNKc29uLmFkZChzZXJ2ZXJOYW1lLCBzZXJ2ZXJKc29uKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDmoLnmja7pobnnm67nsbvlnovorr7nva7miJbkv67mlLnphY3nva4KICAgICAgICAgICAgd2hlbiAocHJvamVjdFN0cnVjdHVyZS50eXBlKSB7CiAgICAgICAgICAgICAgICBQcm9qZWN0VHlwZS5QWVRIT04gLT4gewogICAgICAgICAgICAgICAgICAgIGlmICghc2VydmVySnNvbi5oYXMoImNvbW1hbmQiKSkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyDlpoLmnpzmj5Dkvpvkuobmj5Lku7bnm67lvZXot6/lvoTvvIzkvb/nlKggdmVudiDkuK3nmoQgUHl0aG9uCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWQpuWImeS9v+eUqOezu+e7nyBQeXRob27vvIjlhbzlrrnml6fpgLvovpHvvIkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHB5dGhvbkNvbW1hbmQgPSBpZiAocGx1Z2luRGlyUGF0aCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiJHBsdWdpbkRpclBhdGgvdmVudi9iaW4vcHl0aG9uIgogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgInB5dGhvbiIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBzZXJ2ZXJKc29uLmFkZFByb3BlcnR5KCJjb21tYW5kIiwgcHl0aG9uQ29tbWFuZCkKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUHl0aG9uIOmhueebruS9v+eUqOWRveS7pDogJHB5dGhvbkNvbW1hbmQiKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaWYgKCFzZXJ2ZXJKc29uLmhhcygiYXJncyIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhcmdzQXJyYXkgPSBjb20uZ29vZ2xlLmdzb24uSnNvbkFycmF5KCkKICAgICAgICAgICAgICAgICAgICAgICAgYXJnc0FycmF5LmFkZCgiLW0iKQogICAgICAgICAgICAgICAgICAgICAgICAvLyDkvJjlhYjnuqc6IHB5cHJvamVjdC50b21sIOWMheWQjSA+IG1haW5QeXRob25Nb2R1bGUgPiDmj5Lku7ZJRAogICAgICAgICAgICAgICAgICAgICAgICB2YWwgbW9kdWxlTmFtZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvamVjdFN0cnVjdHVyZS5weXRob25QYWNrYWdlTmFtZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPzogcHJvamVjdFN0cnVjdHVyZS5tYWluUHl0aG9uTW9kdWxlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IHBsdWdpbklkLnJlcGxhY2UoIi0iLCAiXyIpLmxvd2VyY2FzZSgpCiAgICAgICAgICAgICAgICAgICAgICAgIGFyZ3NBcnJheS5hZGQobW9kdWxlTmFtZSkKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUHl0aG9uIOmhueebruS9v+eUqOaooeWdl+WQjTogJG1vZHVsZU5hbWUgKOadpea6kDogJHt3aGVuIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb2plY3RTdHJ1Y3R1cmUucHl0aG9uUGFja2FnZU5hbWUgIT0gbnVsbCAtPiAicHlwcm9qZWN0LnRvbWwiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm9qZWN0U3RydWN0dXJlLm1haW5QeXRob25Nb2R1bGUgIT0gbnVsbCAtPiAibWFpblB5dGhvbk1vZHVsZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gInBsdWdpbklkIgogICAgICAgICAgICAgICAgICAgICAgICB9fSkiKQogICAgICAgICAgICAgICAgICAgICAgICBzZXJ2ZXJKc29uLmFkZCgiYXJncyIsIGFyZ3NBcnJheSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBQcm9qZWN0VHlwZS5UWVBFU0NSSVBUIC0+IHsKICAgICAgICAgICAgICAgICAgICAvLyDlr7nkuo5UeXBlU2NyaXB06aG555uu77yM5aeL57uI6KaG55uW5Li65L2/55Sobm9kZeWRveS7pO+8jOaXoOiuuuaYr+aWsOeUn+aIkOi/mOaYr+S7juekuuS+i+aPkOWPlgogICAgICAgICAgICAgICAgICAgIHNlcnZlckpzb24uYWRkUHJvcGVydHkoImNvbW1hbmQiLCAibm9kZSIpCgogICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOayoeaciWFyZ3PmiJbogIXopoHlvLrliLbopobnm5blt7LmnInnmoRhcmdz77yM55Sf5oiQ5paw55qEYXJncwogICAgICAgICAgICAgICAgICAgIGlmICghc2VydmVySnNvbi5oYXMoImFyZ3MiKSB8fCBmaW5hbENvbmZpZ0pzb24gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgYXJnc0FycmF5ID0gY29tLmdvb2dsZS5nc29uLkpzb25BcnJheSgpCgogICAgICAgICAgICAgICAgICAgICAgICAvLyDkvb/nlKjku47pobnnm67liIbmnpDkuK3ojrflj5bnmoRUeXBlU2NyaXB06YWN572uCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBvdXREaXIgPSBwcm9qZWN0U3RydWN0dXJlLnRzQ29uZmlnT3V0RGlyID86ICJkaXN0IgogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcm9vdERpciA9IHByb2plY3RTdHJ1Y3R1cmUudHNDb25maWdSb290RGlyID86ICJzcmMiCgogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJUeXBlU2NyaXB057yW6K+R6YWN572uIC0gb3V0RGlyOiAkb3V0RGlyLCByb290RGlyOiAkcm9vdERpciIpCgogICAgICAgICAgICAgICAgICAgICAgICAvLyDmoLnmja7pobnnm67nu5PmnoTlhrPlrprlj6/og73nmoTovpPlh7rot6/lvoQKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG1haW5Uc0ZpbGUgPSBwcm9qZWN0U3RydWN0dXJlLm1haW5Uc0ZpbGUKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKG1haW5Uc0ZpbGUgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5qCH5YeG5YyWIHJvb3REaXLvvIjkuLrnqbrmiJZudWxs6YO96KeG5Li65qC555uu5b2V77yJCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgbm9ybWFsaXplZFJvb3REaXIgPSBpZiAocm9vdERpci5pc051bGxPckVtcHR5KCkpICIiIGVsc2Ugcm9vdERpcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDlsJ3or5Xnoa7lrprnvJbor5HovpPlh7rkvY3nva4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjb21waWxlZFBhdGggPSB3aGVuIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDlpoLmnpxyb290RGly5Li656m65oiW5Li65qC555uu5b2V77yM5paH5Lu25Lya55u05o6l57yW6K+R5Yiwb3V0RGly5LiLCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9ybWFsaXplZFJvb3REaXIuaXNFbXB0eSgpIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5a+55LqOIHJvb3REaXI9Ii4iIOWSjCBtYWluVHNGaWxlPSJpbmRleC50cyIgLT4gZGlzdC9pbmRleC5qcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmVsYXRpdmVQYXRoID0gbWFpblRzRmlsZS5yZW1vdmVQcmVmaXgoInNyYy8iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwganNGaWxlID0gcmVsYXRpdmVQYXRoLnJlcGxhY2UoIi50cyIsICIuanMiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiJG91dERpci8kanNGaWxlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDlpoLmnpzmlofku7blnKhyb290RGly5Lit77yM6ZyA6KaB5L+d5oyB55u45a+56Lev5b6E57uT5p6ECiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFpblRzRmlsZS5zdGFydHNXaXRoKCIkbm9ybWFsaXplZFJvb3REaXIvIikgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYWluVHNGaWxlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVtb3ZlUHJlZml4KCIkbm9ybWFsaXplZFJvb3REaXIvIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZXBsYWNlKCIudHMiLCAiLmpzIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5sZXQgeyAiJG91dERpci8kaXQiIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6c5pivc3Jj55uu5b2V57uT5p6ECiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFpblRzRmlsZS5zdGFydHNXaXRoKCJzcmMvIikgJiYgbm9ybWFsaXplZFJvb3REaXIgPT0gInNyYyIgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYWluVHNGaWxlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucmVtb3ZlUHJlZml4KCJzcmMvIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5yZXBsYWNlKCIudHMiLCAiLmpzIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5sZXQgeyAiJG91dERpci8kaXQiIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5YW25LuW5oOF5Ya177yM5YGH6K6+5paH5Lu25Zyo5qC555uu5b2VCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBqc0ZpbGUgPSBtYWluVHNGaWxlLnJlcGxhY2UoIi50cyIsICIuanMiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiJG91dERpci8kanNGaWxlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXJnc0FycmF5LmFkZChjb21waWxlZFBhdGgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJUeXBlU2NyaXB057yW6K+R6Lev5b6E5o6o5patOiAkbWFpblRzRmlsZSAocm9vdERpcj0kbm9ybWFsaXplZFJvb3REaXIpIC0+ICRjb21waWxlZFBhdGgiKQogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6c5rKh5pyJ5om+5Yiw5Li7VFPmlofku7bvvIzkvb/nlKjluLjop4HnmoTovpPlh7rkvY3nva4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFyZ3NBcnJheS5hZGQoIiRvdXREaXIvaW5kZXguanMiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5L2/55So6buY6K6k57yW6K+R6Lev5b6EOiAkb3V0RGlyL2luZGV4LmpzIikKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5pu05paw5pyN5Yqh5Zmo6YWN572u5Lit55qEYXJncwogICAgICAgICAgICAgICAgICAgICAgICBzZXJ2ZXJKc29uLmFkZCgiYXJncyIsIGFyZ3NBcnJheSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBQcm9qZWN0VHlwZS5OT0RFSlMgLT4gewogICAgICAgICAgICAgICAgICAgIGlmICghc2VydmVySnNvbi5oYXMoImNvbW1hbmQiKSkgewogICAgICAgICAgICAgICAgICAgICAgICBzZXJ2ZXJKc29uLmFkZFByb3BlcnR5KCJjb21tYW5kIiwgIm5vZGUiKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaWYgKCFzZXJ2ZXJKc29uLmhhcygiYXJncyIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhcmdzQXJyYXkgPSBjb20uZ29vZ2xlLmdzb24uSnNvbkFycmF5KCkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG1haW5GaWxlID0gcHJvamVjdFN0cnVjdHVyZS5tYWluSnNGaWxlID86ICJpbmRleC5qcyIKICAgICAgICAgICAgICAgICAgICAgICAgYXJnc0FycmF5LmFkZChtYWluRmlsZSkKICAgICAgICAgICAgICAgICAgICAgICAgc2VydmVySnNvbi5hZGQoImFyZ3MiLCBhcmdzQXJyYXkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFzZXJ2ZXJKc29uLmhhcygiY29tbWFuZCIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOS9v+eUqOm7mOiupOmFjee9ru+8iOWwneivleS9v+eUqCB2ZW52IOS4reeahCBQeXRob27vvIkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHB5dGhvbkNvbW1hbmQgPSBpZiAocGx1Z2luRGlyUGF0aCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiJHBsdWdpbkRpclBhdGgvdmVudi9iaW4vcHl0aG9uIgogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgInB5dGhvbiIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBzZXJ2ZXJKc29uLmFkZFByb3BlcnR5KCJjb21tYW5kIiwgcHl0aG9uQ29tbWFuZCkKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiVU5LTk9XTiDpobnnm67nsbvlnovkvb/nlKjlkb3ku6Q6ICRweXRob25Db21tYW5kIikKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGlmICghc2VydmVySnNvbi5oYXMoImFyZ3MiKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgYXJnc0FycmF5ID0gY29tLmdvb2dsZS5nc29uLkpzb25BcnJheSgpCiAgICAgICAgICAgICAgICAgICAgICAgIGFyZ3NBcnJheS5hZGQoIi1tIikKICAgICAgICAgICAgICAgICAgICAgICAgYXJnc0FycmF5LmFkZChwbHVnaW5JZC5yZXBsYWNlKCItIiwgIl8iKS5sb3dlcmNhc2UoKSkKICAgICAgICAgICAgICAgICAgICAgICAgc2VydmVySnNvbi5hZGQoImFyZ3MiLCBhcmdzQXJyYXkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDnoa7kv53lhbbku5blv4XopoHlrZfmrrXlrZjlnKgKICAgICAgICAgICAgLy8g5rOo5oSP77yaZGlzYWJsZWTlrZfmrrXkuI3lho3pu5jorqTnlJ/miJDvvIzkuI3lhpnooajnpLrlkK/nlKjvvIjnrKblkIhNQ1DmoIflh4bvvIkKCiAgICAgICAgICAgIGlmICghc2VydmVySnNvbi5oYXMoImF1dG9BcHByb3ZlIikpIHsKICAgICAgICAgICAgICAgIHZhbCBhdXRvQXBwcm92ZUFycmF5ID0gY29tLmdvb2dsZS5nc29uLkpzb25BcnJheSgpCiAgICAgICAgICAgICAgICBzZXJ2ZXJKc29uLmFkZCgiYXV0b0FwcHJvdmUiLCBhdXRvQXBwcm92ZUFycmF5KQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDmt7vliqDnjq/looPlj5jph4/phY3nva4KICAgICAgICAgICAgaWYgKGVudmlyb25tZW50VmFyaWFibGVzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgdmFsIGVudkpzb24gPSBKc29uT2JqZWN0KCkKICAgICAgICAgICAgICAgIGZvciAoKGtleSwgdmFsdWUpIGluIGVudmlyb25tZW50VmFyaWFibGVzKSB7CiAgICAgICAgICAgICAgICAgICAgZW52SnNvbi5hZGRQcm9wZXJ0eShrZXksIHZhbHVlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgc2VydmVySnNvbi5hZGQoImVudiIsIGVudkpzb24pCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlt7Lmt7vliqDnjq/looPlj5jph4/phY3nva46ICR7ZW52aXJvbm1lbnRWYXJpYWJsZXMua2V5c30iKQogICAgICAgICAgICB9IGVsc2UgaWYgKCFzZXJ2ZXJKc29uLmhhcygiZW52IikpIHsKICAgICAgICAgICAgICAgIC8vIOWmguaenOayoeacieaPkOS+m+eOr+Wig+WPmOmHj+S9humFjee9ruS4reS5n+ayoeacie+8jOa3u+WKoOS4gOS4quepuuWvueixoQogICAgICAgICAgICAgICAgc2VydmVySnNvbi5hZGQoImVudiIsIEpzb25PYmplY3QoKSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZmluYWxDb25maWdKc29uID0gY29uZmlnSnNvbgogICAgICAgIH0KCiAgICAgICAgLy8g56Gu5L+dZmluYWxDb25maWdKc29u5LiN5Li656m6CiAgICAgICAgaWYgKGZpbmFsQ29uZmlnSnNvbiA9PSBudWxsKSB7CiAgICAgICAgICAgIGZpbmFsQ29uZmlnSnNvbiA9IEpzb25PYmplY3QoKQogICAgICAgICAgICB2YWwgbWNwU2VydmVyc0pzb24gPSBKc29uT2JqZWN0KCkKICAgICAgICAgICAgZmluYWxDb25maWdKc29uLmFkZCgibWNwU2VydmVycyIsIG1jcFNlcnZlcnNKc29uKQogICAgICAgIH0KCiAgICAgICAgLy8g5L2/55So5qC85byP5YyW55qESlNPTui+k+WHugogICAgICAgIHZhbCBnc29uID0gR3NvbkJ1aWxkZXIoKS5zZXRQcmV0dHlQcmludGluZygpLmNyZWF0ZSgpCiAgICAgICAgcmV0dXJuIGdzb24udG9Kc29uKGZpbmFsQ29uZmlnSnNvbikKICAgIH0KCiAgICAvKioKICAgICAqIOS/neWtmE1DUOmFjee9ruWIsOaWh+S7tgogICAgICoKICAgICAqIEBwYXJhbSBwbHVnaW5JZCDmj5Lku7ZJRAogICAgICogQHBhcmFtIGNvbmZpZyDphY3nva7lhoXlrrkKICAgICAqIEBwYXJhbSBzZXJ2ZXJQYXRoIOacjeWKoeWZqOi3r+W+hAogICAgICogQHJldHVybiDkv53lrZjnu5PmnpwKICAgICAqLwogICAgZnVuIHNhdmVNY3BDb25maWcocGx1Z2luSWQ6IFN0cmluZywgY29uZmlnOiBTdHJpbmcsIHNlcnZlclBhdGg6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBwbHVnaW5EaXIgPSBGaWxlKHNlcnZlclBhdGgsICJwbHVnaW5zLyRwbHVnaW5JZCIpCiAgICAgICAgICAgIGlmICghcGx1Z2luRGlyLmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICBwbHVnaW5EaXIubWtkaXJzKCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIGNvbmZpZ0ZpbGUgPSBGaWxlKHBsdWdpbkRpciwgImNvbmZpZy5qc29uIikKICAgICAgICAgICAgY29uZmlnRmlsZS53cml0ZVRleHQoY29uZmlnKQoKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5bey5L+d5a2Y6YWN572u5YiwOiAke2NvbmZpZ0ZpbGUuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuS/neWtmOmFjee9ruWksei0pTogJHBsdWdpbklkIiwgZSkKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5LuO6YWN572u5paH5Lu25Lit5o+Q5Y+W5pyN5Yqh5Zmo5ZCN56ewCiAgICAgKgogICAgICogQHBhcmFtIGNvbmZpZ0pzb24g6YWN572uSlNPTgogICAgICogQHJldHVybiDmnI3liqHlmajlkI3np7DvvIzlpoLmnpzop6PmnpDlpLHotKXliJnov5Tlm55udWxsCiAgICAgKi8KICAgIGZ1biBleHRyYWN0U2VydmVyTmFtZUZyb21Db25maWcoY29uZmlnSnNvbjogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgaWYgKGNvbmZpZ0pzb24uaXNCbGFuaygpKSByZXR1cm4gbnVsbAoKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwganNvbk9iamVjdCA9IEpzb25QYXJzZXIucGFyc2VTdHJpbmcoY29uZmlnSnNvbikuYXNKc29uT2JqZWN0CiAgICAgICAgICAgIHZhbCBtY3BTZXJ2ZXJzID0ganNvbk9iamVjdC5nZXRBc0pzb25PYmplY3QoIm1jcFNlcnZlcnMiKQogICAgICAgICAgICByZXR1cm4gbWNwU2VydmVycz8ua2V5U2V0KCk/LmZpcnN0T3JOdWxsKCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6Kej5p6Q6YWN572uSlNPTuWksei0pSIsIGUpCiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5o+Q5Y+W6YWN572u5Lit55qE546v5aKD5Y+Y6YePCiAgICAgKgogICAgICogQHBhcmFtIGNvbmZpZ0pzb24g6YWN572uSlNPTgogICAgICogQHJldHVybiDnjq/looPlj5jph49NYXDvvIzlpoLmnpzop6PmnpDlpLHotKXliJnov5Tlm57nqbpNYXAKICAgICAqLwogICAgZnVuIGV4dHJhY3RFbnZpcm9ubWVudFZhcmlhYmxlcyhjb25maWdKc29uOiBTdHJpbmcpOiBNYXA8U3RyaW5nLCBTdHJpbmc+IHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwganNvbk9iamVjdCA9IEpzb25QYXJzZXIucGFyc2VTdHJpbmcoY29uZmlnSnNvbikuYXNKc29uT2JqZWN0CiAgICAgICAgICAgIGlmIChqc29uT2JqZWN0LmhhcygibWNwU2VydmVycyIpKSB7CiAgICAgICAgICAgICAgICB2YWwgbWNwU2VydmVycyA9IGpzb25PYmplY3QuZ2V0QXNKc29uT2JqZWN0KCJtY3BTZXJ2ZXJzIikKICAgICAgICAgICAgICAgIGlmIChtY3BTZXJ2ZXJzLnNpemUoKSA+IDApIHsKICAgICAgICAgICAgICAgICAgICB2YWwgc2VydmVyTmFtZSA9IG1jcFNlcnZlcnMua2V5U2V0KCkuZmlyc3RPck51bGwoKSA/OiByZXR1cm4gZW1wdHlNYXAoKQogICAgICAgICAgICAgICAgICAgIHZhbCBzZXJ2ZXIgPSBtY3BTZXJ2ZXJzLmdldEFzSnNvbk9iamVjdChzZXJ2ZXJOYW1lKQoKICAgICAgICAgICAgICAgICAgICBpZiAoc2VydmVyLmhhcygiZW52IikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGVudk9iamVjdCA9IHNlcnZlci5nZXRBc0pzb25PYmplY3QoImVudiIpCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPSBtdXRhYmxlTWFwT2Y8U3RyaW5nLCBTdHJpbmc+KCkKCiAgICAgICAgICAgICAgICAgICAgICAgIGVudk9iamVjdC5rZXlTZXQoKS5mb3JFYWNoIHsga2V5IC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRba2V5XSA9IGVudk9iamVjdC5nZXQoa2V5KS5hc1N0cmluZwogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gcmVzdWx0CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBlbXB0eU1hcCgpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuaPkOWPlueOr+Wig+WPmOmHj+Wksei0pSIsIGUpCiAgICAgICAgICAgIHJldHVybiBlbXB0eU1hcCgpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.mcp.plugins
+
+import com.bslsjdk.operit.util.AppLogger
+import com.google.gson.GsonBuilder
+import com.google.gson.JsonObject
+import com.google.gson.JsonParser
+import java.io.File
+
+/**
+ * MCP 配置生成器
+ *
+ * 负责生成MCP插件的配置文件
+ */
+class MCPConfigGenerator {
+
+    companion object {
+        private const val TAG = "MCPConfigGenerator"
+    }
+
+    /**
+     * 生成MCP配置
+     *
+     * @param pluginId 插件ID
+     * @param projectStructure 项目结构
+     * @param environmentVariables 环境变量键值对
+     * @param pluginDirPath 插件在终端环境中的部署路径（如 ~/mcp_plugins/plugin_name）
+     * @return MCP配置JSON
+     */
+    fun generateMcpConfig(
+            pluginId: String,
+            projectStructure: ProjectStructure,
+            environmentVariables: Map<String, String> = emptyMap(),
+            pluginDirPath: String? = null
+    ): String {
+        // 存储最终要使用的配置JSON
+        var finalConfigJson: JsonObject? = null
+        // 存储找到的服务器名称
+        var existingServerName: String? = null
+
+        // 如果从README提取到了配置示例，先尝试解析它
+        if (projectStructure.configExample != null) {
+            try {
+                // 验证JSON是否有效
+                val jsonObject = JsonParser.parseString(projectStructure.configExample).asJsonObject
+                if (jsonObject.has("mcpServers")) {
+                    // 保存这个配置，但不立即返回
+                    finalConfigJson = jsonObject
+                    AppLogger.d(TAG, "从配置示例提取到有效的配置JSON")
+
+                    // 尝试提取第一个服务器名称作为已存在的服务器名
+                    val mcpServers = jsonObject.getAsJsonObject("mcpServers")
+                    if (mcpServers.size() > 0) {
+                        existingServerName = mcpServers.keySet().firstOrNull()
+                        AppLogger.d(TAG, "从配置示例提取到服务器名称: $existingServerName")
+                    }
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "解析配置示例失败，将使用生成的配置", e)
+            }
+        }
+
+        // 确定要使用的服务器名称
+        val serverName = pluginId
+        AppLogger.d(TAG, "使用服务器名称: $serverName")
+
+        // 如果没有从示例提取到配置，或者是TypeScript项目需要进行特殊处理
+        if (finalConfigJson == null || projectStructure.type == ProjectType.TYPESCRIPT) {
+            // 创建新的配置或使用现有配置作为基础
+            val configJson = finalConfigJson ?: JsonObject()
+            var mcpServersJson: JsonObject
+
+            // 确保mcpServers存在
+            if (configJson.has("mcpServers")) {
+                mcpServersJson = configJson.getAsJsonObject("mcpServers")
+            } else {
+                mcpServersJson = JsonObject()
+                configJson.add("mcpServers", mcpServersJson)
+            }
+
+            var serverJson: JsonObject
+
+            // 检查服务器配置是否已存在
+            if (mcpServersJson.has(serverName)) {
+                serverJson = mcpServersJson.getAsJsonObject(serverName)
+            } else {
+                serverJson = JsonObject()
+                mcpServersJson.add(serverName, serverJson)
+            }
+
+            // 根据项目类型设置或修改配置
+            when (projectStructure.type) {
+                ProjectType.PYTHON -> {
+                    if (!serverJson.has("command")) {
+                        // 如果提供了插件目录路径，使用 venv 中的 Python
+                        // 否则使用系统 Python（兼容旧逻辑）
+                        val pythonCommand = if (pluginDirPath != null) {
+                            "$pluginDirPath/venv/bin/python"
+                        } else {
+                            "python"
+                        }
+                        serverJson.addProperty("command", pythonCommand)
+                        AppLogger.d(TAG, "Python 项目使用命令: $pythonCommand")
+                    }
+
+                    if (!serverJson.has("args")) {
+                        val argsArray = com.google.gson.JsonArray()
+                        argsArray.add("-m")
+                        // 优先级: pyproject.toml 包名 > mainPythonModule > 插件ID
+                        val moduleName =
+                                projectStructure.pythonPackageName
+                                        ?: projectStructure.mainPythonModule
+                                                ?: pluginId.replace("-", "_").lowercase()
+                        argsArray.add(moduleName)
+                        AppLogger.d(TAG, "Python 项目使用模块名: $moduleName (来源: ${when {
+                            projectStructure.pythonPackageName != null -> "pyproject.toml"
+                            projectStructure.mainPythonModule != null -> "mainPythonModule"
+                            else -> "pluginId"
+                        }})")
+                        serverJson.add("args", argsArray)
+                    }
+                }
+                ProjectType.TYPESCRIPT -> {
+                    // 对于TypeScript项目，始终覆盖为使用node命令，无论是新生成还是从示例提取
+                    serverJson.addProperty("command", "node")
+
+                    // 如果没有args或者要强制覆盖已有的args，生成新的args
+                    if (!serverJson.has("args") || finalConfigJson != null) {
+                        val argsArray = com.google.gson.JsonArray()
+
+                        // 使用从项目分析中获取的TypeScript配置
+                        val outDir = projectStructure.tsConfigOutDir ?: "dist"
+                        val rootDir = projectStructure.tsConfigRootDir ?: "src"
+
+                        AppLogger.d(TAG, "TypeScript编译配置 - outDir: $outDir, rootDir: $rootDir")
+
+                        // 根据项目结构决定可能的输出路径
+                        val mainTsFile = projectStructure.mainTsFile
+                        if (mainTsFile != null) {
+                            // 标准化 rootDir（为空或null都视为根目录）
+                            val normalizedRootDir = if (rootDir.isNullOrEmpty()) "" else rootDir
+                            
+                            // 尝试确定编译输出位置
+                            val compiledPath = when {
+                                // 如果rootDir为空或为根目录，文件会直接编译到outDir下
+                                normalizedRootDir.isEmpty() -> {
+                                    // 对于 rootDir="." 和 mainTsFile="index.ts" -> dist/index.js
+                                    val relativePath = mainTsFile.removePrefix("src/")
+                                    val jsFile = relativePath.replace(".ts", ".js")
+                                    "$outDir/$jsFile"
+                                }
+                                // 如果文件在rootDir中，需要保持相对路径结构
+                                mainTsFile.startsWith("$normalizedRootDir/") -> {
+                                    mainTsFile
+                                        .removePrefix("$normalizedRootDir/")
+                                        .replace(".ts", ".js")
+                                        .let { "$outDir/$it" }
+                                }
+                                // 如果是src目录结构
+                                mainTsFile.startsWith("src/") && normalizedRootDir == "src" -> {
+                                    mainTsFile
+                                        .removePrefix("src/")
+                                        .replace(".ts", ".js")
+                                        .let { "$outDir/$it" }
+                                }
+                                // 其他情况，假设文件在根目录
+                                else -> {
+                                    val jsFile = mainTsFile.replace(".ts", ".js")
+                                    "$outDir/$jsFile"
+                                }
+                            }
+                            
+                            argsArray.add(compiledPath)
+                            AppLogger.d(TAG, "TypeScript编译路径推断: $mainTsFile (rootDir=$normalizedRootDir) -> $compiledPath")
+                        } else {
+                            // 如果没有找到主TS文件，使用常见的输出位置
+                            argsArray.add("$outDir/index.js")
+                            AppLogger.d(TAG, "使用默认编译路径: $outDir/index.js")
+                        }
+
+                        // 更新服务器配置中的args
+                        serverJson.add("args", argsArray)
+                    }
+                }
+                ProjectType.NODEJS -> {
+                    if (!serverJson.has("command")) {
+                        serverJson.addProperty("command", "node")
+                    }
+
+                    if (!serverJson.has("args")) {
+                        val argsArray = com.google.gson.JsonArray()
+                        val mainFile = projectStructure.mainJsFile ?: "index.js"
+                        argsArray.add(mainFile)
+                        serverJson.add("args", argsArray)
+                    }
+                }
+                else -> {
+                    if (!serverJson.has("command")) {
+                        // 使用默认配置（尝试使用 venv 中的 Python）
+                        val pythonCommand = if (pluginDirPath != null) {
+                            "$pluginDirPath/venv/bin/python"
+                        } else {
+                            "python"
+                        }
+                        serverJson.addProperty("command", pythonCommand)
+                        AppLogger.d(TAG, "UNKNOWN 项目类型使用命令: $pythonCommand")
+                    }
+
+                    if (!serverJson.has("args")) {
+                        val argsArray = com.google.gson.JsonArray()
+                        argsArray.add("-m")
+                        argsArray.add(pluginId.replace("-", "_").lowercase())
+                        serverJson.add("args", argsArray)
+                    }
+                }
+            }
+
+            // 确保其他必要字段存在
+            // 注意：disabled字段不再默认生成，不写表示启用（符合MCP标准）
+
+            if (!serverJson.has("autoApprove")) {
+                val autoApproveArray = com.google.gson.JsonArray()
+                serverJson.add("autoApprove", autoApproveArray)
+            }
+
+            // 添加环境变量配置
+            if (environmentVariables.isNotEmpty()) {
+                val envJson = JsonObject()
+                for ((key, value) in environmentVariables) {
+                    envJson.addProperty(key, value)
+                }
+                serverJson.add("env", envJson)
+                AppLogger.d(TAG, "已添加环境变量配置: ${environmentVariables.keys}")
+            } else if (!serverJson.has("env")) {
+                // 如果没有提供环境变量但配置中也没有，添加一个空对象
+                serverJson.add("env", JsonObject())
+            }
+
+            finalConfigJson = configJson
+        }
+
+        // 确保finalConfigJson不为空
+        if (finalConfigJson == null) {
+            finalConfigJson = JsonObject()
+            val mcpServersJson = JsonObject()
+            finalConfigJson.add("mcpServers", mcpServersJson)
+        }
+
+        // 使用格式化的JSON输出
+        val gson = GsonBuilder().setPrettyPrinting().create()
+        return gson.toJson(finalConfigJson)
+    }
+
+    /**
+     * 保存MCP配置到文件
+     *
+     * @param pluginId 插件ID
+     * @param config 配置内容
+     * @param serverPath 服务器路径
+     * @return 保存结果
+     */
+    fun saveMcpConfig(pluginId: String, config: String, serverPath: String): Boolean {
+        try {
+            val pluginDir = File(serverPath, "plugins/$pluginId")
+            if (!pluginDir.exists()) {
+                pluginDir.mkdirs()
+            }
+
+            val configFile = File(pluginDir, "config.json")
+            configFile.writeText(config)
+
+            AppLogger.d(TAG, "已保存配置到: ${configFile.absolutePath}")
+            return true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "保存配置失败: $pluginId", e)
+            return false
+        }
+    }
+
+    /**
+     * 从配置文件中提取服务器名称
+     *
+     * @param configJson 配置JSON
+     * @return 服务器名称，如果解析失败则返回null
+     */
+    fun extractServerNameFromConfig(configJson: String): String? {
+        if (configJson.isBlank()) return null
+
+        try {
+            val jsonObject = JsonParser.parseString(configJson).asJsonObject
+            val mcpServers = jsonObject.getAsJsonObject("mcpServers")
+            return mcpServers?.keySet()?.firstOrNull()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "解析配置JSON失败", e)
+            return null
+        }
+    }
+
+    /**
+     * 提取配置中的环境变量
+     *
+     * @param configJson 配置JSON
+     * @return 环境变量Map，如果解析失败则返回空Map
+     */
+    fun extractEnvironmentVariables(configJson: String): Map<String, String> {
+        try {
+            val jsonObject = JsonParser.parseString(configJson).asJsonObject
+            if (jsonObject.has("mcpServers")) {
+                val mcpServers = jsonObject.getAsJsonObject("mcpServers")
+                if (mcpServers.size() > 0) {
+                    val serverName = mcpServers.keySet().firstOrNull() ?: return emptyMap()
+                    val server = mcpServers.getAsJsonObject(serverName)
+
+                    if (server.has("env")) {
+                        val envObject = server.getAsJsonObject("env")
+                        val result = mutableMapOf<String, String>()
+
+                        envObject.keySet().forEach { key ->
+                            result[key] = envObject.get(key).asString
+                        }
+
+                        return result
+                    }
+                }
+            }
+            return emptyMap()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "提取环境变量失败", e)
+            return emptyMap()
+        }
+    }
+}

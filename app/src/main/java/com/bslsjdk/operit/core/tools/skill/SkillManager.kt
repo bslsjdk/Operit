@@ -1,1 +1,431 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5za2lsbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm9zLkVudmlyb25tZW50CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uRmlsZUlucHV0U3RyZWFtCmltcG9ydCBqYXZhLmlvLkZpbGVPdXRwdXRTdHJlYW0KaW1wb3J0IGphdmEudXRpbC56aXAuWmlwSW5wdXRTdHJlYW0KCmNsYXNzIFNraWxsTWFuYWdlciBwcml2YXRlIGNvbnN0cnVjdG9yKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiU2tpbGxNYW5hZ2VyIgoKICAgICAgICBAVm9sYXRpbGUgcHJpdmF0ZSB2YXIgSU5TVEFOQ0U6IFNraWxsTWFuYWdlcj8gPSBudWxsCgogICAgICAgIGZ1biBnZXRJbnN0YW5jZShjb250ZXh0OiBDb250ZXh0KTogU2tpbGxNYW5hZ2VyIHsKICAgICAgICAgICAgcmV0dXJuIElOU1RBTkNFCiAgICAgICAgICAgICAgICA/OiBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICAgICAgICAgIElOU1RBTkNFID86IFNraWxsTWFuYWdlcihjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkuYWxzbyB7IElOU1RBTkNFID0gaXQgfQogICAgICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZhbCBhdmFpbGFibGVTa2lsbHMgPSBtdXRhYmxlTWFwT2Y8U3RyaW5nLCBTa2lsbFBhY2thZ2U+KCkKICAgIHByaXZhdGUgdmFsIHNraWxsTG9hZEVycm9ycyA9IG11dGFibGVNYXBPZjxTdHJpbmcsIFN0cmluZz4oKQoKICAgIHByaXZhdGUgZnVuIGdldFNraWxsc1Jvb3REaXIoKTogRmlsZSB7CiAgICAgICAgdmFsIGRvd25sb2Fkc0RpciA9IEVudmlyb25tZW50LmdldEV4dGVybmFsU3RvcmFnZVB1YmxpY0RpcmVjdG9yeShFbnZpcm9ubWVudC5ESVJFQ1RPUllfRE9XTkxPQURTKQogICAgICAgIHZhbCBvcGVyaXREaXIgPSBGaWxlKGRvd25sb2Fkc0RpciwgIk9wZXJpdCIpCiAgICAgICAgdmFsIHNraWxsc0RpciA9IEZpbGUob3Blcml0RGlyLCAic2tpbGxzIikKICAgICAgICBpZiAoIXNraWxsc0Rpci5leGlzdHMoKSkgewogICAgICAgICAgICBza2lsbHNEaXIubWtkaXJzKCkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHNraWxsc0RpcgogICAgfQoKICAgIGZ1biBnZXRTa2lsbHNEaXJlY3RvcnlQYXRoKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGdldFNraWxsc1Jvb3REaXIoKS5hYnNvbHV0ZVBhdGgKICAgIH0KCiAgICBmdW4gcmVmcmVzaEF2YWlsYWJsZVNraWxscygpIHsKICAgICAgICBhdmFpbGFibGVTa2lsbHMuY2xlYXIoKQogICAgICAgIHNraWxsTG9hZEVycm9ycy5jbGVhcigpCgogICAgICAgIHZhbCBza2lsbHNEaXIgPSB0cnkgewogICAgICAgICAgICBnZXRTa2lsbHNSb290RGlyKCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgZ2V0dGluZyBza2lsbHMgZGlyZWN0b3J5IiwgZSkKICAgICAgICAgICAgc2tpbGxMb2FkRXJyb3JzW2NvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxscyldID0KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2Vycm9yX2Nhbm5vdF9hY2Nlc3NfZGlyLCBlLm1lc3NhZ2UgPzogIiIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgaWYgKCFza2lsbHNEaXIuZXhpc3RzKCkgfHwgIXNraWxsc0Rpci5pc0RpcmVjdG9yeSkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZhbCBjaGlsZHJlbiA9IHNraWxsc0Rpci5saXN0RmlsZXMoKSA/OiBlbXB0eUFycmF5KCkKICAgICAgICBmb3IgKGNoaWxkIGluIGNoaWxkcmVuKSB7CiAgICAgICAgICAgIGlmICghY2hpbGQuaXNEaXJlY3RvcnkpIGNvbnRpbnVlCgogICAgICAgICAgICB2YWwgc2tpbGxGaWxlID0gRmlsZShjaGlsZCwgIlNLSUxMLm1kIikubGV0IHsgcHJpbWFyeSAtPgogICAgICAgICAgICAgICAgaWYgKHByaW1hcnkuZXhpc3RzKCkpIHByaW1hcnkgZWxzZSBGaWxlKGNoaWxkLCAic2tpbGwubWQiKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoIXNraWxsRmlsZS5leGlzdHMoKSB8fCAhc2tpbGxGaWxlLmlzRmlsZSkgewogICAgICAgICAgICAgICAgc2tpbGxMb2FkRXJyb3JzW2NoaWxkLm5hbWVdID0gY29udGV4dC5nZXRTdHJpbmcoCiAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcuc2tpbGxfZXJyb3JfbWlzc2luZ19za2lsbF9tZCwKICAgICAgICAgICAgICAgICAgICBjaGlsZC5hYnNvbHV0ZVBhdGgKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgKG5hbWUsIGRlc2NyaXB0aW9uKSA9IHBhcnNlU2tpbGxNZXRhZGF0YShza2lsbEZpbGUpCiAgICAgICAgICAgICAgICB2YWwgc2tpbGxOYW1lID0gbmFtZS5pZkJsYW5rIHsgY2hpbGQubmFtZSB9CiAgICAgICAgICAgICAgICB2YWwgc2tpbGxEZXNjID0gZGVzY3JpcHRpb24uaWZCbGFuayB7ICIiIH0KCiAgICAgICAgICAgICAgICBpZiAoYXZhaWxhYmxlU2tpbGxzLmNvbnRhaW5zS2V5KHNraWxsTmFtZSkpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgZXhpc3RpbmdEaXJOYW1lID0gYXZhaWxhYmxlU2tpbGxzW3NraWxsTmFtZV0/LmRpcmVjdG9yeT8ubmFtZSA/OiBza2lsbE5hbWUKICAgICAgICAgICAgICAgICAgICBza2lsbExvYWRFcnJvcnNbY2hpbGQubmFtZV0gPSBjb250ZXh0LmdldFN0cmluZygKICAgICAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcuc2tpbGxfZXJyb3JfZHVwbGljYXRlX3NjYW5uZWRfbmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc2tpbGxOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBleGlzdGluZ0Rpck5hbWUKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBhdmFpbGFibGVTa2lsbHNbc2tpbGxOYW1lXSA9IFNraWxsUGFja2FnZSgKICAgICAgICAgICAgICAgICAgICBuYW1lID0gc2tpbGxOYW1lLAogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gc2tpbGxEZXNjLAogICAgICAgICAgICAgICAgICAgIGRpcmVjdG9yeSA9IGNoaWxkLAogICAgICAgICAgICAgICAgICAgIHNraWxsRmlsZSA9IHNraWxsRmlsZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGxvYWRpbmcgc2tpbGwgZnJvbSAke3NraWxsRmlsZS5hYnNvbHV0ZVBhdGh9IiwgZSkKICAgICAgICAgICAgICAgIHNraWxsTG9hZEVycm9yc1tjaGlsZC5uYW1lXSA9IGNvbnRleHQuZ2V0U3RyaW5nKAogICAgICAgICAgICAgICAgICAgIFIuc3RyaW5nLnNraWxsX2Vycm9yX3NjYW5fZmFpbGVkLAogICAgICAgICAgICAgICAgICAgIGUubWVzc2FnZSA/OiBlLmphdmFDbGFzcy5zaW1wbGVOYW1lCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VTa2lsbE1ldGFkYXRhKHNraWxsRmlsZTogRmlsZSk6IFBhaXI8U3RyaW5nLCBTdHJpbmc+IHsKICAgICAgICB2YWwgbGluZXMgPSBza2lsbEZpbGUuYnVmZmVyZWRSZWFkZXIoKS51c2UgeyBpdC5yZWFkTGluZXMoKSB9CgogICAgICAgIHZhciBuYW1lID0gIiIKICAgICAgICB2YXIgZGVzY3JpcHRpb24gPSAiIgoKICAgICAgICBpZiAobGluZXMuaXNOb3RFbXB0eSgpICYmIGxpbmVzWzBdLnRyaW0oKSA9PSAiLS0tIikgewogICAgICAgICAgICB2YWwgZW5kSW5kZXggPSBsaW5lcy5kcm9wKDEpLmluZGV4T2ZGaXJzdCB7IGl0LnRyaW0oKSA9PSAiLS0tIiB9CiAgICAgICAgICAgIGlmIChlbmRJbmRleCA+PSAwKSB7CiAgICAgICAgICAgICAgICB2YWwgZnJvbnRtYXR0ZXIgPSBsaW5lcy5zdWJMaXN0KDEsIGVuZEluZGV4ICsgMSkKICAgICAgICAgICAgICAgIGZyb250bWF0dGVyLmZvckVhY2ggeyBsaW5lUmF3IC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIGxpbmUgPSBsaW5lUmF3LnRyaW0oKQogICAgICAgICAgICAgICAgICAgIHZhbCBpZHggPSBsaW5lLmluZGV4T2YoJzonKQogICAgICAgICAgICAgICAgICAgIGlmIChpZHggPD0gMCkgcmV0dXJuQGZvckVhY2gKICAgICAgICAgICAgICAgICAgICB2YWwga2V5ID0gbGluZS5zdWJzdHJpbmcoMCwgaWR4KS50cmltKCkKICAgICAgICAgICAgICAgICAgICB2YWwgdmFsdWUgPSB1bnF1b3RlKGxpbmUuc3Vic3RyaW5nKGlkeCArIDEpLnRyaW0oKSkKICAgICAgICAgICAgICAgICAgICB3aGVuIChrZXkubG93ZXJjYXNlKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgIm5hbWUiIC0+IGlmIChuYW1lLmlzQmxhbmsoKSkgbmFtZSA9IHZhbHVlCiAgICAgICAgICAgICAgICAgICAgICAgICJkZXNjcmlwdGlvbiIgLT4gaWYgKGRlc2NyaXB0aW9uLmlzQmxhbmsoKSkgZGVzY3JpcHRpb24gPSB2YWx1ZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaWYgKG5hbWUuaXNCbGFuaygpIHx8IGRlc2NyaXB0aW9uLmlzQmxhbmsoKSkgewogICAgICAgICAgICBsaW5lcy50YWtlKDQwKS5mb3JFYWNoIHsgbGluZVJhdyAtPgogICAgICAgICAgICAgICAgdmFsIGxpbmUgPSBsaW5lUmF3LnRyaW0oKQogICAgICAgICAgICAgICAgdmFsIGlkeCA9IGxpbmUuaW5kZXhPZignOicpCiAgICAgICAgICAgICAgICBpZiAoaWR4IDw9IDApIHJldHVybkBmb3JFYWNoCiAgICAgICAgICAgICAgICB2YWwga2V5ID0gbGluZS5zdWJzdHJpbmcoMCwgaWR4KS50cmltKCkKICAgICAgICAgICAgICAgIHZhbCB2YWx1ZSA9IHVucXVvdGUobGluZS5zdWJzdHJpbmcoaWR4ICsgMSkudHJpbSgpKQogICAgICAgICAgICAgICAgd2hlbiAoa2V5Lmxvd2VyY2FzZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgIm5hbWUiIC0+IGlmIChuYW1lLmlzQmxhbmsoKSkgbmFtZSA9IHZhbHVlCiAgICAgICAgICAgICAgICAgICAgImRlc2NyaXB0aW9uIiAtPiBpZiAoZGVzY3JpcHRpb24uaXNCbGFuaygpKSBkZXNjcmlwdGlvbiA9IHZhbHVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBQYWlyKG5hbWUsIGRlc2NyaXB0aW9uKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHVucXVvdGUodmFsdWVSYXc6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFyIHZhbHVlID0gdmFsdWVSYXcKICAgICAgICBpZiAoKHZhbHVlLnN0YXJ0c1dpdGgoJyInKSAmJiB2YWx1ZS5lbmRzV2l0aCgnIicpKSB8fCAodmFsdWUuc3RhcnRzV2l0aCgnXCcnKSAmJiB2YWx1ZS5lbmRzV2l0aCgnXCcnKSkpIHsKICAgICAgICAgICAgaWYgKHZhbHVlLmxlbmd0aCA+PSAyKSB2YWx1ZSA9IHZhbHVlLnN1YnN0cmluZygxLCB2YWx1ZS5sZW5ndGggLSAxKQogICAgICAgIH0KICAgICAgICByZXR1cm4gdmFsdWUKICAgIH0KCiAgICBmdW4gZ2V0QXZhaWxhYmxlU2tpbGxzKCk6IE1hcDxTdHJpbmcsIFNraWxsUGFja2FnZT4gewogICAgICAgIHJlZnJlc2hBdmFpbGFibGVTa2lsbHMoKQogICAgICAgIHJldHVybiBhdmFpbGFibGVTa2lsbHMudG9NYXAoKQogICAgfQoKICAgIGZ1biBnZXRBdmFpbGFibGVTa2lsbHNTbmFwc2hvdCgpOiBQYWlyPE1hcDxTdHJpbmcsIFNraWxsUGFja2FnZT4sIE1hcDxTdHJpbmcsIFN0cmluZz4+IHsKICAgICAgICByZWZyZXNoQXZhaWxhYmxlU2tpbGxzKCkKICAgICAgICByZXR1cm4gYXZhaWxhYmxlU2tpbGxzLnRvTWFwKCkgdG8gc2tpbGxMb2FkRXJyb3JzLnRvTWFwKCkKICAgIH0KCiAgICBmdW4gZ2V0U2tpbGxMb2FkRXJyb3JzKCk6IE1hcDxTdHJpbmcsIFN0cmluZz4gewogICAgICAgIHJlZnJlc2hBdmFpbGFibGVTa2lsbHMoKQogICAgICAgIHJldHVybiBza2lsbExvYWRFcnJvcnMudG9NYXAoKQogICAgfQoKICAgIGZ1biByZWFkU2tpbGxDb250ZW50KHNraWxsTmFtZTogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgcmVmcmVzaEF2YWlsYWJsZVNraWxscygpCiAgICAgICAgdmFsIHNraWxsID0gYXZhaWxhYmxlU2tpbGxzW3NraWxsTmFtZV0gPzogcmV0dXJuIG51bGwKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgc2tpbGwuc2tpbGxGaWxlLnJlYWRUZXh0KCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIHJlYWQgU0tJTEwubWQgZm9yICRza2lsbE5hbWUiLCBlKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBkZWxldGVTa2lsbChza2lsbE5hbWU6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHJlZnJlc2hBdmFpbGFibGVTa2lsbHMoKQogICAgICAgIHZhbCBza2lsbCA9IGF2YWlsYWJsZVNraWxsc1tza2lsbE5hbWVdID86IHJldHVybiBmYWxzZQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgb2sgPSBza2lsbC5kaXJlY3RvcnkuZGVsZXRlUmVjdXJzaXZlbHkoKQogICAgICAgICAgICBpZiAob2spIHsKICAgICAgICAgICAgICAgIGF2YWlsYWJsZVNraWxscy5yZW1vdmUoc2tpbGxOYW1lKQogICAgICAgICAgICB9CiAgICAgICAgICAgIG9rCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBkZWxldGUgc2tpbGwgJHNraWxsTmFtZSIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBnZXRTa2lsbFN5c3RlbVByb21wdChza2lsbE5hbWU6IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIHJlZnJlc2hBdmFpbGFibGVTa2lsbHMoKQogICAgICAgIHZhbCBza2lsbCA9IGF2YWlsYWJsZVNraWxsc1tza2lsbE5hbWVdID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIGNvbnRlbnQgPSB0cnkgewogICAgICAgICAgICBza2lsbC5za2lsbEZpbGUucmVhZFRleHQoKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gcmVhZCBza2lsbCBjb250ZW50OiAke3NraWxsLnNraWxsRmlsZS5hYnNvbHV0ZVBhdGh9IiwgZSkKICAgICAgICAgICAgIiIKICAgICAgICB9CgogICAgICAgIHZhbCBzYiA9IFN0cmluZ0J1aWxkZXIoKQogICAgICAgIHNiLmFwcGVuZExpbmUoIlVzaW5nIHBhY2thZ2UgKFNraWxsKTogJHtza2lsbC5uYW1lfSIpCiAgICAgICAgc2IuYXBwZW5kTGluZSgiVXNlIFRpbWU6ICR7amF2YS50aW1lLkxvY2FsRGF0ZVRpbWUubm93KCl9IikKICAgICAgICBzYi5hcHBlbmRMaW5lKCJFeGVjdXRpb24gcG9saWN5OiIpCiAgICAgICAgc2IuYXBwZW5kTGluZSgiUHJpb3JpdGl6ZSB1c2luZyB0aGUgc2tpbGwtcHJvdmlkZWQgaW5zdHJ1Y3Rpb25zIGFuZCBidW5kbGVkIHNjcmlwdHMsIGFuZCBjb21wbGV0ZSB0YXNrcyB3aXRoIHRlcm1pbmFsLXJlbGF0ZWQgdG9vbHMuIikKICAgICAgICBpZiAoc2tpbGwuZGVzY3JpcHRpb24uaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIkRlc2NyaXB0aW9uOiAke3NraWxsLmRlc2NyaXB0aW9ufSIpCiAgICAgICAgfQogICAgICAgIHNiLmFwcGVuZExpbmUoIlNLSUxMLm1kIHBhdGg6ICR7c2tpbGwuc2tpbGxGaWxlLmFic29sdXRlUGF0aH0iKQogICAgICAgIHNiLmFwcGVuZExpbmUoIlNraWxsIGRpcmVjdG9yeTogJHtza2lsbC5kaXJlY3RvcnkuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgc2IuYXBwZW5kTGluZSgiRGlyZWN0b3J5IHN0cnVjdHVyZToiKQogICAgICAgIHNiLmFwcGVuZExpbmUoYnVpbGREaXJlY3RvcnlUcmVlVGV4dChza2lsbC5kaXJlY3RvcnkpKQogICAgICAgIHNiLmFwcGVuZExpbmUoKQogICAgICAgIHNiLmFwcGVuZExpbmUoIlNLSUxMLm1kOiIpCiAgICAgICAgc2IuYXBwZW5kTGluZShjb250ZW50KQoKICAgICAgICByZXR1cm4gc2IudG9TdHJpbmcoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkRGlyZWN0b3J5VHJlZVRleHQocm9vdERpcjogRmlsZSk6IFN0cmluZyB7CiAgICAgICAgdmFsIHNiID0gU3RyaW5nQnVpbGRlcigpCgogICAgICAgIGZ1biB3YWxrKGRpcjogRmlsZSwgaW5kZW50OiBTdHJpbmcpIHsKICAgICAgICAgICAgdmFsIGNoaWxkcmVuID0gZGlyLmxpc3RGaWxlcygpCiAgICAgICAgICAgICAgICA/LnNvcnRlZFdpdGgoY29tcGFyZUJ5PEZpbGU+KHsgIWl0LmlzRGlyZWN0b3J5IH0sIHsgaXQubmFtZS5sb3dlcmNhc2UoKSB9KSkKICAgICAgICAgICAgICAgID86IGVtcHR5TGlzdCgpCgogICAgICAgICAgICBmb3IgKGNoaWxkIGluIGNoaWxkcmVuKSB7CiAgICAgICAgICAgICAgICBzYi5hcHBlbmQoaW5kZW50KQogICAgICAgICAgICAgICAgc2IuYXBwZW5kKCItICIpCiAgICAgICAgICAgICAgICBzYi5hcHBlbmQoY2hpbGQubmFtZSkKICAgICAgICAgICAgICAgIGlmIChjaGlsZC5pc0RpcmVjdG9yeSkgewogICAgICAgICAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoIi8iKQogICAgICAgICAgICAgICAgICAgIHdhbGsoY2hpbGQsIGluZGVudCArICIgICIpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHNiLmFwcGVuZExpbmUoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB3YWxrKHJvb3REaXIsIGluZGVudCA9ICIiKQoKICAgICAgICBpZiAoc2IubGVuZ3RoID09IDApIHJldHVybiAiKGVtcHR5IGRpcmVjdG9yeSkiCiAgICAgICAgcmV0dXJuIHNiLnRvU3RyaW5nKCkudHJpbUVuZCgpCiAgICB9CgogICAgZnVuIGltcG9ydFNraWxsRnJvbVppcCh6aXBGaWxlOiBGaWxlKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gaW1wb3J0U2tpbGxGcm9tWmlwKHppcEZpbGUsIG51bGwpCiAgICB9CgogICAgZGF0YSBjbGFzcyBTa2lsbEltcG9ydFJlc3VsdCgKICAgICAgICB2YWwgbWVzc2FnZTogU3RyaW5nLAogICAgICAgIHZhbCBpbnN0YWxsZWREaXI6IEZpbGU/CiAgICApCgogICAgZnVuIGltcG9ydFNraWxsRnJvbVppcCh6aXBGaWxlOiBGaWxlLCBzdWJEaXJQYXRoSW5aaXA6IFN0cmluZz8pOiBTdHJpbmcgewogICAgICAgIHJldHVybiBpbXBvcnRTa2lsbEZyb21aaXBEZXRhaWxlZCh6aXBGaWxlLCBzdWJEaXJQYXRoSW5aaXApLm1lc3NhZ2UKICAgIH0KCiAgICBmdW4gaW1wb3J0U2tpbGxGcm9tWmlwRGV0YWlsZWQoemlwRmlsZTogRmlsZSwgc3ViRGlyUGF0aEluWmlwOiBTdHJpbmc/KTogU2tpbGxJbXBvcnRSZXN1bHQgewogICAgICAgIGlmICghemlwRmlsZS5leGlzdHMoKSB8fCAhemlwRmlsZS5jYW5SZWFkKCkpIHsKICAgICAgICAgICAgcmV0dXJuIFNraWxsSW1wb3J0UmVzdWx0KGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2Vycm9yX2Nhbm5vdF9yZWFkX2ZpbGUsIHppcEZpbGUuYWJzb2x1dGVQYXRoKSwgbnVsbCkKICAgICAgICB9CiAgICAgICAgaWYgKCF6aXBGaWxlLm5hbWUuZW5kc1dpdGgoIi56aXAiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHsKICAgICAgICAgICAgcmV0dXJuIFNraWxsSW1wb3J0UmVzdWx0KGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2Vycm9yX29ubHlfc3VwcG9ydF96aXApLCBudWxsKQogICAgICAgIH0KCiAgICAgICAgdmFsIHNraWxsc1Jvb3QgPSB0cnkgewogICAgICAgICAgICBnZXRTa2lsbHNSb290RGlyKCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgZ2V0dGluZyBza2lsbHMgZGlyZWN0b3J5IiwgZSkKICAgICAgICAgICAgcmV0dXJuIFNraWxsSW1wb3J0UmVzdWx0KGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2Vycm9yX2Nhbm5vdF9hY2Nlc3NfZGlyLCBlLm1lc3NhZ2UgPzogIiIpLCBudWxsKQogICAgICAgIH0KCiAgICAgICAgdmFsIHRtcERpciA9IEZpbGUoc2tpbGxzUm9vdCwgIi5pbXBvcnRfdG1wXyR7U3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCl9IikKICAgICAgICBpZiAoIXRtcERpci5ta2RpcnMoKSkgewogICAgICAgICAgICByZXR1cm4gU2tpbGxJbXBvcnRSZXN1bHQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2tpbGxfZXJyb3JfY3JlYXRlX3RtcF9kaXJfZmFpbGVkLCB0bXBEaXIuYWJzb2x1dGVQYXRoKSwgbnVsbCkKICAgICAgICB9CgogICAgICAgIGZ1biBjbGVhbnVwVG1wKCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdG1wRGlyLmRlbGV0ZVJlY3Vyc2l2ZWx5KCkKICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHVuemlwVG9EaXJlY3RvcnkoemlwRmlsZSwgdG1wRGlyKQoKICAgICAgICAgICAgdmFsIG5vcm1hbGl6ZWRTdWJEaXIgPSBzdWJEaXJQYXRoSW5aaXAKICAgICAgICAgICAgICAgID8udHJpbSgpCiAgICAgICAgICAgICAgICA/LnRyaW1TdGFydCgnLycpCiAgICAgICAgICAgICAgICA/LnRyaW1FbmQoJy8nKQogICAgICAgICAgICAgICAgPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQoKICAgICAgICAgICAgdmFsIHppcFJvb3REaXIgPSB0bXBEaXIKICAgICAgICAgICAgICAgIC5saXN0RmlsZXMoKQogICAgICAgICAgICAgICAgPy5maWx0ZXIgeyBpdC5pc0RpcmVjdG9yeSB9CiAgICAgICAgICAgICAgICA/LnNpbmdsZU9yTnVsbCgpCiAgICAgICAgICAgICAgICA/OiB0bXBEaXIKCiAgICAgICAgICAgIHZhbCBzZWFyY2hSb290OiBGaWxlID0gaWYgKG5vcm1hbGl6ZWRTdWJEaXIgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgdG1wRGlyCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB2YWwgYmFzZUNhbm9uaWNhbCA9IHppcFJvb3REaXIuY2Fub25pY2FsRmlsZQogICAgICAgICAgICAgICAgdmFsIHJlc29sdmVkID0gRmlsZSh6aXBSb290RGlyLCBub3JtYWxpemVkU3ViRGlyKQogICAgICAgICAgICAgICAgdmFsIHJlc29sdmVkQ2Fub25pY2FsID0gcmVzb2x2ZWQuY2Fub25pY2FsRmlsZQogICAgICAgICAgICAgICAgaWYgKCFyZXNvbHZlZENhbm9uaWNhbC5wYXRoLnN0YXJ0c1dpdGgoYmFzZUNhbm9uaWNhbC5wYXRoICsgRmlsZS5zZXBhcmF0b3IpKSB7CiAgICAgICAgICAgICAgICAgICAgY2xlYW51cFRtcCgpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFNraWxsSW1wb3J0UmVzdWx0KGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2Vycm9yX2ltcG9ydF9pbnZhbGlkX3BhdGgpLCBudWxsKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKCFyZXNvbHZlZENhbm9uaWNhbC5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgICAgIGNsZWFudXBUbXAoKQogICAgICAgICAgICAgICAgICAgIHJldHVybiBTa2lsbEltcG9ydFJlc3VsdChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbF9lcnJvcl9pbXBvcnRfcGF0aF9ub3RfZm91bmQsIG5vcm1hbGl6ZWRTdWJEaXIpLCBudWxsKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmVzb2x2ZWRDYW5vbmljYWwKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIGRpcmVjdFNraWxsRmlsZSA9IGlmIChzZWFyY2hSb290LmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgICAgICBGaWxlKHNlYXJjaFJvb3QsICJTS0lMTC5tZCIpLmxldCB7IHByaW1hcnkgLT4KICAgICAgICAgICAgICAgICAgICBpZiAocHJpbWFyeS5leGlzdHMoKSkgcHJpbWFyeSBlbHNlIEZpbGUoc2VhcmNoUm9vdCwgInNraWxsLm1kIikKICAgICAgICAgICAgICAgIH0udGFrZUlmIHsgaXQuZXhpc3RzKCkgJiYgaXQuaXNGaWxlIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIHNraWxsTWRDYW5kaWRhdGVzID0gaWYgKGRpcmVjdFNraWxsRmlsZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBsaXN0T2YoZGlyZWN0U2tpbGxGaWxlKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgc2VhcmNoUm9vdC53YWxrVG9wRG93bigpCiAgICAgICAgICAgICAgICAgICAgLmZpbHRlciB7IGl0LmlzRmlsZSAmJiAoaXQubmFtZS5lcXVhbHMoIlNLSUxMLm1kIiwgaWdub3JlQ2FzZSA9IHRydWUpIHx8IGl0Lm5hbWUuZXF1YWxzKCJza2lsbC5tZCIsIGlnbm9yZUNhc2UgPSB0cnVlKSkgfQogICAgICAgICAgICAgICAgICAgIC50YWtlKDEwKQogICAgICAgICAgICAgICAgICAgIC50b0xpc3QoKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoc2tpbGxNZENhbmRpZGF0ZXMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBjbGVhbnVwVG1wKCkKICAgICAgICAgICAgICAgIHJldHVybiBTa2lsbEltcG9ydFJlc3VsdChpZiAobm9ybWFsaXplZFN1YkRpciA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2tpbGxfZXJyb3JfaW1wb3J0X25vX3NraWxsX21kKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbF9lcnJvcl9pbXBvcnRfbm9fc2tpbGxfbWRfaW5fcGF0aCkKICAgICAgICAgICAgICAgIH0sIG51bGwpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBzZWxlY3RlZFNraWxsRmlsZSA9IHNraWxsTWRDYW5kaWRhdGVzLmZpcnN0KCkKICAgICAgICAgICAgdmFsIHNlbGVjdGVkU2tpbGxEaXIgPSBzZWxlY3RlZFNraWxsRmlsZS5wYXJlbnRGaWxlID86IHJ1biB7CiAgICAgICAgICAgICAgICBjbGVhbnVwVG1wKCkKICAgICAgICAgICAgICAgIHJldHVybiBTa2lsbEltcG9ydFJlc3VsdChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbF9lcnJvcl9pbXBvcnRfc2tpbGxfbWRfcGF0aF9pbnZhbGlkKSwgbnVsbCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIChtZXRhTmFtZSwgbWV0YURlc2MpID0gcGFyc2VTa2lsbE1ldGFkYXRhKHNlbGVjdGVkU2tpbGxGaWxlKQogICAgICAgICAgICB2YWwgYmFzZU5hbWUgPSBtZXRhTmFtZS5pZkJsYW5rIHsKICAgICAgICAgICAgICAgIHZhbCBpc1RtcFJvb3QgPSB0cnkgewogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkU2tpbGxEaXIuY2Fub25pY2FsRmlsZSA9PSB0bXBEaXIuY2Fub25pY2FsRmlsZQogICAgICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRTa2lsbERpci5hYnNvbHV0ZVBhdGggPT0gdG1wRGlyLmFic29sdXRlUGF0aAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKGlzVG1wUm9vdCkgewogICAgICAgICAgICAgICAgICAgIHppcEZpbGUubmFtZVdpdGhvdXRFeHRlbnNpb24KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRTa2lsbERpci5uYW1lLmlmQmxhbmsgeyB6aXBGaWxlLm5hbWVXaXRob3V0RXh0ZW5zaW9uIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgZmluYWxEaXIgPSBGaWxlKHNraWxsc1Jvb3QsIGJhc2VOYW1lLnRyaW0oKS5pZkJsYW5rIHsgInNraWxsIiB9KQoKICAgICAgICAgICAgaWYgKGZpbmFsRGlyLmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICBjbGVhbnVwVG1wKCkKICAgICAgICAgICAgICAgIHJldHVybiBTa2lsbEltcG9ydFJlc3VsdChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbF9lcnJvcl9pbXBvcnRfZHVwbGljYXRlX25hbWUsIGZpbmFsRGlyLm5hbWUpLCBudWxsKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBDb3B5IHRoZSBkZXRlY3RlZCBza2lsbCBkaXJlY3RvcnkgdG8gZmluYWwgbG9jYXRpb24KICAgICAgICAgICAgc2VsZWN0ZWRTa2lsbERpci5jb3B5UmVjdXJzaXZlbHkoZmluYWxEaXIsIG92ZXJ3cml0ZSA9IGZhbHNlKQogICAgICAgICAgICBjbGVhbnVwVG1wKCkKCiAgICAgICAgICAgIC8vIHJlZnJlc2ggY2FjaGUKICAgICAgICAgICAgcmVmcmVzaEF2YWlsYWJsZVNraWxscygpCgogICAgICAgICAgICB2YWwgZGVzYyA9IG1ldGFEZXNjLmlmQmxhbmsgeyAiIiB9CiAgICAgICAgICAgIHJldHVybiBTa2lsbEltcG9ydFJlc3VsdChpZiAoZGVzYy5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2ltcG9ydGVkX3dpdGhfZGVzYywgZmluYWxEaXIubmFtZSwgZGVzYykKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsX2ltcG9ydGVkLCBmaW5hbERpci5uYW1lKQogICAgICAgICAgICB9LCBmaW5hbERpcikKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGltcG9ydCBza2lsbCBmcm9tIHppcCIsIGUpCiAgICAgICAgICAgIGNsZWFudXBUbXAoKQogICAgICAgICAgICByZXR1cm4gU2tpbGxJbXBvcnRSZXN1bHQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2tpbGxfZXJyb3JfaW1wb3J0X2ZhaWxlZCwgZS5tZXNzYWdlID86ICIiKSwgbnVsbCkKICAgICAgICB9CiAgICB9CgoKICAgIHByaXZhdGUgZnVuIHVuemlwVG9EaXJlY3RvcnkoemlwRmlsZTogRmlsZSwgZGVzdGluYXRpb25EaXI6IEZpbGUpIHsKICAgICAgICB2YWwgZGVzdENhbm9uaWNhbCA9IGRlc3RpbmF0aW9uRGlyLmNhbm9uaWNhbEZpbGUKICAgICAgICBaaXBJbnB1dFN0cmVhbShGaWxlSW5wdXRTdHJlYW0oemlwRmlsZSkpLnVzZSB7IHppcyAtPgogICAgICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KDY0ICogMTAyNCkKICAgICAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgICAgIHZhbCBlbnRyeSA9IHppcy5uZXh0RW50cnkgPzogYnJlYWsKCiAgICAgICAgICAgICAgICB2YWwgb3V0RmlsZSA9IEZpbGUoZGVzdGluYXRpb25EaXIsIGVudHJ5Lm5hbWUpCiAgICAgICAgICAgICAgICB2YWwgb3V0Q2Fub25pY2FsID0gb3V0RmlsZS5jYW5vbmljYWxGaWxlCiAgICAgICAgICAgICAgICBpZiAoIW91dENhbm9uaWNhbC5wYXRoLnN0YXJ0c1dpdGgoZGVzdENhbm9uaWNhbC5wYXRoICsgRmlsZS5zZXBhcmF0b3IpKSB7CiAgICAgICAgICAgICAgICAgICAgemlzLmNsb3NlRW50cnkoKQogICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiWmlwIGVudHJ5IGlzIG91dHNpZGUgdGFyZ2V0IGRpcjogJHtlbnRyeS5uYW1lfSIpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKGVudHJ5LmlzRGlyZWN0b3J5KSB7CiAgICAgICAgICAgICAgICAgICAgb3V0RmlsZS5ta2RpcnMoKQogICAgICAgICAgICAgICAgICAgIHppcy5jbG9zZUVudHJ5KCkKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIG91dEZpbGUucGFyZW50RmlsZT8ubWtkaXJzKCkKICAgICAgICAgICAgICAgIEZpbGVPdXRwdXRTdHJlYW0ob3V0RmlsZSkudXNlIHsgZm9zIC0+CiAgICAgICAgICAgICAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJlYWQgPSB6aXMucmVhZChidWZmZXIpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZWFkIDw9IDApIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgIGZvcy53cml0ZShidWZmZXIsIDAsIHJlYWQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgemlzLmNsb3NlRW50cnkoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.skill
+
+import android.content.Context
+import android.os.Environment
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.util.zip.ZipInputStream
+
+class SkillManager private constructor(private val context: Context) {
+
+    companion object {
+        private const val TAG = "SkillManager"
+
+        @Volatile private var INSTANCE: SkillManager? = null
+
+        fun getInstance(context: Context): SkillManager {
+            return INSTANCE
+                ?: synchronized(this) {
+                    INSTANCE ?: SkillManager(context.applicationContext).also { INSTANCE = it }
+                }
+        }
+    }
+
+    private val availableSkills = mutableMapOf<String, SkillPackage>()
+    private val skillLoadErrors = mutableMapOf<String, String>()
+
+    private fun getSkillsRootDir(): File {
+        val downloadsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+        val operitDir = File(downloadsDir, "Operit")
+        val skillsDir = File(operitDir, "skills")
+        if (!skillsDir.exists()) {
+            skillsDir.mkdirs()
+        }
+        return skillsDir
+    }
+
+    fun getSkillsDirectoryPath(): String {
+        return getSkillsRootDir().absolutePath
+    }
+
+    fun refreshAvailableSkills() {
+        availableSkills.clear()
+        skillLoadErrors.clear()
+
+        val skillsDir = try {
+            getSkillsRootDir()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error getting skills directory", e)
+            skillLoadErrors[context.getString(R.string.skills)] =
+                context.getString(R.string.skill_error_cannot_access_dir, e.message ?: "")
+            return
+        }
+
+        if (!skillsDir.exists() || !skillsDir.isDirectory) {
+            return
+        }
+
+        val children = skillsDir.listFiles() ?: emptyArray()
+        for (child in children) {
+            if (!child.isDirectory) continue
+
+            val skillFile = File(child, "SKILL.md").let { primary ->
+                if (primary.exists()) primary else File(child, "skill.md")
+            }
+
+            if (!skillFile.exists() || !skillFile.isFile) {
+                skillLoadErrors[child.name] = context.getString(
+                    R.string.skill_error_missing_skill_md,
+                    child.absolutePath
+                )
+                continue
+            }
+
+            try {
+                val (name, description) = parseSkillMetadata(skillFile)
+                val skillName = name.ifBlank { child.name }
+                val skillDesc = description.ifBlank { "" }
+
+                if (availableSkills.containsKey(skillName)) {
+                    val existingDirName = availableSkills[skillName]?.directory?.name ?: skillName
+                    skillLoadErrors[child.name] = context.getString(
+                        R.string.skill_error_duplicate_scanned_name,
+                        skillName,
+                        existingDirName
+                    )
+                    continue
+                }
+
+                availableSkills[skillName] = SkillPackage(
+                    name = skillName,
+                    description = skillDesc,
+                    directory = child,
+                    skillFile = skillFile
+                )
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error loading skill from ${skillFile.absolutePath}", e)
+                skillLoadErrors[child.name] = context.getString(
+                    R.string.skill_error_scan_failed,
+                    e.message ?: e.javaClass.simpleName
+                )
+            }
+        }
+    }
+
+    private fun parseSkillMetadata(skillFile: File): Pair<String, String> {
+        val lines = skillFile.bufferedReader().use { it.readLines() }
+
+        var name = ""
+        var description = ""
+
+        if (lines.isNotEmpty() && lines[0].trim() == "---") {
+            val endIndex = lines.drop(1).indexOfFirst { it.trim() == "---" }
+            if (endIndex >= 0) {
+                val frontmatter = lines.subList(1, endIndex + 1)
+                frontmatter.forEach { lineRaw ->
+                    val line = lineRaw.trim()
+                    val idx = line.indexOf(':')
+                    if (idx <= 0) return@forEach
+                    val key = line.substring(0, idx).trim()
+                    val value = unquote(line.substring(idx + 1).trim())
+                    when (key.lowercase()) {
+                        "name" -> if (name.isBlank()) name = value
+                        "description" -> if (description.isBlank()) description = value
+                    }
+                }
+            }
+        }
+
+        if (name.isBlank() || description.isBlank()) {
+            lines.take(40).forEach { lineRaw ->
+                val line = lineRaw.trim()
+                val idx = line.indexOf(':')
+                if (idx <= 0) return@forEach
+                val key = line.substring(0, idx).trim()
+                val value = unquote(line.substring(idx + 1).trim())
+                when (key.lowercase()) {
+                    "name" -> if (name.isBlank()) name = value
+                    "description" -> if (description.isBlank()) description = value
+                }
+            }
+        }
+
+        return Pair(name, description)
+    }
+
+    private fun unquote(valueRaw: String): String {
+        var value = valueRaw
+        if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith('\'') && value.endsWith('\''))) {
+            if (value.length >= 2) value = value.substring(1, value.length - 1)
+        }
+        return value
+    }
+
+    fun getAvailableSkills(): Map<String, SkillPackage> {
+        refreshAvailableSkills()
+        return availableSkills.toMap()
+    }
+
+    fun getAvailableSkillsSnapshot(): Pair<Map<String, SkillPackage>, Map<String, String>> {
+        refreshAvailableSkills()
+        return availableSkills.toMap() to skillLoadErrors.toMap()
+    }
+
+    fun getSkillLoadErrors(): Map<String, String> {
+        refreshAvailableSkills()
+        return skillLoadErrors.toMap()
+    }
+
+    fun readSkillContent(skillName: String): String? {
+        refreshAvailableSkills()
+        val skill = availableSkills[skillName] ?: return null
+        return try {
+            skill.skillFile.readText()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to read SKILL.md for $skillName", e)
+            null
+        }
+    }
+
+    fun deleteSkill(skillName: String): Boolean {
+        refreshAvailableSkills()
+        val skill = availableSkills[skillName] ?: return false
+        return try {
+            val ok = skill.directory.deleteRecursively()
+            if (ok) {
+                availableSkills.remove(skillName)
+            }
+            ok
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to delete skill $skillName", e)
+            false
+        }
+    }
+
+    fun getSkillSystemPrompt(skillName: String): String? {
+        refreshAvailableSkills()
+        val skill = availableSkills[skillName] ?: return null
+        val content = try {
+            skill.skillFile.readText()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to read skill content: ${skill.skillFile.absolutePath}", e)
+            ""
+        }
+
+        val sb = StringBuilder()
+        sb.appendLine("Using package (Skill): ${skill.name}")
+        sb.appendLine("Use Time: ${java.time.LocalDateTime.now()}")
+        sb.appendLine("Execution policy:")
+        sb.appendLine("Prioritize using the skill-provided instructions and bundled scripts, and complete tasks with terminal-related tools.")
+        if (skill.description.isNotBlank()) {
+            sb.appendLine("Description: ${skill.description}")
+        }
+        sb.appendLine("SKILL.md path: ${skill.skillFile.absolutePath}")
+        sb.appendLine("Skill directory: ${skill.directory.absolutePath}")
+        sb.appendLine("Directory structure:")
+        sb.appendLine(buildDirectoryTreeText(skill.directory))
+        sb.appendLine()
+        sb.appendLine("SKILL.md:")
+        sb.appendLine(content)
+
+        return sb.toString()
+    }
+
+    private fun buildDirectoryTreeText(rootDir: File): String {
+        val sb = StringBuilder()
+
+        fun walk(dir: File, indent: String) {
+            val children = dir.listFiles()
+                ?.sortedWith(compareBy<File>({ !it.isDirectory }, { it.name.lowercase() }))
+                ?: emptyList()
+
+            for (child in children) {
+                sb.append(indent)
+                sb.append("- ")
+                sb.append(child.name)
+                if (child.isDirectory) {
+                    sb.appendLine("/")
+                    walk(child, indent + "  ")
+                } else {
+                    sb.appendLine()
+                }
+            }
+        }
+
+        walk(rootDir, indent = "")
+
+        if (sb.length == 0) return "(empty directory)"
+        return sb.toString().trimEnd()
+    }
+
+    fun importSkillFromZip(zipFile: File): String {
+        return importSkillFromZip(zipFile, null)
+    }
+
+    data class SkillImportResult(
+        val message: String,
+        val installedDir: File?
+    )
+
+    fun importSkillFromZip(zipFile: File, subDirPathInZip: String?): String {
+        return importSkillFromZipDetailed(zipFile, subDirPathInZip).message
+    }
+
+    fun importSkillFromZipDetailed(zipFile: File, subDirPathInZip: String?): SkillImportResult {
+        if (!zipFile.exists() || !zipFile.canRead()) {
+            return SkillImportResult(context.getString(R.string.skill_error_cannot_read_file, zipFile.absolutePath), null)
+        }
+        if (!zipFile.name.endsWith(".zip", ignoreCase = true)) {
+            return SkillImportResult(context.getString(R.string.skill_error_only_support_zip), null)
+        }
+
+        val skillsRoot = try {
+            getSkillsRootDir()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error getting skills directory", e)
+            return SkillImportResult(context.getString(R.string.skill_error_cannot_access_dir, e.message ?: ""), null)
+        }
+
+        val tmpDir = File(skillsRoot, ".import_tmp_${System.currentTimeMillis()}")
+        if (!tmpDir.mkdirs()) {
+            return SkillImportResult(context.getString(R.string.skill_error_create_tmp_dir_failed, tmpDir.absolutePath), null)
+        }
+
+        fun cleanupTmp() {
+            try {
+                tmpDir.deleteRecursively()
+            } catch (_: Exception) {
+            }
+        }
+
+        try {
+            unzipToDirectory(zipFile, tmpDir)
+
+            val normalizedSubDir = subDirPathInZip
+                ?.trim()
+                ?.trimStart('/')
+                ?.trimEnd('/')
+                ?.takeIf { it.isNotBlank() }
+
+            val zipRootDir = tmpDir
+                .listFiles()
+                ?.filter { it.isDirectory }
+                ?.singleOrNull()
+                ?: tmpDir
+
+            val searchRoot: File = if (normalizedSubDir == null) {
+                tmpDir
+            } else {
+                val baseCanonical = zipRootDir.canonicalFile
+                val resolved = File(zipRootDir, normalizedSubDir)
+                val resolvedCanonical = resolved.canonicalFile
+                if (!resolvedCanonical.path.startsWith(baseCanonical.path + File.separator)) {
+                    cleanupTmp()
+                    return SkillImportResult(context.getString(R.string.skill_error_import_invalid_path), null)
+                }
+                if (!resolvedCanonical.exists()) {
+                    cleanupTmp()
+                    return SkillImportResult(context.getString(R.string.skill_error_import_path_not_found, normalizedSubDir), null)
+                }
+                resolvedCanonical
+            }
+
+            val directSkillFile = if (searchRoot.isDirectory) {
+                File(searchRoot, "SKILL.md").let { primary ->
+                    if (primary.exists()) primary else File(searchRoot, "skill.md")
+                }.takeIf { it.exists() && it.isFile }
+            } else {
+                null
+            }
+
+            val skillMdCandidates = if (directSkillFile != null) {
+                listOf(directSkillFile)
+            } else {
+                searchRoot.walkTopDown()
+                    .filter { it.isFile && (it.name.equals("SKILL.md", ignoreCase = true) || it.name.equals("skill.md", ignoreCase = true)) }
+                    .take(10)
+                    .toList()
+            }
+
+            if (skillMdCandidates.isEmpty()) {
+                cleanupTmp()
+                return SkillImportResult(if (normalizedSubDir == null) {
+                    context.getString(R.string.skill_error_import_no_skill_md)
+                } else {
+                    context.getString(R.string.skill_error_import_no_skill_md_in_path)
+                }, null)
+            }
+
+            val selectedSkillFile = skillMdCandidates.first()
+            val selectedSkillDir = selectedSkillFile.parentFile ?: run {
+                cleanupTmp()
+                return SkillImportResult(context.getString(R.string.skill_error_import_skill_md_path_invalid), null)
+            }
+
+            val (metaName, metaDesc) = parseSkillMetadata(selectedSkillFile)
+            val baseName = metaName.ifBlank {
+                val isTmpRoot = try {
+                    selectedSkillDir.canonicalFile == tmpDir.canonicalFile
+                } catch (_: Exception) {
+                    selectedSkillDir.absolutePath == tmpDir.absolutePath
+                }
+                if (isTmpRoot) {
+                    zipFile.nameWithoutExtension
+                } else {
+                    selectedSkillDir.name.ifBlank { zipFile.nameWithoutExtension }
+                }
+            }
+            val finalDir = File(skillsRoot, baseName.trim().ifBlank { "skill" })
+
+            if (finalDir.exists()) {
+                cleanupTmp()
+                return SkillImportResult(context.getString(R.string.skill_error_import_duplicate_name, finalDir.name), null)
+            }
+
+            // Copy the detected skill directory to final location
+            selectedSkillDir.copyRecursively(finalDir, overwrite = false)
+            cleanupTmp()
+
+            // refresh cache
+            refreshAvailableSkills()
+
+            val desc = metaDesc.ifBlank { "" }
+            return SkillImportResult(if (desc.isNotBlank()) {
+                context.getString(R.string.skill_imported_with_desc, finalDir.name, desc)
+            } else {
+                context.getString(R.string.skill_imported, finalDir.name)
+            }, finalDir)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to import skill from zip", e)
+            cleanupTmp()
+            return SkillImportResult(context.getString(R.string.skill_error_import_failed, e.message ?: ""), null)
+        }
+    }
+
+
+    private fun unzipToDirectory(zipFile: File, destinationDir: File) {
+        val destCanonical = destinationDir.canonicalFile
+        ZipInputStream(FileInputStream(zipFile)).use { zis ->
+            val buffer = ByteArray(64 * 1024)
+            while (true) {
+                val entry = zis.nextEntry ?: break
+
+                val outFile = File(destinationDir, entry.name)
+                val outCanonical = outFile.canonicalFile
+                if (!outCanonical.path.startsWith(destCanonical.path + File.separator)) {
+                    zis.closeEntry()
+                    throw IllegalArgumentException("Zip entry is outside target dir: ${entry.name}")
+                }
+
+                if (entry.isDirectory) {
+                    outFile.mkdirs()
+                    zis.closeEntry()
+                    continue
+                }
+
+                outFile.parentFile?.mkdirs()
+                FileOutputStream(outFile).use { fos ->
+                    while (true) {
+                        val read = zis.read(buffer)
+                        if (read <= 0) break
+                        fos.write(buffer, 0, read)
+                    }
+                }
+                zis.closeEntry()
+            }
+        }
+    }
+}

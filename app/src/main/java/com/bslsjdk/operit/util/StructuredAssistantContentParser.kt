@@ -1,1 +1,132 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbW5hdGl2ZS5OYXRpdmVYbWxTcGxpdHRlcgoKb2JqZWN0IFN0cnVjdHVyZWRBc3Npc3RhbnRDb250ZW50UGFyc2VyIHsKCiAgICBlbnVtIGNsYXNzIEJsb2NrS2luZCB7CiAgICAgICAgVEVYVCwKICAgICAgICBYTUwsCiAgICB9CgogICAgZGF0YSBjbGFzcyBCbG9jaygKICAgICAgICB2YWwga2luZDogQmxvY2tLaW5kLAogICAgICAgIHZhbCByYXdDb250ZW50OiBTdHJpbmcsCiAgICAgICAgdmFsIGNvbnRlbnQ6IFN0cmluZywKICAgICAgICB2YWwgdGFnTmFtZTogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgdmFsIHJhd1RhZ05hbWU6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHZhbCBhdHRyczogTWFwPFN0cmluZywgU3RyaW5nPiA9IGVtcHR5TWFwKCksCiAgICAgICAgdmFsIGNsb3NlZDogQm9vbGVhbiA9IHRydWUsCiAgICApCgogICAgZnVuIHBhcnNlKGNvbnRlbnQ6IFN0cmluZyk6IExpc3Q8QmxvY2s+IHsKICAgICAgICBpZiAoY29udGVudC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgfQoKICAgICAgICB2YWwgc3BsaXRTZWdtZW50cyA9IE5hdGl2ZVhtbFNwbGl0dGVyLnNwbGl0WG1sVGFnKGNvbnRlbnQpCiAgICAgICAgaWYgKHNwbGl0U2VnbWVudHMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBsaXN0T2YoCiAgICAgICAgICAgICAgICBCbG9jaygKICAgICAgICAgICAgICAgICAgICBraW5kID0gQmxvY2tLaW5kLlRFWFQsCiAgICAgICAgICAgICAgICAgICAgcmF3Q29udGVudCA9IGNvbnRlbnQsCiAgICAgICAgICAgICAgICAgICAgY29udGVudCA9IGNvbnRlbnQsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIHJldHVybiBzcGxpdFNlZ21lbnRzLm1hcE5vdE51bGwoOjpidWlsZEJsb2NrKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkQmxvY2soc2VnbWVudDogTGlzdDxTdHJpbmc+KTogQmxvY2s/IHsKICAgICAgICB2YWwga2luZCA9IHNlZ21lbnQuZ2V0T3JOdWxsKDApID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIHJhd0NvbnRlbnQgPSBzZWdtZW50LmdldE9yTnVsbCgxKS5vckVtcHR5KCkKICAgICAgICBpZiAocmF3Q29udGVudC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIGlmIChraW5kID09ICJ0ZXh0IikgewogICAgICAgICAgICByZXR1cm4gQmxvY2soCiAgICAgICAgICAgICAgICBraW5kID0gQmxvY2tLaW5kLlRFWFQsCiAgICAgICAgICAgICAgICByYXdDb250ZW50ID0gcmF3Q29udGVudCwKICAgICAgICAgICAgICAgIGNvbnRlbnQgPSByYXdDb250ZW50LAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgcmF3VGFnTmFtZSA9IENoYXRNYXJrdXBSZWdleC5leHRyYWN0T3BlbmluZ1RhZ05hbWUocmF3Q29udGVudCkKICAgICAgICB2YWwgdGFnTmFtZSA9IENoYXRNYXJrdXBSZWdleC5ub3JtYWxpemVUb29sTGlrZVRhZ05hbWUocmF3VGFnTmFtZSkgPzogcmF3VGFnTmFtZQogICAgICAgIHJldHVybiBCbG9jaygKICAgICAgICAgICAga2luZCA9IEJsb2NrS2luZC5YTUwsCiAgICAgICAgICAgIHJhd0NvbnRlbnQgPSByYXdDb250ZW50LAogICAgICAgICAgICBjb250ZW50ID0gZXh0cmFjdFhtbElubmVyQ29udGVudChyYXdDb250ZW50LCByYXdUYWdOYW1lLCB0YWdOYW1lKSwKICAgICAgICAgICAgdGFnTmFtZSA9IHRhZ05hbWUsCiAgICAgICAgICAgIHJhd1RhZ05hbWUgPSByYXdUYWdOYW1lLAogICAgICAgICAgICBhdHRycyA9IGV4dHJhY3RYbWxBdHRyaWJ1dGVzKHJhd0NvbnRlbnQpLAogICAgICAgICAgICBjbG9zZWQgPSBpc1htbEZ1bGx5Q2xvc2VkKHJhd0NvbnRlbnQsIHJhd1RhZ05hbWUpLAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBleHRyYWN0WG1sSW5uZXJDb250ZW50KAogICAgICAgIHhtbDogU3RyaW5nLAogICAgICAgIHJhd1RhZ05hbWU6IFN0cmluZz8sCiAgICAgICAgbm9ybWFsaXplZFRhZ05hbWU6IFN0cmluZz8sCiAgICApOiBTdHJpbmcgewogICAgICAgIHZhbCBlZmZlY3RpdmVUYWdOYW1lID0KICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICAhcmF3VGFnTmFtZS5pc051bGxPckJsYW5rKCkgLT4gcmF3VGFnTmFtZQogICAgICAgICAgICAgICAgIW5vcm1hbGl6ZWRUYWdOYW1lLmlzTnVsbE9yQmxhbmsoKSAtPiBub3JtYWxpemVkVGFnTmFtZQogICAgICAgICAgICAgICAgZWxzZSAtPiByZXR1cm4geG1sCiAgICAgICAgICAgIH0KICAgICAgICB2YWwgc3RhcnRUYWcgPSAiPCRlZmZlY3RpdmVUYWdOYW1lIgogICAgICAgIHZhbCBzdGFydFRhZ0luZGV4ID0geG1sLmluZGV4T2Yoc3RhcnRUYWcpCiAgICAgICAgaWYgKHN0YXJ0VGFnSW5kZXggPCAwKSB7CiAgICAgICAgICAgIHJldHVybiB4bWwKICAgICAgICB9CgogICAgICAgIHZhbCBzdGFydFRhZ0VuZCA9IHhtbC5pbmRleE9mKCc+Jywgc3RhcnRUYWdJbmRleCkKICAgICAgICBpZiAoc3RhcnRUYWdFbmQgPCAwKSB7CiAgICAgICAgICAgIHJldHVybiB4bWwKICAgICAgICB9CgogICAgICAgIHZhbCBlbmRUYWcgPSAiPC8kZWZmZWN0aXZlVGFnTmFtZT4iCiAgICAgICAgdmFsIGVuZEluZGV4ID0geG1sLmxhc3RJbmRleE9mKGVuZFRhZykKICAgICAgICB2YWwgY29udGVudEVuZEV4Y2x1c2l2ZSA9CiAgICAgICAgICAgIGlmIChlbmRJbmRleCA+IHN0YXJ0VGFnRW5kKSB7CiAgICAgICAgICAgICAgICBlbmRJbmRleAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgeG1sLmxlbmd0aAogICAgICAgICAgICB9CiAgICAgICAgcmV0dXJuIHhtbC5zdWJzdHJpbmcoc3RhcnRUYWdFbmQgKyAxLCBjb250ZW50RW5kRXhjbHVzaXZlKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV4dHJhY3RYbWxBdHRyaWJ1dGVzKHhtbDogU3RyaW5nKTogTWFwPFN0cmluZywgU3RyaW5nPiB7CiAgICAgICAgdmFsIHRyaW1tZWQgPSB4bWwudHJpbSgpCiAgICAgICAgdmFsIHN0YXJ0VGFnRW5kID0gdHJpbW1lZC5pbmRleE9mKCc+JykKICAgICAgICBpZiAoc3RhcnRUYWdFbmQgPD0gMCkgewogICAgICAgICAgICByZXR1cm4gZW1wdHlNYXAoKQogICAgICAgIH0KCiAgICAgICAgdmFsIHN0YXJ0VGFnID0gdHJpbW1lZC5zdWJzdHJpbmcoMCwgc3RhcnRUYWdFbmQgKyAxKQogICAgICAgIHZhbCBhdHRycyA9IGxpbmtlZE1hcE9mPFN0cmluZywgU3RyaW5nPigpCiAgICAgICAgUmVnZXgoIiIiKFtBLVphLXpfOl1bQS1aYS16MC05Xy46LV0qKVxzKj1ccyooWyciXSkoW1xzXFNdKj8pXDIiIiIpCiAgICAgICAgICAgIC5maW5kQWxsKHN0YXJ0VGFnKQogICAgICAgICAgICAuZm9yRWFjaCB7IG1hdGNoIC0+CiAgICAgICAgICAgICAgICB2YWwgbmFtZSA9IG1hdGNoLmdyb3VwVmFsdWVzLmdldE9yTnVsbCgxKT8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgdmFsIHZhbHVlID0gbWF0Y2guZ3JvdXBWYWx1ZXMuZ2V0T3JOdWxsKDMpLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgaWYgKG5hbWUuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgYXR0cnNbbmFtZV0gPSB2YWx1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgcmV0dXJuIGF0dHJzCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gaXNYbWxGdWxseUNsb3NlZCh4bWw6IFN0cmluZywgcmF3VGFnTmFtZTogU3RyaW5nPyk6IEJvb2xlYW4gewogICAgICAgIHZhbCB0cmltbWVkID0geG1sLnRyaW0oKQogICAgICAgIGlmICh0cmltbWVkLmVuZHNXaXRoKCIvPiIpKSB7CiAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgfQoKICAgICAgICB2YWwgZWZmZWN0aXZlVGFnTmFtZSA9IHJhd1RhZ05hbWUgPzogQ2hhdE1hcmt1cFJlZ2V4LmV4dHJhY3RPcGVuaW5nVGFnTmFtZSh0cmltbWVkKSA/OiByZXR1cm4gZmFsc2UKICAgICAgICByZXR1cm4gdHJpbW1lZC5jb250YWlucygiPC8kZWZmZWN0aXZlVGFnTmFtZT4iKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import com.bslsjdk.operit.util.streamnative.NativeXmlSplitter
+
+object StructuredAssistantContentParser {
+
+    enum class BlockKind {
+        TEXT,
+        XML,
+    }
+
+    data class Block(
+        val kind: BlockKind,
+        val rawContent: String,
+        val content: String,
+        val tagName: String? = null,
+        val rawTagName: String? = null,
+        val attrs: Map<String, String> = emptyMap(),
+        val closed: Boolean = true,
+    )
+
+    fun parse(content: String): List<Block> {
+        if (content.isEmpty()) {
+            return emptyList()
+        }
+
+        val splitSegments = NativeXmlSplitter.splitXmlTag(content)
+        if (splitSegments.isEmpty()) {
+            return listOf(
+                Block(
+                    kind = BlockKind.TEXT,
+                    rawContent = content,
+                    content = content,
+                )
+            )
+        }
+
+        return splitSegments.mapNotNull(::buildBlock)
+    }
+
+    private fun buildBlock(segment: List<String>): Block? {
+        val kind = segment.getOrNull(0) ?: return null
+        val rawContent = segment.getOrNull(1).orEmpty()
+        if (rawContent.isEmpty()) {
+            return null
+        }
+
+        if (kind == "text") {
+            return Block(
+                kind = BlockKind.TEXT,
+                rawContent = rawContent,
+                content = rawContent,
+            )
+        }
+
+        val rawTagName = ChatMarkupRegex.extractOpeningTagName(rawContent)
+        val tagName = ChatMarkupRegex.normalizeToolLikeTagName(rawTagName) ?: rawTagName
+        return Block(
+            kind = BlockKind.XML,
+            rawContent = rawContent,
+            content = extractXmlInnerContent(rawContent, rawTagName, tagName),
+            tagName = tagName,
+            rawTagName = rawTagName,
+            attrs = extractXmlAttributes(rawContent),
+            closed = isXmlFullyClosed(rawContent, rawTagName),
+        )
+    }
+
+    private fun extractXmlInnerContent(
+        xml: String,
+        rawTagName: String?,
+        normalizedTagName: String?,
+    ): String {
+        val effectiveTagName =
+            when {
+                !rawTagName.isNullOrBlank() -> rawTagName
+                !normalizedTagName.isNullOrBlank() -> normalizedTagName
+                else -> return xml
+            }
+        val startTag = "<$effectiveTagName"
+        val startTagIndex = xml.indexOf(startTag)
+        if (startTagIndex < 0) {
+            return xml
+        }
+
+        val startTagEnd = xml.indexOf('>', startTagIndex)
+        if (startTagEnd < 0) {
+            return xml
+        }
+
+        val endTag = "</$effectiveTagName>"
+        val endIndex = xml.lastIndexOf(endTag)
+        val contentEndExclusive =
+            if (endIndex > startTagEnd) {
+                endIndex
+            } else {
+                xml.length
+            }
+        return xml.substring(startTagEnd + 1, contentEndExclusive)
+    }
+
+    private fun extractXmlAttributes(xml: String): Map<String, String> {
+        val trimmed = xml.trim()
+        val startTagEnd = trimmed.indexOf('>')
+        if (startTagEnd <= 0) {
+            return emptyMap()
+        }
+
+        val startTag = trimmed.substring(0, startTagEnd + 1)
+        val attrs = linkedMapOf<String, String>()
+        Regex("""([A-Za-z_:][A-Za-z0-9_.:-]*)\s*=\s*(['"])([\s\S]*?)\2""")
+            .findAll(startTag)
+            .forEach { match ->
+                val name = match.groupValues.getOrNull(1)?.trim().orEmpty()
+                val value = match.groupValues.getOrNull(3).orEmpty()
+                if (name.isNotBlank()) {
+                    attrs[name] = value
+                }
+            }
+        return attrs
+    }
+
+    private fun isXmlFullyClosed(xml: String, rawTagName: String?): Boolean {
+        val trimmed = xml.trim()
+        if (trimmed.endsWith("/>")) {
+            return true
+        }
+
+        val effectiveTagName = rawTagName ?: ChatMarkupRegex.extractOpeningTagName(trimmed) ?: return false
+        return trimmed.contains("</$effectiveTagName>")
+    }
+}

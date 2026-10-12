@@ -1,1 +1,198 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLioKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkZ1bmN0aW9uVHlwZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmlyc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lm1hcAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YXRpb25FeGNlcHRpb24KaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5kZWNvZGVGcm9tU3RyaW5nCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uZW5jb2RlVG9TdHJpbmcKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb24KCi8vIOS4uuWKn+iDvemFjee9ruWIm+W7uuS4k+eUqOeahERhdGFTdG9yZQpwcml2YXRlIHZhbCBDb250ZXh0LmZ1bmN0aW9uYWxDb25maWdEYXRhU3RvcmU6IERhdGFTdG9yZTxQcmVmZXJlbmNlcz4gYnkKICAgICAgICB2ZXJzaW9uZWRQcmVmZXJlbmNlc0RhdGFTdG9yZSgKICAgICAgICAgICAgICAgIG5hbWUgPSAiZnVuY3Rpb25hbF9jb25maWdzIiwKICAgICAgICAgICAgICAgIGN1cnJlbnRWZXJzaW9uID0gMSwKICAgICAgICApIHsKICAgICAgICAgICAgcHJlZmVyZW5jZVNjaGVtYU1pZ3JhdGlvbiB7IHZlcnNpb24sIHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgICAgICB3aGVuICh2ZXJzaW9uKSB7CiAgICAgICAgICAgICAgICAgICAgMCAtPiBGdW5jdGlvbmFsQ29uZmlnTWFuYWdlci5taWdyYXRlUHJlZmVyZW5jZXNGcm9tVmVyc2lvblplcm8ocHJlZmVyZW5jZXMpCiAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBtaXNzaW5nUHJlZmVyZW5jZXNTY2hlbWFNaWdyYXRpb24odmVyc2lvbikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCi8qKiDlip/og73phY3nva7mmKDlsITmlbDmja7vvIzljIXlkKvphY3nva5JROWSjOaooeWei+e0ouW8lSAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgRnVuY3Rpb25Db25maWdNYXBwaW5nKAogICAgdmFsIGNvbmZpZ0lkOiBTdHJpbmcgPSBGdW5jdGlvbmFsQ29uZmlnTWFuYWdlci5ERUZBVUxUX0NPTkZJR19JRCwKICAgIHZhbCBtb2RlbEluZGV4OiBJbnQgPSAwCikKCmludGVybmFsIGRhdGEgY2xhc3MgRnVuY3Rpb25Db25maWdNYXBwaW5nUmVwYWlyKAogICAgdmFsIG1hcHBpbmc6IE1hcDxGdW5jdGlvblR5cGUsIEZ1bmN0aW9uQ29uZmlnTWFwcGluZz4sCiAgICB2YWwgYWZmZWN0ZWRGdW5jdGlvbnM6IExpc3Q8RnVuY3Rpb25UeXBlPiwKKQoKaW50ZXJuYWwgZnVuIHJlbWFwRGVsZXRlZENvbmZpZ1JlZmVyZW5jZXMoCiAgICBtYXBwaW5nOiBNYXA8RnVuY3Rpb25UeXBlLCBGdW5jdGlvbkNvbmZpZ01hcHBpbmc+LAogICAgZGVsZXRlZENvbmZpZ0lkOiBTdHJpbmcsCik6IEZ1bmN0aW9uQ29uZmlnTWFwcGluZ1JlcGFpciB7CiAgICB2YWwgdXBkYXRlZE1hcHBpbmcgPSBtYXBwaW5nLnRvTXV0YWJsZU1hcCgpCiAgICB2YWwgYWZmZWN0ZWRGdW5jdGlvbnMgPSBtYXBwaW5nCiAgICAgICAgLmZpbHRlclZhbHVlcyB7IGl0LmNvbmZpZ0lkID09IGRlbGV0ZWRDb25maWdJZCB9CiAgICAgICAgLmtleXMKICAgICAgICAuc29ydGVkQnkgeyBpdC5uYW1lIH0KCiAgICBhZmZlY3RlZEZ1bmN0aW9ucy5mb3JFYWNoIHsgZnVuY3Rpb25UeXBlIC0+CiAgICAgICAgdXBkYXRlZE1hcHBpbmdbZnVuY3Rpb25UeXBlXSA9IEZ1bmN0aW9uQ29uZmlnTWFwcGluZygKICAgICAgICAgICAgY29uZmlnSWQgPSBGdW5jdGlvbmFsQ29uZmlnTWFuYWdlci5ERUZBVUxUX0NPTkZJR19JRCwKICAgICAgICAgICAgbW9kZWxJbmRleCA9IDAsCiAgICAgICAgKQogICAgfQoKICAgIHJldHVybiBGdW5jdGlvbkNvbmZpZ01hcHBpbmdSZXBhaXIoCiAgICAgICAgbWFwcGluZyA9IHVwZGF0ZWRNYXBwaW5nLAogICAgICAgIGFmZmVjdGVkRnVuY3Rpb25zID0gYWZmZWN0ZWRGdW5jdGlvbnMsCiAgICApCn0KCi8qKiDnrqHnkIbkuI3lkIzlip/og73kvb/nlKjnmoTmqKHlnovphY3nva4g6L+Z5Liq57G755So5LqO5bCGRnVuY3Rpb25UeXBl5pig5bCE5Yiw5a+55bqU55qETW9kZWxDb25maWdJRCAqLwpjbGFzcyBGdW5jdGlvbmFsQ29uZmlnTWFuYWdlcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CgogICAgLy8g5a6a5LmJa2V5CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICAvLyDlip/og73phY3nva7mmKDlsIRrZXkKICAgICAgICB2YWwgRlVOQ1RJT05fQ09ORklHX01BUFBJTkcgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgiZnVuY3Rpb25fY29uZmlnX21hcHBpbmciKQoKICAgICAgICAvLyDpu5jorqTmmKDlsITlgLwKICAgICAgICBjb25zdCB2YWwgREVGQVVMVF9DT05GSUdfSUQgPSAiZGVmYXVsdCIKCiAgICAgICAgcHJpdmF0ZSB2YWwganNvbiA9IEpzb24gewogICAgICAgICAgICBpZ25vcmVVbmtub3duS2V5cyA9IHRydWUKICAgICAgICAgICAgaXNMZW5pZW50ID0gdHJ1ZQogICAgICAgIH0KCiAgICAgICAgaW50ZXJuYWwgZnVuIG1pZ3JhdGVQcmVmZXJlbmNlc0Zyb21WZXJzaW9uWmVybyhwcmVmZXJlbmNlczogTXV0YWJsZVByZWZlcmVuY2VzKSB7CiAgICAgICAgICAgIHZhbCBtYXBwaW5nID0gcmVhZFNjaGVtYVplcm9NYXBwaW5nKHByZWZlcmVuY2VzW0ZVTkNUSU9OX0NPTkZJR19NQVBQSU5HXSkKICAgICAgICAgICAgd3JpdGVGdW5jdGlvbkNvbmZpZ01hcHBpbmcocHJlZmVyZW5jZXMsIG1hcHBpbmcpCiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biByZWFkU2NoZW1hWmVyb01hcHBpbmcocmF3OiBTdHJpbmc/KTogTWFwPEZ1bmN0aW9uVHlwZSwgRnVuY3Rpb25Db25maWdNYXBwaW5nPiB7CiAgICAgICAgICAgIGlmIChyYXcuaXNOdWxsT3JCbGFuaygpIHx8IHJhdyA9PSAie30iKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gZGVmYXVsdE1hcHBpbmcoKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgZGVjb2RlZCA9CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAganNvbi5kZWNvZGVGcm9tU3RyaW5nPE1hcDxTdHJpbmcsIEZ1bmN0aW9uQ29uZmlnTWFwcGluZz4+KHJhdykKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlcnJvcjogU2VyaWFsaXphdGlvbkV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICBqc29uLmRlY29kZUZyb21TdHJpbmc8TWFwPFN0cmluZywgU3RyaW5nPj4ocmF3KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5tYXBWYWx1ZXMgeyAoXywgY29uZmlnSWQpIC0+IEZ1bmN0aW9uQ29uZmlnTWFwcGluZyhjb25maWdJZCwgMCkgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiBub3JtYWxpemVNYXBwaW5nKGRlY29kZWQpCiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biByZWFkRnVuY3Rpb25Db25maWdNYXBwaW5nKAogICAgICAgICAgICAgICAgcHJlZmVyZW5jZXM6IFByZWZlcmVuY2VzCiAgICAgICAgKTogTWFwPEZ1bmN0aW9uVHlwZSwgRnVuY3Rpb25Db25maWdNYXBwaW5nPiB7CiAgICAgICAgICAgIHZhbCByYXcgPSBwcmVmZXJlbmNlc1tGVU5DVElPTl9DT05GSUdfTUFQUElOR10KICAgICAgICAgICAgaWYgKHJhdy5pc051bGxPckJsYW5rKCkgfHwgcmF3ID09ICJ7fSIpIHsKICAgICAgICAgICAgICAgIHJldHVybiBkZWZhdWx0TWFwcGluZygpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIG5vcm1hbGl6ZU1hcHBpbmcoanNvbi5kZWNvZGVGcm9tU3RyaW5nPE1hcDxTdHJpbmcsIEZ1bmN0aW9uQ29uZmlnTWFwcGluZz4+KHJhdykpCiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biB3cml0ZUZ1bmN0aW9uQ29uZmlnTWFwcGluZygKICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzOiBNdXRhYmxlUHJlZmVyZW5jZXMsCiAgICAgICAgICAgICAgICBtYXBwaW5nOiBNYXA8RnVuY3Rpb25UeXBlLCBGdW5jdGlvbkNvbmZpZ01hcHBpbmc+CiAgICAgICAgKSB7CiAgICAgICAgICAgIHZhbCBzdHJpbmdNYXBwaW5nID0gbWFwcGluZy5lbnRyaWVzLmFzc29jaWF0ZSB7IGl0LmtleS5uYW1lIHRvIGl0LnZhbHVlIH0KICAgICAgICAgICAgcHJlZmVyZW5jZXNbRlVOQ1RJT05fQ09ORklHX01BUFBJTkddID0ganNvbi5lbmNvZGVUb1N0cmluZyhzdHJpbmdNYXBwaW5nKQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gbm9ybWFsaXplTWFwcGluZygKICAgICAgICAgICAgICAgIGRlY29kZWQ6IE1hcDxTdHJpbmcsIEZ1bmN0aW9uQ29uZmlnTWFwcGluZz4KICAgICAgICApOiBNYXA8RnVuY3Rpb25UeXBlLCBGdW5jdGlvbkNvbmZpZ01hcHBpbmc+IHsKICAgICAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBkZWZhdWx0TWFwcGluZygpLnRvTXV0YWJsZU1hcCgpCiAgICAgICAgICAgIHZhbCBmdW5jdGlvblR5cGVzQnlOYW1lID0gRnVuY3Rpb25UeXBlLnZhbHVlcygpLmFzc29jaWF0ZUJ5IHsgaXQubmFtZSB9CiAgICAgICAgICAgIGRlY29kZWQuZm9yRWFjaCB7IChrZXksIHZhbHVlKSAtPgogICAgICAgICAgICAgICAgdmFsIGZ1bmN0aW9uVHlwZSA9IGZ1bmN0aW9uVHlwZXNCeU5hbWVba2V5XSA/OiByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgbm9ybWFsaXplZFtmdW5jdGlvblR5cGVdID0gdmFsdWUKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gbm9ybWFsaXplZAogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gZGVmYXVsdE1hcHBpbmcoKTogTWFwPEZ1bmN0aW9uVHlwZSwgRnVuY3Rpb25Db25maWdNYXBwaW5nPiB7CiAgICAgICAgICAgIHJldHVybiBGdW5jdGlvblR5cGUudmFsdWVzKCkuYXNzb2NpYXRlV2l0aCB7IEZ1bmN0aW9uQ29uZmlnTWFwcGluZyhERUZBVUxUX0NPTkZJR19JRCwgMCkgfQogICAgICAgIH0KICAgIH0KCiAgICAvLyDojrflj5blrozmlbTnmoTlip/og73phY3nva7mmKDlsITvvIjljIXlkKttb2RlbEluZGV477yJCiAgICB2YWwgZnVuY3Rpb25Db25maWdNYXBwaW5nV2l0aEluZGV4RmxvdzogRmxvdzxNYXA8RnVuY3Rpb25UeXBlLCBGdW5jdGlvbkNvbmZpZ01hcHBpbmc+PiA9CiAgICAgICAgICAgIGNvbnRleHQuZnVuY3Rpb25hbENvbmZpZ0RhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgICAgICByZWFkRnVuY3Rpb25Db25maWdNYXBwaW5nKHByZWZlcmVuY2VzKQogICAgICAgICAgICB9CgogICAgLy8g6I635Y+W5Yqf6IO96YWN572u5pig5bCE77yI5L+d5oyB5ZCR5ZCO5YW85a6577yJCiAgICB2YWwgZnVuY3Rpb25Db25maWdNYXBwaW5nRmxvdzogRmxvdzxNYXA8RnVuY3Rpb25UeXBlLCBTdHJpbmc+PiA9CiAgICAgICAgICAgIGZ1bmN0aW9uQ29uZmlnTWFwcGluZ1dpdGhJbmRleEZsb3cubWFwIHsgbWFwcGluZyAtPgogICAgICAgICAgICAgICAgbWFwcGluZy5lbnRyaWVzLmFzc29jaWF0ZSB7IGl0LmtleSB0byBpdC52YWx1ZS5jb25maWdJZCB9CiAgICAgICAgICAgIH0KCiAgICAvLyDkv53lrZjlip/og73phY3nva7mmKDlsITvvIjkv53mjIHlkJHlkI7lhbzlrrnvvIkKICAgIHN1c3BlbmQgZnVuIHNhdmVGdW5jdGlvbkNvbmZpZ01hcHBpbmcobWFwcGluZzogTWFwPEZ1bmN0aW9uVHlwZSwgU3RyaW5nPikgewogICAgICAgIHZhbCBtYXBwaW5nV2l0aEluZGV4ID0gbWFwcGluZy5lbnRyaWVzLmFzc29jaWF0ZSB7IAogICAgICAgICAgICBpdC5rZXkgdG8gRnVuY3Rpb25Db25maWdNYXBwaW5nKGl0LnZhbHVlLCAwKSAKICAgICAgICB9CiAgICAgICAgc2F2ZUZ1bmN0aW9uQ29uZmlnTWFwcGluZ1dpdGhJbmRleChtYXBwaW5nV2l0aEluZGV4KQogICAgfQoKICAgIC8vIOS/neWtmOWKn+iDvemFjee9ruaYoOWwhO+8iOWMheWQq21vZGVsSW5kZXjvvIkKICAgIHN1c3BlbmQgZnVuIHNhdmVGdW5jdGlvbkNvbmZpZ01hcHBpbmdXaXRoSW5kZXgobWFwcGluZzogTWFwPEZ1bmN0aW9uVHlwZSwgRnVuY3Rpb25Db25maWdNYXBwaW5nPikgewogICAgICAgIGNvbnRleHQuZnVuY3Rpb25hbENvbmZpZ0RhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgd3JpdGVGdW5jdGlvbkNvbmZpZ01hcHBpbmcocHJlZmVyZW5jZXMsIG1hcHBpbmcpCiAgICAgICAgfQogICAgfQoKICAgIC8vIOiOt+WPluaMh+WumuWKn+iDveeahOmFjee9rklECiAgICBzdXNwZW5kIGZ1biBnZXRDb25maWdJZEZvckZ1bmN0aW9uKGZ1bmN0aW9uVHlwZTogRnVuY3Rpb25UeXBlKTogU3RyaW5nIHsKICAgICAgICB2YWwgbWFwcGluZyA9IGZ1bmN0aW9uQ29uZmlnTWFwcGluZ0Zsb3cuZmlyc3QoKQogICAgICAgIHJldHVybiBtYXBwaW5nW2Z1bmN0aW9uVHlwZV0gPzogREVGQVVMVF9DT05GSUdfSUQKICAgIH0KCiAgICAvLyDojrflj5bmjIflrprlip/og73nmoTlrozmlbTphY3nva7vvIjljIXlkKttb2RlbEluZGV477yJCiAgICBzdXNwZW5kIGZ1biBnZXRDb25maWdNYXBwaW5nRm9yRnVuY3Rpb24oZnVuY3Rpb25UeXBlOiBGdW5jdGlvblR5cGUpOiBGdW5jdGlvbkNvbmZpZ01hcHBpbmcgewogICAgICAgIHZhbCBtYXBwaW5nID0gZnVuY3Rpb25Db25maWdNYXBwaW5nV2l0aEluZGV4Rmxvdy5maXJzdCgpCiAgICAgICAgcmV0dXJuIG1hcHBpbmdbZnVuY3Rpb25UeXBlXSA/OiBGdW5jdGlvbkNvbmZpZ01hcHBpbmcoREVGQVVMVF9DT05GSUdfSUQsIDApCiAgICB9CgogICAgLy8g6K6+572u5oyH5a6a5Yqf6IO955qE6YWN572uSUQKICAgIHN1c3BlbmQgZnVuIHNldENvbmZpZ0ZvckZ1bmN0aW9uKGZ1bmN0aW9uVHlwZTogRnVuY3Rpb25UeXBlLCBjb25maWdJZDogU3RyaW5nKSB7CiAgICAgICAgc2V0Q29uZmlnRm9yRnVuY3Rpb24oZnVuY3Rpb25UeXBlLCBjb25maWdJZCwgMCkKICAgIH0KCiAgICAvLyDorr7nva7mjIflrprlip/og73nmoTphY3nva5JROWSjOaooeWei+e0ouW8lQogICAgc3VzcGVuZCBmdW4gc2V0Q29uZmlnRm9yRnVuY3Rpb24oZnVuY3Rpb25UeXBlOiBGdW5jdGlvblR5cGUsIGNvbmZpZ0lkOiBTdHJpbmcsIG1vZGVsSW5kZXg6IEludCkgewogICAgICAgIHZhbCBtYXBwaW5nID0gZnVuY3Rpb25Db25maWdNYXBwaW5nV2l0aEluZGV4Rmxvdy5maXJzdCgpLnRvTXV0YWJsZU1hcCgpCiAgICAgICAgbWFwcGluZ1tmdW5jdGlvblR5cGVdID0gRnVuY3Rpb25Db25maWdNYXBwaW5nKGNvbmZpZ0lkLCBtb2RlbEluZGV4KQogICAgICAgIHNhdmVGdW5jdGlvbkNvbmZpZ01hcHBpbmdXaXRoSW5kZXgobWFwcGluZykKICAgIH0KCiAgICAvLyDph43nva7mjIflrprlip/og73nmoTphY3nva7kuLrpu5jorqQKICAgIHN1c3BlbmQgZnVuIHJlc2V0RnVuY3Rpb25Db25maWcoZnVuY3Rpb25UeXBlOiBGdW5jdGlvblR5cGUpIHsKICAgICAgICBzZXRDb25maWdGb3JGdW5jdGlvbihmdW5jdGlvblR5cGUsIERFRkFVTFRfQ09ORklHX0lEKQogICAgfQoKICAgIC8vIOmHjee9ruaJgOacieWKn+iDvemFjee9ruS4uum7mOiupAogICAgc3VzcGVuZCBmdW4gcmVzZXRBbGxGdW5jdGlvbkNvbmZpZ3MoKSB7CiAgICAgICAgdmFsIGRlZmF1bHRNYXBwaW5nID0gRnVuY3Rpb25UeXBlLnZhbHVlcygpLmFzc29jaWF0ZVdpdGggeyBGdW5jdGlvbkNvbmZpZ01hcHBpbmcoREVGQVVMVF9DT05GSUdfSUQsIDApIH0KICAgICAgICBzYXZlRnVuY3Rpb25Db25maWdNYXBwaW5nV2l0aEluZGV4KGRlZmF1bHRNYXBwaW5nKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.*
+import com.bslsjdk.operit.data.model.FunctionType
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import kotlinx.serialization.SerializationException
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+// 为功能配置创建专用的DataStore
+private val Context.functionalConfigDataStore: DataStore<Preferences> by
+        versionedPreferencesDataStore(
+                name = "functional_configs",
+                currentVersion = 1,
+        ) {
+            preferenceSchemaMigration { version, preferences ->
+                when (version) {
+                    0 -> FunctionalConfigManager.migratePreferencesFromVersionZero(preferences)
+                    else -> missingPreferencesSchemaMigration(version)
+                }
+            }
+        }
+
+/** 功能配置映射数据，包含配置ID和模型索引 */
+@Serializable
+data class FunctionConfigMapping(
+    val configId: String = FunctionalConfigManager.DEFAULT_CONFIG_ID,
+    val modelIndex: Int = 0
+)
+
+internal data class FunctionConfigMappingRepair(
+    val mapping: Map<FunctionType, FunctionConfigMapping>,
+    val affectedFunctions: List<FunctionType>,
+)
+
+internal fun remapDeletedConfigReferences(
+    mapping: Map<FunctionType, FunctionConfigMapping>,
+    deletedConfigId: String,
+): FunctionConfigMappingRepair {
+    val updatedMapping = mapping.toMutableMap()
+    val affectedFunctions = mapping
+        .filterValues { it.configId == deletedConfigId }
+        .keys
+        .sortedBy { it.name }
+
+    affectedFunctions.forEach { functionType ->
+        updatedMapping[functionType] = FunctionConfigMapping(
+            configId = FunctionalConfigManager.DEFAULT_CONFIG_ID,
+            modelIndex = 0,
+        )
+    }
+
+    return FunctionConfigMappingRepair(
+        mapping = updatedMapping,
+        affectedFunctions = affectedFunctions,
+    )
+}
+
+/** 管理不同功能使用的模型配置 这个类用于将FunctionType映射到对应的ModelConfigID */
+class FunctionalConfigManager(private val context: Context) {
+
+    // 定义key
+    companion object {
+        // 功能配置映射key
+        val FUNCTION_CONFIG_MAPPING = stringPreferencesKey("function_config_mapping")
+
+        // 默认映射值
+        const val DEFAULT_CONFIG_ID = "default"
+
+        private val json = Json {
+            ignoreUnknownKeys = true
+            isLenient = true
+        }
+
+        internal fun migratePreferencesFromVersionZero(preferences: MutablePreferences) {
+            val mapping = readSchemaZeroMapping(preferences[FUNCTION_CONFIG_MAPPING])
+            writeFunctionConfigMapping(preferences, mapping)
+        }
+
+        private fun readSchemaZeroMapping(raw: String?): Map<FunctionType, FunctionConfigMapping> {
+            if (raw.isNullOrBlank() || raw == "{}") {
+                return defaultMapping()
+            }
+
+            val decoded =
+                    try {
+                        json.decodeFromString<Map<String, FunctionConfigMapping>>(raw)
+                    } catch (error: SerializationException) {
+                        json.decodeFromString<Map<String, String>>(raw)
+                                .mapValues { (_, configId) -> FunctionConfigMapping(configId, 0) }
+                    }
+
+            return normalizeMapping(decoded)
+        }
+
+        private fun readFunctionConfigMapping(
+                preferences: Preferences
+        ): Map<FunctionType, FunctionConfigMapping> {
+            val raw = preferences[FUNCTION_CONFIG_MAPPING]
+            if (raw.isNullOrBlank() || raw == "{}") {
+                return defaultMapping()
+            }
+            return normalizeMapping(json.decodeFromString<Map<String, FunctionConfigMapping>>(raw))
+        }
+
+        private fun writeFunctionConfigMapping(
+                preferences: MutablePreferences,
+                mapping: Map<FunctionType, FunctionConfigMapping>
+        ) {
+            val stringMapping = mapping.entries.associate { it.key.name to it.value }
+            preferences[FUNCTION_CONFIG_MAPPING] = json.encodeToString(stringMapping)
+        }
+
+        private fun normalizeMapping(
+                decoded: Map<String, FunctionConfigMapping>
+        ): Map<FunctionType, FunctionConfigMapping> {
+            val normalized = defaultMapping().toMutableMap()
+            val functionTypesByName = FunctionType.values().associateBy { it.name }
+            decoded.forEach { (key, value) ->
+                val functionType = functionTypesByName[key] ?: return@forEach
+                normalized[functionType] = value
+            }
+            return normalized
+        }
+
+        private fun defaultMapping(): Map<FunctionType, FunctionConfigMapping> {
+            return FunctionType.values().associateWith { FunctionConfigMapping(DEFAULT_CONFIG_ID, 0) }
+        }
+    }
+
+    // 获取完整的功能配置映射（包含modelIndex）
+    val functionConfigMappingWithIndexFlow: Flow<Map<FunctionType, FunctionConfigMapping>> =
+            context.functionalConfigDataStore.data.map { preferences ->
+                readFunctionConfigMapping(preferences)
+            }
+
+    // 获取功能配置映射（保持向后兼容）
+    val functionConfigMappingFlow: Flow<Map<FunctionType, String>> =
+            functionConfigMappingWithIndexFlow.map { mapping ->
+                mapping.entries.associate { it.key to it.value.configId }
+            }
+
+    // 保存功能配置映射（保持向后兼容）
+    suspend fun saveFunctionConfigMapping(mapping: Map<FunctionType, String>) {
+        val mappingWithIndex = mapping.entries.associate { 
+            it.key to FunctionConfigMapping(it.value, 0) 
+        }
+        saveFunctionConfigMappingWithIndex(mappingWithIndex)
+    }
+
+    // 保存功能配置映射（包含modelIndex）
+    suspend fun saveFunctionConfigMappingWithIndex(mapping: Map<FunctionType, FunctionConfigMapping>) {
+        context.functionalConfigDataStore.edit { preferences ->
+            writeFunctionConfigMapping(preferences, mapping)
+        }
+    }
+
+    // 获取指定功能的配置ID
+    suspend fun getConfigIdForFunction(functionType: FunctionType): String {
+        val mapping = functionConfigMappingFlow.first()
+        return mapping[functionType] ?: DEFAULT_CONFIG_ID
+    }
+
+    // 获取指定功能的完整配置（包含modelIndex）
+    suspend fun getConfigMappingForFunction(functionType: FunctionType): FunctionConfigMapping {
+        val mapping = functionConfigMappingWithIndexFlow.first()
+        return mapping[functionType] ?: FunctionConfigMapping(DEFAULT_CONFIG_ID, 0)
+    }
+
+    // 设置指定功能的配置ID
+    suspend fun setConfigForFunction(functionType: FunctionType, configId: String) {
+        setConfigForFunction(functionType, configId, 0)
+    }
+
+    // 设置指定功能的配置ID和模型索引
+    suspend fun setConfigForFunction(functionType: FunctionType, configId: String, modelIndex: Int) {
+        val mapping = functionConfigMappingWithIndexFlow.first().toMutableMap()
+        mapping[functionType] = FunctionConfigMapping(configId, modelIndex)
+        saveFunctionConfigMappingWithIndex(mapping)
+    }
+
+    // 重置指定功能的配置为默认
+    suspend fun resetFunctionConfig(functionType: FunctionType) {
+        setConfigForFunction(functionType, DEFAULT_CONFIG_ID)
+    }
+
+    // 重置所有功能配置为默认
+    suspend fun resetAllFunctionConfigs() {
+        val defaultMapping = FunctionType.values().associateWith { FunctionConfigMapping(DEFAULT_CONFIG_ID, 0) }
+        saveFunctionConfigMappingWithIndex(defaultMapping)
+    }
+}

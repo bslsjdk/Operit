@@ -1,1 +1,7 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKZGF0YSBjbGFzcyBXb3Jrc3BhY2VSZW5hbWVSZXN1bHQoCiAgICB2YWwgd29ya3NwYWNlUGF0aDogU3RyaW5nLAogICAgdmFsIHdvcmtzcGFjZUVudjogU3RyaW5nPywKICAgIHZhbCB3b3Jrc3BhY2VOYW1lOiBTdHJpbmcKKQo=
+package com.bslsjdk.operit.data.model
+
+data class WorkspaceRenameResult(
+    val workspacePath: String,
+    val workspaceEnv: String?,
+    val workspaceName: String
+)

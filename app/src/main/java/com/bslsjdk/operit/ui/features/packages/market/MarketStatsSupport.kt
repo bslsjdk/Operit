@@ -1,1 +1,34 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgYW5kcm9pZHguYW5ub3RhdGlvbi5TdHJpbmdSZXMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCgplbnVtIGNsYXNzIE1hcmtldFN0YXRzVHlwZSh2YWwgd2lyZVZhbHVlOiBTdHJpbmcpIHsKICAgIFNDUklQVCgic2NyaXB0IiksCiAgICBQQUNLQUdFKCJwYWNrYWdlIiksCiAgICBTS0lMTCgic2tpbGwiKSwKICAgIE1DUCgibWNwIikKfQoKZW51bSBjbGFzcyBNYXJrZXRTb3J0T3B0aW9uKAogICAgQFN0cmluZ1JlcyB2YWwgbGFiZWxSZXM6IEludAopIHsKICAgIFVQREFURUQoUi5zdHJpbmcubWFya2V0X3NvcnRfdXBkYXRlZCksCiAgICBET1dOTE9BRFMoUi5zdHJpbmcubWFya2V0X3NvcnRfZG93bmxvYWRzKSwKICAgIExJS0VTKFIuc3RyaW5nLm1hcmtldF9zb3J0X2xpa2VzKSwKfQoKZnVuIE1hcmtldFNvcnRPcHRpb24udG9SYW5rTWV0cmljKCk6IFN0cmluZyB7CiAgICByZXR1cm4gd2hlbiAodGhpcykgewogICAgICAgIE1hcmtldFNvcnRPcHRpb24uVVBEQVRFRCAtPiAidXBkYXRlZCIKICAgICAgICBNYXJrZXRTb3J0T3B0aW9uLkRPV05MT0FEUyAtPiAiZG93bmxvYWRzIgogICAgICAgIE1hcmtldFNvcnRPcHRpb24uTElLRVMgLT4gImxpa2VzIgogICAgfQp9CgpmdW4gUHVibGlzaEFydGlmYWN0VHlwZS50b01hcmtldFN0YXRzVHlwZSgpOiBNYXJrZXRTdGF0c1R5cGUgewogICAgcmV0dXJuIHdoZW4gKHRoaXMpIHsKICAgICAgICBQdWJsaXNoQXJ0aWZhY3RUeXBlLlNDUklQVCAtPiBNYXJrZXRTdGF0c1R5cGUuU0NSSVBUCiAgICAgICAgUHVibGlzaEFydGlmYWN0VHlwZS5QQUNLQUdFIC0+IE1hcmtldFN0YXRzVHlwZS5QQUNLQUdFCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.packages.market
+
+import androidx.annotation.StringRes
+import com.bslsjdk.operit.R
+
+enum class MarketStatsType(val wireValue: String) {
+    SCRIPT("script"),
+    PACKAGE("package"),
+    SKILL("skill"),
+    MCP("mcp")
+}
+
+enum class MarketSortOption(
+    @StringRes val labelRes: Int
+) {
+    UPDATED(R.string.market_sort_updated),
+    DOWNLOADS(R.string.market_sort_downloads),
+    LIKES(R.string.market_sort_likes),
+}
+
+fun MarketSortOption.toRankMetric(): String {
+    return when (this) {
+        MarketSortOption.UPDATED -> "updated"
+        MarketSortOption.DOWNLOADS -> "downloads"
+        MarketSortOption.LIKES -> "likes"
+    }
+}
+
+fun PublishArtifactType.toMarketStatsType(): MarketStatsType {
+    return when (this) {
+        PublishArtifactType.SCRIPT -> MarketStatsType.SCRIPT
+        PublishArtifactType.PACKAGE -> MarketStatsType.PACKAGE
+    }
+}

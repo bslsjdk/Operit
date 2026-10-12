@@ -1,1 +1,144 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuY29tcG9uZW50cy5kaWFsb2dzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhIZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmhlaWdodEluCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Sb3VuZGVkQ29ybmVyU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlN1cmZhY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTGF1bmNoZWRFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb25maWd1cmF0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5zcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS53aW5kb3cuRGlhbG9nCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuY29tcG9uZW50cy5kaWFsb2dzLmFjdGlvbnMuTUNQU2VydmVyRGV0YWlsc0FjdGlvbnMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5wYWNrYWdlcy5jb21wb25lbnRzLmRpYWxvZ3MuY29udGVudC5NQ1BTZXJ2ZXJDb25maWdDb250ZW50CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuY29tcG9uZW50cy5kaWFsb2dzLmNvbnRlbnQuTUNQU2VydmVyRGV0YWlsc0NvbnRlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5wYWNrYWdlcy5jb21wb25lbnRzLmRpYWxvZ3MuaGVhZGVyLk1DUFNlcnZlckRldGFpbHNIZWFkZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5wYWNrYWdlcy5jb21wb25lbnRzLmRpYWxvZ3MudGFicy5NQ1BTZXJ2ZXJEZXRhaWxzVGFicwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubWNwLk1DUExvY2FsU2VydmVyCgovKioKICogQSBkaWFsb2cgdGhhdCBkaXNwbGF5cyBkZXRhaWxlZCBpbmZvcm1hdGlvbiBhYm91dCBhbiBNQ1Agc2VydmVyLgogKgogKiBAcGFyYW0gc2VydmVyIFRoZSBNQ1Agc2VydmVyIHRvIGRpc3BsYXkgZGV0YWlscyBmb3IKICogQHBhcmFtIG9uRGlzbWlzcyBDYWxsYmFjayB0byBiZSBpbnZva2VkIHdoZW4gdGhlIGRpYWxvZyBpcyBkaXNtaXNzZWQKICogQHBhcmFtIG9uSW5zdGFsbCBDYWxsYmFjayB0byBiZSBpbnZva2VkIHdoZW4gdGhlIGluc3RhbGwgYnV0dG9uIGlzIGNsaWNrZWQKICogQHBhcmFtIG9uVW5pbnN0YWxsIENhbGxiYWNrIHRvIGJlIGludm9rZWQgd2hlbiB0aGUgdW5pbnN0YWxsIGJ1dHRvbiBpcyBjbGlja2VkCiAqIEBwYXJhbSBpbnN0YWxsZWRQYXRoIOW3suWuieijheaPkuS7tueahOi3r+W+hO+8jOWmguaenOacquWuieijheWImeS4um51bGwKICogQHBhcmFtIHBsdWdpbkNvbmZpZyDmj5Lku7bphY3nva7vvIzlj6rlnKjlt7Llronoo4XnmoTmj5Lku7bkuK3mj5DkvpsKICogQHBhcmFtIG9uU2F2ZUNvbmZpZyDkv53lrZjphY3nva7lm57osIMKICogQHBhcmFtIG9uVXBkYXRlQ29uZmlnIOabtOaWsOmFjee9ruWbnuiwgwogKiBAcGFyYW0gbWRGb250U2l6ZSBNYXJrZG93buWGheWuueeahOWtl+S9k+Wkp+WwjwogKi8KQENvbXBvc2FibGUKZnVuIE1DUFNlcnZlckRldGFpbHNEaWFsb2coCiAgICAgICAgc2VydmVyOiBNQ1BMb2NhbFNlcnZlci5QbHVnaW5NZXRhZGF0YSwKICAgICAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQsCiAgICAgICAgb25JbnN0YWxsOiAoTUNQTG9jYWxTZXJ2ZXIuUGx1Z2luTWV0YWRhdGEpIC0+IFVuaXQsCiAgICAgICAgb25Vbmluc3RhbGw6IChNQ1BMb2NhbFNlcnZlci5QbHVnaW5NZXRhZGF0YSkgLT4gVW5pdCwKICAgICAgICBpbnN0YWxsZWRQYXRoOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICBwbHVnaW5Db25maWc6IFN0cmluZyA9ICIiLAogICAgICAgIG9uU2F2ZUNvbmZpZzogKCkgLT4gVW5pdCA9IHt9LAogICAgICAgIG9uVXBkYXRlQ29uZmlnOiAoU3RyaW5nKSAtPiBVbml0ID0ge30sCiAgICAgICAgbWRGb250U2l6ZTogRmxvYXQgPSAxNGYKKSB7CiAgICB2YWwgaXNJbnN0YWxsZWQgPSBzZXJ2ZXIuaXNJbnN0YWxsZWQKICAgIHZhbCBzdXBwb3J0c0xvY2FsQ29uZmlnRWRpdGluZyA9IHNlcnZlci50eXBlICE9ICJyZW1vdGUiCiAgICB2YWwgY29uZmlndXJhdGlvbiA9IExvY2FsQ29uZmlndXJhdGlvbi5jdXJyZW50CiAgICB2YWwgc2NyZWVuSGVpZ2h0ID0gY29uZmlndXJhdGlvbi5zY3JlZW5IZWlnaHREcC5kcAoKICAgIC8vIOa3u+WKoOagh+etvumhteeKtuaAgQogICAgdmFyIHNlbGVjdGVkVGFiSW5kZXggYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZigwKSB9CgogICAgLy8g5pys5Zyw57yW6L6R55qE6YWN572u5YaF5a65CiAgICB2YXIgbG9jYWxQbHVnaW5Db25maWcgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihwbHVnaW5Db25maWcpIH0KCiAgICAvLyDnvJbovpHnu5PmnpzlkIzmraXliLDniLbnu4Tku7YKICAgIExhdW5jaGVkRWZmZWN0KGxvY2FsUGx1Z2luQ29uZmlnKSB7IG9uVXBkYXRlQ29uZmlnKGxvY2FsUGx1Z2luQ29uZmlnKSB9CgogICAgRGlhbG9nKG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MpIHsKICAgICAgICBTdXJmYWNlKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllci5maWxsTWF4V2lkdGgoMC45NWYpIC8vIFRha2UgOTUlIG9mIHRoZSBzY3JlZW4gd2lkdGgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heEhlaWdodCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDAuN2YKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApIC8vIFRha2UgNzAlIG9mIHRoZSBzY3JlZW4gaGVpZ2h0IChyZWR1Y2VkIGZyb20gMC44NWYpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhlaWdodEluKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluID0gNDAwLmRwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4ID0gc2NyZWVuSGVpZ2h0ICogMC43ZiAvLyBSZWR1Y2VkIG1heGltdW0gaGVpZ2h0CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSAvLyBSZXNwb25zaXZlIGhlaWdodAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKHZlcnRpY2FsID0gOC5kcCksIC8vIFJlZHVjZWQgdmVydGljYWwgcGFkZGluZwogICAgICAgICAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMTYuZHApLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2UsCiAgICAgICAgICAgICAgICB0b25hbEVsZXZhdGlvbiA9IDIuZHAKICAgICAgICApIHsKICAgICAgICAgICAgQm94KG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkpIHsKICAgICAgICAgICAgICAgIENvbHVtbihtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gSGVhZGVyIChMb2dvLCB0aXRsZSwgYmFkZ2VzLCBldGMuKQogICAgICAgICAgICAgICAgICAgIE1DUFNlcnZlckRldGFpbHNIZWFkZXIoc2VydmVyID0gc2VydmVyLCBvbkRpc21pc3MgPSBvbkRpc21pc3MpCgogICAgICAgICAgICAgICAgICAgIC8vIFRhYnMgaWYgaW5zdGFsbGVkCiAgICAgICAgICAgICAgICAgICAgaWYgKGlzSW5zdGFsbGVkICYmIHN1cHBvcnRzTG9jYWxDb25maWdFZGl0aW5nKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE1DUFNlcnZlckRldGFpbHNUYWJzKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkVGFiSW5kZXggPSBzZWxlY3RlZFRhYkluZGV4LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uVGFiU2VsZWN0ZWQgPSB7IHNlbGVjdGVkVGFiSW5kZXggPSBpdCB9CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIC8vIENvbnRlbnQgYmFzZWQgb24gc2VsZWN0ZWQgdGFiIC0gTm90ZSB0aGUgcGFkZGluZ0JvdHRvbSB0byBtYWtlIHJvb20gZm9yCiAgICAgICAgICAgICAgICAgICAgLy8gYWN0aW9ucwogICAgICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAud2VpZ2h0KDFmKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKGJvdHRvbSA9IDU2LmRwKSAvLyBNYWtlIHNwYWNlIGZvciBhY3Rpb25zCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmICghaXNJbnN0YWxsZWQgfHwgIXN1cHBvcnRzTG9jYWxDb25maWdFZGl0aW5nIHx8IHNlbGVjdGVkVGFiSW5kZXggPT0gMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gRGV0YWlscyB0YWIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1DUFNlcnZlckRldGFpbHNDb250ZW50KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZXJ2ZXIgPSBzZXJ2ZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFNpemUoKSwgLy8gRmlsbCB0aGUgYXZhaWxhYmxlIHNwYWNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1kRm9udFNpemUgPSBtZEZvbnRTaXplLnNwIC8vIFBhc3MgdGhlIGZvbnQgc2l6ZSBwYXJhbWV0ZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIENvbmZpZyB0YWIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1DUFNlcnZlckNvbmZpZ0NvbnRlbnQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvY2FsUGx1Z2luQ29uZmlnID0gbG9jYWxQbHVnaW5Db25maWcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ29uZmlnQ2hhbmdlZCA9IHsgbG9jYWxQbHVnaW5Db25maWcgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnN0YWxsZWRQYXRoID0gaW5zdGFsbGVkUGF0aCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25TYXZlQ29uZmlnID0gb25TYXZlQ29uZmlnLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCkgLy8gRmlsbCB0aGUgYXZhaWxhYmxlIHNwYWNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8gQm90dG9tIGFjdGlvbiBidXR0b25zIC0gRml4ZWQgYXQgYm90dG9tCiAgICAgICAgICAgICAgICBTdXJmYWNlKAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLmFsaWduKEFsaWdubWVudC5Cb3R0b21DZW50ZXIpLAogICAgICAgICAgICAgICAgICAgICAgICB0b25hbEVsZXZhdGlvbiA9IDMuZHAsIC8vIFNsaWdodGx5IGVsZXZhdGVkCiAgICAgICAgICAgICAgICAgICAgICAgIHNoYWRvd0VsZXZhdGlvbiA9IDQuZHAgLy8gQWRkIHNoYWRvdyBmb3IgdmlzdWFsIHNlcGFyYXRpb24KICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIE1DUFNlcnZlckRldGFpbHNBY3Rpb25zKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VydmVyID0gc2VydmVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNJbnN0YWxsZWQgPSBpc0luc3RhbGxlZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uSW5zdGFsbCA9IG9uSW5zdGFsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uVW5pbnN0YWxsID0gb25Vbmluc3RhbGwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.packages.components.dialogs
+
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalConfiguration
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.ui.window.Dialog
+import com.bslsjdk.operit.ui.features.packages.components.dialogs.actions.MCPServerDetailsActions
+import com.bslsjdk.operit.ui.features.packages.components.dialogs.content.MCPServerConfigContent
+import com.bslsjdk.operit.ui.features.packages.components.dialogs.content.MCPServerDetailsContent
+import com.bslsjdk.operit.ui.features.packages.components.dialogs.header.MCPServerDetailsHeader
+import com.bslsjdk.operit.ui.features.packages.components.dialogs.tabs.MCPServerDetailsTabs
+import com.bslsjdk.operit.data.mcp.MCPLocalServer
+
+/**
+ * A dialog that displays detailed information about an MCP server.
+ *
+ * @param server The MCP server to display details for
+ * @param onDismiss Callback to be invoked when the dialog is dismissed
+ * @param onInstall Callback to be invoked when the install button is clicked
+ * @param onUninstall Callback to be invoked when the uninstall button is clicked
+ * @param installedPath 已安装插件的路径，如果未安装则为null
+ * @param pluginConfig 插件配置，只在已安装的插件中提供
+ * @param onSaveConfig 保存配置回调
+ * @param onUpdateConfig 更新配置回调
+ * @param mdFontSize Markdown内容的字体大小
+ */
+@Composable
+fun MCPServerDetailsDialog(
+        server: MCPLocalServer.PluginMetadata,
+        onDismiss: () -> Unit,
+        onInstall: (MCPLocalServer.PluginMetadata) -> Unit,
+        onUninstall: (MCPLocalServer.PluginMetadata) -> Unit,
+        installedPath: String? = null,
+        pluginConfig: String = "",
+        onSaveConfig: () -> Unit = {},
+        onUpdateConfig: (String) -> Unit = {},
+        mdFontSize: Float = 14f
+) {
+    val isInstalled = server.isInstalled
+    val supportsLocalConfigEditing = server.type != "remote"
+    val configuration = LocalConfiguration.current
+    val screenHeight = configuration.screenHeightDp.dp
+
+    // 添加标签页状态
+    var selectedTabIndex by remember { mutableStateOf(0) }
+
+    // 本地编辑的配置内容
+    var localPluginConfig by remember { mutableStateOf(pluginConfig) }
+
+    // 编辑结果同步到父组件
+    LaunchedEffect(localPluginConfig) { onUpdateConfig(localPluginConfig) }
+
+    Dialog(onDismissRequest = onDismiss) {
+        Surface(
+                modifier =
+                        Modifier.fillMaxWidth(0.95f) // Take 95% of the screen width
+                                .fillMaxHeight(
+                                        0.7f
+                                ) // Take 70% of the screen height (reduced from 0.85f)
+                                .heightIn(
+                                        min = 400.dp,
+                                        max = screenHeight * 0.7f // Reduced maximum height
+                                ) // Responsive height
+                                .padding(vertical = 8.dp), // Reduced vertical padding
+                shape = RoundedCornerShape(16.dp),
+                color = MaterialTheme.colorScheme.surface,
+                tonalElevation = 2.dp
+        ) {
+            Box(modifier = Modifier.fillMaxWidth()) {
+                Column(modifier = Modifier.fillMaxWidth()) {
+                    // Header (Logo, title, badges, etc.)
+                    MCPServerDetailsHeader(server = server, onDismiss = onDismiss)
+
+                    // Tabs if installed
+                    if (isInstalled && supportsLocalConfigEditing) {
+                        MCPServerDetailsTabs(
+                                selectedTabIndex = selectedTabIndex,
+                                onTabSelected = { selectedTabIndex = it }
+                        )
+                    }
+
+                    // Content based on selected tab - Note the paddingBottom to make room for
+                    // actions
+                    Box(
+                            modifier =
+                                    Modifier.fillMaxWidth()
+                                            .weight(1f)
+                                            .padding(bottom = 56.dp) // Make space for actions
+                    ) {
+                        if (!isInstalled || !supportsLocalConfigEditing || selectedTabIndex == 0) {
+                            // Details tab
+                            MCPServerDetailsContent(
+                                    server = server,
+                                    modifier = Modifier.fillMaxSize(), // Fill the available space
+                                    mdFontSize = mdFontSize.sp // Pass the font size parameter
+                            )
+                        } else {
+                            // Config tab
+                            MCPServerConfigContent(
+                                    localPluginConfig = localPluginConfig,
+                                    onConfigChanged = { localPluginConfig = it },
+                                    installedPath = installedPath,
+                                    onSaveConfig = onSaveConfig,
+                                    modifier = Modifier.fillMaxSize() // Fill the available space
+                            )
+                        }
+                    }
+                }
+
+                // Bottom action buttons - Fixed at bottom
+                Surface(
+                        modifier = Modifier.fillMaxWidth().align(Alignment.BottomCenter),
+                        tonalElevation = 3.dp, // Slightly elevated
+                        shadowElevation = 4.dp // Add shadow for visual separation
+                ) {
+                    MCPServerDetailsActions(
+                            server = server,
+                            isInstalled = isInstalled,
+                            onInstall = onInstall,
+                            onUninstall = onUninstall
+                    )
+                }
+            }
+        }
+    }
+}

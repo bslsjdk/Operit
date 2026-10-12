@@ -1,1 +1,170 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5hZ2VudAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLkJpdG1hcAppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5QaXhlbEZvcm1hdAppbXBvcnQgYW5kcm9pZC5oYXJkd2FyZS5kaXNwbGF5LkRpc3BsYXlNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLmhhcmR3YXJlLmRpc3BsYXkuVmlydHVhbERpc3BsYXkKaW1wb3J0IGFuZHJvaWQubWVkaWEuSW1hZ2UKaW1wb3J0IGFuZHJvaWQubWVkaWEuSW1hZ2VSZWFkZXIKaW1wb3J0IGFuZHJvaWQudXRpbC5EaXNwbGF5TWV0cmljcwppbXBvcnQgYW5kcm9pZC52aWV3LldpbmRvd01hbmFnZXIKaW1wb3J0IGFuZHJvaWQudmlldy5TdXJmYWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlT3V0cHV0U3RyZWFtCgpjbGFzcyBWaXJ0dWFsRGlzcGxheU1hbmFnZXIgcHJpdmF0ZSBjb25zdHJ1Y3Rvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlZpcnR1YWxEaXNwbGF5TWFuYWdlciIKCiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgaW5zdGFuY2U6IFZpcnR1YWxEaXNwbGF5TWFuYWdlcj8gPSBudWxsCgogICAgICAgIGZ1biBnZXRJbnN0YW5jZShjb250ZXh0OiBDb250ZXh0KTogVmlydHVhbERpc3BsYXlNYW5hZ2VyIHsKICAgICAgICAgICAgcmV0dXJuIGluc3RhbmNlID86IHN5bmNocm9uaXplZCh0aGlzKSB7CiAgICAgICAgICAgICAgICBpbnN0YW5jZSA/OiBWaXJ0dWFsRGlzcGxheU1hbmFnZXIoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpLmFsc28geyBpbnN0YW5jZSA9IGl0IH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZhciB2aXJ0dWFsRGlzcGxheTogVmlydHVhbERpc3BsYXk/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgaW1hZ2VSZWFkZXI6IEltYWdlUmVhZGVyPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIGRpc3BsYXlJZDogSW50PyA9IG51bGwKCiAgICBmdW4gZW5zdXJlVmlydHVhbERpc3BsYXkoKTogSW50PyB7CiAgICAgICAgaWYgKHZpcnR1YWxEaXNwbGF5ICE9IG51bGwgJiYgZGlzcGxheUlkICE9IG51bGwpIHsKICAgICAgICAgICAgcmV0dXJuIGRpc3BsYXlJZAogICAgICAgIH0KICAgICAgICByZXR1cm4gY3JlYXRlVmlydHVhbERpc3BsYXkoKQogICAgfQoKICAgIGZ1biBnZXREaXNwbGF5SWQoKTogSW50PyA9IGRpc3BsYXlJZAoKICAgIGZ1biByZWxlYXNlKCkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZpcnR1YWxEaXNwbGF5Py5yZWxlYXNlKCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgcmVsZWFzaW5nIHZpcnR1YWwgZGlzcGxheSIsIGUpCiAgICAgICAgfQogICAgICAgIHZpcnR1YWxEaXNwbGF5ID0gbnVsbAoKICAgICAgICB0cnkgewogICAgICAgICAgICBpbWFnZVJlYWRlcj8uY2xvc2UoKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBjbG9zaW5nIEltYWdlUmVhZGVyIiwgZSkKICAgICAgICB9CiAgICAgICAgaW1hZ2VSZWFkZXIgPSBudWxsCiAgICAgICAgZGlzcGxheUlkID0gbnVsbAogICAgfQoKICAgIC8qKgogICAgICogQ2FwdHVyZSB0aGUgbGF0ZXN0IGZyYW1lIGZyb20gdGhlIHZpcnR1YWwgZGlzcGxheSBhcyBhIHJhdyBiaXRtYXAuCiAgICAgKi8KICAgIGZ1biBjYXB0dXJlTGF0ZXN0RnJhbWVCaXRtYXAoKTogQml0bWFwPyB7CiAgICAgICAgdmFsIHJlYWRlciA9IGltYWdlUmVhZGVyID86IHJldHVybiBudWxsCiAgICAgICAgdmFyIGltYWdlOiBJbWFnZT8gPSBudWxsCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGltYWdlID0gcmVhZGVyLmFjcXVpcmVMYXRlc3RJbWFnZSgpID86IHJldHVybiBudWxsCgogICAgICAgICAgICB2YWwgd2lkdGggPSBpbWFnZS53aWR0aAogICAgICAgICAgICB2YWwgaGVpZ2h0ID0gaW1hZ2UuaGVpZ2h0CiAgICAgICAgICAgIGlmICh3aWR0aCA8PSAwIHx8IGhlaWdodCA8PSAwKSByZXR1cm4gbnVsbAoKICAgICAgICAgICAgdmFsIHBsYW5lID0gaW1hZ2UucGxhbmVzWzBdCiAgICAgICAgICAgIHZhbCBidWZmZXIgPSBwbGFuZS5idWZmZXIKICAgICAgICAgICAgdmFsIHBpeGVsU3RyaWRlID0gcGxhbmUucGl4ZWxTdHJpZGUKICAgICAgICAgICAgdmFsIHJvd1N0cmlkZSA9IHBsYW5lLnJvd1N0cmlkZQogICAgICAgICAgICB2YWwgcm93UGFkZGluZyA9IHJvd1N0cmlkZSAtIHBpeGVsU3RyaWRlICogd2lkdGgKCiAgICAgICAgICAgIHZhbCBiaXRtYXAgPSBCaXRtYXAuY3JlYXRlQml0bWFwKAogICAgICAgICAgICAgICAgd2lkdGggKyByb3dQYWRkaW5nIC8gcGl4ZWxTdHJpZGUsCiAgICAgICAgICAgICAgICBoZWlnaHQsCiAgICAgICAgICAgICAgICBCaXRtYXAuQ29uZmlnLkFSR0JfODg4OAogICAgICAgICAgICApCiAgICAgICAgICAgIGJpdG1hcC5jb3B5UGl4ZWxzRnJvbUJ1ZmZlcihidWZmZXIpCgogICAgICAgICAgICB2YWwgY3JvcHBlZCA9IEJpdG1hcC5jcmVhdGVCaXRtYXAoYml0bWFwLCAwLCAwLCB3aWR0aCwgaGVpZ2h0KQogICAgICAgICAgICBiaXRtYXAucmVjeWNsZSgpCiAgICAgICAgICAgIGNyb3BwZWQKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgY2FwdHVyaW5nIHZpcnR1YWwgZGlzcGxheSBmcmFtZSIsIGUpCiAgICAgICAgICAgIG51bGwKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgaW1hZ2U/LmNsb3NlKCkKICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBDYXB0dXJlIHRoZSBsYXRlc3QgZnJhbWUgZnJvbSB0aGUgdmlydHVhbCBkaXNwbGF5IGludG8gdGhlIGdpdmVuIFBORyBmaWxlLgogICAgICogUmV0dXJucyB0cnVlIG9uIHN1Y2Nlc3MsIGZhbHNlIGlmIG5vIGltYWdlIGlzIGF2YWlsYWJsZSBvciBhbiBlcnJvciBvY2N1cnMuCiAgICAgKi8KICAgIGZ1biBjYXB0dXJlTGF0ZXN0RnJhbWVUb0ZpbGUoZmlsZTogRmlsZSk6IEJvb2xlYW4gewogICAgICAgIHZhbCBiaXRtYXAgPSBjYXB0dXJlTGF0ZXN0RnJhbWVCaXRtYXAoKSA/OiByZXR1cm4gZmFsc2UKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgRmlsZU91dHB1dFN0cmVhbShmaWxlKS51c2UgeyBvdXQgLT4KICAgICAgICAgICAgICAgIGlmICghYml0bWFwLmNvbXByZXNzKEJpdG1hcC5Db21wcmVzc0Zvcm1hdC5QTkcsIDEwMCwgb3V0KSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHRydWUKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3Igd3JpdGluZyB2aXJ0dWFsIGRpc3BsYXkgZnJhbWUgdG8gZmlsZSIsIGUpCiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgYml0bWFwLnJlY3ljbGUoKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBjcmVhdGVWaXJ0dWFsRGlzcGxheSgpOiBJbnQ/IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIHdpbmRvd01hbmFnZXIgPSBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoQ29udGV4dC5XSU5ET1dfU0VSVklDRSkgYXMgV2luZG93TWFuYWdlcgogICAgICAgICAgICB2YWwgZGlzcGxheU1hbmFnZXIgPSBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoQ29udGV4dC5ESVNQTEFZX1NFUlZJQ0UpIGFzIERpc3BsYXlNYW5hZ2VyCgogICAgICAgICAgICB2YWwgbWV0cmljcyA9IERpc3BsYXlNZXRyaWNzKCkKICAgICAgICAgICAgQFN1cHByZXNzKCJERVBSRUNBVElPTiIpCiAgICAgICAgICAgIHdpbmRvd01hbmFnZXIuZGVmYXVsdERpc3BsYXkuZ2V0UmVhbE1ldHJpY3MobWV0cmljcykKCiAgICAgICAgICAgIHZhbCBzdGF0dXNCYXJIZWlnaHQgPSBnZXRTdGF0dXNCYXJIZWlnaHQoKQogICAgICAgICAgICB2YWwgd2lkdGggPSBtZXRyaWNzLndpZHRoUGl4ZWxzCiAgICAgICAgICAgIHZhbCBoZWlnaHQgPSAobWV0cmljcy5oZWlnaHRQaXhlbHMgLSBzdGF0dXNCYXJIZWlnaHQpLmNvZXJjZUF0TGVhc3QoMSkKICAgICAgICAgICAgdmFsIGRlbnNpdHlEcGkgPSBtZXRyaWNzLmRlbnNpdHlEcGkKCiAgICAgICAgICAgIHZhbCByZWFkZXIgPSBJbWFnZVJlYWRlci5uZXdJbnN0YW5jZSh3aWR0aCwgaGVpZ2h0LCBQaXhlbEZvcm1hdC5SR0JBXzg4ODgsIDIpCiAgICAgICAgICAgIGltYWdlUmVhZGVyID0gcmVhZGVyCiAgICAgICAgICAgIHZhbCBzdXJmYWNlOiBTdXJmYWNlID0gcmVhZGVyLnN1cmZhY2UKCiAgICAgICAgICAgIHZhbCBmbGFncyA9IERpc3BsYXlNYW5hZ2VyLlZJUlRVQUxfRElTUExBWV9GTEFHX1BVQkxJQyBvcgogICAgICAgICAgICAgICAgICAgIERpc3BsYXlNYW5hZ2VyLlZJUlRVQUxfRElTUExBWV9GTEFHX1BSRVNFTlRBVElPTgoKICAgICAgICAgICAgdmFsIHZkID0gZGlzcGxheU1hbmFnZXIuY3JlYXRlVmlydHVhbERpc3BsYXkoCiAgICAgICAgICAgICAgICAiT3Blcml0VmlydHVhbERpc3BsYXkiLAogICAgICAgICAgICAgICAgd2lkdGgsCiAgICAgICAgICAgICAgICBoZWlnaHQsCiAgICAgICAgICAgICAgICBkZW5zaXR5RHBpLAogICAgICAgICAgICAgICAgc3VyZmFjZSwKICAgICAgICAgICAgICAgIGZsYWdzCiAgICAgICAgICAgICkKICAgICAgICAgICAgdmlydHVhbERpc3BsYXkgPSB2ZAoKICAgICAgICAgICAgdmFsIGRpc3BsYXkgPSB2ZC5kaXNwbGF5CiAgICAgICAgICAgIHZhbCBpZCA9IGRpc3BsYXk/LmRpc3BsYXlJZAogICAgICAgICAgICBkaXNwbGF5SWQgPSBpZAoKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQ3JlYXRlZCB2aXJ0dWFsIGRpc3BsYXkgaWQ9JGlkLCBzaXplPSR7d2lkdGh9eCRoZWlnaHQsIGRlbnNpdHk9JGRlbnNpdHlEcGkiKQogICAgICAgICAgICBpZAogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gY3JlYXRlIHZpcnR1YWwgZGlzcGxheSIsIGUpCiAgICAgICAgICAgIG51bGwKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZ2V0U3RhdHVzQmFySGVpZ2h0KCk6IEludCB7CiAgICAgICAgdmFsIHJlc291cmNlSWQgPSBjb250ZXh0LnJlc291cmNlcy5nZXRJZGVudGlmaWVyKCJzdGF0dXNfYmFyX2hlaWdodCIsICJkaW1lbiIsICJhbmRyb2lkIikKICAgICAgICByZXR1cm4gaWYgKHJlc291cmNlSWQgPiAwKSBjb250ZXh0LnJlc291cmNlcy5nZXREaW1lbnNpb25QaXhlbFNpemUocmVzb3VyY2VJZCkgZWxzZSAwCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.agent
+
+import android.content.Context
+import android.graphics.Bitmap
+import android.graphics.PixelFormat
+import android.hardware.display.DisplayManager
+import android.hardware.display.VirtualDisplay
+import android.media.Image
+import android.media.ImageReader
+import android.util.DisplayMetrics
+import android.view.WindowManager
+import android.view.Surface
+import com.bslsjdk.operit.util.AppLogger
+import java.io.File
+import java.io.FileOutputStream
+
+class VirtualDisplayManager private constructor(private val context: Context) {
+
+    companion object {
+        private const val TAG = "VirtualDisplayManager"
+
+        @Volatile
+        private var instance: VirtualDisplayManager? = null
+
+        fun getInstance(context: Context): VirtualDisplayManager {
+            return instance ?: synchronized(this) {
+                instance ?: VirtualDisplayManager(context.applicationContext).also { instance = it }
+            }
+        }
+    }
+
+    private var virtualDisplay: VirtualDisplay? = null
+    private var imageReader: ImageReader? = null
+    private var displayId: Int? = null
+
+    fun ensureVirtualDisplay(): Int? {
+        if (virtualDisplay != null && displayId != null) {
+            return displayId
+        }
+        return createVirtualDisplay()
+    }
+
+    fun getDisplayId(): Int? = displayId
+
+    fun release() {
+        try {
+            virtualDisplay?.release()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error releasing virtual display", e)
+        }
+        virtualDisplay = null
+
+        try {
+            imageReader?.close()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error closing ImageReader", e)
+        }
+        imageReader = null
+        displayId = null
+    }
+
+    /**
+     * Capture the latest frame from the virtual display as a raw bitmap.
+     */
+    fun captureLatestFrameBitmap(): Bitmap? {
+        val reader = imageReader ?: return null
+        var image: Image? = null
+        return try {
+            image = reader.acquireLatestImage() ?: return null
+
+            val width = image.width
+            val height = image.height
+            if (width <= 0 || height <= 0) return null
+
+            val plane = image.planes[0]
+            val buffer = plane.buffer
+            val pixelStride = plane.pixelStride
+            val rowStride = plane.rowStride
+            val rowPadding = rowStride - pixelStride * width
+
+            val bitmap = Bitmap.createBitmap(
+                width + rowPadding / pixelStride,
+                height,
+                Bitmap.Config.ARGB_8888
+            )
+            bitmap.copyPixelsFromBuffer(buffer)
+
+            val cropped = Bitmap.createBitmap(bitmap, 0, 0, width, height)
+            bitmap.recycle()
+            cropped
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error capturing virtual display frame", e)
+            null
+        } finally {
+            try {
+                image?.close()
+            } catch (_: Exception) {
+            }
+        }
+    }
+
+    /**
+     * Capture the latest frame from the virtual display into the given PNG file.
+     * Returns true on success, false if no image is available or an error occurs.
+     */
+    fun captureLatestFrameToFile(file: File): Boolean {
+        val bitmap = captureLatestFrameBitmap() ?: return false
+        return try {
+            FileOutputStream(file).use { out ->
+                if (!bitmap.compress(Bitmap.CompressFormat.PNG, 100, out)) {
+                    return false
+                }
+            }
+            true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error writing virtual display frame to file", e)
+            false
+        } finally {
+            bitmap.recycle()
+        }
+    }
+
+    private fun createVirtualDisplay(): Int? {
+        return try {
+            val windowManager = context.getSystemService(Context.WINDOW_SERVICE) as WindowManager
+            val displayManager = context.getSystemService(Context.DISPLAY_SERVICE) as DisplayManager
+
+            val metrics = DisplayMetrics()
+            @Suppress("DEPRECATION")
+            windowManager.defaultDisplay.getRealMetrics(metrics)
+
+            val statusBarHeight = getStatusBarHeight()
+            val width = metrics.widthPixels
+            val height = (metrics.heightPixels - statusBarHeight).coerceAtLeast(1)
+            val densityDpi = metrics.densityDpi
+
+            val reader = ImageReader.newInstance(width, height, PixelFormat.RGBA_8888, 2)
+            imageReader = reader
+            val surface: Surface = reader.surface
+
+            val flags = DisplayManager.VIRTUAL_DISPLAY_FLAG_PUBLIC or
+                    DisplayManager.VIRTUAL_DISPLAY_FLAG_PRESENTATION
+
+            val vd = displayManager.createVirtualDisplay(
+                "OperitVirtualDisplay",
+                width,
+                height,
+                densityDpi,
+                surface,
+                flags
+            )
+            virtualDisplay = vd
+
+            val display = vd.display
+            val id = display?.displayId
+            displayId = id
+
+            AppLogger.d(TAG, "Created virtual display id=$id, size=${width}x$height, density=$densityDpi")
+            id
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to create virtual display", e)
+            null
+        }
+    }
+
+    private fun getStatusBarHeight(): Int {
+        val resourceId = context.resources.getIdentifier("status_bar_height", "dimen", "android")
+        return if (resourceId > 0) context.resources.getDimensionPixelSize(resourceId) else 0
+    }
+}

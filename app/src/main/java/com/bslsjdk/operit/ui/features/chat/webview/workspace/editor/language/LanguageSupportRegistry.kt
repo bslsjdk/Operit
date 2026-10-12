@@ -1,1 +1,53 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IubGFuZ3VhZ2UKCi8qKgogKiDor63oqIDmlK/mjIHms6jlhozooajvvIznlKjkuo7nrqHnkIbmiYDmnInmlK/mjIHnmoTor63oqIAKICovCm9iamVjdCBMYW5ndWFnZVN1cHBvcnRSZWdpc3RyeSB7CiAgICBwcml2YXRlIHZhbCBsYW5ndWFnZVN1cHBvcnRzID0gbXV0YWJsZU1hcE9mPFN0cmluZywgTGFuZ3VhZ2VTdXBwb3J0PigpCiAgICBwcml2YXRlIHZhbCBleHRlbnNpb25NYXAgPSBtdXRhYmxlTWFwT2Y8U3RyaW5nLCBTdHJpbmc+KCkKICAgIAogICAgLyoqCiAgICAgKiDms6jlhozkuIDkuKror63oqIDmlK/mjIEKICAgICAqLwogICAgZnVuIHJlZ2lzdGVyKGxhbmd1YWdlU3VwcG9ydDogTGFuZ3VhZ2VTdXBwb3J0KSB7CiAgICAgICAgdmFsIG5hbWUgPSBsYW5ndWFnZVN1cHBvcnQuZ2V0TmFtZSgpLmxvd2VyY2FzZSgpCiAgICAgICAgbGFuZ3VhZ2VTdXBwb3J0c1tuYW1lXSA9IGxhbmd1YWdlU3VwcG9ydAogICAgICAgIAogICAgICAgIC8vIOazqOWGjOaWh+S7tuaJqeWxleWQjeWIsOivreiogOeahOaYoOWwhAogICAgICAgIGZvciAoZXh0ZW5zaW9uIGluIGxhbmd1YWdlU3VwcG9ydC5nZXRGaWxlRXh0ZW5zaW9ucygpKSB7CiAgICAgICAgICAgIGV4dGVuc2lvbk1hcFtleHRlbnNpb24ubG93ZXJjYXNlKCldID0gbmFtZQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmoLnmja7or63oqIDlkI3np7Dojrflj5bor63oqIDmlK/mjIEKICAgICAqLwogICAgZnVuIGdldExhbmd1YWdlU3VwcG9ydChsYW5ndWFnZTogU3RyaW5nKTogTGFuZ3VhZ2VTdXBwb3J0PyB7CiAgICAgICAgcmV0dXJuIGxhbmd1YWdlU3VwcG9ydHNbbGFuZ3VhZ2UubG93ZXJjYXNlKCldCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5qC55o2u5paH5Lu25ZCN6I635Y+W6K+t6KiA5pSv5oyBCiAgICAgKi8KICAgIGZ1biBnZXRMYW5ndWFnZVN1cHBvcnRGb3JGaWxlKGZpbGVOYW1lOiBTdHJpbmcpOiBMYW5ndWFnZVN1cHBvcnQ/IHsKICAgICAgICB2YWwgZXh0ZW5zaW9uID0gZmlsZU5hbWUuc3Vic3RyaW5nQWZ0ZXJMYXN0KCcuJywgIiIpLmxvd2VyY2FzZSgpCiAgICAgICAgdmFsIGxhbmd1YWdlID0gZXh0ZW5zaW9uTWFwW2V4dGVuc2lvbl0gPzogcmV0dXJuIG51bGwKICAgICAgICByZXR1cm4gbGFuZ3VhZ2VTdXBwb3J0c1tsYW5ndWFnZV0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDojrflj5bmiYDmnInmlK/mjIHnmoTor63oqIAKICAgICAqLwogICAgZnVuIGdldFN1cHBvcnRlZExhbmd1YWdlcygpOiBTZXQ8U3RyaW5nPiB7CiAgICAgICAgcmV0dXJuIGxhbmd1YWdlU3VwcG9ydHMua2V5cwogICAgfQogICAgCiAgICAvKioKICAgICAqIOWIneWni+WMlum7mOiupOivreiogOaUr+aMgQogICAgICovCiAgICBmdW4gaW5pdCgpIHsKICAgICAgICAvLyDov5nph4zkvJrlnKjlupTnlKjlkK/liqjml7bms6jlhozmiYDmnInor63oqIDmlK/mjIEKICAgICAgICAvLyDlsIblnKjlkITkuKror63oqIDlrp7njrDnsbvkuK3osIPnlKgKICAgIH0KfSA=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language
+
+/**
+ * 语言支持注册表，用于管理所有支持的语言
+ */
+object LanguageSupportRegistry {
+    private val languageSupports = mutableMapOf<String, LanguageSupport>()
+    private val extensionMap = mutableMapOf<String, String>()
+    
+    /**
+     * 注册一个语言支持
+     */
+    fun register(languageSupport: LanguageSupport) {
+        val name = languageSupport.getName().lowercase()
+        languageSupports[name] = languageSupport
+        
+        // 注册文件扩展名到语言的映射
+        for (extension in languageSupport.getFileExtensions()) {
+            extensionMap[extension.lowercase()] = name
+        }
+    }
+    
+    /**
+     * 根据语言名称获取语言支持
+     */
+    fun getLanguageSupport(language: String): LanguageSupport? {
+        return languageSupports[language.lowercase()]
+    }
+    
+    /**
+     * 根据文件名获取语言支持
+     */
+    fun getLanguageSupportForFile(fileName: String): LanguageSupport? {
+        val extension = fileName.substringAfterLast('.', "").lowercase()
+        val language = extensionMap[extension] ?: return null
+        return languageSupports[language]
+    }
+    
+    /**
+     * 获取所有支持的语言
+     */
+    fun getSupportedLanguages(): Set<String> {
+        return languageSupports.keys
+    }
+    
+    /**
+     * 初始化默认语言支持
+     */
+    fun init() {
+        // 这里会在应用启动时注册所有语言支持
+        // 将在各个语言实现类中调用
+    }
+} 

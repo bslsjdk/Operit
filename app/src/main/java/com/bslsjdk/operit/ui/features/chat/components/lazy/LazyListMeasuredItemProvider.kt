@@ -1,1 +1,78 @@
-LyoKICogQ29weXJpZ2h0IDIwMjAgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24uSW50TGlzdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMYXlvdXRLZXlJbmRleE1hcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMYXlvdXRNZWFzdXJlU2NvcGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5MYXp5TGF5b3V0TWVhc3VyZWRJdGVtUHJvdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LlBsYWNlYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkNvbnN0cmFpbnRzCgovKiogQWJzdHJhY3RzIGF3YXkgdGhlIHN1YmNvbXBvc2l0aW9uIGZyb20gdGhlIG1lYXN1cmluZyBsb2dpYy4gKi8KaW50ZXJuYWwgYWJzdHJhY3QgY2xhc3MgTGF6eUxpc3RNZWFzdXJlZEl0ZW1Qcm92aWRlcigKICAgIGNvbnN0cmFpbnRzOiBDb25zdHJhaW50cywKICAgIGlzVmVydGljYWw6IEJvb2xlYW4sCiAgICBwcml2YXRlIHZhbCBpdGVtUHJvdmlkZXI6IExhenlMaXN0SXRlbVByb3ZpZGVyLAogICAgcHJpdmF0ZSB2YWwgbWVhc3VyZVNjb3BlOiBMYXp5TGF5b3V0TWVhc3VyZVNjb3BlLAopIDogTGF6eUxheW91dE1lYXN1cmVkSXRlbVByb3ZpZGVyPExhenlMaXN0TWVhc3VyZWRJdGVtPigpIHsKICAgIC8vIHRoZSBjb25zdHJhaW50cyB3ZSB3aWxsIG1lYXN1cmUgY2hpbGQgd2l0aC4gdGhlIG1haW4gYXhpcyBpcyBub3QgcmVzdHJpY3RlZAogICAgdmFsIGNoaWxkQ29uc3RyYWludHMgPQogICAgICAgIENvbnN0cmFpbnRzKAogICAgICAgICAgICBtYXhXaWR0aCA9IGlmIChpc1ZlcnRpY2FsKSBjb25zdHJhaW50cy5tYXhXaWR0aCBlbHNlIENvbnN0cmFpbnRzLkluZmluaXR5LAogICAgICAgICAgICBtYXhIZWlnaHQgPSBpZiAoIWlzVmVydGljYWwpIGNvbnN0cmFpbnRzLm1heEhlaWdodCBlbHNlIENvbnN0cmFpbnRzLkluZmluaXR5LAogICAgICAgICkKCiAgICBvdmVycmlkZSBmdW4gZ2V0QW5kTWVhc3VyZShpbmRleDogSW50LCBsYW5lOiBJbnQsIHNwYW46IEludCwgY29uc3RyYWludHM6IENvbnN0cmFpbnRzKSA9CiAgICAgICAgZ2V0QW5kTWVhc3VyZShpbmRleCwgY29uc3RyYWludHMpCgogICAgLyoqCiAgICAgKiBVc2VkIHRvIHN1YmNvbXBvc2UgaXRlbXMgb2YgbGF6eSBsaXN0cy4gQ29tcG9zZWQgcGxhY2VhYmxlcyB3aWxsIGJlIG1lYXN1cmVkIHdpdGggdGhlIGNvcnJlY3QKICAgICAqIGNvbnN0cmFpbnRzIGFuZCB3cmFwcGVkIGludG8gW0xhenlMaXN0TWVhc3VyZWRJdGVtXS4KICAgICAqLwogICAgZnVuIGdldEFuZE1lYXN1cmUoCiAgICAgICAgaW5kZXg6IEludCwKICAgICAgICBjb25zdHJhaW50czogQ29uc3RyYWludHMgPSBjaGlsZENvbnN0cmFpbnRzLAogICAgKTogTGF6eUxpc3RNZWFzdXJlZEl0ZW0gewogICAgICAgIHZhbCBrZXkgPSBpdGVtUHJvdmlkZXIuZ2V0S2V5KGluZGV4KQogICAgICAgIHZhbCBjb250ZW50VHlwZSA9IGl0ZW1Qcm92aWRlci5nZXRDb250ZW50VHlwZShpbmRleCkKICAgICAgICB2YWwgcGxhY2VhYmxlcyA9IG1lYXN1cmVTY29wZS5nZXRQbGFjZWFibGVzKGluZGV4LCBjb25zdHJhaW50cykKICAgICAgICByZXR1cm4gY3JlYXRlSXRlbShpbmRleCwga2V5LCBjb250ZW50VHlwZSwgcGxhY2VhYmxlcywgY29uc3RyYWludHMpCiAgICB9CgogICAgZnVuIGtlZXBBcm91bmQoaW5kZXg6IEludCkgewogICAgICAgIG1lYXN1cmVTY29wZS5jb21wb3NlKGluZGV4KQogICAgfQoKICAgIC8qKgogICAgICogQ29udGFpbnMgdGhlIG1hcHBpbmcgYmV0d2VlbiB0aGUga2V5IGFuZCB0aGUgaW5kZXguIEl0IGNvdWxkIGNvbnRhaW4gbm90IGFsbCB0aGUgaXRlbXMgb2YgdGhlCiAgICAgKiBsaXN0IGFzIGFuIG9wdGltaXphdGlvbi4KICAgICAqLwogICAgdmFsIGtleUluZGV4TWFwOiBMYXp5TGF5b3V0S2V5SW5kZXhNYXAKICAgICAgICBnZXQoKSA9IGl0ZW1Qcm92aWRlci5rZXlJbmRleE1hcAoKICAgIHZhbCBoZWFkZXJJbmRleGVzOiBJbnRMaXN0CiAgICAgICAgZ2V0KCkgPSBpdGVtUHJvdmlkZXIuaGVhZGVySW5kZXhlcwoKICAgIGFic3RyYWN0IGZ1biBjcmVhdGVJdGVtKAogICAgICAgIGluZGV4OiBJbnQsCiAgICAgICAga2V5OiBBbnksCiAgICAgICAgY29udGVudFR5cGU6IEFueT8sCiAgICAgICAgcGxhY2VhYmxlczogTGlzdDxQbGFjZWFibGU+LAogICAgICAgIGNvbnN0cmFpbnRzOiBDb25zdHJhaW50cywKICAgICk6IExhenlMaXN0TWVhc3VyZWRJdGVtCn0K
+/*
+ * Copyright 2020 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.collection.IntList
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutKeyIndexMap
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutMeasureScope
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutMeasuredItemProvider
+import androidx.compose.ui.layout.Placeable
+import androidx.compose.ui.unit.Constraints
+
+/** Abstracts away the subcomposition from the measuring logic. */
+internal abstract class LazyListMeasuredItemProvider(
+    constraints: Constraints,
+    isVertical: Boolean,
+    private val itemProvider: LazyListItemProvider,
+    private val measureScope: LazyLayoutMeasureScope,
+) : LazyLayoutMeasuredItemProvider<LazyListMeasuredItem>() {
+    // the constraints we will measure child with. the main axis is not restricted
+    val childConstraints =
+        Constraints(
+            maxWidth = if (isVertical) constraints.maxWidth else Constraints.Infinity,
+            maxHeight = if (!isVertical) constraints.maxHeight else Constraints.Infinity,
+        )
+
+    override fun getAndMeasure(index: Int, lane: Int, span: Int, constraints: Constraints) =
+        getAndMeasure(index, constraints)
+
+    /**
+     * Used to subcompose items of lazy lists. Composed placeables will be measured with the correct
+     * constraints and wrapped into [LazyListMeasuredItem].
+     */
+    fun getAndMeasure(
+        index: Int,
+        constraints: Constraints = childConstraints,
+    ): LazyListMeasuredItem {
+        val key = itemProvider.getKey(index)
+        val contentType = itemProvider.getContentType(index)
+        val placeables = measureScope.getPlaceables(index, constraints)
+        return createItem(index, key, contentType, placeables, constraints)
+    }
+
+    fun keepAround(index: Int) {
+        measureScope.compose(index)
+    }
+
+    /**
+     * Contains the mapping between the key and the index. It could contain not all the items of the
+     * list as an optimization.
+     */
+    val keyIndexMap: LazyLayoutKeyIndexMap
+        get() = itemProvider.keyIndexMap
+
+    val headerIndexes: IntList
+        get() = itemProvider.headerIndexes
+
+    abstract fun createItem(
+        index: Int,
+        key: Any,
+        contentType: Any?,
+        placeables: List<Placeable>,
+        constraints: Constraints,
+    ): LazyListMeasuredItem
+}

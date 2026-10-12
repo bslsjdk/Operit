@@ -1,1 +1,484 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQubWVkaWEuQXVkaW9BdHRyaWJ1dGVzCmltcG9ydCBhbmRyb2lkLm1lZGlhLk1lZGlhUGxheWVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuU3BlZWNoU2VydmljZXNQcmVmZXJlbmNlcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29tcGxldGFibGVEZWZlcnJlZAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5TdXBlcnZpc29ySm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuY2hhbm5lbHMuQ2hhbm5lbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNhbmNlbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5maXJzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbk9iamVjdAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uanNvblByaW1pdGl2ZQppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkZpbGVPdXRwdXRTdHJlYW0KaW1wb3J0IGphdmEubmV0Lkh0dHBVUkxDb25uZWN0aW9uCmltcG9ydCBqYXZhLm5ldC5VUkwKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNCb29sZWFuCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljTG9uZwoKLyoqCiAqIOehheWfuua1geWKqFRUU+ivremfs+acjeWKoeWunueOsAogKi8KY2xhc3MgU2lsaWNvbkZsb3dWb2ljZVByb3ZpZGVyKAogICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCwKICAgIHByaXZhdGUgdmFsIGFwaUtleTogU3RyaW5nLAogICAgaW5pdGlhbFZvaWNlSWQ6IFN0cmluZywKICAgIHByaXZhdGUgdmFsIGluaXRpYWxNb2RlbE5hbWU6IFN0cmluZyA9ICIiCikgOiBWb2ljZVNlcnZpY2UgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlNpbGljb25GbG93Vm9pY2VQcm92aWRlciIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBBUElfVVJMID0gImh0dHBzOi8vYXBpLnNpbGljb25mbG93LmNuL3YxL2F1ZGlvL3NwZWVjaCIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVNQT05TRV9GT1JNQVQgPSAibXAzIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFNBTVBMRV9SQVRFID0gMzIwMDAKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBTUEVFRCA9IDEuMAogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEdBSU4gPSAwCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgU1BFRUNIX1BSRVZJRVdfTUFYID0gNDgKCiAgICAgICAgLy8g5Y+v55So6Z+z6Imy5YiX6KGoIC0g5qC55o2u56GF5Z+65rWB5Yqo5a6Y5pa55paH5qGjCiAgICAgICAgLy8g5rOo5oSP77ya546w5Zyo5Y+q5YiX5Ye66Z+z6Imy5ZCN56ew77yM5qih5Z6L5Zyo6K6+572u5Lit54us56uL6YWN572uCiAgICAgICAgZnVuIGdldEF2YWlsYWJsZVZvaWNlcyhjb250ZXh0OiBDb250ZXh0KTogTGlzdDxWb2ljZVNlcnZpY2UuVm9pY2U+ID0gbGlzdE9mKAogICAgICAgICAgICBWb2ljZVNlcnZpY2UuVm9pY2UoImFsZXgiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaWxpY29uZmxvd192b2ljZV9hbGV4KSwgInpoLUNOIiwgIk1BTEUiKSwKICAgICAgICAgICAgVm9pY2VTZXJ2aWNlLlZvaWNlKCJiZW5qYW1pbiIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNpbGljb25mbG93X3ZvaWNlX2JlbmphbWluKSwgInpoLUNOIiwgIk1BTEUiKSwKICAgICAgICAgICAgVm9pY2VTZXJ2aWNlLlZvaWNlKCJjaGFybGVzIiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2lsaWNvbmZsb3dfdm9pY2VfY2hhcmxlcyksICJ6aC1DTiIsICJNQUxFIiksCiAgICAgICAgICAgIFZvaWNlU2VydmljZS5Wb2ljZSgiZGF2aWQiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaWxpY29uZmxvd192b2ljZV9kYXZpZCksICJ6aC1DTiIsICJNQUxFIiksCiAgICAgICAgICAgIFZvaWNlU2VydmljZS5Wb2ljZSgiYW5uYSIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNpbGljb25mbG93X3ZvaWNlX2FubmEpLCAiemgtQ04iLCAiRkVNQUxFIiksCiAgICAgICAgICAgIFZvaWNlU2VydmljZS5Wb2ljZSgiYmVsbGEiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaWxpY29uZmxvd192b2ljZV9iZWxsYSksICJ6aC1DTiIsICJGRU1BTEUiKSwKICAgICAgICAgICAgVm9pY2VTZXJ2aWNlLlZvaWNlKCJjbGFpcmUiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaWxpY29uZmxvd192b2ljZV9jbGFpcmUpLCAiemgtQ04iLCAiRkVNQUxFIiksCiAgICAgICAgICAgIFZvaWNlU2VydmljZS5Wb2ljZSgiZGlhbmEiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaWxpY29uZmxvd192b2ljZV9kaWFuYSksICJ6aC1DTiIsICJGRU1BTEUiKQogICAgICAgICkKICAgICAgICB2YWwgREVGQVVMVF9WT0lDRV9JRCA9ICJjaGFybGVzIgogICAgfQoKICAgIHByaXZhdGUgZnVuIHNwZWVjaFByZXZpZXcodGV4dDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdGV4dC5yZXBsYWNlKCJcbiIsICJcXG4iKS50YWtlKFNQRUVDSF9QUkVWSUVXX01BWCkKICAgIH0KCiAgICAvLyDlvZPliY3pn7PoibIKICAgIHByaXZhdGUgdmFyIHZvaWNlSWQ6IFN0cmluZyA9IGluaXRpYWxWb2ljZUlkLmlmQmxhbmsgeyBERUZBVUxUX1ZPSUNFX0lEIH0KCgogICAgLy8gTWVkaWFQbGF5ZXLnlKjkuo7mkq3mlL7pn7PpopEKICAgIHByaXZhdGUgdmFyIG1lZGlhUGxheWVyOiBNZWRpYVBsYXllcj8gPSBudWxsCiAgICBwcml2YXRlIHZhciBjdXJyZW50UGxheWJhY2tGaWxlOiBGaWxlPyA9IG51bGwKCiAgICBwcml2YXRlIHZhbCBzcGVha1Njb3BlID0gQ29yb3V0aW5lU2NvcGUoU3VwZXJ2aXNvckpvYigpICsgRGlzcGF0Y2hlcnMuSU8pCiAgICBwcml2YXRlIHZhbCBzcGVha1F1ZXVlID0gQ2hhbm5lbDxTcGVha1JlcXVlc3Q+KENoYW5uZWwuVU5MSU1JVEVEKQogICAgcHJpdmF0ZSB2YWwgcGxheWJhY2tRdWV1ZSA9IENoYW5uZWw8UHJlcGFyZWRSZXF1ZXN0PihDaGFubmVsLlVOTElNSVRFRCkKICAgIHByaXZhdGUgdmFsIHN0b3BHZW5lcmF0aW9uID0gQXRvbWljTG9uZygwKQogICAgcHJpdmF0ZSB2YWwgaXNQYXVzZWQgPSBBdG9taWNCb29sZWFuKGZhbHNlKQoKICAgIC8vIOWIneWni+WMlueKtuaAgQogICAgcHJpdmF0ZSB2YWwgX2lzSW5pdGlhbGl6ZWQgPSBNdXRhYmxlU3RhdGVGbG93KGZhbHNlKQogICAgb3ZlcnJpZGUgdmFsIGlzSW5pdGlhbGl6ZWQ6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IF9pc0luaXRpYWxpemVkLnZhbHVlCgogICAgLy8g5pKt5pS+54q25oCBCiAgICBwcml2YXRlIHZhbCBfaXNTcGVha2luZyA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICBvdmVycmlkZSB2YWwgaXNTcGVha2luZzogQm9vbGVhbgogICAgICAgIGdldCgpID0gX2lzU3BlYWtpbmcudmFsdWUKCiAgICAvLyDmkq3mlL7nirbmgIFGbG93CiAgICBvdmVycmlkZSB2YWwgc3BlYWtpbmdTdGF0ZUZsb3c6IEZsb3c8Qm9vbGVhbj4gPSBfaXNTcGVha2luZy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIFNwZWFrUmVxdWVzdCgKICAgICAgICB2YWwgdGV4dDogU3RyaW5nLAogICAgICAgIHZhbCBpbnRlcnJ1cHQ6IEJvb2xlYW4sCiAgICAgICAgdmFsIHJhdGU6IEZsb2F0PywKICAgICAgICB2YWwgcGl0Y2g6IEZsb2F0PywKICAgICAgICB2YWwgZXh0cmFQYXJhbXM6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICAgICAgdmFsIGdlbmVyYXRpb246IExvbmcsCiAgICAgICAgdmFsIGNvbXBsZXRpb246IENvbXBsZXRhYmxlRGVmZXJyZWQ8Qm9vbGVhbj4KICAgICkKCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgUHJlcGFyZWRSZXF1ZXN0KAogICAgICAgIHZhbCByZXF1ZXN0OiBTcGVha1JlcXVlc3QsCiAgICAgICAgdmFsIGF1ZGlvRmlsZTogRmlsZQogICAgKQoKICAgIGluaXQgewogICAgICAgIHNwZWFrU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgZm9yIChyZXF1ZXN0IGluIHNwZWFrUXVldWUpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHByZXBhcmVkID0gZmV0Y2hBdWRpb0ZpbGUocmVxdWVzdCkKICAgICAgICAgICAgICAgICAgICBpZiAocHJlcGFyZWQgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICByZXF1ZXN0LmNvbXBsZXRpb24uY29tcGxldGUoZmFsc2UpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGxheWJhY2tRdWV1ZS5zZW5kKHByZXBhcmVkKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIHJlcXVlc3QuY29tcGxldGlvbi5jb21wbGV0ZUV4Y2VwdGlvbmFsbHkoZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgc3BlYWtTY29wZS5sYXVuY2ggewogICAgICAgICAgICBmb3IgKHByZXBhcmVkIGluIHBsYXliYWNrUXVldWUpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHBsYXlQcmVwYXJlZFJlcXVlc3QocHJlcGFyZWQpCiAgICAgICAgICAgICAgICAgICAgcHJlcGFyZWQucmVxdWVzdC5jb21wbGV0aW9uLmNvbXBsZXRlKHJlc3VsdCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIHByZXBhcmVkLnJlcXVlc3QuY29tcGxldGlvbi5jb21wbGV0ZUV4Y2VwdGlvbmFsbHkoZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBpbml0aWFsaXplKCk6IEJvb2xlYW4gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGlmIChhcGlLZXkuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBUdHNFeGNlcHRpb24oY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2lsaWNvbmZsb3dfZXJyb3JfYXBpX2tleV9ub3Rfc2V0KSkKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAodm9pY2VJZC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgICAgIHRocm93IFR0c0V4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaWxpY29uZmxvd19lcnJvcl92b2ljZV9pZF9ub3Rfc2V0KSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgX2lzSW5pdGlhbGl6ZWQudmFsdWUgPSB0cnVlCiAgICAgICAgICAgIEFwcExvZ2dlci5pKFRBRywgIuehheWfuua1geWKqFRUU+WIneWni+WMluaIkOWKnyIpCiAgICAgICAgICAgIHRydWUKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi56GF5Z+65rWB5YqoVFRT5Yid5aeL5YyW5aSx6LSlIiwgZSkKICAgICAgICAgICAgX2lzSW5pdGlhbGl6ZWQudmFsdWUgPSBmYWxzZQogICAgICAgICAgICBpZiAoZSBpcyBUdHNFeGNlcHRpb24pIHRocm93IGUKICAgICAgICAgICAgdGhyb3cgVHRzRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNpbGljb25mbG93X2Vycm9yX2luaXRfZmFpbGVkKSwgY2F1c2UgPSBlKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBzcGVhaygKICAgICAgICB0ZXh0OiBTdHJpbmcsCiAgICAgICAgaW50ZXJydXB0OiBCb29sZWFuLAogICAgICAgIHJhdGU6IEZsb2F0PywKICAgICAgICBwaXRjaDogRmxvYXQ/LAogICAgICAgIGV4dHJhUGFyYW1zOiBNYXA8U3RyaW5nLCBTdHJpbmc+CiAgICApOiBCb29sZWFuID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAic3BlYWsgcmVxdWVzdCBpbnRlcnJ1cHQ9JGludGVycnVwdCBsZW49JHt0ZXh0Lmxlbmd0aH0gcHJldmlldz1cIiR7c3BlZWNoUHJldmlldyh0ZXh0KX1cIiByYXRlPSRyYXRlIHBpdGNoPSRwaXRjaCB2b2ljZT0kdm9pY2VJZCBwYXVzZWQ9JHtpc1BhdXNlZC5nZXQoKX0gaW5pdGlhbGl6ZWQ9JGlzSW5pdGlhbGl6ZWQgZXh0cmFLZXlzPSR7ZXh0cmFQYXJhbXMua2V5c30iCiAgICAgICAgKQogICAgICAgIHZhbCBjb21wbGV0aW9uID0gQ29tcGxldGFibGVEZWZlcnJlZDxCb29sZWFuPigpCiAgICAgICAgdmFsIHJlcXVlc3QgPSBTcGVha1JlcXVlc3QoCiAgICAgICAgICAgIHRleHQgPSB0ZXh0LAogICAgICAgICAgICBpbnRlcnJ1cHQgPSBpbnRlcnJ1cHQsCiAgICAgICAgICAgIHJhdGUgPSByYXRlLAogICAgICAgICAgICBwaXRjaCA9IHBpdGNoLAogICAgICAgICAgICBleHRyYVBhcmFtcyA9IGV4dHJhUGFyYW1zLAogICAgICAgICAgICBnZW5lcmF0aW9uID0gc3RvcEdlbmVyYXRpb24uZ2V0KCksCiAgICAgICAgICAgIGNvbXBsZXRpb24gPSBjb21wbGV0aW9uCiAgICAgICAgKQogICAgICAgIHNwZWFrUXVldWUuc2VuZChyZXF1ZXN0KQogICAgICAgIGNvbXBsZXRpb24uYXdhaXQoKQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZmV0Y2hBdWRpb0ZpbGUocmVxdWVzdDogU3BlYWtSZXF1ZXN0KTogUHJlcGFyZWRSZXF1ZXN0PyB7CiAgICAgICAgaWYgKCFpc0luaXRpYWxpemVkKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlRUU+acquWIneWni+WMliIpCiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAocmVxdWVzdC5pbnRlcnJ1cHQgJiYgaXNTcGVha2luZykgewogICAgICAgICAgICAgICAgc3RvcFBsYXliYWNrT25seSgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChyZXF1ZXN0LmdlbmVyYXRpb24gIT0gc3RvcEdlbmVyYXRpb24uZ2V0KCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBwcmVmcyA9IFNwZWVjaFNlcnZpY2VzUHJlZmVyZW5jZXMoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgIHZhbCBlZmZlY3RpdmVSYXRlID0gcmVxdWVzdC5yYXRlID86IHByZWZzLnR0c1NwZWVjaFJhdGVGbG93LmZpcnN0KCkKCiAgICAgICAgICAgIHZhbCBzdHJpcHBlZElucHV0ID0gcmVxdWVzdC50ZXh0LnJlcGxhY2UoUmVnZXgoIjxbXj5dKz4iKSwgIiIpLnRyaW0oKQogICAgICAgICAgICBpZiAoc3RyaXBwZWRJbnB1dC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIlRUU+i+k+WFpeS4uuepuu+8jOi3s+i/h+ivt+axgiIpCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDku44gZXh0cmFQYXJhbXMg6I635Y+W6Ieq5a6a5LmJ55qEIG1vZGVsIOWSjCB2b2ljZe+8jOWmguaenOayoeacieWImeS9v+eUqOmFjee9ruaIlum7mOiupOWAvAogICAgICAgICAgICB2YWwgY3VzdG9tTW9kZWwgPSByZXF1ZXN0LmV4dHJhUGFyYW1zWyJtb2RlbCJdCiAgICAgICAgICAgIHZhbCBjdXN0b21Wb2ljZSA9IHJlcXVlc3QuZXh0cmFQYXJhbXNbInZvaWNlIl0KCiAgICAgICAgICAgIHZhbCAobW9kZWwsIHZvaWNlKSA9IHdoZW4gewogICAgICAgICAgICAgICAgLy8g5LyY5YWI5L2/55SoIGV4dHJhUGFyYW1zIOS4reeahOiHquWumuS5ieWAvAogICAgICAgICAgICAgICAgY3VzdG9tTW9kZWwgIT0gbnVsbCAmJiBjdXN0b21Wb2ljZSAhPSBudWxsIC0+IHsKICAgICAgICAgICAgICAgICAgICBjdXN0b21Nb2RlbCB0byBjdXN0b21Wb2ljZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY3VzdG9tTW9kZWwgIT0gbnVsbCAtPiB7CiAgICAgICAgICAgICAgICAgICAgLy8g5Y+q5oyH5a6a5LqGbW9kZWzvvIzkvb/nlKh2b2ljZUlk5L2c5Li6dm9pY2UKICAgICAgICAgICAgICAgICAgICBjdXN0b21Nb2RlbCB0byB2b2ljZUlkCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjdXN0b21Wb2ljZSAhPSBudWxsIC0+IHsKICAgICAgICAgICAgICAgICAgICAvLyDlj6rmjIflrprkuoZ2b2ljZe+8jOS9v+eUqOmFjee9rueahG1vZGVs5oiW6buY6K6kbW9kZWwKICAgICAgICAgICAgICAgICAgICB2YWwgbW9kZWxOYW1lID0gaW5pdGlhbE1vZGVsTmFtZS5pZkJsYW5rIHsgIkZ1bkF1ZGlvTExNL0Nvc3lWb2ljZTItMC41QiIgfQogICAgICAgICAgICAgICAgICAgIG1vZGVsTmFtZSB0byBjdXN0b21Wb2ljZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgLy8g5L2/55So6YWN572u55qEbW9kZWzvvIjmiJbpu5jorqTvvInlkox2b2ljZUlkCiAgICAgICAgICAgICAgICAgICAgdmFsIG1vZGVsTmFtZSA9IGluaXRpYWxNb2RlbE5hbWUuaWZCbGFuayB7ICJGdW5BdWRpb0xMTS9Db3N5Vm9pY2UyLTAuNUIiIH0KICAgICAgICAgICAgICAgICAgICBtb2RlbE5hbWUgdG8gdm9pY2VJZAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDmuIXnkIYgdm9pY2Ug5a2X56ym5Liy77yM5Y676Zmk5Y+v6IO955qE56m655m95a2X56ymCiAgICAgICAgICAgIHZhbCBjbGVhblZvaWNlID0gdm9pY2UudHJpbSgpCgogICAgICAgICAgICAvLyDmnoTlu7ror7fmsYLkvZMKICAgICAgICAgICAgdmFsIHJlcXVlc3RCb2R5ID0gYnVpbGRTdHJpbmcgewogICAgICAgICAgICAgICAgYXBwZW5kKCJ7IikKICAgICAgICAgICAgICAgIGFwcGVuZCgiXCJtb2RlbFwiOlwiJG1vZGVsXCIsIikKICAgICAgICAgICAgICAgIGFwcGVuZCgiXCJpbnB1dFwiOlwiJHtzdHJpcHBlZElucHV0LnJlcGxhY2UoIlwiIiwgIlxcXCIiKX1cIiwiKQoKICAgICAgICAgICAgICAgIC8vIOagueaNruWumOaWueaWh+aho++8mgogICAgICAgICAgICAgICAgLy8gMS4g57O757uf6aKE5a6a5LmJ6Z+z6Imy77yI5aaCIGFsZXgsIGJlbGxh77yJ6ZyA6KaB5qC85byP5Li6ICJtb2RlbDp2b2ljZSIKICAgICAgICAgICAgICAgIC8vIDIuIOeUqOaIt+iHquWumuS5iemfs+iJsu+8iOS7pSBzcGVlY2g6IOW8gOWktO+8ieebtOaOpeS9v+eUqOWujOaVtOeahCB2b2ljZSBJRAogICAgICAgICAgICAgICAgLy8g5Lik56eN5oOF5Ya16YO95L2/55SoIHZvaWNlIOWtl+autQogICAgICAgICAgICAgICAgdmFsIHZvaWNlVmFsdWUgPSBpZiAoY2xlYW5Wb2ljZS5zdGFydHNXaXRoKCJzcGVlY2g6IikpIHsKICAgICAgICAgICAgICAgICAgICAvLyDoh6rlrprkuYnpn7PoibLvvIznm7TmjqXkvb/nlKjlrozmlbQgSUQKICAgICAgICAgICAgICAgICAgICBjbGVhblZvaWNlCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIC8vIOmihOe9rumfs+iJsu+8jOmcgOimgeWKoOS4iuaooeWei+WJjee8gAogICAgICAgICAgICAgICAgICAgIGlmIChjbGVhblZvaWNlLmNvbnRhaW5zKCI6IikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6c5bey57uP5YyF5ZCr5YaS5Y+377yM6K+05piO5bey57uP5piv5a6M5pW05qC85byPCiAgICAgICAgICAgICAgICAgICAgICAgIGNsZWFuVm9pY2UKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAvLyDlkKbliJnmt7vliqDmqKHlnovliY3nvIAKICAgICAgICAgICAgICAgICAgICAgICAgIiRtb2RlbDokY2xlYW5Wb2ljZSIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBhcHBlbmQoIlwidm9pY2VcIjpcIiR2b2ljZVZhbHVlXCIsIikKCiAgICAgICAgICAgICAgICBhcHBlbmQoIlwicmVzcG9uc2VfZm9ybWF0XCI6XCIkUkVTUE9OU0VfRk9STUFUXCIsIikKICAgICAgICAgICAgICAgIGFwcGVuZCgiXCJzYW1wbGVfcmF0ZVwiOiRTQU1QTEVfUkFURSwiKQogICAgICAgICAgICAgICAgYXBwZW5kKCJcInNwZWVkXCI6JHtlZmZlY3RpdmVSYXRlLnRvRG91YmxlKCl9LCIpCiAgICAgICAgICAgICAgICBhcHBlbmQoIlwiZ2FpblwiOiRHQUlOIikKICAgICAgICAgICAgICAgIGFwcGVuZCgifSIpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlRUU+ivt+axguWPguaVsCAtIG1vZGVsOiAkbW9kZWwsIHZvaWNlOiAkdm9pY2UiKQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJUVFPor7fmsYLkvZM6ICRyZXF1ZXN0Qm9keSIpCgogICAgICAgICAgICAvLyDlj5HpgIFIVFRQ6K+35rGCCiAgICAgICAgICAgIHZhbCB1cmwgPSBVUkwoQVBJX1VSTCkKICAgICAgICAgICAgdmFsIGNvbm5lY3Rpb24gPSB1cmwub3BlbkNvbm5lY3Rpb24oKSBhcyBIdHRwVVJMQ29ubmVjdGlvbgogICAgICAgICAgICBjb25uZWN0aW9uLnJlcXVlc3RNZXRob2QgPSAiUE9TVCIKICAgICAgICAgICAgY29ubmVjdGlvbi5zZXRSZXF1ZXN0UHJvcGVydHkoIkF1dGhvcml6YXRpb24iLCAiQmVhcmVyICRhcGlLZXkiKQogICAgICAgICAgICBjb25uZWN0aW9uLnNldFJlcXVlc3RQcm9wZXJ0eSgiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iKQogICAgICAgICAgICBjb25uZWN0aW9uLmRvT3V0cHV0ID0gdHJ1ZQoKICAgICAgICAgICAgLy8g5YaZ5YWl6K+35rGC5L2TCiAgICAgICAgICAgIGNvbm5lY3Rpb24ub3V0cHV0U3RyZWFtLnVzZSB7IG9zIC0+CiAgICAgICAgICAgICAgICBvcy53cml0ZShyZXF1ZXN0Qm9keS50b0J5dGVBcnJheSgpKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgcmVzcG9uc2VDb2RlID0gY29ubmVjdGlvbi5yZXNwb25zZUNvZGUKICAgICAgICAgICAgaWYgKHJlc3BvbnNlQ29kZSA9PSBIdHRwVVJMQ29ubmVjdGlvbi5IVFRQX09LKSB7CiAgICAgICAgICAgICAgICAvLyDlsIbpn7PpopHmlbDmja7kv53lrZjliLDkuLTml7bmlofku7YKICAgICAgICAgICAgICAgIHZhbCB0ZW1wRmlsZSA9IEZpbGUuY3JlYXRlVGVtcEZpbGUoInNpbGljb25mbG93X3R0cyIsICIubXAzIiwgY29udGV4dC5jYWNoZURpcikKCiAgICAgICAgICAgICAgICBjb25uZWN0aW9uLmlucHV0U3RyZWFtLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICAgICAgRmlsZU91dHB1dFN0cmVhbSh0ZW1wRmlsZSkudXNlIHsgb3V0cHV0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0LmNvcHlUbyhvdXRwdXQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGlmIChyZXF1ZXN0LmdlbmVyYXRpb24gIT0gc3RvcEdlbmVyYXRpb24uZ2V0KCkpIHsKICAgICAgICAgICAgICAgICAgICB0ZW1wRmlsZS5kZWxldGUoKQogICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcmV0dXJuIFByZXBhcmVkUmVxdWVzdChyZXF1ZXN0LCB0ZW1wRmlsZSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHZhbCBlcnJvckJvZHkgPSBjb25uZWN0aW9uLmVycm9yU3RyZWFtPy5idWZmZXJlZFJlYWRlcigpPy5yZWFkVGV4dCgpCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJUVFPor7fmsYLlpLHotKXvvIzlk43lupTnoIE6ICRyZXNwb25zZUNvZGUsIEJvZHk6ICRlcnJvckJvZHkiKQogICAgICAgICAgICAgICAgdGhyb3cgVHRzRXhjZXB0aW9uKAogICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSAiVFRTIHJlcXVlc3QgZmFpbGVkIHdpdGggY29kZSAkcmVzcG9uc2VDb2RlIiwKICAgICAgICAgICAgICAgICAgICBodHRwU3RhdHVzQ29kZSA9IHJlc3BvbnNlQ29kZSwKICAgICAgICAgICAgICAgICAgICBlcnJvckJvZHkgPSBlcnJvckJvZHkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJUVFMgc3BlYWvlpLHotKUiLCBlKQogICAgICAgICAgICBpZiAoZSBpcyBUdHNFeGNlcHRpb24pIHRocm93IGUKICAgICAgICAgICAgdGhyb3cgVHRzRXhjZXB0aW9uKCJUVFMgc3BlYWsgZmFpbGVkIiwgY2F1c2UgPSBlKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHBsYXlQcmVwYXJlZFJlcXVlc3QocHJlcGFyZWQ6IFByZXBhcmVkUmVxdWVzdCk6IEJvb2xlYW4gewogICAgICAgIGlmIChwcmVwYXJlZC5yZXF1ZXN0LmdlbmVyYXRpb24gIT0gc3RvcEdlbmVyYXRpb24uZ2V0KCkpIHsKICAgICAgICAgICAgcHJlcGFyZWQuYXVkaW9GaWxlLmRlbGV0ZSgpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHBsYXlBdWRpb0ZpbGVBbmRBd2FpdChwcmVwYXJlZC5hdWRpb0ZpbGUpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY2xlYXJQZW5kaW5nUmVxdWVzdHMoKSB7CiAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgdmFsIHJlcXVlc3QgPSBzcGVha1F1ZXVlLnRyeVJlY2VpdmUoKS5nZXRPck51bGwoKSA/OiBicmVhawogICAgICAgICAgICByZXF1ZXN0LmNvbXBsZXRpb24uY29tcGxldGUoZmFsc2UpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNsZWFyUGVuZGluZ1BsYXliYWNrKCkgewogICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgIHZhbCBwcmVwYXJlZCA9IHBsYXliYWNrUXVldWUudHJ5UmVjZWl2ZSgpLmdldE9yTnVsbCgpID86IGJyZWFrCiAgICAgICAgICAgIHByZXBhcmVkLmF1ZGlvRmlsZS5kZWxldGUoKQogICAgICAgICAgICBwcmVwYXJlZC5yZXF1ZXN0LmNvbXBsZXRpb24uY29tcGxldGUoZmFsc2UpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHN0b3BQbGF5YmFja09ubHkoKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGlzUGF1c2VkLnNldChmYWxzZSkKICAgICAgICAgICAgbWVkaWFQbGF5ZXI/LmFwcGx5IHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgInN0b3BQbGF5YmFja09ubHkgcGxheWVyRXhpc3RzPXRydWUgaXNQbGF5aW5nPSRpc1BsYXlpbmciKQogICAgICAgICAgICAgICAgaWYgKGlzUGxheWluZykgewogICAgICAgICAgICAgICAgICAgIHN0b3AoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmVzZXQoKQogICAgICAgICAgICAgICAgcmVsZWFzZSgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbWVkaWFQbGF5ZXIgPSBudWxsCiAgICAgICAgICAgIF9pc1NwZWFraW5nLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgY3VycmVudFBsYXliYWNrRmlsZT8uZGVsZXRlKCkKICAgICAgICAgICAgY3VycmVudFBsYXliYWNrRmlsZSA9IG51bGwKICAgICAgICAgICAgdHJ1ZQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLlgZzmraLmkq3mlL7lpLHotKUiLCBlKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHBsYXlBdWRpb0ZpbGVBbmRBd2FpdChmaWxlOiBGaWxlKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKCFmaWxlLmV4aXN0cygpIHx8IGZpbGUubGVuZ3RoKCkgPT0gMEwpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiQXVkaW8gZmlsZSBpcyBpbnZhbGlkOiAke2ZpbGUuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgY3VycmVudFBsYXliYWNrRmlsZT8uZGVsZXRlKCkKICAgICAgICBjdXJyZW50UGxheWJhY2tGaWxlID0gZmlsZQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAicGxheUF1ZGlvRmlsZUFuZEF3YWl0IHN0YXJ0IHBhdGg9JHtmaWxlLmFic29sdXRlUGF0aH0gc2l6ZT0ke2ZpbGUubGVuZ3RoKCl9IHBhdXNlZD0ke2lzUGF1c2VkLmdldCgpfSIpCiAgICAgICAgICAgIGlzUGF1c2VkLnNldChmYWxzZSkKICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICAgICAgbWVkaWFQbGF5ZXI/LnJlbGVhc2UoKQogICAgICAgICAgICAgICAgbWVkaWFQbGF5ZXIgPSBNZWRpYVBsYXllcigpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICBzZXRBdWRpb0F0dHJpYnV0ZXMoCiAgICAgICAgICAgICAgICAgICAgICAgIEF1ZGlvQXR0cmlidXRlcy5CdWlsZGVyKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zZXRDb250ZW50VHlwZShBdWRpb0F0dHJpYnV0ZXMuQ09OVEVOVF9UWVBFX1NQRUVDSCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zZXRVc2FnZShBdWRpb0F0dHJpYnV0ZXMuVVNBR0VfQVNTSVNUQU5UKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgc2V0RGF0YVNvdXJjZShmaWxlLmFic29sdXRlUGF0aCkKICAgICAgICAgICAgICAgICAgICBzZXRPbkVycm9yTGlzdGVuZXIgeyBfLCB3aGF0LCBleHRyYSAtPgogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJNZWRpYVBsYXllcumUmeivrzogd2hhdD0kd2hhdCwgZXh0cmE9JGV4dHJhIikKICAgICAgICAgICAgICAgICAgICAgICAgdHJ1ZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBwcmVwYXJlKCkKICAgICAgICAgICAgICAgICAgICBzdGFydCgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIF9pc1NwZWFraW5nLnZhbHVlID0gdHJ1ZQogICAgICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICAgICAgdmFsIHBsYXllciA9IG1lZGlhUGxheWVyID86IGJyZWFrCiAgICAgICAgICAgICAgICBpZiAoIXBsYXllci5pc1BsYXlpbmcgJiYgIWlzUGF1c2VkLmdldCgpKSB7CiAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGRlbGF5KDEwMCkKICAgICAgICAgICAgfQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJwbGF5QXVkaW9GaWxlQW5kQXdhaXQgd2FpdExvb3BFeGl0IHBhdXNlZD0ke2lzUGF1c2VkLmdldCgpfSBzcGVha2luZz0ke19pc1NwZWFraW5nLnZhbHVlfSIpCiAgICAgICAgICAgIHRydWUKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5pKt5pS+6Z+z6aKR5aSx6LSlIiwgZSkKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBfaXNTcGVha2luZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIGlzUGF1c2VkLnNldChmYWxzZSkKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAicGxheUF1ZGlvRmlsZUFuZEF3YWl0IGZpbmFsbHkgcGF1c2VkPSR7aXNQYXVzZWQuZ2V0KCl9IHNwZWFraW5nPSR7X2lzU3BlYWtpbmcudmFsdWV9IikKICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICAgICAgbWVkaWFQbGF5ZXI/LnJlbGVhc2UoKQogICAgICAgICAgICAgICAgbWVkaWFQbGF5ZXIgPSBudWxsCiAgICAgICAgICAgIH0KICAgICAgICAgICAgY3VycmVudFBsYXliYWNrRmlsZT8uZGVsZXRlKCkKICAgICAgICAgICAgY3VycmVudFBsYXliYWNrRmlsZSA9IG51bGwKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc3RvcCgpOiBCb29sZWFuIHsKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJzdG9wIHJlcXVlc3QgcGF1c2VkPSR7aXNQYXVzZWQuZ2V0KCl9IHNwZWFraW5nPSR7X2lzU3BlYWtpbmcudmFsdWV9IikKICAgICAgICBzdG9wR2VuZXJhdGlvbi5pbmNyZW1lbnRBbmRHZXQoKQogICAgICAgIGlzUGF1c2VkLnNldChmYWxzZSkKICAgICAgICBjbGVhclBlbmRpbmdSZXF1ZXN0cygpCiAgICAgICAgY2xlYXJQZW5kaW5nUGxheWJhY2soKQogICAgICAgIHZhbCByZXN1bHQgPSBzdG9wUGxheWJhY2tPbmx5KCkKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJzdG9wIHJlc3VsdD0kcmVzdWx0IHBhdXNlZD0ke2lzUGF1c2VkLmdldCgpfSBzcGVha2luZz0ke19pc1NwZWFraW5nLnZhbHVlfSIpCiAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHBhdXNlKCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJwYXVzZSByZXF1ZXN0IHBhdXNlZD0ke2lzUGF1c2VkLmdldCgpfSBzcGVha2luZz0ke19pc1NwZWFraW5nLnZhbHVlfSBwbGF5ZXJFeGlzdHM9JHttZWRpYVBsYXllciAhPSBudWxsfSIpCiAgICAgICAgICAgIG1lZGlhUGxheWVyPy5wYXVzZSgpCiAgICAgICAgICAgIGlzUGF1c2VkLnNldCh0cnVlKQogICAgICAgICAgICBfaXNTcGVha2luZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgInBhdXNlIHJlc3VsdD10cnVlIHBhdXNlZD0ke2lzUGF1c2VkLmdldCgpfSBzcGVha2luZz0ke19pc1NwZWFraW5nLnZhbHVlfSIpCiAgICAgICAgICAgIHRydWUKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5pqC5YGc5pKt5pS+5aSx6LSlIiwgZSkKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcmVzdW1lKCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJyZXN1bWUgcmVxdWVzdCBwYXVzZWQ9JHtpc1BhdXNlZC5nZXQoKX0gc3BlYWtpbmc9JHtfaXNTcGVha2luZy52YWx1ZX0gcGxheWVyRXhpc3RzPSR7bWVkaWFQbGF5ZXIgIT0gbnVsbH0iKQogICAgICAgICAgICBtZWRpYVBsYXllcj8uc3RhcnQoKQogICAgICAgICAgICBpc1BhdXNlZC5zZXQoZmFsc2UpCiAgICAgICAgICAgIF9pc1NwZWFraW5nLnZhbHVlID0gdHJ1ZQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJyZXN1bWUgcmVzdWx0PXRydWUgcGF1c2VkPSR7aXNQYXVzZWQuZ2V0KCl9IHNwZWFraW5nPSR7X2lzU3BlYWtpbmcudmFsdWV9IikKICAgICAgICAgICAgdHJ1ZQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLmgaLlpI3mkq3mlL7lpLHotKUiLCBlKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gc2h1dGRvd24oKSB7CiAgICAgICAgc3RvcEdlbmVyYXRpb24uaW5jcmVtZW50QW5kR2V0KCkKICAgICAgICBzcGVha1Njb3BlLmNhbmNlbCgpCiAgICAgICAgY2xlYXJQZW5kaW5nUmVxdWVzdHMoKQogICAgICAgIGNsZWFyUGVuZGluZ1BsYXliYWNrKCkKICAgICAgICBzdG9wUGxheWJhY2tPbmx5KCkKICAgICAgICBzcGVha1F1ZXVlLmNsb3NlKCkKICAgICAgICBwbGF5YmFja1F1ZXVlLmNsb3NlKCkKICAgICAgICBfaXNJbml0aWFsaXplZC52YWx1ZSA9IGZhbHNlCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZ2V0QXZhaWxhYmxlVm9pY2VzKCk6IExpc3Q8Vm9pY2VTZXJ2aWNlLlZvaWNlPiB7CiAgICAgICAgcmV0dXJuIGdldEF2YWlsYWJsZVZvaWNlcyhjb250ZXh0KQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHNldFZvaWNlKHZvaWNlSWQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIC8vIOaUr+aMgeezu+e7n+mihOe9rumfs+iJsuWSjOeUqOaIt+iHquWumuS5iemfs+iJsu+8iOS7pXNwZWVjaDrlvIDlpLTvvIkKICAgICAgICBpZiAoZ2V0QXZhaWxhYmxlVm9pY2VzKGNvbnRleHQpLmFueSB7IGl0LmlkID09IHZvaWNlSWQgfSB8fCB2b2ljZUlkLnN0YXJ0c1dpdGgoInNwZWVjaDoiKSkgewogICAgICAgICAgICB0aGlzLnZvaWNlSWQgPSB2b2ljZUlkCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuiuvue9rumfs+iJsjogJHZvaWNlSWQiKQogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KICAgICAgICBBcHBMb2dnZXIudyhUQUcsICLkuI3mlK/mjIHnmoTpn7PoibJJRDogJHZvaWNlSWQiKQogICAgICAgIHJldHVybiBmYWxzZQogICAgfQp9IAo=
+package com.bslsjdk.operit.api.voice
+
+import android.content.Context
+import android.media.AudioAttributes
+import android.media.MediaPlayer
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.preferences.SpeechServicesPreferences
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.cancel
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.jsonPrimitive
+import java.io.File
+import java.io.FileOutputStream
+import java.net.HttpURLConnection
+import java.net.URL
+import java.util.concurrent.atomic.AtomicBoolean
+import java.util.concurrent.atomic.AtomicLong
+
+/**
+ * 硅基流动TTS语音服务实现
+ */
+class SiliconFlowVoiceProvider(
+    private val context: Context,
+    private val apiKey: String,
+    initialVoiceId: String,
+    private val initialModelName: String = ""
+) : VoiceService {
+    companion object {
+        private const val TAG = "SiliconFlowVoiceProvider"
+        private const val API_URL = "https://api.siliconflow.cn/v1/audio/speech"
+        private const val RESPONSE_FORMAT = "mp3"
+        private const val SAMPLE_RATE = 32000
+        private const val SPEED = 1.0
+        private const val GAIN = 0
+        private const val SPEECH_PREVIEW_MAX = 48
+
+        // 可用音色列表 - 根据硅基流动官方文档
+        // 注意：现在只列出音色名称，模型在设置中独立配置
+        fun getAvailableVoices(context: Context): List<VoiceService.Voice> = listOf(
+            VoiceService.Voice("alex", context.getString(R.string.siliconflow_voice_alex), "zh-CN", "MALE"),
+            VoiceService.Voice("benjamin", context.getString(R.string.siliconflow_voice_benjamin), "zh-CN", "MALE"),
+            VoiceService.Voice("charles", context.getString(R.string.siliconflow_voice_charles), "zh-CN", "MALE"),
+            VoiceService.Voice("david", context.getString(R.string.siliconflow_voice_david), "zh-CN", "MALE"),
+            VoiceService.Voice("anna", context.getString(R.string.siliconflow_voice_anna), "zh-CN", "FEMALE"),
+            VoiceService.Voice("bella", context.getString(R.string.siliconflow_voice_bella), "zh-CN", "FEMALE"),
+            VoiceService.Voice("claire", context.getString(R.string.siliconflow_voice_claire), "zh-CN", "FEMALE"),
+            VoiceService.Voice("diana", context.getString(R.string.siliconflow_voice_diana), "zh-CN", "FEMALE")
+        )
+        val DEFAULT_VOICE_ID = "charles"
+    }
+
+    private fun speechPreview(text: String): String {
+        return text.replace("\n", "\\n").take(SPEECH_PREVIEW_MAX)
+    }
+
+    // 当前音色
+    private var voiceId: String = initialVoiceId.ifBlank { DEFAULT_VOICE_ID }
+
+
+    // MediaPlayer用于播放音频
+    private var mediaPlayer: MediaPlayer? = null
+    private var currentPlaybackFile: File? = null
+
+    private val speakScope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val speakQueue = Channel<SpeakRequest>(Channel.UNLIMITED)
+    private val playbackQueue = Channel<PreparedRequest>(Channel.UNLIMITED)
+    private val stopGeneration = AtomicLong(0)
+    private val isPaused = AtomicBoolean(false)
+
+    // 初始化状态
+    private val _isInitialized = MutableStateFlow(false)
+    override val isInitialized: Boolean
+        get() = _isInitialized.value
+
+    // 播放状态
+    private val _isSpeaking = MutableStateFlow(false)
+    override val isSpeaking: Boolean
+        get() = _isSpeaking.value
+
+    // 播放状态Flow
+    override val speakingStateFlow: Flow<Boolean> = _isSpeaking.asStateFlow()
+
+    private data class SpeakRequest(
+        val text: String,
+        val interrupt: Boolean,
+        val rate: Float?,
+        val pitch: Float?,
+        val extraParams: Map<String, String>,
+        val generation: Long,
+        val completion: CompletableDeferred<Boolean>
+    )
+
+    private data class PreparedRequest(
+        val request: SpeakRequest,
+        val audioFile: File
+    )
+
+    init {
+        speakScope.launch {
+            for (request in speakQueue) {
+                try {
+                    val prepared = fetchAudioFile(request)
+                    if (prepared == null) {
+                        request.completion.complete(false)
+                    } else {
+                        playbackQueue.send(prepared)
+                    }
+                } catch (e: Exception) {
+                    request.completion.completeExceptionally(e)
+                }
+            }
+        }
+
+        speakScope.launch {
+            for (prepared in playbackQueue) {
+                try {
+                    val result = playPreparedRequest(prepared)
+                    prepared.request.completion.complete(result)
+                } catch (e: Exception) {
+                    prepared.request.completion.completeExceptionally(e)
+                }
+            }
+        }
+    }
+
+    override suspend fun initialize(): Boolean = withContext(Dispatchers.IO) {
+        try {
+            if (apiKey.isBlank()) {
+                throw TtsException(context.getString(R.string.siliconflow_error_api_key_not_set))
+            }
+            if (voiceId.isBlank()) {
+                throw TtsException(context.getString(R.string.siliconflow_error_voice_id_not_set))
+            }
+
+            _isInitialized.value = true
+            AppLogger.i(TAG, "硅基流动TTS初始化成功")
+            true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "硅基流动TTS初始化失败", e)
+            _isInitialized.value = false
+            if (e is TtsException) throw e
+            throw TtsException(context.getString(R.string.siliconflow_error_init_failed), cause = e)
+        }
+    }
+
+    override suspend fun speak(
+        text: String,
+        interrupt: Boolean,
+        rate: Float?,
+        pitch: Float?,
+        extraParams: Map<String, String>
+    ): Boolean = withContext(Dispatchers.IO) {
+        AppLogger.d(
+            TAG,
+            "speak request interrupt=$interrupt len=${text.length} preview=\"${speechPreview(text)}\" rate=$rate pitch=$pitch voice=$voiceId paused=${isPaused.get()} initialized=$isInitialized extraKeys=${extraParams.keys}"
+        )
+        val completion = CompletableDeferred<Boolean>()
+        val request = SpeakRequest(
+            text = text,
+            interrupt = interrupt,
+            rate = rate,
+            pitch = pitch,
+            extraParams = extraParams,
+            generation = stopGeneration.get(),
+            completion = completion
+        )
+        speakQueue.send(request)
+        completion.await()
+    }
+
+    private suspend fun fetchAudioFile(request: SpeakRequest): PreparedRequest? {
+        if (!isInitialized) {
+            AppLogger.e(TAG, "TTS未初始化")
+            return null
+        }
+
+        try {
+            if (request.interrupt && isSpeaking) {
+                stopPlaybackOnly()
+            }
+
+            if (request.generation != stopGeneration.get()) {
+                return null
+            }
+
+            val prefs = SpeechServicesPreferences(context.applicationContext)
+            val effectiveRate = request.rate ?: prefs.ttsSpeechRateFlow.first()
+
+            val strippedInput = request.text.replace(Regex("<[^>]+>"), "").trim()
+            if (strippedInput.isBlank()) {
+                AppLogger.w(TAG, "TTS输入为空，跳过请求")
+                return null
+            }
+
+            // 从 extraParams 获取自定义的 model 和 voice，如果没有则使用配置或默认值
+            val customModel = request.extraParams["model"]
+            val customVoice = request.extraParams["voice"]
+
+            val (model, voice) = when {
+                // 优先使用 extraParams 中的自定义值
+                customModel != null && customVoice != null -> {
+                    customModel to customVoice
+                }
+                customModel != null -> {
+                    // 只指定了model，使用voiceId作为voice
+                    customModel to voiceId
+                }
+                customVoice != null -> {
+                    // 只指定了voice，使用配置的model或默认model
+                    val modelName = initialModelName.ifBlank { "FunAudioLLM/CosyVoice2-0.5B" }
+                    modelName to customVoice
+                }
+                else -> {
+                    // 使用配置的model（或默认）和voiceId
+                    val modelName = initialModelName.ifBlank { "FunAudioLLM/CosyVoice2-0.5B" }
+                    modelName to voiceId
+                }
+            }
+
+            // 清理 voice 字符串，去除可能的空白字符
+            val cleanVoice = voice.trim()
+
+            // 构建请求体
+            val requestBody = buildString {
+                append("{")
+                append("\"model\":\"$model\",")
+                append("\"input\":\"${strippedInput.replace("\"", "\\\"")}\",")
+
+                // 根据官方文档：
+                // 1. 系统预定义音色（如 alex, bella）需要格式为 "model:voice"
+                // 2. 用户自定义音色（以 speech: 开头）直接使用完整的 voice ID
+                // 两种情况都使用 voice 字段
+                val voiceValue = if (cleanVoice.startsWith("speech:")) {
+                    // 自定义音色，直接使用完整 ID
+                    cleanVoice
+                } else {
+                    // 预置音色，需要加上模型前缀
+                    if (cleanVoice.contains(":")) {
+                        // 如果已经包含冒号，说明已经是完整格式
+                        cleanVoice
+                    } else {
+                        // 否则添加模型前缀
+                        "$model:$cleanVoice"
+                    }
+                }
+                append("\"voice\":\"$voiceValue\",")
+
+                append("\"response_format\":\"$RESPONSE_FORMAT\",")
+                append("\"sample_rate\":$SAMPLE_RATE,")
+                append("\"speed\":${effectiveRate.toDouble()},")
+                append("\"gain\":$GAIN")
+                append("}")
+            }
+
+            AppLogger.d(TAG, "TTS请求参数 - model: $model, voice: $voice")
+            AppLogger.d(TAG, "TTS请求体: $requestBody")
+
+            // 发送HTTP请求
+            val url = URL(API_URL)
+            val connection = url.openConnection() as HttpURLConnection
+            connection.requestMethod = "POST"
+            connection.setRequestProperty("Authorization", "Bearer $apiKey")
+            connection.setRequestProperty("Content-Type", "application/json")
+            connection.doOutput = true
+
+            // 写入请求体
+            connection.outputStream.use { os ->
+                os.write(requestBody.toByteArray())
+            }
+
+            val responseCode = connection.responseCode
+            if (responseCode == HttpURLConnection.HTTP_OK) {
+                // 将音频数据保存到临时文件
+                val tempFile = File.createTempFile("siliconflow_tts", ".mp3", context.cacheDir)
+
+                connection.inputStream.use { input ->
+                    FileOutputStream(tempFile).use { output ->
+                        input.copyTo(output)
+                    }
+                }
+
+                if (request.generation != stopGeneration.get()) {
+                    tempFile.delete()
+                    return null
+                }
+
+                return PreparedRequest(request, tempFile)
+            } else {
+                val errorBody = connection.errorStream?.bufferedReader()?.readText()
+                AppLogger.e(TAG, "TTS请求失败，响应码: $responseCode, Body: $errorBody")
+                throw TtsException(
+                    message = "TTS request failed with code $responseCode",
+                    httpStatusCode = responseCode,
+                    errorBody = errorBody
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "TTS speak失败", e)
+            if (e is TtsException) throw e
+            throw TtsException("TTS speak failed", cause = e)
+        }
+    }
+
+    private suspend fun playPreparedRequest(prepared: PreparedRequest): Boolean {
+        if (prepared.request.generation != stopGeneration.get()) {
+            prepared.audioFile.delete()
+            return false
+        }
+
+        return playAudioFileAndAwait(prepared.audioFile)
+    }
+
+    private fun clearPendingRequests() {
+        while (true) {
+            val request = speakQueue.tryReceive().getOrNull() ?: break
+            request.completion.complete(false)
+        }
+    }
+
+    private fun clearPendingPlayback() {
+        while (true) {
+            val prepared = playbackQueue.tryReceive().getOrNull() ?: break
+            prepared.audioFile.delete()
+            prepared.request.completion.complete(false)
+        }
+    }
+
+    private fun stopPlaybackOnly(): Boolean {
+        return try {
+            isPaused.set(false)
+            mediaPlayer?.apply {
+                AppLogger.d(TAG, "stopPlaybackOnly playerExists=true isPlaying=$isPlaying")
+                if (isPlaying) {
+                    stop()
+                }
+                reset()
+                release()
+            }
+            mediaPlayer = null
+            _isSpeaking.value = false
+            currentPlaybackFile?.delete()
+            currentPlaybackFile = null
+            true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "停止播放失败", e)
+            false
+        }
+    }
+
+    private suspend fun playAudioFileAndAwait(file: File): Boolean {
+        if (!file.exists() || file.length() == 0L) {
+            AppLogger.e(TAG, "Audio file is invalid: ${file.absolutePath}")
+            return false
+        }
+
+        currentPlaybackFile?.delete()
+        currentPlaybackFile = file
+
+        return try {
+            AppLogger.d(TAG, "playAudioFileAndAwait start path=${file.absolutePath} size=${file.length()} paused=${isPaused.get()}")
+            isPaused.set(false)
+            withContext(Dispatchers.Main) {
+                mediaPlayer?.release()
+                mediaPlayer = MediaPlayer().apply {
+                    setAudioAttributes(
+                        AudioAttributes.Builder()
+                            .setContentType(AudioAttributes.CONTENT_TYPE_SPEECH)
+                            .setUsage(AudioAttributes.USAGE_ASSISTANT)
+                            .build()
+                    )
+                    setDataSource(file.absolutePath)
+                    setOnErrorListener { _, what, extra ->
+                        AppLogger.e(TAG, "MediaPlayer错误: what=$what, extra=$extra")
+                        true
+                    }
+                    prepare()
+                    start()
+                }
+            }
+
+            _isSpeaking.value = true
+            while (true) {
+                val player = mediaPlayer ?: break
+                if (!player.isPlaying && !isPaused.get()) {
+                    break
+                }
+                delay(100)
+            }
+            AppLogger.d(TAG, "playAudioFileAndAwait waitLoopExit paused=${isPaused.get()} speaking=${_isSpeaking.value}")
+            true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "播放音频失败", e)
+            false
+        } finally {
+            _isSpeaking.value = false
+            isPaused.set(false)
+            AppLogger.d(TAG, "playAudioFileAndAwait finally paused=${isPaused.get()} speaking=${_isSpeaking.value}")
+            withContext(Dispatchers.Main) {
+                mediaPlayer?.release()
+                mediaPlayer = null
+            }
+            currentPlaybackFile?.delete()
+            currentPlaybackFile = null
+        }
+    }
+
+    override suspend fun stop(): Boolean {
+        AppLogger.d(TAG, "stop request paused=${isPaused.get()} speaking=${_isSpeaking.value}")
+        stopGeneration.incrementAndGet()
+        isPaused.set(false)
+        clearPendingRequests()
+        clearPendingPlayback()
+        val result = stopPlaybackOnly()
+        AppLogger.d(TAG, "stop result=$result paused=${isPaused.get()} speaking=${_isSpeaking.value}")
+        return result
+    }
+
+    override suspend fun pause(): Boolean {
+        return try {
+            AppLogger.d(TAG, "pause request paused=${isPaused.get()} speaking=${_isSpeaking.value} playerExists=${mediaPlayer != null}")
+            mediaPlayer?.pause()
+            isPaused.set(true)
+            _isSpeaking.value = false
+            AppLogger.d(TAG, "pause result=true paused=${isPaused.get()} speaking=${_isSpeaking.value}")
+            true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "暂停播放失败", e)
+            false
+        }
+    }
+
+    override suspend fun resume(): Boolean {
+        return try {
+            AppLogger.d(TAG, "resume request paused=${isPaused.get()} speaking=${_isSpeaking.value} playerExists=${mediaPlayer != null}")
+            mediaPlayer?.start()
+            isPaused.set(false)
+            _isSpeaking.value = true
+            AppLogger.d(TAG, "resume result=true paused=${isPaused.get()} speaking=${_isSpeaking.value}")
+            true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "恢复播放失败", e)
+            false
+        }
+    }
+
+    override fun shutdown() {
+        stopGeneration.incrementAndGet()
+        speakScope.cancel()
+        clearPendingRequests()
+        clearPendingPlayback()
+        stopPlaybackOnly()
+        speakQueue.close()
+        playbackQueue.close()
+        _isInitialized.value = false
+    }
+
+    override suspend fun getAvailableVoices(): List<VoiceService.Voice> {
+        return getAvailableVoices(context)
+    }
+
+    override suspend fun setVoice(voiceId: String): Boolean {
+        // 支持系统预置音色和用户自定义音色（以speech:开头）
+        if (getAvailableVoices(context).any { it.id == voiceId } || voiceId.startsWith("speech:")) {
+            this.voiceId = voiceId
+            AppLogger.d(TAG, "设置音色: $voiceId")
+            return true
+        }
+        AppLogger.w(TAG, "不支持的音色ID: $voiceId")
+        return false
+    }
+} 

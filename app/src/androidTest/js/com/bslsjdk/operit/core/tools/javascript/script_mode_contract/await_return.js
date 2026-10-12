@@ -1,1 +1,9 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgdmFsdWUgPSBhd2FpdCBQcm9taXNlLnJlc29sdmUoNDIpOwoKcmV0dXJuIHsKICBzdWNjZXNzOiB0cnVlLAogIG1vZGU6ICdzY3JpcHQtbW9kZS1hd2FpdC1yZXR1cm4nLAogIHZhbHVlLAp9Owo=
+'use strict';
+
+const value = await Promise.resolve(42);
+
+return {
+  success: true,
+  mode: 'script-mode-await-return',
+  value,
+};

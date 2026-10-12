@@ -1,1 +1,209 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb252ZXJ0ZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DaGF0SGlzdG9yeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdE1lc3NhZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hcHBsaWNhdGlvbi5PcGVyaXRBcHBsaWNhdGlvbgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uKgppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZVRpbWUKaW1wb3J0IGphdmEudXRpbC5VVUlECgovKioKICog6YCa55SoIEpTT04g5qC85byP6L2s5o2i5ZmoCiAqIOaUr+aMgeagh+WHhueahCByb2xlLWNvbnRlbnQg5qC85byPCiAqLwpjbGFzcyBHZW5lcmljSnNvbkNvbnZlcnRlciA6IENoYXRGb3JtYXRDb252ZXJ0ZXIgewogICAgCiAgICBwcml2YXRlIHZhbCBqc29uID0gSnNvbiB7CiAgICAgICAgaWdub3JlVW5rbm93bktleXMgPSB0cnVlCiAgICAgICAgaXNMZW5pZW50ID0gdHJ1ZQogICAgfQogICAgCiAgICBvdmVycmlkZSBmdW4gY29udmVydChjb250ZW50OiBTdHJpbmcpOiBMaXN0PENoYXRIaXN0b3J5PiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBlbGVtZW50ID0ganNvbi5wYXJzZVRvSnNvbkVsZW1lbnQoY29udGVudCkKICAgICAgICAgICAgCiAgICAgICAgICAgIHdoZW4gKGVsZW1lbnQpIHsKICAgICAgICAgICAgICAgIGlzIEpzb25BcnJheSAtPiBwYXJzZUFycmF5Rm9ybWF0KGVsZW1lbnQpCiAgICAgICAgICAgICAgICBpcyBKc29uT2JqZWN0IC0+IHBhcnNlT2JqZWN0Rm9ybWF0KGVsZW1lbnQpCiAgICAgICAgICAgICAgICBlbHNlIC0+IHRocm93IENvbnZlcnNpb25FeGNlcHRpb24oT3Blcml0QXBwbGljYXRpb24uaW5zdGFuY2UuZ2V0U3RyaW5nKFIuc3RyaW5nLmdlbmVyaWNfanNvbl91bnN1cHBvcnRlZF9mb3JtYXQpKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHRocm93IENvbnZlcnNpb25FeGNlcHRpb24oT3Blcml0QXBwbGljYXRpb24uaW5zdGFuY2UuZ2V0U3RyaW5nKFIuc3RyaW5nLmdlbmVyaWNfanNvbl9wYXJzZV9mYWlsZWQsIGUubWVzc2FnZSA/OiAiIiksIGUpCiAgICAgICAgfQogICAgfQogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0U3VwcG9ydGVkRm9ybWF0KCk6IENoYXRGb3JtYXQgPSBDaGF0Rm9ybWF0LkdFTkVSSUNfSlNPTgogICAgCiAgICAvKioKICAgICAqIOino+aekOaVsOe7hOagvOW8jwogICAgICog5Y+v6IO95piv5a+56K+d5pWw57uE5oiW5raI5oGv5pWw57uECiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHBhcnNlQXJyYXlGb3JtYXQoYXJyYXk6IEpzb25BcnJheSk6IExpc3Q8Q2hhdEhpc3Rvcnk+IHsKICAgICAgICBpZiAoYXJyYXkuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybiBlbXB0eUxpc3QoKQogICAgICAgIH0KICAgICAgICAKICAgICAgICB2YWwgZmlyc3RFbGVtZW50ID0gYXJyYXkuZmlyc3QoKQogICAgICAgIAogICAgICAgIHJldHVybiBpZiAoZmlyc3RFbGVtZW50IGlzIEpzb25PYmplY3QpIHsKICAgICAgICAgICAgLy8g5Yik5pat5piv5a+56K+d5pWw57uE6L+Y5piv5raI5oGv5pWw57uECiAgICAgICAgICAgIGlmIChpc0NvbnZlcnNhdGlvbk9iamVjdChmaXJzdEVsZW1lbnQpKSB7CiAgICAgICAgICAgICAgICAvLyDlr7nor53mlbDnu4QKICAgICAgICAgICAgICAgIGFycmF5Lm1hcE5vdE51bGwgeyAKICAgICAgICAgICAgICAgICAgICBpZiAoaXQgaXMgSnNvbk9iamVjdCkgcGFyc2VDb252ZXJzYXRpb25PYmplY3QoaXQpIGVsc2UgbnVsbCAKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIGlmIChpc01lc3NhZ2VPYmplY3QoZmlyc3RFbGVtZW50KSkgewogICAgICAgICAgICAgICAgLy8g5raI5oGv5pWw57uEIC0g5Yib5bu65Y2V5Liq5a+56K+dCiAgICAgICAgICAgICAgICB2YWwgYmFzZVRpbWVzdGFtcCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgICAgICB2YWwgbWVzc2FnZXMgPSBhcnJheS5tYXBJbmRleGVkTm90TnVsbCB7IGluZGV4LCBlbGVtZW50IC0+CiAgICAgICAgICAgICAgICAgICAgaWYgKGVsZW1lbnQgaXMgSnNvbk9iamVjdCkgcGFyc2VNZXNzYWdlT2JqZWN0KGVsZW1lbnQsIGJhc2VUaW1lc3RhbXAsIGluZGV4KSBlbHNlIG51bGwgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAobWVzc2FnZXMuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgbGlzdE9mKENoYXRIaXN0b3J5KAogICAgICAgICAgICAgICAgICAgICAgICBpZCA9IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgICAgIHRpdGxlID0gIkltcG9ydGVkIENvbnZlcnNhdGlvbiIsCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2VzID0gbWVzc2FnZXMsCiAgICAgICAgICAgICAgICAgICAgICAgIGNyZWF0ZWRBdCA9IExvY2FsRGF0ZVRpbWUubm93KCksCiAgICAgICAgICAgICAgICAgICAgICAgIHVwZGF0ZWRBdCA9IExvY2FsRGF0ZVRpbWUubm93KCksCiAgICAgICAgICAgICAgICAgICAgICAgIGdyb3VwID0gT3Blcml0QXBwbGljYXRpb24uaW5zdGFuY2UuZ2V0U3RyaW5nKFIuc3RyaW5nLmdlbmVyaWNfanNvbl9pbXBvcnRfZnJvbSkKICAgICAgICAgICAgICAgICAgICApKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBlbXB0eUxpc3QoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgZW1wdHlMaXN0KCkKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGVtcHR5TGlzdCgpCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOino+aekOWvueixoeagvOW8jwogICAgICovCiAgICBwcml2YXRlIGZ1biBwYXJzZU9iamVjdEZvcm1hdChvYmo6IEpzb25PYmplY3QpOiBMaXN0PENoYXRIaXN0b3J5PiB7CiAgICAgICAgLy8g5Y+v6IO95piv5Y2V5Liq5a+56K+d5a+56LGh77yM5oiW5YyF5ZCrIGNvbnZlcnNhdGlvbnMg5a2X5q6155qE5a+56LGhCiAgICAgICAgaWYgKG9iai5jb250YWluc0tleSgiY29udmVyc2F0aW9ucyIpKSB7CiAgICAgICAgICAgIHZhbCBjb252ZXJzYXRpb25zID0gb2JqWyJjb252ZXJzYXRpb25zIl0KICAgICAgICAgICAgaWYgKGNvbnZlcnNhdGlvbnMgaXMgSnNvbkFycmF5KSB7CiAgICAgICAgICAgICAgICByZXR1cm4gcGFyc2VBcnJheUZvcm1hdChjb252ZXJzYXRpb25zKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOWNleS4quWvueivneWvueixoQogICAgICAgIHZhbCBoaXN0b3J5ID0gcGFyc2VDb252ZXJzYXRpb25PYmplY3Qob2JqKQogICAgICAgIHJldHVybiBpZiAoaGlzdG9yeSAhPSBudWxsKSBsaXN0T2YoaGlzdG9yeSkgZWxzZSBlbXB0eUxpc3QoKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOWIpOaWreaYr+WQpuS4uuWvueivneWvueixoQogICAgICovCiAgICBwcml2YXRlIGZ1biBpc0NvbnZlcnNhdGlvbk9iamVjdChvYmo6IEpzb25PYmplY3QpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gb2JqLmNvbnRhaW5zS2V5KCJtZXNzYWdlcyIpIHx8IAogICAgICAgICAgICAgICBvYmouY29udGFpbnNLZXkoInRpdGxlIikgfHwKICAgICAgICAgICAgICAgKG9iai5jb250YWluc0tleSgicm9sZSIpICYmIG9iai5jb250YWluc0tleSgiY29udGVudCIpKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOWIpOaWreaYr+WQpuS4uua2iOaBr+WvueixoQogICAgICovCiAgICBwcml2YXRlIGZ1biBpc01lc3NhZ2VPYmplY3Qob2JqOiBKc29uT2JqZWN0KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIG9iai5jb250YWluc0tleSgicm9sZSIpICYmIG9iai5jb250YWluc0tleSgiY29udGVudCIpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog6Kej5p6Q5a+56K+d5a+56LGhCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHBhcnNlQ29udmVyc2F0aW9uT2JqZWN0KG9iajogSnNvbk9iamVjdCk6IENoYXRIaXN0b3J5PyB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5Z+65YeG5pe26Ze05oizCiAgICAgICAgICAgIHZhbCBiYXNlVGltZXN0YW1wID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOaPkOWPlua2iOaBr+WIl+ihqAogICAgICAgICAgICB2YWwgbWVzc2FnZXMgPSB3aGVuIHsKICAgICAgICAgICAgICAgIG9iai5jb250YWluc0tleSgibWVzc2FnZXMiKSAtPiB7CiAgICAgICAgICAgICAgICAgICAgdmFsIG1lc3NhZ2VzRWxlbWVudCA9IG9ialsibWVzc2FnZXMiXQogICAgICAgICAgICAgICAgICAgIGlmIChtZXNzYWdlc0VsZW1lbnQgaXMgSnNvbkFycmF5KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2VzRWxlbWVudC5tYXBJbmRleGVkTm90TnVsbCB7IGluZGV4LCBlbGVtZW50IC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZWxlbWVudCBpcyBKc29uT2JqZWN0KSBwYXJzZU1lc3NhZ2VPYmplY3QoZWxlbWVudCwgYmFzZVRpbWVzdGFtcCwgaW5kZXgpIGVsc2UgbnVsbCAKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGVtcHR5TGlzdCgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgLy8g5aaC5p6c5a+56LGh5pys6Lqr5bCx5piv5LiA5p2h5raI5oGvCiAgICAgICAgICAgICAgICBvYmouY29udGFpbnNLZXkoInJvbGUiKSAmJiBvYmouY29udGFpbnNLZXkoImNvbnRlbnQiKSAtPiB7CiAgICAgICAgICAgICAgICAgICAgdmFsIG1zZyA9IHBhcnNlTWVzc2FnZU9iamVjdChvYmosIGJhc2VUaW1lc3RhbXAsIDApCiAgICAgICAgICAgICAgICAgICAgaWYgKG1zZyAhPSBudWxsKSBsaXN0T2YobXNnKSBlbHNlIGVtcHR5TGlzdCgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlIC0+IGVtcHR5TGlzdCgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIChtZXNzYWdlcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOaPkOWPluWFtuS7luWtl+autQogICAgICAgICAgICB2YWwgdGl0bGUgPSBvYmpbInRpdGxlIl0/Lmpzb25QcmltaXRpdmU/LmNvbnRlbnRPck51bGwgPzogIkltcG9ydGVkIENvbnZlcnNhdGlvbiIKICAgICAgICAgICAgdmFsIGlkID0gb2JqWyJpZCJdPy5qc29uUHJpbWl0aXZlPy5jb250ZW50T3JOdWxsID86IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCkKICAgICAgICAgICAgCiAgICAgICAgICAgIHJldHVybiBDaGF0SGlzdG9yeSgKICAgICAgICAgICAgICAgIGlkID0gaWQsCiAgICAgICAgICAgICAgICB0aXRsZSA9IHRpdGxlLAogICAgICAgICAgICAgICAgbWVzc2FnZXMgPSBtZXNzYWdlcywKICAgICAgICAgICAgICAgIGNyZWF0ZWRBdCA9IExvY2FsRGF0ZVRpbWUubm93KCksCiAgICAgICAgICAgICAgICB1cGRhdGVkQXQgPSBMb2NhbERhdGVUaW1lLm5vdygpLAogICAgICAgICAgICAgICAgZ3JvdXAgPSBPcGVyaXRBcHBsaWNhdGlvbi5pbnN0YW5jZS5nZXRTdHJpbmcoUi5zdHJpbmcuZ2VuZXJpY19qc29uX2ltcG9ydF9mcm9tKQogICAgICAgICAgICApCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOino+aekOa2iOaBr+WvueixoQogICAgICovCiAgICBwcml2YXRlIGZ1biBwYXJzZU1lc3NhZ2VPYmplY3Qob2JqOiBKc29uT2JqZWN0LCBiYXNlVGltZXN0YW1wOiBMb25nLCBpbmRleDogSW50KTogQ2hhdE1lc3NhZ2U/IHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgcm9sZSA9IG9ialsicm9sZSJdPy5qc29uUHJpbWl0aXZlPy5jb250ZW50T3JOdWxsID86IHJldHVybiBudWxsCiAgICAgICAgICAgIHZhbCBjb250ZW50ID0gb2JqWyJjb250ZW50Il0/Lmpzb25QcmltaXRpdmU/LmNvbnRlbnRPck51bGwgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIChjb250ZW50LmlzQmxhbmsoKSkgcmV0dXJuIG51bGwKICAgICAgICAgICAgCiAgICAgICAgICAgIHZhbCBzZW5kZXIgPSBub3JtYWxpemVSb2xlKHJvbGUpCiAgICAgICAgICAgIC8vIOWmguaenOacieaXtumXtOaIs+WwseeUqO+8jOWQpuWImeS9v+eUqOmAkuWinueahOaXtumXtOaIs++8iOmXtOmalCAxMDBtc++8iQogICAgICAgICAgICB2YWwgdGltZXN0YW1wID0gb2JqWyJ0aW1lc3RhbXAiXT8uanNvblByaW1pdGl2ZT8ubG9uZ09yTnVsbCAKICAgICAgICAgICAgICAgID86IChiYXNlVGltZXN0YW1wICsgKGluZGV4ICogMTAwTCkpCiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgbW9kZWxOYW1lID0gb2JqWyJtb2RlbCJdPy5qc29uUHJpbWl0aXZlPy5jb250ZW50T3JOdWxsCiAgICAgICAgICAgICAgICA/OiBvYmpbIm1vZGVsTmFtZSJdPy5qc29uUHJpbWl0aXZlPy5jb250ZW50T3JOdWxsCiAgICAgICAgICAgICAgICA/OiAidW5rbm93biIKICAgICAgICAgICAgCiAgICAgICAgICAgIHZhbCBwcm92aWRlciA9IG9ialsicHJvdmlkZXIiXT8uanNvblByaW1pdGl2ZT8uY29udGVudE9yTnVsbCA/OiAiaW1wb3J0ZWQiCiAgICAgICAgICAgIAogICAgICAgICAgICByZXR1cm4gQ2hhdE1lc3NhZ2UoCiAgICAgICAgICAgICAgICBzZW5kZXIgPSBzZW5kZXIsCiAgICAgICAgICAgICAgICBjb250ZW50ID0gY29udGVudCwKICAgICAgICAgICAgICAgIHRpbWVzdGFtcCA9IHRpbWVzdGFtcCwKICAgICAgICAgICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZSwKICAgICAgICAgICAgICAgIHByb3ZpZGVyID0gcHJvdmlkZXIKICAgICAgICAgICAgKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDop4TojIPljJbop5LoibLlkI3np7AKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gbm9ybWFsaXplUm9sZShyb2xlOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiB3aGVuIChyb2xlLmxvd2VyY2FzZSgpKSB7CiAgICAgICAgICAgICJ1c2VyIiwgImh1bWFuIiwgIueUqOaItyIgLT4gInVzZXIiCiAgICAgICAgICAgICJhc3Npc3RhbnQiLCAiYWkiLCAiYm90IiwgIm1vZGVsIiwgIuWKqeaJiyIgLT4gImFpIgogICAgICAgICAgICAic3lzdGVtIiwgIuezu+e7nyIgLT4gInVzZXIiIC8vIOezu+e7n+a2iOaBr+i9rOS4uueUqOaIt+a2iOaBrwogICAgICAgICAgICBlbHNlIC0+ICJ1c2VyIgogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.converter
+
+import com.bslsjdk.operit.data.model.ChatHistory
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.application.OperitApplication
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.*
+import java.time.LocalDateTime
+import java.util.UUID
+
+/**
+ * 通用 JSON 格式转换器
+ * 支持标准的 role-content 格式
+ */
+class GenericJsonConverter : ChatFormatConverter {
+    
+    private val json = Json {
+        ignoreUnknownKeys = true
+        isLenient = true
+    }
+    
+    override fun convert(content: String): List<ChatHistory> {
+        return try {
+            val element = json.parseToJsonElement(content)
+            
+            when (element) {
+                is JsonArray -> parseArrayFormat(element)
+                is JsonObject -> parseObjectFormat(element)
+                else -> throw ConversionException(OperitApplication.instance.getString(R.string.generic_json_unsupported_format))
+            }
+        } catch (e: Exception) {
+            throw ConversionException(OperitApplication.instance.getString(R.string.generic_json_parse_failed, e.message ?: ""), e)
+        }
+    }
+    
+    override fun getSupportedFormat(): ChatFormat = ChatFormat.GENERIC_JSON
+    
+    /**
+     * 解析数组格式
+     * 可能是对话数组或消息数组
+     */
+    private fun parseArrayFormat(array: JsonArray): List<ChatHistory> {
+        if (array.isEmpty()) {
+            return emptyList()
+        }
+        
+        val firstElement = array.first()
+        
+        return if (firstElement is JsonObject) {
+            // 判断是对话数组还是消息数组
+            if (isConversationObject(firstElement)) {
+                // 对话数组
+                array.mapNotNull { 
+                    if (it is JsonObject) parseConversationObject(it) else null 
+                }
+            } else if (isMessageObject(firstElement)) {
+                // 消息数组 - 创建单个对话
+                val baseTimestamp = System.currentTimeMillis()
+                val messages = array.mapIndexedNotNull { index, element ->
+                    if (element is JsonObject) parseMessageObject(element, baseTimestamp, index) else null 
+                }
+                if (messages.isNotEmpty()) {
+                    listOf(ChatHistory(
+                        id = UUID.randomUUID().toString(),
+                        title = "Imported Conversation",
+                        messages = messages,
+                        createdAt = LocalDateTime.now(),
+                        updatedAt = LocalDateTime.now(),
+                        group = OperitApplication.instance.getString(R.string.generic_json_import_from)
+                    ))
+                } else {
+                    emptyList()
+                }
+            } else {
+                emptyList()
+            }
+        } else {
+            emptyList()
+        }
+    }
+    
+    /**
+     * 解析对象格式
+     */
+    private fun parseObjectFormat(obj: JsonObject): List<ChatHistory> {
+        // 可能是单个对话对象，或包含 conversations 字段的对象
+        if (obj.containsKey("conversations")) {
+            val conversations = obj["conversations"]
+            if (conversations is JsonArray) {
+                return parseArrayFormat(conversations)
+            }
+        }
+        
+        // 单个对话对象
+        val history = parseConversationObject(obj)
+        return if (history != null) listOf(history) else emptyList()
+    }
+    
+    /**
+     * 判断是否为对话对象
+     */
+    private fun isConversationObject(obj: JsonObject): Boolean {
+        return obj.containsKey("messages") || 
+               obj.containsKey("title") ||
+               (obj.containsKey("role") && obj.containsKey("content"))
+    }
+    
+    /**
+     * 判断是否为消息对象
+     */
+    private fun isMessageObject(obj: JsonObject): Boolean {
+        return obj.containsKey("role") && obj.containsKey("content")
+    }
+    
+    /**
+     * 解析对话对象
+     */
+    private fun parseConversationObject(obj: JsonObject): ChatHistory? {
+        try {
+            // 基准时间戳
+            val baseTimestamp = System.currentTimeMillis()
+            
+            // 提取消息列表
+            val messages = when {
+                obj.containsKey("messages") -> {
+                    val messagesElement = obj["messages"]
+                    if (messagesElement is JsonArray) {
+                        messagesElement.mapIndexedNotNull { index, element ->
+                            if (element is JsonObject) parseMessageObject(element, baseTimestamp, index) else null 
+                        }
+                    } else {
+                        emptyList()
+                    }
+                }
+                // 如果对象本身就是一条消息
+                obj.containsKey("role") && obj.containsKey("content") -> {
+                    val msg = parseMessageObject(obj, baseTimestamp, 0)
+                    if (msg != null) listOf(msg) else emptyList()
+                }
+                else -> emptyList()
+            }
+            
+            if (messages.isEmpty()) {
+                return null
+            }
+            
+            // 提取其他字段
+            val title = obj["title"]?.jsonPrimitive?.contentOrNull ?: "Imported Conversation"
+            val id = obj["id"]?.jsonPrimitive?.contentOrNull ?: UUID.randomUUID().toString()
+            
+            return ChatHistory(
+                id = id,
+                title = title,
+                messages = messages,
+                createdAt = LocalDateTime.now(),
+                updatedAt = LocalDateTime.now(),
+                group = OperitApplication.instance.getString(R.string.generic_json_import_from)
+            )
+        } catch (e: Exception) {
+            return null
+        }
+    }
+    
+    /**
+     * 解析消息对象
+     */
+    private fun parseMessageObject(obj: JsonObject, baseTimestamp: Long, index: Int): ChatMessage? {
+        try {
+            val role = obj["role"]?.jsonPrimitive?.contentOrNull ?: return null
+            val content = obj["content"]?.jsonPrimitive?.contentOrNull ?: return null
+            
+            if (content.isBlank()) return null
+            
+            val sender = normalizeRole(role)
+            // 如果有时间戳就用，否则使用递增的时间戳（间隔 100ms）
+            val timestamp = obj["timestamp"]?.jsonPrimitive?.longOrNull 
+                ?: (baseTimestamp + (index * 100L))
+            
+            val modelName = obj["model"]?.jsonPrimitive?.contentOrNull
+                ?: obj["modelName"]?.jsonPrimitive?.contentOrNull
+                ?: "unknown"
+            
+            val provider = obj["provider"]?.jsonPrimitive?.contentOrNull ?: "imported"
+            
+            return ChatMessage(
+                sender = sender,
+                content = content,
+                timestamp = timestamp,
+                modelName = modelName,
+                provider = provider
+            )
+        } catch (e: Exception) {
+            return null
+        }
+    }
+    
+    /**
+     * 规范化角色名称
+     */
+    private fun normalizeRole(role: String): String {
+        return when (role.lowercase()) {
+            "user", "human", "用户" -> "user"
+            "assistant", "ai", "bot", "model", "助手" -> "ai"
+            "system", "系统" -> "user" // 系统消息转为用户消息
+            else -> "user"
+        }
+    }
+}

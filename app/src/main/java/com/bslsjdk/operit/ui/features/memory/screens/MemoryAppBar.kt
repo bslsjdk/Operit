@@ -1,1 +1,146 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMubWVtb3J5LnNjcmVlbnMKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uY2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Sb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LndpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LndpZHRoSW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi50ZXh0LktleWJvYXJkQWN0aW9ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnRleHQuS2V5Ym9hcmRPcHRpb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5BcnJvd0Ryb3BEb3duCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5DbGVhcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuU2V0dGluZ3MKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlNlYXJjaAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRHJvcGRvd25NZW51CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5Ecm9wZG93bk1lbnVJdGVtCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5FeHBlcmltZW50YWxNYXRlcmlhbDNBcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkV4cG9zZWREcm9wZG93bk1lbnVCb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkV4cG9zZWREcm9wZG93bk1lbnVEZWZhdWx0cwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuSWNvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuSWNvbkJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuT3V0bGluZWRUZXh0RmllbGQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk91dGxpbmVkVGV4dEZpZWxkRGVmYXVsdHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHRGaWVsZERlZmF1bHRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5Ub3BBcHBCYXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LkltZUFjdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRPdmVyZmxvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgoKQE9wdEluKEV4cGVyaW1lbnRhbE1hdGVyaWFsM0FwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmZ1biBNZW1vcnlBcHBCYXIoCiAgICBwcm9maWxlTGlzdDogTGlzdDxTdHJpbmc+LAogICAgcHJvZmlsZU5hbWVNYXA6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICBzZWxlY3RlZFByb2ZpbGVJZDogU3RyaW5nLAogICAgb25Qcm9maWxlU2VsZWN0ZWQ6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBxdWVyeTogU3RyaW5nLAogICAgb25RdWVyeUNoYW5nZTogKFN0cmluZykgLT4gVW5pdCwKICAgIG9uU2VhcmNoOiAoKSAtPiBVbml0LAogICAgb25DbGVhcjogKCkgLT4gVW5pdCwKICAgIG9uU2V0dGluZ3NDbGljazogKCkgLT4gVW5pdAopIHsKICAgIHZhciBleHBhbmRlZCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YWwgc2VsZWN0ZWRQcm9maWxlTmFtZSA9IHByb2ZpbGVOYW1lTWFwW3NlbGVjdGVkUHJvZmlsZUlkXSA/OiBzZWxlY3RlZFByb2ZpbGVJZAoKICAgIFJvdygKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gOC5kcCwgdmVydGljYWwgPSA0LmRwKSwKICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICApIHsKICAgICAgICAvLyDpm4bmiJDmkJzntKLmoI8KICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgdmFsdWUgPSBxdWVyeSwKICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IG9uUXVlcnlDaGFuZ2UsCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgIC53ZWlnaHQoMWYpIC8vIOiuqeaQnOe0ouahhuWNoOaNruWJqeS9meepuumXtAogICAgICAgICAgICAgICAgLmhlaWdodCg0Ni5kcCksCiAgICAgICAgICAgIHBsYWNlaG9sZGVyID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9zZWFyY2hfaGludDIpLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwpIH0sCiAgICAgICAgICAgIGxlYWRpbmdJY29uID0gewogICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICBJY29ucy5EZWZhdWx0LlNlYXJjaCwKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSAiU2VhcmNoIEljb24iLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgxOC5kcCkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgdHJhaWxpbmdJY29uID0gewogICAgICAgICAgICAgICAgaWYgKHF1ZXJ5LmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgIEljb25CdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkNsZWFyLAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMjQuZHApCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29ucy5EZWZhdWx0LkNsZWFyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gIkNsZWFyIFNlYXJjaCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMTYuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHNpbmdsZUxpbmUgPSB0cnVlLAogICAgICAgICAgICBrZXlib2FyZE9wdGlvbnMgPSBLZXlib2FyZE9wdGlvbnMoaW1lQWN0aW9uID0gSW1lQWN0aW9uLlNlYXJjaCksCiAgICAgICAgICAgIGtleWJvYXJkQWN0aW9ucyA9IEtleWJvYXJkQWN0aW9ucyhvblNlYXJjaCA9IHsgb25TZWFyY2goKSB9KSwKICAgICAgICAgICAgY29sb3JzID0gT3V0bGluZWRUZXh0RmllbGREZWZhdWx0cy5jb2xvcnMoCiAgICAgICAgICAgICAgICBmb2N1c2VkQ29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2VWYXJpYW50LmNvcHkoYWxwaGEgPSAwLjVmKSwKICAgICAgICAgICAgICAgIHVuZm9jdXNlZENvbnRhaW5lckNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudC5jb3B5KGFscGhhID0gMC41ZiksCiAgICAgICAgICAgICAgICB1bmZvY3VzZWRCb3JkZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgKSwKICAgICAgICAgICAgdGV4dFN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbAogICAgICAgICkKCiAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoOC5kcCkpCgogICAgICAgIC8vIOaQnOe0ouiuvue9ruaMiemSrgogICAgICAgIEljb25CdXR0b24ob25DbGljayA9IG9uU2V0dGluZ3NDbGljaykgewogICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuU2V0dGluZ3MsIGNvbnRlbnREZXNjcmlwdGlvbiA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9zZWFyY2hfc2V0dGluZ3NfdGl0bGUpKQogICAgICAgIH0KCiAgICAgICAgLy8g55So5oi35YGP5aW96YCJ5oup5ZmoCiAgICAgICAgQm94IHsKICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuY2xpY2thYmxlIHsgZXhwYW5kZWQgPSB0cnVlIH0KICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzZWxlY3RlZFByb2ZpbGVOYW1lLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgbWF4TGluZXMgPSAxLAogICAgICAgICAgICAgICAgICAgIG92ZXJmbG93ID0gVGV4dE92ZXJmbG93LkVsbGlwc2lzLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGhJbihtYXggPSAxMDAuZHApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuQXJyb3dEcm9wRG93biwgY29udGVudERlc2NyaXB0aW9uID0gIlNlbGVjdCBQcm9maWxlIikKICAgICAgICAgICAgfQoKICAgICAgICAgICAgRHJvcGRvd25NZW51KGV4cGFuZGVkID0gZXhwYW5kZWQsIG9uRGlzbWlzc1JlcXVlc3QgPSB7IGV4cGFuZGVkID0gZmFsc2UgfSkgewogICAgICAgICAgICAgICAgcHJvZmlsZUxpc3QuZm9yRWFjaCB7IHByb2ZpbGVJZCAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBwcm9maWxlTmFtZSA9IHByb2ZpbGVOYW1lTWFwW3Byb2ZpbGVJZF0gPzogcHJvZmlsZUlkCiAgICAgICAgICAgICAgICAgICAgRHJvcGRvd25NZW51SXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHsgVGV4dChwcm9maWxlTmFtZSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uUHJvZmlsZVNlbGVjdGVkKHByb2ZpbGVJZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cGFuZGVkID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.memory.screens
+
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowDropDown
+import androidx.compose.material.icons.filled.Clear
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.ExposedDropdownMenuBox
+import androidx.compose.material3.ExposedDropdownMenuDefaults
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextFieldDefaults
+import androidx.compose.material3.TopAppBar
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun MemoryAppBar(
+    profileList: List<String>,
+    profileNameMap: Map<String, String>,
+    selectedProfileId: String,
+    onProfileSelected: (String) -> Unit,
+    query: String,
+    onQueryChange: (String) -> Unit,
+    onSearch: () -> Unit,
+    onClear: () -> Unit,
+    onSettingsClick: () -> Unit
+) {
+    var expanded by remember { mutableStateOf(false) }
+    val selectedProfileName = profileNameMap[selectedProfileId] ?: selectedProfileId
+
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(horizontal = 8.dp, vertical = 4.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        // 集成搜索栏
+        OutlinedTextField(
+            value = query,
+            onValueChange = onQueryChange,
+            modifier = Modifier
+                .weight(1f) // 让搜索框占据剩余空间
+                .height(46.dp),
+            placeholder = { Text(stringResource(R.string.memory_search_hint2), style = MaterialTheme.typography.bodySmall) },
+            leadingIcon = {
+                Icon(
+                    Icons.Default.Search,
+                    contentDescription = "Search Icon",
+                    modifier = Modifier.size(18.dp)
+                )
+            },
+            trailingIcon = {
+                if (query.isNotEmpty()) {
+                    IconButton(
+                        onClick = onClear,
+                        modifier = Modifier.size(24.dp)
+                    ) {
+                        Icon(
+                            Icons.Default.Clear,
+                            contentDescription = "Clear Search",
+                            modifier = Modifier.size(16.dp)
+                        )
+                    }
+                }
+            },
+            singleLine = true,
+            keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
+            keyboardActions = KeyboardActions(onSearch = { onSearch() }),
+            colors = OutlinedTextFieldDefaults.colors(
+                focusedContainerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f),
+                unfocusedContainerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f),
+                unfocusedBorderColor = MaterialTheme.colorScheme.surfaceVariant
+            ),
+            textStyle = MaterialTheme.typography.bodySmall
+        )
+
+        Spacer(modifier = Modifier.width(8.dp))
+
+        // 搜索设置按钮
+        IconButton(onClick = onSettingsClick) {
+            Icon(Icons.Default.Settings, contentDescription = stringResource(R.string.memory_search_settings_title))
+        }
+
+        // 用户偏好选择器
+        Box {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.clickable { expanded = true }
+            ) {
+                Text(
+                    text = selectedProfileName,
+                    style = MaterialTheme.typography.bodyMedium,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.widthIn(max = 100.dp)
+                )
+                Icon(Icons.Default.ArrowDropDown, contentDescription = "Select Profile")
+            }
+
+            DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
+                profileList.forEach { profileId ->
+                    val profileName = profileNameMap[profileId] ?: profileId
+                    DropdownMenuItem(
+                        text = { Text(profileName) },
+                        onClick = {
+                            onProfileSelected(profileId)
+                            expanded = false
+                        }
+                    )
+                }
+            }
+        }
+    }
+}

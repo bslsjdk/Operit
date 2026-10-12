@@ -1,1 +1,109 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5pbnRlcm5hbC5yZXF1aXJlUHJlY29uZGl0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuY29sbGVjdGlvbi5tdXRhYmxlVmVjdG9yT2YKCi8qKgogKiBUaGlzIGRhdGEgc3RydWN0dXJlIGlzIHVzZWQgdG8gc2F2ZSBpbmZvcm1hdGlvbiBhYm91dCB0aGUgbnVtYmVyIG9mICJiZXlvbmQgYm91bmRzIGl0ZW1zIiB0aGF0IHdlCiAqIHdhbnQgdG8gY29tcG9zZS4gVGhlc2UgaXRlbXMgYXJlIG5vdCB3aXRoaW4gdGhlIHZpc2libGUgYm91bmRzIG9mIHRoZSBsYXp5IGxheW91dCwgYnV0IHdlIGNvbXBvc2UKICogdGhlbSBiZWNhdXNlIHRoZXkgYXJlIGV4cGxpY2l0bHkgcmVxdWVzdGVkIHRocm91Z2ggdGhlCiAqIFtiZXlvbmQgYm91bmRzIGxheW91dCBBUEldW2FuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LkJleW9uZEJvdW5kc0xheW91dF0uCiAqCiAqIFdoZW4gdGhlIGxhenkgbGF5b3V0IHJlY2VpdmVzIGEgW2xheW91dF1bYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuQmV5b25kQm91bmRzTGF5b3V0LmxheW91dF0KICogcmVxdWVzdCB0byBsYXlvdXQgaXRlbXMgYmV5b25kIHZpc2libGUgYm91bmRzLCBpdCBjcmVhdGVzIGFuIGluc3RhbmNlIG9mCiAqIFtMYXp5TGF5b3V0QmV5b25kQm91bmRzSW5mby5JbnRlcnZhbF0gYnkgdXNpbmcgdGhlIFthZGRJbnRlcnZhbF0gZnVuY3Rpb24uIFRoaXMgcmV0dXJucyB0aGUKICogaW50ZXJ2YWwgb2YgaXRlbXMgdGhhdCBhcmUgY3VycmVudGx5IGNvbXBvc2VkLCBhbmQgd2UgY2FuIHJlcXVlc3Qgb3RoZXIgaW50ZXJ2YWxzIHRvIGNvbnRyb2wgdGhlCiAqIG51bWJlciBvZiBiZXlvbmQgYm91bmRzIGl0ZW1zLgogKgogKiBUaGVyZSBjYW4gYmUgbXVsdGlwbGUgaW50ZXJ2YWxzIGNyZWF0ZWQgYXQgdGhlIHNhbWUgdGltZSwgYW5kIFtMYXp5TGF5b3V0QmV5b25kQm91bmRzSW5mb10gbWVyZ2VzCiAqIGFsbCB0aGUgaW50ZXJ2YWxzIHRvIGNhbGN1bGF0ZSB0aGUgZWZmZWN0aXZlIGJleW9uZCBib3VuZHMgaXRlbXMuCiAqCiAqIFRoZSBbYmV5b25kIGJvdW5kcyBsYXlvdXQgQVBJXVthbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5CZXlvbmRCb3VuZHNMYXlvdXRdIGlzIGRlc2lnbmVkIHRvIGJlCiAqIHN5bmNocm9ub3VzLCBzbyBvbmNlIHlvdSBhcmUgZG9uZSB1c2luZyB0aGUgaXRlbXMsIGNhbGwgW3JlbW92ZUludGVydmFsXSB0byByZW1vdmUgdGhlIGV4dHJhCiAqIGl0ZW1zIHlvdSBoYWQgcmVxdWVzdGVkLgogKgogKiBOb3RlIHRoYXQgd2hlbiB5b3UgY2xlYXIgYW4gaW50ZXJ2YWwsIHRoZSBpdGVtcyBpbiB0aGF0IGludGVydmFsIG1pZ2h0IG5vdCBiZSBjbGVhcmVkIHJpZ2h0IGF3YXkKICogaWYgYW5vdGhlciBpbnRlcnZhbCB3YXMgY3JlYXRlZCB0aGF0IGhhcyB0aGUgc2FtZSBpdGVtcy4gVGhpcyBpcyBkb25lIHRvIHN1cHBvcnQgdHdvIHVzZSBjYXNlczoKICogMS4gVG8gYWxsb3cgaXRlbXMgdG8gYmUgcGlubmVkIHdoaWxlIHRoZXkgYXJlIGJlaW5nIHNjcm9sbGVkIGludG8gdmlldy4KICogMi4gVG8gYWxsb3cgdXNlcnMgdG8gY2FsbCBbbGF5b3V0XVthbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5CZXlvbmRCb3VuZHNMYXlvdXQubGF5b3V0XSBmcm9tCiAqICAgIHdpdGhpbiB0aGUgY29tcGxldGlvbiBibG9jayBvZiBhbm90aGVyIGxheW91dCBjYWxsLgogKi8KaW50ZXJuYWwgY2xhc3MgTGF6eUxheW91dEJleW9uZEJvdW5kc0luZm8gewogICAgcHJpdmF0ZSB2YWwgYmV5b25kQm91bmRzSXRlbXMgPSBtdXRhYmxlVmVjdG9yT2Y8SW50ZXJ2YWw+KCkKCiAgICAvKioKICAgICAqIENyZWF0ZSBhIGJleW9uZCBib3VuZHMgaW50ZXJ2YWwuIFRoaXMgY2FuIGJlIHVzZWQgdG8gc3BlY2lmeSB3aGljaCBjb21wb3NlZCBpdGVtcyB3ZSB3YW50IHRvCiAgICAgKiByZXRhaW4uIEZvciBpbnN0YW5jZSwgaXQgY2FuIGJlIHVzZWQgdG8gZm9yY2UgdGhlIG1lYXN1cmluZyBvZiBpdGVtcyB0aGF0IGFyZSBiZXlvbmQgdGhlCiAgICAgKiB2aXNpYmxlIGJvdW5kcyBvZiBhIGxhenkgbGlzdC4KICAgICAqCiAgICAgKiBAcGFyYW0gc3RhcnQgVGhlIHN0YXJ0aW5nIGluZGV4IChpbmNsdXNpdmUpIGZvciB0aGlzIGludGVydmFsLgogICAgICogQHBhcmFtIGVuZCBUaGUgZW5kaW5nIGluZGV4IChpbmNsdXNpdmUpIGZvciB0aGlzIGludGVydmFsLgogICAgICogQHJldHVybiBBbiBpbnRlcnZhbCB0aGF0IHNwZWNpZmllcyB3aGljaCBpdGVtcyB3ZSB3YW50IHRvIHJldGFpbi4KICAgICAqLwogICAgZnVuIGFkZEludGVydmFsKHN0YXJ0OiBJbnQsIGVuZDogSW50KTogSW50ZXJ2YWwgewogICAgICAgIHJldHVybiBJbnRlcnZhbChzdGFydCwgZW5kKS5hcHBseSB7IGJleW9uZEJvdW5kc0l0ZW1zLmFkZCh0aGlzKSB9CiAgICB9CgogICAgLyoqIENsZWFycyB0aGUgc3BlY2lmaWVkIGludGVydmFsLiBVc2UgdGhpcyB0byByZW1vdmUgdGhlIGludGVydmFsIGNyZWF0ZWQgYnkgW2FkZEludGVydmFsXS4gKi8KICAgIGZ1biByZW1vdmVJbnRlcnZhbChpbnRlcnZhbDogSW50ZXJ2YWwpIHsKICAgICAgICBiZXlvbmRCb3VuZHNJdGVtcy5yZW1vdmUoaW50ZXJ2YWwpCiAgICB9CgogICAgLyoqIFJldHVybnMgdHJ1ZSBpZiB0aGVyZSBhcmUgYmV5b25kIGJvdW5kcyBpbnRlcnZhbHMuICovCiAgICBmdW4gaGFzSW50ZXJ2YWxzKCk6IEJvb2xlYW4gPSBiZXlvbmRCb3VuZHNJdGVtcy5pc05vdEVtcHR5KCkKCiAgICAvKiogVGhlIGVmZmVjdGl2ZSBzdGFydCBpbmRleCBhZnRlciBtZXJnaW5nIGFsbCB0aGUgY3VycmVudCBpbnRlcnZhbHMuICovCiAgICB2YWwgc3RhcnQ6IEludAogICAgICAgIGdldCgpIHsKICAgICAgICAgICAgdmFyIG1pbkluZGV4ID0gYmV5b25kQm91bmRzSXRlbXMuZmlyc3QoKS5zdGFydAogICAgICAgICAgICBiZXlvbmRCb3VuZHNJdGVtcy5mb3JFYWNoIHsKICAgICAgICAgICAgICAgIGlmIChpdC5zdGFydCA8IG1pbkluZGV4KSB7CiAgICAgICAgICAgICAgICAgICAgbWluSW5kZXggPSBpdC5zdGFydAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJlcXVpcmVQcmVjb25kaXRpb24obWluSW5kZXggPj0gMCkgeyAibmVnYXRpdmUgbWluSW5kZXgiIH0KICAgICAgICAgICAgcmV0dXJuIG1pbkluZGV4CiAgICAgICAgfQoKICAgIC8qKiBUaGUgZWZmZWN0aXZlIGVuZCBpbmRleCBhZnRlciBtZXJnaW5nIGFsbCB0aGUgY3VycmVudCBpbnRlcnZhbHMuICovCiAgICB2YWwgZW5kOiBJbnQKICAgICAgICBnZXQoKSB7CiAgICAgICAgICAgIHZhciBtYXhJbmRleCA9IGJleW9uZEJvdW5kc0l0ZW1zLmZpcnN0KCkuZW5kCiAgICAgICAgICAgIGJleW9uZEJvdW5kc0l0ZW1zLmZvckVhY2ggewogICAgICAgICAgICAgICAgaWYgKGl0LmVuZCA+IG1heEluZGV4KSB7CiAgICAgICAgICAgICAgICAgICAgbWF4SW5kZXggPSBpdC5lbmQKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gbWF4SW5kZXgKICAgICAgICB9CgogICAgLyoqIFRoZSBJbnRlcnZhbCB1c2VkIHRvIGltcGxlbWVudCBbTGF6eUxheW91dEJleW9uZEJvdW5kc0luZm9dLiAqLwogICAgaW50ZXJuYWwgZGF0YSBjbGFzcyBJbnRlcnZhbCgKICAgICAgICAvKiogVGhlIHN0YXJ0IGluZGV4IGZvciB0aGUgaW50ZXJ2YWwuICovCiAgICAgICAgdmFsIHN0YXJ0OiBJbnQsCgogICAgICAgIC8qKiBUaGUgZW5kIGluZGV4IGZvciB0aGUgaW50ZXJ2YWwuICovCiAgICAgICAgdmFsIGVuZDogSW50LAogICAgKSB7CiAgICAgICAgaW5pdCB7CiAgICAgICAgICAgIHJlcXVpcmVQcmVjb25kaXRpb24oc3RhcnQgPj0gMCkgeyAibmVnYXRpdmUgc3RhcnQgaW5kZXgiIH0KICAgICAgICAgICAgcmVxdWlyZVByZWNvbmRpdGlvbihlbmQgPj0gc3RhcnQpIHsgImVuZCBpbmRleCBncmVhdGVyIHRoYW4gc3RhcnQiIH0KICAgICAgICB9CiAgICB9Cn0K
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.internal.requirePrecondition
+import androidx.compose.runtime.collection.mutableVectorOf
+
+/**
+ * This data structure is used to save information about the number of "beyond bounds items" that we
+ * want to compose. These items are not within the visible bounds of the lazy layout, but we compose
+ * them because they are explicitly requested through the
+ * [beyond bounds layout API][androidx.compose.ui.layout.BeyondBoundsLayout].
+ *
+ * When the lazy layout receives a [layout][androidx.compose.ui.layout.BeyondBoundsLayout.layout]
+ * request to layout items beyond visible bounds, it creates an instance of
+ * [LazyLayoutBeyondBoundsInfo.Interval] by using the [addInterval] function. This returns the
+ * interval of items that are currently composed, and we can request other intervals to control the
+ * number of beyond bounds items.
+ *
+ * There can be multiple intervals created at the same time, and [LazyLayoutBeyondBoundsInfo] merges
+ * all the intervals to calculate the effective beyond bounds items.
+ *
+ * The [beyond bounds layout API][androidx.compose.ui.layout.BeyondBoundsLayout] is designed to be
+ * synchronous, so once you are done using the items, call [removeInterval] to remove the extra
+ * items you had requested.
+ *
+ * Note that when you clear an interval, the items in that interval might not be cleared right away
+ * if another interval was created that has the same items. This is done to support two use cases:
+ * 1. To allow items to be pinned while they are being scrolled into view.
+ * 2. To allow users to call [layout][androidx.compose.ui.layout.BeyondBoundsLayout.layout] from
+ *    within the completion block of another layout call.
+ */
+internal class LazyLayoutBeyondBoundsInfo {
+    private val beyondBoundsItems = mutableVectorOf<Interval>()
+
+    /**
+     * Create a beyond bounds interval. This can be used to specify which composed items we want to
+     * retain. For instance, it can be used to force the measuring of items that are beyond the
+     * visible bounds of a lazy list.
+     *
+     * @param start The starting index (inclusive) for this interval.
+     * @param end The ending index (inclusive) for this interval.
+     * @return An interval that specifies which items we want to retain.
+     */
+    fun addInterval(start: Int, end: Int): Interval {
+        return Interval(start, end).apply { beyondBoundsItems.add(this) }
+    }
+
+    /** Clears the specified interval. Use this to remove the interval created by [addInterval]. */
+    fun removeInterval(interval: Interval) {
+        beyondBoundsItems.remove(interval)
+    }
+
+    /** Returns true if there are beyond bounds intervals. */
+    fun hasIntervals(): Boolean = beyondBoundsItems.isNotEmpty()
+
+    /** The effective start index after merging all the current intervals. */
+    val start: Int
+        get() {
+            var minIndex = beyondBoundsItems.first().start
+            beyondBoundsItems.forEach {
+                if (it.start < minIndex) {
+                    minIndex = it.start
+                }
+            }
+            requirePrecondition(minIndex >= 0) { "negative minIndex" }
+            return minIndex
+        }
+
+    /** The effective end index after merging all the current intervals. */
+    val end: Int
+        get() {
+            var maxIndex = beyondBoundsItems.first().end
+            beyondBoundsItems.forEach {
+                if (it.end > maxIndex) {
+                    maxIndex = it.end
+                }
+            }
+            return maxIndex
+        }
+
+    /** The Interval used to implement [LazyLayoutBeyondBoundsInfo]. */
+    internal data class Interval(
+        /** The start index for the interval. */
+        val start: Int,
+
+        /** The end index for the interval. */
+        val end: Int,
+    ) {
+        init {
+            requirePrecondition(start >= 0) { "negative start index" }
+            requirePrecondition(end >= start) { "end index greater than start" }
+        }
+    }
+}

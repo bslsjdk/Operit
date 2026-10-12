@@ -1,1 +1,216 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5BcnJhbmdlbWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uU2NvcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucmVtZW1iZXJTY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnZlcnRpY2FsU2Nyb2xsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ2FyZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ2FyZERlZmF1bHRzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0QnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdE1lc3NhZ2UKaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKQENvbXBvc2FibGUKZnVuIE1lc3NhZ2VJbmZvRGlhbG9nKAogICAgbWVzc2FnZTogQ2hhdE1lc3NhZ2UsCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQKKSB7CiAgICB2YWwgdW5hdmFpbGFibGUgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZXNzYWdlX2luZm9fdW5hdmFpbGFibGUpCiAgICB2YWwgZGF0ZUZvcm1hdHRlciA9IHJlbWVtYmVyIHsKICAgICAgICBTaW1wbGVEYXRlRm9ybWF0KCJ5eXl5LU1NLWRkIEhIOm1tOnNzLlNTUyIsIExvY2FsZS5nZXREZWZhdWx0KCkpCiAgICB9CiAgICB2YWwgZGlzcGxheVNlbmRlciA9CiAgICAgICAgd2hlbiAobWVzc2FnZS5zZW5kZXIpIHsKICAgICAgICAgICAgInVzZXIiIC0+IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lc3NhZ2Vfcm9sZV91c2VyKQogICAgICAgICAgICAiYWkiIC0+ICJBSSIKICAgICAgICAgICAgZWxzZSAtPiBtZXNzYWdlLnNlbmRlcgogICAgICAgIH0KCiAgICBmdW4gZm9ybWF0VGltZXN0YW1wKHZhbHVlOiBMb25nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gaWYgKHZhbHVlID4gMEwpIHsKICAgICAgICAgICAgZGF0ZUZvcm1hdHRlci5mb3JtYXQoRGF0ZSh2YWx1ZSkpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdW5hdmFpbGFibGUKICAgICAgICB9CiAgICB9CgogICAgZnVuIGZvcm1hdER1cmF0aW9uKHZhbHVlOiBMb25nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gaWYgKHZhbHVlID4gMEwpIHsKICAgICAgICAgICAgaWYgKHZhbHVlID49IDEwMDBMKSB7CiAgICAgICAgICAgICAgICBTdHJpbmcuZm9ybWF0KExvY2FsZS5nZXREZWZhdWx0KCksICIlLjJmIHMgKCVkIG1zKSIsIHZhbHVlIC8gMTAwMC4wLCB2YWx1ZSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICIkdmFsdWUgbXMiCiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiMCBtcyIKICAgICAgICB9CiAgICB9CgogICAgQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzcywKICAgICAgICB0aXRsZSA9IHsgVGV4dCh0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVzc2FnZV9pbmZvX3RpdGxlKSkgfSwKICAgICAgICB0ZXh0ID0gewogICAgICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnZlcnRpY2FsU2Nyb2xsKHJlbWVtYmVyU2Nyb2xsU3RhdGUoKSksCiAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTIuZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgTWVzc2FnZUluZm9DYXJkIHsKICAgICAgICAgICAgICAgICAgICBNZXNzYWdlSW5mb1R3b0NvbHVtblJvdygKICAgICAgICAgICAgICAgICAgICAgICAgbGVmdExhYmVsID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVzc2FnZV9pbmZvX3NlbmRlciksCiAgICAgICAgICAgICAgICAgICAgICAgIGxlZnRWYWx1ZSA9IGRpc3BsYXlTZW5kZXIsCiAgICAgICAgICAgICAgICAgICAgICAgIHJpZ2h0TGFiZWwgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZXNzYWdlX2luZm9fcm9sZV9uYW1lKSwKICAgICAgICAgICAgICAgICAgICAgICAgcmlnaHRWYWx1ZSA9IG1lc3NhZ2Uucm9sZU5hbWUuaWZCbGFuayB7IHVuYXZhaWxhYmxlIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgTWVzc2FnZUluZm9Ud29Db2x1bW5Sb3coCiAgICAgICAgICAgICAgICAgICAgICAgIGxlZnRMYWJlbCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lc3NhZ2VfaW5mb19wcm92aWRlciksCiAgICAgICAgICAgICAgICAgICAgICAgIGxlZnRWYWx1ZSA9IG1lc3NhZ2UucHJvdmlkZXIuaWZCbGFuayB7IHVuYXZhaWxhYmxlIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIHJpZ2h0TGFiZWwgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZXNzYWdlX2luZm9fbW9kZWxfbmFtZSksCiAgICAgICAgICAgICAgICAgICAgICAgIHJpZ2h0VmFsdWUgPSBtZXNzYWdlLm1vZGVsTmFtZS5pZkJsYW5rIHsgdW5hdmFpbGFibGUgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBNZXNzYWdlSW5mb0NhcmQgewogICAgICAgICAgICAgICAgICAgIE1lc3NhZ2VJbmZvVHdvQ29sdW1uUm93KAogICAgICAgICAgICAgICAgICAgICAgICBsZWZ0TGFiZWwgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZXNzYWdlX2luZm9fbWVzc2FnZV90aW1lKSwKICAgICAgICAgICAgICAgICAgICAgICAgbGVmdFZhbHVlID0gZm9ybWF0VGltZXN0YW1wKG1lc3NhZ2UudGltZXN0YW1wKSwKICAgICAgICAgICAgICAgICAgICAgICAgcmlnaHRMYWJlbCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lc3NhZ2VfaW5mb19zZW50X2F0KSwKICAgICAgICAgICAgICAgICAgICAgICAgcmlnaHRWYWx1ZSA9IGZvcm1hdFRpbWVzdGFtcChtZXNzYWdlLnNlbnRBdCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgTWVzc2FnZUluZm9Ud29Db2x1bW5Sb3coCiAgICAgICAgICAgICAgICAgICAgICAgIGxlZnRMYWJlbCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lc3NhZ2VfaW5mb193YWl0X2R1cmF0aW9uKSwKICAgICAgICAgICAgICAgICAgICAgICAgbGVmdFZhbHVlID0gZm9ybWF0RHVyYXRpb24obWVzc2FnZS53YWl0RHVyYXRpb25NcyksCiAgICAgICAgICAgICAgICAgICAgICAgIHJpZ2h0TGFiZWwgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZXNzYWdlX2luZm9fb3V0cHV0X2R1cmF0aW9uKSwKICAgICAgICAgICAgICAgICAgICAgICAgcmlnaHRWYWx1ZSA9IGZvcm1hdER1cmF0aW9uKG1lc3NhZ2Uub3V0cHV0RHVyYXRpb25NcykKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgTWVzc2FnZUluZm9DYXJkIHsKICAgICAgICAgICAgICAgICAgICBNZXNzYWdlSW5mb1Rva2VuUm93KAogICAgICAgICAgICAgICAgICAgICAgICBpbnB1dFRva2VucyA9IG1lc3NhZ2UuaW5wdXRUb2tlbnMsCiAgICAgICAgICAgICAgICAgICAgICAgIG91dHB1dFRva2VucyA9IG1lc3NhZ2Uub3V0cHV0VG9rZW5zLAogICAgICAgICAgICAgICAgICAgICAgICBjYWNoZWRJbnB1dFRva2VucyA9IG1lc3NhZ2UuY2FjaGVkSW5wdXRUb2tlbnMKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGNvbmZpcm1CdXR0b24gPSB7CiAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IG9uRGlzbWlzcykgewogICAgICAgICAgICAgICAgVGV4dCh0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuZmxvYXRpbmdfY2xvc2UpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgKQp9CgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBNZXNzYWdlSW5mb0NhcmQoCiAgICBjb250ZW50OiBAQ29tcG9zYWJsZSBDb2x1bW5TY29wZS4oKSAtPiBVbml0CikgewogICAgQ2FyZCgKICAgICAgICBjb2xvcnMgPQogICAgICAgICAgICBDYXJkRGVmYXVsdHMuY2FyZENvbG9ycygKICAgICAgICAgICAgICAgIGNvbnRhaW5lckNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudC5jb3B5KGFscGhhID0gMC41NWYpCiAgICAgICAgICAgICkKICAgICkgewogICAgICAgIENvbHVtbigKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKS5wYWRkaW5nKGhvcml6b250YWwgPSAxMi5kcCwgdmVydGljYWwgPSAxMC5kcCksCiAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxMC5kcCksCiAgICAgICAgICAgIGNvbnRlbnQgPSBjb250ZW50CiAgICAgICAgKQogICAgfQp9CgpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBNZXNzYWdlSW5mb1R3b0NvbHVtblJvdygKICAgIGxlZnRMYWJlbDogU3RyaW5nLAogICAgbGVmdFZhbHVlOiBTdHJpbmcsCiAgICByaWdodExhYmVsOiBTdHJpbmcsCiAgICByaWdodFZhbHVlOiBTdHJpbmcKKSB7CiAgICBSb3coCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxMi5kcCkKICAgICkgewogICAgICAgIENvbHVtbigKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpLAogICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMi5kcCkKICAgICAgICApIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBsZWZ0TGFiZWwsCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbE1lZGl1bSwKICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICkKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBsZWZ0VmFsdWUsCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIENvbHVtbigKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpLAogICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMi5kcCkKICAgICAgICApIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSByaWdodExhYmVsLAogICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0sCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgICAgICAgICApCiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICB0ZXh0ID0gcmlnaHRWYWx1ZSwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIE1lc3NhZ2VJbmZvVG9rZW5Sb3coCiAgICBpbnB1dFRva2VuczogTG9uZywKICAgIG91dHB1dFRva2VuczogTG9uZywKICAgIGNhY2hlZElucHV0VG9rZW5zOiBMb25nCikgewogICAgQ29sdW1uKHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg2LmRwKSkgewogICAgICAgIFRleHQoCiAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZXNzYWdlX2luZm9fdG9rZW5fc3VtbWFyeSksCiAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsTWVkaXVtLAogICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgICAgICkKICAgICAgICBUZXh0KAogICAgICAgICAgICB0ZXh0ID0KICAgICAgICAgICAgICAgIGJ1aWxkU3RyaW5nIHsKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVzc2FnZV9pbmZvX3Rva2VuX2lucHV0X3Nob3J0KSkKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoIiAiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZChpbnB1dFRva2VucykKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoIiAgIikKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVzc2FnZV9pbmZvX3Rva2VuX291dHB1dF9zaG9ydCkpCiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCIgIikKICAgICAgICAgICAgICAgICAgICBhcHBlbmQob3V0cHV0VG9rZW5zKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZCgiICAiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZXNzYWdlX2luZm9fdG9rZW5fY2FjaGVkX3Nob3J0KSkKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoIiAiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZChjYWNoZWRJbnB1dFRva2VucykKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoIiAgIikKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVzc2FnZV9pbmZvX3Rva2VuX2hpdF9yYXRlX3Nob3J0KSkKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoIiAiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZChmb3JtYXRDYWNoZUhpdFJhdGUoY2FjaGVkSW5wdXRUb2tlbnMsIGlucHV0VG9rZW5zKSkKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UKICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.ColumnScope
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.ChatMessage
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+@Composable
+fun MessageInfoDialog(
+    message: ChatMessage,
+    onDismiss: () -> Unit
+) {
+    val unavailable = stringResource(R.string.message_info_unavailable)
+    val dateFormatter = remember {
+        SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.getDefault())
+    }
+    val displaySender =
+        when (message.sender) {
+            "user" -> stringResource(R.string.message_role_user)
+            "ai" -> "AI"
+            else -> message.sender
+        }
+
+    fun formatTimestamp(value: Long): String {
+        return if (value > 0L) {
+            dateFormatter.format(Date(value))
+        } else {
+            unavailable
+        }
+    }
+
+    fun formatDuration(value: Long): String {
+        return if (value > 0L) {
+            if (value >= 1000L) {
+                String.format(Locale.getDefault(), "%.2f s (%d ms)", value / 1000.0, value)
+            } else {
+                "$value ms"
+            }
+        } else {
+            "0 ms"
+        }
+    }
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(text = stringResource(R.string.message_info_title)) },
+        text = {
+            Column(
+                modifier = Modifier.verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(12.dp)
+            ) {
+                MessageInfoCard {
+                    MessageInfoTwoColumnRow(
+                        leftLabel = stringResource(R.string.message_info_sender),
+                        leftValue = displaySender,
+                        rightLabel = stringResource(R.string.message_info_role_name),
+                        rightValue = message.roleName.ifBlank { unavailable }
+                    )
+                    MessageInfoTwoColumnRow(
+                        leftLabel = stringResource(R.string.message_info_provider),
+                        leftValue = message.provider.ifBlank { unavailable },
+                        rightLabel = stringResource(R.string.message_info_model_name),
+                        rightValue = message.modelName.ifBlank { unavailable }
+                    )
+                }
+
+                MessageInfoCard {
+                    MessageInfoTwoColumnRow(
+                        leftLabel = stringResource(R.string.message_info_message_time),
+                        leftValue = formatTimestamp(message.timestamp),
+                        rightLabel = stringResource(R.string.message_info_sent_at),
+                        rightValue = formatTimestamp(message.sentAt)
+                    )
+                    MessageInfoTwoColumnRow(
+                        leftLabel = stringResource(R.string.message_info_wait_duration),
+                        leftValue = formatDuration(message.waitDurationMs),
+                        rightLabel = stringResource(R.string.message_info_output_duration),
+                        rightValue = formatDuration(message.outputDurationMs)
+                    )
+                }
+
+                MessageInfoCard {
+                    MessageInfoTokenRow(
+                        inputTokens = message.inputTokens,
+                        outputTokens = message.outputTokens,
+                        cachedInputTokens = message.cachedInputTokens
+                    )
+                }
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = onDismiss) {
+                Text(text = stringResource(R.string.floating_close))
+            }
+        }
+    )
+}
+
+@Composable
+private fun MessageInfoCard(
+    content: @Composable ColumnScope.() -> Unit
+) {
+    Card(
+        colors =
+            CardDefaults.cardColors(
+                containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.55f)
+            )
+    ) {
+        Column(
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 10.dp),
+            verticalArrangement = Arrangement.spacedBy(10.dp),
+            content = content
+        )
+    }
+}
+
+@Composable
+private fun MessageInfoTwoColumnRow(
+    leftLabel: String,
+    leftValue: String,
+    rightLabel: String,
+    rightValue: String
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Column(
+            modifier = Modifier.weight(1f),
+            verticalArrangement = Arrangement.spacedBy(2.dp)
+        ) {
+            Text(
+                text = leftLabel,
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            Text(
+                text = leftValue,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurface
+            )
+        }
+        Column(
+            modifier = Modifier.weight(1f),
+            verticalArrangement = Arrangement.spacedBy(2.dp)
+        ) {
+            Text(
+                text = rightLabel,
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            Text(
+                text = rightValue,
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurface
+            )
+        }
+    }
+}
+
+@Composable
+private fun MessageInfoTokenRow(
+    inputTokens: Long,
+    outputTokens: Long,
+    cachedInputTokens: Long
+) {
+    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        Text(
+            text = stringResource(R.string.message_info_token_summary),
+            style = MaterialTheme.typography.labelMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+        Text(
+            text =
+                buildString {
+                    append(stringResource(R.string.message_info_token_input_short))
+                    append(" ")
+                    append(inputTokens)
+                    append("  ")
+                    append(stringResource(R.string.message_info_token_output_short))
+                    append(" ")
+                    append(outputTokens)
+                    append("  ")
+                    append(stringResource(R.string.message_info_token_cached_short))
+                    append(" ")
+                    append(cachedInputTokens)
+                    append("  ")
+                    append(stringResource(R.string.message_info_token_hit_rate_short))
+                    append(" ")
+                    append(formatCacheHitRate(cachedInputTokens, inputTokens))
+                },
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurface
+        )
+    }
+}

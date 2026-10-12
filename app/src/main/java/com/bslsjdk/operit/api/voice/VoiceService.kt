@@ -1,1 +1,89 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwoKLyoqIOivremfs+acjeWKoeaOpeWPo++8jOWumuS5ieS4juS4jeWQjOivremfs+W8leaTjui/m+ihjOS6pOS6kueahOagh+WHhuaWueazlSAqLwppbnRlcmZhY2UgVm9pY2VTZXJ2aWNlIHsKICAgIC8qKiDlvZPliY3or63pn7PlvJXmk47mmK/lkKbliJ3lp4vljJblrozmiJAgKi8KICAgIHZhbCBpc0luaXRpYWxpemVkOiBCb29sZWFuCgogICAgLyoqIOW9k+WJjeivremfs+W8leaTjuaYr+WQpuato+WcqOaSreaUviAqLwogICAgdmFsIGlzU3BlYWtpbmc6IEJvb2xlYW4KCiAgICAvKiog6K+t6Z+z54q25oCBRmxvd++8jOeUqOS6jlVJ6KeC5a+f54q25oCB5Y+Y5YyWICovCiAgICB2YWwgc3BlYWtpbmdTdGF0ZUZsb3c6IEZsb3c8Qm9vbGVhbj4KCiAgICAvKioKICAgICAqIOWIneWni+WMluivremfs+W8leaTjgogICAgICoKICAgICAqIEByZXR1cm4g5Yid5aeL5YyW5piv5ZCm5oiQ5YqfCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGluaXRpYWxpemUoKTogQm9vbGVhbgoKICAgIC8qKgogICAgICog5paH5pys6L2s6K+t6Z+z77yM5bCG5paH5pys6YCa6L+HVFRT5byV5pOO6L2s5o2i5Li66K+t6Z+z5bm25pKt5pS+CiAgICAgKgogICAgICogQHBhcmFtIHRleHQg6KaB6L2s5o2i5Li66K+t6Z+z55qE5paH5pysCiAgICAgKiBAcGFyYW0gaW50ZXJydXB0IOaYr+WQpuS4reaWreW9k+WJjeato+WcqOaSreaUvueahOivremfs++8jOm7mOiupOS4unRydWUKICAgICAqIEBwYXJhbSByYXRlIOivremAn+imhuebluWAvO+8iOWPr+mAie+8ieOAguS4uiBudWxsIOaXtuS9v+eUqOiuvue9ruS4reeahOWFqOWxgOivremAn+OAggogICAgICogQHBhcmFtIHBpdGNoIOmfs+iwg+imhuebluWAvO+8iOWPr+mAie+8ieOAguS4uiBudWxsIOaXtuS9v+eUqOiuvue9ruS4reeahOWFqOWxgOmfs+iwg+OAggogICAgICogQHBhcmFtIGV4dHJhUGFyYW1zIOmineWklueahOivt+axguWPguaVsO+8jOeUqOS6juS8oOmAkueJueWumuS6juWunueOsOeahOWPguaVsAogICAgICogQHJldHVybiDmk43kvZzmmK/lkKbmiJDlip8KICAgICAqLwogICAgc3VzcGVuZCBmdW4gc3BlYWsoCiAgICAgICAgICAgIHRleHQ6IFN0cmluZywKICAgICAgICAgICAgaW50ZXJydXB0OiBCb29sZWFuID0gdHJ1ZSwKICAgICAgICAgICAgcmF0ZTogRmxvYXQ/ID0gbnVsbCwKICAgICAgICAgICAgcGl0Y2g6IEZsb2F0PyA9IG51bGwsCiAgICAgICAgICAgIGV4dHJhUGFyYW1zOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKQogICAgKTogQm9vbGVhbgoKICAgIC8qKgogICAgICog5YGc5q2i5b2T5YmN5q2j5Zyo5pKt5pS+55qE6K+t6Z+zCiAgICAgKgogICAgICogQHJldHVybiDmk43kvZzmmK/lkKbmiJDlip8KICAgICAqLwogICAgc3VzcGVuZCBmdW4gc3RvcCgpOiBCb29sZWFuCgogICAgLyoqCiAgICAgKiDmmoLlgZzlvZPliY3mraPlnKjmkq3mlL7nmoTor63pn7MKICAgICAqCiAgICAgKiBAcmV0dXJuIOaTjeS9nOaYr+WQpuaIkOWKnwogICAgICovCiAgICBzdXNwZW5kIGZ1biBwYXVzZSgpOiBCb29sZWFuCgogICAgLyoqCiAgICAgKiDnu6fnu63mkq3mlL7mmoLlgZznmoTor63pn7MKICAgICAqCiAgICAgKiBAcmV0dXJuIOaTjeS9nOaYr+WQpuaIkOWKnwogICAgICovCiAgICBzdXNwZW5kIGZ1biByZXN1bWUoKTogQm9vbGVhbgoKICAgIC8qKiDph4rmlL7or63pn7PlvJXmk47otYTmupAgKi8KICAgIGZ1biBzaHV0ZG93bigpCgogICAgLyoqCiAgICAgKiDojrflj5blvZPliY3lj6/nlKjnmoTor63pn7PliJfooagKICAgICAqCiAgICAgKiBAcmV0dXJuIOivremfs+WIl+ihqO+8jOWMheWQq+ivremfs0lE5ZKM6K+t6Z+z5ZCN56ewCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGdldEF2YWlsYWJsZVZvaWNlcygpOiBMaXN0PFZvaWNlPgoKICAgIC8qKgogICAgICog6K6+572u5b2T5YmN5L2/55So55qE6K+t6Z+zCiAgICAgKgogICAgICogQHBhcmFtIHZvaWNlSWQg6K+t6Z+zSUQKICAgICAqIEByZXR1cm4g6K6+572u5piv5ZCm5oiQ5YqfCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHNldFZvaWNlKHZvaWNlSWQ6IFN0cmluZyk6IEJvb2xlYW4KCiAgICAvKioKICAgICAqIOihqOekulRUU+ivremfs+eahOaVsOaNruexuwogICAgICoKICAgICAqIEBwcm9wZXJ0eSBpZCDor63pn7PllK/kuIDmoIfor4bnrKYKICAgICAqIEBwcm9wZXJ0eSBuYW1lIOivremfs+WQjeensAogICAgICogQHByb3BlcnR5IGxvY2FsZSDor63pn7Plr7nlupTnmoTor63oqIDlkozlnLDljLoKICAgICAqIEBwcm9wZXJ0eSBnZW5kZXIg6K+t6Z+z5oCn5Yir77yM5Y+v6IO95Li6TUFMReOAgUZFTUFMReaIlk5FVVRSQUwKICAgICAqLwogICAgZGF0YSBjbGFzcyBWb2ljZSh2YWwgaWQ6IFN0cmluZywgdmFsIG5hbWU6IFN0cmluZywgdmFsIGxvY2FsZTogU3RyaW5nLCB2YWwgZ2VuZGVyOiBTdHJpbmcpCn0K
+package com.bslsjdk.operit.api.voice
+
+import kotlinx.coroutines.flow.Flow
+
+/** 语音服务接口，定义与不同语音引擎进行交互的标准方法 */
+interface VoiceService {
+    /** 当前语音引擎是否初始化完成 */
+    val isInitialized: Boolean
+
+    /** 当前语音引擎是否正在播放 */
+    val isSpeaking: Boolean
+
+    /** 语音状态Flow，用于UI观察状态变化 */
+    val speakingStateFlow: Flow<Boolean>
+
+    /**
+     * 初始化语音引擎
+     *
+     * @return 初始化是否成功
+     */
+    suspend fun initialize(): Boolean
+
+    /**
+     * 文本转语音，将文本通过TTS引擎转换为语音并播放
+     *
+     * @param text 要转换为语音的文本
+     * @param interrupt 是否中断当前正在播放的语音，默认为true
+     * @param rate 语速覆盖值（可选）。为 null 时使用设置中的全局语速。
+     * @param pitch 音调覆盖值（可选）。为 null 时使用设置中的全局音调。
+     * @param extraParams 额外的请求参数，用于传递特定于实现的参数
+     * @return 操作是否成功
+     */
+    suspend fun speak(
+            text: String,
+            interrupt: Boolean = true,
+            rate: Float? = null,
+            pitch: Float? = null,
+            extraParams: Map<String, String> = emptyMap()
+    ): Boolean
+
+    /**
+     * 停止当前正在播放的语音
+     *
+     * @return 操作是否成功
+     */
+    suspend fun stop(): Boolean
+
+    /**
+     * 暂停当前正在播放的语音
+     *
+     * @return 操作是否成功
+     */
+    suspend fun pause(): Boolean
+
+    /**
+     * 继续播放暂停的语音
+     *
+     * @return 操作是否成功
+     */
+    suspend fun resume(): Boolean
+
+    /** 释放语音引擎资源 */
+    fun shutdown()
+
+    /**
+     * 获取当前可用的语音列表
+     *
+     * @return 语音列表，包含语音ID和语音名称
+     */
+    suspend fun getAvailableVoices(): List<Voice>
+
+    /**
+     * 设置当前使用的语音
+     *
+     * @param voiceId 语音ID
+     * @return 设置是否成功
+     */
+    suspend fun setVoice(voiceId: String): Boolean
+
+    /**
+     * 表示TTS语音的数据类
+     *
+     * @property id 语音唯一标识符
+     * @property name 语音名称
+     * @property locale 语音对应的语言和地区
+     * @property gender 语音性别，可能为MALE、FEMALE或NEUTRAL
+     */
+    data class Voice(val id: String, val name: String, val locale: String, val gender: String)
+}

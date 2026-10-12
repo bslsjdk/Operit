@@ -1,1 +1,3 @@
-J3VzZSBzdHJpY3QnOwoKYXdhaXQgUHJvbWlzZS5yZWplY3QobmV3IEVycm9yKCdzY3JpcHQtbW9kZSB1bmhhbmRsZWQgcmVqZWN0aW9uIHNlbnRpbmVsJykpOwo=
+'use strict';
+
+await Promise.reject(new Error('script-mode unhandled rejection sentinel'));

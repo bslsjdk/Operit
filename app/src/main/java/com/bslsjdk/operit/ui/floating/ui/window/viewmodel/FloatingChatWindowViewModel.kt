@@ -1,1 +1,172 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkud2luZG93LnZpZXdtb2RlbAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZsb2F0aW5nLkZsb2F0Q29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZsb2F0aW5nLnVpLndpbmRvdy5tb2RlbHMuUmVzaXplRWRnZQoKLyoqIOeql+WPo+aooeW8j+eahOeKtuaAgeaVsOaNruexuyAqLwpkYXRhIGNsYXNzIERyYWdnYWJsZVdpbmRvd1N0YXRlKAogICAgdmFsIHdpZHRoOiBEcCwKICAgIHZhbCBoZWlnaHQ6IERwLAogICAgdmFsIHNjYWxlOiBGbG9hdCwKKQoKLyoqIEZsb2F0aW5nQ2hhdFdpbmRvd01vZGUg55qEIFZpZXdNb2RlbO+8jOeuoeeQhueql+WPo+ebuOWFs+eahOeKtuaAgeWSjOmAu+i+kSAqLwpjbGFzcyBGbG9hdGluZ0NoYXRXaW5kb3dNb2RlVmlld01vZGVsKAogICAgcHJpdmF0ZSB2YWwgZmxvYXRDb250ZXh0OiBGbG9hdENvbnRleHQKKSB7CiAgICAvLyDnqpflj6PnirbmgIEKICAgIHZhciB3aW5kb3dTdGF0ZSBieSBtdXRhYmxlU3RhdGVPZigKICAgICAgICBEcmFnZ2FibGVXaW5kb3dTdGF0ZSgKICAgICAgICAgICAgd2lkdGggPSBmbG9hdENvbnRleHQud2luZG93V2lkdGhTdGF0ZSwKICAgICAgICAgICAgaGVpZ2h0ID0gZmxvYXRDb250ZXh0LndpbmRvd0hlaWdodFN0YXRlLAogICAgICAgICAgICBzY2FsZSA9IGZsb2F0Q29udGV4dC53aW5kb3dTY2FsZQogICAgICAgICkKICAgICkKICAgICAgICBwcml2YXRlIHNldAoKICAgIC8vIOaLluWKqOeKtuaAgQogICAgdmFyIGlzRHJhZ2dpbmcgYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICAgICAgcHJpdmF0ZSBzZXQKCiAgICAvLyDmoIfpopjmoI/mgqzlgZznirbmgIEKICAgIHZhciB0aXRsZUJhckhvdmVyIGJ5IG11dGFibGVTdGF0ZU9mKGZhbHNlKQoKICAgIC8vIOaMiemSrueKtuaAgQogICAgdmFyIGNsb3NlQnV0dG9uUHJlc3NlZCBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgIHZhciBtaW5pbWl6ZUhvdmVyIGJ5IG11dGFibGVTdGF0ZU9mKGZhbHNlKQogICAgdmFyIGNsb3NlSG92ZXIgYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCgogICAgLyoqCiAgICAgKiDlkIzmraXnqpflj6PnirbmgIEKICAgICAqIOW9k+eUqOaIt+S4jeWcqOaLluWKqOaXtu+8jOS7jiBmbG9hdENvbnRleHQg5ZCM5q2l54q25oCBCiAgICAgKi8KICAgIGZ1biBzeW5jV2luZG93U3RhdGUoKSB7CiAgICAgICAgaWYgKCFpc0RyYWdnaW5nKSB7CiAgICAgICAgICAgIHdpbmRvd1N0YXRlID0gRHJhZ2dhYmxlV2luZG93U3RhdGUoCiAgICAgICAgICAgICAgICB3aWR0aCA9IGZsb2F0Q29udGV4dC53aW5kb3dXaWR0aFN0YXRlLAogICAgICAgICAgICAgICAgaGVpZ2h0ID0gZmxvYXRDb250ZXh0LndpbmRvd0hlaWdodFN0YXRlLAogICAgICAgICAgICAgICAgc2NhbGUgPSBmbG9hdENvbnRleHQud2luZG93U2NhbGUKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOW8gOWni+aLluWKqAogICAgICovCiAgICBmdW4gc3RhcnREcmFnZ2luZygpIHsKICAgICAgICBpc0RyYWdnaW5nID0gdHJ1ZQogICAgfQoKICAgIC8qKgogICAgICog57uT5p2f5ouW5YqoCiAgICAgKi8KICAgIGZ1biBlbmREcmFnZ2luZygpIHsKICAgICAgICBpc0RyYWdnaW5nID0gZmFsc2UKICAgIH0KCiAgICAvKioKICAgICAqIOW8gOWni+i+uee8mOiwg+aVtOWkp+WwjwogICAgICovCiAgICBmdW4gc3RhcnRFZGdlUmVzaXplKCkgewogICAgICAgIGlzRHJhZ2dpbmcgPSB0cnVlCiAgICAgICAgZmxvYXRDb250ZXh0LmlzRWRnZVJlc2l6aW5nID0gdHJ1ZQogICAgfQoKICAgIC8qKgogICAgICog57uT5p2f6L6557yY6LCD5pW05aSn5bCPCiAgICAgKi8KICAgIGZ1biBlbmRFZGdlUmVzaXplKCkgewogICAgICAgIGlzRHJhZ2dpbmcgPSBmYWxzZQogICAgICAgIGZsb2F0Q29udGV4dC5pc0VkZ2VSZXNpemluZyA9IGZhbHNlCiAgICAgICAgZmxvYXRDb250ZXh0LnNhdmVXaW5kb3dTdGF0ZT8uaW52b2tlKCkKICAgIH0KCiAgICAvKioKICAgICAqIOWkhOeQhueql+WPo+Wkp+Wwj+iwg+aVtAogICAgICovCiAgICBmdW4gaGFuZGxlUmVzaXplKG5ld1dpZHRoOiBEcCwgbmV3SGVpZ2h0OiBEcCkgewogICAgICAgIHZhbCBtYXhXaWR0aCA9IChmbG9hdENvbnRleHQuc2NyZWVuV2lkdGggKiAwLjhmKS5jb2VyY2VBdExlYXN0KDE1MC5kcCkKICAgICAgICB2YWwgbWF4SGVpZ2h0ID0gKGZsb2F0Q29udGV4dC5zY3JlZW5IZWlnaHQgKiAwLjhmKS5jb2VyY2VBdExlYXN0KDIwMC5kcCkKICAgICAgICB2YWwgY29uc3RyYWluZWRXaWR0aCA9IG5ld1dpZHRoLmNvZXJjZUluKDE1MC5kcCwgbWF4V2lkdGgpCiAgICAgICAgdmFsIGNvbnN0cmFpbmVkSGVpZ2h0ID0gbmV3SGVpZ2h0LmNvZXJjZUluKDIwMC5kcCwgbWF4SGVpZ2h0KQoKICAgICAgICB3aW5kb3dTdGF0ZSA9IHdpbmRvd1N0YXRlLmNvcHkoCiAgICAgICAgICAgIHdpZHRoID0gY29uc3RyYWluZWRXaWR0aCwKICAgICAgICAgICAgaGVpZ2h0ID0gY29uc3RyYWluZWRIZWlnaHQKICAgICAgICApCiAgICAgICAgZmxvYXRDb250ZXh0Lm9uUmVzaXplKGNvbnN0cmFpbmVkV2lkdGgsIGNvbnN0cmFpbmVkSGVpZ2h0KQogICAgfQoKICAgIC8qKgogICAgICog5aSE55CG57yp5pS+5Y+Y5YyWCiAgICAgKi8KICAgIGZ1biBoYW5kbGVTY2FsZUNoYW5nZShuZXdTY2FsZTogRmxvYXQpIHsKICAgICAgICB2YWwgb2xkU2NhbGUgPSB3aW5kb3dTdGF0ZS5zY2FsZQogICAgICAgIHZhbCBjb25zdHJhaW5lZFNjYWxlID0gbmV3U2NhbGUuY29lcmNlSW4oMC4zZiwgMS4wZikKCiAgICAgICAgaWYgKGtvdGxpbi5tYXRoLmFicyhvbGRTY2FsZSAtIGNvbnN0cmFpbmVkU2NhbGUpIDwgMC4wMWYpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB3aW5kb3dTdGF0ZSA9IHdpbmRvd1N0YXRlLmNvcHkoc2NhbGUgPSBjb25zdHJhaW5lZFNjYWxlKQogICAgICAgIGZsb2F0Q29udGV4dC5vblNjYWxlQ2hhbmdlKGNvbnN0cmFpbmVkU2NhbGUpCiAgICB9CgogICAgLyoqCiAgICAgKiDliIfmjaLnvKnmlL7mr5TkvovvvIjngrnlh7vnvKnmlL7mjInpkq7ml7bvvIkKICAgICAqLwogICAgZnVuIHRvZ2dsZVNjYWxlKCkgewogICAgICAgIHZhbCBuZXdTY2FsZSA9IHdoZW4gewogICAgICAgICAgICB3aW5kb3dTdGF0ZS5zY2FsZSA8PSAwLjNmIC0+IDAuNWYKICAgICAgICAgICAgd2luZG93U3RhdGUuc2NhbGUgPD0gMC41ZiAtPiAwLjdmCiAgICAgICAgICAgIHdpbmRvd1N0YXRlLnNjYWxlIDw9IDAuN2YgLT4gMS4wZgogICAgICAgICAgICBlbHNlIC0+IDAuM2YKICAgICAgICB9CiAgICAgICAgaGFuZGxlU2NhbGVDaGFuZ2UobmV3U2NhbGUpCiAgICB9CgogICAgLyoqCiAgICAgKiDlpITnkIbnqpflj6Pnp7vliqgKICAgICAqLwogICAgZnVuIGhhbmRsZU1vdmUoZHg6IEZsb2F0LCBkeTogRmxvYXQpIHsKICAgICAgICBmbG9hdENvbnRleHQub25Nb3ZlKGR4LCBkeSwgd2luZG93U3RhdGUuc2NhbGUpCiAgICB9CgogICAgLyoqCiAgICAgKiDliIfmjaLpmYTku7bpnaLmnb8KICAgICAqLwogICAgZnVuIHRvZ2dsZUF0dGFjaG1lbnRQYW5lbCgpIHsKICAgICAgICBmbG9hdENvbnRleHQuc2hvd0F0dGFjaG1lbnRQYW5lbCA9ICFmbG9hdENvbnRleHQuc2hvd0F0dGFjaG1lbnRQYW5lbAogICAgfQoKICAgIC8qKgogICAgICog5pi+56S66L6T5YWl5a+56K+d5qGGCiAgICAgKi8KICAgIGZ1biBzaG93SW5wdXREaWFsb2coKSB7CiAgICAgICAgZmxvYXRDb250ZXh0LnNob3dJbnB1dERpYWxvZyA9IHRydWUKICAgIH0KCiAgICAvKioKICAgICAqIOmakOiXj+i+k+WFpeWvueivneahhgogICAgICovCiAgICBmdW4gaGlkZUlucHV0RGlhbG9nKCkgewogICAgICAgIGZsb2F0Q29udGV4dC5zaG93SW5wdXREaWFsb2cgPSBmYWxzZQogICAgICAgIGZsb2F0Q29udGV4dC5zaG93QXR0YWNobWVudFBhbmVsID0gZmFsc2UKICAgIH0KfQoKLyoqCiAqIOWIm+W7uuW5tuiusOS9jyBWaWV3TW9kZWwg5a6e5L6LCiAqLwpAQ29tcG9zYWJsZQpmdW4gcmVtZW1iZXJGbG9hdGluZ0NoYXRXaW5kb3dNb2RlVmlld01vZGVsKAogICAgZmxvYXRDb250ZXh0OiBGbG9hdENvbnRleHQKKTogRmxvYXRpbmdDaGF0V2luZG93TW9kZVZpZXdNb2RlbCB7CiAgICByZXR1cm4gcmVtZW1iZXIoZmxvYXRDb250ZXh0KSB7CiAgICAgICAgRmxvYXRpbmdDaGF0V2luZG93TW9kZVZpZXdNb2RlbChmbG9hdENvbnRleHQpCiAgICB9Cn0KCg==
+package com.bslsjdk.operit.ui.floating.ui.window.viewmodel
+
+import androidx.compose.runtime.*
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.ui.floating.FloatContext
+import com.bslsjdk.operit.ui.floating.ui.window.models.ResizeEdge
+
+/** 窗口模式的状态数据类 */
+data class DraggableWindowState(
+    val width: Dp,
+    val height: Dp,
+    val scale: Float,
+)
+
+/** FloatingChatWindowMode 的 ViewModel，管理窗口相关的状态和逻辑 */
+class FloatingChatWindowModeViewModel(
+    private val floatContext: FloatContext
+) {
+    // 窗口状态
+    var windowState by mutableStateOf(
+        DraggableWindowState(
+            width = floatContext.windowWidthState,
+            height = floatContext.windowHeightState,
+            scale = floatContext.windowScale
+        )
+    )
+        private set
+
+    // 拖动状态
+    var isDragging by mutableStateOf(false)
+        private set
+
+    // 标题栏悬停状态
+    var titleBarHover by mutableStateOf(false)
+
+    // 按钮状态
+    var closeButtonPressed by mutableStateOf(false)
+    var minimizeHover by mutableStateOf(false)
+    var closeHover by mutableStateOf(false)
+
+    /**
+     * 同步窗口状态
+     * 当用户不在拖动时，从 floatContext 同步状态
+     */
+    fun syncWindowState() {
+        if (!isDragging) {
+            windowState = DraggableWindowState(
+                width = floatContext.windowWidthState,
+                height = floatContext.windowHeightState,
+                scale = floatContext.windowScale
+            )
+        }
+    }
+
+    /**
+     * 开始拖动
+     */
+    fun startDragging() {
+        isDragging = true
+    }
+
+    /**
+     * 结束拖动
+     */
+    fun endDragging() {
+        isDragging = false
+    }
+
+    /**
+     * 开始边缘调整大小
+     */
+    fun startEdgeResize() {
+        isDragging = true
+        floatContext.isEdgeResizing = true
+    }
+
+    /**
+     * 结束边缘调整大小
+     */
+    fun endEdgeResize() {
+        isDragging = false
+        floatContext.isEdgeResizing = false
+        floatContext.saveWindowState?.invoke()
+    }
+
+    /**
+     * 处理窗口大小调整
+     */
+    fun handleResize(newWidth: Dp, newHeight: Dp) {
+        val maxWidth = (floatContext.screenWidth * 0.8f).coerceAtLeast(150.dp)
+        val maxHeight = (floatContext.screenHeight * 0.8f).coerceAtLeast(200.dp)
+        val constrainedWidth = newWidth.coerceIn(150.dp, maxWidth)
+        val constrainedHeight = newHeight.coerceIn(200.dp, maxHeight)
+
+        windowState = windowState.copy(
+            width = constrainedWidth,
+            height = constrainedHeight
+        )
+        floatContext.onResize(constrainedWidth, constrainedHeight)
+    }
+
+    /**
+     * 处理缩放变化
+     */
+    fun handleScaleChange(newScale: Float) {
+        val oldScale = windowState.scale
+        val constrainedScale = newScale.coerceIn(0.3f, 1.0f)
+
+        if (kotlin.math.abs(oldScale - constrainedScale) < 0.01f) {
+            return
+        }
+
+        windowState = windowState.copy(scale = constrainedScale)
+        floatContext.onScaleChange(constrainedScale)
+    }
+
+    /**
+     * 切换缩放比例（点击缩放按钮时）
+     */
+    fun toggleScale() {
+        val newScale = when {
+            windowState.scale <= 0.3f -> 0.5f
+            windowState.scale <= 0.5f -> 0.7f
+            windowState.scale <= 0.7f -> 1.0f
+            else -> 0.3f
+        }
+        handleScaleChange(newScale)
+    }
+
+    /**
+     * 处理窗口移动
+     */
+    fun handleMove(dx: Float, dy: Float) {
+        floatContext.onMove(dx, dy, windowState.scale)
+    }
+
+    /**
+     * 切换附件面板
+     */
+    fun toggleAttachmentPanel() {
+        floatContext.showAttachmentPanel = !floatContext.showAttachmentPanel
+    }
+
+    /**
+     * 显示输入对话框
+     */
+    fun showInputDialog() {
+        floatContext.showInputDialog = true
+    }
+
+    /**
+     * 隐藏输入对话框
+     */
+    fun hideInputDialog() {
+        floatContext.showInputDialog = false
+        floatContext.showAttachmentPanel = false
+    }
+}
+
+/**
+ * 创建并记住 ViewModel 实例
+ */
+@Composable
+fun rememberFloatingChatWindowModeViewModel(
+    floatContext: FloatContext
+): FloatingChatWindowModeViewModel {
+    return remember(floatContext) {
+        FloatingChatWindowModeViewModel(floatContext)
+    }
+}
+

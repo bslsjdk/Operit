@@ -1,1 +1,157 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuU2hhcmVkUHJlZmVyZW5jZXMKaW1wb3J0IGFuZHJvaWR4LnNlY3VyaXR5LmNyeXB0by5FbmNyeXB0ZWRTaGFyZWRQcmVmZXJlbmNlcwppbXBvcnQgYW5kcm9pZHguc2VjdXJpdHkuY3J5cHRvLk1hc3RlcktleQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLmlvLklPRXhjZXB0aW9uCmltcG9ydCBqYXZhLnNlY3VyaXR5LkdlbmVyYWxTZWN1cml0eUV4Y2VwdGlvbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwoKLyoqIENyZWRlbnRpYWxzIHNoYXJlZCBieSBhbGwgQ29kZXggbW9kZWwgY29uZmlndXJhdGlvbnMgaW4gdGhpcyBhcHAuICovCmRhdGEgY2xhc3MgQ29kZXhBdXRoU3RhdGUoCiAgICB2YWwgYWNjZXNzVG9rZW46IFN0cmluZywKICAgIHZhbCByZWZyZXNoVG9rZW46IFN0cmluZywKICAgIHZhbCBleHBpcmVzQXRNaWxsaXM6IExvbmcsCiAgICB2YWwgYWNjb3VudElkOiBTdHJpbmcsCiAgICB2YWwgcmVzaWRlbmN5OiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBlbWFpbDogU3RyaW5nPyA9IG51bGwsCikKCmNsYXNzIENvZGV4QXV0aFByZWZlcmVuY2VzIHByaXZhdGUgY29uc3RydWN0b3IoY29udGV4dDogQ29udGV4dCkgewogICAgcHJpdmF0ZSB2YWwgYXBwQ29udGV4dCA9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0CiAgICBwcml2YXRlIHZhciBwcmVmZXJlbmNlcyA9IGNyZWF0ZVByZWZlcmVuY2VzKGFwcENvbnRleHQpCgogICAgcHJpdmF0ZSB2YWwgX2F1dGhTdGF0ZSA9IE11dGFibGVTdGF0ZUZsb3cocmVhZFN0YXRlKCkpCiAgICB2YWwgYXV0aFN0YXRlOiBTdGF0ZUZsb3c8Q29kZXhBdXRoU3RhdGU/PiA9IF9hdXRoU3RhdGUuYXNTdGF0ZUZsb3coKQoKICAgIGZ1biBjdXJyZW50U3RhdGUoKTogQ29kZXhBdXRoU3RhdGU/ID0gX2F1dGhTdGF0ZS52YWx1ZQoKICAgIGZ1biBzYXZlKHN0YXRlOiBDb2RleEF1dGhTdGF0ZSkgewogICAgICAgIHJlcXVpcmUoc3RhdGUuYWNjZXNzVG9rZW4uaXNOb3RCbGFuaygpKSB7ICJDb2RleCBhY2Nlc3MgdG9rZW4gaXMgZW1wdHkiIH0KICAgICAgICByZXF1aXJlKHN0YXRlLnJlZnJlc2hUb2tlbi5pc05vdEJsYW5rKCkpIHsgIkNvZGV4IHJlZnJlc2ggdG9rZW4gaXMgZW1wdHkiIH0KICAgICAgICByZXF1aXJlKHN0YXRlLmFjY291bnRJZC5pc05vdEJsYW5rKCkpIHsgIkNvZGV4IGFjY291bnQgSUQgaXMgZW1wdHkiIH0KICAgICAgICByZXF1aXJlKHN0YXRlLmV4cGlyZXNBdE1pbGxpcyA+IDBMKSB7ICJDb2RleCB0b2tlbiBleHBpcmF0aW9uIGlzIGludmFsaWQiIH0KCiAgICAgICAgcHJlZmVyZW5jZXMuZWRpdCgpCiAgICAgICAgICAgIC5wdXRTdHJpbmcoS0VZX0FDQ0VTU19UT0tFTiwgc3RhdGUuYWNjZXNzVG9rZW4pCiAgICAgICAgICAgIC5wdXRTdHJpbmcoS0VZX1JFRlJFU0hfVE9LRU4sIHN0YXRlLnJlZnJlc2hUb2tlbikKICAgICAgICAgICAgLnB1dExvbmcoS0VZX0VYUElSRVNfQVQsIHN0YXRlLmV4cGlyZXNBdE1pbGxpcykKICAgICAgICAgICAgLnB1dFN0cmluZyhLRVlfQUNDT1VOVF9JRCwgc3RhdGUuYWNjb3VudElkKQogICAgICAgICAgICAuYXBwbHkgewogICAgICAgICAgICAgICAgaWYgKHN0YXRlLnJlc2lkZW5jeS5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICByZW1vdmUoS0VZX1JFU0lERU5DWSkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgcHV0U3RyaW5nKEtFWV9SRVNJREVOQ1ksIHN0YXRlLnJlc2lkZW5jeSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChzdGF0ZS5lbWFpbC5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICByZW1vdmUoS0VZX0VNQUlMKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBwdXRTdHJpbmcoS0VZX0VNQUlMLCBzdGF0ZS5lbWFpbCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAuYXBwbHkoKQogICAgICAgIF9hdXRoU3RhdGUudmFsdWUgPSBzdGF0ZQogICAgfQoKICAgIGZ1biBjbGVhcigpIHsKICAgICAgICBwcmVmZXJlbmNlcy5lZGl0KCkuY2xlYXIoKS5hcHBseSgpCiAgICAgICAgX2F1dGhTdGF0ZS52YWx1ZSA9IG51bGwKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWFkU3RhdGUoKTogQ29kZXhBdXRoU3RhdGU/IHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgcmVhZFN0YXRlRnJvbVByZWZlcmVuY2VzKCkKICAgICAgICB9IGNhdGNoIChlcnJvcjogU2VjdXJpdHlFeGNlcHRpb24pIHsKICAgICAgICAgICAgLy8gUmVzdG9yZWQgZW5jcnlwdGVkIHZhbHVlcyBjYW4gYmUgdW5yZWFkYWJsZSB3aGVuIEFuZHJvaWQgS2V5c3RvcmUga2VwdCB0aGUga2V5CiAgICAgICAgICAgIC8vIGRldmljZS1sb2NhbC4gUmVzZXQgb25seSBDb2RleCBPQXV0aCBzdGF0ZSBzbyB0aGUgc2V0dGluZ3Mgc2NyZWVuIGNhbiBvcGVuLgogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJDb2RleCBPQXV0aCBjcmVkZW50aWFscyBhcmUgdW5yZWFkYWJsZTsgcmVzZXR0aW5nIGVuY3J5cHRlZCBzdG9yZSIsIGVycm9yKQogICAgICAgICAgICByZXNldEVuY3J5cHRlZFN0b3JlKCkKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWFkU3RhdGVGcm9tUHJlZmVyZW5jZXMoKTogQ29kZXhBdXRoU3RhdGU/IHsKICAgICAgICB2YWwgYWNjZXNzVG9rZW4gPSBwcmVmZXJlbmNlcy5nZXRTdHJpbmcoS0VZX0FDQ0VTU19UT0tFTiwgbnVsbCk/LnRyaW0oKQogICAgICAgIHZhbCByZWZyZXNoVG9rZW4gPSBwcmVmZXJlbmNlcy5nZXRTdHJpbmcoS0VZX1JFRlJFU0hfVE9LRU4sIG51bGwpPy50cmltKCkKICAgICAgICB2YWwgYWNjb3VudElkID0gcHJlZmVyZW5jZXMuZ2V0U3RyaW5nKEtFWV9BQ0NPVU5UX0lELCBudWxsKT8udHJpbSgpCiAgICAgICAgdmFsIGV4cGlyZXNBdE1pbGxpcyA9IHByZWZlcmVuY2VzLmdldExvbmcoS0VZX0VYUElSRVNfQVQsIDBMKQogICAgICAgIGlmIChhY2Nlc3NUb2tlbi5pc051bGxPckVtcHR5KCkgfHwKICAgICAgICAgICAgcmVmcmVzaFRva2VuLmlzTnVsbE9yRW1wdHkoKSB8fAogICAgICAgICAgICBhY2NvdW50SWQuaXNOdWxsT3JFbXB0eSgpIHx8CiAgICAgICAgICAgIGV4cGlyZXNBdE1pbGxpcyA8PSAwTAogICAgICAgICkgewogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIENvZGV4QXV0aFN0YXRlKAogICAgICAgICAgICBhY2Nlc3NUb2tlbiA9IGFjY2Vzc1Rva2VuLAogICAgICAgICAgICByZWZyZXNoVG9rZW4gPSByZWZyZXNoVG9rZW4sCiAgICAgICAgICAgIGV4cGlyZXNBdE1pbGxpcyA9IGV4cGlyZXNBdE1pbGxpcywKICAgICAgICAgICAgYWNjb3VudElkID0gYWNjb3VudElkLAogICAgICAgICAgICByZXNpZGVuY3kgPSBwcmVmZXJlbmNlcy5nZXRTdHJpbmcoS0VZX1JFU0lERU5DWSwgbnVsbCksCiAgICAgICAgICAgIGVtYWlsID0gcHJlZmVyZW5jZXMuZ2V0U3RyaW5nKEtFWV9FTUFJTCwgbnVsbCksCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc2V0RW5jcnlwdGVkU3RvcmUoKSB7CiAgICAgICAgYXBwQ29udGV4dC5kZWxldGVTaGFyZWRQcmVmZXJlbmNlcyhTVE9SRV9OQU1FKQogICAgICAgIHByZWZlcmVuY2VzID0gY3JlYXRlRW5jcnlwdGVkUHJlZmVyZW5jZXMoYXBwQ29udGV4dCkKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiQ29kZXhBdXRoUHJlZmVyZW5jZXMiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgU1RPUkVfTkFNRSA9ICJjb2RleF9vYXV0aF9jcmVkZW50aWFscyIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfQUNDRVNTX1RPS0VOID0gImFjY2Vzc190b2tlbiIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfUkVGUkVTSF9UT0tFTiA9ICJyZWZyZXNoX3Rva2VuIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9FWFBJUkVTX0FUID0gImV4cGlyZXNfYXQiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgS0VZX0FDQ09VTlRfSUQgPSAiYWNjb3VudF9pZCIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfUkVTSURFTkNZID0gInJlc2lkZW5jeSIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfRU1BSUwgPSAiZW1haWwiCgogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHByaXZhdGUgdmFyIGluc3RhbmNlOiBDb2RleEF1dGhQcmVmZXJlbmNlcz8gPSBudWxsCgogICAgICAgIGZ1biBnZXRJbnN0YW5jZShjb250ZXh0OiBDb250ZXh0KTogQ29kZXhBdXRoUHJlZmVyZW5jZXMgewogICAgICAgICAgICByZXR1cm4gaW5zdGFuY2UgPzogc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgICAgIGluc3RhbmNlID86IENvZGV4QXV0aFByZWZlcmVuY2VzKGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KS5hbHNvIHsgaW5zdGFuY2UgPSBpdCB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIGNyZWF0ZVByZWZlcmVuY2VzKGNvbnRleHQ6IENvbnRleHQpOiBTaGFyZWRQcmVmZXJlbmNlcyB7CiAgICAgICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICAgICAgY3JlYXRlRW5jcnlwdGVkUHJlZmVyZW5jZXMoY29udGV4dCkKICAgICAgICAgICAgfSBjYXRjaCAoZXJyb3I6IEdlbmVyYWxTZWN1cml0eUV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgcmVjcmVhdGVQcmVmZXJlbmNlc0FmdGVyVW5yZWFkYWJsZVN0b3JlKGNvbnRleHQsIGVycm9yKQogICAgICAgICAgICB9IGNhdGNoIChlcnJvcjogSU9FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIHJlY3JlYXRlUHJlZmVyZW5jZXNBZnRlclVucmVhZGFibGVTdG9yZShjb250ZXh0LCBlcnJvcikKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gcmVjcmVhdGVQcmVmZXJlbmNlc0FmdGVyVW5yZWFkYWJsZVN0b3JlKAogICAgICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgICAgICBlcnJvcjogRXhjZXB0aW9uCiAgICAgICAgKTogU2hhcmVkUHJlZmVyZW5jZXMgewogICAgICAgICAgICAvLyBBbmRyb2lkIGJhY2t1cCByZXN0b3JlcyBTaGFyZWRQcmVmZXJlbmNlcyBYTUwgYnV0IG5vdCB0aGUgYXBwJ3MgQW5kcm9pZCBLZXlzdG9yZQogICAgICAgICAgICAvLyBlbnRyeS4gVGluayB0aGVuIHJlamVjdHMgdGhlIGVuY3J5cHRlZCBrZXlzZXQgd2l0aCBBRUFEQmFkVGFnRXhjZXB0aW9uLgogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJDb2RleCBPQXV0aCBlbmNyeXB0ZWQgc3RvcmUgY2Fubm90IGJlIG9wZW5lZDsgcmVzZXR0aW5nIGl0IiwgZXJyb3IpCiAgICAgICAgICAgIGNvbnRleHQuZGVsZXRlU2hhcmVkUHJlZmVyZW5jZXMoU1RPUkVfTkFNRSkKICAgICAgICAgICAgcmV0dXJuIGNyZWF0ZUVuY3J5cHRlZFByZWZlcmVuY2VzKGNvbnRleHQpCiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biBjcmVhdGVFbmNyeXB0ZWRQcmVmZXJlbmNlcyhjb250ZXh0OiBDb250ZXh0KTogU2hhcmVkUHJlZmVyZW5jZXMgewogICAgICAgICAgICByZXR1cm4gRW5jcnlwdGVkU2hhcmVkUHJlZmVyZW5jZXMuY3JlYXRlKAogICAgICAgICAgICAgICAgY29udGV4dCwKICAgICAgICAgICAgICAgIFNUT1JFX05BTUUsCiAgICAgICAgICAgICAgICBNYXN0ZXJLZXkuQnVpbGRlcihjb250ZXh0KQogICAgICAgICAgICAgICAgICAgIC5zZXRLZXlTY2hlbWUoTWFzdGVyS2V5LktleVNjaGVtZS5BRVMyNTZfR0NNKQogICAgICAgICAgICAgICAgICAgIC5idWlsZCgpLAogICAgICAgICAgICAgICAgRW5jcnlwdGVkU2hhcmVkUHJlZmVyZW5jZXMuUHJlZktleUVuY3J5cHRpb25TY2hlbWUuQUVTMjU2X1NJViwKICAgICAgICAgICAgICAgIEVuY3J5cHRlZFNoYXJlZFByZWZlcmVuY2VzLlByZWZWYWx1ZUVuY3J5cHRpb25TY2hlbWUuQUVTMjU2X0dDTSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import android.content.SharedPreferences
+import androidx.security.crypto.EncryptedSharedPreferences
+import androidx.security.crypto.MasterKey
+import com.bslsjdk.operit.util.AppLogger
+import java.io.IOException
+import java.security.GeneralSecurityException
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+/** Credentials shared by all Codex model configurations in this app. */
+data class CodexAuthState(
+    val accessToken: String,
+    val refreshToken: String,
+    val expiresAtMillis: Long,
+    val accountId: String,
+    val residency: String? = null,
+    val email: String? = null,
+)
+
+class CodexAuthPreferences private constructor(context: Context) {
+    private val appContext = context.applicationContext
+    private var preferences = createPreferences(appContext)
+
+    private val _authState = MutableStateFlow(readState())
+    val authState: StateFlow<CodexAuthState?> = _authState.asStateFlow()
+
+    fun currentState(): CodexAuthState? = _authState.value
+
+    fun save(state: CodexAuthState) {
+        require(state.accessToken.isNotBlank()) { "Codex access token is empty" }
+        require(state.refreshToken.isNotBlank()) { "Codex refresh token is empty" }
+        require(state.accountId.isNotBlank()) { "Codex account ID is empty" }
+        require(state.expiresAtMillis > 0L) { "Codex token expiration is invalid" }
+
+        preferences.edit()
+            .putString(KEY_ACCESS_TOKEN, state.accessToken)
+            .putString(KEY_REFRESH_TOKEN, state.refreshToken)
+            .putLong(KEY_EXPIRES_AT, state.expiresAtMillis)
+            .putString(KEY_ACCOUNT_ID, state.accountId)
+            .apply {
+                if (state.residency.isNullOrBlank()) {
+                    remove(KEY_RESIDENCY)
+                } else {
+                    putString(KEY_RESIDENCY, state.residency)
+                }
+                if (state.email.isNullOrBlank()) {
+                    remove(KEY_EMAIL)
+                } else {
+                    putString(KEY_EMAIL, state.email)
+                }
+            }
+            .apply()
+        _authState.value = state
+    }
+
+    fun clear() {
+        preferences.edit().clear().apply()
+        _authState.value = null
+    }
+
+    private fun readState(): CodexAuthState? {
+        return try {
+            readStateFromPreferences()
+        } catch (error: SecurityException) {
+            // Restored encrypted values can be unreadable when Android Keystore kept the key
+            // device-local. Reset only Codex OAuth state so the settings screen can open.
+            AppLogger.e(TAG, "Codex OAuth credentials are unreadable; resetting encrypted store", error)
+            resetEncryptedStore()
+            null
+        }
+    }
+
+    private fun readStateFromPreferences(): CodexAuthState? {
+        val accessToken = preferences.getString(KEY_ACCESS_TOKEN, null)?.trim()
+        val refreshToken = preferences.getString(KEY_REFRESH_TOKEN, null)?.trim()
+        val accountId = preferences.getString(KEY_ACCOUNT_ID, null)?.trim()
+        val expiresAtMillis = preferences.getLong(KEY_EXPIRES_AT, 0L)
+        if (accessToken.isNullOrEmpty() ||
+            refreshToken.isNullOrEmpty() ||
+            accountId.isNullOrEmpty() ||
+            expiresAtMillis <= 0L
+        ) {
+            return null
+        }
+
+        return CodexAuthState(
+            accessToken = accessToken,
+            refreshToken = refreshToken,
+            expiresAtMillis = expiresAtMillis,
+            accountId = accountId,
+            residency = preferences.getString(KEY_RESIDENCY, null),
+            email = preferences.getString(KEY_EMAIL, null),
+        )
+    }
+
+    private fun resetEncryptedStore() {
+        appContext.deleteSharedPreferences(STORE_NAME)
+        preferences = createEncryptedPreferences(appContext)
+    }
+
+    companion object {
+        private const val TAG = "CodexAuthPreferences"
+        private const val STORE_NAME = "codex_oauth_credentials"
+        private const val KEY_ACCESS_TOKEN = "access_token"
+        private const val KEY_REFRESH_TOKEN = "refresh_token"
+        private const val KEY_EXPIRES_AT = "expires_at"
+        private const val KEY_ACCOUNT_ID = "account_id"
+        private const val KEY_RESIDENCY = "residency"
+        private const val KEY_EMAIL = "email"
+
+        @Volatile
+        private var instance: CodexAuthPreferences? = null
+
+        fun getInstance(context: Context): CodexAuthPreferences {
+            return instance ?: synchronized(this) {
+                instance ?: CodexAuthPreferences(context.applicationContext).also { instance = it }
+            }
+        }
+
+        private fun createPreferences(context: Context): SharedPreferences {
+            return try {
+                createEncryptedPreferences(context)
+            } catch (error: GeneralSecurityException) {
+                recreatePreferencesAfterUnreadableStore(context, error)
+            } catch (error: IOException) {
+                recreatePreferencesAfterUnreadableStore(context, error)
+            }
+        }
+
+        private fun recreatePreferencesAfterUnreadableStore(
+            context: Context,
+            error: Exception
+        ): SharedPreferences {
+            // Android backup restores SharedPreferences XML but not the app's Android Keystore
+            // entry. Tink then rejects the encrypted keyset with AEADBadTagException.
+            AppLogger.e(TAG, "Codex OAuth encrypted store cannot be opened; resetting it", error)
+            context.deleteSharedPreferences(STORE_NAME)
+            return createEncryptedPreferences(context)
+        }
+
+        private fun createEncryptedPreferences(context: Context): SharedPreferences {
+            return EncryptedSharedPreferences.create(
+                context,
+                STORE_NAME,
+                MasterKey.Builder(context)
+                    .setKeyScheme(MasterKey.KeyScheme.AES256_GCM)
+                    .build(),
+                EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
+                EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM,
+            )
+        }
+    }
+}

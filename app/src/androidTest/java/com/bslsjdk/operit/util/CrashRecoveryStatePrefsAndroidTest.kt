@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC50ZXN0LmV4dC5qdW5pdC5ydW5uZXJzLkFuZHJvaWRKVW5pdDQKaW1wb3J0IGFuZHJvaWR4LnRlc3QucGxhdGZvcm0uYXBwLkluc3RydW1lbnRhdGlvblJlZ2lzdHJ5CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkJlZm9yZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAoKQFJ1bldpdGgoQW5kcm9pZEpVbml0NDo6Y2xhc3MpCmNsYXNzIENyYXNoUmVjb3ZlcnlTdGF0ZVByZWZzQW5kcm9pZFRlc3QgewoKICAgIHByaXZhdGUgdmFsIGNvbnRleHQgPSBJbnN0cnVtZW50YXRpb25SZWdpc3RyeS5nZXRJbnN0cnVtZW50YXRpb24oKS50YXJnZXRDb250ZXh0CgogICAgQEJlZm9yZQogICAgZnVuIHNldHVwKCkgewogICAgICAgIGNvbnRleHQuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoImNyYXNoX3JlY292ZXJ5X3N0YXRlIiwgQ29udGV4dC5NT0RFX1BSSVZBVEUpLmVkaXQoKS5jbGVhcigpLmNvbW1pdCgpCiAgICB9CgogICAgQFRlc3QgZnVuIG90aGVyUHJlZmVyZW5jZUtleV9zdXJ2aXZlc01hcmtBbmRDb25zdW1lKCkgewogICAgICAgIHZhbCBwcmVmcyA9IGNvbnRleHQuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoImNyYXNoX3JlY292ZXJ5X3N0YXRlIiwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCiAgICAgICAgcHJlZnMuZWRpdCgpLnB1dEludCgiY291bnQiLCAyKS5jb21taXQoKQogICAgICAgIENyYXNoUmVjb3ZlcnlTdGF0ZS5tYXJrUGVuZGluZ0NyYXNoUmVwb3J0TGF1bmNoKGNvbnRleHQpCiAgICAgICAgQ3Jhc2hSZWNvdmVyeVN0YXRlLmNvbnN1bWVQZW5kaW5nQ3Jhc2hSZXBvcnRMYXVuY2goY29udGV4dCkKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgcHJlZnMuZ2V0SW50KCJjb3VudCIsIDApKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import org.junit.Assert.assertEquals
+import org.junit.Before
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class CrashRecoveryStatePrefsAndroidTest {
+
+    private val context = InstrumentationRegistry.getInstrumentation().targetContext
+
+    @Before
+    fun setup() {
+        context.getSharedPreferences("crash_recovery_state", Context.MODE_PRIVATE).edit().clear().commit()
+    }
+
+    @Test fun otherPreferenceKey_survivesMarkAndConsume() {
+        val prefs = context.getSharedPreferences("crash_recovery_state", Context.MODE_PRIVATE)
+        prefs.edit().putInt("count", 2).commit()
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        CrashRecoveryState.consumePendingCrashReportLaunch(context)
+        assertEquals(2, prefs.getInt("count", 0))
+    }
+}

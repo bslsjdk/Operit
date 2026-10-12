@@ -1,1 +1,156 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy50b29scGtnCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5DaGF0UnVudGltZUhvb2sKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmNoYXQuaG9va3MuQ2hhdFJ1bnRpbWVIb29rQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5DaGF0UnVudGltZUhvb2tFdmVudAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5DaGF0UnVudGltZUhvb2tSZWdpc3RyeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuUGFja2FnZU1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlRPT0xQS0dfRVZFTlRfQ0hBVF9SVU5USU1FCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5Ub29sUGtnQ29udGFpbmVyUnVudGltZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuSW5wdXRQcm9jZXNzaW5nU3RhdGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0Jvb2xlYW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0Cgpwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiVG9vbFBrZ0NoYXRSdW50aW1lSG9va0JyaWRnZSIKCmludGVybmFsIG9iamVjdCBUb29sUGtnQ2hhdFJ1bnRpbWVIb29rQnJpZGdlIDogQ2hhdFJ1bnRpbWVIb29rIHsKICAgIHByaXZhdGUgdmFsIGluc3RhbGxlZCA9IEF0b21pY0Jvb2xlYW4oZmFsc2UpCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIGhvb2tzOiBMaXN0PFRvb2xQa2dDaGF0UnVudGltZUhvb2tSZWdpc3RyYXRpb24+ID0gZW1wdHlMaXN0KCkKICAgIHByaXZhdGUgdmFsIHJ1bnRpbWVDaGFuZ2VMaXN0ZW5lciA9CiAgICAgICAgUGFja2FnZU1hbmFnZXIuVG9vbFBrZ1J1bnRpbWVDaGFuZ2VMaXN0ZW5lciB7IGFjdGl2ZUNvbnRhaW5lcnMgLT4KICAgICAgICAgICAgc3luY1Rvb2xQa2dSZWdpc3RyYXRpb25zKGFjdGl2ZUNvbnRhaW5lcnMpCiAgICAgICAgfQoKICAgIG92ZXJyaWRlIHZhbCBpZDogU3RyaW5nID0gImJ1aWx0aW4udG9vbHBrZy5jaGF0LXJ1bnRpbWUtaG9vay1icmlkZ2UiCgogICAgZnVuIHJlZ2lzdGVyKCkgewogICAgICAgIGlmICghaW5zdGFsbGVkLmNvbXBhcmVBbmRTZXQoZmFsc2UsIHRydWUpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICBDaGF0UnVudGltZUhvb2tSZWdpc3RyeS5yZWdpc3Rlckhvb2sodGhpcykKCiAgICAgICAgdmFsIG1hbmFnZXIgPSB0b29sUGtnUGFja2FnZU1hbmFnZXIoKQogICAgICAgIG1hbmFnZXIuYWRkVG9vbFBrZ1J1bnRpbWVDaGFuZ2VMaXN0ZW5lcihydW50aW1lQ2hhbmdlTGlzdGVuZXIpCiAgICAgICAgc3luY1Rvb2xQa2dSZWdpc3RyYXRpb25zKG1hbmFnZXIuZ2V0RW5hYmxlZFRvb2xQa2dDb250YWluZXJSdW50aW1lcygpKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIG9uRXZlbnQoCiAgICAgICAgZXZlbnQ6IENoYXRSdW50aW1lSG9va0V2ZW50LAogICAgICAgIGNvbnRleHQ6IENoYXRSdW50aW1lSG9va0NvbnRleHQKICAgICkgewogICAgICAgIHZhbCBhY3RpdmVIb29rcyA9IGhvb2tzCiAgICAgICAgaWYgKGFjdGl2ZUhvb2tzLmlzRW1wdHkoKSkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHZhbCBtYW5hZ2VyID0gdG9vbFBrZ1BhY2thZ2VNYW5hZ2VyKCkKICAgICAgICAgICAgdmFsIGV2ZW50UGF5bG9hZCA9IGJ1aWxkQ2hhdFJ1bnRpbWVFdmVudFBheWxvYWQoY29udGV4dCkKICAgICAgICAgICAgYWN0aXZlSG9va3MuZm9yRWFjaCB7IGhvb2sgLT4KICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPQogICAgICAgICAgICAgICAgICAgIG1hbmFnZXIucnVuVG9vbFBrZ01haW5Ib29rKAogICAgICAgICAgICAgICAgICAgICAgICBjb250YWluZXJQYWNrYWdlTmFtZSA9IGhvb2suY29udGFpbmVyUGFja2FnZU5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGZ1bmN0aW9uTmFtZSA9IGhvb2suZnVuY3Rpb25OYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBldmVudCA9IFRPT0xQS0dfRVZFTlRfQ0hBVF9SVU5USU1FLAogICAgICAgICAgICAgICAgICAgICAgICBldmVudE5hbWUgPSBldmVudC53aXJlTmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgcGx1Z2luSWQgPSBob29rLmhvb2tJZCwKICAgICAgICAgICAgICAgICAgICAgICAgaW5saW5lRnVuY3Rpb25Tb3VyY2UgPSBob29rLmZ1bmN0aW9uU291cmNlLAogICAgICAgICAgICAgICAgICAgICAgICBldmVudFBheWxvYWQgPSBldmVudFBheWxvYWQKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICByZXN1bHQub25GYWlsdXJlIHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgKICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAiVG9vbFBrZyBjaGF0IHJ1bnRpbWUgaG9vayBmYWlsZWQ6ICR7aG9vay5jb250YWluZXJQYWNrYWdlTmFtZX06JHtob29rLmhvb2tJZH0iLAogICAgICAgICAgICAgICAgICAgICAgICBlcnJvcgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBzeW5jVG9vbFBrZ1JlZ2lzdHJhdGlvbnMoYWN0aXZlQ29udGFpbmVyczogTGlzdDxUb29sUGtnQ29udGFpbmVyUnVudGltZT4pIHsKICAgICAgICBob29rcyA9CiAgICAgICAgICAgIGFjdGl2ZUNvbnRhaW5lcnMuZmxhdE1hcCB7IHJ1bnRpbWUgLT4KICAgICAgICAgICAgICAgIHJ1bnRpbWUuY2hhdFJ1bnRpbWVIb29rcy5tYXAgeyBob29rIC0+CiAgICAgICAgICAgICAgICAgICAgVG9vbFBrZ0NoYXRSdW50aW1lSG9va1JlZ2lzdHJhdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgY29udGFpbmVyUGFja2FnZU5hbWUgPSBydW50aW1lLnBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBob29rSWQgPSBob29rLmlkLAogICAgICAgICAgICAgICAgICAgICAgICBmdW5jdGlvbk5hbWUgPSBob29rLmZ1bmN0aW9uLAogICAgICAgICAgICAgICAgICAgICAgICBmdW5jdGlvblNvdXJjZSA9IGhvb2suZnVuY3Rpb25Tb3VyY2UKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0uc29ydGVkQnlUb29sUGtnTG9hZE9yZGVyKAogICAgICAgICAgICAgICAgYWN0aXZlQ29udGFpbmVycyA9IGFjdGl2ZUNvbnRhaW5lcnMsCiAgICAgICAgICAgICAgICBjb250YWluZXJQYWNrYWdlTmFtZSA9IFRvb2xQa2dDaGF0UnVudGltZUhvb2tSZWdpc3RyYXRpb246OmNvbnRhaW5lclBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgcmVnaXN0cmF0aW9uSWQgPSBUb29sUGtnQ2hhdFJ1bnRpbWVIb29rUmVnaXN0cmF0aW9uOjpob29rSWQKICAgICAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkQ2hhdFJ1bnRpbWVFdmVudFBheWxvYWQoY29udGV4dDogQ2hhdFJ1bnRpbWVIb29rQ29udGV4dCk6IE1hcDxTdHJpbmcsIEFueT8+ID0KICAgICAgICBtYXBPZigKICAgICAgICAgICAgImNoYXRJZCIgdG8gY29udGV4dC5jaGF0SWQsCiAgICAgICAgICAgICJzbG90IiB0byBjb250ZXh0LnNsb3QubmFtZS5sb3dlcmNhc2UoKSwKICAgICAgICAgICAgInN0YXRlIiB0byBzdGF0ZU5hbWUoY29udGV4dC5zdGF0ZSksCiAgICAgICAgICAgICJtZXNzYWdlIiB0byBzdGF0ZU1lc3NhZ2UoY29udGV4dC5zdGF0ZSksCiAgICAgICAgICAgICJ0b29sTmFtZSIgdG8gc3RhdGVUb29sTmFtZShjb250ZXh0LnN0YXRlKSwKICAgICAgICAgICAgInByb2dyZXNzIiB0byBzdGF0ZVByb2dyZXNzKGNvbnRleHQuc3RhdGUpLAogICAgICAgICAgICAiaXNBY3RpdmUiIHRvIHN0YXRlSXNBY3RpdmUoY29udGV4dC5zdGF0ZSksCiAgICAgICAgICAgICJhY3RpdmVDaGF0SWRzIiB0byBjb250ZXh0LmFjdGl2ZUNoYXRJZHMuc29ydGVkKCksCiAgICAgICAgICAgICJjdXJyZW50VHVyblRvb2xJbnZvY2F0aW9uQ291bnQiIHRvIGNvbnRleHQuY3VycmVudFR1cm5Ub29sSW52b2NhdGlvbkNvdW50LAogICAgICAgICAgICAiYWN0aXZlQ29udmVyc2F0aW9uQ291bnQiIHRvIGNvbnRleHQuYWN0aXZlQ29udmVyc2F0aW9uQ291bnQsCiAgICAgICAgICAgICJjdXJyZW50U2Vzc2lvblRvb2xDb3VudCIgdG8gY29udGV4dC5jdXJyZW50U2Vzc2lvblRvb2xDb3VudCwKICAgICAgICAgICAgInRpbWVzdGFtcCIgdG8gY29udGV4dC50aW1lc3RhbXAKICAgICAgICApCgogICAgcHJpdmF0ZSBmdW4gc3RhdGVOYW1lKHN0YXRlOiBJbnB1dFByb2Nlc3NpbmdTdGF0ZSk6IFN0cmluZyA9CiAgICAgICAgd2hlbiAoc3RhdGUpIHsKICAgICAgICAgICAgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuSWRsZSAtPiAiaWRsZSIKICAgICAgICAgICAgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuUHJvY2Vzc2luZyAtPiAicHJvY2Vzc2luZyIKICAgICAgICAgICAgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuQ29ubmVjdGluZyAtPiAiY29ubmVjdGluZyIKICAgICAgICAgICAgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuUmVjZWl2aW5nIC0+ICJyZWNlaXZpbmciCiAgICAgICAgICAgIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLkV4ZWN1dGluZ1Rvb2wgLT4gImV4ZWN1dGluZ190b29sIgogICAgICAgICAgICBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5Ub29sUHJvZ3Jlc3MgLT4gInRvb2xfcHJvZ3Jlc3MiCiAgICAgICAgICAgIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLlByb2Nlc3NpbmdUb29sUmVzdWx0IC0+ICJwcm9jZXNzaW5nX3Rvb2xfcmVzdWx0IgogICAgICAgICAgICBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5TdW1tYXJpemluZyAtPiAic3VtbWFyaXppbmciCiAgICAgICAgICAgIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLkV4ZWN1dGluZ1BsYW4gLT4gImV4ZWN1dGluZ19wbGFuIgogICAgICAgICAgICBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5Db21wbGV0ZWQgLT4gImNvbXBsZXRlZCIKICAgICAgICAgICAgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuRXJyb3IgLT4gImVycm9yIgogICAgICAgIH0KCiAgICBwcml2YXRlIGZ1biBzdGF0ZU1lc3NhZ2Uoc3RhdGU6IElucHV0UHJvY2Vzc2luZ1N0YXRlKTogU3RyaW5nPyA9CiAgICAgICAgd2hlbiAoc3RhdGUpIHsKICAgICAgICAgICAgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuUHJvY2Vzc2luZyAtPiBzdGF0ZS5tZXNzYWdlCiAgICAgICAgICAgIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLkNvbm5lY3RpbmcgLT4gc3RhdGUubWVzc2FnZQogICAgICAgICAgICBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5SZWNlaXZpbmcgLT4gc3RhdGUubWVzc2FnZQogICAgICAgICAgICBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5Ub29sUHJvZ3Jlc3MgLT4gc3RhdGUubWVzc2FnZQogICAgICAgICAgICBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5TdW1tYXJpemluZyAtPiBzdGF0ZS5tZXNzYWdlCiAgICAgICAgICAgIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLkV4ZWN1dGluZ1BsYW4gLT4gc3RhdGUubWVzc2FnZQogICAgICAgICAgICBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5FcnJvciAtPiBzdGF0ZS5tZXNzYWdlCiAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgIH0KCiAgICBwcml2YXRlIGZ1biBzdGF0ZVRvb2xOYW1lKHN0YXRlOiBJbnB1dFByb2Nlc3NpbmdTdGF0ZSk6IFN0cmluZz8gPQogICAgICAgIHdoZW4gKHN0YXRlKSB7CiAgICAgICAgICAgIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLkV4ZWN1dGluZ1Rvb2wgLT4gc3RhdGUudG9vbE5hbWUKICAgICAgICAgICAgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuVG9vbFByb2dyZXNzIC0+IHN0YXRlLnRvb2xOYW1lCiAgICAgICAgICAgIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLlByb2Nlc3NpbmdUb29sUmVzdWx0IC0+IHN0YXRlLnRvb2xOYW1lCiAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgIH0KCiAgICBwcml2YXRlIGZ1biBzdGF0ZVByb2dyZXNzKHN0YXRlOiBJbnB1dFByb2Nlc3NpbmdTdGF0ZSk6IEZsb2F0PyA9CiAgICAgICAgd2hlbiAoc3RhdGUpIHsKICAgICAgICAgICAgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuVG9vbFByb2dyZXNzIC0+IHN0YXRlLnByb2dyZXNzCiAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgIH0KCiAgICBwcml2YXRlIGZ1biBzdGF0ZUlzQWN0aXZlKHN0YXRlOiBJbnB1dFByb2Nlc3NpbmdTdGF0ZSk6IEJvb2xlYW4gPQogICAgICAgIHdoZW4gKHN0YXRlKSB7CiAgICAgICAgICAgIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLklkbGUsCiAgICAgICAgICAgIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLkNvbXBsZXRlZCwKICAgICAgICAgICAgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuRXJyb3IgLT4gZmFsc2UKICAgICAgICAgICAgZWxzZSAtPiB0cnVlCiAgICAgICAgfQp9Cg==
+package com.bslsjdk.operit.plugins.toolpkg
+
+import com.bslsjdk.operit.core.chat.hooks.ChatRuntimeHook
+import com.bslsjdk.operit.core.chat.hooks.ChatRuntimeHookContext
+import com.bslsjdk.operit.core.chat.hooks.ChatRuntimeHookEvent
+import com.bslsjdk.operit.core.chat.hooks.ChatRuntimeHookRegistry
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_CHAT_RUNTIME
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgContainerRuntime
+import com.bslsjdk.operit.data.model.InputProcessingState
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.atomic.AtomicBoolean
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+private const val TAG = "ToolPkgChatRuntimeHookBridge"
+
+internal object ToolPkgChatRuntimeHookBridge : ChatRuntimeHook {
+    private val installed = AtomicBoolean(false)
+    @Volatile
+    private var hooks: List<ToolPkgChatRuntimeHookRegistration> = emptyList()
+    private val runtimeChangeListener =
+        PackageManager.ToolPkgRuntimeChangeListener { activeContainers ->
+            syncToolPkgRegistrations(activeContainers)
+        }
+
+    override val id: String = "builtin.toolpkg.chat-runtime-hook-bridge"
+
+    fun register() {
+        if (!installed.compareAndSet(false, true)) {
+            return
+        }
+        ChatRuntimeHookRegistry.registerHook(this)
+
+        val manager = toolPkgPackageManager()
+        manager.addToolPkgRuntimeChangeListener(runtimeChangeListener)
+        syncToolPkgRegistrations(manager.getEnabledToolPkgContainerRuntimes())
+    }
+
+    override suspend fun onEvent(
+        event: ChatRuntimeHookEvent,
+        context: ChatRuntimeHookContext
+    ) {
+        val activeHooks = hooks
+        if (activeHooks.isEmpty()) {
+            return
+        }
+
+        withContext(Dispatchers.IO) {
+            val manager = toolPkgPackageManager()
+            val eventPayload = buildChatRuntimeEventPayload(context)
+            activeHooks.forEach { hook ->
+                val result =
+                    manager.runToolPkgMainHook(
+                        containerPackageName = hook.containerPackageName,
+                        functionName = hook.functionName,
+                        event = TOOLPKG_EVENT_CHAT_RUNTIME,
+                        eventName = event.wireName,
+                        pluginId = hook.hookId,
+                        inlineFunctionSource = hook.functionSource,
+                        eventPayload = eventPayload
+                    )
+                result.onFailure { error ->
+                    AppLogger.e(
+                        TAG,
+                        "ToolPkg chat runtime hook failed: ${hook.containerPackageName}:${hook.hookId}",
+                        error
+                    )
+                }
+            }
+        }
+    }
+
+    private fun syncToolPkgRegistrations(activeContainers: List<ToolPkgContainerRuntime>) {
+        hooks =
+            activeContainers.flatMap { runtime ->
+                runtime.chatRuntimeHooks.map { hook ->
+                    ToolPkgChatRuntimeHookRegistration(
+                        containerPackageName = runtime.packageName,
+                        hookId = hook.id,
+                        functionName = hook.function,
+                        functionSource = hook.functionSource
+                    )
+                }
+            }.sortedByToolPkgLoadOrder(
+                activeContainers = activeContainers,
+                containerPackageName = ToolPkgChatRuntimeHookRegistration::containerPackageName,
+                registrationId = ToolPkgChatRuntimeHookRegistration::hookId
+            )
+    }
+
+    private fun buildChatRuntimeEventPayload(context: ChatRuntimeHookContext): Map<String, Any?> =
+        mapOf(
+            "chatId" to context.chatId,
+            "slot" to context.slot.name.lowercase(),
+            "state" to stateName(context.state),
+            "message" to stateMessage(context.state),
+            "toolName" to stateToolName(context.state),
+            "progress" to stateProgress(context.state),
+            "isActive" to stateIsActive(context.state),
+            "activeChatIds" to context.activeChatIds.sorted(),
+            "currentTurnToolInvocationCount" to context.currentTurnToolInvocationCount,
+            "activeConversationCount" to context.activeConversationCount,
+            "currentSessionToolCount" to context.currentSessionToolCount,
+            "timestamp" to context.timestamp
+        )
+
+    private fun stateName(state: InputProcessingState): String =
+        when (state) {
+            is InputProcessingState.Idle -> "idle"
+            is InputProcessingState.Processing -> "processing"
+            is InputProcessingState.Connecting -> "connecting"
+            is InputProcessingState.Receiving -> "receiving"
+            is InputProcessingState.ExecutingTool -> "executing_tool"
+            is InputProcessingState.ToolProgress -> "tool_progress"
+            is InputProcessingState.ProcessingToolResult -> "processing_tool_result"
+            is InputProcessingState.Summarizing -> "summarizing"
+            is InputProcessingState.ExecutingPlan -> "executing_plan"
+            is InputProcessingState.Completed -> "completed"
+            is InputProcessingState.Error -> "error"
+        }
+
+    private fun stateMessage(state: InputProcessingState): String? =
+        when (state) {
+            is InputProcessingState.Processing -> state.message
+            is InputProcessingState.Connecting -> state.message
+            is InputProcessingState.Receiving -> state.message
+            is InputProcessingState.ToolProgress -> state.message
+            is InputProcessingState.Summarizing -> state.message
+            is InputProcessingState.ExecutingPlan -> state.message
+            is InputProcessingState.Error -> state.message
+            else -> null
+        }
+
+    private fun stateToolName(state: InputProcessingState): String? =
+        when (state) {
+            is InputProcessingState.ExecutingTool -> state.toolName
+            is InputProcessingState.ToolProgress -> state.toolName
+            is InputProcessingState.ProcessingToolResult -> state.toolName
+            else -> null
+        }
+
+    private fun stateProgress(state: InputProcessingState): Float? =
+        when (state) {
+            is InputProcessingState.ToolProgress -> state.progress
+            else -> null
+        }
+
+    private fun stateIsActive(state: InputProcessingState): Boolean =
+        when (state) {
+            is InputProcessingState.Idle,
+            is InputProcessingState.Completed,
+            is InputProcessingState.Error -> false
+            else -> true
+        }
+}

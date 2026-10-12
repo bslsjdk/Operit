@@ -1,1 +1,75 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5Qcm9tcHRUdXJuCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLk1vZGVsUGFyYW1ldGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUHJvbXB0CmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudAppbXBvcnQgb2todHRwMy5SZXF1ZXN0Qm9keQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKLyoqIHhBSSdzIE9wZW5BSS1jb21wYXRpYmxlIENoYXQgQ29tcGxldGlvbnMgcHJvdmlkZXIgZm9yIEdyb2sgbW9kZWxzLiAqLwpjbGFzcyBYYWlQcm92aWRlcigKICAgIGFwaUVuZHBvaW50OiBTdHJpbmcsCiAgICBhcGlLZXlQcm92aWRlcjogQXBpS2V5UHJvdmlkZXIsCiAgICBtb2RlbE5hbWU6IFN0cmluZywKICAgIGNsaWVudDogT2tIdHRwQ2xpZW50LAogICAgY3VzdG9tSGVhZGVyczogTWFwPFN0cmluZywgU3RyaW5nPiA9IGVtcHR5TWFwKCksCiAgICBzdXBwb3J0c1Zpc2lvbjogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNBdWRpbzogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNWaWRlbzogQm9vbGVhbiA9IGZhbHNlLAogICAgZW5hYmxlVG9vbENhbGw6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnM6IFN0cmluZyA9ICIiLAogICAgdGhpbmtpbmdPcHRpb25JZDogU3RyaW5nID0gIiIKKSA6IE9wZW5BSVByb3ZpZGVyKAogICAgYXBpRW5kcG9pbnQgPSBhcGlFbmRwb2ludCwKICAgIGFwaUtleVByb3ZpZGVyID0gYXBpS2V5UHJvdmlkZXIsCiAgICBtb2RlbE5hbWUgPSBtb2RlbE5hbWUsCiAgICBjbGllbnQgPSBjbGllbnQsCiAgICBjdXN0b21IZWFkZXJzID0gY3VzdG9tSGVhZGVycywKICAgIHByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5YQUksCiAgICBzdXBwb3J0c1Zpc2lvbiA9IHN1cHBvcnRzVmlzaW9uLAogICAgc3VwcG9ydHNBdWRpbyA9IHN1cHBvcnRzQXVkaW8sCiAgICBzdXBwb3J0c1ZpZGVvID0gc3VwcG9ydHNWaWRlbywKICAgIGVuYWJsZVRvb2xDYWxsID0gZW5hYmxlVG9vbENhbGwsCiAgICBpbmNsdWRlVXNhZ2VJblN0cmVhbSA9IHRydWUsCiAgICB0aGlua2luZ0NvbmZpZ3VyYXRpb25zID0gdGhpbmtpbmdDb25maWd1cmF0aW9ucywKICAgICAgICB0aGlua2luZ09wdGlvbklkID0gdGhpbmtpbmdPcHRpb25JZAopIHsKICAgIHByaXZhdGUgdmFsIGNvbmZpZ3VyZWRBcGlFbmRwb2ludCA9IGFwaUVuZHBvaW50CgogICAgb3ZlcnJpZGUgZnVuIGNyZWF0ZVJlcXVlc3RCb2R5KAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgY2hhdEhpc3Rvcnk6IExpc3Q8UHJvbXB0VHVybj4sCiAgICAgICAgbW9kZWxQYXJhbWV0ZXJzOiBMaXN0PE1vZGVsUGFyYW1ldGVyPCo+PiwKICAgICAgICBlbmFibGVUaGlua2luZzogQm9vbGVhbiwKICAgICAgICBzdHJlYW06IEJvb2xlYW4sCiAgICAgICAgYXZhaWxhYmxlVG9vbHM6IExpc3Q8VG9vbFByb21wdD4/LAogICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3Rvcnk6IEJvb2xlYW4KICAgICk6IFJlcXVlc3RCb2R5IHsKICAgICAgICB2YWwgcmVxdWVzdEpzb24gPSBKU09OT2JqZWN0KAogICAgICAgICAgICBzdXBlci5jcmVhdGVSZXF1ZXN0Qm9keUludGVybmFsKAogICAgICAgICAgICAgICAgY29udGV4dCwKICAgICAgICAgICAgICAgIGNoYXRIaXN0b3J5LAogICAgICAgICAgICAgICAgbW9kZWxQYXJhbWV0ZXJzLAogICAgICAgICAgICAgICAgc3RyZWFtLAogICAgICAgICAgICAgICAgYXZhaWxhYmxlVG9vbHMsCiAgICAgICAgICAgICAgICBwcmVzZXJ2ZVRoaW5rSW5IaXN0b3J5CiAgICAgICAgICAgICkKICAgICAgICApCgogICAgICAgIFRoaW5raW5nQ29uZmlndXJhdGlvbkFwcGxpZXIuYXBwbHkoCiAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICByZXF1ZXN0SnNvbiA9IHJlcXVlc3RKc29uLAogICAgICAgICAgICBwcm92aWRlclR5cGVJZCA9IEFwaVByb3ZpZGVyVHlwZS5YQUkubmFtZSwKICAgICAgICAgICAgbW9kZWxOYW1lID0gbW9kZWxOYW1lLAogICAgICAgICAgICBhcGlFbmRwb2ludCA9IGNvbmZpZ3VyZWRBcGlFbmRwb2ludCwKICAgICAgICAgICAgdGhpbmtpbmdDb25maWd1cmF0aW9ucyA9IHRoaW5raW5nQ29uZmlndXJhdGlvbnMsCiAgICAgICAgICAgIGVuYWJsZVRoaW5raW5nID0gZW5hYmxlVGhpbmtpbmcsCiAgICAgICAgICAgIG9wdGlvbklkID0gdGhpbmtpbmdPcHRpb25JZCwKICAgICAgICApCgogICAgICAgIHJldHVybiBjcmVhdGVKc29uUmVxdWVzdEJvZHkocmVxdWVzdEpzb24udG9TdHJpbmcoKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.model.ToolPrompt
+import okhttp3.OkHttpClient
+import okhttp3.RequestBody
+import org.json.JSONObject
+
+/** xAI's OpenAI-compatible Chat Completions provider for Grok models. */
+class XaiProvider(
+    apiEndpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String> = emptyMap(),
+    supportsVision: Boolean = false,
+    supportsAudio: Boolean = false,
+    supportsVideo: Boolean = false,
+    enableToolCall: Boolean = false,
+    thinkingConfigurations: String = "",
+    thinkingOptionId: String = ""
+) : OpenAIProvider(
+    apiEndpoint = apiEndpoint,
+    apiKeyProvider = apiKeyProvider,
+    modelName = modelName,
+    client = client,
+    customHeaders = customHeaders,
+    providerType = ApiProviderType.XAI,
+    supportsVision = supportsVision,
+    supportsAudio = supportsAudio,
+    supportsVideo = supportsVideo,
+    enableToolCall = enableToolCall,
+    includeUsageInStream = true,
+    thinkingConfigurations = thinkingConfigurations,
+        thinkingOptionId = thinkingOptionId
+) {
+    private val configuredApiEndpoint = apiEndpoint
+
+    override fun createRequestBody(
+        context: Context,
+        chatHistory: List<PromptTurn>,
+        modelParameters: List<ModelParameter<*>>,
+        enableThinking: Boolean,
+        stream: Boolean,
+        availableTools: List<ToolPrompt>?,
+        preserveThinkInHistory: Boolean
+    ): RequestBody {
+        val requestJson = JSONObject(
+            super.createRequestBodyInternal(
+                context,
+                chatHistory,
+                modelParameters,
+                stream,
+                availableTools,
+                preserveThinkInHistory
+            )
+        )
+
+        ThinkingConfigurationApplier.apply(
+            context = context,
+            requestJson = requestJson,
+            providerTypeId = ApiProviderType.XAI.name,
+            modelName = modelName,
+            apiEndpoint = configuredApiEndpoint,
+            thinkingConfigurations = thinkingConfigurations,
+            enableThinking = enableThinking,
+            optionId = thinkingOptionId,
+        )
+
+        return createJsonRequestBody(requestJson.toString())
+    }
+}

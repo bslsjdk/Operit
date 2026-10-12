@@ -1,1 +1,86 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlN0cmluZ1Jlc3VsdERhdGEKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIEFJVG9vbFRlc3QgewoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIHRvb2wgcGFyYW1ldGVyYCgpIHsKICAgICAgICB2YWwgcGFyYW0gPSBUb29sUGFyYW1ldGVyKG5hbWUgPSAibG9jYXRpb24iLCB2YWx1ZSA9ICJQYXJpcyIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJsb2NhdGlvbiIsIHBhcmFtLm5hbWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJQYXJpcyIsIHBhcmFtLnZhbHVlKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIGFpIHRvb2wgd2l0aCBtaW5pbWFsIGZpZWxkc2AoKSB7CiAgICAgICAgdmFsIHRvb2wgPSBBSVRvb2wobmFtZSA9ICJnZXRfd2VhdGhlciIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJnZXRfd2VhdGhlciIsIHRvb2wubmFtZSkKICAgICAgICBhc3NlcnRUcnVlKHRvb2wucGFyYW1ldGVycy5pc0VtcHR5KCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCB0b29sLmRlc2NyaXB0aW9uKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIGFpIHRvb2wgd2l0aCBwYXJhbWV0ZXJzYCgpIHsKICAgICAgICB2YWwgcGFyYW1zID0gbGlzdE9mKAogICAgICAgICAgICBUb29sUGFyYW1ldGVyKCJjaXR5IiwgIlRva3lvIiksCiAgICAgICAgICAgIFRvb2xQYXJhbWV0ZXIoInVuaXRzIiwgIm1ldHJpYyIpLAogICAgICAgICkKICAgICAgICB2YWwgdG9vbCA9IEFJVG9vbChuYW1lID0gImdldF93ZWF0aGVyIiwgcGFyYW1ldGVycyA9IHBhcmFtcywgZGVzY3JpcHRpb24gPSAiR2V0IHdlYXRoZXIiKQogICAgICAgIGFzc2VydEVxdWFscygyLCB0b29sLnBhcmFtZXRlcnMuc2l6ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoIlRva3lvIiwgdG9vbC5wYXJhbWV0ZXJzWzBdLnZhbHVlKQogICAgICAgIGFzc2VydEVxdWFscygibWV0cmljIiwgdG9vbC5wYXJhbWV0ZXJzWzFdLnZhbHVlKQogICAgICAgIGFzc2VydEVxdWFscygiR2V0IHdlYXRoZXIiLCB0b29sLmRlc2NyaXB0aW9uKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIHRvb2wgaW52b2NhdGlvbmAoKSB7CiAgICAgICAgdmFsIHRvb2wgPSBBSVRvb2wobmFtZSA9ICJjYWxjdWxhdG9yIiwgcGFyYW1ldGVycyA9IGxpc3RPZihUb29sUGFyYW1ldGVyKCJleHByIiwgIjIrMiIpKSkKICAgICAgICB2YWwgaW52b2NhdGlvbiA9IFRvb2xJbnZvY2F0aW9uKHRvb2wgPSB0b29sLCByYXdUZXh0ID0gIjx0b29sPi4uLjwvdG9vbD4iLCByZXNwb25zZUxvY2F0aW9uID0gMC4uMTApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJjYWxjdWxhdG9yIiwgaW52b2NhdGlvbi50b29sLm5hbWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCI8dG9vbD4uLi48L3Rvb2w+IiwgaW52b2NhdGlvbi5yYXdUZXh0KQogICAgICAgIGFzc2VydEVxdWFscygwLi4xMCwgaW52b2NhdGlvbi5yZXNwb25zZUxvY2F0aW9uKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlIHRvb2wgcmVzdWx0IHdpdGggc3VjY2Vzc2AoKSB7CiAgICAgICAgdmFsIHJlc3VsdERhdGEgPSBTdHJpbmdSZXN1bHREYXRhKCI0MiIpCiAgICAgICAgdmFsIHJlc3VsdCA9IFRvb2xSZXN1bHQodG9vbE5hbWUgPSAiY2FsY3VsYXRvciIsIHN1Y2Nlc3MgPSB0cnVlLCByZXN1bHQgPSByZXN1bHREYXRhKQogICAgICAgIGFzc2VydEVxdWFscygiY2FsY3VsYXRvciIsIHJlc3VsdC50b29sTmFtZSkKICAgICAgICBhc3NlcnRUcnVlKHJlc3VsdC5zdWNjZXNzKQogICAgICAgIGFzc2VydEVxdWFscygiNDIiLCByZXN1bHQucmVzdWx0LnRvU3RyaW5nKCkpCiAgICAgICAgYXNzZXJ0TnVsbChyZXN1bHQuZXJyb3IpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjcmVhdGUgdG9vbCByZXN1bHQgd2l0aCBmYWlsdXJlYCgpIHsKICAgICAgICB2YWwgcmVzdWx0RGF0YSA9IFN0cmluZ1Jlc3VsdERhdGEoImVycm9yIG9jY3VycmVkIikKICAgICAgICB2YWwgcmVzdWx0ID0gVG9vbFJlc3VsdCh0b29sTmFtZSA9ICJzZWFyY2giLCBzdWNjZXNzID0gZmFsc2UsIHJlc3VsdCA9IHJlc3VsdERhdGEsIGVycm9yID0gIk5vdCBmb3VuZCIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJzZWFyY2giLCByZXN1bHQudG9vbE5hbWUpCiAgICAgICAgYXNzZXJ0RmFsc2UocmVzdWx0LnN1Y2Nlc3MpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJOb3QgZm91bmQiLCByZXN1bHQuZXJyb3IpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjcmVhdGUgdG9vbCB2YWxpZGF0aW9uIHJlc3VsdCB2YWxpZGAoKSB7CiAgICAgICAgdmFsIHZyID0gVG9vbFZhbGlkYXRpb25SZXN1bHQodmFsaWQgPSB0cnVlKQogICAgICAgIGFzc2VydFRydWUodnIudmFsaWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCB2ci5lcnJvck1lc3NhZ2UpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjcmVhdGUgdG9vbCB2YWxpZGF0aW9uIHJlc3VsdCBpbnZhbGlkYCgpIHsKICAgICAgICB2YWwgdnIgPSBUb29sVmFsaWRhdGlvblJlc3VsdCh2YWxpZCA9IGZhbHNlLCBlcnJvck1lc3NhZ2UgPSAiTWlzc2luZyByZXF1aXJlZCBwYXJhbWV0ZXIiKQogICAgICAgIGFzc2VydEZhbHNlKHZyLnZhbGlkKQogICAgICAgIGFzc2VydEVxdWFscygiTWlzc2luZyByZXF1aXJlZCBwYXJhbWV0ZXIiLCB2ci5lcnJvck1lc3NhZ2UpCiAgICB9CgogICAgQFRlc3QgZnVuIGBhaSB0b29sIGNvcHkgd2l0aCBkaWZmZXJlbnQgcGFyYW1ldGVyc2AoKSB7CiAgICAgICAgdmFsIHRvb2wgPSBBSVRvb2wobmFtZSA9ICJzZWFyY2giLCBwYXJhbWV0ZXJzID0gbGlzdE9mKFRvb2xQYXJhbWV0ZXIoInEiLCAiaGVsbG8iKSkpCiAgICAgICAgdmFsIGNvcHkgPSB0b29sLmNvcHkocGFyYW1ldGVycyA9IGxpc3RPZihUb29sUGFyYW1ldGVyKCJxIiwgIndvcmxkIikpKQogICAgICAgIGFzc2VydEVxdWFscygid29ybGQiLCBjb3B5LnBhcmFtZXRlcnNbMF0udmFsdWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGB0b29sIHJlc3VsdCBjb3B5IHdpdGggZXJyb3JgKCkgewogICAgICAgIHZhbCByZXN1bHQgPSBUb29sUmVzdWx0KHRvb2xOYW1lID0gInRlc3QiLCBzdWNjZXNzID0gdHJ1ZSwgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgib2siKSkKICAgICAgICB2YWwgY29weSA9IHJlc3VsdC5jb3B5KHN1Y2Nlc3MgPSBmYWxzZSwgZXJyb3IgPSAiZmFpbGVkIikKICAgICAgICBhc3NlcnRGYWxzZShjb3B5LnN1Y2Nlc3MpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJmYWlsZWQiLCBjb3B5LmVycm9yKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+import com.bslsjdk.operit.core.tools.StringResultData
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class AIToolTest {
+
+    @Test fun `create tool parameter`() {
+        val param = ToolParameter(name = "location", value = "Paris")
+        assertEquals("location", param.name)
+        assertEquals("Paris", param.value)
+    }
+
+    @Test fun `create ai tool with minimal fields`() {
+        val tool = AITool(name = "get_weather")
+        assertEquals("get_weather", tool.name)
+        assertTrue(tool.parameters.isEmpty())
+        assertEquals("", tool.description)
+    }
+
+    @Test fun `create ai tool with parameters`() {
+        val params = listOf(
+            ToolParameter("city", "Tokyo"),
+            ToolParameter("units", "metric"),
+        )
+        val tool = AITool(name = "get_weather", parameters = params, description = "Get weather")
+        assertEquals(2, tool.parameters.size)
+        assertEquals("Tokyo", tool.parameters[0].value)
+        assertEquals("metric", tool.parameters[1].value)
+        assertEquals("Get weather", tool.description)
+    }
+
+    @Test fun `create tool invocation`() {
+        val tool = AITool(name = "calculator", parameters = listOf(ToolParameter("expr", "2+2")))
+        val invocation = ToolInvocation(tool = tool, rawText = "<tool>...</tool>", responseLocation = 0..10)
+        assertEquals("calculator", invocation.tool.name)
+        assertEquals("<tool>...</tool>", invocation.rawText)
+        assertEquals(0..10, invocation.responseLocation)
+    }
+
+    @Test fun `create tool result with success`() {
+        val resultData = StringResultData("42")
+        val result = ToolResult(toolName = "calculator", success = true, result = resultData)
+        assertEquals("calculator", result.toolName)
+        assertTrue(result.success)
+        assertEquals("42", result.result.toString())
+        assertNull(result.error)
+    }
+
+    @Test fun `create tool result with failure`() {
+        val resultData = StringResultData("error occurred")
+        val result = ToolResult(toolName = "search", success = false, result = resultData, error = "Not found")
+        assertEquals("search", result.toolName)
+        assertFalse(result.success)
+        assertEquals("Not found", result.error)
+    }
+
+    @Test fun `create tool validation result valid`() {
+        val vr = ToolValidationResult(valid = true)
+        assertTrue(vr.valid)
+        assertEquals("", vr.errorMessage)
+    }
+
+    @Test fun `create tool validation result invalid`() {
+        val vr = ToolValidationResult(valid = false, errorMessage = "Missing required parameter")
+        assertFalse(vr.valid)
+        assertEquals("Missing required parameter", vr.errorMessage)
+    }
+
+    @Test fun `ai tool copy with different parameters`() {
+        val tool = AITool(name = "search", parameters = listOf(ToolParameter("q", "hello")))
+        val copy = tool.copy(parameters = listOf(ToolParameter("q", "world")))
+        assertEquals("world", copy.parameters[0].value)
+    }
+
+    @Test fun `tool result copy with error`() {
+        val result = ToolResult(toolName = "test", success = true, result = StringResultData("ok"))
+        val copy = result.copy(success = false, error = "failed")
+        assertFalse(copy.success)
+        assertEquals("failed", copy.error)
+    }
+}

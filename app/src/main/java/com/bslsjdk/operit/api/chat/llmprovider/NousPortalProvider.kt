@@ -1,1 +1,32 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CgpjbGFzcyBOb3VzUG9ydGFsUHJvdmlkZXIoCiAgICBhcGlFbmRwb2ludDogU3RyaW5nLAogICAgYXBpS2V5UHJvdmlkZXI6IEFwaUtleVByb3ZpZGVyLAogICAgbW9kZWxOYW1lOiBTdHJpbmcsCiAgICBjbGllbnQ6IE9rSHR0cENsaWVudCwKICAgIGN1c3RvbUhlYWRlcnM6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpLAogICAgcHJvdmlkZXJUeXBlOiBBcGlQcm92aWRlclR5cGUgPSBBcGlQcm92aWRlclR5cGUuTk9VU19QT1JUQUwsCiAgICBzdXBwb3J0c1Zpc2lvbjogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNBdWRpbzogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNWaWRlbzogQm9vbGVhbiA9IGZhbHNlLAogICAgZW5hYmxlVG9vbENhbGw6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnM6IFN0cmluZyA9ICIiLAogICAgdGhpbmtpbmdPcHRpb25JZDogU3RyaW5nID0gIiIKKSA6IE9wZW5Sb3V0ZXJQcm92aWRlcigKICAgIGFwaUVuZHBvaW50ID0gYXBpRW5kcG9pbnQsCiAgICBhcGlLZXlQcm92aWRlciA9IGFwaUtleVByb3ZpZGVyLAogICAgbW9kZWxOYW1lID0gbW9kZWxOYW1lLAogICAgY2xpZW50ID0gY2xpZW50LAogICAgY3VzdG9tSGVhZGVycyA9IGN1c3RvbUhlYWRlcnMsCiAgICBwcm92aWRlclR5cGUgPSBwcm92aWRlclR5cGUsCiAgICBzdXBwb3J0c1Zpc2lvbiA9IHN1cHBvcnRzVmlzaW9uLAogICAgc3VwcG9ydHNBdWRpbyA9IHN1cHBvcnRzQXVkaW8sCiAgICBzdXBwb3J0c1ZpZGVvID0gc3VwcG9ydHNWaWRlbywKICAgIGVuYWJsZVRvb2xDYWxsID0gZW5hYmxlVG9vbENhbGwsCiAgICB0aGlua2luZ0NvbmZpZ3VyYXRpb25zID0gdGhpbmtpbmdDb25maWd1cmF0aW9ucywKICAgICAgICB0aGlua2luZ09wdGlvbklkID0gdGhpbmtpbmdPcHRpb25JZAopCg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import okhttp3.OkHttpClient
+
+class NousPortalProvider(
+    apiEndpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String> = emptyMap(),
+    providerType: ApiProviderType = ApiProviderType.NOUS_PORTAL,
+    supportsVision: Boolean = false,
+    supportsAudio: Boolean = false,
+    supportsVideo: Boolean = false,
+    enableToolCall: Boolean = false,
+    thinkingConfigurations: String = "",
+    thinkingOptionId: String = ""
+) : OpenRouterProvider(
+    apiEndpoint = apiEndpoint,
+    apiKeyProvider = apiKeyProvider,
+    modelName = modelName,
+    client = client,
+    customHeaders = customHeaders,
+    providerType = providerType,
+    supportsVision = supportsVision,
+    supportsAudio = supportsAudio,
+    supportsVideo = supportsVideo,
+    enableToolCall = enableToolCall,
+    thinkingConfigurations = thinkingConfigurations,
+        thinkingOptionId = thinkingOptionId
+)

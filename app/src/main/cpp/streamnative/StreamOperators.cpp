@@ -1,1 +1,496 @@
-I2luY2x1ZGUgIlN0cmVhbU9wZXJhdG9ycy5oIgoKI2luY2x1ZGUgPGNzdGRpbnQ+CiNpbmNsdWRlIDxkZXF1ZT4KI2luY2x1ZGUgPG1lbW9yeT4KCiNpbmNsdWRlICJwbHVnaW5zL1N0cmVhbU1hcmtkb3duUGx1Z2luLmgiCiNpbmNsdWRlICJwbHVnaW5zL1N0cmVhbVhtbFBsdWdpbi5oIgoKbmFtZXNwYWNlIHN0cmVhbW5hdGl2ZSB7CgpuYW1lc3BhY2UgewoKLy8gTXVzdCBtYXRjaCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5tYXJrZG93bi5NYXJrZG93blByb2Nlc3NvclR5cGUgb3JkaW5hbHMuCmNvbnN0ZXhwciBpbnQgTURfSEVBREVSID0gMDsKY29uc3RleHByIGludCBNRF9CTE9DS19RVU9URSA9IDE7CmNvbnN0ZXhwciBpbnQgTURfQ09ERV9CTE9DSyA9IDI7CmNvbnN0ZXhwciBpbnQgTURfT1JERVJFRF9MSVNUID0gMzsKY29uc3RleHByIGludCBNRF9VTk9SREVSRURfTElTVCA9IDQ7CmNvbnN0ZXhwciBpbnQgTURfSE9SSVpPTlRBTF9SVUxFID0gNTsKY29uc3RleHByIGludCBNRF9CTE9DS19MQVRFWCA9IDY7CmNvbnN0ZXhwciBpbnQgTURfVEFCTEUgPSA3Owpjb25zdGV4cHIgaW50IE1EX1hNTF9CTE9DSyA9IDg7CmNvbnN0ZXhwciBpbnQgTURfQk9MRCA9IDk7CmNvbnN0ZXhwciBpbnQgTURfSVRBTElDID0gMTA7CmNvbnN0ZXhwciBpbnQgTURfSU5MSU5FX0NPREUgPSAxMTsKY29uc3RleHByIGludCBNRF9MSU5LID0gMTI7CmNvbnN0ZXhwciBpbnQgTURfSU1BR0UgPSAxMzsKY29uc3RleHByIGludCBNRF9TVFJJS0VUSFJPVUdIID0gMTQ7CmNvbnN0ZXhwciBpbnQgTURfVU5ERVJMSU5FID0gMTU7CmNvbnN0ZXhwciBpbnQgTURfSU5MSU5FX0xBVEVYID0gMTY7CmNvbnN0ZXhwciBpbnQgTURfUExBSU5fVEVYVCA9IDE3OwovLyBEZWRpY2F0ZWQgSFRNTCBicmVhayBjbGFzc2lmaWNhdGlvbiwgbWF0Y2hlZCBiZWZvcmUgWE1MIGhhbmRsaW5nLgpjb25zdGV4cHIgaW50IE1EX0hUTUxfQlJFQUsgPSAxODsKCi8vIFNlZ21lbnQgdHlwZSB1c2VkIG9ubHkgYXMgYSBib3VuZGFyeSBtYXJrZXIgYmV0d2VlbiBncm91cHMuCi8vIEtvdGxpbiBzaWRlIG11c3QgdHJlYXQgdGhpcyBhcyAiY2xvc2UgY3VycmVudCBncm91cCIgYW5kIG5vdCBtYXAgaXQgdG8gTWFya2Rvd25Qcm9jZXNzb3JUeXBlLgpjb25zdGV4cHIgaW50IFNFR19CUkVBSyA9IC0xOwoKc3RydWN0IFBsdWdpbkVudHJ5IHsKICAgIHN0ZDo6dW5pcXVlX3B0cjxTdHJlYW1QbHVnaW4+IHBsdWdpbjsKICAgIGludCB0YWc7Cn07CgppbmxpbmUgdm9pZCBlbWl0SW5kZXgoc3RkOjp2ZWN0b3I8U2VnbWVudD4mIG91dCwgaW50IHRhZywgaW50IGluZGV4LCBpbnQmIHJ1blRhZywgaW50JiBydW5TdGFydCwgaW50JiBydW5FbmQpIHsKICAgIGlmIChydW5TdGFydCA+PSAwICYmIChydW5UYWcgIT0gdGFnIHx8IHJ1bkVuZCAhPSBpbmRleCkpIHsKICAgICAgICBvdXQucHVzaF9iYWNrKHtydW5UYWcsIHJ1blN0YXJ0LCBydW5FbmR9KTsKICAgICAgICBydW5TdGFydCA9IC0xOwogICAgICAgIHJ1bkVuZCA9IC0xOwogICAgfQogICAgaWYgKHJ1blN0YXJ0IDwgMCkgewogICAgICAgIHJ1blRhZyA9IHRhZzsKICAgICAgICBydW5TdGFydCA9IGluZGV4OwogICAgICAgIHJ1bkVuZCA9IGluZGV4ICsgMTsKICAgIH0gZWxzZSB7CiAgICAgICAgcnVuRW5kID0gaW5kZXggKyAxOwogICAgfQp9CgppbmxpbmUgdm9pZCBmbHVzaFJ1bihzdGQ6OnZlY3RvcjxTZWdtZW50PiYgb3V0LCBpbnQmIHJ1blRhZywgaW50JiBydW5TdGFydCwgaW50JiBydW5FbmQpIHsKICAgIGlmIChydW5TdGFydCA+PSAwKSB7CiAgICAgICAgb3V0LnB1c2hfYmFjayh7cnVuVGFnLCBydW5TdGFydCwgcnVuRW5kfSk7CiAgICB9CiAgICBydW5TdGFydCA9IC0xOwogICAgcnVuRW5kID0gLTE7Cn0KCmlubGluZSB2b2lkIGVtaXRCcmVhayhzdGQ6OnZlY3RvcjxTZWdtZW50PiYgb3V0LCBpbnQgcG9zLCBpbnQmIHJ1blRhZywgaW50JiBydW5TdGFydCwgaW50JiBydW5FbmQpIHsKICAgIGZsdXNoUnVuKG91dCwgcnVuVGFnLCBydW5TdGFydCwgcnVuRW5kKTsKICAgIG91dC5wdXNoX2JhY2soe1NFR19CUkVBSywgcG9zLCBwb3N9KTsKfQoKaW5saW5lIGNoYXIxNl90IHRvQXNjaWlMb3dlcihjaGFyMTZfdCBjKSB7CiAgICBpZiAoYyA+PSB1J0EnICYmIGMgPD0gdSdaJykgewogICAgICAgIHJldHVybiBzdGF0aWNfY2FzdDxjaGFyMTZfdD4oYyAtIHUnQScgKyB1J2EnKTsKICAgIH0KICAgIHJldHVybiBjOwp9Cgp0ZW1wbGF0ZSA8c2l6ZV90IE4+CmJvb2wgbWF0Y2hlc0Nhc2VJbnNlbnNpdGl2ZVByZWZpeCgKICAgICAgICBjb25zdCBzdGQ6OnZlY3RvcjxjaGFyMTZfdD4mIGJ1ZmZlciwKICAgICAgICBjb25zdCBjaGFyMTZfdCAoJnBhdHRlcm4pW05dKSB7CiAgICBjb25zdCBzaXplX3QgcGF0dGVybkxlbiA9IE4gLSAxOwogICAgaWYgKGJ1ZmZlci5zaXplKCkgPiBwYXR0ZXJuTGVuKSB7CiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgfQoKICAgIGZvciAoc2l6ZV90IGkgPSAwOyBpIDwgYnVmZmVyLnNpemUoKTsgaSsrKSB7CiAgICAgICAgaWYgKHRvQXNjaWlMb3dlcihidWZmZXJbaV0pICE9IHRvQXNjaWlMb3dlcihwYXR0ZXJuW2ldKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIHRydWU7Cn0KCnRlbXBsYXRlIDxzaXplX3QgTj4KYm9vbCBtYXRjaGVzQ2FzZUluc2Vuc2l0aXZlRnVsbCgKICAgICAgICBjb25zdCBzdGQ6OnZlY3RvcjxjaGFyMTZfdD4mIGJ1ZmZlciwKICAgICAgICBjb25zdCBjaGFyMTZfdCAoJnBhdHRlcm4pW05dKSB7CiAgICBjb25zdCBzaXplX3QgcGF0dGVybkxlbiA9IE4gLSAxOwogICAgaWYgKGJ1ZmZlci5zaXplKCkgIT0gcGF0dGVybkxlbikgewogICAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KCiAgICBmb3IgKHNpemVfdCBpID0gMDsgaSA8IHBhdHRlcm5MZW47IGkrKykgewogICAgICAgIGlmICh0b0FzY2lpTG93ZXIoYnVmZmVyW2ldKSAhPSB0b0FzY2lpTG93ZXIocGF0dGVybltpXSkpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgIH0KICAgIHJldHVybiB0cnVlOwp9CgppbmxpbmUgYm9vbCBpc0h0bWxCcmVha1ByZWZpeChjb25zdCBzdGQ6OnZlY3RvcjxjaGFyMTZfdD4mIGJ1ZmZlcikgewogICAgcmV0dXJuIG1hdGNoZXNDYXNlSW5zZW5zaXRpdmVQcmVmaXgoYnVmZmVyLCB1Ijxicj4iKSB8fAogICAgICAgICAgIG1hdGNoZXNDYXNlSW5zZW5zaXRpdmVQcmVmaXgoYnVmZmVyLCB1Ijxici8+IikgfHwKICAgICAgICAgICBtYXRjaGVzQ2FzZUluc2Vuc2l0aXZlUHJlZml4KGJ1ZmZlciwgdSI8YnIgLz4iKSB8fAogICAgICAgICAgIG1hdGNoZXNDYXNlSW5zZW5zaXRpdmVQcmVmaXgoYnVmZmVyLCB1IjxiciA+Iik7Cn0KCmlubGluZSBib29sIGlzSHRtbEJyZWFrRnVsbE1hdGNoKGNvbnN0IHN0ZDo6dmVjdG9yPGNoYXIxNl90PiYgYnVmZmVyKSB7CiAgICByZXR1cm4gbWF0Y2hlc0Nhc2VJbnNlbnNpdGl2ZUZ1bGwoYnVmZmVyLCB1Ijxicj4iKSB8fAogICAgICAgICAgIG1hdGNoZXNDYXNlSW5zZW5zaXRpdmVGdWxsKGJ1ZmZlciwgdSI8YnIvPiIpIHx8CiAgICAgICAgICAgbWF0Y2hlc0Nhc2VJbnNlbnNpdGl2ZUZ1bGwoYnVmZmVyLCB1IjxiciAvPiIpIHx8CiAgICAgICAgICAgbWF0Y2hlc0Nhc2VJbnNlbnNpdGl2ZUZ1bGwoYnVmZmVyLCB1IjxiciA+Iik7Cn0KCn0gLy8gbmFtZXNwYWNlCgpjbGFzcyBNYXJrZG93blNlc3Npb24gewpwdWJsaWM6CiAgICBleHBsaWNpdCBNYXJrZG93blNlc3Npb24oc3RkOjp2ZWN0b3I8UGx1Z2luRW50cnk+IHBsdWdpbnMpCiAgICAgICAgICAgIDogcGx1Z2luc18oc3RkOjptb3ZlKHBsdWdpbnMpKSB7CiAgICAgICAgZm9yIChhdXRvJiBlIDogcGx1Z2luc18pIHsKICAgICAgICAgICAgZS5wbHVnaW4tPmluaXRQbHVnaW4oKTsKICAgICAgICB9CiAgICB9CgogICAgc3RkOjp2ZWN0b3I8U2VnbWVudD4gcHVzaChjb25zdCBqY2hhciogY2hhcnMsIGludCBsZW4pIHsKICAgICAgICBzdGQ6OnZlY3RvcjxTZWdtZW50PiBvdXQ7CiAgICAgICAgb3V0LnJlc2VydmUoNjQpOwoKICAgICAgICBpbnQgcnVuVGFnID0gMDsKICAgICAgICBpbnQgcnVuU3RhcnQgPSAtMTsKICAgICAgICBpbnQgcnVuRW5kID0gLTE7CgogICAgICAgIGF1dG8gcHJvY2Vzc09uZSA9IFsmXShjaGFyMTZfdCBjLCBib29sIGF0U3RhcnRPZkxpbmUsIGludCBmb3JjZWRHbG9iYWxJbmRleCkgewogICAgICAgICAgICBjb25zdCBpbnQgZ2xvYmFsSW5kZXggPSAoZm9yY2VkR2xvYmFsSW5kZXggPj0gMCkgPyBmb3JjZWRHbG9iYWxJbmRleCA6IGdsb2JhbE9mZnNldF87CiAgICAgICAgICAgIGlmIChmb3JjZWRHbG9iYWxJbmRleCA8IDApIHsKICAgICAgICAgICAgICAgIGdsb2JhbE9mZnNldF8gKz0gMTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gV0FJVEZPUiBoYW5kbGluZyBkZWZlcnJlZCBhY3Jvc3MgcHVzaGVzCiAgICAgICAgICAgIGlmICh3YWl0Zm9yQWN0aXZlXykgewogICAgICAgICAgICAgICAgLy8gRmVlZCBuZXh0IGNoYXIgaW50byBhY3RpdmUgcGx1Z2luIHRvIGRlY2lkZS4KICAgICAgICAgICAgICAgIGNvbnN0IGJvb2wgbmV4dFNob3VsZEVtaXQgPSBhY3RpdmVQbHVnaW5fLT5wcm9jZXNzQ2hhcihjLCB3YWl0Zm9yQXRTdGFydE9mTGluZV8pOwoKICAgICAgICAgICAgICAgIGlmIChhY3RpdmVQbHVnaW5fLT5zdGF0ZSgpID09IFBsdWdpblN0YXRlOjpQUk9DRVNTSU5HKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gQ29uZmlybWVkOiBlbWl0IHBlbmRpbmcgY2hhcihzKSBhbmQgY3VycmVudCBjaGFyLgogICAgICAgICAgICAgICAgICAgIGZvciAoY29uc3QgYXV0byYgcGVuZGluZyA6IHdhaXRmb3JQZW5kaW5nXykgewogICAgICAgICAgICAgICAgICAgICAgICBpZiAocGVuZGluZy5zaG91bGRFbWl0KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbWl0SW5kZXgob3V0LCBhY3RpdmVUYWdfLCBwZW5kaW5nLmdsb2JhbEluZGV4LCBydW5UYWcsIHJ1blN0YXJ0LCBydW5FbmQpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHdhaXRmb3JQZW5kaW5nXy5jbGVhcigpOwogICAgICAgICAgICAgICAgICAgIHdhaXRmb3JBY3RpdmVfID0gZmFsc2U7CiAgICAgICAgICAgICAgICAgICAgaWYgKG5leHRTaG91bGRFbWl0KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGVtaXRJbmRleChvdXQsIGFjdGl2ZVRhZ18sIGdsb2JhbEluZGV4LCBydW5UYWcsIHJ1blN0YXJ0LCBydW5FbmQpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAvLyBOb3RlOiBkbyBub3QgY2hhbmdlIGF0U3RhcnRPZkxpbmUgaGVyZTsgY2FsbGVyIG1haW50YWlucy4KICAgICAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8gUmVqZWN0ZWQ6IHJldHVybiBvbmx5IHByZXZpb3VzbHktZW1pdHRlZCBjaGFycyBhcyBwbGFpbiwgY3VycmVudCBjaGFyIG11c3QgYmUgcmVwcm9jZXNzZWQgYXMgaWRsZS4KICAgICAgICAgICAgICAgIGZvciAoY29uc3QgYXV0byYgcGVuZGluZyA6IHdhaXRmb3JQZW5kaW5nXykgewogICAgICAgICAgICAgICAgICAgIGlmIChwZW5kaW5nLnNob3VsZEVtaXQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZW1pdEluZGV4KG91dCwgTURfUExBSU5fVEVYVCwgcGVuZGluZy5nbG9iYWxJbmRleCwgcnVuVGFnLCBydW5TdGFydCwgcnVuRW5kKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB3YWl0Zm9yUGVuZGluZ18uY2xlYXIoKTsKICAgICAgICAgICAgICAgIHdhaXRmb3JBY3RpdmVfID0gZmFsc2U7CgogICAgICAgICAgICAgICAgLy8gQ2xvc2UgcGx1Z2luCiAgICAgICAgICAgICAgICBlbWl0QnJlYWsob3V0LCBnbG9iYWxJbmRleCwgcnVuVGFnLCBydW5TdGFydCwgcnVuRW5kKTsKICAgICAgICAgICAgICAgIGFjdGl2ZVBsdWdpbl8gPSBudWxscHRyOwogICAgICAgICAgICAgICAgYWN0aXZlVGFnXyA9IE1EX1BMQUlOX1RFWFQ7CiAgICAgICAgICAgICAgICBhY3RpdmVJbmRleF8gPSAtMTsKCiAgICAgICAgICAgICAgICAvLyBSZXNldCBhbGwgcGx1Z2lucyBhZnRlciBhIGZhaWxlZCB3YWl0Zm9yCiAgICAgICAgICAgICAgICBmb3IgKGF1dG8mIGUgOiBwbHVnaW5zXykgewogICAgICAgICAgICAgICAgICAgIGUucGx1Z2luLT5yZXNldCgpOwogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIFJlcHJvY2VzcyBjdXJyZW50IGNoYXIgYXMgaWRsZSAoZG8gTk9UIGFkdmFuY2UgZ2xvYmFsIG9mZnNldCBhZ2FpbikKICAgICAgICAgICAgICAgIHBlbmRpbmdDaGFyc18ucHVzaF9mcm9udCh7YywgZ2xvYmFsSW5kZXh9KTsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKGFjdGl2ZVBsdWdpbl8gIT0gbnVsbHB0cikgewogICAgICAgICAgICAgICAgY29uc3QgYm9vbCBzaG91bGRFbWl0ID0gYWN0aXZlUGx1Z2luXy0+cHJvY2Vzc0NoYXIoYywgYXRTdGFydE9mTGluZSk7CiAgICAgICAgICAgICAgICBpZiAoYWN0aXZlUGx1Z2luXy0+c3RhdGUoKSA9PSBQbHVnaW5TdGF0ZTo6V0FJVEZPUikgewogICAgICAgICAgICAgICAgICAgIC8vIERlZmVyIGVtaXNzaW9uIGRlY2lzaW9uIHVudGlsIG5leHQgY2hhciBhcnJpdmVzLgogICAgICAgICAgICAgICAgICAgIHdhaXRmb3JBY3RpdmVfID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICB3YWl0Zm9yQXRTdGFydE9mTGluZV8gPSAoYyA9PSB1J1xuJyk7CiAgICAgICAgICAgICAgICAgICAgd2FpdGZvclBlbmRpbmdfLnB1c2hfYmFjayh7Z2xvYmFsSW5kZXgsIHNob3VsZEVtaXR9KTsKICAgICAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoc2hvdWxkRW1pdCkgewogICAgICAgICAgICAgICAgICAgIGVtaXRJbmRleChvdXQsIGFjdGl2ZVRhZ18sIGdsb2JhbEluZGV4LCBydW5UYWcsIHJ1blN0YXJ0LCBydW5FbmQpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKGFjdGl2ZVBsdWdpbl8tPnN0YXRlKCkgIT0gUGx1Z2luU3RhdGU6OlBST0NFU1NJTkcpIHsKICAgICAgICAgICAgICAgICAgICAvLyBDbG9zZSBhY3RpdmUgZ3JvdXAKICAgICAgICAgICAgICAgICAgICBlbWl0QnJlYWsob3V0LCBnbG9iYWxJbmRleCArIDEsIHJ1blRhZywgcnVuU3RhcnQsIHJ1bkVuZCk7CiAgICAgICAgICAgICAgICAgICAgYWN0aXZlUGx1Z2luXyA9IG51bGxwdHI7CiAgICAgICAgICAgICAgICAgICAgYWN0aXZlVGFnXyA9IE1EX1BMQUlOX1RFWFQ7CiAgICAgICAgICAgICAgICAgICAgYWN0aXZlSW5kZXhfID0gLTE7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIEV2YWx1YXRpb24gbW9kZQogICAgICAgICAgICBpZiAoZXZhbFN0YXJ0R2xvYmFsXyA8IDApIHsKICAgICAgICAgICAgICAgIGV2YWxTdGFydEdsb2JhbF8gPSBnbG9iYWxJbmRleDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZXZhbHVhdGlvbkJ1ZmZlcl8ucHVzaF9iYWNrKGMpOwogICAgICAgICAgICB1aW50MzJfdCBlbWl0TWFzayA9IDA7CgogICAgICAgICAgICBpbnQgc3VjY2Vzc2Z1bCA9IC0xOwogICAgICAgICAgICBmb3IgKGludCBwaSA9IDA7IHBpIDwgc3RhdGljX2Nhc3Q8aW50PihwbHVnaW5zXy5zaXplKCkpOyBwaSsrKSB7CiAgICAgICAgICAgICAgICBjb25zdCBib29sIHNlID0gcGx1Z2luc19bcGldLnBsdWdpbi0+cHJvY2Vzc0NoYXIoYywgYXRTdGFydE9mTGluZSk7CiAgICAgICAgICAgICAgICBpZiAoc2UpIHsKICAgICAgICAgICAgICAgICAgICBlbWl0TWFzayB8PSAoMXUgPDwgc3RhdGljX2Nhc3Q8dWludDMyX3Q+KHBpKSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZXZhbHVhdGlvbkVtaXRNYXNrXy5wdXNoX2JhY2soZW1pdE1hc2spOwoKICAgICAgICAgICAgZm9yIChpbnQgcGkgPSAwOyBwaSA8IHN0YXRpY19jYXN0PGludD4ocGx1Z2luc18uc2l6ZSgpKTsgcGkrKykgewogICAgICAgICAgICAgICAgaWYgKHBsdWdpbnNfW3BpXS5wbHVnaW4tPnN0YXRlKCkgPT0gUGx1Z2luU3RhdGU6OlBST0NFU1NJTkcpIHsKICAgICAgICAgICAgICAgICAgICBzdWNjZXNzZnVsID0gcGk7CiAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChpc0h0bWxCcmVha0Z1bGxNYXRjaChldmFsdWF0aW9uQnVmZmVyXykpIHsKICAgICAgICAgICAgICAgIGZvciAoaW50IGJpID0gMDsgYmkgPCBzdGF0aWNfY2FzdDxpbnQ+KGV2YWx1YXRpb25CdWZmZXJfLnNpemUoKSk7IGJpKyspIHsKICAgICAgICAgICAgICAgICAgICBlbWl0SW5kZXgob3V0LCBNRF9IVE1MX0JSRUFLLCBldmFsU3RhcnRHbG9iYWxfICsgYmksIHJ1blRhZywgcnVuU3RhcnQsIHJ1bkVuZCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBldmFsdWF0aW9uQnVmZmVyXy5jbGVhcigpOwogICAgICAgICAgICAgICAgZXZhbHVhdGlvbkVtaXRNYXNrXy5jbGVhcigpOwogICAgICAgICAgICAgICAgZXZhbFN0YXJ0R2xvYmFsXyA9IC0xOwogICAgICAgICAgICAgICAgZm9yIChhdXRvJiBlIDogcGx1Z2luc18pIHsKICAgICAgICAgICAgICAgICAgICBlLnBsdWdpbi0+cmVzZXQoKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKHN1Y2Nlc3NmdWwgIT0gLTEpIHsKICAgICAgICAgICAgICAgIC8vIEZsdXNoIGJ1ZmZlcmVkIGFzIHBsdWdpbiBncm91cAogICAgICAgICAgICAgICAgYWN0aXZlSW5kZXhfID0gc3VjY2Vzc2Z1bDsKICAgICAgICAgICAgICAgIGFjdGl2ZVBsdWdpbl8gPSBwbHVnaW5zX1tzdWNjZXNzZnVsXS5wbHVnaW4uZ2V0KCk7CiAgICAgICAgICAgICAgICBhY3RpdmVUYWdfID0gcGx1Z2luc19bc3VjY2Vzc2Z1bF0udGFnOwoKICAgICAgICAgICAgICAgIC8vIEVuc3VyZSBhIG5ldyBncm91cCBib3VuZGFyeSBldmVuIGlmIHByZXZpb3VzIGdyb3VwIGhhZCB0aGUgc2FtZSB0YWcuCiAgICAgICAgICAgICAgICBmbHVzaFJ1bihvdXQsIHJ1blRhZywgcnVuU3RhcnQsIHJ1bkVuZCk7CgogICAgICAgICAgICAgICAgZm9yIChpbnQgYmkgPSAwOyBiaSA8IHN0YXRpY19jYXN0PGludD4oZXZhbHVhdGlvbkJ1ZmZlcl8uc2l6ZSgpKTsgYmkrKykgewogICAgICAgICAgICAgICAgICAgIGNvbnN0IHVpbnQzMl90IG1hc2sgPSBldmFsdWF0aW9uRW1pdE1hc2tfW3N0YXRpY19jYXN0PHNpemVfdD4oYmkpXTsKICAgICAgICAgICAgICAgICAgICBpZiAoKG1hc2sgJiAoMXUgPDwgc3RhdGljX2Nhc3Q8dWludDMyX3Q+KHN1Y2Nlc3NmdWwpKSkgIT0gMHUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZW1pdEluZGV4KG91dCwgYWN0aXZlVGFnXywgZXZhbFN0YXJ0R2xvYmFsXyArIGJpLCBydW5UYWcsIHJ1blN0YXJ0LCBydW5FbmQpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBldmFsdWF0aW9uQnVmZmVyXy5jbGVhcigpOwogICAgICAgICAgICAgICAgZXZhbHVhdGlvbkVtaXRNYXNrXy5jbGVhcigpOwogICAgICAgICAgICAgICAgZXZhbFN0YXJ0R2xvYmFsXyA9IC0xOwoKICAgICAgICAgICAgICAgIC8vIFJlc2V0IG90aGVyIHBsdWdpbnMKICAgICAgICAgICAgICAgIGZvciAoaW50IHBpID0gMDsgcGkgPCBzdGF0aWNfY2FzdDxpbnQ+KHBsdWdpbnNfLnNpemUoKSk7IHBpKyspIHsKICAgICAgICAgICAgICAgICAgICBpZiAocGkgIT0gc3VjY2Vzc2Z1bCkgewogICAgICAgICAgICAgICAgICAgICAgICBwbHVnaW5zX1twaV0ucGx1Z2luLT5yZXNldCgpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChpc0h0bWxCcmVha1ByZWZpeChldmFsdWF0aW9uQnVmZmVyXykpIHsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gSWYgbm8gcGx1Z2luIGlzIHRyeWluZywgZmx1c2ggYnVmZmVyIGFzIHBsYWluIHRleHQKICAgICAgICAgICAgYm9vbCBhbnlUcnlpbmcgPSBmYWxzZTsKICAgICAgICAgICAgZm9yIChhdXRvJiBlIDogcGx1Z2luc18pIHsKICAgICAgICAgICAgICAgIGlmIChlLnBsdWdpbi0+c3RhdGUoKSA9PSBQbHVnaW5TdGF0ZTo6VFJZSU5HKSB7CiAgICAgICAgICAgICAgICAgICAgYW55VHJ5aW5nID0gdHJ1ZTsKICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKCFhbnlUcnlpbmcpIHsKICAgICAgICAgICAgICAgIGZvciAoaW50IGJpID0gMDsgYmkgPCBzdGF0aWNfY2FzdDxpbnQ+KGV2YWx1YXRpb25CdWZmZXJfLnNpemUoKSk7IGJpKyspIHsKICAgICAgICAgICAgICAgICAgICBlbWl0SW5kZXgob3V0LCBNRF9QTEFJTl9URVhULCBldmFsU3RhcnRHbG9iYWxfICsgYmksIHJ1blRhZywgcnVuU3RhcnQsIHJ1bkVuZCk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBldmFsdWF0aW9uQnVmZmVyXy5jbGVhcigpOwogICAgICAgICAgICAgICAgZXZhbHVhdGlvbkVtaXRNYXNrXy5jbGVhcigpOwogICAgICAgICAgICAgICAgZXZhbFN0YXJ0R2xvYmFsXyA9IC0xOwogICAgICAgICAgICAgICAgZm9yIChhdXRvJiBlIDogcGx1Z2luc18pIHsKICAgICAgICAgICAgICAgICAgICBlLnBsdWdpbi0+cmVzZXQoKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH07CgogICAgICAgIGJvb2wgYXRTdGFydE9mTGluZSA9IGF0U3RhcnRPZkxpbmVfOwoKICAgICAgICBpbnQgaSA9IDA7CiAgICAgICAgd2hpbGUgKGkgPCBsZW4gfHwgIXBlbmRpbmdDaGFyc18uZW1wdHkoKSkgewogICAgICAgICAgICBjaGFyMTZfdCBjOwogICAgICAgICAgICBpbnQgZm9yY2VkSW5kZXggPSAtMTsKCiAgICAgICAgICAgIGlmICghcGVuZGluZ0NoYXJzXy5lbXB0eSgpKSB7CiAgICAgICAgICAgICAgICBQZW5kaW5nQ2hhciBwYyA9IHBlbmRpbmdDaGFyc18uZnJvbnQoKTsKICAgICAgICAgICAgICAgIHBlbmRpbmdDaGFyc18ucG9wX2Zyb250KCk7CiAgICAgICAgICAgICAgICBjID0gcGMuYzsKICAgICAgICAgICAgICAgIGZvcmNlZEluZGV4ID0gcGMuZ2xvYmFsSW5kZXg7CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBjID0gc3RhdGljX2Nhc3Q8Y2hhcjE2X3Q+KGNoYXJzW2ldKTsKICAgICAgICAgICAgICAgIGkgKz0gMTsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgY29uc3QgYm9vbCBzb2wgPSBhdFN0YXJ0T2ZMaW5lOwogICAgICAgICAgICBhdFN0YXJ0T2ZMaW5lID0gKGMgPT0gdSdcbicpOwogICAgICAgICAgICBwcm9jZXNzT25lKGMsIHNvbCwgZm9yY2VkSW5kZXgpOwogICAgICAgIH0KCiAgICAgICAgYXRTdGFydE9mTGluZV8gPSBhdFN0YXJ0T2ZMaW5lOwoKICAgICAgICBmbHVzaFJ1bihvdXQsIHJ1blRhZywgcnVuU3RhcnQsIHJ1bkVuZCk7CgogICAgICAgIHJldHVybiBvdXQ7CiAgICB9Cgpwcml2YXRlOgogICAgc3RydWN0IFdhaXRmb3JQZW5kaW5nIHsKICAgICAgICBpbnQgZ2xvYmFsSW5kZXg7CiAgICAgICAgYm9vbCBzaG91bGRFbWl0OwogICAgfTsKCiAgICBzdHJ1Y3QgUGVuZGluZ0NoYXIgewogICAgICAgIGNoYXIxNl90IGM7CiAgICAgICAgaW50IGdsb2JhbEluZGV4OwogICAgfTsKCiAgICBzdGQ6OnZlY3RvcjxQbHVnaW5FbnRyeT4gcGx1Z2luc187CgogICAgaW50IGdsb2JhbE9mZnNldF8gPSAwOwogICAgYm9vbCBhdFN0YXJ0T2ZMaW5lXyA9IHRydWU7CgogICAgLy8gQWN0aXZlIHBsdWdpbgogICAgU3RyZWFtUGx1Z2luKiBhY3RpdmVQbHVnaW5fID0gbnVsbHB0cjsKICAgIGludCBhY3RpdmVUYWdfID0gTURfUExBSU5fVEVYVDsKICAgIGludCBhY3RpdmVJbmRleF8gPSAtMTsKCiAgICAvLyBFdmFsdWF0aW9uIGJ1ZmZlcgogICAgaW50IGV2YWxTdGFydEdsb2JhbF8gPSAtMTsKICAgIHN0ZDo6dmVjdG9yPGNoYXIxNl90PiBldmFsdWF0aW9uQnVmZmVyXzsKICAgIHN0ZDo6dmVjdG9yPHVpbnQzMl90PiBldmFsdWF0aW9uRW1pdE1hc2tfOwoKICAgIC8vIFdBSVRGT1Igc3VwcG9ydAogICAgYm9vbCB3YWl0Zm9yQWN0aXZlXyA9IGZhbHNlOwogICAgYm9vbCB3YWl0Zm9yQXRTdGFydE9mTGluZV8gPSBmYWxzZTsKICAgIHN0ZDo6dmVjdG9yPFdhaXRmb3JQZW5kaW5nPiB3YWl0Zm9yUGVuZGluZ187CiAgICBzdGQ6OmRlcXVlPFBlbmRpbmdDaGFyPiBwZW5kaW5nQ2hhcnNfOwp9OwoKTWFya2Rvd25TZXNzaW9uKiBjcmVhdGVNYXJrZG93bkJsb2NrU2Vzc2lvbigpIHsKICAgIHN0ZDo6dmVjdG9yPFBsdWdpbkVudHJ5PiBwbHVnaW5zOwogICAgcGx1Z2lucy5yZXNlcnZlKDE2KTsKICAgIC8vIE9yZGVyIG11c3QgbWF0Y2ggTmVzdGVkTWFya2Rvd25Qcm9jZXNzb3IuZ2V0QmxvY2tQbHVnaW5zKCkKICAgIHBsdWdpbnMucHVzaF9iYWNrKHtzdGQ6Om1ha2VfdW5pcXVlPFN0cmVhbU1hcmtkb3duSGVhZGVyUGx1Z2luPih0cnVlKSwgTURfSEVBREVSfSk7CiAgICBwbHVnaW5zLnB1c2hfYmFjayh7c3RkOjptYWtlX3VuaXF1ZTxTdHJlYW1NYXJrZG93bkZlbmNlZENvZGVCbG9ja1BsdWdpbj4odHJ1ZSksIE1EX0NPREVfQkxPQ0t9KTsKICAgIHBsdWdpbnMucHVzaF9iYWNrKHtzdGQ6Om1ha2VfdW5pcXVlPFN0cmVhbU1hcmtkb3duQmxvY2tRdW90ZVBsdWdpbj4oZmFsc2UpLCBNRF9CTE9DS19RVU9URX0pOwogICAgcGx1Z2lucy5wdXNoX2JhY2soe3N0ZDo6bWFrZV91bmlxdWU8U3RyZWFtTWFya2Rvd25PcmRlcmVkTGlzdFBsdWdpbj4odHJ1ZSksIE1EX09SREVSRURfTElTVH0pOwogICAgcGx1Z2lucy5wdXNoX2JhY2soe3N0ZDo6bWFrZV91bmlxdWU8U3RyZWFtTWFya2Rvd25Vbm9yZGVyZWRMaXN0UGx1Z2luPihmYWxzZSksIE1EX1VOT1JERVJFRF9MSVNUfSk7CiAgICBwbHVnaW5zLnB1c2hfYmFjayh7c3RkOjptYWtlX3VuaXF1ZTxTdHJlYW1NYXJrZG93bkhvcml6b250YWxSdWxlUGx1Z2luPih0cnVlKSwgTURfSE9SSVpPTlRBTF9SVUxFfSk7CiAgICBwbHVnaW5zLnB1c2hfYmFjayh7c3RkOjptYWtlX3VuaXF1ZTxTdHJlYW1NYXJrZG93bkJsb2NrTGFUZVhQbHVnaW4+KGZhbHNlKSwgTURfQkxPQ0tfTEFURVh9KTsKICAgIC8vIEtlZXAgZGVsaW1pdGVycyBmb3IgXFsuLi5cXSB0byBhdm9pZCBzd2FsbG93aW5nICdcJyBpbiBmYWlsZWQgZW5kLW1hdGNoZXIgYnJhbmNoZXMuCiAgICAvLyBEZWxpbWl0ZXJzIGFyZSByZW1vdmVkIGxhdGVyIGJ5IGV4dHJhY3RMYXRleENvbnRlbnQoKS4KICAgIHBsdWdpbnMucHVzaF9iYWNrKHtzdGQ6Om1ha2VfdW5pcXVlPFN0cmVhbU1hcmtkb3duQmxvY2tCcmFja2V0TGFUZVhQbHVnaW4+KHRydWUpLCBNRF9CTE9DS19MQVRFWH0pOwogICAgcGx1Z2lucy5wdXNoX2JhY2soe3N0ZDo6bWFrZV91bmlxdWU8U3RyZWFtTWFya2Rvd25UYWJsZVBsdWdpbj4odHJ1ZSksIE1EX1RBQkxFfSk7CiAgICBwbHVnaW5zLnB1c2hfYmFjayh7c3RkOjptYWtlX3VuaXF1ZTxTdHJlYW1NYXJrZG93bkltYWdlUGx1Z2luPih0cnVlKSwgTURfSU1BR0V9KTsKICAgIHBsdWdpbnMucHVzaF9iYWNrKHtzdGQ6Om1ha2VfdW5pcXVlPFN0cmVhbVhtbFBsdWdpbj4odHJ1ZSksIE1EX1hNTF9CTE9DS30pOwogICAgcmV0dXJuIG5ldyBNYXJrZG93blNlc3Npb24oc3RkOjptb3ZlKHBsdWdpbnMpKTsKfQoKTWFya2Rvd25TZXNzaW9uKiBjcmVhdGVNYXJrZG93bklubGluZVNlc3Npb24oKSB7CiAgICBzdGQ6OnZlY3RvcjxQbHVnaW5FbnRyeT4gcGx1Z2luczsKICAgIHBsdWdpbnMucmVzZXJ2ZSgxNik7CiAgICAvLyBPcmRlciBtdXN0IG1hdGNoIE5lc3RlZE1hcmtkb3duUHJvY2Vzc29yLmdldElubGluZVBsdWdpbnMoKQogICAgcGx1Z2lucy5wdXNoX2JhY2soe3N0ZDo6bWFrZV91bmlxdWU8U3RyZWFtTWFya2Rvd25Cb2xkUGx1Z2luPihmYWxzZSksIE1EX0JPTER9KTsKICAgIHBsdWdpbnMucHVzaF9iYWNrKHtzdGQ6Om1ha2VfdW5pcXVlPFN0cmVhbU1hcmtkb3duSXRhbGljUGx1Z2luPihmYWxzZSksIE1EX0lUQUxJQ30pOwogICAgcGx1Z2lucy5wdXNoX2JhY2soe3N0ZDo6bWFrZV91bmlxdWU8U3RyZWFtTWFya2Rvd25JbmxpbmVDb2RlUGx1Z2luPihmYWxzZSksIE1EX0lOTElORV9DT0RFfSk7CiAgICBwbHVnaW5zLnB1c2hfYmFjayh7c3RkOjptYWtlX3VuaXF1ZTxTdHJlYW1NYXJrZG93bkxpbmtQbHVnaW4+KCksIE1EX0xJTkt9KTsKICAgIHBsdWdpbnMucHVzaF9iYWNrKHtzdGQ6Om1ha2VfdW5pcXVlPFN0cmVhbU1hcmtkb3duU3RyaWtldGhyb3VnaFBsdWdpbj4oZmFsc2UpLCBNRF9TVFJJS0VUSFJPVUdIfSk7CiAgICBwbHVnaW5zLnB1c2hfYmFjayh7c3RkOjptYWtlX3VuaXF1ZTxTdHJlYW1NYXJrZG93blVuZGVybGluZVBsdWdpbj4odHJ1ZSksIE1EX1VOREVSTElORX0pOwogICAgcGx1Z2lucy5wdXNoX2JhY2soe3N0ZDo6bWFrZV91bmlxdWU8U3RyZWFtTWFya2Rvd25JbmxpbmVMYVRlWFBsdWdpbj4oZmFsc2UpLCBNRF9JTkxJTkVfTEFURVh9KTsKICAgIC8vIEtlZXAgZGVsaW1pdGVycyBmb3IgXCguLi5cKSB0byBhdm9pZCBzd2FsbG93aW5nICdcJyBpbiBmYWlsZWQgZW5kLW1hdGNoZXIgYnJhbmNoZXMuCiAgICAvLyBEZWxpbWl0ZXJzIGFyZSByZW1vdmVkIGxhdGVyIGJ5IGV4dHJhY3RMYXRleENvbnRlbnQoKS4KICAgIHBsdWdpbnMucHVzaF9iYWNrKHtzdGQ6Om1ha2VfdW5pcXVlPFN0cmVhbU1hcmtkb3duSW5saW5lUGFyZW5MYVRlWFBsdWdpbj4odHJ1ZSksIE1EX0lOTElORV9MQVRFWH0pOwogICAgcmV0dXJuIG5ldyBNYXJrZG93blNlc3Npb24oc3RkOjptb3ZlKHBsdWdpbnMpKTsKfQoKdm9pZCBkZXN0cm95TWFya2Rvd25TZXNzaW9uKE1hcmtkb3duU2Vzc2lvbiogc2Vzc2lvbikgewogICAgZGVsZXRlIHNlc3Npb247Cn0KCnN0ZDo6dmVjdG9yPFNlZ21lbnQ+IG1hcmtkb3duU2Vzc2lvblB1c2goTWFya2Rvd25TZXNzaW9uKiBzZXNzaW9uLCBjb25zdCBqY2hhciogY2hhcnMsIGludCBsZW4pIHsKICAgIGlmIChzZXNzaW9uID09IG51bGxwdHIgfHwgY2hhcnMgPT0gbnVsbHB0ciB8fCBsZW4gPD0gMCkgewogICAgICAgIHJldHVybiB7fTsKICAgIH0KICAgIHJldHVybiBzZXNzaW9uLT5wdXNoKGNoYXJzLCBsZW4pOwp9CgpzdGQ6OnZlY3RvcjxTZWdtZW50PiBzcGxpdEJ5WG1sKGNvbnN0IGpjaGFyKiBjaGFycywgaW50IGxlbikgewogICAgc3RkOjp2ZWN0b3I8U2VnbWVudD4gc2VnbWVudHM7CiAgICBzZWdtZW50cy5yZXNlcnZlKDMyKTsKCiAgICBTdHJlYW1YbWxQbHVnaW4geG1sUGx1Z2luKHRydWUpOwogICAgeG1sUGx1Z2luLmluaXRQbHVnaW4oKTsKCiAgICBTdHJlYW1QbHVnaW4qIGFjdGl2ZVBsdWdpbiA9IG51bGxwdHI7CiAgICBpbnQgYWN0aXZlU3RhcnQgPSAtMTsKICAgIGludCBkZWZhdWx0U3RhcnQgPSAwOwoKICAgIGludCBldmFsU3RhcnQgPSAtMTsKICAgIGJvb2wgYXRTdGFydE9mTGluZSA9IHRydWU7CgogICAgYXV0byBmbHVzaERlZmF1bHRJZk5lZWRlZCA9IFsmXShpbnQgZW5kRXhjbHVzaXZlKSB7CiAgICAgICAgaWYgKGRlZmF1bHRTdGFydCA8IGVuZEV4Y2x1c2l2ZSkgewogICAgICAgICAgICBzZWdtZW50cy5wdXNoX2JhY2soezAsIGRlZmF1bHRTdGFydCwgZW5kRXhjbHVzaXZlfSk7CiAgICAgICAgfQogICAgICAgIGRlZmF1bHRTdGFydCA9IGVuZEV4Y2x1c2l2ZTsKICAgIH07CgogICAgYXV0byBvcGVuQWN0aXZlID0gWyZdKGludCBzdGFydCkgewogICAgICAgIGFjdGl2ZVBsdWdpbiA9ICZ4bWxQbHVnaW47CiAgICAgICAgYWN0aXZlU3RhcnQgPSBzdGFydDsKICAgIH07CgogICAgYXV0byBjbG9zZUFjdGl2ZSA9IFsmXShpbnQgZW5kRXhjbHVzaXZlKSB7CiAgICAgICAgaWYgKGFjdGl2ZVBsdWdpbiAhPSBudWxscHRyICYmIGFjdGl2ZVN0YXJ0ID49IDAgJiYgYWN0aXZlU3RhcnQgPCBlbmRFeGNsdXNpdmUpIHsKICAgICAgICAgICAgc2VnbWVudHMucHVzaF9iYWNrKHsxLCBhY3RpdmVTdGFydCwgZW5kRXhjbHVzaXZlfSk7CiAgICAgICAgfQogICAgICAgIGFjdGl2ZVBsdWdpbiA9IG51bGxwdHI7CiAgICAgICAgYWN0aXZlU3RhcnQgPSAtMTsKICAgIH07CgogICAgZm9yIChpbnQgaSA9IDA7IGkgPCBsZW47IGkrKykgewogICAgICAgIGNvbnN0IGpjaGFyIGMgPSBjaGFyc1tpXTsKICAgICAgICBjb25zdCBib29sIGlzQXRTdGFydEZvckN1cnJlbnQgPSBhdFN0YXJ0T2ZMaW5lOwogICAgICAgIGF0U3RhcnRPZkxpbmUgPSAoYyA9PSAnXG4nKTsKCiAgICAgICAgaWYgKGFjdGl2ZVBsdWdpbiAhPSBudWxscHRyKSB7CiAgICAgICAgICAgICh2b2lkKWFjdGl2ZVBsdWdpbi0+cHJvY2Vzc0NoYXIoc3RhdGljX2Nhc3Q8Y2hhcjE2X3Q+KGMpLCBpc0F0U3RhcnRGb3JDdXJyZW50KTsKICAgICAgICAgICAgaWYgKGFjdGl2ZVBsdWdpbi0+c3RhdGUoKSAhPSBQbHVnaW5TdGF0ZTo6UFJPQ0VTU0lORykgewogICAgICAgICAgICAgICAgY2xvc2VBY3RpdmUoaSArIDEpOwogICAgICAgICAgICAgICAgZGVmYXVsdFN0YXJ0ID0gaSArIDE7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQoKICAgICAgICBpZiAoZXZhbFN0YXJ0ID09IC0xKSB7CiAgICAgICAgICAgIGV2YWxTdGFydCA9IGk7CiAgICAgICAgfQoKICAgICAgICAodm9pZCl4bWxQbHVnaW4ucHJvY2Vzc0NoYXIoc3RhdGljX2Nhc3Q8Y2hhcjE2X3Q+KGMpLCBpc0F0U3RhcnRGb3JDdXJyZW50KTsKCiAgICAgICAgaWYgKHhtbFBsdWdpbi5zdGF0ZSgpID09IFBsdWdpblN0YXRlOjpQUk9DRVNTSU5HKSB7CiAgICAgICAgICAgIGZsdXNoRGVmYXVsdElmTmVlZGVkKGV2YWxTdGFydCk7CiAgICAgICAgICAgIG9wZW5BY3RpdmUoZXZhbFN0YXJ0KTsKICAgICAgICAgICAgZXZhbFN0YXJ0ID0gLTE7CiAgICAgICAgfSBlbHNlIGlmICh4bWxQbHVnaW4uc3RhdGUoKSAhPSBQbHVnaW5TdGF0ZTo6VFJZSU5HKSB7CiAgICAgICAgICAgIGV2YWxTdGFydCA9IC0xOwogICAgICAgIH0KICAgIH0KCiAgICBpZiAoYWN0aXZlUGx1Z2luICE9IG51bGxwdHIpIHsKICAgICAgICBjbG9zZUFjdGl2ZShsZW4pOwogICAgICAgIGRlZmF1bHRTdGFydCA9IGxlbjsKICAgIH0KCiAgICBmbHVzaERlZmF1bHRJZk5lZWRlZChsZW4pOwogICAgcmV0dXJuIHNlZ21lbnRzOwp9Cgp9IC8vIG5hbWVzcGFjZSBzdHJlYW1uYXRpdmUK
+#include "StreamOperators.h"
+
+#include <cstdint>
+#include <deque>
+#include <memory>
+
+#include "plugins/StreamMarkdownPlugin.h"
+#include "plugins/StreamXmlPlugin.h"
+
+namespace streamnative {
+
+namespace {
+
+// Must match com.bslsjdk.operit.util.markdown.MarkdownProcessorType ordinals.
+constexpr int MD_HEADER = 0;
+constexpr int MD_BLOCK_QUOTE = 1;
+constexpr int MD_CODE_BLOCK = 2;
+constexpr int MD_ORDERED_LIST = 3;
+constexpr int MD_UNORDERED_LIST = 4;
+constexpr int MD_HORIZONTAL_RULE = 5;
+constexpr int MD_BLOCK_LATEX = 6;
+constexpr int MD_TABLE = 7;
+constexpr int MD_XML_BLOCK = 8;
+constexpr int MD_BOLD = 9;
+constexpr int MD_ITALIC = 10;
+constexpr int MD_INLINE_CODE = 11;
+constexpr int MD_LINK = 12;
+constexpr int MD_IMAGE = 13;
+constexpr int MD_STRIKETHROUGH = 14;
+constexpr int MD_UNDERLINE = 15;
+constexpr int MD_INLINE_LATEX = 16;
+constexpr int MD_PLAIN_TEXT = 17;
+// Dedicated HTML break classification, matched before XML handling.
+constexpr int MD_HTML_BREAK = 18;
+
+// Segment type used only as a boundary marker between groups.
+// Kotlin side must treat this as "close current group" and not map it to MarkdownProcessorType.
+constexpr int SEG_BREAK = -1;
+
+struct PluginEntry {
+    std::unique_ptr<StreamPlugin> plugin;
+    int tag;
+};
+
+inline void emitIndex(std::vector<Segment>& out, int tag, int index, int& runTag, int& runStart, int& runEnd) {
+    if (runStart >= 0 && (runTag != tag || runEnd != index)) {
+        out.push_back({runTag, runStart, runEnd});
+        runStart = -1;
+        runEnd = -1;
+    }
+    if (runStart < 0) {
+        runTag = tag;
+        runStart = index;
+        runEnd = index + 1;
+    } else {
+        runEnd = index + 1;
+    }
+}
+
+inline void flushRun(std::vector<Segment>& out, int& runTag, int& runStart, int& runEnd) {
+    if (runStart >= 0) {
+        out.push_back({runTag, runStart, runEnd});
+    }
+    runStart = -1;
+    runEnd = -1;
+}
+
+inline void emitBreak(std::vector<Segment>& out, int pos, int& runTag, int& runStart, int& runEnd) {
+    flushRun(out, runTag, runStart, runEnd);
+    out.push_back({SEG_BREAK, pos, pos});
+}
+
+inline char16_t toAsciiLower(char16_t c) {
+    if (c >= u'A' && c <= u'Z') {
+        return static_cast<char16_t>(c - u'A' + u'a');
+    }
+    return c;
+}
+
+template <size_t N>
+bool matchesCaseInsensitivePrefix(
+        const std::vector<char16_t>& buffer,
+        const char16_t (&pattern)[N]) {
+    const size_t patternLen = N - 1;
+    if (buffer.size() > patternLen) {
+        return false;
+    }
+
+    for (size_t i = 0; i < buffer.size(); i++) {
+        if (toAsciiLower(buffer[i]) != toAsciiLower(pattern[i])) {
+            return false;
+        }
+    }
+    return true;
+}
+
+template <size_t N>
+bool matchesCaseInsensitiveFull(
+        const std::vector<char16_t>& buffer,
+        const char16_t (&pattern)[N]) {
+    const size_t patternLen = N - 1;
+    if (buffer.size() != patternLen) {
+        return false;
+    }
+
+    for (size_t i = 0; i < patternLen; i++) {
+        if (toAsciiLower(buffer[i]) != toAsciiLower(pattern[i])) {
+            return false;
+        }
+    }
+    return true;
+}
+
+inline bool isHtmlBreakPrefix(const std::vector<char16_t>& buffer) {
+    return matchesCaseInsensitivePrefix(buffer, u"<br>") ||
+           matchesCaseInsensitivePrefix(buffer, u"<br/>") ||
+           matchesCaseInsensitivePrefix(buffer, u"<br />") ||
+           matchesCaseInsensitivePrefix(buffer, u"<br >");
+}
+
+inline bool isHtmlBreakFullMatch(const std::vector<char16_t>& buffer) {
+    return matchesCaseInsensitiveFull(buffer, u"<br>") ||
+           matchesCaseInsensitiveFull(buffer, u"<br/>") ||
+           matchesCaseInsensitiveFull(buffer, u"<br />") ||
+           matchesCaseInsensitiveFull(buffer, u"<br >");
+}
+
+} // namespace
+
+class MarkdownSession {
+public:
+    explicit MarkdownSession(std::vector<PluginEntry> plugins)
+            : plugins_(std::move(plugins)) {
+        for (auto& e : plugins_) {
+            e.plugin->initPlugin();
+        }
+    }
+
+    std::vector<Segment> push(const jchar* chars, int len) {
+        std::vector<Segment> out;
+        out.reserve(64);
+
+        int runTag = 0;
+        int runStart = -1;
+        int runEnd = -1;
+
+        auto processOne = [&](char16_t c, bool atStartOfLine, int forcedGlobalIndex) {
+            const int globalIndex = (forcedGlobalIndex >= 0) ? forcedGlobalIndex : globalOffset_;
+            if (forcedGlobalIndex < 0) {
+                globalOffset_ += 1;
+            }
+
+            // WAITFOR handling deferred across pushes
+            if (waitforActive_) {
+                // Feed next char into active plugin to decide.
+                const bool nextShouldEmit = activePlugin_->processChar(c, waitforAtStartOfLine_);
+
+                if (activePlugin_->state() == PluginState::PROCESSING) {
+                    // Confirmed: emit pending char(s) and current char.
+                    for (const auto& pending : waitforPending_) {
+                        if (pending.shouldEmit) {
+                            emitIndex(out, activeTag_, pending.globalIndex, runTag, runStart, runEnd);
+                        }
+                    }
+                    waitforPending_.clear();
+                    waitforActive_ = false;
+                    if (nextShouldEmit) {
+                        emitIndex(out, activeTag_, globalIndex, runTag, runStart, runEnd);
+                    }
+                    // Note: do not change atStartOfLine here; caller maintains.
+                    return;
+                }
+
+                // Rejected: return only previously-emitted chars as plain, current char must be reprocessed as idle.
+                for (const auto& pending : waitforPending_) {
+                    if (pending.shouldEmit) {
+                        emitIndex(out, MD_PLAIN_TEXT, pending.globalIndex, runTag, runStart, runEnd);
+                    }
+                }
+                waitforPending_.clear();
+                waitforActive_ = false;
+
+                // Close plugin
+                emitBreak(out, globalIndex, runTag, runStart, runEnd);
+                activePlugin_ = nullptr;
+                activeTag_ = MD_PLAIN_TEXT;
+                activeIndex_ = -1;
+
+                // Reset all plugins after a failed waitfor
+                for (auto& e : plugins_) {
+                    e.plugin->reset();
+                }
+
+                // Reprocess current char as idle (do NOT advance global offset again)
+                pendingChars_.push_front({c, globalIndex});
+                return;
+            }
+
+            if (activePlugin_ != nullptr) {
+                const bool shouldEmit = activePlugin_->processChar(c, atStartOfLine);
+                if (activePlugin_->state() == PluginState::WAITFOR) {
+                    // Defer emission decision until next char arrives.
+                    waitforActive_ = true;
+                    waitforAtStartOfLine_ = (c == u'\n');
+                    waitforPending_.push_back({globalIndex, shouldEmit});
+                    return;
+                }
+                if (shouldEmit) {
+                    emitIndex(out, activeTag_, globalIndex, runTag, runStart, runEnd);
+                }
+                if (activePlugin_->state() != PluginState::PROCESSING) {
+                    // Close active group
+                    emitBreak(out, globalIndex + 1, runTag, runStart, runEnd);
+                    activePlugin_ = nullptr;
+                    activeTag_ = MD_PLAIN_TEXT;
+                    activeIndex_ = -1;
+                }
+                return;
+            }
+
+            // Evaluation mode
+            if (evalStartGlobal_ < 0) {
+                evalStartGlobal_ = globalIndex;
+            }
+
+            evaluationBuffer_.push_back(c);
+            uint32_t emitMask = 0;
+
+            int successful = -1;
+            for (int pi = 0; pi < static_cast<int>(plugins_.size()); pi++) {
+                const bool se = plugins_[pi].plugin->processChar(c, atStartOfLine);
+                if (se) {
+                    emitMask |= (1u << static_cast<uint32_t>(pi));
+                }
+            }
+            evaluationEmitMask_.push_back(emitMask);
+
+            for (int pi = 0; pi < static_cast<int>(plugins_.size()); pi++) {
+                if (plugins_[pi].plugin->state() == PluginState::PROCESSING) {
+                    successful = pi;
+                    break;
+                }
+            }
+
+            if (isHtmlBreakFullMatch(evaluationBuffer_)) {
+                for (int bi = 0; bi < static_cast<int>(evaluationBuffer_.size()); bi++) {
+                    emitIndex(out, MD_HTML_BREAK, evalStartGlobal_ + bi, runTag, runStart, runEnd);
+                }
+                evaluationBuffer_.clear();
+                evaluationEmitMask_.clear();
+                evalStartGlobal_ = -1;
+                for (auto& e : plugins_) {
+                    e.plugin->reset();
+                }
+                return;
+            }
+
+            if (successful != -1) {
+                // Flush buffered as plugin group
+                activeIndex_ = successful;
+                activePlugin_ = plugins_[successful].plugin.get();
+                activeTag_ = plugins_[successful].tag;
+
+                // Ensure a new group boundary even if previous group had the same tag.
+                flushRun(out, runTag, runStart, runEnd);
+
+                for (int bi = 0; bi < static_cast<int>(evaluationBuffer_.size()); bi++) {
+                    const uint32_t mask = evaluationEmitMask_[static_cast<size_t>(bi)];
+                    if ((mask & (1u << static_cast<uint32_t>(successful))) != 0u) {
+                        emitIndex(out, activeTag_, evalStartGlobal_ + bi, runTag, runStart, runEnd);
+                    }
+                }
+
+                evaluationBuffer_.clear();
+                evaluationEmitMask_.clear();
+                evalStartGlobal_ = -1;
+
+                // Reset other plugins
+                for (int pi = 0; pi < static_cast<int>(plugins_.size()); pi++) {
+                    if (pi != successful) {
+                        plugins_[pi].plugin->reset();
+                    }
+                }
+
+                return;
+            }
+
+            if (isHtmlBreakPrefix(evaluationBuffer_)) {
+                return;
+            }
+
+            // If no plugin is trying, flush buffer as plain text
+            bool anyTrying = false;
+            for (auto& e : plugins_) {
+                if (e.plugin->state() == PluginState::TRYING) {
+                    anyTrying = true;
+                    break;
+                }
+            }
+
+            if (!anyTrying) {
+                for (int bi = 0; bi < static_cast<int>(evaluationBuffer_.size()); bi++) {
+                    emitIndex(out, MD_PLAIN_TEXT, evalStartGlobal_ + bi, runTag, runStart, runEnd);
+                }
+                evaluationBuffer_.clear();
+                evaluationEmitMask_.clear();
+                evalStartGlobal_ = -1;
+                for (auto& e : plugins_) {
+                    e.plugin->reset();
+                }
+            }
+        };
+
+        bool atStartOfLine = atStartOfLine_;
+
+        int i = 0;
+        while (i < len || !pendingChars_.empty()) {
+            char16_t c;
+            int forcedIndex = -1;
+
+            if (!pendingChars_.empty()) {
+                PendingChar pc = pendingChars_.front();
+                pendingChars_.pop_front();
+                c = pc.c;
+                forcedIndex = pc.globalIndex;
+            } else {
+                c = static_cast<char16_t>(chars[i]);
+                i += 1;
+            }
+
+            const bool sol = atStartOfLine;
+            atStartOfLine = (c == u'\n');
+            processOne(c, sol, forcedIndex);
+        }
+
+        atStartOfLine_ = atStartOfLine;
+
+        flushRun(out, runTag, runStart, runEnd);
+
+        return out;
+    }
+
+private:
+    struct WaitforPending {
+        int globalIndex;
+        bool shouldEmit;
+    };
+
+    struct PendingChar {
+        char16_t c;
+        int globalIndex;
+    };
+
+    std::vector<PluginEntry> plugins_;
+
+    int globalOffset_ = 0;
+    bool atStartOfLine_ = true;
+
+    // Active plugin
+    StreamPlugin* activePlugin_ = nullptr;
+    int activeTag_ = MD_PLAIN_TEXT;
+    int activeIndex_ = -1;
+
+    // Evaluation buffer
+    int evalStartGlobal_ = -1;
+    std::vector<char16_t> evaluationBuffer_;
+    std::vector<uint32_t> evaluationEmitMask_;
+
+    // WAITFOR support
+    bool waitforActive_ = false;
+    bool waitforAtStartOfLine_ = false;
+    std::vector<WaitforPending> waitforPending_;
+    std::deque<PendingChar> pendingChars_;
+};
+
+MarkdownSession* createMarkdownBlockSession() {
+    std::vector<PluginEntry> plugins;
+    plugins.reserve(16);
+    // Order must match NestedMarkdownProcessor.getBlockPlugins()
+    plugins.push_back({std::make_unique<StreamMarkdownHeaderPlugin>(true), MD_HEADER});
+    plugins.push_back({std::make_unique<StreamMarkdownFencedCodeBlockPlugin>(true), MD_CODE_BLOCK});
+    plugins.push_back({std::make_unique<StreamMarkdownBlockQuotePlugin>(false), MD_BLOCK_QUOTE});
+    plugins.push_back({std::make_unique<StreamMarkdownOrderedListPlugin>(true), MD_ORDERED_LIST});
+    plugins.push_back({std::make_unique<StreamMarkdownUnorderedListPlugin>(false), MD_UNORDERED_LIST});
+    plugins.push_back({std::make_unique<StreamMarkdownHorizontalRulePlugin>(true), MD_HORIZONTAL_RULE});
+    plugins.push_back({std::make_unique<StreamMarkdownBlockLaTeXPlugin>(false), MD_BLOCK_LATEX});
+    // Keep delimiters for \[...\] to avoid swallowing '\' in failed end-matcher branches.
+    // Delimiters are removed later by extractLatexContent().
+    plugins.push_back({std::make_unique<StreamMarkdownBlockBracketLaTeXPlugin>(true), MD_BLOCK_LATEX});
+    plugins.push_back({std::make_unique<StreamMarkdownTablePlugin>(true), MD_TABLE});
+    plugins.push_back({std::make_unique<StreamMarkdownImagePlugin>(true), MD_IMAGE});
+    plugins.push_back({std::make_unique<StreamXmlPlugin>(true), MD_XML_BLOCK});
+    return new MarkdownSession(std::move(plugins));
+}
+
+MarkdownSession* createMarkdownInlineSession() {
+    std::vector<PluginEntry> plugins;
+    plugins.reserve(16);
+    // Order must match NestedMarkdownProcessor.getInlinePlugins()
+    plugins.push_back({std::make_unique<StreamMarkdownBoldPlugin>(false), MD_BOLD});
+    plugins.push_back({std::make_unique<StreamMarkdownItalicPlugin>(false), MD_ITALIC});
+    plugins.push_back({std::make_unique<StreamMarkdownInlineCodePlugin>(false), MD_INLINE_CODE});
+    plugins.push_back({std::make_unique<StreamMarkdownLinkPlugin>(), MD_LINK});
+    plugins.push_back({std::make_unique<StreamMarkdownStrikethroughPlugin>(false), MD_STRIKETHROUGH});
+    plugins.push_back({std::make_unique<StreamMarkdownUnderlinePlugin>(true), MD_UNDERLINE});
+    plugins.push_back({std::make_unique<StreamMarkdownInlineLaTeXPlugin>(false), MD_INLINE_LATEX});
+    // Keep delimiters for \(...\) to avoid swallowing '\' in failed end-matcher branches.
+    // Delimiters are removed later by extractLatexContent().
+    plugins.push_back({std::make_unique<StreamMarkdownInlineParenLaTeXPlugin>(true), MD_INLINE_LATEX});
+    return new MarkdownSession(std::move(plugins));
+}
+
+void destroyMarkdownSession(MarkdownSession* session) {
+    delete session;
+}
+
+std::vector<Segment> markdownSessionPush(MarkdownSession* session, const jchar* chars, int len) {
+    if (session == nullptr || chars == nullptr || len <= 0) {
+        return {};
+    }
+    return session->push(chars, len);
+}
+
+std::vector<Segment> splitByXml(const jchar* chars, int len) {
+    std::vector<Segment> segments;
+    segments.reserve(32);
+
+    StreamXmlPlugin xmlPlugin(true);
+    xmlPlugin.initPlugin();
+
+    StreamPlugin* activePlugin = nullptr;
+    int activeStart = -1;
+    int defaultStart = 0;
+
+    int evalStart = -1;
+    bool atStartOfLine = true;
+
+    auto flushDefaultIfNeeded = [&](int endExclusive) {
+        if (defaultStart < endExclusive) {
+            segments.push_back({0, defaultStart, endExclusive});
+        }
+        defaultStart = endExclusive;
+    };
+
+    auto openActive = [&](int start) {
+        activePlugin = &xmlPlugin;
+        activeStart = start;
+    };
+
+    auto closeActive = [&](int endExclusive) {
+        if (activePlugin != nullptr && activeStart >= 0 && activeStart < endExclusive) {
+            segments.push_back({1, activeStart, endExclusive});
+        }
+        activePlugin = nullptr;
+        activeStart = -1;
+    };
+
+    for (int i = 0; i < len; i++) {
+        const jchar c = chars[i];
+        const bool isAtStartForCurrent = atStartOfLine;
+        atStartOfLine = (c == '\n');
+
+        if (activePlugin != nullptr) {
+            (void)activePlugin->processChar(static_cast<char16_t>(c), isAtStartForCurrent);
+            if (activePlugin->state() != PluginState::PROCESSING) {
+                closeActive(i + 1);
+                defaultStart = i + 1;
+            }
+            continue;
+        }
+
+        if (evalStart == -1) {
+            evalStart = i;
+        }
+
+        (void)xmlPlugin.processChar(static_cast<char16_t>(c), isAtStartForCurrent);
+
+        if (xmlPlugin.state() == PluginState::PROCESSING) {
+            flushDefaultIfNeeded(evalStart);
+            openActive(evalStart);
+            evalStart = -1;
+        } else if (xmlPlugin.state() != PluginState::TRYING) {
+            evalStart = -1;
+        }
+    }
+
+    if (activePlugin != nullptr) {
+        closeActive(len);
+        defaultStart = len;
+    }
+
+    flushDefaultIfNeeded(len);
+    return segments;
+}
+
+} // namespace streamnative

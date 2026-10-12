@@ -1,1 +1,25 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGphdmEudXRpbC5VVUlECgovKioKICog6Ieq5a6a5LmJ6KGo5oOF5pWw5o2u5qih5Z6LCiAqIAogKiBAcHJvcGVydHkgaWQg5ZSv5LiA5qCH6K+G56ym77yIVVVJRO+8iQogKiBAcHJvcGVydHkgZW1vdGlvbkNhdGVnb3J5IOaDhee7quexu+WIq++8iOWmgiAiaGFwcHkiLCAic2FkIiDmiJbnlKjmiLfoh6rlrprkuYnvvIkKICogQHByb3BlcnR5IGZpbGVOYW1lIOaWh+S7tuWQje+8iOWmgiAidXVpZC5qcGci77yJ77yM5LiN5YyF5ZCr6Lev5b6ECiAqIEBwcm9wZXJ0eSBpc0J1aWx0SW5DYXRlZ29yeSDmmK/lkKbkuLrlhoXnva7nsbvliKsKICogQHByb3BlcnR5IGNyZWF0ZWRBdCDliJvlu7rml7bpl7TmiLMKICogCiAqIOazqOaEj++8muWPquWtmOWCqGZpbGVOYW1l77yM5a6M5pW06Lev5b6E5Zyo5L2/55So5pe25Lya5qC55o2u5b2T5YmN6KeS6Imy55uu5qCH5Yqo5oCB5p6E5bu644CCCiAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgQ3VzdG9tRW1vamkoCiAgICB2YWwgaWQ6IFN0cmluZyA9IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCksCiAgICB2YWwgZW1vdGlvbkNhdGVnb3J5OiBTdHJpbmcsCiAgICB2YWwgZmlsZU5hbWU6IFN0cmluZywKICAgIHZhbCBpc0J1aWx0SW5DYXRlZ29yeTogQm9vbGVhbiwKICAgIHZhbCBjcmVhdGVkQXQ6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQopCgo=
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+import java.util.UUID
+
+/**
+ * 自定义表情数据模型
+ * 
+ * @property id 唯一标识符（UUID）
+ * @property emotionCategory 情绪类别（如 "happy", "sad" 或用户自定义）
+ * @property fileName 文件名（如 "uuid.jpg"），不包含路径
+ * @property isBuiltInCategory 是否为内置类别
+ * @property createdAt 创建时间戳
+ * 
+ * 注意：只存储fileName，完整路径在使用时会根据当前角色目标动态构建。
+ */
+@Serializable
+data class CustomEmoji(
+    val id: String = UUID.randomUUID().toString(),
+    val emotionCategory: String,
+    val fileName: String,
+    val isBuiltInCategory: Boolean,
+    val createdAt: Long = System.currentTimeMillis()
+)
+

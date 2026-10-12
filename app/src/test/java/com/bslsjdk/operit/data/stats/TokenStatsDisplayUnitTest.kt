@@ -1,1 +1,37 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgVG9rZW5TdGF0c0Rpc3BsYXlVbml0VGVzdCB7CgogICAgQFRlc3QKICAgIGZ1biBgbWlsbGlvbiBkaXNwbGF5IGtlZXBzIGNvbXBhY3QgdmFsdWVzIGJlbG93IG9uZSBtaWxsaW9uYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIjguOEsiLCBmb3JtYXRUb2tlbkNvdW50KDhfODAwTCwgVG9rZW5TdGF0c0Rpc3BsYXlVbml0Lk1JTExJT05TKSkKICAgICAgICBhc3NlcnRFcXVhbHMoIjk5OS45SyIsIGZvcm1hdFRva2VuQ291bnQoOTk5XzkwMEwsIFRva2VuU3RhdHNEaXNwbGF5VW5pdC5NSUxMSU9OUykpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgbWlsbGlvbiBkaXNwbGF5IGZvcm1hdHMgbGFyZ2UgdmFsdWVzIGluIG1pbGxpb25zYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIjEuME0iLCBmb3JtYXRUb2tlbkNvdW50KDFfMDAwXzAwMEwsIFRva2VuU3RhdHNEaXNwbGF5VW5pdC5NSUxMSU9OUykpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCI5MTcuNE0iLCBmb3JtYXRUb2tlbkNvdW50KDkxN180MDBfMDAwTCwgVG9rZW5TdGF0c0Rpc3BsYXlVbml0Lk1JTExJT05TKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBiaWxsaW9uIGRpc3BsYXkgZm9ybWF0cyBsYXJnZSB2YWx1ZXMgaW4gYmlsbGlvbnNgKCkgewogICAgICAgIGFzc2VydEVxdWFscygiMC45MTdCIiwgZm9ybWF0VG9rZW5Db3VudCg5MTdfNDAwXzAwMEwsIFRva2VuU3RhdHNEaXNwbGF5VW5pdC5CSUxMSU9OUykpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIxLjAwMEIiLCBmb3JtYXRUb2tlbkNvdW50KDFfMDAwXzAwMF8wMDBMLCBUb2tlblN0YXRzRGlzcGxheVVuaXQuQklMTElPTlMpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGRpc3BsYXkgdW5pdCB0b2dnbGVzIGJldHdlZW4gbWlsbGlvbnMgYW5kIGJpbGxpb25zYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIFRva2VuU3RhdHNEaXNwbGF5VW5pdC5CSUxMSU9OUywKICAgICAgICAgICAgVG9rZW5TdGF0c0Rpc3BsYXlVbml0Lk1JTExJT05TLnRvZ2dsZWQoKSwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBUb2tlblN0YXRzRGlzcGxheVVuaXQuTUlMTElPTlMsCiAgICAgICAgICAgIFRva2VuU3RhdHNEaXNwbGF5VW5pdC5CSUxMSU9OUy50b2dnbGVkKCksCiAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.stats
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class TokenStatsDisplayUnitTest {
+
+    @Test
+    fun `million display keeps compact values below one million`() {
+        assertEquals("8.8K", formatTokenCount(8_800L, TokenStatsDisplayUnit.MILLIONS))
+        assertEquals("999.9K", formatTokenCount(999_900L, TokenStatsDisplayUnit.MILLIONS))
+    }
+
+    @Test
+    fun `million display formats large values in millions`() {
+        assertEquals("1.0M", formatTokenCount(1_000_000L, TokenStatsDisplayUnit.MILLIONS))
+        assertEquals("917.4M", formatTokenCount(917_400_000L, TokenStatsDisplayUnit.MILLIONS))
+    }
+
+    @Test
+    fun `billion display formats large values in billions`() {
+        assertEquals("0.917B", formatTokenCount(917_400_000L, TokenStatsDisplayUnit.BILLIONS))
+        assertEquals("1.000B", formatTokenCount(1_000_000_000L, TokenStatsDisplayUnit.BILLIONS))
+    }
+
+    @Test
+    fun `display unit toggles between millions and billions`() {
+        assertEquals(
+            TokenStatsDisplayUnit.BILLIONS,
+            TokenStatsDisplayUnit.MILLIONS.toggled(),
+        )
+        assertEquals(
+            TokenStatsDisplayUnit.MILLIONS,
+            TokenStatsDisplayUnit.BILLIONS.toggled(),
+        )
+    }
+}

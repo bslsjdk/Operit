@@ -1,1 +1,82 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5kYW8KCmltcG9ydCBhbmRyb2lkeC5yb29tLkRhbwppbXBvcnQgYW5kcm9pZHgucm9vbS5JbnNlcnQKaW1wb3J0IGFuZHJvaWR4LnJvb20uT25Db25mbGljdFN0cmF0ZWd5CmltcG9ydCBhbmRyb2lkeC5yb29tLlF1ZXJ5CmltcG9ydCBhbmRyb2lkeC5yb29tLlVwZGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTWVzc2FnZVZhcmlhbnRFbnRpdHkKCkBEYW8KaW50ZXJmYWNlIE1lc3NhZ2VWYXJpYW50RGFvIHsKICAgIEBJbnNlcnQob25Db25mbGljdCA9IE9uQ29uZmxpY3RTdHJhdGVneS5SRVBMQUNFKQogICAgc3VzcGVuZCBmdW4gaW5zZXJ0VmFyaWFudCh2YXJpYW50OiBNZXNzYWdlVmFyaWFudEVudGl0eSk6IExvbmcKCiAgICBASW5zZXJ0KG9uQ29uZmxpY3QgPSBPbkNvbmZsaWN0U3RyYXRlZ3kuUkVQTEFDRSkKICAgIHN1c3BlbmQgZnVuIGluc2VydFZhcmlhbnRzKHZhcmlhbnRzOiBMaXN0PE1lc3NhZ2VWYXJpYW50RW50aXR5PikKCiAgICBAUXVlcnkoCiAgICAgICAgIiIiCiAgICAgICAgSU5TRVJUIElOVE8gbWVzc2FnZV92YXJpYW50cyAoCiAgICAgICAgICAgIGNoYXRJZCwKICAgICAgICAgICAgbWVzc2FnZVRpbWVzdGFtcCwKICAgICAgICAgICAgdmFyaWFudEluZGV4LAogICAgICAgICAgICBjb250ZW50LAogICAgICAgICAgICByb2xlTmFtZSwKICAgICAgICAgICAgcHJvdmlkZXIsCiAgICAgICAgICAgIG1vZGVsTmFtZSwKICAgICAgICAgICAgaW5wdXRUb2tlbnMsCiAgICAgICAgICAgIG91dHB1dFRva2VucywKICAgICAgICAgICAgY2FjaGVkSW5wdXRUb2tlbnMsCiAgICAgICAgICAgIHNlbnRBdCwKICAgICAgICAgICAgb3V0cHV0RHVyYXRpb25NcywKICAgICAgICAgICAgd2FpdER1cmF0aW9uTXMsCiAgICAgICAgICAgIGNvbXBsZXRlZEF0CiAgICAgICAgKQogICAgICAgIFNFTEVDVAogICAgICAgICAgICA6dGFyZ2V0Q2hhdElkLAogICAgICAgICAgICBtZXNzYWdlVGltZXN0YW1wLAogICAgICAgICAgICB2YXJpYW50SW5kZXgsCiAgICAgICAgICAgIGNvbnRlbnQsCiAgICAgICAgICAgIHJvbGVOYW1lLAogICAgICAgICAgICBwcm92aWRlciwKICAgICAgICAgICAgbW9kZWxOYW1lLAogICAgICAgICAgICBpbnB1dFRva2VucywKICAgICAgICAgICAgb3V0cHV0VG9rZW5zLAogICAgICAgICAgICBjYWNoZWRJbnB1dFRva2VucywKICAgICAgICAgICAgc2VudEF0LAogICAgICAgICAgICBvdXRwdXREdXJhdGlvbk1zLAogICAgICAgICAgICB3YWl0RHVyYXRpb25NcywKICAgICAgICAgICAgY29tcGxldGVkQXQKICAgICAgICBGUk9NIG1lc3NhZ2VfdmFyaWFudHMKICAgICAgICBXSEVSRSBjaGF0SWQgPSA6c291cmNlQ2hhdElkCiAgICAgICAgICAgIEFORCAoOnVwVG9UaW1lc3RhbXBJbmNsdXNpdmUgSVMgTlVMTCBPUiBtZXNzYWdlVGltZXN0YW1wIDw9IDp1cFRvVGltZXN0YW1wSW5jbHVzaXZlKQogICAgICAgICIiIgogICAgKQogICAgc3VzcGVuZCBmdW4gY29weVZhcmlhbnRzVG9DaGF0KAogICAgICAgIHNvdXJjZUNoYXRJZDogU3RyaW5nLAogICAgICAgIHRhcmdldENoYXRJZDogU3RyaW5nLAogICAgICAgIHVwVG9UaW1lc3RhbXBJbmNsdXNpdmU6IExvbmc/LAogICAgKQoKICAgIEBVcGRhdGUKICAgIHN1c3BlbmQgZnVuIHVwZGF0ZVZhcmlhbnQodmFyaWFudDogTWVzc2FnZVZhcmlhbnRFbnRpdHkpCgogICAgQFF1ZXJ5KAogICAgICAgICJERUxFVEUgRlJPTSBtZXNzYWdlX3ZhcmlhbnRzIFdIRVJFIGNoYXRJZCA9IDpjaGF0SWQgQU5EIG1lc3NhZ2VUaW1lc3RhbXAgPSA6bWVzc2FnZVRpbWVzdGFtcCBBTkQgdmFyaWFudEluZGV4ID0gOnZhcmlhbnRJbmRleCIKICAgICkKICAgIHN1c3BlbmQgZnVuIGRlbGV0ZVZhcmlhbnQoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgbWVzc2FnZVRpbWVzdGFtcDogTG9uZywKICAgICAgICB2YXJpYW50SW5kZXg6IEludCwKICAgICkKCiAgICBAUXVlcnkoIkRFTEVURSBGUk9NIG1lc3NhZ2VfdmFyaWFudHMgV0hFUkUgY2hhdElkID0gOmNoYXRJZCBBTkQgbWVzc2FnZVRpbWVzdGFtcCA9IDptZXNzYWdlVGltZXN0YW1wIikKICAgIHN1c3BlbmQgZnVuIGRlbGV0ZVZhcmlhbnRzRm9yTWVzc2FnZShjaGF0SWQ6IFN0cmluZywgbWVzc2FnZVRpbWVzdGFtcDogTG9uZykKCiAgICBAUXVlcnkoIkRFTEVURSBGUk9NIG1lc3NhZ2VfdmFyaWFudHMgV0hFUkUgY2hhdElkID0gOmNoYXRJZCBBTkQgbWVzc2FnZVRpbWVzdGFtcCA+PSA6bWVzc2FnZVRpbWVzdGFtcCIpCiAgICBzdXNwZW5kIGZ1biBkZWxldGVWYXJpYW50c0Zyb20oY2hhdElkOiBTdHJpbmcsIG1lc3NhZ2VUaW1lc3RhbXA6IExvbmcpCgogICAgQFF1ZXJ5KCJERUxFVEUgRlJPTSBtZXNzYWdlX3ZhcmlhbnRzIFdIRVJFIGNoYXRJZCA9IDpjaGF0SWQiKQogICAgc3VzcGVuZCBmdW4gZGVsZXRlQWxsVmFyaWFudHNGb3JDaGF0KGNoYXRJZDogU3RyaW5nKQp9Cg==
+package com.bslsjdk.operit.data.dao
+
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import androidx.room.Update
+import com.bslsjdk.operit.data.model.MessageVariantEntity
+
+@Dao
+interface MessageVariantDao {
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertVariant(variant: MessageVariantEntity): Long
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun insertVariants(variants: List<MessageVariantEntity>)
+
+    @Query(
+        """
+        INSERT INTO message_variants (
+            chatId,
+            messageTimestamp,
+            variantIndex,
+            content,
+            roleName,
+            provider,
+            modelName,
+            inputTokens,
+            outputTokens,
+            cachedInputTokens,
+            sentAt,
+            outputDurationMs,
+            waitDurationMs,
+            completedAt
+        )
+        SELECT
+            :targetChatId,
+            messageTimestamp,
+            variantIndex,
+            content,
+            roleName,
+            provider,
+            modelName,
+            inputTokens,
+            outputTokens,
+            cachedInputTokens,
+            sentAt,
+            outputDurationMs,
+            waitDurationMs,
+            completedAt
+        FROM message_variants
+        WHERE chatId = :sourceChatId
+            AND (:upToTimestampInclusive IS NULL OR messageTimestamp <= :upToTimestampInclusive)
+        """
+    )
+    suspend fun copyVariantsToChat(
+        sourceChatId: String,
+        targetChatId: String,
+        upToTimestampInclusive: Long?,
+    )
+
+    @Update
+    suspend fun updateVariant(variant: MessageVariantEntity)
+
+    @Query(
+        "DELETE FROM message_variants WHERE chatId = :chatId AND messageTimestamp = :messageTimestamp AND variantIndex = :variantIndex"
+    )
+    suspend fun deleteVariant(
+        chatId: String,
+        messageTimestamp: Long,
+        variantIndex: Int,
+    )
+
+    @Query("DELETE FROM message_variants WHERE chatId = :chatId AND messageTimestamp = :messageTimestamp")
+    suspend fun deleteVariantsForMessage(chatId: String, messageTimestamp: Long)
+
+    @Query("DELETE FROM message_variants WHERE chatId = :chatId AND messageTimestamp >= :messageTimestamp")
+    suspend fun deleteVariantsFrom(chatId: String, messageTimestamp: Long)
+
+    @Query("DELETE FROM message_variants WHERE chatId = :chatId")
+    suspend fun deleteAllVariantsForChat(chatId: String)
+}

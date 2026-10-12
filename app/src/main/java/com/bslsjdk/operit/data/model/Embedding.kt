@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGphdmEudXRpbC5BcnJheXMKCi8qKgogKiBBIHdyYXBwZXIgY2xhc3MgZm9yIGEgRmxvYXRBcnJheSB0byBiZSB1c2VkIGFzIGFuIE9iamVjdEJveCBlbnRpdHkgcHJvcGVydHkuCiAqIFRoaXMgaGVscHMgdG8gYXZvaWQgaXNzdWVzIHdpdGggT2JqZWN0Qm94J3MgaGFuZGxpbmcgb2YgcHJpbWl0aXZlIGFycmF5cy4KICovCmRhdGEgY2xhc3MgRW1iZWRkaW5nKHZhbCB2ZWN0b3I6IEZsb2F0QXJyYXkpIHsKICAgIC8vIEN1c3RvbSBlcXVhbHMvaGFzaENvZGUgdG8gcHJvcGVybHkgY29tcGFyZSBmbG9hdCBhcnJheXMKICAgIG92ZXJyaWRlIGZ1biBlcXVhbHMob3RoZXI6IEFueT8pOiBCb29sZWFuIHsKICAgICAgICBpZiAodGhpcyA9PT0gb3RoZXIpIHJldHVybiB0cnVlCiAgICAgICAgaWYgKGphdmFDbGFzcyAhPSBvdGhlcj8uamF2YUNsYXNzKSByZXR1cm4gZmFsc2UKICAgICAgICBvdGhlciBhcyBFbWJlZGRpbmcKICAgICAgICByZXR1cm4gdmVjdG9yLmNvbnRlbnRFcXVhbHMob3RoZXIudmVjdG9yKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBoYXNoQ29kZSgpOiBJbnQgewogICAgICAgIHJldHVybiB2ZWN0b3IuY29udGVudEhhc2hDb2RlKCkKICAgIH0KfSA=
+package com.bslsjdk.operit.data.model
+
+import java.util.Arrays
+
+/**
+ * A wrapper class for a FloatArray to be used as an ObjectBox entity property.
+ * This helps to avoid issues with ObjectBox's handling of primitive arrays.
+ */
+data class Embedding(val vector: FloatArray) {
+    // Custom equals/hashCode to properly compare float arrays
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (javaClass != other?.javaClass) return false
+        other as Embedding
+        return vector.contentEquals(other.vector)
+    }
+
+    override fun hashCode(): Int {
+        return vector.contentHashCode()
+    }
+} 

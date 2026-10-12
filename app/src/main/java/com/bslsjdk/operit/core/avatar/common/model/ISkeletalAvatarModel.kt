@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsCgovKioKICogQW4gYWJzdHJhY3QgY29udHJhY3QgZm9yIGF2YXRhciBtb2RlbHMgdGhhdCB1c2Ugc2tlbGV0YWwgYW5pbWF0aW9uIChlLmcuLCBEcmFnb25Cb25lcywgU3BpbmUpLgogKgogKiBUaGlzIGludGVyZmFjZSBkZWZpbmVzIHRoZSBhc3NldCBwYXRocyByZXF1aXJlZCB0byBsb2FkIGFuZCByZW5kZXIgYSBza2VsZXRhbCBhdmF0YXIuCiAqIFRoZSBjb25jcmV0ZSBpbXBsZW1lbnRhdGlvbiB3aWxsIHByb3ZpZGUgdGhlc2UgcGF0aHMuCiAqLwppbnRlcmZhY2UgSVNrZWxldGFsQXZhdGFyTW9kZWwgOiBBdmF0YXJNb2RlbCB7CiAgICAvKiogVGhlIGFzc2V0IHBhdGggdG8gdGhlIHNrZWxldG9uIGRhdGEgZmlsZSAoZS5nLiwgImF2YXRhcnMvbXlfZGJfY2hhci9jaGFyYWN0ZXJfc2tlLmpzb24iKS4gKi8KICAgIHZhbCBza2VsZXRvblBhdGg6IFN0cmluZwoKICAgIC8qKiBUaGUgYXNzZXQgcGF0aCB0byB0aGUgdGV4dHVyZSBhdGxhcyBkYXRhIGZpbGUgKGUuZy4sICJhdmF0YXJzL215X2RiX2NoYXIvY2hhcmFjdGVyX3RleC5qc29uIikuICovCiAgICB2YWwgdGV4dHVyZUF0bGFzUGF0aDogU3RyaW5nCgogICAgLyoqIFRoZSBhc3NldCBwYXRoIHRvIHRoZSB0ZXh0dXJlIGF0bGFzIGltYWdlIGZpbGUgKGUuZy4sICJhdmF0YXJzL215X2RiX2NoYXIvY2hhcmFjdGVyX3RleC5wbmciKS4gKi8KICAgIHZhbCB0ZXh0dXJlUGF0aDogU3RyaW5nCn0g
+package com.bslsjdk.operit.core.avatar.common.model
+
+/**
+ * An abstract contract for avatar models that use skeletal animation (e.g., DragonBones, Spine).
+ *
+ * This interface defines the asset paths required to load and render a skeletal avatar.
+ * The concrete implementation will provide these paths.
+ */
+interface ISkeletalAvatarModel : AvatarModel {
+    /** The asset path to the skeleton data file (e.g., "avatars/my_db_char/character_ske.json"). */
+    val skeletonPath: String
+
+    /** The asset path to the texture atlas data file (e.g., "avatars/my_db_char/character_tex.json"). */
+    val textureAtlasPath: String
+
+    /** The asset path to the texture atlas image file (e.g., "avatars/my_db_char/character_tex.png"). */
+    val texturePath: String
+} 

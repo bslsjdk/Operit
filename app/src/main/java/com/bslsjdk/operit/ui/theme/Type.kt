@@ -1,1 +1,185 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkudGhlbWUKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlR5cG9ncmFwaHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5UZXh0U3R5bGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRGYW1pbHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5zcAppbXBvcnQgYW5kcm9pZHguY29yZS5uZXQudG9GaWxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5Vc2VyUHJlZmVyZW5jZXNNYW5hZ2VyCmltcG9ydCBqYXZhLmlvLkZpbGUKCi8vIFNldCBvZiBNYXRlcmlhbCB0eXBvZ3JhcGh5IHN0eWxlcyB0byBzdGFydCB3aXRoCnZhbCBUeXBvZ3JhcGh5ID0gVHlwb2dyYXBoeSgKICAgIGJvZHlMYXJnZSA9IFRleHRTdHlsZSgKICAgICAgICBmb250RmFtaWx5ID0gRm9udEZhbWlseS5EZWZhdWx0LAogICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0Lk5vcm1hbCwKICAgICAgICBmb250U2l6ZSA9IDE2LnNwLAogICAgICAgIGxpbmVIZWlnaHQgPSAyNC5zcCwKICAgICAgICBsZXR0ZXJTcGFjaW5nID0gMC41LnNwCiAgICApLAogICAgdGl0bGVMYXJnZSA9IFRleHRTdHlsZSgKICAgICAgICBmb250RmFtaWx5ID0gRm9udEZhbWlseS5EZWZhdWx0LAogICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0Lk5vcm1hbCwKICAgICAgICBmb250U2l6ZSA9IDIyLnNwLAogICAgICAgIGxpbmVIZWlnaHQgPSAyOC5zcCwKICAgICAgICBsZXR0ZXJTcGFjaW5nID0gMC5zcAogICAgKSwKICAgIGxhYmVsU21hbGwgPSBUZXh0U3R5bGUoCiAgICAgICAgZm9udEZhbWlseSA9IEZvbnRGYW1pbHkuRGVmYXVsdCwKICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5NZWRpdW0sCiAgICAgICAgZm9udFNpemUgPSAxMS5zcCwKICAgICAgICBsaW5lSGVpZ2h0ID0gMTYuc3AsCiAgICAgICAgbGV0dGVyU3BhY2luZyA9IDAuNS5zcAogICAgKQopCgovKioKICog5qC55o2u57O757uf5a2X5L2T5ZCN56ew6I635Y+WIEZvbnRGYW1pbHkKICovCmZ1biBnZXRTeXN0ZW1Gb250RmFtaWx5KHN5c3RlbUZvbnROYW1lOiBTdHJpbmcpOiBGb250RmFtaWx5IHsKICAgIHJldHVybiB3aGVuIChzeXN0ZW1Gb250TmFtZSkgewogICAgICAgIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuU1lTVEVNX0ZPTlRfU0VSSUYgLT4gRm9udEZhbWlseS5TZXJpZgogICAgICAgIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuU1lTVEVNX0ZPTlRfU0FOU19TRVJJRiAtPiBGb250RmFtaWx5LlNhbnNTZXJpZgogICAgICAgIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuU1lTVEVNX0ZPTlRfTU9OT1NQQUNFIC0+IEZvbnRGYW1pbHkuTW9ub3NwYWNlCiAgICAgICAgVXNlclByZWZlcmVuY2VzTWFuYWdlci5TWVNURU1fRk9OVF9DVVJTSVZFIC0+IEZvbnRGYW1pbHkuQ3Vyc2l2ZQogICAgICAgIGVsc2UgLT4gRm9udEZhbWlseS5EZWZhdWx0CiAgICB9Cn0KCi8qKgogKiDku47mlofku7bot6/lvoTliqDovb3oh6rlrprkuYnlrZfkvZMKICovCmZ1biBsb2FkQ3VzdG9tRm9udEZhbWlseShjb250ZXh0OiBDb250ZXh0LCBmb250UGF0aDogU3RyaW5nKTogRm9udEZhbWlseT8gewogICAgcmV0dXJuIHRyeSB7CiAgICAgICAgLy8gLSDkv67lpI3kuoYgZmlsZTovLyBVUkkg6Lev5b6E5peg5rOV6KKrIEZpbGUg5q2j56Gu6Kej5p6Q55qE6Zeu6aKYCiAgICAgICAgdmFsIGZpbGUgPSBpZiAoZm9udFBhdGguc3RhcnRzV2l0aCgiZmlsZTovLyIpKSB7CiAgICAgICAgICAgIFVyaS5wYXJzZShmb250UGF0aCkudG9GaWxlKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBGaWxlKGZvbnRQYXRoKQogICAgICAgIH0KICAgICAgICAKICAgICAgICBpZiAoIWZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoIlR5cGVLdCIsICJGb250IGZpbGUgZG9lcyBub3QgZXhpc3Q6ICRmb250UGF0aCIpCiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgICAgIAogICAgICAgIEZvbnRGYW1pbHkoCiAgICAgICAgICAgIEZvbnQoZmlsZSkKICAgICAgICApCiAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICBBcHBMb2dnZXIuZSgiVHlwZUt0IiwgIkVycm9yIGxvYWRpbmcgY3VzdG9tIGZvbnQgZnJvbSAkZm9udFBhdGgiLCBlKQogICAgICAgIG51bGwKICAgIH0KfQoKLyoqCiAqIOagueaNrumFjee9ruino+aekOWPr+mAiSBGb250RmFtaWx5CiAqLwpmdW4gcmVzb2x2ZUNvbmZpZ3VyZWRGb250RmFtaWx5KAogICAgY29udGV4dDogQ29udGV4dCwKICAgIHVzZUN1c3RvbUZvbnQ6IEJvb2xlYW4sCiAgICBmb250VHlwZTogU3RyaW5nLAogICAgc3lzdGVtRm9udE5hbWU6IFN0cmluZywKICAgIGN1c3RvbUZvbnRQYXRoOiBTdHJpbmc/LAopOiBGb250RmFtaWx5PyB7CiAgICBpZiAoIXVzZUN1c3RvbUZvbnQpIHsKICAgICAgICByZXR1cm4gbnVsbAogICAgfQoKICAgIHJldHVybiB3aGVuIChmb250VHlwZSkgewogICAgICAgIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuRk9OVF9UWVBFX1NZU1RFTSAtPiBnZXRTeXN0ZW1Gb250RmFtaWx5KHN5c3RlbUZvbnROYW1lKQogICAgICAgIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuRk9OVF9UWVBFX0ZJTEUgLT4KICAgICAgICAgICAgY3VzdG9tRm9udFBhdGgKICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgID8ubGV0IHsgbG9hZEN1c3RvbUZvbnRGYW1pbHkoY29udGV4dCwgaXQpIH0KICAgICAgICBlbHNlIC0+IG51bGwKICAgIH0KfQoKLyoqCiAqIOWwhuaMh+WumiBGb250RmFtaWx5IOW6lOeUqOS6juaVtOWllyBUeXBvZ3JhcGh5CiAqLwpmdW4gYXBwbHlGb250RmFtaWx5VG9UeXBvZ3JhcGh5KAogICAgYmFzZVR5cG9ncmFwaHk6IFR5cG9ncmFwaHksCiAgICBmb250RmFtaWx5OiBGb250RmFtaWx5PywKKTogVHlwb2dyYXBoeSB7CiAgICBpZiAoZm9udEZhbWlseSA9PSBudWxsKSB7CiAgICAgICAgcmV0dXJuIGJhc2VUeXBvZ3JhcGh5CiAgICB9CgogICAgcmV0dXJuIFR5cG9ncmFwaHkoCiAgICAgICAgZGlzcGxheUxhcmdlID0gYmFzZVR5cG9ncmFwaHkuZGlzcGxheUxhcmdlLmNvcHkoZm9udEZhbWlseSA9IGZvbnRGYW1pbHkpLAogICAgICAgIGRpc3BsYXlNZWRpdW0gPSBiYXNlVHlwb2dyYXBoeS5kaXNwbGF5TWVkaXVtLmNvcHkoZm9udEZhbWlseSA9IGZvbnRGYW1pbHkpLAogICAgICAgIGRpc3BsYXlTbWFsbCA9IGJhc2VUeXBvZ3JhcGh5LmRpc3BsYXlTbWFsbC5jb3B5KGZvbnRGYW1pbHkgPSBmb250RmFtaWx5KSwKICAgICAgICBoZWFkbGluZUxhcmdlID0gYmFzZVR5cG9ncmFwaHkuaGVhZGxpbmVMYXJnZS5jb3B5KGZvbnRGYW1pbHkgPSBmb250RmFtaWx5KSwKICAgICAgICBoZWFkbGluZU1lZGl1bSA9IGJhc2VUeXBvZ3JhcGh5LmhlYWRsaW5lTWVkaXVtLmNvcHkoZm9udEZhbWlseSA9IGZvbnRGYW1pbHkpLAogICAgICAgIGhlYWRsaW5lU21hbGwgPSBiYXNlVHlwb2dyYXBoeS5oZWFkbGluZVNtYWxsLmNvcHkoZm9udEZhbWlseSA9IGZvbnRGYW1pbHkpLAogICAgICAgIHRpdGxlTGFyZ2UgPSBiYXNlVHlwb2dyYXBoeS50aXRsZUxhcmdlLmNvcHkoZm9udEZhbWlseSA9IGZvbnRGYW1pbHkpLAogICAgICAgIHRpdGxlTWVkaXVtID0gYmFzZVR5cG9ncmFwaHkudGl0bGVNZWRpdW0uY29weShmb250RmFtaWx5ID0gZm9udEZhbWlseSksCiAgICAgICAgdGl0bGVTbWFsbCA9IGJhc2VUeXBvZ3JhcGh5LnRpdGxlU21hbGwuY29weShmb250RmFtaWx5ID0gZm9udEZhbWlseSksCiAgICAgICAgYm9keUxhcmdlID0gYmFzZVR5cG9ncmFwaHkuYm9keUxhcmdlLmNvcHkoZm9udEZhbWlseSA9IGZvbnRGYW1pbHkpLAogICAgICAgIGJvZHlNZWRpdW0gPSBiYXNlVHlwb2dyYXBoeS5ib2R5TWVkaXVtLmNvcHkoZm9udEZhbWlseSA9IGZvbnRGYW1pbHkpLAogICAgICAgIGJvZHlTbWFsbCA9IGJhc2VUeXBvZ3JhcGh5LmJvZHlTbWFsbC5jb3B5KGZvbnRGYW1pbHkgPSBmb250RmFtaWx5KSwKICAgICAgICBsYWJlbExhcmdlID0gYmFzZVR5cG9ncmFwaHkubGFiZWxMYXJnZS5jb3B5KGZvbnRGYW1pbHkgPSBmb250RmFtaWx5KSwKICAgICAgICBsYWJlbE1lZGl1bSA9IGJhc2VUeXBvZ3JhcGh5LmxhYmVsTWVkaXVtLmNvcHkoZm9udEZhbWlseSA9IGZvbnRGYW1pbHkpLAogICAgICAgIGxhYmVsU21hbGwgPSBiYXNlVHlwb2dyYXBoeS5sYWJlbFNtYWxsLmNvcHkoZm9udEZhbWlseSA9IGZvbnRGYW1pbHkpLAogICAgKQp9CgovKioKICog5qC55o2u55So5oi36K6+572u5Yib5bu66Ieq5a6a5LmJIFR5cG9ncmFwaHkKICovCmZ1biBjcmVhdGVDdXN0b21UeXBvZ3JhcGh5KAogICAgY29udGV4dDogQ29udGV4dCwKICAgIHVzZUN1c3RvbUZvbnQ6IEJvb2xlYW4sCiAgICBmb250VHlwZTogU3RyaW5nLAogICAgc3lzdGVtRm9udE5hbWU6IFN0cmluZywKICAgIGN1c3RvbUZvbnRQYXRoOiBTdHJpbmc/LAogICAgZm9udFNjYWxlOiBGbG9hdAopOiBUeXBvZ3JhcGh5IHsKICAgIC8vIOWmguaenOS4jeS9v+eUqOiHquWumuS5ieWtl+S9k+S4lOWtl+S9k+Wkp+Wwj+S4uum7mOiupOWAvO+8jOWImeebtOaOpei/lOWbnum7mOiupFR5cG9ncmFwaHkKICAgIGlmICghdXNlQ3VzdG9tRm9udCAmJiBmb250U2NhbGUgPT0gMS4wZikgewogICAgICAgIHJldHVybiBUeXBvZ3JhcGh5CiAgICB9CgogICAgdmFsIGZvbnRGYW1pbHkgPQogICAgICAgIHJlc29sdmVDb25maWd1cmVkRm9udEZhbWlseSgKICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgIHVzZUN1c3RvbUZvbnQgPSB1c2VDdXN0b21Gb250LAogICAgICAgICAgICBmb250VHlwZSA9IGZvbnRUeXBlLAogICAgICAgICAgICBzeXN0ZW1Gb250TmFtZSA9IHN5c3RlbUZvbnROYW1lLAogICAgICAgICAgICBjdXN0b21Gb250UGF0aCA9IGN1c3RvbUZvbnRQYXRoLAogICAgICAgICkgPzogRm9udEZhbWlseS5EZWZhdWx0CiAgICB2YWwgYmFzZVR5cG9ncmFwaHkgPSBhcHBseUZvbnRGYW1pbHlUb1R5cG9ncmFwaHkoVHlwb2dyYXBoeSwgZm9udEZhbWlseSkKCiAgICAvLyBIZWxwZXIgdG8gYXBwbHkgc2NhbGUuIEl0IHdpbGwgYmUgYXBwbGllZCB0byBldmVyeSBzdHlsZS4KICAgIGZ1biBUZXh0U3R5bGUud2l0aFNjYWxlKCk6IFRleHRTdHlsZSA9IGlmIChmb250U2NhbGUgIT0gMS4wZikgewogICAgICAgIGNvcHkoZm9udFNpemUgPSBmb250U2l6ZSAqIGZvbnRTY2FsZSwgbGluZUhlaWdodCA9IGxpbmVIZWlnaHQgKiBmb250U2NhbGUpCiAgICB9IGVsc2UgewogICAgICAgIHRoaXMKICAgIH0KCiAgICAvLyDliJvlu7rluKbmnInoh6rlrprkuYnlrZfkvZPnmoQgVHlwb2dyYXBoeQogICAgcmV0dXJuIFR5cG9ncmFwaHkoCiAgICAgICAgZGlzcGxheUxhcmdlID0gYmFzZVR5cG9ncmFwaHkuZGlzcGxheUxhcmdlLndpdGhTY2FsZSgpLAogICAgICAgIGRpc3BsYXlNZWRpdW0gPSBiYXNlVHlwb2dyYXBoeS5kaXNwbGF5TWVkaXVtLndpdGhTY2FsZSgpLAogICAgICAgIGRpc3BsYXlTbWFsbCA9IGJhc2VUeXBvZ3JhcGh5LmRpc3BsYXlTbWFsbC53aXRoU2NhbGUoKSwKICAgICAgICBoZWFkbGluZUxhcmdlID0gYmFzZVR5cG9ncmFwaHkuaGVhZGxpbmVMYXJnZS53aXRoU2NhbGUoKSwKICAgICAgICBoZWFkbGluZU1lZGl1bSA9IGJhc2VUeXBvZ3JhcGh5LmhlYWRsaW5lTWVkaXVtLndpdGhTY2FsZSgpLAogICAgICAgIGhlYWRsaW5lU21hbGwgPSBiYXNlVHlwb2dyYXBoeS5oZWFkbGluZVNtYWxsLndpdGhTY2FsZSgpLAogICAgICAgIHRpdGxlTGFyZ2UgPSBiYXNlVHlwb2dyYXBoeS50aXRsZUxhcmdlLndpdGhTY2FsZSgpLAogICAgICAgIHRpdGxlTWVkaXVtID0gYmFzZVR5cG9ncmFwaHkudGl0bGVNZWRpdW0ud2l0aFNjYWxlKCksCiAgICAgICAgdGl0bGVTbWFsbCA9IGJhc2VUeXBvZ3JhcGh5LnRpdGxlU21hbGwud2l0aFNjYWxlKCksCiAgICAgICAgYm9keUxhcmdlID0gYmFzZVR5cG9ncmFwaHkuYm9keUxhcmdlLndpdGhTY2FsZSgpLAogICAgICAgIGJvZHlNZWRpdW0gPSBiYXNlVHlwb2dyYXBoeS5ib2R5TWVkaXVtLndpdGhTY2FsZSgpLAogICAgICAgIGJvZHlTbWFsbCA9IGJhc2VUeXBvZ3JhcGh5LmJvZHlTbWFsbC53aXRoU2NhbGUoKSwKICAgICAgICBsYWJlbExhcmdlID0gYmFzZVR5cG9ncmFwaHkubGFiZWxMYXJnZS53aXRoU2NhbGUoKSwKICAgICAgICBsYWJlbE1lZGl1bSA9IGJhc2VUeXBvZ3JhcGh5LmxhYmVsTWVkaXVtLndpdGhTY2FsZSgpLAogICAgICAgIGxhYmVsU21hbGwgPSBiYXNlVHlwb2dyYXBoeS5sYWJlbFNtYWxsLndpdGhTY2FsZSgpCiAgICApCn0K
+package com.bslsjdk.operit.ui.theme
+
+import android.content.Context
+import android.net.Uri
+import com.bslsjdk.operit.util.AppLogger
+import androidx.compose.material3.Typography
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+import androidx.core.net.toFile
+import com.bslsjdk.operit.data.preferences.UserPreferencesManager
+import java.io.File
+
+// Set of Material typography styles to start with
+val Typography = Typography(
+    bodyLarge = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.5.sp
+    ),
+    titleLarge = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 22.sp,
+        lineHeight = 28.sp,
+        letterSpacing = 0.sp
+    ),
+    labelSmall = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Medium,
+        fontSize = 11.sp,
+        lineHeight = 16.sp,
+        letterSpacing = 0.5.sp
+    )
+)
+
+/**
+ * 根据系统字体名称获取 FontFamily
+ */
+fun getSystemFontFamily(systemFontName: String): FontFamily {
+    return when (systemFontName) {
+        UserPreferencesManager.SYSTEM_FONT_SERIF -> FontFamily.Serif
+        UserPreferencesManager.SYSTEM_FONT_SANS_SERIF -> FontFamily.SansSerif
+        UserPreferencesManager.SYSTEM_FONT_MONOSPACE -> FontFamily.Monospace
+        UserPreferencesManager.SYSTEM_FONT_CURSIVE -> FontFamily.Cursive
+        else -> FontFamily.Default
+    }
+}
+
+/**
+ * 从文件路径加载自定义字体
+ */
+fun loadCustomFontFamily(context: Context, fontPath: String): FontFamily? {
+    return try {
+        // - 修复了 file:// URI 路径无法被 File 正确解析的问题
+        val file = if (fontPath.startsWith("file://")) {
+            Uri.parse(fontPath).toFile()
+        } else {
+            File(fontPath)
+        }
+        
+        if (!file.exists()) {
+            AppLogger.e("TypeKt", "Font file does not exist: $fontPath")
+            return null
+        }
+        
+        FontFamily(
+            Font(file)
+        )
+    } catch (e: Exception) {
+        AppLogger.e("TypeKt", "Error loading custom font from $fontPath", e)
+        null
+    }
+}
+
+/**
+ * 根据配置解析可选 FontFamily
+ */
+fun resolveConfiguredFontFamily(
+    context: Context,
+    useCustomFont: Boolean,
+    fontType: String,
+    systemFontName: String,
+    customFontPath: String?,
+): FontFamily? {
+    if (!useCustomFont) {
+        return null
+    }
+
+    return when (fontType) {
+        UserPreferencesManager.FONT_TYPE_SYSTEM -> getSystemFontFamily(systemFontName)
+        UserPreferencesManager.FONT_TYPE_FILE ->
+            customFontPath
+                ?.takeIf { it.isNotBlank() }
+                ?.let { loadCustomFontFamily(context, it) }
+        else -> null
+    }
+}
+
+/**
+ * 将指定 FontFamily 应用于整套 Typography
+ */
+fun applyFontFamilyToTypography(
+    baseTypography: Typography,
+    fontFamily: FontFamily?,
+): Typography {
+    if (fontFamily == null) {
+        return baseTypography
+    }
+
+    return Typography(
+        displayLarge = baseTypography.displayLarge.copy(fontFamily = fontFamily),
+        displayMedium = baseTypography.displayMedium.copy(fontFamily = fontFamily),
+        displaySmall = baseTypography.displaySmall.copy(fontFamily = fontFamily),
+        headlineLarge = baseTypography.headlineLarge.copy(fontFamily = fontFamily),
+        headlineMedium = baseTypography.headlineMedium.copy(fontFamily = fontFamily),
+        headlineSmall = baseTypography.headlineSmall.copy(fontFamily = fontFamily),
+        titleLarge = baseTypography.titleLarge.copy(fontFamily = fontFamily),
+        titleMedium = baseTypography.titleMedium.copy(fontFamily = fontFamily),
+        titleSmall = baseTypography.titleSmall.copy(fontFamily = fontFamily),
+        bodyLarge = baseTypography.bodyLarge.copy(fontFamily = fontFamily),
+        bodyMedium = baseTypography.bodyMedium.copy(fontFamily = fontFamily),
+        bodySmall = baseTypography.bodySmall.copy(fontFamily = fontFamily),
+        labelLarge = baseTypography.labelLarge.copy(fontFamily = fontFamily),
+        labelMedium = baseTypography.labelMedium.copy(fontFamily = fontFamily),
+        labelSmall = baseTypography.labelSmall.copy(fontFamily = fontFamily),
+    )
+}
+
+/**
+ * 根据用户设置创建自定义 Typography
+ */
+fun createCustomTypography(
+    context: Context,
+    useCustomFont: Boolean,
+    fontType: String,
+    systemFontName: String,
+    customFontPath: String?,
+    fontScale: Float
+): Typography {
+    // 如果不使用自定义字体且字体大小为默认值，则直接返回默认Typography
+    if (!useCustomFont && fontScale == 1.0f) {
+        return Typography
+    }
+
+    val fontFamily =
+        resolveConfiguredFontFamily(
+            context = context,
+            useCustomFont = useCustomFont,
+            fontType = fontType,
+            systemFontName = systemFontName,
+            customFontPath = customFontPath,
+        ) ?: FontFamily.Default
+    val baseTypography = applyFontFamilyToTypography(Typography, fontFamily)
+
+    // Helper to apply scale. It will be applied to every style.
+    fun TextStyle.withScale(): TextStyle = if (fontScale != 1.0f) {
+        copy(fontSize = fontSize * fontScale, lineHeight = lineHeight * fontScale)
+    } else {
+        this
+    }
+
+    // 创建带有自定义字体的 Typography
+    return Typography(
+        displayLarge = baseTypography.displayLarge.withScale(),
+        displayMedium = baseTypography.displayMedium.withScale(),
+        displaySmall = baseTypography.displaySmall.withScale(),
+        headlineLarge = baseTypography.headlineLarge.withScale(),
+        headlineMedium = baseTypography.headlineMedium.withScale(),
+        headlineSmall = baseTypography.headlineSmall.withScale(),
+        titleLarge = baseTypography.titleLarge.withScale(),
+        titleMedium = baseTypography.titleMedium.withScale(),
+        titleSmall = baseTypography.titleSmall.withScale(),
+        bodyLarge = baseTypography.bodyLarge.withScale(),
+        bodyMedium = baseTypography.bodyMedium.withScale(),
+        bodySmall = baseTypography.bodySmall.withScale(),
+        labelLarge = baseTypography.labelLarge.withScale(),
+        labelMedium = baseTypography.labelMedium.withScale(),
+        labelSmall = baseTypography.labelSmall.withScale()
+    )
+}

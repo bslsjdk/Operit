@@ -1,1 +1,457 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmF1dG9nbG0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbWVtYmVyU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi52ZXJ0aWNhbFNjcm9sbAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuQXV0b01vZGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkNoZWNrQ2lyY2xlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5FcnJvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuU2V0dGluZ3MKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4Lm5hdmlnYXRpb24uTmF2Q29udHJvbGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5hcGkuY2hhdC5FbmhhbmNlZEFJU2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuQUlUb29sSGFuZGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuUGFja2FnZU1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaVByb3ZpZGVyVHlwZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuRnVuY3Rpb25UeXBlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbFBhcmFtZXRlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuRnVuY3Rpb25hbENvbmZpZ01hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLk1vZGVsQ29uZmlnTWFuYWdlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmNvbXBvbmVudHMuQ3VzdG9tU2NhZmZvbGQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKQE9wdEluKEV4cGVyaW1lbnRhbE1hdGVyaWFsM0FwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmZ1biBBdXRvR2xtT25lQ2xpY2tUb29sU2NyZWVuKAogICAgbmF2Q29udHJvbGxlcjogTmF2Q29udHJvbGxlciwKICAgIG9uTmF2aWdhdGVUb01vZGVsQ29uZmlnOiAoKSAtPiBVbml0CikgewogICAgQ3VzdG9tU2NhZmZvbGQgeyBwYWRkaW5nVmFsdWVzIC0+CiAgICAgICAgQm94KG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyhwYWRkaW5nVmFsdWVzKSkgewogICAgICAgICAgICBBdXRvR2xtT25lQ2xpY2tTY3JlZW4ob25OYXZpZ2F0ZVRvTW9kZWxDb25maWcgPSBvbk5hdmlnYXRlVG9Nb2RlbENvbmZpZykKICAgICAgICB9CiAgICB9Cn0KCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIEF1dG9HbG1PbmVDbGlja1NjcmVlbigKICAgIG9uTmF2aWdhdGVUb01vZGVsQ29uZmlnOiAoKSAtPiBVbml0CikgewogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgdmFsIHNjb3BlID0gcmVtZW1iZXJDb3JvdXRpbmVTY29wZSgpCgogICAgdmFsIG1vZGVsQ29uZmlnTWFuYWdlciA9IHJlbWVtYmVyIHsgTW9kZWxDb25maWdNYW5hZ2VyKGNvbnRleHQpIH0KICAgIHZhbCBmdW5jdGlvbmFsQ29uZmlnTWFuYWdlciA9IHJlbWVtYmVyIHsgRnVuY3Rpb25hbENvbmZpZ01hbmFnZXIoY29udGV4dCkgfQogICAgdmFsIHBhY2thZ2VNYW5hZ2VyID0gcmVtZW1iZXIgewogICAgICAgIFBhY2thZ2VNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQsIEFJVG9vbEhhbmRsZXIuZ2V0SW5zdGFuY2UoY29udGV4dCkpCiAgICB9CgogICAgdmFyIGFwaUtleUlucHV0IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0KICAgIHZhciBpc0NvbmZpZ3VyaW5nIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIHZhciBzdGF0dXNNZXNzYWdlIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Y8U3RyaW5nPz4obnVsbCkgfQogICAgdmFyIGVycm9yTWVzc2FnZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mPFN0cmluZz8+KG51bGwpIH0KCiAgICB2YXIgaXNBZHZhbmNlZEV4cGFuZGVkIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIHZhciBhZHZhbmNlZEVuZHBvaW50IGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0KICAgIHZhciBhZHZhbmNlZE1vZGVsTmFtZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKCIiKSB9CgogICAgdmFsIHNjcm9sbFN0YXRlID0gcmVtZW1iZXJTY3JvbGxTdGF0ZSgpCgogICAgZnVuIHN0YXJ0Q29uZmlndXJlKCkgewogICAgICAgIHNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHZhbCBhcGlLZXkgPSBhcGlLZXlJbnB1dC50cmltKCkKICAgICAgICAgICAgc3RhdHVzTWVzc2FnZSA9IG51bGwKICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gbnVsbAoKICAgICAgICAgICAgaWYgKGFwaUtleS5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmF1dG9nbG1fZXJyb3JfZW1wdHlfYXBpX2tleSkKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaXNDb25maWd1cmluZyA9IHRydWUKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBjb25maWdOYW1lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYXV0b2dsbV9jb25maWdfbmFtZSkKICAgICAgICAgICAgICAgIHZhbCBzdW1tYXJpZXMgPSBtb2RlbENvbmZpZ01hbmFnZXIuZ2V0QWxsQ29uZmlnU3VtbWFyaWVzKCkKICAgICAgICAgICAgICAgIHZhbCBleGlzdGluZyA9IHN1bW1hcmllcy5maW5kIHsgaXQubmFtZSA9PSBjb25maWdOYW1lIH0KCiAgICAgICAgICAgICAgICB2YWwgdXNlQWR2YW5jZWQgPSBpc0FkdmFuY2VkRXhwYW5kZWQgJiYKICAgICAgICAgICAgICAgICAgICBhZHZhbmNlZEVuZHBvaW50LnRyaW0oKS5pc05vdEVtcHR5KCkgJiYKICAgICAgICAgICAgICAgICAgICBhZHZhbmNlZE1vZGVsTmFtZS50cmltKCkuaXNOb3RFbXB0eSgpCgogICAgICAgICAgICAgICAgdmFsIGVuZHBvaW50ID0gaWYgKHVzZUFkdmFuY2VkKSB7CiAgICAgICAgICAgICAgICAgICAgYWR2YW5jZWRFbmRwb2ludC50cmltKCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgImh0dHBzOi8vb3Blbi5iaWdtb2RlbC5jbi9hcGkvcGFhcy92NC9jaGF0L2NvbXBsZXRpb25zIgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbCBtb2RlbE5hbWUgPSBpZiAodXNlQWR2YW5jZWQpIHsKICAgICAgICAgICAgICAgICAgICBhZHZhbmNlZE1vZGVsTmFtZS50cmltKCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgImF1dG9nbG0tcGhvbmUiCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdmFsIHByb3ZpZGVyVHlwZSA9IGlmICh1c2VBZHZhbmNlZCkgewogICAgICAgICAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfR0VORVJJQwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBBcGlQcm92aWRlclR5cGUuWkhJUFUKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB2YWwgY29uZmlnSWQgPSBpZiAoZXhpc3RpbmcgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIG1vZGVsQ29uZmlnTWFuYWdlci51cGRhdGVNb2RlbENvbmZpZygKICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlnSWQgPSBleGlzdGluZy5pZCwKICAgICAgICAgICAgICAgICAgICAgICAgYXBpS2V5ID0gYXBpS2V5LAogICAgICAgICAgICAgICAgICAgICAgICBhcGlFbmRwb2ludCA9IGVuZHBvaW50LAogICAgICAgICAgICAgICAgICAgICAgICBtb2RlbE5hbWUgPSBtb2RlbE5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGFwaVByb3ZpZGVyVHlwZSA9IHByb3ZpZGVyVHlwZQogICAgICAgICAgICAgICAgICAgICkuaWQKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIG5ld0lkID0gbW9kZWxDb25maWdNYW5hZ2VyLmNyZWF0ZUNvbmZpZyhjb25maWdOYW1lKQogICAgICAgICAgICAgICAgICAgIG1vZGVsQ29uZmlnTWFuYWdlci51cGRhdGVNb2RlbENvbmZpZygKICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlnSWQgPSBuZXdJZCwKICAgICAgICAgICAgICAgICAgICAgICAgYXBpS2V5ID0gYXBpS2V5LAogICAgICAgICAgICAgICAgICAgICAgICBhcGlFbmRwb2ludCA9IGVuZHBvaW50LAogICAgICAgICAgICAgICAgICAgICAgICBtb2RlbE5hbWUgPSBtb2RlbE5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGFwaVByb3ZpZGVyVHlwZSA9IHByb3ZpZGVyVHlwZQogICAgICAgICAgICAgICAgICAgICkuaWQKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBtb2RlbENvbmZpZ01hbmFnZXIudXBkYXRlRGlyZWN0SW1hZ2VQcm9jZXNzaW5nKGNvbmZpZ0lkLCB0cnVlKQoKICAgICAgICAgICAgICAgIC8vIOe7keWumuWIsCBVSV9DT05UUk9MTEVSIOWKn+iDvQogICAgICAgICAgICAgICAgZnVuY3Rpb25hbENvbmZpZ01hbmFnZXIuc2V0Q29uZmlnRm9yRnVuY3Rpb24oCiAgICAgICAgICAgICAgICAgICAgRnVuY3Rpb25UeXBlLlVJX0NPTlRST0xMRVIsCiAgICAgICAgICAgICAgICAgICAgY29uZmlnSWQsCiAgICAgICAgICAgICAgICAgICAgMAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgRW5oYW5jZWRBSVNlcnZpY2UucmVmcmVzaFNlcnZpY2VGb3JGdW5jdGlvbigKICAgICAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgIEZ1bmN0aW9uVHlwZS5VSV9DT05UUk9MTEVSCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgLy8g6Ieq5Yqo5bqU55SoIEF1dG9HTE0g5o6o6I2Q5Y+C5pWwCiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHZhbCBwYXJhbWV0ZXJzOiBMaXN0PE1vZGVsUGFyYW1ldGVyPCo+PiA9CiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGVsQ29uZmlnTWFuYWdlci5nZXRNb2RlbFBhcmFtZXRlcnNGb3JDb25maWcoY29uZmlnSWQpLm1hcCB7IHBhcmFtIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGVuIChwYXJhbS5pZCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0ZW1wZXJhdHVyZSIgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBAU3VwcHJlc3MoIlVOQ0hFQ0tFRF9DQVNUIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKHBhcmFtIGFzIE1vZGVsUGFyYW1ldGVyPEZsb2F0PikuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJlbnRWYWx1ZSA9IDAuMGYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc0VuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgYXMgTW9kZWxQYXJhbWV0ZXI8Kj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0b3BfcCIgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBAU3VwcHJlc3MoIlVOQ0hFQ0tFRF9DQVNUIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKHBhcmFtIGFzIE1vZGVsUGFyYW1ldGVyPEZsb2F0PikuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJlbnRWYWx1ZSA9IDAuODVmLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNFbmFibGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApIGFzIE1vZGVsUGFyYW1ldGVyPCo+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZnJlcXVlbmN5X3BlbmFsdHkiIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQFN1cHByZXNzKCJVTkNIRUNLRURfQ0FTVCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChwYXJhbSBhcyBNb2RlbFBhcmFtZXRlcjxGbG9hdD4pLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50VmFsdWUgPSAwLjJmLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNFbmFibGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApIGFzIE1vZGVsUGFyYW1ldGVyPCo+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHBhcmFtCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgbW9kZWxDb25maWdNYW5hZ2VyLnVwZGF0ZVBhcmFtZXRlcnMoY29uZmlnSWQsIHBhcmFtZXRlcnMpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgiQXV0b0dsbU9uZUNsaWNrIiwgIkZhaWxlZCB0byBhcHBseSBBdXRvR0xNIHBhcmFtZXRlcnMiLCBlKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOWIh+aNoiBBdXRvR0xNIOW3peWFt+WMhQogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICB2YWwgZW5hYmxlZFBhY2thZ2VOYW1lcyA9IHBhY2thZ2VNYW5hZ2VyLmdldEVuYWJsZWRQYWNrYWdlTmFtZXMoKQogICAgICAgICAgICAgICAgICAgIGlmIChlbmFibGVkUGFja2FnZU5hbWVzLmNvbnRhaW5zKCJBdXRvbWF0aWNfdWlfYmFzZSIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHBhY2thZ2VNYW5hZ2VyLmRpc2FibGVQYWNrYWdlKCJBdXRvbWF0aWNfdWlfYmFzZSIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmICghcGFja2FnZU1hbmFnZXIuaXNQYWNrYWdlRW5hYmxlZCgiQXV0b21hdGljX3VpX3N1YmFnZW50IikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGFja2FnZU1hbmFnZXIuZW5hYmxlUGFja2FnZSgiQXV0b21hdGljX3VpX3N1YmFnZW50IikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgiQXV0b0dsbU9uZUNsaWNrIiwgIkZhaWxlZCB0byB1cGRhdGUgcGFja2FnZXMiLCBlKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHN0YXR1c01lc3NhZ2UgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hdXRvZ2xtX3N0YXR1c19zdWNjZXNzKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IGNvbnRleHQuZ2V0U3RyaW5nKAogICAgICAgICAgICAgICAgICAgIFIuc3RyaW5nLmF1dG9nbG1fc3RhdHVzX2Vycm9yLAogICAgICAgICAgICAgICAgICAgIGUubWVzc2FnZSA/OiAidW5rbm93biIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIGlzQ29uZmlndXJpbmcgPSBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biByZXN0b3JlT3JpZ2luYWxBdXRvbWF0aW9uKCkgewogICAgICAgIHNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHN0YXR1c01lc3NhZ2UgPSBudWxsCiAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IG51bGwKICAgICAgICAgICAgaXNDb25maWd1cmluZyA9IHRydWUKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBlbmFibGVkUGFja2FnZU5hbWVzID0gcGFja2FnZU1hbmFnZXIuZ2V0RW5hYmxlZFBhY2thZ2VOYW1lcygpCiAgICAgICAgICAgICAgICBpZiAoIWVuYWJsZWRQYWNrYWdlTmFtZXMuY29udGFpbnMoIkF1dG9tYXRpY191aV9iYXNlIikpIHsKICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTWFuYWdlci5lbmFibGVQYWNrYWdlKCJBdXRvbWF0aWNfdWlfYmFzZSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAocGFja2FnZU1hbmFnZXIuaXNQYWNrYWdlRW5hYmxlZCgiQXV0b21hdGljX3VpX3N1YmFnZW50IikpIHsKICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTWFuYWdlci5kaXNhYmxlUGFja2FnZSgiQXV0b21hdGljX3VpX3N1YmFnZW50IikKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBzdGF0dXNNZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYXV0b2dsbV9yZXN0b3JlX3N1Y2Nlc3MpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoIkF1dG9HbG1PbmVDbGljayIsICJGYWlsZWQgdG8gcmVzdG9yZSBiYXNlIHBhY2thZ2VzIiwgZSkKICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9IGNvbnRleHQuZ2V0U3RyaW5nKAogICAgICAgICAgICAgICAgICAgIFIuc3RyaW5nLmF1dG9nbG1fc3RhdHVzX2Vycm9yLAogICAgICAgICAgICAgICAgICAgIGUubWVzc2FnZSA/OiAidW5rbm93biIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIGlzQ29uZmlndXJpbmcgPSBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIENvbHVtbigKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgIC5wYWRkaW5nKDE2LmRwKQogICAgICAgICAgICAudmVydGljYWxTY3JvbGwoc2Nyb2xsU3RhdGUpLAogICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxNi5kcCkKICAgICkgewogICAgICAgIFJvdyh2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5KSB7CiAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuQXV0b01vZGUsCiAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsLAogICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICApCiAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDguZHApKQogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmF1dG9nbG1fb25lX2NsaWNrX3RpdGxlKSwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmhlYWRsaW5lU21hbGwsCiAgICAgICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Cb2xkCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIFRleHQoCiAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5hdXRvZ2xtX29uZV9jbGlja19zdWJ0aXRsZSksCiAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgKQoKICAgICAgICBDYXJkIHsKICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZygxNi5kcCkpIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmF1dG9nbG1fc3RlcDFfdGl0bGUpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTWVkaXVtLAogICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmF1dG9nbG1fc3RlcDFfd2FybmluZyksCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keUxhcmdlLAogICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDQuZHApKQogICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXV0b2dsbV9zdGVwMV9ub3RlKSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgIE91dGxpbmVkQnV0dG9uKG9uQ2xpY2sgPSBvbk5hdmlnYXRlVG9Nb2RlbENvbmZpZykgewogICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXV0b2dsbV9nb190b19tb2RlbF9jb25maWcpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBDYXJkIHsKICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZygxNi5kcCkpIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmF1dG9nbG1fc3RlcDJfdGl0bGUpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTWVkaXVtLAogICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSwKICAgICAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICB2YWwgYXBpS2V5VXJsID0gImh0dHBzOi8vb3Blbi5iaWdtb2RlbC5jbi91c2VyY2VudGVyL2FwaWtleXMiCiAgICAgICAgICAgICAgICAgICAgT3V0bGluZWRCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KEludGVudC5BQ1RJT05fVklFVywgVXJpLnBhcnNlKGFwaUtleVVybCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LnN0YXJ0QWN0aXZpdHkoaW50ZW50KQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXV0b2dsbV9vcGVuX2FwaWtleV9jZW50ZXIpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXV0b2dsbV9vcGVuX2FwaWtleV90aXApLAogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIENhcmQgewogICAgICAgICAgICBDb2x1bW4obW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKDE2LmRwKSkgewogICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXV0b2dsbV9zdGVwM190aXRsZSksCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuQm9sZAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDguZHApKQogICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBhcGlLZXlJbnB1dCwKICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyBhcGlLZXlJbnB1dCA9IGl0LnRyaW0oKSB9LAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXIgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXV0b2dsbV9hcGlfa2V5X3BsYWNlaG9sZGVyKSkKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIHNpbmdsZUxpbmUgPSB0cnVlCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IGlzQWR2YW5jZWRFeHBhbmRlZCA9ICFpc0FkdmFuY2VkRXhwYW5kZWQgfQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LlNldHRpbmdzLAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDQuZHApKQogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBpZiAoaXNBZHZhbmNlZEV4cGFuZGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5hdXRvZ2xtX2hpZGVfYWR2YW5jZWQpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5hdXRvZ2xtX3Nob3dfYWR2YW5jZWQpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKGlzQWR2YW5jZWRFeHBhbmRlZCkgewogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBhZHZhbmNlZEVuZHBvaW50LAogICAgICAgICAgICAgICAgICAgICAgICBvblZhbHVlQ2hhbmdlID0geyBhZHZhbmNlZEVuZHBvaW50ID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXV0b2dsbV9jdXN0b21fZW5kcG9pbnQpKSB9LAogICAgICAgICAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgT3V0bGluZWRUZXh0RmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gYWR2YW5jZWRNb2RlbE5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uVmFsdWVDaGFuZ2UgPSB7IGFkdmFuY2VkTW9kZWxOYW1lID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXV0b2dsbV9tb2RlbF9uYW1lKSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoMTIuZHApKQogICAgICAgICAgICAgICAgQnV0dG9uKAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IHN0YXJ0Q29uZmlndXJlKCkgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgIGVuYWJsZWQgPSAhaXNDb25maWd1cmluZwogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGlzQ29uZmlndXJpbmcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgxOC5kcCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCA9IDIuZHAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25QcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXV0b2dsbV9zdGF0dXNfcnVubmluZykpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5hdXRvZ2xtX29uZV9jbGlja19idXR0b24pKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgQ2FyZCB7CiAgICAgICAgICAgIENvbHVtbihtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoMTYuZHApKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5hdXRvZ2xtX3N0ZXA0X3RpdGxlKSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bSwKICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5Cb2xkCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5hdXRvZ2xtX3N0ZXA0X2Rlc2NyaXB0aW9uKSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgxMi5kcCkpCiAgICAgICAgICAgICAgICBPdXRsaW5lZEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyByZXN0b3JlT3JpZ2luYWxBdXRvbWF0aW9uKCkgfSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgIGVuYWJsZWQgPSAhaXNDb25maWd1cmluZwogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5hdXRvZ2xtX3Jlc3RvcmVfb3JpZ2luYWwpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBzdGF0dXNNZXNzYWdlPy5sZXQgeyBtc2cgLT4KICAgICAgICAgICAgQ2FyZChjb2xvcnMgPSBDYXJkRGVmYXVsdHMuY2FyZENvbG9ycyhjb250YWluZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeUNvbnRhaW5lcikpIHsKICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoMTYuZHApLAogICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5DaGVja0NpcmNsZSwKICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg4LmRwKSkKICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gbXNnLAogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBlcnJvck1lc3NhZ2U/LmxldCB7IG1zZyAtPgogICAgICAgICAgICBDYXJkKGNvbG9ycyA9IENhcmREZWZhdWx0cy5jYXJkQ29sb3JzKGNvbnRhaW5lckNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvckNvbnRhaW5lcikpIHsKICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoMTYuZHApLAogICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5FcnJvciwKICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IG1zZywKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uRXJyb3JDb250YWluZXIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.toolbox.screens.autoglm
+
+import android.content.Intent
+import android.net.Uri
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AutoMode
+import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Error
+import androidx.compose.material.icons.filled.Settings
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.api.chat.EnhancedAIService
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.data.model.FunctionType
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.preferences.FunctionalConfigManager
+import com.bslsjdk.operit.data.preferences.ModelConfigManager
+import com.bslsjdk.operit.ui.components.CustomScaffold
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.launch
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun AutoGlmOneClickToolScreen(
+    navController: NavController,
+    onNavigateToModelConfig: () -> Unit
+) {
+    CustomScaffold { paddingValues ->
+        Box(modifier = Modifier.padding(paddingValues)) {
+            AutoGlmOneClickScreen(onNavigateToModelConfig = onNavigateToModelConfig)
+        }
+    }
+}
+
+@Composable
+private fun AutoGlmOneClickScreen(
+    onNavigateToModelConfig: () -> Unit
+) {
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+
+    val modelConfigManager = remember { ModelConfigManager(context) }
+    val functionalConfigManager = remember { FunctionalConfigManager(context) }
+    val packageManager = remember {
+        PackageManager.getInstance(context, AIToolHandler.getInstance(context))
+    }
+
+    var apiKeyInput by remember { mutableStateOf("") }
+    var isConfiguring by remember { mutableStateOf(false) }
+    var statusMessage by remember { mutableStateOf<String?>(null) }
+    var errorMessage by remember { mutableStateOf<String?>(null) }
+
+    var isAdvancedExpanded by remember { mutableStateOf(false) }
+    var advancedEndpoint by remember { mutableStateOf("") }
+    var advancedModelName by remember { mutableStateOf("") }
+
+    val scrollState = rememberScrollState()
+
+    fun startConfigure() {
+        scope.launch {
+            val apiKey = apiKeyInput.trim()
+            statusMessage = null
+            errorMessage = null
+
+            if (apiKey.isEmpty()) {
+                errorMessage = context.getString(R.string.autoglm_error_empty_api_key)
+                return@launch
+            }
+
+            isConfiguring = true
+            try {
+                val configName = context.getString(R.string.autoglm_config_name)
+                val summaries = modelConfigManager.getAllConfigSummaries()
+                val existing = summaries.find { it.name == configName }
+
+                val useAdvanced = isAdvancedExpanded &&
+                    advancedEndpoint.trim().isNotEmpty() &&
+                    advancedModelName.trim().isNotEmpty()
+
+                val endpoint = if (useAdvanced) {
+                    advancedEndpoint.trim()
+                } else {
+                    "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+                }
+
+                val modelName = if (useAdvanced) {
+                    advancedModelName.trim()
+                } else {
+                    "autoglm-phone"
+                }
+
+                val providerType = if (useAdvanced) {
+                    ApiProviderType.OPENAI_GENERIC
+                } else {
+                    ApiProviderType.ZHIPU
+                }
+
+                val configId = if (existing != null) {
+                    modelConfigManager.updateModelConfig(
+                        configId = existing.id,
+                        apiKey = apiKey,
+                        apiEndpoint = endpoint,
+                        modelName = modelName,
+                        apiProviderType = providerType
+                    ).id
+                } else {
+                    val newId = modelConfigManager.createConfig(configName)
+                    modelConfigManager.updateModelConfig(
+                        configId = newId,
+                        apiKey = apiKey,
+                        apiEndpoint = endpoint,
+                        modelName = modelName,
+                        apiProviderType = providerType
+                    ).id
+                }
+
+                modelConfigManager.updateDirectImageProcessing(configId, true)
+
+                // 绑定到 UI_CONTROLLER 功能
+                functionalConfigManager.setConfigForFunction(
+                    FunctionType.UI_CONTROLLER,
+                    configId,
+                    0
+                )
+                EnhancedAIService.refreshServiceForFunction(
+                    context,
+                    FunctionType.UI_CONTROLLER
+                )
+
+                // 自动应用 AutoGLM 推荐参数
+                try {
+                    val parameters: List<ModelParameter<*>> =
+                        modelConfigManager.getModelParametersForConfig(configId).map { param ->
+                            when (param.id) {
+                                "temperature" -> {
+                                    @Suppress("UNCHECKED_CAST")
+                                    (param as ModelParameter<Float>).copy(
+                                        currentValue = 0.0f,
+                                        isEnabled = true
+                                    ) as ModelParameter<*>
+                                }
+
+                                "top_p" -> {
+                                    @Suppress("UNCHECKED_CAST")
+                                    (param as ModelParameter<Float>).copy(
+                                        currentValue = 0.85f,
+                                        isEnabled = true
+                                    ) as ModelParameter<*>
+                                }
+
+                                "frequency_penalty" -> {
+                                    @Suppress("UNCHECKED_CAST")
+                                    (param as ModelParameter<Float>).copy(
+                                        currentValue = 0.2f,
+                                        isEnabled = true
+                                    ) as ModelParameter<*>
+                                }
+
+                                else -> param
+                            }
+                        }
+
+                    modelConfigManager.updateParameters(configId, parameters)
+                } catch (e: Exception) {
+                    AppLogger.e("AutoGlmOneClick", "Failed to apply AutoGLM parameters", e)
+                }
+
+                // 切换 AutoGLM 工具包
+                try {
+                    val enabledPackageNames = packageManager.getEnabledPackageNames()
+                    if (enabledPackageNames.contains("Automatic_ui_base")) {
+                        packageManager.disablePackage("Automatic_ui_base")
+                    }
+                    if (!packageManager.isPackageEnabled("Automatic_ui_subagent")) {
+                        packageManager.enablePackage("Automatic_ui_subagent")
+                    }
+                } catch (e: Exception) {
+                    AppLogger.e("AutoGlmOneClick", "Failed to update packages", e)
+                }
+
+                statusMessage = context.getString(R.string.autoglm_status_success)
+            } catch (e: Exception) {
+                errorMessage = context.getString(
+                    R.string.autoglm_status_error,
+                    e.message ?: "unknown"
+                )
+            } finally {
+                isConfiguring = false
+            }
+        }
+    }
+
+    fun restoreOriginalAutomation() {
+        scope.launch {
+            statusMessage = null
+            errorMessage = null
+            isConfiguring = true
+            try {
+                val enabledPackageNames = packageManager.getEnabledPackageNames()
+                if (!enabledPackageNames.contains("Automatic_ui_base")) {
+                    packageManager.enablePackage("Automatic_ui_base")
+                }
+                if (packageManager.isPackageEnabled("Automatic_ui_subagent")) {
+                    packageManager.disablePackage("Automatic_ui_subagent")
+                }
+
+                statusMessage = context.getString(R.string.autoglm_restore_success)
+            } catch (e: Exception) {
+                AppLogger.e("AutoGlmOneClick", "Failed to restore base packages", e)
+                errorMessage = context.getString(
+                    R.string.autoglm_status_error,
+                    e.message ?: "unknown"
+                )
+            } finally {
+                isConfiguring = false
+            }
+        }
+    }
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp)
+            .verticalScroll(scrollState),
+        verticalArrangement = Arrangement.spacedBy(16.dp)
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            Icon(
+                imageVector = Icons.Default.AutoMode,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.primary
+            )
+            Spacer(modifier = Modifier.width(8.dp))
+            Text(
+                text = stringResource(R.string.autoglm_one_click_title),
+                style = MaterialTheme.typography.headlineSmall,
+                fontWeight = FontWeight.Bold
+            )
+        }
+
+        Text(
+            text = stringResource(R.string.autoglm_one_click_subtitle),
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onSurfaceVariant
+        )
+
+        Card {
+            Column(modifier = Modifier.padding(16.dp)) {
+                Text(
+                    text = stringResource(R.string.autoglm_step1_title),
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = stringResource(R.string.autoglm_step1_warning),
+                    style = MaterialTheme.typography.bodyLarge,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+                Spacer(modifier = Modifier.height(4.dp))
+                Text(
+                    text = stringResource(R.string.autoglm_step1_note),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                OutlinedButton(onClick = onNavigateToModelConfig) {
+                    Text(stringResource(R.string.autoglm_go_to_model_config))
+                }
+            }
+        }
+
+        Card {
+            Column(modifier = Modifier.padding(16.dp)) {
+                Text(
+                    text = stringResource(R.string.autoglm_step2_title),
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    val apiKeyUrl = "https://open.bigmodel.cn/usercenter/apikeys"
+                    OutlinedButton(
+                        onClick = {
+                            val intent = Intent(Intent.ACTION_VIEW, Uri.parse(apiKeyUrl))
+                            context.startActivity(intent)
+                        }
+                    ) {
+                        Text(stringResource(R.string.autoglm_open_apikey_center))
+                    }
+                    Text(
+                        text = stringResource(R.string.autoglm_open_apikey_tip),
+                        style = MaterialTheme.typography.bodySmall,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        modifier = Modifier.weight(1f)
+                    )
+                }
+            }
+        }
+
+        Card {
+            Column(modifier = Modifier.padding(16.dp)) {
+                Text(
+                    text = stringResource(R.string.autoglm_step3_title),
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                OutlinedTextField(
+                    value = apiKeyInput,
+                    onValueChange = { apiKeyInput = it.trim() },
+                    modifier = Modifier.fillMaxWidth(),
+                    placeholder = {
+                        Text(stringResource(R.string.autoglm_api_key_placeholder))
+                    },
+                    singleLine = true
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                TextButton(
+                    onClick = { isAdvancedExpanded = !isAdvancedExpanded }
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Settings,
+                        contentDescription = null
+                    )
+                    Spacer(modifier = Modifier.width(4.dp))
+                    Text(
+                        text = if (isAdvancedExpanded) {
+                            stringResource(R.string.autoglm_hide_advanced)
+                        } else {
+                            stringResource(R.string.autoglm_show_advanced)
+                        }
+                    )
+                }
+
+                if (isAdvancedExpanded) {
+                    Spacer(modifier = Modifier.height(8.dp))
+                    OutlinedTextField(
+                        value = advancedEndpoint,
+                        onValueChange = { advancedEndpoint = it },
+                        modifier = Modifier.fillMaxWidth(),
+                        label = { Text(stringResource(R.string.autoglm_custom_endpoint)) },
+                        singleLine = true
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    OutlinedTextField(
+                        value = advancedModelName,
+                        onValueChange = { advancedModelName = it },
+                        modifier = Modifier.fillMaxWidth(),
+                        label = { Text(stringResource(R.string.autoglm_model_name)) },
+                        singleLine = true
+                    )
+                }
+                Spacer(modifier = Modifier.height(12.dp))
+                Button(
+                    onClick = { startConfigure() },
+                    modifier = Modifier.fillMaxWidth(),
+                    enabled = !isConfiguring
+                ) {
+                    if (isConfiguring) {
+                        CircularProgressIndicator(
+                            modifier = Modifier.size(18.dp),
+                            strokeWidth = 2.dp,
+                            color = MaterialTheme.colorScheme.onPrimary
+                        )
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Text(stringResource(R.string.autoglm_status_running))
+                    } else {
+                        Text(stringResource(R.string.autoglm_one_click_button))
+                    }
+                }
+            }
+        }
+
+        Card {
+            Column(modifier = Modifier.padding(16.dp)) {
+                Text(
+                    text = stringResource(R.string.autoglm_step4_title),
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.Bold
+                )
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    text = stringResource(R.string.autoglm_step4_description),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+                Spacer(modifier = Modifier.height(12.dp))
+                OutlinedButton(
+                    onClick = { restoreOriginalAutomation() },
+                    modifier = Modifier.fillMaxWidth(),
+                    enabled = !isConfiguring
+                ) {
+                    Text(stringResource(R.string.autoglm_restore_original))
+                }
+            }
+        }
+
+        statusMessage?.let { msg ->
+            Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer)) {
+                Row(
+                    modifier = Modifier.padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.CheckCircle,
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.primary
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(
+                        text = msg,
+                        style = MaterialTheme.typography.bodyMedium
+                    )
+                }
+            }
+        }
+
+        errorMessage?.let { msg ->
+            Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.errorContainer)) {
+                Row(
+                    modifier = Modifier.padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Error,
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.error
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(
+                        text = msg,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onErrorContainer
+                    )
+                }
+            }
+        }
+    }
+}

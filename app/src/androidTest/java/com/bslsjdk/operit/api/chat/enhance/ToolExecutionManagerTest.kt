@@ -1,1 +1,34 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5qdW5pdC5ydW5uZXIuUnVuV2l0aAoKQFJ1bldpdGgoQW5kcm9pZEpVbml0NDo6Y2xhc3MpCmNsYXNzIFRvb2xFeGVjdXRpb25NYW5hZ2VyVGVzdCB7CgogICAgQFRlc3QKICAgIGZ1biBleHRyYWN0VG9vbEludm9jYXRpb25zX3Nob3VsZEtlZXBBbGxUb29sQmxvY2tzSW5TYW1lQ2h1bmsoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgcmVzcG9uc2UgPSAiIiIKICAgICAgICAgICAgPHRvb2xfQTEgbmFtZT0idmlzaXRfd2ViIj48cGFyYW0gbmFtZT0idXJsIj5odHRwczovL3d3dy5iYWlkdS5jb208L3BhcmFtPjwvdG9vbF9BMT4KICAgICAgICAgICAgPHRvb2xfQjIgbmFtZT0idmlzaXRfd2ViIj48cGFyYW0gbmFtZT0idXJsIj5odHRwczovL3d3dy5iaW5nLmNvbTwvcGFyYW0+PC90b29sX0IyPgogICAgICAgICAgICA8dG9vbF9DMyBuYW1lPSJ2aXNpdF93ZWIiPjxwYXJhbSBuYW1lPSJ1cmwiPmh0dHBzOi8vd3d3LmdpdGh1Yi5jb208L3BhcmFtPjwvdG9vbF9DMz4KICAgICAgICAiIiIudHJpbUluZGVudCgpCgogICAgICAgIHZhbCBpbnZvY2F0aW9ucyA9IFRvb2xFeGVjdXRpb25NYW5hZ2VyLmV4dHJhY3RUb29sSW52b2NhdGlvbnMocmVzcG9uc2UpCgogICAgICAgIGFzc2VydEVxdWFscygzLCBpbnZvY2F0aW9ucy5zaXplKQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgImh0dHBzOi8vd3d3LmJhaWR1LmNvbSIsCiAgICAgICAgICAgICAgICAiaHR0cHM6Ly93d3cuYmluZy5jb20iLAogICAgICAgICAgICAgICAgImh0dHBzOi8vd3d3LmdpdGh1Yi5jb20iCiAgICAgICAgICAgICksCiAgICAgICAgICAgIGludm9jYXRpb25zLm1hcCB7IGludm9jYXRpb24gLT4KICAgICAgICAgICAgICAgIGludm9jYXRpb24udG9vbC5wYXJhbWV0ZXJzLmZpcnN0IHsgaXQubmFtZSA9PSAidXJsIiB9LnZhbHVlCiAgICAgICAgICAgIH0KICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.enhance
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import kotlinx.coroutines.runBlocking
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class ToolExecutionManagerTest {
+
+    @Test
+    fun extractToolInvocations_shouldKeepAllToolBlocksInSameChunk() = runBlocking {
+        val response = """
+            <tool_A1 name="visit_web"><param name="url">https://www.baidu.com</param></tool_A1>
+            <tool_B2 name="visit_web"><param name="url">https://www.bing.com</param></tool_B2>
+            <tool_C3 name="visit_web"><param name="url">https://www.github.com</param></tool_C3>
+        """.trimIndent()
+
+        val invocations = ToolExecutionManager.extractToolInvocations(response)
+
+        assertEquals(3, invocations.size)
+        assertEquals(
+            listOf(
+                "https://www.baidu.com",
+                "https://www.bing.com",
+                "https://www.github.com"
+            ),
+            invocations.map { invocation ->
+                invocation.tool.parameters.first { it.name == "url" }.value
+            }
+        )
+    }
+}

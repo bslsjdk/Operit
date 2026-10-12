@@ -1,1 +1,113 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGlvLm9iamVjdGJveC5hbm5vdGF0aW9uLkJhY2tsaW5rCmltcG9ydCBpby5vYmplY3Rib3guYW5ub3RhdGlvbi5Db252ZXJ0CmltcG9ydCBpby5vYmplY3Rib3guYW5ub3RhdGlvbi5FbnRpdHkKaW1wb3J0IGlvLm9iamVjdGJveC5hbm5vdGF0aW9uLklkCmltcG9ydCBpby5vYmplY3Rib3guYW5ub3RhdGlvbi5JbmRleAppbXBvcnQgaW8ub2JqZWN0Ym94LnJlbGF0aW9uLlRvTWFueQppbXBvcnQgaW8ub2JqZWN0Ym94LnJlbGF0aW9uLlRvT25lCmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLlVVSUQKCi8qKgogKiDmoLjlv4PorrDlv4bljZXlhYMgKE1lbW9yeSBVbml0KQogKiDku6PooajkuIDkuKrni6znq4vnmoTnn6Xor4bniYfmrrXjgIHkuovku7bjgIHmpoLlv7XmiJbku7vkvZVBSemcgOimgeiusOS9j+eahOS4nOilv+OAggogKi8KQEVudGl0eQpkYXRhIGNsYXNzIE1lbW9yeSgKICAgIEBJZCB2YXIgaWQ6IExvbmcgPSAwLAogICAgdmFyIHV1aWQ6IFN0cmluZyA9IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCksCgogICAgLy8gLS0tIOaguOW/g+WGheWuuSAoQ29yZSBDb250ZW50KSAtLS0KICAgIHZhciB0aXRsZTogU3RyaW5nID0gIiIsIC8vIOiusOW/hueahOeugOefreagh+mimC/mkZjopoEKICAgIHZhciBjb250ZW50OiBTdHJpbmcgPSAiIiwgLy8g6K+m57uG5YaF5a65ICjlj6/ku6XmmK/mlofmnKzjgIFKU09O44CB5paH5Lu26Lev5b6E562JKQogICAgdmFyIGNvbnRlbnRUeXBlOiBTdHJpbmcgPSAidGV4dC9wbGFpbiIsIC8vIOWGheWuueexu+WeiyAoZS5nLiwgInRleHQvcGxhaW4iLCAiaW1hZ2UvanBlZyIsICJhcHBsaWNhdGlvbi9qc29uIikKCiAgICAvLyAtLS0g5YWD5pWw5o2uIChNZXRhZGF0YSkgLS0tCiAgICB2YXIgc291cmNlOiBTdHJpbmcgPSAidW5rbm93biIsIC8vIOadpea6kCAoZS5nLiwgInVzZXJfaW5wdXQiLCAiY2hhdF9zdW1tYXJ5IiwgIndlYl9zY3JhcGUiKQogICAgdmFyIGNyZWRpYmlsaXR5OiBGbG9hdCA9IDAuNWYsIC8vIOWPr+S/oeW6piAoMC4wIHRvIDEuMCkKICAgIHZhciBpbXBvcnRhbmNlOiBGbG9hdCA9IDAuNWYsICAvLyDph43opoHmgKcgKDAuMCB0byAxLjApCgogICAgLy8g5paw5aKe77ya5aaC5p6c6L+Z5piv5LiA5Liq5paH5qGj6IqC54K577yM5YiZ5a2Y5YKo5paH5qGj55qE6Lev5b6EL1VSSQogICAgdmFyIGRvY3VtZW50UGF0aDogU3RyaW5nPyA9IG51bGwsCiAgICAvLyDmlrDlop7vvJrmoIforrDmraTorrDlv4bmmK/lkKbku6PooajkuIDkuKrlpJbpg6jmlofmoaMKICAgIHZhciBpc0RvY3VtZW50Tm9kZTogQm9vbGVhbiA9IGZhbHNlLAogICAgLy8g5paw5aKe77ya5aaC5p6c6L+Z5piv5LiA5Liq5paH5qGj6IqC54K577yM5YiZ5a2Y5YKo5YW25Yy65Z2X57Si5byV5paH5Lu255qE6Lev5b6ECiAgICB2YXIgY2h1bmtJbmRleEZpbGVQYXRoOiBTdHJpbmc/ID0gbnVsbCwKCiAgICAvLyDmlrDlop7vvJrmlofku7blpLnot6/lvoTvvIznlKjkuo7liIbnsbvnu4Tnu4forrDlv4bvvIjlpoIgIuW3peS9nC/pobnnm65BIiDmiJYgIueUn+a0uy/lgaXlurci77yJCiAgICAvLyDkvb/nlKjlj6/nqbrnsbvlnovku6Xlhbzlrrnml6fmlbDmja7vvIxudWxsIOinhuS4uiLmnKrliIbnsbsiCiAgICBASW5kZXgKICAgIHZhciBmb2xkZXJQYXRoOiBTdHJpbmc/ID0gbnVsbCwKCiAgICAvLyDmlofmnKzlhoXlrrnnmoTlkJHph4/ltYzlhaUKICAgIEBDb252ZXJ0KGNvbnZlcnRlciA9IEVtYmVkZGluZ0NvbnZlcnRlcjo6Y2xhc3MsIGRiVHlwZSA9IEJ5dGVBcnJheTo6Y2xhc3MpCiAgICB2YXIgZW1iZWRkaW5nOiBFbWJlZGRpbmc/ID0gbnVsbCwKCiAgICAvLyAtLS0g5pe26Ze05oizIChUaW1lc3RhbXBzKSAtLS0KICAgIHZhciBjcmVhdGVkQXQ6IERhdGUgPSBEYXRlKCksCiAgICB2YXIgdXBkYXRlZEF0OiBEYXRlID0gRGF0ZSgpLAogICAgdmFyIGxhc3RBY2Nlc3NlZEF0OiBEYXRlID0gRGF0ZSgpCikgewogICAgLy8g5L2/55SoIFRvTWFueSDlhbPogZTlpJrkuKrmoIfnrb4KICAgIGxhdGVpbml0IHZhciB0YWdzOiBUb01hbnk8TWVtb3J5VGFnPgoKICAgIC8vIOWtmOWCqOS4juivpeiusOW/huebuOWFs+eahOS7u+aEj+mUruWAvOWvueWxnuaApwogICAgbGF0ZWluaXQgdmFyIHByb3BlcnRpZXM6IFRvTWFueTxNZW1vcnlQcm9wZXJ0eT4KCiAgICAvLyDku47ov5nkuKrorrDlv4blh7rlj5HnmoTlhbPogZQKICAgIGxhdGVpbml0IHZhciBsaW5rczogVG9NYW55PE1lbW9yeUxpbms+CgogICAgLy8g6L+Z5Liq6K6w5b+G5L2c5Li655uu5qCH6KKr5ZOq5Lqb5YWz6IGU5oyH5ZCRICjlj43lkJHpk77mjqUpCiAgICBAQmFja2xpbmsodG8gPSAidGFyZ2V0IikKICAgIGxhdGVpbml0IHZhciBiYWNrbGlua3M6IFRvTWFueTxNZW1vcnlMaW5rPgoKICAgIC8vIOaWsOWinu+8muWmguaenOi/meaYr+S4gOS4quaWh+aho+iKgueCue+8jOWImeWMheWQq+WFtuaJgOacieWGheWuueWMuuWdlwogICAgQEJhY2tsaW5rKHRvID0gIm1lbW9yeSIpCiAgICBsYXRlaW5pdCB2YXIgZG9jdW1lbnRDaHVua3M6IFRvTWFueTxEb2N1bWVudENodW5rPgp9CgovKioKICog6K6w5b+G5qCH562+IChNZW1vcnkgVGFnKQogKiDnlKjkuo7lr7norrDlv4bov5vooYzliIbnsbvlkoznu4Tnu4fvvIzmlK/mjIHlsYLnuqfnu5PmnoTjgIIKICovCkBFbnRpdHkKZGF0YSBjbGFzcyBNZW1vcnlUYWcoCiAgICBASWQgdmFyIGlkOiBMb25nID0gMCwKICAgIHZhciBuYW1lOiBTdHJpbmcgPSAiIiAvLyDmoIfnrb7lkI3np7AKKSB7CiAgICAvLyDniLbmoIfnrb7vvIznlKjkuo7mnoTlu7rlsYLnuqflhbPns7sKICAgIGxhdGVpbml0IHZhciBwYXJlbnQ6IFRvT25lPE1lbW9yeVRhZz4KCiAgICAvLyDor6XmoIfnrb7kuIvnmoTmiYDmnInorrDlv4YKICAgIEBCYWNrbGluayh0byA9ICJ0YWdzIikKICAgIGxhdGVpbml0IHZhciBtZW1vcmllczogVG9NYW55PE1lbW9yeT4KfQoKLyoqCiAqIOiusOW/huWFs+iBlCAoTWVtb3J5IExpbmspCiAqIOWumuS5ieiusOW/huS5i+mXtOeahOWFs+ezu+OAggogKi8KQEVudGl0eQpkYXRhIGNsYXNzIE1lbW9yeUxpbmsoCiAgICBASWQgdmFyIGlkOiBMb25nID0gMCwKICAgIHZhciB0eXBlOiBTdHJpbmcgPSAicmVsYXRlZCIsIC8vIOWFs+iBlOexu+WeiyAoZS5nLiwgImNhdXNlcyIsICJleHBsYWlucyIsICJwYXJ0X29mIikKICAgIHZhciB3ZWlnaHQ6IEZsb2F0ID0gMS4wZiwgLy8g5YWz6IGU5by65bqmICgwLjAgdG8gMS4wKQogICAgdmFyIGRlc2NyaXB0aW9uOiBTdHJpbmcgPSAiIiAvLyDlhbPogZTnmoTor6bnu4bmj4/ov7AKKSB7CiAgICAvLyDlhbPogZTnmoTmupDlpLTlkoznm67moIcKICAgIGxhdGVpbml0IHZhciBzb3VyY2U6IFRvT25lPE1lbW9yeT4KICAgIGxhdGVpbml0IHZhciB0YXJnZXQ6IFRvT25lPE1lbW9yeT4KfQoKLyoqCiAqIOiusOW/huWxnuaApyAoTWVtb3J5IFByb3BlcnR5KQogKiDngbXmtLvnmoTplK7lgLzlr7nlrZjlgqjvvIznlKjkuo7mianlsZXorrDlv4bnmoTlhYPmlbDmja7jgIIKICovCkBFbnRpdHkKZGF0YSBjbGFzcyBNZW1vcnlQcm9wZXJ0eSgKICAgIEBJZCB2YXIgaWQ6IExvbmcgPSAwLAogICAgdmFyIGtleTogU3RyaW5nID0gIiIsCiAgICB2YXIgdmFsdWU6IFN0cmluZyA9ICIiCikg
+package com.bslsjdk.operit.data.model
+
+import io.objectbox.annotation.Backlink
+import io.objectbox.annotation.Convert
+import io.objectbox.annotation.Entity
+import io.objectbox.annotation.Id
+import io.objectbox.annotation.Index
+import io.objectbox.relation.ToMany
+import io.objectbox.relation.ToOne
+import java.util.Date
+import java.util.UUID
+
+/**
+ * 核心记忆单元 (Memory Unit)
+ * 代表一个独立的知识片段、事件、概念或任何AI需要记住的东西。
+ */
+@Entity
+data class Memory(
+    @Id var id: Long = 0,
+    var uuid: String = UUID.randomUUID().toString(),
+
+    // --- 核心内容 (Core Content) ---
+    var title: String = "", // 记忆的简短标题/摘要
+    var content: String = "", // 详细内容 (可以是文本、JSON、文件路径等)
+    var contentType: String = "text/plain", // 内容类型 (e.g., "text/plain", "image/jpeg", "application/json")
+
+    // --- 元数据 (Metadata) ---
+    var source: String = "unknown", // 来源 (e.g., "user_input", "chat_summary", "web_scrape")
+    var credibility: Float = 0.5f, // 可信度 (0.0 to 1.0)
+    var importance: Float = 0.5f,  // 重要性 (0.0 to 1.0)
+
+    // 新增：如果这是一个文档节点，则存储文档的路径/URI
+    var documentPath: String? = null,
+    // 新增：标记此记忆是否代表一个外部文档
+    var isDocumentNode: Boolean = false,
+    // 新增：如果这是一个文档节点，则存储其区块索引文件的路径
+    var chunkIndexFilePath: String? = null,
+
+    // 新增：文件夹路径，用于分类组织记忆（如 "工作/项目A" 或 "生活/健康"）
+    // 使用可空类型以兼容旧数据，null 视为"未分类"
+    @Index
+    var folderPath: String? = null,
+
+    // 文本内容的向量嵌入
+    @Convert(converter = EmbeddingConverter::class, dbType = ByteArray::class)
+    var embedding: Embedding? = null,
+
+    // --- 时间戳 (Timestamps) ---
+    var createdAt: Date = Date(),
+    var updatedAt: Date = Date(),
+    var lastAccessedAt: Date = Date()
+) {
+    // 使用 ToMany 关联多个标签
+    lateinit var tags: ToMany<MemoryTag>
+
+    // 存储与该记忆相关的任意键值对属性
+    lateinit var properties: ToMany<MemoryProperty>
+
+    // 从这个记忆出发的关联
+    lateinit var links: ToMany<MemoryLink>
+
+    // 这个记忆作为目标被哪些关联指向 (反向链接)
+    @Backlink(to = "target")
+    lateinit var backlinks: ToMany<MemoryLink>
+
+    // 新增：如果这是一个文档节点，则包含其所有内容区块
+    @Backlink(to = "memory")
+    lateinit var documentChunks: ToMany<DocumentChunk>
+}
+
+/**
+ * 记忆标签 (Memory Tag)
+ * 用于对记忆进行分类和组织，支持层级结构。
+ */
+@Entity
+data class MemoryTag(
+    @Id var id: Long = 0,
+    var name: String = "" // 标签名称
+) {
+    // 父标签，用于构建层级关系
+    lateinit var parent: ToOne<MemoryTag>
+
+    // 该标签下的所有记忆
+    @Backlink(to = "tags")
+    lateinit var memories: ToMany<Memory>
+}
+
+/**
+ * 记忆关联 (Memory Link)
+ * 定义记忆之间的关系。
+ */
+@Entity
+data class MemoryLink(
+    @Id var id: Long = 0,
+    var type: String = "related", // 关联类型 (e.g., "causes", "explains", "part_of")
+    var weight: Float = 1.0f, // 关联强度 (0.0 to 1.0)
+    var description: String = "" // 关联的详细描述
+) {
+    // 关联的源头和目标
+    lateinit var source: ToOne<Memory>
+    lateinit var target: ToOne<Memory>
+}
+
+/**
+ * 记忆属性 (Memory Property)
+ * 灵活的键值对存储，用于扩展记忆的元数据。
+ */
+@Entity
+data class MemoryProperty(
+    @Id var id: Long = 0,
+    var key: String = "",
+    var value: String = ""
+) 

@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE5vdE51bGwKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENoYXRNYXJrdXBSZWdleFRvb2xSZXN1bHRUZXN0IHsKCiAgICBAVGVzdCBmdW4gdG9vbFJlc3VsdFRhZ19tYXRjaGVzU3VmZml4VmFyaWFudCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC50b29sUmVzdWx0VGFnLmNvbnRhaW5zTWF0Y2hJbigiPHRvb2xfcmVzdWx0X2V4ZWM+ZG9uZTwvdG9vbF9yZXN1bHRfZXhlYz4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gdG9vbFJlc3VsdFNlbGZDbG9zaW5nVGFnX21hdGNoZXNTdWZmaXhWYXJpYW50KCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LnRvb2xSZXN1bHRTZWxmQ2xvc2luZ1RhZy5jb250YWluc01hdGNoSW4oIjx0b29sX3Jlc3VsdF9leGVjIC8+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHRvb2xSZXN1bHRBbnlQYXR0ZXJuX2V4dHJhY3RzQm9keSgpIHsKICAgICAgICB2YWwgbWF0Y2ggPSBDaGF0TWFya3VwUmVnZXgudG9vbFJlc3VsdEFueVBhdHRlcm4uZmluZCgiPHRvb2xfcmVzdWx0PmRvbmU8L3Rvb2xfcmVzdWx0PiIpCiAgICAgICAgYXNzZXJ0Tm90TnVsbChtYXRjaCkKICAgICAgICBhc3NlcnRFcXVhbHMoImRvbmUiLCBtYXRjaCEhLmdyb3VwVmFsdWVzWzJdKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatMarkupRegexToolResultTest {
+
+    @Test fun toolResultTag_matchesSuffixVariant() {
+        assertTrue(ChatMarkupRegex.toolResultTag.containsMatchIn("<tool_result_exec>done</tool_result_exec>"))
+    }
+
+    @Test fun toolResultSelfClosingTag_matchesSuffixVariant() {
+        assertTrue(ChatMarkupRegex.toolResultSelfClosingTag.containsMatchIn("<tool_result_exec />"))
+    }
+
+    @Test fun toolResultAnyPattern_extractsBody() {
+        val match = ChatMarkupRegex.toolResultAnyPattern.find("<tool_result>done</tool_result>")
+        assertNotNull(match)
+        assertEquals("done", match!!.groupValues[2])
+    }
+}

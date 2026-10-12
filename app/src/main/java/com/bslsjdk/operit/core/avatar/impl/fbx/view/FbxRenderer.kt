@@ -1,1 +1,147 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5mYngudmlldwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5iYWNrZ3JvdW5kCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4U2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5vZmZzZXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuU3VyZmFjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5EaXNwb3NhYmxlRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTGF1bmNoZWRFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5jb2xsZWN0QXNTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5zY2FsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbExpZmVjeWNsZU93bmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudmlld2ludGVyb3AuQW5kcm9pZFZpZXcKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5MaWZlY3ljbGUKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5MaWZlY3ljbGVFdmVudE9ic2VydmVyCmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5mYnguRmJ4R2xTdXJmYWNlVmlldwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5jb250cm9sLkF2YXRhckNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5pbXBsLmZieC5jb250cm9sLkZieEF2YXRhckNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5pbXBsLmZieC5tb2RlbC5GYnhBdmF0YXJNb2RlbAoKQENvbXBvc2FibGUKQFN1cHByZXNzKCJERVBSRUNBVElPTiIpCmZ1biBGYnhSZW5kZXJlcigKICAgIG1vZGlmaWVyOiBNb2RpZmllciwKICAgIG1vZGVsOiBGYnhBdmF0YXJNb2RlbCwKICAgIGNvbnRyb2xsZXI6IEF2YXRhckNvbnRyb2xsZXIsCiAgICBvbkVycm9yOiAoU3RyaW5nKSAtPiBVbml0CikgewogICAgdmFsIGZieENvbnRyb2xsZXIgPSBjb250cm9sbGVyIGFzPyBGYnhBdmF0YXJDb250cm9sbGVyCiAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJGYnhSZW5kZXJlciByZXF1aXJlcyBhIEZieEF2YXRhckNvbnRyb2xsZXIiKQoKICAgIHZhbCBzY2FsZSBieSBmYnhDb250cm9sbGVyLnNjYWxlLmNvbGxlY3RBc1N0YXRlKCkKICAgIHZhbCB0cmFuc2xhdGVYIGJ5IGZieENvbnRyb2xsZXIudHJhbnNsYXRlWC5jb2xsZWN0QXNTdGF0ZSgpCiAgICB2YWwgdHJhbnNsYXRlWSBieSBmYnhDb250cm9sbGVyLnRyYW5zbGF0ZVkuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIGNhbWVyYVBpdGNoIGJ5IGZieENvbnRyb2xsZXIuY2FtZXJhUGl0Y2guY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIGNhbWVyYVlhdyBieSBmYnhDb250cm9sbGVyLmNhbWVyYVlhdy5jb2xsZWN0QXNTdGF0ZSgpCiAgICB2YWwgY2FtZXJhRGlzdGFuY2VTY2FsZSBieSBmYnhDb250cm9sbGVyLmNhbWVyYURpc3RhbmNlU2NhbGUuY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIGNhbWVyYVRhcmdldEhlaWdodCBieSBmYnhDb250cm9sbGVyLmNhbWVyYVRhcmdldEhlaWdodC5jb2xsZWN0QXNTdGF0ZSgpCiAgICB2YWwgYXZhdGFyU3RhdGUgYnkgZmJ4Q29udHJvbGxlci5zdGF0ZS5jb2xsZWN0QXNTdGF0ZSgpCgogICAgdmFsIHNhZmVTY2FsZSA9IHNjYWxlLmNvZXJjZUluKDAuMmYsIDUuMGYpCgogICAgdmFsIGxpZmVjeWNsZU93bmVyID0gTG9jYWxMaWZlY3ljbGVPd25lci5jdXJyZW50CiAgICB2YWwgc3VyZmFjZVZpZXdTdGF0ZSA9IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Y8RmJ4R2xTdXJmYWNlVmlldz8+KG51bGwpIH0KICAgIHZhbCByZW5kZXJFcnJvclN0YXRlID0gcmVtZW1iZXIobW9kZWwubW9kZWxQYXRoKSB7IG11dGFibGVTdGF0ZU9mPFN0cmluZz8+KG51bGwpIH0KCiAgICBMYXVuY2hlZEVmZmVjdChtb2RlbC5tb2RlbFBhdGgpIHsKICAgICAgICByZW5kZXJFcnJvclN0YXRlLnZhbHVlID0gbnVsbAogICAgfQoKICAgIERpc3Bvc2FibGVFZmZlY3QobGlmZWN5Y2xlT3duZXIpIHsKICAgICAgICB2YWwgb2JzZXJ2ZXIgPSBMaWZlY3ljbGVFdmVudE9ic2VydmVyIHsgXywgZXZlbnQgLT4KICAgICAgICAgICAgd2hlbiAoZXZlbnQpIHsKICAgICAgICAgICAgICAgIExpZmVjeWNsZS5FdmVudC5PTl9SRVNVTUUgLT4gc3VyZmFjZVZpZXdTdGF0ZS52YWx1ZT8ub25SZXN1bWUoKQogICAgICAgICAgICAgICAgTGlmZWN5Y2xlLkV2ZW50Lk9OX1BBVVNFIC0+IHN1cmZhY2VWaWV3U3RhdGUudmFsdWU/Lm9uUGF1c2UoKQogICAgICAgICAgICAgICAgZWxzZSAtPiBVbml0CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIGxpZmVjeWNsZU93bmVyLmxpZmVjeWNsZS5hZGRPYnNlcnZlcihvYnNlcnZlcikKICAgICAgICBvbkRpc3Bvc2UgewogICAgICAgICAgICBsaWZlY3ljbGVPd25lci5saWZlY3ljbGUucmVtb3ZlT2JzZXJ2ZXIob2JzZXJ2ZXIpCiAgICAgICAgICAgIHN1cmZhY2VWaWV3U3RhdGUudmFsdWU/Lm9uUGF1c2UoKQogICAgICAgIH0KICAgIH0KCiAgICBCb3goCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllcgogICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAuc2NhbGUoc2FmZVNjYWxlKQogICAgICAgICAgICAub2Zmc2V0KHggPSB0cmFuc2xhdGVYLmRwLCB5ID0gdHJhbnNsYXRlWS5kcCkKICAgICAgICAgICAgLmJhY2tncm91bmQoQ29sb3IuVHJhbnNwYXJlbnQpCiAgICApIHsKICAgICAgICBBbmRyb2lkVmlldygKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4U2l6ZSgpLAogICAgICAgICAgICBmYWN0b3J5ID0geyBjb250ZXh0IC0+CiAgICAgICAgICAgICAgICBGYnhHbFN1cmZhY2VWaWV3KGNvbnRleHQpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICBzdXJmYWNlVmlld1N0YXRlLnZhbHVlID0gdGhpcwogICAgICAgICAgICAgICAgICAgIHNldE9uUmVuZGVyRXJyb3JMaXN0ZW5lciB7IG1lc3NhZ2UgLT4KICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBtZXNzYWdlLnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgICAgICAgICAgICAgIHJlbmRlckVycm9yU3RhdGUudmFsdWUgPSBub3JtYWxpemVkCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChub3JtYWxpemVkICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uRXJyb3Iobm9ybWFsaXplZCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBzZXRPbkFuaW1hdGlvbnNEaXNjb3ZlcmVkTGlzdGVuZXIgeyBhbmltYXRpb25OYW1lcywgZHVyYXRpb25NaWxsaXNCeU5hbWUgLT4KICAgICAgICAgICAgICAgICAgICAgICAgZmJ4Q29udHJvbGxlci51cGRhdGVBbmltYXRpb25NZXRhZGF0YSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2NvdmVyZWRBbmltYXRpb25zID0gYW5pbWF0aW9uTmFtZXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkdXJhdGlvbk1pbGxpc0J5TmFtZSA9IGR1cmF0aW9uTWlsbGlzQnlOYW1lCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgc2V0TW9kZWxQYXRoKG1vZGVsLm1vZGVsUGF0aCkKICAgICAgICAgICAgICAgICAgICBzZXRBbmltYXRpb25TdGF0ZSgKICAgICAgICAgICAgICAgICAgICAgICAgYXZhdGFyU3RhdGUuY3VycmVudEFuaW1hdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgYXZhdGFyU3RhdGUuaXNMb29waW5nLAogICAgICAgICAgICAgICAgICAgICAgICBhdmF0YXJTdGF0ZS5wbGF5YmFja05vbmNlCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHNldENhbWVyYVBvc2UoY2FtZXJhUGl0Y2gsIGNhbWVyYVlhdywgY2FtZXJhRGlzdGFuY2VTY2FsZSwgY2FtZXJhVGFyZ2V0SGVpZ2h0KQogICAgICAgICAgICAgICAgICAgIG9uUmVzdW1lKCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgdXBkYXRlID0geyB2aWV3IC0+CiAgICAgICAgICAgICAgICBzdXJmYWNlVmlld1N0YXRlLnZhbHVlID0gdmlldwogICAgICAgICAgICAgICAgdmlldy5zZXRPbkFuaW1hdGlvbnNEaXNjb3ZlcmVkTGlzdGVuZXIgeyBhbmltYXRpb25OYW1lcywgZHVyYXRpb25NaWxsaXNCeU5hbWUgLT4KICAgICAgICAgICAgICAgICAgICBmYnhDb250cm9sbGVyLnVwZGF0ZUFuaW1hdGlvbk1ldGFkYXRhKAogICAgICAgICAgICAgICAgICAgICAgICBkaXNjb3ZlcmVkQW5pbWF0aW9ucyA9IGFuaW1hdGlvbk5hbWVzLAogICAgICAgICAgICAgICAgICAgICAgICBkdXJhdGlvbk1pbGxpc0J5TmFtZSA9IGR1cmF0aW9uTWlsbGlzQnlOYW1lCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdmlldy5zZXRNb2RlbFBhdGgobW9kZWwubW9kZWxQYXRoKQogICAgICAgICAgICAgICAgdmlldy5zZXRBbmltYXRpb25TdGF0ZSgKICAgICAgICAgICAgICAgICAgICBhdmF0YXJTdGF0ZS5jdXJyZW50QW5pbWF0aW9uLAogICAgICAgICAgICAgICAgICAgIGF2YXRhclN0YXRlLmlzTG9vcGluZywKICAgICAgICAgICAgICAgICAgICBhdmF0YXJTdGF0ZS5wbGF5YmFja05vbmNlCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB2aWV3LnNldENhbWVyYVBvc2UoY2FtZXJhUGl0Y2gsIGNhbWVyYVlhdywgY2FtZXJhRGlzdGFuY2VTY2FsZSwgY2FtZXJhVGFyZ2V0SGVpZ2h0KQogICAgICAgICAgICB9CiAgICAgICAgKQoKICAgICAgICByZW5kZXJFcnJvclN0YXRlLnZhbHVlPy5sZXQgeyBlcnJvciAtPgogICAgICAgICAgICBTdXJmYWNlKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5hbGlnbihBbGlnbm1lbnQuQm90dG9tQ2VudGVyKQogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKDguZHApLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yQ29udGFpbmVyLmNvcHkoYWxwaGEgPSAwLjkyZikKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBlcnJvciwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uRXJyb3JDb250YWluZXIsCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKGhvcml6b250YWwgPSAxMC5kcCwgdmVydGljYWwgPSA2LmRwKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.avatar.impl.fbx.view
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalLifecycleOwner
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import com.ai.assistance.fbx.FbxGlSurfaceView
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.impl.fbx.control.FbxAvatarController
+import com.bslsjdk.operit.core.avatar.impl.fbx.model.FbxAvatarModel
+
+@Composable
+@Suppress("DEPRECATION")
+fun FbxRenderer(
+    modifier: Modifier,
+    model: FbxAvatarModel,
+    controller: AvatarController,
+    onError: (String) -> Unit
+) {
+    val fbxController = controller as? FbxAvatarController
+        ?: throw IllegalArgumentException("FbxRenderer requires a FbxAvatarController")
+
+    val scale by fbxController.scale.collectAsState()
+    val translateX by fbxController.translateX.collectAsState()
+    val translateY by fbxController.translateY.collectAsState()
+    val cameraPitch by fbxController.cameraPitch.collectAsState()
+    val cameraYaw by fbxController.cameraYaw.collectAsState()
+    val cameraDistanceScale by fbxController.cameraDistanceScale.collectAsState()
+    val cameraTargetHeight by fbxController.cameraTargetHeight.collectAsState()
+    val avatarState by fbxController.state.collectAsState()
+
+    val safeScale = scale.coerceIn(0.2f, 5.0f)
+
+    val lifecycleOwner = LocalLifecycleOwner.current
+    val surfaceViewState = remember { mutableStateOf<FbxGlSurfaceView?>(null) }
+    val renderErrorState = remember(model.modelPath) { mutableStateOf<String?>(null) }
+
+    LaunchedEffect(model.modelPath) {
+        renderErrorState.value = null
+    }
+
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            when (event) {
+                Lifecycle.Event.ON_RESUME -> surfaceViewState.value?.onResume()
+                Lifecycle.Event.ON_PAUSE -> surfaceViewState.value?.onPause()
+                else -> Unit
+            }
+        }
+
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose {
+            lifecycleOwner.lifecycle.removeObserver(observer)
+            surfaceViewState.value?.onPause()
+        }
+    }
+
+    Box(
+        modifier = modifier
+            .fillMaxSize()
+            .scale(safeScale)
+            .offset(x = translateX.dp, y = translateY.dp)
+            .background(Color.Transparent)
+    ) {
+        AndroidView(
+            modifier = Modifier.fillMaxSize(),
+            factory = { context ->
+                FbxGlSurfaceView(context).apply {
+                    surfaceViewState.value = this
+                    setOnRenderErrorListener { message ->
+                        val normalized = message.takeIf { it.isNotBlank() }
+                        renderErrorState.value = normalized
+                        if (normalized != null) {
+                            onError(normalized)
+                        }
+                    }
+                    setOnAnimationsDiscoveredListener { animationNames, durationMillisByName ->
+                        fbxController.updateAnimationMetadata(
+                            discoveredAnimations = animationNames,
+                            durationMillisByName = durationMillisByName
+                        )
+                    }
+                    setModelPath(model.modelPath)
+                    setAnimationState(
+                        avatarState.currentAnimation,
+                        avatarState.isLooping,
+                        avatarState.playbackNonce
+                    )
+                    setCameraPose(cameraPitch, cameraYaw, cameraDistanceScale, cameraTargetHeight)
+                    onResume()
+                }
+            },
+            update = { view ->
+                surfaceViewState.value = view
+                view.setOnAnimationsDiscoveredListener { animationNames, durationMillisByName ->
+                    fbxController.updateAnimationMetadata(
+                        discoveredAnimations = animationNames,
+                        durationMillisByName = durationMillisByName
+                    )
+                }
+                view.setModelPath(model.modelPath)
+                view.setAnimationState(
+                    avatarState.currentAnimation,
+                    avatarState.isLooping,
+                    avatarState.playbackNonce
+                )
+                view.setCameraPose(cameraPitch, cameraYaw, cameraDistanceScale, cameraTargetHeight)
+            }
+        )
+
+        renderErrorState.value?.let { error ->
+            Surface(
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(8.dp),
+                color = MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.92f)
+            ) {
+                Text(
+                    text = error,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onErrorContainer,
+                    modifier = Modifier.padding(horizontal = 10.dp, vertical = 6.dp)
+                )
+            }
+        }
+    }
+}

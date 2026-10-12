@@ -1,1 +1,79 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKb2JqZWN0IFR0c1NlZ21lbnRlciB7CiAgICBjb25zdCB2YWwgTUFYX1NFR01FTlRfTEVOR1RIID0gNTAKICAgIGNvbnN0IHZhbCBFTkRfQ0hBUlMgPSAiIT87OuOAgu+8ge+8n++8m++8mlxuIgoKICAgIGZ1biBmaW5kRmlyc3RFbmRDaGFySW5kZXgodGV4dDogQ2hhclNlcXVlbmNlKTogSW50IHsKICAgICAgICBmb3IgKGluZGV4IGluIDAgdW50aWwgdGV4dC5sZW5ndGgpIHsKICAgICAgICAgICAgaWYgKGlzU2VnbWVudEVuZGluZ0NoYXIodGV4dCwgaW5kZXgpKSByZXR1cm4gaW5kZXgKICAgICAgICB9CiAgICAgICAgcmV0dXJuIC0xCiAgICB9CgogICAgZnVuIG5leHRTZWdtZW50RW5kKGJ1ZmZlcjogQ2hhclNlcXVlbmNlKTogSW50IHsKICAgICAgICB2YWwgZW5kSW5kZXggPSBmaW5kRmlyc3RFbmRDaGFySW5kZXgoYnVmZmVyKQogICAgICAgIGlmIChlbmRJbmRleCA+PSAwKSB7CiAgICAgICAgICAgIHZhciBib3VuZGFyeSA9IGVuZEluZGV4ICsgMQogICAgICAgICAgICB3aGlsZSAoYm91bmRhcnkgPCBidWZmZXIubGVuZ3RoICYmIGlzVHJhaWxpbmdFbmRpbmdDaGFyKGJ1ZmZlciwgYm91bmRhcnkpKSB7CiAgICAgICAgICAgICAgICBib3VuZGFyeSsrCiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIGJvdW5kYXJ5CiAgICAgICAgfQogICAgICAgIGlmIChidWZmZXIubGVuZ3RoID49IE1BWF9TRUdNRU5UX0xFTkdUSCkgcmV0dXJuIGJ1ZmZlci5sZW5ndGgKICAgICAgICByZXR1cm4gLTEKICAgIH0KCiAgICBmdW4gc3BsaXQodGV4dDogU3RyaW5nKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICB2YWwgYnVmZmVyID0gU3RyaW5nQnVpbGRlcih0ZXh0KQogICAgICAgIHZhbCBzZWdtZW50cyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCgogICAgICAgIHdoaWxlIChidWZmZXIuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgIHZhbCBlbmRJbmRleCA9IG5leHRTZWdtZW50RW5kKGJ1ZmZlcikKICAgICAgICAgICAgaWYgKGVuZEluZGV4IDwgMCkgYnJlYWsKCiAgICAgICAgICAgIHZhbCBzZWdtZW50ID0gYnVmZmVyLnN1YnN0cmluZygwLCBlbmRJbmRleCkudHJpbSgpCiAgICAgICAgICAgIGlmIChzZWdtZW50LmlzTm90RW1wdHkoKSkgc2VnbWVudHMgKz0gc2VnbWVudAogICAgICAgICAgICBidWZmZXIuZGVsZXRlKDAsIGVuZEluZGV4KQogICAgICAgIH0KCiAgICAgICAgdmFsIHJlbWFpbmluZyA9IGJ1ZmZlci50b1N0cmluZygpLnRyaW0oKQogICAgICAgIGlmIChyZW1haW5pbmcuaXNOb3RFbXB0eSgpKSBzZWdtZW50cyArPSByZW1haW5pbmcKICAgICAgICByZXR1cm4gc2VnbWVudHMKICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc1NlZ21lbnRFbmRpbmdDaGFyKHRleHQ6IENoYXJTZXF1ZW5jZSwgaW5kZXg6IEludCk6IEJvb2xlYW4gewogICAgICAgIHZhbCBjdXJyZW50ID0gdGV4dFtpbmRleF0KICAgICAgICBpZiAoRU5EX0NIQVJTLmluZGV4T2YoY3VycmVudCkgPj0gMCkgewogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KCiAgICAgICAgaWYgKGN1cnJlbnQgIT0gJy4nKSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgdmFsIG5leHQgPSB0ZXh0LmdldE9yTnVsbChpbmRleCArIDEpCiAgICAgICAgcmV0dXJuIG5leHQgPT0gbnVsbCB8fCAoIW5leHQuaXNEaWdpdCgpICYmIG5leHQgIT0gJy4nKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzVHJhaWxpbmdFbmRpbmdDaGFyKHRleHQ6IENoYXJTZXF1ZW5jZSwgaW5kZXg6IEludCk6IEJvb2xlYW4gewogICAgICAgIHZhbCBjdXJyZW50ID0gdGV4dFtpbmRleF0KICAgICAgICBpZiAoRU5EX0NIQVJTLmluZGV4T2YoY3VycmVudCkgPj0gMCkgewogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KCiAgICAgICAgaWYgKGN1cnJlbnQgIT0gJy4nKSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgdmFsIHByZXZpb3VzID0gdGV4dC5nZXRPck51bGwoaW5kZXggLSAxKQogICAgICAgIHJldHVybiBwcmV2aW91cyA9PSAnLicKICAgIH0KCiAgICBwcml2YXRlIGZ1biBDaGFyU2VxdWVuY2UuZ2V0T3JOdWxsKGluZGV4OiBJbnQpOiBDaGFyPyB7CiAgICAgICAgaWYgKGluZGV4IDwgMCB8fCBpbmRleCA+PSBsZW5ndGgpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRoaXNbaW5kZXhdCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+object TtsSegmenter {
+    const val MAX_SEGMENT_LENGTH = 50
+    const val END_CHARS = "!?;:。！？；：\n"
+
+    fun findFirstEndCharIndex(text: CharSequence): Int {
+        for (index in 0 until text.length) {
+            if (isSegmentEndingChar(text, index)) return index
+        }
+        return -1
+    }
+
+    fun nextSegmentEnd(buffer: CharSequence): Int {
+        val endIndex = findFirstEndCharIndex(buffer)
+        if (endIndex >= 0) {
+            var boundary = endIndex + 1
+            while (boundary < buffer.length && isTrailingEndingChar(buffer, boundary)) {
+                boundary++
+            }
+            return boundary
+        }
+        if (buffer.length >= MAX_SEGMENT_LENGTH) return buffer.length
+        return -1
+    }
+
+    fun split(text: String): List<String> {
+        val buffer = StringBuilder(text)
+        val segments = mutableListOf<String>()
+
+        while (buffer.isNotEmpty()) {
+            val endIndex = nextSegmentEnd(buffer)
+            if (endIndex < 0) break
+
+            val segment = buffer.substring(0, endIndex).trim()
+            if (segment.isNotEmpty()) segments += segment
+            buffer.delete(0, endIndex)
+        }
+
+        val remaining = buffer.toString().trim()
+        if (remaining.isNotEmpty()) segments += remaining
+        return segments
+    }
+
+    private fun isSegmentEndingChar(text: CharSequence, index: Int): Boolean {
+        val current = text[index]
+        if (END_CHARS.indexOf(current) >= 0) {
+            return true
+        }
+
+        if (current != '.') {
+            return false
+        }
+
+        val next = text.getOrNull(index + 1)
+        return next == null || (!next.isDigit() && next != '.')
+    }
+
+    private fun isTrailingEndingChar(text: CharSequence, index: Int): Boolean {
+        val current = text[index]
+        if (END_CHARS.indexOf(current) >= 0) {
+            return true
+        }
+
+        if (current != '.') {
+            return false
+        }
+
+        val previous = text.getOrNull(index - 1)
+        return previous == '.'
+    }
+
+    private fun CharSequence.getOrNull(index: Int): Char? {
+        if (index < 0 || index >= length) {
+            return null
+        }
+        return this[index]
+    }
+}

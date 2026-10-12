@@ -1,1 +1,116 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmRpc3BsYXlzCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBvcmcuc2NpbGFiLmZvcmdlLmpsYXRleG1hdGguQXRvbQppbXBvcnQgb3JnLnNjaWxhYi5mb3JnZS5qbGF0ZXhtYXRoLkNvbG9yQXRvbQppbXBvcnQgb3JnLnNjaWxhYi5mb3JnZS5qbGF0ZXhtYXRoLkVtcHR5QXRvbQppbXBvcnQgb3JnLnNjaWxhYi5mb3JnZS5qbGF0ZXhtYXRoLk1hY3JvSW5mbwppbXBvcnQgb3JnLnNjaWxhYi5mb3JnZS5qbGF0ZXhtYXRoLlJvd0F0b20KaW1wb3J0IG9yZy5zY2lsYWIuZm9yZ2UuamxhdGV4bWF0aC5TcGFjZUF0b20KaW1wb3J0IG9yZy5zY2lsYWIuZm9yZ2UuamxhdGV4bWF0aC5TeW1ib2xBdG9tCmltcG9ydCBvcmcuc2NpbGFiLmZvcmdlLmpsYXRleG1hdGguVGVYQ29uc3RhbnRzCmltcG9ydCBvcmcuc2NpbGFiLmZvcmdlLmpsYXRleG1hdGguVGVYRm9ybXVsYQppbXBvcnQgb3JnLnNjaWxhYi5mb3JnZS5qbGF0ZXhtYXRoLlRlWFBhcnNlcgppbXBvcnQgb3JnLnNjaWxhYi5mb3JnZS5qbGF0ZXhtYXRoLlR5cGVkQXRvbQoKcHJpdmF0ZSBmdW4gYWR2YW5jZVRlWFBhcnNlclBvc2l0aW9uKHBhcnNlcjogVGVYUGFyc2VyLCBjb25zdW1lZExlbmd0aDogSW50KSB7CiAgICBydW5DYXRjaGluZyB7CiAgICAgICAgdmFsIHBvc2l0aW9uRmllbGQgPSBUZVhQYXJzZXI6OmNsYXNzLmphdmEuZ2V0RGVjbGFyZWRGaWVsZCgicG9zIikuYXBwbHkgewogICAgICAgICAgICBpc0FjY2Vzc2libGUgPSB0cnVlCiAgICAgICAgfQogICAgICAgIHBvc2l0aW9uRmllbGQuc2V0SW50KHBhcnNlciwgcGFyc2VyLmdldFBvcygpICsgY29uc3VtZWRMZW5ndGgpCiAgICB9Lm9uRmFpbHVyZSB7CiAgICAgICAgQXBwTG9nZ2VyLncoIkpMYXRleE1hdGhDb21wYXRpYmlsaXR5IiwgIkZhaWxlZCB0byBhZHZhbmNlIFRlWFBhcnNlciBhZnRlciBjb2xvciBtYWNybyIsIGl0KQogICAgfQp9CgpAU3VwcHJlc3MoIlVOVVNFRF9QQVJBTUVURVIiKQppbnRlcm5hbCBjbGFzcyBKTGF0ZXhNYXRoQ29tcGF0TWFjcm9zIHsKICAgIGZ1biBjb2xvcl9tYWNybyh0cDogVGVYUGFyc2VyLCBhcmdzOiBBcnJheTxTdHJpbmc+KTogQXRvbT8gewogICAgICAgIHZhbCBjb2xvciA9IENvbG9yQXRvbS5nZXRDb2xvcihhcmdzWzFdKQogICAgICAgIHZhbCByZW1haW5pbmcgPSB0cC5nZXRTdHJpbmdGcm9tQ3VycmVudFBvcygpCiAgICAgICAgdmFsIG5leHRDb250ZW50SW5kZXggPSByZW1haW5pbmcuaW5kZXhPZkZpcnN0IHsgIWl0LmlzV2hpdGVzcGFjZSgpIH0KCiAgICAgICAgaWYgKG5leHRDb250ZW50SW5kZXggPT0gLTEpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CgogICAgICAgIHJldHVybiBpZiAocmVtYWluaW5nW25leHRDb250ZW50SW5kZXhdID09ICd7JykgewogICAgICAgICAgICBDb2xvckF0b20odHAuZ2V0QXJndW1lbnQoKSwgbnVsbCwgY29sb3IpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdmFsIGF0b20gPSBUZVhGb3JtdWxhKHJlbWFpbmluZykucm9vdCA/OiBFbXB0eUF0b20oKQogICAgICAgICAgICBhZHZhbmNlVGVYUGFyc2VyUG9zaXRpb24odHAsIHJlbWFpbmluZy5sZW5ndGgpCiAgICAgICAgICAgIENvbG9yQXRvbShhdG9tLCBudWxsLCBjb2xvcikKICAgICAgICB9CiAgICB9CgogICAgZnVuIG9paW50X21hY3JvKHRwOiBUZVhQYXJzZXIsIGFyZ3M6IEFycmF5PFN0cmluZz4pOiBBdG9tIHsKICAgICAgICByZXR1cm4gYnVpbGRDbG9zZWRJbnRlZ3JhbEF0b20oZXh0cmFJbnRlZ3JhbHMgPSAxKQogICAgfQoKICAgIGZ1biBvaWlpbnRfbWFjcm8odHA6IFRlWFBhcnNlciwgYXJnczogQXJyYXk8U3RyaW5nPik6IEF0b20gewogICAgICAgIHJldHVybiBidWlsZENsb3NlZEludGVncmFsQXRvbShleHRyYUludGVncmFscyA9IDIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGRDbG9zZWRJbnRlZ3JhbEF0b20oZXh0cmFJbnRlZ3JhbHM6IEludCk6IEF0b20gewogICAgICAgIHZhbCBjb250b3VySW50ZWdyYWwgPSBTeW1ib2xBdG9tLmdldCgib2ludCIpLmNsb25lKCkuYXBwbHkgewogICAgICAgICAgICB0eXBlX2xpbWl0cyA9IFRlWENvbnN0YW50cy5TQ1JJUFRfTk9MSU1JVFMKICAgICAgICB9CiAgICAgICAgdmFsIG9wZW5JbnRlZ3JhbCA9IFN5bWJvbEF0b20uZ2V0KCJpbnQiKS5jbG9uZSgpLmFwcGx5IHsKICAgICAgICAgICAgdHlwZV9saW1pdHMgPSBUZVhDb25zdGFudHMuU0NSSVBUX05PTElNSVRTCiAgICAgICAgfQoKICAgICAgICB2YWwgcm93ID0gUm93QXRvbShjb250b3VySW50ZWdyYWwpCiAgICAgICAgcmVwZWF0KGV4dHJhSW50ZWdyYWxzKSB7CiAgICAgICAgICAgIHJvdy5hZGQoU3BhY2VBdG9tKFRlWENvbnN0YW50cy5VTklUX01VLCAtNmYsIDBmLCAwZikpCiAgICAgICAgICAgIHJvdy5hZGQob3BlbkludGVncmFsLmNsb25lKCkpCiAgICAgICAgfQogICAgICAgIHJvdy5sb29rQXRMYXN0QXRvbSA9IHRydWUKCiAgICAgICAgcmV0dXJuIFR5cGVkQXRvbSgKICAgICAgICAgICAgVGVYQ29uc3RhbnRzLlRZUEVfQklHX09QRVJBVE9SLAogICAgICAgICAgICBUZVhDb25zdGFudHMuVFlQRV9CSUdfT1BFUkFUT1IsCiAgICAgICAgICAgIHJvdwogICAgICAgICkKICAgIH0KfQoKaW50ZXJuYWwgb2JqZWN0IEpMYXRleE1hdGhDb21wYXRpYmlsaXR5IHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJKTGF0ZXhNYXRoQ29tcGF0aWJpbGl0eSIKCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIHJlZ2lzdGVyZWQgPSBmYWxzZQoKICAgIGZ1biBlbnN1cmVSZWdpc3RlcmVkKCkgewogICAgICAgIGlmIChyZWdpc3RlcmVkKSByZXR1cm4KCiAgICAgICAgc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgaWYgKHJlZ2lzdGVyZWQpIHJldHVybgoKICAgICAgICAgICAgcmVnaXN0ZXJDb21tYW5kSWZNaXNzaW5nKCJjb2xvciIsICJjb2xvcl9tYWNybyIpCiAgICAgICAgICAgIHJlZ2lzdGVyQ29tbWFuZElmTWlzc2luZygib2lpbnQiLCAib2lpbnRfbWFjcm8iKQogICAgICAgICAgICByZWdpc3RlckNvbW1hbmRJZk1pc3NpbmcoIm9paWludCIsICJvaWlpbnRfbWFjcm8iKQogICAgICAgICAgICByZWdpc3RlclVuaWNvZGVGb3JtdWxhSWZNaXNzaW5nKCdcdTIyMkYnLCAiXFxvaWludCIpCiAgICAgICAgICAgIHJlZ2lzdGVyVW5pY29kZUZvcm11bGFJZk1pc3NpbmcoJ1x1MjIzMCcsICJcXG9paWludCIpCgogICAgICAgICAgICByZWdpc3RlcmVkID0gdHJ1ZQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJSZWdpc3RlcmVkIExhVGVYIGNvbXBhdGliaWxpdHkgbWFjcm9zIikKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVnaXN0ZXJDb21tYW5kSWZNaXNzaW5nKGNvbW1hbmROYW1lOiBTdHJpbmcsIG1ldGhvZE5hbWU6IFN0cmluZykgewogICAgICAgIGlmIChNYWNyb0luZm8uQ29tbWFuZHMuY29udGFpbnNLZXkoY29tbWFuZE5hbWUpKSByZXR1cm4KCiAgICAgICAgTWFjcm9JbmZvLkNvbW1hbmRzW2NvbW1hbmROYW1lXSA9CiAgICAgICAgICAgIE1hY3JvSW5mbygKICAgICAgICAgICAgICAgIEpMYXRleE1hdGhDb21wYXRNYWNyb3M6OmNsYXNzLmphdmEubmFtZSwKICAgICAgICAgICAgICAgIG1ldGhvZE5hbWUsCiAgICAgICAgICAgICAgICAwZgogICAgICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVnaXN0ZXJVbmljb2RlRm9ybXVsYUlmTWlzc2luZyhjaGFyOiBDaGFyLCBmb3JtdWxhOiBTdHJpbmcpIHsKICAgICAgICBpZiAoVGVYRm9ybXVsYS5zeW1ib2xGb3JtdWxhTWFwcGluZ3NbY2hhci5jb2RlXSAhPSBudWxsKSByZXR1cm4KICAgICAgICBUZVhGb3JtdWxhLnN5bWJvbEZvcm11bGFNYXBwaW5nc1tjaGFyLmNvZGVdID0gZm9ybXVsYQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.common.displays
+
+import com.bslsjdk.operit.util.AppLogger
+import org.scilab.forge.jlatexmath.Atom
+import org.scilab.forge.jlatexmath.ColorAtom
+import org.scilab.forge.jlatexmath.EmptyAtom
+import org.scilab.forge.jlatexmath.MacroInfo
+import org.scilab.forge.jlatexmath.RowAtom
+import org.scilab.forge.jlatexmath.SpaceAtom
+import org.scilab.forge.jlatexmath.SymbolAtom
+import org.scilab.forge.jlatexmath.TeXConstants
+import org.scilab.forge.jlatexmath.TeXFormula
+import org.scilab.forge.jlatexmath.TeXParser
+import org.scilab.forge.jlatexmath.TypedAtom
+
+private fun advanceTeXParserPosition(parser: TeXParser, consumedLength: Int) {
+    runCatching {
+        val positionField = TeXParser::class.java.getDeclaredField("pos").apply {
+            isAccessible = true
+        }
+        positionField.setInt(parser, parser.getPos() + consumedLength)
+    }.onFailure {
+        AppLogger.w("JLatexMathCompatibility", "Failed to advance TeXParser after color macro", it)
+    }
+}
+
+@Suppress("UNUSED_PARAMETER")
+internal class JLatexMathCompatMacros {
+    fun color_macro(tp: TeXParser, args: Array<String>): Atom? {
+        val color = ColorAtom.getColor(args[1])
+        val remaining = tp.getStringFromCurrentPos()
+        val nextContentIndex = remaining.indexOfFirst { !it.isWhitespace() }
+
+        if (nextContentIndex == -1) {
+            return null
+        }
+
+        return if (remaining[nextContentIndex] == '{') {
+            ColorAtom(tp.getArgument(), null, color)
+        } else {
+            val atom = TeXFormula(remaining).root ?: EmptyAtom()
+            advanceTeXParserPosition(tp, remaining.length)
+            ColorAtom(atom, null, color)
+        }
+    }
+
+    fun oiint_macro(tp: TeXParser, args: Array<String>): Atom {
+        return buildClosedIntegralAtom(extraIntegrals = 1)
+    }
+
+    fun oiiint_macro(tp: TeXParser, args: Array<String>): Atom {
+        return buildClosedIntegralAtom(extraIntegrals = 2)
+    }
+
+    private fun buildClosedIntegralAtom(extraIntegrals: Int): Atom {
+        val contourIntegral = SymbolAtom.get("oint").clone().apply {
+            type_limits = TeXConstants.SCRIPT_NOLIMITS
+        }
+        val openIntegral = SymbolAtom.get("int").clone().apply {
+            type_limits = TeXConstants.SCRIPT_NOLIMITS
+        }
+
+        val row = RowAtom(contourIntegral)
+        repeat(extraIntegrals) {
+            row.add(SpaceAtom(TeXConstants.UNIT_MU, -6f, 0f, 0f))
+            row.add(openIntegral.clone())
+        }
+        row.lookAtLastAtom = true
+
+        return TypedAtom(
+            TeXConstants.TYPE_BIG_OPERATOR,
+            TeXConstants.TYPE_BIG_OPERATOR,
+            row
+        )
+    }
+}
+
+internal object JLatexMathCompatibility {
+    private const val TAG = "JLatexMathCompatibility"
+
+    @Volatile
+    private var registered = false
+
+    fun ensureRegistered() {
+        if (registered) return
+
+        synchronized(this) {
+            if (registered) return
+
+            registerCommandIfMissing("color", "color_macro")
+            registerCommandIfMissing("oiint", "oiint_macro")
+            registerCommandIfMissing("oiiint", "oiiint_macro")
+            registerUnicodeFormulaIfMissing('\u222F', "\\oiint")
+            registerUnicodeFormulaIfMissing('\u2230', "\\oiiint")
+
+            registered = true
+            AppLogger.d(TAG, "Registered LaTeX compatibility macros")
+        }
+    }
+
+    private fun registerCommandIfMissing(commandName: String, methodName: String) {
+        if (MacroInfo.Commands.containsKey(commandName)) return
+
+        MacroInfo.Commands[commandName] =
+            MacroInfo(
+                JLatexMathCompatMacros::class.java.name,
+                methodName,
+                0f
+            )
+    }
+
+    private fun registerUnicodeFormulaIfMissing(char: Char, formula: String) {
+        if (TeXFormula.symbolFormulaMappings[char.code] != null) return
+        TeXFormula.symbolFormulaMappings[char.code] = formula
+    }
+}

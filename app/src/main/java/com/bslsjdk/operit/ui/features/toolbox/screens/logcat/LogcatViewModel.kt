@@ -1,1 +1,72 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmxvZ2NhdAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsUHJvdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS52aWV3TW9kZWxTY29wZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqCiAqIOaXpeW/l+afpeeci+WZqFZpZXdNb2RlbCAtIOS9v+eUqEFwcExvZ2dlcuaWh+S7tgogKi8KY2xhc3MgTG9nY2F0Vmlld01vZGVsKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIDogVmlld01vZGVsKCkgewogICAgcHJpdmF0ZSB2YWwgbG9nY2F0TWFuYWdlciA9IExvZ2NhdE1hbmFnZXIoY29udGV4dCkKCgogICAgcHJpdmF0ZSB2YWwgX2lzU2F2aW5nID0gTXV0YWJsZVN0YXRlRmxvdyhmYWxzZSkKICAgIHZhbCBpc1NhdmluZzogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2lzU2F2aW5nLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfc2F2ZVJlc3VsdCA9IE11dGFibGVTdGF0ZUZsb3c8U3RyaW5nPz4obnVsbCkKICAgIHZhbCBzYXZlUmVzdWx0OiBTdGF0ZUZsb3c8U3RyaW5nPz4gPSBfc2F2ZVJlc3VsdC5hc1N0YXRlRmxvdygpCgoKCiAgICBmdW4gY2xlYXJMb2dzKCkgewogICAgICAgIGxvZ2NhdE1hbmFnZXIuY2xlYXJMb2dzKCkKICAgIH0KCiAgICBmdW4gc2F2ZUxvZ3NUb0ZpbGUoKSB7CiAgICAgICAgaWYgKF9pc1NhdmluZy52YWx1ZSkgcmV0dXJuCgogICAgICAgIF9pc1NhdmluZy52YWx1ZSA9IHRydWUKICAgICAgICBfc2F2ZVJlc3VsdC52YWx1ZSA9IG51bGwKCiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPSBMb2djYXRFeHBvcnRIZWxwZXIuZXhwb3J0TG9ncyhjb250ZXh0KQogICAgICAgICAgICAgICAgX3NhdmVSZXN1bHQudmFsdWUgPSByZXN1bHQubWVzc2FnZQogICAgICAgICAgICAgICAgZGVsYXkoMzAwMCkKICAgICAgICAgICAgICAgIF9zYXZlUmVzdWx0LnZhbHVlID0gbnVsbAogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIF9zYXZlUmVzdWx0LnZhbHVlID0gY29udGV4dC5nZXRTdHJpbmcoCiAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcubG9nY2F0X3NhdmVfZmFpbGVkLAogICAgICAgICAgICAgICAgICAgIGUubWVzc2FnZSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5sb2djYXRfdW5rbm93bl9lcnJvcikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGRlbGF5KDMwMDApCiAgICAgICAgICAgICAgICBfc2F2ZVJlc3VsdC52YWx1ZSA9IG51bGwKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIF9pc1NhdmluZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgY2xhc3MgRmFjdG9yeShwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IFZpZXdNb2RlbFByb3ZpZGVyLkZhY3RvcnkgewogICAgICAgIEBTdXBwcmVzcygiVU5DSEVDS0VEX0NBU1QiKQogICAgICAgIG92ZXJyaWRlIGZ1biA8VCA6IFZpZXdNb2RlbD4gY3JlYXRlKG1vZGVsQ2xhc3M6IENsYXNzPFQ+KTogVCB7CiAgICAgICAgICAgIGlmIChtb2RlbENsYXNzLmlzQXNzaWduYWJsZUZyb20oTG9nY2F0Vmlld01vZGVsOjpjbGFzcy5qYXZhKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIExvZ2NhdFZpZXdNb2RlbChjb250ZXh0KSBhcyBUCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmtub3duIFZpZXdNb2RlbCBjbGFzcyIpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvbkNsZWFyZWQoKSB7CiAgICAgICAgc3VwZXIub25DbGVhcmVkKCkKICAgICAgICAvLyBOby1vcCwgbm8gbW9yZSBtb25pdG9yaW5nIHRvIHN0b3AKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.toolbox.screens.logcat
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.R
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+
+/**
+ * 日志查看器ViewModel - 使用AppLogger文件
+ */
+class LogcatViewModel(private val context: Context) : ViewModel() {
+    private val logcatManager = LogcatManager(context)
+
+
+    private val _isSaving = MutableStateFlow(false)
+    val isSaving: StateFlow<Boolean> = _isSaving.asStateFlow()
+
+    private val _saveResult = MutableStateFlow<String?>(null)
+    val saveResult: StateFlow<String?> = _saveResult.asStateFlow()
+
+
+
+    fun clearLogs() {
+        logcatManager.clearLogs()
+    }
+
+    fun saveLogsToFile() {
+        if (_isSaving.value) return
+
+        _isSaving.value = true
+        _saveResult.value = null
+
+        viewModelScope.launch {
+            try {
+                val result = LogcatExportHelper.exportLogs(context)
+                _saveResult.value = result.message
+                delay(3000)
+                _saveResult.value = null
+            } catch (e: Exception) {
+                _saveResult.value = context.getString(
+                    R.string.logcat_save_failed,
+                    e.message ?: context.getString(R.string.logcat_unknown_error)
+                )
+                delay(3000)
+                _saveResult.value = null
+            } finally {
+                _isSaving.value = false
+            }
+        }
+    }
+
+    class Factory(private val context: Context) : ViewModelProvider.Factory {
+        @Suppress("UNCHECKED_CAST")
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(LogcatViewModel::class.java)) {
+                return LogcatViewModel(context) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+
+    override fun onCleared() {
+        super.onCleared()
+        // No-op, no more monitoring to stop
+    }
+}

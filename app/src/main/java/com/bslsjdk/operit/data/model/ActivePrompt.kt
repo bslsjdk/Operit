@@ -1,1 +1,6 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKc2VhbGVkIGludGVyZmFjZSBBY3RpdmVQcm9tcHQgewogICAgZGF0YSBjbGFzcyBDaGFyYWN0ZXJDYXJkKHZhbCBpZDogU3RyaW5nKSA6IEFjdGl2ZVByb21wdAogICAgZGF0YSBjbGFzcyBDaGFyYWN0ZXJHcm91cCh2YWwgaWQ6IFN0cmluZykgOiBBY3RpdmVQcm9tcHQKfQo=
+package com.bslsjdk.operit.data.model
+
+sealed interface ActivePrompt {
+    data class CharacterCard(val id: String) : ActivePrompt
+    data class CharacterGroup(val id: String) : ActivePrompt
+}

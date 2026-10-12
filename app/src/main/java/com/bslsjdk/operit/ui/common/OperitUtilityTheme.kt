@@ -1,1 +1,15 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmlzU3lzdGVtSW5EYXJrVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLmRhcmtDb2xvclNjaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMubGlnaHRDb2xvclNjaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKCkBDb21wb3NhYmxlCmZ1biBPcGVyaXRVdGlsaXR5VGhlbWUoY29udGVudDogQENvbXBvc2FibGUgKCkgLT4gVW5pdCkgewogICAgTWF0ZXJpYWxUaGVtZSgKICAgICAgICBjb2xvclNjaGVtZSA9IGlmIChpc1N5c3RlbUluRGFya1RoZW1lKCkpIGRhcmtDb2xvclNjaGVtZSgpIGVsc2UgbGlnaHRDb2xvclNjaGVtZSgpLAogICAgICAgIGNvbnRlbnQgPSBjb250ZW50CiAgICApCn0K
+package com.bslsjdk.operit.ui.common
+
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.runtime.Composable
+
+@Composable
+fun OperitUtilityTheme(content: @Composable () -> Unit) {
+    MaterialTheme(
+        colorScheme = if (isSystemInDarkTheme()) darkColorScheme() else lightColorScheme(),
+        content = content
+    )
+}

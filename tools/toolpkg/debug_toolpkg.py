@@ -15,8 +15,8 @@ import zipfile
 from dataclasses import dataclass
 from pathlib import Path
 
-DEBUG_APP_PACKAGE = "com.ai.assistance.operit.debug"
-RELEASE_APP_PACKAGE = "com.ai.assistance.operit"
+DEBUG_APP_PACKAGE = "com.bslsjdk.operit.debug"
+RELEASE_APP_PACKAGE = "com.bslsjdk.operit"
 SUPPORTED_APP_PACKAGES = (DEBUG_APP_PACKAGE, RELEASE_APP_PACKAGE)
 APP_PACKAGE_ENV = "OPERIT_APP_PACKAGE"
 MANIFEST_FILENAMES = ("manifest.json", "manifest.hjson")
@@ -389,8 +389,8 @@ def parse_args() -> argparse.Namespace:
         dest="app_package",
         default=None,
         help=(
-            "Operit applicationId to debug. Supports com.ai.assistance.operit.debug and "
-            "com.ai.assistance.operit; defaults to OPERIT_APP_PACKAGE or automatic Debug-first detection."
+            "Operit applicationId to debug. Supports com.bslsjdk.operit.debug and "
+            "com.bslsjdk.operit; defaults to OPERIT_APP_PACKAGE or automatic Debug-first detection."
         ),
     )
     parser.add_argument(

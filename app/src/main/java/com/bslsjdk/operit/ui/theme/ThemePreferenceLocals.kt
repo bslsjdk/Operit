@@ -1,1 +1,32 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkudGhlbWUKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmNvbGxlY3RBc1N0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuY29tcG9zaXRpb25Mb2NhbE9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkFjdGl2ZVByb21wdE1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkNoYXJhY3RlckNhcmRNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5UaGVtZVByZWZlcmVuY2VTbmFwc2hvdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuVGhlbWVQcmVmZXJlbmNlVmFsdWVzCgp2YWwgTG9jYWxUaGVtZVByZWZlcmVuY2VTbmFwc2hvdCA9CiAgICBjb21wb3NpdGlvbkxvY2FsT2Y8VGhlbWVQcmVmZXJlbmNlU25hcHNob3Q+IHsKICAgICAgICBlcnJvcigiTG9jYWxUaGVtZVByZWZlcmVuY2VTbmFwc2hvdCBpcyBub3QgcHJvdmlkZWQuIikKICAgIH0KCkBDb21wb3NhYmxlCmZ1biByZW1lbWJlckFjdGl2ZVRoZW1lUHJlZmVyZW5jZVNuYXBzaG90KCk6IFRoZW1lUHJlZmVyZW5jZVNuYXBzaG90IHsKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIHZhbCBhY3RpdmVQcm9tcHRNYW5hZ2VyID0gcmVtZW1iZXIoY29udGV4dCkgeyBBY3RpdmVQcm9tcHRNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpIH0KICAgIHZhbCB0aGVtZVNuYXBzaG90IGJ5IGFjdGl2ZVByb21wdE1hbmFnZXIuYWN0aXZlVGhlbWVQcmVmZXJlbmNlU25hcHNob3RGbG93LmNvbGxlY3RBc1N0YXRlKAogICAgICAgIGluaXRpYWwgPQogICAgICAgICAgICBUaGVtZVByZWZlcmVuY2VTbmFwc2hvdCgKICAgICAgICAgICAgICAgIHNvdXJjZSA9ICJjaGFyYWN0ZXJfY2FyZCIsCiAgICAgICAgICAgICAgICBzb3VyY2VJZCA9IENoYXJhY3RlckNhcmRNYW5hZ2VyLkRFRkFVTFRfQ0hBUkFDVEVSX0NBUkRfSUQsCiAgICAgICAgICAgICAgICB2YWx1ZXMgPSBUaGVtZVByZWZlcmVuY2VWYWx1ZXMuZGVmYXVsdFZpc3VhbCgpLAogICAgICAgICAgICApLAogICAgKQogICAgcmV0dXJuIHRoZW1lU25hcHNob3QKfQo=
+package com.bslsjdk.operit.ui.theme
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.compositionLocalOf
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
+import com.bslsjdk.operit.data.preferences.ActivePromptManager
+import com.bslsjdk.operit.data.preferences.CharacterCardManager
+import com.bslsjdk.operit.data.preferences.ThemePreferenceSnapshot
+import com.bslsjdk.operit.data.preferences.ThemePreferenceValues
+
+val LocalThemePreferenceSnapshot =
+    compositionLocalOf<ThemePreferenceSnapshot> {
+        error("LocalThemePreferenceSnapshot is not provided.")
+    }
+
+@Composable
+fun rememberActiveThemePreferenceSnapshot(): ThemePreferenceSnapshot {
+    val context = LocalContext.current
+    val activePromptManager = remember(context) { ActivePromptManager.getInstance(context) }
+    val themeSnapshot by activePromptManager.activeThemePreferenceSnapshotFlow.collectAsState(
+        initial =
+            ThemePreferenceSnapshot(
+                source = "character_card",
+                sourceId = CharacterCardManager.DEFAULT_CHARACTER_CARD_ID,
+                values = ThemePreferenceValues.defaultVisual(),
+            ),
+    )
+    return themeSnapshot
+}

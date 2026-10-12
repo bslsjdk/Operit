@@ -1,1 +1,123 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLmludGVudAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Ccm9hZGNhc3RSZWNlaXZlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5pbnRlZ3JhdGlvbnMuZXh0ZXJuYWxjaGF0LkV4dGVybmFsQ2hhdFJlcXVlc3QKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5pbnRlZ3JhdGlvbnMuZXh0ZXJuYWxjaGF0LkV4dGVybmFsQ2hhdFJlcXVlc3RFeGVjdXRvcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmludGVncmF0aW9ucy5leHRlcm5hbGNoYXQuRXh0ZXJuYWxDaGF0UmVzdWx0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgpjbGFzcyBFeHRlcm5hbENoYXRSZWNlaXZlciA6IEJyb2FkY2FzdFJlY2VpdmVyKCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJFeHRlcm5hbENoYXRSZWNlaXZlciIKCiAgICAgICAgY29uc3QgdmFsIEFDVElPTl9FWFRFUk5BTF9DSEFUID0gImNvbS5ic2xzamRrLm9wZXJpdC5FWFRFUk5BTF9DSEFUIgogICAgICAgIGNvbnN0IHZhbCBBQ1RJT05fRVhURVJOQUxfQ0hBVF9SRVNVTFQgPSAiY29tLmJzbHNqZGsub3Blcml0LkVYVEVSTkFMX0NIQVRfUkVTVUxUIgoKICAgICAgICBjb25zdCB2YWwgRVhUUkFfUkVRVUVTVF9JRCA9ICJyZXF1ZXN0X2lkIgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9NRVNTQUdFID0gIm1lc3NhZ2UiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX0dST1VQID0gImdyb3VwIgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9DUkVBVEVfTkVXX0NIQVQgPSAiY3JlYXRlX25ld19jaGF0IgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9DSEFUX0lEID0gImNoYXRfaWQiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX0NSRUFURV9JRl9OT05FID0gImNyZWF0ZV9pZl9ub25lIgoKICAgICAgICBjb25zdCB2YWwgRVhUUkFfU0hPV19GTE9BVElORyA9ICJzaG93X2Zsb2F0aW5nIgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9SRVRVUk5fVE9PTF9TVEFUVVMgPSAicmV0dXJuX3Rvb2xfc3RhdHVzIgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9JTklUSUFMX01PREUgPSAiaW5pdGlhbF9tb2RlIgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9BVVRPX0VYSVRfQUZURVJfTVMgPSAiYXV0b19leGl0X2FmdGVyX21zIgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9USU1FT1VUX01TID0gInRpbWVvdXRfbXMiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX1NUT1BfQUZURVIgPSAic3RvcF9hZnRlciIKCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX1JFUExZX0FDVElPTiA9ICJyZXBseV9hY3Rpb24iCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX1JFUExZX1BBQ0tBR0UgPSAicmVwbHlfcGFja2FnZSIKCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX1JFU1VMVF9TVUNDRVNTID0gInN1Y2Nlc3MiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX1JFU1VMVF9DSEFUX0lEID0gImNoYXRfaWQiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX1JFU1VMVF9BSV9SRVNQT05TRSA9ICJhaV9yZXNwb25zZSIKICAgICAgICBjb25zdCB2YWwgRVhUUkFfUkVTVUxUX0VSUk9SID0gImVycm9yIgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblJlY2VpdmUoY29udGV4dDogQ29udGV4dCwgaW50ZW50OiBJbnRlbnQpIHsKICAgICAgICBpZiAoaW50ZW50LmFjdGlvbiAhPSBBQ1RJT05fRVhURVJOQUxfQ0hBVCkgcmV0dXJuCgogICAgICAgIHZhbCBwZW5kaW5nID0gZ29Bc3luYygpCiAgICAgICAgQ29yb3V0aW5lU2NvcGUoRGlzcGF0Y2hlcnMuSU8pLmxhdW5jaCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcmVwbHlBY3Rpb24gPSBpbnRlbnQuZ2V0U3RyaW5nRXh0cmEoRVhUUkFfUkVQTFlfQUNUSU9OKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgICAgICA/OiBBQ1RJT05fRVhURVJOQUxfQ0hBVF9SRVNVTFQKICAgICAgICAgICAgICAgIHZhbCByZXBseVBhY2thZ2UgPSBpbnRlbnQuZ2V0U3RyaW5nRXh0cmEoRVhUUkFfUkVQTFlfUEFDS0FHRSk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gRXh0ZXJuYWxDaGF0UmVxdWVzdEV4ZWN1dG9yKGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KS5leGVjdXRlKAogICAgICAgICAgICAgICAgICAgIEV4dGVybmFsQ2hhdFJlcXVlc3QoCiAgICAgICAgICAgICAgICAgICAgICAgIHJlcXVlc3RJZCA9IGludGVudC5nZXRTdHJpbmdFeHRyYShFWFRSQV9SRVFVRVNUX0lEKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZSA9IGludGVudC5nZXRTdHJpbmdFeHRyYShFWFRSQV9NRVNTQUdFKSwKICAgICAgICAgICAgICAgICAgICAgICAgZ3JvdXAgPSBpbnRlbnQuZ2V0U3RyaW5nRXh0cmEoRVhUUkFfR1JPVVApLAogICAgICAgICAgICAgICAgICAgICAgICBjcmVhdGVOZXdDaGF0ID0gaW50ZW50LmdldEJvb2xlYW5FeHRyYShFWFRSQV9DUkVBVEVfTkVXX0NIQVQsIGZhbHNlKSwKICAgICAgICAgICAgICAgICAgICAgICAgY2hhdElkID0gaW50ZW50LmdldFN0cmluZ0V4dHJhKEVYVFJBX0NIQVRfSUQpLAogICAgICAgICAgICAgICAgICAgICAgICBjcmVhdGVJZk5vbmUgPSBpbnRlbnQuZ2V0Qm9vbGVhbkV4dHJhKEVYVFJBX0NSRUFURV9JRl9OT05FLCB0cnVlKSwKICAgICAgICAgICAgICAgICAgICAgICAgc2hvd0Zsb2F0aW5nID0gaW50ZW50LmdldEJvb2xlYW5FeHRyYShFWFRSQV9TSE9XX0ZMT0FUSU5HLCBmYWxzZSksCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVyblRvb2xTdGF0dXMgPSBpbnRlbnQuZ2V0Qm9vbGVhbkV4dHJhKEVYVFJBX1JFVFVSTl9UT09MX1NUQVRVUywgdHJ1ZSksCiAgICAgICAgICAgICAgICAgICAgICAgIGluaXRpYWxNb2RlID0gaW50ZW50LmdldFN0cmluZ0V4dHJhKEVYVFJBX0lOSVRJQUxfTU9ERSksCiAgICAgICAgICAgICAgICAgICAgICAgIGF1dG9FeGl0QWZ0ZXJNcyA9IGludGVudC5nZXRMb25nRXh0cmEoRVhUUkFfQVVUT19FWElUX0FGVEVSX01TLCAtMUwpLAogICAgICAgICAgICAgICAgICAgICAgICB0aW1lb3V0TXMgPSBpbnRlbnQuZ2V0TG9uZ0V4dHJhKEVYVFJBX1RJTUVPVVRfTVMsIC0xTCksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0b3BBZnRlciA9IGludGVudC5nZXRCb29sZWFuRXh0cmEoRVhUUkFfU1RPUF9BRlRFUiwgZmFsc2UpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIHNlbmRSZXN1bHRCcm9hZGNhc3QoCiAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgYWN0aW9uID0gcmVwbHlBY3Rpb24sCiAgICAgICAgICAgICAgICAgICAgcGFja2FnZU5hbWUgPSByZXBseVBhY2thZ2UsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGhhbmRsZSBleHRlcm5hbCBjaGF0IiwgZSkKICAgICAgICAgICAgICAgIHZhbCByZXBseUFjdGlvbiA9IGludGVudC5nZXRTdHJpbmdFeHRyYShFWFRSQV9SRVBMWV9BQ1RJT04pPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgICAgICAgICAgICAgID86IEFDVElPTl9FWFRFUk5BTF9DSEFUX1JFU1VMVAogICAgICAgICAgICAgICAgdmFsIHJlcGx5UGFja2FnZSA9IGludGVudC5nZXRTdHJpbmdFeHRyYShFWFRSQV9SRVBMWV9QQUNLQUdFKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgIHNlbmRSZXN1bHRCcm9hZGNhc3QoCiAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgYWN0aW9uID0gcmVwbHlBY3Rpb24sCiAgICAgICAgICAgICAgICAgICAgcGFja2FnZU5hbWUgPSByZXBseVBhY2thZ2UsCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gRXh0ZXJuYWxDaGF0UmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICByZXF1ZXN0SWQgPSBpbnRlbnQuZ2V0U3RyaW5nRXh0cmEoRVhUUkFfUkVRVUVTVF9JRCksCiAgICAgICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSBlLm1lc3NhZ2UgPzogIlVua25vd24gZXJyb3IiCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgcGVuZGluZy5maW5pc2goKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNlbmRSZXN1bHRCcm9hZGNhc3QoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICBhY3Rpb246IFN0cmluZywKICAgICAgICBwYWNrYWdlTmFtZTogU3RyaW5nPywKICAgICAgICByZXN1bHQ6IEV4dGVybmFsQ2hhdFJlc3VsdAogICAgKSB7CiAgICAgICAgdmFsIG91dCA9IEludGVudChhY3Rpb24pCiAgICAgICAgaWYgKCFwYWNrYWdlTmFtZS5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgb3V0LmBwYWNrYWdlYCA9IHBhY2thZ2VOYW1lCiAgICAgICAgfQogICAgICAgIGlmICghcmVzdWx0LnJlcXVlc3RJZC5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgb3V0LnB1dEV4dHJhKEVYVFJBX1JFUVVFU1RfSUQsIHJlc3VsdC5yZXF1ZXN0SWQpCiAgICAgICAgfQogICAgICAgIG91dC5wdXRFeHRyYShFWFRSQV9SRVNVTFRfU1VDQ0VTUywgcmVzdWx0LnN1Y2Nlc3MpCiAgICAgICAgaWYgKCFyZXN1bHQuY2hhdElkLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICBvdXQucHV0RXh0cmEoRVhUUkFfUkVTVUxUX0NIQVRfSUQsIHJlc3VsdC5jaGF0SWQpCiAgICAgICAgfQogICAgICAgIGlmICghcmVzdWx0LmFpUmVzcG9uc2UuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgIG91dC5wdXRFeHRyYShFWFRSQV9SRVNVTFRfQUlfUkVTUE9OU0UsIHJlc3VsdC5haVJlc3BvbnNlKQogICAgICAgIH0KICAgICAgICBpZiAoIXJlc3VsdC5lcnJvci5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgb3V0LnB1dEV4dHJhKEVYVFJBX1JFU1VMVF9FUlJPUiwgcmVzdWx0LmVycm9yKQogICAgICAgIH0KICAgICAgICBjb250ZXh0LnNlbmRCcm9hZGNhc3Qob3V0KQogICAgfQp9Cg==
+package com.bslsjdk.operit.integrations.intent
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.integrations.externalchat.ExternalChatRequest
+import com.bslsjdk.operit.integrations.externalchat.ExternalChatRequestExecutor
+import com.bslsjdk.operit.integrations.externalchat.ExternalChatResult
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+class ExternalChatReceiver : BroadcastReceiver() {
+
+    companion object {
+        private const val TAG = "ExternalChatReceiver"
+
+        const val ACTION_EXTERNAL_CHAT = "com.bslsjdk.operit.EXTERNAL_CHAT"
+        const val ACTION_EXTERNAL_CHAT_RESULT = "com.bslsjdk.operit.EXTERNAL_CHAT_RESULT"
+
+        const val EXTRA_REQUEST_ID = "request_id"
+        const val EXTRA_MESSAGE = "message"
+        const val EXTRA_GROUP = "group"
+        const val EXTRA_CREATE_NEW_CHAT = "create_new_chat"
+        const val EXTRA_CHAT_ID = "chat_id"
+        const val EXTRA_CREATE_IF_NONE = "create_if_none"
+
+        const val EXTRA_SHOW_FLOATING = "show_floating"
+        const val EXTRA_RETURN_TOOL_STATUS = "return_tool_status"
+        const val EXTRA_INITIAL_MODE = "initial_mode"
+        const val EXTRA_AUTO_EXIT_AFTER_MS = "auto_exit_after_ms"
+        const val EXTRA_TIMEOUT_MS = "timeout_ms"
+        const val EXTRA_STOP_AFTER = "stop_after"
+
+        const val EXTRA_REPLY_ACTION = "reply_action"
+        const val EXTRA_REPLY_PACKAGE = "reply_package"
+
+        const val EXTRA_RESULT_SUCCESS = "success"
+        const val EXTRA_RESULT_CHAT_ID = "chat_id"
+        const val EXTRA_RESULT_AI_RESPONSE = "ai_response"
+        const val EXTRA_RESULT_ERROR = "error"
+    }
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action != ACTION_EXTERNAL_CHAT) return
+
+        val pending = goAsync()
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                val replyAction = intent.getStringExtra(EXTRA_REPLY_ACTION)?.takeIf { it.isNotBlank() }
+                    ?: ACTION_EXTERNAL_CHAT_RESULT
+                val replyPackage = intent.getStringExtra(EXTRA_REPLY_PACKAGE)?.takeIf { it.isNotBlank() }
+                val result = ExternalChatRequestExecutor(context.applicationContext).execute(
+                    ExternalChatRequest(
+                        requestId = intent.getStringExtra(EXTRA_REQUEST_ID),
+                        message = intent.getStringExtra(EXTRA_MESSAGE),
+                        group = intent.getStringExtra(EXTRA_GROUP),
+                        createNewChat = intent.getBooleanExtra(EXTRA_CREATE_NEW_CHAT, false),
+                        chatId = intent.getStringExtra(EXTRA_CHAT_ID),
+                        createIfNone = intent.getBooleanExtra(EXTRA_CREATE_IF_NONE, true),
+                        showFloating = intent.getBooleanExtra(EXTRA_SHOW_FLOATING, false),
+                        returnToolStatus = intent.getBooleanExtra(EXTRA_RETURN_TOOL_STATUS, true),
+                        initialMode = intent.getStringExtra(EXTRA_INITIAL_MODE),
+                        autoExitAfterMs = intent.getLongExtra(EXTRA_AUTO_EXIT_AFTER_MS, -1L),
+                        timeoutMs = intent.getLongExtra(EXTRA_TIMEOUT_MS, -1L),
+                        stopAfter = intent.getBooleanExtra(EXTRA_STOP_AFTER, false)
+                    )
+                )
+
+                sendResultBroadcast(
+                    context = context,
+                    action = replyAction,
+                    packageName = replyPackage,
+                    result = result
+                )
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Failed to handle external chat", e)
+                val replyAction = intent.getStringExtra(EXTRA_REPLY_ACTION)?.takeIf { it.isNotBlank() }
+                    ?: ACTION_EXTERNAL_CHAT_RESULT
+                val replyPackage = intent.getStringExtra(EXTRA_REPLY_PACKAGE)?.takeIf { it.isNotBlank() }
+                sendResultBroadcast(
+                    context = context,
+                    action = replyAction,
+                    packageName = replyPackage,
+                    result = ExternalChatResult(
+                        requestId = intent.getStringExtra(EXTRA_REQUEST_ID),
+                        success = false,
+                        error = e.message ?: "Unknown error"
+                    )
+                )
+            } finally {
+                pending.finish()
+            }
+        }
+    }
+
+    private fun sendResultBroadcast(
+        context: Context,
+        action: String,
+        packageName: String?,
+        result: ExternalChatResult
+    ) {
+        val out = Intent(action)
+        if (!packageName.isNullOrBlank()) {
+            out.`package` = packageName
+        }
+        if (!result.requestId.isNullOrBlank()) {
+            out.putExtra(EXTRA_REQUEST_ID, result.requestId)
+        }
+        out.putExtra(EXTRA_RESULT_SUCCESS, result.success)
+        if (!result.chatId.isNullOrBlank()) {
+            out.putExtra(EXTRA_RESULT_CHAT_ID, result.chatId)
+        }
+        if (!result.aiResponse.isNullOrBlank()) {
+            out.putExtra(EXTRA_RESULT_AI_RESPONSE, result.aiResponse)
+        }
+        if (!result.error.isNullOrBlank()) {
+            out.putExtra(EXTRA_RESULT_ERROR, result.error)
+        }
+        context.sendBroadcast(out)
+    }
+}

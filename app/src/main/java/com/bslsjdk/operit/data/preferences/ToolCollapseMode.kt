@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKZW51bSBjbGFzcyBUb29sQ29sbGFwc2VNb2RlKHZhbCB2YWx1ZTogU3RyaW5nKSB7CiAgICBSRUFEX09OTFkoInJlYWRfb25seSIpLAogICAgQUxMKCJhbGwiKSwKICAgIEZVTEwoImZ1bGwiKTsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBmdW4gZnJvbVZhbHVlKHZhbHVlOiBTdHJpbmc/KTogVG9vbENvbGxhcHNlTW9kZSB7CiAgICAgICAgICAgIHJldHVybiB2YWx1ZXMoKS5maXJzdE9yTnVsbCB7IGl0LnZhbHVlID09IHZhbHVlIH0gPzogQUxMCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.preferences
+
+enum class ToolCollapseMode(val value: String) {
+    READ_ONLY("read_only"),
+    ALL("all"),
+    FULL("full");
+
+    companion object {
+        fun fromValue(value: String?): ToolCollapseMode {
+            return values().firstOrNull { it.value == value } ?: ALL
+        }
+    }
+}

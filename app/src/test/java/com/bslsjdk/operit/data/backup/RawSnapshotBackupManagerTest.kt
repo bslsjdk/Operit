@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5iYWNrdXAKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXJUZXN0IHsKCiAgICBAVGVzdAogICAgZnVuIHNuYXBzaG90UGFja2FnZU5hbWVfYWNjZXB0c09wZXJpdFBhY2thZ2VQcmVmaXgoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShpc1N1cHBvcnRlZFNuYXBzaG90UGFja2FnZU5hbWUoImNvbS5ic2xzamRrLm9wZXJpdCIpKQogICAgICAgIGFzc2VydFRydWUoaXNTdXBwb3J0ZWRTbmFwc2hvdFBhY2thZ2VOYW1lKCJjb20uYnNsc2pkay5vcGVyaXQuZGVidWciKSkKICAgICAgICBhc3NlcnRUcnVlKGlzU3VwcG9ydGVkU25hcHNob3RQYWNrYWdlTmFtZSgiY29tLmJzbHNqZGsub3Blcml0LmNsb25lIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBzbmFwc2hvdFBhY2thZ2VOYW1lX3JlamVjdHNEaWZmZXJlbnRQYWNrYWdlUHJlZml4KCkgewogICAgICAgIGFzc2VydEZhbHNlKGlzU3VwcG9ydGVkU25hcHNob3RQYWNrYWdlTmFtZSgiY29tLmFpLmFzc2lzdGFuY2Uub3RoZXIiKSkKICAgICAgICBhc3NlcnRGYWxzZShpc1N1cHBvcnRlZFNuYXBzaG90UGFja2FnZU5hbWUoImNvbS5leGFtcGxlLm9wZXJpdCIpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.backup
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class RawSnapshotBackupManagerTest {
+
+    @Test
+    fun snapshotPackageName_acceptsOperitPackagePrefix() {
+        assertTrue(isSupportedSnapshotPackageName("com.bslsjdk.operit"))
+        assertTrue(isSupportedSnapshotPackageName("com.bslsjdk.operit.debug"))
+        assertTrue(isSupportedSnapshotPackageName("com.bslsjdk.operit.clone"))
+    }
+
+    @Test
+    fun snapshotPackageName_rejectsDifferentPackagePrefix() {
+        assertFalse(isSupportedSnapshotPackageName("com.ai.assistance.other"))
+        assertFalse(isSupportedSnapshotPackageName("com.example.operit"))
+    }
+}

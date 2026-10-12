@@ -1,1 +1,36 @@
-PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHNob3J0Y3V0cyB4bWxuczphbmRyb2lkPSJodHRwOi8vc2NoZW1hcy5hbmRyb2lkLmNvbS9hcGsvcmVzL2FuZHJvaWQiPgogICAgPHNob3J0Y3V0CiAgICAgICAgYW5kcm9pZDpzaG9ydGN1dElkPSJ2b2ljZV9mbG9hdGluZ193aW5kb3ciCiAgICAgICAgYW5kcm9pZDplbmFibGVkPSJ0cnVlIgogICAgICAgIGFuZHJvaWQ6aWNvbj0iQGRyYXdhYmxlL2ljX3Nob3J0Y3V0X3ZvaWNlX2Zsb2F0aW5nIgogICAgICAgIGFuZHJvaWQ6c2hvcnRjdXRTaG9ydExhYmVsPSJAc3RyaW5nL3NlcnZpY2Vfdm9pY2VfZmxvYXRpbmdfd2luZG93IgogICAgICAgIGFuZHJvaWQ6c2hvcnRjdXRMb25nTGFiZWw9IkBzdHJpbmcvc2VydmljZV92b2ljZV9mbG9hdGluZ193aW5kb3ciPgogICAgICAgIDxpbnRlbnQKICAgICAgICAgICAgYW5kcm9pZDphY3Rpb249ImNvbS5ic2xzamRrLm9wZXJpdC5hY3Rpb24uT1BFTl9WT0lDRV9GTE9BVElOR19XSU5ET1ciCiAgICAgICAgICAgIGFuZHJvaWQ6dGFyZ2V0UGFja2FnZT0iY29tLmJzbHNqZGsub3Blcml0LmRlYnVnIgogICAgICAgICAgICBhbmRyb2lkOnRhcmdldENsYXNzPSJjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuYXNzaXN0YW50Lk9wZXJpdEFzc2lzdEFjdGl2aXR5IiAvPgogICAgPC9zaG9ydGN1dD4KICAgIDxzaG9ydGN1dAogICAgICAgIGFuZHJvaWQ6c2hvcnRjdXRJZD0ib3Blbl9zZXR0aW5ncyIKICAgICAgICBhbmRyb2lkOmVuYWJsZWQ9InRydWUiCiAgICAgICAgYW5kcm9pZDppY29uPSJAZHJhd2FibGUvaWNfc2hvcnRjdXRfc2V0dGluZ3MiCiAgICAgICAgYW5kcm9pZDpzaG9ydGN1dFNob3J0TGFiZWw9IkBzdHJpbmcvbmF2X3NldHRpbmdzIgogICAgICAgIGFuZHJvaWQ6c2hvcnRjdXRMb25nTGFiZWw9IkBzdHJpbmcvbmF2X3NldHRpbmdzIj4KICAgICAgICA8aW50ZW50CiAgICAgICAgICAgIGFuZHJvaWQ6YWN0aW9uPSJjb20uYnNsc2pkay5vcGVyaXQuYWN0aW9uLk9QRU5fU0VUVElOR1NfU0hPUlRDVVQiCiAgICAgICAgICAgIGFuZHJvaWQ6dGFyZ2V0UGFja2FnZT0iY29tLmJzbHNqZGsub3Blcml0LmRlYnVnIgogICAgICAgICAgICBhbmRyb2lkOnRhcmdldENsYXNzPSJjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5NYWluQWN0aXZpdHkiIC8+CiAgICA8L3Nob3J0Y3V0PgogICAgPHNob3J0Y3V0CiAgICAgICAgYW5kcm9pZDpzaG9ydGN1dElkPSJkYXRhX3JlY292ZXJ5IgogICAgICAgIGFuZHJvaWQ6ZW5hYmxlZD0idHJ1ZSIKICAgICAgICBhbmRyb2lkOmljb249IkBkcmF3YWJsZS9pY19zaG9ydGN1dF9zZXR0aW5ncyIKICAgICAgICBhbmRyb2lkOnNob3J0Y3V0U2hvcnRMYWJlbD0iQHN0cmluZy9zaG9ydGN1dF9kYXRhX3JlY292ZXJ5IgogICAgICAgIGFuZHJvaWQ6c2hvcnRjdXRMb25nTGFiZWw9IkBzdHJpbmcvc2hvcnRjdXRfZGF0YV9yZWNvdmVyeSI+CiAgICAgICAgPGludGVudAogICAgICAgICAgICBhbmRyb2lkOmFjdGlvbj0iY29tLmJzbHNqZGsub3Blcml0LmFjdGlvbi5PUEVOX0RBVEFfUkVDT1ZFUlkiCiAgICAgICAgICAgIGFuZHJvaWQ6dGFyZ2V0UGFja2FnZT0iY29tLmJzbHNqZGsub3Blcml0LmRlYnVnIgogICAgICAgICAgICBhbmRyb2lkOnRhcmdldENsYXNzPSJjb20uYnNsc2pkay5vcGVyaXQudWkucmVjb3ZlcnkuRGF0YVJlY292ZXJ5QWN0aXZpdHkiIC8+CiAgICA8L3Nob3J0Y3V0Pgo8L3Nob3J0Y3V0cz4K
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="voice_floating_window"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_voice_floating"
+        android:shortcutShortLabel="@string/service_voice_floating_window"
+        android:shortcutLongLabel="@string/service_voice_floating_window">
+        <intent
+            android:action="com.bslsjdk.operit.action.OPEN_VOICE_FLOATING_WINDOW"
+            android:targetPackage="com.bslsjdk.operit.debug"
+            android:targetClass="com.bslsjdk.operit.services.assistant.OperitAssistActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="open_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_settings"
+        android:shortcutShortLabel="@string/nav_settings"
+        android:shortcutLongLabel="@string/nav_settings">
+        <intent
+            android:action="com.bslsjdk.operit.action.OPEN_SETTINGS_SHORTCUT"
+            android:targetPackage="com.bslsjdk.operit.debug"
+            android:targetClass="com.bslsjdk.operit.ui.main.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="data_recovery"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_settings"
+        android:shortcutShortLabel="@string/shortcut_data_recovery"
+        android:shortcutLongLabel="@string/shortcut_data_recovery">
+        <intent
+            android:action="com.bslsjdk.operit.action.OPEN_DATA_RECOVERY"
+            android:targetPackage="com.bslsjdk.operit.debug"
+            android:targetClass="com.bslsjdk.operit.ui.recovery.DataRecoveryActivity" />
+    </shortcut>
+</shortcuts>

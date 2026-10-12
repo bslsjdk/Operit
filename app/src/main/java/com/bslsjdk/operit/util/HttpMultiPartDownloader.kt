@@ -1,1 +1,326 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlT3V0cHV0U3RyZWFtCmltcG9ydCBqYXZhLmlvLlJhbmRvbUFjY2Vzc0ZpbGUKaW1wb3J0IGphdmEubmV0Lkh0dHBVUkxDb25uZWN0aW9uCmltcG9ydCBqYXZhLm5ldC5VUkwKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvdW50RG93bkxhdGNoCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5FeGVjdXRvcnMKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNSZWZlcmVuY2UKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNMb25nCgpvYmplY3QgSHR0cE11bHRpUGFydERvd25sb2FkZXIgewogICAgZGF0YSBjbGFzcyBQcm9iZVJlc3VsdCgKICAgICAgICB2YWwgY29udGVudExlbmd0aDogTG9uZywKICAgICAgICB2YWwgYWNjZXB0UmFuZ2VzOiBCb29sZWFuCiAgICApCgogICAgZGF0YSBjbGFzcyBTZWdtZW50UGxhbigKICAgICAgICB2YWwgaW5kZXg6IEludCwKICAgICAgICB2YWwgc3RhcnRJbmNsdXNpdmU6IExvbmcsCiAgICAgICAgdmFsIGVuZEluY2x1c2l2ZTogTG9uZwogICAgKQoKICAgIGZ1biBkb3dubG9hZCgKICAgICAgICB1cmw6IFN0cmluZywKICAgICAgICBkZXN0OiBGaWxlLAogICAgICAgIGhlYWRlcnM6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpLAogICAgICAgIHRocmVhZENvdW50OiBJbnQgPSA0LAogICAgICAgIG9uUHJvZ3Jlc3M6ICgoZG93bmxvYWRlZEJ5dGVzOiBMb25nLCB0b3RhbEJ5dGVzOiBMb25nKSAtPiBVbml0KT8gPSBudWxsCiAgICApIHsKICAgICAgICB2YWwgc2FmZVRocmVhZHMgPSB0aHJlYWRDb3VudC5jb2VyY2VJbigxLCA4KQoKICAgICAgICB2YWwgbWV0YSA9IHByb2JlRG93bmxvYWQodXJsLCBoZWFkZXJzKQogICAgICAgIHZhbCB0b3RhbCA9IG1ldGEuY29udGVudExlbmd0aAogICAgICAgIHZhbCBzdXBwb3J0c1JhbmdlcyA9IG1ldGEuYWNjZXB0UmFuZ2VzCgogICAgICAgIGlmICh0b3RhbCA8PSAwTCB8fCAhc3VwcG9ydHNSYW5nZXMgfHwgc2FmZVRocmVhZHMgPT0gMSkgewogICAgICAgICAgICBkb3dubG9hZFNpbmdsZSh1cmwsIGRlc3QsIGhlYWRlcnMsIHRvdGFsLCBvblByb2dyZXNzKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIGRvd25sb2FkTXVsdGkodXJsLCBkZXN0LCBoZWFkZXJzLCB0b3RhbCwgc2FmZVRocmVhZHMsIG9uUHJvZ3Jlc3MpCiAgICB9CgogICAgZnVuIHByb2JlRG93bmxvYWQodXJsOiBTdHJpbmcsIGhlYWRlcnM6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpKTogUHJvYmVSZXN1bHQgewogICAgICAgIC8vIFByZWZlciBIRUFELCBidXQgc29tZSBzZXJ2ZXJzIGRvbid0IGFsbG93IGl0LgogICAgICAgIHZhciBjb25uOiBIdHRwVVJMQ29ubmVjdGlvbj8gPSBudWxsCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY29ubiA9IChVUkwodXJsKS5vcGVuQ29ubmVjdGlvbigpIGFzIEh0dHBVUkxDb25uZWN0aW9uKS5hcHBseSB7CiAgICAgICAgICAgICAgICByZXF1ZXN0TWV0aG9kID0gIkhFQUQiCiAgICAgICAgICAgICAgICBhcHBseUhlYWRlcnModGhpcywgaGVhZGVycykKICAgICAgICAgICAgICAgIHNldFJlcXVlc3RQcm9wZXJ0eSgiQWNjZXB0LUVuY29kaW5nIiwgImlkZW50aXR5IikKICAgICAgICAgICAgICAgIGluc3RhbmNlRm9sbG93UmVkaXJlY3RzID0gdHJ1ZQogICAgICAgICAgICAgICAgY29ubmVjdFRpbWVvdXQgPSAxNTAwMAogICAgICAgICAgICAgICAgcmVhZFRpbWVvdXQgPSAxNTAwMAogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBjb2RlID0gY29ubi5yZXNwb25zZUNvZGUKICAgICAgICAgICAgaWYgKGNvZGUgaW4gMjAwLi4zOTkpIHsKICAgICAgICAgICAgICAgIHZhbCBsZW4gPSBjb25uLmdldEhlYWRlckZpZWxkTG9uZygiQ29udGVudC1MZW5ndGgiLCAtMUwpCiAgICAgICAgICAgICAgICB2YWwgYWNjZXB0UmFuZ2VzID0gY29ubi5nZXRIZWFkZXJGaWVsZCgiQWNjZXB0LVJhbmdlcyIpPy5jb250YWlucygiYnl0ZXMiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgPT0gdHJ1ZQogICAgICAgICAgICAgICAgcmV0dXJuIFByb2JlUmVzdWx0KGxlbiwgYWNjZXB0UmFuZ2VzKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIGlnbm9yZQogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIGNvbm4/LmRpc2Nvbm5lY3QoKQogICAgICAgIH0KCiAgICAgICAgLy8gRmFsbGJhY2sgR0VUIHdpdGggUmFuZ2UgMC0wIHRvIGRldGVjdCByYW5nZSBzdXBwb3J0LgogICAgICAgIHZhciBjb25uMjogSHR0cFVSTENvbm5lY3Rpb24/ID0gbnVsbAogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbm4yID0gKFVSTCh1cmwpLm9wZW5Db25uZWN0aW9uKCkgYXMgSHR0cFVSTENvbm5lY3Rpb24pLmFwcGx5IHsKICAgICAgICAgICAgICAgIHJlcXVlc3RNZXRob2QgPSAiR0VUIgogICAgICAgICAgICAgICAgYXBwbHlIZWFkZXJzKHRoaXMsIGhlYWRlcnMpCiAgICAgICAgICAgICAgICBzZXRSZXF1ZXN0UHJvcGVydHkoIkFjY2VwdC1FbmNvZGluZyIsICJpZGVudGl0eSIpCiAgICAgICAgICAgICAgICBzZXRSZXF1ZXN0UHJvcGVydHkoIlJhbmdlIiwgImJ5dGVzPTAtMCIpCiAgICAgICAgICAgICAgICBpbnN0YW5jZUZvbGxvd1JlZGlyZWN0cyA9IHRydWUKICAgICAgICAgICAgICAgIGNvbm5lY3RUaW1lb3V0ID0gMTUwMDAKICAgICAgICAgICAgICAgIHJlYWRUaW1lb3V0ID0gMTUwMDAKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgY29kZSA9IGNvbm4yLnJlc3BvbnNlQ29kZQogICAgICAgICAgICB2YWwgYWNjZXB0UmFuZ2VzSGVhZGVyID0gY29ubjIuZ2V0SGVhZGVyRmllbGQoIkFjY2VwdC1SYW5nZXMiKQogICAgICAgICAgICB2YWwgYWNjZXB0UmFuZ2VzID0gKGNvZGUgPT0gSHR0cFVSTENvbm5lY3Rpb24uSFRUUF9QQVJUSUFMKSB8fAogICAgICAgICAgICAgICAgKGFjY2VwdFJhbmdlc0hlYWRlcj8uY29udGFpbnMoImJ5dGVzIiwgaWdub3JlQ2FzZSA9IHRydWUpID09IHRydWUpCgogICAgICAgICAgICB2YWwgY29udGVudFJhbmdlID0gY29ubjIuZ2V0SGVhZGVyRmllbGQoIkNvbnRlbnQtUmFuZ2UiKQogICAgICAgICAgICB2YWwgdG90YWxGcm9tQ29udGVudFJhbmdlID0gcGFyc2VUb3RhbEZyb21Db250ZW50UmFuZ2UoY29udGVudFJhbmdlKQogICAgICAgICAgICB2YWwgdG90YWwgPSB3aGVuIHsKICAgICAgICAgICAgICAgIHRvdGFsRnJvbUNvbnRlbnRSYW5nZSA+IDBMIC0+IHRvdGFsRnJvbUNvbnRlbnRSYW5nZQogICAgICAgICAgICAgICAgZWxzZSAtPiBjb25uMi5nZXRIZWFkZXJGaWVsZExvbmcoIkNvbnRlbnQtTGVuZ3RoIiwgLTFMKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBQcm9iZVJlc3VsdCh0b3RhbCwgYWNjZXB0UmFuZ2VzKQogICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICByZXR1cm4gUHJvYmVSZXN1bHQoLTFMLCBmYWxzZSkKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBjb25uMj8uZGlzY29ubmVjdCgpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBidWlsZFNlZ21lbnRQbGFuKHRvdGFsQnl0ZXM6IExvbmcsIHRocmVhZENvdW50OiBJbnQpOiBMaXN0PFNlZ21lbnRQbGFuPiB7CiAgICAgICAgaWYgKHRvdGFsQnl0ZXMgPD0gMEwpIHsKICAgICAgICAgICAgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgfQogICAgICAgIHZhbCBzYWZlVGhyZWFkcyA9IHRocmVhZENvdW50LmNvZXJjZUluKDEsIDgpCiAgICAgICAgdmFsIHBhcnRTaXplID0gKHRvdGFsQnl0ZXMgKyBzYWZlVGhyZWFkcyAtIDEpIC8gc2FmZVRocmVhZHMKICAgICAgICByZXR1cm4gYnVpbGRMaXN0KHNhZmVUaHJlYWRzKSB7CiAgICAgICAgICAgIGZvciAocGFydCBpbiAwIHVudGlsIHNhZmVUaHJlYWRzKSB7CiAgICAgICAgICAgICAgICB2YWwgc3RhcnQgPSBwYXJ0ICogcGFydFNpemUKICAgICAgICAgICAgICAgIHZhbCBlbmQgPSBtaW5PZih0b3RhbEJ5dGVzIC0gMSwgKHBhcnQgKyAxKSAqIHBhcnRTaXplIC0gMSkKICAgICAgICAgICAgICAgIGlmIChzdGFydCA8PSBlbmQpIHsKICAgICAgICAgICAgICAgICAgICBhZGQoCiAgICAgICAgICAgICAgICAgICAgICAgIFNlZ21lbnRQbGFuKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5kZXggPSBwYXJ0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhcnRJbmNsdXNpdmUgPSBzdGFydCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuZEluY2x1c2l2ZSA9IGVuZAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBkb3dubG9hZFNlZ21lbnQoCiAgICAgICAgdXJsOiBTdHJpbmcsCiAgICAgICAgZGVzdDogRmlsZSwKICAgICAgICBoZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKSwKICAgICAgICBzdGFydEluY2x1c2l2ZTogTG9uZyA9IDBMLAogICAgICAgIGVuZEluY2x1c2l2ZTogTG9uZz8gPSBudWxsLAogICAgICAgIGFwcGVuZDogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIG9uQ2h1bms6ICgoY2h1bmtCeXRlczogSW50KSAtPiBVbml0KT8gPSBudWxsLAogICAgICAgIGlzQ2FuY2VsbGVkOiAoKCkgLT4gQm9vbGVhbik/ID0gbnVsbAogICAgKSB7CiAgICAgICAgdmFyIGNvbm46IEh0dHBVUkxDb25uZWN0aW9uPyA9IG51bGwKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25uID0gKFVSTCh1cmwpLm9wZW5Db25uZWN0aW9uKCkgYXMgSHR0cFVSTENvbm5lY3Rpb24pLmFwcGx5IHsKICAgICAgICAgICAgICAgIHJlcXVlc3RNZXRob2QgPSAiR0VUIgogICAgICAgICAgICAgICAgYXBwbHlIZWFkZXJzKHRoaXMsIGhlYWRlcnMpCiAgICAgICAgICAgICAgICBzZXRSZXF1ZXN0UHJvcGVydHkoIkFjY2VwdC1FbmNvZGluZyIsICJpZGVudGl0eSIpCiAgICAgICAgICAgICAgICBpbnN0YW5jZUZvbGxvd1JlZGlyZWN0cyA9IHRydWUKICAgICAgICAgICAgICAgIGNvbm5lY3RUaW1lb3V0ID0gMTUwMDAKICAgICAgICAgICAgICAgIHJlYWRUaW1lb3V0ID0gMzAwMDAKICAgICAgICAgICAgICAgIGlmIChzdGFydEluY2x1c2l2ZSA+IDBMIHx8IGVuZEluY2x1c2l2ZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHJhbmdlVmFsdWUgPQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoZW5kSW5jbHVzaXZlICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJieXRlcz0kc3RhcnRJbmNsdXNpdmUtJGVuZEluY2x1c2l2ZSIKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJieXRlcz0kc3RhcnRJbmNsdXNpdmUtIgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgc2V0UmVxdWVzdFByb3BlcnR5KCJSYW5nZSIsIHJhbmdlVmFsdWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBjb2RlID0gY29ubi5yZXNwb25zZUNvZGUKICAgICAgICAgICAgdmFsIGV4cGVjdGVkUGFydGlhbCA9IHN0YXJ0SW5jbHVzaXZlID4gMEwgfHwgZW5kSW5jbHVzaXZlICE9IG51bGwKICAgICAgICAgICAgaWYgKGV4cGVjdGVkUGFydGlhbCkgewogICAgICAgICAgICAgICAgaWYgKGNvZGUgIT0gSHR0cFVSTENvbm5lY3Rpb24uSFRUUF9QQVJUSUFMICYmIGNvZGUgIT0gSHR0cFVSTENvbm5lY3Rpb24uSFRUUF9PSykgewogICAgICAgICAgICAgICAgICAgIHRocm93IFJ1bnRpbWVFeGNlcHRpb24oIkhUVFAgJGNvZGUiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgaWYgKGNvZGUgIWluIDIwMC4uMjk5KSB7CiAgICAgICAgICAgICAgICB0aHJvdyBSdW50aW1lRXhjZXB0aW9uKCJIVFRQICRjb2RlIikKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGVzdC5wYXJlbnRGaWxlPy5ta2RpcnMoKQogICAgICAgICAgICBjb25uLmlucHV0U3RyZWFtLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICBGaWxlT3V0cHV0U3RyZWFtKGRlc3QsIGFwcGVuZCkuYnVmZmVyZWQoKS51c2UgeyBvdXRwdXQgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KDY0ICogMTAyNCkKICAgICAgICAgICAgICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoaXNDYW5jZWxsZWQ/Lmludm9rZSgpID09IHRydWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IEludGVycnVwdGVkRXhjZXB0aW9uKCJEb3dubG9hZCBjYW5jZWxsZWQiKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByZWFkID0gaW5wdXQucmVhZChidWZmZXIpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZWFkIDw9IDApIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgIG91dHB1dC53cml0ZShidWZmZXIsIDAsIHJlYWQpCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2h1bms/Lmludm9rZShyZWFkKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBvdXRwdXQuZmx1c2goKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgY29ubj8uZGlzY29ubmVjdCgpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBhcnNlVG90YWxGcm9tQ29udGVudFJhbmdlKGNvbnRlbnRSYW5nZTogU3RyaW5nPyk6IExvbmcgewogICAgICAgIC8vIGZvcm1hdDogYnl0ZXMgMC0wLzEyMzQ1CiAgICAgICAgaWYgKGNvbnRlbnRSYW5nZS5pc051bGxPckJsYW5rKCkpIHJldHVybiAtMUwKICAgICAgICB2YWwgc2xhc2ggPSBjb250ZW50UmFuZ2UubGFzdEluZGV4T2YoJy8nKQogICAgICAgIGlmIChzbGFzaCA8PSAwIHx8IHNsYXNoID49IGNvbnRlbnRSYW5nZS5sZW5ndGggLSAxKSByZXR1cm4gLTFMCiAgICAgICAgcmV0dXJuIGNvbnRlbnRSYW5nZS5zdWJzdHJpbmcoc2xhc2ggKyAxKS50cmltKCkudG9Mb25nT3JOdWxsKCkgPzogLTFMCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZG93bmxvYWRTaW5nbGUoCiAgICAgICAgdXJsOiBTdHJpbmcsCiAgICAgICAgZGVzdDogRmlsZSwKICAgICAgICBoZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgICAgIHRvdGFsQnl0ZXM6IExvbmcsCiAgICAgICAgb25Qcm9ncmVzczogKChMb25nLCBMb25nKSAtPiBVbml0KT8KICAgICkgewogICAgICAgIHZhbCB0b3RhbCA9IEF0b21pY0xvbmcodG90YWxCeXRlcykKICAgICAgICB2YWwgZG93bmxvYWRlZCA9IEF0b21pY0xvbmcoMEwpCiAgICAgICAgZG93bmxvYWRTZWdtZW50KAogICAgICAgICAgICB1cmwgPSB1cmwsCiAgICAgICAgICAgIGRlc3QgPSBkZXN0LAogICAgICAgICAgICBoZWFkZXJzID0gaGVhZGVycywKICAgICAgICAgICAgc3RhcnRJbmNsdXNpdmUgPSAwTCwKICAgICAgICAgICAgZW5kSW5jbHVzaXZlID0gbnVsbCwKICAgICAgICAgICAgYXBwZW5kID0gZmFsc2UsCiAgICAgICAgICAgIG9uQ2h1bmsgPSB7IGNodW5rIC0+CiAgICAgICAgICAgICAgICB2YWwgbm93ID0gZG93bmxvYWRlZC5hZGRBbmRHZXQoY2h1bmsudG9Mb25nKCkpCiAgICAgICAgICAgICAgICBvblByb2dyZXNzPy5pbnZva2Uobm93LCB0b3RhbC5nZXQoKSkKICAgICAgICAgICAgfQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBkb3dubG9hZE11bHRpKAogICAgICAgIHVybDogU3RyaW5nLAogICAgICAgIGRlc3Q6IEZpbGUsCiAgICAgICAgaGVhZGVyczogTWFwPFN0cmluZywgU3RyaW5nPiwKICAgICAgICB0b3RhbEJ5dGVzOiBMb25nLAogICAgICAgIHRocmVhZENvdW50OiBJbnQsCiAgICAgICAgb25Qcm9ncmVzczogKChMb25nLCBMb25nKSAtPiBVbml0KT8KICAgICkgewogICAgICAgIGRlc3QucGFyZW50RmlsZT8ubWtkaXJzKCkKCiAgICAgICAgLy8gUHJlLWFsbG9jYXRlIGZpbGUKICAgICAgICBSYW5kb21BY2Nlc3NGaWxlKGRlc3QsICJydyIpLnVzZSB7IHJhZiAtPgogICAgICAgICAgICByYWYuc2V0TGVuZ3RoKHRvdGFsQnl0ZXMpCiAgICAgICAgfQoKICAgICAgICB2YWwgZG93bmxvYWRlZCA9IEF0b21pY0xvbmcoMEwpCiAgICAgICAgdmFsIGZpcnN0RXJyb3IgPSBBdG9taWNSZWZlcmVuY2U8VGhyb3dhYmxlPz4obnVsbCkKICAgICAgICB2YWwgcG9vbCA9IEV4ZWN1dG9ycy5uZXdGaXhlZFRocmVhZFBvb2wodGhyZWFkQ291bnQpCiAgICAgICAgdmFsIGxhdGNoID0gQ291bnREb3duTGF0Y2godGhyZWFkQ291bnQpCgogICAgICAgIGZvciAoc2VnbWVudCBpbiBidWlsZFNlZ21lbnRQbGFuKHRvdGFsQnl0ZXMsIHRocmVhZENvdW50KSkgewogICAgICAgICAgICB2YWwgc3RhcnQgPSBzZWdtZW50LnN0YXJ0SW5jbHVzaXZlCiAgICAgICAgICAgIHZhbCBlbmQgPSBzZWdtZW50LmVuZEluY2x1c2l2ZQoKICAgICAgICAgICAgcG9vbC5leGVjdXRlIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHBhcnRGaWxlID0gRmlsZShkZXN0LnBhcmVudEZpbGUsICIke2Rlc3QubmFtZX0ucGFydC4ke3NlZ21lbnQuaW5kZXh9IikKICAgICAgICAgICAgICAgICAgICBwYXJ0RmlsZS5kZWxldGUoKQogICAgICAgICAgICAgICAgICAgIGRvd25sb2FkU2VnbWVudCgKICAgICAgICAgICAgICAgICAgICAgICAgdXJsID0gdXJsLAogICAgICAgICAgICAgICAgICAgICAgICBkZXN0ID0gcGFydEZpbGUsCiAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlcnMgPSBoZWFkZXJzLAogICAgICAgICAgICAgICAgICAgICAgICBzdGFydEluY2x1c2l2ZSA9IHN0YXJ0LAogICAgICAgICAgICAgICAgICAgICAgICBlbmRJbmNsdXNpdmUgPSBlbmQsCiAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZCA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICBvbkNodW5rID0geyBjaHVuayAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG5vdyA9IGRvd25sb2FkZWQuYWRkQW5kR2V0KGNodW5rLnRvTG9uZygpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25Qcm9ncmVzcz8uaW52b2tlKG5vdywgdG90YWxCeXRlcykKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBSYW5kb21BY2Nlc3NGaWxlKGRlc3QsICJydyIpLnVzZSB7IHJhZiAtPgogICAgICAgICAgICAgICAgICAgICAgICByYWYuc2VlayhzdGFydCkKICAgICAgICAgICAgICAgICAgICAgICAgcGFydEZpbGUuaW5wdXRTdHJlYW0oKS51c2UgeyBpbnB1dCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGJ1ZmZlciA9IEJ5dGVBcnJheSg2NCAqIDEwMjQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByZWFkID0gaW5wdXQucmVhZChidWZmZXIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHJlYWQgPD0gMCkgYnJlYWsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYWYud3JpdGUoYnVmZmVyLCAwLCByZWFkKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHBhcnRGaWxlLmRlbGV0ZSgpCiAgICAgICAgICAgICAgICB9IGNhdGNoICh0OiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgICAgICAgICBmaXJzdEVycm9yLmNvbXBhcmVBbmRTZXQobnVsbCwgdCkKICAgICAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICAgICAgbGF0Y2guY291bnREb3duKCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgbGF0Y2guYXdhaXQoKQogICAgICAgIH0gY2F0Y2ggKGU6IEludGVycnVwdGVkRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIFRocmVhZC5jdXJyZW50VGhyZWFkKCkuaW50ZXJydXB0KCkKICAgICAgICAgICAgZmlyc3RFcnJvci5jb21wYXJlQW5kU2V0KG51bGwsIGUpCiAgICAgICAgICAgIHRocm93IGUKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICB2YWwgZXJyID0gZmlyc3RFcnJvci5nZXQoKQogICAgICAgICAgICBpZiAoZXJyICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHBvb2wuc2h1dGRvd25Ob3coKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgcG9vbC5zaHV0ZG93bigpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHZhbCBlcnIgPSBmaXJzdEVycm9yLmdldCgpCiAgICAgICAgaWYgKGVyciAhPSBudWxsKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBkZXN0LmRlbGV0ZSgpCiAgICAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICB9CiAgICAgICAgICAgIHRocm93IFJ1bnRpbWVFeGNlcHRpb24oIk11bHRpLXBhcnQgZG93bmxvYWQgZmFpbGVkIiwgZXJyKQogICAgICAgIH0KCiAgICAgICAgb25Qcm9ncmVzcz8uaW52b2tlKHRvdGFsQnl0ZXMsIHRvdGFsQnl0ZXMpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwbHlIZWFkZXJzKGNvbm46IEh0dHBVUkxDb25uZWN0aW9uLCBoZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+KSB7CiAgICAgICAgaWYgKGhlYWRlcnMuaXNFbXB0eSgpKSByZXR1cm4KICAgICAgICBoZWFkZXJzLmZvckVhY2ggeyAocmF3TmFtZSwgcmF3VmFsdWUpIC0+CiAgICAgICAgICAgIHZhbCBuYW1lID0gc2FuaXRpemVIZWFkZXJOYW1lKHJhd05hbWUpID86IHJldHVybkBmb3JFYWNoCiAgICAgICAgICAgIHZhbCB2YWx1ZSA9IHNhbml0aXplSGVhZGVyVmFsdWUocmF3VmFsdWUpCiAgICAgICAgICAgIGNvbm4uc2V0UmVxdWVzdFByb3BlcnR5KG5hbWUsIHZhbHVlKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBzYW5pdGl6ZUhlYWRlck5hbWUobmFtZTogU3RyaW5nPyk6IFN0cmluZz8gewogICAgICAgIHZhbCB0cmltbWVkID0gbmFtZT8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIGlmICh0cmltbWVkLmlzRW1wdHkoKSkgcmV0dXJuIG51bGwKICAgICAgICBpZiAodHJpbW1lZC5jb250YWlucygiXHIiKSB8fCB0cmltbWVkLmNvbnRhaW5zKCJcbiIpKSByZXR1cm4gbnVsbAogICAgICAgIGlmICh0cmltbWVkLmNvbnRhaW5zKCI6IikpIHJldHVybiBudWxsCiAgICAgICAgcmV0dXJuIHRyaW1tZWQKICAgIH0KCiAgICBwcml2YXRlIGZ1biBzYW5pdGl6ZUhlYWRlclZhbHVlKHZhbHVlOiBTdHJpbmc/KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdmFsdWUKICAgICAgICAgICAgPy5yZXBsYWNlKCJcciIsICIiKQogICAgICAgICAgICA/LnJlcGxhY2UoIlxuIiwgIiIpCiAgICAgICAgICAgID86ICIiCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import java.io.File
+import java.io.FileOutputStream
+import java.io.RandomAccessFile
+import java.net.HttpURLConnection
+import java.net.URL
+import java.util.concurrent.CountDownLatch
+import java.util.concurrent.Executors
+import java.util.concurrent.atomic.AtomicReference
+import java.util.concurrent.atomic.AtomicLong
+
+object HttpMultiPartDownloader {
+    data class ProbeResult(
+        val contentLength: Long,
+        val acceptRanges: Boolean
+    )
+
+    data class SegmentPlan(
+        val index: Int,
+        val startInclusive: Long,
+        val endInclusive: Long
+    )
+
+    fun download(
+        url: String,
+        dest: File,
+        headers: Map<String, String> = emptyMap(),
+        threadCount: Int = 4,
+        onProgress: ((downloadedBytes: Long, totalBytes: Long) -> Unit)? = null
+    ) {
+        val safeThreads = threadCount.coerceIn(1, 8)
+
+        val meta = probeDownload(url, headers)
+        val total = meta.contentLength
+        val supportsRanges = meta.acceptRanges
+
+        if (total <= 0L || !supportsRanges || safeThreads == 1) {
+            downloadSingle(url, dest, headers, total, onProgress)
+            return
+        }
+
+        downloadMulti(url, dest, headers, total, safeThreads, onProgress)
+    }
+
+    fun probeDownload(url: String, headers: Map<String, String> = emptyMap()): ProbeResult {
+        // Prefer HEAD, but some servers don't allow it.
+        var conn: HttpURLConnection? = null
+        try {
+            conn = (URL(url).openConnection() as HttpURLConnection).apply {
+                requestMethod = "HEAD"
+                applyHeaders(this, headers)
+                setRequestProperty("Accept-Encoding", "identity")
+                instanceFollowRedirects = true
+                connectTimeout = 15000
+                readTimeout = 15000
+            }
+            val code = conn.responseCode
+            if (code in 200..399) {
+                val len = conn.getHeaderFieldLong("Content-Length", -1L)
+                val acceptRanges = conn.getHeaderField("Accept-Ranges")?.contains("bytes", ignoreCase = true) == true
+                return ProbeResult(len, acceptRanges)
+            }
+        } catch (_: Exception) {
+            // ignore
+        } finally {
+            conn?.disconnect()
+        }
+
+        // Fallback GET with Range 0-0 to detect range support.
+        var conn2: HttpURLConnection? = null
+        try {
+            conn2 = (URL(url).openConnection() as HttpURLConnection).apply {
+                requestMethod = "GET"
+                applyHeaders(this, headers)
+                setRequestProperty("Accept-Encoding", "identity")
+                setRequestProperty("Range", "bytes=0-0")
+                instanceFollowRedirects = true
+                connectTimeout = 15000
+                readTimeout = 15000
+            }
+            val code = conn2.responseCode
+            val acceptRangesHeader = conn2.getHeaderField("Accept-Ranges")
+            val acceptRanges = (code == HttpURLConnection.HTTP_PARTIAL) ||
+                (acceptRangesHeader?.contains("bytes", ignoreCase = true) == true)
+
+            val contentRange = conn2.getHeaderField("Content-Range")
+            val totalFromContentRange = parseTotalFromContentRange(contentRange)
+            val total = when {
+                totalFromContentRange > 0L -> totalFromContentRange
+                else -> conn2.getHeaderFieldLong("Content-Length", -1L)
+            }
+            return ProbeResult(total, acceptRanges)
+        } catch (_: Exception) {
+            return ProbeResult(-1L, false)
+        } finally {
+            conn2?.disconnect()
+        }
+    }
+
+    fun buildSegmentPlan(totalBytes: Long, threadCount: Int): List<SegmentPlan> {
+        if (totalBytes <= 0L) {
+            return emptyList()
+        }
+        val safeThreads = threadCount.coerceIn(1, 8)
+        val partSize = (totalBytes + safeThreads - 1) / safeThreads
+        return buildList(safeThreads) {
+            for (part in 0 until safeThreads) {
+                val start = part * partSize
+                val end = minOf(totalBytes - 1, (part + 1) * partSize - 1)
+                if (start <= end) {
+                    add(
+                        SegmentPlan(
+                            index = part,
+                            startInclusive = start,
+                            endInclusive = end
+                        )
+                    )
+                }
+            }
+        }
+    }
+
+    fun downloadSegment(
+        url: String,
+        dest: File,
+        headers: Map<String, String> = emptyMap(),
+        startInclusive: Long = 0L,
+        endInclusive: Long? = null,
+        append: Boolean = false,
+        onChunk: ((chunkBytes: Int) -> Unit)? = null,
+        isCancelled: (() -> Boolean)? = null
+    ) {
+        var conn: HttpURLConnection? = null
+        try {
+            conn = (URL(url).openConnection() as HttpURLConnection).apply {
+                requestMethod = "GET"
+                applyHeaders(this, headers)
+                setRequestProperty("Accept-Encoding", "identity")
+                instanceFollowRedirects = true
+                connectTimeout = 15000
+                readTimeout = 30000
+                if (startInclusive > 0L || endInclusive != null) {
+                    val rangeValue =
+                        if (endInclusive != null) {
+                            "bytes=$startInclusive-$endInclusive"
+                        } else {
+                            "bytes=$startInclusive-"
+                        }
+                    setRequestProperty("Range", rangeValue)
+                }
+            }
+
+            val code = conn.responseCode
+            val expectedPartial = startInclusive > 0L || endInclusive != null
+            if (expectedPartial) {
+                if (code != HttpURLConnection.HTTP_PARTIAL && code != HttpURLConnection.HTTP_OK) {
+                    throw RuntimeException("HTTP $code")
+                }
+            } else if (code !in 200..299) {
+                throw RuntimeException("HTTP $code")
+            }
+
+            dest.parentFile?.mkdirs()
+            conn.inputStream.use { input ->
+                FileOutputStream(dest, append).buffered().use { output ->
+                    val buffer = ByteArray(64 * 1024)
+                    while (true) {
+                        if (isCancelled?.invoke() == true) {
+                            throw InterruptedException("Download cancelled")
+                        }
+                        val read = input.read(buffer)
+                        if (read <= 0) break
+                        output.write(buffer, 0, read)
+                        onChunk?.invoke(read)
+                    }
+                    output.flush()
+                }
+            }
+        } finally {
+            conn?.disconnect()
+        }
+    }
+
+    private fun parseTotalFromContentRange(contentRange: String?): Long {
+        // format: bytes 0-0/12345
+        if (contentRange.isNullOrBlank()) return -1L
+        val slash = contentRange.lastIndexOf('/')
+        if (slash <= 0 || slash >= contentRange.length - 1) return -1L
+        return contentRange.substring(slash + 1).trim().toLongOrNull() ?: -1L
+    }
+
+    private fun downloadSingle(
+        url: String,
+        dest: File,
+        headers: Map<String, String>,
+        totalBytes: Long,
+        onProgress: ((Long, Long) -> Unit)?
+    ) {
+        val total = AtomicLong(totalBytes)
+        val downloaded = AtomicLong(0L)
+        downloadSegment(
+            url = url,
+            dest = dest,
+            headers = headers,
+            startInclusive = 0L,
+            endInclusive = null,
+            append = false,
+            onChunk = { chunk ->
+                val now = downloaded.addAndGet(chunk.toLong())
+                onProgress?.invoke(now, total.get())
+            }
+        )
+    }
+
+    private fun downloadMulti(
+        url: String,
+        dest: File,
+        headers: Map<String, String>,
+        totalBytes: Long,
+        threadCount: Int,
+        onProgress: ((Long, Long) -> Unit)?
+    ) {
+        dest.parentFile?.mkdirs()
+
+        // Pre-allocate file
+        RandomAccessFile(dest, "rw").use { raf ->
+            raf.setLength(totalBytes)
+        }
+
+        val downloaded = AtomicLong(0L)
+        val firstError = AtomicReference<Throwable?>(null)
+        val pool = Executors.newFixedThreadPool(threadCount)
+        val latch = CountDownLatch(threadCount)
+
+        for (segment in buildSegmentPlan(totalBytes, threadCount)) {
+            val start = segment.startInclusive
+            val end = segment.endInclusive
+
+            pool.execute {
+                try {
+                    val partFile = File(dest.parentFile, "${dest.name}.part.${segment.index}")
+                    partFile.delete()
+                    downloadSegment(
+                        url = url,
+                        dest = partFile,
+                        headers = headers,
+                        startInclusive = start,
+                        endInclusive = end,
+                        append = false,
+                        onChunk = { chunk ->
+                            val now = downloaded.addAndGet(chunk.toLong())
+                            onProgress?.invoke(now, totalBytes)
+                        }
+                    )
+                    RandomAccessFile(dest, "rw").use { raf ->
+                        raf.seek(start)
+                        partFile.inputStream().use { input ->
+                            val buffer = ByteArray(64 * 1024)
+                            while (true) {
+                                val read = input.read(buffer)
+                                if (read <= 0) break
+                                raf.write(buffer, 0, read)
+                            }
+                        }
+                    }
+                    partFile.delete()
+                } catch (t: Throwable) {
+                    firstError.compareAndSet(null, t)
+                } finally {
+                    latch.countDown()
+                }
+            }
+        }
+
+        try {
+            latch.await()
+        } catch (e: InterruptedException) {
+            Thread.currentThread().interrupt()
+            firstError.compareAndSet(null, e)
+            throw e
+        } finally {
+            val err = firstError.get()
+            if (err != null) {
+                pool.shutdownNow()
+            } else {
+                pool.shutdown()
+            }
+        }
+
+        val err = firstError.get()
+        if (err != null) {
+            try {
+                dest.delete()
+            } catch (_: Exception) {
+            }
+            throw RuntimeException("Multi-part download failed", err)
+        }
+
+        onProgress?.invoke(totalBytes, totalBytes)
+    }
+
+    private fun applyHeaders(conn: HttpURLConnection, headers: Map<String, String>) {
+        if (headers.isEmpty()) return
+        headers.forEach { (rawName, rawValue) ->
+            val name = sanitizeHeaderName(rawName) ?: return@forEach
+            val value = sanitizeHeaderValue(rawValue)
+            conn.setRequestProperty(name, value)
+        }
+    }
+
+    private fun sanitizeHeaderName(name: String?): String? {
+        val trimmed = name?.trim().orEmpty()
+        if (trimmed.isEmpty()) return null
+        if (trimmed.contains("\r") || trimmed.contains("\n")) return null
+        if (trimmed.contains(":")) return null
+        return trimmed
+    }
+
+    private fun sanitizeHeaderValue(value: String?): String {
+        return value
+            ?.replace("\r", "")
+            ?.replace("\n", "")
+            ?: ""
+    }
+}

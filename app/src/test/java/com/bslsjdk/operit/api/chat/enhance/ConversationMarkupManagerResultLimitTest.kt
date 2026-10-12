@@ -1,1 +1,32 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlN0cmluZ1Jlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlRvb2xFeGVjdXRpb25MaW1pdHMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xSZXN1bHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkNoYXRNYXJrdXBSZWdleAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENvbnZlcnNhdGlvbk1hcmt1cE1hbmFnZXJSZXN1bHRMaW1pdFRlc3QgewoKICAgIEBUZXN0CiAgICBmdW4gYGtlZXBzIGV2ZXJ5IHRvb2wgcmVzdWx0IHdoaWxlIGJvdW5kaW5nIGVhY2ggcmVzdWx0IGluZGVwZW5kZW50bHlgKCkgewogICAgICAgIHZhbCByZXN1bHRzID0gbGlzdE9mKAogICAgICAgICAgICBUb29sUmVzdWx0KCJmaXJzdF90b29sIiwgdHJ1ZSwgU3RyaW5nUmVzdWx0RGF0YSgiYSIucmVwZWF0KDYzXzAwMCkpKSwKICAgICAgICAgICAgVG9vbFJlc3VsdCgic2Vjb25kX3Rvb2wiLCB0cnVlLCBTdHJpbmdSZXN1bHREYXRhKCJiIi5yZXBlYXQoNjNfMDAwKSkpCiAgICAgICAgKQoKICAgICAgICB2YWwgbWVzc2FnZSA9IENvbnZlcnNhdGlvbk1hcmt1cE1hbmFnZXIuYnVpbGRUb29sUmVzdWx0TWVzc2FnZShyZXN1bHRzKQogICAgICAgIHZhbCByZXN1bHRCbG9ja3MgPSBDaGF0TWFya3VwUmVnZXgudG9vbFJlc3VsdEFueVBhdHRlcm4uZmluZEFsbChtZXNzYWdlKS50b0xpc3QoKQoKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgcmVzdWx0QmxvY2tzLnNpemUpCiAgICAgICAgYXNzZXJ0VHJ1ZSgKICAgICAgICAgICAgcmVzdWx0QmxvY2tzLmFsbCB7CiAgICAgICAgICAgICAgICBpdC52YWx1ZS5sZW5ndGggPD0gVG9vbEV4ZWN1dGlvbkxpbWl0cy5NQVhfU0lOR0xFX1RPT0xfUkVTVUxUX01FU1NBR0VfQ0hBUlMKICAgICAgICAgICAgfQogICAgICAgICkKICAgICAgICBhc3NlcnRUcnVlKG1lc3NhZ2UuY29udGFpbnMoIm5hbWU9XCJmaXJzdF90b29sXCIiKSkKICAgICAgICBhc3NlcnRUcnVlKG1lc3NhZ2UuY29udGFpbnMoIm5hbWU9XCJzZWNvbmRfdG9vbFwiIikpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.enhance
+
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.core.tools.ToolExecutionLimits
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.util.ChatMarkupRegex
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ConversationMarkupManagerResultLimitTest {
+
+    @Test
+    fun `keeps every tool result while bounding each result independently`() {
+        val results = listOf(
+            ToolResult("first_tool", true, StringResultData("a".repeat(63_000))),
+            ToolResult("second_tool", true, StringResultData("b".repeat(63_000)))
+        )
+
+        val message = ConversationMarkupManager.buildToolResultMessage(results)
+        val resultBlocks = ChatMarkupRegex.toolResultAnyPattern.findAll(message).toList()
+
+        assertEquals(2, resultBlocks.size)
+        assertTrue(
+            resultBlocks.all {
+                it.value.length <= ToolExecutionLimits.MAX_SINGLE_TOOL_RESULT_MESSAGE_CHARS
+            }
+        )
+        assertTrue(message.contains("name=\"first_tool\""))
+        assertTrue(message.contains("name=\"second_tool\""))
+    }
+}

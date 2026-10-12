@@ -1,1 +1,450 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCmltcG9ydCBrb3RsaW4uY29yb3V0aW5lcy5Db3JvdXRpbmVDb250ZXh0CmltcG9ydCBrb3RsaW4uY29yb3V0aW5lcy5FbXB0eUNvcm91dGluZUNvbnRleHQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNoYW5uZWxzLkJ1ZmZlck92ZXJmbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuY2hhbm5lbHMuQ2hhbm5lbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqIOWFseS6q1N0cmVhbeaOpeWPo++8jOexu+S8vOS6jlNoYXJlZEZsb3cgKi8KaW50ZXJmYWNlIFNoYXJlZFN0cmVhbTxUPiA6IFN0cmVhbTxUPiB7CiAgICAvKiog5b2T5YmN6K6i6ZiF6ICF5pWw6YePICovCiAgICB2YWwgc3Vic2NyaXB0aW9uQ291bnQ6IEludAoKICAgIC8qKiDph43mlL7nvJPlrZjlpKflsI8gKi8KICAgIHZhbCByZXBsYXlDYWNoZTogTGlzdDxUPgoKICAgIC8qKiDkuIrmuLjnu5PmnZ/ml7bnmoTlvILluLjvvJvmraPluLjnu5PmnZ/miJblsJrmnKrnu5PmnZ/ml7bkuLogbnVsbOOAgiAqLwogICAgdmFsIGNvbXBsZXRpb25DYXVzZTogVGhyb3dhYmxlPwp9CgovKiog5Y+v5Y+Y5YWx5LqrU3RyZWFt5o6l5Y+j77yM57G75Ly85LqOTXV0YWJsZVNoYXJlZEZsb3cgKi8KaW50ZXJmYWNlIE11dGFibGVTaGFyZWRTdHJlYW08VD4gOiBTaGFyZWRTdHJlYW08VD4gewogICAgLyoqIOWPkeWwhOS4gOS4quWAvOWIsFN0cmVhbSAqLwogICAgc3VzcGVuZCBmdW4gZW1pdCh2YWx1ZTogVCkKCiAgICAvKiog5bCd6K+V5Y+R5bCE5LiA5Liq5YC877yM5aaC5p6c57yT5Yay5Yy65bey5ruh6L+U5ZueZmFsc2UgKi8KICAgIGZ1biB0cnlFbWl0KHZhbHVlOiBUKTogQm9vbGVhbgoKICAgIC8qKiDph43nva7ph43mlL7nvJPlrZggKi8KICAgIGZ1biByZXNldFJlcGxheUNhY2hlKCkKfQoKLyoqIOeKtuaAgVN0cmVhbeaOpeWPo++8jOexu+S8vOS6jlN0YXRlRmxvdyAqLwppbnRlcmZhY2UgU3RhdGVTdHJlYW08VD4gOiBTaGFyZWRTdHJlYW08VD4gewogICAgLyoqIOW9k+WJjeWAvCAqLwogICAgdmFsIHZhbHVlOiBUCn0KCi8qKiDlj6/lj5jnirbmgIFTdHJlYW3mjqXlj6PvvIznsbvkvLzkuo5NdXRhYmxlU3RhdGVGbG93ICovCmludGVyZmFjZSBNdXRhYmxlU3RhdGVTdHJlYW08VD4gOiBTdGF0ZVN0cmVhbTxUPiwgTXV0YWJsZVNoYXJlZFN0cmVhbTxUPiB7CiAgICAvKiog6K6+572u5b2T5YmN5YC8ICovCiAgICBvdmVycmlkZSB2YXIgdmFsdWU6IFQKCiAgICAvKiog5q+U6L6D5bm26K6+572u5YC8ICovCiAgICBmdW4gY29tcGFyZUFuZFNldChleHBlY3Q6IFQsIHVwZGF0ZTogVCk6IEJvb2xlYW4KfQoKLyoqCiAqIEhlbHBlciB0byBhY2Nlc3MgdGhlIGludGVybmFsIGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdzxJbnQ+IGZvciBzdWJzY3JpcHRpb24gY291bnQgVGhpcwogKiBpcyBmb3IgaW50ZXJuYWwgdXNlIGJ5IHRoZSAuc3RhdGUoKSBhbmQgLnNoYXJlKCkgb3BlcmF0b3JzLgogKi8KaW50ZXJuYWwgZnVuIDxUPiBTaGFyZWRTdHJlYW08VD4uZ2V0SW50ZXJuYWxTdWJzY3JpcHRpb25Db3VudEZsb3coKToKICAgICAgICBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3c8SW50Pj8gewogICAgcmV0dXJuIHdoZW4gKHRoaXMpIHsKICAgICAgICBpcyBNdXRhYmxlU2hhcmVkU3RyZWFtSW1wbDxUPiAtPiB0aGlzLmludGVybmFsU3Vic2NyaXB0aW9uQ291bnRGbG93CiAgICAgICAgaXMgTXV0YWJsZVN0YXRlU3RyZWFtSW1wbDxUPiAtPiB0aGlzLmludGVybmFsRmxvdy5zdWJzY3JpcHRpb25Db3VudAogICAgICAgIGVsc2UgLT4gbnVsbAogICAgfQp9CgovKiogTXV0YWJsZVNoYXJlZEZsb3fnmoTljIXoo4XlmajvvIzlrp7njrBNdXRhYmxlU2hhcmVkU3RyZWFtICovCmNsYXNzIE11dGFibGVTaGFyZWRTdHJlYW1JbXBsPFQ+KAogICAgICAgIHJlcGxheTogSW50ID0gMCwKICAgICAgICBleHRyYUJ1ZmZlckNhcGFjaXR5OiBJbnQgPSAwLAogICAgICAgIG9uQnVmZmVyT3ZlcmZsb3c6IEJ1ZmZlck92ZXJmbG93ID0gQnVmZmVyT3ZlcmZsb3cuU1VTUEVORCwKICAgICAgICBwcml2YXRlIHZhbCBwcm9wYWdhdGVDb21wbGV0aW9uQ2F1c2U6IEJvb2xlYW4gPSB0cnVlLAopIDogTXV0YWJsZVNoYXJlZFN0cmVhbTxUPiB7CiAgICBwcml2YXRlIHNlYWxlZCBpbnRlcmZhY2UgU2hhcmVkRXZlbnQ8b3V0IFQ+IHsKICAgICAgICBkYXRhIGNsYXNzIFZhbHVlPFQ+KHZhbCBwYXlsb2FkOiBUKSA6IFNoYXJlZEV2ZW50PFQ+CiAgICAgICAgZGF0YSBjbGFzcyBDb21wbGV0aW9uKHZhbCBjYXVzZTogVGhyb3dhYmxlPykgOiBTaGFyZWRFdmVudDxOb3RoaW5nPgogICAgfQoKICAgIHByaXZhdGUgdmFsIHJlcGxheUxpbWl0ID0gcmVwbGF5LmNvZXJjZUF0TGVhc3QoMCkKICAgIHByaXZhdGUgdmFsIHJlcGxheUJ1ZmZlciA9IEFycmF5RGVxdWU8VD4oKQogICAgcHJpdmF0ZSB2YWwgc3Vic2NyaWJlcnMgPSBsaW5rZWRNYXBPZjxMb25nLCBDaGFubmVsPFNoYXJlZEV2ZW50PFQ+Pj4oKQogICAgcHJpdmF0ZSB2YWwgc3RhdGVMb2NrID0gQW55KCkKICAgIHByaXZhdGUgdmFyIG5leHRTdWJzY3JpYmVySWQgPSAwTAogICAgcHJpdmF0ZSB2YXIgY2xvc2VDYXVzZTogVGhyb3dhYmxlPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIGlzQ2xvc2VkID0gZmFsc2UKCiAgICBpbnRlcm5hbCB2YWwgaW50ZXJuYWxTdWJzY3JpcHRpb25Db3VudEZsb3cgPSBNdXRhYmxlU3RhdGVGbG93KDApCgogICAgLy8g54Ot5rWB5LiN6ZyA6KaB6ZSB5a6a5py65Yi277yM5omA5Lul6L+Z6YeM5o+Q5L6b6buY6K6k5a6e546wCiAgICBvdmVycmlkZSB2YWwgaXNMb2NrZWQ6IEJvb2xlYW4gPSBmYWxzZQogICAgb3ZlcnJpZGUgdmFsIGJ1ZmZlcmVkQ291bnQ6IEludCA9IDAKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBsb2NrKCkgewogICAgICAgIC8vIOeDrea1geS4jeaUr+aMgemUgeWumu+8jOatpOWkhOS4jeaJp+ihjOS7u+S9leaTjeS9nAogICAgICAgIFN0cmVhbUxvZ2dlci5kKCJIb3RTdHJlYW0iLCAi54Ot5rWB5LiN5pSv5oyB6ZSB5a6a5pON5L2cIikKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biB1bmxvY2soKSB7CiAgICAgICAgLy8g54Ot5rWB5LiN5pSv5oyB6ZSB5a6a77yM5q2k5aSE5LiN5omn6KGM5Lu75L2V5pON5L2cCiAgICAgICAgU3RyZWFtTG9nZ2VyLmQoIkhvdFN0cmVhbSIsICLng63mtYHkuI3mlK/mjIHop6PplIHmk43kvZwiKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBjbGVhckJ1ZmZlcigpIHsKICAgICAgICAvLyDng63mtYHmnInoh6rlt7HnmoTnvJPlhrLnrqHnkIbvvIzmraTmlrnms5XkuI3pgILnlKgKICAgICAgICBTdHJlYW1Mb2dnZXIuZCgiSG90U3RyZWFtIiwgIueDrea1geS4jeaUr+aMgea4heepuue8k+WGsuWMuuaTjeS9nCIpCiAgICB9CgogICAgb3ZlcnJpZGUgdmFsIHN1YnNjcmlwdGlvbkNvdW50OiBJbnQKICAgICAgICBnZXQoKSA9IGludGVybmFsU3Vic2NyaXB0aW9uQ291bnRGbG93LnZhbHVlCgogICAgb3ZlcnJpZGUgdmFsIHJlcGxheUNhY2hlOiBMaXN0PFQ+CiAgICAgICAgZ2V0KCkgPSBzeW5jaHJvbml6ZWQoc3RhdGVMb2NrKSB7IHJlcGxheUJ1ZmZlci50b0xpc3QoKSB9CgogICAgb3ZlcnJpZGUgdmFsIGNvbXBsZXRpb25DYXVzZTogVGhyb3dhYmxlPwogICAgICAgIGdldCgpID0gc3luY2hyb25pemVkKHN0YXRlTG9jaykgeyBjbG9zZUNhdXNlIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBlbWl0KHZhbHVlOiBUKSB7CiAgICAgICAgdmFsIHN1YnNjcmliZXJDaGFubmVscyA9CiAgICAgICAgICAgIHN5bmNocm9uaXplZChzdGF0ZUxvY2spIHsKICAgICAgICAgICAgICAgIGlmIChpc0Nsb3NlZCkgewogICAgICAgICAgICAgICAgICAgIGVtcHR5TGlzdCgpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGFwcGVuZFRvUmVwbGF5QnVmZmVyTG9ja2VkKHZhbHVlKQogICAgICAgICAgICAgICAgICAgIHN1YnNjcmliZXJzLnZhbHVlcy50b0xpc3QoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgIGZvciAoY2hhbm5lbCBpbiBzdWJzY3JpYmVyQ2hhbm5lbHMpIHsKICAgICAgICAgICAgY2hhbm5lbC5zZW5kKFNoYXJlZEV2ZW50LlZhbHVlKHZhbHVlKSkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHRyeUVtaXQodmFsdWU6IFQpOiBCb29sZWFuIHsKICAgICAgICB2YWwgc3Vic2NyaWJlckNoYW5uZWxzID0KICAgICAgICAgICAgc3luY2hyb25pemVkKHN0YXRlTG9jaykgewogICAgICAgICAgICAgICAgaWYgKGlzQ2xvc2VkKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBhcHBlbmRUb1JlcGxheUJ1ZmZlckxvY2tlZCh2YWx1ZSkKICAgICAgICAgICAgICAgIHN1YnNjcmliZXJzLnZhbHVlcy50b0xpc3QoKQogICAgICAgICAgICB9CgogICAgICAgIHN1YnNjcmliZXJDaGFubmVscy5mb3JFYWNoIHsgY2hhbm5lbCAtPgogICAgICAgICAgICBjaGFubmVsLnRyeVNlbmQoU2hhcmVkRXZlbnQuVmFsdWUodmFsdWUpKQogICAgICAgIH0KICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biByZXNldFJlcGxheUNhY2hlKCkgewogICAgICAgIHN5bmNocm9uaXplZChzdGF0ZUxvY2spIHsKICAgICAgICAgICAgcmVwbGF5QnVmZmVyLmNsZWFyKCkKICAgICAgICB9CiAgICB9CgogICAgZnVuIGNsb3NlKGNhdXNlOiBUaHJvd2FibGU/ID0gbnVsbCkgewogICAgICAgIHZhbCBzdWJzY3JpYmVyQ2hhbm5lbHMgPQogICAgICAgICAgICBzeW5jaHJvbml6ZWQoc3RhdGVMb2NrKSB7CiAgICAgICAgICAgICAgICBpZiAoaXNDbG9zZWQpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlzQ2xvc2VkID0gdHJ1ZQogICAgICAgICAgICAgICAgY2xvc2VDYXVzZSA9IGNhdXNlCiAgICAgICAgICAgICAgICBzdWJzY3JpYmVycy52YWx1ZXMudG9MaXN0KCkKICAgICAgICAgICAgfQoKICAgICAgICBzdWJzY3JpYmVyQ2hhbm5lbHMuZm9yRWFjaCB7IGNoYW5uZWwgLT4KICAgICAgICAgICAgY2hhbm5lbC50cnlTZW5kKFNoYXJlZEV2ZW50LkNvbXBsZXRpb24oY2F1c2UpKQogICAgICAgICAgICBjaGFubmVsLmNsb3NlKCkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gY29sbGVjdChjb2xsZWN0b3I6IFN0cmVhbUNvbGxlY3RvcjxUPikgewogICAgICAgIHZhbCByZXBsYXlTbmFwc2hvdDogTGlzdDxUPgogICAgICAgIHZhbCBzdWJzY3JpYmVySWQ6IExvbmc/CiAgICAgICAgdmFsIHN1YnNjcmliZXJDaGFubmVsOiBDaGFubmVsPFNoYXJlZEV2ZW50PFQ+Pj8KICAgICAgICB2YWwgY2xvc2VkU25hcHNob3Q6IFRocm93YWJsZT8KCiAgICAgICAgc3luY2hyb25pemVkKHN0YXRlTG9jaykgewogICAgICAgICAgICByZXBsYXlTbmFwc2hvdCA9IHJlcGxheUJ1ZmZlci50b0xpc3QoKQogICAgICAgICAgICBjbG9zZWRTbmFwc2hvdCA9IGlmIChpc0Nsb3NlZCkgY2xvc2VDYXVzZSBlbHNlIG51bGwKICAgICAgICAgICAgaWYgKGlzQ2xvc2VkKSB7CiAgICAgICAgICAgICAgICBzdWJzY3JpYmVySWQgPSBudWxsCiAgICAgICAgICAgICAgICBzdWJzY3JpYmVyQ2hhbm5lbCA9IG51bGwKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHN1YnNjcmliZXJJZCA9IG5leHRTdWJzY3JpYmVySWQrKwogICAgICAgICAgICAgICAgc3Vic2NyaWJlckNoYW5uZWwgPSBDaGFubmVsKENoYW5uZWwuVU5MSU1JVEVEKQogICAgICAgICAgICAgICAgc3Vic2NyaWJlcnNbc3Vic2NyaWJlcklkXSA9IHN1YnNjcmliZXJDaGFubmVsCiAgICAgICAgICAgICAgICBpbnRlcm5hbFN1YnNjcmlwdGlvbkNvdW50Rmxvdy52YWx1ZSA9IHN1YnNjcmliZXJzLnNpemUKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgcmVwbGF5U25hcHNob3QuZm9yRWFjaCB7IHZhbHVlIC0+CiAgICAgICAgICAgICAgICBjb2xsZWN0b3IuZW1pdCh2YWx1ZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKHN1YnNjcmliZXJDaGFubmVsID09IG51bGwpIHsKICAgICAgICAgICAgICAgIGlmIChjbG9zZWRTbmFwc2hvdCAhPSBudWxsICYmIHByb3BhZ2F0ZUNvbXBsZXRpb25DYXVzZSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IGNsb3NlZFNuYXBzaG90CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZm9yIChldmVudCBpbiBzdWJzY3JpYmVyQ2hhbm5lbCkgewogICAgICAgICAgICAgICAgd2hlbiAoZXZlbnQpIHsKICAgICAgICAgICAgICAgICAgICBpcyBTaGFyZWRFdmVudC5WYWx1ZSAtPiBjb2xsZWN0b3IuZW1pdChldmVudC5wYXlsb2FkKQogICAgICAgICAgICAgICAgICAgIGlzIFNoYXJlZEV2ZW50LkNvbXBsZXRpb24gLT4gewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoZXZlbnQuY2F1c2UgIT0gbnVsbCAmJiBwcm9wYWdhdGVDb21wbGV0aW9uQ2F1c2UpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IGV2ZW50LmNhdXNlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoY2xvc2VkU25hcHNob3QgIT0gbnVsbCAmJiBwcm9wYWdhdGVDb21wbGV0aW9uQ2F1c2UpIHsKICAgICAgICAgICAgICAgIHRocm93IGNsb3NlZFNuYXBzaG90CiAgICAgICAgICAgIH0KICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBzdWJzY3JpYmVyQ2hhbm5lbD8uY2FuY2VsKCkKICAgICAgICAgICAgaWYgKHN1YnNjcmliZXJJZCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBzeW5jaHJvbml6ZWQoc3RhdGVMb2NrKSB7CiAgICAgICAgICAgICAgICAgICAgc3Vic2NyaWJlcnMucmVtb3ZlKHN1YnNjcmliZXJJZCkKICAgICAgICAgICAgICAgICAgICBpbnRlcm5hbFN1YnNjcmlwdGlvbkNvdW50Rmxvdy52YWx1ZSA9IHN1YnNjcmliZXJzLnNpemUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBhcHBlbmRUb1JlcGxheUJ1ZmZlckxvY2tlZCh2YWx1ZTogVCkgewogICAgICAgIGlmIChyZXBsYXlMaW1pdCA8PSAwKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICByZXBsYXlCdWZmZXIuYWRkTGFzdCh2YWx1ZSkKICAgICAgICB3aGlsZSAocmVwbGF5QnVmZmVyLnNpemUgPiByZXBsYXlMaW1pdCkgewogICAgICAgICAgICByZXBsYXlCdWZmZXIucmVtb3ZlRmlyc3QoKQogICAgICAgIH0KICAgIH0KfQoKLyoqIE11dGFibGVTdGF0ZUZsb3fnmoTljIXoo4XlmajvvIzlrp7njrBNdXRhYmxlU3RhdGVTdHJlYW0gKi8KY2xhc3MgTXV0YWJsZVN0YXRlU3RyZWFtSW1wbDxUPihpbml0aWFsVmFsdWU6IFQpIDogTXV0YWJsZVN0YXRlU3RyZWFtPFQ+IHsKICAgIGludGVybmFsIHZhbCBpbnRlcm5hbEZsb3cgPSBNdXRhYmxlU3RhdGVGbG93KGluaXRpYWxWYWx1ZSkKCiAgICAvLyDng63mtYHkuI3pnIDopoHplIHlrprmnLrliLbvvIzmiYDku6Xov5nph4zmj5Dkvpvpu5jorqTlrp7njrAKICAgIG92ZXJyaWRlIHZhbCBpc0xvY2tlZDogQm9vbGVhbiA9IGZhbHNlCiAgICBvdmVycmlkZSB2YWwgYnVmZmVyZWRDb3VudDogSW50ID0gMAoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGxvY2soKSB7CiAgICAgICAgLy8g54Ot5rWB5LiN5pSv5oyB6ZSB5a6a77yM5q2k5aSE5LiN5omn6KGM5Lu75L2V5pON5L2cCiAgICAgICAgU3RyZWFtTG9nZ2VyLmQoIkhvdFN0cmVhbSIsICLnirbmgIHmtYHkuI3mlK/mjIHplIHlrprmk43kvZwiKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHVubG9jaygpIHsKICAgICAgICAvLyDng63mtYHkuI3mlK/mjIHplIHlrprvvIzmraTlpITkuI3miafooYzku7vkvZXmk43kvZwKICAgICAgICBTdHJlYW1Mb2dnZXIuZCgiSG90U3RyZWFtIiwgIueKtuaAgea1geS4jeaUr+aMgeino+mUgeaTjeS9nCIpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGNsZWFyQnVmZmVyKCkgewogICAgICAgIC8vIOeDrea1geacieiHquW3seeahOe8k+WGsueuoeeQhu+8jOatpOaWueazleS4jemAgueUqAogICAgICAgIFN0cmVhbUxvZ2dlci5kKCJIb3RTdHJlYW0iLCAi54q25oCB5rWB5LiN5pSv5oyB5riF56m657yT5Yay5Yy65pON5L2cIikKICAgIH0KCiAgICBvdmVycmlkZSB2YXIgdmFsdWU6IFQKICAgICAgICBnZXQoKSA9IGludGVybmFsRmxvdy52YWx1ZQogICAgICAgIHNldCh2YWx1ZSkgewogICAgICAgICAgICBpbnRlcm5hbEZsb3cudmFsdWUgPSB2YWx1ZQogICAgICAgIH0KCiAgICBvdmVycmlkZSB2YWwgc3Vic2NyaXB0aW9uQ291bnQ6IEludAogICAgICAgIGdldCgpID0gaW50ZXJuYWxGbG93LnN1YnNjcmlwdGlvbkNvdW50LnZhbHVlCgogICAgb3ZlcnJpZGUgdmFsIHJlcGxheUNhY2hlOiBMaXN0PFQ+CiAgICAgICAgZ2V0KCkgPSBpbnRlcm5hbEZsb3cucmVwbGF5Q2FjaGUKCiAgICBvdmVycmlkZSB2YWwgY29tcGxldGlvbkNhdXNlOiBUaHJvd2FibGU/CiAgICAgICAgZ2V0KCkgPSBudWxsCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gZW1pdCh2YWx1ZTogVCkgewogICAgICAgIGludGVybmFsRmxvdy5lbWl0KHZhbHVlKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biB0cnlFbWl0KHZhbHVlOiBUKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGludGVybmFsRmxvdy50cnlFbWl0KHZhbHVlKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biByZXNldFJlcGxheUNhY2hlKCkgewogICAgICAgIC8vIFN0YXRlRmxvdyBkb2VzIG5vdCBzdXBwb3J0IHJlc2V0dGluZyByZXBsYXkgY2FjaGUgYXMgaXQgYWx3YXlzIGhvbGRzIHRoZSBjdXJyZW50IHN0YXRlLgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBjb21wYXJlQW5kU2V0KGV4cGVjdDogVCwgdXBkYXRlOiBUKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGludGVybmFsRmxvdy5jb21wYXJlQW5kU2V0KGV4cGVjdCwgdXBkYXRlKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGNvbGxlY3QoY29sbGVjdG9yOiBTdHJlYW1Db2xsZWN0b3I8VD4pIHsKICAgICAgICBpbnRlcm5hbEZsb3cuY29sbGVjdCB7IHZhbHVlIC0+IGNvbGxlY3Rvci5lbWl0KHZhbHVlKSB9CiAgICB9Cn0KCi8qKiDliJvlu7rkuIDkuKpNdXRhYmxlU2hhcmVkU3RyZWFtICovCmZ1biA8VD4gTXV0YWJsZVNoYXJlZFN0cmVhbSgKICAgICAgICByZXBsYXk6IEludCA9IDAsCiAgICAgICAgZXh0cmFCdWZmZXJDYXBhY2l0eTogSW50ID0gMCwKICAgICAgICBvbkJ1ZmZlck92ZXJmbG93OiBCdWZmZXJPdmVyZmxvdyA9IEJ1ZmZlck92ZXJmbG93LlNVU1BFTkQsCiAgICAgICAgY29udGV4dDogQ29yb3V0aW5lQ29udGV4dCA9IEVtcHR5Q29yb3V0aW5lQ29udGV4dCwKICAgICAgICBwcm9wYWdhdGVDb21wbGV0aW9uQ2F1c2U6IEJvb2xlYW4gPSB0cnVlLAopOiBNdXRhYmxlU2hhcmVkU3RyZWFtPFQ+IHsKICAgIHJldHVybiBNdXRhYmxlU2hhcmVkU3RyZWFtSW1wbCgKICAgICAgICByZXBsYXkgPSByZXBsYXksCiAgICAgICAgZXh0cmFCdWZmZXJDYXBhY2l0eSA9IGV4dHJhQnVmZmVyQ2FwYWNpdHksCiAgICAgICAgb25CdWZmZXJPdmVyZmxvdyA9IG9uQnVmZmVyT3ZlcmZsb3csCiAgICAgICAgcHJvcGFnYXRlQ29tcGxldGlvbkNhdXNlID0gcHJvcGFnYXRlQ29tcGxldGlvbkNhdXNlLAogICAgKQp9CgovKiog5Yib5bu65LiA5LiqTXV0YWJsZVN0YXRlU3RyZWFtICovCmZ1biA8VD4gTXV0YWJsZVN0YXRlU3RyZWFtKGluaXRpYWxWYWx1ZTogVCk6IE11dGFibGVTdGF0ZVN0cmVhbTxUPiB7CiAgICByZXR1cm4gTXV0YWJsZVN0YXRlU3RyZWFtSW1wbChpbml0aWFsVmFsdWUpCn0KCi8qKiDlsIZTdHJlYW3ovazlj5jkuLrng63mtYHvvIznsbvkvLzkuo5GbG9355qEc2hhcmVJbiAqLwpmdW4gPFQ+IFN0cmVhbTxUPi5zaGFyZSgKICAgICAgICBzY29wZTogQ29yb3V0aW5lU2NvcGUsCiAgICAgICAgcmVwbGF5OiBJbnQgPSAwLAogICAgICAgIHN0YXJ0ZWQ6IFN0cmVhbVN0YXJ0ID0gU3RyZWFtU3RhcnQuRUFHRVJMWSwKICAgICAgICBvbkNvbXBsZXRlOiBzdXNwZW5kICgpIC0+IFVuaXQgPSB7fSwKICAgICAgICAvLyDlhbHkuqvmtYHlj6/ooqvlpJrkuKrop4Llr5/ogIXmtojotLnvvJvogYrlpKnlnLrmma/nlLHkuLvorqLpmIXor7vlj5YgY29tcGxldGlvbkNhdXNl77yMCiAgICAgICAgLy8g5peB6KeC6K6i6ZiF6ICF5LiN5bqU5Zug5ZCM5LiAIHByb3ZpZGVyIOWksei0peiiq+WNj+eoi+W8guW4uOaJk+aWreOAggogICAgICAgIHByb3BhZ2F0ZUNvbXBsZXRpb25DYXVzZTogQm9vbGVhbiA9IHRydWUsCik6IFNoYXJlZFN0cmVhbTxUPiB7CiAgICB2YWwgc2hhcmVkU3RyZWFtID0gTXV0YWJsZVNoYXJlZFN0cmVhbUltcGw8VD4oCiAgICAgICAgcmVwbGF5ID0gcmVwbGF5LAogICAgICAgIHByb3BhZ2F0ZUNvbXBsZXRpb25DYXVzZSA9IHByb3BhZ2F0ZUNvbXBsZXRpb25DYXVzZSwKICAgICkKICAgIHZhciB1cHN0cmVhbUpvYjogSm9iPyA9IG51bGwKCiAgICB3aGVuIChzdGFydGVkKSB7CiAgICAgICAgU3RyZWFtU3RhcnQuRUFHRVJMWSAtPiB7CiAgICAgICAgICAgIC8vIOi/meS4qkpvYueOsOWcqOaYr3Njb3Bl55qE55u05o6l5a2QSm9iCiAgICAgICAgICAgIHVwc3RyZWFtSm9iID0KICAgICAgICAgICAgICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgICAgICAgICB2YXIgY29tcGxldGlvbkNhdXNlOiBUaHJvd2FibGU/ID0gbnVsbAogICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhpc0BzaGFyZS5jb2xsZWN0IHsgdmFsdWUgLT4gc2hhcmVkU3RyZWFtLmVtaXQodmFsdWUpIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZXJyb3I6IFRocm93YWJsZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tcGxldGlvbkNhdXNlID0gZXJyb3IKICAgICAgICAgICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYXJlZFN0cmVhbS5jbG9zZShjb21wbGV0aW9uQ2F1c2UpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNvbXBsZXRlKCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgU3RyZWFtU3RhcnQuTEFaSUxZIC0+IHsKICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgIHZhbCBzdWJzY3JpcHRpb25Db3VudEZsb3cgPSBzaGFyZWRTdHJlYW0uZ2V0SW50ZXJuYWxTdWJzY3JpcHRpb25Db3VudEZsb3coKQogICAgICAgICAgICAgICAgaWYgKHN1YnNjcmlwdGlvbkNvdW50RmxvdyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgc3Vic2NyaXB0aW9uQ291bnRGbG93LmNvbGxlY3QgeyBjb3VudCAtPgogICAgICAgICAgICAgICAgICAgICAgICBpZiAoY291bnQgPiAwICYmIHVwc3RyZWFtSm9iPy5pc0FjdGl2ZSAhPSB0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1cHN0cmVhbUpvYiA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YXIgY29tcGxldGlvbkNhdXNlOiBUaHJvd2FibGU/ID0gbnVsbAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aGlzQHNoYXJlLmNvbGxlY3QgeyBlbWl0dGVkVmFsdWUgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hhcmVkU3RyZWFtLmVtaXQoZW1pdHRlZFZhbHVlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGVycm9yOiBUaHJvd2FibGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb21wbGV0aW9uQ2F1c2UgPSBlcnJvcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGFyZWRTdHJlYW0uY2xvc2UoY29tcGxldGlvbkNhdXNlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ29tcGxldGUoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoY291bnQgPT0gMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5b2T5rKh5pyJ6K6i6ZiF6ICF5pe277yM5Y+W5raI5LiK5ri45rWB55qE5pS26ZuGCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1cHN0cmVhbUpvYj8uY2FuY2VsKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVwc3RyZWFtSm9iID0gbnVsbAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBwcmludGxuKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIldhcm5pbmc6IFN0cmVhbS5zaGFyZSBMQVpJTFkgbW9kZSBjb3VsZCBub3Qgb2JzZXJ2ZSBzdWJzY3JpcHRpb25zLCBtYXkgYmVoYXZlIGxpa2UgRUFHRVJMWS4iCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIC8vIEZhbGxiYWNrIHRvIEVBR0VSTFkgYmVoYXZpb3IKICAgICAgICAgICAgICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgICAgICAgICB2YXIgY29tcGxldGlvbkNhdXNlOiBUaHJvd2FibGU/ID0gbnVsbAogICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhpc0BzaGFyZS5jb2xsZWN0IHsgdmFsdWUgLT4gc2hhcmVkU3RyZWFtLmVtaXQodmFsdWUpIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZXJyb3I6IFRocm93YWJsZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29tcGxldGlvbkNhdXNlID0gZXJyb3IKICAgICAgICAgICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYXJlZFN0cmVhbS5jbG9zZShjb21wbGV0aW9uQ2F1c2UpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNvbXBsZXRlKCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gc2hhcmVkU3RyZWFtCn0KCi8qKiDlsIZTdHJlYW3ovazlj5jkuLpTdGF0ZVN0cmVhbe+8jOexu+S8vOS6jkZsb3fnmoRzdGF0ZUluICovCmZ1biA8VD4gU3RyZWFtPFQ+LnN0YXRlKAogICAgICAgIHNjb3BlOiBDb3JvdXRpbmVTY29wZSwKICAgICAgICBpbml0aWFsVmFsdWU6IFQsCiAgICAgICAgc3RhcnRlZDogU3RyZWFtU3RhcnQgPSBTdHJlYW1TdGFydC5FQUdFUkxZCik6IFN0YXRlU3RyZWFtPFQ+IHsKICAgIHZhbCBzdGF0ZVN0cmVhbSA9IE11dGFibGVTdGF0ZVN0cmVhbUltcGwoaW5pdGlhbFZhbHVlKQogICAgdmFyIHVwc3RyZWFtSm9iOiBKb2I/ID0gbnVsbAoKICAgIHdoZW4gKHN0YXJ0ZWQpIHsKICAgICAgICBTdHJlYW1TdGFydC5FQUdFUkxZIC0+IHsKICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsgdGhpc0BzdGF0ZS5jb2xsZWN0IHsgdmFsdWUgLT4gc3RhdGVTdHJlYW0udmFsdWUgPSB2YWx1ZSB9IH0KICAgICAgICB9CiAgICAgICAgU3RyZWFtU3RhcnQuTEFaSUxZIC0+IHsKICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgIHZhbCBzdWJzY3JpcHRpb25Db3VudEZsb3cgPSBzdGF0ZVN0cmVhbS5nZXRJbnRlcm5hbFN1YnNjcmlwdGlvbkNvdW50RmxvdygpCiAgICAgICAgICAgICAgICBpZiAoc3Vic2NyaXB0aW9uQ291bnRGbG93ICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBzdWJzY3JpcHRpb25Db3VudEZsb3cuY29sbGVjdCB7IGNvdW50IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjb3VudCA+IDAgJiYgdXBzdHJlYW1Kb2IgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdXBzdHJlYW1Kb2IgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhpc0BzdGF0ZS5jb2xsZWN0IHsgZW1pdHRlZFZhbHVlIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGVTdHJlYW0udmFsdWUgPSBlbWl0dGVkVmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBwcmludGxuKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIldhcm5pbmc6IFN0cmVhbS5zdGF0ZSBMQVpJTFkgbW9kZSBjb3VsZCBub3Qgb2JzZXJ2ZSBzdWJzY3JpcHRpb25zLCBtYXkgYmVoYXZlIGxpa2UgRUFHRVJMWS4iCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHVwc3RyZWFtSm9iID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhpc0BzdGF0ZS5jb2xsZWN0IHsgdmFsdWUgLT4gc3RhdGVTdHJlYW0udmFsdWUgPSB2YWx1ZSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcmV0dXJuIHN0YXRlU3RyZWFtCn0KCi8qKiDmtYHlkK/liqjmqKHlvI8gKi8KZW51bSBjbGFzcyBTdHJlYW1TdGFydCB7CiAgICAvKiog56uL5Y2z5ZCv5YqoICovCiAgICBFQUdFUkxZLAoKICAgIC8qKiDmnInorqLpmIXogIXml7blkK/liqggKi8KICAgIExBWklMWQp9Cg==
+package com.bslsjdk.operit.util.stream
+
+import kotlin.coroutines.CoroutineContext
+import kotlin.coroutines.EmptyCoroutineContext
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.channels.BufferOverflow
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.launch
+
+/** 共享Stream接口，类似于SharedFlow */
+interface SharedStream<T> : Stream<T> {
+    /** 当前订阅者数量 */
+    val subscriptionCount: Int
+
+    /** 重放缓存大小 */
+    val replayCache: List<T>
+
+    /** 上游结束时的异常；正常结束或尚未结束时为 null。 */
+    val completionCause: Throwable?
+}
+
+/** 可变共享Stream接口，类似于MutableSharedFlow */
+interface MutableSharedStream<T> : SharedStream<T> {
+    /** 发射一个值到Stream */
+    suspend fun emit(value: T)
+
+    /** 尝试发射一个值，如果缓冲区已满返回false */
+    fun tryEmit(value: T): Boolean
+
+    /** 重置重放缓存 */
+    fun resetReplayCache()
+}
+
+/** 状态Stream接口，类似于StateFlow */
+interface StateStream<T> : SharedStream<T> {
+    /** 当前值 */
+    val value: T
+}
+
+/** 可变状态Stream接口，类似于MutableStateFlow */
+interface MutableStateStream<T> : StateStream<T>, MutableSharedStream<T> {
+    /** 设置当前值 */
+    override var value: T
+
+    /** 比较并设置值 */
+    fun compareAndSet(expect: T, update: T): Boolean
+}
+
+/**
+ * Helper to access the internal kotlinx.coroutines.flow.StateFlow<Int> for subscription count This
+ * is for internal use by the .state() and .share() operators.
+ */
+internal fun <T> SharedStream<T>.getInternalSubscriptionCountFlow():
+        kotlinx.coroutines.flow.StateFlow<Int>? {
+    return when (this) {
+        is MutableSharedStreamImpl<T> -> this.internalSubscriptionCountFlow
+        is MutableStateStreamImpl<T> -> this.internalFlow.subscriptionCount
+        else -> null
+    }
+}
+
+/** MutableSharedFlow的包装器，实现MutableSharedStream */
+class MutableSharedStreamImpl<T>(
+        replay: Int = 0,
+        extraBufferCapacity: Int = 0,
+        onBufferOverflow: BufferOverflow = BufferOverflow.SUSPEND,
+        private val propagateCompletionCause: Boolean = true,
+) : MutableSharedStream<T> {
+    private sealed interface SharedEvent<out T> {
+        data class Value<T>(val payload: T) : SharedEvent<T>
+        data class Completion(val cause: Throwable?) : SharedEvent<Nothing>
+    }
+
+    private val replayLimit = replay.coerceAtLeast(0)
+    private val replayBuffer = ArrayDeque<T>()
+    private val subscribers = linkedMapOf<Long, Channel<SharedEvent<T>>>()
+    private val stateLock = Any()
+    private var nextSubscriberId = 0L
+    private var closeCause: Throwable? = null
+    private var isClosed = false
+
+    internal val internalSubscriptionCountFlow = MutableStateFlow(0)
+
+    // 热流不需要锁定机制，所以这里提供默认实现
+    override val isLocked: Boolean = false
+    override val bufferedCount: Int = 0
+
+    override suspend fun lock() {
+        // 热流不支持锁定，此处不执行任何操作
+        StreamLogger.d("HotStream", "热流不支持锁定操作")
+    }
+
+    override suspend fun unlock() {
+        // 热流不支持锁定，此处不执行任何操作
+        StreamLogger.d("HotStream", "热流不支持解锁操作")
+    }
+
+    override fun clearBuffer() {
+        // 热流有自己的缓冲管理，此方法不适用
+        StreamLogger.d("HotStream", "热流不支持清空缓冲区操作")
+    }
+
+    override val subscriptionCount: Int
+        get() = internalSubscriptionCountFlow.value
+
+    override val replayCache: List<T>
+        get() = synchronized(stateLock) { replayBuffer.toList() }
+
+    override val completionCause: Throwable?
+        get() = synchronized(stateLock) { closeCause }
+
+    override suspend fun emit(value: T) {
+        val subscriberChannels =
+            synchronized(stateLock) {
+                if (isClosed) {
+                    emptyList()
+                } else {
+                    appendToReplayBufferLocked(value)
+                    subscribers.values.toList()
+                }
+            }
+
+        for (channel in subscriberChannels) {
+            channel.send(SharedEvent.Value(value))
+        }
+    }
+
+    override fun tryEmit(value: T): Boolean {
+        val subscriberChannels =
+            synchronized(stateLock) {
+                if (isClosed) {
+                    return false
+                }
+                appendToReplayBufferLocked(value)
+                subscribers.values.toList()
+            }
+
+        subscriberChannels.forEach { channel ->
+            channel.trySend(SharedEvent.Value(value))
+        }
+        return true
+    }
+
+    override fun resetReplayCache() {
+        synchronized(stateLock) {
+            replayBuffer.clear()
+        }
+    }
+
+    fun close(cause: Throwable? = null) {
+        val subscriberChannels =
+            synchronized(stateLock) {
+                if (isClosed) {
+                    return
+                }
+                isClosed = true
+                closeCause = cause
+                subscribers.values.toList()
+            }
+
+        subscriberChannels.forEach { channel ->
+            channel.trySend(SharedEvent.Completion(cause))
+            channel.close()
+        }
+    }
+
+    override suspend fun collect(collector: StreamCollector<T>) {
+        val replaySnapshot: List<T>
+        val subscriberId: Long?
+        val subscriberChannel: Channel<SharedEvent<T>>?
+        val closedSnapshot: Throwable?
+
+        synchronized(stateLock) {
+            replaySnapshot = replayBuffer.toList()
+            closedSnapshot = if (isClosed) closeCause else null
+            if (isClosed) {
+                subscriberId = null
+                subscriberChannel = null
+            } else {
+                subscriberId = nextSubscriberId++
+                subscriberChannel = Channel(Channel.UNLIMITED)
+                subscribers[subscriberId] = subscriberChannel
+                internalSubscriptionCountFlow.value = subscribers.size
+            }
+        }
+
+        try {
+            replaySnapshot.forEach { value ->
+                collector.emit(value)
+            }
+
+            if (subscriberChannel == null) {
+                if (closedSnapshot != null && propagateCompletionCause) {
+                    throw closedSnapshot
+                }
+                return
+            }
+
+            for (event in subscriberChannel) {
+                when (event) {
+                    is SharedEvent.Value -> collector.emit(event.payload)
+                    is SharedEvent.Completion -> {
+                        if (event.cause != null && propagateCompletionCause) {
+                            throw event.cause
+                        }
+                        return
+                    }
+                }
+            }
+
+            if (closedSnapshot != null && propagateCompletionCause) {
+                throw closedSnapshot
+            }
+        } finally {
+            subscriberChannel?.cancel()
+            if (subscriberId != null) {
+                synchronized(stateLock) {
+                    subscribers.remove(subscriberId)
+                    internalSubscriptionCountFlow.value = subscribers.size
+                }
+            }
+        }
+    }
+
+    private fun appendToReplayBufferLocked(value: T) {
+        if (replayLimit <= 0) {
+            return
+        }
+        replayBuffer.addLast(value)
+        while (replayBuffer.size > replayLimit) {
+            replayBuffer.removeFirst()
+        }
+    }
+}
+
+/** MutableStateFlow的包装器，实现MutableStateStream */
+class MutableStateStreamImpl<T>(initialValue: T) : MutableStateStream<T> {
+    internal val internalFlow = MutableStateFlow(initialValue)
+
+    // 热流不需要锁定机制，所以这里提供默认实现
+    override val isLocked: Boolean = false
+    override val bufferedCount: Int = 0
+
+    override suspend fun lock() {
+        // 热流不支持锁定，此处不执行任何操作
+        StreamLogger.d("HotStream", "状态流不支持锁定操作")
+    }
+
+    override suspend fun unlock() {
+        // 热流不支持锁定，此处不执行任何操作
+        StreamLogger.d("HotStream", "状态流不支持解锁操作")
+    }
+
+    override fun clearBuffer() {
+        // 热流有自己的缓冲管理，此方法不适用
+        StreamLogger.d("HotStream", "状态流不支持清空缓冲区操作")
+    }
+
+    override var value: T
+        get() = internalFlow.value
+        set(value) {
+            internalFlow.value = value
+        }
+
+    override val subscriptionCount: Int
+        get() = internalFlow.subscriptionCount.value
+
+    override val replayCache: List<T>
+        get() = internalFlow.replayCache
+
+    override val completionCause: Throwable?
+        get() = null
+
+    override suspend fun emit(value: T) {
+        internalFlow.emit(value)
+    }
+
+    override fun tryEmit(value: T): Boolean {
+        return internalFlow.tryEmit(value)
+    }
+
+    override fun resetReplayCache() {
+        // StateFlow does not support resetting replay cache as it always holds the current state.
+    }
+
+    override fun compareAndSet(expect: T, update: T): Boolean {
+        return internalFlow.compareAndSet(expect, update)
+    }
+
+    override suspend fun collect(collector: StreamCollector<T>) {
+        internalFlow.collect { value -> collector.emit(value) }
+    }
+}
+
+/** 创建一个MutableSharedStream */
+fun <T> MutableSharedStream(
+        replay: Int = 0,
+        extraBufferCapacity: Int = 0,
+        onBufferOverflow: BufferOverflow = BufferOverflow.SUSPEND,
+        context: CoroutineContext = EmptyCoroutineContext,
+        propagateCompletionCause: Boolean = true,
+): MutableSharedStream<T> {
+    return MutableSharedStreamImpl(
+        replay = replay,
+        extraBufferCapacity = extraBufferCapacity,
+        onBufferOverflow = onBufferOverflow,
+        propagateCompletionCause = propagateCompletionCause,
+    )
+}
+
+/** 创建一个MutableStateStream */
+fun <T> MutableStateStream(initialValue: T): MutableStateStream<T> {
+    return MutableStateStreamImpl(initialValue)
+}
+
+/** 将Stream转变为热流，类似于Flow的shareIn */
+fun <T> Stream<T>.share(
+        scope: CoroutineScope,
+        replay: Int = 0,
+        started: StreamStart = StreamStart.EAGERLY,
+        onComplete: suspend () -> Unit = {},
+        // 共享流可被多个观察者消费；聊天场景由主订阅读取 completionCause，
+        // 旁观订阅者不应因同一 provider 失败被协程异常打断。
+        propagateCompletionCause: Boolean = true,
+): SharedStream<T> {
+    val sharedStream = MutableSharedStreamImpl<T>(
+        replay = replay,
+        propagateCompletionCause = propagateCompletionCause,
+    )
+    var upstreamJob: Job? = null
+
+    when (started) {
+        StreamStart.EAGERLY -> {
+            // 这个Job现在是scope的直接子Job
+            upstreamJob =
+                    scope.launch {
+                        var completionCause: Throwable? = null
+                        try {
+                            this@share.collect { value -> sharedStream.emit(value) }
+                        } catch (error: Throwable) {
+                            completionCause = error
+                        } finally {
+                            sharedStream.close(completionCause)
+                            onComplete()
+                        }
+                    }
+        }
+        StreamStart.LAZILY -> {
+            scope.launch {
+                val subscriptionCountFlow = sharedStream.getInternalSubscriptionCountFlow()
+                if (subscriptionCountFlow != null) {
+                    subscriptionCountFlow.collect { count ->
+                        if (count > 0 && upstreamJob?.isActive != true) {
+                            upstreamJob =
+                                    scope.launch {
+                                        var completionCause: Throwable? = null
+                                        try {
+                                            this@share.collect { emittedValue ->
+                                                sharedStream.emit(emittedValue)
+                                            }
+                                        } catch (error: Throwable) {
+                                            completionCause = error
+                                        } finally {
+                                            sharedStream.close(completionCause)
+                                            onComplete()
+                                        }
+                                    }
+                        } else if (count == 0) {
+                            // 当没有订阅者时，取消上游流的收集
+                            upstreamJob?.cancel()
+                            upstreamJob = null
+                        }
+                    }
+                } else {
+                    println(
+                            "Warning: Stream.share LAZILY mode could not observe subscriptions, may behave like EAGERLY."
+                    )
+                    // Fallback to EAGERLY behavior
+                    scope.launch {
+                        var completionCause: Throwable? = null
+                        try {
+                            this@share.collect { value -> sharedStream.emit(value) }
+                        } catch (error: Throwable) {
+                            completionCause = error
+                        } finally {
+                            sharedStream.close(completionCause)
+                            onComplete()
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    return sharedStream
+}
+
+/** 将Stream转变为StateStream，类似于Flow的stateIn */
+fun <T> Stream<T>.state(
+        scope: CoroutineScope,
+        initialValue: T,
+        started: StreamStart = StreamStart.EAGERLY
+): StateStream<T> {
+    val stateStream = MutableStateStreamImpl(initialValue)
+    var upstreamJob: Job? = null
+
+    when (started) {
+        StreamStart.EAGERLY -> {
+            scope.launch { this@state.collect { value -> stateStream.value = value } }
+        }
+        StreamStart.LAZILY -> {
+            scope.launch {
+                val subscriptionCountFlow = stateStream.getInternalSubscriptionCountFlow()
+                if (subscriptionCountFlow != null) {
+                    subscriptionCountFlow.collect { count ->
+                        if (count > 0 && upstreamJob == null) {
+                            upstreamJob =
+                                    scope.launch {
+                                        this@state.collect { emittedValue ->
+                                            stateStream.value = emittedValue
+                                        }
+                                    }
+                        }
+                    }
+                } else {
+                    println(
+                            "Warning: Stream.state LAZILY mode could not observe subscriptions, may behave like EAGERLY."
+                    )
+                    upstreamJob =
+                            scope.launch {
+                                this@state.collect { value -> stateStream.value = value }
+                            }
+                }
+            }
+        }
+    }
+
+    return stateStream
+}
+
+/** 流启动模式 */
+enum class StreamStart {
+    /** 立即启动 */
+    EAGERLY,
+
+    /** 有订阅者时启动 */
+    LAZILY
+}

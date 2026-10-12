@@ -1,1 +1,293 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQuc3RvcmFnZQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5PcGVyaXRQYXRocwppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLnV0aWwuTG9jYWxlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5tYXAKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLk11dGV4CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy53aXRoTG9jawppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlY29kZUZyb21TdHJpbmcKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKaW50ZXJuYWwgY2xhc3MgVXNlcnNjcmlwdEpzb25TdG9yZSBwcml2YXRlIGNvbnN0cnVjdG9yKGNvbnRleHQ6IENvbnRleHQpIHsKICAgIEBTZXJpYWxpemFibGUKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBTdG9yZVN0YXRlKAogICAgICAgIHZhbCBuZXh0U2NyaXB0SWQ6IExvbmcgPSAxTCwKICAgICAgICB2YWwgbmV4dFJlc291cmNlSWQ6IExvbmcgPSAxTCwKICAgICAgICB2YWwgc2NyaXB0czogTGlzdDxVc2Vyc2NyaXB0RW50aXR5PiA9IGVtcHR5TGlzdCgpLAogICAgICAgIHZhbCByZXNvdXJjZXM6IExpc3Q8VXNlcnNjcmlwdFJlc291cmNlRW50aXR5PiA9IGVtcHR5TGlzdCgpCiAgICApCgogICAgQFNlcmlhbGl6YWJsZQogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIExvZ1N0YXRlKAogICAgICAgIHZhbCBuZXh0TG9nSWQ6IExvbmcgPSAxTCwKICAgICAgICB2YWwgbG9nczogTGlzdDxVc2Vyc2NyaXB0TG9nRW50aXR5PiA9IGVtcHR5TGlzdCgpCiAgICApCgogICAgQFNlcmlhbGl6YWJsZQogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIFZhbHVlU3RhdGUoCiAgICAgICAgdmFsIHZhbHVlczogTGlzdDxVc2Vyc2NyaXB0VmFsdWVFbnRpdHk+ID0gZW1wdHlMaXN0KCkKICAgICkKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBAVm9sYXRpbGUKICAgICAgICBwcml2YXRlIHZhciBpbnN0YW5jZTogVXNlcnNjcmlwdEpzb25TdG9yZT8gPSBudWxsCgogICAgICAgIGZ1biBnZXRJbnN0YW5jZShjb250ZXh0OiBDb250ZXh0KTogVXNlcnNjcmlwdEpzb25TdG9yZSB7CiAgICAgICAgICAgIHJldHVybiBpbnN0YW5jZSA/OiBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICAgICAgaW5zdGFuY2UgPzogVXNlcnNjcmlwdEpzb25TdG9yZShjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkuYWxzbyB7IGluc3RhbmNlID0gaXQgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIGpzb24gPSBKc29uIHsgaWdub3JlVW5rbm93bktleXMgPSB0cnVlOyBlbmNvZGVEZWZhdWx0cyA9IHRydWU7IHByZXR0eVByaW50ID0gdHJ1ZSB9CiAgICBwcml2YXRlIHZhbCByb290RGlyID0gT3Blcml0UGF0aHMud2ViU2Vzc2lvblVzZXJzY3JpcHRzRGlyKCkKICAgIHByaXZhdGUgdmFsIHN0YXRlRGlyID0gRmlsZShyb290RGlyLCAic3RhdGUiKS5hcHBseSB7IG1rZGlycygpIH0KICAgIHByaXZhdGUgdmFsIHZhbHVlc0RpciA9IEZpbGUoc3RhdGVEaXIsICJ2YWx1ZXMiKS5hcHBseSB7IG1rZGlycygpIH0KICAgIHByaXZhdGUgdmFsIHN0b3JlRmlsZSA9IEZpbGUoc3RhdGVEaXIsICJyZWdpc3RyeS5qc29uIikKICAgIHByaXZhdGUgdmFsIGxvZ0ZpbGUgPSBGaWxlKHN0YXRlRGlyLCAibG9ncy5qc29uIikKICAgIHByaXZhdGUgdmFsIG11dGV4ID0gTXV0ZXgoKQogICAgcHJpdmF0ZSB2YWwgc3RhdGVGbG93ID0gTXV0YWJsZVN0YXRlRmxvdyhyZWFkU3RvcmVTdGF0ZSgpKQogICAgcHJpdmF0ZSB2YWwgbG9nRmxvdyA9IE11dGFibGVTdGF0ZUZsb3cocmVhZExvZ1N0YXRlKCkpCgogICAgZnVuIG9ic2VydmVVc2Vyc2NyaXB0cygpOiBGbG93PExpc3Q8VXNlcnNjcmlwdEVudGl0eT4+ID0KICAgICAgICBzdGF0ZUZsb3cubWFwIHsgc3RhdGUgLT4KICAgICAgICAgICAgc3RhdGUuc2NyaXB0cy5zb3J0ZWRXaXRoKGNvbXBhcmVCeTxVc2Vyc2NyaXB0RW50aXR5PiB7IGl0Lm5hbWUubG93ZXJjYXNlKExvY2FsZS5ST09UKSB9LnRoZW5CeSB7IGl0LmlkIH0pCiAgICAgICAgfQoKICAgIGZ1biBvYnNlcnZlUmVjZW50TG9ncyhsaW1pdDogSW50KTogRmxvdzxMaXN0PFVzZXJzY3JpcHRMb2dFbnRpdHk+PiA9CiAgICAgICAgbG9nRmxvdy5tYXAgeyBzdGF0ZSAtPgogICAgICAgICAgICBzdGF0ZS5sb2dzLnRha2UobGltaXQuY29lcmNlQXRMZWFzdCgwKSkKICAgICAgICB9CgogICAgc3VzcGVuZCBmdW4gZ2V0VXNlcnNjcmlwdEJ5SWQoc2NyaXB0SWQ6IExvbmcpOiBVc2Vyc2NyaXB0RW50aXR5PyA9CiAgICAgICAgbXV0ZXgud2l0aExvY2sgeyBzdGF0ZUZsb3cudmFsdWUuc2NyaXB0cy5maXJzdE9yTnVsbCB7IGl0LmlkID09IHNjcmlwdElkIH0gfQoKICAgIHN1c3BlbmQgZnVuIGdldFVzZXJzY3JpcHRCeVNjb3BlKG5hbWU6IFN0cmluZywgbmFtZXNwYWNlOiBTdHJpbmc/KTogVXNlcnNjcmlwdEVudGl0eT8gPQogICAgICAgIG11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgc3RhdGVGbG93LnZhbHVlLnNjcmlwdHMuZmlyc3RPck51bGwgeyBzY3JpcHQgLT4KICAgICAgICAgICAgICAgIHNjcmlwdC5uYW1lID09IG5hbWUgJiYgKChuYW1lc3BhY2UgPT0gbnVsbCAmJiBzY3JpcHQubmFtZXNwYWNlID09IG51bGwpIHx8IHNjcmlwdC5uYW1lc3BhY2UgPT0gbmFtZXNwYWNlKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIHN1c3BlbmQgZnVuIGdldEFsbFVzZXJzY3JpcHRzKCk6IExpc3Q8VXNlcnNjcmlwdEVudGl0eT4gPQogICAgICAgIG11dGV4LndpdGhMb2NrIHsgc3RhdGVGbG93LnZhbHVlLnNjcmlwdHMgfQoKICAgIHN1c3BlbmQgZnVuIGdldFJlc291cmNlc0ZvclNjcmlwdChzY3JpcHRJZDogTG9uZyk6IExpc3Q8VXNlcnNjcmlwdFJlc291cmNlRW50aXR5PiA9CiAgICAgICAgbXV0ZXgud2l0aExvY2sgeyBzdGF0ZUZsb3cudmFsdWUucmVzb3VyY2VzLmZpbHRlciB7IGl0LnVzZXJzY3JpcHRJZCA9PSBzY3JpcHRJZCB9IH0KCiAgICBzdXNwZW5kIGZ1biBnZXRSZXNvdXJjZXNGb3JTY3JpcHRzKHNjcmlwdElkczogTGlzdDxMb25nPik6IExpc3Q8VXNlcnNjcmlwdFJlc291cmNlRW50aXR5PiA9CiAgICAgICAgbXV0ZXgud2l0aExvY2sgeyBzdGF0ZUZsb3cudmFsdWUucmVzb3VyY2VzLmZpbHRlciB7IGl0LnVzZXJzY3JpcHRJZCBpbiBzY3JpcHRJZHMgfSB9CgogICAgc3VzcGVuZCBmdW4gZ2V0VmFsdWVzRm9yU2NyaXB0KHNjcmlwdElkOiBMb25nKTogTGlzdDxVc2Vyc2NyaXB0VmFsdWVFbnRpdHk+ID0KICAgICAgICBtdXRleC53aXRoTG9jayB7IHJlYWRWYWx1ZVN0YXRlKHNjcmlwdElkKS52YWx1ZXMgfQoKICAgIHN1c3BlbmQgZnVuIGdldFZhbHVlKAogICAgICAgIHNjcmlwdElkOiBMb25nLAogICAgICAgIGtleTogU3RyaW5nCiAgICApOiBVc2Vyc2NyaXB0VmFsdWVFbnRpdHk/ID0KICAgICAgICBtdXRleC53aXRoTG9jayB7IHJlYWRWYWx1ZVN0YXRlKHNjcmlwdElkKS52YWx1ZXMuZmlyc3RPck51bGwgeyBpdC5zdG9yYWdlS2V5ID09IGtleSB9IH0KCiAgICBzdXNwZW5kIGZ1biBpbnNlcnRWYWx1ZSh2YWx1ZTogVXNlcnNjcmlwdFZhbHVlRW50aXR5KSB7CiAgICAgICAgbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgc3RhdGUgPSByZWFkVmFsdWVTdGF0ZSh2YWx1ZS51c2Vyc2NyaXB0SWQpCiAgICAgICAgICAgIHZhbCBuZXh0VmFsdWVzID0gc3RhdGUudmFsdWVzLmZpbHRlck5vdCB7IGl0LnN0b3JhZ2VLZXkgPT0gdmFsdWUuc3RvcmFnZUtleSB9ICsgdmFsdWUKICAgICAgICAgICAgd3JpdGVWYWx1ZVN0YXRlKHZhbHVlLnVzZXJzY3JpcHRJZCwgc3RhdGUuY29weSh2YWx1ZXMgPSBuZXh0VmFsdWVzKSkKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gZGVsZXRlVmFsdWUoCiAgICAgICAgc2NyaXB0SWQ6IExvbmcsCiAgICAgICAga2V5OiBTdHJpbmcKICAgICkgewogICAgICAgIG11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgdmFsIHN0YXRlID0gcmVhZFZhbHVlU3RhdGUoc2NyaXB0SWQpCiAgICAgICAgICAgIHZhbCBuZXh0VmFsdWVzID0gc3RhdGUudmFsdWVzLmZpbHRlck5vdCB7IGl0LnN0b3JhZ2VLZXkgPT0ga2V5IH0KICAgICAgICAgICAgaWYgKG5leHRWYWx1ZXMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICB2YWx1ZXNGaWxlKHNjcmlwdElkKS5kZWxldGUoKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgd3JpdGVWYWx1ZVN0YXRlKHNjcmlwdElkLCBzdGF0ZS5jb3B5KHZhbHVlcyA9IG5leHRWYWx1ZXMpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGluc2VydFVzZXJzY3JpcHQoZW50aXR5OiBVc2Vyc2NyaXB0RW50aXR5KTogTG9uZyA9CiAgICAgICAgbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgc3RhdGUgPSBzdGF0ZUZsb3cudmFsdWUKICAgICAgICAgICAgdmFsIG5leHRJZCA9IHN0YXRlLm5leHRTY3JpcHRJZAogICAgICAgICAgICB2YWwgaW5zZXJ0ZWQgPSBlbnRpdHkuY29weShpZCA9IG5leHRJZCkKICAgICAgICAgICAgd3JpdGVTdG9yZVN0YXRlKAogICAgICAgICAgICAgICAgc3RhdGUuY29weSgKICAgICAgICAgICAgICAgICAgICBuZXh0U2NyaXB0SWQgPSBuZXh0SWQgKyAxTCwKICAgICAgICAgICAgICAgICAgICBzY3JpcHRzID0gc3RhdGUuc2NyaXB0cyArIGluc2VydGVkCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICAgICAgbmV4dElkCiAgICAgICAgfQoKICAgIHN1c3BlbmQgZnVuIHVwZGF0ZVVzZXJzY3JpcHQoZW50aXR5OiBVc2Vyc2NyaXB0RW50aXR5KSB7CiAgICAgICAgbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgc3RhdGUgPSBzdGF0ZUZsb3cudmFsdWUKICAgICAgICAgICAgd3JpdGVTdG9yZVN0YXRlKAogICAgICAgICAgICAgICAgc3RhdGUuY29weSgKICAgICAgICAgICAgICAgICAgICBzY3JpcHRzID0gc3RhdGUuc2NyaXB0cy5tYXAgeyBpZiAoaXQuaWQgPT0gZW50aXR5LmlkKSBlbnRpdHkgZWxzZSBpdCB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gaW5zZXJ0UmVzb3VyY2VzKHJlc291cmNlczogTGlzdDxVc2Vyc2NyaXB0UmVzb3VyY2VFbnRpdHk+KSB7CiAgICAgICAgaWYgKHJlc291cmNlcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIG11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgdmFyIG5leHRSZXNvdXJjZUlkID0gc3RhdGVGbG93LnZhbHVlLm5leHRSZXNvdXJjZUlkCiAgICAgICAgICAgIHZhbCBpbnNlcnRlZCA9CiAgICAgICAgICAgICAgICByZXNvdXJjZXMubWFwIHsgcmVzb3VyY2UgLT4KICAgICAgICAgICAgICAgICAgICB2YWwgaWQgPSBpZiAocmVzb3VyY2UuaWQgPiAwTCkgcmVzb3VyY2UuaWQgZWxzZSBuZXh0UmVzb3VyY2VJZCsrCiAgICAgICAgICAgICAgICAgICAgcmVzb3VyY2UuY29weShpZCA9IGlkKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgc3RhdGUgPSBzdGF0ZUZsb3cudmFsdWUKICAgICAgICAgICAgd3JpdGVTdG9yZVN0YXRlKAogICAgICAgICAgICAgICAgc3RhdGUuY29weSgKICAgICAgICAgICAgICAgICAgICBuZXh0UmVzb3VyY2VJZCA9IG5leHRSZXNvdXJjZUlkLAogICAgICAgICAgICAgICAgICAgIHJlc291cmNlcyA9IHN0YXRlLnJlc291cmNlcyArIGluc2VydGVkCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gZGVsZXRlUmVzb3VyY2VzRm9yU2NyaXB0KHNjcmlwdElkOiBMb25nKSB7CiAgICAgICAgbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgc3RhdGUgPSBzdGF0ZUZsb3cudmFsdWUKICAgICAgICAgICAgd3JpdGVTdG9yZVN0YXRlKAogICAgICAgICAgICAgICAgc3RhdGUuY29weSgKICAgICAgICAgICAgICAgICAgICByZXNvdXJjZXMgPSBzdGF0ZS5yZXNvdXJjZXMuZmlsdGVyTm90IHsgaXQudXNlcnNjcmlwdElkID09IHNjcmlwdElkIH0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBpbnNlcnRMb2cobG9nOiBVc2Vyc2NyaXB0TG9nRW50aXR5KTogTG9uZyA9CiAgICAgICAgbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgc3RhdGUgPSBsb2dGbG93LnZhbHVlCiAgICAgICAgICAgIHZhbCBuZXh0SWQgPSBzdGF0ZS5uZXh0TG9nSWQKICAgICAgICAgICAgdmFsIGluc2VydGVkID0gbG9nLmNvcHkoaWQgPSBuZXh0SWQpCiAgICAgICAgICAgIHdyaXRlTG9nU3RhdGUoCiAgICAgICAgICAgICAgICBzdGF0ZS5jb3B5KAogICAgICAgICAgICAgICAgICAgIG5leHRMb2dJZCA9IG5leHRJZCArIDFMLAogICAgICAgICAgICAgICAgICAgIGxvZ3MgPSBsaXN0T2YoaW5zZXJ0ZWQpICsgc3RhdGUubG9ncwogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgICAgIG5leHRJZAogICAgICAgIH0KCiAgICBzdXNwZW5kIGZ1biBkZWxldGVMb2dzRm9yU2NyaXB0KHNjcmlwdElkOiBMb25nKSB7CiAgICAgICAgbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgc3RhdGUgPSBsb2dGbG93LnZhbHVlCiAgICAgICAgICAgIHdyaXRlTG9nU3RhdGUoc3RhdGUuY29weShsb2dzID0gc3RhdGUubG9ncy5maWx0ZXJOb3QgeyBpdC51c2Vyc2NyaXB0SWQgPT0gc2NyaXB0SWQgfSkpCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIHRyaW1Mb2dzKGtlZXBDb3VudDogSW50KSB7CiAgICAgICAgbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgc3RhdGUgPSBsb2dGbG93LnZhbHVlCiAgICAgICAgICAgIHdyaXRlTG9nU3RhdGUoc3RhdGUuY29weShsb2dzID0gc3RhdGUubG9ncy50YWtlKGtlZXBDb3VudC5jb2VyY2VBdExlYXN0KDApKSkpCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGRlbGV0ZVVzZXJzY3JpcHRCeUlkKHNjcmlwdElkOiBMb25nKSB7CiAgICAgICAgbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgc3RhdGUgPSBzdGF0ZUZsb3cudmFsdWUKICAgICAgICAgICAgd3JpdGVTdG9yZVN0YXRlKAogICAgICAgICAgICAgICAgc3RhdGUuY29weSgKICAgICAgICAgICAgICAgICAgICBzY3JpcHRzID0gc3RhdGUuc2NyaXB0cy5maWx0ZXJOb3QgeyBpdC5pZCA9PSBzY3JpcHRJZCB9LAogICAgICAgICAgICAgICAgICAgIHJlc291cmNlcyA9IHN0YXRlLnJlc291cmNlcy5maWx0ZXJOb3QgeyBpdC51c2Vyc2NyaXB0SWQgPT0gc2NyaXB0SWQgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgICAgIHZhbHVlc0ZpbGUoc2NyaXB0SWQpLmRlbGV0ZSgpCiAgICAgICAgICAgIHZhbCBsb2dzID0gbG9nRmxvdy52YWx1ZQogICAgICAgICAgICB3cml0ZUxvZ1N0YXRlKGxvZ3MuY29weShsb2dzID0gbG9ncy5sb2dzLmZpbHRlck5vdCB7IGl0LnVzZXJzY3JpcHRJZCA9PSBzY3JpcHRJZCB9KSkKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gcmVwbGFjZVJlc291cmNlcygKICAgICAgICBzY3JpcHRJZDogTG9uZywKICAgICAgICByZXNvdXJjZXM6IExpc3Q8VXNlcnNjcmlwdFJlc291cmNlRW50aXR5PgogICAgKSB7CiAgICAgICAgbXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YXIgbmV4dFJlc291cmNlSWQgPSBzdGF0ZUZsb3cudmFsdWUubmV4dFJlc291cmNlSWQKICAgICAgICAgICAgdmFsIGluc2VydGVkID0KICAgICAgICAgICAgICAgIHJlc291cmNlcy5tYXAgeyByZXNvdXJjZSAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBpZCA9IGlmIChyZXNvdXJjZS5pZCA+IDBMKSByZXNvdXJjZS5pZCBlbHNlIG5leHRSZXNvdXJjZUlkKysKICAgICAgICAgICAgICAgICAgICByZXNvdXJjZS5jb3B5KGlkID0gaWQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBzdGF0ZSA9IHN0YXRlRmxvdy52YWx1ZQogICAgICAgICAgICB3cml0ZVN0b3JlU3RhdGUoCiAgICAgICAgICAgICAgICBzdGF0ZS5jb3B5KAogICAgICAgICAgICAgICAgICAgIG5leHRSZXNvdXJjZUlkID0gbmV4dFJlc291cmNlSWQsCiAgICAgICAgICAgICAgICAgICAgcmVzb3VyY2VzID0gc3RhdGUucmVzb3VyY2VzLmZpbHRlck5vdCB7IGl0LnVzZXJzY3JpcHRJZCA9PSBzY3JpcHRJZCB9ICsgaW5zZXJ0ZWQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biB2YWx1ZXNGaWxlKHNjcmlwdElkOiBMb25nKTogRmlsZSA9CiAgICAgICAgRmlsZSh2YWx1ZXNEaXIsICIkc2NyaXB0SWQuanNvbiIpCgogICAgcHJpdmF0ZSBmdW4gcmVhZFN0b3JlU3RhdGUoKTogU3RvcmVTdGF0ZSB7CiAgICAgICAgaWYgKCFzdG9yZUZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgdmFsIGVtcHR5ID0gU3RvcmVTdGF0ZSgpCiAgICAgICAgICAgIHdyaXRlUmF3KHN0b3JlRmlsZSwganNvbi5lbmNvZGVUb1N0cmluZyhlbXB0eSkpCiAgICAgICAgICAgIHJldHVybiBlbXB0eQogICAgICAgIH0KICAgICAgICByZXR1cm4ganNvbi5kZWNvZGVGcm9tU3RyaW5nKHN0b3JlRmlsZS5yZWFkVGV4dCgpKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHdyaXRlU3RvcmVTdGF0ZShzdGF0ZTogU3RvcmVTdGF0ZSkgewogICAgICAgIHdyaXRlUmF3KHN0b3JlRmlsZSwganNvbi5lbmNvZGVUb1N0cmluZyhzdGF0ZSkpCiAgICAgICAgc3RhdGVGbG93LnZhbHVlID0gc3RhdGUKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWFkTG9nU3RhdGUoKTogTG9nU3RhdGUgewogICAgICAgIGlmICghbG9nRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICB2YWwgZW1wdHkgPSBMb2dTdGF0ZSgpCiAgICAgICAgICAgIHdyaXRlUmF3KGxvZ0ZpbGUsIGpzb24uZW5jb2RlVG9TdHJpbmcoZW1wdHkpKQogICAgICAgICAgICByZXR1cm4gZW1wdHkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGpzb24uZGVjb2RlRnJvbVN0cmluZyhsb2dGaWxlLnJlYWRUZXh0KCkpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gd3JpdGVMb2dTdGF0ZShzdGF0ZTogTG9nU3RhdGUpIHsKICAgICAgICB3cml0ZVJhdyhsb2dGaWxlLCBqc29uLmVuY29kZVRvU3RyaW5nKHN0YXRlKSkKICAgICAgICBsb2dGbG93LnZhbHVlID0gc3RhdGUKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWFkVmFsdWVTdGF0ZShzY3JpcHRJZDogTG9uZyk6IFZhbHVlU3RhdGUgewogICAgICAgIHZhbCBmaWxlID0gdmFsdWVzRmlsZShzY3JpcHRJZCkKICAgICAgICBpZiAoIWZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgcmV0dXJuIFZhbHVlU3RhdGUoKQogICAgICAgIH0KICAgICAgICByZXR1cm4ganNvbi5kZWNvZGVGcm9tU3RyaW5nKGZpbGUucmVhZFRleHQoKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biB3cml0ZVZhbHVlU3RhdGUoCiAgICAgICAgc2NyaXB0SWQ6IExvbmcsCiAgICAgICAgc3RhdGU6IFZhbHVlU3RhdGUKICAgICkgewogICAgICAgIHdyaXRlUmF3KHZhbHVlc0ZpbGUoc2NyaXB0SWQpLCBqc29uLmVuY29kZVRvU3RyaW5nKHN0YXRlKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biB3cml0ZVJhdygKICAgICAgICBmaWxlOiBGaWxlLAogICAgICAgIGNvbnRlbnQ6IFN0cmluZwogICAgKSB7CiAgICAgICAgZmlsZS5wYXJlbnRGaWxlPy5ta2RpcnMoKQogICAgICAgIGZpbGUud3JpdGVUZXh0KGNvbnRlbnQpCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript.storage
+
+import android.content.Context
+import com.bslsjdk.operit.util.OperitPaths
+import java.io.File
+import java.util.Locale
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+internal class UserscriptJsonStore private constructor(context: Context) {
+    @Serializable
+    private data class StoreState(
+        val nextScriptId: Long = 1L,
+        val nextResourceId: Long = 1L,
+        val scripts: List<UserscriptEntity> = emptyList(),
+        val resources: List<UserscriptResourceEntity> = emptyList()
+    )
+
+    @Serializable
+    private data class LogState(
+        val nextLogId: Long = 1L,
+        val logs: List<UserscriptLogEntity> = emptyList()
+    )
+
+    @Serializable
+    private data class ValueState(
+        val values: List<UserscriptValueEntity> = emptyList()
+    )
+
+    companion object {
+        @Volatile
+        private var instance: UserscriptJsonStore? = null
+
+        fun getInstance(context: Context): UserscriptJsonStore {
+            return instance ?: synchronized(this) {
+                instance ?: UserscriptJsonStore(context.applicationContext).also { instance = it }
+            }
+        }
+    }
+
+    private val json = Json { ignoreUnknownKeys = true; encodeDefaults = true; prettyPrint = true }
+    private val rootDir = OperitPaths.webSessionUserscriptsDir()
+    private val stateDir = File(rootDir, "state").apply { mkdirs() }
+    private val valuesDir = File(stateDir, "values").apply { mkdirs() }
+    private val storeFile = File(stateDir, "registry.json")
+    private val logFile = File(stateDir, "logs.json")
+    private val mutex = Mutex()
+    private val stateFlow = MutableStateFlow(readStoreState())
+    private val logFlow = MutableStateFlow(readLogState())
+
+    fun observeUserscripts(): Flow<List<UserscriptEntity>> =
+        stateFlow.map { state ->
+            state.scripts.sortedWith(compareBy<UserscriptEntity> { it.name.lowercase(Locale.ROOT) }.thenBy { it.id })
+        }
+
+    fun observeRecentLogs(limit: Int): Flow<List<UserscriptLogEntity>> =
+        logFlow.map { state ->
+            state.logs.take(limit.coerceAtLeast(0))
+        }
+
+    suspend fun getUserscriptById(scriptId: Long): UserscriptEntity? =
+        mutex.withLock { stateFlow.value.scripts.firstOrNull { it.id == scriptId } }
+
+    suspend fun getUserscriptByScope(name: String, namespace: String?): UserscriptEntity? =
+        mutex.withLock {
+            stateFlow.value.scripts.firstOrNull { script ->
+                script.name == name && ((namespace == null && script.namespace == null) || script.namespace == namespace)
+            }
+        }
+
+    suspend fun getAllUserscripts(): List<UserscriptEntity> =
+        mutex.withLock { stateFlow.value.scripts }
+
+    suspend fun getResourcesForScript(scriptId: Long): List<UserscriptResourceEntity> =
+        mutex.withLock { stateFlow.value.resources.filter { it.userscriptId == scriptId } }
+
+    suspend fun getResourcesForScripts(scriptIds: List<Long>): List<UserscriptResourceEntity> =
+        mutex.withLock { stateFlow.value.resources.filter { it.userscriptId in scriptIds } }
+
+    suspend fun getValuesForScript(scriptId: Long): List<UserscriptValueEntity> =
+        mutex.withLock { readValueState(scriptId).values }
+
+    suspend fun getValue(
+        scriptId: Long,
+        key: String
+    ): UserscriptValueEntity? =
+        mutex.withLock { readValueState(scriptId).values.firstOrNull { it.storageKey == key } }
+
+    suspend fun insertValue(value: UserscriptValueEntity) {
+        mutex.withLock {
+            val state = readValueState(value.userscriptId)
+            val nextValues = state.values.filterNot { it.storageKey == value.storageKey } + value
+            writeValueState(value.userscriptId, state.copy(values = nextValues))
+        }
+    }
+
+    suspend fun deleteValue(
+        scriptId: Long,
+        key: String
+    ) {
+        mutex.withLock {
+            val state = readValueState(scriptId)
+            val nextValues = state.values.filterNot { it.storageKey == key }
+            if (nextValues.isEmpty()) {
+                valuesFile(scriptId).delete()
+            } else {
+                writeValueState(scriptId, state.copy(values = nextValues))
+            }
+        }
+    }
+
+    suspend fun insertUserscript(entity: UserscriptEntity): Long =
+        mutex.withLock {
+            val state = stateFlow.value
+            val nextId = state.nextScriptId
+            val inserted = entity.copy(id = nextId)
+            writeStoreState(
+                state.copy(
+                    nextScriptId = nextId + 1L,
+                    scripts = state.scripts + inserted
+                )
+            )
+            nextId
+        }
+
+    suspend fun updateUserscript(entity: UserscriptEntity) {
+        mutex.withLock {
+            val state = stateFlow.value
+            writeStoreState(
+                state.copy(
+                    scripts = state.scripts.map { if (it.id == entity.id) entity else it }
+                )
+            )
+        }
+    }
+
+    suspend fun insertResources(resources: List<UserscriptResourceEntity>) {
+        if (resources.isEmpty()) {
+            return
+        }
+        mutex.withLock {
+            var nextResourceId = stateFlow.value.nextResourceId
+            val inserted =
+                resources.map { resource ->
+                    val id = if (resource.id > 0L) resource.id else nextResourceId++
+                    resource.copy(id = id)
+                }
+            val state = stateFlow.value
+            writeStoreState(
+                state.copy(
+                    nextResourceId = nextResourceId,
+                    resources = state.resources + inserted
+                )
+            )
+        }
+    }
+
+    suspend fun deleteResourcesForScript(scriptId: Long) {
+        mutex.withLock {
+            val state = stateFlow.value
+            writeStoreState(
+                state.copy(
+                    resources = state.resources.filterNot { it.userscriptId == scriptId }
+                )
+            )
+        }
+    }
+
+    suspend fun insertLog(log: UserscriptLogEntity): Long =
+        mutex.withLock {
+            val state = logFlow.value
+            val nextId = state.nextLogId
+            val inserted = log.copy(id = nextId)
+            writeLogState(
+                state.copy(
+                    nextLogId = nextId + 1L,
+                    logs = listOf(inserted) + state.logs
+                )
+            )
+            nextId
+        }
+
+    suspend fun deleteLogsForScript(scriptId: Long) {
+        mutex.withLock {
+            val state = logFlow.value
+            writeLogState(state.copy(logs = state.logs.filterNot { it.userscriptId == scriptId }))
+        }
+    }
+
+    suspend fun trimLogs(keepCount: Int) {
+        mutex.withLock {
+            val state = logFlow.value
+            writeLogState(state.copy(logs = state.logs.take(keepCount.coerceAtLeast(0))))
+        }
+    }
+
+    suspend fun deleteUserscriptById(scriptId: Long) {
+        mutex.withLock {
+            val state = stateFlow.value
+            writeStoreState(
+                state.copy(
+                    scripts = state.scripts.filterNot { it.id == scriptId },
+                    resources = state.resources.filterNot { it.userscriptId == scriptId }
+                )
+            )
+            valuesFile(scriptId).delete()
+            val logs = logFlow.value
+            writeLogState(logs.copy(logs = logs.logs.filterNot { it.userscriptId == scriptId }))
+        }
+    }
+
+    suspend fun replaceResources(
+        scriptId: Long,
+        resources: List<UserscriptResourceEntity>
+    ) {
+        mutex.withLock {
+            var nextResourceId = stateFlow.value.nextResourceId
+            val inserted =
+                resources.map { resource ->
+                    val id = if (resource.id > 0L) resource.id else nextResourceId++
+                    resource.copy(id = id)
+                }
+            val state = stateFlow.value
+            writeStoreState(
+                state.copy(
+                    nextResourceId = nextResourceId,
+                    resources = state.resources.filterNot { it.userscriptId == scriptId } + inserted
+                )
+            )
+        }
+    }
+
+    private fun valuesFile(scriptId: Long): File =
+        File(valuesDir, "$scriptId.json")
+
+    private fun readStoreState(): StoreState {
+        if (!storeFile.exists()) {
+            val empty = StoreState()
+            writeRaw(storeFile, json.encodeToString(empty))
+            return empty
+        }
+        return json.decodeFromString(storeFile.readText())
+    }
+
+    private fun writeStoreState(state: StoreState) {
+        writeRaw(storeFile, json.encodeToString(state))
+        stateFlow.value = state
+    }
+
+    private fun readLogState(): LogState {
+        if (!logFile.exists()) {
+            val empty = LogState()
+            writeRaw(logFile, json.encodeToString(empty))
+            return empty
+        }
+        return json.decodeFromString(logFile.readText())
+    }
+
+    private fun writeLogState(state: LogState) {
+        writeRaw(logFile, json.encodeToString(state))
+        logFlow.value = state
+    }
+
+    private fun readValueState(scriptId: Long): ValueState {
+        val file = valuesFile(scriptId)
+        if (!file.exists()) {
+            return ValueState()
+        }
+        return json.decodeFromString(file.readText())
+    }
+
+    private fun writeValueState(
+        scriptId: Long,
+        state: ValueState
+    ) {
+        writeRaw(valuesFile(scriptId), json.encodeToString(state))
+    }
+
+    private fun writeRaw(
+        file: File,
+        content: String
+    ) {
+        file.parentFile?.mkdirs()
+        file.writeText(content)
+    }
+}

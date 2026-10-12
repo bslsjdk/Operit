@@ -1,1 +1,82 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0TnVsbAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgSnNUb29sUGtnUmVnaXN0cmF0aW9uVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIGBjYXB0dXJlcyB2YWxpZCBtYXJrZXRwbGFjZSBvcmlnaW4gZHVyaW5nIHJlZ2lzdHJhdGlvbmAoKSB7CiAgICAgICAgdmFsIHNlc3Npb24gPSBKc1Rvb2xQa2dSZWdpc3RyYXRpb25TZXNzaW9uKCkKICAgICAgICBzZXNzaW9uLmJlZ2luKCkKICAgICAgICBzZXNzaW9uLmNhcHR1cmVNYXJrZXRPcmlnaW4oCiAgICAgICAgICAgICJ7XCJtYXJrZXRcIjpcIk9wZXJpdFwiLFwidG9vbHBrZ0lkXCI6XCJ1dWlkLWdlbmVyYXRvclwiLFwidmVyc2lvblwiOlwiMS4wLjJcIixcImF1dGhvclwiOltcIk9yaWdpbmFsIEF1dGhvclwiXX0iCiAgICAgICAgKQoKICAgICAgICB2YWwgY2FwdHVyZSA9IHNlc3Npb24uZmluaXNoKG51bGwpCgogICAgICAgIGFzc2VydEVxdWFscygiT3Blcml0IiwgY2FwdHVyZS5tYXJrZXRPcmlnaW4/Lm1hcmtldCkKICAgICAgICBhc3NlcnRFcXVhbHMoInV1aWQtZ2VuZXJhdG9yIiwgY2FwdHVyZS5tYXJrZXRPcmlnaW4/LnRvb2xwa2dJZCkKICAgICAgICBzZXNzaW9uLmVuZCgpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgZG9lcyBub3QgY2FwdHVyZSBtYWxmb3JtZWQgbWFya2V0cGxhY2Ugb3JpZ2luYCgpIHsKICAgICAgICB2YWwgc2Vzc2lvbiA9IEpzVG9vbFBrZ1JlZ2lzdHJhdGlvblNlc3Npb24oKQogICAgICAgIHNlc3Npb24uYmVnaW4oKQogICAgICAgIHNlc3Npb24uY2FwdHVyZU1hcmtldE9yaWdpbigie1wibWFya2V0XCI6XCJPcGVyaXRcIn0iKQoKICAgICAgICBhc3NlcnROdWxsKHNlc3Npb24uZmluaXNoKG51bGwpLm1hcmtldE9yaWdpbikKICAgICAgICBzZXNzaW9uLmVuZCgpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgaWdub3JlcyBtYXJrZXRwbGFjZSBvcmlnaW4gY2FsbHMgb3V0c2lkZSByZWdpc3RyYXRpb25gKCkgewogICAgICAgIHZhbCBzZXNzaW9uID0gSnNUb29sUGtnUmVnaXN0cmF0aW9uU2Vzc2lvbigpCiAgICAgICAgdmFsIG9yaWdpbkpzb24gPQogICAgICAgICAgICAie1wibWFya2V0XCI6XCJPcGVyaXRcIixcInRvb2xwa2dJZFwiOlwidXVpZC1nZW5lcmF0b3JcIixcInZlcnNpb25cIjpcIjEuMC4yXCIsXCJhdXRob3JcIjpbXCJPcmlnaW5hbCBBdXRob3JcIl19IgoKICAgICAgICBzZXNzaW9uLmNhcHR1cmVNYXJrZXRPcmlnaW4ob3JpZ2luSnNvbikKCiAgICAgICAgc2Vzc2lvbi5iZWdpbigpCiAgICAgICAgYXNzZXJ0TnVsbChzZXNzaW9uLmZpbmlzaChudWxsKS5tYXJrZXRPcmlnaW4pCiAgICAgICAgc2Vzc2lvbi5lbmQoKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHJlZ2lzdHJhdGlvbiBicmlkZ2UgZXhwb3NlcyBlbmNvZGVkIG1hcmtldHBsYWNlIG1hcmtlciBtZXRob2RgKCkgewogICAgICAgIHZhbCBicmlkZ2UgPSBidWlsZFRvb2xQa2dSZWdpc3RyYXRpb25CcmlkZ2VTY3JpcHQoKQoKICAgICAgICBhc3NlcnRUcnVlKGJyaWRnZS5jb250YWlucygiX206IGNhcHR1cmVNYXJrZXRPcmlnaW4iKSkKICAgICAgICBhc3NlcnRUcnVlKGJyaWRnZS5jb250YWlucygiY2FwdHVyZVRvb2xQa2dNYXJrZXRPcmlnaW4iKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGByZWdpc3RyYXRpb24gYnJpZGdlIGRlY2xhcmVzIHZlcnNpb25lZCBBUElzIGJlc2lkZSB0aGVpciBpbXBsZW1lbnRhdGlvbnNgKCkgewogICAgICAgIHZhbCBicmlkZ2UgPSBidWlsZFRvb2xQa2dSZWdpc3RyYXRpb25CcmlkZ2VTY3JpcHQoKQoKICAgICAgICBhc3NlcnRUcnVlKGJyaWRnZS5jb250YWlucygidG9vbFBrZ0FwaS5uYW1lc3BhY2UoJ1Rvb2xQa2cnIikpCiAgICAgICAgYXNzZXJ0VHJ1ZShicmlkZ2UuY29udGFpbnMoInRvb2xQa2dBcGkubWV0aG9kKCkuc2luY2UoIikpCiAgICAgICAgYXNzZXJ0VHJ1ZShicmlkZ2UuY29udGFpbnMoIlRvb2xQa2cucmVnaXN0ZXJDaGF0TWVzc2FnZU1lbnVJdGVtIikpCiAgICAgICAgYXNzZXJ0VHJ1ZShicmlkZ2UuY29udGFpbnMoIlRvb2xQa2cucmVnaXN0ZXJDaGF0UnVudGltZUhvb2siKSkKICAgICAgICBhc3NlcnRGYWxzZShicmlkZ2UuY29udGFpbnMoInJlcXVpcmVkQXBpIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoYnJpZGdlLmNvbnRhaW5zKCJyZXF1aXJlZEZlYXR1cmUiKSkKICAgICAgICBhc3NlcnRGYWxzZShicmlkZ2UuY29udGFpbnMoInJlZ2lzdHJhdGlvbkJpbmRpbmdzIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoYnJpZGdlLmNvbnRhaW5zKCJfX29wZXJpdF90b29scGtnX2FwaV92ZXJzaW9uIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoYnJpZGdlLmNvbnRhaW5zKCJzdXBwb3J0c1Rvb2xQa2dBcGlWZXJzaW9uIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgcmVnaXN0cmF0aW9uIHNlc3Npb24gY2FwdHVyZXMgcmVnaXN0cmF0aW9ucyBhZnRlciBmYWNhZGUgZGlzcGF0Y2hgKCkgewogICAgICAgIHZhbCBzZXNzaW9uID0gSnNUb29sUGtnUmVnaXN0cmF0aW9uU2Vzc2lvbigpCiAgICAgICAgc2Vzc2lvbi5iZWdpbigpCgogICAgICAgIHNlc3Npb24uYXBwZW5kQ2hhdFJ1bnRpbWVIb29rKCJ7XCJpZFwiOlwicnVudGltZVwiLFwiZnVuY3Rpb25cIjpcIm9uUnVudGltZVwifSIpCiAgICAgICAgdmFsIGNhcHR1cmUgPSBzZXNzaW9uLmZpbmlzaChudWxsKQoKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgY2FwdHVyZS5jaGF0UnVudGltZUhvb2tzLnNpemUpCiAgICAgICAgc2Vzc2lvbi5lbmQoKQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.javascript
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class JsToolPkgRegistrationTest {
+    @Test
+    fun `captures valid marketplace origin during registration`() {
+        val session = JsToolPkgRegistrationSession()
+        session.begin()
+        session.captureMarketOrigin(
+            "{\"market\":\"Operit\",\"toolpkgId\":\"uuid-generator\",\"version\":\"1.0.2\",\"author\":[\"Original Author\"]}"
+        )
+
+        val capture = session.finish(null)
+
+        assertEquals("Operit", capture.marketOrigin?.market)
+        assertEquals("uuid-generator", capture.marketOrigin?.toolpkgId)
+        session.end()
+    }
+
+    @Test
+    fun `does not capture malformed marketplace origin`() {
+        val session = JsToolPkgRegistrationSession()
+        session.begin()
+        session.captureMarketOrigin("{\"market\":\"Operit\"}")
+
+        assertNull(session.finish(null).marketOrigin)
+        session.end()
+    }
+
+    @Test
+    fun `ignores marketplace origin calls outside registration`() {
+        val session = JsToolPkgRegistrationSession()
+        val originJson =
+            "{\"market\":\"Operit\",\"toolpkgId\":\"uuid-generator\",\"version\":\"1.0.2\",\"author\":[\"Original Author\"]}"
+
+        session.captureMarketOrigin(originJson)
+
+        session.begin()
+        assertNull(session.finish(null).marketOrigin)
+        session.end()
+    }
+
+    @Test
+    fun `registration bridge exposes encoded marketplace marker method`() {
+        val bridge = buildToolPkgRegistrationBridgeScript()
+
+        assertTrue(bridge.contains("_m: captureMarketOrigin"))
+        assertTrue(bridge.contains("captureToolPkgMarketOrigin"))
+    }
+
+    @Test
+    fun `registration bridge declares versioned APIs beside their implementations`() {
+        val bridge = buildToolPkgRegistrationBridgeScript()
+
+        assertTrue(bridge.contains("toolPkgApi.namespace('ToolPkg'"))
+        assertTrue(bridge.contains("toolPkgApi.method().since("))
+        assertTrue(bridge.contains("ToolPkg.registerChatMessageMenuItem"))
+        assertTrue(bridge.contains("ToolPkg.registerChatRuntimeHook"))
+        assertFalse(bridge.contains("requiredApi"))
+        assertFalse(bridge.contains("requiredFeature"))
+        assertFalse(bridge.contains("registrationBindings"))
+        assertFalse(bridge.contains("__operit_toolpkg_api_version"))
+        assertFalse(bridge.contains("supportsToolPkgApiVersion"))
+    }
+
+    @Test
+    fun `registration session captures registrations after facade dispatch`() {
+        val session = JsToolPkgRegistrationSession()
+        session.begin()
+
+        session.appendChatRuntimeHook("{\"id\":\"runtime\",\"function\":\"onRuntime\"}")
+        val capture = session.finish(null)
+
+        assertEquals(1, capture.chatRuntimeHooks.size)
+        session.end()
+    }
+}

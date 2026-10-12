@@ -1,1 +1,450 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkJyb2FkY2FzdFJlY2VpdmVyCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5PcGVyaXRQYXRocwppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbkFycmF5CmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uRWxlbWVudAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbk51bGwKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb25PYmplY3QKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLkpzb25QcmltaXRpdmUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLmJvb2xlYW5Pck51bGwKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLmRvdWJsZU9yTnVsbAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24ubG9uZ09yTnVsbAoKY2xhc3MgU2NyaXB0RXhlY3V0aW9uUmVjZWl2ZXIgOiBCcm9hZGNhc3RSZWNlaXZlcigpIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiU2NyaXB0RXhlY3V0aW9uUmVjZWl2ZXIiCgogICAgICAgIGNvbnN0IHZhbCBBQ1RJT05fRVhFQ1VURV9KUyA9ICJjb20uYnNsc2pkay5vcGVyaXQuRVhFQ1VURV9KUyIKICAgICAgICBjb25zdCB2YWwgRVhUUkFfRVhFQ1VUSU9OX01PREUgPSAiZXhlY3V0aW9uX21vZGUiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX0ZJTEVfUEFUSCA9ICJmaWxlX3BhdGgiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX0NPREVfVEVYVCA9ICJjb2RlX3RleHQiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX0ZVTkNUSU9OX05BTUUgPSAiZnVuY3Rpb25fbmFtZSIKICAgICAgICBjb25zdCB2YWwgRVhUUkFfUEFSQU1TID0gInBhcmFtcyIKICAgICAgICBjb25zdCB2YWwgRVhUUkFfUEFSQU1TX0ZJTEVfUEFUSCA9ICJwYXJhbXNfZmlsZV9wYXRoIgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9URU1QX0ZJTEUgPSAidGVtcF9maWxlIgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9URU1QX1BBUkFNU19GSUxFID0gInRlbXBfcGFyYW1zX2ZpbGUiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX0VOVl9GSUxFX1BBVEggPSAiZW52X2ZpbGVfcGF0aCIKICAgICAgICBjb25zdCB2YWwgRVhUUkFfVEVNUF9FTlZfRklMRSA9ICJ0ZW1wX2Vudl9maWxlIgogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9SRVNVTFRfRklMRV9QQVRIID0gInJlc3VsdF9maWxlX3BhdGgiCgogICAgICAgIGNvbnN0IHZhbCBFWEVDVVRJT05fTU9ERV9GVU5DVElPTiA9ICJmdW5jdGlvbiIKICAgICAgICBjb25zdCB2YWwgRVhFQ1VUSU9OX01PREVfU0NSSVBUID0gInNjcmlwdCIKICAgICAgICBjb25zdCB2YWwgRVhFQ1VUSU9OX01PREVfQ09ERSA9ICJjb2RlIgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblJlY2VpdmUoY29udGV4dDogQ29udGV4dCwgaW50ZW50OiBJbnRlbnQpIHsKICAgICAgICBpZiAoaW50ZW50LmFjdGlvbiAhPSBBQ1RJT05fRVhFQ1VURV9KUykgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZhbCBleGVjdXRpb25Nb2RlID0KICAgICAgICAgICAgaW50ZW50LmdldFN0cmluZ0V4dHJhKEVYVFJBX0VYRUNVVElPTl9NT0RFKT8udHJpbSgpPy5sb3dlcmNhc2UoKS5vckVtcHR5KCkKICAgICAgICAgICAgICAgIC5pZkJsYW5rIHsgRVhFQ1VUSU9OX01PREVfRlVOQ1RJT04gfQogICAgICAgIHZhbCBmaWxlUGF0aCA9IGludGVudC5nZXRTdHJpbmdFeHRyYShFWFRSQV9GSUxFX1BBVEgpCiAgICAgICAgdmFsIGNvZGVUZXh0ID0gaW50ZW50LmdldFN0cmluZ0V4dHJhKEVYVFJBX0NPREVfVEVYVCkKICAgICAgICB2YWwgZnVuY3Rpb25OYW1lID0KICAgICAgICAgICAgaW50ZW50LmdldFN0cmluZ0V4dHJhKEVYVFJBX0ZVTkNUSU9OX05BTUUpCiAgICAgICAgICAgICAgICA/LnRyaW0oKQogICAgICAgICAgICAgICAgLm9yRW1wdHkoKQogICAgICAgICAgICAgICAgLmlmQmxhbmsgewogICAgICAgICAgICAgICAgICAgIGlmIChleGVjdXRpb25Nb2RlID09IEVYRUNVVElPTl9NT0RFX0ZVTkNUSU9OKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICJtYWluIgogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICIiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgIHZhbCBoYXNWYWxpZFJlcXVlc3QgPQogICAgICAgICAgICB3aGVuIChleGVjdXRpb25Nb2RlKSB7CiAgICAgICAgICAgICAgICBFWEVDVVRJT05fTU9ERV9GVU5DVElPTiAtPiAhZmlsZVBhdGguaXNOdWxsT3JCbGFuaygpICYmIGZ1bmN0aW9uTmFtZS5pc05vdEJsYW5rKCkKICAgICAgICAgICAgICAgIEVYRUNVVElPTl9NT0RFX1NDUklQVCAtPiAhZmlsZVBhdGguaXNOdWxsT3JCbGFuaygpCiAgICAgICAgICAgICAgICBFWEVDVVRJT05fTU9ERV9DT0RFIC0+ICFjb2RlVGV4dC5pc051bGxPckJsYW5rKCkKICAgICAgICAgICAgICAgIGVsc2UgLT4gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIGlmICghaGFzVmFsaWRSZXF1ZXN0KSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKAogICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgIk1pc3NpbmcgcmVxdWlyZWQgcGFyYW1ldGVyczogbW9kZT0kZXhlY3V0aW9uTW9kZSwgZmlsZVBhdGg9JGZpbGVQYXRoLCBmdW5jdGlvbk5hbWU9JGZ1bmN0aW9uTmFtZSwgY29kZUxlbmd0aD0ke2NvZGVUZXh0Py5sZW5ndGggPzogMH0iCiAgICAgICAgICAgICkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB2YWwgcGVuZGluZ1Jlc3VsdCA9IGdvQXN5bmMoKQogICAgICAgIENvcm91dGluZVNjb3BlKERpc3BhdGNoZXJzLklPKS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgZXhlY3V0ZSgKICAgICAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgICAgICAgICBleGVjdXRpb25Nb2RlID0gZXhlY3V0aW9uTW9kZSwKICAgICAgICAgICAgICAgICAgICBmaWxlUGF0aCA9IGZpbGVQYXRoLAogICAgICAgICAgICAgICAgICAgIGNvZGVUZXh0ID0gY29kZVRleHQsCiAgICAgICAgICAgICAgICAgICAgZnVuY3Rpb25OYW1lID0gZnVuY3Rpb25OYW1lLAogICAgICAgICAgICAgICAgICAgIHJhd1BhcmFtc0pzb24gPSBpbnRlbnQuZ2V0U3RyaW5nRXh0cmEoRVhUUkFfUEFSQU1TKSwKICAgICAgICAgICAgICAgICAgICBwYXJhbXNGaWxlUGF0aCA9IGludGVudC5nZXRTdHJpbmdFeHRyYShFWFRSQV9QQVJBTVNfRklMRV9QQVRIKSwKICAgICAgICAgICAgICAgICAgICB0ZW1wU2NyaXB0ID0gaW50ZW50LmdldEJvb2xlYW5FeHRyYShFWFRSQV9URU1QX0ZJTEUsIGZhbHNlKSwKICAgICAgICAgICAgICAgICAgICB0ZW1wUGFyYW1zRmlsZSA9IGludGVudC5nZXRCb29sZWFuRXh0cmEoRVhUUkFfVEVNUF9QQVJBTVNfRklMRSwgZmFsc2UpLAogICAgICAgICAgICAgICAgICAgIGVudkZpbGVQYXRoID0gaW50ZW50LmdldFN0cmluZ0V4dHJhKEVYVFJBX0VOVl9GSUxFX1BBVEgpLAogICAgICAgICAgICAgICAgICAgIHRlbXBFbnZGaWxlID0gaW50ZW50LmdldEJvb2xlYW5FeHRyYShFWFRSQV9URU1QX0VOVl9GSUxFLCBmYWxzZSksCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0RmlsZVBhdGggPSBpbnRlbnQuZ2V0U3RyaW5nRXh0cmEoRVhUUkFfUkVTVUxUX0ZJTEVfUEFUSCkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIHBlbmRpbmdSZXN1bHQuZmluaXNoKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBleGVjdXRlKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgZXhlY3V0aW9uTW9kZTogU3RyaW5nLAogICAgICAgIGZpbGVQYXRoOiBTdHJpbmc/LAogICAgICAgIGNvZGVUZXh0OiBTdHJpbmc/LAogICAgICAgIGZ1bmN0aW9uTmFtZTogU3RyaW5nLAogICAgICAgIHJhd1BhcmFtc0pzb246IFN0cmluZz8sCiAgICAgICAgcGFyYW1zRmlsZVBhdGg6IFN0cmluZz8sCiAgICAgICAgdGVtcFNjcmlwdDogQm9vbGVhbiwKICAgICAgICB0ZW1wUGFyYW1zRmlsZTogQm9vbGVhbiwKICAgICAgICBlbnZGaWxlUGF0aDogU3RyaW5nPywKICAgICAgICB0ZW1wRW52RmlsZTogQm9vbGVhbiwKICAgICAgICByZXN1bHRGaWxlUGF0aDogU3RyaW5nPwogICAgKSB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWRNb2RlID0gZXhlY3V0aW9uTW9kZS50cmltKCkubG93ZXJjYXNlKCkuaWZCbGFuayB7IEVYRUNVVElPTl9NT0RFX0ZVTkNUSU9OIH0KICAgICAgICB2YWwgc2NyaXB0SWRlbnRpdHlQYXRoID0KICAgICAgICAgICAgd2hlbiAobm9ybWFsaXplZE1vZGUpIHsKICAgICAgICAgICAgICAgIEVYRUNVVElPTl9NT0RFX0NPREUgLT4gZmlsZVBhdGg/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9ID86ICI8aW5saW5lLWNvZGU+IgogICAgICAgICAgICAgICAgZWxzZSAtPiBmaWxlUGF0aD8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0gPzogIjxzY3JpcHQ+IgogICAgICAgICAgICB9CiAgICAgICAgdmFsIHNjcmlwdEZpbGUgPSBmaWxlUGF0aD8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0/LmxldCg6OkZpbGUpCiAgICAgICAgdmFsIHJlc3VsdEZpbGUgPSByZXNvbHZlUmVzdWx0RmlsZShyZXN1bHRGaWxlUGF0aCwgc2NyaXB0SWRlbnRpdHlQYXRoLCBmdW5jdGlvbk5hbWUsIG5vcm1hbGl6ZWRNb2RlKQogICAgICAgIHZhbCBwYXJhbXNKc29uID0KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHJlc29sdmVQYXJhbXNKc29uKHJhd1BhcmFtc0pzb24gPSByYXdQYXJhbXNKc29uLCBwYXJhbXNGaWxlUGF0aCA9IHBhcmFtc0ZpbGVQYXRoKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIHZhbCBmYWxsYmFja1BhcmFtc0pzb24gPSByYXdQYXJhbXNKc29uLm9yRW1wdHkoKS5pZkJsYW5rIHsgInt9IiB9CiAgICAgICAgICAgICAgICB2YWwgdHJhY2VSZWNvcmRlciA9CiAgICAgICAgICAgICAgICAgICAgSnNFeGVjdXRpb25UcmFjZVJlY29yZGVyKAogICAgICAgICAgICAgICAgICAgICAgICBzY3JpcHRQYXRoID0gc2NyaXB0SWRlbnRpdHlQYXRoLAogICAgICAgICAgICAgICAgICAgICAgICBmdW5jdGlvbk5hbWUgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKG5vcm1hbGl6ZWRNb2RlID09IEVYRUNVVElPTl9NT0RFX0ZVTkNUSU9OKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZnVuY3Rpb25OYW1lCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWRNb2RlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICBwYXJhbXNKc29uID0gZmFsbGJhY2tQYXJhbXNKc29uLAogICAgICAgICAgICAgICAgICAgICAgICBlbnZGaWxlUGF0aCA9IGVudkZpbGVQYXRoCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgdmFsIGVycm9yTWVzc2FnZSA9IGUubWVzc2FnZSA/OiAiRmFpbGVkIHRvIHJlc29sdmUgcGFyYW1zIEpTT04iCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsIGVycm9yTWVzc2FnZSwgZSkKICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgICAgICB0cmFjZVJlY29yZGVyLndyaXRlVG8oCiAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdEZpbGUsCiAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNlUmVjb3JkZXIuYnVpbGRQYXlsb2FkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yID0gZXJyb3JNZXNzYWdlCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgfQogICAgICAgIHZhbCB0cmFjZVJlY29yZGVyID0KICAgICAgICAgICAgSnNFeGVjdXRpb25UcmFjZVJlY29yZGVyKAogICAgICAgICAgICAgICAgc2NyaXB0UGF0aCA9IHNjcmlwdElkZW50aXR5UGF0aCwKICAgICAgICAgICAgICAgIGZ1bmN0aW9uTmFtZSA9CiAgICAgICAgICAgICAgICAgICAgaWYgKG5vcm1hbGl6ZWRNb2RlID09IEVYRUNVVElPTl9NT0RFX0ZVTkNUSU9OKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGZ1bmN0aW9uTmFtZQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWRNb2RlCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIHBhcmFtc0pzb24gPSBwYXJhbXNKc29uLAogICAgICAgICAgICAgICAgZW52RmlsZVBhdGggPSBlbnZGaWxlUGF0aAogICAgICAgICAgICApCiAgICAgICAgdmFsIHNjcmlwdFRleHQgPQogICAgICAgICAgICB3aGVuIChub3JtYWxpemVkTW9kZSkgewogICAgICAgICAgICAgICAgRVhFQ1VUSU9OX01PREVfQ09ERSAtPiBjb2RlVGV4dC5vckVtcHR5KCkKICAgICAgICAgICAgICAgIEVYRUNVVElPTl9NT0RFX1NDUklQVCwgRVhFQ1VUSU9OX01PREVfRlVOQ1RJT04gLT4gewogICAgICAgICAgICAgICAgICAgIGlmIChzY3JpcHRGaWxlID09IG51bGwgfHwgIXNjcmlwdEZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiSmF2YVNjcmlwdCBmaWxlIG5vdCBmb3VuZDogJHNjcmlwdElkZW50aXR5UGF0aCIpCiAgICAgICAgICAgICAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNlUmVjb3JkZXIud3JpdGVUbygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRGaWxlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYWNlUmVjb3JkZXIuYnVpbGRQYXlsb2FkKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yID0gIkphdmFTY3JpcHQgZmlsZSBub3QgZm91bmQ6ICRzY3JpcHRJZGVudGl0eVBhdGgiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBzY3JpcHRGaWxlLnJlYWRUZXh0KCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgICAgIHZhbCBlcnJvciA9ICJVbnN1cHBvcnRlZCBleGVjdXRpb24gbW9kZTogJG5vcm1hbGl6ZWRNb2RlIgogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgZXJyb3IpCiAgICAgICAgICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgICAgICAgICB0cmFjZVJlY29yZGVyLndyaXRlVG8oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRGaWxlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhY2VSZWNvcmRlci5idWlsZFBheWxvYWQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSBlcnJvcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgaWYgKG5vcm1hbGl6ZWRNb2RlID09IEVYRUNVVElPTl9NT0RFX0NPREUgJiYgc2NyaXB0VGV4dC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiSmF2YVNjcmlwdCBjb2RlIGlzIGVtcHR5IGZvciBpbmxpbmUgZXhlY3V0aW9uIikKICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgdHJhY2VSZWNvcmRlci53cml0ZVRvKAogICAgICAgICAgICAgICAgICAgIHJlc3VsdEZpbGUsCiAgICAgICAgICAgICAgICAgICAgdHJhY2VSZWNvcmRlci5idWlsZFBheWxvYWQoCiAgICAgICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiSmF2YVNjcmlwdCBjb2RlIGlzIGVtcHR5IgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBlbmdpbmUgPSBKc0VuZ2luZShjb250ZXh0KQogICAgICAgICAgICB2YWwgcGFyc2VkUGFyYW1zID0KICAgICAgICAgICAgICAgIHBhcnNlUGFyYW1zKHBhcmFtc0pzb24pLnRvTXV0YWJsZU1hcCgpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICBwdXQoIl9fb3Blcml0X3Rvb2xwa2dfcnVudGltZV9raW5kIiwgInNhbmRib3giKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgZW52T3ZlcnJpZGVzID0gcGFyc2VFbnZGaWxlKGVudkZpbGVQYXRoKQogICAgICAgICAgICB2YWwgcmVzdWx0ID0KICAgICAgICAgICAgICAgIHdoZW4gKG5vcm1hbGl6ZWRNb2RlKSB7CiAgICAgICAgICAgICAgICAgICAgRVhFQ1VUSU9OX01PREVfU0NSSVBULCBFWEVDVVRJT05fTU9ERV9DT0RFIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGVuZ2luZS5leGVjdXRlU2NyaXB0Q29kZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNjcmlwdCA9IHNjcmlwdFRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJhbXMgPSBwYXJzZWRQYXJhbXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbnZPdmVycmlkZXMgPSBlbnZPdmVycmlkZXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleGVjdXRpb25MaXN0ZW5lciA9IHRyYWNlUmVjb3JkZXIKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4KICAgICAgICAgICAgICAgICAgICAgICAgZW5naW5lLmV4ZWN1dGVTY3JpcHRGdW5jdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNjcmlwdCA9IHNjcmlwdFRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmdW5jdGlvbk5hbWUgPSBmdW5jdGlvbk5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJhbXMgPSBwYXJzZWRQYXJhbXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbnZPdmVycmlkZXMgPSBlbnZPdmVycmlkZXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleGVjdXRpb25MaXN0ZW5lciA9IHRyYWNlUmVjb3JkZXIKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgZXJyb3IgPSBleHRyYWN0SnNFeGVjdXRpb25FcnJvck1lc3NhZ2UocmVzdWx0KQogICAgICAgICAgICB2YWwgc3VjY2VzcyA9IGVycm9yID09IG51bGwKICAgICAgICAgICAgdHJhY2VSZWNvcmRlci53cml0ZVRvKAogICAgICAgICAgICAgICAgcmVzdWx0RmlsZSwKICAgICAgICAgICAgICAgIHRyYWNlUmVjb3JkZXIuYnVpbGRQYXlsb2FkKAogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBzdWNjZXNzLAogICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IHJlc3VsdCwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9IGVycm9yCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiSmF2YVNjcmlwdCBleGVjdXRpb24gcmVzdWx0IHdyaXR0ZW4gdG86ICR7cmVzdWx0RmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgZXhlY3V0aW5nIEphdmFTY3JpcHQ6ICR7ZS5tZXNzYWdlfSIsIGUpCiAgICAgICAgICAgIHJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgIHRyYWNlUmVjb3JkZXIud3JpdGVUbygKICAgICAgICAgICAgICAgICAgICByZXN1bHRGaWxlLAogICAgICAgICAgICAgICAgICAgIHRyYWNlUmVjb3JkZXIuYnVpbGRQYXlsb2FkKAogICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yID0gZS5tZXNzYWdlID86IGUuamF2YUNsYXNzLnNpbXBsZU5hbWUKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0ub25GYWlsdXJlIHsgd3JpdGVFcnJvciAtPgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3Igd3JpdGluZyBKUyBleGVjdXRpb24gcmVzdWx0IGZpbGU6ICR7d3JpdGVFcnJvci5tZXNzYWdlfSIsIHdyaXRlRXJyb3IpCiAgICAgICAgICAgIH0KICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBpZiAoc2NyaXB0RmlsZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBkZWxldGVJZk5lZWRlZChzY3JpcHRGaWxlLCB0ZW1wU2NyaXB0LCAidGVtcG9yYXJ5IHNjcmlwdCIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKHRlbXBQYXJhbXNGaWxlICYmICFwYXJhbXNGaWxlUGF0aC5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgIGRlbGV0ZUlmTmVlZGVkKEZpbGUocGFyYW1zRmlsZVBhdGgpLCB0cnVlLCAidGVtcG9yYXJ5IHBhcmFtcyBmaWxlIikKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAodGVtcEVudkZpbGUgJiYgIWVudkZpbGVQYXRoLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgZGVsZXRlSWZOZWVkZWQoRmlsZShlbnZGaWxlUGF0aCksIHRydWUsICJ0ZW1wb3JhcnkgZW52IGZpbGUiKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc29sdmVSZXN1bHRGaWxlKAogICAgICAgIHJhd1BhdGg6IFN0cmluZz8sCiAgICAgICAgc2NyaXB0SWRlbnRpdHlQYXRoOiBTdHJpbmcsCiAgICAgICAgZnVuY3Rpb25OYW1lOiBTdHJpbmcsCiAgICAgICAgZXhlY3V0aW9uTW9kZTogU3RyaW5nCiAgICApOiBGaWxlIHsKICAgICAgICB2YWwgbm9ybWFsaXplZCA9IHJhd1BhdGg/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICBpZiAobm9ybWFsaXplZC5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIEZpbGUobm9ybWFsaXplZCkKICAgICAgICB9CiAgICAgICAgdmFsIHNhZmVTY3JpcHROYW1lID0KICAgICAgICAgICAgRmlsZShzY3JpcHRJZGVudGl0eVBhdGgpLm5hbWVXaXRob3V0RXh0ZW5zaW9uLnJlcGxhY2UoUmVnZXgoIlteQS1aYS16MC05Ll8tXSIpLCAiXyIpLmlmQmxhbmsgeyAic2NyaXB0IiB9CiAgICAgICAgdmFsIHNhZmVGdW5jdGlvbk5hbWUgPQogICAgICAgICAgICB3aGVuIChleGVjdXRpb25Nb2RlKSB7CiAgICAgICAgICAgICAgICBFWEVDVVRJT05fTU9ERV9GVU5DVElPTiAtPgogICAgICAgICAgICAgICAgICAgIGZ1bmN0aW9uTmFtZS5yZXBsYWNlKFJlZ2V4KCJbXkEtWmEtejAtOS5fLV0iKSwgIl8iKS5pZkJsYW5rIHsgIm1haW4iIH0KICAgICAgICAgICAgICAgIGVsc2UgLT4gZXhlY3V0aW9uTW9kZS5yZXBsYWNlKFJlZ2V4KCJbXkEtWmEtejAtOS5fLV0iKSwgIl8iKS5pZkJsYW5rIHsgInNjcmlwdCIgfQogICAgICAgICAgICB9CiAgICAgICAgdmFsIHJlc3VsdERpciA9IEZpbGUoT3Blcml0UGF0aHMudGVzdERpcigpLCAianNfcmVzdWx0cyIpCiAgICAgICAgaWYgKCFyZXN1bHREaXIuZXhpc3RzKCkpIHsKICAgICAgICAgICAgcmVzdWx0RGlyLm1rZGlycygpCiAgICAgICAgfQogICAgICAgIHJldHVybiBGaWxlKAogICAgICAgICAgICByZXN1bHREaXIsCiAgICAgICAgICAgICIke3NhZmVTY3JpcHROYW1lfV8ke3NhZmVGdW5jdGlvbk5hbWV9XyR7U3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCl9Lmpzb24iCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc29sdmVQYXJhbXNKc29uKHJhd1BhcmFtc0pzb246IFN0cmluZz8sIHBhcmFtc0ZpbGVQYXRoOiBTdHJpbmc/KTogU3RyaW5nIHsKICAgICAgICB2YWwgY2FuZGlkYXRlRmlsZVBhdGggPSBwYXJhbXNGaWxlUGF0aD8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIHZhbCByYXdQYXlsb2FkID0KICAgICAgICAgICAgaWYgKGNhbmRpZGF0ZUZpbGVQYXRoLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgdmFsIHBhcmFtc0ZpbGUgPSBGaWxlKGNhbmRpZGF0ZUZpbGVQYXRoKQogICAgICAgICAgICAgICAgaWYgKCFwYXJhbXNGaWxlLmV4aXN0cygpIHx8ICFwYXJhbXNGaWxlLmlzRmlsZSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgInBhcmFtc19maWxlX3BhdGggbXVzdCBwb2ludCB0byBhbiBleGlzdGluZyBmaWxlOiAkY2FuZGlkYXRlRmlsZVBhdGgiCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcGFyYW1zRmlsZS5yZWFkVGV4dCgpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICByYXdQYXJhbXNKc29uLm9yRW1wdHkoKQogICAgICAgICAgICB9CgogICAgICAgIHJldHVybiBub3JtYWxpemVQYXJhbXNKc29uKHJhd1BheWxvYWQpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbm9ybWFsaXplUGFyYW1zSnNvbihyYXdQYXlsb2FkOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCB0cmltbWVkID0gcmF3UGF5bG9hZC5yZW1vdmVQcmVmaXgoIlx1RkVGRiIpLnRyaW0oKQogICAgICAgIGlmICh0cmltbWVkLmlzQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gInt9IgogICAgICAgIH0KICAgICAgICBpZiAoY2FuUGFyc2VKc29uT2JqZWN0KHRyaW1tZWQpKSB7CiAgICAgICAgICAgIHJldHVybiB0cmltbWVkCiAgICAgICAgfQoKICAgICAgICB2YWwgdW5lc2NhcGVkUXVvdGVzID0gdHJpbW1lZC5yZXBsYWNlKCJcXFwiIiwgIlwiIikKICAgICAgICBpZiAodW5lc2NhcGVkUXVvdGVzICE9IHRyaW1tZWQgJiYgY2FuUGFyc2VKc29uT2JqZWN0KHVuZXNjYXBlZFF1b3RlcykpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiUmVjb3ZlcmVkIHBhcmFtcyBKU09OIGZyb20gcXVvdGUtZXNjYXBlZCB0cmFuc3BvcnQgcGF5bG9hZCIpCiAgICAgICAgICAgIHJldHVybiB1bmVzY2FwZWRRdW90ZXMKICAgICAgICB9CgogICAgICAgIHJldHVybiB0cmltbWVkCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY2FuUGFyc2VKc29uT2JqZWN0KHJhdzogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHJ1bkNhdGNoaW5nIHsgSnNvbi5wYXJzZVRvSnNvbkVsZW1lbnQocmF3KSB9CiAgICAgICAgICAgIC5nZXRPck51bGwoKSBpcyBKc29uT2JqZWN0CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VQYXJhbXMocGFyYW1zSnNvbjogU3RyaW5nKTogTWFwPFN0cmluZywgQW55Pz4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgcGF5bG9hZCA9IEpzb24ucGFyc2VUb0pzb25FbGVtZW50KHBhcmFtc0pzb24pCiAgICAgICAgICAgIGlmIChwYXlsb2FkIGlzIEpzb25PYmplY3QpIHsKICAgICAgICAgICAgICAgIHBheWxvYWQuZW50cmllcy5hc3NvY2lhdGUgeyAoa2V5LCB2YWx1ZSkgLT4KICAgICAgICAgICAgICAgICAgICBrZXkgdG8ganNvbkVsZW1lbnRUb1ZhbHVlKHZhbHVlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgZW1wdHlNYXAoKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIHBhcnNpbmcgcGFyYW1zOiAkcGFyYW1zSnNvbiIsIGUpCiAgICAgICAgICAgIGVtcHR5TWFwKCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VFbnZGaWxlKGVudkZpbGVQYXRoOiBTdHJpbmc/KTogTWFwPFN0cmluZywgU3RyaW5nPiB7CiAgICAgICAgaWYgKGVudkZpbGVQYXRoLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gZW1wdHlNYXAoKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCBlbnZGaWxlID0gRmlsZShlbnZGaWxlUGF0aCkKICAgICAgICAgICAgaWYgKCFlbnZGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJFbnYgZmlsZSBub3QgZm91bmQ6ICRlbnZGaWxlUGF0aCIpCiAgICAgICAgICAgICAgICByZXR1cm4gZW1wdHlNYXAoKQogICAgICAgICAgICB9CgogICAgICAgICAgICBidWlsZE1hcCB7CiAgICAgICAgICAgICAgICBlbnZGaWxlLnJlYWRMaW5lcygpLmZvckVhY2ggeyByYXdMaW5lIC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIGxpbmUgPSByYXdMaW5lLnRyaW0oKQogICAgICAgICAgICAgICAgICAgIGlmIChsaW5lLmlzRW1wdHkoKSB8fCBsaW5lLnN0YXJ0c1dpdGgoIiMiKSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB2YWwgc2VwYXJhdG9ySW5kZXggPSBsaW5lLmluZGV4T2YoJz0nKQogICAgICAgICAgICAgICAgICAgIGlmIChzZXBhcmF0b3JJbmRleCA8PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkBmb3JFYWNoCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHZhbCBrZXkgPSBsaW5lLnN1YnN0cmluZygwLCBzZXBhcmF0b3JJbmRleCkudHJpbSgpCiAgICAgICAgICAgICAgICAgICAgaWYgKGtleS5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQGZvckVhY2gKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdmFsIHZhbHVlID0gbGluZS5zdWJzdHJpbmcoc2VwYXJhdG9ySW5kZXggKyAxKS50cmltKCkucmVtb3ZlV3JhcHBpbmdRdW90ZXMoKQogICAgICAgICAgICAgICAgICAgIHB1dChrZXksIHZhbHVlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIHBhcnNpbmcgZW52IGZpbGU6ICRlbnZGaWxlUGF0aCIsIGUpCiAgICAgICAgICAgIGVtcHR5TWFwKCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gU3RyaW5nLnJlbW92ZVdyYXBwaW5nUXVvdGVzKCk6IFN0cmluZyB7CiAgICAgICAgaWYgKGxlbmd0aCA8IDIpIHsKICAgICAgICAgICAgcmV0dXJuIHRoaXMKICAgICAgICB9CiAgICAgICAgdmFsIGZpcnN0ID0gZmlyc3QoKQogICAgICAgIHZhbCBsYXN0ID0gbGFzdCgpCiAgICAgICAgcmV0dXJuIGlmICgoZmlyc3QgPT0gJyInICYmIGxhc3QgPT0gJyInKSB8fCAoZmlyc3QgPT0gJ1wnJyAmJiBsYXN0ID09ICdcJycpKSB7CiAgICAgICAgICAgIHN1YnN0cmluZygxLCBsZW5ndGggLSAxKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHRoaXMKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZGVsZXRlSWZOZWVkZWQoZmlsZTogRmlsZSwgZW5hYmxlZDogQm9vbGVhbiwgbGFiZWw6IFN0cmluZykgewogICAgICAgIGlmICghZW5hYmxlZCkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICBpZiAoZmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgZmlsZS5kZWxldGUoKQogICAgICAgICAgICB9CiAgICAgICAgfS5vbkZhaWx1cmUgeyBlcnJvciAtPgogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBkZWxldGluZyAkbGFiZWw6ICR7ZmlsZS5hYnNvbHV0ZVBhdGh9IiwgZXJyb3IpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGpzb25FbGVtZW50VG9WYWx1ZShlbGVtZW50OiBKc29uRWxlbWVudCk6IEFueT8gewogICAgICAgIHJldHVybiB3aGVuIChlbGVtZW50KSB7CiAgICAgICAgICAgIGlzIEpzb25PYmplY3QgLT4KICAgICAgICAgICAgICAgIGVsZW1lbnQuZW50cmllcy5hc3NvY2lhdGUgeyAoa2V5LCB2YWx1ZSkgLT4KICAgICAgICAgICAgICAgICAgICBrZXkgdG8ganNvbkVsZW1lbnRUb1ZhbHVlKHZhbHVlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBpcyBKc29uQXJyYXkgLT4gZWxlbWVudC5tYXAoOjpqc29uRWxlbWVudFRvVmFsdWUpCiAgICAgICAgICAgIGlzIEpzb25OdWxsIC0+IG51bGwKICAgICAgICAgICAgaXMgSnNvblByaW1pdGl2ZSAtPiB7CiAgICAgICAgICAgICAgICBpZiAoZWxlbWVudC5pc1N0cmluZykgewogICAgICAgICAgICAgICAgICAgIGVsZW1lbnQuY29udGVudAogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBlbGVtZW50LmJvb2xlYW5Pck51bGwKICAgICAgICAgICAgICAgICAgICAgICAgPzogZWxlbWVudC5sb25nT3JOdWxsCiAgICAgICAgICAgICAgICAgICAgICAgID86IGVsZW1lbnQuZG91YmxlT3JOdWxsCiAgICAgICAgICAgICAgICAgICAgICAgID86IGVsZW1lbnQuY29udGVudAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.javascript
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.OperitPaths
+import java.io.File
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonArray
+import kotlinx.serialization.json.JsonElement
+import kotlinx.serialization.json.JsonNull
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.JsonPrimitive
+import kotlinx.serialization.json.booleanOrNull
+import kotlinx.serialization.json.doubleOrNull
+import kotlinx.serialization.json.longOrNull
+
+class ScriptExecutionReceiver : BroadcastReceiver() {
+
+    companion object {
+        private const val TAG = "ScriptExecutionReceiver"
+
+        const val ACTION_EXECUTE_JS = "com.bslsjdk.operit.EXECUTE_JS"
+        const val EXTRA_EXECUTION_MODE = "execution_mode"
+        const val EXTRA_FILE_PATH = "file_path"
+        const val EXTRA_CODE_TEXT = "code_text"
+        const val EXTRA_FUNCTION_NAME = "function_name"
+        const val EXTRA_PARAMS = "params"
+        const val EXTRA_PARAMS_FILE_PATH = "params_file_path"
+        const val EXTRA_TEMP_FILE = "temp_file"
+        const val EXTRA_TEMP_PARAMS_FILE = "temp_params_file"
+        const val EXTRA_ENV_FILE_PATH = "env_file_path"
+        const val EXTRA_TEMP_ENV_FILE = "temp_env_file"
+        const val EXTRA_RESULT_FILE_PATH = "result_file_path"
+
+        const val EXECUTION_MODE_FUNCTION = "function"
+        const val EXECUTION_MODE_SCRIPT = "script"
+        const val EXECUTION_MODE_CODE = "code"
+    }
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action != ACTION_EXECUTE_JS) {
+            return
+        }
+
+        val executionMode =
+            intent.getStringExtra(EXTRA_EXECUTION_MODE)?.trim()?.lowercase().orEmpty()
+                .ifBlank { EXECUTION_MODE_FUNCTION }
+        val filePath = intent.getStringExtra(EXTRA_FILE_PATH)
+        val codeText = intent.getStringExtra(EXTRA_CODE_TEXT)
+        val functionName =
+            intent.getStringExtra(EXTRA_FUNCTION_NAME)
+                ?.trim()
+                .orEmpty()
+                .ifBlank {
+                    if (executionMode == EXECUTION_MODE_FUNCTION) {
+                        "main"
+                    } else {
+                        ""
+                    }
+                }
+        val hasValidRequest =
+            when (executionMode) {
+                EXECUTION_MODE_FUNCTION -> !filePath.isNullOrBlank() && functionName.isNotBlank()
+                EXECUTION_MODE_SCRIPT -> !filePath.isNullOrBlank()
+                EXECUTION_MODE_CODE -> !codeText.isNullOrBlank()
+                else -> false
+            }
+        if (!hasValidRequest) {
+            AppLogger.e(
+                TAG,
+                "Missing required parameters: mode=$executionMode, filePath=$filePath, functionName=$functionName, codeLength=${codeText?.length ?: 0}"
+            )
+            return
+        }
+
+        val pendingResult = goAsync()
+        CoroutineScope(Dispatchers.IO).launch {
+            try {
+                execute(
+                    context = context,
+                    executionMode = executionMode,
+                    filePath = filePath,
+                    codeText = codeText,
+                    functionName = functionName,
+                    rawParamsJson = intent.getStringExtra(EXTRA_PARAMS),
+                    paramsFilePath = intent.getStringExtra(EXTRA_PARAMS_FILE_PATH),
+                    tempScript = intent.getBooleanExtra(EXTRA_TEMP_FILE, false),
+                    tempParamsFile = intent.getBooleanExtra(EXTRA_TEMP_PARAMS_FILE, false),
+                    envFilePath = intent.getStringExtra(EXTRA_ENV_FILE_PATH),
+                    tempEnvFile = intent.getBooleanExtra(EXTRA_TEMP_ENV_FILE, false),
+                    resultFilePath = intent.getStringExtra(EXTRA_RESULT_FILE_PATH)
+                )
+            } finally {
+                pendingResult.finish()
+            }
+        }
+    }
+
+    private fun execute(
+        context: Context,
+        executionMode: String,
+        filePath: String?,
+        codeText: String?,
+        functionName: String,
+        rawParamsJson: String?,
+        paramsFilePath: String?,
+        tempScript: Boolean,
+        tempParamsFile: Boolean,
+        envFilePath: String?,
+        tempEnvFile: Boolean,
+        resultFilePath: String?
+    ) {
+        val normalizedMode = executionMode.trim().lowercase().ifBlank { EXECUTION_MODE_FUNCTION }
+        val scriptIdentityPath =
+            when (normalizedMode) {
+                EXECUTION_MODE_CODE -> filePath?.takeIf { it.isNotBlank() } ?: "<inline-code>"
+                else -> filePath?.takeIf { it.isNotBlank() } ?: "<script>"
+            }
+        val scriptFile = filePath?.takeIf { it.isNotBlank() }?.let(::File)
+        val resultFile = resolveResultFile(resultFilePath, scriptIdentityPath, functionName, normalizedMode)
+        val paramsJson =
+            try {
+                resolveParamsJson(rawParamsJson = rawParamsJson, paramsFilePath = paramsFilePath)
+            } catch (e: Exception) {
+                val fallbackParamsJson = rawParamsJson.orEmpty().ifBlank { "{}" }
+                val traceRecorder =
+                    JsExecutionTraceRecorder(
+                        scriptPath = scriptIdentityPath,
+                        functionName =
+                            if (normalizedMode == EXECUTION_MODE_FUNCTION) {
+                                functionName
+                            } else {
+                                normalizedMode
+                            },
+                        paramsJson = fallbackParamsJson,
+                        envFilePath = envFilePath
+                    )
+                val errorMessage = e.message ?: "Failed to resolve params JSON"
+                AppLogger.e(TAG, errorMessage, e)
+                runCatching {
+                    traceRecorder.writeTo(
+                        resultFile,
+                        traceRecorder.buildPayload(
+                            success = false,
+                            result = null,
+                            error = errorMessage
+                        )
+                    )
+                }
+                return
+            }
+        val traceRecorder =
+            JsExecutionTraceRecorder(
+                scriptPath = scriptIdentityPath,
+                functionName =
+                    if (normalizedMode == EXECUTION_MODE_FUNCTION) {
+                        functionName
+                    } else {
+                        normalizedMode
+                    },
+                paramsJson = paramsJson,
+                envFilePath = envFilePath
+            )
+        val scriptText =
+            when (normalizedMode) {
+                EXECUTION_MODE_CODE -> codeText.orEmpty()
+                EXECUTION_MODE_SCRIPT, EXECUTION_MODE_FUNCTION -> {
+                    if (scriptFile == null || !scriptFile.exists()) {
+                        AppLogger.e(TAG, "JavaScript file not found: $scriptIdentityPath")
+                        runCatching {
+                            traceRecorder.writeTo(
+                                resultFile,
+                                traceRecorder.buildPayload(
+                                    success = false,
+                                    result = null,
+                                    error = "JavaScript file not found: $scriptIdentityPath"
+                                )
+                            )
+                        }
+                        return
+                    }
+                    scriptFile.readText()
+                }
+                else -> {
+                    val error = "Unsupported execution mode: $normalizedMode"
+                    AppLogger.e(TAG, error)
+                    runCatching {
+                        traceRecorder.writeTo(
+                            resultFile,
+                            traceRecorder.buildPayload(
+                                success = false,
+                                result = null,
+                                error = error
+                            )
+                        )
+                    }
+                    return
+                }
+            }
+        if (normalizedMode == EXECUTION_MODE_CODE && scriptText.isBlank()) {
+            AppLogger.e(TAG, "JavaScript code is empty for inline execution")
+            runCatching {
+                traceRecorder.writeTo(
+                    resultFile,
+                    traceRecorder.buildPayload(
+                        success = false,
+                        result = null,
+                        error = "JavaScript code is empty"
+                    )
+                )
+            }
+            return
+        }
+
+        try {
+            val engine = JsEngine(context)
+            val parsedParams =
+                parseParams(paramsJson).toMutableMap().apply {
+                    put("__operit_toolpkg_runtime_kind", "sandbox")
+                }
+            val envOverrides = parseEnvFile(envFilePath)
+            val result =
+                when (normalizedMode) {
+                    EXECUTION_MODE_SCRIPT, EXECUTION_MODE_CODE ->
+                        engine.executeScriptCode(
+                            script = scriptText,
+                            params = parsedParams,
+                            envOverrides = envOverrides,
+                            executionListener = traceRecorder
+                        )
+                    else ->
+                        engine.executeScriptFunction(
+                            script = scriptText,
+                            functionName = functionName,
+                            params = parsedParams,
+                            envOverrides = envOverrides,
+                            executionListener = traceRecorder
+                        )
+                }
+            val error = extractJsExecutionErrorMessage(result)
+            val success = error == null
+            traceRecorder.writeTo(
+                resultFile,
+                traceRecorder.buildPayload(
+                    success = success,
+                    result = result,
+                    error = error
+                )
+            )
+            AppLogger.d(TAG, "JavaScript execution result written to: ${resultFile.absolutePath}")
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error executing JavaScript: ${e.message}", e)
+            runCatching {
+                traceRecorder.writeTo(
+                    resultFile,
+                    traceRecorder.buildPayload(
+                        success = false,
+                        result = null,
+                        error = e.message ?: e.javaClass.simpleName
+                    )
+                )
+            }.onFailure { writeError ->
+                AppLogger.e(TAG, "Error writing JS execution result file: ${writeError.message}", writeError)
+            }
+        } finally {
+            if (scriptFile != null) {
+                deleteIfNeeded(scriptFile, tempScript, "temporary script")
+            }
+            if (tempParamsFile && !paramsFilePath.isNullOrBlank()) {
+                deleteIfNeeded(File(paramsFilePath), true, "temporary params file")
+            }
+            if (tempEnvFile && !envFilePath.isNullOrBlank()) {
+                deleteIfNeeded(File(envFilePath), true, "temporary env file")
+            }
+        }
+    }
+
+    private fun resolveResultFile(
+        rawPath: String?,
+        scriptIdentityPath: String,
+        functionName: String,
+        executionMode: String
+    ): File {
+        val normalized = rawPath?.trim().orEmpty()
+        if (normalized.isNotBlank()) {
+            return File(normalized)
+        }
+        val safeScriptName =
+            File(scriptIdentityPath).nameWithoutExtension.replace(Regex("[^A-Za-z0-9._-]"), "_").ifBlank { "script" }
+        val safeFunctionName =
+            when (executionMode) {
+                EXECUTION_MODE_FUNCTION ->
+                    functionName.replace(Regex("[^A-Za-z0-9._-]"), "_").ifBlank { "main" }
+                else -> executionMode.replace(Regex("[^A-Za-z0-9._-]"), "_").ifBlank { "script" }
+            }
+        val resultDir = File(OperitPaths.testDir(), "js_results")
+        if (!resultDir.exists()) {
+            resultDir.mkdirs()
+        }
+        return File(
+            resultDir,
+            "${safeScriptName}_${safeFunctionName}_${System.currentTimeMillis()}.json"
+        )
+    }
+
+    private fun resolveParamsJson(rawParamsJson: String?, paramsFilePath: String?): String {
+        val candidateFilePath = paramsFilePath?.trim().orEmpty()
+        val rawPayload =
+            if (candidateFilePath.isNotBlank()) {
+                val paramsFile = File(candidateFilePath)
+                if (!paramsFile.exists() || !paramsFile.isFile) {
+                    throw IllegalArgumentException(
+                        "params_file_path must point to an existing file: $candidateFilePath"
+                    )
+                }
+                paramsFile.readText()
+            } else {
+                rawParamsJson.orEmpty()
+            }
+
+        return normalizeParamsJson(rawPayload)
+    }
+
+    private fun normalizeParamsJson(rawPayload: String): String {
+        val trimmed = rawPayload.removePrefix("\uFEFF").trim()
+        if (trimmed.isBlank()) {
+            return "{}"
+        }
+        if (canParseJsonObject(trimmed)) {
+            return trimmed
+        }
+
+        val unescapedQuotes = trimmed.replace("\\\"", "\"")
+        if (unescapedQuotes != trimmed && canParseJsonObject(unescapedQuotes)) {
+            AppLogger.w(TAG, "Recovered params JSON from quote-escaped transport payload")
+            return unescapedQuotes
+        }
+
+        return trimmed
+    }
+
+    private fun canParseJsonObject(raw: String): Boolean {
+        return runCatching { Json.parseToJsonElement(raw) }
+            .getOrNull() is JsonObject
+    }
+
+    private fun parseParams(paramsJson: String): Map<String, Any?> {
+        return try {
+            val payload = Json.parseToJsonElement(paramsJson)
+            if (payload is JsonObject) {
+                payload.entries.associate { (key, value) ->
+                    key to jsonElementToValue(value)
+                }
+            } else {
+                emptyMap()
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error parsing params: $paramsJson", e)
+            emptyMap()
+        }
+    }
+
+    private fun parseEnvFile(envFilePath: String?): Map<String, String> {
+        if (envFilePath.isNullOrBlank()) {
+            return emptyMap()
+        }
+
+        return try {
+            val envFile = File(envFilePath)
+            if (!envFile.exists()) {
+                AppLogger.w(TAG, "Env file not found: $envFilePath")
+                return emptyMap()
+            }
+
+            buildMap {
+                envFile.readLines().forEach { rawLine ->
+                    val line = rawLine.trim()
+                    if (line.isEmpty() || line.startsWith("#")) {
+                        return@forEach
+                    }
+                    val separatorIndex = line.indexOf('=')
+                    if (separatorIndex <= 0) {
+                        return@forEach
+                    }
+                    val key = line.substring(0, separatorIndex).trim()
+                    if (key.isEmpty()) {
+                        return@forEach
+                    }
+                    val value = line.substring(separatorIndex + 1).trim().removeWrappingQuotes()
+                    put(key, value)
+                }
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error parsing env file: $envFilePath", e)
+            emptyMap()
+        }
+    }
+
+    private fun String.removeWrappingQuotes(): String {
+        if (length < 2) {
+            return this
+        }
+        val first = first()
+        val last = last()
+        return if ((first == '"' && last == '"') || (first == '\'' && last == '\'')) {
+            substring(1, length - 1)
+        } else {
+            this
+        }
+    }
+
+    private fun deleteIfNeeded(file: File, enabled: Boolean, label: String) {
+        if (!enabled) {
+            return
+        }
+        runCatching {
+            if (file.exists()) {
+                file.delete()
+            }
+        }.onFailure { error ->
+            AppLogger.e(TAG, "Error deleting $label: ${file.absolutePath}", error)
+        }
+    }
+
+    private fun jsonElementToValue(element: JsonElement): Any? {
+        return when (element) {
+            is JsonObject ->
+                element.entries.associate { (key, value) ->
+                    key to jsonElementToValue(value)
+                }
+            is JsonArray -> element.map(::jsonElementToValue)
+            is JsonNull -> null
+            is JsonPrimitive -> {
+                if (element.isString) {
+                    element.content
+                } else {
+                    element.booleanOrNull
+                        ?: element.longOrNull
+                        ?: element.doubleOrNull
+                        ?: element.content
+                }
+            }
+        }
+    }
+}

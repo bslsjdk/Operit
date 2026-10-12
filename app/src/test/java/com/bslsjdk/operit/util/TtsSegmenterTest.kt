@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgVHRzU2VnbWVudGVyVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIGRlY2ltYWxOdW1iZXJfaXNOb3RTcGxpdEJ5RG90KCkgewogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoIuS7t+agvOaYryAxMi4yNSDlhYPjgIIiKSwgVHRzU2VnbWVudGVyLnNwbGl0KCLku7fmoLzmmK8gMTIuMjUg5YWD44CCIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB2ZXJzaW9uTnVtYmVyX2lzTm90U3BsaXRCeURvdCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCLlvZPliY3niYjmnKwgdjEuMiDlt7Llj5HluIPjgIIiKSwgVHRzU2VnbWVudGVyLnNwbGl0KCLlvZPliY3niYjmnKwgdjEuMiDlt7Llj5HluIPjgIIiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHNlbnRlbmNlRW5kaW5nRG90X3N0aWxsU3BsaXRzTm9ybWFsbHkoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigi56ys5LiA5Y+lLiIsICLnrKzkuozlj6UiKSwgVHRzU2VnbWVudGVyLnNwbGl0KCLnrKzkuIDlj6Uu56ys5LqM5Y+lIikpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class TtsSegmenterTest {
+    @Test
+    fun decimalNumber_isNotSplitByDot() {
+        assertEquals(listOf("价格是 12.25 元。"), TtsSegmenter.split("价格是 12.25 元。"))
+    }
+
+    @Test
+    fun versionNumber_isNotSplitByDot() {
+        assertEquals(listOf("当前版本 v1.2 已发布。"), TtsSegmenter.split("当前版本 v1.2 已发布。"))
+    }
+
+    @Test
+    fun sentenceEndingDot_stillSplitsNormally() {
+        assertEquals(listOf("第一句.", "第二句"), TtsSegmenter.split("第一句.第二句"))
+    }
+}

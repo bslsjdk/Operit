@@ -1,1 +1,120 @@
-IyBDb21wb3NlIERTTCBVSSBEdW1wCgojIyDnlKjpgJQKCmBkdW1wX2N1cnJlbnRfY29tcG9zZV9kc2xfdWkuYmF0YCDnlKjmnaXmipPlj5blvZPliY3mraPlnKjmmL7npLrnmoQgYGNvbXBvc2VfZHNsYCDpobXpnaLov5DooYzml7blv6vnhafvvIzmlrnkvr/mjpLmn6XvvJoKCi0g6ISa5pys6L6T5Ye655qE57uE5Lu25qCR5piv5ZCm5q2j56GuCi0g5a6/5Li76Kej5p6Q5ZCO55qE5qCR5piv5ZCm5LiA6Ie0Ci0g5biD5bGA5Z2Q5qCH5ZKM5bC65a+45piv5ZCm56ym5ZCI6aKE5pyfCi0g5b2T5YmN6aG16Z2iIGBzdGF0ZWAgLyBgbWVtb2Ag5piv5ZCm5byC5bi4Cgrov5nlpZflt6XlhbfpgILlkIjmjpLmn6XigJznu5PmnoTnnIvotbfmnaXlr7nvvIzkvYbnlYzpnaLmmL7npLrkuI3lr7nigJ3nmoTpl67popjjgIIKCiMjIOS9v+eUqOaWueazlQoKMS4g55So5a6/5Li75omT5byA5L2g6KaB6LCD6K+V55qEIGBjb21wb3NlX2RzbGAg6aG16Z2i44CCCjIuIOetiemhtemdoui/m+WFpeS9oOaDs+inguWvn+eahOeKtuaAgeOAggozLiDov5DooYzvvJoKCmBgYGJhdApkOlxDb2RlXHByb2dcYXNzaXN0YW5jZVx0b29sc1xjb21wb3NlX2RzbFxkdW1wX2N1cnJlbnRfY29tcG9zZV9kc2xfdWkuYmF0CmBgYAoKIyMg5YmN5o+Q5p2h5Lu2CgotIOW3suWuieijheW5tuWPr+S9v+eUqCBgYWRiYAotIOiHs+Wwkei/nuaOpeS6huS4gOWPsOWPr+iwg+ivleiuvuWkhwotIOiuvuWkh+S4iueahOWuv+S4u+eJiOacrOW3sue7j+WMheWQq+W9k+WJjeiwg+ivleWvvOWHuumAu+i+kQotIOiuvuWkh+S4iuW3suWuieijhSBgY29tLmJzbHNqZGsub3Blcml0LmRlYnVnYCDmiJYgYGNvbS5ic2xzamRrLm9wZXJpdGDvvJvohJrmnKzmnKrmjIflrprml7bkvJjlhYjkvb/nlKggRGVidWcg5YyFCgrlpoLmnpzov57mjqXkuoblpJrlj7Dorr7lpIfvvIzohJrmnKzkvJrmj5DnpLrpgInmi6nnm67moIforr7lpIfjgIIKCuWmguaenCBEZWJ1ZyDlkowgUmVsZWFzZSBBUEsg5ZCM5pe25a6J6KOF77yM5Y+v5Lul55So546v5aKD5Y+Y6YeP5oyH5a6a55uu5qCH77yaCgpgYGBiYXQKc2V0IE9QRVJJVF9BUFBfUEFDS0FHRT1jb20uYnNsc2pkay5vcGVyaXQKZDpcQ29kZVxwcm9nXGFzc2lzdGFuY2VcdG9vbHNcY29tcG9zZV9kc2xcZHVtcF9jdXJyZW50X2NvbXBvc2VfZHNsX3VpLmJhdApgYGAKCiMjIOWvvOWHuuS9jee9rgoK6ISa5pys5Lya5oqK5paH5Lu25ouJ5Zue5pys5Zyw55uu5b2V77yaCgpgYGB0ZXh0CmQ6XENvZGVccHJvZ1xhc3Npc3RhbmNlXGRlYnVnX291dHB1dFxjb21wb3NlX2RzbF9kdW1wXDzml7bpl7TmiLM+XApgYGAKCuS+i+Wmgu+8mgoKYGBgdGV4dApkOlxDb2RlXHByb2dcYXNzaXN0YW5jZVxkZWJ1Z19vdXRwdXRcY29tcG9zZV9kc2xfZHVtcFwyMDI2MDQyNS0xNTM0NTdcCmBgYAoKIyMg5paH5Lu26K+05piOCgotIGBkdW1wX21hbmlmZXN0Lmpzb25gCiAg5b2T5YmN6aG16Z2i55qE5Z+656GA5L+h5oGv77yM5YyF5ous5YyF5ZCN44CB5qih5Z2X5ZCN44CBcGhhc2XjgIHmmK/lkKbku43lnKggbG9hZGluZyAvIGRpc3BhdGNoaW5n44CCCgotIGBzb3VyY2Vfc2NyaXB0LmpzYAogIOW9k+WJjemhtemdouWunumZheaJp+ihjOeahCBVSSDohJrmnKzmupDnoIHjgIIKCi0gYHJhd19yZW5kZXJfcmVzdWx0LnR4dGAKICBKUyDljp/lp4sgcmVuZGVyIOi/lOWbnuWAvOeahOaWh+acrOW9ouW8j+OAggoKLSBgcmF3X3JlbmRlcl9yZXN1bHQuanNvbmAKICDlpoLmnpzljp/lp4vov5Tlm57lgLzlj6/ku6Xop6PmnpDkuLogSlNPTu+8jOi/memHjOS8muS/neWtmOagvOW8j+WMluWQjueahOeJiOacrOOAggoKLSBgcGFyc2VkX3JlbmRlcl9yZXN1bHQuanNvbmAKICDlrr/kuLvop6PmnpDlkI7nmoTlrozmlbQgcmVuZGVyIOe7k+aenOOAggoKLSBgY29tcG9zZV90cmVlLnR4dGAKICDop6PmnpDlkI7nmoTnu4Tku7bmoJHvvIzlj6/lv6vpgJ/nnIvnu5PmnoTjgIIKCi0gYGNvbXBvc2VfdHJlZS5qc29uYAogIOe7hOS7tuagkeeahCBKU09OIOW9ouW8j+OAggoKLSBgbGF5b3V0X25vZGVzLnR4dGAKICDmr4/kuKroioLngrnnmoTnnJ/lrp7luIPlsYDkv6Hmga/vvIzljIXmi6wgYHggLyB5IC8gd2lkdGggLyBoZWlnaHRg44CCCgotIGBsYXlvdXRfbm9kZXMuanNvbmAKICDluIPlsYDkv6Hmga/nmoQgSlNPTiDlvaLlvI/jgIIKCi0gYGNvbXBvc2VfbGF5b3V0X3RyZWUudHh0YAogIOKAnOe7hOS7tuagkSArIOW4g+WxgOS/oeaBr+KAneWQiOW5tuWQjueahOWPr+ivu+eJiOacrOOAggoKLSBgc3RhdGUuanNvbmAKICDlvZPliY3pobXpnaLnirbmgIHjgIIKCi0gYG1lbW8uanNvbmAKICDlvZPliY3pobXpnaIgbWVtb+OAggoKIyMg5o6o6I2Q5o6S5p+l6aG65bqPCgoxLiDlhYjnnIsgYGR1bXBfbWFuaWZlc3QuanNvbmAKICAg56Gu6K6k5oqT5Yiw55qE5piv5LiN5piv5b2T5YmN6aG16Z2i77yM5Lul5Y+K6aG16Z2i5piv5LiN5piv5bey57uP56iz5a6a44CCCgoyLiDlho3nnIsgYGNvbXBvc2VfdHJlZS50eHRgCiAgIOWIpOaWreiEmuacrOi+k+WHuue7k+aehOaYr+WQpuato+ehruOAggoKMy4g5YaN55yLIGBsYXlvdXRfbm9kZXMudHh0YCDmiJYgYGNvbXBvc2VfbGF5b3V0X3RyZWUudHh0YAogICDliKTmlq3nnJ/lrp7luIPlsYDmmK/kuI3mmK/lh7rkuobpl67popjjgIIKCjQuIOWmguaenOaAgOeWkeeKtuaAgeW8guW4uO+8jOWGjeeciyBgc3RhdGUuanNvbmAKICAg56Gu6K6k5piv5LiN5piv6ISa5pys54q25oCB5a+86Ie055WM6Z2i5LiN5a+544CCCgo1LiDlpoLmnpzmgIDnlpHlrr/kuLvop6PmnpDmnInlgY/lt67vvIzlho3lr7nmr5TvvJoKICAgYHJhd19yZW5kZXJfcmVzdWx0Lmpzb25gIOWSjCBgcGFyc2VkX3JlbmRlcl9yZXN1bHQuanNvbmAKCiMjIOW4uOingeWcuuaZrwoKLSDmlofmnKzjgIHlm77moIfjgIHmjInpkq7msqHmnInlsYXkuK0KLSBgd2VpZ2h0YOOAgWBmaWxsTWF4V2lkdGhg44CBYHBhZGRpbmdgIOayoeaMiemihOacn+eUn+aViAotIGBvbkxvYWRgIOWQjumhtemdoueKtuaAgeWSjOmihOacn+S4jeS4gOiHtAotIOiEmuacrOWGmeWHuuadpeeahOagkeWSjOWuv+S4u+acgOe7iOeQhuino+eahOagkeS4jeWQjAoKIyMg5rOo5oSP5LqL6aG5CgotIOi/meWll+W3peWFt+aKk+eahOaYr+KAnOW9k+WJjeato+WcqOaYvuekuueahOmhtemdouW/q+eFp+KAne+8jOS4jeaYr+WOhuWPsumhtemdouOAggotIOWmguaenOmhtemdoui/mOWcqOmikee5gemHjee7hOaIluW8guatpeWKoOi9ve+8jOW7uuiuruetieeos+WumuWQjuWGjeaKk+S4gOasoeOAggotIOWmguaenOWuv+S4u+iwg+ivleWvvOWHuumAu+i+keacieabtOaWsO+8jOmcgOimgemHjeaWsOWuieijheWuv+S4u+WQjuaJjeiDveeci+WIsOaWsOWvvOWHuuWtl+auteOAggo=
+# Compose DSL UI Dump
+
+## 用途
+
+`dump_current_compose_dsl_ui.bat` 用来抓取当前正在显示的 `compose_dsl` 页面运行时快照，方便排查：
+
+- 脚本输出的组件树是否正确
+- 宿主解析后的树是否一致
+- 布局坐标和尺寸是否符合预期
+- 当前页面 `state` / `memo` 是否异常
+
+这套工具适合排查“结构看起来对，但界面显示不对”的问题。
+
+## 使用方法
+
+1. 用宿主打开你要调试的 `compose_dsl` 页面。
+2. 等页面进入你想观察的状态。
+3. 运行：
+
+```bat
+d:\Code\prog\assistance\tools\compose_dsl\dump_current_compose_dsl_ui.bat
+```
+
+## 前提条件
+
+- 已安装并可使用 `adb`
+- 至少连接了一台可调试设备
+- 设备上的宿主版本已经包含当前调试导出逻辑
+- 设备上已安装 `com.bslsjdk.operit.debug` 或 `com.bslsjdk.operit`；脚本未指定时优先使用 Debug 包
+
+如果连接了多台设备，脚本会提示选择目标设备。
+
+如果 Debug 和 Release APK 同时安装，可以用环境变量指定目标：
+
+```bat
+set OPERIT_APP_PACKAGE=com.bslsjdk.operit
+d:\Code\prog\assistance\tools\compose_dsl\dump_current_compose_dsl_ui.bat
+```
+
+## 导出位置
+
+脚本会把文件拉回本地目录：
+
+```text
+d:\Code\prog\assistance\debug_output\compose_dsl_dump\<时间戳>\
+```
+
+例如：
+
+```text
+d:\Code\prog\assistance\debug_output\compose_dsl_dump\20260425-153457\
+```
+
+## 文件说明
+
+- `dump_manifest.json`
+  当前页面的基础信息，包括包名、模块名、phase、是否仍在 loading / dispatching。
+
+- `source_script.js`
+  当前页面实际执行的 UI 脚本源码。
+
+- `raw_render_result.txt`
+  JS 原始 render 返回值的文本形式。
+
+- `raw_render_result.json`
+  如果原始返回值可以解析为 JSON，这里会保存格式化后的版本。
+
+- `parsed_render_result.json`
+  宿主解析后的完整 render 结果。
+
+- `compose_tree.txt`
+  解析后的组件树，可快速看结构。
+
+- `compose_tree.json`
+  组件树的 JSON 形式。
+
+- `layout_nodes.txt`
+  每个节点的真实布局信息，包括 `x / y / width / height`。
+
+- `layout_nodes.json`
+  布局信息的 JSON 形式。
+
+- `compose_layout_tree.txt`
+  “组件树 + 布局信息”合并后的可读版本。
+
+- `state.json`
+  当前页面状态。
+
+- `memo.json`
+  当前页面 memo。
+
+## 推荐排查顺序
+
+1. 先看 `dump_manifest.json`
+   确认抓到的是不是当前页面，以及页面是不是已经稳定。
+
+2. 再看 `compose_tree.txt`
+   判断脚本输出结构是否正确。
+
+3. 再看 `layout_nodes.txt` 或 `compose_layout_tree.txt`
+   判断真实布局是不是出了问题。
+
+4. 如果怀疑状态异常，再看 `state.json`
+   确认是不是脚本状态导致界面不对。
+
+5. 如果怀疑宿主解析有偏差，再对比：
+   `raw_render_result.json` 和 `parsed_render_result.json`
+
+## 常见场景
+
+- 文本、图标、按钮没有居中
+- `weight`、`fillMaxWidth`、`padding` 没按预期生效
+- `onLoad` 后页面状态和预期不一致
+- 脚本写出来的树和宿主最终理解的树不同
+
+## 注意事项
+
+- 这套工具抓的是“当前正在显示的页面快照”，不是历史页面。
+- 如果页面还在频繁重组或异步加载，建议等稳定后再抓一次。
+- 如果宿主调试导出逻辑有更新，需要重新安装宿主后才能看到新导出字段。

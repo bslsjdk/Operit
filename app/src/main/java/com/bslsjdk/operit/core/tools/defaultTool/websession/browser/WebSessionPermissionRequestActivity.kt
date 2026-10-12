@@ -1,1 +1,162 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLmJyb3dzZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5kcmF3YWJsZS5Db2xvckRyYXdhYmxlCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZQppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkuQ29tcG9uZW50QWN0aXZpdHkKaW1wb3J0IGFuZHJvaWR4LmFjdGl2aXR5LnJlc3VsdC5jb250cmFjdC5BY3Rpdml0eVJlc3VsdENvbnRyYWN0cwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXBwbGljYXRpb24uQWN0aXZpdHlMaWZlY3ljbGVNYW5hZ2VyCmltcG9ydCBqYXZhLnV0aWwuVVVJRAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXAKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db21wbGV0YWJsZURlZmVycmVkCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhUaW1lb3V0T3JOdWxsCgppbnRlcm5hbCBvYmplY3QgV2ViU2Vzc2lvblBlcm1pc3Npb25SZXF1ZXN0Q29vcmRpbmF0b3IgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgRVhUUkFfUkVRVUVTVF9JRCA9ICJ3ZWJfc2Vzc2lvbl9wZXJtaXNzaW9uX3JlcXVlc3RfaWQiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBFWFRSQV9QRVJNSVNTSU9OUyA9ICJ3ZWJfc2Vzc2lvbl9wZXJtaXNzaW9uX2xpc3QiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVFVRVNUX1RJTUVPVVRfTVMgPSAzMF8wMDBMCgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIFBlbmRpbmdSZXF1ZXN0KAogICAgICAgIHZhbCBwZXJtaXNzaW9uczogTGlzdDxTdHJpbmc+LAogICAgICAgIHZhbCBkZWZlcnJlZDogQ29tcGxldGFibGVEZWZlcnJlZDxNYXA8U3RyaW5nLCBCb29sZWFuPj4KICAgICkKCiAgICBwcml2YXRlIHZhbCBwZW5kaW5nUmVxdWVzdHMgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIFBlbmRpbmdSZXF1ZXN0PigpCgogICAgc3VzcGVuZCBmdW4gcmVxdWVzdFBlcm1pc3Npb25zKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgcGVybWlzc2lvbnM6IENvbGxlY3Rpb248U3RyaW5nPgogICAgKTogTWFwPFN0cmluZywgQm9vbGVhbj4gewogICAgICAgIHZhbCByZXF1ZXN0ZWQgPQogICAgICAgICAgICBwZXJtaXNzaW9ucwogICAgICAgICAgICAgICAgLm1hcCB7IGl0LnRyaW0oKSB9CiAgICAgICAgICAgICAgICAuZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgIC5kaXN0aW5jdCgpCiAgICAgICAgaWYgKHJlcXVlc3RlZC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgcmV0dXJuIGVtcHR5TWFwKCkKICAgICAgICB9CgogICAgICAgIHZhbCByZXF1ZXN0SWQgPSBVVUlELnJhbmRvbVVVSUQoKS50b1N0cmluZygpCiAgICAgICAgdmFsIGRlZmVycmVkID0gQ29tcGxldGFibGVEZWZlcnJlZDxNYXA8U3RyaW5nLCBCb29sZWFuPj4oKQogICAgICAgIHBlbmRpbmdSZXF1ZXN0c1tyZXF1ZXN0SWRdID0gUGVuZGluZ1JlcXVlc3QocmVxdWVzdGVkLCBkZWZlcnJlZCkKCiAgICAgICAgdmFsIGxhdW5jaFN1Y2NlZWRlZCA9CiAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLk1haW4pIHsKICAgICAgICAgICAgICAgIGxhdW5jaFBlcm1pc3Npb25BY3Rpdml0eShjb250ZXh0LCByZXF1ZXN0SWQsIHJlcXVlc3RlZCkKICAgICAgICAgICAgfQogICAgICAgIGlmICghbGF1bmNoU3VjY2VlZGVkKSB7CiAgICAgICAgICAgIHJldHVybiByZXF1ZXN0ZWQuYXNzb2NpYXRlV2l0aCB7IGZhbHNlIH0uYWxzbyB7CiAgICAgICAgICAgICAgICBwZW5kaW5nUmVxdWVzdHMucmVtb3ZlKHJlcXVlc3RJZCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHdpdGhUaW1lb3V0T3JOdWxsKFJFUVVFU1RfVElNRU9VVF9NUykgewogICAgICAgICAgICBkZWZlcnJlZC5hd2FpdCgpCiAgICAgICAgfSA/OiByZXF1ZXN0ZWQuYXNzb2NpYXRlV2l0aCB7IGZhbHNlIH0uYWxzbyB7CiAgICAgICAgICAgIHBlbmRpbmdSZXF1ZXN0cy5yZW1vdmUocmVxdWVzdElkKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBsYXVuY2hQZXJtaXNzaW9uQWN0aXZpdHkoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICByZXF1ZXN0SWQ6IFN0cmluZywKICAgICAgICBwZXJtaXNzaW9uczogTGlzdDxTdHJpbmc+CiAgICApOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gcnVuQ2F0Y2hpbmcgewogICAgICAgICAgICB2YWwgY3VycmVudEFjdGl2aXR5ID0gQWN0aXZpdHlMaWZlY3ljbGVNYW5hZ2VyLmdldEN1cnJlbnRBY3Rpdml0eSgpCiAgICAgICAgICAgIGlmIChjdXJyZW50QWN0aXZpdHkgIT0gbnVsbCAmJiAhY3VycmVudEFjdGl2aXR5LmlzRmluaXNoaW5nICYmICFjdXJyZW50QWN0aXZpdHkuaXNEZXN0cm95ZWQpIHsKICAgICAgICAgICAgICAgIGN1cnJlbnRBY3Rpdml0eS5zdGFydEFjdGl2aXR5KAogICAgICAgICAgICAgICAgICAgIEludGVudChjdXJyZW50QWN0aXZpdHksIFdlYlNlc3Npb25QZXJtaXNzaW9uUmVxdWVzdEFjdGl2aXR5OjpjbGFzcy5qYXZhKS5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHB1dEV4dHJhKEVYVFJBX1JFUVVFU1RfSUQsIHJlcXVlc3RJZCkKICAgICAgICAgICAgICAgICAgICAgICAgcHV0U3RyaW5nQXJyYXlMaXN0RXh0cmEoRVhUUkFfUEVSTUlTU0lPTlMsIEFycmF5TGlzdChwZXJtaXNzaW9ucykpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgY29udGV4dC5zdGFydEFjdGl2aXR5KAogICAgICAgICAgICAgICAgICAgIEludGVudChjb250ZXh0LCBXZWJTZXNzaW9uUGVybWlzc2lvblJlcXVlc3RBY3Rpdml0eTo6Y2xhc3MuamF2YSkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgICAgICBwdXRFeHRyYShFWFRSQV9SRVFVRVNUX0lELCByZXF1ZXN0SWQpCiAgICAgICAgICAgICAgICAgICAgICAgIHB1dFN0cmluZ0FycmF5TGlzdEV4dHJhKEVYVFJBX1BFUk1JU1NJT05TLCBBcnJheUxpc3QocGVybWlzc2lvbnMpKQogICAgICAgICAgICAgICAgICAgICAgICBhZGRGbGFncyhJbnRlbnQuRkxBR19BQ1RJVklUWV9ORVdfVEFTSykKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdHJ1ZQogICAgICAgIH0uZ2V0T3JEZWZhdWx0KGZhbHNlKQogICAgfQoKICAgIGludGVybmFsIGZ1biBjb21wbGV0ZVJlcXVlc3QoCiAgICAgICAgcmVxdWVzdElkOiBTdHJpbmcsCiAgICAgICAgcGVybWlzc2lvbnM6IE1hcDxTdHJpbmcsIEJvb2xlYW4+CiAgICApIHsKICAgICAgICB2YWwgcGVuZGluZyA9IHBlbmRpbmdSZXF1ZXN0cy5yZW1vdmUocmVxdWVzdElkKSA/OiByZXR1cm4KICAgICAgICB2YWwgbm9ybWFsaXplZCA9CiAgICAgICAgICAgIHBlbmRpbmcucGVybWlzc2lvbnMuYXNzb2NpYXRlV2l0aCB7IHBlcm1pc3Npb24gLT4KICAgICAgICAgICAgICAgIHBlcm1pc3Npb25zW3Blcm1pc3Npb25dID09IHRydWUKICAgICAgICAgICAgfQogICAgICAgIHBlbmRpbmcuZGVmZXJyZWQuY29tcGxldGUobm9ybWFsaXplZCkKICAgIH0KCiAgICBpbnRlcm5hbCBmdW4gY2FuY2VsUmVxdWVzdChyZXF1ZXN0SWQ6IFN0cmluZykgewogICAgICAgIHZhbCBwZW5kaW5nID0gcGVuZGluZ1JlcXVlc3RzLnJlbW92ZShyZXF1ZXN0SWQpID86IHJldHVybgogICAgICAgIHBlbmRpbmcuZGVmZXJyZWQuY29tcGxldGUocGVuZGluZy5wZXJtaXNzaW9ucy5hc3NvY2lhdGVXaXRoIHsgZmFsc2UgfSkKICAgIH0KCiAgICBpbnRlcm5hbCBmdW4gcmVxdWVzdElkRXh0cmEoKTogU3RyaW5nID0gRVhUUkFfUkVRVUVTVF9JRAoKICAgIGludGVybmFsIGZ1biBwZXJtaXNzaW9uc0V4dHJhKCk6IFN0cmluZyA9IEVYVFJBX1BFUk1JU1NJT05TCn0KCmNsYXNzIFdlYlNlc3Npb25QZXJtaXNzaW9uUmVxdWVzdEFjdGl2aXR5IDogQ29tcG9uZW50QWN0aXZpdHkoKSB7CiAgICBwcml2YXRlIHZhciByZXF1ZXN0SWQ6IFN0cmluZyA9ICIiCiAgICBwcml2YXRlIHZhciByZXN1bHREZWxpdmVyZWQgPSBmYWxzZQoKICAgIHByaXZhdGUgdmFsIHBlcm1pc3Npb25MYXVuY2hlciA9CiAgICAgICAgcmVnaXN0ZXJGb3JBY3Rpdml0eVJlc3VsdChBY3Rpdml0eVJlc3VsdENvbnRyYWN0cy5SZXF1ZXN0TXVsdGlwbGVQZXJtaXNzaW9ucygpKSB7IHBlcm1pc3Npb25zIC0+CiAgICAgICAgICAgIHJlc3VsdERlbGl2ZXJlZCA9IHRydWUKICAgICAgICAgICAgV2ViU2Vzc2lvblBlcm1pc3Npb25SZXF1ZXN0Q29vcmRpbmF0b3IuY29tcGxldGVSZXF1ZXN0KHJlcXVlc3RJZCwgcGVybWlzc2lvbnMpCiAgICAgICAgICAgIGZpbmlzaCgpCiAgICAgICAgICAgIG92ZXJyaWRlUGVuZGluZ1RyYW5zaXRpb24oMCwgMCkKICAgICAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSkKCiAgICAgICAgd2luZG93LnNldEJhY2tncm91bmREcmF3YWJsZShDb2xvckRyYXdhYmxlKENvbG9yLlRSQU5TUEFSRU5UKSkKICAgICAgICB3aW5kb3cuZGVjb3JWaWV3LmFscGhhID0gMGYKCiAgICAgICAgcmVxdWVzdElkID0gaW50ZW50LmdldFN0cmluZ0V4dHJhKFdlYlNlc3Npb25QZXJtaXNzaW9uUmVxdWVzdENvb3JkaW5hdG9yLnJlcXVlc3RJZEV4dHJhKCkpLm9yRW1wdHkoKQogICAgICAgIHZhbCBwZXJtaXNzaW9ucyA9CiAgICAgICAgICAgIGludGVudC5nZXRTdHJpbmdBcnJheUxpc3RFeHRyYShXZWJTZXNzaW9uUGVybWlzc2lvblJlcXVlc3RDb29yZGluYXRvci5wZXJtaXNzaW9uc0V4dHJhKCkpCiAgICAgICAgICAgICAgICA/Lm1hcCB7IGl0LnRyaW0oKSB9CiAgICAgICAgICAgICAgICA/LmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgICAgICAub3JFbXB0eSgpCgogICAgICAgIGlmIChyZXF1ZXN0SWQuaXNCbGFuaygpIHx8IHBlcm1pc3Npb25zLmlzRW1wdHkoKSkgewogICAgICAgICAgICBmaW5pc2hXaXRoQ2FuY2VsKCkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBpZiAoc2F2ZWRJbnN0YW5jZVN0YXRlID09IG51bGwpIHsKICAgICAgICAgICAgcGVybWlzc2lvbkxhdW5jaGVyLmxhdW5jaChwZXJtaXNzaW9ucy50b1R5cGVkQXJyYXkoKSkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uRGVzdHJveSgpIHsKICAgICAgICBpZiAoaXNGaW5pc2hpbmcgJiYgIWlzQ2hhbmdpbmdDb25maWd1cmF0aW9ucyAmJiAhcmVzdWx0RGVsaXZlcmVkICYmIHJlcXVlc3RJZC5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgV2ViU2Vzc2lvblBlcm1pc3Npb25SZXF1ZXN0Q29vcmRpbmF0b3IuY2FuY2VsUmVxdWVzdChyZXF1ZXN0SWQpCiAgICAgICAgfQogICAgICAgIHN1cGVyLm9uRGVzdHJveSgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZmluaXNoV2l0aENhbmNlbCgpIHsKICAgICAgICBpZiAocmVxdWVzdElkLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICBXZWJTZXNzaW9uUGVybWlzc2lvblJlcXVlc3RDb29yZGluYXRvci5jYW5jZWxSZXF1ZXN0KHJlcXVlc3RJZCkKICAgICAgICB9CiAgICAgICAgZmluaXNoKCkKICAgICAgICBvdmVycmlkZVBlbmRpbmdUcmFuc2l0aW9uKDAsIDApCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.defaultTool.websession.browser
+
+import android.content.Context
+import android.content.Intent
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.result.contract.ActivityResultContracts
+import com.bslsjdk.operit.core.application.ActivityLifecycleManager
+import java.util.UUID
+import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeoutOrNull
+
+internal object WebSessionPermissionRequestCoordinator {
+    private const val EXTRA_REQUEST_ID = "web_session_permission_request_id"
+    private const val EXTRA_PERMISSIONS = "web_session_permission_list"
+    private const val REQUEST_TIMEOUT_MS = 30_000L
+
+    private data class PendingRequest(
+        val permissions: List<String>,
+        val deferred: CompletableDeferred<Map<String, Boolean>>
+    )
+
+    private val pendingRequests = ConcurrentHashMap<String, PendingRequest>()
+
+    suspend fun requestPermissions(
+        context: Context,
+        permissions: Collection<String>
+    ): Map<String, Boolean> {
+        val requested =
+            permissions
+                .map { it.trim() }
+                .filter { it.isNotBlank() }
+                .distinct()
+        if (requested.isEmpty()) {
+            return emptyMap()
+        }
+
+        val requestId = UUID.randomUUID().toString()
+        val deferred = CompletableDeferred<Map<String, Boolean>>()
+        pendingRequests[requestId] = PendingRequest(requested, deferred)
+
+        val launchSucceeded =
+            withContext(Dispatchers.Main) {
+                launchPermissionActivity(context, requestId, requested)
+            }
+        if (!launchSucceeded) {
+            return requested.associateWith { false }.also {
+                pendingRequests.remove(requestId)
+            }
+        }
+
+        return withTimeoutOrNull(REQUEST_TIMEOUT_MS) {
+            deferred.await()
+        } ?: requested.associateWith { false }.also {
+            pendingRequests.remove(requestId)
+        }
+    }
+
+    private fun launchPermissionActivity(
+        context: Context,
+        requestId: String,
+        permissions: List<String>
+    ): Boolean {
+        return runCatching {
+            val currentActivity = ActivityLifecycleManager.getCurrentActivity()
+            if (currentActivity != null && !currentActivity.isFinishing && !currentActivity.isDestroyed) {
+                currentActivity.startActivity(
+                    Intent(currentActivity, WebSessionPermissionRequestActivity::class.java).apply {
+                        putExtra(EXTRA_REQUEST_ID, requestId)
+                        putStringArrayListExtra(EXTRA_PERMISSIONS, ArrayList(permissions))
+                    }
+                )
+            } else {
+                context.startActivity(
+                    Intent(context, WebSessionPermissionRequestActivity::class.java).apply {
+                        putExtra(EXTRA_REQUEST_ID, requestId)
+                        putStringArrayListExtra(EXTRA_PERMISSIONS, ArrayList(permissions))
+                        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    }
+                )
+            }
+            true
+        }.getOrDefault(false)
+    }
+
+    internal fun completeRequest(
+        requestId: String,
+        permissions: Map<String, Boolean>
+    ) {
+        val pending = pendingRequests.remove(requestId) ?: return
+        val normalized =
+            pending.permissions.associateWith { permission ->
+                permissions[permission] == true
+            }
+        pending.deferred.complete(normalized)
+    }
+
+    internal fun cancelRequest(requestId: String) {
+        val pending = pendingRequests.remove(requestId) ?: return
+        pending.deferred.complete(pending.permissions.associateWith { false })
+    }
+
+    internal fun requestIdExtra(): String = EXTRA_REQUEST_ID
+
+    internal fun permissionsExtra(): String = EXTRA_PERMISSIONS
+}
+
+class WebSessionPermissionRequestActivity : ComponentActivity() {
+    private var requestId: String = ""
+    private var resultDelivered = false
+
+    private val permissionLauncher =
+        registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) { permissions ->
+            resultDelivered = true
+            WebSessionPermissionRequestCoordinator.completeRequest(requestId, permissions)
+            finish()
+            overridePendingTransition(0, 0)
+        }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        window.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        window.decorView.alpha = 0f
+
+        requestId = intent.getStringExtra(WebSessionPermissionRequestCoordinator.requestIdExtra()).orEmpty()
+        val permissions =
+            intent.getStringArrayListExtra(WebSessionPermissionRequestCoordinator.permissionsExtra())
+                ?.map { it.trim() }
+                ?.filter { it.isNotBlank() }
+                .orEmpty()
+
+        if (requestId.isBlank() || permissions.isEmpty()) {
+            finishWithCancel()
+            return
+        }
+
+        if (savedInstanceState == null) {
+            permissionLauncher.launch(permissions.toTypedArray())
+        }
+    }
+
+    override fun onDestroy() {
+        if (isFinishing && !isChangingConfigurations && !resultDelivered && requestId.isNotBlank()) {
+            WebSessionPermissionRequestCoordinator.cancelRequest(requestId)
+        }
+        super.onDestroy()
+    }
+
+    private fun finishWithCancel() {
+        if (requestId.isNotBlank()) {
+            WebSessionPermissionRequestCoordinator.cancelRequest(requestId)
+        }
+        finish()
+        overridePendingTransition(0, 0)
+    }
+}

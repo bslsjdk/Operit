@@ -1,1 +1,104 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudXBkYXRlLnNjcmVlbnMKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuR2l0SHViQXBpU2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLkdpdEh1YlJlbGVhc2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBqYXZhLnRleHQuU2ltcGxlRGF0ZUZvcm1hdAppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKLyoqCiAqIOabtOaWsOeVjOmdoueahFZpZXdNb2RlbAogKiDotJ/otKPku45HaXRIdWIgQVBJ6I635Y+WcmVsZWFzZXPkv6Hmga8KICovCmNsYXNzIFVwZGF0ZVZpZXdNb2RlbChwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IFZpZXdNb2RlbCgpIHsKICAgIAogICAgcHJpdmF0ZSB2YWwgX3VpU3RhdGUgPSBNdXRhYmxlU3RhdGVGbG93PFVwZGF0ZVVpU3RhdGU+KFVwZGF0ZVVpU3RhdGUuTG9hZGluZykKICAgIHZhbCB1aVN0YXRlOiBTdGF0ZUZsb3c8VXBkYXRlVWlTdGF0ZT4gPSBfdWlTdGF0ZS5hc1N0YXRlRmxvdygpCiAgICAKICAgIHByaXZhdGUgdmFsIGFwaVNlcnZpY2UgPSBHaXRIdWJBcGlTZXJ2aWNlKGNvbnRleHQpCiAgICAKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFJFUE9fT1dORVIgPSAiQUFzd29yZG1hbiIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBSRVBPX05BTUUgPSAiT3Blcml0IgogICAgfQogICAgCiAgICBpbml0IHsKICAgICAgICBsb2FkVXBkYXRlcygpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5Yqg6L295pu05paw5Y6G5Y+yCiAgICAgKi8KICAgIGZ1biBsb2FkVXBkYXRlcygpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBfdWlTdGF0ZS52YWx1ZSA9IFVwZGF0ZVVpU3RhdGUuTG9hZGluZwogICAgICAgICAgICAKICAgICAgICAgICAgYXBpU2VydmljZS5nZXRSZXBvc2l0b3J5UmVsZWFzZXMoUkVQT19PV05FUiwgUkVQT19OQU1FLCBwYWdlID0gMSwgcGVyUGFnZSA9IDIwKQogICAgICAgICAgICAgICAgLm9uU3VjY2VzcyB7IHJlbGVhc2VzIC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIHVwZGF0ZXMgPSByZWxlYXNlcwogICAgICAgICAgICAgICAgICAgICAgICAuZmlsdGVyIHsgIWl0LmRyYWZ0ICYmICFpdC5wcmVyZWxlYXNlIH0gLy8g6L+H5ruk5o6J6I2J56i/5ZKM6aKE5Y+R5biDCiAgICAgICAgICAgICAgICAgICAgICAgIC5tYXBJbmRleGVkIHsgaW5kZXgsIHJlbGVhc2UgLT4gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJzZVJlbGVhc2VUb1VwZGF0ZUluZm8ocmVsZWFzZSwgaXNMYXRlc3QgPSBpbmRleCA9PSAwKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgX3VpU3RhdGUudmFsdWUgPSBVcGRhdGVVaVN0YXRlLlN1Y2Nlc3ModXBkYXRlcykKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIC5vbkZhaWx1cmUgeyBlcnJvciAtPgogICAgICAgICAgICAgICAgICAgIF91aVN0YXRlLnZhbHVlID0gVXBkYXRlVWlTdGF0ZS5FcnJvcihlcnJvci5tZXNzYWdlID86IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVwZGF0ZV91bmtub3duX2Vycm9yKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5bCGR2l0SHViIFJlbGVhc2XovazmjaLkuLpVcGRhdGVJbmZvCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHBhcnNlUmVsZWFzZVRvVXBkYXRlSW5mbyhyZWxlYXNlOiBHaXRIdWJSZWxlYXNlLCBpc0xhdGVzdDogQm9vbGVhbik6IFVwZGF0ZUluZm8gewogICAgICAgIC8vIOino+aekOWPkeW4g+aXtumXtAogICAgICAgIHZhbCBwdWJsaXNoZWRBdCA9IHJlcXVpcmVOb3ROdWxsKHJlbGVhc2UucHVibGlzaGVkX2F0KQogICAgICAgIHZhbCBkYXRlID0gdHJ5IHsKICAgICAgICAgICAgdmFsIGlucHV0Rm9ybWF0ID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eS1NTS1kZCdUJ0hIOm1tOnNzJ1onIiwgTG9jYWxlLmdldERlZmF1bHQoKSkKICAgICAgICAgICAgdmFsIG91dHB1dEZvcm1hdCA9IFNpbXBsZURhdGVGb3JtYXQoInl5eXktTU0tZGQiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKQogICAgICAgICAgICB2YWwgcGFyc2VkRGF0ZSA9IGlucHV0Rm9ybWF0LnBhcnNlKHB1Ymxpc2hlZEF0KQogICAgICAgICAgICBwYXJzZWREYXRlPy5sZXQgeyBvdXRwdXRGb3JtYXQuZm9ybWF0KGl0KSB9ID86IHB1Ymxpc2hlZEF0LnN1YnN0cmluZygwLCAxMCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgcHVibGlzaGVkQXQuc3Vic3RyaW5nKDAsIDEwKQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDop6PmnpByZWxlYXNlIGJvZHkKICAgICAgICB2YWwgYm9keSA9IHJlbGVhc2UuYm9keSA/OiAiIgogICAgICAgIAogICAgICAgIC8vIOaPkOWPluagh+mimO+8iOS9v+eUqHJlbGVhc2UgbmFtZeaIluesrOS4gOihjO+8iQogICAgICAgIHZhbCB0aXRsZSA9IHJlbGVhc2UubmFtZT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0gPzogY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudXBkYXRlX3ZlcnNpb25fdGl0bGUpCiAgICAgICAgCiAgICAgICAgLy8g6I635Y+W5LiL6L296ZO+5o6lCiAgICAgICAgdmFsIGRvd25sb2FkVXJsID0gcmVsZWFzZS5odG1sX3VybAogICAgICAgIAogICAgICAgIHJldHVybiBVcGRhdGVJbmZvKAogICAgICAgICAgICB2ZXJzaW9uID0gcmVsZWFzZS50YWdfbmFtZSwKICAgICAgICAgICAgZGF0ZSA9IGRhdGUsCiAgICAgICAgICAgIHRpdGxlID0gdGl0bGUsCiAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gYm9keSwKICAgICAgICAgICAgaGlnaGxpZ2h0cyA9IGVtcHR5TGlzdCgpLAogICAgICAgICAgICBhbGxDaGFuZ2VzID0gZW1wdHlMaXN0KCksCiAgICAgICAgICAgIGlzTGF0ZXN0ID0gaXNMYXRlc3QsCiAgICAgICAgICAgIGRvd25sb2FkVXJsID0gZG93bmxvYWRVcmwsCiAgICAgICAgICAgIHJlbGVhc2VVcmwgPSByZWxlYXNlLmh0bWxfdXJsCiAgICAgICAgKQogICAgfQp9CgovKioKICog5pu05paw55WM6Z2i55qEVUnnirbmgIEKICovCnNlYWxlZCBjbGFzcyBVcGRhdGVVaVN0YXRlIHsKICAgIG9iamVjdCBMb2FkaW5nIDogVXBkYXRlVWlTdGF0ZSgpCiAgICBkYXRhIGNsYXNzIFN1Y2Nlc3ModmFsIHVwZGF0ZXM6IExpc3Q8VXBkYXRlSW5mbz4pIDogVXBkYXRlVWlTdGF0ZSgpCiAgICBkYXRhIGNsYXNzIEVycm9yKHZhbCBtZXNzYWdlOiBTdHJpbmcpIDogVXBkYXRlVWlTdGF0ZSgpCn0KCg==
+package com.bslsjdk.operit.ui.features.update.screens
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.data.api.GitHubApiService
+import com.bslsjdk.operit.data.api.GitHubRelease
+import com.bslsjdk.operit.R
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import java.text.SimpleDateFormat
+import java.util.Locale
+
+/**
+ * 更新界面的ViewModel
+ * 负责从GitHub API获取releases信息
+ */
+class UpdateViewModel(private val context: Context) : ViewModel() {
+    
+    private val _uiState = MutableStateFlow<UpdateUiState>(UpdateUiState.Loading)
+    val uiState: StateFlow<UpdateUiState> = _uiState.asStateFlow()
+    
+    private val apiService = GitHubApiService(context)
+    
+    companion object {
+        private const val REPO_OWNER = "AAswordman"
+        private const val REPO_NAME = "Operit"
+    }
+    
+    init {
+        loadUpdates()
+    }
+    
+    /**
+     * 加载更新历史
+     */
+    fun loadUpdates() {
+        viewModelScope.launch {
+            _uiState.value = UpdateUiState.Loading
+            
+            apiService.getRepositoryReleases(REPO_OWNER, REPO_NAME, page = 1, perPage = 20)
+                .onSuccess { releases ->
+                    val updates = releases
+                        .filter { !it.draft && !it.prerelease } // 过滤掉草稿和预发布
+                        .mapIndexed { index, release -> 
+                            parseReleaseToUpdateInfo(release, isLatest = index == 0)
+                        }
+                    _uiState.value = UpdateUiState.Success(updates)
+                }
+                .onFailure { error ->
+                    _uiState.value = UpdateUiState.Error(error.message ?: context.getString(R.string.update_unknown_error))
+                }
+        }
+    }
+    
+    /**
+     * 将GitHub Release转换为UpdateInfo
+     */
+    private fun parseReleaseToUpdateInfo(release: GitHubRelease, isLatest: Boolean): UpdateInfo {
+        // 解析发布时间
+        val publishedAt = requireNotNull(release.published_at)
+        val date = try {
+            val inputFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.getDefault())
+            val outputFormat = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault())
+            val parsedDate = inputFormat.parse(publishedAt)
+            parsedDate?.let { outputFormat.format(it) } ?: publishedAt.substring(0, 10)
+        } catch (e: Exception) {
+            publishedAt.substring(0, 10)
+        }
+        
+        // 解析release body
+        val body = release.body ?: ""
+        
+        // 提取标题（使用release name或第一行）
+        val title = release.name?.takeIf { it.isNotBlank() } ?: context.getString(R.string.update_version_title)
+        
+        // 获取下载链接
+        val downloadUrl = release.html_url
+        
+        return UpdateInfo(
+            version = release.tag_name,
+            date = date,
+            title = title,
+            description = body,
+            highlights = emptyList(),
+            allChanges = emptyList(),
+            isLatest = isLatest,
+            downloadUrl = downloadUrl,
+            releaseUrl = release.html_url
+        )
+    }
+}
+
+/**
+ * 更新界面的UI状态
+ */
+sealed class UpdateUiState {
+    object Loading : UpdateUiState()
+    data class Success(val updates: List<UpdateInfo>) : UpdateUiState()
+    data class Error(val message: String) : UpdateUiState()
+}
+

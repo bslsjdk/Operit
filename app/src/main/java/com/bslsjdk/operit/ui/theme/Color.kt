@@ -1,1 +1,11 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkudGhlbWUKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCgp2YWwgUHVycGxlODAgPSBDb2xvcigweEZGRDBCQ0ZGKQp2YWwgUHVycGxlR3JleTgwID0gQ29sb3IoMHhGRkNDQzJEQykKdmFsIFBpbms4MCA9IENvbG9yKDB4RkZFRkI4QzgpCgp2YWwgUHVycGxlNDAgPSBDb2xvcigweEZGNjY1MGE0KQp2YWwgUHVycGxlR3JleTQwID0gQ29sb3IoMHhGRjYyNWI3MSkKdmFsIFBpbms0MCA9IENvbG9yKDB4RkY3RDUyNjApCg==
+package com.bslsjdk.operit.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val Purple80 = Color(0xFFD0BCFF)
+val PurpleGrey80 = Color(0xFFCCC2DC)
+val Pink80 = Color(0xFFEFB8C8)
+
+val Purple40 = Color(0xFF6650a4)
+val PurpleGrey40 = Color(0xFF625b71)
+val Pink40 = Color(0xFF7D5260)

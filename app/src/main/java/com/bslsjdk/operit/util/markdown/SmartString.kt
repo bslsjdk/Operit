@@ -1,1 +1,133 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5tYXJrZG93bgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5TdGFibGUKCi8qKgogKiDmmbrog73lrZfnrKbkuLLnsbsgLSDpq5jmgKfog73nmoTlrZfnrKbkuLLmnoTlu7rlmajvvIzluKbnvJPlrZjkvJjljJYKICogCiAqIOeJueaAp++8mgogKiAxLiDph43ovb0gYCtgIOaTjeS9nOespuS4uumrmOaViOeahCBhcHBlbmQg5pON5L2cCiAqIDIuIOe8k+WtmCB0b1N0cmluZygpIOe7k+aenO+8jOWPquWcqOWGheWuueWPmOWMluaXtumHjeaWsOeUn+aIkAogKiAzLiDpgb/lhY3popHnuYHliJvlu7rmlrDnmoQgU3RyaW5nIOWvueixoQogKiA0LiDpgILnlKjkuo7mtYHlvI/lhoXlrrnmnoTlu7rlnLrmma8KICovCmNsYXNzIFNtYXJ0U3RyaW5nKGluaXRpYWxDb250ZW50OiBTdHJpbmcgPSAiIikgewogICAgcHJpdmF0ZSB2YWwgYnVpbGRlciA9IFN0cmluZ0J1aWxkZXIoaW5pdGlhbENvbnRlbnQpCiAgICBwcml2YXRlIHZhciBjYWNoZWRTdHJpbmc6IFN0cmluZz8gPSBpZiAoaW5pdGlhbENvbnRlbnQuaXNFbXB0eSgpKSAiIiBlbHNlIGluaXRpYWxDb250ZW50CiAgICBwcml2YXRlIHZhciBsYXN0TGVuZ3RoID0gaW5pdGlhbENvbnRlbnQubGVuZ3RoCiAgICAKICAgIC8qKgogICAgICog6L+95Yqg5a2X56ym5Liy5YaF5a65CiAgICAgKiBAcGFyYW0gY29udGVudCDopoHov73liqDnmoTlhoXlrrkKICAgICAqIEByZXR1cm4g6L+U5Zue6Ieq6Lqr5Lul5pSv5oyB6ZO+5byP6LCD55SoCiAgICAgKi8KICAgIG9wZXJhdG9yIGZ1biBwbHVzKGNvbnRlbnQ6IFN0cmluZyk6IFNtYXJ0U3RyaW5nIHsKICAgICAgICBpZiAoY29udGVudC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQoY29udGVudCkKICAgICAgICAgICAgY2FjaGVkU3RyaW5nID0gbnVsbCAvLyDmoIforrDnvJPlrZjlpLHmlYgKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDov73liqDlrZfnrKblhoXlrrkKICAgICAqIEBwYXJhbSBjaGFyIOimgei/veWKoOeahOWtl+espgogICAgICogQHJldHVybiDov5Tlm57oh6rouqvku6XmlK/mjIHpk77lvI/osIPnlKgKICAgICAqLwogICAgb3BlcmF0b3IgZnVuIHBsdXMoY2hhcjogQ2hhcik6IFNtYXJ0U3RyaW5nIHsKICAgICAgICBidWlsZGVyLmFwcGVuZChjaGFyKQogICAgICAgIGNhY2hlZFN0cmluZyA9IG51bGwgLy8g5qCH6K6w57yT5a2Y5aSx5pWICiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmmbrog70gdG9TdHJpbmcgLSDlj6rlnKjlhoXlrrnlj5jljJbml7bph43mlrDnlJ/miJDlrZfnrKbkuLIKICAgICAqIEByZXR1cm4g5a2X56ym5Liy6KGo56S6CiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biB0b1N0cmluZygpOiBTdHJpbmcgewogICAgICAgIHZhbCBjdXJyZW50TGVuZ3RoID0gYnVpbGRlci5sZW5ndGgKICAgICAgICAKICAgICAgICAvLyDlpoLmnpzplb/luqbmsqHlj5jkuJTmnInnvJPlrZjvvIznm7TmjqXov5Tlm57nvJPlrZgKICAgICAgICBpZiAoY3VycmVudExlbmd0aCA9PSBsYXN0TGVuZ3RoICYmIGNhY2hlZFN0cmluZyAhPSBudWxsKSB7CiAgICAgICAgICAgIHJldHVybiBjYWNoZWRTdHJpbmchIQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDlhoXlrrnlt7Llj5jljJbvvIzph43mlrDnlJ/miJDlrZfnrKbkuLLlubbnvJPlrZgKICAgICAgICBsYXN0TGVuZ3RoID0gY3VycmVudExlbmd0aAogICAgICAgIGNhY2hlZFN0cmluZyA9IGJ1aWxkZXIudG9TdHJpbmcoKQogICAgICAgIHJldHVybiBjYWNoZWRTdHJpbmchIQogICAgfQogICAgCiAgICAvKioKICAgICAqIOiOt+WPluW9k+WJjemVv+W6pgogICAgICovCiAgICB2YWwgbGVuZ3RoOiBJbnQKICAgICAgICBnZXQoKSA9IGJ1aWxkZXIubGVuZ3RoCiAgICAKICAgIC8qKgogICAgICog5Yik5pat5piv5ZCm5Li656m6CiAgICAgKi8KICAgIGZ1biBpc0VtcHR5KCk6IEJvb2xlYW4gPSBidWlsZGVyLmlzRW1wdHkoKQogICAgCiAgICAvKioKICAgICAqIOWIpOaWreaYr+WQpumdnuepugogICAgICovCiAgICBmdW4gaXNOb3RFbXB0eSgpOiBCb29sZWFuID0gYnVpbGRlci5pc05vdEVtcHR5KCkKICAgIAogICAgLyoqCiAgICAgKiDmuIXnqbrlhoXlrrkKICAgICAqLwogICAgZnVuIGNsZWFyKCkgewogICAgICAgIGJ1aWxkZXIuY2xlYXIoKQogICAgICAgIGNhY2hlZFN0cmluZyA9ICIiCiAgICAgICAgbGFzdExlbmd0aCA9IDAKICAgIH0KCiAgICAvKiogVHJ1bmNhdGVzIGFjY3VtdWxhdGVkIGNvbnRlbnQgd2l0aG91dCBjcmVhdGluZyBhbiBpbW11dGFibGUgU3RyaW5nIHNuYXBzaG90LiAqLwogICAgZnVuIHRydW5jYXRlKGxlbmd0aDogSW50KTogU21hcnRTdHJpbmcgewogICAgICAgIHJlcXVpcmUobGVuZ3RoIGluIDAuLmJ1aWxkZXIubGVuZ3RoKSB7CiAgICAgICAgICAgICJ0cnVuY2F0ZSBsZW5ndGggJGxlbmd0aCBpcyBvdXRzaWRlIDAuLiR7YnVpbGRlci5sZW5ndGh9IgogICAgICAgIH0KICAgICAgICBpZiAobGVuZ3RoICE9IGJ1aWxkZXIubGVuZ3RoKSB7CiAgICAgICAgICAgIGJ1aWxkZXIuc2V0TGVuZ3RoKGxlbmd0aCkKICAgICAgICAgICAgY2FjaGVkU3RyaW5nID0gaWYgKGxlbmd0aCA9PSAwKSAiIiBlbHNlIG51bGwKICAgICAgICAgICAgbGFzdExlbmd0aCA9IGxlbmd0aAogICAgICAgIH0KICAgICAgICByZXR1cm4gdGhpcwogICAgfQoKICAgIC8qKiBSZXBsYWNlcyBhY2N1bXVsYXRlZCBjb250ZW50IHdoaWxlIHByZXNlcnZpbmcgdGhpcyBidWZmZXIgaW5zdGFuY2UuICovCiAgICBmdW4gcmVwbGFjZShjb250ZW50OiBTdHJpbmcpOiBTbWFydFN0cmluZyB7CiAgICAgICAgYnVpbGRlci5jbGVhcigpCiAgICAgICAgYnVpbGRlci5hcHBlbmQoY29udGVudCkKICAgICAgICBjYWNoZWRTdHJpbmcgPSBjb250ZW50CiAgICAgICAgbGFzdExlbmd0aCA9IGNvbnRlbnQubGVuZ3RoCiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmiKrlj5blrZfnrKbkuLIKICAgICAqLwogICAgZnVuIHRha2UobjogSW50KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gaWYgKG4gPj0gYnVpbGRlci5sZW5ndGgpIHsKICAgICAgICAgICAgdG9TdHJpbmcoKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGJ1aWxkZXIuc3Vic3RyaW5nKDAsIG4pCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOi/veWKoOWGheWuue+8iOWFvOWuuSBTdHJpbmdCdWlsZGVyIOmjjuagvO+8iQogICAgICovCiAgICBmdW4gYXBwZW5kKGNvbnRlbnQ6IFN0cmluZyk6IFNtYXJ0U3RyaW5nIHsKICAgICAgICByZXR1cm4gdGhpcyArIGNvbnRlbnQKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDov73liqDlrZfnrKbvvIjlhbzlrrkgU3RyaW5nQnVpbGRlciDpo47moLzvvIkKICAgICAqLwogICAgZnVuIGFwcGVuZChjaGFyOiBDaGFyKTogU21hcnRTdHJpbmcgewogICAgICAgIHJldHVybiB0aGlzICsgY2hhcgogICAgfQp9Cgo=
+package com.bslsjdk.operit.util.markdown
+
+import androidx.compose.runtime.Stable
+
+/**
+ * 智能字符串类 - 高性能的字符串构建器，带缓存优化
+ * 
+ * 特性：
+ * 1. 重载 `+` 操作符为高效的 append 操作
+ * 2. 缓存 toString() 结果，只在内容变化时重新生成
+ * 3. 避免频繁创建新的 String 对象
+ * 4. 适用于流式内容构建场景
+ */
+class SmartString(initialContent: String = "") {
+    private val builder = StringBuilder(initialContent)
+    private var cachedString: String? = if (initialContent.isEmpty()) "" else initialContent
+    private var lastLength = initialContent.length
+    
+    /**
+     * 追加字符串内容
+     * @param content 要追加的内容
+     * @return 返回自身以支持链式调用
+     */
+    operator fun plus(content: String): SmartString {
+        if (content.isNotEmpty()) {
+            builder.append(content)
+            cachedString = null // 标记缓存失效
+        }
+        return this
+    }
+    
+    /**
+     * 追加字符内容
+     * @param char 要追加的字符
+     * @return 返回自身以支持链式调用
+     */
+    operator fun plus(char: Char): SmartString {
+        builder.append(char)
+        cachedString = null // 标记缓存失效
+        return this
+    }
+    
+    /**
+     * 智能 toString - 只在内容变化时重新生成字符串
+     * @return 字符串表示
+     */
+    override fun toString(): String {
+        val currentLength = builder.length
+        
+        // 如果长度没变且有缓存，直接返回缓存
+        if (currentLength == lastLength && cachedString != null) {
+            return cachedString!!
+        }
+        
+        // 内容已变化，重新生成字符串并缓存
+        lastLength = currentLength
+        cachedString = builder.toString()
+        return cachedString!!
+    }
+    
+    /**
+     * 获取当前长度
+     */
+    val length: Int
+        get() = builder.length
+    
+    /**
+     * 判断是否为空
+     */
+    fun isEmpty(): Boolean = builder.isEmpty()
+    
+    /**
+     * 判断是否非空
+     */
+    fun isNotEmpty(): Boolean = builder.isNotEmpty()
+    
+    /**
+     * 清空内容
+     */
+    fun clear() {
+        builder.clear()
+        cachedString = ""
+        lastLength = 0
+    }
+
+    /** Truncates accumulated content without creating an immutable String snapshot. */
+    fun truncate(length: Int): SmartString {
+        require(length in 0..builder.length) {
+            "truncate length $length is outside 0..${builder.length}"
+        }
+        if (length != builder.length) {
+            builder.setLength(length)
+            cachedString = if (length == 0) "" else null
+            lastLength = length
+        }
+        return this
+    }
+
+    /** Replaces accumulated content while preserving this buffer instance. */
+    fun replace(content: String): SmartString {
+        builder.clear()
+        builder.append(content)
+        cachedString = content
+        lastLength = content.length
+        return this
+    }
+    
+    /**
+     * 截取字符串
+     */
+    fun take(n: Int): String {
+        return if (n >= builder.length) {
+            toString()
+        } else {
+            builder.substring(0, n)
+        }
+    }
+    
+    /**
+     * 追加内容（兼容 StringBuilder 风格）
+     */
+    fun append(content: String): SmartString {
+        return this + content
+    }
+    
+    /**
+     * 追加字符（兼容 StringBuilder 风格）
+     */
+    fun append(char: Char): SmartString {
+        return this + char
+    }
+}
+

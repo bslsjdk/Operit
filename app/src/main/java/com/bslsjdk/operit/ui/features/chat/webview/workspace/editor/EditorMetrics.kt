@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IKCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLlBhaW50CmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLlR5cGVmYWNlCmltcG9ydCBrb3RsaW4ubWF0aC5jZWlsCgppbnRlcm5hbCBjbGFzcyBFZGl0b3JNZXRyaWNzKAogICAgcHJpdmF0ZSB2YWwgcGFpbnQ6IFBhaW50LAogICAgdGV4dFNpemVQeDogRmxvYXQKKSB7CiAgICB2YXIgY2hhcldpZHRoOiBGbG9hdCA9IDBmCiAgICAgICAgcHJpdmF0ZSBzZXQKICAgIHZhciBjaGFySGVpZ2h0OiBGbG9hdCA9IDBmCiAgICAgICAgcHJpdmF0ZSBzZXQKICAgIHZhciBsaW5lSGVpZ2h0OiBGbG9hdCA9IDBmCiAgICAgICAgcHJpdmF0ZSBzZXQKICAgIHZhciBiYXNlbGluZTogRmxvYXQgPSAwZgogICAgICAgIHByaXZhdGUgc2V0CgogICAgaW5pdCB7CiAgICAgICAgcGFpbnQudHlwZWZhY2UgPSBUeXBlZmFjZS5NT05PU1BBQ0UKICAgICAgICB1cGRhdGUodGV4dFNpemVQeCkKICAgIH0KCiAgICBmdW4gdXBkYXRlKHRleHRTaXplUHg6IEZsb2F0KSB7CiAgICAgICAgcGFpbnQudGV4dFNpemUgPSB0ZXh0U2l6ZVB4CiAgICAgICAgY2hhcldpZHRoID0gY2VpbChwYWludC5tZWFzdXJlVGV4dCgiTSIpLnRvRG91YmxlKCkpLnRvRmxvYXQoKQogICAgICAgIHZhbCBmb250TWV0cmljcyA9IHBhaW50LmZvbnRNZXRyaWNzCiAgICAgICAgY2hhckhlaWdodCA9IGZvbnRNZXRyaWNzLmRlc2NlbnQgLSBmb250TWV0cmljcy5hc2NlbnQKICAgICAgICBsaW5lSGVpZ2h0ID0gY2hhckhlaWdodCAqIDEuMjVmCiAgICAgICAgYmFzZWxpbmUgPSAtZm9udE1ldHJpY3MuYXNjZW50ICsgKGxpbmVIZWlnaHQgLSBjaGFySGVpZ2h0KSAvIDJmCiAgICB9CgogICAgZnVuIGdldENlbGxXaWR0aChjaGFyOiBDaGFyKTogSW50ID0gZWRpdG9yQ2VsbFdpZHRoKGNoYXIpCn0K
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor
+
+import android.graphics.Paint
+import android.graphics.Typeface
+import kotlin.math.ceil
+
+internal class EditorMetrics(
+    private val paint: Paint,
+    textSizePx: Float
+) {
+    var charWidth: Float = 0f
+        private set
+    var charHeight: Float = 0f
+        private set
+    var lineHeight: Float = 0f
+        private set
+    var baseline: Float = 0f
+        private set
+
+    init {
+        paint.typeface = Typeface.MONOSPACE
+        update(textSizePx)
+    }
+
+    fun update(textSizePx: Float) {
+        paint.textSize = textSizePx
+        charWidth = ceil(paint.measureText("M").toDouble()).toFloat()
+        val fontMetrics = paint.fontMetrics
+        charHeight = fontMetrics.descent - fontMetrics.ascent
+        lineHeight = charHeight * 1.25f
+        baseline = -fontMetrics.ascent + (lineHeight - charHeight) / 2f
+    }
+
+    fun getCellWidth(char: Char): Int = editorCellWidth(char)
+}

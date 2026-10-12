@@ -1,1 +1,160 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5pbnRlcm5hbC5jaGVja1ByZWNvbmRpdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NpdGlvbkxvY2FsUHJvdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5EaXNwb3NhYmxlRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zbmFwc2hvdHMuU25hcHNob3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zbmFwc2hvdHMuU25hcHNob3RTdGF0ZUxpc3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LkxvY2FsUGlubmFibGVDb250YWluZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LlBpbm5hYmxlQ29udGFpbmVyCgovKioKICogV3JhcHBlciBzdXBwb3J0aW5nIFtQaW5uYWJsZUNvbnRhaW5lcl0gaW4gbGF6eSBsYXlvdXQgaXRlbXMuIEVhY2ggcGlubmVkIGl0ZW0gaXMgY29uc2lkZXJlZAogKiBpbXBvcnRhbnQgdG8ga2VlcCBhbGl2ZSBldmVuIGlmIGl0IHdvdWxkIGJlIGRpc2NhcmRlZCBvdGhlcndpc2UuCiAqCiAqIEBwYXJhbSBrZXkga2V5IG9mIHRoZSBpdGVtIGluc2lkZSB0aGUgbGF6eSBsYXlvdXQKICogQHBhcmFtIGluZGV4IGluZGV4IG9mIHRoZSBpdGVtIGluc2lkZSB0aGUgbGF6eSBsYXlvdXQKICogQHBhcmFtIHBpbm5lZEl0ZW1MaXN0IGNvbnRhaW5lciBvZiBjdXJyZW50bHkgcGlubmVkIGl0ZW1zCiAqIEBwYXJhbSBjb250ZW50IGlubmVyIGNvbnRlbnQgb2YgdGhpcyBpdGVtCiAqCiAqIE5vdGU6IHRoaXMgZnVuY3Rpb24gaXMgYSBwYXJ0IG9mIFtMYXp5TGF5b3V0XSBoYXJuZXNzIHRoYXQgYWxsb3dzIGZvciBidWlsZGluZyBjdXN0b20gbGF6eQogKiBsYXlvdXRzLiBMYXp5TGF5b3V0IGFuZCBhbGwgY29ycmVzcG9uZGluZyBBUElzIGFyZSBzdGlsbCB1bmRlciBkZXZlbG9wbWVudCBhbmQgYXJlIHN1YmplY3QgdG8KICogY2hhbmdlLgogKi8KQENvbXBvc2FibGUKZnVuIExhenlMYXlvdXRQaW5uYWJsZUl0ZW0oCiAgICBrZXk6IEFueT8sCiAgICBpbmRleDogSW50LAogICAgcGlubmVkSXRlbUxpc3Q6IExhenlMYXlvdXRQaW5uZWRJdGVtTGlzdCwKICAgIGNvbnRlbnQ6IEBDb21wb3NhYmxlICgpIC0+IFVuaXQsCikgewogICAgdmFsIHBpbm5hYmxlSXRlbSA9IHJlbWVtYmVyKGtleSwgcGlubmVkSXRlbUxpc3QpIHsgTGF6eUxheW91dFBpbm5hYmxlSXRlbShrZXksIHBpbm5lZEl0ZW1MaXN0KSB9CiAgICBwaW5uYWJsZUl0ZW0uaW5kZXggPSBpbmRleAogICAgcGlubmFibGVJdGVtLnBhcmVudFBpbm5hYmxlQ29udGFpbmVyID0gTG9jYWxQaW5uYWJsZUNvbnRhaW5lci5jdXJyZW50CiAgICBEaXNwb3NhYmxlRWZmZWN0KHBpbm5hYmxlSXRlbSkgeyBvbkRpc3Bvc2UgeyBwaW5uYWJsZUl0ZW0ub25EaXNwb3NlZCgpIH0gfQogICAgQ29tcG9zaXRpb25Mb2NhbFByb3ZpZGVyKExvY2FsUGlubmFibGVDb250YWluZXIgcHJvdmlkZXMgcGlubmFibGVJdGVtLCBjb250ZW50ID0gY29udGVudCkKfQoKLyoqCiAqIFJlYWQtb25seSBsaXN0IG9mIHBpbm5lZCBpdGVtcyBpbiBhIGxhenkgbGF5b3V0LiBUaGUgaXRlbXMgYXJlIG1vZGlmaWVkIGludGVybmFsbHkgYnkgdGhlCiAqIFtQaW5uYWJsZUNvbnRhaW5lcl0gY29uc3VtZXJzLCBmb3IgZXhhbXBsZSBpZiBzb21ldGhpbmcgaW5zaWRlIGl0ZW0gY29udGVudCBpcyBmb2N1c2VkLgogKgogKiBOb3RlOiB0aGlzIGNsYXNzIGlzIGEgcGFydCBvZiBbTGF6eUxheW91dF0gaGFybmVzcyB0aGF0IGFsbG93cyBmb3IgYnVpbGRpbmcgY3VzdG9tIGxhenkgbGF5b3V0cy4KICogTGF6eUxheW91dCBhbmQgYWxsIGNvcnJlc3BvbmRpbmcgQVBJcyBhcmUgc3RpbGwgdW5kZXIgZGV2ZWxvcG1lbnQgYW5kIGFyZSBzdWJqZWN0IHRvIGNoYW5nZS4KICovCmNsYXNzIExhenlMYXlvdXRQaW5uZWRJdGVtTGlzdCBwcml2YXRlIGNvbnN0cnVjdG9yKHByaXZhdGUgdmFsIGl0ZW1zOiBNdXRhYmxlTGlzdDxQaW5uZWRJdGVtPikgOgogICAgTGlzdDxMYXp5TGF5b3V0UGlubmVkSXRlbUxpc3QuUGlubmVkSXRlbT4gYnkgaXRlbXMgewogICAgY29uc3RydWN0b3IoKSA6IHRoaXMoU25hcHNob3RTdGF0ZUxpc3QoKSkKCiAgICBpbnRlcm5hbCBmdW4gcGluKGl0ZW06IFBpbm5lZEl0ZW0pIHsKICAgICAgICBpdGVtcy5hZGQoaXRlbSkKICAgIH0KCiAgICBpbnRlcm5hbCBmdW4gcmVsZWFzZShpdGVtOiBQaW5uZWRJdGVtKSB7CiAgICAgICAgaXRlbXMucmVtb3ZlKGl0ZW0pCiAgICB9CgogICAgLyoqCiAgICAgKiBJdGVtIHBpbm5lZCBpbiBhIGxhenkgbGF5b3V0LiBQaW5uZWQgaXRlbSBzaG91bGQgYmUgYWx3YXlzIG1lYXN1cmVkIGFuZCBsYWlkIG91dCwgZXZlbiBpZiB0aGUKICAgICAqIGl0ZW0gaXMgYmV5b25kIHRoZSBib3VuZGFyaWVzIG9mIHRoZSBsYXlvdXQuCiAgICAgKgogICAgICogTm90ZTogdGhpcyBpbnRlcmZhY2UgaXMgYSBwYXJ0IG9mIFtMYXp5TGF5b3V0XSBoYXJuZXNzIHRoYXQgYWxsb3dzIGZvciBidWlsZGluZyBjdXN0b20gbGF6eQogICAgICogbGF5b3V0cy4gTGF6eUxheW91dCBhbmQgYWxsIGNvcnJlc3BvbmRpbmcgQVBJcyBhcmUgc3RpbGwgdW5kZXIgZGV2ZWxvcG1lbnQgYW5kIGFyZSBzdWJqZWN0IHRvCiAgICAgKiBjaGFuZ2UuCiAgICAgKi8KICAgIHNlYWxlZCBpbnRlcmZhY2UgUGlubmVkSXRlbSB7CiAgICAgICAgLyoqIEtleSBvZiB0aGUgcGlubmVkIGl0ZW0uICovCiAgICAgICAgdmFsIGtleTogQW55PwoKICAgICAgICAvKioKICAgICAgICAgKiBMYXN0IGtub3duIGluZGV4IG9mIHRoZSBwaW5uZWQgaXRlbS4gTm90ZTogaXQgaXMgcG9zc2libGUgZm9yIGluZGV4IHRvIGNoYW5nZSBkdXJpbmcKICAgICAgICAgKiBsaWZldGltZSBvZiB0aGUgb2JqZWN0LgogICAgICAgICAqLwogICAgICAgIHZhbCBpbmRleDogSW50CiAgICB9Cn0KCnByaXZhdGUgY2xhc3MgTGF6eUxheW91dFBpbm5hYmxlSXRlbSgKICAgIG92ZXJyaWRlIHZhbCBrZXk6IEFueT8sCiAgICBwcml2YXRlIHZhbCBwaW5uZWRJdGVtTGlzdDogTGF6eUxheW91dFBpbm5lZEl0ZW1MaXN0LAopIDogUGlubmFibGVDb250YWluZXIsIFBpbm5hYmxlQ29udGFpbmVyLlBpbm5lZEhhbmRsZSwgTGF6eUxheW91dFBpbm5lZEl0ZW1MaXN0LlBpbm5lZEl0ZW0gewogICAgLyoqIEN1cnJlbnQgaW5kZXggYXNzb2NpYXRlZCB3aXRoIHRoaXMgaXRlbS4gKi8KICAgIG92ZXJyaWRlIHZhciBpbmRleCA9IC0xCgogICAgLyoqCiAgICAgKiBJdCBpcyBhIHZhbGlkIHVzZSBjYXNlIHdoZW4gdXNlcnMgb2YgdGhpcyBjbGFzcyBjYWxsIFtwaW5dIG11bHRpcGxlIHRpbWVzIGluZGl2aWR1YWxseSwgc28gd2UKICAgICAqIHdhbnQgdG8gZG8gdGhlIHVucGlubmluZyBvbmx5IHdoZW4gYWxsIG9mIHRoZSB1c2VycyBjYWxsZWQgW3JlbGVhc2VdLgogICAgICovCiAgICBwcml2YXRlIHZhciBwaW5zQ291bnQgPSAwCgogICAgLyoqIEhhbmRsZSBhc3NvY2lhdGVkIHdpdGggdGhlIGN1cnJlbnQgW3BhcmVudFBpbm5hYmxlQ29udGFpbmVyXS4gKi8KICAgIHByaXZhdGUgdmFyIHBhcmVudEhhbmRsZTogUGlubmFibGVDb250YWluZXIuUGlubmVkSGFuZGxlPyA9IG51bGwKCiAgICBwcml2YXRlIHZhciBpc0Rpc3Bvc2VkID0gZmFsc2UKCiAgICAvKioKICAgICAqIEN1cnJlbnQgcGFyZW50IFtQaW5uYWJsZUNvbnRhaW5lcl0uIE5vdGUgdGhhdCB3ZSBzaG91bGQgY29ycmVjdGx5IHJlLXBpbiBpZiB3ZSBwaW5uZWQgdGhlCiAgICAgKiBwcmV2aW91cyBjb250YWluZXIuCiAgICAgKi8KICAgIHByaXZhdGUgdmFyIF9wYXJlbnRQaW5uYWJsZUNvbnRhaW5lciBieSBtdXRhYmxlU3RhdGVPZjxQaW5uYWJsZUNvbnRhaW5lcj8+KG51bGwpCiAgICB2YXIgcGFyZW50UGlubmFibGVDb250YWluZXI6IFBpbm5hYmxlQ29udGFpbmVyPwogICAgICAgIGdldCgpID0gX3BhcmVudFBpbm5hYmxlQ29udGFpbmVyCiAgICAgICAgc2V0KHZhbHVlKSB7CiAgICAgICAgICAgIFNuYXBzaG90LndpdGhvdXRSZWFkT2JzZXJ2YXRpb24gewogICAgICAgICAgICAgICAgdmFsIHByZXZpb3VzID0gX3BhcmVudFBpbm5hYmxlQ29udGFpbmVyCiAgICAgICAgICAgICAgICBpZiAodmFsdWUgIT09IHByZXZpb3VzKSB7CiAgICAgICAgICAgICAgICAgICAgX3BhcmVudFBpbm5hYmxlQ29udGFpbmVyID0gdmFsdWUKICAgICAgICAgICAgICAgICAgICBpZiAocGluc0NvdW50ID4gMCkgewogICAgICAgICAgICAgICAgICAgICAgICBwYXJlbnRIYW5kbGU/LnJlbGVhc2UoKQogICAgICAgICAgICAgICAgICAgICAgICBwYXJlbnRIYW5kbGUgPSB2YWx1ZT8ucGluKCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHBpbigpOiBQaW5uYWJsZUNvbnRhaW5lci5QaW5uZWRIYW5kbGUgewogICAgICAgIGNoZWNrUHJlY29uZGl0aW9uKCFpc0Rpc3Bvc2VkKSB7ICJQaW4gc2hvdWxkIG5vdCBiZSBjYWxsZWQgb24gYW4gYWxyZWFkeSBkaXNwb3NlZCBpdGVtICIgfQogICAgICAgIGlmIChwaW5zQ291bnQgPT0gMCkgewogICAgICAgICAgICBwaW5uZWRJdGVtTGlzdC5waW4odGhpcykKICAgICAgICAgICAgcGFyZW50SGFuZGxlID0gcGFyZW50UGlubmFibGVDb250YWluZXI/LnBpbigpCiAgICAgICAgfQogICAgICAgIHBpbnNDb3VudCsrCiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gcmVsZWFzZSgpIHsKICAgICAgICBpZiAoaXNEaXNwb3NlZCkgcmV0dXJuIC8vIGFscmVhZHkgZHVyaW5nIGl0ZW0gZGlzcG9zYWwuCiAgICAgICAgY2hlY2tQcmVjb25kaXRpb24ocGluc0NvdW50ID4gMCkgeyAiUmVsZWFzZSBzaG91bGQgb25seSBiZSBjYWxsZWQgb25jZSIgfQogICAgICAgIHBpbnNDb3VudC0tCiAgICAgICAgaWYgKHBpbnNDb3VudCA9PSAwKSB7CiAgICAgICAgICAgIHBpbm5lZEl0ZW1MaXN0LnJlbGVhc2UodGhpcykKICAgICAgICAgICAgcGFyZW50SGFuZGxlPy5yZWxlYXNlKCkKICAgICAgICAgICAgcGFyZW50SGFuZGxlID0gbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBmdW4gb25EaXNwb3NlZCgpIHsKICAgICAgICBpc0Rpc3Bvc2VkID0gdHJ1ZQogICAgfQp9Cg==
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.internal.checkPrecondition
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.snapshots.Snapshot
+import androidx.compose.runtime.snapshots.SnapshotStateList
+import androidx.compose.ui.layout.LocalPinnableContainer
+import androidx.compose.ui.layout.PinnableContainer
+
+/**
+ * Wrapper supporting [PinnableContainer] in lazy layout items. Each pinned item is considered
+ * important to keep alive even if it would be discarded otherwise.
+ *
+ * @param key key of the item inside the lazy layout
+ * @param index index of the item inside the lazy layout
+ * @param pinnedItemList container of currently pinned items
+ * @param content inner content of this item
+ *
+ * Note: this function is a part of [LazyLayout] harness that allows for building custom lazy
+ * layouts. LazyLayout and all corresponding APIs are still under development and are subject to
+ * change.
+ */
+@Composable
+fun LazyLayoutPinnableItem(
+    key: Any?,
+    index: Int,
+    pinnedItemList: LazyLayoutPinnedItemList,
+    content: @Composable () -> Unit,
+) {
+    val pinnableItem = remember(key, pinnedItemList) { LazyLayoutPinnableItem(key, pinnedItemList) }
+    pinnableItem.index = index
+    pinnableItem.parentPinnableContainer = LocalPinnableContainer.current
+    DisposableEffect(pinnableItem) { onDispose { pinnableItem.onDisposed() } }
+    CompositionLocalProvider(LocalPinnableContainer provides pinnableItem, content = content)
+}
+
+/**
+ * Read-only list of pinned items in a lazy layout. The items are modified internally by the
+ * [PinnableContainer] consumers, for example if something inside item content is focused.
+ *
+ * Note: this class is a part of [LazyLayout] harness that allows for building custom lazy layouts.
+ * LazyLayout and all corresponding APIs are still under development and are subject to change.
+ */
+class LazyLayoutPinnedItemList private constructor(private val items: MutableList<PinnedItem>) :
+    List<LazyLayoutPinnedItemList.PinnedItem> by items {
+    constructor() : this(SnapshotStateList())
+
+    internal fun pin(item: PinnedItem) {
+        items.add(item)
+    }
+
+    internal fun release(item: PinnedItem) {
+        items.remove(item)
+    }
+
+    /**
+     * Item pinned in a lazy layout. Pinned item should be always measured and laid out, even if the
+     * item is beyond the boundaries of the layout.
+     *
+     * Note: this interface is a part of [LazyLayout] harness that allows for building custom lazy
+     * layouts. LazyLayout and all corresponding APIs are still under development and are subject to
+     * change.
+     */
+    sealed interface PinnedItem {
+        /** Key of the pinned item. */
+        val key: Any?
+
+        /**
+         * Last known index of the pinned item. Note: it is possible for index to change during
+         * lifetime of the object.
+         */
+        val index: Int
+    }
+}
+
+private class LazyLayoutPinnableItem(
+    override val key: Any?,
+    private val pinnedItemList: LazyLayoutPinnedItemList,
+) : PinnableContainer, PinnableContainer.PinnedHandle, LazyLayoutPinnedItemList.PinnedItem {
+    /** Current index associated with this item. */
+    override var index = -1
+
+    /**
+     * It is a valid use case when users of this class call [pin] multiple times individually, so we
+     * want to do the unpinning only when all of the users called [release].
+     */
+    private var pinsCount = 0
+
+    /** Handle associated with the current [parentPinnableContainer]. */
+    private var parentHandle: PinnableContainer.PinnedHandle? = null
+
+    private var isDisposed = false
+
+    /**
+     * Current parent [PinnableContainer]. Note that we should correctly re-pin if we pinned the
+     * previous container.
+     */
+    private var _parentPinnableContainer by mutableStateOf<PinnableContainer?>(null)
+    var parentPinnableContainer: PinnableContainer?
+        get() = _parentPinnableContainer
+        set(value) {
+            Snapshot.withoutReadObservation {
+                val previous = _parentPinnableContainer
+                if (value !== previous) {
+                    _parentPinnableContainer = value
+                    if (pinsCount > 0) {
+                        parentHandle?.release()
+                        parentHandle = value?.pin()
+                    }
+                }
+            }
+        }
+
+    override fun pin(): PinnableContainer.PinnedHandle {
+        checkPrecondition(!isDisposed) { "Pin should not be called on an already disposed item " }
+        if (pinsCount == 0) {
+            pinnedItemList.pin(this)
+            parentHandle = parentPinnableContainer?.pin()
+        }
+        pinsCount++
+        return this
+    }
+
+    override fun release() {
+        if (isDisposed) return // already during item disposal.
+        checkPrecondition(pinsCount > 0) { "Release should only be called once" }
+        pinsCount--
+        if (pinsCount == 0) {
+            pinnedItemList.release(this)
+            parentHandle?.release()
+            parentHandle = null
+        }
+    }
+
+    fun onDisposed() {
+        isDisposed = true
+    }
+}

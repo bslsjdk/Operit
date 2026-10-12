@@ -1,1 +1,41 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5TdGFibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdE1lc3NhZ2UKCkBTdGFibGUKY2xhc3MgQ2hhdE1lc3NhZ2VIZWlnaHRNZW1vcnkgewogICAgcHJpdmF0ZSB2YWwgbWVhc3VyZWRIZWlnaHRzUHggPSBsaW5rZWRNYXBPZjxMb25nLCBJbnQ+KCkKCiAgICBmdW4gdXBkYXRlTWVhc3VyZWQobWVzc2FnZUlkOiBMb25nLCBoZWlnaHRQeDogSW50KSB7CiAgICAgICAgaWYgKGhlaWdodFB4IDw9IDApIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIG1lYXN1cmVkSGVpZ2h0c1B4W21lc3NhZ2VJZF0gPSBoZWlnaHRQeAogICAgfQoKICAgIGZ1biBwcnVuZSh2YWxpZE1lc3NhZ2VJZHM6IFNldDxMb25nPikgewogICAgICAgIHZhbCBpdGVyYXRvciA9IG1lYXN1cmVkSGVpZ2h0c1B4LmVudHJpZXMuaXRlcmF0b3IoKQogICAgICAgIHdoaWxlIChpdGVyYXRvci5oYXNOZXh0KCkpIHsKICAgICAgICAgICAgaWYgKGl0ZXJhdG9yLm5leHQoKS5rZXkgIWluIHZhbGlkTWVzc2FnZUlkcykgewogICAgICAgICAgICAgICAgaXRlcmF0b3IucmVtb3ZlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKZnVuIHJlbWVtYmVyQ2hhdE1lc3NhZ2VIZWlnaHRNZW1vcnkobWVzc2FnZXM6IExpc3Q8Q2hhdE1lc3NhZ2U+KTogQ2hhdE1lc3NhZ2VIZWlnaHRNZW1vcnkgewogICAgdmFsIGhlaWdodE1lbW9yeSA9IHJlbWVtYmVyIHsgQ2hhdE1lc3NhZ2VIZWlnaHRNZW1vcnkoKSB9CiAgICB2YWwgdmFsaWRNZXNzYWdlSWRzID0KICAgICAgICBtZXNzYWdlcwogICAgICAgICAgICAuYXNTZXF1ZW5jZSgpCiAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5zZW5kZXIgPT0gImFpIiB9CiAgICAgICAgICAgIC5tYXAgeyBpdC50aW1lc3RhbXAgfQogICAgICAgICAgICAudG9TZXQoKQoKICAgIGhlaWdodE1lbW9yeS5wcnVuZSh2YWxpZE1lc3NhZ2VJZHMpCiAgICByZXR1cm4gaGVpZ2h0TWVtb3J5Cn0K
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.Stable
+import androidx.compose.runtime.remember
+import com.bslsjdk.operit.data.model.ChatMessage
+
+@Stable
+class ChatMessageHeightMemory {
+    private val measuredHeightsPx = linkedMapOf<Long, Int>()
+
+    fun updateMeasured(messageId: Long, heightPx: Int) {
+        if (heightPx <= 0) {
+            return
+        }
+        measuredHeightsPx[messageId] = heightPx
+    }
+
+    fun prune(validMessageIds: Set<Long>) {
+        val iterator = measuredHeightsPx.entries.iterator()
+        while (iterator.hasNext()) {
+            if (iterator.next().key !in validMessageIds) {
+                iterator.remove()
+            }
+        }
+    }
+}
+
+@Composable
+fun rememberChatMessageHeightMemory(messages: List<ChatMessage>): ChatMessageHeightMemory {
+    val heightMemory = remember { ChatMessageHeightMemory() }
+    val validMessageIds =
+        messages
+            .asSequence()
+            .filter { it.sender == "ai" }
+            .map { it.timestamp }
+            .toSet()
+
+    heightMemory.prune(validMessageIds)
+    return heightMemory
+}

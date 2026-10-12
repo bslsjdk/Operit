@@ -1,1 +1,80 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnN0eWxlLmN1cnNvcgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DaGF0TWVzc2FnZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5DaGF0TWVzc2FnZUhlaWdodE1lbW9yeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLlN0cmVhbQoKLyoqCiAqIEEgY29tcG9zYWJsZSBmdW5jdGlvbiB0aGF0IHJlbmRlcnMgY2hhdCBtZXNzYWdlcyBpbiBhIEN1cnNvciBJREUgc3R5bGUuIERlbGVnYXRlcyB0byBzcGVjaWFsaXplZAogKiBjb21wb3NhYmxlcyBiYXNlZCBvbiBtZXNzYWdlIHR5cGUuCiAqLwpAQ29tcG9zYWJsZQpmdW4gQ3Vyc29yU3R5bGVDaGF0TWVzc2FnZSgKICAgICAgICBtZXNzYWdlOiBDaGF0TWVzc2FnZSwKICAgICAgICB1c2VyTWVzc2FnZUNvbG9yOiBDb2xvciwKICAgICAgICB1c2VyTWVzc2FnZUxpcXVpZEdsYXNzRW5hYmxlZDogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHVzZXJNZXNzYWdlV2F0ZXJHbGFzc0VuYWJsZWQ6IEJvb2xlYW4gPSBmYWxzZSwKICAgICAgICBhaU1lc3NhZ2VDb2xvcjogQ29sb3IsCiAgICAgICAgdXNlclRleHRDb2xvcjogQ29sb3IsCiAgICAgICAgYWlUZXh0Q29sb3I6IENvbG9yLAogICAgICAgIHN5c3RlbU1lc3NhZ2VDb2xvcjogQ29sb3IsCiAgICAgICAgc3lzdGVtVGV4dENvbG9yOiBDb2xvciwKICAgICAgICB0aGlua2luZ0JhY2tncm91bmRDb2xvcjogQ29sb3IsCiAgICAgICAgdGhpbmtpbmdUZXh0Q29sb3I6IENvbG9yLAogICAgICAgIHN1cHBvcnRUb29sTWFya3VwOiBCb29sZWFuID0gdHJ1ZSwKICAgICAgICBpbml0aWFsVGhpbmtpbmdFeHBhbmRlZDogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIGFsbG93RXhwYW5kZWRUaGlua2luZ0Z1bGxIZWlnaHQ6IEJvb2xlYW4gPSBmYWxzZSwKICAgICAgICBleHBhbmRUaGlua1Rvb2xzR3JvdXBzOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgZm9yY2VTaG93VGhpbmtpbmdQcm9jZXNzOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgb3ZlcnJpZGVTdHJlYW06IFN0cmVhbTxTdHJpbmc+PyA9IG51bGwsCiAgICAgICAgaGVpZ2h0TWVtb3J5OiBDaGF0TWVzc2FnZUhlaWdodE1lbW9yeT8gPSBudWxsLAogICAgICAgIG9uRGVsZXRlTWVzc2FnZTogKChJbnQpIC0+IFVuaXQpPyA9IG51bGwsCiAgICAgICAgaW5kZXg6IEludCA9IC0xLAogICAgICAgIGVuYWJsZURpYWxvZ3M6IEJvb2xlYW4gPSB0cnVlLCAgLy8g5paw5aKe5Y+C5pWw77ya5piv5ZCm5ZCv55So5by556qX5Yqf6IO977yM6buY6K6k5ZCv55SoCiAgICAgICAgb25FZGl0U3VtbWFyeTogKChDaGF0TWVzc2FnZSkgLT4gVW5pdCk/ID0gbnVsbCwKKSB7CiAgICB3aGVuIChtZXNzYWdlLnNlbmRlcikgewogICAgICAgICJ1c2VyIiAtPiB7CiAgICAgICAgICAgIFVzZXJNZXNzYWdlQ29tcG9zYWJsZSgKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gbWVzc2FnZSwKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3IgPSB1c2VyTWVzc2FnZUNvbG9yLAogICAgICAgICAgICAgICAgICAgIGVuYWJsZUxpcXVpZEdsYXNzID0gdXNlck1lc3NhZ2VMaXF1aWRHbGFzc0VuYWJsZWQsCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlV2F0ZXJHbGFzcyA9IHVzZXJNZXNzYWdlV2F0ZXJHbGFzc0VuYWJsZWQsCiAgICAgICAgICAgICAgICAgICAgdGV4dENvbG9yID0gdXNlclRleHRDb2xvciwKICAgICAgICAgICAgICAgICAgICBlbmFibGVEaWFsb2dzID0gZW5hYmxlRGlhbG9ncywKICAgICAgICAgICAgKQogICAgICAgIH0KICAgICAgICAiYWkiIC0+IHsKICAgICAgICAgICAgQWlNZXNzYWdlQ29tcG9zYWJsZSgKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gbWVzc2FnZSwKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3IgPSBhaU1lc3NhZ2VDb2xvciwKICAgICAgICAgICAgICAgICAgICB0ZXh0Q29sb3IgPSBhaVRleHRDb2xvciwKICAgICAgICAgICAgICAgICAgICBpbml0aWFsVGhpbmtpbmdFeHBhbmRlZCA9IGluaXRpYWxUaGlua2luZ0V4cGFuZGVkLAogICAgICAgICAgICAgICAgICAgIGFsbG93RXhwYW5kZWRUaGlua2luZ0Z1bGxIZWlnaHQgPSBhbGxvd0V4cGFuZGVkVGhpbmtpbmdGdWxsSGVpZ2h0LAogICAgICAgICAgICAgICAgICAgIGV4cGFuZFRoaW5rVG9vbHNHcm91cHMgPSBleHBhbmRUaGlua1Rvb2xzR3JvdXBzLAogICAgICAgICAgICAgICAgICAgIGZvcmNlU2hvd1RoaW5raW5nUHJvY2VzcyA9IGZvcmNlU2hvd1RoaW5raW5nUHJvY2VzcywKICAgICAgICAgICAgICAgICAgICBvdmVycmlkZVN0cmVhbSA9IG92ZXJyaWRlU3RyZWFtLAogICAgICAgICAgICAgICAgICAgIGhlaWdodE1lbW9yeSA9IGhlaWdodE1lbW9yeSwKICAgICAgICAgICAgICAgICAgICBlbmFibGVEaWFsb2dzID0gZW5hYmxlRGlhbG9ncywgIC8vIOS8oOmAkuW8ueeql+WQr+eUqOeKtuaAgQogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgICJzdW1tYXJ5IiAtPiB7CiAgICAgICAgICAgIFN1bW1hcnlNZXNzYWdlQ29tcG9zYWJsZSgKICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gbWVzc2FnZSwKICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3IgPSBzeXN0ZW1NZXNzYWdlQ29sb3IuY29weShhbHBoYSA9IDAuN2YpLAogICAgICAgICAgICAgICAgICAgIHRleHRDb2xvciA9IHN5c3RlbVRleHRDb2xvciwKICAgICAgICAgICAgICAgICAgICBvbkRlbGV0ZSA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGluZGV4ICE9IC0xKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkRlbGV0ZU1lc3NhZ2U/Lmludm9rZShpbmRleCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgZW5hYmxlRGlhbG9nID0gZW5hYmxlRGlhbG9ncywgIC8vIOS8oOmAkuW8ueeql+WQr+eUqOeKtuaAgQogICAgICAgICAgICAgICAgICAgIG9uRWRpdCA9IHsgZWRpdGVkTWVzc2FnZSAtPgogICAgICAgICAgICAgICAgICAgICAgICBvbkVkaXRTdW1tYXJ5Py5pbnZva2UoZWRpdGVkTWVzc2FnZSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.chat.components.style.cursor
+
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.ui.features.chat.components.ChatMessageHeightMemory
+import com.bslsjdk.operit.util.stream.Stream
+
+/**
+ * A composable function that renders chat messages in a Cursor IDE style. Delegates to specialized
+ * composables based on message type.
+ */
+@Composable
+fun CursorStyleChatMessage(
+        message: ChatMessage,
+        userMessageColor: Color,
+        userMessageLiquidGlassEnabled: Boolean = false,
+        userMessageWaterGlassEnabled: Boolean = false,
+        aiMessageColor: Color,
+        userTextColor: Color,
+        aiTextColor: Color,
+        systemMessageColor: Color,
+        systemTextColor: Color,
+        thinkingBackgroundColor: Color,
+        thinkingTextColor: Color,
+        supportToolMarkup: Boolean = true,
+        initialThinkingExpanded: Boolean = false,
+        allowExpandedThinkingFullHeight: Boolean = false,
+        expandThinkToolsGroups: Boolean = false,
+        forceShowThinkingProcess: Boolean = false,
+        overrideStream: Stream<String>? = null,
+        heightMemory: ChatMessageHeightMemory? = null,
+        onDeleteMessage: ((Int) -> Unit)? = null,
+        index: Int = -1,
+        enableDialogs: Boolean = true,  // 新增参数：是否启用弹窗功能，默认启用
+        onEditSummary: ((ChatMessage) -> Unit)? = null,
+) {
+    when (message.sender) {
+        "user" -> {
+            UserMessageComposable(
+                    message = message,
+                    backgroundColor = userMessageColor,
+                    enableLiquidGlass = userMessageLiquidGlassEnabled,
+                    enableWaterGlass = userMessageWaterGlassEnabled,
+                    textColor = userTextColor,
+                    enableDialogs = enableDialogs,
+            )
+        }
+        "ai" -> {
+            AiMessageComposable(
+                    message = message,
+                    backgroundColor = aiMessageColor,
+                    textColor = aiTextColor,
+                    initialThinkingExpanded = initialThinkingExpanded,
+                    allowExpandedThinkingFullHeight = allowExpandedThinkingFullHeight,
+                    expandThinkToolsGroups = expandThinkToolsGroups,
+                    forceShowThinkingProcess = forceShowThinkingProcess,
+                    overrideStream = overrideStream,
+                    heightMemory = heightMemory,
+                    enableDialogs = enableDialogs,  // 传递弹窗启用状态
+            )
+        }
+        "summary" -> {
+            SummaryMessageComposable(
+                    message = message,
+                    backgroundColor = systemMessageColor.copy(alpha = 0.7f),
+                    textColor = systemTextColor,
+                    onDelete = {
+                        if (index != -1) {
+                            onDeleteMessage?.invoke(index)
+                        }
+                    },
+                    enableDialog = enableDialogs,  // 传递弹窗启用状态
+                    onEdit = { editedMessage ->
+                        onEditSummary?.invoke(editedMessage)
+                    }
+            )
+        }
+    }
+}

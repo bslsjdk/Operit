@@ -1,1 +1,192 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnN0eWxlLmlucHV0LmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuc3ByaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uY2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0SW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eUNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuaXRlbXNJbmRleGVkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuSG9yaXpvbnRhbERpdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlN1cmZhY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlN3aXRjaAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5zY2FsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5kcmF3LnNoYWRvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5zcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmNvbmZpZy5TeXN0ZW1Ub29sUHJvbXB0cwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuTG9jYWxlVXRpbHMKaW1wb3J0IHNoLmNhbHZpbi5yZW9yZGVyYWJsZS5SZW9yZGVyYWJsZUl0ZW0KaW1wb3J0IHNoLmNhbHZpbi5yZW9yZGVyYWJsZS5yZW1lbWJlclJlb3JkZXJhYmxlTGF6eUxpc3RTdGF0ZQoKQENvbXBvc2FibGUKZnVuIFRvb2xQcm9tcHRNYW5hZ2VyRGlhbG9nKAogICAgdmlzaWJsZTogQm9vbGVhbiwKICAgIHRvb2xQcm9tcHRWaXNpYmlsaXR5OiBNYXA8U3RyaW5nLCBCb29sZWFuPiwKICAgIHRvb2xPcmRlcjogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCksCiAgICBvblNhdmVUb29sUHJvbXB0VmlzaWJpbGl0eU1hcDogKE1hcDxTdHJpbmcsIEJvb2xlYW4+KSAtPiBVbml0LAogICAgb25TYXZlVG9vbE9yZGVyOiAoTGlzdDxTdHJpbmc+KSAtPiBVbml0ID0ge30sCiAgICBvbkRpc21pc3NSZXF1ZXN0OiAoKSAtPiBVbml0LAogICAgb25NYW5hZ2VQYWNrYWdlc0NsaWNrOiAoKSAtPiBVbml0LAopIHsKICAgIGlmICghdmlzaWJsZSkgcmV0dXJuCgogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgdmFsIHVzZUVuZ2xpc2ggPSByZW1lbWJlcihjb250ZXh0KSB7CiAgICAgICAgIUxvY2FsZVV0aWxzLnVzZXNDaGluZXNlQ29udGVudChjb250ZXh0KQogICAgfQogICAgdmFsIG1hbmFnZWFibGVUb29scyA9IHJlbWVtYmVyKHVzZUVuZ2xpc2gsIHRvb2xPcmRlcikgewogICAgICAgIFN5c3RlbVRvb2xQcm9tcHRzLmdldE1hbmFnZWFibGVUb29sUHJvbXB0cyh1c2VFbmdsaXNoLCB0b29sT3JkZXIpCiAgICB9CiAgICB2YXIgbG9jYWxUb29sUHJvbXB0VmlzaWJpbGl0eSBieSByZW1lbWJlcih0b29sUHJvbXB0VmlzaWJpbGl0eSkgewogICAgICAgIG11dGFibGVTdGF0ZU9mKHRvb2xQcm9tcHRWaXNpYmlsaXR5KQogICAgfQoKICAgIC8vIFN0YXRlIGZvciBjdXJyZW50IG9yZGVyZWQgdG9vbHMgZGlzcGxheWVkIGluIHRoZSBsaXN0CiAgICB2YXIgb3JkZXJlZFRvb2xzIGJ5IHJlbWVtYmVyKG1hbmFnZWFibGVUb29scykgewogICAgICAgIG11dGFibGVTdGF0ZU9mKG1hbmFnZWFibGVUb29scykKICAgIH0KCiAgICB2YWwgbGF6eUxpc3RTdGF0ZSA9IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LnJlbWVtYmVyTGF6eUxpc3RTdGF0ZSgpCiAgICB2YWwgcmVvcmRlcmFibGVTdGF0ZSA9IHJlbWVtYmVyUmVvcmRlcmFibGVMYXp5TGlzdFN0YXRlKGxhenlMaXN0U3RhdGUpIHsgZnJvbSwgdG8gLT4KICAgICAgICBvcmRlcmVkVG9vbHMgPSBvcmRlcmVkVG9vbHMudG9NdXRhYmxlTGlzdCgpLmFwcGx5IHsKICAgICAgICAgICAgYWRkKHRvLmluZGV4LCByZW1vdmVBdChmcm9tLmluZGV4KSkKICAgICAgICB9CiAgICAgICAgLy8gUGVyc2lzdCB0aGUgbmV3IG9yZGVyIGltbWVkaWF0ZWx5CiAgICAgICAgdmFsIG5ld09yZGVyID0gb3JkZXJlZFRvb2xzLm1hcCB7IGl0Lm5hbWUgfQogICAgICAgIG9uU2F2ZVRvb2xPcmRlcihuZXdPcmRlcikKICAgIH0KCiAgICBBbGVydERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzUmVxdWVzdCwKICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3NSZXF1ZXN0KSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNvbW1vbl9jbG9zZSkpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIHRpdGxlID0gewogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnRvb2xfcHJvbXB0X21hbmFnZXJfdGl0bGUpLAogICAgICAgICAgICAgICAgZm9udFNpemUgPSAxNi5zcCwKICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQsCiAgICAgICAgICAgICkKICAgICAgICB9LAogICAgICAgIHRleHQgPSB7CiAgICAgICAgICAgIExhenlDb2x1bW4oCiAgICAgICAgICAgICAgICBzdGF0ZSA9IGxhenlMaXN0U3RhdGUsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgLmhlaWdodEluKG1heCA9IDQyMC5kcCksCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgaXRlbXNJbmRleGVkKAogICAgICAgICAgICAgICAgICAgIGl0ZW1zID0gb3JkZXJlZFRvb2xzLAogICAgICAgICAgICAgICAgICAgIGtleSA9IHsgXywgdG9vbCAtPiB0b29sLm5hbWUgfQogICAgICAgICAgICAgICAgKSB7IGluZGV4LCB0b29sIC0+CiAgICAgICAgICAgICAgICAgICAgUmVvcmRlcmFibGVJdGVtKAogICAgICAgICAgICAgICAgICAgICAgICByZW9yZGVyYWJsZVN0YXRlLAogICAgICAgICAgICAgICAgICAgICAgICBrZXkgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGVJdGVtTW9kaWZpZXIgPSBNb2RpZmllci5hbmltYXRlSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZhZGVJblNwZWMgPSBzcHJpbmcoc3RpZmZuZXNzID0gYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5TcHJpbmcuU3RpZmZuZXNzTWVkaXVtTG93KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlbWVudFNwZWMgPSBzcHJpbmcoc3RpZmZuZXNzID0gYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5TcHJpbmcuU3RpZmZuZXNzTWVkaXVtTG93KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZhZGVPdXRTcGVjID0gc3ByaW5nKHN0aWZmbmVzcyA9IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuU3ByaW5nLlN0aWZmbmVzc01lZGl1bUxvdykKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICkgeyBpc0RyYWdnaW5nIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBpc1Zpc2libGUgPSBsb2NhbFRvb2xQcm9tcHRWaXNpYmlsaXR5W3Rvb2wubmFtZV0gPzogdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZWxldmF0aW9uID0gaWYgKGlzRHJhZ2dpbmcpIDguZHAgZWxzZSAwLmRwCiAgICAgICAgICAgICAgICAgICAgICAgIFN1cmZhY2UoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnRoZW4oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0RyYWdnaW5nKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllci5zaGFkb3coZWxldmF0aW9uLCBSb3VuZGVkQ29ybmVyU2hhcGUoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYXBlID0gUm91bmRlZENvcm5lclNoYXBlKDguZHApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBpZiAoaXNEcmFnZ2luZykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZVZhcmlhbnQuY29weShhbHBoYSA9IDAuNWYpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBMb25nLXByZXNzIGFueXdoZXJlIG9uIHRoZSByb3cgdG8gZHJhZy1yZW9yZGVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmxvbmdQcmVzc0RyYWdnYWJsZUhhbmRsZSgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKHZlcnRpY2FsID0gMi5kcCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENvbHVtbihtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZSA9IDEzLnNwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHRvb2wuY2F0ZWdvcnlOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemUgPSAxMS5zcCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFN3aXRjaCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2hlY2tlZCA9IGlzVmlzaWJsZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGVja2VkQ2hhbmdlID0geyBjaGVja2VkIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgdXBkYXRlZCA9IGxvY2FsVG9vbFByb21wdFZpc2liaWxpdHkgKyAodG9vbC5uYW1lIHRvIGNoZWNrZWQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2NhbFRvb2xQcm9tcHRWaXNpYmlsaXR5ID0gdXBkYXRlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25TYXZlVG9vbFByb21wdFZpc2liaWxpdHlNYXAodXBkYXRlZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zY2FsZSgwLjhmKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGluZGV4IDwgb3JkZXJlZFRvb2xzLmxhc3RJbmRleCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgSG9yaXpvbnRhbERpdmlkZXIoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGhpY2tuZXNzID0gMC41LmRwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50LmNvcHkoYWxwaGEgPSAwLjJmKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpdGVtIHsKICAgICAgICAgICAgICAgICAgICBCb3goCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhlaWdodCgzNC5kcCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jbGlja2FibGUob25DbGljayA9IG9uTWFuYWdlUGFja2FnZXNDbGljayksCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnRBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyLAogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1hbmFnZV9wYWNrYWdlcyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplID0gMTMuc3AsCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgKQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components.style.input.common
+
+import androidx.compose.animation.core.spring
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Switch
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.config.SystemToolPrompts
+import com.bslsjdk.operit.util.LocaleUtils
+import sh.calvin.reorderable.ReorderableItem
+import sh.calvin.reorderable.rememberReorderableLazyListState
+
+@Composable
+fun ToolPromptManagerDialog(
+    visible: Boolean,
+    toolPromptVisibility: Map<String, Boolean>,
+    toolOrder: List<String> = emptyList(),
+    onSaveToolPromptVisibilityMap: (Map<String, Boolean>) -> Unit,
+    onSaveToolOrder: (List<String>) -> Unit = {},
+    onDismissRequest: () -> Unit,
+    onManagePackagesClick: () -> Unit,
+) {
+    if (!visible) return
+
+    val context = LocalContext.current
+    val useEnglish = remember(context) {
+        !LocaleUtils.usesChineseContent(context)
+    }
+    val manageableTools = remember(useEnglish, toolOrder) {
+        SystemToolPrompts.getManageableToolPrompts(useEnglish, toolOrder)
+    }
+    var localToolPromptVisibility by remember(toolPromptVisibility) {
+        mutableStateOf(toolPromptVisibility)
+    }
+
+    // State for current ordered tools displayed in the list
+    var orderedTools by remember(manageableTools) {
+        mutableStateOf(manageableTools)
+    }
+
+    val lazyListState = androidx.compose.foundation.lazy.rememberLazyListState()
+    val reorderableState = rememberReorderableLazyListState(lazyListState) { from, to ->
+        orderedTools = orderedTools.toMutableList().apply {
+            add(to.index, removeAt(from.index))
+        }
+        // Persist the new order immediately
+        val newOrder = orderedTools.map { it.name }
+        onSaveToolOrder(newOrder)
+    }
+
+    AlertDialog(
+        onDismissRequest = onDismissRequest,
+        confirmButton = {
+            TextButton(onClick = onDismissRequest) {
+                Text(stringResource(R.string.common_close))
+            }
+        },
+        title = {
+            Text(
+                text = stringResource(R.string.tool_prompt_manager_title),
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+            )
+        },
+        text = {
+            LazyColumn(
+                state = lazyListState,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .heightIn(max = 420.dp),
+            ) {
+                itemsIndexed(
+                    items = orderedTools,
+                    key = { _, tool -> tool.name }
+                ) { index, tool ->
+                    ReorderableItem(
+                        reorderableState,
+                        key = tool.name,
+                        animateItemModifier = Modifier.animateItem(
+                            fadeInSpec = spring(stiffness = androidx.compose.animation.core.Spring.StiffnessMediumLow),
+                            placementSpec = spring(stiffness = androidx.compose.animation.core.Spring.StiffnessMediumLow),
+                            fadeOutSpec = spring(stiffness = androidx.compose.animation.core.Spring.StiffnessMediumLow)
+                        )
+                    ) { isDragging ->
+                        val isVisible = localToolPromptVisibility[tool.name] ?: true
+                        val elevation = if (isDragging) 8.dp else 0.dp
+                        Surface(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .then(
+                                    if (isDragging) {
+                                        Modifier.shadow(elevation, RoundedCornerShape(8.dp))
+                                    } else {
+                                        Modifier
+                                    }
+                                ),
+                            shape = RoundedCornerShape(8.dp),
+                            color = if (isDragging) {
+                                MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+                            } else {
+                                MaterialTheme.colorScheme.surface
+                            },
+                        ) {
+                            // Long-press anywhere on the row to drag-reorder
+                            Row(
+                                modifier = Modifier
+                                    .fillMaxWidth()
+                                    .longPressDraggableHandle()
+                                    .padding(vertical = 2.dp),
+                                verticalAlignment = Alignment.CenterVertically,
+                            ) {
+                                Column(modifier = Modifier.weight(1f)) {
+                                    Text(
+                                        text = tool.name,
+                                        fontSize = 13.sp,
+                                        fontWeight = FontWeight.Medium,
+                                        color = MaterialTheme.colorScheme.onSurface,
+                                    )
+                                    Text(
+                                        text = tool.categoryName,
+                                        fontSize = 11.sp,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    )
+                                }
+                                Switch(
+                                    checked = isVisible,
+                                    onCheckedChange = { checked ->
+                                        val updated = localToolPromptVisibility + (tool.name to checked)
+                                        localToolPromptVisibility = updated
+                                        onSaveToolPromptVisibilityMap(updated)
+                                    },
+                                    modifier = Modifier.scale(0.8f),
+                                )
+                            }
+                        }
+                        if (index < orderedTools.lastIndex) {
+                            HorizontalDivider(
+                                thickness = 0.5.dp,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.2f),
+                            )
+                        }
+                    }
+                }
+
+                item {
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .height(34.dp)
+                            .clickable(onClick = onManagePackagesClick),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        Text(
+                            text = stringResource(R.string.manage_packages),
+                            color = MaterialTheme.colorScheme.primary,
+                            fontSize = 13.sp,
+                        )
+                    }
+                }
+            }
+        },
+    )
+}

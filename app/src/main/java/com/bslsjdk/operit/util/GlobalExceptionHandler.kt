@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZXJyb3IuQ3Jhc2hSZXBvcnRBY3Rpdml0eQppbXBvcnQga290bGluLnN5c3RlbS5leGl0UHJvY2VzcwoKY2xhc3MgR2xvYmFsRXhjZXB0aW9uSGFuZGxlcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IFRocmVhZC5VbmNhdWdodEV4Y2VwdGlvbkhhbmRsZXIgewoKICAgIG92ZXJyaWRlIGZ1biB1bmNhdWdodEV4Y2VwdGlvbih0aHJlYWQ6IFRocmVhZCwgZXg6IFRocm93YWJsZSkgewogICAgICAgIENyYXNoUmVjb3ZlcnlTdGF0ZS5tYXJrUGVuZGluZ0NyYXNoUmVwb3J0TGF1bmNoKGNvbnRleHQpCiAgICAgICAgdmFsIHN0YWNrVHJhY2UgPSBUaHJvd2FibGVUZXh0Rm9ybWF0dGVyLmZvcm1hdChleCkKCiAgICAgICAgdmFsIGludGVudCA9CiAgICAgICAgICAgICAgICBJbnRlbnQoY29udGV4dCwgQ3Jhc2hSZXBvcnRBY3Rpdml0eTo6Y2xhc3MuamF2YSkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgIHB1dEV4dHJhKENyYXNoUmVwb3J0QWN0aXZpdHkuRVhUUkFfU1RBQ0tfVFJBQ0UsIHN0YWNrVHJhY2UpCiAgICAgICAgICAgICAgICAgICAgYWRkRmxhZ3MoSW50ZW50LkZMQUdfQUNUSVZJVFlfTkVXX1RBU0sgb3IgSW50ZW50LkZMQUdfQUNUSVZJVFlfQ0xFQVJfVEFTSykKICAgICAgICAgICAgICAgIH0KICAgICAgICBjb250ZXh0LnN0YXJ0QWN0aXZpdHkoaW50ZW50KQoKICAgICAgICAvLyDnu4jmraLlvZPliY3ov5vnqIsKICAgICAgICBleGl0UHJvY2VzcygxKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.ui.error.CrashReportActivity
+import kotlin.system.exitProcess
+
+class GlobalExceptionHandler(private val context: Context) : Thread.UncaughtExceptionHandler {
+
+    override fun uncaughtException(thread: Thread, ex: Throwable) {
+        CrashRecoveryState.markPendingCrashReportLaunch(context)
+        val stackTrace = ThrowableTextFormatter.format(ex)
+
+        val intent =
+                Intent(context, CrashReportActivity::class.java).apply {
+                    putExtra(CrashReportActivity.EXTRA_STACK_TRACE, stackTrace)
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+                }
+        context.startActivity(intent)
+
+        // 终止当前进程
+        exitProcess(1)
+    }
+}

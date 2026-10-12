@@ -1,1 +1,117 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5CdWlsZENvbmZpZwoKaW50ZXJuYWwgZGF0YSBjbGFzcyBUb29sUGtnQXBpVmVyc2lvbigKICAgIHZhbCBtYWpvcjogSW50LAogICAgdmFsIG1pbm9yOiBJbnQsCiAgICB2YWwgcGF0Y2g6IEludAopIDogQ29tcGFyYWJsZTxUb29sUGtnQXBpVmVyc2lvbj4gewogICAgb3ZlcnJpZGUgZnVuIGNvbXBhcmVUbyhvdGhlcjogVG9vbFBrZ0FwaVZlcnNpb24pOiBJbnQgewogICAgICAgIHJldHVybiBjb21wYXJlVmFsdWVzQnkoCiAgICAgICAgICAgIHRoaXMsCiAgICAgICAgICAgIG90aGVyLAogICAgICAgICAgICBUb29sUGtnQXBpVmVyc2lvbjo6bWFqb3IsCiAgICAgICAgICAgIFRvb2xQa2dBcGlWZXJzaW9uOjptaW5vciwKICAgICAgICAgICAgVG9vbFBrZ0FwaVZlcnNpb246OnBhdGNoCiAgICAgICAgKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biB0b1N0cmluZygpOiBTdHJpbmcgPSAiJG1ham9yLiRtaW5vci4kcGF0Y2giCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSB2YWwgVkVSU0lPTl9QQVRURVJOID0gUmVnZXgoIl4oXFxkKylcXC4oXFxkKylcXC4oXFxkKykkIikKCiAgICAgICAgZnVuIHBhcnNlKHZhbHVlOiBTdHJpbmcpOiBUb29sUGtnQXBpVmVyc2lvbiB7CiAgICAgICAgICAgIHZhbCBub3JtYWxpemVkID0gdmFsdWUudHJpbSgpCiAgICAgICAgICAgIHZhbCBtYXRjaCA9IFZFUlNJT05fUEFUVEVSTi5tYXRjaEVudGlyZShub3JtYWxpemVkKQogICAgICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKAogICAgICAgICAgICAgICAgICAgICJUb29sUGtnIEFQSSB2ZXJzaW9uIG11c3QgdXNlIG1ham9yLm1pbm9yLnBhdGNoIGZvcm1hdDogJyR2YWx1ZSciCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybiBUb29sUGtnQXBpVmVyc2lvbigKICAgICAgICAgICAgICAgIG1ham9yID0gbWF0Y2guZ3JvdXBWYWx1ZXNbMV0udG9JbnQoKSwKICAgICAgICAgICAgICAgIG1pbm9yID0gbWF0Y2guZ3JvdXBWYWx1ZXNbMl0udG9JbnQoKSwKICAgICAgICAgICAgICAgIHBhdGNoID0gbWF0Y2guZ3JvdXBWYWx1ZXNbM10udG9JbnQoKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cgpwcml2YXRlIGRhdGEgY2xhc3MgT3Blcml0VmVyc2lvbigKICAgIHZhbCBtYWpvcjogSW50LAogICAgdmFsIG1pbm9yOiBJbnQsCiAgICB2YWwgcGF0Y2g6IEludCwKICAgIHZhbCBidWlsZDogSW50CikgOiBDb21wYXJhYmxlPE9wZXJpdFZlcnNpb24+IHsKICAgIG92ZXJyaWRlIGZ1biBjb21wYXJlVG8ob3RoZXI6IE9wZXJpdFZlcnNpb24pOiBJbnQgewogICAgICAgIHJldHVybiBjb21wYXJlVmFsdWVzQnkoCiAgICAgICAgICAgIHRoaXMsCiAgICAgICAgICAgIG90aGVyLAogICAgICAgICAgICBPcGVyaXRWZXJzaW9uOjptYWpvciwKICAgICAgICAgICAgT3Blcml0VmVyc2lvbjo6bWlub3IsCiAgICAgICAgICAgIE9wZXJpdFZlcnNpb246OnBhdGNoLAogICAgICAgICAgICBPcGVyaXRWZXJzaW9uOjpidWlsZAogICAgICAgICkKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIHZhbCBWRVJTSU9OX1BBVFRFUk4gPSBSZWdleCgiXihcXGQrKVxcLihcXGQrKVxcLihcXGQrKSg/OlxcKyhcXGQrKSk/JCIpCgogICAgICAgIGZ1biBwYXJzZSh2YWx1ZTogU3RyaW5nKTogT3Blcml0VmVyc2lvbiB7CiAgICAgICAgICAgIHZhbCBub3JtYWxpemVkID0gdmFsdWUudHJpbSgpCiAgICAgICAgICAgIHZhbCBtYXRjaCA9IFZFUlNJT05fUEFUVEVSTi5tYXRjaEVudGlyZShub3JtYWxpemVkKQogICAgICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJPcGVyaXQgdmVyc2lvbiBpcyBub3Qgc3VwcG9ydGVkOiAnJHZhbHVlJyIpCiAgICAgICAgICAgIHJldHVybiBPcGVyaXRWZXJzaW9uKAogICAgICAgICAgICAgICAgbWFqb3IgPSBtYXRjaC5ncm91cFZhbHVlc1sxXS50b0ludCgpLAogICAgICAgICAgICAgICAgbWlub3IgPSBtYXRjaC5ncm91cFZhbHVlc1syXS50b0ludCgpLAogICAgICAgICAgICAgICAgcGF0Y2ggPSBtYXRjaC5ncm91cFZhbHVlc1szXS50b0ludCgpLAogICAgICAgICAgICAgICAgYnVpbGQgPSBtYXRjaC5ncm91cFZhbHVlc1s0XS50YWtlSWYoU3RyaW5nOjppc05vdEVtcHR5KT8udG9JbnQoKSA/OiAwCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCmludGVybmFsIG9iamVjdCBUb29sUGtnQXBpQ29tcGF0aWJpbGl0eSB7CiAgICBjb25zdCB2YWwgTEVHQUNZX0FQSV9WRVJTSU9OID0gIjEuMC4wIgogICAgY29uc3QgdmFsIEFQSV9WRVJTSU9OXzFfMF8xID0gIjEuMC4xIgogICAgY29uc3QgdmFsIEFQSV9WRVJTSU9OXzFfMF8xX0lOVFJPRFVDRURfSU5fT1BFUklUID0gIjEuMTIuMSs0IgoKICAgIHByaXZhdGUgdmFsIGxlZ2FjeUFwaVZlcnNpb24gPSBUb29sUGtnQXBpVmVyc2lvbi5wYXJzZShMRUdBQ1lfQVBJX1ZFUlNJT04pCiAgICBwcml2YXRlIHZhbCBhcGlWZXJzaW9uMTAxID0gVG9vbFBrZ0FwaVZlcnNpb24ucGFyc2UoQVBJX1ZFUlNJT05fMV8wXzEpCiAgICBwcml2YXRlIHZhbCBhcGlWZXJzaW9uMTAxSW50cm9kdWNlZEluID0KICAgICAgICBPcGVyaXRWZXJzaW9uLnBhcnNlKEFQSV9WRVJTSU9OXzFfMF8xX0lOVFJPRFVDRURfSU5fT1BFUklUKQoKICAgIGZ1biBwYXJzZURlY2xhcmVkQXBpVmVyc2lvbihhcGlWZXJzaW9uOiBTdHJpbmcpOiBUb29sUGtnQXBpVmVyc2lvbiB7CiAgICAgICAgcmV0dXJuIFRvb2xQa2dBcGlWZXJzaW9uLnBhcnNlKGFwaVZlcnNpb24udHJpbSgpLmlmQmxhbmsgeyBMRUdBQ1lfQVBJX1ZFUlNJT04gfSkKICAgIH0KCiAgICBmdW4gc3VwcG9ydGVkQXBpVmVyc2lvbnMob3Blcml0VmVyc2lvbjogU3RyaW5nID0gQnVpbGRDb25maWcuVkVSU0lPTl9OQU1FKTogTGlzdDxUb29sUGtnQXBpVmVyc2lvbj4gewogICAgICAgIHZhbCBjdXJyZW50VmVyc2lvbiA9IE9wZXJpdFZlcnNpb24ucGFyc2Uob3Blcml0VmVyc2lvbikKICAgICAgICByZXR1cm4gYnVpbGRMaXN0IHsKICAgICAgICAgICAgYWRkKGxlZ2FjeUFwaVZlcnNpb24pCiAgICAgICAgICAgIGlmIChjdXJyZW50VmVyc2lvbiA+PSBhcGlWZXJzaW9uMTAxSW50cm9kdWNlZEluKSB7CiAgICAgICAgICAgICAgICBhZGQoYXBpVmVyc2lvbjEwMSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gc3VwcG9ydGVkQXBpVmVyc2lvblRleHQob3Blcml0VmVyc2lvbjogU3RyaW5nID0gQnVpbGRDb25maWcuVkVSU0lPTl9OQU1FKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gc3VwcG9ydGVkQXBpVmVyc2lvbnMob3Blcml0VmVyc2lvbikuam9pblRvU3RyaW5nKCIsICIpCiAgICB9CgogICAgZnVuIHJlcXVpcmVTdXBwb3J0ZWQoCiAgICAgICAgYXBpVmVyc2lvbjogU3RyaW5nLAogICAgICAgIG9wZXJpdFZlcnNpb246IFN0cmluZyA9IEJ1aWxkQ29uZmlnLlZFUlNJT05fTkFNRQogICAgKTogVG9vbFBrZ0FwaVZlcnNpb24gewogICAgICAgIHZhbCBkZWNsYXJlZFZlcnNpb24gPSBwYXJzZURlY2xhcmVkQXBpVmVyc2lvbihhcGlWZXJzaW9uKQogICAgICAgIHZhbCBzdXBwb3J0ZWRWZXJzaW9ucyA9IHN1cHBvcnRlZEFwaVZlcnNpb25zKG9wZXJpdFZlcnNpb24pCiAgICAgICAgcmVxdWlyZShkZWNsYXJlZFZlcnNpb24gaW4gc3VwcG9ydGVkVmVyc2lvbnMpIHsKICAgICAgICAgICAgIlRvb2xQa2cgQVBJIHZlcnNpb24gJyRkZWNsYXJlZFZlcnNpb24nIGlzIG5vdCBzdXBwb3J0ZWQgYnkgT3Blcml0ICRvcGVyaXRWZXJzaW9uLiAiICsKICAgICAgICAgICAgICAgICJTdXBwb3J0ZWQgVG9vbFBrZyBBUEkgdmVyc2lvbnM6ICR7c3VwcG9ydGVkVmVyc2lvbnMuam9pblRvU3RyaW5nKCIsICIpfS4gIiArCiAgICAgICAgICAgICAgICAiVG9vbFBrZyBBUEkgJEFQSV9WRVJTSU9OXzFfMF8xIHJlcXVpcmVzIE9wZXJpdCAiICsKICAgICAgICAgICAgICAgICIkQVBJX1ZFUlNJT05fMV8wXzFfSU5UUk9EVUNFRF9JTl9PUEVSSVQgb3IgbmV3ZXIuIgogICAgICAgIH0KICAgICAgICByZXR1cm4gZGVjbGFyZWRWZXJzaW9uCiAgICB9Cgp9Cg==
+package com.bslsjdk.operit.core.tools.packTool
+
+import com.bslsjdk.operit.BuildConfig
+
+internal data class ToolPkgApiVersion(
+    val major: Int,
+    val minor: Int,
+    val patch: Int
+) : Comparable<ToolPkgApiVersion> {
+    override fun compareTo(other: ToolPkgApiVersion): Int {
+        return compareValuesBy(
+            this,
+            other,
+            ToolPkgApiVersion::major,
+            ToolPkgApiVersion::minor,
+            ToolPkgApiVersion::patch
+        )
+    }
+
+    override fun toString(): String = "$major.$minor.$patch"
+
+    companion object {
+        private val VERSION_PATTERN = Regex("^(\\d+)\\.(\\d+)\\.(\\d+)$")
+
+        fun parse(value: String): ToolPkgApiVersion {
+            val normalized = value.trim()
+            val match = VERSION_PATTERN.matchEntire(normalized)
+                ?: throw IllegalArgumentException(
+                    "ToolPkg API version must use major.minor.patch format: '$value'"
+                )
+            return ToolPkgApiVersion(
+                major = match.groupValues[1].toInt(),
+                minor = match.groupValues[2].toInt(),
+                patch = match.groupValues[3].toInt()
+            )
+        }
+    }
+}
+
+private data class OperitVersion(
+    val major: Int,
+    val minor: Int,
+    val patch: Int,
+    val build: Int
+) : Comparable<OperitVersion> {
+    override fun compareTo(other: OperitVersion): Int {
+        return compareValuesBy(
+            this,
+            other,
+            OperitVersion::major,
+            OperitVersion::minor,
+            OperitVersion::patch,
+            OperitVersion::build
+        )
+    }
+
+    companion object {
+        private val VERSION_PATTERN = Regex("^(\\d+)\\.(\\d+)\\.(\\d+)(?:\\+(\\d+))?$")
+
+        fun parse(value: String): OperitVersion {
+            val normalized = value.trim()
+            val match = VERSION_PATTERN.matchEntire(normalized)
+                ?: throw IllegalArgumentException("Operit version is not supported: '$value'")
+            return OperitVersion(
+                major = match.groupValues[1].toInt(),
+                minor = match.groupValues[2].toInt(),
+                patch = match.groupValues[3].toInt(),
+                build = match.groupValues[4].takeIf(String::isNotEmpty)?.toInt() ?: 0
+            )
+        }
+    }
+}
+
+internal object ToolPkgApiCompatibility {
+    const val LEGACY_API_VERSION = "1.0.0"
+    const val API_VERSION_1_0_1 = "1.0.1"
+    const val API_VERSION_1_0_1_INTRODUCED_IN_OPERIT = "1.12.1+4"
+
+    private val legacyApiVersion = ToolPkgApiVersion.parse(LEGACY_API_VERSION)
+    private val apiVersion101 = ToolPkgApiVersion.parse(API_VERSION_1_0_1)
+    private val apiVersion101IntroducedIn =
+        OperitVersion.parse(API_VERSION_1_0_1_INTRODUCED_IN_OPERIT)
+
+    fun parseDeclaredApiVersion(apiVersion: String): ToolPkgApiVersion {
+        return ToolPkgApiVersion.parse(apiVersion.trim().ifBlank { LEGACY_API_VERSION })
+    }
+
+    fun supportedApiVersions(operitVersion: String = BuildConfig.VERSION_NAME): List<ToolPkgApiVersion> {
+        val currentVersion = OperitVersion.parse(operitVersion)
+        return buildList {
+            add(legacyApiVersion)
+            if (currentVersion >= apiVersion101IntroducedIn) {
+                add(apiVersion101)
+            }
+        }
+    }
+
+    fun supportedApiVersionText(operitVersion: String = BuildConfig.VERSION_NAME): String {
+        return supportedApiVersions(operitVersion).joinToString(", ")
+    }
+
+    fun requireSupported(
+        apiVersion: String,
+        operitVersion: String = BuildConfig.VERSION_NAME
+    ): ToolPkgApiVersion {
+        val declaredVersion = parseDeclaredApiVersion(apiVersion)
+        val supportedVersions = supportedApiVersions(operitVersion)
+        require(declaredVersion in supportedVersions) {
+            "ToolPkg API version '$declaredVersion' is not supported by Operit $operitVersion. " +
+                "Supported ToolPkg API versions: ${supportedVersions.joinToString(", ")}. " +
+                "ToolPkg API $API_VERSION_1_0_1 requires Operit " +
+                "$API_VERSION_1_0_1_INTRODUCED_IN_OPERIT or newer."
+        }
+        return declaredVersion
+    }
+
+}

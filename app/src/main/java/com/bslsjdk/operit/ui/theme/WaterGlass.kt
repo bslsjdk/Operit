@@ -1,1 +1,105 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkudGhlbWUKCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJvcmRlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5jb21wb3NpdGlvbkxvY2FsT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5kcmF3V2l0aENvbnRlbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5zaGFkb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MubHVtaW5hbmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgaW8uZ2l0aHViLmZsZXRjaG1ja2VlLmxpcXVpZC5MaXF1aWRTdGF0ZQppbXBvcnQgaW8uZ2l0aHViLmZsZXRjaG1ja2VlLmxpcXVpZC5saXF1aWQKCnZhbCBMb2NhbFdhdGVyR2xhc3NTdGF0ZSA9IGNvbXBvc2l0aW9uTG9jYWxPZjxMaXF1aWRTdGF0ZT8+IHsgbnVsbCB9Cgpwcml2YXRlIGNvbnN0IHZhbCBXYXRlckdsYXNzTWluQXBpID0gQnVpbGQuVkVSU0lPTl9DT0RFUy5USVJBTUlTVQoKZnVuIGlzV2F0ZXJHbGFzc1N1cHBvcnRlZCgpOiBCb29sZWFuID0gQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IFdhdGVyR2xhc3NNaW5BcGkKCkBDb21wb3NhYmxlCmZ1biBNb2RpZmllci53YXRlckdsYXNzKAogICAgZW5hYmxlZDogQm9vbGVhbiwKICAgIHNoYXBlOiBTaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgwLmRwKSwKICAgIGNvbnRhaW5lckNvbG9yOiBDb2xvciwKICAgIHNoYWRvd0VsZXZhdGlvbjogRHAgPSAxNC5kcCwKICAgIGJvcmRlcldpZHRoOiBEcCA9IDEuZHAsCiAgICBvdmVybGF5QWxwaGFCb29zdDogRmxvYXQgPSAwZiwKKTogTW9kaWZpZXIgewogICAgaWYgKCFlbmFibGVkKSB7CiAgICAgICAgcmV0dXJuIHRoaXMKICAgIH0KCiAgICB2YWwgbGlxdWlkU3RhdGUgPSBpZiAoaXNXYXRlckdsYXNzU3VwcG9ydGVkKCkpIExvY2FsV2F0ZXJHbGFzc1N0YXRlLmN1cnJlbnQgZWxzZSBudWxsCiAgICB2YWwgaXNMaWdodEdsYXNzID0gY29udGFpbmVyQ29sb3IubHVtaW5hbmNlKCkgPj0gMC41ZgogICAgaWYgKGxpcXVpZFN0YXRlID09IG51bGwpIHsKICAgICAgICB2YWwgZmFsbGJhY2tUaW50QWxwaGEgPSBpZiAoaXNMaWdodEdsYXNzKSAwLjE0ZiBlbHNlIDAuMjJmCiAgICAgICAgdmFsIGZhbGxiYWNrQm9yZGVyID0KICAgICAgICAgICAgaWYgKGlzTGlnaHRHbGFzcykgewogICAgICAgICAgICAgICAgQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IDAuMjZmKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IDAuMTRmKQogICAgICAgICAgICB9CiAgICAgICAgdmFsIGZhbGxiYWNrR2xvc3MgPQogICAgICAgICAgICBpZiAoaXNMaWdodEdsYXNzKSB7CiAgICAgICAgICAgICAgICBDb2xvci5XaGl0ZS5jb3B5KGFscGhhID0gMC4xMGYpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBDb2xvci5XaGl0ZS5jb3B5KGFscGhhID0gMC4wNWYpCiAgICAgICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRoaXMKICAgICAgICAgICAgLnNoYWRvdygKICAgICAgICAgICAgICAgIGVsZXZhdGlvbiA9IHNoYWRvd0VsZXZhdGlvbiwKICAgICAgICAgICAgICAgIHNoYXBlID0gc2hhcGUsCiAgICAgICAgICAgICAgICBjbGlwID0gZmFsc2UsCiAgICAgICAgICAgICAgICBhbWJpZW50Q29sb3IgPSBDb2xvci5CbGFjay5jb3B5KGFscGhhID0gaWYgKGlzTGlnaHRHbGFzcykgMC4xMGYgZWxzZSAwLjE4ZiksCiAgICAgICAgICAgICAgICBzcG90Q29sb3IgPSBDb2xvci5CbGFjay5jb3B5KGFscGhhID0gaWYgKGlzTGlnaHRHbGFzcykgMC4xMGYgZWxzZSAwLjE4ZiksCiAgICAgICAgICAgICkKICAgICAgICAgICAgLmJvcmRlcih3aWR0aCA9IGJvcmRlcldpZHRoLmNvZXJjZUF0TGVhc3QoMC42LmRwKSwgY29sb3IgPSBmYWxsYmFja0JvcmRlciwgc2hhcGUgPSBzaGFwZSkKICAgICAgICAgICAgLmJhY2tncm91bmQoY29sb3IgPSBjb250YWluZXJDb2xvci5jb3B5KGFscGhhID0gZmFsbGJhY2tUaW50QWxwaGEpLCBzaGFwZSA9IHNoYXBlKQogICAgICAgICAgICAuZHJhd1dpdGhDb250ZW50IHsKICAgICAgICAgICAgICAgIGRyYXdDb250ZW50KCkKICAgICAgICAgICAgICAgIGRyYXdSZWN0KGZhbGxiYWNrR2xvc3MpCiAgICAgICAgICAgIH0KICAgIH0KICAgIHZhbCB0aW50QWxwaGEgPSBpZiAoaXNMaWdodEdsYXNzKSAwLjA5ZiBlbHNlIDAuMTZmCiAgICB2YWwgc3VyZmFjZVRpbnQgPSBjb250YWluZXJDb2xvci5jb3B5KGFscGhhID0gKHRpbnRBbHBoYSArIG92ZXJsYXlBbHBoYUJvb3N0KS5jb2VyY2VJbigwZiwgMC41NmYpKQogICAgdmFsIGJvcmRlckNvbG9yID0KICAgICAgICBpZiAoaXNMaWdodEdsYXNzKSB7CiAgICAgICAgICAgIENvbG9yLldoaXRlLmNvcHkoYWxwaGEgPSAwLjE4ZikKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBDb2xvci5XaGl0ZS5jb3B5KGFscGhhID0gMC4xMGYpCiAgICAgICAgfQogICAgdmFsIHNoYWRvd0NvbG9yID0KICAgICAgICBpZiAoaXNMaWdodEdsYXNzKSB7CiAgICAgICAgICAgIENvbG9yLkJsYWNrLmNvcHkoYWxwaGEgPSAwLjEwZikKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBDb2xvci5CbGFjay5jb3B5KGFscGhhID0gMC4xOGYpCiAgICAgICAgfQoKICAgIHJldHVybiB0aGlzCiAgICAgICAgLnNoYWRvdygKICAgICAgICAgICAgZWxldmF0aW9uID0gc2hhZG93RWxldmF0aW9uLAogICAgICAgICAgICBzaGFwZSA9IHNoYXBlLAogICAgICAgICAgICBjbGlwID0gZmFsc2UsCiAgICAgICAgICAgIGFtYmllbnRDb2xvciA9IHNoYWRvd0NvbG9yLAogICAgICAgICAgICBzcG90Q29sb3IgPSBzaGFkb3dDb2xvciwKICAgICAgICApCiAgICAgICAgLmJvcmRlcih3aWR0aCA9IGJvcmRlcldpZHRoLCBjb2xvciA9IGJvcmRlckNvbG9yLCBzaGFwZSA9IHNoYXBlKQogICAgICAgIC5saXF1aWQobGlxdWlkU3RhdGUpIHsKICAgICAgICAgICAgdGhpcy5zaGFwZSA9IHNoYXBlCiAgICAgICAgICAgIHRoaXMuZnJvc3QgPSBpZiAoaXNMaWdodEdsYXNzKSA2LmRwIGVsc2UgOC5kcAogICAgICAgICAgICB0aGlzLmN1cnZlID0gaWYgKGlzTGlnaHRHbGFzcykgMC40MGYgZWxzZSAwLjMwZgogICAgICAgICAgICB0aGlzLnJlZnJhY3Rpb24gPSBpZiAoaXNMaWdodEdsYXNzKSAwLjEyZiBlbHNlIDAuMDlmCiAgICAgICAgICAgIHRoaXMuZGlzcGVyc2lvbiA9IGlmIChpc0xpZ2h0R2xhc3MpIDAuMThmIGVsc2UgMC4xM2YKICAgICAgICAgICAgdGhpcy5zYXR1cmF0aW9uID0gaWYgKGlzTGlnaHRHbGFzcykgMC40MGYgZWxzZSAwLjMyZgogICAgICAgICAgICB0aGlzLmNvbnRyYXN0ID0gaWYgKGlzTGlnaHRHbGFzcykgMS4yMmYgZWxzZSAxLjQwZgogICAgICAgICAgICB0aGlzLnRpbnQgPSBzdXJmYWNlVGludAogICAgICAgIH0KfQo=
+package com.bslsjdk.operit.ui.theme
+
+import android.os.Build
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.compositionLocalOf
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.draw.shadow
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shape
+import androidx.compose.ui.graphics.luminance
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import io.github.fletchmckee.liquid.LiquidState
+import io.github.fletchmckee.liquid.liquid
+
+val LocalWaterGlassState = compositionLocalOf<LiquidState?> { null }
+
+private const val WaterGlassMinApi = Build.VERSION_CODES.TIRAMISU
+
+fun isWaterGlassSupported(): Boolean = Build.VERSION.SDK_INT >= WaterGlassMinApi
+
+@Composable
+fun Modifier.waterGlass(
+    enabled: Boolean,
+    shape: Shape = RoundedCornerShape(0.dp),
+    containerColor: Color,
+    shadowElevation: Dp = 14.dp,
+    borderWidth: Dp = 1.dp,
+    overlayAlphaBoost: Float = 0f,
+): Modifier {
+    if (!enabled) {
+        return this
+    }
+
+    val liquidState = if (isWaterGlassSupported()) LocalWaterGlassState.current else null
+    val isLightGlass = containerColor.luminance() >= 0.5f
+    if (liquidState == null) {
+        val fallbackTintAlpha = if (isLightGlass) 0.14f else 0.22f
+        val fallbackBorder =
+            if (isLightGlass) {
+                Color.White.copy(alpha = 0.26f)
+            } else {
+                Color.White.copy(alpha = 0.14f)
+            }
+        val fallbackGloss =
+            if (isLightGlass) {
+                Color.White.copy(alpha = 0.10f)
+            } else {
+                Color.White.copy(alpha = 0.05f)
+            }
+
+        return this
+            .shadow(
+                elevation = shadowElevation,
+                shape = shape,
+                clip = false,
+                ambientColor = Color.Black.copy(alpha = if (isLightGlass) 0.10f else 0.18f),
+                spotColor = Color.Black.copy(alpha = if (isLightGlass) 0.10f else 0.18f),
+            )
+            .border(width = borderWidth.coerceAtLeast(0.6.dp), color = fallbackBorder, shape = shape)
+            .background(color = containerColor.copy(alpha = fallbackTintAlpha), shape = shape)
+            .drawWithContent {
+                drawContent()
+                drawRect(fallbackGloss)
+            }
+    }
+    val tintAlpha = if (isLightGlass) 0.09f else 0.16f
+    val surfaceTint = containerColor.copy(alpha = (tintAlpha + overlayAlphaBoost).coerceIn(0f, 0.56f))
+    val borderColor =
+        if (isLightGlass) {
+            Color.White.copy(alpha = 0.18f)
+        } else {
+            Color.White.copy(alpha = 0.10f)
+        }
+    val shadowColor =
+        if (isLightGlass) {
+            Color.Black.copy(alpha = 0.10f)
+        } else {
+            Color.Black.copy(alpha = 0.18f)
+        }
+
+    return this
+        .shadow(
+            elevation = shadowElevation,
+            shape = shape,
+            clip = false,
+            ambientColor = shadowColor,
+            spotColor = shadowColor,
+        )
+        .border(width = borderWidth, color = borderColor, shape = shape)
+        .liquid(liquidState) {
+            this.shape = shape
+            this.frost = if (isLightGlass) 6.dp else 8.dp
+            this.curve = if (isLightGlass) 0.40f else 0.30f
+            this.refraction = if (isLightGlass) 0.12f else 0.09f
+            this.dispersion = if (isLightGlass) 0.18f else 0.13f
+            this.saturation = if (isLightGlass) 0.40f else 0.32f
+            this.contrast = if (isLightGlass) 1.22f else 1.40f
+            this.tint = surfaceTint
+        }
+}

@@ -1,1 +1,25 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFpUmVmZXJlbmNlCgovKioKICogVXRpbGl0eSBmb3IgZXh0cmFjdGluZyByZWZlcmVuY2VzIGZyb20gY29udGVudAogKi8Kb2JqZWN0IFJlZmVyZW5jZU1hbmFnZXIgewogICAgLyoqCiAgICAgKiBFeHRyYWN0IHJlZmVyZW5jZXMgZnJvbSBjb250ZW50CiAgICAgKiAKICAgICAqIEBwYXJhbSBjb250ZW50IFRoZSBjb250ZW50IHRvIGV4dHJhY3QgcmVmZXJlbmNlcyBmcm9tCiAgICAgKiBAcmV0dXJuIEEgbGlzdCBvZiByZWZlcmVuY2VzCiAgICAgKi8KICAgIGZ1biBleHRyYWN0UmVmZXJlbmNlcyhjb250ZW50OiBTdHJpbmcpOiBMaXN0PEFpUmVmZXJlbmNlPiB7CiAgICAgICAgLy8gVXNlIGEgTWFya2Rvd24gbGluayBmb3JtYXQ6IFt0aXRsZV0odXJsKQogICAgICAgIHZhbCByZWdleCA9ICJcXFsoW15cXF1dKylcXF1cXCgoaHR0cHM/Oi8vW15cXCldKylcXCkiLnRvUmVnZXgoKQogICAgICAgIHZhbCBtYXRjaGVzID0gcmVnZXguZmluZEFsbChjb250ZW50KQogICAgICAgIAogICAgICAgIHJldHVybiBtYXRjaGVzLm1hcCB7IG1hdGNoIC0+CiAgICAgICAgICAgIHZhbCAodGl0bGUsIHVybCkgPSBtYXRjaC5kZXN0cnVjdHVyZWQKICAgICAgICAgICAgQWlSZWZlcmVuY2UodGl0bGUsIHVybCkKICAgICAgICB9LnRvTGlzdCgpCiAgICB9Cn0g
+package com.bslsjdk.operit.api.chat.enhance
+
+import com.bslsjdk.operit.data.model.AiReference
+
+/**
+ * Utility for extracting references from content
+ */
+object ReferenceManager {
+    /**
+     * Extract references from content
+     * 
+     * @param content The content to extract references from
+     * @return A list of references
+     */
+    fun extractReferences(content: String): List<AiReference> {
+        // Use a Markdown link format: [title](url)
+        val regex = "\\[([^\\]]+)\\]\\((https?://[^\\)]+)\\)".toRegex()
+        val matches = regex.findAll(content)
+        
+        return matches.map { match ->
+            val (title, url) = match.destructured
+            AiReference(title, url)
+        }.toList()
+    }
+} 

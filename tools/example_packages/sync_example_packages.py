@@ -14,8 +14,8 @@ from pathlib import Path, PurePosixPath
 MANIFEST_FILENAMES = ("manifest.hjson", "manifest.json")
 SYNCABLE_SUFFIXES = {".js", ".toolpkg"}
 SYNC_MODES = ("normal", "test")
-DEBUG_APP_PACKAGE = "com.ai.assistance.operit.debug"
-RELEASE_APP_PACKAGE = "com.ai.assistance.operit"
+DEBUG_APP_PACKAGE = "com.bslsjdk.operit.debug"
+RELEASE_APP_PACKAGE = "com.bslsjdk.operit"
 SUPPORTED_APP_PACKAGES = (DEBUG_APP_PACKAGE, RELEASE_APP_PACKAGE)
 APP_PACKAGE_ENV = "OPERIT_APP_PACKAGE"
 HOT_RELOAD_STATE_FILE = ".sync_example_packages_hot_reload_state.json"
@@ -931,7 +931,7 @@ def main() -> int:
         default=None,
         help=(
             "Operit applicationId for post-sync hot reload. Supports "
-            "com.ai.assistance.operit.debug and com.ai.assistance.operit; defaults to "
+            "com.bslsjdk.operit.debug and com.bslsjdk.operit; defaults to "
             "OPERIT_APP_PACKAGE or automatic Debug-first detection."
         ),
     )

@@ -1,1 +1,58 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Ccm9hZGNhc3RSZWNlaXZlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFJVG9vbEhhbmRsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCmNsYXNzIFBhY2thZ2VEZWJ1Z1JlZnJlc2hSZWNlaXZlciA6IEJyb2FkY2FzdFJlY2VpdmVyKCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJQYWNrYWdlRGVidWdSZWZyZXNoUmVjZWl2ZXIiCgogICAgICAgIGNvbnN0IHZhbCBBQ1RJT05fREVCVUdfUkVGUkVTSF9QQUNLQUdFUyA9ICJjb20uYnNsc2pkay5vcGVyaXQuREVCVUdfUkVGUkVTSF9QQUNLQUdFUyIKICAgICAgICBjb25zdCB2YWwgRVhUUkFfUkVBQ1RJVkFURV9BQ1RJVkVfUEFDS0FHRVMgPSAicmVhY3RpdmF0ZV9hY3RpdmVfcGFja2FnZXMiCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uUmVjZWl2ZShjb250ZXh0OiBDb250ZXh0LCBpbnRlbnQ6IEludGVudCkgewogICAgICAgIGlmIChpbnRlbnQuYWN0aW9uICE9IEFDVElPTl9ERUJVR19SRUZSRVNIX1BBQ0tBR0VTKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFsIHJlYWN0aXZhdGVBY3RpdmVQYWNrYWdlcyA9CiAgICAgICAgICAgIGludGVudC5nZXRCb29sZWFuRXh0cmEoRVhUUkFfUkVBQ1RJVkFURV9BQ1RJVkVfUEFDS0FHRVMsIHRydWUpCgogICAgICAgIENvcm91dGluZVNjb3BlKERpc3BhdGNoZXJzLklPKS5sYXVuY2ggewogICAgICAgICAgICByZWZyZXNoUGFja2FnZXMoCiAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgICAgIHJlYWN0aXZhdGVBY3RpdmVQYWNrYWdlcyA9IHJlYWN0aXZhdGVBY3RpdmVQYWNrYWdlcwogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlZnJlc2hQYWNrYWdlcygKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIHJlYWN0aXZhdGVBY3RpdmVQYWNrYWdlczogQm9vbGVhbgogICAgKSB7CiAgICAgICAgQXBwTG9nZ2VyLmQoCiAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgIlN0YXJ0aW5nIGRlYnVnIHBhY2thZ2UgcmVmcmVzaDogcmVhY3RpdmF0ZUFjdGl2ZVBhY2thZ2VzPSRyZWFjdGl2YXRlQWN0aXZlUGFja2FnZXMiCiAgICAgICAgKQoKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgYWlUb29sSGFuZGxlciA9IEFJVG9vbEhhbmRsZXIuZ2V0SW5zdGFuY2UoY29udGV4dCkKICAgICAgICAgICAgdmFsIHBhY2thZ2VNYW5hZ2VyID0gUGFja2FnZU1hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dCwgYWlUb29sSGFuZGxlcikKICAgICAgICAgICAgdmFsIHJlc3VsdCA9CiAgICAgICAgICAgICAgICBwYWNrYWdlTWFuYWdlci5yZWZyZXNoRXh0ZXJuYWxQYWNrYWdlc0ZvckRlYnVnKAogICAgICAgICAgICAgICAgICAgIHJlYWN0aXZhdGVBY3RpdmVQYWNrYWdlcyA9IHJlYWN0aXZhdGVBY3RpdmVQYWNrYWdlcwogICAgICAgICAgICAgICAgKQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsIHJlc3VsdCkKICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkRlYnVnIHBhY2thZ2UgcmVmcmVzaCBmYWlsZWQiLCBlcnJvcikKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.packTool
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+class PackageDebugRefreshReceiver : BroadcastReceiver() {
+
+    companion object {
+        private const val TAG = "PackageDebugRefreshReceiver"
+
+        const val ACTION_DEBUG_REFRESH_PACKAGES = "com.bslsjdk.operit.DEBUG_REFRESH_PACKAGES"
+        const val EXTRA_REACTIVATE_ACTIVE_PACKAGES = "reactivate_active_packages"
+    }
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action != ACTION_DEBUG_REFRESH_PACKAGES) {
+            return
+        }
+
+        val reactivateActivePackages =
+            intent.getBooleanExtra(EXTRA_REACTIVATE_ACTIVE_PACKAGES, true)
+
+        CoroutineScope(Dispatchers.IO).launch {
+            refreshPackages(
+                context = context,
+                reactivateActivePackages = reactivateActivePackages
+            )
+        }
+    }
+
+    private fun refreshPackages(
+        context: Context,
+        reactivateActivePackages: Boolean
+    ) {
+        AppLogger.d(
+            TAG,
+            "Starting debug package refresh: reactivateActivePackages=$reactivateActivePackages"
+        )
+
+        try {
+            val aiToolHandler = AIToolHandler.getInstance(context)
+            val packageManager = PackageManager.getInstance(context, aiToolHandler)
+            val result =
+                packageManager.refreshExternalPackagesForDebug(
+                    reactivateActivePackages = reactivateActivePackages
+                )
+            AppLogger.d(TAG, result)
+        } catch (error: Exception) {
+            AppLogger.e(TAG, "Debug package refresh failed", error)
+        }
+    }
+}

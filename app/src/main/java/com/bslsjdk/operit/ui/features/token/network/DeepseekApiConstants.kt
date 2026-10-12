@@ -1,1 +1,14 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW4ubmV0d29yawoKLyoqIERlZXBzZWVr5bmz5Y+wQVBJ55qE55u45YWz5bi46YePICovCm9iamVjdCBEZWVwc2Vla0FwaUNvbnN0YW50cyB7CiAgICBjb25zdCB2YWwgREVFUFNFRUtfU0lHTklOX1VSTCA9ICJodHRwczovL3BsYXRmb3JtLmRlZXBzZWVrLmNvbS9zaWduX2luIgogICAgY29uc3QgdmFsIERFRVBTRUVLX1VTQUdFX1VSTCA9ICJodHRwczovL3BsYXRmb3JtLmRlZXBzZWVrLmNvbS91c2FnZSIKICAgIGNvbnN0IHZhbCBERUVQU0VFS19BUElfS0VZU19VUkwgPSAiaHR0cHM6Ly9wbGF0Zm9ybS5kZWVwc2Vlay5jb20vYXBpX2tleXMiCiAgICBjb25zdCB2YWwgREVFUFNFRUtfR0VUX0FQSV9LRVlTX1VSTCA9ICJodHRwczovL3BsYXRmb3JtLmRlZXBzZWVrLmNvbS9hcGkvdjAvdXNlcnMvZ2V0X2FwaV9rZXlzIgogICAgY29uc3QgdmFsIERFRVBTRUVLX0NSRUFURV9BUElfS0VZX1VSTCA9CiAgICAgICAgICAgICJodHRwczovL3BsYXRmb3JtLmRlZXBzZWVrLmNvbS9hcGkvdjAvdXNlcnMvY3JlYXRlX2FwaV9rZXkiCiAgICBjb25zdCB2YWwgREVFUFNFRUtfREVMRVRFX0FQSV9LRVlfVVJMID0KICAgICAgICAgICAgImh0dHBzOi8vcGxhdGZvcm0uZGVlcHNlZWsuY29tL2FwaS92MC91c2Vycy9kZWxldGVfYXBpX2tleSIKICAgIGNvbnN0IHZhbCBERUVQU0VFS19QTEFURk9STV9ET01BSU4gPSAicGxhdGZvcm0uZGVlcHNlZWsuY29tIgp9Cg==
+package com.bslsjdk.operit.ui.features.token.network
+
+/** Deepseek平台API的相关常量 */
+object DeepseekApiConstants {
+    const val DEEPSEEK_SIGNIN_URL = "https://platform.deepseek.com/sign_in"
+    const val DEEPSEEK_USAGE_URL = "https://platform.deepseek.com/usage"
+    const val DEEPSEEK_API_KEYS_URL = "https://platform.deepseek.com/api_keys"
+    const val DEEPSEEK_GET_API_KEYS_URL = "https://platform.deepseek.com/api/v0/users/get_api_keys"
+    const val DEEPSEEK_CREATE_API_KEY_URL =
+            "https://platform.deepseek.com/api/v0/users/create_api_key"
+    const val DEEPSEEK_DELETE_API_KEY_URL =
+            "https://platform.deepseek.com/api/v0/users/delete_api_key"
+    const val DEEPSEEK_PLATFORM_DOMAIN = "platform.deepseek.com"
+}

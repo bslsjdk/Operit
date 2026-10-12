@@ -1,1 +1,39 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5iYWNrdXAKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZHgud29yay5Db3JvdXRpbmVXb3JrZXIKaW1wb3J0IGFuZHJvaWR4LndvcmsuV29ya2VyUGFyYW1ldGVycwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCgpjbGFzcyBSb29tRGF0YWJhc2VCYWNrdXBXb3JrZXIoCiAgICBhcHBDb250ZXh0OiBDb250ZXh0LAogICAgd29ya2VyUGFyYW1zOiBXb3JrZXJQYXJhbWV0ZXJzCikgOiBDb3JvdXRpbmVXb3JrZXIoYXBwQ29udGV4dCwgd29ya2VyUGFyYW1zKSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlJvb21EYkJhY2t1cFdvcmtlciIKICAgICAgICBjb25zdCB2YWwgS0VZX0ZPUkNFID0gImZvcmNlIgogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGRvV29yaygpOiBSZXN1bHQgewogICAgICAgIHZhbCBmb3JjZSA9IGlucHV0RGF0YS5nZXRCb29sZWFuKEtFWV9GT1JDRSwgZmFsc2UpCiAgICAgICAgdmFsIHByZWZlcmVuY2VzID0gUm9vbURhdGFiYXNlQmFja3VwUHJlZmVyZW5jZXMuZ2V0SW5zdGFuY2UoYXBwbGljYXRpb25Db250ZXh0KQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IFJvb21EYXRhYmFzZUJhY2t1cE1hbmFnZXIuYmFja3VwSWZOZWVkZWQoYXBwbGljYXRpb25Db250ZXh0LCBmb3JjZSkKICAgICAgICAgICAgaWYgKCFyZXN1bHQucGVyZm9ybWVkKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJCYWNrdXAgc2tpcHBlZDogJHtyZXN1bHQuc2tpcHBlZFJlYXNvbn0iKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmkoVEFHLCAiQmFja3VwIGNyZWF0ZWQ6ICR7cmVzdWx0LmJhY2t1cEZpbGU/LmFic29sdXRlUGF0aH0iKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFJlc3VsdC5zdWNjZXNzKCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRGF0YWJhc2UgYmFja3VwIGZhaWxlZCIsIGUpCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBwcmVmZXJlbmNlcy5tYXJrRmFpbHVyZShlLmxvY2FsaXplZE1lc3NhZ2UgPzogZS50b1N0cmluZygpKQogICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgfQogICAgICAgICAgICBSZXN1bHQuZmFpbHVyZSgpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.backup
+
+import android.content.Context
+import androidx.work.CoroutineWorker
+import androidx.work.WorkerParameters
+import com.bslsjdk.operit.util.AppLogger
+
+class RoomDatabaseBackupWorker(
+    appContext: Context,
+    workerParams: WorkerParameters
+) : CoroutineWorker(appContext, workerParams) {
+
+    companion object {
+        private const val TAG = "RoomDbBackupWorker"
+        const val KEY_FORCE = "force"
+    }
+
+    override suspend fun doWork(): Result {
+        val force = inputData.getBoolean(KEY_FORCE, false)
+        val preferences = RoomDatabaseBackupPreferences.getInstance(applicationContext)
+
+        return try {
+            val result = RoomDatabaseBackupManager.backupIfNeeded(applicationContext, force)
+            if (!result.performed) {
+                AppLogger.d(TAG, "Backup skipped: ${result.skippedReason}")
+            } else {
+                AppLogger.i(TAG, "Backup created: ${result.backupFile?.absolutePath}")
+            }
+            Result.success()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Database backup failed", e)
+            try {
+                preferences.markFailure(e.localizedMessage ?: e.toString())
+            } catch (_: Exception) {
+            }
+            Result.failure()
+        }
+    }
+}

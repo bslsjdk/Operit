@@ -1,1 +1,108 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4U2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC53aWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5kcmF3LmNsaXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkljb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlN1cmZhY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy52ZWN0b3IuSW1hZ2VWZWN0b3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLnRoZW1lLmxpcXVpZEdsYXNzCgovKiogRGlzcGxheXMgYSBoZWFkZXIgaW4gdGhlIG5hdmlnYXRpb24gZHJhd2VyICovCkBDb21wb3NhYmxlCmZ1biBOYXZpZ2F0aW9uRHJhd2VySXRlbUhlYWRlcih0aXRsZTogU3RyaW5nLCBhcHBlYXJhbmNlOiBOYXZpZ2F0aW9uRHJhd2VyQXBwZWFyYW5jZSkgewogICAgVGV4dCgKICAgICAgICAgICAgdGV4dCA9IHRpdGxlLAogICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZVNtYWxsLAogICAgICAgICAgICBjb2xvciA9IGFwcGVhcmFuY2UudGl0bGVDb2xvciwKICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuQm9sZCwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKHN0YXJ0ID0gMjguZHAsIHRvcCA9IDE2LmRwLCBib3R0b20gPSA4LmRwKQogICAgKQp9CgovKiogRGlzcGxheXMgYSBuYXZpZ2F0aW9uIGl0ZW0gaW4gdGhlIGRyYXdlciB3aXRoIGljb24gYW5kIGxhYmVsICovCkBDb21wb3NhYmxlCmZ1biBDb21wYWN0TmF2aWdhdGlvbkRyYXdlckl0ZW0oCiAgICAgICAgaWNvbjogSW1hZ2VWZWN0b3IsCiAgICAgICAgbGFiZWw6IFN0cmluZywKICAgICAgICBzZWxlY3RlZDogQm9vbGVhbiwKICAgICAgICBhcHBlYXJhbmNlOiBOYXZpZ2F0aW9uRHJhd2VyQXBwZWFyYW5jZSwKICAgICAgICBvbkNsaWNrOiAoKSAtPiBVbml0CikgewogICAgdmFsIGl0ZW1TaGFwZSA9IE1hdGVyaWFsVGhlbWUuc2hhcGVzLnNtYWxsCiAgICB2YWwgZ2xhc3NCYXNlQ29sb3IgPSBhcHBlYXJhbmNlLmJ1dHRvbkNvbnRhaW5lckNvbG9yCiAgICB2YWwgc2VsZWN0ZWRHbGFzc092ZXJsYXlDb2xvciA9CiAgICAgICAgICAgIGlmIChzZWxlY3RlZCkgewogICAgICAgICAgICAgICAgICAgIGFwcGVhcmFuY2Uuc2VsZWN0ZWRDb250YWluZXJDb2xvci5jb3B5KGFscGhhID0gMC4xOGYpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgQ29sb3IuVHJhbnNwYXJlbnQKICAgICAgICAgICAgfQogICAgU3VyZmFjZSgKICAgICAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gMTIuZHAsIHZlcnRpY2FsID0gNC5kcCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5oZWlnaHQoNDAuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAubGlxdWlkR2xhc3MoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuYWJsZWQgPSBhcHBlYXJhbmNlLmJ1dHRvbkxpcXVpZEdsYXNzRW5hYmxlZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hhcGUgPSBpdGVtU2hhcGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckNvbG9yID0gZ2xhc3NCYXNlQ29sb3IsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYWRvd0VsZXZhdGlvbiA9IGlmIChzZWxlY3RlZCkgNi5kcCBlbHNlIDQuZHAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcldpZHRoID0gMC41LmRwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBibHVyUmFkaXVzID0gMTIuZHAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJsYXlBbHBoYUJvb3N0ID0gMC4wNGYsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVuYWJsZUxlbnMgPSBmYWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNsaXAoaXRlbVNoYXBlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmJhY2tncm91bmQoc2VsZWN0ZWRHbGFzc092ZXJsYXlDb2xvciksCiAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkNsaWNrLAogICAgICAgICAgICBjb2xvciA9CiAgICAgICAgICAgICAgICAgICAgaWYgKGFwcGVhcmFuY2UuYnV0dG9uTGlxdWlkR2xhc3NFbmFibGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBDb2xvci5UcmFuc3BhcmVudAogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoc2VsZWN0ZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVhcmFuY2Uuc2VsZWN0ZWRDb250YWluZXJDb2xvcgogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBDb2xvci5UcmFuc3BhcmVudAogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHNoYXBlID0gaXRlbVNoYXBlCiAgICApIHsKICAgICAgICBSb3coCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCkucGFkZGluZyhob3Jpem9udGFsID0gMTYuZHApLAogICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICkgewogICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gaWNvbiwKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsLAogICAgICAgICAgICAgICAgICAgIHRpbnQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHNlbGVjdGVkKSBhcHBlYXJhbmNlLnNlbGVjdGVkQ29udGVudENvbG9yCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIGFwcGVhcmFuY2UuaXRlbUNvbG9yLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyMC5kcCkKICAgICAgICAgICAgKQoKICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoMTIuZHApKQoKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gbGFiZWwsCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSwKICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0ID0gaWYgKHNlbGVjdGVkKSBGb250V2VpZ2h0Lk1lZGl1bSBlbHNlIEZvbnRXZWlnaHQuTm9ybWFsLAogICAgICAgICAgICAgICAgICAgIGNvbG9yID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzZWxlY3RlZCkgYXBwZWFyYW5jZS5zZWxlY3RlZENvbnRlbnRDb2xvcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSBhcHBlYXJhbmNlLml0ZW1Db2xvcgogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.main.components
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.ui.draw.clip
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.ui.theme.liquidGlass
+
+/** Displays a header in the navigation drawer */
+@Composable
+fun NavigationDrawerItemHeader(title: String, appearance: NavigationDrawerAppearance) {
+    Text(
+            text = title,
+            style = MaterialTheme.typography.titleSmall,
+            color = appearance.titleColor,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(start = 28.dp, top = 16.dp, bottom = 8.dp)
+    )
+}
+
+/** Displays a navigation item in the drawer with icon and label */
+@Composable
+fun CompactNavigationDrawerItem(
+        icon: ImageVector,
+        label: String,
+        selected: Boolean,
+        appearance: NavigationDrawerAppearance,
+        onClick: () -> Unit
+) {
+    val itemShape = MaterialTheme.shapes.small
+    val glassBaseColor = appearance.buttonContainerColor
+    val selectedGlassOverlayColor =
+            if (selected) {
+                    appearance.selectedContainerColor.copy(alpha = 0.18f)
+            } else {
+                    Color.Transparent
+            }
+    Surface(
+            modifier =
+                    Modifier.fillMaxWidth()
+                            .padding(horizontal = 12.dp, vertical = 4.dp)
+                            .height(40.dp)
+                            .liquidGlass(
+                                    enabled = appearance.buttonLiquidGlassEnabled,
+                                    shape = itemShape,
+                                    containerColor = glassBaseColor,
+                                    shadowElevation = if (selected) 6.dp else 4.dp,
+                                    borderWidth = 0.5.dp,
+                                    blurRadius = 12.dp,
+                                    overlayAlphaBoost = 0.04f,
+                                    enableLens = false
+                            )
+                            .clip(itemShape)
+                            .background(selectedGlassOverlayColor),
+            onClick = onClick,
+            color =
+                    if (appearance.buttonLiquidGlassEnabled) {
+                            Color.Transparent
+                    } else if (selected) {
+                            appearance.selectedContainerColor
+                    } else {
+                            Color.Transparent
+                    },
+            shape = itemShape
+    ) {
+        Row(
+                modifier = Modifier.fillMaxSize().padding(horizontal = 16.dp),
+                verticalAlignment = Alignment.CenterVertically
+        ) {
+            Icon(
+                    imageVector = icon,
+                    contentDescription = null,
+                    tint =
+                            if (selected) appearance.selectedContentColor
+                            else appearance.itemColor,
+                    modifier = Modifier.size(20.dp)
+            )
+
+            Spacer(modifier = Modifier.width(12.dp))
+
+            Text(
+                    text = label,
+                    style = MaterialTheme.typography.bodyMedium,
+                    fontWeight = if (selected) FontWeight.Medium else FontWeight.Normal,
+                    color =
+                            if (selected) appearance.selectedContentColor
+                            else appearance.itemColor
+            )
+        }
+    }
+}

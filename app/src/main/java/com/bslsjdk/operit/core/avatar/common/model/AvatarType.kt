@@ -1,1 +1,25 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsCgovKioKICogRW51bWVyYXRlcyB0aGUgc3VwcG9ydGVkIHJlbmRlcmluZyB0ZWNobm9sb2dpZXMgZm9yIHZpcnR1YWwgYXZhdGFycy4KICogVGhpcyBzZXJ2ZXMgYXMgYSBkaXNjcmltaW5hdG9yIGZvciBmYWN0b3JpZXMgdG8gZGVjaWRlIHdoaWNoIHJlbmRlcmVyIHRvIHVzZS4KICovCmVudW0gY2xhc3MgQXZhdGFyVHlwZSB7CiAgICAvKiogMkQgc2tlbGV0YWwgYW5pbWF0aW9uIChlLmcuLCBEcmFnb25Cb25lcywgU3BpbmUpLiAqLwogICAgRFJBR09OQk9ORVMsCgogICAgLyoqIEZyYW1lLWJ5LWZyYW1lIGFuaW1hdGlvbiB1c2luZyBXRUJQIGZvcm1hdC4gKi8KICAgIFdFQlAsCgogICAgLyoqIFZpZGVvLWJhc2VkIGFuaW1hdGlvbiB1c2luZyBNUDQgZm9ybWF0LiAqLwogICAgTVA0LAoKICAgIC8qKiBSZWFsLXRpbWUgM0QgZ2xURi9nbGIgbW9kZWwgYW5pbWF0aW9uLiAqLwogICAgR0xURiwKCiAgICAvKiogUmVhbC10aW1lIDNEIEZCWCBtb2RlbCBhbmltYXRpb24uICovCiAgICBGQlgsCgogICAgLyoqIDNEIG1vZGVsIGFuaW1hdGlvbiAoZS5nLiwgTWlrdU1pa3VEYW5jZSwgVlJNKS4gKi8KICAgIE1NRAp9IAo=
+package com.bslsjdk.operit.core.avatar.common.model
+
+/**
+ * Enumerates the supported rendering technologies for virtual avatars.
+ * This serves as a discriminator for factories to decide which renderer to use.
+ */
+enum class AvatarType {
+    /** 2D skeletal animation (e.g., DragonBones, Spine). */
+    DRAGONBONES,
+
+    /** Frame-by-frame animation using WEBP format. */
+    WEBP,
+
+    /** Video-based animation using MP4 format. */
+    MP4,
+
+    /** Real-time 3D glTF/glb model animation. */
+    GLTF,
+
+    /** Real-time 3D FBX model animation. */
+    FBX,
+
+    /** 3D model animation (e.g., MikuMikuDance, VRM). */
+    MMD
+} 

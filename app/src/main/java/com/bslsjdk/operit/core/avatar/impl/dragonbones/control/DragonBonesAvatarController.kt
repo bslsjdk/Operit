@@ -1,1 +1,211 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5kcmFnb25ib25lcy5jb250cm9sCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5jb250cm9sLkF2YXRhckNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24uY29udHJvbC5BdmF0YXJTZXR0aW5nS2V5cwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5zdGF0ZS5BdmF0YXJFbW90aW9uCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLnN0YXRlLkF2YXRhck1vb2RUeXBlcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5zdGF0ZS5BdmF0YXJTdGF0ZQppbXBvcnQgY29tLmRyYWdvbmJvbmVzLkpuaUJyaWRnZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQgY29tLmRyYWdvbmJvbmVzLkRyYWdvbkJvbmVzQ29udHJvbGxlciBhcyBEcmFnb25Cb25lc0xpYkNvbnRyb2xsZXIKCi8qKgogKiBBIGNvbmNyZXRlIGltcGxlbWVudGF0aW9uIG9mIFtBdmF0YXJDb250cm9sbGVyXSBmb3IgRHJhZ29uQm9uZXMgYXZhdGFycy4KICogSXQgd3JhcHMgdGhlIGxpYnJhcnktc3BlY2lmaWMgW0RyYWdvbkJvbmVzTGliQ29udHJvbGxlcl0gdG8gZXhwb3NlCiAqIGEgc3RhbmRhcmRpemVkIEFQSSBmb3IgYXZhdGFyIGNvbnRyb2wuCiAqCiAqIEBwYXJhbSBsaWJDb250cm9sbGVyIFRoZSB1bmRlcmx5aW5nIGNvbnRyb2xsZXIgZnJvbSB0aGUgRHJhZ29uQm9uZXMgcmVuZGVyaW5nIGxpYnJhcnkuCiAqLwpjbGFzcyBEcmFnb25Cb25lc0F2YXRhckNvbnRyb2xsZXIoCiAgICB2YWwgbGliQ29udHJvbGxlcjogRHJhZ29uQm9uZXNMaWJDb250cm9sbGVyCikgOiBBdmF0YXJDb250cm9sbGVyIHsKCiAgICBwcml2YXRlIHZhbCBfc3RhdGUgPSBNdXRhYmxlU3RhdGVGbG93KEF2YXRhclN0YXRlKCkpCiAgICBvdmVycmlkZSB2YWwgc3RhdGU6IFN0YXRlRmxvdzxBdmF0YXJTdGF0ZT4gPSBfc3RhdGUuYXNTdGF0ZUZsb3coKQoKICAgIG92ZXJyaWRlIHZhbCBhdmFpbGFibGVBbmltYXRpb25zOiBMaXN0PFN0cmluZz4KICAgICAgICBnZXQoKSA9IGxpYkNvbnRyb2xsZXIuYW5pbWF0aW9uTmFtZXMKCiAgICBwcml2YXRlIHZhciBlbW90aW9uQW5pbWF0aW9uTWFwcGluZzogTWFwPEF2YXRhckVtb3Rpb24sIFN0cmluZz4gPSBlbXB0eU1hcCgpCiAgICBwcml2YXRlIHZhciB0cmlnZ2VyQW5pbWF0aW9uTWFwcGluZzogTWFwPFN0cmluZywgU3RyaW5nPiA9IGVtcHR5TWFwKCkKCiAgICBvdmVycmlkZSBmdW4gc2V0RW1vdGlvbihuZXdFbW90aW9uOiBBdmF0YXJFbW90aW9uKSB7CiAgICAgICAgcGxheUVtb3Rpb24obmV3RW1vdGlvbiwgbG9vcCA9IDApCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHBsYXlFbW90aW9uKGVtb3Rpb246IEF2YXRhckVtb3Rpb24sIGxvb3A6IEludCkgewogICAgICAgIHZhbCBhbmltYXRpb25OYW1lID0gcmVzb2x2ZUFuaW1hdGlvbkZvckVtb3Rpb24oZW1vdGlvbikgPzogcmV0dXJuCgogICAgICAgIGxpYkNvbnRyb2xsZXIucGxheUFuaW1hdGlvbihhbmltYXRpb25OYW1lLCBsb29wLnRvRmxvYXQoKSkKICAgICAgICBfc3RhdGUudmFsdWUgPSBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgZW1vdGlvbiA9IGVtb3Rpb24sCiAgICAgICAgICAgIGN1cnJlbnRBbmltYXRpb24gPSBhbmltYXRpb25OYW1lLAogICAgICAgICAgICBpc0xvb3BpbmcgPSBsb29wID09IDAKICAgICAgICApCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHBsYXlUcmlnZ2VyKHRyaWdnZXJOYW1lOiBTdHJpbmcsIGxvb3A6IEludCk6IEJvb2xlYW4gewogICAgICAgIHZhbCBub3JtYWxpemVkVHJpZ2dlciA9IEF2YXRhck1vb2RUeXBlcy5ub3JtYWxpemVLZXkodHJpZ2dlck5hbWUpCiAgICAgICAgdmFsIGFuaW1hdGlvbk5hbWUgPSByZXNvbHZlQW5pbWF0aW9uRm9yVHJpZ2dlcihub3JtYWxpemVkVHJpZ2dlcikgPzogcmV0dXJuIGZhbHNlCgogICAgICAgIGxpYkNvbnRyb2xsZXIucGxheUFuaW1hdGlvbihhbmltYXRpb25OYW1lLCBsb29wLnRvRmxvYXQoKSkKICAgICAgICBfc3RhdGUudmFsdWUgPSBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgZW1vdGlvbiA9CiAgICAgICAgICAgICAgICBBdmF0YXJNb29kVHlwZXMuYnVpbHRJbkZhbGxiYWNrRW1vdGlvbihub3JtYWxpemVkVHJpZ2dlcikKICAgICAgICAgICAgICAgICAgICA/OiByZXNvbHZlRW1vdGlvbkZyb21BbmltYXRpb25OYW1lKGFuaW1hdGlvbk5hbWUpCiAgICAgICAgICAgICAgICAgICAgPzogX3N0YXRlLnZhbHVlLmVtb3Rpb24sCiAgICAgICAgICAgIGN1cnJlbnRBbmltYXRpb24gPSBhbmltYXRpb25OYW1lLAogICAgICAgICAgICBpc0xvb3BpbmcgPSBsb29wID09IDAKICAgICAgICApCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZXN0aW1hdGVFbW90aW9uRHVyYXRpb25NaWxsaXMoZW1vdGlvbjogQXZhdGFyRW1vdGlvbik6IExvbmc/IHsKICAgICAgICB2YWwgYW5pbWF0aW9uTmFtZSA9IHJlc29sdmVBbmltYXRpb25Gb3JFbW90aW9uKGVtb3Rpb24pID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIGR1cmF0aW9uU2Vjb25kcyA9IEpuaUJyaWRnZS5nZXRBbmltYXRpb25EdXJhdGlvbihhbmltYXRpb25OYW1lKQogICAgICAgIGlmICghZHVyYXRpb25TZWNvbmRzLmlzRmluaXRlKCkgfHwgZHVyYXRpb25TZWNvbmRzIDw9IDBmKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gKGR1cmF0aW9uU2Vjb25kcyAqIDEwMDBmKS50b0xvbmcoKS5jb2VyY2VBdExlYXN0KDFMKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBlc3RpbWF0ZVRyaWdnZXJEdXJhdGlvbk1pbGxpcyh0cmlnZ2VyTmFtZTogU3RyaW5nKTogTG9uZz8gewogICAgICAgIHZhbCBhbmltYXRpb25OYW1lID0KICAgICAgICAgICAgcmVzb2x2ZUFuaW1hdGlvbkZvclRyaWdnZXIoQXZhdGFyTW9vZFR5cGVzLm5vcm1hbGl6ZUtleSh0cmlnZ2VyTmFtZSkpID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIGR1cmF0aW9uU2Vjb25kcyA9IEpuaUJyaWRnZS5nZXRBbmltYXRpb25EdXJhdGlvbihhbmltYXRpb25OYW1lKQogICAgICAgIGlmICghZHVyYXRpb25TZWNvbmRzLmlzRmluaXRlKCkgfHwgZHVyYXRpb25TZWNvbmRzIDw9IDBmKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gKGR1cmF0aW9uU2Vjb25kcyAqIDEwMDBmKS50b0xvbmcoKS5jb2VyY2VBdExlYXN0KDFMKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBwbGF5QW5pbWF0aW9uKGFuaW1hdGlvbk5hbWU6IFN0cmluZywgbG9vcDogSW50KSB7CiAgICAgICAgaWYgKGF2YWlsYWJsZUFuaW1hdGlvbnMuY29udGFpbnMoYW5pbWF0aW9uTmFtZSkpIHsKICAgICAgICAgICAgbGliQ29udHJvbGxlci5wbGF5QW5pbWF0aW9uKGFuaW1hdGlvbk5hbWUsIGxvb3AudG9GbG9hdCgpKQogICAgICAgICAgICBfc3RhdGUudmFsdWUgPSBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgIGN1cnJlbnRBbmltYXRpb24gPSBhbmltYXRpb25OYW1lLAogICAgICAgICAgICAgICAgaXNMb29waW5nID0gbG9vcCA9PSAwCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgLy8gYGxvb2tBdGAgaXMgbm90IHN1cHBvcnRlZCBieSB0aGUgRHJhZ29uQm9uZXMgaW1wbGVtZW50YXRpb24uCiAgICBvdmVycmlkZSBmdW4gbG9va0F0KHg6IEZsb2F0LCB5OiBGbG9hdCkgewogICAgICAgIC8vIE5vLW9wCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHVwZGF0ZVNldHRpbmdzKHNldHRpbmdzOiBNYXA8U3RyaW5nLCBBbnk+KSB7CiAgICAgICAgc2V0dGluZ3NbQXZhdGFyU2V0dGluZ0tleXMuU0NBTEVdCiAgICAgICAgICAgID8ubGV0IHsgaXQgYXM/IE51bWJlciB9CiAgICAgICAgICAgID8udG9GbG9hdCgpCiAgICAgICAgICAgID8ubGV0IHsgc2NhbGUgLT4KICAgICAgICAgICAgICAgIHZhbCBub3JtYWxpemVkU2NhbGUgPQogICAgICAgICAgICAgICAgICAgIGlmIChzY2FsZS5pc0Zpbml0ZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHNjYWxlLmNvZXJjZUluKDAuMWYsIDUuMGYpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgMC41ZgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxpYkNvbnRyb2xsZXIuc2NhbGUgPSBub3JtYWxpemVkU2NhbGUKICAgICAgICAgICAgfQoKICAgICAgICBzZXR0aW5nc1tBdmF0YXJTZXR0aW5nS2V5cy5UUkFOU0xBVEVfWF0KICAgICAgICAgICAgPy5sZXQgeyBpdCBhcz8gTnVtYmVyIH0KICAgICAgICAgICAgPy50b0Zsb2F0KCkKICAgICAgICAgICAgPy5sZXQgeyB0cmFuc2xhdGVYIC0+CiAgICAgICAgICAgICAgICBpZiAodHJhbnNsYXRlWC5pc0Zpbml0ZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgbGliQ29udHJvbGxlci50cmFuc2xhdGlvblggPSB0cmFuc2xhdGVYLmNvZXJjZUluKC0yMDAwZiwgMjAwMGYpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgc2V0dGluZ3NbQXZhdGFyU2V0dGluZ0tleXMuVFJBTlNMQVRFX1ldCiAgICAgICAgICAgID8ubGV0IHsgaXQgYXM/IE51bWJlciB9CiAgICAgICAgICAgID8udG9GbG9hdCgpCiAgICAgICAgICAgID8ubGV0IHsgdHJhbnNsYXRlWSAtPgogICAgICAgICAgICAgICAgaWYgKHRyYW5zbGF0ZVkuaXNGaW5pdGUoKSkgewogICAgICAgICAgICAgICAgICAgIGxpYkNvbnRyb2xsZXIudHJhbnNsYXRpb25ZID0gdHJhbnNsYXRlWS5jb2VyY2VJbigtMjAwMGYsIDIwMDBmKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHVwZGF0ZUVtb3Rpb25BbmltYXRpb25NYXBwaW5nKG1hcHBpbmc6IE1hcDxBdmF0YXJFbW90aW9uLCBTdHJpbmc+KSB7CiAgICAgICAgZW1vdGlvbkFuaW1hdGlvbk1hcHBpbmcgPSBtYXBwaW5nCiAgICAgICAgICAgIC5tYXBWYWx1ZXMgeyAoXywgYW5pbWF0aW9uTmFtZSkgLT4gYW5pbWF0aW9uTmFtZS50cmltKCkgfQogICAgICAgICAgICAuZmlsdGVyVmFsdWVzIHsgYW5pbWF0aW9uTmFtZSAtPiBhbmltYXRpb25OYW1lLmlzTm90QmxhbmsoKSB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHVwZGF0ZVRyaWdnZXJBbmltYXRpb25NYXBwaW5nKG1hcHBpbmc6IE1hcDxTdHJpbmcsIFN0cmluZz4pIHsKICAgICAgICB0cmlnZ2VyQW5pbWF0aW9uTWFwcGluZyA9CiAgICAgICAgICAgIG1hcHBpbmcuZW50cmllcy5tYXBOb3ROdWxsIHsgKHJhd0tleSwgcmF3QW5pbWF0aW9uTmFtZSkgLT4KICAgICAgICAgICAgICAgIHZhbCBrZXkgPSBBdmF0YXJNb29kVHlwZXMubm9ybWFsaXplS2V5KHJhd0tleSkKICAgICAgICAgICAgICAgIHZhbCBhbmltYXRpb25OYW1lID0gcmF3QW5pbWF0aW9uTmFtZS50cmltKCkKICAgICAgICAgICAgICAgIGlmIChrZXkuaXNCbGFuaygpIHx8IGFuaW1hdGlvbk5hbWUuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQG1hcE5vdE51bGwgbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAga2V5IHRvIGFuaW1hdGlvbk5hbWUKICAgICAgICAgICAgfS50b01hcCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVzb2x2ZUFuaW1hdGlvbkZvckVtb3Rpb24oZW1vdGlvbjogQXZhdGFyRW1vdGlvbik6IFN0cmluZz8gewogICAgICAgIHZhbCBwcmVmZXJyZWQgPSBlbW90aW9uQW5pbWF0aW9uTWFwcGluZ1tlbW90aW9uXQogICAgICAgIGlmICghcHJlZmVycmVkLmlzTnVsbE9yQmxhbmsoKSAmJiBhdmFpbGFibGVBbmltYXRpb25zLmNvbnRhaW5zKHByZWZlcnJlZCkpIHsKICAgICAgICAgICAgcmV0dXJuIHByZWZlcnJlZAogICAgICAgIH0KCiAgICAgICAgdmFsIGRpcmVjdE5hbWUgPSBlbW90aW9uLm5hbWUubG93ZXJjYXNlKCkKICAgICAgICBpZiAoYXZhaWxhYmxlQW5pbWF0aW9ucy5jb250YWlucyhkaXJlY3ROYW1lKSkgewogICAgICAgICAgICByZXR1cm4gZGlyZWN0TmFtZQogICAgICAgIH0KCiAgICAgICAgaWYgKGVtb3Rpb24gIT0gQXZhdGFyRW1vdGlvbi5JRExFKSB7CiAgICAgICAgICAgIHZhbCBpZGxlRmFsbGJhY2sgPSBlbW90aW9uQW5pbWF0aW9uTWFwcGluZ1tBdmF0YXJFbW90aW9uLklETEVdCiAgICAgICAgICAgIGlmICghaWRsZUZhbGxiYWNrLmlzTnVsbE9yQmxhbmsoKSAmJiBhdmFpbGFibGVBbmltYXRpb25zLmNvbnRhaW5zKGlkbGVGYWxsYmFjaykpIHsKICAgICAgICAgICAgICAgIHJldHVybiBpZGxlRmFsbGJhY2sKICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIGlkbGVOYW1lID0gQXZhdGFyRW1vdGlvbi5JRExFLm5hbWUubG93ZXJjYXNlKCkKICAgICAgICAgICAgaWYgKGF2YWlsYWJsZUFuaW1hdGlvbnMuY29udGFpbnMoaWRsZU5hbWUpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gaWRsZU5hbWUKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIG51bGwKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXNvbHZlQW5pbWF0aW9uRm9yVHJpZ2dlcih0cmlnZ2VyTmFtZTogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgdmFsIHByZWZlcnJlZCA9IHRyaWdnZXJBbmltYXRpb25NYXBwaW5nW3RyaWdnZXJOYW1lXQogICAgICAgIGlmICghcHJlZmVycmVkLmlzTnVsbE9yQmxhbmsoKSAmJiBhdmFpbGFibGVBbmltYXRpb25zLmNvbnRhaW5zKHByZWZlcnJlZCkpIHsKICAgICAgICAgICAgcmV0dXJuIHByZWZlcnJlZAogICAgICAgIH0KCiAgICAgICAgaWYgKGF2YWlsYWJsZUFuaW1hdGlvbnMuY29udGFpbnModHJpZ2dlck5hbWUpKSB7CiAgICAgICAgICAgIHJldHVybiB0cmlnZ2VyTmFtZQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIG51bGwKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXNvbHZlRW1vdGlvbkZyb21BbmltYXRpb25OYW1lKGFuaW1hdGlvbk5hbWU6IFN0cmluZyk6IEF2YXRhckVtb3Rpb24/IHsKICAgICAgICByZXR1cm4gQXZhdGFyRW1vdGlvbi52YWx1ZXMoKS5maXJzdE9yTnVsbCB7IGVtb3Rpb24gLT4KICAgICAgICAgICAgZW1vdGlvbi5uYW1lLmxvd2VyY2FzZSgpID09IGFuaW1hdGlvbk5hbWUKICAgICAgICB9CiAgICB9Cn0KCi8qKgogKiBBIENvbXBvc2FibGUgZnVuY3Rpb24gdG8gY3JlYXRlIGFuZCByZW1lbWJlciBhIFtEcmFnb25Cb25lc0F2YXRhckNvbnRyb2xsZXJdLgogKiBUaGlzIGZvbGxvd3MgdGhlIHN0YW5kYXJkIHBhdHRlcm4gZm9yIGNyZWF0aW5nIGNvbnRyb2xsZXJzIGluIEpldHBhY2sgQ29tcG9zZS4KICogSXQgZW5zdXJlcyB0aGUgY29udHJvbGxlciBpbnN0YW5jZSBpcyBwcmVzZXJ2ZWQgYWNyb3NzIHJlY29tcG9zaXRpb25zLgogKgogKiBAcmV0dXJuIEFuIGluc3RhbmNlIG9mIFtEcmFnb25Cb25lc0F2YXRhckNvbnRyb2xsZXJdLgogKi8KQENvbXBvc2FibGUKZnVuIHJlbWVtYmVyRHJhZ29uQm9uZXNBdmF0YXJDb250cm9sbGVyKCk6IERyYWdvbkJvbmVzQXZhdGFyQ29udHJvbGxlciB7CiAgICB2YWwgbGliQ29udHJvbGxlciA9IGNvbS5kcmFnb25ib25lcy5yZW1lbWJlckRyYWdvbkJvbmVzQ29udHJvbGxlcigpCiAgICByZXR1cm4gcmVtZW1iZXIgeyBEcmFnb25Cb25lc0F2YXRhckNvbnRyb2xsZXIobGliQ29udHJvbGxlcikgfQp9IAo=
+package com.bslsjdk.operit.core.avatar.impl.dragonbones.control
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.common.control.AvatarSettingKeys
+import com.bslsjdk.operit.core.avatar.common.state.AvatarEmotion
+import com.bslsjdk.operit.core.avatar.common.state.AvatarMoodTypes
+import com.bslsjdk.operit.core.avatar.common.state.AvatarState
+import com.dragonbones.JniBridge
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import com.dragonbones.DragonBonesController as DragonBonesLibController
+
+/**
+ * A concrete implementation of [AvatarController] for DragonBones avatars.
+ * It wraps the library-specific [DragonBonesLibController] to expose
+ * a standardized API for avatar control.
+ *
+ * @param libController The underlying controller from the DragonBones rendering library.
+ */
+class DragonBonesAvatarController(
+    val libController: DragonBonesLibController
+) : AvatarController {
+
+    private val _state = MutableStateFlow(AvatarState())
+    override val state: StateFlow<AvatarState> = _state.asStateFlow()
+
+    override val availableAnimations: List<String>
+        get() = libController.animationNames
+
+    private var emotionAnimationMapping: Map<AvatarEmotion, String> = emptyMap()
+    private var triggerAnimationMapping: Map<String, String> = emptyMap()
+
+    override fun setEmotion(newEmotion: AvatarEmotion) {
+        playEmotion(newEmotion, loop = 0)
+    }
+
+    override fun playEmotion(emotion: AvatarEmotion, loop: Int) {
+        val animationName = resolveAnimationForEmotion(emotion) ?: return
+
+        libController.playAnimation(animationName, loop.toFloat())
+        _state.value = _state.value.copy(
+            emotion = emotion,
+            currentAnimation = animationName,
+            isLooping = loop == 0
+        )
+    }
+
+    override fun playTrigger(triggerName: String, loop: Int): Boolean {
+        val normalizedTrigger = AvatarMoodTypes.normalizeKey(triggerName)
+        val animationName = resolveAnimationForTrigger(normalizedTrigger) ?: return false
+
+        libController.playAnimation(animationName, loop.toFloat())
+        _state.value = _state.value.copy(
+            emotion =
+                AvatarMoodTypes.builtInFallbackEmotion(normalizedTrigger)
+                    ?: resolveEmotionFromAnimationName(animationName)
+                    ?: _state.value.emotion,
+            currentAnimation = animationName,
+            isLooping = loop == 0
+        )
+        return true
+    }
+
+    override fun estimateEmotionDurationMillis(emotion: AvatarEmotion): Long? {
+        val animationName = resolveAnimationForEmotion(emotion) ?: return null
+        val durationSeconds = JniBridge.getAnimationDuration(animationName)
+        if (!durationSeconds.isFinite() || durationSeconds <= 0f) {
+            return null
+        }
+
+        return (durationSeconds * 1000f).toLong().coerceAtLeast(1L)
+    }
+
+    override fun estimateTriggerDurationMillis(triggerName: String): Long? {
+        val animationName =
+            resolveAnimationForTrigger(AvatarMoodTypes.normalizeKey(triggerName)) ?: return null
+        val durationSeconds = JniBridge.getAnimationDuration(animationName)
+        if (!durationSeconds.isFinite() || durationSeconds <= 0f) {
+            return null
+        }
+
+        return (durationSeconds * 1000f).toLong().coerceAtLeast(1L)
+    }
+
+    override fun playAnimation(animationName: String, loop: Int) {
+        if (availableAnimations.contains(animationName)) {
+            libController.playAnimation(animationName, loop.toFloat())
+            _state.value = _state.value.copy(
+                currentAnimation = animationName,
+                isLooping = loop == 0
+            )
+        }
+    }
+
+    // `lookAt` is not supported by the DragonBones implementation.
+    override fun lookAt(x: Float, y: Float) {
+        // No-op
+    }
+
+    override fun updateSettings(settings: Map<String, Any>) {
+        settings[AvatarSettingKeys.SCALE]
+            ?.let { it as? Number }
+            ?.toFloat()
+            ?.let { scale ->
+                val normalizedScale =
+                    if (scale.isFinite()) {
+                        scale.coerceIn(0.1f, 5.0f)
+                    } else {
+                        0.5f
+                    }
+                libController.scale = normalizedScale
+            }
+
+        settings[AvatarSettingKeys.TRANSLATE_X]
+            ?.let { it as? Number }
+            ?.toFloat()
+            ?.let { translateX ->
+                if (translateX.isFinite()) {
+                    libController.translationX = translateX.coerceIn(-2000f, 2000f)
+                }
+            }
+
+        settings[AvatarSettingKeys.TRANSLATE_Y]
+            ?.let { it as? Number }
+            ?.toFloat()
+            ?.let { translateY ->
+                if (translateY.isFinite()) {
+                    libController.translationY = translateY.coerceIn(-2000f, 2000f)
+                }
+            }
+    }
+
+    override fun updateEmotionAnimationMapping(mapping: Map<AvatarEmotion, String>) {
+        emotionAnimationMapping = mapping
+            .mapValues { (_, animationName) -> animationName.trim() }
+            .filterValues { animationName -> animationName.isNotBlank() }
+    }
+
+    override fun updateTriggerAnimationMapping(mapping: Map<String, String>) {
+        triggerAnimationMapping =
+            mapping.entries.mapNotNull { (rawKey, rawAnimationName) ->
+                val key = AvatarMoodTypes.normalizeKey(rawKey)
+                val animationName = rawAnimationName.trim()
+                if (key.isBlank() || animationName.isBlank()) {
+                    return@mapNotNull null
+                }
+                key to animationName
+            }.toMap()
+    }
+
+    private fun resolveAnimationForEmotion(emotion: AvatarEmotion): String? {
+        val preferred = emotionAnimationMapping[emotion]
+        if (!preferred.isNullOrBlank() && availableAnimations.contains(preferred)) {
+            return preferred
+        }
+
+        val directName = emotion.name.lowercase()
+        if (availableAnimations.contains(directName)) {
+            return directName
+        }
+
+        if (emotion != AvatarEmotion.IDLE) {
+            val idleFallback = emotionAnimationMapping[AvatarEmotion.IDLE]
+            if (!idleFallback.isNullOrBlank() && availableAnimations.contains(idleFallback)) {
+                return idleFallback
+            }
+
+            val idleName = AvatarEmotion.IDLE.name.lowercase()
+            if (availableAnimations.contains(idleName)) {
+                return idleName
+            }
+        }
+
+        return null
+    }
+
+    private fun resolveAnimationForTrigger(triggerName: String): String? {
+        val preferred = triggerAnimationMapping[triggerName]
+        if (!preferred.isNullOrBlank() && availableAnimations.contains(preferred)) {
+            return preferred
+        }
+
+        if (availableAnimations.contains(triggerName)) {
+            return triggerName
+        }
+
+        return null
+    }
+
+    private fun resolveEmotionFromAnimationName(animationName: String): AvatarEmotion? {
+        return AvatarEmotion.values().firstOrNull { emotion ->
+            emotion.name.lowercase() == animationName
+        }
+    }
+}
+
+/**
+ * A Composable function to create and remember a [DragonBonesAvatarController].
+ * This follows the standard pattern for creating controllers in Jetpack Compose.
+ * It ensures the controller instance is preserved across recompositions.
+ *
+ * @return An instance of [DragonBonesAvatarController].
+ */
+@Composable
+fun rememberDragonBonesAvatarController(): DragonBonesAvatarController {
+    val libController = com.dragonbones.rememberDragonBonesController()
+    return remember { DragonBonesAvatarController(libController) }
+} 

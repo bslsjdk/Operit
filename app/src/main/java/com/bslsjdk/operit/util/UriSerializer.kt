@@ -1,1 +1,22 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLktTZXJpYWxpemVyCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uZGVzY3JpcHRvcnMuUHJpbWl0aXZlS2luZAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlc2NyaXB0b3JzLlByaW1pdGl2ZVNlcmlhbERlc2NyaXB0b3IKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5kZXNjcmlwdG9ycy5TZXJpYWxEZXNjcmlwdG9yCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uZW5jb2RpbmcuRGVjb2RlcgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmVuY29kaW5nLkVuY29kZXIKCm9iamVjdCBVcmlTZXJpYWxpemVyIDogS1NlcmlhbGl6ZXI8VXJpPz4gewogICAgb3ZlcnJpZGUgdmFsIGRlc2NyaXB0b3I6IFNlcmlhbERlc2NyaXB0b3IgPSBQcmltaXRpdmVTZXJpYWxEZXNjcmlwdG9yKCJVcmkiLCBQcmltaXRpdmVLaW5kLlNUUklORykKCiAgICBvdmVycmlkZSBmdW4gc2VyaWFsaXplKGVuY29kZXI6IEVuY29kZXIsIHZhbHVlOiBVcmk/KSB7CiAgICAgICAgZW5jb2Rlci5lbmNvZGVTdHJpbmcodmFsdWU/LnRvU3RyaW5nKCkgPzogIiIpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGRlc2VyaWFsaXplKGRlY29kZXI6IERlY29kZXIpOiBVcmk/IHsKICAgICAgICB2YWwgc3RyaW5nID0gZGVjb2Rlci5kZWNvZGVTdHJpbmcoKQogICAgICAgIHJldHVybiBpZiAoc3RyaW5nLmlzRW1wdHkoKSkgbnVsbCBlbHNlIFVyaS5wYXJzZShzdHJpbmcpCiAgICB9Cn0g
+package com.bslsjdk.operit.util
+
+import android.net.Uri
+import kotlinx.serialization.KSerializer
+import kotlinx.serialization.descriptors.PrimitiveKind
+import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
+import kotlinx.serialization.descriptors.SerialDescriptor
+import kotlinx.serialization.encoding.Decoder
+import kotlinx.serialization.encoding.Encoder
+
+object UriSerializer : KSerializer<Uri?> {
+    override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor("Uri", PrimitiveKind.STRING)
+
+    override fun serialize(encoder: Encoder, value: Uri?) {
+        encoder.encodeString(value?.toString() ?: "")
+    }
+
+    override fun deserialize(decoder: Decoder): Uri? {
+        val string = decoder.decodeString()
+        return if (string.isEmpty()) null else Uri.parse(string)
+    }
+} 

@@ -1,1 +1,84 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgeyBhc3NlcnQsIGFzc2VydEVxLCB0ZXN0LCBydW5UZXN0cyB9ID0gcmVxdWlyZSgnLi4vLi4vLi4vLi4vLi4vLi4vLi4vLi4vbGliL2hhcm5lc3MnKTsKCmNvbnN0IEZpbGUgPSBKYXZhLnR5cGUoJ2phdmEuaW8uRmlsZScpOwpjb25zdCBUaHJlYWQgPSBKYXZhLnR5cGUoJ2phdmEubGFuZy5UaHJlYWQnKTsKY29uc3QgUnVubmFibGUgPSBKYXZhLnR5cGUoJ2phdmEubGFuZy5SdW5uYWJsZScpOwpjb25zdCBDYWxsYWJsZSA9IEphdmEudHlwZSgnamF2YS51dGlsLmNvbmN1cnJlbnQuQ2FsbGFibGUnKTsKY29uc3QgRnV0dXJlVGFzayA9IEphdmEudHlwZSgnamF2YS51dGlsLmNvbmN1cnJlbnQuRnV0dXJlVGFzaycpOwpjb25zdCBTdHJpbmdCdWlsZGVyID0gSmF2YS50eXBlKCdqYXZhLmxhbmcuU3RyaW5nQnVpbGRlcicpOwpjb25zdCBBcnJheUxpc3QgPSBKYXZhLnR5cGUoJ2phdmEudXRpbC5BcnJheUxpc3QnKTsKY29uc3QgSGFzaE1hcCA9IEphdmEudHlwZSgnamF2YS51dGlsLkhhc2hNYXAnKTsKY29uc3QgSlNPTk9iamVjdCA9IEphdmEudHlwZSgnb3JnLmpzb24uSlNPTk9iamVjdCcpOwpjb25zdCBKU09OQXJyYXkgPSBKYXZhLnR5cGUoJ29yZy5qc29uLkpTT05BcnJheScpOwpjb25zdCBJbnRlZ2VyID0gSmF2YS5qYXZhLmxhbmcuSW50ZWdlcjsKY29uc3QgTWF0aENsYXNzID0gSmF2YS5qYXZhLmxhbmcuTWF0aDsKY29uc3QgQ2hhcnNldCA9IEphdmEuamF2YS5uaW8uY2hhcnNldC5DaGFyc2V0Owpjb25zdCBNYXBFbnRyeSA9IEphdmEuamF2YS51dGlsLk1hcC5FbnRyeTsKY29uc3QgQXJyYXlzQ2xhc3MgPSBKYXZhLmphdmEudXRpbC5BcnJheXM7CmNvbnN0IENvbGxlY3Rpb25zID0gSmF2YS5qYXZhLnV0aWwuQ29sbGVjdGlvbnM7CmNvbnN0IFRpbWVVbml0ID0gSmF2YS5qYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdDsKY29uc3QgQnVpbGRWZXJzaW9uID0gSmF2YS5hbmRyb2lkLm9zLkJ1aWxkLlZFUlNJT047CgpmdW5jdGlvbiBtYWtlRmlsZShwYXRoKSB7CiAgcmV0dXJuIG5ldyBGaWxlKFN0cmluZyhwYXRoKSk7Cn0KCmZ1bmN0aW9uIHJ1blRocmVhZEFuZEpvaW4ocnVubmFibGVMaWtlLCB0aW1lb3V0TXMpIHsKICBjb25zdCB3b3JrZXIgPSBuZXcgVGhyZWFkKHJ1bm5hYmxlTGlrZSk7CiAgd29ya2VyLnN0YXJ0KCk7CiAgd29ya2VyLmpvaW4odGltZW91dE1zIHx8IDIwMDApOwp9CgpmdW5jdGlvbiBydW5GdXR1cmVUYXNrKGNhbGxhYmxlTGlrZSwgdGltZW91dE1zKSB7CiAgY29uc3QgdGFzayA9IG5ldyBGdXR1cmVUYXNrKGNhbGxhYmxlTGlrZSk7CiAgY29uc3Qgd29ya2VyID0gbmV3IFRocmVhZCh0YXNrKTsKICB3b3JrZXIuc3RhcnQoKTsKICB3b3JrZXIuam9pbih0aW1lb3V0TXMgfHwgMjAwMCk7CiAgcmV0dXJuIHRhc2suZ2V0KCk7Cn0KCmZ1bmN0aW9uIGFzc2VydEFycmF5KHZhbHVlLCBtZXNzYWdlKSB7CiAgYXNzZXJ0KEFycmF5LmlzQXJyYXkodmFsdWUpLCBtZXNzYWdlIHx8ICdleHBlY3RlZCBKUyBhcnJheScpOwp9CgpmdW5jdGlvbiBhc3NlcnRQbGFpbk9iamVjdCh2YWx1ZSwgbWVzc2FnZSkgewogIGFzc2VydCh2YWx1ZSAmJiB0eXBlb2YgdmFsdWUgPT09ICdvYmplY3QnICYmICFBcnJheS5pc0FycmF5KHZhbHVlKSwgbWVzc2FnZSB8fCAnZXhwZWN0ZWQgcGxhaW4gb2JqZWN0Jyk7Cn0KCmFzeW5jIGZ1bmN0aW9uIHJ1blN1aXRlKHRlc3RzKSB7CiAgY29uc3QgcmVzdWx0ID0gYXdhaXQgcnVuVGVzdHModGVzdHMpOwogIGFzc2VydChyZXN1bHQucGFzc2VkICsgcmVzdWx0LmZhaWxlZCA+IDAsICdubyB0ZXN0cyBleGVjdXRlZCcpOwogIHJldHVybiByZXN1bHQ7Cn0KCm1vZHVsZS5leHBvcnRzID0gewogIGFzc2VydCwKICBhc3NlcnRFcSwKICB0ZXN0LAogIHJ1blN1aXRlLAogIGFzc2VydEFycmF5LAogIGFzc2VydFBsYWluT2JqZWN0LAogIG1ha2VGaWxlLAogIHJ1blRocmVhZEFuZEpvaW4sCiAgcnVuRnV0dXJlVGFzaywKICBGaWxlLAogIFRocmVhZCwKICBSdW5uYWJsZSwKICBDYWxsYWJsZSwKICBGdXR1cmVUYXNrLAogIFN0cmluZ0J1aWxkZXIsCiAgQXJyYXlMaXN0LAogIEhhc2hNYXAsCiAgSlNPTk9iamVjdCwKICBKU09OQXJyYXksCiAgSW50ZWdlciwKICBNYXRoQ2xhc3MsCiAgQ2hhcnNldCwKICBNYXBFbnRyeSwKICBBcnJheXNDbGFzcywKICBDb2xsZWN0aW9ucywKICBUaW1lVW5pdCwKICBCdWlsZFZlcnNpb24sCn07Cg==
+'use strict';
+
+const { assert, assertEq, test, runTests } = require('../../../../../../../../lib/harness');
+
+const File = Java.type('java.io.File');
+const Thread = Java.type('java.lang.Thread');
+const Runnable = Java.type('java.lang.Runnable');
+const Callable = Java.type('java.util.concurrent.Callable');
+const FutureTask = Java.type('java.util.concurrent.FutureTask');
+const StringBuilder = Java.type('java.lang.StringBuilder');
+const ArrayList = Java.type('java.util.ArrayList');
+const HashMap = Java.type('java.util.HashMap');
+const JSONObject = Java.type('org.json.JSONObject');
+const JSONArray = Java.type('org.json.JSONArray');
+const Integer = Java.java.lang.Integer;
+const MathClass = Java.java.lang.Math;
+const Charset = Java.java.nio.charset.Charset;
+const MapEntry = Java.java.util.Map.Entry;
+const ArraysClass = Java.java.util.Arrays;
+const Collections = Java.java.util.Collections;
+const TimeUnit = Java.java.util.concurrent.TimeUnit;
+const BuildVersion = Java.android.os.Build.VERSION;
+
+function makeFile(path) {
+  return new File(String(path));
+}
+
+function runThreadAndJoin(runnableLike, timeoutMs) {
+  const worker = new Thread(runnableLike);
+  worker.start();
+  worker.join(timeoutMs || 2000);
+}
+
+function runFutureTask(callableLike, timeoutMs) {
+  const task = new FutureTask(callableLike);
+  const worker = new Thread(task);
+  worker.start();
+  worker.join(timeoutMs || 2000);
+  return task.get();
+}
+
+function assertArray(value, message) {
+  assert(Array.isArray(value), message || 'expected JS array');
+}
+
+function assertPlainObject(value, message) {
+  assert(value && typeof value === 'object' && !Array.isArray(value), message || 'expected plain object');
+}
+
+async function runSuite(tests) {
+  const result = await runTests(tests);
+  assert(result.passed + result.failed > 0, 'no tests executed');
+  return result;
+}
+
+module.exports = {
+  assert,
+  assertEq,
+  test,
+  runSuite,
+  assertArray,
+  assertPlainObject,
+  makeFile,
+  runThreadAndJoin,
+  runFutureTask,
+  File,
+  Thread,
+  Runnable,
+  Callable,
+  FutureTask,
+  StringBuilder,
+  ArrayList,
+  HashMap,
+  JSONObject,
+  JSONArray,
+  Integer,
+  MathClass,
+  Charset,
+  MapEntry,
+  ArraysClass,
+  Collections,
+  TimeUnit,
+  BuildVersion,
+};

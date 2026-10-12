@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db25jdXJyZW50SGFzaE1hcAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMuU2VtYXBob3JlCgpvYmplY3QgUmVxdWVzdENvbmN1cnJlbmN5UmVnaXN0cnkgewogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIEVudHJ5KAogICAgICAgIHZhbCBtYXhDb25jdXJyZW50UmVxdWVzdHM6IEludCwKICAgICAgICB2YWwgc2VtYXBob3JlOiBTZW1hcGhvcmUKICAgICkKCiAgICBwcml2YXRlIHZhbCBzZW1hcGhvcmVzID0gQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBFbnRyeT4oKQoKICAgIGZ1biBnZXRPckNyZWF0ZShrZXk6IFN0cmluZywgbWF4Q29uY3VycmVudFJlcXVlc3RzOiBJbnQpOiBTZW1hcGhvcmUgewogICAgICAgIHJlcXVpcmUobWF4Q29uY3VycmVudFJlcXVlc3RzID4gMCkgeyAibWF4Q29uY3VycmVudFJlcXVlc3RzIG11c3QgYmUgPiAwIiB9CgogICAgICAgIHJldHVybiBzZW1hcGhvcmVzLmNvbXB1dGUoa2V5KSB7IF8sIGV4aXN0aW5nIC0+CiAgICAgICAgICAgIGlmIChleGlzdGluZyA9PSBudWxsIHx8IGV4aXN0aW5nLm1heENvbmN1cnJlbnRSZXF1ZXN0cyAhPSBtYXhDb25jdXJyZW50UmVxdWVzdHMpIHsKICAgICAgICAgICAgICAgIEVudHJ5KAogICAgICAgICAgICAgICAgICAgIG1heENvbmN1cnJlbnRSZXF1ZXN0cyA9IG1heENvbmN1cnJlbnRSZXF1ZXN0cywKICAgICAgICAgICAgICAgICAgICBzZW1hcGhvcmUgPSBTZW1hcGhvcmUobWF4Q29uY3VycmVudFJlcXVlc3RzKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgZXhpc3RpbmcKICAgICAgICAgICAgfQogICAgICAgIH0hIS5zZW1hcGhvcmUKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.sync.Semaphore
+
+object RequestConcurrencyRegistry {
+    private data class Entry(
+        val maxConcurrentRequests: Int,
+        val semaphore: Semaphore
+    )
+
+    private val semaphores = ConcurrentHashMap<String, Entry>()
+
+    fun getOrCreate(key: String, maxConcurrentRequests: Int): Semaphore {
+        require(maxConcurrentRequests > 0) { "maxConcurrentRequests must be > 0" }
+
+        return semaphores.compute(key) { _, existing ->
+            if (existing == null || existing.maxConcurrentRequests != maxConcurrentRequests) {
+                Entry(
+                    maxConcurrentRequests = maxConcurrentRequests,
+                    semaphore = Semaphore(maxConcurrentRequests)
+                )
+            } else {
+                existing
+            }
+        }!!.semaphore
+    }
+}

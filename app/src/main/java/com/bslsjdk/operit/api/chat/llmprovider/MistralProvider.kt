@@ -1,1 +1,95 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkNoYXRNYXJrdXBSZWdleAppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9yZy5qc29uLkpTT05BcnJheQppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAoKY2xhc3MgTWlzdHJhbFByb3ZpZGVyKAogICAgYXBpRW5kcG9pbnQ6IFN0cmluZywKICAgIGFwaUtleVByb3ZpZGVyOiBBcGlLZXlQcm92aWRlciwKICAgIG1vZGVsTmFtZTogU3RyaW5nLAogICAgY2xpZW50OiBPa0h0dHBDbGllbnQsCiAgICBjdXN0b21IZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKSwKICAgIHByb3ZpZGVyVHlwZTogQXBpUHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLk1JU1RSQUwsCiAgICBzdXBwb3J0c1Zpc2lvbjogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNBdWRpbzogQm9vbGVhbiA9IGZhbHNlLAogICAgc3VwcG9ydHNWaWRlbzogQm9vbGVhbiA9IGZhbHNlLAogICAgZW5hYmxlVG9vbENhbGw6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnM6IFN0cmluZyA9ICIiLAogICAgdGhpbmtpbmdPcHRpb25JZDogU3RyaW5nID0gIiIKKSA6IE9wZW5BSVByb3ZpZGVyKAogICAgICAgIGFwaUVuZHBvaW50ID0gYXBpRW5kcG9pbnQsCiAgICAgICAgYXBpS2V5UHJvdmlkZXIgPSBhcGlLZXlQcm92aWRlciwKICAgICAgICBtb2RlbE5hbWUgPSBtb2RlbE5hbWUsCiAgICAgICAgY2xpZW50ID0gY2xpZW50LAogICAgICAgIGN1c3RvbUhlYWRlcnMgPSBjdXN0b21IZWFkZXJzLAogICAgICAgIHByb3ZpZGVyVHlwZSA9IHByb3ZpZGVyVHlwZSwKICAgICAgICBzdXBwb3J0c1Zpc2lvbiA9IHN1cHBvcnRzVmlzaW9uLAogICAgICAgIHN1cHBvcnRzQXVkaW8gPSBzdXBwb3J0c0F1ZGlvLAogICAgICAgIHN1cHBvcnRzVmlkZW8gPSBzdXBwb3J0c1ZpZGVvLAogICAgICAgIGVuYWJsZVRvb2xDYWxsID0gZW5hYmxlVG9vbENhbGwsCiAgICAgICAgdGhpbmtpbmdDb25maWd1cmF0aW9ucyA9IHRoaW5raW5nQ29uZmlndXJhdGlvbnMsCiAgICAgICAgdGhpbmtpbmdPcHRpb25JZCA9IHRoaW5raW5nT3B0aW9uSWQKICAgICkgewoKICAgIG92ZXJyaWRlIGZ1biBwYXJzZVhtbFRvb2xDYWxscyhjb250ZW50OiBTdHJpbmcpOiBQYWlyPFN0cmluZywgSlNPTkFycmF5Pz4gewogICAgICAgIHZhbCBtYXRjaGVzID0gQ2hhdE1hcmt1cFJlZ2V4LnRvb2xDYWxsUGF0dGVybi5maW5kQWxsKGNvbnRlbnQpCgogICAgICAgIGlmICghbWF0Y2hlcy5hbnkoKSkgewogICAgICAgICAgICByZXR1cm4gUGFpcihjb250ZW50LCBudWxsKQogICAgICAgIH0KCiAgICAgICAgdmFsIHRvb2xDYWxscyA9IEpTT05BcnJheSgpCiAgICAgICAgdmFyIHRleHRDb250ZW50ID0gY29udGVudAogICAgICAgIHZhciBjYWxsSW5kZXggPSAwCgogICAgICAgIG1hdGNoZXMuZm9yRWFjaCB7IG1hdGNoIC0+CiAgICAgICAgICAgIHZhbCB0b29sTmFtZSA9IG1hdGNoLmdyb3VwVmFsdWVzWzJdCiAgICAgICAgICAgIHZhbCB0b29sQm9keSA9IG1hdGNoLmdyb3VwVmFsdWVzWzNdCiAgICAgICAgICAgIHZhbCBwYXJhbXMgPSBKU09OT2JqZWN0KCkKCiAgICAgICAgICAgIENoYXRNYXJrdXBSZWdleC50b29sUGFyYW1QYXR0ZXJuLmZpbmRBbGwodG9vbEJvZHkpLmZvckVhY2ggeyBwYXJhbU1hdGNoIC0+CiAgICAgICAgICAgICAgICB2YWwgcGFyYW1OYW1lID0gcGFyYW1NYXRjaC5ncm91cFZhbHVlc1sxXQogICAgICAgICAgICAgICAgdmFsIHBhcmFtVmFsdWUgPSB1bmVzY2FwZVhtbChwYXJhbU1hdGNoLmdyb3VwVmFsdWVzWzJdLnRyaW0oKSkKICAgICAgICAgICAgICAgIHBhcmFtcy5wdXQocGFyYW1OYW1lLCBwYXJhbVZhbHVlKQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgY2FsbElkID0gZ2VuZXJhdGVNaXN0cmFsVG9vbENhbGxJZCh0b29sTmFtZSwgcGFyYW1zLCBjYWxsSW5kZXgpCgogICAgICAgICAgICB0b29sQ2FsbHMucHV0KEpTT05PYmplY3QoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBwdXQoImlkIiwgY2FsbElkKQogICAgICAgICAgICAgICAgcHV0KCJ0eXBlIiwgImZ1bmN0aW9uIikKICAgICAgICAgICAgICAgIHB1dCgiZnVuY3Rpb24iLCBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgIHB1dCgibmFtZSIsIHRvb2xOYW1lKQogICAgICAgICAgICAgICAgICAgIHB1dCgiYXJndW1lbnRzIiwgcGFyYW1zLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICB9KQogICAgICAgICAgICB9KQoKICAgICAgICAgICAgY2FsbEluZGV4KysKICAgICAgICAgICAgdGV4dENvbnRlbnQgPSB0ZXh0Q29udGVudC5yZXBsYWNlKG1hdGNoLnZhbHVlLCAiIikKICAgICAgICB9CgogICAgICAgIHJldHVybiBQYWlyKHRleHRDb250ZW50LnRyaW0oKSwgdG9vbENhbGxzKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGdlbmVyYXRlTWlzdHJhbFRvb2xDYWxsSWQodG9vbE5hbWU6IFN0cmluZywgcGFyYW1zOiBKU09OT2JqZWN0LCBpbmRleDogSW50KTogU3RyaW5nIHsKICAgICAgICB2YWwgcmF3ID0gIiR0b29sTmFtZToke3BhcmFtcy50b1N0cmluZygpfTokaW5kZXgiCiAgICAgICAgdmFsIGhhc2ggPSByYXcuaGFzaENvZGUoKQogICAgICAgIHZhbCBwb3NpdGl2ZSA9IGlmIChoYXNoID09IEludC5NSU5fVkFMVUUpIDAgZWxzZSBrb3RsaW4ubWF0aC5hYnMoaGFzaCkKICAgICAgICB2YXIgYmFzZSA9IHBvc2l0aXZlLnRvU3RyaW5nKDM2KQogICAgICAgIGJhc2UgPSBiYXNlLmZpbHRlciB7IGl0LmlzTGV0dGVyT3JEaWdpdCgpIH0ubG93ZXJjYXNlKCkKICAgICAgICBpZiAoYmFzZS5pc0VtcHR5KCkpIGJhc2UgPSAiMCIKICAgICAgICB2YWwgcGFkZGVkID0gYmFzZS5wYWRTdGFydCg5LCAnMCcpCiAgICAgICAgcmV0dXJuIGlmIChwYWRkZWQubGVuZ3RoID4gOSkgcGFkZGVkLnRha2VMYXN0KDkpIGVsc2UgcGFkZGVkCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdW5lc2NhcGVYbWwodGV4dDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdGV4dC5yZXBsYWNlKCImbHQ7IiwgIjwiKQogICAgICAgICAgICAucmVwbGFjZSgiJmd0OyIsICI+IikKICAgICAgICAgICAgLnJlcGxhY2UoIiZxdW90OyIsICJcIiIpCiAgICAgICAgICAgIC5yZXBsYWNlKCImYXBvczsiLCAiJyIpCiAgICAgICAgICAgIC5yZXBsYWNlKCImYW1wOyIsICImIikKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.util.ChatMarkupRegex
+import okhttp3.OkHttpClient
+import org.json.JSONArray
+import org.json.JSONObject
+
+class MistralProvider(
+    apiEndpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String> = emptyMap(),
+    providerType: ApiProviderType = ApiProviderType.MISTRAL,
+    supportsVision: Boolean = false,
+    supportsAudio: Boolean = false,
+    supportsVideo: Boolean = false,
+    enableToolCall: Boolean = false,
+    thinkingConfigurations: String = "",
+    thinkingOptionId: String = ""
+) : OpenAIProvider(
+        apiEndpoint = apiEndpoint,
+        apiKeyProvider = apiKeyProvider,
+        modelName = modelName,
+        client = client,
+        customHeaders = customHeaders,
+        providerType = providerType,
+        supportsVision = supportsVision,
+        supportsAudio = supportsAudio,
+        supportsVideo = supportsVideo,
+        enableToolCall = enableToolCall,
+        thinkingConfigurations = thinkingConfigurations,
+        thinkingOptionId = thinkingOptionId
+    ) {
+
+    override fun parseXmlToolCalls(content: String): Pair<String, JSONArray?> {
+        val matches = ChatMarkupRegex.toolCallPattern.findAll(content)
+
+        if (!matches.any()) {
+            return Pair(content, null)
+        }
+
+        val toolCalls = JSONArray()
+        var textContent = content
+        var callIndex = 0
+
+        matches.forEach { match ->
+            val toolName = match.groupValues[2]
+            val toolBody = match.groupValues[3]
+            val params = JSONObject()
+
+            ChatMarkupRegex.toolParamPattern.findAll(toolBody).forEach { paramMatch ->
+                val paramName = paramMatch.groupValues[1]
+                val paramValue = unescapeXml(paramMatch.groupValues[2].trim())
+                params.put(paramName, paramValue)
+            }
+
+            val callId = generateMistralToolCallId(toolName, params, callIndex)
+
+            toolCalls.put(JSONObject().apply {
+                put("id", callId)
+                put("type", "function")
+                put("function", JSONObject().apply {
+                    put("name", toolName)
+                    put("arguments", params.toString())
+                })
+            })
+
+            callIndex++
+            textContent = textContent.replace(match.value, "")
+        }
+
+        return Pair(textContent.trim(), toolCalls)
+    }
+
+    private fun generateMistralToolCallId(toolName: String, params: JSONObject, index: Int): String {
+        val raw = "$toolName:${params.toString()}:$index"
+        val hash = raw.hashCode()
+        val positive = if (hash == Int.MIN_VALUE) 0 else kotlin.math.abs(hash)
+        var base = positive.toString(36)
+        base = base.filter { it.isLetterOrDigit() }.lowercase()
+        if (base.isEmpty()) base = "0"
+        val padded = base.padStart(9, '0')
+        return if (padded.length > 9) padded.takeLast(9) else padded
+    }
+
+    private fun unescapeXml(text: String): String {
+        return text.replace("&lt;", "<")
+            .replace("&gt;", ">")
+            .replace("&quot;", "\"")
+            .replace("&apos;", "'")
+            .replace("&amp;", "&")
+    }
+}

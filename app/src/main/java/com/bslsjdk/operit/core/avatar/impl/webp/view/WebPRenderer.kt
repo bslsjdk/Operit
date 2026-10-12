@@ -1,1 +1,163 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC53ZWJwLnZpZXcKCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLkJpdG1hcEZhY3RvcnkKaW1wb3J0IGFuZHJvaWQuZ3JhcGhpY3MuSW1hZ2VEZWNvZGVyCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLmRyYXdhYmxlLkFuaW1hdGFibGUyCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLmRyYXdhYmxlLkFuaW1hdGVkSW1hZ2VEcmF3YWJsZQppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5kcmF3YWJsZS5CaXRtYXBEcmF3YWJsZQppbXBvcnQgYW5kcm9pZC5ncmFwaGljcy5kcmF3YWJsZS5EcmF3YWJsZQppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBhbmRyb2lkLndpZGdldC5JbWFnZVZpZXcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQub2Zmc2V0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkRpc3Bvc2FibGVFZmZlY3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5jb2xsZWN0QXNTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5kcmF3LnNjYWxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnZpZXdpbnRlcm9wLkFuZHJvaWRWaWV3CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLmNvbnRyb2wuQXZhdGFyQ29udHJvbGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmltcGwud2VicC5jb250cm9sLldlYlBBdmF0YXJDb250cm9sbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC53ZWJwLm1vZGVsLldlYlBBdmF0YXJNb2RlbAppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkZpbGVJbnB1dFN0cmVhbQppbXBvcnQgamF2YS5uaW8uQnl0ZUJ1ZmZlcgoKLyoqCiAqIEEgQ29tcG9zYWJsZSBmdW5jdGlvbiByZXNwb25zaWJsZSBmb3IgcmVuZGVyaW5nIGEgV2ViUCBhdmF0YXIuCiAqIEl0IHVzZXMgQW5kcm9pZCdzIEltYWdlRGVjb2RlciB0byBkaXNwbGF5IGFuaW1hdGVkIFdlYlAgZmlsZXMgZnJvbSBhc3NldHMuCiAqCiAqIEBwYXJhbSBtb2RpZmllciBUaGUgbW9kaWZpZXIgdG8gYmUgYXBwbGllZCB0byB0aGUgdmlldy4KICogQHBhcmFtIG1vZGVsIFRoZSBmcmFtZSBzZXF1ZW5jZSBhdmF0YXIgbW9kZWwgY29udGFpbmluZyB0aGUgYW5pbWF0aW9uIHBhdGguCiAqIEBwYXJhbSBjb250cm9sbGVyIFRoZSBhdmF0YXIgY29udHJvbGxlciB0aGF0IG1hbmFnZXMgdGhlIGF2YXRhcidzIHN0YXRlLiBJdCBtdXN0IGJlIGEKICogICBbV2ViUEF2YXRhckNvbnRyb2xsZXJdIGZvciB0aGlzIHJlbmRlcmVyIHRvIGZ1bmN0aW9uLgogKiBAcGFyYW0gb25FcnJvciBBIGNhbGxiYWNrIGZvciBoYW5kbGluZyByZW5kZXJpbmcgZXJyb3JzLgogKi8KQENvbXBvc2FibGUKZnVuIFdlYlBSZW5kZXJlcigKICAgIG1vZGlmaWVyOiBNb2RpZmllciwKICAgIG1vZGVsOiBXZWJQQXZhdGFyTW9kZWwsCiAgICBjb250cm9sbGVyOiBBdmF0YXJDb250cm9sbGVyLAogICAgb25FcnJvcjogKFN0cmluZykgLT4gVW5pdAopIHsKICAgIC8vIFRoaXMgcmVuZGVyZXIgcmVxdWlyZXMgYSBzcGVjaWZpYyBjb250cm9sbGVyIGltcGxlbWVudGF0aW9uCiAgICB2YWwgd2VicENvbnRyb2xsZXIgPSBjb250cm9sbGVyIGFzPyBXZWJQQXZhdGFyQ29udHJvbGxlcgogICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiV2ViUFJlbmRlcmVyIHJlcXVpcmVzIGEgV2ViUEF2YXRhckNvbnRyb2xsZXIiKQoKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKCiAgICAvLyBMaXN0ZW4gdG8gY29udHJvbGxlciBzdGF0ZSBjaGFuZ2VzIHRvIGdldCB0aGUgY3VycmVudCBhbmltYXRpb24gcGF0aAogICAgdmFsIGNvbnRyb2xsZXJTdGF0ZSBieSB3ZWJwQ29udHJvbGxlci5zdGF0ZS5jb2xsZWN0QXNTdGF0ZSgpCiAgICAKICAgIC8vIExpc3RlbiB0byB0cmFuc2Zvcm0gcHJvcGVydGllcwogICAgdmFsIHNjYWxlIGJ5IHdlYnBDb250cm9sbGVyLnNjYWxlLmNvbGxlY3RBc1N0YXRlKCkKICAgIHZhbCB0cmFuc2xhdGVYIGJ5IHdlYnBDb250cm9sbGVyLnRyYW5zbGF0ZVguY29sbGVjdEFzU3RhdGUoKQogICAgdmFsIHRyYW5zbGF0ZVkgYnkgd2VicENvbnRyb2xsZXIudHJhbnNsYXRlWS5jb2xsZWN0QXNTdGF0ZSgpCiAgICAKICAgIHZhbCBhbmltYXRpb25OYW1lID0gY29udHJvbGxlclN0YXRlLmN1cnJlbnRBbmltYXRpb24KICAgIHZhbCBhbmltYXRpb25QYXRoID0gbW9kZWwuYW5pbWF0aW9uUGF0aEZvcihhbmltYXRpb25OYW1lKQogICAgdmFsIGFuaW1hdGlvbktleSA9CiAgICAgICAgYW5pbWF0aW9uTmFtZQogICAgICAgICAgICA/OiBtb2RlbC5hbmltYXRpb25GaWxlRm9yRW1vdGlvbihjb250cm9sbGVyU3RhdGUuZW1vdGlvbikKICAgICAgICAgICAgPzogbW9kZWwuYXZhaWxhYmxlRmlsZXMuZmlyc3RPck51bGwoKQoKICAgIHZhbCBkcmF3YWJsZVN0YXRlID0gcmVtZW1iZXIoYW5pbWF0aW9uUGF0aCkgewogICAgICAgIG11dGFibGVTdGF0ZU9mPGFuZHJvaWQuZ3JhcGhpY3MuZHJhd2FibGUuRHJhd2FibGU/PihudWxsKQogICAgfQoKICAgIC8vIERlY29kZSBhbmltYXRpb24gd2hlbiBwYXRoIGNoYW5nZXMKICAgIERpc3Bvc2FibGVFZmZlY3QoYW5pbWF0aW9uUGF0aCwgY29udHJvbGxlclN0YXRlLmlzTG9vcGluZywgY29udHJvbGxlclN0YXRlLnBsYXliYWNrTm9uY2UpIHsKICAgICAgICBpZiAoYW5pbWF0aW9uUGF0aC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgZHJhd2FibGVTdGF0ZS52YWx1ZSA9IG51bGwKICAgICAgICAgICAgcmV0dXJuQERpc3Bvc2FibGVFZmZlY3Qgb25EaXNwb3NlIHsgfQogICAgICAgIH0KCiAgICAgICAgdmFsIGFzc2V0cyA9IGNvbnRleHQuYXNzZXRzCiAgICAgICAgQXBwTG9nZ2VyLmQoIldlYlBSZW5kZXJlciIsICJEZWNvZGUgc3RhcnQ6ICRhbmltYXRpb25QYXRoIikKICAgICAgICB2YXIgYW5pbWF0aW9uQ2FsbGJhY2s6IEFuaW1hdGFibGUyLkFuaW1hdGlvbkNhbGxiYWNrPyA9IG51bGwKICAgICAgICAKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IDI4KSB7CiAgICAgICAgICAgICAgICAvLyBBbHdheXMgZGVjb2RlIGZyb20gYnl0ZXMgdG8gc3VwcG9ydCBjb21wcmVzc2VkIGFzc2V0cyBpbiBBUEsKICAgICAgICAgICAgICAgIHZhbCBpbnB1dFN0cmVhbSA9IGlmIChGaWxlKGFuaW1hdGlvblBhdGgpLmlzQWJzb2x1dGUpIHsKICAgICAgICAgICAgICAgICAgICBGaWxlSW5wdXRTdHJlYW0oYW5pbWF0aW9uUGF0aCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgYXNzZXRzLm9wZW4oYW5pbWF0aW9uUGF0aCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhbCBieXRlcyA9IGlucHV0U3RyZWFtLnVzZSB7IGl0LnJlYWRCeXRlcygpIH0KICAgICAgICAgICAgICAgIHZhbCBzcmMgPSBJbWFnZURlY29kZXIuY3JlYXRlU291cmNlKEJ5dGVCdWZmZXIud3JhcChieXRlcykpCiAgICAgICAgICAgICAgICB2YWwgZHJhd2FibGUgPSBJbWFnZURlY29kZXIuZGVjb2RlRHJhd2FibGUoc3JjKQogICAgICAgICAgICAgICAgZHJhd2FibGVTdGF0ZS52YWx1ZSA9IGRyYXdhYmxlCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGlmIChkcmF3YWJsZSBpcyBBbmltYXRlZEltYWdlRHJhd2FibGUpIHsKICAgICAgICAgICAgICAgICAgICBkcmF3YWJsZS5yZXBlYXRDb3VudCA9IGlmIChjb250cm9sbGVyU3RhdGUuaXNMb29waW5nKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEFuaW1hdGVkSW1hZ2VEcmF3YWJsZS5SRVBFQVRfSU5GSU5JVEUKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAwCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmICghY29udHJvbGxlclN0YXRlLmlzTG9vcGluZykgewogICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb25DYWxsYmFjayA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvYmplY3QgOiBBbmltYXRhYmxlMi5BbmltYXRpb25DYWxsYmFjaygpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVycmlkZSBmdW4gb25BbmltYXRpb25FbmQoZHJhd2FibGU6IERyYXdhYmxlPykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb25LZXk/LmxldCh3ZWJwQ29udHJvbGxlcjo6b25BbmltYXRpb25QbGF5YmFja0NvbXBsZXRlZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGRyYXdhYmxlLnJlZ2lzdGVyQW5pbWF0aW9uQ2FsbGJhY2soYW5pbWF0aW9uQ2FsbGJhY2spCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGRyYXdhYmxlLnN0YXJ0KCkKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgiV2ViUFJlbmRlcmVyIiwgIkFuaW1hdGVkIHN0YXJ0OiAkYW5pbWF0aW9uUGF0aCIpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKCJXZWJQUmVuZGVyZXIiLCAiRGVjb2RlZCBub24tYW5pbWF0ZWQgZHJhd2FibGUgZm9yOiAkYW5pbWF0aW9uUGF0aCIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAvLyBBUEkgPCAyODogc2hvdyBmaXJzdCBmcmFtZSBhcyBzdGF0aWMKICAgICAgICAgICAgICAgIHZhbCBpbnB1dFN0cmVhbSA9IGlmIChGaWxlKGFuaW1hdGlvblBhdGgpLmlzQWJzb2x1dGUpIHsKICAgICAgICAgICAgICAgICAgICBGaWxlSW5wdXRTdHJlYW0oYW5pbWF0aW9uUGF0aCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgYXNzZXRzLm9wZW4oYW5pbWF0aW9uUGF0aCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhbCBibXAgPSBpbnB1dFN0cmVhbS51c2UgeyBCaXRtYXBGYWN0b3J5LmRlY29kZVN0cmVhbShpdCkgfQogICAgICAgICAgICAgICAgZHJhd2FibGVTdGF0ZS52YWx1ZSA9IEJpdG1hcERyYXdhYmxlKGNvbnRleHQucmVzb3VyY2VzLCBibXApCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgiV2ViUFJlbmRlcmVyIiwgIlN0YXRpYyBmYWxsYmFjayAoQVBJPDI4KTogJGFuaW1hdGlvblBhdGgiKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKCJXZWJQUmVuZGVyZXIiLCAiRGVjb2RlIGVycm9yIGZvciAkYW5pbWF0aW9uUGF0aDogJHtlLm1lc3NhZ2V9IiwgZSkKICAgICAgICAgICAgZHJhd2FibGVTdGF0ZS52YWx1ZSA9IG51bGwKICAgICAgICAgICAgb25FcnJvcigiRmFpbGVkIHRvIGxvYWQgYW5pbWF0aW9uOiAke2UubWVzc2FnZX0iKQogICAgICAgIH0KCiAgICAgICAgb25EaXNwb3NlIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBkID0gZHJhd2FibGVTdGF0ZS52YWx1ZQogICAgICAgICAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSAyOCAmJiBkIGlzIEFuaW1hdGVkSW1hZ2VEcmF3YWJsZSkgewogICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbkNhbGxiYWNrPy5sZXQgeyBkLnVucmVnaXN0ZXJBbmltYXRpb25DYWxsYmFjayhpdCkgfQogICAgICAgICAgICAgICAgICAgIGQuc3RvcCgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikge30KICAgICAgICB9CiAgICB9CgogICAgdmFsIGRyYXdhYmxlID0gZHJhd2FibGVTdGF0ZS52YWx1ZQogICAgaWYgKGRyYXdhYmxlICE9IG51bGwpIHsKICAgICAgICBBbmRyb2lkVmlldygKICAgICAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllcgogICAgICAgICAgICAgICAgLnNjYWxlKHNjYWxlKQogICAgICAgICAgICAgICAgLm9mZnNldCh4ID0gdHJhbnNsYXRlWC5kcCwgeSA9IHRyYW5zbGF0ZVkuZHApLAogICAgICAgICAgICBmYWN0b3J5ID0geyBjdHggLT4KICAgICAgICAgICAgICAgIEltYWdlVmlldyhjdHgpLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICBzY2FsZVR5cGUgPSBJbWFnZVZpZXcuU2NhbGVUeXBlLkNFTlRFUl9DUk9QCiAgICAgICAgICAgICAgICAgICAgc2V0QmFja2dyb3VuZENvbG9yKGFuZHJvaWQuZ3JhcGhpY3MuQ29sb3IuVFJBTlNQQVJFTlQpCiAgICAgICAgICAgICAgICAgICAgc2V0SW1hZ2VEcmF3YWJsZShkcmF3YWJsZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgdXBkYXRlID0geyBpbWFnZVZpZXcgLT4KICAgICAgICAgICAgICAgIGltYWdlVmlldy5zZXRJbWFnZURyYXdhYmxlKGRyYXdhYmxlKQogICAgICAgICAgICB9CiAgICAgICAgKQogICAgfQp9IAo=
+package com.bslsjdk.operit.core.avatar.impl.webp.view
+
+import android.graphics.BitmapFactory
+import android.graphics.ImageDecoder
+import android.graphics.drawable.Animatable2
+import android.graphics.drawable.AnimatedImageDrawable
+import android.graphics.drawable.BitmapDrawable
+import android.graphics.drawable.Drawable
+import android.os.Build
+import com.bslsjdk.operit.util.AppLogger
+import android.widget.ImageView
+import androidx.compose.foundation.layout.offset
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.scale
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.impl.webp.control.WebPAvatarController
+import com.bslsjdk.operit.core.avatar.impl.webp.model.WebPAvatarModel
+import java.io.File
+import java.io.FileInputStream
+import java.nio.ByteBuffer
+
+/**
+ * A Composable function responsible for rendering a WebP avatar.
+ * It uses Android's ImageDecoder to display animated WebP files from assets.
+ *
+ * @param modifier The modifier to be applied to the view.
+ * @param model The frame sequence avatar model containing the animation path.
+ * @param controller The avatar controller that manages the avatar's state. It must be a
+ *   [WebPAvatarController] for this renderer to function.
+ * @param onError A callback for handling rendering errors.
+ */
+@Composable
+fun WebPRenderer(
+    modifier: Modifier,
+    model: WebPAvatarModel,
+    controller: AvatarController,
+    onError: (String) -> Unit
+) {
+    // This renderer requires a specific controller implementation
+    val webpController = controller as? WebPAvatarController
+        ?: throw IllegalArgumentException("WebPRenderer requires a WebPAvatarController")
+
+    val context = LocalContext.current
+
+    // Listen to controller state changes to get the current animation path
+    val controllerState by webpController.state.collectAsState()
+    
+    // Listen to transform properties
+    val scale by webpController.scale.collectAsState()
+    val translateX by webpController.translateX.collectAsState()
+    val translateY by webpController.translateY.collectAsState()
+    
+    val animationName = controllerState.currentAnimation
+    val animationPath = model.animationPathFor(animationName)
+    val animationKey =
+        animationName
+            ?: model.animationFileForEmotion(controllerState.emotion)
+            ?: model.availableFiles.firstOrNull()
+
+    val drawableState = remember(animationPath) {
+        mutableStateOf<android.graphics.drawable.Drawable?>(null)
+    }
+
+    // Decode animation when path changes
+    DisposableEffect(animationPath, controllerState.isLooping, controllerState.playbackNonce) {
+        if (animationPath.isBlank()) {
+            drawableState.value = null
+            return@DisposableEffect onDispose { }
+        }
+
+        val assets = context.assets
+        AppLogger.d("WebPRenderer", "Decode start: $animationPath")
+        var animationCallback: Animatable2.AnimationCallback? = null
+        
+        try {
+            if (Build.VERSION.SDK_INT >= 28) {
+                // Always decode from bytes to support compressed assets in APK
+                val inputStream = if (File(animationPath).isAbsolute) {
+                    FileInputStream(animationPath)
+                } else {
+                    assets.open(animationPath)
+                }
+                val bytes = inputStream.use { it.readBytes() }
+                val src = ImageDecoder.createSource(ByteBuffer.wrap(bytes))
+                val drawable = ImageDecoder.decodeDrawable(src)
+                drawableState.value = drawable
+                
+                if (drawable is AnimatedImageDrawable) {
+                    drawable.repeatCount = if (controllerState.isLooping) {
+                        AnimatedImageDrawable.REPEAT_INFINITE
+                    } else {
+                        0
+                    }
+                    if (!controllerState.isLooping) {
+                        animationCallback =
+                            object : Animatable2.AnimationCallback() {
+                                override fun onAnimationEnd(drawable: Drawable?) {
+                                    animationKey?.let(webpController::onAnimationPlaybackCompleted)
+                                }
+                            }
+                        drawable.registerAnimationCallback(animationCallback)
+                    }
+                    drawable.start()
+                    AppLogger.d("WebPRenderer", "Animated start: $animationPath")
+                } else {
+                    AppLogger.d("WebPRenderer", "Decoded non-animated drawable for: $animationPath")
+                }
+            } else {
+                // API < 28: show first frame as static
+                val inputStream = if (File(animationPath).isAbsolute) {
+                    FileInputStream(animationPath)
+                } else {
+                    assets.open(animationPath)
+                }
+                val bmp = inputStream.use { BitmapFactory.decodeStream(it) }
+                drawableState.value = BitmapDrawable(context.resources, bmp)
+                AppLogger.d("WebPRenderer", "Static fallback (API<28): $animationPath")
+            }
+        } catch (e: Exception) {
+            AppLogger.e("WebPRenderer", "Decode error for $animationPath: ${e.message}", e)
+            drawableState.value = null
+            onError("Failed to load animation: ${e.message}")
+        }
+
+        onDispose {
+            try {
+                val d = drawableState.value
+                if (Build.VERSION.SDK_INT >= 28 && d is AnimatedImageDrawable) {
+                    animationCallback?.let { d.unregisterAnimationCallback(it) }
+                    d.stop()
+                }
+            } catch (_: Exception) {}
+        }
+    }
+
+    val drawable = drawableState.value
+    if (drawable != null) {
+        AndroidView(
+            modifier = modifier
+                .scale(scale)
+                .offset(x = translateX.dp, y = translateY.dp),
+            factory = { ctx ->
+                ImageView(ctx).apply {
+                    scaleType = ImageView.ScaleType.CENTER_CROP
+                    setBackgroundColor(android.graphics.Color.TRANSPARENT)
+                    setImageDrawable(drawable)
+                }
+            },
+            update = { imageView ->
+                imageView.setImageDrawable(drawable)
+            }
+        )
+    }
+} 

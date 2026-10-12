@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5tY3AKCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCgovKiogQ29uZmlndXJhdGlvbiBjbGFzcyBmb3IgTUNQIFNlcnZlcnMgKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIE1DUFNlcnZlckNvbmZpZygKICAgICAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgICAgIHZhbCBlbmRwb2ludDogU3RyaW5nLAogICAgICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nLAogICAgICAgIHZhbCBjYXBhYmlsaXRpZXM6IExpc3Q8U3RyaW5nPiwKICAgICAgICB2YWwgZXh0cmFEYXRhOiBNYXA8U3RyaW5nLCBTdHJpbmc+CikK
+package com.bslsjdk.operit.core.tools.mcp
+
+import kotlinx.serialization.Serializable
+
+/** Configuration class for MCP Servers */
+@Serializable
+data class MCPServerConfig(
+        val name: String,
+        val endpoint: String,
+        val description: String,
+        val capabilities: List<String>,
+        val extraData: Map<String, String>
+)

@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIENoYXRVdGlsc1Byb3ZpZGVyTW9kZWxUZXN0IHsKCiAgICBAVGVzdCBmdW4gcHJvdmlkZXJNb2RlbF9hY2NlcHRzR29vZ2xlV2l0aG91dFN1ZmZpeCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRVdGlscy5pc0dlbWluaVByb3ZpZGVyTW9kZWwoImdvb2dsZSIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBwcm92aWRlck1vZGVsX2FjY2VwdHNHZW1pbmlHZW5lcmljV2l0aG91dFN1ZmZpeCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRVdGlscy5pc0dlbWluaVByb3ZpZGVyTW9kZWwoImdlbWluaV9nZW5lcmljIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHByb3ZpZGVyTW9kZWxfcmVqZWN0c0VtcHR5U3RyaW5nKCkgewogICAgICAgIGFzc2VydEZhbHNlKENoYXRVdGlscy5pc0dlbWluaVByb3ZpZGVyTW9kZWwoIiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBwcm92aWRlck1vZGVsX3JlamVjdHNBbnRocm9waWMoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ2hhdFV0aWxzLmlzR2VtaW5pUHJvdmlkZXJNb2RlbCgiYW50aHJvcGljOmNsYXVkZSIpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ChatUtilsProviderModelTest {
+
+    @Test fun providerModel_acceptsGoogleWithoutSuffix() {
+        assertTrue(ChatUtils.isGeminiProviderModel("google"))
+    }
+
+    @Test fun providerModel_acceptsGeminiGenericWithoutSuffix() {
+        assertTrue(ChatUtils.isGeminiProviderModel("gemini_generic"))
+    }
+
+    @Test fun providerModel_rejectsEmptyString() {
+        assertFalse(ChatUtils.isGeminiProviderModel(""))
+    }
+
+    @Test fun providerModel_rejectsAnthropic() {
+        assertFalse(ChatUtils.isGeminiProviderModel("anthropic:claude"))
+    }
+}

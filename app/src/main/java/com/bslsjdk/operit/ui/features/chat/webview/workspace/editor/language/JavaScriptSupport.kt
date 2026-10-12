@@ -1,1 +1,54 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IubGFuZ3VhZ2UKCi8qKgogKiBKYXZhU2NyaXB06K+t6KiA5pSv5oyBCiAqLwpjbGFzcyBKYXZhU2NyaXB0U3VwcG9ydCA6IEJhc2VMYW5ndWFnZVN1cHBvcnQoKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIHZhbCBLRVlXT1JEUyA9IHNldE9mKAogICAgICAgICAgICAiZnVuY3Rpb24iLCAidmFyIiwgImxldCIsICJjb25zdCIsICJpZiIsICJlbHNlIiwgImZvciIsICJ3aGlsZSIsICJkbyIsICJzd2l0Y2giLAogICAgICAgICAgICAiY2FzZSIsICJicmVhayIsICJjb250aW51ZSIsICJyZXR1cm4iLCAidHJ5IiwgImNhdGNoIiwgImZpbmFsbHkiLCAidGhyb3ciLAogICAgICAgICAgICAibmV3IiwgImRlbGV0ZSIsICJ0eXBlb2YiLCAiaW5zdGFuY2VvZiIsICJ2b2lkIiwgInRoaXMiLCAic3VwZXIiLCAiY2xhc3MiLAogICAgICAgICAgICAiZXh0ZW5kcyIsICJpbXBvcnQiLCAiZXhwb3J0IiwgImRlZmF1bHQiLCAiYXN5bmMiLCAiYXdhaXQiLCAieWllbGQiLCAic3RhdGljIiwKICAgICAgICAgICAgImdldCIsICJzZXQiLCAiaW4iLCAib2YiLCAid2l0aCIsICJkZWJ1Z2dlciIKICAgICAgICApCiAgICAgICAgCiAgICAgICAgcHJpdmF0ZSB2YWwgQlVJTFRfSU5fVFlQRVMgPSBzZXRPZigKICAgICAgICAgICAgIkFycmF5IiwgIkJvb2xlYW4iLCAiRGF0ZSIsICJFcnJvciIsICJGdW5jdGlvbiIsICJKU09OIiwgIk1hdGgiLCAiTnVtYmVyIiwKICAgICAgICAgICAgIk9iamVjdCIsICJQcm9taXNlIiwgIlJlZ0V4cCIsICJTdHJpbmciLCAiU3ltYm9sIiwgIk1hcCIsICJTZXQiLCAiV2Vha01hcCIsCiAgICAgICAgICAgICJXZWFrU2V0IiwgIkFycmF5QnVmZmVyIiwgIkRhdGFWaWV3IiwgIkludDhBcnJheSIsICJVaW50OEFycmF5IiwgIlVpbnQ4Q2xhbXBlZEFycmF5IiwKICAgICAgICAgICAgIkludDE2QXJyYXkiLCAiVWludDE2QXJyYXkiLCAiSW50MzJBcnJheSIsICJVaW50MzJBcnJheSIsICJGbG9hdDMyQXJyYXkiLCAiRmxvYXQ2NEFycmF5IgogICAgICAgICkKCiAgICAgICAgcHJpdmF0ZSB2YWwgQlVJTFRfSU5fVkFSSUFCTEVTID0gc2V0T2YoCiAgICAgICAgICAgICJjb25zb2xlIiwgIndpbmRvdyIsICJkb2N1bWVudCIsICJuYXZpZ2F0b3IiLCAibG9jYXRpb24iLCAiaGlzdG9yeSIsICJzY3JlZW4iLAogICAgICAgICAgICAibG9jYWxTdG9yYWdlIiwgInNlc3Npb25TdG9yYWdlIiwgInBlcmZvcm1hbmNlIgogICAgICAgICkKICAgICAgICAKICAgICAgICBwcml2YXRlIHZhbCBCVUlMVF9JTl9GVU5DVElPTlMgPSBzZXRPZigKICAgICAgICAgICAgInNldFRpbWVvdXQiLCAiY2xlYXJUaW1lb3V0IiwgInNldEludGVydmFsIiwgImNsZWFySW50ZXJ2YWwiLAogICAgICAgICAgICAiZW5jb2RlVVJJIiwgImRlY29kZVVSSSIsICJlbmNvZGVVUklDb21wb25lbnQiLCAiZGVjb2RlVVJJQ29tcG9uZW50IiwKICAgICAgICAgICAgInBhcnNlSW50IiwgInBhcnNlRmxvYXQiLCAiaXNOYU4iLCAiaXNGaW5pdGUiLCAiZXZhbCIsICJhbGVydCIsICJjb25maXJtIiwgInByb21wdCIsCiAgICAgICAgICAgICJidG9hIiwgImF0b2IiLCAiZmV0Y2giCiAgICAgICAgKQogICAgICAgIAogICAgICAgIHByaXZhdGUgdmFsIEZJTEVfRVhURU5TSU9OUyA9IGxpc3RPZigianMiLCAibWpzIiwgImNqcyIpCiAgICAgICAgCiAgICAgICAgaW5pdCB7CiAgICAgICAgICAgIC8vIOazqOWGjOivreiogOaUr+aMgQogICAgICAgICAgICBMYW5ndWFnZVN1cHBvcnRSZWdpc3RyeS5yZWdpc3RlcihKYXZhU2NyaXB0U3VwcG9ydCgpKQogICAgICAgIH0KICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIGdldE5hbWUoKTogU3RyaW5nID0gImphdmFzY3JpcHQiCiAgICAKICAgIG92ZXJyaWRlIGZ1biBnZXRLZXl3b3JkcygpOiBTZXQ8U3RyaW5nPiA9IEtFWVdPUkRTCiAgICAKICAgIG92ZXJyaWRlIGZ1biBnZXRCdWlsdEluVHlwZXMoKTogU2V0PFN0cmluZz4gPSBCVUlMVF9JTl9UWVBFUwogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0QnVpbHRJbkZ1bmN0aW9ucygpOiBTZXQ8U3RyaW5nPiA9IEJVSUxUX0lOX0ZVTkNUSU9OUwoKICAgIG92ZXJyaWRlIGZ1biBnZXRCdWlsdEluVmFyaWFibGVzKCk6IFNldDxTdHJpbmc+ID0gQlVJTFRfSU5fVkFSSUFCTEVTCiAgICAKICAgIG92ZXJyaWRlIGZ1biBnZXRGaWxlRXh0ZW5zaW9ucygpOiBMaXN0PFN0cmluZz4gPSBGSUxFX0VYVEVOU0lPTlMKfSA=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language
+
+/**
+ * JavaScript语言支持
+ */
+class JavaScriptSupport : BaseLanguageSupport() {
+    companion object {
+        private val KEYWORDS = setOf(
+            "function", "var", "let", "const", "if", "else", "for", "while", "do", "switch",
+            "case", "break", "continue", "return", "try", "catch", "finally", "throw",
+            "new", "delete", "typeof", "instanceof", "void", "this", "super", "class",
+            "extends", "import", "export", "default", "async", "await", "yield", "static",
+            "get", "set", "in", "of", "with", "debugger"
+        )
+        
+        private val BUILT_IN_TYPES = setOf(
+            "Array", "Boolean", "Date", "Error", "Function", "JSON", "Math", "Number",
+            "Object", "Promise", "RegExp", "String", "Symbol", "Map", "Set", "WeakMap",
+            "WeakSet", "ArrayBuffer", "DataView", "Int8Array", "Uint8Array", "Uint8ClampedArray",
+            "Int16Array", "Uint16Array", "Int32Array", "Uint32Array", "Float32Array", "Float64Array"
+        )
+
+        private val BUILT_IN_VARIABLES = setOf(
+            "console", "window", "document", "navigator", "location", "history", "screen",
+            "localStorage", "sessionStorage", "performance"
+        )
+        
+        private val BUILT_IN_FUNCTIONS = setOf(
+            "setTimeout", "clearTimeout", "setInterval", "clearInterval",
+            "encodeURI", "decodeURI", "encodeURIComponent", "decodeURIComponent",
+            "parseInt", "parseFloat", "isNaN", "isFinite", "eval", "alert", "confirm", "prompt",
+            "btoa", "atob", "fetch"
+        )
+        
+        private val FILE_EXTENSIONS = listOf("js", "mjs", "cjs")
+        
+        init {
+            // 注册语言支持
+            LanguageSupportRegistry.register(JavaScriptSupport())
+        }
+    }
+    
+    override fun getName(): String = "javascript"
+    
+    override fun getKeywords(): Set<String> = KEYWORDS
+    
+    override fun getBuiltInTypes(): Set<String> = BUILT_IN_TYPES
+    
+    override fun getBuiltInFunctions(): Set<String> = BUILT_IN_FUNCTIONS
+
+    override fun getBuiltInVariables(): Set<String> = BUILT_IN_VARIABLES
+    
+    override fun getFileExtensions(): List<String> = FILE_EXTENSIONS
+} 

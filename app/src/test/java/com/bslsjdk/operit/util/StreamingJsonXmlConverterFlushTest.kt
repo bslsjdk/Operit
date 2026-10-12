@@ -1,1 +1,30 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyRmx1c2hUZXN0IHsKCiAgICBAVGVzdCBmdW4gZmx1c2hfYWZ0ZXJDb21wbGV0ZWRTdHJpbmdfZW1pdHNOb3RoaW5nKCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICBjb252ZXJ0ZXIuZmVlZCgie1wiYVwiOlwiYlwifSIpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb252ZXJ0ZXIuZmx1c2goKS5pc0VtcHR5KCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGZsdXNoX2FmdGVyUHJpbWl0aXZlRW1pdHNDbG9zaW5nQ29udGVudCgpIHsKICAgICAgICB2YWwgY29udmVydGVyID0gU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlcigpCiAgICAgICAgY29udmVydGVyLmZlZWQoIntcImFcIjoxIikKICAgICAgICB2YWwgb3V0cHV0ID0gcmVuZGVyKGNvbnZlcnRlci5mbHVzaCgpKQogICAgICAgIGFzc2VydEVxdWFscygiMTwvcGFyYW0+Iiwgb3V0cHV0KQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlbmRlcihldmVudHM6IExpc3Q8U3RyZWFtaW5nSnNvblhtbENvbnZlcnRlci5FdmVudD4pOiBTdHJpbmcgewogICAgICAgIHJldHVybiBldmVudHMuam9pblRvU3RyaW5nKCIiKSB7CiAgICAgICAgICAgIHdoZW4gKGl0KSB7CiAgICAgICAgICAgICAgICBpcyBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyLkV2ZW50LlRhZyAtPiBpdC50ZXh0CiAgICAgICAgICAgICAgICBpcyBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyLkV2ZW50LkNvbnRlbnQgLT4gaXQudGV4dAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class StreamingJsonXmlConverterFlushTest {
+
+    @Test fun flush_afterCompletedString_emitsNothing() {
+        val converter = StreamingJsonXmlConverter()
+        converter.feed("{\"a\":\"b\"}")
+        assertTrue(converter.flush().isEmpty())
+    }
+
+    @Test fun flush_afterPrimitiveEmitsClosingContent() {
+        val converter = StreamingJsonXmlConverter()
+        converter.feed("{\"a\":1")
+        val output = render(converter.flush())
+        assertEquals("1</param>", output)
+    }
+
+    private fun render(events: List<StreamingJsonXmlConverter.Event>): String {
+        return events.joinToString("") {
+            when (it) {
+                is StreamingJsonXmlConverter.Event.Tag -> it.text
+                is StreamingJsonXmlConverter.Event.Content -> it.text
+            }
+        }
+    }
+}

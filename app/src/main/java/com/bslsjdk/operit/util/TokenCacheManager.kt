@@ -1,1 +1,206 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQ2hhdFV0aWxzCgovKioKICogVG9rZW7nvJPlrZjnrqHnkIblmajvvIznlKjkuo7kvJjljJbph43lpI3lr7nor53ljoblj7LnmoR0b2tlbuiuoeeulwogKiDpgJrov4fnvJPlrZjkuYvliY3orqHnrpfov4fnmoTlr7nor53ljoblj7J0b2tlbuaVsOmHj++8jOmBv+WFjemHjeWkjeiuoeeul+ebuOWQjOeahOWGheWuuQogKi8KY2xhc3MgVG9rZW5DYWNoZU1hbmFnZXIgewogICAgLy8g5LiK5LiA5qyh55qE6IGK5aSp5Y6G5Y+yCiAgICBwcml2YXRlIHZhciBwcmV2aW91c0NoYXRIaXN0b3J5OiBMaXN0PFBhaXI8U3RyaW5nLCBTdHJpbmc+PiA9IGVtcHR5TGlzdCgpCiAgICAvLyDlr7nlupTkuo5wcmV2aW91c0NoYXRIaXN0b3J555qEdG9rZW7mlbDph48KICAgIHByaXZhdGUgdmFyIHByZXZpb3VzSGlzdG9yeVRva2VuQ291bnQgPSAwTAogICAgCiAgICAvLyDnvJPlrZjnmoTovpPlhaV0b2tlbuaVsOmHj++8iOWvueW6lOS6jnByZXZpb3VzQ2hhdEhpc3RvcnnnmoTlhazlhbHliY3nvIDvvIkKICAgIHByaXZhdGUgdmFyIF9jYWNoZWRJbnB1dFRva2VuQ291bnQgPSAwTAogICAgCiAgICAvLyDlvZPliY3or7fmsYLnmoTmlrDlop50b2tlbuaVsOmHjwogICAgcHJpdmF0ZSB2YXIgX2N1cnJlbnRJbnB1dFRva2VuQ291bnQgPSAwTAogICAgCiAgICAvLyDlvZPliY3ovpPlh7p0b2tlbuaVsOmHjwogICAgcHJpdmF0ZSB2YXIgX291dHB1dFRva2VuQ291bnQgPSAwTAogICAgCiAgICAvKioKICAgICAqIOiOt+WPlue8k+WtmOeahOi+k+WFpXRva2Vu5pWw6YePCiAgICAgKi8KICAgIHZhbCBjYWNoZWRJbnB1dFRva2VuQ291bnQ6IExvbmcKICAgICAgICBnZXQoKSA9IF9jYWNoZWRJbnB1dFRva2VuQ291bnQKICAgIAogICAgLyoqCiAgICAgKiDojrflj5blvZPliY3or7fmsYLnmoTovpPlhaV0b2tlbuaVsOmHj++8iOS4jeWMheaLrOe8k+WtmO+8iQogICAgICovCiAgICB2YWwgY3VycmVudElucHV0VG9rZW5Db3VudDogTG9uZwogICAgICAgIGdldCgpID0gX2N1cnJlbnRJbnB1dFRva2VuQ291bnQKICAgIAogICAgLyoqCiAgICAgKiDojrflj5bmgLvovpPlhaV0b2tlbuaVsOmHj++8iOe8k+WtmCArIOW9k+WJje+8iQogICAgICovCiAgICB2YWwgdG90YWxJbnB1dFRva2VuQ291bnQ6IExvbmcKICAgICAgICBnZXQoKSA9IF9jYWNoZWRJbnB1dFRva2VuQ291bnQgKyBfY3VycmVudElucHV0VG9rZW5Db3VudAogICAgCiAgICAvKioKICAgICAqIOiOt+WPlui+k+WHunRva2Vu5pWw6YePCiAgICAgKi8KICAgIHZhbCBvdXRwdXRUb2tlbkNvdW50OiBMb25nCiAgICAgICAgZ2V0KCkgPSBfb3V0cHV0VG9rZW5Db3VudAogICAgCiAgICAvKioKICAgICAqIOmHjee9ruaJgOaciXRva2Vu6K6h5pWw5ZKM57yT5a2YCiAgICAgKi8KICAgIGZ1biByZXNldFRva2VuQ291bnRzKCkgewogICAgICAgIHByZXZpb3VzQ2hhdEhpc3RvcnkgPSBlbXB0eUxpc3QoKQogICAgICAgIHByZXZpb3VzSGlzdG9yeVRva2VuQ291bnQgPSAwTAogICAgICAgIF9jYWNoZWRJbnB1dFRva2VuQ291bnQgPSAwTAogICAgICAgIF9jdXJyZW50SW5wdXRUb2tlbkNvdW50ID0gMEwKICAgICAgICBfb3V0cHV0VG9rZW5Db3VudCA9IDBMCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5aKe5Yqg6L6T5Ye6dG9rZW7mlbDph48KICAgICAqLwogICAgZnVuIGFkZE91dHB1dFRva2Vucyh0b2tlbnM6IExvbmcpIHsKICAgICAgICBfb3V0cHV0VG9rZW5Db3VudCArPSB0b2tlbnMKICAgIH0KCiAgICAvKioKICAgICAqIOS9v+eUqEFQSei/lOWbnueahOWunumZhei+k+WHunRva2Vu5pWw6YeP6KaG55uW5b2T5YmN5Lyw566X5YC8CiAgICAgKi8KICAgIGZ1biBzZXRPdXRwdXRUb2tlbnModG9rZW5zOiBMb25nKSB7CiAgICAgICAgX291dHB1dFRva2VuQ291bnQgPSB0b2tlbnMuY29lcmNlQXRMZWFzdCgwTCkKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDkvb/nlKhBUEnov5Tlm57nmoTlrp7pmYV0b2tlbuaVsOaNruabtOaWsOiuoeaVsAogICAgICog55So5LqOR2VtaW5p562J5pSv5oyB5pyN5Yqh56uv57yT5a2Y57uf6K6h55qEQVBJCiAgICAgKiAKICAgICAqIEBwYXJhbSBhY3R1YWxJbnB1dCDlrp7pmYXnmoTovpPlhaV0b2tlbuaVsOmHj++8iOS4jeWMheaLrOe8k+WtmO+8iQogICAgICogQHBhcmFtIGNhY2hlZElucHV0IOe8k+WtmOWRveS4reeahHRva2Vu5pWw6YePCiAgICAgKi8KICAgIGZ1biB1cGRhdGVBY3R1YWxUb2tlbnMoYWN0dWFsSW5wdXQ6IExvbmcsIGNhY2hlZElucHV0OiBMb25nKSB7CiAgICAgICAgX2N1cnJlbnRJbnB1dFRva2VuQ291bnQgPSBhY3R1YWxJbnB1dC5jb2VyY2VBdExlYXN0KDBMKQogICAgICAgIF9jYWNoZWRJbnB1dFRva2VuQ291bnQgPSBjYWNoZWRJbnB1dC5jb2VyY2VBdExlYXN0KDBMKQogICAgfQogICAgCiAgICAvKioKICAgICAqIOiuoeeul+i+k+WFpXRva2Vu5pWw6YeP77yM5Yip55So57yT5a2Y5LyY5YyW6YeN5aSN6K6h566XCiAgICAgKiAKICAgICAqIEBwYXJhbSBjaGF0SGlzdG9yeSDlrozmlbTnmoTogYrlpKnljoblj7LvvIjlv4Xpobvlt7LljIXlkKvmnKzmrKHmnIDmlrDovpPlhaXvvIkKICAgICAqIEBwYXJhbSB0b29sc0pzb24g5bel5YW35a6a5LmJ55qESlNPTuWtl+espuS4su+8iOWPr+mAie+8iQogICAgICogQHJldHVybiDmgLvnmoTovpPlhaV0b2tlbuaVsOmHjwogICAgICovCiAgICBmdW4gY2FsY3VsYXRlSW5wdXRUb2tlbnMoCiAgICAgICAgY2hhdEhpc3Rvcnk6IExpc3Q8UGFpcjxTdHJpbmcsIFN0cmluZz4+LAogICAgICAgIHRvb2xzSnNvbjogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgdXBkYXRlU3RhdGU6IEJvb2xlYW4gPSB0cnVlCiAgICApOiBMb25nIHsKICAgICAgICAvLyDmnoTlu7rljIXlkKvlt6XlhbflrprkuYnnmoTljoblj7LorrDlvZXliJfooagKICAgICAgICAvLyDnrZbnlaXvvJrlsIZ0b29sc0pzb27mi7zmjqXliLBTeXN0ZW0gUHJvbXB05YmN6Z2i77yM5oiW6ICF5L2c5Li656ys5LiA5p2hU3lzdGVt5raI5oGvCiAgICAgICAgLy8g6L+Z5qC35Y+v5Lul5Yip55So5YmN57yA5Yy56YWN5py65Yi257yT5a2Y5bel5YW35a6a5LmJCiAgICAgICAgdmFsIGhpc3RvcnlXaXRoVG9vbHMgPSBpZiAoIXRvb2xzSnNvbi5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgdmFsIG11dGFibGVIaXN0b3J5ID0gY2hhdEhpc3RvcnkudG9NdXRhYmxlTGlzdCgpCiAgICAgICAgICAgIHZhbCBzeXN0ZW1JbmRleCA9IG11dGFibGVIaXN0b3J5LmluZGV4T2ZGaXJzdCB7IGl0LmZpcnN0ID09ICJzeXN0ZW0iIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIChzeXN0ZW1JbmRleCAhPSAtMSkgewogICAgICAgICAgICAgICAgLy8g5om+5YiwU3lzdGVt5raI5oGv77yM5ou85o6l5Zyo5YmN6Z2iCiAgICAgICAgICAgICAgICB2YWwgb3JpZ2luYWxTeXN0ZW0gPSBtdXRhYmxlSGlzdG9yeVtzeXN0ZW1JbmRleF0KICAgICAgICAgICAgICAgIG11dGFibGVIaXN0b3J5W3N5c3RlbUluZGV4XSA9IG9yaWdpbmFsU3lzdGVtLmNvcHkoc2Vjb25kID0gdG9vbHNKc29uICsgIlxuIiArIG9yaWdpbmFsU3lzdGVtLnNlY29uZCkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIC8vIOayoeaciVN5c3Rlbea2iOaBr++8jOWcqOWktOmDqOaPkuWFpQogICAgICAgICAgICAgICAgbXV0YWJsZUhpc3RvcnkuYWRkKDAsICJzeXN0ZW0iIHRvIHRvb2xzSnNvbikKICAgICAgICAgICAgfQogICAgICAgICAgICBtdXRhYmxlSGlzdG9yeS50b0xpc3QoKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGNoYXRIaXN0b3J5CiAgICAgICAgfQoKICAgICAgICAvLyDmib7liLDkuI7kuYvliY3ljoblj7LnmoTlhazlhbHliY3nvIDplb/luqYKICAgICAgICAvLyDms6jmhI/vvJpwcmV2aW91c0NoYXRIaXN0b3J5546w5Zyo5a2Y5YKo55qE5piv5YyF5ZCr5bel5YW35a6a5LmJ55qE54mI5pysCiAgICAgICAgdmFsIGNvbW1vblByZWZpeExlbmd0aCA9IGZpbmRDb21tb25QcmVmaXhMZW5ndGgoaGlzdG9yeVdpdGhUb29scywgcHJldmlvdXNDaGF0SGlzdG9yeSkKICAgICAgICAKICAgICAgICBBcHBMb2dnZXIuZCgiVG9rZW5DYWNoZU1hbmFnZXIiLCAi6IGK5aSp5Y6G5Y+y5q+U6L6DOiDlvZPliY09JHtoaXN0b3J5V2l0aFRvb2xzLnNpemV9LCDkuYvliY09JHtwcmV2aW91c0NoYXRIaXN0b3J5LnNpemV9LCDlhazlhbHliY3nvIA9JHtjb21tb25QcmVmaXhMZW5ndGh9IikKICAgICAgICAKICAgICAgICB2YWwgY2FjaGVkVG9rZW5zOiBMb25nCiAgICAgICAgdmFsIG5ld1Rva2VuczogTG9uZwoKICAgICAgICBpZiAoY29tbW9uUHJlZml4TGVuZ3RoID4gMCkgewogICAgICAgICAgICAvLyDmnInlhazlhbHliY3nvIDvvIzlj6/ku6Xkvb/nlKjnvJPlrZgKICAgICAgICAgICAgY2FjaGVkVG9rZW5zID0gaWYgKGNvbW1vblByZWZpeExlbmd0aCA9PSBwcmV2aW91c0NoYXRIaXN0b3J5LnNpemUpIHsKICAgICAgICAgICAgICAgIC8vIOWujOWFqOWMuemFjeS5i+WJjeeahOWOhuWPsu+8jOebtOaOpeS9v+eUqOe8k+WtmAogICAgICAgICAgICAgICAgcHJldmlvdXNIaXN0b3J5VG9rZW5Db3VudAogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgLy8g6YOo5YiG5Yy56YWN77yM6YeN5paw6K6h566X5YWs5YWx5YmN57yA55qEdG9rZW7mlbDph48KICAgICAgICAgICAgICAgIHZhbCBjb21tb25QcmVmaXggPSBoaXN0b3J5V2l0aFRvb2xzLnRha2UoY29tbW9uUHJlZml4TGVuZ3RoKQogICAgICAgICAgICAgICAgY2FsY3VsYXRlVG9rZW5zRm9ySGlzdG9yeShjb21tb25QcmVmaXgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOiuoeeul+aWsOWinumDqOWIhueahHRva2Vu5pWw6YePIChoaXN0b3J55Ymp5LiL55qE6YOo5YiGICsg5b2T5YmN5raI5oGvKQogICAgICAgICAgICB2YWwgbmV3UGFydCA9IGhpc3RvcnlXaXRoVG9vbHMuZHJvcChjb21tb25QcmVmaXhMZW5ndGgpCiAgICAgICAgICAgIG5ld1Rva2VucyA9IGNhbGN1bGF0ZVRva2Vuc0Zvckhpc3RvcnkobmV3UGFydCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAvLyDmsqHmnInlhazlhbHliY3nvIDvvIzph43mlrDorqHnrpfmiYDmnIl0b2tlbgogICAgICAgICAgICB2YWwgaGlzdG9yeVRva2VucyA9IGNhbGN1bGF0ZVRva2Vuc0Zvckhpc3RvcnkoaGlzdG9yeVdpdGhUb29scykKICAgICAgICAgICAgY2FjaGVkVG9rZW5zID0gMEwKICAgICAgICAgICAgbmV3VG9rZW5zID0gaGlzdG9yeVRva2VucwogICAgICAgIH0KCiAgICAgICAgaWYgKHVwZGF0ZVN0YXRlKSB7CiAgICAgICAgICAgIF9jYWNoZWRJbnB1dFRva2VuQ291bnQgPSBjYWNoZWRUb2tlbnMKICAgICAgICAgICAgX2N1cnJlbnRJbnB1dFRva2VuQ291bnQgPSBuZXdUb2tlbnMKCiAgICAgICAgICAgIC8vIOabtOaWsOe8k+WtmOeahOWOhuWPsuiusOW9lSB0b2tlbiDmlbDph48KICAgICAgICAgICAgcHJldmlvdXNIaXN0b3J5VG9rZW5Db3VudCA9IGNhY2hlZFRva2VucyArIG5ld1Rva2VucwoKICAgICAgICAgICAgLy8g5pu05paw57yT5a2Y55qE5Y6G5Y+y6K6w5b2V5YiX6KGo77yI5YyF5ZCr5bel5YW35a6a5LmJ77yJCiAgICAgICAgICAgIGlmIChjaGF0SGlzdG9yeS5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHByZXZpb3VzQ2hhdEhpc3RvcnkgPSBoaXN0b3J5V2l0aFRvb2xzCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChjYWNoZWRUb2tlbnMgPiAwKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgiVG9rZW5DYWNoZU1hbmFnZXIiLCAi5L2/55SodG9rZW7nvJPlrZg6IOe8k+WtmD0ke19jYWNoZWRJbnB1dFRva2VuQ291bnR9LCDmlrDlop49JHtfY3VycmVudElucHV0VG9rZW5Db3VudH0iKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIlRva2VuQ2FjaGVNYW5hZ2VyIiwgIumHjeaWsOiuoeeul+aJgOaciXRva2VuczogJHtfY3VycmVudElucHV0VG9rZW5Db3VudH0iKQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgaWYgKGNhY2hlZFRva2VucyA+IDApIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKCJUb2tlbkNhY2hlTWFuYWdlciIsICLlj6ror7vpooTkvLB0b2tlbue8k+WtmDog57yT5a2YPSRjYWNoZWRUb2tlbnMsIOaWsOWinj0kbmV3VG9rZW5zIikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKCJUb2tlbkNhY2hlTWFuYWdlciIsICLlj6ror7vpooTkvLDmiYDmnIl0b2tlbnM6ICRuZXdUb2tlbnMiKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gY2FjaGVkVG9rZW5zICsgbmV3VG9rZW5zCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5om+5Yiw5Lik5Liq6IGK5aSp5Y6G5Y+y5YiX6KGo55qE5YWs5YWx5YmN57yA6ZW/5bqmCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGZpbmRDb21tb25QcmVmaXhMZW5ndGgoCiAgICAgICAgY3VycmVudDogTGlzdDxQYWlyPFN0cmluZywgU3RyaW5nPj4sCiAgICAgICAgcHJldmlvdXM6IExpc3Q8UGFpcjxTdHJpbmcsIFN0cmluZz4+CiAgICApOiBJbnQgewogICAgICAgIHZhbCBtaW5MZW5ndGggPSBtaW5PZihjdXJyZW50LnNpemUsIHByZXZpb3VzLnNpemUpCiAgICAgICAgdmFyIGNvbW1vbkxlbmd0aCA9IDAKICAgICAgICAKICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBtaW5MZW5ndGgpIHsKICAgICAgICAgICAgaWYgKGN1cnJlbnRbaV0gPT0gcHJldmlvdXNbaV0pIHsKICAgICAgICAgICAgICAgIGNvbW1vbkxlbmd0aCsrCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBicmVhawogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIHJldHVybiBjb21tb25MZW5ndGgKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDorqHnrpfogYrlpKnljoblj7LnmoR0b2tlbuaVsOmHjwogICAgICovCiAgICBwcml2YXRlIGZ1biBjYWxjdWxhdGVUb2tlbnNGb3JIaXN0b3J5KGhpc3Rvcnk6IExpc3Q8UGFpcjxTdHJpbmcsIFN0cmluZz4+KTogTG9uZyB7CiAgICAgICAgdmFsIHRvdGFsID0gaGlzdG9yeS5mb2xkKDBMKSB7IGFjYywgKF8sIGNvbnRlbnQpIC0+CiAgICAgICAgICAgIGFjYyArIENoYXRVdGlscy5lc3RpbWF0ZVRva2VuQ291bnQoY29udGVudCkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHRvdGFsCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.ChatUtils
+
+/**
+ * Token缓存管理器，用于优化重复对话历史的token计算
+ * 通过缓存之前计算过的对话历史token数量，避免重复计算相同的内容
+ */
+class TokenCacheManager {
+    // 上一次的聊天历史
+    private var previousChatHistory: List<Pair<String, String>> = emptyList()
+    // 对应于previousChatHistory的token数量
+    private var previousHistoryTokenCount = 0L
+    
+    // 缓存的输入token数量（对应于previousChatHistory的公共前缀）
+    private var _cachedInputTokenCount = 0L
+    
+    // 当前请求的新增token数量
+    private var _currentInputTokenCount = 0L
+    
+    // 当前输出token数量
+    private var _outputTokenCount = 0L
+    
+    /**
+     * 获取缓存的输入token数量
+     */
+    val cachedInputTokenCount: Long
+        get() = _cachedInputTokenCount
+    
+    /**
+     * 获取当前请求的输入token数量（不包括缓存）
+     */
+    val currentInputTokenCount: Long
+        get() = _currentInputTokenCount
+    
+    /**
+     * 获取总输入token数量（缓存 + 当前）
+     */
+    val totalInputTokenCount: Long
+        get() = _cachedInputTokenCount + _currentInputTokenCount
+    
+    /**
+     * 获取输出token数量
+     */
+    val outputTokenCount: Long
+        get() = _outputTokenCount
+    
+    /**
+     * 重置所有token计数和缓存
+     */
+    fun resetTokenCounts() {
+        previousChatHistory = emptyList()
+        previousHistoryTokenCount = 0L
+        _cachedInputTokenCount = 0L
+        _currentInputTokenCount = 0L
+        _outputTokenCount = 0L
+    }
+    
+    /**
+     * 增加输出token数量
+     */
+    fun addOutputTokens(tokens: Long) {
+        _outputTokenCount += tokens
+    }
+
+    /**
+     * 使用API返回的实际输出token数量覆盖当前估算值
+     */
+    fun setOutputTokens(tokens: Long) {
+        _outputTokenCount = tokens.coerceAtLeast(0L)
+    }
+    
+    /**
+     * 使用API返回的实际token数据更新计数
+     * 用于Gemini等支持服务端缓存统计的API
+     * 
+     * @param actualInput 实际的输入token数量（不包括缓存）
+     * @param cachedInput 缓存命中的token数量
+     */
+    fun updateActualTokens(actualInput: Long, cachedInput: Long) {
+        _currentInputTokenCount = actualInput.coerceAtLeast(0L)
+        _cachedInputTokenCount = cachedInput.coerceAtLeast(0L)
+    }
+    
+    /**
+     * 计算输入token数量，利用缓存优化重复计算
+     * 
+     * @param chatHistory 完整的聊天历史（必须已包含本次最新输入）
+     * @param toolsJson 工具定义的JSON字符串（可选）
+     * @return 总的输入token数量
+     */
+    fun calculateInputTokens(
+        chatHistory: List<Pair<String, String>>,
+        toolsJson: String? = null,
+        updateState: Boolean = true
+    ): Long {
+        // 构建包含工具定义的历史记录列表
+        // 策略：将toolsJson拼接到System Prompt前面，或者作为第一条System消息
+        // 这样可以利用前缀匹配机制缓存工具定义
+        val historyWithTools = if (!toolsJson.isNullOrEmpty()) {
+            val mutableHistory = chatHistory.toMutableList()
+            val systemIndex = mutableHistory.indexOfFirst { it.first == "system" }
+            
+            if (systemIndex != -1) {
+                // 找到System消息，拼接在前面
+                val originalSystem = mutableHistory[systemIndex]
+                mutableHistory[systemIndex] = originalSystem.copy(second = toolsJson + "\n" + originalSystem.second)
+            } else {
+                // 没有System消息，在头部插入
+                mutableHistory.add(0, "system" to toolsJson)
+            }
+            mutableHistory.toList()
+        } else {
+            chatHistory
+        }
+
+        // 找到与之前历史的公共前缀长度
+        // 注意：previousChatHistory现在存储的是包含工具定义的版本
+        val commonPrefixLength = findCommonPrefixLength(historyWithTools, previousChatHistory)
+        
+        AppLogger.d("TokenCacheManager", "聊天历史比较: 当前=${historyWithTools.size}, 之前=${previousChatHistory.size}, 公共前缀=${commonPrefixLength}")
+        
+        val cachedTokens: Long
+        val newTokens: Long
+
+        if (commonPrefixLength > 0) {
+            // 有公共前缀，可以使用缓存
+            cachedTokens = if (commonPrefixLength == previousChatHistory.size) {
+                // 完全匹配之前的历史，直接使用缓存
+                previousHistoryTokenCount
+            } else {
+                // 部分匹配，重新计算公共前缀的token数量
+                val commonPrefix = historyWithTools.take(commonPrefixLength)
+                calculateTokensForHistory(commonPrefix)
+            }
+            
+            // 计算新增部分的token数量 (history剩下的部分 + 当前消息)
+            val newPart = historyWithTools.drop(commonPrefixLength)
+            newTokens = calculateTokensForHistory(newPart)
+        } else {
+            // 没有公共前缀，重新计算所有token
+            val historyTokens = calculateTokensForHistory(historyWithTools)
+            cachedTokens = 0L
+            newTokens = historyTokens
+        }
+
+        if (updateState) {
+            _cachedInputTokenCount = cachedTokens
+            _currentInputTokenCount = newTokens
+
+            // 更新缓存的历史记录 token 数量
+            previousHistoryTokenCount = cachedTokens + newTokens
+
+            // 更新缓存的历史记录列表（包含工具定义）
+            if (chatHistory.isNotEmpty()) {
+                previousChatHistory = historyWithTools
+            }
+
+            if (cachedTokens > 0) {
+                AppLogger.d("TokenCacheManager", "使用token缓存: 缓存=${_cachedInputTokenCount}, 新增=${_currentInputTokenCount}")
+            } else {
+                AppLogger.d("TokenCacheManager", "重新计算所有tokens: ${_currentInputTokenCount}")
+            }
+        } else {
+            if (cachedTokens > 0) {
+                AppLogger.d("TokenCacheManager", "只读预估token缓存: 缓存=$cachedTokens, 新增=$newTokens")
+            } else {
+                AppLogger.d("TokenCacheManager", "只读预估所有tokens: $newTokens")
+            }
+        }
+
+        return cachedTokens + newTokens
+    }
+    
+    /**
+     * 找到两个聊天历史列表的公共前缀长度
+     */
+    private fun findCommonPrefixLength(
+        current: List<Pair<String, String>>,
+        previous: List<Pair<String, String>>
+    ): Int {
+        val minLength = minOf(current.size, previous.size)
+        var commonLength = 0
+        
+        for (i in 0 until minLength) {
+            if (current[i] == previous[i]) {
+                commonLength++
+            } else {
+                break
+            }
+        }
+        
+        return commonLength
+    }
+    
+    /**
+     * 计算聊天历史的token数量
+     */
+    private fun calculateTokensForHistory(history: List<Pair<String, String>>): Long {
+        val total = history.fold(0L) { acc, (_, content) ->
+            acc + ChatUtils.estimateTokenCount(content)
+        }
+        return total
+    }
+}

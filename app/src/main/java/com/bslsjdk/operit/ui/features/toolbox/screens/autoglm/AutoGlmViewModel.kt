@@ -1,1 +1,299 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmF1dG9nbG0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuRW5oYW5jZWRBSVNlcnZpY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmNvbmZpZy5GdW5jdGlvbmFsUHJvbXB0cwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuYWdlbnQuQWN0aW9uSGFuZGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuYWdlbnQuQWdlbnRDb25maWcKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmFnZW50LlBob25lQWdlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmFnZW50LlRvb2xJbXBsZW1lbnRhdGlvbnMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmFnZW50LlN0ZXBSZXN1bHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmFnZW50LlNob3dlckNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmFnZW50LlNob3dlclNlcnZlck1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlN0cmluZ1Jlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmRlZmF1bHRUb29sLlRvb2xHZXR0ZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmRlZmF1bHRUb29sLnN0YW5kYXJkLlN0YW5kYXJkVUlUb29scwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQUlUb29sCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5GdW5jdGlvblR5cGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xSZXN1bHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuTG9jYWxlVXRpbHMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBqYXZhLnRleHQuU2ltcGxlRGF0ZUZvcm1hdAppbXBvcnQgamF2YS51dGlsLkNhbGVuZGFyCmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Kb2IKCmNsYXNzIEF1dG9HbG1WaWV3TW9kZWwocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgOiBWaWV3TW9kZWwoKSB7CgogICAgcHJpdmF0ZSB2YXIgZXhlY3V0aW9uSm9iOiBKb2I/ID0gbnVsbAoKICAgIHByaXZhdGUgdmFsIHNlc3Npb25BZ2VudElkOiBTdHJpbmcgPSBqYXZhLnV0aWwuVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKS50YWtlKDgpCgogICAgcHJpdmF0ZSB2YWwgX3VpU3RhdGUgPSBNdXRhYmxlU3RhdGVGbG93KEF1dG9HbG1VaVN0YXRlKCkpCiAgICB2YWwgdWlTdGF0ZTogU3RhdGVGbG93PEF1dG9HbG1VaVN0YXRlPiA9IF91aVN0YXRlLmFzU3RhdGVGbG93KCkKCiAgICBmdW4gZXhlY3V0ZVRhc2sodGFzazogU3RyaW5nLCB1c2VWaXJ0dWFsU2NyZWVuOiBCb29sZWFuID0gZmFsc2UpIHsKICAgICAgICBpZiAodGFzay5pc0JsYW5rKCkpIHJldHVybgoKICAgICAgICBleGVjdXRpb25Kb2I/LmNhbmNlbCgpCgogICAgICAgIGV4ZWN1dGlvbkpvYiA9IHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHZhbCBsb2dCdWlsZGVyID0gU3RyaW5nQnVpbGRlcigpCiAgICAgICAgICAgIGFwcGVuZFdpdGhUaW1lc3RhbXAobG9nQnVpbGRlciwgIkluaXRpYWxpemluZyBhZ2VudC4uLiIpCiAgICAgICAgICAgIF91aVN0YXRlLnZhbHVlID0gQXV0b0dsbVVpU3RhdGUoaXNMb2FkaW5nID0gdHJ1ZSwgbG9nID0gbG9nQnVpbGRlci50b1N0cmluZygpLnRyaW1FbmQoKSkKCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgYWdlbnRJZEZvclJ1biA9IGlmICh1c2VWaXJ0dWFsU2NyZWVuKSBzZXNzaW9uQWdlbnRJZCBlbHNlICJkZWZhdWx0IgogICAgICAgICAgICAgICAgaWYgKHVzZVZpcnR1YWxTY3JlZW4pIHsKICAgICAgICAgICAgICAgICAgICBhcHBlbmRXaXRoVGltZXN0YW1wKGxvZ0J1aWxkZXIsICJbVmlydHVhbFNjcmVlbl0gRW5zdXJpbmcgU2hvd2VyIHZpcnR1YWwgZGlzcGxheS4uLiIpCiAgICAgICAgICAgICAgICAgICAgX3VpU3RhdGUudmFsdWUgPSBBdXRvR2xtVWlTdGF0ZShpc0xvYWRpbmcgPSB0cnVlLCBsb2cgPSBsb2dCdWlsZGVyLnRvU3RyaW5nKCkudHJpbUVuZCgpKQoKICAgICAgICAgICAgICAgICAgICB2YWwgb2tTZXJ2ZXIgPSB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICBTaG93ZXJTZXJ2ZXJNYW5hZ2VyLmVuc3VyZVNlcnZlclN0YXJ0ZWQoY29udGV4dCkKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGlmICghb2tTZXJ2ZXIpIHsKICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kV2l0aFRpbWVzdGFtcChsb2dCdWlsZGVyLCAiW1ZpcnR1YWxTY3JlZW5dIEZhaWxlZCB0byBzdGFydCBTaG93ZXIgc2VydmVyLiIpCiAgICAgICAgICAgICAgICAgICAgICAgIF91aVN0YXRlLnZhbHVlID0gQXV0b0dsbVVpU3RhdGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc0xvYWRpbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZyA9IGxvZ0J1aWxkZXIudG9TdHJpbmcoKS50cmltRW5kKCkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB2YWwgbWV0cmljcyA9IGNvbnRleHQucmVzb3VyY2VzLmRpc3BsYXlNZXRyaWNzCiAgICAgICAgICAgICAgICAgICAgdmFsIHdpZHRoID0gbWV0cmljcy53aWR0aFBpeGVscwogICAgICAgICAgICAgICAgICAgIHZhbCBoZWlnaHQgPSBtZXRyaWNzLmhlaWdodFBpeGVscwogICAgICAgICAgICAgICAgICAgIHZhbCBkcGkgPSBtZXRyaWNzLmRlbnNpdHlEcGkKCiAgICAgICAgICAgICAgICAgICAgdmFsIG9rRGlzcGxheSA9IHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFNob3dlckNvbnRyb2xsZXIuZW5zdXJlRGlzcGxheShhZ2VudElkRm9yUnVuLCBjb250ZXh0LCB3aWR0aCwgaGVpZ2h0LCBkcGkpCiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGZhbHNlCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB2YWwgZGlzcGxheUlkID0gdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgU2hvd2VyQ29udHJvbGxlci5nZXREaXNwbGF5SWQoYWdlbnRJZEZvclJ1bikKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaWYgKCFva0Rpc3BsYXkgfHwgZGlzcGxheUlkID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kV2l0aFRpbWVzdGFtcChsb2dCdWlsZGVyLCAiW1ZpcnR1YWxTY3JlZW5dIEZhaWxlZCB0byBjcmVhdGUgdmlydHVhbCBkaXNwbGF5IGZvciBhZ2VudElkPSRhZ2VudElkRm9yUnVuLiIpCiAgICAgICAgICAgICAgICAgICAgICAgIF91aVN0YXRlLnZhbHVlID0gQXV0b0dsbVVpU3RhdGUoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc0xvYWRpbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZyA9IGxvZ0J1aWxkZXIudG9TdHJpbmcoKS50cmltRW5kKCkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBhcHBlbmRXaXRoVGltZXN0YW1wKGxvZ0J1aWxkZXIsICJbVmlydHVhbFNjcmVlbl0gVmlydHVhbCBkaXNwbGF5IHJlYWR5LiBkaXNwbGF5SWQ9JGRpc3BsYXlJZCIpCiAgICAgICAgICAgICAgICAgICAgX3VpU3RhdGUudmFsdWUgPSBBdXRvR2xtVWlTdGF0ZShpc0xvYWRpbmcgPSB0cnVlLCBsb2cgPSBsb2dCdWlsZGVyLnRvU3RyaW5nKCkudHJpbUVuZCgpKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbCB1aVNlcnZpY2UgPSBFbmhhbmNlZEFJU2VydmljZS5nZXRBSVNlcnZpY2VGb3JGdW5jdGlvbihjb250ZXh0LCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5GdW5jdGlvblR5cGUuVUlfQ09OVFJPTExFUikKICAgICAgICAgICAgICAgIHZhbCBzeXN0ZW1Qcm9tcHQgPSBidWlsZFVpQXV0b21hdGlvblN5c3RlbVByb21wdCgpCgogICAgICAgICAgICAgICAgdmFsIGFnZW50Q29uZmlnID0gQWdlbnRDb25maWcobWF4U3RlcHMgPSAyNSkKICAgICAgICAgICAgICAgIC8vIEdldCB0aGUgcmVhbCBVSSB0b29scyBpbXBsZW1lbnRhdGlvbiBiYXNlZCBvbiB0aGUgdXNlcidzIHByZWZlcnJlZCBwZXJtaXNzaW9uIGxldmVsLgogICAgICAgICAgICAgICAgdmFsIHVpVG9vbHMgPSBUb29sR2V0dGVyLmdldFVJVG9vbHMoY29udGV4dCkKICAgICAgICAgICAgICAgIHZhbCBhY3Rpb25IYW5kbGVyID0gQWN0aW9uSGFuZGxlcigKICAgICAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgICAgICAgICBzY3JlZW5XaWR0aCA9IGNvbnRleHQucmVzb3VyY2VzLmRpc3BsYXlNZXRyaWNzLndpZHRoUGl4ZWxzLAogICAgICAgICAgICAgICAgICAgIHNjcmVlbkhlaWdodCA9IGNvbnRleHQucmVzb3VyY2VzLmRpc3BsYXlNZXRyaWNzLmhlaWdodFBpeGVscywKICAgICAgICAgICAgICAgICAgICAvLyBVc2UgdGhlIHJlYWwgVUkgdG9vbHMgaW1wbGVtZW50YXRpb24gdG8gZW5zdXJlIFRhcC9Td2lwZS9QcmVzc0tleS9TY3JlZW5zaG90IGFjdGlvbnMgYXJlIGV4ZWN1dGVkLgogICAgICAgICAgICAgICAgICAgIHRvb2xJbXBsZW1lbnRhdGlvbnMgPSB1aVRvb2xzCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgdmFsIGFnZW50ID0gUGhvbmVBZ2VudCgKICAgICAgICAgICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgICAgICAgICBjb25maWcgPSBhZ2VudENvbmZpZywKICAgICAgICAgICAgICAgICAgICB1aVNlcnZpY2UgPSB1aVNlcnZpY2UsIC8vIERpcmVjdGx5IHBhc3MgdGhlIHNwZWNpYWxpemVkIEFJU2VydmljZQogICAgICAgICAgICAgICAgICAgIGFjdGlvbkhhbmRsZXIgPSBhY3Rpb25IYW5kbGVyLAogICAgICAgICAgICAgICAgICAgIGFnZW50SWQgPSBhZ2VudElkRm9yUnVuLAogICAgICAgICAgICAgICAgICAgIGNsZWFudXBPbkZpbmlzaCA9IGZhbHNlCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgLy8gSGVhZGVyIHNlY3Rpb27vvIzlsL3ph4/otLTov5HlrpjmlrkgQ0xJCiAgICAgICAgICAgICAgICBhcHBlbmRXaXRoVGltZXN0YW1wKGxvZ0J1aWxkZXIsICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIpCiAgICAgICAgICAgICAgICBhcHBlbmRXaXRoVGltZXN0YW1wKGxvZ0J1aWxkZXIsICJUYXNrOiAkdGFzayIpCiAgICAgICAgICAgICAgICBhcHBlbmRXaXRoVGltZXN0YW1wKGxvZ0J1aWxkZXIsICJNYXggU3RlcHM6ICR7YWdlbnRDb25maWcubWF4U3RlcHN9IikKICAgICAgICAgICAgICAgIGFwcGVuZFdpdGhUaW1lc3RhbXAobG9nQnVpbGRlciwgIlVzZSBWaXJ0dWFsIFNjcmVlbjogJHVzZVZpcnR1YWxTY3JlZW4iKQogICAgICAgICAgICAgICAgYXBwZW5kV2l0aFRpbWVzdGFtcChsb2dCdWlsZGVyLCAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iKQogICAgICAgICAgICAgICAgYXBwZW5kV2l0aFRpbWVzdGFtcChsb2dCdWlsZGVyLCAiIikKCiAgICAgICAgICAgICAgICAvLyDlhYjmiorlpLTpg6jmmL7npLrlh7rmnaUKICAgICAgICAgICAgICAgIF91aVN0YXRlLnZhbHVlID0gQXV0b0dsbVVpU3RhdGUoaXNMb2FkaW5nID0gdHJ1ZSwgbG9nID0gbG9nQnVpbGRlci50b1N0cmluZygpKQoKICAgICAgICAgICAgICAgIHZhciBzdGVwSW5kZXggPSAxCiAgICAgICAgICAgICAgICB2YWwgcGF1c2VkU3RhdGUgPSBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93KGZhbHNlKQoKICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGZpbmFsTWVzc2FnZSA9IGFnZW50LnJ1bigKICAgICAgICAgICAgICAgICAgICAgICAgdGFzayA9IHRhc2ssCiAgICAgICAgICAgICAgICAgICAgICAgIHN5c3RlbVByb21wdCA9IHN5c3RlbVByb21wdCwKICAgICAgICAgICAgICAgICAgICAgICAgb25TdGVwID0geyBzdGVwUmVzdWx0OiBTdGVwUmVzdWx0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmRTdGVwTG9nKGxvZ0J1aWxkZXIsIHN0ZXBJbmRleCwgc3RlcFJlc3VsdCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXBJbmRleCsrCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgX3VpU3RhdGUudmFsdWUgPSBBdXRvR2xtVWlTdGF0ZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc0xvYWRpbmcgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvZyA9IGxvZ0J1aWxkZXIudG9TdHJpbmcoKS50cmltRW5kKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgaXNQYXVzZWRGbG93ID0gcGF1c2VkU3RhdGUKICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgICAgIC8vIOi/veWKoOacgOe7iOe7k+aenO+8jOS9v+eUqCDwn46JIC8g4pyFIOagt+W8jwogICAgICAgICAgICAgICAgICAgIHZhbCBmaW5hbFRpbWUgPSBjdXJyZW50VGltZVN0cmluZygpCiAgICAgICAgICAgICAgICAgICAgZnVuIGFwcGVuZEZpbmFsKGxpbmU6IFN0cmluZykgewogICAgICAgICAgICAgICAgICAgICAgICBsb2dCdWlsZGVyLmFwcGVuZCgiWyIpCiAgICAgICAgICAgICAgICAgICAgICAgIGxvZ0J1aWxkZXIuYXBwZW5kKGZpbmFsVGltZSkKICAgICAgICAgICAgICAgICAgICAgICAgbG9nQnVpbGRlci5hcHBlbmQoIl0gIikKICAgICAgICAgICAgICAgICAgICAgICAgbG9nQnVpbGRlci5hcHBlbmRMaW5lKGxpbmUpCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBhcHBlbmRGaW5hbCgi8J+OiSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIpCgogICAgICAgICAgICAgICAgICAgIHZhbCBmaW5hbExpbmVzID0gZmluYWxNZXNzYWdlLmxpbmVzKCkKICAgICAgICAgICAgICAgICAgICBpZiAoZmluYWxMaW5lcy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgYXBwZW5kRmluYWwoIuKchSDku7vliqHlrozmiJA6ICR7ZmluYWxMaW5lcy5maXJzdCgpLnRyaW0oKX0iKQogICAgICAgICAgICAgICAgICAgICAgICBmaW5hbExpbmVzLmRyb3AoMSkuZm9yRWFjaCB7IGxpbmUgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChsaW5lLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFwcGVuZEZpbmFsKGxpbmUudHJpbSgpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBfdWlTdGF0ZS52YWx1ZSA9IEF1dG9HbG1VaVN0YXRlKAogICAgICAgICAgICAgICAgICAgICAgICBpc0xvYWRpbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgbG9nID0gbG9nQnVpbGRlci50b1N0cmluZygpLnRyaW1FbmQoKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoIkF1dG9HbG1WaWV3TW9kZWwiLCAiRXJyb3IgZXhlY3V0aW5nIHRhc2siLCBlKQogICAgICAgICAgICAgICAgX3VpU3RhdGUudmFsdWUgPSBBdXRvR2xtVWlTdGF0ZShpc0xvYWRpbmcgPSBmYWxzZSwgbG9nID0gIkVycm9yOiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBjYW5jZWxUYXNrKCkgewogICAgICAgIGV4ZWN1dGlvbkpvYj8uY2FuY2VsKCkKICAgICAgICBfdWlTdGF0ZS52YWx1ZSA9IEF1dG9HbG1VaVN0YXRlKGlzTG9hZGluZyA9IGZhbHNlLCBsb2cgPSBfdWlTdGF0ZS52YWx1ZS5sb2cgKyAiW0V4ZWN1dGlvbiBDYW5jZWxsZWQgYnkgVXNlcl0iKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkVWlBdXRvbWF0aW9uU3lzdGVtUHJvbXB0KCk6IFN0cmluZyB7CiAgICAgICAgdmFsIHVzZUVuZ2xpc2ggPSAhTG9jYWxlVXRpbHMudXNlc0NoaW5lc2VDb250ZW50KGNvbnRleHQpCiAgICAgICAgdmFsIGZvcm1hdHRlZERhdGUgPQogICAgICAgICAgICBpZiAodXNlRW5nbGlzaCkgewogICAgICAgICAgICAgICAgU2ltcGxlRGF0ZUZvcm1hdCgieXl5eS1NTS1kZCBFRUVFIiwgTG9jYWxlLkVOR0xJU0gpLmZvcm1hdChEYXRlKCkpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB2YWwgY2FsZW5kYXIgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpCiAgICAgICAgICAgICAgICB2YWwgc2RmID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eeW5tE1N5pyIZGTml6UiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKQogICAgICAgICAgICAgICAgdmFsIGRhdGVQYXJ0ID0gc2RmLmZvcm1hdChEYXRlKCkpCiAgICAgICAgICAgICAgICB2YWwgd2Vla2RheU5hbWVzID0gYXJyYXlPZigi5pif5pyf5pelIiwgIuaYn+acn+S4gCIsICLmmJ/mnJ/kuowiLCAi5pif5pyf5LiJIiwgIuaYn+acn+WbmyIsICLmmJ/mnJ/kupQiLCAi5pif5pyf5YWtIikKICAgICAgICAgICAgICAgIHZhbCB3ZWVrZGF5ID0gd2Vla2RheU5hbWVzW2NhbGVuZGFyLmdldChDYWxlbmRhci5EQVlfT0ZfV0VFSykgLSAxXQogICAgICAgICAgICAgICAgIiRkYXRlUGFydCAkd2Vla2RheSIKICAgICAgICAgICAgfQogICAgICAgIHJldHVybiBGdW5jdGlvbmFsUHJvbXB0cy5idWlsZFVpQXV0b21hdGlvbkFnZW50UHJvbXB0KGZvcm1hdHRlZERhdGUsIHVzZUVuZ2xpc2gpCiAgICB9CiAgICAKICAgIHByaXZhdGUgZnVuIGV4dHJhY3RUYWdDb250ZW50KHRleHQ6IFN0cmluZywgdGFnOiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgcGF0dGVybiA9IFJlZ2V4KCIiIjwkdGFnPiguKj8pPC8kdGFnPiIiIiwgUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMKQogICAgICAgIHJldHVybiBwYXR0ZXJuLmZpbmQodGV4dCk/Lmdyb3VwVmFsdWVzPy5nZXRPck51bGwoMSk/LnRyaW0oKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGFwcGVuZFN0ZXBMb2coYnVpbGRlcjogU3RyaW5nQnVpbGRlciwgc3RlcEluZGV4OiBJbnQsIHN0ZXBSZXN1bHQ6IFN0ZXBSZXN1bHQpIHsKICAgICAgICB2YWwgdGltZSA9IGN1cnJlbnRUaW1lU3RyaW5nKCkKCiAgICAgICAgZnVuIGFwcGVuZChsaW5lOiBTdHJpbmcpIHsKICAgICAgICAgICAgYnVpbGRlci5hcHBlbmQoIlsiKQogICAgICAgICAgICBidWlsZGVyLmFwcGVuZCh0aW1lKQogICAgICAgICAgICBidWlsZGVyLmFwcGVuZCgiXSAiKQogICAgICAgICAgICBidWlsZGVyLmFwcGVuZExpbmUobGluZSkKICAgICAgICB9CgogICAgICAgIC8vIOatpemqpOWIhumalOe6vwogICAgICAgIGFwcGVuZCgiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iKQoKICAgICAgICAvLyDwn5KtIOaAneiAg+i/h+eoiwogICAgICAgIHN0ZXBSZXN1bHQudGhpbmtpbmc/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9Py5sZXQgeyB0aGlua2luZyAtPgogICAgICAgICAgICBhcHBlbmQoIvCfkq0g5oCd6ICD6L+H56iLOiIpCiAgICAgICAgICAgIGFwcGVuZCgiLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0iKQogICAgICAgICAgICB0aGlua2luZy50cmltKCkubGluZXMoKS5mb3JFYWNoIHsgbGluZSAtPgogICAgICAgICAgICAgICAgaWYgKGxpbmUuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKGxpbmUudHJpbSgpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyDwn46vIOaJp+ihjOWKqOS9nAogICAgICAgIHN0ZXBSZXN1bHQuYWN0aW9uPy5sZXQgeyBhY3Rpb24gLT4KICAgICAgICAgICAgYXBwZW5kKCItLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSIpCiAgICAgICAgICAgIGFwcGVuZCgi8J+OryDmiafooYzliqjkvZw6IikKCiAgICAgICAgICAgIHZhbCBqc29uTGluZXMgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQogICAgICAgICAgICBhY3Rpb24uYWN0aW9uTmFtZT8ubGV0IHsgbmFtZSAtPgogICAgICAgICAgICAgICAganNvbkxpbmVzICs9ICJcImFjdGlvblwiOiBcIiRuYW1lXCIiCiAgICAgICAgICAgIH0KICAgICAgICAgICAganNvbkxpbmVzICs9ICJcIl9tZXRhZGF0YVwiOiBcIiR7YWN0aW9uLm1ldGFkYXRhfVwiIgogICAgICAgICAgICBhY3Rpb24uZmllbGRzLmZvckVhY2ggeyAoa2V5LCB2YWx1ZSkgLT4KICAgICAgICAgICAgICAgIGlmIChrZXkgIT0gImFjdGlvbiIpIHsKICAgICAgICAgICAgICAgICAgICBqc29uTGluZXMgKz0gIlwiJGtleVwiOiBcIiR2YWx1ZVwiIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBhcHBlbmQoInsiKQogICAgICAgICAgICBqc29uTGluZXMuZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgbGluZSAtPgogICAgICAgICAgICAgICAgdmFsIHN1ZmZpeCA9IGlmIChpbmRleCA9PSBqc29uTGluZXMubGFzdEluZGV4KSAiIiBlbHNlICIsIgogICAgICAgICAgICAgICAgYXBwZW5kKCIgICRsaW5lJHN1ZmZpeCIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYXBwZW5kKCJ9IikKICAgICAgICB9CgogICAgICAgIC8vIOWvueS6jumdniBmaW5pc2gg5q2l6aqk77yM5aaC5p6c5pyJ6aKd5aSW5raI5oGv5YiZ6KGl5YWF5LiA5q616K+05piOCiAgICAgICAgc3RlcFJlc3VsdC5tZXNzYWdlCiAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpICYmIHN0ZXBSZXN1bHQuYWN0aW9uPy5tZXRhZGF0YSAhPSAiZmluaXNoIiB9CiAgICAgICAgICAgID8ubGV0IHsgbXNnIC0+CiAgICAgICAgICAgICAgICBhcHBlbmQoIi0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIikKICAgICAgICAgICAgICAgIG1zZy50cmltKCkubGluZXMoKS5mb3JFYWNoIHsgbGluZSAtPgogICAgICAgICAgICAgICAgICAgIGlmIChsaW5lLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgICAgICBhcHBlbmQobGluZS50cmltKCkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgIGFwcGVuZCgiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGN1cnJlbnRUaW1lU3RyaW5nKCk6IFN0cmluZyB7CiAgICAgICAgdmFsIHNkZiA9IFNpbXBsZURhdGVGb3JtYXQoIkhIOm1tOnNzIiwgTG9jYWxlLmdldERlZmF1bHQoKSkKICAgICAgICByZXR1cm4gc2RmLmZvcm1hdChEYXRlKCkpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwZW5kV2l0aFRpbWVzdGFtcChidWlsZGVyOiBTdHJpbmdCdWlsZGVyLCBsaW5lOiBTdHJpbmcpIHsKICAgICAgICB2YWwgdGltZSA9IGN1cnJlbnRUaW1lU3RyaW5nKCkKICAgICAgICBidWlsZGVyLmFwcGVuZCgiWyIpCiAgICAgICAgYnVpbGRlci5hcHBlbmQodGltZSkKICAgICAgICBidWlsZGVyLmFwcGVuZCgiXSAiKQogICAgICAgIGJ1aWxkZXIuYXBwZW5kTGluZShsaW5lKQogICAgfQp9CgpkYXRhIGNsYXNzIEF1dG9HbG1VaVN0YXRlKAogICAgdmFsIGlzTG9hZGluZzogQm9vbGVhbiA9IGZhbHNlLAogICAgdmFsIGxvZzogU3RyaW5nID0gIlJlYWR5IHRvIGV4ZWN1dGUgdGFzay4iCikK
+package com.bslsjdk.operit.ui.features.toolbox.screens.autoglm
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.api.chat.EnhancedAIService
+import com.bslsjdk.operit.core.config.FunctionalPrompts
+import com.bslsjdk.operit.core.tools.agent.ActionHandler
+import com.bslsjdk.operit.core.tools.agent.AgentConfig
+import com.bslsjdk.operit.core.tools.agent.PhoneAgent
+import com.bslsjdk.operit.core.tools.agent.ToolImplementations
+import com.bslsjdk.operit.core.tools.agent.StepResult
+import com.bslsjdk.operit.core.tools.agent.ShowerController
+import com.bslsjdk.operit.core.tools.agent.ShowerServerManager
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.core.tools.defaultTool.ToolGetter
+import com.bslsjdk.operit.core.tools.defaultTool.standard.StandardUITools
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.FunctionType
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.LocaleUtils
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import java.util.Date
+import java.util.Locale
+
+import kotlinx.coroutines.Job
+
+class AutoGlmViewModel(private val context: Context) : ViewModel() {
+
+    private var executionJob: Job? = null
+
+    private val sessionAgentId: String = java.util.UUID.randomUUID().toString().take(8)
+
+    private val _uiState = MutableStateFlow(AutoGlmUiState())
+    val uiState: StateFlow<AutoGlmUiState> = _uiState.asStateFlow()
+
+    fun executeTask(task: String, useVirtualScreen: Boolean = false) {
+        if (task.isBlank()) return
+
+        executionJob?.cancel()
+
+        executionJob = viewModelScope.launch {
+            val logBuilder = StringBuilder()
+            appendWithTimestamp(logBuilder, "Initializing agent...")
+            _uiState.value = AutoGlmUiState(isLoading = true, log = logBuilder.toString().trimEnd())
+
+            try {
+                val agentIdForRun = if (useVirtualScreen) sessionAgentId else "default"
+                if (useVirtualScreen) {
+                    appendWithTimestamp(logBuilder, "[VirtualScreen] Ensuring Shower virtual display...")
+                    _uiState.value = AutoGlmUiState(isLoading = true, log = logBuilder.toString().trimEnd())
+
+                    val okServer = try {
+                        ShowerServerManager.ensureServerStarted(context)
+                    } catch (e: Exception) {
+                        false
+                    }
+
+                    if (!okServer) {
+                        appendWithTimestamp(logBuilder, "[VirtualScreen] Failed to start Shower server.")
+                        _uiState.value = AutoGlmUiState(
+                            isLoading = false,
+                            log = logBuilder.toString().trimEnd()
+                        )
+                        return@launch
+                    }
+
+                    val metrics = context.resources.displayMetrics
+                    val width = metrics.widthPixels
+                    val height = metrics.heightPixels
+                    val dpi = metrics.densityDpi
+
+                    val okDisplay = try {
+                        ShowerController.ensureDisplay(agentIdForRun, context, width, height, dpi)
+                    } catch (e: Exception) {
+                        false
+                    }
+
+                    val displayId = try {
+                        ShowerController.getDisplayId(agentIdForRun)
+                    } catch (_: Exception) {
+                        null
+                    }
+
+                    if (!okDisplay || displayId == null) {
+                        appendWithTimestamp(logBuilder, "[VirtualScreen] Failed to create virtual display for agentId=$agentIdForRun.")
+                        _uiState.value = AutoGlmUiState(
+                            isLoading = false,
+                            log = logBuilder.toString().trimEnd()
+                        )
+                        return@launch
+                    }
+
+                    appendWithTimestamp(logBuilder, "[VirtualScreen] Virtual display ready. displayId=$displayId")
+                    _uiState.value = AutoGlmUiState(isLoading = true, log = logBuilder.toString().trimEnd())
+                }
+
+                val uiService = EnhancedAIService.getAIServiceForFunction(context, com.bslsjdk.operit.data.model.FunctionType.UI_CONTROLLER)
+                val systemPrompt = buildUiAutomationSystemPrompt()
+
+                val agentConfig = AgentConfig(maxSteps = 25)
+                // Get the real UI tools implementation based on the user's preferred permission level.
+                val uiTools = ToolGetter.getUITools(context)
+                val actionHandler = ActionHandler(
+                    context = context,
+                    screenWidth = context.resources.displayMetrics.widthPixels,
+                    screenHeight = context.resources.displayMetrics.heightPixels,
+                    // Use the real UI tools implementation to ensure Tap/Swipe/PressKey/Screenshot actions are executed.
+                    toolImplementations = uiTools
+                )
+
+                val agent = PhoneAgent(
+                    context = context,
+                    config = agentConfig,
+                    uiService = uiService, // Directly pass the specialized AIService
+                    actionHandler = actionHandler,
+                    agentId = agentIdForRun,
+                    cleanupOnFinish = false
+                )
+
+                // Header section，尽量贴近官方 CLI
+                appendWithTimestamp(logBuilder, "==================================================")
+                appendWithTimestamp(logBuilder, "Task: $task")
+                appendWithTimestamp(logBuilder, "Max Steps: ${agentConfig.maxSteps}")
+                appendWithTimestamp(logBuilder, "Use Virtual Screen: $useVirtualScreen")
+                appendWithTimestamp(logBuilder, "==================================================")
+                appendWithTimestamp(logBuilder, "")
+
+                // 先把头部显示出来
+                _uiState.value = AutoGlmUiState(isLoading = true, log = logBuilder.toString())
+
+                var stepIndex = 1
+                val pausedState = kotlinx.coroutines.flow.MutableStateFlow(false)
+
+                withContext(Dispatchers.IO) {
+                    val finalMessage = agent.run(
+                        task = task,
+                        systemPrompt = systemPrompt,
+                        onStep = { stepResult: StepResult ->
+                            appendStepLog(logBuilder, stepIndex, stepResult)
+                            stepIndex++
+
+                            _uiState.value = AutoGlmUiState(
+                                isLoading = true,
+                                log = logBuilder.toString().trimEnd()
+                            )
+                        },
+                        isPausedFlow = pausedState
+                    )
+
+                    // 追加最终结果，使用 🎉 / ✅ 样式
+                    val finalTime = currentTimeString()
+                    fun appendFinal(line: String) {
+                        logBuilder.append("[")
+                        logBuilder.append(finalTime)
+                        logBuilder.append("] ")
+                        logBuilder.appendLine(line)
+                    }
+
+                    appendFinal("🎉 ==================================================")
+
+                    val finalLines = finalMessage.lines()
+                    if (finalLines.isNotEmpty()) {
+                        appendFinal("✅ 任务完成: ${finalLines.first().trim()}")
+                        finalLines.drop(1).forEach { line ->
+                            if (line.isNotBlank()) {
+                                appendFinal(line.trim())
+                            }
+                        }
+                    }
+
+                    _uiState.value = AutoGlmUiState(
+                        isLoading = false,
+                        log = logBuilder.toString().trimEnd()
+                    )
+                }
+
+            } catch (e: Exception) {
+                AppLogger.e("AutoGlmViewModel", "Error executing task", e)
+                _uiState.value = AutoGlmUiState(isLoading = false, log = "Error: ${e.message}")
+            }
+        }
+    }
+
+    fun cancelTask() {
+        executionJob?.cancel()
+        _uiState.value = AutoGlmUiState(isLoading = false, log = _uiState.value.log + "[Execution Cancelled by User]")
+    }
+
+    private fun buildUiAutomationSystemPrompt(): String {
+        val useEnglish = !LocaleUtils.usesChineseContent(context)
+        val formattedDate =
+            if (useEnglish) {
+                SimpleDateFormat("yyyy-MM-dd EEEE", Locale.ENGLISH).format(Date())
+            } else {
+                val calendar = Calendar.getInstance()
+                val sdf = SimpleDateFormat("yyyy年MM月dd日", Locale.getDefault())
+                val datePart = sdf.format(Date())
+                val weekdayNames = arrayOf("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六")
+                val weekday = weekdayNames[calendar.get(Calendar.DAY_OF_WEEK) - 1]
+                "$datePart $weekday"
+            }
+        return FunctionalPrompts.buildUiAutomationAgentPrompt(formattedDate, useEnglish)
+    }
+    
+    private fun extractTagContent(text: String, tag: String): String? {
+        val pattern = Regex("""<$tag>(.*?)</$tag>""", RegexOption.DOT_MATCHES_ALL)
+        return pattern.find(text)?.groupValues?.getOrNull(1)?.trim()
+    }
+
+    private fun appendStepLog(builder: StringBuilder, stepIndex: Int, stepResult: StepResult) {
+        val time = currentTimeString()
+
+        fun append(line: String) {
+            builder.append("[")
+            builder.append(time)
+            builder.append("] ")
+            builder.appendLine(line)
+        }
+
+        // 步骤分隔线
+        append("==================================================")
+
+        // 💭 思考过程
+        stepResult.thinking?.takeIf { it.isNotBlank() }?.let { thinking ->
+            append("💭 思考过程:")
+            append("--------------------------------------------------")
+            thinking.trim().lines().forEach { line ->
+                if (line.isNotBlank()) {
+                    append(line.trim())
+                }
+            }
+        }
+
+        // 🎯 执行动作
+        stepResult.action?.let { action ->
+            append("--------------------------------------------------")
+            append("🎯 执行动作:")
+
+            val jsonLines = mutableListOf<String>()
+            action.actionName?.let { name ->
+                jsonLines += "\"action\": \"$name\""
+            }
+            jsonLines += "\"_metadata\": \"${action.metadata}\""
+            action.fields.forEach { (key, value) ->
+                if (key != "action") {
+                    jsonLines += "\"$key\": \"$value\""
+                }
+            }
+
+            append("{")
+            jsonLines.forEachIndexed { index, line ->
+                val suffix = if (index == jsonLines.lastIndex) "" else ","
+                append("  $line$suffix")
+            }
+            append("}")
+        }
+
+        // 对于非 finish 步骤，如果有额外消息则补充一段说明
+        stepResult.message
+            ?.takeIf { it.isNotBlank() && stepResult.action?.metadata != "finish" }
+            ?.let { msg ->
+                append("--------------------------------------------------")
+                msg.trim().lines().forEach { line ->
+                    if (line.isNotBlank()) {
+                        append(line.trim())
+                    }
+                }
+            }
+
+        append("==================================================")
+    }
+
+    private fun currentTimeString(): String {
+        val sdf = SimpleDateFormat("HH:mm:ss", Locale.getDefault())
+        return sdf.format(Date())
+    }
+
+    private fun appendWithTimestamp(builder: StringBuilder, line: String) {
+        val time = currentTimeString()
+        builder.append("[")
+        builder.append(time)
+        builder.append("] ")
+        builder.appendLine(line)
+    }
+}
+
+data class AutoGlmUiState(
+    val isLoading: Boolean = false,
+    val log: String = "Ready to execute task."
+)

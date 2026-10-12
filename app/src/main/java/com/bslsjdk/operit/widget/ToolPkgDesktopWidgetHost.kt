@@ -1,1 +1,177 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQud2lkZ2V0CgppbXBvcnQgYW5kcm9pZC5hcHB3aWRnZXQuQXBwV2lkZ2V0TWFuYWdlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFJVG9vbEhhbmRsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlBhY2thZ2VNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5NYWluQWN0aXZpdHkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5ydW5CbG9ja2luZwppbXBvcnQgYW5kcm9pZHguZ2xhbmNlLmFwcHdpZGdldC51cGRhdGVBbGwKCm9iamVjdCBUb29sUGtnRGVza3RvcFdpZGdldEhvc3QgewogICAgY29uc3QgdmFsIEVYVFJBX09QRU5fUk9VVEVfSUQgPSAiY29tLmJzbHNqZGsub3Blcml0LmV4dHJhLk9QRU5fUk9VVEVfSUQiCiAgICBjb25zdCB2YWwgRVhUUkFfT1BFTl9ST1VURV9BUkdTX0pTT04gPSAiY29tLmJzbHNqZGsub3Blcml0LmV4dHJhLk9QRU5fUk9VVEVfQVJHU19KU09OIgoKICAgIHByaXZhdGUgY29uc3QgdmFsIFBSRUZTX05BTUUgPSAidG9vbHBrZ19kZXNrdG9wX3dpZGdldF9ob3N0IgogICAgcHJpdmF0ZSBjb25zdCB2YWwgS0VZX1BSRUZJWF9TRUxFQ1RJT04gPSAic2VsZWN0aW9uOiIKICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9QUkVGSVhfUk9VVEUgPSAicm91dGU6IgogICAgcHJpdmF0ZSBjb25zdCB2YWwgS0VZX1BSRUZJWF9SRU5ERVJfUk9VVEUgPSAicmVuZGVyX3JvdXRlOiIKICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9QUkVGSVhfQ09OVEFJTkVSID0gImNvbnRhaW5lcjoiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfUFJFRklYX1dJREdFVF9JRCA9ICJ3aWRnZXRfaWQ6IgogICAgcHJpdmF0ZSBjb25zdCB2YWwgS0VZX1BSRUZJWF9USVRMRSA9ICJ0aXRsZToiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfUFJFRklYX1NVQlRJVExFID0gInN1YnRpdGxlOiIKICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9QUkVGSVhfREVTQ1JJUFRJT04gPSAiZGVzY3JpcHRpb246IgogICAgcHJpdmF0ZSBjb25zdCB2YWwgS0VZX1BSRUZJWF9JQ09OID0gImljb246IgogICAgcHJpdmF0ZSBjb25zdCB2YWwgS0VZX1BSRUZJWF9PUkRFUiA9ICJvcmRlcjoiCgogICAgZGF0YSBjbGFzcyBXaWRnZXRTZWxlY3Rpb24oCiAgICAgICAgdmFsIGtleTogU3RyaW5nLAogICAgICAgIHZhbCB3aWRnZXQ6IFBhY2thZ2VNYW5hZ2VyLlRvb2xQa2dEZXNrdG9wV2lkZ2V0CiAgICApCgogICAgZnVuIGJ1aWxkU2VsZWN0aW9uS2V5KGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsIHdpZGdldElkOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHJldHVybiAiJHtjb250YWluZXJQYWNrYWdlTmFtZS50cmltKCl9OiR7d2lkZ2V0SWQudHJpbSgpfSIKICAgIH0KCiAgICBmdW4gbGlzdEF2YWlsYWJsZVdpZGdldHMoY29udGV4dDogQ29udGV4dCk6IExpc3Q8UGFja2FnZU1hbmFnZXIuVG9vbFBrZ0Rlc2t0b3BXaWRnZXQ+IHsKICAgICAgICB2YWwgcGFja2FnZU1hbmFnZXIgPSBQYWNrYWdlTWFuYWdlci5nZXRJbnN0YW5jZShjb250ZXh0LCBBSVRvb2xIYW5kbGVyLmdldEluc3RhbmNlKGNvbnRleHQpKQogICAgICAgIHJldHVybiBwYWNrYWdlTWFuYWdlci5nZXRUb29sUGtnRGVza3RvcFdpZGdldHMocmVzb2x2ZUNvbnRleHQgPSBjb250ZXh0KQogICAgfQoKICAgIGZ1biByZXNvbHZlU2VsZWN0aW9uKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgYXBwV2lkZ2V0SWQ6IEludAogICAgKTogV2lkZ2V0U2VsZWN0aW9uPyB7CiAgICAgICAgaWYgKGFwcFdpZGdldElkID09IEFwcFdpZGdldE1hbmFnZXIuSU5WQUxJRF9BUFBXSURHRVRfSUQpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgdmFsIHBlcnNpc3RlZCA9IGxvYWRQZXJzaXN0ZWRTZWxlY3Rpb24oY29udGV4dCwgYXBwV2lkZ2V0SWQpID86IHJldHVybiBudWxsCiAgICAgICAgdmFsIGN1cnJlbnQgPQogICAgICAgICAgICBsaXN0QXZhaWxhYmxlV2lkZ2V0cyhjb250ZXh0KS5maXJzdE9yTnVsbCB7IGNhbmRpZGF0ZSAtPgogICAgICAgICAgICAgICAgYnVpbGRTZWxlY3Rpb25LZXkoY2FuZGlkYXRlLmNvbnRhaW5lclBhY2thZ2VOYW1lLCBjYW5kaWRhdGUud2lkZ2V0SWQpID09IHBlcnNpc3RlZC5rZXkKICAgICAgICAgICAgfQogICAgICAgIHJldHVybiBXaWRnZXRTZWxlY3Rpb24oCiAgICAgICAgICAgIGtleSA9IHBlcnNpc3RlZC5rZXksCiAgICAgICAgICAgIHdpZGdldCA9IGN1cnJlbnQgPzogcGVyc2lzdGVkLndpZGdldAogICAgICAgICkKICAgIH0KCiAgICBmdW4gc2F2ZVNlbGVjdGlvbigKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIGFwcFdpZGdldElkOiBJbnQsCiAgICAgICAgd2lkZ2V0OiBQYWNrYWdlTWFuYWdlci5Ub29sUGtnRGVza3RvcFdpZGdldAogICAgKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIHNlbGVjdGlvbktleSA9IGJ1aWxkU2VsZWN0aW9uS2V5KHdpZGdldC5jb250YWluZXJQYWNrYWdlTmFtZSwgd2lkZ2V0LndpZGdldElkKQogICAgICAgIHJldHVybiBjb250ZXh0CiAgICAgICAgICAgIC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhQUkVGU19OQU1FLCBDb250ZXh0Lk1PREVfUFJJVkFURSkKICAgICAgICAgICAgLmVkaXQoKQogICAgICAgICAgICAucHV0U3RyaW5nKHNlbGVjdGlvblByZWZLZXkoYXBwV2lkZ2V0SWQpLCBzZWxlY3Rpb25LZXkpCiAgICAgICAgICAgIC5wdXRTdHJpbmcocm91dGVQcmVmS2V5KGFwcFdpZGdldElkKSwgd2lkZ2V0LnJvdXRlSWQpCiAgICAgICAgICAgIC5wdXRTdHJpbmcocmVuZGVyUm91dGVQcmVmS2V5KGFwcFdpZGdldElkKSwgd2lkZ2V0LnJlbmRlclJvdXRlSWQpCiAgICAgICAgICAgIC5wdXRTdHJpbmcoY29udGFpbmVyUHJlZktleShhcHBXaWRnZXRJZCksIHdpZGdldC5jb250YWluZXJQYWNrYWdlTmFtZSkKICAgICAgICAgICAgLnB1dFN0cmluZyh3aWRnZXRJZFByZWZLZXkoYXBwV2lkZ2V0SWQpLCB3aWRnZXQud2lkZ2V0SWQpCiAgICAgICAgICAgIC5wdXRTdHJpbmcodGl0bGVQcmVmS2V5KGFwcFdpZGdldElkKSwgd2lkZ2V0LnRpdGxlKQogICAgICAgICAgICAucHV0U3RyaW5nKHN1YnRpdGxlUHJlZktleShhcHBXaWRnZXRJZCksIHdpZGdldC5zdWJ0aXRsZSkKICAgICAgICAgICAgLnB1dFN0cmluZyhkZXNjcmlwdGlvblByZWZLZXkoYXBwV2lkZ2V0SWQpLCB3aWRnZXQuZGVzY3JpcHRpb24pCiAgICAgICAgICAgIC5wdXRTdHJpbmcoaWNvblByZWZLZXkoYXBwV2lkZ2V0SWQpLCB3aWRnZXQuaWNvbikKICAgICAgICAgICAgLnB1dEludChvcmRlclByZWZLZXkoYXBwV2lkZ2V0SWQpLCB3aWRnZXQub3JkZXIpCiAgICAgICAgICAgIC5jb21taXQoKQogICAgfQoKICAgIGZ1biBjbGVhclNlbGVjdGlvbihjb250ZXh0OiBDb250ZXh0LCBhcHBXaWRnZXRJZDogSW50KSB7CiAgICAgICAgY29udGV4dAogICAgICAgICAgICAuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoUFJFRlNfTkFNRSwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCiAgICAgICAgICAgIC5lZGl0KCkKICAgICAgICAgICAgLnJlbW92ZShzZWxlY3Rpb25QcmVmS2V5KGFwcFdpZGdldElkKSkKICAgICAgICAgICAgLnJlbW92ZShyb3V0ZVByZWZLZXkoYXBwV2lkZ2V0SWQpKQogICAgICAgICAgICAucmVtb3ZlKHJlbmRlclJvdXRlUHJlZktleShhcHBXaWRnZXRJZCkpCiAgICAgICAgICAgIC5yZW1vdmUoY29udGFpbmVyUHJlZktleShhcHBXaWRnZXRJZCkpCiAgICAgICAgICAgIC5yZW1vdmUod2lkZ2V0SWRQcmVmS2V5KGFwcFdpZGdldElkKSkKICAgICAgICAgICAgLnJlbW92ZSh0aXRsZVByZWZLZXkoYXBwV2lkZ2V0SWQpKQogICAgICAgICAgICAucmVtb3ZlKHN1YnRpdGxlUHJlZktleShhcHBXaWRnZXRJZCkpCiAgICAgICAgICAgIC5yZW1vdmUoZGVzY3JpcHRpb25QcmVmS2V5KGFwcFdpZGdldElkKSkKICAgICAgICAgICAgLnJlbW92ZShpY29uUHJlZktleShhcHBXaWRnZXRJZCkpCiAgICAgICAgICAgIC5yZW1vdmUob3JkZXJQcmVmS2V5KGFwcFdpZGdldElkKSkKICAgICAgICAgICAgLmFwcGx5KCkKICAgIH0KCiAgICBmdW4gYnVpbGRMYXVuY2hJbnRlbnQoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICByb3V0ZUlkOiBTdHJpbmcsCiAgICAgICAgcm91dGVBcmdzSnNvbjogU3RyaW5nPyA9IG51bGwKICAgICk6IEludGVudCB7CiAgICAgICAgcmV0dXJuIEludGVudChjb250ZXh0LCBNYWluQWN0aXZpdHk6OmNsYXNzLmphdmEpLmFwcGx5IHsKICAgICAgICAgICAgZmxhZ3MgPSBJbnRlbnQuRkxBR19BQ1RJVklUWV9ORVdfVEFTSyBvciBJbnRlbnQuRkxBR19BQ1RJVklUWV9DTEVBUl9UT1Agb3IgSW50ZW50LkZMQUdfQUNUSVZJVFlfU0lOR0xFX1RPUAogICAgICAgICAgICBwdXRFeHRyYShFWFRSQV9PUEVOX1JPVVRFX0lELCByb3V0ZUlkKQogICAgICAgICAgICByb3V0ZUFyZ3NKc29uPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfT8ubGV0IHsgcHV0RXh0cmEoRVhUUkFfT1BFTl9ST1VURV9BUkdTX0pTT04sIGl0KSB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBidWlsZENvbmZpZ0ludGVudChjb250ZXh0OiBDb250ZXh0LCBhcHBXaWRnZXRJZDogSW50KTogSW50ZW50IHsKICAgICAgICByZXR1cm4gSW50ZW50KGNvbnRleHQsIFRvb2xQa2dEZXNrdG9wV2lkZ2V0Q29uZmlnQWN0aXZpdHk6OmNsYXNzLmphdmEpLmFwcGx5IHsKICAgICAgICAgICAgZmxhZ3MgPSBJbnRlbnQuRkxBR19BQ1RJVklUWV9ORVdfVEFTSyBvciBJbnRlbnQuRkxBR19BQ1RJVklUWV9DTEVBUl9UT1Agb3IgSW50ZW50LkZMQUdfQUNUSVZJVFlfU0lOR0xFX1RPUAogICAgICAgICAgICBwdXRFeHRyYShBcHBXaWRnZXRNYW5hZ2VyLkVYVFJBX0FQUFdJREdFVF9JRCwgYXBwV2lkZ2V0SWQpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biByZWZyZXNoQWxsKGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICBydW5CbG9ja2luZyB7CiAgICAgICAgICAgIFRvb2xQa2dEZXNrdG9wR2xhbmNlV2lkZ2V0KCkudXBkYXRlQWxsKGNvbnRleHQpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGxvYWRTZWxlY3Rpb25LZXkoY29udGV4dDogQ29udGV4dCwgYXBwV2lkZ2V0SWQ6IEludCk6IFN0cmluZz8gewogICAgICAgIHJldHVybiBjb250ZXh0CiAgICAgICAgICAgIC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhQUkVGU19OQU1FLCBDb250ZXh0Lk1PREVfUFJJVkFURSkKICAgICAgICAgICAgLmdldFN0cmluZyhzZWxlY3Rpb25QcmVmS2V5KGFwcFdpZGdldElkKSwgbnVsbCkKICAgICAgICAgICAgPy50cmltKCkKICAgICAgICAgICAgPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGxvYWRQZXJzaXN0ZWRTZWxlY3Rpb24oCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICBhcHBXaWRnZXRJZDogSW50CiAgICApOiBXaWRnZXRTZWxlY3Rpb24/IHsKICAgICAgICB2YWwgcHJlZnMgPSBjb250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKFBSRUZTX05BTUUsIENvbnRleHQuTU9ERV9QUklWQVRFKQogICAgICAgIHZhbCBzZWxlY3Rpb25LZXkgPSBsb2FkU2VsZWN0aW9uS2V5KGNvbnRleHQsIGFwcFdpZGdldElkKSA/OiByZXR1cm4gbnVsbAogICAgICAgIHZhbCByb3V0ZUlkID0gcHJlZnMuZ2V0U3RyaW5nKHJvdXRlUHJlZktleShhcHBXaWRnZXRJZCksIG51bGwpPy50cmltKCkub3JFbXB0eSgpCiAgICAgICAgdmFsIHJlbmRlclJvdXRlSWQgPQogICAgICAgICAgICBwcmVmcy5nZXRTdHJpbmcocmVuZGVyUm91dGVQcmVmS2V5KGFwcFdpZGdldElkKSwgbnVsbCk/LnRyaW0oKS5vckVtcHR5KCkuaWZCbGFuayB7CiAgICAgICAgICAgICAgICByb3V0ZUlkCiAgICAgICAgICAgIH0KICAgICAgICB2YWwgY29udGFpbmVyUGFja2FnZU5hbWUgPQogICAgICAgICAgICBwcmVmcy5nZXRTdHJpbmcoY29udGFpbmVyUHJlZktleShhcHBXaWRnZXRJZCksIG51bGwpPy50cmltKCkub3JFbXB0eSgpCiAgICAgICAgdmFsIHdpZGdldElkID0gcHJlZnMuZ2V0U3RyaW5nKHdpZGdldElkUHJlZktleShhcHBXaWRnZXRJZCksIG51bGwpPy50cmltKCkub3JFbXB0eSgpCiAgICAgICAgaWYgKHJvdXRlSWQuaXNCbGFuaygpIHx8IHJlbmRlclJvdXRlSWQuaXNCbGFuaygpIHx8IGNvbnRhaW5lclBhY2thZ2VOYW1lLmlzQmxhbmsoKSB8fCB3aWRnZXRJZC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICAgICAgcmV0dXJuIFdpZGdldFNlbGVjdGlvbigKICAgICAgICAgICAga2V5ID0gc2VsZWN0aW9uS2V5LAogICAgICAgICAgICB3aWRnZXQgPQogICAgICAgICAgICAgICAgUGFja2FnZU1hbmFnZXIuVG9vbFBrZ0Rlc2t0b3BXaWRnZXQoCiAgICAgICAgICAgICAgICAgICAgY29udGFpbmVyUGFja2FnZU5hbWUgPSBjb250YWluZXJQYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgICAgICB0b29sUGtnSWQgPSBjb250YWluZXJQYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgICAgICB3aWRnZXRJZCA9IHdpZGdldElkLAogICAgICAgICAgICAgICAgICAgIHJvdXRlSWQgPSByb3V0ZUlkLAogICAgICAgICAgICAgICAgICAgIHJlbmRlclJvdXRlSWQgPSByZW5kZXJSb3V0ZUlkLAogICAgICAgICAgICAgICAgICAgIHRpdGxlID0gcHJlZnMuZ2V0U3RyaW5nKHRpdGxlUHJlZktleShhcHBXaWRnZXRJZCksIG51bGwpPy50cmltKCkub3JFbXB0eSgpLAogICAgICAgICAgICAgICAgICAgIHN1YnRpdGxlID0gcHJlZnMuZ2V0U3RyaW5nKHN1YnRpdGxlUHJlZktleShhcHBXaWRnZXRJZCksIG51bGwpPy50cmltKCkub3JFbXB0eSgpLAogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gcHJlZnMuZ2V0U3RyaW5nKGRlc2NyaXB0aW9uUHJlZktleShhcHBXaWRnZXRJZCksIG51bGwpPy50cmltKCkub3JFbXB0eSgpLAogICAgICAgICAgICAgICAgICAgIGljb24gPSBwcmVmcy5nZXRTdHJpbmcoaWNvblByZWZLZXkoYXBwV2lkZ2V0SWQpLCBudWxsKT8udHJpbSgpPy5pZkJsYW5rIHsgbnVsbCB9LAogICAgICAgICAgICAgICAgICAgIG9yZGVyID0gcHJlZnMuZ2V0SW50KG9yZGVyUHJlZktleShhcHBXaWRnZXRJZCksIDApCiAgICAgICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNlbGVjdGlvblByZWZLZXkoYXBwV2lkZ2V0SWQ6IEludCk6IFN0cmluZyA9ICIkS0VZX1BSRUZJWF9TRUxFQ1RJT04kYXBwV2lkZ2V0SWQiCiAgICBwcml2YXRlIGZ1biByb3V0ZVByZWZLZXkoYXBwV2lkZ2V0SWQ6IEludCk6IFN0cmluZyA9ICIkS0VZX1BSRUZJWF9ST1VURSRhcHBXaWRnZXRJZCIKICAgIHByaXZhdGUgZnVuIHJlbmRlclJvdXRlUHJlZktleShhcHBXaWRnZXRJZDogSW50KTogU3RyaW5nID0gIiRLRVlfUFJFRklYX1JFTkRFUl9ST1VURSRhcHBXaWRnZXRJZCIKICAgIHByaXZhdGUgZnVuIGNvbnRhaW5lclByZWZLZXkoYXBwV2lkZ2V0SWQ6IEludCk6IFN0cmluZyA9ICIkS0VZX1BSRUZJWF9DT05UQUlORVIkYXBwV2lkZ2V0SWQiCiAgICBwcml2YXRlIGZ1biB3aWRnZXRJZFByZWZLZXkoYXBwV2lkZ2V0SWQ6IEludCk6IFN0cmluZyA9ICIkS0VZX1BSRUZJWF9XSURHRVRfSUQkYXBwV2lkZ2V0SWQiCiAgICBwcml2YXRlIGZ1biB0aXRsZVByZWZLZXkoYXBwV2lkZ2V0SWQ6IEludCk6IFN0cmluZyA9ICIkS0VZX1BSRUZJWF9USVRMRSRhcHBXaWRnZXRJZCIKICAgIHByaXZhdGUgZnVuIHN1YnRpdGxlUHJlZktleShhcHBXaWRnZXRJZDogSW50KTogU3RyaW5nID0gIiRLRVlfUFJFRklYX1NVQlRJVExFJGFwcFdpZGdldElkIgogICAgcHJpdmF0ZSBmdW4gZGVzY3JpcHRpb25QcmVmS2V5KGFwcFdpZGdldElkOiBJbnQpOiBTdHJpbmcgPSAiJEtFWV9QUkVGSVhfREVTQ1JJUFRJT04kYXBwV2lkZ2V0SWQiCiAgICBwcml2YXRlIGZ1biBpY29uUHJlZktleShhcHBXaWRnZXRJZDogSW50KTogU3RyaW5nID0gIiRLRVlfUFJFRklYX0lDT04kYXBwV2lkZ2V0SWQiCiAgICBwcml2YXRlIGZ1biBvcmRlclByZWZLZXkoYXBwV2lkZ2V0SWQ6IEludCk6IFN0cmluZyA9ICIkS0VZX1BSRUZJWF9PUkRFUiRhcHBXaWRnZXRJZCIKfQo=
+package com.bslsjdk.operit.widget
+
+import android.appwidget.AppWidgetManager
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.ui.main.MainActivity
+import kotlinx.coroutines.runBlocking
+import androidx.glance.appwidget.updateAll
+
+object ToolPkgDesktopWidgetHost {
+    const val EXTRA_OPEN_ROUTE_ID = "com.bslsjdk.operit.extra.OPEN_ROUTE_ID"
+    const val EXTRA_OPEN_ROUTE_ARGS_JSON = "com.bslsjdk.operit.extra.OPEN_ROUTE_ARGS_JSON"
+
+    private const val PREFS_NAME = "toolpkg_desktop_widget_host"
+    private const val KEY_PREFIX_SELECTION = "selection:"
+    private const val KEY_PREFIX_ROUTE = "route:"
+    private const val KEY_PREFIX_RENDER_ROUTE = "render_route:"
+    private const val KEY_PREFIX_CONTAINER = "container:"
+    private const val KEY_PREFIX_WIDGET_ID = "widget_id:"
+    private const val KEY_PREFIX_TITLE = "title:"
+    private const val KEY_PREFIX_SUBTITLE = "subtitle:"
+    private const val KEY_PREFIX_DESCRIPTION = "description:"
+    private const val KEY_PREFIX_ICON = "icon:"
+    private const val KEY_PREFIX_ORDER = "order:"
+
+    data class WidgetSelection(
+        val key: String,
+        val widget: PackageManager.ToolPkgDesktopWidget
+    )
+
+    fun buildSelectionKey(containerPackageName: String, widgetId: String): String {
+        return "${containerPackageName.trim()}:${widgetId.trim()}"
+    }
+
+    fun listAvailableWidgets(context: Context): List<PackageManager.ToolPkgDesktopWidget> {
+        val packageManager = PackageManager.getInstance(context, AIToolHandler.getInstance(context))
+        return packageManager.getToolPkgDesktopWidgets(resolveContext = context)
+    }
+
+    fun resolveSelection(
+        context: Context,
+        appWidgetId: Int
+    ): WidgetSelection? {
+        if (appWidgetId == AppWidgetManager.INVALID_APPWIDGET_ID) {
+            return null
+        }
+        val persisted = loadPersistedSelection(context, appWidgetId) ?: return null
+        val current =
+            listAvailableWidgets(context).firstOrNull { candidate ->
+                buildSelectionKey(candidate.containerPackageName, candidate.widgetId) == persisted.key
+            }
+        return WidgetSelection(
+            key = persisted.key,
+            widget = current ?: persisted.widget
+        )
+    }
+
+    fun saveSelection(
+        context: Context,
+        appWidgetId: Int,
+        widget: PackageManager.ToolPkgDesktopWidget
+    ): Boolean {
+        val selectionKey = buildSelectionKey(widget.containerPackageName, widget.widgetId)
+        return context
+            .getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            .edit()
+            .putString(selectionPrefKey(appWidgetId), selectionKey)
+            .putString(routePrefKey(appWidgetId), widget.routeId)
+            .putString(renderRoutePrefKey(appWidgetId), widget.renderRouteId)
+            .putString(containerPrefKey(appWidgetId), widget.containerPackageName)
+            .putString(widgetIdPrefKey(appWidgetId), widget.widgetId)
+            .putString(titlePrefKey(appWidgetId), widget.title)
+            .putString(subtitlePrefKey(appWidgetId), widget.subtitle)
+            .putString(descriptionPrefKey(appWidgetId), widget.description)
+            .putString(iconPrefKey(appWidgetId), widget.icon)
+            .putInt(orderPrefKey(appWidgetId), widget.order)
+            .commit()
+    }
+
+    fun clearSelection(context: Context, appWidgetId: Int) {
+        context
+            .getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            .edit()
+            .remove(selectionPrefKey(appWidgetId))
+            .remove(routePrefKey(appWidgetId))
+            .remove(renderRoutePrefKey(appWidgetId))
+            .remove(containerPrefKey(appWidgetId))
+            .remove(widgetIdPrefKey(appWidgetId))
+            .remove(titlePrefKey(appWidgetId))
+            .remove(subtitlePrefKey(appWidgetId))
+            .remove(descriptionPrefKey(appWidgetId))
+            .remove(iconPrefKey(appWidgetId))
+            .remove(orderPrefKey(appWidgetId))
+            .apply()
+    }
+
+    fun buildLaunchIntent(
+        context: Context,
+        routeId: String,
+        routeArgsJson: String? = null
+    ): Intent {
+        return Intent(context, MainActivity::class.java).apply {
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+            putExtra(EXTRA_OPEN_ROUTE_ID, routeId)
+            routeArgsJson?.takeIf { it.isNotBlank() }?.let { putExtra(EXTRA_OPEN_ROUTE_ARGS_JSON, it) }
+        }
+    }
+
+    fun buildConfigIntent(context: Context, appWidgetId: Int): Intent {
+        return Intent(context, ToolPkgDesktopWidgetConfigActivity::class.java).apply {
+            flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_SINGLE_TOP
+            putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId)
+        }
+    }
+
+    fun refreshAll(context: Context) {
+        runBlocking {
+            ToolPkgDesktopGlanceWidget().updateAll(context)
+        }
+    }
+
+    private fun loadSelectionKey(context: Context, appWidgetId: Int): String? {
+        return context
+            .getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+            .getString(selectionPrefKey(appWidgetId), null)
+            ?.trim()
+            ?.takeIf { it.isNotBlank() }
+    }
+
+    private fun loadPersistedSelection(
+        context: Context,
+        appWidgetId: Int
+    ): WidgetSelection? {
+        val prefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        val selectionKey = loadSelectionKey(context, appWidgetId) ?: return null
+        val routeId = prefs.getString(routePrefKey(appWidgetId), null)?.trim().orEmpty()
+        val renderRouteId =
+            prefs.getString(renderRoutePrefKey(appWidgetId), null)?.trim().orEmpty().ifBlank {
+                routeId
+            }
+        val containerPackageName =
+            prefs.getString(containerPrefKey(appWidgetId), null)?.trim().orEmpty()
+        val widgetId = prefs.getString(widgetIdPrefKey(appWidgetId), null)?.trim().orEmpty()
+        if (routeId.isBlank() || renderRouteId.isBlank() || containerPackageName.isBlank() || widgetId.isBlank()) {
+            return null
+        }
+        return WidgetSelection(
+            key = selectionKey,
+            widget =
+                PackageManager.ToolPkgDesktopWidget(
+                    containerPackageName = containerPackageName,
+                    toolPkgId = containerPackageName,
+                    widgetId = widgetId,
+                    routeId = routeId,
+                    renderRouteId = renderRouteId,
+                    title = prefs.getString(titlePrefKey(appWidgetId), null)?.trim().orEmpty(),
+                    subtitle = prefs.getString(subtitlePrefKey(appWidgetId), null)?.trim().orEmpty(),
+                    description = prefs.getString(descriptionPrefKey(appWidgetId), null)?.trim().orEmpty(),
+                    icon = prefs.getString(iconPrefKey(appWidgetId), null)?.trim()?.ifBlank { null },
+                    order = prefs.getInt(orderPrefKey(appWidgetId), 0)
+                )
+        )
+    }
+
+    private fun selectionPrefKey(appWidgetId: Int): String = "$KEY_PREFIX_SELECTION$appWidgetId"
+    private fun routePrefKey(appWidgetId: Int): String = "$KEY_PREFIX_ROUTE$appWidgetId"
+    private fun renderRoutePrefKey(appWidgetId: Int): String = "$KEY_PREFIX_RENDER_ROUTE$appWidgetId"
+    private fun containerPrefKey(appWidgetId: Int): String = "$KEY_PREFIX_CONTAINER$appWidgetId"
+    private fun widgetIdPrefKey(appWidgetId: Int): String = "$KEY_PREFIX_WIDGET_ID$appWidgetId"
+    private fun titlePrefKey(appWidgetId: Int): String = "$KEY_PREFIX_TITLE$appWidgetId"
+    private fun subtitlePrefKey(appWidgetId: Int): String = "$KEY_PREFIX_SUBTITLE$appWidgetId"
+    private fun descriptionPrefKey(appWidgetId: Int): String = "$KEY_PREFIX_DESCRIPTION$appWidgetId"
+    private fun iconPrefKey(appWidgetId: Int): String = "$KEY_PREFIX_ICON$appWidgetId"
+    private fun orderPrefKey(appWidgetId: Int): String = "$KEY_PREFIX_ORDER$appWidgetId"
+}

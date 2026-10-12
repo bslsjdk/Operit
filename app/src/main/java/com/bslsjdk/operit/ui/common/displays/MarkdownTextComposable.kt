@@ -1,1 +1,77 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmRpc3BsYXlzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRBbGlnbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LlRleHRVbml0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuVGV4dFVuaXQuQ29tcGFuaW9uLlVuc3BlY2lmaWVkCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duLlN0cmVhbU1hcmtkb3duUmVuZGVyZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5zdHJlYW0KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkxvY2FsQ29udGVudENvbG9yCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duLlN0cmVhbU1hcmtkb3duUmVuZGVyZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQWN0aXZpdHlOb3RGb3VuZEV4Y2VwdGlvbgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZC53aWRnZXQuVG9hc3QKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKCi8qKiDmlrDkuIDku6PmtYHlvI9NYXJrZG93bitMYVRlWOa4suafk+WZqO+8jOWujOWFqOabv+aNouWOn+acieWunueOsOOAgiDlhbzlrrnljp/mnIlBUEnvvIzmlK/mjIHmiYDmnIlNYXJrZG93buWSjExhVGVY5re35o6S44CCICovCkBDb21wb3NhYmxlCmZ1biBNYXJrZG93blRleHRDb21wb3NhYmxlKAogICAgICAgIHRleHQ6IFN0cmluZywKICAgICAgICB0ZXh0Q29sb3I6IENvbG9yLAogICAgICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAogICAgICAgIGZvbnRTaXplOiBUZXh0VW5pdCA9IFVuc3BlY2lmaWVkLAogICAgICAgIHRleHRBbGlnbjogVGV4dEFsaWduPyA9IG51bGwsCiAgICAgICAgaXNTZWxlY3RhYmxlOiBCb29sZWFuID0gdHJ1ZSwgLy8g5L+d55WZ5Y+C5pWw77yM5pqC5LiN5aSE55CGCiAgICAgICAgb25MaW5rQ2xpY2tlZDogKChTdHJpbmcpIC0+IFVuaXQpPyA9IG51bGwsCiAgICAgICAgZW5hYmxlRGlhbG9nczogQm9vbGVhbiA9IHRydWUKKSB7CiAgICAgICAgLy8g55u05o6l5L2/55So5paw55qE44CB5Z+65LqO5a2X56ym5Liy55qE5riy5p+T5Zmo77yM5Lul6I635b6X5pu05aW955qE5oCn6IO9CiAgICAgICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgICAgIFN0cmVhbU1hcmtkb3duUmVuZGVyZXIoCiAgICAgICAgICAgICAgICBjb250ZW50ID0gdGV4dCwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIsCiAgICAgICAgICAgICAgICB0ZXh0Q29sb3IgPSB0ZXh0Q29sb3IsCiAgICAgICAgICAgICAgICBmb250U2l6ZSA9IGZvbnRTaXplLAogICAgICAgICAgICAgICAgZW5hYmxlRGlhbG9ncyA9IGVuYWJsZURpYWxvZ3MsCiAgICAgICAgICAgICAgICBvbkxpbmtDbGljayA9IHsgdXJsIC0+IG9wZW5NYXJrZG93bkxpbmsoY29udGV4dCwgdXJsKSB9CiAgICAgICAgKQp9Cgpwcml2YXRlIGNvbnN0IHZhbCBNQVJLRE9XTl9MSU5LX1RBRyA9ICJNYXJrZG93bkxpbmsiCgovLyBBIG1hcmtkb3duIGxpbmsgdGFyZ2V0IGlzIG5vdCBuZWNlc3NhcmlseSBzb21ldGhpbmcgdGhlIHN5c3RlbSBjYW4gb3Blbi4gTWFya2V0IHBhY2thZ2UKLy8gZGVzY3JpcHRpb25zIGFyZSByZW5kZXJlZCBzdHJhaWdodCBmcm9tIGEgcmVwb3NpdG9yeSBSRUFETUUsIHNvIHRoZXkgY2FycnkgcmVmZXJlbmNlcyB0aGF0IGFyZQovLyByZWxhdGl2ZSB0byB0aGF0IGRvY3VtZW50LCBzdWNoIGFzIHRoZSAiRW5nbGlzaCIgbGluayBvZiBhIGJpbGluZ3VhbCBSRUFETUUgcG9pbnRpbmcgYXQKLy8gUkVBRE1FLm1kLCBvciBhbiBpbi1kb2N1bWVudCBhbmNob3IgcG9pbnRpbmcgYXQgI3VzYWdlLiBUaG9zZSBoYXZlIG5vIFVSSSBzY2hlbWUsIG5vIGFjdGl2aXR5Ci8vIGNhbiBldmVyIG1hdGNoIHRoZW0sIGFuZCBoYW5kaW5nIG9uZSB0byBBQ1RJT05fVklFVyBtYWtlcyBzdGFydEFjdGl2aXR5IHRocm93Ci8vIEFjdGl2aXR5Tm90Rm91bmRFeGNlcHRpb24gYW5kIHRha2UgdGhlIGFwcCBkb3duLiBEaXNwYXRjaCBhYnNvbHV0ZSBVUklzIG9ubHksIGFuZCB0ZWxsIHRoZSB1c2VyCi8vIHdoeSBhIGRvY3VtZW50LXJlbGF0aXZlIHJlZmVyZW5jZSBnb2VzIG5vd2hlcmUuCi8vCi8vIEFuIGFic29sdXRlIFVSSSBpcyBub3QgYSBndWFyYW50ZWUgZWl0aGVyOiBzdGFydEFjdGl2aXR5IGRvY3VtZW50cyB0aGF0IGl0IHRocm93cyB3aGVuIG5vdGhpbmcKLy8gb24gdGhlIGRldmljZSBkZWNsYXJlcyBhIG1hdGNoaW5nIGludGVudCBmaWx0ZXIgKG1haWx0bzogd2l0aCBubyBtYWlsIGNsaWVudCwgYW4gYXBwIHNjaGVtZQovLyB3aG9zZSBhcHAgaXMgbm90IGluc3RhbGxlZCkgYW5kIGl0IGNhbiBhbHNvIGZhaWwgd2l0aCBTZWN1cml0eUV4Y2VwdGlvbiB3aGVuIHRoZSBtYXRjaGluZwovLyBhY3Rpdml0eSBpcyBub3QgZXhwb3J0ZWQgdG8gdXMuIEJvdGggbGVhdmUgdGhlIHVzZXIgZXhhY3RseSB3aGVyZSBhIHJlbGF0aXZlIHJlZmVyZW5jZSBkb2VzLCBzbwovLyB0aGV5IHJlcG9ydCB0aGUgc2FtZSB3YXkgaW5zdGVhZCBvZiB0YWtpbmcgdGhlIHByb2Nlc3MgZG93bi4KcHJpdmF0ZSBmdW4gb3Blbk1hcmtkb3duTGluayhjb250ZXh0OiBDb250ZXh0LCB1cmw6IFN0cmluZykgewogICAgdmFsIHVyaSA9IFVyaS5wYXJzZSh1cmwpCiAgICBpZiAodXJpLnNjaGVtZS5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICBUb2FzdC5tYWtlVGV4dChjb250ZXh0LCBSLnN0cmluZy5tYXJrZG93bl9saW5rX25vdF9vcGVuYWJsZSwgVG9hc3QuTEVOR1RIX1NIT1JUKS5zaG93KCkKICAgICAgICByZXR1cm4KICAgIH0KICAgIHRyeSB7CiAgICAgICAgY29udGV4dC5zdGFydEFjdGl2aXR5KEludGVudChJbnRlbnQuQUNUSU9OX1ZJRVcsIHVyaSkpCiAgICB9IGNhdGNoIChlOiBBY3Rpdml0eU5vdEZvdW5kRXhjZXB0aW9uKSB7CiAgICAgICAgQXBwTG9nZ2VyLncoTUFSS0RPV05fTElOS19UQUcsICJubyBhY3Rpdml0eSBjYW4gb3BlbiBtYXJrZG93biBsaW5rOiAkdXJsIiwgZSkKICAgICAgICBUb2FzdC5tYWtlVGV4dChjb250ZXh0LCBSLnN0cmluZy5tYXJrZG93bl9saW5rX25vdF9vcGVuYWJsZSwgVG9hc3QuTEVOR1RIX1NIT1JUKS5zaG93KCkKICAgIH0gY2F0Y2ggKGU6IFNlY3VyaXR5RXhjZXB0aW9uKSB7CiAgICAgICAgQXBwTG9nZ2VyLncoTUFSS0RPV05fTElOS19UQUcsICJub3QgYWxsb3dlZCB0byBvcGVuIG1hcmtkb3duIGxpbms6ICR1cmwiLCBlKQogICAgICAgIFRvYXN0Lm1ha2VUZXh0KGNvbnRleHQsIFIuc3RyaW5nLm1hcmtkb3duX2xpbmtfbm90X29wZW5hYmxlLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.common.displays
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.TextUnit.Companion.Unspecified
+import com.bslsjdk.operit.ui.common.markdown.StreamMarkdownRenderer
+import com.bslsjdk.operit.util.stream.stream
+import androidx.compose.material3.LocalContentColor
+import com.bslsjdk.operit.ui.common.markdown.StreamMarkdownRenderer
+import androidx.compose.ui.platform.LocalContext
+import android.content.ActivityNotFoundException
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.widget.Toast
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+
+/** 新一代流式Markdown+LaTeX渲染器，完全替换原有实现。 兼容原有API，支持所有Markdown和LaTeX混排。 */
+@Composable
+fun MarkdownTextComposable(
+        text: String,
+        textColor: Color,
+        modifier: Modifier = Modifier,
+        fontSize: TextUnit = Unspecified,
+        textAlign: TextAlign? = null,
+        isSelectable: Boolean = true, // 保留参数，暂不处理
+        onLinkClicked: ((String) -> Unit)? = null,
+        enableDialogs: Boolean = true
+) {
+        // 直接使用新的、基于字符串的渲染器，以获得更好的性能
+        val context = LocalContext.current
+        StreamMarkdownRenderer(
+                content = text,
+                modifier = modifier,
+                textColor = textColor,
+                fontSize = fontSize,
+                enableDialogs = enableDialogs,
+                onLinkClick = { url -> openMarkdownLink(context, url) }
+        )
+}
+
+private const val MARKDOWN_LINK_TAG = "MarkdownLink"
+
+// A markdown link target is not necessarily something the system can open. Market package
+// descriptions are rendered straight from a repository README, so they carry references that are
+// relative to that document, such as the "English" link of a bilingual README pointing at
+// README.md, or an in-document anchor pointing at #usage. Those have no URI scheme, no activity
+// can ever match them, and handing one to ACTION_VIEW makes startActivity throw
+// ActivityNotFoundException and take the app down. Dispatch absolute URIs only, and tell the user
+// why a document-relative reference goes nowhere.
+//
+// An absolute URI is not a guarantee either: startActivity documents that it throws when nothing
+// on the device declares a matching intent filter (mailto: with no mail client, an app scheme
+// whose app is not installed) and it can also fail with SecurityException when the matching
+// activity is not exported to us. Both leave the user exactly where a relative reference does, so
+// they report the same way instead of taking the process down.
+private fun openMarkdownLink(context: Context, url: String) {
+    val uri = Uri.parse(url)
+    if (uri.scheme.isNullOrEmpty()) {
+        Toast.makeText(context, R.string.markdown_link_not_openable, Toast.LENGTH_SHORT).show()
+        return
+    }
+    try {
+        context.startActivity(Intent(Intent.ACTION_VIEW, uri))
+    } catch (e: ActivityNotFoundException) {
+        AppLogger.w(MARKDOWN_LINK_TAG, "no activity can open markdown link: $url", e)
+        Toast.makeText(context, R.string.markdown_link_not_openable, Toast.LENGTH_SHORT).show()
+    } catch (e: SecurityException) {
+        AppLogger.w(MARKDOWN_LINK_TAG, "not allowed to open markdown link: $url", e)
+        Toast.makeText(context, R.string.markdown_link_not_openable, Toast.LENGTH_SHORT).show()
+    }
+}

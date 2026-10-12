@@ -1,1 +1,111 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnBhcnQKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5BbmltYXRlZFZpc2liaWxpdHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuYW5pbWF0ZUZsb2F0QXNTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS50d2VlbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uZmFkZUluCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5mYWRlT3V0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmNvbW1vbi5kaXNwbGF5cy5NYXJrZG93blRleHRDb21wb3NhYmxlCgpvYmplY3QgRGV0YWlsc1RhZ1JlbmRlcmVyIHsKCiAgICBAQ29tcG9zYWJsZQogICAgZnVuIFJlbmRlcigKICAgICAgICB4bWxDb250ZW50OiBTdHJpbmcsCiAgICAgICAgbW9kaWZpZXI6IE1vZGlmaWVyLAogICAgICAgIHRleHRDb2xvcjogQ29sb3IsCiAgICAgICAgZW5hYmxlRGlhbG9nczogQm9vbGVhbiA9IHRydWUKICAgICkgewogICAgICAgIHZhbCB0YWdOYW1lID0gZXh0cmFjdFRhZ05hbWUoeG1sQ29udGVudCkgPzogImRldGFpbHMiCiAgICAgICAgdmFsIGlubmVyID0gZXh0cmFjdENvbnRlbnRGcm9tWG1sKHhtbENvbnRlbnQsIHRhZ05hbWUpCiAgICAgICAgdmFsIHN1bW1hcnkgPSBleHRyYWN0U3VtbWFyeShpbm5lcikKICAgICAgICB2YWwgYm9keSA9IHJlbW92ZVN1bW1hcnkoaW5uZXIpLnRyaW0oKQoKICAgICAgICB2YWwgZGVmYXVsdEV4cGFuZGVkID0gaGFzT3BlbkF0dHJpYnV0ZSh4bWxDb250ZW50LCB0YWdOYW1lKQogICAgICAgIHZhciBleHBhbmRlZCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGRlZmF1bHRFeHBhbmRlZCkgfQogICAgICAgIHZhbCByb3RhdGlvbiBieSBhbmltYXRlRmxvYXRBc1N0YXRlKAogICAgICAgICAgICB0YXJnZXRWYWx1ZSA9IGlmIChleHBhbmRlZCkgOTBmIGVsc2UgMGYsCiAgICAgICAgICAgIGFuaW1hdGlvblNwZWMgPSB0d2VlbihkdXJhdGlvbk1pbGxpcyA9IDMwMCksCiAgICAgICAgICAgIGxhYmVsID0gImRldGFpbHNBcnJvd1JvdGF0aW9uIgogICAgICAgICkKCiAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gbW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZyh2ZXJ0aWNhbCA9IDQuZHApKSB7CiAgICAgICAgICAgIENhbnZhc0V4cGFuZGFibGVIZWFkZXJSb3coCiAgICAgICAgICAgICAgICB0aXRsZSA9IGlmIChzdW1tYXJ5LmlzTm90QmxhbmsoKSkgc3VtbWFyeSBlbHNlICJEZXRhaWxzIiwKICAgICAgICAgICAgICAgIHNlbWFudGljRGVzY3JpcHRpb24gPSBpZiAoZXhwYW5kZWQpICJDb2xsYXBzZSIgZWxzZSAiRXhwYW5kIiwKICAgICAgICAgICAgICAgIGV4cGFuZGVkID0gZXhwYW5kZWQsCiAgICAgICAgICAgICAgICB0aXRsZUNvbG9yID0gdGV4dENvbG9yLmNvcHkoYWxwaGEgPSAwLjg1ZiksCiAgICAgICAgICAgICAgICByb3RhdGlvbkRlZ3JlZXMgPSByb3RhdGlvbiwKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IGV4cGFuZGVkID0gIWV4cGFuZGVkIH0sCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIEFuaW1hdGVkVmlzaWJpbGl0eSgKICAgICAgICAgICAgICAgIHZpc2libGUgPSBleHBhbmRlZCwKICAgICAgICAgICAgICAgIGVudGVyID0gZmFkZUluKGFuaW1hdGlvblNwZWMgPSB0d2VlbigyMDApKSwKICAgICAgICAgICAgICAgIGV4aXQgPSBmYWRlT3V0KGFuaW1hdGlvblNwZWMgPSB0d2VlbigyMDApKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIGlmIChib2R5LmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZyh0b3AgPSA0LmRwLCBib3R0b20gPSA4LmRwLCBzdGFydCA9IDI0LmRwKQogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBNYXJrZG93blRleHRDb21wb3NhYmxlKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGJvZHksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0Q29sb3IgPSB0ZXh0Q29sb3IuY29weShhbHBoYSA9IDAuODVmKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbmFibGVEaWFsb2dzID0gZW5hYmxlRGlhbG9ncwogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV4dHJhY3RDb250ZW50RnJvbVhtbChjb250ZW50OiBTdHJpbmcsIHRhZ05hbWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHN0YXJ0VGFnID0gIjwkdGFnTmFtZSIKICAgICAgICB2YWwgZW5kVGFnID0gIjwvJHRhZ05hbWU+IgoKICAgICAgICB2YWwgc3RhcnRUYWdFbmQgPSBjb250ZW50LmluZGV4T2YoJz4nLCBjb250ZW50LmluZGV4T2Yoc3RhcnRUYWcpKSArIDEKICAgICAgICB2YWwgZW5kSW5kZXggPSBjb250ZW50Lmxhc3RJbmRleE9mKGVuZFRhZykKCiAgICAgICAgcmV0dXJuIGlmIChzdGFydFRhZ0VuZCA+IDAgJiYgZW5kSW5kZXggPiBzdGFydFRhZ0VuZCkgewogICAgICAgICAgICBjb250ZW50LnN1YnN0cmluZyhzdGFydFRhZ0VuZCwgZW5kSW5kZXgpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgY29udGVudAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBleHRyYWN0VGFnTmFtZShjb250ZW50OiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgcmVnZXggPSAiPFxccyooW2EtekEtWl9dW2EtekEtWjAtOV9dKikiLnRvUmVnZXgoKQogICAgICAgIHJldHVybiByZWdleC5maW5kKGNvbnRlbnQpPy5ncm91cFZhbHVlcz8uZ2V0T3JOdWxsKDEpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZXh0cmFjdFN1bW1hcnkoZGV0YWlsc0lubmVyOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCByZWdleCA9ICI8c3VtbWFyeT4oLio/KTwvc3VtbWFyeT4iLnRvUmVnZXgoc2V0T2YoUmVnZXhPcHRpb24uRE9UX01BVENIRVNfQUxMLCBSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSkpCiAgICAgICAgcmV0dXJuIHJlZ2V4LmZpbmQoZGV0YWlsc0lubmVyKT8uZ3JvdXBWYWx1ZXM/LmdldE9yTnVsbCgxKT8udHJpbSgpLm9yRW1wdHkoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlbW92ZVN1bW1hcnkoZGV0YWlsc0lubmVyOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCByZWdleCA9ICI8c3VtbWFyeT4uKj88L3N1bW1hcnk+Ii50b1JlZ2V4KHNldE9mKFJlZ2V4T3B0aW9uLkRPVF9NQVRDSEVTX0FMTCwgUmVnZXhPcHRpb24uSUdOT1JFX0NBU0UpKQogICAgICAgIHJldHVybiBkZXRhaWxzSW5uZXIucmVwbGFjZUZpcnN0KHJlZ2V4LCAiIikKICAgIH0KCiAgICBwcml2YXRlIGZ1biBoYXNPcGVuQXR0cmlidXRlKGRldGFpbHNYbWw6IFN0cmluZywgdGFnTmFtZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIG9wZW5SZWdleCA9ICgiPCIgKyBSZWdleC5lc2NhcGUodGFnTmFtZSkgKyAiXFxiW14+XSpcXGJvcGVuXFxiIikudG9SZWdleChSZWdleE9wdGlvbi5JR05PUkVfQ0FTRSkKICAgICAgICByZXR1cm4gb3BlblJlZ2V4LmNvbnRhaW5zTWF0Y2hJbihkZXRhaWxzWG1sKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components.part
+
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.ui.common.displays.MarkdownTextComposable
+
+object DetailsTagRenderer {
+
+    @Composable
+    fun Render(
+        xmlContent: String,
+        modifier: Modifier,
+        textColor: Color,
+        enableDialogs: Boolean = true
+    ) {
+        val tagName = extractTagName(xmlContent) ?: "details"
+        val inner = extractContentFromXml(xmlContent, tagName)
+        val summary = extractSummary(inner)
+        val body = removeSummary(inner).trim()
+
+        val defaultExpanded = hasOpenAttribute(xmlContent, tagName)
+        var expanded by remember { mutableStateOf(defaultExpanded) }
+        val rotation by animateFloatAsState(
+            targetValue = if (expanded) 90f else 0f,
+            animationSpec = tween(durationMillis = 300),
+            label = "detailsArrowRotation"
+        )
+
+        Column(modifier = modifier.fillMaxWidth().padding(vertical = 4.dp)) {
+            CanvasExpandableHeaderRow(
+                title = if (summary.isNotBlank()) summary else "Details",
+                semanticDescription = if (expanded) "Collapse" else "Expand",
+                expanded = expanded,
+                titleColor = textColor.copy(alpha = 0.85f),
+                rotationDegrees = rotation,
+                onClick = { expanded = !expanded },
+            )
+
+            AnimatedVisibility(
+                visible = expanded,
+                enter = fadeIn(animationSpec = tween(200)),
+                exit = fadeOut(animationSpec = tween(200))
+            ) {
+                if (body.isNotBlank()) {
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(top = 4.dp, bottom = 8.dp, start = 24.dp)
+                    ) {
+                        MarkdownTextComposable(
+                            text = body,
+                            textColor = textColor.copy(alpha = 0.85f),
+                            modifier = Modifier,
+                            enableDialogs = enableDialogs
+                        )
+                    }
+                }
+            }
+        }
+    }
+
+    private fun extractContentFromXml(content: String, tagName: String): String {
+        val startTag = "<$tagName"
+        val endTag = "</$tagName>"
+
+        val startTagEnd = content.indexOf('>', content.indexOf(startTag)) + 1
+        val endIndex = content.lastIndexOf(endTag)
+
+        return if (startTagEnd > 0 && endIndex > startTagEnd) {
+            content.substring(startTagEnd, endIndex)
+        } else {
+            content
+        }
+    }
+
+    private fun extractTagName(content: String): String? {
+        val regex = "<\\s*([a-zA-Z_][a-zA-Z0-9_]*)".toRegex()
+        return regex.find(content)?.groupValues?.getOrNull(1)
+    }
+
+    private fun extractSummary(detailsInner: String): String {
+        val regex = "<summary>(.*?)</summary>".toRegex(setOf(RegexOption.DOT_MATCHES_ALL, RegexOption.IGNORE_CASE))
+        return regex.find(detailsInner)?.groupValues?.getOrNull(1)?.trim().orEmpty()
+    }
+
+    private fun removeSummary(detailsInner: String): String {
+        val regex = "<summary>.*?</summary>".toRegex(setOf(RegexOption.DOT_MATCHES_ALL, RegexOption.IGNORE_CASE))
+        return detailsInner.replaceFirst(regex, "")
+    }
+
+    private fun hasOpenAttribute(detailsXml: String, tagName: String): Boolean {
+        val openRegex = ("<" + Regex.escape(tagName) + "\\b[^>]*\\bopen\\b").toRegex(RegexOption.IGNORE_CASE)
+        return openRegex.containsMatchIn(detailsXml)
+    }
+}

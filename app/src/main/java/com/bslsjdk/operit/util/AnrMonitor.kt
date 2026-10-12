@@ -1,1 +1,427 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm9zLkRlYnVnCmltcG9ydCBhbmRyb2lkLm9zLkhhbmRsZXIKaW1wb3J0IGFuZHJvaWQub3MuTG9vcGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuTGlmZWN5Y2xlCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuTGlmZWN5Y2xlT3duZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlT3V0cHV0U3RyZWFtCmltcG9ydCBqYXZhLmlvLk91dHB1dFN0cmVhbVdyaXRlcgppbXBvcnQgamF2YS5pby5TdHJpbmdXcml0ZXIKaW1wb3J0IGphdmEuaW8uUHJpbnRXcml0ZXIKaW1wb3J0IGphdmEubGFuZy5yZWZsZWN0LkZpZWxkCmltcG9ydCBqYXZhLnRleHQuU2ltcGxlRGF0ZUZvcm1hdAppbXBvcnQgamF2YS51dGlsLkRhdGUKaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5FeGVjdXRvcnMKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlNjaGVkdWxlZEV4ZWN1dG9yU2VydmljZQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuVGltZVVuaXQKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNCb29sZWFuCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5hdG9taWMuQXRvbWljSW50ZWdlcgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0xvbmcKCi8qKgogKiBBTlLnm5HmjqflmajvvIznlKjkuo7ot5/ouKrlkozorrDlvZXlj6/og73lr7zoh7RBTlLnmoTkuLvnur/nqIvpmLvloZ4KICogCiAqIEBwYXJhbSBjb250ZXh0IOW6lOeUqOS4iuS4i+aWhwogKiBAcGFyYW0gY29yb3V0aW5lU2NvcGUg55So5LqO5ZCv5Yqo55uR5o6n5Y2P56iL55qE5L2c55So5Z+fCiAqIEBwYXJhbSB0YWcg5pel5b+X5qCH562+CiAqLwpjbGFzcyBBbnJNb25pdG9yKAogICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCwgCiAgICBwcml2YXRlIHZhbCBjb3JvdXRpbmVTY29wZTogQ29yb3V0aW5lU2NvcGUsCiAgICBwcml2YXRlIHZhbCB0YWc6IFN0cmluZyA9ICJBbnJNb25pdG9yIgopIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIC8vIOm7mOiupOmYiOWAvOiuvue9rgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEFOUl9USFJFU0hPTERfTVMgPSAxMDAwTCAgICAgLy8gMeenku+8jOagh+WHhkFOUumYiOWAvAogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFdBUk5JTkdfVEhSRVNIT0xEX01TID0gNTAwTCAvLyAwLjXnp5LvvIzorablkYrpmIjlgLwKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBTQU1QTElOR19JTlRFUlZBTF9NUyA9IDEwMEwgIC8vIDEwMOavq+enkumHh+agt+mXtOmalAogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIE1BWF9TVEFDS19UUkFDRVMgPSAxMCAgICAgICAgLy8g5pyA5aSn5aCG5qCI6Lef6Liq5pWwCiAgICAgICAgCiAgICAgICAgLy8g5Li757q/56iL5ZCN56ewCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgTUFJTl9USFJFQURfTkFNRSA9ICJtYWluIgogICAgfQogICAgCiAgICBwcml2YXRlIHZhbCBydW5uaW5nID0gQXRvbWljQm9vbGVhbihmYWxzZSkKICAgIHByaXZhdGUgdmFsIGxhc3RSZXNwb25zZVRpbWUgPSBBdG9taWNMb25nKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQogICAgcHJpdmF0ZSB2YXIgbW9uaXRvcmluZ0pvYjogSm9iPyA9IG51bGwKICAgIHByaXZhdGUgdmFsIG1haW5UaHJlYWRIYW5kbGVyID0gSGFuZGxlcihMb29wZXIuZ2V0TWFpbkxvb3BlcigpKQogICAgCiAgICAvLyDlkI7lpIfmlrnmoYjvvJrlpoLmnpzljY/nqIvmnInpl67popjvvIzkvb/nlKhTY2hlZHVsZWRFeGVjdXRvclNlcnZpY2UKICAgIHByaXZhdGUgdmFyIHNjaGVkdWxlZEV4ZWN1dG9yOiBTY2hlZHVsZWRFeGVjdXRvclNlcnZpY2U/ID0gbnVsbAogICAgCiAgICAvLyDorrDlvZVBTlLmrKHmlbDlkozkuKXph43nqIvluqYKICAgIHByaXZhdGUgdmFsIGFuckNvdW50ID0gQXRvbWljSW50ZWdlcigwKQogICAgcHJpdmF0ZSB2YWwgd2FybmluZ0NvdW50ID0gQXRvbWljSW50ZWdlcigwKQogICAgcHJpdmF0ZSB2YWwgbWF4QmxvY2tEdXJhdGlvbiA9IEF0b21pY0xvbmcoMCkKICAgIAogICAgLy8g5aCG5qCI6Lef6Liq5Y6G5Y+yCiAgICBwcml2YXRlIHZhbCBzdGFja1RyYWNlcyA9IG11dGFibGVMaXN0T2Y8UGFpcjxMb25nLCBTdHJpbmc+PigpCiAgICAKICAgIC8vIOi3n+i4quiwg+eUqOiAheS/oeaBrwogICAgcHJpdmF0ZSB2YWwgY2FsbGVySW5mbyA9IENvbmN1cnJlbnRIYXNoTWFwPFN0cmluZywgU3RyaW5nPigpCiAgICAKICAgIC8vIOacgOWQjuS4gOasoeiOt+WPluWIsOeahOS4u+e6v+eoi+W8leeUqAogICAgcHJpdmF0ZSB2YXIgbWFpblRocmVhZDogVGhyZWFkPyA9IG51bGwKICAgIAogICAgLy8g5LiK5qyhQU5S55qE5YiG5p6Q57uT5p6c77yM55So5LqO5Y676YeNCiAgICBwcml2YXRlIHZhciBsYXN0QW5yQW5hbHlzaXM6IFN0cmluZz8gPSBudWxsCiAgICAKICAgIC8qKgogICAgICog5byA5aeLQU5S55uR5o6nCiAgICAgKi8KICAgIGZ1biBzdGFydCgpIHsKICAgICAgICBpZiAocnVubmluZy5nZXRBbmRTZXQodHJ1ZSkpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncodGFnLCAiQU5S55uR5o6n5Zmo5bey57uP5Zyo6L+Q6KGM5LitIikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIAogICAgICAgIEFwcExvZ2dlci5kKHRhZywgIuWQr+WKqEFOUuebkeaOp+WZqCIpCiAgICAgICAgbGFzdFJlc3BvbnNlVGltZS5zZXQoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkpCiAgICAgICAgCiAgICAgICAgLy8g5bCd6K+V6I635Y+W5Li757q/56iL5byV55SoCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgbWFpblRocmVhZCA9IGdldE1haW5UaHJlYWQoKQogICAgICAgICAgICBBcHBMb2dnZXIuZCh0YWcsICLlt7Lojrflj5bkuLvnur/nqIvlvJXnlKg6ICRtYWluVGhyZWFkIikKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUodGFnLCAi6I635Y+W5Li757q/56iL5byV55So5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5bCd6K+V5ZCv5Yqo5Y2P56iL55uR5o6nCiAgICAgICAgICAgIG1vbml0b3JpbmdKb2IgPSBjb3JvdXRpbmVTY29wZS5sYXVuY2goRGlzcGF0Y2hlcnMuRGVmYXVsdCkgewogICAgICAgICAgICAgICAgd2hpbGUgKHJ1bm5pbmcuZ2V0KCkpIHsKICAgICAgICAgICAgICAgICAgICBjaGVja01haW5UaHJlYWRIZWFsdGgoKQogICAgICAgICAgICAgICAgICAgIGRlbGF5KFNBTVBMSU5HX0lOVEVSVkFMX01TKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIOWmguaenOWNj+eoi+WQr+WKqOWksei0pe+8jOS9v+eUqOe6v+eoi+axoOS9nOS4uuWkh+mAieaWueahiAogICAgICAgICAgICBBcHBMb2dnZXIuZSh0YWcsICLljY/nqIvlkK/liqjlpLHotKXvvIzkvb/nlKjlpIfpgInnur/nqIvmsaDnm5HmjqciLCBlKQogICAgICAgICAgICBzdGFydFVzaW5nRXhlY3V0b3IoKQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDkvb/nlKhTY2hlZHVsZWRFeGVjdXRvclNlcnZpY2XlvIDlp4vnm5HmjqfvvIjlpIfpgInmlrnmoYjvvIkKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gc3RhcnRVc2luZ0V4ZWN1dG9yKCkgewogICAgICAgIGlmIChzY2hlZHVsZWRFeGVjdXRvciA9PSBudWxsIHx8IHNjaGVkdWxlZEV4ZWN1dG9yPy5pc1NodXRkb3duID09IHRydWUpIHsKICAgICAgICAgICAgc2NoZWR1bGVkRXhlY3V0b3IgPSBFeGVjdXRvcnMubmV3U2luZ2xlVGhyZWFkU2NoZWR1bGVkRXhlY3V0b3IgeyByIC0+CiAgICAgICAgICAgICAgICB2YWwgdCA9IFRocmVhZChyLCAiQW5yTW9uaXRvci1XYXRjaGRvZyIpCiAgICAgICAgICAgICAgICB0LnByaW9yaXR5ID0gVGhyZWFkLk1BWF9QUklPUklUWQogICAgICAgICAgICAgICAgdC5pc0RhZW1vbiA9IHRydWUKICAgICAgICAgICAgICAgIHQKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICBzY2hlZHVsZWRFeGVjdXRvcj8uc2NoZWR1bGVBdEZpeGVkUmF0ZSh7CiAgICAgICAgICAgIGlmIChydW5uaW5nLmdldCgpKSB7CiAgICAgICAgICAgICAgICBjaGVja01haW5UaHJlYWRIZWFsdGgoKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgc2NoZWR1bGVkRXhlY3V0b3I/LnNodXRkb3duKCkKICAgICAgICAgICAgfQogICAgICAgIH0sIDAsIFNBTVBMSU5HX0lOVEVSVkFMX01TLCBUaW1lVW5pdC5NSUxMSVNFQ09ORFMpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5YGc5q2iQU5S55uR5o6nCiAgICAgKi8KICAgIGZ1biBzdG9wKCkgewogICAgICAgIGlmICghcnVubmluZy5nZXRBbmRTZXQoZmFsc2UpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICAKICAgICAgICBBcHBMb2dnZXIuZCh0YWcsICLlgZzmraJBTlLnm5HmjqflmajvvIznm5Hmjqfnu5PmnpzvvJpBTlLmrKHmlbA9JHthbnJDb3VudC5nZXQoKX0sIOitpuWRiuasoeaVsD0ke3dhcm5pbmdDb3VudC5nZXQoKX0sIOacgOmVv+mYu+WhnuaXtumXtD0ke21heEJsb2NrRHVyYXRpb24uZ2V0KCl9bXMiKQogICAgICAgIG1vbml0b3JpbmdKb2I/LmNhbmNlbCgpCiAgICAgICAgc2NoZWR1bGVkRXhlY3V0b3I/LnNodXRkb3duKCkKICAgICAgICAKICAgICAgICAvLyDlpoLmnpzmnInorrDlvZXliLBBTlLvvIzkv53lrZjmiqXlkYoKICAgICAgICBpZiAoYW5yQ291bnQuZ2V0KCkgPiAwIHx8IHdhcm5pbmdDb3VudC5nZXQoKSA+IDApIHsKICAgICAgICAgICAgc2F2ZUFuclJlcG9ydCgpCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOaKpeWRiuS4u+e6v+eoi+ato+W4uOWTjeW6lAogICAgICovCiAgICBmdW4gcmVwb3J0VGhyZWFkSGVhbHRoeSgpIHsKICAgICAgICBsYXN0UmVzcG9uc2VUaW1lLnNldChTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmiqXlkYrkuLvnur/nqIvlk43lupTnvJPmhaIKICAgICAqLwogICAgZnVuIHJlcG9ydFNsb3dSZXNwb25zZShyZXNwb25zZVRpbWU6IExvbmcpIHsKICAgICAgICBpZiAocmVzcG9uc2VUaW1lID4gV0FSTklOR19USFJFU0hPTERfTVMpIHsKICAgICAgICAgICAgd2FybmluZ0NvdW50LmluY3JlbWVudEFuZEdldCgpCiAgICAgICAgICAgIGlmIChyZXNwb25zZVRpbWUgPiBtYXhCbG9ja0R1cmF0aW9uLmdldCgpKSB7CiAgICAgICAgICAgICAgICBtYXhCbG9ja0R1cmF0aW9uLnNldChyZXNwb25zZVRpbWUpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIChyZXNwb25zZVRpbWUgPiBBTlJfVEhSRVNIT0xEX01TKSB7CiAgICAgICAgICAgICAgICB2YWwgYW5yQ291bnQgPSBhbnJDb3VudC5pbmNyZW1lbnRBbmRHZXQoKQogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUodGFnLCAi5qOA5rWL5Yiw5Y+v6IO955qEQU5SISDlk43lupTml7bpl7Q6ICR7cmVzcG9uc2VUaW1lfW1zLCDov5nmmK/nrKwke2FuckNvdW50feasoUFOUiIpCiAgICAgICAgICAgICAgICBjYXB0dXJlRnVsbFRocmVhZER1bXAoKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncodGFnLCAi5Li757q/56iL5ZON5bqU57yT5oWiOiAke3Jlc3BvbnNlVGltZX1tcyIpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5re75Yqg6LCD55So6ICF5L+h5oGv77yM5biu5Yqp6Lef6LiqQU5S5p2l5rqQCiAgICAgKi8KICAgIGZ1biBhZGRDYWxsZXJJbmZvKGtleTogU3RyaW5nLCBpbmZvOiBTdHJpbmcpIHsKICAgICAgICBjYWxsZXJJbmZvW2tleV0gPSAiWyRrZXldICRpbmZvICgke1NpbXBsZURhdGVGb3JtYXQoIkhIOm1tOnNzLlNTUyIsIExvY2FsZS5nZXREZWZhdWx0KCkpLmZvcm1hdChEYXRlKCkpfSkiCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5qOA5p+l5Li757q/56iL5YGl5bq354q25oCBCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGNoZWNrTWFpblRocmVhZEhlYWx0aCgpIHsKICAgICAgICBtYWluVGhyZWFkSGFuZGxlci5wb3N0IHsKICAgICAgICAgICAgcmVwb3J0VGhyZWFkSGVhbHRoeSgpCiAgICAgICAgfQoKICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB2YWwgbGFzdFJlc3BvbnNlID0gbGFzdFJlc3BvbnNlVGltZS5nZXQoKQogICAgICAgIHZhbCB0aW1lU2luY2VMYXN0UmVzcG9uc2UgPSBub3cgLSBsYXN0UmVzcG9uc2UKICAgICAgICAKICAgICAgICBpZiAodGltZVNpbmNlTGFzdFJlc3BvbnNlID4gV0FSTklOR19USFJFU0hPTERfTVMpIHsKICAgICAgICAgICAgLy8g5Li757q/56iL5Y+v6IO96KKr6Zi75aGeCiAgICAgICAgICAgIHZhbCBtZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX21haW5fdGhyZWFkX25vdF9yZXNwb25kaW5nLCB0aW1lU2luY2VMYXN0UmVzcG9uc2UpCiAgICAgICAgICAgIAogICAgICAgICAgICBpZiAodGltZVNpbmNlTGFzdFJlc3BvbnNlID4gQU5SX1RIUkVTSE9MRF9NUykgewogICAgICAgICAgICAgICAgLy8g5bey6LaF6L+HQU5S6ZiI5YC8CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSh0YWcsICIkbWVzc2FnZSAtIOWPr+iDveWPkeeUn0FOUiEiKQogICAgICAgICAgICAgICAgYW5yQ291bnQuaW5jcmVtZW50QW5kR2V0KCkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g6K6w5b2V5aCG5qCI6Lef6LiqIC0g5L2/55So5aKe5by655qE5aCG5qCI5o2V6I63CiAgICAgICAgICAgICAgICBjYXB0dXJlRnVsbFRocmVhZER1bXAoKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBpZiAodGltZVNpbmNlTGFzdFJlc3BvbnNlID4gbWF4QmxvY2tEdXJhdGlvbi5nZXQoKSkgewogICAgICAgICAgICAgICAgICAgIG1heEJsb2NrRHVyYXRpb24uc2V0KHRpbWVTaW5jZUxhc3RSZXNwb25zZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIC8vIOi2hei/h+itpuWRiumYiOWAvOS9huacquWIsEFOUumYiOWAvAogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncodGFnLCAiJG1lc3NhZ2UgLSDorablkYoiKQogICAgICAgICAgICAgICAgd2FybmluZ0NvdW50LmluY3JlbWVudEFuZEdldCgpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5o2V6I635Li757q/56iL5aCG5qCICiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGNhcHR1cmVNYWluVGhyZWFkU3RhY2soKSB7CiAgICAgICAgbWFpblRocmVhZEhhbmRsZXIucG9zdCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgc3RhY2tUcmFjZSA9IFRocmVhZC5jdXJyZW50VGhyZWFkKCkuc3RhY2tUcmFjZQogICAgICAgICAgICAgICAgICAgIC5kcm9wKDMpIC8vIOi3s+i/h+WJjeS4ieS4quWFg+e0oO+8iFZN55u45YWz6LCD55So77yJCiAgICAgICAgICAgICAgICAgICAgLmpvaW5Ub1N0cmluZygiXG4iKSB7ICIgICAgYXQgJGl0IiB9CiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICB2YWwgdGltZVN0YW1wID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgICAgIHZhbCB0cmFjZSA9IFBhaXIodGltZVN0YW1wLCBzdGFja1RyYWNlKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBzeW5jaHJvbml6ZWQoc3RhY2tUcmFjZXMpIHsKICAgICAgICAgICAgICAgICAgICBzdGFja1RyYWNlcy5hZGQodHJhY2UpCiAgICAgICAgICAgICAgICAgICAgLy8g6ZmQ5Yi25aCG5qCI5Y6G5Y+y5pWw6YePCiAgICAgICAgICAgICAgICAgICAgaWYgKHN0YWNrVHJhY2VzLnNpemUgPiBNQVhfU1RBQ0tfVFJBQ0VTKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHN0YWNrVHJhY2VzLnJlbW92ZUF0KDApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDliIbmnpDloIbmoIgKICAgICAgICAgICAgICAgIHZhbCBhbmFseXNpcyA9IGFuYWx5emVTdGFja1RyYWNlKHN0YWNrVHJhY2UpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKHRhZywgIuS4u+e6v+eoi+WghuagiOi3n+i4qjpcbiRzdGFja1RyYWNlXG4kYW5hbHlzaXMiKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKHRhZywgIuaNleiOt+WghuagiOWksei0pSIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog6I635Y+W5Li757q/56iL5a6e5L6L55qE5byV55SoCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGdldE1haW5UaHJlYWQoKTogVGhyZWFkPyB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5bCd6K+V5pa55rOVMe+8mumAmui/h0xvb3BlcueahOWvueW6lOe6v+eoiwogICAgICAgICAgICBMb29wZXIuZ2V0TWFpbkxvb3BlcigpLnRocmVhZD8ubGV0IHsgcmV0dXJuIGl0IH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOWwneivleaWueazlTLvvJrpgY3ljobmiYDmnInnur/nqIvmn6Xmib5tYWlu57q/56iLCiAgICAgICAgICAgIHZhbCB0aHJlYWRHcm91cCA9IFRocmVhZC5jdXJyZW50VGhyZWFkKCkudGhyZWFkR3JvdXAgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgdmFsIHRocmVhZENvdW50ID0gdGhyZWFkR3JvdXAuYWN0aXZlQ291bnQoKQogICAgICAgICAgICB2YWwgdGhyZWFkcyA9IGFycmF5T2ZOdWxsczxUaHJlYWQ+KHRocmVhZENvdW50KQogICAgICAgICAgICB0aHJlYWRHcm91cC5lbnVtZXJhdGUodGhyZWFkcykKICAgICAgICAgICAgCiAgICAgICAgICAgIHJldHVybiB0aHJlYWRzLmZpbHRlck5vdE51bGwoKS5maW5kIHsgaXQubmFtZSA9PSBNQUlOX1RIUkVBRF9OQU1FIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUodGFnLCAi6I635Y+W5Li757q/56iL5aSx6LSlIiwgZSkKICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5o2V6I635a6M5pW055qE57q/56iL6L2s5YKo5L+h5oGv77yM5YyF5ous5Li757q/56iL5ZKM5YW25LuW6YeN6KaB57q/56iLCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGNhcHR1cmVGdWxsVGhyZWFkRHVtcCgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgc2JEdW1wID0gU3RyaW5nQnVpbGRlcigpCiAgICAgICAgICAgIHZhbCBkYXRlRm9ybWF0ID0gU2ltcGxlRGF0ZUZvcm1hdCgieXl5eS1NTS1kZCBISDptbTpzcy5TU1MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKQogICAgICAgICAgICAKICAgICAgICAgICAgc2JEdW1wLmFwcGVuZChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hbnJfdGhyZWFkX2R1bXBfaGVhZGVyLCBkYXRlRm9ybWF0LmZvcm1hdChEYXRlKCkpKSkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOmmluWFiOiOt+WPluS4u+e6v+eoi+S/oeaBrwogICAgICAgICAgICB2YWwgbWFpblRocmVhZFN0YWNrOiBTdHJpbmcgPSBtYWluVGhyZWFkPy5sZXQgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICB2YWwgc3RhY2tUcmFjZUVsZW1lbnRzID0gaXQuc3RhY2tUcmFjZQogICAgICAgICAgICAgICAgICAgIHZhbCBzdGFja1N0ciA9IHN0YWNrVHJhY2VFbGVtZW50cy5qb2luVG9TdHJpbmcoIlxuIikgeyBlbGVtZW50IC0+ICIgICAgYXQgJGVsZW1lbnQiIH0KICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hbnJfbWFpbl90aHJlYWRfd2l0aF9zdGF0ZSwgaXQubmFtZSwgaXQuc3RhdGUsIHN0YWNrU3RyKQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX2Nhbm5vdF9nZXRfbWFpbl90aHJlYWRfc3RhY2ssIGUubWVzc2FnZSA/OiAiIikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hbnJfY2Fubm90X2dldF9tYWluX3RocmVhZF9yZWYpCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDmt7vliqDkuLvnur/nqIvkv6Hmga8KICAgICAgICAgICAgc2JEdW1wLmFwcGVuZChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hbnJfbWFpbl90aHJlYWRfc2VjdGlvbiwgbWFpblRocmVhZFN0YWNrKSkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOa3u+WKoOS4u+e6v+eoi+WIhuaekAogICAgICAgICAgICB2YWwgYW5hbHlzaXMgPSBhbmFseXplU3RhY2tUcmFjZShtYWluVGhyZWFkU3RhY2spCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDmo4Dmn6XmmK/lkKblkozkuIrmrKFBTlLnm7jlkIzvvIzlpoLmnpznm7jlkIzliJnkuI3ovpPlh7oKICAgICAgICAgICAgaWYgKGFuYWx5c2lzID09IGxhc3RBbnJBbmFseXNpcykgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncodGFnLCAi5qOA5rWL5Yiw6YeN5aSN55qEQU5S77yM6Lez6L+H6L6T5Ye6IikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDmm7TmlrDkuIrmrKFBTlLliIbmnpDnu5PmnpwKICAgICAgICAgICAgbGFzdEFuckFuYWx5c2lzID0gYW5hbHlzaXMKCiAgICAgICAgICAgIHNiRHVtcC5hcHBlbmQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX2FuYWx5c2lzX3NlY3Rpb24sIGFuYWx5c2lzKSkKCiAgICAgICAgICAgIC8vIOiOt+WPluW5tua3u+WKoOiwg+eUqOiAheS/oeaBrwogICAgICAgICAgICBpZiAoY2FsbGVySW5mby5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHNiRHVtcC5hcHBlbmQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX3JlY2VudF9jYWxsX2luZm8pKQogICAgICAgICAgICAgICAgY2FsbGVySW5mby5mb3JFYWNoIHsgKF8sIGluZm8pIC0+IHNiRHVtcC5hcHBlbmQoIiRpbmZvXG4iKSB9CiAgICAgICAgICAgICAgICBzYkR1bXAuYXBwZW5kKCJcbiIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOS/neWtmOe6v+eoi+i9rOWCqAogICAgICAgICAgICB2YWwgdGltZXN0YW1wID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgdmFsIHRyYWNlID0gUGFpcih0aW1lc3RhbXAsIHNiRHVtcC50b1N0cmluZygpKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5pu05paw5aCG5qCI6Lef6Liq5Y6G5Y+yCiAgICAgICAgICAgIHN5bmNocm9uaXplZChzdGFja1RyYWNlcykgewogICAgICAgICAgICAgICAgc3RhY2tUcmFjZXMuYWRkKHRyYWNlKQogICAgICAgICAgICAgICAgaWYgKHN0YWNrVHJhY2VzLnNpemUgPiBNQVhfU1RBQ0tfVFJBQ0VTKSB7CiAgICAgICAgICAgICAgICAgICAgc3RhY2tUcmFjZXMucmVtb3ZlQXQoMCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g6L6T5Ye65Yiw5pel5b+XCiAgICAgICAgICAgIEFwcExvZ2dlci5lKHRhZywgIuajgOa1i+WIsEFOUiEg5a6M5pW057q/56iL6L2s5YKoOlxuJHtzYkR1bXB9IikKICAgICAgICAgICAgCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKHRhZywgIuaNleiOt+e6v+eoi+i9rOWCqOWksei0pSIsIGUpCiAgICAgICAgICAgIC8vIOWksei0peaXtuWwneivleaXp+aWueazlQogICAgICAgICAgICBjYXB0dXJlTWFpblRocmVhZFN0YWNrKCkKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog5YiG5p6Q5aCG5qCI6Lef6Liq77yM5o+Q5Y+W5bm25YiX5Ye65aCG5qCI5Lit55qE5YyF5ZCN77yI5LuF5L+d55WZY29tLmJzbHNqZGsub3Blcml05YyF77yJCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGFuYWx5emVTdGFja1RyYWNlKHN0YWNrVHJhY2U6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGFuYWx5c2lzID0gU3RyaW5nQnVpbGRlcigpCiAgICAgICAgdmFsIHRhcmdldFBhY2thZ2UgPSAiY29tLmJzbHNqZGsub3Blcml0IgogICAgICAgIHZhbCBsaW5lcyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgCiAgICAgICAgZm9yIChsaW5lIGluIHN0YWNrVHJhY2UubGluZXMoKSkgewogICAgICAgICAgICAvLyDljLnphY3loIbmoIjooYzmoLzlvI86IGF0IHBhY2thZ2UuQ2xhc3MubWV0aG9kKEZpbGUuamF2YTpsaW5lKQogICAgICAgICAgICB2YWwgYXRJbmRleCA9IGxpbmUuaW5kZXhPZigiYXQgIikKICAgICAgICAgICAgaWYgKGF0SW5kZXggPj0gMCkgewogICAgICAgICAgICAgICAgdmFsIHN0YWNrUGFydCA9IGxpbmUuc3Vic3RyaW5nKGF0SW5kZXggKyAzKS50cmltKCkKICAgICAgICAgICAgICAgIC8vIOWPquS/neeVmWNvbS5ic2xzamRrLm9wZXJpdOWMheeahOWghuagiAogICAgICAgICAgICAgICAgaWYgKHN0YWNrUGFydC5zdGFydHNXaXRoKHRhcmdldFBhY2thZ2UpKSB7CiAgICAgICAgICAgICAgICAgICAgbGluZXMuYWRkKGxpbmUudHJpbSgpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOi+k+WHuuaNleaNieWIsOeahOWghuagiOihjAogICAgICAgIGlmIChsaW5lcy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgYW5hbHlzaXMuYXBwZW5kKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFucl9wYWNrYWdlX2NhbGxzLCB0YXJnZXRQYWNrYWdlLCBsaW5lcy5zaXplKSkKICAgICAgICAgICAgbGluZXMuZm9yRWFjaCB7IGxpbmUgLT4KICAgICAgICAgICAgICAgIGFuYWx5c2lzLmFwcGVuZCgiJGxpbmVcbiIpCiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBhbmFseXNpcy5hcHBlbmQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX2Nhbm5vdF9leHRyYWN0X3BhY2thZ2VfaW5mbywgdGFyZ2V0UGFja2FnZSkpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHJldHVybiBhbmFseXNpcy50b1N0cmluZygpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5L+d5a2YQU5S5oql5ZGK5Yiw5paH5Lu2CiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHNhdmVBbnJSZXBvcnQoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGRhdGVGb3JtYXQgPSBTaW1wbGVEYXRlRm9ybWF0KCJ5eXl5TU1kZF9ISG1tc3MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKQogICAgICAgICAgICB2YWwgdGltZXN0YW1wID0gZGF0ZUZvcm1hdC5mb3JtYXQoRGF0ZSgpKQogICAgICAgICAgICB2YWwgZmlsZU5hbWUgPSAiYW5yX3JlcG9ydF8ke3RpbWVzdGFtcH0udHh0IgogICAgICAgICAgICAKICAgICAgICAgICAgdmFsIGZpbGUgPSBGaWxlKGNvbnRleHQuZ2V0RXh0ZXJuYWxGaWxlc0RpcigiYW5yX3JlcG9ydHMiKSwgZmlsZU5hbWUpCiAgICAgICAgICAgIGZpbGUucGFyZW50RmlsZT8ubWtkaXJzKCkKICAgICAgICAgICAgCiAgICAgICAgICAgIEZpbGVPdXRwdXRTdHJlYW0oZmlsZSkudXNlIHsgZm9zIC0+CiAgICAgICAgICAgICAgICBPdXRwdXRTdHJlYW1Xcml0ZXIoZm9zKS51c2UgeyB3cml0ZXIgLT4KICAgICAgICAgICAgICAgICAgICB3cml0ZXIud3JpdGUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX3JlcG9ydF9oZWFkZXIpKQogICAgICAgICAgICAgICAgICAgIHdyaXRlci53cml0ZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hbnJfcmVwb3J0X3RpbWUsIFNpbXBsZURhdGVGb3JtYXQoInl5eXktTU0tZGQgSEg6bW06c3MiLCBMb2NhbGUuZ2V0RGVmYXVsdCgpKS5mb3JtYXQoRGF0ZSgpKSkpCiAgICAgICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFucl9yZXBvcnRfYW5yX2NvdW50LCBhbnJDb3VudC5nZXQoKSkpCiAgICAgICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFucl9yZXBvcnRfd2FybmluZ19jb3VudCwgd2FybmluZ0NvdW50LmdldCgpKSkKICAgICAgICAgICAgICAgICAgICB3cml0ZXIud3JpdGUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX3JlcG9ydF9tYXhfYmxvY2ssIG1heEJsb2NrRHVyYXRpb24uZ2V0KCkpKQoKICAgICAgICAgICAgICAgICAgICB3cml0ZXIud3JpdGUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX3N5c3RlbV9pbmZvX2hlYWRlcikpCiAgICAgICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFucl9hbmRyb2lkX3ZlcnNpb24sIGFuZHJvaWQub3MuQnVpbGQuVkVSU0lPTi5TREtfSU5UKSkKICAgICAgICAgICAgICAgICAgICB3cml0ZXIud3JpdGUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX2RldmljZSwgYW5kcm9pZC5vcy5CdWlsZC5NQU5VRkFDVFVSRVIsIGFuZHJvaWQub3MuQnVpbGQuTU9ERUwpKQogICAgICAgICAgICAgICAgICAgIHdyaXRlci53cml0ZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hbnJfbWVtb3J5X2luZm8pKQogICAgICAgICAgICAgICAgICAgIHZhbCBydCA9IFJ1bnRpbWUuZ2V0UnVudGltZSgpCiAgICAgICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFucl9tYXhfbWVtb3J5LCBydC5tYXhNZW1vcnkoKSAvIDEwMjQgLyAxMDI0KSkKICAgICAgICAgICAgICAgICAgICB3cml0ZXIud3JpdGUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX2FsbG9jYXRlZF9tZW1vcnksIHJ0LnRvdGFsTWVtb3J5KCkgLyAxMDI0IC8gMTAyNCkpCiAgICAgICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFucl9mcmVlX21lbW9yeSwgcnQuZnJlZU1lbW9yeSgpIC8gMTAyNCAvIDEwMjQpKQoKICAgICAgICAgICAgICAgICAgICB3cml0ZXIud3JpdGUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX3N0YWNrX3RyYWNlX2hpc3RvcnlfaGVhZGVyKSkKICAgICAgICAgICAgICAgICAgICBzeW5jaHJvbml6ZWQoc3RhY2tUcmFjZXMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc3RhY2tUcmFjZXMuZm9yRWFjaCB7ICh0aW1lLCBzdGFjaykgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB0aW1lU3RyID0gU2ltcGxlRGF0ZUZvcm1hdCgiSEg6bW06c3MuU1NTIiwgTG9jYWxlLmdldERlZmF1bHQoKSkuZm9ybWF0KERhdGUodGltZSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3cml0ZXIud3JpdGUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYW5yX3RpbWUsIHRpbWVTdHIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKCIkc3RhY2tcblxuIikKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFucl9jYWxsZXJfaW5mb19oZWFkZXIpKQogICAgICAgICAgICAgICAgICAgIGNhbGxlckluZm8uZm9yRWFjaCB7IChfLCBpbmZvKSAtPiAKICAgICAgICAgICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKCIkaW5mb1xuIikgCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBBcHBMb2dnZXIuaSh0YWcsICJBTlLmiqXlkYrlt7Lkv53lrZjliLA6ICR7ZmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUodGFnLCAi5L+d5a2YQU5S5oql5ZGK5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICB9Cn0g
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import android.os.Debug
+import android.os.Handler
+import android.os.Looper
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.R
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleOwner
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import java.io.File
+import java.io.FileOutputStream
+import java.io.OutputStreamWriter
+import java.io.StringWriter
+import java.io.PrintWriter
+import java.lang.reflect.Field
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.Executors
+import java.util.concurrent.ScheduledExecutorService
+import java.util.concurrent.TimeUnit
+import java.util.concurrent.atomic.AtomicBoolean
+import java.util.concurrent.atomic.AtomicInteger
+import java.util.concurrent.atomic.AtomicLong
+
+/**
+ * ANR监控器，用于跟踪和记录可能导致ANR的主线程阻塞
+ * 
+ * @param context 应用上下文
+ * @param coroutineScope 用于启动监控协程的作用域
+ * @param tag 日志标签
+ */
+class AnrMonitor(
+    private val context: Context, 
+    private val coroutineScope: CoroutineScope,
+    private val tag: String = "AnrMonitor"
+) {
+    companion object {
+        // 默认阈值设置
+        private const val ANR_THRESHOLD_MS = 1000L     // 1秒，标准ANR阈值
+        private const val WARNING_THRESHOLD_MS = 500L // 0.5秒，警告阈值
+        private const val SAMPLING_INTERVAL_MS = 100L  // 100毫秒采样间隔
+        private const val MAX_STACK_TRACES = 10        // 最大堆栈跟踪数
+        
+        // 主线程名称
+        private const val MAIN_THREAD_NAME = "main"
+    }
+    
+    private val running = AtomicBoolean(false)
+    private val lastResponseTime = AtomicLong(System.currentTimeMillis())
+    private var monitoringJob: Job? = null
+    private val mainThreadHandler = Handler(Looper.getMainLooper())
+    
+    // 后备方案：如果协程有问题，使用ScheduledExecutorService
+    private var scheduledExecutor: ScheduledExecutorService? = null
+    
+    // 记录ANR次数和严重程度
+    private val anrCount = AtomicInteger(0)
+    private val warningCount = AtomicInteger(0)
+    private val maxBlockDuration = AtomicLong(0)
+    
+    // 堆栈跟踪历史
+    private val stackTraces = mutableListOf<Pair<Long, String>>()
+    
+    // 跟踪调用者信息
+    private val callerInfo = ConcurrentHashMap<String, String>()
+    
+    // 最后一次获取到的主线程引用
+    private var mainThread: Thread? = null
+    
+    // 上次ANR的分析结果，用于去重
+    private var lastAnrAnalysis: String? = null
+    
+    /**
+     * 开始ANR监控
+     */
+    fun start() {
+        if (running.getAndSet(true)) {
+            AppLogger.w(tag, "ANR监控器已经在运行中")
+            return
+        }
+        
+        AppLogger.d(tag, "启动ANR监控器")
+        lastResponseTime.set(System.currentTimeMillis())
+        
+        // 尝试获取主线程引用
+        try {
+            mainThread = getMainThread()
+            AppLogger.d(tag, "已获取主线程引用: $mainThread")
+        } catch (e: Exception) {
+            AppLogger.e(tag, "获取主线程引用失败", e)
+        }
+        
+        try {
+            // 尝试启动协程监控
+            monitoringJob = coroutineScope.launch(Dispatchers.Default) {
+                while (running.get()) {
+                    checkMainThreadHealth()
+                    delay(SAMPLING_INTERVAL_MS)
+                }
+            }
+        } catch (e: Exception) {
+            // 如果协程启动失败，使用线程池作为备选方案
+            AppLogger.e(tag, "协程启动失败，使用备选线程池监控", e)
+            startUsingExecutor()
+        }
+    }
+    
+    /**
+     * 使用ScheduledExecutorService开始监控（备选方案）
+     */
+    private fun startUsingExecutor() {
+        if (scheduledExecutor == null || scheduledExecutor?.isShutdown == true) {
+            scheduledExecutor = Executors.newSingleThreadScheduledExecutor { r ->
+                val t = Thread(r, "AnrMonitor-Watchdog")
+                t.priority = Thread.MAX_PRIORITY
+                t.isDaemon = true
+                t
+            }
+        }
+        
+        scheduledExecutor?.scheduleAtFixedRate({
+            if (running.get()) {
+                checkMainThreadHealth()
+            } else {
+                scheduledExecutor?.shutdown()
+            }
+        }, 0, SAMPLING_INTERVAL_MS, TimeUnit.MILLISECONDS)
+    }
+    
+    /**
+     * 停止ANR监控
+     */
+    fun stop() {
+        if (!running.getAndSet(false)) {
+            return
+        }
+        
+        AppLogger.d(tag, "停止ANR监控器，监控结果：ANR次数=${anrCount.get()}, 警告次数=${warningCount.get()}, 最长阻塞时间=${maxBlockDuration.get()}ms")
+        monitoringJob?.cancel()
+        scheduledExecutor?.shutdown()
+        
+        // 如果有记录到ANR，保存报告
+        if (anrCount.get() > 0 || warningCount.get() > 0) {
+            saveAnrReport()
+        }
+    }
+    
+    /**
+     * 报告主线程正常响应
+     */
+    fun reportThreadHealthy() {
+        lastResponseTime.set(System.currentTimeMillis())
+    }
+    
+    /**
+     * 报告主线程响应缓慢
+     */
+    fun reportSlowResponse(responseTime: Long) {
+        if (responseTime > WARNING_THRESHOLD_MS) {
+            warningCount.incrementAndGet()
+            if (responseTime > maxBlockDuration.get()) {
+                maxBlockDuration.set(responseTime)
+            }
+            
+            if (responseTime > ANR_THRESHOLD_MS) {
+                val anrCount = anrCount.incrementAndGet()
+                AppLogger.e(tag, "检测到可能的ANR! 响应时间: ${responseTime}ms, 这是第${anrCount}次ANR")
+                captureFullThreadDump()
+            } else {
+                AppLogger.w(tag, "主线程响应缓慢: ${responseTime}ms")
+            }
+        }
+    }
+    
+    /**
+     * 添加调用者信息，帮助跟踪ANR来源
+     */
+    fun addCallerInfo(key: String, info: String) {
+        callerInfo[key] = "[$key] $info (${SimpleDateFormat("HH:mm:ss.SSS", Locale.getDefault()).format(Date())})"
+    }
+    
+    /**
+     * 检查主线程健康状态
+     */
+    private fun checkMainThreadHealth() {
+        mainThreadHandler.post {
+            reportThreadHealthy()
+        }
+
+        val now = System.currentTimeMillis()
+        val lastResponse = lastResponseTime.get()
+        val timeSinceLastResponse = now - lastResponse
+        
+        if (timeSinceLastResponse > WARNING_THRESHOLD_MS) {
+            // 主线程可能被阻塞
+            val message = context.getString(R.string.anr_main_thread_not_responding, timeSinceLastResponse)
+            
+            if (timeSinceLastResponse > ANR_THRESHOLD_MS) {
+                // 已超过ANR阈值
+                AppLogger.e(tag, "$message - 可能发生ANR!")
+                anrCount.incrementAndGet()
+                
+                // 记录堆栈跟踪 - 使用增强的堆栈捕获
+                captureFullThreadDump()
+                
+                if (timeSinceLastResponse > maxBlockDuration.get()) {
+                    maxBlockDuration.set(timeSinceLastResponse)
+                }
+            } else {
+                // 超过警告阈值但未到ANR阈值
+                AppLogger.w(tag, "$message - 警告")
+                warningCount.incrementAndGet()
+            }
+        }
+    }
+    
+    /**
+     * 捕获主线程堆栈
+     */
+    private fun captureMainThreadStack() {
+        mainThreadHandler.post {
+            try {
+                val stackTrace = Thread.currentThread().stackTrace
+                    .drop(3) // 跳过前三个元素（VM相关调用）
+                    .joinToString("\n") { "    at $it" }
+                    
+                val timeStamp = System.currentTimeMillis()
+                val trace = Pair(timeStamp, stackTrace)
+                
+                synchronized(stackTraces) {
+                    stackTraces.add(trace)
+                    // 限制堆栈历史数量
+                    if (stackTraces.size > MAX_STACK_TRACES) {
+                        stackTraces.removeAt(0)
+                    }
+                }
+                
+                // 分析堆栈
+                val analysis = analyzeStackTrace(stackTrace)
+                
+                AppLogger.e(tag, "主线程堆栈跟踪:\n$stackTrace\n$analysis")
+            } catch (e: Exception) {
+                AppLogger.e(tag, "捕获堆栈失败", e)
+            }
+        }
+    }
+    
+    /**
+     * 获取主线程实例的引用
+     */
+    private fun getMainThread(): Thread? {
+        try {
+            // 尝试方法1：通过Looper的对应线程
+            Looper.getMainLooper().thread?.let { return it }
+            
+            // 尝试方法2：遍历所有线程查找main线程
+            val threadGroup = Thread.currentThread().threadGroup ?: return null
+            val threadCount = threadGroup.activeCount()
+            val threads = arrayOfNulls<Thread>(threadCount)
+            threadGroup.enumerate(threads)
+            
+            return threads.filterNotNull().find { it.name == MAIN_THREAD_NAME }
+        } catch (e: Exception) {
+            AppLogger.e(tag, "获取主线程失败", e)
+            return null
+        }
+    }
+    
+    /**
+     * 捕获完整的线程转储信息，包括主线程和其他重要线程
+     */
+    private fun captureFullThreadDump() {
+        try {
+            val sbDump = StringBuilder()
+            val dateFormat = SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.getDefault())
+            
+            sbDump.append(context.getString(R.string.anr_thread_dump_header, dateFormat.format(Date())))
+            
+            // 首先获取主线程信息
+            val mainThreadStack: String = mainThread?.let {
+                try {
+                    val stackTraceElements = it.stackTrace
+                    val stackStr = stackTraceElements.joinToString("\n") { element -> "    at $element" }
+                    context.getString(R.string.anr_main_thread_with_state, it.name, it.state, stackStr)
+                } catch (e: Exception) {
+                    context.getString(R.string.anr_cannot_get_main_thread_stack, e.message ?: "")
+                }
+            } ?: context.getString(R.string.anr_cannot_get_main_thread_ref)
+            
+            // 添加主线程信息
+            sbDump.append(context.getString(R.string.anr_main_thread_section, mainThreadStack))
+            
+            // 添加主线程分析
+            val analysis = analyzeStackTrace(mainThreadStack)
+            
+            // 检查是否和上次ANR相同，如果相同则不输出
+            if (analysis == lastAnrAnalysis) {
+                AppLogger.w(tag, "检测到重复的ANR，跳过输出")
+                return
+            }
+            
+            // 更新上次ANR分析结果
+            lastAnrAnalysis = analysis
+
+            sbDump.append(context.getString(R.string.anr_analysis_section, analysis))
+
+            // 获取并添加调用者信息
+            if (callerInfo.isNotEmpty()) {
+                sbDump.append(context.getString(R.string.anr_recent_call_info))
+                callerInfo.forEach { (_, info) -> sbDump.append("$info\n") }
+                sbDump.append("\n")
+            }
+            
+            // 保存线程转储
+            val timestamp = System.currentTimeMillis()
+            val trace = Pair(timestamp, sbDump.toString())
+            
+            // 更新堆栈跟踪历史
+            synchronized(stackTraces) {
+                stackTraces.add(trace)
+                if (stackTraces.size > MAX_STACK_TRACES) {
+                    stackTraces.removeAt(0)
+                }
+            }
+            
+            // 输出到日志
+            AppLogger.e(tag, "检测到ANR! 完整线程转储:\n${sbDump}")
+            
+        } catch (e: Exception) {
+            AppLogger.e(tag, "捕获线程转储失败", e)
+            // 失败时尝试旧方法
+            captureMainThreadStack()
+        }
+    }
+    
+    /**
+     * 分析堆栈跟踪，提取并列出堆栈中的包名（仅保留com.bslsjdk.operit包）
+     */
+    private fun analyzeStackTrace(stackTrace: String): String {
+        val analysis = StringBuilder()
+        val targetPackage = "com.bslsjdk.operit"
+        val lines = mutableListOf<String>()
+        
+        for (line in stackTrace.lines()) {
+            // 匹配堆栈行格式: at package.Class.method(File.java:line)
+            val atIndex = line.indexOf("at ")
+            if (atIndex >= 0) {
+                val stackPart = line.substring(atIndex + 3).trim()
+                // 只保留com.bslsjdk.operit包的堆栈
+                if (stackPart.startsWith(targetPackage)) {
+                    lines.add(line.trim())
+                }
+            }
+        }
+        
+        // 输出捕捉到的堆栈行
+        if (lines.isNotEmpty()) {
+            analysis.append(context.getString(R.string.anr_package_calls, targetPackage, lines.size))
+            lines.forEach { line ->
+                analysis.append("$line\n")
+            }
+        } else {
+            analysis.append(context.getString(R.string.anr_cannot_extract_package_info, targetPackage))
+        }
+        
+        return analysis.toString()
+    }
+    
+    /**
+     * 保存ANR报告到文件
+     */
+    private fun saveAnrReport() {
+        try {
+            val dateFormat = SimpleDateFormat("yyyyMMdd_HHmmss", Locale.getDefault())
+            val timestamp = dateFormat.format(Date())
+            val fileName = "anr_report_${timestamp}.txt"
+            
+            val file = File(context.getExternalFilesDir("anr_reports"), fileName)
+            file.parentFile?.mkdirs()
+            
+            FileOutputStream(file).use { fos ->
+                OutputStreamWriter(fos).use { writer ->
+                    writer.write(context.getString(R.string.anr_report_header))
+                    writer.write(context.getString(R.string.anr_report_time, SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.getDefault()).format(Date())))
+                    writer.write(context.getString(R.string.anr_report_anr_count, anrCount.get()))
+                    writer.write(context.getString(R.string.anr_report_warning_count, warningCount.get()))
+                    writer.write(context.getString(R.string.anr_report_max_block, maxBlockDuration.get()))
+
+                    writer.write(context.getString(R.string.anr_system_info_header))
+                    writer.write(context.getString(R.string.anr_android_version, android.os.Build.VERSION.SDK_INT))
+                    writer.write(context.getString(R.string.anr_device, android.os.Build.MANUFACTURER, android.os.Build.MODEL))
+                    writer.write(context.getString(R.string.anr_memory_info))
+                    val rt = Runtime.getRuntime()
+                    writer.write(context.getString(R.string.anr_max_memory, rt.maxMemory() / 1024 / 1024))
+                    writer.write(context.getString(R.string.anr_allocated_memory, rt.totalMemory() / 1024 / 1024))
+                    writer.write(context.getString(R.string.anr_free_memory, rt.freeMemory() / 1024 / 1024))
+
+                    writer.write(context.getString(R.string.anr_stack_trace_history_header))
+                    synchronized(stackTraces) {
+                        stackTraces.forEach { (time, stack) ->
+                            val timeStr = SimpleDateFormat("HH:mm:ss.SSS", Locale.getDefault()).format(Date(time))
+                            writer.write(context.getString(R.string.anr_time, timeStr))
+                            writer.write("$stack\n\n")
+                        }
+                    }
+
+                    writer.write(context.getString(R.string.anr_caller_info_header))
+                    callerInfo.forEach { (_, info) -> 
+                        writer.write("$info\n") 
+                    }
+                }
+            }
+            
+            AppLogger.i(tag, "ANR报告已保存到: ${file.absolutePath}")
+        } catch (e: Exception) {
+            AppLogger.e(tag, "保存ANR报告失败", e)
+        }
+    }
+} 

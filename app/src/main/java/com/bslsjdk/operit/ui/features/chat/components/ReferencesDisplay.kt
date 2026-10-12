@@ -1,1 +1,89 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgovLyBpbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uQW5pbWF0ZWRWaXNpYmlsaXR5Ci8vIGltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5mYWRlSW4KLy8gaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmZhZGVPdXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eVJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuaXRlbXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkxpbmsKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsVXJpSGFuZGxlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRPdmVyZmxvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BaVJlZmVyZW5jZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmNvbW1vbi5hbmltYXRpb25zLlNpbXBsZUFuaW1hdGVkVmlzaWJpbGl0eQoKLyoqCiAqIERpc3BsYXlzIHJlZmVyZW5jZXMgZm91bmQgaW4gQUkgcmVzcG9uc2VzIGFzIGNsaWNrYWJsZSBjaGlwcwogKi8KQENvbXBvc2FibGUKZnVuIFJlZmVyZW5jZXNEaXNwbGF5KAogICAgcmVmZXJlbmNlczogTGlzdDxBaVJlZmVyZW5jZT4sCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllcgopIHsKICAgIHZhbCB1cmlIYW5kbGVyID0gTG9jYWxVcmlIYW5kbGVyLmN1cnJlbnQKICAgIAogICAgU2ltcGxlQW5pbWF0ZWRWaXNpYmlsaXR5KAogICAgICAgIHZpc2libGUgPSByZWZlcmVuY2VzLmlzTm90RW1wdHkoKSwKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICApIHsKICAgICAgICBDb2x1bW4oCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDE2LmRwLCB2ZXJ0aWNhbCA9IDguZHApCiAgICAgICAgKSB7CiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICB0ZXh0ID0gIlJlZmVyZW5jZXM6IiwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlU21hbGwsCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlLAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKGJvdHRvbSA9IDguZHApCiAgICAgICAgICAgICkKICAgICAgICAgICAgCiAgICAgICAgICAgIExhenlSb3coCiAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSwKICAgICAgICAgICAgICAgIGNvbnRlbnRQYWRkaW5nID0gUGFkZGluZ1ZhbHVlcyhlbmQgPSAxNi5kcCkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBpdGVtcyhyZWZlcmVuY2VzKSB7IHJlZmVyZW5jZSAtPgogICAgICAgICAgICAgICAgICAgIFJlZmVyZW5jZUNoaXAoCiAgICAgICAgICAgICAgICAgICAgICAgIHJlZmVyZW5jZSA9IHJlZmVyZW5jZSwKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgdXJpSGFuZGxlci5vcGVuVXJpKHJlZmVyZW5jZS51cmwpIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCkBPcHRJbihFeHBlcmltZW50YWxNYXRlcmlhbDNBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBSZWZlcmVuY2VDaGlwKAogICAgcmVmZXJlbmNlOiBBaVJlZmVyZW5jZSwKICAgIG9uQ2xpY2s6ICgpIC0+IFVuaXQKKSB7CiAgICBTdWdnZXN0aW9uQ2hpcCgKICAgICAgICBvbkNsaWNrID0gb25DbGljaywKICAgICAgICBsYWJlbCA9IHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSByZWZlcmVuY2UudGV4dCwKICAgICAgICAgICAgICAgIG1heExpbmVzID0gMSwKICAgICAgICAgICAgICAgIG92ZXJmbG93ID0gVGV4dE92ZXJmbG93LkVsbGlwc2lzCiAgICAgICAgICAgICkKICAgICAgICB9LAogICAgICAgIGljb24gPSB7CiAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuTGluaywKICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9ICJMaW5rIiwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgxOC5kcCkKICAgICAgICAgICAgKQogICAgICAgIH0sCiAgICAgICAgY29sb3JzID0gU3VnZ2VzdGlvbkNoaXBEZWZhdWx0cy5zdWdnZXN0aW9uQ2hpcENvbG9ycygKICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnNlY29uZGFyeUNvbnRhaW5lciwKICAgICAgICAgICAgbGFiZWxDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TZWNvbmRhcnlDb250YWluZXIsCiAgICAgICAgICAgIGljb25Db250ZW50Q29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU2Vjb25kYXJ5Q29udGFpbmVyCiAgICAgICAgKQogICAgKQp9IA==
+package com.bslsjdk.operit.ui.features.chat.components
+
+// import androidx.compose.animation.AnimatedVisibility
+// import androidx.compose.animation.fadeIn
+// import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Link
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.data.model.AiReference
+import com.bslsjdk.operit.ui.common.animations.SimpleAnimatedVisibility
+
+/**
+ * Displays references found in AI responses as clickable chips
+ */
+@Composable
+fun ReferencesDisplay(
+    references: List<AiReference>,
+    modifier: Modifier = Modifier
+) {
+    val uriHandler = LocalUriHandler.current
+    
+    SimpleAnimatedVisibility(
+        visible = references.isNotEmpty(),
+        modifier = modifier
+    ) {
+        Column(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(horizontal = 16.dp, vertical = 8.dp)
+        ) {
+            Text(
+                text = "References:",
+                style = MaterialTheme.typography.titleSmall,
+                color = MaterialTheme.colorScheme.onSurface,
+                modifier = Modifier.padding(bottom = 8.dp)
+            )
+            
+            LazyRow(
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                contentPadding = PaddingValues(end = 16.dp)
+            ) {
+                items(references) { reference ->
+                    ReferenceChip(
+                        reference = reference,
+                        onClick = { uriHandler.openUri(reference.url) }
+                    )
+                }
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+private fun ReferenceChip(
+    reference: AiReference,
+    onClick: () -> Unit
+) {
+    SuggestionChip(
+        onClick = onClick,
+        label = {
+            Text(
+                text = reference.text,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
+            )
+        },
+        icon = {
+            Icon(
+                imageVector = Icons.Default.Link,
+                contentDescription = "Link",
+                modifier = Modifier.size(18.dp)
+            )
+        },
+        colors = SuggestionChipDefaults.suggestionChipColors(
+            containerColor = MaterialTheme.colorScheme.secondaryContainer,
+            labelColor = MaterialTheme.colorScheme.onSecondaryContainer,
+            iconContentColor = MaterialTheme.colorScheme.onSecondaryContainer
+        )
+    )
+} 

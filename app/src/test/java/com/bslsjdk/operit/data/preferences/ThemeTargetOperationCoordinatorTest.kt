@@ -1,1 +1,47 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db21wbGV0YWJsZURlZmVycmVkCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRXhwZXJpbWVudGFsQ29yb3V0aW5lc0FwaQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmFzeW5jCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMudGVzdC5hZHZhbmNlVW50aWxJZGxlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMudGVzdC5ydW5DdXJyZW50CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMudGVzdC5ydW5UZXN0CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LlRlc3QKCkBPcHRJbihFeHBlcmltZW50YWxDb3JvdXRpbmVzQXBpOjpjbGFzcykKY2xhc3MgVGhlbWVUYXJnZXRPcGVyYXRpb25Db29yZGluYXRvclRlc3QgewogICAgQFRlc3QKICAgIGZ1biB0cmFuc2l0aW9uc0FyZVNlcmlhbGl6ZWQoKSA9IHJ1blRlc3QgewogICAgICAgIHZhbCBjb29yZGluYXRvciA9IFRoZW1lVGFyZ2V0T3BlcmF0aW9uQ29vcmRpbmF0b3IoKQogICAgICAgIHZhbCBldmVudHMgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQogICAgICAgIHZhbCBmaXJzdFN0YXJ0ZWQgPSBDb21wbGV0YWJsZURlZmVycmVkPFVuaXQ+KCkKICAgICAgICB2YWwgcmVsZWFzZUZpcnN0ID0gQ29tcGxldGFibGVEZWZlcnJlZDxVbml0PigpCgogICAgICAgIHZhbCBmaXJzdCA9IGFzeW5jIHsKICAgICAgICAgICAgY29vcmRpbmF0b3IucnVuVHJhbnNpdGlvbiB7CiAgICAgICAgICAgICAgICBldmVudHMgKz0gImZpcnN0LXN0YXJ0IgogICAgICAgICAgICAgICAgZmlyc3RTdGFydGVkLmNvbXBsZXRlKFVuaXQpCiAgICAgICAgICAgICAgICByZWxlYXNlRmlyc3QuYXdhaXQoKQogICAgICAgICAgICAgICAgZXZlbnRzICs9ICJmaXJzdC1lbmQiCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcnVuQ3VycmVudCgpCiAgICAgICAgZmlyc3RTdGFydGVkLmF3YWl0KCkKCiAgICAgICAgdmFsIHNlY29uZCA9IGFzeW5jIHsKICAgICAgICAgICAgY29vcmRpbmF0b3IucnVuVHJhbnNpdGlvbiB7CiAgICAgICAgICAgICAgICBldmVudHMgKz0gInNlY29uZCIKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBydW5DdXJyZW50KCkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJmaXJzdC1zdGFydCIpLCBldmVudHMpCgogICAgICAgIHJlbGVhc2VGaXJzdC5jb21wbGV0ZShVbml0KQogICAgICAgIGFkdmFuY2VVbnRpbElkbGUoKQoKICAgICAgICBmaXJzdC5hd2FpdCgpCiAgICAgICAgc2Vjb25kLmF3YWl0KCkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJmaXJzdC1zdGFydCIsICJmaXJzdC1lbmQiLCAic2Vjb25kIiksIGV2ZW50cykKICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.async
+import kotlinx.coroutines.test.advanceUntilIdle
+import kotlinx.coroutines.test.runCurrent
+import kotlinx.coroutines.test.runTest
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+@OptIn(ExperimentalCoroutinesApi::class)
+class ThemeTargetOperationCoordinatorTest {
+    @Test
+    fun transitionsAreSerialized() = runTest {
+        val coordinator = ThemeTargetOperationCoordinator()
+        val events = mutableListOf<String>()
+        val firstStarted = CompletableDeferred<Unit>()
+        val releaseFirst = CompletableDeferred<Unit>()
+
+        val first = async {
+            coordinator.runTransition {
+                events += "first-start"
+                firstStarted.complete(Unit)
+                releaseFirst.await()
+                events += "first-end"
+            }
+        }
+        runCurrent()
+        firstStarted.await()
+
+        val second = async {
+            coordinator.runTransition {
+                events += "second"
+            }
+        }
+        runCurrent()
+        assertEquals(listOf("first-start"), events)
+
+        releaseFirst.complete(Unit)
+        advanceUntilIdle()
+
+        first.await()
+        second.await()
+        assertEquals(listOf("first-start", "first-end", "second"), events)
+    }
+}

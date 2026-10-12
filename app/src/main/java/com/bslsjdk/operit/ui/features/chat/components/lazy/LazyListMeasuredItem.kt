@@ -1,1 +1,267 @@
-LyoKICogQ29weXJpZ2h0IDIwMjAgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5pbnRlcm5hbC5yZXF1aXJlUHJlY29uZGl0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uaW50ZXJuYWwucmVxdWlyZVByZWNvbmRpdGlvbk5vdE51bGwKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5MYXp5TGF5b3V0SXRlbUFuaW1hdGlvbi5Db21wYW5pb24uTm90SW5pdGlhbGl6ZWQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5MYXp5TGF5b3V0SXRlbUFuaW1hdG9yCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmxhenkuTGF6eUxheW91dE1lYXN1cmVkSXRlbQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MubGF5ZXIuR3JhcGhpY3NMYXllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuUGxhY2VhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuQ29uc3RyYWludHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5JbnRPZmZzZXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5MYXlvdXREaXJlY3Rpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudXRpbC5mYXN0Rm9yRWFjaAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51dGlsLmZhc3RGb3JFYWNoSW5kZXhlZAoKLyoqCiAqIFJlcHJlc2VudHMgb25lIG1lYXN1cmVkIGl0ZW0gb2YgdGhlIGxhenkgbGlzdC4gSXQgY2FuIGluIGZhY3QgY29uc2lzdCBvZiBtdWx0aXBsZSBwbGFjZWFibGVzIGlmCiAqIHRoZSB1c2VyIGVtaXQgbXVsdGlwbGUgbGF5b3V0IG5vZGVzIGluIHRoZSBpdGVtIGNhbGxiYWNrLgogKi8KaW50ZXJuYWwgY2xhc3MgTGF6eUxpc3RNZWFzdXJlZEl0ZW0KY29uc3RydWN0b3IoCiAgICBvdmVycmlkZSB2YWwgaW5kZXg6IEludCwKICAgIHByaXZhdGUgdmFsIHBsYWNlYWJsZXM6IExpc3Q8UGxhY2VhYmxlPiwKICAgIG92ZXJyaWRlIHZhbCBpc1ZlcnRpY2FsOiBCb29sZWFuLAogICAgcHJpdmF0ZSB2YWwgaG9yaXpvbnRhbEFsaWdubWVudDogQWxpZ25tZW50Lkhvcml6b250YWw/LAogICAgcHJpdmF0ZSB2YWwgdmVydGljYWxBbGlnbm1lbnQ6IEFsaWdubWVudC5WZXJ0aWNhbD8sCiAgICBwcml2YXRlIHZhbCBsYXlvdXREaXJlY3Rpb246IExheW91dERpcmVjdGlvbiwKICAgIHByaXZhdGUgdmFsIHJldmVyc2VMYXlvdXQ6IEJvb2xlYW4sCiAgICBwcml2YXRlIHZhbCBiZWZvcmVDb250ZW50UGFkZGluZzogSW50LAogICAgcHJpdmF0ZSB2YWwgYWZ0ZXJDb250ZW50UGFkZGluZzogSW50LAogICAgLyoqCiAgICAgKiBFeHRyYSBzcGFjaW5nIHRvIGJlIGFkZGVkIHRvIFtzaXplXSBhc2lkZSBmcm9tIHRoZSBzdW0gb2YgdGhlIFtwbGFjZWFibGVzXSBzaXplLiBJdCBpcwogICAgICogdXN1YWxseSByZXByZXNlbnRpbmcgdGhlIHNwYWNpbmcgYWZ0ZXIgdGhlIGl0ZW0uCiAgICAgKi8KICAgIHByaXZhdGUgdmFsIHNwYWNpbmc6IEludCwKICAgIC8qKgogICAgICogVGhlIG9mZnNldCB3aGljaCBzaG91bGRuJ3QgYWZmZWN0IGFueSBjYWxjdWxhdGlvbnMgYnV0IG5lZWRzIHRvIGJlIGFwcGxpZWQgZm9yIHRoZSBmaW5hbAogICAgICogdmFsdWUgcGFzc2VkIGludG8gdGhlIHBsYWNlKCkgY2FsbC4KICAgICAqLwogICAgcHJpdmF0ZSB2YWwgdmlzdWFsT2Zmc2V0OiBJbnRPZmZzZXQsCiAgICBvdmVycmlkZSB2YWwga2V5OiBBbnksCiAgICBvdmVycmlkZSB2YWwgY29udGVudFR5cGU6IEFueT8sCiAgICBwcml2YXRlIHZhbCBhbmltYXRvcjogTGF6eUxheW91dEl0ZW1BbmltYXRvcjxMYXp5TGlzdE1lYXN1cmVkSXRlbT4sCiAgICBvdmVycmlkZSB2YWwgY29uc3RyYWludHM6IENvbnN0cmFpbnRzLAopIDogTGF6eUxpc3RJdGVtSW5mbywgTGF6eUxheW91dE1lYXN1cmVkSXRlbSB7CiAgICBvdmVycmlkZSB2YXIgb2Zmc2V0OiBJbnQgPSAwCiAgICAgICAgcHJpdmF0ZSBzZXQKCiAgICAvKiogU3VtIG9mIHRoZSBtYWluIGF4aXMgc2l6ZXMgb2YgYWxsIHRoZSBpbm5lciBwbGFjZWFibGVzLiAqLwogICAgb3ZlcnJpZGUgdmFsIHNpemU6IEludAoKICAgIC8qKiBJbiBsaXN0cyB3ZSBvbmx5IGhhdmUgb25lIGxhbmUuICovCiAgICBvdmVycmlkZSB2YWwgbGFuZTogSW50ID0gMAogICAgLyoqIEFuZCBlYWNoIGl0ZW0gdGFrZXMgb25lIHNwYW4uICovCiAgICBvdmVycmlkZSB2YWwgc3BhbjogSW50ID0gMQoKICAgIC8qKiBTdW0gb2YgdGhlIG1haW4gYXhpcyBzaXplcyBvZiBhbGwgdGhlIGlubmVyIHBsYWNlYWJsZXMgYW5kIFtzcGFjaW5nXS4gKi8KICAgIG92ZXJyaWRlIHZhbCBtYWluQXhpc1NpemVXaXRoU3BhY2luZ3M6IEludAoKICAgIC8qKiBNYXggb2YgdGhlIGNyb3NzIGF4aXMgc2l6ZXMgb2YgYWxsIHRoZSBpbm5lciBwbGFjZWFibGVzLiAqLwogICAgdmFsIGNyb3NzQXhpc1NpemU6IEludAoKICAgIC8qKgogICAgICogVHJ1ZSB3aGVuIHRoaXMgaXRlbSBpcyBub3Qgc3VwcG9zdGVkIHRvIHJlYWN0IG9uIHNjcm9sbCBkZWx0YS4gZm9yIGV4YW1wbGUgc3RpY2t5IGhlYWRlciwgb3IKICAgICAqIGl0ZW1zIGJlaW5nIGFuaW1hdGVkIGF3YXkgb3V0IG9mIHRoZSBib3VuZHMgYXJlIG5vbiBzY3JvbGxhYmxlLgogICAgICovCiAgICBvdmVycmlkZSB2YXIgbm9uU2Nyb2xsYWJsZUl0ZW06IEJvb2xlYW4gPSBmYWxzZQoKICAgIHByaXZhdGUgdmFyIG1haW5BeGlzTGF5b3V0U2l6ZTogSW50ID0gVW5zZXQKICAgIHByaXZhdGUgdmFyIG1pbk1haW5BeGlzT2Zmc2V0OiBJbnQgPSAwCiAgICBwcml2YXRlIHZhciBtYXhNYWluQXhpc09mZnNldDogSW50ID0gMAoKICAgIC8vIG9wdGltaXplZCBmb3Igc3RvcmluZyB4IGFuZCB5IG9mZnNldHMgZm9yIGVhY2ggcGxhY2VhYmxlIG9uZSBieSBvbmUuCiAgICAvLyBhcnJheSdzIHNpemUgPT0gcGxhY2VhYmxlcy5zaXplICogMiwgZmlyc3Qgd2Ugc3RvcmUgeCwgdGhlbiB5LgogICAgcHJpdmF0ZSB2YWwgcGxhY2VhYmxlT2Zmc2V0czogSW50QXJyYXkKCiAgICBpbml0IHsKICAgICAgICB2YXIgbWFpbkF4aXNTaXplID0gMAogICAgICAgIHZhciBtYXhDcm9zc0F4aXMgPSAwCiAgICAgICAgcGxhY2VhYmxlcy5mYXN0Rm9yRWFjaCB7CiAgICAgICAgICAgIG1haW5BeGlzU2l6ZSArPSBpZiAoaXNWZXJ0aWNhbCkgaXQuaGVpZ2h0IGVsc2UgaXQud2lkdGgKICAgICAgICAgICAgbWF4Q3Jvc3NBeGlzID0gbWF4T2YobWF4Q3Jvc3NBeGlzLCBpZiAoIWlzVmVydGljYWwpIGl0LmhlaWdodCBlbHNlIGl0LndpZHRoKQogICAgICAgIH0KICAgICAgICBzaXplID0gbWFpbkF4aXNTaXplCiAgICAgICAgbWFpbkF4aXNTaXplV2l0aFNwYWNpbmdzID0gKHNpemUgKyBzcGFjaW5nKS5jb2VyY2VBdExlYXN0KDApCiAgICAgICAgY3Jvc3NBeGlzU2l6ZSA9IG1heENyb3NzQXhpcwogICAgICAgIHBsYWNlYWJsZU9mZnNldHMgPSBJbnRBcnJheShwbGFjZWFibGVzLnNpemUgKiAyKQogICAgfQoKICAgIG92ZXJyaWRlIHZhbCBwbGFjZWFibGVzQ291bnQ6IEludAogICAgICAgIGdldCgpID0gcGxhY2VhYmxlcy5zaXplCgogICAgb3ZlcnJpZGUgZnVuIGdldFBhcmVudERhdGEoaW5kZXg6IEludCkgPSBwbGFjZWFibGVzW2luZGV4XS5wYXJlbnREYXRhCgogICAgb3ZlcnJpZGUgZnVuIHBvc2l0aW9uKAogICAgICAgIG1haW5BeGlzT2Zmc2V0OiBJbnQsCiAgICAgICAgY3Jvc3NBeGlzT2Zmc2V0OiBJbnQsCiAgICAgICAgbGF5b3V0V2lkdGg6IEludCwKICAgICAgICBsYXlvdXRIZWlnaHQ6IEludCwKICAgICkgewogICAgICAgIHBvc2l0aW9uKG1haW5BeGlzT2Zmc2V0LCBsYXlvdXRXaWR0aCwgbGF5b3V0SGVpZ2h0KQogICAgfQoKICAgIC8qKgogICAgICogQ2FsY3VsYXRlcyBwb3NpdGlvbnMgZm9yIHRoZSBpbm5lciBwbGFjZWFibGVzIGF0IFttYWluQXhpc09mZnNldF0gbWFpbiBheGlzIHBvc2l0aW9uLiBJZgogICAgICogW3JldmVyc2VPcmRlcl0gaXMgdHJ1ZSB0aGUgaW5uZXIgcGxhY2VhYmxlcyB3b3VsZCBiZSBwbGFjZWQgaW4gdGhlIGludmVydGVkIG9yZGVyLgogICAgICovCiAgICBmdW4gcG9zaXRpb24obWFpbkF4aXNPZmZzZXQ6IEludCwgbGF5b3V0V2lkdGg6IEludCwgbGF5b3V0SGVpZ2h0OiBJbnQpIHsKICAgICAgICB0aGlzLm9mZnNldCA9IG1haW5BeGlzT2Zmc2V0CiAgICAgICAgbWFpbkF4aXNMYXlvdXRTaXplID0gaWYgKGlzVmVydGljYWwpIGxheW91dEhlaWdodCBlbHNlIGxheW91dFdpZHRoCiAgICAgICAgQFN1cHByZXNzKCJOQU1FX1NIQURPV0lORyIpIHZhciBtYWluQXhpc09mZnNldCA9IG1haW5BeGlzT2Zmc2V0CiAgICAgICAgcGxhY2VhYmxlcy5mYXN0Rm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgcGxhY2VhYmxlIC0+CiAgICAgICAgICAgIHZhbCBpbmRleEluQXJyYXkgPSBpbmRleCAqIDIKICAgICAgICAgICAgaWYgKGlzVmVydGljYWwpIHsKICAgICAgICAgICAgICAgIHBsYWNlYWJsZU9mZnNldHNbaW5kZXhJbkFycmF5XSA9CiAgICAgICAgICAgICAgICAgICAgcmVxdWlyZVByZWNvbmRpdGlvbk5vdE51bGwoaG9yaXpvbnRhbEFsaWdubWVudCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgIm51bGwgaG9yaXpvbnRhbEFsaWdubWVudCB3aGVuIGlzVmVydGljYWwgPT0gdHJ1ZSIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAuYWxpZ24ocGxhY2VhYmxlLndpZHRoLCBsYXlvdXRXaWR0aCwgbGF5b3V0RGlyZWN0aW9uKQogICAgICAgICAgICAgICAgcGxhY2VhYmxlT2Zmc2V0c1tpbmRleEluQXJyYXkgKyAxXSA9IG1haW5BeGlzT2Zmc2V0CiAgICAgICAgICAgICAgICBtYWluQXhpc09mZnNldCArPSBwbGFjZWFibGUuaGVpZ2h0CiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBwbGFjZWFibGVPZmZzZXRzW2luZGV4SW5BcnJheV0gPSBtYWluQXhpc09mZnNldAogICAgICAgICAgICAgICAgcGxhY2VhYmxlT2Zmc2V0c1tpbmRleEluQXJyYXkgKyAxXSA9CiAgICAgICAgICAgICAgICAgICAgcmVxdWlyZVByZWNvbmRpdGlvbk5vdE51bGwodmVydGljYWxBbGlnbm1lbnQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJudWxsIHZlcnRpY2FsQWxpZ25tZW50IHdoZW4gaXNWZXJ0aWNhbCA9PSBmYWxzZSIKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAuYWxpZ24ocGxhY2VhYmxlLmhlaWdodCwgbGF5b3V0SGVpZ2h0KQogICAgICAgICAgICAgICAgbWFpbkF4aXNPZmZzZXQgKz0gcGxhY2VhYmxlLndpZHRoCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgbWluTWFpbkF4aXNPZmZzZXQgPSAtYmVmb3JlQ29udGVudFBhZGRpbmcKICAgICAgICBtYXhNYWluQXhpc09mZnNldCA9IG1haW5BeGlzTGF5b3V0U2l6ZSArIGFmdGVyQ29udGVudFBhZGRpbmcKICAgIH0KCiAgICAvKioKICAgICAqIFVwZGF0ZSBhIFttYWluQXhpc0xheW91dFNpemVdIHdoZW4gdGhlIHNpemUgZGlkIGNoYW5nZSBhZnRlciBsYXN0IFtwb3NpdGlvbl0gY2FsbC4gS25vd2luZwogICAgICogdGhlIGZpbmFsIHNpemUgaXMgaW1wb3J0YW50IGZvciBjYWxjdWxhdGluZyB0aGUgZmluYWwgcG9zaXRpb24gaW4gcmV2ZXJzZSBsYXlvdXQuCiAgICAgKi8KICAgIGZ1biB1cGRhdGVNYWluQXhpc0xheW91dFNpemUobWFpbkF4aXNMYXlvdXRTaXplOiBJbnQpIHsKICAgICAgICB0aGlzLm1haW5BeGlzTGF5b3V0U2l6ZSA9IG1haW5BeGlzTGF5b3V0U2l6ZQogICAgICAgIG1heE1haW5BeGlzT2Zmc2V0ID0gbWFpbkF4aXNMYXlvdXRTaXplICsgYWZ0ZXJDb250ZW50UGFkZGluZwogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBnZXRPZmZzZXQoaW5kZXg6IEludCkgPQogICAgICAgIGlmIChpbmRleCA9PSAwICYmIHBsYWNlYWJsZXNDb3VudCA9PSAwKSB7CiAgICAgICAgICAgIGlmIChpc1ZlcnRpY2FsKSBJbnRPZmZzZXQoMCwgb2Zmc2V0KSBlbHNlIEludE9mZnNldChvZmZzZXQsIDApCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgSW50T2Zmc2V0KHBsYWNlYWJsZU9mZnNldHNbaW5kZXggKiAyXSwgcGxhY2VhYmxlT2Zmc2V0c1tpbmRleCAqIDIgKyAxXSkKICAgICAgICB9CgogICAgZnVuIGFwcGx5U2Nyb2xsRGVsdGEoZGVsdGE6IEludCwgdXBkYXRlQW5pbWF0aW9uczogQm9vbGVhbikgewogICAgICAgIGlmIChub25TY3JvbGxhYmxlSXRlbSkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgb2Zmc2V0ICs9IGRlbHRhCiAgICAgICAgcmVwZWF0KHBsYWNlYWJsZU9mZnNldHMuc2l6ZSkgeyBpbmRleCAtPgogICAgICAgICAgICAvLyBwbGFjZWFibGVPZmZzZXRzIGNvbnNpc3Qgb2YgeCBhbmQgeSBwYWlycyBmb3IgZWFjaCBwbGFjZWFibGUuCiAgICAgICAgICAgIC8vIGlmIGlzVmVydGljYWwgaXMgdHJ1ZSB0aGVuIHRoZSBtYWluIGF4aXMgb2Zmc2V0cyBhcmUgbG9jYXRlZCBhdCBpbmRleGVzIDEsIDMsIDUgZXRjLgogICAgICAgICAgICAvLyAxIHdoZW4gb2RkLCAwIHdoZW4gZXZlbgogICAgICAgICAgICB2YWwgb2RkRXZlbiA9IGluZGV4IGFuZCAxCiAgICAgICAgICAgIGlmICgoaXNWZXJ0aWNhbCAmJiBvZGRFdmVuICE9IDApIHx8ICghaXNWZXJ0aWNhbCAmJiBvZGRFdmVuID09IDApKSB7CiAgICAgICAgICAgICAgICBwbGFjZWFibGVPZmZzZXRzW2luZGV4XSArPSBkZWx0YQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmICh1cGRhdGVBbmltYXRpb25zKSB7CiAgICAgICAgICAgIHJlcGVhdChwbGFjZWFibGVzQ291bnQpIHsgaW5kZXggLT4KICAgICAgICAgICAgICAgIHZhbCBhbmltYXRpb24gPSBhbmltYXRvci5nZXRBbmltYXRpb24oa2V5LCBpbmRleCkKICAgICAgICAgICAgICAgIGlmIChhbmltYXRpb24gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbi5yYXdPZmZzZXQgPSBhbmltYXRpb24ucmF3T2Zmc2V0LmNvcHkgeyBtYWluQXhpcyAtPiBtYWluQXhpcyArIGRlbHRhIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gcGxhY2Uoc2NvcGU6IFBsYWNlYWJsZS5QbGFjZW1lbnRTY29wZSwgaXNMb29raW5nQWhlYWQ6IEJvb2xlYW4pID0KICAgICAgICB3aXRoKHNjb3BlKSB7CiAgICAgICAgICAgIHJlcXVpcmVQcmVjb25kaXRpb24obWFpbkF4aXNMYXlvdXRTaXplICE9IFVuc2V0KSB7ICJwb3NpdGlvbigpIHNob3VsZCBiZSBjYWxsZWQgZmlyc3QiIH0KICAgICAgICAgICAgcmVwZWF0KHBsYWNlYWJsZXNDb3VudCkgeyBpbmRleCAtPgogICAgICAgICAgICAgICAgdmFsIHBsYWNlYWJsZSA9IHBsYWNlYWJsZXNbaW5kZXhdCiAgICAgICAgICAgICAgICB2YWwgbWluT2Zmc2V0ID0gbWluTWFpbkF4aXNPZmZzZXQgLSBwbGFjZWFibGUubWFpbkF4aXNTaXplCiAgICAgICAgICAgICAgICB2YWwgbWF4T2Zmc2V0ID0gbWF4TWFpbkF4aXNPZmZzZXQKICAgICAgICAgICAgICAgIHZhciBvZmZzZXQgPSBnZXRPZmZzZXQoaW5kZXgpCiAgICAgICAgICAgICAgICB2YWwgYW5pbWF0aW9uID0gYW5pbWF0b3IuZ2V0QW5pbWF0aW9uKGtleSwgaW5kZXgpCiAgICAgICAgICAgICAgICB2YWwgbGF5ZXI6IEdyYXBoaWNzTGF5ZXI/CiAgICAgICAgICAgICAgICBpZiAoYW5pbWF0aW9uICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBpZiAoaXNMb29raW5nQWhlYWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gU2tpcCBhbmltYXRpb24gaW4gbG9va2FoZWFkIHBhc3MKICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLmxvb2thaGVhZE9mZnNldCA9IG9mZnNldAogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCB0YXJnZXRPZmZzZXQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGFuaW1hdGlvbi5sb29rYWhlYWRPZmZzZXQgIT0gTm90SW5pdGlhbGl6ZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24ubG9va2FoZWFkT2Zmc2V0CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9mZnNldAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgYW5pbWF0ZWRPZmZzZXQgPSB0YXJnZXRPZmZzZXQgKyBhbmltYXRpb24ucGxhY2VtZW50RGVsdGEKICAgICAgICAgICAgICAgICAgICAgICAgLy8gY2FuY2VsIHRoZSBhbmltYXRpb24gaWYgY3VycmVudCBhbmQgdGFyZ2V0IG9mZnNldHMgYXJlIGJvdGggb3V0IG9mIHRoZQogICAgICAgICAgICAgICAgICAgICAgICAvLyBib3VuZHMKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKHRhcmdldE9mZnNldC5tYWluQXhpcyA8PSBtaW5PZmZzZXQgJiYKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRlZE9mZnNldC5tYWluQXhpcyA8PSBtaW5PZmZzZXQpIHx8CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKHRhcmdldE9mZnNldC5tYWluQXhpcyA+PSBtYXhPZmZzZXQgJiYKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0ZWRPZmZzZXQubWFpbkF4aXMgPj0gbWF4T2Zmc2V0KQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbi5jYW5jZWxQbGFjZW1lbnRBbmltYXRpb24oKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIG9mZnNldCA9IGFuaW1hdGVkT2Zmc2V0CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGxheWVyID0gYW5pbWF0aW9uLmxheWVyCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGxheWVyID0gbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKHJldmVyc2VMYXlvdXQpIHsKICAgICAgICAgICAgICAgICAgICBvZmZzZXQgPQogICAgICAgICAgICAgICAgICAgICAgICBvZmZzZXQuY29weSB7IG1haW5BeGlzT2Zmc2V0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYWluQXhpc0xheW91dFNpemUgLSBtYWluQXhpc09mZnNldCAtIHBsYWNlYWJsZS5tYWluQXhpc1NpemUKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgb2Zmc2V0ICs9IHZpc3VhbE9mZnNldAogICAgICAgICAgICAgICAgaWYgKCFpc0xvb2tpbmdBaGVhZCkgewogICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbj8uZmluYWxPZmZzZXQgPSBvZmZzZXQKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChpc1ZlcnRpY2FsKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGxheWVyICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2VhYmxlLnBsYWNlV2l0aExheWVyKG9mZnNldCwgbGF5ZXIpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2VhYmxlLnBsYWNlV2l0aExheWVyKG9mZnNldCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGlmIChsYXllciAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHBsYWNlYWJsZS5wbGFjZVJlbGF0aXZlV2l0aExheWVyKG9mZnNldCwgbGF5ZXIpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGxhY2VhYmxlLnBsYWNlUmVsYXRpdmVXaXRoTGF5ZXIob2Zmc2V0KQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICBwcml2YXRlIHZhbCBJbnRPZmZzZXQubWFpbkF4aXMKICAgICAgICBnZXQoKSA9IGlmIChpc1ZlcnRpY2FsKSB5IGVsc2UgeAoKICAgIHByaXZhdGUgdmFsIFBsYWNlYWJsZS5tYWluQXhpc1NpemUKICAgICAgICBnZXQoKSA9IGlmIChpc1ZlcnRpY2FsKSBoZWlnaHQgZWxzZSB3aWR0aAoKICAgIHByaXZhdGUgaW5saW5lIGZ1biBJbnRPZmZzZXQuY29weShtYWluQXhpc01hcDogKEludCkgLT4gSW50KTogSW50T2Zmc2V0ID0KICAgICAgICBpZiAoaXNWZXJ0aWNhbCkgSW50T2Zmc2V0KHgsIG1haW5BeGlzTWFwKHkpKSBlbHNlIEludE9mZnNldChtYWluQXhpc01hcCh4KSwgeSkKfQoKcHJpdmF0ZSBjb25zdCB2YWwgVW5zZXQgPSBJbnQuTUlOX1ZBTFVFCg==
+/*
+ * Copyright 2020 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.internal.requirePrecondition
+import androidx.compose.foundation.internal.requirePreconditionNotNull
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutItemAnimation.Companion.NotInitialized
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutItemAnimator
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutMeasuredItem
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.graphics.layer.GraphicsLayer
+import androidx.compose.ui.layout.Placeable
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.IntOffset
+import androidx.compose.ui.unit.LayoutDirection
+import androidx.compose.ui.util.fastForEach
+import androidx.compose.ui.util.fastForEachIndexed
+
+/**
+ * Represents one measured item of the lazy list. It can in fact consist of multiple placeables if
+ * the user emit multiple layout nodes in the item callback.
+ */
+internal class LazyListMeasuredItem
+constructor(
+    override val index: Int,
+    private val placeables: List<Placeable>,
+    override val isVertical: Boolean,
+    private val horizontalAlignment: Alignment.Horizontal?,
+    private val verticalAlignment: Alignment.Vertical?,
+    private val layoutDirection: LayoutDirection,
+    private val reverseLayout: Boolean,
+    private val beforeContentPadding: Int,
+    private val afterContentPadding: Int,
+    /**
+     * Extra spacing to be added to [size] aside from the sum of the [placeables] size. It is
+     * usually representing the spacing after the item.
+     */
+    private val spacing: Int,
+    /**
+     * The offset which shouldn't affect any calculations but needs to be applied for the final
+     * value passed into the place() call.
+     */
+    private val visualOffset: IntOffset,
+    override val key: Any,
+    override val contentType: Any?,
+    private val animator: LazyLayoutItemAnimator<LazyListMeasuredItem>,
+    override val constraints: Constraints,
+) : LazyListItemInfo, LazyLayoutMeasuredItem {
+    override var offset: Int = 0
+        private set
+
+    /** Sum of the main axis sizes of all the inner placeables. */
+    override val size: Int
+
+    /** In lists we only have one lane. */
+    override val lane: Int = 0
+    /** And each item takes one span. */
+    override val span: Int = 1
+
+    /** Sum of the main axis sizes of all the inner placeables and [spacing]. */
+    override val mainAxisSizeWithSpacings: Int
+
+    /** Max of the cross axis sizes of all the inner placeables. */
+    val crossAxisSize: Int
+
+    /**
+     * True when this item is not supposted to react on scroll delta. for example sticky header, or
+     * items being animated away out of the bounds are non scrollable.
+     */
+    override var nonScrollableItem: Boolean = false
+
+    private var mainAxisLayoutSize: Int = Unset
+    private var minMainAxisOffset: Int = 0
+    private var maxMainAxisOffset: Int = 0
+
+    // optimized for storing x and y offsets for each placeable one by one.
+    // array's size == placeables.size * 2, first we store x, then y.
+    private val placeableOffsets: IntArray
+
+    init {
+        var mainAxisSize = 0
+        var maxCrossAxis = 0
+        placeables.fastForEach {
+            mainAxisSize += if (isVertical) it.height else it.width
+            maxCrossAxis = maxOf(maxCrossAxis, if (!isVertical) it.height else it.width)
+        }
+        size = mainAxisSize
+        mainAxisSizeWithSpacings = (size + spacing).coerceAtLeast(0)
+        crossAxisSize = maxCrossAxis
+        placeableOffsets = IntArray(placeables.size * 2)
+    }
+
+    override val placeablesCount: Int
+        get() = placeables.size
+
+    override fun getParentData(index: Int) = placeables[index].parentData
+
+    override fun position(
+        mainAxisOffset: Int,
+        crossAxisOffset: Int,
+        layoutWidth: Int,
+        layoutHeight: Int,
+    ) {
+        position(mainAxisOffset, layoutWidth, layoutHeight)
+    }
+
+    /**
+     * Calculates positions for the inner placeables at [mainAxisOffset] main axis position. If
+     * [reverseOrder] is true the inner placeables would be placed in the inverted order.
+     */
+    fun position(mainAxisOffset: Int, layoutWidth: Int, layoutHeight: Int) {
+        this.offset = mainAxisOffset
+        mainAxisLayoutSize = if (isVertical) layoutHeight else layoutWidth
+        @Suppress("NAME_SHADOWING") var mainAxisOffset = mainAxisOffset
+        placeables.fastForEachIndexed { index, placeable ->
+            val indexInArray = index * 2
+            if (isVertical) {
+                placeableOffsets[indexInArray] =
+                    requirePreconditionNotNull(horizontalAlignment) {
+                            "null horizontalAlignment when isVertical == true"
+                        }
+                        .align(placeable.width, layoutWidth, layoutDirection)
+                placeableOffsets[indexInArray + 1] = mainAxisOffset
+                mainAxisOffset += placeable.height
+            } else {
+                placeableOffsets[indexInArray] = mainAxisOffset
+                placeableOffsets[indexInArray + 1] =
+                    requirePreconditionNotNull(verticalAlignment) {
+                            "null verticalAlignment when isVertical == false"
+                        }
+                        .align(placeable.height, layoutHeight)
+                mainAxisOffset += placeable.width
+            }
+        }
+        minMainAxisOffset = -beforeContentPadding
+        maxMainAxisOffset = mainAxisLayoutSize + afterContentPadding
+    }
+
+    /**
+     * Update a [mainAxisLayoutSize] when the size did change after last [position] call. Knowing
+     * the final size is important for calculating the final position in reverse layout.
+     */
+    fun updateMainAxisLayoutSize(mainAxisLayoutSize: Int) {
+        this.mainAxisLayoutSize = mainAxisLayoutSize
+        maxMainAxisOffset = mainAxisLayoutSize + afterContentPadding
+    }
+
+    override fun getOffset(index: Int) =
+        if (index == 0 && placeablesCount == 0) {
+            if (isVertical) IntOffset(0, offset) else IntOffset(offset, 0)
+        } else {
+            IntOffset(placeableOffsets[index * 2], placeableOffsets[index * 2 + 1])
+        }
+
+    fun applyScrollDelta(delta: Int, updateAnimations: Boolean) {
+        if (nonScrollableItem) {
+            return
+        }
+        offset += delta
+        repeat(placeableOffsets.size) { index ->
+            // placeableOffsets consist of x and y pairs for each placeable.
+            // if isVertical is true then the main axis offsets are located at indexes 1, 3, 5 etc.
+            // 1 when odd, 0 when even
+            val oddEven = index and 1
+            if ((isVertical && oddEven != 0) || (!isVertical && oddEven == 0)) {
+                placeableOffsets[index] += delta
+            }
+        }
+        if (updateAnimations) {
+            repeat(placeablesCount) { index ->
+                val animation = animator.getAnimation(key, index)
+                if (animation != null) {
+                    animation.rawOffset = animation.rawOffset.copy { mainAxis -> mainAxis + delta }
+                }
+            }
+        }
+    }
+
+    fun place(scope: Placeable.PlacementScope, isLookingAhead: Boolean) =
+        with(scope) {
+            requirePrecondition(mainAxisLayoutSize != Unset) { "position() should be called first" }
+            repeat(placeablesCount) { index ->
+                val placeable = placeables[index]
+                val minOffset = minMainAxisOffset - placeable.mainAxisSize
+                val maxOffset = maxMainAxisOffset
+                var offset = getOffset(index)
+                val animation = animator.getAnimation(key, index)
+                val layer: GraphicsLayer?
+                if (animation != null) {
+                    if (isLookingAhead) {
+                        // Skip animation in lookahead pass
+                        animation.lookaheadOffset = offset
+                    } else {
+                        val targetOffset =
+                            if (animation.lookaheadOffset != NotInitialized) {
+                                animation.lookaheadOffset
+                            } else {
+                                offset
+                            }
+                        val animatedOffset = targetOffset + animation.placementDelta
+                        // cancel the animation if current and target offsets are both out of the
+                        // bounds
+                        if (
+                            (targetOffset.mainAxis <= minOffset &&
+                                animatedOffset.mainAxis <= minOffset) ||
+                                (targetOffset.mainAxis >= maxOffset &&
+                                    animatedOffset.mainAxis >= maxOffset)
+                        ) {
+                            animation.cancelPlacementAnimation()
+                        }
+                        offset = animatedOffset
+                    }
+                    layer = animation.layer
+                } else {
+                    layer = null
+                }
+                if (reverseLayout) {
+                    offset =
+                        offset.copy { mainAxisOffset ->
+                            mainAxisLayoutSize - mainAxisOffset - placeable.mainAxisSize
+                        }
+                }
+                offset += visualOffset
+                if (!isLookingAhead) {
+                    animation?.finalOffset = offset
+                }
+                if (isVertical) {
+                    if (layer != null) {
+                        placeable.placeWithLayer(offset, layer)
+                    } else {
+                        placeable.placeWithLayer(offset)
+                    }
+                } else {
+                    if (layer != null) {
+                        placeable.placeRelativeWithLayer(offset, layer)
+                    } else {
+                        placeable.placeRelativeWithLayer(offset)
+                    }
+                }
+            }
+        }
+
+    private val IntOffset.mainAxis
+        get() = if (isVertical) y else x
+
+    private val Placeable.mainAxisSize
+        get() = if (isVertical) height else width
+
+    private inline fun IntOffset.copy(mainAxisMap: (Int) -> Int): IntOffset =
+        if (isVertical) IntOffset(x, mainAxisMap(y)) else IntOffset(mainAxisMap(x), y)
+}
+
+private const val Unset = Int.MIN_VALUE

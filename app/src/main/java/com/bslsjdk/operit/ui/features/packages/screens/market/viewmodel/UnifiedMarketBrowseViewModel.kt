@@ -1,1 +1,374 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucy5tYXJrZXQudmlld21vZGVsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWwKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWxQcm92aWRlcgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0U3RhdHNBcGlTZXJ2aWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0VjJFbnRyeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLk1hcmtldFYyTWFuaWZlc3RDYXRlZ29yeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLk1hcmtldFYyTm90aWZpY2F0aW9uCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5BSVRvb2xIYW5kbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5QYWNrYWdlTWFuYWdlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5NYXJrZXRFbnRyeUluc3RhbGxDb250cm9sbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0Lk1hcmtldEluc3RhbGxQcm9ncmVzcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5NYXJrZXRJbnN0YWxsU3RhdGVTdG9yZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5NYXJrZXRMb2NhbEluc3RhbGxTdGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5NYXJrZXRTb3J0T3B0aW9uCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0LnJlc29sdmVNYXJrZXRMb2NhbEluc3RhbGxTdGF0ZXMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5wYWNrYWdlcy5tYXJrZXQudG9SYW5rTWV0cmljCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU2hhcmluZ1N0YXJ0ZWQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmNvbWJpbmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LnN0YXRlSW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKZW51bSBjbGFzcyBVbmlmaWVkTWFya2V0TGlzdFNjb3BlIHsKICAgIEFMTCwKICAgIFRZUEUsCiAgICBDQVRFR09SWSwKICAgIFRZUEVfQ0FURUdPUlkKfQoKZGF0YSBjbGFzcyBVbmlmaWVkTWFya2V0QnJvd3NlU2NvcGUoCiAgICB2YWwga2luZDogVW5pZmllZE1hcmtldExpc3RTY29wZSwKICAgIHZhbCBjYXRlZ29yeUlkOiBTdHJpbmcgPSAiIiwKICAgIHZhbCB0eXBlOiBTdHJpbmcgPSAiIgopIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHZhbCBBbGwgPSBVbmlmaWVkTWFya2V0QnJvd3NlU2NvcGUoa2luZCA9IFVuaWZpZWRNYXJrZXRMaXN0U2NvcGUuQUxMKQoKICAgICAgICBmdW4gdHlwZSh0eXBlOiBTdHJpbmcpOiBVbmlmaWVkTWFya2V0QnJvd3NlU2NvcGUgewogICAgICAgICAgICByZXR1cm4gVW5pZmllZE1hcmtldEJyb3dzZVNjb3BlKAogICAgICAgICAgICAgICAga2luZCA9IFVuaWZpZWRNYXJrZXRMaXN0U2NvcGUuVFlQRSwKICAgICAgICAgICAgICAgIHR5cGUgPSB0eXBlCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIGZ1biBjYXRlZ29yeShjYXRlZ29yeUlkOiBTdHJpbmcpOiBVbmlmaWVkTWFya2V0QnJvd3NlU2NvcGUgewogICAgICAgICAgICByZXR1cm4gVW5pZmllZE1hcmtldEJyb3dzZVNjb3BlKAogICAgICAgICAgICAgICAga2luZCA9IFVuaWZpZWRNYXJrZXRMaXN0U2NvcGUuQ0FURUdPUlksCiAgICAgICAgICAgICAgICBjYXRlZ29yeUlkID0gY2F0ZWdvcnlJZAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICBmdW4gdHlwZUNhdGVnb3J5KHR5cGU6IFN0cmluZywgY2F0ZWdvcnlJZDogU3RyaW5nKTogVW5pZmllZE1hcmtldEJyb3dzZVNjb3BlIHsKICAgICAgICAgICAgcmV0dXJuIFVuaWZpZWRNYXJrZXRCcm93c2VTY29wZSgKICAgICAgICAgICAgICAgIGtpbmQgPSBVbmlmaWVkTWFya2V0TGlzdFNjb3BlLlRZUEVfQ0FURUdPUlksCiAgICAgICAgICAgICAgICBjYXRlZ29yeUlkID0gY2F0ZWdvcnlJZCwKICAgICAgICAgICAgICAgIHR5cGUgPSB0eXBlCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCmNsYXNzIFVuaWZpZWRNYXJrZXRCcm93c2VWaWV3TW9kZWwoCiAgICBwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0LAogICAgcHJpdmF0ZSB2YWwgYnJvd3NlU2NvcGU6IFVuaWZpZWRNYXJrZXRCcm93c2VTY29wZQopIDogVmlld01vZGVsKCkgewogICAgcHJpdmF0ZSB2YWwgbWFya2V0QXBpU2VydmljZSA9IE1hcmtldFN0YXRzQXBpU2VydmljZSgpCiAgICBwcml2YXRlIHZhbCBpbnN0YWxsQ29udHJvbGxlciA9IE1hcmtldEVudHJ5SW5zdGFsbENvbnRyb2xsZXIoY29udGV4dCwgbWFya2V0QXBpU2VydmljZSkKICAgIHByaXZhdGUgdmFsIHBhY2thZ2VNYW5hZ2VyID0KICAgICAgICBQYWNrYWdlTWFuYWdlci5nZXRJbnN0YW5jZShjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCwgQUlUb29sSGFuZGxlci5nZXRJbnN0YW5jZShjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkpCgogICAgcHJpdmF0ZSB2YWwgX2lzTG9hZGluZyA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICB2YWwgaXNMb2FkaW5nOiBTdGF0ZUZsb3c8Qm9vbGVhbj4gPSBfaXNMb2FkaW5nLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfaXNMb2FkaW5nTW9yZSA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICB2YWwgaXNMb2FkaW5nTW9yZTogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2lzTG9hZGluZ01vcmUuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9oYXNNb3JlID0gTXV0YWJsZVN0YXRlRmxvdyh0cnVlKQogICAgdmFsIGhhc01vcmU6IFN0YXRlRmxvdzxCb29sZWFuPiA9IF9oYXNNb3JlLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfZXJyb3JNZXNzYWdlID0gTXV0YWJsZVN0YXRlRmxvdzxTdHJpbmc/PihudWxsKQogICAgdmFsIGVycm9yTWVzc2FnZTogU3RhdGVGbG93PFN0cmluZz8+ID0gX2Vycm9yTWVzc2FnZS5hc1N0YXRlRmxvdygpCgogICAgdmFsIGluc3RhbGxTdGF0ZXM6IFN0YXRlRmxvdzxNYXA8U3RyaW5nLCBNYXJrZXRJbnN0YWxsUHJvZ3Jlc3M+PiA9IE1hcmtldEluc3RhbGxTdGF0ZVN0b3JlLmluc3RhbGxTdGF0ZXMKICAgIHByaXZhdGUgdmFsIF9sb2NhbEluc3RhbGxTdGF0ZXMgPSBNdXRhYmxlU3RhdGVGbG93PE1hcDxTdHJpbmcsIE1hcmtldExvY2FsSW5zdGFsbFN0YXRlPj4oZW1wdHlNYXAoKSkKICAgIHZhbCBsb2NhbEluc3RhbGxTdGF0ZXM6IFN0YXRlRmxvdzxNYXA8U3RyaW5nLCBNYXJrZXRMb2NhbEluc3RhbGxTdGF0ZT4+ID0gX2xvY2FsSW5zdGFsbFN0YXRlcy5hc1N0YXRlRmxvdygpCiAgICBwcml2YXRlIHZhbCBfc2VhcmNoUXVlcnkgPSBNdXRhYmxlU3RhdGVGbG93KCIiKQogICAgdmFsIHNlYXJjaFF1ZXJ5OiBTdGF0ZUZsb3c8U3RyaW5nPiA9IF9zZWFyY2hRdWVyeS5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX3NvcnRPcHRpb24gPSBNdXRhYmxlU3RhdGVGbG93KE1hcmtldFNvcnRPcHRpb24uVVBEQVRFRCkKICAgIHZhbCBzb3J0T3B0aW9uOiBTdGF0ZUZsb3c8TWFya2V0U29ydE9wdGlvbj4gPSBfc29ydE9wdGlvbi5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX2ZlYXR1cmVkT25seSA9IE11dGFibGVTdGF0ZUZsb3codHJ1ZSkKICAgIHZhbCBmZWF0dXJlZE9ubHk6IFN0YXRlRmxvdzxCb29sZWFuPiA9IF9mZWF0dXJlZE9ubHkuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9lbnRyaWVzID0gTXV0YWJsZVN0YXRlRmxvdzxMaXN0PE1hcmtldFYyRW50cnk+PihlbXB0eUxpc3QoKSkKICAgIHByaXZhdGUgdmFsIF9jYXRlZ29yaWVzID0gTXV0YWJsZVN0YXRlRmxvdzxMaXN0PE1hcmtldFYyTWFuaWZlc3RDYXRlZ29yeT4+KGVtcHR5TGlzdCgpKQogICAgdmFsIGNhdGVnb3JpZXM6IFN0YXRlRmxvdzxMaXN0PE1hcmtldFYyTWFuaWZlc3RDYXRlZ29yeT4+ID0gX2NhdGVnb3JpZXMuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9ub3RpZmljYXRpb25zID0gTXV0YWJsZVN0YXRlRmxvdzxMaXN0PE1hcmtldFYyTm90aWZpY2F0aW9uPj4oZW1wdHlMaXN0KCkpCiAgICB2YWwgbm90aWZpY2F0aW9uczogU3RhdGVGbG93PExpc3Q8TWFya2V0VjJOb3RpZmljYXRpb24+PiA9IF9ub3RpZmljYXRpb25zLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfbGlzdFNjcm9sbEluZGV4ID0gTXV0YWJsZVN0YXRlRmxvdygwKQogICAgdmFsIGxpc3RTY3JvbGxJbmRleDogU3RhdGVGbG93PEludD4gPSBfbGlzdFNjcm9sbEluZGV4LmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfbGlzdFNjcm9sbE9mZnNldCA9IE11dGFibGVTdGF0ZUZsb3coMCkKICAgIHZhbCBsaXN0U2Nyb2xsT2Zmc2V0OiBTdGF0ZUZsb3c8SW50PiA9IF9saXN0U2Nyb2xsT2Zmc2V0LmFzU3RhdGVGbG93KCkKCiAgICB2YWwgZW50cmllczogU3RhdGVGbG93PExpc3Q8TWFya2V0VjJFbnRyeT4+ID0KICAgICAgICBjb21iaW5lKF9lbnRyaWVzLCBfc2VhcmNoUXVlcnksIF9mZWF0dXJlZE9ubHkpIHsgZW50cmllcywgcXVlcnksIGZlYXR1cmVkT25seSAtPgogICAgICAgICAgICB2YWwgdHJpbW1lZFF1ZXJ5ID0gcXVlcnkudHJpbSgpCiAgICAgICAgICAgIHZhciBmaWx0ZXJlZCA9IGVudHJpZXMKICAgICAgICAgICAgaWYgKCF0cmltbWVkUXVlcnkuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICBmaWx0ZXJlZCA9IGZpbHRlcmVkLmZpbHRlciB7IGVudHJ5IC0+CiAgICAgICAgICAgICAgICAgICAgZW50cnkudGl0bGUuY29udGFpbnModHJpbW1lZFF1ZXJ5LCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkuZGVzY3JpcHRpb24uY29udGFpbnModHJpbW1lZFF1ZXJ5LCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkuZGV0YWlsLmNvbnRhaW5zKHRyaW1tZWRRdWVyeSwgaWdub3JlQ2FzZSA9IHRydWUpIHx8CiAgICAgICAgICAgICAgICAgICAgICAgIGVudHJ5LmNhdGVnb3J5SWQuY29udGFpbnModHJpbW1lZFF1ZXJ5LCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwKICAgICAgICAgICAgICAgICAgICAgICAgZW50cnkudHlwZS5jb250YWlucyh0cmltbWVkUXVlcnksIGlnbm9yZUNhc2UgPSB0cnVlKSB8fAogICAgICAgICAgICAgICAgICAgICAgICBlbnRyeS5wdWJsaXNoZXJMb2dpbigpLmNvbnRhaW5zKHRyaW1tZWRRdWVyeSwgaWdub3JlQ2FzZSA9IHRydWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKGZlYXR1cmVkT25seSkgewogICAgICAgICAgICAgICAgZmlsdGVyZWQgPSBmaWx0ZXJlZC5maWx0ZXIgeyBpdC5mZWF0dXJlZCB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZmlsdGVyZWQKICAgICAgICB9LnN0YXRlSW4oCiAgICAgICAgICAgIHNjb3BlID0gdmlld01vZGVsU2NvcGUsCiAgICAgICAgICAgIHN0YXJ0ZWQgPSBTaGFyaW5nU3RhcnRlZC5XaGlsZVN1YnNjcmliZWQoNTAwMCksCiAgICAgICAgICAgIGluaXRpYWxWYWx1ZSA9IGVtcHR5TGlzdCgpCiAgICAgICAgKQoKICAgIHByaXZhdGUgdmFyIGN1cnJlbnRQYWdlID0gMQogICAgcHJpdmF0ZSB2YXIgdG90YWxQYWdlcyA9IDEKICAgIHByaXZhdGUgdmFyIGhhc0xvYWRlZEVudHJpZXMgPSBmYWxzZQogICAgZnVuIG9uU2VhcmNoUXVlcnlDaGFuZ2VkKHF1ZXJ5OiBTdHJpbmcpIHsKICAgICAgICBfc2VhcmNoUXVlcnkudmFsdWUgPSBxdWVyeQogICAgfQoKICAgIGZ1biBvblNvcnRPcHRpb25DaGFuZ2VkKG9wdGlvbjogTWFya2V0U29ydE9wdGlvbikgewogICAgICAgIGlmIChfc29ydE9wdGlvbi52YWx1ZSA9PSBvcHRpb24pIHJldHVybgogICAgICAgIF9zb3J0T3B0aW9uLnZhbHVlID0gb3B0aW9uCiAgICAgICAgbG9hZEVudHJpZXMoKQogICAgfQoKICAgIGZ1biBvbkZlYXR1cmVkT25seUNoYW5nZWQoZW5hYmxlZDogQm9vbGVhbikgewogICAgICAgIGlmIChfZmVhdHVyZWRPbmx5LnZhbHVlID09IGVuYWJsZWQpIHJldHVybgogICAgICAgIF9mZWF0dXJlZE9ubHkudmFsdWUgPSBlbmFibGVkCiAgICB9CgogICAgZnVuIGxvYWRNYW5pZmVzdCgpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBtYXJrZXRBcGlTZXJ2aWNlLmdldE1hbmlmZXN0KCkuZm9sZCgKICAgICAgICAgICAgICAgIG9uU3VjY2VzcyA9IHsgbWFuaWZlc3QgLT4KICAgICAgICAgICAgICAgICAgICBfY2F0ZWdvcmllcy52YWx1ZSA9IG1hbmlmZXN0LmNhdGVnb3JpZXMuZmlsdGVyIHsgaXQuaWQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBvbkZhaWx1cmUgPSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGVycm9yLm1lc3NhZ2UgPzogIkZhaWxlZCB0byBsb2FkIG1hcmtldCBtYW5pZmVzdCIKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gbG9hZCBtYXJrZXQgbWFuaWZlc3QiLCBlcnJvcikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gbG9hZEVudHJpZXMoKSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IHRydWUKICAgICAgICAgICAgX2lzTG9hZGluZ01vcmUudmFsdWUgPSBmYWxzZQogICAgICAgICAgICBfaGFzTW9yZS52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBudWxsCiAgICAgICAgICAgIGN1cnJlbnRQYWdlID0gMQogICAgICAgICAgICB0b3RhbFBhZ2VzID0gMQoKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGxvYWRQYWdlKHBhZ2UgPSAxKS5mb2xkKAogICAgICAgICAgICAgICAgICAgIG9uU3VjY2VzcyA9IHsgcGFnZSAtPgogICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50UGFnZSA9IHBhZ2UucGFnZQogICAgICAgICAgICAgICAgICAgICAgICB0b3RhbFBhZ2VzID0gcGFnZS50b3RhbFBhZ2VzLmNvZXJjZUF0TGVhc3QoMSkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGxvYWRlZEVudHJpZXMgPSBwYWdlLml0ZW1zLm1hcCB7IGl0LmVudHJ5IH0ub3JkZXJlZEZvckN1cnJlbnRTb3J0KCkKICAgICAgICAgICAgICAgICAgICAgICAgX2VudHJpZXMudmFsdWUgPSBsb2FkZWRFbnRyaWVzCiAgICAgICAgICAgICAgICAgICAgICAgIHJlZnJlc2hMb2NhbEluc3RhbGxTdGF0ZXMobG9hZGVkRW50cmllcykKICAgICAgICAgICAgICAgICAgICAgICAgX2hhc01vcmUudmFsdWUgPSBjdXJyZW50UGFnZSA8IHRvdGFsUGFnZXMKICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIG9uRmFpbHVyZSA9IHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgICAgICAgICAgX2VudHJpZXMudmFsdWUgPSBlbXB0eUxpc3QoKQogICAgICAgICAgICAgICAgICAgICAgICBfaGFzTW9yZS52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBlcnJvci5tZXNzYWdlID86ICJGYWlsZWQgdG8gbG9hZCBtYXJrZXQgbGlzdCIKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGxvYWQgbWFya2V0IGxpc3QiLCBlcnJvcikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBoYXNMb2FkZWRFbnRyaWVzID0gdHJ1ZQogICAgICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGxvYWRFbnRyaWVzSWZOZWVkZWQoKSB7CiAgICAgICAgaWYgKGhhc0xvYWRlZEVudHJpZXMgfHwgX2lzTG9hZGluZy52YWx1ZSkgcmV0dXJuCiAgICAgICAgbG9hZEVudHJpZXMoKQogICAgfQoKICAgIGZ1biB1cGRhdGVMaXN0U2Nyb2xsUG9zaXRpb24oaW5kZXg6IEludCwgb2Zmc2V0OiBJbnQpIHsKICAgICAgICBfbGlzdFNjcm9sbEluZGV4LnZhbHVlID0gaW5kZXgKICAgICAgICBfbGlzdFNjcm9sbE9mZnNldC52YWx1ZSA9IG9mZnNldAogICAgfQoKICAgIGZ1biBsb2FkTW9yZUVudHJpZXMoKSB7CiAgICAgICAgaWYgKF9zZWFyY2hRdWVyeS52YWx1ZS5pc05vdEJsYW5rKCkgfHwgX2lzTG9hZGluZy52YWx1ZSB8fCBfaXNMb2FkaW5nTW9yZS52YWx1ZSB8fCAhX2hhc01vcmUudmFsdWUpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBfaXNMb2FkaW5nTW9yZS52YWx1ZSA9IHRydWUKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGxvYWRQYWdlKHBhZ2UgPSBjdXJyZW50UGFnZSArIDEpLmZvbGQoCiAgICAgICAgICAgICAgICAgICAgb25TdWNjZXNzID0geyBwYWdlIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnJlbnRQYWdlID0gcGFnZS5wYWdlCiAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFsUGFnZXMgPSBwYWdlLnRvdGFsUGFnZXMuY29lcmNlQXRMZWFzdCgxKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgbG9hZGVkRW50cmllcyA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAoX2VudHJpZXMudmFsdWUgKyBwYWdlLml0ZW1zLm1hcCB7IGl0LmVudHJ5IH0pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmRpc3RpbmN0QnkgeyBpdC5pZCB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLm9yZGVyZWRGb3JDdXJyZW50U29ydCgpCiAgICAgICAgICAgICAgICAgICAgICAgIF9lbnRyaWVzLnZhbHVlID0gbG9hZGVkRW50cmllcwogICAgICAgICAgICAgICAgICAgICAgICByZWZyZXNoTG9jYWxJbnN0YWxsU3RhdGVzKGxvYWRlZEVudHJpZXMpCiAgICAgICAgICAgICAgICAgICAgICAgIF9oYXNNb3JlLnZhbHVlID0gY3VycmVudFBhZ2UgPCB0b3RhbFBhZ2VzCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICBvbkZhaWx1cmUgPSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIF9oYXNNb3JlLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGVycm9yLm1lc3NhZ2UgPzogIkZhaWxlZCB0byBsb2FkIG1vcmUgbWFya2V0IGVudHJpZXMiCiAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBsb2FkIG1vcmUgbWFya2V0IGVudHJpZXMiLCBlcnJvcikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBfaXNMb2FkaW5nTW9yZS52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGxvYWROb3RpZmljYXRpb25zKCkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIF9pc0xvYWRpbmcudmFsdWUgPSB0cnVlCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBtYXJrZXRBcGlTZXJ2aWNlLmdldE5vdGlmaWNhdGlvbnMobGltaXQgPSA1MCwgb2Zmc2V0ID0gMCkuZm9sZCgKICAgICAgICAgICAgICAgICAgICBvblN1Y2Nlc3MgPSB7IF9ub3RpZmljYXRpb25zLnZhbHVlID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICBvbkZhaWx1cmUgPSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBlcnJvci5tZXNzYWdlID86ICJGYWlsZWQgdG8gbG9hZCBtYXJrZXQgbm90aWZpY2F0aW9ucyIKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGxvYWQgbWFya2V0IG5vdGlmaWNhdGlvbnMiLCBlcnJvcikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICBfaXNMb2FkaW5nLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gaW5zdGFsbEVudHJ5KGVudHJ5OiBNYXJrZXRWMkVudHJ5KSB7CiAgICAgICAgdmFsIGVudHJ5SWQgPSBlbnRyeS5pZC50cmltKCkKICAgICAgICBpZiAoIU1hcmtldEluc3RhbGxTdGF0ZVN0b3JlLnN0YXJ0KGVudHJ5SWQpKSByZXR1cm4KICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gbnVsbAogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgaW5zdGFsbENvbnRyb2xsZXIuaW5zdGFsbChlbnRyeSkgeyBzdGFnZSwgcHJvZ3Jlc3MgLT4KICAgICAgICAgICAgICAgICAgICBNYXJrZXRJbnN0YWxsU3RhdGVTdG9yZS51cGRhdGUoZW50cnlJZCwgc3RhZ2UsIHByb2dyZXNzKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBlLm1lc3NhZ2UgPzogIkZhaWxlZCB0byBpbnN0YWxsIG1hcmtldCBlbnRyeSIKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBpbnN0YWxsIG1hcmtldCBlbnRyeSAke2VudHJ5LmlkfSIsIGUpCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICByZWZyZXNoTG9jYWxJbnN0YWxsU3RhdGVzKF9lbnRyaWVzLnZhbHVlKQogICAgICAgICAgICAgICAgTWFya2V0SW5zdGFsbFN0YXRlU3RvcmUuZmluaXNoKGVudHJ5SWQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGNsZWFyRXJyb3IoKSB7CiAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IG51bGwKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGxvYWRQYWdlKHBhZ2U6IEludCkgPQogICAgICAgIHdoZW4gKGJyb3dzZVNjb3BlLmtpbmQpIHsKICAgICAgICAgICAgVW5pZmllZE1hcmtldExpc3RTY29wZS5BTEwgLT4KICAgICAgICAgICAgICAgIG1hcmtldEFwaVNlcnZpY2UuZ2V0QWxsUmFua1BhZ2UoCiAgICAgICAgICAgICAgICAgICAgbWV0cmljID0gX3NvcnRPcHRpb24udmFsdWUudG9SYW5rTWV0cmljKCksCiAgICAgICAgICAgICAgICAgICAgcGFnZSA9IHBhZ2UKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgIFVuaWZpZWRNYXJrZXRMaXN0U2NvcGUuVFlQRSAtPgogICAgICAgICAgICAgICAgbWFya2V0QXBpU2VydmljZS5nZXRUeXBlUmFua1BhZ2UoCiAgICAgICAgICAgICAgICAgICAgdHlwZSA9IGJyb3dzZVNjb3BlLnR5cGUsCiAgICAgICAgICAgICAgICAgICAgbWV0cmljID0gX3NvcnRPcHRpb24udmFsdWUudG9SYW5rTWV0cmljKCksCiAgICAgICAgICAgICAgICAgICAgcGFnZSA9IHBhZ2UKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgIFVuaWZpZWRNYXJrZXRMaXN0U2NvcGUuQ0FURUdPUlkgLT4KICAgICAgICAgICAgICAgIG1hcmtldEFwaVNlcnZpY2UuZ2V0Q2F0ZWdvcnlSYW5rUGFnZSgKICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeUlkID0gYnJvd3NlU2NvcGUuY2F0ZWdvcnlJZCwKICAgICAgICAgICAgICAgICAgICBtZXRyaWMgPSBfc29ydE9wdGlvbi52YWx1ZS50b1JhbmtNZXRyaWMoKSwKICAgICAgICAgICAgICAgICAgICBwYWdlID0gcGFnZQogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgVW5pZmllZE1hcmtldExpc3RTY29wZS5UWVBFX0NBVEVHT1JZIC0+CiAgICAgICAgICAgICAgICBtYXJrZXRBcGlTZXJ2aWNlLmdldFR5cGVkQ2F0ZWdvcnlSYW5rUGFnZSgKICAgICAgICAgICAgICAgICAgICB0eXBlID0gYnJvd3NlU2NvcGUudHlwZSwKICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeUlkID0gYnJvd3NlU2NvcGUuY2F0ZWdvcnlJZCwKICAgICAgICAgICAgICAgICAgICBtZXRyaWMgPSBfc29ydE9wdGlvbi52YWx1ZS50b1JhbmtNZXRyaWMoKSwKICAgICAgICAgICAgICAgICAgICBwYWdlID0gcGFnZQogICAgICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHJlZnJlc2hMb2NhbEluc3RhbGxTdGF0ZXMoZW50cmllczogTGlzdDxNYXJrZXRWMkVudHJ5PikgewogICAgICAgIGlmIChlbnRyaWVzLmlzRW1wdHkoKSkgewogICAgICAgICAgICBfbG9jYWxJbnN0YWxsU3RhdGVzLnZhbHVlID0gZW1wdHlNYXAoKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgX2xvY2FsSW5zdGFsbFN0YXRlcy52YWx1ZSA9CiAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICByZXNvbHZlTWFya2V0TG9jYWxJbnN0YWxsU3RhdGVzKAogICAgICAgICAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCwKICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTWFuYWdlciA9IHBhY2thZ2VNYW5hZ2VyLAogICAgICAgICAgICAgICAgICAgIGVudHJpZXMgPSBlbnRyaWVzCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgIH0KCiAgICBjbGFzcyBGYWN0b3J5KAogICAgICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgcHJpdmF0ZSB2YWwgYnJvd3NlU2NvcGU6IFVuaWZpZWRNYXJrZXRCcm93c2VTY29wZQogICAgKSA6IFZpZXdNb2RlbFByb3ZpZGVyLkZhY3RvcnkgewogICAgICAgIG92ZXJyaWRlIGZ1biA8VCA6IFZpZXdNb2RlbD4gY3JlYXRlKG1vZGVsQ2xhc3M6IENsYXNzPFQ+KTogVCB7CiAgICAgICAgICAgIGlmIChtb2RlbENsYXNzLmlzQXNzaWduYWJsZUZyb20oVW5pZmllZE1hcmtldEJyb3dzZVZpZXdNb2RlbDo6Y2xhc3MuamF2YSkpIHsKICAgICAgICAgICAgICAgIEBTdXBwcmVzcygiVU5DSEVDS0VEX0NBU1QiKQogICAgICAgICAgICAgICAgcmV0dXJuIFVuaWZpZWRNYXJrZXRCcm93c2VWaWV3TW9kZWwoY29udGV4dCwgYnJvd3NlU2NvcGUpIGFzIFQKICAgICAgICAgICAgfQogICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIlVua25vd24gVmlld01vZGVsIGNsYXNzIikKICAgICAgICB9CiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlVuaWZpZWRNYXJrZXRCcm93c2VWTSIKICAgIH0KCiAgICBwcml2YXRlIGZ1biBMaXN0PE1hcmtldFYyRW50cnk+Lm9yZGVyZWRGb3JDdXJyZW50U29ydCgpOiBMaXN0PE1hcmtldFYyRW50cnk+IHsKICAgICAgICByZXR1cm4gd2hlbiAoX3NvcnRPcHRpb24udmFsdWUpIHsKICAgICAgICAgICAgTWFya2V0U29ydE9wdGlvbi5VUERBVEVEIC0+IHNvcnRlZEJ5RGVzY2VuZGluZyB7IGl0LnVwZGF0ZWRUaW1lc3RhbXAoKSB9CiAgICAgICAgICAgIE1hcmtldFNvcnRPcHRpb24uRE9XTkxPQURTIC0+IHNvcnRlZEJ5RGVzY2VuZGluZyB7IGl0LnN0YXRzPy5kb3dubG9hZHMgPzogaXQuZG93bmxvYWRDb3VudC50YWtlSWYgeyBjb3VudCAtPiBjb3VudCA+IDAgfSA/OiBpdC5kb3dubG9hZHMgfQogICAgICAgICAgICBNYXJrZXRTb3J0T3B0aW9uLkxJS0VTIC0+IHNvcnRlZEJ5RGVzY2VuZGluZyB7IGl0Lmxpa2VDb3VudCgpIH0KICAgICAgICB9CiAgICB9Cn0KCnByaXZhdGUgZnVuIE1hcmtldFYyRW50cnkucHVibGlzaGVyTG9naW4oKTogU3RyaW5nIHsKICAgIHJldHVybiBwdWJsaXNoZXI/LmxvZ2luPy5pZkJsYW5rIHsgYXV0aG9yPy5sb2dpbi5vckVtcHR5KCkgfQogICAgICAgID8uaWZCbGFuayB7IHB1Ymxpc2hlcklkLnJlbW92ZVByZWZpeCgiZ2hfIikuaWZCbGFuayB7IGF1dGhvcklkLnJlbW92ZVByZWZpeCgiZ2hfIikgfSB9CiAgICAgICAgLm9yRW1wdHkoKQp9Cgpwcml2YXRlIGZ1biBNYXJrZXRWMkVudHJ5LnVwZGF0ZWRUaW1lc3RhbXAoKTogU3RyaW5nIHsKICAgIHJldHVybiB1cGRhdGVkQXQgPzogcHVibGlzaGVkQXQgPzogY3JlYXRlZEF0Lm9yRW1wdHkoKQp9Cgpwcml2YXRlIGZ1biBNYXJrZXRWMkVudHJ5Lmxpa2VDb3VudCgpOiBJbnQgewogICAgcmV0dXJuIHN0YXRzPy5saWtlcyA/OiByZWFjdGlvbnMuc3VtT2YgeyByZWFjdGlvbiAtPgogICAgICAgIHZhbCBrZXkgPSByZWFjdGlvbi5yZWFjdGlvbi5pZkJsYW5rIHsgcmVhY3Rpb24uY29udGVudCB9CiAgICAgICAgaWYgKGtleSA9PSAiKzEiIHx8IGtleS5lcXVhbHMoImxpa2UiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHJlYWN0aW9uLnRvdGFsLmNvZXJjZUF0TGVhc3QoMSkgZWxzZSAwCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.packages.screens.market.viewmodel
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.data.api.MarketStatsApiService
+import com.bslsjdk.operit.data.api.MarketV2Entry
+import com.bslsjdk.operit.data.api.MarketV2ManifestCategory
+import com.bslsjdk.operit.data.api.MarketV2Notification
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.ui.features.packages.market.MarketEntryInstallController
+import com.bslsjdk.operit.ui.features.packages.market.MarketInstallProgress
+import com.bslsjdk.operit.ui.features.packages.market.MarketInstallStateStore
+import com.bslsjdk.operit.ui.features.packages.market.MarketLocalInstallState
+import com.bslsjdk.operit.ui.features.packages.market.MarketSortOption
+import com.bslsjdk.operit.ui.features.packages.market.resolveMarketLocalInstallStates
+import com.bslsjdk.operit.ui.features.packages.market.toRankMetric
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+enum class UnifiedMarketListScope {
+    ALL,
+    TYPE,
+    CATEGORY,
+    TYPE_CATEGORY
+}
+
+data class UnifiedMarketBrowseScope(
+    val kind: UnifiedMarketListScope,
+    val categoryId: String = "",
+    val type: String = ""
+) {
+    companion object {
+        val All = UnifiedMarketBrowseScope(kind = UnifiedMarketListScope.ALL)
+
+        fun type(type: String): UnifiedMarketBrowseScope {
+            return UnifiedMarketBrowseScope(
+                kind = UnifiedMarketListScope.TYPE,
+                type = type
+            )
+        }
+
+        fun category(categoryId: String): UnifiedMarketBrowseScope {
+            return UnifiedMarketBrowseScope(
+                kind = UnifiedMarketListScope.CATEGORY,
+                categoryId = categoryId
+            )
+        }
+
+        fun typeCategory(type: String, categoryId: String): UnifiedMarketBrowseScope {
+            return UnifiedMarketBrowseScope(
+                kind = UnifiedMarketListScope.TYPE_CATEGORY,
+                categoryId = categoryId,
+                type = type
+            )
+        }
+    }
+}
+
+class UnifiedMarketBrowseViewModel(
+    private val context: Context,
+    private val browseScope: UnifiedMarketBrowseScope
+) : ViewModel() {
+    private val marketApiService = MarketStatsApiService()
+    private val installController = MarketEntryInstallController(context, marketApiService)
+    private val packageManager =
+        PackageManager.getInstance(context.applicationContext, AIToolHandler.getInstance(context.applicationContext))
+
+    private val _isLoading = MutableStateFlow(false)
+    val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
+
+    private val _isLoadingMore = MutableStateFlow(false)
+    val isLoadingMore: StateFlow<Boolean> = _isLoadingMore.asStateFlow()
+
+    private val _hasMore = MutableStateFlow(true)
+    val hasMore: StateFlow<Boolean> = _hasMore.asStateFlow()
+
+    private val _errorMessage = MutableStateFlow<String?>(null)
+    val errorMessage: StateFlow<String?> = _errorMessage.asStateFlow()
+
+    val installStates: StateFlow<Map<String, MarketInstallProgress>> = MarketInstallStateStore.installStates
+    private val _localInstallStates = MutableStateFlow<Map<String, MarketLocalInstallState>>(emptyMap())
+    val localInstallStates: StateFlow<Map<String, MarketLocalInstallState>> = _localInstallStates.asStateFlow()
+    private val _searchQuery = MutableStateFlow("")
+    val searchQuery: StateFlow<String> = _searchQuery.asStateFlow()
+
+    private val _sortOption = MutableStateFlow(MarketSortOption.UPDATED)
+    val sortOption: StateFlow<MarketSortOption> = _sortOption.asStateFlow()
+
+    private val _featuredOnly = MutableStateFlow(true)
+    val featuredOnly: StateFlow<Boolean> = _featuredOnly.asStateFlow()
+
+    private val _entries = MutableStateFlow<List<MarketV2Entry>>(emptyList())
+    private val _categories = MutableStateFlow<List<MarketV2ManifestCategory>>(emptyList())
+    val categories: StateFlow<List<MarketV2ManifestCategory>> = _categories.asStateFlow()
+
+    private val _notifications = MutableStateFlow<List<MarketV2Notification>>(emptyList())
+    val notifications: StateFlow<List<MarketV2Notification>> = _notifications.asStateFlow()
+
+    private val _listScrollIndex = MutableStateFlow(0)
+    val listScrollIndex: StateFlow<Int> = _listScrollIndex.asStateFlow()
+
+    private val _listScrollOffset = MutableStateFlow(0)
+    val listScrollOffset: StateFlow<Int> = _listScrollOffset.asStateFlow()
+
+    val entries: StateFlow<List<MarketV2Entry>> =
+        combine(_entries, _searchQuery, _featuredOnly) { entries, query, featuredOnly ->
+            val trimmedQuery = query.trim()
+            var filtered = entries
+            if (!trimmedQuery.isBlank()) {
+                filtered = filtered.filter { entry ->
+                    entry.title.contains(trimmedQuery, ignoreCase = true) ||
+                        entry.description.contains(trimmedQuery, ignoreCase = true) ||
+                        entry.detail.contains(trimmedQuery, ignoreCase = true) ||
+                        entry.categoryId.contains(trimmedQuery, ignoreCase = true) ||
+                        entry.type.contains(trimmedQuery, ignoreCase = true) ||
+                        entry.publisherLogin().contains(trimmedQuery, ignoreCase = true)
+                }
+            }
+            if (featuredOnly) {
+                filtered = filtered.filter { it.featured }
+            }
+            filtered
+        }.stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000),
+            initialValue = emptyList()
+        )
+
+    private var currentPage = 1
+    private var totalPages = 1
+    private var hasLoadedEntries = false
+    fun onSearchQueryChanged(query: String) {
+        _searchQuery.value = query
+    }
+
+    fun onSortOptionChanged(option: MarketSortOption) {
+        if (_sortOption.value == option) return
+        _sortOption.value = option
+        loadEntries()
+    }
+
+    fun onFeaturedOnlyChanged(enabled: Boolean) {
+        if (_featuredOnly.value == enabled) return
+        _featuredOnly.value = enabled
+    }
+
+    fun loadManifest() {
+        viewModelScope.launch {
+            marketApiService.getManifest().fold(
+                onSuccess = { manifest ->
+                    _categories.value = manifest.categories.filter { it.id.isNotBlank() }
+                },
+                onFailure = { error ->
+                    _errorMessage.value = error.message ?: "Failed to load market manifest"
+                    AppLogger.e(TAG, "Failed to load market manifest", error)
+                }
+            )
+        }
+    }
+
+    fun loadEntries() {
+        viewModelScope.launch {
+            _isLoading.value = true
+            _isLoadingMore.value = false
+            _hasMore.value = false
+            _errorMessage.value = null
+            currentPage = 1
+            totalPages = 1
+
+            try {
+                loadPage(page = 1).fold(
+                    onSuccess = { page ->
+                        currentPage = page.page
+                        totalPages = page.totalPages.coerceAtLeast(1)
+                        val loadedEntries = page.items.map { it.entry }.orderedForCurrentSort()
+                        _entries.value = loadedEntries
+                        refreshLocalInstallStates(loadedEntries)
+                        _hasMore.value = currentPage < totalPages
+                    },
+                    onFailure = { error ->
+                        _entries.value = emptyList()
+                        _hasMore.value = false
+                        _errorMessage.value = error.message ?: "Failed to load market list"
+                        AppLogger.e(TAG, "Failed to load market list", error)
+                    }
+                )
+            } finally {
+                hasLoadedEntries = true
+                _isLoading.value = false
+            }
+        }
+    }
+
+    fun loadEntriesIfNeeded() {
+        if (hasLoadedEntries || _isLoading.value) return
+        loadEntries()
+    }
+
+    fun updateListScrollPosition(index: Int, offset: Int) {
+        _listScrollIndex.value = index
+        _listScrollOffset.value = offset
+    }
+
+    fun loadMoreEntries() {
+        if (_searchQuery.value.isNotBlank() || _isLoading.value || _isLoadingMore.value || !_hasMore.value) {
+            return
+        }
+
+        viewModelScope.launch {
+            _isLoadingMore.value = true
+            try {
+                loadPage(page = currentPage + 1).fold(
+                    onSuccess = { page ->
+                        currentPage = page.page
+                        totalPages = page.totalPages.coerceAtLeast(1)
+                        val loadedEntries =
+                            (_entries.value + page.items.map { it.entry })
+                                .distinctBy { it.id }
+                                .orderedForCurrentSort()
+                        _entries.value = loadedEntries
+                        refreshLocalInstallStates(loadedEntries)
+                        _hasMore.value = currentPage < totalPages
+                    },
+                    onFailure = { error ->
+                        _hasMore.value = false
+                        _errorMessage.value = error.message ?: "Failed to load more market entries"
+                        AppLogger.e(TAG, "Failed to load more market entries", error)
+                    }
+                )
+            } finally {
+                _isLoadingMore.value = false
+            }
+        }
+    }
+
+    fun loadNotifications() {
+        viewModelScope.launch {
+            _isLoading.value = true
+            try {
+                marketApiService.getNotifications(limit = 50, offset = 0).fold(
+                    onSuccess = { _notifications.value = it },
+                    onFailure = { error ->
+                        _errorMessage.value = error.message ?: "Failed to load market notifications"
+                        AppLogger.e(TAG, "Failed to load market notifications", error)
+                    }
+                )
+            } finally {
+                _isLoading.value = false
+            }
+        }
+    }
+
+    fun installEntry(entry: MarketV2Entry) {
+        val entryId = entry.id.trim()
+        if (!MarketInstallStateStore.start(entryId)) return
+        viewModelScope.launch {
+            _errorMessage.value = null
+            try {
+                installController.install(entry) { stage, progress ->
+                    MarketInstallStateStore.update(entryId, stage, progress)
+                }
+            } catch (e: Exception) {
+                _errorMessage.value = e.message ?: "Failed to install market entry"
+                AppLogger.e(TAG, "Failed to install market entry ${entry.id}", e)
+            } finally {
+                refreshLocalInstallStates(_entries.value)
+                MarketInstallStateStore.finish(entryId)
+            }
+        }
+    }
+
+    fun clearError() {
+        _errorMessage.value = null
+    }
+
+    private suspend fun loadPage(page: Int) =
+        when (browseScope.kind) {
+            UnifiedMarketListScope.ALL ->
+                marketApiService.getAllRankPage(
+                    metric = _sortOption.value.toRankMetric(),
+                    page = page
+                )
+
+            UnifiedMarketListScope.TYPE ->
+                marketApiService.getTypeRankPage(
+                    type = browseScope.type,
+                    metric = _sortOption.value.toRankMetric(),
+                    page = page
+                )
+
+            UnifiedMarketListScope.CATEGORY ->
+                marketApiService.getCategoryRankPage(
+                    categoryId = browseScope.categoryId,
+                    metric = _sortOption.value.toRankMetric(),
+                    page = page
+                )
+
+            UnifiedMarketListScope.TYPE_CATEGORY ->
+                marketApiService.getTypedCategoryRankPage(
+                    type = browseScope.type,
+                    categoryId = browseScope.categoryId,
+                    metric = _sortOption.value.toRankMetric(),
+                    page = page
+                )
+        }
+
+    private suspend fun refreshLocalInstallStates(entries: List<MarketV2Entry>) {
+        if (entries.isEmpty()) {
+            _localInstallStates.value = emptyMap()
+            return
+        }
+        _localInstallStates.value =
+            withContext(Dispatchers.IO) {
+                resolveMarketLocalInstallStates(
+                    context = context.applicationContext,
+                    packageManager = packageManager,
+                    entries = entries
+                )
+            }
+    }
+
+    class Factory(
+        private val context: Context,
+        private val browseScope: UnifiedMarketBrowseScope
+    ) : ViewModelProvider.Factory {
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(UnifiedMarketBrowseViewModel::class.java)) {
+                @Suppress("UNCHECKED_CAST")
+                return UnifiedMarketBrowseViewModel(context, browseScope) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+
+    companion object {
+        private const val TAG = "UnifiedMarketBrowseVM"
+    }
+
+    private fun List<MarketV2Entry>.orderedForCurrentSort(): List<MarketV2Entry> {
+        return when (_sortOption.value) {
+            MarketSortOption.UPDATED -> sortedByDescending { it.updatedTimestamp() }
+            MarketSortOption.DOWNLOADS -> sortedByDescending { it.stats?.downloads ?: it.downloadCount.takeIf { count -> count > 0 } ?: it.downloads }
+            MarketSortOption.LIKES -> sortedByDescending { it.likeCount() }
+        }
+    }
+}
+
+private fun MarketV2Entry.publisherLogin(): String {
+    return publisher?.login?.ifBlank { author?.login.orEmpty() }
+        ?.ifBlank { publisherId.removePrefix("gh_").ifBlank { authorId.removePrefix("gh_") } }
+        .orEmpty()
+}
+
+private fun MarketV2Entry.updatedTimestamp(): String {
+    return updatedAt ?: publishedAt ?: createdAt.orEmpty()
+}
+
+private fun MarketV2Entry.likeCount(): Int {
+    return stats?.likes ?: reactions.sumOf { reaction ->
+        val key = reaction.reaction.ifBlank { reaction.content }
+        if (key == "+1" || key.equals("like", ignoreCase = true)) reaction.total.coerceAtLeast(1) else 0
+    }
+}

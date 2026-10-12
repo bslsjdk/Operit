@@ -1,1 +1,130 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DbG91ZEVtYmVkZGluZ0NvbmZpZwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTWVtb3J5U2NvcmVNb2RlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5NZW1vcnlTZWFyY2hDb25maWcKCmNsYXNzIE1lbW9yeVNlYXJjaFNldHRpbmdzUHJlZmVyZW5jZXMoY29udGV4dDogQ29udGV4dCwgcHJvZmlsZUlkOiBTdHJpbmcpIHsKICAgIHByaXZhdGUgdmFsIHByb2ZpbGVJZCA9IHByb2ZpbGVJZAogICAgcHJpdmF0ZSB2YWwgc2VhcmNoUHJlZnMgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dC5nZXRTaGFyZWRQcmVmZXJlbmNlcygKICAgICAgICAibWVtb3J5X3NlYXJjaF9zZXR0aW5nc18kcHJvZmlsZUlkIiwKICAgICAgICBDb250ZXh0Lk1PREVfUFJJVkFURQogICAgKQogICAgcHJpdmF0ZSB2YWwgY2xvdWRQcmVmcyA9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LmdldFNoYXJlZFByZWZlcmVuY2VzKAogICAgICAgICJjbG91ZF9lbWJlZGRpbmdfc2V0dGluZ3NfJHByb2ZpbGVJZCIsCiAgICAgICAgQ29udGV4dC5NT0RFX1BSSVZBVEUKICAgICkKCiAgICBmdW4gbG9hZCgpOiBNZW1vcnlTZWFyY2hDb25maWcgewogICAgICAgIHZhbCBjb25maWcgPSBNZW1vcnlTZWFyY2hDb25maWcoCiAgICAgICAgICAgIHNjb3JlTW9kZSA9IE1lbW9yeVNjb3JlTW9kZS5lbnRyaWVzW3NlYXJjaFByZWZzLmdldEludChLRVlfU0NPUkVfTU9ERSwgTWVtb3J5U2NvcmVNb2RlLkJBTEFOQ0VELm9yZGluYWwpXSwKICAgICAgICAgICAga2V5d29yZFdlaWdodCA9IHNlYXJjaFByZWZzLmdldEZsb2F0KEtFWV9LRVlXT1JEX1dFSUdIVCwgMTAuMGYpLAogICAgICAgICAgICB0YWdXZWlnaHQgPSBzZWFyY2hQcmVmcy5nZXRGbG9hdChLRVlfVEFHX1dFSUdIVCwgMC4wZiksCiAgICAgICAgICAgIHZlY3RvcldlaWdodCA9IHNlYXJjaFByZWZzLmdldEZsb2F0KEtFWV9WRUNUT1JfV0VJR0hULCAwLjBmKSwKICAgICAgICAgICAgZWRnZVdlaWdodCA9IHNlYXJjaFByZWZzLmdldEZsb2F0KEtFWV9FREdFX1dFSUdIVCwgMC40ZikKICAgICAgICApCiAgICAgICAgcmV0dXJuIGNvbmZpZy5ub3JtYWxpemVkKCkKICAgIH0KCiAgICBmdW4gc2F2ZShjb25maWc6IE1lbW9yeVNlYXJjaENvbmZpZykgewogICAgICAgIHZhbCBub3JtYWxpemVkID0gY29uZmlnLm5vcm1hbGl6ZWQoKQogICAgICAgIHNlYXJjaFByZWZzLmVkaXQoKQogICAgICAgICAgICAucHV0SW50KEtFWV9TQ09SRV9NT0RFLCBub3JtYWxpemVkLnNjb3JlTW9kZS5vcmRpbmFsKQogICAgICAgICAgICAucHV0RmxvYXQoS0VZX0tFWVdPUkRfV0VJR0hULCBub3JtYWxpemVkLmtleXdvcmRXZWlnaHQpCiAgICAgICAgICAgIC5wdXRGbG9hdChLRVlfVEFHX1dFSUdIVCwgbm9ybWFsaXplZC50YWdXZWlnaHQpCiAgICAgICAgICAgIC5wdXRGbG9hdChLRVlfVkVDVE9SX1dFSUdIVCwgbm9ybWFsaXplZC52ZWN0b3JXZWlnaHQpCiAgICAgICAgICAgIC5wdXRGbG9hdChLRVlfRURHRV9XRUlHSFQsIG5vcm1hbGl6ZWQuZWRnZVdlaWdodCkKICAgICAgICAgICAgLmFwcGx5KCkKICAgIH0KCiAgICBmdW4gcmVzZXQoKSB7CiAgICAgICAgc2F2ZShNZW1vcnlTZWFyY2hDb25maWcoKSkKICAgIH0KCiAgICBmdW4gbG9hZEF1dG9TYXZlSW50ZXJ2YWxNaW51dGVzKCk6IEludCB7CiAgICAgICAgcmV0dXJuIHNlYXJjaFByZWZzLmdldEludChLRVlfQVVUT19TQVZFX0lOVEVSVkFMX01JTlVURVMsIERFRkFVTFRfQVVUT19TQVZFX0lOVEVSVkFMX01JTlVURVMpCiAgICAgICAgICAgIC5jb2VyY2VJbihNSU5fQVVUT19TQVZFX0lOVEVSVkFMX01JTlVURVMsIE1BWF9BVVRPX1NBVkVfSU5URVJWQUxfTUlOVVRFUykKICAgIH0KCiAgICBmdW4gc2F2ZUF1dG9TYXZlSW50ZXJ2YWxNaW51dGVzKG1pbnV0ZXM6IEludCkgewogICAgICAgIHZhbCBub3JtYWxpemVkID0KICAgICAgICAgICAgbWludXRlcy5jb2VyY2VJbihNSU5fQVVUT19TQVZFX0lOVEVSVkFMX01JTlVURVMsIE1BWF9BVVRPX1NBVkVfSU5URVJWQUxfTUlOVVRFUykKICAgICAgICBzZWFyY2hQcmVmcy5lZGl0KCkKICAgICAgICAgICAgLnB1dEludChLRVlfQVVUT19TQVZFX0lOVEVSVkFMX01JTlVURVMsIG5vcm1hbGl6ZWQpCiAgICAgICAgICAgIC5wdXRMb25nKAogICAgICAgICAgICAgICAgS0VZX05FWFRfQVVUT19TQVZFX1JVTl9BVF9NUywKICAgICAgICAgICAgICAgIFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpICsgbm9ybWFsaXplZCAqIDYwXzAwMEwKICAgICAgICAgICAgKQogICAgICAgICAgICAuYXBwbHkoKQogICAgfQoKICAgIGZ1biBsb2FkTWVtb3J5RXh0cmFjdGlvbkN1c3RvbVJ1bGVzKCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHJlcXVpcmVOb3ROdWxsKAogICAgICAgICAgICBzZWFyY2hQcmVmcy5nZXRTdHJpbmcoCiAgICAgICAgICAgICAgICBLRVlfTUVNT1JZX0VYVFJBQ1RJT05fQ1VTVE9NX1JVTEVTLAogICAgICAgICAgICAgICAgREVGQVVMVF9NRU1PUllfRVhUUkFDVElPTl9DVVNUT01fUlVMRVMKICAgICAgICAgICAgKQogICAgICAgICkgeyAiTWVtb3J5IGV4dHJhY3Rpb24gY3VzdG9tIHJ1bGVzIG11c3Qgbm90IGJlIG51bGwiIH0KICAgIH0KCiAgICBmdW4gc2F2ZU1lbW9yeUV4dHJhY3Rpb25DdXN0b21SdWxlcyhydWxlczogU3RyaW5nKSB7CiAgICAgICAgc2VhcmNoUHJlZnMuZWRpdCgpCiAgICAgICAgICAgIC5wdXRTdHJpbmcoS0VZX01FTU9SWV9FWFRSQUNUSU9OX0NVU1RPTV9SVUxFUywgcnVsZXMpCiAgICAgICAgICAgIC5hcHBseSgpCiAgICB9CgogICAgZnVuIGxvYWROZXh0QXV0b1NhdmVSdW5BdE1zKCk6IExvbmcgewogICAgICAgIHJldHVybiBzZWFyY2hQcmVmcy5nZXRMb25nKEtFWV9ORVhUX0FVVE9fU0FWRV9SVU5fQVRfTVMsIDBMKQogICAgfQoKICAgIGZ1biBzYXZlTmV4dEF1dG9TYXZlUnVuQXRNcyh0aW1lc3RhbXBNczogTG9uZykgewogICAgICAgIHNlYXJjaFByZWZzLmVkaXQoKQogICAgICAgICAgICAucHV0TG9uZyhLRVlfTkVYVF9BVVRPX1NBVkVfUlVOX0FUX01TLCB0aW1lc3RhbXBNcy5jb2VyY2VBdExlYXN0KDBMKSkKICAgICAgICAgICAgLmFwcGx5KCkKICAgIH0KCiAgICBmdW4gbG9hZENsb3VkRW1iZWRkaW5nKCk6IENsb3VkRW1iZWRkaW5nQ29uZmlnIHsKICAgICAgICByZXR1cm4gQ2xvdWRFbWJlZGRpbmdDb25maWcoCiAgICAgICAgICAgIGVuYWJsZWQgPSBjbG91ZFByZWZzLmdldEJvb2xlYW4oS0VZX0NMT1VEX0VOQUJMRUQsIGZhbHNlKSwKICAgICAgICAgICAgZW5kcG9pbnQgPSBjbG91ZFByZWZzLmdldFN0cmluZyhLRVlfQ0xPVURfRU5EUE9JTlQsICIiKSA/OiAiIiwKICAgICAgICAgICAgYXBpS2V5ID0gY2xvdWRQcmVmcy5nZXRTdHJpbmcoS0VZX0NMT1VEX0FQSV9LRVksICIiKSA/OiAiIiwKICAgICAgICAgICAgbW9kZWwgPSBjbG91ZFByZWZzLmdldFN0cmluZyhLRVlfQ0xPVURfTU9ERUwsICIiKSA/OiAiIgogICAgICAgICkubm9ybWFsaXplZCgpCiAgICB9CgogICAgZnVuIHNhdmVDbG91ZEVtYmVkZGluZyhjb25maWc6IENsb3VkRW1iZWRkaW5nQ29uZmlnKSB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBjb25maWcubm9ybWFsaXplZCgpCiAgICAgICAgY2xvdWRQcmVmcy5lZGl0KCkKICAgICAgICAgICAgLnB1dEJvb2xlYW4oS0VZX0NMT1VEX0VOQUJMRUQsIG5vcm1hbGl6ZWQuZW5hYmxlZCkKICAgICAgICAgICAgLnB1dFN0cmluZyhLRVlfQ0xPVURfRU5EUE9JTlQsIG5vcm1hbGl6ZWQuZW5kcG9pbnQpCiAgICAgICAgICAgIC5wdXRTdHJpbmcoS0VZX0NMT1VEX0FQSV9LRVksIG5vcm1hbGl6ZWQuYXBpS2V5KQogICAgICAgICAgICAucHV0U3RyaW5nKEtFWV9DTE9VRF9NT0RFTCwgbm9ybWFsaXplZC5tb2RlbCkKICAgICAgICAgICAgLmFwcGx5KCkKICAgIH0KCiAgICBmdW4gcmVzZXRDbG91ZEVtYmVkZGluZygpIHsKICAgICAgICBzYXZlQ2xvdWRFbWJlZGRpbmcoQ2xvdWRFbWJlZGRpbmdDb25maWcoKSkKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfU0NPUkVfTU9ERSA9ICJzY29yZV9tb2RlIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9LRVlXT1JEX1dFSUdIVCA9ICJrZXl3b3JkX3dlaWdodCIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfVEFHX1dFSUdIVCA9ICJ0YWdfd2VpZ2h0IgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9WRUNUT1JfV0VJR0hUID0gInZlY3Rvcl93ZWlnaHQiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgS0VZX0VER0VfV0VJR0hUID0gImVkZ2Vfd2VpZ2h0IgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9BVVRPX1NBVkVfSU5URVJWQUxfTUlOVVRFUyA9ICJhdXRvX3NhdmVfaW50ZXJ2YWxfbWludXRlcyIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfTkVYVF9BVVRPX1NBVkVfUlVOX0FUX01TID0gIm5leHRfYXV0b19zYXZlX3J1bl9hdF9tcyIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfTUVNT1JZX0VYVFJBQ1RJT05fQ1VTVE9NX1JVTEVTID0gIm1lbW9yeV9leHRyYWN0aW9uX2N1c3RvbV9ydWxlcyIKCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgS0VZX0NMT1VEX0VOQUJMRUQgPSAiZW5hYmxlZCIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfQ0xPVURfRU5EUE9JTlQgPSAiZW5kcG9pbnQiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgS0VZX0NMT1VEX0FQSV9LRVkgPSAiYXBpX2tleSIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBLRVlfQ0xPVURfTU9ERUwgPSAibW9kZWwiCgogICAgICAgIGNvbnN0IHZhbCBERUZBVUxUX0FVVE9fU0FWRV9JTlRFUlZBTF9NSU5VVEVTID0gNQogICAgICAgIGNvbnN0IHZhbCBNSU5fQVVUT19TQVZFX0lOVEVSVkFMX01JTlVURVMgPSAxCiAgICAgICAgY29uc3QgdmFsIE1BWF9BVVRPX1NBVkVfSU5URVJWQUxfTUlOVVRFUyA9IDMwCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfTUVNT1JZX0VYVFJBQ1RJT05fQ1VTVE9NX1JVTEVTID0gIiIKICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import com.bslsjdk.operit.data.model.CloudEmbeddingConfig
+import com.bslsjdk.operit.data.model.MemoryScoreMode
+import com.bslsjdk.operit.data.model.MemorySearchConfig
+
+class MemorySearchSettingsPreferences(context: Context, profileId: String) {
+    private val profileId = profileId
+    private val searchPrefs = context.applicationContext.getSharedPreferences(
+        "memory_search_settings_$profileId",
+        Context.MODE_PRIVATE
+    )
+    private val cloudPrefs = context.applicationContext.getSharedPreferences(
+        "cloud_embedding_settings_$profileId",
+        Context.MODE_PRIVATE
+    )
+
+    fun load(): MemorySearchConfig {
+        val config = MemorySearchConfig(
+            scoreMode = MemoryScoreMode.entries[searchPrefs.getInt(KEY_SCORE_MODE, MemoryScoreMode.BALANCED.ordinal)],
+            keywordWeight = searchPrefs.getFloat(KEY_KEYWORD_WEIGHT, 10.0f),
+            tagWeight = searchPrefs.getFloat(KEY_TAG_WEIGHT, 0.0f),
+            vectorWeight = searchPrefs.getFloat(KEY_VECTOR_WEIGHT, 0.0f),
+            edgeWeight = searchPrefs.getFloat(KEY_EDGE_WEIGHT, 0.4f)
+        )
+        return config.normalized()
+    }
+
+    fun save(config: MemorySearchConfig) {
+        val normalized = config.normalized()
+        searchPrefs.edit()
+            .putInt(KEY_SCORE_MODE, normalized.scoreMode.ordinal)
+            .putFloat(KEY_KEYWORD_WEIGHT, normalized.keywordWeight)
+            .putFloat(KEY_TAG_WEIGHT, normalized.tagWeight)
+            .putFloat(KEY_VECTOR_WEIGHT, normalized.vectorWeight)
+            .putFloat(KEY_EDGE_WEIGHT, normalized.edgeWeight)
+            .apply()
+    }
+
+    fun reset() {
+        save(MemorySearchConfig())
+    }
+
+    fun loadAutoSaveIntervalMinutes(): Int {
+        return searchPrefs.getInt(KEY_AUTO_SAVE_INTERVAL_MINUTES, DEFAULT_AUTO_SAVE_INTERVAL_MINUTES)
+            .coerceIn(MIN_AUTO_SAVE_INTERVAL_MINUTES, MAX_AUTO_SAVE_INTERVAL_MINUTES)
+    }
+
+    fun saveAutoSaveIntervalMinutes(minutes: Int) {
+        val normalized =
+            minutes.coerceIn(MIN_AUTO_SAVE_INTERVAL_MINUTES, MAX_AUTO_SAVE_INTERVAL_MINUTES)
+        searchPrefs.edit()
+            .putInt(KEY_AUTO_SAVE_INTERVAL_MINUTES, normalized)
+            .putLong(
+                KEY_NEXT_AUTO_SAVE_RUN_AT_MS,
+                System.currentTimeMillis() + normalized * 60_000L
+            )
+            .apply()
+    }
+
+    fun loadMemoryExtractionCustomRules(): String {
+        return requireNotNull(
+            searchPrefs.getString(
+                KEY_MEMORY_EXTRACTION_CUSTOM_RULES,
+                DEFAULT_MEMORY_EXTRACTION_CUSTOM_RULES
+            )
+        ) { "Memory extraction custom rules must not be null" }
+    }
+
+    fun saveMemoryExtractionCustomRules(rules: String) {
+        searchPrefs.edit()
+            .putString(KEY_MEMORY_EXTRACTION_CUSTOM_RULES, rules)
+            .apply()
+    }
+
+    fun loadNextAutoSaveRunAtMs(): Long {
+        return searchPrefs.getLong(KEY_NEXT_AUTO_SAVE_RUN_AT_MS, 0L)
+    }
+
+    fun saveNextAutoSaveRunAtMs(timestampMs: Long) {
+        searchPrefs.edit()
+            .putLong(KEY_NEXT_AUTO_SAVE_RUN_AT_MS, timestampMs.coerceAtLeast(0L))
+            .apply()
+    }
+
+    fun loadCloudEmbedding(): CloudEmbeddingConfig {
+        return CloudEmbeddingConfig(
+            enabled = cloudPrefs.getBoolean(KEY_CLOUD_ENABLED, false),
+            endpoint = cloudPrefs.getString(KEY_CLOUD_ENDPOINT, "") ?: "",
+            apiKey = cloudPrefs.getString(KEY_CLOUD_API_KEY, "") ?: "",
+            model = cloudPrefs.getString(KEY_CLOUD_MODEL, "") ?: ""
+        ).normalized()
+    }
+
+    fun saveCloudEmbedding(config: CloudEmbeddingConfig) {
+        val normalized = config.normalized()
+        cloudPrefs.edit()
+            .putBoolean(KEY_CLOUD_ENABLED, normalized.enabled)
+            .putString(KEY_CLOUD_ENDPOINT, normalized.endpoint)
+            .putString(KEY_CLOUD_API_KEY, normalized.apiKey)
+            .putString(KEY_CLOUD_MODEL, normalized.model)
+            .apply()
+    }
+
+    fun resetCloudEmbedding() {
+        saveCloudEmbedding(CloudEmbeddingConfig())
+    }
+
+    companion object {
+        private const val KEY_SCORE_MODE = "score_mode"
+        private const val KEY_KEYWORD_WEIGHT = "keyword_weight"
+        private const val KEY_TAG_WEIGHT = "tag_weight"
+        private const val KEY_VECTOR_WEIGHT = "vector_weight"
+        private const val KEY_EDGE_WEIGHT = "edge_weight"
+        private const val KEY_AUTO_SAVE_INTERVAL_MINUTES = "auto_save_interval_minutes"
+        private const val KEY_NEXT_AUTO_SAVE_RUN_AT_MS = "next_auto_save_run_at_ms"
+        private const val KEY_MEMORY_EXTRACTION_CUSTOM_RULES = "memory_extraction_custom_rules"
+
+        private const val KEY_CLOUD_ENABLED = "enabled"
+        private const val KEY_CLOUD_ENDPOINT = "endpoint"
+        private const val KEY_CLOUD_API_KEY = "api_key"
+        private const val KEY_CLOUD_MODEL = "model"
+
+        const val DEFAULT_AUTO_SAVE_INTERVAL_MINUTES = 5
+        const val MIN_AUTO_SAVE_INTERVAL_MINUTES = 1
+        const val MAX_AUTO_SAVE_INTERVAL_MINUTES = 30
+        const val DEFAULT_MEMORY_EXTRACTION_CUSTOM_RULES = ""
+    }
+}

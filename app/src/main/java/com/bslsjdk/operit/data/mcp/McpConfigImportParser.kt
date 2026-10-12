@@ -1,1 +1,166 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tY3AKCmltcG9ydCBjb20uZ29vZ2xlLmdzb24uSnNvbkVsZW1lbnQKaW1wb3J0IGNvbS5nb29nbGUuZ3Nvbi5Kc29uT2JqZWN0CmltcG9ydCBjb20uZ29vZ2xlLmdzb24uSnNvblBhcnNlcgoKLyoqIFBhcnNlZCBzdGFuZGFyZCBNQ1AgY29uZmlndXJhdGlvbiB1c2VkIGJ5IGJvdGggVUkgYW5kIG1hcmtldCBpbXBvcnRzLiAqLwppbnRlcm5hbCBkYXRhIGNsYXNzIE1jcENvbmZpZ0ltcG9ydCgKICAgIHZhbCBzZXJ2ZXJzOiBMaXN0PE1jcEltcG9ydGVkU2VydmVyPgopCgppbnRlcm5hbCBzZWFsZWQgaW50ZXJmYWNlIE1jcEltcG9ydGVkU2VydmVyIHsKICAgIHZhbCBpZDogU3RyaW5nCiAgICB2YWwgZGlzYWJsZWQ6IEJvb2xlYW4KfQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBTdGRpb01jcEltcG9ydGVkU2VydmVyKAogICAgb3ZlcnJpZGUgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgY29tbWFuZDogU3RyaW5nLAogICAgdmFsIGFyZ3M6IExpc3Q8U3RyaW5nPiwKICAgIHZhbCBlbnY6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICB2YWwgYXV0b0FwcHJvdmU6IExpc3Q8U3RyaW5nPiwKICAgIG92ZXJyaWRlIHZhbCBkaXNhYmxlZDogQm9vbGVhbgopIDogTWNwSW1wb3J0ZWRTZXJ2ZXIKCmludGVybmFsIGRhdGEgY2xhc3MgUmVtb3RlTWNwSW1wb3J0ZWRTZXJ2ZXIoCiAgICBvdmVycmlkZSB2YWwgaWQ6IFN0cmluZywKICAgIHZhbCBlbmRwb2ludDogU3RyaW5nLAogICAgdmFsIGNvbm5lY3Rpb25UeXBlOiBTdHJpbmcsCiAgICB2YWwgaGVhZGVyczogTWFwPFN0cmluZywgU3RyaW5nPiwKICAgIG92ZXJyaWRlIHZhbCBkaXNhYmxlZDogQm9vbGVhbgopIDogTWNwSW1wb3J0ZWRTZXJ2ZXIKCi8qKgogKiBQYXJzZXMgdGhlIHB1YmxpYyBNQ1AgY29uZmlndXJhdGlvbiBmb3JtYXQgd2l0aG91dCBjb25mbGF0aW5nIEhUVFAgdHJhbnNwb3J0cyB3aXRoIHN0ZGlvLgogKi8KaW50ZXJuYWwgb2JqZWN0IE1jcENvbmZpZ0ltcG9ydFBhcnNlciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBTVFJFQU1BQkxFX0hUVFBfVFlQRSA9ICJzdHJlYW1hYmxlX2h0dHAiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBTU0VfVFlQRSA9ICJzc2UiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBTVERJT19UWVBFID0gInN0ZGlvIgoKICAgIGZ1biBwYXJzZShqc29uQ29uZmlnOiBTdHJpbmcpOiBNY3BDb25maWdJbXBvcnQgewogICAgICAgIHZhbCByb290ID0gdHJ5IHsKICAgICAgICAgICAgSnNvblBhcnNlci5wYXJzZVN0cmluZyhqc29uQ29uZmlnKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIumFjee9ruS4jeaYr+acieaViOeahCBKU09OIiwgZSkKICAgICAgICB9CgogICAgICAgIHJlcXVpcmUocm9vdC5pc0pzb25PYmplY3QpIHsgIumFjee9ruagueiKgueCueW/hemhu+aYr+WvueixoSIgfQogICAgICAgIHZhbCBtY3BTZXJ2ZXJzID0gcm9vdC5hc0pzb25PYmplY3QucmVxdWlyZWRPYmplY3QoIm1jcFNlcnZlcnMiKQogICAgICAgIHJlcXVpcmUobWNwU2VydmVycy5lbnRyeVNldCgpLmlzTm90RW1wdHkoKSkgeyAibWNwU2VydmVycyDkuI3og73kuLrnqboiIH0KCiAgICAgICAgcmV0dXJuIE1jcENvbmZpZ0ltcG9ydCgKICAgICAgICAgICAgc2VydmVycyA9IG1jcFNlcnZlcnMuZW50cnlTZXQoKS5tYXAgeyAoc2VydmVySWQsIGNvbmZpZ0VsZW1lbnQpIC0+CiAgICAgICAgICAgICAgICBwYXJzZVNlcnZlcihzZXJ2ZXJJZCwgY29uZmlnRWxlbWVudCkKICAgICAgICAgICAgfQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZVNlcnZlcihzZXJ2ZXJJZDogU3RyaW5nLCBjb25maWdFbGVtZW50OiBKc29uRWxlbWVudCk6IE1jcEltcG9ydGVkU2VydmVyIHsKICAgICAgICByZXF1aXJlKHNlcnZlcklkLmlzTm90QmxhbmsoKSkgeyAibWNwU2VydmVycyDkuK3lrZjlnKjnqbrmnI3liqHlmaggSUQiIH0KICAgICAgICByZXF1aXJlKGNvbmZpZ0VsZW1lbnQuaXNKc29uT2JqZWN0KSB7ICJtY3BTZXJ2ZXJzLiRzZXJ2ZXJJZCDlv4XpobvmmK/lr7nosaEiIH0KCiAgICAgICAgdmFsIGNvbmZpZyA9IGNvbmZpZ0VsZW1lbnQuYXNKc29uT2JqZWN0CiAgICAgICAgdmFsIGRlY2xhcmVkVHlwZSA9IGNvbmZpZy5vcHRpb25hbFN0cmluZygidHlwZSIpCiAgICAgICAgcmV0dXJuIGlmIChjb25maWcuaGFzKCJjb21tYW5kIikpIHsKICAgICAgICAgICAgcGFyc2VTdGRpb1NlcnZlcihzZXJ2ZXJJZCwgY29uZmlnLCBkZWNsYXJlZFR5cGUpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgcGFyc2VSZW1vdGVTZXJ2ZXIoc2VydmVySWQsIGNvbmZpZywgZGVjbGFyZWRUeXBlKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZVN0ZGlvU2VydmVyKAogICAgICAgIHNlcnZlcklkOiBTdHJpbmcsCiAgICAgICAgY29uZmlnOiBKc29uT2JqZWN0LAogICAgICAgIGRlY2xhcmVkVHlwZTogU3RyaW5nPwogICAgKTogU3RkaW9NY3BJbXBvcnRlZFNlcnZlciB7CiAgICAgICAgcmVxdWlyZShkZWNsYXJlZFR5cGUgPT0gbnVsbCB8fCBkZWNsYXJlZFR5cGUgPT0gU1RESU9fVFlQRSkgewogICAgICAgICAgICAibWNwU2VydmVycy4kc2VydmVySWQg5ZCM5pe25aOw5piO5LqGIGNvbW1hbmQg5ZKM6Z2eIHN0ZGlvIHRyYW5zcG9ydCIKICAgICAgICB9CgogICAgICAgIHJldHVybiBTdGRpb01jcEltcG9ydGVkU2VydmVyKAogICAgICAgICAgICBpZCA9IHNlcnZlcklkLAogICAgICAgICAgICBjb21tYW5kID0gY29uZmlnLnJlcXVpcmVkTm9uQmxhbmtTdHJpbmcoImNvbW1hbmQiLCBzZXJ2ZXJJZCksCiAgICAgICAgICAgIGFyZ3MgPSBjb25maWcub3B0aW9uYWxTdHJpbmdMaXN0KCJhcmdzIiwgc2VydmVySWQpLAogICAgICAgICAgICBlbnYgPSBjb25maWcub3B0aW9uYWxTdHJpbmdNYXAoImVudiIsIHNlcnZlcklkKSwKICAgICAgICAgICAgYXV0b0FwcHJvdmUgPSBjb25maWcub3B0aW9uYWxTdHJpbmdMaXN0KCJhdXRvQXBwcm92ZSIsIHNlcnZlcklkKSwKICAgICAgICAgICAgZGlzYWJsZWQgPSBjb25maWcub3B0aW9uYWxCb29sZWFuKCJkaXNhYmxlZCIsIHNlcnZlcklkKQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZVJlbW90ZVNlcnZlcigKICAgICAgICBzZXJ2ZXJJZDogU3RyaW5nLAogICAgICAgIGNvbmZpZzogSnNvbk9iamVjdCwKICAgICAgICBkZWNsYXJlZFR5cGU6IFN0cmluZz8KICAgICk6IFJlbW90ZU1jcEltcG9ydGVkU2VydmVyIHsKICAgICAgICB2YWwgY29ubmVjdGlvblR5cGUgPSB3aGVuIChkZWNsYXJlZFR5cGUpIHsKICAgICAgICAgICAgU1RSRUFNQUJMRV9IVFRQX1RZUEUgLT4gImh0dHBTdHJlYW0iCiAgICAgICAgICAgIFNTRV9UWVBFIC0+IFNTRV9UWVBFCiAgICAgICAgICAgIFNURElPX1RZUEUgLT4gdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJtY3BTZXJ2ZXJzLiRzZXJ2ZXJJZCDnvLrlsJEgY29tbWFuZCIpCiAgICAgICAgICAgIG51bGwgLT4gdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJtY3BTZXJ2ZXJzLiRzZXJ2ZXJJZCDnvLrlsJEgY29tbWFuZCDmiJYgdHlwZSIpCiAgICAgICAgICAgIGVsc2UgLT4gdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKAogICAgICAgICAgICAgICAgIm1jcFNlcnZlcnMuJHNlcnZlcklkIOS9v+eUqOS6huS4jeaUr+aMgeeahCB0cmFuc3BvcnQ6ICRkZWNsYXJlZFR5cGUiCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIHJldHVybiBSZW1vdGVNY3BJbXBvcnRlZFNlcnZlcigKICAgICAgICAgICAgaWQgPSBzZXJ2ZXJJZCwKICAgICAgICAgICAgZW5kcG9pbnQgPSBjb25maWcucmVxdWlyZWROb25CbGFua1N0cmluZygidXJsIiwgc2VydmVySWQpLAogICAgICAgICAgICBjb25uZWN0aW9uVHlwZSA9IGNvbm5lY3Rpb25UeXBlLAogICAgICAgICAgICBoZWFkZXJzID0gY29uZmlnLm9wdGlvbmFsU3RyaW5nTWFwKCJoZWFkZXJzIiwgc2VydmVySWQpLAogICAgICAgICAgICBkaXNhYmxlZCA9IGNvbmZpZy5vcHRpb25hbEJvb2xlYW4oImRpc2FibGVkIiwgc2VydmVySWQpCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIEpzb25PYmplY3QucmVxdWlyZWRPYmplY3QoZmllbGQ6IFN0cmluZyk6IEpzb25PYmplY3QgewogICAgICAgIHZhbCB2YWx1ZSA9IGdldChmaWVsZCkKICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCLphY3nva7kuK3msqHmnInmib7liLAgJGZpZWxkIOWtl+autSIpCiAgICAgICAgcmVxdWlyZSh2YWx1ZS5pc0pzb25PYmplY3QpIHsgIiRmaWVsZCDlv4XpobvmmK/lr7nosaEiIH0KICAgICAgICByZXR1cm4gdmFsdWUuYXNKc29uT2JqZWN0CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gSnNvbk9iamVjdC5yZXF1aXJlZE5vbkJsYW5rU3RyaW5nKGZpZWxkOiBTdHJpbmcsIHNlcnZlcklkOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCB2YWx1ZSA9IG9wdGlvbmFsU3RyaW5nKGZpZWxkKQogICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIm1jcFNlcnZlcnMuJHNlcnZlcklkIOe8uuWwkSAkZmllbGQiKQogICAgICAgIHJlcXVpcmUodmFsdWUuaXNOb3RCbGFuaygpKSB7ICJtY3BTZXJ2ZXJzLiRzZXJ2ZXJJZCDnmoQgJGZpZWxkIOS4jeiDveS4uuepuiIgfQogICAgICAgIHJldHVybiB2YWx1ZS50cmltKCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBKc29uT2JqZWN0Lm9wdGlvbmFsU3RyaW5nKGZpZWxkOiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgdmFsdWUgPSBnZXQoZmllbGQpID86IHJldHVybiBudWxsCiAgICAgICAgcmVxdWlyZSh2YWx1ZS5pc0pzb25QcmltaXRpdmUgJiYgdmFsdWUuYXNKc29uUHJpbWl0aXZlLmlzU3RyaW5nKSB7ICIkZmllbGQg5b+F6aG75piv5a2X56ym5LiyIiB9CiAgICAgICAgcmV0dXJuIHZhbHVlLmFzU3RyaW5nCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gSnNvbk9iamVjdC5vcHRpb25hbEJvb2xlYW4oZmllbGQ6IFN0cmluZywgc2VydmVySWQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHZhbCB2YWx1ZSA9IGdldChmaWVsZCkgPzogcmV0dXJuIGZhbHNlCiAgICAgICAgcmVxdWlyZSh2YWx1ZS5pc0pzb25QcmltaXRpdmUgJiYgdmFsdWUuYXNKc29uUHJpbWl0aXZlLmlzQm9vbGVhbikgewogICAgICAgICAgICAibWNwU2VydmVycy4kc2VydmVySWQg55qEICRmaWVsZCDlv4XpobvmmK/luIPlsJTlgLwiCiAgICAgICAgfQogICAgICAgIHJldHVybiB2YWx1ZS5hc0Jvb2xlYW4KICAgIH0KCiAgICBwcml2YXRlIGZ1biBKc29uT2JqZWN0Lm9wdGlvbmFsU3RyaW5nTGlzdChmaWVsZDogU3RyaW5nLCBzZXJ2ZXJJZDogU3RyaW5nKTogTGlzdDxTdHJpbmc+IHsKICAgICAgICB2YWwgdmFsdWUgPSBnZXQoZmllbGQpID86IHJldHVybiBlbXB0eUxpc3QoKQogICAgICAgIHJlcXVpcmUodmFsdWUuaXNKc29uQXJyYXkpIHsgIm1jcFNlcnZlcnMuJHNlcnZlcklkIOeahCAkZmllbGQg5b+F6aG75piv5a2X56ym5Liy5pWw57uEIiB9CiAgICAgICAgcmV0dXJuIHZhbHVlLmFzSnNvbkFycmF5Lm1hcEluZGV4ZWQgeyBpbmRleCwgaXRlbSAtPgogICAgICAgICAgICByZXF1aXJlKGl0ZW0uaXNKc29uUHJpbWl0aXZlICYmIGl0ZW0uYXNKc29uUHJpbWl0aXZlLmlzU3RyaW5nKSB7CiAgICAgICAgICAgICAgICAibWNwU2VydmVycy4kc2VydmVySWQg55qEICRmaWVsZFskaW5kZXhdIOW/hemhu+aYr+Wtl+espuS4siIKICAgICAgICAgICAgfQogICAgICAgICAgICBpdGVtLmFzU3RyaW5nCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIEpzb25PYmplY3Qub3B0aW9uYWxTdHJpbmdNYXAoZmllbGQ6IFN0cmluZywgc2VydmVySWQ6IFN0cmluZyk6IE1hcDxTdHJpbmcsIFN0cmluZz4gewogICAgICAgIHZhbCB2YWx1ZSA9IGdldChmaWVsZCkgPzogcmV0dXJuIGVtcHR5TWFwKCkKICAgICAgICByZXF1aXJlKHZhbHVlLmlzSnNvbk9iamVjdCkgeyAibWNwU2VydmVycy4kc2VydmVySWQg55qEICRmaWVsZCDlv4XpobvmmK/lr7nosaEiIH0KICAgICAgICByZXR1cm4gdmFsdWUuYXNKc29uT2JqZWN0LmVudHJ5U2V0KCkuYXNzb2NpYXRlIHsgKGtleSwgaXRlbSkgLT4KICAgICAgICAgICAgcmVxdWlyZShrZXkuaXNOb3RCbGFuaygpKSB7ICJtY3BTZXJ2ZXJzLiRzZXJ2ZXJJZCDnmoQgJGZpZWxkIOWMheWQq+epuumUriIgfQogICAgICAgICAgICByZXF1aXJlKGl0ZW0uaXNKc29uUHJpbWl0aXZlICYmIGl0ZW0uYXNKc29uUHJpbWl0aXZlLmlzU3RyaW5nKSB7CiAgICAgICAgICAgICAgICAibWNwU2VydmVycy4kc2VydmVySWQg55qEICRmaWVsZC4ka2V5IOW/hemhu+aYr+Wtl+espuS4siIKICAgICAgICAgICAgfQogICAgICAgICAgICBrZXkgdG8gaXRlbS5hc1N0cmluZwogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.mcp
+
+import com.google.gson.JsonElement
+import com.google.gson.JsonObject
+import com.google.gson.JsonParser
+
+/** Parsed standard MCP configuration used by both UI and market imports. */
+internal data class McpConfigImport(
+    val servers: List<McpImportedServer>
+)
+
+internal sealed interface McpImportedServer {
+    val id: String
+    val disabled: Boolean
+}
+
+internal data class StdioMcpImportedServer(
+    override val id: String,
+    val command: String,
+    val args: List<String>,
+    val env: Map<String, String>,
+    val autoApprove: List<String>,
+    override val disabled: Boolean
+) : McpImportedServer
+
+internal data class RemoteMcpImportedServer(
+    override val id: String,
+    val endpoint: String,
+    val connectionType: String,
+    val headers: Map<String, String>,
+    override val disabled: Boolean
+) : McpImportedServer
+
+/**
+ * Parses the public MCP configuration format without conflating HTTP transports with stdio.
+ */
+internal object McpConfigImportParser {
+    private const val STREAMABLE_HTTP_TYPE = "streamable_http"
+    private const val SSE_TYPE = "sse"
+    private const val STDIO_TYPE = "stdio"
+
+    fun parse(jsonConfig: String): McpConfigImport {
+        val root = try {
+            JsonParser.parseString(jsonConfig)
+        } catch (e: Exception) {
+            throw IllegalArgumentException("配置不是有效的 JSON", e)
+        }
+
+        require(root.isJsonObject) { "配置根节点必须是对象" }
+        val mcpServers = root.asJsonObject.requiredObject("mcpServers")
+        require(mcpServers.entrySet().isNotEmpty()) { "mcpServers 不能为空" }
+
+        return McpConfigImport(
+            servers = mcpServers.entrySet().map { (serverId, configElement) ->
+                parseServer(serverId, configElement)
+            }
+        )
+    }
+
+    private fun parseServer(serverId: String, configElement: JsonElement): McpImportedServer {
+        require(serverId.isNotBlank()) { "mcpServers 中存在空服务器 ID" }
+        require(configElement.isJsonObject) { "mcpServers.$serverId 必须是对象" }
+
+        val config = configElement.asJsonObject
+        val declaredType = config.optionalString("type")
+        return if (config.has("command")) {
+            parseStdioServer(serverId, config, declaredType)
+        } else {
+            parseRemoteServer(serverId, config, declaredType)
+        }
+    }
+
+    private fun parseStdioServer(
+        serverId: String,
+        config: JsonObject,
+        declaredType: String?
+    ): StdioMcpImportedServer {
+        require(declaredType == null || declaredType == STDIO_TYPE) {
+            "mcpServers.$serverId 同时声明了 command 和非 stdio transport"
+        }
+
+        return StdioMcpImportedServer(
+            id = serverId,
+            command = config.requiredNonBlankString("command", serverId),
+            args = config.optionalStringList("args", serverId),
+            env = config.optionalStringMap("env", serverId),
+            autoApprove = config.optionalStringList("autoApprove", serverId),
+            disabled = config.optionalBoolean("disabled", serverId)
+        )
+    }
+
+    private fun parseRemoteServer(
+        serverId: String,
+        config: JsonObject,
+        declaredType: String?
+    ): RemoteMcpImportedServer {
+        val connectionType = when (declaredType) {
+            STREAMABLE_HTTP_TYPE -> "httpStream"
+            SSE_TYPE -> SSE_TYPE
+            STDIO_TYPE -> throw IllegalArgumentException("mcpServers.$serverId 缺少 command")
+            null -> throw IllegalArgumentException("mcpServers.$serverId 缺少 command 或 type")
+            else -> throw IllegalArgumentException(
+                "mcpServers.$serverId 使用了不支持的 transport: $declaredType"
+            )
+        }
+
+        return RemoteMcpImportedServer(
+            id = serverId,
+            endpoint = config.requiredNonBlankString("url", serverId),
+            connectionType = connectionType,
+            headers = config.optionalStringMap("headers", serverId),
+            disabled = config.optionalBoolean("disabled", serverId)
+        )
+    }
+
+    private fun JsonObject.requiredObject(field: String): JsonObject {
+        val value = get(field)
+            ?: throw IllegalArgumentException("配置中没有找到 $field 字段")
+        require(value.isJsonObject) { "$field 必须是对象" }
+        return value.asJsonObject
+    }
+
+    private fun JsonObject.requiredNonBlankString(field: String, serverId: String): String {
+        val value = optionalString(field)
+            ?: throw IllegalArgumentException("mcpServers.$serverId 缺少 $field")
+        require(value.isNotBlank()) { "mcpServers.$serverId 的 $field 不能为空" }
+        return value.trim()
+    }
+
+    private fun JsonObject.optionalString(field: String): String? {
+        val value = get(field) ?: return null
+        require(value.isJsonPrimitive && value.asJsonPrimitive.isString) { "$field 必须是字符串" }
+        return value.asString
+    }
+
+    private fun JsonObject.optionalBoolean(field: String, serverId: String): Boolean {
+        val value = get(field) ?: return false
+        require(value.isJsonPrimitive && value.asJsonPrimitive.isBoolean) {
+            "mcpServers.$serverId 的 $field 必须是布尔值"
+        }
+        return value.asBoolean
+    }
+
+    private fun JsonObject.optionalStringList(field: String, serverId: String): List<String> {
+        val value = get(field) ?: return emptyList()
+        require(value.isJsonArray) { "mcpServers.$serverId 的 $field 必须是字符串数组" }
+        return value.asJsonArray.mapIndexed { index, item ->
+            require(item.isJsonPrimitive && item.asJsonPrimitive.isString) {
+                "mcpServers.$serverId 的 $field[$index] 必须是字符串"
+            }
+            item.asString
+        }
+    }
+
+    private fun JsonObject.optionalStringMap(field: String, serverId: String): Map<String, String> {
+        val value = get(field) ?: return emptyMap()
+        require(value.isJsonObject) { "mcpServers.$serverId 的 $field 必须是对象" }
+        return value.asJsonObject.entrySet().associate { (key, item) ->
+            require(key.isNotBlank()) { "mcpServers.$serverId 的 $field 包含空键" }
+            require(item.isJsonPrimitive && item.asJsonPrimitive.isString) {
+                "mcpServers.$serverId 的 $field.$key 必须是字符串"
+            }
+            key to item.asString
+        }
+    }
+}

@@ -1,1 +1,35 @@
-LyoKICogQ29weXJpZ2h0IDIwMjUgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0Lk1lYXN1cmFibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0Lk1lYXN1cmVSZXN1bHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5Db25zdHJhaW50cwoKLyoKICogRGVmaW5lcyB0aGUgbWVhc3VyZSBhbmQgbGF5b3V0IGJlaGF2aW9yIG9mIGEgW0xhenlMYXlvdXRdLgogKi8KZnVuIGludGVyZmFjZSBMYXp5TGF5b3V0TWVhc3VyZVBvbGljeSB7CiAgICAvKioKICAgICAqIFRoZSBmdW5jdGlvbiB0aGF0IGRlZmluZXMgdGhlIG1lYXN1cmVtZW50IGFuZCBsYXlvdXQuIEZvciBlYWNoIGl0ZW0gaW4gdGhpcyBbTGF6eUxheW91dF0gd2UKICAgICAqIHNob3VsZCBjYWxsIFtMYXp5TGF5b3V0TWVhc3VyZVNjb3BlLmNvbXBvc2VdIGFuZCB0aGVuIGNhbGwgW01lYXN1cmFibGUubWVhc3VyZV0gd2l0aCB0aGUKICAgICAqIGNoaWxkIFtDb25zdHJhaW50c10gdG8gYmUgdXNlZC4KICAgICAqCiAgICAgKiBAcGFyYW0gY29uc3RyYWludHMgVGhlIGNvbnN0cmFpbnRzIHVzZWQgdG8gbWVhc3VyZSB0aGlzIExhenkgTGF5b3V0LgogICAgICovCiAgICBmdW4gTGF6eUxheW91dE1lYXN1cmVTY29wZS5tZWFzdXJlKGNvbnN0cmFpbnRzOiBDb25zdHJhaW50cyk6IE1lYXN1cmVSZXN1bHQKfQo=
+/*
+ * Copyright 2025 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.ui.layout.Measurable
+import androidx.compose.ui.layout.MeasureResult
+import androidx.compose.ui.unit.Constraints
+
+/*
+ * Defines the measure and layout behavior of a [LazyLayout].
+ */
+fun interface LazyLayoutMeasurePolicy {
+    /**
+     * The function that defines the measurement and layout. For each item in this [LazyLayout] we
+     * should call [LazyLayoutMeasureScope.compose] and then call [Measurable.measure] with the
+     * child [Constraints] to be used.
+     *
+     * @param constraints The constraints used to measure this Lazy Layout.
+     */
+    fun LazyLayoutMeasureScope.measure(constraints: Constraints): MeasureResult
+}

@@ -1,1 +1,22 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzCgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBQcm9tcHRUdXJuQXBwZW5kVGVzdCB7CgogICAgQFRlc3QgZnVuIGFwcGVuZFVzZXJUdXJuSWZNaXNzaW5nX2RvZXNOb3RoaW5nRm9yQmxhbmtNZXNzYWdlKCkgewogICAgICAgIHZhbCB0dXJucyA9IGxpc3RPZihQcm9tcHRUdXJuKFByb21wdFR1cm5LaW5kLlVTRVIsICJoZWxsbyIpKQogICAgICAgIGFzc2VydEVxdWFscyh0dXJucywgdHVybnMuYXBwZW5kVXNlclR1cm5JZk1pc3NpbmcoIiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBhcHBlbmRVc2VyVHVybklmTWlzc2luZ19kb2VzTm90aGluZ0ZvckR1cGxpY2F0ZVRyYWlsaW5nVXNlck1lc3NhZ2UoKSB7CiAgICAgICAgdmFsIHR1cm5zID0gbGlzdE9mKFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuVVNFUiwgImhlbGxvIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKHR1cm5zLCB0dXJucy5hcHBlbmRVc2VyVHVybklmTWlzc2luZygiaGVsbG8iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYXBwZW5kVXNlclR1cm5JZk1pc3NpbmdfYXBwZW5kc0FmdGVyQXNzaXN0YW50KCkgewogICAgICAgIHZhbCB0dXJucyA9IGxpc3RPZihQcm9tcHRUdXJuKFByb21wdFR1cm5LaW5kLkFTU0lTVEFOVCwgImhlbGxvIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIsIHR1cm5zLmFwcGVuZFVzZXJUdXJuSWZNaXNzaW5nKCJuZXh0Iikuc2l6ZSkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.chat.hooks
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class PromptTurnAppendTest {
+
+    @Test fun appendUserTurnIfMissing_doesNothingForBlankMessage() {
+        val turns = listOf(PromptTurn(PromptTurnKind.USER, "hello"))
+        assertEquals(turns, turns.appendUserTurnIfMissing(""))
+    }
+
+    @Test fun appendUserTurnIfMissing_doesNothingForDuplicateTrailingUserMessage() {
+        val turns = listOf(PromptTurn(PromptTurnKind.USER, "hello"))
+        assertEquals(turns, turns.appendUserTurnIfMissing("hello"))
+    }
+
+    @Test fun appendUserTurnIfMissing_appendsAfterAssistant() {
+        val turns = listOf(PromptTurn(PromptTurnKind.ASSISTANT, "hello"))
+        assertEquals(2, turns.appendUserTurnIfMissing("next").size)
+    }
+}

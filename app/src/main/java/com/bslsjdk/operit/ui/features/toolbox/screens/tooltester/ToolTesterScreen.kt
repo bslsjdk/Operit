@@ -1,1 +1,377 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnRvb2x0ZXN0ZXIKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5hbmltYXRlQ29udGVudFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5iYWNrZ3JvdW5kCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uY2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LmdyaWQuR3JpZENlbGxzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF6eS5ncmlkLkxhenlWZXJ0aWNhbEdyaWQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LmdyaWQuaXRlbXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5yZW1lbWJlclNjcm9sbFN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udmVydGljYWxTY3JvbGwKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMub3V0bGluZWQuSGVscE91dGxpbmUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmNvbXBvbmVudHMuQ3VzdG9tU2NhZmZvbGQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZm9jdXMuRm9jdXNSZXF1ZXN0ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZm9jdXMuZm9jdXNSZXF1ZXN0ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucGxhdGZvcm0uTG9jYWxDb250ZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLnRlc3RUYWcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0QWxpZ24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS53aW5kb3cuRGlhbG9nUHJvcGVydGllcwppbXBvcnQgYW5kcm9pZHgubmF2aWdhdGlvbi5OYXZDb250cm9sbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuQUlUb29sSGFuZGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuU3RyaW5nUmVzdWx0RGF0YQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQUlUb29sCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUGFyYW1ldGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUmVzdWx0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5PcGVyaXRQYXRocwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5CgovKiog5bel5YW35rWL6K+V5bGP5bmVIC0g5pyA57uI54mI572R5qC85biD5bGAICsg5Lit6Ze05by556qX6K+m5oOFICovCkBPcHRJbihFeHBlcmltZW50YWxNYXRlcmlhbDNBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gVG9vbFRlc3RlclNjcmVlbihuYXZDb250cm9sbGVyOiBOYXZDb250cm9sbGVyKSB7CiAgICB2YWwgc2NvcGUgPSByZW1lbWJlckNvcm91dGluZVNjb3BlKCkKICAgIHZhbCBjb250ZXh0ID0gTG9jYWxDb250ZXh0LmN1cnJlbnQKICAgIHZhbCBhaVRvb2xIYW5kbGVyID0gcmVtZW1iZXIgeyBBSVRvb2xIYW5kbGVyLmdldEluc3RhbmNlKGNvbnRleHQpIH0KICAgIHZhbCBmb2N1c1JlcXVlc3RlciA9IHJlbWVtYmVyIHsgRm9jdXNSZXF1ZXN0ZXIoKSB9CgogICAgdmFyIHRlc3RSZXN1bHRzIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Y8TWFwPFN0cmluZywgVG9vbFRlc3RSZXN1bHQ+PihlbXB0eU1hcCgpKSB9CiAgICB2YXIgaXNUZXN0aW5nQWxsIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIHZhciBzZWxlY3RlZFRlc3RGb3JEZXRhaWxzIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Y8VG9vbFRlc3Q/PihudWxsKSB9CiAgICB2YXIgc2hvd0RpYWxvZyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YXIgdGVzdElucHV0VGV4dCBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKCIiKSB9CgogICAgdmFsIHRvb2xHcm91cHMgPSByZW1lbWJlciB7IGdldEZpbmFsVG9vbFRlc3RHcm91cHMoY29udGV4dCkgfQoKICAgIHN1c3BlbmQgZnVuIHJ1blRlc3QodG9vbFRlc3Q6IFRvb2xUZXN0KSB7CiAgICAgICAgLy8gVUkgcHJlcGFyYXRpb24gcGhhc2Ugb24gTWFpbiB0aHJlYWQKICAgICAgICBpZiAodG9vbFRlc3QuaWQgPT0gInNldF9pbnB1dF90ZXh0IikgewogICAgICAgICAgICAvLyBJZiB0aGUgZGlhbG9nIGlzIHNob3dpbmcgZm9yIGEgc2luZ2xlIHRlc3QgcnVuLCBkaXNtaXNzIGl0IGZpcnN0LgogICAgICAgICAgICBpZiAoc2hvd0RpYWxvZykgewogICAgICAgICAgICAgICAgc2hvd0RpYWxvZyA9IGZhbHNlCiAgICAgICAgICAgICAgICBkZWxheSgzMDApIC8vIFdhaXQgZm9yIGRpYWxvZyBhbmltYXRpb24gdG8gZmluaXNoLgogICAgICAgICAgICB9CiAgICAgICAgICAgIGZvY3VzUmVxdWVzdGVyLnJlcXVlc3RGb2N1cygpCiAgICAgICAgICAgIGRlbGF5KDEwMCkgLy8gV2FpdCBmb3IgZm9jdXMgdG8gYmUgcHJvY2Vzc2VkIGJ5IHRoZSBzeXN0ZW0uCiAgICAgICAgfQoKICAgICAgICAvLyBNYXJrIHRlc3QgYXMgcnVubmluZyBvbiBNYWluIHRocmVhZAogICAgICAgIHRlc3RSZXN1bHRzID0gdGVzdFJlc3VsdHMudG9NdXRhYmxlTWFwKCkuYXBwbHkgewogICAgICAgICAgICBwdXQodG9vbFRlc3QuaWQsIFRvb2xUZXN0UmVzdWx0KFRlc3RTdGF0dXMuUlVOTklORywgbnVsbCkpCiAgICAgICAgfQoKICAgICAgICAvLyBFeGVjdXRpb24gcGhhc2Ugb24gSU8gdGhyZWFkCiAgICAgICAgdmFsIHJlc3VsdCA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBhaVRvb2xIYW5kbGVyLmV4ZWN1dGVUb29sKEFJVG9vbCh0b29sVGVzdC5pZCwgdG9vbFRlc3QucGFyYW1ldGVycykpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgVG9vbFJlc3VsdCh0b29sTmFtZSA9IHRvb2xUZXN0LmlkLCBzdWNjZXNzID0gZmFsc2UsIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLCBlcnJvciA9IGUubWVzc2FnZSA/OiAiVW5rbm93biBlcnJvciIpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIFVwZGF0ZSBVSSB3aXRoIHJlc3VsdCBvbiBNYWluIHRocmVhZAogICAgICAgIHRlc3RSZXN1bHRzID0gdGVzdFJlc3VsdHMudG9NdXRhYmxlTWFwKCkuYXBwbHkgewogICAgICAgICAgICBwdXQodG9vbFRlc3QuaWQsIFRvb2xUZXN0UmVzdWx0KGlmIChyZXN1bHQuc3VjY2VzcykgVGVzdFN0YXR1cy5TVUNDRVNTIGVsc2UgVGVzdFN0YXR1cy5GQUlMRUQsIHJlc3VsdCkpCiAgICAgICAgfQogICAgfQoKICAgIEN1c3RvbVNjYWZmb2xkKCkgeyBwYWRkaW5nVmFsdWVzIC0+CiAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyhwYWRkaW5nVmFsdWVzKS5maWxsTWF4U2l6ZSgpLnZlcnRpY2FsU2Nyb2xsKHJlbWVtYmVyU2Nyb2xsU3RhdGUoKSkpIHsKICAgICAgICAgICAgLy8gSGVhZGVyIFNlY3Rpb24KICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZygxNi5kcCksIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSkgewogICAgICAgICAgICAgICAgVGV4dChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5haV90b29sc19hdmFpbGFiaWxpdHlfdGVzdCksIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmhlYWRsaW5lU21hbGwsIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQpCiAgICAgICAgICAgICAgICBUZXh0KGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFpX3Rvb2xzX2dyb3VwZWRfZGVzYyksIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50KQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBPdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHRlc3RJbnB1dFRleHQsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgdGVzdElucHV0VGV4dCA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudGVzdF9pbnB1dF9maWVsZCkpIH0sCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAgICAgLmZvY3VzUmVxdWVzdGVyKGZvY3VzUmVxdWVzdGVyKQogICAgICAgICAgICAgICAgICAgICAgICAudGVzdFRhZygidG9vbF90ZXN0ZXJfaW5wdXQiKQogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICBzY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNUZXN0aW5nQWxsID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGVzdFJlc3VsdHMgPSBlbXB0eU1hcCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgKGdyb3VwIGluIHRvb2xHcm91cHMuZmlsdGVyIHsgIWl0LmlzTWFudWFsIH0pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZ3JvdXAuc2VxdWVudGlhbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3IgKHRlc3QgaW4gZ3JvdXAudGVzdHMpIHsgcnVuVGVzdCh0ZXN0KSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGpvYnMgPSBncm91cC50ZXN0cy5tYXAgeyB0ZXN0IC0+IGxhdW5jaCB7IHJ1blRlc3QodGVzdCkgfSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGpvYnMuZm9yRWFjaCB7IGl0LmpvaW4oKSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNUZXN0aW5nQWxsID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICBlbmFibGVkID0gIWlzVGVzdGluZ0FsbAogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGlzVGVzdGluZ0FsbCkgewogICAgICAgICAgICAgICAgICAgICAgICBSb3codmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIENpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IobW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDIwLmRwKSwgc3Ryb2tlV2lkdGggPSAyLmRwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5iYXRjaF90ZXN0aW5nX2luX3Byb2dyZXNzKSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc3RhcnRfY29tcHJlaGVuc2l2ZV90ZXN0KSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgSG9yaXpvbnRhbERpdmlkZXIoKQogICAgICAgICAgICAvLyBHcmlkIEJvZHkKICAgICAgICAgICAgTGF6eVZlcnRpY2FsR3JpZCgKICAgICAgICAgICAgICAgIGNvbHVtbnMgPSBHcmlkQ2VsbHMuQWRhcHRpdmUobWluU2l6ZSA9IDc1LmRwKSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkuaGVpZ2h0KDgwMC5kcCksIC8vIOiuvuWumuS4gOS4qui2s+Wkn+eahOmrmOW6puS7pemBv+WFjeW1jOWll+a7muWKqOmXrumimAogICAgICAgICAgICAgICAgY29udGVudFBhZGRpbmcgPSBQYWRkaW5nVmFsdWVzKDE2LmRwKSwKICAgICAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSwKICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgdG9vbEdyb3Vwcy5mb3JFYWNoIHsgZ3JvdXAgLT4KICAgICAgICAgICAgICAgICAgICBpdGVtKHNwYW4gPSB7IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LmdyaWQuR3JpZEl0ZW1TcGFuKG1heExpbmVTcGFuKSB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gZ3JvdXAubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTWVkaXVtLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuQm9sZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyh0b3AgPSA4LmRwLCBib3R0b20gPSA0LmRwKQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGl0ZW1zKGdyb3VwLnRlc3RzKSB7IHRvb2xUZXN0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIFRvb2xUZXN0R3JpZEl0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b29sVGVzdCA9IHRvb2xUZXN0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGVzdFJlc3VsdCA9IHRlc3RSZXN1bHRzW3Rvb2xUZXN0LmlkXQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkVGVzdEZvckRldGFpbHMgPSBpdAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hvd0RpYWxvZyA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBpZiAoc2hvd0RpYWxvZyAmJiBzZWxlY3RlZFRlc3RGb3JEZXRhaWxzICE9IG51bGwpIHsKICAgICAgICBBbGVydERpYWxvZygKICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IHsgc2hvd0RpYWxvZyA9IGZhbHNlIH0sCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZygxNi5kcCksCiAgICAgICAgICAgIHByb3BlcnRpZXMgPSBEaWFsb2dQcm9wZXJ0aWVzKAogICAgICAgICAgICAgICAgZGlzbWlzc09uQmFja1ByZXNzID0gdHJ1ZSwKICAgICAgICAgICAgICAgIGRpc21pc3NPbkNsaWNrT3V0c2lkZSA9IHRydWUKICAgICAgICAgICAgKQogICAgICAgICkgewogICAgICAgICAgICBTdXJmYWNlKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgIHNoYXBlID0gTWF0ZXJpYWxUaGVtZS5zaGFwZXMubGFyZ2UKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUb29sRGV0YWlsc1NoZWV0KAogICAgICAgICAgICAgICAgICAgIHRvb2xUZXN0ID0gc2VsZWN0ZWRUZXN0Rm9yRGV0YWlscyEhLAogICAgICAgICAgICAgICAgICAgIHRlc3RSZXN1bHQgPSB0ZXN0UmVzdWx0c1tzZWxlY3RlZFRlc3RGb3JEZXRhaWxzISEuaWRdLAogICAgICAgICAgICAgICAgICAgIHNjb3BlID0gc2NvcGUsCiAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgb25UZXN0ID0geyB0ZXN0IC0+IHNjb3BlLmxhdW5jaCB7IHJ1blRlc3QodGVzdCk7IH0gfSwKICAgICAgICAgICAgICAgICAgICBvbkRpc21pc3MgPSB7IHNob3dEaWFsb2cgPSBmYWxzZSB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCkBDb21wb3NhYmxlCmZ1biBUb29sVGVzdEdyaWRJdGVtKHRvb2xUZXN0OiBUb29sVGVzdCwgdGVzdFJlc3VsdDogVG9vbFRlc3RSZXN1bHQ/LCBvbkNsaWNrOiAoVG9vbFRlc3QpIC0+IFVuaXQpIHsKICAgIHZhbCBzdGF0dXMgPSB0ZXN0UmVzdWx0Py5zdGF0dXMKICAgIHZhbCBjb2xvciA9IHdoZW4gKHN0YXR1cykgewogICAgICAgIFRlc3RTdGF0dXMuU1VDQ0VTUyAtPiBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnlDb250YWluZXIKICAgICAgICBUZXN0U3RhdHVzLkZBSUxFRCAtPiBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yQ29udGFpbmVyCiAgICAgICAgVGVzdFN0YXR1cy5SVU5OSU5HIC0+IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUudGVydGlhcnlDb250YWluZXIKICAgICAgICBudWxsIC0+IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZVZhcmlhbnQKICAgIH0KICAgIHZhbCBjb250ZW50Q29sb3IgPSB3aGVuIChzdGF0dXMpIHsKICAgICAgICBUZXN0U3RhdHVzLlNVQ0NFU1MgLT4gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblByaW1hcnlDb250YWluZXIKICAgICAgICBUZXN0U3RhdHVzLkZBSUxFRCAtPiBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uRXJyb3JDb250YWluZXIKICAgICAgICBUZXN0U3RhdHVzLlJVTk5JTkcgLT4gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblRlcnRpYXJ5Q29udGFpbmVyCiAgICAgICAgbnVsbCAtPiBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgIH0KCiAgICBDYXJkKAogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSg2NS5kcCksCiAgICAgICAgY29sb3JzID0gQ2FyZERlZmF1bHRzLmNhcmRDb2xvcnMoY29udGFpbmVyQ29sb3IgPSBjb2xvciksCiAgICAgICAgb25DbGljayA9IHsgb25DbGljayh0b29sVGVzdCkgfQogICAgKSB7CiAgICAgICAgQm94KAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCkucGFkZGluZygyLmRwKSwKICAgICAgICAgICAgY29udGVudEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXIKICAgICAgICApIHsKICAgICAgICAgICAgVGV4dCh0b29sVGVzdC5uYW1lLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbFNtYWxsLCB0ZXh0QWxpZ24gPSBUZXh0QWxpZ24uQ2VudGVyLCBjb2xvciA9IGNvbnRlbnRDb2xvciwgbGluZUhlaWdodCA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbFNtYWxsLmZvbnRTaXplICogMS4xKQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKZnVuIFRvb2xEZXRhaWxzU2hlZXQoCiAgICB0b29sVGVzdDogVG9vbFRlc3QsCiAgICB0ZXN0UmVzdWx0OiBUb29sVGVzdFJlc3VsdD8sCiAgICBzY29wZTogQ29yb3V0aW5lU2NvcGUsCiAgICBjb250ZXh0OiBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dCwKICAgIG9uVGVzdDogKFRvb2xUZXN0KSAtPiBVbml0LAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0CikgewogICAgQ29sdW1uKAogICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZygxNi5kcCkudmVydGljYWxTY3JvbGwocmVtZW1iZXJTY3JvbGxTdGF0ZSgpKSwKICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTIuZHApCiAgICApIHsKICAgICAgICBSb3codmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTIuZHApKSB7CiAgICAgICAgICAgIHZhbCAoaWNvbiwgY29sb3IpID0gd2hlbih0ZXN0UmVzdWx0Py5zdGF0dXMpIHsKICAgICAgICAgICAgICAgIFRlc3RTdGF0dXMuU1VDQ0VTUyAtPiBJY29ucy5EZWZhdWx0LkNoZWNrQ2lyY2xlIHRvIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgVGVzdFN0YXR1cy5GQUlMRUQgLT4gSWNvbnMuRGVmYXVsdC5FcnJvciB0byBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yCiAgICAgICAgICAgICAgICBUZXN0U3RhdHVzLlJVTk5JTkcgLT4gSWNvbnMuRGVmYXVsdC5Ib3VyZ2xhc3NUb3AgdG8gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS50ZXJ0aWFyeQogICAgICAgICAgICAgICAgbnVsbCAtPiBJY29ucy5PdXRsaW5lZC5IZWxwT3V0bGluZSB0byBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgfQogICAgICAgICAgICBJY29uKGljb24sIGNvbnRlbnREZXNjcmlwdGlvbiA9ICJTdGF0dXMiLCB0aW50ID0gY29sb3IsIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgzMi5kcCkpCiAgICAgICAgICAgIENvbHVtbiB7CiAgICAgICAgICAgICAgICBUZXh0KHRvb2xUZXN0Lm5hbWUsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmhlYWRsaW5lU21hbGwsIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQpCiAgICAgICAgICAgICAgICBUZXh0KHRvb2xUZXN0LmlkLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwsIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50KQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIEhvcml6b250YWxEaXZpZGVyKCkKICAgICAgICBUZXh0KHRvb2xUZXN0LmRlc2NyaXB0aW9uLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtKQogICAgICAgIAogICAgICAgIGlmICh0b29sVGVzdC5wYXJhbWV0ZXJzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBUZXh0KGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnBhcmFtZXRlcnNfbGFiZWwpLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZVNtYWxsLCBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5NZWRpdW0pCiAgICAgICAgICAgIENvbHVtbihtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLmJhY2tncm91bmQoTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudC5jb3B5KGFscGhhID0gMC4zZikpLnBhZGRpbmcoOC5kcCkpIHsKICAgICAgICAgICAgICAgIHRvb2xUZXN0LnBhcmFtZXRlcnMuZm9yRWFjaCB7IHBhcmFtIC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIHJhd1ZhbHVlID0gcGFyYW0udmFsdWUKICAgICAgICAgICAgICAgICAgICB2YWwgcHJldmlldyA9IGlmIChyYXdWYWx1ZS5sZW5ndGggPiAyMDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgIiR7cmF3VmFsdWUudGFrZSgyMDApfS4uLiAobGVuPSR7cmF3VmFsdWUubGVuZ3RofSkiCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmF3VmFsdWUKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgVGV4dCgiIOKAoiAke3BhcmFtLm5hbWV9OiAkcHJldmlldyIsIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0pCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRlc3RSZXN1bHQ/LnJlc3VsdD8ubGV0IHsgcmVzdWx0IC0+CiAgICAgICAgICAgIFRleHQoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGV0YWlsZWRfcmVzdWx0KSwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVTbWFsbCwgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtKQogICAgICAgICAgICB2YWwgcmVzdWx0VGV4dCA9IChpZiAocmVzdWx0LnN1Y2Nlc3MpIHJlc3VsdC5yZXN1bHQudG9TdHJpbmcoKSBlbHNlIHJlc3VsdC5lcnJvciA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51bmtub3duX2Vycm9yKSkudGFrZSgxMDAwKQogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHJlc3VsdFRleHQsCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgY29sb3IgPSBpZiAocmVzdWx0LnN1Y2Nlc3MpIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSBlbHNlIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLmJhY2tncm91bmQoTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudC5jb3B5KGFscGhhID0gMC4zZikpLnBhZGRpbmcoOC5kcCkKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgUm93KG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHAsIEFsaWdubWVudC5FbmQpKSB7CiAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IG9uRGlzbWlzcykgeyBUZXh0KGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmNsb3NlKSkgfQogICAgICAgICAgICBCdXR0b24ob25DbGljayA9IHsgb25UZXN0KHRvb2xUZXN0KSB9LCBlbmFibGVkID0gdGVzdFJlc3VsdD8uc3RhdHVzICE9IFRlc3RTdGF0dXMuUlVOTklORykgewogICAgICAgICAgICAgICAgVGV4dChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5yZXRlc3QpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgoKcHJpdmF0ZSBmdW4gZ2V0RmluYWxUb29sVGVzdEdyb3Vwcyhjb250ZXh0OiBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dCk6IExpc3Q8VG9vbEdyb3VwPiB7CiAgICB2YWwgdGVzdEJhc2VEaXIgPSBPcGVyaXRQYXRocy50ZXN0UGF0aFNkY2FyZCgpCiAgICB2YWwgdGVzdEZpbGUgPSAiJHRlc3RCYXNlRGlyL3Rlc3RfZmlsZS50eHQiCiAgICB2YWwgdGVzdExhcmdlV3JpdGVGaWxlID0gIiR0ZXN0QmFzZURpci93cml0ZV9sYXJnZS50eHQiCiAgICB2YWwgdGVzdEZpbGVDb3B5ID0gIiR0ZXN0QmFzZURpci90ZXN0X2ZpbGVfY29weS50eHQiCiAgICB2YWwgdGVzdFppcCA9ICIkdGVzdEJhc2VEaXIvdGVzdC56aXAiCiAgICB2YWwgdGVzdFVuemlwRGlyID0gIiR0ZXN0QmFzZURpci91bnppcHBlZCIKICAgIHZhbCB0ZXN0SW1hZ2UgPSAiJHRlc3RCYXNlRGlyL3Rlc3RfaW1hZ2UucG5nIgogICAgdmFsIGxhcmdlV3JpdGVDb250ZW50ID0gIkxhcmdlIHdyaXRlIHRlc3QgY29udGVudC4iLnJlcGVhdCgxMjAwMCkKCiAgICByZXR1cm4gbGlzdE9mKAogICAgICAgIFRvb2xHcm91cChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5lbnZfc2V0dXBfZ3JvdXApLCB0cnVlLCBmYWxzZSwgbGlzdE9mKAogICAgICAgICAgICBUb29sVGVzdCgibWFrZV9kaXJlY3RvcnkiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jcmVhdGVfdGVzdF9kaXIpLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jcmVhdGVfdGVzdF9kaXJfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJwYXRoIiwgdGVzdEJhc2VEaXIpLCBUb29sUGFyYW1ldGVyKCJjcmVhdGVfcGFyZW50cyIsICJ0cnVlIikpKSwKICAgICAgICAgICAgVG9vbFRlc3QoImRvd25sb2FkX2ZpbGUiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kb3dubG9hZF90ZXN0X2ltYWdlKSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZG93bmxvYWRfdGVzdF9pbWFnZV9kZXNjKSwgbGlzdE9mKFRvb2xQYXJhbWV0ZXIoInVybCIsICJodHRwczovL3BpY3N1bS5waG90b3MvMTAwIiksIFRvb2xQYXJhbWV0ZXIoImRlc3RpbmF0aW9uIiwgdGVzdEltYWdlKSkpLAogICAgICAgICAgICBUb29sVGVzdCgid3JpdGVfZmlsZSIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmNyZWF0ZV90ZXh0X2ZpbGUpLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jcmVhdGVfdGV4dF9maWxlX2Rlc2MpLCBsaXN0T2YoVG9vbFBhcmFtZXRlcigicGF0aCIsIHRlc3RGaWxlKSwgVG9vbFBhcmFtZXRlcigiY29udGVudCIsICJUaGlzIGlzIGEgdGVzdCBmaWxlIGZvciBPcGVyaXQgdG9vbCB0ZXN0aW5nLiIpKSkKICAgICAgICApKSwKICAgICAgICBUb29sR3JvdXAoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYmFzaWNfaHR0cF9ncm91cCksIGZhbHNlLCBmYWxzZSwgbGlzdE9mKAogICAgICAgICAgICBUb29sVGVzdCgic2xlZXAiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kZWxheV90ZXN0KSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGVsYXlfdGVzdF9kZXNjKSwgbGlzdE9mKFRvb2xQYXJhbWV0ZXIoImR1cmF0aW9uX21zIiwgIjEwMDAiKSkpLAogICAgICAgICAgICBUb29sVGVzdCgiZGV2aWNlX2luZm8iLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kZXZpY2VfaW5mb190ZXN0KSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGV2aWNlX2luZm9fdGVzdF9kZXNjKSwgZW1wdHlMaXN0KCkpLAogICAgICAgICAgICBUb29sVGVzdCgiaHR0cF9yZXF1ZXN0IiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuaHR0cF9nZXRfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmh0dHBfZ2V0X3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJ1cmwiLCAiaHR0cHM6Ly9odHRwYmluLm9yZy9nZXQiKSwgVG9vbFBhcmFtZXRlcigibWV0aG9kIiwgIkdFVCIpKSksCiAgICAgICAgICAgIFRvb2xUZXN0KAogICAgICAgICAgICAgICAgIm11bHRpcGFydF9yZXF1ZXN0IiwKICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfdXBsb2FkX3Rlc3QpLAogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmlsZV91cGxvYWRfdGVzdF9kZXNjKSwKICAgICAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgICAgICBUb29sUGFyYW1ldGVyKCJ1cmwiLCAiaHR0cHM6Ly9odHRwYmluLm9yZy9wb3N0IiksCiAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigibWV0aG9kIiwgIlBPU1QiKSwKICAgICAgICAgICAgICAgICAgICBUb29sUGFyYW1ldGVyKAogICAgICAgICAgICAgICAgICAgICAgICAiZmlsZXMiLAogICAgICAgICAgICAgICAgICAgICAgICAiIiJbeyJmaWVsZF9uYW1lIjoiZmlsZSIsImZpbGVfcGF0aCI6IiR0ZXN0RmlsZSJ9XSIiIgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKSwKICAgICAgICAgICAgVG9vbFRlc3QoIm1hbmFnZV9jb29raWVzIiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFuYWdlX2Nvb2tpZXNfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1hbmFnZV9jb29raWVzX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJhY3Rpb24iLCAiZ2V0IiksIFRvb2xQYXJhbWV0ZXIoImRvbWFpbiIsICJnb29nbGUuY29tIikpKSwKICAgICAgICAgICAgVG9vbFRlc3QoInZpc2l0X3dlYiIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnZpc2l0X3dlYl90ZXN0KSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudmlzaXRfd2ViX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJ1cmwiLCAiaHR0cHM6Ly93d3cuYmFpZHUuY29tIikpKSwKICAgICAgICAgICAgVG9vbFRlc3QoInVzZV9wYWNrYWdlIiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudXNlX3BhY2thZ2VfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVzZV9wYWNrYWdlX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJwYWNrYWdlX25hbWUiLCAibm9uX2V4aXN0ZW50X3BhY2thZ2UiKSkpLAogICAgICAgICAgICBUb29sVGVzdCgicXVlcnlfbWVtb3J5IiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcucXVlcnlfbWVtb3J5X3Rlc3QpLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5xdWVyeV9tZW1vcnlfdGVzdF9kZXNjKSwgbGlzdE9mKFRvb2xQYXJhbWV0ZXIoInF1ZXJ5IiwgInRlc3QiKSkpCiAgICAgICAgKSksCiAgICAgICAgVG9vbEdyb3VwKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfcmVhZG9ubHlfZ3JvdXApLCBmYWxzZSwgZmFsc2UsIGxpc3RPZigKICAgICAgICAgICAgVG9vbFRlc3QoImxpc3RfZmlsZXMiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5saXN0X2ZpbGVzX3Rlc3QpLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5saXN0X2ZpbGVzX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJwYXRoIiwgdGVzdEJhc2VEaXIpKSksCiAgICAgICAgICAgIFRvb2xUZXN0KCJmaWxlX2V4aXN0cyIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfZXhpc3RzX3Rlc3QpLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5maWxlX2V4aXN0c190ZXN0X2Rlc2MpLCBsaXN0T2YoVG9vbFBhcmFtZXRlcigicGF0aCIsIHRlc3RGaWxlKSkpLAogICAgICAgICAgICBUb29sVGVzdCgicmVhZF9maWxlIiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcub2NyX3JlYWRfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm9jcl9yZWFkX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJwYXRoIiwgdGVzdEltYWdlKSkpLAogICAgICAgICAgICBUb29sVGVzdCgicmVhZF9maWxlX3BhcnQiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jaHVua19yZWFkX3Rlc3QpLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jaHVua19yZWFkX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJwYXRoIiwgdGVzdEZpbGUpLCBUb29sUGFyYW1ldGVyKCJwYXJ0SW5kZXgiLCAiMCIpKSksCiAgICAgICAgICAgIFRvb2xUZXN0KCJmaWxlX2luZm8iLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5maWxlX2luZm9fdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfaW5mb190ZXN0X2Rlc2MpLCBsaXN0T2YoVG9vbFBhcmFtZXRlcigicGF0aCIsIHRlc3RGaWxlKSkpLAogICAgICAgICAgICBUb29sVGVzdCgiZmluZF9maWxlcyIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbmRfZmlsZXNfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbmRfZmlsZXNfdGVzdF9kZXNjKSwgbGlzdE9mKFRvb2xQYXJhbWV0ZXIoInBhdGgiLCB0ZXN0QmFzZURpciksIFRvb2xQYXJhbWV0ZXIoInBhdHRlcm4iLCAiKi50eHQiKSkpCiAgICAgICAgKSksCiAgICAgICAgVG9vbEdyb3VwKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZpbGVfd3JpdGVfZ3JvdXApLCB0cnVlLCBmYWxzZSwgbGlzdE9mKAogICAgICAgICAgICBUb29sVGVzdCgKICAgICAgICAgICAgICAgICJ3cml0ZV9maWxlIiwKICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLndyaXRlX2xhcmdlX2ZpbGVfdGVzdCksCiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy53cml0ZV9sYXJnZV9maWxlX3Rlc3RfZGVzYyksCiAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigicGF0aCIsIHRlc3RMYXJnZVdyaXRlRmlsZSksCiAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigiY29udGVudCIsIGxhcmdlV3JpdGVDb250ZW50KQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApLAogICAgICAgICAgICBUb29sVGVzdCgiY29weV9maWxlIiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY29weV9maWxlX3Rlc3QpLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jb3B5X2ZpbGVfdGVzdF9kZXNjKSwgbGlzdE9mKFRvb2xQYXJhbWV0ZXIoInNvdXJjZSIsIHRlc3RGaWxlKSwgVG9vbFBhcmFtZXRlcigiZGVzdGluYXRpb24iLCB0ZXN0RmlsZUNvcHkpKSksCiAgICAgICAgICAgIFRvb2xUZXN0KCJtb3ZlX2ZpbGUiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tb3ZlX2ZpbGVfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1vdmVfZmlsZV90ZXN0X2Rlc2MpLCBsaXN0T2YoVG9vbFBhcmFtZXRlcigic291cmNlIiwgdGVzdEZpbGVDb3B5KSwgVG9vbFBhcmFtZXRlcigiZGVzdGluYXRpb24iLCAiJHRlc3RCYXNlRGlyL21vdmVkX2ZpbGUudHh0IikpKSwKICAgICAgICAgICAgVG9vbFRlc3QoInppcF9maWxlcyIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnppcF9maWxlc190ZXN0KSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuemlwX2ZpbGVzX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJzb3VyY2UiLCB0ZXN0QmFzZURpciksIFRvb2xQYXJhbWV0ZXIoImRlc3RpbmF0aW9uIiwgdGVzdFppcCkpKSwKICAgICAgICAgICAgVG9vbFRlc3QoInVuemlwX2ZpbGVzIiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudW56aXBfZmlsZXNfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVuemlwX2ZpbGVzX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJzb3VyY2UiLCB0ZXN0WmlwKSwgVG9vbFBhcmFtZXRlcigiZGVzdGluYXRpb24iLCB0ZXN0VW56aXBEaXIpKSksCiAgICAgICAgKSksCiAgICAgICAgVG9vbEdyb3VwKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnN5c3RlbV9ncm91cCksIGZhbHNlLCBmYWxzZSwgbGlzdE9mKAogICAgICAgICAgICBUb29sVGVzdCgibGlzdF9pbnN0YWxsZWRfYXBwcyIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmxpc3RfYXBwc190ZXN0KSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubGlzdF9hcHBzX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJpbmNsdWRlX3N5c3RlbV9hcHBzIiwgImZhbHNlIikpKSwKICAgICAgICAgICAgVG9vbFRlc3QoImdldF9ub3RpZmljYXRpb25zIiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZ2V0X25vdGlmaWNhdGlvbnNfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmdldF9ub3RpZmljYXRpb25zX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJsaW1pdCIsICI1IikpKSwKICAgICAgICAgICAgVG9vbFRlc3QoImdldF9kZXZpY2VfbG9jYXRpb24iLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kZXZpY2VfbG9jYXRpb25fdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRldmljZV9sb2NhdGlvbl90ZXN0X2Rlc2MpLCBsaXN0T2YoVG9vbFBhcmFtZXRlcigiaGlnaF9hY2N1cmFjeSIsICJmYWxzZSIpKSksCiAgICAgICAgICAgIFRvb2xUZXN0KCJnZXRfc3lzdGVtX3NldHRpbmciLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5yZWFkX3N5c3RlbV9zZXR0aW5nX3Rlc3QpLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5yZWFkX3N5c3RlbV9zZXR0aW5nX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJzZXR0aW5nIiwgInNjcmVlbl9vZmZfdGltZW91dCIpKSksCiAgICAgICAgICAgIFRvb2xUZXN0KCJtb2RpZnlfc3lzdGVtX3NldHRpbmciLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy53cml0ZV9zeXN0ZW1fc2V0dGluZ190ZXN0KSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcud3JpdGVfc3lzdGVtX3NldHRpbmdfdGVzdF9kZXNjKSwgbGlzdE9mKFRvb2xQYXJhbWV0ZXIoInNldHRpbmciLCAidGVzdF9zZXR0aW5nIiksIFRvb2xQYXJhbWV0ZXIoInZhbHVlIiwgIjEiKSwgVG9vbFBhcmFtZXRlcigibmFtZXNwYWNlIiwgInN5c3RlbSIpKSkKICAgICAgICApKSwKICAgICAgICBUb29sR3JvdXAoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudWlfYXV0b21hdGlvbl9ncm91cCksIGZhbHNlLCBmYWxzZSwgbGlzdE9mKAogICAgICAgICAgICBUb29sVGVzdCgiZ2V0X3BhZ2VfaW5mbyIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnBhZ2VfaW5mb190ZXN0KSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcucGFnZV9pbmZvX3Rlc3RfZGVzYyksIGVtcHR5TGlzdCgpKSwKICAgICAgICAgICAgVG9vbFRlc3QoInByZXNzX2tleSIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNpbXVsYXRlX2tleV90ZXN0KSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2ltdWxhdGVfa2V5X3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJrZXlfY29kZSIsICJLRVlDT0RFX1ZPTFVNRV9VUCIpKSksCiAgICAgICAgICAgIFRvb2xUZXN0KCJzZXRfaW5wdXRfdGV4dCIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnRleHRfaW5wdXRfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnRleHRfaW5wdXRfdGVzdF9kZXNjKSwgbGlzdE9mKFRvb2xQYXJhbWV0ZXIoInRleHQiLCAiSGVsbG8gZnJvbSBPcGVyaXQhIikpKSwKICAgICAgICAgICAgVG9vbFRlc3QoInRhcCIsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNpbXVsYXRlX3RhcF90ZXN0KSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2ltdWxhdGVfdGFwX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJ4IiwgIjEiKSwgVG9vbFBhcmFtZXRlcigieSIsICIxIikpKSwKICAgICAgICAgICAgVG9vbFRlc3QoInN3aXBlIiwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2ltdWxhdGVfc3dpcGVfdGVzdCksIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNpbXVsYXRlX3N3aXBlX3Rlc3RfZGVzYyksIGxpc3RPZihUb29sUGFyYW1ldGVyKCJzdGFydF94IiwgIjUwMCIpLCBUb29sUGFyYW1ldGVyKCJzdGFydF95IiwgIjEwMDAiKSwgVG9vbFBhcmFtZXRlcigiZW5kX3giLCAiNTAwIiksIFRvb2xQYXJhbWV0ZXIoImVuZF95IiwgIjEyMDAiKSkpCiAgICAgICAgKSksCiAgICAgICAgVG9vbEdyb3VwKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmNsZWFudXBfZ3JvdXApLCB0cnVlLCBmYWxzZSwgbGlzdE9mKAogICAgICAgICAgICBUb29sVGVzdCgiZGVsZXRlX2ZpbGUiLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jbGVhbnVwX3Rlc3RfZGlyKSwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY2xlYW51cF90ZXN0X2Rpcl9kZXNjKSwgbGlzdE9mKFRvb2xQYXJhbWV0ZXIoInBhdGgiLCB0ZXN0QmFzZURpciksIFRvb2xQYXJhbWV0ZXIoInJlY3Vyc2l2ZSIsICJ0cnVlIikpKQogICAgICAgICkpCiAgICApCn0KCgpkYXRhIGNsYXNzIFRvb2xUZXN0KHZhbCBpZDogU3RyaW5nLCB2YWwgbmFtZTogU3RyaW5nLCB2YWwgZGVzY3JpcHRpb246IFN0cmluZywgdmFsIHBhcmFtZXRlcnM6IExpc3Q8VG9vbFBhcmFtZXRlcj4pCmRhdGEgY2xhc3MgVG9vbFRlc3RSZXN1bHQodmFsIHN0YXR1czogVGVzdFN0YXR1cywgdmFsIHJlc3VsdDogVG9vbFJlc3VsdD8pCmVudW0gY2xhc3MgVGVzdFN0YXR1cyB7IFNVQ0NFU1MsIEZBSUxFRCwgUlVOTklORyB9CmRhdGEgY2xhc3MgVG9vbEdyb3VwKHZhbCBuYW1lOiBTdHJpbmcsIHZhbCBzZXF1ZW50aWFsOiBCb29sZWFuLCB2YWwgaXNNYW51YWw6IEJvb2xlYW4sIHZhbCB0ZXN0czogTGlzdDxUb29sVGVzdD4pCg==
+package com.bslsjdk.operit.ui.features.toolbox.screens.tooltester
+
+import androidx.compose.animation.animateContentSize
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.grid.GridCells
+import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
+import androidx.compose.foundation.lazy.grid.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.outlined.HelpOutline
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import com.bslsjdk.operit.ui.components.CustomScaffold
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.DialogProperties
+import androidx.navigation.NavController
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolParameter
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.util.OperitPaths
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.delay
+
+/** 工具测试屏幕 - 最终版网格布局 + 中间弹窗详情 */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun ToolTesterScreen(navController: NavController) {
+    val scope = rememberCoroutineScope()
+    val context = LocalContext.current
+    val aiToolHandler = remember { AIToolHandler.getInstance(context) }
+    val focusRequester = remember { FocusRequester() }
+
+    var testResults by remember { mutableStateOf<Map<String, ToolTestResult>>(emptyMap()) }
+    var isTestingAll by remember { mutableStateOf(false) }
+    var selectedTestForDetails by remember { mutableStateOf<ToolTest?>(null) }
+    var showDialog by remember { mutableStateOf(false) }
+    var testInputText by remember { mutableStateOf("") }
+
+    val toolGroups = remember { getFinalToolTestGroups(context) }
+
+    suspend fun runTest(toolTest: ToolTest) {
+        // UI preparation phase on Main thread
+        if (toolTest.id == "set_input_text") {
+            // If the dialog is showing for a single test run, dismiss it first.
+            if (showDialog) {
+                showDialog = false
+                delay(300) // Wait for dialog animation to finish.
+            }
+            focusRequester.requestFocus()
+            delay(100) // Wait for focus to be processed by the system.
+        }
+
+        // Mark test as running on Main thread
+        testResults = testResults.toMutableMap().apply {
+            put(toolTest.id, ToolTestResult(TestStatus.RUNNING, null))
+        }
+
+        // Execution phase on IO thread
+        val result = withContext(Dispatchers.IO) {
+            try {
+                aiToolHandler.executeTool(AITool(toolTest.id, toolTest.parameters))
+            } catch (e: Exception) {
+                ToolResult(toolName = toolTest.id, success = false, result = StringResultData(""), error = e.message ?: "Unknown error")
+            }
+        }
+
+        // Update UI with result on Main thread
+        testResults = testResults.toMutableMap().apply {
+            put(toolTest.id, ToolTestResult(if (result.success) TestStatus.SUCCESS else TestStatus.FAILED, result))
+        }
+    }
+
+    CustomScaffold() { paddingValues ->
+        Column(modifier = Modifier.padding(paddingValues).fillMaxSize().verticalScroll(rememberScrollState())) {
+            // Header Section
+            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text(context.getString(R.string.ai_tools_availability_test), style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Text(context.getString(R.string.ai_tools_grouped_desc), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                
+                OutlinedTextField(
+                    value = testInputText,
+                    onValueChange = { testInputText = it },
+                    label = { Text(context.getString(R.string.test_input_field)) },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .focusRequester(focusRequester)
+                        .testTag("tool_tester_input")
+                )
+
+                Button(
+                    onClick = {
+                        scope.launch {
+                            isTestingAll = true
+                            testResults = emptyMap()
+                            for (group in toolGroups.filter { !it.isManual }) {
+                                if (group.sequential) {
+                                    for (test in group.tests) { runTest(test) }
+                                } else {
+                                    val jobs = group.tests.map { test -> launch { runTest(test) } }
+                                    jobs.forEach { it.join() }
+                                }
+                            }
+                            isTestingAll = false
+                        }
+                    },
+                    modifier = Modifier.fillMaxWidth(),
+                    enabled = !isTestingAll
+                ) {
+                    if (isTestingAll) {
+                        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                            CircularProgressIndicator(modifier = Modifier.size(20.dp), strokeWidth = 2.dp)
+                            Text(context.getString(R.string.batch_testing_in_progress))
+                        }
+                    } else {
+                        Text(context.getString(R.string.start_comprehensive_test))
+                    }
+                }
+            }
+            HorizontalDivider()
+            // Grid Body
+            LazyVerticalGrid(
+                columns = GridCells.Adaptive(minSize = 75.dp),
+                modifier = Modifier.fillMaxWidth().height(800.dp), // 设定一个足够的高度以避免嵌套滚动问题
+                contentPadding = PaddingValues(16.dp),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                toolGroups.forEach { group ->
+                    item(span = { androidx.compose.foundation.lazy.grid.GridItemSpan(maxLineSpan) }) {
+                        Text(
+                            text = group.name,
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold,
+                            modifier = Modifier.padding(top = 8.dp, bottom = 4.dp)
+                        )
+                    }
+                    items(group.tests) { toolTest ->
+                        ToolTestGridItem(
+                            toolTest = toolTest,
+                            testResult = testResults[toolTest.id]
+                        ) {
+                            selectedTestForDetails = it
+                            showDialog = true
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    if (showDialog && selectedTestForDetails != null) {
+        AlertDialog(
+            onDismissRequest = { showDialog = false },
+            modifier = Modifier.fillMaxWidth().padding(16.dp),
+            properties = DialogProperties(
+                dismissOnBackPress = true,
+                dismissOnClickOutside = true
+            )
+        ) {
+            Surface(
+                modifier = Modifier
+                    .fillMaxWidth(),
+                shape = MaterialTheme.shapes.large
+            ) {
+                ToolDetailsSheet(
+                    toolTest = selectedTestForDetails!!,
+                    testResult = testResults[selectedTestForDetails!!.id],
+                    scope = scope,
+                    context = context,
+                    onTest = { test -> scope.launch { runTest(test); } },
+                    onDismiss = { showDialog = false }
+                )
+            }
+        }
+    }
+}
+
+@Composable
+fun ToolTestGridItem(toolTest: ToolTest, testResult: ToolTestResult?, onClick: (ToolTest) -> Unit) {
+    val status = testResult?.status
+    val color = when (status) {
+        TestStatus.SUCCESS -> MaterialTheme.colorScheme.primaryContainer
+        TestStatus.FAILED -> MaterialTheme.colorScheme.errorContainer
+        TestStatus.RUNNING -> MaterialTheme.colorScheme.tertiaryContainer
+        null -> MaterialTheme.colorScheme.surfaceVariant
+    }
+    val contentColor = when (status) {
+        TestStatus.SUCCESS -> MaterialTheme.colorScheme.onPrimaryContainer
+        TestStatus.FAILED -> MaterialTheme.colorScheme.onErrorContainer
+        TestStatus.RUNNING -> MaterialTheme.colorScheme.onTertiaryContainer
+        null -> MaterialTheme.colorScheme.onSurfaceVariant
+    }
+
+    Card(
+        modifier = Modifier.size(65.dp),
+        colors = CardDefaults.cardColors(containerColor = color),
+        onClick = { onClick(toolTest) }
+    ) {
+        Box(
+            modifier = Modifier.fillMaxSize().padding(2.dp),
+            contentAlignment = Alignment.Center
+        ) {
+            Text(toolTest.name, style = MaterialTheme.typography.labelSmall, textAlign = TextAlign.Center, color = contentColor, lineHeight = MaterialTheme.typography.labelSmall.fontSize * 1.1)
+        }
+    }
+}
+
+@Composable
+fun ToolDetailsSheet(
+    toolTest: ToolTest,
+    testResult: ToolTestResult?,
+    scope: CoroutineScope,
+    context: android.content.Context,
+    onTest: (ToolTest) -> Unit,
+    onDismiss: () -> Unit
+) {
+    Column(
+        modifier = Modifier.padding(16.dp).verticalScroll(rememberScrollState()),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            val (icon, color) = when(testResult?.status) {
+                TestStatus.SUCCESS -> Icons.Default.CheckCircle to MaterialTheme.colorScheme.primary
+                TestStatus.FAILED -> Icons.Default.Error to MaterialTheme.colorScheme.error
+                TestStatus.RUNNING -> Icons.Default.HourglassTop to MaterialTheme.colorScheme.tertiary
+                null -> Icons.Outlined.HelpOutline to MaterialTheme.colorScheme.onSurfaceVariant
+            }
+            Icon(icon, contentDescription = "Status", tint = color, modifier = Modifier.size(32.dp))
+            Column {
+                Text(toolTest.name, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Text(toolTest.id, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+        }
+        HorizontalDivider()
+        Text(toolTest.description, style = MaterialTheme.typography.bodyMedium)
+        
+        if (toolTest.parameters.isNotEmpty()) {
+            Text(context.getString(R.string.parameters_label), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Medium)
+            Column(modifier = Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f)).padding(8.dp)) {
+                toolTest.parameters.forEach { param ->
+                    val rawValue = param.value
+                    val preview = if (rawValue.length > 200) {
+                        "${rawValue.take(200)}... (len=${rawValue.length})"
+                    } else {
+                        rawValue
+                    }
+                    Text(" • ${param.name}: $preview", style = MaterialTheme.typography.bodyMedium)
+                }
+            }
+        }
+
+        testResult?.result?.let { result ->
+            Text(context.getString(R.string.detailed_result), style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Medium)
+            val resultText = (if (result.success) result.result.toString() else result.error ?: context.getString(R.string.unknown_error)).take(1000)
+            Text(
+                text = resultText,
+                style = MaterialTheme.typography.bodyMedium,
+                color = if (result.success) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.error,
+                modifier = Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f)).padding(8.dp)
+            )
+        }
+
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)) {
+            TextButton(onClick = onDismiss) { Text(context.getString(R.string.close)) }
+            Button(onClick = { onTest(toolTest) }, enabled = testResult?.status != TestStatus.RUNNING) {
+                Text(context.getString(R.string.retest))
+            }
+        }
+    }
+}
+
+
+private fun getFinalToolTestGroups(context: android.content.Context): List<ToolGroup> {
+    val testBaseDir = OperitPaths.testPathSdcard()
+    val testFile = "$testBaseDir/test_file.txt"
+    val testLargeWriteFile = "$testBaseDir/write_large.txt"
+    val testFileCopy = "$testBaseDir/test_file_copy.txt"
+    val testZip = "$testBaseDir/test.zip"
+    val testUnzipDir = "$testBaseDir/unzipped"
+    val testImage = "$testBaseDir/test_image.png"
+    val largeWriteContent = "Large write test content.".repeat(12000)
+
+    return listOf(
+        ToolGroup(context.getString(R.string.env_setup_group), true, false, listOf(
+            ToolTest("make_directory", context.getString(R.string.create_test_dir), context.getString(R.string.create_test_dir_desc), listOf(ToolParameter("path", testBaseDir), ToolParameter("create_parents", "true"))),
+            ToolTest("download_file", context.getString(R.string.download_test_image), context.getString(R.string.download_test_image_desc), listOf(ToolParameter("url", "https://picsum.photos/100"), ToolParameter("destination", testImage))),
+            ToolTest("write_file", context.getString(R.string.create_text_file), context.getString(R.string.create_text_file_desc), listOf(ToolParameter("path", testFile), ToolParameter("content", "This is a test file for Operit tool testing.")))
+        )),
+        ToolGroup(context.getString(R.string.basic_http_group), false, false, listOf(
+            ToolTest("sleep", context.getString(R.string.delay_test), context.getString(R.string.delay_test_desc), listOf(ToolParameter("duration_ms", "1000"))),
+            ToolTest("device_info", context.getString(R.string.device_info_test), context.getString(R.string.device_info_test_desc), emptyList()),
+            ToolTest("http_request", context.getString(R.string.http_get_test), context.getString(R.string.http_get_test_desc), listOf(ToolParameter("url", "https://httpbin.org/get"), ToolParameter("method", "GET"))),
+            ToolTest(
+                "multipart_request",
+                context.getString(R.string.file_upload_test),
+                context.getString(R.string.file_upload_test_desc),
+                listOf(
+                    ToolParameter("url", "https://httpbin.org/post"),
+                    ToolParameter("method", "POST"),
+                    ToolParameter(
+                        "files",
+                        """[{"field_name":"file","file_path":"$testFile"}]"""
+                    )
+                )
+            ),
+            ToolTest("manage_cookies", context.getString(R.string.manage_cookies_test), context.getString(R.string.manage_cookies_test_desc), listOf(ToolParameter("action", "get"), ToolParameter("domain", "google.com"))),
+            ToolTest("visit_web", context.getString(R.string.visit_web_test), context.getString(R.string.visit_web_test_desc), listOf(ToolParameter("url", "https://www.baidu.com"))),
+            ToolTest("use_package", context.getString(R.string.use_package_test), context.getString(R.string.use_package_test_desc), listOf(ToolParameter("package_name", "non_existent_package"))),
+            ToolTest("query_memory", context.getString(R.string.query_memory_test), context.getString(R.string.query_memory_test_desc), listOf(ToolParameter("query", "test")))
+        )),
+        ToolGroup(context.getString(R.string.file_readonly_group), false, false, listOf(
+            ToolTest("list_files", context.getString(R.string.list_files_test), context.getString(R.string.list_files_test_desc), listOf(ToolParameter("path", testBaseDir))),
+            ToolTest("file_exists", context.getString(R.string.file_exists_test), context.getString(R.string.file_exists_test_desc), listOf(ToolParameter("path", testFile))),
+            ToolTest("read_file", context.getString(R.string.ocr_read_test), context.getString(R.string.ocr_read_test_desc), listOf(ToolParameter("path", testImage))),
+            ToolTest("read_file_part", context.getString(R.string.chunk_read_test), context.getString(R.string.chunk_read_test_desc), listOf(ToolParameter("path", testFile), ToolParameter("partIndex", "0"))),
+            ToolTest("file_info", context.getString(R.string.file_info_test), context.getString(R.string.file_info_test_desc), listOf(ToolParameter("path", testFile))),
+            ToolTest("find_files", context.getString(R.string.find_files_test), context.getString(R.string.find_files_test_desc), listOf(ToolParameter("path", testBaseDir), ToolParameter("pattern", "*.txt")))
+        )),
+        ToolGroup(context.getString(R.string.file_write_group), true, false, listOf(
+            ToolTest(
+                "write_file",
+                context.getString(R.string.write_large_file_test),
+                context.getString(R.string.write_large_file_test_desc),
+                listOf(
+                    ToolParameter("path", testLargeWriteFile),
+                    ToolParameter("content", largeWriteContent)
+                )
+            ),
+            ToolTest("copy_file", context.getString(R.string.copy_file_test), context.getString(R.string.copy_file_test_desc), listOf(ToolParameter("source", testFile), ToolParameter("destination", testFileCopy))),
+            ToolTest("move_file", context.getString(R.string.move_file_test), context.getString(R.string.move_file_test_desc), listOf(ToolParameter("source", testFileCopy), ToolParameter("destination", "$testBaseDir/moved_file.txt"))),
+            ToolTest("zip_files", context.getString(R.string.zip_files_test), context.getString(R.string.zip_files_test_desc), listOf(ToolParameter("source", testBaseDir), ToolParameter("destination", testZip))),
+            ToolTest("unzip_files", context.getString(R.string.unzip_files_test), context.getString(R.string.unzip_files_test_desc), listOf(ToolParameter("source", testZip), ToolParameter("destination", testUnzipDir))),
+        )),
+        ToolGroup(context.getString(R.string.system_group), false, false, listOf(
+            ToolTest("list_installed_apps", context.getString(R.string.list_apps_test), context.getString(R.string.list_apps_test_desc), listOf(ToolParameter("include_system_apps", "false"))),
+            ToolTest("get_notifications", context.getString(R.string.get_notifications_test), context.getString(R.string.get_notifications_test_desc), listOf(ToolParameter("limit", "5"))),
+            ToolTest("get_device_location", context.getString(R.string.device_location_test), context.getString(R.string.device_location_test_desc), listOf(ToolParameter("high_accuracy", "false"))),
+            ToolTest("get_system_setting", context.getString(R.string.read_system_setting_test), context.getString(R.string.read_system_setting_test_desc), listOf(ToolParameter("setting", "screen_off_timeout"))),
+            ToolTest("modify_system_setting", context.getString(R.string.write_system_setting_test), context.getString(R.string.write_system_setting_test_desc), listOf(ToolParameter("setting", "test_setting"), ToolParameter("value", "1"), ToolParameter("namespace", "system")))
+        )),
+        ToolGroup(context.getString(R.string.ui_automation_group), false, false, listOf(
+            ToolTest("get_page_info", context.getString(R.string.page_info_test), context.getString(R.string.page_info_test_desc), emptyList()),
+            ToolTest("press_key", context.getString(R.string.simulate_key_test), context.getString(R.string.simulate_key_test_desc), listOf(ToolParameter("key_code", "KEYCODE_VOLUME_UP"))),
+            ToolTest("set_input_text", context.getString(R.string.text_input_test), context.getString(R.string.text_input_test_desc), listOf(ToolParameter("text", "Hello from Operit!"))),
+            ToolTest("tap", context.getString(R.string.simulate_tap_test), context.getString(R.string.simulate_tap_test_desc), listOf(ToolParameter("x", "1"), ToolParameter("y", "1"))),
+            ToolTest("swipe", context.getString(R.string.simulate_swipe_test), context.getString(R.string.simulate_swipe_test_desc), listOf(ToolParameter("start_x", "500"), ToolParameter("start_y", "1000"), ToolParameter("end_x", "500"), ToolParameter("end_y", "1200")))
+        )),
+        ToolGroup(context.getString(R.string.cleanup_group), true, false, listOf(
+            ToolTest("delete_file", context.getString(R.string.cleanup_test_dir), context.getString(R.string.cleanup_test_dir_desc), listOf(ToolParameter("path", testBaseDir), ToolParameter("recursive", "true")))
+        ))
+    )
+}
+
+
+data class ToolTest(val id: String, val name: String, val description: String, val parameters: List<ToolParameter>)
+data class ToolTestResult(val status: TestStatus, val result: ToolResult?)
+enum class TestStatus { SUCCESS, FAILED, RUNNING }
+data class ToolGroup(val name: String, val sequential: Boolean, val isManual: Boolean, val tests: List<ToolTest>)

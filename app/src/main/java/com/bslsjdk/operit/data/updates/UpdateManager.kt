@@ -1,1 +1,310 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS51cGRhdGVzCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLkxpdmVEYXRhCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuTXV0YWJsZUxpdmVEYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLkdpdEh1YkFwaVNlcnZpY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLlVzZXJQcmVmZXJlbmNlc01hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkdpdGh1YlJlbGVhc2VVdGlsCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgb3JnLmpzb24uSlNPTkFycmF5CgovLyDmm7TmlrDnirbmgIEgLSDnp7vpmaTkuIvovb3nm7jlhbPnirbmgIEKc2VhbGVkIGNsYXNzIFVwZGF0ZVN0YXR1cyB7CiAgICBvYmplY3QgSW5pdGlhbCA6IFVwZGF0ZVN0YXR1cygpCiAgICBvYmplY3QgQ2hlY2tpbmcgOiBVcGRhdGVTdGF0dXMoKQogICAgZGF0YSBjbGFzcyBBdmFpbGFibGUoCiAgICAgICAgICAgIHZhbCBuZXdWZXJzaW9uOiBTdHJpbmcsCiAgICAgICAgICAgIHZhbCB1cGRhdGVVcmw6IFN0cmluZywKICAgICAgICAgICAgdmFsIHJlbGVhc2VOb3RlczogU3RyaW5nLAogICAgICAgICAgICB2YWwgZG93bmxvYWRVcmw6IFN0cmluZyA9ICIiIC8vIOS/neeVmeS4i+i9vVVSTOWtl+auteeUqOS6jua1j+iniOWZqOaJk+W8gAogICAgKSA6IFVwZGF0ZVN0YXR1cygpCiAgICBkYXRhIGNsYXNzIFBhdGNoQXZhaWxhYmxlKAogICAgICAgICAgICB2YWwgbmV3VmVyc2lvbjogU3RyaW5nLAogICAgICAgICAgICB2YWwgdXBkYXRlVXJsOiBTdHJpbmcsCiAgICAgICAgICAgIHZhbCByZWxlYXNlTm90ZXM6IFN0cmluZywKICAgICAgICAgICAgdmFsIHBhdGNoVXJsOiBTdHJpbmcsCiAgICAgICAgICAgIHZhbCBtZXRhVXJsOiBTdHJpbmcKICAgICkgOiBVcGRhdGVTdGF0dXMoKQogICAgb2JqZWN0IFVwVG9EYXRlIDogVXBkYXRlU3RhdHVzKCkKICAgIGRhdGEgY2xhc3MgRXJyb3IodmFsIG1lc3NhZ2U6IFN0cmluZykgOiBVcGRhdGVTdGF0dXMoKQp9CgovKiogVXBkYXRlTWFuYWdlciAtIOWkhOeQhuW6lOeUqOabtOaWsOeahOaguOW/g+exuyDotJ/otKPmo4Dmn6Xmm7TmlrAgKi8KY2xhc3MgVXBkYXRlTWFuYWdlciBwcml2YXRlIGNvbnN0cnVjdG9yKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHByaXZhdGUgdmFsIFRBRyA9ICJVcGRhdGVNYW5hZ2VyIgoKICAgIC8vIOabtOaWsOeKtuaAgUxpdmVEYXRh77yM5Y+v5LuOVUnkuK3op4Llr58KICAgIHByaXZhdGUgdmFsIF91cGRhdGVTdGF0dXMgPSBNdXRhYmxlTGl2ZURhdGE8VXBkYXRlU3RhdHVzPihVcGRhdGVTdGF0dXMuSW5pdGlhbCkKICAgIHZhbCB1cGRhdGVTdGF0dXM6IExpdmVEYXRhPFVwZGF0ZVN0YXR1cz4gPSBfdXBkYXRlU3RhdHVzCgogICAgaW5pdCB7CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiVXBkYXRlTWFuYWdlciBpbml0aWFsaXplZCIpCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgQFZvbGF0aWxlIHByaXZhdGUgdmFyIElOU1RBTkNFOiBVcGRhdGVNYW5hZ2VyPyA9IG51bGwKCiAgICAgICAgZnVuIGdldEluc3RhbmNlKGNvbnRleHQ6IENvbnRleHQpOiBVcGRhdGVNYW5hZ2VyIHsKICAgICAgICAgICAgcmV0dXJuIElOU1RBTkNFCiAgICAgICAgICAgICAgICAgICAgPzogc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGluc3RhbmNlID0gVXBkYXRlTWFuYWdlcihjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkKICAgICAgICAgICAgICAgICAgICAgICAgSU5TVEFOQ0UgPSBpbnN0YW5jZQogICAgICAgICAgICAgICAgICAgICAgICBpbnN0YW5jZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOavlOi+g+S4pOS4queJiOacrOWPtwogICAgICAgICAqIEByZXR1cm4gLTEg5aaC5p6cdjEgPCB2MiwgMCDlpoLmnpwgdjEgPT0gdjIsIDEg5aaC5p6cIHYxID4gdjIKICAgICAgICAgKi8KICAgICAgICBwcml2YXRlIGRhdGEgY2xhc3MgUGFyc2VkVmVyc2lvbih2YWwgbWFqb3I6IEludCwgdmFsIG1pbm9yOiBJbnQsIHZhbCBwYXRjaDogSW50LCB2YWwgcGF0Y2hJbmRleDogSW50KQoKICAgICAgICBwcml2YXRlIGZ1biBiYXNlVmVyc2lvbk9mKHY6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgICAgIHZhbCBzID0gdi50cmltKCkucmVtb3ZlUHJlZml4KCJ2IikKICAgICAgICAgICAgdmFsIHBsdXNJZHggPSBzLmluZGV4T2YoJysnKQogICAgICAgICAgICByZXR1cm4gaWYgKHBsdXNJZHggPj0gMCkgcy5zdWJzdHJpbmcoMCwgcGx1c0lkeCkgZWxzZSBzCiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biBwYXJzZVZlcnNpb24odjogU3RyaW5nKTogUGFyc2VkVmVyc2lvbiB7CiAgICAgICAgICAgIHZhbCBzID0gdi50cmltKCkucmVtb3ZlUHJlZml4KCJ2IikKICAgICAgICAgICAgdmFsIHBsdXNJZHggPSBzLmluZGV4T2YoJysnKQogICAgICAgICAgICB2YWwgYmFzZSA9IGlmIChwbHVzSWR4ID49IDApIHMuc3Vic3RyaW5nKDAsIHBsdXNJZHgpIGVsc2UgcwogICAgICAgICAgICB2YWwgcGF0Y2hJbmRleCA9CiAgICAgICAgICAgICAgICBpZiAocGx1c0lkeCA+PSAwKSBzLnN1YnN0cmluZyhwbHVzSWR4ICsgMSkudG9JbnRPck51bGwoKSA/OiAwIGVsc2UgMAoKICAgICAgICAgICAgdmFsIHBhcnRzID0gYmFzZS5zcGxpdCgiLiIpCiAgICAgICAgICAgIHZhbCBtYWpvciA9IHBhcnRzLmdldE9yTnVsbCgwKT8udG9JbnRPck51bGwoKSA/OiAwCiAgICAgICAgICAgIHZhbCBtaW5vciA9IHBhcnRzLmdldE9yTnVsbCgxKT8udG9JbnRPck51bGwoKSA/OiAwCiAgICAgICAgICAgIHZhbCBwYXRjaCA9IHBhcnRzLmdldE9yTnVsbCgyKT8udG9JbnRPck51bGwoKSA/OiAwCgogICAgICAgICAgICByZXR1cm4gUGFyc2VkVmVyc2lvbihtYWpvciA9IG1ham9yLCBtaW5vciA9IG1pbm9yLCBwYXRjaCA9IHBhdGNoLCBwYXRjaEluZGV4ID0gcGF0Y2hJbmRleCkKICAgICAgICB9CgogICAgICAgIGZ1biBjb21wYXJlVmVyc2lvbnModjE6IFN0cmluZywgdjI6IFN0cmluZyk6IEludCB7CiAgICAgICAgICAgIHZhbCBwMSA9IHBhcnNlVmVyc2lvbih2MSkKICAgICAgICAgICAgdmFsIHAyID0gcGFyc2VWZXJzaW9uKHYyKQoKICAgICAgICAgICAgaWYgKHAxLm1ham9yICE9IHAyLm1ham9yKSByZXR1cm4gcDEubWFqb3IuY29tcGFyZVRvKHAyLm1ham9yKQogICAgICAgICAgICBpZiAocDEubWlub3IgIT0gcDIubWlub3IpIHJldHVybiBwMS5taW5vci5jb21wYXJlVG8ocDIubWlub3IpCiAgICAgICAgICAgIGlmIChwMS5wYXRjaCAhPSBwMi5wYXRjaCkgcmV0dXJuIHAxLnBhdGNoLmNvbXBhcmVUbyhwMi5wYXRjaCkKICAgICAgICAgICAgcmV0dXJuIHAxLnBhdGNoSW5kZXguY29tcGFyZVRvKHAyLnBhdGNoSW5kZXgpCiAgICAgICAgfQoKICAgICAgICAvKiog5qOA5p+l5pu05paw77yM6L+U5Zue5pu05paw54q25oCBIOeUqOS6juS7jk1haW5BY3Rpdml0eeebtOaOpeajgOafpeabtOaWsCAqLwogICAgICAgIHN1c3BlbmQgZnVuIGNoZWNrRm9yVXBkYXRlcyhjb250ZXh0OiBDb250ZXh0LCBjdXJyZW50VmVyc2lvbjogU3RyaW5nKTogVXBkYXRlU3RhdHVzIHsKICAgICAgICAgICAgdmFsIG1hbmFnZXIgPSBnZXRJbnN0YW5jZShjb250ZXh0KQogICAgICAgICAgICByZXR1cm4gbWFuYWdlci5jaGVja0ZvclVwZGF0ZXNJbnRlcm5hbChjdXJyZW50VmVyc2lvbikKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gY2hlY2tGb3JVcGRhdGVzU2lsZW50bHkoY3VycmVudFZlcnNpb246IFN0cmluZykgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgImNoZWNrRm9yVXBkYXRlc1NpbGVudGx5KCkgc3RhcnQ6IGN1cnJlbnRWZXJzaW9uPSRjdXJyZW50VmVyc2lvbiIpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IGNoZWNrRm9yVXBkYXRlc0ludGVybmFsKGN1cnJlbnRWZXJzaW9uKQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJjaGVja0ZvclVwZGF0ZXNTaWxlbnRseSgpIGRvbmU6IHN0YXR1cz0ke3Jlc3VsdDo6Y2xhc3MuamF2YS5zaW1wbGVOYW1lfSIpCiAgICAgICAgICAgIGlmIChyZXN1bHQgaXMgVXBkYXRlU3RhdHVzLkF2YWlsYWJsZSB8fCByZXN1bHQgaXMgVXBkYXRlU3RhdHVzLlBhdGNoQXZhaWxhYmxlKSB7CiAgICAgICAgICAgICAgICBfdXBkYXRlU3RhdHVzLnBvc3RWYWx1ZShyZXN1bHQpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiY2hlY2tGb3JVcGRhdGVzU2lsZW50bHkoKSBmYWlsZWQiLCBlKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5byA5aeL5pu05paw5qOA5p+l5rWB56iLICovCiAgICBzdXNwZW5kIGZ1biBjaGVja0ZvclVwZGF0ZXMoY3VycmVudFZlcnNpb246IFN0cmluZykgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgImNoZWNrRm9yVXBkYXRlcygpIHN0YXJ0OiBjdXJyZW50VmVyc2lvbj0kY3VycmVudFZlcnNpb24iKQogICAgICAgIF91cGRhdGVTdGF0dXMucG9zdFZhbHVlKFVwZGF0ZVN0YXR1cy5DaGVja2luZykKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHJlc3VsdCA9IGNoZWNrRm9yVXBkYXRlc0ludGVybmFsKGN1cnJlbnRWZXJzaW9uKQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJjaGVja0ZvclVwZGF0ZXMoKSBkb25lOiBzdGF0dXM9JHtyZXN1bHQ6OmNsYXNzLmphdmEuc2ltcGxlTmFtZX0iKQogICAgICAgICAgICBfdXBkYXRlU3RhdHVzLnBvc3RWYWx1ZShyZXN1bHQpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlVwZGF0ZSBjaGVjayBmYWlsZWQiLCBlKQogICAgICAgICAgICBfdXBkYXRlU3RhdHVzLnBvc3RWYWx1ZShVcGRhdGVTdGF0dXMuRXJyb3IoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudXBkYXRlX2NoZWNrX2ZhaWxlZCwgZS5tZXNzYWdlKSkpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDmo4Dmn6Xmm7TmlrDnmoTlhoXpg6jlrp7njrAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gY2hlY2tGb3JVcGRhdGVzSW50ZXJuYWwoY3VycmVudFZlcnNpb246IFN0cmluZyk6IFVwZGF0ZVN0YXR1cyB7CiAgICAgICAgcmV0dXJuIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgYmV0YUVuYWJsZWQgPSB0cnkgewogICAgICAgICAgICAgICAgICAgIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dCkuaXNCZXRhUGxhbkVuYWJsZWQoKQogICAgICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJjaGVja0ZvclVwZGF0ZXNJbnRlcm5hbCgpOiBjdXJyZW50VmVyc2lvbj0kY3VycmVudFZlcnNpb24gYmV0YUVuYWJsZWQ9JGJldGFFbmFibGVkIikKCiAgICAgICAgICAgICAgICB2YWwgcGF0Y2hVcGRhdGU6IFVwZGF0ZVN0YXR1cz8gPQogICAgICAgICAgICAgICAgICAgIGlmIChiZXRhRW5hYmxlZCkgewogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJiZXRhIGVuYWJsZWQsIHRyeWluZyBwYXRjaCB1cGRhdGUgcmVsZWFzZXMuLi4iKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcGF0Y2ggPSB0cnlGZXRjaExhdGVzdFBhdGNoVXBkYXRlKGN1cnJlbnRWZXJzaW9uKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAocGF0Y2ggIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHAgPSBwYXRjaCBhcz8gVXBkYXRlU3RhdHVzLlBhdGNoQXZhaWxhYmxlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuaSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgInBhdGNoIHVwZGF0ZSBmb3VuZDogbmV3VmVyc2lvbj0ke3A/Lm5ld1ZlcnNpb259IHBhdGNoVXJsPSR7cD8ucGF0Y2hVcmx9IG1ldGFVcmw9JHtwPy5tZXRhVXJsfSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIm5vIHBhdGNoIHVwZGF0ZSBmb3VuZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgcGF0Y2gKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOS7juWtl+espuS4sui1hOa6kOS4reiOt+WPlkdpdEh1YuS7k+W6k+S/oeaBrwogICAgICAgICAgICAgICAgdmFsIGFib3V0V2Vic2l0ZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFib3V0X3dlYnNpdGUpCgogICAgICAgICAgICAgICAgLy8g6Kej5p6QR2l0SHVi5LuT5bqT6ZO+5o6lIC0g5aSE55CGSFRNTOagvOW8jwogICAgICAgICAgICAgICAgdmFsIGh0bWxDb250ZW50ID0gYWJvdXRXZWJzaXRlLnJlcGxhY2UoIiZsdDsiLCAiPCIpLnJlcGxhY2UoIiZndDsiLCAiPiIpCiAgICAgICAgICAgICAgICB2YWwgZ2l0aHViVXJsUGF0dGVybiA9ICJodHRwczovL2dpdGh1Yi5jb20vKFteL1wiPD5dKykvKFteL1wiPD5dKykiLnRvUmVnZXgoKQogICAgICAgICAgICAgICAgdmFsIG1hdGNoUmVzdWx0ID0gZ2l0aHViVXJsUGF0dGVybi5maW5kKGh0bWxDb250ZW50KQoKICAgICAgICAgICAgICAgIHZhbCAocmVwb093bmVyLCByZXBvTmFtZSkgPQogICAgICAgICAgICAgICAgICAgICAgICBpZiAobWF0Y2hSZXN1bHQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgUGFpcihtYXRjaFJlc3VsdC5ncm91cFZhbHVlc1sxXSwgbWF0Y2hSZXN1bHQuZ3JvdXBWYWx1ZXNbMl0pCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBQYWlyKCJBQXN3b3JkbWFuIiwgIk9wZXJpdCIpIC8vIOm7mOiupOWAvAogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdmFsIGdpdGh1YlJlbGVhc2VVdGlsID0gR2l0aHViUmVsZWFzZVV0aWwoY29udGV4dCkKICAgICAgICAgICAgICAgIHZhbCByZWxlYXNlSW5mbyA9IGdpdGh1YlJlbGVhc2VVdGlsLmZldGNoTGF0ZXN0UmVsZWFzZUluZm8ocmVwb093bmVyLCByZXBvTmFtZSkKCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICAgICAgICAgIm5vcm1hbCByZWxlYXNlIGNoZWNrOiByZXBvPSRyZXBvT3duZXIvJHJlcG9OYW1lIHJlbGVhc2VJbmZvPSR7cmVsZWFzZUluZm8/LnZlcnNpb259IgogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIGlmIChyZWxlYXNlSW5mbyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIG5vcm1hbFVwZGF0ZTogVXBkYXRlU3RhdHVzID0KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNvbXBhcmVWZXJzaW9ucyhyZWxlYXNlSW5mby52ZXJzaW9uLCBjdXJyZW50VmVyc2lvbikgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBVcGRhdGVTdGF0dXMuQXZhaWxhYmxlKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV3VmVyc2lvbiA9IHJlbGVhc2VJbmZvLnZlcnNpb24sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB1cGRhdGVVcmwgPSByZWxlYXNlSW5mby5yZWxlYXNlUGFnZVVybCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlbGVhc2VOb3RlcyA9IHJlbGVhc2VJbmZvLnJlbGVhc2VOb3RlcywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRvd25sb2FkVXJsID0gcmVsZWFzZUluZm8uZG93bmxvYWRVcmwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFVwZGF0ZVN0YXR1cy5VcFRvRGF0ZQogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHZhbCBwYXRjaCA9IHBhdGNoVXBkYXRlIGFzPyBVcGRhdGVTdGF0dXMuUGF0Y2hBdmFpbGFibGUKICAgICAgICAgICAgICAgICAgICB2YWwgbm9ybWFsID0gbm9ybWFsVXBkYXRlIGFzPyBVcGRhdGVTdGF0dXMuQXZhaWxhYmxlCiAgICAgICAgICAgICAgICAgICAgaWYgKHBhdGNoICE9IG51bGwgJiYgbm9ybWFsICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGZpbmFsU3RhdHVzID0gaWYgKGNvbXBhcmVWZXJzaW9ucyhub3JtYWwubmV3VmVyc2lvbiwgcGF0Y2gubmV3VmVyc2lvbikgPj0gMCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9ybWFsVXBkYXRlCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXRjaFVwZGF0ZQogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgZmluYWxTdGF0dXMKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIHZhbCBmaW5hbFN0YXR1cyA9IHBhdGNoVXBkYXRlID86IG5vcm1hbFVwZGF0ZQogICAgICAgICAgICAgICAgICAgIGZpbmFsU3RhdHVzCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHZhbCBmaW5hbFN0YXR1cyA9IHBhdGNoVXBkYXRlID86IFVwZGF0ZVN0YXR1cy5FcnJvcihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51cGRhdGVfY2Fubm90X2ZldGNoX2luZm8pKQogICAgICAgICAgICAgICAgICAgIGZpbmFsU3RhdHVzCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgY2hlY2tpbmcgZm9yIHVwZGF0ZXMiLCBlKQogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFVwZGF0ZVN0YXR1cy5FcnJvcihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51cGRhdGVfY2hlY2tfZmFpbGVkLCBlLm1lc3NhZ2UpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gdHJ5RmV0Y2hMYXRlc3RQYXRjaFVwZGF0ZShjdXJyZW50VmVyc2lvbjogU3RyaW5nKTogVXBkYXRlU3RhdHVzPyB7CiAgICAgICAgdmFsIGFwaSA9IEdpdEh1YkFwaVNlcnZpY2UoY29udGV4dCkKCiAgICAgICAgdmFsIG93bmVyID0gIkFBc3dvcmRtYW4iCiAgICAgICAgdmFsIHJlcG8gPSAiT3Blcml0TmlnaHRseVJlbGVhc2UiCgogICAgICAgIEFwcExvZ2dlci5kKFRBRywgInRyeUZldGNoTGF0ZXN0UGF0Y2hVcGRhdGUoKTogY3VycmVudFZlcnNpb249JGN1cnJlbnRWZXJzaW9uIHJlcG89JG93bmVyLyRyZXBvIikKICAgICAgICB2YWwgcmVzdWx0ID0gYXBpLmdldFJlcG9zaXRvcnlSZWxlYXNlcyhvd25lciA9IG93bmVyLCByZXBvID0gcmVwbywgcGFnZSA9IDEsIHBlclBhZ2UgPSAyMCkKCiAgICAgICAgcmVzdWx0LmV4Y2VwdGlvbk9yTnVsbCgpPy5sZXQgeyBlIC0+CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgInRyeUZldGNoTGF0ZXN0UGF0Y2hVcGRhdGUoKTogYXBpIGdldFJlcG9zaXRvcnlSZWxlYXNlcyBmYWlsZWQiLCBlKQogICAgICAgIH0KCiAgICAgICAgdmFsIHJlbGVhc2VzID0gcmVzdWx0LmdldE9yTnVsbCgpID86IHJldHVybiBudWxsCgogICAgICAgIEFwcExvZ2dlci5kKFRBRywgInRyeUZldGNoTGF0ZXN0UGF0Y2hVcGRhdGUoKTogZmV0Y2hlZCByZWxlYXNlcz0ke3JlbGVhc2VzLnNpemV9IikKICAgICAgICB2YWwgY3VycmVudEJhc2UgPSBiYXNlVmVyc2lvbk9mKGN1cnJlbnRWZXJzaW9uKQoKICAgICAgICB2YXIgbWF0Y2hlZEJhc2UgPSAwCiAgICAgICAgdmFyIG5ld2VyVGhhbkN1cnJlbnQgPSAwCiAgICAgICAgdmFyIHdpdGhBc3NldHMgPSAwCiAgICAgICAgdmFyIGJlc3Q6IFVwZGF0ZVN0YXR1cy5QYXRjaEF2YWlsYWJsZT8gPSBudWxsCiAgICAgICAgdmFyIGJlc3RWZXJzaW9uID0gIiIKCiAgICAgICAgZm9yIChyIGluIHJlbGVhc2VzKSB7CiAgICAgICAgICAgIGlmIChyLmRyYWZ0KSBjb250aW51ZQoKICAgICAgICAgICAgdmFsIHRhZyA9IHIudGFnX25hbWUKICAgICAgICAgICAgdmFsIHZlcnNpb24gPSB0YWcucmVtb3ZlUHJlZml4KCJ2IikKCiAgICAgICAgICAgIC8vIFBhdGNoIHVwZGF0ZXMgYXJlIG9ubHkgdmFsaWQgd2l0aGluIHRoZSBzYW1lIGJhc2UgdmVyc2lvbiAoeC55LnopLgogICAgICAgICAgICAvLyBUaGlzIHByZXZlbnRzIGNhc2VzIGxpa2UgMS43LjArMSBiZWluZyBvZmZlcmVkIDEuNy4xKzMgKHNob3VsZCB0YWtlIDEuNy4xIGZ1bGwgQVBLIGZpcnN0KS4KICAgICAgICAgICAgaWYgKGJhc2VWZXJzaW9uT2YodmVyc2lvbikgIT0gY3VycmVudEJhc2UpIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG1hdGNoZWRCYXNlICs9IDEKCiAgICAgICAgICAgIGlmIChjb21wYXJlVmVyc2lvbnModmVyc2lvbiwgY3VycmVudFZlcnNpb24pIDw9IDApIHsKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG5ld2VyVGhhbkN1cnJlbnQgKz0gMQoKICAgICAgICAgICAgdmFsIG1ldGFBc3NldCA9CiAgICAgICAgICAgICAgICByLmFzc2V0cy5maXJzdE9yTnVsbCB7IGl0Lm5hbWUuc3RhcnRzV2l0aCgicGF0Y2hfIikgJiYgaXQubmFtZS5lbmRzV2l0aCgiLmpzb24iKSB9CiAgICAgICAgICAgICAgICAgICAgPzogci5hc3NldHMuZmlyc3RPck51bGwgeyBpdC5uYW1lLmVuZHNXaXRoKCIuanNvbiIpIH0KICAgICAgICAgICAgdmFsIHBhdGNoQXNzZXQgPQogICAgICAgICAgICAgICAgci5hc3NldHMuZmlyc3RPck51bGwgeyBpdC5uYW1lLnN0YXJ0c1dpdGgoImFwa3Jhd3BhdGNoXyIpICYmIGl0Lm5hbWUuZW5kc1dpdGgoIi56aXAiKSB9CiAgICAgICAgICAgICAgICAgICAgPzogci5hc3NldHMuZmlyc3RPck51bGwgeyBpdC5uYW1lLmVuZHNXaXRoKCIuemlwIikgfQogICAgICAgICAgICBpZiAobWV0YUFzc2V0ID09IG51bGwgfHwgcGF0Y2hBc3NldCA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICAgICAgICAgInBhdGNoIHNraXA6IHRhZz0kdGFnIHZlcnNpb249JHZlcnNpb24gaGFzUGF0Y2g9JHtwYXRjaEFzc2V0ICE9IG51bGx9IGhhc01ldGE9JHttZXRhQXNzZXQgIT0gbnVsbH0iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICB9CgogICAgICAgICAgICB3aXRoQXNzZXRzICs9IDEKCiAgICAgICAgICAgIEFwcExvZ2dlci5kKAogICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgInBhdGNoIGNhbmRpZGF0ZTogdGFnPSR0YWcgdmVyc2lvbj0kdmVyc2lvbiBwYXRjaD0ke3BhdGNoQXNzZXQubmFtZX0gbWV0YT0ke21ldGFBc3NldC5uYW1lfSIKICAgICAgICAgICAgKQoKICAgICAgICAgICAgaWYgKGJlc3QgPT0gbnVsbCB8fCBjb21wYXJlVmVyc2lvbnModmVyc2lvbiwgYmVzdFZlcnNpb24pID4gMCkgewogICAgICAgICAgICAgICAgYmVzdFZlcnNpb24gPSB2ZXJzaW9uCiAgICAgICAgICAgICAgICBiZXN0ID0gVXBkYXRlU3RhdHVzLlBhdGNoQXZhaWxhYmxlKAogICAgICAgICAgICAgICAgICAgIG5ld1ZlcnNpb24gPSB2ZXJzaW9uLAogICAgICAgICAgICAgICAgICAgIHVwZGF0ZVVybCA9IHIuaHRtbF91cmwsCiAgICAgICAgICAgICAgICAgICAgcmVsZWFzZU5vdGVzID0gci5ib2R5ID86ICIiLAogICAgICAgICAgICAgICAgICAgIHBhdGNoVXJsID0gcGF0Y2hBc3NldC5icm93c2VyX2Rvd25sb2FkX3VybCwKICAgICAgICAgICAgICAgICAgICBtZXRhVXJsID0gbWV0YUFzc2V0LmJyb3dzZXJfZG93bmxvYWRfdXJsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIEFwcExvZ2dlci5kKAogICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICJ0cnlGZXRjaExhdGVzdFBhdGNoVXBkYXRlKCk6IHNjYW4gZG9uZSBtYXRjaGVkQmFzZT0kbWF0Y2hlZEJhc2UgbmV3ZXJUaGFuQ3VycmVudD0kbmV3ZXJUaGFuQ3VycmVudCB3aXRoQXNzZXRzPSR3aXRoQXNzZXRzIGJlc3Q9JGJlc3RWZXJzaW9uIgogICAgICAgICkKCiAgICAgICAgaWYgKGJlc3QgPT0gbnVsbCkgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJ0cnlGZXRjaExhdGVzdFBhdGNoVXBkYXRlKCk6IG5vIHZhbGlkIHBhdGNoIGNhbmRpZGF0ZXMiKQogICAgICAgIH0KICAgICAgICByZXR1cm4gYmVzdAogICAgfQp9Cg==
+package com.bslsjdk.operit.data.updates
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.api.GitHubApiService
+import com.bslsjdk.operit.data.preferences.UserPreferencesManager
+import com.bslsjdk.operit.util.GithubReleaseUtil
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONArray
+
+// 更新状态 - 移除下载相关状态
+sealed class UpdateStatus {
+    object Initial : UpdateStatus()
+    object Checking : UpdateStatus()
+    data class Available(
+            val newVersion: String,
+            val updateUrl: String,
+            val releaseNotes: String,
+            val downloadUrl: String = "" // 保留下载URL字段用于浏览器打开
+    ) : UpdateStatus()
+    data class PatchAvailable(
+            val newVersion: String,
+            val updateUrl: String,
+            val releaseNotes: String,
+            val patchUrl: String,
+            val metaUrl: String
+    ) : UpdateStatus()
+    object UpToDate : UpdateStatus()
+    data class Error(val message: String) : UpdateStatus()
+}
+
+/** UpdateManager - 处理应用更新的核心类 负责检查更新 */
+class UpdateManager private constructor(private val context: Context) {
+    private val TAG = "UpdateManager"
+
+    // 更新状态LiveData，可从UI中观察
+    private val _updateStatus = MutableLiveData<UpdateStatus>(UpdateStatus.Initial)
+    val updateStatus: LiveData<UpdateStatus> = _updateStatus
+
+    init {
+        AppLogger.d(TAG, "UpdateManager initialized")
+    }
+
+    companion object {
+        @Volatile private var INSTANCE: UpdateManager? = null
+
+        fun getInstance(context: Context): UpdateManager {
+            return INSTANCE
+                    ?: synchronized(this) {
+                        val instance = UpdateManager(context.applicationContext)
+                        INSTANCE = instance
+                        instance
+                    }
+        }
+
+        /**
+         * 比较两个版本号
+         * @return -1 如果v1 < v2, 0 如果 v1 == v2, 1 如果 v1 > v2
+         */
+        private data class ParsedVersion(val major: Int, val minor: Int, val patch: Int, val patchIndex: Int)
+
+        private fun baseVersionOf(v: String): String {
+            val s = v.trim().removePrefix("v")
+            val plusIdx = s.indexOf('+')
+            return if (plusIdx >= 0) s.substring(0, plusIdx) else s
+        }
+
+        private fun parseVersion(v: String): ParsedVersion {
+            val s = v.trim().removePrefix("v")
+            val plusIdx = s.indexOf('+')
+            val base = if (plusIdx >= 0) s.substring(0, plusIdx) else s
+            val patchIndex =
+                if (plusIdx >= 0) s.substring(plusIdx + 1).toIntOrNull() ?: 0 else 0
+
+            val parts = base.split(".")
+            val major = parts.getOrNull(0)?.toIntOrNull() ?: 0
+            val minor = parts.getOrNull(1)?.toIntOrNull() ?: 0
+            val patch = parts.getOrNull(2)?.toIntOrNull() ?: 0
+
+            return ParsedVersion(major = major, minor = minor, patch = patch, patchIndex = patchIndex)
+        }
+
+        fun compareVersions(v1: String, v2: String): Int {
+            val p1 = parseVersion(v1)
+            val p2 = parseVersion(v2)
+
+            if (p1.major != p2.major) return p1.major.compareTo(p2.major)
+            if (p1.minor != p2.minor) return p1.minor.compareTo(p2.minor)
+            if (p1.patch != p2.patch) return p1.patch.compareTo(p2.patch)
+            return p1.patchIndex.compareTo(p2.patchIndex)
+        }
+
+        /** 检查更新，返回更新状态 用于从MainActivity直接检查更新 */
+        suspend fun checkForUpdates(context: Context, currentVersion: String): UpdateStatus {
+            val manager = getInstance(context)
+            return manager.checkForUpdatesInternal(currentVersion)
+        }
+    }
+
+    suspend fun checkForUpdatesSilently(currentVersion: String) {
+        AppLogger.d(TAG, "checkForUpdatesSilently() start: currentVersion=$currentVersion")
+        try {
+            val result = checkForUpdatesInternal(currentVersion)
+            AppLogger.d(TAG, "checkForUpdatesSilently() done: status=${result::class.java.simpleName}")
+            if (result is UpdateStatus.Available || result is UpdateStatus.PatchAvailable) {
+                _updateStatus.postValue(result)
+            }
+        } catch (e: Exception) {
+            AppLogger.w(TAG, "checkForUpdatesSilently() failed", e)
+        }
+    }
+
+    /** 开始更新检查流程 */
+    suspend fun checkForUpdates(currentVersion: String) {
+        AppLogger.d(TAG, "checkForUpdates() start: currentVersion=$currentVersion")
+        _updateStatus.postValue(UpdateStatus.Checking)
+
+        try {
+            val result = checkForUpdatesInternal(currentVersion)
+            AppLogger.d(TAG, "checkForUpdates() done: status=${result::class.java.simpleName}")
+            _updateStatus.postValue(result)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Update check failed", e)
+            _updateStatus.postValue(UpdateStatus.Error(context.getString(R.string.update_check_failed, e.message)))
+        }
+    }
+
+    /** 检查更新的内部实现 */
+    private suspend fun checkForUpdatesInternal(currentVersion: String): UpdateStatus {
+        return withContext(Dispatchers.IO) {
+            try {
+                val betaEnabled = try {
+                    UserPreferencesManager.getInstance(context).isBetaPlanEnabled()
+                } catch (_: Exception) {
+                    false
+                }
+
+                AppLogger.d(TAG, "checkForUpdatesInternal(): currentVersion=$currentVersion betaEnabled=$betaEnabled")
+
+                val patchUpdate: UpdateStatus? =
+                    if (betaEnabled) {
+                        AppLogger.d(TAG, "beta enabled, trying patch update releases...")
+                        val patch = tryFetchLatestPatchUpdate(currentVersion)
+                        if (patch != null) {
+                            val p = patch as? UpdateStatus.PatchAvailable
+                            AppLogger.i(
+                                TAG,
+                                "patch update found: newVersion=${p?.newVersion} patchUrl=${p?.patchUrl} metaUrl=${p?.metaUrl}"
+                            )
+                        } else {
+                            AppLogger.d(TAG, "no patch update found")
+                        }
+                        patch
+                    } else {
+                        null
+                    }
+
+                // 从字符串资源中获取GitHub仓库信息
+                val aboutWebsite = context.getString(R.string.about_website)
+
+                // 解析GitHub仓库链接 - 处理HTML格式
+                val htmlContent = aboutWebsite.replace("&lt;", "<").replace("&gt;", ">")
+                val githubUrlPattern = "https://github.com/([^/\"<>]+)/([^/\"<>]+)".toRegex()
+                val matchResult = githubUrlPattern.find(htmlContent)
+
+                val (repoOwner, repoName) =
+                        if (matchResult != null) {
+                            Pair(matchResult.groupValues[1], matchResult.groupValues[2])
+                        } else {
+                            Pair("AAswordman", "Operit") // 默认值
+                        }
+
+                val githubReleaseUtil = GithubReleaseUtil(context)
+                val releaseInfo = githubReleaseUtil.fetchLatestReleaseInfo(repoOwner, repoName)
+
+                AppLogger.d(
+                    TAG,
+                    "normal release check: repo=$repoOwner/$repoName releaseInfo=${releaseInfo?.version}"
+                )
+
+                if (releaseInfo != null) {
+                    val normalUpdate: UpdateStatus =
+                        if (compareVersions(releaseInfo.version, currentVersion) > 0) {
+                            UpdateStatus.Available(
+                            newVersion = releaseInfo.version,
+                            updateUrl = releaseInfo.releasePageUrl,
+                            releaseNotes = releaseInfo.releaseNotes,
+                            downloadUrl = releaseInfo.downloadUrl
+                            )
+                        } else {
+                            UpdateStatus.UpToDate
+                        }
+
+                    val patch = patchUpdate as? UpdateStatus.PatchAvailable
+                    val normal = normalUpdate as? UpdateStatus.Available
+                    if (patch != null && normal != null) {
+                        val finalStatus = if (compareVersions(normal.newVersion, patch.newVersion) >= 0) {
+                            normalUpdate
+                        } else {
+                            patchUpdate
+                        }
+
+                        return@withContext finalStatus
+                    }
+
+                    val finalStatus = patchUpdate ?: normalUpdate
+                    finalStatus
+                } else {
+                    val finalStatus = patchUpdate ?: UpdateStatus.Error(context.getString(R.string.update_cannot_fetch_info))
+                    finalStatus
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error checking for updates", e)
+                return@withContext UpdateStatus.Error(context.getString(R.string.update_check_failed, e.message))
+            }
+        }
+    }
+
+    private suspend fun tryFetchLatestPatchUpdate(currentVersion: String): UpdateStatus? {
+        val api = GitHubApiService(context)
+
+        val owner = "AAswordman"
+        val repo = "OperitNightlyRelease"
+
+        AppLogger.d(TAG, "tryFetchLatestPatchUpdate(): currentVersion=$currentVersion repo=$owner/$repo")
+        val result = api.getRepositoryReleases(owner = owner, repo = repo, page = 1, perPage = 20)
+
+        result.exceptionOrNull()?.let { e ->
+            AppLogger.w(TAG, "tryFetchLatestPatchUpdate(): api getRepositoryReleases failed", e)
+        }
+
+        val releases = result.getOrNull() ?: return null
+
+        AppLogger.d(TAG, "tryFetchLatestPatchUpdate(): fetched releases=${releases.size}")
+        val currentBase = baseVersionOf(currentVersion)
+
+        var matchedBase = 0
+        var newerThanCurrent = 0
+        var withAssets = 0
+        var best: UpdateStatus.PatchAvailable? = null
+        var bestVersion = ""
+
+        for (r in releases) {
+            if (r.draft) continue
+
+            val tag = r.tag_name
+            val version = tag.removePrefix("v")
+
+            // Patch updates are only valid within the same base version (x.y.z).
+            // This prevents cases like 1.7.0+1 being offered 1.7.1+3 (should take 1.7.1 full APK first).
+            if (baseVersionOf(version) != currentBase) {
+                continue
+            }
+
+            matchedBase += 1
+
+            if (compareVersions(version, currentVersion) <= 0) {
+                continue
+            }
+
+            newerThanCurrent += 1
+
+            val metaAsset =
+                r.assets.firstOrNull { it.name.startsWith("patch_") && it.name.endsWith(".json") }
+                    ?: r.assets.firstOrNull { it.name.endsWith(".json") }
+            val patchAsset =
+                r.assets.firstOrNull { it.name.startsWith("apkrawpatch_") && it.name.endsWith(".zip") }
+                    ?: r.assets.firstOrNull { it.name.endsWith(".zip") }
+            if (metaAsset == null || patchAsset == null) {
+                AppLogger.d(
+                    TAG,
+                    "patch skip: tag=$tag version=$version hasPatch=${patchAsset != null} hasMeta=${metaAsset != null}"
+                )
+                continue
+            }
+
+            withAssets += 1
+
+            AppLogger.d(
+                TAG,
+                "patch candidate: tag=$tag version=$version patch=${patchAsset.name} meta=${metaAsset.name}"
+            )
+
+            if (best == null || compareVersions(version, bestVersion) > 0) {
+                bestVersion = version
+                best = UpdateStatus.PatchAvailable(
+                    newVersion = version,
+                    updateUrl = r.html_url,
+                    releaseNotes = r.body ?: "",
+                    patchUrl = patchAsset.browser_download_url,
+                    metaUrl = metaAsset.browser_download_url
+                )
+            }
+        }
+
+        AppLogger.d(
+            TAG,
+            "tryFetchLatestPatchUpdate(): scan done matchedBase=$matchedBase newerThanCurrent=$newerThanCurrent withAssets=$withAssets best=$bestVersion"
+        )
+
+        if (best == null) {
+            AppLogger.d(TAG, "tryFetchLatestPatchUpdate(): no valid patch candidates")
+        }
+        return best
+    }
+}

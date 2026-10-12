@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkxvY2FsRGF0ZVRpbWVTZXJpYWxpemVyCmltcG9ydCBqYXZhLnV0aWwuVVVJRAppbXBvcnQgamF2YS50aW1lLkxvY2FsRGF0ZVRpbWUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBDaGF0SGlzdG9yeSgKICAgIHZhbCBpZDogU3RyaW5nID0gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKSwKICAgIHZhbCB0aXRsZTogU3RyaW5nLAogICAgdmFsIG1lc3NhZ2VzOiBMaXN0PENoYXRNZXNzYWdlPiwKICAgIEBTZXJpYWxpemFibGUod2l0aCA9IExvY2FsRGF0ZVRpbWVTZXJpYWxpemVyOjpjbGFzcykKICAgIHZhbCBjcmVhdGVkQXQ6IExvY2FsRGF0ZVRpbWUgPSBMb2NhbERhdGVUaW1lLm5vdygpLAogICAgQFNlcmlhbGl6YWJsZSh3aXRoID0gTG9jYWxEYXRlVGltZVNlcmlhbGl6ZXI6OmNsYXNzKQogICAgdmFsIHVwZGF0ZWRBdDogTG9jYWxEYXRlVGltZSA9IExvY2FsRGF0ZVRpbWUubm93KCksCiAgICB2YWwgaW5wdXRUb2tlbnM6IExvbmcgPSAwTCwKICAgIHZhbCBvdXRwdXRUb2tlbnM6IExvbmcgPSAwTCwKICAgIHZhbCBjdXJyZW50V2luZG93U2l6ZTogTG9uZyA9IDBMLAogICAgdmFsIGdyb3VwOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBkaXNwbGF5T3JkZXI6IExvbmcgPSAwTCwKICAgIHZhbCB3b3Jrc3BhY2U6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHdvcmtzcGFjZUVudjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgcGFyZW50Q2hhdElkOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBjaGFyYWN0ZXJDYXJkTmFtZTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgY2hhcmFjdGVyR3JvdXBJZDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgbG9ja2VkOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgcGlubmVkOiBCb29sZWFuID0gZmFsc2UKKQo=
+package com.bslsjdk.operit.data.model
+
+import com.bslsjdk.operit.util.LocalDateTimeSerializer
+import java.util.UUID
+import java.time.LocalDateTime
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class ChatHistory(
+    val id: String = UUID.randomUUID().toString(),
+    val title: String,
+    val messages: List<ChatMessage>,
+    @Serializable(with = LocalDateTimeSerializer::class)
+    val createdAt: LocalDateTime = LocalDateTime.now(),
+    @Serializable(with = LocalDateTimeSerializer::class)
+    val updatedAt: LocalDateTime = LocalDateTime.now(),
+    val inputTokens: Long = 0L,
+    val outputTokens: Long = 0L,
+    val currentWindowSize: Long = 0L,
+    val group: String? = null,
+    val displayOrder: Long = 0L,
+    val workspace: String? = null,
+    val workspaceEnv: String? = null,
+    val parentChatId: String? = null,
+    val characterCardName: String? = null,
+    val characterGroupId: String? = null,
+    val locked: Boolean = false,
+    val pinned: Boolean = false
+)

@@ -1,1 +1,289 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jYWxjdWxhdG9yCgppbXBvcnQgb3JnLmp1bml0LkFmdGVyCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgRXhwcmVzc2lvbk5vZGVUZXN0IHsKCiAgICBAQWZ0ZXIKICAgIGZ1biB0ZWFyRG93bigpIHsKICAgICAgICBFeHByZXNzaW9uQ29udGV4dC5jbGVhclZhcmlhYmxlcygpCiAgICB9CgogICAgQFRlc3QgZnVuIGBudW1iZXIgbm9kZSBldmFsdWF0ZXMgdG8gaXRzIHZhbHVlYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoNDIuMCwgTnVtYmVyTm9kZSg0Mi4wKS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG51bWJlciBub2RlIGV2YWx1YXRlcyB0byB6ZXJvYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMC4wLCBOdW1iZXJOb2RlKDAuMCkuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBudW1iZXIgbm9kZSBldmFsdWF0ZXMgdG8gbmVnYXRpdmUgdmFsdWVgKCkgewogICAgICAgIGFzc2VydEVxdWFscygtMy4xNCwgTnVtYmVyTm9kZSgtMy4xNCkuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBudW1iZXIgbm9kZSBldmFsdWF0ZXMgdG8gbGFyZ2UgdmFsdWVgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxZTE1LCBOdW1iZXJOb2RlKDFlMTUpLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdmFyaWFibGUgbm9kZSBldmFsdWF0ZXMgdG8gc2V0IHZhbHVlYCgpIHsKICAgICAgICBFeHByZXNzaW9uQ29udGV4dC5zZXRWYXJpYWJsZSgieCIsIDEwLjApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwLjAsIFZhcmlhYmxlTm9kZSgieCIpLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0KGV4cGVjdGVkID0gSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uOjpjbGFzcykKICAgIGZ1biBgdmFyaWFibGUgbm9kZSB0aHJvd3MgZm9yIHVuZGVmaW5lZCB2YXJpYWJsZWAoKSB7CiAgICAgICAgVmFyaWFibGVOb2RlKCJ1bmRlZmluZWQiKS5ldmFsdWF0ZSgpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaW5hcnkgYWRkaXRpb24gZXZhbHVhdGVzIGNvcnJlY3RseWAoKSB7CiAgICAgICAgdmFsIG5vZGUgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKE51bWJlck5vZGUoMy4wKSwgIisiLCBOdW1iZXJOb2RlKDQuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDcuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBzdWJ0cmFjdGlvbiBldmFsdWF0ZXMgY29ycmVjdGx5YCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSgxMC4wKSwgIi0iLCBOdW1iZXJOb2RlKDMuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDcuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBtdWx0aXBsaWNhdGlvbiBldmFsdWF0ZXMgY29ycmVjdGx5YCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSg2LjApLCAiKiIsIE51bWJlck5vZGUoNy4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoNDIuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBkaXZpc2lvbiBldmFsdWF0ZXMgY29ycmVjdGx5YCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSgxMC4wKSwgIi8iLCBOdW1iZXJOb2RlKDIuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDUuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBkaXZpc2lvbiBieSB6ZXJvIHJldHVybnMgaW5maW5pdHlgKCkgewogICAgICAgIHZhbCBub2RlID0gQmluYXJ5T3BlcmF0aW9uTm9kZShOdW1iZXJOb2RlKDEuMCksICIvIiwgTnVtYmVyTm9kZSgwLjApKQogICAgICAgIGFzc2VydFRydWUobm9kZS5ldmFsdWF0ZSgpLmlzSW5maW5pdGUoKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBtb2R1bG8gZXZhbHVhdGVzIGNvcnJlY3RseWAoKSB7CiAgICAgICAgdmFsIG5vZGUgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKE51bWJlck5vZGUoMTAuMCksICIlIiwgTnVtYmVyTm9kZSgzLjApKQogICAgICAgIGFzc2VydEVxdWFscygxLjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaW5hcnkgZXhwb25lbnQgd2l0aCBhc3RlcmlzayBldmFsdWF0ZXMgY29ycmVjdGx5YCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSgyLjApLCAiKioiLCBOdW1iZXJOb2RlKDMuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDguMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBleHBvbmVudCB3aXRoIGNhcmV0IGV2YWx1YXRlcyBjb3JyZWN0bHlgKCkgewogICAgICAgIHZhbCBub2RlID0gQmluYXJ5T3BlcmF0aW9uTm9kZShOdW1iZXJOb2RlKDIuMCksICJeIiwgTnVtYmVyTm9kZSgzLjApKQogICAgICAgIGFzc2VydEVxdWFscyg4LjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaW5hcnkgZXF1YWxzIHJldHVybnMgb25lIGZvciBlcXVhbCB2YWx1ZXNgKCkgewogICAgICAgIHZhbCBub2RlID0gQmluYXJ5T3BlcmF0aW9uTm9kZShOdW1iZXJOb2RlKDUuMCksICI9PSIsIE51bWJlck5vZGUoNS4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYmluYXJ5IGVxdWFscyByZXR1cm5zIHplcm8gZm9yIHVuZXF1YWwgdmFsdWVzYCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSg1LjApLCAiPT0iLCBOdW1iZXJOb2RlKDMuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBub3QgZXF1YWxzIHJldHVybnMgb25lIGZvciB1bmVxdWFsIHZhbHVlc2AoKSB7CiAgICAgICAgdmFsIG5vZGUgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKE51bWJlck5vZGUoNS4wKSwgIiE9IiwgTnVtYmVyTm9kZSgzLjApKQogICAgICAgIGFzc2VydEVxdWFscygxLjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaW5hcnkgbm90IGVxdWFscyByZXR1cm5zIHplcm8gZm9yIGVxdWFsIHZhbHVlc2AoKSB7CiAgICAgICAgdmFsIG5vZGUgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKE51bWJlck5vZGUoNS4wKSwgIiE9IiwgTnVtYmVyTm9kZSg1LjApKQogICAgICAgIGFzc2VydEVxdWFscygwLjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaW5hcnkgZ3JlYXRlciB0aGFuIGV2YWx1YXRlcyBjb3JyZWN0bHlgKCkgewogICAgICAgIHZhbCBub2RlID0gQmluYXJ5T3BlcmF0aW9uTm9kZShOdW1iZXJOb2RlKDUuMCksICI+IiwgTnVtYmVyTm9kZSgzLjApKQogICAgICAgIGFzc2VydEVxdWFscygxLjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaW5hcnkgZ3JlYXRlciB0aGFuIHJldHVybnMgemVybyB3aGVuIGZhbHNlYCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSgzLjApLCAiPiIsIE51bWJlck5vZGUoNS4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMC4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYmluYXJ5IGdyZWF0ZXIgb3IgZXF1YWwgZXZhbHVhdGVzIGNvcnJlY3RseWAoKSB7CiAgICAgICAgdmFsIG5vZGUgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKE51bWJlck5vZGUoNS4wKSwgIj49IiwgTnVtYmVyTm9kZSg1LjApKQogICAgICAgIGFzc2VydEVxdWFscygxLjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaW5hcnkgbGVzcyB0aGFuIGV2YWx1YXRlcyBjb3JyZWN0bHlgKCkgewogICAgICAgIHZhbCBub2RlID0gQmluYXJ5T3BlcmF0aW9uTm9kZShOdW1iZXJOb2RlKDMuMCksICI8IiwgTnVtYmVyTm9kZSg1LjApKQogICAgICAgIGFzc2VydEVxdWFscygxLjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaW5hcnkgbGVzcyBvciBlcXVhbCBldmFsdWF0ZXMgY29ycmVjdGx5YCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSg1LjApLCAiPD0iLCBOdW1iZXJOb2RlKDUuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBsb2dpY2FsIGFuZCByZXR1cm5zIG9uZSB3aGVuIGJvdGggdHJ1dGh5YCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSgxLjApLCAiJiYiLCBOdW1iZXJOb2RlKDIuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBsb2dpY2FsIGFuZCByZXR1cm5zIHplcm8gd2hlbiBsZWZ0IGZhbHN5YCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSgwLjApLCAiJiYiLCBOdW1iZXJOb2RlKDIuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbmFyeSBsb2dpY2FsIG9yIHJldHVybnMgb25lIHdoZW4gbGVmdCB0cnV0aHlgKCkgewogICAgICAgIHZhbCBub2RlID0gQmluYXJ5T3BlcmF0aW9uTm9kZShOdW1iZXJOb2RlKDEuMCksICJ8fCIsIE51bWJlck5vZGUoMC4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYmluYXJ5IGxvZ2ljYWwgb3IgcmV0dXJucyB6ZXJvIHdoZW4gYm90aCBmYWxzeWAoKSB7CiAgICAgICAgdmFsIG5vZGUgPSBCaW5hcnlPcGVyYXRpb25Ob2RlKE51bWJlck5vZGUoMC4wKSwgInx8IiwgTnVtYmVyTm9kZSgwLjApKQogICAgICAgIGFzc2VydEVxdWFscygwLjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QoZXhwZWN0ZWQgPSBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb246OmNsYXNzKQogICAgZnVuIGBiaW5hcnkgdW5rbm93biBvcGVyYXRvciB0aHJvd3NgKCkgewogICAgICAgIEJpbmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSgxLjApLCAiQEAiLCBOdW1iZXJOb2RlKDIuMCkpLmV2YWx1YXRlKCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHVuYXJ5IHBsdXMgcmV0dXJucyBzYW1lIHZhbHVlYCgpIHsKICAgICAgICB2YWwgbm9kZSA9IFVuYXJ5T3BlcmF0aW9uTm9kZSgiKyIsIE51bWJlck5vZGUoNS4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoNS4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdW5hcnkgbWludXMgbmVnYXRlcyB2YWx1ZWAoKSB7CiAgICAgICAgdmFsIG5vZGUgPSBVbmFyeU9wZXJhdGlvbk5vZGUoIi0iLCBOdW1iZXJOb2RlKDUuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKC01LjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGB1bmFyeSBkb3VibGUgbmVnYXRpb25gKCkgewogICAgICAgIHZhbCBub2RlID0gVW5hcnlPcGVyYXRpb25Ob2RlKCItIiwgVW5hcnlPcGVyYXRpb25Ob2RlKCItIiwgTnVtYmVyTm9kZSg1LjApKSkKICAgICAgICBhc3NlcnRFcXVhbHMoNS4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdW5hcnkgbm90IHJldHVybnMgb25lIHdoZW4gb3BlcmFuZCBpcyB6ZXJvYCgpIHsKICAgICAgICB2YWwgbm9kZSA9IFVuYXJ5T3BlcmF0aW9uTm9kZSgiISIsIE51bWJlck5vZGUoMC4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdW5hcnkgbm90IHJldHVybnMgemVybyB3aGVuIG9wZXJhbmQgaXMgbm9uLXplcm9gKCkgewogICAgICAgIHZhbCBub2RlID0gVW5hcnlPcGVyYXRpb25Ob2RlKCIhIiwgTnVtYmVyTm9kZSgxLjApKQogICAgICAgIGFzc2VydEVxdWFscygwLjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QoZXhwZWN0ZWQgPSBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb246OmNsYXNzKQogICAgZnVuIGB1bmFyeSB1bmtub3duIG9wZXJhdG9yIHRocm93c2AoKSB7CiAgICAgICAgVW5hcnlPcGVyYXRpb25Ob2RlKCJ+IiwgTnVtYmVyTm9kZSg1LjApKS5ldmFsdWF0ZSgpCiAgICB9CgogICAgQFRlc3QgZnVuIGB0ZXJuYXJ5IHJldHVybnMgdHJ1ZSBicmFuY2ggd2hlbiBjb25kaXRpb24gdHJ1dGh5YCgpIHsKICAgICAgICB2YWwgbm9kZSA9IFRlcm5hcnlPcGVyYXRpb25Ob2RlKE51bWJlck5vZGUoMS4wKSwgTnVtYmVyTm9kZSgxMC4wKSwgTnVtYmVyTm9kZSgyMC4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMTAuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHRlcm5hcnkgcmV0dXJucyBmYWxzZSBicmFuY2ggd2hlbiBjb25kaXRpb24gZmFsc3lgKCkgewogICAgICAgIHZhbCBub2RlID0gVGVybmFyeU9wZXJhdGlvbk5vZGUoTnVtYmVyTm9kZSgwLjApLCBOdW1iZXJOb2RlKDEwLjApLCBOdW1iZXJOb2RlKDIwLjApKQogICAgICAgIGFzc2VydEVxdWFscygyMC4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdGVybmFyeSB3aXRoIG5lc3RlZCBjb25kaXRpb25gKCkgewogICAgICAgIEV4cHJlc3Npb25Db250ZXh0LnNldFZhcmlhYmxlKCJhIiwgNS4wKQogICAgICAgIHZhbCBjb25kID0gQmluYXJ5T3BlcmF0aW9uTm9kZShWYXJpYWJsZU5vZGUoImEiKSwgIj4iLCBOdW1iZXJOb2RlKDMuMCkpCiAgICAgICAgdmFsIG5vZGUgPSBUZXJuYXJ5T3BlcmF0aW9uTm9kZShjb25kLCBOdW1iZXJOb2RlKDEuMCksIE51bWJlck5vZGUoMC4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZnVuY3Rpb24gY2FsbCBub2RlIGV2YWx1YXRlcyB2aWEgY29udGV4dGAoKSB7CiAgICAgICAgdmFsIG5vZGUgPSBGdW5jdGlvbkNhbGxOb2RlKCJhYnMiLCBsaXN0T2YoTnVtYmVyTm9kZSgtNS4wKSkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDUuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGZ1bmN0aW9uIGNhbGwgd2l0aCB0d28gYXJndW1lbnRzYCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEZ1bmN0aW9uQ2FsbE5vZGUoInBvdyIsIGxpc3RPZihOdW1iZXJOb2RlKDIuMCksIE51bWJlck5vZGUoMy4wKSkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDguMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdChleHBlY3RlZCA9IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbjo6Y2xhc3MpCiAgICBmdW4gYGZ1bmN0aW9uIGNhbGwgdW5rbm93biBmdW5jdGlvbiB0aHJvd3NgKCkgewogICAgICAgIEZ1bmN0aW9uQ2FsbE5vZGUoIm5vbmV4aXN0ZW50IiwgbGlzdE9mKE51bWJlck5vZGUoMS4wKSkpLmV2YWx1YXRlKCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGFzc2lnbm1lbnQgbm9kZSBzZXRzIHZhcmlhYmxlIGFuZCByZXR1cm5zIHZhbHVlYCgpIHsKICAgICAgICB2YWwgbm9kZSA9IEFzc2lnbm1lbnROb2RlKCJ4IiwgTnVtYmVyTm9kZSg0Mi4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoNDIuMCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgICAgICBhc3NlcnRFcXVhbHMoNDIuMCwgRXhwcmVzc2lvbkNvbnRleHQuZ2V0VmFyaWFibGUoIngiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBhc3NpZ25tZW50IG5vZGUgb3ZlcndyaXRlcyBleGlzdGluZyB2YXJpYWJsZWAoKSB7CiAgICAgICAgRXhwcmVzc2lvbkNvbnRleHQuc2V0VmFyaWFibGUoIngiLCAxMC4wKQogICAgICAgIEFzc2lnbm1lbnROb2RlKCJ4IiwgTnVtYmVyTm9kZSg5OS4wKSkuZXZhbHVhdGUoKQogICAgICAgIGFzc2VydEVxdWFscyg5OS4wLCBFeHByZXNzaW9uQ29udGV4dC5nZXRWYXJpYWJsZSgieCIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNvbXBvdW5kIGFzc2lnbm1lbnQgYWRkIGV2YWx1YXRlcyBjb3JyZWN0bHlgKCkgewogICAgICAgIEV4cHJlc3Npb25Db250ZXh0LnNldFZhcmlhYmxlKCJ4IiwgMTAuMCkKICAgICAgICB2YWwgbm9kZSA9IENvbXBvdW5kQXNzaWdubWVudE5vZGUoIngiLCAiKz0iLCBOdW1iZXJOb2RlKDUuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDE1LjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDE1LjAsIEV4cHJlc3Npb25Db250ZXh0LmdldFZhcmlhYmxlKCJ4IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29tcG91bmQgYXNzaWdubWVudCBzdWJ0cmFjdCBldmFsdWF0ZXMgY29ycmVjdGx5YCgpIHsKICAgICAgICBFeHByZXNzaW9uQ29udGV4dC5zZXRWYXJpYWJsZSgieCIsIDEwLjApCiAgICAgICAgdmFsIG5vZGUgPSBDb21wb3VuZEFzc2lnbm1lbnROb2RlKCJ4IiwgIi09IiwgTnVtYmVyTm9kZSgzLjApKQogICAgICAgIGFzc2VydEVxdWFscyg3LjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDcuMCwgRXhwcmVzc2lvbkNvbnRleHQuZ2V0VmFyaWFibGUoIngiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjb21wb3VuZCBhc3NpZ25tZW50IG11bHRpcGx5IGV2YWx1YXRlcyBjb3JyZWN0bHlgKCkgewogICAgICAgIEV4cHJlc3Npb25Db250ZXh0LnNldFZhcmlhYmxlKCJ4IiwgMTAuMCkKICAgICAgICB2YWwgbm9kZSA9IENvbXBvdW5kQXNzaWdubWVudE5vZGUoIngiLCAiKj0iLCBOdW1iZXJOb2RlKDIuMCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIwLjAsIG5vZGUuZXZhbHVhdGUoKSwgMC4wMDEpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDIwLjAsIEV4cHJlc3Npb25Db250ZXh0LmdldFZhcmlhYmxlKCJ4IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29tcG91bmQgYXNzaWdubWVudCBkaXZpZGUgZXZhbHVhdGVzIGNvcnJlY3RseWAoKSB7CiAgICAgICAgRXhwcmVzc2lvbkNvbnRleHQuc2V0VmFyaWFibGUoIngiLCAxMC4wKQogICAgICAgIHZhbCBub2RlID0gQ29tcG91bmRBc3NpZ25tZW50Tm9kZSgieCIsICIvPSIsIE51bWJlck5vZGUoMi4wKSkKICAgICAgICBhc3NlcnRFcXVhbHMoNS4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgICAgIGFzc2VydEVxdWFscyg1LjAsIEV4cHJlc3Npb25Db250ZXh0LmdldFZhcmlhYmxlKCJ4IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0KGV4cGVjdGVkID0gSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uOjpjbGFzcykKICAgIGZ1biBgY29tcG91bmQgYXNzaWdubWVudCB1bmtub3duIG9wZXJhdG9yIHRocm93c2AoKSB7CiAgICAgICAgRXhwcmVzc2lvbkNvbnRleHQuc2V0VmFyaWFibGUoIngiLCAxMC4wKQogICAgICAgIENvbXBvdW5kQXNzaWdubWVudE5vZGUoIngiLCAiJT0iLCBOdW1iZXJOb2RlKDIuMCkpLmV2YWx1YXRlKCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGFycmF5IGFjY2VzcyBub2RlIHdpdGggbnVtYmVyIG5vZGVgKCkgewogICAgICAgIHZhbCBub2RlID0gQXJyYXlBY2Nlc3NOb2RlKE51bWJlck5vZGUoMy4wKSwgTnVtYmVyTm9kZSgwLjApKQogICAgICAgIGFzc2VydEVxdWFscygnMycuY29kZS50b0RvdWJsZSgpLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdGVtcGxhdGUgc3RyaW5nIHdpdGggbm8gZXhwcmVzc2lvbnMgZXZhbHVhdGVzIHRvIGRvdWJsZWAoKSB7CiAgICAgICAgdmFsIG5vZGUgPSBUZW1wbGF0ZVN0cmluZ05vZGUobGlzdE9mKCI0MiIpKQogICAgICAgIGFzc2VydEVxdWFscyg0Mi4wLCBub2RlLmV2YWx1YXRlKCksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdGVtcGxhdGUgc3RyaW5nIG5vbi1udW1lcmljIHJldHVybnMgbmFuYCgpIHsKICAgICAgICB2YWwgbm9kZSA9IFRlbXBsYXRlU3RyaW5nTm9kZShsaXN0T2YoImhlbGxvIikpCiAgICAgICAgYXNzZXJ0VHJ1ZShub2RlLmV2YWx1YXRlKCkuaXNOYU4oKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHRlbXBsYXRlIHN0cmluZyB3aXRoIGV4cHJlc3Npb24gcGxhY2Vob2xkZXJgKCkgewogICAgICAgIHZhbCBub2RlID0gVGVtcGxhdGVTdHJpbmdOb2RlKGxpc3RPZigicmVzdWx0OiAiLCBOdW1iZXJOb2RlKDQyLjApKSkKICAgICAgICAvLyAicmVzdWx0OiA0Mi4wIiBjYW5ub3QgYmUgcGFyc2VkIGFzIGRvdWJsZSAtPiBOYU4KICAgICAgICBhc3NlcnRUcnVlKG5vZGUuZXZhbHVhdGUoKS5pc05hTigpKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdGVtcGxhdGUgc3RyaW5nIGVtcHR5IHBhcnRzIHJldHVybnMgbmFuYCgpIHsKICAgICAgICB2YWwgbm9kZSA9IFRlbXBsYXRlU3RyaW5nTm9kZShsaXN0T2YoIiIpKQogICAgICAgIGFzc2VydFRydWUobm9kZS5ldmFsdWF0ZSgpLmlzTmFOKCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGB0ZW1wbGF0ZSBzdHJpbmcgd2l0aCBvbmx5IG51bWJlciByZXR1cm5zIHZhbHVlYCgpIHsKICAgICAgICB2YWwgbm9kZSA9IFRlbXBsYXRlU3RyaW5nTm9kZShsaXN0T2YoIjMuMTQiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMy4xNCwgbm9kZS5ldmFsdWF0ZSgpLCAwLjAwMSkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.calculator
+
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ExpressionNodeTest {
+
+    @After
+    fun tearDown() {
+        ExpressionContext.clearVariables()
+    }
+
+    @Test fun `number node evaluates to its value`() {
+        assertEquals(42.0, NumberNode(42.0).evaluate(), 0.001)
+    }
+
+    @Test fun `number node evaluates to zero`() {
+        assertEquals(0.0, NumberNode(0.0).evaluate(), 0.001)
+    }
+
+    @Test fun `number node evaluates to negative value`() {
+        assertEquals(-3.14, NumberNode(-3.14).evaluate(), 0.001)
+    }
+
+    @Test fun `number node evaluates to large value`() {
+        assertEquals(1e15, NumberNode(1e15).evaluate(), 0.001)
+    }
+
+    @Test fun `variable node evaluates to set value`() {
+        ExpressionContext.setVariable("x", 10.0)
+        assertEquals(10.0, VariableNode("x").evaluate(), 0.001)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `variable node throws for undefined variable`() {
+        VariableNode("undefined").evaluate()
+    }
+
+    @Test fun `binary addition evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(3.0), "+", NumberNode(4.0))
+        assertEquals(7.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary subtraction evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(10.0), "-", NumberNode(3.0))
+        assertEquals(7.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary multiplication evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(6.0), "*", NumberNode(7.0))
+        assertEquals(42.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary division evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(10.0), "/", NumberNode(2.0))
+        assertEquals(5.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary division by zero returns infinity`() {
+        val node = BinaryOperationNode(NumberNode(1.0), "/", NumberNode(0.0))
+        assertTrue(node.evaluate().isInfinite())
+    }
+
+    @Test fun `binary modulo evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(10.0), "%", NumberNode(3.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary exponent with asterisk evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(2.0), "**", NumberNode(3.0))
+        assertEquals(8.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary exponent with caret evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(2.0), "^", NumberNode(3.0))
+        assertEquals(8.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary equals returns one for equal values`() {
+        val node = BinaryOperationNode(NumberNode(5.0), "==", NumberNode(5.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary equals returns zero for unequal values`() {
+        val node = BinaryOperationNode(NumberNode(5.0), "==", NumberNode(3.0))
+        assertEquals(0.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary not equals returns one for unequal values`() {
+        val node = BinaryOperationNode(NumberNode(5.0), "!=", NumberNode(3.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary not equals returns zero for equal values`() {
+        val node = BinaryOperationNode(NumberNode(5.0), "!=", NumberNode(5.0))
+        assertEquals(0.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary greater than evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(5.0), ">", NumberNode(3.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary greater than returns zero when false`() {
+        val node = BinaryOperationNode(NumberNode(3.0), ">", NumberNode(5.0))
+        assertEquals(0.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary greater or equal evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(5.0), ">=", NumberNode(5.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary less than evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(3.0), "<", NumberNode(5.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary less or equal evaluates correctly`() {
+        val node = BinaryOperationNode(NumberNode(5.0), "<=", NumberNode(5.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary logical and returns one when both truthy`() {
+        val node = BinaryOperationNode(NumberNode(1.0), "&&", NumberNode(2.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary logical and returns zero when left falsy`() {
+        val node = BinaryOperationNode(NumberNode(0.0), "&&", NumberNode(2.0))
+        assertEquals(0.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary logical or returns one when left truthy`() {
+        val node = BinaryOperationNode(NumberNode(1.0), "||", NumberNode(0.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `binary logical or returns zero when both falsy`() {
+        val node = BinaryOperationNode(NumberNode(0.0), "||", NumberNode(0.0))
+        assertEquals(0.0, node.evaluate(), 0.001)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `binary unknown operator throws`() {
+        BinaryOperationNode(NumberNode(1.0), "@@", NumberNode(2.0)).evaluate()
+    }
+
+    @Test fun `unary plus returns same value`() {
+        val node = UnaryOperationNode("+", NumberNode(5.0))
+        assertEquals(5.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `unary minus negates value`() {
+        val node = UnaryOperationNode("-", NumberNode(5.0))
+        assertEquals(-5.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `unary double negation`() {
+        val node = UnaryOperationNode("-", UnaryOperationNode("-", NumberNode(5.0)))
+        assertEquals(5.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `unary not returns one when operand is zero`() {
+        val node = UnaryOperationNode("!", NumberNode(0.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `unary not returns zero when operand is non-zero`() {
+        val node = UnaryOperationNode("!", NumberNode(1.0))
+        assertEquals(0.0, node.evaluate(), 0.001)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `unary unknown operator throws`() {
+        UnaryOperationNode("~", NumberNode(5.0)).evaluate()
+    }
+
+    @Test fun `ternary returns true branch when condition truthy`() {
+        val node = TernaryOperationNode(NumberNode(1.0), NumberNode(10.0), NumberNode(20.0))
+        assertEquals(10.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `ternary returns false branch when condition falsy`() {
+        val node = TernaryOperationNode(NumberNode(0.0), NumberNode(10.0), NumberNode(20.0))
+        assertEquals(20.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `ternary with nested condition`() {
+        ExpressionContext.setVariable("a", 5.0)
+        val cond = BinaryOperationNode(VariableNode("a"), ">", NumberNode(3.0))
+        val node = TernaryOperationNode(cond, NumberNode(1.0), NumberNode(0.0))
+        assertEquals(1.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `function call node evaluates via context`() {
+        val node = FunctionCallNode("abs", listOf(NumberNode(-5.0)))
+        assertEquals(5.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `function call with two arguments`() {
+        val node = FunctionCallNode("pow", listOf(NumberNode(2.0), NumberNode(3.0)))
+        assertEquals(8.0, node.evaluate(), 0.001)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `function call unknown function throws`() {
+        FunctionCallNode("nonexistent", listOf(NumberNode(1.0))).evaluate()
+    }
+
+    @Test fun `assignment node sets variable and returns value`() {
+        val node = AssignmentNode("x", NumberNode(42.0))
+        assertEquals(42.0, node.evaluate(), 0.001)
+        assertEquals(42.0, ExpressionContext.getVariable("x"), 0.001)
+    }
+
+    @Test fun `assignment node overwrites existing variable`() {
+        ExpressionContext.setVariable("x", 10.0)
+        AssignmentNode("x", NumberNode(99.0)).evaluate()
+        assertEquals(99.0, ExpressionContext.getVariable("x"), 0.001)
+    }
+
+    @Test fun `compound assignment add evaluates correctly`() {
+        ExpressionContext.setVariable("x", 10.0)
+        val node = CompoundAssignmentNode("x", "+=", NumberNode(5.0))
+        assertEquals(15.0, node.evaluate(), 0.001)
+        assertEquals(15.0, ExpressionContext.getVariable("x"), 0.001)
+    }
+
+    @Test fun `compound assignment subtract evaluates correctly`() {
+        ExpressionContext.setVariable("x", 10.0)
+        val node = CompoundAssignmentNode("x", "-=", NumberNode(3.0))
+        assertEquals(7.0, node.evaluate(), 0.001)
+        assertEquals(7.0, ExpressionContext.getVariable("x"), 0.001)
+    }
+
+    @Test fun `compound assignment multiply evaluates correctly`() {
+        ExpressionContext.setVariable("x", 10.0)
+        val node = CompoundAssignmentNode("x", "*=", NumberNode(2.0))
+        assertEquals(20.0, node.evaluate(), 0.001)
+        assertEquals(20.0, ExpressionContext.getVariable("x"), 0.001)
+    }
+
+    @Test fun `compound assignment divide evaluates correctly`() {
+        ExpressionContext.setVariable("x", 10.0)
+        val node = CompoundAssignmentNode("x", "/=", NumberNode(2.0))
+        assertEquals(5.0, node.evaluate(), 0.001)
+        assertEquals(5.0, ExpressionContext.getVariable("x"), 0.001)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `compound assignment unknown operator throws`() {
+        ExpressionContext.setVariable("x", 10.0)
+        CompoundAssignmentNode("x", "%=", NumberNode(2.0)).evaluate()
+    }
+
+    @Test fun `array access node with number node`() {
+        val node = ArrayAccessNode(NumberNode(3.0), NumberNode(0.0))
+        assertEquals('3'.code.toDouble(), node.evaluate(), 0.001)
+    }
+
+    @Test fun `template string with no expressions evaluates to double`() {
+        val node = TemplateStringNode(listOf("42"))
+        assertEquals(42.0, node.evaluate(), 0.001)
+    }
+
+    @Test fun `template string non-numeric returns nan`() {
+        val node = TemplateStringNode(listOf("hello"))
+        assertTrue(node.evaluate().isNaN())
+    }
+
+    @Test fun `template string with expression placeholder`() {
+        val node = TemplateStringNode(listOf("result: ", NumberNode(42.0)))
+        // "result: 42.0" cannot be parsed as double -> NaN
+        assertTrue(node.evaluate().isNaN())
+    }
+
+    @Test fun `template string empty parts returns nan`() {
+        val node = TemplateStringNode(listOf(""))
+        assertTrue(node.evaluate().isNaN())
+    }
+
+    @Test fun `template string with only number returns value`() {
+        val node = TemplateStringNode(listOf("3.14"))
+        assertEquals(3.14, node.evaluate(), 0.001)
+    }
+}

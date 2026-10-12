@@ -1,1 +1,102 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuTXV0YWJsZVN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5jb3JlLkRhdGFTdG9yZQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuUHJlZmVyZW5jZXMKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmJvb2xlYW5QcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuZWRpdAppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuZmxvYXRQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuaW50UHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmxvbmdQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuc3RyaW5nUHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5wcmVmZXJlbmNlc0RhdGFTdG9yZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmlyc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXJDb3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLktTZXJpYWxpemVyCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uc2VyaWFsaXplcgoKLy8g5a6a5LmJ5LiA5Liq55So5LqOVUnlgY/lpb3orr7nva7nmoREYXRhU3RvcmXlrp7kvosKdmFsIENvbnRleHQudWlQcmVmZXJlbmNlc0RhdGFTdG9yZTogRGF0YVN0b3JlPFByZWZlcmVuY2VzPiBieSBwcmVmZXJlbmNlc0RhdGFTdG9yZShuYW1lID0gInVpX3ByZWZlcmVuY2VzIikKCkBTdXBwcmVzcygiVU5DSEVDS0VEX0NBU1QiKQpAQ29tcG9zYWJsZQppbmxpbmUgZnVuIDxyZWlmaWVkIFQ+IHJlbWVtYmVyTG9jYWwoCiAgICBrZXk6IFN0cmluZywKICAgIGRlZmF1bHRWYWx1ZTogVCwKICAgIHNlcmlhbGl6ZXI6IEtTZXJpYWxpemVyPFQ+PyA9IG51bGwKKTogTXV0YWJsZVN0YXRlPFQ+IHsKICAgIHZhbCBjb3JvdXRpbmVTY29wZSA9IHJlbWVtYmVyQ29yb3V0aW5lU2NvcGUoKQogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAoKICAgIHZhbCBzdGF0ZSA9IHJlbWVtYmVyKGtleSkgeyBtdXRhYmxlU3RhdGVPZihkZWZhdWx0VmFsdWUpIH0KCiAgICBMYXVuY2hlZEVmZmVjdChrZXkpIHsKICAgICAgICB2YWwgcHJlZmVyZW5jZXMgPSBjb250ZXh0LnVpUHJlZmVyZW5jZXNEYXRhU3RvcmUuZGF0YS5maXJzdCgpCiAgICAgICAgc3RhdGUudmFsdWUgPSB3aGVuIChkZWZhdWx0VmFsdWUpIHsKICAgICAgICAgICAgaXMgQm9vbGVhbiAtPiAocHJlZmVyZW5jZXNbYm9vbGVhblByZWZlcmVuY2VzS2V5KGtleSldID86IGRlZmF1bHRWYWx1ZSkgYXMgVAogICAgICAgICAgICBpcyBJbnQgLT4gKHByZWZlcmVuY2VzW2ludFByZWZlcmVuY2VzS2V5KGtleSldID86IGRlZmF1bHRWYWx1ZSkgYXMgVAogICAgICAgICAgICBpcyBMb25nIC0+IChwcmVmZXJlbmNlc1tsb25nUHJlZmVyZW5jZXNLZXkoa2V5KV0gPzogZGVmYXVsdFZhbHVlKSBhcyBUCiAgICAgICAgICAgIGlzIEZsb2F0IC0+IChwcmVmZXJlbmNlc1tmbG9hdFByZWZlcmVuY2VzS2V5KGtleSldID86IGRlZmF1bHRWYWx1ZSkgYXMgVAogICAgICAgICAgICBpcyBTdHJpbmcgLT4gKHByZWZlcmVuY2VzW3N0cmluZ1ByZWZlcmVuY2VzS2V5KGtleSldID86IGRlZmF1bHRWYWx1ZSkgYXMgVAogICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBqc29uID0gcHJlZmVyZW5jZXNbc3RyaW5nUHJlZmVyZW5jZXNLZXkoa2V5KV0KICAgICAgICAgICAgICAgIGlmIChqc29uICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2VyaWFsaXplciAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBKc29uLmRlY29kZUZyb21TdHJpbmcoc2VyaWFsaXplciwganNvbikKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEpzb24uZGVjb2RlRnJvbVN0cmluZyhzZXJpYWxpemVyKCksIGpzb24pCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdFZhbHVlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBkZWZhdWx0VmFsdWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICByZXR1cm4gcmVtZW1iZXIoc3RhdGUsIGNvcm91dGluZVNjb3BlKSB7CiAgICAgICAgb2JqZWN0IDogTXV0YWJsZVN0YXRlPFQ+IHsKICAgICAgICAgICAgb3ZlcnJpZGUgdmFyIHZhbHVlOiBUCiAgICAgICAgICAgICAgICBnZXQoKSA9IHN0YXRlLnZhbHVlCiAgICAgICAgICAgICAgICBzZXQobmV3VmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICBpZiAoc3RhdGUudmFsdWUgIT0gbmV3VmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGUudmFsdWUgPSBuZXdWYWx1ZQogICAgICAgICAgICAgICAgICAgICAgICBjb3JvdXRpbmVTY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC51aVByZWZlcmVuY2VzRGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdoZW4gKG5ld1ZhbHVlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIEJvb2xlYW4gLT4gcHJlZmVyZW5jZXNbYm9vbGVhblByZWZlcmVuY2VzS2V5KGtleSldID0gbmV3VmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXMgSW50IC0+IHByZWZlcmVuY2VzW2ludFByZWZlcmVuY2VzS2V5KGtleSldID0gbmV3VmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXMgTG9uZyAtPiBwcmVmZXJlbmNlc1tsb25nUHJlZmVyZW5jZXNLZXkoa2V5KV0gPSBuZXdWYWx1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBGbG9hdCAtPiBwcmVmZXJlbmNlc1tmbG9hdFByZWZlcmVuY2VzS2V5KGtleSldID0gbmV3VmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXMgU3RyaW5nIC0+IHByZWZlcmVuY2VzW3N0cmluZ1ByZWZlcmVuY2VzS2V5KGtleSldID0gbmV3VmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwganNvbiA9IGlmIChzZXJpYWxpemVyICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBKc29uLmVuY29kZVRvU3RyaW5nKHNlcmlhbGl6ZXIsIG5ld1ZhbHVlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBKc29uLmVuY29kZVRvU3RyaW5nKHNlcmlhbGl6ZXIoKSwgbmV3VmFsdWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmVmZXJlbmNlc1tzdHJpbmdQcmVmZXJlbmNlc0tleShrZXkpXSA9IGpzb24KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBjb21wb25lbnQxKCk6IFQgPSB2YWx1ZQogICAgICAgICAgICBvdmVycmlkZSBmdW4gY29tcG9uZW50MigpOiAoVCkgLT4gVW5pdCA9IHsgdmFsdWUgPSBpdCB9CiAgICAgICAgfQogICAgfQp9IA==
+package com.bslsjdk.operit.ui.common
+
+import android.content.Context
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.MutableState
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.ui.platform.LocalContext
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.floatPreferencesKey
+import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.longPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.serialization.KSerializer
+import kotlinx.serialization.serializer
+
+// 定义一个用于UI偏好设置的DataStore实例
+val Context.uiPreferencesDataStore: DataStore<Preferences> by preferencesDataStore(name = "ui_preferences")
+
+@Suppress("UNCHECKED_CAST")
+@Composable
+inline fun <reified T> rememberLocal(
+    key: String,
+    defaultValue: T,
+    serializer: KSerializer<T>? = null
+): MutableState<T> {
+    val coroutineScope = rememberCoroutineScope()
+    val context = LocalContext.current
+
+    val state = remember(key) { mutableStateOf(defaultValue) }
+
+    LaunchedEffect(key) {
+        val preferences = context.uiPreferencesDataStore.data.first()
+        state.value = when (defaultValue) {
+            is Boolean -> (preferences[booleanPreferencesKey(key)] ?: defaultValue) as T
+            is Int -> (preferences[intPreferencesKey(key)] ?: defaultValue) as T
+            is Long -> (preferences[longPreferencesKey(key)] ?: defaultValue) as T
+            is Float -> (preferences[floatPreferencesKey(key)] ?: defaultValue) as T
+            is String -> (preferences[stringPreferencesKey(key)] ?: defaultValue) as T
+            else -> {
+                val json = preferences[stringPreferencesKey(key)]
+                if (json != null) {
+                    try {
+                        if (serializer != null) {
+                            Json.decodeFromString(serializer, json)
+                        } else {
+                            Json.decodeFromString(serializer(), json)
+                        }
+                    } catch (e: Exception) {
+                        defaultValue
+                    }
+                } else {
+                    defaultValue
+                }
+            }
+        }
+    }
+
+    return remember(state, coroutineScope) {
+        object : MutableState<T> {
+            override var value: T
+                get() = state.value
+                set(newValue) {
+                    if (state.value != newValue) {
+                        state.value = newValue
+                        coroutineScope.launch {
+                            context.uiPreferencesDataStore.edit { preferences ->
+                                when (newValue) {
+                                    is Boolean -> preferences[booleanPreferencesKey(key)] = newValue
+                                    is Int -> preferences[intPreferencesKey(key)] = newValue
+                                    is Long -> preferences[longPreferencesKey(key)] = newValue
+                                    is Float -> preferences[floatPreferencesKey(key)] = newValue
+                                    is String -> preferences[stringPreferencesKey(key)] = newValue
+                                    else -> {
+                                        val json = if (serializer != null) {
+                                            Json.encodeToString(serializer, newValue)
+                                        } else {
+                                            Json.encodeToString(serializer(), newValue)
+                                        }
+                                        preferences[stringPreferencesKey(key)] = json
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            override fun component1(): T = value
+            override fun component2(): (T) -> Unit = { value = it }
+        }
+    }
+} 

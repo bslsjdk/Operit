@@ -1,1 +1,87 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5Bd2FpdEZpcnN0TGF5b3V0TW9kaWZpZXIuTm9kZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQucmVnaXN0ZXJPbkxheW91dFJlY3RDaGFuZ2VkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLm5vZGUuRGVsZWdhdGFibGVOb2RlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLm5vZGUuTW9kaWZpZXJOb2RlRWxlbWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5JbnNwZWN0b3JJbmZvCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29tcGxldGFibGVEZWZlcnJlZAoKLyoqCiAqIEludGVybmFsIG1vZGlmaWVyIHdoaWNoIGFsbG93cyB0byBkZWxheSBzb21lIGludGVyYWN0aW9ucyAoZS5nLiBzY3JvbGwpIHVudGlsIGxheW91dCBpcyByZWFkeS4KICovCmludGVybmFsIGNsYXNzIEF3YWl0Rmlyc3RMYXlvdXRNb2RpZmllciA6IE1vZGlmaWVyTm9kZUVsZW1lbnQ8Tm9kZT4oKSB7CiAgICBwcml2YXRlIHZhciBhdHRhY2hlZE5vZGU6IE5vZGU/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgbG9jazogQ29tcGxldGFibGVEZWZlcnJlZDxVbml0Pj8gPSBudWxsCgogICAgc3VzcGVuZCBmdW4gd2FpdEZvckZpcnN0TGF5b3V0KCkgewogICAgICAgIHZhbCBsb2NrID0KICAgICAgICAgICAgbG9jawogICAgICAgICAgICAgICAgPzogQ29tcGxldGFibGVEZWZlcnJlZDxVbml0PigpLmFsc28gewogICAgICAgICAgICAgICAgICAgIHRoaXMubG9jayA9IGl0CiAgICAgICAgICAgICAgICAgICAgdmFsIG5vZGUgPSBhdHRhY2hlZE5vZGUKICAgICAgICAgICAgICAgICAgICBpZiAobm9kZSAhPSBudWxsICYmIG5vZGUuaXNBdHRhY2hlZCkgewogICAgICAgICAgICAgICAgICAgICAgICBub2RlLnJlcXVlc3RPbkFmdGVyTGF5b3V0Q2FsbGJhY2soKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICBsb2NrLmF3YWl0KCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gY3JlYXRlKCkgPSBOb2RlKCkKCiAgICBvdmVycmlkZSBmdW4gdXBkYXRlKG5vZGU6IE5vZGUpIHt9CgogICAgb3ZlcnJpZGUgZnVuIEluc3BlY3RvckluZm8uaW5zcGVjdGFibGVQcm9wZXJ0aWVzKCkgewogICAgICAgIG5hbWUgPSAiQXdhaXRGaXJzdExheW91dE1vZGlmaWVyIgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBoYXNoQ29kZSgpOiBJbnQgPSAyMzQKCiAgICBvdmVycmlkZSBmdW4gZXF1YWxzKG90aGVyOiBBbnk/KTogQm9vbGVhbiA9IG90aGVyID09PSB0aGlzCgogICAgaW5uZXIgY2xhc3MgTm9kZSA6IE1vZGlmaWVyLk5vZGUoKSB7CiAgICAgICAgb3ZlcnJpZGUgZnVuIG9uQXR0YWNoKCkgewogICAgICAgICAgICBhdHRhY2hlZE5vZGUgPSB0aGlzCiAgICAgICAgICAgIGlmIChsb2NrICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHJlcXVlc3RPbkFmdGVyTGF5b3V0Q2FsbGJhY2soKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIHZhciBoYW5kbGU6IERlbGVnYXRhYmxlTm9kZS5SZWdpc3RyYXRpb25IYW5kbGU/ID0gbnVsbAoKICAgICAgICBmdW4gcmVxdWVzdE9uQWZ0ZXJMYXlvdXRDYWxsYmFjaygpIHsKICAgICAgICAgICAgaGFuZGxlID0KICAgICAgICAgICAgICAgIHJlZ2lzdGVyT25MYXlvdXRSZWN0Q2hhbmdlZCgwLCAwKSB7CiAgICAgICAgICAgICAgICAgICAgaGFuZGxlPy51bnJlZ2lzdGVyKCkKICAgICAgICAgICAgICAgICAgICBoYW5kbGUgPSBudWxsCiAgICAgICAgICAgICAgICAgICAgbG9jaz8uY29tcGxldGUoVW5pdCkKICAgICAgICAgICAgICAgICAgICBsb2NrID0gbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgb3ZlcnJpZGUgZnVuIG9uRGV0YWNoKCkgewogICAgICAgICAgICBpZiAoYXR0YWNoZWROb2RlID09PSB0aGlzKSB7CiAgICAgICAgICAgICAgICBhdHRhY2hlZE5vZGUgPSBudWxsCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaGFuZGxlPy51bnJlZ2lzdGVyKCkKICAgICAgICAgICAgaGFuZGxlID0gbnVsbAogICAgICAgIH0KICAgIH0KfQo=
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import com.bslsjdk.operit.ui.features.chat.components.lazy.AwaitFirstLayoutModifier.Node
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.registerOnLayoutRectChanged
+import androidx.compose.ui.node.DelegatableNode
+import androidx.compose.ui.node.ModifierNodeElement
+import androidx.compose.ui.platform.InspectorInfo
+import kotlinx.coroutines.CompletableDeferred
+
+/**
+ * Internal modifier which allows to delay some interactions (e.g. scroll) until layout is ready.
+ */
+internal class AwaitFirstLayoutModifier : ModifierNodeElement<Node>() {
+    private var attachedNode: Node? = null
+    private var lock: CompletableDeferred<Unit>? = null
+
+    suspend fun waitForFirstLayout() {
+        val lock =
+            lock
+                ?: CompletableDeferred<Unit>().also {
+                    this.lock = it
+                    val node = attachedNode
+                    if (node != null && node.isAttached) {
+                        node.requestOnAfterLayoutCallback()
+                    }
+                }
+        lock.await()
+    }
+
+    override fun create() = Node()
+
+    override fun update(node: Node) {}
+
+    override fun InspectorInfo.inspectableProperties() {
+        name = "AwaitFirstLayoutModifier"
+    }
+
+    override fun hashCode(): Int = 234
+
+    override fun equals(other: Any?): Boolean = other === this
+
+    inner class Node : Modifier.Node() {
+        override fun onAttach() {
+            attachedNode = this
+            if (lock != null) {
+                requestOnAfterLayoutCallback()
+            }
+        }
+
+        private var handle: DelegatableNode.RegistrationHandle? = null
+
+        fun requestOnAfterLayoutCallback() {
+            handle =
+                registerOnLayoutRectChanged(0, 0) {
+                    handle?.unregister()
+                    handle = null
+                    lock?.complete(Unit)
+                    lock = null
+                }
+        }
+
+        override fun onDetach() {
+            if (attachedNode === this) {
+                attachedNode = null
+            }
+            handle?.unregister()
+            handle = null
+        }
+    }
+}

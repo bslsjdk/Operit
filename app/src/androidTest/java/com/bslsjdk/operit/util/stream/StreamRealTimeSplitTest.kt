@@ -1,1 +1,209 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCmltcG9ydCBhbmRyb2lkeC50ZXN0LmV4dC5qdW5pdC5ydW5uZXJzLkFuZHJvaWRKVW5pdDQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5wbHVnaW5zLlN0cmVhbVhtbFBsdWdpbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuYXN5bmMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCmltcG9ydCBvcmcuanVuaXQuQmVmb3JlCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLmp1bml0LnJ1bm5lci5SdW5XaXRoCmltcG9ydCBrb3RsaW4uc3lzdGVtLm1lYXN1cmVUaW1lTWlsbGlzCgpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgU3RyZWFtUmVhbFRpbWVTcGxpdFRlc3QgewoKICAgIEBCZWZvcmUKICAgIGZ1biBzZXR1cCgpIHsKICAgICAgICAvLyDlkK/nlKjml6Xlv5cKICAgICAgICBTdHJlYW1Mb2dnZXIuc2V0RW5hYmxlZCh0cnVlKQogICAgICAgIC8vIOWPquS/neeVmemrmOe6p+WIq+aXpeW/l++8jOemgeeUqOmAkOWtl+espueahOivpue7hu+8iHZlcmJvc2XvvInml6Xlv5fvvIzkvb/ovpPlh7rmm7TmuIXmmbAKICAgICAgICBTdHJlYW1Mb2dnZXIuc2V0VmVyYm9zZUVuYWJsZWQoZmFsc2UpCiAgICB9CgogICAgLyoqCiAgICAgKiDnlJ/miJDmt7flkIjlhoXlrrnnmoTlpKfmlofmnKwKICAgICAqIOWMheWQq+aJgeW5s+eahFhNTOWdl+WSjOaZrumAmuaWh+acrO+8jOmHjeWkjeWkmuasoeS7peWIm+W7uui2s+Wkn+Wkp+eahOaVsOaNrumHjwogICAgICovCiAgICBwcml2YXRlIGZ1biBnZW5lcmF0ZUxhcmdlVGVzdFRleHQoc2l6ZU11bHRpcGxpZXI6IEludCA9IDIwKTogU3RyaW5nIHsKICAgICAgICB2YWwgYmxvY2sgPSAiIiIKICAgICAgICAgICAgPHVzZXIgaWQ9IjEiPgogICAgICAgICAgICAgICAgPG5hbWU+55So5oi3MTwvbmFtZT4KICAgICAgICAgICAgICAgIDxlbWFpbD51c2VyMUBleGFtcGxlLmNvbTwvZW1haWw+CiAgICAgICAgICAgIDwvdXNlcj4KICAgICAgICAgICAg6L+Z5piv56ys5LiA5q615pmu6YCa5paH5pys77yM5a6D5LiN5bGe5LqO5Lu75L2VWE1M5Z2X44CCCiAgICAgICAgICAgIDxtZXNzYWdlIHJlYWQ9InRydWUiPgogICAgICAgICAgICAgICAg6L+Z5piv5LiA5Liq5raI5oGv5YaF5a6544CCCiAgICAgICAgICAgIDwvbWVzc2FnZT4KICAgICAgICAgICAg6L+Z5piv56ys5LqM5q615pmu6YCa5paH5pys77yM55So5LqO5YiG6ZqUWE1M5Z2X44CCCiAgICAgICAgIiIiLnRyaW1JbmRlbnQoKQoKICAgICAgICAvLyDph43lpI3lhoXlrrnlpJrmrKHku6XliJvlu7rlpKfmlofmnKwKICAgICAgICByZXR1cm4gKDEuLnNpemVNdWx0aXBsaWVyKS5qb2luVG9TdHJpbmcoIlxuXG4iKSB7CiAgICAgICAgICAgICItLS0g56ysICRpdCDpg6jliIYgLS0tXG4kYmxvY2siCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5rWL6K+Vc3BsaXRCeeWvueWkp+aWh+acrOeahOWunuaXtua1geW8j+WkhOeQhuiDveWKmwogICAgICog6YCa6L+H5omT5Y2w5Y+R6YCB5ZKM5o6l5pS255qE5pe26Ze05oiz5ZKM5YaF5a6577yM6aqM6K+B5aSE55CG5piv5ZCm5ZCM5q2l5rWB5byP6L+b6KGMCiAgICAgKi8KICAgIEBUZXN0CiAgICBmdW4gdGVzdFJlYWxUaW1lU3BsaXRCeVByb2Nlc3NpbmcoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICBwcmludGxuKCJcbj09PT09IOW8gOWni+a1i+ivleWunuaXtua1geW8j+WkhOeQhiA9PT09PSIpCiAgICAgICAgCiAgICAgICAgLy8g5YeG5aSH5rWL6K+V5pWw5o2uCiAgICAgICAgdmFsIGxhcmdlVGV4dCA9IGdlbmVyYXRlTGFyZ2VUZXN0VGV4dCgpCiAgICAgICAgcHJpbnRsbigi55Sf5oiQ55qE5rWL6K+V5paH5pys5aSn5bCPOiAke2xhcmdlVGV4dC5sZW5ndGh9IOWtl+espiIpCiAgICAgICAgCiAgICAgICAgLy8gWE1M5o+S5Lu2CiAgICAgICAgdmFsIHhtbFBsdWdpbiA9IFN0cmVhbVhtbFBsdWdpbigpCiAgICAgICAgCiAgICAgICAgLy8g6K6h5pe2CiAgICAgICAgdmFsIHRvdGFsVGltZSA9IG1lYXN1cmVUaW1lTWlsbGlzIHsKICAgICAgICAgICAgdmFyIGNoYXJDb3VudCA9IDAKICAgICAgICAgICAgdmFyIHRleHRHcm91cENvdW50ID0gMAogICAgICAgICAgICB2YXIgeG1sR3JvdXBDb3VudCA9IDAKICAgICAgICAgICAgdmFyIHRvdGFsUmVjZWl2ZWRDaGFycyA9IDAKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOS7juWtl+espuS4suWIm+W7uuWtl+espua1gQogICAgICAgICAgICB2YWwgY2hhclN0cmVhbSA9IGxhcmdlVGV4dC5hc0NoYXJTdHJlYW0oKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5L2/55Soc3BsaXRCeeWkhOeQhua1gQogICAgICAgICAgICB2YWwgZ3JvdXBlZFN0cmVhbSA9IGNoYXJTdHJlYW0uc3BsaXRCeShsaXN0T2YoeG1sUGx1Z2luKSkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOWIm+W7uuS4gOS4quW8guatpeS7u+WKoeadpeaUtumbhue7k+aenAogICAgICAgICAgICB2YWwgY29sbGVjdEpvYiA9IGFzeW5jKERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICBncm91cGVkU3RyZWFtLmNvbGxlY3QgeyBncm91cCAtPgogICAgICAgICAgICAgICAgICAgIHdoZW4gKGdyb3VwLnRhZykgewogICAgICAgICAgICAgICAgICAgICAgICBpcyBTdHJlYW1YbWxQbHVnaW4gLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgeG1sR3JvdXBDb3VudCsrCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmludGxuKCLinqHvuI8g5byA5aeL5o6l5pS2IFhNTCDnu4QgIyR4bWxHcm91cENvdW50IikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFyIGdyb3VwQ2hhckNvdW50ID0gMAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGdyb3VwU3RhcnRUaW1lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZ3JvdXAuc3RyZWFtLmNvbGxlY3QgeyBjaGFyIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ3JvdXBDaGFyQ291bnQrKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFsUmVjZWl2ZWRDaGFycysrCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5q+PMTAw5Liq5a2X56ym5omT5Y2w5LiA5qyh6L+b5bqm77yM6YG/5YWN5pel5b+X6L+H5aSaCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGdyb3VwQ2hhckNvdW50ICUgMTAwID09IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG5vdyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4oIiAgIOKPse+4jyBYTUznu4TmlLbliLDnrKwgJGdyb3VwQ2hhckNvdW50IOS4quWtl+espu+8jOaAu+aOpeaUtiAkdG90YWxSZWNlaXZlZENoYXJz77yM6ICX5pe2ICR7bm93IC0gZ3JvdXBTdGFydFRpbWV9bXMiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnRsbigi4qyF77iPIOWujOaIkOaOpeaUtiBYTUwg57uEICMkeG1sR3JvdXBDb3VudO+8jOWFsSAkZ3JvdXBDaGFyQ291bnQg5a2X56ymIikKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBudWxsIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHRHcm91cENvdW50KysKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4oIuKeoe+4jyDlvIDlp4vmjqXmlLbmlofmnKznu4QgIyR0ZXh0R3JvdXBDb3VudCIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhciBncm91cENoYXJDb3VudCA9IDAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBncm91cFN0YXJ0VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdyb3VwLnN0cmVhbS5jb2xsZWN0IHsgY2hhciAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdyb3VwQ2hhckNvdW50KysKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3RhbFJlY2VpdmVkQ2hhcnMrKwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOavjzEwMOS4quWtl+espuaJk+WNsOS4gOasoei/m+W6pgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChncm91cENoYXJDb3VudCAlIDEwMCA9PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBub3cgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmludGxuKCIgICDij7HvuI8g5paH5pys57uE5pS25Yiw56ysICRncm91cENoYXJDb3VudCDkuKrlrZfnrKbvvIzmgLvmjqXmlLYgJHRvdGFsUmVjZWl2ZWRDaGFyc++8jOiAl+aXtiAke25vdyAtIGdyb3VwU3RhcnRUaW1lfW1zIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW50bG4oIuKshe+4jyDlrozmiJDmjqXmlLbmlofmnKznu4QgIyR0ZXh0R3JvdXBDb3VudO+8jOWFsSAkZ3JvdXBDaGFyQ291bnQg5a2X56ymIikKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgdG90YWxSZWNlaXZlZENoYXJzCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOetieW+heaUtumbhuWujOaIkAogICAgICAgICAgICB2YWwgdG90YWxQcm9jZXNzZWQgPSBjb2xsZWN0Sm9iLmF3YWl0KCkKICAgICAgICAgICAgCiAgICAgICAgICAgIHByaW50bG4oIlxu8J+UjSDlpITnkIbnu5/orqE6IikKICAgICAgICAgICAgcHJpbnRsbigi5oC76L6T5YWl5a2X56ymOiAke2xhcmdlVGV4dC5sZW5ndGh9IikKICAgICAgICAgICAgcHJpbnRsbigi5oC75aSE55CG5a2X56ymOiAkdG90YWxQcm9jZXNzZWQiKQogICAgICAgICAgICBwcmludGxuKCJYTUznu4TmlbDph486ICR4bWxHcm91cENvdW50IikKICAgICAgICAgICAgcHJpbnRsbigi5paH5pys57uE5pWw6YePOiAkdGV4dEdyb3VwQ291bnQiKQogICAgICAgIH0KICAgICAgICAKICAgICAgICBwcmludGxuKCJcbuKPse+4jyDmgLvlpITnkIbml7bpl7Q6ICR7dG90YWxUaW1lfW1zIikKICAgICAgICBwcmludGxuKCI9PT09PSDmtYvor5XlrozmiJAgPT09PT1cbiIpCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5rWL6K+V5Zyo5Y+R6YCB5pa55re75Yqg5bu26L+f55qE5oOF5Ya15LiL77yM5piv5ZCm5LuN54S25L+d5oyB5rWB5byP5aSE55CGCiAgICAgKiDov5nmnInliqnkuo7mm7TmuIXmmbDlnLDop4Llr5/mtYHlvI/lpITnkIbnmoTooYzkuLoKICAgICAqLwogICAgQFRlc3QKICAgIGZ1biB0ZXN0UmVhbFRpbWVTcGxpdEJ5V2l0aFNsb3dQcm9kdWNlcigpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHByaW50bG4oIlxuPT09PT0g5byA5aeL5rWL6K+V5oWi6YCf55Sf5Lqn6ICF55qE5a6e5pe25rWB5byP5aSE55CGID09PT09IikKICAgICAgICAKICAgICAgICAvLyDkvb/nlKjovoPlsI/nmoTmtYvor5XmlbDmja7vvIzlm6DkuLrmiJHku6zkvJrmt7vliqDlu7bov58KICAgICAgICB2YWwgdGVzdFRleHQgPSBnZW5lcmF0ZUxhcmdlVGVzdFRleHQoMikKICAgICAgICBwcmludGxuKCLnlJ/miJDnmoTmtYvor5XmlofmnKzlpKflsI86ICR7dGVzdFRleHQubGVuZ3RofSDlrZfnrKYiKQogICAgICAgIAogICAgICAgIHZhbCB4bWxQbHVnaW4gPSBTdHJlYW1YbWxQbHVnaW4oKQogICAgICAgIAogICAgICAgIC8vIOWIm+W7uuS4gOS4quW4puW7tui/n+eahOWtl+espua1gQogICAgICAgIHZhbCBzbG93Q2hhclN0cmVhbSA9IHN0cmVhbTxDaGFyPiB7CiAgICAgICAgICAgIHRlc3RUZXh0LmZvckVhY2ggeyBjaGFyIC0+CiAgICAgICAgICAgICAgICBlbWl0KGNoYXIpCiAgICAgICAgICAgICAgICAvLyDmr4/lj5HlsIQxMOS4quWtl+espua3u+WKoOS4gOS4quWwj+W7tui/n++8jOaooeaLn+e9kee7nOaIluaWh+S7tuivu+WPlueahOS4jeWdh+WMgOmAn+W6pgogICAgICAgICAgICAgICAgaWYgKHRlc3RUZXh0LmluZGV4T2YoY2hhcikgJSAxMCA9PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgZGVsYXkoNSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDliIblibLmtYHlubbmlLbpm4bnu5PmnpwKICAgICAgICB2YWwgZ3JvdXBlZFN0cmVhbSA9IHNsb3dDaGFyU3RyZWFtLnNwbGl0QnkobGlzdE9mKHhtbFBsdWdpbikpCiAgICAgICAgCiAgICAgICAgdmFyIHRleHRHcm91cENvdW50ID0gMAogICAgICAgIHZhciB4bWxHcm91cENvdW50ID0gMAogICAgICAgIAogICAgICAgIGdyb3VwZWRTdHJlYW0uY29sbGVjdCB7IGdyb3VwIC0+CiAgICAgICAgICAgIHZhbCBpc1htbCA9IGdyb3VwLnRhZyBpcyBTdHJlYW1YbWxQbHVnaW4KICAgICAgICAgICAgdmFsIGdyb3VwSWQgPSBpZiAoaXNYbWwpIHsKICAgICAgICAgICAgICAgIHhtbEdyb3VwQ291bnQrKwogICAgICAgICAgICAgICAgIlhNTCAjJHhtbEdyb3VwQ291bnQiCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB0ZXh0R3JvdXBDb3VudCsrCiAgICAgICAgICAgICAgICAi5paH5pysICMkdGV4dEdyb3VwQ291bnQiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHByaW50bG4oIlxu8J+GlSDlvIDlp4vmjqXmlLYgJGdyb3VwSWQg57uEIikKICAgICAgICAgICAgdmFsIHN0YXJ0VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgIHZhciBjaGFyQ291bnQgPSAwCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDkvb/nlKjlj6bkuIDkuKrlu7bov5/mnaXmqKHmi5/lpITnkIbml7bpl7TvvIzpqozor4HnlJ/kuqflkozmtojotLnnmoTlvILmraXmgKcKICAgICAgICAgICAgZ3JvdXAuc3RyZWFtLmNvbGxlY3QgeyBjaGFyIC0+CiAgICAgICAgICAgICAgICBjaGFyQ291bnQrKwogICAgICAgICAgICAgICAgaWYgKGNoYXJDb3VudCAlIDIwID09IDApIHsKICAgICAgICAgICAgICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgICAgICAgICB2YWwgZWxhcHNlZCA9IG5vdyAtIHN0YXJ0VGltZQogICAgICAgICAgICAgICAgICAgIHByaW50bG4oIiAgIPCfk4ogJGdyb3VwSWQg57uE5bey5o6l5pS2ICRjaGFyQ291bnQg5a2X56ym77yM6ICX5pe2ICR7ZWxhcHNlZH1tcyIpCiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgLy8g6ZqP5py65re75Yqg5LiA5Liq55+t5pqC55qE5aSE55CG5bu26L+fCiAgICAgICAgICAgICAgICAgICAgaWYgKE1hdGgucmFuZG9tKCkgPiAwLjcpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVsYXkoMTApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgZW5kVGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgIHByaW50bG4oIuKchSDlrozmiJDmjqXmlLYgJGdyb3VwSWQg57uE77yM5YWxICRjaGFyQ291bnQg5a2X56ym77yM5oC76ICX5pe2ICR7ZW5kVGltZSAtIHN0YXJ0VGltZX1tcyIpCiAgICAgICAgfQogICAgICAgIAogICAgICAgIHByaW50bG4oIlxu8J+TiCDlpITnkIbnu5/orqE6IikKICAgICAgICBwcmludGxuKCJYTUznu4TmlbDph486ICR4bWxHcm91cENvdW50IikKICAgICAgICBwcmludGxuKCLmlofmnKznu4TmlbDph486ICR0ZXh0R3JvdXBDb3VudCIpCiAgICAgICAgcHJpbnRsbigiPT09PT0g5rWL6K+V5a6M5oiQID09PT09XG4iKQogICAgfQp9IA==
+package com.bslsjdk.operit.util.stream
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.bslsjdk.operit.util.stream.plugins.StreamXmlPlugin
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.runBlocking
+import org.junit.Before
+import org.junit.Test
+import org.junit.runner.RunWith
+import kotlin.system.measureTimeMillis
+
+@RunWith(AndroidJUnit4::class)
+class StreamRealTimeSplitTest {
+
+    @Before
+    fun setup() {
+        // 启用日志
+        StreamLogger.setEnabled(true)
+        // 只保留高级别日志，禁用逐字符的详细（verbose）日志，使输出更清晰
+        StreamLogger.setVerboseEnabled(false)
+    }
+
+    /**
+     * 生成混合内容的大文本
+     * 包含扁平的XML块和普通文本，重复多次以创建足够大的数据量
+     */
+    private fun generateLargeTestText(sizeMultiplier: Int = 20): String {
+        val block = """
+            <user id="1">
+                <name>用户1</name>
+                <email>user1@example.com</email>
+            </user>
+            这是第一段普通文本，它不属于任何XML块。
+            <message read="true">
+                这是一个消息内容。
+            </message>
+            这是第二段普通文本，用于分隔XML块。
+        """.trimIndent()
+
+        // 重复内容多次以创建大文本
+        return (1..sizeMultiplier).joinToString("\n\n") {
+            "--- 第 $it 部分 ---\n$block"
+        }
+    }
+
+    /**
+     * 测试splitBy对大文本的实时流式处理能力
+     * 通过打印发送和接收的时间戳和内容，验证处理是否同步流式进行
+     */
+    @Test
+    fun testRealTimeSplitByProcessing() = runBlocking {
+        println("\n===== 开始测试实时流式处理 =====")
+        
+        // 准备测试数据
+        val largeText = generateLargeTestText()
+        println("生成的测试文本大小: ${largeText.length} 字符")
+        
+        // XML插件
+        val xmlPlugin = StreamXmlPlugin()
+        
+        // 计时
+        val totalTime = measureTimeMillis {
+            var charCount = 0
+            var textGroupCount = 0
+            var xmlGroupCount = 0
+            var totalReceivedChars = 0
+            
+            // 从字符串创建字符流
+            val charStream = largeText.asCharStream()
+            
+            // 使用splitBy处理流
+            val groupedStream = charStream.splitBy(listOf(xmlPlugin))
+            
+            // 创建一个异步任务来收集结果
+            val collectJob = async(Dispatchers.IO) {
+                groupedStream.collect { group ->
+                    when (group.tag) {
+                        is StreamXmlPlugin -> {
+                            xmlGroupCount++
+                            println("➡️ 开始接收 XML 组 #$xmlGroupCount")
+                            
+                            var groupCharCount = 0
+                            val groupStartTime = System.currentTimeMillis()
+                            
+                            group.stream.collect { char ->
+                                groupCharCount++
+                                totalReceivedChars++
+                                
+                                // 每100个字符打印一次进度，避免日志过多
+                                if (groupCharCount % 100 == 0) {
+                                    val now = System.currentTimeMillis()
+                                    println("   ⏱️ XML组收到第 $groupCharCount 个字符，总接收 $totalReceivedChars，耗时 ${now - groupStartTime}ms")
+                                }
+                            }
+                            
+                            println("⬅️ 完成接收 XML 组 #$xmlGroupCount，共 $groupCharCount 字符")
+                        }
+                        null -> {
+                            textGroupCount++
+                            println("➡️ 开始接收文本组 #$textGroupCount")
+                            
+                            var groupCharCount = 0
+                            val groupStartTime = System.currentTimeMillis()
+                            
+                            group.stream.collect { char ->
+                                groupCharCount++
+                                totalReceivedChars++
+                                
+                                // 每100个字符打印一次进度
+                                if (groupCharCount % 100 == 0) {
+                                    val now = System.currentTimeMillis()
+                                    println("   ⏱️ 文本组收到第 $groupCharCount 个字符，总接收 $totalReceivedChars，耗时 ${now - groupStartTime}ms")
+                                }
+                            }
+                            
+                            println("⬅️ 完成接收文本组 #$textGroupCount，共 $groupCharCount 字符")
+                        }
+                    }
+                }
+                
+                totalReceivedChars
+            }
+            
+            // 等待收集完成
+            val totalProcessed = collectJob.await()
+            
+            println("\n🔍 处理统计:")
+            println("总输入字符: ${largeText.length}")
+            println("总处理字符: $totalProcessed")
+            println("XML组数量: $xmlGroupCount")
+            println("文本组数量: $textGroupCount")
+        }
+        
+        println("\n⏱️ 总处理时间: ${totalTime}ms")
+        println("===== 测试完成 =====\n")
+    }
+    
+    /**
+     * 测试在发送方添加延迟的情况下，是否仍然保持流式处理
+     * 这有助于更清晰地观察流式处理的行为
+     */
+    @Test
+    fun testRealTimeSplitByWithSlowProducer() = runBlocking {
+        println("\n===== 开始测试慢速生产者的实时流式处理 =====")
+        
+        // 使用较小的测试数据，因为我们会添加延迟
+        val testText = generateLargeTestText(2)
+        println("生成的测试文本大小: ${testText.length} 字符")
+        
+        val xmlPlugin = StreamXmlPlugin()
+        
+        // 创建一个带延迟的字符流
+        val slowCharStream = stream<Char> {
+            testText.forEach { char ->
+                emit(char)
+                // 每发射10个字符添加一个小延迟，模拟网络或文件读取的不均匀速度
+                if (testText.indexOf(char) % 10 == 0) {
+                    delay(5)
+                }
+            }
+        }
+        
+        // 分割流并收集结果
+        val groupedStream = slowCharStream.splitBy(listOf(xmlPlugin))
+        
+        var textGroupCount = 0
+        var xmlGroupCount = 0
+        
+        groupedStream.collect { group ->
+            val isXml = group.tag is StreamXmlPlugin
+            val groupId = if (isXml) {
+                xmlGroupCount++
+                "XML #$xmlGroupCount"
+            } else {
+                textGroupCount++
+                "文本 #$textGroupCount"
+            }
+            
+            println("\n🆕 开始接收 $groupId 组")
+            val startTime = System.currentTimeMillis()
+            var charCount = 0
+            
+            // 使用另一个延迟来模拟处理时间，验证生产和消费的异步性
+            group.stream.collect { char ->
+                charCount++
+                if (charCount % 20 == 0) {
+                    val now = System.currentTimeMillis()
+                    val elapsed = now - startTime
+                    println("   📊 $groupId 组已接收 $charCount 字符，耗时 ${elapsed}ms")
+                    
+                    // 随机添加一个短暂的处理延迟
+                    if (Math.random() > 0.7) {
+                        delay(10)
+                    }
+                }
+            }
+            
+            val endTime = System.currentTimeMillis()
+            println("✅ 完成接收 $groupId 组，共 $charCount 字符，总耗时 ${endTime - startTime}ms")
+        }
+        
+        println("\n📈 处理统计:")
+        println("XML组数量: $xmlGroupCount")
+        println("文本组数量: $textGroupCount")
+        println("===== 测试完成 =====\n")
+    }
+} 

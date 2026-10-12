@@ -1,1 +1,96 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQuaW5zdGFsbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQuZGF0YWJhc2UuQ3Vyc29yCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLmRyYXdhYmxlLkNvbG9yRHJhd2FibGUKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZC5vcy5CdW5kbGUKaW1wb3J0IGFuZHJvaWQucHJvdmlkZXIuT3BlbmFibGVDb2x1bW5zCmltcG9ydCBhbmRyb2lkeC5hY3Rpdml0eS5Db21wb25lbnRBY3Rpdml0eQppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkucmVzdWx0LmNvbnRyYWN0LkFjdGl2aXR5UmVzdWx0Q29udHJhY3RzCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUubGlmZWN5Y2xlU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CgppbnRlcm5hbCBjbGFzcyBVc2Vyc2NyaXB0SW1wb3J0UGlja2VyQWN0aXZpdHkgOiBDb21wb25lbnRBY3Rpdml0eSgpIHsKICAgIHByaXZhdGUgdmFyIHJlcXVlc3RJZDogU3RyaW5nID0gIiIKICAgIHByaXZhdGUgdmFyIGNvbXBsZXRlZCA9IGZhbHNlCgogICAgcHJpdmF0ZSB2YWwgcGlja2VyID0KICAgICAgICByZWdpc3RlckZvckFjdGl2aXR5UmVzdWx0KEFjdGl2aXR5UmVzdWx0Q29udHJhY3RzLk9wZW5Eb2N1bWVudCgpKSB7IHVyaSAtPgogICAgICAgICAgICBpZiAodXJpID09IG51bGwpIHsKICAgICAgICAgICAgICAgIGZpbmlzaFdpdGhDYW5jZWwoKQogICAgICAgICAgICAgICAgcmV0dXJuQHJlZ2lzdGVyRm9yQWN0aXZpdHlSZXN1bHQKICAgICAgICAgICAgfQogICAgICAgICAgICBsaWZlY3ljbGVTY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgdmFsIHJlc3VsdCA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7IHJlYWRVc2Vyc2NyaXB0KHVyaSkgfQogICAgICAgICAgICAgICAgY29tcGxldGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgVXNlcnNjcmlwdEltcG9ydENvb3JkaW5hdG9yLmNvbXBsZXRlKHJlcXVlc3RJZCwgcmVzdWx0KQogICAgICAgICAgICAgICAgZmluaXNoKCkKICAgICAgICAgICAgICAgIG92ZXJyaWRlUGVuZGluZ1RyYW5zaXRpb24oMCwgMCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlOiBCdW5kbGU/KSB7CiAgICAgICAgc3VwZXIub25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlKQogICAgICAgIHdpbmRvdy5zZXRCYWNrZ3JvdW5kRHJhd2FibGUoQ29sb3JEcmF3YWJsZShDb2xvci5UUkFOU1BBUkVOVCkpCiAgICAgICAgd2luZG93LmRlY29yVmlldy5hbHBoYSA9IDBmCgogICAgICAgIHJlcXVlc3RJZCA9IGludGVudC5nZXRTdHJpbmdFeHRyYShVc2Vyc2NyaXB0SW1wb3J0Q29vcmRpbmF0b3IucmVxdWVzdElkRXh0cmEoKSkub3JFbXB0eSgpCiAgICAgICAgaWYgKHJlcXVlc3RJZC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgZmluaXNoV2l0aENhbmNlbCgpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgaWYgKHNhdmVkSW5zdGFuY2VTdGF0ZSA9PSBudWxsKSB7CiAgICAgICAgICAgIHBpY2tlci5sYXVuY2goCiAgICAgICAgICAgICAgICBhcnJheU9mKAogICAgICAgICAgICAgICAgICAgICJ0ZXh0LyoiLAogICAgICAgICAgICAgICAgICAgICJhcHBsaWNhdGlvbi9qYXZhc2NyaXB0IiwKICAgICAgICAgICAgICAgICAgICAiYXBwbGljYXRpb24veC1qYXZhc2NyaXB0IiwKICAgICAgICAgICAgICAgICAgICAiYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvbkRlc3Ryb3koKSB7CiAgICAgICAgaWYgKGlzRmluaXNoaW5nICYmICFpc0NoYW5naW5nQ29uZmlndXJhdGlvbnMgJiYgIWNvbXBsZXRlZCAmJiByZXF1ZXN0SWQuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgIFVzZXJzY3JpcHRJbXBvcnRDb29yZGluYXRvci5jYW5jZWwocmVxdWVzdElkKQogICAgICAgIH0KICAgICAgICBzdXBlci5vbkRlc3Ryb3koKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGZpbmlzaFdpdGhDYW5jZWwoKSB7CiAgICAgICAgaWYgKHJlcXVlc3RJZC5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgVXNlcnNjcmlwdEltcG9ydENvb3JkaW5hdG9yLmNhbmNlbChyZXF1ZXN0SWQpCiAgICAgICAgfQogICAgICAgIGZpbmlzaCgpCiAgICAgICAgb3ZlcnJpZGVQZW5kaW5nVHJhbnNpdGlvbigwLCAwKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlYWRVc2Vyc2NyaXB0KHVyaTogVXJpKTogVXNlcnNjcmlwdEltcG9ydFJlc3VsdD8gewogICAgICAgIHZhbCB0ZXh0ID0KICAgICAgICAgICAgY29udGVudFJlc29sdmVyLm9wZW5JbnB1dFN0cmVhbSh1cmkpPy5idWZmZXJlZFJlYWRlcihDaGFyc2V0cy5VVEZfOCk/LnVzZSB7IGl0LnJlYWRUZXh0KCkgfQogICAgICAgICAgICAgICAgPzogcmV0dXJuIG51bGwKICAgICAgICByZXR1cm4gVXNlcnNjcmlwdEltcG9ydFJlc3VsdCgKICAgICAgICAgICAgcmF3U291cmNlID0gdGV4dCwKICAgICAgICAgICAgZGlzcGxheU5hbWUgPSBxdWVyeURpc3BsYXlOYW1lKHVyaSksCiAgICAgICAgICAgIHNvdXJjZVVyaSA9IHVyaS50b1N0cmluZygpCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHF1ZXJ5RGlzcGxheU5hbWUodXJpOiBVcmkpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgY3Vyc29yOiBDdXJzb3IgPQogICAgICAgICAgICBjb250ZW50UmVzb2x2ZXIucXVlcnkodXJpLCBhcnJheU9mKE9wZW5hYmxlQ29sdW1ucy5ESVNQTEFZX05BTUUpLCBudWxsLCBudWxsLCBudWxsKSA/OiByZXR1cm4gbnVsbAogICAgICAgIGN1cnNvci51c2UgewogICAgICAgICAgICByZXR1cm4gaWYgKGl0Lm1vdmVUb0ZpcnN0KCkpIHsKICAgICAgICAgICAgICAgIGl0LmdldFN0cmluZygwKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript.install
+
+import android.content.Intent
+import android.database.Cursor
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
+import android.net.Uri
+import android.os.Bundle
+import android.provider.OpenableColumns
+import androidx.activity.ComponentActivity
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+internal class UserscriptImportPickerActivity : ComponentActivity() {
+    private var requestId: String = ""
+    private var completed = false
+
+    private val picker =
+        registerForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+            if (uri == null) {
+                finishWithCancel()
+                return@registerForActivityResult
+            }
+            lifecycleScope.launch {
+                val result = withContext(Dispatchers.IO) { readUserscript(uri) }
+                completed = true
+                UserscriptImportCoordinator.complete(requestId, result)
+                finish()
+                overridePendingTransition(0, 0)
+            }
+        }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        window.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+        window.decorView.alpha = 0f
+
+        requestId = intent.getStringExtra(UserscriptImportCoordinator.requestIdExtra()).orEmpty()
+        if (requestId.isBlank()) {
+            finishWithCancel()
+            return
+        }
+
+        if (savedInstanceState == null) {
+            picker.launch(
+                arrayOf(
+                    "text/*",
+                    "application/javascript",
+                    "application/x-javascript",
+                    "application/octet-stream"
+                )
+            )
+        }
+    }
+
+    override fun onDestroy() {
+        if (isFinishing && !isChangingConfigurations && !completed && requestId.isNotBlank()) {
+            UserscriptImportCoordinator.cancel(requestId)
+        }
+        super.onDestroy()
+    }
+
+    private fun finishWithCancel() {
+        if (requestId.isNotBlank()) {
+            UserscriptImportCoordinator.cancel(requestId)
+        }
+        finish()
+        overridePendingTransition(0, 0)
+    }
+
+    private fun readUserscript(uri: Uri): UserscriptImportResult? {
+        val text =
+            contentResolver.openInputStream(uri)?.bufferedReader(Charsets.UTF_8)?.use { it.readText() }
+                ?: return null
+        return UserscriptImportResult(
+            rawSource = text,
+            displayName = queryDisplayName(uri),
+            sourceUri = uri.toString()
+        )
+    }
+
+    private fun queryDisplayName(uri: Uri): String? {
+        val cursor: Cursor =
+            contentResolver.query(uri, arrayOf(OpenableColumns.DISPLAY_NAME), null, null, null) ?: return null
+        cursor.use {
+            return if (it.moveToFirst()) {
+                it.getString(0)
+            } else {
+                null
+            }
+        }
+    }
+}

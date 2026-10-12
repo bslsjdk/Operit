@@ -1,1 +1,212 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuZGVtby52aWV3bW9kZWwKCmltcG9ydCBhbmRyb2lkLmFwcC5BcHBsaWNhdGlvbgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZC53aWRnZXQuVG9hc3QKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5BbmRyb2lkVmlld01vZGVsCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsUHJvdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS52aWV3TW9kZWxTY29wZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuQUlUb29sSGFuZGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLlJvb3RBdXRob3JpemVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmRlbW8uc3RhdGUuRGVtb1N0YXRlTWFuYWdlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKLyoqIFZpZXdNb2RlbCBmb3IgdGhlIFNoaXp1a3VEZW1vU2NyZWVuIERlbGVnYXRlcyBtb3N0IHN0YXRlIG1hbmFnZW1lbnQgdG8gRGVtb1N0YXRlTWFuYWdlciAqLwpjbGFzcyBTaGl6dWt1RGVtb1ZpZXdNb2RlbChhcHBsaWNhdGlvbjogQXBwbGljYXRpb24pIDogQW5kcm9pZFZpZXdNb2RlbChhcHBsaWNhdGlvbikgewogICAgLy8g5Yid5aeL5YyW5pe255u05o6l5Yib5bu6c3RhdGVNYW5hZ2VyCiAgICBwcml2YXRlIHZhbCBzdGF0ZU1hbmFnZXI6IERlbW9TdGF0ZU1hbmFnZXIgPSBEZW1vU3RhdGVNYW5hZ2VyKGFwcGxpY2F0aW9uLCB2aWV3TW9kZWxTY29wZSkKCiAgICAvLyBBSVRvb2xIYW5kbGVyIGluc3RhbmNlCiAgICBwcml2YXRlIHZhbCB0b29sSGFuZGxlcjogQUlUb29sSGFuZGxlciA9IEFJVG9vbEhhbmRsZXIuZ2V0SW5zdGFuY2UoYXBwbGljYXRpb24pCgogICAgLy8gRXhwb3NlIHN0YXRlIGZyb20gdGhlIG1hbmFnZXIKICAgIHZhbCB1aVN0YXRlOiBTdGF0ZUZsb3c8Y29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmRlbW8uc3RhdGUuRGVtb1NjcmVlblN0YXRlPiA9CiAgICAgICAgICAgIHN0YXRlTWFuYWdlci51aVN0YXRlCgogICAgLy8gRXhwb3NlIE5vZGVKUyBhbmQgUHl0aG9uIGVudmlyb25tZW50IHByb3BlcnRpZXMKICAgIHZhbCBpc1BucG1JbnN0YWxsZWQKICAgICAgICBnZXQoKSA9IHN0YXRlTWFuYWdlci5pc1BucG1JbnN0YWxsZWQKICAgIHZhbCBpc1B5dGhvbkluc3RhbGxlZAogICAgICAgIGdldCgpID0gc3RhdGVNYW5hZ2VyLmlzUHl0aG9uSW5zdGFsbGVkCiAgICB2YWwgaXNOb2RlanNQeXRob25FbnZpcm9ubWVudFJlYWR5CiAgICAgICAgZ2V0KCkgPSBzdGF0ZU1hbmFnZXIuaXNOb2RlanNQeXRob25FbnZpcm9ubWVudFJlYWR5CgogICAgLyoqIEluaXRpYWxpemUgdGhlIFZpZXdNb2RlbCB3aXRoIGNvbnRleHQgZGF0YSAqLwogICAgZnVuIGluaXRpYWxpemUoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIC8vIOWIneWni+WMllJvb3TmjojmnYPlmagKICAgICAgICBSb290QXV0aG9yaXplci5pbml0aWFsaXplKGNvbnRleHQpCiAgICAgICAgLy8g5Y+q6ZyA6KaB6LCD55Soc3RhdGVNYW5hZ2Vy55qEaW5pdGlhbGl6ZeaWueazlQogICAgICAgIHN0YXRlTWFuYWdlci5pbml0aWFsaXplKCkKICAgIH0KCiAgICAvKiogU2V0IGxvYWRpbmcgc3RhdGUgKi8KICAgIGZ1biBzZXRMb2FkaW5nKGlzTG9hZGluZzogQm9vbGVhbikgewogICAgICAgIHN0YXRlTWFuYWdlci5zZXRMb2FkaW5nKGlzTG9hZGluZykKICAgIH0KCiAgICAvKiogSW5pdGlhbGl6ZSB0aGUgVmlld01vZGVsIHdpdGggY29udGV4dCBkYXRhIChBc3luYyB2ZXJzaW9uKSAqLwogICAgZnVuIGluaXRpYWxpemVBc3luYyhjb250ZXh0OiBDb250ZXh0KSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoKERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAvLyDliJ3lp4vljJZSb2905o6I5p2D5ZmoIC0g5ZyoSU/nur/nqIvov5vooYzliJ3lp4vljJYKICAgICAgICAgICAgICAgIFJvb3RBdXRob3JpemVyLmluaXRpYWxpemUoY29udGV4dCkKCiAgICAgICAgICAgICAgICAvLyDnm7TmjqXku45Sb290QXV0aG9yaXplcuiOt+WPluW9k+WJjeeKtuaAgQogICAgICAgICAgICAgICAgdmFsIGlzRGV2aWNlUm9vdGVkID0gUm9vdEF1dGhvcml6ZXIuaXNSb290ZWQudmFsdWUKICAgICAgICAgICAgICAgIHZhbCBoYXNSb290QWNjZXNzID0gUm9vdEF1dGhvcml6ZXIuaGFzUm9vdEFjY2Vzcy52YWx1ZQoKICAgICAgICAgICAgICAgIC8vIOabtOaWsOeKtuaAgQogICAgICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICAgICAgICAgIHN0YXRlTWFuYWdlci51cGRhdGVSb290U3RhdHVzKGlzRGV2aWNlUm9vdGVkLCBoYXNSb290QWNjZXNzKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOiwg+eUqHN0YXRlTWFuYWdlcueahOW8guatpeWIneWni+WMluaWueazlQogICAgICAgICAgICAgICAgc3RhdGVNYW5hZ2VyLmluaXRpYWxpemVBc3luYygpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoIlNoaXp1a3VEZW1vVmlld01vZGVsIiwgIuWIneWni+WMluaXtuWHuumUmTogJHtlLm1lc3NhZ2V9IiwgZSkKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIC8vIOWujOaIkOWQjuWFs+mXreWKoOi9veaMh+ekuuWZqAogICAgICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgeyBzZXRMb2FkaW5nKGZhbHNlKSB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqIFJlZnJlc2ggYXBwIHN0YXR1cyAqLwogICAgZnVuIHJlZnJlc2hTdGF0dXMoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIC8vIOajgOafpVJvb3TnirbmgIEKICAgICAgICBjaGVja1Jvb3RTdGF0dXMoY29udGV4dCkKICAgICAgICBzdGF0ZU1hbmFnZXIucmVmcmVzaFN0YXR1cygpCiAgICB9CgogICAgLyoqIENoZWNrIHJvb3Qgc3RhdHVzICovCiAgICBmdW4gY2hlY2tSb290U3RhdHVzKGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICB2YWwgaXNEZXZpY2VSb290ZWQgPSBSb290QXV0aG9yaXplci5pc0RldmljZVJvb3RlZCgpCiAgICAgICAgICAgIHZhbCBoYXNSb290QWNjZXNzID0gUm9vdEF1dGhvcml6ZXIuY2hlY2tSb290U3RhdHVzKGNvbnRleHQpCiAgICAgICAgICAgIHN0YXRlTWFuYWdlci51cGRhdGVSb290U3RhdHVzKGlzRGV2aWNlUm9vdGVkLCBoYXNSb290QWNjZXNzKQogICAgICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgICAgICAgICAiU2hpenVrdURlbW9WaWV3TW9kZWwiLAogICAgICAgICAgICAgICAgICAgICJSb29054q25oCB5pu05pawOiDorr7lpIflt7JSb290PSRpc0RldmljZVJvb3RlZCwg5bqU55So5pyJUm9vdOadg+mZkD0kaGFzUm9vdEFjY2VzcyIKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICAvKiogUmVxdWVzdCByb290IHBlcm1pc3Npb24gKi8KICAgIGZ1biByZXF1ZXN0Um9vdFBlcm1pc3Npb24oY29udGV4dDogQ29udGV4dCkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIC8vIOWmguaenOW3suaciVJvb3TmnYPpmZDvvIzliJnnm7TmjqXmiafooYzmtYvor5Xlkb3ku6QKICAgICAgICAgICAgaWYgKFJvb3RBdXRob3JpemVyLmhhc1Jvb3RBY2Nlc3MudmFsdWUpIHsKICAgICAgICAgICAgICAgIGV4ZWN1dGVSb290Q29tbWFuZCgiaWQiLCBjb250ZXh0KQogICAgICAgICAgICAgICAgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDlpoLmnpzmsqHmnIlSb2905p2D6ZmQ77yM5YiZ5YWI6K+35rGC5p2D6ZmQCiAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KGNvbnRleHQsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnJlcXVlc3Rpbmdfcm9vdF9wZXJtaXNzaW9uKSwgVG9hc3QuTEVOR1RIX1NIT1JUKS5zaG93KCkKCiAgICAgICAgICAgIFJvb3RBdXRob3JpemVyLnJlcXVlc3RSb290UGVybWlzc2lvbiB7IGdyYW50ZWQgLT4KICAgICAgICAgICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGdyYW50ZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoY29udGV4dCwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcucm9vdF9wZXJtaXNzaW9uX2dyYW50ZWQpLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgICAgICAgICAgICAgICAgICAgICAvLyDmnYPpmZDmjojkuojlkI7miafooYzkuIDkuKrnroDljZXnmoTmtYvor5Xlkb3ku6QKICAgICAgICAgICAgICAgICAgICAgICAgZXhlY3V0ZVJvb3RDb21tYW5kKCJpZCIsIGNvbnRleHQpCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoY29udGV4dCwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcucm9vdF9wZXJtaXNzaW9uX2RlbmllZCksIFRvYXN0LkxFTkdUSF9TSE9SVCkuc2hvdygpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIC8vIOWIt+aWsOeKtuaAgQogICAgICAgICAgICAgICAgICAgIGNoZWNrUm9vdFN0YXR1cyhjb250ZXh0KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8qKiBFeGVjdXRlIHJvb3QgY29tbWFuZCAqLwogICAgZnVuIGV4ZWN1dGVSb290Q29tbWFuZChjb21tYW5kOiBTdHJpbmcsIGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICB2YWwgcmVzdWx0ID0gUm9vdEF1dGhvcml6ZXIuZXhlY3V0ZVJvb3RDb21tYW5kKGNvbW1hbmQsIGNvbnRleHQpCiAgICAgICAgICAgIGlmIChyZXN1bHQuZmlyc3QpIHsKICAgICAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KGNvbnRleHQsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmNvbW1hbmRfZXhlY3V0aW9uX3N1Y2Nlc3MpLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgICAgICAgICAgICAgc3RhdGVNYW5hZ2VyLnVwZGF0ZVJlc3VsdFRleHQoIiR7Y29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY29tbWFuZF9leGVjdXRpb25fc3VjY2Vzcyl9OlxuJHtyZXN1bHQuc2Vjb25kfSIpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBUb2FzdC5tYWtlVGV4dChjb250ZXh0LCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jb21tYW5kX2V4ZWN1dGlvbl9mYWlsZWQpLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgICAgICAgICAgICAgc3RhdGVNYW5hZ2VyLnVwZGF0ZVJlc3VsdFRleHQoIiR7Y29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuY29tbWFuZF9leGVjdXRpb25fZmFpbGVkKX06XG4ke3Jlc3VsdC5zZWNvbmR9IikKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKiogRGlhbG9nIG1hbmFnZW1lbnQgKi8KICAgIGZ1biBzaG93UmVzdWx0RGlhbG9nKHRpdGxlOiBTdHJpbmcsIGNvbnRlbnQ6IFN0cmluZykgewogICAgICAgIHN0YXRlTWFuYWdlci5zaG93UmVzdWx0RGlhbG9nKHRpdGxlLCBjb250ZW50KQogICAgfQoKICAgIGZ1biBoaWRlUmVzdWx0RGlhbG9nKCkgewogICAgICAgIHN0YXRlTWFuYWdlci5oaWRlUmVzdWx0RGlhbG9nKCkKICAgIH0KCiAgICAvKiogVUkgdmlzaWJpbGl0eSB0b2dnbGVzICovCiAgICBmdW4gdG9nZ2xlU2hpenVrdVdpemFyZCgpIHsKICAgICAgICBzdGF0ZU1hbmFnZXIudG9nZ2xlU2hpenVrdVdpemFyZCgpCiAgICB9CgogICAgZnVuIHRvZ2dsZU9wZXJpdFRlcm1pbmFsV2l6YXJkKCkgewogICAgICAgIHN0YXRlTWFuYWdlci50b2dnbGVPcGVyaXRUZXJtaW5hbFdpemFyZCgpCiAgICB9CgogICAgZnVuIHRvZ2dsZVJvb3RXaXphcmQoKSB7CiAgICAgICAgc3RhdGVNYW5hZ2VyLnRvZ2dsZVJvb3RXaXphcmQoKQogICAgfQoKICAgIGZ1biB0b2dnbGVBY2Nlc3NpYmlsaXR5V2l6YXJkKCkgewogICAgICAgIHN0YXRlTWFuYWdlci50b2dnbGVBY2Nlc3NpYmlsaXR5V2l6YXJkKCkKICAgIH0KCiAgICBmdW4gdG9nZ2xlQWRiQ29tbWFuZEV4ZWN1dG9yKCkgewogICAgICAgIHN0YXRlTWFuYWdlci50b2dnbGVBZGJDb21tYW5kRXhlY3V0b3IoKQogICAgfQoKICAgIGZ1biB0b2dnbGVTYW1wbGVDb21tYW5kcygpIHsKICAgICAgICBzdGF0ZU1hbmFnZXIudG9nZ2xlU2FtcGxlQ29tbWFuZHMoKQogICAgfQoKICAgIC8qKiBDb21tYW5kIGhhbmRsaW5nICovCiAgICBmdW4gdXBkYXRlQ29tbWFuZFRleHQodGV4dDogU3RyaW5nKSB7CiAgICAgICAgc3RhdGVNYW5hZ2VyLnVwZGF0ZUNvbW1hbmRUZXh0KHRleHQpCiAgICB9CgogICAgLyoqIFJlZnJlc2ggYWxsIHJlZ2lzdGVyZWQgdG9vbHMgKi8KICAgIGZ1biByZWZyZXNoVG9vbHMoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIEFwcExvZ2dlci5kKCJTaGl6dWt1RGVtb1ZpZXdNb2RlbCIsICJSZWZyZXNoaW5nIGFsbCByZWdpc3RlcmVkIHRvb2xzIikKICAgICAgICAvLyBGaXJzdCBjbGVhciB0aGUgY3VycmVudCB0b29sIGV4ZWN1dGlvbiBzdGF0ZQogICAgICAgIHRvb2xIYW5kbGVyLnJlc2V0KCkKCiAgICAgICAgLy8gUmUtcmVnaXN0ZXIgYWxsIGRlZmF1bHQgdG9vbHMKICAgICAgICB0b29sSGFuZGxlci5yZWdpc3RlckRlZmF1bHRUb29scygpCgogICAgICAgIC8vIFNob3cgYSB0b2FzdCBub3RpZmljYXRpb24gZm9yIGZlZWRiYWNrCiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoKERpc3BhdGNoZXJzLk1haW4pIHsKICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoY29udGV4dCwgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYWxsX3Rvb2xzX3JlcmVnaXN0ZXJlZCksIFRvYXN0LkxFTkdUSF9TSE9SVCkuc2hvdygpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiBDbGVhbnVwIHdoZW4gVmlld01vZGVsIGlzIGNsZWFyZWQgKi8KICAgIG92ZXJyaWRlIGZ1biBvbkNsZWFyZWQoKSB7CiAgICAgICAgc3VwZXIub25DbGVhcmVkKCkKICAgICAgICBzdGF0ZU1hbmFnZXIuY2xlYW51cCgpCiAgICB9CgogICAgLyoqIFZpZXdNb2RlbEZhY3RvcnkgZm9yIGNyZWF0aW5nIFNoaXp1a3VEZW1vVmlld01vZGVsIHdpdGggZGVwZW5kZW5jaWVzICovCiAgICBjbGFzcyBGYWN0b3J5KHByaXZhdGUgdmFsIGFwcGxpY2F0aW9uOiBBcHBsaWNhdGlvbikgOiBWaWV3TW9kZWxQcm92aWRlci5GYWN0b3J5IHsKICAgICAgICBAU3VwcHJlc3MoIlVOQ0hFQ0tFRF9DQVNUIikKICAgICAgICBvdmVycmlkZSBmdW4gPFQgOiBWaWV3TW9kZWw+IGNyZWF0ZShtb2RlbENsYXNzOiBDbGFzczxUPik6IFQgewogICAgICAgICAgICBpZiAobW9kZWxDbGFzcy5pc0Fzc2lnbmFibGVGcm9tKFNoaXp1a3VEZW1vVmlld01vZGVsOjpjbGFzcy5qYXZhKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIFNoaXp1a3VEZW1vVmlld01vZGVsKGFwcGxpY2F0aW9uKSBhcyBUCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmtub3duIFZpZXdNb2RlbCBjbGFzcyIpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.demo.viewmodel
+
+import android.app.Application
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import android.widget.Toast
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.system.RootAuthorizer
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.features.demo.state.DemoStateManager
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+/** ViewModel for the ShizukuDemoScreen Delegates most state management to DemoStateManager */
+class ShizukuDemoViewModel(application: Application) : AndroidViewModel(application) {
+    // 初始化时直接创建stateManager
+    private val stateManager: DemoStateManager = DemoStateManager(application, viewModelScope)
+
+    // AIToolHandler instance
+    private val toolHandler: AIToolHandler = AIToolHandler.getInstance(application)
+
+    // Expose state from the manager
+    val uiState: StateFlow<com.bslsjdk.operit.ui.features.demo.state.DemoScreenState> =
+            stateManager.uiState
+
+    // Expose NodeJS and Python environment properties
+    val isPnpmInstalled
+        get() = stateManager.isPnpmInstalled
+    val isPythonInstalled
+        get() = stateManager.isPythonInstalled
+    val isNodejsPythonEnvironmentReady
+        get() = stateManager.isNodejsPythonEnvironmentReady
+
+    /** Initialize the ViewModel with context data */
+    fun initialize(context: Context) {
+        // 初始化Root授权器
+        RootAuthorizer.initialize(context)
+        // 只需要调用stateManager的initialize方法
+        stateManager.initialize()
+    }
+
+    /** Set loading state */
+    fun setLoading(isLoading: Boolean) {
+        stateManager.setLoading(isLoading)
+    }
+
+    /** Initialize the ViewModel with context data (Async version) */
+    fun initializeAsync(context: Context) {
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                // 初始化Root授权器 - 在IO线程进行初始化
+                RootAuthorizer.initialize(context)
+
+                // 直接从RootAuthorizer获取当前状态
+                val isDeviceRooted = RootAuthorizer.isRooted.value
+                val hasRootAccess = RootAuthorizer.hasRootAccess.value
+
+                // 更新状态
+                withContext(Dispatchers.Main) {
+                    stateManager.updateRootStatus(isDeviceRooted, hasRootAccess)
+                }
+
+                // 调用stateManager的异步初始化方法
+                stateManager.initializeAsync()
+            } catch (e: Exception) {
+                AppLogger.e("ShizukuDemoViewModel", "初始化时出错: ${e.message}", e)
+            } finally {
+                // 完成后关闭加载指示器
+                withContext(Dispatchers.Main) { setLoading(false) }
+            }
+        }
+    }
+
+    /** Refresh app status */
+    fun refreshStatus(context: Context) {
+        // 检查Root状态
+        checkRootStatus(context)
+        stateManager.refreshStatus()
+    }
+
+    /** Check root status */
+    fun checkRootStatus(context: Context) {
+        viewModelScope.launch {
+            val isDeviceRooted = RootAuthorizer.isDeviceRooted()
+            val hasRootAccess = RootAuthorizer.checkRootStatus(context)
+            stateManager.updateRootStatus(isDeviceRooted, hasRootAccess)
+            AppLogger.d(
+                    "ShizukuDemoViewModel",
+                    "Root状态更新: 设备已Root=$isDeviceRooted, 应用有Root权限=$hasRootAccess"
+            )
+        }
+    }
+
+    /** Request root permission */
+    fun requestRootPermission(context: Context) {
+        viewModelScope.launch {
+            // 如果已有Root权限，则直接执行测试命令
+            if (RootAuthorizer.hasRootAccess.value) {
+                executeRootCommand("id", context)
+                return@launch
+            }
+
+            // 如果没有Root权限，则先请求权限
+            Toast.makeText(context, context.getString(R.string.requesting_root_permission), Toast.LENGTH_SHORT).show()
+
+            RootAuthorizer.requestRootPermission { granted ->
+                viewModelScope.launch {
+                    if (granted) {
+                        Toast.makeText(context, context.getString(R.string.root_permission_granted), Toast.LENGTH_SHORT).show()
+                        // 权限授予后执行一个简单的测试命令
+                        executeRootCommand("id", context)
+                    } else {
+                        Toast.makeText(context, context.getString(R.string.root_permission_denied), Toast.LENGTH_SHORT).show()
+                    }
+                    // 刷新状态
+                    checkRootStatus(context)
+                }
+            }
+        }
+    }
+
+    /** Execute root command */
+    fun executeRootCommand(command: String, context: Context) {
+        viewModelScope.launch {
+            val result = RootAuthorizer.executeRootCommand(command, context)
+            if (result.first) {
+                Toast.makeText(context, context.getString(R.string.command_execution_success), Toast.LENGTH_SHORT).show()
+                stateManager.updateResultText("${context.getString(R.string.command_execution_success)}:\n${result.second}")
+            } else {
+                Toast.makeText(context, context.getString(R.string.command_execution_failed), Toast.LENGTH_SHORT).show()
+                stateManager.updateResultText("${context.getString(R.string.command_execution_failed)}:\n${result.second}")
+            }
+        }
+    }
+
+    /** Dialog management */
+    fun showResultDialog(title: String, content: String) {
+        stateManager.showResultDialog(title, content)
+    }
+
+    fun hideResultDialog() {
+        stateManager.hideResultDialog()
+    }
+
+    /** UI visibility toggles */
+    fun toggleShizukuWizard() {
+        stateManager.toggleShizukuWizard()
+    }
+
+    fun toggleOperitTerminalWizard() {
+        stateManager.toggleOperitTerminalWizard()
+    }
+
+    fun toggleRootWizard() {
+        stateManager.toggleRootWizard()
+    }
+
+    fun toggleAccessibilityWizard() {
+        stateManager.toggleAccessibilityWizard()
+    }
+
+    fun toggleAdbCommandExecutor() {
+        stateManager.toggleAdbCommandExecutor()
+    }
+
+    fun toggleSampleCommands() {
+        stateManager.toggleSampleCommands()
+    }
+
+    /** Command handling */
+    fun updateCommandText(text: String) {
+        stateManager.updateCommandText(text)
+    }
+
+    /** Refresh all registered tools */
+    fun refreshTools(context: Context) {
+        AppLogger.d("ShizukuDemoViewModel", "Refreshing all registered tools")
+        // First clear the current tool execution state
+        toolHandler.reset()
+
+        // Re-register all default tools
+        toolHandler.registerDefaultTools()
+
+        // Show a toast notification for feedback
+        viewModelScope.launch(Dispatchers.Main) {
+            Toast.makeText(context, context.getString(R.string.all_tools_reregistered), Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    /** Cleanup when ViewModel is cleared */
+    override fun onCleared() {
+        super.onCleared()
+        stateManager.cleanup()
+    }
+
+    /** ViewModelFactory for creating ShizukuDemoViewModel with dependencies */
+    class Factory(private val application: Application) : ViewModelProvider.Factory {
+        @Suppress("UNCHECKED_CAST")
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(ShizukuDemoViewModel::class.java)) {
+                return ShizukuDemoViewModel(application) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+}

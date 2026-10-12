@@ -1,1 +1,305 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkucGVybWlzc2lvbnMKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5vcy5IYW5kbGVyCmltcG9ydCBhbmRyb2lkLm9zLkxvb3BlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ29sb3JTY2hlbWUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5jb3JlLkRhdGFTdG9yZQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuUHJlZmVyZW5jZXMKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmVkaXQKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLnN0cmluZ1ByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMucHJlZmVyZW5jZXNEYXRhU3RvcmUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFJVG9vbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5maXJzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cubWFwCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3VzcGVuZENhbmNlbGxhYmxlQ29yb3V0aW5lCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aFRpbWVvdXRPck51bGwKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCmltcG9ydCBrb3RsaW4uY29yb3V0aW5lcy5yZXN1bWUKCi8vIERlZmluZSBEYXRhU3RvcmUKcHJpdmF0ZSB2YWwgQ29udGV4dC50b29sUGVybWlzc2lvbnNEYXRhU3RvcmU6IERhdGFTdG9yZTxQcmVmZXJlbmNlcz4gYnkgcHJlZmVyZW5jZXNEYXRhU3RvcmUobmFtZSA9ICJ0b29sX3Blcm1pc3Npb25zIikKCi8qKgogKiBQZXJtaXNzaW9uIGxldmVscyBmb3IgdG9vbCBvcGVyYXRpb25zCiAqLwplbnVtIGNsYXNzIFBlcm1pc3Npb25MZXZlbCB7CiAgICBBTExPVywgICAgICAvLyBBbGxvdyBhdXRvbWF0aWNhbGx5IHdpdGhvdXQgYXNraW5nCiAgICBBU0ssICAgICAgICAvLyBBbHdheXMgYXNrCiAgICBGT1JCSUQ7ICAgICAvLyBOZXZlciBhbGxvdwoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGZ1biBmcm9tU3RyaW5nKHZhbHVlOiBTdHJpbmc/KTogUGVybWlzc2lvbkxldmVsIHsKICAgICAgICAgICAgcmV0dXJuIHdoZW4gKHZhbHVlKSB7CiAgICAgICAgICAgICAgICAiQUxMT1ciIC0+IEFMTE9XCiAgICAgICAgICAgICAgICAiQ0FVVElPTiIgLT4gQVNLCiAgICAgICAgICAgICAgICAiQVNLIiAtPiBBU0sKICAgICAgICAgICAgICAgICJGT1JCSUQiIC0+IEZPUkJJRAogICAgICAgICAgICAgICAgZWxzZSAtPiBBU0sgIC8vIERlZmF1bHQgdG8gQVNLCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8qKgogKiBDZW50cmFsaXplZCB0b29sIHBlcm1pc3Npb24gc3lzdGVtIHRoYXQgbWFuYWdlcyBib3RoIHBlcm1pc3Npb24gc3RvcmFnZSBhbmQgY2hlY2tpbmcKICovCmNsYXNzIFRvb2xQZXJtaXNzaW9uU3lzdGVtIHByaXZhdGUgY29uc3RydWN0b3IocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewogICAgCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiVG9vbFBlcm1pc3Npb25TeXN0ZW0iCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgUEVSTUlTU0lPTl9SRVFVRVNUX1RJTUVPVVRfTVMgPSA2MDAwMEwgLy8gNjAgc2Vjb25kcyB0aW1lb3V0CiAgICAgICAgCiAgICAgICAgLy8gRGF0YVN0b3JlIGtleXMKICAgICAgICBwcml2YXRlIHZhbCBNQVNURVJfU1dJVENIID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoIm1hc3Rlcl9zd2l0Y2giKQogICAgICAgIAogICAgICAgIC8vIERlZmF1bHQgcGVybWlzc2lvbiBzZXR0aW5nCiAgICAgICAgcHJpdmF0ZSB2YWwgREVGQVVMVF9NQVNURVJfU1dJVENIID0gUGVybWlzc2lvbkxldmVsLkFTSy5uYW1lCiAgICAgICAgCiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgSU5TVEFOQ0U6IFRvb2xQZXJtaXNzaW9uU3lzdGVtPyA9IG51bGwKICAgICAgICAKICAgICAgICBmdW4gZ2V0SW5zdGFuY2UoY29udGV4dDogQ29udGV4dCk6IFRvb2xQZXJtaXNzaW9uU3lzdGVtIHsKICAgICAgICAgICAgcmV0dXJuIElOU1RBTkNFID86IHN5bmNocm9uaXplZCh0aGlzKSB7CiAgICAgICAgICAgICAgICBJTlNUQU5DRSA/OiBUb29sUGVybWlzc2lvblN5c3RlbShjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkuYWxzbyB7IElOU1RBTkNFID0gaXQgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgCiAgICAvLyDlt6XlhbfmnYPpmZDlrZjlgqjvvJrkvb/nlKggInRvb2xfcGVybWlzc2lvbl88dG9vbF9uYW1lPiIg5L2c5Li6a2V5CiAgICBwcml2YXRlIGZ1biB0b29sUGVybWlzc2lvbktleSh0b29sTmFtZTogU3RyaW5nKSA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJ0b29sX3Blcm1pc3Npb25fJHRvb2xOYW1lIikKICAgIAogICAgLy8gUGVybWlzc2lvbiByZXF1ZXN0IG1hbmFnZW1lbnQKICAgIHByaXZhdGUgdmFsIG1haW5IYW5kbGVyID0gSGFuZGxlcihMb29wZXIuZ2V0TWFpbkxvb3BlcigpKQogICAgcHJpdmF0ZSB2YWwgcGVybWlzc2lvblJlcXVlc3RPdmVybGF5ID0gUGVybWlzc2lvblJlcXVlc3RPdmVybGF5KGNvbnRleHQpCiAgICBwcml2YXRlIHZhciBjdXJyZW50UGVybWlzc2lvbkNhbGxiYWNrOiAoKFRvb2xQZXJtaXNzaW9uQ2hlY2tSZXN1bHQpIC0+IFVuaXQpPyA9IG51bGwKICAgIHByaXZhdGUgdmFyIHBlcm1pc3Npb25SZXF1ZXN0SW5mbzogUGFpcjxBSVRvb2wsIFN0cmluZz4/ID0gbnVsbAogICAgCiAgICAvLyDlrZjlgqjlvZPliY3popzoibLmlrnmoYgKICAgIHByaXZhdGUgdmFyIGN1cnJlbnRDb2xvclNjaGVtZTogQ29sb3JTY2hlbWU/ID0gbnVsbAogICAgCiAgICAvKioKICAgICAqIOiuvue9ruW9k+WJjeS9v+eUqOeahOminOiJsuaWueahiAogICAgICovCiAgICBmdW4gc2V0Q29sb3JTY2hlbWUoY29sb3JTY2hlbWU6IENvbG9yU2NoZW1lPykgewogICAgICAgIHRoaXMuY3VycmVudENvbG9yU2NoZW1lID0gY29sb3JTY2hlbWUKICAgICAgICBwZXJtaXNzaW9uUmVxdWVzdE92ZXJsYXkuc2V0Q29sb3JTY2hlbWUoY29sb3JTY2hlbWUpCiAgICB9CiAgICAKICAgIC8vIFBlcm1pc3Npb24gcmVxdWVzdCBzdGF0ZSBmbG93CiAgICBwcml2YXRlIHZhbCBfcGVybWlzc2lvblJlcXVlc3RTdGF0ZSA9IE11dGFibGVTdGF0ZUZsb3c8UGFpcjxBSVRvb2wsIFN0cmluZz4/PihudWxsKQogICAgdmFsIHBlcm1pc3Npb25SZXF1ZXN0U3RhdGUgPSBfcGVybWlzc2lvblJlcXVlc3RTdGF0ZS5hc1N0YXRlRmxvdygpCiAgICAKICAgIC8vIFBlcm1pc3Npb24gbGV2ZWwgZmxvd3MKICAgIHZhbCBtYXN0ZXJTd2l0Y2hGbG93OiBGbG93PFBlcm1pc3Npb25MZXZlbD4gPSBjb250ZXh0LnRvb2xQZXJtaXNzaW9uc0RhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgUGVybWlzc2lvbkxldmVsLmZyb21TdHJpbmcocHJlZmVyZW5jZXNbTUFTVEVSX1NXSVRDSF0gPzogREVGQVVMVF9NQVNURVJfU1dJVENIKQogICAgfQogICAgCiAgICAvKioKICAgICAqIEdldCBwZXJtaXNzaW9uIGxldmVsIGZsb3cgZm9yIGEgc3BlY2lmaWMgdG9vbAogICAgICogSWYgbm8gcGVybWlzc2lvbiBpcyBzZXQgZm9yIHRoZSB0b29sLCByZXR1cm5zIEFTSyBhcyBkZWZhdWx0CiAgICAgKi8KICAgIGZ1biBnZXRUb29sUGVybWlzc2lvbkZsb3codG9vbE5hbWU6IFN0cmluZyk6IEZsb3c8UGVybWlzc2lvbkxldmVsPiB7CiAgICAgICAgcmV0dXJuIGNvbnRleHQudG9vbFBlcm1pc3Npb25zRGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgdmFsIGtleSA9IHRvb2xQZXJtaXNzaW9uS2V5KHRvb2xOYW1lKQogICAgICAgICAgICBQZXJtaXNzaW9uTGV2ZWwuZnJvbVN0cmluZyhwcmVmZXJlbmNlc1trZXldID86IFBlcm1pc3Npb25MZXZlbC5BU0submFtZSkKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8vIE1DUCBzdGFydHVwIHJlZ2lzdGVycyB2ZXJpZmllZCBwbHVnaW5zIGNvbmN1cnJlbnRseSwgd2hpbGUgcGVybWlzc2lvbiBjaGVja3MgbWF5IHJlYWQgdGhpcy4KICAgIHByaXZhdGUgdmFsIG9wZXJhdGlvbkRlc2NyaXB0aW9uUmVnaXN0cnkgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIChBSVRvb2wpIC0+IFN0cmluZz4oKQogICAgCiAgICAvKioKICAgICAqIFJlZ2lzdGVyIGEgZGVzY3JpcHRpb24gZ2VuZXJhdG9yIGZvciBhIHRvb2wKICAgICAqLwogICAgZnVuIHJlZ2lzdGVyT3BlcmF0aW9uRGVzY3JpcHRpb24odG9vbE5hbWU6IFN0cmluZywgZGVzY3JpcHRpb25HZW5lcmF0b3I6IChBSVRvb2wpIC0+IFN0cmluZykgewogICAgICAgIG9wZXJhdGlvbkRlc2NyaXB0aW9uUmVnaXN0cnlbdG9vbE5hbWVdID0gZGVzY3JpcHRpb25HZW5lcmF0b3IKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiBTYXZlIHBlcm1pc3Npb24gbGV2ZWwgc2V0dGluZ3MKICAgICAqLwogICAgc3VzcGVuZCBmdW4gc2F2ZU1hc3RlclN3aXRjaChsZXZlbDogUGVybWlzc2lvbkxldmVsKSB7CiAgICAgICAgY29udGV4dC50b29sUGVybWlzc2lvbnNEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW01BU1RFUl9TV0lUQ0hdID0gbGV2ZWwubmFtZQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiBTYXZlIHBlcm1pc3Npb24gbGV2ZWwgZm9yIGEgc3BlY2lmaWMgdG9vbAogICAgICovCiAgICBzdXNwZW5kIGZ1biBzYXZlVG9vbFBlcm1pc3Npb24odG9vbE5hbWU6IFN0cmluZywgbGV2ZWw6IFBlcm1pc3Npb25MZXZlbCkgewogICAgICAgIGNvbnRleHQudG9vbFBlcm1pc3Npb25zRGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICB2YWwga2V5ID0gdG9vbFBlcm1pc3Npb25LZXkodG9vbE5hbWUpCiAgICAgICAgICAgIHByZWZlcmVuY2VzW2tleV0gPSBsZXZlbC5uYW1lCiAgICAgICAgfQogICAgfQogICAgCiAgICBzdXNwZW5kIGZ1biBjbGVhclRvb2xQZXJtaXNzaW9uKHRvb2xOYW1lOiBTdHJpbmcpIHsKICAgICAgICBjb250ZXh0LnRvb2xQZXJtaXNzaW9uc0RhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgdmFsIGtleSA9IHRvb2xQZXJtaXNzaW9uS2V5KHRvb2xOYW1lKQogICAgICAgICAgICBwcmVmZXJlbmNlcy5yZW1vdmUoa2V5KQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiBTYXZlIHBlcm1pc3Npb24gbGV2ZWxzIGZvciBtdWx0aXBsZSB0b29scyBhdCBvbmNlCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHNhdmVUb29sUGVybWlzc2lvbnModG9vbFBlcm1pc3Npb25zOiBNYXA8U3RyaW5nLCBQZXJtaXNzaW9uTGV2ZWw+KSB7CiAgICAgICAgY29udGV4dC50b29sUGVybWlzc2lvbnNEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHRvb2xQZXJtaXNzaW9ucy5mb3JFYWNoIHsgKHRvb2xOYW1lLCBsZXZlbCkgLT4KICAgICAgICAgICAgICAgIHZhbCBrZXkgPSB0b29sUGVybWlzc2lvbktleSh0b29sTmFtZSkKICAgICAgICAgICAgICAgIHByZWZlcmVuY2VzW2tleV0gPSBsZXZlbC5uYW1lCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICogR2V0IHBlcm1pc3Npb24gbGV2ZWwgZm9yIGEgc3BlY2lmaWMgdG9vbCAoc3luY2hyb25vdXMsIGZvciBvbmUtdGltZSByZWFkcykKICAgICAqIElmIG5vIHBlcm1pc3Npb24gaXMgc2V0IGZvciB0aGUgdG9vbCwgcmV0dXJucyBBU0sgYXMgZGVmYXVsdAogICAgICovCiAgICBzdXNwZW5kIGZ1biBnZXRUb29sUGVybWlzc2lvbih0b29sTmFtZTogU3RyaW5nKTogUGVybWlzc2lvbkxldmVsIHsKICAgICAgICB2YWwgcHJlZmVyZW5jZXMgPSBjb250ZXh0LnRvb2xQZXJtaXNzaW9uc0RhdGFTdG9yZS5kYXRhLmZpcnN0KCkKICAgICAgICB2YWwga2V5ID0gdG9vbFBlcm1pc3Npb25LZXkodG9vbE5hbWUpCiAgICAgICAgcmV0dXJuIFBlcm1pc3Npb25MZXZlbC5mcm9tU3RyaW5nKHByZWZlcmVuY2VzW2tleV0gPzogUGVybWlzc2lvbkxldmVsLkFTSy5uYW1lKQogICAgfQogICAgCiAgICBzdXNwZW5kIGZ1biBnZXRUb29sUGVybWlzc2lvbk92ZXJyaWRlKHRvb2xOYW1lOiBTdHJpbmcpOiBQZXJtaXNzaW9uTGV2ZWw/IHsKICAgICAgICB2YWwgcHJlZmVyZW5jZXMgPSBjb250ZXh0LnRvb2xQZXJtaXNzaW9uc0RhdGFTdG9yZS5kYXRhLmZpcnN0KCkKICAgICAgICB2YWwga2V5ID0gdG9vbFBlcm1pc3Npb25LZXkodG9vbE5hbWUpCiAgICAgICAgdmFsIHN0b3JlZCA9IHByZWZlcmVuY2VzW2tleV0KICAgICAgICByZXR1cm4gc3RvcmVkPy5sZXQgeyBQZXJtaXNzaW9uTGV2ZWwuZnJvbVN0cmluZyhpdCkgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIEdldCBodW1hbi1yZWFkYWJsZSBkZXNjcmlwdGlvbiBvZiBhbiBvcGVyYXRpb24KICAgICAqLwogICAgZnVuIGdldE9wZXJhdGlvbkRlc2NyaXB0aW9uKHRvb2w6IEFJVG9vbCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIG9wZXJhdGlvbkRlc2NyaXB0aW9uUmVnaXN0cnlbdG9vbC5uYW1lXT8uaW52b2tlKHRvb2wpID86IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnRvb2xfcGVybWlzc2lvbl9vcGVyYXRpb24sIHRvb2wubmFtZSkKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiBDaGVjayBpZiBhIHRvb2wgaXMgYWxsb3dlZCB0byBleGVjdXRlCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGNoZWNrVG9vbFBlcm1pc3Npb24odG9vbDogQUlUb29sKTogVG9vbFBlcm1pc3Npb25DaGVja1Jlc3VsdCB7CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU3RhcnRpbmcgcGVybWlzc2lvbiBjaGVjazogJHt0b29sLm5hbWV9IikKICAgICAgICAKICAgICAgICB2YWwgcHJlZmVyZW5jZXMgPSBjb250ZXh0LnRvb2xQZXJtaXNzaW9uc0RhdGFTdG9yZS5kYXRhLmZpcnN0KCkKICAgICAgICB2YWwgbWFzdGVyU3dpdGNoID0gUGVybWlzc2lvbkxldmVsLmZyb21TdHJpbmcocHJlZmVyZW5jZXNbTUFTVEVSX1NXSVRDSF0gPzogREVGQVVMVF9NQVNURVJfU1dJVENIKQogICAgICAgIHZhbCBrZXkgPSB0b29sUGVybWlzc2lvbktleSh0b29sLm5hbWUpCiAgICAgICAgdmFsIG92ZXJyaWRlTGV2ZWwgPSBwcmVmZXJlbmNlc1trZXldPy5sZXQgeyBQZXJtaXNzaW9uTGV2ZWwuZnJvbVN0cmluZyhpdCkgfQogICAgICAgIAogICAgICAgIHZhbCBwZXJtaXNzaW9uTGV2ZWwgPSBvdmVycmlkZUxldmVsID86IG1hc3RlclN3aXRjaAogICAgICAgIAogICAgICAgIHJldHVybiB3aGVuIChwZXJtaXNzaW9uTGV2ZWwpIHsKICAgICAgICAgICAgUGVybWlzc2lvbkxldmVsLkFMTE9XIC0+IFRvb2xQZXJtaXNzaW9uQ2hlY2tSZXN1bHQuR1JBTlRFRAogICAgICAgICAgICBQZXJtaXNzaW9uTGV2ZWwuQVNLIC0+IHJlcXVlc3RQZXJtaXNzaW9uKHRvb2wpCiAgICAgICAgICAgIFBlcm1pc3Npb25MZXZlbC5GT1JCSUQgLT4gVG9vbFBlcm1pc3Npb25DaGVja1Jlc3VsdC5ERU5JRUQKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICogUmVxdWVzdCBwZXJtaXNzaW9uIGZyb20gdGhlIHVzZXIgdG8gZXhlY3V0ZSBhIHRvb2wKICAgICAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biByZXF1ZXN0UGVybWlzc2lvbih0b29sOiBBSVRvb2wpOiBUb29sUGVybWlzc2lvbkNoZWNrUmVzdWx0IHsKICAgICAgICAvLyBHZXQgb3BlcmF0aW9uIGRlc2NyaXB0aW9uCiAgICAgICAgdmFsIG9wZXJhdGlvbkRlc2NyaXB0aW9uID0gZ2V0T3BlcmF0aW9uRGVzY3JpcHRpb24odG9vbCkKICAgICAgICAKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJSZXF1ZXN0aW5nIHBlcm1pc3Npb246ICR7dG9vbC5uYW1lfSIpCiAgICAgICAgCiAgICAgICAgLy8gQ2xlYXIgZXhpc3RpbmcgcmVxdWVzdAogICAgICAgIGN1cnJlbnRQZXJtaXNzaW9uQ2FsbGJhY2sgPSBudWxsCiAgICAgICAgcGVybWlzc2lvblJlcXVlc3RJbmZvID0gbnVsbAogICAgICAgIF9wZXJtaXNzaW9uUmVxdWVzdFN0YXRlLnZhbHVlID0gbnVsbAogICAgICAgIAogICAgICAgIC8vIFNldCB1cCBuZXcgcmVxdWVzdAogICAgICAgIHZhbCByZXF1ZXN0SW5mbyA9IFBhaXIodG9vbCwgb3BlcmF0aW9uRGVzY3JpcHRpb24pCiAgICAgICAgcGVybWlzc2lvblJlcXVlc3RJbmZvID0gcmVxdWVzdEluZm8KICAgICAgICBfcGVybWlzc2lvblJlcXVlc3RTdGF0ZS52YWx1ZSA9IHJlcXVlc3RJbmZvCiAgICAgICAgCiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUGVybWlzc2lvbiByZXF1ZXN0IHN0YXRlIHVwZGF0ZWQ6ICR7dG9vbC5uYW1lfSIpCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHdpdGhUaW1lb3V0T3JOdWxsKFBFUk1JU1NJT05fUkVRVUVTVF9USU1FT1VUX01TKSB7CiAgICAgICAgICAgIHN1c3BlbmRDYW5jZWxsYWJsZUNvcm91dGluZSB7IGNvbnRpbnVhdGlvbiAtPgogICAgICAgICAgICAgICAgY3VycmVudFBlcm1pc3Npb25DYWxsYmFjayA9IHsgcmVzdWx0IC0+CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUGVybWlzc2lvbiByZXN1bHQgcmVjZWl2ZWQ6ICRyZXN1bHQgZm9yICR7dG9vbC5uYW1lfSIpCiAgICAgICAgICAgICAgICAgICAgY3VycmVudFBlcm1pc3Npb25DYWxsYmFjayA9IG51bGwKICAgICAgICAgICAgICAgICAgICBwZXJtaXNzaW9uUmVxdWVzdEluZm8gPSBudWxsCiAgICAgICAgICAgICAgICAgICAgX3Blcm1pc3Npb25SZXF1ZXN0U3RhdGUudmFsdWUgPSBudWxsCiAgICAgICAgICAgICAgICAgICAgY29udGludWF0aW9uLnJlc3VtZShyZXN1bHQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIFN0YXJ0IHBlcm1pc3Npb24gcmVxdWVzdCBvbiBtYWluIHRocmVhZAogICAgICAgICAgICAgICAgbWFpbkhhbmRsZXIucG9zdCB7CiAgICAgICAgICAgICAgICAgICAgLy8gVXNlIG92ZXJsYXkgdG8gc2hvdyBwZXJtaXNzaW9uIHJlcXVlc3QKICAgICAgICAgICAgICAgICAgICBpZiAoIXBlcm1pc3Npb25SZXF1ZXN0T3ZlcmxheS5oYXNPdmVybGF5UGVybWlzc2lvbigpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIk5vIG92ZXJsYXkgcGVybWlzc2lvbiwgcmVxdWVzdGluZy4uLiIpCiAgICAgICAgICAgICAgICAgICAgICAgIHBlcm1pc3Npb25SZXF1ZXN0T3ZlcmxheS5yZXF1ZXN0T3ZlcmxheVBlcm1pc3Npb24oKQogICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50UGVybWlzc2lvbkNhbGxiYWNrPy5pbnZva2UoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb29sUGVybWlzc2lvbkNoZWNrUmVzdWx0Lk9WRVJMQVlfUEVSTUlTU0lPTl9SRVFVSVJFRAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGVybWlzc2lvblJlcXVlc3RPdmVybGF5LnNob3codG9vbCwgb3BlcmF0aW9uRGVzY3JpcHRpb24pIHsgcmVzdWx0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoYW5kbGVQZXJtaXNzaW9uUmVzdWx0KHJlc3VsdCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gPzogcnVuIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUGVybWlzc2lvbiByZXF1ZXN0IHRpbWVkIG91dDogJHt0b29sLm5hbWV9IikKICAgICAgICAgICAgY3VycmVudFBlcm1pc3Npb25DYWxsYmFjayA9IG51bGwKICAgICAgICAgICAgcGVybWlzc2lvblJlcXVlc3RJbmZvID0gbnVsbAogICAgICAgICAgICBfcGVybWlzc2lvblJlcXVlc3RTdGF0ZS52YWx1ZSA9IG51bGwKICAgICAgICAgICAgVG9vbFBlcm1pc3Npb25DaGVja1Jlc3VsdC5DT05GSVJNQVRJT05fVElNRU9VVAogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiBIYW5kbGUgcGVybWlzc2lvbiByZXF1ZXN0IHJlc3VsdAogICAgICovCiAgICBmdW4gaGFuZGxlUGVybWlzc2lvblJlc3VsdChyZXN1bHQ6IFBlcm1pc3Npb25SZXF1ZXN0UmVzdWx0KSB7CiAgICAgICAgdmFsIHBlcm1pc3Npb25SZXN1bHQgPQogICAgICAgICAgICB3aGVuIChyZXN1bHQpIHsKICAgICAgICAgICAgICAgIFBlcm1pc3Npb25SZXF1ZXN0UmVzdWx0LkFMTE9XIC0+IFRvb2xQZXJtaXNzaW9uQ2hlY2tSZXN1bHQuR1JBTlRFRAogICAgICAgICAgICAgICAgUGVybWlzc2lvblJlcXVlc3RSZXN1bHQuREVOWSAtPiBUb29sUGVybWlzc2lvbkNoZWNrUmVzdWx0LkRFTklFRAogICAgICAgICAgICAgICAgUGVybWlzc2lvblJlcXVlc3RSZXN1bHQuQUxXQVlTX0FMTE9XIC0+IHsKICAgICAgICAgICAgICAgICAgICBwZXJtaXNzaW9uUmVxdWVzdEluZm8/LmZpcnN0Py5sZXQgeyB0b29sIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIENvcm91dGluZVNjb3BlKERpc3BhdGNoZXJzLklPKS5sYXVuY2ggewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2F2ZVRvb2xQZXJtaXNzaW9uKHRvb2wubmFtZSwgUGVybWlzc2lvbkxldmVsLkFMTE9XKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIFRvb2xQZXJtaXNzaW9uQ2hlY2tSZXN1bHQuR1JBTlRFRAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgY3VycmVudFBlcm1pc3Npb25DYWxsYmFjaz8uaW52b2tlKHBlcm1pc3Npb25SZXN1bHQpCiAgICB9CiAgICAKICAgIC8qKgogICAgICogR2V0IGN1cnJlbnQgcGVybWlzc2lvbiByZXF1ZXN0IGluZm8KICAgICAqLwogICAgZnVuIGdldEN1cnJlbnRQZXJtaXNzaW9uUmVxdWVzdCgpOiBQYWlyPEFJVG9vbCwgU3RyaW5nPj8gewogICAgICAgIHJldHVybiBwZXJtaXNzaW9uUmVxdWVzdEluZm8KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiBDaGVjayBpZiB0aGVyZSBpcyBhbiBhY3RpdmUgcGVybWlzc2lvbiByZXF1ZXN0CiAgICAgKi8KICAgIGZ1biBoYXNBY3RpdmVQZXJtaXNzaW9uUmVxdWVzdCgpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gcGVybWlzc2lvblJlcXVlc3RJbmZvICE9IG51bGwgJiYgY3VycmVudFBlcm1pc3Npb25DYWxsYmFjayAhPSBudWxsCiAgICB9CiAgICAKICAgIC8qKgogICAgICogUmVmcmVzaCBwZXJtaXNzaW9uIHJlcXVlc3Qgc3RhdGUKICAgICAqLwogICAgZnVuIHJlZnJlc2hQZXJtaXNzaW9uUmVxdWVzdFN0YXRlKCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBoYXNBY3RpdmVQZXJtaXNzaW9uUmVxdWVzdCgpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.permissions
+
+import android.content.Context
+import android.os.Handler
+import android.os.Looper
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import androidx.compose.material3.ColorScheme
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import com.bslsjdk.operit.data.model.AITool
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.suspendCancellableCoroutine
+import kotlinx.coroutines.withTimeoutOrNull
+import java.util.concurrent.ConcurrentHashMap
+import kotlin.coroutines.resume
+
+// Define DataStore
+private val Context.toolPermissionsDataStore: DataStore<Preferences> by preferencesDataStore(name = "tool_permissions")
+
+/**
+ * Permission levels for tool operations
+ */
+enum class PermissionLevel {
+    ALLOW,      // Allow automatically without asking
+    ASK,        // Always ask
+    FORBID;     // Never allow
+
+    companion object {
+        fun fromString(value: String?): PermissionLevel {
+            return when (value) {
+                "ALLOW" -> ALLOW
+                "CAUTION" -> ASK
+                "ASK" -> ASK
+                "FORBID" -> FORBID
+                else -> ASK  // Default to ASK
+            }
+        }
+    }
+}
+
+/**
+ * Centralized tool permission system that manages both permission storage and checking
+ */
+class ToolPermissionSystem private constructor(private val context: Context) {
+    
+    companion object {
+        private const val TAG = "ToolPermissionSystem"
+        private const val PERMISSION_REQUEST_TIMEOUT_MS = 60000L // 60 seconds timeout
+        
+        // DataStore keys
+        private val MASTER_SWITCH = stringPreferencesKey("master_switch")
+        
+        // Default permission setting
+        private val DEFAULT_MASTER_SWITCH = PermissionLevel.ASK.name
+        
+        @Volatile
+        private var INSTANCE: ToolPermissionSystem? = null
+        
+        fun getInstance(context: Context): ToolPermissionSystem {
+            return INSTANCE ?: synchronized(this) {
+                INSTANCE ?: ToolPermissionSystem(context.applicationContext).also { INSTANCE = it }
+            }
+        }
+    }
+    
+    // 工具权限存储：使用 "tool_permission_<tool_name>" 作为key
+    private fun toolPermissionKey(toolName: String) = stringPreferencesKey("tool_permission_$toolName")
+    
+    // Permission request management
+    private val mainHandler = Handler(Looper.getMainLooper())
+    private val permissionRequestOverlay = PermissionRequestOverlay(context)
+    private var currentPermissionCallback: ((ToolPermissionCheckResult) -> Unit)? = null
+    private var permissionRequestInfo: Pair<AITool, String>? = null
+    
+    // 存储当前颜色方案
+    private var currentColorScheme: ColorScheme? = null
+    
+    /**
+     * 设置当前使用的颜色方案
+     */
+    fun setColorScheme(colorScheme: ColorScheme?) {
+        this.currentColorScheme = colorScheme
+        permissionRequestOverlay.setColorScheme(colorScheme)
+    }
+    
+    // Permission request state flow
+    private val _permissionRequestState = MutableStateFlow<Pair<AITool, String>?>(null)
+    val permissionRequestState = _permissionRequestState.asStateFlow()
+    
+    // Permission level flows
+    val masterSwitchFlow: Flow<PermissionLevel> = context.toolPermissionsDataStore.data.map { preferences ->
+        PermissionLevel.fromString(preferences[MASTER_SWITCH] ?: DEFAULT_MASTER_SWITCH)
+    }
+    
+    /**
+     * Get permission level flow for a specific tool
+     * If no permission is set for the tool, returns ASK as default
+     */
+    fun getToolPermissionFlow(toolName: String): Flow<PermissionLevel> {
+        return context.toolPermissionsDataStore.data.map { preferences ->
+            val key = toolPermissionKey(toolName)
+            PermissionLevel.fromString(preferences[key] ?: PermissionLevel.ASK.name)
+        }
+    }
+    
+    // MCP startup registers verified plugins concurrently, while permission checks may read this.
+    private val operationDescriptionRegistry = ConcurrentHashMap<String, (AITool) -> String>()
+    
+    /**
+     * Register a description generator for a tool
+     */
+    fun registerOperationDescription(toolName: String, descriptionGenerator: (AITool) -> String) {
+        operationDescriptionRegistry[toolName] = descriptionGenerator
+    }
+    
+    /**
+     * Save permission level settings
+     */
+    suspend fun saveMasterSwitch(level: PermissionLevel) {
+        context.toolPermissionsDataStore.edit { preferences ->
+            preferences[MASTER_SWITCH] = level.name
+        }
+    }
+    
+    /**
+     * Save permission level for a specific tool
+     */
+    suspend fun saveToolPermission(toolName: String, level: PermissionLevel) {
+        context.toolPermissionsDataStore.edit { preferences ->
+            val key = toolPermissionKey(toolName)
+            preferences[key] = level.name
+        }
+    }
+    
+    suspend fun clearToolPermission(toolName: String) {
+        context.toolPermissionsDataStore.edit { preferences ->
+            val key = toolPermissionKey(toolName)
+            preferences.remove(key)
+        }
+    }
+    
+    /**
+     * Save permission levels for multiple tools at once
+     */
+    suspend fun saveToolPermissions(toolPermissions: Map<String, PermissionLevel>) {
+        context.toolPermissionsDataStore.edit { preferences ->
+            toolPermissions.forEach { (toolName, level) ->
+                val key = toolPermissionKey(toolName)
+                preferences[key] = level.name
+            }
+        }
+    }
+    
+    /**
+     * Get permission level for a specific tool (synchronous, for one-time reads)
+     * If no permission is set for the tool, returns ASK as default
+     */
+    suspend fun getToolPermission(toolName: String): PermissionLevel {
+        val preferences = context.toolPermissionsDataStore.data.first()
+        val key = toolPermissionKey(toolName)
+        return PermissionLevel.fromString(preferences[key] ?: PermissionLevel.ASK.name)
+    }
+    
+    suspend fun getToolPermissionOverride(toolName: String): PermissionLevel? {
+        val preferences = context.toolPermissionsDataStore.data.first()
+        val key = toolPermissionKey(toolName)
+        val stored = preferences[key]
+        return stored?.let { PermissionLevel.fromString(it) }
+    }
+    
+    /**
+     * Get human-readable description of an operation
+     */
+    fun getOperationDescription(tool: AITool): String {
+        return operationDescriptionRegistry[tool.name]?.invoke(tool) ?: context.getString(R.string.tool_permission_operation, tool.name)
+    }
+    
+    /**
+     * Check if a tool is allowed to execute
+     */
+    suspend fun checkToolPermission(tool: AITool): ToolPermissionCheckResult {
+        AppLogger.d(TAG, "Starting permission check: ${tool.name}")
+        
+        val preferences = context.toolPermissionsDataStore.data.first()
+        val masterSwitch = PermissionLevel.fromString(preferences[MASTER_SWITCH] ?: DEFAULT_MASTER_SWITCH)
+        val key = toolPermissionKey(tool.name)
+        val overrideLevel = preferences[key]?.let { PermissionLevel.fromString(it) }
+        
+        val permissionLevel = overrideLevel ?: masterSwitch
+        
+        return when (permissionLevel) {
+            PermissionLevel.ALLOW -> ToolPermissionCheckResult.GRANTED
+            PermissionLevel.ASK -> requestPermission(tool)
+            PermissionLevel.FORBID -> ToolPermissionCheckResult.DENIED
+        }
+    }
+    
+    /**
+     * Request permission from the user to execute a tool
+     */
+    private suspend fun requestPermission(tool: AITool): ToolPermissionCheckResult {
+        // Get operation description
+        val operationDescription = getOperationDescription(tool)
+        
+        AppLogger.d(TAG, "Requesting permission: ${tool.name}")
+        
+        // Clear existing request
+        currentPermissionCallback = null
+        permissionRequestInfo = null
+        _permissionRequestState.value = null
+        
+        // Set up new request
+        val requestInfo = Pair(tool, operationDescription)
+        permissionRequestInfo = requestInfo
+        _permissionRequestState.value = requestInfo
+        
+        AppLogger.d(TAG, "Permission request state updated: ${tool.name}")
+        
+        return withTimeoutOrNull(PERMISSION_REQUEST_TIMEOUT_MS) {
+            suspendCancellableCoroutine { continuation ->
+                currentPermissionCallback = { result ->
+                    AppLogger.d(TAG, "Permission result received: $result for ${tool.name}")
+                    currentPermissionCallback = null
+                    permissionRequestInfo = null
+                    _permissionRequestState.value = null
+                    continuation.resume(result)
+                }
+                
+                // Start permission request on main thread
+                mainHandler.post {
+                    // Use overlay to show permission request
+                    if (!permissionRequestOverlay.hasOverlayPermission()) {
+                        AppLogger.w(TAG, "No overlay permission, requesting...")
+                        permissionRequestOverlay.requestOverlayPermission()
+                        currentPermissionCallback?.invoke(
+                            ToolPermissionCheckResult.OVERLAY_PERMISSION_REQUIRED
+                        )
+                    } else {
+                        permissionRequestOverlay.show(tool, operationDescription) { result ->
+                            handlePermissionResult(result)
+                        }
+                    }
+                }
+            }
+        } ?: run {
+            AppLogger.d(TAG, "Permission request timed out: ${tool.name}")
+            currentPermissionCallback = null
+            permissionRequestInfo = null
+            _permissionRequestState.value = null
+            ToolPermissionCheckResult.CONFIRMATION_TIMEOUT
+        }
+    }
+    
+    /**
+     * Handle permission request result
+     */
+    fun handlePermissionResult(result: PermissionRequestResult) {
+        val permissionResult =
+            when (result) {
+                PermissionRequestResult.ALLOW -> ToolPermissionCheckResult.GRANTED
+                PermissionRequestResult.DENY -> ToolPermissionCheckResult.DENIED
+                PermissionRequestResult.ALWAYS_ALLOW -> {
+                    permissionRequestInfo?.first?.let { tool ->
+                        CoroutineScope(Dispatchers.IO).launch {
+                            saveToolPermission(tool.name, PermissionLevel.ALLOW)
+                        }
+                    }
+                    ToolPermissionCheckResult.GRANTED
+                }
+            }
+        currentPermissionCallback?.invoke(permissionResult)
+    }
+    
+    /**
+     * Get current permission request info
+     */
+    fun getCurrentPermissionRequest(): Pair<AITool, String>? {
+        return permissionRequestInfo
+    }
+    
+    /**
+     * Check if there is an active permission request
+     */
+    fun hasActivePermissionRequest(): Boolean {
+        return permissionRequestInfo != null && currentPermissionCallback != null
+    }
+    
+    /**
+     * Refresh permission request state
+     */
+    fun refreshPermissionRequestState(): Boolean {
+        return hasActivePermissionRequest()
+    }
+}

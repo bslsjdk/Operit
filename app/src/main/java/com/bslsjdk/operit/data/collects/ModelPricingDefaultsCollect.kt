@@ -1,1 +1,241 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkJpbGxpbmdNb2RlCgplbnVtIGNsYXNzIFByaWNpbmdDdXJyZW5jeSgKICAgIHZhbCBjb2RlOiBTdHJpbmcsCiAgICB2YWwgc3ltYm9sOiBTdHJpbmcKKSB7CiAgICBDTlkoIkNOWSIsICLCpSIpLAogICAgVVNEKCJVU0QiLCAiJCIpCn0KCmRhdGEgY2xhc3MgTW9kZWxQcmljaW5nRGVmYXVsdHMoCiAgICB2YWwgYmlsbGluZ01vZGU6IEJpbGxpbmdNb2RlLAogICAgdmFsIGlucHV0UHJpY2VQZXJNaWxsaW9uOiBEb3VibGUsCiAgICB2YWwgb3V0cHV0UHJpY2VQZXJNaWxsaW9uOiBEb3VibGUsCiAgICB2YWwgY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb246IERvdWJsZSwKICAgIHZhbCBwcmljZVBlclJlcXVlc3Q6IERvdWJsZSwKICAgIHZhbCBjdXJyZW5jeTogUHJpY2luZ0N1cnJlbmN5CikKCm9iamVjdCBEZWZhdWx0TW9kZWxQcmljaW5nQ29sbGVjdCB7CiAgICBwcml2YXRlIHZhbCBkb21lc3RpY1Byb3ZpZGVycyA9IHNldE9mKAogICAgICAgICJERUVQU0VFSyIsCiAgICAgICAgIkJBSURVIiwKICAgICAgICAiQUxJWVVOIiwKICAgICAgICAiWFVORkVJIiwKICAgICAgICAiWkhJUFUiLAogICAgICAgICJCQUlDSFVBTiIsCiAgICAgICAgIk1PT05TSE9UIiwKICAgICAgICAiU0lMSUNPTkZMT1ciLAogICAgICAgICJGT1VSX1JPVVRFUiIsCiAgICAgICAgIklORklOSUFJIiwKICAgICAgICAiQUxJUEFZX0JBSUxJTkciLAogICAgICAgICJET1VCQU8iLAogICAgICAgICJQUElORlJBIiwKICAgICAgICAiT1BFTkFJX0xPQ0FMIiwKICAgICAgICAiTUlNTyIsCiAgICAgICAgIk1JTklNQVgiCiAgICApCgogICAgcHJpdmF0ZSBmdW4gZGVmYXVsdFByaWNlUGVyUmVxdWVzdChjdXJyZW5jeTogUHJpY2luZ0N1cnJlbmN5KTogRG91YmxlIHsKICAgICAgICByZXR1cm4gd2hlbiAoY3VycmVuY3kpIHsKICAgICAgICAgICAgUHJpY2luZ0N1cnJlbmN5LkNOWSAtPiAwLjAxCiAgICAgICAgICAgIFByaWNpbmdDdXJyZW5jeS5VU0QgLT4gMC4wMDEKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gemVyb1ByaWNpbmcoY3VycmVuY3k6IFByaWNpbmdDdXJyZW5jeSk6IE1vZGVsUHJpY2luZ0RlZmF1bHRzIHsKICAgICAgICByZXR1cm4gTW9kZWxQcmljaW5nRGVmYXVsdHMoCiAgICAgICAgICAgIGJpbGxpbmdNb2RlID0gQmlsbGluZ01vZGUuVE9LRU4sCiAgICAgICAgICAgIGlucHV0UHJpY2VQZXJNaWxsaW9uID0gMC4wLAogICAgICAgICAgICBvdXRwdXRQcmljZVBlck1pbGxpb24gPSAwLjAsCiAgICAgICAgICAgIGNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uID0gMC4wLAogICAgICAgICAgICBwcmljZVBlclJlcXVlc3QgPSBkZWZhdWx0UHJpY2VQZXJSZXF1ZXN0KGN1cnJlbmN5KSwKICAgICAgICAgICAgY3VycmVuY3kgPSBjdXJyZW5jeQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biB0b2tlblByaWNpbmcoCiAgICAgICAgaW5wdXRQcmljZVBlck1pbGxpb246IERvdWJsZSwKICAgICAgICBvdXRwdXRQcmljZVBlck1pbGxpb246IERvdWJsZSwKICAgICAgICBjYWNoZWRJbnB1dFByaWNlUGVyTWlsbGlvbjogRG91YmxlID0gaW5wdXRQcmljZVBlck1pbGxpb24sCiAgICAgICAgY3VycmVuY3k6IFByaWNpbmdDdXJyZW5jeSwKICAgICAgICBwcmljZVBlclJlcXVlc3Q6IERvdWJsZSA9IGRlZmF1bHRQcmljZVBlclJlcXVlc3QoY3VycmVuY3kpCiAgICApOiBNb2RlbFByaWNpbmdEZWZhdWx0cyB7CiAgICAgICAgcmV0dXJuIE1vZGVsUHJpY2luZ0RlZmF1bHRzKAogICAgICAgICAgICBiaWxsaW5nTW9kZSA9IEJpbGxpbmdNb2RlLlRPS0VOLAogICAgICAgICAgICBpbnB1dFByaWNlUGVyTWlsbGlvbiA9IGlucHV0UHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICBvdXRwdXRQcmljZVBlck1pbGxpb24gPSBvdXRwdXRQcmljZVBlck1pbGxpb24sCiAgICAgICAgICAgIGNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uID0gY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb24sCiAgICAgICAgICAgIHByaWNlUGVyUmVxdWVzdCA9IHByaWNlUGVyUmVxdWVzdCwKICAgICAgICAgICAgY3VycmVuY3kgPSBjdXJyZW5jeQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBjb3VudFByaWNpbmcoCiAgICAgICAgcHJpY2VQZXJSZXF1ZXN0OiBEb3VibGUsCiAgICAgICAgY3VycmVuY3k6IFByaWNpbmdDdXJyZW5jeQogICAgKTogTW9kZWxQcmljaW5nRGVmYXVsdHMgewogICAgICAgIHJldHVybiBNb2RlbFByaWNpbmdEZWZhdWx0cygKICAgICAgICAgICAgYmlsbGluZ01vZGUgPSBCaWxsaW5nTW9kZS5DT1VOVCwKICAgICAgICAgICAgaW5wdXRQcmljZVBlck1pbGxpb24gPSAwLjAsCiAgICAgICAgICAgIG91dHB1dFByaWNlUGVyTWlsbGlvbiA9IDAuMCwKICAgICAgICAgICAgY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb24gPSAwLjAsCiAgICAgICAgICAgIHByaWNlUGVyUmVxdWVzdCA9IHByaWNlUGVyUmVxdWVzdCwKICAgICAgICAgICAgY3VycmVuY3kgPSBjdXJyZW5jeQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgU2NyYXBlZFByaWNpbmdSb3coCiAgICAgICAgdmFsIHByb3ZpZGVyOiBTdHJpbmcsCiAgICAgICAgdmFsIG1vZGVsOiBTdHJpbmcsCiAgICAgICAgdmFsIGRlZmF1bHRzOiBNb2RlbFByaWNpbmdEZWZhdWx0cwogICAgKQoKICAgIHByaXZhdGUgdmFsIHNjcmFwZWRQcmljaW5nUm93czogTGlzdDxTY3JhcGVkUHJpY2luZ1Jvdz4gYnkgbGF6eSB7CiAgICAgICAgYnVpbGRMaXN0IHsKICAgICAgICAgICAgU2NyYXBlZE1vZGVsUHJpY2luZ1Jvd3NDb2xsZWN0LnJvd3MKICAgICAgICAgICAgICAgIC5saW5lU2VxdWVuY2UoKQogICAgICAgICAgICAgICAgLm1hcCB7IGl0LnRyaW0oKSB9CiAgICAgICAgICAgICAgICAuZmlsdGVyIHsgaXQuaXNOb3RFbXB0eSgpIH0KICAgICAgICAgICAgICAgIC5mb3JFYWNoIHsgcm93IC0+CiAgICAgICAgICAgICAgICAgICAgdmFsIHBhcnRzID0gcm93LnNwbGl0KCd8JykKICAgICAgICAgICAgICAgICAgICBpZiAocGFydHMuc2l6ZSA8IDcpIHJldHVybkBmb3JFYWNoCgogICAgICAgICAgICAgICAgICAgIHZhbCBwcm92aWRlciA9IHBhcnRzWzBdLnRyaW0oKS5sb3dlcmNhc2UoKQogICAgICAgICAgICAgICAgICAgIHZhbCBtb2RlbCA9IHBhcnRzWzFdLnRyaW0oKQogICAgICAgICAgICAgICAgICAgIHZhbCBiaWxsaW5nTW9kZSA9IEJpbGxpbmdNb2RlLmZyb21TdHJpbmcocGFydHNbMl0udHJpbSgpKQogICAgICAgICAgICAgICAgICAgIHZhbCBpbnB1dFByaWNlID0gcGFydHNbM10udHJpbSgpLnRvRG91YmxlT3JOdWxsKCkgPzogMC4wCiAgICAgICAgICAgICAgICAgICAgdmFsIG91dHB1dFByaWNlID0gcGFydHNbNF0udHJpbSgpLnRvRG91YmxlT3JOdWxsKCkgPzogMC4wCiAgICAgICAgICAgICAgICAgICAgdmFsIHRva2VuQ2FjaGVkT3JDb3VudFByaWNlID0gcGFydHNbNV0udHJpbSgpLnRvRG91YmxlT3JOdWxsKCkgPzogMC4wCiAgICAgICAgICAgICAgICAgICAgdmFsIGN1cnJlbmN5ID0gaWYgKHBhcnRzWzZdLnRyaW0oKS5lcXVhbHMoIkNOWSIsIGlnbm9yZUNhc2UgPSB0cnVlKSkgewogICAgICAgICAgICAgICAgICAgICAgICBQcmljaW5nQ3VycmVuY3kuQ05ZCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgUHJpY2luZ0N1cnJlbmN5LlVTRAogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgdmFsIGRlZmF1bHRzID0gaWYgKGJpbGxpbmdNb2RlID09IEJpbGxpbmdNb2RlLkNPVU5UKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvdW50UHJpY2luZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaWNlUGVyUmVxdWVzdCA9IHRva2VuQ2FjaGVkT3JDb3VudFByaWNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVuY3kgPSBjdXJyZW5jeQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgdG9rZW5QcmljaW5nKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcmljZVBlck1pbGxpb24gPSBpbnB1dFByaWNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0UHJpY2VQZXJNaWxsaW9uID0gb3V0cHV0UHJpY2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYWNoZWRJbnB1dFByaWNlUGVyTWlsbGlvbiA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9rZW5DYWNoZWRPckNvdW50UHJpY2UudGFrZUlmIHsgaXQgPiAwLjAgfSA/OiBpbnB1dFByaWNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVuY3kgPSBjdXJyZW5jeQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBhZGQoCiAgICAgICAgICAgICAgICAgICAgICAgIFNjcmFwZWRQcmljaW5nUm93KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvdmlkZXIgPSBwcm92aWRlciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGVsID0gbW9kZWwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0cyA9IGRlZmF1bHRzCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIHNjcmFwZWRNb2RlbERlZmF1bHRzOiBNYXA8U3RyaW5nLCBNb2RlbFByaWNpbmdEZWZhdWx0cz4gYnkgbGF6eSB7CiAgICAgICAgc2NyYXBlZFByaWNpbmdSb3dzLmFzc29jaWF0ZSB7ICIke2l0LnByb3ZpZGVyfToke2l0Lm1vZGVsfSIgdG8gaXQuZGVmYXVsdHMgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIHNjcmFwZWRNb2RlbE5hbWVGYWxsYmFja3M6IE1hcDxTdHJpbmcsIExpc3Q8TW9kZWxQcmljaW5nRGVmYXVsdHM+PiBieSBsYXp5IHsKICAgICAgICBzY3JhcGVkUHJpY2luZ1Jvd3MuZ3JvdXBCeSgKICAgICAgICAgICAga2V5U2VsZWN0b3IgPSB7IGl0Lm1vZGVsLmxvd2VyY2FzZSgpIH0sCiAgICAgICAgICAgIHZhbHVlVHJhbnNmb3JtID0geyBpdC5kZWZhdWx0cyB9CiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgdmFsIHByb3ZpZGVyRmFsbGJhY2tzID0gbWFwT2YoCiAgICAgICAgIk9QRU5BSSIgdG8gemVyb1ByaWNpbmcoUHJpY2luZ0N1cnJlbmN5LlVTRCksCiAgICAgICAgIk9QRU5BSV9SRVNQT05TRVMiIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5VU0QpLAogICAgICAgICJPUEVOQUlfQ09ERVgiIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5VU0QpLAogICAgICAgICJPUEVOQUlfUkVTUE9OU0VTX0dFTkVSSUMiIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5VU0QpLAogICAgICAgICJPUEVOQUlfR0VORVJJQyIgdG8gemVyb1ByaWNpbmcoUHJpY2luZ0N1cnJlbmN5LlVTRCksCiAgICAgICAgIkFOVEhST1BJQyIgdG8gemVyb1ByaWNpbmcoUHJpY2luZ0N1cnJlbmN5LlVTRCksCiAgICAgICAgIkFOVEhST1BJQ19HRU5FUklDIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuVVNEKSwKICAgICAgICAiR09PR0xFIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuVVNEKSwKICAgICAgICAiR0VNSU5JX0dFTkVSSUMiIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5VU0QpLAogICAgICAgICJNSVNUUkFMIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuVVNEKSwKICAgICAgICAiT1BFTlJPVVRFUiIgdG8gemVyb1ByaWNpbmcoUHJpY2luZ0N1cnJlbmN5LlVTRCksCiAgICAgICAgIk5PVVNfUE9SVEFMIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuVVNEKSwKICAgICAgICAiT1RIRVIiIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5VU0QpLAogICAgICAgICJPUEVOQUlfTE9DQUwiIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpLAogICAgICAgICJERUVQU0VFSyIgdG8gemVyb1ByaWNpbmcoUHJpY2luZ0N1cnJlbmN5LkNOWSksCiAgICAgICAgIkJBSURVIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuQ05ZKSwKICAgICAgICAiQUxJWVVOIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuQ05ZKSwKICAgICAgICAiWFVORkVJIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuQ05ZKSwKICAgICAgICAiWkhJUFUiIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpLAogICAgICAgICJCQUlDSFVBTiIgdG8gemVyb1ByaWNpbmcoUHJpY2luZ0N1cnJlbmN5LkNOWSksCiAgICAgICAgIk1PT05TSE9UIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuQ05ZKSwKICAgICAgICAiU0lMSUNPTkZMT1ciIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpLAogICAgICAgICJGT1VSX1JPVVRFUiIgdG8gemVyb1ByaWNpbmcoUHJpY2luZ0N1cnJlbmN5LkNOWSksCiAgICAgICAgIklORklOSUFJIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuQ05ZKSwKICAgICAgICAiQUxJUEFZX0JBSUxJTkciIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpLAogICAgICAgICJET1VCQU8iIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpLAogICAgICAgICJQUElORlJBIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuQ05ZKSwKICAgICAgICAiTE1TVFVESU8iIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpLAogICAgICAgICJPTExBTUEiIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpLAogICAgICAgICJNTk4iIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpLAogICAgICAgICJMTEFNQV9DUFAiIHRvIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpLAogICAgICAgICJNSU1PIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuQ05ZKSwKICAgICAgICAiTk9WSVRBIiB0byB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuVVNEKSwKICAgICAgICAiTUlOSU1BWCIgdG8gemVyb1ByaWNpbmcoUHJpY2luZ0N1cnJlbmN5LkNOWSkKICAgICkKCiAgICBwcml2YXRlIGZ1biBzcGxpdFByb3ZpZGVyTW9kZWwocHJvdmlkZXJNb2RlbDogU3RyaW5nKTogUGFpcjxTdHJpbmcsIFN0cmluZz4gewogICAgICAgIHZhbCBjb2xvbkluZGV4ID0gcHJvdmlkZXJNb2RlbC5pbmRleE9mKCc6JykKICAgICAgICBpZiAoY29sb25JbmRleCA8PSAwKSB7CiAgICAgICAgICAgIHJldHVybiBwcm92aWRlck1vZGVsLnVwcGVyY2FzZSgpIHRvICIiCiAgICAgICAgfQogICAgICAgIHZhbCBwcm92aWRlciA9IHByb3ZpZGVyTW9kZWwuc3Vic3RyaW5nKDAsIGNvbG9uSW5kZXgpLnVwcGVyY2FzZSgpCiAgICAgICAgdmFsIG1vZGVsID0gcHJvdmlkZXJNb2RlbC5zdWJzdHJpbmcoY29sb25JbmRleCArIDEpCiAgICAgICAgcmV0dXJuIHByb3ZpZGVyIHRvIG1vZGVsCiAgICB9CgogICAgZnVuIGlzRG9tZXN0aWNQcm92aWRlcihwcm92aWRlcjogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGRvbWVzdGljUHJvdmlkZXJzLmNvbnRhaW5zKHByb3ZpZGVyLnVwcGVyY2FzZSgpKQogICAgfQoKICAgIGZ1biBnZXREZWZhdWx0UHJpY2luZyhwcm92aWRlck1vZGVsOiBTdHJpbmcpOiBNb2RlbFByaWNpbmdEZWZhdWx0cyB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBwcm92aWRlck1vZGVsLnRyaW0oKS5sb3dlcmNhc2UoKQogICAgICAgIHNjcmFwZWRNb2RlbERlZmF1bHRzW25vcm1hbGl6ZWRdPy5sZXQgeyByZXR1cm4gaXQgfQoKICAgICAgICB2YWwgKHByb3ZpZGVyLCBtb2RlbCkgPSBzcGxpdFByb3ZpZGVyTW9kZWwocHJvdmlkZXJNb2RlbCkKCiAgICAgICAgaWYgKG1vZGVsLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICB2YWwgbW9kZWxDYW5kaWRhdGVzID0gc2NyYXBlZE1vZGVsTmFtZUZhbGxiYWNrc1ttb2RlbC5sb3dlcmNhc2UoKV0KICAgICAgICAgICAgaWYgKCFtb2RlbENhbmRpZGF0ZXMuaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICB2YWwgcHJlZmVycmVkQ3VycmVuY3kgPSBpZiAoaXNEb21lc3RpY1Byb3ZpZGVyKHByb3ZpZGVyKSkgewogICAgICAgICAgICAgICAgICAgIFByaWNpbmdDdXJyZW5jeS5DTlkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgUHJpY2luZ0N1cnJlbmN5LlVTRAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIG1vZGVsQ2FuZGlkYXRlcy5maXJzdE9yTnVsbCB7IGl0LmN1cnJlbmN5ID09IHByZWZlcnJlZEN1cnJlbmN5IH0/LmxldCB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGl0CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgcmV0dXJuIG1vZGVsQ2FuZGlkYXRlcy5maXJzdCgpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJldHVybiBwcm92aWRlckZhbGxiYWNrc1twcm92aWRlcl0KICAgICAgICAgICAgPzogaWYgKGlzRG9tZXN0aWNQcm92aWRlcihwcm92aWRlcikpIHsKICAgICAgICAgICAgICAgIHplcm9QcmljaW5nKFByaWNpbmdDdXJyZW5jeS5DTlkpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB6ZXJvUHJpY2luZyhQcmljaW5nQ3VycmVuY3kuVVNEKQogICAgICAgICAgICB9CiAgICB9CgogICAgZnVuIGdldEN1cnJlbmN5KHByb3ZpZGVyTW9kZWw6IFN0cmluZyk6IFByaWNpbmdDdXJyZW5jeSB7CiAgICAgICAgcmV0dXJuIGdldERlZmF1bHRQcmljaW5nKHByb3ZpZGVyTW9kZWwpLmN1cnJlbmN5CiAgICB9Cn0K
+package com.bslsjdk.operit.data.collects
+
+import com.bslsjdk.operit.data.model.BillingMode
+
+enum class PricingCurrency(
+    val code: String,
+    val symbol: String
+) {
+    CNY("CNY", "¥"),
+    USD("USD", "$")
+}
+
+data class ModelPricingDefaults(
+    val billingMode: BillingMode,
+    val inputPricePerMillion: Double,
+    val outputPricePerMillion: Double,
+    val cachedInputPricePerMillion: Double,
+    val pricePerRequest: Double,
+    val currency: PricingCurrency
+)
+
+object DefaultModelPricingCollect {
+    private val domesticProviders = setOf(
+        "DEEPSEEK",
+        "BAIDU",
+        "ALIYUN",
+        "XUNFEI",
+        "ZHIPU",
+        "BAICHUAN",
+        "MOONSHOT",
+        "SILICONFLOW",
+        "FOUR_ROUTER",
+        "INFINIAI",
+        "ALIPAY_BAILING",
+        "DOUBAO",
+        "PPINFRA",
+        "OPENAI_LOCAL",
+        "MIMO",
+        "MINIMAX"
+    )
+
+    private fun defaultPricePerRequest(currency: PricingCurrency): Double {
+        return when (currency) {
+            PricingCurrency.CNY -> 0.01
+            PricingCurrency.USD -> 0.001
+        }
+    }
+
+    private fun zeroPricing(currency: PricingCurrency): ModelPricingDefaults {
+        return ModelPricingDefaults(
+            billingMode = BillingMode.TOKEN,
+            inputPricePerMillion = 0.0,
+            outputPricePerMillion = 0.0,
+            cachedInputPricePerMillion = 0.0,
+            pricePerRequest = defaultPricePerRequest(currency),
+            currency = currency
+        )
+    }
+
+    private fun tokenPricing(
+        inputPricePerMillion: Double,
+        outputPricePerMillion: Double,
+        cachedInputPricePerMillion: Double = inputPricePerMillion,
+        currency: PricingCurrency,
+        pricePerRequest: Double = defaultPricePerRequest(currency)
+    ): ModelPricingDefaults {
+        return ModelPricingDefaults(
+            billingMode = BillingMode.TOKEN,
+            inputPricePerMillion = inputPricePerMillion,
+            outputPricePerMillion = outputPricePerMillion,
+            cachedInputPricePerMillion = cachedInputPricePerMillion,
+            pricePerRequest = pricePerRequest,
+            currency = currency
+        )
+    }
+
+    private fun countPricing(
+        pricePerRequest: Double,
+        currency: PricingCurrency
+    ): ModelPricingDefaults {
+        return ModelPricingDefaults(
+            billingMode = BillingMode.COUNT,
+            inputPricePerMillion = 0.0,
+            outputPricePerMillion = 0.0,
+            cachedInputPricePerMillion = 0.0,
+            pricePerRequest = pricePerRequest,
+            currency = currency
+        )
+    }
+
+    private data class ScrapedPricingRow(
+        val provider: String,
+        val model: String,
+        val defaults: ModelPricingDefaults
+    )
+
+    private val scrapedPricingRows: List<ScrapedPricingRow> by lazy {
+        buildList {
+            ScrapedModelPricingRowsCollect.rows
+                .lineSequence()
+                .map { it.trim() }
+                .filter { it.isNotEmpty() }
+                .forEach { row ->
+                    val parts = row.split('|')
+                    if (parts.size < 7) return@forEach
+
+                    val provider = parts[0].trim().lowercase()
+                    val model = parts[1].trim()
+                    val billingMode = BillingMode.fromString(parts[2].trim())
+                    val inputPrice = parts[3].trim().toDoubleOrNull() ?: 0.0
+                    val outputPrice = parts[4].trim().toDoubleOrNull() ?: 0.0
+                    val tokenCachedOrCountPrice = parts[5].trim().toDoubleOrNull() ?: 0.0
+                    val currency = if (parts[6].trim().equals("CNY", ignoreCase = true)) {
+                        PricingCurrency.CNY
+                    } else {
+                        PricingCurrency.USD
+                    }
+
+                    val defaults = if (billingMode == BillingMode.COUNT) {
+                        countPricing(
+                            pricePerRequest = tokenCachedOrCountPrice,
+                            currency = currency
+                        )
+                    } else {
+                        tokenPricing(
+                            inputPricePerMillion = inputPrice,
+                            outputPricePerMillion = outputPrice,
+                            cachedInputPricePerMillion =
+                                tokenCachedOrCountPrice.takeIf { it > 0.0 } ?: inputPrice,
+                            currency = currency
+                        )
+                    }
+
+                    add(
+                        ScrapedPricingRow(
+                            provider = provider,
+                            model = model,
+                            defaults = defaults
+                        )
+                    )
+                }
+        }
+    }
+
+    private val scrapedModelDefaults: Map<String, ModelPricingDefaults> by lazy {
+        scrapedPricingRows.associate { "${it.provider}:${it.model}" to it.defaults }
+    }
+
+    private val scrapedModelNameFallbacks: Map<String, List<ModelPricingDefaults>> by lazy {
+        scrapedPricingRows.groupBy(
+            keySelector = { it.model.lowercase() },
+            valueTransform = { it.defaults }
+        )
+    }
+
+    private val providerFallbacks = mapOf(
+        "OPENAI" to zeroPricing(PricingCurrency.USD),
+        "OPENAI_RESPONSES" to zeroPricing(PricingCurrency.USD),
+        "OPENAI_CODEX" to zeroPricing(PricingCurrency.USD),
+        "OPENAI_RESPONSES_GENERIC" to zeroPricing(PricingCurrency.USD),
+        "OPENAI_GENERIC" to zeroPricing(PricingCurrency.USD),
+        "ANTHROPIC" to zeroPricing(PricingCurrency.USD),
+        "ANTHROPIC_GENERIC" to zeroPricing(PricingCurrency.USD),
+        "GOOGLE" to zeroPricing(PricingCurrency.USD),
+        "GEMINI_GENERIC" to zeroPricing(PricingCurrency.USD),
+        "MISTRAL" to zeroPricing(PricingCurrency.USD),
+        "OPENROUTER" to zeroPricing(PricingCurrency.USD),
+        "NOUS_PORTAL" to zeroPricing(PricingCurrency.USD),
+        "OTHER" to zeroPricing(PricingCurrency.USD),
+        "OPENAI_LOCAL" to zeroPricing(PricingCurrency.CNY),
+        "DEEPSEEK" to zeroPricing(PricingCurrency.CNY),
+        "BAIDU" to zeroPricing(PricingCurrency.CNY),
+        "ALIYUN" to zeroPricing(PricingCurrency.CNY),
+        "XUNFEI" to zeroPricing(PricingCurrency.CNY),
+        "ZHIPU" to zeroPricing(PricingCurrency.CNY),
+        "BAICHUAN" to zeroPricing(PricingCurrency.CNY),
+        "MOONSHOT" to zeroPricing(PricingCurrency.CNY),
+        "SILICONFLOW" to zeroPricing(PricingCurrency.CNY),
+        "FOUR_ROUTER" to zeroPricing(PricingCurrency.CNY),
+        "INFINIAI" to zeroPricing(PricingCurrency.CNY),
+        "ALIPAY_BAILING" to zeroPricing(PricingCurrency.CNY),
+        "DOUBAO" to zeroPricing(PricingCurrency.CNY),
+        "PPINFRA" to zeroPricing(PricingCurrency.CNY),
+        "LMSTUDIO" to zeroPricing(PricingCurrency.CNY),
+        "OLLAMA" to zeroPricing(PricingCurrency.CNY),
+        "MNN" to zeroPricing(PricingCurrency.CNY),
+        "LLAMA_CPP" to zeroPricing(PricingCurrency.CNY),
+        "MIMO" to zeroPricing(PricingCurrency.CNY),
+        "NOVITA" to zeroPricing(PricingCurrency.USD),
+        "MINIMAX" to zeroPricing(PricingCurrency.CNY)
+    )
+
+    private fun splitProviderModel(providerModel: String): Pair<String, String> {
+        val colonIndex = providerModel.indexOf(':')
+        if (colonIndex <= 0) {
+            return providerModel.uppercase() to ""
+        }
+        val provider = providerModel.substring(0, colonIndex).uppercase()
+        val model = providerModel.substring(colonIndex + 1)
+        return provider to model
+    }
+
+    fun isDomesticProvider(provider: String): Boolean {
+        return domesticProviders.contains(provider.uppercase())
+    }
+
+    fun getDefaultPricing(providerModel: String): ModelPricingDefaults {
+        val normalized = providerModel.trim().lowercase()
+        scrapedModelDefaults[normalized]?.let { return it }
+
+        val (provider, model) = splitProviderModel(providerModel)
+
+        if (model.isNotBlank()) {
+            val modelCandidates = scrapedModelNameFallbacks[model.lowercase()]
+            if (!modelCandidates.isNullOrEmpty()) {
+                val preferredCurrency = if (isDomesticProvider(provider)) {
+                    PricingCurrency.CNY
+                } else {
+                    PricingCurrency.USD
+                }
+
+                modelCandidates.firstOrNull { it.currency == preferredCurrency }?.let {
+                    return it
+                }
+
+                return modelCandidates.first()
+            }
+        }
+
+        return providerFallbacks[provider]
+            ?: if (isDomesticProvider(provider)) {
+                zeroPricing(PricingCurrency.CNY)
+            } else {
+                zeroPricing(PricingCurrency.USD)
+            }
+    }
+
+    fun getCurrency(providerModel: String): PricingCurrency {
+        return getDefaultPricing(providerModel).currency
+    }
+}

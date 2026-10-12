@@ -1,1 +1,151 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uQW5pbWF0ZWRWaXNpYmlsaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLnR3ZWVuCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5mYWRlSW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmZhZGVPdXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLnNsaWRlSW5WZXJ0aWNhbGx5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5zbGlkZU91dFZlcnRpY2FsbHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5Cb3JkZXJTdHJva2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5JbWFnZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5kZWZhdWx0TWluU2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0SW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LndpZHRoSW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5yZW1lbWJlclNjcm9sbFN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24udmVydGljYWxTY3JvbGwKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkNsb3NlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5TdXJmYWNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuQ29udGVudFNjYWxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5wYWludGVyUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0T3ZlcmZsb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5EcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQudmlld21vZGVsLkNoYXRUb2FzdEV2ZW50CmltcG9ydCBrb3RsaW4ubWF0aC5tYXgKCkBDb21wb3NhYmxlCmZ1biBDaGF0VG9hc3RIb3N0KAogICAgZXZlbnQ6IENoYXRUb2FzdEV2ZW50PywKICAgIG9uRGlzbWlzczogKExvbmcpIC0+IFVuaXQsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIG1heFdpZHRoOiBEcCA9IDcyMC5kcCwKICAgIG1heEhlaWdodDogRHAgPSAyNDAuZHAsCikgewogICAgdmFsIG1lc3NhZ2UgPSBldmVudD8ubWVzc2FnZQogICAgdmFsIHNjcm9sbFN0YXRlID0gcmVtZW1iZXJTY3JvbGxTdGF0ZSgpCgogICAgTGF1bmNoZWRFZmZlY3QoZXZlbnQ/LmlkKSB7CiAgICAgICAgdmFsIGFjdGl2ZUV2ZW50ID0gZXZlbnQgPzogcmV0dXJuQExhdW5jaGVkRWZmZWN0CiAgICAgICAgc2Nyb2xsU3RhdGUuc2Nyb2xsVG8oMCkKICAgICAgICBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkoZXN0aW1hdGVUb2FzdER1cmF0aW9uTXMoYWN0aXZlRXZlbnQubWVzc2FnZSkpCiAgICAgICAgb25EaXNtaXNzKGFjdGl2ZUV2ZW50LmlkKQogICAgfQoKICAgIEJveChtb2RpZmllciA9IG1vZGlmaWVyLCBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LlRvcENlbnRlcikgewogICAgICAgIEFuaW1hdGVkVmlzaWJpbGl0eSgKICAgICAgICAgICAgdmlzaWJsZSA9ICFtZXNzYWdlLmlzTnVsbE9yQmxhbmsoKSwKICAgICAgICAgICAgZW50ZXIgPSBmYWRlSW4oYW5pbWF0aW9uU3BlYyA9IHR3ZWVuKGR1cmF0aW9uTWlsbGlzID0gMTgwKSkgKwogICAgICAgICAgICAgICAgc2xpZGVJblZlcnRpY2FsbHkoCiAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uU3BlYyA9IHR3ZWVuKGR1cmF0aW9uTWlsbGlzID0gMjIwKSwKICAgICAgICAgICAgICAgICAgICBpbml0aWFsT2Zmc2V0WSA9IHsgLWl0IC8gMiB9CiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICBleGl0ID0gZmFkZU91dChhbmltYXRpb25TcGVjID0gdHdlZW4oZHVyYXRpb25NaWxsaXMgPSAxNDApKSArCiAgICAgICAgICAgICAgICBzbGlkZU91dFZlcnRpY2FsbHkoCiAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uU3BlYyA9IHR3ZWVuKGR1cmF0aW9uTWlsbGlzID0gMTgwKSwKICAgICAgICAgICAgICAgICAgICB0YXJnZXRPZmZzZXRZID0geyAtaXQgLyAyIH0KICAgICAgICAgICAgICAgICkKICAgICAgICApIHsKICAgICAgICAgICAgU3VyZmFjZSgKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAud2lkdGhJbihtYXggPSBtYXhXaWR0aCksCiAgICAgICAgICAgICAgICBzaGFwZSA9IE1hdGVyaWFsVGhlbWUuc2hhcGVzLmxhcmdlLAogICAgICAgICAgICAgICAgdG9uYWxFbGV2YXRpb24gPSA0LmRwLAogICAgICAgICAgICAgICAgc2hhZG93RWxldmF0aW9uID0gOC5kcCwKICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlLmNvcHkoYWxwaGEgPSAwLjk4ZiksCiAgICAgICAgICAgICAgICBib3JkZXIgPSBCb3JkZXJTdHJva2UoCiAgICAgICAgICAgICAgICAgICAgd2lkdGggPSAxLmRwLAogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vdXRsaW5lVmFyaWFudC5jb3B5KGFscGhhID0gMC43ZikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICB2YWwgZXN0aW1hdGVkTGluZXMgPSBtZXNzYWdlCiAgICAgICAgICAgICAgICAgICAgPy5saW5lU2VxdWVuY2UoKQogICAgICAgICAgICAgICAgICAgID8uc3VtT2YgeyBsaW5lIC0+IG1heCgxLCAobGluZS5sZW5ndGggKyAyMykgLyAyNCkgfQogICAgICAgICAgICAgICAgICAgID86IDEKICAgICAgICAgICAgICAgIHZhbCBpc0NvbXBhY3RNZXNzYWdlID0gZXN0aW1hdGVkTGluZXMgPD0gMgoKICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoc3RhcnQgPSAxMi5kcCwgdG9wID0gOC5kcCwgZW5kID0gNC5kcCwgYm90dG9tID0gOC5kcCksCiAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgSW1hZ2UoCiAgICAgICAgICAgICAgICAgICAgICAgIHBhaW50ZXIgPSBwYWludGVyUmVzb3VyY2UoaWQgPSBSLmRyYXdhYmxlLmljX2xhdW5jaGVyX3NpbXBsZV9mb3JlZ3JvdW5kKSwKICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnNpemUoMzYuZHApLAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50U2NhbGUgPSBDb250ZW50U2NhbGUuRml0CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgQm94KAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAud2VpZ2h0KDFmKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmRlZmF1bHRNaW5TaXplKG1pbkhlaWdodCA9IDI4LmRwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnRoZW4oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGlzQ29tcGFjdE1lc3NhZ2UpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhlaWdodEluKG1heCA9IG1heEhlaWdodCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC52ZXJ0aWNhbFNjcm9sbChzY3JvbGxTdGF0ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50QWxpZ25tZW50ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0NvbXBhY3RNZXNzYWdlKSBBbGlnbm1lbnQuQ2VudGVyU3RhcnQgZWxzZSBBbGlnbm1lbnQuVG9wU3RhcnQKICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBtZXNzYWdlLm9yRW1wdHkoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuQ2xpcAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIEljb25CdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IGV2ZW50Py5sZXQgeyBvbkRpc21pc3MoaXQuaWQpIH0gfSwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDI4LmRwKQogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LkNsb3NlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgxOC5kcCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aW50ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCnByaXZhdGUgZnVuIGVzdGltYXRlVG9hc3REdXJhdGlvbk1zKG1lc3NhZ2U6IFN0cmluZyk6IExvbmcgewogICAgdmFsIGVzdGltYXRlZExpbmVzID0gbWVzc2FnZQogICAgICAgIC5saW5lU2VxdWVuY2UoKQogICAgICAgIC5zdW1PZiB7IGxpbmUgLT4gbWF4KDEsIChsaW5lLmxlbmd0aCArIDIzKSAvIDI0KSB9CgogICAgcmV0dXJuICgyNTAwTCArIGVzdGltYXRlZExpbmVzICogODUwTCkuY29lcmNlSW4oMzUwMEwsIDEyMDAwTCkKfQo=
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.animation.slideInVertically
+import androidx.compose.animation.slideOutVertically
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.defaultMinSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Close
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.features.chat.viewmodel.ChatToastEvent
+import kotlin.math.max
+
+@Composable
+fun ChatToastHost(
+    event: ChatToastEvent?,
+    onDismiss: (Long) -> Unit,
+    modifier: Modifier = Modifier,
+    maxWidth: Dp = 720.dp,
+    maxHeight: Dp = 240.dp,
+) {
+    val message = event?.message
+    val scrollState = rememberScrollState()
+
+    LaunchedEffect(event?.id) {
+        val activeEvent = event ?: return@LaunchedEffect
+        scrollState.scrollTo(0)
+        kotlinx.coroutines.delay(estimateToastDurationMs(activeEvent.message))
+        onDismiss(activeEvent.id)
+    }
+
+    Box(modifier = modifier, contentAlignment = Alignment.TopCenter) {
+        AnimatedVisibility(
+            visible = !message.isNullOrBlank(),
+            enter = fadeIn(animationSpec = tween(durationMillis = 180)) +
+                slideInVertically(
+                    animationSpec = tween(durationMillis = 220),
+                    initialOffsetY = { -it / 2 }
+                ),
+            exit = fadeOut(animationSpec = tween(durationMillis = 140)) +
+                slideOutVertically(
+                    animationSpec = tween(durationMillis = 180),
+                    targetOffsetY = { -it / 2 }
+                )
+        ) {
+            Surface(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .widthIn(max = maxWidth),
+                shape = MaterialTheme.shapes.large,
+                tonalElevation = 4.dp,
+                shadowElevation = 8.dp,
+                color = MaterialTheme.colorScheme.surface.copy(alpha = 0.98f),
+                border = BorderStroke(
+                    width = 1.dp,
+                    color = MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.7f)
+                )
+            ) {
+                val estimatedLines = message
+                    ?.lineSequence()
+                    ?.sumOf { line -> max(1, (line.length + 23) / 24) }
+                    ?: 1
+                val isCompactMessage = estimatedLines <= 2
+
+                Row(
+                    modifier = Modifier.padding(start = 12.dp, top = 8.dp, end = 4.dp, bottom = 8.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Image(
+                        painter = painterResource(id = R.drawable.ic_launcher_simple_foreground),
+                        contentDescription = null,
+                        modifier = Modifier
+                            .size(36.dp),
+                        contentScale = ContentScale.Fit
+                    )
+                    Spacer(modifier = Modifier.size(8.dp))
+                    Box(
+                        modifier = Modifier
+                            .weight(1f)
+                            .defaultMinSize(minHeight = 28.dp)
+                            .then(
+                                if (isCompactMessage) {
+                                    Modifier
+                                } else {
+                                    Modifier
+                                        .heightIn(max = maxHeight)
+                                        .verticalScroll(scrollState)
+                                }
+                            ),
+                        contentAlignment =
+                            if (isCompactMessage) Alignment.CenterStart else Alignment.TopStart
+                    ) {
+                        Text(
+                            text = message.orEmpty(),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurface,
+                            overflow = TextOverflow.Clip
+                        )
+                    }
+                    IconButton(
+                        onClick = { event?.let { onDismiss(it.id) } },
+                        modifier = Modifier.size(28.dp)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.Close,
+                            contentDescription = null,
+                            modifier = Modifier.size(18.dp),
+                            tint = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+            }
+        }
+    }
+}
+
+private fun estimateToastDurationMs(message: String): Long {
+    val estimatedLines = message
+        .lineSequence()
+        .sumOf { line -> max(1, (line.length + 23) / 24) }
+
+    return (2500L + estimatedLines * 850L).coerceIn(3500L, 12000L)
+}

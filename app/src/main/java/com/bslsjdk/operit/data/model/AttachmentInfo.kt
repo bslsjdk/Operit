@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqCiAqIERhdGEgY2xhc3MgdG8gc3RvcmUgaW5mb3JtYXRpb24gYWJvdXQgYW4gYXR0YWNobWVudCBUaGlzIHJlcHJlc2VudHMgYSBmaWxlIG9yIGNvbnRlbnQgdGhhdCBjYW4gYmUKICogYXR0YWNoZWQgdG8gYSBjaGF0IG1lc3NhZ2UKICovCmRhdGEgY2xhc3MgQXR0YWNobWVudEluZm8oCiAgICAgICAgdmFsIGZpbGVQYXRoOiBTdHJpbmcsCiAgICAgICAgdmFsIGZpbGVOYW1lOiBTdHJpbmcsCiAgICAgICAgdmFsIG1pbWVUeXBlOiBTdHJpbmcsCiAgICAgICAgdmFsIGZpbGVTaXplOiBMb25nLAogICAgICAgIHZhbCBjb250ZW50OiBTdHJpbmcgPSAiIiAvLyBGaWVsZCB0byBzdG9yZSBpbmxpbmUgY29udGVudAopCg==
+package com.bslsjdk.operit.data.model
+
+/**
+ * Data class to store information about an attachment This represents a file or content that can be
+ * attached to a chat message
+ */
+data class AttachmentInfo(
+        val filePath: String,
+        val fileName: String,
+        val mimeType: String,
+        val fileSize: Long,
+        val content: String = "" // Field to store inline content
+)

@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgRW5kcG9pbnRDb21wbGV0ZXJIYXNoQ29udHJvbFRlc3QgewoKICAgIEBUZXN0IGZ1biBkZWZhdWx0Q29tcGxldGlvbl9oYXNoQnlwYXNzU3RyaXBzSGFzaE9ubHkoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJodHRwczovL3gvdjEiLCBFbmRwb2ludENvbXBsZXRlci5jb21wbGV0ZUVuZHBvaW50KCJodHRwczovL3gvdjEjIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGFudGhyb3BpY0NvbXBsZXRpb25faGFzaEJ5cGFzc1N0cmlwc0hhc2hPbmx5KCkgewogICAgICAgIGFzc2VydEVxdWFscygiaHR0cHM6Ly94L2FudGhyb3BpYyIsIEVuZHBvaW50Q29tcGxldGVyLmNvbXBsZXRlRW5kcG9pbnQoImh0dHBzOi8veC9hbnRocm9waWMjIiwgQXBpUHJvdmlkZXJUeXBlLkFOVEhST1BJQykpCiAgICB9CgogICAgQFRlc3QgZnVuIHJlc3BvbnNlc0NvbXBsZXRpb25faGFzaEJ5cGFzc1N0cmlwc0hhc2hPbmx5KCkgewogICAgICAgIGFzc2VydEVxdWFscygiaHR0cHM6Ly94IiwgRW5kcG9pbnRDb21wbGV0ZXIuY29tcGxldGVFbmRwb2ludCgiaHR0cHM6Ly94IyIsIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class EndpointCompleterHashControlTest {
+
+    @Test fun defaultCompletion_hashBypassStripsHashOnly() {
+        assertEquals("https://x/v1", EndpointCompleter.completeEndpoint("https://x/v1#"))
+    }
+
+    @Test fun anthropicCompletion_hashBypassStripsHashOnly() {
+        assertEquals("https://x/anthropic", EndpointCompleter.completeEndpoint("https://x/anthropic#", ApiProviderType.ANTHROPIC))
+    }
+
+    @Test fun responsesCompletion_hashBypassStripsHashOnly() {
+        assertEquals("https://x", EndpointCompleter.completeEndpoint("https://x#", ApiProviderType.OPENAI_RESPONSES))
+    }
+}

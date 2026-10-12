@@ -1,1 +1,58 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5kYgoKaW1wb3J0IGFuZHJvaWR4LnNxbGl0ZS5kYi5TdXBwb3J0U1FMaXRlRGF0YWJhc2UKaW1wb3J0IGphdmEubGFuZy5yZWZsZWN0Lkludm9jYXRpb25IYW5kbGVyCmltcG9ydCBqYXZhLmxhbmcucmVmbGVjdC5Qcm94eQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQXBwRGF0YWJhc2VNaWdyYXRpb25UZXN0IHsKICAgIEBUZXN0CiAgICBmdW4gbWlncmF0aW9uMjBUbzIxQ3JlYXRlc01lc3NhZ2VJbmRleGVzRXhwZWN0ZWRCeVJvb20oKSB7CiAgICAgICAgdmFsIGV4ZWN1dGVkU3FsID0gbXV0YWJsZUxpc3RPZjxTdHJpbmc+KCkKCiAgICAgICAgQXBwRGF0YWJhc2UuTUlHUkFUSU9OXzIwXzIxLm1pZ3JhdGUocmVjb3JkaW5nRGF0YWJhc2UoZXhlY3V0ZWRTcWwpKQoKICAgICAgICB2YWwgbm9ybWFsaXplZFNxbCA9IGV4ZWN1dGVkU3FsLm1hcCB7IGl0LnJlcGxhY2UoUmVnZXgoIlxccysiKSwgIiAiKS50cmltKCkgfQogICAgICAgIGFzc2VydFNxbFdhc0V4ZWN1dGVkKAogICAgICAgICAgICBub3JtYWxpemVkU3FsLAogICAgICAgICAgICAiQ1JFQVRFIElOREVYIElGIE5PVCBFWElTVFMgYGluZGV4X21lc3NhZ2VzX2NoYXRJZGAgT04gYG1lc3NhZ2VzYCAoYGNoYXRJZGApIgogICAgICAgICkKICAgICAgICBhc3NlcnRTcWxXYXNFeGVjdXRlZCgKICAgICAgICAgICAgbm9ybWFsaXplZFNxbCwKICAgICAgICAgICAgIkNSRUFURSBJTkRFWCBJRiBOT1QgRVhJU1RTIGBpbmRleF9tZXNzYWdlc19jaGF0SWRfdGltZXN0YW1wYCBPTiBgbWVzc2FnZXNgIChgY2hhdElkYCwgYHRpbWVzdGFtcGApIgogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWNvcmRpbmdEYXRhYmFzZShleGVjdXRlZFNxbDogTXV0YWJsZUxpc3Q8U3RyaW5nPik6IFN1cHBvcnRTUUxpdGVEYXRhYmFzZSB7CiAgICAgICAgdmFsIGhhbmRsZXIgPQogICAgICAgICAgICBJbnZvY2F0aW9uSGFuZGxlciB7IF8sIG1ldGhvZCwgYXJncyAtPgogICAgICAgICAgICAgICAgaWYgKAogICAgICAgICAgICAgICAgICAgIG1ldGhvZC5uYW1lID09ICJleGVjU1FMIiAmJgogICAgICAgICAgICAgICAgICAgICAgICBhcmdzICE9IG51bGwgJiYKICAgICAgICAgICAgICAgICAgICAgICAgYXJncy5zaXplID09IDEgJiYKICAgICAgICAgICAgICAgICAgICAgICAgYXJnc1swXSBpcyBTdHJpbmcKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIGV4ZWN1dGVkU3FsICs9IGFyZ3NbMF0gYXMgU3RyaW5nCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQEludm9jYXRpb25IYW5kbGVyIFVuaXQKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB0aHJvdyBVbnN1cHBvcnRlZE9wZXJhdGlvbkV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAiVW5leHBlY3RlZCBTdXBwb3J0U1FMaXRlRGF0YWJhc2UgY2FsbDogJHttZXRob2QubmFtZX0iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgcmV0dXJuIFByb3h5Lm5ld1Byb3h5SW5zdGFuY2UoCiAgICAgICAgICAgIFN1cHBvcnRTUUxpdGVEYXRhYmFzZTo6Y2xhc3MuamF2YS5jbGFzc0xvYWRlciwKICAgICAgICAgICAgYXJyYXlPZihTdXBwb3J0U1FMaXRlRGF0YWJhc2U6OmNsYXNzLmphdmEpLAogICAgICAgICAgICBoYW5kbGVyCiAgICAgICAgKSBhcyBTdXBwb3J0U1FMaXRlRGF0YWJhc2UKICAgIH0KCiAgICBwcml2YXRlIGZ1biBhc3NlcnRTcWxXYXNFeGVjdXRlZChub3JtYWxpemVkU3FsOiBMaXN0PFN0cmluZz4sIGV4cGVjdGVkU3FsOiBTdHJpbmcpIHsKICAgICAgICBhc3NlcnRUcnVlKAogICAgICAgICAgICAiRXhwZWN0ZWQgbWlncmF0aW9uIFNRTCB3YXMgbm90IGV4ZWN1dGVkOiAkZXhwZWN0ZWRTcWwiLAogICAgICAgICAgICBub3JtYWxpemVkU3FsLmNvbnRhaW5zKGV4cGVjdGVkU3FsKQogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.db
+
+import androidx.sqlite.db.SupportSQLiteDatabase
+import java.lang.reflect.InvocationHandler
+import java.lang.reflect.Proxy
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class AppDatabaseMigrationTest {
+    @Test
+    fun migration20To21CreatesMessageIndexesExpectedByRoom() {
+        val executedSql = mutableListOf<String>()
+
+        AppDatabase.MIGRATION_20_21.migrate(recordingDatabase(executedSql))
+
+        val normalizedSql = executedSql.map { it.replace(Regex("\\s+"), " ").trim() }
+        assertSqlWasExecuted(
+            normalizedSql,
+            "CREATE INDEX IF NOT EXISTS `index_messages_chatId` ON `messages` (`chatId`)"
+        )
+        assertSqlWasExecuted(
+            normalizedSql,
+            "CREATE INDEX IF NOT EXISTS `index_messages_chatId_timestamp` ON `messages` (`chatId`, `timestamp`)"
+        )
+    }
+
+    private fun recordingDatabase(executedSql: MutableList<String>): SupportSQLiteDatabase {
+        val handler =
+            InvocationHandler { _, method, args ->
+                if (
+                    method.name == "execSQL" &&
+                        args != null &&
+                        args.size == 1 &&
+                        args[0] is String
+                ) {
+                    executedSql += args[0] as String
+                    return@InvocationHandler Unit
+                }
+
+                throw UnsupportedOperationException(
+                    "Unexpected SupportSQLiteDatabase call: ${method.name}"
+                )
+            }
+
+        return Proxy.newProxyInstance(
+            SupportSQLiteDatabase::class.java.classLoader,
+            arrayOf(SupportSQLiteDatabase::class.java),
+            handler
+        ) as SupportSQLiteDatabase
+    }
+
+    private fun assertSqlWasExecuted(normalizedSql: List<String>, expectedSql: String) {
+        assertTrue(
+            "Expected migration SQL was not executed: $expectedSql",
+            normalizedSql.contains(expectedSql)
+        )
+    }
+}

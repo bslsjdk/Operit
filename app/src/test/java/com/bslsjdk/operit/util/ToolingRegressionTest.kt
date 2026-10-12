@@ -1,1 +1,122 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBUb29saW5nUmVncmVzc2lvblRlc3QgewoKICAgIEBUZXN0IGZ1biB0b29sUmVzdWx0QW55UGF0dGVybl9tYXRjaGVzVG9vbFJlc3VsdCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC50b29sUmVzdWx0QW55UGF0dGVybi5jb250YWluc01hdGNoSW4oIjx0b29sX3Jlc3VsdCBuYW1lPVwicnVuXCI+ZG9uZTwvdG9vbF9yZXN1bHQ+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHRvb2xSZXN1bHRXaXRoTmFtZUFueVBhdHRlcm5fZXh0cmFjdHNOYW1lQW5kQm9keSgpIHsKICAgICAgICB2YWwgbWF0Y2ggPSBDaGF0TWFya3VwUmVnZXgudG9vbFJlc3VsdFdpdGhOYW1lQW55UGF0dGVybi5maW5kKCI8dG9vbF9yZXN1bHQgbmFtZT1cInJ1blwiPmRvbmU8L3Rvb2xfcmVzdWx0PiIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJydW4iLCBtYXRjaCEhLmdyb3VwVmFsdWVzWzJdKQogICAgICAgIGFzc2VydEVxdWFscygiZG9uZSIsIG1hdGNoLmdyb3VwVmFsdWVzWzNdKQogICAgfQoKICAgIEBUZXN0IGZ1biB0b29sT3JUb29sUmVzdWx0QmxvY2tfbWF0Y2hlc1Rvb2xCbG9jaygpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC50b29sT3JUb29sUmVzdWx0QmxvY2suY29udGFpbnNNYXRjaEluKCI8dG9vbCBuYW1lPVwicnVuXCI+cHdkPC90b29sPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBzdGF0dXNQYXR0ZXJuX2V4dHJhY3RzQm9keSgpIHsKICAgICAgICB2YWwgbWF0Y2ggPSBDaGF0TWFya3VwUmVnZXgueG1sU3RhdHVzUGF0dGVybi5maW5kKCI8c3RhdHVzIHR5cGU9XCJva1wiPmRvbmU8L3N0YXR1cz4iKQogICAgICAgIGFzc2VydEVxdWFscygib2siLCBtYXRjaCEhLmdyb3VwVmFsdWVzWzFdKQogICAgICAgIGFzc2VydEVxdWFscygiZG9uZSIsIG1hdGNoLmdyb3VwVmFsdWVzWzVdKQogICAgfQoKICAgIEBUZXN0IGZ1biBuYW1lQXR0cl9leHRyYWN0c05hbWVBdHRyaWJ1dGUoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJydW4iLCBDaGF0TWFya3VwUmVnZXgubmFtZUF0dHIuZmluZCgibmFtZT1cInJ1blwiIikhIS5ncm91cFZhbHVlc1sxXSkKICAgIH0KCiAgICBAVGVzdCBmdW4gc3RhdHVzQXR0cl9leHRyYWN0c1N0YXR1c0F0dHJpYnV0ZSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIm9rIiwgQ2hhdE1hcmt1cFJlZ2V4LnN0YXR1c0F0dHIuZmluZCgic3RhdHVzPVwib2tcIiIpISEuZ3JvdXBWYWx1ZXNbMV0pCiAgICB9CgogICAgQFRlc3QgZnVuIHR5cGVBdHRyX2V4dHJhY3RzVHlwZUF0dHJpYnV0ZSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoImxvYWRpbmciLCBDaGF0TWFya3VwUmVnZXgudHlwZUF0dHIuZmluZCgidHlwZT1cImxvYWRpbmdcIiIpISEuZ3JvdXBWYWx1ZXNbMV0pCiAgICB9CgogICAgQFRlc3QgZnVuIHRpdGxlQXR0cl9leHRyYWN0c1RpdGxlQXR0cmlidXRlKCkgewogICAgICAgIGFzc2VydEVxdWFscygiaGVsbG8iLCBDaGF0TWFya3VwUmVnZXgudGl0bGVBdHRyLmZpbmQoInRpdGxlPVwiaGVsbG9cIiIpISEuZ3JvdXBWYWx1ZXNbMV0pCiAgICB9CgogICAgQFRlc3QgZnVuIHN1YnRpdGxlQXR0cl9leHRyYWN0c1N1YnRpdGxlQXR0cmlidXRlKCkgewogICAgICAgIGFzc2VydEVxdWFscygid29ybGQiLCBDaGF0TWFya3VwUmVnZXguc3VidGl0bGVBdHRyLmZpbmQoInN1YnRpdGxlPVwid29ybGRcIiIpISEuZ3JvdXBWYWx1ZXNbMV0pCiAgICB9CgogICAgQFRlc3QgZnVuIHRvb2xBdHRyX2V4dHJhY3RzVG9vbEF0dHJpYnV0ZSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoImJyb3dzZXIiLCBDaGF0TWFya3VwUmVnZXgudG9vbEF0dHIuZmluZCgidG9vbD1cImJyb3dzZXJcIiIpISEuZ3JvdXBWYWx1ZXNbMV0pCiAgICB9CgogICAgQFRlc3QgZnVuIHV1aWRBdHRyX2V4dHJhY3RzVXVpZEF0dHJpYnV0ZSgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIjEyMyIsIENoYXRNYXJrdXBSZWdleC51dWlkQXR0ci5maW5kKCJ1dWlkPVwiMTIzXCIiKSEhLmdyb3VwVmFsdWVzWzFdKQogICAgfQoKICAgIEBUZXN0IGZ1biBjb250ZW50VGFnX2V4dHJhY3RzSW5uZXJDb250ZW50KCkgewogICAgICAgIGFzc2VydEVxdWFscygiZG9uZSIsIENoYXRNYXJrdXBSZWdleC5jb250ZW50VGFnLmZpbmQoIjxjb250ZW50PmRvbmU8L2NvbnRlbnQ+IikhIS5ncm91cFZhbHVlc1sxXSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXJyb3JUYWdfZXh0cmFjdHNJbm5lckNvbnRlbnQoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJib29tIiwgQ2hhdE1hcmt1cFJlZ2V4LmVycm9yVGFnLmZpbmQoIjxlcnJvcj5ib29tPC9lcnJvcj4iKSEhLmdyb3VwVmFsdWVzWzFdKQogICAgfQoKICAgIEBUZXN0IGZ1biBzdGF0dXNUYWdfbWF0Y2hlc1N0YXR1c0Jsb2NrKCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LnN0YXR1c1RhZy5jb250YWluc01hdGNoSW4oIjxzdGF0dXMgdHlwZT1cIm9rXCI+ZG9uZTwvc3RhdHVzPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBzdGF0dXNTZWxmQ2xvc2luZ1RhZ19tYXRjaGVzQmxvY2soKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0TWFya3VwUmVnZXguc3RhdHVzU2VsZkNsb3NpbmdUYWcuY29udGFpbnNNYXRjaEluKCI8c3RhdHVzIHR5cGU9XCJva1wiIC8+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHRoaW5rVGFnX21hdGNoZXNUaGlua0Jsb2NrKCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4LnRoaW5rVGFnLmNvbnRhaW5zTWF0Y2hJbigiPHRoaW5raW5nPmRyYWZ0PC90aGlua2luZz4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gdGhpbmtTZWxmQ2xvc2luZ1RhZ19tYXRjaGVzVGhpbmtCbG9jaygpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC50aGlua1NlbGZDbG9zaW5nVGFnLmNvbnRhaW5zTWF0Y2hJbigiPHRoaW5rIC8+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHNlYXJjaFRhZ19tYXRjaGVzU2VhcmNoQmxvY2soKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0TWFya3VwUmVnZXguc2VhcmNoVGFnLmNvbnRhaW5zTWF0Y2hJbigiPHNlYXJjaD5xPC9zZWFyY2g+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHNlYXJjaFNlbGZDbG9zaW5nVGFnX21hdGNoZXNTZWFyY2hCbG9jaygpIHsKICAgICAgICBhc3NlcnRUcnVlKENoYXRNYXJrdXBSZWdleC5zZWFyY2hTZWxmQ2xvc2luZ1RhZy5jb250YWluc01hdGNoSW4oIjxzZWFyY2ggLz4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbWV0YVRhZ19tYXRjaGVzTWV0YUJsb2NrKCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4Lm1ldGFUYWcuY29udGFpbnNNYXRjaEluKCI8bWV0YSBwcm92aWRlcj1cInhcIj55PC9tZXRhPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBlbW90aW9uVGFnX21hdGNoZXNFbW90aW9uQmxvY2soKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDaGF0TWFya3VwUmVnZXguZW1vdGlvblRhZy5jb250YWluc01hdGNoSW4oIjxlbW90aW9uPmhhcHB5PC9lbW90aW9uPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBtZW1vcnlUYWdfbWF0Y2hlc01lbW9yeUJsb2NrKCkgewogICAgICAgIGFzc2VydFRydWUoQ2hhdE1hcmt1cFJlZ2V4Lm1lbW9yeVRhZy5jb250YWluc01hdGNoSW4oIjxtZW1vcnk+bm90ZTwvbWVtb3J5PiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biByZXBseVRvVGFnX2V4dHJhY3RzU2VuZGVyQW5kVGltZXN0YW1wKCkgewogICAgICAgIHZhbCBtYXRjaCA9IENoYXRNYXJrdXBSZWdleC5yZXBseVRvVGFnLmZpbmQoIjxyZXBseV90byBzZW5kZXI9XCJ1XCIgdGltZXN0YW1wPVwidFwiPmJvZHk8L3JlcGx5X3RvPiIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ1IiwgbWF0Y2ghIS5ncm91cFZhbHVlc1sxXSkKICAgICAgICBhc3NlcnRFcXVhbHMoInQiLCBtYXRjaC5ncm91cFZhbHVlc1syXSkKICAgICAgICBhc3NlcnRFcXVhbHMoImJvZHkiLCBtYXRjaC5ncm91cFZhbHVlc1szXSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYXR0YWNobWVudERhdGFUYWdfZXh0cmFjdHNBdHRhY2htZW50UGF5bG9hZCgpIHsKICAgICAgICB2YWwgbWF0Y2ggPSBDaGF0TWFya3VwUmVnZXguYXR0YWNobWVudERhdGFUYWcuZmluZCgiPGF0dGFjaG1lbnQgaWQ9XCIxXCIgZmlsZW5hbWU9XCJhLnR4dFwiIHR5cGU9XCJ0ZXh0L3BsYWluXCI+YWJjPC9hdHRhY2htZW50PiIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIxIiwgbWF0Y2ghIS5ncm91cFZhbHVlc1sxXSkKICAgICAgICBhc3NlcnRFcXVhbHMoImEudHh0IiwgbWF0Y2guZ3JvdXBWYWx1ZXNbMl0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0ZXh0L3BsYWluIiwgbWF0Y2guZ3JvdXBWYWx1ZXNbM10pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJhYmMiLCBtYXRjaC5ncm91cFZhbHVlc1s1XSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYXR0YWNobWVudERhdGFTZWxmQ2xvc2luZ1RhZ19leHRyYWN0c0F0dGFjaG1lbnRQYXlsb2FkKCkgewogICAgICAgIHZhbCBtYXRjaCA9IENoYXRNYXJrdXBSZWdleC5hdHRhY2htZW50RGF0YVNlbGZDbG9zaW5nVGFnLmZpbmQoIjxhdHRhY2htZW50IGlkPVwiMVwiIGZpbGVuYW1lPVwiYS50eHRcIiB0eXBlPVwidGV4dC9wbGFpblwiIGNvbnRlbnQ9XCJhYmNcIiAvPiIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIxIiwgbWF0Y2ghIS5ncm91cFZhbHVlc1sxXSkKICAgICAgICBhc3NlcnRFcXVhbHMoImEudHh0IiwgbWF0Y2guZ3JvdXBWYWx1ZXNbMl0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0ZXh0L3BsYWluIiwgbWF0Y2guZ3JvdXBWYWx1ZXNbM10pCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ToolingRegressionTest {
+
+    @Test fun toolResultAnyPattern_matchesToolResult() {
+        assertTrue(ChatMarkupRegex.toolResultAnyPattern.containsMatchIn("<tool_result name=\"run\">done</tool_result>"))
+    }
+
+    @Test fun toolResultWithNameAnyPattern_extractsNameAndBody() {
+        val match = ChatMarkupRegex.toolResultWithNameAnyPattern.find("<tool_result name=\"run\">done</tool_result>")
+        assertEquals("run", match!!.groupValues[2])
+        assertEquals("done", match.groupValues[3])
+    }
+
+    @Test fun toolOrToolResultBlock_matchesToolBlock() {
+        assertTrue(ChatMarkupRegex.toolOrToolResultBlock.containsMatchIn("<tool name=\"run\">pwd</tool>"))
+    }
+
+    @Test fun statusPattern_extractsBody() {
+        val match = ChatMarkupRegex.xmlStatusPattern.find("<status type=\"ok\">done</status>")
+        assertEquals("ok", match!!.groupValues[1])
+        assertEquals("done", match.groupValues[5])
+    }
+
+    @Test fun nameAttr_extractsNameAttribute() {
+        assertEquals("run", ChatMarkupRegex.nameAttr.find("name=\"run\"")!!.groupValues[1])
+    }
+
+    @Test fun statusAttr_extractsStatusAttribute() {
+        assertEquals("ok", ChatMarkupRegex.statusAttr.find("status=\"ok\"")!!.groupValues[1])
+    }
+
+    @Test fun typeAttr_extractsTypeAttribute() {
+        assertEquals("loading", ChatMarkupRegex.typeAttr.find("type=\"loading\"")!!.groupValues[1])
+    }
+
+    @Test fun titleAttr_extractsTitleAttribute() {
+        assertEquals("hello", ChatMarkupRegex.titleAttr.find("title=\"hello\"")!!.groupValues[1])
+    }
+
+    @Test fun subtitleAttr_extractsSubtitleAttribute() {
+        assertEquals("world", ChatMarkupRegex.subtitleAttr.find("subtitle=\"world\"")!!.groupValues[1])
+    }
+
+    @Test fun toolAttr_extractsToolAttribute() {
+        assertEquals("browser", ChatMarkupRegex.toolAttr.find("tool=\"browser\"")!!.groupValues[1])
+    }
+
+    @Test fun uuidAttr_extractsUuidAttribute() {
+        assertEquals("123", ChatMarkupRegex.uuidAttr.find("uuid=\"123\"")!!.groupValues[1])
+    }
+
+    @Test fun contentTag_extractsInnerContent() {
+        assertEquals("done", ChatMarkupRegex.contentTag.find("<content>done</content>")!!.groupValues[1])
+    }
+
+    @Test fun errorTag_extractsInnerContent() {
+        assertEquals("boom", ChatMarkupRegex.errorTag.find("<error>boom</error>")!!.groupValues[1])
+    }
+
+    @Test fun statusTag_matchesStatusBlock() {
+        assertTrue(ChatMarkupRegex.statusTag.containsMatchIn("<status type=\"ok\">done</status>"))
+    }
+
+    @Test fun statusSelfClosingTag_matchesBlock() {
+        assertTrue(ChatMarkupRegex.statusSelfClosingTag.containsMatchIn("<status type=\"ok\" />"))
+    }
+
+    @Test fun thinkTag_matchesThinkBlock() {
+        assertTrue(ChatMarkupRegex.thinkTag.containsMatchIn("<thinking>draft</thinking>"))
+    }
+
+    @Test fun thinkSelfClosingTag_matchesThinkBlock() {
+        assertTrue(ChatMarkupRegex.thinkSelfClosingTag.containsMatchIn("<think />"))
+    }
+
+    @Test fun searchTag_matchesSearchBlock() {
+        assertTrue(ChatMarkupRegex.searchTag.containsMatchIn("<search>q</search>"))
+    }
+
+    @Test fun searchSelfClosingTag_matchesSearchBlock() {
+        assertTrue(ChatMarkupRegex.searchSelfClosingTag.containsMatchIn("<search />"))
+    }
+
+    @Test fun metaTag_matchesMetaBlock() {
+        assertTrue(ChatMarkupRegex.metaTag.containsMatchIn("<meta provider=\"x\">y</meta>"))
+    }
+
+    @Test fun emotionTag_matchesEmotionBlock() {
+        assertTrue(ChatMarkupRegex.emotionTag.containsMatchIn("<emotion>happy</emotion>"))
+    }
+
+    @Test fun memoryTag_matchesMemoryBlock() {
+        assertTrue(ChatMarkupRegex.memoryTag.containsMatchIn("<memory>note</memory>"))
+    }
+
+    @Test fun replyToTag_extractsSenderAndTimestamp() {
+        val match = ChatMarkupRegex.replyToTag.find("<reply_to sender=\"u\" timestamp=\"t\">body</reply_to>")
+        assertEquals("u", match!!.groupValues[1])
+        assertEquals("t", match.groupValues[2])
+        assertEquals("body", match.groupValues[3])
+    }
+
+    @Test fun attachmentDataTag_extractsAttachmentPayload() {
+        val match = ChatMarkupRegex.attachmentDataTag.find("<attachment id=\"1\" filename=\"a.txt\" type=\"text/plain\">abc</attachment>")
+        assertEquals("1", match!!.groupValues[1])
+        assertEquals("a.txt", match.groupValues[2])
+        assertEquals("text/plain", match.groupValues[3])
+        assertEquals("abc", match.groupValues[5])
+    }
+
+    @Test fun attachmentDataSelfClosingTag_extractsAttachmentPayload() {
+        val match = ChatMarkupRegex.attachmentDataSelfClosingTag.find("<attachment id=\"1\" filename=\"a.txt\" type=\"text/plain\" content=\"abc\" />")
+        assertEquals("1", match!!.groupValues[1])
+        assertEquals("a.txt", match.groupValues[2])
+        assertEquals("text/plain", match.groupValues[3])
+    }
+}

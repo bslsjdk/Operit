@@ -1,1 +1,167 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IuY29tcGxldGlvbgoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LndlYnZpZXcud29ya3NwYWNlLmVkaXRvci5sYW5ndWFnZS5MYW5ndWFnZUZhY3RvcnkKCi8qKgogKiBLb3RsaW7ooaXlhajmj5DkvpvlmagKICovCmNsYXNzIEtvdGxpbkNvbXBsZXRpb25Qcm92aWRlciA6IERlZmF1bHRDb21wbGV0aW9uUHJvdmlkZXIoKSB7CiAgICAvLyDojrflj5ZLb3RsaW7or63oqIDmlK/mjIEKICAgIHByaXZhdGUgdmFsIGxhbmd1YWdlU3VwcG9ydCA9IExhbmd1YWdlRmFjdG9yeS5nZXRMYW5ndWFnZVN1cHBvcnQoImtvdGxpbiIpCiAgICAKICAgIC8vIEtvdGxpbuW4uOeUqEFQSeWSjOaWueazlQogICAgcHJpdmF0ZSB2YWwgY29tbW9uTWV0aG9kcyA9IG1hcE9mKAogICAgICAgICJsaXN0IiB0byBsaXN0T2YoImFkZCIsICJyZW1vdmUiLCAic2l6ZSIsICJpc0VtcHR5IiwgImNvbnRhaW5zIiwgImZvckVhY2giLCAibWFwIiwgImZpbHRlciIsICJmaXJzdCIsICJsYXN0IiksCiAgICAgICAgInN0cmluZyIgdG8gbGlzdE9mKCJsZW5ndGgiLCAiaXNFbXB0eSIsICJzdWJzdHJpbmciLCAicmVwbGFjZSIsICJzcGxpdCIsICJ0cmltIiwgInRvSW50IiwgInRvTG9uZyIsICJ0b0RvdWJsZSIpCiAgICApCiAgICAKICAgIG92ZXJyaWRlIGZ1biBnZXRDb21wbGV0aW9uSXRlbXModGV4dDogQ2hhclNlcXVlbmNlLCBwb3NpdGlvbjogSW50KTogTGlzdDxDb21wbGV0aW9uSXRlbT4gewogICAgICAgIC8vIOiOt+WPluWJjee8gAogICAgICAgIHZhbCBwcmVmaXggPSBnZXRQcmVmaXgodGV4dCwgcG9zaXRpb24pCiAgICAgICAgCiAgICAgICAgLy8g6I635Y+W5LiK5LiL5paH77yM5Yik5pat5piv5ZCm5Zyo5a+56LGh5pa55rOV6LCD55So5Zy65pmvCiAgICAgICAgdmFsIGNvbnRleHQgPSBnZXRDb250ZXh0KHRleHQsIHBvc2l0aW9uKQogICAgICAgIAogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgLy8g5a+56LGh5pa55rOV6LCD55So5Zy65pmvCiAgICAgICAgICAgIGNvbnRleHQuY29udGFpbnMoIi4iKSAtPiB7CiAgICAgICAgICAgICAgICB2YWwgb2JqZWN0TmFtZSA9IGNvbnRleHQuc3Vic3RyaW5nQmVmb3JlKCIuIikudHJpbSgpLmxvd2VyY2FzZSgpCiAgICAgICAgICAgICAgICB2YWwgbWV0aG9kUHJlZml4ID0gY29udGV4dC5zdWJzdHJpbmdBZnRlcigiLiIpLnRyaW0oKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDmoLnmja7lr7nosaHlkI3ojrflj5blj6/og73nmoTmlrnms5XliJfooagKICAgICAgICAgICAgICAgIHZhbCBtZXRob2RzID0gY29tbW9uTWV0aG9kc1tvYmplY3ROYW1lXSA/OiByZXR1cm4gZW1wdHlMaXN0KCkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g6L+H5ruk56ym5ZCI5YmN57yA55qE5pa55rOVCiAgICAgICAgICAgICAgICBtZXRob2RzLmZpbHRlciB7IGl0LnN0YXJ0c1dpdGgobWV0aG9kUHJlZml4KSB9CiAgICAgICAgICAgICAgICAgICAgLm1hcCB7IAogICAgICAgICAgICAgICAgICAgICAgICBDb21wbGV0aW9uSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0gaXQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnNlcnRUZXh0ID0gaXQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBraW5kID0gQ29tcGxldGlvbkl0ZW1LaW5kLk1FVEhPRAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDmma7pgJrooaXlhajlnLrmma8KICAgICAgICAgICAgcHJlZml4LmlzTm90RW1wdHkoKSAtPiB7CiAgICAgICAgICAgICAgICAvLyDojrflj5bmiYDmnInlj6/og73nmoTooaXlhajpobkKICAgICAgICAgICAgICAgIHZhbCBjb21wbGV0aW9ucyA9IG11dGFibGVMaXN0T2Y8Q29tcGxldGlvbkl0ZW0+KCkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g5re75Yqg5YWz6ZSu5a2XCiAgICAgICAgICAgICAgICBsYW5ndWFnZVN1cHBvcnQ/LmdldEtleXdvcmRzKCk/LmZpbHRlciB7IGl0LnN0YXJ0c1dpdGgocHJlZml4KSB9Py5mb3JFYWNoIHsKICAgICAgICAgICAgICAgICAgICBjb21wbGV0aW9ucy5hZGQoQ29tcGxldGlvbkl0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0gaXQsCiAgICAgICAgICAgICAgICAgICAgICAgIGluc2VydFRleHQgPSBpdCwKICAgICAgICAgICAgICAgICAgICAgICAga2luZCA9IENvbXBsZXRpb25JdGVtS2luZC5LRVlXT1JECiAgICAgICAgICAgICAgICAgICAgKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g5re75Yqg5bi46KeB5Luj56CB54mH5q61CiAgICAgICAgICAgICAgICBpZiAoImZ1biIuc3RhcnRzV2l0aChwcmVmaXgpKSB7CiAgICAgICAgICAgICAgICAgICAgY29tcGxldGlvbnMuYWRkKENvbXBsZXRpb25JdGVtKAogICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9ICJmdW4iLAogICAgICAgICAgICAgICAgICAgICAgICBpbnNlcnRUZXh0ID0gImZ1biAkezF9KCR7Mn0pIHtcbiAgJHszfVxufSIsCiAgICAgICAgICAgICAgICAgICAgICAgIGtpbmQgPSBDb21wbGV0aW9uSXRlbUtpbmQuU05JUFBFVAogICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGlmICgiaWYiLnN0YXJ0c1dpdGgocHJlZml4KSkgewogICAgICAgICAgICAgICAgICAgIGNvbXBsZXRpb25zLmFkZChDb21wbGV0aW9uSXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSAiaWYiLAogICAgICAgICAgICAgICAgICAgICAgICBpbnNlcnRUZXh0ID0gImlmICgkezF9KSB7XG4gICR7Mn1cbn0iLAogICAgICAgICAgICAgICAgICAgICAgICBraW5kID0gQ29tcGxldGlvbkl0ZW1LaW5kLlNOSVBQRVQKICAgICAgICAgICAgICAgICAgICApKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDmt7vliqDku47mlofku7bkuK3mj5Dlj5bnmoTlj5jph48KICAgICAgICAgICAgICAgIHZhbCB2YXJpYWJsZXMgPSBleHRyYWN0VmFyaWFibGVzKHRleHQudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgIHZhcmlhYmxlcy5maWx0ZXIgeyBpdC5zdGFydHNXaXRoKHByZWZpeCkgfS5mb3JFYWNoIHsKICAgICAgICAgICAgICAgICAgICBjb21wbGV0aW9ucy5hZGQoQ29tcGxldGlvbkl0ZW0oCiAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0gaXQsCiAgICAgICAgICAgICAgICAgICAgICAgIGluc2VydFRleHQgPSBpdCwKICAgICAgICAgICAgICAgICAgICAgICAga2luZCA9IENvbXBsZXRpb25JdGVtS2luZC5WQVJJQUJMRQogICAgICAgICAgICAgICAgICAgICkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGNvbXBsZXRpb25zCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIGVsc2UgLT4gZW1wdHlMaXN0KCkKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8qKgogICAgICog6I635Y+W5b2T5YmN5LiK5LiL5paHCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGdldENvbnRleHQodGV4dDogQ2hhclNlcXVlbmNlLCBwb3NpdGlvbjogSW50KTogU3RyaW5nIHsKICAgICAgICBpZiAocG9zaXRpb24gPD0gMCkgcmV0dXJuICIiCiAgICAgICAgCiAgICAgICAgdmFyIHN0YXJ0ID0gcG9zaXRpb24gLSAxCiAgICAgICAgLy8g5ZCR5YmN5p+l5om+77yM55u05Yiw6YGH5Yiw56m65qC844CB5o2i6KGM5oiW6ICF5YiG5Y+3CiAgICAgICAgd2hpbGUgKHN0YXJ0ID49IDAgJiYgdGV4dFtzdGFydF0gIT0gJyAnICYmIHRleHRbc3RhcnRdICE9ICdcbicgJiYgdGV4dFtzdGFydF0gIT0gJzsnKSB7CiAgICAgICAgICAgIHN0YXJ0LS0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgcmV0dXJuIGlmIChzdGFydCA8IHBvc2l0aW9uIC0gMSkgewogICAgICAgICAgICB0ZXh0LnN1YlNlcXVlbmNlKHN0YXJ0ICsgMSwgcG9zaXRpb24pLnRvU3RyaW5nKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAiIgogICAgICAgIH0KICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIGdldFRyaWdnZXJDaGFyYWN0ZXJzKCk6IFNldDxDaGFyPiA9IHNldE9mKCcuJywgJygnLCAnOicpCiAgICAKICAgIC8qKgogICAgICog6YeN5YaZ5Y+Y6YeP5o+Q5Y+W5pa55rOV77yM6ZKI5a+5S290bGlu6K+t5rOVCiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biBleHRyYWN0VmFyaWFibGVzKHRleHQ6IFN0cmluZyk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgdmFsIHZhcmlhYmxlcyA9IG11dGFibGVMaXN0T2Y8U3RyaW5nPigpCiAgICAgICAgCiAgICAgICAgLy8gS290bGlu5Y+Y6YeP5aOw5piO5qih5byPOiB2YWwvdmFyIG5hbWU6IFR5cGUgPSB2YWx1ZQogICAgICAgIHZhbCB2YXJQYXR0ZXJuID0gIlxcYih2YWx8dmFyKVxccysoW2EtekEtWl9dW2EtekEtWjAtOV9dKikiLnRvUmVnZXgoKQogICAgICAgIHZhclBhdHRlcm4uZmluZEFsbCh0ZXh0KS5mb3JFYWNoIHsgbWF0Y2hSZXN1bHQgLT4KICAgICAgICAgICAgdmFsIHZhck5hbWUgPSBtYXRjaFJlc3VsdC5ncm91cFZhbHVlc1syXQogICAgICAgICAgICBpZiAodmFyTmFtZS5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHZhcmlhYmxlcy5hZGQodmFyTmFtZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDlh73mlbDlo7DmmI7mqKHlvI86IGZ1biBuYW1lKHBhcmFtcyk6IFJldHVyblR5cGUKICAgICAgICB2YWwgZnVuY1BhdHRlcm4gPSAiXFxiZnVuXFxzKyhbYS16QS1aX11bYS16QS1aMC05X10qKSIudG9SZWdleCgpCiAgICAgICAgZnVuY1BhdHRlcm4uZmluZEFsbCh0ZXh0KS5mb3JFYWNoIHsgbWF0Y2hSZXN1bHQgLT4KICAgICAgICAgICAgdmFsIGZ1bmNOYW1lID0gbWF0Y2hSZXN1bHQuZ3JvdXBWYWx1ZXNbMV0KICAgICAgICAgICAgaWYgKGZ1bmNOYW1lLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgdmFyaWFibGVzLmFkZChmdW5jTmFtZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDlh73mlbDlj4LmlbDmqKHlvI86IGZ1biBuYW1lKHBhcmFtMTogVHlwZSwgcGFyYW0yOiBUeXBlKQogICAgICAgIHZhbCBwYXJhbVBhdHRlcm4gPSAiXFxiZnVuXFxzKyg/OlthLXpBLVpfXVthLXpBLVowLTlfXSopP1xccypcXCgoW14pXSopXFwpIi50b1JlZ2V4KCkKICAgICAgICBwYXJhbVBhdHRlcm4uZmluZEFsbCh0ZXh0KS5mb3JFYWNoIHsgbWF0Y2hSZXN1bHQgLT4KICAgICAgICAgICAgdmFsIHBhcmFtc1RleHQgPSBtYXRjaFJlc3VsdC5ncm91cFZhbHVlc1sxXQogICAgICAgICAgICAvLyDliIblibLlj4LmlbDliJfooagKICAgICAgICAgICAgdmFsIHBhcmFtcyA9IHBhcmFtc1RleHQuc3BsaXQoIiwiKQogICAgICAgICAgICBwYXJhbXMuZm9yRWFjaCB7IHBhcmFtIC0+CiAgICAgICAgICAgICAgICB2YWwgdHJpbW1lZFBhcmFtID0gcGFyYW0udHJpbSgpCiAgICAgICAgICAgICAgICBpZiAodHJpbW1lZFBhcmFtLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICAgICAgICAgIC8vIOaPkOWPluWPguaVsOWQjSAocGFyYW06IFR5cGUg5Lit55qEIHBhcmFtKQogICAgICAgICAgICAgICAgICAgIHZhbCBwYXJhbU5hbWUgPSB0cmltbWVkUGFyYW0uc3BsaXQoIjoiKVswXS50cmltKCkKICAgICAgICAgICAgICAgICAgICBpZiAocGFyYW1OYW1lLm1hdGNoZXMoIlthLXpBLVpfXVthLXpBLVowLTlfXSoiLnRvUmVnZXgoKSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFibGVzLmFkZChwYXJhbU5hbWUpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOexu+WjsOaYjuaooeW8jzogY2xhc3MgTmFtZQogICAgICAgIHZhbCBjbGFzc1BhdHRlcm4gPSAiXFxiY2xhc3NcXHMrKFthLXpBLVpfXVthLXpBLVowLTlfXSopIi50b1JlZ2V4KCkKICAgICAgICBjbGFzc1BhdHRlcm4uZmluZEFsbCh0ZXh0KS5mb3JFYWNoIHsgbWF0Y2hSZXN1bHQgLT4KICAgICAgICAgICAgdmFsIGNsYXNzTmFtZSA9IG1hdGNoUmVzdWx0Lmdyb3VwVmFsdWVzWzFdCiAgICAgICAgICAgIGlmIChjbGFzc05hbWUuaXNOb3RFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICB2YXJpYWJsZXMuYWRkKGNsYXNzTmFtZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICByZXR1cm4gdmFyaWFibGVzCiAgICB9Cn0g
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.completion
+
+import com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language.LanguageFactory
+
+/**
+ * Kotlin补全提供器
+ */
+class KotlinCompletionProvider : DefaultCompletionProvider() {
+    // 获取Kotlin语言支持
+    private val languageSupport = LanguageFactory.getLanguageSupport("kotlin")
+    
+    // Kotlin常用API和方法
+    private val commonMethods = mapOf(
+        "list" to listOf("add", "remove", "size", "isEmpty", "contains", "forEach", "map", "filter", "first", "last"),
+        "string" to listOf("length", "isEmpty", "substring", "replace", "split", "trim", "toInt", "toLong", "toDouble")
+    )
+    
+    override fun getCompletionItems(text: CharSequence, position: Int): List<CompletionItem> {
+        // 获取前缀
+        val prefix = getPrefix(text, position)
+        
+        // 获取上下文，判断是否在对象方法调用场景
+        val context = getContext(text, position)
+        
+        return when {
+            // 对象方法调用场景
+            context.contains(".") -> {
+                val objectName = context.substringBefore(".").trim().lowercase()
+                val methodPrefix = context.substringAfter(".").trim()
+                
+                // 根据对象名获取可能的方法列表
+                val methods = commonMethods[objectName] ?: return emptyList()
+                
+                // 过滤符合前缀的方法
+                methods.filter { it.startsWith(methodPrefix) }
+                    .map { 
+                        CompletionItem(
+                            label = it,
+                            insertText = it,
+                            kind = CompletionItemKind.METHOD
+                        )
+                    }
+            }
+            
+            // 普通补全场景
+            prefix.isNotEmpty() -> {
+                // 获取所有可能的补全项
+                val completions = mutableListOf<CompletionItem>()
+                
+                // 添加关键字
+                languageSupport?.getKeywords()?.filter { it.startsWith(prefix) }?.forEach {
+                    completions.add(CompletionItem(
+                        label = it,
+                        insertText = it,
+                        kind = CompletionItemKind.KEYWORD
+                    ))
+                }
+                
+                // 添加常见代码片段
+                if ("fun".startsWith(prefix)) {
+                    completions.add(CompletionItem(
+                        label = "fun",
+                        insertText = "fun ${1}(${2}) {\n  ${3}\n}",
+                        kind = CompletionItemKind.SNIPPET
+                    ))
+                }
+                
+                if ("if".startsWith(prefix)) {
+                    completions.add(CompletionItem(
+                        label = "if",
+                        insertText = "if (${1}) {\n  ${2}\n}",
+                        kind = CompletionItemKind.SNIPPET
+                    ))
+                }
+                
+                // 添加从文件中提取的变量
+                val variables = extractVariables(text.toString())
+                variables.filter { it.startsWith(prefix) }.forEach {
+                    completions.add(CompletionItem(
+                        label = it,
+                        insertText = it,
+                        kind = CompletionItemKind.VARIABLE
+                    ))
+                }
+                
+                completions
+            }
+            
+            else -> emptyList()
+        }
+    }
+    
+    /**
+     * 获取当前上下文
+     */
+    private fun getContext(text: CharSequence, position: Int): String {
+        if (position <= 0) return ""
+        
+        var start = position - 1
+        // 向前查找，直到遇到空格、换行或者分号
+        while (start >= 0 && text[start] != ' ' && text[start] != '\n' && text[start] != ';') {
+            start--
+        }
+        
+        return if (start < position - 1) {
+            text.subSequence(start + 1, position).toString()
+        } else {
+            ""
+        }
+    }
+    
+    override fun getTriggerCharacters(): Set<Char> = setOf('.', '(', ':')
+    
+    /**
+     * 重写变量提取方法，针对Kotlin语法
+     */
+    override fun extractVariables(text: String): List<String> {
+        val variables = mutableListOf<String>()
+        
+        // Kotlin变量声明模式: val/var name: Type = value
+        val varPattern = "\\b(val|var)\\s+([a-zA-Z_][a-zA-Z0-9_]*)".toRegex()
+        varPattern.findAll(text).forEach { matchResult ->
+            val varName = matchResult.groupValues[2]
+            if (varName.isNotEmpty()) {
+                variables.add(varName)
+            }
+        }
+        
+        // 函数声明模式: fun name(params): ReturnType
+        val funcPattern = "\\bfun\\s+([a-zA-Z_][a-zA-Z0-9_]*)".toRegex()
+        funcPattern.findAll(text).forEach { matchResult ->
+            val funcName = matchResult.groupValues[1]
+            if (funcName.isNotEmpty()) {
+                variables.add(funcName)
+            }
+        }
+        
+        // 函数参数模式: fun name(param1: Type, param2: Type)
+        val paramPattern = "\\bfun\\s+(?:[a-zA-Z_][a-zA-Z0-9_]*)?\\s*\\(([^)]*)\\)".toRegex()
+        paramPattern.findAll(text).forEach { matchResult ->
+            val paramsText = matchResult.groupValues[1]
+            // 分割参数列表
+            val params = paramsText.split(",")
+            params.forEach { param ->
+                val trimmedParam = param.trim()
+                if (trimmedParam.isNotEmpty()) {
+                    // 提取参数名 (param: Type 中的 param)
+                    val paramName = trimmedParam.split(":")[0].trim()
+                    if (paramName.matches("[a-zA-Z_][a-zA-Z0-9_]*".toRegex())) {
+                        variables.add(paramName)
+                    }
+                }
+            }
+        }
+        
+        // 类声明模式: class Name
+        val classPattern = "\\bclass\\s+([a-zA-Z_][a-zA-Z0-9_]*)".toRegex()
+        classPattern.findAll(text).forEach { matchResult ->
+            val className = matchResult.groupValues[1]
+            if (className.isNotEmpty()) {
+                variables.add(className)
+            }
+        }
+        
+        return variables
+    }
+} 

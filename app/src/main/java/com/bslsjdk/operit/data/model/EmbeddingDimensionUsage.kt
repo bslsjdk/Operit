@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKZGF0YSBjbGFzcyBEaW1lbnNpb25Db3VudCgKICAgIHZhbCBkaW1lbnNpb246IEludCwKICAgIHZhbCBjb3VudDogSW50CikKCmRhdGEgY2xhc3MgRW1iZWRkaW5nRGltZW5zaW9uVXNhZ2UoCiAgICB2YWwgbWVtb3J5VG90YWw6IEludCA9IDAsCiAgICB2YWwgbWVtb3J5TWlzc2luZzogSW50ID0gMCwKICAgIHZhbCBtZW1vcnlEaW1lbnNpb25zOiBMaXN0PERpbWVuc2lvbkNvdW50PiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGNodW5rVG90YWw6IEludCA9IDAsCiAgICB2YWwgY2h1bmtNaXNzaW5nOiBJbnQgPSAwLAogICAgdmFsIGNodW5rRGltZW5zaW9uczogTGlzdDxEaW1lbnNpb25Db3VudD4gPSBlbXB0eUxpc3QoKQopCgpkYXRhIGNsYXNzIEVtYmVkZGluZ1JlYnVpbGRQcm9ncmVzcygKICAgIHZhbCB0b3RhbDogSW50ID0gMCwKICAgIHZhbCBwcm9jZXNzZWQ6IEludCA9IDAsCiAgICB2YWwgZmFpbGVkOiBJbnQgPSAwLAogICAgdmFsIGN1cnJlbnRTdGFnZTogU3RyaW5nID0gIiIKKSB7CiAgICB2YWwgZnJhY3Rpb246IEZsb2F0CiAgICAgICAgZ2V0KCkgPSBpZiAodG90YWwgPD0gMCkgMGYgZWxzZSBwcm9jZXNzZWQudG9GbG9hdCgpIC8gdG90YWwudG9GbG9hdCgpCgogICAgdmFsIGlzRmluaXNoZWQ6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHRvdGFsID4gMCAmJiBwcm9jZXNzZWQgPj0gdG90YWwKfQo=
+package com.bslsjdk.operit.data.model
+
+data class DimensionCount(
+    val dimension: Int,
+    val count: Int
+)
+
+data class EmbeddingDimensionUsage(
+    val memoryTotal: Int = 0,
+    val memoryMissing: Int = 0,
+    val memoryDimensions: List<DimensionCount> = emptyList(),
+    val chunkTotal: Int = 0,
+    val chunkMissing: Int = 0,
+    val chunkDimensions: List<DimensionCount> = emptyList()
+)
+
+data class EmbeddingRebuildProgress(
+    val total: Int = 0,
+    val processed: Int = 0,
+    val failed: Int = 0,
+    val currentStage: String = ""
+) {
+    val fraction: Float
+        get() = if (total <= 0) 0f else processed.toFloat() / total.toFloat()
+
+    val isFinished: Boolean
+        get() = total > 0 && processed >= total
+}

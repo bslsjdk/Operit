@@ -1,1 +1,32 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc3RhcnR1cC5zY3JlZW5zCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnN0YXRpY0NvbXBvc2l0aW9uTG9jYWxPZgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCgp2YWwgTG9jYWxQbHVnaW5Mb2FkaW5nU3RhdGUgPSBzdGF0aWNDb21wb3NpdGlvbkxvY2FsT2Y8UGx1Z2luTG9hZGluZ1N0YXRlPiB7CiAgICBlcnJvcigiTG9jYWxQbHVnaW5Mb2FkaW5nU3RhdGUgbm90IHByb3ZpZGVkIikKfQoKb2JqZWN0IFBsdWdpbkxvYWRpbmdTdGF0ZVJlZ2lzdHJ5IHsKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgYWN0aXZlU3RhdGU6IFBsdWdpbkxvYWRpbmdTdGF0ZT8gPSBudWxsCgogICAgQFZvbGF0aWxlCiAgICBwcml2YXRlIHZhciBhY3RpdmVTY29wZTogQ29yb3V0aW5lU2NvcGU/ID0gbnVsbAoKICAgIGZ1biBiaW5kKHN0YXRlOiBQbHVnaW5Mb2FkaW5nU3RhdGUsIHNjb3BlOiBDb3JvdXRpbmVTY29wZSkgewogICAgICAgIGFjdGl2ZVN0YXRlID0gc3RhdGUKICAgICAgICBhY3RpdmVTY29wZSA9IHNjb3BlCiAgICB9CgogICAgZnVuIHVuYmluZChzdGF0ZTogUGx1Z2luTG9hZGluZ1N0YXRlKSB7CiAgICAgICAgaWYgKGFjdGl2ZVN0YXRlID09PSBzdGF0ZSkgewogICAgICAgICAgICBhY3RpdmVTdGF0ZSA9IG51bGwKICAgICAgICAgICAgYWN0aXZlU2NvcGUgPSBudWxsCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBnZXRTdGF0ZSgpOiBQbHVnaW5Mb2FkaW5nU3RhdGU/ID0gYWN0aXZlU3RhdGUKCiAgICBmdW4gZ2V0U2NvcGUoKTogQ29yb3V0aW5lU2NvcGU/ID0gYWN0aXZlU2NvcGUKfQo=
+package com.bslsjdk.operit.ui.features.startup.screens
+
+import androidx.compose.runtime.staticCompositionLocalOf
+import kotlinx.coroutines.CoroutineScope
+
+val LocalPluginLoadingState = staticCompositionLocalOf<PluginLoadingState> {
+    error("LocalPluginLoadingState not provided")
+}
+
+object PluginLoadingStateRegistry {
+    @Volatile
+    private var activeState: PluginLoadingState? = null
+
+    @Volatile
+    private var activeScope: CoroutineScope? = null
+
+    fun bind(state: PluginLoadingState, scope: CoroutineScope) {
+        activeState = state
+        activeScope = scope
+    }
+
+    fun unbind(state: PluginLoadingState) {
+        if (activeState === state) {
+            activeState = null
+            activeScope = null
+        }
+    }
+
+    fun getState(): PluginLoadingState? = activeState
+
+    fun getScope(): CoroutineScope? = activeScope
+}

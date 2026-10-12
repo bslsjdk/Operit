@@ -1,1 +1,37 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlRvb2xSZXN1bHREYXRhCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uQ29udGV4dHVhbAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQoKLyoqIFJlcHJlc2VudHMgYSB0b29sIHBhcmFtZXRlciBpbiBhbiBBSSB0b29sICovCkBTZXJpYWxpemFibGUgZGF0YSBjbGFzcyBUb29sUGFyYW1ldGVyKHZhbCBuYW1lOiBTdHJpbmcsIHZhbCB2YWx1ZTogU3RyaW5nKQoKLyoqIFJlcHJlc2VudHMgYSB0b29sIHRoYXQgY2FuIGJlIHVzZWQgYnkgdGhlIEFJICovCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBBSVRvb2woCiAgICAgICAgdmFsIG5hbWU6IFN0cmluZywKICAgICAgICB2YWwgcGFyYW1ldGVyczogTGlzdDxUb29sUGFyYW1ldGVyPiA9IGVtcHR5TGlzdCgpLAogICAgICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nID0gIiIKKQoKLyoqIFJlcHJlc2VudHMgYW4gaW52b2NhdGlvbiBvZiBhIHRvb2wgaW4gdGhlIEFJJ3MgcmVzcG9uc2UgKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFRvb2xJbnZvY2F0aW9uKAogICAgICAgIHZhbCB0b29sOiBBSVRvb2wsCiAgICAgICAgdmFsIHJhd1RleHQ6IFN0cmluZywKICAgICAgICBAQ29udGV4dHVhbAogICAgICAgIHZhbCByZXNwb25zZUxvY2F0aW9uOiBJbnRSYW5nZSAvLyBXaGVyZSBpbiB0aGUgcmVzcG9uc2UgdGhpcyB0b29sIGludm9jYXRpb24gd2FzIGZvdW5kCikKCi8qKiBSZXByZXNlbnRzIHRoZSByZXN1bHQgb2YgYSB0b29sIGV4ZWN1dGlvbiAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgVG9vbFJlc3VsdCgKICAgICAgICB2YWwgdG9vbE5hbWU6IFN0cmluZywKICAgICAgICB2YWwgc3VjY2VzczogQm9vbGVhbiwKICAgICAgICB2YWwgcmVzdWx0OiBUb29sUmVzdWx0RGF0YSwKICAgICAgICB2YWwgZXJyb3I6IFN0cmluZz8gPSBudWxsCikKCi8qKiBSZXByZXNlbnRzIHRoZSB2YWxpZGF0aW9uIHJlc3VsdCBmb3IgdG9vbCBwYXJhbWV0ZXJzICovCkBTZXJpYWxpemFibGUgZGF0YSBjbGFzcyBUb29sVmFsaWRhdGlvblJlc3VsdCh2YWwgdmFsaWQ6IEJvb2xlYW4sIHZhbCBlcnJvck1lc3NhZ2U6IFN0cmluZyA9ICIiKQo=
+package com.bslsjdk.operit.data.model
+
+import com.bslsjdk.operit.core.tools.ToolResultData
+import kotlinx.serialization.Contextual
+import kotlinx.serialization.Serializable
+
+/** Represents a tool parameter in an AI tool */
+@Serializable data class ToolParameter(val name: String, val value: String)
+
+/** Represents a tool that can be used by the AI */
+@Serializable
+data class AITool(
+        val name: String,
+        val parameters: List<ToolParameter> = emptyList(),
+        val description: String = ""
+)
+
+/** Represents an invocation of a tool in the AI's response */
+@Serializable
+data class ToolInvocation(
+        val tool: AITool,
+        val rawText: String,
+        @Contextual
+        val responseLocation: IntRange // Where in the response this tool invocation was found
+)
+
+/** Represents the result of a tool execution */
+@Serializable
+data class ToolResult(
+        val toolName: String,
+        val success: Boolean,
+        val result: ToolResultData,
+        val error: String? = null
+)
+
+/** Represents the validation result for tool parameters */
+@Serializable data class ToolValidationResult(val valid: Boolean, val errorMessage: String = "")

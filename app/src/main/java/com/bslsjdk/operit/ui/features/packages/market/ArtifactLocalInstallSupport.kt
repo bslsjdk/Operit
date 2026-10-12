@@ -1,1 +1,267 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlBhY2thZ2VNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuQXJ0aWZhY3RQcm9qZWN0VmVyc2lvblJlc3BvbnNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0VjJFbnRyeQppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLm5ldC5IdHRwVVJMQ29ubmVjdGlvbgppbXBvcnQgamF2YS5uZXQuVVJMCmltcG9ydCBqYXZhLnNlY3VyaXR5Lk1lc3NhZ2VEaWdlc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CgpkYXRhIGNsYXNzIExvY2FsSW5zdGFsbGVkQXJ0aWZhY3RTbmFwc2hvdCgKICAgIHZhbCBwYWNrYWdlTmFtZTogU3RyaW5nLAogICAgdmFsIHNoYTI1NjogU3RyaW5nLAogICAgdmFsIGlzQnVpbHRJbjogQm9vbGVhbgopCgplbnVtIGNsYXNzIExvY2FsQXJ0aWZhY3RJbnN0YWxsU3RhdGVLaW5kIHsKICAgIE5PVF9JTlNUQUxMRUQsCiAgICBFWEFDVF9JTlNUQUxMRUQsCiAgICBTQU1FX1BST0pFQ1RfVkFSSUFOVF9JTlNUQUxMRUQsCiAgICBOQU1FX0NPTkZMSUNULAogICAgQlVJTFRfSU5fQ09ORkxJQ1QKfQoKZGF0YSBjbGFzcyBMb2NhbEFydGlmYWN0SW5zdGFsbFN0YXRlKAogICAgdmFsIGtpbmQ6IExvY2FsQXJ0aWZhY3RJbnN0YWxsU3RhdGVLaW5kLAogICAgdmFsIHNuYXBzaG90OiBMb2NhbEluc3RhbGxlZEFydGlmYWN0U25hcHNob3Q/ID0gbnVsbAopCgpmdW4gYXJ0aWZhY3RSdW50aW1lUGFja2FnZUlkcyhlbnRyaWVzOiBMaXN0PE1hcmtldFYyRW50cnk+KTogU2V0PFN0cmluZz4gewogICAgcmV0dXJuIGVudHJpZXMKICAgICAgICAuZmlsdGVyIHsgZW50cnkgLT4gZW50cnkudHlwZS5sb3dlcmNhc2UoKSA9PSAic2NyaXB0IiB8fCBlbnRyeS50eXBlLmxvd2VyY2FzZSgpID09ICJwYWNrYWdlIiB9CiAgICAgICAgLm1hcCB7IGVudHJ5IC0+CiAgICAgICAgICAgIHZhbCBjdXJyZW50VmVyc2lvbiA9IGVudHJ5LmxhdGVzdFZlcnNpb24gPzogZXJyb3IoIkVudHJ5IGxhdGVzdFZlcnNpb24gaXMgbWlzc2luZzogJHtlbnRyeS5pZH0iKQogICAgICAgICAgICBjdXJyZW50VmVyc2lvbi5ydW50aW1lUGFja2FnZUlkLmlmQmxhbmsgeyBlcnJvcigiQXJ0aWZhY3QgcnVudGltZSBwYWNrYWdlIGlkIG5vdCBmb3VuZCBmb3IgdmVyc2lvbjogJHtjdXJyZW50VmVyc2lvbi5pZH0iKSB9CiAgICAgICAgfQogICAgICAgIC50b1NldCgpCn0KCmZ1biBQYWNrYWdlTWFuYWdlci5nZXRJbnN0YWxsZWRBcnRpZmFjdFNuYXBzaG90cygKICAgIHBhY2thZ2VOYW1lczogQ29sbGVjdGlvbjxTdHJpbmc+PyA9IG51bGwKKTogTWFwPFN0cmluZywgTG9jYWxJbnN0YWxsZWRBcnRpZmFjdFNuYXBzaG90PiB7CiAgICB2YWwgdGFyZ2V0UGFja2FnZU5hbWVzID0gcGFja2FnZU5hbWVzPy5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgfT8udG9TZXQoKQogICAgdmFsIHB1Ymxpc2hhYmxlU291cmNlc0J5TmFtZSA9CiAgICAgICAgZ2V0UHVibGlzaGFibGVQYWNrYWdlU291cmNlcygpLmFzc29jaWF0ZUJ5IHsgc291cmNlIC0+IHNvdXJjZS5wYWNrYWdlTmFtZSB9CgogICAgcmV0dXJuIGdldFRvcExldmVsQXZhaWxhYmxlUGFja2FnZXMoKQogICAgICAgIC5maWx0ZXJLZXlzIHsgcGFja2FnZU5hbWUgLT4KICAgICAgICAgICAgdGFyZ2V0UGFja2FnZU5hbWVzID09IG51bGwgfHwgdGFyZ2V0UGFja2FnZU5hbWVzLmFueSB7IHNhbWVBcnRpZmFjdFJ1bnRpbWVQYWNrYWdlSWQocGFja2FnZU5hbWUsIGl0KSB9CiAgICAgICAgfQogICAgICAgIC5tYXBWYWx1ZXMgeyAocGFja2FnZU5hbWUsIHRvb2xQYWNrYWdlKSAtPgogICAgICAgICAgICB2YWwgc291cmNlRmlsZSA9CiAgICAgICAgICAgICAgICBwdWJsaXNoYWJsZVNvdXJjZXNCeU5hbWVbcGFja2FnZU5hbWVdCiAgICAgICAgICAgICAgICAgICAgPy5zb3VyY2VQYXRoCiAgICAgICAgICAgICAgICAgICAgPy5sZXQoOjpGaWxlKQogICAgICAgICAgICBMb2NhbEluc3RhbGxlZEFydGlmYWN0U25hcHNob3QoCiAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZSA9IHBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgLy8gQnVpbHQtaW4gcGFja2FnZXMgZG8gbm90IGFsd2F5cyBoYXZlIGEgc3RhYmxlIGV4dGVybmFsIHNvdXJjZSBmaWxlIHBhdGguCiAgICAgICAgICAgICAgICBzaGEyNTYgPQogICAgICAgICAgICAgICAgICAgIGlmIChzb3VyY2VGaWxlICE9IG51bGwgJiYgc291cmNlRmlsZS5leGlzdHMoKSAmJiBzb3VyY2VGaWxlLmlzRmlsZSkgewogICAgICAgICAgICAgICAgICAgICAgICBzaGEyNTZIZXgoc291cmNlRmlsZSkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAiIgogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBpc0J1aWx0SW4gPSB0b29sUGFja2FnZS5pc0J1aWx0SW4KICAgICAgICAgICAgKQogICAgICAgIH0KfQoKcHJpdmF0ZSBmdW4gZmluZEluc3RhbGxlZEFydGlmYWN0U25hcHNob3QoCiAgICBpbnN0YWxsZWRTbmFwc2hvdHM6IE1hcDxTdHJpbmcsIExvY2FsSW5zdGFsbGVkQXJ0aWZhY3RTbmFwc2hvdD4sCiAgICBwYWNrYWdlTmFtZTogU3RyaW5nCik6IExvY2FsSW5zdGFsbGVkQXJ0aWZhY3RTbmFwc2hvdD8gewogICAgdmFsIHRyaW1tZWRQYWNrYWdlTmFtZSA9IHBhY2thZ2VOYW1lLnRyaW0oKQogICAgaWYgKHRyaW1tZWRQYWNrYWdlTmFtZS5pc0JsYW5rKCkpIHsKICAgICAgICByZXR1cm4gbnVsbAogICAgfQoKICAgIGluc3RhbGxlZFNuYXBzaG90c1t0cmltbWVkUGFja2FnZU5hbWVdPy5sZXQgeyByZXR1cm4gaXQgfQoKICAgIHJldHVybiBpbnN0YWxsZWRTbmFwc2hvdHMudmFsdWVzLmZpcnN0T3JOdWxsIHsgc25hcHNob3QgLT4KICAgICAgICBzYW1lQXJ0aWZhY3RSdW50aW1lUGFja2FnZUlkKHNuYXBzaG90LnBhY2thZ2VOYW1lLCB0cmltbWVkUGFja2FnZU5hbWUpCiAgICB9Cn0KCmZ1biByZXNvbHZlTG9jYWxBcnRpZmFjdEluc3RhbGxTdGF0ZSgKICAgIGluc3RhbGxlZFNuYXBzaG90czogTWFwPFN0cmluZywgTG9jYWxJbnN0YWxsZWRBcnRpZmFjdFNuYXBzaG90PiwKICAgIHBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICB0YXJnZXRTaGEyNTY6IFN0cmluZywKICAgIHByb2plY3ROb2RlU2hhMjU2czogQ29sbGVjdGlvbjxTdHJpbmc+Cik6IExvY2FsQXJ0aWZhY3RJbnN0YWxsU3RhdGUgewogICAgdmFsIGluc3RhbGxlZCA9CiAgICAgICAgZmluZEluc3RhbGxlZEFydGlmYWN0U25hcHNob3QoCiAgICAgICAgICAgIGluc3RhbGxlZFNuYXBzaG90cyA9IGluc3RhbGxlZFNuYXBzaG90cywKICAgICAgICAgICAgcGFja2FnZU5hbWUgPSBwYWNrYWdlTmFtZQogICAgICAgICkgPzogcmV0dXJuIExvY2FsQXJ0aWZhY3RJbnN0YWxsU3RhdGUoTG9jYWxBcnRpZmFjdEluc3RhbGxTdGF0ZUtpbmQuTk9UX0lOU1RBTExFRCkKICAgIHZhbCBub3JtYWxpemVkSW5zdGFsbGVkU2hhID0gaW5zdGFsbGVkLnNoYTI1Ni50cmltKCkubG93ZXJjYXNlKCkKICAgIHZhbCBub3JtYWxpemVkVGFyZ2V0U2hhID0gdGFyZ2V0U2hhMjU2LnRyaW0oKS5sb3dlcmNhc2UoKQogICAgaWYgKG5vcm1hbGl6ZWRJbnN0YWxsZWRTaGEuaXNOb3RCbGFuaygpICYmIG5vcm1hbGl6ZWRJbnN0YWxsZWRTaGEgPT0gbm9ybWFsaXplZFRhcmdldFNoYSkgewogICAgICAgIHJldHVybiBMb2NhbEFydGlmYWN0SW5zdGFsbFN0YXRlKAogICAgICAgICAgICBraW5kID0gTG9jYWxBcnRpZmFjdEluc3RhbGxTdGF0ZUtpbmQuRVhBQ1RfSU5TVEFMTEVELAogICAgICAgICAgICBzbmFwc2hvdCA9IGluc3RhbGxlZAogICAgICAgICkKICAgIH0KICAgIGlmIChpbnN0YWxsZWQuaXNCdWlsdEluKSB7CiAgICAgICAgcmV0dXJuIExvY2FsQXJ0aWZhY3RJbnN0YWxsU3RhdGUoCiAgICAgICAgICAgIGtpbmQgPSBMb2NhbEFydGlmYWN0SW5zdGFsbFN0YXRlS2luZC5CVUlMVF9JTl9DT05GTElDVCwKICAgICAgICAgICAgc25hcHNob3QgPSBpbnN0YWxsZWQKICAgICAgICApCiAgICB9CgogICAgdmFsIHByb2plY3RIYXNoZXMgPQogICAgICAgIHByb2plY3ROb2RlU2hhMjU2cwogICAgICAgICAgICAubWFwIHsgaXQudHJpbSgpLmxvd2VyY2FzZSgpIH0KICAgICAgICAgICAgLmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgIC50b1NldCgpCgogICAgcmV0dXJuIGlmIChub3JtYWxpemVkSW5zdGFsbGVkU2hhLmlzTm90QmxhbmsoKSAmJiBub3JtYWxpemVkSW5zdGFsbGVkU2hhIGluIHByb2plY3RIYXNoZXMpIHsKICAgICAgICBMb2NhbEFydGlmYWN0SW5zdGFsbFN0YXRlKAogICAgICAgICAgICBraW5kID0gTG9jYWxBcnRpZmFjdEluc3RhbGxTdGF0ZUtpbmQuU0FNRV9QUk9KRUNUX1ZBUklBTlRfSU5TVEFMTEVELAogICAgICAgICAgICBzbmFwc2hvdCA9IGluc3RhbGxlZAogICAgICAgICkKICAgIH0gZWxzZSB7CiAgICAgICAgTG9jYWxBcnRpZmFjdEluc3RhbGxTdGF0ZSgKICAgICAgICAgICAga2luZCA9IExvY2FsQXJ0aWZhY3RJbnN0YWxsU3RhdGVLaW5kLk5BTUVfQ09ORkxJQ1QsCiAgICAgICAgICAgIHNuYXBzaG90ID0gaW5zdGFsbGVkCiAgICAgICAgKQogICAgfQp9CgpzdXNwZW5kIGZ1biBpbnN0YWxsQXJ0aWZhY3RQcm9qZWN0VmVyc2lvbigKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICBwYWNrYWdlTWFuYWdlcjogUGFja2FnZU1hbmFnZXIsCiAgICBwcm9qZWN0VmVyc2lvbnM6IExpc3Q8QXJ0aWZhY3RQcm9qZWN0VmVyc2lvblJlc3BvbnNlPiwKICAgIHZlcnNpb246IEFydGlmYWN0UHJvamVjdFZlcnNpb25SZXNwb25zZSwKICAgIG9uUHJvZ3Jlc3M6IE1hcmtldEluc3RhbGxQcm9ncmVzc1JlcG9ydGVyID0geyBfLCBfIC0+IH0KKSB7CiAgICBvblByb2dyZXNzKE1hcmtldEluc3RhbGxTdGFnZS5DSEVDS0lOR19MT0NBTCwgbnVsbCkKICAgIHZhbCBpbnN0YWxsZWRTbmFwc2hvdHMgPQogICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHBhY2thZ2VNYW5hZ2VyLmdldEluc3RhbGxlZEFydGlmYWN0U25hcHNob3RzKCkKICAgICAgICB9CiAgICB2YWwgaW5zdGFsbFN0YXRlID0KICAgICAgICByZXNvbHZlTG9jYWxBcnRpZmFjdEluc3RhbGxTdGF0ZSgKICAgICAgICAgICAgaW5zdGFsbGVkU25hcHNob3RzID0gaW5zdGFsbGVkU25hcHNob3RzLAogICAgICAgICAgICBwYWNrYWdlTmFtZSA9IHZlcnNpb24ucnVudGltZVBhY2thZ2VJZCwKICAgICAgICAgICAgdGFyZ2V0U2hhMjU2ID0gdmVyc2lvbi5zaGEyNTYsCiAgICAgICAgICAgIHByb2plY3ROb2RlU2hhMjU2cyA9CiAgICAgICAgICAgICAgICBwcm9qZWN0VmVyc2lvbnMKICAgICAgICAgICAgICAgICAgICAuZmlsdGVyIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2FtZUFydGlmYWN0UnVudGltZVBhY2thZ2VJZChpdC5ydW50aW1lUGFja2FnZUlkLCB2ZXJzaW9uLnJ1bnRpbWVQYWNrYWdlSWQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIC5tYXAgeyBpdC5zaGEyNTYgfQogICAgICAgICkKCiAgICB3aGVuIChpbnN0YWxsU3RhdGUua2luZCkgewogICAgICAgIExvY2FsQXJ0aWZhY3RJbnN0YWxsU3RhdGVLaW5kLkVYQUNUX0lOU1RBTExFRCAtPiByZXR1cm4KICAgICAgICBMb2NhbEFydGlmYWN0SW5zdGFsbFN0YXRlS2luZC5CVUlMVF9JTl9DT05GTElDVCAtPgogICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIuacrOWcsOW3suWuieijheWQjOWQjeWGhee9ruaPkuS7tiBgJHt2ZXJzaW9uLnJ1bnRpbWVQYWNrYWdlSWR9YO+8jOS4jeiDveebtOaOpeimhuebluOAgiIpCiAgICAgICAgTG9jYWxBcnRpZmFjdEluc3RhbGxTdGF0ZUtpbmQuTkFNRV9DT05GTElDVCwKICAgICAgICBMb2NhbEFydGlmYWN0SW5zdGFsbFN0YXRlS2luZC5OT1RfSU5TVEFMTEVELAogICAgICAgIExvY2FsQXJ0aWZhY3RJbnN0YWxsU3RhdGVLaW5kLlNBTUVfUFJPSkVDVF9WQVJJQU5UX0lOU1RBTExFRCAtPiBVbml0CiAgICB9CgogICAgdmFsIHRlbXBGaWxlID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsgZG93bmxvYWRBcnRpZmFjdFByb2plY3RWZXJzaW9uVG9UZW1wRmlsZShjb250ZXh0LCB2ZXJzaW9uLCBvblByb2dyZXNzKSB9CiAgICB0cnkgewogICAgICAgIG9uUHJvZ3Jlc3MoTWFya2V0SW5zdGFsbFN0YWdlLklOU1RBTExJTkcsIG51bGwpCiAgICAgICAgaWYgKAogICAgICAgICAgICBpbnN0YWxsU3RhdGUua2luZCA9PSBMb2NhbEFydGlmYWN0SW5zdGFsbFN0YXRlS2luZC5TQU1FX1BST0pFQ1RfVkFSSUFOVF9JTlNUQUxMRUQgfHwKICAgICAgICAgICAgaW5zdGFsbFN0YXRlLmtpbmQgPT0gTG9jYWxBcnRpZmFjdEluc3RhbGxTdGF0ZUtpbmQuTkFNRV9DT05GTElDVAogICAgICAgICkgewogICAgICAgICAgICB2YWwgaW5zdGFsbGVkUGFja2FnZU5hbWUgPSBpbnN0YWxsU3RhdGUuc25hcHNob3Q/LnBhY2thZ2VOYW1lID86IHZlcnNpb24ucnVudGltZVBhY2thZ2VJZAogICAgICAgICAgICB2YWwgZGVsZXRlZCA9CiAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgICAgIHBhY2thZ2VNYW5hZ2VyLmRlbGV0ZVBhY2thZ2UoaW5zdGFsbGVkUGFja2FnZU5hbWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICghZGVsZXRlZCkgewogICAgICAgICAgICAgICAgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCLmm7/mjaLlt7Llronoo4Xmj5Lku7YgYCR7aW5zdGFsbGVkUGFja2FnZU5hbWV9YCDlpLHotKXjgIIiKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHZhbCBpbXBvcnRSZXN1bHQgPQogICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgcGFja2FnZU1hbmFnZXIuYWRkUGFja2FnZUZpbGVGcm9tRXh0ZXJuYWxTdG9yYWdlKHRlbXBGaWxlLmFic29sdXRlUGF0aCkKICAgICAgICAgICAgfQogICAgICAgIGlmICghaW1wb3J0UmVzdWx0Lm1lc3NhZ2Uuc3RhcnRzV2l0aCgiU3VjY2Vzc2Z1bGx5IGltcG9ydGVkIiwgaWdub3JlQ2FzZSA9IHRydWUpKSB7CiAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihpbXBvcnRSZXN1bHQubWVzc2FnZSkKICAgICAgICB9CiAgICB9IGZpbmFsbHkgewogICAgICAgIGlmICh0ZW1wRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICB0ZW1wRmlsZS5kZWxldGUoKQogICAgICAgIH0KICAgIH0KfQoKcHJpdmF0ZSBmdW4gZG93bmxvYWRBcnRpZmFjdFByb2plY3RWZXJzaW9uVG9UZW1wRmlsZSgKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICB2ZXJzaW9uOiBBcnRpZmFjdFByb2plY3RWZXJzaW9uUmVzcG9uc2UsCiAgICBvblByb2dyZXNzOiBNYXJrZXRJbnN0YWxsUHJvZ3Jlc3NSZXBvcnRlcgopOiBGaWxlIHsKICAgIHZhbCBkb3dubG9hZFVybCA9IHZlcnNpb24uZG93bmxvYWRVcmwudHJpbSgpLmlmQmxhbmsgeyB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIk1pc3NpbmcgdjIgYXNzZXQgZG93bmxvYWQgVVJMIikgfQogICAgdmFsIGRvd25sb2FkRGlyID0gRmlsZShjb250ZXh0LmNhY2hlRGlyLCAibWFya2V0X2Rvd25sb2FkcyIpCiAgICBpZiAoIWRvd25sb2FkRGlyLmV4aXN0cygpICYmICFkb3dubG9hZERpci5ta2RpcnMoKSkgewogICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiRmFpbGVkIHRvIGNyZWF0ZSBtYXJrZXQgZG93bmxvYWQgY2FjaGUiKQogICAgfQoKICAgIHZhbCB0YXJnZXRGaWxlID0gRmlsZShkb3dubG9hZERpciwgdmVyc2lvbi5hc3NldE5hbWUuaWZCbGFuayB7ICIke3ZlcnNpb24ucnVudGltZVBhY2thZ2VJZH0uYmluIiB9KQogICAgdmFsIGNvbm5lY3Rpb24gPSBVUkwoZG93bmxvYWRVcmwpLm9wZW5Db25uZWN0aW9uKCkgYXMgSHR0cFVSTENvbm5lY3Rpb24KICAgIGNvbm5lY3Rpb24uaW5zdGFuY2VGb2xsb3dSZWRpcmVjdHMgPSB0cnVlCiAgICBjb25uZWN0aW9uLmNvbm5lY3RUaW1lb3V0ID0gMzBfMDAwCiAgICBjb25uZWN0aW9uLnJlYWRUaW1lb3V0ID0gNjBfMDAwCiAgICBjb25uZWN0aW9uLnJlcXVlc3RNZXRob2QgPSAiR0VUIgoKICAgIHRyeSB7CiAgICAgICAgb25Qcm9ncmVzcyhNYXJrZXRJbnN0YWxsU3RhZ2UuQ09OTkVDVElORywgbnVsbCkKICAgICAgICBjb25uZWN0aW9uLmNvbm5lY3QoKQogICAgICAgIHZhbCBjb2RlID0gY29ubmVjdGlvbi5yZXNwb25zZUNvZGUKICAgICAgICBpZiAoY29kZSAhaW4gMjAwLi4yOTkpIHsKICAgICAgICAgICAgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKCJEb3dubG9hZCBmYWlsZWQ6IEhUVFAgJGNvZGUiKQogICAgICAgIH0KCiAgICAgICAgdmFsIHRvdGFsQnl0ZXMgPSBjb25uZWN0aW9uLmNvbnRlbnRMZW5ndGhMb25nCiAgICAgICAgdmFyIGRvd25sb2FkZWRCeXRlcyA9IDBMCiAgICAgICAgdmFsIGlucHV0U3RyZWFtID0gY29ubmVjdGlvbi5pbnB1dFN0cmVhbSA/OiB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkVtcHR5IGRvd25sb2FkIHN0cmVhbSIpCiAgICAgICAgaW5wdXRTdHJlYW0udXNlIHsgaW5wdXQgLT4KICAgICAgICAgICAgdGFyZ2V0RmlsZS5vdXRwdXRTdHJlYW0oKS51c2UgeyBvdXRwdXQgLT4KICAgICAgICAgICAgICAgIHZhbCBidWZmZXIgPSBCeXRlQXJyYXkoREVGQVVMVF9CVUZGRVJfU0laRSkKICAgICAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHJlYWQgPSBpbnB1dC5yZWFkKGJ1ZmZlcikKICAgICAgICAgICAgICAgICAgICBpZiAocmVhZCA8PSAwKSBicmVhawogICAgICAgICAgICAgICAgICAgIG91dHB1dC53cml0ZShidWZmZXIsIDAsIHJlYWQpCiAgICAgICAgICAgICAgICAgICAgZG93bmxvYWRlZEJ5dGVzICs9IHJlYWQKICAgICAgICAgICAgICAgICAgICBvblByb2dyZXNzKAogICAgICAgICAgICAgICAgICAgICAgICBNYXJrZXRJbnN0YWxsU3RhZ2UuRE9XTkxPQURJTkcsCiAgICAgICAgICAgICAgICAgICAgICAgIGlmICh0b3RhbEJ5dGVzID4gMCkgZG93bmxvYWRlZEJ5dGVzLnRvRmxvYXQoKSAvIHRvdGFsQnl0ZXMudG9GbG9hdCgpIGVsc2UgbnVsbAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0gZmluYWxseSB7CiAgICAgICAgY29ubmVjdGlvbi5kaXNjb25uZWN0KCkKICAgIH0KCiAgICBvblByb2dyZXNzKE1hcmtldEluc3RhbGxTdGFnZS5WRVJJRllJTkcsIG51bGwpCiAgICB2YWwgYWN0dWFsU2hhMjU2ID0gc2hhMjU2SGV4KHRhcmdldEZpbGUpCiAgICBpZiAoIWFjdHVhbFNoYTI1Ni5lcXVhbHModmVyc2lvbi5zaGEyNTYsIGlnbm9yZUNhc2UgPSB0cnVlKSkgewogICAgICAgIHRhcmdldEZpbGUuZGVsZXRlKCkKICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkRvd25sb2FkZWQgZmlsZSBzaGEyNTYgbWlzbWF0Y2giKQogICAgfQoKICAgIHJldHVybiB0YXJnZXRGaWxlCn0KCnByaXZhdGUgZnVuIHNoYTI1NkhleChmaWxlOiBGaWxlKTogU3RyaW5nIHsKICAgIHZhbCBkaWdlc3QgPSBNZXNzYWdlRGlnZXN0LmdldEluc3RhbmNlKCJTSEEtMjU2IikKICAgIGZpbGUuaW5wdXRTdHJlYW0oKS51c2UgeyBpbnB1dCAtPgogICAgICAgIHZhbCBidWZmZXIgPSBCeXRlQXJyYXkoREVGQVVMVF9CVUZGRVJfU0laRSkKICAgICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgICAgICB2YWwgcmVhZCA9IGlucHV0LnJlYWQoYnVmZmVyKQogICAgICAgICAgICBpZiAocmVhZCA8PSAwKSBicmVhawogICAgICAgICAgICBkaWdlc3QudXBkYXRlKGJ1ZmZlciwgMCwgcmVhZCkKICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gZGlnZXN0LmRpZ2VzdCgpLmpvaW5Ub1N0cmluZygiIikgeyAiJTAyeCIuZm9ybWF0KGl0KSB9Cn0K
+package com.bslsjdk.operit.ui.features.packages.market
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.data.api.ArtifactProjectVersionResponse
+import com.bslsjdk.operit.data.api.MarketV2Entry
+import java.io.File
+import java.net.HttpURLConnection
+import java.net.URL
+import java.security.MessageDigest
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+data class LocalInstalledArtifactSnapshot(
+    val packageName: String,
+    val sha256: String,
+    val isBuiltIn: Boolean
+)
+
+enum class LocalArtifactInstallStateKind {
+    NOT_INSTALLED,
+    EXACT_INSTALLED,
+    SAME_PROJECT_VARIANT_INSTALLED,
+    NAME_CONFLICT,
+    BUILT_IN_CONFLICT
+}
+
+data class LocalArtifactInstallState(
+    val kind: LocalArtifactInstallStateKind,
+    val snapshot: LocalInstalledArtifactSnapshot? = null
+)
+
+fun artifactRuntimePackageIds(entries: List<MarketV2Entry>): Set<String> {
+    return entries
+        .filter { entry -> entry.type.lowercase() == "script" || entry.type.lowercase() == "package" }
+        .map { entry ->
+            val currentVersion = entry.latestVersion ?: error("Entry latestVersion is missing: ${entry.id}")
+            currentVersion.runtimePackageId.ifBlank { error("Artifact runtime package id not found for version: ${currentVersion.id}") }
+        }
+        .toSet()
+}
+
+fun PackageManager.getInstalledArtifactSnapshots(
+    packageNames: Collection<String>? = null
+): Map<String, LocalInstalledArtifactSnapshot> {
+    val targetPackageNames = packageNames?.filter { it.isNotBlank() }?.toSet()
+    val publishableSourcesByName =
+        getPublishablePackageSources().associateBy { source -> source.packageName }
+
+    return getTopLevelAvailablePackages()
+        .filterKeys { packageName ->
+            targetPackageNames == null || targetPackageNames.any { sameArtifactRuntimePackageId(packageName, it) }
+        }
+        .mapValues { (packageName, toolPackage) ->
+            val sourceFile =
+                publishableSourcesByName[packageName]
+                    ?.sourcePath
+                    ?.let(::File)
+            LocalInstalledArtifactSnapshot(
+                packageName = packageName,
+                // Built-in packages do not always have a stable external source file path.
+                sha256 =
+                    if (sourceFile != null && sourceFile.exists() && sourceFile.isFile) {
+                        sha256Hex(sourceFile)
+                    } else {
+                        ""
+                    },
+                isBuiltIn = toolPackage.isBuiltIn
+            )
+        }
+}
+
+private fun findInstalledArtifactSnapshot(
+    installedSnapshots: Map<String, LocalInstalledArtifactSnapshot>,
+    packageName: String
+): LocalInstalledArtifactSnapshot? {
+    val trimmedPackageName = packageName.trim()
+    if (trimmedPackageName.isBlank()) {
+        return null
+    }
+
+    installedSnapshots[trimmedPackageName]?.let { return it }
+
+    return installedSnapshots.values.firstOrNull { snapshot ->
+        sameArtifactRuntimePackageId(snapshot.packageName, trimmedPackageName)
+    }
+}
+
+fun resolveLocalArtifactInstallState(
+    installedSnapshots: Map<String, LocalInstalledArtifactSnapshot>,
+    packageName: String,
+    targetSha256: String,
+    projectNodeSha256s: Collection<String>
+): LocalArtifactInstallState {
+    val installed =
+        findInstalledArtifactSnapshot(
+            installedSnapshots = installedSnapshots,
+            packageName = packageName
+        ) ?: return LocalArtifactInstallState(LocalArtifactInstallStateKind.NOT_INSTALLED)
+    val normalizedInstalledSha = installed.sha256.trim().lowercase()
+    val normalizedTargetSha = targetSha256.trim().lowercase()
+    if (normalizedInstalledSha.isNotBlank() && normalizedInstalledSha == normalizedTargetSha) {
+        return LocalArtifactInstallState(
+            kind = LocalArtifactInstallStateKind.EXACT_INSTALLED,
+            snapshot = installed
+        )
+    }
+    if (installed.isBuiltIn) {
+        return LocalArtifactInstallState(
+            kind = LocalArtifactInstallStateKind.BUILT_IN_CONFLICT,
+            snapshot = installed
+        )
+    }
+
+    val projectHashes =
+        projectNodeSha256s
+            .map { it.trim().lowercase() }
+            .filter { it.isNotBlank() }
+            .toSet()
+
+    return if (normalizedInstalledSha.isNotBlank() && normalizedInstalledSha in projectHashes) {
+        LocalArtifactInstallState(
+            kind = LocalArtifactInstallStateKind.SAME_PROJECT_VARIANT_INSTALLED,
+            snapshot = installed
+        )
+    } else {
+        LocalArtifactInstallState(
+            kind = LocalArtifactInstallStateKind.NAME_CONFLICT,
+            snapshot = installed
+        )
+    }
+}
+
+suspend fun installArtifactProjectVersion(
+    context: Context,
+    packageManager: PackageManager,
+    projectVersions: List<ArtifactProjectVersionResponse>,
+    version: ArtifactProjectVersionResponse,
+    onProgress: MarketInstallProgressReporter = { _, _ -> }
+) {
+    onProgress(MarketInstallStage.CHECKING_LOCAL, null)
+    val installedSnapshots =
+        withContext(Dispatchers.IO) {
+            packageManager.getInstalledArtifactSnapshots()
+        }
+    val installState =
+        resolveLocalArtifactInstallState(
+            installedSnapshots = installedSnapshots,
+            packageName = version.runtimePackageId,
+            targetSha256 = version.sha256,
+            projectNodeSha256s =
+                projectVersions
+                    .filter {
+                        sameArtifactRuntimePackageId(it.runtimePackageId, version.runtimePackageId)
+                    }
+                    .map { it.sha256 }
+        )
+
+    when (installState.kind) {
+        LocalArtifactInstallStateKind.EXACT_INSTALLED -> return
+        LocalArtifactInstallStateKind.BUILT_IN_CONFLICT ->
+            throw IllegalStateException("本地已安装同名内置插件 `${version.runtimePackageId}`，不能直接覆盖。")
+        LocalArtifactInstallStateKind.NAME_CONFLICT,
+        LocalArtifactInstallStateKind.NOT_INSTALLED,
+        LocalArtifactInstallStateKind.SAME_PROJECT_VARIANT_INSTALLED -> Unit
+    }
+
+    val tempFile = withContext(Dispatchers.IO) { downloadArtifactProjectVersionToTempFile(context, version, onProgress) }
+    try {
+        onProgress(MarketInstallStage.INSTALLING, null)
+        if (
+            installState.kind == LocalArtifactInstallStateKind.SAME_PROJECT_VARIANT_INSTALLED ||
+            installState.kind == LocalArtifactInstallStateKind.NAME_CONFLICT
+        ) {
+            val installedPackageName = installState.snapshot?.packageName ?: version.runtimePackageId
+            val deleted =
+                withContext(Dispatchers.IO) {
+                    packageManager.deletePackage(installedPackageName)
+                }
+            if (!deleted) {
+                throw IllegalStateException("替换已安装插件 `${installedPackageName}` 失败。")
+            }
+        }
+        val importResult =
+            withContext(Dispatchers.IO) {
+                packageManager.addPackageFileFromExternalStorage(tempFile.absolutePath)
+            }
+        if (!importResult.message.startsWith("Successfully imported", ignoreCase = true)) {
+            throw IllegalStateException(importResult.message)
+        }
+    } finally {
+        if (tempFile.exists()) {
+            tempFile.delete()
+        }
+    }
+}
+
+private fun downloadArtifactProjectVersionToTempFile(
+    context: Context,
+    version: ArtifactProjectVersionResponse,
+    onProgress: MarketInstallProgressReporter
+): File {
+    val downloadUrl = version.downloadUrl.trim().ifBlank { throw IllegalStateException("Missing v2 asset download URL") }
+    val downloadDir = File(context.cacheDir, "market_downloads")
+    if (!downloadDir.exists() && !downloadDir.mkdirs()) {
+        throw IllegalStateException("Failed to create market download cache")
+    }
+
+    val targetFile = File(downloadDir, version.assetName.ifBlank { "${version.runtimePackageId}.bin" })
+    val connection = URL(downloadUrl).openConnection() as HttpURLConnection
+    connection.instanceFollowRedirects = true
+    connection.connectTimeout = 30_000
+    connection.readTimeout = 60_000
+    connection.requestMethod = "GET"
+
+    try {
+        onProgress(MarketInstallStage.CONNECTING, null)
+        connection.connect()
+        val code = connection.responseCode
+        if (code !in 200..299) {
+            throw IllegalStateException("Download failed: HTTP $code")
+        }
+
+        val totalBytes = connection.contentLengthLong
+        var downloadedBytes = 0L
+        val inputStream = connection.inputStream ?: throw IllegalStateException("Empty download stream")
+        inputStream.use { input ->
+            targetFile.outputStream().use { output ->
+                val buffer = ByteArray(DEFAULT_BUFFER_SIZE)
+                while (true) {
+                    val read = input.read(buffer)
+                    if (read <= 0) break
+                    output.write(buffer, 0, read)
+                    downloadedBytes += read
+                    onProgress(
+                        MarketInstallStage.DOWNLOADING,
+                        if (totalBytes > 0) downloadedBytes.toFloat() / totalBytes.toFloat() else null
+                    )
+                }
+            }
+        }
+    } finally {
+        connection.disconnect()
+    }
+
+    onProgress(MarketInstallStage.VERIFYING, null)
+    val actualSha256 = sha256Hex(targetFile)
+    if (!actualSha256.equals(version.sha256, ignoreCase = true)) {
+        targetFile.delete()
+        throw IllegalStateException("Downloaded file sha256 mismatch")
+    }
+
+    return targetFile
+}
+
+private fun sha256Hex(file: File): String {
+    val digest = MessageDigest.getInstance("SHA-256")
+    file.inputStream().use { input ->
+        val buffer = ByteArray(DEFAULT_BUFFER_SIZE)
+        while (true) {
+            val read = input.read(buffer)
+            if (read <= 0) break
+            digest.update(buffer, 0, read)
+        }
+    }
+    return digest.digest().joinToString("") { "%02x".format(it) }
+}

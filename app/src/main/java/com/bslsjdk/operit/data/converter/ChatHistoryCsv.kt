@@ -1,1 +1,198 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb252ZXJ0ZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DaGF0TWVzc2FnZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuT3Blcml0QXJjaGl2ZWRDaGF0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5PcGVyaXRBcmNoaXZlZE1lc3NhZ2VWYXJpYW50CmltcG9ydCBqYXZhLmlvLldyaXRlcgppbXBvcnQgamF2YS50aW1lLmZvcm1hdC5EYXRlVGltZUZvcm1hdHRlcgoKLyoqCiAqIFZlcnNpb25lZCBDU1YgcmVwcmVzZW50YXRpb24gZm9yIE9wZXJpdCBjaGF0IGhpc3RvcnkgZXhwb3J0cy4KICoKICogQSBjaGF0IGlzIHJlcHJlc2VudGVkIGJ5IG9uZSBjaGF0IHJvdywgZm9sbG93ZWQgYnkgaXRzIG1lc3NhZ2Ugcm93cyBhbmQgb3B0aW9uYWwgdmFyaWFudCByb3dzLgogKi8Kb2JqZWN0IENoYXRIaXN0b3J5Q3N2IHsKICAgIGNvbnN0IHZhbCBGT1JNQVRfVkVSU0lPTiA9ICIxIgogICAgY29uc3QgdmFsIFJFQ09SRF9DSEFUID0gImNoYXQiCiAgICBjb25zdCB2YWwgUkVDT1JEX01FU1NBR0UgPSAibWVzc2FnZSIKICAgIGNvbnN0IHZhbCBSRUNPUkRfVkFSSUFOVCA9ICJ2YXJpYW50IgoKICAgIHByaXZhdGUgdmFsIGRhdGVGb3JtYXR0ZXIgPSBEYXRlVGltZUZvcm1hdHRlci5JU09fTE9DQUxfREFURV9USU1FCgogICAgdmFsIEhFQURFUjogTGlzdDxTdHJpbmc+ID0gbGlzdE9mKAogICAgICAgICJmb3JtYXRfdmVyc2lvbiIsCiAgICAgICAgInJlY29yZF90eXBlIiwKICAgICAgICAiY2hhdF9pZCIsCiAgICAgICAgInRpdGxlIiwKICAgICAgICAiY3JlYXRlZF9hdCIsCiAgICAgICAgInVwZGF0ZWRfYXQiLAogICAgICAgICJjaGF0X2lucHV0X3Rva2VucyIsCiAgICAgICAgImNoYXRfb3V0cHV0X3Rva2VucyIsCiAgICAgICAgImN1cnJlbnRfd2luZG93X3NpemUiLAogICAgICAgICJncm91cCIsCiAgICAgICAgImRpc3BsYXlfb3JkZXIiLAogICAgICAgICJ3b3Jrc3BhY2UiLAogICAgICAgICJ3b3Jrc3BhY2VfZW52IiwKICAgICAgICAicGFyZW50X2NoYXRfaWQiLAogICAgICAgICJjaGFyYWN0ZXJfY2FyZF9uYW1lIiwKICAgICAgICAiY2hhcmFjdGVyX2dyb3VwX2lkIiwKICAgICAgICAibG9ja2VkIiwKICAgICAgICAicGlubmVkIiwKICAgICAgICAibWVzc2FnZV90aW1lc3RhbXAiLAogICAgICAgICJtZXNzYWdlX29yZGVyX2luZGV4IiwKICAgICAgICAic2VuZGVyIiwKICAgICAgICAibWVzc2FnZV9jb250ZW50IiwKICAgICAgICAicm9sZV9uYW1lIiwKICAgICAgICAic2VsZWN0ZWRfdmFyaWFudF9pbmRleCIsCiAgICAgICAgInZhcmlhbnRfY291bnQiLAogICAgICAgICJwcm92aWRlciIsCiAgICAgICAgIm1vZGVsX25hbWUiLAogICAgICAgICJpbnB1dF90b2tlbnMiLAogICAgICAgICJvdXRwdXRfdG9rZW5zIiwKICAgICAgICAiY2FjaGVkX2lucHV0X3Rva2VucyIsCiAgICAgICAgInNlbnRfYXQiLAogICAgICAgICJvdXRwdXRfZHVyYXRpb25fbXMiLAogICAgICAgICJ3YWl0X2R1cmF0aW9uX21zIiwKICAgICAgICAiY29tcGxldGVkX2F0IiwKICAgICAgICAiZGlzcGxheV9tb2RlIiwKICAgICAgICAiaXNfZmF2b3JpdGUiLAogICAgICAgICJ2YXJpYW50X2luZGV4IiwKICAgICAgICAidmFyaWFudF9jb250ZW50IiwKICAgICAgICAidmFyaWFudF9yb2xlX25hbWUiLAogICAgICAgICJ2YXJpYW50X3Byb3ZpZGVyIiwKICAgICAgICAidmFyaWFudF9tb2RlbF9uYW1lIiwKICAgICAgICAidmFyaWFudF9pbnB1dF90b2tlbnMiLAogICAgICAgICJ2YXJpYW50X291dHB1dF90b2tlbnMiLAogICAgICAgICJ2YXJpYW50X2NhY2hlZF9pbnB1dF90b2tlbnMiLAogICAgICAgICJ2YXJpYW50X3NlbnRfYXQiLAogICAgICAgICJ2YXJpYW50X291dHB1dF9kdXJhdGlvbl9tcyIsCiAgICAgICAgInZhcmlhbnRfd2FpdF9kdXJhdGlvbl9tcyIsCiAgICAgICAgInZhcmlhbnRfY29tcGxldGVkX2F0IiwKICAgICkKCiAgICBwcml2YXRlIHZhbCBjb2x1bW5JbmRleCA9IEhFQURFUi53aXRoSW5kZXgoKS5hc3NvY2lhdGUgeyBpdC52YWx1ZSB0byBpdC5pbmRleCB9CgogICAgZnVuIHdyaXRlSGVhZGVyKHdyaXRlcjogV3JpdGVyKSB7CiAgICAgICAgd3JpdGVSb3cod3JpdGVyLCBIRUFERVIpCiAgICB9CgogICAgZnVuIHdyaXRlQ2hhdCh3cml0ZXI6IFdyaXRlciwgaGlzdG9yeTogT3Blcml0QXJjaGl2ZWRDaGF0KSB7CiAgICAgICAgdmFsIHJvdyA9IGVtcHR5Um93KCkKICAgICAgICBwdXQocm93LCAiZm9ybWF0X3ZlcnNpb24iLCBGT1JNQVRfVkVSU0lPTikKICAgICAgICBwdXQocm93LCAicmVjb3JkX3R5cGUiLCBSRUNPUkRfQ0hBVCkKICAgICAgICBwdXQocm93LCAiY2hhdF9pZCIsIGhpc3RvcnkuaWQpCiAgICAgICAgcHV0KHJvdywgInRpdGxlIiwgaGlzdG9yeS50aXRsZSkKICAgICAgICBwdXQocm93LCAiY3JlYXRlZF9hdCIsIGhpc3RvcnkuY3JlYXRlZEF0LmZvcm1hdChkYXRlRm9ybWF0dGVyKSkKICAgICAgICBwdXQocm93LCAidXBkYXRlZF9hdCIsIGhpc3RvcnkudXBkYXRlZEF0LmZvcm1hdChkYXRlRm9ybWF0dGVyKSkKICAgICAgICBwdXQocm93LCAiY2hhdF9pbnB1dF90b2tlbnMiLCBoaXN0b3J5LmlucHV0VG9rZW5zLnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgImNoYXRfb3V0cHV0X3Rva2VucyIsIGhpc3Rvcnkub3V0cHV0VG9rZW5zLnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgImN1cnJlbnRfd2luZG93X3NpemUiLCBoaXN0b3J5LmN1cnJlbnRXaW5kb3dTaXplLnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgImdyb3VwIiwgaGlzdG9yeS5ncm91cCkKICAgICAgICBwdXQocm93LCAiZGlzcGxheV9vcmRlciIsIGhpc3RvcnkuZGlzcGxheU9yZGVyLnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgIndvcmtzcGFjZSIsIGhpc3Rvcnkud29ya3NwYWNlKQogICAgICAgIHB1dChyb3csICJ3b3Jrc3BhY2VfZW52IiwgaGlzdG9yeS53b3Jrc3BhY2VFbnYpCiAgICAgICAgcHV0KHJvdywgInBhcmVudF9jaGF0X2lkIiwgaGlzdG9yeS5wYXJlbnRDaGF0SWQpCiAgICAgICAgcHV0KHJvdywgImNoYXJhY3Rlcl9jYXJkX25hbWUiLCBoaXN0b3J5LmNoYXJhY3RlckNhcmROYW1lKQogICAgICAgIHB1dChyb3csICJjaGFyYWN0ZXJfZ3JvdXBfaWQiLCBoaXN0b3J5LmNoYXJhY3Rlckdyb3VwSWQpCiAgICAgICAgcHV0KHJvdywgImxvY2tlZCIsIGhpc3RvcnkubG9ja2VkLnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgInBpbm5lZCIsIGhpc3RvcnkucGlubmVkLnRvU3RyaW5nKCkpCiAgICAgICAgd3JpdGVSb3cod3JpdGVyLCByb3cpCiAgICB9CgogICAgZnVuIHdyaXRlTWVzc2FnZSgKICAgICAgICB3cml0ZXI6IFdyaXRlciwKICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICBvcmRlckluZGV4OiBJbnQsCiAgICAgICAgbWVzc2FnZTogQ2hhdE1lc3NhZ2UsCiAgICApIHsKICAgICAgICB2YWwgcm93ID0gZW1wdHlSb3coKQogICAgICAgIHB1dChyb3csICJmb3JtYXRfdmVyc2lvbiIsIEZPUk1BVF9WRVJTSU9OKQogICAgICAgIHB1dChyb3csICJyZWNvcmRfdHlwZSIsIFJFQ09SRF9NRVNTQUdFKQogICAgICAgIHB1dChyb3csICJjaGF0X2lkIiwgY2hhdElkKQogICAgICAgIHB1dChyb3csICJtZXNzYWdlX3RpbWVzdGFtcCIsIG1lc3NhZ2UudGltZXN0YW1wLnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgIm1lc3NhZ2Vfb3JkZXJfaW5kZXgiLCBvcmRlckluZGV4LnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgInNlbmRlciIsIG1lc3NhZ2Uuc2VuZGVyKQogICAgICAgIHB1dChyb3csICJtZXNzYWdlX2NvbnRlbnQiLCBtZXNzYWdlLmNvbnRlbnQpCiAgICAgICAgcHV0KHJvdywgInJvbGVfbmFtZSIsIG1lc3NhZ2Uucm9sZU5hbWUpCiAgICAgICAgcHV0KHJvdywgInNlbGVjdGVkX3ZhcmlhbnRfaW5kZXgiLCBtZXNzYWdlLnNlbGVjdGVkVmFyaWFudEluZGV4LnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgInZhcmlhbnRfY291bnQiLCBtZXNzYWdlLnZhcmlhbnRDb3VudC50b1N0cmluZygpKQogICAgICAgIHB1dChyb3csICJwcm92aWRlciIsIG1lc3NhZ2UucHJvdmlkZXIpCiAgICAgICAgcHV0KHJvdywgIm1vZGVsX25hbWUiLCBtZXNzYWdlLm1vZGVsTmFtZSkKICAgICAgICBwdXQocm93LCAiaW5wdXRfdG9rZW5zIiwgbWVzc2FnZS5pbnB1dFRva2Vucy50b1N0cmluZygpKQogICAgICAgIHB1dChyb3csICJvdXRwdXRfdG9rZW5zIiwgbWVzc2FnZS5vdXRwdXRUb2tlbnMudG9TdHJpbmcoKSkKICAgICAgICBwdXQocm93LCAiY2FjaGVkX2lucHV0X3Rva2VucyIsIG1lc3NhZ2UuY2FjaGVkSW5wdXRUb2tlbnMudG9TdHJpbmcoKSkKICAgICAgICBwdXQocm93LCAic2VudF9hdCIsIG1lc3NhZ2Uuc2VudEF0LnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgIm91dHB1dF9kdXJhdGlvbl9tcyIsIG1lc3NhZ2Uub3V0cHV0RHVyYXRpb25Ncy50b1N0cmluZygpKQogICAgICAgIHB1dChyb3csICJ3YWl0X2R1cmF0aW9uX21zIiwgbWVzc2FnZS53YWl0RHVyYXRpb25Ncy50b1N0cmluZygpKQogICAgICAgIHB1dChyb3csICJjb21wbGV0ZWRfYXQiLCBtZXNzYWdlLmNvbXBsZXRlZEF0LnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgImRpc3BsYXlfbW9kZSIsIG1lc3NhZ2UuZGlzcGxheU1vZGUubmFtZSkKICAgICAgICBwdXQocm93LCAiaXNfZmF2b3JpdGUiLCBtZXNzYWdlLmlzRmF2b3JpdGUudG9TdHJpbmcoKSkKICAgICAgICB3cml0ZVJvdyh3cml0ZXIsIHJvdykKICAgIH0KCiAgICBmdW4gd3JpdGVWYXJpYW50KAogICAgICAgIHdyaXRlcjogV3JpdGVyLAogICAgICAgIGNoYXRJZDogU3RyaW5nLAogICAgICAgIG1lc3NhZ2VUaW1lc3RhbXA6IExvbmcsCiAgICAgICAgdmFyaWFudDogT3Blcml0QXJjaGl2ZWRNZXNzYWdlVmFyaWFudCwKICAgICkgewogICAgICAgIHZhbCByb3cgPSBlbXB0eVJvdygpCiAgICAgICAgcHV0KHJvdywgImZvcm1hdF92ZXJzaW9uIiwgRk9STUFUX1ZFUlNJT04pCiAgICAgICAgcHV0KHJvdywgInJlY29yZF90eXBlIiwgUkVDT1JEX1ZBUklBTlQpCiAgICAgICAgcHV0KHJvdywgImNoYXRfaWQiLCBjaGF0SWQpCiAgICAgICAgcHV0KHJvdywgIm1lc3NhZ2VfdGltZXN0YW1wIiwgbWVzc2FnZVRpbWVzdGFtcC50b1N0cmluZygpKQogICAgICAgIHB1dChyb3csICJ2YXJpYW50X2luZGV4IiwgdmFyaWFudC52YXJpYW50SW5kZXgudG9TdHJpbmcoKSkKICAgICAgICBwdXQocm93LCAidmFyaWFudF9jb250ZW50IiwgdmFyaWFudC5jb250ZW50KQogICAgICAgIHB1dChyb3csICJ2YXJpYW50X3JvbGVfbmFtZSIsIHZhcmlhbnQucm9sZU5hbWUpCiAgICAgICAgcHV0KHJvdywgInZhcmlhbnRfcHJvdmlkZXIiLCB2YXJpYW50LnByb3ZpZGVyKQogICAgICAgIHB1dChyb3csICJ2YXJpYW50X21vZGVsX25hbWUiLCB2YXJpYW50Lm1vZGVsTmFtZSkKICAgICAgICBwdXQocm93LCAidmFyaWFudF9pbnB1dF90b2tlbnMiLCB2YXJpYW50LmlucHV0VG9rZW5zLnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgInZhcmlhbnRfb3V0cHV0X3Rva2VucyIsIHZhcmlhbnQub3V0cHV0VG9rZW5zLnRvU3RyaW5nKCkpCiAgICAgICAgcHV0KHJvdywgInZhcmlhbnRfY2FjaGVkX2lucHV0X3Rva2VucyIsIHZhcmlhbnQuY2FjaGVkSW5wdXRUb2tlbnMudG9TdHJpbmcoKSkKICAgICAgICBwdXQocm93LCAidmFyaWFudF9zZW50X2F0IiwgdmFyaWFudC5zZW50QXQudG9TdHJpbmcoKSkKICAgICAgICBwdXQocm93LCAidmFyaWFudF9vdXRwdXRfZHVyYXRpb25fbXMiLCB2YXJpYW50Lm91dHB1dER1cmF0aW9uTXMudG9TdHJpbmcoKSkKICAgICAgICBwdXQocm93LCAidmFyaWFudF93YWl0X2R1cmF0aW9uX21zIiwgdmFyaWFudC53YWl0RHVyYXRpb25Ncy50b1N0cmluZygpKQogICAgICAgIHB1dChyb3csICJ2YXJpYW50X2NvbXBsZXRlZF9hdCIsIHZhcmlhbnQuY29tcGxldGVkQXQudG9TdHJpbmcoKSkKICAgICAgICB3cml0ZVJvdyh3cml0ZXIsIHJvdykKICAgIH0KCiAgICBmdW4gd3JpdGVSb3cod3JpdGVyOiBXcml0ZXIsIHZhbHVlczogTGlzdDxTdHJpbmc/PikgewogICAgICAgIHZhbHVlcy5mb3JFYWNoSW5kZXhlZCB7IGluZGV4LCB2YWx1ZSAtPgogICAgICAgICAgICBpZiAoaW5kZXggPiAwKSB7CiAgICAgICAgICAgICAgICB3cml0ZXIud3JpdGUoJywnLmNvZGUpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgd3JpdGVGaWVsZCh3cml0ZXIsIHZhbHVlLm9yRW1wdHkoKSkKICAgICAgICB9CiAgICAgICAgd3JpdGVyLndyaXRlKCdcbicuY29kZSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBlbXB0eVJvdygpOiBNdXRhYmxlTGlzdDxTdHJpbmc/PiA9IE11dGFibGVMaXN0KEhFQURFUi5zaXplKSB7IG51bGwgfQoKICAgIHByaXZhdGUgZnVuIHB1dChyb3c6IE11dGFibGVMaXN0PFN0cmluZz8+LCBuYW1lOiBTdHJpbmcsIHZhbHVlOiBTdHJpbmc/KSB7CiAgICAgICAgcm93W2NvbHVtbkluZGV4LmdldFZhbHVlKG5hbWUpXSA9IHZhbHVlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gd3JpdGVGaWVsZCh3cml0ZXI6IFdyaXRlciwgdmFsdWU6IFN0cmluZykgewogICAgICAgIHZhbCBuZWVkc1F1b3RlcyA9IHZhbHVlLmFueSB7IGl0ID09ICcsJyB8fCBpdCA9PSAnIicgfHwgaXQgPT0gJ1xuJyB8fCBpdCA9PSAnXHInIH0KICAgICAgICBpZiAoIW5lZWRzUXVvdGVzKSB7CiAgICAgICAgICAgIHdyaXRlci53cml0ZSh2YWx1ZSkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB3cml0ZXIud3JpdGUoJyInLmNvZGUpCiAgICAgICAgdmFyIHBsYWluU3RhcnQgPSAwCiAgICAgICAgdmFsdWUuZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgY2hhcmFjdGVyIC0+CiAgICAgICAgICAgIGlmIChjaGFyYWN0ZXIgPT0gJyInKSB7CiAgICAgICAgICAgICAgICBpZiAoaW5kZXggPiBwbGFpblN0YXJ0KSB7CiAgICAgICAgICAgICAgICAgICAgd3JpdGVyLndyaXRlKHZhbHVlLCBwbGFpblN0YXJ0LCBpbmRleCAtIHBsYWluU3RhcnQpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB3cml0ZXIud3JpdGUoIlwiXCIiKQogICAgICAgICAgICAgICAgcGxhaW5TdGFydCA9IGluZGV4ICsgMQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmIChwbGFpblN0YXJ0IDwgdmFsdWUubGVuZ3RoKSB7CiAgICAgICAgICAgIHdyaXRlci53cml0ZSh2YWx1ZSwgcGxhaW5TdGFydCwgdmFsdWUubGVuZ3RoIC0gcGxhaW5TdGFydCkKICAgICAgICB9CiAgICAgICAgd3JpdGVyLndyaXRlKCciJy5jb2RlKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.converter
+
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.data.model.OperitArchivedChat
+import com.bslsjdk.operit.data.model.OperitArchivedMessageVariant
+import java.io.Writer
+import java.time.format.DateTimeFormatter
+
+/**
+ * Versioned CSV representation for Operit chat history exports.
+ *
+ * A chat is represented by one chat row, followed by its message rows and optional variant rows.
+ */
+object ChatHistoryCsv {
+    const val FORMAT_VERSION = "1"
+    const val RECORD_CHAT = "chat"
+    const val RECORD_MESSAGE = "message"
+    const val RECORD_VARIANT = "variant"
+
+    private val dateFormatter = DateTimeFormatter.ISO_LOCAL_DATE_TIME
+
+    val HEADER: List<String> = listOf(
+        "format_version",
+        "record_type",
+        "chat_id",
+        "title",
+        "created_at",
+        "updated_at",
+        "chat_input_tokens",
+        "chat_output_tokens",
+        "current_window_size",
+        "group",
+        "display_order",
+        "workspace",
+        "workspace_env",
+        "parent_chat_id",
+        "character_card_name",
+        "character_group_id",
+        "locked",
+        "pinned",
+        "message_timestamp",
+        "message_order_index",
+        "sender",
+        "message_content",
+        "role_name",
+        "selected_variant_index",
+        "variant_count",
+        "provider",
+        "model_name",
+        "input_tokens",
+        "output_tokens",
+        "cached_input_tokens",
+        "sent_at",
+        "output_duration_ms",
+        "wait_duration_ms",
+        "completed_at",
+        "display_mode",
+        "is_favorite",
+        "variant_index",
+        "variant_content",
+        "variant_role_name",
+        "variant_provider",
+        "variant_model_name",
+        "variant_input_tokens",
+        "variant_output_tokens",
+        "variant_cached_input_tokens",
+        "variant_sent_at",
+        "variant_output_duration_ms",
+        "variant_wait_duration_ms",
+        "variant_completed_at",
+    )
+
+    private val columnIndex = HEADER.withIndex().associate { it.value to it.index }
+
+    fun writeHeader(writer: Writer) {
+        writeRow(writer, HEADER)
+    }
+
+    fun writeChat(writer: Writer, history: OperitArchivedChat) {
+        val row = emptyRow()
+        put(row, "format_version", FORMAT_VERSION)
+        put(row, "record_type", RECORD_CHAT)
+        put(row, "chat_id", history.id)
+        put(row, "title", history.title)
+        put(row, "created_at", history.createdAt.format(dateFormatter))
+        put(row, "updated_at", history.updatedAt.format(dateFormatter))
+        put(row, "chat_input_tokens", history.inputTokens.toString())
+        put(row, "chat_output_tokens", history.outputTokens.toString())
+        put(row, "current_window_size", history.currentWindowSize.toString())
+        put(row, "group", history.group)
+        put(row, "display_order", history.displayOrder.toString())
+        put(row, "workspace", history.workspace)
+        put(row, "workspace_env", history.workspaceEnv)
+        put(row, "parent_chat_id", history.parentChatId)
+        put(row, "character_card_name", history.characterCardName)
+        put(row, "character_group_id", history.characterGroupId)
+        put(row, "locked", history.locked.toString())
+        put(row, "pinned", history.pinned.toString())
+        writeRow(writer, row)
+    }
+
+    fun writeMessage(
+        writer: Writer,
+        chatId: String,
+        orderIndex: Int,
+        message: ChatMessage,
+    ) {
+        val row = emptyRow()
+        put(row, "format_version", FORMAT_VERSION)
+        put(row, "record_type", RECORD_MESSAGE)
+        put(row, "chat_id", chatId)
+        put(row, "message_timestamp", message.timestamp.toString())
+        put(row, "message_order_index", orderIndex.toString())
+        put(row, "sender", message.sender)
+        put(row, "message_content", message.content)
+        put(row, "role_name", message.roleName)
+        put(row, "selected_variant_index", message.selectedVariantIndex.toString())
+        put(row, "variant_count", message.variantCount.toString())
+        put(row, "provider", message.provider)
+        put(row, "model_name", message.modelName)
+        put(row, "input_tokens", message.inputTokens.toString())
+        put(row, "output_tokens", message.outputTokens.toString())
+        put(row, "cached_input_tokens", message.cachedInputTokens.toString())
+        put(row, "sent_at", message.sentAt.toString())
+        put(row, "output_duration_ms", message.outputDurationMs.toString())
+        put(row, "wait_duration_ms", message.waitDurationMs.toString())
+        put(row, "completed_at", message.completedAt.toString())
+        put(row, "display_mode", message.displayMode.name)
+        put(row, "is_favorite", message.isFavorite.toString())
+        writeRow(writer, row)
+    }
+
+    fun writeVariant(
+        writer: Writer,
+        chatId: String,
+        messageTimestamp: Long,
+        variant: OperitArchivedMessageVariant,
+    ) {
+        val row = emptyRow()
+        put(row, "format_version", FORMAT_VERSION)
+        put(row, "record_type", RECORD_VARIANT)
+        put(row, "chat_id", chatId)
+        put(row, "message_timestamp", messageTimestamp.toString())
+        put(row, "variant_index", variant.variantIndex.toString())
+        put(row, "variant_content", variant.content)
+        put(row, "variant_role_name", variant.roleName)
+        put(row, "variant_provider", variant.provider)
+        put(row, "variant_model_name", variant.modelName)
+        put(row, "variant_input_tokens", variant.inputTokens.toString())
+        put(row, "variant_output_tokens", variant.outputTokens.toString())
+        put(row, "variant_cached_input_tokens", variant.cachedInputTokens.toString())
+        put(row, "variant_sent_at", variant.sentAt.toString())
+        put(row, "variant_output_duration_ms", variant.outputDurationMs.toString())
+        put(row, "variant_wait_duration_ms", variant.waitDurationMs.toString())
+        put(row, "variant_completed_at", variant.completedAt.toString())
+        writeRow(writer, row)
+    }
+
+    fun writeRow(writer: Writer, values: List<String?>) {
+        values.forEachIndexed { index, value ->
+            if (index > 0) {
+                writer.write(','.code)
+            }
+            writeField(writer, value.orEmpty())
+        }
+        writer.write('\n'.code)
+    }
+
+    private fun emptyRow(): MutableList<String?> = MutableList(HEADER.size) { null }
+
+    private fun put(row: MutableList<String?>, name: String, value: String?) {
+        row[columnIndex.getValue(name)] = value
+    }
+
+    private fun writeField(writer: Writer, value: String) {
+        val needsQuotes = value.any { it == ',' || it == '"' || it == '\n' || it == '\r' }
+        if (!needsQuotes) {
+            writer.write(value)
+            return
+        }
+
+        writer.write('"'.code)
+        var plainStart = 0
+        value.forEachIndexed { index, character ->
+            if (character == '"') {
+                if (index > plainStart) {
+                    writer.write(value, plainStart, index - plainStart)
+                }
+                writer.write("\"\"")
+                plainStart = index + 1
+            }
+        }
+        if (plainStart < value.length) {
+            writer.write(value, plainStart, value.length - plainStart)
+        }
+        writer.write('"'.code)
+    }
+}

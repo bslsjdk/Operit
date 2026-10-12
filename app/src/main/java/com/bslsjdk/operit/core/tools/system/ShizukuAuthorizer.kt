@@ -1,1 +1,419 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLlBhY2thZ2VNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm9zLkhhbmRsZXIKaW1wb3J0IGFuZHJvaWQub3MuSUJpbmRlcgppbXBvcnQgYW5kcm9pZC5vcy5Mb29wZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IHJpa2thLnNoaXp1a3UuU2hpenVrdQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBTaGl6dWt1Q29ubmVjdGlvbkluZm8odmFsIHVpZDogSW50LCB2YWwgYmluZGVyOiBJQmluZGVyKQoKLyoqIFNoaXp1a3XmjojmnYPlt6Xlhbfnsbsg5o+Q5L6bU2hpenVrdeadg+mZkOajgOafpeWSjOeuoeeQhuWKn+iDvSAqLwpjbGFzcyBTaGl6dWt1QXV0aG9yaXplciB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiU2hpenVrdUF1dGhvcml6ZXIiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgU0hJWlVLVV9QQUNLQUdFX05BTUUgPSAibW9lLnNoaXp1a3UucHJpdmlsZWdlZC5hcGkiCiAgICAgICAgcHJpdmF0ZSB2YWwgbWFpbkhhbmRsZXIgPSBIYW5kbGVyKExvb3Blci5nZXRNYWluTG9vcGVyKCkpCgogICAgICAgIC8vIOazqOWGjFNoaXp1a3XmnYPpmZDor7fmsYLnm5HlkKzlmagKICAgICAgICBwcml2YXRlIHZhciBiaW5kZXJSZWNlaXZlZExpc3RlbmVyUmVnaXN0ZXJlZCA9IGZhbHNlCiAgICAgICAgcHJpdmF0ZSB2YXIgcGVybWlzc2lvblJlcXVlc3RMaXN0ZW5lclJlZ2lzdGVyZWQgPSBmYWxzZQoKICAgICAgICAvLyDmnI3liqHnirbmgIEKICAgICAgICBwcml2YXRlIHZhciBpc1NlcnZpY2VBdmFpbGFibGUgPSBmYWxzZQogICAgICAgIHByaXZhdGUgdmFyIGNhY2hlZENvbm5lY3Rpb246IFNoaXp1a3VDb25uZWN0aW9uSW5mbz8gPSBudWxsCiAgICAgICAgCiAgICAgICAgLy8g6ZSZ6K+v5raI5oGv57yT5a2YCiAgICAgICAgcHJpdmF0ZSB2YXIgbGFzdFNlcnZpY2VFcnJvck1lc3NhZ2UgPSAiIgogICAgICAgIHByaXZhdGUgdmFyIGxhc3RQZXJtaXNzaW9uRXJyb3JNZXNzYWdlID0gIiIKCiAgICAgICAgLy8g54q25oCB5Y+Y5pu05Zue6LCDCiAgICAgICAgcHJpdmF0ZSB2YWwgc3RhdGVDaGFuZ2VMaXN0ZW5lcnMgPSBtdXRhYmxlTGlzdE9mPCgpIC0+IFVuaXQ+KCkKCiAgICAgICAgLyoqCiAgICAgICAgICog5re75Yqg54q25oCB5Y+Y5pu055uR5ZCs5ZmoCiAgICAgICAgICogQHBhcmFtIGxpc3RlbmVyIOebkeWQrOWZqOWbnuiwgwogICAgICAgICAqLwogICAgICAgIGZ1biBhZGRTdGF0ZUNoYW5nZUxpc3RlbmVyKGxpc3RlbmVyOiAoKSAtPiBVbml0KSB7CiAgICAgICAgICAgIHN5bmNocm9uaXplZChzdGF0ZUNoYW5nZUxpc3RlbmVycykgewogICAgICAgICAgICAgICAgaWYgKCFzdGF0ZUNoYW5nZUxpc3RlbmVycy5jb250YWlucyhsaXN0ZW5lcikpIHsKICAgICAgICAgICAgICAgICAgICBzdGF0ZUNoYW5nZUxpc3RlbmVycy5hZGQobGlzdGVuZXIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOenu+mZpOeKtuaAgeWPmOabtOebkeWQrOWZqAogICAgICAgICAqIEBwYXJhbSBsaXN0ZW5lciDopoHnp7vpmaTnmoTnm5HlkKzlmagKICAgICAgICAgKi8KICAgICAgICBmdW4gcmVtb3ZlU3RhdGVDaGFuZ2VMaXN0ZW5lcihsaXN0ZW5lcjogKCkgLT4gVW5pdCkgewogICAgICAgICAgICBzeW5jaHJvbml6ZWQoc3RhdGVDaGFuZ2VMaXN0ZW5lcnMpIHsgc3RhdGVDaGFuZ2VMaXN0ZW5lcnMucmVtb3ZlKGxpc3RlbmVyKSB9CiAgICAgICAgfQoKICAgICAgICAvKiog6Kem5Y+R54q25oCB5Y+Y5pu06YCa55+lICovCiAgICAgICAgcHJpdmF0ZSBmdW4gbm90aWZ5U3RhdGVDaGFuZ2VkKCkgewogICAgICAgICAgICAvLyDnoa7kv53lnKjkuLvnur/nqIvkuK3miafooYxVSeebuOWFs+WbnuiwgwogICAgICAgICAgICBtYWluSGFuZGxlci5wb3N0IHsKICAgICAgICAgICAgICAgIHN5bmNocm9uaXplZChzdGF0ZUNoYW5nZUxpc3RlbmVycykgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIk5vdGlmeWluZyAke3N0YXRlQ2hhbmdlTGlzdGVuZXJzLnNpemV9IGxpc3RlbmVycyBhYm91dCBzdGF0ZSBjaGFuZ2UiCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHN0YXRlQ2hhbmdlTGlzdGVuZXJzLmZvckVhY2ggeyBpdC5pbnZva2UoKSB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIGlzU3VpQmFja2VuZEF2YWlsYWJsZSgpOiBCb29sZWFuIHsKICAgICAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgICAgICBpZiAoU2hpenVrdS5waW5nQmluZGVyKCkpIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuaShUQUcsICLmo4DmtYvliLBTdWkvU2hpenVrdeWQjuerr+WPr+eUqO+8iHBpbmdCaW5kZXLvvIkiKQogICAgICAgICAgICAgICAgICAgIHRydWUKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGJpbmRlciA9IFNoaXp1a3UuZ2V0QmluZGVyKCkKICAgICAgICAgICAgICAgICAgICB2YWwgYmluZGVyQWxpdmUgPSBiaW5kZXIgIT0gbnVsbCAmJiBiaW5kZXIuaXNCaW5kZXJBbGl2ZQogICAgICAgICAgICAgICAgICAgIGlmIChiaW5kZXJBbGl2ZSkgewogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuaShUQUcsICLmo4DmtYvliLBTdWkvU2hpenVrdeWQjuerr+WPr+eUqO+8iGJpbmRlciBhbGl2Ze+8iSIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGJpbmRlckFsaXZlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU3Vp5ZCO56uv5qOA5rWL5aSx6LSlOiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLyoqCiAgICAgICAgICog5qOA5p+lU2hpenVrdeaYr+WQpuW3suWuieijhe+8iOWFvOWuuVN1aeWQjuerr++8iQogICAgICAgICAqIEBwYXJhbSBjb250ZXh0IEFuZHJvaWTkuIrkuIvmlocKICAgICAgICAgKiBAcmV0dXJuIOaYr+WQpuW3suWuieijhVNoaXp1a3XmiJblj6/nlKhTdWnlkI7nq68KICAgICAgICAgKi8KICAgICAgICBmdW4gaXNTaGl6dWt1SW5zdGFsbGVkKGNvbnRleHQ6IENvbnRleHQpOiBCb29sZWFuIHsKICAgICAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcGFja2FnZUluZm8gPSBjb250ZXh0LnBhY2thZ2VNYW5hZ2VyLmdldFBhY2thZ2VJbmZvKFNISVpVS1VfUEFDS0FHRV9OQU1FLCAwKQogICAgICAgICAgICAgICAgdmFsIHZlcnNpb25OYW1lID0gcGFja2FnZUluZm8udmVyc2lvbk5hbWUKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5pKFRBRywgIuajgOa1i+WIsOW3suWuieijhVNoaXp1a3XvvIzniYjmnKw6ICR2ZXJzaW9uTmFtZSIpCiAgICAgICAgICAgICAgICB0cnVlCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IFBhY2thZ2VNYW5hZ2VyLk5hbWVOb3RGb3VuZEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgdmFsIHN1aUJhY2tlbmRBdmFpbGFibGUgPSBpc1N1aUJhY2tlbmRBdmFpbGFibGUoKQogICAgICAgICAgICAgICAgaWYgKHN1aUJhY2tlbmRBdmFpbGFibGUpIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuaShUQUcsICLmnKrmo4DmtYvliLBTaGl6dWt15bqU55So77yM5L2G5qOA5rWL5YiwU3Vp5ZCO56uv5Y+v55SoIikKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmkoVEFHLCAi5pyq5qOA5rWL5Yiw5bey5a6J6KOF55qEU2hpenVrde+8jOS5n+acquajgOa1i+WIsOWPr+eUqOeahFN1aeWQjuerryIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzdWlCYWNrZW5kQXZhaWxhYmxlCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5qOA5p+lU2hpenVrdS9TdWnlj6/nlKjmgKfml7blh7rplJkiLCBlKQogICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLyoqCiAgICAgICAgICog6I635Y+W5pyA5ZCO5LiA5qyh5pyN5Yqh5qOA5p+l55qE6ZSZ6K+v5L+h5oGvCiAgICAgICAgICogQHJldHVybiDplJnor6/kv6Hmga8KICAgICAgICAgKi8KICAgICAgICBmdW4gZ2V0U2VydmljZUVycm9yTWVzc2FnZSgpOiBTdHJpbmcgewogICAgICAgICAgICByZXR1cm4gbGFzdFNlcnZpY2VFcnJvck1lc3NhZ2UKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLyoqCiAgICAgICAgICog6I635Y+W5pyA5ZCO5LiA5qyh5p2D6ZmQ5qOA5p+l55qE6ZSZ6K+v5L+h5oGvCiAgICAgICAgICogQHJldHVybiDplJnor6/kv6Hmga8KICAgICAgICAgKi8KICAgICAgICBmdW4gZ2V0UGVybWlzc2lvbkVycm9yTWVzc2FnZSgpOiBTdHJpbmcgewogICAgICAgICAgICByZXR1cm4gbGFzdFBlcm1pc3Npb25FcnJvck1lc3NhZ2UKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIGNhY2hlQ29ubmVjdGlvbih1aWQ6IEludCwgYmluZGVyOiBJQmluZGVyKTogU2hpenVrdUNvbm5lY3Rpb25JbmZvIHsKICAgICAgICAgICAgdmFsIGNvbm5lY3Rpb24gPSBTaGl6dWt1Q29ubmVjdGlvbkluZm8odWlkLCBiaW5kZXIpCiAgICAgICAgICAgIGNhY2hlZENvbm5lY3Rpb24gPSBjb25uZWN0aW9uCiAgICAgICAgICAgIGlzU2VydmljZUF2YWlsYWJsZSA9IHRydWUKICAgICAgICAgICAgbGFzdFNlcnZpY2VFcnJvck1lc3NhZ2UgPSAiIgogICAgICAgICAgICByZXR1cm4gY29ubmVjdGlvbgogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gY2xlYXJDb25uZWN0aW9uKGVycm9yTWVzc2FnZTogU3RyaW5nKSB7CiAgICAgICAgICAgIGNhY2hlZENvbm5lY3Rpb24gPSBudWxsCiAgICAgICAgICAgIGlzU2VydmljZUF2YWlsYWJsZSA9IGZhbHNlCiAgICAgICAgICAgIGxhc3RTZXJ2aWNlRXJyb3JNZXNzYWdlID0gZXJyb3JNZXNzYWdlCiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGZ1biBnZXRDYWNoZWRDb25uZWN0aW9uKCk6IFNoaXp1a3VDb25uZWN0aW9uSW5mbz8gewogICAgICAgICAgICB2YWwgY29ubmVjdGlvbiA9IGNhY2hlZENvbm5lY3Rpb24gPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgaWYgKCFjb25uZWN0aW9uLmJpbmRlci5pc0JpbmRlckFsaXZlKSB7CiAgICAgICAgICAgICAgICBjbGVhckNvbm5lY3Rpb24oIlNoaXp1a3UgYmluZGVyIGlzIG5vdCBhbGl2ZSIpCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgICAgIGxhc3RTZXJ2aWNlRXJyb3JNZXNzYWdlID0gIiIKICAgICAgICAgICAgcmV0dXJuIGNvbm5lY3Rpb24KICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIGlzQWxsb3dlZFNoaXp1a3VVaWQodWlkOiBJbnQpOiBCb29sZWFuIHsKICAgICAgICAgICAgcmV0dXJuIHVpZCA9PSAwIHx8IHVpZCA9PSAyMDAwCiAgICAgICAgfQoKICAgICAgICBpbnRlcm5hbCBmdW4gZ2V0T3JSZXNvbHZlU2hpenVrdUNvbm5lY3Rpb24oKTogU2hpenVrdUNvbm5lY3Rpb25JbmZvPyB7CiAgICAgICAgICAgIGdldENhY2hlZENvbm5lY3Rpb24oKT8ubGV0IHsgcmV0dXJuIGl0IH0KCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcGluZ1N1Y2NlZWRlZCA9CiAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTaGl6dWt1LnBpbmdCaW5kZXIoKQogICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlNoaXp1a3UgcGluZ0JpbmRlciBjaGVjayBmYWlsZWQiLCBlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xlYXJDb25uZWN0aW9uKCJTaGl6dWt1IHBpbmcgZmFpbGVkOiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGlmIChwaW5nU3VjY2VlZGVkKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU2hpenVrdSBwaW5nQmluZGVyIHN1Y2NlZWRlZCIpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdmFsIGJpbmRlciA9CiAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTaGl6dWt1LmdldEJpbmRlcigpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiQmluZGVyIGNoZWNrIGZhaWxlZCIsIGUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGVhckNvbm5lY3Rpb24oIkZhaWxlZCB0byBnZXQgYmluZGVyOiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGlmIChiaW5kZXIgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGNsZWFyQ29ubmVjdGlvbigiU2hpenVrdSBiaW5kZXIgaXMgbnVsbCIpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpZiAoIWJpbmRlci5pc0JpbmRlckFsaXZlKSB7CiAgICAgICAgICAgICAgICAgICAgY2xlYXJDb25uZWN0aW9uKCJTaGl6dWt1IGJpbmRlciBpcyBub3QgYWxpdmUiKQogICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKCFwaW5nU3VjY2VlZGVkKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU2hpenVrdSBiaW5kZXIgaXMgYWxpdmUiKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHZhbCB1aWQgPQogICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgU2hpenVrdS5nZXRVaWQoKQogICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlVJRCBjaGVjayBmYWlsZWQiLCBlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xlYXJDb25uZWN0aW9uKCJGYWlsZWQgdG8gZ2V0IFVJRDogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpZiAoIWlzQWxsb3dlZFNoaXp1a3VVaWQodWlkKSkgewogICAgICAgICAgICAgICAgICAgIGNsZWFyQ29ubmVjdGlvbigiSW52YWxpZCBTaGl6dWt1IFVJRDogJHVpZCwgZXhwZWN0ZWQgMCBvciAyMDAwIikKICAgICAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHJldHVybiBjYWNoZUNvbm5lY3Rpb24odWlkLCBiaW5kZXIpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiQ3JpdGljYWwgZXJyb3IgY2hlY2tpbmcgU2hpenVrdSBzZXJ2aWNlIiwgZSkKICAgICAgICAgICAgICAgIGNsZWFyQ29ubmVjdGlvbigiQ3JpdGljYWwgZXJyb3I6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvKioKICAgICAgICAgKiDmo4Dmn6VTaGl6dWt15pyN5Yqh5piv5ZCm5q2j5Zyo6L+Q6KGMCiAgICAgICAgICogQHJldHVybiDmnI3liqHmmK/lkKbov5DooYwKICAgICAgICAgKi8KICAgICAgICBmdW4gaXNTaGl6dWt1U2VydmljZVJ1bm5pbmcoKTogQm9vbGVhbiB7CiAgICAgICAgICAgIHJldHVybiBnZXRPclJlc29sdmVTaGl6dWt1Q29ubmVjdGlvbigpICE9IG51bGwKICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOajgOafpeW6lOeUqOaYr+WQpuaciVNoaXp1a3XmnYPpmZAKICAgICAgICAgKiBAcmV0dXJuIOaYr+WQpuacieadg+mZkAogICAgICAgICAqLwogICAgICAgIGZ1biBoYXNTaGl6dWt1UGVybWlzc2lvbigpOiBCb29sZWFuIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGlmIChnZXRPclJlc29sdmVTaGl6dWt1Q29ubmVjdGlvbigpID09IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICBsYXN0UGVybWlzc2lvbkVycm9yTWVzc2FnZSA9ICJTaGl6dWt1IHNlcnZpY2Ugbm90IHJ1bm5pbmc6ICRsYXN0U2VydmljZUVycm9yTWVzc2FnZSIKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyDpgILnlKjkuo5TaGl6dWt1IDEzLnjniYjmnKznmoTmnYPpmZDmo4Dmn6UKICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPSBTaGl6dWt1LmNoZWNrU2VsZlBlcm1pc3Npb24oKQogICAgICAgICAgICAgICAgdmFsIGdyYW50ZWQgPSByZXN1bHQgPT0gUGFja2FnZU1hbmFnZXIuUEVSTUlTU0lPTl9HUkFOVEVECiAgICAgICAgICAgICAgICBpZiAoZ3JhbnRlZCkgewogICAgICAgICAgICAgICAgICAgIGxhc3RQZXJtaXNzaW9uRXJyb3JNZXNzYWdlID0gIiIKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBsYXN0UGVybWlzc2lvbkVycm9yTWVzc2FnZSA9ICJTaGl6dWt1IHBlcm1pc3Npb24gbm90IGdyYW50ZWQgKGNvZGU6ICRyZXN1bHQpIgogICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGNoZWNraW5nIFNoaXp1a3UgcGVybWlzc2lvbiIsIGUpCiAgICAgICAgICAgICAgICBsYXN0UGVybWlzc2lvbkVycm9yTWVzc2FnZSA9ICJFcnJvciBjaGVja2luZyBwZXJtaXNzaW9uOiAke2UubWVzc2FnZX0iCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLyoqCiAgICAgICAgICog6K+35rGCU2hpenVrdeadg+mZkAogICAgICAgICAqIEBwYXJhbSBvblJlc3VsdCDmnYPpmZDor7fmsYLnu5Pmnpzlm57osIPvvIzku4Xov5Tlm57mmK/lkKbmjojkuojmnYPpmZAKICAgICAgICAgKi8KICAgICAgICBmdW4gcmVxdWVzdFNoaXp1a3VQZXJtaXNzaW9uKG9uUmVzdWx0OiAoQm9vbGVhbikgLT4gVW5pdCkgewogICAgICAgICAgICB2YWwgc2VydmljZVJ1bm5pbmcgPSBpc1NoaXp1a3VTZXJ2aWNlUnVubmluZygpCiAgICAgICAgICAgIGlmICghc2VydmljZVJ1bm5pbmcpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkNhbm5vdCByZXF1ZXN0IHBlcm1pc3Npb246ICRsYXN0U2VydmljZUVycm9yTWVzc2FnZSIpCiAgICAgICAgICAgICAgICBvblJlc3VsdChmYWxzZSkKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgaGFzUGVybWlzc2lvbiA9IGhhc1NoaXp1a3VQZXJtaXNzaW9uKCkKICAgICAgICAgICAgaWYgKGhhc1Blcm1pc3Npb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlBlcm1pc3Npb24gYWxyZWFkeSBncmFudGVkIikKICAgICAgICAgICAgICAgIG9uUmVzdWx0KHRydWUpCiAgICAgICAgICAgICAgICBub3RpZnlTdGF0ZUNoYW5nZWQoKQogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlJlcXVlc3RpbmcgU2hpenVrdSBwZXJtaXNzaW9uIikKCiAgICAgICAgICAgIC8vIOenu+mZpOS5i+WJjeeahOebkeWQrOWZqOmBv+WFjemHjeWkjQogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgaWYgKHBlcm1pc3Npb25SZXF1ZXN0TGlzdGVuZXJSZWdpc3RlcmVkKSB7CiAgICAgICAgICAgICAgICAgICAgU2hpenVrdS5yZW1vdmVSZXF1ZXN0UGVybWlzc2lvblJlc3VsdExpc3RlbmVyIHsgXywgXyAtPiB9CiAgICAgICAgICAgICAgICAgICAgcGVybWlzc2lvblJlcXVlc3RMaXN0ZW5lclJlZ2lzdGVyZWQgPSBmYWxzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIHJlbW92aW5nIGV4aXN0aW5nIHBlcm1pc3Npb24gbGlzdGVuZXIiLCBlKQogICAgICAgICAgICB9CgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHJlcXVlc3RDb2RlID0gMTAwCgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU2V0dGluZyB1cCBwZXJtaXNzaW9uIHJlc3VsdCBsaXN0ZW5lciIpCgogICAgICAgICAgICAgICAgU2hpenVrdS5hZGRSZXF1ZXN0UGVybWlzc2lvblJlc3VsdExpc3RlbmVyIHsgY29kZSwgZ3JhbnRSZXN1bHQgLT4KICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJQZXJtaXNzaW9uIHJlc3VsdCByZWNlaXZlZDogY29kZT0kY29kZSwgcmVzdWx0PSRncmFudFJlc3VsdCIpCiAgICAgICAgICAgICAgICAgICAgaWYgKGNvZGUgPT0gcmVxdWVzdENvZGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGdyYW50ZWQgPSBncmFudFJlc3VsdCA9PSBQYWNrYWdlTWFuYWdlci5QRVJNSVNTSU9OX0dSQU5URUQKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU2hpenVrdSBwZXJtaXNzaW9uIHJlcXVlc3QgcmVzdWx0OiAkZ3JhbnRlZCIpCiAgICAgICAgICAgICAgICAgICAgICAgIG9uUmVzdWx0KGdyYW50ZWQpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChncmFudGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDmnYPpmZDmjojkuojml7bop6blj5HnirbmgIHlj5jmm7TpgJrnn6UKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vdGlmeVN0YXRlQ2hhbmdlZCgpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOadg+mZkOivt+axguWujOaIkOWQjuenu+mZpOebkeWQrOWZqAogICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgU2hpenVrdS5yZW1vdmVSZXF1ZXN0UGVybWlzc2lvblJlc3VsdExpc3RlbmVyIHsgXywgXyAtPiB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwZXJtaXNzaW9uUmVxdWVzdExpc3RlbmVyUmVnaXN0ZXJlZCA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgcmVtb3ZpbmcgcGVybWlzc2lvbiBsaXN0ZW5lciIsIGUpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBwZXJtaXNzaW9uUmVxdWVzdExpc3RlbmVyUmVnaXN0ZXJlZCA9IHRydWUKCiAgICAgICAgICAgICAgICAvLyDor7fmsYLmnYPpmZAKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkNhbGxpbmcgU2hpenVrdS5yZXF1ZXN0UGVybWlzc2lvbigkcmVxdWVzdENvZGUpIikKICAgICAgICAgICAgICAgIFNoaXp1a3UucmVxdWVzdFBlcm1pc3Npb24ocmVxdWVzdENvZGUpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgcmVxdWVzdGluZyBTaGl6dWt1IHBlcm1pc3Npb24iLCBlKQogICAgICAgICAgICAgICAgb25SZXN1bHQoZmFsc2UpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8qKiDliJ3lp4vljJZTaGl6dWt157uR5a6aICovCiAgICAgICAgZnVuIGluaXRpYWxpemUoKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkluaXRpYWxpemluZyBTaGl6dWt1IikKCiAgICAgICAgICAgIC8vIOmHjee9ruacjeWKoeeKtuaAgQogICAgICAgICAgICBpc1NlcnZpY2VBdmFpbGFibGUgPSBmYWxzZQogICAgICAgICAgICBjYWNoZWRDb25uZWN0aW9uID0gbnVsbAogICAgICAgICAgICBsYXN0U2VydmljZUVycm9yTWVzc2FnZSA9ICIiCiAgICAgICAgICAgIGxhc3RQZXJtaXNzaW9uRXJyb3JNZXNzYWdlID0gIiIKCiAgICAgICAgICAgIC8vIOenu+mZpOS5i+WJjeeahOebkeWQrOWZqOmBv+WFjemHjeWkjQogICAgICAgICAgICBpZiAoYmluZGVyUmVjZWl2ZWRMaXN0ZW5lclJlZ2lzdGVyZWQpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgU2hpenVrdS5yZW1vdmVCaW5kZXJSZWNlaXZlZExpc3RlbmVyIHt9CiAgICAgICAgICAgICAgICAgICAgU2hpenVrdS5yZW1vdmVCaW5kZXJEZWFkTGlzdGVuZXIge30KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIHJlbW92aW5nIGJpbmRlciBsaXN0ZW5lcnMiLCBlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYmluZGVyUmVjZWl2ZWRMaXN0ZW5lclJlZ2lzdGVyZWQgPSBmYWxzZQogICAgICAgICAgICB9CgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgLy8g6K6+572u57uR5a6a5o6l5pS255uR5ZCs5ZmoCiAgICAgICAgICAgICAgICBTaGl6dWt1LmFkZEJpbmRlclJlY2VpdmVkTGlzdGVuZXIgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNoaXp1a3UgYmluZGVyIHJlY2VpdmVkIikKICAgICAgICAgICAgICAgICAgICBpc1NlcnZpY2VBdmFpbGFibGUgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgbm90aWZ5U3RhdGVDaGFuZ2VkKCkKCiAgICAgICAgICAgICAgICAgICAgLy8g5b2T5pS25YiwYmluZGVy5pe25Li75Yqo5qOA5p+l5p2D6ZmQ54q25oCBCiAgICAgICAgICAgICAgICAgICAgbWFpbkhhbmRsZXIucG9zdCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgaGFzUGVybWlzc2lvbiA9IGhhc1NoaXp1a3VQZXJtaXNzaW9uKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkNoZWNraW5nIHBlcm1pc3Npb24gYWZ0ZXIgYmluZGVyIHJlY2VpdmVkOiAkaGFzUGVybWlzc2lvbiIpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgY2hlY2tpbmcgcGVybWlzc2lvbiBhZnRlciBiaW5kZXIgcmVjZWl2ZWQiLCBlKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIC8vIOiuvue9rue7keWumuaWreW8gOebkeWQrOWZqAogICAgICAgICAgICAgICAgU2hpenVrdS5hZGRCaW5kZXJEZWFkTGlzdGVuZXIgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNoaXp1a3UgYmluZGVyIGRlYWQiKQogICAgICAgICAgICAgICAgICAgIGlzU2VydmljZUF2YWlsYWJsZSA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgY2FjaGVkQ29ubmVjdGlvbiA9IG51bGwKICAgICAgICAgICAgICAgICAgICBub3RpZnlTdGF0ZUNoYW5nZWQoKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGJpbmRlclJlY2VpdmVkTGlzdGVuZXJSZWdpc3RlcmVkID0gdHJ1ZQoKICAgICAgICAgICAgICAgIC8vIOeri+WNs+ajgOafpeacjeWKoeaYr+WQpuW3sue7j+WcqOi/kOihjAogICAgICAgICAgICAgICAgdmFsIGlzUnVubmluZyA9IGlzU2hpenVrdVNlcnZpY2VSdW5uaW5nKCkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkluaXRpYWwgU2hpenVrdSBzZXJ2aWNlIHN0YXR1cyBjaGVjazogJGlzUnVubmluZyIpCiAgICAgICAgICAgICAgICBpZiAoaXNSdW5uaW5nKSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6c5pyN5Yqh5q2j5Zyo6L+Q6KGM77yM5qOA5p+l5p2D6ZmQCiAgICAgICAgICAgICAgICAgICAgbWFpbkhhbmRsZXIucG9zdCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgaGFzUGVybWlzc2lvbiA9IGhhc1NoaXp1a3VQZXJtaXNzaW9uKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkluaXRpYWwgcGVybWlzc2lvbiBjaGVjazogJGhhc1Blcm1pc3Npb24iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbm90aWZ5U3RhdGVDaGFuZ2VkKCkKICAgICAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBkdXJpbmcgaW5pdGlhbCBwZXJtaXNzaW9uIGNoZWNrIiwgZSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5aaC5p6c5pyN5Yqh5pyq6L+Q6KGM77yMNTAw5q+r56eS5ZCO5YaN5qyh5qOA5p+l5Lul6Ziy5Yid5aeL5YyW5bu26L+fCiAgICAgICAgICAgICAgICAgICAgbWFpbkhhbmRsZXIucG9zdERlbGF5ZWQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHJldHJ5Q2hlY2sgPSBpc1NoaXp1a3VTZXJ2aWNlUnVubmluZygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiRGVsYXllZCBzZXJ2aWNlIHN0YXR1cyBjaGVjazogJHJldHJ5Q2hlY2siKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChyZXRyeUNoZWNrKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5vdGlmeVN0YXRlQ2hhbmdlZCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDUwMAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBpbml0aWFsaXppbmcgU2hpenVrdSIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOiOt+WPllNoaXp1a3XlkK/liqjor7TmmI4KICAgICAgICAgKiBAcGFyYW0gY29udGV4dCBBbmRyb2lk5LiK5LiL5paHCiAgICAgICAgICogQHJldHVybiBTaGl6dWt15ZCv5Yqo5oyH5Y2XCiAgICAgICAgICovCiAgICAgICAgZnVuIGdldFNoaXp1a3VTdGFydHVwSW5zdHJ1Y3Rpb25zKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgewogICAgICAgICAgICByZXR1cm4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hpenVrdV9zdGFydF9zZXJ2aWNlX2ludHJvKSArCiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hpenVrdV9zdGVwMV9lbnN1cmVfaW5zdGFsbGVkKSArCiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2hpenVrdV9zdGVwMl9hZGJfY29tbWFuZCkgKwogICAgICAgICAgICAgICAgICAgICIgICBhZGIgc2hlbGwgc2ggL3NkY2FyZC9BbmRyb2lkL2RhdGEvbW9lLnNoaXp1a3UucHJpdmlsZWdlZC5hcGkvc3RhcnQuc2hcbiIgKwogICAgICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNoaXp1a3Vfb3IpICsKICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zaGl6dWt1X3N0ZXAyX2ZvbGxvd19pbnN0cnVjdGlvbnMpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.system
+
+import android.content.Context
+import android.content.pm.PackageManager
+import android.os.Handler
+import android.os.IBinder
+import android.os.Looper
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import rikka.shizuku.Shizuku
+
+internal data class ShizukuConnectionInfo(val uid: Int, val binder: IBinder)
+
+/** Shizuku授权工具类 提供Shizuku权限检查和管理功能 */
+class ShizukuAuthorizer {
+    companion object {
+        private const val TAG = "ShizukuAuthorizer"
+        private const val SHIZUKU_PACKAGE_NAME = "moe.shizuku.privileged.api"
+        private val mainHandler = Handler(Looper.getMainLooper())
+
+        // 注册Shizuku权限请求监听器
+        private var binderReceivedListenerRegistered = false
+        private var permissionRequestListenerRegistered = false
+
+        // 服务状态
+        private var isServiceAvailable = false
+        private var cachedConnection: ShizukuConnectionInfo? = null
+        
+        // 错误消息缓存
+        private var lastServiceErrorMessage = ""
+        private var lastPermissionErrorMessage = ""
+
+        // 状态变更回调
+        private val stateChangeListeners = mutableListOf<() -> Unit>()
+
+        /**
+         * 添加状态变更监听器
+         * @param listener 监听器回调
+         */
+        fun addStateChangeListener(listener: () -> Unit) {
+            synchronized(stateChangeListeners) {
+                if (!stateChangeListeners.contains(listener)) {
+                    stateChangeListeners.add(listener)
+                }
+            }
+        }
+
+        /**
+         * 移除状态变更监听器
+         * @param listener 要移除的监听器
+         */
+        fun removeStateChangeListener(listener: () -> Unit) {
+            synchronized(stateChangeListeners) { stateChangeListeners.remove(listener) }
+        }
+
+        /** 触发状态变更通知 */
+        private fun notifyStateChanged() {
+            // 确保在主线程中执行UI相关回调
+            mainHandler.post {
+                synchronized(stateChangeListeners) {
+                    AppLogger.d(
+                            TAG,
+                            "Notifying ${stateChangeListeners.size} listeners about state change"
+                    )
+                    stateChangeListeners.forEach { it.invoke() }
+                }
+            }
+        }
+
+        private fun isSuiBackendAvailable(): Boolean {
+            return try {
+                if (Shizuku.pingBinder()) {
+                    AppLogger.i(TAG, "检测到Sui/Shizuku后端可用（pingBinder）")
+                    true
+                } else {
+                    val binder = Shizuku.getBinder()
+                    val binderAlive = binder != null && binder.isBinderAlive
+                    if (binderAlive) {
+                        AppLogger.i(TAG, "检测到Sui/Shizuku后端可用（binder alive）")
+                    }
+                    binderAlive
+                }
+            } catch (e: Exception) {
+                AppLogger.d(TAG, "Sui后端检测失败: ${e.message}")
+                false
+            }
+        }
+
+        /**
+         * 检查Shizuku是否已安装（兼容Sui后端）
+         * @param context Android上下文
+         * @return 是否已安装Shizuku或可用Sui后端
+         */
+        fun isShizukuInstalled(context: Context): Boolean {
+            return try {
+                val packageInfo = context.packageManager.getPackageInfo(SHIZUKU_PACKAGE_NAME, 0)
+                val versionName = packageInfo.versionName
+                AppLogger.i(TAG, "检测到已安装Shizuku，版本: $versionName")
+                true
+            } catch (e: PackageManager.NameNotFoundException) {
+                val suiBackendAvailable = isSuiBackendAvailable()
+                if (suiBackendAvailable) {
+                    AppLogger.i(TAG, "未检测到Shizuku应用，但检测到Sui后端可用")
+                } else {
+                    AppLogger.i(TAG, "未检测到已安装的Shizuku，也未检测到可用的Sui后端")
+                }
+                suiBackendAvailable
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "检查Shizuku/Sui可用性时出错", e)
+                false
+            }
+        }
+
+        /**
+         * 获取最后一次服务检查的错误信息
+         * @return 错误信息
+         */
+        fun getServiceErrorMessage(): String {
+            return lastServiceErrorMessage
+        }
+        
+        /**
+         * 获取最后一次权限检查的错误信息
+         * @return 错误信息
+         */
+        fun getPermissionErrorMessage(): String {
+            return lastPermissionErrorMessage
+        }
+
+        private fun cacheConnection(uid: Int, binder: IBinder): ShizukuConnectionInfo {
+            val connection = ShizukuConnectionInfo(uid, binder)
+            cachedConnection = connection
+            isServiceAvailable = true
+            lastServiceErrorMessage = ""
+            return connection
+        }
+
+        private fun clearConnection(errorMessage: String) {
+            cachedConnection = null
+            isServiceAvailable = false
+            lastServiceErrorMessage = errorMessage
+        }
+
+        private fun getCachedConnection(): ShizukuConnectionInfo? {
+            val connection = cachedConnection ?: return null
+            if (!connection.binder.isBinderAlive) {
+                clearConnection("Shizuku binder is not alive")
+                return null
+            }
+            lastServiceErrorMessage = ""
+            return connection
+        }
+
+        private fun isAllowedShizukuUid(uid: Int): Boolean {
+            return uid == 0 || uid == 2000
+        }
+
+        internal fun getOrResolveShizukuConnection(): ShizukuConnectionInfo? {
+            getCachedConnection()?.let { return it }
+
+            try {
+                val pingSucceeded =
+                        try {
+                            Shizuku.pingBinder()
+                        } catch (e: Exception) {
+                            AppLogger.e(TAG, "Shizuku pingBinder check failed", e)
+                            clearConnection("Shizuku ping failed: ${e.message}")
+                            return null
+                        }
+
+                if (pingSucceeded) {
+                    AppLogger.d(TAG, "Shizuku pingBinder succeeded")
+                }
+
+                val binder =
+                        try {
+                            Shizuku.getBinder()
+                        } catch (e: Exception) {
+                            AppLogger.e(TAG, "Binder check failed", e)
+                            clearConnection("Failed to get binder: ${e.message}")
+                            return null
+                        }
+
+                if (binder == null) {
+                    clearConnection("Shizuku binder is null")
+                    return null
+                }
+
+                if (!binder.isBinderAlive) {
+                    clearConnection("Shizuku binder is not alive")
+                    return null
+                }
+
+                if (!pingSucceeded) {
+                    AppLogger.d(TAG, "Shizuku binder is alive")
+                }
+
+                val uid =
+                        try {
+                            Shizuku.getUid()
+                        } catch (e: Exception) {
+                            AppLogger.e(TAG, "UID check failed", e)
+                            clearConnection("Failed to get UID: ${e.message}")
+                            return null
+                        }
+
+                if (!isAllowedShizukuUid(uid)) {
+                    clearConnection("Invalid Shizuku UID: $uid, expected 0 or 2000")
+                    return null
+                }
+
+                return cacheConnection(uid, binder)
+            } catch (e: Throwable) {
+                AppLogger.e(TAG, "Critical error checking Shizuku service", e)
+                clearConnection("Critical error: ${e.message}")
+                return null
+            }
+        }
+
+        /**
+         * 检查Shizuku服务是否正在运行
+         * @return 服务是否运行
+         */
+        fun isShizukuServiceRunning(): Boolean {
+            return getOrResolveShizukuConnection() != null
+        }
+
+        /**
+         * 检查应用是否有Shizuku权限
+         * @return 是否有权限
+         */
+        fun hasShizukuPermission(): Boolean {
+            try {
+                if (getOrResolveShizukuConnection() == null) {
+                    lastPermissionErrorMessage = "Shizuku service not running: $lastServiceErrorMessage"
+                    return false
+                }
+
+                // 适用于Shizuku 13.x版本的权限检查
+                val result = Shizuku.checkSelfPermission()
+                val granted = result == PackageManager.PERMISSION_GRANTED
+                if (granted) {
+                    lastPermissionErrorMessage = ""
+                    return true
+                } else {
+                    lastPermissionErrorMessage = "Shizuku permission not granted (code: $result)"
+                    return false
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error checking Shizuku permission", e)
+                lastPermissionErrorMessage = "Error checking permission: ${e.message}"
+                return false
+            }
+        }
+
+        /**
+         * 请求Shizuku权限
+         * @param onResult 权限请求结果回调，仅返回是否授予权限
+         */
+        fun requestShizukuPermission(onResult: (Boolean) -> Unit) {
+            val serviceRunning = isShizukuServiceRunning()
+            if (!serviceRunning) {
+                AppLogger.e(TAG, "Cannot request permission: $lastServiceErrorMessage")
+                onResult(false)
+                return
+            }
+
+            val hasPermission = hasShizukuPermission()
+            if (hasPermission) {
+                AppLogger.d(TAG, "Permission already granted")
+                onResult(true)
+                notifyStateChanged()
+                return
+            }
+
+            AppLogger.d(TAG, "Requesting Shizuku permission")
+
+            // 移除之前的监听器避免重复
+            try {
+                if (permissionRequestListenerRegistered) {
+                    Shizuku.removeRequestPermissionResultListener { _, _ -> }
+                    permissionRequestListenerRegistered = false
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error removing existing permission listener", e)
+            }
+
+            try {
+                val requestCode = 100
+
+                AppLogger.d(TAG, "Setting up permission result listener")
+
+                Shizuku.addRequestPermissionResultListener { code, grantResult ->
+                    AppLogger.d(TAG, "Permission result received: code=$code, result=$grantResult")
+                    if (code == requestCode) {
+                        val granted = grantResult == PackageManager.PERMISSION_GRANTED
+                        AppLogger.d(TAG, "Shizuku permission request result: $granted")
+                        onResult(granted)
+                        if (granted) {
+                            // 权限授予时触发状态变更通知
+                            notifyStateChanged()
+                        }
+
+                        // 权限请求完成后移除监听器
+                        try {
+                            Shizuku.removeRequestPermissionResultListener { _, _ -> }
+                            permissionRequestListenerRegistered = false
+                        } catch (e: Exception) {
+                            AppLogger.e(TAG, "Error removing permission listener", e)
+                        }
+                    }
+                }
+                permissionRequestListenerRegistered = true
+
+                // 请求权限
+                AppLogger.d(TAG, "Calling Shizuku.requestPermission($requestCode)")
+                Shizuku.requestPermission(requestCode)
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error requesting Shizuku permission", e)
+                onResult(false)
+            }
+        }
+
+        /** 初始化Shizuku绑定 */
+        fun initialize() {
+            AppLogger.d(TAG, "Initializing Shizuku")
+
+            // 重置服务状态
+            isServiceAvailable = false
+            cachedConnection = null
+            lastServiceErrorMessage = ""
+            lastPermissionErrorMessage = ""
+
+            // 移除之前的监听器避免重复
+            if (binderReceivedListenerRegistered) {
+                try {
+                    Shizuku.removeBinderReceivedListener {}
+                    Shizuku.removeBinderDeadListener {}
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "Error removing binder listeners", e)
+                }
+                binderReceivedListenerRegistered = false
+            }
+
+            try {
+                // 设置绑定接收监听器
+                Shizuku.addBinderReceivedListener {
+                    AppLogger.d(TAG, "Shizuku binder received")
+                    isServiceAvailable = true
+                    notifyStateChanged()
+
+                    // 当收到binder时主动检查权限状态
+                    mainHandler.post {
+                        try {
+                            val hasPermission = hasShizukuPermission()
+                            AppLogger.d(TAG, "Checking permission after binder received: $hasPermission")
+                        } catch (e: Exception) {
+                            AppLogger.e(TAG, "Error checking permission after binder received", e)
+                        }
+                    }
+                }
+
+                // 设置绑定断开监听器
+                Shizuku.addBinderDeadListener {
+                    AppLogger.d(TAG, "Shizuku binder dead")
+                    isServiceAvailable = false
+                    cachedConnection = null
+                    notifyStateChanged()
+                }
+
+                binderReceivedListenerRegistered = true
+
+                // 立即检查服务是否已经在运行
+                val isRunning = isShizukuServiceRunning()
+                AppLogger.d(TAG, "Initial Shizuku service status check: $isRunning")
+                if (isRunning) {
+                    // 如果服务正在运行，检查权限
+                    mainHandler.post {
+                        try {
+                            val hasPermission = hasShizukuPermission()
+                            AppLogger.d(TAG, "Initial permission check: $hasPermission")
+                            notifyStateChanged()
+                        } catch (e: Exception) {
+                            AppLogger.e(TAG, "Error during initial permission check", e)
+                        }
+                    }
+                } else {
+                    // 如果服务未运行，500毫秒后再次检查以防初始化延迟
+                    mainHandler.postDelayed(
+                            {
+                                val retryCheck = isShizukuServiceRunning()
+                                AppLogger.d(TAG, "Delayed service status check: $retryCheck")
+                                if (retryCheck) {
+                                    notifyStateChanged()
+                                }
+                            },
+                            500
+                    )
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Error initializing Shizuku", e)
+            }
+        }
+
+        /**
+         * 获取Shizuku启动说明
+         * @param context Android上下文
+         * @return Shizuku启动指南
+         */
+        fun getShizukuStartupInstructions(context: Context): String {
+            return context.getString(R.string.shizuku_start_service_intro) +
+                    context.getString(R.string.shizuku_step1_ensure_installed) +
+                    context.getString(R.string.shizuku_step2_adb_command) +
+                    "   adb shell sh /sdcard/Android/data/moe.shizuku.privileged.api/start.sh\n" +
+                    context.getString(R.string.shizuku_or) +
+                    context.getString(R.string.shizuku_step2_follow_instructions)
+        }
+    }
+}

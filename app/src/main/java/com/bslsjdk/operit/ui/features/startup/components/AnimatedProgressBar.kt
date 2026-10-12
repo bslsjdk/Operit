@@ -1,1 +1,136 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc3RhcnR1cC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5BbmltYXRhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLkZhc3RPdXRTbG93SW5FYXNpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuTGluZWFyRWFzaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLnR3ZWVuCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkxpbmVhclByb2dyZXNzSW5kaWNhdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZGVyaXZlZFN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVGbG9hdFN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuU3Ryb2tlQ2FwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQga290bGluLm1hdGguYWJzCmltcG9ydCBrb3RsaW4ubWF0aC5tYXgKaW1wb3J0IGtvdGxpbi5tYXRoLm1pbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKCi8qKgogKiDotoXlubPmu5Hov5vluqbmnaEKICoKICog55u45q+U5qCH5YeG55qETGluZWFyUHJvZ3Jlc3NJbmRpY2F0b3LvvIzmj5DkvpvkuobotoXlubPmu5HnmoTov5vluqbov4fmuKHmlYjmnpzvvIwg5Y2z5L2/6L+b5bqm5YC85Y+Y5YyW5b6I5b+r77yM5Lmf6IO95a6e546w5bmz5ruR55qE5o+S5YC85Yqo55S75pWI5p6c44CCCiAqIOWGhemDqOS9v+eUqOaZuuiDveaPkuWAvOezu+e7n++8jOehruS/nei/m+W6puadoeWni+e7iOW5s+a7kei/h+a4oe+8jOS4jeWHuueOsOi3s+i3g+OAggogKgogKiBAcGFyYW0gcHJvZ3Jlc3Mg5b2T5YmN6L+b5bqm5YC8ICgwLjAtMS4wKQogKiBAcGFyYW0gbW9kaWZpZXIg5L+u6aWw56ymCiAqIEBwYXJhbSBoZWlnaHQg6L+b5bqm5p2h6auY5bqmCiAqIEBwYXJhbSB0cmFja0NvbG9yIOi9qOmBk+minOiJsgogKiBAcGFyYW0gcHJvZ3Jlc3NDb2xvciDov5vluqbpopzoibIKICogQHBhcmFtIGludGVybWVkaWF0ZVN0ZXBzIOS4remXtOi/h+a4oeatpeaVsAogKiBAcGFyYW0gc3RlcER1cmF0aW9uIOavj+atpeWKqOeUu+aMgee7reaXtumXtCjmr6vnp5IpCiAqIEBwYXJhbSBtaW5Qcm9ncmVzc0RlbHRhIOacgOWwj+i/m+W6puWPmOWMlumYiOWAvO+8jOWwj+S6juatpOWAvOeahOWPmOWMluWwhuS9v+eUqOabtOeugOWNleeahOWKqOeUuwogKi8KQENvbXBvc2FibGUKZnVuIFNtb290aExpbmVhclByb2dyZXNzSW5kaWNhdG9yKAogICAgICAgIHByb2dyZXNzOiBGbG9hdCwKICAgICAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgICAgICBoZWlnaHQ6IERwID0gOC5kcCwKICAgICAgICB0cmFja0NvbG9yOiBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudCwKICAgICAgICBwcm9ncmVzc0NvbG9yOiBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5LAogICAgICAgIGludGVybWVkaWF0ZVN0ZXBzOiBJbnQgPSA4LCAvLyDlh4/lsJHpu5jorqTmraXmlbAKICAgICAgICBzdGVwRHVyYXRpb246IEludCA9IDgwLCAvLyDlh4/lsJHmr4/mraXliqjnlLvml7bpl7QKICAgICAgICBtaW5Qcm9ncmVzc0RlbHRhOiBGbG9hdCA9IDAuMDVmIC8vIOWPr+mFjee9rueahOacgOWwj+WPmOWMlumYiOWAvAopIHsKICAgIC8vIOiusOS9j+S4iuS4gOasoeeahOebruagh+i/m+W6puWAvAogICAgdmFyIGxhc3RUYXJnZXRQcm9ncmVzcyBieSByZW1lbWJlciB7IG11dGFibGVGbG9hdFN0YXRlT2YoMGYpIH0KCiAgICAvLyDlvZPliY3liqjnlLvov5vluqblgLwKICAgIHZhbCBhbmltYXRlZFByb2dyZXNzID0gcmVtZW1iZXIgeyBBbmltYXRhYmxlKDBmKSB9CgogICAgLy8g5piv5ZCm5piv6aaW5qyh5riy5p+TCiAgICB2YXIgaXNGaXJzdFJlbmRlciBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKHRydWUpIH0KCiAgICAvLyDkvb/nlKjorrDlv4bljJbmoIforrDmnaXlh4/lsJHkuI3lv4XopoHnmoTph43mlrDorqHnrpcKICAgIHZhbCBjbGFtcGVkUHJvZ3Jlc3MgYnkgcmVtZW1iZXIocHJvZ3Jlc3MpIHsgZGVyaXZlZFN0YXRlT2YgeyBtYXgoMGYsIG1pbigxZiwgcHJvZ3Jlc3MpKSB9IH0KCiAgICBMYXVuY2hlZEVmZmVjdChjbGFtcGVkUHJvZ3Jlc3MpIHsKICAgICAgICAvLyDlpoLmnpzmmK/pppbmrKHmuLLmn5PvvIznm7TmjqXorr7nva7liLDliJ3lp4vlgLwKICAgICAgICBpZiAoaXNGaXJzdFJlbmRlcikgewogICAgICAgICAgICBhbmltYXRlZFByb2dyZXNzLnNuYXBUbyhjbGFtcGVkUHJvZ3Jlc3MpCiAgICAgICAgICAgIGxhc3RUYXJnZXRQcm9ncmVzcyA9IGNsYW1wZWRQcm9ncmVzcwogICAgICAgICAgICBpc0ZpcnN0UmVuZGVyID0gZmFsc2UKICAgICAgICAgICAgcmV0dXJuQExhdW5jaGVkRWZmZWN0CiAgICAgICAgfQoKICAgICAgICAvLyDorqHnrpfov5vluqblj5jljJbph48KICAgICAgICB2YWwgcHJvZ3Jlc3NEZWx0YSA9IGNsYW1wZWRQcm9ncmVzcyAtIGxhc3RUYXJnZXRQcm9ncmVzcwoKICAgICAgICAvLyDlpoLmnpzlj5jljJblvojlsI/vvIznm7TmjqXkvb/nlKjnroDljZXliqjnlLsKICAgICAgICBpZiAoYWJzKHByb2dyZXNzRGVsdGEpIDwgbWluUHJvZ3Jlc3NEZWx0YSkgewogICAgICAgICAgICBhbmltYXRlZFByb2dyZXNzLmFuaW1hdGVUbygKICAgICAgICAgICAgICAgICAgICB0YXJnZXRWYWx1ZSA9IGNsYW1wZWRQcm9ncmVzcywKICAgICAgICAgICAgICAgICAgICBhbmltYXRpb25TcGVjID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR3ZWVuKGR1cmF0aW9uTWlsbGlzID0gc3RlcER1cmF0aW9uICogMiwgZWFzaW5nID0gRmFzdE91dFNsb3dJbkVhc2luZykKICAgICAgICAgICAgKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIC8vIOWcqElP57q/56iL5LiK6aKE6K6h566X5o+S5YC85q2l6aqk77yM5YeP5bCRVUnnur/nqIvotJ/mi4UKICAgICAgICAgICAgdmFsIHN0ZXBzID0KICAgICAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5EZWZhdWx0KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGdlbmVyYXRlU3RlcHMobGFzdFRhcmdldFByb2dyZXNzLCBjbGFtcGVkUHJvZ3Jlc3MsIGludGVybWVkaWF0ZVN0ZXBzKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOmAkOatpeaJp+ihjOS4remXtOi/h+a4oeWKqOeUuwogICAgICAgICAgICBmb3IgKHN0ZXAgaW4gc3RlcHMpIHsKICAgICAgICAgICAgICAgIGFuaW1hdGVkUHJvZ3Jlc3MuYW5pbWF0ZVRvKAogICAgICAgICAgICAgICAgICAgICAgICB0YXJnZXRWYWx1ZSA9IHN0ZXAsCiAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvblNwZWMgPSB0d2VlbihkdXJhdGlvbk1pbGxpcyA9IHN0ZXBEdXJhdGlvbiwgZWFzaW5nID0gTGluZWFyRWFzaW5nKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyDmm7TmlrDkuIrkuIDmrKHnm67moIfov5vluqYKICAgICAgICBsYXN0VGFyZ2V0UHJvZ3Jlc3MgPSBjbGFtcGVkUHJvZ3Jlc3MKICAgIH0KCiAgICAvLyDkvb/nlKhNYXRlcmlhbERlc2lnbueahExpbmVhclByb2dyZXNzSW5kaWNhdG9yCiAgICBMaW5lYXJQcm9ncmVzc0luZGljYXRvcigKICAgICAgICAgICAgcHJvZ3Jlc3MgPSB7IGFuaW1hdGVkUHJvZ3Jlc3MudmFsdWUgfSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllci5maWxsTWF4V2lkdGgoKS5oZWlnaHQoaGVpZ2h0KSwKICAgICAgICAgICAgdHJhY2tDb2xvciA9IHRyYWNrQ29sb3IsCiAgICAgICAgICAgIGNvbG9yID0gcHJvZ3Jlc3NDb2xvciwKICAgICAgICAgICAgc3Ryb2tlQ2FwID0gU3Ryb2tlQ2FwLlJvdW5kCiAgICApCn0KCi8qKiDnlJ/miJDkuIDns7vliJfku47otbflp4vov5vluqbliLDnm67moIfov5vluqbnmoTlubPmu5Hov4fmuKHmraXpqqQg5LyY5YyW54mI5pys5L2/55So5pu06auY5pWI55qE566X5rOV55Sf5oiQ5q2l6aqkICovCnByaXZhdGUgZnVuIGdlbmVyYXRlU3RlcHMoc3RhcnQ6IEZsb2F0LCBlbmQ6IEZsb2F0LCBzdGVwczogSW50KTogTGlzdDxGbG9hdD4gewogICAgaWYgKHN0ZXBzIDw9IDEpIHJldHVybiBsaXN0T2YoZW5kKQoKICAgIC8vIOmihOWIhumFjeWbuuWumuWkp+Wwj+eahOWIl+ihqOS7pemBv+WFjeWKqOaAgeiwg+aVtOWkp+WwjwogICAgcmV0dXJuIExpc3Qoc3RlcHMpIHsgaSAtPgogICAgICAgIHZhbCB0ID0gKGkgKyAxKS50b0Zsb2F0KCkgLyBzdGVwcwogICAgICAgIHZhbCBlYXNlZFQgPSBlYXNlSW5PdXRDdWJpYyh0KQogICAgICAgIHN0YXJ0ICsgKGVuZCAtIHN0YXJ0KSAqIGVhc2VkVAogICAgfQp9CgovKiog5LyY5YyW55qE5LiJ5qyh5pa557yT5Yqo5Ye95pWwICovCnByaXZhdGUgZnVuIGVhc2VJbk91dEN1YmljKHQ6IEZsb2F0KTogRmxvYXQgewogICAgcmV0dXJuIGlmICh0IDwgMC41ZikgewogICAgICAgIDQgKiB0ICogdCAqIHQKICAgIH0gZWxzZSB7CiAgICAgICAgdmFsIHAgPSAyICogdCAtIDIKICAgICAgICAxICsgMC41ZiAqIChwICogcCAqIHApCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.startup.components
+
+import androidx.compose.animation.core.Animatable
+import androidx.compose.animation.core.FastOutSlowInEasing
+import androidx.compose.animation.core.LinearEasing
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.derivedStateOf
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableFloatStateOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import kotlin.math.abs
+import kotlin.math.max
+import kotlin.math.min
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+/**
+ * 超平滑进度条
+ *
+ * 相比标准的LinearProgressIndicator，提供了超平滑的进度过渡效果， 即使进度值变化很快，也能实现平滑的插值动画效果。
+ * 内部使用智能插值系统，确保进度条始终平滑过渡，不出现跳跃。
+ *
+ * @param progress 当前进度值 (0.0-1.0)
+ * @param modifier 修饰符
+ * @param height 进度条高度
+ * @param trackColor 轨道颜色
+ * @param progressColor 进度颜色
+ * @param intermediateSteps 中间过渡步数
+ * @param stepDuration 每步动画持续时间(毫秒)
+ * @param minProgressDelta 最小进度变化阈值，小于此值的变化将使用更简单的动画
+ */
+@Composable
+fun SmoothLinearProgressIndicator(
+        progress: Float,
+        modifier: Modifier = Modifier,
+        height: Dp = 8.dp,
+        trackColor: androidx.compose.ui.graphics.Color = MaterialTheme.colorScheme.surfaceVariant,
+        progressColor: androidx.compose.ui.graphics.Color = MaterialTheme.colorScheme.primary,
+        intermediateSteps: Int = 8, // 减少默认步数
+        stepDuration: Int = 80, // 减少每步动画时间
+        minProgressDelta: Float = 0.05f // 可配置的最小变化阈值
+) {
+    // 记住上一次的目标进度值
+    var lastTargetProgress by remember { mutableFloatStateOf(0f) }
+
+    // 当前动画进度值
+    val animatedProgress = remember { Animatable(0f) }
+
+    // 是否是首次渲染
+    var isFirstRender by remember { mutableStateOf(true) }
+
+    // 使用记忆化标记来减少不必要的重新计算
+    val clampedProgress by remember(progress) { derivedStateOf { max(0f, min(1f, progress)) } }
+
+    LaunchedEffect(clampedProgress) {
+        // 如果是首次渲染，直接设置到初始值
+        if (isFirstRender) {
+            animatedProgress.snapTo(clampedProgress)
+            lastTargetProgress = clampedProgress
+            isFirstRender = false
+            return@LaunchedEffect
+        }
+
+        // 计算进度变化量
+        val progressDelta = clampedProgress - lastTargetProgress
+
+        // 如果变化很小，直接使用简单动画
+        if (abs(progressDelta) < minProgressDelta) {
+            animatedProgress.animateTo(
+                    targetValue = clampedProgress,
+                    animationSpec =
+                            tween(durationMillis = stepDuration * 2, easing = FastOutSlowInEasing)
+            )
+        } else {
+            // 在IO线程上预计算插值步骤，减少UI线程负担
+            val steps =
+                    withContext(Dispatchers.Default) {
+                        generateSteps(lastTargetProgress, clampedProgress, intermediateSteps)
+                    }
+
+            // 逐步执行中间过渡动画
+            for (step in steps) {
+                animatedProgress.animateTo(
+                        targetValue = step,
+                        animationSpec = tween(durationMillis = stepDuration, easing = LinearEasing)
+                )
+            }
+        }
+
+        // 更新上一次目标进度
+        lastTargetProgress = clampedProgress
+    }
+
+    // 使用MaterialDesign的LinearProgressIndicator
+    LinearProgressIndicator(
+            progress = { animatedProgress.value },
+            modifier = modifier.fillMaxWidth().height(height),
+            trackColor = trackColor,
+            color = progressColor,
+            strokeCap = StrokeCap.Round
+    )
+}
+
+/** 生成一系列从起始进度到目标进度的平滑过渡步骤 优化版本使用更高效的算法生成步骤 */
+private fun generateSteps(start: Float, end: Float, steps: Int): List<Float> {
+    if (steps <= 1) return listOf(end)
+
+    // 预分配固定大小的列表以避免动态调整大小
+    return List(steps) { i ->
+        val t = (i + 1).toFloat() / steps
+        val easedT = easeInOutCubic(t)
+        start + (end - start) * easedT
+    }
+}
+
+/** 优化的三次方缓动函数 */
+private fun easeInOutCubic(t: Float): Float {
+    return if (t < 0.5f) {
+        4 * t * t * t
+    } else {
+        val p = 2 * t - 2
+        1 + 0.5f * (p * p * p)
+    }
+}

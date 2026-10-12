@@ -1,1 +1,169 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tY3AucGx1Z2lucwoKaW1wb3J0IGFuZHJvaWQudXRpbC5Mb2cKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLm1jcC5NY3BSdW50aW1lQ2FsbFJlc3VsdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMubWNwLk1jcFJ1bnRpbWVEZXNjcmlwdG9yCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5tY3AuTWNwUnVudGltZVNlc3Npb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLm1jcC5NY3BSdW50aW1lVG9vbAppbXBvcnQgaW8ua3Rvci5jbGllbnQuSHR0cENsaWVudAppbXBvcnQgaW8ua3Rvci5jbGllbnQuZW5naW5lLm9raHR0cC5Pa0h0dHAKaW1wb3J0IGlvLmt0b3IuY2xpZW50LnBsdWdpbnMuSHR0cFRpbWVvdXQKaW1wb3J0IGlvLmt0b3IuY2xpZW50LnBsdWdpbnMuc3NlLlNTRQppbXBvcnQgaW8ua3Rvci5jbGllbnQucmVxdWVzdC5IdHRwUmVxdWVzdEJ1aWxkZXIKaW1wb3J0IGlvLmt0b3IuY2xpZW50LnJlcXVlc3QuaGVhZGVycwppbXBvcnQgaW8ua3Rvci5odHRwLkh0dHBIZWFkZXJzCmltcG9ydCBpby5tb2RlbGNvbnRleHRwcm90b2NvbC5rb3RsaW4uc2RrLmNsaWVudC5DbGllbnQKaW1wb3J0IGlvLm1vZGVsY29udGV4dHByb3RvY29sLmtvdGxpbi5zZGsuY2xpZW50LlNzZUNsaWVudFRyYW5zcG9ydAppbXBvcnQgaW8ubW9kZWxjb250ZXh0cHJvdG9jb2wua290bGluLnNkay5jbGllbnQuU3RyZWFtYWJsZUh0dHBDbGllbnRUcmFuc3BvcnQKaW1wb3J0IGlvLm1vZGVsY29udGV4dHByb3RvY29sLmtvdGxpbi5zZGsudHlwZXMuQ2FsbFRvb2xSZXN1bHQKaW1wb3J0IGlvLm1vZGVsY29udGV4dHByb3RvY29sLmtvdGxpbi5zZGsudHlwZXMuSW1wbGVtZW50YXRpb24KaW1wb3J0IGlvLm1vZGVsY29udGV4dHByb3RvY29sLmtvdGxpbi5zZGsudHlwZXMuTGlzdFRvb2xzUmVxdWVzdAppbXBvcnQgaW8ubW9kZWxjb250ZXh0cHJvdG9jb2wua290bGluLnNkay50eXBlcy5NY3BKc29uCmltcG9ydCBpby5tb2RlbGNvbnRleHRwcm90b2NvbC5rb3RsaW4uc2RrLnR5cGVzLlBhZ2luYXRlZFJlcXVlc3RQYXJhbXMKaW1wb3J0IGlvLm1vZGVsY29udGV4dHByb3RvY29sLmtvdGxpbi5zZGsudHlwZXMuVG9vbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCi8qKiBSZW1vdGUgTUNQIHJ1bnRpbWUgYmFja2VkIGRpcmVjdGx5IGJ5IHRoZSBLb3RsaW4gU0RLIGFuZCBLdG9yLiAqLwpjbGFzcyBSZW1vdGVNY3BSdW50aW1lU2Vzc2lvbigKICAgIHByaXZhdGUgdmFsIHBsdWdpbklkOiBTdHJpbmcsCiAgICBwcml2YXRlIHZhbCBkZXNjcmlwdG9yOiBNY3BSdW50aW1lRGVzY3JpcHRvci5SZW1vdGUKKSA6IE1jcFJ1bnRpbWVTZXNzaW9uIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJSZW1vdGVNY3BSdW50aW1lU2Vzc2lvbiIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBDT05ORUNUX1RJTUVPVVRfTUlMTElTID0gMTVfMDAwTAogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFJFTU9URV9SRVNVTFRfVElNRU9VVF9NSUxMSVMgPSA2MF8wMDBMCiAgICB9CgogICAgcHJpdmF0ZSB2YWwgaHR0cENsaWVudCA9IEh0dHBDbGllbnQoT2tIdHRwKSB7CiAgICAgICAgaW5zdGFsbChIdHRwVGltZW91dCkgewogICAgICAgICAgICBjb25uZWN0VGltZW91dE1pbGxpcyA9IENPTk5FQ1RfVElNRU9VVF9NSUxMSVMKICAgICAgICAgICAgcmVxdWVzdFRpbWVvdXRNaWxsaXMgPSBSRU1PVEVfUkVTVUxUX1RJTUVPVVRfTUlMTElTCiAgICAgICAgICAgIC8vIFN0cmVhbWFibGUgSFRUUCBkZWxpdmVycyBhIDIwMiB0b29sIHJlc3VsdCB0aHJvdWdoIHRoZSBleGlzdGluZyBTU0UgY29ubmVjdGlvbi4KICAgICAgICAgICAgLy8gV2l0aG91dCBhbiBleHBsaWNpdCBpZGxlIHdpbmRvdywgT2tIdHRwJ3Mgc2hvcnQgZGVmYXVsdCBjYW4gY2xvc2UgdGhhdCBzdHJlYW0gZmlyc3QuCiAgICAgICAgICAgIHNvY2tldFRpbWVvdXRNaWxsaXMgPSBSRU1PVEVfUkVTVUxUX1RJTUVPVVRfTUlMTElTCiAgICAgICAgfQogICAgICAgIGluc3RhbGwoU1NFKQogICAgfQoKICAgIHByaXZhdGUgdmFyIGNsaWVudDogQ2xpZW50PyA9IG51bGwKICAgIHByaXZhdGUgdmFyIGNvbm5lY3RlZCA9IGZhbHNlCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gY29ubmVjdCgpOiBCb29sZWFuID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICBpZiAoY29ubmVjdGVkICYmIGNsaWVudCAhPSBudWxsKSByZXR1cm5Ad2l0aENvbnRleHQgdHJ1ZQoKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgdHJhbnNwb3J0ID0gd2hlbiAoZGVzY3JpcHRvci5jb25uZWN0aW9uVHlwZSkgewogICAgICAgICAgICAgICAgImh0dHBTdHJlYW0iIC0+IFN0cmVhbWFibGVIdHRwQ2xpZW50VHJhbnNwb3J0KAogICAgICAgICAgICAgICAgICAgIGNsaWVudCA9IGh0dHBDbGllbnQsCiAgICAgICAgICAgICAgICAgICAgdXJsID0gZGVzY3JpcHRvci5lbmRwb2ludCwKICAgICAgICAgICAgICAgICAgICByZXF1ZXN0QnVpbGRlciA9IHsgZGVzY3JpcHRvci5hcHBseUhlYWRlcnModGhpcykgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgInNzZSIgLT4gU3NlQ2xpZW50VHJhbnNwb3J0KAogICAgICAgICAgICAgICAgICAgIGNsaWVudCA9IGh0dHBDbGllbnQsCiAgICAgICAgICAgICAgICAgICAgdXJsU3RyaW5nID0gZGVzY3JpcHRvci5lbmRwb2ludCwKICAgICAgICAgICAgICAgICAgICByZXF1ZXN0QnVpbGRlciA9IHsgZGVzY3JpcHRvci5hcHBseUhlYWRlcnModGhpcykgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgZWxzZSAtPiBlcnJvcigiVW5zdXBwb3J0ZWQgTUNQIGNvbm5lY3Rpb24gdHlwZTogJHtkZXNjcmlwdG9yLmNvbm5lY3Rpb25UeXBlfSIpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBtY3BDbGllbnQgPSBDbGllbnQoCiAgICAgICAgICAgICAgICBjbGllbnRJbmZvID0gSW1wbGVtZW50YXRpb24oCiAgICAgICAgICAgICAgICAgICAgbmFtZSA9ICJPcGVyaXQiLAogICAgICAgICAgICAgICAgICAgIHZlcnNpb24gPSAibWNwLXJ1bnRpbWUiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICAgICAgbWNwQ2xpZW50LmNvbm5lY3QodHJhbnNwb3J0KQogICAgICAgICAgICBjbGllbnQgPSBtY3BDbGllbnQKICAgICAgICAgICAgY29ubmVjdGVkID0gdHJ1ZQogICAgICAgICAgICB0cnVlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGNvbm5lY3RlZCA9IGZhbHNlCiAgICAgICAgICAgIGNsaWVudCA9IG51bGwKICAgICAgICAgICAgTG9nLmUoVEFHLCAiRmFpbGVkIHRvIGNvbm5lY3QgcmVtb3RlIE1DUCBwbHVnaW4gJHBsdWdpbklkOiAke2UubWVzc2FnZX0iLCBlKQogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaXNDb25uZWN0ZWQoKTogQm9vbGVhbiA9IGNvbm5lY3RlZCAmJiBjbGllbnQgIT0gbnVsbAoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGlzQWN0aXZlKCk6IEJvb2xlYW4gPSBpc0Nvbm5lY3RlZCgpCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gbGlzdFRvb2xzKCk6IExpc3Q8TWNwUnVudGltZVRvb2w+IHsKICAgICAgICB2YWwgY2xpZW50ID0gcmVxdWlyZUNsaWVudCgpCiAgICAgICAgdmFsIHRvb2xzID0gbXV0YWJsZUxpc3RPZjxUb29sPigpCiAgICAgICAgdmFyIHJlc3VsdCA9IGNsaWVudC5saXN0VG9vbHMoKQogICAgICAgIHRvb2xzICs9IHJlc3VsdC50b29scwoKICAgICAgICB3aGlsZSAocmVzdWx0Lm5leHRDdXJzb3IgIT0gbnVsbCkgewogICAgICAgICAgICByZXN1bHQgPSBjbGllbnQubGlzdFRvb2xzKAogICAgICAgICAgICAgICAgTGlzdFRvb2xzUmVxdWVzdChQYWdpbmF0ZWRSZXF1ZXN0UGFyYW1zKGN1cnNvciA9IHJlc3VsdC5uZXh0Q3Vyc29yKSkKICAgICAgICAgICAgKQogICAgICAgICAgICB0b29scyArPSByZXN1bHQudG9vbHMKICAgICAgICB9CgogICAgICAgIHJldHVybiB0b29scy5tYXAoVG9vbDo6dG9SdW50aW1lVG9vbCkKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBjYWxsVG9vbCgKICAgICAgICBuYW1lOiBTdHJpbmcsCiAgICAgICAgYXJndW1lbnRzOiBNYXA8U3RyaW5nLCBBbnk/PgogICAgKTogTWNwUnVudGltZUNhbGxSZXN1bHQgewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgcmVzcG9uc2UgPSByZXF1aXJlQ2xpZW50KCkuY2FsbFRvb2wobmFtZSA9IG5hbWUsIGFyZ3VtZW50cyA9IGFyZ3VtZW50cykKICAgICAgICAgICAgdmFsIHJlc3BvbnNlSnNvbiA9IEpTT05PYmplY3QoTWNwSnNvbi5lbmNvZGVUb1N0cmluZyhDYWxsVG9vbFJlc3VsdC5zZXJpYWxpemVyKCksIHJlc3BvbnNlKSkKICAgICAgICAgICAgTWNwUnVudGltZUNhbGxSZXN1bHQoCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gcmVzcG9uc2UuaXNFcnJvciAhPSB0cnVlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzcG9uc2VKc29uLAogICAgICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gcmVzcG9uc2VKc29uLm9wdFN0cmluZygiY29udGVudCIpLnRha2VJZiB7IHJlc3BvbnNlLmlzRXJyb3IgPT0gdHJ1ZSB9CiAgICAgICAgICAgICkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgY29ubmVjdGVkID0gZmFsc2UKICAgICAgICAgICAgTG9nLmUoVEFHLCAiRmFpbGVkIHRvIGNhbGwgTUNQIHRvb2wgJHBsdWdpbklkOiRuYW1lOiAke2UubWVzc2FnZX0iLCBlKQogICAgICAgICAgICB0aHJvdyBlCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGNsb3NlKCkgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIGNvbm5lY3RlZCA9IGZhbHNlCiAgICAgICAgdmFsIGN1cnJlbnRDbGllbnQgPSBjbGllbnQKICAgICAgICBjbGllbnQgPSBudWxsCiAgICAgICAgaWYgKGN1cnJlbnRDbGllbnQgIT0gbnVsbCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgY3VycmVudENsaWVudC5jbG9zZSgpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgTG9nLmUoVEFHLCAiRmFpbGVkIHRvIGNsb3NlIHJlbW90ZSBNQ1AgcGx1Z2luICRwbHVnaW5JZDogJHtlLm1lc3NhZ2V9IiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBodHRwQ2xpZW50LmNsb3NlKCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXF1aXJlQ2xpZW50KCk6IENsaWVudCA9IGNoZWNrTm90TnVsbChjbGllbnQpIHsKICAgICAgICAiUmVtb3RlIE1DUCBwbHVnaW4gJHBsdWdpbklkIGlzIG5vdCBjb25uZWN0ZWQiCiAgICB9Cn0KCnByaXZhdGUgZnVuIE1jcFJ1bnRpbWVEZXNjcmlwdG9yLlJlbW90ZS5hcHBseUhlYWRlcnMoYnVpbGRlcjogSHR0cFJlcXVlc3RCdWlsZGVyKSB7CiAgICBidWlsZGVyLmhlYWRlcnMgewogICAgICAgIGJlYXJlclRva2VuPy5sZXQgeyBhcHBlbmQoSHR0cEhlYWRlcnMuQXV0aG9yaXphdGlvbiwgIkJlYXJlciAkaXQiKSB9CiAgICAgICAgaGVhZGVycy5mb3JFYWNoIHsgKG5hbWUsIHZhbHVlKSAtPgogICAgICAgICAgICByZW1vdmUobmFtZSkKICAgICAgICAgICAgYXBwZW5kKG5hbWUsIHZhbHVlKQogICAgICAgIH0KICAgIH0KfQoKcHJpdmF0ZSBmdW4gVG9vbC50b1J1bnRpbWVUb29sKCk6IE1jcFJ1bnRpbWVUb29sIHsKICAgIHZhbCBzY2hlbWEgPSBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgIHB1dCgidHlwZSIsIGlucHV0U2NoZW1hLnR5cGUpCiAgICAgICAgaW5wdXRTY2hlbWEucHJvcGVydGllcz8ubGV0IHsgcHV0KCJwcm9wZXJ0aWVzIiwgSlNPTk9iamVjdChpdC50b1N0cmluZygpKSkgfQogICAgICAgIGlucHV0U2NoZW1hLnJlcXVpcmVkPy5sZXQgeyBwdXQoInJlcXVpcmVkIiwgaXQpIH0KICAgICAgICBpbnB1dFNjaGVtYS5kZWZzPy5sZXQgeyBwdXQoIlwkZGVmcyIsIEpTT05PYmplY3QoaXQudG9TdHJpbmcoKSkpIH0KICAgIH0KICAgIHJldHVybiBNY3BSdW50aW1lVG9vbCgKICAgICAgICBuYW1lID0gbmFtZSwKICAgICAgICBkZXNjcmlwdGlvbiA9IGRlc2NyaXB0aW9uLm9yRW1wdHkoKSwKICAgICAgICBpbnB1dFNjaGVtYSA9IHNjaGVtYS50b1N0cmluZygpCiAgICApCn0K
+package com.bslsjdk.operit.data.mcp.plugins
+
+import android.util.Log
+import com.bslsjdk.operit.core.tools.mcp.McpRuntimeCallResult
+import com.bslsjdk.operit.core.tools.mcp.McpRuntimeDescriptor
+import com.bslsjdk.operit.core.tools.mcp.McpRuntimeSession
+import com.bslsjdk.operit.core.tools.mcp.McpRuntimeTool
+import io.ktor.client.HttpClient
+import io.ktor.client.engine.okhttp.OkHttp
+import io.ktor.client.plugins.HttpTimeout
+import io.ktor.client.plugins.sse.SSE
+import io.ktor.client.request.HttpRequestBuilder
+import io.ktor.client.request.headers
+import io.ktor.http.HttpHeaders
+import io.modelcontextprotocol.kotlin.sdk.client.Client
+import io.modelcontextprotocol.kotlin.sdk.client.SseClientTransport
+import io.modelcontextprotocol.kotlin.sdk.client.StreamableHttpClientTransport
+import io.modelcontextprotocol.kotlin.sdk.types.CallToolResult
+import io.modelcontextprotocol.kotlin.sdk.types.Implementation
+import io.modelcontextprotocol.kotlin.sdk.types.ListToolsRequest
+import io.modelcontextprotocol.kotlin.sdk.types.McpJson
+import io.modelcontextprotocol.kotlin.sdk.types.PaginatedRequestParams
+import io.modelcontextprotocol.kotlin.sdk.types.Tool
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONObject
+
+/** Remote MCP runtime backed directly by the Kotlin SDK and Ktor. */
+class RemoteMcpRuntimeSession(
+    private val pluginId: String,
+    private val descriptor: McpRuntimeDescriptor.Remote
+) : McpRuntimeSession {
+    companion object {
+        private const val TAG = "RemoteMcpRuntimeSession"
+        private const val CONNECT_TIMEOUT_MILLIS = 15_000L
+        private const val REMOTE_RESULT_TIMEOUT_MILLIS = 60_000L
+    }
+
+    private val httpClient = HttpClient(OkHttp) {
+        install(HttpTimeout) {
+            connectTimeoutMillis = CONNECT_TIMEOUT_MILLIS
+            requestTimeoutMillis = REMOTE_RESULT_TIMEOUT_MILLIS
+            // Streamable HTTP delivers a 202 tool result through the existing SSE connection.
+            // Without an explicit idle window, OkHttp's short default can close that stream first.
+            socketTimeoutMillis = REMOTE_RESULT_TIMEOUT_MILLIS
+        }
+        install(SSE)
+    }
+
+    private var client: Client? = null
+    private var connected = false
+
+    override suspend fun connect(): Boolean = withContext(Dispatchers.IO) {
+        if (connected && client != null) return@withContext true
+
+        try {
+            val transport = when (descriptor.connectionType) {
+                "httpStream" -> StreamableHttpClientTransport(
+                    client = httpClient,
+                    url = descriptor.endpoint,
+                    requestBuilder = { descriptor.applyHeaders(this) }
+                )
+                "sse" -> SseClientTransport(
+                    client = httpClient,
+                    urlString = descriptor.endpoint,
+                    requestBuilder = { descriptor.applyHeaders(this) }
+                )
+                else -> error("Unsupported MCP connection type: ${descriptor.connectionType}")
+            }
+
+            val mcpClient = Client(
+                clientInfo = Implementation(
+                    name = "Operit",
+                    version = "mcp-runtime"
+                )
+            )
+            mcpClient.connect(transport)
+            client = mcpClient
+            connected = true
+            true
+        } catch (e: Exception) {
+            connected = false
+            client = null
+            Log.e(TAG, "Failed to connect remote MCP plugin $pluginId: ${e.message}", e)
+            false
+        }
+    }
+
+    override fun isConnected(): Boolean = connected && client != null
+
+    override suspend fun isActive(): Boolean = isConnected()
+
+    override suspend fun listTools(): List<McpRuntimeTool> {
+        val client = requireClient()
+        val tools = mutableListOf<Tool>()
+        var result = client.listTools()
+        tools += result.tools
+
+        while (result.nextCursor != null) {
+            result = client.listTools(
+                ListToolsRequest(PaginatedRequestParams(cursor = result.nextCursor))
+            )
+            tools += result.tools
+        }
+
+        return tools.map(Tool::toRuntimeTool)
+    }
+
+    override suspend fun callTool(
+        name: String,
+        arguments: Map<String, Any?>
+    ): McpRuntimeCallResult {
+        return try {
+            val response = requireClient().callTool(name = name, arguments = arguments)
+            val responseJson = JSONObject(McpJson.encodeToString(CallToolResult.serializer(), response))
+            McpRuntimeCallResult(
+                success = response.isError != true,
+                result = responseJson,
+                errorMessage = responseJson.optString("content").takeIf { response.isError == true }
+            )
+        } catch (e: Exception) {
+            connected = false
+            Log.e(TAG, "Failed to call MCP tool $pluginId:$name: ${e.message}", e)
+            throw e
+        }
+    }
+
+    override suspend fun close() = withContext(Dispatchers.IO) {
+        connected = false
+        val currentClient = client
+        client = null
+        if (currentClient != null) {
+            try {
+                currentClient.close()
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed to close remote MCP plugin $pluginId: ${e.message}", e)
+            }
+        }
+        httpClient.close()
+    }
+
+    private fun requireClient(): Client = checkNotNull(client) {
+        "Remote MCP plugin $pluginId is not connected"
+    }
+}
+
+private fun McpRuntimeDescriptor.Remote.applyHeaders(builder: HttpRequestBuilder) {
+    builder.headers {
+        bearerToken?.let { append(HttpHeaders.Authorization, "Bearer $it") }
+        headers.forEach { (name, value) ->
+            remove(name)
+            append(name, value)
+        }
+    }
+}
+
+private fun Tool.toRuntimeTool(): McpRuntimeTool {
+    val schema = JSONObject().apply {
+        put("type", inputSchema.type)
+        inputSchema.properties?.let { put("properties", JSONObject(it.toString())) }
+        inputSchema.required?.let { put("required", it) }
+        inputSchema.defs?.let { put("\$defs", JSONObject(it.toString())) }
+    }
+    return McpRuntimeTool(
+        name = name,
+        description = description.orEmpty(),
+        inputSchema = schema.toString()
+    )
+}

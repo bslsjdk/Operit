@@ -1,1 +1,120 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW4ucHJlZmVyZW5jZXMKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLmNvcmUuRGF0YVN0b3JlCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5QcmVmZXJlbmNlcwppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuZWRpdAppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuc3RyaW5nUHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5wcmVmZXJlbmNlc0RhdGFTdG9yZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy50b2tlbi5tb2RlbC5UYWJDb25maWcKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy50b2tlbi5tb2RlbC5VcmxDb25maWcKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lm1hcAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlY29kZUZyb21TdHJpbmcKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKcHJpdmF0ZSB2YWwgQ29udGV4dC51cmxDb25maWdEYXRhU3RvcmU6IERhdGFTdG9yZTxQcmVmZXJlbmNlcz4gYnkKICAgIHByZWZlcmVuY2VzRGF0YVN0b3JlKG5hbWUgPSAidXJsX2NvbmZpZyIpCgpjbGFzcyBVcmxDb25maWdNYW5hZ2VyKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgdmFsIFVSTF9DT05GSUdfS0VZID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoInVybF9jb25maWciKQogICAgICAgIAogICAgICAgIC8vIOmihOiuvumFjee9rgogICAgICAgIHZhbCBQUkVTRVRfQ09ORklHUyA9IGxpc3RPZigKICAgICAgICAgICAgVXJsQ29uZmlnKAogICAgICAgICAgICAgICAgbmFtZSA9ICJDbGF1ZGUiLAogICAgICAgICAgICAgICAgc2lnbkluVXJsID0gImh0dHBzOi8vY2xhdWRlLmFpL2xvZ2luIiwKICAgICAgICAgICAgICAgIHRhYnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgVGFiQ29uZmlnKCJDaGF0IiwgImh0dHBzOi8vY2xhdWRlLmFpL2NoYXRzIiksCiAgICAgICAgICAgICAgICAgICAgVGFiQ29uZmlnKCJQcm9qZWN0cyIsICJodHRwczovL2NsYXVkZS5haS9wcm9qZWN0cyIpLAogICAgICAgICAgICAgICAgICAgIFRhYkNvbmZpZygiQXJ0aWZhY3RzIiwgImh0dHBzOi8vY2xhdWRlLmFpL2FydGlmYWN0cyIpLAogICAgICAgICAgICAgICAgICAgIFRhYkNvbmZpZygiU2V0dGluZ3MiLCAiaHR0cHM6Ly9jbGF1ZGUuYWkvc2V0dGluZ3MiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApLAogICAgICAgICAgICBVcmxDb25maWcoCiAgICAgICAgICAgICAgICBuYW1lID0gIkNoYXRHUFQiLAogICAgICAgICAgICAgICAgc2lnbkluVXJsID0gImh0dHBzOi8vY2hhdC5vcGVuYWkuY29tL2F1dGgvbG9naW4iLAogICAgICAgICAgICAgICAgdGFicyA9IGxpc3RPZigKICAgICAgICAgICAgICAgICAgICBUYWJDb25maWcoIkNoYXQiLCAiaHR0cHM6Ly9jaGF0Lm9wZW5haS5jb20vIiksCiAgICAgICAgICAgICAgICAgICAgVGFiQ29uZmlnKCJHUFRzIiwgImh0dHBzOi8vY2hhdC5vcGVuYWkuY29tL2dwdHMiKSwKICAgICAgICAgICAgICAgICAgICBUYWJDb25maWcoIlNldHRpbmdzIiwgImh0dHBzOi8vY2hhdC5vcGVuYWkuY29tL3NldHRpbmdzIiksCiAgICAgICAgICAgICAgICAgICAgVGFiQ29uZmlnKCJBY2NvdW50IiwgImh0dHBzOi8vcGxhdGZvcm0ub3BlbmFpLmNvbS9hY2NvdW50IikKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKSwKICAgICAgICAgICAgVXJsQ29uZmlnKAogICAgICAgICAgICAgICAgbmFtZSA9ICJHZW1pbmkiLAogICAgICAgICAgICAgICAgc2lnbkluVXJsID0gImh0dHBzOi8vZ2VtaW5pLmdvb2dsZS5jb20vIiwKICAgICAgICAgICAgICAgIHRhYnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgVGFiQ29uZmlnKCJDaGF0IiwgImh0dHBzOi8vZ2VtaW5pLmdvb2dsZS5jb20vYXBwIiksCiAgICAgICAgICAgICAgICAgICAgVGFiQ29uZmlnKCJIaXN0b3J5IiwgImh0dHBzOi8vZ2VtaW5pLmdvb2dsZS5jb20vaGlzdG9yeSIpLAogICAgICAgICAgICAgICAgICAgIFRhYkNvbmZpZygiU2V0dGluZ3MiLCAiaHR0cHM6Ly9nZW1pbmkuZ29vZ2xlLmNvbS9zZXR0aW5ncyIpLAogICAgICAgICAgICAgICAgICAgIFRhYkNvbmZpZygiSGVscCIsICJodHRwczovL3N1cHBvcnQuZ29vZ2xlLmNvbS9nZW1pbmkiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApLAogICAgICAgICAgICBVcmxDb25maWcoCiAgICAgICAgICAgICAgICBuYW1lID0gIlBvZSIsCiAgICAgICAgICAgICAgICBzaWduSW5VcmwgPSAiaHR0cHM6Ly9wb2UuY29tL2xvZ2luIiwKICAgICAgICAgICAgICAgIHRhYnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgVGFiQ29uZmlnKCJDaGF0IiwgImh0dHBzOi8vcG9lLmNvbS8iKSwKICAgICAgICAgICAgICAgICAgICBUYWJDb25maWcoIkV4cGxvcmUiLCAiaHR0cHM6Ly9wb2UuY29tL2V4cGxvcmUiKSwKICAgICAgICAgICAgICAgICAgICBUYWJDb25maWcoIkNyZWF0ZSIsICJodHRwczovL3BvZS5jb20vY3JlYXRlIiksCiAgICAgICAgICAgICAgICAgICAgVGFiQ29uZmlnKCJTZXR0aW5ncyIsICJodHRwczovL3BvZS5jb20vc2V0dGluZ3MiKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgdmFsIGpzb24gPSBKc29uIHsgaWdub3JlVW5rbm93bktleXMgPSB0cnVlIH0KCiAgICAvLyDojrflj5ZVUkzphY3nva7nmoRGbG93CiAgICB2YWwgdXJsQ29uZmlnRmxvdzogRmxvdzxVcmxDb25maWc+ID0gY29udGV4dC51cmxDb25maWdEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgIHZhbCBjb25maWdKc29uID0gcHJlZmVyZW5jZXNbVVJMX0NPTkZJR19LRVldCiAgICAgICAgaWYgKGNvbmZpZ0pzb24gIT0gbnVsbCkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAganNvbi5kZWNvZGVGcm9tU3RyaW5nPFVybENvbmZpZz4oY29uZmlnSnNvbikKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBVcmxDb25maWcoKS5sb2NhbGl6ZVByZXNldFRhYk5hbWVzKGNvbnRleHQpCiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBVcmxDb25maWcoKS5sb2NhbGl6ZVByZXNldFRhYk5hbWVzKGNvbnRleHQpCiAgICAgICAgfQogICAgfQoKICAgIC8vIOS/neWtmFVSTOmFjee9rgogICAgc3VzcGVuZCBmdW4gc2F2ZVVybENvbmZpZyh1cmxDb25maWc6IFVybENvbmZpZykgewogICAgICAgIGNvbnRleHQudXJsQ29uZmlnRGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tVUkxfQ09ORklHX0tFWV0gPSBqc29uLmVuY29kZVRvU3RyaW5nKHVybENvbmZpZykKICAgICAgICB9CiAgICB9CgogICAgLy8g6YeN572u5Li66buY6K6k6YWN572uCiAgICBzdXNwZW5kIGZ1biByZXNldFRvRGVmYXVsdCgpIHsKICAgICAgICBzYXZlVXJsQ29uZmlnKFVybENvbmZpZygpLmxvY2FsaXplUHJlc2V0VGFiTmFtZXMoY29udGV4dCkpCiAgICB9Cn0KCnByaXZhdGUgZnVuIFVybENvbmZpZy5sb2NhbGl6ZVByZXNldFRhYk5hbWVzKGNvbnRleHQ6IENvbnRleHQpOiBVcmxDb25maWcgewogICAgaWYgKHRhYnMuaXNFbXB0eSgpKSByZXR1cm4gdGhpcwoKICAgIHZhbCBtYXBwZWRUYWJzID0gdGFicy5tYXAgeyB0YWIgLT4KICAgICAgICB2YWwgbG9jYWxpemVkVGl0bGUgPSB3aGVuICh0YWIudGl0bGUpIHsKICAgICAgICAgICAgIkNoYXQiLCAi6IGK5aSpIiAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51cmxfdGFiX2NoYXQpCiAgICAgICAgICAgICJQcm9qZWN0cyIsICLpobnnm64iIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVybF90YWJfcHJvamVjdHMpCiAgICAgICAgICAgICJBcnRpZmFjdHMiLCAi5bel5Lu2IiAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51cmxfdGFiX2FydGlmYWN0cykKICAgICAgICAgICAgIlNldHRpbmdzIiwgIuiuvue9riIgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudXJsX3RhYl9zZXR0aW5ncykKICAgICAgICAgICAgIkFjY291bnQiLCAi6LSm5oi3IiAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51cmxfdGFiX2FjY291bnQpCiAgICAgICAgICAgICJIaXN0b3J5IiwgIuWOhuWPsiIgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcudXJsX3RhYl9oaXN0b3J5KQogICAgICAgICAgICAiSGVscCIsICLluK7liqkiIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnVybF90YWJfaGVscCkKICAgICAgICAgICAgIkV4cGxvcmUiLCAi5o6i57SiIiAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51cmxfdGFiX2V4cGxvcmUpCiAgICAgICAgICAgICJDcmVhdGUiLCAi5Yib5bu6IiAtPiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy51cmxfdGFiX2NyZWF0ZSkKICAgICAgICAgICAgZWxzZSAtPiB0YWIudGl0bGUKICAgICAgICB9CgogICAgICAgIGlmIChsb2NhbGl6ZWRUaXRsZSA9PSB0YWIudGl0bGUpIHRhYiBlbHNlIFRhYkNvbmZpZyh0aXRsZSA9IGxvY2FsaXplZFRpdGxlLCB1cmwgPSB0YWIudXJsKQogICAgfQoKICAgIHJldHVybiBjb3B5KHRhYnMgPSBtYXBwZWRUYWJzKQp9
+package com.bslsjdk.operit.ui.features.token.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.features.token.model.TabConfig
+import com.bslsjdk.operit.ui.features.token.model.UrlConfig
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.map
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+private val Context.urlConfigDataStore: DataStore<Preferences> by
+    preferencesDataStore(name = "url_config")
+
+class UrlConfigManager(private val context: Context) {
+    companion object {
+        private val URL_CONFIG_KEY = stringPreferencesKey("url_config")
+        
+        // 预设配置
+        val PRESET_CONFIGS = listOf(
+            UrlConfig(
+                name = "Claude",
+                signInUrl = "https://claude.ai/login",
+                tabs = listOf(
+                    TabConfig("Chat", "https://claude.ai/chats"),
+                    TabConfig("Projects", "https://claude.ai/projects"),
+                    TabConfig("Artifacts", "https://claude.ai/artifacts"),
+                    TabConfig("Settings", "https://claude.ai/settings")
+                )
+            ),
+            UrlConfig(
+                name = "ChatGPT",
+                signInUrl = "https://chat.openai.com/auth/login",
+                tabs = listOf(
+                    TabConfig("Chat", "https://chat.openai.com/"),
+                    TabConfig("GPTs", "https://chat.openai.com/gpts"),
+                    TabConfig("Settings", "https://chat.openai.com/settings"),
+                    TabConfig("Account", "https://platform.openai.com/account")
+                )
+            ),
+            UrlConfig(
+                name = "Gemini",
+                signInUrl = "https://gemini.google.com/",
+                tabs = listOf(
+                    TabConfig("Chat", "https://gemini.google.com/app"),
+                    TabConfig("History", "https://gemini.google.com/history"),
+                    TabConfig("Settings", "https://gemini.google.com/settings"),
+                    TabConfig("Help", "https://support.google.com/gemini")
+                )
+            ),
+            UrlConfig(
+                name = "Poe",
+                signInUrl = "https://poe.com/login",
+                tabs = listOf(
+                    TabConfig("Chat", "https://poe.com/"),
+                    TabConfig("Explore", "https://poe.com/explore"),
+                    TabConfig("Create", "https://poe.com/create"),
+                    TabConfig("Settings", "https://poe.com/settings")
+                )
+            )
+        )
+    }
+
+    private val json = Json { ignoreUnknownKeys = true }
+
+    // 获取URL配置的Flow
+    val urlConfigFlow: Flow<UrlConfig> = context.urlConfigDataStore.data.map { preferences ->
+        val configJson = preferences[URL_CONFIG_KEY]
+        if (configJson != null) {
+            try {
+                json.decodeFromString<UrlConfig>(configJson)
+            } catch (e: Exception) {
+                UrlConfig().localizePresetTabNames(context)
+            }
+        } else {
+            UrlConfig().localizePresetTabNames(context)
+        }
+    }
+
+    // 保存URL配置
+    suspend fun saveUrlConfig(urlConfig: UrlConfig) {
+        context.urlConfigDataStore.edit { preferences ->
+            preferences[URL_CONFIG_KEY] = json.encodeToString(urlConfig)
+        }
+    }
+
+    // 重置为默认配置
+    suspend fun resetToDefault() {
+        saveUrlConfig(UrlConfig().localizePresetTabNames(context))
+    }
+}
+
+private fun UrlConfig.localizePresetTabNames(context: Context): UrlConfig {
+    if (tabs.isEmpty()) return this
+
+    val mappedTabs = tabs.map { tab ->
+        val localizedTitle = when (tab.title) {
+            "Chat", "聊天" -> context.getString(R.string.url_tab_chat)
+            "Projects", "项目" -> context.getString(R.string.url_tab_projects)
+            "Artifacts", "工件" -> context.getString(R.string.url_tab_artifacts)
+            "Settings", "设置" -> context.getString(R.string.url_tab_settings)
+            "Account", "账户" -> context.getString(R.string.url_tab_account)
+            "History", "历史" -> context.getString(R.string.url_tab_history)
+            "Help", "帮助" -> context.getString(R.string.url_tab_help)
+            "Explore", "探索" -> context.getString(R.string.url_tab_explore)
+            "Create", "创建" -> context.getString(R.string.url_tab_create)
+            else -> tab.title
+        }
+
+        if (localizedTitle == tab.title) tab else TabConfig(title = localizedTitle, url = tab.url)
+    }
+
+    return copy(tabs = mappedTabs)
+}

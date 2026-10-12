@@ -1,1 +1,60 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5kYgoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5NeU9iamVjdEJveAppbXBvcnQgaW8ub2JqZWN0Ym94LkJveFN0b3JlCmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCgpvYmplY3QgT2JqZWN0Qm94TWFuYWdlciB7CiAgICBwcml2YXRlIHZhbCBzdG9yZXMgPSBDb25jdXJyZW50SGFzaE1hcDxTdHJpbmcsIEJveFN0b3JlPigpCiAgICBwcml2YXRlIHZhbCBzdG9yZUxvY2sgPSBBbnkoKQoKICAgIGZ1biBnZXQoY29udGV4dDogQ29udGV4dCwgcHJvZmlsZUlkOiBTdHJpbmcpOiBCb3hTdG9yZSB7CiAgICAgICAgc3luY2hyb25pemVkKHN0b3JlTG9jaykgewogICAgICAgICAgICBzdG9yZXNbcHJvZmlsZUlkXT8ubGV0IHsgcmV0dXJuIGl0IH0KICAgICAgICAgICAgdmFsIHN0b3JlID0gYnVpbGRTdG9yZShjb250ZXh0LCBwcm9maWxlSWQpCiAgICAgICAgICAgIHN0b3Jlc1twcm9maWxlSWRdID0gc3RvcmUKICAgICAgICAgICAgcmV0dXJuIHN0b3JlCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkU3RvcmUoY29udGV4dDogQ29udGV4dCwgcHJvZmlsZUlkOiBTdHJpbmcpOiBCb3hTdG9yZSB7CiAgICAgICAgLy8g5aaC5p6ccHJvZmlsZUlk5pivImRlZmF1bHQi77yM5oiR5Lus5L2/55So5pen55qE5pWw5o2u5bqT5L2N572u5Lul5a6e546w5ZCR5ZCO5YW85a65CiAgICAgICAgdmFsIGRiTmFtZSA9IGlmIChwcm9maWxlSWQgPT0gImRlZmF1bHQiKSAib2JqZWN0Ym94IiBlbHNlICJvYmplY3Rib3hfJHByb2ZpbGVJZCIKICAgICAgICB2YWwgZGJEaXIgPSBGaWxlKGNvbnRleHQuZmlsZXNEaXIsIGRiTmFtZSkKCiAgICAgICAgcmV0dXJuIE15T2JqZWN0Qm94LmJ1aWxkZXIoKQogICAgICAgICAgICAuYW5kcm9pZENvbnRleHQoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgIC5kaXJlY3RvcnkoZGJEaXIpCiAgICAgICAgICAgIC5idWlsZCgpCiAgICB9CgogICAgZnVuIGNsb3NlKHByb2ZpbGVJZDogU3RyaW5nKSB7CiAgICAgICAgc3luY2hyb25pemVkKHN0b3JlTG9jaykgewogICAgICAgICAgICB2YWwgc3RvcmUgPSBzdG9yZXMucmVtb3ZlKHByb2ZpbGVJZCkgPzogcmV0dXJuCiAgICAgICAgICAgIHN0b3JlLmNsb3NlKCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDniannkIbliKDpmaTmjIflrppwcm9maWxlSWTnmoTmlbDmja7lupPvvIjljIXmi6zlhbPpl61zdG9yZeWSjOWIoOmZpOaWh+S7tuWkue+8ieOAggogICAgICovCiAgICBmdW4gZGVsZXRlKGNvbnRleHQ6IENvbnRleHQsIHByb2ZpbGVJZDogU3RyaW5nKSB7CiAgICAgICAgc3luY2hyb25pemVkKHN0b3JlTG9jaykgewogICAgICAgICAgICBzdG9yZXMucmVtb3ZlKHByb2ZpbGVJZCk/LmNsb3NlKCkgLy8g5YWI5YWz6ZetCiAgICAgICAgICAgIHZhbCBkYk5hbWUgPSBpZiAocHJvZmlsZUlkID09ICJkZWZhdWx0IikgIm9iamVjdGJveCIgZWxzZSAib2JqZWN0Ym94XyRwcm9maWxlSWQiCiAgICAgICAgICAgIHZhbCBkYkRpciA9IEZpbGUoY29udGV4dC5maWxlc0RpciwgZGJOYW1lKQogICAgICAgICAgICBpZiAoZGJEaXIuZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgIGRiRGlyLmRlbGV0ZVJlY3Vyc2l2ZWx5KCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gY2xvc2VBbGwoKSB7CiAgICAgICAgc3luY2hyb25pemVkKHN0b3JlTG9jaykgewogICAgICAgICAgICBzdG9yZXMudmFsdWVzLmZvckVhY2ggeyBpdC5jbG9zZSgpIH0KICAgICAgICAgICAgc3RvcmVzLmNsZWFyKCkKICAgICAgICB9CiAgICB9Cn0gCg==
+package com.bslsjdk.operit.data.db
+
+import android.content.Context
+import com.bslsjdk.operit.data.model.MyObjectBox
+import io.objectbox.BoxStore
+import java.io.File
+import java.util.concurrent.ConcurrentHashMap
+
+object ObjectBoxManager {
+    private val stores = ConcurrentHashMap<String, BoxStore>()
+    private val storeLock = Any()
+
+    fun get(context: Context, profileId: String): BoxStore {
+        synchronized(storeLock) {
+            stores[profileId]?.let { return it }
+            val store = buildStore(context, profileId)
+            stores[profileId] = store
+            return store
+        }
+    }
+
+    private fun buildStore(context: Context, profileId: String): BoxStore {
+        // 如果profileId是"default"，我们使用旧的数据库位置以实现向后兼容
+        val dbName = if (profileId == "default") "objectbox" else "objectbox_$profileId"
+        val dbDir = File(context.filesDir, dbName)
+
+        return MyObjectBox.builder()
+            .androidContext(context.applicationContext)
+            .directory(dbDir)
+            .build()
+    }
+
+    fun close(profileId: String) {
+        synchronized(storeLock) {
+            val store = stores.remove(profileId) ?: return
+            store.close()
+        }
+    }
+
+    /**
+     * 物理删除指定profileId的数据库（包括关闭store和删除文件夹）。
+     */
+    fun delete(context: Context, profileId: String) {
+        synchronized(storeLock) {
+            stores.remove(profileId)?.close() // 先关闭
+            val dbName = if (profileId == "default") "objectbox" else "objectbox_$profileId"
+            val dbDir = File(context.filesDir, dbName)
+            if (dbDir.exists()) {
+                dbDir.deleteRecursively()
+            }
+        }
+    }
+
+    fun closeAll() {
+        synchronized(storeLock) {
+            stores.values.forEach { it.close() }
+            stores.clear()
+        }
+    }
+} 

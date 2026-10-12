@@ -1,1 +1,266 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5DaGF0UnVudGltZUhvb2tDb250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLkNoYXRSdW50aW1lSG9va0V2ZW50CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLkNoYXRSdW50aW1lSG9va1JlZ2lzdHJ5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5JbnB1dFByb2Nlc3NpbmdTdGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnNlcnZpY2VzLkNoYXRTZXJ2aWNlQ29yZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnNlcnZpY2VzLmNvcmUuQ2hhdFNlbGVjdGlvbk1vZGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ29uY3VycmVudEhhc2hNYXAKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuU3VwZXJ2aXNvckpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuY29sbGVjdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuY29tYmluZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKY2xhc3MgQ2hhdFJ1bnRpbWVIb2xkZXIgcHJpdmF0ZSBjb25zdHJ1Y3Rvcihjb250ZXh0OiBDb250ZXh0KSB7CiAgICBwcml2YXRlIHZhbCBhcHBDb250ZXh0ID0gY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQKICAgIHByaXZhdGUgdmFsIHJ1bnRpbWVTY29wZSA9IENvcm91dGluZVNjb3BlKFN1cGVydmlzb3JKb2IoKSArIERpc3BhdGNoZXJzLk1haW4uaW1tZWRpYXRlKQogICAgcHJpdmF0ZSB2YWwgY29yZXMgPSBDb25jdXJyZW50SGFzaE1hcDxDaGF0UnVudGltZVNsb3QsIENoYXRTZXJ2aWNlQ29yZT4oKQogICAgcHJpdmF0ZSB2YWwgX2FjdGl2ZUNvbnZlcnNhdGlvbkNvdW50ID0gTXV0YWJsZVN0YXRlRmxvdygwKQogICAgdmFsIGFjdGl2ZUNvbnZlcnNhdGlvbkNvdW50OiBTdGF0ZUZsb3c8SW50PiA9IF9hY3RpdmVDb252ZXJzYXRpb25Db3VudC5hc1N0YXRlRmxvdygpCiAgICBwcml2YXRlIHZhbCBfY3VycmVudFNlc3Npb25Ub29sQ291bnQgPSBNdXRhYmxlU3RhdGVGbG93KDApCiAgICB2YWwgY3VycmVudFNlc3Npb25Ub29sQ291bnQ6IFN0YXRlRmxvdzxJbnQ+ID0gX2N1cnJlbnRTZXNzaW9uVG9vbENvdW50LmFzU3RhdGVGbG93KCkKCiAgICBpbml0IHsKICAgICAgICBDaGF0UnVudGltZVNsb3QudmFsdWVzKCkuZm9yRWFjaCB7IHNsb3QgLT4KICAgICAgICAgICAgZ2V0Q29yZShzbG90KQogICAgICAgIH0KICAgICAgICBzZXR1cENyb3NzU2Vzc2lvblN5bmMoKQogICAgICAgIG9ic2VydmVTdGF0cygpCiAgICAgICAgb2JzZXJ2ZVJ1bnRpbWVIb29rcygpCiAgICB9CgogICAgZnVuIGdldENvcmUoc2xvdDogQ2hhdFJ1bnRpbWVTbG90KTogQ2hhdFNlcnZpY2VDb3JlIHsKICAgICAgICByZXR1cm4gY29yZXMuZ2V0T3JQdXQoc2xvdCkgewogICAgICAgICAgICBDaGF0U2VydmljZUNvcmUoCiAgICAgICAgICAgICAgICBjb250ZXh0ID0gYXBwQ29udGV4dCwKICAgICAgICAgICAgICAgIGNvcm91dGluZVNjb3BlID0gcnVudGltZVNjb3BlLAogICAgICAgICAgICAgICAgc2VsZWN0aW9uTW9kZSA9IHdoZW4gKHNsb3QpIHsKICAgICAgICAgICAgICAgICAgICBDaGF0UnVudGltZVNsb3QuTUFJTiAtPiBDaGF0U2VsZWN0aW9uTW9kZS5GT0xMT1dfR0xPQkFMCiAgICAgICAgICAgICAgICAgICAgQ2hhdFJ1bnRpbWVTbG90LkZMT0FUSU5HIC0+IENoYXRTZWxlY3Rpb25Nb2RlLkxPQ0FMX09OTFkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBvYnNlcnZlU3RhdHMoKSB7CiAgICAgICAgdmFsIG1haW5Db3JlID0gZ2V0Q29yZShDaGF0UnVudGltZVNsb3QuTUFJTikKICAgICAgICB2YWwgZmxvYXRpbmdDb3JlID0gZ2V0Q29yZShDaGF0UnVudGltZVNsb3QuRkxPQVRJTkcpCgogICAgICAgIHJ1bnRpbWVTY29wZS5sYXVuY2ggewogICAgICAgICAgICBjb21iaW5lKAogICAgICAgICAgICAgICAgbWFpbkNvcmUuYWN0aXZlU3RyZWFtaW5nQ2hhdElkcywKICAgICAgICAgICAgICAgIGZsb2F0aW5nQ29yZS5hY3RpdmVTdHJlYW1pbmdDaGF0SWRzCiAgICAgICAgICAgICkgeyBtYWluQWN0aXZlQ2hhdElkcywgZmxvYXRpbmdBY3RpdmVDaGF0SWRzIC0+CiAgICAgICAgICAgICAgICAobWFpbkFjdGl2ZUNoYXRJZHMgKyBmbG9hdGluZ0FjdGl2ZUNoYXRJZHMpLnNpemUKICAgICAgICAgICAgfS5jb2xsZWN0IHsgY291bnQgLT4KICAgICAgICAgICAgICAgIF9hY3RpdmVDb252ZXJzYXRpb25Db3VudC52YWx1ZSA9IGNvdW50CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHJ1bnRpbWVTY29wZS5sYXVuY2ggewogICAgICAgICAgICBjb21iaW5lKAogICAgICAgICAgICAgICAgbWFpbkNvcmUuYWN0aXZlU3RyZWFtaW5nQ2hhdElkcywKICAgICAgICAgICAgICAgIG1haW5Db3JlLmN1cnJlbnRUdXJuVG9vbEludm9jYXRpb25Db3VudEJ5Q2hhdElkLAogICAgICAgICAgICAgICAgZmxvYXRpbmdDb3JlLmFjdGl2ZVN0cmVhbWluZ0NoYXRJZHMsCiAgICAgICAgICAgICAgICBmbG9hdGluZ0NvcmUuY3VycmVudFR1cm5Ub29sSW52b2NhdGlvbkNvdW50QnlDaGF0SWQKICAgICAgICAgICAgKSB7IG1haW5BY3RpdmVDaGF0SWRzLCBtYWluQ291bnRzLCBmbG9hdGluZ0FjdGl2ZUNoYXRJZHMsIGZsb2F0aW5nQ291bnRzIC0+CiAgICAgICAgICAgICAgICBjb3VudEN1cnJlbnRUdXJuVG9vbHNGb3JBY3RpdmVDaGF0cyhtYWluQWN0aXZlQ2hhdElkcywgbWFpbkNvdW50cykgKwogICAgICAgICAgICAgICAgICAgIGNvdW50Q3VycmVudFR1cm5Ub29sc0ZvckFjdGl2ZUNoYXRzKGZsb2F0aW5nQWN0aXZlQ2hhdElkcywgZmxvYXRpbmdDb3VudHMpCiAgICAgICAgICAgIH0uY29sbGVjdCB7IGNvdW50IC0+CiAgICAgICAgICAgICAgICBfY3VycmVudFNlc3Npb25Ub29sQ291bnQudmFsdWUgPSBjb3VudAogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBSdW50aW1lSG9va09ic2VydmF0aW9uKAogICAgICAgIHZhbCBzdGF0ZUJ5Q2hhdElkOiBNYXA8U3RyaW5nLCBJbnB1dFByb2Nlc3NpbmdTdGF0ZT4sCiAgICAgICAgdmFsIGFjdGl2ZUNoYXRJZHM6IFNldDxTdHJpbmc+LAogICAgICAgIHZhbCB0b29sSW52b2NhdGlvbkNvdW50QnlDaGF0SWQ6IE1hcDxTdHJpbmcsIEludD4KICAgICkKCiAgICBwcml2YXRlIGZ1biBvYnNlcnZlUnVudGltZUhvb2tzKCkgewogICAgICAgIENoYXRSdW50aW1lU2xvdC52YWx1ZXMoKS5mb3JFYWNoIHsgc2xvdCAtPgogICAgICAgICAgICB2YWwgY29yZSA9IGdldENvcmUoc2xvdCkKICAgICAgICAgICAgdmFsIHByZXZpb3VzU3RhdGVzID0gbXV0YWJsZU1hcE9mPFN0cmluZywgSW5wdXRQcm9jZXNzaW5nU3RhdGU+KCkKICAgICAgICAgICAgcnVudGltZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICBjb21iaW5lKAogICAgICAgICAgICAgICAgICAgIGNvcmUuaW5wdXRQcm9jZXNzaW5nU3RhdGVCeUNoYXRJZCwKICAgICAgICAgICAgICAgICAgICBjb3JlLmFjdGl2ZVN0cmVhbWluZ0NoYXRJZHMsCiAgICAgICAgICAgICAgICAgICAgY29yZS5jdXJyZW50VHVyblRvb2xJbnZvY2F0aW9uQ291bnRCeUNoYXRJZAogICAgICAgICAgICAgICAgKSB7IHN0YXRlQnlDaGF0SWQsIGFjdGl2ZUNoYXRJZHMsIHRvb2xJbnZvY2F0aW9uQ291bnRCeUNoYXRJZCAtPgogICAgICAgICAgICAgICAgICAgIFJ1bnRpbWVIb29rT2JzZXJ2YXRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlQnlDaGF0SWQgPSBzdGF0ZUJ5Q2hhdElkLAogICAgICAgICAgICAgICAgICAgICAgICBhY3RpdmVDaGF0SWRzID0gYWN0aXZlQ2hhdElkcywKICAgICAgICAgICAgICAgICAgICAgICAgdG9vbEludm9jYXRpb25Db3VudEJ5Q2hhdElkID0gdG9vbEludm9jYXRpb25Db3VudEJ5Q2hhdElkCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfS5jb2xsZWN0IHsgb2JzZXJ2YXRpb24gLT4KICAgICAgICAgICAgICAgICAgICBvYnNlcnZhdGlvbi5zdGF0ZUJ5Q2hhdElkLmZvckVhY2ggeyAoY2hhdElkLCBzdGF0ZSkgLT4KICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNoYXRJZCA9PSBERUZBVUxUX0NIQVRfS0VZKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChwcmV2aW91c1N0YXRlc1tjaGF0SWRdID09IHN0YXRlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHByZXZpb3VzU3RhdGVzW2NoYXRJZF0gPSBzdGF0ZQogICAgICAgICAgICAgICAgICAgICAgICBDaGF0UnVudGltZUhvb2tSZWdpc3RyeS5kaXNwYXRjaEFzeW5jKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnQgPSBDaGF0UnVudGltZUhvb2tFdmVudC5TVEFURV9DSEFOR0VELAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQ2hhdFJ1bnRpbWVIb29rQ29udGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGFwcENvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNoYXRJZCA9IGNoYXRJZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2xvdCA9IHNsb3QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlID0gc3RhdGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFjdGl2ZUNoYXRJZHMgPSBvYnNlcnZhdGlvbi5hY3RpdmVDaGF0SWRzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50VHVyblRvb2xJbnZvY2F0aW9uQ291bnQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb2JzZXJ2YXRpb24udG9vbEludm9jYXRpb25Db3VudEJ5Q2hhdElkW2NoYXRJZF0gPzogMCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWN0aXZlQ29udmVyc2F0aW9uQ291bnQgPSBhY3RpdmVDb252ZXJzYXRpb25Db3VudC52YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudFNlc3Npb25Ub29sQ291bnQgPSBjdXJyZW50U2Vzc2lvblRvb2xDb3VudC52YWx1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgdmFsIGFjdGl2ZVN0YXRlQ2hhdElkcyA9IG9ic2VydmF0aW9uLnN0YXRlQnlDaGF0SWQua2V5cy50b1NldCgpCiAgICAgICAgICAgICAgICAgICAgdmFsIGl0ZXJhdG9yID0gcHJldmlvdXNTdGF0ZXMua2V5cy5pdGVyYXRvcigpCiAgICAgICAgICAgICAgICAgICAgd2hpbGUgKGl0ZXJhdG9yLmhhc05leHQoKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgY2hhdElkID0gaXRlcmF0b3IubmV4dCgpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjaGF0SWQgIWluIGFjdGl2ZVN0YXRlQ2hhdElkcykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXRlcmF0b3IucmVtb3ZlKCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBjb3VudEN1cnJlbnRUdXJuVG9vbHNGb3JBY3RpdmVDaGF0cygKICAgICAgICBhY3RpdmVDaGF0SWRzOiBTZXQ8U3RyaW5nPiwKICAgICAgICBjb3VudE1hcDogTWFwPFN0cmluZywgSW50PgogICAgKTogSW50IHsKICAgICAgICByZXR1cm4gYWN0aXZlQ2hhdElkcy5zdW1PZiB7IGNoYXRJZCAtPiBjb3VudE1hcFtjaGF0SWRdID86IDAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNldHVwQ3Jvc3NTZXNzaW9uU3luYygpIHsKICAgICAgICByZWdpc3RlckNoYXRTZWxlY3Rpb25TeW5jKAogICAgICAgICAgICBzb3VyY2VTbG90ID0gQ2hhdFJ1bnRpbWVTbG90Lk1BSU4sCiAgICAgICAgICAgIHRhcmdldFNsb3QgPSBDaGF0UnVudGltZVNsb3QuRkxPQVRJTkcKICAgICAgICApCiAgICAgICAgcmVnaXN0ZXJUdXJuU3luYygKICAgICAgICAgICAgc291cmNlU2xvdCA9IENoYXRSdW50aW1lU2xvdC5NQUlOLAogICAgICAgICAgICB0YXJnZXRTbG90ID0gQ2hhdFJ1bnRpbWVTbG90LkZMT0FUSU5HCiAgICAgICAgKQogICAgICAgIHJlZ2lzdGVyVHVyblN5bmMoCiAgICAgICAgICAgIHNvdXJjZVNsb3QgPSBDaGF0UnVudGltZVNsb3QuRkxPQVRJTkcsCiAgICAgICAgICAgIHRhcmdldFNsb3QgPSBDaGF0UnVudGltZVNsb3QuTUFJTgogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWdpc3RlclR1cm5TeW5jKAogICAgICAgIHNvdXJjZVNsb3Q6IENoYXRSdW50aW1lU2xvdCwKICAgICAgICB0YXJnZXRTbG90OiBDaGF0UnVudGltZVNsb3QKICAgICkgewogICAgICAgIHZhbCBzb3VyY2VDb3JlID0gZ2V0Q29yZShzb3VyY2VTbG90KQogICAgICAgIHZhbCB0YXJnZXRDb3JlID0gZ2V0Q29yZSh0YXJnZXRTbG90KQoKICAgICAgICBzb3VyY2VDb3JlLnNldEFkZGl0aW9uYWxPblR1cm5Db21wbGV0ZSB7IGNoYXRJZCwgaW5wdXRUb2tlbnMsIG91dHB1dFRva2Vucywgd2luZG93U2l6ZSAtPgogICAgICAgICAgICBpZiAoY2hhdElkLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuQHNldEFkZGl0aW9uYWxPblR1cm5Db21wbGV0ZQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmICh0YXJnZXRDb3JlLmN1cnJlbnRDaGF0SWQudmFsdWUgIT0gY2hhdElkKSB7CiAgICAgICAgICAgICAgICByZXR1cm5Ac2V0QWRkaXRpb25hbE9uVHVybkNvbXBsZXRlCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJ1bnRpbWVTY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICB0YXJnZXRDb3JlLnJlbG9hZENoYXRNZXNzYWdlc1NtYXJ0KGNoYXRJZCkKICAgICAgICAgICAgICAgICAgICB0YXJnZXRDb3JlLmdldFRva2VuU3RhdGlzdGljc0RlbGVnYXRlKCkKICAgICAgICAgICAgICAgICAgICAgICAgLnNldFRva2VuQ291bnRzKGNoYXRJZCwgaW5wdXRUb2tlbnMsIG91dHB1dFRva2Vucywgd2luZG93U2l6ZSkKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgKICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAi6LeoIFNlc3Npb24gc21hcnQg5ZCM5q2l5a6M5oiQOiAkc291cmNlU2xvdCAtPiAkdGFyZ2V0U2xvdCwgY2hhdElkPSRjaGF0SWQsIGlucHV0PSRpbnB1dFRva2Vucywgb3V0cHV0PSRvdXRwdXRUb2tlbnMsIHdpbmRvdz0kd2luZG93U2l6ZSIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgKICAgICAgICAgICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgICAgICAgICAi6LeoIFNlc3Npb24gc21hcnQg5ZCM5q2l5aSx6LSlOiAkc291cmNlU2xvdCAtPiAkdGFyZ2V0U2xvdCwgY2hhdElkPSRjaGF0SWQiLAogICAgICAgICAgICAgICAgICAgICAgICBlCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzeW5jTWFpbkNoYXRTZWxlY3Rpb25Ub0Zsb2F0aW5nKGNoYXRJZDogU3RyaW5nKSB7CiAgICAgICAgaWYgKGNoYXRJZC5pc0JsYW5rKCkpIHJldHVybgogICAgICAgIHN5bmNDaGF0U2VsZWN0aW9uKAogICAgICAgICAgICBzb3VyY2VTbG90ID0gQ2hhdFJ1bnRpbWVTbG90Lk1BSU4sCiAgICAgICAgICAgIHRhcmdldFNsb3QgPSBDaGF0UnVudGltZVNsb3QuRkxPQVRJTkcsCiAgICAgICAgICAgIGNoYXRJZCA9IGNoYXRJZAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWdpc3RlckNoYXRTZWxlY3Rpb25TeW5jKAogICAgICAgIHNvdXJjZVNsb3Q6IENoYXRSdW50aW1lU2xvdCwKICAgICAgICB0YXJnZXRTbG90OiBDaGF0UnVudGltZVNsb3QKICAgICkgewogICAgICAgIHZhbCBzb3VyY2VDb3JlID0gZ2V0Q29yZShzb3VyY2VTbG90KQoKICAgICAgICBydW50aW1lU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgc291cmNlQ29yZS5jdXJyZW50Q2hhdElkCiAgICAgICAgICAgICAgICAuY29sbGVjdCB7IGNoYXRJZCAtPgogICAgICAgICAgICAgICAgICAgIGlmIChjaGF0SWQuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybkBjb2xsZWN0CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHN5bmNDaGF0U2VsZWN0aW9uKHNvdXJjZVNsb3QsIHRhcmdldFNsb3QsIGNoYXRJZCkKICAgICAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc3luY0NoYXRTZWxlY3Rpb24oCiAgICAgICAgc291cmNlU2xvdDogQ2hhdFJ1bnRpbWVTbG90LAogICAgICAgIHRhcmdldFNsb3Q6IENoYXRSdW50aW1lU2xvdCwKICAgICAgICBjaGF0SWQ6IFN0cmluZwogICAgKSB7CiAgICAgICAgdmFsIHRhcmdldENvcmUgPSBnZXRDb3JlKHRhcmdldFNsb3QpCiAgICAgICAgaWYgKHRhcmdldENvcmUuY3VycmVudENoYXRJZC52YWx1ZSA9PSBjaGF0SWQpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB0cnkgewogICAgICAgICAgICB0YXJnZXRDb3JlLnN3aXRjaENoYXRMb2NhbChjaGF0SWQpCiAgICAgICAgICAgIEFwcExvZ2dlci5kKAogICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgIui3qCBTZXNzaW9uIOW9k+WJjeiBiuWkqeWQjOatpTogJHNvdXJjZVNsb3QgLT4gJHRhcmdldFNsb3QsIGNoYXRJZD0kY2hhdElkIgogICAgICAgICAgICApCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKAogICAgICAgICAgICAgICAgVEFHLAogICAgICAgICAgICAgICAgIui3qCBTZXNzaW9uIOW9k+WJjeiBiuWkqeWQjOatpeWksei0pTogJHNvdXJjZVNsb3QgLT4gJHRhcmdldFNsb3QsIGNoYXRJZD0kY2hhdElkIiwKICAgICAgICAgICAgICAgIGUKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiQ2hhdFJ1bnRpbWVIb2xkZXIiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgREVGQVVMVF9DSEFUX0tFWSA9ICJfX0RFRkFVTFRfQ0hBVF9fIgoKICAgICAgICBAVm9sYXRpbGUKICAgICAgICBwcml2YXRlIHZhciBpbnN0YW5jZTogQ2hhdFJ1bnRpbWVIb2xkZXI/ID0gbnVsbAoKICAgICAgICBmdW4gZ2V0SW5zdGFuY2UoY29udGV4dDogQ29udGV4dCk6IENoYXRSdW50aW1lSG9sZGVyIHsKICAgICAgICAgICAgcmV0dXJuIGluc3RhbmNlID86IHN5bmNocm9uaXplZCh0aGlzKSB7CiAgICAgICAgICAgICAgICBpbnN0YW5jZSA/OiBDaGF0UnVudGltZUhvbGRlcihjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkuYWxzbyB7CiAgICAgICAgICAgICAgICAgICAgaW5zdGFuY2UgPSBpdAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat
+
+import android.content.Context
+import com.bslsjdk.operit.core.chat.hooks.ChatRuntimeHookContext
+import com.bslsjdk.operit.core.chat.hooks.ChatRuntimeHookEvent
+import com.bslsjdk.operit.core.chat.hooks.ChatRuntimeHookRegistry
+import com.bslsjdk.operit.data.model.InputProcessingState
+import com.bslsjdk.operit.services.ChatServiceCore
+import com.bslsjdk.operit.services.core.ChatSelectionMode
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.ConcurrentHashMap
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.collect
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.launch
+
+class ChatRuntimeHolder private constructor(context: Context) {
+    private val appContext = context.applicationContext
+    private val runtimeScope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
+    private val cores = ConcurrentHashMap<ChatRuntimeSlot, ChatServiceCore>()
+    private val _activeConversationCount = MutableStateFlow(0)
+    val activeConversationCount: StateFlow<Int> = _activeConversationCount.asStateFlow()
+    private val _currentSessionToolCount = MutableStateFlow(0)
+    val currentSessionToolCount: StateFlow<Int> = _currentSessionToolCount.asStateFlow()
+
+    init {
+        ChatRuntimeSlot.values().forEach { slot ->
+            getCore(slot)
+        }
+        setupCrossSessionSync()
+        observeStats()
+        observeRuntimeHooks()
+    }
+
+    fun getCore(slot: ChatRuntimeSlot): ChatServiceCore {
+        return cores.getOrPut(slot) {
+            ChatServiceCore(
+                context = appContext,
+                coroutineScope = runtimeScope,
+                selectionMode = when (slot) {
+                    ChatRuntimeSlot.MAIN -> ChatSelectionMode.FOLLOW_GLOBAL
+                    ChatRuntimeSlot.FLOATING -> ChatSelectionMode.LOCAL_ONLY
+                }
+            )
+        }
+    }
+
+    private fun observeStats() {
+        val mainCore = getCore(ChatRuntimeSlot.MAIN)
+        val floatingCore = getCore(ChatRuntimeSlot.FLOATING)
+
+        runtimeScope.launch {
+            combine(
+                mainCore.activeStreamingChatIds,
+                floatingCore.activeStreamingChatIds
+            ) { mainActiveChatIds, floatingActiveChatIds ->
+                (mainActiveChatIds + floatingActiveChatIds).size
+            }.collect { count ->
+                _activeConversationCount.value = count
+            }
+        }
+
+        runtimeScope.launch {
+            combine(
+                mainCore.activeStreamingChatIds,
+                mainCore.currentTurnToolInvocationCountByChatId,
+                floatingCore.activeStreamingChatIds,
+                floatingCore.currentTurnToolInvocationCountByChatId
+            ) { mainActiveChatIds, mainCounts, floatingActiveChatIds, floatingCounts ->
+                countCurrentTurnToolsForActiveChats(mainActiveChatIds, mainCounts) +
+                    countCurrentTurnToolsForActiveChats(floatingActiveChatIds, floatingCounts)
+            }.collect { count ->
+                _currentSessionToolCount.value = count
+            }
+        }
+    }
+
+    private data class RuntimeHookObservation(
+        val stateByChatId: Map<String, InputProcessingState>,
+        val activeChatIds: Set<String>,
+        val toolInvocationCountByChatId: Map<String, Int>
+    )
+
+    private fun observeRuntimeHooks() {
+        ChatRuntimeSlot.values().forEach { slot ->
+            val core = getCore(slot)
+            val previousStates = mutableMapOf<String, InputProcessingState>()
+            runtimeScope.launch {
+                combine(
+                    core.inputProcessingStateByChatId,
+                    core.activeStreamingChatIds,
+                    core.currentTurnToolInvocationCountByChatId
+                ) { stateByChatId, activeChatIds, toolInvocationCountByChatId ->
+                    RuntimeHookObservation(
+                        stateByChatId = stateByChatId,
+                        activeChatIds = activeChatIds,
+                        toolInvocationCountByChatId = toolInvocationCountByChatId
+                    )
+                }.collect { observation ->
+                    observation.stateByChatId.forEach { (chatId, state) ->
+                        if (chatId == DEFAULT_CHAT_KEY) {
+                            return@forEach
+                        }
+                        if (previousStates[chatId] == state) {
+                            return@forEach
+                        }
+                        previousStates[chatId] = state
+                        ChatRuntimeHookRegistry.dispatchAsync(
+                            event = ChatRuntimeHookEvent.STATE_CHANGED,
+                            context =
+                                ChatRuntimeHookContext(
+                                    context = appContext,
+                                    chatId = chatId,
+                                    slot = slot,
+                                    state = state,
+                                    activeChatIds = observation.activeChatIds,
+                                    currentTurnToolInvocationCount =
+                                        observation.toolInvocationCountByChatId[chatId] ?: 0,
+                                    activeConversationCount = activeConversationCount.value,
+                                    currentSessionToolCount = currentSessionToolCount.value
+                                )
+                        )
+                    }
+
+                    val activeStateChatIds = observation.stateByChatId.keys.toSet()
+                    val iterator = previousStates.keys.iterator()
+                    while (iterator.hasNext()) {
+                        val chatId = iterator.next()
+                        if (chatId !in activeStateChatIds) {
+                            iterator.remove()
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private fun countCurrentTurnToolsForActiveChats(
+        activeChatIds: Set<String>,
+        countMap: Map<String, Int>
+    ): Int {
+        return activeChatIds.sumOf { chatId -> countMap[chatId] ?: 0 }
+    }
+
+    private fun setupCrossSessionSync() {
+        registerChatSelectionSync(
+            sourceSlot = ChatRuntimeSlot.MAIN,
+            targetSlot = ChatRuntimeSlot.FLOATING
+        )
+        registerTurnSync(
+            sourceSlot = ChatRuntimeSlot.MAIN,
+            targetSlot = ChatRuntimeSlot.FLOATING
+        )
+        registerTurnSync(
+            sourceSlot = ChatRuntimeSlot.FLOATING,
+            targetSlot = ChatRuntimeSlot.MAIN
+        )
+    }
+
+    private fun registerTurnSync(
+        sourceSlot: ChatRuntimeSlot,
+        targetSlot: ChatRuntimeSlot
+    ) {
+        val sourceCore = getCore(sourceSlot)
+        val targetCore = getCore(targetSlot)
+
+        sourceCore.setAdditionalOnTurnComplete { chatId, inputTokens, outputTokens, windowSize ->
+            if (chatId.isNullOrBlank()) {
+                return@setAdditionalOnTurnComplete
+            }
+            if (targetCore.currentChatId.value != chatId) {
+                return@setAdditionalOnTurnComplete
+            }
+
+            runtimeScope.launch {
+                try {
+                    targetCore.reloadChatMessagesSmart(chatId)
+                    targetCore.getTokenStatisticsDelegate()
+                        .setTokenCounts(chatId, inputTokens, outputTokens, windowSize)
+                    AppLogger.d(
+                        TAG,
+                        "跨 Session smart 同步完成: $sourceSlot -> $targetSlot, chatId=$chatId, input=$inputTokens, output=$outputTokens, window=$windowSize"
+                    )
+                } catch (e: Exception) {
+                    AppLogger.e(
+                        TAG,
+                        "跨 Session smart 同步失败: $sourceSlot -> $targetSlot, chatId=$chatId",
+                        e
+                    )
+                }
+            }
+        }
+    }
+
+    fun syncMainChatSelectionToFloating(chatId: String) {
+        if (chatId.isBlank()) return
+        syncChatSelection(
+            sourceSlot = ChatRuntimeSlot.MAIN,
+            targetSlot = ChatRuntimeSlot.FLOATING,
+            chatId = chatId
+        )
+    }
+
+    private fun registerChatSelectionSync(
+        sourceSlot: ChatRuntimeSlot,
+        targetSlot: ChatRuntimeSlot
+    ) {
+        val sourceCore = getCore(sourceSlot)
+
+        runtimeScope.launch {
+            sourceCore.currentChatId
+                .collect { chatId ->
+                    if (chatId.isNullOrBlank()) {
+                        return@collect
+                    }
+                    syncChatSelection(sourceSlot, targetSlot, chatId)
+                }
+        }
+    }
+
+    private fun syncChatSelection(
+        sourceSlot: ChatRuntimeSlot,
+        targetSlot: ChatRuntimeSlot,
+        chatId: String
+    ) {
+        val targetCore = getCore(targetSlot)
+        if (targetCore.currentChatId.value == chatId) {
+            return
+        }
+
+        try {
+            targetCore.switchChatLocal(chatId)
+            AppLogger.d(
+                TAG,
+                "跨 Session 当前聊天同步: $sourceSlot -> $targetSlot, chatId=$chatId"
+            )
+        } catch (e: Exception) {
+            AppLogger.e(
+                TAG,
+                "跨 Session 当前聊天同步失败: $sourceSlot -> $targetSlot, chatId=$chatId",
+                e
+            )
+        }
+    }
+
+    companion object {
+        private const val TAG = "ChatRuntimeHolder"
+        private const val DEFAULT_CHAT_KEY = "__DEFAULT_CHAT__"
+
+        @Volatile
+        private var instance: ChatRuntimeHolder? = null
+
+        fun getInstance(context: Context): ChatRuntimeHolder {
+            return instance ?: synchronized(this) {
+                instance ?: ChatRuntimeHolder(context.applicationContext).also {
+                    instance = it
+                }
+            }
+        }
+    }
+}

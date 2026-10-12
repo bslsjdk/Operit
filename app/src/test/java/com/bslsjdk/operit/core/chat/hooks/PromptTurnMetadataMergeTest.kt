@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzCgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBQcm9tcHRUdXJuTWV0YWRhdGFNZXJnZVRlc3QgewoKICAgIEBUZXN0IGZ1biBtZXJnZUFkamFjZW50VHVybnNfa2VlcHNQcmV2aW91c01ldGFkYXRhV2hlbkN1cnJlbnRFbXB0eSgpIHsKICAgICAgICB2YWwgdHVybnMgPSBsaXN0T2YoCiAgICAgICAgICAgIFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuVVNFUiwgImEiLCBtZXRhZGF0YSA9IG1hcE9mKCJ4IiB0byAxKSksCiAgICAgICAgICAgIFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuVVNFUiwgImIiKQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMobWFwT2YoIngiIHRvIDEpLCB0dXJucy5tZXJnZUFkamFjZW50VHVybnMoKS5zaW5nbGUoKS5tZXRhZGF0YSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbWVyZ2VBZGphY2VudFR1cm5zX21lcmdlc01ldGFkYXRhTWFwcygpIHsKICAgICAgICB2YWwgdHVybnMgPSBsaXN0T2YoCiAgICAgICAgICAgIFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuVVNFUiwgImEiLCBtZXRhZGF0YSA9IG1hcE9mKCJ4IiB0byAxKSksCiAgICAgICAgICAgIFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuVVNFUiwgImIiLCBtZXRhZGF0YSA9IG1hcE9mKCJ5IiB0byAyKSkKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKG1hcE9mKCJ4IiB0byAxLCAieSIgdG8gMiksIHR1cm5zLm1lcmdlQWRqYWNlbnRUdXJucygpLnNpbmdsZSgpLm1ldGFkYXRhKQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.chat.hooks
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class PromptTurnMetadataMergeTest {
+
+    @Test fun mergeAdjacentTurns_keepsPreviousMetadataWhenCurrentEmpty() {
+        val turns = listOf(
+            PromptTurn(PromptTurnKind.USER, "a", metadata = mapOf("x" to 1)),
+            PromptTurn(PromptTurnKind.USER, "b")
+        )
+        assertEquals(mapOf("x" to 1), turns.mergeAdjacentTurns().single().metadata)
+    }
+
+    @Test fun mergeAdjacentTurns_mergesMetadataMaps() {
+        val turns = listOf(
+            PromptTurn(PromptTurnKind.USER, "a", metadata = mapOf("x" to 1)),
+            PromptTurn(PromptTurnKind.USER, "b", metadata = mapOf("y" to 2))
+        )
+        assertEquals(mapOf("x" to 1, "y" to 2), turns.mergeAdjacentTurns().single().metadata)
+    }
+}

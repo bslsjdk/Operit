@@ -1,1 +1,127 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duCgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Sb3VuZGVkQ29ybmVyU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuRGlzcG9zYWJsZUVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5zZW1hbnRpY3MuY29udGVudERlc2NyaXB0aW9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnNlbWFudGljcy5zZW1hbnRpY3MKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0QWxpZ24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0T3ZlcmZsb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS52aWV3aW50ZXJvcC5BbmRyb2lkVmlldwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uZ29vZ2xlLmFuZHJvaWQuZXhvcGxheWVyMi5FeG9QbGF5ZXIKaW1wb3J0IGNvbS5nb29nbGUuYW5kcm9pZC5leG9wbGF5ZXIyLk1lZGlhSXRlbQppbXBvcnQgY29tLmdvb2dsZS5hbmRyb2lkLmV4b3BsYXllcjIudWkuU3R5bGVkUGxheWVyVmlldwoKcHJpdmF0ZSB2YWwgTUFSS0RPV05fQVVESU9fRVhURU5TSU9OUyA9CiAgICBzZXRPZigibXAzIiwgIndhdiIsICJvZ2ciLCAib2dhIiwgIm00YSIsICJhYWMiLCAiZmxhYyIsICJvcHVzIiwgIndlYmEiKQoKaW50ZXJuYWwgZnVuIG5vcm1hbGl6ZU1hcmtkb3duTWVkaWFVcmwodXJsOiBTdHJpbmcpOiBTdHJpbmcgewogICAgcmV0dXJuIHVybAogICAgICAgIC5zdWJzdHJpbmdCZWZvcmUoJyMnKQogICAgICAgIC5zdWJzdHJpbmdCZWZvcmUoJz8nKQogICAgICAgIC50cmltKCkKICAgICAgICAubG93ZXJjYXNlKCkKfQoKaW50ZXJuYWwgZnVuIGlzTGlrZWx5QXVkaW9VcmwodXJsOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgIHZhbCBleHRlbnNpb24gPSBub3JtYWxpemVNYXJrZG93bk1lZGlhVXJsKHVybCkuc3Vic3RyaW5nQWZ0ZXJMYXN0KCcuJywgIiIpCiAgICByZXR1cm4gZXh0ZW5zaW9uIGluIE1BUktET1dOX0FVRElPX0VYVEVOU0lPTlMKfQoKQENvbXBvc2FibGUKZnVuIE1hcmtkb3duQXVkaW9SZW5kZXJlcigKICAgIGF1ZGlvTWFya2Rvd246IFN0cmluZywKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyCikgewogICAgaWYgKCFpc0NvbXBsZXRlSW1hZ2VNYXJrZG93bihhdWRpb01hcmtkb3duKSkgewogICAgICAgIHJldHVybgogICAgfQoKICAgIHZhbCBhdWRpb0FsdCA9IGV4dHJhY3RNYXJrZG93bkltYWdlQWx0KGF1ZGlvTWFya2Rvd24pCiAgICB2YWwgYXVkaW9VcmwgPSBleHRyYWN0TWFya2Rvd25JbWFnZVVybChhdWRpb01hcmtkb3duKQogICAgaWYgKGF1ZGlvVXJsLmlzQmxhbmsoKSB8fCAhaXNMaWtlbHlBdWRpb1VybChhdWRpb1VybCkpIHsKICAgICAgICByZXR1cm4KICAgIH0KCiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgYXVkaW9VcmkgPSByZW1lbWJlcihhdWRpb1VybCkgeyBVcmkucGFyc2UoYXVkaW9VcmwpIH0KICAgIHZhbCBwbGF5ZXIgPSByZW1lbWJlcihhdWRpb1VybCkgeyBFeG9QbGF5ZXIuQnVpbGRlcihjb250ZXh0KS5idWlsZCgpIH0KCiAgICBMYXVuY2hlZEVmZmVjdChwbGF5ZXIsIGF1ZGlvVXJpKSB7CiAgICAgICAgcGxheWVyLnNldE1lZGlhSXRlbShNZWRpYUl0ZW0uZnJvbVVyaShhdWRpb1VyaSkpCiAgICAgICAgcGxheWVyLnByZXBhcmUoKQogICAgICAgIHBsYXllci5wbGF5V2hlblJlYWR5ID0gZmFsc2UKICAgIH0KCiAgICBEaXNwb3NhYmxlRWZmZWN0KHBsYXllcikgewogICAgICAgIG9uRGlzcG9zZSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBwbGF5ZXIuc3RvcCgpCiAgICAgICAgICAgICAgICBwbGF5ZXIuY2xlYXJNZWRpYUl0ZW1zKCkKICAgICAgICAgICAgICAgIHBsYXllci5yZWxlYXNlKCkKICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgdmFsIGFjY2Vzc2liaWxpdHlEZXNjID0gaWYgKGF1ZGlvQWx0LmlzTm90QmxhbmsoKSkgewogICAgICAgICIke3N0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmF1ZGlvX2Jsb2NrKX06ICRhdWRpb0FsdCIKICAgIH0gZWxzZSB7CiAgICAgICAgc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuYXVkaW9fYmxvY2spCiAgICB9CgogICAgQ29sdW1uKAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIKICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgIC5wYWRkaW5nKHZlcnRpY2FsID0gMi5kcCkKICAgICAgICAgICAgLnNlbWFudGljcyB7IGNvbnRlbnREZXNjcmlwdGlvbiA9IGFjY2Vzc2liaWxpdHlEZXNjIH0KICAgICkgewogICAgICAgIEFuZHJvaWRWaWV3KAogICAgICAgICAgICBmYWN0b3J5ID0geyBjdHggLT4KICAgICAgICAgICAgICAgIFN0eWxlZFBsYXllclZpZXcoY3R4KS5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgdGhpcy5wbGF5ZXIgPSBwbGF5ZXIKICAgICAgICAgICAgICAgICAgICB1c2VDb250cm9sbGVyID0gdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICB1cGRhdGUgPSB7IHZpZXcgLT4KICAgICAgICAgICAgICAgIGlmICh2aWV3LnBsYXllciAhPT0gcGxheWVyKSB7CiAgICAgICAgICAgICAgICAgICAgdmlldy5wbGF5ZXIgPSBwbGF5ZXIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAuY2xpcChSb3VuZGVkQ29ybmVyU2hhcGUoMTIuZHApKQogICAgICAgICAgICAgICAgLmJhY2tncm91bmQoTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudC5jb3B5KGFscGhhID0gMC4xOGYpKQogICAgICAgICAgICAgICAgLnBhZGRpbmcodmVydGljYWwgPSA4LmRwKQogICAgICAgICkKCiAgICAgICAgaWYgKGF1ZGlvQWx0LmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IGF1ZGlvQWx0LAogICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQuY29weShhbHBoYSA9IDAuN2YpLAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSAyLmRwLCB2ZXJ0aWNhbCA9IDEuZHApLAogICAgICAgICAgICAgICAgdGV4dEFsaWduID0gVGV4dEFsaWduLkNlbnRlciwKICAgICAgICAgICAgICAgIG1heExpbmVzID0gMSwKICAgICAgICAgICAgICAgIG92ZXJmbG93ID0gVGV4dE92ZXJmbG93LkVsbGlwc2lzCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.common.markdown
+
+import android.net.Uri
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
+import androidx.compose.ui.platform.LocalContext
+import com.bslsjdk.operit.R
+import com.google.android.exoplayer2.ExoPlayer
+import com.google.android.exoplayer2.MediaItem
+import com.google.android.exoplayer2.ui.StyledPlayerView
+
+private val MARKDOWN_AUDIO_EXTENSIONS =
+    setOf("mp3", "wav", "ogg", "oga", "m4a", "aac", "flac", "opus", "weba")
+
+internal fun normalizeMarkdownMediaUrl(url: String): String {
+    return url
+        .substringBefore('#')
+        .substringBefore('?')
+        .trim()
+        .lowercase()
+}
+
+internal fun isLikelyAudioUrl(url: String): Boolean {
+    val extension = normalizeMarkdownMediaUrl(url).substringAfterLast('.', "")
+    return extension in MARKDOWN_AUDIO_EXTENSIONS
+}
+
+@Composable
+fun MarkdownAudioRenderer(
+    audioMarkdown: String,
+    modifier: Modifier = Modifier
+) {
+    if (!isCompleteImageMarkdown(audioMarkdown)) {
+        return
+    }
+
+    val audioAlt = extractMarkdownImageAlt(audioMarkdown)
+    val audioUrl = extractMarkdownImageUrl(audioMarkdown)
+    if (audioUrl.isBlank() || !isLikelyAudioUrl(audioUrl)) {
+        return
+    }
+
+    val context = LocalContext.current
+    val audioUri = remember(audioUrl) { Uri.parse(audioUrl) }
+    val player = remember(audioUrl) { ExoPlayer.Builder(context).build() }
+
+    LaunchedEffect(player, audioUri) {
+        player.setMediaItem(MediaItem.fromUri(audioUri))
+        player.prepare()
+        player.playWhenReady = false
+    }
+
+    DisposableEffect(player) {
+        onDispose {
+            try {
+                player.stop()
+                player.clearMediaItems()
+                player.release()
+            } catch (_: Exception) {
+            }
+        }
+    }
+
+    val accessibilityDesc = if (audioAlt.isNotBlank()) {
+        "${stringResource(R.string.audio_block)}: $audioAlt"
+    } else {
+        stringResource(R.string.audio_block)
+    }
+
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(vertical = 2.dp)
+            .semantics { contentDescription = accessibilityDesc }
+    ) {
+        AndroidView(
+            factory = { ctx ->
+                StyledPlayerView(ctx).apply {
+                    this.player = player
+                    useController = true
+                }
+            },
+            update = { view ->
+                if (view.player !== player) {
+                    view.player = player
+                }
+            },
+            modifier = Modifier
+                .fillMaxWidth()
+                .clip(RoundedCornerShape(12.dp))
+                .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.18f))
+                .padding(vertical = 8.dp)
+        )
+
+        if (audioAlt.isNotBlank()) {
+            Text(
+                text = audioAlt,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 2.dp, vertical = 1.dp),
+                textAlign = TextAlign.Center,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
+            )
+        }
+    }
+}

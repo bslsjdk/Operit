@@ -1,1 +1,192 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgRGVlcHNlZWtSZXNwb25zZXNQYXlsb2FkQWRhcHRlclRlc3QgewoKICAgIEBUZXN0CiAgICBmdW4gYHBsYWludGV4dCByZWFzb25pbmcgaXMgcHJlc2VydmVkIGFuZCByZXBsYXllZCBiZWZvcmUgZnVuY3Rpb24gY2FsbHNgKCkgewogICAgICAgIHZhbCByZWFzb25pbmdDb250ZW50ID0KICAgICAgICAgICAgSlNPTkFycmF5KCkucHV0KAogICAgICAgICAgICAgICAgSlNPTk9iamVjdCgpCiAgICAgICAgICAgICAgICAgICAgLnB1dCgidHlwZSIsICJyZWFzb25pbmdfdGV4dCIpCiAgICAgICAgICAgICAgICAgICAgLnB1dCgidGV4dCIsICJJIG5lZWQgdG8gaW5zcGVjdCB0aGUgd29ya3NwYWNlIGZpcnN0LiIpCiAgICAgICAgICAgICkKICAgICAgICB2YWwgcmVhc29uaW5nSXRlbSA9CiAgICAgICAgICAgIEpTT05PYmplY3QoKQogICAgICAgICAgICAgICAgLnB1dCgidHlwZSIsICJyZWFzb25pbmciKQogICAgICAgICAgICAgICAgLnB1dCgiaWQiLCAicnNfcGxhaW5fMSIpCiAgICAgICAgICAgICAgICAucHV0KCJjb250ZW50IiwgcmVhc29uaW5nQ29udGVudCkKICAgICAgICB2YWwgbWV0YWRhdGFUYWcgPQogICAgICAgICAgICBEZWVwc2Vla1Jlc3BvbnNlc1BheWxvYWRBZGFwdGVyLnBhcnNlTm9uU3RyZWFtaW5nUmVzcG9uc2UoCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KCIiInsib3V0cHV0IjpbJHJlYXNvbmluZ0l0ZW1dfSIiIikKICAgICAgICAgICAgKS5yZWFzb25pbmdNZXRhZGF0YVRhZ3Muc2luZ2xlKCkKICAgICAgICB2YWwgY2hhdFN0eWxlUmVxdWVzdCA9IHNpbmdsZVRvb2xDb250aW51YXRpb25SZXF1ZXN0KAogICAgICAgICAgICBhc3Npc3RhbnRDb250ZW50ID0KICAgICAgICAgICAgICAgICI8dGhpbms+SSBuZWVkIHRvIGluc3BlY3QgdGhlIHdvcmtzcGFjZSBmaXJzdC48L3RoaW5rPiIgKwogICAgICAgICAgICAgICAgICAgICJJIHdpbGwgaW5zcGVjdCB0aGUgd29ya3NwYWNlLiRtZXRhZGF0YVRhZyIsCiAgICAgICAgICAgIGNhbGxJZCA9ICJjYWxsX3BsYWluXzEiLAogICAgICAgICAgICB0b29sTmFtZSA9ICJsaXN0X2ZpbGVzIiwKICAgICAgICAgICAgYXJndW1lbnRzID0gIntcInBhdGhcIjpcIi93b3Jrc3BhY2VcIn0iCiAgICAgICAgKQoKICAgICAgICB2YWwgaW5wdXQgPSBEZWVwc2Vla1Jlc3BvbnNlc1BheWxvYWRBZGFwdGVyLnRvUmVzcG9uc2VzUmVxdWVzdChjaGF0U3R5bGVSZXF1ZXN0KQogICAgICAgICAgICAuZ2V0SlNPTkFycmF5KCJpbnB1dCIpCgogICAgICAgIGFzc2VydEVxdWFscygicmVhc29uaW5nIiwgaW5wdXQuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoInJzX3BsYWluXzEiLCBpbnB1dC5nZXRKU09OT2JqZWN0KDApLmdldFN0cmluZygiaWQiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIHJlYXNvbmluZ0NvbnRlbnQudG9TdHJpbmcoKSwKICAgICAgICAgICAgaW5wdXQuZ2V0SlNPTk9iamVjdCgwKS5nZXRKU09OQXJyYXkoImNvbnRlbnQiKS50b1N0cmluZygpCiAgICAgICAgKQogICAgICAgIGFzc2VydEZhbHNlKGlucHV0LmdldEpTT05PYmplY3QoMCkuaGFzKCJlbmNyeXB0ZWRfY29udGVudCIpKQogICAgICAgIGFzc2VydEZhbHNlKGlucHV0LmdldEpTT05PYmplY3QoMCkuaGFzKCJzdW1tYXJ5IikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJtZXNzYWdlIiwgaW5wdXQuZ2V0SlNPTk9iamVjdCgxKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJJIHdpbGwgaW5zcGVjdCB0aGUgd29ya3NwYWNlLiIsCiAgICAgICAgICAgIGlucHV0LmdldEpTT05PYmplY3QoMSkuZ2V0U3RyaW5nKCJjb250ZW50IikKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJmdW5jdGlvbl9jYWxsIiwgaW5wdXQuZ2V0SlNPTk9iamVjdCgyKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImNhbGxfcGxhaW5fMSIsIGlucHV0LmdldEpTT05PYmplY3QoMikuZ2V0U3RyaW5nKCJjYWxsX2lkIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJmdW5jdGlvbl9jYWxsX291dHB1dCIsIGlucHV0LmdldEpTT05PYmplY3QoMykuZ2V0U3RyaW5nKCJ0eXBlIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJjYWxsX3BsYWluXzEiLCBpbnB1dC5nZXRKU09OT2JqZWN0KDMpLmdldFN0cmluZygiY2FsbF9pZCIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGVuY3J5cHRlZCByZWFzb25pbmcgaXMgbm90IGVtaXR0ZWQgYXMgZGVlcHNlZWsgcmVhc29uaW5nIG1ldGFkYXRhYCgpIHsKICAgICAgICB2YWwgcmVhc29uaW5nSXRlbSA9CiAgICAgICAgICAgIEpTT05PYmplY3QoKQogICAgICAgICAgICAgICAgLnB1dCgidHlwZSIsICJyZWFzb25pbmciKQogICAgICAgICAgICAgICAgLnB1dCgiaWQiLCAicnNfZW5jcnlwdGVkXzEiKQogICAgICAgICAgICAgICAgLnB1dCgiZW5jcnlwdGVkX2NvbnRlbnQiLCAiZW5jcnlwdGVkLXJlYXNvbmluZyIpCiAgICAgICAgICAgICAgICAucHV0KCJzdW1tYXJ5IiwgSlNPTkFycmF5KCkpCgogICAgICAgIHZhbCBwYXJzZWQgPQogICAgICAgICAgICBEZWVwc2Vla1Jlc3BvbnNlc1BheWxvYWRBZGFwdGVyLnBhcnNlTm9uU3RyZWFtaW5nUmVzcG9uc2UoCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KCIiInsib3V0cHV0IjpbJHJlYXNvbmluZ0l0ZW1dfSIiIikKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgcGFyc2VkLnJlYXNvbmluZ01ldGFkYXRhVGFncy5zaXplKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYGNvbW1lbnRhcnkgdGhpbmtpbmcgaXMgcHJlc2VydmVkIGJlZm9yZSB0aGUgcmVsYXRlZCBmdW5jdGlvbiBjYWxsYCgpIHsKICAgICAgICB2YWwgY29tbWVudGFyeUNvbnRlbnQgPQogICAgICAgICAgICBKU09OQXJyYXkoKS5wdXQoCiAgICAgICAgICAgICAgICBKU09OT2JqZWN0KCkKICAgICAgICAgICAgICAgICAgICAucHV0KCJ0eXBlIiwgIm91dHB1dF90ZXh0IikKICAgICAgICAgICAgICAgICAgICAucHV0KCJ0ZXh0IiwgIkkgbmVlZCB0byBhY3RpdmF0ZSB0aGUgcGFja2FnZSBiZWZvcmUgY2FsbGluZyBpdHMgdG9vbC4iKQogICAgICAgICAgICApCiAgICAgICAgdmFsIGNvbW1lbnRhcnlJdGVtID0KICAgICAgICAgICAgSlNPTk9iamVjdCgpCiAgICAgICAgICAgICAgICAucHV0KCJ0eXBlIiwgIm1lc3NhZ2UiKQogICAgICAgICAgICAgICAgLnB1dCgiaWQiLCAibXNnX2NvbW1lbnRhcnlfMSIpCiAgICAgICAgICAgICAgICAucHV0KCJyb2xlIiwgImFzc2lzdGFudCIpCiAgICAgICAgICAgICAgICAucHV0KCJwaGFzZSIsICJjb21tZW50YXJ5IikKICAgICAgICAgICAgICAgIC5wdXQoImNvbnRlbnQiLCBjb21tZW50YXJ5Q29udGVudCkKICAgICAgICB2YWwgcGFyc2VkID0KICAgICAgICAgICAgRGVlcHNlZWtSZXNwb25zZXNQYXlsb2FkQWRhcHRlci5wYXJzZU5vblN0cmVhbWluZ1Jlc3BvbnNlKAogICAgICAgICAgICAgICAgSlNPTk9iamVjdCgiIiJ7Im91dHB1dCI6WyRjb21tZW50YXJ5SXRlbV19IiIiKQogICAgICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIHBhcnNlZC5yZWFzb25pbmdDaHVua3Muc2l6ZSkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgcGFyc2VkLnRleHRDaHVua3Muc2l6ZSkKICAgICAgICB2YWwgbWV0YWRhdGFUYWcgPSBwYXJzZWQub3V0cHV0SXRlbU1ldGFkYXRhVGFncy5zaW5nbGUoKQogICAgICAgIHZhbCBjaGF0U3R5bGVSZXF1ZXN0ID0gc2luZ2xlVG9vbENvbnRpbnVhdGlvblJlcXVlc3QoCiAgICAgICAgICAgIGFzc2lzdGFudENvbnRlbnQgPSBtZXRhZGF0YVRhZywKICAgICAgICAgICAgY2FsbElkID0gImNhbGxfY29tbWVudGFyeV8xIiwKICAgICAgICAgICAgdG9vbE5hbWUgPSAidXNlX3BhY2thZ2UiLAogICAgICAgICAgICBhcmd1bWVudHMgPSAie1wicGFja2FnZV9uYW1lXCI6XCJzdXBlcl9hZG1pblwifSIKICAgICAgICApCgogICAgICAgIHZhbCBpbnB1dCA9IERlZXBzZWVrUmVzcG9uc2VzUGF5bG9hZEFkYXB0ZXIudG9SZXNwb25zZXNSZXF1ZXN0KGNoYXRTdHlsZVJlcXVlc3QpCiAgICAgICAgICAgIC5nZXRKU09OQXJyYXkoImlucHV0IikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMsIGlucHV0Lmxlbmd0aCgpKQogICAgICAgIGFzc2VydEVxdWFscygicmVhc29uaW5nIiwgaW5wdXQuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoIm1zZ19jb21tZW50YXJ5XzEiLCBpbnB1dC5nZXRKU09OT2JqZWN0KDApLmdldFN0cmluZygiaWQiKSkKICAgICAgICB2YWwgcmVwbGF5ZWRDb250ZW50ID0gaW5wdXQuZ2V0SlNPTk9iamVjdCgwKS5nZXRKU09OQXJyYXkoImNvbnRlbnQiKQogICAgICAgIGFzc2VydEVxdWFscygicmVhc29uaW5nX3RleHQiLCByZXBsYXllZENvbnRlbnQuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJJIG5lZWQgdG8gYWN0aXZhdGUgdGhlIHBhY2thZ2UgYmVmb3JlIGNhbGxpbmcgaXRzIHRvb2wuIiwKICAgICAgICAgICAgcmVwbGF5ZWRDb250ZW50LmdldEpTT05PYmplY3QoMCkuZ2V0U3RyaW5nKCJ0ZXh0IikKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJmdW5jdGlvbl9jYWxsIiwgaW5wdXQuZ2V0SlNPTk9iamVjdCgxKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImNhbGxfY29tbWVudGFyeV8xIiwgaW5wdXQuZ2V0SlNPTk9iamVjdCgxKS5nZXRTdHJpbmcoImNhbGxfaWQiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImZ1bmN0aW9uX2NhbGxfb3V0cHV0IiwgaW5wdXQuZ2V0SlNPTk9iamVjdCgyKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoImNhbGxfY29tbWVudGFyeV8xIiwgaW5wdXQuZ2V0SlNPTk9iamVjdCgyKS5nZXRTdHJpbmcoImNhbGxfaWQiKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBidWZmZXJlZCBjb21tZW50YXJ5IHRoaW5raW5nIGlzIHByZXNlcnZlZCB3aGVuIHRoZSBjb21wbGV0ZWQgaXRlbSBoYXMgbm8gY29udGVudGAoKSB7CiAgICAgICAgdmFsIGNvbW1lbnRhcnlJdGVtID0KICAgICAgICAgICAgSlNPTk9iamVjdCgpCiAgICAgICAgICAgICAgICAucHV0KCJ0eXBlIiwgIm1lc3NhZ2UiKQogICAgICAgICAgICAgICAgLnB1dCgicm9sZSIsICJhc3Npc3RhbnQiKQogICAgICAgICAgICAgICAgLnB1dCgicGhhc2UiLCAiY29tbWVudGFyeSIpCiAgICAgICAgdmFsIGNvbW1lbnRhcnlUZXh0ID0gIkkgbmVlZCB0byB3YWl0IGZvciB0aGUgY29tbWFuZCBiZWZvcmUgZGVjaWRpbmcgdGhlIG5leHQgYWN0aW9uLiIKICAgICAgICB2YWwgbWV0YWRhdGFUYWcgPQogICAgICAgICAgICBEZWVwc2Vla1Jlc3BvbnNlc1BheWxvYWRBZGFwdGVyLmNyZWF0ZVN0cmVhbWluZ0NvbW1lbnRhcnlNZXRhZGF0YVRhZygKICAgICAgICAgICAgICAgIGNvbW1lbnRhcnlJdGVtLAogICAgICAgICAgICAgICAgY29tbWVudGFyeVRleHQKICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgPzogdGhyb3cgQXNzZXJ0aW9uRXJyb3IoIkV4cGVjdGVkIGNvbW1lbnRhcnkgbWV0YWRhdGEiKQogICAgICAgIHZhbCBjaGF0U3R5bGVSZXF1ZXN0ID0gc2luZ2xlVG9vbENvbnRpbnVhdGlvblJlcXVlc3QoCiAgICAgICAgICAgIGFzc2lzdGFudENvbnRlbnQgPSBtZXRhZGF0YVRhZywKICAgICAgICAgICAgY2FsbElkID0gImNhbGxfYnVmZmVyZWRfY29tbWVudGFyeV8xIiwKICAgICAgICAgICAgdG9vbE5hbWUgPSAidGVybWluYWxfd2FpdCIsCiAgICAgICAgICAgIGFyZ3VtZW50cyA9ICJ7fSIKICAgICAgICApCgogICAgICAgIHZhbCBpbnB1dCA9IERlZXBzZWVrUmVzcG9uc2VzUGF5bG9hZEFkYXB0ZXIudG9SZXNwb25zZXNSZXF1ZXN0KGNoYXRTdHlsZVJlcXVlc3QpCiAgICAgICAgICAgIC5nZXRKU09OQXJyYXkoImlucHV0IikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMsIGlucHV0Lmxlbmd0aCgpKQogICAgICAgIGFzc2VydEVxdWFscygicmVhc29uaW5nIiwgaW5wdXQuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICB2YWwgcmVwbGF5ZWRDb250ZW50ID0gaW5wdXQuZ2V0SlNPTk9iamVjdCgwKS5nZXRKU09OQXJyYXkoImNvbnRlbnQiKQogICAgICAgIGFzc2VydEVxdWFscygicmVhc29uaW5nX3RleHQiLCByZXBsYXllZENvbnRlbnQuZ2V0SlNPTk9iamVjdCgwKS5nZXRTdHJpbmcoInR5cGUiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoY29tbWVudGFyeVRleHQsIHJlcGxheWVkQ29udGVudC5nZXRKU09OT2JqZWN0KDApLmdldFN0cmluZygidGV4dCIpKQogICAgICAgIGFzc2VydEVxdWFscygiZnVuY3Rpb25fY2FsbCIsIGlucHV0LmdldEpTT05PYmplY3QoMSkuZ2V0U3RyaW5nKCJ0eXBlIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJmdW5jdGlvbl9jYWxsX291dHB1dCIsIGlucHV0LmdldEpTT05PYmplY3QoMikuZ2V0U3RyaW5nKCJ0eXBlIikpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2luZ2xlVG9vbENvbnRpbnVhdGlvblJlcXVlc3QoCiAgICAgICAgYXNzaXN0YW50Q29udGVudDogU3RyaW5nLAogICAgICAgIGNhbGxJZDogU3RyaW5nLAogICAgICAgIHRvb2xOYW1lOiBTdHJpbmcsCiAgICAgICAgYXJndW1lbnRzOiBTdHJpbmcKICAgICk6IEpTT05PYmplY3QgPSBKU09OT2JqZWN0KCkuYXBwbHkgewogICAgICAgIHB1dCgKICAgICAgICAgICAgIm1lc3NhZ2VzIiwKICAgICAgICAgICAgSlNPTkFycmF5KCkKICAgICAgICAgICAgICAgIC5wdXQoCiAgICAgICAgICAgICAgICAgICAgSlNPTk9iamVjdCgpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wdXQoInJvbGUiLCAiYXNzaXN0YW50IikKICAgICAgICAgICAgICAgICAgICAgICAgLnB1dCgiY29udGVudCIsIGFzc2lzdGFudENvbnRlbnQpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wdXQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAidG9vbF9jYWxscyIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBKU09OQXJyYXkoKS5wdXQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSlNPTk9iamVjdCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wdXQoImlkIiwgY2FsbElkKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucHV0KCJ0eXBlIiwgImZ1bmN0aW9uIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnB1dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJmdW5jdGlvbiIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBKU09OT2JqZWN0KCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucHV0KCJuYW1lIiwgdG9vbE5hbWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnB1dCgiYXJndW1lbnRzIiwgYXJndW1lbnRzKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIC5wdXQoCiAgICAgICAgICAgICAgICAgICAgSlNPTk9iamVjdCgpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wdXQoInJvbGUiLCAidG9vbCIpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wdXQoInRvb2xfY2FsbF9pZCIsIGNhbGxJZCkKICAgICAgICAgICAgICAgICAgICAgICAgLnB1dCgiY29udGVudCIsICJ3b3Jrc3BhY2UgcmVzdWx0IikKICAgICAgICAgICAgICAgICkKICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.json.JSONArray
+import org.json.JSONObject
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Test
+
+class DeepseekResponsesPayloadAdapterTest {
+
+    @Test
+    fun `plaintext reasoning is preserved and replayed before function calls`() {
+        val reasoningContent =
+            JSONArray().put(
+                JSONObject()
+                    .put("type", "reasoning_text")
+                    .put("text", "I need to inspect the workspace first.")
+            )
+        val reasoningItem =
+            JSONObject()
+                .put("type", "reasoning")
+                .put("id", "rs_plain_1")
+                .put("content", reasoningContent)
+        val metadataTag =
+            DeepseekResponsesPayloadAdapter.parseNonStreamingResponse(
+                JSONObject("""{"output":[$reasoningItem]}""")
+            ).reasoningMetadataTags.single()
+        val chatStyleRequest = singleToolContinuationRequest(
+            assistantContent =
+                "<think>I need to inspect the workspace first.</think>" +
+                    "I will inspect the workspace.$metadataTag",
+            callId = "call_plain_1",
+            toolName = "list_files",
+            arguments = "{\"path\":\"/workspace\"}"
+        )
+
+        val input = DeepseekResponsesPayloadAdapter.toResponsesRequest(chatStyleRequest)
+            .getJSONArray("input")
+
+        assertEquals("reasoning", input.getJSONObject(0).getString("type"))
+        assertEquals("rs_plain_1", input.getJSONObject(0).getString("id"))
+        assertEquals(
+            reasoningContent.toString(),
+            input.getJSONObject(0).getJSONArray("content").toString()
+        )
+        assertFalse(input.getJSONObject(0).has("encrypted_content"))
+        assertFalse(input.getJSONObject(0).has("summary"))
+        assertEquals("message", input.getJSONObject(1).getString("type"))
+        assertEquals(
+            "I will inspect the workspace.",
+            input.getJSONObject(1).getString("content")
+        )
+        assertEquals("function_call", input.getJSONObject(2).getString("type"))
+        assertEquals("call_plain_1", input.getJSONObject(2).getString("call_id"))
+        assertEquals("function_call_output", input.getJSONObject(3).getString("type"))
+        assertEquals("call_plain_1", input.getJSONObject(3).getString("call_id"))
+    }
+
+    @Test
+    fun `encrypted reasoning is not emitted as deepseek reasoning metadata`() {
+        val reasoningItem =
+            JSONObject()
+                .put("type", "reasoning")
+                .put("id", "rs_encrypted_1")
+                .put("encrypted_content", "encrypted-reasoning")
+                .put("summary", JSONArray())
+
+        val parsed =
+            DeepseekResponsesPayloadAdapter.parseNonStreamingResponse(
+                JSONObject("""{"output":[$reasoningItem]}""")
+            )
+
+        assertEquals(0, parsed.reasoningMetadataTags.size)
+    }
+
+    @Test
+    fun `commentary thinking is preserved before the related function call`() {
+        val commentaryContent =
+            JSONArray().put(
+                JSONObject()
+                    .put("type", "output_text")
+                    .put("text", "I need to activate the package before calling its tool.")
+            )
+        val commentaryItem =
+            JSONObject()
+                .put("type", "message")
+                .put("id", "msg_commentary_1")
+                .put("role", "assistant")
+                .put("phase", "commentary")
+                .put("content", commentaryContent)
+        val parsed =
+            DeepseekResponsesPayloadAdapter.parseNonStreamingResponse(
+                JSONObject("""{"output":[$commentaryItem]}""")
+            )
+        assertEquals(0, parsed.reasoningChunks.size)
+        assertEquals(0, parsed.textChunks.size)
+        val metadataTag = parsed.outputItemMetadataTags.single()
+        val chatStyleRequest = singleToolContinuationRequest(
+            assistantContent = metadataTag,
+            callId = "call_commentary_1",
+            toolName = "use_package",
+            arguments = "{\"package_name\":\"super_admin\"}"
+        )
+
+        val input = DeepseekResponsesPayloadAdapter.toResponsesRequest(chatStyleRequest)
+            .getJSONArray("input")
+
+        assertEquals(3, input.length())
+        assertEquals("reasoning", input.getJSONObject(0).getString("type"))
+        assertEquals("msg_commentary_1", input.getJSONObject(0).getString("id"))
+        val replayedContent = input.getJSONObject(0).getJSONArray("content")
+        assertEquals("reasoning_text", replayedContent.getJSONObject(0).getString("type"))
+        assertEquals(
+            "I need to activate the package before calling its tool.",
+            replayedContent.getJSONObject(0).getString("text")
+        )
+        assertEquals("function_call", input.getJSONObject(1).getString("type"))
+        assertEquals("call_commentary_1", input.getJSONObject(1).getString("call_id"))
+        assertEquals("function_call_output", input.getJSONObject(2).getString("type"))
+        assertEquals("call_commentary_1", input.getJSONObject(2).getString("call_id"))
+    }
+
+    @Test
+    fun `buffered commentary thinking is preserved when the completed item has no content`() {
+        val commentaryItem =
+            JSONObject()
+                .put("type", "message")
+                .put("role", "assistant")
+                .put("phase", "commentary")
+        val commentaryText = "I need to wait for the command before deciding the next action."
+        val metadataTag =
+            DeepseekResponsesPayloadAdapter.createStreamingCommentaryMetadataTag(
+                commentaryItem,
+                commentaryText
+            )
+                ?: throw AssertionError("Expected commentary metadata")
+        val chatStyleRequest = singleToolContinuationRequest(
+            assistantContent = metadataTag,
+            callId = "call_buffered_commentary_1",
+            toolName = "terminal_wait",
+            arguments = "{}"
+        )
+
+        val input = DeepseekResponsesPayloadAdapter.toResponsesRequest(chatStyleRequest)
+            .getJSONArray("input")
+
+        assertEquals(3, input.length())
+        assertEquals("reasoning", input.getJSONObject(0).getString("type"))
+        val replayedContent = input.getJSONObject(0).getJSONArray("content")
+        assertEquals("reasoning_text", replayedContent.getJSONObject(0).getString("type"))
+        assertEquals(commentaryText, replayedContent.getJSONObject(0).getString("text"))
+        assertEquals("function_call", input.getJSONObject(1).getString("type"))
+        assertEquals("function_call_output", input.getJSONObject(2).getString("type"))
+    }
+
+    private fun singleToolContinuationRequest(
+        assistantContent: String,
+        callId: String,
+        toolName: String,
+        arguments: String
+    ): JSONObject = JSONObject().apply {
+        put(
+            "messages",
+            JSONArray()
+                .put(
+                    JSONObject()
+                        .put("role", "assistant")
+                        .put("content", assistantContent)
+                        .put(
+                            "tool_calls",
+                            JSONArray().put(
+                                JSONObject()
+                                    .put("id", callId)
+                                    .put("type", "function")
+                                    .put(
+                                        "function",
+                                        JSONObject()
+                                            .put("name", toolName)
+                                            .put("arguments", arguments)
+                                    )
+                            )
+                        )
+                )
+                .put(
+                    JSONObject()
+                        .put("role", "tool")
+                        .put("tool_call_id", callId)
+                        .put("content", "workspace result")
+                )
+        )
+    }
+}

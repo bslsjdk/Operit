@@ -1,1 +1,319 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jYWxjdWxhdG9yCgppbXBvcnQgamF2YS50ZXh0LlNpbXBsZURhdGVGb3JtYXQKaW1wb3J0IGphdmEudXRpbC4qCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdAppbXBvcnQga290bGluLm1hdGgucG93CmltcG9ydCBrb3RsaW4ubWF0aC5zcXJ0CgovKiog6KGo6L6+5byP6K6h566X5LiK5LiL5paH77yM55So5LqO5a2Y5YKo5Y+Y6YeP5ZKM5Ye95pWwICovCm9iamVjdCBFeHByZXNzaW9uQ29udGV4dCB7CiAgICAvLyDlj5jph4/lrZjlgqgKICAgIHByaXZhdGUgdmFsIHZhcmlhYmxlcyA9IG11dGFibGVNYXBPZjxTdHJpbmcsIEFueT4oKQoKICAgIC8vIOW4uOmHjwogICAgaW5pdCB7CiAgICAgICAgdmFyaWFibGVzWyJQSSJdID0gTWF0aC5QSQogICAgICAgIHZhcmlhYmxlc1siRSJdID0gTWF0aC5FCiAgICB9CgogICAgLy8g5pel5pyf5qC85byPCiAgICBwcml2YXRlIHZhbCBEQVRFX0ZPUk1BVFMgPQogICAgICAgICAgICBhcnJheU9mKAogICAgICAgICAgICAgICAgICAgICJ5eXl5LU1NLWRkIiwKICAgICAgICAgICAgICAgICAgICAieXl5eS9NTS9kZCIsCiAgICAgICAgICAgICAgICAgICAgIk1NL2RkL3l5eXkiLAogICAgICAgICAgICAgICAgICAgICJkZC9NTS95eXl5IiwKICAgICAgICAgICAgICAgICAgICAieXl5eS1NTS1kZCBISDptbTpzcyIsCiAgICAgICAgICAgICAgICAgICAgInl5eXkvTU0vZGQgSEg6bW06c3MiCiAgICAgICAgICAgICkKCiAgICAvKiog6I635Y+W5Y+Y6YeP5YC8ICovCiAgICBmdW4gZ2V0VmFyaWFibGUobmFtZTogU3RyaW5nKTogRG91YmxlIHsKICAgICAgICB2YWwgdmFsdWUgPSB2YXJpYWJsZXNbbmFtZV0gPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJWYXJpYWJsZSAkbmFtZSBub3QgZGVmaW5lZCIpCiAgICAgICAgcmV0dXJuIGNvZXJjZVRvTnVtYmVyKHZhbHVlKQogICAgfQoKICAgIC8qKiDorr7nva7lj5jph4/lgLwgKi8KICAgIGZ1biBzZXRWYXJpYWJsZShuYW1lOiBTdHJpbmcsIHZhbHVlOiBEb3VibGUpIHsKICAgICAgICB2YXJpYWJsZXNbbmFtZV0gPSB2YWx1ZQogICAgfQoKICAgIC8qKiDlsIbku7vmhI/lgLzovazmjaLkuLrmlbDlrZfvvIhKYXZhU2NyaXB06aOO5qC877yJICovCiAgICBmdW4gY29lcmNlVG9OdW1iZXIodmFsdWU6IEFueT8pOiBEb3VibGUgewogICAgICAgIHJldHVybiB3aGVuICh2YWx1ZSkgewogICAgICAgICAgICBudWxsIC0+IDAuMAogICAgICAgICAgICBpcyBOdW1iZXIgLT4gdmFsdWUudG9Eb3VibGUoKQogICAgICAgICAgICBpcyBCb29sZWFuIC0+IGlmICh2YWx1ZSkgMS4wIGVsc2UgMC4wCiAgICAgICAgICAgIGlzIFN0cmluZyAtPiB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHdoZW4gKHZhbHVlLmxvd2VyY2FzZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICJ0cnVlIiAtPiAxLjAKICAgICAgICAgICAgICAgICAgICAgICAgImZhbHNlIiAtPiAwLjAKICAgICAgICAgICAgICAgICAgICAgICAgIm51bGwiLCAidW5kZWZpbmVkIiAtPiAwLjAKICAgICAgICAgICAgICAgICAgICAgICAgIm5hbiIgLT4gRG91YmxlLk5hTgogICAgICAgICAgICAgICAgICAgICAgICAiaW5maW5pdHkiIC0+IERvdWJsZS5QT1NJVElWRV9JTkZJTklUWQogICAgICAgICAgICAgICAgICAgICAgICAiLWluZmluaXR5IiAtPiBEb3VibGUuTkVHQVRJVkVfSU5GSU5JVFkKICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiB2YWx1ZS50b0RvdWJsZSgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogTnVtYmVyRm9ybWF0RXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgRG91YmxlLk5hTiAvLyBKYXZhU2NyaXB06aOO5qC877ya5peg5pWI5a2X56ym5Liy6L2s5Li6TmFOCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaXMgTGlzdDwqPiAtPiB2YWx1ZS5zaXplLnRvRG91YmxlKCkKICAgICAgICAgICAgZWxzZSAtPiBEb3VibGUuTmFOCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDojrflj5bmlbDnu4TmiJblrZfnrKbkuLLlhYPntKAgKi8KICAgIGZ1biBnZXRBcnJheUVsZW1lbnQoYXJyYXk6IEV4cHJlc3Npb25Ob2RlLCBpbmRleDogRXhwcmVzc2lvbk5vZGUpOiBEb3VibGUgewogICAgICAgIHZhbCBpbmRleFZhbHVlID0gaW5kZXguZXZhbHVhdGUoKS50b0ludCgpCgogICAgICAgIHdoZW4gKGFycmF5KSB7CiAgICAgICAgICAgIGlzIFZhcmlhYmxlTm9kZSAtPiB7CiAgICAgICAgICAgICAgICB2YWwgYXJyYXlWYWx1ZSA9IHZhcmlhYmxlc1thcnJheS5uYW1lXQogICAgICAgICAgICAgICAgd2hlbiAoYXJyYXlWYWx1ZSkgewogICAgICAgICAgICAgICAgICAgIGlzIExpc3Q8Kj4gLT4gewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoaW5kZXhWYWx1ZSA8IDAgfHwgaW5kZXhWYWx1ZSA+PSBhcnJheVZhbHVlLnNpemUpIHJldHVybiBEb3VibGUuTmFOCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBjb2VyY2VUb051bWJlcihhcnJheVZhbHVlW2luZGV4VmFsdWVdKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBpcyBTdHJpbmcgLT4gewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoaW5kZXhWYWx1ZSA8IDAgfHwgaW5kZXhWYWx1ZSA+PSBhcnJheVZhbHVlLmxlbmd0aCkgcmV0dXJuIERvdWJsZS5OYU4KICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGFycmF5VmFsdWVbaW5kZXhWYWx1ZV0uY29kZS50b0RvdWJsZSgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGVsc2UgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlZhbHVlIGlzIG5vdCBhbiBhcnJheSBvciBzdHJpbmc6ICR7YXJyYXkubmFtZX0iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICB2YWwgYXJyYXlSZXN1bHQgPSBhcnJheS5ldmFsdWF0ZSgpLnRvU3RyaW5nKCkKICAgICAgICAgICAgICAgIGlmIChpbmRleFZhbHVlIDwgMCB8fCBpbmRleFZhbHVlID49IGFycmF5UmVzdWx0Lmxlbmd0aCkgcmV0dXJuIERvdWJsZS5OYU4KICAgICAgICAgICAgICAgIHJldHVybiBhcnJheVJlc3VsdFtpbmRleFZhbHVlXS5jb2RlLnRvRG91YmxlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKiog6LCD55So5Ye95pWwICovCiAgICBmdW4gY2FsbEZ1bmN0aW9uKG5hbWU6IFN0cmluZywgYXJnczogTGlzdDxEb3VibGU+KTogRG91YmxlIHsKICAgICAgICB2YWwgbWF0aEZ1bmN0aW9uTmFtZSA9CiAgICAgICAgICAgICAgICBpZiAobmFtZS5zdGFydHNXaXRoKCJNYXRoLiIsIGlnbm9yZUNhc2UgPSB0cnVlKSkgbmFtZS5zdWJzdHJpbmcoNSkgZWxzZSBuYW1lCgogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgLy8g5pWw5a2m5Ye95pWwCiAgICAgICAgICAgIG1hdGhGdW5jdGlvbk5hbWUuZXF1YWxzKCJhYnMiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gTWF0aC5hYnMoYXJnc1swXSkKICAgICAgICAgICAgbWF0aEZ1bmN0aW9uTmFtZS5lcXVhbHMoInNxcnQiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gTWF0aC5zcXJ0KGFyZ3NbMF0pCiAgICAgICAgICAgIG1hdGhGdW5jdGlvbk5hbWUuZXF1YWxzKCJzaW4iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gTWF0aC5zaW4oYXJnc1swXSkKICAgICAgICAgICAgbWF0aEZ1bmN0aW9uTmFtZS5lcXVhbHMoImNvcyIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBNYXRoLmNvcyhhcmdzWzBdKQogICAgICAgICAgICBtYXRoRnVuY3Rpb25OYW1lLmVxdWFscygidGFuIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IE1hdGgudGFuKGFyZ3NbMF0pCiAgICAgICAgICAgIG1hdGhGdW5jdGlvbk5hbWUuZXF1YWxzKCJhc2luIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IE1hdGguYXNpbihhcmdzWzBdKQogICAgICAgICAgICBtYXRoRnVuY3Rpb25OYW1lLmVxdWFscygiYWNvcyIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBNYXRoLmFjb3MoYXJnc1swXSkKICAgICAgICAgICAgbWF0aEZ1bmN0aW9uTmFtZS5lcXVhbHMoImF0YW4iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gTWF0aC5hdGFuKGFyZ3NbMF0pCiAgICAgICAgICAgIG1hdGhGdW5jdGlvbk5hbWUuZXF1YWxzKCJsb2ciLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gTWF0aC5sb2cxMChhcmdzWzBdKQogICAgICAgICAgICBtYXRoRnVuY3Rpb25OYW1lLmVxdWFscygibG4iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gTWF0aC5sb2coYXJnc1swXSkKICAgICAgICAgICAgbWF0aEZ1bmN0aW9uTmFtZS5lcXVhbHMoInJvdW5kIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IE1hdGgucm91bmQoYXJnc1swXSkudG9Eb3VibGUoKQogICAgICAgICAgICBtYXRoRnVuY3Rpb25OYW1lLmVxdWFscygiZmxvb3IiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gTWF0aC5mbG9vcihhcmdzWzBdKQogICAgICAgICAgICBtYXRoRnVuY3Rpb25OYW1lLmVxdWFscygiY2VpbCIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBNYXRoLmNlaWwoYXJnc1swXSkKICAgICAgICAgICAgbWF0aEZ1bmN0aW9uTmFtZS5lcXVhbHMoInBvdyIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBNYXRoLnBvdyhhcmdzWzBdLCBhcmdzWzFdKQogICAgICAgICAgICBtYXRoRnVuY3Rpb25OYW1lLmVxdWFscygibWF4IiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGFyZ3MubWF4T3JOdWxsKCkgPzogRG91YmxlLk5hTgogICAgICAgICAgICBtYXRoRnVuY3Rpb25OYW1lLmVxdWFscygibWluIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGFyZ3MubWluT3JOdWxsKCkgPzogRG91YmxlLk5hTgogICAgICAgICAgICBtYXRoRnVuY3Rpb25OYW1lLmVxdWFscygicmFuZG9tIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IE1hdGgucmFuZG9tKCkKICAgICAgICAgICAgbWF0aEZ1bmN0aW9uTmFtZS5lcXVhbHMoImZhY3QiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gZmFjdG9yaWFsKGFyZ3NbMF0udG9JbnQoKSkudG9Eb3VibGUoKQoKICAgICAgICAgICAgLy8g5pel5pyf5Ye95pWwCiAgICAgICAgICAgIG5hbWUuZXF1YWxzKCJ0b2RheSIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPgogICAgICAgICAgICAgICAgICAgIFRpbWVVbml0Lk1JTExJU0VDT05EUy50b0RheXMoU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkpLnRvRG91YmxlKCkKICAgICAgICAgICAgbmFtZS5lcXVhbHMoIm5vdyIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKS50b0RvdWJsZSgpCiAgICAgICAgICAgIG5hbWUuZXF1YWxzKCJkYXRlIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBkYXRlU3RyID0gYXJnc1swXS50b1N0cmluZygpCiAgICAgICAgICAgICAgICB2YWwgZGF0ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgIHBhcnNlRGF0ZShkYXRlU3RyKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiQ2Fubm90IHBhcnNlIGRhdGU6ICRkYXRlU3RyIikKICAgICAgICAgICAgICAgIFRpbWVVbml0Lk1JTExJU0VDT05EUy50b0RheXMoZGF0ZS50aW1lKS50b0RvdWJsZSgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbmFtZS5lcXVhbHMoImRhdGVfZGlmZiIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiB7CiAgICAgICAgICAgICAgICB2YWwgZGF0ZTEgPQogICAgICAgICAgICAgICAgICAgICAgICBwYXJzZURhdGUoYXJnc1swXS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiQ2Fubm90IHBhcnNlIGZpcnN0IGRhdGUiKQogICAgICAgICAgICAgICAgdmFsIGRhdGUyID0KICAgICAgICAgICAgICAgICAgICAgICAgcGFyc2VEYXRlKGFyZ3NbMV0udG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkNhbm5vdCBwYXJzZSBzZWNvbmQgZGF0ZSIpCiAgICAgICAgICAgICAgICB2YWwgZGlmZkluTWlsbGlzID0gTWF0aC5hYnMoZGF0ZTEudGltZSAtIGRhdGUyLnRpbWUpCiAgICAgICAgICAgICAgICBUaW1lVW5pdC5NSUxMSVNFQ09ORFMudG9EYXlzKGRpZmZJbk1pbGxpcykudG9Eb3VibGUoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIG5hbWUuZXF1YWxzKCJkYXRlX2FkZCIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiB7CiAgICAgICAgICAgICAgICB2YWwgZGF0ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgIHBhcnNlRGF0ZShhcmdzWzBdLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJDYW5ub3QgcGFyc2UgZGF0ZSIpCiAgICAgICAgICAgICAgICB2YWwgZGF5c1RvQWRkID0gYXJnc1sxXS50b0ludCgpCiAgICAgICAgICAgICAgICB2YWwgY2FsZW5kYXIgPSBDYWxlbmRhci5nZXRJbnN0YW5jZSgpCiAgICAgICAgICAgICAgICBjYWxlbmRhci50aW1lID0gZGF0ZQogICAgICAgICAgICAgICAgY2FsZW5kYXIuYWRkKENhbGVuZGFyLkRBWV9PRl9ZRUFSLCBkYXlzVG9BZGQpCiAgICAgICAgICAgICAgICBUaW1lVW5pdC5NSUxMSVNFQ09ORFMudG9EYXlzKGNhbGVuZGFyLnRpbWVJbk1pbGxpcykudG9Eb3VibGUoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIG5hbWUuZXF1YWxzKCJ3ZWVrZGF5IiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBkYXRlID0KICAgICAgICAgICAgICAgICAgICAgICAgcGFyc2VEYXRlKGFyZ3NbMF0udG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkNhbm5vdCBwYXJzZSBkYXRlIikKICAgICAgICAgICAgICAgIHZhbCBjYWxlbmRhciA9IENhbGVuZGFyLmdldEluc3RhbmNlKCkKICAgICAgICAgICAgICAgIGNhbGVuZGFyLnRpbWUgPSBkYXRlCiAgICAgICAgICAgICAgICBjYWxlbmRhci5nZXQoQ2FsZW5kYXIuREFZX09GX1dFRUspLnRvRG91YmxlKCkKICAgICAgICAgICAgfQogICAgICAgICAgICBuYW1lLmVxdWFscygibW9udGgiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gewogICAgICAgICAgICAgICAgdmFsIGRhdGUgPQogICAgICAgICAgICAgICAgICAgICAgICBwYXJzZURhdGUoYXJnc1swXS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiQ2Fubm90IHBhcnNlIGRhdGUiKQogICAgICAgICAgICAgICAgdmFsIGNhbGVuZGFyID0gQ2FsZW5kYXIuZ2V0SW5zdGFuY2UoKQogICAgICAgICAgICAgICAgY2FsZW5kYXIudGltZSA9IGRhdGUKICAgICAgICAgICAgICAgIChjYWxlbmRhci5nZXQoQ2FsZW5kYXIuTU9OVEgpICsgMSkudG9Eb3VibGUoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIG5hbWUuZXF1YWxzKCJ5ZWFyIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBkYXRlID0KICAgICAgICAgICAgICAgICAgICAgICAgcGFyc2VEYXRlKGFyZ3NbMF0udG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkNhbm5vdCBwYXJzZSBkYXRlIikKICAgICAgICAgICAgICAgIHZhbCBjYWxlbmRhciA9IENhbGVuZGFyLmdldEluc3RhbmNlKCkKICAgICAgICAgICAgICAgIGNhbGVuZGFyLnRpbWUgPSBkYXRlCiAgICAgICAgICAgICAgICBjYWxlbmRhci5nZXQoQ2FsZW5kYXIuWUVBUikudG9Eb3VibGUoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIG5hbWUuZXF1YWxzKCJkYXkiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gewogICAgICAgICAgICAgICAgdmFsIGRhdGUgPQogICAgICAgICAgICAgICAgICAgICAgICBwYXJzZURhdGUoYXJnc1swXS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiQ2Fubm90IHBhcnNlIGRhdGUiKQogICAgICAgICAgICAgICAgdmFsIGNhbGVuZGFyID0gQ2FsZW5kYXIuZ2V0SW5zdGFuY2UoKQogICAgICAgICAgICAgICAgY2FsZW5kYXIudGltZSA9IGRhdGUKICAgICAgICAgICAgICAgIGNhbGVuZGFyLmdldChDYWxlbmRhci5EQVlfT0ZfTU9OVEgpLnRvRG91YmxlKCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g57uf6K6h5Ye95pWwCiAgICAgICAgICAgIG5hbWUuZXF1YWxzKCJzdGF0cy5tZWFuIiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGFyZ3MuYXZlcmFnZSgpCiAgICAgICAgICAgIG5hbWUuZXF1YWxzKCJzdGF0cy5tZWRpYW4iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gewogICAgICAgICAgICAgICAgdmFsIHNvcnRlZCA9IGFyZ3Muc29ydGVkKCkKICAgICAgICAgICAgICAgIGlmIChzb3J0ZWQuc2l6ZSAlIDIgPT0gMCkgewogICAgICAgICAgICAgICAgICAgIChzb3J0ZWRbc29ydGVkLnNpemUgLyAyXSArIHNvcnRlZFtzb3J0ZWQuc2l6ZSAvIDIgLSAxXSkgLyAyCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHNvcnRlZFtzb3J0ZWQuc2l6ZSAvIDJdCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgbmFtZS5lcXVhbHMoInN0YXRzLm1pbiIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiBhcmdzLm1pbk9yTnVsbCgpID86IDAuMAogICAgICAgICAgICBuYW1lLmVxdWFscygic3RhdHMubWF4IiwgaWdub3JlQ2FzZSA9IHRydWUpIC0+IGFyZ3MubWF4T3JOdWxsKCkgPzogMC4wCiAgICAgICAgICAgIG5hbWUuZXF1YWxzKCJzdGF0cy5zdW0iLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gYXJncy5zdW0oKQogICAgICAgICAgICBuYW1lLmVxdWFscygic3RhdHMuc3RkZXYiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgLT4gewogICAgICAgICAgICAgICAgdmFsIG1lYW4gPSBhcmdzLmF2ZXJhZ2UoKQogICAgICAgICAgICAgICAgdmFsIHZhcmlhbmNlID0gYXJncy5tYXAgeyAoaXQgLSBtZWFuKS5wb3coMikgfS5hdmVyYWdlKCkKICAgICAgICAgICAgICAgIHNxcnQodmFyaWFuY2UpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOi9rOaNouWHveaVsAogICAgICAgICAgICBuYW1lLmVxdWFscygiY29udmVydCIsIGlnbm9yZUNhc2UgPSB0cnVlKSAtPiB7CiAgICAgICAgICAgICAgICBpZiAoYXJncy5zaXplIDwgMykgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJjb252ZXJ0IHJlcXVpcmVzIDMgcGFyYW1ldGVycyIpCiAgICAgICAgICAgICAgICB2YWwgdmFsdWUgPSBhcmdzWzBdCiAgICAgICAgICAgICAgICB2YWwgZnJvbVVuaXQgPQogICAgICAgICAgICAgICAgICAgICAgICB2YXJpYWJsZXNbIl9jb252ZXJ0X2Zyb20iXSBhcz8gU3RyaW5nCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPzogdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJmcm9tX3VuaXQgbm90IHByb3ZpZGVkIikKICAgICAgICAgICAgICAgIHZhbCB0b1VuaXQgPQogICAgICAgICAgICAgICAgICAgICAgICB2YXJpYWJsZXNbIl9jb252ZXJ0X3RvIl0gYXM/IFN0cmluZwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigidG9fdW5pdCBub3QgcHJvdmlkZWQiKQoKICAgICAgICAgICAgICAgIC8vIOa4hemZpOS4tOaXtuWPmOmHjwogICAgICAgICAgICAgICAgdmFyaWFibGVzLnJlbW92ZSgiX2NvbnZlcnRfZnJvbSIpCiAgICAgICAgICAgICAgICB2YXJpYWJsZXMucmVtb3ZlKCJfY29udmVydF90byIpCgogICAgICAgICAgICAgICAgY29udmVydFVuaXQodmFsdWUsIGZyb21Vbml0LCB0b1VuaXQpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxzZSAtPiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIlVua25vd24gZnVuY3Rpb246ICRuYW1lIikKICAgICAgICB9CiAgICB9CgogICAgLyoqIOWNleS9jei9rOaNoiAqLwogICAgcHJpdmF0ZSBmdW4gY29udmVydFVuaXQodmFsdWU6IERvdWJsZSwgZnJvbVVuaXQ6IFN0cmluZywgdG9Vbml0OiBTdHJpbmcpOiBEb3VibGUgewogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgLy8g5rip5bqm6L2s5o2iCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJmIiAmJiB0b1VuaXQgPT0gImMiIC0+ICh2YWx1ZSAtIDMyKSAqIDUgLyA5IC8vIEYgdG8gQwogICAgICAgICAgICBmcm9tVW5pdCA9PSAiYyIgJiYgdG9Vbml0ID09ICJmIiAtPiB2YWx1ZSAqIDkgLyA1ICsgMzIgLy8gQyB0byBGCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJjIiAmJiB0b1VuaXQgPT0gImsiIC0+IHZhbHVlICsgMjczLjE1IC8vIEMgdG8gSwogICAgICAgICAgICBmcm9tVW5pdCA9PSAiayIgJiYgdG9Vbml0ID09ICJjIiAtPiB2YWx1ZSAtIDI3My4xNSAvLyBLIHRvIEMKICAgICAgICAgICAgZnJvbVVuaXQgPT0gImYiICYmIHRvVW5pdCA9PSAiayIgLT4gKHZhbHVlIC0gMzIpICogNSAvIDkgKyAyNzMuMTUgLy8gRiB0byBLCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJrIiAmJiB0b1VuaXQgPT0gImYiIC0+ICh2YWx1ZSAtIDI3My4xNSkgKiA5IC8gNSArIDMyIC8vIEsgdG8gRgoKICAgICAgICAgICAgLy8g6ZW/5bqm6L2s5o2iCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJrbSIgJiYgdG9Vbml0ID09ICJtaSIgLT4gdmFsdWUgKiAwLjYyMTM3MSAvLyBrbSB0byBtaWxlcwogICAgICAgICAgICBmcm9tVW5pdCA9PSAibWkiICYmIHRvVW5pdCA9PSAia20iIC0+IHZhbHVlICogMS42MDkzNCAvLyBtaWxlcyB0byBrbQogICAgICAgICAgICBmcm9tVW5pdCA9PSAibSIgJiYgdG9Vbml0ID09ICJmdCIgLT4gdmFsdWUgKiAzLjI4MDg0IC8vIG1ldGVycyB0byBmZWV0CiAgICAgICAgICAgIGZyb21Vbml0ID09ICJmdCIgJiYgdG9Vbml0ID09ICJtIiAtPiB2YWx1ZSAqIDAuMzA0OCAvLyBmZWV0IHRvIG1ldGVycwogICAgICAgICAgICBmcm9tVW5pdCA9PSAiY20iICYmIHRvVW5pdCA9PSAiaW4iIC0+IHZhbHVlICogMC4zOTM3MDEgLy8gY20gdG8gaW5jaGVzCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJpbiIgJiYgdG9Vbml0ID09ICJjbSIgLT4gdmFsdWUgKiAyLjU0IC8vIGluY2hlcyB0byBjbQoKICAgICAgICAgICAgLy8g6YeN6YeP6L2s5o2iCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJrZyIgJiYgdG9Vbml0ID09ICJsYiIgLT4gdmFsdWUgKiAyLjIwNDYyIC8vIGtnIHRvIHBvdW5kcwogICAgICAgICAgICBmcm9tVW5pdCA9PSAibGIiICYmIHRvVW5pdCA9PSAia2ciIC0+IHZhbHVlICogMC40NTM1OTIgLy8gcG91bmRzIHRvIGtnCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJnIiAmJiB0b1VuaXQgPT0gIm96IiAtPiB2YWx1ZSAqIDAuMDM1Mjc0IC8vIGdyYW1zIHRvIG91bmNlcwogICAgICAgICAgICBmcm9tVW5pdCA9PSAib3oiICYmIHRvVW5pdCA9PSAiZyIgLT4gdmFsdWUgKiAyOC4zNDk1IC8vIG91bmNlcyB0byBncmFtcwoKICAgICAgICAgICAgLy8g5L2T56ev6L2s5o2iCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJsIiAmJiB0b1VuaXQgPT0gImdhbCIgLT4gdmFsdWUgKiAwLjI2NDE3MiAvLyBsaXRlcnMgdG8gZ2FsbG9ucwogICAgICAgICAgICBmcm9tVW5pdCA9PSAiZ2FsIiAmJiB0b1VuaXQgPT0gImwiIC0+IHZhbHVlICogMy43ODU0MSAvLyBnYWxsb25zIHRvIGxpdGVycwogICAgICAgICAgICBmcm9tVW5pdCA9PSAibWwiICYmIHRvVW5pdCA9PSAib3oiIC0+IHZhbHVlICogMC4wMzM4MTQgLy8gbWlsbGlsaXRlcnMgdG8gZmx1aWQgb3VuY2VzCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJveiIgJiYgdG9Vbml0ID09ICJtbCIgLT4gdmFsdWUgKiAyOS41NzM1IC8vIGZsdWlkIG91bmNlcyB0byBtaWxsaWxpdGVycwoKICAgICAgICAgICAgLy8g6YCf5bqm6L2s5o2iCiAgICAgICAgICAgIGZyb21Vbml0ID09ICJrcGgiICYmIHRvVW5pdCA9PSAibXBoIiAtPiB2YWx1ZSAqIDAuNjIxMzcxIC8vIGttL2ggdG8gbWlsZXMvaAogICAgICAgICAgICBmcm9tVW5pdCA9PSAibXBoIiAmJiB0b1VuaXQgPT0gImtwaCIgLT4gdmFsdWUgKiAxLjYwOTM0IC8vIG1pbGVzL2ggdG8ga20vaAoKICAgICAgICAgICAgLy8g55u45ZCM5Y2V5L2NCiAgICAgICAgICAgIGZyb21Vbml0ID09IHRvVW5pdCAtPiB2YWx1ZQogICAgICAgICAgICBlbHNlIC0+IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiVW5zdXBwb3J0ZWQgY29udmVyc2lvbjogJGZyb21Vbml0IHRvICR0b1VuaXQiKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog6Zi25LmY6K6h566XICovCiAgICBwcml2YXRlIGZ1biBmYWN0b3JpYWwobjogSW50KTogTG9uZyB7CiAgICAgICAgaWYgKG4gPCAwKSB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkZhY3RvcmlhbCBpcyBub3QgZGVmaW5lZCBmb3IgbmVnYXRpdmUgbnVtYmVycyIpCiAgICAgICAgaWYgKG4gPiAyMCkgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJGYWN0b3JpYWwgdG9vIGxhcmdlIHRvIGNhbGN1bGF0ZSIpCgogICAgICAgIHZhciByZXN1bHQgPSAxTAogICAgICAgIGZvciAoaSBpbiAyLi5uKSB7CiAgICAgICAgICAgIHJlc3VsdCAqPSBpCiAgICAgICAgfQogICAgICAgIHJldHVybiByZXN1bHQKICAgIH0KCiAgICAvKiog5pel5pyf6Kej5p6QICovCiAgICBwcml2YXRlIGZ1biBwYXJzZURhdGUoZGF0ZVN0cmluZzogU3RyaW5nKTogRGF0ZT8gewogICAgICAgIC8vIOeJueauiuaDheWGte+8mnRvZGF5KCkKICAgICAgICBpZiAoZGF0ZVN0cmluZy50cmltKCkgPT0gInRvZGF5KCkiKSB7CiAgICAgICAgICAgIHJldHVybiBEYXRlKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQogICAgICAgIH0KCiAgICAgICAgLy8g5bCd6K+V5omA5pyJ5pSv5oyB55qE5pel5pyf5qC85byPCiAgICAgICAgZm9yIChmb3JtYXQgaW4gREFURV9GT1JNQVRTKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgZm9ybWF0dGVyID0gU2ltcGxlRGF0ZUZvcm1hdChmb3JtYXQsIExvY2FsZS5nZXREZWZhdWx0KCkpCiAgICAgICAgICAgICAgICBmb3JtYXR0ZXIuaXNMZW5pZW50ID0gZmFsc2UKICAgICAgICAgICAgICAgIHJldHVybiBmb3JtYXR0ZXIucGFyc2UoZGF0ZVN0cmluZykKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAvLyDlsJ3or5XkuIvkuIDkuKrmoLzlvI8KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gbnVsbAogICAgfQoKICAgIC8qKiDmuIXpmaTmiYDmnInlj5jph48gKi8KICAgIGZ1biBjbGVhclZhcmlhYmxlcygpIHsKICAgICAgICB2YXJpYWJsZXMuY2xlYXIoKQoKICAgICAgICAvLyDph43mlrDmt7vliqDluLjph48KICAgICAgICB2YXJpYWJsZXNbIlBJIl0gPSBNYXRoLlBJCiAgICAgICAgdmFyaWFibGVzWyJFIl0gPSBNYXRoLkUKICAgIH0KCiAgICAvKiog5qC85byP5YyW57uT5p6c5pi+56S6ICovCiAgICBmdW4gZm9ybWF0UmVzdWx0KHJlc3VsdDogRG91YmxlKTogU3RyaW5nIHsKICAgICAgICAvLyDlpoLmnpzmmK/mlbTmlbDliJnkuI3mmL7npLrlsI/mlbDpg6jliIYKICAgICAgICBpZiAocmVzdWx0ID09IE1hdGguZmxvb3IocmVzdWx0KSAmJiAhcmVzdWx0LmlzTmFOKCkgJiYgIXJlc3VsdC5pc0luZmluaXRlKCkpIHsKICAgICAgICAgICAgcmV0dXJuIHJlc3VsdC50b0ludCgpLnRvU3RyaW5nKCkKICAgICAgICB9CiAgICAgICAgLy8g5ZCm5YiZ5L2/55So5bCP5pWw5qC85byPCiAgICAgICAgcmV0dXJuICIlLjZmIi5mb3JtYXQocmVzdWx0KS50cmltRW5kKCcwJykudHJpbUVuZCgnLicpCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.calculator
+
+import java.text.SimpleDateFormat
+import java.util.*
+import java.util.concurrent.TimeUnit
+import kotlin.math.pow
+import kotlin.math.sqrt
+
+/** 表达式计算上下文，用于存储变量和函数 */
+object ExpressionContext {
+    // 变量存储
+    private val variables = mutableMapOf<String, Any>()
+
+    // 常量
+    init {
+        variables["PI"] = Math.PI
+        variables["E"] = Math.E
+    }
+
+    // 日期格式
+    private val DATE_FORMATS =
+            arrayOf(
+                    "yyyy-MM-dd",
+                    "yyyy/MM/dd",
+                    "MM/dd/yyyy",
+                    "dd/MM/yyyy",
+                    "yyyy-MM-dd HH:mm:ss",
+                    "yyyy/MM/dd HH:mm:ss"
+            )
+
+    /** 获取变量值 */
+    fun getVariable(name: String): Double {
+        val value = variables[name] ?: throw IllegalArgumentException("Variable $name not defined")
+        return coerceToNumber(value)
+    }
+
+    /** 设置变量值 */
+    fun setVariable(name: String, value: Double) {
+        variables[name] = value
+    }
+
+    /** 将任意值转换为数字（JavaScript风格） */
+    fun coerceToNumber(value: Any?): Double {
+        return when (value) {
+            null -> 0.0
+            is Number -> value.toDouble()
+            is Boolean -> if (value) 1.0 else 0.0
+            is String -> {
+                try {
+                    when (value.lowercase()) {
+                        "true" -> 1.0
+                        "false" -> 0.0
+                        "null", "undefined" -> 0.0
+                        "nan" -> Double.NaN
+                        "infinity" -> Double.POSITIVE_INFINITY
+                        "-infinity" -> Double.NEGATIVE_INFINITY
+                        else -> value.toDouble()
+                    }
+                } catch (e: NumberFormatException) {
+                    Double.NaN // JavaScript风格：无效字符串转为NaN
+                }
+            }
+            is List<*> -> value.size.toDouble()
+            else -> Double.NaN
+        }
+    }
+
+    /** 获取数组或字符串元素 */
+    fun getArrayElement(array: ExpressionNode, index: ExpressionNode): Double {
+        val indexValue = index.evaluate().toInt()
+
+        when (array) {
+            is VariableNode -> {
+                val arrayValue = variables[array.name]
+                when (arrayValue) {
+                    is List<*> -> {
+                        if (indexValue < 0 || indexValue >= arrayValue.size) return Double.NaN
+                        return coerceToNumber(arrayValue[indexValue])
+                    }
+                    is String -> {
+                        if (indexValue < 0 || indexValue >= arrayValue.length) return Double.NaN
+                        return arrayValue[indexValue].code.toDouble()
+                    }
+                    else ->
+                            throw IllegalArgumentException(
+                                    "Value is not an array or string: ${array.name}"
+                            )
+                }
+            }
+            else -> {
+                val arrayResult = array.evaluate().toString()
+                if (indexValue < 0 || indexValue >= arrayResult.length) return Double.NaN
+                return arrayResult[indexValue].code.toDouble()
+            }
+        }
+    }
+
+    /** 调用函数 */
+    fun callFunction(name: String, args: List<Double>): Double {
+        val mathFunctionName =
+                if (name.startsWith("Math.", ignoreCase = true)) name.substring(5) else name
+
+        return when {
+            // 数学函数
+            mathFunctionName.equals("abs", ignoreCase = true) -> Math.abs(args[0])
+            mathFunctionName.equals("sqrt", ignoreCase = true) -> Math.sqrt(args[0])
+            mathFunctionName.equals("sin", ignoreCase = true) -> Math.sin(args[0])
+            mathFunctionName.equals("cos", ignoreCase = true) -> Math.cos(args[0])
+            mathFunctionName.equals("tan", ignoreCase = true) -> Math.tan(args[0])
+            mathFunctionName.equals("asin", ignoreCase = true) -> Math.asin(args[0])
+            mathFunctionName.equals("acos", ignoreCase = true) -> Math.acos(args[0])
+            mathFunctionName.equals("atan", ignoreCase = true) -> Math.atan(args[0])
+            mathFunctionName.equals("log", ignoreCase = true) -> Math.log10(args[0])
+            mathFunctionName.equals("ln", ignoreCase = true) -> Math.log(args[0])
+            mathFunctionName.equals("round", ignoreCase = true) -> Math.round(args[0]).toDouble()
+            mathFunctionName.equals("floor", ignoreCase = true) -> Math.floor(args[0])
+            mathFunctionName.equals("ceil", ignoreCase = true) -> Math.ceil(args[0])
+            mathFunctionName.equals("pow", ignoreCase = true) -> Math.pow(args[0], args[1])
+            mathFunctionName.equals("max", ignoreCase = true) -> args.maxOrNull() ?: Double.NaN
+            mathFunctionName.equals("min", ignoreCase = true) -> args.minOrNull() ?: Double.NaN
+            mathFunctionName.equals("random", ignoreCase = true) -> Math.random()
+            mathFunctionName.equals("fact", ignoreCase = true) -> factorial(args[0].toInt()).toDouble()
+
+            // 日期函数
+            name.equals("today", ignoreCase = true) ->
+                    TimeUnit.MILLISECONDS.toDays(System.currentTimeMillis()).toDouble()
+            name.equals("now", ignoreCase = true) -> System.currentTimeMillis().toDouble()
+            name.equals("date", ignoreCase = true) -> {
+                val dateStr = args[0].toString()
+                val date =
+                        parseDate(dateStr)
+                                ?: throw IllegalArgumentException("Cannot parse date: $dateStr")
+                TimeUnit.MILLISECONDS.toDays(date.time).toDouble()
+            }
+            name.equals("date_diff", ignoreCase = true) -> {
+                val date1 =
+                        parseDate(args[0].toString())
+                                ?: throw IllegalArgumentException("Cannot parse first date")
+                val date2 =
+                        parseDate(args[1].toString())
+                                ?: throw IllegalArgumentException("Cannot parse second date")
+                val diffInMillis = Math.abs(date1.time - date2.time)
+                TimeUnit.MILLISECONDS.toDays(diffInMillis).toDouble()
+            }
+            name.equals("date_add", ignoreCase = true) -> {
+                val date =
+                        parseDate(args[0].toString())
+                                ?: throw IllegalArgumentException("Cannot parse date")
+                val daysToAdd = args[1].toInt()
+                val calendar = Calendar.getInstance()
+                calendar.time = date
+                calendar.add(Calendar.DAY_OF_YEAR, daysToAdd)
+                TimeUnit.MILLISECONDS.toDays(calendar.timeInMillis).toDouble()
+            }
+            name.equals("weekday", ignoreCase = true) -> {
+                val date =
+                        parseDate(args[0].toString())
+                                ?: throw IllegalArgumentException("Cannot parse date")
+                val calendar = Calendar.getInstance()
+                calendar.time = date
+                calendar.get(Calendar.DAY_OF_WEEK).toDouble()
+            }
+            name.equals("month", ignoreCase = true) -> {
+                val date =
+                        parseDate(args[0].toString())
+                                ?: throw IllegalArgumentException("Cannot parse date")
+                val calendar = Calendar.getInstance()
+                calendar.time = date
+                (calendar.get(Calendar.MONTH) + 1).toDouble()
+            }
+            name.equals("year", ignoreCase = true) -> {
+                val date =
+                        parseDate(args[0].toString())
+                                ?: throw IllegalArgumentException("Cannot parse date")
+                val calendar = Calendar.getInstance()
+                calendar.time = date
+                calendar.get(Calendar.YEAR).toDouble()
+            }
+            name.equals("day", ignoreCase = true) -> {
+                val date =
+                        parseDate(args[0].toString())
+                                ?: throw IllegalArgumentException("Cannot parse date")
+                val calendar = Calendar.getInstance()
+                calendar.time = date
+                calendar.get(Calendar.DAY_OF_MONTH).toDouble()
+            }
+
+            // 统计函数
+            name.equals("stats.mean", ignoreCase = true) -> args.average()
+            name.equals("stats.median", ignoreCase = true) -> {
+                val sorted = args.sorted()
+                if (sorted.size % 2 == 0) {
+                    (sorted[sorted.size / 2] + sorted[sorted.size / 2 - 1]) / 2
+                } else {
+                    sorted[sorted.size / 2]
+                }
+            }
+            name.equals("stats.min", ignoreCase = true) -> args.minOrNull() ?: 0.0
+            name.equals("stats.max", ignoreCase = true) -> args.maxOrNull() ?: 0.0
+            name.equals("stats.sum", ignoreCase = true) -> args.sum()
+            name.equals("stats.stdev", ignoreCase = true) -> {
+                val mean = args.average()
+                val variance = args.map { (it - mean).pow(2) }.average()
+                sqrt(variance)
+            }
+
+            // 转换函数
+            name.equals("convert", ignoreCase = true) -> {
+                if (args.size < 3) throw IllegalArgumentException("convert requires 3 parameters")
+                val value = args[0]
+                val fromUnit =
+                        variables["_convert_from"] as? String
+                                ?: throw IllegalArgumentException("from_unit not provided")
+                val toUnit =
+                        variables["_convert_to"] as? String
+                                ?: throw IllegalArgumentException("to_unit not provided")
+
+                // 清除临时变量
+                variables.remove("_convert_from")
+                variables.remove("_convert_to")
+
+                convertUnit(value, fromUnit, toUnit)
+            }
+            else -> throw IllegalArgumentException("Unknown function: $name")
+        }
+    }
+
+    /** 单位转换 */
+    private fun convertUnit(value: Double, fromUnit: String, toUnit: String): Double {
+        return when {
+            // 温度转换
+            fromUnit == "f" && toUnit == "c" -> (value - 32) * 5 / 9 // F to C
+            fromUnit == "c" && toUnit == "f" -> value * 9 / 5 + 32 // C to F
+            fromUnit == "c" && toUnit == "k" -> value + 273.15 // C to K
+            fromUnit == "k" && toUnit == "c" -> value - 273.15 // K to C
+            fromUnit == "f" && toUnit == "k" -> (value - 32) * 5 / 9 + 273.15 // F to K
+            fromUnit == "k" && toUnit == "f" -> (value - 273.15) * 9 / 5 + 32 // K to F
+
+            // 长度转换
+            fromUnit == "km" && toUnit == "mi" -> value * 0.621371 // km to miles
+            fromUnit == "mi" && toUnit == "km" -> value * 1.60934 // miles to km
+            fromUnit == "m" && toUnit == "ft" -> value * 3.28084 // meters to feet
+            fromUnit == "ft" && toUnit == "m" -> value * 0.3048 // feet to meters
+            fromUnit == "cm" && toUnit == "in" -> value * 0.393701 // cm to inches
+            fromUnit == "in" && toUnit == "cm" -> value * 2.54 // inches to cm
+
+            // 重量转换
+            fromUnit == "kg" && toUnit == "lb" -> value * 2.20462 // kg to pounds
+            fromUnit == "lb" && toUnit == "kg" -> value * 0.453592 // pounds to kg
+            fromUnit == "g" && toUnit == "oz" -> value * 0.035274 // grams to ounces
+            fromUnit == "oz" && toUnit == "g" -> value * 28.3495 // ounces to grams
+
+            // 体积转换
+            fromUnit == "l" && toUnit == "gal" -> value * 0.264172 // liters to gallons
+            fromUnit == "gal" && toUnit == "l" -> value * 3.78541 // gallons to liters
+            fromUnit == "ml" && toUnit == "oz" -> value * 0.033814 // milliliters to fluid ounces
+            fromUnit == "oz" && toUnit == "ml" -> value * 29.5735 // fluid ounces to milliliters
+
+            // 速度转换
+            fromUnit == "kph" && toUnit == "mph" -> value * 0.621371 // km/h to miles/h
+            fromUnit == "mph" && toUnit == "kph" -> value * 1.60934 // miles/h to km/h
+
+            // 相同单位
+            fromUnit == toUnit -> value
+            else -> throw IllegalArgumentException("Unsupported conversion: $fromUnit to $toUnit")
+        }
+    }
+
+    /** 阶乘计算 */
+    private fun factorial(n: Int): Long {
+        if (n < 0) throw IllegalArgumentException("Factorial is not defined for negative numbers")
+        if (n > 20) throw IllegalArgumentException("Factorial too large to calculate")
+
+        var result = 1L
+        for (i in 2..n) {
+            result *= i
+        }
+        return result
+    }
+
+    /** 日期解析 */
+    private fun parseDate(dateString: String): Date? {
+        // 特殊情况：today()
+        if (dateString.trim() == "today()") {
+            return Date(System.currentTimeMillis())
+        }
+
+        // 尝试所有支持的日期格式
+        for (format in DATE_FORMATS) {
+            try {
+                val formatter = SimpleDateFormat(format, Locale.getDefault())
+                formatter.isLenient = false
+                return formatter.parse(dateString)
+            } catch (e: Exception) {
+                // 尝试下一个格式
+            }
+        }
+        return null
+    }
+
+    /** 清除所有变量 */
+    fun clearVariables() {
+        variables.clear()
+
+        // 重新添加常量
+        variables["PI"] = Math.PI
+        variables["E"] = Math.E
+    }
+
+    /** 格式化结果显示 */
+    fun formatResult(result: Double): String {
+        // 如果是整数则不显示小数部分
+        if (result == Math.floor(result) && !result.isNaN() && !result.isInfinite()) {
+            return result.toInt().toString()
+        }
+        // 否则使用小数格式
+        return "%.6f".format(result).trimEnd('0').trimEnd('.')
+    }
+}

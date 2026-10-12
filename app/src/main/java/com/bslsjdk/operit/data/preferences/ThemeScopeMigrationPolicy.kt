@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW50ZXJuYWwgb2JqZWN0IFRoZW1lU2NvcGVNaWdyYXRpb25Qb2xpY3kgewogICAgZnVuIHNob3VsZENvcHlMZWdhY3lUaGVtZVRvRGVmYXVsdENoYXJhY3RlcigKICAgICAgICBtaWdyYXRpb25Db21wbGV0ZWQ6IEJvb2xlYW4sCiAgICAgICAgYWN0aXZlQ2hhcmFjdGVyQ2FyZElkOiBTdHJpbmc/LAogICAgICAgIGRlZmF1bHRDaGFyYWN0ZXJJZDogU3RyaW5nLAogICAgICAgIGhhc0RlZmF1bHRDaGFyYWN0ZXJUaGVtZTogQm9vbGVhbiwKICAgICAgICBoYXNBbnlTY29wZWRUaGVtZTogQm9vbGVhbiwKICAgICAgICBkZWZhdWx0Q2hhcmFjdGVyV2FzQ3JlYXRlZDogQm9vbGVhbiwKICAgICk6IEJvb2xlYW4gewogICAgICAgIGlmIChtaWdyYXRpb25Db21wbGV0ZWQgfHwgaGFzRGVmYXVsdENoYXJhY3RlclRoZW1lIHx8IGhhc0FueVNjb3BlZFRoZW1lKSB7CiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIGRlZmF1bHRDaGFyYWN0ZXJXYXNDcmVhdGVkIHx8IGFjdGl2ZUNoYXJhY3RlckNhcmRJZCA9PSBkZWZhdWx0Q2hhcmFjdGVySWQKICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+internal object ThemeScopeMigrationPolicy {
+    fun shouldCopyLegacyThemeToDefaultCharacter(
+        migrationCompleted: Boolean,
+        activeCharacterCardId: String?,
+        defaultCharacterId: String,
+        hasDefaultCharacterTheme: Boolean,
+        hasAnyScopedTheme: Boolean,
+        defaultCharacterWasCreated: Boolean,
+    ): Boolean {
+        if (migrationCompleted || hasDefaultCharacterTheme || hasAnyScopedTheme) {
+            return false
+        }
+
+        return defaultCharacterWasCreated || activeCharacterCardId == defaultCharacterId
+    }
+}

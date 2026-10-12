@@ -1,1 +1,81 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKQFNlcmlhbGl6YWJsZQppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dNYXJrZXRPcmlnaW4oCiAgICB2YWwgbWFya2V0OiBTdHJpbmcsCiAgICB2YWwgdG9vbHBrZ0lkOiBTdHJpbmcsCiAgICB2YWwgdmVyc2lvbjogU3RyaW5nLAogICAgdmFsIGF1dGhvcjogTGlzdDxTdHJpbmc+CikKCmludGVybmFsIG9iamVjdCBUb29sUGtnTWFya2V0T3JpZ2luQ29kZWMgewogICAgcHJpdmF0ZSBjb25zdCB2YWwgTUFSS0VUID0gIk9wZXJpdCIKICAgIHByaXZhdGUgY29uc3QgdmFsIFhPUl9LRVkgPSAweDVhCiAgICBwcml2YXRlIHZhbCBqc29uID0gSnNvbiB7IGlnbm9yZVVua25vd25LZXlzID0gdHJ1ZSB9CgogICAgZnVuIGVuY29kZShvcmlnaW46IFRvb2xQa2dNYXJrZXRPcmlnaW4pOiBTdHJpbmcgewogICAgICAgIHZhbCBlbmNvZGVkID0gZW5jb2RlQnl0ZXMob3JpZ2luKS5qb2luVG9TdHJpbmcocHJlZml4ID0gIlsiLCBwb3N0Zml4ID0gIl0iKQogICAgICAgIHJldHVybiAiVG9vbFBrZy5fbSgke2VuY29kZWR9LCRYT1JfS0VZKTsiCiAgICB9CgogICAgZnVuIGVuY29kZUZvck1ldGFkYXRhKG9yaWdpbjogVG9vbFBrZ01hcmtldE9yaWdpbik6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGJ1aWxkU3RyaW5nIHsKICAgICAgICAgICAgYXBwZW5kKCJ4b3ItdjE6IikKICAgICAgICAgICAgYXBwZW5kKGVuY29kZUJ5dGVzKG9yaWdpbikuam9pblRvU3RyaW5nKCIsIikpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBwYXJzZShzcGVjSnNvbjogU3RyaW5nKTogVG9vbFBrZ01hcmtldE9yaWdpbj8gewogICAgICAgIHJldHVybiBydW5DYXRjaGluZyB7CiAgICAgICAgICAgIGpzb24uZGVjb2RlRnJvbVN0cmluZzxUb29sUGtnTWFya2V0T3JpZ2luPihzcGVjSnNvbikKICAgICAgICB9CiAgICAgICAgICAgIC5nZXRPck51bGwoKQogICAgfQoKICAgIGZ1biBkZWNvZGVNZXRhZGF0YSh2YWx1ZTogU3RyaW5nKTogVG9vbFBrZ01hcmtldE9yaWdpbj8gewogICAgICAgIHZhbCBlbmNvZGVkID0gdmFsdWUudHJpbSgpLnJlbW92ZVByZWZpeCgieG9yLXYxOiIpCiAgICAgICAgaWYgKCF2YWx1ZS50cmltKCkuc3RhcnRzV2l0aCgieG9yLXYxOiIpIHx8IGVuY29kZWQuaXNCbGFuaygpKSByZXR1cm4gbnVsbAogICAgICAgIHZhbCBieXRlcyA9CiAgICAgICAgICAgIGVuY29kZWQuc3BsaXQoJywnKS5tYXAgeyBpdGVtIC0+CiAgICAgICAgICAgICAgICBpdGVtLnRyaW0oKS50b0ludE9yTnVsbCgpPy50YWtlSWYgeyBpdCBpbiAwLi4yNTUgfSA/OiByZXR1cm4gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgdmFsIGRlY29kZWQgPSBieXRlcy5tYXAgeyB2YWx1ZSAtPiAodmFsdWUgeG9yIFhPUl9LRVkpLnRvQnl0ZSgpIH0udG9CeXRlQXJyYXkoKQogICAgICAgIHJldHVybiBwYXJzZShkZWNvZGVkLnRvU3RyaW5nKENoYXJzZXRzLlVTX0FTQ0lJKSkKICAgIH0KCiAgICBmdW4gdmFsaWRhdGVGb3JQYWNrYWdlKG9yaWdpbjogVG9vbFBrZ01hcmtldE9yaWdpbj8sIHBhY2thZ2VJZDogU3RyaW5nKTogVG9vbFBrZ01hcmtldE9yaWdpbj8gewogICAgICAgIHZhbCBub3JtYWxpemVkID0gb3JpZ2luID86IHJldHVybiBudWxsCiAgICAgICAgaWYgKG5vcm1hbGl6ZWQubWFya2V0ICE9IE1BUktFVCkgcmV0dXJuIG51bGwKICAgICAgICBpZiAobm9ybWFsaXplZC50b29scGtnSWQgIT0gcGFja2FnZUlkLnRyaW0oKSkgcmV0dXJuIG51bGwKICAgICAgICBpZiAobm9ybWFsaXplZC52ZXJzaW9uLmlzQmxhbmsoKSkgcmV0dXJuIG51bGwKICAgICAgICByZXR1cm4gbm9ybWFsaXplZC5jb3B5KAogICAgICAgICAgICB0b29scGtnSWQgPSBub3JtYWxpemVkLnRvb2xwa2dJZC50cmltKCksCiAgICAgICAgICAgIHZlcnNpb24gPSBub3JtYWxpemVkLnZlcnNpb24udHJpbSgpLAogICAgICAgICAgICBhdXRob3IgPSBub3JtYWxpemVkLmF1dGhvci5tYXAoU3RyaW5nOjp0cmltKS5maWx0ZXIoU3RyaW5nOjppc05vdEJsYW5rKQogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBlc2NhcGVOb25Bc2NpaSh2YWx1ZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gYnVpbGRTdHJpbmcodmFsdWUubGVuZ3RoKSB7CiAgICAgICAgICAgIHZhbHVlLmZvckVhY2ggeyBjaGFyYWN0ZXIgLT4KICAgICAgICAgICAgICAgIGlmIChjaGFyYWN0ZXIuY29kZSBpbiAweDIwLi4weDdlKSB7CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKGNoYXJhY3RlcikKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKCJcXHUiKQogICAgICAgICAgICAgICAgICAgIGFwcGVuZChjaGFyYWN0ZXIuY29kZS50b1N0cmluZygxNikucGFkU3RhcnQoNCwgJzAnKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBlbmNvZGVCeXRlcyhvcmlnaW46IFRvb2xQa2dNYXJrZXRPcmlnaW4pOiBMaXN0PEludD4gewogICAgICAgIHZhbCBwYXlsb2FkID0ganNvbi5lbmNvZGVUb1N0cmluZyhvcmlnaW4pCiAgICAgICAgcmV0dXJuIGVzY2FwZU5vbkFzY2lpKHBheWxvYWQpCiAgICAgICAgICAgIC50b0J5dGVBcnJheShDaGFyc2V0cy5VU19BU0NJSSkKICAgICAgICAgICAgLm1hcCB7IGJ5dGUgLT4gKGJ5dGUudG9JbnQoKSBhbmQgMHhmZikgeG9yIFhPUl9LRVkgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.packTool
+
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+@Serializable
+internal data class ToolPkgMarketOrigin(
+    val market: String,
+    val toolpkgId: String,
+    val version: String,
+    val author: List<String>
+)
+
+internal object ToolPkgMarketOriginCodec {
+    private const val MARKET = "Operit"
+    private const val XOR_KEY = 0x5a
+    private val json = Json { ignoreUnknownKeys = true }
+
+    fun encode(origin: ToolPkgMarketOrigin): String {
+        val encoded = encodeBytes(origin).joinToString(prefix = "[", postfix = "]")
+        return "ToolPkg._m(${encoded},$XOR_KEY);"
+    }
+
+    fun encodeForMetadata(origin: ToolPkgMarketOrigin): String {
+        return buildString {
+            append("xor-v1:")
+            append(encodeBytes(origin).joinToString(","))
+        }
+    }
+
+    fun parse(specJson: String): ToolPkgMarketOrigin? {
+        return runCatching {
+            json.decodeFromString<ToolPkgMarketOrigin>(specJson)
+        }
+            .getOrNull()
+    }
+
+    fun decodeMetadata(value: String): ToolPkgMarketOrigin? {
+        val encoded = value.trim().removePrefix("xor-v1:")
+        if (!value.trim().startsWith("xor-v1:") || encoded.isBlank()) return null
+        val bytes =
+            encoded.split(',').map { item ->
+                item.trim().toIntOrNull()?.takeIf { it in 0..255 } ?: return null
+            }
+        val decoded = bytes.map { value -> (value xor XOR_KEY).toByte() }.toByteArray()
+        return parse(decoded.toString(Charsets.US_ASCII))
+    }
+
+    fun validateForPackage(origin: ToolPkgMarketOrigin?, packageId: String): ToolPkgMarketOrigin? {
+        val normalized = origin ?: return null
+        if (normalized.market != MARKET) return null
+        if (normalized.toolpkgId != packageId.trim()) return null
+        if (normalized.version.isBlank()) return null
+        return normalized.copy(
+            toolpkgId = normalized.toolpkgId.trim(),
+            version = normalized.version.trim(),
+            author = normalized.author.map(String::trim).filter(String::isNotBlank)
+        )
+    }
+
+    private fun escapeNonAscii(value: String): String {
+        return buildString(value.length) {
+            value.forEach { character ->
+                if (character.code in 0x20..0x7e) {
+                    append(character)
+                } else {
+                    append("\\u")
+                    append(character.code.toString(16).padStart(4, '0'))
+                }
+            }
+        }
+    }
+
+    private fun encodeBytes(origin: ToolPkgMarketOrigin): List<Int> {
+        val payload = json.encodeToString(origin)
+        return escapeNonAscii(payload)
+            .toByteArray(Charsets.US_ASCII)
+            .map { byte -> (byte.toInt() and 0xff) xor XOR_KEY }
+    }
+}

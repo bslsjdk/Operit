@@ -1,1 +1,294 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5zdGFuZGFyZAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkludGVudFJlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLlN0cmluZ1Jlc3VsdERhdGEKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFJVG9vbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFJlc3VsdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFZhbGlkYXRpb25SZXN1bHQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCi8qKgogKiBUb29sIGZvciBleGVjdXRpbmcgQW5kcm9pZCBJbnRlbnRzLiBUaGlzIHByb3ZpZGVzIHRoZSBhYmlsaXR5IHRvIGNyZWF0ZSBhbmQgbGF1bmNoIEFuZHJvaWQKICogaW50ZW50cyBmb3IgdmFyaW91cyBvcGVyYXRpb25zIGxpa2Ugc3RhcnRpbmcgYWN0aXZpdGllcywgc2VydmljZXMsIG9yIGJyb2FkY2FzdHMuCiAqLwpjbGFzcyBTdGFuZGFyZEludGVudFRvb2xFeGVjdXRvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkludGVudFRvb2xFeGVjdXRvciIKCiAgICAgICAgLy8gSW50ZW50IGV4ZWN1dGlvbiB0eXBlcwogICAgICAgIGNvbnN0IHZhbCBUWVBFX0FDVElWSVRZID0gImFjdGl2aXR5IgogICAgICAgIGNvbnN0IHZhbCBUWVBFX0JST0FEQ0FTVCA9ICJicm9hZGNhc3QiCiAgICAgICAgY29uc3QgdmFsIFRZUEVfU0VSVklDRSA9ICJzZXJ2aWNlIgogICAgfQoKICAgIHByaXZhdGUgZnVuIGFwcGx5Q29tcG9uZW50TmFtZShpbnRlbnQ6IEludGVudCwgcmF3Q29tcG9uZW50TmFtZTogU3RyaW5nKSB7CiAgICAgICAgdmFsIHBhcnRzID0gcmF3Q29tcG9uZW50TmFtZS5zcGxpdCgiLyIsIGxpbWl0ID0gMikKICAgICAgICBpZiAocGFydHMuc2l6ZSAhPSAyKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgcGFja2FnZU5hbWUgPSBwYXJ0c1swXS50cmltKCkKICAgICAgICB2YWwgY2xhc3NOYW1lID0gcGFydHNbMV0udHJpbSgpCiAgICAgICAgaWYgKHBhY2thZ2VOYW1lLmlzRW1wdHkoKSB8fCBjbGFzc05hbWUuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgbm9ybWFsaXplZENsYXNzTmFtZSA9CiAgICAgICAgICAgIGlmIChjbGFzc05hbWUuc3RhcnRzV2l0aCgiLiIpKSB7CiAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZSArIGNsYXNzTmFtZQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgY2xhc3NOYW1lCiAgICAgICAgICAgIH0KICAgICAgICBpbnRlbnQuc2V0Q2xhc3NOYW1lKHBhY2thZ2VOYW1lLCBub3JtYWxpemVkQ2xhc3NOYW1lKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGludm9rZSh0b29sOiBBSVRvb2wpOiBUb29sUmVzdWx0IHsKICAgICAgICAvLyBWYWxpZGF0ZSBwYXJhbWV0ZXJzCiAgICAgICAgdmFsIHZhbGlkYXRpb25SZXN1bHQgPSB2YWxpZGF0ZVBhcmFtZXRlcnModG9vbCkKICAgICAgICBpZiAoIXZhbGlkYXRpb25SZXN1bHQudmFsaWQpIHsKICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgICAgIGVycm9yID0gdmFsaWRhdGlvblJlc3VsdC5lcnJvck1lc3NhZ2UKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgdmFsIGFjdGlvbiA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAiYWN0aW9uIiB9Py52YWx1ZQogICAgICAgIHZhbCB1cmkgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gInVyaSIgfT8udmFsdWUKICAgICAgICB2YWwgcGFja2FnZU5hbWUgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gInBhY2thZ2UiIH0/LnZhbHVlCiAgICAgICAgdmFsIGZsYWdzID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJmbGFncyIgfT8udmFsdWUKICAgICAgICB2YWwgZXh0cmFzID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJleHRyYXMiIH0/LnZhbHVlCiAgICAgICAgdmFsIGNvbXBvbmVudE5hbWUgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gImNvbXBvbmVudCIgfT8udmFsdWUKICAgICAgICB2YWwgdHlwZSA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAidHlwZSIgfT8udmFsdWUgPzogVFlQRV9BQ1RJVklUWQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgLy8gQ3JlYXRlIHRoZSBpbnRlbnQKICAgICAgICAgICAgdmFsIGludGVudCA9IEludGVudCgpCgogICAgICAgICAgICAvLyBTZXQgYWN0aW9uIGlmIHByb3ZpZGVkCiAgICAgICAgICAgIGlmICghYWN0aW9uLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgaW50ZW50LmFjdGlvbiA9IGFjdGlvbgogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBTZXQgZGF0YSBVUkkgaWYgcHJvdmlkZWQKICAgICAgICAgICAgaWYgKCF1cmkuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgICAgICBpbnRlbnQuZGF0YSA9IFVyaS5wYXJzZSh1cmkpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIFNldCBwYWNrYWdlIGlmIHByb3ZpZGVkCiAgICAgICAgICAgIGlmICghcGFja2FnZU5hbWUuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgICAgICBpbnRlbnQuYHBhY2thZ2VgID0gcGFja2FnZU5hbWUKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gU2V0IGNvbXBvbmVudCBpZiBwcm92aWRlZAogICAgICAgICAgICBpZiAoIWNvbXBvbmVudE5hbWUuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgICAgICBhcHBseUNvbXBvbmVudE5hbWUoaW50ZW50LCBjb21wb25lbnROYW1lKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBTZXQgZmxhZ3MgaWYgcHJvdmlkZWQKICAgICAgICAgICAgaWYgKCFmbGFncy5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGZsYWdzSnNvbiA9IEpTT05BcnJheShmbGFncykKICAgICAgICAgICAgICAgICAgICB2YXIgY29tYmluZWRGbGFncyA9IDAKICAgICAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBmbGFnc0pzb24ubGVuZ3RoKCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGZsYWcgPSBmbGFnc0pzb24uZ2V0SW50KGkpCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbWJpbmVkRmxhZ3MgPSBjb21iaW5lZEZsYWdzIG9yIGZsYWcKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaW50ZW50LmZsYWdzID0gY29tYmluZWRGbGFncwogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgcGFyc2luZyBmbGFncyIsIGUpCiAgICAgICAgICAgICAgICAgICAgLy8gVHJ5IHRvIHBhcnNlIGFzIGEgc2luZ2xlIGludGVnZXIgdmFsdWUKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICBpbnRlbnQuZmxhZ3MgPSBmbGFncy50b0ludCgpCiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTI6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBwYXJzaW5nIGZsYWdzIGFzIGludGVnZXIiLCBlMikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIFNldCBleHRyYXMgaWYgcHJvdmlkZWQKICAgICAgICAgICAgaWYgKCFleHRyYXMuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHZhbCBleHRyYXNKc29uID0gSlNPTk9iamVjdChleHRyYXMpCiAgICAgICAgICAgICAgICAgICAgdmFsIGtleXMgPSBleHRyYXNKc29uLmtleXMoKQogICAgICAgICAgICAgICAgICAgIHdoaWxlIChrZXlzLmhhc05leHQoKSkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwga2V5ID0ga2V5cy5uZXh0KCkKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHZhbHVlID0gZXh0cmFzSnNvbi5nZXQoa2V5KQoKICAgICAgICAgICAgICAgICAgICAgICAgd2hlbiAodmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIFN0cmluZyAtPiBpbnRlbnQucHV0RXh0cmEoa2V5LCB2YWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIEludCAtPiBpbnRlbnQucHV0RXh0cmEoa2V5LCB2YWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIEJvb2xlYW4gLT4gaW50ZW50LnB1dEV4dHJhKGtleSwgdmFsdWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBGbG9hdCAtPiBpbnRlbnQucHV0RXh0cmEoa2V5LCB2YWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIERvdWJsZSAtPiBpbnRlbnQucHV0RXh0cmEoa2V5LCB2YWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIExvbmcgLT4gaW50ZW50LnB1dEV4dHJhKGtleSwgdmFsdWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBUcnkgdG8gZGV0ZWN0IGFycmF5IHR5cGVzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHZhbHVlIGlzIEpTT05BcnJheSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBIYW5kbGUgdmFyaW91cyBhcnJheSB0eXBlcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAodmFsdWUubGVuZ3RoKCkgPiAwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgZmlyc3RJdGVtID0gdmFsdWUuZ2V0KDApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGVuIChmaXJzdEl0ZW0pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBTdHJpbmcgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgc3RyaW5nQXJyYXkgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFycmF5KHZhbHVlLmxlbmd0aCgpKSB7IGkgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUuZ2V0U3RyaW5nKGkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnRlbnQucHV0RXh0cmEoa2V5LCBzdHJpbmdBcnJheSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXMgSW50IC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGludEFycmF5ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJbnRBcnJheSh2YWx1ZS5sZW5ndGgoKSkgeyBpIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlLmdldEludChpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW50ZW50LnB1dEV4dHJhKGtleSwgaW50QXJyYXkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBDb252ZXJ0IHRvIHN0cmluZyBpZiB0eXBlIGlzIHVuc3VwcG9ydGVkCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGludGVudC5wdXRFeHRyYShrZXksIHZhbHVlLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gQ29udmVydCB0byBzdHJpbmcgaWYgdHlwZSBpcyB1bnN1cHBvcnRlZAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnRlbnQucHV0RXh0cmEoa2V5LCB2YWx1ZS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIHBhcnNpbmcgZXh0cmFzIiwgZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gQ2hlY2sgaWYgaW50ZW50IGlzIHZhbGlkCiAgICAgICAgICAgIGlmIChpbnRlbnQuYWN0aW9uID09IG51bGwgJiYgY29tcG9uZW50TmFtZS5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSAiSW50ZW50IG11c3QgaGF2ZSBlaXRoZXIgYW4gYWN0aW9uIG9yIGNvbXBvbmVudCBzcGVjaWZpZWQiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIEFkZCBGTEFHX0FDVElWSVRZX05FV19UQVNLIGZvciBzYWZldHkgaWYgbm90IGFscmVhZHkgc2V0IHdoZW4gc3RhcnRpbmcgYWN0aXZpdHkKICAgICAgICAgICAgLy8gVGhpcyBpcyBuZWVkZWQgd2hlbiBzdGFydGluZyBhY3Rpdml0aWVzIGZyb20gbm9uLWFjdGl2aXR5IGNvbnRleHRzCiAgICAgICAgICAgIGlmICh0eXBlID09IFRZUEVfQUNUSVZJVFkgJiYgaW50ZW50LmZsYWdzIGFuZCBJbnRlbnQuRkxBR19BQ1RJVklUWV9ORVdfVEFTSyA9PSAwKSB7CiAgICAgICAgICAgICAgICBpbnRlbnQuYWRkRmxhZ3MoSW50ZW50LkZMQUdfQUNUSVZJVFlfTkVXX1RBU0spCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIEV4ZWN1dGUgdGhlIGludGVudCBiYXNlZCBvbiB0aGUgcmVxdWVzdGVkIHR5cGUgdXNpbmcgd2l0aENvbnRleHQgdG8gZW5zdXJlIG1haW4KICAgICAgICAgICAgLy8gdGhyZWFkIGV4ZWN1dGlvbgogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIHJlc3VsdCA9CiAgICAgICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLk1haW4pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdoZW4gKHR5cGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUWVBFX0JST0FEQ0FTVCAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc2VuZEJyb2FkY2FzdChpbnRlbnQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJCcm9hZGNhc3Qgc2VudCBzdWNjZXNzZnVsbHkiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRZUEVfU0VSVklDRSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjb21wb25lbnROYW1lLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0ICJFUlJPUjogQ29tcG9uZW50IG11c3QgYmUgc3BlY2lmaWVkIHdoZW4gc3RhcnRpbmcgYSBzZXJ2aWNlIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRTZXJ2aWNlKGludGVudCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIlNlcnZpY2Ugc3RhcnRlZCBzdWNjZXNzZnVsbHkiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgLT4geyAvLyBEZWZhdWx0IHRvIGFjdGl2aXR5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eShpbnRlbnQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJBY3Rpdml0eSBzdGFydGVkIHN1Y2Nlc3NmdWxseSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyBIYW5kbGUgZXJyb3IgZnJvbSBzZXJ2aWNlIGNvbXBvbmVudCBjaGVjawogICAgICAgICAgICAgICAgaWYgKHJlc3VsdC5zdGFydHNXaXRoKCJFUlJPUjoiKSkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9vbE5hbWUgPSB0b29sLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yID0gcmVzdWx0LnN1YnN0cmluZyg3KSAvLyBSZW1vdmUgIkVSUk9SOiAiIHByZWZpeAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyBCdW5kbGUgdXAgdGhlIGludGVudCBkZXRhaWxzIGZvciB0aGUgcmVzcG9uc2UKICAgICAgICAgICAgICAgIHZhbCBleHRyYXMgPSBCdW5kbGUoKQogICAgICAgICAgICAgICAgaW50ZW50LmV4dHJhcz8ubGV0IHsgZXh0cmFzLnB1dEFsbChpdCkgfQoKICAgICAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3VjY2VzcyA9IHRydWUsCiAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSW50ZW50UmVzdWx0RGF0YSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFjdGlvbiA9IGludGVudC5hY3Rpb24gPzogIm51bGwiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJpID0gaW50ZW50LmRhdGE/LnRvU3RyaW5nKCkgPzogIm51bGwiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFja2FnZV9uYW1lID0gaW50ZW50LmBwYWNrYWdlYCA/OiAibnVsbCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb21wb25lbnQgPSBpbnRlbnQuY29tcG9uZW50Py5mbGF0dGVuVG9TdHJpbmcoKSA/OiAibnVsbCIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGFncyA9IGludGVudC5mbGFncywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4dHJhc19jb3VudCA9IGV4dHJhcy5zaXplKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSByZXN1bHQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgcmV0dXJuIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICJJbnRlbnQgZXhlY3V0aW9uIGZhaWxlZDogJHtlLm1lc3NhZ2V9IgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGV4ZWN1dGluZyBJbnRlbnQiLCBlKQogICAgICAgICAgICBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgICAgICBlcnJvciA9ICJJbnRlbnQgZXhlY3V0aW9uIGZhaWxlZDogJHtlLm1lc3NhZ2V9IgogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIC8qKiBWYWxpZGF0ZXMgdGhlIHBhcmFtZXRlcnMgZm9yIHRoZSBJbnRlbnQgdG9vbC4gKi8KICAgIGZ1biB2YWxpZGF0ZVBhcmFtZXRlcnModG9vbDogQUlUb29sKTogVG9vbFZhbGlkYXRpb25SZXN1bHQgewogICAgICAgIHZhbCBhY3Rpb24gPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gImFjdGlvbiIgfT8udmFsdWUKICAgICAgICB2YWwgY29tcG9uZW50ID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJjb21wb25lbnQiIH0/LnZhbHVlCiAgICAgICAgdmFsIHR5cGUgPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gInR5cGUiIH0/LnZhbHVlCgogICAgICAgIGlmIChhY3Rpb24uaXNOdWxsT3JCbGFuaygpICYmIGNvbXBvbmVudC5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIFRvb2xWYWxpZGF0aW9uUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIHZhbGlkID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gIkVpdGhlciBhY3Rpb24gb3IgY29tcG9uZW50IHBhcmFtZXRlciBpcyByZXF1aXJlZCIKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgLy8gVmFsaWRhdGUgdHlwZSBwYXJhbWV0ZXIgaWYgcHJvdmlkZWQKICAgICAgICBpZiAoIXR5cGUuaXNOdWxsT3JCbGFuaygpICYmCiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGUgIT0gVFlQRV9BQ1RJVklUWSAmJgogICAgICAgICAgICAgICAgICAgICAgICB0eXBlICE9IFRZUEVfQlJPQURDQVNUICYmCiAgICAgICAgICAgICAgICAgICAgICAgIHR5cGUgIT0gVFlQRV9TRVJWSUNFCiAgICAgICAgKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sVmFsaWRhdGlvblJlc3VsdCgKICAgICAgICAgICAgICAgICAgICB2YWxpZCA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgIGVycm9yTWVzc2FnZSA9ICJUeXBlIG11c3QgYmUgb25lIG9mOiBhY3Rpdml0eSwgYnJvYWRjYXN0LCBzZXJ2aWNlIgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICAvLyBJZiB0eXBlIGlzIHNlcnZpY2UsIGNvbXBvbmVudCBtdXN0IGJlIHByb3ZpZGVkCiAgICAgICAgaWYgKHR5cGUgPT0gVFlQRV9TRVJWSUNFICYmIGNvbXBvbmVudC5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIFRvb2xWYWxpZGF0aW9uUmVzdWx0KAogICAgICAgICAgICAgICAgICAgIHZhbGlkID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgZXJyb3JNZXNzYWdlID0gIkNvbXBvbmVudCBwYXJhbWV0ZXIgaXMgcmVxdWlyZWQgd2hlbiB0eXBlIGlzICdzZXJ2aWNlJyIKICAgICAgICAgICAgKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIFRvb2xWYWxpZGF0aW9uUmVzdWx0KHZhbGlkID0gdHJ1ZSkKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.defaultTool.standard
+
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.os.Bundle
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.IntentResultData
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.data.model.ToolValidationResult
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONArray
+import org.json.JSONObject
+
+/**
+ * Tool for executing Android Intents. This provides the ability to create and launch Android
+ * intents for various operations like starting activities, services, or broadcasts.
+ */
+class StandardIntentToolExecutor(private val context: Context) {
+
+    companion object {
+        private const val TAG = "IntentToolExecutor"
+
+        // Intent execution types
+        const val TYPE_ACTIVITY = "activity"
+        const val TYPE_BROADCAST = "broadcast"
+        const val TYPE_SERVICE = "service"
+    }
+
+    private fun applyComponentName(intent: Intent, rawComponentName: String) {
+        val parts = rawComponentName.split("/", limit = 2)
+        if (parts.size != 2) {
+            return
+        }
+        val packageName = parts[0].trim()
+        val className = parts[1].trim()
+        if (packageName.isEmpty() || className.isEmpty()) {
+            return
+        }
+        val normalizedClassName =
+            if (className.startsWith(".")) {
+                packageName + className
+            } else {
+                className
+            }
+        intent.setClassName(packageName, normalizedClassName)
+    }
+
+    suspend fun invoke(tool: AITool): ToolResult {
+        // Validate parameters
+        val validationResult = validateParameters(tool)
+        if (!validationResult.valid) {
+            return ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = validationResult.errorMessage
+            )
+        }
+
+        val action = tool.parameters.find { it.name == "action" }?.value
+        val uri = tool.parameters.find { it.name == "uri" }?.value
+        val packageName = tool.parameters.find { it.name == "package" }?.value
+        val flags = tool.parameters.find { it.name == "flags" }?.value
+        val extras = tool.parameters.find { it.name == "extras" }?.value
+        val componentName = tool.parameters.find { it.name == "component" }?.value
+        val type = tool.parameters.find { it.name == "type" }?.value ?: TYPE_ACTIVITY
+
+        return try {
+            // Create the intent
+            val intent = Intent()
+
+            // Set action if provided
+            if (!action.isNullOrBlank()) {
+                intent.action = action
+            }
+
+            // Set data URI if provided
+            if (!uri.isNullOrBlank()) {
+                intent.data = Uri.parse(uri)
+            }
+
+            // Set package if provided
+            if (!packageName.isNullOrBlank()) {
+                intent.`package` = packageName
+            }
+
+            // Set component if provided
+            if (!componentName.isNullOrBlank()) {
+                applyComponentName(intent, componentName)
+            }
+
+            // Set flags if provided
+            if (!flags.isNullOrBlank()) {
+                try {
+                    val flagsJson = JSONArray(flags)
+                    var combinedFlags = 0
+                    for (i in 0 until flagsJson.length()) {
+                        val flag = flagsJson.getInt(i)
+                        combinedFlags = combinedFlags or flag
+                    }
+                    intent.flags = combinedFlags
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "Error parsing flags", e)
+                    // Try to parse as a single integer value
+                    try {
+                        intent.flags = flags.toInt()
+                    } catch (e2: Exception) {
+                        AppLogger.e(TAG, "Error parsing flags as integer", e2)
+                    }
+                }
+            }
+
+            // Set extras if provided
+            if (!extras.isNullOrBlank()) {
+                try {
+                    val extrasJson = JSONObject(extras)
+                    val keys = extrasJson.keys()
+                    while (keys.hasNext()) {
+                        val key = keys.next()
+                        val value = extrasJson.get(key)
+
+                        when (value) {
+                            is String -> intent.putExtra(key, value)
+                            is Int -> intent.putExtra(key, value)
+                            is Boolean -> intent.putExtra(key, value)
+                            is Float -> intent.putExtra(key, value)
+                            is Double -> intent.putExtra(key, value)
+                            is Long -> intent.putExtra(key, value)
+                            else -> {
+                                // Try to detect array types
+                                if (value is JSONArray) {
+                                    // Handle various array types
+                                    if (value.length() > 0) {
+                                        val firstItem = value.get(0)
+                                        when (firstItem) {
+                                            is String -> {
+                                                val stringArray =
+                                                        Array(value.length()) { i ->
+                                                            value.getString(i)
+                                                        }
+                                                intent.putExtra(key, stringArray)
+                                            }
+                                            is Int -> {
+                                                val intArray =
+                                                        IntArray(value.length()) { i ->
+                                                            value.getInt(i)
+                                                        }
+                                                intent.putExtra(key, intArray)
+                                            }
+                                            else -> {
+                                                // Convert to string if type is unsupported
+                                                intent.putExtra(key, value.toString())
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    // Convert to string if type is unsupported
+                                    intent.putExtra(key, value.toString())
+                                }
+                            }
+                        }
+                    }
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "Error parsing extras", e)
+                }
+            }
+
+            // Check if intent is valid
+            if (intent.action == null && componentName.isNullOrBlank()) {
+                return ToolResult(
+                        toolName = tool.name,
+                        success = false,
+                        result = StringResultData(""),
+                        error = "Intent must have either an action or component specified"
+                )
+            }
+
+            // Add FLAG_ACTIVITY_NEW_TASK for safety if not already set when starting activity
+            // This is needed when starting activities from non-activity contexts
+            if (type == TYPE_ACTIVITY && intent.flags and Intent.FLAG_ACTIVITY_NEW_TASK == 0) {
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            }
+
+            // Execute the intent based on the requested type using withContext to ensure main
+            // thread execution
+            try {
+                val result =
+                        withContext(Dispatchers.Main) {
+                            when (type) {
+                                TYPE_BROADCAST -> {
+                                    context.sendBroadcast(intent)
+                                    "Broadcast sent successfully"
+                                }
+                                TYPE_SERVICE -> {
+                                    if (componentName.isNullOrBlank()) {
+                                        return@withContext "ERROR: Component must be specified when starting a service"
+                                    }
+                                    context.startService(intent)
+                                    "Service started successfully"
+                                }
+                                else -> { // Default to activity
+                                    context.startActivity(intent)
+                                    "Activity started successfully"
+                                }
+                            }
+                        }
+
+                // Handle error from service component check
+                if (result.startsWith("ERROR:")) {
+                    return ToolResult(
+                            toolName = tool.name,
+                            success = false,
+                            result = StringResultData(""),
+                            error = result.substring(7) // Remove "ERROR: " prefix
+                    )
+                }
+
+                // Bundle up the intent details for the response
+                val extras = Bundle()
+                intent.extras?.let { extras.putAll(it) }
+
+                return ToolResult(
+                        toolName = tool.name,
+                        success = true,
+                        result =
+                                IntentResultData(
+                                        action = intent.action ?: "null",
+                                        uri = intent.data?.toString() ?: "null",
+                                        package_name = intent.`package` ?: "null",
+                                        component = intent.component?.flattenToString() ?: "null",
+                                        flags = intent.flags,
+                                        extras_count = extras.size(),
+                                        result = result
+                                )
+                )
+            } catch (e: Exception) {
+                return ToolResult(
+                        toolName = tool.name,
+                        success = false,
+                        result = StringResultData(""),
+                        error = "Intent execution failed: ${e.message}"
+                )
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error executing Intent", e)
+            ToolResult(
+                    toolName = tool.name,
+                    success = false,
+                    result = StringResultData(""),
+                    error = "Intent execution failed: ${e.message}"
+            )
+        }
+    }
+
+    /** Validates the parameters for the Intent tool. */
+    fun validateParameters(tool: AITool): ToolValidationResult {
+        val action = tool.parameters.find { it.name == "action" }?.value
+        val component = tool.parameters.find { it.name == "component" }?.value
+        val type = tool.parameters.find { it.name == "type" }?.value
+
+        if (action.isNullOrBlank() && component.isNullOrBlank()) {
+            return ToolValidationResult(
+                    valid = false,
+                    errorMessage = "Either action or component parameter is required"
+            )
+        }
+
+        // Validate type parameter if provided
+        if (!type.isNullOrBlank() &&
+                        type != TYPE_ACTIVITY &&
+                        type != TYPE_BROADCAST &&
+                        type != TYPE_SERVICE
+        ) {
+            return ToolValidationResult(
+                    valid = false,
+                    errorMessage = "Type must be one of: activity, broadcast, service"
+            )
+        }
+
+        // If type is service, component must be provided
+        if (type == TYPE_SERVICE && component.isNullOrBlank()) {
+            return ToolValidationResult(
+                    valid = false,
+                    errorMessage = "Component parameter is required when type is 'service'"
+            )
+        }
+
+        return ToolValidationResult(valid = true)
+    }
+}

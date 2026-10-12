@@ -1,1 +1,424 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW5zdGF0cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQud2lkdGhJbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbWVtYmVyU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi50ZXh0LktleWJvYXJkT3B0aW9ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnZlcnRpY2FsU2Nyb2xsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRGF0ZVBpY2tlckRpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRGF0ZVJhbmdlUGlja2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5FeHBlcmltZW50YWxNYXRlcmlhbDNBcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkZpbHRlckNoaXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkhvcml6b250YWxEaXZpZGVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5PdXRsaW5lZFRleHRGaWVsZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMucmVtZW1iZXJEYXRlUmFuZ2VQaWNrZXJTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LktleWJvYXJkVHlwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRPdmVyZmxvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuY29sbGVjdHMuUHJpY2luZ0N1cnJlbmN5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5CaWxsaW5nTW9kZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuVG9rZW5TdGF0c1ByaWNlRHJhZnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuU3RhdHNQcmljZVNjb3BlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzUHJpY2VTZXR0aW5nCmltcG9ydCBqYXZhLnRpbWUuSW5zdGFudAppbXBvcnQgamF2YS50aW1lLlpvbmVJZAppbXBvcnQgamF2YS50aW1lLmZvcm1hdC5EYXRlVGltZUZvcm1hdHRlcgppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKLyoqCiAqIOS/oeaBr+aetuaehOmHjeaehOWQjuW8ueeql+WFqOmDqOWbnuWIsCBNMyDpu5jorqTphY3oibLvvIjpmo/kuLvpopjmmI7mmpfoh6rliqjmiJDnq4vvvInvvIwKICog5Li76Imy5LiN5YaN5L2c5Li65a655Zmo6Imy5Ye6546w44CCCiAqLwoKaW50ZXJuYWwgZnVuIGRhdGVQaWNrZXJNaWxsaXNUb0xvY2FsRGF0ZSh1dGNNaWRuaWdodE1zOiBMb25nKTogamF2YS50aW1lLkxvY2FsRGF0ZSA9CiAgICBJbnN0YW50Lm9mRXBvY2hNaWxsaSh1dGNNaWRuaWdodE1zKS5hdFpvbmUoamF2YS50aW1lLlpvbmVPZmZzZXQuVVRDKS50b0xvY2FsRGF0ZSgpCgppbnRlcm5hbCBmdW4gY3VzdG9tUmFuZ2VJbmNsdXNpdmVFbmQoCiAgICBzdGFydERhdGU6IGphdmEudGltZS5Mb2NhbERhdGUsCiAgICBlbmREYXRlOiBqYXZhLnRpbWUuTG9jYWxEYXRlLAogICAgem9uZTogWm9uZUlkLAopOiBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzVGltZVJhbmdlIHsKICAgIHJlcXVpcmUoIWVuZERhdGUuaXNCZWZvcmUoc3RhcnREYXRlKSkgeyAiZW5kIGRhdGUgbXVzdCBub3QgYmUgYmVmb3JlIHN0YXJ0IGRhdGUiIH0KICAgIHZhbCBzdGFydE1zID0gc3RhcnREYXRlLmF0U3RhcnRPZkRheSh6b25lKS50b0luc3RhbnQoKS50b0Vwb2NoTWlsbGkoKQogICAgdmFsIGVuZE1zID0gZW5kRGF0ZS5wbHVzRGF5cygxKS5hdFN0YXJ0T2ZEYXkoem9uZSkudG9JbnN0YW50KCkudG9FcG9jaE1pbGxpKCkKICAgIHJldHVybiBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzVGltZVJhbmdlcy5jdXN0b21SYW5nZShzdGFydE1zLCBlbmRNcykKfQoKQE9wdEluKEV4cGVyaW1lbnRhbE1hdGVyaWFsM0FwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmludGVybmFsIGZ1biBUb2tlblN0YXRzRGF0ZVJhbmdlRGlhbG9nKAogICAgem9uZTogWm9uZUlkLAogICAgbWF4UmFuZ2VEYXlzOiBMb25nLAogICAgaW5pdGlhbFJhbmdlOiBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Ub2tlblN0YXRzVGltZVJhbmdlPywKICAgIG9uQ29uZmlybTogKHN0YXJ0TXM6IExvbmcsIGVuZE1zOiBMb25nKSAtPiBCb29sZWFuLAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0LAopIHsKICAgIHZhciBpbmxpbmVFcnJvciBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mPFN0cmluZz8+KG51bGwpIH0KICAgIHZhbCBpbml0aWFsU3RhcnREYXRlTWlsbGlzID0gaW5pdGlhbFJhbmdlCiAgICAgICAgPy5zdGFydE1zCiAgICAgICAgPy5sZXQgeyBJbnN0YW50Lm9mRXBvY2hNaWxsaShpdCkuYXRab25lKHpvbmUpLnRvTG9jYWxEYXRlKCkgfQogICAgICAgID8uYXRTdGFydE9mRGF5KGphdmEudGltZS5ab25lT2Zmc2V0LlVUQykKICAgICAgICA/LnRvSW5zdGFudCgpCiAgICAgICAgPy50b0Vwb2NoTWlsbGkoKQogICAgdmFsIGluaXRpYWxFbmREYXRlTWlsbGlzID0gaW5pdGlhbFJhbmdlCiAgICAgICAgPy5lbmRNcwogICAgICAgID8ubWludXMoMUwpCiAgICAgICAgPy5sZXQgeyBJbnN0YW50Lm9mRXBvY2hNaWxsaShpdCkuYXRab25lKHpvbmUpLnRvTG9jYWxEYXRlKCkgfQogICAgICAgID8uYXRTdGFydE9mRGF5KGphdmEudGltZS5ab25lT2Zmc2V0LlVUQykKICAgICAgICA/LnRvSW5zdGFudCgpCiAgICAgICAgPy50b0Vwb2NoTWlsbGkoKQogICAgdmFsIHBpY2tlclN0YXRlID0gcmVtZW1iZXJEYXRlUmFuZ2VQaWNrZXJTdGF0ZSgKICAgICAgICBpbml0aWFsU2VsZWN0ZWRTdGFydERhdGVNaWxsaXMgPSBpbml0aWFsU3RhcnREYXRlTWlsbGlzLAogICAgICAgIGluaXRpYWxTZWxlY3RlZEVuZERhdGVNaWxsaXMgPSBpbml0aWFsRW5kRGF0ZU1pbGxpcywKICAgICkKICAgIExhdW5jaGVkRWZmZWN0KAogICAgICAgIHBpY2tlclN0YXRlLnNlbGVjdGVkU3RhcnREYXRlTWlsbGlzLAogICAgICAgIHBpY2tlclN0YXRlLnNlbGVjdGVkRW5kRGF0ZU1pbGxpcywKICAgICkgewogICAgICAgIGlubGluZUVycm9yID0gbnVsbAogICAgfQoKICAgIHZhbCBpbnZhbGlkUmFuZ2VUZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudG9rZW5fc3RhdHNfY3VzdG9tX3JhbmdlX2ludmFsaWQpCiAgICB2YWwgcmFuZ2VUb29Mb25nVGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnRva2VuX3N0YXRzX2N1c3RvbV9yYW5nZV90b29fbG9uZykKCiAgICBEYXRlUGlja2VyRGlhbG9nKAogICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MsCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53aWR0aEluKG1heCA9IDM2MC5kcCksCiAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgIGVuYWJsZWQgPQogICAgICAgICAgICAgICAgICAgIHBpY2tlclN0YXRlLnNlbGVjdGVkU3RhcnREYXRlTWlsbGlzICE9IG51bGwgJiYKICAgICAgICAgICAgICAgICAgICAgICAgcGlja2VyU3RhdGUuc2VsZWN0ZWRFbmREYXRlTWlsbGlzICE9IG51bGwsCiAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgIHZhbCBzdGFydCA9IHBpY2tlclN0YXRlLnNlbGVjdGVkU3RhcnREYXRlTWlsbGlzID86IHJldHVybkBUZXh0QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgdmFsIGVuZCA9IHBpY2tlclN0YXRlLnNlbGVjdGVkRW5kRGF0ZU1pbGxpcyA/OiByZXR1cm5AVGV4dEJ1dHRvbgogICAgICAgICAgICAgICAgICAgIHZhbCByYW5nZSA9IGN1c3RvbVJhbmdlSW5jbHVzaXZlRW5kKAogICAgICAgICAgICAgICAgICAgICAgICBkYXRlUGlja2VyTWlsbGlzVG9Mb2NhbERhdGUoc3RhcnQpLAogICAgICAgICAgICAgICAgICAgICAgICBkYXRlUGlja2VyTWlsbGlzVG9Mb2NhbERhdGUoZW5kKSwKICAgICAgICAgICAgICAgICAgICAgICAgem9uZSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgdmFsIGlzVW5jaGFuZ2VkSW5pdGlhbFJhbmdlID0gcmFuZ2UgPT0gaW5pdGlhbFJhbmdlCiAgICAgICAgICAgICAgICAgICAgaW5saW5lRXJyb3IgPQogICAgICAgICAgICAgICAgICAgICAgICB3aGVuICh2YWxpZGF0ZUN1c3RvbVJhbmdlKHJhbmdlLnN0YXJ0TXMsIHJhbmdlLmVuZE1zLCB6b25lLCBtYXhSYW5nZURheXMpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBDdXN0b21SYW5nZVZhbGlkYXRpb24uSU5WQUxJRF9CT1VORFMgLT4gaW52YWxpZFJhbmdlVGV4dAogICAgICAgICAgICAgICAgICAgICAgICAgICAgQ3VzdG9tUmFuZ2VWYWxpZGF0aW9uLlRPT19MT05HIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGlzVW5jaGFuZ2VkSW5pdGlhbFJhbmdlKSBudWxsIGVsc2UgcmFuZ2VUb29Mb25nVGV4dAogICAgICAgICAgICAgICAgICAgICAgICAgICAgQ3VzdG9tUmFuZ2VWYWxpZGF0aW9uLlZBTElEIC0+IG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmIChpbmxpbmVFcnJvciA9PSBudWxsICYmIG9uQ29uZmlybShyYW5nZS5zdGFydE1zLCByYW5nZS5lbmRNcykpIG9uRGlzbWlzcygpCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudG9rZW5fc3RhdHNfY3VzdG9tX3JhbmdlX2NvbmZpcm0pKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBkaXNtaXNzQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKAogICAgICAgICAgICAgICAgb25DbGljayA9IG9uRGlzbWlzcywKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnNldHRpbmdzX2NhbmNlbCkpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgKSB7CiAgICAgICAgQ29sdW1uIHsKICAgICAgICAgICAgRGF0ZVJhbmdlUGlja2VyKAogICAgICAgICAgICAgICAgc3RhdGUgPSBwaWNrZXJTdGF0ZSwKICAgICAgICAgICAgICAgIHRpdGxlID0gewogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy50b2tlbl9zdGF0c19kYXRlX3JhbmdlKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LlNlbWlCb2xkLAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoc3RhcnQgPSAyNC5kcCwgdG9wID0gMTYuZHApLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICBoZWFkbGluZSA9IHsKICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gZm9ybWF0RGF0ZVBpY2tlclNlbGVjdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBpY2tlclN0YXRlLnNlbGVjdGVkU3RhcnREYXRlTWlsbGlzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcGlja2VyU3RhdGUuc2VsZWN0ZWRFbmREYXRlTWlsbGlzLAogICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TGFyZ2UsCiAgICAgICAgICAgICAgICAgICAgICAgIG1heExpbmVzID0gMSwKICAgICAgICAgICAgICAgICAgICAgICAgc29mdFdyYXAgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMsCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoc3RhcnQgPSAyNC5kcCwgZW5kID0gMjQuZHAsIGJvdHRvbSA9IDEyLmRwKSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgc2hvd01vZGVUb2dnbGUgPSBmYWxzZSwKICAgICAgICAgICAgKQogICAgICAgICAgICBpbmxpbmVFcnJvcj8ubGV0IHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGl0LAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcoc3RhcnQgPSAyNC5kcCwgYm90dG9tID0gMTIuZHApLAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cgpwcml2YXRlIGZ1biBmb3JtYXREYXRlUGlja2VyU2VsZWN0aW9uKHN0YXJ0TWlsbGlzOiBMb25nPywgZW5kTWlsbGlzOiBMb25nPyk6IFN0cmluZyB7CiAgICBpZiAoc3RhcnRNaWxsaXMgPT0gbnVsbCkgcmV0dXJuICIiCiAgICB2YWwgc3RhcnQgPSBkYXRlUGlja2VyTWlsbGlzVG9Mb2NhbERhdGUoc3RhcnRNaWxsaXMpLmZvcm1hdChkYXRlUGlja2VyU2VsZWN0aW9uRm9ybWF0dGVyKQogICAgaWYgKGVuZE1pbGxpcyA9PSBudWxsKSByZXR1cm4gc3RhcnQKICAgIHZhbCBlbmQgPSBkYXRlUGlja2VyTWlsbGlzVG9Mb2NhbERhdGUoZW5kTWlsbGlzKS5mb3JtYXQoZGF0ZVBpY2tlclNlbGVjdGlvbkZvcm1hdHRlcikKICAgIHJldHVybiAiJHN0YXJ0IC0gJGVuZCIKfQoKcHJpdmF0ZSB2YWwgZGF0ZVBpY2tlclNlbGVjdGlvbkZvcm1hdHRlciA9IERhdGVUaW1lRm9ybWF0dGVyLm9mUGF0dGVybigieXl5eS9NTS9kZCIsIExvY2FsZS5nZXREZWZhdWx0KCkpCgpAQ29tcG9zYWJsZQppbnRlcm5hbCBmdW4gUHJpY2VTZXR0aW5nc0RpYWxvZygKICAgIGV4aXN0aW5nOiBUb2tlblN0YXRzUHJpY2VTZXR0aW5nPywKICAgIGluaXRpYWxEcmFmdDogVG9rZW5TdGF0c1ByaWNlRHJhZnQsCiAgICBjb25maWd1cmF0aW9uTmFtZTogU3RyaW5nPywKICAgIG9uU2F2ZTogKFRva2VuU3RhdHNQcmljZURyYWZ0KSAtPiBVbml0LAogICAgb25EZWxldGU6ICgoKSAtPiBVbml0KT8gPSBudWxsLAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0LAopIHsKICAgIHZhbCBzY29wZSA9IGluaXRpYWxEcmFmdC5zY29wZQogICAgdmFsIHByb3ZpZGVyID0gaW5pdGlhbERyYWZ0LnByb3ZpZGVyCiAgICB2YWwgbW9kZWwgPSBpbml0aWFsRHJhZnQubW9kZWwKICAgIHZhbCBjb25maWdJZCA9IGluaXRpYWxEcmFmdC5jb25maWdJZC5vckVtcHR5KCkKICAgIHZhciBiaWxsaW5nTW9kZSBieSByZW1lbWJlcihleGlzdGluZywgaW5pdGlhbERyYWZ0KSB7CiAgICAgICAgbXV0YWJsZVN0YXRlT2YoZXhpc3Rpbmc/LmJpbGxpbmdNb2RlID86IGluaXRpYWxEcmFmdC5iaWxsaW5nTW9kZSkKICAgIH0KICAgIHZhciBjdXJyZW5jeSBieSByZW1lbWJlcihleGlzdGluZywgaW5pdGlhbERyYWZ0KSB7CiAgICAgICAgbXV0YWJsZVN0YXRlT2YoZXhpc3Rpbmc/LmN1cnJlbmN5ID86IGluaXRpYWxEcmFmdC5jdXJyZW5jeSkKICAgIH0KICAgIHZhciBpbnB1dFByaWNlIGJ5IHJlbWVtYmVyKGV4aXN0aW5nLCBpbml0aWFsRHJhZnQpIHsKICAgICAgICBtdXRhYmxlU3RhdGVPZigKICAgICAgICAgICAgZm9ybWF0RWRpdGFibGVQcmljZShleGlzdGluZz8uaW5wdXRQcmljZVBlck1pbGxpb24gPzogaW5pdGlhbERyYWZ0LmlucHV0UHJpY2VQZXJNaWxsaW9uKQogICAgICAgICkKICAgIH0KICAgIHZhciBjYWNoZWRJbnB1dFByaWNlIGJ5IHJlbWVtYmVyKGV4aXN0aW5nLCBpbml0aWFsRHJhZnQpIHsKICAgICAgICBtdXRhYmxlU3RhdGVPZigKICAgICAgICAgICAgZm9ybWF0RWRpdGFibGVQcmljZSgKICAgICAgICAgICAgICAgIGV4aXN0aW5nPy5jYWNoZWRJbnB1dFByaWNlUGVyTWlsbGlvbiA/OiBpbml0aWFsRHJhZnQuY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb24KICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KICAgIHZhciBjYWNoZVdyaXRlUHJpY2UgYnkgcmVtZW1iZXIoZXhpc3RpbmcsIGluaXRpYWxEcmFmdCkgewogICAgICAgIG11dGFibGVTdGF0ZU9mKAogICAgICAgICAgICBmb3JtYXRFZGl0YWJsZVByaWNlKAogICAgICAgICAgICAgICAgZXhpc3Rpbmc/LmNhY2hlV3JpdGVQcmljZVBlck1pbGxpb24gPzogaW5pdGlhbERyYWZ0LmNhY2hlV3JpdGVQcmljZVBlck1pbGxpb24KICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KICAgIHZhciBvdXRwdXRQcmljZSBieSByZW1lbWJlcihleGlzdGluZywgaW5pdGlhbERyYWZ0KSB7CiAgICAgICAgbXV0YWJsZVN0YXRlT2YoCiAgICAgICAgICAgIGZvcm1hdEVkaXRhYmxlUHJpY2UoZXhpc3Rpbmc/Lm91dHB1dFByaWNlUGVyTWlsbGlvbiA/OiBpbml0aWFsRHJhZnQub3V0cHV0UHJpY2VQZXJNaWxsaW9uKQogICAgICAgICkKICAgIH0KICAgIHZhciBwcmljZVBlclJlcXVlc3QgYnkgcmVtZW1iZXIoZXhpc3RpbmcsIGluaXRpYWxEcmFmdCkgewogICAgICAgIG11dGFibGVTdGF0ZU9mKAogICAgICAgICAgICBmb3JtYXRFZGl0YWJsZVByaWNlKGV4aXN0aW5nPy5wcmljZVBlclJlcXVlc3QgPzogaW5pdGlhbERyYWZ0LnByaWNlUGVyUmVxdWVzdCkKICAgICAgICApCiAgICB9CiAgICB2YWwgcHJpY2VGaWVsZHMgPQogICAgICAgIGlmIChiaWxsaW5nTW9kZSA9PSBCaWxsaW5nTW9kZS5UT0tFTikgewogICAgICAgICAgICBsaXN0T2YoaW5wdXRQcmljZSwgY2FjaGVkSW5wdXRQcmljZSwgY2FjaGVXcml0ZVByaWNlLCBvdXRwdXRQcmljZSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBsaXN0T2YocHJpY2VQZXJSZXF1ZXN0KQogICAgICAgIH0KICAgIHZhbCBhbGxQcmljZXNWYWxpZCA9CiAgICAgICAgcHJpY2VGaWVsZHMuYWxsIHsgcmF3IC0+CiAgICAgICAgICAgIHJhdy5pc0JsYW5rKCkgfHwKICAgICAgICAgICAgICAgIHJhdy50b0RvdWJsZU9yTnVsbCgpPy5sZXQgeyBpdC5pc0Zpbml0ZSgpICYmIGl0ID49IDAuMCB9ID09IHRydWUKICAgICAgICB9CiAgICB2YWwgdGFyZ2V0VmFsaWQgPSBzY29wZSAhPSBUb2tlblN0YXRzUHJpY2VTY29wZS5DT05GSUcgfHwgY29uZmlnSWQuaXNOb3RCbGFuaygpCiAgICBBbGVydERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzLAogICAgICAgIHRpdGxlID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnRva2VuX3N0YXRzX3ByaWNpbmdfZWRpdCkpIH0sCiAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci52ZXJ0aWNhbFNjcm9sbChyZW1lbWJlclNjcm9sbFN0YXRlKCkpLAogICAgICAgICAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDEyLmRwKSwKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSAiJHByb3ZpZGVyIMK3ICRtb2RlbCIsCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSwKICAgICAgICAgICAgICAgICAgICBmb250V2VpZ2h0ID0gRm9udFdlaWdodC5NZWRpdW0sCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBpZiAoc2NvcGUgPT0gVG9rZW5TdGF0c1ByaWNlU2NvcGUuQ09ORklHKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGNvbmZpZ3VyYXRpb25OYW1lLm9yRW1wdHkoKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIEhvcml6b250YWxEaXZpZGVyKCkKICAgICAgICAgICAgICAgIFJvdyhob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKSkgewogICAgICAgICAgICAgICAgICAgIEZpbHRlckNoaXAoCiAgICAgICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkID0gYmlsbGluZ01vZGUgPT0gQmlsbGluZ01vZGUuVE9LRU4sCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoYmlsbGluZ01vZGUgIT0gQmlsbGluZ01vZGUuVE9LRU4pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmljZVBlclJlcXVlc3QgPSAiIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJpbGxpbmdNb2RlID0gQmlsbGluZ01vZGUuVE9LRU4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuc2V0dGluZ3NfYmlsbGluZ19tb2RlX3Rva2VuKSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBGaWx0ZXJDaGlwKAogICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCA9IGJpbGxpbmdNb2RlID09IEJpbGxpbmdNb2RlLkNPVU5ULAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGJpbGxpbmdNb2RlICE9IEJpbGxpbmdNb2RlLkNPVU5UKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcmljZSA9ICIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FjaGVkSW5wdXRQcmljZSA9ICIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FjaGVXcml0ZVByaWNlID0gIiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdXRwdXRQcmljZSA9ICIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmlsbGluZ01vZGUgPSBCaWxsaW5nTW9kZS5DT1VOVAogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5zZXR0aW5nc19iaWxsaW5nX21vZGVfY291bnQpKSB9LAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZiksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgUm93KGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApKSB7CiAgICAgICAgICAgICAgICAgICAgRmlsdGVyQ2hpcCgKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWQgPSBjdXJyZW5jeSA9PSBQcmljaW5nQ3VycmVuY3kuQ05ZLAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0geyBjdXJyZW5jeSA9IFByaWNpbmdDdXJyZW5jeS5DTlkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudG9rZW5fc3RhdHNfY3VycmVuY3lfY255KSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpLAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBGaWx0ZXJDaGlwKAogICAgICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCA9IGN1cnJlbmN5ID09IFByaWNpbmdDdXJyZW5jeS5VU0QsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IGN1cnJlbmN5ID0gUHJpY2luZ0N1cnJlbmN5LlVTRCB9LAogICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy50b2tlbl9zdGF0c19jdXJyZW5jeV91c2QpKSB9LAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZiksCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgSG9yaXpvbnRhbERpdmlkZXIoKQogICAgICAgICAgICAgICAgaWYgKGJpbGxpbmdNb2RlID09IEJpbGxpbmdNb2RlLlRPS0VOKSB7CiAgICAgICAgICAgICAgICAgICAgUHJpY2VGaWVsZCgKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy50b2tlbl9zdGF0c19wcmljaW5nX2lucHV0KSwKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBpbnB1dFByaWNlLAogICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZSA9IHsgaW5wdXRQcmljZSA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFByaWNlRmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudG9rZW5fc3RhdHNfcHJpY2luZ19jYWNoZWQpLAogICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IGNhY2hlZElucHV0UHJpY2UsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlID0geyBjYWNoZWRJbnB1dFByaWNlID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgUHJpY2VGaWVsZCgKICAgICAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy50b2tlbl9zdGF0c19wcmljaW5nX2NhY2hlX3dyaXRlKSwKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBjYWNoZVdyaXRlUHJpY2UsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlID0geyBjYWNoZVdyaXRlUHJpY2UgPSBpdCB9LAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBQcmljZUZpZWxkKAogICAgICAgICAgICAgICAgICAgICAgICBsYWJlbCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnRva2VuX3N0YXRzX3ByaWNpbmdfb3V0cHV0KSwKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUgPSBvdXRwdXRQcmljZSwKICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2UgPSB7IG91dHB1dFByaWNlID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIFByaWNlRmllbGQoCiAgICAgICAgICAgICAgICAgICAgICAgIGxhYmVsID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcudG9rZW5fc3RhdHNfcHJpY2luZ19wZXJfcmVxdWVzdCksCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gcHJpY2VQZXJSZXF1ZXN0LAogICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZSA9IHsgcHJpY2VQZXJSZXF1ZXN0ID0gaXQgfSwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGNvbmZpcm1CdXR0b24gPSB7CiAgICAgICAgICAgIFRleHRCdXR0b24oCiAgICAgICAgICAgICAgICBlbmFibGVkID0gdGFyZ2V0VmFsaWQgJiYgYWxsUHJpY2VzVmFsaWQsCiAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgIHZhbCBwYXJzZSA9IHsgcmF3OiBTdHJpbmcgLT4gcmF3LnRyaW0oKS50b0RvdWJsZU9yTnVsbCgpIH0KICAgICAgICAgICAgICAgICAgICBvblNhdmUoCiAgICAgICAgICAgICAgICAgICAgICAgIFRva2VuU3RhdHNQcmljZURyYWZ0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGUgPSBzY29wZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByb3ZpZGVyID0gcHJvdmlkZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RlbCA9IG1vZGVsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlnSWQgPSBjb25maWdJZC50YWtlSWYgeyBzY29wZSA9PSBUb2tlblN0YXRzUHJpY2VTY29wZS5DT05GSUcgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJpbGxpbmdNb2RlID0gYmlsbGluZ01vZGUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW5jeSA9IGN1cnJlbmN5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcmljZVBlck1pbGxpb24gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChiaWxsaW5nTW9kZSA9PSBCaWxsaW5nTW9kZS5UT0tFTikgcGFyc2UoaW5wdXRQcmljZSkgZWxzZSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb24gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChiaWxsaW5nTW9kZSA9PSBCaWxsaW5nTW9kZS5UT0tFTikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJzZShjYWNoZWRJbnB1dFByaWNlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FjaGVXcml0ZVByaWNlUGVyTWlsbGlvbiA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGJpbGxpbmdNb2RlID09IEJpbGxpbmdNb2RlLlRPS0VOKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcnNlKGNhY2hlV3JpdGVQcmljZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dHB1dFByaWNlUGVyTWlsbGlvbiA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGJpbGxpbmdNb2RlID09IEJpbGxpbmdNb2RlLlRPS0VOKSBwYXJzZShvdXRwdXRQcmljZSkgZWxzZSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpY2VQZXJSZXF1ZXN0ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoYmlsbGluZ01vZGUgPT0gQmlsbGluZ01vZGUuQ09VTlQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyc2UocHJpY2VQZXJSZXF1ZXN0KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIG9uRGlzbWlzcygpCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuc2V0dGluZ3Nfc2F2ZSkpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgIFJvdyB7CiAgICAgICAgICAgICAgICBpZiAoZXhpc3RpbmcgIT0gbnVsbCAmJiBvbkRlbGV0ZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uRGVsZXRlKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uRGlzbWlzcygpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnRva2VuX3N0YXRzX3ByaWNpbmdfZGVsZXRlKSwKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIud2VpZ2h0KDFmKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFRleHRCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IG9uRGlzbWlzcywKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuc2V0dGluZ3NfY2FuY2VsKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICApCn0KCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIFByaWNlRmllbGQobGFiZWw6IFN0cmluZywgdmFsdWU6IFN0cmluZywgb25DaGFuZ2U6IChTdHJpbmcpIC0+IFVuaXQpIHsKICAgIE91dGxpbmVkVGV4dEZpZWxkKAogICAgICAgIHZhbHVlID0gdmFsdWUsCiAgICAgICAgb25WYWx1ZUNoYW5nZSA9IG9uQ2hhbmdlLAogICAgICAgIGxhYmVsID0geyBUZXh0KGxhYmVsKSB9LAogICAgICAgIGtleWJvYXJkT3B0aW9ucyA9IEtleWJvYXJkT3B0aW9ucyhrZXlib2FyZFR5cGUgPSBLZXlib2FyZFR5cGUuRGVjaW1hbCksCiAgICAgICAgc2luZ2xlTGluZSA9IHRydWUsCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICkKfQoKcHJpdmF0ZSBmdW4gZm9ybWF0RWRpdGFibGVQcmljZSh2YWx1ZTogRG91YmxlPyk6IFN0cmluZyA9CiAgICB2YWx1ZT8ubGV0IHsgU3RyaW5nLmZvcm1hdChMb2NhbGUuVVMsICIlLjZmIiwgaXQpLnRyaW1FbmQoJzAnKS50cmltRW5kKCcuJykgfSA/OiAiIgo=
+package com.bslsjdk.operit.ui.features.tokenstats
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.widthIn
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.DatePickerDialog
+import androidx.compose.material3.DateRangePicker
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.material3.rememberDateRangePickerState
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.collects.PricingCurrency
+import com.bslsjdk.operit.data.model.BillingMode
+import com.bslsjdk.operit.data.stats.TokenStatsPriceDraft
+import com.bslsjdk.operit.data.stats.TokenStatsPriceScope
+import com.bslsjdk.operit.data.stats.TokenStatsPriceSetting
+import java.time.Instant
+import java.time.ZoneId
+import java.time.format.DateTimeFormatter
+import java.util.Locale
+
+/**
+ * 信息架构重构后弹窗全部回到 M3 默认配色（随主题明暗自动成立），
+ * 主色不再作为容器色出现。
+ */
+
+internal fun datePickerMillisToLocalDate(utcMidnightMs: Long): java.time.LocalDate =
+    Instant.ofEpochMilli(utcMidnightMs).atZone(java.time.ZoneOffset.UTC).toLocalDate()
+
+internal fun customRangeInclusiveEnd(
+    startDate: java.time.LocalDate,
+    endDate: java.time.LocalDate,
+    zone: ZoneId,
+): com.bslsjdk.operit.data.stats.TokenStatsTimeRange {
+    require(!endDate.isBefore(startDate)) { "end date must not be before start date" }
+    val startMs = startDate.atStartOfDay(zone).toInstant().toEpochMilli()
+    val endMs = endDate.plusDays(1).atStartOfDay(zone).toInstant().toEpochMilli()
+    return com.bslsjdk.operit.data.stats.TokenStatsTimeRanges.customRange(startMs, endMs)
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+internal fun TokenStatsDateRangeDialog(
+    zone: ZoneId,
+    maxRangeDays: Long,
+    initialRange: com.bslsjdk.operit.data.stats.TokenStatsTimeRange?,
+    onConfirm: (startMs: Long, endMs: Long) -> Boolean,
+    onDismiss: () -> Unit,
+) {
+    var inlineError by remember { mutableStateOf<String?>(null) }
+    val initialStartDateMillis = initialRange
+        ?.startMs
+        ?.let { Instant.ofEpochMilli(it).atZone(zone).toLocalDate() }
+        ?.atStartOfDay(java.time.ZoneOffset.UTC)
+        ?.toInstant()
+        ?.toEpochMilli()
+    val initialEndDateMillis = initialRange
+        ?.endMs
+        ?.minus(1L)
+        ?.let { Instant.ofEpochMilli(it).atZone(zone).toLocalDate() }
+        ?.atStartOfDay(java.time.ZoneOffset.UTC)
+        ?.toInstant()
+        ?.toEpochMilli()
+    val pickerState = rememberDateRangePickerState(
+        initialSelectedStartDateMillis = initialStartDateMillis,
+        initialSelectedEndDateMillis = initialEndDateMillis,
+    )
+    LaunchedEffect(
+        pickerState.selectedStartDateMillis,
+        pickerState.selectedEndDateMillis,
+    ) {
+        inlineError = null
+    }
+
+    val invalidRangeText = stringResource(R.string.token_stats_custom_range_invalid)
+    val rangeTooLongText = stringResource(R.string.token_stats_custom_range_too_long)
+
+    DatePickerDialog(
+        onDismissRequest = onDismiss,
+        modifier = Modifier.widthIn(max = 360.dp),
+        confirmButton = {
+            TextButton(
+                enabled =
+                    pickerState.selectedStartDateMillis != null &&
+                        pickerState.selectedEndDateMillis != null,
+                onClick = {
+                    val start = pickerState.selectedStartDateMillis ?: return@TextButton
+                    val end = pickerState.selectedEndDateMillis ?: return@TextButton
+                    val range = customRangeInclusiveEnd(
+                        datePickerMillisToLocalDate(start),
+                        datePickerMillisToLocalDate(end),
+                        zone,
+                    )
+                    val isUnchangedInitialRange = range == initialRange
+                    inlineError =
+                        when (validateCustomRange(range.startMs, range.endMs, zone, maxRangeDays)) {
+                            CustomRangeValidation.INVALID_BOUNDS -> invalidRangeText
+                            CustomRangeValidation.TOO_LONG ->
+                                if (isUnchangedInitialRange) null else rangeTooLongText
+                            CustomRangeValidation.VALID -> null
+                        }
+                    if (inlineError == null && onConfirm(range.startMs, range.endMs)) onDismiss()
+                },
+            ) {
+                Text(stringResource(R.string.token_stats_custom_range_confirm))
+            }
+        },
+        dismissButton = {
+            TextButton(
+                onClick = onDismiss,
+            ) {
+                Text(stringResource(R.string.settings_cancel))
+            }
+        },
+    ) {
+        Column {
+            DateRangePicker(
+                state = pickerState,
+                title = {
+                    Text(
+                        text = stringResource(R.string.token_stats_date_range),
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.SemiBold,
+                        modifier = Modifier.padding(start = 24.dp, top = 16.dp),
+                    )
+                },
+                headline = {
+                    Text(
+                        text = formatDatePickerSelection(
+                            pickerState.selectedStartDateMillis,
+                            pickerState.selectedEndDateMillis,
+                        ),
+                        style = MaterialTheme.typography.bodyLarge,
+                        maxLines = 1,
+                        softWrap = false,
+                        overflow = TextOverflow.Ellipsis,
+                        modifier =
+                            Modifier
+                                .fillMaxWidth()
+                                .padding(start = 24.dp, end = 24.dp, bottom = 12.dp),
+                    )
+                },
+                showModeToggle = false,
+            )
+            inlineError?.let {
+                Text(
+                    text = it,
+                    style = MaterialTheme.typography.bodySmall,
+                    modifier = Modifier.padding(start = 24.dp, bottom = 12.dp),
+                )
+            }
+        }
+    }
+}
+
+private fun formatDatePickerSelection(startMillis: Long?, endMillis: Long?): String {
+    if (startMillis == null) return ""
+    val start = datePickerMillisToLocalDate(startMillis).format(datePickerSelectionFormatter)
+    if (endMillis == null) return start
+    val end = datePickerMillisToLocalDate(endMillis).format(datePickerSelectionFormatter)
+    return "$start - $end"
+}
+
+private val datePickerSelectionFormatter = DateTimeFormatter.ofPattern("yyyy/MM/dd", Locale.getDefault())
+
+@Composable
+internal fun PriceSettingsDialog(
+    existing: TokenStatsPriceSetting?,
+    initialDraft: TokenStatsPriceDraft,
+    configurationName: String?,
+    onSave: (TokenStatsPriceDraft) -> Unit,
+    onDelete: (() -> Unit)? = null,
+    onDismiss: () -> Unit,
+) {
+    val scope = initialDraft.scope
+    val provider = initialDraft.provider
+    val model = initialDraft.model
+    val configId = initialDraft.configId.orEmpty()
+    var billingMode by remember(existing, initialDraft) {
+        mutableStateOf(existing?.billingMode ?: initialDraft.billingMode)
+    }
+    var currency by remember(existing, initialDraft) {
+        mutableStateOf(existing?.currency ?: initialDraft.currency)
+    }
+    var inputPrice by remember(existing, initialDraft) {
+        mutableStateOf(
+            formatEditablePrice(existing?.inputPricePerMillion ?: initialDraft.inputPricePerMillion)
+        )
+    }
+    var cachedInputPrice by remember(existing, initialDraft) {
+        mutableStateOf(
+            formatEditablePrice(
+                existing?.cachedInputPricePerMillion ?: initialDraft.cachedInputPricePerMillion
+            )
+        )
+    }
+    var cacheWritePrice by remember(existing, initialDraft) {
+        mutableStateOf(
+            formatEditablePrice(
+                existing?.cacheWritePricePerMillion ?: initialDraft.cacheWritePricePerMillion
+            )
+        )
+    }
+    var outputPrice by remember(existing, initialDraft) {
+        mutableStateOf(
+            formatEditablePrice(existing?.outputPricePerMillion ?: initialDraft.outputPricePerMillion)
+        )
+    }
+    var pricePerRequest by remember(existing, initialDraft) {
+        mutableStateOf(
+            formatEditablePrice(existing?.pricePerRequest ?: initialDraft.pricePerRequest)
+        )
+    }
+    val priceFields =
+        if (billingMode == BillingMode.TOKEN) {
+            listOf(inputPrice, cachedInputPrice, cacheWritePrice, outputPrice)
+        } else {
+            listOf(pricePerRequest)
+        }
+    val allPricesValid =
+        priceFields.all { raw ->
+            raw.isBlank() ||
+                raw.toDoubleOrNull()?.let { it.isFinite() && it >= 0.0 } == true
+        }
+    val targetValid = scope != TokenStatsPriceScope.CONFIG || configId.isNotBlank()
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.token_stats_pricing_edit)) },
+        text = {
+            Column(
+                modifier = Modifier.verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(12.dp),
+            ) {
+                Text(
+                    text = "$provider · $model",
+                    style = MaterialTheme.typography.bodyMedium,
+                    fontWeight = FontWeight.Medium,
+                )
+                if (scope == TokenStatsPriceScope.CONFIG) {
+                    Text(
+                        text = configurationName.orEmpty(),
+                        style = MaterialTheme.typography.bodySmall,
+                    )
+                }
+                HorizontalDivider()
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    FilterChip(
+                        selected = billingMode == BillingMode.TOKEN,
+                        onClick = {
+                            if (billingMode != BillingMode.TOKEN) {
+                                pricePerRequest = ""
+                                billingMode = BillingMode.TOKEN
+                            }
+                        },
+                        label = { Text(stringResource(R.string.settings_billing_mode_token)) },
+                        modifier = Modifier.weight(1f),
+                    )
+                    FilterChip(
+                        selected = billingMode == BillingMode.COUNT,
+                        onClick = {
+                            if (billingMode != BillingMode.COUNT) {
+                                inputPrice = ""
+                                cachedInputPrice = ""
+                                cacheWritePrice = ""
+                                outputPrice = ""
+                                billingMode = BillingMode.COUNT
+                            }
+                        },
+                        label = { Text(stringResource(R.string.settings_billing_mode_count)) },
+                        modifier = Modifier.weight(1f),
+                    )
+                }
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    FilterChip(
+                        selected = currency == PricingCurrency.CNY,
+                        onClick = { currency = PricingCurrency.CNY },
+                        label = { Text(stringResource(R.string.token_stats_currency_cny)) },
+                        modifier = Modifier.weight(1f),
+                    )
+                    FilterChip(
+                        selected = currency == PricingCurrency.USD,
+                        onClick = { currency = PricingCurrency.USD },
+                        label = { Text(stringResource(R.string.token_stats_currency_usd)) },
+                        modifier = Modifier.weight(1f),
+                    )
+                }
+                HorizontalDivider()
+                if (billingMode == BillingMode.TOKEN) {
+                    PriceField(
+                        label = stringResource(R.string.token_stats_pricing_input),
+                        value = inputPrice,
+                        onChange = { inputPrice = it },
+                    )
+                    PriceField(
+                        label = stringResource(R.string.token_stats_pricing_cached),
+                        value = cachedInputPrice,
+                        onChange = { cachedInputPrice = it },
+                    )
+                    PriceField(
+                        label = stringResource(R.string.token_stats_pricing_cache_write),
+                        value = cacheWritePrice,
+                        onChange = { cacheWritePrice = it },
+                    )
+                    PriceField(
+                        label = stringResource(R.string.token_stats_pricing_output),
+                        value = outputPrice,
+                        onChange = { outputPrice = it },
+                    )
+                } else {
+                    PriceField(
+                        label = stringResource(R.string.token_stats_pricing_per_request),
+                        value = pricePerRequest,
+                        onChange = { pricePerRequest = it },
+                    )
+                }
+            }
+        },
+        confirmButton = {
+            TextButton(
+                enabled = targetValid && allPricesValid,
+                onClick = {
+                    val parse = { raw: String -> raw.trim().toDoubleOrNull() }
+                    onSave(
+                        TokenStatsPriceDraft(
+                            scope = scope,
+                            provider = provider,
+                            model = model,
+                            configId = configId.takeIf { scope == TokenStatsPriceScope.CONFIG },
+                            billingMode = billingMode,
+                            currency = currency,
+                            inputPricePerMillion =
+                                if (billingMode == BillingMode.TOKEN) parse(inputPrice) else null,
+                            cachedInputPricePerMillion =
+                                if (billingMode == BillingMode.TOKEN) {
+                                    parse(cachedInputPrice)
+                                } else {
+                                    null
+                                },
+                            cacheWritePricePerMillion =
+                                if (billingMode == BillingMode.TOKEN) {
+                                    parse(cacheWritePrice)
+                                } else {
+                                    null
+                                },
+                            outputPricePerMillion =
+                                if (billingMode == BillingMode.TOKEN) parse(outputPrice) else null,
+                            pricePerRequest =
+                                if (billingMode == BillingMode.COUNT) {
+                                    parse(pricePerRequest)
+                                } else {
+                                    null
+                                },
+                        )
+                    )
+                    onDismiss()
+                },
+            ) {
+                Text(stringResource(R.string.settings_save))
+            }
+        },
+        dismissButton = {
+            Row {
+                if (existing != null && onDelete != null) {
+                    TextButton(
+                        onClick = {
+                            onDelete()
+                            onDismiss()
+                        }
+                    ) {
+                        Text(
+                            stringResource(R.string.token_stats_pricing_delete),
+                        )
+                    }
+                    Spacer(Modifier.weight(1f))
+                }
+                TextButton(
+                    onClick = onDismiss,
+                ) {
+                    Text(stringResource(R.string.settings_cancel))
+                }
+            }
+        },
+    )
+}
+
+@Composable
+private fun PriceField(label: String, value: String, onChange: (String) -> Unit) {
+    OutlinedTextField(
+        value = value,
+        onValueChange = onChange,
+        label = { Text(label) },
+        keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Decimal),
+        singleLine = true,
+        modifier = Modifier.fillMaxWidth(),
+    )
+}
+
+private fun formatEditablePrice(value: Double?): String =
+    value?.let { String.format(Locale.US, "%.6f", it).trimEnd('0').trimEnd('.') } ?: ""

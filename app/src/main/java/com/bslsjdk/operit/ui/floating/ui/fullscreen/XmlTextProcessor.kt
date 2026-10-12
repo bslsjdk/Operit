@@ -1,1 +1,64 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuZnVsbHNjcmVlbgoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5TdHJlYW0KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5UZXh0U3RyZWFtRXZlbnRDYXJyaWVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uZmxhdE1hcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLnBsdWdpbnMuU3RyZWFtWG1sUGx1Z2luCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0uc3BsaXRCeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLnN0cmVhbQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLndpdGhUZXh0RXZlbnRDaGFubmVsCgovKioKICogQW4gb2JqZWN0IHJlc3BvbnNpYmxlIGZvciBwcm9jZXNzaW5nIGEgY2hhcmFjdGVyIHN0cmVhbSBjb250YWluaW5nIFhNTCB0YWdzIGFuZCBjb252ZXJ0aW5nIHRoZW0KICogaW50byBhIGh1bWFuLXJlYWRhYmxlIHBsYWluIHRleHQgY2hhcmFjdGVyIHN0cmVhbSBpbiBhIGZ1bGx5IHN0cmVhbWluZyBtYW5uZXIgYnkgc3RyaXBwaW5nCiAqIG91dCBhbGwgWE1MIHRhZ3MgYW5kIHRoZWlyIGNvbnRlbnQuCiAqLwpvYmplY3QgWG1sVGV4dFByb2Nlc3NvciB7CgogICAgLyoqCiAgICAgKiBQcm9jZXNzZXMgYSBzdHJlYW0gb2Ygc3RyaW5ncywgZmluZHMgYW5kIHJlbW92ZXMgWE1MIGJsb2NrcyAoYm90aCB0YWdzIGFuZCBjb250ZW50KSwKICAgICAqIGFuZCByZXR1cm5zIGEgbmV3IHN0cmVhbSBvZiBjaGFyYWN0ZXJzIGNvbnRhaW5pbmcgb25seSB0aGUgcGxhaW4gdGV4dCBwYXJ0cy4KICAgICAqCiAgICAgKiBAcGFyYW0gc291cmNlU3RyZWFtIFRoZSBvcmlnaW5hbCBzdHJlYW0gb2Ygc3RyaW5ncywgd2hpY2ggbWF5IGNvbnRhaW4gWE1MLgogICAgICogQHJldHVybiBBIHN0cmVhbSBvZiBjaGFyYWN0ZXJzIHdpdGggWE1MIGJsb2NrcyBjb21wbGV0ZWx5IHJlbW92ZWQuCiAgICAgKi8KICAgIGZ1biBwcm9jZXNzU3RyZWFtVG9UZXh0KHNvdXJjZVN0cmVhbTogU3RyZWFtPFN0cmluZz4pOiBTdHJlYW08Q2hhcj4gewogICAgICAgIHZhbCB4bWxQbHVnaW4gPSBTdHJlYW1YbWxQbHVnaW4oaW5jbHVkZVRhZ3NJbk91dHB1dCA9IHRydWUpCgogICAgICAgIC8vIERpcmVjdGx5IHVzZSB0aGUgc3BsaXRCeSBtZXRob2Qgb2YgU3RyZWFtPFN0cmluZz4KICAgICAgICB2YWwgdGV4dFN0cmVhbSA9IHNvdXJjZVN0cmVhbS5zcGxpdEJ5KGxpc3RPZih4bWxQbHVnaW4pKS5mbGF0TWFwIHsgZ3JvdXAgLT4KICAgICAgICAgICAgaWYgKGdyb3VwLnRhZyA9PSB4bWxQbHVnaW4pIHsKICAgICAgICAgICAgICAgIC8vIEl0J3MgYW4gWE1MIGdyb3VwLCBmaWx0ZXIgaXQgb3V0IGNvbXBsZXRlbHkgYnkgcmV0dXJuaW5nIGFuIGVtcHR5IHN0cmVhbS4KICAgICAgICAgICAgICAgIHN0cmVhbSB7fQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgLy8gSXQncyBhIHBsYWluIHRleHQgZ3JvdXAsIGNvbnZlcnQgZWFjaCBzdHJpbmcgdG8gY2hhcnMKICAgICAgICAgICAgICAgIHN0cmluZ1N0cmVhbVRvQ2hhclN0cmVhbShncm91cC5zdHJlYW0pCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgdmFsIGNhcnJpZXIgPSBzb3VyY2VTdHJlYW0gYXM/IFRleHRTdHJlYW1FdmVudENhcnJpZXIgPzogcmV0dXJuIHRleHRTdHJlYW0KICAgICAgICByZXR1cm4gdGV4dFN0cmVhbS53aXRoVGV4dEV2ZW50Q2hhbm5lbChjYXJyaWVyLmV2ZW50Q2hhbm5lbCkKICAgIH0KCiAgICAvKioKICAgICAqIENvbnZlcnRzIGEgU3RyZWFtPFN0cmluZz4gdG8gYSBTdHJlYW08Q2hhcj4gYnkgZmxhdHRlbmluZyBlYWNoIHN0cmluZyBpbnRvIGl0cyBjaGFyYWN0ZXJzLgogICAgICovCiAgICBwcml2YXRlIGZ1biBzdHJpbmdTdHJlYW1Ub0NoYXJTdHJlYW0oc3RyaW5nU3RyZWFtOiBTdHJlYW08U3RyaW5nPik6IFN0cmVhbTxDaGFyPiA9IHN0cmVhbSB7CiAgICAgICAgdmFyIGxhc3RDaGFyV2FzTmV3bGluZSA9IHRydWUKICAgICAgICBzdHJpbmdTdHJlYW0uY29sbGVjdCB7IHN0ciAtPgogICAgICAgICAgICBzdHIuZm9yRWFjaCB7IGNoYXIgLT4KICAgICAgICAgICAgICAgIHZhbCBpc0N1cnJlbnRDaGFyTmV3bGluZSA9IChjaGFyID09ICdcbicpCiAgICAgICAgICAgICAgICBpZiAoaXNDdXJyZW50Q2hhck5ld2xpbmUpIHsKICAgICAgICAgICAgICAgICAgICBpZiAoIWxhc3RDaGFyV2FzTmV3bGluZSkgewogICAgICAgICAgICAgICAgICAgICAgICBlbWl0KCdcbicpCiAgICAgICAgICAgICAgICAgICAgICAgIGxhc3RDaGFyV2FzTmV3bGluZSA9IHRydWUKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKGNoYXIuaXNXaGl0ZXNwYWNlKCkgJiYgbGFzdENoYXJXYXNOZXdsaW5lKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gU2tpcCBvdGhlciB3aGl0ZXNwYWNlIGlmIGl0IGZvbGxvd3MgYSBuZXdsaW5lCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIGVtaXQoY2hhcikKICAgICAgICAgICAgICAgICAgICBsYXN0Q2hhcldhc05ld2xpbmUgPSBmYWxzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.floating.ui.fullscreen
+
+import com.bslsjdk.operit.util.stream.Stream
+import com.bslsjdk.operit.util.stream.TextStreamEventCarrier
+import com.bslsjdk.operit.util.stream.flatMap
+import com.bslsjdk.operit.util.stream.plugins.StreamXmlPlugin
+import com.bslsjdk.operit.util.stream.splitBy
+import com.bslsjdk.operit.util.stream.stream
+import com.bslsjdk.operit.util.stream.withTextEventChannel
+
+/**
+ * An object responsible for processing a character stream containing XML tags and converting them
+ * into a human-readable plain text character stream in a fully streaming manner by stripping
+ * out all XML tags and their content.
+ */
+object XmlTextProcessor {
+
+    /**
+     * Processes a stream of strings, finds and removes XML blocks (both tags and content),
+     * and returns a new stream of characters containing only the plain text parts.
+     *
+     * @param sourceStream The original stream of strings, which may contain XML.
+     * @return A stream of characters with XML blocks completely removed.
+     */
+    fun processStreamToText(sourceStream: Stream<String>): Stream<Char> {
+        val xmlPlugin = StreamXmlPlugin(includeTagsInOutput = true)
+
+        // Directly use the splitBy method of Stream<String>
+        val textStream = sourceStream.splitBy(listOf(xmlPlugin)).flatMap { group ->
+            if (group.tag == xmlPlugin) {
+                // It's an XML group, filter it out completely by returning an empty stream.
+                stream {}
+            } else {
+                // It's a plain text group, convert each string to chars
+                stringStreamToCharStream(group.stream)
+            }
+        }
+        val carrier = sourceStream as? TextStreamEventCarrier ?: return textStream
+        return textStream.withTextEventChannel(carrier.eventChannel)
+    }
+
+    /**
+     * Converts a Stream<String> to a Stream<Char> by flattening each string into its characters.
+     */
+    private fun stringStreamToCharStream(stringStream: Stream<String>): Stream<Char> = stream {
+        var lastCharWasNewline = true
+        stringStream.collect { str ->
+            str.forEach { char ->
+                val isCurrentCharNewline = (char == '\n')
+                if (isCurrentCharNewline) {
+                    if (!lastCharWasNewline) {
+                        emit('\n')
+                        lastCharWasNewline = true
+                    }
+                } else if (char.isWhitespace() && lastCharWasNewline) {
+                    // Skip other whitespace if it follows a newline
+                } else {
+                    emit(char)
+                    lastCharWasNewline = false
+                }
+            }
+        }
+    }
+}

@@ -1,1 +1,186 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5uYXZpZ2F0aW9uCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkltbXV0YWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLlN0YWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlTGlzdE9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy52ZWN0b3IuSW1hZ2VWZWN0b3IKaW1wb3J0IGphdmEudXRpbC5VVUlECgplbnVtIGNsYXNzIFJvdXRlUnVudGltZSB7CiAgICBOQVRJVkUsCiAgICBUT09MUEtHX0NPTVBPU0VfRFNMCn0KCmVudW0gY2xhc3MgTmF2aWdhdGlvblN1cmZhY2UgewogICAgTUFJTl9TSURFQkFSX0FJLAogICAgTUFJTl9TSURFQkFSX1RPT0xTLAogICAgTUFJTl9TSURFQkFSX1BMVUdJTlMsCiAgICBNQUlOX1NJREVCQVJfU1lTVEVNLAogICAgVE9PTEJPWAp9CgplbnVtIGNsYXNzIE5hdmlnYXRpb25FbnRyeUtpbmQgewogICAgSE9TVCwKICAgIFBMVUdJTgp9CgpASW1tdXRhYmxlCmRhdGEgY2xhc3MgTmF2aWdhdGlvbkVudHJ5QWN0aW9uU3BlYygKICAgIHZhbCBmdW5jdGlvbk5hbWU6IFN0cmluZywKICAgIHZhbCBmdW5jdGlvblNvdXJjZTogU3RyaW5nPyA9IG51bGwKKQoKZW51bSBjbGFzcyBSb3V0ZUVudHJ5U291cmNlIHsKICAgIERFRkFVTFQsCiAgICBEUkFXRVIsCiAgICBTQ1JJUFQKfQoKQEltbXV0YWJsZQpkYXRhIGNsYXNzIFJvdXRlU3BlYygKICAgIHZhbCByb3V0ZUlkOiBTdHJpbmcsCiAgICB2YWwgcnVudGltZTogUm91dGVSdW50aW1lLAogICAgdmFsIHRpdGxlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBpY29uOiBJbWFnZVZlY3Rvcj8gPSBudWxsLAogICAgdmFsIG93bmVyUGFja2FnZU5hbWU6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHRvb2xQa2dVaU1vZHVsZUlkOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBrZWVwQWxpdmU6IEJvb2xlYW4gPSBmYWxzZSwKICAgIHZhbCByZXVzZU9uVG9wOiBCb29sZWFuID0gdHJ1ZQopCgpASW1tdXRhYmxlCmRhdGEgY2xhc3MgUm91dGVFbnRyeSgKICAgIHZhbCBpbnN0YW5jZUlkOiBTdHJpbmcgPSBVVUlELnJhbmRvbVVVSUQoKS50b1N0cmluZygpLAogICAgdmFsIHJvdXRlSWQ6IFN0cmluZywKICAgIHZhbCBhcmdzOiBNYXA8U3RyaW5nLCBBbnk/PiA9IGVtcHR5TWFwKCksCiAgICB2YWwgc291cmNlOiBSb3V0ZUVudHJ5U291cmNlID0gUm91dGVFbnRyeVNvdXJjZS5ERUZBVUxUCikKCkBJbW11dGFibGUKZGF0YSBjbGFzcyBOYXZpZ2F0aW9uRW50cnlTcGVjKAogICAgdmFsIGVudHJ5SWQ6IFN0cmluZywKICAgIHZhbCByb3V0ZUlkOiBTdHJpbmcsCiAgICB2YWwgc3VyZmFjZTogTmF2aWdhdGlvblN1cmZhY2UsCiAgICB2YWwgdGl0bGU6IFN0cmluZywKICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgaWNvbjogSW1hZ2VWZWN0b3IsCiAgICB2YWwgb3JkZXI6IEludCA9IDAsCiAgICB2YWwgcm91dGVBcmdzOiBNYXA8U3RyaW5nLCBBbnk/PiA9IGVtcHR5TWFwKCksCiAgICB2YWwgYWN0aW9uOiBOYXZpZ2F0aW9uRW50cnlBY3Rpb25TcGVjPyA9IG51bGwsCiAgICB2YWwga2luZDogTmF2aWdhdGlvbkVudHJ5S2luZCA9IE5hdmlnYXRpb25FbnRyeUtpbmQuSE9TVCwKICAgIHZhbCBvd25lclBhY2thZ2VOYW1lOiBTdHJpbmc/ID0gbnVsbAopCgpASW1tdXRhYmxlCmRhdGEgY2xhc3MgQXBwTmF2aWdhdGlvbk1vZGVsKAogICAgdmFsIHJvdXRlczogTGlzdDxSb3V0ZVNwZWM+LAogICAgdmFsIG5hdmlnYXRpb25FbnRyaWVzOiBMaXN0PE5hdmlnYXRpb25FbnRyeVNwZWM+CikgewogICAgdmFsIHJvdXRlc0J5SWQ6IE1hcDxTdHJpbmcsIFJvdXRlU3BlYz4gPSByb3V0ZXMuYXNzb2NpYXRlQnkoUm91dGVTcGVjOjpyb3V0ZUlkKQogICAgdmFsIG5hdmlnYXRpb25FbnRyaWVzQnlJZDogTWFwPFN0cmluZywgTmF2aWdhdGlvbkVudHJ5U3BlYz4gPQogICAgICAgIG5hdmlnYXRpb25FbnRyaWVzLmFzc29jaWF0ZUJ5KE5hdmlnYXRpb25FbnRyeVNwZWM6OmVudHJ5SWQpCn0KCkBTdGFibGUKY2xhc3MgQXBwUm91dGVyU3RhdGUoaW5pdGlhbEVudHJ5OiBSb3V0ZUVudHJ5KSB7CiAgICBwcml2YXRlIHZhbCBzdGFjayA9IG11dGFibGVTdGF0ZUxpc3RPZihpbml0aWFsRW50cnkpCiAgICB2YXIgY3VycmVudEVudHJ5IGJ5IG11dGFibGVTdGF0ZU9mKGluaXRpYWxFbnRyeSkKICAgICAgICBwcml2YXRlIHNldAoKICAgIHZhbCBiYWNrU3RhY2s6IExpc3Q8Um91dGVFbnRyeT4KICAgICAgICBnZXQoKSA9IHN0YWNrCgogICAgdmFsIGNhblBvcDogQm9vbGVhbgogICAgICAgIGdldCgpID0gc3RhY2suc2l6ZSA+IDEKCiAgICBmdW4gbmF2aWdhdGUoCiAgICAgICAgcm91dGVJZDogU3RyaW5nLAogICAgICAgIGFyZ3M6IE1hcDxTdHJpbmcsIEFueT8+ID0gZW1wdHlNYXAoKSwKICAgICAgICBzb3VyY2U6IFJvdXRlRW50cnlTb3VyY2UgPSBSb3V0ZUVudHJ5U291cmNlLkRFRkFVTFQsCiAgICAgICAgcm91dGVTcGVjOiBSb3V0ZVNwZWM/ID0gbnVsbAogICAgKTogUm91dGVFbnRyeSB7CiAgICAgICAgdmFsIGN1cnJlbnQgPSBjdXJyZW50RW50cnkKICAgICAgICBpZiAoCiAgICAgICAgICAgIHJvdXRlU3BlYz8ucmV1c2VPblRvcCAhPSBmYWxzZSAmJgogICAgICAgICAgICAgICAgY3VycmVudC5yb3V0ZUlkID09IHJvdXRlSWQgJiYKICAgICAgICAgICAgICAgIGN1cnJlbnQuYXJncyA9PSBhcmdzCiAgICAgICAgKSB7CiAgICAgICAgICAgIHJldHVybiBjdXJyZW50CiAgICAgICAgfQogICAgICAgIHZhbCBuZXh0RW50cnkgPSBSb3V0ZUVudHJ5KHJvdXRlSWQgPSByb3V0ZUlkLCBhcmdzID0gYXJncywgc291cmNlID0gc291cmNlKQogICAgICAgIHN0YWNrLmFkZChuZXh0RW50cnkpCiAgICAgICAgY3VycmVudEVudHJ5ID0gbmV4dEVudHJ5CiAgICAgICAgcmV0dXJuIG5leHRFbnRyeQogICAgfQoKICAgIGZ1biByZXNldFRvKGVudHJ5OiBSb3V0ZUVudHJ5KSB7CiAgICAgICAgc3RhY2suY2xlYXIoKQogICAgICAgIHN0YWNrLmFkZChlbnRyeSkKICAgICAgICBjdXJyZW50RW50cnkgPSBlbnRyeQogICAgfQoKICAgIGZ1biBwb3AoKTogUm91dGVFbnRyeT8gewogICAgICAgIGlmICghY2FuUG9wKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgICAgIHN0YWNrLnJlbW92ZUF0KHN0YWNrLmxhc3RJbmRleCkKICAgICAgICBjdXJyZW50RW50cnkgPSBzdGFjay5sYXN0KCkKICAgICAgICByZXR1cm4gY3VycmVudEVudHJ5CiAgICB9Cn0KCm9iamVjdCBBcHBSb3V0ZXJHYXRld2F5IHsKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgbmF2aWdhdGVIYW5kbGVyOiAoKFN0cmluZywgTWFwPFN0cmluZywgQW55Pz4sIFJvdXRlRW50cnlTb3VyY2UpIC0+IFVuaXQpPyA9IG51bGwKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgcmVzZXRIYW5kbGVyOiAoKFN0cmluZywgTWFwPFN0cmluZywgQW55Pz4sIFJvdXRlRW50cnlTb3VyY2UpIC0+IFVuaXQpPyA9IG51bGwKCiAgICBmdW4gaW5zdGFsbCgKICAgICAgICBoYW5kbGVyOiAoU3RyaW5nLCBNYXA8U3RyaW5nLCBBbnk/PiwgUm91dGVFbnRyeVNvdXJjZSkgLT4gVW5pdCwKICAgICAgICByZXNldDogKFN0cmluZywgTWFwPFN0cmluZywgQW55Pz4sIFJvdXRlRW50cnlTb3VyY2UpIC0+IFVuaXQKICAgICkgewogICAgICAgIG5hdmlnYXRlSGFuZGxlciA9IGhhbmRsZXIKICAgICAgICByZXNldEhhbmRsZXIgPSByZXNldAogICAgfQoKICAgIGZ1biBjbGVhcigpIHsKICAgICAgICBuYXZpZ2F0ZUhhbmRsZXIgPSBudWxsCiAgICAgICAgcmVzZXRIYW5kbGVyID0gbnVsbAogICAgfQoKICAgIGZ1biBuYXZpZ2F0ZSgKICAgICAgICByb3V0ZUlkOiBTdHJpbmcsCiAgICAgICAgYXJnczogTWFwPFN0cmluZywgQW55Pz4gPSBlbXB0eU1hcCgpLAogICAgICAgIHNvdXJjZTogUm91dGVFbnRyeVNvdXJjZSA9IFJvdXRlRW50cnlTb3VyY2UuU0NSSVBUCiAgICApIHsKICAgICAgICBuYXZpZ2F0ZUhhbmRsZXI/Lmludm9rZShyb3V0ZUlkLCBhcmdzLCBzb3VyY2UpCiAgICB9CgogICAgZnVuIHJlc2V0VG8oCiAgICAgICAgcm91dGVJZDogU3RyaW5nLAogICAgICAgIGFyZ3M6IE1hcDxTdHJpbmcsIEFueT8+ID0gZW1wdHlNYXAoKSwKICAgICAgICBzb3VyY2U6IFJvdXRlRW50cnlTb3VyY2UgPSBSb3V0ZUVudHJ5U291cmNlLlNDUklQVAogICAgKSB7CiAgICAgICAgcmVzZXRIYW5kbGVyPy5pbnZva2Uocm91dGVJZCwgYXJncywgc291cmNlKQogICAgfQp9CgpvYmplY3QgQXBwUm91dGVEaXNjb3ZlcnlHYXRld2F5IHsKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgcm91dGVzUHJvdmlkZXI6ICgoKSAtPiBMaXN0PFJvdXRlU3BlYz4pPyA9IG51bGwKCiAgICBmdW4gaW5zdGFsbChwcm92aWRlcjogKCkgLT4gTGlzdDxSb3V0ZVNwZWM+KSB7CiAgICAgICAgcm91dGVzUHJvdmlkZXIgPSBwcm92aWRlcgogICAgfQoKICAgIGZ1biBjbGVhcigpIHsKICAgICAgICByb3V0ZXNQcm92aWRlciA9IG51bGwKICAgIH0KCiAgICBmdW4gbGlzdFJvdXRlcygpOiBMaXN0PFJvdXRlU3BlYz4gewogICAgICAgIHJldHVybiByb3V0ZXNQcm92aWRlcj8uaW52b2tlKCkub3JFbXB0eSgpCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.main.navigation
+
+import androidx.compose.runtime.Immutable
+import androidx.compose.runtime.Stable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.graphics.vector.ImageVector
+import java.util.UUID
+
+enum class RouteRuntime {
+    NATIVE,
+    TOOLPKG_COMPOSE_DSL
+}
+
+enum class NavigationSurface {
+    MAIN_SIDEBAR_AI,
+    MAIN_SIDEBAR_TOOLS,
+    MAIN_SIDEBAR_PLUGINS,
+    MAIN_SIDEBAR_SYSTEM,
+    TOOLBOX
+}
+
+enum class NavigationEntryKind {
+    HOST,
+    PLUGIN
+}
+
+@Immutable
+data class NavigationEntryActionSpec(
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+enum class RouteEntrySource {
+    DEFAULT,
+    DRAWER,
+    SCRIPT
+}
+
+@Immutable
+data class RouteSpec(
+    val routeId: String,
+    val runtime: RouteRuntime,
+    val title: String? = null,
+    val icon: ImageVector? = null,
+    val ownerPackageName: String? = null,
+    val toolPkgUiModuleId: String? = null,
+    val keepAlive: Boolean = false,
+    val reuseOnTop: Boolean = true
+)
+
+@Immutable
+data class RouteEntry(
+    val instanceId: String = UUID.randomUUID().toString(),
+    val routeId: String,
+    val args: Map<String, Any?> = emptyMap(),
+    val source: RouteEntrySource = RouteEntrySource.DEFAULT
+)
+
+@Immutable
+data class NavigationEntrySpec(
+    val entryId: String,
+    val routeId: String,
+    val surface: NavigationSurface,
+    val title: String,
+    val description: String? = null,
+    val icon: ImageVector,
+    val order: Int = 0,
+    val routeArgs: Map<String, Any?> = emptyMap(),
+    val action: NavigationEntryActionSpec? = null,
+    val kind: NavigationEntryKind = NavigationEntryKind.HOST,
+    val ownerPackageName: String? = null
+)
+
+@Immutable
+data class AppNavigationModel(
+    val routes: List<RouteSpec>,
+    val navigationEntries: List<NavigationEntrySpec>
+) {
+    val routesById: Map<String, RouteSpec> = routes.associateBy(RouteSpec::routeId)
+    val navigationEntriesById: Map<String, NavigationEntrySpec> =
+        navigationEntries.associateBy(NavigationEntrySpec::entryId)
+}
+
+@Stable
+class AppRouterState(initialEntry: RouteEntry) {
+    private val stack = mutableStateListOf(initialEntry)
+    var currentEntry by mutableStateOf(initialEntry)
+        private set
+
+    val backStack: List<RouteEntry>
+        get() = stack
+
+    val canPop: Boolean
+        get() = stack.size > 1
+
+    fun navigate(
+        routeId: String,
+        args: Map<String, Any?> = emptyMap(),
+        source: RouteEntrySource = RouteEntrySource.DEFAULT,
+        routeSpec: RouteSpec? = null
+    ): RouteEntry {
+        val current = currentEntry
+        if (
+            routeSpec?.reuseOnTop != false &&
+                current.routeId == routeId &&
+                current.args == args
+        ) {
+            return current
+        }
+        val nextEntry = RouteEntry(routeId = routeId, args = args, source = source)
+        stack.add(nextEntry)
+        currentEntry = nextEntry
+        return nextEntry
+    }
+
+    fun resetTo(entry: RouteEntry) {
+        stack.clear()
+        stack.add(entry)
+        currentEntry = entry
+    }
+
+    fun pop(): RouteEntry? {
+        if (!canPop) {
+            return null
+        }
+        stack.removeAt(stack.lastIndex)
+        currentEntry = stack.last()
+        return currentEntry
+    }
+}
+
+object AppRouterGateway {
+    @Volatile
+    private var navigateHandler: ((String, Map<String, Any?>, RouteEntrySource) -> Unit)? = null
+    @Volatile
+    private var resetHandler: ((String, Map<String, Any?>, RouteEntrySource) -> Unit)? = null
+
+    fun install(
+        handler: (String, Map<String, Any?>, RouteEntrySource) -> Unit,
+        reset: (String, Map<String, Any?>, RouteEntrySource) -> Unit
+    ) {
+        navigateHandler = handler
+        resetHandler = reset
+    }
+
+    fun clear() {
+        navigateHandler = null
+        resetHandler = null
+    }
+
+    fun navigate(
+        routeId: String,
+        args: Map<String, Any?> = emptyMap(),
+        source: RouteEntrySource = RouteEntrySource.SCRIPT
+    ) {
+        navigateHandler?.invoke(routeId, args, source)
+    }
+
+    fun resetTo(
+        routeId: String,
+        args: Map<String, Any?> = emptyMap(),
+        source: RouteEntrySource = RouteEntrySource.SCRIPT
+    ) {
+        resetHandler?.invoke(routeId, args, source)
+    }
+}
+
+object AppRouteDiscoveryGateway {
+    @Volatile
+    private var routesProvider: (() -> List<RouteSpec>)? = null
+
+    fun install(provider: () -> List<RouteSpec>) {
+        routesProvider = provider
+    }
+
+    fun clear() {
+        routesProvider = null
+    }
+
+    fun listRoutes(): List<RouteSpec> {
+        return routesProvider?.invoke().orEmpty()
+    }
+}

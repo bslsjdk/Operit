@@ -1,1 +1,115 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucy5tY3AuY29tcG9uZW50cwoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5FeHBlcmltZW50YWxMYXlvdXRBcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Sb3VuZGVkQ29ybmVyU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkluZm8KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5zdHlsZS5UZXh0T3ZlcmZsb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS53aW5kb3cuRGlhbG9nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLndpbmRvdy5EaWFsb2dQcm9wZXJ0aWVzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgoKLyoqIE1DUOaPkuS7tumDqOe9suehruiupOWvueivneahhiDmj5Dkvpvnm7TmjqXpg6jnvbLlkozoh6rlrprkuYnpg6jnvbLkuKTkuKrpgInpobkgKi8KQENvbXBvc2FibGUKZnVuIE1DUERlcGxveUNvbmZpcm1EaWFsb2coCiAgICAgICAgcGx1Z2luTmFtZTogU3RyaW5nLAogICAgICAgIG9uRGlzbWlzc1JlcXVlc3Q6ICgpIC0+IFVuaXQsCiAgICAgICAgb25Db25maXJtOiAoKSAtPiBVbml0LAogICAgICAgIG9uQ3VzdG9taXplOiAoKSAtPiBVbml0CikgewogICAgRGlhbG9nKAogICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzUmVxdWVzdCwKICAgICAgICAgICAgcHJvcGVydGllcyA9IERpYWxvZ1Byb3BlcnRpZXMoZGlzbWlzc09uQmFja1ByZXNzID0gdHJ1ZSwgZGlzbWlzc09uQ2xpY2tPdXRzaWRlID0gdHJ1ZSkKICAgICkgewogICAgICAgIFN1cmZhY2UoCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLndyYXBDb250ZW50SGVpZ2h0KCksCiAgICAgICAgICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgxNi5kcCksCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZSwKICAgICAgICAgICAgICAgIHRvbmFsRWxldmF0aW9uID0gNi5kcAogICAgICAgICkgewogICAgICAgICAgICBDb2x1bW4obW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKS5wYWRkaW5nKDI0LmRwKSkgewogICAgICAgICAgICAgICAgLy8g5qCH6aKY5Yy65Z+fCiAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuSW5mbywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aW50ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDEyLmRwKSkKICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1jcF9kZXBsb3lfY29uZmlybV90aXRsZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZUxhcmdlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4TGluZXMgPSAxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKCiAgICAgICAgICAgICAgICAvLyDmj5Lku7blkI3np7Dlkozmj5DnpLrmlofmnKwKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tY3BfZGVwbG95aW5nX3BsdWdpbiwgcGx1Z2luTmFtZSksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlMYXJnZSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWNwX2RlcGxveV9jaG9pY2VfaGludCksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDI0LmRwKSkKCiAgICAgICAgICAgICAgICAvLyDlupXpg6jmjInpkq4KICAgICAgICAgICAgICAgIEBPcHRJbihFeHBlcmltZW50YWxMYXlvdXRBcGk6OmNsYXNzKQogICAgICAgICAgICAgICAgRmxvd1JvdygKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCwgQWxpZ25tZW50LkVuZCksCiAgICAgICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwLCBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIC8vIOWPlua2iOaMiemSrgogICAgICAgICAgICAgICAgICAgIFRleHRCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25EaXNtaXNzUmVxdWVzdCwKICAgICAgICAgICAgICAgICAgICApIHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tY3BfY2FuY2VsKSkgfQoKICAgICAgICAgICAgICAgICAgICAvLyDoh6rlrprkuYnmjInpkq4gLSDmlLnkuLpUZXh0QnV0dG9u5Lul6IqC55yB56m66Ze0CiAgICAgICAgICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5Y+q6LCD55So6Ieq5a6a5LmJ5Zue6LCD77yM55Sx5Li756iL5bqP6LSf6LSj5aSE55CG56Gu6K6k5a+56K+d5qGG55qE5YWz6ZetCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DdXN0b21pemUoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9ycyA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEJ1dHRvbkRlZmF1bHRzLnRleHRCdXR0b25Db2xvcnMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudENvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICApIHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tY3BfY3VzdG9tX2NvbW1hbmQpKSB9CgogICAgICAgICAgICAgICAgICAgIC8vIOmDqOe9suaMiemSrgogICAgICAgICAgICAgICAgICAgIEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25Db25maXJtKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0KCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBCdXR0b25EZWZhdWx0cy5idXR0b25Db2xvcnMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGFpbmVyQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICkgeyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1jcF9kaXJlY3RfZGVwbG95KSkgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.packages.screens.mcp.components
+
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Info
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import com.bslsjdk.operit.R
+
+/** MCP插件部署确认对话框 提供直接部署和自定义部署两个选项 */
+@Composable
+fun MCPDeployConfirmDialog(
+        pluginName: String,
+        onDismissRequest: () -> Unit,
+        onConfirm: () -> Unit,
+        onCustomize: () -> Unit
+) {
+    Dialog(
+            onDismissRequest = onDismissRequest,
+            properties = DialogProperties(dismissOnBackPress = true, dismissOnClickOutside = true)
+    ) {
+        Surface(
+                modifier = Modifier.fillMaxWidth().wrapContentHeight(),
+                shape = RoundedCornerShape(16.dp),
+                color = MaterialTheme.colorScheme.surface,
+                tonalElevation = 6.dp
+        ) {
+            Column(modifier = Modifier.fillMaxWidth().padding(24.dp)) {
+                // 标题区域
+                Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                            imageVector = Icons.Default.Info,
+                            contentDescription = null,
+                            tint = MaterialTheme.colorScheme.primary
+                    )
+                    Spacer(modifier = Modifier.width(12.dp))
+                    Text(
+                            text = stringResource(R.string.mcp_deploy_confirm_title),
+                            style = MaterialTheme.typography.titleLarge,
+                            maxLines = 1,
+                            overflow = TextOverflow.Ellipsis
+                    )
+                }
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                // 插件名称和提示文本
+                Text(
+                        text = stringResource(R.string.mcp_deploying_plugin, pluginName),
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onSurface
+                )
+
+                Spacer(modifier = Modifier.height(8.dp))
+
+                Text(
+                        text = stringResource(R.string.mcp_deploy_choice_hint),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+
+                Spacer(modifier = Modifier.height(24.dp))
+
+                // 底部按钮
+                @OptIn(ExperimentalLayoutApi::class)
+                FlowRow(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End),
+                        verticalArrangement = Arrangement.spacedBy(8.dp, Alignment.CenterVertically)
+                ) {
+                    // 取消按钮
+                    TextButton(
+                            onClick = onDismissRequest,
+                    ) { Text(stringResource(R.string.mcp_cancel)) }
+
+                    // 自定义按钮 - 改为TextButton以节省空间
+                    TextButton(
+                            onClick = {
+                                // 只调用自定义回调，由主程序负责处理确认对话框的关闭
+                                onCustomize()
+                            },
+                            colors =
+                                    ButtonDefaults.textButtonColors(
+                                            contentColor = MaterialTheme.colorScheme.primary
+                                    )
+                    ) { Text(stringResource(R.string.mcp_custom_command)) }
+
+                    // 部署按钮
+                    Button(
+                            onClick = {
+                                onConfirm()
+                                onDismissRequest()
+                            },
+                            colors =
+                                    ButtonDefaults.buttonColors(
+                                            containerColor = MaterialTheme.colorScheme.primary
+                                    )
+                    ) { Text(stringResource(R.string.mcp_direct_deploy)) }
+                }
+            }
+        }
+    }
+}

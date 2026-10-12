@@ -1,1 +1,64 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hcHBsaWNhdGlvbgoKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbgppbXBvcnQgYW5kcm9pZC5hcHAuU2VydmljZQppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLlNlcnZpY2VJbmZvCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKCm9iamVjdCBGb3JlZ3JvdW5kU2VydmljZUNvbXBhdCB7CiAgICBmdW4gYnVpbGRUeXBlcygKICAgICAgICBkYXRhU3luYzogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgc3BlY2lhbFVzZTogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIG1pY3JvcGhvbmU6IEJvb2xlYW4gPSBmYWxzZQogICAgKTogSW50IHsKICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UIDwgQnVpbGQuVkVSU0lPTl9DT0RFUy5RKSByZXR1cm4gMAoKICAgICAgICB2YXIgdHlwZXMgPSAwCiAgICAgICAgaWYgKGRhdGFTeW5jKSB7CiAgICAgICAgICAgIHR5cGVzID0gdHlwZXMgb3IgU2VydmljZUluZm8uRk9SRUdST1VORF9TRVJWSUNFX1RZUEVfREFUQV9TWU5DCiAgICAgICAgfQogICAgICAgIGlmIChtaWNyb3Bob25lKSB7CiAgICAgICAgICAgIHR5cGVzID0gdHlwZXMgb3IgU2VydmljZUluZm8uRk9SRUdST1VORF9TRVJWSUNFX1RZUEVfTUlDUk9QSE9ORQogICAgICAgIH0KICAgICAgICBpZiAoc3BlY2lhbFVzZSAmJiBCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5VUFNJREVfRE9XTl9DQUtFKSB7CiAgICAgICAgICAgIHR5cGVzID0gdHlwZXMgb3IgU2VydmljZUluZm8uRk9SRUdST1VORF9TRVJWSUNFX1RZUEVfU1BFQ0lBTF9VU0UKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHR5cGVzCiAgICB9CgogICAgZnVuIHN0YXJ0Rm9yZWdyb3VuZChzZXJ2aWNlOiBTZXJ2aWNlLCBub3RpZmljYXRpb25JZDogSW50LCBub3RpZmljYXRpb246IE5vdGlmaWNhdGlvbiwgdHlwZXM6IEludCkgewogICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5RICYmIHR5cGVzICE9IDApIHsKICAgICAgICAgICAgc2VydmljZS5zdGFydEZvcmVncm91bmQobm90aWZpY2F0aW9uSWQsIG5vdGlmaWNhdGlvbiwgdHlwZXMpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc2VydmljZS5zdGFydEZvcmVncm91bmQobm90aWZpY2F0aW9uSWQsIG5vdGlmaWNhdGlvbikKICAgICAgICB9CiAgICB9CgogICAgZnVuIHN0YXJ0Rm9yZWdyb3VuZFdpdGhGYWxsYmFjaygKICAgICAgICBzZXJ2aWNlOiBTZXJ2aWNlLAogICAgICAgIG5vdGlmaWNhdGlvbklkOiBJbnQsCiAgICAgICAgbm90aWZpY2F0aW9uOiBOb3RpZmljYXRpb24sCiAgICAgICAgcHJpbWFyeVR5cGVzOiBJbnQsCiAgICAgICAgZmFsbGJhY2tUeXBlczogSW50LAogICAgICAgIGxvZ1RhZzogU3RyaW5nLAogICAgICAgIGxvZ01lc3NhZ2U6IFN0cmluZwogICAgKSB7CiAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLlEgJiYgcHJpbWFyeVR5cGVzICE9IDApIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHNlcnZpY2Uuc3RhcnRGb3JlZ3JvdW5kKG5vdGlmaWNhdGlvbklkLCBub3RpZmljYXRpb24sIHByaW1hcnlUeXBlcykKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9IGNhdGNoIChlOiBTZWN1cml0eUV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncobG9nVGFnLCBsb2dNZXNzYWdlLCBlKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoZmFsbGJhY2tUeXBlcyAhPSAwKSB7CiAgICAgICAgICAgICAgICBzdGFydEZvcmVncm91bmQoc2VydmljZSwgbm90aWZpY2F0aW9uSWQsIG5vdGlmaWNhdGlvbiwgZmFsbGJhY2tUeXBlcykKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHNlcnZpY2Uuc3RhcnRGb3JlZ3JvdW5kKG5vdGlmaWNhdGlvbklkLCBub3RpZmljYXRpb24pCiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBzZXJ2aWNlLnN0YXJ0Rm9yZWdyb3VuZChub3RpZmljYXRpb25JZCwgbm90aWZpY2F0aW9uKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.application
+
+import android.app.Notification
+import android.app.Service
+import android.content.pm.ServiceInfo
+import android.os.Build
+import com.bslsjdk.operit.util.AppLogger
+
+object ForegroundServiceCompat {
+    fun buildTypes(
+        dataSync: Boolean = true,
+        specialUse: Boolean = false,
+        microphone: Boolean = false
+    ): Int {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q) return 0
+
+        var types = 0
+        if (dataSync) {
+            types = types or ServiceInfo.FOREGROUND_SERVICE_TYPE_DATA_SYNC
+        }
+        if (microphone) {
+            types = types or ServiceInfo.FOREGROUND_SERVICE_TYPE_MICROPHONE
+        }
+        if (specialUse && Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+            types = types or ServiceInfo.FOREGROUND_SERVICE_TYPE_SPECIAL_USE
+        }
+        return types
+    }
+
+    fun startForeground(service: Service, notificationId: Int, notification: Notification, types: Int) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q && types != 0) {
+            service.startForeground(notificationId, notification, types)
+        } else {
+            service.startForeground(notificationId, notification)
+        }
+    }
+
+    fun startForegroundWithFallback(
+        service: Service,
+        notificationId: Int,
+        notification: Notification,
+        primaryTypes: Int,
+        fallbackTypes: Int,
+        logTag: String,
+        logMessage: String
+    ) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q && primaryTypes != 0) {
+            try {
+                service.startForeground(notificationId, notification, primaryTypes)
+                return
+            } catch (e: SecurityException) {
+                AppLogger.w(logTag, logMessage, e)
+            }
+
+            if (fallbackTypes != 0) {
+                startForeground(service, notificationId, notification, fallbackTypes)
+            } else {
+                service.startForeground(notificationId, notification)
+            }
+        } else {
+            service.startForeground(notificationId, notification)
+        }
+    }
+}

@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ2hhdFV0aWxzVGhpbmtpbmdFZGdlVGVzdCB7CgogICAgQFRlc3QgZnVuIHJlbW92ZVRoaW5raW5nQ29udGVudF9oYW5kbGVzVGhpbmtpbmdUYWdWYXJpYW50KCkgewogICAgICAgIGFzc2VydEVxdWFscygiYW5zd2VyIiwgQ2hhdFV0aWxzLnJlbW92ZVRoaW5raW5nQ29udGVudCgiPHRoaW5raW5nPng8L3RoaW5raW5nPmFuc3dlciIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0VGhpbmtpbmdDb250ZW50X2hhbmRsZXNOb1NlYXJjaFRhZygpIHsKICAgICAgICB2YWwgcmVzdWx0ID0gQ2hhdFV0aWxzLmV4dHJhY3RUaGlua2luZ0NvbnRlbnQoIjx0aGluaz54PC90aGluaz4iKQogICAgICAgIGFzc2VydEVxdWFscygiIiwgcmVzdWx0LmZpcnN0KQogICAgICAgIGFzc2VydEVxdWFscygieCIsIHJlc3VsdC5zZWNvbmQpCiAgICB9CgogICAgQFRlc3QgZnVuIHJlbW92ZVRoaW5raW5nQ29udGVudF9oYW5kbGVzU2VhcmNoT25seUNvbnRlbnQoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCBDaGF0VXRpbHMucmVtb3ZlVGhpbmtpbmdDb250ZW50KCI8c2VhcmNoPng8L3NlYXJjaD4iKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class ChatUtilsThinkingEdgeTest {
+
+    @Test fun removeThinkingContent_handlesThinkingTagVariant() {
+        assertEquals("answer", ChatUtils.removeThinkingContent("<thinking>x</thinking>answer"))
+    }
+
+    @Test fun extractThinkingContent_handlesNoSearchTag() {
+        val result = ChatUtils.extractThinkingContent("<think>x</think>")
+        assertEquals("", result.first)
+        assertEquals("x", result.second)
+    }
+
+    @Test fun removeThinkingContent_handlesSearchOnlyContent() {
+        assertEquals("", ChatUtils.removeThinkingContent("<search>x</search>"))
+    }
+}

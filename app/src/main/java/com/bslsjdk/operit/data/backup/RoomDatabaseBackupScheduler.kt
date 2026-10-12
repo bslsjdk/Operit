@@ -1,1 +1,71 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5iYWNrdXAKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZHgud29yay5Db25zdHJhaW50cwppbXBvcnQgYW5kcm9pZHgud29yay5FeGlzdGluZ1BlcmlvZGljV29ya1BvbGljeQppbXBvcnQgYW5kcm9pZHgud29yay5FeGlzdGluZ1dvcmtQb2xpY3kKaW1wb3J0IGFuZHJvaWR4LndvcmsuT25lVGltZVdvcmtSZXF1ZXN0QnVpbGRlcgppbXBvcnQgYW5kcm9pZHgud29yay5QZXJpb2RpY1dvcmtSZXF1ZXN0QnVpbGRlcgppbXBvcnQgYW5kcm9pZHgud29yay5Xb3JrTWFuYWdlcgppbXBvcnQgYW5kcm9pZHgud29yay53b3JrRGF0YU9mCmltcG9ydCBqYXZhLnRpbWUuRHVyYXRpb24KaW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGVUaW1lCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5UaW1lVW5pdAoKb2JqZWN0IFJvb21EYXRhYmFzZUJhY2t1cFNjaGVkdWxlciB7CgogICAgcHJpdmF0ZSBjb25zdCB2YWwgVU5JUVVFX1BFUklPRElDX1dPUktfTkFNRSA9ICJyb29tX2RiX2RhaWx5X2JhY2t1cCIKICAgIHByaXZhdGUgY29uc3QgdmFsIFVOSVFVRV9PTkVfVElNRV9XT1JLX05BTUUgPSAicm9vbV9kYl9tYW51YWxfYmFja3VwIgoKICAgIGZ1biBlbnN1cmVTY2hlZHVsZWQoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIHZhbCBjb25zdHJhaW50cyA9IENvbnN0cmFpbnRzLkJ1aWxkZXIoKQogICAgICAgICAgICAuc2V0UmVxdWlyZXNTdG9yYWdlTm90TG93KHRydWUpCiAgICAgICAgICAgIC5idWlsZCgpCgogICAgICAgIHZhbCBpbml0aWFsRGVsYXlNcyA9IGNhbGN1bGF0ZUluaXRpYWxEZWxheVRvSG91cigzKQoKICAgICAgICB2YWwgcmVxdWVzdCA9IFBlcmlvZGljV29ya1JlcXVlc3RCdWlsZGVyPFJvb21EYXRhYmFzZUJhY2t1cFdvcmtlcj4oMjQsIFRpbWVVbml0LkhPVVJTKQogICAgICAgICAgICAuc2V0Q29uc3RyYWludHMoY29uc3RyYWludHMpCiAgICAgICAgICAgIC5zZXRJbml0aWFsRGVsYXkoaW5pdGlhbERlbGF5TXMsIFRpbWVVbml0Lk1JTExJU0VDT05EUykKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgV29ya01hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgIC5lbnF1ZXVlVW5pcXVlUGVyaW9kaWNXb3JrKAogICAgICAgICAgICAgICAgVU5JUVVFX1BFUklPRElDX1dPUktfTkFNRSwKICAgICAgICAgICAgICAgIEV4aXN0aW5nUGVyaW9kaWNXb3JrUG9saWN5LlVQREFURSwKICAgICAgICAgICAgICAgIHJlcXVlc3QKICAgICAgICAgICAgKQogICAgfQoKICAgIGZ1biBjYW5jZWxTY2hlZHVsZWQoY29udGV4dDogQ29udGV4dCkgewogICAgICAgIFdvcmtNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KQogICAgICAgICAgICAuY2FuY2VsVW5pcXVlV29yayhVTklRVUVfUEVSSU9ESUNfV09SS19OQU1FKQogICAgfQoKICAgIGZ1biBlbnF1ZXVlTWFudWFsQmFja3VwKGNvbnRleHQ6IENvbnRleHQsIGZvcmNlOiBCb29sZWFuKSB7CiAgICAgICAgdmFsIGNvbnN0cmFpbnRzID0gQ29uc3RyYWludHMuQnVpbGRlcigpCiAgICAgICAgICAgIC5zZXRSZXF1aXJlc1N0b3JhZ2VOb3RMb3codHJ1ZSkKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgdmFsIHJlcXVlc3QgPSBPbmVUaW1lV29ya1JlcXVlc3RCdWlsZGVyPFJvb21EYXRhYmFzZUJhY2t1cFdvcmtlcj4oKQogICAgICAgICAgICAuc2V0Q29uc3RyYWludHMoY29uc3RyYWludHMpCiAgICAgICAgICAgIC5zZXRJbnB1dERhdGEod29ya0RhdGFPZihSb29tRGF0YWJhc2VCYWNrdXBXb3JrZXIuS0VZX0ZPUkNFIHRvIGZvcmNlKSkKICAgICAgICAgICAgLmJ1aWxkKCkKCiAgICAgICAgV29ya01hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgIC5lbnF1ZXVlVW5pcXVlV29yaygKICAgICAgICAgICAgICAgIFVOSVFVRV9PTkVfVElNRV9XT1JLX05BTUUsCiAgICAgICAgICAgICAgICBFeGlzdGluZ1dvcmtQb2xpY3kuUkVQTEFDRSwKICAgICAgICAgICAgICAgIHJlcXVlc3QKICAgICAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNhbGN1bGF0ZUluaXRpYWxEZWxheVRvSG91cih0YXJnZXRIb3VyOiBJbnQpOiBMb25nIHsKICAgICAgICB2YWwgbm93ID0gTG9jYWxEYXRlVGltZS5ub3coKQogICAgICAgIHZhciBuZXh0ID0gbm93LndpdGhIb3VyKHRhcmdldEhvdXIpLndpdGhNaW51dGUoMCkud2l0aFNlY29uZCgwKS53aXRoTmFubygwKQogICAgICAgIGlmICghbmV4dC5pc0FmdGVyKG5vdykpIHsKICAgICAgICAgICAgbmV4dCA9IG5leHQucGx1c0RheXMoMSkKICAgICAgICB9CiAgICAgICAgcmV0dXJuIER1cmF0aW9uLmJldHdlZW4obm93LCBuZXh0KS50b01pbGxpcygpLmNvZXJjZUF0TGVhc3QoMCkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.backup
+
+import android.content.Context
+import androidx.work.Constraints
+import androidx.work.ExistingPeriodicWorkPolicy
+import androidx.work.ExistingWorkPolicy
+import androidx.work.OneTimeWorkRequestBuilder
+import androidx.work.PeriodicWorkRequestBuilder
+import androidx.work.WorkManager
+import androidx.work.workDataOf
+import java.time.Duration
+import java.time.LocalDateTime
+import java.util.concurrent.TimeUnit
+
+object RoomDatabaseBackupScheduler {
+
+    private const val UNIQUE_PERIODIC_WORK_NAME = "room_db_daily_backup"
+    private const val UNIQUE_ONE_TIME_WORK_NAME = "room_db_manual_backup"
+
+    fun ensureScheduled(context: Context) {
+        val constraints = Constraints.Builder()
+            .setRequiresStorageNotLow(true)
+            .build()
+
+        val initialDelayMs = calculateInitialDelayToHour(3)
+
+        val request = PeriodicWorkRequestBuilder<RoomDatabaseBackupWorker>(24, TimeUnit.HOURS)
+            .setConstraints(constraints)
+            .setInitialDelay(initialDelayMs, TimeUnit.MILLISECONDS)
+            .build()
+
+        WorkManager.getInstance(context.applicationContext)
+            .enqueueUniquePeriodicWork(
+                UNIQUE_PERIODIC_WORK_NAME,
+                ExistingPeriodicWorkPolicy.UPDATE,
+                request
+            )
+    }
+
+    fun cancelScheduled(context: Context) {
+        WorkManager.getInstance(context.applicationContext)
+            .cancelUniqueWork(UNIQUE_PERIODIC_WORK_NAME)
+    }
+
+    fun enqueueManualBackup(context: Context, force: Boolean) {
+        val constraints = Constraints.Builder()
+            .setRequiresStorageNotLow(true)
+            .build()
+
+        val request = OneTimeWorkRequestBuilder<RoomDatabaseBackupWorker>()
+            .setConstraints(constraints)
+            .setInputData(workDataOf(RoomDatabaseBackupWorker.KEY_FORCE to force))
+            .build()
+
+        WorkManager.getInstance(context.applicationContext)
+            .enqueueUniqueWork(
+                UNIQUE_ONE_TIME_WORK_NAME,
+                ExistingWorkPolicy.REPLACE,
+                request
+            )
+    }
+
+    private fun calculateInitialDelayToHour(targetHour: Int): Long {
+        val now = LocalDateTime.now()
+        var next = now.withHour(targetHour).withMinute(0).withSecond(0).withNano(0)
+        if (!next.isAfter(now)) {
+            next = next.plusDays(1)
+        }
+        return Duration.between(now, next).toMillis().coerceAtLeast(0)
+    }
+}

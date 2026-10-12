@@ -1,1 +1,301 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZXJyb3IKCmltcG9ydCBhbmRyb2lkLmFwcC5BY3Rpdml0eQppbXBvcnQgYW5kcm9pZC5hcHAuQWxhcm1NYW5hZ2VyCmltcG9ydCBhbmRyb2lkLmFwcC5QZW5kaW5nSW50ZW50CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ2xpcERhdGEKaW1wb3J0IGFuZHJvaWQuY29udGVudC5DbGlwYm9hcmRNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZC5vcy5CdW5kbGUKaW1wb3J0IGFuZHJvaWQub3MuRW52aXJvbm1lbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQ3Jhc2hSZWNvdmVyeVN0YXRlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5UaHJvd2FibGVUZXh0Rm9ybWF0dGVyCmltcG9ydCBhbmRyb2lkLndpZGdldC5Ub2FzdAppbXBvcnQgYW5kcm9pZHguYWN0aXZpdHkuQ29tcG9uZW50QWN0aXZpdHkKaW1wb3J0IGFuZHJvaWR4LmFjdGl2aXR5LmNvbXBvc2Uuc2V0Q29udGVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ucmVtZW1iZXJTY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnRleHQuc2VsZWN0aW9uLlNlbGVjdGlvbkNvbnRhaW5lcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnZlcnRpY2FsU2Nyb2xsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5Db250ZW50Q29weQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRGVzY3JpcHRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlJlc3RhcnRBbHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLlNhdmUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXJDb3JvdXRpbmVTY29wZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250RmFtaWx5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuc3R5bGUuVGV4dEFsaWduCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLk9wZXJpdFV0aWxpdHlUaGVtZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnRvb2xib3guc2NyZWVucy5sb2djYXQuTG9nY2F0RXhwb3J0SGVscGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5NYWluQWN0aXZpdHkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlT3V0cHV0U3RyZWFtCmltcG9ydCBqYXZhLm5pby5jaGFyc2V0LlN0YW5kYXJkQ2hhcnNldHMKaW1wb3J0IGphdmEudGV4dC5TaW1wbGVEYXRlRm9ybWF0CmltcG9ydCBqYXZhLnV0aWwuRGF0ZQppbXBvcnQgamF2YS51dGlsLkxvY2FsZQoKY2xhc3MgQ3Jhc2hSZXBvcnRBY3Rpdml0eSA6IENvbXBvbmVudEFjdGl2aXR5KCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGNvbnN0IHZhbCBFWFRSQV9TVEFDS19UUkFDRSA9ICJleHRyYV9zdGFja190cmFjZSIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBNQVhfQ1JBU0hfUkVQT1JUX0NIQVJTID0gMjRfMDAwCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSkKICAgICAgICBDcmFzaFJlY292ZXJ5U3RhdGUuY29uc3VtZVBlbmRpbmdDcmFzaFJlcG9ydExhdW5jaCh0aGlzKQogICAgICAgIHZhbCBzdGFja1RyYWNlID0gVGhyb3dhYmxlVGV4dEZvcm1hdHRlci50cnVuY2F0ZVRleHQoCiAgICAgICAgICAgIGludGVudC5nZXRTdHJpbmdFeHRyYShFWFRSQV9TVEFDS19UUkFDRSkgPzogIk5vIHN0YWNrIHRyYWNlIGF2YWlsYWJsZS4iLAogICAgICAgICAgICBNQVhfQ1JBU0hfUkVQT1JUX0NIQVJTCiAgICAgICAgKQoKICAgICAgICBBcHBMb2dnZXIuZSgiQ3Jhc2hSZXBvcnRBY3Rpdml0eSIsICJEaXNwbGF5aW5nIGNyYXNoIHJlcG9ydCwgY2hhcnM9JHtzdGFja1RyYWNlLmxlbmd0aH0iKQogICAgICAgIEFwcExvZ2dlci5lKCJDcmFzaFJlcG9ydEFjdGl2aXR5IiwgIlN0YWNrIHRyYWNlOlxuJHN0YWNrVHJhY2UiKQogICAgICAgIHNldENvbnRlbnQgeyBPcGVyaXRVdGlsaXR5VGhlbWUgeyBDcmFzaFJlcG9ydFNjcmVlbihzdGFja1RyYWNlID0gc3RhY2tUcmFjZSkgfSB9CiAgICB9Cn0KCkBPcHRJbihFeHBlcmltZW50YWxNYXRlcmlhbDNBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gQ3Jhc2hSZXBvcnRTY3JlZW4oc3RhY2tUcmFjZTogU3RyaW5nKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgY29yb3V0aW5lU2NvcGUgPSByZW1lbWJlckNvcm91dGluZVNjb3BlKCkKICAgIHZhciBpc0V4cG9ydGluZ0xvZ3MgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQogICAgdmFyIGxvZ0V4cG9ydE1lc3NhZ2UgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZjxTdHJpbmc/PihudWxsKSB9CiAgICB2YXIgbG9nRXhwb3J0U3VjY2VzcyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mPEJvb2xlYW4/PihudWxsKSB9CgogICAgU2NhZmZvbGQoCiAgICAgICAgICAgIHRvcEJhciA9IHsKICAgICAgICAgICAgICAgIFRvcEFwcEJhcigKICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy50aXRsZV9hY3Rpdml0eV9jcmFzaF9yZXBvcnQpKSB9LAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBUb3BBcHBCYXJEZWZhdWx0cy50b3BBcHBCYXJDb2xvcnMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250YWluZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3JDb250YWluZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aXRsZUNvbnRlbnRDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25FcnJvckNvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGNvbnRlbnQgPSB7IHBhZGRpbmdWYWx1ZXMgLT4KICAgICAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKHBhZGRpbmdWYWx1ZXMpCiAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKDE2LmRwKSwKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy5jcmFzaF9yZXBvcnRfaGVhZGVyKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keUxhcmdlLAogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0QWxpZ24gPSBUZXh0QWxpZ24uQ2VudGVyCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgyNC5kcCkpCgogICAgICAgICAgICAgICAgICAgIC8vIOS4u+imgeaTjeS9nOaMiemSrgogICAgICAgICAgICAgICAgICAgIEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgcmVzdGFydEFwcChjb250ZXh0KSB9LAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBCdXR0b25EZWZhdWx0cy5idXR0b25Db2xvcnMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250YWluZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuUmVzdGFydEFsdCwgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKEJ1dHRvbkRlZmF1bHRzLkljb25TaXplKSkKICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKE1vZGlmaWVyLnNpemUoQnV0dG9uRGVmYXVsdHMuSWNvblNwYWNpbmcpKQogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcuY3Jhc2hfcmVwb3J0X3Jlc3RhcnRfYnV0dG9uKSkKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgxNi5kcCkpCgogICAgICAgICAgICAgICAgICAgIC8vIOasoeimgeaTjeS9nOaMiemSrgogICAgICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTYuZHApCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIE91dGxpbmVkQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb3B5VG9DbGlwYm9hcmQoY29udGV4dCwgc3RhY2tUcmFjZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuQ29udGVudENvcHksIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZShCdXR0b25EZWZhdWx0cy5JY29uU2l6ZSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuc2l6ZShCdXR0b25EZWZhdWx0cy5JY29uU3BhY2luZykpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcuY3Jhc2hfcmVwb3J0X2NvcHlfYnV0dG9uKSkKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgT3V0bGluZWRCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvcm91dGluZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cG9ydFRvRmlsZShjb250ZXh0LCBzdGFja1RyYWNlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuU2F2ZSwgY29udGVudERlc2NyaXB0aW9uID0gbnVsbCwgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKEJ1dHRvbkRlZmF1bHRzLkljb25TaXplKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYWNlcihNb2RpZmllci5zaXplKEJ1dHRvbkRlZmF1bHRzLkljb25TcGFjaW5nKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy5jcmFzaF9yZXBvcnRfZXhwb3J0X2J1dHRvbikpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgxMi5kcCkpCgogICAgICAgICAgICAgICAgICAgIE91dGxpbmVkQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc0V4cG9ydGluZ0xvZ3MgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9nRXhwb3J0TWVzc2FnZSA9IG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2dFeHBvcnRTdWNjZXNzID0gbnVsbAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPSBMb2djYXRFeHBvcnRIZWxwZXIuZXhwb3J0TG9ncyhjb250ZXh0KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2dFeHBvcnRNZXNzYWdlID0gcmVzdWx0Lm1lc3NhZ2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbG9nRXhwb3J0U3VjY2VzcyA9IHJlc3VsdC5zdWNjZXNzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNFeHBvcnRpbmdMb2dzID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIGVuYWJsZWQgPSAhaXNFeHBvcnRpbmdMb2dzLAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0V4cG9ydGluZ0xvZ3MpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIENpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKEJ1dHRvbkRlZmF1bHRzLkljb25TaXplKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCA9IDIuZHAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSWNvbnMuRGVmYXVsdC5EZXNjcmlwdGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZShCdXR0b25EZWZhdWx0cy5JY29uU2l6ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBTcGFjZXIoTW9kaWZpZXIuc2l6ZShCdXR0b25EZWZhdWx0cy5JY29uU3BhY2luZykpCiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy5jcmFzaF9yZXBvcnRfZXhwb3J0X2xvZ3NfYnV0dG9uKSkKICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGlmIChsb2dFeHBvcnRNZXNzYWdlICE9IG51bGwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDEyLmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgQ2FyZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBDYXJkRGVmYXVsdHMuY2FyZENvbG9ycygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250YWluZXJDb2xvciA9IGlmIChsb2dFeHBvcnRTdWNjZXNzID09IHRydWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5Q29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvckNvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTZWxlY3Rpb25Db250YWluZXIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBsb2dFeHBvcnRNZXNzYWdlLm9yRW1wdHkoKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKDEyLmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250RmFtaWx5ID0gRm9udEZhbWlseS5Nb25vc3BhY2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBpZiAobG9nRXhwb3J0U3VjY2VzcyA9PSB0cnVlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uUHJpbWFyeUNvbnRhaW5lcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vbkVycm9yQ29udGFpbmVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgyNC5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy5jcmFzaF9yZXBvcnRfZGV0YWlsc190aXRsZSksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTWVkaXVtCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCg4LmRwKSkKICAgICAgICAgICAgICAgICAgICBDYXJkKAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLndlaWdodCgxZiksCiAgICAgICAgICAgICAgICAgICAgICAgIHNoYXBlID0gUm91bmRlZENvcm5lclNoYXBlKDguZHApLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBDYXJkRGVmYXVsdHMuY2FyZENvbG9ycygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RhY2tUcmFjZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC52ZXJ0aWNhbFNjcm9sbChyZW1lbWJlclNjcm9sbFN0YXRlKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoMTIuZHApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udEZhbWlseSA9IEZvbnRGYW1pbHkuTW9ub3NwYWNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxpbmVIZWlnaHQgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLmxpbmVIZWlnaHQgKiAxLjIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICApCn0KCnByaXZhdGUgZnVuIGNvcHlUb0NsaXBib2FyZChjb250ZXh0OiBDb250ZXh0LCB0ZXh0OiBTdHJpbmcpIHsKICAgIHZhbCBjbGlwYm9hcmQgPSBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoQ29udGV4dC5DTElQQk9BUkRfU0VSVklDRSkgYXMgQ2xpcGJvYXJkTWFuYWdlcgogICAgdmFsIGNsaXAgPSBDbGlwRGF0YS5uZXdQbGFpblRleHQoImVycm9yX3N0YWNrX3RyYWNlIiwgdGV4dCkKICAgIGNsaXBib2FyZC5zZXRQcmltYXJ5Q2xpcChjbGlwKQogICAgVG9hc3QubWFrZVRleHQoY29udGV4dCwgUi5zdHJpbmcuY3Jhc2hfcmVwb3J0X2NvcHlfc3VjY2VzcywgVG9hc3QuTEVOR1RIX1NIT1JUKS5zaG93KCkKfQoKcHJpdmF0ZSBmdW4gZXhwb3J0VG9GaWxlKGNvbnRleHQ6IENvbnRleHQsIHRleHQ6IFN0cmluZykgewogICAgdHJ5IHsKICAgICAgICB2YWwgZG93bmxvYWRzRGlyID0gRW52aXJvbm1lbnQuZ2V0RXh0ZXJuYWxTdG9yYWdlUHVibGljRGlyZWN0b3J5KEVudmlyb25tZW50LkRJUkVDVE9SWV9ET1dOTE9BRFMpCiAgICAgICAgdmFsIGVycm9yRGlyID0gRmlsZShkb3dubG9hZHNEaXIsICJPcGVyaXQvZXJyb3IiKQogICAgICAgIGlmICghZXJyb3JEaXIuZXhpc3RzKCkpIHsKICAgICAgICAgICAgZXJyb3JEaXIubWtkaXJzKCkKICAgICAgICB9CgogICAgICAgIHZhbCB0aW1lc3RhbXAgPSBTaW1wbGVEYXRlRm9ybWF0KCJ5eXl5LU1NLWRkX0hILW1tLXNzIiwgTG9jYWxlLlVTKS5mb3JtYXQoRGF0ZSgpKQogICAgICAgIHZhbCBmaWxlID0gRmlsZShlcnJvckRpciwgImVycm9yLXJlcG9ydC0kdGltZXN0YW1wLmxvZyIpCgogICAgICAgIEZpbGVPdXRwdXRTdHJlYW0oZmlsZSkudXNlIHsKICAgICAgICAgICAgaXQud3JpdGUodGV4dC50b0J5dGVBcnJheShTdGFuZGFyZENoYXJzZXRzLlVURl84KSkKICAgICAgICB9CiAgICAgICAgdmFsIHN1Y2Nlc3NNc2cgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jcmFzaF9yZXBvcnRfZXhwb3J0X3N1Y2Nlc3MsIGZpbGUuYWJzb2x1dGVQYXRoKQogICAgICAgIFRvYXN0Lm1ha2VUZXh0KGNvbnRleHQsIHN1Y2Nlc3NNc2csIFRvYXN0LkxFTkdUSF9MT05HKS5zaG93KCkKCiAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICB2YWwgZXJyb3JNc2cgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jcmFzaF9yZXBvcnRfZXhwb3J0X2ZhaWxlZCwgZS5sb2NhbGl6ZWRNZXNzYWdlKQogICAgICAgIFRvYXN0Lm1ha2VUZXh0KGNvbnRleHQsIGVycm9yTXNnLCBUb2FzdC5MRU5HVEhfTE9ORykuc2hvdygpCiAgICAgICAgQXBwTG9nZ2VyLmUoIkNyYXNoUmVwb3J0QWN0aXZpdHkiLCAiRmFpbGVkIHRvIGV4cG9ydCBjcmFzaCByZXBvcnQiLCBlKQogICAgfQp9Cgpwcml2YXRlIGZ1biByZXN0YXJ0QXBwKGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHZhbCBpbnRlbnQgPSBjb250ZXh0LnBhY2thZ2VNYW5hZ2VyLmdldExhdW5jaEludGVudEZvclBhY2thZ2UoY29udGV4dC5wYWNrYWdlTmFtZSkKICAgICAgICA/OiBJbnRlbnQoY29udGV4dCwgTWFpbkFjdGl2aXR5OjpjbGFzcy5qYXZhKQogICAgaW50ZW50LmFkZEZsYWdzKEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLIG9yIEludGVudC5GTEFHX0FDVElWSVRZX0NMRUFSX1RBU0spCgogICAgdmFsIGZsYWdzID0gUGVuZGluZ0ludGVudC5GTEFHX0NBTkNFTF9DVVJSRU5UIG9yCiAgICAgICAgKGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5NKSBQZW5kaW5nSW50ZW50LkZMQUdfSU1NVVRBQkxFIGVsc2UgMCkKICAgIHZhbCBwZW5kaW5nSW50ZW50ID0gUGVuZGluZ0ludGVudC5nZXRBY3Rpdml0eShjb250ZXh0LCAwLCBpbnRlbnQsIGZsYWdzKQoKICAgIHZhbCBhbGFybU1hbmFnZXIgPSBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoQ29udGV4dC5BTEFSTV9TRVJWSUNFKSBhcyBBbGFybU1hbmFnZXIKICAgIGFsYXJtTWFuYWdlci5zZXQoCiAgICAgICAgQWxhcm1NYW5hZ2VyLlJUQywKICAgICAgICBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSArIDIwMCwKICAgICAgICBwZW5kaW5nSW50ZW50CiAgICApCgogICAgKGNvbnRleHQgYXM/IEFjdGl2aXR5KT8uZmluaXNoQWZmaW5pdHkoKQogICAgYW5kcm9pZC5vcy5Qcm9jZXNzLmtpbGxQcm9jZXNzKGFuZHJvaWQub3MuUHJvY2Vzcy5teVBpZCgpKQogICAga290bGluLnN5c3RlbS5leGl0UHJvY2VzcygwKQp9Cg==
+package com.bslsjdk.operit.ui.error
+
+import android.app.Activity
+import android.app.AlarmManager
+import android.app.PendingIntent
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import android.os.Environment
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.CrashRecoveryState
+import com.bslsjdk.operit.util.ThrowableTextFormatter
+import android.widget.Toast
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.text.selection.SelectionContainer
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ContentCopy
+import androidx.compose.material.icons.filled.Description
+import androidx.compose.material.icons.filled.RestartAlt
+import androidx.compose.material.icons.filled.Save
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.common.OperitUtilityTheme
+import com.bslsjdk.operit.ui.features.toolbox.screens.logcat.LogcatExportHelper
+import com.bslsjdk.operit.ui.main.MainActivity
+import kotlinx.coroutines.launch
+import java.io.File
+import java.io.FileOutputStream
+import java.nio.charset.StandardCharsets
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+class CrashReportActivity : ComponentActivity() {
+
+    companion object {
+        const val EXTRA_STACK_TRACE = "extra_stack_trace"
+        private const val MAX_CRASH_REPORT_CHARS = 24_000
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        CrashRecoveryState.consumePendingCrashReportLaunch(this)
+        val stackTrace = ThrowableTextFormatter.truncateText(
+            intent.getStringExtra(EXTRA_STACK_TRACE) ?: "No stack trace available.",
+            MAX_CRASH_REPORT_CHARS
+        )
+
+        AppLogger.e("CrashReportActivity", "Displaying crash report, chars=${stackTrace.length}")
+        AppLogger.e("CrashReportActivity", "Stack trace:\n$stackTrace")
+        setContent { OperitUtilityTheme { CrashReportScreen(stackTrace = stackTrace) } }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun CrashReportScreen(stackTrace: String) {
+    val context = LocalContext.current
+    val coroutineScope = rememberCoroutineScope()
+    var isExportingLogs by remember { mutableStateOf(false) }
+    var logExportMessage by remember { mutableStateOf<String?>(null) }
+    var logExportSuccess by remember { mutableStateOf<Boolean?>(null) }
+
+    Scaffold(
+            topBar = {
+                TopAppBar(
+                        title = { Text(stringResource(id = R.string.title_activity_crash_report)) },
+                        colors = TopAppBarDefaults.topAppBarColors(
+                            containerColor = MaterialTheme.colorScheme.errorContainer,
+                            titleContentColor = MaterialTheme.colorScheme.onErrorContainer
+                        )
+                )
+            },
+            content = { paddingValues ->
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(paddingValues)
+                        .padding(16.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    Text(
+                        stringResource(id = R.string.crash_report_header),
+                        style = MaterialTheme.typography.bodyLarge,
+                        textAlign = TextAlign.Center
+                    )
+                    Spacer(modifier = Modifier.height(24.dp))
+
+                    // 主要操作按钮
+                    Button(
+                        onClick = { restartApp(context) },
+                        modifier = Modifier.fillMaxWidth(),
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = MaterialTheme.colorScheme.error
+                        )
+                    ) {
+                        Icon(Icons.Default.RestartAlt, contentDescription = null, modifier = Modifier.size(ButtonDefaults.IconSize))
+                        Spacer(Modifier.size(ButtonDefaults.IconSpacing))
+                        Text(stringResource(id = R.string.crash_report_restart_button))
+                    }
+
+                    Spacer(modifier = Modifier.height(16.dp))
+
+                    // 次要操作按钮
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(16.dp)
+                    ) {
+                        OutlinedButton(
+                            onClick = {
+                                copyToClipboard(context, stackTrace)
+                            },
+                            modifier = Modifier.weight(1f)
+                        ) {
+                            Icon(Icons.Default.ContentCopy, contentDescription = null, modifier = Modifier.size(ButtonDefaults.IconSize))
+                            Spacer(Modifier.size(ButtonDefaults.IconSpacing))
+                            Text(stringResource(id = R.string.crash_report_copy_button))
+                        }
+
+                        OutlinedButton(
+                            onClick = {
+                                coroutineScope.launch {
+                                    exportToFile(context, stackTrace)
+                                }
+                            },
+                            modifier = Modifier.weight(1f)
+                        ) {
+                            Icon(Icons.Default.Save, contentDescription = null, modifier = Modifier.size(ButtonDefaults.IconSize))
+                            Spacer(Modifier.size(ButtonDefaults.IconSpacing))
+                            Text(stringResource(id = R.string.crash_report_export_button))
+                        }
+                    }
+
+                    Spacer(modifier = Modifier.height(12.dp))
+
+                    OutlinedButton(
+                        onClick = {
+                            coroutineScope.launch {
+                                isExportingLogs = true
+                                logExportMessage = null
+                                logExportSuccess = null
+                                try {
+                                    val result = LogcatExportHelper.exportLogs(context)
+                                    logExportMessage = result.message
+                                    logExportSuccess = result.success
+                                } finally {
+                                    isExportingLogs = false
+                                }
+                            }
+                        },
+                        enabled = !isExportingLogs,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        if (isExportingLogs) {
+                            CircularProgressIndicator(
+                                modifier = Modifier.size(ButtonDefaults.IconSize),
+                                strokeWidth = 2.dp
+                            )
+                        } else {
+                            Icon(
+                                Icons.Default.Description,
+                                contentDescription = null,
+                                modifier = Modifier.size(ButtonDefaults.IconSize)
+                            )
+                        }
+                        Spacer(Modifier.size(ButtonDefaults.IconSpacing))
+                        Text(stringResource(id = R.string.crash_report_export_logs_button))
+                    }
+
+                    if (logExportMessage != null) {
+                        Spacer(modifier = Modifier.height(12.dp))
+                        Card(
+                            modifier = Modifier.fillMaxWidth(),
+                            colors = CardDefaults.cardColors(
+                                containerColor = if (logExportSuccess == true) {
+                                    MaterialTheme.colorScheme.primaryContainer
+                                } else {
+                                    MaterialTheme.colorScheme.errorContainer
+                                }
+                            )
+                        ) {
+                            SelectionContainer {
+                                Text(
+                                    text = logExportMessage.orEmpty(),
+                                    modifier = Modifier.padding(12.dp),
+                                    style = MaterialTheme.typography.bodySmall.copy(
+                                        fontFamily = FontFamily.Monospace
+                                    ),
+                                    color = if (logExportSuccess == true) {
+                                        MaterialTheme.colorScheme.onPrimaryContainer
+                                    } else {
+                                        MaterialTheme.colorScheme.onErrorContainer
+                                    }
+                                )
+                            }
+                        }
+                    }
+
+                    Spacer(modifier = Modifier.height(24.dp))
+                    Text(
+                        stringResource(id = R.string.crash_report_details_title),
+                        style = MaterialTheme.typography.titleMedium
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Card(
+                        modifier = Modifier.fillMaxWidth().weight(1f),
+                        shape = RoundedCornerShape(8.dp),
+                        colors = CardDefaults.cardColors(
+                            containerColor = MaterialTheme.colorScheme.surfaceVariant
+                        )
+                    ) {
+                        Text(
+                            text = stackTrace,
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .verticalScroll(rememberScrollState())
+                                .padding(12.dp),
+                            style = MaterialTheme.typography.bodySmall.copy(
+                                fontFamily = FontFamily.Monospace,
+                                lineHeight = MaterialTheme.typography.bodySmall.lineHeight * 1.2
+                            ),
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+            }
+    )
+}
+
+private fun copyToClipboard(context: Context, text: String) {
+    val clipboard = context.getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+    val clip = ClipData.newPlainText("error_stack_trace", text)
+    clipboard.setPrimaryClip(clip)
+    Toast.makeText(context, R.string.crash_report_copy_success, Toast.LENGTH_SHORT).show()
+}
+
+private fun exportToFile(context: Context, text: String) {
+    try {
+        val downloadsDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
+        val errorDir = File(downloadsDir, "Operit/error")
+        if (!errorDir.exists()) {
+            errorDir.mkdirs()
+        }
+
+        val timestamp = SimpleDateFormat("yyyy-MM-dd_HH-mm-ss", Locale.US).format(Date())
+        val file = File(errorDir, "error-report-$timestamp.log")
+
+        FileOutputStream(file).use {
+            it.write(text.toByteArray(StandardCharsets.UTF_8))
+        }
+        val successMsg = context.getString(R.string.crash_report_export_success, file.absolutePath)
+        Toast.makeText(context, successMsg, Toast.LENGTH_LONG).show()
+
+    } catch (e: Exception) {
+        val errorMsg = context.getString(R.string.crash_report_export_failed, e.localizedMessage)
+        Toast.makeText(context, errorMsg, Toast.LENGTH_LONG).show()
+        AppLogger.e("CrashReportActivity", "Failed to export crash report", e)
+    }
+}
+
+private fun restartApp(context: Context) {
+    val intent = context.packageManager.getLaunchIntentForPackage(context.packageName)
+        ?: Intent(context, MainActivity::class.java)
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK)
+
+    val flags = PendingIntent.FLAG_CANCEL_CURRENT or
+        (if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) PendingIntent.FLAG_IMMUTABLE else 0)
+    val pendingIntent = PendingIntent.getActivity(context, 0, intent, flags)
+
+    val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
+    alarmManager.set(
+        AlarmManager.RTC,
+        System.currentTimeMillis() + 200,
+        pendingIntent
+    )
+
+    (context as? Activity)?.finishAffinity()
+    android.os.Process.killProcess(android.os.Process.myPid())
+    kotlin.system.exitProcess(0)
+}

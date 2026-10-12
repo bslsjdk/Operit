@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKCmludGVybmFsIGludGVyZmFjZSBIdHRwU3RhdHVzQ29kZUV4Y2VwdGlvbiB7CiAgICB2YWwgc3RhdHVzQ29kZTogSW50Cn0KCmludGVybmFsIHN1c3BlbmQgZnVuIHNob3VsZFN1cHByZXNzS2V5UG9vbFJhdGVMaW1pdE5vdGljZSgKICAgIGFwaUtleVByb3ZpZGVyOiBBcGlLZXlQcm92aWRlciwKICAgIGV4Y2VwdGlvbjogRXhjZXB0aW9uLAogICAgbG9nVGFnOiBTdHJpbmcKKTogQm9vbGVhbiB7CiAgICB2YWwgaHR0cEV4Y2VwdGlvbiA9IGV4Y2VwdGlvbiBhcz8gSHR0cFN0YXR1c0NvZGVFeGNlcHRpb24gPzogcmV0dXJuIGZhbHNlCiAgICBpZiAoaHR0cEV4Y2VwdGlvbi5zdGF0dXNDb2RlICE9IDQyOSkgcmV0dXJuIGZhbHNlCgogICAgdmFsIGNhbmRpZGF0ZUtleUNvdW50ID0gYXBpS2V5UHJvdmlkZXIuZ2V0Q2FuZGlkYXRlS2V5Q291bnQoKQogICAgdmFsIHNob3VsZFN1cHByZXNzID0gY2FuZGlkYXRlS2V5Q291bnQgPiAxCiAgICBpZiAoc2hvdWxkU3VwcHJlc3MpIHsKICAgICAgICBBcHBMb2dnZXIudygKICAgICAgICAgICAgbG9nVGFnLAogICAgICAgICAgICAi5aSa5a+G6ZKl6L2u6K+i6YGH5YiwIDQyOe+8jOi3s+i/h+acrOasoeS4remXtOaPkOekuu+8jOe7p+e7reWwneivleWFtuS7luWvhumSpeOAgmNhbmRpZGF0ZUtleUNvdW50PSRjYW5kaWRhdGVLZXlDb3VudCIsCiAgICAgICAgICAgIGV4Y2VwdGlvbgogICAgICAgICkKICAgIH0KCiAgICByZXR1cm4gc2hvdWxkU3VwcHJlc3MKfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.util.AppLogger
+
+internal interface HttpStatusCodeException {
+    val statusCode: Int
+}
+
+internal suspend fun shouldSuppressKeyPoolRateLimitNotice(
+    apiKeyProvider: ApiKeyProvider,
+    exception: Exception,
+    logTag: String
+): Boolean {
+    val httpException = exception as? HttpStatusCodeException ?: return false
+    if (httpException.statusCode != 429) return false
+
+    val candidateKeyCount = apiKeyProvider.getCandidateKeyCount()
+    val shouldSuppress = candidateKeyCount > 1
+    if (shouldSuppress) {
+        AppLogger.w(
+            logTag,
+            "多密钥轮询遇到 429，跳过本次中间提示，继续尝试其他密钥。candidateKeyCount=$candidateKeyCount",
+            exception
+        )
+    }
+
+    return shouldSuppress
+}

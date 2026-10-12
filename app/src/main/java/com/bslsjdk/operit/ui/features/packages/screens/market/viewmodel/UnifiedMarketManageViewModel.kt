@@ -1,1 +1,262 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucy5tYXJrZXQudmlld21vZGVsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRvYXN0CmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsUHJvdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS52aWV3TW9kZWxTY29wZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5NYXJrZXRTdGF0c0FwaVNlcnZpY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5NYXJrZXRWMkVudHJ5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0VjJQdWJsaXNoZXJFbnRyeVN1bW1hcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkdpdEh1YkF1dGhQcmVmZXJlbmNlcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5NYXJrZXRTdGF0c1R5cGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TaGFyaW5nU3RhcnRlZAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuc3RhdGVJbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CgplbnVtIGNsYXNzIFVuaWZpZWRNYXJrZXRNYW5hZ2VLaW5kKHZhbCB0eXBlczogU2V0PFN0cmluZz4pIHsKICAgIFNDUklQVChzZXRPZihNYXJrZXRTdGF0c1R5cGUuU0NSSVBULndpcmVWYWx1ZSkpLAogICAgUEFDS0FHRShzZXRPZihNYXJrZXRTdGF0c1R5cGUuUEFDS0FHRS53aXJlVmFsdWUpKSwKICAgIEFSVElGQUNUKHNldE9mKE1hcmtldFN0YXRzVHlwZS5TQ1JJUFQud2lyZVZhbHVlLCBNYXJrZXRTdGF0c1R5cGUuUEFDS0FHRS53aXJlVmFsdWUpKSwKICAgIFNLSUxMKHNldE9mKE1hcmtldFN0YXRzVHlwZS5TS0lMTC53aXJlVmFsdWUpKSwKICAgIE1DUChzZXRPZihNYXJrZXRTdGF0c1R5cGUuTUNQLndpcmVWYWx1ZSkpCn0KCmNsYXNzIFVuaWZpZWRNYXJrZXRNYW5hZ2VWaWV3TW9kZWwoCiAgICBwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0LAogICAgcHJpdmF0ZSB2YWwga2luZDogVW5pZmllZE1hcmtldE1hbmFnZUtpbmQKKSA6IFZpZXdNb2RlbCgpIHsKICAgIHByaXZhdGUgdmFsIG1hcmtldFN0YXRzQXBpU2VydmljZSA9IE1hcmtldFN0YXRzQXBpU2VydmljZSgpCiAgICBwcml2YXRlIHZhbCBnaXRodWJBdXRoID0gR2l0SHViQXV0aFByZWZlcmVuY2VzLmdldEluc3RhbmNlKGNvbnRleHQpCgogICAgcHJpdmF0ZSB2YWwgX2lzTG9hZGluZyA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgIHZhbCBpc0xvYWRpbmc6IFN0YXRlRmxvdzxCb29sZWFuPiA9IF9pc0xvYWRpbmcuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9pc1JlZnJlc2hpbmcgPSBNdXRhYmxlU3RhdGVGbG93KGZhbHNlKQogICAgdmFsIGlzUmVmcmVzaGluZzogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2lzUmVmcmVzaGluZy5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX2Vycm9yTWVzc2FnZSA9IE11dGFibGVTdGF0ZUZsb3c8U3RyaW5nPz4obnVsbCkKICAgIHZhbCBlcnJvck1lc3NhZ2U6IFN0YXRlRmxvdzxTdHJpbmc/PiA9IF9lcnJvck1lc3NhZ2UuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9lbnRyaWVzID0gTXV0YWJsZVN0YXRlRmxvdzxMaXN0PE1hcmtldFYyUHVibGlzaGVyRW50cnlTdW1tYXJ5Pj4oZW1wdHlMaXN0KCkpCiAgICB2YWwgZW50cmllczogU3RhdGVGbG93PExpc3Q8TWFya2V0VjJQdWJsaXNoZXJFbnRyeVN1bW1hcnk+PiA9IF9lbnRyaWVzLmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfaGFzTG9hZGVkID0gTXV0YWJsZVN0YXRlRmxvdyhmYWxzZSkKICAgIHZhbCBoYXNMb2FkZWQ6IFN0YXRlRmxvdzxCb29sZWFuPiA9IF9oYXNMb2FkZWQuYXNTdGF0ZUZsb3coKQoKICAgIHZhbCBpc0xvZ2dlZEluOiBTdGF0ZUZsb3c8Qm9vbGVhbj4gPQogICAgICAgIGdpdGh1YkF1dGguaXNMb2dnZWRJbkZsb3cuc3RhdGVJbigKICAgICAgICAgICAgc2NvcGUgPSB2aWV3TW9kZWxTY29wZSwKICAgICAgICAgICAgc3RhcnRlZCA9IFNoYXJpbmdTdGFydGVkLldoaWxlU3Vic2NyaWJlZCg1MDAwKSwKICAgICAgICAgICAgaW5pdGlhbFZhbHVlID0gZmFsc2UKICAgICAgICApCgogICAgZnVuIGxvYWRFbnRyaWVzKHJlZnJlc2g6IEJvb2xlYW4gPSBmYWxzZSkgewogICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICBpZiAoX2lzTG9hZGluZy52YWx1ZSkgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICBpZiAocmVmcmVzaCAmJiBfaXNSZWZyZXNoaW5nLnZhbHVlKSByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgaWYgKCFyZWZyZXNoICYmIF9oYXNMb2FkZWQudmFsdWUpIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgaWYgKCFnaXRodWJBdXRoLmlzTG9nZ2VkSW4oKSkgewogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsbWFya2V0X2dpdGh1Yl9sb2dpbl9yZXF1aXJlZCkKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaWYgKHJlZnJlc2gpIHsKICAgICAgICAgICAgICAgIF9pc1JlZnJlc2hpbmcudmFsdWUgPSB0cnVlCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBfaXNMb2FkaW5nLnZhbHVlID0gdHJ1ZQogICAgICAgICAgICB9CiAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBudWxsCgogICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgdXNlckluZm8gPSBnaXRodWJBdXRoLmdldEN1cnJlbnRVc2VySW5mbygpCiAgICAgICAgICAgICAgICBpZiAodXNlckluZm8gPT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbG1hcmtldF91bmFibGVfZ2V0X3VzZXJfaW5mbykKICAgICAgICAgICAgICAgICAgICByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgdmFsIGxvYWRlZCA9CiAgICAgICAgICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgICAgICAgICAga2luZC50eXBlcwogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZsYXRNYXAgeyB0eXBlIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFya2V0U3RhdHNBcGlTZXJ2aWNlLmdldFVzZXJQdWJsaXNoZWRFbnRyaWVzKHR5cGUpLmdldE9yVGhyb3coKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbHRlciB7IGVudHJ5IC0+IGVudHJ5LnR5cGUubG93ZXJjYXNlKCkgaW4ga2luZC50eXBlcyB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZGlzdGluY3RCeSB7IGl0LmlkIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5zb3J0ZWRCeURlc2NlbmRpbmcgeyBpdC51cGRhdGVkQXQgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIF9lbnRyaWVzLnZhbHVlID0gbG9hZGVkCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGUubWVzc2FnZSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tYXJrZXRfZXJyb3JfbG9hZF9mYWlsZWQpCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gbG9hZCBtYW5hZ2VkIG1hcmtldCBlbnRyaWVzIiwgZSkKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIF9oYXNMb2FkZWQudmFsdWUgPSB0cnVlCiAgICAgICAgICAgIGlmIChyZWZyZXNoKSB7CiAgICAgICAgICAgICAgICBfaXNSZWZyZXNoaW5nLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIF9pc0xvYWRpbmcudmFsdWUgPSBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIHJlc2V0KCkgewogICAgICAgX2VudHJpZXMudmFsdWUgPSBlbXB0eUxpc3QoKQogICAgICAgX2hhc0xvYWRlZC52YWx1ZSA9IGZhbHNlCiAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gbnVsbAogICAgICAgIF9pc1JlZnJlc2hpbmcudmFsdWUgPSBmYWxzZQogICB9CgogICAgZnVuIGNsZWFyRXJyb3IoKSB7CiAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IG51bGwKICAgIH0KCiAgICBmdW4gb3BlbkVudHJ5RGV0YWlsKAogICAgICAgIGVudHJ5OiBNYXJrZXRWMlB1Ymxpc2hlckVudHJ5U3VtbWFyeSwKICAgICAgICBvbkxvYWRlZDogKE1hcmtldFYyRW50cnkpIC0+IFVuaXQKICAgICkgewogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIGlmIChlbnRyeS5pZC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbG1hcmtldF9yZW1vdmVfZmFpbGVkLCAiZW50cnkgbm90IGZvdW5kIikKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQoKICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IHRydWUKICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IG51bGwKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBmdWxsRW50cnkgPQogICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmtldFN0YXRzQXBpU2VydmljZS5nZXRFbnRyeShlbnRyeS5pZCkuZ2V0T3JUaHJvdygpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKGZ1bGxFbnRyeSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsbWFya2V0X3JlbW92ZV9mYWlsZWQsICJlbnRyeSBub3QgZm91bmQiKQogICAgICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIG9uTG9hZGVkKGZ1bGxFbnRyeSkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gZS5tZXNzYWdlID86IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1hcmtldF9lcnJvcl9sb2FkX2ZhaWxlZCkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBsb2FkIGZ1bGwgbWFuYWdlZCBtYXJrZXQgZW50cnkgJHtlbnRyeS5pZH0iLCBlKQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIHdpdGhkcmF3RW50cnkoZW50cnk6IE1hcmtldFYyUHVibGlzaGVyRW50cnlTdW1tYXJ5KSB7CiAgICAgICAgdXBkYXRlRW50cnlTdGF0ZSgKICAgICAgICAgICAgZW50cnkgPSBlbnRyeSwKICAgICAgICAgICAgc3RhdGVDb2RlID0gIndpdGhkcmF3biIsCiAgICAgICAgICAgIGFjdGlvbiA9IHsgbWFya2V0U3RhdHNBcGlTZXJ2aWNlLndpdGhkcmF3RW50cnkoZW50cnkuaWQpIH0sCiAgICAgICAgICAgIHN1Y2Nlc3NNZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFya2V0X21hbmFnZV9yZW1vdmVkLCBlbnRyeS50aXRsZSkKICAgICAgICApCiAgICB9CgogICAgZnVuIG9wZW5FbnRyeUZvclJldmlzaW9uKAogICAgICAgIGVudHJ5OiBNYXJrZXRWMlB1Ymxpc2hlckVudHJ5U3VtbWFyeSwKICAgICAgICBvbkxvYWRlZDogKE1hcmtldFYyRW50cnkpIC0+IFVuaXQKICAgICkgewogICAgICAgIEFwcExvZ2dlci5pKAogICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICJyZXZpc2lvbl9nYXRlIGNsaWNrIGVudHJ5SWQ9JHtlbnRyeS5pZH0gc3RhdGVDb2RlPSR7ZW50cnkuc3RhdGVDb2RlfSAiICsKICAgICAgICAgICAgICAgICJ1cGRhdGVkQXQ9JHtlbnRyeS51cGRhdGVkQXR9IG5leHQ9Z2V0TXlFbnRyeURldGFpbCIKICAgICAgICApCiAgICAgICAgb3Blbk93bmVkRW50cnlEZXRhaWwoZW50cnksIG9uTG9hZGVkKQogICAgfQoKICAgIGZ1biBvcGVuT3duZWRFbnRyeURldGFpbCgKICAgICAgICBlbnRyeTogTWFya2V0VjJQdWJsaXNoZXJFbnRyeVN1bW1hcnksCiAgICAgICAgb25Mb2FkZWQ6IChNYXJrZXRWMkVudHJ5KSAtPiBVbml0CiAgICApIHsKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICBpZiAoIWdpdGh1YkF1dGguaXNMb2dnZWRJbigpKSB7CiAgICAgICAgICAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2tpbGxtYXJrZXRfZ2l0aHViX2xvZ2luX3JlcXVpcmVkKQogICAgICAgICAgICAgICAgcmV0dXJuQGxhdW5jaAogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChlbnRyeS5pZC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbG1hcmtldF9yZW1vdmVfZmFpbGVkLCAiZW50cnkgbm90IGZvdW5kIikKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQoKICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IHRydWUKICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IG51bGwKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBmdWxsRW50cnkgPQogICAgICAgICAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmtldFN0YXRzQXBpU2VydmljZS5nZXRNeUVudHJ5RGV0YWlsKGVudHJ5LmlkKS5nZXRPclRocm93KCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBvbkxvYWRlZChmdWxsRW50cnkpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGUubWVzc2FnZSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tYXJrZXRfZXJyb3JfbG9hZF9mYWlsZWQpCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gbG9hZCBvd25lciBkZXRhaWwgZm9yIG1hbmFnZWQgbWFya2V0IGVudHJ5ICR7ZW50cnkuaWR9IiwgZSkKICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIF9pc0xvYWRpbmcudmFsdWUgPSBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHVwZGF0ZUVudHJ5U3RhdGUoCiAgICAgICAgZW50cnk6IE1hcmtldFYyUHVibGlzaGVyRW50cnlTdW1tYXJ5LAogICAgICAgIHN0YXRlQ29kZTogU3RyaW5nLAogICAgICAgIGFjdGlvbjogc3VzcGVuZCAoKSAtPiBSZXN1bHQ8TWFya2V0VjJFbnRyeT4sCiAgICAgICAgc3VjY2Vzc01lc3NhZ2U6IFN0cmluZwogICAgKSB7CiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgaWYgKCFnaXRodWJBdXRoLmlzTG9nZ2VkSW4oKSkgewogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsbWFya2V0X2dpdGh1Yl9sb2dpbl9yZXF1aXJlZCkKICAgICAgICAgICAgICAgIHJldHVybkBsYXVuY2gKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoZW50cnkuaWQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2tpbGxtYXJrZXRfcmVtb3ZlX2ZhaWxlZCwgImVudHJ5IG5vdCBmb3VuZCIpCiAgICAgICAgICAgICAgICByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIF9pc0xvYWRpbmcudmFsdWUgPSB0cnVlCiAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBudWxsCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBhY3Rpb24oKS5mb2xkKAogICAgICAgICAgICAgICAgICAgIG9uU3VjY2VzcyA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgX2VudHJpZXMudmFsdWUgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgX2VudHJpZXMudmFsdWUubWFwIHsgZXhpc3RpbmcgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoZXhpc3RpbmcuaWQgPT0gZW50cnkuaWQpIGV4aXN0aW5nLmNvcHkoc3RhdGVDb2RlID0gc3RhdGVDb2RlKSBlbHNlIGV4aXN0aW5nCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIFRvYXN0Lm1ha2VUZXh0KGNvbnRleHQsIHN1Y2Nlc3NNZXNzYWdlLCBUb2FzdC5MRU5HVEhfU0hPUlQpLnNob3coKQogICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgb25GYWlsdXJlID0geyBlcnJvciAtPgogICAgICAgICAgICAgICAgICAgICAgICBfZXJyb3JNZXNzYWdlLnZhbHVlID0gZXJyb3IubWVzc2FnZSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tYXJrZXRfZXJyb3JfYWN0aW9uX2ZhaWxlZCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGUubWVzc2FnZSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tYXJrZXRfZXJyb3JfYWN0aW9uX2ZhaWxlZCkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byB1cGRhdGUgbWFuYWdlZCBtYXJrZXQgZW50cnkiLCBlKQogICAgICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICAgICAgX2lzTG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgY2xhc3MgRmFjdG9yeSgKICAgICAgICBwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIHByaXZhdGUgdmFsIGtpbmQ6IFVuaWZpZWRNYXJrZXRNYW5hZ2VLaW5kCiAgICApIDogVmlld01vZGVsUHJvdmlkZXIuRmFjdG9yeSB7CiAgICAgICAgb3ZlcnJpZGUgZnVuIDxUIDogVmlld01vZGVsPiBjcmVhdGUobW9kZWxDbGFzczogQ2xhc3M8VD4pOiBUIHsKICAgICAgICAgICAgaWYgKG1vZGVsQ2xhc3MuaXNBc3NpZ25hYmxlRnJvbShVbmlmaWVkTWFya2V0TWFuYWdlVmlld01vZGVsOjpjbGFzcy5qYXZhKSkgewogICAgICAgICAgICAgICAgQFN1cHByZXNzKCJVTkNIRUNLRURfQ0FTVCIpCiAgICAgICAgICAgICAgICByZXR1cm4gVW5pZmllZE1hcmtldE1hbmFnZVZpZXdNb2RlbChjb250ZXh0LCBraW5kKSBhcyBUCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmtub3duIFZpZXdNb2RlbCBjbGFzcyIpCiAgICAgICAgfQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJVbmlmaWVkTWFya2V0TWFuYWdlVmlld01vZGVsIgogICAgfQp9CgoK
+package com.bslsjdk.operit.ui.features.packages.screens.market.viewmodel
+
+import android.content.Context
+import android.widget.Toast
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.api.MarketStatsApiService
+import com.bslsjdk.operit.data.api.MarketV2Entry
+import com.bslsjdk.operit.data.api.MarketV2PublisherEntrySummary
+import com.bslsjdk.operit.data.preferences.GitHubAuthPreferences
+import com.bslsjdk.operit.ui.features.packages.market.MarketStatsType
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+enum class UnifiedMarketManageKind(val types: Set<String>) {
+    SCRIPT(setOf(MarketStatsType.SCRIPT.wireValue)),
+    PACKAGE(setOf(MarketStatsType.PACKAGE.wireValue)),
+    ARTIFACT(setOf(MarketStatsType.SCRIPT.wireValue, MarketStatsType.PACKAGE.wireValue)),
+    SKILL(setOf(MarketStatsType.SKILL.wireValue)),
+    MCP(setOf(MarketStatsType.MCP.wireValue))
+}
+
+class UnifiedMarketManageViewModel(
+    private val context: Context,
+    private val kind: UnifiedMarketManageKind
+) : ViewModel() {
+    private val marketStatsApiService = MarketStatsApiService()
+    private val githubAuth = GitHubAuthPreferences.getInstance(context)
+
+    private val _isLoading = MutableStateFlow(false)
+   val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
+
+    private val _isRefreshing = MutableStateFlow(false)
+    val isRefreshing: StateFlow<Boolean> = _isRefreshing.asStateFlow()
+
+    private val _errorMessage = MutableStateFlow<String?>(null)
+    val errorMessage: StateFlow<String?> = _errorMessage.asStateFlow()
+
+    private val _entries = MutableStateFlow<List<MarketV2PublisherEntrySummary>>(emptyList())
+    val entries: StateFlow<List<MarketV2PublisherEntrySummary>> = _entries.asStateFlow()
+
+    private val _hasLoaded = MutableStateFlow(false)
+    val hasLoaded: StateFlow<Boolean> = _hasLoaded.asStateFlow()
+
+    val isLoggedIn: StateFlow<Boolean> =
+        githubAuth.isLoggedInFlow.stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5000),
+            initialValue = false
+        )
+
+    fun loadEntries(refresh: Boolean = false) {
+       viewModelScope.launch {
+           if (_isLoading.value) return@launch
+            if (refresh && _isRefreshing.value) return@launch
+           if (!refresh && _hasLoaded.value) return@launch
+            if (!githubAuth.isLoggedIn()) {
+                _errorMessage.value = context.getString(R.string.skillmarket_github_login_required)
+                return@launch
+            }
+
+            if (refresh) {
+                _isRefreshing.value = true
+            } else {
+                _isLoading.value = true
+            }
+            _errorMessage.value = null
+
+           try {
+                val userInfo = githubAuth.getCurrentUserInfo()
+                if (userInfo == null) {
+                    _errorMessage.value = context.getString(R.string.skillmarket_unable_get_user_info)
+                    return@launch
+                }
+
+                val loaded =
+                    withContext(Dispatchers.IO) {
+                        kind.types
+                            .flatMap { type ->
+                                marketStatsApiService.getUserPublishedEntries(type).getOrThrow()
+                            }
+                            .filter { entry -> entry.type.lowercase() in kind.types }
+                            .distinctBy { it.id }
+                            .sortedByDescending { it.updatedAt }
+                    }
+                _entries.value = loaded
+            } catch (e: Exception) {
+                _errorMessage.value = e.message ?: context.getString(R.string.market_error_load_failed)
+                AppLogger.e(TAG, "Failed to load managed market entries", e)
+            } finally {
+                _hasLoaded.value = true
+            if (refresh) {
+                _isRefreshing.value = false
+            } else {
+                _isLoading.value = false
+            }
+            }
+        }
+    }
+
+    fun reset() {
+       _entries.value = emptyList()
+       _hasLoaded.value = false
+       _errorMessage.value = null
+        _isRefreshing.value = false
+   }
+
+    fun clearError() {
+        _errorMessage.value = null
+    }
+
+    fun openEntryDetail(
+        entry: MarketV2PublisherEntrySummary,
+        onLoaded: (MarketV2Entry) -> Unit
+    ) {
+        viewModelScope.launch {
+            if (entry.id.isBlank()) {
+                _errorMessage.value = context.getString(R.string.skillmarket_remove_failed, "entry not found")
+                return@launch
+            }
+
+            _isLoading.value = true
+            _errorMessage.value = null
+            try {
+                val fullEntry =
+                    withContext(Dispatchers.IO) {
+                        marketStatsApiService.getEntry(entry.id).getOrThrow()
+                    }
+                if (fullEntry == null) {
+                    _errorMessage.value = context.getString(R.string.skillmarket_remove_failed, "entry not found")
+                    return@launch
+                }
+                onLoaded(fullEntry)
+            } catch (e: Exception) {
+                _errorMessage.value = e.message ?: context.getString(R.string.market_error_load_failed)
+                AppLogger.e(TAG, "Failed to load full managed market entry ${entry.id}", e)
+            } finally {
+                _isLoading.value = false
+            }
+        }
+    }
+
+    fun withdrawEntry(entry: MarketV2PublisherEntrySummary) {
+        updateEntryState(
+            entry = entry,
+            stateCode = "withdrawn",
+            action = { marketStatsApiService.withdrawEntry(entry.id) },
+            successMessage = context.getString(R.string.market_manage_removed, entry.title)
+        )
+    }
+
+    fun openEntryForRevision(
+        entry: MarketV2PublisherEntrySummary,
+        onLoaded: (MarketV2Entry) -> Unit
+    ) {
+        AppLogger.i(
+            TAG,
+            "revision_gate click entryId=${entry.id} stateCode=${entry.stateCode} " +
+                "updatedAt=${entry.updatedAt} next=getMyEntryDetail"
+        )
+        openOwnedEntryDetail(entry, onLoaded)
+    }
+
+    fun openOwnedEntryDetail(
+        entry: MarketV2PublisherEntrySummary,
+        onLoaded: (MarketV2Entry) -> Unit
+    ) {
+        viewModelScope.launch {
+            if (!githubAuth.isLoggedIn()) {
+                _errorMessage.value = context.getString(R.string.skillmarket_github_login_required)
+                return@launch
+            }
+            if (entry.id.isBlank()) {
+                _errorMessage.value = context.getString(R.string.skillmarket_remove_failed, "entry not found")
+                return@launch
+            }
+
+            _isLoading.value = true
+            _errorMessage.value = null
+            try {
+                val fullEntry =
+                    withContext(Dispatchers.IO) {
+                        marketStatsApiService.getMyEntryDetail(entry.id).getOrThrow()
+                    }
+                onLoaded(fullEntry)
+            } catch (e: Exception) {
+                _errorMessage.value = e.message ?: context.getString(R.string.market_error_load_failed)
+                AppLogger.e(TAG, "Failed to load owner detail for managed market entry ${entry.id}", e)
+            } finally {
+                _isLoading.value = false
+            }
+        }
+    }
+
+    private fun updateEntryState(
+        entry: MarketV2PublisherEntrySummary,
+        stateCode: String,
+        action: suspend () -> Result<MarketV2Entry>,
+        successMessage: String
+    ) {
+        viewModelScope.launch {
+            if (!githubAuth.isLoggedIn()) {
+                _errorMessage.value = context.getString(R.string.skillmarket_github_login_required)
+                return@launch
+            }
+            if (entry.id.isBlank()) {
+                _errorMessage.value = context.getString(R.string.skillmarket_remove_failed, "entry not found")
+                return@launch
+            }
+
+            _isLoading.value = true
+            _errorMessage.value = null
+            try {
+                action().fold(
+                    onSuccess = {
+                        _entries.value =
+                            _entries.value.map { existing ->
+                                if (existing.id == entry.id) existing.copy(stateCode = stateCode) else existing
+                            }
+                        Toast.makeText(context, successMessage, Toast.LENGTH_SHORT).show()
+                    },
+                    onFailure = { error ->
+                        _errorMessage.value = error.message ?: context.getString(R.string.market_error_action_failed)
+                    }
+                )
+            } catch (e: Exception) {
+                _errorMessage.value = e.message ?: context.getString(R.string.market_error_action_failed)
+                AppLogger.e(TAG, "Failed to update managed market entry", e)
+            } finally {
+                _isLoading.value = false
+            }
+        }
+    }
+
+    class Factory(
+        private val context: Context,
+        private val kind: UnifiedMarketManageKind
+    ) : ViewModelProvider.Factory {
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(UnifiedMarketManageViewModel::class.java)) {
+                @Suppress("UNCHECKED_CAST")
+                return UnifiedMarketManageViewModel(context, kind) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+
+    companion object {
+        private const val TAG = "UnifiedMarketManageViewModel"
+    }
+}
+
+

@@ -1,1 +1,63 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0LnBsdWdpbnMKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmFwaS5jaGF0LkVuaGFuY2VkQUlTZXJ2aWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdFR1cm4KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5TdHJlYW0KaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvcHlPbldyaXRlQXJyYXlMaXN0CgpkYXRhIGNsYXNzIE1lc3NhZ2VQcm9jZXNzaW5nSG9va1BhcmFtcygKICAgIHZhbCBjb250ZXh0OiBDb250ZXh0LAogICAgdmFsIGVuaGFuY2VkQUlTZXJ2aWNlOiBFbmhhbmNlZEFJU2VydmljZSwKICAgIHZhbCBjaGF0SWQ6IFN0cmluZz8sCiAgICB2YWwgbWVzc2FnZUNvbnRlbnQ6IFN0cmluZywKICAgIHZhbCBjaGF0SGlzdG9yeTogTGlzdDxQcm9tcHRUdXJuPiwKICAgIHZhbCB3b3Jrc3BhY2VQYXRoOiBTdHJpbmc/LAogICAgdmFsIG1heFRva2VuczogSW50LAogICAgdmFsIHRva2VuVXNhZ2VUaHJlc2hvbGQ6IERvdWJsZSwKICAgIHZhbCBvbk5vbkZhdGFsRXJyb3I6IHN1c3BlbmQgKGVycm9yOiBTdHJpbmcpIC0+IFVuaXQKKQoKaW50ZXJmYWNlIE1lc3NhZ2VQcm9jZXNzaW5nQ29udHJvbGxlciB7CiAgICBmdW4gY2FuY2VsKCkKfQoKZGF0YSBjbGFzcyBNZXNzYWdlUHJvY2Vzc2luZ0V4ZWN1dGlvbigKICAgIHZhbCBjb250cm9sbGVyOiBNZXNzYWdlUHJvY2Vzc2luZ0NvbnRyb2xsZXIsCiAgICB2YWwgc3RyZWFtOiBTdHJlYW08U3RyaW5nPgopCgppbnRlcmZhY2UgTWVzc2FnZVByb2Nlc3NpbmdQbHVnaW4gewogICAgdmFsIGlkOiBTdHJpbmcKCiAgICBzdXNwZW5kIGZ1biBjcmVhdGVFeGVjdXRpb25JZk1hdGNoZWQoCiAgICAgICAgcGFyYW1zOiBNZXNzYWdlUHJvY2Vzc2luZ0hvb2tQYXJhbXMKICAgICk6IE1lc3NhZ2VQcm9jZXNzaW5nRXhlY3V0aW9uPwp9CgpvYmplY3QgTWVzc2FnZVByb2Nlc3NpbmdQbHVnaW5SZWdpc3RyeSB7CiAgICBwcml2YXRlIHZhbCBwbHVnaW5zID0gQ29weU9uV3JpdGVBcnJheUxpc3Q8TWVzc2FnZVByb2Nlc3NpbmdQbHVnaW4+KCkKCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gcmVnaXN0ZXIocGx1Z2luOiBNZXNzYWdlUHJvY2Vzc2luZ1BsdWdpbikgewogICAgICAgIHVucmVnaXN0ZXIocGx1Z2luLmlkKQogICAgICAgIHBsdWdpbnMuYWRkKHBsdWdpbikKICAgIH0KCiAgICBAU3luY2hyb25pemVkCiAgICBmdW4gdW5yZWdpc3RlcihwbHVnaW5JZDogU3RyaW5nKSB7CiAgICAgICAgcGx1Z2lucy5yZW1vdmVBbGwgeyBpdC5pZCA9PSBwbHVnaW5JZCB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gY3JlYXRlRXhlY3V0aW9uSWZNYXRjaGVkKAogICAgICAgIHBhcmFtczogTWVzc2FnZVByb2Nlc3NpbmdIb29rUGFyYW1zCiAgICApOiBNZXNzYWdlUHJvY2Vzc2luZ0V4ZWN1dGlvbj8gewogICAgICAgIGZvciAocGx1Z2luIGluIHBsdWdpbnMpIHsKICAgICAgICAgICAgdmFsIGV4ZWN1dGlvbiA9IHBsdWdpbi5jcmVhdGVFeGVjdXRpb25JZk1hdGNoZWQocGFyYW1zKQogICAgICAgICAgICBpZiAoZXhlY3V0aW9uICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHJldHVybiBleGVjdXRpb24KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gbnVsbAogICAgfQp9Cg==
+package com.bslsjdk.operit.core.chat.plugins
+
+import android.content.Context
+import com.bslsjdk.operit.api.chat.EnhancedAIService
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.util.stream.Stream
+import java.util.concurrent.CopyOnWriteArrayList
+
+data class MessageProcessingHookParams(
+    val context: Context,
+    val enhancedAIService: EnhancedAIService,
+    val chatId: String?,
+    val messageContent: String,
+    val chatHistory: List<PromptTurn>,
+    val workspacePath: String?,
+    val maxTokens: Int,
+    val tokenUsageThreshold: Double,
+    val onNonFatalError: suspend (error: String) -> Unit
+)
+
+interface MessageProcessingController {
+    fun cancel()
+}
+
+data class MessageProcessingExecution(
+    val controller: MessageProcessingController,
+    val stream: Stream<String>
+)
+
+interface MessageProcessingPlugin {
+    val id: String
+
+    suspend fun createExecutionIfMatched(
+        params: MessageProcessingHookParams
+    ): MessageProcessingExecution?
+}
+
+object MessageProcessingPluginRegistry {
+    private val plugins = CopyOnWriteArrayList<MessageProcessingPlugin>()
+
+    @Synchronized
+    fun register(plugin: MessageProcessingPlugin) {
+        unregister(plugin.id)
+        plugins.add(plugin)
+    }
+
+    @Synchronized
+    fun unregister(pluginId: String) {
+        plugins.removeAll { it.id == pluginId }
+    }
+
+    suspend fun createExecutionIfMatched(
+        params: MessageProcessingHookParams
+    ): MessageProcessingExecution? {
+        for (plugin in plugins) {
+            val execution = plugin.createExecutionIfMatched(params)
+            if (execution != null) {
+                return execution
+            }
+        }
+        return null
+    }
+}

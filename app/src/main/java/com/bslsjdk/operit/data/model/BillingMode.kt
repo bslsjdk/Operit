@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqCiAqIOiuoei0ueaWueW8j+aemuS4vgogKiDnlKjkuo7lrprkuYlBSeaooeWei+eahOiuoei0ueaooeW8jwogKi8KZW51bSBjbGFzcyBCaWxsaW5nTW9kZSB7CiAgICAvKioKICAgICAqIOaMiVRva2Vu6K6h6LS5CiAgICAgKiDmoLnmja7ovpPlhaUv6L6T5Ye6dG9rZW7mlbDph4/lkozlr7nlupTku7fmoLzorqHnrpfotLnnlKgKICAgICAqLwogICAgVE9LRU4sCiAgICAKICAgIC8qKgogICAgICog5oyJ5qyh6K6h6LS5CiAgICAgKiDmr4/mrKFBUEnor7fmsYLmlLblj5blm7rlrprotLnnlKgKICAgICAqLwogICAgQ09VTlQ7CiAgICAKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIC8qKgogICAgICAgICAqIOS7juWtl+espuS4suino+aekOiuoei0ueaWueW8jwogICAgICAgICAqIEBwYXJhbSB2YWx1ZSDlrZfnrKbkuLLlgLwKICAgICAgICAgKiBAcmV0dXJuIOWvueW6lOeahOiuoei0ueaWueW8j++8jOWmguaenOaXoOazleino+aekOWImei/lOWbnlRPS0VOCiAgICAgICAgICovCiAgICAgICAgZnVuIGZyb21TdHJpbmcodmFsdWU6IFN0cmluZz8pOiBCaWxsaW5nTW9kZSB7CiAgICAgICAgICAgIHJldHVybiB3aGVuICh2YWx1ZT8udXBwZXJjYXNlKCkpIHsKICAgICAgICAgICAgICAgICJDT1VOVCIgLT4gQ09VTlQKICAgICAgICAgICAgICAgICJUT0tFTiIgLT4gVE9LRU4KICAgICAgICAgICAgICAgIGVsc2UgLT4gVE9LRU4gLy8g6buY6K6k5L2/55SoVE9LRU7mqKHlvI8KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoK
+package com.bslsjdk.operit.data.model
+
+/**
+ * 计费方式枚举
+ * 用于定义AI模型的计费模式
+ */
+enum class BillingMode {
+    /**
+     * 按Token计费
+     * 根据输入/输出token数量和对应价格计算费用
+     */
+    TOKEN,
+    
+    /**
+     * 按次计费
+     * 每次API请求收取固定费用
+     */
+    COUNT;
+    
+    companion object {
+        /**
+         * 从字符串解析计费方式
+         * @param value 字符串值
+         * @return 对应的计费方式，如果无法解析则返回TOKEN
+         */
+        fun fromString(value: String?): BillingMode {
+            return when (value?.uppercase()) {
+                "COUNT" -> COUNT
+                "TOKEN" -> TOKEN
+                else -> TOKEN // 默认使用TOKEN模式
+            }
+        }
+    }
+}
+

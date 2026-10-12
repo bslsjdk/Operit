@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ2hhdFV0aWxzVGhpbmtpbmdUZXN0IHsKCiAgICBAVGVzdCBmdW4gcmVtb3ZlVGhpbmtpbmdDb250ZW50X3RyaW1zV2hpdGVzcGFjZUFyb3VuZFJlbW92ZWRCbG9ja3MoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJhbnN3ZXIiLCBDaGF0VXRpbHMucmVtb3ZlVGhpbmtpbmdDb250ZW50KCIgIDx0aGluaz54PC90aGluaz4gYW5zd2VyICAiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdFRoaW5raW5nQ29udGVudF9yZXR1cm5zRW1wdHlUaGlua2luZ1doZW5BYnNlbnQoKSB7CiAgICAgICAgdmFsIHJlc3VsdCA9IENoYXRVdGlscy5leHRyYWN0VGhpbmtpbmdDb250ZW50KCJhbnN3ZXIiKQogICAgICAgIGFzc2VydEVxdWFscygiYW5zd2VyIiwgcmVzdWx0LmZpcnN0KQogICAgICAgIGFzc2VydEVxdWFscygiIiwgcmVzdWx0LnNlY29uZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdFRoaW5raW5nQ29udGVudF90cmltc0VhY2hUaGlua2luZ1NlZ21lbnQoKSB7CiAgICAgICAgdmFsIHJlc3VsdCA9IENoYXRVdGlscy5leHRyYWN0VGhpbmtpbmdDb250ZW50KCI8dGhpbms+ICBhICA8L3RoaW5rPjx0aGlua2luZz4gYiA8L3RoaW5raW5nPmMiKQogICAgICAgIGFzc2VydEVxdWFscygiYyIsIHJlc3VsdC5maXJzdCkKICAgICAgICBhc3NlcnRFcXVhbHMoImFcbmIiLCByZXN1bHQuc2Vjb25kKQogICAgfQoKICAgIEBUZXN0IGZ1biByZW1vdmVUaGlua2luZ0NvbnRlbnRfcHJlc2VydmVzTWlkZGxlVGV4dCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoImFiIiwgQ2hhdFV0aWxzLnJlbW92ZVRoaW5raW5nQ29udGVudCgiYTx0aGluaz54PC90aGluaz5iIikpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class ChatUtilsThinkingTest {
+
+    @Test fun removeThinkingContent_trimsWhitespaceAroundRemovedBlocks() {
+        assertEquals("answer", ChatUtils.removeThinkingContent("  <think>x</think> answer  "))
+    }
+
+    @Test fun extractThinkingContent_returnsEmptyThinkingWhenAbsent() {
+        val result = ChatUtils.extractThinkingContent("answer")
+        assertEquals("answer", result.first)
+        assertEquals("", result.second)
+    }
+
+    @Test fun extractThinkingContent_trimsEachThinkingSegment() {
+        val result = ChatUtils.extractThinkingContent("<think>  a  </think><thinking> b </thinking>c")
+        assertEquals("c", result.first)
+        assertEquals("a\nb", result.second)
+    }
+
+    @Test fun removeThinkingContent_preservesMiddleText() {
+        assertEquals("ab", ChatUtils.removeThinkingContent("a<think>x</think>b"))
+    }
+}

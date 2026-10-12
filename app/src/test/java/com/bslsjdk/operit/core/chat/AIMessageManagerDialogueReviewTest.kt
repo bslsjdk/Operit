@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0CgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBBSU1lc3NhZ2VNYW5hZ2VyRGlhbG9ndWVSZXZpZXdUZXN0IHsKICAgIEBUZXN0CiAgICBmdW4gZm9ybWF0RGlhbG9ndWVSZXZpZXdIZWFkZXJfdXNlc0RlZmF1bHRIZWFkZXJXaGVuVGl0bGVJc0JsYW5rKCkgewogICAgICAgIHZhbCBkZWZhdWx0SGVhZGVyID0gIlxuXG7lr7nor53lm57pob7vvJpcbiIKCiAgICAgICAgYXNzZXJ0RXF1YWxzKGRlZmF1bHRIZWFkZXIsIGZvcm1hdERpYWxvZ3VlUmV2aWV3SGVhZGVyKGRlZmF1bHRIZWFkZXIsICIgICIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZm9ybWF0RGlhbG9ndWVSZXZpZXdIZWFkZXJfbm9ybWFsaXplc0N1c3RvbVRpdGxlQW5kS2VlcHNMb2NhbGVTZXBhcmF0b3IoKSB7CiAgICAgICAgdmFsIGhlYWRlciA9IGZvcm1hdERpYWxvZ3VlUmV2aWV3SGVhZGVyKCJcblxu5a+56K+d5Zue6aG+77yaXG4iLCAiICDmiafooYzlm57pob7vvJogICIpCgogICAgICAgIGFzc2VydEVxdWFscygiXG5cbuaJp+ihjOWbnumhvu+8mlxuIiwgaGVhZGVyKQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.chat
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class AIMessageManagerDialogueReviewTest {
+    @Test
+    fun formatDialogueReviewHeader_usesDefaultHeaderWhenTitleIsBlank() {
+        val defaultHeader = "\n\n对话回顾：\n"
+
+        assertEquals(defaultHeader, formatDialogueReviewHeader(defaultHeader, "  "))
+    }
+
+    @Test
+    fun formatDialogueReviewHeader_normalizesCustomTitleAndKeepsLocaleSeparator() {
+        val header = formatDialogueReviewHeader("\n\n对话回顾：\n", "  执行回顾：  ")
+
+        assertEquals("\n\n执行回顾：\n", header)
+    }
+}

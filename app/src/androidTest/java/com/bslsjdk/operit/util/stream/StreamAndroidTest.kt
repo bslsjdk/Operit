@@ -1,1 +1,207 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCmltcG9ydCBhbmRyb2lkeC50ZXN0LmV4dC5qdW5pdC5ydW5uZXJzLkFuZHJvaWRKVW5pdDQKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZmlsdGVycy5NZWRpdW1UZXN0CmltcG9ydCBhbmRyb2lkeC50ZXN0LnBsYXRmb3JtLmFwcC5JbnN0cnVtZW50YXRpb25SZWdpc3RyeQppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuQ291bnREb3duTGF0Y2gKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LlRpbWVVbml0CmltcG9ydCBrb3RsaW4udGltZS5EdXJhdGlvbi5Db21wYW5pb24ubWlsbGlzZWNvbmRzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmNhbmNlbEFuZEpvaW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5kZWxheQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aFRpbWVvdXQKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5CZWZvcmUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCi8qKiBBbmRyb2lk5rWL6K+V57G777yM55So5LqO5rWL6K+VU3RyZWFt55qE5Z+65pys5pON5L2c56ym5ZKM5Yqf6IO9ICovCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpATWVkaXVtVGVzdApjbGFzcyBTdHJlYW1BbmRyb2lkVGVzdCB7CgogICAgLy8g6I635Y+W5bqU55So5LiK5LiL5paHCiAgICBwcml2YXRlIHZhbCBhcHBDb250ZXh0IGJ5IGxhenkgeyAKICAgICAgICBJbnN0cnVtZW50YXRpb25SZWdpc3RyeS5nZXRJbnN0cnVtZW50YXRpb24oKS50YXJnZXRDb250ZXh0CiAgICB9CiAgICAKICAgIEBCZWZvcmUKICAgIGZ1biBzZXRVcCgpIHsKICAgICAgICAvLyDmtYvor5XlvIDlp4vliY3nmoTlh4blpIflt6XkvZwKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RTdHJlYW1DcmVhdGlvbigpID0gcnVuQmxvY2tpbmcgewogICAgICAgIC8vIOa1i+ivleWNleS4quWAvAogICAgICAgIHZhbCBjb2xsZWN0ZWQgPSBtdXRhYmxlTGlzdE9mPEludD4oKQogICAgICAgIHN0cmVhbU9mKDEpLmNvbGxlY3QgeyBjb2xsZWN0ZWQuYWRkKGl0KSB9CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxKSwgY29sbGVjdGVkKQoKICAgICAgICAvLyDmtYvor5XlpJrkuKrlgLwKICAgICAgICBjb2xsZWN0ZWQuY2xlYXIoKQogICAgICAgIHN0cmVhbU9mKDEsIDIsIDMpLmNvbGxlY3QgeyBjb2xsZWN0ZWQuYWRkKGl0KSB9CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxLCAyLCAzKSwgY29sbGVjdGVkKQoKICAgICAgICAvLyDmtYvor5Xku47pm4blkIjliJvlu7oKICAgICAgICBjb2xsZWN0ZWQuY2xlYXIoKQogICAgICAgIGxpc3RPZigxLCAyLCAzKS5hc1N0cmVhbSgpLmNvbGxlY3QgeyBjb2xsZWN0ZWQuYWRkKGl0KSB9CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxLCAyLCAzKSwgY29sbGVjdGVkKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFN0cmVhbU1hcCgpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBjb2xsZWN0ZWQgPSBtdXRhYmxlTGlzdE9mPEludD4oKQogICAgICAgIHN0cmVhbU9mKDEsIDIsIDMpLm1hcCB7IGl0ICogMiB9LmNvbGxlY3QgeyBjb2xsZWN0ZWQuYWRkKGl0KSB9CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigyLCA0LCA2KSwgY29sbGVjdGVkKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFN0cmVhbUZpbHRlcigpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBjb2xsZWN0ZWQgPSBtdXRhYmxlTGlzdE9mPEludD4oKQogICAgICAgIHN0cmVhbU9mKDEsIDIsIDMsIDQsIDUpLmZpbHRlciB7IGl0ICUgMiA9PSAwIH0uY29sbGVjdCB7IGNvbGxlY3RlZC5hZGQoaXQpIH0KICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKDIsIDQpLCBjb2xsZWN0ZWQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0U3RyZWFtVGFrZUFuZERyb3AoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICAvLyDmtYvor5V0YWtlCiAgICAgICAgdmFsIGNvbGxlY3RlZDEgPSBtdXRhYmxlTGlzdE9mPEludD4oKQogICAgICAgIHN0cmVhbU9mKDEsIDIsIDMsIDQsIDUpLnRha2UoMykuY29sbGVjdCB7IGNvbGxlY3RlZDEuYWRkKGl0KSB9CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxLCAyLCAzKSwgY29sbGVjdGVkMSkKCiAgICAgICAgLy8g5rWL6K+VZHJvcAogICAgICAgIHZhbCBjb2xsZWN0ZWQyID0gbXV0YWJsZUxpc3RPZjxJbnQ+KCkKICAgICAgICBzdHJlYW1PZigxLCAyLCAzLCA0LCA1KS5kcm9wKDIpLmNvbGxlY3QgeyBjb2xsZWN0ZWQyLmFkZChpdCkgfQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoMywgNCwgNSksIGNvbGxlY3RlZDIpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0U3RyZWFtRmxhdE1hcCgpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBjb2xsZWN0ZWQgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQogICAgICAgIHN0cmVhbU9mKDEsIDIsIDMpLmZsYXRNYXAgeyBzdHJlYW1PZigiYSRpdCIsICJiJGl0IikgfS5jb2xsZWN0IHsgY29sbGVjdGVkLmFkZChpdCkgfQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoImExIiwgImIxIiwgImEyIiwgImIyIiwgImEzIiwgImIzIiksIGNvbGxlY3RlZCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RTdHJlYW1PbkVhY2goKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgc2lkZUVmZmVjdHMgPSBtdXRhYmxlTGlzdE9mPEludD4oKQogICAgICAgIHZhbCBjb2xsZWN0ZWQgPSBtdXRhYmxlTGlzdE9mPEludD4oKQogICAgICAgIHN0cmVhbU9mKDEsIDIsIDMpLm9uRWFjaCB7IHNpZGVFZmZlY3RzLmFkZChpdCAqIDEwKSB9LmNvbGxlY3QgeyBjb2xsZWN0ZWQuYWRkKGl0KSB9CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxMCwgMjAsIDMwKSwgc2lkZUVmZmVjdHMpCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxLCAyLCAzKSwgY29sbGVjdGVkKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFN0cmVhbUNvbmNhdGVuYXRpb24oKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgc3RyZWFtMSA9IHN0cmVhbU9mKDEsIDIsIDMpCiAgICAgICAgdmFsIHN0cmVhbTIgPSBzdHJlYW1PZig0LCA1LCA2KQogICAgICAgIHZhbCBjb2xsZWN0ZWQgPSBtdXRhYmxlTGlzdE9mPEludD4oKQoKICAgICAgICBzdHJlYW0xLmNvbmNhdFdpdGgoc3RyZWFtMikuY29sbGVjdCB7IGNvbGxlY3RlZC5hZGQoaXQpIH0KICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKDEsIDIsIDMsIDQsIDUsIDYpLCBjb2xsZWN0ZWQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0U3RyZWFtRXJyb3JIYW5kbGluZygpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhbCBjb2xsZWN0ZWQgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQogICAgICAgIHZhbCBlcnJvcnMgPSBtdXRhYmxlTGlzdE9mPFN0cmluZz4oKQoKICAgICAgICBzdHJlYW08U3RyaW5nPiB7CiAgICAgICAgICAgIGVtaXQoIuW8gOWniyIpCiAgICAgICAgICAgIHRocm93IFJ1bnRpbWVFeGNlcHRpb24oIua1i+ivlemUmeivryIpCiAgICAgICAgICAgIGVtaXQoIuS4jeW6lOivpeWIsOi+vui/memHjCIpCiAgICAgICAgfQogICAgICAgIC5jYXRjaCB7IGVycm9ycy5hZGQoaXQubWVzc2FnZSA/OiAi5pyq55+l6ZSZ6K+vIikgfQogICAgICAgIC5jb2xsZWN0IHsgY29sbGVjdGVkLmFkZChpdCkgfQoKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCLlvIDlp4siKSwgY29sbGVjdGVkKQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoIua1i+ivlemUmeivryIpLCBlcnJvcnMpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0U3RyZWFtRGlzdGluY3QoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgY29sbGVjdGVkID0gbXV0YWJsZUxpc3RPZjxJbnQ+KCkKICAgICAgICBzdHJlYW1PZigxLCAyLCAyLCAzLCAzLCAzLCA0KS5kaXN0aW5jdFVudGlsQ2hhbmdlZCgpLmNvbGxlY3QgeyBjb2xsZWN0ZWQuYWRkKGl0KSB9CiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxLCAyLCAzLCA0KSwgY29sbGVjdGVkKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFN0cmVhbUZsb3dJbnRlcm9wZXJhdGlvbigpID0gcnVuQmxvY2tpbmcgewogICAgICAgIC8vIEZsb3fovaxTdHJlYW0KICAgICAgICB2YWwgbXlGbG93ID0gZmxvdzxJbnQ+IHsKICAgICAgICAgICAgZW1pdCgxKQogICAgICAgICAgICBlbWl0KDIpCiAgICAgICAgICAgIGVtaXQoMykKICAgICAgICB9CgogICAgICAgIHZhbCBjb2xsZWN0ZWQxID0gbXV0YWJsZUxpc3RPZjxJbnQ+KCkKICAgICAgICBteUZsb3cuYXNTdHJlYW0oKS5jb2xsZWN0IHsgY29sbGVjdGVkMS5hZGQoaXQpIH0KICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKDEsIDIsIDMpLCBjb2xsZWN0ZWQxKQoKICAgICAgICAvLyBTdHJlYW3ovaxGbG93CiAgICAgICAgdmFsIGNvbGxlY3RlZDIgPSBtdXRhYmxlTGlzdE9mPEludD4oKQogICAgICAgIHN0cmVhbU9mKDQsIDUsIDYpLmFzRmxvdygpLmNvbGxlY3QgeyBjb2xsZWN0ZWQyLmFkZChpdCkgfQogICAgICAgIGFzc2VydEVxdWFscyhsaXN0T2YoNCwgNSwgNiksIGNvbGxlY3RlZDIpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0U3RyZWFtRmluYWxseSgpID0gcnVuQmxvY2tpbmcgewogICAgICAgIHZhciBmaW5hbGx5RXhlY3V0ZWQgPSBmYWxzZQogICAgICAgIHN0cmVhbU9mKDEsIDIsIDMpLmZpbmFsbHkgeyBmaW5hbGx5RXhlY3V0ZWQgPSB0cnVlIH0uY29sbGVjdCB7IC8qIOW/veeVpSAqLyB9CiAgICAgICAgYXNzZXJ0VHJ1ZSgiZmluYWxseeWdl+W6lOivpeaJp+ihjCIsIGZpbmFsbHlFeGVjdXRlZCkKCiAgICAgICAgLy8g5rWL6K+V5byC5bi45oOF5Ya15LiLZmluYWxseeS5n+aJp+ihjAogICAgICAgIGZpbmFsbHlFeGVjdXRlZCA9IGZhbHNlCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgc3RyZWFtPEludD4gewogICAgICAgICAgICAgICAgZW1pdCgxKQogICAgICAgICAgICAgICAgdGhyb3cgUnVudGltZUV4Y2VwdGlvbigi5rWL6K+V6ZSZ6K+vIikKICAgICAgICAgICAgfQogICAgICAgICAgICAuZmluYWxseSB7IGZpbmFsbHlFeGVjdXRlZCA9IHRydWUgfQogICAgICAgICAgICAuY29sbGVjdCB7IC8qIOW/veeVpSAqLyB9CiAgICAgICAgfSBjYXRjaCAoZTogUnVudGltZUV4Y2VwdGlvbikgewogICAgICAgICAgICAvLyDlv73nlaXlvILluLgKICAgICAgICB9CgogICAgICAgIGFzc2VydFRydWUoIuW8guW4uOaDheWGteS4i2ZpbmFsbHnlnZfkuZ/lupTor6XmiafooYwiLCBmaW5hbGx5RXhlY3V0ZWQpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0U3RyZWFtVGhyb3R0bGUoKSA9IHJ1bkJsb2NraW5nIHsKICAgICAgICB2YWwgbGF0Y2ggPSBDb3VudERvd25MYXRjaCgxKQogICAgICAgIHZhbCBjb2xsZWN0ZWQgPSBtdXRhYmxlTGlzdE9mPEludD4oKQogICAgICAgIAogICAgICAgIC8vIOS9v+eUqElP6LCD5bqm5Zmo5Luj5pu/TWFpbuiwg+W6puWZqO+8jOmBv+WFjeWcqOa1i+ivleaXtumYu+WhnuS4u+e6v+eoiwogICAgICAgIHZhbCBzY29wZSA9IENvcm91dGluZVNjb3BlKERpc3BhdGNoZXJzLklPKQoKICAgICAgICB2YWwgam9iID0gc2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIC8vIOS9v+eUqHdpdGhUaW1lb3V06ZmQ5Yi25rWL6K+V5pe26Ze0CiAgICAgICAgICAgICAgICB3aXRoVGltZW91dCgzMDAwKSB7CiAgICAgICAgICAgICAgICAgICAgc3RyZWFtT2YoMSwgMiwgMywgNCwgNSkudGhyb3R0bGVGaXJzdCgxMDAubWlsbGlzZWNvbmRzKS5jb2xsZWN0IHsKICAgICAgICAgICAgICAgICAgICAgICAgY29sbGVjdGVkLmFkZChpdCkKICAgICAgICAgICAgICAgICAgICAgICAgZGVsYXkoMzApIC8vIOaooeaLn+WkhOeQhuaXtumXtAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgICAgIGxhdGNoLmNvdW50RG93bigpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIOetieW+heaUtumbhuWujOaIkOaIlui2heaXtgogICAgICAgIGFzc2VydFRydWUoIuaUtumbhuaTjeS9nOW6lOivpeWcqDXnp5LlhoXlrozmiJAiLCBsYXRjaC5hd2FpdCg1LCBUaW1lVW5pdC5TRUNPTkRTKSkKICAgICAgICAKICAgICAgICAvLyDlsJ3or5Xlj5bmtojku7vliqEKICAgICAgICBydW5CbG9ja2luZyB7CiAgICAgICAgICAgIGpvYi5jYW5jZWxBbmRKb2luKCkKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g55Sx5LqOdGhyb3R0bGXorr7nva7kuLoxMDBtc++8jOaUtumbhuaXtuavj+mhuemXtOW7tui/nzMwbXPvvIzlupTor6Xog73mlLbpm4bliLDlpJrkuKrlgLwKICAgICAgICBhc3NlcnRUcnVlKCLlupTor6Xoh7PlsJHmlLbpm4bliLDkuIDkuKrlgLwiLCBjb2xsZWN0ZWQuc2l6ZSA+PSAxKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util.stream
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.filters.MediumTest
+import androidx.test.platform.app.InstrumentationRegistry
+import java.util.concurrent.CountDownLatch
+import java.util.concurrent.TimeUnit
+import kotlin.time.Duration.Companion.milliseconds
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.cancelAndJoin
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withTimeout
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Before
+import org.junit.Test
+import org.junit.runner.RunWith
+
+/** Android测试类，用于测试Stream的基本操作符和功能 */
+@RunWith(AndroidJUnit4::class)
+@MediumTest
+class StreamAndroidTest {
+
+    // 获取应用上下文
+    private val appContext by lazy { 
+        InstrumentationRegistry.getInstrumentation().targetContext
+    }
+    
+    @Before
+    fun setUp() {
+        // 测试开始前的准备工作
+    }
+
+    @Test
+    fun testStreamCreation() = runBlocking {
+        // 测试单个值
+        val collected = mutableListOf<Int>()
+        streamOf(1).collect { collected.add(it) }
+        assertEquals(listOf(1), collected)
+
+        // 测试多个值
+        collected.clear()
+        streamOf(1, 2, 3).collect { collected.add(it) }
+        assertEquals(listOf(1, 2, 3), collected)
+
+        // 测试从集合创建
+        collected.clear()
+        listOf(1, 2, 3).asStream().collect { collected.add(it) }
+        assertEquals(listOf(1, 2, 3), collected)
+    }
+
+    @Test
+    fun testStreamMap() = runBlocking {
+        val collected = mutableListOf<Int>()
+        streamOf(1, 2, 3).map { it * 2 }.collect { collected.add(it) }
+        assertEquals(listOf(2, 4, 6), collected)
+    }
+
+    @Test
+    fun testStreamFilter() = runBlocking {
+        val collected = mutableListOf<Int>()
+        streamOf(1, 2, 3, 4, 5).filter { it % 2 == 0 }.collect { collected.add(it) }
+        assertEquals(listOf(2, 4), collected)
+    }
+
+    @Test
+    fun testStreamTakeAndDrop() = runBlocking {
+        // 测试take
+        val collected1 = mutableListOf<Int>()
+        streamOf(1, 2, 3, 4, 5).take(3).collect { collected1.add(it) }
+        assertEquals(listOf(1, 2, 3), collected1)
+
+        // 测试drop
+        val collected2 = mutableListOf<Int>()
+        streamOf(1, 2, 3, 4, 5).drop(2).collect { collected2.add(it) }
+        assertEquals(listOf(3, 4, 5), collected2)
+    }
+
+    @Test
+    fun testStreamFlatMap() = runBlocking {
+        val collected = mutableListOf<String>()
+        streamOf(1, 2, 3).flatMap { streamOf("a$it", "b$it") }.collect { collected.add(it) }
+        assertEquals(listOf("a1", "b1", "a2", "b2", "a3", "b3"), collected)
+    }
+
+    @Test
+    fun testStreamOnEach() = runBlocking {
+        val sideEffects = mutableListOf<Int>()
+        val collected = mutableListOf<Int>()
+        streamOf(1, 2, 3).onEach { sideEffects.add(it * 10) }.collect { collected.add(it) }
+        assertEquals(listOf(10, 20, 30), sideEffects)
+        assertEquals(listOf(1, 2, 3), collected)
+    }
+
+    @Test
+    fun testStreamConcatenation() = runBlocking {
+        val stream1 = streamOf(1, 2, 3)
+        val stream2 = streamOf(4, 5, 6)
+        val collected = mutableListOf<Int>()
+
+        stream1.concatWith(stream2).collect { collected.add(it) }
+        assertEquals(listOf(1, 2, 3, 4, 5, 6), collected)
+    }
+
+    @Test
+    fun testStreamErrorHandling() = runBlocking {
+        val collected = mutableListOf<String>()
+        val errors = mutableListOf<String>()
+
+        stream<String> {
+            emit("开始")
+            throw RuntimeException("测试错误")
+            emit("不应该到达这里")
+        }
+        .catch { errors.add(it.message ?: "未知错误") }
+        .collect { collected.add(it) }
+
+        assertEquals(listOf("开始"), collected)
+        assertEquals(listOf("测试错误"), errors)
+    }
+
+    @Test
+    fun testStreamDistinct() = runBlocking {
+        val collected = mutableListOf<Int>()
+        streamOf(1, 2, 2, 3, 3, 3, 4).distinctUntilChanged().collect { collected.add(it) }
+        assertEquals(listOf(1, 2, 3, 4), collected)
+    }
+
+    @Test
+    fun testStreamFlowInteroperation() = runBlocking {
+        // Flow转Stream
+        val myFlow = flow<Int> {
+            emit(1)
+            emit(2)
+            emit(3)
+        }
+
+        val collected1 = mutableListOf<Int>()
+        myFlow.asStream().collect { collected1.add(it) }
+        assertEquals(listOf(1, 2, 3), collected1)
+
+        // Stream转Flow
+        val collected2 = mutableListOf<Int>()
+        streamOf(4, 5, 6).asFlow().collect { collected2.add(it) }
+        assertEquals(listOf(4, 5, 6), collected2)
+    }
+
+    @Test
+    fun testStreamFinally() = runBlocking {
+        var finallyExecuted = false
+        streamOf(1, 2, 3).finally { finallyExecuted = true }.collect { /* 忽略 */ }
+        assertTrue("finally块应该执行", finallyExecuted)
+
+        // 测试异常情况下finally也执行
+        finallyExecuted = false
+        try {
+            stream<Int> {
+                emit(1)
+                throw RuntimeException("测试错误")
+            }
+            .finally { finallyExecuted = true }
+            .collect { /* 忽略 */ }
+        } catch (e: RuntimeException) {
+            // 忽略异常
+        }
+
+        assertTrue("异常情况下finally块也应该执行", finallyExecuted)
+    }
+
+    @Test
+    fun testStreamThrottle() = runBlocking {
+        val latch = CountDownLatch(1)
+        val collected = mutableListOf<Int>()
+        
+        // 使用IO调度器代替Main调度器，避免在测试时阻塞主线程
+        val scope = CoroutineScope(Dispatchers.IO)
+
+        val job = scope.launch {
+            try {
+                // 使用withTimeout限制测试时间
+                withTimeout(3000) {
+                    streamOf(1, 2, 3, 4, 5).throttleFirst(100.milliseconds).collect {
+                        collected.add(it)
+                        delay(30) // 模拟处理时间
+                    }
+                }
+            } finally {
+                latch.countDown()
+            }
+        }
+
+        // 等待收集完成或超时
+        assertTrue("收集操作应该在5秒内完成", latch.await(5, TimeUnit.SECONDS))
+        
+        // 尝试取消任务
+        runBlocking {
+            job.cancelAndJoin()
+        }
+        
+        // 由于throttle设置为100ms，收集时每项间延迟30ms，应该能收集到多个值
+        assertTrue("应该至少收集到一个值", collected.size >= 1)
+    }
+}

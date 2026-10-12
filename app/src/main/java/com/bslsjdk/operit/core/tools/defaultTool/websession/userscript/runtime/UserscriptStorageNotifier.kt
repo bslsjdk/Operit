@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQucnVudGltZQoKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCmludGVybmFsIGRhdGEgY2xhc3MgVXNlcnNjcmlwdFN0b3JhZ2VDaGFuZ2UoCiAgICB2YWwgc2NyaXB0SWQ6IExvbmcsCiAgICB2YWwga2V5OiBTdHJpbmcsCiAgICB2YWwgb2xkVmFsdWVKc29uOiBTdHJpbmc/LAogICAgdmFsIG5ld1ZhbHVlSnNvbjogU3RyaW5nPywKICAgIHZhbCByZW1vdGU6IEJvb2xlYW4KKQoKaW50ZXJuYWwgY2xhc3MgVXNlcnNjcmlwdFN0b3JhZ2VOb3RpZmllciB7CiAgICBmdW4gdG9QYXlsb2FkKGNoYW5nZTogVXNlcnNjcmlwdFN0b3JhZ2VDaGFuZ2UpOiBKU09OT2JqZWN0ID0KICAgICAgICBKU09OT2JqZWN0KCkKICAgICAgICAgICAgLnB1dCgic2NyaXB0SWQiLCBjaGFuZ2Uuc2NyaXB0SWQpCiAgICAgICAgICAgIC5wdXQoImtleSIsIGNoYW5nZS5rZXkpCiAgICAgICAgICAgIC5wdXQoInJlbW90ZSIsIGNoYW5nZS5yZW1vdGUpCiAgICAgICAgICAgIC5hbHNvIHsgcGF5bG9hZCAtPgogICAgICAgICAgICAgICAgcGF5bG9hZC5wdXQoIm9sZFZhbHVlSnNvbiIsIGNoYW5nZS5vbGRWYWx1ZUpzb24pCiAgICAgICAgICAgICAgICBwYXlsb2FkLnB1dCgibmV3VmFsdWVKc29uIiwgY2hhbmdlLm5ld1ZhbHVlSnNvbikKICAgICAgICAgICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript.runtime
+
+import org.json.JSONObject
+
+internal data class UserscriptStorageChange(
+    val scriptId: Long,
+    val key: String,
+    val oldValueJson: String?,
+    val newValueJson: String?,
+    val remote: Boolean
+)
+
+internal class UserscriptStorageNotifier {
+    fun toPayload(change: UserscriptStorageChange): JSONObject =
+        JSONObject()
+            .put("scriptId", change.scriptId)
+            .put("key", change.key)
+            .put("remote", change.remote)
+            .also { payload ->
+                payload.put("oldValueJson", change.oldValueJson)
+                payload.put("newValueJson", change.newValueJson)
+            }
+}

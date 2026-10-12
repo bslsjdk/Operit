@@ -1,1 +1,40 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5LU2VyaWFsaXplcgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlc2NyaXB0b3JzLlNlcmlhbERlc2NyaXB0b3IKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5kZXNjcmlwdG9ycy5idWlsZENsYXNzU2VyaWFsRGVzY3JpcHRvcgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlc2NyaXB0b3JzLmVsZW1lbnQKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGluZy4qCgovKioKICogQ3VzdG9tIHNlcmlhbGl6ZXIgZm9yIEludFJhbmdlCiAqLwpvYmplY3QgSW50UmFuZ2VTZXJpYWxpemVyIDogS1NlcmlhbGl6ZXI8SW50UmFuZ2U+IHsKICAgIG92ZXJyaWRlIHZhbCBkZXNjcmlwdG9yOiBTZXJpYWxEZXNjcmlwdG9yID0gYnVpbGRDbGFzc1NlcmlhbERlc2NyaXB0b3IoIkludFJhbmdlIikgewogICAgICAgIGVsZW1lbnQ8SW50Pigic3RhcnQiKQogICAgICAgIGVsZW1lbnQ8SW50PigiZW5kSW5jbHVzaXZlIikKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gc2VyaWFsaXplKGVuY29kZXI6IEVuY29kZXIsIHZhbHVlOiBJbnRSYW5nZSkgewogICAgICAgIGVuY29kZXIuZW5jb2RlU3RydWN0dXJlKGRlc2NyaXB0b3IpIHsKICAgICAgICAgICAgZW5jb2RlSW50RWxlbWVudChkZXNjcmlwdG9yLCAwLCB2YWx1ZS5maXJzdCkKICAgICAgICAgICAgZW5jb2RlSW50RWxlbWVudChkZXNjcmlwdG9yLCAxLCB2YWx1ZS5sYXN0KQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZGVzZXJpYWxpemUoZGVjb2RlcjogRGVjb2Rlcik6IEludFJhbmdlIHsKICAgICAgICB2YXIgc3RhcnQgPSAwCiAgICAgICAgdmFyIGVuZEluY2x1c2l2ZSA9IDAKICAgICAgICBkZWNvZGVyLmRlY29kZVN0cnVjdHVyZShkZXNjcmlwdG9yKSB7CiAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICB3aGVuICh2YWwgaW5kZXggPSBkZWNvZGVFbGVtZW50SW5kZXgoZGVzY3JpcHRvcikpIHsKICAgICAgICAgICAgICAgICAgICAwIC0+IHN0YXJ0ID0gZGVjb2RlSW50RWxlbWVudChkZXNjcmlwdG9yLCAwKQogICAgICAgICAgICAgICAgICAgIDEgLT4gZW5kSW5jbHVzaXZlID0gZGVjb2RlSW50RWxlbWVudChkZXNjcmlwdG9yLCAxKQogICAgICAgICAgICAgICAgICAgIENvbXBvc2l0ZURlY29kZXIuREVDT0RFX0RPTkUgLT4gYnJlYWsKICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IGVycm9yKCJVbmV4cGVjdGVkIGluZGV4OiAkaW5kZXgiKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBJbnRSYW5nZShzdGFydCwgZW5kSW5jbHVzaXZlKQogICAgfQp9IA==
+package com.bslsjdk.operit.util
+
+import kotlinx.serialization.KSerializer
+import kotlinx.serialization.descriptors.SerialDescriptor
+import kotlinx.serialization.descriptors.buildClassSerialDescriptor
+import kotlinx.serialization.descriptors.element
+import kotlinx.serialization.encoding.*
+
+/**
+ * Custom serializer for IntRange
+ */
+object IntRangeSerializer : KSerializer<IntRange> {
+    override val descriptor: SerialDescriptor = buildClassSerialDescriptor("IntRange") {
+        element<Int>("start")
+        element<Int>("endInclusive")
+    }
+
+    override fun serialize(encoder: Encoder, value: IntRange) {
+        encoder.encodeStructure(descriptor) {
+            encodeIntElement(descriptor, 0, value.first)
+            encodeIntElement(descriptor, 1, value.last)
+        }
+    }
+
+    override fun deserialize(decoder: Decoder): IntRange {
+        var start = 0
+        var endInclusive = 0
+        decoder.decodeStructure(descriptor) {
+            while (true) {
+                when (val index = decodeElementIndex(descriptor)) {
+                    0 -> start = decodeIntElement(descriptor, 0)
+                    1 -> endInclusive = decodeIntElement(descriptor, 1)
+                    CompositeDecoder.DECODE_DONE -> break
+                    else -> error("Unexpected index: $index")
+                }
+            }
+        }
+        return IntRange(start, endInclusive)
+    }
+} 

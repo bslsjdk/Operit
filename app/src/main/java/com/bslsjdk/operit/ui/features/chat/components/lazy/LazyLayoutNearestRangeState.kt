@@ -1,1 +1,65 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5TdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnN0cnVjdHVyYWxFcXVhbGl0eVBvbGljeQoKaW50ZXJuYWwgY2xhc3MgTGF6eUxheW91dE5lYXJlc3RSYW5nZVN0YXRlKAogICAgZmlyc3RWaXNpYmxlSXRlbTogSW50LAogICAgcHJpdmF0ZSB2YWwgc2xpZGluZ1dpbmRvd1NpemU6IEludCwKICAgIHByaXZhdGUgdmFsIGV4dHJhSXRlbUNvdW50OiBJbnQsCikgOiBTdGF0ZTxJbnRSYW5nZT4gewoKICAgIG92ZXJyaWRlIHZhciB2YWx1ZTogSW50UmFuZ2UgYnkKICAgICAgICBtdXRhYmxlU3RhdGVPZigKICAgICAgICAgICAgY2FsY3VsYXRlTmVhcmVzdEl0ZW1zUmFuZ2UoZmlyc3RWaXNpYmxlSXRlbSwgc2xpZGluZ1dpbmRvd1NpemUsIGV4dHJhSXRlbUNvdW50KSwKICAgICAgICAgICAgc3RydWN0dXJhbEVxdWFsaXR5UG9saWN5KCksCiAgICAgICAgKQogICAgICAgIHByaXZhdGUgc2V0CgogICAgcHJpdmF0ZSB2YXIgbGFzdEZpcnN0VmlzaWJsZUl0ZW0gPSBmaXJzdFZpc2libGVJdGVtCgogICAgZnVuIHVwZGF0ZShmaXJzdFZpc2libGVJdGVtOiBJbnQpIHsKICAgICAgICBpZiAoZmlyc3RWaXNpYmxlSXRlbSAhPSBsYXN0Rmlyc3RWaXNpYmxlSXRlbSkgewogICAgICAgICAgICBsYXN0Rmlyc3RWaXNpYmxlSXRlbSA9IGZpcnN0VmlzaWJsZUl0ZW0KICAgICAgICAgICAgdmFsdWUgPSBjYWxjdWxhdGVOZWFyZXN0SXRlbXNSYW5nZShmaXJzdFZpc2libGVJdGVtLCBzbGlkaW5nV2luZG93U2l6ZSwgZXh0cmFJdGVtQ291bnQpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgLyoqCiAgICAgICAgICogUmV0dXJucyBhIHJhbmdlIG9mIGluZGV4ZXMgd2hpY2ggY29udGFpbnMgYXQgbGVhc3QgW2V4dHJhSXRlbUNvdW50XSBpdGVtcyBuZWFyIHRoZSBmaXJzdAogICAgICAgICAqIHZpc2libGUgaXRlbS4gSXQgaXMgb3B0aW1pemVkIHRvIHJldHVybiB0aGUgc2FtZSByYW5nZSBmb3Igc21hbGwgY2hhbmdlcyBpbiB0aGUKICAgICAgICAgKiBmaXJzdFZpc2libGVJdGVtIHZhbHVlIHNvIHdlIGRvIG5vdCByZWdlbmVyYXRlIHRoZSBtYXAgb24gZWFjaCBzY3JvbGwuCiAgICAgICAgICovCiAgICAgICAgcHJpdmF0ZSBmdW4gY2FsY3VsYXRlTmVhcmVzdEl0ZW1zUmFuZ2UoCiAgICAgICAgICAgIGZpcnN0VmlzaWJsZUl0ZW06IEludCwKICAgICAgICAgICAgc2xpZGluZ1dpbmRvd1NpemU6IEludCwKICAgICAgICAgICAgZXh0cmFJdGVtQ291bnQ6IEludCwKICAgICAgICApOiBJbnRSYW5nZSB7CiAgICAgICAgICAgIHZhbCBzbGlkaW5nV2luZG93U3RhcnQgPSBzbGlkaW5nV2luZG93U2l6ZSAqIChmaXJzdFZpc2libGVJdGVtIC8gc2xpZGluZ1dpbmRvd1NpemUpCgogICAgICAgICAgICB2YWwgc3RhcnQgPSBtYXhPZihzbGlkaW5nV2luZG93U3RhcnQgLSBleHRyYUl0ZW1Db3VudCwgMCkKICAgICAgICAgICAgdmFsIGVuZCA9IHNsaWRpbmdXaW5kb3dTdGFydCArIHNsaWRpbmdXaW5kb3dTaXplICsgZXh0cmFJdGVtQ291bnQKICAgICAgICAgICAgcmV0dXJuIHN0YXJ0IHVudGlsIGVuZAogICAgICAgIH0KICAgIH0KfQo=
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.runtime.State
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.structuralEqualityPolicy
+
+internal class LazyLayoutNearestRangeState(
+    firstVisibleItem: Int,
+    private val slidingWindowSize: Int,
+    private val extraItemCount: Int,
+) : State<IntRange> {
+
+    override var value: IntRange by
+        mutableStateOf(
+            calculateNearestItemsRange(firstVisibleItem, slidingWindowSize, extraItemCount),
+            structuralEqualityPolicy(),
+        )
+        private set
+
+    private var lastFirstVisibleItem = firstVisibleItem
+
+    fun update(firstVisibleItem: Int) {
+        if (firstVisibleItem != lastFirstVisibleItem) {
+            lastFirstVisibleItem = firstVisibleItem
+            value = calculateNearestItemsRange(firstVisibleItem, slidingWindowSize, extraItemCount)
+        }
+    }
+
+    private companion object {
+        /**
+         * Returns a range of indexes which contains at least [extraItemCount] items near the first
+         * visible item. It is optimized to return the same range for small changes in the
+         * firstVisibleItem value so we do not regenerate the map on each scroll.
+         */
+        private fun calculateNearestItemsRange(
+            firstVisibleItem: Int,
+            slidingWindowSize: Int,
+            extraItemCount: Int,
+        ): IntRange {
+            val slidingWindowStart = slidingWindowSize * (firstVisibleItem / slidingWindowSize)
+
+            val start = maxOf(slidingWindowStart - extraItemCount, 0)
+            val end = slidingWindowStart + slidingWindowSize + extraItemCount
+            return start until end
+        }
+    }
+}

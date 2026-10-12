@@ -1,1 +1,54 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgb3JnLmpzb24uSlNPTk9iamVjdAppbXBvcnQgb3JnLmpzb24uSlNPTlRva2VuZXIKCmludGVybmFsIGRhdGEgY2xhc3MgSnNFeGVjdXRpb25GYWlsdXJlKAogICAgdmFsIG1lc3NhZ2U6IFN0cmluZywKICAgIHZhbCBkYXRhVGV4dDogU3RyaW5nCikKCmludGVybmFsIGZ1biBidWlsZEpzRXhlY3V0aW9uRXJyb3JQYXlsb2FkKG1lc3NhZ2U6IFN0cmluZyk6IFN0cmluZyA9CiAgICBKU09OT2JqZWN0KCkKICAgICAgICAucHV0KCJzdWNjZXNzIiwgZmFsc2UpCiAgICAgICAgLnB1dCgibWVzc2FnZSIsIG1lc3NhZ2UudHJpbSgpKQogICAgICAgIC50b1N0cmluZygpCgppbnRlcm5hbCBmdW4gZXh0cmFjdEpzRXhlY3V0aW9uRmFpbHVyZShyYXc6IEFueT8pOiBKc0V4ZWN1dGlvbkZhaWx1cmU/IHsKICAgIHZhbCB0ZXh0ID0gcmF3Py50b1N0cmluZygpPy50cmltKCkub3JFbXB0eSgpCiAgICBpZiAodGV4dC5pc0VtcHR5KCkpIHsKICAgICAgICByZXR1cm4gbnVsbAogICAgfQogICAgdmFsIHBhcnNlZCA9IHJ1bkNhdGNoaW5nIHsgSlNPTlRva2VuZXIodGV4dCkubmV4dFZhbHVlKCkgfS5nZXRPck51bGwoKSBhcz8gSlNPTk9iamVjdCA/OiByZXR1cm4gbnVsbAogICAgaWYgKCFwYXJzZWQuaGFzKCJzdWNjZXNzIikgfHwgcGFyc2VkLm9wdEJvb2xlYW4oInN1Y2Nlc3MiLCB0cnVlKSkgewogICAgICAgIHJldHVybiBudWxsCiAgICB9CgogICAgdmFsIG1lc3NhZ2UgPSBwYXJzZWQub3B0U3RyaW5nKCJtZXNzYWdlIikudHJpbSgpCiAgICB2YWwgZGF0YVRleHQgPQogICAgICAgIGlmIChwYXJzZWQuaGFzKCJkYXRhIikgJiYgIXBhcnNlZC5pc051bGwoImRhdGEiKSkgewogICAgICAgICAgICBwYXJzZWQuZ2V0KCJkYXRhIikudG9TdHJpbmcoKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICIiCiAgICAgICAgfQoKICAgIHJldHVybiBKc0V4ZWN1dGlvbkZhaWx1cmUoCiAgICAgICAgbWVzc2FnZSA9IG1lc3NhZ2UsCiAgICAgICAgZGF0YVRleHQgPSBkYXRhVGV4dAogICAgKQp9CgppbnRlcm5hbCBmdW4gZXh0cmFjdEpzRXhlY3V0aW9uRXJyb3JNZXNzYWdlKHJhdzogQW55Pyk6IFN0cmluZz8gewogICAgcmV0dXJuIGV4dHJhY3RKc0V4ZWN1dGlvbkZhaWx1cmUocmF3KT8ubWVzc2FnZT8uaWZFbXB0eSB7IG51bGwgfQp9CgppbnRlcm5hbCBmdW4gZGVjb2RlSnNFeGVjdXRpb25SZXN1bHRWYWx1ZShyYXc6IEFueT8pOiBBbnk/IHsKICAgIGlmIChyYXcgIWlzIFN0cmluZykgewogICAgICAgIHJldHVybiByYXcKICAgIH0KICAgIHZhbCB0ZXh0ID0gcmF3LnRyaW0oKQogICAgaWYgKHRleHQuaXNFbXB0eSgpKSB7CiAgICAgICAgcmV0dXJuIEpTT05PYmplY3QuTlVMTAogICAgfQogICAgcmV0dXJuIEpTT05Ub2tlbmVyKHRleHQpLm5leHRWYWx1ZSgpCn0K
+package com.bslsjdk.operit.core.tools.javascript
+
+import org.json.JSONObject
+import org.json.JSONTokener
+
+internal data class JsExecutionFailure(
+    val message: String,
+    val dataText: String
+)
+
+internal fun buildJsExecutionErrorPayload(message: String): String =
+    JSONObject()
+        .put("success", false)
+        .put("message", message.trim())
+        .toString()
+
+internal fun extractJsExecutionFailure(raw: Any?): JsExecutionFailure? {
+    val text = raw?.toString()?.trim().orEmpty()
+    if (text.isEmpty()) {
+        return null
+    }
+    val parsed = runCatching { JSONTokener(text).nextValue() }.getOrNull() as? JSONObject ?: return null
+    if (!parsed.has("success") || parsed.optBoolean("success", true)) {
+        return null
+    }
+
+    val message = parsed.optString("message").trim()
+    val dataText =
+        if (parsed.has("data") && !parsed.isNull("data")) {
+            parsed.get("data").toString()
+        } else {
+            ""
+        }
+
+    return JsExecutionFailure(
+        message = message,
+        dataText = dataText
+    )
+}
+
+internal fun extractJsExecutionErrorMessage(raw: Any?): String? {
+    return extractJsExecutionFailure(raw)?.message?.ifEmpty { null }
+}
+
+internal fun decodeJsExecutionResultValue(raw: Any?): Any? {
+    if (raw !is String) {
+        return raw
+    }
+    val text = raw.trim()
+    if (text.isEmpty()) {
+        return JSONObject.NULL
+    }
+    return JSONTokener(text).nextValue()
+}

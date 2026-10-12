@@ -1,1 +1,436 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkucmVjb3ZlcnkKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5kYXRhYmFzZS5DdXJzb3IKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbFByb3ZpZGVyCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUudmlld01vZGVsU2NvcGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5iYWNrdXAuUmF3U25hcHNob3RCYWNrdXBNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5kYi5BcHBEYXRhYmFzZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucmVjb3ZlcnkuUHJlZmVyZW5jZXNIZWFsdGhNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZWNvdmVyeS5Sb29tRGF0YWJhc2VIZWFsdGhNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkxvY2FsZVV0aWxzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKY2xhc3MgRGF0YVJlY292ZXJ5Vmlld01vZGVsKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIDogVmlld01vZGVsKCkgewoKICAgIGRhdGEgY2xhc3MgUXVlcnlSZXN1bHQoCiAgICAgICAgdmFsIGNvbHVtbnM6IExpc3Q8U3RyaW5nPiwKICAgICAgICB2YWwgcm93czogTGlzdDxMaXN0PFN0cmluZz4+CiAgICApCgogICAgZGF0YSBjbGFzcyBTdGF0ZSgKICAgICAgICB2YWwgaXNSdW5uaW5nOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmFsIHN0YXR1czogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgdmFsIGVycm9yOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICB2YWwgc3FsVGV4dDogU3RyaW5nID0gU0FGRV9NRVNTQUdFU19RVUVSWSwKICAgICAgICB2YWwgcXVlcnlSZXN1bHQ6IFF1ZXJ5UmVzdWx0PyA9IG51bGwsCiAgICAgICAgdmFsIGFmZmVjdGVkUm93czogSW50PyA9IG51bGwsCiAgICAgICAgdmFsIGxhc3RTbmFwc2hvdFBhdGg6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHZhbCByZXN0b3JlQ29tcGxldGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmFsIGNvbmZpZ3VyYXRpb25IZWFsdGhSZXBvcnQ6IFByZWZlcmVuY2VzSGVhbHRoTWFuYWdlci5SZXBvcnQ/ID0gbnVsbCwKICAgICAgICB2YWwgZGF0YWJhc2VIZWFsdGhSZXBvcnQ6IFJvb21EYXRhYmFzZUhlYWx0aE1hbmFnZXIuUmVwb3J0PyA9IG51bGwsCiAgICAgICAgdmFsIGxhc3RDb25maWd1cmF0aW9uUmVwYWlyQXJjaGl2ZVBhdGg6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHZhbCBsYXN0RGF0YWJhc2VSZXBhaXJBcmNoaXZlUGF0aDogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgdmFsIGhlYWx0aFJlcGFpckNvbXBsZXRlZDogQm9vbGVhbiA9IGZhbHNlCiAgICApCgogICAgcHJpdmF0ZSB2YWwgX3N0YXRlID0gTXV0YWJsZVN0YXRlRmxvdyhTdGF0ZSgpKQogICAgdmFsIHN0YXRlOiBTdGF0ZUZsb3c8U3RhdGU+ID0gX3N0YXRlLmFzU3RhdGVGbG93KCkKCiAgICBmdW4gc2V0U3FsVGV4dChzcWw6IFN0cmluZykgewogICAgICAgIF9zdGF0ZS52YWx1ZSA9IF9zdGF0ZS52YWx1ZS5jb3B5KHNxbFRleHQgPSBzcWwpCiAgICB9CgogICAgZnVuIHJ1blNxbCgpIHsKICAgICAgICB2YWwgc3FsID0gc2FuaXRpemVTcWwoX3N0YXRlLnZhbHVlLnNxbFRleHQpCiAgICAgICAgaWYgKHNxbC5pc0JsYW5rKCkpIHsKICAgICAgICAgICAgX3N0YXRlLnZhbHVlID0gX3N0YXRlLnZhbHVlLmNvcHkoZXJyb3IgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X3NxbF9lbXB0eSksIHN0YXR1cyA9IG51bGwsIGFmZmVjdGVkUm93cyA9IG51bGwpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgX3N0YXRlLnZhbHVlID0KICAgICAgICAgICAgX3N0YXRlLnZhbHVlLmNvcHkoaXNSdW5uaW5nID0gdHJ1ZSwgZXJyb3IgPSBudWxsLCBzdGF0dXMgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X3NxbF9ydW5uaW5nKSwgYWZmZWN0ZWRSb3dzID0gbnVsbCkKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2goRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGlmIChpc1F1ZXJ5U3RhdGVtZW50KHNxbCkpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gZXhlY3V0ZVF1ZXJ5KHNxbCkKICAgICAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5NYWluKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc1J1bm5pbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X3F1ZXJ5X2NvbXBsZXRlZCwgcmVzdWx0LnJvd3Muc2l6ZSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcXVlcnlSZXN1bHQgPSByZXN1bHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWZmZWN0ZWRSb3dzID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25maWd1cmF0aW9uSGVhbHRoUmVwb3J0ID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkYXRhYmFzZUhlYWx0aFJlcG9ydCA9IG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHdyaXRhYmxlRGF0YWJhc2UoKS5leGVjU1FMKHNxbCkKICAgICAgICAgICAgICAgICAgICB2YWwgYWZmZWN0ZWRSb3dzID0gcXVlcnlDaGFuZ2VzKCkKICAgICAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5NYWluKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc1J1bm5pbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X3NxbF9jb21wbGV0ZWQpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHF1ZXJ5UmVzdWx0ID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZmZlY3RlZFJvd3MgPSBhZmZlY3RlZFJvd3MsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlndXJhdGlvbkhlYWx0aFJlcG9ydCA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGF0YWJhc2VIZWFsdGhSZXBvcnQgPSBudWxsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlJlY292ZXJ5IFNRTCBmYWlsZWQiLCBlKQogICAgICAgICAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuTWFpbikgewogICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNSdW5uaW5nID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvciA9IGUubWVzc2FnZSA/OiBlLmphdmFDbGFzcy5uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFmZmVjdGVkUm93cyA9IG51bGwKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBleHBvcnRSYXdTbmFwc2hvdCgpIHsKICAgICAgICBfc3RhdGUudmFsdWUgPQogICAgICAgICAgICBfc3RhdGUudmFsdWUuY29weShpc1J1bm5pbmcgPSB0cnVlLCBlcnJvciA9IG51bGwsIHN0YXR1cyA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfZXhwb3J0X3J1bm5pbmcpLCBsYXN0U25hcHNob3RQYXRoID0gbnVsbCkKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIG91dEZpbGUgPQogICAgICAgICAgICAgICAgICAgIFJhd1NuYXBzaG90QmFja3VwTWFuYWdlci5leHBvcnRUb0JhY2t1cERpcihjb250ZXh0KSB7IHByb2dyZXNzIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPSBleHBvcnRQcm9ncmVzc1RleHQocHJvZ3Jlc3MpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgX3N0YXRlLnZhbHVlID0KICAgICAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgaXNSdW5uaW5nID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXR1cyA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfZXhwb3J0X2NvbXBsZXRlZCksCiAgICAgICAgICAgICAgICAgICAgICAgIGxhc3RTbmFwc2hvdFBhdGggPSBvdXRGaWxlLmFic29sdXRlUGF0aAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJSYXcgc25hcHNob3QgZXhwb3J0IGZhaWxlZCIsIGUpCiAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUgPQogICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICBpc1J1bm5pbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSBlLm1lc3NhZ2UgPzogZS5qYXZhQ2xhc3MubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gbnVsbAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gcmVzdG9yZVJhd1NuYXBzaG90KHVyaTogVXJpKSB7CiAgICAgICAgX3N0YXRlLnZhbHVlID0KICAgICAgICAgICAgX3N0YXRlLnZhbHVlLmNvcHkoaXNSdW5uaW5nID0gdHJ1ZSwgZXJyb3IgPSBudWxsLCBzdGF0dXMgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X3Jlc3RvcmVfcnVubmluZyksIHJlc3RvcmVDb21wbGV0ZWQgPSBmYWxzZSkKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgUmF3U25hcHNob3RCYWNrdXBNYW5hZ2VyLnJlc3RvcmVGcm9tQmFja3VwVXJpKGNvbnRleHQsIHVyaSkgeyBwcm9ncmVzcyAtPgogICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9IF9zdGF0ZS52YWx1ZS5jb3B5KHN0YXR1cyA9IHJlc3RvcmVQcm9ncmVzc1RleHQocHJvZ3Jlc3MpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgX3N0YXRlLnZhbHVlID0KICAgICAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgaXNSdW5uaW5nID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXR1cyA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfcmVzdG9yZV9jb21wbGV0ZWQpLAogICAgICAgICAgICAgICAgICAgICAgICByZXN0b3JlQ29tcGxldGVkID0gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlndXJhdGlvbkhlYWx0aFJlcG9ydCA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGRhdGFiYXNlSGVhbHRoUmVwb3J0ID0gbnVsbAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJSYXcgc25hcHNob3QgcmVzdG9yZSBmYWlsZWQiLCBlKQogICAgICAgICAgICAgICAgX3N0YXRlLnZhbHVlID0KICAgICAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgaXNSdW5uaW5nID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yID0gZS5tZXNzYWdlID86IGUuamF2YUNsYXNzLm5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXR1cyA9IG51bGwKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGluc3BlY3RTdG9yYWdlKCkgewogICAgICAgIF9zdGF0ZS52YWx1ZSA9CiAgICAgICAgICAgIF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICAgICAgaXNSdW5uaW5nID0gdHJ1ZSwKICAgICAgICAgICAgICAgIGVycm9yID0gbnVsbCwKICAgICAgICAgICAgICAgIHN0YXR1cyA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfZGF0YWJhc2VfY2hlY2tfcnVubmluZyksCiAgICAgICAgICAgICAgICBhZmZlY3RlZFJvd3MgPSBudWxsLAogICAgICAgICAgICAgICAgY29uZmlndXJhdGlvbkhlYWx0aFJlcG9ydCA9IG51bGwsCiAgICAgICAgICAgICAgICBkYXRhYmFzZUhlYWx0aFJlcG9ydCA9IG51bGwsCiAgICAgICAgICAgICAgICBsYXN0Q29uZmlndXJhdGlvblJlcGFpckFyY2hpdmVQYXRoID0gbnVsbCwKICAgICAgICAgICAgICAgIGxhc3REYXRhYmFzZVJlcGFpckFyY2hpdmVQYXRoID0gbnVsbCwKICAgICAgICAgICAgICAgIGhlYWx0aFJlcGFpckNvbXBsZXRlZCA9IGZhbHNlCiAgICAgICAgICAgICkKICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGNvbmZpZ3VyYXRpb25SZXBvcnQgPSBQcmVmZXJlbmNlc0hlYWx0aE1hbmFnZXIuaW5zcGVjdChjb250ZXh0KQogICAgICAgICAgICAgICAgdmFsIGRhdGFiYXNlUmVwb3J0ID0gUm9vbURhdGFiYXNlSGVhbHRoTWFuYWdlci5pbnNwZWN0KGNvbnRleHQpCiAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUgPQogICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICBpc1J1bm5pbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gaGVhbHRoU3VtbWFyeShjb25maWd1cmF0aW9uUmVwb3J0LCBkYXRhYmFzZVJlcG9ydCksCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbmZpZ3VyYXRpb25IZWFsdGhSZXBvcnQgPSBjb25maWd1cmF0aW9uUmVwb3J0LAogICAgICAgICAgICAgICAgICAgICAgICBkYXRhYmFzZUhlYWx0aFJlcG9ydCA9IGRhdGFiYXNlUmVwb3J0CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkNvbmZpZ3VyYXRpb24gYW5kIGRhdGFiYXNlIGhlYWx0aCBpbnNwZWN0aW9uIGZhaWxlZCIsIGUpCiAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUgPQogICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICBpc1J1bm5pbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSBlLm1lc3NhZ2UgPzogZS5qYXZhQ2xhc3MubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gbnVsbAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gcmVwYWlyU3RvcmFnZSgpIHsKICAgICAgICB2YWwgcmVwYWlyQ29uZmlndXJhdGlvbiA9IF9zdGF0ZS52YWx1ZS5jb25maWd1cmF0aW9uSGVhbHRoUmVwb3J0Py5jYW5SZXBhaXIgPT0gdHJ1ZQogICAgICAgIHZhbCByZXBhaXJEYXRhYmFzZSA9IF9zdGF0ZS52YWx1ZS5kYXRhYmFzZUhlYWx0aFJlcG9ydD8uY2FuUmVwYWlyID09IHRydWUKICAgICAgICBpZiAoIXJlcGFpckNvbmZpZ3VyYXRpb24gJiYgIXJlcGFpckRhdGFiYXNlKSB7CiAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9CiAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgICAgICBlcnJvciA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfZGF0YWJhc2Vfbm9fc3VwcG9ydGVkX3JlcGFpciksCiAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gbnVsbAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIF9zdGF0ZS52YWx1ZSA9CiAgICAgICAgICAgIF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICAgICAgaXNSdW5uaW5nID0gdHJ1ZSwKICAgICAgICAgICAgICAgIGVycm9yID0gbnVsbCwKICAgICAgICAgICAgICAgIHN0YXR1cyA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfZGF0YWJhc2VfcmVwYWlyX3J1bm5pbmcpLAogICAgICAgICAgICAgICAgYWZmZWN0ZWRSb3dzID0gbnVsbCwKICAgICAgICAgICAgICAgIGxhc3RDb25maWd1cmF0aW9uUmVwYWlyQXJjaGl2ZVBhdGggPSBudWxsLAogICAgICAgICAgICAgICAgbGFzdERhdGFiYXNlUmVwYWlyQXJjaGl2ZVBhdGggPSBudWxsLAogICAgICAgICAgICAgICAgaGVhbHRoUmVwYWlyQ29tcGxldGVkID0gZmFsc2UKICAgICAgICAgICAgKQogICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHZhciBjb25maWd1cmF0aW9uQXJjaGl2ZVBhdGg6IFN0cmluZz8gPSBudWxsCiAgICAgICAgICAgIHZhciBkYXRhYmFzZUFyY2hpdmVQYXRoOiBTdHJpbmc/ID0gbnVsbAogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgaWYgKHJlcGFpckRhdGFiYXNlKSB7CiAgICAgICAgICAgICAgICAgICAgZGF0YWJhc2VBcmNoaXZlUGF0aCA9CiAgICAgICAgICAgICAgICAgICAgICAgIFJvb21EYXRhYmFzZUhlYWx0aE1hbmFnZXIucmVwYWlyKGNvbnRleHQpLnNvdXJjZUFyY2hpdmUuYWJzb2x1dGVQYXRoCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAocmVwYWlyQ29uZmlndXJhdGlvbikgewogICAgICAgICAgICAgICAgICAgIGNvbmZpZ3VyYXRpb25BcmNoaXZlUGF0aCA9CiAgICAgICAgICAgICAgICAgICAgICAgIFByZWZlcmVuY2VzSGVhbHRoTWFuYWdlci5yZXBhaXIoY29udGV4dCkuc291cmNlQXJjaGl2ZS5hYnNvbHV0ZVBhdGgKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB2YWwgY29uZmlndXJhdGlvblJlcG9ydCA9IFByZWZlcmVuY2VzSGVhbHRoTWFuYWdlci5pbnNwZWN0KGNvbnRleHQpCiAgICAgICAgICAgICAgICB2YWwgZGF0YWJhc2VSZXBvcnQgPSBSb29tRGF0YWJhc2VIZWFsdGhNYW5hZ2VyLmluc3BlY3QoY29udGV4dCkKICAgICAgICAgICAgICAgIHZhbCBzdGF0dXMgPQogICAgICAgICAgICAgICAgICAgIGlmIChpc0hlYWx0aHkoY29uZmlndXJhdGlvblJlcG9ydCwgZGF0YWJhc2VSZXBvcnQpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmRhdGFfcmVjb3ZlcnlfZGF0YWJhc2VfcmVwYWlyX2NvbXBsZXRlZCkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2RhdGFiYXNlX3JlcGFpcl9yZW1haW5pbmcpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgX3N0YXRlLnZhbHVlID0KICAgICAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUuY29weSgKICAgICAgICAgICAgICAgICAgICAgICAgaXNSdW5uaW5nID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXR1cyA9IHN0YXR1cywKICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlndXJhdGlvbkhlYWx0aFJlcG9ydCA9IGNvbmZpZ3VyYXRpb25SZXBvcnQsCiAgICAgICAgICAgICAgICAgICAgICAgIGRhdGFiYXNlSGVhbHRoUmVwb3J0ID0gZGF0YWJhc2VSZXBvcnQsCiAgICAgICAgICAgICAgICAgICAgICAgIGxhc3RDb25maWd1cmF0aW9uUmVwYWlyQXJjaGl2ZVBhdGggPSBjb25maWd1cmF0aW9uQXJjaGl2ZVBhdGgsCiAgICAgICAgICAgICAgICAgICAgICAgIGxhc3REYXRhYmFzZVJlcGFpckFyY2hpdmVQYXRoID0gZGF0YWJhc2VBcmNoaXZlUGF0aCwKICAgICAgICAgICAgICAgICAgICAgICAgaGVhbHRoUmVwYWlyQ29tcGxldGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBjYXRjaCAoZTogUHJlZmVyZW5jZXNIZWFsdGhNYW5hZ2VyLlJlcGFpckZhaWxlZEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiUHJlZmVyZW5jZXMgcmVwYWlyIGZhaWxlZCBhZnRlciBzb3VyY2UgcHJlc2VydmF0aW9uIiwgZSkKICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZSA9CiAgICAgICAgICAgICAgICAgICAgX3N0YXRlLnZhbHVlLmNvcHkoCiAgICAgICAgICAgICAgICAgICAgICAgIGlzUnVubmluZyA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICBlcnJvciA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2RhdGFiYXNlX3JlcGFpcl9mYWlsZWRfcHJlc2VydmVkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGUuc291cmNlQXJjaGl2ZS5hYnNvbHV0ZVBhdGgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXR1cyA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgIGxhc3RDb25maWd1cmF0aW9uUmVwYWlyQXJjaGl2ZVBhdGggPSBlLnNvdXJjZUFyY2hpdmUuYWJzb2x1dGVQYXRoLAogICAgICAgICAgICAgICAgICAgICAgICBsYXN0RGF0YWJhc2VSZXBhaXJBcmNoaXZlUGF0aCA9IGRhdGFiYXNlQXJjaGl2ZVBhdGgKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IFJvb21EYXRhYmFzZUhlYWx0aE1hbmFnZXIuUmVwYWlyRmFpbGVkRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJSb29tIGRhdGFiYXNlIHJlcGFpciBmYWlsZWQgYWZ0ZXIgc291cmNlIHByZXNlcnZhdGlvbiIsIGUpCiAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUgPQogICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICBpc1J1bm5pbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9kYXRhYmFzZV9yZXBhaXJfZmFpbGVkX3ByZXNlcnZlZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlLnNvdXJjZUFyY2hpdmUuYWJzb2x1dGVQYXRoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgICBzdGF0dXMgPSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICBsYXN0Q29uZmlndXJhdGlvblJlcGFpckFyY2hpdmVQYXRoID0gY29uZmlndXJhdGlvbkFyY2hpdmVQYXRoLAogICAgICAgICAgICAgICAgICAgICAgICBsYXN0RGF0YWJhc2VSZXBhaXJBcmNoaXZlUGF0aCA9IGUuc291cmNlQXJjaGl2ZS5hYnNvbHV0ZVBhdGgKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiQ29uZmlndXJhdGlvbiBhbmQgZGF0YWJhc2UgcmVwYWlyIGZhaWxlZCIsIGUpCiAgICAgICAgICAgICAgICBfc3RhdGUudmFsdWUgPQogICAgICAgICAgICAgICAgICAgIF9zdGF0ZS52YWx1ZS5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICBpc1J1bm5pbmcgPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IgPSBlLm1lc3NhZ2UgPzogZS5qYXZhQ2xhc3MubmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gbnVsbCwKICAgICAgICAgICAgICAgICAgICAgICAgbGFzdENvbmZpZ3VyYXRpb25SZXBhaXJBcmNoaXZlUGF0aCA9IGNvbmZpZ3VyYXRpb25BcmNoaXZlUGF0aCwKICAgICAgICAgICAgICAgICAgICAgICAgbGFzdERhdGFiYXNlUmVwYWlyQXJjaGl2ZVBhdGggPSBkYXRhYmFzZUFyY2hpdmVQYXRoCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGhlYWx0aFN1bW1hcnkoCiAgICAgICAgY29uZmlndXJhdGlvblJlcG9ydDogUHJlZmVyZW5jZXNIZWFsdGhNYW5hZ2VyLlJlcG9ydCwKICAgICAgICBkYXRhYmFzZVJlcG9ydDogUm9vbURhdGFiYXNlSGVhbHRoTWFuYWdlci5SZXBvcnQKICAgICk6IFN0cmluZyA9CiAgICAgICAgd2hlbiB7CiAgICAgICAgICAgIGNvbmZpZ3VyYXRpb25SZXBvcnQuc3RhdHVzID09IFByZWZlcmVuY2VzSGVhbHRoTWFuYWdlci5TdGF0dXMuTUFOVUFMX1JFQ09WRVJZX1JFUVVJUkVEIHx8CiAgICAgICAgICAgICAgICBkYXRhYmFzZVJlcG9ydC5zdGF0dXMgPT0gUm9vbURhdGFiYXNlSGVhbHRoTWFuYWdlci5TdGF0dXMuTUFOVUFMX1JFQ09WRVJZX1JFUVVJUkVEIC0+CiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2RhdGFiYXNlX3N1bW1hcnlfbWFudWFsKQogICAgICAgICAgICBjb25maWd1cmF0aW9uUmVwb3J0LnN0YXR1cyA9PSBQcmVmZXJlbmNlc0hlYWx0aE1hbmFnZXIuU3RhdHVzLk5FRURTX1JFUEFJUiB8fAogICAgICAgICAgICAgICAgZGF0YWJhc2VSZXBvcnQuc3RhdHVzID09IFJvb21EYXRhYmFzZUhlYWx0aE1hbmFnZXIuU3RhdHVzLk5FRURTX1JFUEFJUiAtPgogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9kYXRhYmFzZV9zdW1tYXJ5X3JlcGFpcmFibGUpCiAgICAgICAgICAgIGVsc2UgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9kYXRhYmFzZV9zdW1tYXJ5X2hlYWx0aHkpCiAgICAgICAgfQoKICAgIHByaXZhdGUgZnVuIGlzSGVhbHRoeSgKICAgICAgICBjb25maWd1cmF0aW9uUmVwb3J0OiBQcmVmZXJlbmNlc0hlYWx0aE1hbmFnZXIuUmVwb3J0LAogICAgICAgIGRhdGFiYXNlUmVwb3J0OiBSb29tRGF0YWJhc2VIZWFsdGhNYW5hZ2VyLlJlcG9ydAogICAgKTogQm9vbGVhbiA9CiAgICAgICAgY29uZmlndXJhdGlvblJlcG9ydC5zdGF0dXMgPT0gUHJlZmVyZW5jZXNIZWFsdGhNYW5hZ2VyLlN0YXR1cy5IRUFMVEhZICYmCiAgICAgICAgICAgIGRhdGFiYXNlUmVwb3J0LnN0YXR1cyA9PSBSb29tRGF0YWJhc2VIZWFsdGhNYW5hZ2VyLlN0YXR1cy5IRUFMVEhZCgogICAgcHJpdmF0ZSBmdW4gd3JpdGFibGVEYXRhYmFzZSgpID0gQXBwRGF0YWJhc2UuZ2V0RGF0YWJhc2UoY29udGV4dCkub3BlbkhlbHBlci53cml0YWJsZURhdGFiYXNlCgogICAgcHJpdmF0ZSBmdW4gZXhlY3V0ZVF1ZXJ5KHNxbDogU3RyaW5nKTogUXVlcnlSZXN1bHQgewogICAgICAgIHdyaXRhYmxlRGF0YWJhc2UoKS5xdWVyeShzcWwpLnVzZSB7IGN1cnNvciAtPgogICAgICAgICAgICB2YWwgY29sdW1ucyA9IGN1cnNvci5jb2x1bW5OYW1lcy50b0xpc3QoKQogICAgICAgICAgICB2YWwgcm93cyA9IG11dGFibGVMaXN0T2Y8TGlzdDxTdHJpbmc+PigpCiAgICAgICAgICAgIHdoaWxlIChjdXJzb3IubW92ZVRvTmV4dCgpKSB7CiAgICAgICAgICAgICAgICByb3dzLmFkZCgKICAgICAgICAgICAgICAgICAgICBjb2x1bW5zLmluZGljZXMubWFwIHsgaW5kZXggLT4gcmVhZENlbGwoY3Vyc29yLCBpbmRleCkgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJldHVybiBRdWVyeVJlc3VsdChjb2x1bW5zID0gY29sdW1ucywgcm93cyA9IHJvd3MpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlYWRDZWxsKGN1cnNvcjogQ3Vyc29yLCBpbmRleDogSW50KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gd2hlbiAoY3Vyc29yLmdldFR5cGUoaW5kZXgpKSB7CiAgICAgICAgICAgIEN1cnNvci5GSUVMRF9UWVBFX05VTEwgLT4gIk5VTEwiCiAgICAgICAgICAgIEN1cnNvci5GSUVMRF9UWVBFX0lOVEVHRVIgLT4gY3Vyc29yLmdldExvbmcoaW5kZXgpLnRvU3RyaW5nKCkKICAgICAgICAgICAgQ3Vyc29yLkZJRUxEX1RZUEVfRkxPQVQgLT4gY3Vyc29yLmdldERvdWJsZShpbmRleCkudG9TdHJpbmcoKQogICAgICAgICAgICBDdXJzb3IuRklFTERfVFlQRV9CTE9CIC0+IHsKICAgICAgICAgICAgICAgIHZhbCBibG9iID0gY3Vyc29yLmdldEJsb2IoaW5kZXgpCiAgICAgICAgICAgICAgICAiQkxPQigke2Jsb2Iuc2l6ZX0pIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UgLT4gY3Vyc29yLmdldFN0cmluZyhpbmRleCkgPzogIiIKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcXVlcnlDaGFuZ2VzKCk6IEludD8gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB3cml0YWJsZURhdGFiYXNlKCkucXVlcnkoIlNFTEVDVCBjaGFuZ2VzKCkiKS51c2UgeyBjdXJzb3IgLT4KICAgICAgICAgICAgICAgIGlmIChjdXJzb3IubW92ZVRvRmlyc3QoKSkgY3Vyc29yLmdldEludCgwKSBlbHNlIG51bGwKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJGYWlsZWQgdG8gcXVlcnkgU1FMaXRlIGNoYW5nZXMiLCBlKQogICAgICAgICAgICBudWxsCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzUXVlcnlTdGF0ZW1lbnQoc3FsOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICB2YWwgbm9ybWFsaXplZCA9IHNxbC50cmltU3RhcnQoKS5sb3dlcmNhc2UoKQogICAgICAgIHJldHVybiBub3JtYWxpemVkLnN0YXJ0c1dpdGgoInNlbGVjdCIpIHx8IG5vcm1hbGl6ZWQuc3RhcnRzV2l0aCgid2l0aCIpIHx8IG5vcm1hbGl6ZWQuc3RhcnRzV2l0aCgicHJhZ21hIikKICAgIH0KCiAgICBwcml2YXRlIGZ1biBzYW5pdGl6ZVNxbChzcWw6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHNxbC50cmltKCkucmVtb3ZlU3VmZml4KCI7IikKICAgIH0KCiAgICBwcml2YXRlIGZ1biBleHBvcnRQcm9ncmVzc1RleHQocHJvZ3Jlc3M6IFJhd1NuYXBzaG90QmFja3VwTWFuYWdlci5FeHBvcnRQcm9ncmVzc0luZm8pOiBTdHJpbmcgewogICAgICAgIHZhbCBzdGFnZSA9IHdoZW4gKHByb2dyZXNzLnN0YWdlKSB7CiAgICAgICAgICAgIFJhd1NuYXBzaG90QmFja3VwTWFuYWdlci5FeHBvcnRQcm9ncmVzcy5QUkVQQVJJTkcgLT4KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmJhY2t1cF9yYXdfc25hcHNob3RfcHJvZ3Jlc3NfcHJlcGFyaW5nKQogICAgICAgICAgICBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXIuRXhwb3J0UHJvZ3Jlc3MuU0NBTk5JTkdfRklMRVMgLT4KICAgICAgICAgICAgICAgIHByb2dyZXNzLnNjYW5uZWRGaWxlcz8ubGV0IHsKICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5iYWNrdXBfcmF3X3NuYXBzaG90X3Byb2dyZXNzX3NjYW5uaW5nX2ZpbGVzX3dpdGhfY291bnQsIGl0KQogICAgICAgICAgICAgICAgfSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5iYWNrdXBfcmF3X3NuYXBzaG90X3Byb2dyZXNzX3NjYW5uaW5nX2ZpbGVzKQogICAgICAgICAgICBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXIuRXhwb3J0UHJvZ3Jlc3MuWklQUElOR19GSUxFUyAtPgogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYmFja3VwX3Jhd19zbmFwc2hvdF9wcm9ncmVzc196aXBwaW5nX2ZpbGVzKQogICAgICAgICAgICBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXIuRXhwb3J0UHJvZ3Jlc3MuWklQUElOR19FWFRFUk5BTF9GSUxFUyAtPgogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYmFja3VwX3Jhd19zbmFwc2hvdF9wcm9ncmVzc196aXBwaW5nX2V4dGVybmFsX2ZpbGVzKQogICAgICAgICAgICBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXIuRXhwb3J0UHJvZ3Jlc3MuWklQUElOR19TSEFSRURfUFJFRlMgLT4KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmJhY2t1cF9yYXdfc25hcHNob3RfcHJvZ3Jlc3NfemlwcGluZ19zaGFyZWRfcHJlZnMpCiAgICAgICAgICAgIFJhd1NuYXBzaG90QmFja3VwTWFuYWdlci5FeHBvcnRQcm9ncmVzcy5aSVBQSU5HX0RBVEFTVE9SRSAtPgogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYmFja3VwX3Jhd19zbmFwc2hvdF9wcm9ncmVzc196aXBwaW5nX2RhdGFzdG9yZSkKICAgICAgICAgICAgUmF3U25hcHNob3RCYWNrdXBNYW5hZ2VyLkV4cG9ydFByb2dyZXNzLlpJUFBJTkdfREFUQUJBU0VTIC0+CiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5iYWNrdXBfcmF3X3NuYXBzaG90X3Byb2dyZXNzX3ppcHBpbmdfZGF0YWJhc2VzKQogICAgICAgICAgICBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXIuRXhwb3J0UHJvZ3Jlc3MuRklOQUxJWklORyAtPgogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYmFja3VwX3Jhd19zbmFwc2hvdF9wcm9ncmVzc19maW5hbGl6aW5nKQogICAgICAgIH0KICAgICAgICB2YWwgc3VmZml4ID0gcHJvZ3Jlc3MucGVyY2VudD8ubGV0IHsKICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9wcm9ncmVzc19wZXJjZW50LCBpdCkKICAgICAgICB9Lm9yRW1wdHkoKQogICAgICAgIHJldHVybiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5kYXRhX3JlY292ZXJ5X2V4cG9ydF9wcm9ncmVzcywgc3RhZ2UgKyBzdWZmaXgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVzdG9yZVByb2dyZXNzVGV4dChwcm9ncmVzczogUmF3U25hcHNob3RCYWNrdXBNYW5hZ2VyLlJlc3RvcmVQcm9ncmVzcyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHN0YWdlID0gd2hlbiAocHJvZ3Jlc3MpIHsKICAgICAgICAgICAgUmF3U25hcHNob3RCYWNrdXBNYW5hZ2VyLlJlc3RvcmVQcm9ncmVzcy5QUkVQQVJJTkcgLT4KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmJhY2t1cF9yYXdfc25hcHNob3RfcHJvZ3Jlc3NfcHJlcGFyaW5nKQogICAgICAgICAgICBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXIuUmVzdG9yZVByb2dyZXNzLlJFQURJTkdfWklQIC0+CiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5iYWNrdXBfcmF3X3NuYXBzaG90X3Byb2dyZXNzX3JlYWRpbmdfemlwKQogICAgICAgICAgICBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXIuUmVzdG9yZVByb2dyZXNzLkVYVFJBQ1RJTkcgLT4KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmJhY2t1cF9yYXdfc25hcHNob3RfcHJvZ3Jlc3NfZXh0cmFjdGluZykKICAgICAgICAgICAgUmF3U25hcHNob3RCYWNrdXBNYW5hZ2VyLlJlc3RvcmVQcm9ncmVzcy5SRVBMQUNJTkdfRklMRVMgLT4KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmJhY2t1cF9yYXdfc25hcHNob3RfcHJvZ3Jlc3NfcmVwbGFjaW5nX2ZpbGVzKQogICAgICAgICAgICBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXIuUmVzdG9yZVByb2dyZXNzLlJFUExBQ0lOR19FWFRFUk5BTF9GSUxFUyAtPgogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYmFja3VwX3Jhd19zbmFwc2hvdF9wcm9ncmVzc19yZXBsYWNpbmdfZXh0ZXJuYWxfZmlsZXMpCiAgICAgICAgICAgIFJhd1NuYXBzaG90QmFja3VwTWFuYWdlci5SZXN0b3JlUHJvZ3Jlc3MuUkVQTEFDSU5HX1NIQVJFRF9QUkVGUyAtPgogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYmFja3VwX3Jhd19zbmFwc2hvdF9wcm9ncmVzc19yZXBsYWNpbmdfc2hhcmVkX3ByZWZzKQogICAgICAgICAgICBSYXdTbmFwc2hvdEJhY2t1cE1hbmFnZXIuUmVzdG9yZVByb2dyZXNzLlJFUExBQ0lOR19EQVRBU1RPUkUgLT4KICAgICAgICAgICAgICAgIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmJhY2t1cF9yYXdfc25hcHNob3RfcHJvZ3Jlc3NfcmVwbGFjaW5nX2RhdGFzdG9yZSkKICAgICAgICAgICAgUmF3U25hcHNob3RCYWNrdXBNYW5hZ2VyLlJlc3RvcmVQcm9ncmVzcy5SRVBMQUNJTkdfREFUQUJBU0VTIC0+CiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5iYWNrdXBfcmF3X3NuYXBzaG90X3Byb2dyZXNzX3JlcGxhY2luZ19kYXRhYmFzZXMpCiAgICAgICAgICAgIFJhd1NuYXBzaG90QmFja3VwTWFuYWdlci5SZXN0b3JlUHJvZ3Jlc3MuRklOQUxJWklORyAtPgogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYmFja3VwX3Jhd19zbmFwc2hvdF9wcm9ncmVzc19maW5hbGl6aW5nKQogICAgICAgIH0KICAgICAgICByZXR1cm4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9yZXN0b3JlX3Byb2dyZXNzLCBzdGFnZSkKICAgIH0KCiAgICBjbGFzcyBGYWN0b3J5KHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIDogVmlld01vZGVsUHJvdmlkZXIuRmFjdG9yeSB7CiAgICAgICAgQFN1cHByZXNzKCJVTkNIRUNLRURfQ0FTVCIpCiAgICAgICAgb3ZlcnJpZGUgZnVuIDxUIDogVmlld01vZGVsPiBjcmVhdGUobW9kZWxDbGFzczogQ2xhc3M8VD4pOiBUIHsKICAgICAgICAgICAgaWYgKG1vZGVsQ2xhc3MuaXNBc3NpZ25hYmxlRnJvbShEYXRhUmVjb3ZlcnlWaWV3TW9kZWw6OmNsYXNzLmphdmEpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gRGF0YVJlY292ZXJ5Vmlld01vZGVsKExvY2FsZVV0aWxzLmdldExvY2FsaXplZENvbnRleHQoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpKSBhcyBUCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmtub3duIFZpZXdNb2RlbCBjbGFzcyIpCiAgICAgICAgfQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJEYXRhUmVjb3ZlcnlWaWV3TW9kZWwiCgogICAgICAgIGNvbnN0IHZhbCBTQUZFX01FU1NBR0VTX1FVRVJZID0KICAgICAgICAgICAgIlNFTEVDVCBtZXNzYWdlSWQsIGNoYXRJZCwgdGltZXN0YW1wLCBzZW5kZXIsIGxlbmd0aChDQVNUKGNvbnRlbnQgQVMgQkxPQikpIEFTIGJ5dGVzIEZST00gbWVzc2FnZXMgT1JERVIgQlkgYnl0ZXMgREVTQyBMSU1JVCA1MCIKICAgICAgICBjb25zdCB2YWwgU0FGRV9WQVJJQU5UU19RVUVSWSA9CiAgICAgICAgICAgICJTRUxFQ1QgdmFyaWFudElkLCBjaGF0SWQsIG1lc3NhZ2VUaW1lc3RhbXAsIHZhcmlhbnRJbmRleCwgbGVuZ3RoKENBU1QoY29udGVudCBBUyBCTE9CKSkgQVMgYnl0ZXMgRlJPTSBtZXNzYWdlX3ZhcmlhbnRzIE9SREVSIEJZIGJ5dGVzIERFU0MgTElNSVQgNTAiCiAgICAgICAgY29uc3QgdmFsIFNBRkVfQ0hBVFNfUVVFUlkgPQogICAgICAgICAgICAiU0VMRUNUIGlkLCBsZW5ndGgoQ0FTVCh0aXRsZSBBUyBCTE9CKSkgQVMgdGl0bGVCeXRlcywgbGVuZ3RoKENBU1QoaWZudWxsKHdvcmtzcGFjZSwgJycpIEFTIEJMT0IpKSBBUyB3b3Jrc3BhY2VCeXRlcywgbGVuZ3RoKENBU1QoaWZudWxsKHdvcmtzcGFjZUVudiwgJycpIEFTIEJMT0IpKSBBUyB3b3Jrc3BhY2VFbnZCeXRlcyBGUk9NIGNoYXRzIE9SREVSIEJZIG1heChsZW5ndGgoQ0FTVCh0aXRsZSBBUyBCTE9CKSksIGxlbmd0aChDQVNUKGlmbnVsbCh3b3Jrc3BhY2UsICcnKSBBUyBCTE9CKSksIGxlbmd0aChDQVNUKGlmbnVsbCh3b3Jrc3BhY2VFbnYsICcnKSBBUyBCTE9CKSkpIERFU0MgTElNSVQgNTAiCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.recovery
+
+import android.content.Context
+import android.database.Cursor
+import android.net.Uri
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.backup.RawSnapshotBackupManager
+import com.bslsjdk.operit.data.db.AppDatabase
+import com.bslsjdk.operit.data.recovery.PreferencesHealthManager
+import com.bslsjdk.operit.data.recovery.RoomDatabaseHealthManager
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.LocaleUtils
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+class DataRecoveryViewModel(private val context: Context) : ViewModel() {
+
+    data class QueryResult(
+        val columns: List<String>,
+        val rows: List<List<String>>
+    )
+
+    data class State(
+        val isRunning: Boolean = false,
+        val status: String? = null,
+        val error: String? = null,
+        val sqlText: String = SAFE_MESSAGES_QUERY,
+        val queryResult: QueryResult? = null,
+        val affectedRows: Int? = null,
+        val lastSnapshotPath: String? = null,
+        val restoreCompleted: Boolean = false,
+        val configurationHealthReport: PreferencesHealthManager.Report? = null,
+        val databaseHealthReport: RoomDatabaseHealthManager.Report? = null,
+        val lastConfigurationRepairArchivePath: String? = null,
+        val lastDatabaseRepairArchivePath: String? = null,
+        val healthRepairCompleted: Boolean = false
+    )
+
+    private val _state = MutableStateFlow(State())
+    val state: StateFlow<State> = _state.asStateFlow()
+
+    fun setSqlText(sql: String) {
+        _state.value = _state.value.copy(sqlText = sql)
+    }
+
+    fun runSql() {
+        val sql = sanitizeSql(_state.value.sqlText)
+        if (sql.isBlank()) {
+            _state.value = _state.value.copy(error = context.getString(R.string.data_recovery_sql_empty), status = null, affectedRows = null)
+            return
+        }
+
+        _state.value =
+            _state.value.copy(isRunning = true, error = null, status = context.getString(R.string.data_recovery_sql_running), affectedRows = null)
+        viewModelScope.launch(Dispatchers.IO) {
+            try {
+                if (isQueryStatement(sql)) {
+                    val result = executeQuery(sql)
+                    withContext(Dispatchers.Main) {
+                        _state.value =
+                            _state.value.copy(
+                                isRunning = false,
+                                status = context.getString(R.string.data_recovery_query_completed, result.rows.size),
+                                queryResult = result,
+                                affectedRows = null,
+                                configurationHealthReport = null,
+                                databaseHealthReport = null
+                            )
+                    }
+                } else {
+                    writableDatabase().execSQL(sql)
+                    val affectedRows = queryChanges()
+                    withContext(Dispatchers.Main) {
+                        _state.value =
+                            _state.value.copy(
+                                isRunning = false,
+                                status = context.getString(R.string.data_recovery_sql_completed),
+                                queryResult = null,
+                                affectedRows = affectedRows,
+                                configurationHealthReport = null,
+                                databaseHealthReport = null
+                            )
+                    }
+                }
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Recovery SQL failed", e)
+                withContext(Dispatchers.Main) {
+                    _state.value =
+                        _state.value.copy(
+                            isRunning = false,
+                            error = e.message ?: e.javaClass.name,
+                            status = null,
+                            affectedRows = null
+                        )
+                }
+            }
+        }
+    }
+
+    fun exportRawSnapshot() {
+        _state.value =
+            _state.value.copy(isRunning = true, error = null, status = context.getString(R.string.data_recovery_export_running), lastSnapshotPath = null)
+        viewModelScope.launch {
+            try {
+                val outFile =
+                    RawSnapshotBackupManager.exportToBackupDir(context) { progress ->
+                        _state.value =
+                            _state.value.copy(
+                                status = exportProgressText(progress)
+                            )
+                    }
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        status = context.getString(R.string.data_recovery_export_completed),
+                        lastSnapshotPath = outFile.absolutePath
+                    )
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Raw snapshot export failed", e)
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        error = e.message ?: e.javaClass.name,
+                        status = null
+                    )
+            }
+        }
+    }
+
+    fun restoreRawSnapshot(uri: Uri) {
+        _state.value =
+            _state.value.copy(isRunning = true, error = null, status = context.getString(R.string.data_recovery_restore_running), restoreCompleted = false)
+        viewModelScope.launch {
+            try {
+                RawSnapshotBackupManager.restoreFromBackupUri(context, uri) { progress ->
+                    _state.value = _state.value.copy(status = restoreProgressText(progress))
+                }
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        status = context.getString(R.string.data_recovery_restore_completed),
+                        restoreCompleted = true,
+                        configurationHealthReport = null,
+                        databaseHealthReport = null
+                    )
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Raw snapshot restore failed", e)
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        error = e.message ?: e.javaClass.name,
+                        status = null
+                    )
+            }
+        }
+    }
+
+    fun inspectStorage() {
+        _state.value =
+            _state.value.copy(
+                isRunning = true,
+                error = null,
+                status = context.getString(R.string.data_recovery_database_check_running),
+                affectedRows = null,
+                configurationHealthReport = null,
+                databaseHealthReport = null,
+                lastConfigurationRepairArchivePath = null,
+                lastDatabaseRepairArchivePath = null,
+                healthRepairCompleted = false
+            )
+        viewModelScope.launch {
+            try {
+                val configurationReport = PreferencesHealthManager.inspect(context)
+                val databaseReport = RoomDatabaseHealthManager.inspect(context)
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        status = healthSummary(configurationReport, databaseReport),
+                        configurationHealthReport = configurationReport,
+                        databaseHealthReport = databaseReport
+                    )
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Configuration and database health inspection failed", e)
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        error = e.message ?: e.javaClass.name,
+                        status = null
+                    )
+            }
+        }
+    }
+
+    fun repairStorage() {
+        val repairConfiguration = _state.value.configurationHealthReport?.canRepair == true
+        val repairDatabase = _state.value.databaseHealthReport?.canRepair == true
+        if (!repairConfiguration && !repairDatabase) {
+            _state.value =
+                _state.value.copy(
+                    error = context.getString(R.string.data_recovery_database_no_supported_repair),
+                    status = null
+                )
+            return
+        }
+
+        _state.value =
+            _state.value.copy(
+                isRunning = true,
+                error = null,
+                status = context.getString(R.string.data_recovery_database_repair_running),
+                affectedRows = null,
+                lastConfigurationRepairArchivePath = null,
+                lastDatabaseRepairArchivePath = null,
+                healthRepairCompleted = false
+            )
+        viewModelScope.launch {
+            var configurationArchivePath: String? = null
+            var databaseArchivePath: String? = null
+            try {
+                if (repairDatabase) {
+                    databaseArchivePath =
+                        RoomDatabaseHealthManager.repair(context).sourceArchive.absolutePath
+                }
+                if (repairConfiguration) {
+                    configurationArchivePath =
+                        PreferencesHealthManager.repair(context).sourceArchive.absolutePath
+                }
+
+                val configurationReport = PreferencesHealthManager.inspect(context)
+                val databaseReport = RoomDatabaseHealthManager.inspect(context)
+                val status =
+                    if (isHealthy(configurationReport, databaseReport)) {
+                        context.getString(R.string.data_recovery_database_repair_completed)
+                    } else {
+                        context.getString(R.string.data_recovery_database_repair_remaining)
+                    }
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        status = status,
+                        configurationHealthReport = configurationReport,
+                        databaseHealthReport = databaseReport,
+                        lastConfigurationRepairArchivePath = configurationArchivePath,
+                        lastDatabaseRepairArchivePath = databaseArchivePath,
+                        healthRepairCompleted = true
+                    )
+            } catch (e: PreferencesHealthManager.RepairFailedException) {
+                AppLogger.e(TAG, "Preferences repair failed after source preservation", e)
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        error =
+                            context.getString(
+                                R.string.data_recovery_database_repair_failed_preserved,
+                                e.sourceArchive.absolutePath
+                            ),
+                        status = null,
+                        lastConfigurationRepairArchivePath = e.sourceArchive.absolutePath,
+                        lastDatabaseRepairArchivePath = databaseArchivePath
+                    )
+            } catch (e: RoomDatabaseHealthManager.RepairFailedException) {
+                AppLogger.e(TAG, "Room database repair failed after source preservation", e)
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        error =
+                            context.getString(
+                                R.string.data_recovery_database_repair_failed_preserved,
+                                e.sourceArchive.absolutePath
+                            ),
+                        status = null,
+                        lastConfigurationRepairArchivePath = configurationArchivePath,
+                        lastDatabaseRepairArchivePath = e.sourceArchive.absolutePath
+                    )
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Configuration and database repair failed", e)
+                _state.value =
+                    _state.value.copy(
+                        isRunning = false,
+                        error = e.message ?: e.javaClass.name,
+                        status = null,
+                        lastConfigurationRepairArchivePath = configurationArchivePath,
+                        lastDatabaseRepairArchivePath = databaseArchivePath
+                    )
+            }
+        }
+    }
+
+    private fun healthSummary(
+        configurationReport: PreferencesHealthManager.Report,
+        databaseReport: RoomDatabaseHealthManager.Report
+    ): String =
+        when {
+            configurationReport.status == PreferencesHealthManager.Status.MANUAL_RECOVERY_REQUIRED ||
+                databaseReport.status == RoomDatabaseHealthManager.Status.MANUAL_RECOVERY_REQUIRED ->
+                context.getString(R.string.data_recovery_database_summary_manual)
+            configurationReport.status == PreferencesHealthManager.Status.NEEDS_REPAIR ||
+                databaseReport.status == RoomDatabaseHealthManager.Status.NEEDS_REPAIR ->
+                context.getString(R.string.data_recovery_database_summary_repairable)
+            else -> context.getString(R.string.data_recovery_database_summary_healthy)
+        }
+
+    private fun isHealthy(
+        configurationReport: PreferencesHealthManager.Report,
+        databaseReport: RoomDatabaseHealthManager.Report
+    ): Boolean =
+        configurationReport.status == PreferencesHealthManager.Status.HEALTHY &&
+            databaseReport.status == RoomDatabaseHealthManager.Status.HEALTHY
+
+    private fun writableDatabase() = AppDatabase.getDatabase(context).openHelper.writableDatabase
+
+    private fun executeQuery(sql: String): QueryResult {
+        writableDatabase().query(sql).use { cursor ->
+            val columns = cursor.columnNames.toList()
+            val rows = mutableListOf<List<String>>()
+            while (cursor.moveToNext()) {
+                rows.add(
+                    columns.indices.map { index -> readCell(cursor, index) }
+                )
+            }
+            return QueryResult(columns = columns, rows = rows)
+        }
+    }
+
+    private fun readCell(cursor: Cursor, index: Int): String {
+        return when (cursor.getType(index)) {
+            Cursor.FIELD_TYPE_NULL -> "NULL"
+            Cursor.FIELD_TYPE_INTEGER -> cursor.getLong(index).toString()
+            Cursor.FIELD_TYPE_FLOAT -> cursor.getDouble(index).toString()
+            Cursor.FIELD_TYPE_BLOB -> {
+                val blob = cursor.getBlob(index)
+                "BLOB(${blob.size})"
+            }
+            else -> cursor.getString(index) ?: ""
+        }
+    }
+
+    private fun queryChanges(): Int? {
+        return try {
+            writableDatabase().query("SELECT changes()").use { cursor ->
+                if (cursor.moveToFirst()) cursor.getInt(0) else null
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to query SQLite changes", e)
+            null
+        }
+    }
+
+    private fun isQueryStatement(sql: String): Boolean {
+        val normalized = sql.trimStart().lowercase()
+        return normalized.startsWith("select") || normalized.startsWith("with") || normalized.startsWith("pragma")
+    }
+
+    private fun sanitizeSql(sql: String): String {
+        return sql.trim().removeSuffix(";")
+    }
+
+    private fun exportProgressText(progress: RawSnapshotBackupManager.ExportProgressInfo): String {
+        val stage = when (progress.stage) {
+            RawSnapshotBackupManager.ExportProgress.PREPARING ->
+                context.getString(R.string.backup_raw_snapshot_progress_preparing)
+            RawSnapshotBackupManager.ExportProgress.SCANNING_FILES ->
+                progress.scannedFiles?.let {
+                    context.getString(R.string.backup_raw_snapshot_progress_scanning_files_with_count, it)
+                } ?: context.getString(R.string.backup_raw_snapshot_progress_scanning_files)
+            RawSnapshotBackupManager.ExportProgress.ZIPPING_FILES ->
+                context.getString(R.string.backup_raw_snapshot_progress_zipping_files)
+            RawSnapshotBackupManager.ExportProgress.ZIPPING_EXTERNAL_FILES ->
+                context.getString(R.string.backup_raw_snapshot_progress_zipping_external_files)
+            RawSnapshotBackupManager.ExportProgress.ZIPPING_SHARED_PREFS ->
+                context.getString(R.string.backup_raw_snapshot_progress_zipping_shared_prefs)
+            RawSnapshotBackupManager.ExportProgress.ZIPPING_DATASTORE ->
+                context.getString(R.string.backup_raw_snapshot_progress_zipping_datastore)
+            RawSnapshotBackupManager.ExportProgress.ZIPPING_DATABASES ->
+                context.getString(R.string.backup_raw_snapshot_progress_zipping_databases)
+            RawSnapshotBackupManager.ExportProgress.FINALIZING ->
+                context.getString(R.string.backup_raw_snapshot_progress_finalizing)
+        }
+        val suffix = progress.percent?.let {
+            context.getString(R.string.data_recovery_progress_percent, it)
+        }.orEmpty()
+        return context.getString(R.string.data_recovery_export_progress, stage + suffix)
+    }
+
+    private fun restoreProgressText(progress: RawSnapshotBackupManager.RestoreProgress): String {
+        val stage = when (progress) {
+            RawSnapshotBackupManager.RestoreProgress.PREPARING ->
+                context.getString(R.string.backup_raw_snapshot_progress_preparing)
+            RawSnapshotBackupManager.RestoreProgress.READING_ZIP ->
+                context.getString(R.string.backup_raw_snapshot_progress_reading_zip)
+            RawSnapshotBackupManager.RestoreProgress.EXTRACTING ->
+                context.getString(R.string.backup_raw_snapshot_progress_extracting)
+            RawSnapshotBackupManager.RestoreProgress.REPLACING_FILES ->
+                context.getString(R.string.backup_raw_snapshot_progress_replacing_files)
+            RawSnapshotBackupManager.RestoreProgress.REPLACING_EXTERNAL_FILES ->
+                context.getString(R.string.backup_raw_snapshot_progress_replacing_external_files)
+            RawSnapshotBackupManager.RestoreProgress.REPLACING_SHARED_PREFS ->
+                context.getString(R.string.backup_raw_snapshot_progress_replacing_shared_prefs)
+            RawSnapshotBackupManager.RestoreProgress.REPLACING_DATASTORE ->
+                context.getString(R.string.backup_raw_snapshot_progress_replacing_datastore)
+            RawSnapshotBackupManager.RestoreProgress.REPLACING_DATABASES ->
+                context.getString(R.string.backup_raw_snapshot_progress_replacing_databases)
+            RawSnapshotBackupManager.RestoreProgress.FINALIZING ->
+                context.getString(R.string.backup_raw_snapshot_progress_finalizing)
+        }
+        return context.getString(R.string.data_recovery_restore_progress, stage)
+    }
+
+    class Factory(private val context: Context) : ViewModelProvider.Factory {
+        @Suppress("UNCHECKED_CAST")
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(DataRecoveryViewModel::class.java)) {
+                return DataRecoveryViewModel(LocaleUtils.getLocalizedContext(context.applicationContext)) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+
+    companion object {
+        private const val TAG = "DataRecoveryViewModel"
+
+        const val SAFE_MESSAGES_QUERY =
+            "SELECT messageId, chatId, timestamp, sender, length(CAST(content AS BLOB)) AS bytes FROM messages ORDER BY bytes DESC LIMIT 50"
+        const val SAFE_VARIANTS_QUERY =
+            "SELECT variantId, chatId, messageTimestamp, variantIndex, length(CAST(content AS BLOB)) AS bytes FROM message_variants ORDER BY bytes DESC LIMIT 50"
+        const val SAFE_CHATS_QUERY =
+            "SELECT id, length(CAST(title AS BLOB)) AS titleBytes, length(CAST(ifnull(workspace, '') AS BLOB)) AS workspaceBytes, length(CAST(ifnull(workspaceEnv, '') AS BLOB)) AS workspaceEnvBytes FROM chats ORDER BY max(length(CAST(title AS BLOB)), length(CAST(ifnull(workspace, '') AS BLOB)), length(CAST(ifnull(workspaceEnv, '') AS BLOB))) DESC LIMIT 50"
+    }
+}

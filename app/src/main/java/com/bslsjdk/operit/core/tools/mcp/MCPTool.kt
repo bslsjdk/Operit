@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5tY3AKCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCgovKioKICogUmVwcmVzZW50cyBhbiBNQ1AgdG9vbCBkZWZpbml0aW9uCiAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgTUNQVG9vbCgKICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZywKICAgIHZhbCBwYXJhbWV0ZXJzOiBMaXN0PE1DUFRvb2xQYXJhbWV0ZXI+ID0gZW1wdHlMaXN0KCkKKSA=
+package com.bslsjdk.operit.core.tools.mcp
+
+import kotlinx.serialization.Serializable
+
+/**
+ * Represents an MCP tool definition
+ */
+@Serializable
+data class MCPTool(
+    val name: String,
+    val description: String,
+    val parameters: List<MCPToolParameter> = emptyList()
+) 

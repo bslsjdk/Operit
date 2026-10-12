@@ -1,1 +1,103 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBQcm9tcHRUYWdUZXN0IHsKCiAgICBAVGVzdCBmdW4gYGNyZWF0ZSB3aXRoIHJlcXVpcmVkIGZpZWxkc2AoKSB7CiAgICAgICAgdmFsIHRhZyA9IFByb21wdFRhZyhpZCA9ICJ0YWcxIiwgbmFtZSA9ICJGcmllbmRseSIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0YWcxIiwgdGFnLmlkKQogICAgICAgIGFzc2VydEVxdWFscygiRnJpZW5kbHkiLCB0YWcubmFtZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGRlc2NyaXB0aW9uIGRlZmF1bHRzIHRvIGVtcHR5YCgpIHsKICAgICAgICB2YWwgdGFnID0gUHJvbXB0VGFnKGlkID0gInQxIiwgbmFtZSA9ICJUIikKICAgICAgICBhc3NlcnRFcXVhbHMoIiIsIHRhZy5kZXNjcmlwdGlvbikKICAgIH0KCiAgICBAVGVzdCBmdW4gYHByb21wdCBjb250ZW50IGRlZmF1bHRzIHRvIGVtcHR5YCgpIHsKICAgICAgICB2YWwgdGFnID0gUHJvbXB0VGFnKGlkID0gInQxIiwgbmFtZSA9ICJUIikKICAgICAgICBhc3NlcnRFcXVhbHMoIiIsIHRhZy5wcm9tcHRDb250ZW50KQogICAgfQoKICAgIEBUZXN0IGZ1biBgdGFnIHR5cGUgZGVmYXVsdHMgdG8gQ1VTVE9NYCgpIHsKICAgICAgICB2YWwgdGFnID0gUHJvbXB0VGFnKGlkID0gInQxIiwgbmFtZSA9ICJUIikKICAgICAgICBhc3NlcnRFcXVhbHMoVGFnVHlwZS5DVVNUT00sIHRhZy50YWdUeXBlKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3JlYXRlZCBhdCBkZWZhdWx0cyB0byBjdXJyZW50IHRpbWVgKCkgewogICAgICAgIHZhbCBiZWZvcmUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIHZhbCB0YWcgPSBQcm9tcHRUYWcoaWQgPSAidDEiLCBuYW1lID0gIlQiKQogICAgICAgIHZhbCBhZnRlciA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0YWcuY3JlYXRlZEF0ID49IGJlZm9yZSkKICAgICAgICBhc3NlcnRUcnVlKHRhZy5jcmVhdGVkQXQgPD0gYWZ0ZXIgKyAxMDAwKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdXBkYXRlZCBhdCBkZWZhdWx0cyB0byBjdXJyZW50IHRpbWVgKCkgewogICAgICAgIHZhbCBiZWZvcmUgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIHZhbCB0YWcgPSBQcm9tcHRUYWcoaWQgPSAidDEiLCBuYW1lID0gIlQiKQogICAgICAgIHZhbCBhZnRlciA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgYXNzZXJ0VHJ1ZSh0YWcudXBkYXRlZEF0ID49IGJlZm9yZSkKICAgICAgICBhc3NlcnRUcnVlKHRhZy51cGRhdGVkQXQgPD0gYWZ0ZXIgKyAxMDAwKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdG9uZSB0YWcgdHlwZWAoKSB7CiAgICAgICAgdmFsIHRhZyA9IFByb21wdFRhZyhpZCA9ICJ0MSIsIG5hbWUgPSAiVCIsIHRhZ1R5cGUgPSBUYWdUeXBlLlRPTkUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhZ1R5cGUuVE9ORSwgdGFnLnRhZ1R5cGUpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjaGFyYWN0ZXIgdGFnIHR5cGVgKCkgewogICAgICAgIHZhbCB0YWcgPSBQcm9tcHRUYWcoaWQgPSAidDEiLCBuYW1lID0gIlQiLCB0YWdUeXBlID0gVGFnVHlwZS5DSEFSQUNURVIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhZ1R5cGUuQ0hBUkFDVEVSLCB0YWcudGFnVHlwZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGZ1bmN0aW9uIHRhZyB0eXBlYCgpIHsKICAgICAgICB2YWwgdGFnID0gUHJvbXB0VGFnKGlkID0gInQxIiwgbmFtZSA9ICJUIiwgdGFnVHlwZSA9IFRhZ1R5cGUuRlVOQ1RJT04pCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRhZ1R5cGUuRlVOQ1RJT04sIHRhZy50YWdUeXBlKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdGFnIHR5cGUgZW51bSBoYXMgYWxsIHZhbHVlc2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDQsIFRhZ1R5cGUudmFsdWVzKCkuc2l6ZSkKICAgICAgICBhc3NlcnRUcnVlKFRhZ1R5cGUudmFsdWVzKCkuY29udGFpbnMoVGFnVHlwZS5UT05FKSkKICAgICAgICBhc3NlcnRUcnVlKFRhZ1R5cGUudmFsdWVzKCkuY29udGFpbnMoVGFnVHlwZS5DSEFSQUNURVIpKQogICAgICAgIGFzc2VydFRydWUoVGFnVHlwZS52YWx1ZXMoKS5jb250YWlucyhUYWdUeXBlLkZVTkNUSU9OKSkKICAgICAgICBhc3NlcnRUcnVlKFRhZ1R5cGUudmFsdWVzKCkuY29udGFpbnMoVGFnVHlwZS5DVVNUT00pKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSB3aXRoIGRpZmZlcmVudCBuYW1lYCgpIHsKICAgICAgICB2YWwgdGFnID0gUHJvbXB0VGFnKGlkID0gInQxIiwgbmFtZSA9ICJPbGQiKQogICAgICAgIHZhbCBjb3B5ID0gdGFnLmNvcHkobmFtZSA9ICJOZXciKQogICAgICAgIGFzc2VydEVxdWFscygiTmV3IiwgY29weS5uYW1lKQogICAgICAgIGFzc2VydEVxdWFscygidDEiLCBjb3B5LmlkKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29weSB3aXRoIHByb21wdCBjb250ZW50YCgpIHsKICAgICAgICB2YWwgdGFnID0gUHJvbXB0VGFnKGlkID0gInQxIiwgbmFtZSA9ICJUIikKICAgICAgICB2YWwgY29weSA9IHRhZy5jb3B5KHByb21wdENvbnRlbnQgPSAiWW91IGFyZSBoZWxwZnVsIikKICAgICAgICBhc3NlcnRFcXVhbHMoIllvdSBhcmUgaGVscGZ1bCIsIGNvcHkucHJvbXB0Q29udGVudCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG1vZGVsIG9wdGlvbiBjcmVhdGlvbmAoKSB7CiAgICAgICAgdmFsIG9wdGlvbiA9IE1vZGVsT3B0aW9uKGlkID0gImdwdC00IiwgbmFtZSA9ICJHUFQtNCIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJncHQtNCIsIG9wdGlvbi5pZCkKICAgICAgICBhc3NlcnRFcXVhbHMoIkdQVC00Iiwgb3B0aW9uLm5hbWUpCiAgICB9CgogICAgQFRlc3QgZnVuIGB3b3Jrc3BhY2UgcmVuYW1lIHJlc3VsdCBjcmVhdGlvbmAoKSB7CiAgICAgICAgdmFsIHJlc3VsdCA9IFdvcmtzcGFjZVJlbmFtZVJlc3VsdCgKICAgICAgICAgICAgd29ya3NwYWNlUGF0aCA9ICIvcGF0aC90by93cyIsCiAgICAgICAgICAgIHdvcmtzcGFjZUVudiA9ICJwcm9kdWN0aW9uIiwKICAgICAgICAgICAgd29ya3NwYWNlTmFtZSA9ICJNeSBXb3Jrc3BhY2UiLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoIi9wYXRoL3RvL3dzIiwgcmVzdWx0LndvcmtzcGFjZVBhdGgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwcm9kdWN0aW9uIiwgcmVzdWx0LndvcmtzcGFjZUVudikKICAgICAgICBhc3NlcnRFcXVhbHMoIk15IFdvcmtzcGFjZSIsIHJlc3VsdC53b3Jrc3BhY2VOYW1lKQogICAgfQoKICAgIEBUZXN0IGZ1biBgd29ya3NwYWNlIHJlbmFtZSByZXN1bHQgbnVsbCBlbnZgKCkgewogICAgICAgIHZhbCByZXN1bHQgPSBXb3Jrc3BhY2VSZW5hbWVSZXN1bHQoIi9wYXRoIiwgbnVsbCwgIk5hbWUiKQogICAgICAgIGFzc2VydEVxdWFscyhudWxsLCByZXN1bHQud29ya3NwYWNlRW52KQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class PromptTagTest {
+
+    @Test fun `create with required fields`() {
+        val tag = PromptTag(id = "tag1", name = "Friendly")
+        assertEquals("tag1", tag.id)
+        assertEquals("Friendly", tag.name)
+    }
+
+    @Test fun `description defaults to empty`() {
+        val tag = PromptTag(id = "t1", name = "T")
+        assertEquals("", tag.description)
+    }
+
+    @Test fun `prompt content defaults to empty`() {
+        val tag = PromptTag(id = "t1", name = "T")
+        assertEquals("", tag.promptContent)
+    }
+
+    @Test fun `tag type defaults to CUSTOM`() {
+        val tag = PromptTag(id = "t1", name = "T")
+        assertEquals(TagType.CUSTOM, tag.tagType)
+    }
+
+    @Test fun `created at defaults to current time`() {
+        val before = System.currentTimeMillis()
+        val tag = PromptTag(id = "t1", name = "T")
+        val after = System.currentTimeMillis()
+        assertTrue(tag.createdAt >= before)
+        assertTrue(tag.createdAt <= after + 1000)
+    }
+
+    @Test fun `updated at defaults to current time`() {
+        val before = System.currentTimeMillis()
+        val tag = PromptTag(id = "t1", name = "T")
+        val after = System.currentTimeMillis()
+        assertTrue(tag.updatedAt >= before)
+        assertTrue(tag.updatedAt <= after + 1000)
+    }
+
+    @Test fun `tone tag type`() {
+        val tag = PromptTag(id = "t1", name = "T", tagType = TagType.TONE)
+        assertEquals(TagType.TONE, tag.tagType)
+    }
+
+    @Test fun `character tag type`() {
+        val tag = PromptTag(id = "t1", name = "T", tagType = TagType.CHARACTER)
+        assertEquals(TagType.CHARACTER, tag.tagType)
+    }
+
+    @Test fun `function tag type`() {
+        val tag = PromptTag(id = "t1", name = "T", tagType = TagType.FUNCTION)
+        assertEquals(TagType.FUNCTION, tag.tagType)
+    }
+
+    @Test fun `tag type enum has all values`() {
+        assertEquals(4, TagType.values().size)
+        assertTrue(TagType.values().contains(TagType.TONE))
+        assertTrue(TagType.values().contains(TagType.CHARACTER))
+        assertTrue(TagType.values().contains(TagType.FUNCTION))
+        assertTrue(TagType.values().contains(TagType.CUSTOM))
+    }
+
+    @Test fun `copy with different name`() {
+        val tag = PromptTag(id = "t1", name = "Old")
+        val copy = tag.copy(name = "New")
+        assertEquals("New", copy.name)
+        assertEquals("t1", copy.id)
+    }
+
+    @Test fun `copy with prompt content`() {
+        val tag = PromptTag(id = "t1", name = "T")
+        val copy = tag.copy(promptContent = "You are helpful")
+        assertEquals("You are helpful", copy.promptContent)
+    }
+
+    @Test fun `model option creation`() {
+        val option = ModelOption(id = "gpt-4", name = "GPT-4")
+        assertEquals("gpt-4", option.id)
+        assertEquals("GPT-4", option.name)
+    }
+
+    @Test fun `workspace rename result creation`() {
+        val result = WorkspaceRenameResult(
+            workspacePath = "/path/to/ws",
+            workspaceEnv = "production",
+            workspaceName = "My Workspace",
+        )
+        assertEquals("/path/to/ws", result.workspacePath)
+        assertEquals("production", result.workspaceEnv)
+        assertEquals("My Workspace", result.workspaceName)
+    }
+
+    @Test fun `workspace rename result null env`() {
+        val result = WorkspaceRenameResult("/path", null, "Name")
+        assertEquals(null, result.workspaceEnv)
+    }
+}

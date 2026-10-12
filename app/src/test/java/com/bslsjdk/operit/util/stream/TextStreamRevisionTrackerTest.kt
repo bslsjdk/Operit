@@ -1,1 +1,46 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROdWxsCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFNhbWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBUZXh0U3RyZWFtUmV2aXNpb25UcmFja2VyVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIGFwcGVuZFJldHVybnNTaGFyZWRTbWFydFN0cmluZygpIHsKICAgICAgICB2YWwgdHJhY2tlciA9IFRleHRTdHJlYW1SZXZpc2lvblRyYWNrZXIoImEiKQoKICAgICAgICB2YWwgZmlyc3QgPSB0cmFja2VyLmFwcGVuZCgiYiIpCiAgICAgICAgdmFsIHNlY29uZCA9IHRyYWNrZXIuYXBwZW5kKCJjIikKCiAgICAgICAgYXNzZXJ0U2FtZShmaXJzdCwgc2Vjb25kKQogICAgICAgIGFzc2VydEVxdWFscygiYWJjIiwgc2Vjb25kLnRvU3RyaW5nKCkpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biByb2xsYmFja1RydW5jYXRlc1RvU2F2ZWRMZW5ndGgoKSB7CiAgICAgICAgdmFsIHRyYWNrZXIgPSBUZXh0U3RyZWFtUmV2aXNpb25UcmFja2VyKCkKICAgICAgICB0cmFja2VyLmFwcGVuZCgiYmVmb3JlIikKICAgICAgICB0cmFja2VyLnNhdmVwb2ludCgicmV0cnkiKQogICAgICAgIHRyYWNrZXIuYXBwZW5kKCIgZGlzY2FyZGVkIikKCiAgICAgICAgdmFsIHJvbGxlZEJhY2sgPSB0cmFja2VyLnJvbGxiYWNrKCJyZXRyeSIpCgogICAgICAgIGFzc2VydEVxdWFscygiYmVmb3JlIiwgcm9sbGVkQmFjaz8udG9TdHJpbmcoKSkKICAgICAgICBhc3NlcnRTYW1lKHRyYWNrZXIuY3VycmVudENvbnRlbnQoKSwgcm9sbGVkQmFjaykKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHJvbGxiYWNrSW52YWxpZGF0ZXNTYXZlcG9pbnRzSW5EaXNjYXJkZWRTdWZmaXgoKSB7CiAgICAgICAgdmFsIHRyYWNrZXIgPSBUZXh0U3RyZWFtUmV2aXNpb25UcmFja2VyKCkKICAgICAgICB0cmFja2VyLmFwcGVuZCgiYSIpCiAgICAgICAgdHJhY2tlci5zYXZlcG9pbnQoIm91dGVyIikKICAgICAgICB0cmFja2VyLmFwcGVuZCgiYiIpCiAgICAgICAgdHJhY2tlci5zYXZlcG9pbnQoImlubmVyIikKICAgICAgICB0cmFja2VyLmFwcGVuZCgiYyIpCgogICAgICAgIHRyYWNrZXIucm9sbGJhY2soIm91dGVyIikKCiAgICAgICAgYXNzZXJ0TnVsbCh0cmFja2VyLnJvbGxiYWNrKCJpbm5lciIpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.util.stream
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Assert.assertSame
+import org.junit.Test
+
+class TextStreamRevisionTrackerTest {
+    @Test
+    fun appendReturnsSharedSmartString() {
+        val tracker = TextStreamRevisionTracker("a")
+
+        val first = tracker.append("b")
+        val second = tracker.append("c")
+
+        assertSame(first, second)
+        assertEquals("abc", second.toString())
+    }
+
+    @Test
+    fun rollbackTruncatesToSavedLength() {
+        val tracker = TextStreamRevisionTracker()
+        tracker.append("before")
+        tracker.savepoint("retry")
+        tracker.append(" discarded")
+
+        val rolledBack = tracker.rollback("retry")
+
+        assertEquals("before", rolledBack?.toString())
+        assertSame(tracker.currentContent(), rolledBack)
+    }
+
+    @Test
+    fun rollbackInvalidatesSavepointsInDiscardedSuffix() {
+        val tracker = TextStreamRevisionTracker()
+        tracker.append("a")
+        tracker.savepoint("outer")
+        tracker.append("b")
+        tracker.savepoint("inner")
+        tracker.append("c")
+
+        tracker.rollback("outer")
+
+        assertNull(tracker.rollback("inner"))
+    }
+}

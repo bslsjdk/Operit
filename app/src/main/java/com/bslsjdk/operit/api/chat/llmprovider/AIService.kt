@@ -1,1 +1,104 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5Qcm9tcHRUdXJuCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbFBhcmFtZXRlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTW9kZWxPcHRpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xQcm9tcHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlByb3ZpZGVyVXNhZ2VTbmFwc2hvdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuc3RyZWFtLlN0cmVhbQoKLyoqIEFJ5pyN5Yqh5o6l5Y+j77yM5a6a5LmJ5LiO5LiN5ZCMQUnmj5DkvpvllYbov5vooYzkuqTkupLnmoTmoIflh4bmlrnms5UgKi8KaW50ZXJmYWNlIEFJU2VydmljZSB7CiAgICAvKiog6L6T5YWldG9rZW7orqHmlbAgKOS7heaWsOWinumDqOWIhikgKi8KICAgIHZhbCBpbnB1dFRva2VuQ291bnQ6IExvbmcKCiAgICAvKiog57yT5a2Y5ZG95Lit55qE6L6T5YWldG9rZW7orqHmlbAgKi8KICAgIHZhbCBjYWNoZWRJbnB1dFRva2VuQ291bnQ6IExvbmcKCiAgICAvKiog6L6T5Ye6dG9rZW7orqHmlbAgKi8KICAgIHZhbCBvdXRwdXRUb2tlbkNvdW50OiBMb25nCgogICAgLyoqIOiOt+WPluS+m+W6lOWVhjrmqKHlnovmoIfor4bnrKbvvIzmoLzlvI/lpoIiREVFUFNFRUs6ZGVlcHNlZWstY2hhdCIgKi8KICAgIHZhbCBwcm92aWRlck1vZGVsOiBTdHJpbmcKCiAgICAvKiog6YeN572udG9rZW7orqHmlbDlmaggKi8KICAgIGZ1biByZXNldFRva2VuQ291bnRzKCkKCiAgICAvKiog5Y+W5raI5b2T5YmN5rWB5byP5Lyg6L6TICovCiAgICBmdW4gY2FuY2VsU3RyZWFtaW5nKCkKCiAgICAvKioKICAgICAqIOiOt+WPluaooeWei+WIl+ihqAogICAgICoKICAgICAqIEBwYXJhbSBjb250ZXh0IEFuZHJvaWQgQ29udGV4dAogICAgICogQHJldHVybiDmqKHlnovliJfooajnu5PmnpzvvIzmiJDlip/ov5Tlm57mqKHlnovliJfooajvvIzlpLHotKXov5Tlm57plJnor6/kv6Hmga8KICAgICAqLwogICAgc3VzcGVuZCBmdW4gZ2V0TW9kZWxzTGlzdChjb250ZXh0OiBDb250ZXh0KTogUmVzdWx0PExpc3Q8TW9kZWxPcHRpb24+PgoKICAgIC8qKgogICAgICog5Y+R6YCB5raI5oGv5YiwQUnmnI3liqEKICAgICAqCiAgICAgKiBAcGFyYW0gY29udGV4dCBBbmRyb2lkIENvbnRleHQKICAgICAqIEBwYXJhbSBjaGF0SGlzdG9yeSDlrozmlbTogYrlpKnljoblj7LvvIzlv4Xpobvlt7LljIXlkKvmnKzmrKHmnIDmlrDovpPlhaUKICAgICAqIEBwYXJhbSBtb2RlbFBhcmFtZXRlcnMg5qih5Z6L5Y+C5pWw5YiX6KGoCiAgICAgKiBAcGFyYW0gZW5hYmxlVGhpbmtpbmcg5piv5ZCm5ZCv55So5oCd6ICD5qih5byPCiAgICAgKiBAcGFyYW0gc3RyZWFtIOaYr+WQpuS9v+eUqOa1geW8j+i+k+WHuu+8jHRydWXkuLrmtYHlvI/vvIxmYWxzZeS4uumdnua1geW8j++8iOS9hui/lOWbnuWAvOS7jeS4ulN0cmVhbe+8iQogICAgICogQHBhcmFtIGF2YWlsYWJsZVRvb2xzIOWPr+eUqOW3peWFt+WIl+ihqCjnlKjkuo5Ub29sIENhbGwgQVBJKe+8jOWmguaenOS4um51bGzliJnkvb/nlKjns7vnu5/mj5DnpLror43kuK3nmoTlt6Xlhbfmj4/ov7AKICAgICAqIEBwYXJhbSBvblRva2Vuc1VwZGF0ZWQgVG9rZW7mm7TmlrDlm57osIPvvIhVSSDorqHmlbDpgJrpgZPvvIzlj6/og73mkLrluKbkvLDnrpflgLzvvIkKICAgICAqIEBwYXJhbSBvblVzYWdlUmVwb3J0ZWQg6KeE6IyD5YyWIHVzYWdlIOS4iuaKpeWbnuiwg++8iOe7n+iuoei0puacrOmAmumBk++8m+WPquWcqOino+aekOWIsAogICAgICogICBwcm92aWRlciDnnJ/lrp4gdXNhZ2Uv5pys5Zyw5a6e5rWL6K6h5pWw5pe25Zue6LCD77yM5Lyw566X5YC85LiN5LiK5oql77yb5Y+v6KKr5aSa5qyh6LCD55So77yMCiAgICAgKiAgIOesrOS6jOasoeWPguaVsOS4uiBwcm92aWRlciDlhoXpg6jlsJ3or5Xluo/lj7cgYXR0ZW1wdO+8iOS7jiAxIOW8gOWni++8jOWGhemDqOmHjeivlemAkuWinu+8ie+8jAogICAgICogICDlkIzkuIAgYXR0ZW1wdCDnmoTlkI7nu63kuIrmiqXopobnm5blhYjliY3pg6jliIbkuIrmiqXvvIkKICAgICAqIEBwYXJhbSBvblVzYWdlRmluYWxpemVkIOS7heWcqOivt+axguato+W4uOWujOaIkOaXtuWbnuiwg+acgOe7iOaIkOWKnyBhdHRlbXB044CC5peg5rOV56Gu5a6aIGF0dGVtcHQKICAgICAqICAg5pe25LygIG51bGzvvIznu5/orqHlsYLkuI3lvpflsIbovoPml6kgYXR0ZW1wdCDnmoQgdXNhZ2Ug5b2T5L2c5oiQ5Yqf57uT5p6c44CCCiAgICAgKiBAcGFyYW0gb25Ob25GYXRhbEVycm9yIOmdnuiHtOWRvemUmeivr+WbnuiwgwogICAgICogQHBhcmFtIGVuYWJsZVJldHJ5IOaYr+WQpuWFgeiuuOWGhemDqOmHjeivlQogICAgICogQHBhcmFtIHJlY29yZFRva2VuVXNhZ2Ug5piv5ZCm5bCG5oiQ5Yqf55qE55yf5a6eIHVzYWdlIOWGmeWFpSBUb2tlbiDnu5/orqHvvJvmtYvor5XlkozmjqLmtYvosIPnlKjkvKAgZmFsc2UKICAgICAqIEByZXR1cm4g5rWB5byP5ZON5bqU5YaF5a6555qEU3RyZWFt77yI5peg6K66c3RyZWFt5Y+C5pWw5aaC5L2V77yM6YO96L+U5ZueU3RyZWFt77yJCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHNlbmRNZXNzYWdlKAogICAgICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgICAgICBjaGF0SGlzdG9yeTogTGlzdDxQcm9tcHRUdXJuPiA9IGVtcHR5TGlzdCgpLAogICAgICAgICAgICBtb2RlbFBhcmFtZXRlcnM6IExpc3Q8TW9kZWxQYXJhbWV0ZXI8Kj4+ID0gZW1wdHlMaXN0KCksCiAgICAgICAgICAgIGVuYWJsZVRoaW5raW5nOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgICAgIHN0cmVhbTogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgICAgIGF2YWlsYWJsZVRvb2xzOiBMaXN0PFRvb2xQcm9tcHQ+PyA9IG51bGwsCiAgICAgICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3Rvcnk6IEJvb2xlYW4gPSBmYWxzZSwgLy8g5paw5aKe5Y+C5pWw77yM5o6n5Yi25piv5ZCm5L+d55WZ5Y6G5Y+y5Lit55qE5oCd6ICD6L+H56iLCiAgICAgICAgICAgIG9uVG9rZW5zVXBkYXRlZDogc3VzcGVuZCAoaW5wdXQ6IExvbmcsIGNhY2hlZElucHV0OiBMb25nLCBvdXRwdXQ6IExvbmcpIC0+IFVuaXQgPSB7IF8sIF8sIF8gLT4gfSwKICAgICAgICAgICAgb25Vc2FnZVJlcG9ydGVkOiAoc3VzcGVuZCAoUHJvdmlkZXJVc2FnZVNuYXBzaG90LCBhdHRlbXB0OiBJbnQpIC0+IFVuaXQpPyA9IG51bGwsCiAgICAgICAgICAgIG9uTm9uRmF0YWxFcnJvcjogc3VzcGVuZCAoZXJyb3I6IFN0cmluZykgLT4gVW5pdCA9IHt9LAogICAgICAgICAgICBlbmFibGVSZXRyeTogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgICAgIHJlY29yZFRva2VuVXNhZ2U6IEJvb2xlYW4gPSB0cnVlLAogICAgICAgICAgICBvblVzYWdlRmluYWxpemVkOiAoc3VzcGVuZCAoYXR0ZW1wdDogSW50PykgLT4gVW5pdCk/ID0gbnVsbCwKICAgICk6IFN0cmVhbTxTdHJpbmc+CgogICAgLyoqCiAgICAgKiDmtYvor5XkuI5BSeacjeWKoeeahOi/nuaOpQogICAgICoKICAgICAqIEBwYXJhbSBjb250ZXh0IEFuZHJvaWQgQ29udGV4dAogICAgICogQHJldHVybiDmiJDlip/ml7bov5Tlm57miJDlip/kv6Hmga/vvIzlpLHotKXml7bov5Tlm57ljIXlkKvplJnor6/nmoRSZXN1bHQKICAgICAqLwogICAgc3VzcGVuZCBmdW4gdGVzdENvbm5lY3Rpb24oY29udGV4dDogQ29udGV4dCk6IFJlc3VsdDxTdHJpbmc+CgogICAgLyoqCiAgICAgKiDnsr7noa7orqHnrpfkuIvkuIDmrKHor7fmsYLnmoTovpPlhaVUb2tlbuaVsOmHjwogICAgICoKICAgICAqIEBwYXJhbSBjaGF0SGlzdG9yeSDlrozmlbTogYrlpKnljoblj7LvvIzlv4Xpobvlt7LljIXlkKvmnKzmrKHmnIDmlrDovpPlhaUKICAgICAqIEBwYXJhbSBhdmFpbGFibGVUb29scyDlj6/nlKjlt6XlhbfliJfooajvvIjlj6/pgInvvIkKICAgICAqIEByZXR1cm4g5Lyw566X55qE6L6T5YWldG9rZW7mgLvmlbAgKOWMheaLrOe8k+WtmOWSjOaWsOWinumDqOWIhikKICAgICAqLwogICAgc3VzcGVuZCBmdW4gY2FsY3VsYXRlSW5wdXRUb2tlbnMoCiAgICAgICAgICAgIGNoYXRIaXN0b3J5OiBMaXN0PFByb21wdFR1cm4+LAogICAgICAgICAgICBhdmFpbGFibGVUb29sczogTGlzdDxUb29sUHJvbXB0Pj8gPSBudWxsCiAgICApOiBMb25nCgogICAgLyoqCiAgICAgKiDph4rmlL7otYTmupAKICAgICAqIOWvueS6juacrOWcsOaooeWei++8iOWmgk1OTu+8ie+8jOmcgOimgemHiuaUvm5hdGl2ZeWGheWtmOWSjOaooeWei+i1hOa6kAogICAgICog5a+55LqOQVBJ5pyN5Yqh77yM6YCa5bi45LiN6ZyA6KaB54m55Yir5aSE55CGCiAgICAgKi8KICAgIGZ1biByZWxlYXNlKCkgewogICAgICAgIC8vIOm7mOiupOepuuWunueOsO+8jOWtkOexu+aMiemcgOimhueblgogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.model.ModelOption
+import com.bslsjdk.operit.data.model.ToolPrompt
+import com.bslsjdk.operit.data.stats.ProviderUsageSnapshot
+import com.bslsjdk.operit.util.stream.Stream
+
+/** AI服务接口，定义与不同AI提供商进行交互的标准方法 */
+interface AIService {
+    /** 输入token计数 (仅新增部分) */
+    val inputTokenCount: Long
+
+    /** 缓存命中的输入token计数 */
+    val cachedInputTokenCount: Long
+
+    /** 输出token计数 */
+    val outputTokenCount: Long
+
+    /** 获取供应商:模型标识符，格式如"DEEPSEEK:deepseek-chat" */
+    val providerModel: String
+
+    /** 重置token计数器 */
+    fun resetTokenCounts()
+
+    /** 取消当前流式传输 */
+    fun cancelStreaming()
+
+    /**
+     * 获取模型列表
+     *
+     * @param context Android Context
+     * @return 模型列表结果，成功返回模型列表，失败返回错误信息
+     */
+    suspend fun getModelsList(context: Context): Result<List<ModelOption>>
+
+    /**
+     * 发送消息到AI服务
+     *
+     * @param context Android Context
+     * @param chatHistory 完整聊天历史，必须已包含本次最新输入
+     * @param modelParameters 模型参数列表
+     * @param enableThinking 是否启用思考模式
+     * @param stream 是否使用流式输出，true为流式，false为非流式（但返回值仍为Stream）
+     * @param availableTools 可用工具列表(用于Tool Call API)，如果为null则使用系统提示词中的工具描述
+     * @param onTokensUpdated Token更新回调（UI 计数通道，可能携带估算值）
+     * @param onUsageReported 规范化 usage 上报回调（统计账本通道；只在解析到
+     *   provider 真实 usage/本地实测计数时回调，估算值不上报；可被多次调用，
+     *   第二次参数为 provider 内部尝试序号 attempt（从 1 开始，内部重试递增），
+     *   同一 attempt 的后续上报覆盖先前部分上报）
+     * @param onUsageFinalized 仅在请求正常完成时回调最终成功 attempt。无法确定 attempt
+     *   时传 null，统计层不得将较早 attempt 的 usage 当作成功结果。
+     * @param onNonFatalError 非致命错误回调
+     * @param enableRetry 是否允许内部重试
+     * @param recordTokenUsage 是否将成功的真实 usage 写入 Token 统计；测试和探测调用传 false
+     * @return 流式响应内容的Stream（无论stream参数如何，都返回Stream）
+     */
+    suspend fun sendMessage(
+            context: Context,
+            chatHistory: List<PromptTurn> = emptyList(),
+            modelParameters: List<ModelParameter<*>> = emptyList(),
+            enableThinking: Boolean = false,
+            stream: Boolean = true,
+            availableTools: List<ToolPrompt>? = null,
+            preserveThinkInHistory: Boolean = false, // 新增参数，控制是否保留历史中的思考过程
+            onTokensUpdated: suspend (input: Long, cachedInput: Long, output: Long) -> Unit = { _, _, _ -> },
+            onUsageReported: (suspend (ProviderUsageSnapshot, attempt: Int) -> Unit)? = null,
+            onNonFatalError: suspend (error: String) -> Unit = {},
+            enableRetry: Boolean = true,
+            recordTokenUsage: Boolean = true,
+            onUsageFinalized: (suspend (attempt: Int?) -> Unit)? = null,
+    ): Stream<String>
+
+    /**
+     * 测试与AI服务的连接
+     *
+     * @param context Android Context
+     * @return 成功时返回成功信息，失败时返回包含错误的Result
+     */
+    suspend fun testConnection(context: Context): Result<String>
+
+    /**
+     * 精确计算下一次请求的输入Token数量
+     *
+     * @param chatHistory 完整聊天历史，必须已包含本次最新输入
+     * @param availableTools 可用工具列表（可选）
+     * @return 估算的输入token总数 (包括缓存和新增部分)
+     */
+    suspend fun calculateInputTokens(
+            chatHistory: List<PromptTurn>,
+            availableTools: List<ToolPrompt>? = null
+    ): Long
+
+    /**
+     * 释放资源
+     * 对于本地模型（如MNN），需要释放native内存和模型资源
+     * 对于API服务，通常不需要特别处理
+     */
+    fun release() {
+        // 默认空实现，子类按需覆盖
+    }
+}

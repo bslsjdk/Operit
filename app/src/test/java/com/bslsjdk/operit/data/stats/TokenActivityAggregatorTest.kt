@@ -1,1 +1,64 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGphdmEudGltZS5Mb2NhbERhdGUKaW1wb3J0IGphdmEudGltZS5ab25lSWQKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgVG9rZW5BY3Rpdml0eUFnZ3JlZ2F0b3JUZXN0IHsKICAgIHByaXZhdGUgdmFsIHpvbmUgPSBab25lSWQub2YoIkFzaWEvU2hhbmdoYWkiKQoKICAgIEBUZXN0CiAgICBmdW4gYHJhbmdlIGRhdGEgY29udGFpbnMgZXZlcnkgc2VsZWN0ZWQgY2FsZW5kYXIgZGF5IGFuZCBleGNsdWRlcyBzdXJyb3VuZGluZyBhY3Rpdml0eWAoKSB7CiAgICAgICAgdmFsIHJhbmdlID0gZGF0ZVJhbmdlKCIyMDI2LTA4LTAyIiwgIjIwMjYtMDgtMDQiKQogICAgICAgIHZhbCBzbmFwc2hvdCA9IFRva2VuQWN0aXZpdHlTbmFwc2hvdCgKICAgICAgICAgICAgem9uZSA9IHpvbmUsCiAgICAgICAgICAgIGRheVRvdGFscyA9IG1hcE9mKAogICAgICAgICAgICAgICAgTG9jYWxEYXRlLm9mKDIwMjYsIDgsIDEpIHRvIDQwTCwKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCA4LCAyKSB0byAxMEwsCiAgICAgICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgOCwgNCkgdG8gMzBMLAogICAgICAgICAgICAgICAgTG9jYWxEYXRlLm9mKDIwMjYsIDgsIDUpIHRvIDUwTCwKICAgICAgICAgICAgKSwKICAgICAgICApCgogICAgICAgIHZhbCByZXN1bHQgPSBUb2tlbkFjdGl2aXR5QWdncmVnYXRvci5yYW5nZURhdGEoc25hcHNob3QsIHJhbmdlKQoKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIGxpc3RPZigKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCA4LCAyKSwKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCA4LCAzKSwKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCA4LCA0KSwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgcmVzdWx0LmRhaWx5Lm1hcChUb2tlbkFjdGl2aXR5RGF5OjpkYXRlKSwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxMEwsIDBMLCAzMEwpLCByZXN1bHQuZGFpbHkubWFwKFRva2VuQWN0aXZpdHlEYXk6OnRva2VucykpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDQwTCwgcmVzdWx0LnN0YXRzLnRvdGFsVG9rZW5zKQogICAgICAgIGFzc2VydEVxdWFscygzMEwsIHJlc3VsdC5zdGF0cy5wZWFrVG9rZW5zKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHJhbmdlIGRhdGEgY2FsY3VsYXRlcyBzdHJlYWtzIGFuZCBjdW11bGF0aXZlIHRvdGFscyBpbnNpZGUgdGhlIHNlbGVjdGVkIHJhbmdlYCgpIHsKICAgICAgICB2YWwgcmFuZ2UgPSBkYXRlUmFuZ2UoIjIwMjYtMDgtMDEiLCAiMjAyNi0wOC0wNSIpCiAgICAgICAgdmFsIHNuYXBzaG90ID0gVG9rZW5BY3Rpdml0eVNuYXBzaG90KAogICAgICAgICAgICB6b25lID0gem9uZSwKICAgICAgICAgICAgZGF5VG90YWxzID0gbWFwT2YoCiAgICAgICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgOCwgMSkgdG8gMTBMLAogICAgICAgICAgICAgICAgTG9jYWxEYXRlLm9mKDIwMjYsIDgsIDIpIHRvIDIwTCwKICAgICAgICAgICAgICAgIExvY2FsRGF0ZS5vZigyMDI2LCA4LCA0KSB0byAzMEwsCiAgICAgICAgICAgICAgICBMb2NhbERhdGUub2YoMjAyNiwgOCwgNSkgdG8gNDBMLAogICAgICAgICAgICApLAogICAgICAgICkKCiAgICAgICAgdmFsIHJlc3VsdCA9IFRva2VuQWN0aXZpdHlBZ2dyZWdhdG9yLnJhbmdlRGF0YShzbmFwc2hvdCwgcmFuZ2UpCgogICAgICAgIGFzc2VydEVxdWFscygyLCByZXN1bHQuc3RhdHMuY3VycmVudFN0cmVhaykKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgcmVzdWx0LnN0YXRzLmxvbmdlc3RTdHJlYWspCiAgICAgICAgYXNzZXJ0RXF1YWxzKGxpc3RPZigxMEwsIDMwTCwgMzBMLCA2MEwsIDEwMEwpLCByZXN1bHQuY3VtdWxhdGl2ZS5tYXAoVG9rZW5BY3Rpdml0eURheTo6dG9rZW5zKSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBkYXRlUmFuZ2Uoc3RhcnQ6IFN0cmluZywgaW5jbHVzaXZlRW5kOiBTdHJpbmcpOiBUb2tlblN0YXRzVGltZVJhbmdlID0KICAgICAgICBUb2tlblN0YXRzVGltZVJhbmdlcy5jdXN0b21SYW5nZSgKICAgICAgICAgICAgTG9jYWxEYXRlLnBhcnNlKHN0YXJ0KS5hdFN0YXJ0T2ZEYXkoem9uZSkudG9JbnN0YW50KCkudG9FcG9jaE1pbGxpKCksCiAgICAgICAgICAgIExvY2FsRGF0ZS5wYXJzZShpbmNsdXNpdmVFbmQpLnBsdXNEYXlzKDEpLmF0U3RhcnRPZkRheSh6b25lKS50b0luc3RhbnQoKS50b0Vwb2NoTWlsbGkoKSwKICAgICAgICApCn0K
+package com.bslsjdk.operit.data.stats
+
+import java.time.LocalDate
+import java.time.ZoneId
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class TokenActivityAggregatorTest {
+    private val zone = ZoneId.of("Asia/Shanghai")
+
+    @Test
+    fun `range data contains every selected calendar day and excludes surrounding activity`() {
+        val range = dateRange("2026-08-02", "2026-08-04")
+        val snapshot = TokenActivitySnapshot(
+            zone = zone,
+            dayTotals = mapOf(
+                LocalDate.of(2026, 8, 1) to 40L,
+                LocalDate.of(2026, 8, 2) to 10L,
+                LocalDate.of(2026, 8, 4) to 30L,
+                LocalDate.of(2026, 8, 5) to 50L,
+            ),
+        )
+
+        val result = TokenActivityAggregator.rangeData(snapshot, range)
+
+        assertEquals(
+            listOf(
+                LocalDate.of(2026, 8, 2),
+                LocalDate.of(2026, 8, 3),
+                LocalDate.of(2026, 8, 4),
+            ),
+            result.daily.map(TokenActivityDay::date),
+        )
+        assertEquals(listOf(10L, 0L, 30L), result.daily.map(TokenActivityDay::tokens))
+        assertEquals(40L, result.stats.totalTokens)
+        assertEquals(30L, result.stats.peakTokens)
+    }
+
+    @Test
+    fun `range data calculates streaks and cumulative totals inside the selected range`() {
+        val range = dateRange("2026-08-01", "2026-08-05")
+        val snapshot = TokenActivitySnapshot(
+            zone = zone,
+            dayTotals = mapOf(
+                LocalDate.of(2026, 8, 1) to 10L,
+                LocalDate.of(2026, 8, 2) to 20L,
+                LocalDate.of(2026, 8, 4) to 30L,
+                LocalDate.of(2026, 8, 5) to 40L,
+            ),
+        )
+
+        val result = TokenActivityAggregator.rangeData(snapshot, range)
+
+        assertEquals(2, result.stats.currentStreak)
+        assertEquals(2, result.stats.longestStreak)
+        assertEquals(listOf(10L, 30L, 30L, 60L, 100L), result.cumulative.map(TokenActivityDay::tokens))
+    }
+
+    private fun dateRange(start: String, inclusiveEnd: String): TokenStatsTimeRange =
+        TokenStatsTimeRanges.customRange(
+            LocalDate.parse(start).atStartOfDay(zone).toInstant().toEpochMilli(),
+            LocalDate.parse(inclusiveEnd).plusDays(1).atStartOfDay(zone).toInstant().toEpochMilli(),
+        )
+}

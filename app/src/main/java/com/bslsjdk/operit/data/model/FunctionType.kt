@@ -1,1 +1,16 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqIOihqOekuuS4jeWQjOWKn+iDveexu+Wei++8jOeUqOS6juaMh+WumuS4jeWQjOWKn+iDveS9v+eUqOeahEFJ6YWN572uICovCmVudW0gY2xhc3MgRnVuY3Rpb25UeXBlIHsKICAgIENIQVQsIC8vIOW4uOinhOWvueivnQogICAgU1VNTUFSWSwgLy8g5a+56K+d5oC757uTCiAgICBUSVRMRV9HRU5FUkFUSU9OLCAvLyBBSeaAu+e7k+agh+mimAogICAgTUVNT1JZLCAvLyDorrDlv4blupPlpITnkIYKICAgIFVJX0NPTlRST0xMRVIsIC8vIFVJ6Ieq5Yqo5YyW5o6n5Yi2CiAgICBUUkFOU0xBVElPTiwgLy8g57+76K+R5Yqf6IO9CiAgICBHUkVQLCAvLyBHcmVw5LiK5LiL5paH5qOA57SiL+S7o+eggeaQnOe0ouinhOWIkgogICAgUk9MRV9SRVNQT05TRV9QTEFOTkVSLCAvLyDop5LoibLlm57nrZTpobrluo/op4TliJIKICAgIElNQUdFX1JFQ09HTklUSU9OLCAvLyDlm77lg4/or4bliKsKICAgIEFVRElPX1JFQ09HTklUSU9OLCAvLyDpn7PpopHor4bliKsKICAgIFZJREVPX1JFQ09HTklUSU9OIC8vIOinhumikeivhuWIqwp9Cg==
+package com.bslsjdk.operit.data.model
+
+/** 表示不同功能类型，用于指定不同功能使用的AI配置 */
+enum class FunctionType {
+    CHAT, // 常规对话
+    SUMMARY, // 对话总结
+    TITLE_GENERATION, // AI总结标题
+    MEMORY, // 记忆库处理
+    UI_CONTROLLER, // UI自动化控制
+    TRANSLATION, // 翻译功能
+    GREP, // Grep上下文检索/代码搜索规划
+    ROLE_RESPONSE_PLANNER, // 角色回答顺序规划
+    IMAGE_RECOGNITION, // 图像识别
+    AUDIO_RECOGNITION, // 音频识别
+    VIDEO_RECOGNITION // 视频识别
+}

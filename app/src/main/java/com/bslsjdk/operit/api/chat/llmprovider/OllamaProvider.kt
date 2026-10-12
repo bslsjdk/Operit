@@ -1,1 +1,36 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IG9raHR0cDMuT2tIdHRwQ2xpZW50CgovKioKICogT2xsYW1hIHByb3ZpZGVyLgogKiBVc2VzIE9wZW5BSS1jb21wYXRpYmxlIEFQSSBzdXJmYWNlIGV4cG9zZWQgYnkgT2xsYW1hIChlLmcuIC92MS9jaGF0L2NvbXBsZXRpb25zKS4KICovCmNsYXNzIE9sbGFtYVByb3ZpZGVyKAogICAgYXBpRW5kcG9pbnQ6IFN0cmluZywKICAgIGFwaUtleVByb3ZpZGVyOiBBcGlLZXlQcm92aWRlciwKICAgIG1vZGVsTmFtZTogU3RyaW5nLAogICAgY2xpZW50OiBPa0h0dHBDbGllbnQsCiAgICBjdXN0b21IZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKSwKICAgIHByb3ZpZGVyVHlwZTogQXBpUHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLk9MTEFNQSwKICAgIHN1cHBvcnRzVmlzaW9uOiBCb29sZWFuID0gZmFsc2UsCiAgICBzdXBwb3J0c0F1ZGlvOiBCb29sZWFuID0gZmFsc2UsCiAgICBzdXBwb3J0c1ZpZGVvOiBCb29sZWFuID0gZmFsc2UsCiAgICBlbmFibGVUb29sQ2FsbDogQm9vbGVhbiA9IGZhbHNlLAogICAgdGhpbmtpbmdDb25maWd1cmF0aW9uczogU3RyaW5nID0gIiIsCiAgICB0aGlua2luZ09wdGlvbklkOiBTdHJpbmcgPSAiIgopIDogT3BlbkFJUHJvdmlkZXIoCiAgICBhcGlFbmRwb2ludCA9IGFwaUVuZHBvaW50LAogICAgYXBpS2V5UHJvdmlkZXIgPSBhcGlLZXlQcm92aWRlciwKICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZSwKICAgIGNsaWVudCA9IGNsaWVudCwKICAgIGN1c3RvbUhlYWRlcnMgPSBjdXN0b21IZWFkZXJzLAogICAgcHJvdmlkZXJUeXBlID0gcHJvdmlkZXJUeXBlLAogICAgc3VwcG9ydHNWaXNpb24gPSBzdXBwb3J0c1Zpc2lvbiwKICAgIHN1cHBvcnRzQXVkaW8gPSBzdXBwb3J0c0F1ZGlvLAogICAgc3VwcG9ydHNWaWRlbyA9IHN1cHBvcnRzVmlkZW8sCiAgICBlbmFibGVUb29sQ2FsbCA9IGVuYWJsZVRvb2xDYWxsLAogICAgdGhpbmtpbmdDb25maWd1cmF0aW9ucyA9IHRoaW5raW5nQ29uZmlndXJhdGlvbnMsCiAgICAgICAgdGhpbmtpbmdPcHRpb25JZCA9IHRoaW5raW5nT3B0aW9uSWQKKQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import okhttp3.OkHttpClient
+
+/**
+ * Ollama provider.
+ * Uses OpenAI-compatible API surface exposed by Ollama (e.g. /v1/chat/completions).
+ */
+class OllamaProvider(
+    apiEndpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String> = emptyMap(),
+    providerType: ApiProviderType = ApiProviderType.OLLAMA,
+    supportsVision: Boolean = false,
+    supportsAudio: Boolean = false,
+    supportsVideo: Boolean = false,
+    enableToolCall: Boolean = false,
+    thinkingConfigurations: String = "",
+    thinkingOptionId: String = ""
+) : OpenAIProvider(
+    apiEndpoint = apiEndpoint,
+    apiKeyProvider = apiKeyProvider,
+    modelName = modelName,
+    client = client,
+    customHeaders = customHeaders,
+    providerType = providerType,
+    supportsVision = supportsVision,
+    supportsAudio = supportsAudio,
+    supportsVideo = supportsVideo,
+    enableToolCall = enableToolCall,
+    thinkingConfigurations = thinkingConfigurations,
+        thinkingOptionId = thinkingOptionId
+)

@@ -1,1 +1,44 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZWNvdmVyeQoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIFJvb21EYXRhYmFzZUhlYWx0aE1hbmFnZXJUZXN0IHsKICAgIEBUZXN0CiAgICBmdW4gaW5kZXhFbnRyeUZhaWx1cmVzQXJlUmVwYWlyYWJsZSgpIHsKICAgICAgICBhc3NlcnRUcnVlKAogICAgICAgICAgICBSb29tRGF0YWJhc2VIZWFsdGhNYW5hZ2VyLmlzSW5kZXhPbmx5UXVpY2tDaGVja0ZhaWx1cmUoCiAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgIioqKiBpbiBkYXRhYmFzZSBtYWluICoqKlxucm93IDQyIG1pc3NpbmcgZnJvbSBpbmRleCBpbmRleF9tZXNzYWdlc19jaGF0SWQiLAogICAgICAgICAgICAgICAgICAgICJ3cm9uZyAjIG9mIGVudHJpZXMgaW4gaW5kZXggaW5kZXhfbWVzc2FnZXNfY2hhdElkX3RpbWVzdGFtcCIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHBhZ2VEYW1hZ2VJc05vdENsYXNzaWZpZWRBc0luZGV4T25seSgpIHsKICAgICAgICBhc3NlcnRGYWxzZSgKICAgICAgICAgICAgUm9vbURhdGFiYXNlSGVhbHRoTWFuYWdlci5pc0luZGV4T25seVF1aWNrQ2hlY2tGYWlsdXJlKAogICAgICAgICAgICAgICAgbGlzdE9mKCJQYWdlIDggaXMgbmV2ZXIgdXNlZCIpCiAgICAgICAgICAgICkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB1bnJlbGF0ZWRGYWlsdXJlQ29udGFpbmluZ0luZGV4V29yZHNJc05vdFJlcGFpcmFibGUoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoCiAgICAgICAgICAgIFJvb21EYXRhYmFzZUhlYWx0aE1hbmFnZXIuaXNJbmRleE9ubHlRdWlja0NoZWNrRmFpbHVyZSgKICAgICAgICAgICAgICAgIGxpc3RPZigiZGF0YWJhc2UgcGFnZSBkYW1hZ2UgY2F1c2VkIGEgcm93IG1pc3NpbmcgZnJvbSBpbmRleCBtZXRhZGF0YSIpCiAgICAgICAgICAgICkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBzdWNjZXNzZnVsUXVpY2tDaGVja0RvZXNOb3RSZXF1ZXN0SW5kZXhSZXBhaXIoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoCiAgICAgICAgICAgIFJvb21EYXRhYmFzZUhlYWx0aE1hbmFnZXIuaXNJbmRleE9ubHlRdWlja0NoZWNrRmFpbHVyZShsaXN0T2YoIm9rIikpCiAgICAgICAgKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.recovery
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class RoomDatabaseHealthManagerTest {
+    @Test
+    fun indexEntryFailuresAreRepairable() {
+        assertTrue(
+            RoomDatabaseHealthManager.isIndexOnlyQuickCheckFailure(
+                listOf(
+                    "*** in database main ***\nrow 42 missing from index index_messages_chatId",
+                    "wrong # of entries in index index_messages_chatId_timestamp"
+                )
+            )
+        )
+    }
+
+    @Test
+    fun pageDamageIsNotClassifiedAsIndexOnly() {
+        assertFalse(
+            RoomDatabaseHealthManager.isIndexOnlyQuickCheckFailure(
+                listOf("Page 8 is never used")
+            )
+        )
+    }
+
+    @Test
+    fun unrelatedFailureContainingIndexWordsIsNotRepairable() {
+        assertFalse(
+            RoomDatabaseHealthManager.isIndexOnlyQuickCheckFailure(
+                listOf("database page damage caused a row missing from index metadata")
+            )
+        )
+    }
+
+    @Test
+    fun successfulQuickCheckDoesNotRequestIndexRepair() {
+        assertFalse(
+            RoomDatabaseHealthManager.isIndexOnlyQuickCheckFailure(listOf("ok"))
+        )
+    }
+}

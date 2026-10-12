@@ -1,1 +1,81 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5iYWNrdXAKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLmNvcmUuRGF0YVN0b3JlCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5QcmVmZXJlbmNlcwppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuYm9vbGVhblByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5lZGl0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5pbnRQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUubG9uZ1ByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5zdHJpbmdQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLnByZWZlcmVuY2VzRGF0YVN0b3JlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5GbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5maXJzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cubWFwCgpwcml2YXRlIHZhbCBDb250ZXh0LmRhdGFiYXNlQmFja3VwRGF0YVN0b3JlOiBEYXRhU3RvcmU8UHJlZmVyZW5jZXM+IGJ5CiAgICBwcmVmZXJlbmNlc0RhdGFTdG9yZShuYW1lID0gImRhdGFiYXNlX2JhY2t1cF9zZXR0aW5ncyIpCgpjbGFzcyBSb29tRGF0YWJhc2VCYWNrdXBQcmVmZXJlbmNlcyBwcml2YXRlIGNvbnN0cnVjdG9yKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBAVm9sYXRpbGUgcHJpdmF0ZSB2YXIgSU5TVEFOQ0U6IFJvb21EYXRhYmFzZUJhY2t1cFByZWZlcmVuY2VzPyA9IG51bGwKCiAgICAgICAgZnVuIGdldEluc3RhbmNlKGNvbnRleHQ6IENvbnRleHQpOiBSb29tRGF0YWJhc2VCYWNrdXBQcmVmZXJlbmNlcyB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRSA/OiBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICAgICAgdmFsIGluc3RhbmNlID0gUm9vbURhdGFiYXNlQmFja3VwUHJlZmVyZW5jZXMoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgICAgICBJTlNUQU5DRSA9IGluc3RhbmNlCiAgICAgICAgICAgICAgICBpbnN0YW5jZQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBERUZBVUxUX0VOQUJMRV9EQUlMWV9CQUNLVVAgPSB0cnVlCiAgICAgICAgY29uc3QgdmFsIERFRkFVTFRfTUFYX0JBQ0tVUF9DT1VOVCA9IDEwCgogICAgICAgIHByaXZhdGUgdmFsIEtFWV9FTkFCTEVfREFJTFlfQkFDS1VQID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCJlbmFibGVfZGFpbHlfcm9vbV9kYl9iYWNrdXAiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9MQVNUX0JBQ0tVUF9EQVkgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgicm9vbV9kYl9iYWNrdXBfbGFzdF9kYXkiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9MQVNUX1NVQ0NFU1NfVElNRSA9IGxvbmdQcmVmZXJlbmNlc0tleSgicm9vbV9kYl9iYWNrdXBfbGFzdF9zdWNjZXNzX3RpbWUiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9MQVNUX0VSUk9SID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoInJvb21fZGJfYmFja3VwX2xhc3RfZXJyb3IiKQogICAgICAgIHByaXZhdGUgdmFsIEtFWV9NQVhfQkFDS1VQX0NPVU5UID0gaW50UHJlZmVyZW5jZXNLZXkoInJvb21fZGJfYmFja3VwX21heF9jb3VudCIpCiAgICB9CgogICAgdmFsIGVuYWJsZURhaWx5QmFja3VwRmxvdzogRmxvdzxCb29sZWFuPiA9CiAgICAgICAgY29udGV4dC5kYXRhYmFzZUJhY2t1cERhdGFTdG9yZS5kYXRhLm1hcCB7IGl0W0tFWV9FTkFCTEVfREFJTFlfQkFDS1VQXSA/OiBERUZBVUxUX0VOQUJMRV9EQUlMWV9CQUNLVVAgfQoKICAgIHZhbCBsYXN0QmFja3VwRGF5RmxvdzogRmxvdzxTdHJpbmc/PiA9CiAgICAgICAgY29udGV4dC5kYXRhYmFzZUJhY2t1cERhdGFTdG9yZS5kYXRhLm1hcCB7IGl0W0tFWV9MQVNUX0JBQ0tVUF9EQVldIH0KCiAgICB2YWwgbGFzdFN1Y2Nlc3NUaW1lRmxvdzogRmxvdzxMb25nPiA9CiAgICAgICAgY29udGV4dC5kYXRhYmFzZUJhY2t1cERhdGFTdG9yZS5kYXRhLm1hcCB7IGl0W0tFWV9MQVNUX1NVQ0NFU1NfVElNRV0gPzogMEwgfQoKICAgIHZhbCBsYXN0RXJyb3JGbG93OiBGbG93PFN0cmluZz4gPQogICAgICAgIGNvbnRleHQuZGF0YWJhc2VCYWNrdXBEYXRhU3RvcmUuZGF0YS5tYXAgeyBpdFtLRVlfTEFTVF9FUlJPUl0gPzogIiIgfQoKICAgIHZhbCBtYXhCYWNrdXBDb3VudEZsb3c6IEZsb3c8SW50PiA9CiAgICAgICAgY29udGV4dC5kYXRhYmFzZUJhY2t1cERhdGFTdG9yZS5kYXRhLm1hcCB7IGl0W0tFWV9NQVhfQkFDS1VQX0NPVU5UXSA/OiBERUZBVUxUX01BWF9CQUNLVVBfQ09VTlQgfQoKICAgIHN1c3BlbmQgZnVuIGlzRGFpbHlCYWNrdXBFbmFibGVkKCk6IEJvb2xlYW4gPSBlbmFibGVEYWlseUJhY2t1cEZsb3cuZmlyc3QoKQoKICAgIHN1c3BlbmQgZnVuIHNldERhaWx5QmFja3VwRW5hYmxlZChlbmFibGVkOiBCb29sZWFuKSB7CiAgICAgICAgY29udGV4dC5kYXRhYmFzZUJhY2t1cERhdGFTdG9yZS5lZGl0IHsgaXRbS0VZX0VOQUJMRV9EQUlMWV9CQUNLVVBdID0gZW5hYmxlZCB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gbWFya1N1Y2Nlc3MoZGF5OiBTdHJpbmcsIHRpbWVzdGFtcDogTG9uZykgewogICAgICAgIGNvbnRleHQuZGF0YWJhc2VCYWNrdXBEYXRhU3RvcmUuZWRpdCB7CiAgICAgICAgICAgIGl0W0tFWV9MQVNUX0JBQ0tVUF9EQVldID0gZGF5CiAgICAgICAgICAgIGl0W0tFWV9MQVNUX1NVQ0NFU1NfVElNRV0gPSB0aW1lc3RhbXAKICAgICAgICAgICAgaXRbS0VZX0xBU1RfRVJST1JdID0gIiIKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gbWFya0ZhaWx1cmUoZXJyb3I6IFN0cmluZykgewogICAgICAgIGNvbnRleHQuZGF0YWJhc2VCYWNrdXBEYXRhU3RvcmUuZWRpdCB7IGl0W0tFWV9MQVNUX0VSUk9SXSA9IGVycm9yIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBnZXRNYXhCYWNrdXBDb3VudCgpOiBJbnQgPSBtYXhCYWNrdXBDb3VudEZsb3cuZmlyc3QoKQoKICAgIHN1c3BlbmQgZnVuIHNldE1heEJhY2t1cENvdW50KGNvdW50OiBJbnQpIHsKICAgICAgICB2YWwgc2FmZSA9IGNvdW50LmNvZXJjZUluKDEsIDEwMCkKICAgICAgICBjb250ZXh0LmRhdGFiYXNlQmFja3VwRGF0YVN0b3JlLmVkaXQgeyBpdFtLRVlfTUFYX0JBQ0tVUF9DT1VOVF0gPSBzYWZlIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.backup
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.longPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+
+private val Context.databaseBackupDataStore: DataStore<Preferences> by
+    preferencesDataStore(name = "database_backup_settings")
+
+class RoomDatabaseBackupPreferences private constructor(private val context: Context) {
+
+    companion object {
+        @Volatile private var INSTANCE: RoomDatabaseBackupPreferences? = null
+
+        fun getInstance(context: Context): RoomDatabaseBackupPreferences {
+            return INSTANCE ?: synchronized(this) {
+                val instance = RoomDatabaseBackupPreferences(context.applicationContext)
+                INSTANCE = instance
+                instance
+            }
+        }
+
+        private const val DEFAULT_ENABLE_DAILY_BACKUP = true
+        const val DEFAULT_MAX_BACKUP_COUNT = 10
+
+        private val KEY_ENABLE_DAILY_BACKUP = booleanPreferencesKey("enable_daily_room_db_backup")
+        private val KEY_LAST_BACKUP_DAY = stringPreferencesKey("room_db_backup_last_day")
+        private val KEY_LAST_SUCCESS_TIME = longPreferencesKey("room_db_backup_last_success_time")
+        private val KEY_LAST_ERROR = stringPreferencesKey("room_db_backup_last_error")
+        private val KEY_MAX_BACKUP_COUNT = intPreferencesKey("room_db_backup_max_count")
+    }
+
+    val enableDailyBackupFlow: Flow<Boolean> =
+        context.databaseBackupDataStore.data.map { it[KEY_ENABLE_DAILY_BACKUP] ?: DEFAULT_ENABLE_DAILY_BACKUP }
+
+    val lastBackupDayFlow: Flow<String?> =
+        context.databaseBackupDataStore.data.map { it[KEY_LAST_BACKUP_DAY] }
+
+    val lastSuccessTimeFlow: Flow<Long> =
+        context.databaseBackupDataStore.data.map { it[KEY_LAST_SUCCESS_TIME] ?: 0L }
+
+    val lastErrorFlow: Flow<String> =
+        context.databaseBackupDataStore.data.map { it[KEY_LAST_ERROR] ?: "" }
+
+    val maxBackupCountFlow: Flow<Int> =
+        context.databaseBackupDataStore.data.map { it[KEY_MAX_BACKUP_COUNT] ?: DEFAULT_MAX_BACKUP_COUNT }
+
+    suspend fun isDailyBackupEnabled(): Boolean = enableDailyBackupFlow.first()
+
+    suspend fun setDailyBackupEnabled(enabled: Boolean) {
+        context.databaseBackupDataStore.edit { it[KEY_ENABLE_DAILY_BACKUP] = enabled }
+    }
+
+    suspend fun markSuccess(day: String, timestamp: Long) {
+        context.databaseBackupDataStore.edit {
+            it[KEY_LAST_BACKUP_DAY] = day
+            it[KEY_LAST_SUCCESS_TIME] = timestamp
+            it[KEY_LAST_ERROR] = ""
+        }
+    }
+
+    suspend fun markFailure(error: String) {
+        context.databaseBackupDataStore.edit { it[KEY_LAST_ERROR] = error }
+    }
+
+    suspend fun getMaxBackupCount(): Int = maxBackupCountFlow.first()
+
+    suspend fun setMaxBackupCount(count: Int) {
+        val safe = count.coerceIn(1, 100)
+        context.databaseBackupDataStore.edit { it[KEY_MAX_BACKUP_COUNT] = safe }
+    }
+}

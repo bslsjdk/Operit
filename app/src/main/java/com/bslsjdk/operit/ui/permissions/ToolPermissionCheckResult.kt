@@ -1,1 +1,24 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkucGVybWlzc2lvbnMKCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLlN0cmluZ1JlcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKCi8qKiBSZXN1bHQgb2YgdGhlIHBlcm1pc3Npb24gZ2F0ZSBiZWZvcmUgYSB0b29sIHN0YXJ0cyBleGVjdXRpbmcuICovCmVudW0gY2xhc3MgVG9vbFBlcm1pc3Npb25DaGVja1Jlc3VsdCgKICAgIHZhbCBpc0dyYW50ZWQ6IEJvb2xlYW4sCiAgICBAU3RyaW5nUmVzIHZhbCBlcnJvck1lc3NhZ2VSZXNJZDogSW50PyA9IG51bGwsCikgewogICAgR1JBTlRFRChpc0dyYW50ZWQgPSB0cnVlKSwKICAgIERFTklFRCgKICAgICAgICBpc0dyYW50ZWQgPSBmYWxzZSwKICAgICAgICBlcnJvck1lc3NhZ2VSZXNJZCA9IFIuc3RyaW5nLnRvb2xfcGVybWlzc2lvbl9leGVjdXRpb25fZGVuaWVkLAogICAgKSwKICAgIE9WRVJMQVlfUEVSTUlTU0lPTl9SRVFVSVJFRCgKICAgICAgICBpc0dyYW50ZWQgPSBmYWxzZSwKICAgICAgICBlcnJvck1lc3NhZ2VSZXNJZCA9IFIuc3RyaW5nLnRvb2xfcGVybWlzc2lvbl9vdmVybGF5X3JlcXVpcmVkX2Zvcl9jb25maXJtYXRpb24sCiAgICApLAogICAgQ09ORklSTUFUSU9OX1RJTUVPVVQoCiAgICAgICAgaXNHcmFudGVkID0gZmFsc2UsCiAgICAgICAgZXJyb3JNZXNzYWdlUmVzSWQgPSBSLnN0cmluZy50b29sX3Blcm1pc3Npb25fY29uZmlybWF0aW9uX3RpbWVvdXQsCiAgICApLAp9Cg==
+package com.bslsjdk.operit.ui.permissions
+
+import androidx.annotation.StringRes
+import com.bslsjdk.operit.R
+
+/** Result of the permission gate before a tool starts executing. */
+enum class ToolPermissionCheckResult(
+    val isGranted: Boolean,
+    @StringRes val errorMessageResId: Int? = null,
+) {
+    GRANTED(isGranted = true),
+    DENIED(
+        isGranted = false,
+        errorMessageResId = R.string.tool_permission_execution_denied,
+    ),
+    OVERLAY_PERMISSION_REQUIRED(
+        isGranted = false,
+        errorMessageResId = R.string.tool_permission_overlay_required_for_confirmation,
+    ),
+    CONFIRMATION_TIMEOUT(
+        isGranted = false,
+        errorMessageResId = R.string.tool_permission_confirmation_timeout,
+    ),
+}

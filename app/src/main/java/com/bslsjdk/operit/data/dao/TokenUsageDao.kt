@@ -1,1 +1,192 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5kYW8KCmltcG9ydCBhbmRyb2lkeC5yb29tLkRhbwppbXBvcnQgYW5kcm9pZHgucm9vbS5JbnNlcnQKaW1wb3J0IGFuZHJvaWR4LnJvb20uT25Db25mbGljdFN0cmF0ZWd5CmltcG9ydCBhbmRyb2lkeC5yb29tLlF1ZXJ5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub2tlblN0YXRzTW9kZWxFbnRpdHkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRva2VuVXNhZ2VSZWNvcmRFbnRpdHkKCmRhdGEgY2xhc3MgVG9rZW5Vc2FnZU1vZGVsQWdncmVnYXRlUm93KAogICAgdmFsIHByb3ZpZGVyOiBTdHJpbmcsCiAgICB2YWwgbW9kZWw6IFN0cmluZywKICAgIHZhbCBjb25maWdJZDogU3RyaW5nLAogICAgdmFsIHJlcXVlc3RzOiBMb25nLAogICAgdmFsIHVuY2FjaGVkSW5wdXRUb2tlbnM6IExvbmcsCiAgICB2YWwgdW5jYWNoZWRJbnB1dEtub3duOiBMb25nLAogICAgdmFsIGNhY2hlZElucHV0VG9rZW5zOiBMb25nLAogICAgdmFsIGNhY2hlZElucHV0S25vd246IExvbmcsCiAgICB2YWwgY2FjaGVXcml0ZVRva2VuczogTG9uZywKICAgIHZhbCBjYWNoZVdyaXRlS25vd246IExvbmcsCiAgICB2YWwgdG90YWxJbnB1dFRva2VuczogTG9uZywKICAgIHZhbCB0b3RhbElucHV0S25vd246IExvbmcsCiAgICB2YWwgb3V0cHV0VG9rZW5zOiBMb25nLAogICAgdmFsIG91dHB1dEtub3duOiBMb25nLAopIHsKICAgIHZhbCBwcm92aWRlck1vZGVsOiBTdHJpbmcKICAgICAgICBnZXQoKSA9ICIkcHJvdmlkZXI6JG1vZGVsIgp9CgpkYXRhIGNsYXNzIFRva2VuVXNhZ2VBY3Rpdml0eURheVJvdygKICAgIHZhbCBsb2NhbERhdGU6IFN0cmluZywKICAgIHZhbCB0b2tlbnM6IExvbmcsCikKCkBEYW8KYWJzdHJhY3QgY2xhc3MgVG9rZW5Vc2FnZURhbyB7CgogICAgQEluc2VydChvbkNvbmZsaWN0ID0gT25Db25mbGljdFN0cmF0ZWd5LlJFUExBQ0UpCiAgICBhYnN0cmFjdCBzdXNwZW5kIGZ1biBpbnNlcnRSZWNvcmQocmVjb3JkOiBUb2tlblVzYWdlUmVjb3JkRW50aXR5KTogTG9uZwoKICAgIEBJbnNlcnQob25Db25mbGljdCA9IE9uQ29uZmxpY3RTdHJhdGVneS5SRVBMQUNFKQogICAgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gaW5zZXJ0UmVjb3JkcyhyZWNvcmRzOiBMaXN0PFRva2VuVXNhZ2VSZWNvcmRFbnRpdHk+KQoKICAgIEBJbnNlcnQob25Db25mbGljdCA9IE9uQ29uZmxpY3RTdHJhdGVneS5SRVBMQUNFKQogICAgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gdXBzZXJ0U3RhdHNNb2RlbChtb2RlbDogVG9rZW5TdGF0c01vZGVsRW50aXR5KQoKICAgIEBRdWVyeSgKICAgICAgICAiIiIKICAgICAgICBTRUxFQ1QgKiBGUk9NIHRva2VuX3N0YXRzX21vZGVscwogICAgICAgIFdIRVJFIGNvbmZpZ0lkID0gOmNvbmZpZ0lkIEFORCBwcm92aWRlciA9IDpwcm92aWRlciBBTkQgbW9kZWwgPSA6bW9kZWwKICAgICAgICAiIiIKICAgICkKICAgIGFic3RyYWN0IHN1c3BlbmQgZnVuIGdldFN0YXRzTW9kZWwoCiAgICAgICAgY29uZmlnSWQ6IFN0cmluZywKICAgICAgICBwcm92aWRlcjogU3RyaW5nLAogICAgICAgIG1vZGVsOiBTdHJpbmcsCiAgICApOiBUb2tlblN0YXRzTW9kZWxFbnRpdHk/CgogICAgQFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIHRva2VuX3N0YXRzX21vZGVscyBPUkRFUiBCWSBwcm92aWRlciwgbW9kZWwsIGNvbmZpZ0lkIikKICAgIGFic3RyYWN0IHN1c3BlbmQgZnVuIGdldEFsbFN0YXRzTW9kZWxzKCk6IExpc3Q8VG9rZW5TdGF0c01vZGVsRW50aXR5PgoKICAgIEBRdWVyeSgKICAgICAgICAiIiIKICAgICAgICBVUERBVEUgdG9rZW5fc3RhdHNfbW9kZWxzCiAgICAgICAgU0VUIGJpbGxpbmdNb2RlID0gTlVMTCwKICAgICAgICAgICAgY3VycmVuY3kgPSBOVUxMLAogICAgICAgICAgICBpbnB1dFByaWNlUGVyTWlsbGlvbiA9IE5VTEwsCiAgICAgICAgICAgIGNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uID0gTlVMTCwKICAgICAgICAgICAgY2FjaGVXcml0ZVByaWNlUGVyTWlsbGlvbiA9IE5VTEwsCiAgICAgICAgICAgIG91dHB1dFByaWNlUGVyTWlsbGlvbiA9IE5VTEwsCiAgICAgICAgICAgIHByaWNlUGVyUmVxdWVzdCA9IE5VTEwKICAgICAgICBXSEVSRSBjb25maWdJZCA9IDpjb25maWdJZCBBTkQgcHJvdmlkZXIgPSA6cHJvdmlkZXIgQU5EIG1vZGVsID0gOm1vZGVsCiAgICAgICAgIiIiCiAgICApCiAgICBhYnN0cmFjdCBzdXNwZW5kIGZ1biBjbGVhclByaWNpbmcoY29uZmlnSWQ6IFN0cmluZywgcHJvdmlkZXI6IFN0cmluZywgbW9kZWw6IFN0cmluZyk6IEludAoKICAgIEBRdWVyeSgKICAgICAgICAiIiIKICAgICAgICBERUxFVEUgRlJPTSB0b2tlbl9zdGF0c19tb2RlbHMKICAgICAgICBXSEVSRSBiaWxsaW5nTW9kZSBJUyBOVUxMCiAgICAgICAgICAgIEFORCBjdXJyZW5jeSBJUyBOVUxMCiAgICAgICAgICAgIEFORCBpbnB1dFByaWNlUGVyTWlsbGlvbiBJUyBOVUxMCiAgICAgICAgICAgIEFORCBjYWNoZWRJbnB1dFByaWNlUGVyTWlsbGlvbiBJUyBOVUxMCiAgICAgICAgICAgIEFORCBjYWNoZVdyaXRlUHJpY2VQZXJNaWxsaW9uIElTIE5VTEwKICAgICAgICAgICAgQU5EIG91dHB1dFByaWNlUGVyTWlsbGlvbiBJUyBOVUxMCiAgICAgICAgICAgIEFORCBwcmljZVBlclJlcXVlc3QgSVMgTlVMTAogICAgICAgICIiIgogICAgKQogICAgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gZGVsZXRlRW1wdHlTdGF0c01vZGVscygpOiBJbnQKCiAgICBAUXVlcnkoCiAgICAgICAgIiIiCiAgICAgICAgU0VMRUNUCiAgICAgICAgICAgIHByb3ZpZGVyIEFTIHByb3ZpZGVyLAogICAgICAgICAgICBtb2RlbCBBUyBtb2RlbCwKICAgICAgICAgICAgY29uZmlnSWQgQVMgY29uZmlnSWQsCiAgICAgICAgICAgIENPQUxFU0NFKFNVTShyZXF1ZXN0Q291bnQpLCAwKSBBUyByZXF1ZXN0cywKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKHVuY2FjaGVkSW5wdXRUb2tlbnMpLCAwKSBBUyB1bmNhY2hlZElucHV0VG9rZW5zLAogICAgICAgICAgICBDT0FMRVNDRShTVU0oQ0FTRSBXSEVOIHVuY2FjaGVkSW5wdXRUb2tlbnMgSVMgTk9UIE5VTEwgVEhFTiByZXF1ZXN0Q291bnQgRUxTRSAwIEVORCksIDApIEFTIHVuY2FjaGVkSW5wdXRLbm93biwKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKGNhY2hlZElucHV0VG9rZW5zKSwgMCkgQVMgY2FjaGVkSW5wdXRUb2tlbnMsCiAgICAgICAgICAgIENPQUxFU0NFKFNVTShDQVNFIFdIRU4gY2FjaGVkSW5wdXRUb2tlbnMgSVMgTk9UIE5VTEwgVEhFTiByZXF1ZXN0Q291bnQgRUxTRSAwIEVORCksIDApIEFTIGNhY2hlZElucHV0S25vd24sCiAgICAgICAgICAgIENPQUxFU0NFKFNVTShjYWNoZVdyaXRlVG9rZW5zKSwgMCkgQVMgY2FjaGVXcml0ZVRva2VucywKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKENBU0UgV0hFTiBjYWNoZVdyaXRlVG9rZW5zIElTIE5PVCBOVUxMIFRIRU4gcmVxdWVzdENvdW50IEVMU0UgMCBFTkQpLCAwKSBBUyBjYWNoZVdyaXRlS25vd24sCiAgICAgICAgICAgIENPQUxFU0NFKFNVTSh0b3RhbElucHV0VG9rZW5zKSwgMCkgQVMgdG90YWxJbnB1dFRva2VucywKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKENBU0UgV0hFTiB0b3RhbElucHV0VG9rZW5zIElTIE5PVCBOVUxMIFRIRU4gcmVxdWVzdENvdW50IEVMU0UgMCBFTkQpLCAwKSBBUyB0b3RhbElucHV0S25vd24sCiAgICAgICAgICAgIENPQUxFU0NFKFNVTShvdXRwdXRUb2tlbnMpLCAwKSBBUyBvdXRwdXRUb2tlbnMsCiAgICAgICAgICAgIENPQUxFU0NFKFNVTShDQVNFIFdIRU4gb3V0cHV0VG9rZW5zIElTIE5PVCBOVUxMIFRIRU4gcmVxdWVzdENvdW50IEVMU0UgMCBFTkQpLCAwKSBBUyBvdXRwdXRLbm93bgogICAgICAgIEZST00gdG9rZW5fdXNhZ2VfcmVjb3JkcwogICAgICAgIFdIRVJFICg6YWxsTW9kZWxzIE9SIChwcm92aWRlciB8fCAnOicgfHwgbW9kZWwpIElOICg6cHJvdmlkZXJNb2RlbHMpKQogICAgICAgIEdST1VQIEJZIHByb3ZpZGVyLCBtb2RlbCwgY29uZmlnSWQKICAgICAgICBPUkRFUiBCWSBwcm92aWRlciwgbW9kZWwsIGNvbmZpZ0lkCiAgICAgICAgIiIiCiAgICApCiAgICBhYnN0cmFjdCBzdXNwZW5kIGZ1biBhZ2dyZWdhdGVNb2RlbHNGb3JMaWZldGltZSgKICAgICAgICBwcm92aWRlck1vZGVsczogTGlzdDxTdHJpbmc+LAogICAgICAgIGFsbE1vZGVsczogQm9vbGVhbiwKICAgICk6IExpc3Q8VG9rZW5Vc2FnZU1vZGVsQWdncmVnYXRlUm93PgoKICAgIEBRdWVyeSgKICAgICAgICAiIiIKICAgICAgICBTRUxFQ1QgTUlOKG9jY3VycmVkQXRNcykKICAgICAgICBGUk9NIHRva2VuX3VzYWdlX3JlY29yZHMKICAgICAgICBXSEVSRSBvY2N1cnJlZEF0TXMgSVMgTk9UIE5VTEwKICAgICAgICAgICAgQU5EICg6YWxsTW9kZWxzIE9SIChwcm92aWRlciB8fCAnOicgfHwgbW9kZWwpIElOICg6cHJvdmlkZXJNb2RlbHMpKQogICAgICAgICIiIgogICAgKQogICAgYWJzdHJhY3Qgc3VzcGVuZCBmdW4gZ2V0RWFybGllc3RPY2N1cnJlZEF0TXMoCiAgICAgICAgcHJvdmlkZXJNb2RlbHM6IExpc3Q8U3RyaW5nPiwKICAgICAgICBhbGxNb2RlbHM6IEJvb2xlYW4sCiAgICApOiBMb25nPwoKICAgIEBRdWVyeSgKICAgICAgICAiIiIKICAgICAgICBTRUxFQ1QKICAgICAgICAgICAgcHJvdmlkZXIgQVMgcHJvdmlkZXIsCiAgICAgICAgICAgIG1vZGVsIEFTIG1vZGVsLAogICAgICAgICAgICBjb25maWdJZCBBUyBjb25maWdJZCwKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKHJlcXVlc3RDb3VudCksIDApIEFTIHJlcXVlc3RzLAogICAgICAgICAgICBDT0FMRVNDRShTVU0odW5jYWNoZWRJbnB1dFRva2VucyksIDApIEFTIHVuY2FjaGVkSW5wdXRUb2tlbnMsCiAgICAgICAgICAgIENPQUxFU0NFKFNVTShDQVNFIFdIRU4gdW5jYWNoZWRJbnB1dFRva2VucyBJUyBOT1QgTlVMTCBUSEVOIHJlcXVlc3RDb3VudCBFTFNFIDAgRU5EKSwgMCkgQVMgdW5jYWNoZWRJbnB1dEtub3duLAogICAgICAgICAgICBDT0FMRVNDRShTVU0oY2FjaGVkSW5wdXRUb2tlbnMpLCAwKSBBUyBjYWNoZWRJbnB1dFRva2VucywKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKENBU0UgV0hFTiBjYWNoZWRJbnB1dFRva2VucyBJUyBOT1QgTlVMTCBUSEVOIHJlcXVlc3RDb3VudCBFTFNFIDAgRU5EKSwgMCkgQVMgY2FjaGVkSW5wdXRLbm93biwKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKGNhY2hlV3JpdGVUb2tlbnMpLCAwKSBBUyBjYWNoZVdyaXRlVG9rZW5zLAogICAgICAgICAgICBDT0FMRVNDRShTVU0oQ0FTRSBXSEVOIGNhY2hlV3JpdGVUb2tlbnMgSVMgTk9UIE5VTEwgVEhFTiByZXF1ZXN0Q291bnQgRUxTRSAwIEVORCksIDApIEFTIGNhY2hlV3JpdGVLbm93biwKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKHRvdGFsSW5wdXRUb2tlbnMpLCAwKSBBUyB0b3RhbElucHV0VG9rZW5zLAogICAgICAgICAgICBDT0FMRVNDRShTVU0oQ0FTRSBXSEVOIHRvdGFsSW5wdXRUb2tlbnMgSVMgTk9UIE5VTEwgVEhFTiByZXF1ZXN0Q291bnQgRUxTRSAwIEVORCksIDApIEFTIHRvdGFsSW5wdXRLbm93biwKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKG91dHB1dFRva2VucyksIDApIEFTIG91dHB1dFRva2VucywKICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKENBU0UgV0hFTiBvdXRwdXRUb2tlbnMgSVMgTk9UIE5VTEwgVEhFTiByZXF1ZXN0Q291bnQgRUxTRSAwIEVORCksIDApIEFTIG91dHB1dEtub3duCiAgICAgICAgRlJPTSB0b2tlbl91c2FnZV9yZWNvcmRzCiAgICAgICAgV0hFUkUgb2NjdXJyZWRBdE1zID49IDpzdGFydE1zIEFORCBvY2N1cnJlZEF0TXMgPCA6ZW5kTXMKICAgICAgICAgICAgQU5EICg6YWxsTW9kZWxzIE9SIChwcm92aWRlciB8fCAnOicgfHwgbW9kZWwpIElOICg6cHJvdmlkZXJNb2RlbHMpKQogICAgICAgIEdST1VQIEJZIHByb3ZpZGVyLCBtb2RlbCwgY29uZmlnSWQKICAgICAgICBPUkRFUiBCWSBwcm92aWRlciwgbW9kZWwsIGNvbmZpZ0lkCiAgICAgICAgIiIiCiAgICApCiAgICBhYnN0cmFjdCBzdXNwZW5kIGZ1biBhZ2dyZWdhdGVNb2RlbHNJblJhbmdlKAogICAgICAgIHN0YXJ0TXM6IExvbmcsCiAgICAgICAgZW5kTXM6IExvbmcsCiAgICAgICAgcHJvdmlkZXJNb2RlbHM6IExpc3Q8U3RyaW5nPiwKICAgICAgICBhbGxNb2RlbHM6IEJvb2xlYW4sCiAgICApOiBMaXN0PFRva2VuVXNhZ2VNb2RlbEFnZ3JlZ2F0ZVJvdz4KCiAgICBAUXVlcnkoCiAgICAgICAgIiIiCiAgICAgICAgU0VMRUNUCiAgICAgICAgICAgIHN0cmZ0aW1lKCclWS0lbS0lZCcsIG9jY3VycmVkQXRNcyAvIDEwMDAsICd1bml4ZXBvY2gnLCAnbG9jYWx0aW1lJykgQVMgbG9jYWxEYXRlLAogICAgICAgICAgICBDT0FMRVNDRShTVU0oCiAgICAgICAgICAgICAgICBDT0FMRVNDRSgKICAgICAgICAgICAgICAgICAgICB0b3RhbElucHV0VG9rZW5zLAogICAgICAgICAgICAgICAgICAgIENBU0UKICAgICAgICAgICAgICAgICAgICAgICAgV0hFTiB1bmNhY2hlZElucHV0VG9rZW5zIElTIE5PVCBOVUxMCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBTkQgY2FjaGVkSW5wdXRUb2tlbnMgSVMgTk9UIE5VTEwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEFORCBjYWNoZVdyaXRlVG9rZW5zIElTIE5PVCBOVUxMCiAgICAgICAgICAgICAgICAgICAgICAgIFRIRU4gdW5jYWNoZWRJbnB1dFRva2VucyArIGNhY2hlZElucHV0VG9rZW5zICsgY2FjaGVXcml0ZVRva2VucwogICAgICAgICAgICAgICAgICAgIEVORCwKICAgICAgICAgICAgICAgICAgICAwCiAgICAgICAgICAgICAgICApICsgQ09BTEVTQ0Uob3V0cHV0VG9rZW5zLCAwKQogICAgICAgICAgICApLCAwKSBBUyB0b2tlbnMKICAgICAgICBGUk9NIHRva2VuX3VzYWdlX3JlY29yZHMKICAgICAgICBXSEVSRSBvY2N1cnJlZEF0TXMgPj0gOnN0YXJ0TXMgQU5EIG9jY3VycmVkQXRNcyA8IDplbmRNcwogICAgICAgICAgICBBTkQgKDphbGxNb2RlbHMgT1IgKHByb3ZpZGVyIHx8ICc6JyB8fCBtb2RlbCkgSU4gKDpwcm92aWRlck1vZGVscykpCiAgICAgICAgR1JPVVAgQlkgbG9jYWxEYXRlLCBjb25maWdJZCwgcHJvdmlkZXIsIG1vZGVsCiAgICAgICAgT1JERVIgQlkgbG9jYWxEYXRlLCBwcm92aWRlciwgbW9kZWwsIGNvbmZpZ0lkCiAgICAgICAgIiIiCiAgICApCiAgICBhYnN0cmFjdCBzdXNwZW5kIGZ1biBnZXRBY3Rpdml0eURheXNJblJhbmdlKAogICAgICAgIHN0YXJ0TXM6IExvbmcsCiAgICAgICAgZW5kTXM6IExvbmcsCiAgICAgICAgcHJvdmlkZXJNb2RlbHM6IExpc3Q8U3RyaW5nPiwKICAgICAgICBhbGxNb2RlbHM6IEJvb2xlYW4sCiAgICApOiBMaXN0PFRva2VuVXNhZ2VBY3Rpdml0eURheVJvdz4KfQo=
+package com.bslsjdk.operit.data.dao
+
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import com.bslsjdk.operit.data.model.TokenStatsModelEntity
+import com.bslsjdk.operit.data.model.TokenUsageRecordEntity
+
+data class TokenUsageModelAggregateRow(
+    val provider: String,
+    val model: String,
+    val configId: String,
+    val requests: Long,
+    val uncachedInputTokens: Long,
+    val uncachedInputKnown: Long,
+    val cachedInputTokens: Long,
+    val cachedInputKnown: Long,
+    val cacheWriteTokens: Long,
+    val cacheWriteKnown: Long,
+    val totalInputTokens: Long,
+    val totalInputKnown: Long,
+    val outputTokens: Long,
+    val outputKnown: Long,
+) {
+    val providerModel: String
+        get() = "$provider:$model"
+}
+
+data class TokenUsageActivityDayRow(
+    val localDate: String,
+    val tokens: Long,
+)
+
+@Dao
+abstract class TokenUsageDao {
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    abstract suspend fun insertRecord(record: TokenUsageRecordEntity): Long
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    abstract suspend fun insertRecords(records: List<TokenUsageRecordEntity>)
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    abstract suspend fun upsertStatsModel(model: TokenStatsModelEntity)
+
+    @Query(
+        """
+        SELECT * FROM token_stats_models
+        WHERE configId = :configId AND provider = :provider AND model = :model
+        """
+    )
+    abstract suspend fun getStatsModel(
+        configId: String,
+        provider: String,
+        model: String,
+    ): TokenStatsModelEntity?
+
+    @Query("SELECT * FROM token_stats_models ORDER BY provider, model, configId")
+    abstract suspend fun getAllStatsModels(): List<TokenStatsModelEntity>
+
+    @Query(
+        """
+        UPDATE token_stats_models
+        SET billingMode = NULL,
+            currency = NULL,
+            inputPricePerMillion = NULL,
+            cachedInputPricePerMillion = NULL,
+            cacheWritePricePerMillion = NULL,
+            outputPricePerMillion = NULL,
+            pricePerRequest = NULL
+        WHERE configId = :configId AND provider = :provider AND model = :model
+        """
+    )
+    abstract suspend fun clearPricing(configId: String, provider: String, model: String): Int
+
+    @Query(
+        """
+        DELETE FROM token_stats_models
+        WHERE billingMode IS NULL
+            AND currency IS NULL
+            AND inputPricePerMillion IS NULL
+            AND cachedInputPricePerMillion IS NULL
+            AND cacheWritePricePerMillion IS NULL
+            AND outputPricePerMillion IS NULL
+            AND pricePerRequest IS NULL
+        """
+    )
+    abstract suspend fun deleteEmptyStatsModels(): Int
+
+    @Query(
+        """
+        SELECT
+            provider AS provider,
+            model AS model,
+            configId AS configId,
+            COALESCE(SUM(requestCount), 0) AS requests,
+            COALESCE(SUM(uncachedInputTokens), 0) AS uncachedInputTokens,
+            COALESCE(SUM(CASE WHEN uncachedInputTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS uncachedInputKnown,
+            COALESCE(SUM(cachedInputTokens), 0) AS cachedInputTokens,
+            COALESCE(SUM(CASE WHEN cachedInputTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS cachedInputKnown,
+            COALESCE(SUM(cacheWriteTokens), 0) AS cacheWriteTokens,
+            COALESCE(SUM(CASE WHEN cacheWriteTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS cacheWriteKnown,
+            COALESCE(SUM(totalInputTokens), 0) AS totalInputTokens,
+            COALESCE(SUM(CASE WHEN totalInputTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS totalInputKnown,
+            COALESCE(SUM(outputTokens), 0) AS outputTokens,
+            COALESCE(SUM(CASE WHEN outputTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS outputKnown
+        FROM token_usage_records
+        WHERE (:allModels OR (provider || ':' || model) IN (:providerModels))
+        GROUP BY provider, model, configId
+        ORDER BY provider, model, configId
+        """
+    )
+    abstract suspend fun aggregateModelsForLifetime(
+        providerModels: List<String>,
+        allModels: Boolean,
+    ): List<TokenUsageModelAggregateRow>
+
+    @Query(
+        """
+        SELECT MIN(occurredAtMs)
+        FROM token_usage_records
+        WHERE occurredAtMs IS NOT NULL
+            AND (:allModels OR (provider || ':' || model) IN (:providerModels))
+        """
+    )
+    abstract suspend fun getEarliestOccurredAtMs(
+        providerModels: List<String>,
+        allModels: Boolean,
+    ): Long?
+
+    @Query(
+        """
+        SELECT
+            provider AS provider,
+            model AS model,
+            configId AS configId,
+            COALESCE(SUM(requestCount), 0) AS requests,
+            COALESCE(SUM(uncachedInputTokens), 0) AS uncachedInputTokens,
+            COALESCE(SUM(CASE WHEN uncachedInputTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS uncachedInputKnown,
+            COALESCE(SUM(cachedInputTokens), 0) AS cachedInputTokens,
+            COALESCE(SUM(CASE WHEN cachedInputTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS cachedInputKnown,
+            COALESCE(SUM(cacheWriteTokens), 0) AS cacheWriteTokens,
+            COALESCE(SUM(CASE WHEN cacheWriteTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS cacheWriteKnown,
+            COALESCE(SUM(totalInputTokens), 0) AS totalInputTokens,
+            COALESCE(SUM(CASE WHEN totalInputTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS totalInputKnown,
+            COALESCE(SUM(outputTokens), 0) AS outputTokens,
+            COALESCE(SUM(CASE WHEN outputTokens IS NOT NULL THEN requestCount ELSE 0 END), 0) AS outputKnown
+        FROM token_usage_records
+        WHERE occurredAtMs >= :startMs AND occurredAtMs < :endMs
+            AND (:allModels OR (provider || ':' || model) IN (:providerModels))
+        GROUP BY provider, model, configId
+        ORDER BY provider, model, configId
+        """
+    )
+    abstract suspend fun aggregateModelsInRange(
+        startMs: Long,
+        endMs: Long,
+        providerModels: List<String>,
+        allModels: Boolean,
+    ): List<TokenUsageModelAggregateRow>
+
+    @Query(
+        """
+        SELECT
+            strftime('%Y-%m-%d', occurredAtMs / 1000, 'unixepoch', 'localtime') AS localDate,
+            COALESCE(SUM(
+                COALESCE(
+                    totalInputTokens,
+                    CASE
+                        WHEN uncachedInputTokens IS NOT NULL
+                            AND cachedInputTokens IS NOT NULL
+                            AND cacheWriteTokens IS NOT NULL
+                        THEN uncachedInputTokens + cachedInputTokens + cacheWriteTokens
+                    END,
+                    0
+                ) + COALESCE(outputTokens, 0)
+            ), 0) AS tokens
+        FROM token_usage_records
+        WHERE occurredAtMs >= :startMs AND occurredAtMs < :endMs
+            AND (:allModels OR (provider || ':' || model) IN (:providerModels))
+        GROUP BY localDate, configId, provider, model
+        ORDER BY localDate, provider, model, configId
+        """
+    )
+    abstract suspend fun getActivityDaysInRange(
+        startMs: Long,
+        endMs: Long,
+        providerModels: List<String>,
+        allModels: Boolean,
+    ): List<TokenUsageActivityDayRow>
+}

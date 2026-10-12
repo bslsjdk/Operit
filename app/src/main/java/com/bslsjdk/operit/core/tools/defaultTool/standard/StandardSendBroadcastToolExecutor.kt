@@ -1,1 +1,149 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC5zdGFuZGFyZAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5JbnRlbnRSZXN1bHREYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5TdHJpbmdSZXN1bHREYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BSVRvb2wKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xSZXN1bHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRvb2xWYWxpZGF0aW9uUmVzdWx0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0CgpjbGFzcyBTdGFuZGFyZFNlbmRCcm9hZGNhc3RUb29sRXhlY3V0b3IocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJTZW5kQnJvYWRjYXN0VG9vbEV4ZWN1dG9yIgogICAgfQoKICAgIHByaXZhdGUgZnVuIGFwcGx5Q29tcG9uZW50TmFtZShpbnRlbnQ6IEludGVudCwgcmF3Q29tcG9uZW50TmFtZTogU3RyaW5nKSB7CiAgICAgICAgdmFsIHBhcnRzID0gcmF3Q29tcG9uZW50TmFtZS5zcGxpdCgiLyIsIGxpbWl0ID0gMikKICAgICAgICBpZiAocGFydHMuc2l6ZSAhPSAyKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgcGFja2FnZU5hbWUgPSBwYXJ0c1swXS50cmltKCkKICAgICAgICB2YWwgY2xhc3NOYW1lID0gcGFydHNbMV0udHJpbSgpCiAgICAgICAgaWYgKHBhY2thZ2VOYW1lLmlzRW1wdHkoKSB8fCBjbGFzc05hbWUuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICB2YWwgbm9ybWFsaXplZENsYXNzTmFtZSA9CiAgICAgICAgICAgIGlmIChjbGFzc05hbWUuc3RhcnRzV2l0aCgiLiIpKSB7CiAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZSArIGNsYXNzTmFtZQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgY2xhc3NOYW1lCiAgICAgICAgICAgIH0KICAgICAgICBpbnRlbnQuc2V0Q2xhc3NOYW1lKHBhY2thZ2VOYW1lLCBub3JtYWxpemVkQ2xhc3NOYW1lKQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGludm9rZSh0b29sOiBBSVRvb2wpOiBUb29sUmVzdWx0IHsKICAgICAgICB2YWwgdmFsaWRhdGlvbiA9IHZhbGlkYXRlUGFyYW1ldGVycyh0b29sKQogICAgICAgIGlmICghdmFsaWRhdGlvbi52YWxpZCkgewogICAgICAgICAgICByZXR1cm4gVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgc3VjY2VzcyA9IGZhbHNlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0gU3RyaW5nUmVzdWx0RGF0YSgiIiksCiAgICAgICAgICAgICAgICBlcnJvciA9IHZhbGlkYXRpb24uZXJyb3JNZXNzYWdlCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIHZhbCBhY3Rpb24gPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gImFjdGlvbiIgfT8udmFsdWU/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICB2YWwgdXJpID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJ1cmkiIH0/LnZhbHVlCiAgICAgICAgdmFsIHBhY2thZ2VOYW1lID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJwYWNrYWdlIiB9Py52YWx1ZQogICAgICAgIHZhbCBjb21wb25lbnROYW1lID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJjb21wb25lbnQiIH0/LnZhbHVlCgogICAgICAgIHZhbCBleHRyYUtleSA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAiZXh0cmFfa2V5IiB9Py52YWx1ZT8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIHZhbCBleHRyYVZhbHVlID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJleHRyYV92YWx1ZSIgfT8udmFsdWUgPzogIiIKICAgICAgICB2YWwgZXh0cmFLZXkyID0gdG9vbC5wYXJhbWV0ZXJzLmZpbmQgeyBpdC5uYW1lID09ICJleHRyYV9rZXkyIiB9Py52YWx1ZT8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIHZhbCBleHRyYVZhbHVlMiA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAiZXh0cmFfdmFsdWUyIiB9Py52YWx1ZSA/OiAiIgoKICAgICAgICB2YWwgZXh0cmFzSnNvblN0cmluZyA9IHRvb2wucGFyYW1ldGVycy5maW5kIHsgaXQubmFtZSA9PSAiZXh0cmFzIiB9Py52YWx1ZQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIGludGVudCA9IEludGVudCgpLmFwcGx5IHsKICAgICAgICAgICAgICAgIHRoaXMuYWN0aW9uID0gYWN0aW9uCiAgICAgICAgICAgICAgICBpZiAoIXVyaS5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICBkYXRhID0gVXJpLnBhcnNlKHVyaSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICghcGFja2FnZU5hbWUuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgYHBhY2thZ2VgID0gcGFja2FnZU5hbWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICghY29tcG9uZW50TmFtZS5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgICAgICBhcHBseUNvbXBvbmVudE5hbWUodGhpcywgY29tcG9uZW50TmFtZSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpZiAoZXh0cmFLZXkuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgcHV0RXh0cmEoZXh0cmFLZXksIGV4dHJhVmFsdWUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoZXh0cmFLZXkyLmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgIHB1dEV4dHJhKGV4dHJhS2V5MiwgZXh0cmFWYWx1ZTIpCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKCFleHRyYXNKc29uU3RyaW5nLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBleHRyYXNKc29uID0gSlNPTk9iamVjdChleHRyYXNKc29uU3RyaW5nKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwga2V5cyA9IGV4dHJhc0pzb24ua2V5cygpCiAgICAgICAgICAgICAgICAgICAgICAgIHdoaWxlIChrZXlzLmhhc05leHQoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGtleSA9IGtleXMubmV4dCgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgdmFsdWUgPSBleHRyYXNKc29uLmdldChrZXkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGVuICh2YWx1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIFN0cmluZyAtPiBwdXRFeHRyYShrZXksIHZhbHVlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIEludCAtPiBwdXRFeHRyYShrZXksIHZhbHVlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIEJvb2xlYW4gLT4gcHV0RXh0cmEoa2V5LCB2YWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBGbG9hdCAtPiBwdXRFeHRyYShrZXksIHZhbHVlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIERvdWJsZSAtPiBwdXRFeHRyYShrZXksIHZhbHVlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIExvbmcgLT4gcHV0RXh0cmEoa2V5LCB2YWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHB1dEV4dHJhKGtleSwgdmFsdWUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBwYXJzaW5nIGV4dHJhcyIsIGUpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgcmVzdWx0TWVzc2FnZSA9CiAgICAgICAgICAgICAgICB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5NYWluKSB7CiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5zZW5kQnJvYWRjYXN0KGludGVudCkKICAgICAgICAgICAgICAgICAgICAiQnJvYWRjYXN0IHNlbnQgc3VjY2Vzc2Z1bGx5IgogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgdmFsIGV4dHJhc0J1bmRsZSA9IEJ1bmRsZSgpCiAgICAgICAgICAgIGludGVudC5leHRyYXM/LmxldCB7IGV4dHJhc0J1bmRsZS5wdXRBbGwoaXQpIH0KCiAgICAgICAgICAgIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSB0cnVlLAogICAgICAgICAgICAgICAgcmVzdWx0ID0KICAgICAgICAgICAgICAgICAgICBJbnRlbnRSZXN1bHREYXRhKAogICAgICAgICAgICAgICAgICAgICAgICBhY3Rpb24gPSBpbnRlbnQuYWN0aW9uID86ICJudWxsIiwKICAgICAgICAgICAgICAgICAgICAgICAgdXJpID0gaW50ZW50LmRhdGE/LnRvU3RyaW5nKCkgPzogIm51bGwiLAogICAgICAgICAgICAgICAgICAgICAgICBwYWNrYWdlX25hbWUgPSBpbnRlbnQuYHBhY2thZ2VgID86ICJudWxsIiwKICAgICAgICAgICAgICAgICAgICAgICAgY29tcG9uZW50ID0gaW50ZW50LmNvbXBvbmVudD8uZmxhdHRlblRvU3RyaW5nKCkgPzogIm51bGwiLAogICAgICAgICAgICAgICAgICAgICAgICBmbGFncyA9IGludGVudC5mbGFncywKICAgICAgICAgICAgICAgICAgICAgICAgZXh0cmFzX2NvdW50ID0gZXh0cmFzQnVuZGxlLnNpemUoKSwKICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gcmVzdWx0TWVzc2FnZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBzZW5kaW5nIGJyb2FkY2FzdCIsIGUpCiAgICAgICAgICAgIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHRvb2wubmFtZSwKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgZXJyb3IgPSAiQnJvYWRjYXN0IGZhaWxlZDogJHtlLm1lc3NhZ2V9IgogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIGZ1biB2YWxpZGF0ZVBhcmFtZXRlcnModG9vbDogQUlUb29sKTogVG9vbFZhbGlkYXRpb25SZXN1bHQgewogICAgICAgIHZhbCBhY3Rpb24gPSB0b29sLnBhcmFtZXRlcnMuZmluZCB7IGl0Lm5hbWUgPT0gImFjdGlvbiIgfT8udmFsdWUKICAgICAgICBpZiAoYWN0aW9uLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gVG9vbFZhbGlkYXRpb25SZXN1bHQodmFsaWQgPSBmYWxzZSwgZXJyb3JNZXNzYWdlID0gIk1pc3NpbmcgcmVxdWlyZWQgcGFyYW1ldGVyOiBhY3Rpb24iKQogICAgICAgIH0KICAgICAgICByZXR1cm4gVG9vbFZhbGlkYXRpb25SZXN1bHQodmFsaWQgPSB0cnVlKQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.defaultTool.standard
+
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
+import android.os.Bundle
+import com.bslsjdk.operit.core.tools.IntentResultData
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.data.model.ToolValidationResult
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONObject
+
+class StandardSendBroadcastToolExecutor(private val context: Context) {
+
+    companion object {
+        private const val TAG = "SendBroadcastToolExecutor"
+    }
+
+    private fun applyComponentName(intent: Intent, rawComponentName: String) {
+        val parts = rawComponentName.split("/", limit = 2)
+        if (parts.size != 2) {
+            return
+        }
+        val packageName = parts[0].trim()
+        val className = parts[1].trim()
+        if (packageName.isEmpty() || className.isEmpty()) {
+            return
+        }
+        val normalizedClassName =
+            if (className.startsWith(".")) {
+                packageName + className
+            } else {
+                className
+            }
+        intent.setClassName(packageName, normalizedClassName)
+    }
+
+    suspend fun invoke(tool: AITool): ToolResult {
+        val validation = validateParameters(tool)
+        if (!validation.valid) {
+            return ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = validation.errorMessage
+            )
+        }
+
+        val action = tool.parameters.find { it.name == "action" }?.value?.trim().orEmpty()
+        val uri = tool.parameters.find { it.name == "uri" }?.value
+        val packageName = tool.parameters.find { it.name == "package" }?.value
+        val componentName = tool.parameters.find { it.name == "component" }?.value
+
+        val extraKey = tool.parameters.find { it.name == "extra_key" }?.value?.trim().orEmpty()
+        val extraValue = tool.parameters.find { it.name == "extra_value" }?.value ?: ""
+        val extraKey2 = tool.parameters.find { it.name == "extra_key2" }?.value?.trim().orEmpty()
+        val extraValue2 = tool.parameters.find { it.name == "extra_value2" }?.value ?: ""
+
+        val extrasJsonString = tool.parameters.find { it.name == "extras" }?.value
+
+        return try {
+            val intent = Intent().apply {
+                this.action = action
+                if (!uri.isNullOrBlank()) {
+                    data = Uri.parse(uri)
+                }
+                if (!packageName.isNullOrBlank()) {
+                    `package` = packageName
+                }
+                if (!componentName.isNullOrBlank()) {
+                    applyComponentName(this, componentName)
+                }
+
+                if (extraKey.isNotBlank()) {
+                    putExtra(extraKey, extraValue)
+                }
+                if (extraKey2.isNotBlank()) {
+                    putExtra(extraKey2, extraValue2)
+                }
+
+                if (!extrasJsonString.isNullOrBlank()) {
+                    try {
+                        val extrasJson = JSONObject(extrasJsonString)
+                        val keys = extrasJson.keys()
+                        while (keys.hasNext()) {
+                            val key = keys.next()
+                            val value = extrasJson.get(key)
+                            when (value) {
+                                is String -> putExtra(key, value)
+                                is Int -> putExtra(key, value)
+                                is Boolean -> putExtra(key, value)
+                                is Float -> putExtra(key, value)
+                                is Double -> putExtra(key, value)
+                                is Long -> putExtra(key, value)
+                                else -> putExtra(key, value.toString())
+                            }
+                        }
+                    } catch (e: Exception) {
+                        AppLogger.e(TAG, "Error parsing extras", e)
+                    }
+                }
+            }
+
+            val resultMessage =
+                withContext(Dispatchers.Main) {
+                    context.sendBroadcast(intent)
+                    "Broadcast sent successfully"
+                }
+
+            val extrasBundle = Bundle()
+            intent.extras?.let { extrasBundle.putAll(it) }
+
+            ToolResult(
+                toolName = tool.name,
+                success = true,
+                result =
+                    IntentResultData(
+                        action = intent.action ?: "null",
+                        uri = intent.data?.toString() ?: "null",
+                        package_name = intent.`package` ?: "null",
+                        component = intent.component?.flattenToString() ?: "null",
+                        flags = intent.flags,
+                        extras_count = extrasBundle.size(),
+                        result = resultMessage
+                    )
+            )
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error sending broadcast", e)
+            ToolResult(
+                toolName = tool.name,
+                success = false,
+                result = StringResultData(""),
+                error = "Broadcast failed: ${e.message}"
+            )
+        }
+    }
+
+    fun validateParameters(tool: AITool): ToolValidationResult {
+        val action = tool.parameters.find { it.name == "action" }?.value
+        if (action.isNullOrBlank()) {
+            return ToolValidationResult(valid = false, errorMessage = "Missing required parameter: action")
+        }
+        return ToolValidationResult(valid = true)
+    }
+}

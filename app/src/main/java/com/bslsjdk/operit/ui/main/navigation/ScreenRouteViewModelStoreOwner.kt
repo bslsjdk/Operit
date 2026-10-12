@@ -1,1 +1,92 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5uYXZpZ2F0aW9uCgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbFN0b3JlCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsU3RvcmVPd25lcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLm1haW4uc2NyZWVucy5TY3JlZW4KCi8qKgogKiDljZXkuKrot6/nlLHvvIhBcHBDb250ZW50IOeahCBzY3JlZW5LZXnvvInnmoQgW1ZpZXdNb2RlbFN0b3JlT3duZXJd44CCCiAqCiAqIOWunuS+i+eUsSBbU2NyZWVuUm91dGVWaWV3TW9kZWxTdG9yZU93bmVyTWFuYWdlcl0g5oyB5pyJ77ya6YWN572u5Y+Y5YyW5pyf6Ze05aSN55So5ZCM5LiACiAqIOWunuS+i++8iG93bmVyIOacrOi6q+S4jemaj+e7hOWQiOmHjeW7uu+8ie+8jOi3r+eUseecn+ato+S7juWvvOiIquagiOenu+mZpOaXtiBtYW5hZ2VyIOiwg+eUqAogKiBbVmlld01vZGVsU3RvcmUuY2xlYXJd77yM6Kem5Y+R6K+lIHN0b3JlIOWGheaJgOaciSBWaWV3TW9kZWwg55qEIG9uQ2xlYXJlZCDlubYKICog5Y+W5raI5YW2IHZpZXdNb2RlbFNjb3Bl44CCCiAqCiAqIOS4jiBWaWV3TW9kZWxTdG9yZSDnmoTnuqblrprkuIDoh7TvvJrlhajpg6jmk43kvZzlv4XpobvlnKjkuLvnur/nqIvmiafooYzjgIIKICovCmNsYXNzIFNjcmVlblJvdXRlVmlld01vZGVsU3RvcmVPd25lciBpbnRlcm5hbCBjb25zdHJ1Y3RvcigpIDogVmlld01vZGVsU3RvcmVPd25lciB7CiAgICBvdmVycmlkZSB2YWwgdmlld01vZGVsU3RvcmU6IFZpZXdNb2RlbFN0b3JlID0gVmlld01vZGVsU3RvcmUoKQp9CgovKioKICog6Lev55Sx57qnIFZpZXdNb2RlbFN0b3JlIOaYoOWwhO+8iOmUriA9IEFwcENvbnRlbnQg55qEIHNjcmVlbktlee+8ieOAggogKgogKiDmnKznsbvoh6rouqvkvZzkuLogQWN0aXZpdHkg57qnIFZpZXdNb2RlbCDlrZjlnKjvvIjnlLEgQXBwQ29udGVudCDpgJrov4cKICogYHZpZXdNb2RlbCgpYCDojrflj5bvvInvvJrot6jphY3nva7lj5jljJbkv53nlZnlhajpg6ggb3duZXIg5LiO5bey5oyC6L2955qEIFZpZXdNb2RlbO+8mwogKiBBY3Rpdml0eSDplIDmr4Hml7YgW29uQ2xlYXJlZF0g5YWo5riF44CC5a+86Iiq5a6/5Li75Zyo6Lev55Sx5Ye65qCIL+abv+aNoi/muIXmoIjnmoQKICog5Yqo55S75a6M5oiQ5ZCO6LCD55SoIFtyZW1vdmVdIC8gW3JldGFpbk9ubHld77yM6Kem5Y+R5a+55bqUIG93bmVyIOeahAogKiBbVmlld01vZGVsU3RvcmUuY2xlYXJd44CCCiAqCiAqIOW/hemhu+S7heWcqOS4u+e6v+eoi+S9v+eUqO+8iFZpZXdNb2RlbFN0b3JlIOivreS5ie+8ieOAggogKi8KY2xhc3MgU2NyZWVuUm91dGVWaWV3TW9kZWxTdG9yZU93bmVyTWFuYWdlciA6IFZpZXdNb2RlbCgpIHsKCiAgICBwcml2YXRlIHZhbCBvd25lcnMgPSBtdXRhYmxlTWFwT2Y8U3RyaW5nLCBTY3JlZW5Sb3V0ZVZpZXdNb2RlbFN0b3JlT3duZXI+KCkKCiAgICAvKiog6I635Y+W77yI5b+F6KaB5pe25Yib5bu677yJc2NyZWVuS2V5IOeahCByb3V0ZSBvd25lcu+8m+mFjee9ruWPmOWMluacn+mXtOWkjeeUqOWQjOS4gOWunuS+i+OAgiAqLwogICAgZnVuIG93bmVyRm9yKHNjcmVlbktleTogU3RyaW5nKTogU2NyZWVuUm91dGVWaWV3TW9kZWxTdG9yZU93bmVyID0KICAgICAgICBvd25lcnMuZ2V0T3JQdXQoc2NyZWVuS2V5KSB7IFNjcmVlblJvdXRlVmlld01vZGVsU3RvcmVPd25lcigpIH0KCiAgICAvKiog56e76Zmk5bm25riF55CGIHNjcmVlbktleSDnmoQgb3duZXLvvJrlhbYgc3RvcmUg5YaF5omA5pyJIFZpZXdNb2RlbCDmlLbliLAgb25DbGVhcmVk44CCICovCiAgICBmdW4gcmVtb3ZlKHNjcmVlbktleTogU3RyaW5nKSB7CiAgICAgICAgb3duZXJzLnJlbW92ZShzY3JlZW5LZXkpPy5sZXQgeyBpdC52aWV3TW9kZWxTdG9yZS5jbGVhcigpIH0KICAgIH0KCiAgICAvKioKICAgICAqIOS7heS/neeVmSBbYWxpdmVTY3JlZW5LZXlzXSDkuK3nmoQgb3duZXLvvIzlhbbkvZnlhajpg6jnp7vpmaTlubbmuIXnkIbjgIIKICAgICAqIOeUqOS6jiByZXBsYWNlIC8gY2xlYXIgc3RhY2sg562J5LiN57uP6L+HIGJhY2sg6L2s5Zy65Yqo55S755qE5qCI5Y+Y5YyW44CCCiAgICAgKi8KICAgIGZ1biByZXRhaW5Pbmx5KGFsaXZlU2NyZWVuS2V5czogU2V0PFN0cmluZz4pIHsKICAgICAgICBvd25lcnMua2V5cy5maWx0ZXIgeyBpdCAhaW4gYWxpdmVTY3JlZW5LZXlzIH0uZm9yRWFjaCB7IHJlbW92ZShpdCkgfQogICAgfQoKICAgIC8qKiDmuIXnkIblhajpg6ggb3duZXLvvIhBY3Rpdml0eSDplIDmr4HmiJblhajmlrDnu4TlkIjml7bnmoTlhZzlupXvvInjgIIgKi8KICAgIGZ1biBjbGVhckFsbCgpIHsKICAgICAgICBvd25lcnMudmFsdWVzLmZvckVhY2ggeyBpdC52aWV3TW9kZWxTdG9yZS5jbGVhcigpIH0KICAgICAgICBvd25lcnMuY2xlYXIoKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvbkNsZWFyZWQoKSB7CiAgICAgICAgY2xlYXJBbGwoKQogICAgfQp9CgovKiog6Lev55Sx5a6e5L6L5Zyo5b2T5YmN5a+86Iiq5qCI5Lit5a+55bqU55qEIHNjcmVlbktlee+8iOS4jiBBcHBDb250ZW50IOeahOmUruinhOWImeS4gOiHtO+8ieOAgiAqLwpmdW4gcm91dGVTY3JlZW5LZXkoZW50cnk6IFJvdXRlRW50cnksIHJlc29sdmVTY3JlZW46IChSb3V0ZUVudHJ5KSAtPiBTY3JlZW4/KTogU3RyaW5nPyA9CiAgICByZXNvbHZlU2NyZWVuKGVudHJ5KT8uc2NyZWVuS2V5KGVudHJ5Lmluc3RhbmNlSWQpCgovKiog5a+86Iiq5qCI5Lit5LuN5a2Y5rS755qE6Lev55SxIHNjcmVlbktleSDpm4blkIjvvIjot6/nlLHnuqcgVmlld01vZGVsU3RvcmUg5riF55CG5L6d5o2u77yJ44CCICovCmZ1biBzY3JlZW5LZXlzQWxpdmVPblN0YWNrKAogICAgc3RhY2s6IExpc3Q8Um91dGVFbnRyeT4sCiAgICByZXNvbHZlU2NyZWVuOiAoUm91dGVFbnRyeSkgLT4gU2NyZWVuPywKKTogU2V0PFN0cmluZz4gPQogICAgc3RhY2subWFwTm90TnVsbCB7IHJvdXRlU2NyZWVuS2V5KGl0LCByZXNvbHZlU2NyZWVuKSB9LnRvU2V0KCkKCi8qKgogKiBBcHBDb250ZW50IOWFqOaWsOe7hOWQiC/ph43lu7rvvIjphY3nva7lj5jljJbjgIHot6ggNjAwZHAgUGhvbmUvVGFibGV0IOW4g+WxgOWIh+aNouetie+8ieaXtgogKiDlupTkv53nlZnnmoTot6/nlLHplK7vvJrlvZPliY3pobUgKyDlr7zoiKrmoIjkuK3ku43lrZjmtLvnmoTot6/nlLHjgIIKICoKICog5LuF55SxIEFwcENvbnRlbnQg6aaW5qyh57uE5ZCI77yIYXR0YWNo77yMTGF1bmNoZWRFZmZlY3QoVW5pdCnvvInosIPnlKjkuIDmrKHvvJvlr7zoiKoKICog5Y+Y5YyW77yIcG9wL3JlcGxhY2UvY2xlYXLvvInkuI3lvpflpI3nlKjmnKzlh73mlbDvvIzlkKbliJnkvJrlnKjpgIDlh7rliqjnlLvlrozmiJDliY3muIXnkIYKICog5LuN5riy5p+T55qE56a76aG1IG93bmVy77yM5YW25riF55CG55Sx6L2s5Zy65a6M5oiQ55qEIHJldGFpbk9ubHkoYWxpdmVSb3V0ZUtleXMoKSkg6LSf6LSj44CCCiAqCiAqIOWFqOaWsOe7hOWQiOaXtiBzY3JlZW5DYWNoZS9rZWVwQWxpdmUg57yT5a2Y5bey6YeN572u77yM5ZSv5LiA5LuN5Zyo5riy5p+T55qE5Y+q5pyJ5b2T5YmN6aG177ybCiAqIOWvvOiIquagiO+8iEFjdGl2aXR5IOS/neeVmeeahCByb3V0ZXJTdGF0ZS9tYW5hZ2Vy77yJ5LuN5a2Y5rS777yM5qCI5YaF55qEIGtlZXBBbGl2ZQogKiDot6/nlLHplK7lt7LljIXlkKvlnKggW2FsaXZlU2NyZWVuS2V5c10g5Lit77yM5peg6ZyA6aKd5aSW6KGl5YWF44CC56a75qCI55qE6L+H5rihL2tlZXBBbGl2ZQogKiDnvJPlrZjplK7nlLHovazlnLrlrozmiJDnmoQgcmV0YWluT25seShhbGl2ZVJvdXRlS2V5cygpKSDotJ/otKPmuIXnkIbvvIzkuI7mnKzpm4blkIjml6DlhbPjgIIKICovCmZ1biByZXRhaW5lZFJvdXRlS2V5c09uQ29udGVudEF0dGFjaCgKICAgIGN1cnJlbnRTY3JlZW5LZXk6IFN0cmluZywKICAgIGFsaXZlU2NyZWVuS2V5czogU2V0PFN0cmluZz4sCik6IFNldDxTdHJpbmc+ID0gYWxpdmVTY3JlZW5LZXlzICsgY3VycmVudFNjcmVlbktleQo=
+package com.bslsjdk.operit.ui.main.navigation
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelStore
+import androidx.lifecycle.ViewModelStoreOwner
+import com.bslsjdk.operit.ui.main.screens.Screen
+
+/**
+ * 单个路由（AppContent 的 screenKey）的 [ViewModelStoreOwner]。
+ *
+ * 实例由 [ScreenRouteViewModelStoreOwnerManager] 持有：配置变化期间复用同一
+ * 实例（owner 本身不随组合重建），路由真正从导航栈移除时 manager 调用
+ * [ViewModelStore.clear]，触发该 store 内所有 ViewModel 的 onCleared 并
+ * 取消其 viewModelScope。
+ *
+ * 与 ViewModelStore 的约定一致：全部操作必须在主线程执行。
+ */
+class ScreenRouteViewModelStoreOwner internal constructor() : ViewModelStoreOwner {
+    override val viewModelStore: ViewModelStore = ViewModelStore()
+}
+
+/**
+ * 路由级 ViewModelStore 映射（键 = AppContent 的 screenKey）。
+ *
+ * 本类自身作为 Activity 级 ViewModel 存在（由 AppContent 通过
+ * `viewModel()` 获取）：跨配置变化保留全部 owner 与已挂载的 ViewModel；
+ * Activity 销毁时 [onCleared] 全清。导航宿主在路由出栈/替换/清栈的
+ * 动画完成后调用 [remove] / [retainOnly]，触发对应 owner 的
+ * [ViewModelStore.clear]。
+ *
+ * 必须仅在主线程使用（ViewModelStore 语义）。
+ */
+class ScreenRouteViewModelStoreOwnerManager : ViewModel() {
+
+    private val owners = mutableMapOf<String, ScreenRouteViewModelStoreOwner>()
+
+    /** 获取（必要时创建）screenKey 的 route owner；配置变化期间复用同一实例。 */
+    fun ownerFor(screenKey: String): ScreenRouteViewModelStoreOwner =
+        owners.getOrPut(screenKey) { ScreenRouteViewModelStoreOwner() }
+
+    /** 移除并清理 screenKey 的 owner：其 store 内所有 ViewModel 收到 onCleared。 */
+    fun remove(screenKey: String) {
+        owners.remove(screenKey)?.let { it.viewModelStore.clear() }
+    }
+
+    /**
+     * 仅保留 [aliveScreenKeys] 中的 owner，其余全部移除并清理。
+     * 用于 replace / clear stack 等不经过 back 转场动画的栈变化。
+     */
+    fun retainOnly(aliveScreenKeys: Set<String>) {
+        owners.keys.filter { it !in aliveScreenKeys }.forEach { remove(it) }
+    }
+
+    /** 清理全部 owner（Activity 销毁或全新组合时的兜底）。 */
+    fun clearAll() {
+        owners.values.forEach { it.viewModelStore.clear() }
+        owners.clear()
+    }
+
+    override fun onCleared() {
+        clearAll()
+    }
+}
+
+/** 路由实例在当前导航栈中对应的 screenKey（与 AppContent 的键规则一致）。 */
+fun routeScreenKey(entry: RouteEntry, resolveScreen: (RouteEntry) -> Screen?): String? =
+    resolveScreen(entry)?.screenKey(entry.instanceId)
+
+/** 导航栈中仍存活的路由 screenKey 集合（路由级 ViewModelStore 清理依据）。 */
+fun screenKeysAliveOnStack(
+    stack: List<RouteEntry>,
+    resolveScreen: (RouteEntry) -> Screen?,
+): Set<String> =
+    stack.mapNotNull { routeScreenKey(it, resolveScreen) }.toSet()
+
+/**
+ * AppContent 全新组合/重建（配置变化、跨 600dp Phone/Tablet 布局切换等）时
+ * 应保留的路由键：当前页 + 导航栈中仍存活的路由。
+ *
+ * 仅由 AppContent 首次组合（attach，LaunchedEffect(Unit)）调用一次；导航
+ * 变化（pop/replace/clear）不得复用本函数，否则会在退出动画完成前清理
+ * 仍渲染的离页 owner，其清理由转场完成的 retainOnly(aliveRouteKeys()) 负责。
+ *
+ * 全新组合时 screenCache/keepAlive 缓存已重置，唯一仍在渲染的只有当前页；
+ * 导航栈（Activity 保留的 routerState/manager）仍存活，栈内的 keepAlive
+ * 路由键已包含在 [aliveScreenKeys] 中，无需额外补充。离栈的过渡/keepAlive
+ * 缓存键由转场完成的 retainOnly(aliveRouteKeys()) 负责清理，与本集合无关。
+ */
+fun retainedRouteKeysOnContentAttach(
+    currentScreenKey: String,
+    aliveScreenKeys: Set<String>,
+): Set<String> = aliveScreenKeys + currentScreenKey

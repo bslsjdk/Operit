@@ -1,1 +1,150 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkxvY2FsRGF0ZVRpbWVTZXJpYWxpemVyCmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlVGltZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLlNlcmlhbGl6YWJsZQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIE9wZXJpdENoYXRBcmNoaXZlKAogICAgdmFsIGFyY2hpdmVUeXBlOiBTdHJpbmcgPSBBUkNISVZFX1RZUEUsCiAgICB2YWwgZm9ybWF0VmVyc2lvbjogSW50ID0gQ1VSUkVOVF9GT1JNQVRfVkVSU0lPTiwKICAgIHZhbCBleHBvcnRlZEF0OiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCiAgICB2YWwgY2hhdHM6IExpc3Q8T3Blcml0QXJjaGl2ZWRDaGF0PiwKKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBjb25zdCB2YWwgQVJDSElWRV9UWVBFID0gIm9wZXJpdF9jaGF0X2FyY2hpdmUiCiAgICAgICAgY29uc3QgdmFsIENVUlJFTlRfRk9STUFUX1ZFUlNJT04gPSAyCiAgICB9Cn0KCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBPcGVyaXRBcmNoaXZlZENoYXQoCiAgICB2YWwgaWQ6IFN0cmluZywKICAgIHZhbCB0aXRsZTogU3RyaW5nLAogICAgdmFsIG1lc3NhZ2VzOiBMaXN0PE9wZXJpdEFyY2hpdmVkTWVzc2FnZT4sCiAgICBAU2VyaWFsaXphYmxlKHdpdGggPSBMb2NhbERhdGVUaW1lU2VyaWFsaXplcjo6Y2xhc3MpCiAgICB2YWwgY3JlYXRlZEF0OiBMb2NhbERhdGVUaW1lID0gTG9jYWxEYXRlVGltZS5ub3coKSwKICAgIEBTZXJpYWxpemFibGUod2l0aCA9IExvY2FsRGF0ZVRpbWVTZXJpYWxpemVyOjpjbGFzcykKICAgIHZhbCB1cGRhdGVkQXQ6IExvY2FsRGF0ZVRpbWUgPSBMb2NhbERhdGVUaW1lLm5vdygpLAogICAgdmFsIGlucHV0VG9rZW5zOiBMb25nID0gMEwsCiAgICB2YWwgb3V0cHV0VG9rZW5zOiBMb25nID0gMEwsCiAgICB2YWwgY3VycmVudFdpbmRvd1NpemU6IExvbmcgPSAwTCwKICAgIHZhbCBncm91cDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgZGlzcGxheU9yZGVyOiBMb25nID0gMEwsCiAgICB2YWwgd29ya3NwYWNlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCB3b3Jrc3BhY2VFbnY6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHBhcmVudENoYXRJZDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgY2hhcmFjdGVyQ2FyZE5hbWU6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGNoYXJhY3Rlckdyb3VwSWQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGxvY2tlZDogQm9vbGVhbiA9IGZhbHNlLAogICAgdmFsIHBpbm5lZDogQm9vbGVhbiA9IGZhbHNlLAopIHsKICAgIGZ1biB0b0NoYXRIaXN0b3J5KCk6IENoYXRIaXN0b3J5IHsKICAgICAgICByZXR1cm4gQ2hhdEhpc3RvcnkoCiAgICAgICAgICAgIGlkID0gaWQsCiAgICAgICAgICAgIHRpdGxlID0gdGl0bGUsCiAgICAgICAgICAgIG1lc3NhZ2VzID0gbWVzc2FnZXMubWFwIHsgaXQuYmFzZU1lc3NhZ2UgfSwKICAgICAgICAgICAgY3JlYXRlZEF0ID0gY3JlYXRlZEF0LAogICAgICAgICAgICB1cGRhdGVkQXQgPSB1cGRhdGVkQXQsCiAgICAgICAgICAgIGlucHV0VG9rZW5zID0gaW5wdXRUb2tlbnMsCiAgICAgICAgICAgIG91dHB1dFRva2VucyA9IG91dHB1dFRva2VucywKICAgICAgICAgICAgY3VycmVudFdpbmRvd1NpemUgPSBjdXJyZW50V2luZG93U2l6ZSwKICAgICAgICAgICAgZ3JvdXAgPSBncm91cCwKICAgICAgICAgICAgZGlzcGxheU9yZGVyID0gZGlzcGxheU9yZGVyLAogICAgICAgICAgICB3b3Jrc3BhY2UgPSB3b3Jrc3BhY2UsCiAgICAgICAgICAgIHdvcmtzcGFjZUVudiA9IHdvcmtzcGFjZUVudiwKICAgICAgICAgICAgcGFyZW50Q2hhdElkID0gcGFyZW50Q2hhdElkLAogICAgICAgICAgICBjaGFyYWN0ZXJDYXJkTmFtZSA9IGNoYXJhY3RlckNhcmROYW1lLAogICAgICAgICAgICBjaGFyYWN0ZXJHcm91cElkID0gY2hhcmFjdGVyR3JvdXBJZCwKICAgICAgICAgICAgbG9ja2VkID0gbG9ja2VkLAogICAgICAgICAgICBwaW5uZWQgPSBwaW5uZWQsCiAgICAgICAgKQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGZ1biBmcm9tQ2hhdEhpc3RvcnkoCiAgICAgICAgICAgIGhpc3Rvcnk6IENoYXRIaXN0b3J5LAogICAgICAgICAgICBtZXNzYWdlczogTGlzdDxPcGVyaXRBcmNoaXZlZE1lc3NhZ2U+LAogICAgICAgICk6IE9wZXJpdEFyY2hpdmVkQ2hhdCB7CiAgICAgICAgICAgIHJldHVybiBPcGVyaXRBcmNoaXZlZENoYXQoCiAgICAgICAgICAgICAgICBpZCA9IGhpc3RvcnkuaWQsCiAgICAgICAgICAgICAgICB0aXRsZSA9IGhpc3RvcnkudGl0bGUsCiAgICAgICAgICAgICAgICBtZXNzYWdlcyA9IG1lc3NhZ2VzLAogICAgICAgICAgICAgICAgY3JlYXRlZEF0ID0gaGlzdG9yeS5jcmVhdGVkQXQsCiAgICAgICAgICAgICAgICB1cGRhdGVkQXQgPSBoaXN0b3J5LnVwZGF0ZWRBdCwKICAgICAgICAgICAgICAgIGlucHV0VG9rZW5zID0gaGlzdG9yeS5pbnB1dFRva2VucywKICAgICAgICAgICAgICAgIG91dHB1dFRva2VucyA9IGhpc3Rvcnkub3V0cHV0VG9rZW5zLAogICAgICAgICAgICAgICAgY3VycmVudFdpbmRvd1NpemUgPSBoaXN0b3J5LmN1cnJlbnRXaW5kb3dTaXplLAogICAgICAgICAgICAgICAgZ3JvdXAgPSBoaXN0b3J5Lmdyb3VwLAogICAgICAgICAgICAgICAgZGlzcGxheU9yZGVyID0gaGlzdG9yeS5kaXNwbGF5T3JkZXIsCiAgICAgICAgICAgICAgICB3b3Jrc3BhY2UgPSBoaXN0b3J5LndvcmtzcGFjZSwKICAgICAgICAgICAgICAgIHdvcmtzcGFjZUVudiA9IGhpc3Rvcnkud29ya3NwYWNlRW52LAogICAgICAgICAgICAgICAgcGFyZW50Q2hhdElkID0gaGlzdG9yeS5wYXJlbnRDaGF0SWQsCiAgICAgICAgICAgICAgICBjaGFyYWN0ZXJDYXJkTmFtZSA9IGhpc3RvcnkuY2hhcmFjdGVyQ2FyZE5hbWUsCiAgICAgICAgICAgICAgICBjaGFyYWN0ZXJHcm91cElkID0gaGlzdG9yeS5jaGFyYWN0ZXJHcm91cElkLAogICAgICAgICAgICAgICAgbG9ja2VkID0gaGlzdG9yeS5sb2NrZWQsCiAgICAgICAgICAgICAgICBwaW5uZWQgPSBoaXN0b3J5LnBpbm5lZCwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIE9wZXJpdEFyY2hpdmVkTWVzc2FnZSgKICAgIHZhbCBiYXNlTWVzc2FnZTogQ2hhdE1lc3NhZ2UsCiAgICB2YWwgdmFyaWFudHM6IExpc3Q8T3Blcml0QXJjaGl2ZWRNZXNzYWdlVmFyaWFudD4gPSBlbXB0eUxpc3QoKSwKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIE9wZXJpdEFyY2hpdmVkTWVzc2FnZVZhcmlhbnQoCiAgICB2YWwgdmFyaWFudEluZGV4OiBJbnQsCiAgICB2YWwgY29udGVudDogU3RyaW5nLAogICAgdmFsIHJvbGVOYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBwcm92aWRlcjogU3RyaW5nID0gIiIsCiAgICB2YWwgbW9kZWxOYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBpbnB1dFRva2VuczogTG9uZyA9IDBMLAogICAgdmFsIG91dHB1dFRva2VuczogTG9uZyA9IDBMLAogICAgdmFsIGNhY2hlZElucHV0VG9rZW5zOiBMb25nID0gMEwsCiAgICB2YWwgc2VudEF0OiBMb25nID0gMEwsCiAgICB2YWwgb3V0cHV0RHVyYXRpb25NczogTG9uZyA9IDBMLAogICAgdmFsIHdhaXREdXJhdGlvbk1zOiBMb25nID0gMEwsCiAgICB2YWwgY29tcGxldGVkQXQ6IExvbmcgPSAwTCwKKSB7CiAgICBmdW4gdG9FbnRpdHkoY2hhdElkOiBTdHJpbmcsIG1lc3NhZ2VUaW1lc3RhbXA6IExvbmcpOiBNZXNzYWdlVmFyaWFudEVudGl0eSB7CiAgICAgICAgcmV0dXJuIE1lc3NhZ2VWYXJpYW50RW50aXR5KAogICAgICAgICAgICBjaGF0SWQgPSBjaGF0SWQsCiAgICAgICAgICAgIG1lc3NhZ2VUaW1lc3RhbXAgPSBtZXNzYWdlVGltZXN0YW1wLAogICAgICAgICAgICB2YXJpYW50SW5kZXggPSB2YXJpYW50SW5kZXgsCiAgICAgICAgICAgIGNvbnRlbnQgPSBjb250ZW50LAogICAgICAgICAgICByb2xlTmFtZSA9IHJvbGVOYW1lLAogICAgICAgICAgICBwcm92aWRlciA9IHByb3ZpZGVyLAogICAgICAgICAgICBtb2RlbE5hbWUgPSBtb2RlbE5hbWUsCiAgICAgICAgICAgIGlucHV0VG9rZW5zID0gaW5wdXRUb2tlbnMsCiAgICAgICAgICAgIG91dHB1dFRva2VucyA9IG91dHB1dFRva2VucywKICAgICAgICAgICAgY2FjaGVkSW5wdXRUb2tlbnMgPSBjYWNoZWRJbnB1dFRva2VucywKICAgICAgICAgICAgc2VudEF0ID0gc2VudEF0LAogICAgICAgICAgICBvdXRwdXREdXJhdGlvbk1zID0gb3V0cHV0RHVyYXRpb25NcywKICAgICAgICAgICAgd2FpdER1cmF0aW9uTXMgPSB3YWl0RHVyYXRpb25NcywKICAgICAgICAgICAgY29tcGxldGVkQXQgPSBjb21wbGV0ZWRBdCwKICAgICAgICApCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIGZyb21FbnRpdHkoZW50aXR5OiBNZXNzYWdlVmFyaWFudEVudGl0eSk6IE9wZXJpdEFyY2hpdmVkTWVzc2FnZVZhcmlhbnQgewogICAgICAgICAgICByZXR1cm4gT3Blcml0QXJjaGl2ZWRNZXNzYWdlVmFyaWFudCgKICAgICAgICAgICAgICAgIHZhcmlhbnRJbmRleCA9IGVudGl0eS52YXJpYW50SW5kZXgsCiAgICAgICAgICAgICAgICBjb250ZW50ID0gZW50aXR5LmNvbnRlbnQsCiAgICAgICAgICAgICAgICByb2xlTmFtZSA9IGVudGl0eS5yb2xlTmFtZSwKICAgICAgICAgICAgICAgIHByb3ZpZGVyID0gZW50aXR5LnByb3ZpZGVyLAogICAgICAgICAgICAgICAgbW9kZWxOYW1lID0gZW50aXR5Lm1vZGVsTmFtZSwKICAgICAgICAgICAgICAgIGlucHV0VG9rZW5zID0gZW50aXR5LmlucHV0VG9rZW5zLAogICAgICAgICAgICAgICAgb3V0cHV0VG9rZW5zID0gZW50aXR5Lm91dHB1dFRva2VucywKICAgICAgICAgICAgICAgIGNhY2hlZElucHV0VG9rZW5zID0gZW50aXR5LmNhY2hlZElucHV0VG9rZW5zLAogICAgICAgICAgICAgICAgc2VudEF0ID0gZW50aXR5LnNlbnRBdCwKICAgICAgICAgICAgICAgIG91dHB1dER1cmF0aW9uTXMgPSBlbnRpdHkub3V0cHV0RHVyYXRpb25NcywKICAgICAgICAgICAgICAgIHdhaXREdXJhdGlvbk1zID0gZW50aXR5LndhaXREdXJhdGlvbk1zLAogICAgICAgICAgICAgICAgY29tcGxldGVkQXQgPSBlbnRpdHkuY29tcGxldGVkQXQsCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.data.model
+
+import com.bslsjdk.operit.util.LocalDateTimeSerializer
+import java.time.LocalDateTime
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class OperitChatArchive(
+    val archiveType: String = ARCHIVE_TYPE,
+    val formatVersion: Int = CURRENT_FORMAT_VERSION,
+    val exportedAt: Long = System.currentTimeMillis(),
+    val chats: List<OperitArchivedChat>,
+) {
+    companion object {
+        const val ARCHIVE_TYPE = "operit_chat_archive"
+        const val CURRENT_FORMAT_VERSION = 2
+    }
+}
+
+@Serializable
+data class OperitArchivedChat(
+    val id: String,
+    val title: String,
+    val messages: List<OperitArchivedMessage>,
+    @Serializable(with = LocalDateTimeSerializer::class)
+    val createdAt: LocalDateTime = LocalDateTime.now(),
+    @Serializable(with = LocalDateTimeSerializer::class)
+    val updatedAt: LocalDateTime = LocalDateTime.now(),
+    val inputTokens: Long = 0L,
+    val outputTokens: Long = 0L,
+    val currentWindowSize: Long = 0L,
+    val group: String? = null,
+    val displayOrder: Long = 0L,
+    val workspace: String? = null,
+    val workspaceEnv: String? = null,
+    val parentChatId: String? = null,
+    val characterCardName: String? = null,
+    val characterGroupId: String? = null,
+    val locked: Boolean = false,
+    val pinned: Boolean = false,
+) {
+    fun toChatHistory(): ChatHistory {
+        return ChatHistory(
+            id = id,
+            title = title,
+            messages = messages.map { it.baseMessage },
+            createdAt = createdAt,
+            updatedAt = updatedAt,
+            inputTokens = inputTokens,
+            outputTokens = outputTokens,
+            currentWindowSize = currentWindowSize,
+            group = group,
+            displayOrder = displayOrder,
+            workspace = workspace,
+            workspaceEnv = workspaceEnv,
+            parentChatId = parentChatId,
+            characterCardName = characterCardName,
+            characterGroupId = characterGroupId,
+            locked = locked,
+            pinned = pinned,
+        )
+    }
+
+    companion object {
+        fun fromChatHistory(
+            history: ChatHistory,
+            messages: List<OperitArchivedMessage>,
+        ): OperitArchivedChat {
+            return OperitArchivedChat(
+                id = history.id,
+                title = history.title,
+                messages = messages,
+                createdAt = history.createdAt,
+                updatedAt = history.updatedAt,
+                inputTokens = history.inputTokens,
+                outputTokens = history.outputTokens,
+                currentWindowSize = history.currentWindowSize,
+                group = history.group,
+                displayOrder = history.displayOrder,
+                workspace = history.workspace,
+                workspaceEnv = history.workspaceEnv,
+                parentChatId = history.parentChatId,
+                characterCardName = history.characterCardName,
+                characterGroupId = history.characterGroupId,
+                locked = history.locked,
+                pinned = history.pinned,
+            )
+        }
+    }
+}
+
+@Serializable
+data class OperitArchivedMessage(
+    val baseMessage: ChatMessage,
+    val variants: List<OperitArchivedMessageVariant> = emptyList(),
+)
+
+@Serializable
+data class OperitArchivedMessageVariant(
+    val variantIndex: Int,
+    val content: String,
+    val roleName: String = "",
+    val provider: String = "",
+    val modelName: String = "",
+    val inputTokens: Long = 0L,
+    val outputTokens: Long = 0L,
+    val cachedInputTokens: Long = 0L,
+    val sentAt: Long = 0L,
+    val outputDurationMs: Long = 0L,
+    val waitDurationMs: Long = 0L,
+    val completedAt: Long = 0L,
+) {
+    fun toEntity(chatId: String, messageTimestamp: Long): MessageVariantEntity {
+        return MessageVariantEntity(
+            chatId = chatId,
+            messageTimestamp = messageTimestamp,
+            variantIndex = variantIndex,
+            content = content,
+            roleName = roleName,
+            provider = provider,
+            modelName = modelName,
+            inputTokens = inputTokens,
+            outputTokens = outputTokens,
+            cachedInputTokens = cachedInputTokens,
+            sentAt = sentAt,
+            outputDurationMs = outputDurationMs,
+            waitDurationMs = waitDurationMs,
+            completedAt = completedAt,
+        )
+    }
+
+    companion object {
+        fun fromEntity(entity: MessageVariantEntity): OperitArchivedMessageVariant {
+            return OperitArchivedMessageVariant(
+                variantIndex = entity.variantIndex,
+                content = entity.content,
+                roleName = entity.roleName,
+                provider = entity.provider,
+                modelName = entity.modelName,
+                inputTokens = entity.inputTokens,
+                outputTokens = entity.outputTokens,
+                cachedInputTokens = entity.cachedInputTokens,
+                sentAt = entity.sentAt,
+                outputDurationMs = entity.outputDurationMs,
+                waitDurationMs = entity.waitDurationMs,
+                completedAt = entity.completedAt,
+            )
+        }
+    }
+}

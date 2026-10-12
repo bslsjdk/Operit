@@ -1,1 +1,228 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy50b29scGtnCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlBhY2thZ2VNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5UT09MUEtHX0VWRU5UX0NIQVRfTUVTU0FHRV9NRU5VX0lURU0KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlRPT0xQS0dfUlVOVElNRV9DT01QT1NFX0RTTAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuVG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5jaGF0bWVzc2FnZS5DaGF0TWVzc2FnZU1lbnVEaWFsb2dSZXF1ZXN0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5jaGF0bWVzc2FnZS5DaGF0TWVzc2FnZU1lbnVJdGVtQ2xpY2tSZXN1bHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5wbHVnaW5zLmNoYXRtZXNzYWdlLkNoYXRNZXNzYWdlTWVudUl0ZW1EZWZpbml0aW9uCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5jaGF0bWVzc2FnZS5DaGF0TWVzc2FnZU1lbnVJdGVtUGFyYW1zCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5jaGF0bWVzc2FnZS5DaGF0TWVzc2FnZU1lbnVJdGVtUGx1Z2luCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy5jaGF0bWVzc2FnZS5DaGF0TWVzc2FnZU1lbnVJdGVtUmVnaXN0cnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0Jvb2xlYW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBvcmcuanNvbi5KU09OT2JqZWN0Cgpwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiVG9vbFBrZ0NoYXRNZXNzYWdlTWVudSIKcHJpdmF0ZSBjb25zdCB2YWwgQ0hBVF9NRVNTQUdFX01FTlVfSVRFTV9DTElDSyA9ICJjaGF0X21lc3NhZ2VfbWVudV9pdGVtX2NsaWNrIgoKaW50ZXJuYWwgb2JqZWN0IFRvb2xQa2dDaGF0TWVzc2FnZU1lbnVJdGVtQnJpZGdlIDogQ2hhdE1lc3NhZ2VNZW51SXRlbVBsdWdpbiB7CiAgICBwcml2YXRlIHZhbCBpbnN0YWxsZWQgPSBBdG9taWNCb29sZWFuKGZhbHNlKQogICAgQFZvbGF0aWxlCiAgICBwcml2YXRlIHZhciBtZW51SXRlbXM6IExpc3Q8VG9vbFBrZ0NoYXRNZXNzYWdlTWVudUl0ZW1SZWdpc3RyYXRpb24+ID0gZW1wdHlMaXN0KCkKICAgIHByaXZhdGUgdmFsIHJ1bnRpbWVDaGFuZ2VMaXN0ZW5lciA9CiAgICAgICAgUGFja2FnZU1hbmFnZXIuVG9vbFBrZ1J1bnRpbWVDaGFuZ2VMaXN0ZW5lciB7IGFjdGl2ZUNvbnRhaW5lcnMgLT4KICAgICAgICAgICAgc3luY1Rvb2xQa2dSZWdpc3RyYXRpb25zKGFjdGl2ZUNvbnRhaW5lcnMpCiAgICAgICAgfQoKICAgIG92ZXJyaWRlIHZhbCBpZDogU3RyaW5nID0gImJ1aWx0aW4udG9vbHBrZy5jaGF0LW1lc3NhZ2UtbWVudS1pdGVtLWJyaWRnZSIKCiAgICBmdW4gcmVnaXN0ZXIoKSB7CiAgICAgICAgaWYgKCFpbnN0YWxsZWQuY29tcGFyZUFuZFNldChmYWxzZSwgdHJ1ZSkpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIENoYXRNZXNzYWdlTWVudUl0ZW1SZWdpc3RyeS5yZWdpc3Rlcih0aGlzKQoKICAgICAgICB2YWwgbWFuYWdlciA9IHRvb2xQa2dQYWNrYWdlTWFuYWdlcigpCiAgICAgICAgbWFuYWdlci5hZGRUb29sUGtnUnVudGltZUNoYW5nZUxpc3RlbmVyKHJ1bnRpbWVDaGFuZ2VMaXN0ZW5lcikKICAgICAgICBzeW5jVG9vbFBrZ1JlZ2lzdHJhdGlvbnMobWFuYWdlci5nZXRFbmFibGVkVG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWVzKCkpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGNyZWF0ZU1lbnVJdGVtcygKICAgICAgICBwYXJhbXM6IENoYXRNZXNzYWdlTWVudUl0ZW1QYXJhbXMKICAgICk6IExpc3Q8Q2hhdE1lc3NhZ2VNZW51SXRlbURlZmluaXRpb24+IHsKICAgICAgICB2YWwgc2VuZGVyID0gcGFyYW1zLm1lc3NhZ2Uuc2VuZGVyLnRyaW0oKS5sb3dlcmNhc2UoKQogICAgICAgIHJldHVybiBtZW51SXRlbXMKICAgICAgICAgICAgLmZpbHRlciB7IGl0ZW0gLT4KICAgICAgICAgICAgICAgIGl0ZW0uc2VuZGVycy5pc0VtcHR5KCkgfHwgaXRlbS5zZW5kZXJzLmFueSB7IGFsbG93ZWQgLT4gYWxsb3dlZC5lcXVhbHMoc2VuZGVyLCB0cnVlKSB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgLm1hcCB7IGl0ZW0gLT4KICAgICAgICAgICAgICAgIENoYXRNZXNzYWdlTWVudUl0ZW1EZWZpbml0aW9uKAogICAgICAgICAgICAgICAgICAgIGlkID0gIiR7aXRlbS5jb250YWluZXJQYWNrYWdlTmFtZX06JHtpdGVtLml0ZW1JZH0iLAogICAgICAgICAgICAgICAgICAgIHRpdGxlID0gaXRlbS50aXRsZS5yZXNvbHZlKHBhcmFtcy5jb250ZXh0KS50cmltKCkuaWZCbGFuayB7IGl0ZW0uaXRlbUlkIH0sCiAgICAgICAgICAgICAgICAgICAgaWNvbiA9IGl0ZW0uaWNvbiwKICAgICAgICAgICAgICAgICAgICBvcmRlciA9IGl0ZW0ub3JkZXIsCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgY2xpY2tQYXJhbXMgLT4gZGlzcGF0Y2hDbGljayhpdGVtLCBjbGlja1BhcmFtcykgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc3luY1Rvb2xQa2dSZWdpc3RyYXRpb25zKGFjdGl2ZUNvbnRhaW5lcnM6IExpc3Q8VG9vbFBrZ0NvbnRhaW5lclJ1bnRpbWU+KSB7CiAgICAgICAgbWVudUl0ZW1zID0KICAgICAgICAgICAgYWN0aXZlQ29udGFpbmVycy5mbGF0TWFwIHsgcnVudGltZSAtPgogICAgICAgICAgICAgICAgcnVudGltZS5jaGF0TWVzc2FnZU1lbnVJdGVtcy5tYXAgeyBpdGVtIC0+CiAgICAgICAgICAgICAgICAgICAgVG9vbFBrZ0NoYXRNZXNzYWdlTWVudUl0ZW1SZWdpc3RyYXRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lID0gcnVudGltZS5wYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgaXRlbUlkID0gaXRlbS5pZCwKICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSBpdGVtLnRpdGxlLAogICAgICAgICAgICAgICAgICAgICAgICBpY29uID0gaXRlbS5pY29uLAogICAgICAgICAgICAgICAgICAgICAgICBvcmRlciA9IGl0ZW0ub3JkZXIsCiAgICAgICAgICAgICAgICAgICAgICAgIHNlbmRlcnMgPSBpdGVtLnNlbmRlcnMsCiAgICAgICAgICAgICAgICAgICAgICAgIGZ1bmN0aW9uTmFtZSA9IGl0ZW0uZnVuY3Rpb24sCiAgICAgICAgICAgICAgICAgICAgICAgIGZ1bmN0aW9uU291cmNlID0gaXRlbS5mdW5jdGlvblNvdXJjZSwKICAgICAgICAgICAgICAgICAgICAgICAgZGlhbG9nID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGl0ZW0uZGlhbG9nPy5sZXQgeyBkaWFsb2cgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb29sUGtnQ2hhdE1lc3NhZ2VNZW51RGlhbG9nUmVnaXN0cmF0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY3JlZW5QYXRoID0gZGlhbG9nLnNjcmVlbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGl0bGUgPSBkaWFsb2cudGl0bGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LnNvcnRlZEJ5VG9vbFBrZ0xvYWRPcmRlcigKICAgICAgICAgICAgICAgIGFjdGl2ZUNvbnRhaW5lcnMgPSBhY3RpdmVDb250YWluZXJzLAogICAgICAgICAgICAgICAgY29udGFpbmVyUGFja2FnZU5hbWUgPSBUb29sUGtnQ2hhdE1lc3NhZ2VNZW51SXRlbVJlZ2lzdHJhdGlvbjo6Y29udGFpbmVyUGFja2FnZU5hbWUsCiAgICAgICAgICAgICAgICByZWdpc3RyYXRpb25JZCA9IFRvb2xQa2dDaGF0TWVzc2FnZU1lbnVJdGVtUmVnaXN0cmF0aW9uOjppdGVtSWQKICAgICAgICAgICAgKQogICAgICAgIENoYXRNZXNzYWdlTWVudUl0ZW1SZWdpc3RyeS5ub3RpZnlDaGFuZ2VkKCkKICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGRpc3BhdGNoQ2xpY2soCiAgICAgICAgaXRlbTogVG9vbFBrZ0NoYXRNZXNzYWdlTWVudUl0ZW1SZWdpc3RyYXRpb24sCiAgICAgICAgcGFyYW1zOiBDaGF0TWVzc2FnZU1lbnVJdGVtUGFyYW1zCiAgICApOiBDaGF0TWVzc2FnZU1lbnVJdGVtQ2xpY2tSZXN1bHQ/IHsKICAgICAgICB2YWwgZXZlbnRQYXlsb2FkID0gYnVpbGRFdmVudFBheWxvYWQocGFyYW1zLCBpdGVtLml0ZW1JZCkKICAgICAgICByZXR1cm4gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgdmFsIG1hbmFnZXIgPSB0b29sUGtnUGFja2FnZU1hbmFnZXIoKQogICAgICAgICAgICB2YWwgcmVzdWx0ID0KICAgICAgICAgICAgICAgIG1hbmFnZXIucnVuVG9vbFBrZ01haW5Ib29rKAogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lID0gaXRlbS5jb250YWluZXJQYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgICAgICBmdW5jdGlvbk5hbWUgPSBpdGVtLmZ1bmN0aW9uTmFtZSwKICAgICAgICAgICAgICAgICAgICBldmVudCA9IFRPT0xQS0dfRVZFTlRfQ0hBVF9NRVNTQUdFX01FTlVfSVRFTSwKICAgICAgICAgICAgICAgICAgICBldmVudE5hbWUgPSBDSEFUX01FU1NBR0VfTUVOVV9JVEVNX0NMSUNLLAogICAgICAgICAgICAgICAgICAgIHBsdWdpbklkID0gaXRlbS5pdGVtSWQsCiAgICAgICAgICAgICAgICAgICAgaW5saW5lRnVuY3Rpb25Tb3VyY2UgPSBpdGVtLmZ1bmN0aW9uU291cmNlLAogICAgICAgICAgICAgICAgICAgIGV2ZW50UGF5bG9hZCA9IGV2ZW50UGF5bG9hZAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB2YWwgcmF3ID0KICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgcmVzdWx0LmdldE9yVGhyb3coKQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZXJyb3I6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKAogICAgICAgICAgICAgICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICAgICAgICAgICAgICJUb29sUGtnIGNoYXQgbWVzc2FnZSBtZW51IGl0ZW0gZmFpbGVkOiAke2l0ZW0uY29udGFpbmVyUGFja2FnZU5hbWV9OiR7aXRlbS5pdGVtSWR9IiwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIGRlY29kZWQgPQogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBkZWNvZGVUb29sUGtnSG9va1Jlc3VsdChyYXcpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoCiAgICAgICAgICAgICAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgICAgICAgICAgICAgIlRvb2xQa2cgY2hhdCBtZXNzYWdlIG1lbnUgaXRlbSBkZWNvZGUgZmFpbGVkOiAke2l0ZW0uY29udGFpbmVyUGFja2FnZU5hbWV9OiR7aXRlbS5pdGVtSWR9IiwKICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3IKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgQ2hhdE1lc3NhZ2VNZW51SXRlbUNsaWNrUmVzdWx0KAogICAgICAgICAgICAgICAgZGlhbG9nID0gYnVpbGREaWFsb2dSZXF1ZXN0KAogICAgICAgICAgICAgICAgICAgIGNvbnRleHQgPSBwYXJhbXMuY29udGV4dCwKICAgICAgICAgICAgICAgICAgICBpdGVtID0gaXRlbSwKICAgICAgICAgICAgICAgICAgICBldmVudFBheWxvYWQgPSBldmVudFBheWxvYWQsCiAgICAgICAgICAgICAgICAgICAgZGVjb2RlZCA9IGRlY29kZWQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZERpYWxvZ1JlcXVlc3QoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICBpdGVtOiBUb29sUGtnQ2hhdE1lc3NhZ2VNZW51SXRlbVJlZ2lzdHJhdGlvbiwKICAgICAgICBldmVudFBheWxvYWQ6IE1hcDxTdHJpbmcsIEFueT8+LAogICAgICAgIGRlY29kZWQ6IEFueT8KICAgICk6IENoYXRNZXNzYWdlTWVudURpYWxvZ1JlcXVlc3Q/IHsKICAgICAgICB2YWwgZGVjb2RlZE1hcCA9IGRlY29kZWQuYXNQbGFpbk1hcCgpCiAgICAgICAgdmFsIGRpYWxvZ01hcCA9IGRlY29kZWRNYXBbImRpYWxvZyJdLmFzUGxhaW5NYXAoKQogICAgICAgIHZhbCByZWdpc3RlcmVkRGlhbG9nID0gaXRlbS5kaWFsb2cgPzogcmV0dXJuIG51bGwKICAgICAgICB2YWwgc3RhdGUgPQogICAgICAgICAgICBsaW5rZWRNYXBPZjxTdHJpbmcsIEFueT8+KAogICAgICAgICAgICAgICAgImNoYXRJZCIgdG8gZXZlbnRQYXlsb2FkWyJjaGF0SWQiXSwKICAgICAgICAgICAgICAgICJtZXNzYWdlSW5kZXgiIHRvIGV2ZW50UGF5bG9hZFsibWVzc2FnZUluZGV4Il0sCiAgICAgICAgICAgICAgICAibWVzc2FnZSIgdG8gZXZlbnRQYXlsb2FkWyJtZXNzYWdlIl0sCiAgICAgICAgICAgICAgICAibWVudUl0ZW1JZCIgdG8gaXRlbS5pdGVtSWQKICAgICAgICAgICAgKQogICAgICAgIHN0YXRlLnB1dEFsbChkaWFsb2dNYXBbInN0YXRlIl0uYXNQbGFpbk1hcCgpKQoKICAgICAgICB2YWwgbW9kdWxlU3BlYyA9CiAgICAgICAgICAgIGxpbmtlZE1hcE9mPFN0cmluZywgQW55Pz4oCiAgICAgICAgICAgICAgICAiaWQiIHRvIGl0ZW0uaXRlbUlkLAogICAgICAgICAgICAgICAgInJ1bnRpbWUiIHRvIFRPT0xQS0dfUlVOVElNRV9DT01QT1NFX0RTTCwKICAgICAgICAgICAgICAgICJzY3JlZW4iIHRvIHJlZ2lzdGVyZWREaWFsb2cuc2NyZWVuUGF0aCwKICAgICAgICAgICAgICAgICJ0aXRsZSIgdG8gcmVnaXN0ZXJlZERpYWxvZy50aXRsZS5yZXNvbHZlKGNvbnRleHQpLAogICAgICAgICAgICAgICAgInRvb2xQa2dJZCIgdG8gaXRlbS5jb250YWluZXJQYWNrYWdlTmFtZSwKICAgICAgICAgICAgICAgICJtZW51SXRlbUlkIiB0byBpdGVtLml0ZW1JZAogICAgICAgICAgICApCiAgICAgICAgbW9kdWxlU3BlYy5wdXRBbGwoZGlhbG9nTWFwWyJtb2R1bGVTcGVjIl0uYXNQbGFpbk1hcCgpKQoKICAgICAgICB2YWwgcmVzdWx0VGl0bGUgPSBkaWFsb2dNYXBbInRpdGxlIl0/LnRvU3RyaW5nKCk/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICB2YWwgcmVnaXN0ZXJlZFRpdGxlID0gcmVnaXN0ZXJlZERpYWxvZy50aXRsZS5yZXNvbHZlKGNvbnRleHQpLnRyaW0oKQogICAgICAgIHJldHVybiBDaGF0TWVzc2FnZU1lbnVEaWFsb2dSZXF1ZXN0KAogICAgICAgICAgICBjb250YWluZXJQYWNrYWdlTmFtZSA9IGl0ZW0uY29udGFpbmVyUGFja2FnZU5hbWUsCiAgICAgICAgICAgIHNjcmVlblBhdGggPSByZWdpc3RlcmVkRGlhbG9nLnNjcmVlblBhdGgsCiAgICAgICAgICAgIHRpdGxlID0gcmVzdWx0VGl0bGUuaWZCbGFuayB7IHJlZ2lzdGVyZWRUaXRsZSB9LAogICAgICAgICAgICBzdGF0ZSA9IHN0YXRlLAogICAgICAgICAgICBtb2R1bGVTcGVjID0gbW9kdWxlU3BlYwogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZEV2ZW50UGF5bG9hZCgKICAgICAgICBwYXJhbXM6IENoYXRNZXNzYWdlTWVudUl0ZW1QYXJhbXMsCiAgICAgICAgbWVudUl0ZW1JZDogU3RyaW5nCiAgICApOiBNYXA8U3RyaW5nLCBBbnk/PiA9CiAgICAgICAgbWFwT2YoCiAgICAgICAgICAgICJhY3Rpb24iIHRvICJjbGljayIsCiAgICAgICAgICAgICJjaGF0SWQiIHRvIHBhcmFtcy5jaGF0SWQsCiAgICAgICAgICAgICJtZXNzYWdlSW5kZXgiIHRvIHBhcmFtcy5tZXNzYWdlSW5kZXgsCiAgICAgICAgICAgICJtZW51SXRlbUlkIiB0byBtZW51SXRlbUlkLAogICAgICAgICAgICAibWVzc2FnZSIgdG8gYnVpbGRNZXNzYWdlUGF5bG9hZChwYXJhbXMubWVzc2FnZSkKICAgICAgICApCgogICAgcHJpdmF0ZSBmdW4gYnVpbGRNZXNzYWdlUGF5bG9hZChtZXNzYWdlOiBDaGF0TWVzc2FnZSk6IE1hcDxTdHJpbmcsIEFueT8+ID0KICAgICAgICBtYXBPZigKICAgICAgICAgICAgInRpbWVzdGFtcCIgdG8gbWVzc2FnZS50aW1lc3RhbXAsCiAgICAgICAgICAgICJzZW5kZXIiIHRvIG1lc3NhZ2Uuc2VuZGVyLAogICAgICAgICAgICAicm9sZU5hbWUiIHRvIG1lc3NhZ2Uucm9sZU5hbWUsCiAgICAgICAgICAgICJjb250ZW50IiB0byBtZXNzYWdlLmNvbnRlbnQsCiAgICAgICAgICAgICJjb21wbGV0ZWRBdCIgdG8gbWVzc2FnZS5jb21wbGV0ZWRBdCwKICAgICAgICAgICAgInByb3ZpZGVyIiB0byBtZXNzYWdlLnByb3ZpZGVyLAogICAgICAgICAgICAibW9kZWxOYW1lIiB0byBtZXNzYWdlLm1vZGVsTmFtZSwKICAgICAgICAgICAgImlucHV0VG9rZW5zIiB0byBtZXNzYWdlLmlucHV0VG9rZW5zLAogICAgICAgICAgICAib3V0cHV0VG9rZW5zIiB0byBtZXNzYWdlLm91dHB1dFRva2VucywKICAgICAgICAgICAgImNhY2hlZElucHV0VG9rZW5zIiB0byBtZXNzYWdlLmNhY2hlZElucHV0VG9rZW5zLAogICAgICAgICAgICAic2VudEF0IiB0byBtZXNzYWdlLnNlbnRBdCwKICAgICAgICAgICAgIm91dHB1dER1cmF0aW9uTXMiIHRvIG1lc3NhZ2Uub3V0cHV0RHVyYXRpb25NcywKICAgICAgICAgICAgIndhaXREdXJhdGlvbk1zIiB0byBtZXNzYWdlLndhaXREdXJhdGlvbk1zLAogICAgICAgICAgICAiZGlzcGxheU1vZGUiIHRvIG1lc3NhZ2UuZGlzcGxheU1vZGUubmFtZSwKICAgICAgICAgICAgInNlbGVjdGVkVmFyaWFudEluZGV4IiB0byBtZXNzYWdlLnNlbGVjdGVkVmFyaWFudEluZGV4LAogICAgICAgICAgICAidmFyaWFudENvdW50IiB0byBtZXNzYWdlLnZhcmlhbnRDb3VudCwKICAgICAgICAgICAgImlzRmF2b3JpdGUiIHRvIG1lc3NhZ2UuaXNGYXZvcml0ZQogICAgICAgICkKCiAgICBwcml2YXRlIGZ1biBBbnk/LmFzUGxhaW5NYXAoKTogTWFwPFN0cmluZywgQW55Pz4gewogICAgICAgIHJldHVybiB3aGVuICh0aGlzKSB7CiAgICAgICAgICAgIGlzIE1hcDwqLCAqPiAtPgogICAgICAgICAgICAgICAgZW50cmllcy5tYXBOb3ROdWxsIHsgKGtleSwgdmFsdWUpIC0+CiAgICAgICAgICAgICAgICAgICAga2V5Py50b1N0cmluZygpPy5sZXQgeyBpdCB0byB2YWx1ZSB9CiAgICAgICAgICAgICAgICB9LnRvTWFwKCkKICAgICAgICAgICAgaXMgSlNPTk9iamVjdCAtPiBqc29uT2JqZWN0VG9NYXAodGhpcykKICAgICAgICAgICAgZWxzZSAtPiBlbXB0eU1hcCgpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.plugins.toolpkg
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_EVENT_CHAT_MESSAGE_MENU_ITEM
+import com.bslsjdk.operit.core.tools.packTool.TOOLPKG_RUNTIME_COMPOSE_DSL
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgContainerRuntime
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.plugins.chatmessage.ChatMessageMenuDialogRequest
+import com.bslsjdk.operit.plugins.chatmessage.ChatMessageMenuItemClickResult
+import com.bslsjdk.operit.plugins.chatmessage.ChatMessageMenuItemDefinition
+import com.bslsjdk.operit.plugins.chatmessage.ChatMessageMenuItemParams
+import com.bslsjdk.operit.plugins.chatmessage.ChatMessageMenuItemPlugin
+import com.bslsjdk.operit.plugins.chatmessage.ChatMessageMenuItemRegistry
+import com.bslsjdk.operit.util.AppLogger
+import java.util.concurrent.atomic.AtomicBoolean
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.json.JSONObject
+
+private const val TAG = "ToolPkgChatMessageMenu"
+private const val CHAT_MESSAGE_MENU_ITEM_CLICK = "chat_message_menu_item_click"
+
+internal object ToolPkgChatMessageMenuItemBridge : ChatMessageMenuItemPlugin {
+    private val installed = AtomicBoolean(false)
+    @Volatile
+    private var menuItems: List<ToolPkgChatMessageMenuItemRegistration> = emptyList()
+    private val runtimeChangeListener =
+        PackageManager.ToolPkgRuntimeChangeListener { activeContainers ->
+            syncToolPkgRegistrations(activeContainers)
+        }
+
+    override val id: String = "builtin.toolpkg.chat-message-menu-item-bridge"
+
+    fun register() {
+        if (!installed.compareAndSet(false, true)) {
+            return
+        }
+        ChatMessageMenuItemRegistry.register(this)
+
+        val manager = toolPkgPackageManager()
+        manager.addToolPkgRuntimeChangeListener(runtimeChangeListener)
+        syncToolPkgRegistrations(manager.getEnabledToolPkgContainerRuntimes())
+    }
+
+    override fun createMenuItems(
+        params: ChatMessageMenuItemParams
+    ): List<ChatMessageMenuItemDefinition> {
+        val sender = params.message.sender.trim().lowercase()
+        return menuItems
+            .filter { item ->
+                item.senders.isEmpty() || item.senders.any { allowed -> allowed.equals(sender, true) }
+            }
+            .map { item ->
+                ChatMessageMenuItemDefinition(
+                    id = "${item.containerPackageName}:${item.itemId}",
+                    title = item.title.resolve(params.context).trim().ifBlank { item.itemId },
+                    icon = item.icon,
+                    order = item.order,
+                    onClick = { clickParams -> dispatchClick(item, clickParams) }
+                )
+            }
+    }
+
+    private fun syncToolPkgRegistrations(activeContainers: List<ToolPkgContainerRuntime>) {
+        menuItems =
+            activeContainers.flatMap { runtime ->
+                runtime.chatMessageMenuItems.map { item ->
+                    ToolPkgChatMessageMenuItemRegistration(
+                        containerPackageName = runtime.packageName,
+                        itemId = item.id,
+                        title = item.title,
+                        icon = item.icon,
+                        order = item.order,
+                        senders = item.senders,
+                        functionName = item.function,
+                        functionSource = item.functionSource,
+                        dialog =
+                            item.dialog?.let { dialog ->
+                                ToolPkgChatMessageMenuDialogRegistration(
+                                    screenPath = dialog.screen,
+                                    title = dialog.title
+                                )
+                            }
+                    )
+                }
+            }.sortedByToolPkgLoadOrder(
+                activeContainers = activeContainers,
+                containerPackageName = ToolPkgChatMessageMenuItemRegistration::containerPackageName,
+                registrationId = ToolPkgChatMessageMenuItemRegistration::itemId
+            )
+        ChatMessageMenuItemRegistry.notifyChanged()
+    }
+
+    private suspend fun dispatchClick(
+        item: ToolPkgChatMessageMenuItemRegistration,
+        params: ChatMessageMenuItemParams
+    ): ChatMessageMenuItemClickResult? {
+        val eventPayload = buildEventPayload(params, item.itemId)
+        return withContext(Dispatchers.IO) {
+            val manager = toolPkgPackageManager()
+            val result =
+                manager.runToolPkgMainHook(
+                    containerPackageName = item.containerPackageName,
+                    functionName = item.functionName,
+                    event = TOOLPKG_EVENT_CHAT_MESSAGE_MENU_ITEM,
+                    eventName = CHAT_MESSAGE_MENU_ITEM_CLICK,
+                    pluginId = item.itemId,
+                    inlineFunctionSource = item.functionSource,
+                    eventPayload = eventPayload
+                )
+            val raw =
+                try {
+                    result.getOrThrow()
+                } catch (error: Exception) {
+                    AppLogger.e(
+                        TAG,
+                        "ToolPkg chat message menu item failed: ${item.containerPackageName}:${item.itemId}",
+                        error
+                    )
+                    return@withContext null
+                }
+            val decoded =
+                try {
+                    decodeToolPkgHookResult(raw)
+                } catch (error: Exception) {
+                    AppLogger.e(
+                        TAG,
+                        "ToolPkg chat message menu item decode failed: ${item.containerPackageName}:${item.itemId}",
+                        error
+                    )
+                    return@withContext null
+                }
+            ChatMessageMenuItemClickResult(
+                dialog = buildDialogRequest(
+                    context = params.context,
+                    item = item,
+                    eventPayload = eventPayload,
+                    decoded = decoded
+                )
+            )
+        }
+    }
+
+    private fun buildDialogRequest(
+        context: Context,
+        item: ToolPkgChatMessageMenuItemRegistration,
+        eventPayload: Map<String, Any?>,
+        decoded: Any?
+    ): ChatMessageMenuDialogRequest? {
+        val decodedMap = decoded.asPlainMap()
+        val dialogMap = decodedMap["dialog"].asPlainMap()
+        val registeredDialog = item.dialog ?: return null
+        val state =
+            linkedMapOf<String, Any?>(
+                "chatId" to eventPayload["chatId"],
+                "messageIndex" to eventPayload["messageIndex"],
+                "message" to eventPayload["message"],
+                "menuItemId" to item.itemId
+            )
+        state.putAll(dialogMap["state"].asPlainMap())
+
+        val moduleSpec =
+            linkedMapOf<String, Any?>(
+                "id" to item.itemId,
+                "runtime" to TOOLPKG_RUNTIME_COMPOSE_DSL,
+                "screen" to registeredDialog.screenPath,
+                "title" to registeredDialog.title.resolve(context),
+                "toolPkgId" to item.containerPackageName,
+                "menuItemId" to item.itemId
+            )
+        moduleSpec.putAll(dialogMap["moduleSpec"].asPlainMap())
+
+        val resultTitle = dialogMap["title"]?.toString()?.trim().orEmpty()
+        val registeredTitle = registeredDialog.title.resolve(context).trim()
+        return ChatMessageMenuDialogRequest(
+            containerPackageName = item.containerPackageName,
+            screenPath = registeredDialog.screenPath,
+            title = resultTitle.ifBlank { registeredTitle },
+            state = state,
+            moduleSpec = moduleSpec
+        )
+    }
+
+    private fun buildEventPayload(
+        params: ChatMessageMenuItemParams,
+        menuItemId: String
+    ): Map<String, Any?> =
+        mapOf(
+            "action" to "click",
+            "chatId" to params.chatId,
+            "messageIndex" to params.messageIndex,
+            "menuItemId" to menuItemId,
+            "message" to buildMessagePayload(params.message)
+        )
+
+    private fun buildMessagePayload(message: ChatMessage): Map<String, Any?> =
+        mapOf(
+            "timestamp" to message.timestamp,
+            "sender" to message.sender,
+            "roleName" to message.roleName,
+            "content" to message.content,
+            "completedAt" to message.completedAt,
+            "provider" to message.provider,
+            "modelName" to message.modelName,
+            "inputTokens" to message.inputTokens,
+            "outputTokens" to message.outputTokens,
+            "cachedInputTokens" to message.cachedInputTokens,
+            "sentAt" to message.sentAt,
+            "outputDurationMs" to message.outputDurationMs,
+            "waitDurationMs" to message.waitDurationMs,
+            "displayMode" to message.displayMode.name,
+            "selectedVariantIndex" to message.selectedVariantIndex,
+            "variantCount" to message.variantCount,
+            "isFavorite" to message.isFavorite
+        )
+
+    private fun Any?.asPlainMap(): Map<String, Any?> {
+        return when (this) {
+            is Map<*, *> ->
+                entries.mapNotNull { (key, value) ->
+                    key?.toString()?.let { it to value }
+                }.toMap()
+            is JSONObject -> jsonObjectToMap(this)
+            else -> emptyMap()
+        }
+    }
+}

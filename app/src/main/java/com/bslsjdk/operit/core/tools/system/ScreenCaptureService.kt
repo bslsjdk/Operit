@@ -1,1 +1,121 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCmltcG9ydCBhbmRyb2lkLmFwcC5Ob3RpZmljYXRpb24KaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbkNoYW5uZWwKaW1wb3J0IGFuZHJvaWQuYXBwLk5vdGlmaWNhdGlvbk1hbmFnZXIKaW1wb3J0IGFuZHJvaWQuYXBwLlNlcnZpY2UKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucG0uU2VydmljZUluZm8KaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQub3MuSUJpbmRlcgppbXBvcnQgYW5kcm9pZHguY29yZS5hcHAuTm90aWZpY2F0aW9uQ29tcGF0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCgovKioKICogQSBkZWRpY2F0ZWQgZm9yZWdyb3VuZCBzZXJ2aWNlIHRvIHNhdGlzZnkgQW5kcm9pZCAxNCsgTWVkaWFQcm9qZWN0aW9uIHJlcXVpcmVtZW50cy4KICogVGhpcyBzZXJ2aWNlIG11c3QgYmUgcnVubmluZyBiZWZvcmUgTWVkaWFQcm9qZWN0aW9uIGlzIHJlcXVlc3RlZCBhbmQgd2hpbGUgaXQgaXMgYWN0aXZlLgogKi8KY2xhc3MgU2NyZWVuQ2FwdHVyZVNlcnZpY2UgOiBTZXJ2aWNlKCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJTY3JlZW5DYXB0dXJlU2VydmljZSIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBDSEFOTkVMX0lEID0gIlNjcmVlbkNhcHR1cmVDaGFubmVsIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIE5PVElGSUNBVElPTl9JRCA9IDIwMDEKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBBQ1RJT05fU1RBUlQgPSAiY29tLmJzbHNqZGsub3Blcml0LmFjdGlvbi5TQ1JFRU5fQ0FQVFVSRV9GR1NfU1RBUlQiCgogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHZhciBpc01lZGlhUHJvamVjdGlvbkZvcmVncm91bmRSZWFkeTogQm9vbGVhbiA9IGZhbHNlCiAgICAgICAgICAgIHByaXZhdGUgc2V0CiAgICAgICAgCiAgICAgICAgZnVuIHN0YXJ0KGNvbnRleHQ6IENvbnRleHQpIHsKICAgICAgICAgICAgaXNNZWRpYVByb2plY3Rpb25Gb3JlZ3JvdW5kUmVhZHkgPSBmYWxzZQogICAgICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KGNvbnRleHQsIFNjcmVlbkNhcHR1cmVTZXJ2aWNlOjpjbGFzcy5qYXZhKS5hcHBseSB7CiAgICAgICAgICAgICAgICBhY3Rpb24gPSBBQ1RJT05fU1RBUlQKICAgICAgICAgICAgfQogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgY29udGV4dC5zdGFydFNlcnZpY2UoaW50ZW50KQogICAgICAgICAgICB9IGNhdGNoIChfOiBJbGxlZ2FsU3RhdGVFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5PKSB7CiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5zdGFydEZvcmVncm91bmRTZXJ2aWNlKGludGVudCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgY29udGV4dC5zdGFydFNlcnZpY2UoaW50ZW50KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBmdW4gc3RvcChjb250ZXh0OiBDb250ZXh0KSB7CiAgICAgICAgICAgIGlzTWVkaWFQcm9qZWN0aW9uRm9yZWdyb3VuZFJlYWR5ID0gZmFsc2UKICAgICAgICAgICAgdmFsIGludGVudCA9IEludGVudChjb250ZXh0LCBTY3JlZW5DYXB0dXJlU2VydmljZTo6Y2xhc3MuamF2YSkKICAgICAgICAgICAgY29udGV4dC5zdG9wU2VydmljZShpbnRlbnQpCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvbkJpbmQoaW50ZW50OiBJbnRlbnQ/KTogSUJpbmRlcj8gPSBudWxsCgogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKCkgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKCkKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTY3JlZW5DYXB0dXJlU2VydmljZSBjcmVhdGVkIikKICAgICAgICBjcmVhdGVOb3RpZmljYXRpb25DaGFubmVsKCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25TdGFydENvbW1hbmQoaW50ZW50OiBJbnRlbnQ/LCBmbGFnczogSW50LCBzdGFydElkOiBJbnQpOiBJbnQgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNjcmVlbkNhcHR1cmVTZXJ2aWNlIHN0YXJ0ZWQiKQogICAgICAgIGlmIChpbnRlbnQ/LmFjdGlvbiA9PSBBQ1RJT05fU1RBUlQpIHsKICAgICAgICAgICAgc3RhcnRGb3JlZ3JvdW5kU2VydmljZSgpCiAgICAgICAgICAgIHJldHVybiBTVEFSVF9OT1RfU1RJQ0tZCiAgICAgICAgfQoKICAgICAgICBzdG9wU2VsZigpCiAgICAgICAgcmV0dXJuIFNUQVJUX05PVF9TVElDS1kKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25EZXN0cm95KCkgewogICAgICAgIHN1cGVyLm9uRGVzdHJveSgpCiAgICAgICAgaXNNZWRpYVByb2plY3Rpb25Gb3JlZ3JvdW5kUmVhZHkgPSBmYWxzZQogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlNjcmVlbkNhcHR1cmVTZXJ2aWNlIGRlc3Ryb3llZCIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc3RhcnRGb3JlZ3JvdW5kU2VydmljZSgpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgbm90aWZpY2F0aW9uID0gY3JlYXRlTm90aWZpY2F0aW9uKCkKICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5RKSB7CiAgICAgICAgICAgICAgICB2YWwgc2VydmljZVR5cGUgPSBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuVVBTSURFX0RPV05fQ0FLRSkgewogICAgICAgICAgICAgICAgICAgIFNlcnZpY2VJbmZvLkZPUkVHUk9VTkRfU0VSVklDRV9UWVBFX01FRElBX1BST0pFQ1RJT04KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgU2VydmljZUluZm8uRk9SRUdST1VORF9TRVJWSUNFX1RZUEVfTUVESUFfUFJPSkVDVElPTgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgc3RhcnRGb3JlZ3JvdW5kKE5PVElGSUNBVElPTl9JRCwgbm90aWZpY2F0aW9uLCBzZXJ2aWNlVHlwZSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHN0YXJ0Rm9yZWdyb3VuZChOT1RJRklDQVRJT05fSUQsIG5vdGlmaWNhdGlvbikKICAgICAgICAgICAgfQoKICAgICAgICAgICAgaXNNZWRpYVByb2plY3Rpb25Gb3JlZ3JvdW5kUmVhZHkgPSB0cnVlCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIHN0YXJ0aW5nIGZvcmVncm91bmQgc2VydmljZSIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNyZWF0ZU5vdGlmaWNhdGlvbigpOiBOb3RpZmljYXRpb24gewogICAgICAgIHJldHVybiBOb3RpZmljYXRpb25Db21wYXQuQnVpbGRlcih0aGlzLCBDSEFOTkVMX0lEKQogICAgICAgICAgICAuc2V0Q29udGVudFRpdGxlKCJTY3JlZW4gQ2FwdHVyZSBBY3RpdmUiKQogICAgICAgICAgICAuc2V0Q29udGVudFRleHQoIk9wZXJpdCBpcyBjYXB0dXJpbmcgc2NyZWVuIGNvbnRlbnQiKQogICAgICAgICAgICAuc2V0U21hbGxJY29uKFIuZHJhd2FibGUuaWNfbGF1bmNoZXJfc2ltcGxlX2ZvcmVncm91bmQpCiAgICAgICAgICAgIC5zZXRQcmlvcml0eShOb3RpZmljYXRpb25Db21wYXQuUFJJT1JJVFlfTE9XKQogICAgICAgICAgICAuYnVpbGQoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoKSB7CiAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk8pIHsKICAgICAgICAgICAgdmFsIHNlcnZpY2VDaGFubmVsID0gTm90aWZpY2F0aW9uQ2hhbm5lbCgKICAgICAgICAgICAgICAgIENIQU5ORUxfSUQsCiAgICAgICAgICAgICAgICAiU2NyZWVuIENhcHR1cmUgU2VydmljZSIsCiAgICAgICAgICAgICAgICBOb3RpZmljYXRpb25NYW5hZ2VyLklNUE9SVEFOQ0VfTE9XCiAgICAgICAgICAgICkKICAgICAgICAgICAgdmFsIG1hbmFnZXIgPSBnZXRTeXN0ZW1TZXJ2aWNlKE5vdGlmaWNhdGlvbk1hbmFnZXI6OmNsYXNzLmphdmEpCiAgICAgICAgICAgIG1hbmFnZXIuY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbChzZXJ2aWNlQ2hhbm5lbCkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.system
+
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.Service
+import android.content.Context
+import android.content.Intent
+import android.content.pm.ServiceInfo
+import android.os.Build
+import android.os.IBinder
+import androidx.core.app.NotificationCompat
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+
+/**
+ * A dedicated foreground service to satisfy Android 14+ MediaProjection requirements.
+ * This service must be running before MediaProjection is requested and while it is active.
+ */
+class ScreenCaptureService : Service() {
+
+    companion object {
+        private const val TAG = "ScreenCaptureService"
+        private const val CHANNEL_ID = "ScreenCaptureChannel"
+        private const val NOTIFICATION_ID = 2001
+        private const val ACTION_START = "com.bslsjdk.operit.action.SCREEN_CAPTURE_FGS_START"
+
+        @Volatile
+        var isMediaProjectionForegroundReady: Boolean = false
+            private set
+        
+        fun start(context: Context) {
+            isMediaProjectionForegroundReady = false
+            val intent = Intent(context, ScreenCaptureService::class.java).apply {
+                action = ACTION_START
+            }
+            try {
+                context.startService(intent)
+            } catch (_: IllegalStateException) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    context.startForegroundService(intent)
+                } else {
+                    context.startService(intent)
+                }
+            }
+        }
+
+        fun stop(context: Context) {
+            isMediaProjectionForegroundReady = false
+            val intent = Intent(context, ScreenCaptureService::class.java)
+            context.stopService(intent)
+        }
+    }
+
+    override fun onBind(intent: Intent?): IBinder? = null
+
+    override fun onCreate() {
+        super.onCreate()
+        AppLogger.d(TAG, "ScreenCaptureService created")
+        createNotificationChannel()
+    }
+
+    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        AppLogger.d(TAG, "ScreenCaptureService started")
+        if (intent?.action == ACTION_START) {
+            startForegroundService()
+            return START_NOT_STICKY
+        }
+
+        stopSelf()
+        return START_NOT_STICKY
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        isMediaProjectionForegroundReady = false
+        AppLogger.d(TAG, "ScreenCaptureService destroyed")
+    }
+
+    private fun startForegroundService() {
+        try {
+            val notification = createNotification()
+            
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                val serviceType = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                    ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION
+                } else {
+                    ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PROJECTION
+                }
+                startForeground(NOTIFICATION_ID, notification, serviceType)
+            } else {
+                startForeground(NOTIFICATION_ID, notification)
+            }
+
+            isMediaProjectionForegroundReady = true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error starting foreground service", e)
+        }
+    }
+
+    private fun createNotification(): Notification {
+        return NotificationCompat.Builder(this, CHANNEL_ID)
+            .setContentTitle("Screen Capture Active")
+            .setContentText("Operit is capturing screen content")
+            .setSmallIcon(R.drawable.ic_launcher_simple_foreground)
+            .setPriority(NotificationCompat.PRIORITY_LOW)
+            .build()
+    }
+
+    private fun createNotificationChannel() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val serviceChannel = NotificationChannel(
+                CHANNEL_ID,
+                "Screen Capture Service",
+                NotificationManager.IMPORTANCE_LOW
+            )
+            val manager = getSystemService(NotificationManager::class.java)
+            manager.createNotificationChannel(serviceChannel)
+        }
+    }
+}

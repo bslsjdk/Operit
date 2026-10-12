@@ -1,1 +1,428 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLnNoZWxsLlJvb3RTaGVsbEV4ZWN1dG9yCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uU2hlbGxJZGVudGl0eQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuUm9vdENvbW1hbmRFeGVjdXRpb25Nb2RlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5hbmRyb2lkUGVybWlzc2lvblByZWZlcmVuY2VzCmltcG9ydCBjb20udG9wam9obnd1LnN1cGVydXNlci5TaGVsbAppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkJ1ZmZlcmVkUmVhZGVyCmltcG9ydCBqYXZhLmlvLklucHV0U3RyZWFtUmVhZGVyCmltcG9ydCBqYXZhLnV0aWwuY29uY3VycmVudC5Db3B5T25Xcml0ZUFycmF5TGlzdAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwoKLyoqIFJvb3TmnYPpmZDmjojmnYPnrqHnkIblmagg5o+Q5L6b5qOA5p+l6K6+5aSH5piv5ZCmcm9vdOOAgeivt+axgnJvb3TmnYPpmZDnrYnlip/og70gKi8Kb2JqZWN0IFJvb3RBdXRob3JpemVyIHsKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJSb290QXV0aG9yaXplciIKCiAgICAvLyBSb2905omn6KGM5Zmo5a6e5L6LCiAgICBwcml2YXRlIHZhciByb290U2hlbGxFeGVjdXRvcjogUm9vdFNoZWxsRXhlY3V0b3I/ID0gbnVsbAoKICAgIC8vIOeKtuaAgeebkeWQrOWZqOWIl+ihqAogICAgcHJpdmF0ZSB2YWwgc3RhdGVDaGFuZ2VMaXN0ZW5lcnMgPSBDb3B5T25Xcml0ZUFycmF5TGlzdDwoKSAtPiBVbml0PigpCgogICAgLy8gUm9vdOeKtuaAgea1gQogICAgcHJpdmF0ZSB2YWwgX2lzUm9vdGVkID0gTXV0YWJsZVN0YXRlRmxvdyhmYWxzZSkKICAgIHZhbCBpc1Jvb3RlZDogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2lzUm9vdGVkLmFzU3RhdGVGbG93KCkKCiAgICAvLyBSb2906K6/6Zeu5p2D6ZmQ54q25oCB5rWBCiAgICBwcml2YXRlIHZhbCBfaGFzUm9vdEFjY2VzcyA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICB2YWwgaGFzUm9vdEFjY2VzczogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2hhc1Jvb3RBY2Nlc3MuYXNTdGF0ZUZsb3coKQogICAgCiAgICAvLyDmmK/lkKbkvb/nlKhleGVj5omn6KGM5ZG95Luk6ICM5LiN5pivbGlic3UgKOmAgueUqOS6jktlcm5lbFN1562J5oOF5Ya1KQogICAgcHJpdmF0ZSB2YXIgdXNlRXhlY0ZvckNvbW1hbmRzID0gZmFsc2UKCiAgICBwcml2YXRlIGZ1biBub3JtYWxpemVTdUNvbW1hbmQoY29tbWFuZDogU3RyaW5nPyk6IFN0cmluZyB7CiAgICAgICAgdmFsIG5vcm1hbGl6ZWQgPSBjb21tYW5kPy50cmltKCkub3JFbXB0eSgpCiAgICAgICAgcmV0dXJuIG5vcm1hbGl6ZWQuaWZFbXB0eSB7ICJzdSIgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHBhcnNlU3VDb21tYW5kVG9rZW5zKGNvbW1hbmQ6IFN0cmluZyk6IExpc3Q8U3RyaW5nPiB7CiAgICAgICAgcmV0dXJuIG5vcm1hbGl6ZVN1Q29tbWFuZChjb21tYW5kKS5zcGxpdChSZWdleCgiXFxzKyIpKS5maWx0ZXIgeyBpdC5pc05vdEVtcHR5KCkgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGdldENvbmZpZ3VyZWRTdUNvbW1hbmQoKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgbm9ybWFsaXplU3VDb21tYW5kKGFuZHJvaWRQZXJtaXNzaW9uUHJlZmVyZW5jZXMuZ2V0Q3VzdG9tU3VDb21tYW5kKCkpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIuivu+WPluiHquWumuS5iXN15ZG95Luk5aSx6LSl77yM5Zue6YCA6buY6K6kc3UiLCBlKQogICAgICAgICAgICAic3UiCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkU3VFeGVjQ29tbWFuZChjb21tYW5kOiBTdHJpbmcpOiBBcnJheTxTdHJpbmc+IHsKICAgICAgICB2YWwgdG9rZW5zID0gcGFyc2VTdUNvbW1hbmRUb2tlbnMoZ2V0Q29uZmlndXJlZFN1Q29tbWFuZCgpKQogICAgICAgIHJldHVybiAodG9rZW5zICsgbGlzdE9mKCItYyIsIGNvbW1hbmQpKS50b1R5cGVkQXJyYXkoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkU3VWZXJzaW9uQ29tbWFuZCgpOiBBcnJheTxTdHJpbmc+IHsKICAgICAgICB2YWwgdG9rZW5zID0gcGFyc2VTdUNvbW1hbmRUb2tlbnMoZ2V0Q29uZmlndXJlZFN1Q29tbWFuZCgpKQogICAgICAgIHJldHVybiAodG9rZW5zICsgIi0tdmVyc2lvbiIpLnRvVHlwZWRBcnJheSgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZ2V0Um9vdEV4ZWN1dGlvbk1vZGVQcmVmZXJlbmNlKCk6IFJvb3RDb21tYW5kRXhlY3V0aW9uTW9kZSB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIGFuZHJvaWRQZXJtaXNzaW9uUHJlZmVyZW5jZXMuZ2V0Um9vdEV4ZWN1dGlvbk1vZGUoKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICLor7vlj5ZSb2905omn6KGM5qih5byP5YGP5aW95aSx6LSl77yM5Zue6YCA6Ieq5Yqo5qih5byPIiwgZSkKICAgICAgICAgICAgUm9vdENvbW1hbmRFeGVjdXRpb25Nb2RlLkFVVE8KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXBwbHlSb290RXhlY3V0aW9uUHJlZmVyZW5jZXMoKSB7CiAgICAgICAgdmFsIHJvb3RFeGVjdXRpb25Nb2RlID0gZ2V0Um9vdEV4ZWN1dGlvbk1vZGVQcmVmZXJlbmNlKCkKICAgICAgICB2YWwgY3VzdG9tU3VDb21tYW5kID0gaWYgKHJvb3RFeGVjdXRpb25Nb2RlID09IFJvb3RDb21tYW5kRXhlY3V0aW9uTW9kZS5GT1JDRV9FWEVDKSB7CiAgICAgICAgICAgIGdldENvbmZpZ3VyZWRTdUNvbW1hbmQoKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICJzdSIKICAgICAgICB9CiAgICAgICAgcm9vdFNoZWxsRXhlY3V0b3I/LnNldEV4ZWNTdUNvbW1hbmQoY3VzdG9tU3VDb21tYW5kKQogICAgfQogICAgCiAgICAvLyDpnZnmgIHliJ3lp4vljJZsaWJzdQogICAgaW5pdCB7CiAgICAgICAgLy8g56Gu5L+dbGlic3XlhajlsYDorr7nva7lt7LphY3nva4KICAgICAgICB0cnkgewogICAgICAgICAgICAvLyDphY3nva5TaGVsbAogICAgICAgICAgICBTaGVsbC5lbmFibGVWZXJib3NlTG9nZ2luZyA9IHRydWUKICAgICAgICAgICAgU2hlbGwuc2V0RGVmYXVsdEJ1aWxkZXIoU2hlbGwuQnVpbGRlci5jcmVhdGUoKQogICAgICAgICAgICAgICAgLnNldEZsYWdzKFNoZWxsLkZMQUdfTU9VTlRfTUFTVEVSKQogICAgICAgICAgICAgICAgLnNldFRpbWVvdXQoMTApCiAgICAgICAgICAgICkKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAibGlic3UgU2hlbGzlhajlsYDphY3nva7lt7LliJ3lp4vljJYiKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJsaWJzdSBTaGVsbOWFqOWxgOmFjee9ruWIneWni+WMluWksei0pSIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDliJ3lp4vljJZSb2905o6I5p2D5ZmoICovCiAgICBmdW4gaW5pdGlhbGl6ZShjb250ZXh0OiBDb250ZXh0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5Yid5aeL5YyWUm9vdEF1dGhvcml6ZXIuLi4iKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5Yid5aeL5YyWUm9vdOaJp+ihjOWZqAogICAgICAgICAgICBpZiAocm9vdFNoZWxsRXhlY3V0b3IgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgcm9vdFNoZWxsRXhlY3V0b3IgPSBSb290U2hlbGxFeGVjdXRvcihjb250ZXh0KQogICAgICAgICAgICB9CiAgICAgICAgICAgIHJvb3RTaGVsbEV4ZWN1dG9yPy5pbml0aWFsaXplKCkKCiAgICAgICAgICAgIC8vIOajgOafpVJvb3TnirbmgIEKICAgICAgICAgICAgY2hlY2tSb290U3RhdHVzKGNvbnRleHQpCiAgICAgICAgICAgIAogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJSb290QXV0aG9yaXplcuWIneWni+WMluWujOaIkCIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIlJvb3RBdXRob3JpemVy5Yid5aeL5YyW5aSx6LSlIiwgZSkKICAgICAgICAgICAgLy8g6K6+572u6buY6K6k54q25oCBCiAgICAgICAgICAgIF9pc1Jvb3RlZC52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIF9oYXNSb290QWNjZXNzLnZhbHVlID0gZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6Xorr7lpIfmmK/lkKblt7JSb2905Lul5Y+K5bqU55So5piv5ZCm5pyJUm9vdOiuv+mXruadg+mZkAogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIOaYr+WQpuW3suiOt+WPllJvb3TmnYPpmZAKICAgICAqLwogICAgZnVuIGNoZWNrUm9vdFN0YXR1cyhjb250ZXh0OiBDb250ZXh0KTogQm9vbGVhbiB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5qOA5p+lUm9vdOeKtuaAgS4uLiIpCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDnoa7kv51Sb2905omn6KGM5Zmo5bey5Yid5aeL5YyWCiAgICAgICAgICAgIGlmIChyb290U2hlbGxFeGVjdXRvciA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICByb290U2hlbGxFeGVjdXRvciA9IFJvb3RTaGVsbEV4ZWN1dG9yKGNvbnRleHQpCiAgICAgICAgICAgICAgICByb290U2hlbGxFeGVjdXRvcj8uaW5pdGlhbGl6ZSgpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGFwcGx5Um9vdEV4ZWN1dGlvblByZWZlcmVuY2VzKCkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOajgOafpeiuvuWkh+aYr+WQpuW3slJvb3TvvIjln7rkuo7mlofku7bns7vnu5/mo4Dmn6XvvIzkuI3kvp3otZbkuo5TaGVsbOiuv+mXru+8iQogICAgICAgICAgICB2YWwgZGV2aWNlUm9vdGVkID0gaXNEZXZpY2VSb290ZWQoKQogICAgICAgICAgICBfaXNSb290ZWQudmFsdWUgPSBkZXZpY2VSb290ZWQKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi6K6+5aSHUm9vdOeKtuaAgTogJGRldmljZVJvb3RlZCIpCgogICAgICAgICAgICAvLyDlpoLmnpzorr7lpIfmsqHmnIlSb29077yM5YiZ5bqU55So6IKv5a6a5rKh5pyJUm9vdOiuv+mXruadg+mZkAogICAgICAgICAgICBpZiAoIWRldmljZVJvb3RlZCkgewogICAgICAgICAgICAgICAgX2hhc1Jvb3RBY2Nlc3MudmFsdWUgPSBmYWxzZQogICAgICAgICAgICAgICAgbm90aWZ5U3RhdGVDaGFuZ2VkKCkKICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgcm9vdEV4ZWN1dGlvbk1vZGUgPSBnZXRSb290RXhlY3V0aW9uTW9kZVByZWZlcmVuY2UoKQogICAgICAgICAgICB1c2VFeGVjRm9yQ29tbWFuZHMgPSB3aGVuIChyb290RXhlY3V0aW9uTW9kZSkgewogICAgICAgICAgICAgICAgUm9vdENvbW1hbmRFeGVjdXRpb25Nb2RlLkZPUkNFX0VYRUMgLT4gdHJ1ZQogICAgICAgICAgICAgICAgUm9vdENvbW1hbmRFeGVjdXRpb25Nb2RlLkZPUkNFX0xJQlNVIC0+IGZhbHNlCiAgICAgICAgICAgICAgICBSb290Q29tbWFuZEV4ZWN1dGlvbk1vZGUuQVVUTyAtPiB1c2VFeGVjRm9yQ29tbWFuZHMKICAgICAgICAgICAgfQoKICAgICAgICAgICAgcm9vdFNoZWxsRXhlY3V0b3I/LnNldFVzZUV4ZWNNb2RlKHVzZUV4ZWNGb3JDb21tYW5kcykKCiAgICAgICAgICAgIC8vIOajgOafpeW6lOeUqOaYr+WQpuaciVJvb3Torr/pl67mnYPpmZAKICAgICAgICAgICAgdmFsIGhhc0FjY2VzcyA9IHJvb3RTaGVsbEV4ZWN1dG9yPy5pc0F2YWlsYWJsZSgpID86IGZhbHNlCiAgICAgICAgICAgIAogICAgICAgICAgICBfaGFzUm9vdEFjY2Vzcy52YWx1ZSA9IGhhc0FjY2VzcwogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlupTnlKhSb2906K6/6Zeu5p2D6ZmQOiAkaGFzQWNjZXNz77yM5L2/55SoZXhlY+aooeW8jzogJHVzZUV4ZWNGb3JDb21tYW5kcyIpCgogICAgICAgICAgICAvLyDpgJrnn6XnirbmgIHlj5jmm7QKICAgICAgICAgICAgbm90aWZ5U3RhdGVDaGFuZ2VkKCkKCiAgICAgICAgICAgIHJldHVybiBoYXNBY2Nlc3MKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5qOA5p+lUm9vdOeKtuaAgeaXtuWHuumUmSIsIGUpCiAgICAgICAgICAgIF9pc1Jvb3RlZC52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIF9oYXNSb290QWNjZXNzLnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgbm90aWZ5U3RhdGVDaGFuZ2VkKCkKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5Yik5pat6K6+5aSH5piv5ZCm5beyUm9vdO+8iOS4jeS4gOWumuaEj+WRs+edgOW6lOeUqOaciVJvb3TmnYPpmZDvvIkKICAgICAqIOS9v+eUqOWkmuenjeaWueazleajgOa1i+iuvuWkh+aYr+WQplJvb3QKICAgICAqIEByZXR1cm4g6K6+5aSH5piv5ZCm5beyUm9vdAogICAgICovCiAgICBmdW4gaXNEZXZpY2VSb290ZWQoKTogQm9vbGVhbiB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5qOA5p+l6K6+5aSH5piv5ZCm5beyUm9vdC4uLiIpCiAgICAgICAgICAgIHZhbCByb290RXhlY3V0aW9uTW9kZSA9IGdldFJvb3RFeGVjdXRpb25Nb2RlUHJlZmVyZW5jZSgpCgogICAgICAgICAgICBpZiAocm9vdEV4ZWN1dGlvbk1vZGUgPT0gUm9vdENvbW1hbmRFeGVjdXRpb25Nb2RlLkZPUkNFX0VYRUMpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIlJvb3TmiafooYzmqKHlvI/lt7LmiYvliqjorr7kuLpleGVj77yM6Lez6L+HbGlic3Xoh6rliqjmo4DmtYsiKQogICAgICAgICAgICAgICAgdXNlRXhlY0ZvckNvbW1hbmRzID0gdHJ1ZQogICAgICAgICAgICAgICAgaWYgKGNoZWNrRXhlY1N1QWNjZXNzKCkpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDmlrnms5UxOiDkvb/nlKhsaWJzdeajgOa1iwogICAgICAgICAgICBpZiAocm9vdEV4ZWN1dGlvbk1vZGUgIT0gUm9vdENvbW1hbmRFeGVjdXRpb25Nb2RlLkZPUkNFX0VYRUMpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGlzUm9vdCA9IFNoZWxsLmlzQXBwR3JhbnRlZFJvb3QoKSA/OiBmYWxzZQogICAgICAgICAgICAgICAgICAgIGlmIChpc1Jvb3QpIHsKICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAibGlic3Xmo4DmtYvliLDorr7lpIflt7JSb2905bm25o6I5LqI5bqU55So5p2D6ZmQIikKICAgICAgICAgICAgICAgICAgICAgICAgdXNlRXhlY0ZvckNvbW1hbmRzID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJsaWJzdeajgOa1i1Jvb3TlpLHotKU6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOaWueazlTI6IOajgOafpUtlcm5lbFNVCiAgICAgICAgICAgIGlmIChyb290RXhlY3V0aW9uTW9kZSAhPSBSb290Q29tbWFuZEV4ZWN1dGlvbk1vZGUuRk9SQ0VfTElCU1UgJiYgY2hlY2tLZXJuZWxTdSgpKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLmo4DmtYvliLBLZXJuZWxTVe+8jOiuvuWkh+W3slJvb3QiKQogICAgICAgICAgICAgICAgdXNlRXhlY0ZvckNvbW1hbmRzID0gdHJ1ZQogICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5pa55rOVMzog5qOA5p+l5bi46KeB55qEc3Xot6/lvoQKICAgICAgICAgICAgdmFsIHN1UGF0aHMgPSBhcnJheU9mKAogICAgICAgICAgICAgICAgIi9zeXN0ZW0vYmluL3N1IiwgCiAgICAgICAgICAgICAgICAiL3N5c3RlbS94YmluL3N1IiwgCiAgICAgICAgICAgICAgICAiL3NiaW4vc3UiLCAKICAgICAgICAgICAgICAgICIvc3lzdGVtL2FwcC9TdXBlcnVzZXIuYXBrIiwgCiAgICAgICAgICAgICAgICAiL3N5c3RlbS9hcHAvU3VwZXJTVS5hcGsiCiAgICAgICAgICAgICkKICAgICAgICAgICAgCiAgICAgICAgICAgIGZvciAocGF0aCBpbiBzdVBhdGhzKSB7CiAgICAgICAgICAgICAgICBpZiAoRmlsZShwYXRoKS5leGlzdHMoKSkgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuWPkeeOsHN15paH5Lu2OiAkcGF0aCIpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5pa55rOVNDog5qOA5p+l5piv5ZCm5Y+v5Lul5omn6KGMc3Xlkb3ku6QKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBwcm9jZXNzID0gUnVudGltZS5nZXRSdW50aW1lKCkuZXhlYyhhcnJheU9mKCJ3aGljaCIsICJzdSIpKQogICAgICAgICAgICAgICAgdmFsIGV4aXRDb2RlID0gcHJvY2Vzcy53YWl0Rm9yKCkKICAgICAgICAgICAgICAgIGlmIChleGl0Q29kZSA9PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAic3Xlkb3ku6Tlj6/nlKjvvIzorr7lpIflt7JSb290IikKICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuajgOafpXN15ZG95Luk5aSx6LSlOiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDlpoLmnpzmiYDmnInmlrnms5Xpg73lpLHotKXvvIzliJnorqTkuLrorr7lpIfmnKpSb290CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuiuvuWkh+acquajgOa1i+WIsFJvb3QiKQogICAgICAgICAgICB1c2VFeGVjRm9yQ29tbWFuZHMgPSBmYWxzZQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5qOA5p+l6K6+5aSHUm9vdOeKtuaAgeaXtuWHuumUmSIsIGUpCiAgICAgICAgICAgIHVzZUV4ZWNGb3JDb21tYW5kcyA9IGZhbHNlCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmo4Dmn6XmmK/lkKbmmK9LZXJuZWxTVQogICAgICogQHJldHVybiDmmK/lkKbmo4DmtYvliLBLZXJuZWxTVQogICAgICovCiAgICBwcml2YXRlIGZ1biBjaGVja0tlcm5lbFN1KCk6IEJvb2xlYW4gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuajgOafpUtlcm5lbFNVLi4uIikKCiAgICAgICAgICAgIC8vIOaJp+ihjHN1IC0tdmVyc2lvbuWRveS7pAogICAgICAgICAgICB2YWwgcHJvY2VzcyA9IFJ1bnRpbWUuZ2V0UnVudGltZSgpLmV4ZWMoYnVpbGRTdVZlcnNpb25Db21tYW5kKCkpCiAgICAgICAgICAgIHZhbCByZWFkZXIgPSBCdWZmZXJlZFJlYWRlcihJbnB1dFN0cmVhbVJlYWRlcihwcm9jZXNzLmlucHV0U3RyZWFtKSkKICAgICAgICAgICAgdmFsIG91dHB1dCA9IFN0cmluZ0J1aWxkZXIoKQogICAgICAgICAgICB2YXIgbGluZTogU3RyaW5nPwogICAgICAgICAgICAKICAgICAgICAgICAgd2hpbGUgKHJlYWRlci5yZWFkTGluZSgpLmFsc28geyBsaW5lID0gaXQgfSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGxpbmUpLmFwcGVuZCgiXG4iKQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgZXhpdENvZGUgPSBwcm9jZXNzLndhaXRGb3IoKQogICAgICAgICAgICB2YWwgcmVzdWx0ID0gb3V0cHV0LnRvU3RyaW5nKCkudHJpbSgpCiAgICAgICAgICAgIAogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJzdSAtLXZlcnNpb27ovpPlh7o6ICRyZXN1bHQgKOmAgOWHuueggTogJGV4aXRDb2RlKSIpCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDmo4Dmn6XovpPlh7rmmK/lkKbljIXlkKtLZXJuZWxTVQogICAgICAgICAgICB2YWwgaXNLZXJuZWxTdSA9IHJlc3VsdC5jb250YWlucygiS2VybmVsU1UiLCBpZ25vcmVDYXNlID0gdHJ1ZSkKICAgICAgICAgICAgaWYgKGlzS2VybmVsU3UpIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuajgOa1i+WIsEtlcm5lbFNVIikKICAgICAgICAgICAgICAgIHVzZUV4ZWNGb3JDb21tYW5kcyA9IHRydWUKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgcmV0dXJuIGlzS2VybmVsU3UgfHwgZXhpdENvZGUgPT0gMAogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLmo4Dmn6VLZXJuZWxTVeWksei0pTogJHtlLm1lc3NhZ2V9IikKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIOajgOafpemAmui/h2V4ZWPmlrnlvI/miafooYxzdeWRveS7pOaYr+WQpuWPr+ihjAogICAgICogQHJldHVybiDmmK/lkKblj6/ku6Xkvb/nlKhleGVj5omn6KGMc3Xlkb3ku6QKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gY2hlY2tFeGVjU3VBY2Nlc3MoKTogQm9vbGVhbiB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5qOA5p+lZXhlYyBzdeiuv+mXruadg+mZkC4uLiIpCgogICAgICAgICAgICAvLyDmiafooYzkuIDkuKrnroDljZXnmoTmtYvor5Xlkb3ku6QKICAgICAgICAgICAgdmFsIHByb2Nlc3MgPSBSdW50aW1lLmdldFJ1bnRpbWUoKS5leGVjKGJ1aWxkU3VFeGVjQ29tbWFuZCgiZWNobyBzdWNjZXNzIikpCiAgICAgICAgICAgIHZhbCByZWFkZXIgPSBCdWZmZXJlZFJlYWRlcihJbnB1dFN0cmVhbVJlYWRlcihwcm9jZXNzLmlucHV0U3RyZWFtKSkKICAgICAgICAgICAgdmFsIG91dHB1dCA9IFN0cmluZ0J1aWxkZXIoKQogICAgICAgICAgICB2YXIgbGluZTogU3RyaW5nPwogICAgICAgICAgICAKICAgICAgICAgICAgd2hpbGUgKHJlYWRlci5yZWFkTGluZSgpLmFsc28geyBsaW5lID0gaXQgfSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGxpbmUpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHZhbCBleGl0Q29kZSA9IHByb2Nlc3Mud2FpdEZvcigpCiAgICAgICAgICAgIHZhbCByZXN1bHQgPSBvdXRwdXQudG9TdHJpbmcoKS50cmltKCkKICAgICAgICAgICAgCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgImV4ZWMgc3XmtYvor5Xnu5Pmnpw6ICRyZXN1bHQgKOmAgOWHuueggTogJGV4aXRDb2RlKSIpCiAgICAgICAgICAgIAogICAgICAgICAgICByZXR1cm4gcmVzdWx0ID09ICJzdWNjZXNzIiAmJiBleGl0Q29kZSA9PSAwCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuajgOafpWV4ZWMgc3Xorr/pl67mnYPpmZDlpLHotKUiLCBlKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDor7fmsYJSb2905p2D6ZmQ77yI5bCd6K+V6I635Y+Wc3XmnYPpmZDvvIkKICAgICAqIOazqOaEj++8mui/meWwhuinpuWPkVJvb3TnrqHnkIblupTnlKjnmoTmnYPpmZDmjojkuojlvLnnqpfvvIjlpoJNYWdpc2vjgIFTdXBlclNV562J77yJCiAgICAgKiBAcGFyYW0gb25SZXN1bHQg6K+35rGC57uT5p6c5Zue6LCDCiAgICAgKi8KICAgIGZ1biByZXF1ZXN0Um9vdFBlcm1pc3Npb24ob25SZXN1bHQ6IChCb29sZWFuKSAtPiBVbml0KSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5q2j5Zyo6K+35rGCUm9vdOadg+mZkC4uLiIpCgogICAgICAgICAgICAvLyDlpoLmnpzkvb/nlKhleGVj5qih5byP77yM5bCd6K+V6YCa6L+HZXhlY+ivt+axguadg+mZkAogICAgICAgICAgICBpZiAodXNlRXhlY0ZvckNvbW1hbmRzKSB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHZhbCBwcm9jZXNzID0gUnVudGltZS5nZXRSdW50aW1lKCkuZXhlYyhidWlsZFN1RXhlY0NvbW1hbmQoImVjaG8gZ3JhbnRlZCIpKQogICAgICAgICAgICAgICAgICAgIHZhbCByZWFkZXIgPSBCdWZmZXJlZFJlYWRlcihJbnB1dFN0cmVhbVJlYWRlcihwcm9jZXNzLmlucHV0U3RyZWFtKSkKICAgICAgICAgICAgICAgICAgICB2YWwgcmVzdWx0ID0gcmVhZGVyLnJlYWRMaW5lKCkKICAgICAgICAgICAgICAgICAgICB2YWwgZXhpdENvZGUgPSBwcm9jZXNzLndhaXRGb3IoKQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIHZhbCBncmFudGVkID0gcmVzdWx0ID09ICJncmFudGVkIiAmJiBleGl0Q29kZSA9PSAwCiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi6YCa6L+HZXhlY+ivt+axglJvb3TmnYPpmZDnu5Pmnpw6ICR7aWYgKGdyYW50ZWQpICLlt7LmjojkuogiIGVsc2UgIuW3suaLkue7nSJ9IikKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBfaGFzUm9vdEFjY2Vzcy52YWx1ZSA9IGdyYW50ZWQKICAgICAgICAgICAgICAgICAgICBpZiAoZ3JhbnRlZCkgewogICAgICAgICAgICAgICAgICAgICAgICBfaXNSb290ZWQudmFsdWUgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIG5vdGlmeVN0YXRlQ2hhbmdlZCgpCiAgICAgICAgICAgICAgICAgICAgb25SZXN1bHQoZ3JhbnRlZCkKICAgICAgICAgICAgICAgICAgICByZXR1cm4KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIumAmui/h2V4ZWPor7fmsYJSb2905p2D6ZmQ5aSx6LSlIiwgZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8g5L2/55SobGlic3Xnm7TmjqXor7fmsYJyb2905p2D6ZmQCiAgICAgICAgICAgIFNoZWxsLmdldFNoZWxsIHsgc2hlbGwgLT4KICAgICAgICAgICAgICAgIHZhbCBncmFudGVkID0gc2hlbGwuaXNSb290CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJSb2905p2D6ZmQ6K+35rGC57uT5p6cOiAke2lmIChncmFudGVkKSAi5bey5o6I5LqIIiBlbHNlICLlt7Lmi5Lnu50ifSIpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIC8vIOabtOaWsOeKtuaAgQogICAgICAgICAgICAgICAgX2hhc1Jvb3RBY2Nlc3MudmFsdWUgPSBncmFudGVkCiAgICAgICAgICAgICAgICBpZiAoZ3JhbnRlZCkgewogICAgICAgICAgICAgICAgICAgIF9pc1Jvb3RlZC52YWx1ZSA9IHRydWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g6YCa55+l54q25oCB5Y+Y5pu0CiAgICAgICAgICAgICAgICBub3RpZnlTdGF0ZUNoYW5nZWQoKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDlm57osIPnu5PmnpwKICAgICAgICAgICAgICAgIG9uUmVzdWx0KGdyYW50ZWQpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi6K+35rGCUm9vdOadg+mZkOaXtuWHuumUmSIsIGUpCiAgICAgICAgICAgIG9uUmVzdWx0KGZhbHNlKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOaJp+ihjFJvb3Tlkb3ku6QKICAgICAqIEBwYXJhbSBjb21tYW5kIOimgeaJp+ihjOeahOWRveS7pAogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIOWRveS7pOaJp+ihjOe7k+aenAogICAgICovCiAgICBzdXNwZW5kIGZ1biBleGVjdXRlUm9vdENvbW1hbmQoY29tbWFuZDogU3RyaW5nLCBjb250ZXh0OiBDb250ZXh0KTogUGFpcjxCb29sZWFuLCBTdHJpbmc+IHsKICAgICAgICB0cnkgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLmiafooYxSb2905ZG95LukOiAkY29tbWFuZCIpCgogICAgICAgICAgICAvLyDmo4Dmn6VSb2905omn6KGM5Zmo5piv5ZCm5Y+v55SoCiAgICAgICAgICAgIGlmIChyb290U2hlbGxFeGVjdXRvciA9PSBudWxsIHx8ICFfaGFzUm9vdEFjY2Vzcy52YWx1ZSkgewogICAgICAgICAgICAgICAgcmV0dXJuIFBhaXIoZmFsc2UsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnJvb3RfYXV0aG9yaXplcl9ub3RfaW5pdGlhbGl6ZWQpKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDkvb/nlKhSb2905omn6KGM5Zmo5omn6KGM5ZG95Luk77yI5LulUk9PVOi6q+S7ve+8iQogICAgICAgICAgICB2YWwgcmVzdWx0ID0gcm9vdFNoZWxsRXhlY3V0b3IhIS5leGVjdXRlQ29tbWFuZChjb21tYW5kLCBTaGVsbElkZW50aXR5LlJPT1QpCiAgICAgICAgICAgIHJldHVybiBQYWlyKHJlc3VsdC5zdWNjZXNzLCBpZiAocmVzdWx0LnN1Y2Nlc3MpIHJlc3VsdC5zdGRvdXQgZWxzZSByZXN1bHQuc3RkZXJyKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLmiafooYxSb2905ZG95Luk5pe25Ye66ZSZIiwgZSkKICAgICAgICAgICAgcmV0dXJuIFBhaXIoZmFsc2UsIGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnJvb3RfYXV0aG9yaXplcl9leGVjdXRlX2Vycm9yLCBlLm1lc3NhZ2UgPzogIiIpKQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOa3u+WKoOeKtuaAgeWPmOabtOebkeWQrOWZqAogICAgICogQHBhcmFtIGxpc3RlbmVyIOeKtuaAgeWPmOabtOebkeWQrOWZqAogICAgICovCiAgICBmdW4gYWRkU3RhdGVDaGFuZ2VMaXN0ZW5lcihsaXN0ZW5lcjogKCkgLT4gVW5pdCkgewogICAgICAgIHN0YXRlQ2hhbmdlTGlzdGVuZXJzLmFkZChsaXN0ZW5lcikKICAgIH0KCiAgICAvKioKICAgICAqIOenu+mZpOeKtuaAgeWPmOabtOebkeWQrOWZqAogICAgICogQHBhcmFtIGxpc3RlbmVyIOeKtuaAgeWPmOabtOebkeWQrOWZqAogICAgICovCiAgICBmdW4gcmVtb3ZlU3RhdGVDaGFuZ2VMaXN0ZW5lcihsaXN0ZW5lcjogKCkgLT4gVW5pdCkgewogICAgICAgIHN0YXRlQ2hhbmdlTGlzdGVuZXJzLnJlbW92ZShsaXN0ZW5lcikKICAgIH0KCiAgICAvKiog6YCa55+l5omA5pyJ55uR5ZCs5Zmo54q25oCB5bey5Y+Y5pu0ICovCiAgICBwcml2YXRlIGZ1biBub3RpZnlTdGF0ZUNoYW5nZWQoKSB7CiAgICAgICAgc3RhdGVDaGFuZ2VMaXN0ZW5lcnMuZm9yRWFjaCB7IGl0Lmludm9rZSgpIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.system
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.tools.system.shell.RootShellExecutor
+import com.bslsjdk.operit.core.tools.system.ShellIdentity
+import com.bslsjdk.operit.data.preferences.RootCommandExecutionMode
+import com.bslsjdk.operit.data.preferences.androidPermissionPreferences
+import com.topjohnwu.superuser.Shell
+import java.io.File
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.util.concurrent.CopyOnWriteArrayList
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+/** Root权限授权管理器 提供检查设备是否root、请求root权限等功能 */
+object RootAuthorizer {
+    private const val TAG = "RootAuthorizer"
+
+    // Root执行器实例
+    private var rootShellExecutor: RootShellExecutor? = null
+
+    // 状态监听器列表
+    private val stateChangeListeners = CopyOnWriteArrayList<() -> Unit>()
+
+    // Root状态流
+    private val _isRooted = MutableStateFlow(false)
+    val isRooted: StateFlow<Boolean> = _isRooted.asStateFlow()
+
+    // Root访问权限状态流
+    private val _hasRootAccess = MutableStateFlow(false)
+    val hasRootAccess: StateFlow<Boolean> = _hasRootAccess.asStateFlow()
+    
+    // 是否使用exec执行命令而不是libsu (适用于KernelSu等情况)
+    private var useExecForCommands = false
+
+    private fun normalizeSuCommand(command: String?): String {
+        val normalized = command?.trim().orEmpty()
+        return normalized.ifEmpty { "su" }
+    }
+
+    private fun parseSuCommandTokens(command: String): List<String> {
+        return normalizeSuCommand(command).split(Regex("\\s+")).filter { it.isNotEmpty() }
+    }
+
+    private fun getConfiguredSuCommand(): String {
+        return try {
+            normalizeSuCommand(androidPermissionPreferences.getCustomSuCommand())
+        } catch (e: Exception) {
+            AppLogger.w(TAG, "读取自定义su命令失败，回退默认su", e)
+            "su"
+        }
+    }
+
+    private fun buildSuExecCommand(command: String): Array<String> {
+        val tokens = parseSuCommandTokens(getConfiguredSuCommand())
+        return (tokens + listOf("-c", command)).toTypedArray()
+    }
+
+    private fun buildSuVersionCommand(): Array<String> {
+        val tokens = parseSuCommandTokens(getConfiguredSuCommand())
+        return (tokens + "--version").toTypedArray()
+    }
+
+    private fun getRootExecutionModePreference(): RootCommandExecutionMode {
+        return try {
+            androidPermissionPreferences.getRootExecutionMode()
+        } catch (e: Exception) {
+            AppLogger.w(TAG, "读取Root执行模式偏好失败，回退自动模式", e)
+            RootCommandExecutionMode.AUTO
+        }
+    }
+
+    private fun applyRootExecutionPreferences() {
+        val rootExecutionMode = getRootExecutionModePreference()
+        val customSuCommand = if (rootExecutionMode == RootCommandExecutionMode.FORCE_EXEC) {
+            getConfiguredSuCommand()
+        } else {
+            "su"
+        }
+        rootShellExecutor?.setExecSuCommand(customSuCommand)
+    }
+    
+    // 静态初始化libsu
+    init {
+        // 确保libsu全局设置已配置
+        try {
+            // 配置Shell
+            Shell.enableVerboseLogging = true
+            Shell.setDefaultBuilder(Shell.Builder.create()
+                .setFlags(Shell.FLAG_MOUNT_MASTER)
+                .setTimeout(10)
+            )
+            AppLogger.d(TAG, "libsu Shell全局配置已初始化")
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "libsu Shell全局配置初始化失败", e)
+        }
+    }
+
+    /** 初始化Root授权器 */
+    fun initialize(context: Context) {
+        try {
+            AppLogger.d(TAG, "初始化RootAuthorizer...")
+            
+            // 初始化Root执行器
+            if (rootShellExecutor == null) {
+                rootShellExecutor = RootShellExecutor(context)
+            }
+            rootShellExecutor?.initialize()
+
+            // 检查Root状态
+            checkRootStatus(context)
+            
+            AppLogger.d(TAG, "RootAuthorizer初始化完成")
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "RootAuthorizer初始化失败", e)
+            // 设置默认状态
+            _isRooted.value = false
+            _hasRootAccess.value = false
+        }
+    }
+
+    /**
+     * 检查设备是否已Root以及应用是否有Root访问权限
+     * @param context 应用上下文
+     * @return 是否已获取Root权限
+     */
+    fun checkRootStatus(context: Context): Boolean {
+        try {
+            AppLogger.d(TAG, "检查Root状态...")
+            
+            // 确保Root执行器已初始化
+            if (rootShellExecutor == null) {
+                rootShellExecutor = RootShellExecutor(context)
+                rootShellExecutor?.initialize()
+            }
+
+            applyRootExecutionPreferences()
+            
+            // 检查设备是否已Root（基于文件系统检查，不依赖于Shell访问）
+            val deviceRooted = isDeviceRooted()
+            _isRooted.value = deviceRooted
+            AppLogger.d(TAG, "设备Root状态: $deviceRooted")
+
+            // 如果设备没有Root，则应用肯定没有Root访问权限
+            if (!deviceRooted) {
+                _hasRootAccess.value = false
+                notifyStateChanged()
+                return false
+            }
+
+            val rootExecutionMode = getRootExecutionModePreference()
+            useExecForCommands = when (rootExecutionMode) {
+                RootCommandExecutionMode.FORCE_EXEC -> true
+                RootCommandExecutionMode.FORCE_LIBSU -> false
+                RootCommandExecutionMode.AUTO -> useExecForCommands
+            }
+
+            rootShellExecutor?.setUseExecMode(useExecForCommands)
+
+            // 检查应用是否有Root访问权限
+            val hasAccess = rootShellExecutor?.isAvailable() ?: false
+            
+            _hasRootAccess.value = hasAccess
+            AppLogger.d(TAG, "应用Root访问权限: $hasAccess，使用exec模式: $useExecForCommands")
+
+            // 通知状态变更
+            notifyStateChanged()
+
+            return hasAccess
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "检查Root状态时出错", e)
+            _isRooted.value = false
+            _hasRootAccess.value = false
+            notifyStateChanged()
+            return false
+        }
+    }
+
+    /**
+     * 判断设备是否已Root（不一定意味着应用有Root权限）
+     * 使用多种方法检测设备是否Root
+     * @return 设备是否已Root
+     */
+    fun isDeviceRooted(): Boolean {
+        try {
+            AppLogger.d(TAG, "检查设备是否已Root...")
+            val rootExecutionMode = getRootExecutionModePreference()
+
+            if (rootExecutionMode == RootCommandExecutionMode.FORCE_EXEC) {
+                AppLogger.d(TAG, "Root执行模式已手动设为exec，跳过libsu自动检测")
+                useExecForCommands = true
+                if (checkExecSuAccess()) {
+                    return true
+                }
+            }
+
+            // 方法1: 使用libsu检测
+            if (rootExecutionMode != RootCommandExecutionMode.FORCE_EXEC) {
+                try {
+                    val isRoot = Shell.isAppGrantedRoot() ?: false
+                    if (isRoot) {
+                        AppLogger.d(TAG, "libsu检测到设备已Root并授予应用权限")
+                        useExecForCommands = false
+                        return true
+                    }
+                } catch (e: Exception) {
+                    AppLogger.d(TAG, "libsu检测Root失败: ${e.message}")
+                }
+            }
+
+            // 方法2: 检查KernelSU
+            if (rootExecutionMode != RootCommandExecutionMode.FORCE_LIBSU && checkKernelSu()) {
+                AppLogger.d(TAG, "检测到KernelSU，设备已Root")
+                useExecForCommands = true
+                return true
+            }
+            
+            // 方法3: 检查常见的su路径
+            val suPaths = arrayOf(
+                "/system/bin/su", 
+                "/system/xbin/su", 
+                "/sbin/su", 
+                "/system/app/Superuser.apk", 
+                "/system/app/SuperSU.apk"
+            )
+            
+            for (path in suPaths) {
+                if (File(path).exists()) {
+                    AppLogger.d(TAG, "发现su文件: $path")
+                    return true
+                }
+            }
+            
+            // 方法4: 检查是否可以执行su命令
+            try {
+                val process = Runtime.getRuntime().exec(arrayOf("which", "su"))
+                val exitCode = process.waitFor()
+                if (exitCode == 0) {
+                    AppLogger.d(TAG, "su命令可用，设备已Root")
+                    return true
+                }
+            } catch (e: Exception) {
+                AppLogger.d(TAG, "检查su命令失败: ${e.message}")
+            }
+            
+            // 如果所有方法都失败，则认为设备未Root
+            AppLogger.d(TAG, "设备未检测到Root")
+            useExecForCommands = false
+            return false
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "检查设备Root状态时出错", e)
+            useExecForCommands = false
+            return false
+        }
+    }
+    
+    /**
+     * 检查是否是KernelSU
+     * @return 是否检测到KernelSU
+     */
+    private fun checkKernelSu(): Boolean {
+        try {
+            AppLogger.d(TAG, "检查KernelSU...")
+
+            // 执行su --version命令
+            val process = Runtime.getRuntime().exec(buildSuVersionCommand())
+            val reader = BufferedReader(InputStreamReader(process.inputStream))
+            val output = StringBuilder()
+            var line: String?
+            
+            while (reader.readLine().also { line = it } != null) {
+                output.append(line).append("\n")
+            }
+            
+            val exitCode = process.waitFor()
+            val result = output.toString().trim()
+            
+            AppLogger.d(TAG, "su --version输出: $result (退出码: $exitCode)")
+            
+            // 检查输出是否包含KernelSU
+            val isKernelSu = result.contains("KernelSU", ignoreCase = true)
+            if (isKernelSu) {
+                AppLogger.d(TAG, "检测到KernelSU")
+                useExecForCommands = true
+            }
+            
+            return isKernelSu || exitCode == 0
+        } catch (e: Exception) {
+            AppLogger.d(TAG, "检查KernelSU失败: ${e.message}")
+            return false
+        }
+    }
+    
+    /**
+     * 检查通过exec方式执行su命令是否可行
+     * @return 是否可以使用exec执行su命令
+     */
+    private fun checkExecSuAccess(): Boolean {
+        try {
+            AppLogger.d(TAG, "检查exec su访问权限...")
+
+            // 执行一个简单的测试命令
+            val process = Runtime.getRuntime().exec(buildSuExecCommand("echo success"))
+            val reader = BufferedReader(InputStreamReader(process.inputStream))
+            val output = StringBuilder()
+            var line: String?
+            
+            while (reader.readLine().also { line = it } != null) {
+                output.append(line)
+            }
+            
+            val exitCode = process.waitFor()
+            val result = output.toString().trim()
+            
+            AppLogger.d(TAG, "exec su测试结果: $result (退出码: $exitCode)")
+            
+            return result == "success" && exitCode == 0
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "检查exec su访问权限失败", e)
+            return false
+        }
+    }
+
+    /**
+     * 请求Root权限（尝试获取su权限）
+     * 注意：这将触发Root管理应用的权限授予弹窗（如Magisk、SuperSU等）
+     * @param onResult 请求结果回调
+     */
+    fun requestRootPermission(onResult: (Boolean) -> Unit) {
+        try {
+            AppLogger.d(TAG, "正在请求Root权限...")
+
+            // 如果使用exec模式，尝试通过exec请求权限
+            if (useExecForCommands) {
+                try {
+                    val process = Runtime.getRuntime().exec(buildSuExecCommand("echo granted"))
+                    val reader = BufferedReader(InputStreamReader(process.inputStream))
+                    val result = reader.readLine()
+                    val exitCode = process.waitFor()
+                    
+                    val granted = result == "granted" && exitCode == 0
+                    AppLogger.d(TAG, "通过exec请求Root权限结果: ${if (granted) "已授予" else "已拒绝"}")
+                    
+                    _hasRootAccess.value = granted
+                    if (granted) {
+                        _isRooted.value = true
+                    }
+                    
+                    notifyStateChanged()
+                    onResult(granted)
+                    return
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "通过exec请求Root权限失败", e)
+                }
+            }
+
+            // 使用libsu直接请求root权限
+            Shell.getShell { shell ->
+                val granted = shell.isRoot
+                AppLogger.d(TAG, "Root权限请求结果: ${if (granted) "已授予" else "已拒绝"}")
+                
+                // 更新状态
+                _hasRootAccess.value = granted
+                if (granted) {
+                    _isRooted.value = true
+                }
+                
+                // 通知状态变更
+                notifyStateChanged()
+                
+                // 回调结果
+                onResult(granted)
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "请求Root权限时出错", e)
+            onResult(false)
+        }
+    }
+
+    /**
+     * 执行Root命令
+     * @param command 要执行的命令
+     * @param context 应用上下文
+     * @return 命令执行结果
+     */
+    suspend fun executeRootCommand(command: String, context: Context): Pair<Boolean, String> {
+        try {
+            AppLogger.d(TAG, "执行Root命令: $command")
+
+            // 检查Root执行器是否可用
+            if (rootShellExecutor == null || !_hasRootAccess.value) {
+                return Pair(false, context.getString(R.string.root_authorizer_not_initialized))
+            }
+
+            // 使用Root执行器执行命令（以ROOT身份）
+            val result = rootShellExecutor!!.executeCommand(command, ShellIdentity.ROOT)
+            return Pair(result.success, if (result.success) result.stdout else result.stderr)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "执行Root命令时出错", e)
+            return Pair(false, context.getString(R.string.root_authorizer_execute_error, e.message ?: ""))
+        }
+    }
+
+    /**
+     * 添加状态变更监听器
+     * @param listener 状态变更监听器
+     */
+    fun addStateChangeListener(listener: () -> Unit) {
+        stateChangeListeners.add(listener)
+    }
+
+    /**
+     * 移除状态变更监听器
+     * @param listener 状态变更监听器
+     */
+    fun removeStateChangeListener(listener: () -> Unit) {
+        stateChangeListeners.remove(listener)
+    }
+
+    /** 通知所有监听器状态已变更 */
+    private fun notifyStateChanged() {
+        stateChangeListeners.forEach { it.invoke() }
+    }
+}

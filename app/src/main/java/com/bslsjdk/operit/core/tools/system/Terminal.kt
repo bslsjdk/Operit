@@ -1,1 +1,204 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0KCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBhbmRyb2lkeC5hbm5vdGF0aW9uLlJlcXVpcmVzQXBpCmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5vcGVyaXQudGVybWluYWwuQ29tbWFuZEV4ZWN1dGlvbkV2ZW50CmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5vcGVyaXQudGVybWluYWwuU2Vzc2lvbkRpcmVjdG9yeUV2ZW50CmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5vcGVyaXQudGVybWluYWwuVGVybWluYWxNYW5hZ2VyCmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5vcGVyaXQudGVybWluYWwuZGF0YS5UZXJtaW5hbFN0YXRlCmltcG9ydCBjb20uYWkuYXNzaXN0YW5jZS5vcGVyaXQudGVybWluYWwucHJvdmlkZXIudHlwZS5IaWRkZW5FeGVjUmVzdWx0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29tcGxldGFibGVEZWZlcnJlZAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlNoYXJlZEZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmlsdGVyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy50cmFuc2Zvcm1XaGlsZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cub25TdGFydAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuY2hhbm5lbEZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmNvbGxlY3QKaW1wb3J0IGphdmEudXRpbC5VVUlECgovKioKICog57uI56uv566h55CG5ZmoCiAqIOaPkOS+m+W6lOeUqOeoi+W6j+e6p+WIq+eahOe7iOerr+acjeWKoeeuoeeQhuWSjOiuv+mXrgogKi8KQFJlcXVpcmVzQXBpKEJ1aWxkLlZFUlNJT05fQ09ERVMuTykKY2xhc3MgVGVybWluYWwgcHJpdmF0ZSBjb25zdHJ1Y3Rvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgSU5TVEFOQ0U6IFRlcm1pbmFsPyA9IG51bGwKCiAgICAgICAgZnVuIGdldEluc3RhbmNlKGNvbnRleHQ6IENvbnRleHQpOiBUZXJtaW5hbCB7CiAgICAgICAgICAgIHJldHVybiBJTlNUQU5DRSA/OiBzeW5jaHJvbml6ZWQodGhpcykgewogICAgICAgICAgICAgICAgSU5TVEFOQ0UgPzogVGVybWluYWwoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpLmFsc28geyBJTlNUQU5DRSA9IGl0IH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIlRlcm1pbmFsIgogICAgfQoKICAgIHByaXZhdGUgdmFsIHRlcm1pbmFsTWFuYWdlciA9IFRlcm1pbmFsTWFuYWdlci5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgcHJpdmF0ZSB2YWwgc2NvcGUgPSBDb3JvdXRpbmVTY29wZShEaXNwYXRjaGVycy5NYWluKQoKICAgIC8vIOS7jiBUZXJtaW5hbE1hbmFnZXIg5pq06Zyy54q25oCB5ZKM5LqL5Lu25rWBCiAgICB2YWwgY29tbWFuZEV2ZW50czogU2hhcmVkRmxvdzxDb21tYW5kRXhlY3V0aW9uRXZlbnQ+ID0gdGVybWluYWxNYW5hZ2VyLmNvbW1hbmRFeGVjdXRpb25FdmVudHMKICAgIHZhbCBkaXJlY3RvcnlFdmVudHM6IFNoYXJlZEZsb3c8U2Vzc2lvbkRpcmVjdG9yeUV2ZW50PiA9IHRlcm1pbmFsTWFuYWdlci5kaXJlY3RvcnlDaGFuZ2VFdmVudHMKICAgIHZhbCB0ZXJtaW5hbFN0YXRlOiBTdGF0ZUZsb3c8VGVybWluYWxTdGF0ZT4gPSB0ZXJtaW5hbE1hbmFnZXIudGVybWluYWxTdGF0ZQogICAgdmFsIHNlc3Npb25zID0gdGVybWluYWxNYW5hZ2VyLnNlc3Npb25zCiAgICB2YWwgY3VycmVudFNlc3Npb25JZCA9IHRlcm1pbmFsTWFuYWdlci5jdXJyZW50U2Vzc2lvbklkCiAgICB2YWwgY3VycmVudERpcmVjdG9yeSA9IHRlcm1pbmFsTWFuYWdlci5jdXJyZW50RGlyZWN0b3J5CiAgICB2YWwgaXNJbnRlcmFjdGl2ZU1vZGUgPSB0ZXJtaW5hbE1hbmFnZXIuaXNJbnRlcmFjdGl2ZU1vZGUKICAgIHZhbCBpbnRlcmFjdGl2ZVByb21wdCA9IHRlcm1pbmFsTWFuYWdlci5pbnRlcmFjdGl2ZVByb21wdAogICAgdmFsIGlzRnVsbHNjcmVlbiA9IHRlcm1pbmFsTWFuYWdlci5pc0Z1bGxzY3JlZW4KCiAgICAvKioKICAgICAqIOWIneWni+WMlue7iOerr+euoeeQhuWZqAogICAgICovCiAgICBzdXNwZW5kIGZ1biBpbml0aWFsaXplKCk6IEJvb2xlYW4gewogICAgICAgIHJldHVybiB0ZXJtaW5hbE1hbmFnZXIuaW5pdGlhbGl6ZUVudmlyb25tZW50KCkKICAgIH0KCiAgICAvKioKICAgICAqIOmUgOavgee7iOerr+euoeeQhuWZqAogICAgICovCiAgICBmdW4gZGVzdHJveSgpIHsKICAgICAgICB0ZXJtaW5hbE1hbmFnZXIuY2xlYW51cCgpCiAgICB9CgogICAgLyoqCiAgICAgKiDliJvlu7rmlrDnmoTnu4jnq6/kvJror50gLSDlkIzmraXnrYnlvoXliJ3lp4vljJblrozmiJAKICAgICAqLwogICAgc3VzcGVuZCBmdW4gY3JlYXRlU2Vzc2lvbih0aXRsZTogU3RyaW5nPyA9IG51bGwpOiBTdHJpbmcgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkNyZWF0aW5nIG5ldyB0ZXJtaW5hbCBzZXNzaW9uIGFuZCB3YWl0aW5nIGZvciBpbml0aWFsaXphdGlvbiIpCiAgICAgICAgdmFsIG5ld1Nlc3Npb24gPSB0ZXJtaW5hbE1hbmFnZXIuY3JlYXRlTmV3U2Vzc2lvbih0aXRsZSkKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTZXNzaW9uICR7bmV3U2Vzc2lvbi5pZH0gaW5pdGlhbGl6ZWQgc3VjY2Vzc2Z1bGx5IikKICAgICAgICByZXR1cm4gbmV3U2Vzc2lvbi5pZAogICAgfQogICAgCiAgICAvKioKICAgICAqIOWIh+aNouWIsOaMh+WumuS8muivnQogICAgICovCiAgICBmdW4gc3dpdGNoVG9TZXNzaW9uKHNlc3Npb25JZDogU3RyaW5nKSB7CiAgICAgICAgdGVybWluYWxNYW5hZ2VyLnN3aXRjaFRvU2Vzc2lvbihzZXNzaW9uSWQpCiAgICB9CgogICAgLyoqCiAgICAgKiDlhbPpl63nu4jnq6/kvJror50KICAgICAqLwogICAgZnVuIGNsb3NlU2Vzc2lvbihzZXNzaW9uSWQ6IFN0cmluZykgewogICAgICAgIHRlcm1pbmFsTWFuYWdlci5jbG9zZVNlc3Npb24oc2Vzc2lvbklkKQogICAgfQoKICAgIC8qKgogICAgICog5omn6KGM5ZG95Luk5bm2562J5b6F5YW25a6M5oiQ77yI5LiN5YiH5o2i5b2T5YmN5Lya6K+d77yJCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGV4ZWN1dGVDb21tYW5kKHNlc3Npb25JZDogU3RyaW5nLCBjb21tYW5kOiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICB2YWwgZGVmZXJyZWQgPSBDb21wbGV0YWJsZURlZmVycmVkPFN0cmluZz4oKQogICAgICAgIHZhbCBvdXRwdXQgPSBTdHJpbmdCdWlsZGVyKCkKICAgICAgICB2YXIgY29tcGxldGlvbk91dHB1dDogU3RyaW5nPyA9IG51bGwKICAgICAgICAKICAgICAgICAvLyDnlJ/miJDlkb3ku6RJRAogICAgICAgIHZhbCBjb21tYW5kSWQgPSBqYXZhLnV0aWwuVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKQogICAgICAgIAogICAgICAgIHZhbCBjb2xsZWN0b3JSZWFkeSA9IENvbXBsZXRhYmxlRGVmZXJyZWQ8VW5pdD4oKQogICAgICAgIAogICAgICAgIC8vIOWFiOW8gOWni+iuoumYheS6i+S7tua1ge+8jOeEtuWQjuWGjeWPkemAgeWRveS7pAogICAgICAgIHZhbCBqb2IgPSBzY29wZS5sYXVuY2ggewogICAgICAgICAgICBjb21tYW5kRXZlbnRzCiAgICAgICAgICAgICAgICAuZmlsdGVyIHsgaXQuc2Vzc2lvbklkID09IHNlc3Npb25JZCAmJiBpdC5jb21tYW5kSWQgPT0gY29tbWFuZElkIH0KICAgICAgICAgICAgICAgIC5vblN0YXJ0IHsgY29sbGVjdG9yUmVhZHkuY29tcGxldGUoVW5pdCkgfSAvLyDlj5Hlh7rkv6Hlj7fvvIzooajnpLrlt7Llh4blpIflpb3mlLbpm4YKICAgICAgICAgICAgICAgIC5jb2xsZWN0IHsgZXZlbnQgLT4KICAgICAgICAgICAgICAgICAgICBpZiAoZXZlbnQuaXNDb21wbGV0ZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY29tcGxldGlvbk91dHB1dCA9IGV2ZW50Lm91dHB1dENodW5rCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChldmVudC5vdXRwdXRDaHVuaykKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaWYgKGV2ZW50LmlzQ29tcGxldGVkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlZmVycmVkLmNvbXBsZXRlKGNvbXBsZXRpb25PdXRwdXQ/LnRha2VJZiB7IGl0LmlzTm90RW1wdHkoKSB9ID86IG91dHB1dC50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIOetieW+heaUtumbhuWZqOWHhuWkh+Wwsee7qgogICAgICAgIGNvbGxlY3RvclJlYWR5LmF3YWl0KCkKICAgICAgICAKICAgICAgICAvLyDnm7TmjqXlkJHmjIflrprkvJror53lj5HpgIHlkb3ku6TvvIzkuI3liIfmjaLlvZPliY3kvJror50KICAgICAgICB0ZXJtaW5hbE1hbmFnZXIuc2VuZENvbW1hbmRUb1Nlc3Npb24oc2Vzc2lvbklkLCBjb21tYW5kLCBjb21tYW5kSWQpCgogICAgICAgIHZhbCByZXN1bHQgPSBkZWZlcnJlZC5hd2FpdCgpCiAgICAgICAgCiAgICAgICAgam9iLmNhbmNlbCgpCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHJlc3VsdAogICAgfQoKICAgIHN1c3BlbmQgZnVuIGV4ZWN1dGVIaWRkZW5Db21tYW5kKAogICAgICAgIGNvbW1hbmQ6IFN0cmluZywKICAgICAgICBleGVjdXRvcktleTogU3RyaW5nID0gImRlZmF1bHQiLAogICAgICAgIHRpbWVvdXRNczogTG9uZyA9IDEyMDAwMEwKICAgICk6IEhpZGRlbkV4ZWNSZXN1bHQgewogICAgICAgIHJldHVybiB0ZXJtaW5hbE1hbmFnZXIuZXhlY3V0ZUhpZGRlbkNvbW1hbmQoCiAgICAgICAgICAgIGNvbW1hbmQgPSBjb21tYW5kLAogICAgICAgICAgICBleGVjdXRvcktleSA9IGV4ZWN1dG9yS2V5LAogICAgICAgICAgICB0aW1lb3V0TXMgPSB0aW1lb3V0TXMKICAgICAgICApCiAgICB9CgogICAgLyoqCiAgICAgKiDmiafooYzlkb3ku6QgLSBGbG9354mI5pysCiAgICAgKiDov5Tlm57lkb3ku6TmiafooYzov4fnqIvkuK3nmoTmiYDmnInkuovku7bvvIznm7TliLDlkb3ku6TlrozmiJAKICAgICAqLwogICAgZnVuIGV4ZWN1dGVDb21tYW5kRmxvdyhzZXNzaW9uSWQ6IFN0cmluZywgY29tbWFuZDogU3RyaW5nKTogRmxvdzxDb21tYW5kRXhlY3V0aW9uRXZlbnQ+IHsKICAgICAgICByZXR1cm4gY2hhbm5lbEZsb3cgewogICAgICAgICAgICB2YWwgY29tbWFuZElkID0gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKQogICAgICAgICAgICB2YWwgY29sbGVjdG9yUmVhZHkgPSBDb21wbGV0YWJsZURlZmVycmVkPFVuaXQ+KCkKCiAgICAgICAgICAgIHZhbCBjb2xsZWN0b3JKb2IgPSBsYXVuY2ggewogICAgICAgICAgICAgICAgY29tbWFuZEV2ZW50cwogICAgICAgICAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5zZXNzaW9uSWQgPT0gc2Vzc2lvbklkICYmIGl0LmNvbW1hbmRJZCA9PSBjb21tYW5kSWQgfQogICAgICAgICAgICAgICAgICAgIC5vblN0YXJ0IHsgY29sbGVjdG9yUmVhZHkuY29tcGxldGUoVW5pdCkgfQogICAgICAgICAgICAgICAgICAgIC50cmFuc2Zvcm1XaGlsZSB7IGV2ZW50IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGVtaXQoZXZlbnQpCiAgICAgICAgICAgICAgICAgICAgICAgICFldmVudC5pc0NvbXBsZXRlZAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAuY29sbGVjdCB7IHNlbnRFdmVudCAtPgogICAgICAgICAgICAgICAgICAgICAgICBzZW5kKHNlbnRFdmVudCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOWFiOehruS/neS6i+S7tuaUtumbhuWZqOWwsee7qu+8jOWGjeWPkemAgeWRveS7pO+8jOmBv+WFjeW/q+WRveS7pOi+k+WHuuWcqOiuoumYheWJjeS4ouWkseOAggogICAgICAgICAgICBjb2xsZWN0b3JSZWFkeS5hd2FpdCgpCiAgICAgICAgICAgIHRlcm1pbmFsTWFuYWdlci5zZW5kQ29tbWFuZFRvU2Vzc2lvbihzZXNzaW9uSWQsIGNvbW1hbmQsIGNvbW1hbmRJZCkKICAgICAgICAgICAgY29sbGVjdG9ySm9iLmpvaW4oKQogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDlj5HpgIHovpPlhaXliLDlvZPliY3kvJror50KICAgICAqLwogICAgZnVuIHNlbmRJbnB1dChzZXNzaW9uSWQ6IFN0cmluZywgaW5wdXQ6IFN0cmluZykgewogICAgICAgIHRlcm1pbmFsTWFuYWdlci5zd2l0Y2hUb1Nlc3Npb24oc2Vzc2lvbklkKQogICAgICAgIHRlcm1pbmFsTWFuYWdlci5zZW5kSW5wdXQoaW5wdXQpCiAgICB9CgogICAgLyoqCiAgICAgKiDlj5HpgIHkuK3mlq3kv6Hlj7cgKEN0cmwrQykKICAgICAqLwogICAgZnVuIHNlbmRJbnRlcnJ1cHRTaWduYWwoc2Vzc2lvbklkOiBTdHJpbmcpIHsKICAgICAgICB0ZXJtaW5hbE1hbmFnZXIuc3dpdGNoVG9TZXNzaW9uKHNlc3Npb25JZCkKICAgICAgICB0ZXJtaW5hbE1hbmFnZXIuc2VuZEludGVycnVwdFNpZ25hbCgpCiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6XmnI3liqHmmK/lkKblt7Lov57mjqUgKOeOsOWcqOaAu+aYr+i/lOWbniB0cnVlKQogICAgICovCiAgICBmdW4gaXNDb25uZWN0ZWQoKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.system
+
+import android.content.Context
+import android.os.Build
+import com.bslsjdk.operit.util.AppLogger
+import androidx.annotation.RequiresApi
+import com.ai.assistance.operit.terminal.CommandExecutionEvent
+import com.ai.assistance.operit.terminal.SessionDirectoryEvent
+import com.ai.assistance.operit.terminal.TerminalManager
+import com.ai.assistance.operit.terminal.data.TerminalState
+import com.ai.assistance.operit.terminal.provider.type.HiddenExecResult
+import kotlinx.coroutines.CompletableDeferred
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.SharedFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.filter
+import kotlinx.coroutines.flow.transformWhile
+import kotlinx.coroutines.flow.onStart
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.flow.channelFlow
+import kotlinx.coroutines.flow.collect
+import java.util.UUID
+
+/**
+ * 终端管理器
+ * 提供应用程序级别的终端服务管理和访问
+ */
+@RequiresApi(Build.VERSION_CODES.O)
+class Terminal private constructor(private val context: Context) {
+
+    companion object {
+        @Volatile
+        private var INSTANCE: Terminal? = null
+
+        fun getInstance(context: Context): Terminal {
+            return INSTANCE ?: synchronized(this) {
+                INSTANCE ?: Terminal(context.applicationContext).also { INSTANCE = it }
+            }
+        }
+
+        private const val TAG = "Terminal"
+    }
+
+    private val terminalManager = TerminalManager.getInstance(context)
+    private val scope = CoroutineScope(Dispatchers.Main)
+
+    // 从 TerminalManager 暴露状态和事件流
+    val commandEvents: SharedFlow<CommandExecutionEvent> = terminalManager.commandExecutionEvents
+    val directoryEvents: SharedFlow<SessionDirectoryEvent> = terminalManager.directoryChangeEvents
+    val terminalState: StateFlow<TerminalState> = terminalManager.terminalState
+    val sessions = terminalManager.sessions
+    val currentSessionId = terminalManager.currentSessionId
+    val currentDirectory = terminalManager.currentDirectory
+    val isInteractiveMode = terminalManager.isInteractiveMode
+    val interactivePrompt = terminalManager.interactivePrompt
+    val isFullscreen = terminalManager.isFullscreen
+
+    /**
+     * 初始化终端管理器
+     */
+    suspend fun initialize(): Boolean {
+        return terminalManager.initializeEnvironment()
+    }
+
+    /**
+     * 销毁终端管理器
+     */
+    fun destroy() {
+        terminalManager.cleanup()
+    }
+
+    /**
+     * 创建新的终端会话 - 同步等待初始化完成
+     */
+    suspend fun createSession(title: String? = null): String {
+        AppLogger.d(TAG, "Creating new terminal session and waiting for initialization")
+        val newSession = terminalManager.createNewSession(title)
+        AppLogger.d(TAG, "Session ${newSession.id} initialized successfully")
+        return newSession.id
+    }
+    
+    /**
+     * 切换到指定会话
+     */
+    fun switchToSession(sessionId: String) {
+        terminalManager.switchToSession(sessionId)
+    }
+
+    /**
+     * 关闭终端会话
+     */
+    fun closeSession(sessionId: String) {
+        terminalManager.closeSession(sessionId)
+    }
+
+    /**
+     * 执行命令并等待其完成（不切换当前会话）
+     */
+    suspend fun executeCommand(sessionId: String, command: String): String? {
+        val deferred = CompletableDeferred<String>()
+        val output = StringBuilder()
+        var completionOutput: String? = null
+        
+        // 生成命令ID
+        val commandId = java.util.UUID.randomUUID().toString()
+        
+        val collectorReady = CompletableDeferred<Unit>()
+        
+        // 先开始订阅事件流，然后再发送命令
+        val job = scope.launch {
+            commandEvents
+                .filter { it.sessionId == sessionId && it.commandId == commandId }
+                .onStart { collectorReady.complete(Unit) } // 发出信号，表示已准备好收集
+                .collect { event ->
+                    if (event.isCompleted) {
+                        completionOutput = event.outputChunk
+                    } else {
+                        output.append(event.outputChunk)
+                    }
+                    if (event.isCompleted) {
+                        deferred.complete(completionOutput?.takeIf { it.isNotEmpty() } ?: output.toString())
+                    }
+                }
+        }
+
+        // 等待收集器准备就绪
+        collectorReady.await()
+        
+        // 直接向指定会话发送命令，不切换当前会话
+        terminalManager.sendCommandToSession(sessionId, command, commandId)
+
+        val result = deferred.await()
+        
+        job.cancel()
+        
+        return result
+    }
+
+    suspend fun executeHiddenCommand(
+        command: String,
+        executorKey: String = "default",
+        timeoutMs: Long = 120000L
+    ): HiddenExecResult {
+        return terminalManager.executeHiddenCommand(
+            command = command,
+            executorKey = executorKey,
+            timeoutMs = timeoutMs
+        )
+    }
+
+    /**
+     * 执行命令 - Flow版本
+     * 返回命令执行过程中的所有事件，直到命令完成
+     */
+    fun executeCommandFlow(sessionId: String, command: String): Flow<CommandExecutionEvent> {
+        return channelFlow {
+            val commandId = UUID.randomUUID().toString()
+            val collectorReady = CompletableDeferred<Unit>()
+
+            val collectorJob = launch {
+                commandEvents
+                    .filter { it.sessionId == sessionId && it.commandId == commandId }
+                    .onStart { collectorReady.complete(Unit) }
+                    .transformWhile { event ->
+                        emit(event)
+                        !event.isCompleted
+                    }
+                    .collect { sentEvent ->
+                        send(sentEvent)
+                    }
+            }
+
+            // 先确保事件收集器就绪，再发送命令，避免快命令输出在订阅前丢失。
+            collectorReady.await()
+            terminalManager.sendCommandToSession(sessionId, command, commandId)
+            collectorJob.join()
+        }
+    }
+    
+    /**
+     * 发送输入到当前会话
+     */
+    fun sendInput(sessionId: String, input: String) {
+        terminalManager.switchToSession(sessionId)
+        terminalManager.sendInput(input)
+    }
+
+    /**
+     * 发送中断信号 (Ctrl+C)
+     */
+    fun sendInterruptSignal(sessionId: String) {
+        terminalManager.switchToSession(sessionId)
+        terminalManager.sendInterruptSignal()
+    }
+
+    /**
+     * 检查服务是否已连接 (现在总是返回 true)
+     */
+    fun isConnected(): Boolean {
+        return true
+    }
+}

@@ -1,1 +1,280 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uQW5pbWF0ZWRWaXNpYmlsaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5mYWRlSW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmZhZGVPdXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5TY3JvbGxTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5pbnRlcmFjdGlvbi5jb2xsZWN0SXNEcmFnZ2VkQXNTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eUxpc3RTdGF0ZSBhcyBDb21wb3NlTGF6eUxpc3RTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5wYWRkaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5LZXlib2FyZEFycm93RG93bgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuSWNvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuSWNvbkJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc25hcHNob3RGbG93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eS5MYXp5TGlzdFN0YXRlIGFzIENoYXRMYXp5TGlzdFN0YXRlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmRpc3RpbmN0VW50aWxDaGFuZ2VkCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgovKioKICog5rua5Yqo5Yiw5bqV6YOo5oyJ6ZKu57uE5Lu2CiAqIAogKiBAcGFyYW0gc2Nyb2xsU3RhdGUg5rua5Yqo54q25oCBCiAqIEBwYXJhbSBjb3JvdXRpbmVTY29wZSDljY/nqIvkvZznlKjln58KICogQHBhcmFtIGF1dG9TY3JvbGxUb0JvdHRvbSDmmK/lkKboh6rliqjmu5rliqjliLDlupXpg6gKICogQHBhcmFtIGhhc05ld2VyRGlzcGxheUhpc3Rvcnkg5b2T5YmN56qX5Y+j5LiL5pa55piv5ZCm6L+Y5pyJ5Y+v5YiH5o2i5Yiw55qE5pu05paw5YaF5a65CiAqIEBwYXJhbSBvbkF1dG9TY3JvbGxUb0JvdHRvbUNoYW5nZSDoh6rliqjmu5rliqjnirbmgIHlj5jljJblm57osIMKICogQHBhcmFtIG1vZGlmaWVyIOS/rumlsOespgogKi8KQENvbXBvc2FibGUKZnVuIFNjcm9sbFRvQm90dG9tQnV0dG9uKAogICAgc2Nyb2xsU3RhdGU6IFNjcm9sbFN0YXRlLAogICAgY29yb3V0aW5lU2NvcGU6IENvcm91dGluZVNjb3BlLAogICAgYXV0b1Njcm9sbFRvQm90dG9tOiBCb29sZWFuLAogICAgaGFzTmV3ZXJEaXNwbGF5SGlzdG9yeTogQm9vbGVhbiA9IGZhbHNlLAogICAgb25SZXF1ZXN0TGF0ZXN0TWVzc2FnZXM6ICgoKSAtPiBVbml0KT8gPSBudWxsLAogICAgb25BdXRvU2Nyb2xsVG9Cb3R0b21DaGFuZ2U6IChCb29sZWFuKSAtPiBVbml0LAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICB2YXIgc2hvd1Njcm9sbEJ1dHRvbiBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YWwgaXNEcmFnZ2VkIGJ5IHNjcm9sbFN0YXRlLmludGVyYWN0aW9uU291cmNlLmNvbGxlY3RJc0RyYWdnZWRBc1N0YXRlKCkKCiAgICBMYXVuY2hlZEVmZmVjdChzY3JvbGxTdGF0ZSkgewogICAgICAgIHZhciBsYXN0UG9zaXRpb24gPSBzY3JvbGxTdGF0ZS52YWx1ZQogICAgICAgIHNuYXBzaG90RmxvdyB7IHNjcm9sbFN0YXRlLnZhbHVlIH0KICAgICAgICAgICAgLmRpc3RpbmN0VW50aWxDaGFuZ2VkKCkKICAgICAgICAgICAgLmNvbGxlY3QgeyBjdXJyZW50UG9zaXRpb24gLT4KICAgICAgICAgICAgICAgIGlmIChzY3JvbGxTdGF0ZS5pc1Njcm9sbEluUHJvZ3Jlc3MpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgc2Nyb2xsZWRVcCA9IGN1cnJlbnRQb3NpdGlvbiA8IGxhc3RQb3NpdGlvbgogICAgICAgICAgICAgICAgICAgIGlmIChzY3JvbGxlZFVwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhdXRvU2Nyb2xsVG9Cb3R0b20gJiYgaXNEcmFnZ2VkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkF1dG9TY3JvbGxUb0JvdHRvbUNoYW5nZShmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNob3dTY3JvbGxCdXR0b24gPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgaXNBdEJvdHRvbSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY3JvbGxTdGF0ZS52YWx1ZSA+PSBzY3JvbGxTdGF0ZS5tYXhWYWx1ZSAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICFoYXNOZXdlckRpc3BsYXlIaXN0b3J5CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0F0Qm90dG9tICYmICFhdXRvU2Nyb2xsVG9Cb3R0b20pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQXV0b1Njcm9sbFRvQm90dG9tQ2hhbmdlKHRydWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaG93U2Nyb2xsQnV0dG9uID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxhc3RQb3NpdGlvbiA9IGN1cnJlbnRQb3NpdGlvbgogICAgICAgICAgICB9CiAgICB9CgogICAgU2Nyb2xsVG9Cb3R0b21CdXR0b25Db250ZW50KAogICAgICAgIHZpc2libGUgPSBzaG93U2Nyb2xsQnV0dG9uLAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIsCiAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgIGlmIChoYXNOZXdlckRpc3BsYXlIaXN0b3J5KSB7CiAgICAgICAgICAgICAgICAgICAgb25SZXF1ZXN0TGF0ZXN0TWVzc2FnZXM/Lmludm9rZSgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBzY3JvbGxTdGF0ZS5hbmltYXRlU2Nyb2xsVG8oc2Nyb2xsU3RhdGUubWF4VmFsdWUpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgb25BdXRvU2Nyb2xsVG9Cb3R0b21DaGFuZ2UodHJ1ZSkKICAgICAgICAgICAgc2hvd1Njcm9sbEJ1dHRvbiA9IGZhbHNlCiAgICAgICAgfSwKICAgICkKfQoKQENvbXBvc2FibGUKZnVuIFNjcm9sbFRvQm90dG9tQnV0dG9uKAogICAgc2Nyb2xsU3RhdGU6IENoYXRMYXp5TGlzdFN0YXRlLAogICAgY29yb3V0aW5lU2NvcGU6IENvcm91dGluZVNjb3BlLAogICAgYXV0b1Njcm9sbFRvQm90dG9tOiBCb29sZWFuLAogICAgb25BdXRvU2Nyb2xsVG9Cb3R0b21DaGFuZ2U6IChCb29sZWFuKSAtPiBVbml0LAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICB2YXIgc2hvd1Njcm9sbEJ1dHRvbiBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YWwgaXNEcmFnZ2VkIGJ5IHNjcm9sbFN0YXRlLmludGVyYWN0aW9uU291cmNlLmNvbGxlY3RJc0RyYWdnZWRBc1N0YXRlKCkKCiAgICAvLyDmoLjlv4Pmu5rliqjpgLvovpEgLSDnm5HlkKznlKjmiLfnmoTmiYvliqjmu5rliqjooYzkuLoKICAgIExhdW5jaGVkRWZmZWN0KHNjcm9sbFN0YXRlKSB7CiAgICAgICAgdmFyIGxhc3RJbmRleCA9IHNjcm9sbFN0YXRlLmZpcnN0VmlzaWJsZUl0ZW1JbmRleAogICAgICAgIHZhciBsYXN0T2Zmc2V0ID0gc2Nyb2xsU3RhdGUuZmlyc3RWaXNpYmxlSXRlbVNjcm9sbE9mZnNldAogICAgICAgIHNuYXBzaG90RmxvdyB7CiAgICAgICAgICAgIFRyaXBsZSgKICAgICAgICAgICAgICAgIHNjcm9sbFN0YXRlLmZpcnN0VmlzaWJsZUl0ZW1JbmRleCwKICAgICAgICAgICAgICAgIHNjcm9sbFN0YXRlLmZpcnN0VmlzaWJsZUl0ZW1TY3JvbGxPZmZzZXQsCiAgICAgICAgICAgICAgICBzY3JvbGxTdGF0ZS5jYW5TY3JvbGxGb3J3YXJkLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgICAgICAuZGlzdGluY3RVbnRpbENoYW5nZWQoKQogICAgICAgICAgICAuY29sbGVjdCB7IChjdXJyZW50SW5kZXgsIGN1cnJlbnRPZmZzZXQsIF8pIC0+CiAgICAgICAgICAgICAgICBpZiAoc2Nyb2xsU3RhdGUuaXNTY3JvbGxJblByb2dyZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHNjcm9sbGVkVXAgPQogICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50SW5kZXggPCBsYXN0SW5kZXggfHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIChjdXJyZW50SW5kZXggPT0gbGFzdEluZGV4ICYmIGN1cnJlbnRPZmZzZXQgPCBsYXN0T2Zmc2V0KQogICAgICAgICAgICAgICAgICAgIGlmIChzY3JvbGxlZFVwKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhdXRvU2Nyb2xsVG9Cb3R0b20gJiYgaXNEcmFnZ2VkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkF1dG9TY3JvbGxUb0JvdHRvbUNoYW5nZShmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNob3dTY3JvbGxCdXR0b24gPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgaXNBdEJvdHRvbSA9IHNjcm9sbFN0YXRlLmlzQXRCb3R0b20oKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoaXNBdEJvdHRvbSAmJiAhYXV0b1Njcm9sbFRvQm90dG9tKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkF1dG9TY3JvbGxUb0JvdHRvbUNoYW5nZSh0cnVlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hvd1Njcm9sbEJ1dHRvbiA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBsYXN0SW5kZXggPSBjdXJyZW50SW5kZXgKICAgICAgICAgICAgICAgIGxhc3RPZmZzZXQgPSBjdXJyZW50T2Zmc2V0CiAgICAgICAgICAgIH0KICAgIH0KCiAgICBTY3JvbGxUb0JvdHRvbUJ1dHRvbkNvbnRlbnQoCiAgICAgICAgdmlzaWJsZSA9IHNob3dTY3JvbGxCdXR0b24sCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllciwKICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICBjb3JvdXRpbmVTY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgc2Nyb2xsU3RhdGUuYW5pbWF0ZVNjcm9sbFRvRW5kKCkKICAgICAgICAgICAgfQogICAgICAgICAgICBvbkF1dG9TY3JvbGxUb0JvdHRvbUNoYW5nZSh0cnVlKQogICAgICAgICAgICBzaG93U2Nyb2xsQnV0dG9uID0gZmFsc2UKICAgICAgICB9LAogICAgKQp9CgpAQ29tcG9zYWJsZQpmdW4gU2Nyb2xsVG9Cb3R0b21CdXR0b24oCiAgICBzY3JvbGxTdGF0ZTogQ29tcG9zZUxhenlMaXN0U3RhdGUsCiAgICBjb3JvdXRpbmVTY29wZTogQ29yb3V0aW5lU2NvcGUsCiAgICBhdXRvU2Nyb2xsVG9Cb3R0b206IEJvb2xlYW4sCiAgICBoYXNOZXdlckRpc3BsYXlIaXN0b3J5OiBCb29sZWFuID0gZmFsc2UsCiAgICBvblJlcXVlc3RMYXRlc3RNZXNzYWdlczogKCgpIC0+IFVuaXQpPyA9IG51bGwsCiAgICByZXZlcnNlTGF5b3V0OiBCb29sZWFuID0gZmFsc2UsCiAgICBvbkF1dG9TY3JvbGxUb0JvdHRvbUNoYW5nZTogKEJvb2xlYW4pIC0+IFVuaXQsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllcgopIHsKICAgIHZhciBzaG93U2Nyb2xsQnV0dG9uIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIHZhbCBpc0RyYWdnZWQgYnkgc2Nyb2xsU3RhdGUuaW50ZXJhY3Rpb25Tb3VyY2UuY29sbGVjdElzRHJhZ2dlZEFzU3RhdGUoKQoKICAgIExhdW5jaGVkRWZmZWN0KHNjcm9sbFN0YXRlKSB7CiAgICAgICAgdmFyIGxhc3RJbmRleCA9IHNjcm9sbFN0YXRlLmZpcnN0VmlzaWJsZUl0ZW1JbmRleAogICAgICAgIHZhciBsYXN0T2Zmc2V0ID0gc2Nyb2xsU3RhdGUuZmlyc3RWaXNpYmxlSXRlbVNjcm9sbE9mZnNldAogICAgICAgIHNuYXBzaG90RmxvdyB7CiAgICAgICAgICAgIFRyaXBsZSgKICAgICAgICAgICAgICAgIHNjcm9sbFN0YXRlLmZpcnN0VmlzaWJsZUl0ZW1JbmRleCwKICAgICAgICAgICAgICAgIHNjcm9sbFN0YXRlLmZpcnN0VmlzaWJsZUl0ZW1TY3JvbGxPZmZzZXQsCiAgICAgICAgICAgICAgICBzY3JvbGxTdGF0ZS5jYW5TY3JvbGxGb3J3YXJkLAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgICAgICAuZGlzdGluY3RVbnRpbENoYW5nZWQoKQogICAgICAgICAgICAuY29sbGVjdCB7IChjdXJyZW50SW5kZXgsIGN1cnJlbnRPZmZzZXQsIF8pIC0+CiAgICAgICAgICAgICAgICBpZiAoc2Nyb2xsU3RhdGUuaXNTY3JvbGxJblByb2dyZXNzKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIG1vdmVkQXdheUZyb21Cb3R0b20gPQogICAgICAgICAgICAgICAgICAgICAgICBpZiAocmV2ZXJzZUxheW91dCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudEluZGV4ID4gbGFzdEluZGV4IHx8CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKGN1cnJlbnRJbmRleCA9PSBsYXN0SW5kZXggJiYgY3VycmVudE9mZnNldCA+IGxhc3RPZmZzZXQpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW50SW5kZXggPCBsYXN0SW5kZXggfHwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAoY3VycmVudEluZGV4ID09IGxhc3RJbmRleCAmJiBjdXJyZW50T2Zmc2V0IDwgbGFzdE9mZnNldCkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGlmIChtb3ZlZEF3YXlGcm9tQm90dG9tKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChhdXRvU2Nyb2xsVG9Cb3R0b20gJiYgaXNEcmFnZ2VkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkF1dG9TY3JvbGxUb0JvdHRvbUNoYW5nZShmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNob3dTY3JvbGxCdXR0b24gPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgaXNBdEJvdHRvbSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY3JvbGxTdGF0ZS5pc0F0Qm90dG9tKHJldmVyc2VMYXlvdXQgPSByZXZlcnNlTGF5b3V0KSAmJgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICFoYXNOZXdlckRpc3BsYXlIaXN0b3J5CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0F0Qm90dG9tICYmICFhdXRvU2Nyb2xsVG9Cb3R0b20pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQXV0b1Njcm9sbFRvQm90dG9tQ2hhbmdlKHRydWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaG93U2Nyb2xsQnV0dG9uID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGxhc3RJbmRleCA9IGN1cnJlbnRJbmRleAogICAgICAgICAgICAgICAgbGFzdE9mZnNldCA9IGN1cnJlbnRPZmZzZXQKICAgICAgICAgICAgfQogICAgfQoKICAgIFNjcm9sbFRvQm90dG9tQnV0dG9uQ29udGVudCgKICAgICAgICB2aXNpYmxlID0gc2hvd1Njcm9sbEJ1dHRvbiwKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyLAogICAgICAgIG9uQ2xpY2sgPSB7CiAgICAgICAgICAgIGNvcm91dGluZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICBpZiAoaGFzTmV3ZXJEaXNwbGF5SGlzdG9yeSkgewogICAgICAgICAgICAgICAgICAgIG9uUmVxdWVzdExhdGVzdE1lc3NhZ2VzPy5pbnZva2UoKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKHJldmVyc2VMYXlvdXQpIHsKICAgICAgICAgICAgICAgICAgICBzY3JvbGxTdGF0ZS5hbmltYXRlU2Nyb2xsVG9JdGVtKDApCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHNjcm9sbFN0YXRlLmFuaW1hdGVTY3JvbGxUb0VuZCgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgb25BdXRvU2Nyb2xsVG9Cb3R0b21DaGFuZ2UodHJ1ZSkKICAgICAgICAgICAgc2hvd1Njcm9sbEJ1dHRvbiA9IGZhbHNlCiAgICAgICAgfSwKICAgICkKfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gU2Nyb2xsVG9Cb3R0b21CdXR0b25Db250ZW50KAogICAgdmlzaWJsZTogQm9vbGVhbiwKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyLAogICAgb25DbGljazogKCkgLT4gVW5pdCwKKSB7CiAgICBBbmltYXRlZFZpc2liaWxpdHkoCiAgICAgICAgdmlzaWJsZSA9IHZpc2libGUsCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllciwKICAgICAgICBlbnRlciA9IGZhZGVJbigpLAogICAgICAgIGV4aXQgPSBmYWRlT3V0KCkKICAgICkgewogICAgICAgIEljb25CdXR0b24oCiAgICAgICAgICAgIG9uQ2xpY2sgPSBvbkNsaWNrLAogICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAuYmFja2dyb3VuZCgKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZVZhcmlhbnQuY29weShhbHBoYSA9IDAuNzVmKSwKICAgICAgICAgICAgICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSg1MCkKICAgICAgICAgICAgICAgICkKICAgICAgICApIHsKICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5LZXlib2FyZEFycm93RG93biwKICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9ICJTY3JvbGwgdG8gYm90dG9tIiwKICAgICAgICAgICAgICAgIHRpbnQgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKcHJpdmF0ZSBmdW4gQ2hhdExhenlMaXN0U3RhdGUuaXNBdEJvdHRvbSgpOiBCb29sZWFuIHsKICAgIHZhbCBsYXlvdXRJbmZvID0gbGF5b3V0SW5mbwogICAgaWYgKGxheW91dEluZm8udG90YWxJdGVtc0NvdW50ID09IDApIHsKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQogICAgdmFsIGxhc3RWaXNpYmxlSXRlbUluZGV4ID0gbGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmxhc3RPck51bGwoKT8uaW5kZXggPzogcmV0dXJuIGZhbHNlCiAgICByZXR1cm4gIWNhblNjcm9sbEZvcndhcmQgJiYgbGFzdFZpc2libGVJdGVtSW5kZXggPj0gbGF5b3V0SW5mby50b3RhbEl0ZW1zQ291bnQgLSAxCn0KCnByaXZhdGUgZnVuIENvbXBvc2VMYXp5TGlzdFN0YXRlLmlzQXRCb3R0b20ocmV2ZXJzZUxheW91dDogQm9vbGVhbiA9IGZhbHNlKTogQm9vbGVhbiB7CiAgICB2YWwgbGF5b3V0SW5mbyA9IGxheW91dEluZm8KICAgIGlmIChsYXlvdXRJbmZvLnRvdGFsSXRlbXNDb3VudCA9PSAwKSB7CiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KICAgIHJldHVybiBpZiAocmV2ZXJzZUxheW91dCkgewogICAgICAgIHZhbCBmaXJzdFZpc2libGVJdGVtSW5kZXggPSBsYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm8uZmlyc3RPck51bGwoKT8uaW5kZXggPzogcmV0dXJuIGZhbHNlCiAgICAgICAgIWNhblNjcm9sbEJhY2t3YXJkICYmIGZpcnN0VmlzaWJsZUl0ZW1JbmRleCA8PSAwCiAgICB9IGVsc2UgewogICAgICAgIHZhbCBsYXN0VmlzaWJsZUl0ZW1JbmRleCA9IGxheW91dEluZm8udmlzaWJsZUl0ZW1zSW5mby5sYXN0T3JOdWxsKCk/LmluZGV4ID86IHJldHVybiBmYWxzZQogICAgICAgICFjYW5TY3JvbGxGb3J3YXJkICYmIGxhc3RWaXNpYmxlSXRlbUluZGV4ID49IGxheW91dEluZm8udG90YWxJdGVtc0NvdW50IC0gMQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.ScrollState
+import androidx.compose.foundation.background
+import androidx.compose.foundation.interaction.collectIsDraggedAsState
+import androidx.compose.foundation.lazy.LazyListState as ComposeLazyListState
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.KeyboardArrowDown
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.snapshotFlow
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyListState as ChatLazyListState
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.launch
+
+/**
+ * 滚动到底部按钮组件
+ * 
+ * @param scrollState 滚动状态
+ * @param coroutineScope 协程作用域
+ * @param autoScrollToBottom 是否自动滚动到底部
+ * @param hasNewerDisplayHistory 当前窗口下方是否还有可切换到的更新内容
+ * @param onAutoScrollToBottomChange 自动滚动状态变化回调
+ * @param modifier 修饰符
+ */
+@Composable
+fun ScrollToBottomButton(
+    scrollState: ScrollState,
+    coroutineScope: CoroutineScope,
+    autoScrollToBottom: Boolean,
+    hasNewerDisplayHistory: Boolean = false,
+    onRequestLatestMessages: (() -> Unit)? = null,
+    onAutoScrollToBottomChange: (Boolean) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    var showScrollButton by remember { mutableStateOf(false) }
+    val isDragged by scrollState.interactionSource.collectIsDraggedAsState()
+
+    LaunchedEffect(scrollState) {
+        var lastPosition = scrollState.value
+        snapshotFlow { scrollState.value }
+            .distinctUntilChanged()
+            .collect { currentPosition ->
+                if (scrollState.isScrollInProgress) {
+                    val scrolledUp = currentPosition < lastPosition
+                    if (scrolledUp) {
+                        if (autoScrollToBottom && isDragged) {
+                            onAutoScrollToBottomChange(false)
+                            showScrollButton = true
+                        }
+                    } else {
+                        val isAtBottom =
+                            scrollState.value >= scrollState.maxValue &&
+                                !hasNewerDisplayHistory
+                        if (isAtBottom && !autoScrollToBottom) {
+                            onAutoScrollToBottomChange(true)
+                            showScrollButton = false
+                        }
+                    }
+                }
+                lastPosition = currentPosition
+            }
+    }
+
+    ScrollToBottomButtonContent(
+        visible = showScrollButton,
+        modifier = modifier,
+        onClick = {
+            coroutineScope.launch {
+                if (hasNewerDisplayHistory) {
+                    onRequestLatestMessages?.invoke()
+                }
+                scrollState.animateScrollTo(scrollState.maxValue)
+            }
+            onAutoScrollToBottomChange(true)
+            showScrollButton = false
+        },
+    )
+}
+
+@Composable
+fun ScrollToBottomButton(
+    scrollState: ChatLazyListState,
+    coroutineScope: CoroutineScope,
+    autoScrollToBottom: Boolean,
+    onAutoScrollToBottomChange: (Boolean) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    var showScrollButton by remember { mutableStateOf(false) }
+    val isDragged by scrollState.interactionSource.collectIsDraggedAsState()
+
+    // 核心滚动逻辑 - 监听用户的手动滚动行为
+    LaunchedEffect(scrollState) {
+        var lastIndex = scrollState.firstVisibleItemIndex
+        var lastOffset = scrollState.firstVisibleItemScrollOffset
+        snapshotFlow {
+            Triple(
+                scrollState.firstVisibleItemIndex,
+                scrollState.firstVisibleItemScrollOffset,
+                scrollState.canScrollForward,
+            )
+        }
+            .distinctUntilChanged()
+            .collect { (currentIndex, currentOffset, _) ->
+                if (scrollState.isScrollInProgress) {
+                    val scrolledUp =
+                        currentIndex < lastIndex ||
+                            (currentIndex == lastIndex && currentOffset < lastOffset)
+                    if (scrolledUp) {
+                        if (autoScrollToBottom && isDragged) {
+                            onAutoScrollToBottomChange(false)
+                            showScrollButton = true
+                        }
+                    } else {
+                        val isAtBottom = scrollState.isAtBottom()
+                        if (isAtBottom && !autoScrollToBottom) {
+                            onAutoScrollToBottomChange(true)
+                            showScrollButton = false
+                        }
+                    }
+                }
+                lastIndex = currentIndex
+                lastOffset = currentOffset
+            }
+    }
+
+    ScrollToBottomButtonContent(
+        visible = showScrollButton,
+        modifier = modifier,
+        onClick = {
+            coroutineScope.launch {
+                scrollState.animateScrollToEnd()
+            }
+            onAutoScrollToBottomChange(true)
+            showScrollButton = false
+        },
+    )
+}
+
+@Composable
+fun ScrollToBottomButton(
+    scrollState: ComposeLazyListState,
+    coroutineScope: CoroutineScope,
+    autoScrollToBottom: Boolean,
+    hasNewerDisplayHistory: Boolean = false,
+    onRequestLatestMessages: (() -> Unit)? = null,
+    reverseLayout: Boolean = false,
+    onAutoScrollToBottomChange: (Boolean) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    var showScrollButton by remember { mutableStateOf(false) }
+    val isDragged by scrollState.interactionSource.collectIsDraggedAsState()
+
+    LaunchedEffect(scrollState) {
+        var lastIndex = scrollState.firstVisibleItemIndex
+        var lastOffset = scrollState.firstVisibleItemScrollOffset
+        snapshotFlow {
+            Triple(
+                scrollState.firstVisibleItemIndex,
+                scrollState.firstVisibleItemScrollOffset,
+                scrollState.canScrollForward,
+            )
+        }
+            .distinctUntilChanged()
+            .collect { (currentIndex, currentOffset, _) ->
+                if (scrollState.isScrollInProgress) {
+                    val movedAwayFromBottom =
+                        if (reverseLayout) {
+                            currentIndex > lastIndex ||
+                                (currentIndex == lastIndex && currentOffset > lastOffset)
+                        } else {
+                            currentIndex < lastIndex ||
+                                (currentIndex == lastIndex && currentOffset < lastOffset)
+                        }
+                    if (movedAwayFromBottom) {
+                        if (autoScrollToBottom && isDragged) {
+                            onAutoScrollToBottomChange(false)
+                            showScrollButton = true
+                        }
+                    } else {
+                        val isAtBottom =
+                            scrollState.isAtBottom(reverseLayout = reverseLayout) &&
+                                !hasNewerDisplayHistory
+                        if (isAtBottom && !autoScrollToBottom) {
+                            onAutoScrollToBottomChange(true)
+                            showScrollButton = false
+                        }
+                    }
+                }
+                lastIndex = currentIndex
+                lastOffset = currentOffset
+            }
+    }
+
+    ScrollToBottomButtonContent(
+        visible = showScrollButton,
+        modifier = modifier,
+        onClick = {
+            coroutineScope.launch {
+                if (hasNewerDisplayHistory) {
+                    onRequestLatestMessages?.invoke()
+                }
+                if (reverseLayout) {
+                    scrollState.animateScrollToItem(0)
+                } else {
+                    scrollState.animateScrollToEnd()
+                }
+            }
+            onAutoScrollToBottomChange(true)
+            showScrollButton = false
+        },
+    )
+}
+
+@Composable
+private fun ScrollToBottomButtonContent(
+    visible: Boolean,
+    modifier: Modifier = Modifier,
+    onClick: () -> Unit,
+) {
+    AnimatedVisibility(
+        visible = visible,
+        modifier = modifier,
+        enter = fadeIn(),
+        exit = fadeOut()
+    ) {
+        IconButton(
+            onClick = onClick,
+            modifier = Modifier
+                .background(
+                    color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.75f),
+                    shape = RoundedCornerShape(50)
+                )
+        ) {
+            Icon(
+                imageVector = Icons.Default.KeyboardArrowDown,
+                contentDescription = "Scroll to bottom",
+                tint = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+    }
+}
+
+private fun ChatLazyListState.isAtBottom(): Boolean {
+    val layoutInfo = layoutInfo
+    if (layoutInfo.totalItemsCount == 0) {
+        return true
+    }
+    val lastVisibleItemIndex = layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: return false
+    return !canScrollForward && lastVisibleItemIndex >= layoutInfo.totalItemsCount - 1
+}
+
+private fun ComposeLazyListState.isAtBottom(reverseLayout: Boolean = false): Boolean {
+    val layoutInfo = layoutInfo
+    if (layoutInfo.totalItemsCount == 0) {
+        return true
+    }
+    return if (reverseLayout) {
+        val firstVisibleItemIndex = layoutInfo.visibleItemsInfo.firstOrNull()?.index ?: return false
+        !canScrollBackward && firstVisibleItemIndex <= 0
+    } else {
+        val lastVisibleItemIndex = layoutInfo.visibleItemsInfo.lastOrNull()?.index ?: return false
+        !canScrollForward && lastVisibleItemIndex >= layoutInfo.totalItemsCount - 1
+    }
+}

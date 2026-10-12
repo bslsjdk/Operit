@@ -1,1 +1,53 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb252ZXJ0ZXIKCi8qKgogKiDmlK/mjIHnmoTogYrlpKnorrDlvZXmoLzlvI8KICovCmVudW0gY2xhc3MgQ2hhdEZvcm1hdCB7CiAgICAvKiogT3Blcml0IOWOn+eUn+agvOW8jyAqLwogICAgT1BFUklULAogICAgCiAgICAvKiogQ2hhdEdQVCBjb252ZXJzYXRpb25zLmpzb24g5qC85byPICovCiAgICBDSEFUR1BULAogICAgCiAgICAvKiogQ2hhdEJveCDlr7zlh7rmoLzlvI8gKi8KICAgIENIQVRCT1gsCiAgICAKICAgIC8qKiBDbGF1ZGUg5a+85Ye65qC85byPICovCiAgICBDTEFVREUsCiAgICAKICAgIC8qKiBNYXJrZG93biDmoLzlvI8gKi8KICAgIE1BUktET1dOLAogICAgCiAgICAvKiog6YCa55SoIEpTT04g5qC85byPIChyb2xlLWNvbnRlbnQg57uT5p6EKSAqLwogICAgR0VORVJJQ19KU09OLAogICAgCiAgICAvKiogQ1NWIOagvOW8jyAqLwogICAgQ1NWLAogICAgCiAgICAvKiog57qv5paH5pys5qC85byPICovCiAgICBQTEFJTl9URVhULAogICAgCiAgICAvKiog5pyq55+l5qC85byPICovCiAgICBVTktOT1dOCn0KCi8qKgogKiDlr7zlh7rmoLzlvI8KICovCmVudW0gY2xhc3MgRXhwb3J0Rm9ybWF0IHsKICAgIC8qKiBKU09OIOagvOW8j++8iE9wZXJpdOWOn+eUn++8iSAqLwogICAgSlNPTiwKICAgIAogICAgLyoqIE1hcmtkb3duIOagvOW8jyAqLwogICAgTUFSS0RPV04sCiAgICAKICAgIC8qKiBIVE1MIOagvOW8jyAqLwogICAgSFRNTCwKICAgIAogICAgLyoqIOe6r+aWh+acrOagvOW8jyAqLwogICAgVFhULAogICAgCiAgICAvKiogQ1NWIOagvOW8jyAqLwogICAgQ1NWCn0K
+package com.bslsjdk.operit.data.converter
+
+/**
+ * 支持的聊天记录格式
+ */
+enum class ChatFormat {
+    /** Operit 原生格式 */
+    OPERIT,
+    
+    /** ChatGPT conversations.json 格式 */
+    CHATGPT,
+    
+    /** ChatBox 导出格式 */
+    CHATBOX,
+    
+    /** Claude 导出格式 */
+    CLAUDE,
+    
+    /** Markdown 格式 */
+    MARKDOWN,
+    
+    /** 通用 JSON 格式 (role-content 结构) */
+    GENERIC_JSON,
+    
+    /** CSV 格式 */
+    CSV,
+    
+    /** 纯文本格式 */
+    PLAIN_TEXT,
+    
+    /** 未知格式 */
+    UNKNOWN
+}
+
+/**
+ * 导出格式
+ */
+enum class ExportFormat {
+    /** JSON 格式（Operit原生） */
+    JSON,
+    
+    /** Markdown 格式 */
+    MARKDOWN,
+    
+    /** HTML 格式 */
+    HTML,
+    
+    /** 纯文本格式 */
+    TXT,
+    
+    /** CSV 格式 */
+    CSV
+}

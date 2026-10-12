@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmlucHV0CgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbG9jYXRpb24uQnJpbmdJbnRvVmlld1JlcXVlc3RlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbG9jYXRpb24uYnJpbmdJbnRvVmlld1JlcXVlc3RlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXJDb3JvdXRpbmVTY29wZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLndpdGhGcmFtZU5hbm9zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmNvbXBvc2VkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmZvY3VzLm9uRm9jdXNDaGFuZ2VkCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgpmdW4gTW9kaWZpZXIuYnJpbmdJbnRvVmlld09uSW1lRm9jdXMoKTogTW9kaWZpZXIgPSBjb21wb3NlZCB7CiAgICB2YWwgYnJpbmdJbnRvVmlld1JlcXVlc3RlciA9IHJlbWVtYmVyIHsgQnJpbmdJbnRvVmlld1JlcXVlc3RlcigpIH0KICAgIHZhbCBjb3JvdXRpbmVTY29wZSA9IHJlbWVtYmVyQ29yb3V0aW5lU2NvcGUoKQoKICAgIHRoaXMKICAgICAgICAuYnJpbmdJbnRvVmlld1JlcXVlc3RlcihicmluZ0ludG9WaWV3UmVxdWVzdGVyKQogICAgICAgIC5vbkZvY3VzQ2hhbmdlZCB7IGZvY3VzU3RhdGUgLT4KICAgICAgICAgICAgaWYgKCFmb2N1c1N0YXRlLmlzRm9jdXNlZCkgewogICAgICAgICAgICAgICAgcmV0dXJuQG9uRm9jdXNDaGFuZ2VkCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGNvcm91dGluZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICB3aXRoRnJhbWVOYW5vcyB7IH0KICAgICAgICAgICAgICAgIGJyaW5nSW50b1ZpZXdSZXF1ZXN0ZXIuYnJpbmdJbnRvVmlldygpCiAgICAgICAgICAgIH0KICAgICAgICB9Cn0K
+package com.bslsjdk.operit.ui.common.input
+
+import androidx.compose.foundation.relocation.BringIntoViewRequester
+import androidx.compose.foundation.relocation.bringIntoViewRequester
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.withFrameNanos
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.composed
+import androidx.compose.ui.focus.onFocusChanged
+import kotlinx.coroutines.launch
+
+fun Modifier.bringIntoViewOnImeFocus(): Modifier = composed {
+    val bringIntoViewRequester = remember { BringIntoViewRequester() }
+    val coroutineScope = rememberCoroutineScope()
+
+    this
+        .bringIntoViewRequester(bringIntoViewRequester)
+        .onFocusChanged { focusState ->
+            if (!focusState.isFocused) {
+                return@onFocusChanged
+            }
+
+            coroutineScope.launch {
+                withFrameNanos { }
+                bringIntoViewRequester.bringIntoView()
+            }
+        }
+}

@@ -1,1 +1,662 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMubWVtb3J5LnNjcmVlbnMKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLmFuaW1hdGVGbG9hdEFzU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUudHdlZW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5FeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmNsaWNrYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmNvbWJpbmVkQ2xpY2thYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlDb2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlMaXN0U2NvcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcucm90YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQud2lkdGgKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLnJlbWVtYmVyTG9jYWwKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5zZXJpYWxpemVyCgovKioKICog5paH5Lu25aS55bGV5byA54q25oCB55qE5oyB5LmF5YyW5pWw5o2u57G777yI5LiOIE1lbW9yeUZvbGRlclNlbGVjdGlvbkRpYWxvZyDlhbHkuqvvvIkKICovCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBGb2xkZXJFeHBhbmRlZFN0YXRlKAogICAgdmFsIGV4cGFuZGVkUGF0aHM6IFNldDxTdHJpbmc+ID0gZW1wdHlTZXQoKQopCgovKioKICogTWVtb3J5LXNwYWNlIHNlbGVjdG9yIGFuZCBtZXRhZGF0YSBjb250cm9scy4gTWVtb3J5IGNvbnRlbnRzIHN0YXkgaW4gdGhlIGV4aXN0aW5nIE9iamVjdEJveAogKiBkYXRhYmFzZSBrZXllZCBieSB0aGUgc3RhYmxlIHNwYWNlIGlkLgogKi8KQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gUHJvZmlsZVNlbGVjdG9yKAogICAgcHJvZmlsZUxpc3Q6IExpc3Q8U3RyaW5nPiwKICAgIHByb2ZpbGVOYW1lTWFwOiBNYXA8U3RyaW5nLCBTdHJpbmc+LAogICAgc2VsZWN0ZWRQcm9maWxlSWQ6IFN0cmluZywKICAgIG9uUHJvZmlsZVNlbGVjdGVkOiAoU3RyaW5nKSAtPiBVbml0CikgewogICAgdmFyIGV4cGFuZGVkIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoZmFsc2UpIH0KICAgIHZhbCBzZWxlY3RlZFByb2ZpbGVOYW1lID0gcHJvZmlsZU5hbWVNYXBbc2VsZWN0ZWRQcm9maWxlSWRdID86IHNlbGVjdGVkUHJvZmlsZUlkCgogICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyhob3Jpem9udGFsID0gMTYuZHAsIHZlcnRpY2FsID0gOC5kcCkpIHsKICAgICAgICBCb3ggewogICAgICAgICAgICBPdXRsaW5lZEJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IGV4cGFuZGVkID0gdHJ1ZSB9LAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIFRleHQoc2VsZWN0ZWRQcm9maWxlTmFtZSwgbW9kaWZpZXIgPSBNb2RpZmllci53ZWlnaHQoMWYpKQogICAgICAgICAgICAgICAgSWNvbihJY29ucy5EZWZhdWx0LkFycm93RHJvcERvd24sIGNvbnRlbnREZXNjcmlwdGlvbiA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9zcGFjZV9zZWxlY3QpKQogICAgICAgICAgICB9CgogICAgICAgICAgICBEcm9wZG93bk1lbnUoCiAgICAgICAgICAgICAgICBleHBhbmRlZCA9IGV4cGFuZGVkLAogICAgICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IHsgZXhwYW5kZWQgPSBmYWxzZSB9LAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCgyMTguZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgcHJvZmlsZUxpc3QuZm9yRWFjaCB7IHByb2ZpbGVJZCAtPgogICAgICAgICAgICAgICAgICAgIHZhbCBwcm9maWxlTmFtZSA9IHByb2ZpbGVOYW1lTWFwW3Byb2ZpbGVJZF0gPzogcHJvZmlsZUlkCiAgICAgICAgICAgICAgICAgICAgRHJvcGRvd25NZW51SXRlbSgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHsgVGV4dChwcm9maWxlTmFtZSkgfSwKICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uUHJvZmlsZVNlbGVjdGVkKHByb2ZpbGVJZCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4cGFuZGVkID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKLyoqCiAqIOaWh+S7tuWkueagkeiKgueCueaVsOaNrue7k+aehAogKi8KZGF0YSBjbGFzcyBGb2xkZXJOb2RlKAogICAgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCBmdWxsUGF0aDogU3RyaW5nLAogICAgdmFsIGNoaWxkcmVuOiBNdXRhYmxlTGlzdDxGb2xkZXJOb2RlPiA9IG11dGFibGVMaXN0T2YoKSwKICAgIHZhciBpc0V4cGFuZGVkOiBCb29sZWFuID0gdHJ1ZQopCgovKioKICog5bem5L6n5paH5Lu25aS55a+86Iiq57uE5Lu2CiAqIEBwYXJhbSBmb2xkZXJQYXRocyDmiYDmnInmlofku7blpLnot6/lvoTliJfooajvvIjmiYHlubPnu5PmnoTvvIzlpoIgWyLlt6XkvZwv6aG555uuQSIsICLlt6XkvZwv6aG555uuQiIsICLnlJ/mtLsiXe+8iQogKiBAcGFyYW0gc2VsZWN0ZWRGb2xkZXJQYXRoIOW9k+WJjemAieS4reeahOaWh+S7tuWkuei3r+W+hAogKiBAcGFyYW0gb25Gb2xkZXJTZWxlY3RlZCDmlofku7blpLnpgInkuK3lm57osIMKICogQHBhcmFtIG9uRm9sZGVyUmVuYW1lIOmHjeWRveWQjeaWh+S7tuWkueWbnuiwgwogKiBAcGFyYW0gb25Gb2xkZXJEZWxldGUg5Yig6Zmk5paH5Lu25aS55Zue6LCDCiAqIEBwYXJhbSBvbkZvbGRlckNyZWF0ZSDliJvlu7rmlofku7blpLnlm57osIMKICovCkBDb21wb3NhYmxlCmZ1biBGb2xkZXJOYXZpZ2F0b3IoCiAgICBmb2xkZXJQYXRoczogTGlzdDxTdHJpbmc+LAogICAgc2VsZWN0ZWRGb2xkZXJQYXRoOiBTdHJpbmcsCiAgICBvbkZvbGRlclNlbGVjdGVkOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25Gb2xkZXJSZW5hbWU6ICgoU3RyaW5nLCBTdHJpbmcpIC0+IFVuaXQpPyA9IG51bGwsCiAgICBvbkZvbGRlckRlbGV0ZTogKChTdHJpbmcpIC0+IFVuaXQpPyA9IG51bGwsCiAgICBvbkZvbGRlckNyZWF0ZTogKChTdHJpbmcpIC0+IFVuaXQpPyA9IG51bGwsCiAgICBvblJlZnJlc2g6ICgoKSAtPiBVbml0KT8gPSBudWxsLAogICAgLy8gTmV3IHBhcmFtZXRlcnMgZm9yIHByb2ZpbGUgc2VsZWN0aW9uCiAgICBwcm9maWxlTGlzdDogTGlzdDxTdHJpbmc+LAogICAgcHJvZmlsZU5hbWVNYXA6IE1hcDxTdHJpbmcsIFN0cmluZz4sCiAgICBzZWxlY3RlZFByb2ZpbGVJZDogU3RyaW5nLAogICAgb25Qcm9maWxlU2VsZWN0ZWQ6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBvbkRpc21pc3NSZXF1ZXN0OiAoKSAtPiBVbml0LAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICAvLyDmnoTlu7rmlofku7blpLnmoJEKICAgIHZhbCByb290Tm9kZSA9IHJlbWVtYmVyKGZvbGRlclBhdGhzKSB7CiAgICAgICAgYnVpbGRGb2xkZXJUcmVlKGZvbGRlclBhdGhzKQogICAgfQoKICAgIC8vIOS9v+eUqCByZW1lbWJlckxvY2FsIOaMgeS5heWMluWxleW8gOeKtuaAge+8iOm7mOiupOS4uuepuu+8jOWNs+WFqOmDqOaKmOWPoO+8iQogICAgdmFyIGV4cGFuZGVkU3RhdGUgYnkgcmVtZW1iZXJMb2NhbCgKICAgICAgICBrZXkgPSAiZm9sZGVyX25hdmlnYXRvcl9leHBhbmRlZF9zdGF0ZSIsCiAgICAgICAgZGVmYXVsdFZhbHVlID0gRm9sZGVyRXhwYW5kZWRTdGF0ZSgpLAogICAgICAgIHNlcmlhbGl6ZXIgPSBzZXJpYWxpemVyKCkKICAgICkKICAgIAogICAgLy8g5a+56K+d5qGG54q25oCBCiAgICB2YXIgc2hvd0NyZWF0ZURpYWxvZyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YXIgc2hvd1JlbmFtZURpYWxvZyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YXIgc2hvd0RlbGV0ZURpYWxvZyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YXIgY29udGV4dE1lbnVGb2xkZXIgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZjxTdHJpbmc/PihudWxsKSB9CgogICAgU3VyZmFjZSgKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4SGVpZ2h0KCkKICAgICAgICAgICAgLndpZHRoKDI1MC5kcCksCiAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnN1cmZhY2UsCiAgICAgICAgdG9uYWxFbGV2YXRpb24gPSAyLmRwLAogICAgICAgIHNoYWRvd0VsZXZhdGlvbiA9IDQuZHAKICAgICkgewogICAgICAgICAgICAvLyDlsZXlvIDnirbmgIHvvJrmmL7npLrlrozmlbTmlofku7blpLnmoJEKICAgICAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFNpemUoKSkgewogICAgICAgICAgICAgICAgLy8g5qCH6aKY5ZKM5pS26LW35oyJ6ZKuCiAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcoMTYuZHApLAogICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5Gb2xkZXIsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsCiAgICAgICAgICAgICAgICAgICAgICAgIHRpbnQgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnksCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyNC5kcCkKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmZvbGRlcl9uYXZpZ2F0b3JfZm9sZGVyKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkudGl0bGVNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQsCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UsCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAvLyDmlLbotbfmjInpkq4KICAgICAgICAgICAgICAgICAgICBJY29uQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25EaXNtaXNzUmVxdWVzdAogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LkNoZXZyb25MZWZ0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuZm9sZGVybmF2X2Nsb3NlX3NpZGViYXIpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIEhvcml6b250YWxEaXZpZGVyKGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vdXRsaW5lVmFyaWFudCkKCiAgICAgICAgICAgICAgICBQcm9maWxlU2VsZWN0b3IoCiAgICAgICAgICAgICAgICAgICAgcHJvZmlsZUxpc3QgPSBwcm9maWxlTGlzdCwKICAgICAgICAgICAgICAgICAgICBwcm9maWxlTmFtZU1hcCA9IHByb2ZpbGVOYW1lTWFwLAogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkUHJvZmlsZUlkID0gc2VsZWN0ZWRQcm9maWxlSWQsCiAgICAgICAgICAgICAgICAgICAgb25Qcm9maWxlU2VsZWN0ZWQgPSBvblByb2ZpbGVTZWxlY3RlZAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAvLyDmlrDlu7rmlofku7blpLnmjInpkq7lkozliLfmlrDmjInpkq4KICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZyg4LmRwKSwKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwLCBBbGlnbm1lbnQuRW5kKQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgLy8g5Yi35paw5oyJ6ZKuCiAgICAgICAgICAgICAgICAgICAgaWYgKG9uUmVmcmVzaCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEljb25CdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25SZWZyZXNoLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDMyLmRwKQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5EZWZhdWx0LlJlZnJlc2gsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuZm9sZGVybmF2X3JlZnJlc2hfZm9sZGVycyksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc2Vjb25kYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIC8vIOaWsOW7uuaWh+S7tuWkueaMiemSrgogICAgICAgICAgICAgICAgICAgIEljb25CdXR0b24oCiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IHNob3dDcmVhdGVEaWFsb2cgPSB0cnVlIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgzMi5kcCkKICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5DcmVhdGVOZXdGb2xkZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5mb2xkZXJuYXZfbmV3X2ZvbGRlciksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aW50ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgLy8gIuWFqOmDqCLpgInpobkKICAgICAgICAgICAgICAgIEZvbGRlckl0ZW0oCiAgICAgICAgICAgICAgICAgICAgbmFtZSA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmZvbGRlcl9uYXZpZ2F0b3JfYWxsKSwKICAgICAgICAgICAgICAgICAgICBmdWxsUGF0aCA9ICIiLAogICAgICAgICAgICAgICAgICAgIGxldmVsID0gMCwKICAgICAgICAgICAgICAgICAgICBpc1NlbGVjdGVkID0gc2VsZWN0ZWRGb2xkZXJQYXRoLmlzRW1wdHkoKSwKICAgICAgICAgICAgICAgICAgICBpc0V4cGFuZGVkID0gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgaGFzQ2hpbGRyZW4gPSBmYWxzZSwKICAgICAgICAgICAgICAgICAgICBvblRvZ2dsZUV4cGFuZCA9IHt9LAogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IG9uRm9sZGVyU2VsZWN0ZWQoIiIpIH0sCiAgICAgICAgICAgICAgICAgICAgb25Mb25nQ2xpY2sgPSBudWxsCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgLy8g5paH5Lu25aS55qCRCiAgICAgICAgICAgICAgICBMYXp5Q29sdW1uKAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgICAgICAgICAgLndlaWdodCgxZikKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIHJlbmRlckZvbGRlclRyZWUoCiAgICAgICAgICAgICAgICAgICAgICAgIG5vZGVzID0gcm9vdE5vZGUuY2hpbGRyZW4sCiAgICAgICAgICAgICAgICAgICAgICAgIGxldmVsID0gMCwKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWRQYXRoID0gc2VsZWN0ZWRGb2xkZXJQYXRoLAogICAgICAgICAgICAgICAgICAgICAgICBleHBhbmRlZFBhdGhzID0gZXhwYW5kZWRTdGF0ZS5leHBhbmRlZFBhdGhzLAogICAgICAgICAgICAgICAgICAgICAgICBvblRvZ2dsZUV4cGFuZCA9IHsgcGF0aCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5oyB5LmF5YyW5bGV5byA54q25oCBCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHBhbmRlZFN0YXRlID0gaWYgKHBhdGggaW4gZXhwYW5kZWRTdGF0ZS5leHBhbmRlZFBhdGhzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhwYW5kZWRTdGF0ZS5jb3B5KGV4cGFuZGVkUGF0aHMgPSBleHBhbmRlZFN0YXRlLmV4cGFuZGVkUGF0aHMgLSBwYXRoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBleHBhbmRlZFN0YXRlLmNvcHkoZXhwYW5kZWRQYXRocyA9IGV4cGFuZGVkU3RhdGUuZXhwYW5kZWRQYXRocyArIHBhdGgpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgICAgICAgICAgIG9uRm9sZGVyU2VsZWN0ZWQgPSBvbkZvbGRlclNlbGVjdGVkLAogICAgICAgICAgICAgICAgICAgICAgICBvbkZvbGRlckxvbmdDbGljayA9IHsgcGF0aCAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dE1lbnVGb2xkZXIgPSBwYXRoCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgIH0KICAgIAogICAgLy8g5a+56K+d5qGGCiAgICBpZiAoc2hvd0NyZWF0ZURpYWxvZykgewogICAgICAgIEZvbGRlckNyZWF0ZURpYWxvZygKICAgICAgICAgICAgb25EaXNtaXNzID0geyBzaG93Q3JlYXRlRGlhbG9nID0gZmFsc2UgfSwKICAgICAgICAgICAgb25DcmVhdGUgPSB7IG5ld1BhdGggLT4KICAgICAgICAgICAgICAgIG9uRm9sZGVyQ3JlYXRlPy5pbnZva2UobmV3UGF0aCkKICAgICAgICAgICAgICAgIHNob3dDcmVhdGVEaWFsb2cgPSBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgKQogICAgfQogICAgCiAgICBpZiAoc2hvd1JlbmFtZURpYWxvZyAmJiBjb250ZXh0TWVudUZvbGRlciAhPSBudWxsKSB7CiAgICAgICAgRm9sZGVyUmVuYW1lRGlhbG9nKAogICAgICAgICAgICBjdXJyZW50UGF0aCA9IGNvbnRleHRNZW51Rm9sZGVyISEsCiAgICAgICAgICAgIG9uRGlzbWlzcyA9IHsKICAgICAgICAgICAgICAgIHNob3dSZW5hbWVEaWFsb2cgPSBmYWxzZQogICAgICAgICAgICAgICAgY29udGV4dE1lbnVGb2xkZXIgPSBudWxsCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIG9uUmVuYW1lID0geyBuZXdQYXRoIC0+CiAgICAgICAgICAgICAgICBvbkZvbGRlclJlbmFtZT8uaW52b2tlKGNvbnRleHRNZW51Rm9sZGVyISEsIG5ld1BhdGgpCiAgICAgICAgICAgICAgICBzaG93UmVuYW1lRGlhbG9nID0gZmFsc2UKICAgICAgICAgICAgICAgIGNvbnRleHRNZW51Rm9sZGVyID0gbnVsbAogICAgICAgICAgICB9CiAgICAgICAgKQogICAgfQogICAgCiAgICBpZiAoc2hvd0RlbGV0ZURpYWxvZyAmJiBjb250ZXh0TWVudUZvbGRlciAhPSBudWxsKSB7CiAgICAgICAgRm9sZGVyRGVsZXRlRGlhbG9nKAogICAgICAgICAgICBmb2xkZXJQYXRoID0gY29udGV4dE1lbnVGb2xkZXIhISwKICAgICAgICAgICAgb25EaXNtaXNzID0gewogICAgICAgICAgICAgICAgc2hvd0RlbGV0ZURpYWxvZyA9IGZhbHNlCiAgICAgICAgICAgICAgICBjb250ZXh0TWVudUZvbGRlciA9IG51bGwKICAgICAgICAgICAgfSwKICAgICAgICAgICAgb25Db25maXJtID0gewogICAgICAgICAgICAgICAgb25Gb2xkZXJEZWxldGU/Lmludm9rZShjb250ZXh0TWVudUZvbGRlciEhKQogICAgICAgICAgICAgICAgc2hvd0RlbGV0ZURpYWxvZyA9IGZhbHNlCiAgICAgICAgICAgICAgICBjb250ZXh0TWVudUZvbGRlciA9IG51bGwKICAgICAgICAgICAgfQogICAgICAgICkKICAgIH0KICAgIAogICAgLy8g5Y+z6ZSu6I+c5Y2V77yI5LiN5LiO5YW25LuW5a+56K+d5qGG5ZCM5pe25pi+56S677yJCiAgICBpZiAoY29udGV4dE1lbnVGb2xkZXIgIT0gbnVsbCAmJiAhc2hvd1JlbmFtZURpYWxvZyAmJiAhc2hvd0RlbGV0ZURpYWxvZykgewogICAgICAgIEZvbGRlckNvbnRleHRNZW51KAogICAgICAgICAgICBmb2xkZXJQYXRoID0gY29udGV4dE1lbnVGb2xkZXIhISwKICAgICAgICAgICAgb25EaXNtaXNzID0geyBjb250ZXh0TWVudUZvbGRlciA9IG51bGwgfSwKICAgICAgICAgICAgb25SZW5hbWUgPSB7CiAgICAgICAgICAgICAgICBzaG93UmVuYW1lRGlhbG9nID0gdHJ1ZQogICAgICAgICAgICB9LAogICAgICAgICAgICBvbkRlbGV0ZSA9IHsKICAgICAgICAgICAgICAgIHNob3dEZWxldGVEaWFsb2cgPSB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICApCiAgICB9Cn0KCi8qKgogKiDpgJLlvZLmuLLmn5Pmlofku7blpLnmoJEKICovCkBPcHRJbihFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpOjpjbGFzcykKcHJpdmF0ZSBmdW4gTGF6eUxpc3RTY29wZS5yZW5kZXJGb2xkZXJUcmVlKAogICAgbm9kZXM6IExpc3Q8Rm9sZGVyTm9kZT4sCiAgICBsZXZlbDogSW50LAogICAgc2VsZWN0ZWRQYXRoOiBTdHJpbmcsCiAgICBleHBhbmRlZFBhdGhzOiBTZXQ8U3RyaW5nPiwKICAgIG9uVG9nZ2xlRXhwYW5kOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25Gb2xkZXJTZWxlY3RlZDogKFN0cmluZykgLT4gVW5pdCwKICAgIG9uRm9sZGVyTG9uZ0NsaWNrOiAoU3RyaW5nKSAtPiBVbml0CikgewogICAgbm9kZXMuZm9yRWFjaCB7IG5vZGUgLT4KICAgICAgICB2YWwgaXNFeHBhbmRlZCA9IG5vZGUuZnVsbFBhdGggaW4gZXhwYW5kZWRQYXRocwogICAgICAgIHZhbCBoYXNDaGlsZHJlbiA9IG5vZGUuY2hpbGRyZW4uaXNOb3RFbXB0eSgpCgogICAgICAgIGl0ZW0oa2V5ID0gbm9kZS5mdWxsUGF0aCkgewogICAgICAgICAgICBGb2xkZXJJdGVtKAogICAgICAgICAgICAgICAgbmFtZSA9IG5vZGUubmFtZSwKICAgICAgICAgICAgICAgIGZ1bGxQYXRoID0gbm9kZS5mdWxsUGF0aCwKICAgICAgICAgICAgICAgIGxldmVsID0gbGV2ZWwsCiAgICAgICAgICAgICAgICBpc1NlbGVjdGVkID0gc2VsZWN0ZWRQYXRoID09IG5vZGUuZnVsbFBhdGgsCiAgICAgICAgICAgICAgICBpc0V4cGFuZGVkID0gaXNFeHBhbmRlZCwKICAgICAgICAgICAgICAgIGhhc0NoaWxkcmVuID0gaGFzQ2hpbGRyZW4sCiAgICAgICAgICAgICAgICBvblRvZ2dsZUV4cGFuZCA9IHsgb25Ub2dnbGVFeHBhbmQobm9kZS5mdWxsUGF0aCkgfSwKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IG9uRm9sZGVyU2VsZWN0ZWQobm9kZS5mdWxsUGF0aCkgfSwKICAgICAgICAgICAgICAgIG9uTG9uZ0NsaWNrID0geyBvbkZvbGRlckxvbmdDbGljayhub2RlLmZ1bGxQYXRoKSB9LAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5hbmltYXRlSXRlbShwbGFjZW1lbnRTcGVjID0gdHdlZW4oZHVyYXRpb25NaWxsaXMgPSAzMDApKQogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICAvLyDlpoLmnpzlsZXlvIDkuJTmnInlrZDoioLngrnvvIzpgJLlvZLmuLLmn5MKICAgICAgICBpZiAoaXNFeHBhbmRlZCAmJiBoYXNDaGlsZHJlbikgewogICAgICAgICAgICByZW5kZXJGb2xkZXJUcmVlKAogICAgICAgICAgICAgICAgbm9kZXMgPSBub2RlLmNoaWxkcmVuLAogICAgICAgICAgICAgICAgbGV2ZWwgPSBsZXZlbCArIDEsCiAgICAgICAgICAgICAgICBzZWxlY3RlZFBhdGggPSBzZWxlY3RlZFBhdGgsCiAgICAgICAgICAgICAgICBleHBhbmRlZFBhdGhzID0gZXhwYW5kZWRQYXRocywKICAgICAgICAgICAgICAgIG9uVG9nZ2xlRXhwYW5kID0gb25Ub2dnbGVFeHBhbmQsCiAgICAgICAgICAgICAgICBvbkZvbGRlclNlbGVjdGVkID0gb25Gb2xkZXJTZWxlY3RlZCwKICAgICAgICAgICAgICAgIG9uRm9sZGVyTG9uZ0NsaWNrID0gb25Gb2xkZXJMb25nQ2xpY2sKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKLyoqCiAqIOWNleS4quaWh+S7tuWkuemhuQogKi8KQE9wdEluKEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBGb2xkZXJJdGVtKAogICAgbmFtZTogU3RyaW5nLAogICAgZnVsbFBhdGg6IFN0cmluZywKICAgIGxldmVsOiBJbnQsCiAgICBpc1NlbGVjdGVkOiBCb29sZWFuLAogICAgaXNFeHBhbmRlZDogQm9vbGVhbiwKICAgIGhhc0NoaWxkcmVuOiBCb29sZWFuLAogICAgb25Ub2dnbGVFeHBhbmQ6ICgpIC0+IFVuaXQsCiAgICBvbkNsaWNrOiAoKSAtPiBVbml0LAogICAgb25Mb25nQ2xpY2s6ICgoKSAtPiBVbml0KT8sCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllcgopIHsKICAgIHZhbCBiYWNrZ3JvdW5kQ29sb3IgPSBpZiAoaXNTZWxlY3RlZCkgewogICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeUNvbnRhaW5lci5jb3B5KGFscGhhID0gMC44ZikKICAgIH0gZWxzZSB7CiAgICAgICAgQ29sb3IuVHJhbnNwYXJlbnQKICAgIH0KCiAgICB2YWwgdGV4dENvbG9yID0gaWYgKGlzU2VsZWN0ZWQpIHsKICAgICAgICBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgIH0gZWxzZSB7CiAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UKICAgIH0KICAgIAogICAgLy8g5bGV5byA566t5aS055qE5peL6L2s5Yqo55S7CiAgICB2YWwgcm90YXRpb25BbmdsZSBieSBhbmltYXRlRmxvYXRBc1N0YXRlKAogICAgICAgIHRhcmdldFZhbHVlID0gaWYgKGlzRXhwYW5kZWQpIDkwZiBlbHNlIDBmLAogICAgICAgIGFuaW1hdGlvblNwZWMgPSB0d2VlbihkdXJhdGlvbk1pbGxpcyA9IDIwMCksCiAgICAgICAgbGFiZWwgPSAiZXhwYW5kX3JvdGF0aW9uIgogICAgKQoKICAgIFJvdygKICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gOC5kcCwgdmVydGljYWwgPSAyLmRwKQogICAgICAgICAgICAuY2xpcChSb3VuZGVkQ29ybmVyU2hhcGUoOC5kcCkpCiAgICAgICAgICAgIC5iYWNrZ3JvdW5kKGJhY2tncm91bmRDb2xvcikKICAgICAgICAgICAgLnRoZW4oCiAgICAgICAgICAgICAgICBpZiAob25Mb25nQ2xpY2sgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyLmNvbWJpbmVkQ2xpY2thYmxlKAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25DbGljaywKICAgICAgICAgICAgICAgICAgICAgICAgb25Mb25nQ2xpY2sgPSBvbkxvbmdDbGljawogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgTW9kaWZpZXIuY2xpY2thYmxlIHsgb25DbGljaygpIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgKQogICAgICAgICAgICAucGFkZGluZyhzdGFydCA9ICg4ICsgbGV2ZWwgKiAxNikuZHAsIHRvcCA9IDEwLmRwLCBib3R0b20gPSAxMC5kcCwgZW5kID0gMTIuZHApLAogICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICkgewogICAgICAgIC8vIOWxleW8gC/mipjlj6Dlm77moIcKICAgICAgICBpZiAoaGFzQ2hpbGRyZW4pIHsKICAgICAgICAgICAgSWNvbkJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBvblRvZ2dsZUV4cGFuZCwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyMC5kcCkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5DaGV2cm9uUmlnaHQsCiAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gaWYgKGlzRXhwYW5kZWQpIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jb2xsYXBzZSkgZWxzZSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfZXhwYW5kKSwKICAgICAgICAgICAgICAgICAgICB0aW50ID0gdGV4dENvbG9yLmNvcHkoYWxwaGEgPSAwLjdmKSwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgIC5zaXplKDE2LmRwKQogICAgICAgICAgICAgICAgICAgICAgICAucm90YXRlKHJvdGF0aW9uQW5nbGUpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoNC5kcCkpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoMjQuZHApKQogICAgICAgIH0KCiAgICAgICAgLy8g5paH5Lu25aS55Zu+5qCHCiAgICAgICAgSWNvbigKICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBpZiAoaGFzQ2hpbGRyZW4gJiYgaXNFeHBhbmRlZCkgSWNvbnMuRGVmYXVsdC5Gb2xkZXJPcGVuIGVsc2UgSWNvbnMuRGVmYXVsdC5Gb2xkZXIsCiAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmZvbGRlcm5hdl9mb2xkZXIpLAogICAgICAgICAgICB0aW50ID0gaWYgKGlzU2VsZWN0ZWQpIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeSBlbHNlIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDIwLmRwKQogICAgICAgICkKCiAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoMTIuZHApKQoKICAgICAgICAvLyDmlofku7blpLnlkI3np7AKICAgICAgICBUZXh0KAogICAgICAgICAgICB0ZXh0ID0gbmFtZSwKICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSwKICAgICAgICAgICAgY29sb3IgPSB0ZXh0Q29sb3IsCiAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBpZiAoaXNTZWxlY3RlZCkgRm9udFdlaWdodC5TZW1pQm9sZCBlbHNlIEZvbnRXZWlnaHQuTm9ybWFsCiAgICAgICAgKQogICAgfQp9CgovKioKICog5LuO5omB5bmz6Lev5b6E5YiX6KGo5p6E5bu65paH5Lu25aS55qCRCiAqIEBwYXJhbSBwYXRocyDot6/lvoTliJfooajvvIzlpoIgWyLlt6XkvZwv6aG555uuQSIsICLlt6XkvZwv6aG555uuQiIsICLnlJ/mtLsv5YGl5bq3Il0KICogQHJldHVybiDmoLnoioLngrnvvIjomZrmi5/moLnoioLngrnvvIzkuI3mmL7npLrvvIkKICovCnByaXZhdGUgZnVuIGJ1aWxkRm9sZGVyVHJlZShwYXRoczogTGlzdDxTdHJpbmc+KTogRm9sZGVyTm9kZSB7CiAgICB2YWwgcm9vdCA9IEZvbGRlck5vZGUoIiIsICIiKQoKICAgIHBhdGhzLmZvckVhY2ggeyBwYXRoIC0+CiAgICAgICAgaWYgKHBhdGguaXNCbGFuaygpKSByZXR1cm5AZm9yRWFjaAoKICAgICAgICB2YWwgcGFydHMgPSBwYXRoLnNwbGl0KCIvIikuZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICB2YXIgY3VycmVudE5vZGUgPSByb290CiAgICAgICAgdmFyIGN1cnJlbnRQYXRoID0gIiIKCiAgICAgICAgcGFydHMuZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgcGFydCAtPgogICAgICAgICAgICBjdXJyZW50UGF0aCA9IGlmIChjdXJyZW50UGF0aC5pc0VtcHR5KCkpIHBhcnQgZWxzZSAiJGN1cnJlbnRQYXRoLyRwYXJ0IgoKICAgICAgICAgICAgLy8g5p+l5om+5piv5ZCm5bey5pyJ5q2k6IqC54K5CiAgICAgICAgICAgIHZhciBjaGlsZE5vZGUgPSBjdXJyZW50Tm9kZS5jaGlsZHJlbi5maW5kIHsgaXQubmFtZSA9PSBwYXJ0IH0KICAgICAgICAgICAgaWYgKGNoaWxkTm9kZSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAvLyDliJvlu7rmlrDoioLngrkKICAgICAgICAgICAgICAgIGNoaWxkTm9kZSA9IEZvbGRlck5vZGUoCiAgICAgICAgICAgICAgICAgICAgbmFtZSA9IHBhcnQsCiAgICAgICAgICAgICAgICAgICAgZnVsbFBhdGggPSBjdXJyZW50UGF0aCwKICAgICAgICAgICAgICAgICAgICBpc0V4cGFuZGVkID0gZmFsc2UgLy8g6buY6K6k5pS26LW3CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBjdXJyZW50Tm9kZS5jaGlsZHJlbi5hZGQoY2hpbGROb2RlKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGN1cnJlbnROb2RlID0gY2hpbGROb2RlCiAgICAgICAgfQogICAgfQoKICAgIHJldHVybiByb290Cn0KCi8qKgogKiDmlofku7blpLnlj7PplK7oj5zljZUKICovCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIEZvbGRlckNvbnRleHRNZW51KAogICAgZm9sZGVyUGF0aDogU3RyaW5nLAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0LAogICAgb25SZW5hbWU6ICgpIC0+IFVuaXQsCiAgICBvbkRlbGV0ZTogKCkgLT4gVW5pdAopIHsKICAgIGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkFsZXJ0RGlhbG9nKAogICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3MsCiAgICAgICAgdGl0bGUgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2ZvbGRlcl9vcGVyYXRpb25zKSkgfSwKICAgICAgICB0ZXh0ID0gewogICAgICAgICAgICBDb2x1bW4gewogICAgICAgICAgICAgICAgVGV4dCgiJHtzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfZm9sZGVyX2xhYmVsKX06ICRmb2xkZXJQYXRoIiwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICBSb3coaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkpIHsKICAgICAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICBvblJlbmFtZSgpCiAgICAgICAgICAgICAgICAgICAgLy8g5LiN6LCD55SoIG9uRGlzbWlzcygp77yM6K6p6I+c5Y2V6Ieq5Yqo6ZqQ6JePCiAgICAgICAgICAgICAgICB9KSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfcmVuYW1lX2ZvbGRlcikpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7CiAgICAgICAgICAgICAgICAgICAgb25EZWxldGUoKQogICAgICAgICAgICAgICAgICAgIC8vIOS4jeiwg+eUqCBvbkRpc21pc3MoKe+8jOiuqeiPnOWNleiHquWKqOmakOiXjwogICAgICAgICAgICAgICAgfSkgewogICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2RlbGV0ZSksIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvcikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgZGlzbWlzc0J1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0gb25EaXNtaXNzKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jYW5jZWwpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgKQp9CgovKioKICog5Yib5bu65paH5Lu25aS55a+56K+d5qGGCiAqLwpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBGb2xkZXJDcmVhdGVEaWFsb2coCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQsCiAgICBvbkNyZWF0ZTogKFN0cmluZykgLT4gVW5pdAopIHsKICAgIHZhciBmb2xkZXJOYW1lIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoIiIpIH0KICAgIAogICAgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzcywKICAgICAgICB0aXRsZSA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfY3JlYXRlX2ZvbGRlcikpIH0sCiAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgQ29sdW1uIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2ZvbGRlcl9wYXRoX2hpbnQpLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwpCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5PdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IGZvbGRlck5hbWUsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgZm9sZGVyTmFtZSA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2ZvbGRlcl9wYXRoX2xhYmVsKSkgfSwKICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlciA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfZm9sZGVyX3BhdGhfZXhhbXBsZSkpIH0sCiAgICAgICAgICAgICAgICAgICAgc2luZ2xlTGluZSA9IHRydWUKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSB7IGlmIChmb2xkZXJOYW1lLmlzTm90QmxhbmsoKSkgb25DcmVhdGUoZm9sZGVyTmFtZS50cmltKCkpIH0sCiAgICAgICAgICAgICAgICBlbmFibGVkID0gZm9sZGVyTmFtZS5pc05vdEJsYW5rKCkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jcmVhdGUpKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBkaXNtaXNzQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3MpIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2NhbmNlbCkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApCn0KCi8qKgogKiDph43lkb3lkI3mlofku7blpLnlr7nor53moYYKICovCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIEZvbGRlclJlbmFtZURpYWxvZygKICAgIGN1cnJlbnRQYXRoOiBTdHJpbmcsCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQsCiAgICBvblJlbmFtZTogKFN0cmluZykgLT4gVW5pdAopIHsKICAgIHZhciBuZXdOYW1lIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YoY3VycmVudFBhdGgpIH0KICAgIAogICAgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzcywKICAgICAgICB0aXRsZSA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfcmVuYW1lX2ZvbGRlcikpIH0sCiAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgQ29sdW1uIHsKICAgICAgICAgICAgICAgIFRleHQoIiR7c3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X2N1cnJlbnRfcGF0aCl9OiAkY3VycmVudFBhdGgiLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwpCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5PdXRsaW5lZFRleHRGaWVsZCgKICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IG5ld05hbWUsCiAgICAgICAgICAgICAgICAgICAgb25WYWx1ZUNoYW5nZSA9IHsgbmV3TmFtZSA9IGl0IH0sCiAgICAgICAgICAgICAgICAgICAgbGFiZWwgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubWVtb3J5X25ld19wYXRoKSkgfSwKICAgICAgICAgICAgICAgICAgICBzaW5nbGVMaW5lID0gdHJ1ZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKAogICAgICAgICAgICAgICAgb25DbGljayA9IHsgaWYgKG5ld05hbWUuaXNOb3RCbGFuaygpICYmIG5ld05hbWUgIT0gY3VycmVudFBhdGgpIG9uUmVuYW1lKG5ld05hbWUudHJpbSgpKSB9LAogICAgICAgICAgICAgICAgZW5hYmxlZCA9IG5ld05hbWUuaXNOb3RCbGFuaygpICYmIG5ld05hbWUgIT0gY3VycmVudFBhdGgKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9yZW5hbWVfZm9sZGVyKSkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgZGlzbWlzc0J1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0gb25EaXNtaXNzKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jYW5jZWwpKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgKQp9CgovKioKICog5Yig6Zmk5paH5Lu25aS556Gu6K6k5a+56K+d5qGGCiAqLwpAQ29tcG9zYWJsZQpwcml2YXRlIGZ1biBGb2xkZXJEZWxldGVEaWFsb2coCiAgICBmb2xkZXJQYXRoOiBTdHJpbmcsCiAgICBvbkRpc21pc3M6ICgpIC0+IFVuaXQsCiAgICBvbkNvbmZpcm06ICgpIC0+IFVuaXQKKSB7CiAgICBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzLAogICAgICAgIHRpdGxlID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jb25maXJtX2RlbGV0ZV9mb2xkZXIpKSB9LAogICAgICAgIHRleHQgPSB7CiAgICAgICAgICAgIENvbHVtbiB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jb25maXJtX2RlbGV0ZV9mb2xkZXJfbWVzc2FnZSksIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0pCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICBUZXh0KCIke3N0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9mb2xkZXJfbGFiZWwpfTogJGZvbGRlclBhdGgiLCBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5U21hbGwpCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoOC5kcCkpCiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9kZWxldGVfZm9sZGVyX3dhcm5pbmcpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgY29uZmlybUJ1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0gb25Db25maXJtKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1lbW9yeV9jb25maXJtX2RlbGV0ZV9hY3Rpb24pLCBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGRpc21pc3NCdXR0b24gPSB7CiAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IG9uRGlzbWlzcykgewogICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5tZW1vcnlfY2FuY2VsKSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICkKfQo=
+package com.bslsjdk.operit.ui.features.memory.screens
+
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.tween
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.combinedClickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListScope
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.draw.rotate
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.width
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.common.rememberLocal
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.serializer
+
+/**
+ * 文件夹展开状态的持久化数据类（与 MemoryFolderSelectionDialog 共享）
+ */
+@Serializable
+data class FolderExpandedState(
+    val expandedPaths: Set<String> = emptySet()
+)
+
+/**
+ * Memory-space selector and metadata controls. Memory contents stay in the existing ObjectBox
+ * database keyed by the stable space id.
+ */
+@Composable
+private fun ProfileSelector(
+    profileList: List<String>,
+    profileNameMap: Map<String, String>,
+    selectedProfileId: String,
+    onProfileSelected: (String) -> Unit
+) {
+    var expanded by remember { mutableStateOf(false) }
+    val selectedProfileName = profileNameMap[selectedProfileId] ?: selectedProfileId
+
+    Column(modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)) {
+        Box {
+            OutlinedButton(
+                onClick = { expanded = true },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text(selectedProfileName, modifier = Modifier.weight(1f))
+                Icon(Icons.Default.ArrowDropDown, contentDescription = stringResource(R.string.memory_space_select))
+            }
+
+            DropdownMenu(
+                expanded = expanded,
+                onDismissRequest = { expanded = false },
+                modifier = Modifier.width(218.dp)
+            ) {
+                profileList.forEach { profileId ->
+                    val profileName = profileNameMap[profileId] ?: profileId
+                    DropdownMenuItem(
+                        text = { Text(profileName) },
+                        onClick = {
+                            onProfileSelected(profileId)
+                            expanded = false
+                        }
+                    )
+                }
+            }
+        }
+    }
+}
+
+/**
+ * 文件夹树节点数据结构
+ */
+data class FolderNode(
+    val name: String,
+    val fullPath: String,
+    val children: MutableList<FolderNode> = mutableListOf(),
+    var isExpanded: Boolean = true
+)
+
+/**
+ * 左侧文件夹导航组件
+ * @param folderPaths 所有文件夹路径列表（扁平结构，如 ["工作/项目A", "工作/项目B", "生活"]）
+ * @param selectedFolderPath 当前选中的文件夹路径
+ * @param onFolderSelected 文件夹选中回调
+ * @param onFolderRename 重命名文件夹回调
+ * @param onFolderDelete 删除文件夹回调
+ * @param onFolderCreate 创建文件夹回调
+ */
+@Composable
+fun FolderNavigator(
+    folderPaths: List<String>,
+    selectedFolderPath: String,
+    onFolderSelected: (String) -> Unit,
+    onFolderRename: ((String, String) -> Unit)? = null,
+    onFolderDelete: ((String) -> Unit)? = null,
+    onFolderCreate: ((String) -> Unit)? = null,
+    onRefresh: (() -> Unit)? = null,
+    // New parameters for profile selection
+    profileList: List<String>,
+    profileNameMap: Map<String, String>,
+    selectedProfileId: String,
+    onProfileSelected: (String) -> Unit,
+    onDismissRequest: () -> Unit,
+    modifier: Modifier = Modifier
+) {
+    // 构建文件夹树
+    val rootNode = remember(folderPaths) {
+        buildFolderTree(folderPaths)
+    }
+
+    // 使用 rememberLocal 持久化展开状态（默认为空，即全部折叠）
+    var expandedState by rememberLocal(
+        key = "folder_navigator_expanded_state",
+        defaultValue = FolderExpandedState(),
+        serializer = serializer()
+    )
+    
+    // 对话框状态
+    var showCreateDialog by remember { mutableStateOf(false) }
+    var showRenameDialog by remember { mutableStateOf(false) }
+    var showDeleteDialog by remember { mutableStateOf(false) }
+    var contextMenuFolder by remember { mutableStateOf<String?>(null) }
+
+    Surface(
+        modifier = modifier
+            .fillMaxHeight()
+            .width(250.dp),
+        color = MaterialTheme.colorScheme.surface,
+        tonalElevation = 2.dp,
+        shadowElevation = 4.dp
+    ) {
+            // 展开状态：显示完整文件夹树
+            Column(modifier = Modifier.fillMaxSize()) {
+                // 标题和收起按钮
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Folder,
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.size(24.dp)
+                    )
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(
+                        text = stringResource(R.string.folder_navigator_folder),
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSurface,
+                        modifier = Modifier.weight(1f)
+                    )
+                    
+                    // 收起按钮
+                    IconButton(
+                        onClick = onDismissRequest
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.ChevronLeft,
+                            contentDescription = stringResource(R.string.foldernav_close_sidebar),
+                            tint = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+
+                HorizontalDivider(color = MaterialTheme.colorScheme.outlineVariant)
+
+                ProfileSelector(
+                    profileList = profileList,
+                    profileNameMap = profileNameMap,
+                    selectedProfileId = selectedProfileId,
+                    onProfileSelected = onProfileSelected
+                )
+                
+                // 新建文件夹按钮和刷新按钮
+                Row(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(8.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp, Alignment.End)
+                ) {
+                    // 刷新按钮
+                    if (onRefresh != null) {
+                        IconButton(
+                            onClick = onRefresh,
+                            modifier = Modifier.size(32.dp)
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Refresh,
+                                contentDescription = stringResource(R.string.foldernav_refresh_folders),
+                                tint = MaterialTheme.colorScheme.secondary
+                            )
+                        }
+                    }
+
+                    // 新建文件夹按钮
+                    IconButton(
+                        onClick = { showCreateDialog = true },
+                        modifier = Modifier.size(32.dp)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.CreateNewFolder,
+                            contentDescription = stringResource(R.string.foldernav_new_folder),
+                            tint = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                }
+
+                // "全部"选项
+                FolderItem(
+                    name = stringResource(R.string.folder_navigator_all),
+                    fullPath = "",
+                    level = 0,
+                    isSelected = selectedFolderPath.isEmpty(),
+                    isExpanded = false,
+                    hasChildren = false,
+                    onToggleExpand = {},
+                    onClick = { onFolderSelected("") },
+                    onLongClick = null
+                )
+
+                // 文件夹树
+                LazyColumn(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .weight(1f)
+                ) {
+                    renderFolderTree(
+                        nodes = rootNode.children,
+                        level = 0,
+                        selectedPath = selectedFolderPath,
+                        expandedPaths = expandedState.expandedPaths,
+                        onToggleExpand = { path ->
+                            // 持久化展开状态
+                            expandedState = if (path in expandedState.expandedPaths) {
+                                expandedState.copy(expandedPaths = expandedState.expandedPaths - path)
+                            } else {
+                                expandedState.copy(expandedPaths = expandedState.expandedPaths + path)
+                            }
+                        },
+                        onFolderSelected = onFolderSelected,
+                        onFolderLongClick = { path ->
+                            contextMenuFolder = path
+                        }
+                    )
+                }
+            }
+    }
+    
+    // 对话框
+    if (showCreateDialog) {
+        FolderCreateDialog(
+            onDismiss = { showCreateDialog = false },
+            onCreate = { newPath ->
+                onFolderCreate?.invoke(newPath)
+                showCreateDialog = false
+            }
+        )
+    }
+    
+    if (showRenameDialog && contextMenuFolder != null) {
+        FolderRenameDialog(
+            currentPath = contextMenuFolder!!,
+            onDismiss = {
+                showRenameDialog = false
+                contextMenuFolder = null
+            },
+            onRename = { newPath ->
+                onFolderRename?.invoke(contextMenuFolder!!, newPath)
+                showRenameDialog = false
+                contextMenuFolder = null
+            }
+        )
+    }
+    
+    if (showDeleteDialog && contextMenuFolder != null) {
+        FolderDeleteDialog(
+            folderPath = contextMenuFolder!!,
+            onDismiss = {
+                showDeleteDialog = false
+                contextMenuFolder = null
+            },
+            onConfirm = {
+                onFolderDelete?.invoke(contextMenuFolder!!)
+                showDeleteDialog = false
+                contextMenuFolder = null
+            }
+        )
+    }
+    
+    // 右键菜单（不与其他对话框同时显示）
+    if (contextMenuFolder != null && !showRenameDialog && !showDeleteDialog) {
+        FolderContextMenu(
+            folderPath = contextMenuFolder!!,
+            onDismiss = { contextMenuFolder = null },
+            onRename = {
+                showRenameDialog = true
+            },
+            onDelete = {
+                showDeleteDialog = true
+            }
+        )
+    }
+}
+
+/**
+ * 递归渲染文件夹树
+ */
+@OptIn(ExperimentalFoundationApi::class)
+private fun LazyListScope.renderFolderTree(
+    nodes: List<FolderNode>,
+    level: Int,
+    selectedPath: String,
+    expandedPaths: Set<String>,
+    onToggleExpand: (String) -> Unit,
+    onFolderSelected: (String) -> Unit,
+    onFolderLongClick: (String) -> Unit
+) {
+    nodes.forEach { node ->
+        val isExpanded = node.fullPath in expandedPaths
+        val hasChildren = node.children.isNotEmpty()
+
+        item(key = node.fullPath) {
+            FolderItem(
+                name = node.name,
+                fullPath = node.fullPath,
+                level = level,
+                isSelected = selectedPath == node.fullPath,
+                isExpanded = isExpanded,
+                hasChildren = hasChildren,
+                onToggleExpand = { onToggleExpand(node.fullPath) },
+                onClick = { onFolderSelected(node.fullPath) },
+                onLongClick = { onFolderLongClick(node.fullPath) },
+                modifier = Modifier.animateItem(placementSpec = tween(durationMillis = 300))
+            )
+        }
+
+        // 如果展开且有子节点，递归渲染
+        if (isExpanded && hasChildren) {
+            renderFolderTree(
+                nodes = node.children,
+                level = level + 1,
+                selectedPath = selectedPath,
+                expandedPaths = expandedPaths,
+                onToggleExpand = onToggleExpand,
+                onFolderSelected = onFolderSelected,
+                onFolderLongClick = onFolderLongClick
+            )
+        }
+    }
+}
+
+/**
+ * 单个文件夹项
+ */
+@OptIn(ExperimentalFoundationApi::class)
+@Composable
+private fun FolderItem(
+    name: String,
+    fullPath: String,
+    level: Int,
+    isSelected: Boolean,
+    isExpanded: Boolean,
+    hasChildren: Boolean,
+    onToggleExpand: () -> Unit,
+    onClick: () -> Unit,
+    onLongClick: (() -> Unit)?,
+    modifier: Modifier = Modifier
+) {
+    val backgroundColor = if (isSelected) {
+        MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.8f)
+    } else {
+        Color.Transparent
+    }
+
+    val textColor = if (isSelected) {
+        MaterialTheme.colorScheme.primary
+    } else {
+        MaterialTheme.colorScheme.onSurface
+    }
+    
+    // 展开箭头的旋转动画
+    val rotationAngle by animateFloatAsState(
+        targetValue = if (isExpanded) 90f else 0f,
+        animationSpec = tween(durationMillis = 200),
+        label = "expand_rotation"
+    )
+
+    Row(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(horizontal = 8.dp, vertical = 2.dp)
+            .clip(RoundedCornerShape(8.dp))
+            .background(backgroundColor)
+            .then(
+                if (onLongClick != null) {
+                    Modifier.combinedClickable(
+                        onClick = onClick,
+                        onLongClick = onLongClick
+                    )
+                } else {
+                    Modifier.clickable { onClick() }
+                }
+            )
+            .padding(start = (8 + level * 16).dp, top = 10.dp, bottom = 10.dp, end = 12.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        // 展开/折叠图标
+        if (hasChildren) {
+            IconButton(
+                onClick = onToggleExpand,
+                modifier = Modifier.size(20.dp)
+            ) {
+                Icon(
+                    imageVector = Icons.Default.ChevronRight,
+                    contentDescription = if (isExpanded) stringResource(R.string.memory_collapse) else stringResource(R.string.memory_expand),
+                    tint = textColor.copy(alpha = 0.7f),
+                    modifier = Modifier
+                        .size(16.dp)
+                        .rotate(rotationAngle)
+                )
+            }
+            Spacer(modifier = Modifier.width(4.dp))
+        } else {
+            Spacer(modifier = Modifier.width(24.dp))
+        }
+
+        // 文件夹图标
+        Icon(
+            imageVector = if (hasChildren && isExpanded) Icons.Default.FolderOpen else Icons.Default.Folder,
+            contentDescription = stringResource(R.string.foldernav_folder),
+            tint = if (isSelected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.size(20.dp)
+        )
+
+        Spacer(modifier = Modifier.width(12.dp))
+
+        // 文件夹名称
+        Text(
+            text = name,
+            style = MaterialTheme.typography.bodyMedium,
+            color = textColor,
+            fontWeight = if (isSelected) FontWeight.SemiBold else FontWeight.Normal
+        )
+    }
+}
+
+/**
+ * 从扁平路径列表构建文件夹树
+ * @param paths 路径列表，如 ["工作/项目A", "工作/项目B", "生活/健康"]
+ * @return 根节点（虚拟根节点，不显示）
+ */
+private fun buildFolderTree(paths: List<String>): FolderNode {
+    val root = FolderNode("", "")
+
+    paths.forEach { path ->
+        if (path.isBlank()) return@forEach
+
+        val parts = path.split("/").filter { it.isNotBlank() }
+        var currentNode = root
+        var currentPath = ""
+
+        parts.forEachIndexed { index, part ->
+            currentPath = if (currentPath.isEmpty()) part else "$currentPath/$part"
+
+            // 查找是否已有此节点
+            var childNode = currentNode.children.find { it.name == part }
+            if (childNode == null) {
+                // 创建新节点
+                childNode = FolderNode(
+                    name = part,
+                    fullPath = currentPath,
+                    isExpanded = false // 默认收起
+                )
+                currentNode.children.add(childNode)
+            }
+            currentNode = childNode
+        }
+    }
+
+    return root
+}
+
+/**
+ * 文件夹右键菜单
+ */
+@Composable
+private fun FolderContextMenu(
+    folderPath: String,
+    onDismiss: () -> Unit,
+    onRename: () -> Unit,
+    onDelete: () -> Unit
+) {
+    androidx.compose.material3.AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.memory_folder_operations)) },
+        text = {
+            Column {
+                Text("${stringResource(R.string.memory_folder_label)}: $folderPath", style = MaterialTheme.typography.bodySmall)
+            }
+        },
+        confirmButton = {
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                TextButton(onClick = {
+                    onRename()
+                    // 不调用 onDismiss()，让菜单自动隐藏
+                }) {
+                    Text(stringResource(R.string.memory_rename_folder))
+                }
+                TextButton(onClick = {
+                    onDelete()
+                    // 不调用 onDismiss()，让菜单自动隐藏
+                }) {
+                    Text(stringResource(R.string.memory_delete), color = MaterialTheme.colorScheme.error)
+                }
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.memory_cancel))
+            }
+        }
+    )
+}
+
+/**
+ * 创建文件夹对话框
+ */
+@Composable
+private fun FolderCreateDialog(
+    onDismiss: () -> Unit,
+    onCreate: (String) -> Unit
+) {
+    var folderName by remember { mutableStateOf("") }
+    
+    androidx.compose.material3.AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.memory_create_folder)) },
+        text = {
+            Column {
+                Text(stringResource(R.string.memory_folder_path_hint), style = MaterialTheme.typography.bodySmall)
+                Spacer(modifier = Modifier.height(8.dp))
+                androidx.compose.material3.OutlinedTextField(
+                    value = folderName,
+                    onValueChange = { folderName = it },
+                    label = { Text(stringResource(R.string.memory_folder_path_label)) },
+                    placeholder = { Text(stringResource(R.string.memory_folder_path_example)) },
+                    singleLine = true
+                )
+            }
+        },
+        confirmButton = {
+            TextButton(
+                onClick = { if (folderName.isNotBlank()) onCreate(folderName.trim()) },
+                enabled = folderName.isNotBlank()
+            ) {
+                Text(stringResource(R.string.memory_create))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.memory_cancel))
+            }
+        }
+    )
+}
+
+/**
+ * 重命名文件夹对话框
+ */
+@Composable
+private fun FolderRenameDialog(
+    currentPath: String,
+    onDismiss: () -> Unit,
+    onRename: (String) -> Unit
+) {
+    var newName by remember { mutableStateOf(currentPath) }
+    
+    androidx.compose.material3.AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.memory_rename_folder)) },
+        text = {
+            Column {
+                Text("${stringResource(R.string.memory_current_path)}: $currentPath", style = MaterialTheme.typography.bodySmall)
+                Spacer(modifier = Modifier.height(8.dp))
+                androidx.compose.material3.OutlinedTextField(
+                    value = newName,
+                    onValueChange = { newName = it },
+                    label = { Text(stringResource(R.string.memory_new_path)) },
+                    singleLine = true
+                )
+            }
+        },
+        confirmButton = {
+            TextButton(
+                onClick = { if (newName.isNotBlank() && newName != currentPath) onRename(newName.trim()) },
+                enabled = newName.isNotBlank() && newName != currentPath
+            ) {
+                Text(stringResource(R.string.memory_rename_folder))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.memory_cancel))
+            }
+        }
+    )
+}
+
+/**
+ * 删除文件夹确认对话框
+ */
+@Composable
+private fun FolderDeleteDialog(
+    folderPath: String,
+    onDismiss: () -> Unit,
+    onConfirm: () -> Unit
+) {
+    androidx.compose.material3.AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.memory_confirm_delete_folder)) },
+        text = {
+            Column {
+                Text(stringResource(R.string.memory_confirm_delete_folder_message), style = MaterialTheme.typography.bodyMedium)
+                Spacer(modifier = Modifier.height(8.dp))
+                Text("${stringResource(R.string.memory_folder_label)}: $folderPath", style = MaterialTheme.typography.bodySmall)
+                Spacer(modifier = Modifier.height(8.dp))
+                Text(
+                    stringResource(R.string.memory_delete_folder_warning),
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.error
+                )
+            }
+        },
+        confirmButton = {
+            TextButton(onClick = onConfirm) {
+                Text(stringResource(R.string.memory_confirm_delete_action), color = MaterialTheme.colorScheme.error)
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.memory_cancel))
+            }
+        }
+    )
+}

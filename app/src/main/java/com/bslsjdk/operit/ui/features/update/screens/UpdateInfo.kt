@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudXBkYXRlLnNjcmVlbnMKCmRhdGEgY2xhc3MgVXBkYXRlSW5mbygKICAgIHZhbCB2ZXJzaW9uOiBTdHJpbmcsCiAgICB2YWwgZGF0ZTogU3RyaW5nLAogICAgdmFsIHRpdGxlOiBTdHJpbmcsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZywKICAgIHZhbCBoaWdobGlnaHRzOiBMaXN0PFN0cmluZz4sCiAgICB2YWwgYWxsQ2hhbmdlczogTGlzdDxTdHJpbmc+LAogICAgdmFsIGlzTGF0ZXN0OiBCb29sZWFuID0gZmFsc2UsCiAgICB2YWwgZG93bmxvYWRVcmw6IFN0cmluZyA9ICIiLAogICAgdmFsIHJlbGVhc2VVcmw6IFN0cmluZyA9ICIiCikK
+package com.bslsjdk.operit.ui.features.update.screens
+
+data class UpdateInfo(
+    val version: String,
+    val date: String,
+    val title: String,
+    val description: String,
+    val highlights: List<String>,
+    val allChanges: List<String>,
+    val isLatest: Boolean = false,
+    val downloadUrl: String = "",
+    val releaseUrl: String = ""
+)

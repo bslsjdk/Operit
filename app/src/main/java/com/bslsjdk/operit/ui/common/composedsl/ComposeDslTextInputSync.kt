@@ -1,1 +1,137 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLmNvbXBvc2Vkc2wKCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29tcGxldGFibGVEZWZlcnJlZAoKLyoqCiAqIFJlY29uY2lsZXMgZXh0ZXJuYWwgdGV4dCB1cGRhdGVzIGZyb20gdGhlIERTTCBydW50aW1lIHdpdGggdGhlIGluLXByb2dyZXNzIElNRSBlZGl0cyBvZiBhCiAqIGNvbXBvc2VfZHNsIHRleHQgZmllbGQuCiAqCiAqIFdoaWxlIGEgZmllbGQgaXMgZm9jdXNlZCwgaXRzIHRleHQsIHNlbGVjdGlvbiBhbmQgSU1FIGNvbXBvc2l0aW9uIGFyZSBvd25lZCBieSB0aGUgZWRpdG9yLiBUcmVlCiAqIHNuYXBzaG90cyBwdXNoZWQgYmFjayBieSB0aGUgRFNMIHJ1bnRpbWUgYXJlIGVjaG9lcyBvZiBlZGl0cyB0aGUgZmllbGQgaGFzIGFscmVhZHkgYXBwbGllZAogKiBsb2NhbGx5LCBhbmQgdGhleSByb3V0aW5lbHkgbGFnIGJlaGluZCBieSBvbmUgb3IgbW9yZSBrZXlzdHJva2VzLiBBcHBseWluZyBzdWNoIGEgc3RhbGUgZWNobwogKiB3b3VsZCByZXN1cnJlY3QgZGVsZXRlZCBjaGFyYWN0ZXJzLCByZXNldCB0aGUgY3Vyc29yIGFuZCBkcm9wIHRoZSBhY3RpdmUgY29tcG9zaXRpb24sIHNvIGVjaG9lcwogKiBtdXN0IGJlIHJlY29nbml6ZWQgYW5kIHNraXBwZWQuIE9ubHkgdmFsdWVzIHRoYXQgY2Fubm90IGJlIGF0dHJpYnV0ZWQgdG8gdGhlIGZpZWxkJ3Mgb3duIGVkaXRzCiAqICh0ZW1wbGF0ZSBpbnNlcnRpb24sIGVudHJ5IHN3aXRjaCwgcHJvZ3JhbW1hdGljIHVwZGF0ZXMpIG1heSBiZSBhcHBsaWVkIHdoaWxlIGVkaXRpbmcuCiAqLwppbnRlcm5hbCBjbGFzcyBDb21wb3NlRHNsVGV4dEZpZWxkRWNob0d1YXJkKGluaXRpYWxUZXh0OiBTdHJpbmcpIHsKCiAgICBlbnVtIGNsYXNzIEV4dGVybmFsVXBkYXRlIHsKICAgICAgICAvKiogVGhlIHRyZWUgY2F1Z2h0IHVwIHdpdGggdGhlIGZpZWxkIHRleHQ7IG5vdGhpbmcgdG8gYXBwbHkuICovCiAgICAgICAgQ09OVkVSR0VELAoKICAgICAgICAvKiogQSBzdGFsZSBzbmFwc2hvdCBvZiB0aGUgZmllbGQncyBvd24gZWRpdHM7IGtlZXAgdGhlIGN1cnJlbnQgZmllbGQgc3RhdGUuICovCiAgICAgICAgT1dOX0VDSE8sCgogICAgICAgIC8qKiBBIGdlbnVpbmUgZXh0ZXJuYWwgY2hhbmdlIHRoYXQgbXVzdCBiZSBhcHBsaWVkIHRvIHRoZSBmaWVsZC4gKi8KICAgICAgICBFWFRFUk5BTF9DSEFOR0UKICAgIH0KCiAgICAvKiogTGFzdCBleHRlcm5hbCB0ZXh0IHRoYXQgd2FzIGFwcGxpZWQgdG8gdGhlIGZpZWxkIG9yIGNvbmZpcm1lZCB0byBtYXRjaCBpdC4gKi8KICAgIHByaXZhdGUgdmFyIGxhc3RTeW5jZWRUZXh0OiBTdHJpbmcgPSBpbml0aWFsVGV4dAoKICAgIC8qKiBUZXh0cyB0aGUgZmllbGQgZGlzcGF0Y2hlZCB1cHN0cmVhbSB0aGF0IG5vIHRyZWUgc25hcHNob3QgaGFzIGNvbmZpcm1lZCB5ZXQuICovCiAgICBwcml2YXRlIHZhbCBwZW5kaW5nRWNob1RleHRzID0gQXJyYXlEZXF1ZTxTdHJpbmc+KCkKCiAgICAvKiogUmVjb3JkcyBhIGxvY2FsIGVkaXQgYXQgdGhlIG1vbWVudCBpdCBpcyBkaXNwYXRjaGVkIHRvIHRoZSBEU0wgcnVudGltZS4gKi8KICAgIGZ1biBvbkxvY2FsRWRpdERpc3BhdGNoZWQodGV4dDogU3RyaW5nKSB7CiAgICAgICAgcGVuZGluZ0VjaG9UZXh0cy5hZGRMYXN0KHRleHQpCiAgICB9CgogICAgZnVuIHJlY29uY2lsZShleHRlcm5hbFRleHQ6IFN0cmluZywgZmllbGRUZXh0OiBTdHJpbmcsIGlzRm9jdXNlZDogQm9vbGVhbik6IEV4dGVybmFsVXBkYXRlIHsKICAgICAgICBpZiAoZXh0ZXJuYWxUZXh0ID09IGZpZWxkVGV4dCkgewogICAgICAgICAgICBwZW5kaW5nRWNob1RleHRzLmNsZWFyKCkKICAgICAgICAgICAgbGFzdFN5bmNlZFRleHQgPSBleHRlcm5hbFRleHQKICAgICAgICAgICAgcmV0dXJuIEV4dGVybmFsVXBkYXRlLkNPTlZFUkdFRAogICAgICAgIH0KICAgICAgICBpZiAoaXNGb2N1c2VkKSB7CiAgICAgICAgICAgIGlmIChleHRlcm5hbFRleHQgPT0gbGFzdFN5bmNlZFRleHQpIHsKICAgICAgICAgICAgICAgIHJldHVybiBFeHRlcm5hbFVwZGF0ZS5PV05fRUNITwogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBlY2hvSW5kZXggPSBwZW5kaW5nRWNob1RleHRzLmluZGV4T2YoZXh0ZXJuYWxUZXh0KQogICAgICAgICAgICBpZiAoZWNob0luZGV4ID49IDApIHsKICAgICAgICAgICAgICAgIC8vIFNuYXBzaG90cyBhcmUgcHJvZHVjZWQgaW4gZGlzcGF0Y2ggb3JkZXIsIHNvIGVudHJpZXMgb2xkZXIgdGhhbiB0aGUgbWF0Y2hlZAogICAgICAgICAgICAgICAgLy8gZWNobyBjYW4gbm8gbG9uZ2VyIGFycml2ZSBhbmQgYXJlIGRyb3BwZWQuCiAgICAgICAgICAgICAgICByZXBlYXQoZWNob0luZGV4ICsgMSkgeyBwZW5kaW5nRWNob1RleHRzLnJlbW92ZUZpcnN0T3JOdWxsKCkgfQogICAgICAgICAgICAgICAgcmV0dXJuIEV4dGVybmFsVXBkYXRlLk9XTl9FQ0hPCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcGVuZGluZ0VjaG9UZXh0cy5jbGVhcigpCiAgICAgICAgbGFzdFN5bmNlZFRleHQgPSBleHRlcm5hbFRleHQKICAgICAgICByZXR1cm4gRXh0ZXJuYWxVcGRhdGUuRVhURVJOQUxfQ0hBTkdFCiAgICB9Cn0KCi8qKgogKiBTZXJpYWxpemVzIGNvbXBvc2VfZHNsIHRleHQtaW5wdXQgZGlzcGF0Y2hlcyBzbyB0aGUgSlMgcnVudGltZSBhcHBsaWVzIGVkaXRzIGluIGtleXN0cm9rZSBvcmRlci4KICoKICogRWFjaCBrZXlzdHJva2UgdXNlZCB0byBiZSBkaXNwYXRjaGVkIG9uIGEgZnJlc2ggdGhyZWFkLCBzbyByYXBpZCBlZGl0cyBjb3VsZCByZWFjaCB0aGUgSlMgZW5naW5lCiAqIG91dCBvZiBvcmRlciBhbmQgbGVhdmUgdGhlIHJ1bnRpbWUgc3RhdGUgb2xkZXIgdGhhbiB3aGF0IHRoZSB1c2VyIHNlZXMgb24gc2NyZWVuLiBXaXRoIGEgc2luZ2xlCiAqIGluLWZsaWdodCBkaXNwYXRjaCwgcnVudGltZSBzdGF0ZSBpcyBhbHdheXMgYSBwcmVmaXggb2YgdGhlIGVkaXQgc2VxdWVuY2UsIGFuZCB0aGUgdHJlZSBwdXNoZWQKICogYmFjayBvbmNlIHRoZSBxdWV1ZSBkcmFpbnMgY29udmVyZ2VzIHdpdGggdGhlIGZpZWxkLgogKgogKiBBbGwgbWV0aG9kcyBhcmUgZXhwZWN0ZWQgdG8gYmUgY2FsbGVkIGZyb20gdGhlIG1haW4gdGhyZWFkLgogKi8KaW50ZXJuYWwgY2xhc3MgQ29tcG9zZURzbFRleHRJbnB1dERpc3BhdGNoUXVldWUoCiAgICBwcml2YXRlIHZhbCBvbkFsbFNldHRsZWQ6ICgpIC0+IFVuaXQKKSB7CiAgICBjbGFzcyBFbnRyeSh2YWwgYWN0aW9uSWQ6IFN0cmluZywgdmFsIHRleHQ6IFN0cmluZykgewogICAgICAgIHZhbCBjb21wbGV0aW9uID0gQ29tcGxldGFibGVEZWZlcnJlZDxVbml0PigpCiAgICB9CgogICAgLyoqIFVuc2V0dGxlZCBlbnRyaWVzIGluIGRpc3BhdGNoIG9yZGVyOyB0aGUgZmlyc3Qgb25lIG1heSBjdXJyZW50bHkgYmUgaW4gZmxpZ2h0LiAqLwogICAgcHJpdmF0ZSB2YWwgZW50cmllcyA9IEFycmF5RGVxdWU8RW50cnk+KCkKICAgIHByaXZhdGUgdmFyIGRpc3BhdGNoSW5GbGlnaHQgPSBmYWxzZQogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgc3RhcnREaXNwYXRjaDogKEVudHJ5LCBvblNldHRsZWQ6ICgpIC0+IFVuaXQpIC0+IFVuaXQKCiAgICBmdW4gaGFzUGVuZGluZygpOiBCb29sZWFuID0gZW50cmllcy5pc05vdEVtcHR5KCkKCiAgICBzdXNwZW5kIGZ1biBhd2FpdEFsbCgpIHsKICAgICAgICBlbnRyaWVzLnRvTGlzdCgpLmZvckVhY2ggeyBlbnRyeSAtPiBydW5DYXRjaGluZyB7IGVudHJ5LmNvbXBsZXRpb24uYXdhaXQoKSB9IH0KICAgIH0KCiAgICAvKiogQ29tcGxldGVzIGV2ZXJ5IHBlbmRpbmcgZW50cnkgd2l0aG91dCBmdXJ0aGVyIGRpc3BhdGNoaW5nLCBlLmcuIG9uIHJlLXJlbmRlciBvciB0ZWFyZG93bi4gKi8KICAgIGZ1biBjb21wbGV0ZUFsbCgpIHsKICAgICAgICBlbnRyaWVzLmZvckVhY2ggeyBlbnRyeSAtPgogICAgICAgICAgICBpZiAoIWVudHJ5LmNvbXBsZXRpb24uaXNDb21wbGV0ZWQpIHsKICAgICAgICAgICAgICAgIGVudHJ5LmNvbXBsZXRpb24uY29tcGxldGUoVW5pdCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBlbnRyaWVzLmNsZWFyKCkKICAgICAgICBkaXNwYXRjaEluRmxpZ2h0ID0gZmFsc2UKICAgIH0KCiAgICBmdW4gZW5xdWV1ZSgKICAgICAgICBhY3Rpb25JZDogU3RyaW5nLAogICAgICAgIHRleHQ6IFN0cmluZywKICAgICAgICBzdGFydERpc3BhdGNoOiAoRW50cnksIG9uU2V0dGxlZDogKCkgLT4gVW5pdCkgLT4gVW5pdAogICAgKSB7CiAgICAgICAgdGhpcy5zdGFydERpc3BhdGNoID0gc3RhcnREaXNwYXRjaAogICAgICAgIGVudHJpZXMuYWRkTGFzdChFbnRyeShhY3Rpb25JZCwgdGV4dCkpCiAgICAgICAgcHVtcCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcHVtcCgpIHsKICAgICAgICBpZiAoZGlzcGF0Y2hJbkZsaWdodCkgewogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CiAgICAgICAgdmFsIG5leHQgPSBlbnRyaWVzLmZpcnN0T3JOdWxsKCkgPzogcmV0dXJuCiAgICAgICAgZGlzcGF0Y2hJbkZsaWdodCA9IHRydWUKICAgICAgICBzdGFydERpc3BhdGNoKG5leHQpIHsgb25FbnRyeVNldHRsZWQobmV4dCkgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIG9uRW50cnlTZXR0bGVkKGVudHJ5OiBFbnRyeSkgewogICAgICAgIGRpc3BhdGNoSW5GbGlnaHQgPSBmYWxzZQogICAgICAgIGlmICghZW50cmllcy5yZW1vdmUoZW50cnkpKSB7CiAgICAgICAgICAgIC8vIFRoZSBxdWV1ZSB3YXMgY2xlYXJlZCBiZWZvcmUgdGhpcyBkaXNwYXRjaCBzZXR0bGVkOyBub3RoaW5nIGxlZnQgdG8gZHJpdmUuCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICBpZiAoIWVudHJ5LmNvbXBsZXRpb24uaXNDb21wbGV0ZWQpIHsKICAgICAgICAgICAgZW50cnkuY29tcGxldGlvbi5jb21wbGV0ZShVbml0KQogICAgICAgIH0KICAgICAgICBpZiAoZW50cmllcy5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgb25BbGxTZXR0bGVkKCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBwdW1wKCkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.common.composedsl
+
+import kotlinx.coroutines.CompletableDeferred
+
+/**
+ * Reconciles external text updates from the DSL runtime with the in-progress IME edits of a
+ * compose_dsl text field.
+ *
+ * While a field is focused, its text, selection and IME composition are owned by the editor. Tree
+ * snapshots pushed back by the DSL runtime are echoes of edits the field has already applied
+ * locally, and they routinely lag behind by one or more keystrokes. Applying such a stale echo
+ * would resurrect deleted characters, reset the cursor and drop the active composition, so echoes
+ * must be recognized and skipped. Only values that cannot be attributed to the field's own edits
+ * (template insertion, entry switch, programmatic updates) may be applied while editing.
+ */
+internal class ComposeDslTextFieldEchoGuard(initialText: String) {
+
+    enum class ExternalUpdate {
+        /** The tree caught up with the field text; nothing to apply. */
+        CONVERGED,
+
+        /** A stale snapshot of the field's own edits; keep the current field state. */
+        OWN_ECHO,
+
+        /** A genuine external change that must be applied to the field. */
+        EXTERNAL_CHANGE
+    }
+
+    /** Last external text that was applied to the field or confirmed to match it. */
+    private var lastSyncedText: String = initialText
+
+    /** Texts the field dispatched upstream that no tree snapshot has confirmed yet. */
+    private val pendingEchoTexts = ArrayDeque<String>()
+
+    /** Records a local edit at the moment it is dispatched to the DSL runtime. */
+    fun onLocalEditDispatched(text: String) {
+        pendingEchoTexts.addLast(text)
+    }
+
+    fun reconcile(externalText: String, fieldText: String, isFocused: Boolean): ExternalUpdate {
+        if (externalText == fieldText) {
+            pendingEchoTexts.clear()
+            lastSyncedText = externalText
+            return ExternalUpdate.CONVERGED
+        }
+        if (isFocused) {
+            if (externalText == lastSyncedText) {
+                return ExternalUpdate.OWN_ECHO
+            }
+            val echoIndex = pendingEchoTexts.indexOf(externalText)
+            if (echoIndex >= 0) {
+                // Snapshots are produced in dispatch order, so entries older than the matched
+                // echo can no longer arrive and are dropped.
+                repeat(echoIndex + 1) { pendingEchoTexts.removeFirstOrNull() }
+                return ExternalUpdate.OWN_ECHO
+            }
+        }
+        pendingEchoTexts.clear()
+        lastSyncedText = externalText
+        return ExternalUpdate.EXTERNAL_CHANGE
+    }
+}
+
+/**
+ * Serializes compose_dsl text-input dispatches so the JS runtime applies edits in keystroke order.
+ *
+ * Each keystroke used to be dispatched on a fresh thread, so rapid edits could reach the JS engine
+ * out of order and leave the runtime state older than what the user sees on screen. With a single
+ * in-flight dispatch, runtime state is always a prefix of the edit sequence, and the tree pushed
+ * back once the queue drains converges with the field.
+ *
+ * All methods are expected to be called from the main thread.
+ */
+internal class ComposeDslTextInputDispatchQueue(
+    private val onAllSettled: () -> Unit
+) {
+    class Entry(val actionId: String, val text: String) {
+        val completion = CompletableDeferred<Unit>()
+    }
+
+    /** Unsettled entries in dispatch order; the first one may currently be in flight. */
+    private val entries = ArrayDeque<Entry>()
+    private var dispatchInFlight = false
+    private lateinit var startDispatch: (Entry, onSettled: () -> Unit) -> Unit
+
+    fun hasPending(): Boolean = entries.isNotEmpty()
+
+    suspend fun awaitAll() {
+        entries.toList().forEach { entry -> runCatching { entry.completion.await() } }
+    }
+
+    /** Completes every pending entry without further dispatching, e.g. on re-render or teardown. */
+    fun completeAll() {
+        entries.forEach { entry ->
+            if (!entry.completion.isCompleted) {
+                entry.completion.complete(Unit)
+            }
+        }
+        entries.clear()
+        dispatchInFlight = false
+    }
+
+    fun enqueue(
+        actionId: String,
+        text: String,
+        startDispatch: (Entry, onSettled: () -> Unit) -> Unit
+    ) {
+        this.startDispatch = startDispatch
+        entries.addLast(Entry(actionId, text))
+        pump()
+    }
+
+    private fun pump() {
+        if (dispatchInFlight) {
+            return
+        }
+        val next = entries.firstOrNull() ?: return
+        dispatchInFlight = true
+        startDispatch(next) { onEntrySettled(next) }
+    }
+
+    private fun onEntrySettled(entry: Entry) {
+        dispatchInFlight = false
+        if (!entries.remove(entry)) {
+            // The queue was cleared before this dispatch settled; nothing left to drive.
+            return
+        }
+        if (!entry.completion.isCompleted) {
+            entry.completion.complete(Unit)
+        }
+        if (entries.isEmpty()) {
+            onAllSettled()
+        } else {
+            pump()
+        }
+    }
+}

@@ -1,1 +1,410 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5vcy5FbnZpcm9ubWVudAppbXBvcnQgY29tLmFpLmFzc2lzdGFuY2UubGxhbWEuTGxhbWFTZXNzaW9uCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuY2hhdC5ob29rcy5Qcm9tcHRUdXJuCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzLlByb21wdFR1cm5LaW5kCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLk1vZGVsT3B0aW9uCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbFBhcmFtZXRlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFByb21wdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5DaGF0VXRpbHMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5TdHJlYW0KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLnN0cmVhbS5zdHJlYW0KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5JT0V4Y2VwdGlvbgoKY2xhc3MgTGxhbWFQcm92aWRlcigKICAgIHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQsCiAgICBwcml2YXRlIHZhbCBtb2RlbE5hbWU6IFN0cmluZywKICAgIHByaXZhdGUgdmFsIHNlc3Npb25Db25maWc6IExsYW1hU2Vzc2lvbi5Db25maWcsCiAgICBwcml2YXRlIHZhbCBwcm92aWRlclR5cGU6IEFwaVByb3ZpZGVyVHlwZSA9IEFwaVByb3ZpZGVyVHlwZS5MTEFNQV9DUFAsCiAgICBwcml2YXRlIHZhbCBlbmFibGVUb29sQ2FsbDogQm9vbGVhbiA9IGZhbHNlCikgOiBBSVNlcnZpY2UgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJMbGFtYVByb3ZpZGVyIgoKICAgICAgICBmdW4gZ2V0TW9kZWxzRGlyKCk6IEZpbGUgewogICAgICAgICAgICByZXR1cm4gRmlsZSgKICAgICAgICAgICAgICAgIEVudmlyb25tZW50LmdldEV4dGVybmFsU3RvcmFnZVB1YmxpY0RpcmVjdG9yeShFbnZpcm9ubWVudC5ESVJFQ1RPUllfRE9XTkxPQURTKSwKICAgICAgICAgICAgICAgICJPcGVyaXQvbW9kZWxzL2xsYW1hIgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICBmdW4gZ2V0TW9kZWxGaWxlKF9jb250ZXh0OiBDb250ZXh0LCBtb2RlbE5hbWU6IFN0cmluZyk6IEZpbGUgewogICAgICAgICAgICByZXR1cm4gRmlsZShnZXRNb2RlbHNEaXIoKSwgbW9kZWxOYW1lKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZhciBfaW5wdXRUb2tlbkNvdW50OiBMb25nID0gMEwKICAgIHByaXZhdGUgdmFyIF9vdXRwdXRUb2tlbkNvdW50OiBMb25nID0gMEwKICAgIHByaXZhdGUgdmFyIF9jYWNoZWRJbnB1dFRva2VuQ291bnQ6IExvbmcgPSAwTAoKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgaXNDYW5jZWxsZWQgPSBmYWxzZQoKICAgIHByaXZhdGUgdmFsIHNlc3Npb25Mb2NrID0gQW55KCkKICAgIHByaXZhdGUgdmFyIHNlc3Npb246IExsYW1hU2Vzc2lvbj8gPSBudWxsCgogICAgb3ZlcnJpZGUgdmFsIGlucHV0VG9rZW5Db3VudDogTG9uZwogICAgICAgIGdldCgpID0gX2lucHV0VG9rZW5Db3VudAoKICAgIG92ZXJyaWRlIHZhbCBjYWNoZWRJbnB1dFRva2VuQ291bnQ6IExvbmcKICAgICAgICBnZXQoKSA9IF9jYWNoZWRJbnB1dFRva2VuQ291bnQKCiAgICBvdmVycmlkZSB2YWwgb3V0cHV0VG9rZW5Db3VudDogTG9uZwogICAgICAgIGdldCgpID0gX291dHB1dFRva2VuQ291bnQKCiAgICBvdmVycmlkZSB2YWwgcHJvdmlkZXJNb2RlbDogU3RyaW5nCiAgICAgICAgZ2V0KCkgPSAiJHtwcm92aWRlclR5cGUubmFtZX06JG1vZGVsTmFtZSIKCiAgICBvdmVycmlkZSBmdW4gcmVzZXRUb2tlbkNvdW50cygpIHsKICAgICAgICBfaW5wdXRUb2tlbkNvdW50ID0gMEwKICAgICAgICBfb3V0cHV0VG9rZW5Db3VudCA9IDBMCiAgICAgICAgX2NhY2hlZElucHV0VG9rZW5Db3VudCA9IDBMCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbG9nTGFyZ2VTdHJpbmcocHJlZml4OiBTdHJpbmcsIG1lc3NhZ2U6IFN0cmluZykgewogICAgICAgIHZhbCBtYXhMb2dTaXplID0gMzAwMAogICAgICAgIGlmIChtZXNzYWdlLmxlbmd0aCA8PSBtYXhMb2dTaXplKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIiRwcmVmaXgkbWVzc2FnZSIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFsIGNodW5rQ291bnQgPSAobWVzc2FnZS5sZW5ndGggKyBtYXhMb2dTaXplIC0gMSkgLyBtYXhMb2dTaXplCiAgICAgICAgZm9yIChpbmRleCBpbiAwIHVudGlsIGNodW5rQ291bnQpIHsKICAgICAgICAgICAgdmFsIHN0YXJ0ID0gaW5kZXggKiBtYXhMb2dTaXplCiAgICAgICAgICAgIHZhbCBlbmQgPSBtaW5PZigoaW5kZXggKyAxKSAqIG1heExvZ1NpemUsIG1lc3NhZ2UubGVuZ3RoKQogICAgICAgICAgICB2YWwgY2h1bmsgPSBtZXNzYWdlLnN1YnN0cmluZyhzdGFydCwgZW5kKQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICIkcHJlZml4IFBhcnQgJHtpbmRleCArIDF9LyRjaHVua0NvdW50OiAkY2h1bmsiKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBsb2dGaW5hbE91dHB1dChjb250ZW50OiBDaGFyU2VxdWVuY2UsIHByZWZpeDogU3RyaW5nID0gIkZpbmFsIGxsYW1hLmNwcCBvdXRwdXQ6ICIpIHsKICAgICAgICB2YWwgZmluYWxPdXRwdXQgPSBjb250ZW50LnRvU3RyaW5nKCkKICAgICAgICBpZiAoZmluYWxPdXRwdXQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIiR7cHJlZml4LnRyaW1FbmQoKX1bZW1wdHldIikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIGxvZ0xhcmdlU3RyaW5nKHByZWZpeCwgZmluYWxPdXRwdXQpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGNhbmNlbFN0cmVhbWluZygpIHsKICAgICAgICBpc0NhbmNlbGxlZCA9IHRydWUKICAgICAgICBzeW5jaHJvbml6ZWQoc2Vzc2lvbkxvY2spIHsKICAgICAgICAgICAgc2Vzc2lvbj8uY2FuY2VsKCkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHJlbGVhc2UoKSB7CiAgICAgICAgc3luY2hyb25pemVkKHNlc3Npb25Mb2NrKSB7CiAgICAgICAgICAgIHNlc3Npb24/LnJlbGVhc2UoKQogICAgICAgICAgICBzZXNzaW9uID0gbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBnZXRNb2RlbHNMaXN0KGNvbnRleHQ6IENvbnRleHQpOiBSZXN1bHQ8TGlzdDxNb2RlbE9wdGlvbj4+IHsKICAgICAgICByZXR1cm4gTW9kZWxMaXN0RmV0Y2hlci5nZXRMbGFtYUxvY2FsTW9kZWxzKGNvbnRleHQpCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gdGVzdENvbm5lY3Rpb24oY29udGV4dDogQ29udGV4dCk6IFJlc3VsdDxTdHJpbmc+ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICBpZiAoIUxsYW1hU2Vzc2lvbi5pc0F2YWlsYWJsZSgpKSB7CiAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBSZXN1bHQuZmFpbHVyZShFeGNlcHRpb24oTGxhbWFTZXNzaW9uLmdldFVuYXZhaWxhYmxlUmVhc29uKCkpKQogICAgICAgIH0KCiAgICAgICAgdmFsIG1vZGVsRmlsZSA9IGdldE1vZGVsRmlsZShjb250ZXh0LCBtb2RlbE5hbWUpCiAgICAgICAgaWYgKCFtb2RlbEZpbGUuZXhpc3RzKCkpIHsKICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IFJlc3VsdC5mYWlsdXJlKEV4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5sbGFtYV9lcnJvcl9tb2RlbF9maWxlX25vdF9leGlzdCwgbW9kZWxGaWxlLmFic29sdXRlUGF0aCkpKQogICAgICAgIH0KCiAgICAgICAgdmFsIHRlc3RTZXNzaW9uID0gTGxhbWFTZXNzaW9uLmNyZWF0ZSgKICAgICAgICAgICAgcGF0aE1vZGVsID0gbW9kZWxGaWxlLmFic29sdXRlUGF0aCwKICAgICAgICAgICAgY29uZmlnID0gc2Vzc2lvbkNvbmZpZwogICAgICAgICkgPzogcmV0dXJuQHdpdGhDb250ZXh0IFJlc3VsdC5mYWlsdXJlKEV4Y2VwdGlvbihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5sbGFtYV9lcnJvcl9jcmVhdGVfc2Vzc2lvbl9mYWlsZWQpKSkKCiAgICAgICAgdGVzdFNlc3Npb24ucmVsZWFzZSgpCiAgICAgICAgUmVzdWx0LnN1Y2Nlc3MoImxsYW1hLmNwcCBiYWNrZW5kIGlzIGF2YWlsYWJsZSAobmF0aXZlIHJlYWR5KS4iKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGNhbGN1bGF0ZUlucHV0VG9rZW5zKAogICAgICAgIGNoYXRIaXN0b3J5OiBMaXN0PFByb21wdFR1cm4+LAogICAgICAgIGF2YWlsYWJsZVRvb2xzOiBMaXN0PFRvb2xQcm9tcHQ+PwogICAgKTogTG9uZyB7CiAgICAgICAgcmV0dXJuIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIGtvdGxpbi5ydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICB2YWwgcyA9IGVuc3VyZVNlc3Npb25Mb2NrZWQoKQogICAgICAgICAgICAgICAgaWYgKHMgPT0gbnVsbCkgcmV0dXJuQHJ1bkNhdGNoaW5nIG51bGwKCiAgICAgICAgICAgICAgICB2YWwgcHJvbXB0ID0gaWYgKHNob3VsZFVzZVRvb2xDYWxsKGF2YWlsYWJsZVRvb2xzKSkgewogICAgICAgICAgICAgICAgICAgIHZhbCBtZXNzYWdlc0pzb24gPSBTdHJ1Y3R1cmVkVG9vbENhbGxCcmlkZ2UuYnVpbGRNZXNzYWdlc0pzb24oCiAgICAgICAgICAgICAgICAgICAgICAgIGhpc3RvcnkgPSBjaGF0SGlzdG9yeSwKICAgICAgICAgICAgICAgICAgICAgICAgcHJlc2VydmVUaGlua0luSGlzdG9yeSA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHZhbCB0b29sc0pzb24gPSBTdHJ1Y3R1cmVkVG9vbENhbGxCcmlkZ2UuYnVpbGRUb29sc0pzb24oYXZhaWxhYmxlVG9vbHMpCiAgICAgICAgICAgICAgICAgICAgcy5hcHBseVN0cnVjdHVyZWRDaGF0VGVtcGxhdGUobWVzc2FnZXNKc29uLCB0b29sc0pzb24sIHRydWUsIHRydWUpCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHZhbCAocm9sZXMsIGNvbnRlbnRzKSA9IGJ1aWxkUGxhaW5Qcm9tcHRNZXNzYWdlcygKICAgICAgICAgICAgICAgICAgICAgICAgY2hhdEhpc3RvcnkgPSBjaGF0SGlzdG9yeSwKICAgICAgICAgICAgICAgICAgICAgICAgcHJlc2VydmVUaGlua0luSGlzdG9yeSA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIHMuYXBwbHlDaGF0VGVtcGxhdGUocm9sZXMsIGNvbnRlbnRzLCB0cnVlLCB0cnVlKQogICAgICAgICAgICAgICAgfSA/OiByZXR1cm5AcnVuQ2F0Y2hpbmcgbnVsbAoKICAgICAgICAgICAgICAgIHMuY291bnRUb2tlbnMocHJvbXB0KS50b0xvbmcoKQogICAgICAgICAgICB9LmdldE9yTnVsbCgpID86IDBMCiAgICAgICAgfQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHNlbmRNZXNzYWdlKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgY2hhdEhpc3Rvcnk6IExpc3Q8UHJvbXB0VHVybj4sCiAgICAgICAgbW9kZWxQYXJhbWV0ZXJzOiBMaXN0PE1vZGVsUGFyYW1ldGVyPCo+PiwKICAgICAgICBlbmFibGVUaGlua2luZzogQm9vbGVhbiwKICAgICAgICBzdHJlYW06IEJvb2xlYW4sCiAgICAgICAgYXZhaWxhYmxlVG9vbHM6IExpc3Q8VG9vbFByb21wdD4/LAogICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3Rvcnk6IEJvb2xlYW4sCiAgICAgICAgb25Ub2tlbnNVcGRhdGVkOiBzdXNwZW5kIChpbnB1dDogTG9uZywgY2FjaGVkSW5wdXQ6IExvbmcsIG91dHB1dDogTG9uZykgLT4gVW5pdCwKICAgICAgICBvblVzYWdlUmVwb3J0ZWQ6IChzdXNwZW5kIChjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cy5Qcm92aWRlclVzYWdlU25hcHNob3QsIGF0dGVtcHQ6IEludCkgLT4gVW5pdCk/LAogICAgICAgIG9uTm9uRmF0YWxFcnJvcjogc3VzcGVuZCAoZXJyb3I6IFN0cmluZykgLT4gVW5pdCwKICAgICAgICBlbmFibGVSZXRyeTogQm9vbGVhbiwKICAgICAgICByZWNvcmRUb2tlblVzYWdlOiBCb29sZWFuLAogICAgICAgIG9uVXNhZ2VGaW5hbGl6ZWQ6IChzdXNwZW5kIChhdHRlbXB0OiBJbnQ/KSAtPiBVbml0KT8sCiAgICApOiBTdHJlYW08U3RyaW5nPiA9IHN0cmVhbSB7CiAgICAgICAgaXNDYW5jZWxsZWQgPSBmYWxzZQoKICAgICAgICBpZiAoIUxsYW1hU2Vzc2lvbi5pc0F2YWlsYWJsZSgpKSB7CiAgICAgICAgICAgIHRocm93IElPRXhjZXB0aW9uKCIke2NvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmxsYW1hX2Vycm9yX3ByZWZpeCl9OiAke0xsYW1hU2Vzc2lvbi5nZXRVbmF2YWlsYWJsZVJlYXNvbigpfSIpCiAgICAgICAgfQoKICAgICAgICB2YWwgbW9kZWxGaWxlID0gZ2V0TW9kZWxGaWxlKGNvbnRleHQsIG1vZGVsTmFtZSkKICAgICAgICBpZiAoIW1vZGVsRmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICB0aHJvdyBJT0V4Y2VwdGlvbigiJHtjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5sbGFtYV9lcnJvcl9wcmVmaXgpfTogJHtjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5sbGFtYV9lcnJvcl9tb2RlbF9maWxlX25vdF9leGlzdCwgbW9kZWxGaWxlLmFic29sdXRlUGF0aCl9IikKICAgICAgICB9CgogICAgICAgIHZhbCBzID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgZW5zdXJlU2Vzc2lvbkxvY2tlZCgpCiAgICAgICAgfQogICAgICAgIGlmIChzID09IG51bGwpIHsKICAgICAgICAgICAgdGhyb3cgSU9FeGNlcHRpb24oY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubGxhbWFfZXJyb3Jfc2Vzc2lvbl9jcmVhdGVfZmFpbGVkKSkKICAgICAgICB9CgogICAgICAgIHZhbCBlZmZlY3RpdmVFbmFibGVUb29sQ2FsbCA9IHNob3VsZFVzZVRvb2xDYWxsKGF2YWlsYWJsZVRvb2xzKQoKICAgICAgICBpZiAoZWZmZWN0aXZlRW5hYmxlVG9vbENhbGwpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAibGxhbWEuY3BwIFRvb2wgQ2FsbOi9rOaNouW3suWQr+eUqO+8jHRvb2xzPSR7YXZhaWxhYmxlVG9vbHM/LnNpemUgPzogMH0iKQogICAgICAgIH0KCiAgICAgICAgdmFsIHByb21wdCA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIGlmIChlZmZlY3RpdmVFbmFibGVUb29sQ2FsbCkgewogICAgICAgICAgICAgICAgdmFsIG1lc3NhZ2VzSnNvbiA9IFN0cnVjdHVyZWRUb29sQ2FsbEJyaWRnZS5idWlsZE1lc3NhZ2VzSnNvbigKICAgICAgICAgICAgICAgICAgICBoaXN0b3J5ID0gY2hhdEhpc3RvcnksCiAgICAgICAgICAgICAgICAgICAgcHJlc2VydmVUaGlua0luSGlzdG9yeSA9IHByZXNlcnZlVGhpbmtJbkhpc3RvcnkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHZhbCB0b29sc0pzb24gPSBTdHJ1Y3R1cmVkVG9vbENhbGxCcmlkZ2UuYnVpbGRUb29sc0pzb24oYXZhaWxhYmxlVG9vbHMpCiAgICAgICAgICAgICAgICBzLmFwcGx5U3RydWN0dXJlZENoYXRUZW1wbGF0ZShtZXNzYWdlc0pzb24sIHRvb2xzSnNvbiwgZW5hYmxlVGhpbmtpbmcsIHRydWUpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICB2YWwgKHJvbGVzLCBjb250ZW50cykgPSBidWlsZFBsYWluUHJvbXB0TWVzc2FnZXMoCiAgICAgICAgICAgICAgICAgICAgY2hhdEhpc3RvcnkgPSBjaGF0SGlzdG9yeSwKICAgICAgICAgICAgICAgICAgICBwcmVzZXJ2ZVRoaW5rSW5IaXN0b3J5ID0gcHJlc2VydmVUaGlua0luSGlzdG9yeQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgcy5hcHBseUNoYXRUZW1wbGF0ZShyb2xlcywgY29udGVudHMsIGVuYWJsZVRoaW5raW5nLCB0cnVlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGlmIChwcm9tcHQuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgIHRocm93IElPRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmxsYW1hX2Vycm9yX2NoYXRfdGVtcGxhdGVfZmFpbGVkKSkKICAgICAgICB9CgogICAgICAgIGxvZ0xhcmdlU3RyaW5nKCJGaW5hbCBwcm9tcHQgYmVmb3JlIGxsYW1hIGdlbmVyYXRpb246ICIsIHByb21wdCkKCiAgICAgICAgdmFsIHRlbXBlcmF0dXJlID0gbW9kZWxQYXJhbWV0ZXJzCiAgICAgICAgICAgIC5maXJzdE9yTnVsbCB7IGl0LmlkID09ICJ0ZW1wZXJhdHVyZSIgJiYgaXQuaXNFbmFibGVkIH0KICAgICAgICAgICAgPy5sZXQgeyAoaXQuY3VycmVudFZhbHVlIGFzPyBOdW1iZXIpPy50b0Zsb2F0KCkgfQogICAgICAgICAgICA/OiAxLjBmCiAgICAgICAgdmFsIHRvcFAgPSBtb2RlbFBhcmFtZXRlcnMKICAgICAgICAgICAgLmZpcnN0T3JOdWxsIHsgaXQuaWQgPT0gInRvcF9wIiAmJiBpdC5pc0VuYWJsZWQgfQogICAgICAgICAgICA/LmxldCB7IChpdC5jdXJyZW50VmFsdWUgYXM/IE51bWJlcik/LnRvRmxvYXQoKSB9CiAgICAgICAgICAgID86IDEuMGYKICAgICAgICB2YWwgdG9wSyA9IG1vZGVsUGFyYW1ldGVycwogICAgICAgICAgICAuZmlyc3RPck51bGwgeyBpdC5pZCA9PSAidG9wX2siICYmIGl0LmlzRW5hYmxlZCB9CiAgICAgICAgICAgID8ubGV0IHsgKGl0LmN1cnJlbnRWYWx1ZSBhcz8gTnVtYmVyKT8udG9JbnQoKSB9CiAgICAgICAgICAgID86IDAKICAgICAgICB2YWwgcmVwZXRpdGlvblBlbmFsdHkgPSBtb2RlbFBhcmFtZXRlcnMKICAgICAgICAgICAgLmZpcnN0T3JOdWxsIHsgaXQuaWQgPT0gInJlcGV0aXRpb25fcGVuYWx0eSIgJiYgaXQuaXNFbmFibGVkIH0KICAgICAgICAgICAgPy5sZXQgeyAoaXQuY3VycmVudFZhbHVlIGFzPyBOdW1iZXIpPy50b0Zsb2F0KCkgfQogICAgICAgICAgICA/OiAxLjBmCiAgICAgICAgdmFsIGZyZXF1ZW5jeVBlbmFsdHkgPSBtb2RlbFBhcmFtZXRlcnMKICAgICAgICAgICAgLmZpcnN0T3JOdWxsIHsgaXQuaWQgPT0gImZyZXF1ZW5jeV9wZW5hbHR5IiAmJiBpdC5pc0VuYWJsZWQgfQogICAgICAgICAgICA/LmxldCB7IChpdC5jdXJyZW50VmFsdWUgYXM/IE51bWJlcik/LnRvRmxvYXQoKSB9CiAgICAgICAgICAgID86IDAuMGYKICAgICAgICB2YWwgcHJlc2VuY2VQZW5hbHR5ID0gbW9kZWxQYXJhbWV0ZXJzCiAgICAgICAgICAgIC5maXJzdE9yTnVsbCB7IGl0LmlkID09ICJwcmVzZW5jZV9wZW5hbHR5IiAmJiBpdC5pc0VuYWJsZWQgfQogICAgICAgICAgICA/LmxldCB7IChpdC5jdXJyZW50VmFsdWUgYXM/IE51bWJlcik/LnRvRmxvYXQoKSB9CiAgICAgICAgICAgID86IDAuMGYKCiAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAga290bGluLnJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgIHMuc2V0U2FtcGxpbmdQYXJhbXMoCiAgICAgICAgICAgICAgICAgICAgdGVtcGVyYXR1cmUgPSB0ZW1wZXJhdHVyZSwKICAgICAgICAgICAgICAgICAgICB0b3BQID0gdG9wUCwKICAgICAgICAgICAgICAgICAgICB0b3BLID0gdG9wSywKICAgICAgICAgICAgICAgICAgICByZXBldGl0aW9uUGVuYWx0eSA9IHJlcGV0aXRpb25QZW5hbHR5LAogICAgICAgICAgICAgICAgICAgIGZyZXF1ZW5jeVBlbmFsdHkgPSBmcmVxdWVuY3lQZW5hbHR5LAogICAgICAgICAgICAgICAgICAgIHByZXNlbmNlUGVuYWx0eSA9IHByZXNlbmNlUGVuYWx0eSwKICAgICAgICAgICAgICAgICAgICBwZW5hbHR5TGFzdE4gPSA2NAogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoIWVmZmVjdGl2ZUVuYWJsZVRvb2xDYWxsKSB7CiAgICAgICAgICAgICAgICBrb3RsaW4ucnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgICAgIHMuY2xlYXJUb29sQ2FsbEdyYW1tYXIoKQogICAgICAgICAgICAgICAgICAgIFVuaXQKICAgICAgICAgICAgICAgIH0ub25GYWlsdXJlIHsKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICLmuIXnkIZsbGFtYS5jcHDljp/nlJ9Ub29sIENhbGznirbmgIHlpLHotKUiLCBpdCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgX2lucHV0VG9rZW5Db3VudCA9IGtvdGxpbi5ydW5DYXRjaGluZyB7IHMuY291bnRUb2tlbnMocHJvbXB0KS50b0xvbmcoKSB9LmdldE9yRWxzZSB7IDBMIH0KICAgICAgICBfb3V0cHV0VG9rZW5Db3VudCA9IDBMCiAgICAgICAgb25Ub2tlbnNVcGRhdGVkKF9pbnB1dFRva2VuQ291bnQsIDBMLCAwTCkKCiAgICAgICAgdmFsIHJlcXVlc3RlZE1heE5ld1Rva2VucyA9IG1vZGVsUGFyYW1ldGVycwogICAgICAgICAgICAuZmluZCB7IGl0Lm5hbWUgPT0gIm1heF90b2tlbnMiIH0KICAgICAgICAgICAgPy5sZXQgeyAoaXQuY3VycmVudFZhbHVlIGFzPyBOdW1iZXIpPy50b0ludCgpIH0KICAgICAgICAgICAgPzogLTEKCiAgICAgICAgQXBwTG9nZ2VyLmQoCiAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgIuW8gOWni2xsYW1hLmNwcOaOqOeQhu+8jGhpc3Rvcnk9JHtjaGF0SGlzdG9yeS5zaXplfSwgdGhyZWFkcz0ke3Nlc3Npb25Db25maWcublRocmVhZHN9LCBuX2N0eD0ke3Nlc3Npb25Db25maWcubkN0eH0sIG5fYmF0Y2g9JHtzZXNzaW9uQ29uZmlnLm5CYXRjaH0sIG5fdWJhdGNoPSR7c2Vzc2lvbkNvbmZpZy5uVUJhdGNofSwgZ3B1X2xheWVycz0ke3Nlc3Npb25Db25maWcubkdwdUxheWVyc30sIG1tYXA9JHtzZXNzaW9uQ29uZmlnLnVzZU1tYXB9IgogICAgICAgICkKCiAgICAgICAgdmFyIG91dHB1dFRva2VuQ291bnQgPSAwTAogICAgICAgIHZhbCB0b29sQ2FsbE91dHB1dEJ1ZmZlciA9IFN0cmluZ0J1aWxkZXIoKQogICAgICAgIHZhbCBmaW5hbE91dHB1dEJ1ZmZlciA9IFN0cmluZ0J1aWxkZXIoKQoKICAgICAgICB2YWwgdXNhZ2VSZXBvcnRlciA9IExvY2FsVXNhZ2VSZXBvcnRlcigKICAgICAgICAgICAgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuUHJvdmlkZXJVc2FnZU5vcm1hbGl6ZXIuU09VUkNFX0xMQU1BLAogICAgICAgICAgICBvblVzYWdlUmVwb3J0ZWQsCiAgICAgICAgKQogICAgICAgIHZhbCBzdWNjZXNzID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgICAgIHMuZ2VuZXJhdGVTdHJlYW0ocHJvbXB0LCByZXF1ZXN0ZWRNYXhOZXdUb2tlbnMpIHsgdG9rZW4gLT4KICAgICAgICAgICAgICAgICAgICBpZiAoaXNDYW5jZWxsZWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBvdXRwdXRUb2tlbkNvdW50ICs9IDFMCiAgICAgICAgICAgICAgICAgICAgICAgIF9vdXRwdXRUb2tlbkNvdW50ID0gb3V0cHV0VG9rZW5Db3VudAoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGVmZmVjdGl2ZUVuYWJsZVRvb2xDYWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b29sQ2FsbE91dHB1dEJ1ZmZlci5hcHBlbmQodG9rZW4pCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmaW5hbE91dHB1dEJ1ZmZlci5hcHBlbmQodG9rZW4pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBydW5CbG9ja2luZyB7IGVtaXQodG9rZW4pIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAga290bGluLnJ1bkNhdGNoaW5nIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGtvdGxpbnguY29yb3V0aW5lcy5ydW5CbG9ja2luZyB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25Ub2tlbnNVcGRhdGVkKF9pbnB1dFRva2VuQ291bnQsIDBMLCBfb3V0cHV0VG9rZW5Db3VudCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgdHJ1ZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICBMb2NhbEdlbmVyYXRpb25FbmQuZW5kKAogICAgICAgICAgICBjYW5jZWxsZWQgPSBpc0NhbmNlbGxlZCwKICAgICAgICAgICAgc3VjY2VzcyA9IHN1Y2Nlc3MsCiAgICAgICAgICAgIHVzYWdlUmVwb3J0ZXIgPSB1c2FnZVJlcG9ydGVyLAogICAgICAgICAgICBpbnB1dFRva2VucyA9IF9pbnB1dFRva2VuQ291bnQsCiAgICAgICAgICAgIG91dHB1dFRva2VucyA9IF9vdXRwdXRUb2tlbkNvdW50LAogICAgICAgICAgICBjYW5jZWxNZXNzYWdlID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubGxhbWFfZXJyb3JfcmVxdWVzdF9jYW5jZWxsZWQpLAogICAgICAgICAgICBlbWl0VG9vbFJlc3VsdCA9IHsKICAgICAgICAgICAgICAgIGlmIChlZmZlY3RpdmVFbmFibGVUb29sQ2FsbCkgewogICAgICAgICAgICAgICAgICAgIHZhbCBub3JtYWxpemVkUGF5bG9hZCA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGtvdGxpbi5ydW5DYXRjaGluZyB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzLnBhcnNlVG9vbENhbGxSZXNwb25zZSh0b29sQ2FsbE91dHB1dEJ1ZmZlci50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICB9LmdldE9yTnVsbCgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHZhbCBjb252ZXJ0ZWQgPSBTdHJ1Y3R1cmVkVG9vbENhbGxCcmlkZ2UuY29udmVydFRvb2xDYWxsUGF5bG9hZFRvWG1sKAogICAgICAgICAgICAgICAgICAgICAgICBub3JtYWxpemVkUGF5bG9hZCA/OiB0b29sQ2FsbE91dHB1dEJ1ZmZlci50b1N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIGlmIChjb252ZXJ0ZWQuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGZpbmFsT3V0cHV0QnVmZmVyLmFwcGVuZChjb252ZXJ0ZWQpCiAgICAgICAgICAgICAgICAgICAgICAgIGVtaXQoY29udmVydGVkKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgZmFpbFdpdGggPSB7CiAgICAgICAgICAgICAgICBrb3RsaW4ucnVuQ2F0Y2hpbmcgewogICAgICAgICAgICAgICAgICAgIG9uTm9uRmF0YWxFcnJvcihjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5sbGFtYV9lcnJvcl9pbmZlcmVuY2VfZmFpbGVkKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHRocm93IElPRXhjZXB0aW9uKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmxsYW1hX2Vycm9yX2luZmVyZW5jZV9mYWlsZWQpKQogICAgICAgICAgICB9LAogICAgICAgICkKICAgICAgICBvblVzYWdlRmluYWxpemVkPy5pbnZva2UoMSkKCiAgICAgICAgQXBwTG9nZ2VyLmkoVEFHLCAibGxhbWEuY3Bw5o6o55CG5a6M5oiQ77yM6L6T5Ye6dG9rZW7mlbA6ICRfb3V0cHV0VG9rZW5Db3VudCIpCiAgICAgICAgbG9nRmluYWxPdXRwdXQoZmluYWxPdXRwdXRCdWZmZXIsICJGaW5hbCBsbGFtYS5jcHAgb3V0cHV0IHN1bW1hcnk6ICIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc2hvdWxkVXNlVG9vbENhbGwoYXZhaWxhYmxlVG9vbHM6IExpc3Q8VG9vbFByb21wdD4/KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGVuYWJsZVRvb2xDYWxsICYmICFhdmFpbGFibGVUb29scy5pc051bGxPckVtcHR5KCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBidWlsZFBsYWluUHJvbXB0TWVzc2FnZXMoCiAgICAgICAgY2hhdEhpc3Rvcnk6IExpc3Q8UHJvbXB0VHVybj4sCiAgICAgICAgcHJlc2VydmVUaGlua0luSGlzdG9yeTogQm9vbGVhbgogICAgKTogUGFpcjxMaXN0PFN0cmluZz4sIExpc3Q8U3RyaW5nPj4gewogICAgICAgIHZhbCBub3JtYWxpemVkSGlzdG9yeSA9CiAgICAgICAgICAgIGNoYXRIaXN0b3J5Lm1hcCB7IHR1cm4gLT4KICAgICAgICAgICAgICAgIHZhbCByb2xlID0KICAgICAgICAgICAgICAgICAgICB3aGVuICh0dXJuLmtpbmQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgUHJvbXB0VHVybktpbmQuU1lTVEVNIC0+ICJzeXN0ZW0iCiAgICAgICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm5LaW5kLlVTRVIsCiAgICAgICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm5LaW5kLlNVTU1BUlksCiAgICAgICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm5LaW5kLlRPT0xfUkVTVUxUIC0+ICJ1c2VyIgogICAgICAgICAgICAgICAgICAgICAgICBQcm9tcHRUdXJuS2luZC5BU1NJU1RBTlQsCiAgICAgICAgICAgICAgICAgICAgICAgIFByb21wdFR1cm5LaW5kLlRPT0xfQ0FMTCAtPiAiYXNzaXN0YW50IgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhbCByYXdDb250ZW50ID0KICAgICAgICAgICAgICAgICAgICBpZiAoIXByZXNlcnZlVGhpbmtJbkhpc3RvcnkgJiYgdHVybi5raW5kID09IFByb21wdFR1cm5LaW5kLkFTU0lTVEFOVCkgewogICAgICAgICAgICAgICAgICAgICAgICBDaGF0VXRpbHMucmVtb3ZlVGhpbmtpbmdDb250ZW50KHR1cm4uY29udGVudCkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICB0dXJuLmNvbnRlbnQKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgY29udGVudCA9IENoYXRVdGlscy5zdHJpcE9wZW5BaVJlc3BvbnNlc1Byb3RvY29sTWFya3VwKHJhd0NvbnRlbnQpCiAgICAgICAgICAgICAgICByb2xlIHRvIGNvbnRlbnQKICAgICAgICAgICAgfQogICAgICAgIHZhbCByb2xlcyA9IEFycmF5TGlzdDxTdHJpbmc+KG5vcm1hbGl6ZWRIaXN0b3J5LnNpemUpCiAgICAgICAgdmFsIGNvbnRlbnRzID0gQXJyYXlMaXN0PFN0cmluZz4obm9ybWFsaXplZEhpc3Rvcnkuc2l6ZSkKCiAgICAgICAgZm9yICgocm9sZSwgY29udGVudCkgaW4gbm9ybWFsaXplZEhpc3RvcnkpIHsKICAgICAgICAgICAgcm9sZXMuYWRkKHJvbGUpCiAgICAgICAgICAgIGNvbnRlbnRzLmFkZChjb250ZW50KQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHJvbGVzIHRvIGNvbnRlbnRzCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZW5zdXJlU2Vzc2lvbkxvY2tlZCgpOiBMbGFtYVNlc3Npb24/IHsKICAgICAgICBzeW5jaHJvbml6ZWQoc2Vzc2lvbkxvY2spIHsKICAgICAgICAgICAgc2Vzc2lvbj8ubGV0IHsgcmV0dXJuIGl0IH0KICAgICAgICAgICAgdmFsIG1vZGVsRmlsZSA9IGdldE1vZGVsRmlsZShjb250ZXh0LCBtb2RlbE5hbWUpCiAgICAgICAgICAgIHZhbCBjcmVhdGVkID0gTGxhbWFTZXNzaW9uLmNyZWF0ZSgKICAgICAgICAgICAgICAgIHBhdGhNb2RlbCA9IG1vZGVsRmlsZS5hYnNvbHV0ZVBhdGgsCiAgICAgICAgICAgICAgICBjb25maWcgPSBzZXNzaW9uQ29uZmlnCiAgICAgICAgICAgICkKICAgICAgICAgICAgc2Vzc2lvbiA9IGNyZWF0ZWQKICAgICAgICAgICAgcmV0dXJuIGNyZWF0ZWQKICAgICAgICB9CiAgICB9Cgp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import android.content.Context
+import android.os.Environment
+import com.ai.assistance.llama.LlamaSession
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.core.chat.hooks.PromptTurnKind
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.data.model.ModelOption
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.model.ToolPrompt
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.ChatUtils
+import com.bslsjdk.operit.util.stream.Stream
+import com.bslsjdk.operit.util.stream.stream
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withContext
+import java.io.File
+import java.io.IOException
+
+class LlamaProvider(
+    private val context: Context,
+    private val modelName: String,
+    private val sessionConfig: LlamaSession.Config,
+    private val providerType: ApiProviderType = ApiProviderType.LLAMA_CPP,
+    private val enableToolCall: Boolean = false
+) : AIService {
+
+    companion object {
+        private const val TAG = "LlamaProvider"
+
+        fun getModelsDir(): File {
+            return File(
+                Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
+                "Operit/models/llama"
+            )
+        }
+
+        fun getModelFile(_context: Context, modelName: String): File {
+            return File(getModelsDir(), modelName)
+        }
+    }
+
+    private var _inputTokenCount: Long = 0L
+    private var _outputTokenCount: Long = 0L
+    private var _cachedInputTokenCount: Long = 0L
+
+    @Volatile
+    private var isCancelled = false
+
+    private val sessionLock = Any()
+    private var session: LlamaSession? = null
+
+    override val inputTokenCount: Long
+        get() = _inputTokenCount
+
+    override val cachedInputTokenCount: Long
+        get() = _cachedInputTokenCount
+
+    override val outputTokenCount: Long
+        get() = _outputTokenCount
+
+    override val providerModel: String
+        get() = "${providerType.name}:$modelName"
+
+    override fun resetTokenCounts() {
+        _inputTokenCount = 0L
+        _outputTokenCount = 0L
+        _cachedInputTokenCount = 0L
+    }
+
+    private fun logLargeString(prefix: String, message: String) {
+        val maxLogSize = 3000
+        if (message.length <= maxLogSize) {
+            AppLogger.d(TAG, "$prefix$message")
+            return
+        }
+
+        val chunkCount = (message.length + maxLogSize - 1) / maxLogSize
+        for (index in 0 until chunkCount) {
+            val start = index * maxLogSize
+            val end = minOf((index + 1) * maxLogSize, message.length)
+            val chunk = message.substring(start, end)
+            AppLogger.d(TAG, "$prefix Part ${index + 1}/$chunkCount: $chunk")
+        }
+    }
+
+    private fun logFinalOutput(content: CharSequence, prefix: String = "Final llama.cpp output: ") {
+        val finalOutput = content.toString()
+        if (finalOutput.isBlank()) {
+            AppLogger.d(TAG, "${prefix.trimEnd()}[empty]")
+            return
+        }
+        logLargeString(prefix, finalOutput)
+    }
+
+    override fun cancelStreaming() {
+        isCancelled = true
+        synchronized(sessionLock) {
+            session?.cancel()
+        }
+    }
+
+    override fun release() {
+        synchronized(sessionLock) {
+            session?.release()
+            session = null
+        }
+    }
+
+    override suspend fun getModelsList(context: Context): Result<List<ModelOption>> {
+        return ModelListFetcher.getLlamaLocalModels(context)
+    }
+
+    override suspend fun testConnection(context: Context): Result<String> = withContext(Dispatchers.IO) {
+        if (!LlamaSession.isAvailable()) {
+            return@withContext Result.failure(Exception(LlamaSession.getUnavailableReason()))
+        }
+
+        val modelFile = getModelFile(context, modelName)
+        if (!modelFile.exists()) {
+            return@withContext Result.failure(Exception(context.getString(R.string.llama_error_model_file_not_exist, modelFile.absolutePath)))
+        }
+
+        val testSession = LlamaSession.create(
+            pathModel = modelFile.absolutePath,
+            config = sessionConfig
+        ) ?: return@withContext Result.failure(Exception(context.getString(R.string.llama_error_create_session_failed)))
+
+        testSession.release()
+        Result.success("llama.cpp backend is available (native ready).")
+    }
+
+    override suspend fun calculateInputTokens(
+        chatHistory: List<PromptTurn>,
+        availableTools: List<ToolPrompt>?
+    ): Long {
+        return withContext(Dispatchers.IO) {
+            kotlin.runCatching {
+                val s = ensureSessionLocked()
+                if (s == null) return@runCatching null
+
+                val prompt = if (shouldUseToolCall(availableTools)) {
+                    val messagesJson = StructuredToolCallBridge.buildMessagesJson(
+                        history = chatHistory,
+                        preserveThinkInHistory = false
+                    )
+                    val toolsJson = StructuredToolCallBridge.buildToolsJson(availableTools)
+                    s.applyStructuredChatTemplate(messagesJson, toolsJson, true, true)
+                } else {
+                    val (roles, contents) = buildPlainPromptMessages(
+                        chatHistory = chatHistory,
+                        preserveThinkInHistory = false
+                    )
+                    s.applyChatTemplate(roles, contents, true, true)
+                } ?: return@runCatching null
+
+                s.countTokens(prompt).toLong()
+            }.getOrNull() ?: 0L
+        }
+    }
+
+    override suspend fun sendMessage(
+        context: Context,
+        chatHistory: List<PromptTurn>,
+        modelParameters: List<ModelParameter<*>>,
+        enableThinking: Boolean,
+        stream: Boolean,
+        availableTools: List<ToolPrompt>?,
+        preserveThinkInHistory: Boolean,
+        onTokensUpdated: suspend (input: Long, cachedInput: Long, output: Long) -> Unit,
+        onUsageReported: (suspend (com.bslsjdk.operit.data.stats.ProviderUsageSnapshot, attempt: Int) -> Unit)?,
+        onNonFatalError: suspend (error: String) -> Unit,
+        enableRetry: Boolean,
+        recordTokenUsage: Boolean,
+        onUsageFinalized: (suspend (attempt: Int?) -> Unit)?,
+    ): Stream<String> = stream {
+        isCancelled = false
+
+        if (!LlamaSession.isAvailable()) {
+            throw IOException("${context.getString(R.string.llama_error_prefix)}: ${LlamaSession.getUnavailableReason()}")
+        }
+
+        val modelFile = getModelFile(context, modelName)
+        if (!modelFile.exists()) {
+            throw IOException("${context.getString(R.string.llama_error_prefix)}: ${context.getString(R.string.llama_error_model_file_not_exist, modelFile.absolutePath)}")
+        }
+
+        val s = withContext(Dispatchers.IO) {
+            ensureSessionLocked()
+        }
+        if (s == null) {
+            throw IOException(context.getString(R.string.llama_error_session_create_failed))
+        }
+
+        val effectiveEnableToolCall = shouldUseToolCall(availableTools)
+
+        if (effectiveEnableToolCall) {
+            AppLogger.d(TAG, "llama.cpp Tool Call转换已启用，tools=${availableTools?.size ?: 0}")
+        }
+
+        val prompt = withContext(Dispatchers.IO) {
+            if (effectiveEnableToolCall) {
+                val messagesJson = StructuredToolCallBridge.buildMessagesJson(
+                    history = chatHistory,
+                    preserveThinkInHistory = preserveThinkInHistory
+                )
+                val toolsJson = StructuredToolCallBridge.buildToolsJson(availableTools)
+                s.applyStructuredChatTemplate(messagesJson, toolsJson, enableThinking, true)
+            } else {
+                val (roles, contents) = buildPlainPromptMessages(
+                    chatHistory = chatHistory,
+                    preserveThinkInHistory = preserveThinkInHistory
+                )
+                s.applyChatTemplate(roles, contents, enableThinking, true)
+            }
+        }
+        if (prompt.isNullOrBlank()) {
+            throw IOException(context.getString(R.string.llama_error_chat_template_failed))
+        }
+
+        logLargeString("Final prompt before llama generation: ", prompt)
+
+        val temperature = modelParameters
+            .firstOrNull { it.id == "temperature" && it.isEnabled }
+            ?.let { (it.currentValue as? Number)?.toFloat() }
+            ?: 1.0f
+        val topP = modelParameters
+            .firstOrNull { it.id == "top_p" && it.isEnabled }
+            ?.let { (it.currentValue as? Number)?.toFloat() }
+            ?: 1.0f
+        val topK = modelParameters
+            .firstOrNull { it.id == "top_k" && it.isEnabled }
+            ?.let { (it.currentValue as? Number)?.toInt() }
+            ?: 0
+        val repetitionPenalty = modelParameters
+            .firstOrNull { it.id == "repetition_penalty" && it.isEnabled }
+            ?.let { (it.currentValue as? Number)?.toFloat() }
+            ?: 1.0f
+        val frequencyPenalty = modelParameters
+            .firstOrNull { it.id == "frequency_penalty" && it.isEnabled }
+            ?.let { (it.currentValue as? Number)?.toFloat() }
+            ?: 0.0f
+        val presencePenalty = modelParameters
+            .firstOrNull { it.id == "presence_penalty" && it.isEnabled }
+            ?.let { (it.currentValue as? Number)?.toFloat() }
+            ?: 0.0f
+
+        withContext(Dispatchers.IO) {
+            kotlin.runCatching {
+                s.setSamplingParams(
+                    temperature = temperature,
+                    topP = topP,
+                    topK = topK,
+                    repetitionPenalty = repetitionPenalty,
+                    frequencyPenalty = frequencyPenalty,
+                    presencePenalty = presencePenalty,
+                    penaltyLastN = 64
+                )
+            }
+
+            if (!effectiveEnableToolCall) {
+                kotlin.runCatching {
+                    s.clearToolCallGrammar()
+                    Unit
+                }.onFailure {
+                    AppLogger.w(TAG, "清理llama.cpp原生Tool Call状态失败", it)
+                }
+            }
+        }
+
+        _inputTokenCount = kotlin.runCatching { s.countTokens(prompt).toLong() }.getOrElse { 0L }
+        _outputTokenCount = 0L
+        onTokensUpdated(_inputTokenCount, 0L, 0L)
+
+        val requestedMaxNewTokens = modelParameters
+            .find { it.name == "max_tokens" }
+            ?.let { (it.currentValue as? Number)?.toInt() }
+            ?: -1
+
+        AppLogger.d(
+            TAG,
+            "开始llama.cpp推理，history=${chatHistory.size}, threads=${sessionConfig.nThreads}, n_ctx=${sessionConfig.nCtx}, n_batch=${sessionConfig.nBatch}, n_ubatch=${sessionConfig.nUBatch}, gpu_layers=${sessionConfig.nGpuLayers}, mmap=${sessionConfig.useMmap}"
+        )
+
+        var outputTokenCount = 0L
+        val toolCallOutputBuffer = StringBuilder()
+        val finalOutputBuffer = StringBuilder()
+
+        val usageReporter = LocalUsageReporter(
+            com.bslsjdk.operit.data.stats.ProviderUsageNormalizer.SOURCE_LLAMA,
+            onUsageReported,
+        )
+        val success = withContext(Dispatchers.IO) {
+                s.generateStream(prompt, requestedMaxNewTokens) { token ->
+                    if (isCancelled) {
+                        false
+                    } else {
+                        outputTokenCount += 1L
+                        _outputTokenCount = outputTokenCount
+
+                        if (effectiveEnableToolCall) {
+                            toolCallOutputBuffer.append(token)
+                        } else {
+                            finalOutputBuffer.append(token)
+                            runBlocking { emit(token) }
+                        }
+
+                        kotlin.runCatching {
+                            kotlinx.coroutines.runBlocking {
+                                onTokensUpdated(_inputTokenCount, 0L, _outputTokenCount)
+                            }
+                        }
+
+                        true
+                    }
+                }
+            }
+
+        LocalGenerationEnd.end(
+            cancelled = isCancelled,
+            success = success,
+            usageReporter = usageReporter,
+            inputTokens = _inputTokenCount,
+            outputTokens = _outputTokenCount,
+            cancelMessage = context.getString(R.string.llama_error_request_cancelled),
+            emitToolResult = {
+                if (effectiveEnableToolCall) {
+                    val normalizedPayload = withContext(Dispatchers.IO) {
+                        kotlin.runCatching {
+                            s.parseToolCallResponse(toolCallOutputBuffer.toString())
+                        }.getOrNull()
+                    }
+                    val converted = StructuredToolCallBridge.convertToolCallPayloadToXml(
+                        normalizedPayload ?: toolCallOutputBuffer.toString()
+                    )
+                    if (converted.isNotBlank()) {
+                        finalOutputBuffer.append(converted)
+                        emit(converted)
+                    }
+                }
+            },
+            failWith = {
+                kotlin.runCatching {
+                    onNonFatalError(context.getString(R.string.llama_error_inference_failed))
+                }
+                throw IOException(context.getString(R.string.llama_error_inference_failed))
+            },
+        )
+        onUsageFinalized?.invoke(1)
+
+        AppLogger.i(TAG, "llama.cpp推理完成，输出token数: $_outputTokenCount")
+        logFinalOutput(finalOutputBuffer, "Final llama.cpp output summary: ")
+    }
+
+    private fun shouldUseToolCall(availableTools: List<ToolPrompt>?): Boolean {
+        return enableToolCall && !availableTools.isNullOrEmpty()
+    }
+
+    private fun buildPlainPromptMessages(
+        chatHistory: List<PromptTurn>,
+        preserveThinkInHistory: Boolean
+    ): Pair<List<String>, List<String>> {
+        val normalizedHistory =
+            chatHistory.map { turn ->
+                val role =
+                    when (turn.kind) {
+                        PromptTurnKind.SYSTEM -> "system"
+                        PromptTurnKind.USER,
+                        PromptTurnKind.SUMMARY,
+                        PromptTurnKind.TOOL_RESULT -> "user"
+                        PromptTurnKind.ASSISTANT,
+                        PromptTurnKind.TOOL_CALL -> "assistant"
+                    }
+                val rawContent =
+                    if (!preserveThinkInHistory && turn.kind == PromptTurnKind.ASSISTANT) {
+                        ChatUtils.removeThinkingContent(turn.content)
+                    } else {
+                        turn.content
+                    }
+                val content = ChatUtils.stripOpenAiResponsesProtocolMarkup(rawContent)
+                role to content
+            }
+        val roles = ArrayList<String>(normalizedHistory.size)
+        val contents = ArrayList<String>(normalizedHistory.size)
+
+        for ((role, content) in normalizedHistory) {
+            roles.add(role)
+            contents.add(content)
+        }
+
+        return roles to contents
+    }
+
+    private fun ensureSessionLocked(): LlamaSession? {
+        synchronized(sessionLock) {
+            session?.let { return it }
+            val modelFile = getModelFile(context, modelName)
+            val created = LlamaSession.create(
+                pathModel = modelFile.absolutePath,
+                config = sessionConfig
+            )
+            session = created
+            return created
+        }
+    }
+
+}

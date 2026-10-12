@@ -1,1 +1,269 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZQoKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uQW5pbWF0ZWRWaXNpYmlsaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5mYWRlSW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmZhZGVPdXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5JbWFnZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5kZXRlY3RUYXBHZXN0dXJlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmdlc3R1cmVzLmRldGVjdFRyYW5zZm9ybUdlc3R1cmVzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkJveAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhTaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuU3VyZmFjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zZXRWYWx1ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwVG9Cb3VuZHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ2VvbWV0cnkuT2Zmc2V0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLmdyYXBoaWNzTGF5ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuaW5wdXQucG9pbnRlci5wb2ludGVySW5wdXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LkNvbnRlbnRTY2FsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQub25TaXplQ2hhbmdlZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuc3R5bGUuVGV4dE92ZXJmbG93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuSW50U2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb2lsLmNvbXBvc2UuQXN5bmNJbWFnZVBhaW50ZXIKaW1wb3J0IGNvaWwuY29tcG9zZS5yZW1lbWJlckFzeW5jSW1hZ2VQYWludGVyCmltcG9ydCBjb2lsLnJlcXVlc3QuQ2FjaGVQb2xpY3kKaW1wb3J0IGNvaWwucmVxdWVzdC5JbWFnZVJlcXVlc3QKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCgpwcml2YXRlIGNvbnN0IHZhbCBXT1JLU1BBQ0VfSU1BR0VfTUlOX1NDQUxFID0gMWYKcHJpdmF0ZSBjb25zdCB2YWwgV09SS1NQQUNFX0lNQUdFX0RPVUJMRV9UQVBfU0NBTEUgPSAyLjVmCnByaXZhdGUgY29uc3QgdmFsIFdPUktTUEFDRV9JTUFHRV9NQVhfU0NBTEUgPSA1ZgoKQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIFdvcmtzcGFjZUltYWdlUHJldmlldygKICAgIGZpbGVOYW1lOiBTdHJpbmcsCiAgICBwcmV2aWV3VXJpOiBVcmk/LAogICAgaXNTb3VyY2VMb2FkaW5nOiBCb29sZWFuLAogICAgZXJyb3JNZXNzYWdlOiBTdHJpbmc/LAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YXIgc2NhbGUgYnkgcmVtZW1iZXIocHJldmlld1VyaSkgeyBtdXRhYmxlU3RhdGVPZihXT1JLU1BBQ0VfSU1BR0VfTUlOX1NDQUxFKSB9CiAgICB2YXIgb2Zmc2V0IGJ5IHJlbWVtYmVyKHByZXZpZXdVcmkpIHsgbXV0YWJsZVN0YXRlT2YoT2Zmc2V0Llplcm8pIH0KICAgIHZhciB2aWV3cG9ydFNpemUgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihJbnRTaXplLlplcm8pIH0KICAgIHZhbCByZXNvbHZlZEVycm9yTWVzc2FnZSA9IGVycm9yTWVzc2FnZSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jYW5ub3Rfb3Blbl9maWxlLCBmaWxlTmFtZSkKCiAgICB2YWwgcGFpbnRlciA9CiAgICAgICAgaWYgKHByZXZpZXdVcmkgIT0gbnVsbCkgewogICAgICAgICAgICByZW1lbWJlckFzeW5jSW1hZ2VQYWludGVyKAogICAgICAgICAgICAgICAgbW9kZWwgPQogICAgICAgICAgICAgICAgICAgIHJlbWVtYmVyKGNvbnRleHQsIHByZXZpZXdVcmkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgSW1hZ2VSZXF1ZXN0LkJ1aWxkZXIoY29udGV4dCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5kYXRhKHByZXZpZXdVcmkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAubWVtb3J5Q2FjaGVQb2xpY3koQ2FjaGVQb2xpY3kuRElTQUJMRUQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuZGlza0NhY2hlUG9saWN5KENhY2hlUG9saWN5LkRJU0FCTEVEKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNyb3NzZmFkZShmYWxzZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5idWlsZCgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIHZhbCBwYWludGVyU3RhdGUgPSBwYWludGVyPy5zdGF0ZQogICAgdmFsIGlzSW1hZ2VMb2FkaW5nID0KICAgICAgICBwcmV2aWV3VXJpICE9IG51bGwgJiYKICAgICAgICAgICAgKHBhaW50ZXJTdGF0ZSA9PSBudWxsIHx8CiAgICAgICAgICAgICAgICBwYWludGVyU3RhdGUgaXMgQXN5bmNJbWFnZVBhaW50ZXIuU3RhdGUuRW1wdHkgfHwKICAgICAgICAgICAgICAgIHBhaW50ZXJTdGF0ZSBpcyBBc3luY0ltYWdlUGFpbnRlci5TdGF0ZS5Mb2FkaW5nKQogICAgdmFsIGhhc0ltYWdlRXJyb3IgPSBwYWludGVyU3RhdGUgaXMgQXN5bmNJbWFnZVBhaW50ZXIuU3RhdGUuRXJyb3IKCiAgICBCb3goCiAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICBtb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgIC5iYWNrZ3JvdW5kKENvbG9yLkJsYWNrKQogICAgICAgICAgICAgICAgLm9uU2l6ZUNoYW5nZWQgeyB2aWV3cG9ydFNpemUgPSBpdCB9LAogICAgICAgIGNvbnRlbnRBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyCiAgICApIHsKICAgICAgICB3aGVuIHsKICAgICAgICAgICAgcHJldmlld1VyaSA9PSBudWxsIC0+IHsKICAgICAgICAgICAgICAgIGlmICghaXNTb3VyY2VMb2FkaW5nKSB7CiAgICAgICAgICAgICAgICAgICAgV29ya3NwYWNlSW1hZ2VFcnJvck1lc3NhZ2UobWVzc2FnZSA9IHJlc29sdmVkRXJyb3JNZXNzYWdlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBoYXNJbWFnZUVycm9yIC0+IHsKICAgICAgICAgICAgICAgIFdvcmtzcGFjZUltYWdlRXJyb3JNZXNzYWdlKG1lc3NhZ2UgPSByZXNvbHZlZEVycm9yTWVzc2FnZSkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgcGFpbnRlciAhPSBudWxsIC0+IHsKICAgICAgICAgICAgICAgIEltYWdlKAogICAgICAgICAgICAgICAgICAgIHBhaW50ZXIgPSBwYWludGVyLAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IGZpbGVOYW1lLAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRTY2FsZSA9IENvbnRlbnRTY2FsZS5GaXQsCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jbGlwVG9Cb3VuZHMoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLnBvaW50ZXJJbnB1dChwcmV2aWV3VXJpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGV0ZWN0VGFwR2VzdHVyZXMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uRG91YmxlVGFwID0geyB0YXBPZmZzZXQgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzY2FsZSA+IFdPUktTUEFDRV9JTUFHRV9NSU5fU0NBTEUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2FsZSA9IFdPUktTUEFDRV9JTUFHRV9NSU5fU0NBTEUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvZmZzZXQgPSBPZmZzZXQuWmVybwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2FsZSA9IFdPUktTUEFDRV9JTUFHRV9ET1VCTEVfVEFQX1NDQUxFCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb2Zmc2V0ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZG91YmxlVGFwT2Zmc2V0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFwT2Zmc2V0ID0gdGFwT2Zmc2V0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlld3BvcnRTaXplID0gdmlld3BvcnRTaXplLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2NhbGUgPSBXT1JLU1BBQ0VfSU1BR0VfRE9VQkxFX1RBUF9TQ0FMRQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAucG9pbnRlcklucHV0KHByZXZpZXdVcmkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXRlY3RUcmFuc2Zvcm1HZXN0dXJlcyB7IF8sIHBhbiwgem9vbSwgXyAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgbmV4dFNjYWxlID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChzY2FsZSAqIHpvb20pLmNvZXJjZUluKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFdPUktTUEFDRV9JTUFHRV9NSU5fU0NBTEUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgV09SS1NQQUNFX0lNQUdFX01BWF9TQ0FMRQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2FsZSA9IG5leHRTY2FsZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvZmZzZXQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhbXBJbWFnZU9mZnNldCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByYXdPZmZzZXQgPSBpZiAobmV4dFNjYWxlIDw9IFdPUktTUEFDRV9JTUFHRV9NSU5fU0NBTEUpIE9mZnNldC5aZXJvIGVsc2Ugb2Zmc2V0ICsgcGFuLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZpZXdwb3J0U2l6ZSA9IHZpZXdwb3J0U2l6ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2FsZSA9IG5leHRTY2FsZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5ncmFwaGljc0xheWVyIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzY2FsZVggPSBzY2FsZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNjYWxlWSA9IHNjYWxlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNsYXRpb25YID0gb2Zmc2V0LngKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2xhdGlvblkgPSBvZmZzZXQueQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBBbmltYXRlZFZpc2liaWxpdHkoCiAgICAgICAgICAgIHZpc2libGUgPSBpc1NvdXJjZUxvYWRpbmcgfHwgKCFoYXNJbWFnZUVycm9yICYmIGlzSW1hZ2VMb2FkaW5nKSwKICAgICAgICAgICAgZW50ZXIgPSBmYWRlSW4oKSwKICAgICAgICAgICAgZXhpdCA9IGZhZGVPdXQoKSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5hbGlnbihBbGlnbm1lbnQuQ2VudGVyKQogICAgICAgICkgewogICAgICAgICAgICBXb3Jrc3BhY2VJbWFnZUxvYWRpbmdCYWRnZShmaWxlTmFtZSA9IGZpbGVOYW1lKQogICAgICAgIH0KCiAgICAgICAgU3VyZmFjZSgKICAgICAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICAgICAgTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuYWxpZ24oQWxpZ25tZW50LkJvdHRvbVN0YXJ0KQogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKDE2LmRwKSwKICAgICAgICAgICAgY29sb3IgPSBDb2xvci5CbGFjay5jb3B5KGFscGhhID0gMC43MmYpLAogICAgICAgICAgICBzaGFwZSA9IFJvdW5kZWRDb3JuZXJTaGFwZSgxMi5kcCkKICAgICAgICApIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBmaWxlTmFtZSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyhob3Jpem9udGFsID0gMTIuZHAsIHZlcnRpY2FsID0gOC5kcCksCiAgICAgICAgICAgICAgICBjb2xvciA9IENvbG9yLldoaXRlLAogICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgbWF4TGluZXMgPSAxLAogICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gV29ya3NwYWNlSW1hZ2VMb2FkaW5nQmFkZ2UoZmlsZU5hbWU6IFN0cmluZykgewogICAgU3VyZmFjZSgKICAgICAgICBjb2xvciA9IENvbG9yLkJsYWNrLmNvcHkoYWxwaGEgPSAwLjc2ZiksCiAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMTguZHApCiAgICApIHsKICAgICAgICBSb3coCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyhob3Jpem9udGFsID0gMTYuZHAsIHZlcnRpY2FsID0gMTIuZHApLAogICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxMi5kcCksCiAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICApIHsKICAgICAgICAgICAgQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcigKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyMi5kcCksCiAgICAgICAgICAgICAgICBjb2xvciA9IENvbG9yLldoaXRlLAogICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggPSAyLjUuZHAKICAgICAgICAgICAgKQogICAgICAgICAgICBDb2x1bW4odmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDIuZHApKSB7CiAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5sb2FkaW5nKSwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IENvbG9yLldoaXRlLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGZpbGVOYW1lLAogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IDAuN2YpLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gV29ya3NwYWNlSW1hZ2VFcnJvck1lc3NhZ2UobWVzc2FnZTogU3RyaW5nKSB7CiAgICBUZXh0KAogICAgICAgIHRleHQgPSBtZXNzYWdlLAogICAgICAgIGNvbG9yID0gQ29sb3IuV2hpdGUsCiAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bQogICAgKQp9Cgpwcml2YXRlIGZ1biBjbGFtcEltYWdlT2Zmc2V0KAogICAgcmF3T2Zmc2V0OiBPZmZzZXQsCiAgICB2aWV3cG9ydFNpemU6IEludFNpemUsCiAgICBzY2FsZTogRmxvYXQKKTogT2Zmc2V0IHsKICAgIGlmIChzY2FsZSA8PSBXT1JLU1BBQ0VfSU1BR0VfTUlOX1NDQUxFIHx8IHZpZXdwb3J0U2l6ZSA9PSBJbnRTaXplLlplcm8pIHsKICAgICAgICByZXR1cm4gT2Zmc2V0Llplcm8KICAgIH0KCiAgICB2YWwgbWF4WCA9ICh2aWV3cG9ydFNpemUud2lkdGggKiAoc2NhbGUgLSAxZikpIC8gMmYKICAgIHZhbCBtYXhZID0gKHZpZXdwb3J0U2l6ZS5oZWlnaHQgKiAoc2NhbGUgLSAxZikpIC8gMmYKICAgIHJldHVybiBPZmZzZXQoCiAgICAgICAgeCA9IHJhd09mZnNldC54LmNvZXJjZUluKC1tYXhYLCBtYXhYKSwKICAgICAgICB5ID0gcmF3T2Zmc2V0LnkuY29lcmNlSW4oLW1heFksIG1heFkpCiAgICApCn0KCnByaXZhdGUgZnVuIGRvdWJsZVRhcE9mZnNldCgKICAgIHRhcE9mZnNldDogT2Zmc2V0LAogICAgdmlld3BvcnRTaXplOiBJbnRTaXplLAogICAgc2NhbGU6IEZsb2F0Cik6IE9mZnNldCB7CiAgICBpZiAodmlld3BvcnRTaXplID09IEludFNpemUuWmVybykgewogICAgICAgIHJldHVybiBPZmZzZXQuWmVybwogICAgfQoKICAgIHJldHVybiBjbGFtcEltYWdlT2Zmc2V0KAogICAgICAgIHJhd09mZnNldCA9CiAgICAgICAgICAgIE9mZnNldCgKICAgICAgICAgICAgICAgIHggPSAodmlld3BvcnRTaXplLndpZHRoIC8gMmYgLSB0YXBPZmZzZXQueCkgKiAoc2NhbGUgLSAxZiksCiAgICAgICAgICAgICAgICB5ID0gKHZpZXdwb3J0U2l6ZS5oZWlnaHQgLyAyZiAtIHRhcE9mZnNldC55KSAqIChzY2FsZSAtIDFmKQogICAgICAgICAgICApLAogICAgICAgIHZpZXdwb3J0U2l6ZSA9IHZpZXdwb3J0U2l6ZSwKICAgICAgICBzY2FsZSA9IHNjYWxlCiAgICApCn0K
+package com.bslsjdk.operit.ui.features.chat.webview.workspace
+
+import android.net.Uri
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.gestures.detectTransformGestures
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clipToBounds
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImagePainter
+import coil.compose.rememberAsyncImagePainter
+import coil.request.CachePolicy
+import coil.request.ImageRequest
+import com.bslsjdk.operit.R
+
+private const val WORKSPACE_IMAGE_MIN_SCALE = 1f
+private const val WORKSPACE_IMAGE_DOUBLE_TAP_SCALE = 2.5f
+private const val WORKSPACE_IMAGE_MAX_SCALE = 5f
+
+@Composable
+internal fun WorkspaceImagePreview(
+    fileName: String,
+    previewUri: Uri?,
+    isSourceLoading: Boolean,
+    errorMessage: String?,
+    modifier: Modifier = Modifier
+) {
+    val context = LocalContext.current
+    var scale by remember(previewUri) { mutableStateOf(WORKSPACE_IMAGE_MIN_SCALE) }
+    var offset by remember(previewUri) { mutableStateOf(Offset.Zero) }
+    var viewportSize by remember { mutableStateOf(IntSize.Zero) }
+    val resolvedErrorMessage = errorMessage ?: context.getString(R.string.cannot_open_file, fileName)
+
+    val painter =
+        if (previewUri != null) {
+            rememberAsyncImagePainter(
+                model =
+                    remember(context, previewUri) {
+                        ImageRequest.Builder(context)
+                            .data(previewUri)
+                            .memoryCachePolicy(CachePolicy.DISABLED)
+                            .diskCachePolicy(CachePolicy.DISABLED)
+                            .crossfade(false)
+                            .build()
+                    }
+            )
+        } else {
+            null
+        }
+    val painterState = painter?.state
+    val isImageLoading =
+        previewUri != null &&
+            (painterState == null ||
+                painterState is AsyncImagePainter.State.Empty ||
+                painterState is AsyncImagePainter.State.Loading)
+    val hasImageError = painterState is AsyncImagePainter.State.Error
+
+    Box(
+        modifier =
+            modifier
+                .fillMaxSize()
+                .background(Color.Black)
+                .onSizeChanged { viewportSize = it },
+        contentAlignment = Alignment.Center
+    ) {
+        when {
+            previewUri == null -> {
+                if (!isSourceLoading) {
+                    WorkspaceImageErrorMessage(message = resolvedErrorMessage)
+                }
+            }
+
+            hasImageError -> {
+                WorkspaceImageErrorMessage(message = resolvedErrorMessage)
+            }
+
+            painter != null -> {
+                Image(
+                    painter = painter,
+                    contentDescription = fileName,
+                    contentScale = ContentScale.Fit,
+                    modifier =
+                        Modifier
+                            .fillMaxSize()
+                            .clipToBounds()
+                            .pointerInput(previewUri) {
+                                detectTapGestures(
+                                    onDoubleTap = { tapOffset ->
+                                        if (scale > WORKSPACE_IMAGE_MIN_SCALE) {
+                                            scale = WORKSPACE_IMAGE_MIN_SCALE
+                                            offset = Offset.Zero
+                                        } else {
+                                            scale = WORKSPACE_IMAGE_DOUBLE_TAP_SCALE
+                                            offset =
+                                                doubleTapOffset(
+                                                    tapOffset = tapOffset,
+                                                    viewportSize = viewportSize,
+                                                    scale = WORKSPACE_IMAGE_DOUBLE_TAP_SCALE
+                                                )
+                                        }
+                                    }
+                                )
+                            }
+                            .pointerInput(previewUri) {
+                                detectTransformGestures { _, pan, zoom, _ ->
+                                    val nextScale =
+                                        (scale * zoom).coerceIn(
+                                            WORKSPACE_IMAGE_MIN_SCALE,
+                                            WORKSPACE_IMAGE_MAX_SCALE
+                                        )
+                                    scale = nextScale
+                                    offset =
+                                        clampImageOffset(
+                                            rawOffset = if (nextScale <= WORKSPACE_IMAGE_MIN_SCALE) Offset.Zero else offset + pan,
+                                            viewportSize = viewportSize,
+                                            scale = nextScale
+                                        )
+                                }
+                            }
+                            .graphicsLayer {
+                                scaleX = scale
+                                scaleY = scale
+                                translationX = offset.x
+                                translationY = offset.y
+                            }
+                )
+            }
+        }
+
+        AnimatedVisibility(
+            visible = isSourceLoading || (!hasImageError && isImageLoading),
+            enter = fadeIn(),
+            exit = fadeOut(),
+            modifier = Modifier.align(Alignment.Center)
+        ) {
+            WorkspaceImageLoadingBadge(fileName = fileName)
+        }
+
+        Surface(
+            modifier =
+                Modifier
+                    .align(Alignment.BottomStart)
+                    .padding(16.dp),
+            color = Color.Black.copy(alpha = 0.72f),
+            shape = RoundedCornerShape(12.dp)
+        ) {
+            Text(
+                text = fileName,
+                modifier = Modifier.padding(horizontal = 12.dp, vertical = 8.dp),
+                color = Color.White,
+                style = MaterialTheme.typography.bodySmall,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
+            )
+        }
+    }
+}
+
+@Composable
+private fun WorkspaceImageLoadingBadge(fileName: String) {
+    Surface(
+        color = Color.Black.copy(alpha = 0.76f),
+        shape = RoundedCornerShape(18.dp)
+    ) {
+        Row(
+            modifier = Modifier.padding(horizontal = 16.dp, vertical = 12.dp),
+            horizontalArrangement = Arrangement.spacedBy(12.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            CircularProgressIndicator(
+                modifier = Modifier.size(22.dp),
+                color = Color.White,
+                strokeWidth = 2.5.dp
+            )
+            Column(verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Text(
+                    text = stringResource(R.string.loading),
+                    color = Color.White,
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Text(
+                    text = fileName,
+                    color = Color.White.copy(alpha = 0.7f),
+                    style = MaterialTheme.typography.bodySmall,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun WorkspaceImageErrorMessage(message: String) {
+    Text(
+        text = message,
+        color = Color.White,
+        style = MaterialTheme.typography.bodyMedium
+    )
+}
+
+private fun clampImageOffset(
+    rawOffset: Offset,
+    viewportSize: IntSize,
+    scale: Float
+): Offset {
+    if (scale <= WORKSPACE_IMAGE_MIN_SCALE || viewportSize == IntSize.Zero) {
+        return Offset.Zero
+    }
+
+    val maxX = (viewportSize.width * (scale - 1f)) / 2f
+    val maxY = (viewportSize.height * (scale - 1f)) / 2f
+    return Offset(
+        x = rawOffset.x.coerceIn(-maxX, maxX),
+        y = rawOffset.y.coerceIn(-maxY, maxY)
+    )
+}
+
+private fun doubleTapOffset(
+    tapOffset: Offset,
+    viewportSize: IntSize,
+    scale: Float
+): Offset {
+    if (viewportSize == IntSize.Zero) {
+        return Offset.Zero
+    }
+
+    return clampImageOffset(
+        rawOffset =
+            Offset(
+                x = (viewportSize.width / 2f - tapOffset.x) * (scale - 1f),
+                y = (viewportSize.height / 2f - tapOffset.y) * (scale - 1f)
+            ),
+        viewportSize = viewportSize,
+        scale = scale
+    )
+}

@@ -1,1 +1,417 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZC53ZWJraXQuTWltZVR5cGVNYXAKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CmltcG9ydCBqYXZhLmlvLkZpbGUKaW1wb3J0IGphdmEuaW8uRmlsZU91dHB1dFN0cmVhbQppbXBvcnQgamF2YS5pby5JT0V4Y2VwdGlvbgppbXBvcnQgamF2YS5pby5JbnB1dFN0cmVhbQppbXBvcnQgamF2YS51dGlsLlVVSUQKCm9iamVjdCBGaWxlVXRpbHMgewoKICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJGaWxlVXRpbHMiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBCQUNLR1JPVU5EX0lNQUdFU19ESVIgPSAiYmFja2dyb3VuZF9pbWFnZXMiCiAgICBwcml2YXRlIGNvbnN0IHZhbCBCQUNLR1JPVU5EX1ZJREVPU19ESVIgPSAiYmFja2dyb3VuZF92aWRlb3MiCgogICAgLy8gTGlzdCBvZiBjb21tb24gdmlkZW8gZmlsZSBleHRlbnNpb25zCiAgICBwcml2YXRlIHZhbCBWSURFT19FWFRFTlNJT05TID0gbGlzdE9mKCJtcDQiLCAiM2dwIiwgIndlYm0iLCAibWt2IiwgImF2aSIsICJtb3YiLCAiZmx2IiwgIndtdiIpCgogICAgcHJpdmF0ZSB2YWwgVEVYVF9CQVNFRF9FWFRFTlNJT05TID0gc2V0T2YoCiAgICAgICAgLy8gQ29tbW9uIHRleHQgZmlsZXMKICAgICAgICAidHh0IiwgIm1kIiwgImxvZyIsICJpbmkiLCAiZW52IiwgImNzdiIsICJ0c3YiLCAidGV4dCIsICJtZSIsCgogICAgICAgIC8vIFdlYiBmaWxlcwogICAgICAgICJodG1sIiwgImh0bSIsICJjc3MiLCAianMiLCAianNvbiIsICJ4bWwiLCAieWFtbCIsICJ5bWwiLCAic3ZnIiwgInVybCIsCiAgICAgICAgInNhc3MiLCAic2NzcyIsICJsZXNzIiwgImVqcyIsICJoYnMiLCAicHVnIiwgInJzcyIsICJhdG9tIiwgInZ0dCIsICJ3ZWJtYW5pZmVzdCIsICJqc3AiLCAiYXNwIiwgImFzcHgiLAoKICAgICAgICAvLyBQcm9ncmFtbWluZyBsYW5ndWFnZSBzb3VyY2UgZmlsZXMKICAgICAgICAiamF2YSIsICJrdCIsICJrdHMiLCAiZ3JhZGxlIiwKICAgICAgICAiYyIsICJjcHAiLCAiaCIsICJocHAiLCAiY3MiLCAibSIsCiAgICAgICAgInB5IiwgInJiIiwgInBocCIsICJnbyIsICJzd2lmdCIsCiAgICAgICAgInRzIiwgInRzeCIsICJqc3giLAogICAgICAgICJzaCIsICJiYXQiLCAicHMxIiwgInpzaCIsCiAgICAgICAgInNxbCIsICJncm9vdnkiLCAibHVhIiwgInBlcmwiLCAicGwiLCAiciIsICJkYXJ0IiwgInJ1c3QiLCAicnMiLCAic2NhbGEiLAogICAgICAgICJhc20iLCAicGFzIiwgImYiLCAiZjkwIiwgImZvciIsICJsaXNwIiwgImhzIiwgImVybCIsICJ2YiIsICJ2YnMiLCAidGNsIiwgImQiLCAibmltIiwgInNvbCIsICJ6aWciLCAidmFsYSIsICJjb2IiLCAiY2JsIiwKCiAgICAgICAgLy8gQ29uZmlnIGZpbGVzCiAgICAgICAgInByb3BlcnRpZXMiLCAidG9tbCIsICJkb2NrZXJmaWxlIiwgImdpdGlnbm9yZSIsICJnaXRhdHRyaWJ1dGVzIiwgImVkaXRvcmNvbmZpZyIsICJjb25mIiwgImNmZyIsCiAgICAgICAgImpzb25jIiwgImpzb241IiwgInJlZyIsICJpbWwiLCAiaW5mIiwKCiAgICAgICAgLy8gRG9jdW1lbnQgZm9ybWF0cyAmIERhdGEgU2VyaWFsaXphdGlvbgogICAgICAgICJydGYiLCAidGV4IiwgInNydCIsICJzdWIiLCAiYXNjaWlkb2MiLCAiYWRvYyIsICJyc3QiLCAib3JnIiwgIndpa2kiLCAibWVkaWF3aWtpIiwKICAgICAgICAidmNmIiwgImljcyIsICJncHgiLCAia21sIiwgIm9wbWwiCiAgICApCgogICAgLy8gQ29tbW9uIHRleHQgZmlsZXMgd2l0aG91dCBleHRlbnNpb25zCiAgICBwcml2YXRlIHZhbCBURVhUX0JBU0VEX0ZJTEVOQU1FUyA9IHNldE9mKAogICAgICAgICJyZWFkbWUiLCAibWFrZWZpbGUiLCAiZG9ja2VyZmlsZSIsICJsaWNlbnNlIiwgImNoYW5nZWxvZyIsICJhdXRob3JzIiwgCiAgICAgICAgImNvbnRyaWJ1dG9ycyIsICJjb3B5aW5nIiwgImluc3RhbGwiLCAibmV3cyIsICJ0b2RvIiwgInZlcnNpb24iLAogICAgICAgICJnZW1maWxlIiwgInJha2VmaWxlIiwgInZhZ3JhbnRmaWxlIiwgImJ1aWxkZmlsZSIKICAgICkKCiAgICAvKioKICAgICAqIENoZWNrcyBpZiBhIGZpbGUgZXh0ZW5zaW9uIGNvcnJlc3BvbmRzIHRvIGEgdGV4dC1iYXNlZCBmaWxlIGZvcm1hdC4KICAgICAqIEBwYXJhbSBleHRlbnNpb24gVGhlIGZpbGUgZXh0ZW5zaW9uIHdpdGhvdXQgdGhlIGRvdCAoZS5nLiwgInR4dCIsICJqYXZhIikuCiAgICAgKiBAcmV0dXJuIFRydWUgaWYgdGhlIGV4dGVuc2lvbiBpcyBmb3IgYSBrbm93biB0ZXh0LWJhc2VkIGZpbGUsIGZhbHNlIG90aGVyd2lzZS4KICAgICAqLwogICAgZnVuIGlzVGV4dEJhc2VkRXh0ZW5zaW9uKGV4dGVuc2lvbjogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGV4dGVuc2lvbi5sb3dlcmNhc2UoKSBpbiBURVhUX0JBU0VEX0VYVEVOU0lPTlMKICAgIH0KCiAgICBmdW4gaXNUZXh0QmFzZWRGaWxlTmFtZShmaWxlTmFtZTogU3RyaW5nKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIG5hbWUgPSBmaWxlTmFtZS50cmltKCkKICAgICAgICBpZiAobmFtZS5pc0JsYW5rKCkpIHJldHVybiBmYWxzZQoKICAgICAgICB2YWwgZXh0ID0gbmFtZS5zdWJzdHJpbmdBZnRlckxhc3QoJy4nLCBtaXNzaW5nRGVsaW1pdGVyVmFsdWUgPSAiIikKICAgICAgICByZXR1cm4gaWYgKGV4dC5pc0JsYW5rKCkgfHwgZXh0ID09IG5hbWUpIHsKICAgICAgICAgICAgbmFtZS5sb3dlcmNhc2UoKSBpbiBURVhUX0JBU0VEX0ZJTEVOQU1FUwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGlzVGV4dEJhc2VkRXh0ZW5zaW9uKGV4dCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBDaGVja3MgaWYgYSBmaWxlIGFwcGVhcnMgdG8gYmUgdGV4dC1saWtlIGJ5IHJlYWRpbmcgaXRzIGZpcnN0IGZldyBieXRlcy4KICAgICAqIFRoaXMgaXMgbW9yZSByZWxpYWJsZSB0aGFuIGV4dGVuc2lvbiBjaGVja2luZyBhcyBpdCBhbmFseXplcyBhY3R1YWwgY29udGVudC4KICAgICAqIAogICAgICogQHBhcmFtIGZpbGUgVGhlIGZpbGUgdG8gY2hlY2sKICAgICAqIEBwYXJhbSBzYW1wbGVTaXplIE51bWJlciBvZiBieXRlcyB0byByZWFkIGZvciBhbmFseXNpcyAoZGVmYXVsdDogNTEyKQogICAgICogQHJldHVybiBUcnVlIGlmIHRoZSBmaWxlIGFwcGVhcnMgdG8gY29udGFpbiB0ZXh0LCBmYWxzZSBvdGhlcndpc2UKICAgICAqLwogICAgZnVuIGlzVGV4dExpa2UoZmlsZTogRmlsZSwgc2FtcGxlU2l6ZTogSW50ID0gNTEyKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKCFmaWxlLmV4aXN0cygpIHx8ICFmaWxlLmNhblJlYWQoKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CgogICAgICAgIC8vIEVtcHR5IGZpbGVzIGFyZSBjb25zaWRlcmVkIHRleHQKICAgICAgICBpZiAoZmlsZS5sZW5ndGgoKSA9PSAwTCkgewogICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgIH0KCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgZmlsZS5pbnB1dFN0cmVhbSgpLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KG1pbk9mKHNhbXBsZVNpemUudG9Mb25nKCksIGZpbGUubGVuZ3RoKCkpLnRvSW50KCkpCiAgICAgICAgICAgICAgICB2YWwgYnl0ZXNSZWFkID0gaW5wdXQucmVhZChidWZmZXIpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGlmIChieXRlc1JlYWQgPD0gMCkgewogICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlIC8vIEVtcHR5IG9yIHVucmVhZGFibGUsIHRyZWF0IGFzIHRleHQKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICByZXR1cm4gaXNUZXh0TGlrZUJ5dGVzKGJ1ZmZlciwgYnl0ZXNSZWFkKQogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIGNoZWNraW5nIGlmIGZpbGUgaXMgdGV4dC1saWtlOiAke2ZpbGUucGF0aH0iLCBlKQogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBDaGVja3MgaWYgYSBmaWxlIGFwcGVhcnMgdG8gYmUgdGV4dC1saWtlIGJ5IHJlYWRpbmcgaXRzIGZpcnN0IGZldyBieXRlcyBmcm9tIGEgcGF0aC4KICAgICAqIFRoaXMgdmVyc2lvbiBhY2NlcHRzIGEgZmlsZSBwYXRoIHN0cmluZy4KICAgICAqIAogICAgICogQHBhcmFtIHBhdGggVGhlIGZpbGUgcGF0aCB0byBjaGVjawogICAgICogQHBhcmFtIHNhbXBsZVNpemUgTnVtYmVyIG9mIGJ5dGVzIHRvIHJlYWQgZm9yIGFuYWx5c2lzIChkZWZhdWx0OiA1MTIpCiAgICAgKiBAcmV0dXJuIFRydWUgaWYgdGhlIGZpbGUgYXBwZWFycyB0byBjb250YWluIHRleHQsIGZhbHNlIG90aGVyd2lzZQogICAgICovCiAgICBmdW4gaXNUZXh0TGlrZShwYXRoOiBTdHJpbmcsIHNhbXBsZVNpemU6IEludCA9IDUxMik6IEJvb2xlYW4gewogICAgICAgIHJldHVybiBpc1RleHRMaWtlKEZpbGUocGF0aCksIHNhbXBsZVNpemUpCiAgICB9CgogICAgLyoqCiAgICAgKiBDaGVjayBpZiB0aGUgZ2l2ZW4gYnl0ZSBhcnJheSBhcHBlYXJzIHRvIGJlIHRleHQgY29udGVudC4KICAgICAqIFRoaXMgaXMgdXNlZnVsIHdoZW4geW91IGFscmVhZHkgaGF2ZSBhIGJ5dGUgc2FtcGxlIGFuZCB3YW50IHRvIGNoZWNrIGlmIGl0J3MgdGV4dC4KICAgICAqIAogICAgICogQHBhcmFtIGJ5dGVzIFRoZSBieXRlIGFycmF5IHRvIGFuYWx5emUKICAgICAqIEByZXR1cm4gVHJ1ZSBpZiBjb250ZW50IGFwcGVhcnMgdG8gYmUgdGV4dAogICAgICovCiAgICBmdW4gaXNUZXh0TGlrZShieXRlczogQnl0ZUFycmF5KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGlzVGV4dExpa2VCeXRlcyhieXRlcywgYnl0ZXMuc2l6ZSkKICAgIH0KCiAgICAvKioKICAgICAqIEFuYWx5emVzIGEgYnl0ZSBhcnJheSB0byBkZXRlcm1pbmUgaWYgaXQgY29udGFpbnMgdGV4dC1saWtlIGNvbnRlbnQuCiAgICAgKiAKICAgICAqIEFsZ29yaXRobToKICAgICAqIC0gQ2hlY2tzIGZvciBudWxsIGJ5dGVzIChzdHJvbmcgaW5kaWNhdG9yIG9mIGJpbmFyeSkKICAgICAqIC0gQ291bnRzIHByaW50YWJsZSBjaGFyYWN0ZXJzIChBU0NJSSAzMi0xMjYpCiAgICAgKiAtIENvdW50cyBjb21tb24gd2hpdGVzcGFjZSBjaGFyYWN0ZXJzICh0YWIsIG5ld2xpbmUsIGNhcnJpYWdlIHJldHVybikKICAgICAqIC0gQ291bnRzIFVURi04IGNvbnRpbnVhdGlvbiBieXRlcyBhbmQgY29tbW9uIFVURi04IHBhdHRlcm5zCiAgICAgKiAKICAgICAqIEBwYXJhbSBieXRlcyBUaGUgYnl0ZSBhcnJheSB0byBhbmFseXplCiAgICAgKiBAcGFyYW0gbGVuZ3RoIE51bWJlciBvZiBieXRlcyB0byBhbmFseXplCiAgICAgKiBAcmV0dXJuIFRydWUgaWYgY29udGVudCBhcHBlYXJzIHRvIGJlIHRleHQKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gaXNUZXh0TGlrZUJ5dGVzKGJ5dGVzOiBCeXRlQXJyYXksIGxlbmd0aDogSW50KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKGxlbmd0aCA9PSAwKSByZXR1cm4gdHJ1ZQoKICAgICAgICB2YXIgdGV4dENoYXJzID0gMAogICAgICAgIHZhciBub25UZXh0Q2hhcnMgPSAwCgogICAgICAgIHZhciBpID0gMAogICAgICAgIHdoaWxlIChpIDwgbGVuZ3RoKSB7CiAgICAgICAgICAgIHZhbCBieXRlID0gYnl0ZXNbaV0udG9JbnQoKSBhbmQgMHhGRgoKICAgICAgICAgICAgd2hlbiB7CiAgICAgICAgICAgICAgICAvLyBBU0NJSSBwcmludGFibGUsIHRhYiwgbmV3bGluZSwgY2FycmlhZ2UgcmV0dXJuCiAgICAgICAgICAgICAgICBieXRlID49IDMyICYmIGJ5dGUgPD0gMTI2IHx8IGJ5dGUgPT0gOSB8fCBieXRlID09IDEwIHx8IGJ5dGUgPT0gMTMgLT4gewogICAgICAgICAgICAgICAgICAgIHRleHRDaGFycysrCiAgICAgICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAvLyBVVEYtOCBtdWx0aS1ieXRlIHNlcXVlbmNlcwogICAgICAgICAgICAgICAgYnl0ZSA+PSAweEMyICYmIGJ5dGUgPD0gMHhERiAtPiB7IC8vIDItYnl0ZSBzZXF1ZW5jZQogICAgICAgICAgICAgICAgICAgIGlmIChpICsgMSA8IGxlbmd0aCAmJiAoYnl0ZXNbaSArIDFdLnRvSW50KCkgYW5kIDB4QzAgPT0gMHg4MCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dENoYXJzICs9IDIKICAgICAgICAgICAgICAgICAgICAgICAgaSArPSAyCiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgbm9uVGV4dENoYXJzKysKICAgICAgICAgICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgYnl0ZSA+PSAweEUwICYmIGJ5dGUgPD0gMHhFRiAtPiB7IC8vIDMtYnl0ZSBzZXF1ZW5jZQogICAgICAgICAgICAgICAgICAgIGlmIChpICsgMiA8IGxlbmd0aCAmJiAoYnl0ZXNbaSArIDFdLnRvSW50KCkgYW5kIDB4QzAgPT0gMHg4MCkgJiYgKGJ5dGVzW2kgKyAyXS50b0ludCgpIGFuZCAweEMwID09IDB4ODApKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRleHRDaGFycyArPSAzCiAgICAgICAgICAgICAgICAgICAgICAgIGkgKz0gMwogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG5vblRleHRDaGFycysrCiAgICAgICAgICAgICAgICAgICAgICAgIGkrKwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGJ5dGUgPj0gMHhGMCAmJiBieXRlIDw9IDB4RjQgLT4geyAvLyA0LWJ5dGUgc2VxdWVuY2UKICAgICAgICAgICAgICAgICAgICBpZiAoaSArIDMgPCBsZW5ndGggJiYgKGJ5dGVzW2kgKyAxXS50b0ludCgpIGFuZCAweEMwID09IDB4ODApICYmIChieXRlc1tpICsgMl0udG9JbnQoKSBhbmQgMHhDMCA9PSAweDgwKSAmJiAoYnl0ZXNbaSArIDNdLnRvSW50KCkgYW5kIDB4QzAgPT0gMHg4MCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dENoYXJzICs9IDQKICAgICAgICAgICAgICAgICAgICAgICAgaSArPSA0CiAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgbm9uVGV4dENoYXJzKysKICAgICAgICAgICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICAgICAgLy8gSW5jbHVkZXMgbnVsbCBieXRlcywgY29udHJvbCBjaGFycywgaW52YWxpZCBVVEYtOCBzdGFydCBieXRlcywgZXRjLgogICAgICAgICAgICAgICAgICAgIG5vblRleHRDaGFycysrCiAgICAgICAgICAgICAgICAgICAgaSsrCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIElmIHRoZXJlIGFyZSBub24tdGV4dCBjaGFyYWN0ZXJzLCBjaGVjayB0aGUgcmF0aW8uCiAgICAgICAgLy8gQSBzbWFsbCBudW1iZXIgb2Ygd2VpcmQgY2hhcmFjdGVycyBtaWdodCBiZSBhY2NlcHRhYmxlIGluIHNvbWUgdGV4dCBmaWxlcy4KICAgICAgICAvLyBJZiB0aGVyZSBhcmUgemVybyBub24tdGV4dCBjaGFyYWN0ZXJzLCBpdCdzIGRlZmluaXRlbHkgdGV4dC4KICAgICAgICAvLyBJZiB0aGVyZSBhcmUgYW55LCBhbmQgdGhlIHJhdGlvIG9mIG5vbi10ZXh0IHRvIHRleHQgaXMgaGlnaCwgaXQncyBiaW5hcnkuCiAgICAgICAgLy8gV2UgY2FuIGRlZmluZSAiYmluYXJ5IiBhcyBoYXZpbmcgbW9yZSB0aGFuIDEwJSBub24tdGV4dCBjaGFyYWN0ZXJzLgogICAgICAgIGlmIChub25UZXh0Q2hhcnMgPT0gMCkgcmV0dXJuIHRydWUKICAgICAgICAKICAgICAgICAvLyBBdm9pZCBkaXZpc2lvbiBieSB6ZXJvIGZvciBlbXB0eSBvciBpbnZhbGlkIGZpbGVzCiAgICAgICAgdmFsIHRvdGFsQ2hhcnMgPSB0ZXh0Q2hhcnMgKyBub25UZXh0Q2hhcnMKICAgICAgICBpZiAodG90YWxDaGFycyA9PSAwKSByZXR1cm4gdHJ1ZSAvLyBPciBmYWxzZSwgZGVwZW5kaW5nIG9uIGRlc2lyZWQgYmVoYXZpb3IgZm9yIGVtcHR5L3VucmVhZGFibGUKCiAgICAgICAgcmV0dXJuIChub25UZXh0Q2hhcnMudG9Eb3VibGUoKSAvIHRvdGFsQ2hhcnMpIDwgMC4xCiAgICB9CgogICAgLyoqCiAgICAgKiBDaGVja3MgaWYgYSBmaWxlIGlzIGEgdGV4dC1iYXNlZCBmaWxlLCBjb25zaWRlcmluZyBib3RoIGV4dGVuc2lvbiBhbmQgZmlsZW5hbWUuCiAgICAgKiBAcGFyYW0gZmlsZSBUaGUgZmlsZSB0byBjaGVjay4KICAgICAqIEByZXR1cm4gVHJ1ZSBpZiB0aGUgZmlsZSBpcyBsaWtlbHkgYSB0ZXh0LWJhc2VkIGZpbGUsIGZhbHNlIG90aGVyd2lzZS4KICAgICAqLwogICAgZnVuIGlzVGV4dEJhc2VkRmlsZShmaWxlOiBGaWxlKTogQm9vbGVhbiB7CiAgICAgICAgdmFsIGV4dGVuc2lvbiA9IGZpbGUuZXh0ZW5zaW9uCiAgICAgICAgcmV0dXJuIGlmIChleHRlbnNpb24uaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIC8vIEZpbGVzIHdpdGhvdXQgZXh0ZW5zaW9uIC0gY2hlY2sgY29tbW9uIHRleHQgZmlsZW5hbWVzCiAgICAgICAgICAgIGZpbGUubmFtZS5sb3dlcmNhc2UoKSBpbiBURVhUX0JBU0VEX0ZJTEVOQU1FUwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGlzVGV4dEJhc2VkRXh0ZW5zaW9uKGV4dGVuc2lvbikKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBDaGVja3MgaWYgYSBmaWxlIGlzIGEgdmFsaWQgd29ya3NwYWNlIGZpbGUgdG8gYmUgc2hvd24gb3IgYmFja2VkIHVwLgogICAgICogVGhpcyBjb21iaW5lcyBzZXZlcmFsIHJ1bGVzOgogICAgICogLSBNdXN0IGJlIGEgdGV4dC1iYXNlZCBmaWxlLgogICAgICogLSBNdXN0IG5vdCBiZSBhIGhpZGRlbiBmaWxlIChuYW1lIHN0YXJ0cyB3aXRoICcuJykuCiAgICAgKiAtIE11c3Qgbm90IGJlIGluc2lkZSBhICcuYmFja3VwJyBkaXJlY3RvcnkuCiAgICAgKgogICAgICogQHBhcmFtIGZpbGUgVGhlIGZpbGUgdG8gY2hlY2suCiAgICAgKiBAcGFyYW0gd29ya3NwYWNlUm9vdCBUaGUgcm9vdCBvZiB0aGUgd29ya3NwYWNlLCBmb3IgcGF0aCBjaGVja2luZy4KICAgICAqIEBwYXJhbSBnaXRpZ25vcmVSdWxlcyBBIGxpc3Qgb2YgLmdpdGlnbm9yZSBydWxlcy4KICAgICAqIEByZXR1cm4gVHJ1ZSBpZiB0aGUgZmlsZSBzaG91bGQgYmUgaW5jbHVkZWQgaW4gdGhlIHdvcmtzcGFjZSB2aWV3L2JhY2t1cC4KICAgICAqLwogICAgZnVuIGlzV29ya3NwYWNlRmlsZShmaWxlOiBGaWxlLCB3b3Jrc3BhY2VSb290OiBGaWxlLCBnaXRpZ25vcmVSdWxlczogTGlzdDxTdHJpbmc+KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKCFmaWxlLmlzRmlsZSkgcmV0dXJuIGZhbHNlCgogICAgICAgIC8vIFVzZSBHaXRJZ25vcmVGaWx0ZXIgdG8gY2hlY2sgaWYgdGhlIGZpbGUgc2hvdWxkIGJlIGlnbm9yZWQKICAgICAgICBpZiAoY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQud2Vidmlldy53b3Jrc3BhY2UucHJvY2Vzcy5HaXRJZ25vcmVGaWx0ZXIuc2hvdWxkSWdub3JlKGZpbGUsIHdvcmtzcGFjZVJvb3QsIGdpdGlnbm9yZVJ1bGVzKSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CgogICAgICAgIC8vIEFsc28gYXBwbHkgdGhlIGJhc2ljIHRleHQtYmFzZWQgZmlsZSBjaGVjawogICAgICAgIHJldHVybiBpc1RleHRCYXNlZEZpbGUoZmlsZSkKICAgIH0KCiAgICAvKioKICAgICAqIENoZWNrIGlmIGEgVVJJIHBvaW50cyB0byBhIHZpZGVvIGZpbGUKICAgICAqIEBwYXJhbSBjb250ZXh0IFRoZSBhcHBsaWNhdGlvbiBjb250ZXh0CiAgICAgKiBAcGFyYW0gdXJpIFRoZSBVUkkgdG8gY2hlY2sKICAgICAqIEByZXR1cm4gdHJ1ZSBpZiB0aGUgVVJJIGlzIGEgdmlkZW8gZmlsZSwgZmFsc2Ugb3RoZXJ3aXNlCiAgICAgKi8KICAgIGZ1biBpc1ZpZGVvRmlsZShjb250ZXh0OiBDb250ZXh0LCB1cmk6IFVyaSk6IEJvb2xlYW4gewogICAgICAgIHZhbCBtaW1lVHlwZSA9IGNvbnRleHQuY29udGVudFJlc29sdmVyLmdldFR5cGUodXJpKSA/OiByZXR1cm4gZmFsc2UKICAgICAgICAvLyBDaGVjayBpZiBNSU1FIHR5cGUgc3RhcnRzIHdpdGggInZpZGVvLyIKICAgICAgICBpZiAobWltZVR5cGUuc3RhcnRzV2l0aCgidmlkZW8vIikpIHJldHVybiB0cnVlCgogICAgICAgIC8vIElmIE1JTUUgdHlwZSBkb2Vzbid0IHRlbGwgdXMsIGNoZWNrIHRoZSBmaWxlIGV4dGVuc2lvbgogICAgICAgIHZhbCBleHRlbnNpb24gPSBnZXRGaWxlRXh0ZW5zaW9uKGNvbnRleHQsIHVyaSkKICAgICAgICByZXR1cm4gZXh0ZW5zaW9uICE9IG51bGwgJiYgZXh0ZW5zaW9uLmxvd2VyY2FzZSgpIGluIFZJREVPX0VYVEVOU0lPTlMKICAgIH0KCiAgICAvKioKICAgICAqIEdldCB0aGUgZmlsZSBleHRlbnNpb24gZnJvbSBhIFVSSQogICAgICogQHBhcmFtIGNvbnRleHQgVGhlIGFwcGxpY2F0aW9uIGNvbnRleHQKICAgICAqIEBwYXJhbSB1cmkgVGhlIFVSSSB0byBnZXQgdGhlIGV4dGVuc2lvbiBmcm9tCiAgICAgKiBAcmV0dXJuIFRoZSBmaWxlIGV4dGVuc2lvbiBvciBudWxsIGlmIGl0IGNvdWxkbid0IGJlIGRldGVybWluZWQKICAgICAqLwogICAgZnVuIGdldEZpbGVFeHRlbnNpb24oY29udGV4dDogQ29udGV4dCwgdXJpOiBVcmkpOiBTdHJpbmc/IHsKICAgICAgICAvLyBGaXJzdCB0cnkgdG8gZ2V0IGZyb20gY29udGVudCByZXNvbHZlcgogICAgICAgIHZhbCBtaW1lVHlwZSA9IGNvbnRleHQuY29udGVudFJlc29sdmVyLmdldFR5cGUodXJpKQogICAgICAgIHJldHVybiBpZiAobWltZVR5cGUgIT0gbnVsbCkgewogICAgICAgICAgICBNaW1lVHlwZU1hcC5nZXRTaW5nbGV0b24oKS5nZXRFeHRlbnNpb25Gcm9tTWltZVR5cGUobWltZVR5cGUpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgLy8gRmFsbGJhY2sgdG8gcGF0aCBwYXJzaW5nCiAgICAgICAgICAgIHZhbCBwYXRoID0gdXJpLnBhdGgKICAgICAgICAgICAgcmV0dXJuIHBhdGg/LnN1YnN0cmluZ0FmdGVyTGFzdCgnLicsICIiKT8udGFrZUlmIHsgaXQuaXNOb3RFbXB0eSgpIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiBDb3BpZXMgYSBmaWxlIGZyb20gYSBnaXZlbiBVUkkgdG8gdGhlIGFwcCdzIGludGVybmFsIHN0b3JhZ2UuCiAgICAgKiBUaGlzIG1ha2VzIHRoZSBmaWxlIHByaXZhdGUgdG8gdGhlIGFwcCBhbmQgZW5zdXJlcyBwZXJzaXN0ZW50IGFjY2Vzcy4KICAgICAqIEBwYXJhbSBjb250ZXh0IFRoZSBjb250ZXh0LgogICAgICogQHBhcmFtIHVyaSBUaGUgVVJJIG9mIHRoZSBmaWxlIHRvIGNvcHkuCiAgICAgKiBAcGFyYW0gdW5pcXVlTmFtZSBBIHVuaXF1ZSBuYW1lIG9yIHByZWZpeCBmb3IgdGhlIGZpbGUgdG8gcHJldmVudCBvdmVyd3JpdGluZy4KICAgICAqIEByZXR1cm4gVGhlIFVSSSBvZiB0aGUgY29waWVkIGZpbGUgaW4gaW50ZXJuYWwgc3RvcmFnZSwgb3IgbnVsbCBvbiBmYWlsdXJlLgogICAgICovCiAgICBzdXNwZW5kIGZ1biBjb3B5RmlsZVRvSW50ZXJuYWxTdG9yYWdlKGNvbnRleHQ6IENvbnRleHQsIHVyaTogVXJpLCB1bmlxdWVOYW1lOiBTdHJpbmcpOiBVcmk/ID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB2YXIgaW5wdXRTdHJlYW06IElucHV0U3RyZWFtPyA9IG51bGwKICAgICAgICB2YXIgb3V0cHV0U3RyZWFtOiBGaWxlT3V0cHV0U3RyZWFtPyA9IG51bGwKICAgICAgICB0cnkgewogICAgICAgICAgICBpbnB1dFN0cmVhbSA9IGNvbnRleHQuY29udGVudFJlc29sdmVyLm9wZW5JbnB1dFN0cmVhbSh1cmkpCiAgICAgICAgICAgIGlmIChpbnB1dFN0cmVhbSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgiRmlsZVV0aWxzIiwgIkZhaWxlZCB0byBvcGVuIGlucHV0IHN0cmVhbSBmb3IgVVJJOiAkdXJpIikKICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBudWxsCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIOiOt+WPluWOn+Wni+aWh+S7tueahOaJqeWxleWQjQogICAgICAgICAgICB2YWwgb3JpZ2luYWxFeHRlbnNpb24gPSBnZXRGaWxlRXh0ZW5zaW9uRnJvbVVyaShjb250ZXh0LCB1cmkpID86ICJkYXQiCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBVc2UgdGhlIHVuaXF1ZSBuYW1lIHRvIGNyZWF0ZSBhIGRpc3RpbmN0IGZpbGUgd2l0aCBjb3JyZWN0IGV4dGVuc2lvbgogICAgICAgICAgICB2YWwgZmlsZSA9IEZpbGUoY29udGV4dC5maWxlc0RpciwgIiR7dW5pcXVlTmFtZX1fJHtVVUlELnJhbmRvbVVVSUQoKX0uJHtvcmlnaW5hbEV4dGVuc2lvbn0iKQogICAgICAgICAgICBvdXRwdXRTdHJlYW0gPSBGaWxlT3V0cHV0U3RyZWFtKGZpbGUpCgogICAgICAgICAgICB2YWwgYnVmZmVyID0gQnl0ZUFycmF5KDQgKiAxMDI0KSAvLyA0SyBidWZmZXIKICAgICAgICAgICAgdmFyIHJlYWQ6IEludAogICAgICAgICAgICB3aGlsZSAoaW5wdXRTdHJlYW0ucmVhZChidWZmZXIpLmFsc28geyByZWFkID0gaXQgfSAhPSAtMSkgewogICAgICAgICAgICAgICAgb3V0cHV0U3RyZWFtLndyaXRlKGJ1ZmZlciwgMCwgcmVhZCkKICAgICAgICAgICAgfQogICAgICAgICAgICBvdXRwdXRTdHJlYW0uZmx1c2goKQogICAgICAgICAgICAKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIkZpbGVVdGlscyIsICJGaWxlIGNvcGllZCBzdWNjZXNzZnVsbHkgdG8gaW50ZXJuYWwgc3RvcmFnZTogJHtmaWxlLmFic29sdXRlUGF0aH0iKQogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgVXJpLmZyb21GaWxlKGZpbGUpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKCJGaWxlVXRpbHMiLCAiRXJyb3IgY29weWluZyBmaWxlIHRvIGludGVybmFsIHN0b3JhZ2UiLCBlKQogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgbnVsbAogICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBpbnB1dFN0cmVhbT8uY2xvc2UoKQogICAgICAgICAgICAgICAgb3V0cHV0U3RyZWFtPy5jbG9zZSgpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoIkZpbGVVdGlscyIsICJFcnJvciBjbG9zaW5nIHN0cmVhbXMiLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgCiAgICAvKioKICAgICAqIEdldCB0aGUgZmlsZSBleHRlbnNpb24gZnJvbSBhIFVSSQogICAgICogQHBhcmFtIGNvbnRleHQgVGhlIGFwcGxpY2F0aW9uIGNvbnRleHQKICAgICAqIEBwYXJhbSB1cmkgVGhlIFVSSSB0byBnZXQgdGhlIGV4dGVuc2lvbiBmcm9tCiAgICAgKiBAcmV0dXJuIFRoZSBmaWxlIGV4dGVuc2lvbiBvciBudWxsIGlmIGl0IGNvdWxkbid0IGJlIGRldGVybWluZWQKICAgICAqLwogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBnZXRGaWxlRXh0ZW5zaW9uRnJvbVVyaShjb250ZXh0OiBDb250ZXh0LCB1cmk6IFVyaSk6IFN0cmluZz8gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgIC8vIEZpcnN0IHRyeSB0byBnZXQgZnJvbSB0aGUgVVJJIHBhdGggaXRzZWxmCiAgICAgICAgdmFsIHVyaVBhdGggPSB1cmkucGF0aAogICAgICAgIGlmICh1cmlQYXRoICE9IG51bGwpIHsKICAgICAgICAgICAgdmFsIHBhdGhFeHRlbnNpb24gPSB1cmlQYXRoLnN1YnN0cmluZ0FmdGVyTGFzdCgnLicsICIiKQogICAgICAgICAgICBpZiAocGF0aEV4dGVuc2lvbi5pc05vdEVtcHR5KCkgJiYgcGF0aEV4dGVuc2lvbi5sZW5ndGggPD0gMTAgJiYgIXBhdGhFeHRlbnNpb24uY29udGFpbnMoJy8nKSkgewogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IHBhdGhFeHRlbnNpb24ubG93ZXJjYXNlKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyBUcnkgdG8gZ2V0IGZyb20gY29udGVudCByZXNvbHZlcgogICAgICAgIHZhbCBtaW1lVHlwZSA9IGNvbnRleHQuY29udGVudFJlc29sdmVyLmdldFR5cGUodXJpKQogICAgICAgIGlmIChtaW1lVHlwZSAhPSBudWxsKSB7CiAgICAgICAgICAgIHZhbCBleHRlbnNpb24gPSBNaW1lVHlwZU1hcC5nZXRTaW5nbGV0b24oKS5nZXRFeHRlbnNpb25Gcm9tTWltZVR5cGUobWltZVR5cGUpCiAgICAgICAgICAgIGlmIChleHRlbnNpb24gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IGV4dGVuc2lvbi5sb3dlcmNhc2UoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIFRyeSB0byBnZXQgZmlsZW5hbWUgZnJvbSBjb250ZW50IHJlc29sdmVyCiAgICAgICAgY29udGV4dC5jb250ZW50UmVzb2x2ZXIucXVlcnkodXJpLCBhcnJheU9mKGFuZHJvaWQucHJvdmlkZXIuT3BlbmFibGVDb2x1bW5zLkRJU1BMQVlfTkFNRSksIG51bGwsIG51bGwsIG51bGwpPy51c2UgeyBjdXJzb3IgLT4KICAgICAgICAgICAgaWYgKGN1cnNvci5tb3ZlVG9GaXJzdCgpKSB7CiAgICAgICAgICAgICAgICB2YWwgbmFtZUluZGV4ID0gY3Vyc29yLmdldENvbHVtbkluZGV4KGFuZHJvaWQucHJvdmlkZXIuT3BlbmFibGVDb2x1bW5zLkRJU1BMQVlfTkFNRSkKICAgICAgICAgICAgICAgIGlmIChuYW1lSW5kZXggPj0gMCkgewogICAgICAgICAgICAgICAgICAgIHZhbCBmaWxlTmFtZSA9IGN1cnNvci5nZXRTdHJpbmcobmFtZUluZGV4KQogICAgICAgICAgICAgICAgICAgIHZhbCBmaWxlRXh0ZW5zaW9uID0gZmlsZU5hbWU/LnN1YnN0cmluZ0FmdGVyTGFzdCgnLicsICIiKQogICAgICAgICAgICAgICAgICAgIGlmICghZmlsZUV4dGVuc2lvbi5pc051bGxPckVtcHR5KCkgJiYgZmlsZUV4dGVuc2lvbi5sZW5ndGggPD0gMTApIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IGZpbGVFeHRlbnNpb24ubG93ZXJjYXNlKCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgCiAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IG51bGwKICAgIH0KCiAgICAvKioKICAgICAqIENsZWFuIHVwIG9sZCBiYWNrZ3JvdW5kIG1lZGlhIGZpbGVzIHRvIHByZXZlbnQgdXNpbmcgdG9vIG11Y2ggc3RvcmFnZSBLZWVwcyBvbmx5IHRoZSBtb3N0CiAgICAgKiByZWNlbnQgZmlsZQogICAgICovCiAgICBwcml2YXRlIGZ1biBjbGVhbk9sZEJhY2tncm91bmRGaWxlcyhkaXJlY3Rvcnk6IEZpbGUsIGN1cnJlbnRGaWxlTmFtZTogU3RyaW5nKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGZpbGVzID0gZGlyZWN0b3J5Lmxpc3RGaWxlcygpCiAgICAgICAgICAgIGlmIChmaWxlcyAhPSBudWxsICYmIGZpbGVzLnNpemUgPiAxKSB7CiAgICAgICAgICAgICAgICAvLyBEZWxldGUgYWxsIGZpbGVzIGV4Y2VwdCB0aGUgY3VycmVudCBvbmUKICAgICAgICAgICAgICAgIGZpbGVzLmZvckVhY2ggeyBmaWxlIC0+CiAgICAgICAgICAgICAgICAgICAgaWYgKGZpbGUubmFtZSAhPSBjdXJyZW50RmlsZU5hbWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZmlsZS5kZWxldGUoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBjbGVhbmluZyBvbGQgYmFja2dyb3VuZCBmaWxlcyIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5qOA5p+l6KeG6aKR5paH5Lu25aSn5bCP5piv5ZCm6LaF6L+H6ZmQ5Yi2CiAgICAgKiBAcGFyYW0gY29udGV4dCDkuIrkuIvmlocKICAgICAqIEBwYXJhbSB1cmkg6KeG6aKR5paH5Lu2VVJJCiAgICAgKiBAcGFyYW0gbWF4U2l6ZU1CIOacgOWkp+WFgeiuuOWkp+Wwj++8jOWNleS9jU1CCiAgICAgKiBAcmV0dXJuIOWmguaenOinhumikeWkp+Wwj+WcqOmZkOWItuWGhei/lOWbnnRydWXvvIzlkKbliJnov5Tlm55mYWxzZQogICAgICovCiAgICBmdW4gY2hlY2tWaWRlb1NpemUoY29udGV4dDogQ29udGV4dCwgdXJpOiBVcmksIG1heFNpemVNQjogSW50ID0gMzApOiBCb29sZWFuIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb250ZXh0LmNvbnRlbnRSZXNvbHZlci5vcGVuRmlsZURlc2NyaXB0b3IodXJpLCAiciIpPy51c2UgeyBwZmQgLT4KICAgICAgICAgICAgICAgIHZhbCBmaWxlU2l6ZSA9IHBmZC5zdGF0U2l6ZQogICAgICAgICAgICAgICAgdmFsIG1heFNpemVCeXRlcyA9IG1heFNpemVNQiAqIDEwMjQgKiAxMDI0TAogICAgICAgICAgICAgICAgcmV0dXJuIGZpbGVTaXplIDw9IG1heFNpemVCeXRlcwogICAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKCJGaWxlVXRpbHMiLCAi5qOA5p+l6KeG6aKR5aSn5bCP5pe25Ye66ZSZIiwgZSkKICAgICAgICB9CiAgICAgICAgLy8g5aaC5p6c5peg5rOV5qOA5p+l5aSn5bCP77yM6L+U5ZuedHJ1ZeS7pemBv+WFjemYu+atoueUqOaIt+mAieaLqQogICAgICAgIHJldHVybiB0cnVlCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import android.net.Uri
+import com.bslsjdk.operit.util.AppLogger
+import android.webkit.MimeTypeMap
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
+import java.io.InputStream
+import java.util.UUID
+
+object FileUtils {
+
+    private const val TAG = "FileUtils"
+    private const val BACKGROUND_IMAGES_DIR = "background_images"
+    private const val BACKGROUND_VIDEOS_DIR = "background_videos"
+
+    // List of common video file extensions
+    private val VIDEO_EXTENSIONS = listOf("mp4", "3gp", "webm", "mkv", "avi", "mov", "flv", "wmv")
+
+    private val TEXT_BASED_EXTENSIONS = setOf(
+        // Common text files
+        "txt", "md", "log", "ini", "env", "csv", "tsv", "text", "me",
+
+        // Web files
+        "html", "htm", "css", "js", "json", "xml", "yaml", "yml", "svg", "url",
+        "sass", "scss", "less", "ejs", "hbs", "pug", "rss", "atom", "vtt", "webmanifest", "jsp", "asp", "aspx",
+
+        // Programming language source files
+        "java", "kt", "kts", "gradle",
+        "c", "cpp", "h", "hpp", "cs", "m",
+        "py", "rb", "php", "go", "swift",
+        "ts", "tsx", "jsx",
+        "sh", "bat", "ps1", "zsh",
+        "sql", "groovy", "lua", "perl", "pl", "r", "dart", "rust", "rs", "scala",
+        "asm", "pas", "f", "f90", "for", "lisp", "hs", "erl", "vb", "vbs", "tcl", "d", "nim", "sol", "zig", "vala", "cob", "cbl",
+
+        // Config files
+        "properties", "toml", "dockerfile", "gitignore", "gitattributes", "editorconfig", "conf", "cfg",
+        "jsonc", "json5", "reg", "iml", "inf",
+
+        // Document formats & Data Serialization
+        "rtf", "tex", "srt", "sub", "asciidoc", "adoc", "rst", "org", "wiki", "mediawiki",
+        "vcf", "ics", "gpx", "kml", "opml"
+    )
+
+    // Common text files without extensions
+    private val TEXT_BASED_FILENAMES = setOf(
+        "readme", "makefile", "dockerfile", "license", "changelog", "authors", 
+        "contributors", "copying", "install", "news", "todo", "version",
+        "gemfile", "rakefile", "vagrantfile", "buildfile"
+    )
+
+    /**
+     * Checks if a file extension corresponds to a text-based file format.
+     * @param extension The file extension without the dot (e.g., "txt", "java").
+     * @return True if the extension is for a known text-based file, false otherwise.
+     */
+    fun isTextBasedExtension(extension: String): Boolean {
+        return extension.lowercase() in TEXT_BASED_EXTENSIONS
+    }
+
+    fun isTextBasedFileName(fileName: String): Boolean {
+        val name = fileName.trim()
+        if (name.isBlank()) return false
+
+        val ext = name.substringAfterLast('.', missingDelimiterValue = "")
+        return if (ext.isBlank() || ext == name) {
+            name.lowercase() in TEXT_BASED_FILENAMES
+        } else {
+            isTextBasedExtension(ext)
+        }
+    }
+
+    /**
+     * Checks if a file appears to be text-like by reading its first few bytes.
+     * This is more reliable than extension checking as it analyzes actual content.
+     * 
+     * @param file The file to check
+     * @param sampleSize Number of bytes to read for analysis (default: 512)
+     * @return True if the file appears to contain text, false otherwise
+     */
+    fun isTextLike(file: File, sampleSize: Int = 512): Boolean {
+        if (!file.exists() || !file.canRead()) {
+            return false
+        }
+
+        // Empty files are considered text
+        if (file.length() == 0L) {
+            return true
+        }
+
+        try {
+            file.inputStream().use { input ->
+                val buffer = ByteArray(minOf(sampleSize.toLong(), file.length()).toInt())
+                val bytesRead = input.read(buffer)
+                
+                if (bytesRead <= 0) {
+                    return true // Empty or unreadable, treat as text
+                }
+
+                return isTextLikeBytes(buffer, bytesRead)
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error checking if file is text-like: ${file.path}", e)
+            return false
+        }
+    }
+
+    /**
+     * Checks if a file appears to be text-like by reading its first few bytes from a path.
+     * This version accepts a file path string.
+     * 
+     * @param path The file path to check
+     * @param sampleSize Number of bytes to read for analysis (default: 512)
+     * @return True if the file appears to contain text, false otherwise
+     */
+    fun isTextLike(path: String, sampleSize: Int = 512): Boolean {
+        return isTextLike(File(path), sampleSize)
+    }
+
+    /**
+     * Check if the given byte array appears to be text content.
+     * This is useful when you already have a byte sample and want to check if it's text.
+     * 
+     * @param bytes The byte array to analyze
+     * @return True if content appears to be text
+     */
+    fun isTextLike(bytes: ByteArray): Boolean {
+        return isTextLikeBytes(bytes, bytes.size)
+    }
+
+    /**
+     * Analyzes a byte array to determine if it contains text-like content.
+     * 
+     * Algorithm:
+     * - Checks for null bytes (strong indicator of binary)
+     * - Counts printable characters (ASCII 32-126)
+     * - Counts common whitespace characters (tab, newline, carriage return)
+     * - Counts UTF-8 continuation bytes and common UTF-8 patterns
+     * 
+     * @param bytes The byte array to analyze
+     * @param length Number of bytes to analyze
+     * @return True if content appears to be text
+     */
+    private fun isTextLikeBytes(bytes: ByteArray, length: Int): Boolean {
+        if (length == 0) return true
+
+        var textChars = 0
+        var nonTextChars = 0
+
+        var i = 0
+        while (i < length) {
+            val byte = bytes[i].toInt() and 0xFF
+
+            when {
+                // ASCII printable, tab, newline, carriage return
+                byte >= 32 && byte <= 126 || byte == 9 || byte == 10 || byte == 13 -> {
+                    textChars++
+                    i++
+                }
+                // UTF-8 multi-byte sequences
+                byte >= 0xC2 && byte <= 0xDF -> { // 2-byte sequence
+                    if (i + 1 < length && (bytes[i + 1].toInt() and 0xC0 == 0x80)) {
+                        textChars += 2
+                        i += 2
+                    } else {
+                        nonTextChars++
+                        i++
+                    }
+                }
+                byte >= 0xE0 && byte <= 0xEF -> { // 3-byte sequence
+                    if (i + 2 < length && (bytes[i + 1].toInt() and 0xC0 == 0x80) && (bytes[i + 2].toInt() and 0xC0 == 0x80)) {
+                        textChars += 3
+                        i += 3
+                    } else {
+                        nonTextChars++
+                        i++
+                    }
+                }
+                byte >= 0xF0 && byte <= 0xF4 -> { // 4-byte sequence
+                    if (i + 3 < length && (bytes[i + 1].toInt() and 0xC0 == 0x80) && (bytes[i + 2].toInt() and 0xC0 == 0x80) && (bytes[i + 3].toInt() and 0xC0 == 0x80)) {
+                        textChars += 4
+                        i += 4
+                    } else {
+                        nonTextChars++
+                        i++
+                    }
+                }
+                else -> {
+                    // Includes null bytes, control chars, invalid UTF-8 start bytes, etc.
+                    nonTextChars++
+                    i++
+                }
+            }
+        }
+
+        // If there are non-text characters, check the ratio.
+        // A small number of weird characters might be acceptable in some text files.
+        // If there are zero non-text characters, it's definitely text.
+        // If there are any, and the ratio of non-text to text is high, it's binary.
+        // We can define "binary" as having more than 10% non-text characters.
+        if (nonTextChars == 0) return true
+        
+        // Avoid division by zero for empty or invalid files
+        val totalChars = textChars + nonTextChars
+        if (totalChars == 0) return true // Or false, depending on desired behavior for empty/unreadable
+
+        return (nonTextChars.toDouble() / totalChars) < 0.1
+    }
+
+    /**
+     * Checks if a file is a text-based file, considering both extension and filename.
+     * @param file The file to check.
+     * @return True if the file is likely a text-based file, false otherwise.
+     */
+    fun isTextBasedFile(file: File): Boolean {
+        val extension = file.extension
+        return if (extension.isEmpty()) {
+            // Files without extension - check common text filenames
+            file.name.lowercase() in TEXT_BASED_FILENAMES
+        } else {
+            isTextBasedExtension(extension)
+        }
+    }
+
+    /**
+     * Checks if a file is a valid workspace file to be shown or backed up.
+     * This combines several rules:
+     * - Must be a text-based file.
+     * - Must not be a hidden file (name starts with '.').
+     * - Must not be inside a '.backup' directory.
+     *
+     * @param file The file to check.
+     * @param workspaceRoot The root of the workspace, for path checking.
+     * @param gitignoreRules A list of .gitignore rules.
+     * @return True if the file should be included in the workspace view/backup.
+     */
+    fun isWorkspaceFile(file: File, workspaceRoot: File, gitignoreRules: List<String>): Boolean {
+        if (!file.isFile) return false
+
+        // Use GitIgnoreFilter to check if the file should be ignored
+        if (com.bslsjdk.operit.ui.features.chat.webview.workspace.process.GitIgnoreFilter.shouldIgnore(file, workspaceRoot, gitignoreRules)) {
+            return false
+        }
+
+        // Also apply the basic text-based file check
+        return isTextBasedFile(file)
+    }
+
+    /**
+     * Check if a URI points to a video file
+     * @param context The application context
+     * @param uri The URI to check
+     * @return true if the URI is a video file, false otherwise
+     */
+    fun isVideoFile(context: Context, uri: Uri): Boolean {
+        val mimeType = context.contentResolver.getType(uri) ?: return false
+        // Check if MIME type starts with "video/"
+        if (mimeType.startsWith("video/")) return true
+
+        // If MIME type doesn't tell us, check the file extension
+        val extension = getFileExtension(context, uri)
+        return extension != null && extension.lowercase() in VIDEO_EXTENSIONS
+    }
+
+    /**
+     * Get the file extension from a URI
+     * @param context The application context
+     * @param uri The URI to get the extension from
+     * @return The file extension or null if it couldn't be determined
+     */
+    fun getFileExtension(context: Context, uri: Uri): String? {
+        // First try to get from content resolver
+        val mimeType = context.contentResolver.getType(uri)
+        return if (mimeType != null) {
+            MimeTypeMap.getSingleton().getExtensionFromMimeType(mimeType)
+        } else {
+            // Fallback to path parsing
+            val path = uri.path
+            return path?.substringAfterLast('.', "")?.takeIf { it.isNotEmpty() }
+        }
+    }
+
+    /**
+     * Copies a file from a given URI to the app's internal storage.
+     * This makes the file private to the app and ensures persistent access.
+     * @param context The context.
+     * @param uri The URI of the file to copy.
+     * @param uniqueName A unique name or prefix for the file to prevent overwriting.
+     * @return The URI of the copied file in internal storage, or null on failure.
+     */
+    suspend fun copyFileToInternalStorage(context: Context, uri: Uri, uniqueName: String): Uri? = withContext(Dispatchers.IO) {
+        var inputStream: InputStream? = null
+        var outputStream: FileOutputStream? = null
+        try {
+            inputStream = context.contentResolver.openInputStream(uri)
+            if (inputStream == null) {
+                AppLogger.e("FileUtils", "Failed to open input stream for URI: $uri")
+                return@withContext null
+            }
+
+            // 获取原始文件的扩展名
+            val originalExtension = getFileExtensionFromUri(context, uri) ?: "dat"
+            
+            // Use the unique name to create a distinct file with correct extension
+            val file = File(context.filesDir, "${uniqueName}_${UUID.randomUUID()}.${originalExtension}")
+            outputStream = FileOutputStream(file)
+
+            val buffer = ByteArray(4 * 1024) // 4K buffer
+            var read: Int
+            while (inputStream.read(buffer).also { read = it } != -1) {
+                outputStream.write(buffer, 0, read)
+            }
+            outputStream.flush()
+            
+            AppLogger.d("FileUtils", "File copied successfully to internal storage: ${file.absolutePath}")
+            return@withContext Uri.fromFile(file)
+        } catch (e: Exception) {
+            AppLogger.e("FileUtils", "Error copying file to internal storage", e)
+            return@withContext null
+        } finally {
+            try {
+                inputStream?.close()
+                outputStream?.close()
+            } catch (e: Exception) {
+                AppLogger.e("FileUtils", "Error closing streams", e)
+            }
+        }
+    }
+    
+    /**
+     * Get the file extension from a URI
+     * @param context The application context
+     * @param uri The URI to get the extension from
+     * @return The file extension or null if it couldn't be determined
+     */
+    private suspend fun getFileExtensionFromUri(context: Context, uri: Uri): String? = withContext(Dispatchers.IO) {
+        // First try to get from the URI path itself
+        val uriPath = uri.path
+        if (uriPath != null) {
+            val pathExtension = uriPath.substringAfterLast('.', "")
+            if (pathExtension.isNotEmpty() && pathExtension.length <= 10 && !pathExtension.contains('/')) {
+                return@withContext pathExtension.lowercase()
+            }
+        }
+        
+        // Try to get from content resolver
+        val mimeType = context.contentResolver.getType(uri)
+        if (mimeType != null) {
+            val extension = MimeTypeMap.getSingleton().getExtensionFromMimeType(mimeType)
+            if (extension != null) {
+                return@withContext extension.lowercase()
+            }
+        }
+        
+        // Try to get filename from content resolver
+        context.contentResolver.query(uri, arrayOf(android.provider.OpenableColumns.DISPLAY_NAME), null, null, null)?.use { cursor ->
+            if (cursor.moveToFirst()) {
+                val nameIndex = cursor.getColumnIndex(android.provider.OpenableColumns.DISPLAY_NAME)
+                if (nameIndex >= 0) {
+                    val fileName = cursor.getString(nameIndex)
+                    val fileExtension = fileName?.substringAfterLast('.', "")
+                    if (!fileExtension.isNullOrEmpty() && fileExtension.length <= 10) {
+                        return@withContext fileExtension.lowercase()
+                    }
+                }
+            }
+        }
+        
+        return@withContext null
+    }
+
+    /**
+     * Clean up old background media files to prevent using too much storage Keeps only the most
+     * recent file
+     */
+    private fun cleanOldBackgroundFiles(directory: File, currentFileName: String) {
+        try {
+            val files = directory.listFiles()
+            if (files != null && files.size > 1) {
+                // Delete all files except the current one
+                files.forEach { file ->
+                    if (file.name != currentFileName) {
+                        file.delete()
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error cleaning old background files", e)
+        }
+    }
+
+    /**
+     * 检查视频文件大小是否超过限制
+     * @param context 上下文
+     * @param uri 视频文件URI
+     * @param maxSizeMB 最大允许大小，单位MB
+     * @return 如果视频大小在限制内返回true，否则返回false
+     */
+    fun checkVideoSize(context: Context, uri: Uri, maxSizeMB: Int = 30): Boolean {
+        try {
+            context.contentResolver.openFileDescriptor(uri, "r")?.use { pfd ->
+                val fileSize = pfd.statSize
+                val maxSizeBytes = maxSizeMB * 1024 * 1024L
+                return fileSize <= maxSizeBytes
+            }
+        } catch (e: Exception) {
+            AppLogger.e("FileUtils", "检查视频大小时出错", e)
+        }
+        // 如果无法检查大小，返回true以避免阻止用户选择
+        return true
+    }
+}

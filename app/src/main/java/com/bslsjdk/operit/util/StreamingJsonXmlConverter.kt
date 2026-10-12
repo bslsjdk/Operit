@@ -1,1 +1,240 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKLyoqCiAqIOa1geW8jyBKU09OIOWIsCBYTUwg55qE6L2s5o2i5ZmoCiAqIOS4k+mXqOeUqOS6juWwhiBUb29sIENhbGwg55qEIGFyZ3VtZW50cyBKU09OIOa1geWinumHj+i9rOaNouS4uiBYTUwg5qC85byPCiAqIOS+i+WmgjogeyJhcmcxIjogInZhbCJ9IC0+IDxwYXJhbSBuYW1lPSJhcmcxIj52YWw8L3BhcmFtPgogKi8KY2xhc3MgU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlciB7CgogICAgLyoqCiAgICAgKiBYTUwg5rWB5LqL5Lu2CiAgICAgKi8KICAgIHNlYWxlZCBjbGFzcyBFdmVudCB7CiAgICAgICAgZGF0YSBjbGFzcyBUYWcodmFsIHRleHQ6IFN0cmluZykgOiBFdmVudCgpCiAgICAgICAgZGF0YSBjbGFzcyBDb250ZW50KHZhbCB0ZXh0OiBTdHJpbmcpIDogRXZlbnQoKQogICAgfQoKICAgIHByaXZhdGUgZW51bSBjbGFzcyBTdGF0ZSB7CiAgICAgICAgV0FJVF9CUkFDRSwgICAgICAvLyDnrYnlvoXotbflp4sgewogICAgICAgIFdBSVRfS0VZX1FVT1RFLCAgLy8g562J5b6FIEtleSDnmoTotbflp4sgIgogICAgICAgIFJFQURfS0VZLCAgICAgICAgLy8g6K+75Y+WIEtleSDlhoXlrrkKICAgICAgICBXQUlUX0NPTE9OLCAgICAgIC8vIOetieW+hSA6CiAgICAgICAgV0FJVF9WQUxVRSwgICAgICAvLyDnrYnlvoUgVmFsdWUKICAgICAgICBSRUFEX1NUUklORywgICAgIC8vIOivu+WPliBTdHJpbmcgVmFsdWUKICAgICAgICBSRUFEX1BSSU1JVElWRSwgIC8vIOivu+WPliBQcmltaXRpdmUgVmFsdWUKICAgICAgICBFU0NBUEUsICAgICAgICAgIC8vIOi9rOS5ieWtl+espuWkhOeQhgogICAgICAgIFVOSUNPREVfRVNDQVBFLCAgLy8gVW5pY29kZSDovazkuYkKICAgICAgICBXQUlUX0NPTU1BICAgICAgIC8vIOetieW+hSAsIOaIliB9CiAgICB9CgogICAgcHJpdmF0ZSB2YXIgc3RhdGUgPSBTdGF0ZS5XQUlUX0JSQUNFCiAgICBwcml2YXRlIHZhbCBidWZmZXIgPSBTdHJpbmdCdWlsZGVyKCkKICAgIHByaXZhdGUgdmFyIHVuaWNvZGVDb3VudCA9IDAKICAgIHByaXZhdGUgdmFyIHByaW1pdGl2ZU5lc3RpbmdEZXB0aCA9IDAKICAgIHByaXZhdGUgdmFyIHByaW1pdGl2ZUluU3RyaW5nID0gZmFsc2UKICAgIHByaXZhdGUgdmFyIHByaW1pdGl2ZUVzY2FwZSA9IGZhbHNlCiAgICBwcml2YXRlIHZhciBrZXlFc2NhcGUgPSBmYWxzZQogICAgcHJpdmF0ZSB2YXIgcmVhZGluZ0NvbXBsZXhWYWx1ZSA9IGZhbHNlCiAgICBwcml2YXRlIHZhciBoYXNPcGVuUGFyYW0gPSBmYWxzZQoKICAgIHByaXZhdGUgZnVuIHJlc2V0UHJpbWl0aXZlVHJhY2tpbmcoKSB7CiAgICAgICAgcHJpbWl0aXZlTmVzdGluZ0RlcHRoID0gMAogICAgICAgIHByaW1pdGl2ZUluU3RyaW5nID0gZmFsc2UKICAgICAgICBwcmltaXRpdmVFc2NhcGUgPSBmYWxzZQogICAgICAgIHJlYWRpbmdDb21wbGV4VmFsdWUgPSBmYWxzZQogICAgfQoKICAgIHByaXZhdGUgZnVuIGVtaXRQcmltaXRpdmVQYXJhbShldmVudHM6IE11dGFibGVMaXN0PEV2ZW50PikgewogICAgICAgIGV2ZW50cy5hZGQoRXZlbnQuQ29udGVudChlc2NhcGVYbWwoYnVmZmVyLnRvU3RyaW5nKCkpKSkKICAgICAgICBldmVudHMuYWRkKEV2ZW50LlRhZygiPC9wYXJhbT4iKSkKICAgICAgICBoYXNPcGVuUGFyYW0gPSBmYWxzZQogICAgICAgIGJ1ZmZlci5zZXRMZW5ndGgoMCkKICAgICAgICByZXNldFByaW1pdGl2ZVRyYWNraW5nKCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBjYW5GaW5hbGl6ZVByaW1pdGl2ZU9uRmx1c2goKTogQm9vbGVhbiB7CiAgICAgICAgaWYgKHN0YXRlICE9IFN0YXRlLlJFQURfUFJJTUlUSVZFIHx8IGJ1ZmZlci5pc0VtcHR5KCkpIHJldHVybiBmYWxzZQogICAgICAgIGlmICghcmVhZGluZ0NvbXBsZXhWYWx1ZSkgcmV0dXJuIHRydWUKICAgICAgICByZXR1cm4gcHJpbWl0aXZlTmVzdGluZ0RlcHRoID09IDAgJiYgIXByaW1pdGl2ZUluU3RyaW5nICYmICFwcmltaXRpdmVFc2NhcGUKICAgIH0KCiAgICAvKioKICAgICAqIOW9k+WJjeaYr+WQpuWtmOWcqOacqumXreWQiOeahCA8cGFyYW0+44CCCiAgICAgKiDoi6XkuLogdHJ1Ze+8jOivtOaYjuWPguaVsOWGheWuueS7jeWPr+iDveaYr+WNiuaIqu+8jOiwg+eUqOaWueS4jeW6lOihpSA8L3Rvb2w+44CCCiAgICAgKi8KICAgIGZ1biBoYXNVbmZpbmlzaGVkUGFyYW0oKTogQm9vbGVhbiA9IGhhc09wZW5QYXJhbQoKICAgIC8qKgogICAgICog5aSE55CGIEpTT04g5Z2X5bm26L+U5ZueIFhNTCDkuovku7bliJfooagKICAgICAqLwogICAgZnVuIGZlZWQoY2h1bms6IFN0cmluZyk6IExpc3Q8RXZlbnQ+IHsKICAgICAgICB2YWwgZXZlbnRzID0gbXV0YWJsZUxpc3RPZjxFdmVudD4oKQoKICAgICAgICBmb3IgKGMgaW4gY2h1bmspIHsKICAgICAgICAgICAgd2hlbiAoc3RhdGUpIHsKICAgICAgICAgICAgICAgIFN0YXRlLldBSVRfQlJBQ0UgLT4gaWYgKGMgPT0gJ3snKSBzdGF0ZSA9IFN0YXRlLldBSVRfS0VZX1FVT1RFCiAgICAgICAgICAgICAgICBTdGF0ZS5XQUlUX0tFWV9RVU9URSAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGMgPT0gJyInKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlID0gU3RhdGUuUkVBRF9LRVkKICAgICAgICAgICAgICAgICAgICAgICAga2V5RXNjYXBlID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgYnVmZmVyLnNldExlbmd0aCgwKQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoYyA9PSAnfScpIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5a+56LGh57uT5p2fCiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlID0gU3RhdGUuV0FJVF9CUkFDRQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFN0YXRlLlJFQURfS0VZIC0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAoa2V5RXNjYXBlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGJ1ZmZlci5hcHBlbmQoYykKICAgICAgICAgICAgICAgICAgICAgICAga2V5RXNjYXBlID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICB3aGVuIChjKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnXFwnIC0+IGtleUVzY2FwZSA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICciJyAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnRzLmFkZChFdmVudC5UYWcoIlxuICA8cGFyYW0gbmFtZT1cIiR7YnVmZmVyfVwiPiIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhhc09wZW5QYXJhbSA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZSA9IFN0YXRlLldBSVRfQ09MT04KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gYnVmZmVyLmFwcGVuZChjKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgU3RhdGUuV0FJVF9DT0xPTiAtPiBpZiAoYyA9PSAnOicpIHN0YXRlID0gU3RhdGUuV0FJVF9WQUxVRQogICAgICAgICAgICAgICAgU3RhdGUuV0FJVF9WQUxVRSAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFjLmlzV2hpdGVzcGFjZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChjID09ICciJykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGUgPSBTdGF0ZS5SRUFEX1NUUklORwogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGUgPSBTdGF0ZS5SRUFEX1BSSU1JVElWRQogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVmZmVyLnNldExlbmd0aCgwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVmZmVyLmFwcGVuZChjKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVhZGluZ0NvbXBsZXhWYWx1ZSA9IGMgPT0gJ1snIHx8IGMgPT0gJ3snCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmltaXRpdmVOZXN0aW5nRGVwdGggPSBpZiAocmVhZGluZ0NvbXBsZXhWYWx1ZSkgMSBlbHNlIDAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW1pdGl2ZUluU3RyaW5nID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW1pdGl2ZUVzY2FwZSA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTdGF0ZS5SRUFEX1NUUklORyAtPiB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGMgPT0gJyInKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlID0gU3RhdGUuV0FJVF9DT01NQQogICAgICAgICAgICAgICAgICAgICAgICBldmVudHMuYWRkKEV2ZW50LlRhZygiPC9wYXJhbT4iKSkKICAgICAgICAgICAgICAgICAgICAgICAgaGFzT3BlblBhcmFtID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKGMgPT0gJ1xcJykgewogICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZSA9IFN0YXRlLkVTQ0FQRQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGV2ZW50cy5hZGQoRXZlbnQuQ29udGVudChlc2NhcGVYbWwoYy50b1N0cmluZygpKSkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgU3RhdGUuRVNDQVBFIC0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAoYyA9PSAndScpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGUgPSBTdGF0ZS5VTklDT0RFX0VTQ0FQRQogICAgICAgICAgICAgICAgICAgICAgICB1bmljb2RlQ291bnQgPSAwCiAgICAgICAgICAgICAgICAgICAgICAgIGJ1ZmZlci5zZXRMZW5ndGgoMCkKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgdW5lc2NhcGVkID0gd2hlbiAoYykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ24nIC0+ICJcbiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdyJyAtPiAiXHIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAndCcgLT4gIlx0IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ2InIC0+ICJcYiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICdmJyAtPiAiXHUwMDBjIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgJ1wiJyAtPiAiXCIiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnXFwnIC0+ICJcXCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICcvJyAtPiAiLyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gYy50b1N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgZXZlbnRzLmFkZChFdmVudC5Db250ZW50KGVzY2FwZVhtbCh1bmVzY2FwZWQpKSkKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdGUgPSBTdGF0ZS5SRUFEX1NUUklORwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFN0YXRlLlVOSUNPREVfRVNDQVBFIC0+IHsKICAgICAgICAgICAgICAgICAgICBidWZmZXIuYXBwZW5kKGMpCiAgICAgICAgICAgICAgICAgICAgdW5pY29kZUNvdW50KysKICAgICAgICAgICAgICAgICAgICBpZiAodW5pY29kZUNvdW50ID09IDQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjb2RlID0gYnVmZmVyLnRvU3RyaW5nKCkudG9JbnQoMTYpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBldmVudHMuYWRkKEV2ZW50LkNvbnRlbnQoZXNjYXBlWG1sKGNvZGUudG9DaGFyKCkudG9TdHJpbmcoKSkpKQogICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsgfQogICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZSA9IFN0YXRlLlJFQURfU1RSSU5HCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgU3RhdGUuUkVBRF9QUklNSVRJVkUgLT4gewogICAgICAgICAgICAgICAgICAgIGlmIChyZWFkaW5nQ29tcGxleFZhbHVlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChwcmltaXRpdmVJblN0cmluZykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVmZmVyLmFwcGVuZChjKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHByaW1pdGl2ZUVzY2FwZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW1pdGl2ZUVzY2FwZSA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKGMgPT0gJ1xcJykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHByaW1pdGl2ZUVzY2FwZSA9IHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSBpZiAoYyA9PSAnIicpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmltaXRpdmVJblN0cmluZyA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGVuIChjKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJyInIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbWl0aXZlSW5TdHJpbmcgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJ1ZmZlci5hcHBlbmQoYykKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICdbJywgJ3snIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJpbWl0aXZlTmVzdGluZ0RlcHRoKysKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYnVmZmVyLmFwcGVuZChjKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgJ10nLCAnfScgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmltaXRpdmVOZXN0aW5nRGVwdGgtLQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBidWZmZXIuYXBwZW5kKGMpCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAocHJpbWl0aXZlTmVzdGluZ0RlcHRoID09IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVtaXRQcmltaXRpdmVQYXJhbShldmVudHMpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZSA9IFN0YXRlLldBSVRfQ09NTUEKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBidWZmZXIuYXBwZW5kKGMpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBpZiAoYyA9PSAnLCcgfHwgYyA9PSAnfScgfHwgYy5pc1doaXRlc3BhY2UoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZW1pdFByaW1pdGl2ZVBhcmFtKGV2ZW50cykKCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoYyA9PSAnLCcpIHN0YXRlID0gU3RhdGUuV0FJVF9LRVlfUVVPVEUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgaWYgKGMgPT0gJ30nKSBzdGF0ZSA9IFN0YXRlLldBSVRfQlJBQ0UKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2Ugc3RhdGUgPSBTdGF0ZS5XQUlUX0NPTU1BCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBidWZmZXIuYXBwZW5kKGMpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBTdGF0ZS5XQUlUX0NPTU1BIC0+IHsKICAgICAgICAgICAgICAgICAgICBpZiAoYyA9PSAnLCcpIHN0YXRlID0gU3RhdGUuV0FJVF9LRVlfUVVPVEUKICAgICAgICAgICAgICAgICAgICBlbHNlIGlmIChjID09ICd9Jykgc3RhdGUgPSBTdGF0ZS5XQUlUX0JSQUNFCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGV2ZW50cwogICAgfQoKICAgIC8qKgogICAgICog5Yi35paw57yT5Yay5Yy677yM5aSE55CG5Ymp5L2Z55qE5Y6f5aeL5YC8CiAgICAgKi8KICAgIGZ1biBmbHVzaCgpOiBMaXN0PEV2ZW50PiB7CiAgICAgICAgdmFsIGV2ZW50cyA9IG11dGFibGVMaXN0T2Y8RXZlbnQ+KCkKICAgICAgICBpZiAoY2FuRmluYWxpemVQcmltaXRpdmVPbkZsdXNoKCkpIHsKICAgICAgICAgICAgZW1pdFByaW1pdGl2ZVBhcmFtKGV2ZW50cykKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGV2ZW50cwogICAgfQoKICAgIC8qKgogICAgICogWE1MIOi9rOS5iei+heWKqeWHveaVsAogICAgICovCiAgICBwcml2YXRlIGZ1biBlc2NhcGVYbWwodGV4dDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gdGV4dC5yZXBsYWNlKCImIiwgIiZhbXA7IikKICAgICAgICAgICAgICAgIC5yZXBsYWNlKCI8IiwgIiZsdDsiKQogICAgICAgICAgICAgICAgLnJlcGxhY2UoIj4iLCAiJmd0OyIpCiAgICAgICAgICAgICAgICAucmVwbGFjZSgiXCIiLCAiJnF1b3Q7IikKICAgICAgICAgICAgICAgIC5yZXBsYWNlKCInIiwgIiZhcG9zOyIpCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+/**
+ * 流式 JSON 到 XML 的转换器
+ * 专门用于将 Tool Call 的 arguments JSON 流增量转换为 XML 格式
+ * 例如: {"arg1": "val"} -> <param name="arg1">val</param>
+ */
+class StreamingJsonXmlConverter {
+
+    /**
+     * XML 流事件
+     */
+    sealed class Event {
+        data class Tag(val text: String) : Event()
+        data class Content(val text: String) : Event()
+    }
+
+    private enum class State {
+        WAIT_BRACE,      // 等待起始 {
+        WAIT_KEY_QUOTE,  // 等待 Key 的起始 "
+        READ_KEY,        // 读取 Key 内容
+        WAIT_COLON,      // 等待 :
+        WAIT_VALUE,      // 等待 Value
+        READ_STRING,     // 读取 String Value
+        READ_PRIMITIVE,  // 读取 Primitive Value
+        ESCAPE,          // 转义字符处理
+        UNICODE_ESCAPE,  // Unicode 转义
+        WAIT_COMMA       // 等待 , 或 }
+    }
+
+    private var state = State.WAIT_BRACE
+    private val buffer = StringBuilder()
+    private var unicodeCount = 0
+    private var primitiveNestingDepth = 0
+    private var primitiveInString = false
+    private var primitiveEscape = false
+    private var keyEscape = false
+    private var readingComplexValue = false
+    private var hasOpenParam = false
+
+    private fun resetPrimitiveTracking() {
+        primitiveNestingDepth = 0
+        primitiveInString = false
+        primitiveEscape = false
+        readingComplexValue = false
+    }
+
+    private fun emitPrimitiveParam(events: MutableList<Event>) {
+        events.add(Event.Content(escapeXml(buffer.toString())))
+        events.add(Event.Tag("</param>"))
+        hasOpenParam = false
+        buffer.setLength(0)
+        resetPrimitiveTracking()
+    }
+
+    private fun canFinalizePrimitiveOnFlush(): Boolean {
+        if (state != State.READ_PRIMITIVE || buffer.isEmpty()) return false
+        if (!readingComplexValue) return true
+        return primitiveNestingDepth == 0 && !primitiveInString && !primitiveEscape
+    }
+
+    /**
+     * 当前是否存在未闭合的 <param>。
+     * 若为 true，说明参数内容仍可能是半截，调用方不应补 </tool>。
+     */
+    fun hasUnfinishedParam(): Boolean = hasOpenParam
+
+    /**
+     * 处理 JSON 块并返回 XML 事件列表
+     */
+    fun feed(chunk: String): List<Event> {
+        val events = mutableListOf<Event>()
+
+        for (c in chunk) {
+            when (state) {
+                State.WAIT_BRACE -> if (c == '{') state = State.WAIT_KEY_QUOTE
+                State.WAIT_KEY_QUOTE -> {
+                    if (c == '"') {
+                        state = State.READ_KEY
+                        keyEscape = false
+                        buffer.setLength(0)
+                    } else if (c == '}') {
+                        // 对象结束
+                        state = State.WAIT_BRACE
+                    }
+                }
+                State.READ_KEY -> {
+                    if (keyEscape) {
+                        buffer.append(c)
+                        keyEscape = false
+                    } else {
+                        when (c) {
+                            '\\' -> keyEscape = true
+                            '"' -> {
+                                events.add(Event.Tag("\n  <param name=\"${buffer}\">"))
+                                hasOpenParam = true
+                                state = State.WAIT_COLON
+                            }
+                            else -> buffer.append(c)
+                        }
+                    }
+                }
+                State.WAIT_COLON -> if (c == ':') state = State.WAIT_VALUE
+                State.WAIT_VALUE -> {
+                    if (!c.isWhitespace()) {
+                        if (c == '"') {
+                            state = State.READ_STRING
+                        } else {
+                            state = State.READ_PRIMITIVE
+                            buffer.setLength(0)
+                            buffer.append(c)
+                            readingComplexValue = c == '[' || c == '{'
+                            primitiveNestingDepth = if (readingComplexValue) 1 else 0
+                            primitiveInString = false
+                            primitiveEscape = false
+                        }
+                    }
+                }
+                State.READ_STRING -> {
+                    if (c == '"') {
+                        state = State.WAIT_COMMA
+                        events.add(Event.Tag("</param>"))
+                        hasOpenParam = false
+                    } else if (c == '\\') {
+                        state = State.ESCAPE
+                    } else {
+                        events.add(Event.Content(escapeXml(c.toString())))
+                    }
+                }
+                State.ESCAPE -> {
+                    if (c == 'u') {
+                        state = State.UNICODE_ESCAPE
+                        unicodeCount = 0
+                        buffer.setLength(0)
+                    } else {
+                        val unescaped = when (c) {
+                            'n' -> "\n"
+                            'r' -> "\r"
+                            't' -> "\t"
+                            'b' -> "\b"
+                            'f' -> "\u000c"
+                            '\"' -> "\""
+                            '\\' -> "\\"
+                            '/' -> "/"
+                            else -> c.toString()
+                        }
+                        events.add(Event.Content(escapeXml(unescaped)))
+                        state = State.READ_STRING
+                    }
+                }
+                State.UNICODE_ESCAPE -> {
+                    buffer.append(c)
+                    unicodeCount++
+                    if (unicodeCount == 4) {
+                        try {
+                            val code = buffer.toString().toInt(16)
+                            events.add(Event.Content(escapeXml(code.toChar().toString())))
+                        } catch (_: Exception) { }
+                        state = State.READ_STRING
+                    }
+                }
+                State.READ_PRIMITIVE -> {
+                    if (readingComplexValue) {
+                        if (primitiveInString) {
+                            buffer.append(c)
+                            if (primitiveEscape) {
+                                primitiveEscape = false
+                            } else if (c == '\\') {
+                                primitiveEscape = true
+                            } else if (c == '"') {
+                                primitiveInString = false
+                            }
+                        } else {
+                            when (c) {
+                                '"' -> {
+                                    primitiveInString = true
+                                    buffer.append(c)
+                                }
+
+                                '[', '{' -> {
+                                    primitiveNestingDepth++
+                                    buffer.append(c)
+                                }
+
+                                ']', '}' -> {
+                                    primitiveNestingDepth--
+                                    buffer.append(c)
+
+                                    if (primitiveNestingDepth == 0) {
+                                        emitPrimitiveParam(events)
+                                        state = State.WAIT_COMMA
+                                    }
+                                }
+
+                                else -> buffer.append(c)
+                            }
+                        }
+                    } else {
+                        if (c == ',' || c == '}' || c.isWhitespace()) {
+                            emitPrimitiveParam(events)
+
+                            if (c == ',') state = State.WAIT_KEY_QUOTE
+                            else if (c == '}') state = State.WAIT_BRACE
+                            else state = State.WAIT_COMMA
+                        } else {
+                            buffer.append(c)
+                        }
+                    }
+                }
+                State.WAIT_COMMA -> {
+                    if (c == ',') state = State.WAIT_KEY_QUOTE
+                    else if (c == '}') state = State.WAIT_BRACE
+                }
+            }
+        }
+        return events
+    }
+
+    /**
+     * 刷新缓冲区，处理剩余的原始值
+     */
+    fun flush(): List<Event> {
+        val events = mutableListOf<Event>()
+        if (canFinalizePrimitiveOnFlush()) {
+            emitPrimitiveParam(events)
+        }
+        return events
+    }
+
+    /**
+     * XML 转义辅助函数
+     */
+    private fun escapeXml(text: String): String {
+        return text.replace("&", "&amp;")
+                .replace("<", "&lt;")
+                .replace(">", "&gt;")
+                .replace("\"", "&quot;")
+                .replace("'", "&apos;")
+    }
+}

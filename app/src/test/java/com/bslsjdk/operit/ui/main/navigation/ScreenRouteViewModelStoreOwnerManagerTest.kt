@@ -1,1 +1,417 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5uYXZpZ2F0aW9uCgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbAppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLlZpZXdNb2RlbFByb3ZpZGVyCmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsU3RvcmVPd25lcgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5zY3JlZW5zLlNjcmVlbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRXhwZXJpbWVudGFsQ29yb3V0aW5lc0FwaQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmF3YWl0Q2FuY2VsbGF0aW9uCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMudGVzdC5VbmNvbmZpbmVkVGVzdERpc3BhdGNoZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy50ZXN0LnJlc2V0TWFpbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnRlc3Quc2V0TWFpbgppbXBvcnQgb3JnLmp1bml0LkFmdGVyCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnROb3RFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0Tm90U2FtZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRTYW1lCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuZmFpbAppbXBvcnQgb3JnLmp1bml0LkJlZm9yZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCi8qKgogKiDot6/nlLHnuqcgVmlld01vZGVsU3RvcmUg566h55CG5rWL6K+V77yI6Zi25q61IDQgUDHvvIznuq8gSlZN77yM5peg5Luq5Zmo77yJ77yaCiAqIC0g6YWN572u5Y+Y5YyW5LiNIHBvcO+8muWQjOS4gCBtYW5hZ2Vy77yIQWN0aXZpdHkgVk0g5L+d55WZ77yJ5aSN55So5ZCM5LiAIG93bmVyL1ZN77ybCiAqIC0gcG9w77yI6Lev55Sx5Ye65qCI77yJ77yacmVtb3ZlIOinpuWPkSBvbkNsZWFyZWQg5LiOIHZpZXdNb2RlbFNjb3BlIOWPlua2iO+8mwogKiAtIOS4pOS4qiBzY3JlZW5LZXkg5LqS5LiN5b2x5ZON77ybCiAqIC0gcmVwbGFjZS9jbGVhciBzdGFja++8mnJldGFpbk9ubHkg5Y+q5L+d55WZ5a2Y5rS76ZSu77ybCiAqIC0gQWN0aXZpdHkg6ZSA5q+B77yaY2xlYXJBbGwg5YWo5riF77ybCiAqIC0g55yf5a6e5a+86Iiq5qCI77yIQXBwUm91dGVyU3RhdGUgcHVzaC9wb3AvcmVzZXRUb++8iempseWKqOeahCBhbGl2ZSDplK7kuI7muIXnkIbvvJsKICogLSBBcHBDb250ZW50IOmmluasoee7hOWQiO+8iGF0dGFjaO+8ieWPquWQjOatpeS4gOasoe+8iExhdW5jaGVkRWZmZWN0KFVuaXQp77yJ77yacG9wIOWQjgogKiAgIOi9rOWcuuWujOaIkOWJjeS4jeW+l+a4heeQhuS7jea4suafk+eahOemu+mhtSBvd25lcu+8jOWPquWcqOi9rOWcuuWujOaIkOWIhuaUryByZXRhaW5Pbmx5IOWQjua4heeQhuOAggogKi8KQE9wdEluKEV4cGVyaW1lbnRhbENvcm91dGluZXNBcGk6OmNsYXNzKQpjbGFzcyBTY3JlZW5Sb3V0ZVZpZXdNb2RlbFN0b3JlT3duZXJNYW5hZ2VyVGVzdCB7CgogICAgQEJlZm9yZQogICAgZnVuIHNldFVwKCkgewogICAgICAgIC8vIHZpZXdNb2RlbFNjb3BlIOS9v+eUqCBNYWluLmltbWVkaWF0Ze+8m1VuY29uZmluZWQg5L+d6K+B5Y+W5raI5Zue6LCD5ZCM5q2l5omn6KGMCiAgICAgICAgRGlzcGF0Y2hlcnMuc2V0TWFpbihVbmNvbmZpbmVkVGVzdERpc3BhdGNoZXIoKSkKICAgIH0KCiAgICBAQWZ0ZXIKICAgIGZ1biB0ZWFyRG93bigpIHsKICAgICAgICBEaXNwYXRjaGVycy5yZXNldE1haW4oKQogICAgfQoKICAgIC8qKiDorrDlvZUgb25DbGVhcmVkIOS4jiB2aWV3TW9kZWxTY29wZSDlj5bmtojnmoTot5/ouKogVk3vvIjpobvlj6/ooqsgVmlld01vZGVsUHJvdmlkZXIg5Y+N5bCE5a6e5L6L5YyW77yJ44CCICovCiAgICBjbGFzcyBUcmFja2FibGVWaWV3TW9kZWwgOiBWaWV3TW9kZWwoKSB7CiAgICAgICAgdmFyIG9uQ2xlYXJlZENhbGxlZCA9IGZhbHNlCiAgICAgICAgdmFyIHNjb3BlQ2FuY2VsbGVkID0gZmFsc2UKCiAgICAgICAgaW5pdCB7CiAgICAgICAgICAgIHZpZXdNb2RlbFNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGF3YWl0Q2FuY2VsbGF0aW9uKCkKICAgICAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICAgICAgc2NvcGVDYW5jZWxsZWQgPSB0cnVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIG92ZXJyaWRlIGZ1biBvbkNsZWFyZWQoKSB7CiAgICAgICAgICAgIG9uQ2xlYXJlZENhbGxlZCA9IHRydWUKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdHJhY2thYmxlVk0ob3duZXI6IFZpZXdNb2RlbFN0b3JlT3duZXIpOiBUcmFja2FibGVWaWV3TW9kZWwgPQogICAgICAgIFZpZXdNb2RlbFByb3ZpZGVyKG93bmVyKVtUcmFja2FibGVWaWV3TW9kZWw6OmNsYXNzLmphdmFdCgogICAgcHJpdmF0ZSBmdW4gYXdhaXRTY29wZUNhbmNlbGxlZCh2bTogVHJhY2thYmxlVmlld01vZGVsKSB7CiAgICAgICAgdmFsIGRlYWRsaW5lID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkgKyA1XzAwMAogICAgICAgIHdoaWxlICghdm0uc2NvcGVDYW5jZWxsZWQpIHsKICAgICAgICAgICAgaWYgKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpID4gZGVhZGxpbmUpIHsKICAgICAgICAgICAgICAgIGZhaWwoInRpbWVkIG91dCB3YWl0aW5nIGZvciB2aWV3TW9kZWxTY29wZSBjYW5jZWxsYXRpb24iKQogICAgICAgICAgICB9CiAgICAgICAgICAgIFRocmVhZC5zbGVlcCgxMCkKICAgICAgICB9CiAgICB9CgogICAgLy8gPT09PSDphY3nva7lj5jljJbvvJrkuI0gcG9wIOWkjeeUqOWQjCBvd25lci9WTSA9PT09CgogICAgQFRlc3QKICAgIGZ1biBjb25maWd1cmF0aW9uQ2hhbmdlX3dpdGhvdXRQb3BfcmV1c2VzU2FtZU93bmVyQW5kVmlld01vZGVsKCkgewogICAgICAgIHZhbCBtYW5hZ2VyID0gU2NyZWVuUm91dGVWaWV3TW9kZWxTdG9yZU93bmVyTWFuYWdlcigpCgogICAgICAgIHZhbCBvd25lckZpcnN0ID0gbWFuYWdlci5vd25lckZvcigic3RhdHMta2V5IikKICAgICAgICB2YWwgdm1GaXJzdCA9IHRyYWNrYWJsZVZNKG93bmVyRmlyc3QpCgogICAgICAgIC8vIOaooeaLn+mFjee9ruWPmOWMlu+8muWQjOS4gCBtYW5hZ2VyIOWunuS+i++8iEFjdGl2aXR5IFZNIOS/neeVme+8ie+8jOWQjCBzY3JlZW5LZXkg4oaSIOWQjCBvd25lcgogICAgICAgIHZhbCBvd25lclNlY29uZCA9IG1hbmFnZXIub3duZXJGb3IoInN0YXRzLWtleSIpCiAgICAgICAgYXNzZXJ0U2FtZShvd25lckZpcnN0LCBvd25lclNlY29uZCkKICAgICAgICAvLyDlkIwgb3duZXIg4oaSIOWQjCBzdG9yZSDihpIg5ZCMIFZNIOWunuS+iwogICAgICAgIGFzc2VydFNhbWUodm1GaXJzdCwgdHJhY2thYmxlVk0ob3duZXJTZWNvbmQpKQoKICAgICAgICBhc3NlcnRGYWxzZSh2bUZpcnN0Lm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhc3NlcnRGYWxzZSh2bUZpcnN0LnNjb3BlQ2FuY2VsbGVkKQogICAgfQoKICAgIC8vID09PT0gcG9w77yacmVtb3ZlIOKGkiBvbkNsZWFyZWQgKyB2aWV3TW9kZWxTY29wZSDlj5bmtoggPT09PQoKICAgIEBUZXN0CiAgICBmdW4gcG9wX3JlbW92ZU93bmVyX2NsZWFyc1ZpZXdNb2RlbEFuZENhbmNlbHNTY29wZSgpIHsKICAgICAgICB2YWwgbWFuYWdlciA9IFNjcmVlblJvdXRlVmlld01vZGVsU3RvcmVPd25lck1hbmFnZXIoKQogICAgICAgIHZhbCBvd25lciA9IG1hbmFnZXIub3duZXJGb3IoInN0YXRzLWtleSIpCiAgICAgICAgdmFsIHZtID0gdHJhY2thYmxlVk0ob3duZXIpCgogICAgICAgIG1hbmFnZXIucmVtb3ZlKCJzdGF0cy1rZXkiKQoKICAgICAgICBhc3NlcnRUcnVlKHZtLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhd2FpdFNjb3BlQ2FuY2VsbGVkKHZtKQoKICAgICAgICAvLyDlho3mrKHov5vlhaXlkIzot6/nlLHvvJrmlrAgb3duZXIgKyDmlrAgVk3vvIjml6cgc3RvcmUg5bey5riF55CG77yJCiAgICAgICAgdmFsIG5ld093bmVyID0gbWFuYWdlci5vd25lckZvcigic3RhdHMta2V5IikKICAgICAgICBhc3NlcnROb3RTYW1lKG93bmVyLCBuZXdPd25lcikKICAgICAgICBhc3NlcnROb3RTYW1lKHZtLCB0cmFja2FibGVWTShuZXdPd25lcikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biByZW1vdmVfdW5rbm93bktleV9pc05vT3AoKSB7CiAgICAgICAgdmFsIG1hbmFnZXIgPSBTY3JlZW5Sb3V0ZVZpZXdNb2RlbFN0b3JlT3duZXJNYW5hZ2VyKCkKICAgICAgICB2YWwgdm0gPSB0cmFja2FibGVWTShtYW5hZ2VyLm93bmVyRm9yKCJzdGF0cy1rZXkiKSkKCiAgICAgICAgbWFuYWdlci5yZW1vdmUoIm5vLXN1Y2gta2V5IikKCiAgICAgICAgYXNzZXJ0RmFsc2Uodm0ub25DbGVhcmVkQ2FsbGVkKQogICAgICAgIGFzc2VydEZhbHNlKHZtLnNjb3BlQ2FuY2VsbGVkKQogICAgfQoKICAgIC8vID09PT0g5Lik5LiqIHNjcmVlbktleSDkupLkuI3lvbHlk40gPT09PQoKICAgIEBUZXN0CiAgICBmdW4gdHdvS2V5c19hcmVJbmRlcGVuZGVudCgpIHsKICAgICAgICB2YWwgbWFuYWdlciA9IFNjcmVlblJvdXRlVmlld01vZGVsU3RvcmVPd25lck1hbmFnZXIoKQogICAgICAgIHZhbCB2bVN0YXRzID0gdHJhY2thYmxlVk0obWFuYWdlci5vd25lckZvcigic3RhdHMta2V5IikpCiAgICAgICAgdmFsIHZtT3RoZXIgPSB0cmFja2FibGVWTShtYW5hZ2VyLm93bmVyRm9yKCJvdGhlci1rZXkiKSkKCiAgICAgICAgbWFuYWdlci5yZW1vdmUoInN0YXRzLWtleSIpCgogICAgICAgIGFzc2VydFRydWUodm1TdGF0cy5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXdhaXRTY29wZUNhbmNlbGxlZCh2bVN0YXRzKQogICAgICAgIGFzc2VydEZhbHNlKHZtT3RoZXIub25DbGVhcmVkQ2FsbGVkKQogICAgICAgIGFzc2VydEZhbHNlKHZtT3RoZXIuc2NvcGVDYW5jZWxsZWQpCiAgICB9CgogICAgLy8gPT09PSByZXBsYWNlIC8gY2xlYXIgc3RhY2vvvJpyZXRhaW5Pbmx5ID09PT0KCiAgICBAVGVzdAogICAgZnVuIHJldGFpbk9ubHlfcmVtb3Zlc05vbkFsaXZlS2V5c19rZWVwc0FsaXZlS2V5cygpIHsKICAgICAgICB2YWwgbWFuYWdlciA9IFNjcmVlblJvdXRlVmlld01vZGVsU3RvcmVPd25lck1hbmFnZXIoKQogICAgICAgIHZhbCB2bVN0YXRzID0gdHJhY2thYmxlVk0obWFuYWdlci5vd25lckZvcigic3RhdHMta2V5IikpCiAgICAgICAgdmFsIHZtSG9tZSA9IHRyYWNrYWJsZVZNKG1hbmFnZXIub3duZXJGb3IoImhvbWUta2V5IikpCgogICAgICAgIC8vIOaKveWxieWvvOiIqiByZXNldFRv77ya5qCI5Y+q5YmpIGhvbWUKICAgICAgICBtYW5hZ2VyLnJldGFpbk9ubHkoc2V0T2YoImhvbWUta2V5IikpCgogICAgICAgIGFzc2VydFRydWUodm1TdGF0cy5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXdhaXRTY29wZUNhbmNlbGxlZCh2bVN0YXRzKQogICAgICAgIGFzc2VydEZhbHNlKHZtSG9tZS5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXNzZXJ0RmFsc2Uodm1Ib21lLnNjb3BlQ2FuY2VsbGVkKQogICAgfQoKICAgIC8vID09PT0gQWN0aXZpdHkg6ZSA5q+B77yaY2xlYXJBbGwg5YWo5riFID09PT0KCiAgICBAVGVzdAogICAgZnVuIGNsZWFyQWxsX2NsZWFyc0V2ZXJ5T3duZXIoKSB7CiAgICAgICAgdmFsIG1hbmFnZXIgPSBTY3JlZW5Sb3V0ZVZpZXdNb2RlbFN0b3JlT3duZXJNYW5hZ2VyKCkKICAgICAgICB2YWwgdm1BID0gdHJhY2thYmxlVk0obWFuYWdlci5vd25lckZvcigia2V5LWEiKSkKICAgICAgICB2YWwgdm1CID0gdHJhY2thYmxlVk0obWFuYWdlci5vd25lckZvcigia2V5LWIiKSkKCiAgICAgICAgbWFuYWdlci5jbGVhckFsbCgpCgogICAgICAgIGFzc2VydFRydWUodm1BLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhc3NlcnRUcnVlKHZtQi5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXdhaXRTY29wZUNhbmNlbGxlZCh2bUEpCiAgICAgICAgYXdhaXRTY29wZUNhbmNlbGxlZCh2bUIpCgogICAgICAgIC8vIOWFqOa4heWQjuWQjOmUruWGjei/m++8muaWsCBvd25lcu+8iOaXp+WunuS+i+S4jeWGjeWkjeeUqO+8iQogICAgICAgIGFzc2VydE5vdFNhbWUodm1BLCB0cmFja2FibGVWTShtYW5hZ2VyLm93bmVyRm9yKCJrZXktYSIpKSkKICAgIH0KCiAgICAvLyA9PT09IOecn+WunuWvvOiIquagiOmpseWKqO+8iEFwcFJvdXRlclN0YXRlIHB1c2gvcG9wL3Jlc2V0VG/vvIk9PT09CgogICAgcHJpdmF0ZSB2YWwgcmVzb2x2ZVNjcmVlbjogKFJvdXRlRW50cnkpIC0+IFNjcmVlbj8gPSB7IGVudHJ5IC0+CiAgICAgICAgd2hlbiAoZW50cnkucm91dGVJZCkgewogICAgICAgICAgICAiaG9tZSIgLT4gU2NyZWVuLkFpQ2hhdAogICAgICAgICAgICAic2V0dGluZ3MiIC0+IFNjcmVlbi5BaUNoYXQKICAgICAgICAgICAgInN0YXRzIiAtPiBTY3JlZW4uQWlDaGF0CiAgICAgICAgICAgICJvdGhlciIgLT4gU2NyZWVuLkFpQ2hhdAogICAgICAgICAgICBlbHNlIC0+IG51bGwKICAgICAgICB9CiAgICB9CgogICAgQFRlc3QKICAgIGZ1biByZWFsTmF2aWdhdGlvblN0YWNrX2RyaXZlc1JvdXRlVmlld01vZGVsQ2xlYW51cCgpIHsKICAgICAgICB2YWwgbWFuYWdlciA9IFNjcmVlblJvdXRlVmlld01vZGVsU3RvcmVPd25lck1hbmFnZXIoKQogICAgICAgIHZhbCByb3V0ZXIgPSBBcHBSb3V0ZXJTdGF0ZShSb3V0ZUVudHJ5KHJvdXRlSWQgPSAiaG9tZSIpKQogICAgICAgIC8vIOaooeaLnyBBcHBDb250ZW50IOi9rOWcuuWujOaIkOaXtueahOWQjOatpeiwg+eUqAogICAgICAgIGZ1biBzeW5jQWxpdmUoKSA9IG1hbmFnZXIucmV0YWluT25seShzY3JlZW5LZXlzQWxpdmVPblN0YWNrKHJvdXRlci5iYWNrU3RhY2ssIHJlc29sdmVTY3JlZW4pKQoKICAgICAgICB2YWwgaG9tZUtleSA9IHJvdXRlU2NyZWVuS2V5KHJvdXRlci5jdXJyZW50RW50cnksIHJlc29sdmVTY3JlZW4pISEKICAgICAgICB2YWwgaG9tZVZtID0gdHJhY2thYmxlVk0obWFuYWdlci5vd25lckZvcihob21lS2V5KSkKICAgICAgICBzeW5jQWxpdmUoKQogICAgICAgIGFzc2VydEZhbHNlKGhvbWVWbS5vbkNsZWFyZWRDYWxsZWQpCgogICAgICAgIC8vIOaOqOWFpSBzdGF0c++8iFNldHRpbmdzIOKGkiBUb2tlblVzYWdlU3RhdGlzdGljc++8iQogICAgICAgIHJvdXRlci5uYXZpZ2F0ZShyb3V0ZUlkID0gInN0YXRzIikKICAgICAgICB2YWwgc3RhdHNLZXkgPSByb3V0ZVNjcmVlbktleShyb3V0ZXIuY3VycmVudEVudHJ5LCByZXNvbHZlU2NyZWVuKSEhCiAgICAgICAgdmFsIHN0YXRzVm0gPSB0cmFja2FibGVWTShtYW5hZ2VyLm93bmVyRm9yKHN0YXRzS2V5KSkKICAgICAgICBzeW5jQWxpdmUoKQogICAgICAgIGFzc2VydEZhbHNlKGhvbWVWbS5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXNzZXJ0RmFsc2Uoc3RhdHNWbS5vbkNsZWFyZWRDYWxsZWQpCgogICAgICAgIC8vIHBvcO+8iOi/lOWbnu+8ie+8mnN0YXRzIOemu+W8gOagiCDihpIg5riF55CG77yI56a76aG15p+l6K+i5LiN5YaN5L+d55WZ77yJCiAgICAgICAgcm91dGVyLnBvcCgpCiAgICAgICAgc3luY0FsaXZlKCkKICAgICAgICBhc3NlcnRUcnVlKHN0YXRzVm0ub25DbGVhcmVkQ2FsbGVkKQogICAgICAgIGF3YWl0U2NvcGVDYW5jZWxsZWQoc3RhdHNWbSkKICAgICAgICBhc3NlcnRGYWxzZShob21lVm0ub25DbGVhcmVkQ2FsbGVkKQoKICAgICAgICAvLyDlho3mrKHov5vlhaUgc3RhdHPvvJrmlrDot6/nlLHlrp7kvosg4oaSIOaWsCBzY3JlZW5LZXkg4oaSIOaWsCBvd25lci9WTQogICAgICAgIHJvdXRlci5uYXZpZ2F0ZShyb3V0ZUlkID0gInN0YXRzIikKICAgICAgICB2YWwgc3RhdHNLZXkyID0gcm91dGVTY3JlZW5LZXkocm91dGVyLmN1cnJlbnRFbnRyeSwgcmVzb2x2ZVNjcmVlbikhIQogICAgICAgIGFzc2VydE5vdEVxdWFscyhzdGF0c0tleSwgc3RhdHNLZXkyKQogICAgICAgIHZhbCBzdGF0c1ZtMiA9IHRyYWNrYWJsZVZNKG1hbmFnZXIub3duZXJGb3Ioc3RhdHNLZXkyKSkKICAgICAgICBhc3NlcnROb3RTYW1lKHN0YXRzVm0sIHN0YXRzVm0yKQoKICAgICAgICAvLyByZXNldFRv77yIcmVwbGFjZS9jbGVhciBzdGFja++8jOWmguaKveWxieWvvOiIqu+8ie+8muaXp+agiOWFqOmDqOa4heeQhgogICAgICAgIHJvdXRlci5yZXNldFRvKFJvdXRlRW50cnkocm91dGVJZCA9ICJob21lIikpCiAgICAgICAgc3luY0FsaXZlKCkKICAgICAgICBhc3NlcnRUcnVlKHN0YXRzVm0yLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhd2FpdFNjb3BlQ2FuY2VsbGVkKHN0YXRzVm0yKQogICAgICAgIGFzc2VydFRydWUoaG9tZVZtLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICAvLyDmlrAgaG9tZSDlrp7kvovlrZjmtLsKICAgICAgICB2YWwgbmV3SG9tZUtleSA9IHJvdXRlU2NyZWVuS2V5KHJvdXRlci5jdXJyZW50RW50cnksIHJlc29sdmVTY3JlZW4pISEKICAgICAgICB2YWwgbmV3SG9tZVZtID0gdHJhY2thYmxlVk0obWFuYWdlci5vd25lckZvcihuZXdIb21lS2V5KSkKICAgICAgICBhc3NlcnRGYWxzZShuZXdIb21lVm0ub25DbGVhcmVkQ2FsbGVkKQogICAgfQoKICAgIC8vID09PT0ga2VlcEFsaXZlIOi3r+eUse+8mnN0YWJsZVNjcmVlbktleSDlpI3nlKggPT09PQoKICAgIEBUZXN0CiAgICBmdW4ga2VlcEFsaXZlUm91dGVfdXNlc1N0YWJsZVNjcmVlbktleUFuZFJldXNlc093bmVyKCkgewogICAgICAgIHZhbCBtYW5hZ2VyID0gU2NyZWVuUm91dGVWaWV3TW9kZWxTdG9yZU93bmVyTWFuYWdlcigpCiAgICAgICAgdmFsIHJlc29sdmVLZWVwQWxpdmU6IChSb3V0ZUVudHJ5KSAtPiBTY3JlZW4/ID0gewogICAgICAgICAgICBTY3JlZW4uVG9vbFBrZ0NvbXBvc2VEc2woCiAgICAgICAgICAgICAgICBjb250YWluZXJQYWNrYWdlTmFtZSA9ICJwa2ciLAogICAgICAgICAgICAgICAgdWlNb2R1bGVJZCA9ICJtb2QiLAogICAgICAgICAgICAgICAgdGl0bGUgPSAidCIsCiAgICAgICAgICAgICAgICBrZWVwQWxpdmUgPSB0cnVlLAogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgZW50cnkxID0gUm91dGVFbnRyeShyb3V0ZUlkID0gInRvb2xwa2ciKQogICAgICAgIHZhbCBrZXkxID0gcm91dGVTY3JlZW5LZXkoZW50cnkxLCByZXNvbHZlS2VlcEFsaXZlKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0b29scGtnX2tlZXBhbGl2ZTpwa2c6bW9kIiwga2V5MSkKICAgICAgICB2YWwgdm0gPSB0cmFja2FibGVWTShtYW5hZ2VyLm93bmVyRm9yKGtleTEpKQoKICAgICAgICAvLyDlkIwgcm91dGVJZCDlho3mrKHov5vlhaXvvJpzdGFibGVTY3JlZW5LZXkg55u45ZCMIOKGkiDlpI3nlKjlkIzkuIAgb3duZXIvVk0KICAgICAgICB2YWwgZW50cnkyID0gUm91dGVFbnRyeShyb3V0ZUlkID0gInRvb2xwa2ciKQogICAgICAgIHZhbCBrZXkyID0gcm91dGVTY3JlZW5LZXkoZW50cnkyLCByZXNvbHZlS2VlcEFsaXZlKSEhCiAgICAgICAgYXNzZXJ0RXF1YWxzKGtleTEsIGtleTIpCiAgICAgICAgYXNzZXJ0U2FtZSh2bSwgdHJhY2thYmxlVk0obWFuYWdlci5vd25lckZvcihrZXkyKSkpCiAgICAgICAgYXNzZXJ0RmFsc2Uodm0ub25DbGVhcmVkQ2FsbGVkKQogICAgfQoKICAgIC8vID09PT0gQXBwQ29udGVudCDph43lu7rvvIjphY3nva7lj5jljJYv6LeoIDYwMGRw77yJ77yaYXR0YWNoIOWQjOatpSA9IGFsaXZlICsgY3VycmVudCA9PT09CiAgICAvLyBhdHRhY2gg5ZCM5q2l5Y+q5Zyo6aaW5qyh57uE5ZCI5omn6KGM5LiA5qyh77yITGF1bmNoZWRFZmZlY3QoVW5pdCnvvInvvJpwb3Ag5ZCOIGFsaXZlCiAgICAvLyDnq4vljbPmm7TmlrDvvIzkvYbpgIDlh7rliqjnlLvmnKrlrozmiJDjgIHnprvpobXku43lnKjmuLLmn5PvvIzkuI3lvpfop6blj5EgcmV0YWluT25see+8mwogICAgLy8g5riF55CG5Y+q5Y+R55Sf5Zyo5qih5ouf55qE6L2s5Zy65a6M5oiQ5YiG5pSvIHJldGFpbk9ubHkoYWxpdmVSb3V0ZUtleXMoKSkg5LmL5ZCO44CCCgogICAgQFRlc3QKICAgIGZ1biByZXRhaW5lZFJvdXRlS2V5c09uQ29udGVudEF0dGFjaF91bmlvbnNDdXJyZW50V2l0aEFsaXZlQW5kRGVkdXBsaWNhdGVzKCkgewogICAgICAgIC8vIOW9k+WJjemhteS4jeWcqCBhbGl2ZSDkuK3vvJrlubblhaUgYWxpdmUKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIHNldE9mKCJzdGF0cy1hIiwgIm90aGVyIiwgInN0YXRzLWIiLCAiY3VycmVudCIpLAogICAgICAgICAgICByZXRhaW5lZFJvdXRlS2V5c09uQ29udGVudEF0dGFjaCgKICAgICAgICAgICAgICAgIGN1cnJlbnRTY3JlZW5LZXkgPSAiY3VycmVudCIsCiAgICAgICAgICAgICAgICBhbGl2ZVNjcmVlbktleXMgPSBzZXRPZigic3RhdHMtYSIsICJvdGhlciIsICJzdGF0cy1iIikKICAgICAgICAgICAgKQogICAgICAgICkKICAgICAgICAvLyDlvZPliY3pobXlt7LlnKggYWxpdmUg5Lit77ya5LiN6YeN5aSN77yM57uT5p6c5LiN5Y+YCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBzZXRPZigic3RhdHMtYSIsICJvdGhlciIpLAogICAgICAgICAgICByZXRhaW5lZFJvdXRlS2V5c09uQ29udGVudEF0dGFjaCgKICAgICAgICAgICAgICAgIGN1cnJlbnRTY3JlZW5LZXkgPSAic3RhdHMtYSIsCiAgICAgICAgICAgICAgICBhbGl2ZVNjcmVlbktleXMgPSBzZXRPZigic3RhdHMtYSIsICJvdGhlciIpCiAgICAgICAgICAgICkKICAgICAgICApCiAgICAgICAgLy8gYWxpdmUg5Li656m677yI5qCI6Kej5p6Q5pyq5bCx57uq77yJ5pe25LuN5L+d55WZ5b2T5YmN6aG1CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBzZXRPZigiY3VycmVudCIpLAogICAgICAgICAgICByZXRhaW5lZFJvdXRlS2V5c09uQ29udGVudEF0dGFjaChjdXJyZW50U2NyZWVuS2V5ID0gImN1cnJlbnQiLCBhbGl2ZVNjcmVlbktleXMgPSBlbXB0eVNldCgpKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGFwcENvbnRlbnRSZWNyZWF0aW9uX2F0dGFjaFN5bmNPbmNlX3ByZXNlcnZlc0Z1bGxTdGFja19wb3BDbGVhcnNPbmx5QWZ0ZXJUcmFuc2l0aW9uQ29tcGxldGVkKCkgewogICAgICAgIHZhbCBtYW5hZ2VyID0gU2NyZWVuUm91dGVWaWV3TW9kZWxTdG9yZU93bmVyTWFuYWdlcigpCiAgICAgICAgdmFsIHJvdXRlciA9IEFwcFJvdXRlclN0YXRlKFJvdXRlRW50cnkocm91dGVJZCA9ICJob21lIikpCiAgICAgICAgLy8g5qih5oufIEFwcENvbnRlbnQg6aaW5qyh57uE5ZCI77yIYXR0YWNo77yJ5pe255qE5Y2V5qyh5ZCM5q2l77yaYWxpdmUgKyDlvZPliY3plK4KICAgICAgICAvLyDvvIjlr7nlupQgTGF1bmNoZWRFZmZlY3QoVW5pdCnvvJrlj6rlnKjnu4TlkIjov5vlhaXml7bmiafooYzvvIzkuI3pmo/lr7zoiKrlj5jljJbph43lkK/vvIkKICAgICAgICBmdW4gYXR0YWNoU3luYygpIHsKICAgICAgICAgICAgbWFuYWdlci5yZXRhaW5Pbmx5KAogICAgICAgICAgICAgICAgcmV0YWluZWRSb3V0ZUtleXNPbkNvbnRlbnRBdHRhY2goCiAgICAgICAgICAgICAgICAgICAgY3VycmVudFNjcmVlbktleSA9IHJvdXRlU2NyZWVuS2V5KHJvdXRlci5jdXJyZW50RW50cnksIHJlc29sdmVTY3JlZW4pISEsCiAgICAgICAgICAgICAgICAgICAgYWxpdmVTY3JlZW5LZXlzID0gc2NyZWVuS2V5c0FsaXZlT25TdGFjayhyb3V0ZXIuYmFja1N0YWNrLCByZXNvbHZlU2NyZWVuKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIC8vIOaooeaLnyBBcHBDb250ZW50IOi9rOWcuuWujOaIkOWIhuaUr+eahOa4heeQhu+8mmFsaXZlID0g5a+86Iiq5qCIICsga2VlcEFsaXZlIOe8k+WtmCArCiAgICAgICAgLy8g5b2T5YmN6ZSu77yb5pys5rWL6K+V6Lev55Sx5Z2H6Z2eIGtlZXBBbGl2Ze+8jOe8k+WtmOmDqOWIhuS4uuepugogICAgICAgIGZ1biB0cmFuc2l0aW9uQ2xlYW51cCgpIHsKICAgICAgICAgICAgbWFuYWdlci5yZXRhaW5Pbmx5KAogICAgICAgICAgICAgICAgc2NyZWVuS2V5c0FsaXZlT25TdGFjayhyb3V0ZXIuYmFja1N0YWNrLCByZXNvbHZlU2NyZWVuKSArCiAgICAgICAgICAgICAgICAgICAgcm91dGVTY3JlZW5LZXkocm91dGVyLmN1cnJlbnRFbnRyeSwgcmVzb2x2ZVNjcmVlbikhIQogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICAvLyDkuKTkuKrkuI3lkIwgVG9rZW5TdGF0cyDot6/nlLHlrp7kvovvvIjkuK3pl7TlpLkgb3RoZXLvvInlkIzmoIjvvJoKICAgICAgICAvLyDot6ggNjAwZHAg6YeN5bu65YmN5pen57uE5ZCI5bey6K6/6Zeu6L+HIGJhY2tTdGFjayBbaG9tZSwgc3RhdHNBLCBvdGhlciwgc3RhdHNCXQogICAgICAgIHJvdXRlci5uYXZpZ2F0ZShyb3V0ZUlkID0gInN0YXRzIikKICAgICAgICByb3V0ZXIubmF2aWdhdGUocm91dGVJZCA9ICJvdGhlciIpCiAgICAgICAgcm91dGVyLm5hdmlnYXRlKHJvdXRlSWQgPSAic3RhdHMiKQogICAgICAgIHZhbCBob21lS2V5ID0gcm91dGVTY3JlZW5LZXkocm91dGVyLmJhY2tTdGFja1swXSwgcmVzb2x2ZVNjcmVlbikhIQogICAgICAgIHZhbCBzdGF0c0FLZXkgPSByb3V0ZVNjcmVlbktleShyb3V0ZXIuYmFja1N0YWNrWzFdLCByZXNvbHZlU2NyZWVuKSEhCiAgICAgICAgdmFsIG90aGVyS2V5ID0gcm91dGVTY3JlZW5LZXkocm91dGVyLmJhY2tTdGFja1syXSwgcmVzb2x2ZVNjcmVlbikhIQogICAgICAgIHZhbCBzdGF0c0JLZXkgPSByb3V0ZVNjcmVlbktleShyb3V0ZXIuYmFja1N0YWNrWzNdLCByZXNvbHZlU2NyZWVuKSEhCgogICAgICAgIC8vIOmHjeW7uuWJjeaXp+e7hOWQiOW3suS4uui/meS6m+i3r+eUseWIm+W7uiBvd25lci9WTe+8iG1hbmFnZXIg5pivIEFjdGl2aXR5IOe6p++8jOi3qOmHjeW7uuS/neeVme+8iQogICAgICAgIHZhbCB2bUhvbWUgPSB0cmFja2FibGVWTShtYW5hZ2VyLm93bmVyRm9yKGhvbWVLZXkpKQogICAgICAgIHZhbCB2bVN0YXRzQSA9IHRyYWNrYWJsZVZNKG1hbmFnZXIub3duZXJGb3Ioc3RhdHNBS2V5KSkKICAgICAgICB2YWwgdm1PdGhlciA9IHRyYWNrYWJsZVZNKG1hbmFnZXIub3duZXJGb3Iob3RoZXJLZXkpKQogICAgICAgIHZhbCB2bVN0YXRzQiA9IHRyYWNrYWJsZVZNKG1hbmFnZXIub3duZXJGb3Ioc3RhdHNCS2V5KSkKCiAgICAgICAgLy8g6aaW5qyh57uE5ZCIIGF0dGFjaCDlj6rlkIzmraXkuIDmrKHvvJrkv53nlZkgYWxpdmUgKyDlvZPliY3plK4g4oaSIOWFqOmDqOWtmOa0uwogICAgICAgIC8vIO+8iOWbnuW9ku+8muaXp+mAu+i+keWPquS/neeVmeW9k+WJjemUruS8muivr+a4hSBiYWNrU3RhY2sg5YW25LuWIG9wdC1pbiBvd25lcu+8iQogICAgICAgIGF0dGFjaFN5bmMoKQogICAgICAgIGFzc2VydEZhbHNlKHZtSG9tZS5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXNzZXJ0RmFsc2Uodm1TdGF0c0Eub25DbGVhcmVkQ2FsbGVkKQogICAgICAgIGFzc2VydEZhbHNlKHZtT3RoZXIub25DbGVhcmVkQ2FsbGVkKQogICAgICAgIGFzc2VydEZhbHNlKHZtU3RhdHNCLm9uQ2xlYXJlZENhbGxlZCkKCiAgICAgICAgLy8gcG9wIHN0YXRzQu+8mmFsaXZlIOW3suabtOaWsOS9humAgOWHuuWKqOeUu+acquWujOaIkO+8jOS4jeW+l+iwg+eUqCByZXRhaW5Pbmx5IOKGkgogICAgICAgIC8vIHN0YXRzQiDku43lnKjmuLLmn5PvvIxvd25lci9WTSDlv4XpobvlrZjmtLvvvIhQMSDlm57lvZLvvJphdHRhY2gg6Iul5oyJIGFsaXZlCiAgICAgICAgLy8g5Y+Y5YyW6YeN5ZCv5Lya5Zyo5q2k56uL5Y2z5riF55CGIHN0YXRzQu+8iQogICAgICAgIHJvdXRlci5wb3AoKQogICAgICAgIGFzc2VydEZhbHNlKHZtU3RhdHNCLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhc3NlcnRGYWxzZSh2bVN0YXRzQi5zY29wZUNhbmNlbGxlZCkKICAgICAgICBhc3NlcnRGYWxzZSh2bUhvbWUub25DbGVhcmVkQ2FsbGVkKQogICAgICAgIGFzc2VydEZhbHNlKHZtU3RhdHNBLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhc3NlcnRGYWxzZSh2bU90aGVyLm9uQ2xlYXJlZENhbGxlZCkKCiAgICAgICAgLy8g6LCD55So6L2s5Zy65a6M5oiQ5riF55CG5ZCO77ya5LuFIHN0YXRzQiDmuIXnkIbvvIzlhbbkvZnlrZjmtLsKICAgICAgICB0cmFuc2l0aW9uQ2xlYW51cCgpCiAgICAgICAgYXNzZXJ0VHJ1ZSh2bVN0YXRzQi5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXdhaXRTY29wZUNhbmNlbGxlZCh2bVN0YXRzQikKICAgICAgICBhc3NlcnRGYWxzZSh2bUhvbWUub25DbGVhcmVkQ2FsbGVkKQogICAgICAgIGFzc2VydEZhbHNlKHZtU3RhdHNBLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhc3NlcnRGYWxzZSh2bU90aGVyLm9uQ2xlYXJlZENhbGxlZCkKCiAgICAgICAgLy8gcG9wIG90aGVy77ya6L2s5Zy65a6M5oiQ5YmN5LiN5riF55CG77yM6L2s5Zy65a6M5oiQ5ZCO5omN5riF55CGCiAgICAgICAgcm91dGVyLnBvcCgpCiAgICAgICAgYXNzZXJ0RmFsc2Uodm1PdGhlci5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXNzZXJ0RmFsc2Uodm1PdGhlci5zY29wZUNhbmNlbGxlZCkKICAgICAgICB0cmFuc2l0aW9uQ2xlYW51cCgpCiAgICAgICAgYXNzZXJ0VHJ1ZSh2bU90aGVyLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhd2FpdFNjb3BlQ2FuY2VsbGVkKHZtT3RoZXIpCiAgICAgICAgYXNzZXJ0RmFsc2Uodm1Ib21lLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhc3NlcnRGYWxzZSh2bVN0YXRzQS5vbkNsZWFyZWRDYWxsZWQpCgogICAgICAgIC8vIHBvcCBzdGF0c0HvvJrpgJDmrKHlkIzliY3vvIxob21lIOWni+e7iOWtmOa0uwogICAgICAgIHJvdXRlci5wb3AoKQogICAgICAgIGFzc2VydEZhbHNlKHZtU3RhdHNBLm9uQ2xlYXJlZENhbGxlZCkKICAgICAgICBhc3NlcnRGYWxzZSh2bVN0YXRzQS5zY29wZUNhbmNlbGxlZCkKICAgICAgICB0cmFuc2l0aW9uQ2xlYW51cCgpCiAgICAgICAgYXNzZXJ0VHJ1ZSh2bVN0YXRzQS5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXdhaXRTY29wZUNhbmNlbGxlZCh2bVN0YXRzQSkKICAgICAgICBhc3NlcnRGYWxzZSh2bUhvbWUub25DbGVhcmVkQ2FsbGVkKQogICAgICAgIGFzc2VydEZhbHNlKHZtSG9tZS5zY29wZUNhbmNlbGxlZCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGxheW91dFN3aXRjaF9uZXdBcHBDb250ZW50QXR0YWNoX3VzZXNOZXdBbGl2ZUtleXMoKSB7CiAgICAgICAgdmFsIG1hbmFnZXIgPSBTY3JlZW5Sb3V0ZVZpZXdNb2RlbFN0b3JlT3duZXJNYW5hZ2VyKCkKICAgICAgICB2YWwgcm91dGVyID0gQXBwUm91dGVyU3RhdGUoUm91dGVFbnRyeShyb3V0ZUlkID0gImhvbWUiKSkKICAgICAgICByb3V0ZXIubmF2aWdhdGUocm91dGVJZCA9ICJzdGF0cyIpCiAgICAgICAgdmFsIGhvbWVLZXkgPSByb3V0ZVNjcmVlbktleShyb3V0ZXIuYmFja1N0YWNrWzBdLCByZXNvbHZlU2NyZWVuKSEhCiAgICAgICAgdmFsIHN0YXRzS2V5ID0gcm91dGVTY3JlZW5LZXkocm91dGVyLmJhY2tTdGFja1sxXSwgcmVzb2x2ZVNjcmVlbikhIQogICAgICAgIHZhbCB2bUhvbWUgPSB0cmFja2FibGVWTShtYW5hZ2VyLm93bmVyRm9yKGhvbWVLZXkpKQogICAgICAgIHZhbCB2bVN0YXRzID0gdHJhY2thYmxlVk0obWFuYWdlci5vd25lckZvcihzdGF0c0tleSkpCgogICAgICAgIC8vIOaXp+e7hOWQiO+8iOWmgiBQaG9uZSDluIPlsYDvvIlhdHRhY2jvvJrkv53nlZkgW2hvbWUsIHN0YXRzXSArIOW9k+WJjemUrgogICAgICAgIG1hbmFnZXIucmV0YWluT25seShyZXRhaW5lZFJvdXRlS2V5c09uQ29udGVudEF0dGFjaChzdGF0c0tleSwgc2V0T2YoaG9tZUtleSwgc3RhdHNLZXkpKSkKICAgICAgICBhc3NlcnRGYWxzZSh2bUhvbWUub25DbGVhcmVkQ2FsbGVkKQogICAgICAgIGFzc2VydEZhbHNlKHZtU3RhdHMub25DbGVhcmVkQ2FsbGVkKQoKICAgICAgICAvLyBwb3Agc3RhdHMg5ZCO6L2s5Zy65pyq5a6M5oiQ5pe25Y+R55SfIFBob25lIOKGkiBUYWJsZXQg5YiH5o2i77ya5penIEFwcENvbnRlbnQKICAgICAgICAvLyDplIDmr4HvvIzmlrAgQXBwQ29udGVudCBhdHRhY2gg6YeN5paw5omn6KGM77yITGF1bmNoZWRFZmZlY3QoVW5pdCnvvInlubbkvb/nlKgKICAgICAgICAvLyDmlrDkvKDlhaXnmoQgYWxpdmXvvIhwb3Ag5ZCO55qE5qCIIFtob21lXSArIOW9k+WJjemUru+8ieOAgnN0YXRzIOWcqOaWsOe7hOWQiOS4reS4jeWGjQogICAgICAgIC8vIOa4suafk++8iHNjcmVlbkNhY2hlL2tlZXBBbGl2ZSDnvJPlrZjlt7Lph43nva7vvInvvIxhdHRhY2gg5ZCM5q2l5Y2z5riF55CG5YW2IG93bmVy44CCCiAgICAgICAgcm91dGVyLnBvcCgpCiAgICAgICAgbWFuYWdlci5yZXRhaW5Pbmx5KAogICAgICAgICAgICByZXRhaW5lZFJvdXRlS2V5c09uQ29udGVudEF0dGFjaCgKICAgICAgICAgICAgICAgIGN1cnJlbnRTY3JlZW5LZXkgPSByb3V0ZVNjcmVlbktleShyb3V0ZXIuY3VycmVudEVudHJ5LCByZXNvbHZlU2NyZWVuKSEhLAogICAgICAgICAgICAgICAgYWxpdmVTY3JlZW5LZXlzID0gc2NyZWVuS2V5c0FsaXZlT25TdGFjayhyb3V0ZXIuYmFja1N0YWNrLCByZXNvbHZlU2NyZWVuKQogICAgICAgICAgICApCiAgICAgICAgKQogICAgICAgIGFzc2VydFRydWUodm1TdGF0cy5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXdhaXRTY29wZUNhbmNlbGxlZCh2bVN0YXRzKQogICAgICAgIGFzc2VydEZhbHNlKHZtSG9tZS5vbkNsZWFyZWRDYWxsZWQpCiAgICAgICAgYXNzZXJ0RmFsc2Uodm1Ib21lLnNjb3BlQ2FuY2VsbGVkKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.main.navigation
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModelStoreOwner
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.ui.main.screens.Screen
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.ExperimentalCoroutinesApi
+import kotlinx.coroutines.awaitCancellation
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.test.UnconfinedTestDispatcher
+import kotlinx.coroutines.test.resetMain
+import kotlinx.coroutines.test.setMain
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertNotEquals
+import org.junit.Assert.assertNotSame
+import org.junit.Assert.assertSame
+import org.junit.Assert.assertTrue
+import org.junit.Assert.fail
+import org.junit.Before
+import org.junit.Test
+
+/**
+ * 路由级 ViewModelStore 管理测试（阶段 4 P1，纯 JVM，无仪器）：
+ * - 配置变化不 pop：同一 manager（Activity VM 保留）复用同一 owner/VM；
+ * - pop（路由出栈）：remove 触发 onCleared 与 viewModelScope 取消；
+ * - 两个 screenKey 互不影响；
+ * - replace/clear stack：retainOnly 只保留存活键；
+ * - Activity 销毁：clearAll 全清；
+ * - 真实导航栈（AppRouterState push/pop/resetTo）驱动的 alive 键与清理；
+ * - AppContent 首次组合（attach）只同步一次（LaunchedEffect(Unit)）：pop 后
+ *   转场完成前不得清理仍渲染的离页 owner，只在转场完成分支 retainOnly 后清理。
+ */
+@OptIn(ExperimentalCoroutinesApi::class)
+class ScreenRouteViewModelStoreOwnerManagerTest {
+
+    @Before
+    fun setUp() {
+        // viewModelScope 使用 Main.immediate；Unconfined 保证取消回调同步执行
+        Dispatchers.setMain(UnconfinedTestDispatcher())
+    }
+
+    @After
+    fun tearDown() {
+        Dispatchers.resetMain()
+    }
+
+    /** 记录 onCleared 与 viewModelScope 取消的跟踪 VM（须可被 ViewModelProvider 反射实例化）。 */
+    class TrackableViewModel : ViewModel() {
+        var onClearedCalled = false
+        var scopeCancelled = false
+
+        init {
+            viewModelScope.launch {
+                try {
+                    awaitCancellation()
+                } finally {
+                    scopeCancelled = true
+                }
+            }
+        }
+
+        override fun onCleared() {
+            onClearedCalled = true
+        }
+    }
+
+    private fun trackableVM(owner: ViewModelStoreOwner): TrackableViewModel =
+        ViewModelProvider(owner)[TrackableViewModel::class.java]
+
+    private fun awaitScopeCancelled(vm: TrackableViewModel) {
+        val deadline = System.currentTimeMillis() + 5_000
+        while (!vm.scopeCancelled) {
+            if (System.currentTimeMillis() > deadline) {
+                fail("timed out waiting for viewModelScope cancellation")
+            }
+            Thread.sleep(10)
+        }
+    }
+
+    // ==== 配置变化：不 pop 复用同 owner/VM ====
+
+    @Test
+    fun configurationChange_withoutPop_reusesSameOwnerAndViewModel() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+
+        val ownerFirst = manager.ownerFor("stats-key")
+        val vmFirst = trackableVM(ownerFirst)
+
+        // 模拟配置变化：同一 manager 实例（Activity VM 保留），同 screenKey → 同 owner
+        val ownerSecond = manager.ownerFor("stats-key")
+        assertSame(ownerFirst, ownerSecond)
+        // 同 owner → 同 store → 同 VM 实例
+        assertSame(vmFirst, trackableVM(ownerSecond))
+
+        assertFalse(vmFirst.onClearedCalled)
+        assertFalse(vmFirst.scopeCancelled)
+    }
+
+    // ==== pop：remove → onCleared + viewModelScope 取消 ====
+
+    @Test
+    fun pop_removeOwner_clearsViewModelAndCancelsScope() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+        val owner = manager.ownerFor("stats-key")
+        val vm = trackableVM(owner)
+
+        manager.remove("stats-key")
+
+        assertTrue(vm.onClearedCalled)
+        awaitScopeCancelled(vm)
+
+        // 再次进入同路由：新 owner + 新 VM（旧 store 已清理）
+        val newOwner = manager.ownerFor("stats-key")
+        assertNotSame(owner, newOwner)
+        assertNotSame(vm, trackableVM(newOwner))
+    }
+
+    @Test
+    fun remove_unknownKey_isNoOp() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+        val vm = trackableVM(manager.ownerFor("stats-key"))
+
+        manager.remove("no-such-key")
+
+        assertFalse(vm.onClearedCalled)
+        assertFalse(vm.scopeCancelled)
+    }
+
+    // ==== 两个 screenKey 互不影响 ====
+
+    @Test
+    fun twoKeys_areIndependent() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+        val vmStats = trackableVM(manager.ownerFor("stats-key"))
+        val vmOther = trackableVM(manager.ownerFor("other-key"))
+
+        manager.remove("stats-key")
+
+        assertTrue(vmStats.onClearedCalled)
+        awaitScopeCancelled(vmStats)
+        assertFalse(vmOther.onClearedCalled)
+        assertFalse(vmOther.scopeCancelled)
+    }
+
+    // ==== replace / clear stack：retainOnly ====
+
+    @Test
+    fun retainOnly_removesNonAliveKeys_keepsAliveKeys() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+        val vmStats = trackableVM(manager.ownerFor("stats-key"))
+        val vmHome = trackableVM(manager.ownerFor("home-key"))
+
+        // 抽屉导航 resetTo：栈只剩 home
+        manager.retainOnly(setOf("home-key"))
+
+        assertTrue(vmStats.onClearedCalled)
+        awaitScopeCancelled(vmStats)
+        assertFalse(vmHome.onClearedCalled)
+        assertFalse(vmHome.scopeCancelled)
+    }
+
+    // ==== Activity 销毁：clearAll 全清 ====
+
+    @Test
+    fun clearAll_clearsEveryOwner() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+        val vmA = trackableVM(manager.ownerFor("key-a"))
+        val vmB = trackableVM(manager.ownerFor("key-b"))
+
+        manager.clearAll()
+
+        assertTrue(vmA.onClearedCalled)
+        assertTrue(vmB.onClearedCalled)
+        awaitScopeCancelled(vmA)
+        awaitScopeCancelled(vmB)
+
+        // 全清后同键再进：新 owner（旧实例不再复用）
+        assertNotSame(vmA, trackableVM(manager.ownerFor("key-a")))
+    }
+
+    // ==== 真实导航栈驱动（AppRouterState push/pop/resetTo）====
+
+    private val resolveScreen: (RouteEntry) -> Screen? = { entry ->
+        when (entry.routeId) {
+            "home" -> Screen.AiChat
+            "settings" -> Screen.AiChat
+            "stats" -> Screen.AiChat
+            "other" -> Screen.AiChat
+            else -> null
+        }
+    }
+
+    @Test
+    fun realNavigationStack_drivesRouteViewModelCleanup() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+        val router = AppRouterState(RouteEntry(routeId = "home"))
+        // 模拟 AppContent 转场完成时的同步调用
+        fun syncAlive() = manager.retainOnly(screenKeysAliveOnStack(router.backStack, resolveScreen))
+
+        val homeKey = routeScreenKey(router.currentEntry, resolveScreen)!!
+        val homeVm = trackableVM(manager.ownerFor(homeKey))
+        syncAlive()
+        assertFalse(homeVm.onClearedCalled)
+
+        // 推入 stats（Settings → TokenUsageStatistics）
+        router.navigate(routeId = "stats")
+        val statsKey = routeScreenKey(router.currentEntry, resolveScreen)!!
+        val statsVm = trackableVM(manager.ownerFor(statsKey))
+        syncAlive()
+        assertFalse(homeVm.onClearedCalled)
+        assertFalse(statsVm.onClearedCalled)
+
+        // pop（返回）：stats 离开栈 → 清理（离页查询不再保留）
+        router.pop()
+        syncAlive()
+        assertTrue(statsVm.onClearedCalled)
+        awaitScopeCancelled(statsVm)
+        assertFalse(homeVm.onClearedCalled)
+
+        // 再次进入 stats：新路由实例 → 新 screenKey → 新 owner/VM
+        router.navigate(routeId = "stats")
+        val statsKey2 = routeScreenKey(router.currentEntry, resolveScreen)!!
+        assertNotEquals(statsKey, statsKey2)
+        val statsVm2 = trackableVM(manager.ownerFor(statsKey2))
+        assertNotSame(statsVm, statsVm2)
+
+        // resetTo（replace/clear stack，如抽屉导航）：旧栈全部清理
+        router.resetTo(RouteEntry(routeId = "home"))
+        syncAlive()
+        assertTrue(statsVm2.onClearedCalled)
+        awaitScopeCancelled(statsVm2)
+        assertTrue(homeVm.onClearedCalled)
+        // 新 home 实例存活
+        val newHomeKey = routeScreenKey(router.currentEntry, resolveScreen)!!
+        val newHomeVm = trackableVM(manager.ownerFor(newHomeKey))
+        assertFalse(newHomeVm.onClearedCalled)
+    }
+
+    // ==== keepAlive 路由：stableScreenKey 复用 ====
+
+    @Test
+    fun keepAliveRoute_usesStableScreenKeyAndReusesOwner() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+        val resolveKeepAlive: (RouteEntry) -> Screen? = {
+            Screen.ToolPkgComposeDsl(
+                containerPackageName = "pkg",
+                uiModuleId = "mod",
+                title = "t",
+                keepAlive = true,
+            )
+        }
+
+        val entry1 = RouteEntry(routeId = "toolpkg")
+        val key1 = routeScreenKey(entry1, resolveKeepAlive)!!
+        assertEquals("toolpkg_keepalive:pkg:mod", key1)
+        val vm = trackableVM(manager.ownerFor(key1))
+
+        // 同 routeId 再次进入：stableScreenKey 相同 → 复用同一 owner/VM
+        val entry2 = RouteEntry(routeId = "toolpkg")
+        val key2 = routeScreenKey(entry2, resolveKeepAlive)!!
+        assertEquals(key1, key2)
+        assertSame(vm, trackableVM(manager.ownerFor(key2)))
+        assertFalse(vm.onClearedCalled)
+    }
+
+    // ==== AppContent 重建（配置变化/跨 600dp）：attach 同步 = alive + current ====
+    // attach 同步只在首次组合执行一次（LaunchedEffect(Unit)）：pop 后 alive
+    // 立即更新，但退出动画未完成、离页仍在渲染，不得触发 retainOnly；
+    // 清理只发生在模拟的转场完成分支 retainOnly(aliveRouteKeys()) 之后。
+
+    @Test
+    fun retainedRouteKeysOnContentAttach_unionsCurrentWithAliveAndDeduplicates() {
+        // 当前页不在 alive 中：并入 alive
+        assertEquals(
+            setOf("stats-a", "other", "stats-b", "current"),
+            retainedRouteKeysOnContentAttach(
+                currentScreenKey = "current",
+                aliveScreenKeys = setOf("stats-a", "other", "stats-b")
+            )
+        )
+        // 当前页已在 alive 中：不重复，结果不变
+        assertEquals(
+            setOf("stats-a", "other"),
+            retainedRouteKeysOnContentAttach(
+                currentScreenKey = "stats-a",
+                aliveScreenKeys = setOf("stats-a", "other")
+            )
+        )
+        // alive 为空（栈解析未就绪）时仍保留当前页
+        assertEquals(
+            setOf("current"),
+            retainedRouteKeysOnContentAttach(currentScreenKey = "current", aliveScreenKeys = emptySet())
+        )
+    }
+
+    @Test
+    fun appContentRecreation_attachSyncOnce_preservesFullStack_popClearsOnlyAfterTransitionCompleted() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+        val router = AppRouterState(RouteEntry(routeId = "home"))
+        // 模拟 AppContent 首次组合（attach）时的单次同步：alive + 当前键
+        // （对应 LaunchedEffect(Unit)：只在组合进入时执行，不随导航变化重启）
+        fun attachSync() {
+            manager.retainOnly(
+                retainedRouteKeysOnContentAttach(
+                    currentScreenKey = routeScreenKey(router.currentEntry, resolveScreen)!!,
+                    aliveScreenKeys = screenKeysAliveOnStack(router.backStack, resolveScreen)
+                )
+            )
+        }
+        // 模拟 AppContent 转场完成分支的清理：alive = 导航栈 + keepAlive 缓存 +
+        // 当前键；本测试路由均非 keepAlive，缓存部分为空
+        fun transitionCleanup() {
+            manager.retainOnly(
+                screenKeysAliveOnStack(router.backStack, resolveScreen) +
+                    routeScreenKey(router.currentEntry, resolveScreen)!!
+            )
+        }
+
+        // 两个不同 TokenStats 路由实例（中间夹 other）同栈：
+        // 跨 600dp 重建前旧组合已访问过 backStack [home, statsA, other, statsB]
+        router.navigate(routeId = "stats")
+        router.navigate(routeId = "other")
+        router.navigate(routeId = "stats")
+        val homeKey = routeScreenKey(router.backStack[0], resolveScreen)!!
+        val statsAKey = routeScreenKey(router.backStack[1], resolveScreen)!!
+        val otherKey = routeScreenKey(router.backStack[2], resolveScreen)!!
+        val statsBKey = routeScreenKey(router.backStack[3], resolveScreen)!!
+
+        // 重建前旧组合已为这些路由创建 owner/VM（manager 是 Activity 级，跨重建保留）
+        val vmHome = trackableVM(manager.ownerFor(homeKey))
+        val vmStatsA = trackableVM(manager.ownerFor(statsAKey))
+        val vmOther = trackableVM(manager.ownerFor(otherKey))
+        val vmStatsB = trackableVM(manager.ownerFor(statsBKey))
+
+        // 首次组合 attach 只同步一次：保留 alive + 当前键 → 全部存活
+        // （回归：旧逻辑只保留当前键会误清 backStack 其他 opt-in owner）
+        attachSync()
+        assertFalse(vmHome.onClearedCalled)
+        assertFalse(vmStatsA.onClearedCalled)
+        assertFalse(vmOther.onClearedCalled)
+        assertFalse(vmStatsB.onClearedCalled)
+
+        // pop statsB：alive 已更新但退出动画未完成，不得调用 retainOnly →
+        // statsB 仍在渲染，owner/VM 必须存活（P1 回归：attach 若按 alive
+        // 变化重启会在此立即清理 statsB）
+        router.pop()
+        assertFalse(vmStatsB.onClearedCalled)
+        assertFalse(vmStatsB.scopeCancelled)
+        assertFalse(vmHome.onClearedCalled)
+        assertFalse(vmStatsA.onClearedCalled)
+        assertFalse(vmOther.onClearedCalled)
+
+        // 调用转场完成清理后：仅 statsB 清理，其余存活
+        transitionCleanup()
+        assertTrue(vmStatsB.onClearedCalled)
+        awaitScopeCancelled(vmStatsB)
+        assertFalse(vmHome.onClearedCalled)
+        assertFalse(vmStatsA.onClearedCalled)
+        assertFalse(vmOther.onClearedCalled)
+
+        // pop other：转场完成前不清理，转场完成后才清理
+        router.pop()
+        assertFalse(vmOther.onClearedCalled)
+        assertFalse(vmOther.scopeCancelled)
+        transitionCleanup()
+        assertTrue(vmOther.onClearedCalled)
+        awaitScopeCancelled(vmOther)
+        assertFalse(vmHome.onClearedCalled)
+        assertFalse(vmStatsA.onClearedCalled)
+
+        // pop statsA：逐次同前，home 始终存活
+        router.pop()
+        assertFalse(vmStatsA.onClearedCalled)
+        assertFalse(vmStatsA.scopeCancelled)
+        transitionCleanup()
+        assertTrue(vmStatsA.onClearedCalled)
+        awaitScopeCancelled(vmStatsA)
+        assertFalse(vmHome.onClearedCalled)
+        assertFalse(vmHome.scopeCancelled)
+    }
+
+    @Test
+    fun layoutSwitch_newAppContentAttach_usesNewAliveKeys() {
+        val manager = ScreenRouteViewModelStoreOwnerManager()
+        val router = AppRouterState(RouteEntry(routeId = "home"))
+        router.navigate(routeId = "stats")
+        val homeKey = routeScreenKey(router.backStack[0], resolveScreen)!!
+        val statsKey = routeScreenKey(router.backStack[1], resolveScreen)!!
+        val vmHome = trackableVM(manager.ownerFor(homeKey))
+        val vmStats = trackableVM(manager.ownerFor(statsKey))
+
+        // 旧组合（如 Phone 布局）attach：保留 [home, stats] + 当前键
+        manager.retainOnly(retainedRouteKeysOnContentAttach(statsKey, setOf(homeKey, statsKey)))
+        assertFalse(vmHome.onClearedCalled)
+        assertFalse(vmStats.onClearedCalled)
+
+        // pop stats 后转场未完成时发生 Phone → Tablet 切换：旧 AppContent
+        // 销毁，新 AppContent attach 重新执行（LaunchedEffect(Unit)）并使用
+        // 新传入的 alive（pop 后的栈 [home] + 当前键）。stats 在新组合中不再
+        // 渲染（screenCache/keepAlive 缓存已重置），attach 同步即清理其 owner。
+        router.pop()
+        manager.retainOnly(
+            retainedRouteKeysOnContentAttach(
+                currentScreenKey = routeScreenKey(router.currentEntry, resolveScreen)!!,
+                aliveScreenKeys = screenKeysAliveOnStack(router.backStack, resolveScreen)
+            )
+        )
+        assertTrue(vmStats.onClearedCalled)
+        awaitScopeCancelled(vmStats)
+        assertFalse(vmHome.onClearedCalled)
+        assertFalse(vmHome.scopeCancelled)
+    }
+}

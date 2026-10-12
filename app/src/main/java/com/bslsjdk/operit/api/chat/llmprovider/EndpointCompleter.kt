@@ -1,1 +1,130 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5BcGlQcm92aWRlclR5cGUKaW1wb3J0IGphdmEubmV0LlVSTAoKLyoqCiAqIOeUqOS6juiHquWKqOihpeWFqEFQSeerr+eCuVVSTOeahOW3peWFt+exu+OAggogKi8Kb2JqZWN0IEVuZHBvaW50Q29tcGxldGVyIHsKCiAgICAvKioKICAgICAqIOS4uuexu+S8vE9wZW5BSeeahOacjeWKoeiHquWKqOihpeWFqEFQSeerr+eCuVVSTOOAggogICAgICogLSDlpoLmnpznq6/ngrnmmK/kuIDkuKrln7rnoYBVUkzvvIjkvovlpoIgaHR0cHM6Ly9hcGkuZXhhbXBsZS5jb23vvInvvIzlroPkvJroh6rliqjpmYTliqDpgJrnlKjnmoTot6/lvoQgYC92MS9jaGF0L2NvbXBsZXRpb25zYOOAggogICAgICogLSDlpoLmnpznq6/ngrnot6/lvoTku6UgYC92MWAg57uT5bC+77yI5L6L5aaCIGh0dHBzOi8vbXktcHJveHkvY3VzdG9tL3Yx77yJ77yM5YiZ5Lya6Ieq5Yqo6ZmE5YqgIGAvY2hhdC9jb21wbGV0aW9uc2DjgIIKICAgICAqIOeUqOaIt+WPr+S7peWcqFVSTOacq+Wwvua3u+WKoCAnIycg5p2l56aB55So5q2k5Yqf6IO944CCCiAgICAgKgogICAgICogQHBhcmFtIGVuZHBvaW50IOeUqOaIt+aPkOS+m+eahOerr+eCuVVSTOOAggogICAgICogQHJldHVybiDooaXlhajlkI7nmoTmiJbljp/lp4vnmoTnq6/ngrlVUkzjgIIKICAgICAqLwogICAgZnVuIGNvbXBsZXRlRW5kcG9pbnQoZW5kcG9pbnQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHRyaW1tZWRFbmRwb2ludCA9IGVuZHBvaW50LnRyaW0oKQogICAgICAgIGlmICh0cmltbWVkRW5kcG9pbnQuZW5kc1dpdGgoIiMiKSkgewogICAgICAgICAgICByZXR1cm4gdHJpbW1lZEVuZHBvaW50LnJlbW92ZVN1ZmZpeCgiIyIpCiAgICAgICAgfQoKICAgICAgICB2YWwgZW5kcG9pbnRXaXRob3V0U2xhc2ggPSB0cmltbWVkRW5kcG9pbnQucmVtb3ZlU3VmZml4KCIvIikKCiAgICAgICAgLy8g5bCd6K+V6Kej5p6QVVJM5bm25Yik5pat5a6D5piv5ZCm5Li65LiA5Liq6ZyA6KaB6KGl5YWo55qEVVJMCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5L2/55So5YyF5ZCr5bC+6YOo5pac5p2g55qE56uv54K56L+b6KGM6Kej5p6Q77yM5Lul5q2j56Gu6K+G5Yir6Lev5b6ECiAgICAgICAgICAgIHZhbCB1cmwgPSBVUkwodHJpbW1lZEVuZHBvaW50KQogICAgICAgICAgICB2YWwgcGF0aCA9IHVybC5wYXRoLnJlbW92ZVN1ZmZpeCgiLyIpCgogICAgICAgICAgICAvLyAxLiDlpoLmnpzot6/lvoTkuLrnqbogKGUuZy4sIGh0dHBzOi8vYXBpLmV4YW1wbGUuY29tKe+8jOWImeihpeWFqOS4uuagh+WHhui3r+W+hAogICAgICAgICAgICBpZiAocGF0aC5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgICAgIHJldHVybiAiJGVuZHBvaW50V2l0aG91dFNsYXNoL3YxL2NoYXQvY29tcGxldGlvbnMiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIC8vIDIuIOWmguaenOi3r+W+hOS7pSAvdjEg57uT5bC+IChlLmcuLCBodHRwczovL2FwaS5leGFtcGxlLmNvbS9jdXN0b20vdjEp77yM5YiZ5LuF6KGl5YWo5ZCO57ut6YOo5YiGCiAgICAgICAgICAgIGlmIChwYXRoLmVuZHNXaXRoKCIvdjEiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHsKICAgICAgICAgICAgICAgIHJldHVybiAiJGVuZHBvaW50V2l0aG91dFNsYXNoL2NoYXQvY29tcGxldGlvbnMiCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgLy8g5aaC5p6c5LiN5piv5LiA5Liq5pyJ5pWI55qEVVJM77yM5YiZ5LiN6L+b6KGM5Lu75L2V5pON5L2cCiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOWmguaenOS4jeespuWQiOihpeWFqOeJueW+ge+8jOWImei/lOWbnuWOn+Wni+i+k+WFpQogICAgICAgIHJldHVybiBlbmRwb2ludAogICAgfQoKICAgIHByaXZhdGUgZnVuIGNvbXBsZXRlUmVzcG9uc2VzRW5kcG9pbnQoZW5kcG9pbnQ6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIHRyaW1tZWRFbmRwb2ludCA9IGVuZHBvaW50LnRyaW0oKQogICAgICAgIGlmICh0cmltbWVkRW5kcG9pbnQuZW5kc1dpdGgoIiMiKSkgewogICAgICAgICAgICByZXR1cm4gdHJpbW1lZEVuZHBvaW50LnJlbW92ZVN1ZmZpeCgiIyIpCiAgICAgICAgfQoKICAgICAgICB2YWwgZW5kcG9pbnRXaXRob3V0U2xhc2ggPSB0cmltbWVkRW5kcG9pbnQucmVtb3ZlU3VmZml4KCIvIikKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIHVybCA9IFVSTCh0cmltbWVkRW5kcG9pbnQpCiAgICAgICAgICAgIHZhbCBwYXRoID0gdXJsLnBhdGgucmVtb3ZlU3VmZml4KCIvIikKCiAgICAgICAgICAgIGlmIChwYXRoLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuICIkZW5kcG9pbnRXaXRob3V0U2xhc2gvdjEvcmVzcG9uc2VzIgogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAocGF0aC5lbmRzV2l0aCgiL3YxIiwgaWdub3JlQ2FzZSA9IHRydWUpKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gIiRlbmRwb2ludFdpdGhvdXRTbGFzaC9yZXNwb25zZXMiCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICB9CgogICAgICAgIHJldHVybiBlbmRwb2ludAogICAgfQoKICAgIGZ1biBjb21wbGV0ZUVuZHBvaW50KGVuZHBvaW50OiBTdHJpbmcsIHByb3ZpZGVyVHlwZTogQXBpUHJvdmlkZXJUeXBlKTogU3RyaW5nIHsKICAgICAgICB2YWwgdHJpbW1lZEVuZHBvaW50ID0gZW5kcG9pbnQudHJpbSgpCiAgICAgICAgaWYgKHRyaW1tZWRFbmRwb2ludC5lbmRzV2l0aCgiIyIpKSB7CiAgICAgICAgICAgIHJldHVybiB0cmltbWVkRW5kcG9pbnQucmVtb3ZlU3VmZml4KCIjIikKICAgICAgICB9CgogICAgICAgIHZhbCBlbmRwb2ludFdpdGhvdXRTbGFzaCA9IHRyaW1tZWRFbmRwb2ludC5yZW1vdmVTdWZmaXgoIi8iKQoKICAgICAgICB3aGVuIChwcm92aWRlclR5cGUpIHsKICAgICAgICAgICAgQXBpUHJvdmlkZXJUeXBlLk9QRU5BSV9SRVNQT05TRVMsCiAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfUkVTUE9OU0VTX0dFTkVSSUMgLT4gewogICAgICAgICAgICAgICAgcmV0dXJuIGNvbXBsZXRlUmVzcG9uc2VzRW5kcG9pbnQoZW5kcG9pbnQpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQUlfQ09ERVggLT4gewogICAgICAgICAgICAgICAgcmV0dXJuIGVuZHBvaW50CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5BTlRIUk9QSUMsCiAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5BTlRIUk9QSUNfR0VORVJJQyAtPiB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHZhbCB1cmwgPSBVUkwodHJpbW1lZEVuZHBvaW50KQogICAgICAgICAgICAgICAgICAgIHZhbCBwYXRoID0gdXJsLnBhdGgucmVtb3ZlU3VmZml4KCIvIikKCiAgICAgICAgICAgICAgICAgICAgaWYgKHBhdGguaXNFbXB0eSgpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAiJGVuZHBvaW50V2l0aG91dFNsYXNoL3YxL21lc3NhZ2VzIgogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaWYgKHBhdGguZW5kc1dpdGgoIi9hbnRocm9waWMiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICIkZW5kcG9pbnRXaXRob3V0U2xhc2gvdjEvbWVzc2FnZXMiCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBpZiAocGF0aC5lbmRzV2l0aCgiL3YxIiwgaWdub3JlQ2FzZSA9IHRydWUpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiAiJGVuZHBvaW50V2l0aG91dFNsYXNoL21lc3NhZ2VzIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOS4jeaYr+S4gOS4quacieaViOeahFVSTO+8jOWImeS4jei/m+ihjOS7u+S9leaTjeS9nAogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIHJldHVybiBlbmRwb2ludAogICAgICAgICAgICB9CgogICAgICAgICAgICBBcGlQcm92aWRlclR5cGUuR09PR0xFLAogICAgICAgICAgICBBcGlQcm92aWRlclR5cGUuR0VNSU5JX0dFTkVSSUMsCiAgICAgICAgICAgIEFwaVByb3ZpZGVyVHlwZS5PUEVOQ09ERSwKICAgICAgICAgICAgQXBpUHJvdmlkZXJUeXBlLk1OTiAtPiB7CiAgICAgICAgICAgICAgICByZXR1cm4gZW5kcG9pbnQKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZWxzZSAtPiB7CiAgICAgICAgICAgICAgICByZXR1cm4gY29tcGxldGVFbmRwb2ludChlbmRwb2ludCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.model.ApiProviderType
+import java.net.URL
+
+/**
+ * 用于自动补全API端点URL的工具类。
+ */
+object EndpointCompleter {
+
+    /**
+     * 为类似OpenAI的服务自动补全API端点URL。
+     * - 如果端点是一个基础URL（例如 https://api.example.com），它会自动附加通用的路径 `/v1/chat/completions`。
+     * - 如果端点路径以 `/v1` 结尾（例如 https://my-proxy/custom/v1），则会自动附加 `/chat/completions`。
+     * 用户可以在URL末尾添加 '#' 来禁用此功能。
+     *
+     * @param endpoint 用户提供的端点URL。
+     * @return 补全后的或原始的端点URL。
+     */
+    fun completeEndpoint(endpoint: String): String {
+        val trimmedEndpoint = endpoint.trim()
+        if (trimmedEndpoint.endsWith("#")) {
+            return trimmedEndpoint.removeSuffix("#")
+        }
+
+        val endpointWithoutSlash = trimmedEndpoint.removeSuffix("/")
+
+        // 尝试解析URL并判断它是否为一个需要补全的URL
+        try {
+            // 使用包含尾部斜杠的端点进行解析，以正确识别路径
+            val url = URL(trimmedEndpoint)
+            val path = url.path.removeSuffix("/")
+
+            // 1. 如果路径为空 (e.g., https://api.example.com)，则补全为标准路径
+            if (path.isNullOrEmpty()) {
+                return "$endpointWithoutSlash/v1/chat/completions"
+            }
+
+            // 2. 如果路径以 /v1 结尾 (e.g., https://api.example.com/custom/v1)，则仅补全后续部分
+            if (path.endsWith("/v1", ignoreCase = true)) {
+                return "$endpointWithoutSlash/chat/completions"
+            }
+        } catch (e: Exception) {
+            // 如果不是一个有效的URL，则不进行任何操作
+        }
+        
+        // 如果不符合补全特征，则返回原始输入
+        return endpoint
+    }
+
+    private fun completeResponsesEndpoint(endpoint: String): String {
+        val trimmedEndpoint = endpoint.trim()
+        if (trimmedEndpoint.endsWith("#")) {
+            return trimmedEndpoint.removeSuffix("#")
+        }
+
+        val endpointWithoutSlash = trimmedEndpoint.removeSuffix("/")
+
+        try {
+            val url = URL(trimmedEndpoint)
+            val path = url.path.removeSuffix("/")
+
+            if (path.isEmpty()) {
+                return "$endpointWithoutSlash/v1/responses"
+            }
+
+            if (path.endsWith("/v1", ignoreCase = true)) {
+                return "$endpointWithoutSlash/responses"
+            }
+        } catch (_: Exception) {
+        }
+
+        return endpoint
+    }
+
+    fun completeEndpoint(endpoint: String, providerType: ApiProviderType): String {
+        val trimmedEndpoint = endpoint.trim()
+        if (trimmedEndpoint.endsWith("#")) {
+            return trimmedEndpoint.removeSuffix("#")
+        }
+
+        val endpointWithoutSlash = trimmedEndpoint.removeSuffix("/")
+
+        when (providerType) {
+            ApiProviderType.OPENAI_RESPONSES,
+            ApiProviderType.OPENAI_RESPONSES_GENERIC -> {
+                return completeResponsesEndpoint(endpoint)
+            }
+
+            ApiProviderType.OPENAI_CODEX -> {
+                return endpoint
+            }
+
+            ApiProviderType.ANTHROPIC,
+            ApiProviderType.ANTHROPIC_GENERIC -> {
+                try {
+                    val url = URL(trimmedEndpoint)
+                    val path = url.path.removeSuffix("/")
+
+                    if (path.isEmpty()) {
+                        return "$endpointWithoutSlash/v1/messages"
+                    }
+
+                    if (path.endsWith("/anthropic", ignoreCase = true)) {
+                        return "$endpointWithoutSlash/v1/messages"
+                    }
+
+                    if (path.endsWith("/v1", ignoreCase = true)) {
+                        return "$endpointWithoutSlash/messages"
+                    }
+                } catch (e: Exception) {
+                    // 如果不是一个有效的URL，则不进行任何操作
+                }
+
+                return endpoint
+            }
+
+            ApiProviderType.GOOGLE,
+            ApiProviderType.GEMINI_GENERIC,
+            ApiProviderType.OPENCODE,
+            ApiProviderType.MNN -> {
+                return endpoint
+            }
+
+            else -> {
+                return completeEndpoint(endpoint)
+            }
+        }
+    }
+}

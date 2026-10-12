@@ -1,1 +1,42 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCi8qKgogKiBBUEkgS2V56K+m57uG5L+h5oGvCiAqIEBwcm9wZXJ0eSBpZCDllK/kuIDmoIfor4bnrKYKICogQHByb3BlcnR5IGtleSBBUEnlr4bpkqUKICogQHByb3BlcnR5IG5hbWUg55So5oi36Ieq5a6a5LmJ5ZCN56ewCiAqIEBwcm9wZXJ0eSBpc0VuYWJsZWQg5piv5ZCm5ZCv55SoCiAqIEBwcm9wZXJ0eSB1c2FnZUNvdW50IOS9v+eUqOasoeaVsOe7n+iuoQogKiBAcHJvcGVydHkgbGFzdFVzZWQg5pyA5ZCO5L2/55So5pe26Ze05oizCiAqIEBwcm9wZXJ0eSBlcnJvckNvdW50IOi/nue7remUmeivr+asoeaVsAogKi8KQFNlcmlhbGl6YWJsZQplbnVtIGNsYXNzIEFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cyB7CiAgICBVTlRFU1RFRCwKICAgIEFWQUlMQUJMRSwKICAgIFVOQVZBSUxBQkxFCn0KCi8qKgogKiBBUEkgS2V56K+m57uG5L+h5oGvCiAqIEBwcm9wZXJ0eSBpZCDllK/kuIDmoIfor4bnrKYKICogQHByb3BlcnR5IGtleSBBUEnlr4bpkqUKICogQHByb3BlcnR5IG5hbWUg55So5oi36Ieq5a6a5LmJ5ZCN56ewCiAqIEBwcm9wZXJ0eSBpc0VuYWJsZWQg5piv5ZCm5ZCv55SoCiAqIEBwcm9wZXJ0eSB1c2FnZUNvdW50IOS9v+eUqOasoeaVsOe7n+iuoQogKiBAcHJvcGVydHkgbGFzdFVzZWQg5pyA5ZCO5L2/55So5pe26Ze05oizCiAqIEBwcm9wZXJ0eSBlcnJvckNvdW50IOi/nue7remUmeivr+asoeaVsAogKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEFwaUtleUluZm8oCiAgICB2YWwgaWQ6IFN0cmluZywKICAgIHZhbCBrZXk6IFN0cmluZywKICAgIHZhbCBuYW1lOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBpc0VuYWJsZWQ6IEJvb2xlYW4gPSB0cnVlLAogICAgdmFsIGF2YWlsYWJpbGl0eVN0YXR1czogQXBpS2V5QXZhaWxhYmlsaXR5U3RhdHVzID0gQXBpS2V5QXZhaWxhYmlsaXR5U3RhdHVzLlVOVEVTVEVELAogICAgdmFsIHVzYWdlQ291bnQ6IExvbmcgPSAwLAogICAgdmFsIGxhc3RVc2VkOiBMb25nID0gMCwKICAgIHZhbCBlcnJvckNvdW50OiBMb25nID0gMAop
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+
+/**
+ * API Key详细信息
+ * @property id 唯一标识符
+ * @property key API密钥
+ * @property name 用户自定义名称
+ * @property isEnabled 是否启用
+ * @property usageCount 使用次数统计
+ * @property lastUsed 最后使用时间戳
+ * @property errorCount 连续错误次数
+ */
+@Serializable
+enum class ApiKeyAvailabilityStatus {
+    UNTESTED,
+    AVAILABLE,
+    UNAVAILABLE
+}
+
+/**
+ * API Key详细信息
+ * @property id 唯一标识符
+ * @property key API密钥
+ * @property name 用户自定义名称
+ * @property isEnabled 是否启用
+ * @property usageCount 使用次数统计
+ * @property lastUsed 最后使用时间戳
+ * @property errorCount 连续错误次数
+ */
+@Serializable
+data class ApiKeyInfo(
+    val id: String,
+    val key: String,
+    val name: String = "",
+    val isEnabled: Boolean = true,
+    val availabilityStatus: ApiKeyAvailabilityStatus = ApiKeyAvailabilityStatus.UNTESTED,
+    val usageCount: Long = 0,
+    val lastUsed: Long = 0,
+    val errorCount: Long = 0
+)

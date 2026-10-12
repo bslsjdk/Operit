@@ -1,1 +1,78 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cy5Nb2RlbFRoaW5raW5nQ29uZmlnRGVmYXVsdHMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaVByb3ZpZGVyVHlwZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBPcGVuQ29kZVRoaW5raW5nQ29uZmlndXJhdGlvblRlc3QgewogICAgcHJpdmF0ZSBmdW4gbWFwcGluZyhtb2RlbE5hbWU6IFN0cmluZyk6IFRoaW5raW5nUXVhbGl0eU1hcHBpbmcgPQogICAgICAgIFRoaW5raW5nUXVhbGl0eU1hcHBpbmdSZWdpc3RyeS5yZXNvbHZlKAogICAgICAgICAgICBwcm92aWRlclR5cGVJZCA9IEFwaVByb3ZpZGVyVHlwZS5PUEVOQ09ERS5uYW1lLAogICAgICAgICAgICBtb2RlbE5hbWUgPSBtb2RlbE5hbWUsCiAgICAgICAgICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnMgPSBNb2RlbFRoaW5raW5nQ29uZmlnRGVmYXVsdHMuZm9yUHJvdmlkZXIoQXBpUHJvdmlkZXJUeXBlLk9QRU5DT0RFLm5hbWUpCiAgICAgICAgKQoKICAgIEBUZXN0CiAgICBmdW4gb3BlbmNvZGVaaGlwdVByb3ZpZGVyU2VnbWVudFVzZXNHbG1FZmZvcnRDb25maWcoKSB7CiAgICAgICAgdmFsIG1hcHBpbmcgPSBtYXBwaW5nKCJ6aGlwdS9nbG0tNS4zIikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRoaW5raW5nUXVhbGl0eUNvbnRyb2wuTEVWRUxTLCBtYXBwaW5nLmNvbnRyb2wpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJyZWFzb25pbmdfZWZmb3J0IiwgbWFwcGluZy5wYXJhbWV0ZXJMYWJlbCkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJsb3ciLCAiaGlnaCIsICJtYXgiKSwgbWFwcGluZy5vcHRpb25zLm1hcCB7IGl0LmlkIH0pCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBvcGVuY29kZVphaU9yZ1Byb3ZpZGVyU2VnbWVudFVzZXNHbG1FZmZvcnRDb25maWcoKSB7CiAgICAgICAgdmFsIG1hcHBpbmcgPSBtYXBwaW5nKCJ6YWktb3JnL2dsbS00LjYiKQoKICAgICAgICBhc3NlcnRFcXVhbHMoVGhpbmtpbmdRdWFsaXR5Q29udHJvbC5MRVZFTFMsIG1hcHBpbmcuY29udHJvbCkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJsb3ciLCAiaGlnaCIsICJtYXgiKSwgbWFwcGluZy5vcHRpb25zLm1hcCB7IGl0LmlkIH0pCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBvcGVuY29kZUdvb2dsZVByb3ZpZGVyU2VnbWVudFVzZXNHZW1pbmlUaGlua2luZ0xldmVsQ29uZmlnKCkgewogICAgICAgIHZhbCBtYXBwaW5nID0gbWFwcGluZygiZ29vZ2xlL2dlbWluaS0yLjUtcHJvIikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRoaW5raW5nUXVhbGl0eUNvbnRyb2wuTEVWRUxTLCBtYXBwaW5nLmNvbnRyb2wpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0aGlua2luZ0xldmVsIiwgbWFwcGluZy5wYXJhbWV0ZXJMYWJlbCkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJMT1ciLCAiTUVESVVNIiwgIkhJR0giKSwgbWFwcGluZy5vcHRpb25zLm1hcCB7IGl0LmlkIH0pCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBvcGVuY29kZVVua25vd25Qcm92aWRlcktlZXBzR2VuZXJpY0NoYXRFZmZvcnRDb25maWcoKSB7CiAgICAgICAgdmFsIG1hcHBpbmcgPSBtYXBwaW5nKCJjdXN0b20tcHJvdmlkZXIvY3VzdG9tLXRoaW5raW5nLW1vZGVsIikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKFRoaW5raW5nUXVhbGl0eUNvbnRyb2wuTEVWRUxTLCBtYXBwaW5nLmNvbnRyb2wpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJyZWFzb25pbmdfZWZmb3J0IiwgbWFwcGluZy5wYXJhbWV0ZXJMYWJlbCkKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJsb3ciLCAibWVkaXVtIiwgImhpZ2giKSwgbWFwcGluZy5vcHRpb25zLm1hcCB7IGl0LmlkIH0pCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBjdXN0b21Db25maWd1cmF0aW9uQ29udHJvbHNPcGVuQ29kZU9wdGlvbkNvdW50KCkgewogICAgICAgIHZhbCBqc29uID0KICAgICAgICAgICAgIiIiCiAgICAgICAgICAgIFsKICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiaWQiOiAib3BlbmNvZGUtY3VzdG9tIiwKICAgICAgICAgICAgICAgICJwcm92aWRlcnMiOiBbIk9QRU5DT0RFIl0sCiAgICAgICAgICAgICAgICAiY29udHJvbCI6ICJsZXZlbHMiLAogICAgICAgICAgICAgICAgInBhcmFtZXRlckxhYmVsIjogInJlYXNvbmluZ19lZmZvcnQiLAogICAgICAgICAgICAgICAgIm9wdGlvbnMiOiBbCiAgICAgICAgICAgICAgICAgIHsiaWQiOiAic2hvcnQiLCAibGFiZWwiOiAic2hvcnQiLCAicGF0aCI6ICJyZWFzb25pbmdfZWZmb3J0IiwgInZhbHVlIjogImxvdyJ9LAogICAgICAgICAgICAgICAgICB7ImlkIjogImxvbmciLCAibGFiZWwiOiAibG9uZyIsICJwYXRoIjogInJlYXNvbmluZ19lZmZvcnQiLCAidmFsdWUiOiAiaGlnaCJ9CiAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICAgfQogICAgICAgICAgICBdCiAgICAgICAgICAgICIiIi50cmltSW5kZW50KCkKCiAgICAgICAgdmFsIG1hcHBpbmcgPQogICAgICAgICAgICBUaGlua2luZ1F1YWxpdHlNYXBwaW5nUmVnaXN0cnkucmVzb2x2ZSgKICAgICAgICAgICAgICAgIHByb3ZpZGVyVHlwZUlkID0gQXBpUHJvdmlkZXJUeXBlLk9QRU5DT0RFLm5hbWUsCiAgICAgICAgICAgICAgICBtb2RlbE5hbWUgPSAiYW55dGhpbmciLAogICAgICAgICAgICAgICAgdGhpbmtpbmdDb25maWd1cmF0aW9ucyA9IGpzb24KICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMobGlzdE9mKCJzaG9ydCIsICJsb25nIiksIG1hcHBpbmcub3B0aW9ucy5tYXAgeyBpdC5pZCB9KQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.collects.ModelThinkingConfigDefaults
+import com.bslsjdk.operit.data.model.ApiProviderType
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class OpenCodeThinkingConfigurationTest {
+    private fun mapping(modelName: String): ThinkingQualityMapping =
+        ThinkingQualityMappingRegistry.resolve(
+            providerTypeId = ApiProviderType.OPENCODE.name,
+            modelName = modelName,
+            thinkingConfigurations = ModelThinkingConfigDefaults.forProvider(ApiProviderType.OPENCODE.name)
+        )
+
+    @Test
+    fun opencodeZhipuProviderSegmentUsesGlmEffortConfig() {
+        val mapping = mapping("zhipu/glm-5.3")
+
+        assertEquals(ThinkingQualityControl.LEVELS, mapping.control)
+        assertEquals("reasoning_effort", mapping.parameterLabel)
+        assertEquals(listOf("low", "high", "max"), mapping.options.map { it.id })
+    }
+
+    @Test
+    fun opencodeZaiOrgProviderSegmentUsesGlmEffortConfig() {
+        val mapping = mapping("zai-org/glm-4.6")
+
+        assertEquals(ThinkingQualityControl.LEVELS, mapping.control)
+        assertEquals(listOf("low", "high", "max"), mapping.options.map { it.id })
+    }
+
+    @Test
+    fun opencodeGoogleProviderSegmentUsesGeminiThinkingLevelConfig() {
+        val mapping = mapping("google/gemini-2.5-pro")
+
+        assertEquals(ThinkingQualityControl.LEVELS, mapping.control)
+        assertEquals("thinkingLevel", mapping.parameterLabel)
+        assertEquals(listOf("LOW", "MEDIUM", "HIGH"), mapping.options.map { it.id })
+    }
+
+    @Test
+    fun opencodeUnknownProviderKeepsGenericChatEffortConfig() {
+        val mapping = mapping("custom-provider/custom-thinking-model")
+
+        assertEquals(ThinkingQualityControl.LEVELS, mapping.control)
+        assertEquals("reasoning_effort", mapping.parameterLabel)
+        assertEquals(listOf("low", "medium", "high"), mapping.options.map { it.id })
+    }
+
+    @Test
+    fun customConfigurationControlsOpenCodeOptionCount() {
+        val json =
+            """
+            [
+              {
+                "id": "opencode-custom",
+                "providers": ["OPENCODE"],
+                "control": "levels",
+                "parameterLabel": "reasoning_effort",
+                "options": [
+                  {"id": "short", "label": "short", "path": "reasoning_effort", "value": "low"},
+                  {"id": "long", "label": "long", "path": "reasoning_effort", "value": "high"}
+                ]
+              }
+            ]
+            """.trimIndent()
+
+        val mapping =
+            ThinkingQualityMappingRegistry.resolve(
+                providerTypeId = ApiProviderType.OPENCODE.name,
+                modelName = "anything",
+                thinkingConfigurations = json
+            )
+
+        assertEquals(listOf("short", "long"), mapping.options.map { it.id })
+    }
+}

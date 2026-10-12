@@ -1,1 +1,30 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQucnVudGltZQoKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LkNvbmN1cnJlbnRIYXNoTWFwCgppbnRlcm5hbCBjbGFzcyBVc2Vyc2NyaXB0VGFiU3RhdGVTdG9yZSB7CiAgICBwcml2YXRlIHZhbCBzdGF0ZUJ5U2NyaXB0ID0gQ29uY3VycmVudEhhc2hNYXA8TG9uZywgQ29uY3VycmVudEhhc2hNYXA8U3RyaW5nLCBTdHJpbmc+PigpCgogICAgZnVuIGdldFRhYigKICAgICAgICBzY3JpcHRJZDogTG9uZywKICAgICAgICBzZXNzaW9uSWQ6IFN0cmluZwogICAgKTogU3RyaW5nID0gc3RhdGVCeVNjcmlwdFtzY3JpcHRJZF0/LmdldChzZXNzaW9uSWQpID86ICJ7fSIKCiAgICBmdW4gc2F2ZVRhYigKICAgICAgICBzY3JpcHRJZDogTG9uZywKICAgICAgICBzZXNzaW9uSWQ6IFN0cmluZywKICAgICAgICBzdGF0ZUpzb246IFN0cmluZwogICAgKSB7CiAgICAgICAgc3RhdGVCeVNjcmlwdC5nZXRPclB1dChzY3JpcHRJZCkgeyBDb25jdXJyZW50SGFzaE1hcCgpIH1bc2Vzc2lvbklkXSA9IHN0YXRlSnNvbgogICAgfQoKICAgIGZ1biBnZXRUYWJzKHNjcmlwdElkOiBMb25nKTogTWFwPFN0cmluZywgU3RyaW5nPiA9CiAgICAgICAgc3RhdGVCeVNjcmlwdFtzY3JpcHRJZF0/LnRvTWFwKCkub3JFbXB0eSgpCgogICAgZnVuIHJlbW92ZVNlc3Npb24oc2Vzc2lvbklkOiBTdHJpbmcpIHsKICAgICAgICBzdGF0ZUJ5U2NyaXB0LnZhbHVlcy5mb3JFYWNoIHsgdGFicyAtPiB0YWJzLnJlbW92ZShzZXNzaW9uSWQpIH0KICAgICAgICBzdGF0ZUJ5U2NyaXB0LmVudHJpZXMucmVtb3ZlSWYgeyBpdC52YWx1ZS5pc0VtcHR5KCkgfQogICAgfQoKICAgIGZ1biBjbGVhclNlc3Npb24oc2Vzc2lvbklkOiBTdHJpbmcpID0gcmVtb3ZlU2Vzc2lvbihzZXNzaW9uSWQpCn0K
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript.runtime
+
+import java.util.concurrent.ConcurrentHashMap
+
+internal class UserscriptTabStateStore {
+    private val stateByScript = ConcurrentHashMap<Long, ConcurrentHashMap<String, String>>()
+
+    fun getTab(
+        scriptId: Long,
+        sessionId: String
+    ): String = stateByScript[scriptId]?.get(sessionId) ?: "{}"
+
+    fun saveTab(
+        scriptId: Long,
+        sessionId: String,
+        stateJson: String
+    ) {
+        stateByScript.getOrPut(scriptId) { ConcurrentHashMap() }[sessionId] = stateJson
+    }
+
+    fun getTabs(scriptId: Long): Map<String, String> =
+        stateByScript[scriptId]?.toMap().orEmpty()
+
+    fun removeSession(sessionId: String) {
+        stateByScript.values.forEach { tabs -> tabs.remove(sessionId) }
+        stateByScript.entries.removeIf { it.value.isEmpty() }
+    }
+
+    fun clearSession(sessionId: String) = removeSession(sessionId)
+}

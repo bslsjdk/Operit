@@ -1,1 +1,76 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IubGFuZ3VhZ2UKCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLkNvbG9yCgovKioKICog6K+t6KiA5pSv5oyB5o6l5Y+j77yM5a6a5LmJ5LqG6K+t6KiA6auY5Lqu55u45YWz55qE5Z+656GA6IO95YqbCiAqLwppbnRlcmZhY2UgTGFuZ3VhZ2VTdXBwb3J0IHsKICAgIC8qKgogICAgICog6I635Y+W6K+t6KiA5ZCN56ewCiAgICAgKi8KICAgIGZ1biBnZXROYW1lKCk6IFN0cmluZwogICAgCiAgICAvKioKICAgICAqIOiOt+WPluivreiogOeahOWFs+mUruWtl+mbhuWQiAogICAgICovCiAgICBmdW4gZ2V0S2V5d29yZHMoKTogU2V0PFN0cmluZz4KICAgIAogICAgLyoqCiAgICAgKiDojrflj5bor63oqIDnmoTlhoXnva7lh73mlbDpm4blkIgKICAgICAqLwogICAgZnVuIGdldEJ1aWx0SW5GdW5jdGlvbnMoKTogU2V0PFN0cmluZz4gPSBlbXB0eVNldCgpCiAgICAKICAgIC8qKgogICAgICog6I635Y+W6K+t6KiA55qE5YaF572u57G75Z6L6ZuG5ZCICiAgICAgKi8KICAgIGZ1biBnZXRCdWlsdEluVHlwZXMoKTogU2V0PFN0cmluZz4gPSBlbXB0eVNldCgpCgogICAgLyoqCiAgICAgKiDojrflj5bor63oqIDnmoTlhoXnva7lj5jph4/pm4blkIgKICAgICAqLwogICAgZnVuIGdldEJ1aWx0SW5WYXJpYWJsZXMoKTogU2V0PFN0cmluZz4gPSBlbXB0eVNldCgpCgogICAgLyoqCiAgICAgKiDojrflj5bor63oqIDnmoTms6jph4rotbflp4vmoIforrAKICAgICAqIOWmgiAvLyDmiJYKICAgICAqLwogICAgZnVuIGdldENvbW1lbnRTdGFydCgpOiBMaXN0PFN0cmluZz4KICAgIAogICAgLyoqCiAgICAgKiDojrflj5bor63oqIDnmoTlpJrooYzms6jph4rnu5PmnZ/moIforrAKICAgICAqIOWmggogICAgICovCiAgICBmdW4gZ2V0TXVsdGlMaW5lQ29tbWVudEVuZCgpOiBTdHJpbmc/CiAgICAKICAgIC8qKgogICAgICog5qOA5p+l5piv5ZCm5piv5a2X56ym5Liy5byA5aeLCiAgICAgKi8KICAgIGZ1biBpc1N0cmluZ0RlbGltaXRlcihjaGFyOiBDaGFyKTogQm9vbGVhbgogICAgCiAgICAvKioKICAgICAqIOiOt+WPluivreiogOeahOWtl+espuS4sui9rOS5ieWtl+espgogICAgICovCiAgICBmdW4gZ2V0U3RyaW5nRXNjYXBlQ2hhcigpOiBDaGFyCiAgICAKICAgIC8qKgogICAgICog6I635Y+W6K+t6KiA55qE5paH5Lu25omp5bGV5ZCNCiAgICAgKi8KICAgIGZ1biBnZXRGaWxlRXh0ZW5zaW9ucygpOiBMaXN0PFN0cmluZz4KCiAgICAvKioKICAgICAqIOivreazlemrmOS6ruminOiJsiAtIFZTQ29kZSBEYXJrKyBUaGVtZQogICAgICovCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICAvLyBWU0NvZGUgRGFyaysgVGhlbWUgQ29sb3JzIC0gUHJvZmVzc2lvbmFsIGFuZCBjb21mb3J0YWJsZSBmb3IgbG9uZy10ZXJtIHVzZQogICAgICAgIHZhbCBLRVlXT1JEX0NPTE9SID0gQ29sb3IucGFyc2VDb2xvcigiIzU2OUNENiIpICAgICAgLy8gQmx1ZSBmb3Iga2V5d29yZHMgKGlmLCBlbHNlLCByZXR1cm4sIGV0Yy4pCiAgICAgICAgdmFsIEZVTkNUSU9OX0NPTE9SID0gQ29sb3IucGFyc2VDb2xvcigiI0RDRENBQSIpICAgICAvLyBZZWxsb3cgZm9yIGZ1bmN0aW9ucyBhbmQgbWV0aG9kcwogICAgICAgIHZhbCBTVFJJTkdfQ09MT1IgPSBDb2xvci5wYXJzZUNvbG9yKCIjQ0U5MTc4IikgICAgICAgLy8gT3JhbmdlLWJyb3duIGZvciBzdHJpbmdzCiAgICAgICAgdmFsIE5VTUJFUl9DT0xPUiA9IENvbG9yLnBhcnNlQ29sb3IoIiNCNUNFQTgiKSAgICAgICAvLyBMaWdodCBncmVlbiBmb3IgbnVtYmVycwogICAgICAgIHZhbCBDT01NRU5UX0NPTE9SID0gQ29sb3IucGFyc2VDb2xvcigiIzZBOTk1NSIpICAgICAgLy8gR3JlZW4gZm9yIGNvbW1lbnRzCiAgICAgICAgdmFsIFRZUEVfQ09MT1IgPSBDb2xvci5wYXJzZUNvbG9yKCIjNEVDOUIwIikgICAgICAgICAvLyBDeWFuIGZvciB0eXBlcywgY2xhc3NlcywgaW50ZXJmYWNlcwogICAgICAgIHZhbCBWQVJJQUJMRV9DT0xPUiA9IENvbG9yLnBhcnNlQ29sb3IoIiM5Q0RDRkUiKSAgICAgLy8gTGlnaHQgYmx1ZSBmb3IgdmFyaWFibGVzIGFuZCBwYXJhbWV0ZXJzCiAgICAgICAgdmFsIE9QRVJBVE9SX0NPTE9SID0gQ29sb3IucGFyc2VDb2xvcigiI0Q0RDRENCIpICAgICAvLyBMaWdodCBncmV5IGZvciBvcGVyYXRvcnMKICAgICAgICB2YWwgREVGQVVMVF9DT0xPUiA9IENvbG9yLnBhcnNlQ29sb3IoIiNENEQ0RDQiKSAgICAgIC8vIExpZ2h0IGdyZXkgZm9yIGRlZmF1bHQgdGV4dAogICAgfQp9IAo=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language
+
+import android.graphics.Color
+
+/**
+ * 语言支持接口，定义了语言高亮相关的基础能力
+ */
+interface LanguageSupport {
+    /**
+     * 获取语言名称
+     */
+    fun getName(): String
+    
+    /**
+     * 获取语言的关键字集合
+     */
+    fun getKeywords(): Set<String>
+    
+    /**
+     * 获取语言的内置函数集合
+     */
+    fun getBuiltInFunctions(): Set<String> = emptySet()
+    
+    /**
+     * 获取语言的内置类型集合
+     */
+    fun getBuiltInTypes(): Set<String> = emptySet()
+
+    /**
+     * 获取语言的内置变量集合
+     */
+    fun getBuiltInVariables(): Set<String> = emptySet()
+
+    /**
+     * 获取语言的注释起始标记
+     * 如 // 或
+     */
+    fun getCommentStart(): List<String>
+    
+    /**
+     * 获取语言的多行注释结束标记
+     * 如
+     */
+    fun getMultiLineCommentEnd(): String?
+    
+    /**
+     * 检查是否是字符串开始
+     */
+    fun isStringDelimiter(char: Char): Boolean
+    
+    /**
+     * 获取语言的字符串转义字符
+     */
+    fun getStringEscapeChar(): Char
+    
+    /**
+     * 获取语言的文件扩展名
+     */
+    fun getFileExtensions(): List<String>
+
+    /**
+     * 语法高亮颜色 - VSCode Dark+ Theme
+     */
+    companion object {
+        // VSCode Dark+ Theme Colors - Professional and comfortable for long-term use
+        val KEYWORD_COLOR = Color.parseColor("#569CD6")      // Blue for keywords (if, else, return, etc.)
+        val FUNCTION_COLOR = Color.parseColor("#DCDCAA")     // Yellow for functions and methods
+        val STRING_COLOR = Color.parseColor("#CE9178")       // Orange-brown for strings
+        val NUMBER_COLOR = Color.parseColor("#B5CEA8")       // Light green for numbers
+        val COMMENT_COLOR = Color.parseColor("#6A9955")      // Green for comments
+        val TYPE_COLOR = Color.parseColor("#4EC9B0")         // Cyan for types, classes, interfaces
+        val VARIABLE_COLOR = Color.parseColor("#9CDCFE")     // Light blue for variables and parameters
+        val OPERATOR_COLOR = Color.parseColor("#D4D4D4")     // Light grey for operators
+        val DEFAULT_COLOR = Color.parseColor("#D4D4D4")      // Light grey for default text
+    }
+} 

@@ -1,1 +1,95 @@
-LyoKICogQ29weXJpZ2h0IDIwMjIgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24uTXV0YWJsZU9iamVjdEludE1hcAppbXBvcnQgYW5kcm9pZHguY29sbGVjdGlvbi5PYmplY3RJbnRNYXAKaW1wb3J0IGFuZHJvaWR4LmNvbGxlY3Rpb24uZW1wdHlPYmplY3RJbnRNYXAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5pbnRlcm5hbC5jaGVja1ByZWNvbmRpdGlvbgoKLyoqCiAqIEEga2V5LWluZGV4IG1hcHBpbmcgdGhhdCBjYW4gYmUgdXNlZCBieSB0aGUgW0xhenlMYXlvdXRJdGVtUHJvdmlkZXJdIHRvIGtlZXAgdHJhY2sgb2YgaW5kaWNlcyBhbmQKICoga2V5cyBpbiBbTGF6eUxheW91dF0uCiAqLwppbnRlcmZhY2UgTGF6eUxheW91dEtleUluZGV4TWFwIHsKICAgIC8qKiBAcmV0dXJuIGN1cnJlbnQgaW5kZXggZm9yIGdpdmVuIFtrZXldIG9yIGAtMWAgaWYgbm90IGZvdW5kLiAqLwogICAgZnVuIGdldEluZGV4KGtleTogQW55KTogSW50CgogICAgLyoqIEByZXR1cm4ga2V5IGZvciBhIGdpdmVuIFtpbmRleF0gaWYgaXQgaXMga25vd24sIG9yIG51bGwgb3RoZXJ3aXNlLiAqLwogICAgZnVuIGdldEtleShpbmRleDogSW50KTogQW55Pwp9CgovKioKICogQSBbTGF6eUxheW91dEtleUluZGV4TWFwXSB0aGF0IGtlZXBzIGEgbWFwcGluZyBvdmVyIGdpdmVuIFtJbnRSYW5nZV0gb2YgaXRlbXMuIEl0ZW1zIG91dHNpZGUgb2YKICogZ2l2ZW4gcmFuZ2UgYXJlIGNvbnNpZGVyZWQgdW5rbm93biwgd2l0aCBudWxsIHJldHVybmVkIGFzIHRoZSBpbmRleC4KICoKICogQHBhcmFtIGl0ZW1JbmRleFJhbmdlIFJhbmdlIG9mIGl0ZW1zIHRvIGtlZXAgdHJhY2sgb2YuCiAqIEBwYXJhbSBpbnRlcnZhbENvbnRlbnQgU291cmNlIG9mIGl0ZW0gaW5mb3JtYXRpb24gaW4gdGhlIGZvcm0gb2YgW0xhenlMYXlvdXRJbnRlcnZhbENvbnRlbnRdLgogKi8KZnVuIExhenlMYXlvdXRLZXlJbmRleE1hcCgKICAgIGl0ZW1JbmRleFJhbmdlOiBJbnRSYW5nZSwKICAgIGludGVydmFsQ29udGVudDogTGF6eUxheW91dEludGVydmFsQ29udGVudDwqPiwKKTogTGF6eUxheW91dEtleUluZGV4TWFwID0gTmVhcmVzdFJhbmdlS2V5SW5kZXhNYXAoaXRlbUluZGV4UmFuZ2UsIGludGVydmFsQ29udGVudCkKCi8qKgogKiBJbXBsZW1lbnRhdGlvbiBvZiBbTGF6eUxheW91dEtleUluZGV4TWFwXSBpbmRleGluZyBvdmVyIGdpdmVuIFtJbnRSYW5nZV0gb2YgaXRlbXMuIEl0ZW1zIG91dHNpZGUKICogb2YgZ2l2ZW4gcmFuZ2UgYXJlIGNvbnNpZGVyZWQgdW5rbm93biwgd2l0aCBudWxsIHJldHVybmVkIGFzIHRoZSBpbmRleC4KICovCmludGVybmFsIGNsYXNzIE5lYXJlc3RSYW5nZUtleUluZGV4TWFwKAogICAgbmVhcmVzdFJhbmdlOiBJbnRSYW5nZSwKICAgIGludGVydmFsQ29udGVudDogTGF6eUxheW91dEludGVydmFsQ29udGVudDwqPiwKKSA6IExhenlMYXlvdXRLZXlJbmRleE1hcCB7CiAgICBwcml2YXRlIHZhbCBtYXA6IE9iamVjdEludE1hcDxBbnk+CiAgICBwcml2YXRlIHZhbCBrZXlzOiBBcnJheTxBbnk/PgogICAgcHJpdmF0ZSB2YWwga2V5c1N0YXJ0SW5kZXg6IEludAoKICAgIGluaXQgewogICAgICAgIC8vIFRyYXZlcnNlcyB0aGUgaW50ZXJ2YWwgW2xpc3RdIGluIG9yZGVyIHRvIGNyZWF0ZSBhIG1hcHBpbmcgZnJvbSB0aGUga2V5IHRvIHRoZSBpbmRleCBmb3IKICAgICAgICAvLyBhbGwgdGhlIGluZGV4ZXMgaW4gdGhlIHBhc3NlZCBbcmFuZ2VdLgogICAgICAgIHZhbCBsaXN0ID0gaW50ZXJ2YWxDb250ZW50LmludGVydmFscwogICAgICAgIHZhbCBmaXJzdCA9IG5lYXJlc3RSYW5nZS5maXJzdAogICAgICAgIGNoZWNrUHJlY29uZGl0aW9uKGZpcnN0ID49IDApIHsgIm5lZ2F0aXZlIG5lYXJlc3RSYW5nZS5maXJzdCIgfQogICAgICAgIHZhbCBsYXN0ID0gbWluT2YobmVhcmVzdFJhbmdlLmxhc3QsIGxpc3Quc2l6ZSAtIDEpCiAgICAgICAgaWYgKGxhc3QgPCBmaXJzdCkgewogICAgICAgICAgICBtYXAgPSBlbXB0eU9iamVjdEludE1hcCgpCiAgICAgICAgICAgIGtleXMgPSBlbXB0eUFycmF5KCkKICAgICAgICAgICAga2V5c1N0YXJ0SW5kZXggPSAwCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdmFsIHNpemUgPSBsYXN0IC0gZmlyc3QgKyAxCiAgICAgICAgICAgIGtleXMgPSBhcnJheU9mTnVsbHM8QW55Pz4oc2l6ZSkKICAgICAgICAgICAga2V5c1N0YXJ0SW5kZXggPSBmaXJzdAogICAgICAgICAgICBtYXAgPQogICAgICAgICAgICAgICAgTXV0YWJsZU9iamVjdEludE1hcDxBbnk+KHNpemUpLmFsc28geyBtYXAgLT4KICAgICAgICAgICAgICAgICAgICBsaXN0LmZvckVhY2goZnJvbUluZGV4ID0gZmlyc3QsIHRvSW5kZXggPSBsYXN0KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBrZXlGYWN0b3J5ID0gaXQudmFsdWUua2V5CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBzdGFydCA9IG1heE9mKGZpcnN0LCBpdC5zdGFydEluZGV4KQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgZW5kID0gbWluT2YobGFzdCwgaXQuc3RhcnRJbmRleCArIGl0LnNpemUgLSAxKQogICAgICAgICAgICAgICAgICAgICAgICBmb3IgKGkgaW4gc3RhcnQuLmVuZCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGtleSA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5RmFjdG9yeT8uaW52b2tlKGkgLSBpdC5zdGFydEluZGV4KSA/OiBnZXREZWZhdWx0TGF6eUxheW91dEtleShpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFwW2tleV0gPSBpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBrZXlzW2kgLSBrZXlzU3RhcnRJbmRleF0gPSBrZXkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGdldEluZGV4KGtleTogQW55KTogSW50ID0gbWFwLmdldE9yRWxzZShrZXkpIHsgLTEgfQoKICAgIG92ZXJyaWRlIGZ1biBnZXRLZXkoaW5kZXg6IEludCkgPSBrZXlzLmdldE9yRWxzZShpbmRleCAtIGtleXNTdGFydEluZGV4KSB7IG51bGwgfQp9Cg==
+/*
+ * Copyright 2022 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.collection.MutableObjectIntMap
+import androidx.collection.ObjectIntMap
+import androidx.collection.emptyObjectIntMap
+import androidx.compose.foundation.internal.checkPrecondition
+
+/**
+ * A key-index mapping that can be used by the [LazyLayoutItemProvider] to keep track of indices and
+ * keys in [LazyLayout].
+ */
+interface LazyLayoutKeyIndexMap {
+    /** @return current index for given [key] or `-1` if not found. */
+    fun getIndex(key: Any): Int
+
+    /** @return key for a given [index] if it is known, or null otherwise. */
+    fun getKey(index: Int): Any?
+}
+
+/**
+ * A [LazyLayoutKeyIndexMap] that keeps a mapping over given [IntRange] of items. Items outside of
+ * given range are considered unknown, with null returned as the index.
+ *
+ * @param itemIndexRange Range of items to keep track of.
+ * @param intervalContent Source of item information in the form of [LazyLayoutIntervalContent].
+ */
+fun LazyLayoutKeyIndexMap(
+    itemIndexRange: IntRange,
+    intervalContent: LazyLayoutIntervalContent<*>,
+): LazyLayoutKeyIndexMap = NearestRangeKeyIndexMap(itemIndexRange, intervalContent)
+
+/**
+ * Implementation of [LazyLayoutKeyIndexMap] indexing over given [IntRange] of items. Items outside
+ * of given range are considered unknown, with null returned as the index.
+ */
+internal class NearestRangeKeyIndexMap(
+    nearestRange: IntRange,
+    intervalContent: LazyLayoutIntervalContent<*>,
+) : LazyLayoutKeyIndexMap {
+    private val map: ObjectIntMap<Any>
+    private val keys: Array<Any?>
+    private val keysStartIndex: Int
+
+    init {
+        // Traverses the interval [list] in order to create a mapping from the key to the index for
+        // all the indexes in the passed [range].
+        val list = intervalContent.intervals
+        val first = nearestRange.first
+        checkPrecondition(first >= 0) { "negative nearestRange.first" }
+        val last = minOf(nearestRange.last, list.size - 1)
+        if (last < first) {
+            map = emptyObjectIntMap()
+            keys = emptyArray()
+            keysStartIndex = 0
+        } else {
+            val size = last - first + 1
+            keys = arrayOfNulls<Any?>(size)
+            keysStartIndex = first
+            map =
+                MutableObjectIntMap<Any>(size).also { map ->
+                    list.forEach(fromIndex = first, toIndex = last) {
+                        val keyFactory = it.value.key
+                        val start = maxOf(first, it.startIndex)
+                        val end = minOf(last, it.startIndex + it.size - 1)
+                        for (i in start..end) {
+                            val key =
+                                keyFactory?.invoke(i - it.startIndex) ?: getDefaultLazyLayoutKey(i)
+                            map[key] = i
+                            keys[i - keysStartIndex] = key
+                        }
+                    }
+                }
+        }
+    }
+
+    override fun getIndex(key: Any): Int = map.getOrElse(key) { -1 }
+
+    override fun getKey(index: Int) = keys.getOrElse(index - keysStartIndex) { null }
+}

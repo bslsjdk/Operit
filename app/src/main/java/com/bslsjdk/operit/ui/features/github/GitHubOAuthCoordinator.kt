@@ -1,1 +1,92 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuZ2l0aHViCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQubmV0LlVyaQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLkdpdEh1Yk9BdXRoQnJva2VyU2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLkdpdEh1Yk9BdXRoQnJva2VyU3RhcnRSZXNwb25zZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuR2l0SHViQXV0aFByZWZlcmVuY2VzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5HaXRIdWJVc2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKCmNsYXNzIEdpdEh1Yk9BdXRoQ29vcmRpbmF0b3IoY29udGV4dDogQ29udGV4dCkgewogICAgcHJpdmF0ZSB2YWwgZ2l0aHViQXV0aCA9IEdpdEh1YkF1dGhQcmVmZXJlbmNlcy5nZXRJbnN0YW5jZShjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCkKICAgIHByaXZhdGUgdmFsIG9hdXRoQnJva2VyU2VydmljZSA9IEdpdEh1Yk9BdXRoQnJva2VyU2VydmljZSgpCgogICAgc3VzcGVuZCBmdW4gc3RhcnRFbWJlZGRlZExvZ2luKCk6IFJlc3VsdDxHaXRIdWJPQXV0aEJyb2tlclN0YXJ0UmVzcG9uc2U+ID0KICAgICAgICBzdGFydExvZ2luKEVNQkVEREVEX0NPTVBMRVRJT05fUkVESVJFQ1RfVVJJKQoKICAgIHN1c3BlbmQgZnVuIHN0YXJ0TG9naW4oY29tcGxldGlvblJlZGlyZWN0VXJpOiBTdHJpbmcpOiBSZXN1bHQ8R2l0SHViT0F1dGhCcm9rZXJTdGFydFJlc3BvbnNlPiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCB0cmFuc2FjdGlvbiA9IG9hdXRoQnJva2VyU2VydmljZS5zdGFydExvZ2luKGNvbXBsZXRpb25SZWRpcmVjdFVyaSkuZ2V0T3JFbHNlIHsgZXJyb3IgLT4KICAgICAgICAgICAgICAgIHRocm93IGVycm9yCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ2l0aHViQXV0aC5zYXZlQWN0aXZlT0F1dGhUcmFuc2FjdGlvbigKICAgICAgICAgICAgICAgIHRyYW5zYWN0aW9uSWQgPSB0cmFuc2FjdGlvbi50cmFuc2FjdGlvbklkLAogICAgICAgICAgICAgICAgZGVsaXZlcnlDcmVkZW50aWFsID0gdHJhbnNhY3Rpb24uZGVsaXZlcnlDcmVkZW50aWFsLAogICAgICAgICAgICAgICAgZXhwaXJlc0F0ID0gdHJhbnNhY3Rpb24uZXhwaXJlc0F0CiAgICAgICAgICAgICkKICAgICAgICAgICAgUmVzdWx0LnN1Y2Nlc3ModHJhbnNhY3Rpb24pCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBzdGFydCBHaXRIdWIgT0F1dGggbG9naW4iLCBlKQogICAgICAgICAgICBSZXN1bHQuZmFpbHVyZShlKQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBjb21wbGV0ZUxvZ2luKGNvbXBsZXRpb25Vcmk6IFVyaSk6IFJlc3VsdDxHaXRIdWJVc2VyPiB7CiAgICAgICAgdmFsIGFjdGl2ZVRyYW5zYWN0aW9uID0gZ2l0aHViQXV0aC5nZXRBY3RpdmVPQXV0aFRyYW5zYWN0aW9uKCkKICAgICAgICAgICAgPzogcmV0dXJuIFJlc3VsdC5mYWlsdXJlKElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiTm8gR2l0SHViIE9BdXRoIHRyYW5zYWN0aW9uIGlzIGFjdGl2ZSIpKQogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICBpZiAoY29tcGxldGlvblVyaS5nZXRRdWVyeVBhcmFtZXRlcigidHJhbnNhY3Rpb25JZCIpICE9IGFjdGl2ZVRyYW5zYWN0aW9uLnRyYW5zYWN0aW9uSWQpIHsKICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiR2l0SHViIE9BdXRoIGNvbXBsZXRpb24gdHJhbnNhY3Rpb24gZG9lcyBub3QgbWF0Y2giKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHdoZW4gKGNvbXBsZXRpb25VcmkuZ2V0UXVlcnlQYXJhbWV0ZXIoInN0YXR1cyIpKSB7CiAgICAgICAgICAgICAgICAiY29tcGxldGUiIC0+IFVuaXQKICAgICAgICAgICAgICAgICJkZW5pZWQiIC0+IHsKICAgICAgICAgICAgICAgICAgICBnaXRodWJBdXRoLmNsZWFyQWN0aXZlT0F1dGhUcmFuc2FjdGlvbigpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFJlc3VsdC5mYWlsdXJlKElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiR2l0SHViIGF1dGhvcml6YXRpb24gd2FzIGNhbmNlbGxlZCIpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgImVycm9yIiAtPiB7CiAgICAgICAgICAgICAgICAgICAgZ2l0aHViQXV0aC5jbGVhckFjdGl2ZU9BdXRoVHJhbnNhY3Rpb24oKQogICAgICAgICAgICAgICAgICAgIHZhbCBlcnJvciA9IGNvbXBsZXRpb25VcmkuZ2V0UXVlcnlQYXJhbWV0ZXIoImVycm9yIikKICAgICAgICAgICAgICAgICAgICBpZiAoZXJyb3IuaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBSZXN1bHQuZmFpbHVyZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiR2l0SHViIE9BdXRoIGNvbXBsZXRpb24gZXJyb3IgaXMgbWlzc2luZyIpCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFJlc3VsdC5mYWlsdXJlKElsbGVnYWxTdGF0ZUV4Y2VwdGlvbihlcnJvcikpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgICAgICBnaXRodWJBdXRoLmNsZWFyQWN0aXZlT0F1dGhUcmFuc2FjdGlvbigpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFJlc3VsdC5mYWlsdXJlKElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiR2l0SHViIE9BdXRoIGNvbXBsZXRpb24gc3RhdHVzIGlzIGludmFsaWQiKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgcmVzdWx0ID0gb2F1dGhCcm9rZXJTZXJ2aWNlLmNsYWltTG9naW4oCiAgICAgICAgICAgICAgICB0cmFuc2FjdGlvbklkID0gYWN0aXZlVHJhbnNhY3Rpb24udHJhbnNhY3Rpb25JZCwKICAgICAgICAgICAgICAgIGRlbGl2ZXJ5Q3JlZGVudGlhbCA9IGFjdGl2ZVRyYW5zYWN0aW9uLmRlbGl2ZXJ5Q3JlZGVudGlhbAogICAgICAgICAgICApLmdldE9yRWxzZSB7IGVycm9yIC0+IHRocm93IGVycm9yIH0KICAgICAgICAgICAgZ2l0aHViQXV0aC5zYXZlQXV0aEluZm8oCiAgICAgICAgICAgICAgICBhY2Nlc3NUb2tlbiA9IHJlc3VsdC5hY2Nlc3NUb2tlbiwKICAgICAgICAgICAgICAgIHRva2VuVHlwZSA9IHJlc3VsdC50b2tlblR5cGUsCiAgICAgICAgICAgICAgICBleHBpcmVzSW4gPSByZXN1bHQuZXhwaXJlc0luLAogICAgICAgICAgICAgICAgcmVmcmVzaFRva2VuID0gcmVzdWx0LnJlZnJlc2hUb2tlbiwKICAgICAgICAgICAgICAgIHVzZXJJbmZvID0gcmVzdWx0LnVzZXIsCiAgICAgICAgICAgICAgICBncmFudGVkU2NvcGUgPSByZXN1bHQuc2NvcGUKICAgICAgICAgICAgKQogICAgICAgICAgICBnaXRodWJBdXRoLmNsZWFyQWN0aXZlT0F1dGhUcmFuc2FjdGlvbigpCiAgICAgICAgICAgIFJlc3VsdC5zdWNjZXNzKHJlc3VsdC51c2VyKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBnaXRodWJBdXRoLmNsZWFyQWN0aXZlT0F1dGhUcmFuc2FjdGlvbigpCiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBjb21wbGV0ZSBHaXRIdWIgT0F1dGggbG9naW4iLCBlKQogICAgICAgICAgICBSZXN1bHQuZmFpbHVyZShlKQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBjYW5jZWxMb2dpbigpIHsKICAgICAgICBnaXRodWJBdXRoLmNsZWFyQWN0aXZlT0F1dGhUcmFuc2FjdGlvbigpCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkdpdEh1Yk9BdXRoQ29vcmRpbmF0b3IiCiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgRU1CRURERURfQ09NUExFVElPTl9SRURJUkVDVF9VUkkgPSAiaHR0cHM6Ly9hcGkub3Blcml0LmFwcC9vYXV0aC9naXRodWIvY29tcGxldGUiCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.github
+
+import android.content.Context
+import android.net.Uri
+import com.bslsjdk.operit.data.api.GitHubOAuthBrokerService
+import com.bslsjdk.operit.data.api.GitHubOAuthBrokerStartResponse
+import com.bslsjdk.operit.data.preferences.GitHubAuthPreferences
+import com.bslsjdk.operit.data.preferences.GitHubUser
+import com.bslsjdk.operit.util.AppLogger
+
+class GitHubOAuthCoordinator(context: Context) {
+    private val githubAuth = GitHubAuthPreferences.getInstance(context.applicationContext)
+    private val oauthBrokerService = GitHubOAuthBrokerService()
+
+    suspend fun startEmbeddedLogin(): Result<GitHubOAuthBrokerStartResponse> =
+        startLogin(EMBEDDED_COMPLETION_REDIRECT_URI)
+
+    suspend fun startLogin(completionRedirectUri: String): Result<GitHubOAuthBrokerStartResponse> {
+        return try {
+            val transaction = oauthBrokerService.startLogin(completionRedirectUri).getOrElse { error ->
+                throw error
+            }
+            githubAuth.saveActiveOAuthTransaction(
+                transactionId = transaction.transactionId,
+                deliveryCredential = transaction.deliveryCredential,
+                expiresAt = transaction.expiresAt
+            )
+            Result.success(transaction)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to start GitHub OAuth login", e)
+            Result.failure(e)
+        }
+    }
+
+    suspend fun completeLogin(completionUri: Uri): Result<GitHubUser> {
+        val activeTransaction = githubAuth.getActiveOAuthTransaction()
+            ?: return Result.failure(IllegalStateException("No GitHub OAuth transaction is active"))
+        return try {
+            if (completionUri.getQueryParameter("transactionId") != activeTransaction.transactionId) {
+                throw IllegalStateException("GitHub OAuth completion transaction does not match")
+            }
+            when (completionUri.getQueryParameter("status")) {
+                "complete" -> Unit
+                "denied" -> {
+                    githubAuth.clearActiveOAuthTransaction()
+                    return Result.failure(IllegalStateException("GitHub authorization was cancelled"))
+                }
+                "error" -> {
+                    githubAuth.clearActiveOAuthTransaction()
+                    val error = completionUri.getQueryParameter("error")
+                    if (error.isNullOrBlank()) {
+                        return Result.failure(
+                            IllegalStateException("GitHub OAuth completion error is missing")
+                        )
+                    }
+                    return Result.failure(IllegalStateException(error))
+                }
+                else -> {
+                    githubAuth.clearActiveOAuthTransaction()
+                    return Result.failure(IllegalStateException("GitHub OAuth completion status is invalid"))
+                }
+            }
+            val result = oauthBrokerService.claimLogin(
+                transactionId = activeTransaction.transactionId,
+                deliveryCredential = activeTransaction.deliveryCredential
+            ).getOrElse { error -> throw error }
+            githubAuth.saveAuthInfo(
+                accessToken = result.accessToken,
+                tokenType = result.tokenType,
+                expiresIn = result.expiresIn,
+                refreshToken = result.refreshToken,
+                userInfo = result.user,
+                grantedScope = result.scope
+            )
+            githubAuth.clearActiveOAuthTransaction()
+            Result.success(result.user)
+        } catch (e: Exception) {
+            githubAuth.clearActiveOAuthTransaction()
+            AppLogger.e(TAG, "Failed to complete GitHub OAuth login", e)
+            Result.failure(e)
+        }
+    }
+
+    suspend fun cancelLogin() {
+        githubAuth.clearActiveOAuthTransaction()
+    }
+
+    companion object {
+        private const val TAG = "GitHubOAuthCoordinator"
+        private const val EMBEDDED_COMPLETION_REDIRECT_URI = "https://api.operit.app/oauth/github/complete"
+    }
+}

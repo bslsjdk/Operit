@@ -1,1 +1,302 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKZGF0YSBjbGFzcyBUaGVtZVByZWZlcmVuY2VWYWx1ZXMoCiAgICB2YWwgc3RyaW5nczogTWFwPFN0cmluZywgU3RyaW5nPiA9IGVtcHR5TWFwKCksCiAgICB2YWwgYm9vbGVhbnM6IE1hcDxTdHJpbmcsIEJvb2xlYW4+ID0gZW1wdHlNYXAoKSwKICAgIHZhbCBpbnRzOiBNYXA8U3RyaW5nLCBJbnQ+ID0gZW1wdHlNYXAoKSwKICAgIHZhbCBmbG9hdHM6IE1hcDxTdHJpbmcsIEZsb2F0PiA9IGVtcHR5TWFwKCksCikgewogICAgZnVuIHN0cmluZyhuYW1lOiBTdHJpbmcpOiBTdHJpbmc/ID0gc3RyaW5nc1tuYW1lXQoKICAgIGZ1biBib29sZWFuKG5hbWU6IFN0cmluZyk6IEJvb2xlYW4/ID0gYm9vbGVhbnNbbmFtZV0KCiAgICBmdW4gaW50KG5hbWU6IFN0cmluZyk6IEludD8gPSBpbnRzW25hbWVdCgogICAgZnVuIGZsb2F0KG5hbWU6IFN0cmluZyk6IEZsb2F0PyA9IGZsb2F0c1tuYW1lXQoKICAgIGZ1biByZXF1aXJlZFN0cmluZyhuYW1lOiBTdHJpbmcpOiBTdHJpbmcgPSByZXF1aXJlTm90TnVsbChzdHJpbmcobmFtZSkpCgogICAgZnVuIHJlcXVpcmVkQm9vbGVhbihuYW1lOiBTdHJpbmcpOiBCb29sZWFuID0gcmVxdWlyZU5vdE51bGwoYm9vbGVhbihuYW1lKSkKCiAgICBmdW4gcmVxdWlyZWRGbG9hdChuYW1lOiBTdHJpbmcpOiBGbG9hdCA9IHJlcXVpcmVOb3ROdWxsKGZsb2F0KG5hbWUpKQoKICAgIGZ1biB3aXRoU3RyaW5nKG5hbWU6IFN0cmluZywgdmFsdWU6IFN0cmluZz8pOiBUaGVtZVByZWZlcmVuY2VWYWx1ZXMgewogICAgICAgIHZhbCB1cGRhdGVkID0gc3RyaW5ncy50b011dGFibGVNYXAoKQogICAgICAgIGlmICh2YWx1ZSA9PSBudWxsKSB7CiAgICAgICAgICAgIHVwZGF0ZWQucmVtb3ZlKG5hbWUpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgdXBkYXRlZFtuYW1lXSA9IHZhbHVlCiAgICAgICAgfQogICAgICAgIHJldHVybiBjb3B5KHN0cmluZ3MgPSB1cGRhdGVkKQogICAgfQoKICAgIGZ1biB3aXRoQm9vbGVhbihuYW1lOiBTdHJpbmcsIHZhbHVlOiBCb29sZWFuKTogVGhlbWVQcmVmZXJlbmNlVmFsdWVzID0KICAgICAgICBjb3B5KGJvb2xlYW5zID0gYm9vbGVhbnMgKyAobmFtZSB0byB2YWx1ZSkpCgogICAgZnVuIHdpdGhJbnQobmFtZTogU3RyaW5nLCB2YWx1ZTogSW50Pyk6IFRoZW1lUHJlZmVyZW5jZVZhbHVlcyB7CiAgICAgICAgdmFsIHVwZGF0ZWQgPSBpbnRzLnRvTXV0YWJsZU1hcCgpCiAgICAgICAgaWYgKHZhbHVlID09IG51bGwpIHsKICAgICAgICAgICAgdXBkYXRlZC5yZW1vdmUobmFtZSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB1cGRhdGVkW25hbWVdID0gdmFsdWUKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNvcHkoaW50cyA9IHVwZGF0ZWQpCiAgICB9CgogICAgZnVuIHdpdGhGbG9hdChuYW1lOiBTdHJpbmcsIHZhbHVlOiBGbG9hdCk6IFRoZW1lUHJlZmVyZW5jZVZhbHVlcyA9CiAgICAgICAgY29weShmbG9hdHMgPSBmbG9hdHMgKyAobmFtZSB0byB2YWx1ZSkpCgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIGRlZmF1bHRWaXN1YWwoKTogVGhlbWVQcmVmZXJlbmNlVmFsdWVzID0KICAgICAgICAgICAgVGhlbWVQcmVmZXJlbmNlVmFsdWVzKAogICAgICAgICAgICAgICAgc3RyaW5ncyA9IG1hcE9mKAogICAgICAgICAgICAgICAgICAgICJ0aGVtZV9tb2RlIiB0byBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLlRIRU1FX01PREVfTElHSFQsCiAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmRfbWVkaWFfdHlwZSIgdG8gVXNlclByZWZlcmVuY2VzTWFuYWdlci5NRURJQV9UWVBFX0lNQUdFLAogICAgICAgICAgICAgICAgICAgICJhcHBfYmFyX2NvbnRlbnRfY29sb3JfbW9kZSIgdG8KICAgICAgICAgICAgICAgICAgICAgICAgVXNlclByZWZlcmVuY2VzTWFuYWdlci5BUFBfQkFSX0NPTlRFTlRfQ09MT1JfTU9ERV9MSUdIVCwKICAgICAgICAgICAgICAgICAgICAiY2hhdF9zdHlsZSIgdG8gVXNlclByZWZlcmVuY2VzTWFuYWdlci5DSEFUX1NUWUxFX0NVUlNPUiwKICAgICAgICAgICAgICAgICAgICAiYXZhdGFyX3NoYXBlIiB0byBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLkFWQVRBUl9TSEFQRV9DSVJDTEUsCiAgICAgICAgICAgICAgICAgICAgIm9uX2NvbG9yX21vZGUiIHRvIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuT05fQ09MT1JfTU9ERV9BVVRPLAogICAgICAgICAgICAgICAgICAgICJpbnB1dF9zdHlsZSIgdG8gVXNlclByZWZlcmVuY2VzTWFuYWdlci5JTlBVVF9TVFlMRV9BR0VOVCwKICAgICAgICAgICAgICAgICAgICAiZm9udF90eXBlIiB0byBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLkZPTlRfVFlQRV9TWVNURU0sCiAgICAgICAgICAgICAgICAgICAgInN5c3RlbV9mb250X25hbWUiIHRvIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuU1lTVEVNX0ZPTlRfREVGQVVMVCwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX3VzZXJfZm9udF90eXBlIiB0byBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLkZPTlRfVFlQRV9TWVNURU0sCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV91c2VyX3N5c3RlbV9mb250X25hbWUiIHRvIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuU1lTVEVNX0ZPTlRfREVGQVVMVCwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX2FpX2ZvbnRfdHlwZSIgdG8gVXNlclByZWZlcmVuY2VzTWFuYWdlci5GT05UX1RZUEVfU1lTVEVNLAogICAgICAgICAgICAgICAgICAgICJidWJibGVfYWlfc3lzdGVtX2ZvbnRfbmFtZSIgdG8gVXNlclByZWZlcmVuY2VzTWFuYWdlci5TWVNURU1fRk9OVF9ERUZBVUxULAogICAgICAgICAgICAgICAgICAgICJidWJibGVfaW1hZ2VfcmVuZGVyX21vZGUiIHRvCiAgICAgICAgICAgICAgICAgICAgICAgIFVzZXJQcmVmZXJlbmNlc01hbmFnZXIuQlVCQkxFX0lNQUdFX1JFTkRFUl9NT0RFX1RJTEVEX05JTkVfU0xJQ0UsCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgYm9vbGVhbnMgPSBtYXBPZigKICAgICAgICAgICAgICAgICAgICAidXNlX3N5c3RlbV90aGVtZSIgdG8gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAidXNlX2N1c3RvbV9jb2xvcnMiIHRvIGZhbHNlLAogICAgICAgICAgICAgICAgICAgICJ1c2VfYmFja2dyb3VuZF9pbWFnZSIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgInZpZGVvX2JhY2tncm91bmRfbXV0ZWQiIHRvIHRydWUsCiAgICAgICAgICAgICAgICAgICAgInZpZGVvX2JhY2tncm91bmRfbG9vcCIgdG8gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAidG9vbGJhcl90cmFuc3BhcmVudCIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgIm5hdmlnYXRpb25fZHJhd2VyX3dhdGVyX2dsYXNzIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAibmF2aWdhdGlvbl9kcmF3ZXJfYnV0dG9uX2xpcXVpZF9nbGFzcyIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgInVzZV9jdXN0b21fbmF2aWdhdGlvbl9kcmF3ZXJfYmFja2dyb3VuZF9jb2xvciIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgInVzZV9jdXN0b21fbmF2aWdhdGlvbl9kcmF3ZXJfYWNjZW50X2NvbG9yIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAidXNlX2N1c3RvbV9hcHBfYmFyX2NvbG9yIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAidXNlX2N1c3RvbV9zdGF0dXNfYmFyX2NvbG9yIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAic3RhdHVzX2Jhcl90cmFuc3BhcmVudCIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgInN0YXR1c19iYXJfaGlkZGVuIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAiY2hhdF9oZWFkZXJfdHJhbnNwYXJlbnQiIHRvIGZhbHNlLAogICAgICAgICAgICAgICAgICAgICJjaGF0X2lucHV0X3RyYW5zcGFyZW50IiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAiY2hhdF9pbnB1dF9mbG9hdGluZyIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgImNoYXRfaW5wdXRfbGlxdWlkX2dsYXNzIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAiY2hhdF9pbnB1dF93YXRlcl9nbGFzcyIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgImZvcmNlX2FwcF9iYXJfY29udGVudF9jb2xvcl9lbmFibGVkIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAiY2hhdF9oZWFkZXJfb3ZlcmxheV9tb2RlIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAidXNlX2JhY2tncm91bmRfYmx1ciIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9zaG93X2F2YXRhciIgdG8gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX3dpZGVfbGF5b3V0X2VuYWJsZWQiIHRvIGZhbHNlLAogICAgICAgICAgICAgICAgICAgICJjdXJzb3JfdXNlcl9idWJibGVfZm9sbG93X3RoZW1lIiB0byB0cnVlLAogICAgICAgICAgICAgICAgICAgICJjdXJzb3JfdXNlcl9idWJibGVfbGlxdWlkX2dsYXNzIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAiY3Vyc29yX3VzZXJfYnViYmxlX3dhdGVyX2dsYXNzIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX3VzZXJfYnViYmxlX2xpcXVpZF9nbGFzcyIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV91c2VyX2J1YmJsZV93YXRlcl9nbGFzcyIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9haV9idWJibGVfbGlxdWlkX2dsYXNzIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX2FpX2J1YmJsZV93YXRlcl9nbGFzcyIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV91c2VyX3VzZV9pbWFnZSIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9haV91c2VfaW1hZ2UiIHRvIGZhbHNlLAogICAgICAgICAgICAgICAgICAgICJidWJibGVfcm91bmRlZF9jb3JuZXJzX2VuYWJsZWQiIHRvIHRydWUsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9haV9yb3VuZGVkX2Nvcm5lcnNfZW5hYmxlZCIgdG8gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAic2hvd190aGlua2luZ19wcm9jZXNzIiB0byB0cnVlLAogICAgICAgICAgICAgICAgICAgICJzaG93X3N0YXR1c190YWdzIiB0byB0cnVlLAogICAgICAgICAgICAgICAgICAgICJzaG93X21vZGVsX3Byb3ZpZGVyIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAic2hvd19tb2RlbF9uYW1lIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAic2hvd19yb2xlX25hbWUiIHRvIHRydWUsCiAgICAgICAgICAgICAgICAgICAgInNob3dfdXNlcl9uYW1lIiB0byB0cnVlLAogICAgICAgICAgICAgICAgICAgICJzaG93X21lc3NhZ2VfdG9rZW5fc3RhdHMiIHRvIGZhbHNlLAogICAgICAgICAgICAgICAgICAgICJzaG93X21lc3NhZ2VfdGltaW5nX3N0YXRzIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAic2hvd19tZXNzYWdlX3Rva2VuX3NwZWVkIiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAic2hvd19tZXNzYWdlX3RpbWVzdGFtcCIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgInNob3dfaW5wdXRfcHJvY2Vzc2luZ19zdGF0dXMiIHRvIHRydWUsCiAgICAgICAgICAgICAgICAgICAgInNob3dfY2hhdF9mbG9hdGluZ19kb3RzX2FuaW1hdGlvbiIgdG8gdHJ1ZSwKICAgICAgICAgICAgICAgICAgICAidXNlX2N1c3RvbV9mb250IiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX3VzZXJfdXNlX2N1c3RvbV9mb250IiB0byBmYWxzZSwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX2FpX3VzZV9jdXN0b21fZm9udCIgdG8gZmFsc2UsCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgZmxvYXRzID0gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgImJhY2tncm91bmRfaW1hZ2Vfb3BhY2l0eSIgdG8gMC4zZiwKICAgICAgICAgICAgICAgICAgICAiYmFja2dyb3VuZF9ibHVyX3JhZGl1cyIgdG8gMTBmLAogICAgICAgICAgICAgICAgICAgICJhdmF0YXJfY29ybmVyX3JhZGl1cyIgdG8gOGYsCiAgICAgICAgICAgICAgICAgICAgImZvbnRfc2NhbGUiIHRvIDFmLAogICAgICAgICAgICAgICAgICAgICJidWJibGVfdXNlcl9pbWFnZV9jcm9wX2xlZnQiIHRvIDBmLAogICAgICAgICAgICAgICAgICAgICJidWJibGVfdXNlcl9pbWFnZV9jcm9wX3RvcCIgdG8gMGYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV91c2VyX2ltYWdlX2Nyb3BfcmlnaHQiIHRvIDBmLAogICAgICAgICAgICAgICAgICAgICJidWJibGVfdXNlcl9pbWFnZV9jcm9wX2JvdHRvbSIgdG8gMGYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV91c2VyX2ltYWdlX3JlcGVhdF9zdGFydCIgdG8gMC4zNWYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV91c2VyX2ltYWdlX3JlcGVhdF9lbmQiIHRvIDAuNjVmLAogICAgICAgICAgICAgICAgICAgICJidWJibGVfdXNlcl9pbWFnZV9yZXBlYXRfeV9zdGFydCIgdG8gMC4zNWYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV91c2VyX2ltYWdlX3JlcGVhdF95X2VuZCIgdG8gMC42NWYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV91c2VyX2ltYWdlX3NjYWxlIiB0byAxZiwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX2FpX2ltYWdlX2Nyb3BfbGVmdCIgdG8gMGYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9haV9pbWFnZV9jcm9wX3RvcCIgdG8gMGYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9haV9pbWFnZV9jcm9wX3JpZ2h0IiB0byAwZiwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX2FpX2ltYWdlX2Nyb3BfYm90dG9tIiB0byAwZiwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX2FpX2ltYWdlX3JlcGVhdF9zdGFydCIgdG8gMC4zNWYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9haV9pbWFnZV9yZXBlYXRfZW5kIiB0byAwLjY1ZiwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX2FpX2ltYWdlX3JlcGVhdF95X3N0YXJ0IiB0byAwLjM1ZiwKICAgICAgICAgICAgICAgICAgICAiYnViYmxlX2FpX2ltYWdlX3JlcGVhdF95X2VuZCIgdG8gMC42NWYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9haV9pbWFnZV9zY2FsZSIgdG8gMWYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9jb250ZW50X3BhZGRpbmdfbGVmdCIgdG8gMTJmLAogICAgICAgICAgICAgICAgICAgICJidWJibGVfY29udGVudF9wYWRkaW5nX3JpZ2h0IiB0byAxMmYsCiAgICAgICAgICAgICAgICAgICAgImJ1YmJsZV9haV9jb250ZW50X3BhZGRpbmdfbGVmdCIgdG8gMTJmLAogICAgICAgICAgICAgICAgICAgICJidWJibGVfYWlfY29udGVudF9wYWRkaW5nX3JpZ2h0IiB0byAxMmYsCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICApCiAgICB9Cn0KCmRhdGEgY2xhc3MgVGhlbWVQcmVmZXJlbmNlU25hcHNob3QoCiAgICB2YWwgc291cmNlOiBTdHJpbmcsCiAgICB2YWwgc291cmNlSWQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHZhbHVlczogVGhlbWVQcmVmZXJlbmNlVmFsdWVzLAopIHsKICAgIHZhbCB0aGVtZU1vZGU6IFN0cmluZyBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZFN0cmluZygidGhlbWVfbW9kZSIpCiAgICB2YWwgdXNlU3lzdGVtVGhlbWU6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJ1c2Vfc3lzdGVtX3RoZW1lIikKICAgIHZhbCB1c2VDdXN0b21Db2xvcnM6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJ1c2VfY3VzdG9tX2NvbG9ycyIpCiAgICB2YWwgY3VzdG9tUHJpbWFyeUNvbG9yOiBJbnQ/IGdldCgpID0gdmFsdWVzLmludCgiY3VzdG9tX3ByaW1hcnlfY29sb3IiKQogICAgdmFsIGN1c3RvbVNlY29uZGFyeUNvbG9yOiBJbnQ/IGdldCgpID0gdmFsdWVzLmludCgiY3VzdG9tX3NlY29uZGFyeV9jb2xvciIpCiAgICB2YWwgb25Db2xvck1vZGU6IFN0cmluZyBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZFN0cmluZygib25fY29sb3JfbW9kZSIpCiAgICB2YWwgdXNlQmFja2dyb3VuZEltYWdlOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigidXNlX2JhY2tncm91bmRfaW1hZ2UiKQogICAgdmFsIGJhY2tncm91bmRJbWFnZVVyaTogU3RyaW5nPyBnZXQoKSA9IHZhbHVlcy5zdHJpbmcoImJhY2tncm91bmRfaW1hZ2VfdXJpIikKICAgIHZhbCBiYWNrZ3JvdW5kTWVkaWFUeXBlOiBTdHJpbmcgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRTdHJpbmcoImJhY2tncm91bmRfbWVkaWFfdHlwZSIpCiAgICB2YWwgYmFja2dyb3VuZEltYWdlT3BhY2l0eTogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYmFja2dyb3VuZF9pbWFnZV9vcGFjaXR5IikKICAgIHZhbCB2aWRlb0JhY2tncm91bmRNdXRlZDogQm9vbGVhbiBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInZpZGVvX2JhY2tncm91bmRfbXV0ZWQiKQogICAgdmFsIHZpZGVvQmFja2dyb3VuZExvb3A6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJ2aWRlb19iYWNrZ3JvdW5kX2xvb3AiKQogICAgdmFsIHRvb2xiYXJUcmFuc3BhcmVudDogQm9vbGVhbiBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInRvb2xiYXJfdHJhbnNwYXJlbnQiKQogICAgdmFsIG5hdmlnYXRpb25EcmF3ZXJXYXRlckdsYXNzOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJuYXZpZ2F0aW9uX2RyYXdlcl93YXRlcl9nbGFzcyIpCiAgICB2YWwgbmF2aWdhdGlvbkRyYXdlckJ1dHRvbkxpcXVpZEdsYXNzOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJuYXZpZ2F0aW9uX2RyYXdlcl9idXR0b25fbGlxdWlkX2dsYXNzIikKICAgIHZhbCB1c2VDdXN0b21OYXZpZ2F0aW9uRHJhd2VyQmFja2dyb3VuZENvbG9yOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJ1c2VfY3VzdG9tX25hdmlnYXRpb25fZHJhd2VyX2JhY2tncm91bmRfY29sb3IiKQogICAgdmFsIGN1c3RvbU5hdmlnYXRpb25EcmF3ZXJCYWNrZ3JvdW5kQ29sb3I6IEludD8KICAgICAgICBnZXQoKSA9IHZhbHVlcy5pbnQoImN1c3RvbV9uYXZpZ2F0aW9uX2RyYXdlcl9iYWNrZ3JvdW5kX2NvbG9yIikKICAgIHZhbCB1c2VDdXN0b21OYXZpZ2F0aW9uRHJhd2VyQWNjZW50Q29sb3I6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInVzZV9jdXN0b21fbmF2aWdhdGlvbl9kcmF3ZXJfYWNjZW50X2NvbG9yIikKICAgIHZhbCBjdXN0b21OYXZpZ2F0aW9uRHJhd2VyQWNjZW50Q29sb3I6IEludD8KICAgICAgICBnZXQoKSA9IHZhbHVlcy5pbnQoImN1c3RvbV9uYXZpZ2F0aW9uX2RyYXdlcl9hY2NlbnRfY29sb3IiKQogICAgdmFsIHVzZUN1c3RvbUFwcEJhckNvbG9yOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigidXNlX2N1c3RvbV9hcHBfYmFyX2NvbG9yIikKICAgIHZhbCBjdXN0b21BcHBCYXJDb2xvcjogSW50PyBnZXQoKSA9IHZhbHVlcy5pbnQoImN1c3RvbV9hcHBfYmFyX2NvbG9yIikKICAgIHZhbCB1c2VDdXN0b21TdGF0dXNCYXJDb2xvcjogQm9vbGVhbgogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigidXNlX2N1c3RvbV9zdGF0dXNfYmFyX2NvbG9yIikKICAgIHZhbCBjdXN0b21TdGF0dXNCYXJDb2xvcjogSW50PyBnZXQoKSA9IHZhbHVlcy5pbnQoImN1c3RvbV9zdGF0dXNfYmFyX2NvbG9yIikKICAgIHZhbCBzdGF0dXNCYXJUcmFuc3BhcmVudDogQm9vbGVhbiBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInN0YXR1c19iYXJfdHJhbnNwYXJlbnQiKQogICAgdmFsIHN0YXR1c0JhckhpZGRlbjogQm9vbGVhbiBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInN0YXR1c19iYXJfaGlkZGVuIikKICAgIHZhbCBjaGF0SGVhZGVyVHJhbnNwYXJlbnQ6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJjaGF0X2hlYWRlcl90cmFuc3BhcmVudCIpCiAgICB2YWwgY2hhdEhlYWRlck92ZXJsYXlNb2RlOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiY2hhdF9oZWFkZXJfb3ZlcmxheV9tb2RlIikKICAgIHZhbCBjaGF0SGVhZGVySGlzdG9yeUljb25Db2xvcjogSW50PyBnZXQoKSA9IHZhbHVlcy5pbnQoImNoYXRfaGVhZGVyX2hpc3RvcnlfaWNvbl9jb2xvciIpCiAgICB2YWwgY2hhdEhlYWRlclBpcEljb25Db2xvcjogSW50PyBnZXQoKSA9IHZhbHVlcy5pbnQoImNoYXRfaGVhZGVyX3BpcF9pY29uX2NvbG9yIikKICAgIHZhbCBjaGF0SW5wdXRUcmFuc3BhcmVudDogQm9vbGVhbiBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oImNoYXRfaW5wdXRfdHJhbnNwYXJlbnQiKQogICAgdmFsIGNoYXRJbnB1dEZsb2F0aW5nOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiY2hhdF9pbnB1dF9mbG9hdGluZyIpCiAgICB2YWwgY2hhdElucHV0TGlxdWlkR2xhc3M6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJjaGF0X2lucHV0X2xpcXVpZF9nbGFzcyIpCiAgICB2YWwgY2hhdElucHV0V2F0ZXJHbGFzczogQm9vbGVhbiBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oImNoYXRfaW5wdXRfd2F0ZXJfZ2xhc3MiKQogICAgdmFsIGZvcmNlQXBwQmFyQ29udGVudENvbG9yOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJmb3JjZV9hcHBfYmFyX2NvbnRlbnRfY29sb3JfZW5hYmxlZCIpCiAgICB2YWwgYXBwQmFyQ29udGVudENvbG9yTW9kZTogU3RyaW5nIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkU3RyaW5nKCJhcHBfYmFyX2NvbnRlbnRfY29sb3JfbW9kZSIpCiAgICB2YWwgdXNlQmFja2dyb3VuZEJsdXI6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJ1c2VfYmFja2dyb3VuZF9ibHVyIikKICAgIHZhbCBiYWNrZ3JvdW5kQmx1clJhZGl1czogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYmFja2dyb3VuZF9ibHVyX3JhZGl1cyIpCiAgICB2YWwgY2hhdFN0eWxlOiBTdHJpbmcgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRTdHJpbmcoImNoYXRfc3R5bGUiKQogICAgdmFsIGlucHV0U3R5bGU6IFN0cmluZyBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZFN0cmluZygiaW5wdXRfc3R5bGUiKQogICAgdmFsIGJ1YmJsZVNob3dBdmF0YXI6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJidWJibGVfc2hvd19hdmF0YXIiKQogICAgdmFsIGJ1YmJsZVdpZGVMYXlvdXRFbmFibGVkOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiYnViYmxlX3dpZGVfbGF5b3V0X2VuYWJsZWQiKQogICAgdmFsIGN1cnNvclVzZXJCdWJibGVGb2xsb3dUaGVtZTogQm9vbGVhbgogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiY3Vyc29yX3VzZXJfYnViYmxlX2ZvbGxvd190aGVtZSIpCiAgICB2YWwgY3Vyc29yVXNlckJ1YmJsZUNvbG9yOiBJbnQ/IGdldCgpID0gdmFsdWVzLmludCgiY3Vyc29yX3VzZXJfYnViYmxlX2NvbG9yIikKICAgIHZhbCBidWJibGVVc2VyQnViYmxlQ29sb3I6IEludD8gZ2V0KCkgPSB2YWx1ZXMuaW50KCJidWJibGVfdXNlcl9idWJibGVfY29sb3IiKQogICAgdmFsIGJ1YmJsZUFpQnViYmxlQ29sb3I6IEludD8gZ2V0KCkgPSB2YWx1ZXMuaW50KCJidWJibGVfYWlfYnViYmxlX2NvbG9yIikKICAgIHZhbCBidWJibGVVc2VyVGV4dENvbG9yOiBJbnQ/IGdldCgpID0gdmFsdWVzLmludCgiYnViYmxlX3VzZXJfdGV4dF9jb2xvciIpCiAgICB2YWwgYnViYmxlQWlUZXh0Q29sb3I6IEludD8gZ2V0KCkgPSB2YWx1ZXMuaW50KCJidWJibGVfYWlfdGV4dF9jb2xvciIpCiAgICB2YWwgYnViYmxlVXNlclVzZUltYWdlOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiYnViYmxlX3VzZXJfdXNlX2ltYWdlIikKICAgIHZhbCBidWJibGVBaVVzZUltYWdlOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiYnViYmxlX2FpX3VzZV9pbWFnZSIpCiAgICB2YWwgYnViYmxlVXNlckltYWdlVXJpOiBTdHJpbmc/IGdldCgpID0gdmFsdWVzLnN0cmluZygiYnViYmxlX3VzZXJfaW1hZ2VfdXJpIikKICAgIHZhbCBidWJibGVBaUltYWdlVXJpOiBTdHJpbmc/IGdldCgpID0gdmFsdWVzLnN0cmluZygiYnViYmxlX2FpX2ltYWdlX3VyaSIpCiAgICB2YWwgYnViYmxlVXNlckltYWdlQ3JvcExlZnQ6IEZsb2F0IGdldCgpID0gdmFsdWVzLnJlcXVpcmVkRmxvYXQoImJ1YmJsZV91c2VyX2ltYWdlX2Nyb3BfbGVmdCIpCiAgICB2YWwgYnViYmxlVXNlckltYWdlQ3JvcFRvcDogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX3VzZXJfaW1hZ2VfY3JvcF90b3AiKQogICAgdmFsIGJ1YmJsZVVzZXJJbWFnZUNyb3BSaWdodDogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX3VzZXJfaW1hZ2VfY3JvcF9yaWdodCIpCiAgICB2YWwgYnViYmxlVXNlckltYWdlQ3JvcEJvdHRvbTogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX3VzZXJfaW1hZ2VfY3JvcF9ib3R0b20iKQogICAgdmFsIGJ1YmJsZVVzZXJJbWFnZVJlcGVhdFN0YXJ0OiBGbG9hdAogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkRmxvYXQoImJ1YmJsZV91c2VyX2ltYWdlX3JlcGVhdF9zdGFydCIpCiAgICB2YWwgYnViYmxlVXNlckltYWdlUmVwZWF0RW5kOiBGbG9hdCBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEZsb2F0KCJidWJibGVfdXNlcl9pbWFnZV9yZXBlYXRfZW5kIikKICAgIHZhbCBidWJibGVVc2VySW1hZ2VSZXBlYXRZU3RhcnQ6IEZsb2F0CiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX3VzZXJfaW1hZ2VfcmVwZWF0X3lfc3RhcnQiKQogICAgdmFsIGJ1YmJsZVVzZXJJbWFnZVJlcGVhdFlFbmQ6IEZsb2F0CiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX3VzZXJfaW1hZ2VfcmVwZWF0X3lfZW5kIikKICAgIHZhbCBidWJibGVVc2VySW1hZ2VTY2FsZTogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX3VzZXJfaW1hZ2Vfc2NhbGUiKQogICAgdmFsIGJ1YmJsZUFpSW1hZ2VDcm9wTGVmdDogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX2FpX2ltYWdlX2Nyb3BfbGVmdCIpCiAgICB2YWwgYnViYmxlQWlJbWFnZUNyb3BUb3A6IEZsb2F0IGdldCgpID0gdmFsdWVzLnJlcXVpcmVkRmxvYXQoImJ1YmJsZV9haV9pbWFnZV9jcm9wX3RvcCIpCiAgICB2YWwgYnViYmxlQWlJbWFnZUNyb3BSaWdodDogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX2FpX2ltYWdlX2Nyb3BfcmlnaHQiKQogICAgdmFsIGJ1YmJsZUFpSW1hZ2VDcm9wQm90dG9tOiBGbG9hdCBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEZsb2F0KCJidWJibGVfYWlfaW1hZ2VfY3JvcF9ib3R0b20iKQogICAgdmFsIGJ1YmJsZUFpSW1hZ2VSZXBlYXRTdGFydDogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX2FpX2ltYWdlX3JlcGVhdF9zdGFydCIpCiAgICB2YWwgYnViYmxlQWlJbWFnZVJlcGVhdEVuZDogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX2FpX2ltYWdlX3JlcGVhdF9lbmQiKQogICAgdmFsIGJ1YmJsZUFpSW1hZ2VSZXBlYXRZU3RhcnQ6IEZsb2F0CiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX2FpX2ltYWdlX3JlcGVhdF95X3N0YXJ0IikKICAgIHZhbCBidWJibGVBaUltYWdlUmVwZWF0WUVuZDogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYnViYmxlX2FpX2ltYWdlX3JlcGVhdF95X2VuZCIpCiAgICB2YWwgYnViYmxlQWlJbWFnZVNjYWxlOiBGbG9hdCBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEZsb2F0KCJidWJibGVfYWlfaW1hZ2Vfc2NhbGUiKQogICAgdmFsIGJ1YmJsZUltYWdlUmVuZGVyTW9kZTogU3RyaW5nIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkU3RyaW5nKCJidWJibGVfaW1hZ2VfcmVuZGVyX21vZGUiKQogICAgdmFsIGJ1YmJsZVVzZXJSb3VuZGVkQ29ybmVyc0VuYWJsZWQ6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oImJ1YmJsZV9yb3VuZGVkX2Nvcm5lcnNfZW5hYmxlZCIpCiAgICB2YWwgYnViYmxlQWlSb3VuZGVkQ29ybmVyc0VuYWJsZWQ6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oImJ1YmJsZV9haV9yb3VuZGVkX2Nvcm5lcnNfZW5hYmxlZCIpCiAgICB2YWwgYnViYmxlVXNlckNvbnRlbnRQYWRkaW5nTGVmdDogRmxvYXQKICAgICAgICBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEZsb2F0KCJidWJibGVfY29udGVudF9wYWRkaW5nX2xlZnQiKQogICAgdmFsIGJ1YmJsZVVzZXJDb250ZW50UGFkZGluZ1JpZ2h0OiBGbG9hdAogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkRmxvYXQoImJ1YmJsZV9jb250ZW50X3BhZGRpbmdfcmlnaHQiKQogICAgdmFsIGJ1YmJsZUFpQ29udGVudFBhZGRpbmdMZWZ0OiBGbG9hdAogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkRmxvYXQoImJ1YmJsZV9haV9jb250ZW50X3BhZGRpbmdfbGVmdCIpCiAgICB2YWwgYnViYmxlQWlDb250ZW50UGFkZGluZ1JpZ2h0OiBGbG9hdAogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkRmxvYXQoImJ1YmJsZV9haV9jb250ZW50X3BhZGRpbmdfcmlnaHQiKQogICAgdmFsIGN1c3RvbVVzZXJBdmF0YXJVcmk6IFN0cmluZz8gZ2V0KCkgPSB2YWx1ZXMuc3RyaW5nKCJjdXN0b21fdXNlcl9hdmF0YXJfdXJpIikKICAgIHZhbCBjdXN0b21BaUF2YXRhclVyaTogU3RyaW5nPyBnZXQoKSA9IHZhbHVlcy5zdHJpbmcoImN1c3RvbV9haV9hdmF0YXJfdXJpIikKICAgIHZhbCBhdmF0YXJTaGFwZTogU3RyaW5nIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkU3RyaW5nKCJhdmF0YXJfc2hhcGUiKQogICAgdmFsIGF2YXRhckNvcm5lclJhZGl1czogRmxvYXQgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRGbG9hdCgiYXZhdGFyX2Nvcm5lcl9yYWRpdXMiKQogICAgdmFsIGZvbnRUeXBlOiBTdHJpbmcgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRTdHJpbmcoImZvbnRfdHlwZSIpCiAgICB2YWwgc3lzdGVtRm9udE5hbWU6IFN0cmluZyBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZFN0cmluZygic3lzdGVtX2ZvbnRfbmFtZSIpCiAgICB2YWwgY3VzdG9tRm9udFBhdGg6IFN0cmluZz8gZ2V0KCkgPSB2YWx1ZXMuc3RyaW5nKCJjdXN0b21fZm9udF9wYXRoIikKICAgIHZhbCBmb250U2NhbGU6IEZsb2F0IGdldCgpID0gdmFsdWVzLnJlcXVpcmVkRmxvYXQoImZvbnRfc2NhbGUiKQogICAgdmFsIHNob3dUaGlua2luZ1Byb2Nlc3M6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJzaG93X3RoaW5raW5nX3Byb2Nlc3MiKQogICAgdmFsIHNob3dTdGF0dXNUYWdzOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigic2hvd19zdGF0dXNfdGFncyIpCiAgICB2YWwgc2hvd01vZGVsUHJvdmlkZXI6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJzaG93X21vZGVsX3Byb3ZpZGVyIikKICAgIHZhbCBzaG93TW9kZWxOYW1lOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigic2hvd19tb2RlbF9uYW1lIikKICAgIHZhbCBzaG93Um9sZU5hbWU6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJzaG93X3JvbGVfbmFtZSIpCiAgICB2YWwgc2hvd1VzZXJOYW1lOiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigic2hvd191c2VyX25hbWUiKQogICAgdmFsIHNob3dNZXNzYWdlVG9rZW5TdGF0czogQm9vbGVhbiBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInNob3dfbWVzc2FnZV90b2tlbl9zdGF0cyIpCiAgICB2YWwgc2hvd01lc3NhZ2VUaW1pbmdTdGF0czogQm9vbGVhbiBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInNob3dfbWVzc2FnZV90aW1pbmdfc3RhdHMiKQogICAgdmFsIHNob3dNZXNzYWdlVG9rZW5TcGVlZDogQm9vbGVhbiBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInNob3dfbWVzc2FnZV90b2tlbl9zcGVlZCIpCiAgICB2YWwgc2hvd01lc3NhZ2VUaW1lc3RhbXA6IEJvb2xlYW4gZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJzaG93X21lc3NhZ2VfdGltZXN0YW1wIikKICAgIHZhbCBzaG93SW5wdXRQcm9jZXNzaW5nU3RhdHVzOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJzaG93X2lucHV0X3Byb2Nlc3Npbmdfc3RhdHVzIikKICAgIHZhbCB1c2VDdXN0b21Gb250OiBCb29sZWFuIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigidXNlX2N1c3RvbV9mb250IikKICAgIHZhbCBidWJibGVVc2VyVXNlQ3VzdG9tRm9udDogQm9vbGVhbgogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiYnViYmxlX3VzZXJfdXNlX2N1c3RvbV9mb250IikKICAgIHZhbCBidWJibGVVc2VyRm9udFR5cGU6IFN0cmluZyBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZFN0cmluZygiYnViYmxlX3VzZXJfZm9udF90eXBlIikKICAgIHZhbCBidWJibGVVc2VyU3lzdGVtRm9udE5hbWU6IFN0cmluZwogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkU3RyaW5nKCJidWJibGVfdXNlcl9zeXN0ZW1fZm9udF9uYW1lIikKICAgIHZhbCBidWJibGVVc2VyQ3VzdG9tRm9udFBhdGg6IFN0cmluZz8gZ2V0KCkgPSB2YWx1ZXMuc3RyaW5nKCJidWJibGVfdXNlcl9jdXN0b21fZm9udF9wYXRoIikKICAgIHZhbCBidWJibGVBaVVzZUN1c3RvbUZvbnQ6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oImJ1YmJsZV9haV91c2VfY3VzdG9tX2ZvbnQiKQogICAgdmFsIGJ1YmJsZUFpRm9udFR5cGU6IFN0cmluZyBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZFN0cmluZygiYnViYmxlX2FpX2ZvbnRfdHlwZSIpCiAgICB2YWwgYnViYmxlQWlTeXN0ZW1Gb250TmFtZTogU3RyaW5nCiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRTdHJpbmcoImJ1YmJsZV9haV9zeXN0ZW1fZm9udF9uYW1lIikKICAgIHZhbCBidWJibGVBaUN1c3RvbUZvbnRQYXRoOiBTdHJpbmc/IGdldCgpID0gdmFsdWVzLnN0cmluZygiYnViYmxlX2FpX2N1c3RvbV9mb250X3BhdGgiKQogICAgdmFsIGN1cnNvclVzZXJCdWJibGVMaXF1aWRHbGFzczogQm9vbGVhbgogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiY3Vyc29yX3VzZXJfYnViYmxlX2xpcXVpZF9nbGFzcyIpCiAgICB2YWwgY3Vyc29yVXNlckJ1YmJsZVdhdGVyR2xhc3M6IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oImN1cnNvcl91c2VyX2J1YmJsZV93YXRlcl9nbGFzcyIpCiAgICB2YWwgYnViYmxlVXNlckJ1YmJsZUxpcXVpZEdsYXNzOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJidWJibGVfdXNlcl9idWJibGVfbGlxdWlkX2dsYXNzIikKICAgIHZhbCBidWJibGVVc2VyQnViYmxlV2F0ZXJHbGFzczogQm9vbGVhbgogICAgICAgIGdldCgpID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiYnViYmxlX3VzZXJfYnViYmxlX3dhdGVyX2dsYXNzIikKICAgIHZhbCBidWJibGVBaUJ1YmJsZUxpcXVpZEdsYXNzOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJidWJibGVfYWlfYnViYmxlX2xpcXVpZF9nbGFzcyIpCiAgICB2YWwgYnViYmxlQWlCdWJibGVXYXRlckdsYXNzOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJidWJibGVfYWlfYnViYmxlX3dhdGVyX2dsYXNzIikKICAgIHZhbCBjdXN0b21DaGF0VGl0bGU6IFN0cmluZz8gZ2V0KCkgPSB2YWx1ZXMuc3RyaW5nKCJjdXN0b21fY2hhdF90aXRsZSIpCiAgICB2YWwgc2hvd0NoYXRGbG9hdGluZ0RvdHNBbmltYXRpb246IEJvb2xlYW4KICAgICAgICBnZXQoKSA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oInNob3dfY2hhdF9mbG9hdGluZ19kb3RzX2FuaW1hdGlvbiIpCn0K
+package com.bslsjdk.operit.data.preferences
+
+data class ThemePreferenceValues(
+    val strings: Map<String, String> = emptyMap(),
+    val booleans: Map<String, Boolean> = emptyMap(),
+    val ints: Map<String, Int> = emptyMap(),
+    val floats: Map<String, Float> = emptyMap(),
+) {
+    fun string(name: String): String? = strings[name]
+
+    fun boolean(name: String): Boolean? = booleans[name]
+
+    fun int(name: String): Int? = ints[name]
+
+    fun float(name: String): Float? = floats[name]
+
+    fun requiredString(name: String): String = requireNotNull(string(name))
+
+    fun requiredBoolean(name: String): Boolean = requireNotNull(boolean(name))
+
+    fun requiredFloat(name: String): Float = requireNotNull(float(name))
+
+    fun withString(name: String, value: String?): ThemePreferenceValues {
+        val updated = strings.toMutableMap()
+        if (value == null) {
+            updated.remove(name)
+        } else {
+            updated[name] = value
+        }
+        return copy(strings = updated)
+    }
+
+    fun withBoolean(name: String, value: Boolean): ThemePreferenceValues =
+        copy(booleans = booleans + (name to value))
+
+    fun withInt(name: String, value: Int?): ThemePreferenceValues {
+        val updated = ints.toMutableMap()
+        if (value == null) {
+            updated.remove(name)
+        } else {
+            updated[name] = value
+        }
+        return copy(ints = updated)
+    }
+
+    fun withFloat(name: String, value: Float): ThemePreferenceValues =
+        copy(floats = floats + (name to value))
+
+    companion object {
+        fun defaultVisual(): ThemePreferenceValues =
+            ThemePreferenceValues(
+                strings = mapOf(
+                    "theme_mode" to UserPreferencesManager.THEME_MODE_LIGHT,
+                    "background_media_type" to UserPreferencesManager.MEDIA_TYPE_IMAGE,
+                    "app_bar_content_color_mode" to
+                        UserPreferencesManager.APP_BAR_CONTENT_COLOR_MODE_LIGHT,
+                    "chat_style" to UserPreferencesManager.CHAT_STYLE_CURSOR,
+                    "avatar_shape" to UserPreferencesManager.AVATAR_SHAPE_CIRCLE,
+                    "on_color_mode" to UserPreferencesManager.ON_COLOR_MODE_AUTO,
+                    "input_style" to UserPreferencesManager.INPUT_STYLE_AGENT,
+                    "font_type" to UserPreferencesManager.FONT_TYPE_SYSTEM,
+                    "system_font_name" to UserPreferencesManager.SYSTEM_FONT_DEFAULT,
+                    "bubble_user_font_type" to UserPreferencesManager.FONT_TYPE_SYSTEM,
+                    "bubble_user_system_font_name" to UserPreferencesManager.SYSTEM_FONT_DEFAULT,
+                    "bubble_ai_font_type" to UserPreferencesManager.FONT_TYPE_SYSTEM,
+                    "bubble_ai_system_font_name" to UserPreferencesManager.SYSTEM_FONT_DEFAULT,
+                    "bubble_image_render_mode" to
+                        UserPreferencesManager.BUBBLE_IMAGE_RENDER_MODE_TILED_NINE_SLICE,
+                ),
+                booleans = mapOf(
+                    "use_system_theme" to true,
+                    "use_custom_colors" to false,
+                    "use_background_image" to false,
+                    "video_background_muted" to true,
+                    "video_background_loop" to true,
+                    "toolbar_transparent" to false,
+                    "navigation_drawer_water_glass" to false,
+                    "navigation_drawer_button_liquid_glass" to false,
+                    "use_custom_navigation_drawer_background_color" to false,
+                    "use_custom_navigation_drawer_accent_color" to false,
+                    "use_custom_app_bar_color" to false,
+                    "use_custom_status_bar_color" to false,
+                    "status_bar_transparent" to false,
+                    "status_bar_hidden" to false,
+                    "chat_header_transparent" to false,
+                    "chat_input_transparent" to false,
+                    "chat_input_floating" to false,
+                    "chat_input_liquid_glass" to false,
+                    "chat_input_water_glass" to false,
+                    "force_app_bar_content_color_enabled" to false,
+                    "chat_header_overlay_mode" to false,
+                    "use_background_blur" to false,
+                    "bubble_show_avatar" to true,
+                    "bubble_wide_layout_enabled" to false,
+                    "cursor_user_bubble_follow_theme" to true,
+                    "cursor_user_bubble_liquid_glass" to false,
+                    "cursor_user_bubble_water_glass" to false,
+                    "bubble_user_bubble_liquid_glass" to false,
+                    "bubble_user_bubble_water_glass" to false,
+                    "bubble_ai_bubble_liquid_glass" to false,
+                    "bubble_ai_bubble_water_glass" to false,
+                    "bubble_user_use_image" to false,
+                    "bubble_ai_use_image" to false,
+                    "bubble_rounded_corners_enabled" to true,
+                    "bubble_ai_rounded_corners_enabled" to true,
+                    "show_thinking_process" to true,
+                    "show_status_tags" to true,
+                    "show_model_provider" to false,
+                    "show_model_name" to false,
+                    "show_role_name" to true,
+                    "show_user_name" to true,
+                    "show_message_token_stats" to false,
+                    "show_message_timing_stats" to false,
+                    "show_message_token_speed" to false,
+                    "show_message_timestamp" to false,
+                    "show_input_processing_status" to true,
+                    "show_chat_floating_dots_animation" to true,
+                    "use_custom_font" to false,
+                    "bubble_user_use_custom_font" to false,
+                    "bubble_ai_use_custom_font" to false,
+                ),
+                floats = mapOf(
+                    "background_image_opacity" to 0.3f,
+                    "background_blur_radius" to 10f,
+                    "avatar_corner_radius" to 8f,
+                    "font_scale" to 1f,
+                    "bubble_user_image_crop_left" to 0f,
+                    "bubble_user_image_crop_top" to 0f,
+                    "bubble_user_image_crop_right" to 0f,
+                    "bubble_user_image_crop_bottom" to 0f,
+                    "bubble_user_image_repeat_start" to 0.35f,
+                    "bubble_user_image_repeat_end" to 0.65f,
+                    "bubble_user_image_repeat_y_start" to 0.35f,
+                    "bubble_user_image_repeat_y_end" to 0.65f,
+                    "bubble_user_image_scale" to 1f,
+                    "bubble_ai_image_crop_left" to 0f,
+                    "bubble_ai_image_crop_top" to 0f,
+                    "bubble_ai_image_crop_right" to 0f,
+                    "bubble_ai_image_crop_bottom" to 0f,
+                    "bubble_ai_image_repeat_start" to 0.35f,
+                    "bubble_ai_image_repeat_end" to 0.65f,
+                    "bubble_ai_image_repeat_y_start" to 0.35f,
+                    "bubble_ai_image_repeat_y_end" to 0.65f,
+                    "bubble_ai_image_scale" to 1f,
+                    "bubble_content_padding_left" to 12f,
+                    "bubble_content_padding_right" to 12f,
+                    "bubble_ai_content_padding_left" to 12f,
+                    "bubble_ai_content_padding_right" to 12f,
+                ),
+            )
+    }
+}
+
+data class ThemePreferenceSnapshot(
+    val source: String,
+    val sourceId: String? = null,
+    val values: ThemePreferenceValues,
+) {
+    val themeMode: String get() = values.requiredString("theme_mode")
+    val useSystemTheme: Boolean get() = values.requiredBoolean("use_system_theme")
+    val useCustomColors: Boolean get() = values.requiredBoolean("use_custom_colors")
+    val customPrimaryColor: Int? get() = values.int("custom_primary_color")
+    val customSecondaryColor: Int? get() = values.int("custom_secondary_color")
+    val onColorMode: String get() = values.requiredString("on_color_mode")
+    val useBackgroundImage: Boolean get() = values.requiredBoolean("use_background_image")
+    val backgroundImageUri: String? get() = values.string("background_image_uri")
+    val backgroundMediaType: String get() = values.requiredString("background_media_type")
+    val backgroundImageOpacity: Float get() = values.requiredFloat("background_image_opacity")
+    val videoBackgroundMuted: Boolean get() = values.requiredBoolean("video_background_muted")
+    val videoBackgroundLoop: Boolean get() = values.requiredBoolean("video_background_loop")
+    val toolbarTransparent: Boolean get() = values.requiredBoolean("toolbar_transparent")
+    val navigationDrawerWaterGlass: Boolean
+        get() = values.requiredBoolean("navigation_drawer_water_glass")
+    val navigationDrawerButtonLiquidGlass: Boolean
+        get() = values.requiredBoolean("navigation_drawer_button_liquid_glass")
+    val useCustomNavigationDrawerBackgroundColor: Boolean
+        get() = values.requiredBoolean("use_custom_navigation_drawer_background_color")
+    val customNavigationDrawerBackgroundColor: Int?
+        get() = values.int("custom_navigation_drawer_background_color")
+    val useCustomNavigationDrawerAccentColor: Boolean
+        get() = values.requiredBoolean("use_custom_navigation_drawer_accent_color")
+    val customNavigationDrawerAccentColor: Int?
+        get() = values.int("custom_navigation_drawer_accent_color")
+    val useCustomAppBarColor: Boolean get() = values.requiredBoolean("use_custom_app_bar_color")
+    val customAppBarColor: Int? get() = values.int("custom_app_bar_color")
+    val useCustomStatusBarColor: Boolean
+        get() = values.requiredBoolean("use_custom_status_bar_color")
+    val customStatusBarColor: Int? get() = values.int("custom_status_bar_color")
+    val statusBarTransparent: Boolean get() = values.requiredBoolean("status_bar_transparent")
+    val statusBarHidden: Boolean get() = values.requiredBoolean("status_bar_hidden")
+    val chatHeaderTransparent: Boolean get() = values.requiredBoolean("chat_header_transparent")
+    val chatHeaderOverlayMode: Boolean get() = values.requiredBoolean("chat_header_overlay_mode")
+    val chatHeaderHistoryIconColor: Int? get() = values.int("chat_header_history_icon_color")
+    val chatHeaderPipIconColor: Int? get() = values.int("chat_header_pip_icon_color")
+    val chatInputTransparent: Boolean get() = values.requiredBoolean("chat_input_transparent")
+    val chatInputFloating: Boolean get() = values.requiredBoolean("chat_input_floating")
+    val chatInputLiquidGlass: Boolean get() = values.requiredBoolean("chat_input_liquid_glass")
+    val chatInputWaterGlass: Boolean get() = values.requiredBoolean("chat_input_water_glass")
+    val forceAppBarContentColor: Boolean
+        get() = values.requiredBoolean("force_app_bar_content_color_enabled")
+    val appBarContentColorMode: String get() = values.requiredString("app_bar_content_color_mode")
+    val useBackgroundBlur: Boolean get() = values.requiredBoolean("use_background_blur")
+    val backgroundBlurRadius: Float get() = values.requiredFloat("background_blur_radius")
+    val chatStyle: String get() = values.requiredString("chat_style")
+    val inputStyle: String get() = values.requiredString("input_style")
+    val bubbleShowAvatar: Boolean get() = values.requiredBoolean("bubble_show_avatar")
+    val bubbleWideLayoutEnabled: Boolean get() = values.requiredBoolean("bubble_wide_layout_enabled")
+    val cursorUserBubbleFollowTheme: Boolean
+        get() = values.requiredBoolean("cursor_user_bubble_follow_theme")
+    val cursorUserBubbleColor: Int? get() = values.int("cursor_user_bubble_color")
+    val bubbleUserBubbleColor: Int? get() = values.int("bubble_user_bubble_color")
+    val bubbleAiBubbleColor: Int? get() = values.int("bubble_ai_bubble_color")
+    val bubbleUserTextColor: Int? get() = values.int("bubble_user_text_color")
+    val bubbleAiTextColor: Int? get() = values.int("bubble_ai_text_color")
+    val bubbleUserUseImage: Boolean get() = values.requiredBoolean("bubble_user_use_image")
+    val bubbleAiUseImage: Boolean get() = values.requiredBoolean("bubble_ai_use_image")
+    val bubbleUserImageUri: String? get() = values.string("bubble_user_image_uri")
+    val bubbleAiImageUri: String? get() = values.string("bubble_ai_image_uri")
+    val bubbleUserImageCropLeft: Float get() = values.requiredFloat("bubble_user_image_crop_left")
+    val bubbleUserImageCropTop: Float get() = values.requiredFloat("bubble_user_image_crop_top")
+    val bubbleUserImageCropRight: Float get() = values.requiredFloat("bubble_user_image_crop_right")
+    val bubbleUserImageCropBottom: Float get() = values.requiredFloat("bubble_user_image_crop_bottom")
+    val bubbleUserImageRepeatStart: Float
+        get() = values.requiredFloat("bubble_user_image_repeat_start")
+    val bubbleUserImageRepeatEnd: Float get() = values.requiredFloat("bubble_user_image_repeat_end")
+    val bubbleUserImageRepeatYStart: Float
+        get() = values.requiredFloat("bubble_user_image_repeat_y_start")
+    val bubbleUserImageRepeatYEnd: Float
+        get() = values.requiredFloat("bubble_user_image_repeat_y_end")
+    val bubbleUserImageScale: Float get() = values.requiredFloat("bubble_user_image_scale")
+    val bubbleAiImageCropLeft: Float get() = values.requiredFloat("bubble_ai_image_crop_left")
+    val bubbleAiImageCropTop: Float get() = values.requiredFloat("bubble_ai_image_crop_top")
+    val bubbleAiImageCropRight: Float get() = values.requiredFloat("bubble_ai_image_crop_right")
+    val bubbleAiImageCropBottom: Float get() = values.requiredFloat("bubble_ai_image_crop_bottom")
+    val bubbleAiImageRepeatStart: Float get() = values.requiredFloat("bubble_ai_image_repeat_start")
+    val bubbleAiImageRepeatEnd: Float get() = values.requiredFloat("bubble_ai_image_repeat_end")
+    val bubbleAiImageRepeatYStart: Float
+        get() = values.requiredFloat("bubble_ai_image_repeat_y_start")
+    val bubbleAiImageRepeatYEnd: Float get() = values.requiredFloat("bubble_ai_image_repeat_y_end")
+    val bubbleAiImageScale: Float get() = values.requiredFloat("bubble_ai_image_scale")
+    val bubbleImageRenderMode: String get() = values.requiredString("bubble_image_render_mode")
+    val bubbleUserRoundedCornersEnabled: Boolean
+        get() = values.requiredBoolean("bubble_rounded_corners_enabled")
+    val bubbleAiRoundedCornersEnabled: Boolean
+        get() = values.requiredBoolean("bubble_ai_rounded_corners_enabled")
+    val bubbleUserContentPaddingLeft: Float
+        get() = values.requiredFloat("bubble_content_padding_left")
+    val bubbleUserContentPaddingRight: Float
+        get() = values.requiredFloat("bubble_content_padding_right")
+    val bubbleAiContentPaddingLeft: Float
+        get() = values.requiredFloat("bubble_ai_content_padding_left")
+    val bubbleAiContentPaddingRight: Float
+        get() = values.requiredFloat("bubble_ai_content_padding_right")
+    val customUserAvatarUri: String? get() = values.string("custom_user_avatar_uri")
+    val customAiAvatarUri: String? get() = values.string("custom_ai_avatar_uri")
+    val avatarShape: String get() = values.requiredString("avatar_shape")
+    val avatarCornerRadius: Float get() = values.requiredFloat("avatar_corner_radius")
+    val fontType: String get() = values.requiredString("font_type")
+    val systemFontName: String get() = values.requiredString("system_font_name")
+    val customFontPath: String? get() = values.string("custom_font_path")
+    val fontScale: Float get() = values.requiredFloat("font_scale")
+    val showThinkingProcess: Boolean get() = values.requiredBoolean("show_thinking_process")
+    val showStatusTags: Boolean get() = values.requiredBoolean("show_status_tags")
+    val showModelProvider: Boolean get() = values.requiredBoolean("show_model_provider")
+    val showModelName: Boolean get() = values.requiredBoolean("show_model_name")
+    val showRoleName: Boolean get() = values.requiredBoolean("show_role_name")
+    val showUserName: Boolean get() = values.requiredBoolean("show_user_name")
+    val showMessageTokenStats: Boolean get() = values.requiredBoolean("show_message_token_stats")
+    val showMessageTimingStats: Boolean get() = values.requiredBoolean("show_message_timing_stats")
+    val showMessageTokenSpeed: Boolean get() = values.requiredBoolean("show_message_token_speed")
+    val showMessageTimestamp: Boolean get() = values.requiredBoolean("show_message_timestamp")
+    val showInputProcessingStatus: Boolean
+        get() = values.requiredBoolean("show_input_processing_status")
+    val useCustomFont: Boolean get() = values.requiredBoolean("use_custom_font")
+    val bubbleUserUseCustomFont: Boolean
+        get() = values.requiredBoolean("bubble_user_use_custom_font")
+    val bubbleUserFontType: String get() = values.requiredString("bubble_user_font_type")
+    val bubbleUserSystemFontName: String
+        get() = values.requiredString("bubble_user_system_font_name")
+    val bubbleUserCustomFontPath: String? get() = values.string("bubble_user_custom_font_path")
+    val bubbleAiUseCustomFont: Boolean
+        get() = values.requiredBoolean("bubble_ai_use_custom_font")
+    val bubbleAiFontType: String get() = values.requiredString("bubble_ai_font_type")
+    val bubbleAiSystemFontName: String
+        get() = values.requiredString("bubble_ai_system_font_name")
+    val bubbleAiCustomFontPath: String? get() = values.string("bubble_ai_custom_font_path")
+    val cursorUserBubbleLiquidGlass: Boolean
+        get() = values.requiredBoolean("cursor_user_bubble_liquid_glass")
+    val cursorUserBubbleWaterGlass: Boolean
+        get() = values.requiredBoolean("cursor_user_bubble_water_glass")
+    val bubbleUserBubbleLiquidGlass: Boolean
+        get() = values.requiredBoolean("bubble_user_bubble_liquid_glass")
+    val bubbleUserBubbleWaterGlass: Boolean
+        get() = values.requiredBoolean("bubble_user_bubble_water_glass")
+    val bubbleAiBubbleLiquidGlass: Boolean
+        get() = values.requiredBoolean("bubble_ai_bubble_liquid_glass")
+    val bubbleAiBubbleWaterGlass: Boolean
+        get() = values.requiredBoolean("bubble_ai_bubble_water_glass")
+    val customChatTitle: String? get() = values.string("custom_chat_title")
+    val showChatFloatingDotsAnimation: Boolean
+        get() = values.requiredBoolean("show_chat_floating_dots_animation")
+}

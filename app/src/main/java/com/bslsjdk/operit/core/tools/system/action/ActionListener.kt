@@ -1,1 +1,108 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uYWN0aW9uCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLkFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwKCi8qKiDpgJrnlKhVSeaTjeS9nOebkeWQrOaOpeWPoyDlrprkuYnkuobkuI3lkIzmnYPpmZDnuqfliKtVSeaTjeS9nOebkeWQrOeahOe7n+S4gOaOpeWPoyAqLwppbnRlcmZhY2UgQWN0aW9uTGlzdGVuZXIgewogICAgLyoqCiAgICAgKiDlvIDlp4vnm5HlkKznlKjmiLdVSeaTjeS9nAogICAgICogQHBhcmFtIG9uQWN0aW9uIOW9k+eUqOaIt+aJp+ihjOaTjeS9nOaXtueahOWbnuiwgwogICAgICogQHJldHVybiDnm5HlkKzmmK/lkKbmiJDlip/lkK/liqgKICAgICAqLwogICAgc3VzcGVuZCBmdW4gc3RhcnRMaXN0ZW5pbmcob25BY3Rpb246IChBY3Rpb25FdmVudCkgLT4gVW5pdCk6IExpc3RlbmluZ1Jlc3VsdAoKICAgIC8qKgogICAgICog5YGc5q2i55uR5ZCs55So5oi3VUnmk43kvZwKICAgICAqIEByZXR1cm4g5YGc5q2i55uR5ZCs5piv5ZCm5oiQ5YqfCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHN0b3BMaXN0ZW5pbmcoKTogQm9vbGVhbgoKICAgIC8qKgogICAgICog6I635Y+W5b2T5YmN55uR5ZCs5Zmo55qE5p2D6ZmQ57qn5YirCiAgICAgKiBAcmV0dXJuIOW9k+WJjeebkeWQrOWZqOeahOadg+mZkOe6p+WIqwogICAgICovCiAgICBmdW4gZ2V0UGVybWlzc2lvbkxldmVsKCk6IEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwKCiAgICAvKioKICAgICAqIOajgOafpeebkeWQrOWZqOaYr+WQpuWPr+eUqAogICAgICogQHJldHVybiDnm5HlkKzlmajmmK/lkKblj6/nlKgKICAgICAqLwogICAgc3VzcGVuZCBmdW4gaXNBdmFpbGFibGUoKTogQm9vbGVhbgoKICAgIC8qKgogICAgICog6K+35rGC55uR5ZCs5Zmo5omA6ZyA55qE5p2D6ZmQCiAgICAgKiBAcGFyYW0gb25SZXN1bHQg5p2D6ZmQ6K+35rGC57uT5p6c5Zue6LCDCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHJlcXVlc3RQZXJtaXNzaW9uKG9uUmVzdWx0OiAoQm9vbGVhbikgLT4gVW5pdCkKCiAgICAvKioKICAgICAqIOajgOafpeaYr+WQpuW3suacieebkeWQrOWZqOaJgOmcgOeahOadg+mZkAogICAgICogQHJldHVybiDmnYPpmZDnirbmgIHvvIzljIXlkKvmmK/lkKbmnInmnYPpmZDlj4ror6bnu4bnmoTplJnor6/ljp/lm6AKICAgICAqLwogICAgc3VzcGVuZCBmdW4gaGFzUGVybWlzc2lvbigpOiBQZXJtaXNzaW9uU3RhdHVzCgogICAgLyoqIOWIneWni+WMluebkeWQrOWZqCAqLwogICAgZnVuIGluaXRpYWxpemUoKQoKICAgIC8qKgogICAgICog5qOA5p+l55uR5ZCs5Zmo5piv5ZCm5q2j5Zyo6L+Q6KGMCiAgICAgKiBAcmV0dXJuIOaYr+WQpuato+WcqOebkeWQrAogICAgICovCiAgICBmdW4gaXNMaXN0ZW5pbmcoKTogQm9vbGVhbgoKICAgIC8qKiDnlKjmiLdVSeaTjeS9nOS6i+S7tuaVsOaNruexuyAqLwogICAgZGF0YSBjbGFzcyBBY3Rpb25FdmVudCgKICAgICAgICB2YWwgdGltZXN0YW1wOiBMb25nLAogICAgICAgIHZhbCBhY3Rpb25UeXBlOiBBY3Rpb25UeXBlLAogICAgICAgIHZhbCBjb29yZGluYXRlczogUGFpcjxJbnQsIEludD4/ID0gbnVsbCwKICAgICAgICB2YWwgZWxlbWVudEluZm86IEVsZW1lbnRJbmZvPyA9IG51bGwsCiAgICAgICAgdmFsIGlucHV0VGV4dDogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgdmFsIGFkZGl0aW9uYWxEYXRhOiBNYXA8U3RyaW5nLCBBbnk+ID0gZW1wdHlNYXAoKQogICAgKQoKICAgIC8qKiBVSeaTjeS9nOexu+Wei+aemuS4viAqLwogICAgZW51bSBjbGFzcyBBY3Rpb25UeXBlIHsKICAgICAgICBDTElDSywKICAgICAgICBMT05HX0NMSUNLLAogICAgICAgIFNXSVBFLAogICAgICAgIFRFWFRfSU5QVVQsCiAgICAgICAgS0VZX1BSRVNTLAogICAgICAgIFNDUk9MTCwKICAgICAgICBHRVNUVVJFLAogICAgICAgIEFQUF9TV0lUQ0gsCiAgICAgICAgU0NSRUVOX0NIQU5HRSwKICAgICAgICBTWVNURU1fRVZFTlQKICAgIH0KCiAgICAvKiogVUnlhYPntKDkv6Hmga8gKi8KICAgIGRhdGEgY2xhc3MgRWxlbWVudEluZm8oCiAgICAgICAgdmFsIHJlc291cmNlSWQ6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHZhbCBjbGFzc05hbWU6IFN0cmluZz8gPSBudWxsLAogICAgICAgIHZhbCB0ZXh0OiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICB2YWwgY29udGVudERlc2NyaXB0aW9uOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICB2YWwgYm91bmRzOiBTdHJpbmc/ID0gbnVsbCwKICAgICAgICB2YWwgcGFja2FnZU5hbWU6IFN0cmluZz8gPSBudWxsCiAgICApCgogICAgLyoqIOebkeWQrOe7k+aenOaVsOaNruexuyAqLwogICAgZGF0YSBjbGFzcyBMaXN0ZW5pbmdSZXN1bHQoCiAgICAgICAgdmFsIHN1Y2Nlc3M6IEJvb2xlYW4sCiAgICAgICAgdmFsIG1lc3NhZ2U6IFN0cmluZyA9IGlmIChzdWNjZXNzKSAiTGlzdGVuaW5nIHN0YXJ0ZWQiIGVsc2UgIkZhaWxlZCB0byBzdGFydCBsaXN0ZW5pbmciCiAgICApIHsKICAgICAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICAgICAgZnVuIHN1Y2Nlc3MobWVzc2FnZTogU3RyaW5nID0gIkxpc3RlbmluZyBzdGFydGVkIikgPSBMaXN0ZW5pbmdSZXN1bHQodHJ1ZSwgbWVzc2FnZSkKICAgICAgICAgICAgZnVuIGZhaWx1cmUobWVzc2FnZTogU3RyaW5nKSA9IExpc3RlbmluZ1Jlc3VsdChmYWxzZSwgbWVzc2FnZSkKICAgICAgICB9CiAgICB9CgogICAgLyoqIOadg+mZkOeKtuaAgeaVsOaNruexuyDljIXlkKvmnYPpmZDmo4Dmn6Xnu5PmnpzlkozlpLHotKXljp/lm6Dmj4/ov7AgKi8KICAgIGRhdGEgY2xhc3MgUGVybWlzc2lvblN0YXR1cygKICAgICAgICB2YWwgZ3JhbnRlZDogQm9vbGVhbiwKICAgICAgICB2YWwgcmVhc29uOiBTdHJpbmcgPSBpZiAoZ3JhbnRlZCkgIlBlcm1pc3Npb24gZ3JhbnRlZCIgZWxzZSAiUGVybWlzc2lvbiBkZW5pZWQiCiAgICApIHsKICAgICAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICAgICAgZnVuIGdyYW50ZWQoKSA9IFBlcm1pc3Npb25TdGF0dXModHJ1ZSkKICAgICAgICAgICAgZnVuIGRlbmllZChyZWFzb246IFN0cmluZykgPSBQZXJtaXNzaW9uU3RhdHVzKGZhbHNlLCByZWFzb24pCiAgICAgICAgfQogICAgfQp9IA==
+package com.bslsjdk.operit.core.tools.system.action
+
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+
+/** 通用UI操作监听接口 定义了不同权限级别UI操作监听的统一接口 */
+interface ActionListener {
+    /**
+     * 开始监听用户UI操作
+     * @param onAction 当用户执行操作时的回调
+     * @return 监听是否成功启动
+     */
+    suspend fun startListening(onAction: (ActionEvent) -> Unit): ListeningResult
+
+    /**
+     * 停止监听用户UI操作
+     * @return 停止监听是否成功
+     */
+    suspend fun stopListening(): Boolean
+
+    /**
+     * 获取当前监听器的权限级别
+     * @return 当前监听器的权限级别
+     */
+    fun getPermissionLevel(): AndroidPermissionLevel
+
+    /**
+     * 检查监听器是否可用
+     * @return 监听器是否可用
+     */
+    suspend fun isAvailable(): Boolean
+
+    /**
+     * 请求监听器所需的权限
+     * @param onResult 权限请求结果回调
+     */
+    suspend fun requestPermission(onResult: (Boolean) -> Unit)
+
+    /**
+     * 检查是否已有监听器所需的权限
+     * @return 权限状态，包含是否有权限及详细的错误原因
+     */
+    suspend fun hasPermission(): PermissionStatus
+
+    /** 初始化监听器 */
+    fun initialize()
+
+    /**
+     * 检查监听器是否正在运行
+     * @return 是否正在监听
+     */
+    fun isListening(): Boolean
+
+    /** 用户UI操作事件数据类 */
+    data class ActionEvent(
+        val timestamp: Long,
+        val actionType: ActionType,
+        val coordinates: Pair<Int, Int>? = null,
+        val elementInfo: ElementInfo? = null,
+        val inputText: String? = null,
+        val additionalData: Map<String, Any> = emptyMap()
+    )
+
+    /** UI操作类型枚举 */
+    enum class ActionType {
+        CLICK,
+        LONG_CLICK,
+        SWIPE,
+        TEXT_INPUT,
+        KEY_PRESS,
+        SCROLL,
+        GESTURE,
+        APP_SWITCH,
+        SCREEN_CHANGE,
+        SYSTEM_EVENT
+    }
+
+    /** UI元素信息 */
+    data class ElementInfo(
+        val resourceId: String? = null,
+        val className: String? = null,
+        val text: String? = null,
+        val contentDescription: String? = null,
+        val bounds: String? = null,
+        val packageName: String? = null
+    )
+
+    /** 监听结果数据类 */
+    data class ListeningResult(
+        val success: Boolean,
+        val message: String = if (success) "Listening started" else "Failed to start listening"
+    ) {
+        companion object {
+            fun success(message: String = "Listening started") = ListeningResult(true, message)
+            fun failure(message: String) = ListeningResult(false, message)
+        }
+    }
+
+    /** 权限状态数据类 包含权限检查结果和失败原因描述 */
+    data class PermissionStatus(
+        val granted: Boolean,
+        val reason: String = if (granted) "Permission granted" else "Permission denied"
+    ) {
+        companion object {
+            fun granted() = PermissionStatus(true)
+            fun denied(reason: String) = PermissionStatus(false, reason)
+        }
+    }
+} 

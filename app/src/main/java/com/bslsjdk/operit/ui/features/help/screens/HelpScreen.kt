@@ -1,1 +1,113 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuaGVscC5zY3JlZW5zCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5mb2N1c2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmZvY3VzLkZvY3VzUmVxdWVzdGVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmZvY3VzLmZvY3VzUmVxdWVzdGVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS52aWV3aW50ZXJvcC5BbmRyb2lkVmlldwppbXBvcnQgYW5kcm9pZC53ZWJraXQuV2ViVmlldwppbXBvcnQgYW5kcm9pZC53ZWJraXQuV2ViVmlld0NsaWVudAppbXBvcnQgYW5kcm9pZC53ZWJraXQuV2ViUmVzb3VyY2VSZXF1ZXN0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnRva2VuLndlYnZpZXcuV2ViVmlld0NvbmZpZwoKQENvbXBvc2FibGUKZnVuIEhlbHBTY3JlZW4ob25CYWNrUHJlc3NlZDogKCkgLT4gVW5pdCA9IHt9KSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YXIgaXNMb2FkaW5nIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YodHJ1ZSkgfQogICAgdmFsIGhlbHBVcmwgPSAiaHR0cHM6Ly9vcGVyaXQuYXBwIgogICAgdmFsIGZvY3VzUmVxdWVzdGVyID0gcmVtZW1iZXIgeyBGb2N1c1JlcXVlc3RlcigpIH0KCiAgICAvLyDliJvlu7pXZWJWaWV35a6e5L6LCiAgICB2YWwgd2ViVmlldyA9IHJlbWVtYmVyIHsKICAgICAgICBXZWJWaWV3Q29uZmlnLmNyZWF0ZVdlYlZpZXcoY29udGV4dCkuYXBwbHkgewogICAgICAgICAgICB3ZWJWaWV3Q2xpZW50ID0gb2JqZWN0IDogV2ViVmlld0NsaWVudCgpIHsKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvblBhZ2VTdGFydGVkKHZpZXc6IFdlYlZpZXc/LCB1cmw6IFN0cmluZz8sIGZhdmljb246IGFuZHJvaWQuZ3JhcGhpY3MuQml0bWFwPykgewogICAgICAgICAgICAgICAgICAgIHN1cGVyLm9uUGFnZVN0YXJ0ZWQodmlldywgdXJsLCBmYXZpY29uKQogICAgICAgICAgICAgICAgICAgIGlzTG9hZGluZyA9IHRydWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uUGFnZUZpbmlzaGVkKHZpZXc6IFdlYlZpZXc/LCB1cmw6IFN0cmluZz8pIHsKICAgICAgICAgICAgICAgICAgICBzdXBlci5vblBhZ2VGaW5pc2hlZCh2aWV3LCB1cmwpCiAgICAgICAgICAgICAgICAgICAgaXNMb2FkaW5nID0gZmFsc2UKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uUmVjZWl2ZWRFcnJvcigKICAgICAgICAgICAgICAgICAgICB2aWV3OiBXZWJWaWV3PywKICAgICAgICAgICAgICAgICAgICBlcnJvckNvZGU6IEludCwKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbjogU3RyaW5nPywKICAgICAgICAgICAgICAgICAgICBmYWlsaW5nVXJsOiBTdHJpbmc/CiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBzdXBlci5vblJlY2VpdmVkRXJyb3IodmlldywgZXJyb3JDb2RlLCBkZXNjcmlwdGlvbiwgZmFpbGluZ1VybCkKICAgICAgICAgICAgICAgICAgICBpc0xvYWRpbmcgPSBmYWxzZQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBzaG91bGRPdmVycmlkZVVybExvYWRpbmcoCiAgICAgICAgICAgICAgICAgICAgdmlldzogV2ViVmlldz8sCiAgICAgICAgICAgICAgICAgICAgcmVxdWVzdDogV2ViUmVzb3VyY2VSZXF1ZXN0PwogICAgICAgICAgICAgICAgKTogQm9vbGVhbiB7CiAgICAgICAgICAgICAgICAgICAgLy8g6K6pV2ViVmlld+WkhOeQhuaJgOaciemTvuaOpQogICAgICAgICAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQogICAgLy8g56Gu5L+dV2ViVmlld+iOt+WPlueEpueCue+8jOmBv+WFjea7keWKqOaXtuiiq+eItue6p+aLpuaIqgogICAgRGlzcG9zYWJsZUVmZmVjdCh3ZWJWaWV3KSB7CiAgICAgICAgd2ViVmlldy5wb3N0IHsKICAgICAgICAgICAgd2ViVmlldy5yZXF1ZXN0Rm9jdXMoKQogICAgICAgICAgICB3ZWJWaWV3LnJlcXVlc3RGb2N1c0Zyb21Ub3VjaCgpCiAgICAgICAgfQogICAgICAgIG9uRGlzcG9zZSB7IH0KICAgIH0KICAgIExhdW5jaGVkRWZmZWN0KFVuaXQpIHsKICAgICAgICBmb2N1c1JlcXVlc3Rlci5yZXF1ZXN0Rm9jdXMoKQogICAgICAgIHdlYlZpZXcubG9hZFVybChoZWxwVXJsKQogICAgfQoKICAgIEJveChtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCkpIHsKICAgICAgICAvLyBXZWJWaWV3CiAgICAgICAgQW5kcm9pZFZpZXcoCiAgICAgICAgICAgIGZhY3RvcnkgPSB7IHdlYlZpZXcgfSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgIC5mb2N1c1JlcXVlc3Rlcihmb2N1c1JlcXVlc3RlcikKICAgICAgICAgICAgICAgIC5mb2N1c2FibGUoKQogICAgICAgICkKICAgICAgICAKICAgICAgICAvLyDliqDovb3mjIfnpLrlmagKICAgICAgICBpZiAoaXNMb2FkaW5nKSB7CiAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAgICAgICAgIC5iYWNrZ3JvdW5kKENvbG9yLldoaXRlLmNvcHkoYWxwaGEgPSAwLjhmKSksCiAgICAgICAgICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcgogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIENvbHVtbigKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlckhvcml6b250YWxseSwKICAgICAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuQ2VudGVyCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBDaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yKAogICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoNDguZHApLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoMTYuZHApKQogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5oZWxwX2xvYWRpbmdfbWVzc2FnZSksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0sCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.help.screens
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.focusable
+import androidx.compose.foundation.layout.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.viewinterop.AndroidView
+import android.webkit.WebView
+import android.webkit.WebViewClient
+import android.webkit.WebResourceRequest
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.features.token.webview.WebViewConfig
+
+@Composable
+fun HelpScreen(onBackPressed: () -> Unit = {}) {
+    val context = LocalContext.current
+    var isLoading by remember { mutableStateOf(true) }
+    val helpUrl = "https://operit.app"
+    val focusRequester = remember { FocusRequester() }
+
+    // 创建WebView实例
+    val webView = remember {
+        WebViewConfig.createWebView(context).apply {
+            webViewClient = object : WebViewClient() {
+                override fun onPageStarted(view: WebView?, url: String?, favicon: android.graphics.Bitmap?) {
+                    super.onPageStarted(view, url, favicon)
+                    isLoading = true
+                }
+                
+                override fun onPageFinished(view: WebView?, url: String?) {
+                    super.onPageFinished(view, url)
+                    isLoading = false
+                }
+                
+                override fun onReceivedError(
+                    view: WebView?,
+                    errorCode: Int,
+                    description: String?,
+                    failingUrl: String?
+                ) {
+                    super.onReceivedError(view, errorCode, description, failingUrl)
+                    isLoading = false
+                }
+
+                override fun shouldOverrideUrlLoading(
+                    view: WebView?,
+                    request: WebResourceRequest?
+                ): Boolean {
+                    // 让WebView处理所有链接
+                    return false
+                }
+            }
+        }
+    }
+    // 确保WebView获取焦点，避免滑动时被父级拦截
+    DisposableEffect(webView) {
+        webView.post {
+            webView.requestFocus()
+            webView.requestFocusFromTouch()
+        }
+        onDispose { }
+    }
+    LaunchedEffect(Unit) {
+        focusRequester.requestFocus()
+        webView.loadUrl(helpUrl)
+    }
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        // WebView
+        AndroidView(
+            factory = { webView },
+            modifier = Modifier
+                .fillMaxSize()
+                .focusRequester(focusRequester)
+                .focusable()
+        )
+        
+        // 加载指示器
+        if (isLoading) {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(Color.White.copy(alpha = 0.8f)),
+                contentAlignment = Alignment.Center
+            ) {
+                Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.Center
+                ) {
+                    CircularProgressIndicator(
+                        modifier = Modifier.size(48.dp),
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(
+                        text = stringResource(R.string.help_loading_message),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                }
+            }
+        }
+    }
+}

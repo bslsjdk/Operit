@@ -1,1 +1,275 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBNaXNjTW9kZWxUZXN0IHsKCiAgICBAVGVzdCBmdW4gYGJpbGxpbmcgbW9kZSBoYXMgVE9LRU4gYW5kIENPVU5UYCgpIHsKICAgICAgICBhc3NlcnRUcnVlKEJpbGxpbmdNb2RlLnZhbHVlcygpLmNvbnRhaW5zKEJpbGxpbmdNb2RlLlRPS0VOKSkKICAgICAgICBhc3NlcnRUcnVlKEJpbGxpbmdNb2RlLnZhbHVlcygpLmNvbnRhaW5zKEJpbGxpbmdNb2RlLkNPVU5UKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGJpbGxpbmcgbW9kZSBmcm9tU3RyaW5nIHBhcnNlcyBjb3JyZWN0bHlgKCkgewogICAgICAgIGFzc2VydEVxdWFscyhCaWxsaW5nTW9kZS5UT0tFTiwgQmlsbGluZ01vZGUuZnJvbVN0cmluZygidG9rZW4iKSkKICAgICAgICBhc3NlcnRFcXVhbHMoQmlsbGluZ01vZGUuQ09VTlQsIEJpbGxpbmdNb2RlLmZyb21TdHJpbmcoImNvdW50IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaWxsaW5nIG1vZGUgZnJvbVN0cmluZyBkZWZhdWx0IHRvIFRPS0VOYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoQmlsbGluZ01vZGUuVE9LRU4sIEJpbGxpbmdNb2RlLmZyb21TdHJpbmcoImludmFsaWQiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoQmlsbGluZ01vZGUuVE9LRU4sIEJpbGxpbmdNb2RlLmZyb21TdHJpbmcobnVsbCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBiaWxsaW5nIG1vZGUgZnJvbVN0cmluZyBpcyBjYXNlIGluc2Vuc2l0aXZlYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoQmlsbGluZ01vZGUuVE9LRU4sIEJpbGxpbmdNb2RlLmZyb21TdHJpbmcoIlRPS0VOIikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKEJpbGxpbmdNb2RlLkNPVU5ULCBCaWxsaW5nTW9kZS5mcm9tU3RyaW5nKCJDT1VOVCIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYWN0aXZlIHByb21wdCBjaGFyYWN0ZXIgY2FyZGAoKSB7CiAgICAgICAgdmFsIHByb21wdCA9IEFjdGl2ZVByb21wdC5DaGFyYWN0ZXJDYXJkKGlkID0gImNhcmQxIikKICAgICAgICBhc3NlcnRUcnVlKHByb21wdCBpcyBBY3RpdmVQcm9tcHQuQ2hhcmFjdGVyQ2FyZCkKICAgICAgICBhc3NlcnRFcXVhbHMoImNhcmQxIiwgKHByb21wdCBhcyBBY3RpdmVQcm9tcHQuQ2hhcmFjdGVyQ2FyZCkuaWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBhY3RpdmUgcHJvbXB0IGNoYXJhY3RlciBncm91cGAoKSB7CiAgICAgICAgdmFsIHByb21wdCA9IEFjdGl2ZVByb21wdC5DaGFyYWN0ZXJHcm91cChpZCA9ICJncm91cDEiKQogICAgICAgIGFzc2VydFRydWUocHJvbXB0IGlzIEFjdGl2ZVByb21wdC5DaGFyYWN0ZXJHcm91cCkKICAgICAgICBhc3NlcnRFcXVhbHMoImdyb3VwMSIsIChwcm9tcHQgYXMgQWN0aXZlUHJvbXB0LkNoYXJhY3Rlckdyb3VwKS5pZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGFpIHJlZmVyZW5jZSBjcmVhdGlvbmAoKSB7CiAgICAgICAgdmFsIHJlZiA9IEFpUmVmZXJlbmNlKHRleHQgPSAic291cmNlIiwgdXJsID0gImh0dHBzOi8vZXhhbXBsZS5jb20iKQogICAgICAgIGFzc2VydEVxdWFscygic291cmNlIiwgcmVmLnRleHQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJodHRwczovL2V4YW1wbGUuY29tIiwgcmVmLnVybCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGFpIHJlZmVyZW5jZSBlbXB0eSBmaWVsZHNgKCkgewogICAgICAgIHZhbCByZWYgPSBBaVJlZmVyZW5jZSh0ZXh0ID0gIiIsIHVybCA9ICIiKQogICAgICAgIGFzc2VydEVxdWFscygiIiwgcmVmLnRleHQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCByZWYudXJsKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY3VzdG9tIGVtb2ppIGNyZWF0aW9uYCgpIHsKICAgICAgICB2YWwgZW1vamkgPSBDdXN0b21FbW9qaShlbW90aW9uQ2F0ZWdvcnkgPSAiaGFwcHkiLCBmaWxlTmFtZSA9ICJzbWlsZS5qcGciLCBpc0J1aWx0SW5DYXRlZ29yeSA9IHRydWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJoYXBweSIsIGVtb2ppLmVtb3Rpb25DYXRlZ29yeSkKICAgICAgICBhc3NlcnRFcXVhbHMoInNtaWxlLmpwZyIsIGVtb2ppLmZpbGVOYW1lKQogICAgICAgIGFzc2VydFRydWUoZW1vamkuaXNCdWlsdEluQ2F0ZWdvcnkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBkb2N1bWVudCBjaHVuayBjcmVhdGlvbmAoKSB7CiAgICAgICAgdmFsIGNodW5rID0gRG9jdW1lbnRDaHVuayhjb250ZW50ID0gIkNodW5rIGNvbnRlbnQiLCBjaHVua0luZGV4ID0gMSkKICAgICAgICBhc3NlcnRFcXVhbHMoIkNodW5rIGNvbnRlbnQiLCBjaHVuay5jb250ZW50KQogICAgICAgIGFzc2VydEVxdWFscygxLCBjaHVuay5jaHVua0luZGV4KQogICAgICAgIGFzc2VydEVxdWFscygwTCwgY2h1bmsuaWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBkb2N1bWVudCBjaHVuayBkZWZhdWx0IHZhbHVlc2AoKSB7CiAgICAgICAgdmFsIGNodW5rID0gRG9jdW1lbnRDaHVuaygpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCIiLCBjaHVuay5jb250ZW50KQogICAgICAgIGFzc2VydEVxdWFscygwLCBjaHVuay5jaHVua0luZGV4KQogICAgICAgIGFzc2VydEVxdWFscygwTCwgY2h1bmsuaWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBlbWJlZGRpbmcgZGltZW5zaW9uIHVzYWdlIGRlZmF1bHQgdmFsdWVzYCgpIHsKICAgICAgICB2YWwgdXNhZ2UgPSBFbWJlZGRpbmdEaW1lbnNpb25Vc2FnZSgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIHVzYWdlLm1lbW9yeVRvdGFsKQogICAgICAgIGFzc2VydEVxdWFscygwLCB1c2FnZS5tZW1vcnlNaXNzaW5nKQogICAgICAgIGFzc2VydFRydWUodXNhZ2UubWVtb3J5RGltZW5zaW9ucy5pc0VtcHR5KCkpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIHVzYWdlLmNodW5rVG90YWwpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIHVzYWdlLmNodW5rTWlzc2luZykKICAgICAgICBhc3NlcnRUcnVlKHVzYWdlLmNodW5rRGltZW5zaW9ucy5pc0VtcHR5KCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGBlbWJlZGRpbmcgZGltZW5zaW9uIHVzYWdlIHdpdGggY291bnRzYCgpIHsKICAgICAgICB2YWwgZGltcyA9IGxpc3RPZihEaW1lbnNpb25Db3VudChkaW1lbnNpb24gPSAxMjgsIGNvdW50ID0gNSkpCiAgICAgICAgdmFsIHVzYWdlID0gRW1iZWRkaW5nRGltZW5zaW9uVXNhZ2UoCiAgICAgICAgICAgIG1lbW9yeVRvdGFsID0gMTAsIG1lbW9yeU1pc3NpbmcgPSAyLCBtZW1vcnlEaW1lbnNpb25zID0gZGltcywKICAgICAgICAgICAgY2h1bmtUb3RhbCA9IDIwLCBjaHVua01pc3NpbmcgPSAxLCBjaHVua0RpbWVuc2lvbnMgPSBkaW1zLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoMTAsIHVzYWdlLm1lbW9yeVRvdGFsKQogICAgICAgIGFzc2VydEVxdWFscygyLCB1c2FnZS5tZW1vcnlNaXNzaW5nKQogICAgICAgIGFzc2VydEVxdWFscygxLCB1c2FnZS5tZW1vcnlEaW1lbnNpb25zLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEyOCwgdXNhZ2UubWVtb3J5RGltZW5zaW9uc1swXS5kaW1lbnNpb24pCiAgICAgICAgYXNzZXJ0RXF1YWxzKDUsIHVzYWdlLm1lbW9yeURpbWVuc2lvbnNbMF0uY291bnQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBlbWJlZGRpbmcgcmVidWlsZCBwcm9ncmVzcyBkZWZhdWx0IHZhbHVlc2AoKSB7CiAgICAgICAgdmFsIHByb2dyZXNzID0gRW1iZWRkaW5nUmVidWlsZFByb2dyZXNzKCkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgcHJvZ3Jlc3MudG90YWwpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDAsIHByb2dyZXNzLnByb2Nlc3NlZCkKICAgICAgICBhc3NlcnRFcXVhbHMoMCwgcHJvZ3Jlc3MuZmFpbGVkKQogICAgICAgIGFzc2VydEVxdWFscygiIiwgcHJvZ3Jlc3MuY3VycmVudFN0YWdlKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZW1iZWRkaW5nIHJlYnVpbGQgcHJvZ3Jlc3MgZnJhY3Rpb25gKCkgewogICAgICAgIHZhbCBwcm9ncmVzcyA9IEVtYmVkZGluZ1JlYnVpbGRQcm9ncmVzcyh0b3RhbCA9IDEwLCBwcm9jZXNzZWQgPSA1KQogICAgICAgIGFzc2VydEVxdWFscygwLjVmLCBwcm9ncmVzcy5mcmFjdGlvbiwgMC4wMDFmKQogICAgICAgIGFzc2VydEZhbHNlKHByb2dyZXNzLmlzRmluaXNoZWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBlbWJlZGRpbmcgcmVidWlsZCBwcm9ncmVzcyBmaW5pc2hlZGAoKSB7CiAgICAgICAgdmFsIHByb2dyZXNzID0gRW1iZWRkaW5nUmVidWlsZFByb2dyZXNzKHRvdGFsID0gMTAsIHByb2Nlc3NlZCA9IDEwKQogICAgICAgIGFzc2VydEVxdWFscygxLjBmLCBwcm9ncmVzcy5mcmFjdGlvbiwgMC4wMDFmKQogICAgICAgIGFzc2VydFRydWUocHJvZ3Jlc3MuaXNGaW5pc2hlZCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGVtYmVkZGluZyByZWJ1aWxkIHByb2dyZXNzIHplcm8gdG90YWxgKCkgewogICAgICAgIHZhbCBwcm9ncmVzcyA9IEVtYmVkZGluZ1JlYnVpbGRQcm9ncmVzcygpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDBmLCBwcm9ncmVzcy5mcmFjdGlvbiwgMC4wMDFmKQogICAgICAgIGFzc2VydEZhbHNlKHByb2dyZXNzLmlzRmluaXNoZWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBpbnB1dCBwcm9jZXNzaW5nIHN0YXRlIGlkbGVgKCkgewogICAgICAgIHZhbCBzdGF0ZSA9IElucHV0UHJvY2Vzc2luZ1N0YXRlLklkbGUKICAgICAgICBhc3NlcnRUcnVlKHN0YXRlIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLklkbGUpCiAgICB9CgogICAgQFRlc3QgZnVuIGBpbnB1dCBwcm9jZXNzaW5nIHN0YXRlIGNvbXBsZXRlZGAoKSB7CiAgICAgICAgdmFsIHN0YXRlID0gSW5wdXRQcm9jZXNzaW5nU3RhdGUuQ29tcGxldGVkCiAgICAgICAgYXNzZXJ0VHJ1ZShzdGF0ZSBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5Db21wbGV0ZWQpCiAgICB9CgogICAgQFRlc3QgZnVuIGBpbnB1dCBwcm9jZXNzaW5nIHN0YXRlIHByb2Nlc3NpbmdgKCkgewogICAgICAgIHZhbCBzdGF0ZSA9IElucHV0UHJvY2Vzc2luZ1N0YXRlLlByb2Nlc3NpbmcobWVzc2FnZSA9ICJMb2FkaW5nLi4uIikKICAgICAgICBhc3NlcnRUcnVlKHN0YXRlIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLlByb2Nlc3NpbmcpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJMb2FkaW5nLi4uIiwgKHN0YXRlIGFzIElucHV0UHJvY2Vzc2luZ1N0YXRlLlByb2Nlc3NpbmcpLm1lc3NhZ2UpCiAgICB9CgogICAgQFRlc3QgZnVuIGBpbnB1dCBwcm9jZXNzaW5nIHN0YXRlIGVycm9yYCgpIHsKICAgICAgICB2YWwgc3RhdGUgPSBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5FcnJvcihtZXNzYWdlID0gIkZhaWxlZCIpCiAgICAgICAgYXNzZXJ0VHJ1ZShzdGF0ZSBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5FcnJvcikKICAgICAgICBhc3NlcnRFcXVhbHMoIkZhaWxlZCIsIChzdGF0ZSBhcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5FcnJvcikubWVzc2FnZSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGlucHV0IHByb2Nlc3Npbmcgc3RhdGUgY29ubmVjdGluZ2AoKSB7CiAgICAgICAgdmFsIHN0YXRlID0gSW5wdXRQcm9jZXNzaW5nU3RhdGUuQ29ubmVjdGluZyhtZXNzYWdlID0gIkNvbm5lY3RpbmcuLi4iKQogICAgICAgIGFzc2VydFRydWUoc3RhdGUgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuQ29ubmVjdGluZykKICAgIH0KCiAgICBAVGVzdCBmdW4gYGlucHV0IHByb2Nlc3Npbmcgc3RhdGUgcmVjZWl2aW5nYCgpIHsKICAgICAgICB2YWwgc3RhdGUgPSBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5SZWNlaXZpbmcobWVzc2FnZSA9ICJSZWNlaXZpbmcuLi4iKQogICAgICAgIGFzc2VydFRydWUoc3RhdGUgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuUmVjZWl2aW5nKQogICAgfQoKICAgIEBUZXN0IGZ1biBgaW5wdXQgcHJvY2Vzc2luZyBzdGF0ZSBleGVjdXRpbmcgdG9vbGAoKSB7CiAgICAgICAgdmFsIHN0YXRlID0gSW5wdXRQcm9jZXNzaW5nU3RhdGUuRXhlY3V0aW5nVG9vbCh0b29sTmFtZSA9ICJjYWxjdWxhdG9yIikKICAgICAgICBhc3NlcnRUcnVlKHN0YXRlIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLkV4ZWN1dGluZ1Rvb2wpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJjYWxjdWxhdG9yIiwgKHN0YXRlIGFzIElucHV0UHJvY2Vzc2luZ1N0YXRlLkV4ZWN1dGluZ1Rvb2wpLnRvb2xOYW1lKQogICAgfQoKICAgIEBUZXN0IGZ1biBgaW5wdXQgcHJvY2Vzc2luZyBzdGF0ZSB0b29sIHByb2dyZXNzYCgpIHsKICAgICAgICB2YWwgc3RhdGUgPSBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5Ub29sUHJvZ3Jlc3ModG9vbE5hbWUgPSAic2VhcmNoIiwgcHJvZ3Jlc3MgPSAwLjVmKQogICAgICAgIGFzc2VydFRydWUoc3RhdGUgaXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuVG9vbFByb2dyZXNzKQogICAgICAgIGFzc2VydEVxdWFscygwLjVmLCAoc3RhdGUgYXMgSW5wdXRQcm9jZXNzaW5nU3RhdGUuVG9vbFByb2dyZXNzKS5wcm9ncmVzcywgMC4wMDFmKQogICAgfQoKICAgIEBUZXN0IGZ1biBgaW5wdXQgcHJvY2Vzc2luZyBzdGF0ZSBzdW1tYXJpemluZ2AoKSB7CiAgICAgICAgdmFsIHN0YXRlID0gSW5wdXRQcm9jZXNzaW5nU3RhdGUuU3VtbWFyaXppbmcobWVzc2FnZSA9ICJTdW1tYXJpemluZy4uLiIpCiAgICAgICAgYXNzZXJ0VHJ1ZShzdGF0ZSBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5TdW1tYXJpemluZykKICAgIH0KCiAgICBAVGVzdCBmdW4gYGlucHV0IHByb2Nlc3Npbmcgc3RhdGUgZXhlY3V0aW5nIHBsYW5gKCkgewogICAgICAgIHZhbCBzdGF0ZSA9IElucHV0UHJvY2Vzc2luZ1N0YXRlLkV4ZWN1dGluZ1BsYW4obWVzc2FnZSA9ICJQbGFubmluZy4uLiIpCiAgICAgICAgYXNzZXJ0VHJ1ZShzdGF0ZSBpcyBJbnB1dFByb2Nlc3NpbmdTdGF0ZS5FeGVjdXRpbmdQbGFuKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbWVtb3J5IHNlYXJjaCBjb25maWcgY3JlYXRpb25gKCkgewogICAgICAgIHZhbCBjb25maWcgPSBNZW1vcnlTZWFyY2hDb25maWcoCiAgICAgICAgICAgIHNjb3JlTW9kZSA9IE1lbW9yeVNjb3JlTW9kZS5CQUxBTkNFRCwKICAgICAgICAgICAga2V5d29yZFdlaWdodCA9IDEwLjBmLAogICAgICAgICAgICB0YWdXZWlnaHQgPSAwLjBmLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoTWVtb3J5U2NvcmVNb2RlLkJBTEFOQ0VELCBjb25maWcuc2NvcmVNb2RlKQogICAgICAgIGFzc2VydEVxdWFscygxMC4wZiwgY29uZmlnLmtleXdvcmRXZWlnaHQsIDAuMDAxZikKICAgICAgICBhc3NlcnRFcXVhbHMoMC4wZiwgY29uZmlnLnRhZ1dlaWdodCwgMC4wMDFmKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbWVtb3J5IHNlYXJjaCBkZWJ1ZyBpbmZvIGNyZWF0aW9uYCgpIHsKICAgICAgICB2YWwgaW5mbyA9IE1lbW9yeVNlYXJjaERlYnVnSW5mbygKICAgICAgICAgICAgcXVlcnkgPSAidGVzdCBxdWVyeSIsCiAgICAgICAgICAgIGtleXdvcmRzID0gbGlzdE9mKCJ0ZXN0IiksCiAgICAgICAgICAgIGxleGljYWxUb2tlbnMgPSBsaXN0T2YoInRlc3QiKSwKICAgICAgICAgICAgc2NvcmVNb2RlID0gTWVtb3J5U2NvcmVNb2RlLkJBTEFOQ0VELAogICAgICAgICAgICByZWxldmFuY2VUaHJlc2hvbGQgPSAwLjUsCiAgICAgICAgICAgIGVmZmVjdGl2ZUtleXdvcmRXZWlnaHQgPSAxLjAsCiAgICAgICAgICAgIGVmZmVjdGl2ZVRhZ1dlaWdodCA9IDAuMCwKICAgICAgICAgICAgZWZmZWN0aXZlU2VtYW50aWNXZWlnaHQgPSAwLjBmLAogICAgICAgICAgICBzZW1hbnRpY0tleXdvcmROb3JtRmFjdG9yID0gMC4wLAogICAgICAgICAgICBlZmZlY3RpdmVFZGdlV2VpZ2h0ID0gMC4wLAogICAgICAgICAgICBtZW1vcmllc0luU2NvcGVDb3VudCA9IDEwLAogICAgICAgICAgICBrZXl3b3JkTWF0Y2hlc0NvdW50ID0gNSwKICAgICAgICAgICAgdGFnTWF0Y2hlc0NvdW50ID0gMCwKICAgICAgICAgICAgcmV2ZXJzZUNvbnRhaW5tZW50TWF0Y2hlc0NvdW50ID0gMCwKICAgICAgICAgICAgc2VtYW50aWNNYXRjaGVzQ291bnQgPSAwLAogICAgICAgICAgICBncmFwaEVkZ2VzVHJhdmVyc2VkID0gMCwKICAgICAgICAgICAgc2NvcmVkQ291bnQgPSA1LAogICAgICAgICAgICBwYXNzZWRUaHJlc2hvbGRDb3VudCA9IDMsCiAgICAgICAgICAgIGNhbmRpZGF0ZXMgPSBlbXB0eUxpc3QoKSwKICAgICAgICAgICAgZmluYWxSZXN1bHRJZHMgPSBlbXB0eUxpc3QoKSwKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJ0ZXN0IHF1ZXJ5IiwgaW5mby5xdWVyeSkKICAgICAgICBhc3NlcnRFcXVhbHMoNSwgaW5mby5rZXl3b3JkTWF0Y2hlc0NvdW50KQogICAgICAgIGFzc2VydEVxdWFscygxMCwgaW5mby5tZW1vcmllc0luU2NvcGVDb3VudCkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHdvcmtmbG93IGV4ZWN1dGlvbiByZWNvcmQgY3JlYXRpb25gKCkgewogICAgICAgIHZhbCByZWNvcmQgPSBXb3JrZmxvd0V4ZWN1dGlvblJlY29yZCgKICAgICAgICAgICAgd29ya2Zsb3dJZCA9ICJ3ZjEiLAogICAgICAgICAgICB3b3JrZmxvd05hbWUgPSAiVGVzdCBXb3JrZmxvdyIsCiAgICAgICAgICAgIHN1Y2Nlc3MgPSB0cnVlLAogICAgICAgICAgICBtZXNzYWdlID0gIkNvbXBsZXRlZCIsCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygid2YxIiwgcmVjb3JkLndvcmtmbG93SWQpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJUZXN0IFdvcmtmbG93IiwgcmVjb3JkLndvcmtmbG93TmFtZSkKICAgICAgICBhc3NlcnRUcnVlKHJlY29yZC5zdWNjZXNzKQogICAgICAgIGFzc2VydEVxdWFscygiQ29tcGxldGVkIiwgcmVjb3JkLm1lc3NhZ2UpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjaGF0IG1lc3NhZ2UgbG9jYXRvciBwcmV2aWV3IGNyZWF0aW9uYCgpIHsKICAgICAgICB2YWwgcHJldmlldyA9IENoYXRNZXNzYWdlTG9jYXRvclByZXZpZXcoCiAgICAgICAgICAgIHRpbWVzdGFtcCA9IDEwMDBMLAogICAgICAgICAgICBzZW5kZXIgPSAidXNlciIsCiAgICAgICAgICAgIHByZXZpZXdDb250ZW50ID0gIkhlbGxvIiwKICAgICAgICAgICAgY29udGVudExlbmd0aCA9IDUsCiAgICAgICAgICAgIGRpc3BsYXlNb2RlID0gQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS5OT1JNQUwubmFtZSwKICAgICAgICAgICAgaXNGYXZvcml0ZSA9IGZhbHNlLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoMTAwMEwsIHByZXZpZXcudGltZXN0YW1wKQogICAgICAgIGFzc2VydEVxdWFscygiSGVsbG8iLCBwcmV2aWV3LnByZXZpZXdDb250ZW50KQogICAgICAgIGFzc2VydEVxdWFscyhDaGF0TWVzc2FnZURpc3BsYXlNb2RlLk5PUk1BTCwgcHJldmlldy5yZXNvbHZlZERpc3BsYXlNb2RlKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbWVtb3J5IHNwYWNlIGNyZWF0aW9uYCgpIHsKICAgICAgICB2YWwgc3BhY2UgPSBNZW1vcnlTcGFjZShpZCA9ICJkZWZhdWx0IiwgbmFtZSA9ICJEZWZhdWx0IikKICAgICAgICBhc3NlcnRFcXVhbHMoImRlZmF1bHQiLCBzcGFjZS5pZCkKICAgICAgICBhc3NlcnRFcXVhbHMoIkRlZmF1bHQiLCBzcGFjZS5uYW1lKQogICAgfQoKICAgIEBUZXN0IGZ1biBgb3Blcml0IG5vZGUgaW5mbyBjcmVhdGlvbmAoKSB7CiAgICAgICAgdmFsIGluZm8gPSBPcGVyaXROb2RlSW5mbygKICAgICAgICAgICAgY2xhc3NOYW1lID0gImFuZHJvaWQud2lkZ2V0LkJ1dHRvbiIsCiAgICAgICAgICAgIHBhY2thZ2VOYW1lID0gImNvbS5leGFtcGxlIiwKICAgICAgICAgICAgdGV4dCA9ICJTdWJtaXQiLAogICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsLAogICAgICAgICAgICB2aWV3SWRSZXNvdXJjZU5hbWUgPSBudWxsLAogICAgICAgICAgICBib3VuZHNJblNjcmVlbiA9ICJbMCwwXVsxMDAsNTBdIiwKICAgICAgICAgICAgaXNDbGlja2FibGUgPSB0cnVlLAogICAgICAgICAgICBpc1Zpc2libGVUb1VzZXIgPSB0cnVlLAogICAgICAgICAgICBpc0ZvY3VzZWQgPSBmYWxzZSwKICAgICAgICAgICAgaXNDaGVja2VkID0gZmFsc2UsCiAgICAgICAgKQogICAgICAgIGFzc2VydEVxdWFscygiYW5kcm9pZC53aWRnZXQuQnV0dG9uIiwgaW5mby5jbGFzc05hbWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJjb20uZXhhbXBsZSIsIGluZm8ucGFja2FnZU5hbWUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJTdWJtaXQiLCBpbmZvLnRleHQpCiAgICAgICAgYXNzZXJ0VHJ1ZShpbmZvLmlzQ2xpY2thYmxlKQogICAgICAgIGFzc2VydFRydWUoaW5mby5pc1Zpc2libGVUb1VzZXIpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjaGF0IHR1cm4gb3B0aW9ucyBjcmVhdGlvbmAoKSB7CiAgICAgICAgdmFsIG9wdGlvbnMgPSBDaGF0VHVybk9wdGlvbnMocGVyc2lzdFR1cm4gPSB0cnVlLCBoaWRlVXNlck1lc3NhZ2UgPSBmYWxzZSkKICAgICAgICBhc3NlcnRUcnVlKG9wdGlvbnMucGVyc2lzdFR1cm4pCiAgICAgICAgYXNzZXJ0RmFsc2Uob3B0aW9ucy5oaWRlVXNlck1lc3NhZ2UpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class MiscModelTest {
+
+    @Test fun `billing mode has TOKEN and COUNT`() {
+        assertTrue(BillingMode.values().contains(BillingMode.TOKEN))
+        assertTrue(BillingMode.values().contains(BillingMode.COUNT))
+    }
+
+    @Test fun `billing mode fromString parses correctly`() {
+        assertEquals(BillingMode.TOKEN, BillingMode.fromString("token"))
+        assertEquals(BillingMode.COUNT, BillingMode.fromString("count"))
+    }
+
+    @Test fun `billing mode fromString default to TOKEN`() {
+        assertEquals(BillingMode.TOKEN, BillingMode.fromString("invalid"))
+        assertEquals(BillingMode.TOKEN, BillingMode.fromString(null))
+    }
+
+    @Test fun `billing mode fromString is case insensitive`() {
+        assertEquals(BillingMode.TOKEN, BillingMode.fromString("TOKEN"))
+        assertEquals(BillingMode.COUNT, BillingMode.fromString("COUNT"))
+    }
+
+    @Test fun `active prompt character card`() {
+        val prompt = ActivePrompt.CharacterCard(id = "card1")
+        assertTrue(prompt is ActivePrompt.CharacterCard)
+        assertEquals("card1", (prompt as ActivePrompt.CharacterCard).id)
+    }
+
+    @Test fun `active prompt character group`() {
+        val prompt = ActivePrompt.CharacterGroup(id = "group1")
+        assertTrue(prompt is ActivePrompt.CharacterGroup)
+        assertEquals("group1", (prompt as ActivePrompt.CharacterGroup).id)
+    }
+
+    @Test fun `ai reference creation`() {
+        val ref = AiReference(text = "source", url = "https://example.com")
+        assertEquals("source", ref.text)
+        assertEquals("https://example.com", ref.url)
+    }
+
+    @Test fun `ai reference empty fields`() {
+        val ref = AiReference(text = "", url = "")
+        assertEquals("", ref.text)
+        assertEquals("", ref.url)
+    }
+
+    @Test fun `custom emoji creation`() {
+        val emoji = CustomEmoji(emotionCategory = "happy", fileName = "smile.jpg", isBuiltInCategory = true)
+        assertEquals("happy", emoji.emotionCategory)
+        assertEquals("smile.jpg", emoji.fileName)
+        assertTrue(emoji.isBuiltInCategory)
+    }
+
+    @Test fun `document chunk creation`() {
+        val chunk = DocumentChunk(content = "Chunk content", chunkIndex = 1)
+        assertEquals("Chunk content", chunk.content)
+        assertEquals(1, chunk.chunkIndex)
+        assertEquals(0L, chunk.id)
+    }
+
+    @Test fun `document chunk default values`() {
+        val chunk = DocumentChunk()
+        assertEquals("", chunk.content)
+        assertEquals(0, chunk.chunkIndex)
+        assertEquals(0L, chunk.id)
+    }
+
+    @Test fun `embedding dimension usage default values`() {
+        val usage = EmbeddingDimensionUsage()
+        assertEquals(0, usage.memoryTotal)
+        assertEquals(0, usage.memoryMissing)
+        assertTrue(usage.memoryDimensions.isEmpty())
+        assertEquals(0, usage.chunkTotal)
+        assertEquals(0, usage.chunkMissing)
+        assertTrue(usage.chunkDimensions.isEmpty())
+    }
+
+    @Test fun `embedding dimension usage with counts`() {
+        val dims = listOf(DimensionCount(dimension = 128, count = 5))
+        val usage = EmbeddingDimensionUsage(
+            memoryTotal = 10, memoryMissing = 2, memoryDimensions = dims,
+            chunkTotal = 20, chunkMissing = 1, chunkDimensions = dims,
+        )
+        assertEquals(10, usage.memoryTotal)
+        assertEquals(2, usage.memoryMissing)
+        assertEquals(1, usage.memoryDimensions.size)
+        assertEquals(128, usage.memoryDimensions[0].dimension)
+        assertEquals(5, usage.memoryDimensions[0].count)
+    }
+
+    @Test fun `embedding rebuild progress default values`() {
+        val progress = EmbeddingRebuildProgress()
+        assertEquals(0, progress.total)
+        assertEquals(0, progress.processed)
+        assertEquals(0, progress.failed)
+        assertEquals("", progress.currentStage)
+    }
+
+    @Test fun `embedding rebuild progress fraction`() {
+        val progress = EmbeddingRebuildProgress(total = 10, processed = 5)
+        assertEquals(0.5f, progress.fraction, 0.001f)
+        assertFalse(progress.isFinished)
+    }
+
+    @Test fun `embedding rebuild progress finished`() {
+        val progress = EmbeddingRebuildProgress(total = 10, processed = 10)
+        assertEquals(1.0f, progress.fraction, 0.001f)
+        assertTrue(progress.isFinished)
+    }
+
+    @Test fun `embedding rebuild progress zero total`() {
+        val progress = EmbeddingRebuildProgress()
+        assertEquals(0f, progress.fraction, 0.001f)
+        assertFalse(progress.isFinished)
+    }
+
+    @Test fun `input processing state idle`() {
+        val state = InputProcessingState.Idle
+        assertTrue(state is InputProcessingState.Idle)
+    }
+
+    @Test fun `input processing state completed`() {
+        val state = InputProcessingState.Completed
+        assertTrue(state is InputProcessingState.Completed)
+    }
+
+    @Test fun `input processing state processing`() {
+        val state = InputProcessingState.Processing(message = "Loading...")
+        assertTrue(state is InputProcessingState.Processing)
+        assertEquals("Loading...", (state as InputProcessingState.Processing).message)
+    }
+
+    @Test fun `input processing state error`() {
+        val state = InputProcessingState.Error(message = "Failed")
+        assertTrue(state is InputProcessingState.Error)
+        assertEquals("Failed", (state as InputProcessingState.Error).message)
+    }
+
+    @Test fun `input processing state connecting`() {
+        val state = InputProcessingState.Connecting(message = "Connecting...")
+        assertTrue(state is InputProcessingState.Connecting)
+    }
+
+    @Test fun `input processing state receiving`() {
+        val state = InputProcessingState.Receiving(message = "Receiving...")
+        assertTrue(state is InputProcessingState.Receiving)
+    }
+
+    @Test fun `input processing state executing tool`() {
+        val state = InputProcessingState.ExecutingTool(toolName = "calculator")
+        assertTrue(state is InputProcessingState.ExecutingTool)
+        assertEquals("calculator", (state as InputProcessingState.ExecutingTool).toolName)
+    }
+
+    @Test fun `input processing state tool progress`() {
+        val state = InputProcessingState.ToolProgress(toolName = "search", progress = 0.5f)
+        assertTrue(state is InputProcessingState.ToolProgress)
+        assertEquals(0.5f, (state as InputProcessingState.ToolProgress).progress, 0.001f)
+    }
+
+    @Test fun `input processing state summarizing`() {
+        val state = InputProcessingState.Summarizing(message = "Summarizing...")
+        assertTrue(state is InputProcessingState.Summarizing)
+    }
+
+    @Test fun `input processing state executing plan`() {
+        val state = InputProcessingState.ExecutingPlan(message = "Planning...")
+        assertTrue(state is InputProcessingState.ExecutingPlan)
+    }
+
+    @Test fun `memory search config creation`() {
+        val config = MemorySearchConfig(
+            scoreMode = MemoryScoreMode.BALANCED,
+            keywordWeight = 10.0f,
+            tagWeight = 0.0f,
+        )
+        assertEquals(MemoryScoreMode.BALANCED, config.scoreMode)
+        assertEquals(10.0f, config.keywordWeight, 0.001f)
+        assertEquals(0.0f, config.tagWeight, 0.001f)
+    }
+
+    @Test fun `memory search debug info creation`() {
+        val info = MemorySearchDebugInfo(
+            query = "test query",
+            keywords = listOf("test"),
+            lexicalTokens = listOf("test"),
+            scoreMode = MemoryScoreMode.BALANCED,
+            relevanceThreshold = 0.5,
+            effectiveKeywordWeight = 1.0,
+            effectiveTagWeight = 0.0,
+            effectiveSemanticWeight = 0.0f,
+            semanticKeywordNormFactor = 0.0,
+            effectiveEdgeWeight = 0.0,
+            memoriesInScopeCount = 10,
+            keywordMatchesCount = 5,
+            tagMatchesCount = 0,
+            reverseContainmentMatchesCount = 0,
+            semanticMatchesCount = 0,
+            graphEdgesTraversed = 0,
+            scoredCount = 5,
+            passedThresholdCount = 3,
+            candidates = emptyList(),
+            finalResultIds = emptyList(),
+        )
+        assertEquals("test query", info.query)
+        assertEquals(5, info.keywordMatchesCount)
+        assertEquals(10, info.memoriesInScopeCount)
+    }
+
+    @Test fun `workflow execution record creation`() {
+        val record = WorkflowExecutionRecord(
+            workflowId = "wf1",
+            workflowName = "Test Workflow",
+            success = true,
+            message = "Completed",
+        )
+        assertEquals("wf1", record.workflowId)
+        assertEquals("Test Workflow", record.workflowName)
+        assertTrue(record.success)
+        assertEquals("Completed", record.message)
+    }
+
+    @Test fun `chat message locator preview creation`() {
+        val preview = ChatMessageLocatorPreview(
+            timestamp = 1000L,
+            sender = "user",
+            previewContent = "Hello",
+            contentLength = 5,
+            displayMode = ChatMessageDisplayMode.NORMAL.name,
+            isFavorite = false,
+        )
+        assertEquals(1000L, preview.timestamp)
+        assertEquals("Hello", preview.previewContent)
+        assertEquals(ChatMessageDisplayMode.NORMAL, preview.resolvedDisplayMode)
+    }
+
+    @Test fun `memory space creation`() {
+        val space = MemorySpace(id = "default", name = "Default")
+        assertEquals("default", space.id)
+        assertEquals("Default", space.name)
+    }
+
+    @Test fun `operit node info creation`() {
+        val info = OperitNodeInfo(
+            className = "android.widget.Button",
+            packageName = "com.example",
+            text = "Submit",
+            contentDescription = null,
+            viewIdResourceName = null,
+            boundsInScreen = "[0,0][100,50]",
+            isClickable = true,
+            isVisibleToUser = true,
+            isFocused = false,
+            isChecked = false,
+        )
+        assertEquals("android.widget.Button", info.className)
+        assertEquals("com.example", info.packageName)
+        assertEquals("Submit", info.text)
+        assertTrue(info.isClickable)
+        assertTrue(info.isVisibleToUser)
+    }
+
+    @Test fun `chat turn options creation`() {
+        val options = ChatTurnOptions(persistTurn = true, hideUserMessage = false)
+        assertTrue(options.persistTurn)
+        assertFalse(options.hideUserMessage)
+    }
+}

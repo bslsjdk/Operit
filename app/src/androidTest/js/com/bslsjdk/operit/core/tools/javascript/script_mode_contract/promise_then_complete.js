@@ -1,1 +1,9 @@
-J3VzZSBzdHJpY3QnOwoKUHJvbWlzZS5yZXNvbHZlKHsKICBzdWNjZXNzOiB0cnVlLAogIG1vZGU6ICdzY3JpcHQtbW9kZS1wcm9taXNlLXRoZW4tY29tcGxldGUnLAogIHZhbHVlczogWydhJywgJ2InLCAnYyddLAp9KS50aGVuKGZ1bmN0aW9uIChwYXlsb2FkKSB7CiAgY29tcGxldGUocGF5bG9hZCk7Cn0pOwo=
+'use strict';
+
+Promise.resolve({
+  success: true,
+  mode: 'script-mode-promise-then-complete',
+  values: ['a', 'b', 'c'],
+}).then(function (payload) {
+  complete(payload);
+});

@@ -1,1 +1,209 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb252ZXJ0ZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DaGF0SGlzdG9yeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdE1lc3NhZ2UKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5qc29uLioKaW1wb3J0IGphdmEudGltZS5JbnN0YW50CmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlVGltZQppbXBvcnQgamF2YS50aW1lLlpvbmVJZAppbXBvcnQgamF2YS51dGlsLlVVSUQKCi8qKgogKiBDaGF0R1BUIGNvbnZlcnNhdGlvbnMuanNvbiDmoLzlvI/ovazmjaLlmagKICog5pSv5oyBIE9wZW5BSSDlrpjmlrnlr7zlh7rnmoTmoLzlvI8KICovCmNsYXNzIENoYXRHUFRDb252ZXJ0ZXIgOiBDaGF0Rm9ybWF0Q29udmVydGVyIHsKICAgIAogICAgcHJpdmF0ZSB2YWwganNvbiA9IEpzb24gewogICAgICAgIGlnbm9yZVVua25vd25LZXlzID0gdHJ1ZQogICAgICAgIGlzTGVuaWVudCA9IHRydWUKICAgIH0KICAgIAogICAgb3ZlcnJpZGUgZnVuIGNvbnZlcnQoY29udGVudDogU3RyaW5nKTogTGlzdDxDaGF0SGlzdG9yeT4gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgY29udmVyc2F0aW9ucyA9IGpzb24uZGVjb2RlRnJvbVN0cmluZzxMaXN0PENoYXRHUFRDb252ZXJzYXRpb24+Pihjb250ZW50KQogICAgICAgICAgICBjb252ZXJzYXRpb25zLm1hcE5vdE51bGwgeyBjb252ZXJ0Q29udmVyc2F0aW9uKGl0KSB9CiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHRocm93IENvbnZlcnNpb25FeGNlcHRpb24oIkZhaWxlZCB0byBwYXJzZSBDaGF0R1BUIGZvcm1hdDogJHtlLm1lc3NhZ2V9IiwgZSkKICAgICAgICB9CiAgICB9CiAgICAKICAgIG92ZXJyaWRlIGZ1biBnZXRTdXBwb3J0ZWRGb3JtYXQoKTogQ2hhdEZvcm1hdCA9IENoYXRGb3JtYXQuQ0hBVEdQVAogICAgCiAgICBwcml2YXRlIGZ1biBjb252ZXJ0Q29udmVyc2F0aW9uKGNvbnY6IENoYXRHUFRDb252ZXJzYXRpb24pOiBDaGF0SGlzdG9yeT8gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIC8vIOS7jiBtYXBwaW5nIOS4reaPkOWPlua2iOaBrwogICAgICAgICAgICB2YWwgbWVzc2FnZXMgPSBleHRyYWN0TWVzc2FnZXNGcm9tTWFwcGluZyhjb252Lm1hcHBpbmcsIGNvbnYuY3VycmVudF9ub2RlKQogICAgICAgICAgICAKICAgICAgICAgICAgaWYgKG1lc3NhZ2VzLmlzRW1wdHkoKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIG51bGwKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgdmFsIGNyZWF0ZWRBdCA9IGlmIChjb252LmNyZWF0ZV90aW1lID4gMCkgewogICAgICAgICAgICAgICAgSW5zdGFudC5vZkVwb2NoU2Vjb25kKGNvbnYuY3JlYXRlX3RpbWUpCiAgICAgICAgICAgICAgICAgICAgLmF0Wm9uZShab25lSWQuc3lzdGVtRGVmYXVsdCgpKQogICAgICAgICAgICAgICAgICAgIC50b0xvY2FsRGF0ZVRpbWUoKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgTG9jYWxEYXRlVGltZS5ub3coKQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgdXBkYXRlZEF0ID0gaWYgKGNvbnYudXBkYXRlX3RpbWUgPiAwKSB7CiAgICAgICAgICAgICAgICBJbnN0YW50Lm9mRXBvY2hTZWNvbmQoY29udi51cGRhdGVfdGltZSkKICAgICAgICAgICAgICAgICAgICAuYXRab25lKFpvbmVJZC5zeXN0ZW1EZWZhdWx0KCkpCiAgICAgICAgICAgICAgICAgICAgLnRvTG9jYWxEYXRlVGltZSgpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBjcmVhdGVkQXQKICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgcmV0dXJuIENoYXRIaXN0b3J5KAogICAgICAgICAgICAgICAgaWQgPSBjb252LmlkID86IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCksCiAgICAgICAgICAgICAgICB0aXRsZSA9IGNvbnYudGl0bGUgPzogIlVudGl0bGVkIENvbnZlcnNhdGlvbiIsCiAgICAgICAgICAgICAgICBtZXNzYWdlcyA9IG1lc3NhZ2VzLAogICAgICAgICAgICAgICAgY3JlYXRlZEF0ID0gY3JlYXRlZEF0LAogICAgICAgICAgICAgICAgdXBkYXRlZEF0ID0gdXBkYXRlZEF0LAogICAgICAgICAgICAgICAgZ3JvdXAgPSAiSW1wb3J0ZWQgZnJvbSBDaGF0R1BUIgogICAgICAgICAgICApCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIC8vIOi3s+i/h+aXoOazlei9rOaNoueahOWvueivnQogICAgICAgICAgICByZXR1cm4gbnVsbAogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDku44gQ2hhdEdQVCDnmoQgbWFwcGluZyDnu5PmnoTkuK3mj5Dlj5bmtojmga/pk74KICAgICAqLwogICAgcHJpdmF0ZSBmdW4gZXh0cmFjdE1lc3NhZ2VzRnJvbU1hcHBpbmcoCiAgICAgICAgbWFwcGluZzogTWFwPFN0cmluZywgQ2hhdEdQVE5vZGU+LAogICAgICAgIGN1cnJlbnROb2RlSWQ6IFN0cmluZz8KICAgICk6IExpc3Q8Q2hhdE1lc3NhZ2U+IHsKICAgICAgICB2YWwgbWVzc2FnZXMgPSBtdXRhYmxlTGlzdE9mPENoYXRNZXNzYWdlPigpCiAgICAgICAgCiAgICAgICAgLy8g5LuOIGN1cnJlbnRfbm9kZSDlvIDlp4vlm57muq8KICAgICAgICB2YXIgbm9kZUlkID0gY3VycmVudE5vZGVJZAogICAgICAgIHZhbCB2aXNpdGVkID0gbXV0YWJsZVNldE9mPFN0cmluZz4oKQogICAgICAgIAogICAgICAgIHdoaWxlIChub2RlSWQgIT0gbnVsbCAmJiAhdmlzaXRlZC5jb250YWlucyhub2RlSWQpKSB7CiAgICAgICAgICAgIHZpc2l0ZWQuYWRkKG5vZGVJZCkKICAgICAgICAgICAgCiAgICAgICAgICAgIHZhbCBub2RlID0gbWFwcGluZ1tub2RlSWRdID86IGJyZWFrCiAgICAgICAgICAgIHZhbCBtZXNzYWdlID0gbm9kZS5tZXNzYWdlCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDmj5Dlj5bmnInmlYjmtojmga8KICAgICAgICAgICAgaWYgKG1lc3NhZ2UgIT0gbnVsbCAmJiBzaG91bGRJbmNsdWRlTWVzc2FnZShtZXNzYWdlKSkgewogICAgICAgICAgICAgICAgdmFsIGNoYXRNZXNzYWdlID0gY29udmVydE1lc3NhZ2UobWVzc2FnZSkKICAgICAgICAgICAgICAgIGlmIChjaGF0TWVzc2FnZSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZXMuYWRkKDAsIGNoYXRNZXNzYWdlKSAvLyDmt7vliqDliLDlvIDlpLTku6Xkv53mjIHpobrluo8KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAKICAgICAgICAgICAgbm9kZUlkID0gbm9kZS5wYXJlbnQKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgcmV0dXJuIG1lc3NhZ2VzCiAgICB9CiAgICAKICAgIC8qKgogICAgICog5Yik5pat5piv5ZCm5bqU6K+l5YyF5ZCr6K+l5raI5oGvCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHNob3VsZEluY2x1ZGVNZXNzYWdlKG1lc3NhZ2U6IENoYXRHUFRNZXNzYWdlKTogQm9vbGVhbiB7CiAgICAgICAgLy8g6Lez6L+H57O757uf5raI5oGv77yI6Zmk6Z2e5piv55So5oi36Ieq5a6a5LmJ55qE57O757uf5raI5oGv77yJCiAgICAgICAgaWYgKG1lc3NhZ2UuYXV0aG9yLnJvbGUgPT0gInN5c3RlbSIgJiYgCiAgICAgICAgICAgIG1lc3NhZ2UubWV0YWRhdGE/LmlzX3VzZXJfc3lzdGVtX21lc3NhZ2UgIT0gdHJ1ZSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5b+F6aG75pyJ5YaF5a65CiAgICAgICAgdmFsIGNvbnRlbnQgPSBtZXNzYWdlLmNvbnRlbnQKICAgICAgICBpZiAoY29udGVudCA9PSBudWxsKSByZXR1cm4gZmFsc2UKICAgICAgICAKICAgICAgICAvLyDlv4XpobvmmK/mlofmnKznsbvlnovkuJTmnInlhoXlrrkKICAgICAgICBpZiAoY29udGVudC5jb250ZW50X3R5cGUgIT0gInRleHQiKSByZXR1cm4gZmFsc2UKICAgICAgICAKICAgICAgICB2YWwgcGFydHMgPSBjb250ZW50LnBhcnRzCiAgICAgICAgaWYgKHBhcnRzLmlzRW1wdHkoKSB8fCBwYXJ0cy5maXJzdCgpLmlzQmxhbmsoKSkgcmV0dXJuIGZhbHNlCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDovazmjaLljZXmnaHmtojmga8KICAgICAqLwogICAgcHJpdmF0ZSBmdW4gY29udmVydE1lc3NhZ2UobWVzc2FnZTogQ2hhdEdQVE1lc3NhZ2UpOiBDaGF0TWVzc2FnZT8gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBjb250ZW50ID0gbWVzc2FnZS5jb250ZW50ID86IHJldHVybiBudWxsCiAgICAgICAgICAgIHZhbCB0ZXh0ID0gY29udGVudC5wYXJ0cy5maXJzdE9yTnVsbCgpID86IHJldHVybiBudWxsCiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgc2VuZGVyID0gd2hlbiAobWVzc2FnZS5hdXRob3Iucm9sZSkgewogICAgICAgICAgICAgICAgInVzZXIiIC0+ICJ1c2VyIgogICAgICAgICAgICAgICAgImFzc2lzdGFudCIgLT4gImFpIgogICAgICAgICAgICAgICAgInN5c3RlbSIgLT4gaWYgKG1lc3NhZ2UubWV0YWRhdGE/LmlzX3VzZXJfc3lzdGVtX21lc3NhZ2UgPT0gdHJ1ZSkgInVzZXIiIGVsc2UgcmV0dXJuIG51bGwKICAgICAgICAgICAgICAgIGVsc2UgLT4gInVzZXIiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHZhbCB0aW1lc3RhbXAgPSBpZiAobWVzc2FnZS5jcmVhdGVfdGltZSA+IDApIHsKICAgICAgICAgICAgICAgIG1lc3NhZ2UuY3JlYXRlX3RpbWUgKiAxMDAwCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgbW9kZWxOYW1lID0gbWVzc2FnZS5tZXRhZGF0YT8ubW9kZWxfc2x1ZyA/OiAiZ3B0LTMuNS10dXJibyIKICAgICAgICAgICAgCiAgICAgICAgICAgIHJldHVybiBDaGF0TWVzc2FnZSgKICAgICAgICAgICAgICAgIHNlbmRlciA9IHNlbmRlciwKICAgICAgICAgICAgICAgIGNvbnRlbnQgPSB0ZXh0LAogICAgICAgICAgICAgICAgdGltZXN0YW1wID0gdGltZXN0YW1wLAogICAgICAgICAgICAgICAgcHJvdmlkZXIgPSAiT3BlbkFJIiwKICAgICAgICAgICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZQogICAgICAgICAgICApCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIHJldHVybiBudWxsCiAgICAgICAgfQogICAgfQp9CgovLyBDaGF0R1BUIOaVsOaNrue7k+aehOWumuS5iQpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgQ2hhdEdQVENvbnZlcnNhdGlvbigKICAgIHZhbCBpZDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdGl0bGU6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGNyZWF0ZV90aW1lOiBMb25nID0gMCwKICAgIHZhbCB1cGRhdGVfdGltZTogTG9uZyA9IDAsCiAgICB2YWwgbWFwcGluZzogTWFwPFN0cmluZywgQ2hhdEdQVE5vZGU+ID0gZW1wdHlNYXAoKSwKICAgIHZhbCBjdXJyZW50X25vZGU6IFN0cmluZz8gPSBudWxsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBDaGF0R1BUTm9kZSgKICAgIHZhbCBpZDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgbWVzc2FnZTogQ2hhdEdQVE1lc3NhZ2U/ID0gbnVsbCwKICAgIHZhbCBwYXJlbnQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGNoaWxkcmVuOiBMaXN0PFN0cmluZz4gPSBlbXB0eUxpc3QoKQopCgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgQ2hhdEdQVE1lc3NhZ2UoCiAgICB2YWwgaWQ6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGF1dGhvcjogQ2hhdEdQVEF1dGhvciwKICAgIHZhbCBjb250ZW50OiBDaGF0R1BUQ29udGVudD8gPSBudWxsLAogICAgdmFsIGNyZWF0ZV90aW1lOiBMb25nID0gMCwKICAgIHZhbCBtZXRhZGF0YTogQ2hhdEdQVE1ldGFkYXRhPyA9IG51bGwKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIENoYXRHUFRBdXRob3IoCiAgICB2YWwgcm9sZTogU3RyaW5nLAogICAgdmFsIG5hbWU6IFN0cmluZz8gPSBudWxsCikKCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBDaGF0R1BUQ29udGVudCgKICAgIHZhbCBjb250ZW50X3R5cGU6IFN0cmluZywKICAgIHZhbCBwYXJ0czogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCkKKQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIENoYXRHUFRNZXRhZGF0YSgKICAgIHZhbCBtb2RlbF9zbHVnOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBpc191c2VyX3N5c3RlbV9tZXNzYWdlOiBCb29sZWFuPyA9IG51bGwKKQo=
+package com.bslsjdk.operit.data.converter
+
+import com.bslsjdk.operit.data.model.ChatHistory
+import com.bslsjdk.operit.data.model.ChatMessage
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.json.*
+import java.time.Instant
+import java.time.LocalDateTime
+import java.time.ZoneId
+import java.util.UUID
+
+/**
+ * ChatGPT conversations.json 格式转换器
+ * 支持 OpenAI 官方导出的格式
+ */
+class ChatGPTConverter : ChatFormatConverter {
+    
+    private val json = Json {
+        ignoreUnknownKeys = true
+        isLenient = true
+    }
+    
+    override fun convert(content: String): List<ChatHistory> {
+        return try {
+            val conversations = json.decodeFromString<List<ChatGPTConversation>>(content)
+            conversations.mapNotNull { convertConversation(it) }
+        } catch (e: Exception) {
+            throw ConversionException("Failed to parse ChatGPT format: ${e.message}", e)
+        }
+    }
+    
+    override fun getSupportedFormat(): ChatFormat = ChatFormat.CHATGPT
+    
+    private fun convertConversation(conv: ChatGPTConversation): ChatHistory? {
+        try {
+            // 从 mapping 中提取消息
+            val messages = extractMessagesFromMapping(conv.mapping, conv.current_node)
+            
+            if (messages.isEmpty()) {
+                return null
+            }
+            
+            val createdAt = if (conv.create_time > 0) {
+                Instant.ofEpochSecond(conv.create_time)
+                    .atZone(ZoneId.systemDefault())
+                    .toLocalDateTime()
+            } else {
+                LocalDateTime.now()
+            }
+            
+            val updatedAt = if (conv.update_time > 0) {
+                Instant.ofEpochSecond(conv.update_time)
+                    .atZone(ZoneId.systemDefault())
+                    .toLocalDateTime()
+            } else {
+                createdAt
+            }
+            
+            return ChatHistory(
+                id = conv.id ?: UUID.randomUUID().toString(),
+                title = conv.title ?: "Untitled Conversation",
+                messages = messages,
+                createdAt = createdAt,
+                updatedAt = updatedAt,
+                group = "Imported from ChatGPT"
+            )
+        } catch (e: Exception) {
+            // 跳过无法转换的对话
+            return null
+        }
+    }
+    
+    /**
+     * 从 ChatGPT 的 mapping 结构中提取消息链
+     */
+    private fun extractMessagesFromMapping(
+        mapping: Map<String, ChatGPTNode>,
+        currentNodeId: String?
+    ): List<ChatMessage> {
+        val messages = mutableListOf<ChatMessage>()
+        
+        // 从 current_node 开始回溯
+        var nodeId = currentNodeId
+        val visited = mutableSetOf<String>()
+        
+        while (nodeId != null && !visited.contains(nodeId)) {
+            visited.add(nodeId)
+            
+            val node = mapping[nodeId] ?: break
+            val message = node.message
+            
+            // 提取有效消息
+            if (message != null && shouldIncludeMessage(message)) {
+                val chatMessage = convertMessage(message)
+                if (chatMessage != null) {
+                    messages.add(0, chatMessage) // 添加到开头以保持顺序
+                }
+            }
+            
+            nodeId = node.parent
+        }
+        
+        return messages
+    }
+    
+    /**
+     * 判断是否应该包含该消息
+     */
+    private fun shouldIncludeMessage(message: ChatGPTMessage): Boolean {
+        // 跳过系统消息（除非是用户自定义的系统消息）
+        if (message.author.role == "system" && 
+            message.metadata?.is_user_system_message != true) {
+            return false
+        }
+        
+        // 必须有内容
+        val content = message.content
+        if (content == null) return false
+        
+        // 必须是文本类型且有内容
+        if (content.content_type != "text") return false
+        
+        val parts = content.parts
+        if (parts.isEmpty() || parts.first().isBlank()) return false
+        
+        return true
+    }
+    
+    /**
+     * 转换单条消息
+     */
+    private fun convertMessage(message: ChatGPTMessage): ChatMessage? {
+        try {
+            val content = message.content ?: return null
+            val text = content.parts.firstOrNull() ?: return null
+            
+            val sender = when (message.author.role) {
+                "user" -> "user"
+                "assistant" -> "ai"
+                "system" -> if (message.metadata?.is_user_system_message == true) "user" else return null
+                else -> "user"
+            }
+            
+            val timestamp = if (message.create_time > 0) {
+                message.create_time * 1000
+            } else {
+                System.currentTimeMillis()
+            }
+            
+            val modelName = message.metadata?.model_slug ?: "gpt-3.5-turbo"
+            
+            return ChatMessage(
+                sender = sender,
+                content = text,
+                timestamp = timestamp,
+                provider = "OpenAI",
+                modelName = modelName
+            )
+        } catch (e: Exception) {
+            return null
+        }
+    }
+}
+
+// ChatGPT 数据结构定义
+@Serializable
+data class ChatGPTConversation(
+    val id: String? = null,
+    val title: String? = null,
+    val create_time: Long = 0,
+    val update_time: Long = 0,
+    val mapping: Map<String, ChatGPTNode> = emptyMap(),
+    val current_node: String? = null
+)
+
+@Serializable
+data class ChatGPTNode(
+    val id: String? = null,
+    val message: ChatGPTMessage? = null,
+    val parent: String? = null,
+    val children: List<String> = emptyList()
+)
+
+@Serializable
+data class ChatGPTMessage(
+    val id: String? = null,
+    val author: ChatGPTAuthor,
+    val content: ChatGPTContent? = null,
+    val create_time: Long = 0,
+    val metadata: ChatGPTMetadata? = null
+)
+
+@Serializable
+data class ChatGPTAuthor(
+    val role: String,
+    val name: String? = null
+)
+
+@Serializable
+data class ChatGPTContent(
+    val content_type: String,
+    val parts: List<String> = emptyList()
+)
+
+@Serializable
+data class ChatGPTMetadata(
+    val model_slug: String? = null,
+    val is_user_system_message: Boolean? = null
+)

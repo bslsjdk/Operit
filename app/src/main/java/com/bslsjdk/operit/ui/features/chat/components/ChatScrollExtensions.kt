@@ -1,1 +1,57 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmdlc3R1cmVzLmFuaW1hdGVTY3JvbGxCeQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkuTGF6eUxpc3RTdGF0ZSBhcyBDb21wb3NlTGF6eUxpc3RTdGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMaXN0U3RhdGUKCi8qKgogKiBTY3JvbGxzIHRvIHRoZSBhY3R1YWwgZW5kIG9mIHRoZSBsaXN0IHNvIHRoZSB0cmFpbGluZyBlZGdlIG9mIHRoZSBmaW5hbCBpdGVtIHN0YXlzIGFsaWduZWQgd2l0aAogKiB0aGUgdmlld3BvcnQncyBjb250ZW50IGVuZCBpbnN0ZWFkIG9mIGl0cyBzdGFydC4KICovCnN1c3BlbmQgZnVuIExhenlMaXN0U3RhdGUuYW5pbWF0ZVNjcm9sbFRvRW5kKCkgewogICAgdmFsIGxhc3RJbmRleCA9IGxheW91dEluZm8udG90YWxJdGVtc0NvdW50IC0gMQogICAgaWYgKGxhc3RJbmRleCA8IDApIHsKICAgICAgICByZXR1cm4KICAgIH0KCiAgICBhbmltYXRlU2Nyb2xsVG9JdGVtKGxhc3RJbmRleCkKCiAgICB2YWwgdXBkYXRlZExheW91dEluZm8gPSBsYXlvdXRJbmZvCiAgICB2YWwgdGFyZ2V0SXRlbUluZm8gPQogICAgICAgIHVwZGF0ZWRMYXlvdXRJbmZvLnZpc2libGVJdGVtc0luZm8ubGFzdE9yTnVsbCB7IGl0LmluZGV4ID09IGxhc3RJbmRleCB9ID86IHJldHVybgogICAgdmFsIGNvbnRlbnRWaWV3cG9ydEVuZCA9CiAgICAgICAgdXBkYXRlZExheW91dEluZm8udmlld3BvcnRFbmRPZmZzZXQgLSB1cGRhdGVkTGF5b3V0SW5mby5hZnRlckNvbnRlbnRQYWRkaW5nCiAgICB2YWwgdGFyZ2V0SXRlbUVuZCA9IHRhcmdldEl0ZW1JbmZvLm9mZnNldCArIHRhcmdldEl0ZW1JbmZvLnNpemUKICAgIHZhbCBkZWx0YVRvVmlld3BvcnRFbmQgPSAodGFyZ2V0SXRlbUVuZCAtIGNvbnRlbnRWaWV3cG9ydEVuZCkudG9GbG9hdCgpCiAgICBpZiAoZGVsdGFUb1ZpZXdwb3J0RW5kIDwgMGYgJiYgIWNhblNjcm9sbEJhY2t3YXJkKSB7CiAgICAgICAgcmV0dXJuCiAgICB9CgogICAgaWYgKGtvdGxpbi5tYXRoLmFicyhkZWx0YVRvVmlld3BvcnRFbmQpID4gMC41ZikgewogICAgICAgIGFuaW1hdGVTY3JvbGxCeShkZWx0YVRvVmlld3BvcnRFbmQpCiAgICB9Cn0KCnN1c3BlbmQgZnVuIENvbXBvc2VMYXp5TGlzdFN0YXRlLmFuaW1hdGVTY3JvbGxUb0VuZCgpIHsKICAgIHZhbCBsYXN0SW5kZXggPSBsYXlvdXRJbmZvLnRvdGFsSXRlbXNDb3VudCAtIDEKICAgIGlmIChsYXN0SW5kZXggPCAwKSB7CiAgICAgICAgcmV0dXJuCiAgICB9CgogICAgYW5pbWF0ZVNjcm9sbFRvSXRlbShsYXN0SW5kZXgpCgogICAgdmFsIHVwZGF0ZWRMYXlvdXRJbmZvID0gbGF5b3V0SW5mbwogICAgdmFsIHRhcmdldEl0ZW1JbmZvID0KICAgICAgICB1cGRhdGVkTGF5b3V0SW5mby52aXNpYmxlSXRlbXNJbmZvLmxhc3RPck51bGwgeyBpdC5pbmRleCA9PSBsYXN0SW5kZXggfSA/OiByZXR1cm4KICAgIHZhbCBjb250ZW50Vmlld3BvcnRFbmQgPQogICAgICAgIHVwZGF0ZWRMYXlvdXRJbmZvLnZpZXdwb3J0RW5kT2Zmc2V0IC0gdXBkYXRlZExheW91dEluZm8uYWZ0ZXJDb250ZW50UGFkZGluZwogICAgdmFsIHRhcmdldEl0ZW1FbmQgPSB0YXJnZXRJdGVtSW5mby5vZmZzZXQgKyB0YXJnZXRJdGVtSW5mby5zaXplCiAgICB2YWwgZGVsdGFUb1ZpZXdwb3J0RW5kID0gKHRhcmdldEl0ZW1FbmQgLSBjb250ZW50Vmlld3BvcnRFbmQpLnRvRmxvYXQoKQogICAgaWYgKGRlbHRhVG9WaWV3cG9ydEVuZCA8IDBmICYmICFjYW5TY3JvbGxCYWNrd2FyZCkgewogICAgICAgIHJldHVybgogICAgfQoKICAgIGlmIChrb3RsaW4ubWF0aC5hYnMoZGVsdGFUb1ZpZXdwb3J0RW5kKSA+IDAuNWYpIHsKICAgICAgICBhbmltYXRlU2Nyb2xsQnkoZGVsdGFUb1ZpZXdwb3J0RW5kKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.foundation.gestures.animateScrollBy
+import androidx.compose.foundation.lazy.LazyListState as ComposeLazyListState
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyListState
+
+/**
+ * Scrolls to the actual end of the list so the trailing edge of the final item stays aligned with
+ * the viewport's content end instead of its start.
+ */
+suspend fun LazyListState.animateScrollToEnd() {
+    val lastIndex = layoutInfo.totalItemsCount - 1
+    if (lastIndex < 0) {
+        return
+    }
+
+    animateScrollToItem(lastIndex)
+
+    val updatedLayoutInfo = layoutInfo
+    val targetItemInfo =
+        updatedLayoutInfo.visibleItemsInfo.lastOrNull { it.index == lastIndex } ?: return
+    val contentViewportEnd =
+        updatedLayoutInfo.viewportEndOffset - updatedLayoutInfo.afterContentPadding
+    val targetItemEnd = targetItemInfo.offset + targetItemInfo.size
+    val deltaToViewportEnd = (targetItemEnd - contentViewportEnd).toFloat()
+    if (deltaToViewportEnd < 0f && !canScrollBackward) {
+        return
+    }
+
+    if (kotlin.math.abs(deltaToViewportEnd) > 0.5f) {
+        animateScrollBy(deltaToViewportEnd)
+    }
+}
+
+suspend fun ComposeLazyListState.animateScrollToEnd() {
+    val lastIndex = layoutInfo.totalItemsCount - 1
+    if (lastIndex < 0) {
+        return
+    }
+
+    animateScrollToItem(lastIndex)
+
+    val updatedLayoutInfo = layoutInfo
+    val targetItemInfo =
+        updatedLayoutInfo.visibleItemsInfo.lastOrNull { it.index == lastIndex } ?: return
+    val contentViewportEnd =
+        updatedLayoutInfo.viewportEndOffset - updatedLayoutInfo.afterContentPadding
+    val targetItemEnd = targetItemInfo.offset + targetItemInfo.size
+    val deltaToViewportEnd = (targetItemEnd - contentViewportEnd).toFloat()
+    if (deltaToViewportEnd < 0f && !canScrollBackward) {
+        return
+    }
+
+    if (kotlin.math.abs(deltaToViewportEnd) > 0.5f) {
+        animateScrollBy(deltaToViewportEnd)
+    }
+}

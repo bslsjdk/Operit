@@ -1,1 +1,245 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGVyZm9ybWFuY2UKCmltcG9ydCBhbmRyb2lkLmdyYXBoaWNzLlBhaW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uQ2FudmFzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uYmFja2dyb3VuZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmhvcml6b250YWxTY3JvbGwKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkNvbHVtbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Sb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LmZpbGxNYXhXaWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5oZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC53aWR0aAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbWVtYmVyU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5DaXJjbGVTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdlb21ldHJ5Lk9mZnNldAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5QYXRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLmRyYXdzY29wZS5TdHJva2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MubmF0aXZlQ2FudmFzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnRvQXJnYgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbERlbnNpdHkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5EcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5wZXJmb3JtYW5jZS5QZXJmb3JtYW5jZVNuYXBzaG90CmltcG9ydCBqYXZhLnRleHQuU2ltcGxlRGF0ZUZvcm1hdAppbXBvcnQgamF2YS51dGlsLkRhdGUKaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKaW1wb3J0IGtvdGxpbi5tYXRoLmNlaWwKaW1wb3J0IGtvdGxpbi5tYXRoLmxvZzEwCmltcG9ydCBrb3RsaW4ubWF0aC5wb3cKCi8qKiDmgKfog73mm7Lnur/nmoTkuIDkuKrmlbDmja7ns7vliJfvvJt2YWx1ZSDov5Tlm54gbnVsbCDooajnpLror6Xml7bliLvml6DmlbDmja7vvIjmlq3nur/vvInjgIIgKi8KaW50ZXJuYWwgZGF0YSBjbGFzcyBQZXJmb3JtYW5jZUNoYXJ0U2VyaWVzKAogICAgdmFsIGxhYmVsOiBTdHJpbmcsCiAgICB2YWwgY29sb3I6IENvbG9yLAogICAgdmFsIHZhbHVlOiAoUGVyZm9ybWFuY2VTbmFwc2hvdCkgLT4gRG91YmxlPwopCgovKioKICog5Lu75Yqh566h55CG5Zmo6aOO5qC855qE5rua5Yqo5oCn6IO95puy57q/77ya5aSa57O75YiX5oqY57q/ICsg5Y2K6YCP5piO5aGr5YWFICsg572R5qC85LiO5pe26Ze06L2044CCCiAqIOaVsOaNruS7juW3pu+8iOaXp++8ieWIsOWPs++8iOaWsO+8iemTuua7oeaVtOS4quWuveW6puOAggogKi8KQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIFBlcmZvcm1hbmNlTGl2ZUNoYXJ0KAogICAgaGlzdG9yeTogTGlzdDxQZXJmb3JtYW5jZVNuYXBzaG90PiwKICAgIHNlcmllczogTGlzdDxQZXJmb3JtYW5jZUNoYXJ0U2VyaWVzPiwKICAgIHZhbHVlRm9ybWF0dGVyOiAoRG91YmxlKSAtPiBTdHJpbmcsCiAgICBtb2RpZmllcjogTW9kaWZpZXIgPSBNb2RpZmllciwKICAgIGZpeGVkTWF4OiBEb3VibGU/ID0gbnVsbCwKICAgIGNoYXJ0SGVpZ2h0OiBEcCA9IDE2OC5kcAopIHsKICAgIHZhbCBncmlkQ29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm91dGxpbmVWYXJpYW50CiAgICB2YWwgbGFiZWxDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudAoKICAgIENvbHVtbihtb2RpZmllciA9IG1vZGlmaWVyKSB7CiAgICAgICAgUGVyZm9ybWFuY2VDaGFydExlZ2VuZChzZXJpZXMgPSBzZXJpZXMpCiAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDguZHApKQogICAgICAgIGlmIChoaXN0b3J5LnNpemUgPCAyKSB7CiAgICAgICAgICAgIEJveChtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLmhlaWdodChjaGFydEhlaWdodCkpIHt9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgUGVyZm9ybWFuY2VDaGFydENhbnZhcygKICAgICAgICAgICAgICAgIGhpc3RvcnkgPSBoaXN0b3J5LAogICAgICAgICAgICAgICAgc2VyaWVzID0gc2VyaWVzLAogICAgICAgICAgICAgICAgZml4ZWRNYXggPSBmaXhlZE1heCwKICAgICAgICAgICAgICAgIGdyaWRDb2xvciA9IGdyaWRDb2xvciwKICAgICAgICAgICAgICAgIGxhYmVsQ29sb3IgPSBsYWJlbENvbG9yLAogICAgICAgICAgICAgICAgdmFsdWVGb3JtYXR0ZXIgPSB2YWx1ZUZvcm1hdHRlciwKICAgICAgICAgICAgICAgIGNoYXJ0SGVpZ2h0ID0gY2hhcnRIZWlnaHQKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gUGVyZm9ybWFuY2VDaGFydExlZ2VuZChzZXJpZXM6IExpc3Q8UGVyZm9ybWFuY2VDaGFydFNlcmllcz4pIHsKICAgIFJvdygKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmhvcml6b250YWxTY3JvbGwocmVtZW1iZXJTY3JvbGxTdGF0ZSgpKSwKICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5CiAgICApIHsKICAgICAgICBzZXJpZXMuZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgZW50cnkgLT4KICAgICAgICAgICAgaWYgKGluZGV4ID4gMCkgewogICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoMTIuZHApKQogICAgICAgICAgICB9CiAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0KICAgICAgICAgICAgICAgICAgICBNb2RpZmllci5zaXplKDguZHApLmNsaXAoQ2lyY2xlU2hhcGUpLmJhY2tncm91bmQoZW50cnkuY29sb3IpCiAgICAgICAgICAgICkKICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoNC5kcCkpCiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICB0ZXh0ID0gZW50cnkubGFiZWwsCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbFNtYWxsLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gUGVyZm9ybWFuY2VDaGFydENhbnZhcygKICAgIGhpc3Rvcnk6IExpc3Q8UGVyZm9ybWFuY2VTbmFwc2hvdD4sCiAgICBzZXJpZXM6IExpc3Q8UGVyZm9ybWFuY2VDaGFydFNlcmllcz4sCiAgICBmaXhlZE1heDogRG91YmxlPywKICAgIGdyaWRDb2xvcjogQ29sb3IsCiAgICBsYWJlbENvbG9yOiBDb2xvciwKICAgIHZhbHVlRm9ybWF0dGVyOiAoRG91YmxlKSAtPiBTdHJpbmcsCiAgICBjaGFydEhlaWdodDogRHAKKSB7CiAgICB2YWwgZGVuc2l0eSA9IExvY2FsRGVuc2l0eS5jdXJyZW50CiAgICB2YWwgbGFiZWxQeCA9IHdpdGgoZGVuc2l0eSkgeyAxMC5kcC50b1B4KCkgfQogICAgdmFsIHRvcFBhZFB4ID0gd2l0aChkZW5zaXR5KSB7IDQuZHAudG9QeCgpIH0KICAgIHZhbCBib3R0b21QYWRQeCA9IHdpdGgoZGVuc2l0eSkgeyAxOC5kcC50b1B4KCkgfQoKICAgIHZhbCB5TWF4ID0gZml4ZWRNYXggPzogcmVtZW1iZXIoc2VyaWVzLCBoaXN0b3J5KSB7IGR5bmFtaWNOaWNlTWF4KGhpc3RvcnksIHNlcmllcykgfQogICAgdmFsIHlMYWJlbHMgPQogICAgICAgIHJlbWVtYmVyKHlNYXgsIHZhbHVlRm9ybWF0dGVyKSB7CiAgICAgICAgICAgIGxpc3RPZih5TWF4LCB5TWF4IC8gMi4wLCAwLjApLm1hcCB7IHZhbHVlRm9ybWF0dGVyKGl0KSB9CiAgICAgICAgfQogICAgdmFsIHRpbWVGb3JtYXQgPSByZW1lbWJlciB7IFNpbXBsZURhdGVGb3JtYXQoIkhIOm1tOnNzIiwgTG9jYWxlLmdldERlZmF1bHQoKSkgfQogICAgdmFsIHRpbWVMYWJlbHMgPQogICAgICAgIHJlbWVtYmVyKGhpc3RvcnksIHRpbWVGb3JtYXQpIHsKICAgICAgICAgICAgdmFsIG4gPSBoaXN0b3J5LnNpemUKICAgICAgICAgICAgbGlzdE9mKDAsIChuIC0gMSkgLyAyLCBuIC0gMSkubWFwIHsgaW5kZXggLT4KICAgICAgICAgICAgICAgIHRpbWVGb3JtYXQuZm9ybWF0KERhdGUoaGlzdG9yeVtpbmRleF0udGltZXN0YW1wTXMpKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIENhbnZhcyhtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLmhlaWdodChjaGFydEhlaWdodCkpIHsKICAgICAgICB2YWwgY2hhcnRCb3R0b20gPSBzaXplLmhlaWdodCAtIGJvdHRvbVBhZFB4CiAgICAgICAgdmFsIGNoYXJ0VG9wID0gdG9wUGFkUHgKICAgICAgICB2YWwgY2hhcnRIID0gY2hhcnRCb3R0b20gLSBjaGFydFRvcAogICAgICAgIHZhbCB3aWR0aCA9IHNpemUud2lkdGgKICAgICAgICB2YWwgbiA9IGhpc3Rvcnkuc2l6ZQoKICAgICAgICBmdW4geEF0KGluZGV4OiBJbnQpOiBGbG9hdCA9IGlmIChuIDw9IDEpIDBmIGVsc2UgaW5kZXgudG9GbG9hdCgpIC8gKG4gLSAxKSAqIHdpZHRoCiAgICAgICAgZnVuIHlBdCh2YWx1ZTogRG91YmxlKTogRmxvYXQgPQogICAgICAgICAgICAoY2hhcnRCb3R0b20gLSAodmFsdWUgLyB5TWF4ICogY2hhcnRIKS50b0Zsb2F0KCkpLmNvZXJjZUluKGNoYXJ0VG9wLCBjaGFydEJvdHRvbSkKCiAgICAgICAgLy8g5qiq5ZCR572R5qC877yaMS8044CBMS8y44CBMy80CiAgICAgICAgbGlzdE9mKDAuMjVmLCAwLjVmLCAwLjc1ZikuZm9yRWFjaCB7IGZyYWN0aW9uIC0+CiAgICAgICAgICAgIHZhbCB5ID0gY2hhcnRCb3R0b20gLSBjaGFydEggKiBmcmFjdGlvbgogICAgICAgICAgICBkcmF3TGluZSgKICAgICAgICAgICAgICAgIGNvbG9yID0gZ3JpZENvbG9yLmNvcHkoYWxwaGEgPSAwLjZmKSwKICAgICAgICAgICAgICAgIHN0YXJ0ID0gT2Zmc2V0KDBmLCB5KSwKICAgICAgICAgICAgICAgIGVuZCA9IE9mZnNldCh3aWR0aCwgeSksCiAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCA9IDFmCiAgICAgICAgICAgICkKICAgICAgICB9CgogICAgICAgIC8vIOe6teWQkee9keagvO+8muS4pOerr+S4juS4reeCue+8iOS4juaXtumXtOagh+etvuWvuem9kO+8iQogICAgICAgIGxpc3RPZigwZiwgMC41ZiwgMWYpLmZvckVhY2ggeyBmcmFjdGlvbiAtPgogICAgICAgICAgICB2YWwgeCA9IHdpZHRoICogZnJhY3Rpb24KICAgICAgICAgICAgZHJhd0xpbmUoCiAgICAgICAgICAgICAgICBjb2xvciA9IGdyaWRDb2xvci5jb3B5KGFscGhhID0gMC42ZiksCiAgICAgICAgICAgICAgICBzdGFydCA9IE9mZnNldCh4LCBjaGFydFRvcCksCiAgICAgICAgICAgICAgICBlbmQgPSBPZmZzZXQoeCwgY2hhcnRCb3R0b20pLAogICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggPSAxZgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgdGV4dFBhaW50ID0KICAgICAgICAgICAgUGFpbnQoKS5hcHBseSB7CiAgICAgICAgICAgICAgICBjb2xvciA9IGxhYmVsQ29sb3IudG9BcmdiKCkKICAgICAgICAgICAgICAgIHRleHRTaXplID0gbGFiZWxQeAogICAgICAgICAgICAgICAgaXNBbnRpQWxpYXMgPSB0cnVlCiAgICAgICAgICAgIH0KCiAgICAgICAgLy8geSDovbTmoIfnrb7vvIjlt6bkvqfvvIzpnaDkuIov5LitL+S4i+Wvuem9kO+8iQogICAgICAgIGRyYXdDb250ZXh0LmNhbnZhcy5uYXRpdmVDYW52YXMuZHJhd1RleHQoeUxhYmVsc1swXSwgNGYsIGNoYXJ0VG9wICsgbGFiZWxQeCwgdGV4dFBhaW50KQogICAgICAgIGRyYXdDb250ZXh0LmNhbnZhcy5uYXRpdmVDYW52YXMuZHJhd1RleHQoeUxhYmVsc1sxXSwgNGYsIChjaGFydFRvcCArIGNoYXJ0Qm90dG9tKSAvIDJmICsgbGFiZWxQeCAvIDNmLCB0ZXh0UGFpbnQpCiAgICAgICAgZHJhd0NvbnRleHQuY2FudmFzLm5hdGl2ZUNhbnZhcy5kcmF3VGV4dCh5TGFiZWxzWzJdLCA0ZiwgY2hhcnRCb3R0b20gLSAyZiwgdGV4dFBhaW50KQoKICAgICAgICAvLyB4IOi9tOaXtumXtOagh+etvu+8iOW3puWvuem9kCAvIOWxheS4rSAvIOWPs+Wvuem9kO+8iQogICAgICAgIGRyYXdDb250ZXh0LmNhbnZhcy5uYXRpdmVDYW52YXMuZHJhd1RleHQodGltZUxhYmVsc1swXSwgNGYsIHNpemUuaGVpZ2h0IC0gNGYsIHRleHRQYWludCkKICAgICAgICB2YWwgY2VudGVyV2lkdGggPSB0ZXh0UGFpbnQubWVhc3VyZVRleHQodGltZUxhYmVsc1sxXSkKICAgICAgICBkcmF3Q29udGV4dC5jYW52YXMubmF0aXZlQ2FudmFzLmRyYXdUZXh0KHRpbWVMYWJlbHNbMV0sIHdpZHRoIC8gMmYgLSBjZW50ZXJXaWR0aCAvIDJmLCBzaXplLmhlaWdodCAtIDRmLCB0ZXh0UGFpbnQpCiAgICAgICAgdmFsIHJpZ2h0V2lkdGggPSB0ZXh0UGFpbnQubWVhc3VyZVRleHQodGltZUxhYmVsc1syXSkKICAgICAgICBkcmF3Q29udGV4dC5jYW52YXMubmF0aXZlQ2FudmFzLmRyYXdUZXh0KHRpbWVMYWJlbHNbMl0sIHdpZHRoIC0gcmlnaHRXaWR0aCAtIDRmLCBzaXplLmhlaWdodCAtIDRmLCB0ZXh0UGFpbnQpCgogICAgICAgIC8vIOaVsOaNruezu+WIl++8muWIhuauteaKmOe6vyArIOWhq+WFhSArIOacq+err+WchueCuQogICAgICAgIHNlcmllcy5mb3JFYWNoIHsgZW50cnkgLT4KICAgICAgICAgICAgdmFyIHNlZ21lbnQgPSBtdXRhYmxlTGlzdE9mPE9mZnNldD4oKQogICAgICAgICAgICB2YWwgc2VnbWVudHMgPSBtdXRhYmxlTGlzdE9mPExpc3Q8T2Zmc2V0Pj4oKQogICAgICAgICAgICBoaXN0b3J5LmZvckVhY2hJbmRleGVkIHsgaW5kZXgsIHNuYXBzaG90IC0+CiAgICAgICAgICAgICAgICB2YWwgdmFsdWUgPSBlbnRyeS52YWx1ZShzbmFwc2hvdCkKICAgICAgICAgICAgICAgIGlmICh2YWx1ZSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKHNlZ21lbnQuc2l6ZSA+IDEpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2VnbWVudHMuYWRkKHNlZ21lbnQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHNlZ21lbnQgPSBtdXRhYmxlTGlzdE9mKCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgc2VnbWVudC5hZGQoT2Zmc2V0KHhBdChpbmRleCksIHlBdCh2YWx1ZSkpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChzZWdtZW50LnNpemUgPiAxKSB7CiAgICAgICAgICAgICAgICBzZWdtZW50cy5hZGQoc2VnbWVudCkKICAgICAgICAgICAgfQoKICAgICAgICAgICAgc2VnbWVudHMuZm9yRWFjaCB7IHBvaW50cyAtPgogICAgICAgICAgICAgICAgaWYgKHBvaW50cy5zaXplIDwgMikgewogICAgICAgICAgICAgICAgICAgIHJldHVybkBmb3JFYWNoCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YWwgbGluZVBhdGggPSBQYXRoKCkuYXBwbHkgeyBtb3ZlVG8ocG9pbnRzLmZpcnN0KCkueCwgcG9pbnRzLmZpcnN0KCkueSkgfQogICAgICAgICAgICAgICAgcG9pbnRzLmZvckVhY2ggeyBwb2ludCAtPiBsaW5lUGF0aC5saW5lVG8ocG9pbnQueCwgcG9pbnQueSkgfQogICAgICAgICAgICAgICAgdmFsIGZpbGxQYXRoID0KICAgICAgICAgICAgICAgICAgICBQYXRoKCkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgICAgICBhZGRQYXRoKGxpbmVQYXRoKQogICAgICAgICAgICAgICAgICAgICAgICBsaW5lVG8ocG9pbnRzLmxhc3QoKS54LCBjaGFydEJvdHRvbSkKICAgICAgICAgICAgICAgICAgICAgICAgbGluZVRvKHBvaW50cy5maXJzdCgpLngsIGNoYXJ0Qm90dG9tKQogICAgICAgICAgICAgICAgICAgICAgICBjbG9zZSgpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZHJhd1BhdGgoZmlsbFBhdGgsIGNvbG9yID0gZW50cnkuY29sb3IuY29weShhbHBoYSA9IDAuMTJmKSkKICAgICAgICAgICAgICAgIGRyYXdQYXRoKGxpbmVQYXRoLCBjb2xvciA9IGVudHJ5LmNvbG9yLCBzdHlsZSA9IFN0cm9rZSh3aWR0aCA9IDRmKSkKICAgICAgICAgICAgICAgIGRyYXdDaXJjbGUoCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBlbnRyeS5jb2xvciwKICAgICAgICAgICAgICAgICAgICByYWRpdXMgPSA1ZiwKICAgICAgICAgICAgICAgICAgICBjZW50ZXIgPSBwb2ludHMubGFzdCgpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0KCi8qKiDoh6rpgILlupTph4/nqIvvvJrlj5blhajpg6jns7vliJfmnIDlpKflgLzlkJHkuIrlj5bmlbTliLAgMi81LzEww5cxMF5r77yM5L+d6K+B5puy57q/5LiN6LS06aG244CCICovCnByaXZhdGUgZnVuIGR5bmFtaWNOaWNlTWF4KAogICAgaGlzdG9yeTogTGlzdDxQZXJmb3JtYW5jZVNuYXBzaG90PiwKICAgIHNlcmllczogTGlzdDxQZXJmb3JtYW5jZUNoYXJ0U2VyaWVzPgopOiBEb3VibGUgewogICAgdmFsIG1heCA9IHNlcmllcy5tYXhPZk9yTnVsbCB7IGVudHJ5IC0+IGhpc3RvcnkubWF4T2ZPck51bGwgeyBlbnRyeS52YWx1ZShpdCkgPzogMC4wIH0gPzogMC4wIH0gPzogMC4wCiAgICBpZiAobWF4IDw9IDAuMCkgewogICAgICAgIHJldHVybiAxLjAKICAgIH0KICAgIHZhbCBleHBvbmVudCA9IGNlaWwobG9nMTAobWF4KSkudG9JbnQoKQogICAgdmFsIGJhc2UgPSAxMC4wLnBvdyhleHBvbmVudCkKICAgIHZhbCBjYW5kaWRhdGVzID0gbGlzdE9mKGJhc2UgKiAwLjIsIGJhc2UgKiAwLjUsIGJhc2UpCiAgICByZXR1cm4gY2FuZGlkYXRlcy5maXJzdE9yTnVsbCB7IGl0ID49IG1heCB9ID86IGJhc2UKfQo=
+package com.bslsjdk.operit.ui.features.performance
+
+import android.graphics.Paint
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.nativeCanvas
+import androidx.compose.ui.graphics.toArgb
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.core.performance.PerformanceSnapshot
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+import kotlin.math.ceil
+import kotlin.math.log10
+import kotlin.math.pow
+
+/** 性能曲线的一个数据系列；value 返回 null 表示该时刻无数据（断线）。 */
+internal data class PerformanceChartSeries(
+    val label: String,
+    val color: Color,
+    val value: (PerformanceSnapshot) -> Double?
+)
+
+/**
+ * 任务管理器风格的滚动性能曲线：多系列折线 + 半透明填充 + 网格与时间轴。
+ * 数据从左（旧）到右（新）铺满整个宽度。
+ */
+@Composable
+internal fun PerformanceLiveChart(
+    history: List<PerformanceSnapshot>,
+    series: List<PerformanceChartSeries>,
+    valueFormatter: (Double) -> String,
+    modifier: Modifier = Modifier,
+    fixedMax: Double? = null,
+    chartHeight: Dp = 168.dp
+) {
+    val gridColor = MaterialTheme.colorScheme.outlineVariant
+    val labelColor = MaterialTheme.colorScheme.onSurfaceVariant
+
+    Column(modifier = modifier) {
+        PerformanceChartLegend(series = series)
+        Spacer(modifier = Modifier.height(8.dp))
+        if (history.size < 2) {
+            Box(modifier = Modifier.fillMaxWidth().height(chartHeight)) {}
+        } else {
+            PerformanceChartCanvas(
+                history = history,
+                series = series,
+                fixedMax = fixedMax,
+                gridColor = gridColor,
+                labelColor = labelColor,
+                valueFormatter = valueFormatter,
+                chartHeight = chartHeight
+            )
+        }
+    }
+}
+
+@Composable
+private fun PerformanceChartLegend(series: List<PerformanceChartSeries>) {
+    Row(
+        modifier = Modifier.horizontalScroll(rememberScrollState()),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        series.forEachIndexed { index, entry ->
+            if (index > 0) {
+                Spacer(modifier = Modifier.width(12.dp))
+            }
+            Box(
+                modifier =
+                    Modifier.size(8.dp).clip(CircleShape).background(entry.color)
+            )
+            Spacer(modifier = Modifier.width(4.dp))
+            Text(
+                text = entry.label,
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+        }
+    }
+}
+
+@Composable
+private fun PerformanceChartCanvas(
+    history: List<PerformanceSnapshot>,
+    series: List<PerformanceChartSeries>,
+    fixedMax: Double?,
+    gridColor: Color,
+    labelColor: Color,
+    valueFormatter: (Double) -> String,
+    chartHeight: Dp
+) {
+    val density = LocalDensity.current
+    val labelPx = with(density) { 10.dp.toPx() }
+    val topPadPx = with(density) { 4.dp.toPx() }
+    val bottomPadPx = with(density) { 18.dp.toPx() }
+
+    val yMax = fixedMax ?: remember(series, history) { dynamicNiceMax(history, series) }
+    val yLabels =
+        remember(yMax, valueFormatter) {
+            listOf(yMax, yMax / 2.0, 0.0).map { valueFormatter(it) }
+        }
+    val timeFormat = remember { SimpleDateFormat("HH:mm:ss", Locale.getDefault()) }
+    val timeLabels =
+        remember(history, timeFormat) {
+            val n = history.size
+            listOf(0, (n - 1) / 2, n - 1).map { index ->
+                timeFormat.format(Date(history[index].timestampMs))
+            }
+        }
+
+    Canvas(modifier = Modifier.fillMaxWidth().height(chartHeight)) {
+        val chartBottom = size.height - bottomPadPx
+        val chartTop = topPadPx
+        val chartH = chartBottom - chartTop
+        val width = size.width
+        val n = history.size
+
+        fun xAt(index: Int): Float = if (n <= 1) 0f else index.toFloat() / (n - 1) * width
+        fun yAt(value: Double): Float =
+            (chartBottom - (value / yMax * chartH).toFloat()).coerceIn(chartTop, chartBottom)
+
+        // 横向网格：1/4、1/2、3/4
+        listOf(0.25f, 0.5f, 0.75f).forEach { fraction ->
+            val y = chartBottom - chartH * fraction
+            drawLine(
+                color = gridColor.copy(alpha = 0.6f),
+                start = Offset(0f, y),
+                end = Offset(width, y),
+                strokeWidth = 1f
+            )
+        }
+
+        // 纵向网格：两端与中点（与时间标签对齐）
+        listOf(0f, 0.5f, 1f).forEach { fraction ->
+            val x = width * fraction
+            drawLine(
+                color = gridColor.copy(alpha = 0.6f),
+                start = Offset(x, chartTop),
+                end = Offset(x, chartBottom),
+                strokeWidth = 1f
+            )
+        }
+
+        val textPaint =
+            Paint().apply {
+                color = labelColor.toArgb()
+                textSize = labelPx
+                isAntiAlias = true
+            }
+
+        // y 轴标签（左侧，靠上/中/下对齐）
+        drawContext.canvas.nativeCanvas.drawText(yLabels[0], 4f, chartTop + labelPx, textPaint)
+        drawContext.canvas.nativeCanvas.drawText(yLabels[1], 4f, (chartTop + chartBottom) / 2f + labelPx / 3f, textPaint)
+        drawContext.canvas.nativeCanvas.drawText(yLabels[2], 4f, chartBottom - 2f, textPaint)
+
+        // x 轴时间标签（左对齐 / 居中 / 右对齐）
+        drawContext.canvas.nativeCanvas.drawText(timeLabels[0], 4f, size.height - 4f, textPaint)
+        val centerWidth = textPaint.measureText(timeLabels[1])
+        drawContext.canvas.nativeCanvas.drawText(timeLabels[1], width / 2f - centerWidth / 2f, size.height - 4f, textPaint)
+        val rightWidth = textPaint.measureText(timeLabels[2])
+        drawContext.canvas.nativeCanvas.drawText(timeLabels[2], width - rightWidth - 4f, size.height - 4f, textPaint)
+
+        // 数据系列：分段折线 + 填充 + 末端圆点
+        series.forEach { entry ->
+            var segment = mutableListOf<Offset>()
+            val segments = mutableListOf<List<Offset>>()
+            history.forEachIndexed { index, snapshot ->
+                val value = entry.value(snapshot)
+                if (value == null) {
+                    if (segment.size > 1) {
+                        segments.add(segment)
+                    }
+                    segment = mutableListOf()
+                } else {
+                    segment.add(Offset(xAt(index), yAt(value)))
+                }
+            }
+            if (segment.size > 1) {
+                segments.add(segment)
+            }
+
+            segments.forEach { points ->
+                if (points.size < 2) {
+                    return@forEach
+                }
+                val linePath = Path().apply { moveTo(points.first().x, points.first().y) }
+                points.forEach { point -> linePath.lineTo(point.x, point.y) }
+                val fillPath =
+                    Path().apply {
+                        addPath(linePath)
+                        lineTo(points.last().x, chartBottom)
+                        lineTo(points.first().x, chartBottom)
+                        close()
+                    }
+                drawPath(fillPath, color = entry.color.copy(alpha = 0.12f))
+                drawPath(linePath, color = entry.color, style = Stroke(width = 4f))
+                drawCircle(
+                    color = entry.color,
+                    radius = 5f,
+                    center = points.last()
+                )
+            }
+        }
+    }
+}
+
+/** 自适应量程：取全部系列最大值向上取整到 2/5/10×10^k，保证曲线不贴顶。 */
+private fun dynamicNiceMax(
+    history: List<PerformanceSnapshot>,
+    series: List<PerformanceChartSeries>
+): Double {
+    val max = series.maxOfOrNull { entry -> history.maxOfOrNull { entry.value(it) ?: 0.0 } ?: 0.0 } ?: 0.0
+    if (max <= 0.0) {
+        return 1.0
+    }
+    val exponent = ceil(log10(max)).toInt()
+    val base = 10.0.pow(exponent)
+    val candidates = listOf(base * 0.2, base * 0.5, base)
+    return candidates.firstOrNull { it >= max } ?: base
+}

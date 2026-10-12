@@ -1,1 +1,59 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbi5uYXZpZ2F0aW9uCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5EaXNwb3NhYmxlRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuY29tcG9zaXRpb25Mb2NhbE9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlclVwZGF0ZWRTdGF0ZQoKY2xhc3MgUm91dGVCYWNrR3VhcmRSZWdpc3RyeSB7CiAgICBwcml2YXRlIGRhdGEgY2xhc3MgUmVnaXN0cmF0aW9uKAogICAgICAgIHZhbCB0b2tlbjogQW55LAogICAgICAgIHZhbCBoYW5kbGVyOiBzdXNwZW5kICgpIC0+IEJvb2xlYW4KICAgICkKCiAgICBwcml2YXRlIHZhbCByZWdpc3RyYXRpb25zID0gbXV0YWJsZU1hcE9mPFN0cmluZywgUmVnaXN0cmF0aW9uPigpCiAgICBwcml2YXRlIHZhbCBsb2NrID0gQW55KCkKCiAgICBmdW4gcmVnaXN0ZXIocm91dGVJbnN0YW5jZUlkOiBTdHJpbmcsIGhhbmRsZXI6IHN1c3BlbmQgKCkgLT4gQm9vbGVhbik6ICgpIC0+IFVuaXQgewogICAgICAgIHZhbCB0b2tlbiA9IEFueSgpCiAgICAgICAgc3luY2hyb25pemVkKGxvY2spIHsKICAgICAgICAgICAgcmVnaXN0cmF0aW9uc1tyb3V0ZUluc3RhbmNlSWRdID0gUmVnaXN0cmF0aW9uKHRva2VuLCBoYW5kbGVyKQogICAgICAgIH0KICAgICAgICByZXR1cm4gewogICAgICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICAgICAgaWYgKHJlZ2lzdHJhdGlvbnNbcm91dGVJbnN0YW5jZUlkXT8udG9rZW4gPT09IHRva2VuKSB7CiAgICAgICAgICAgICAgICAgICAgcmVnaXN0cmF0aW9ucy5yZW1vdmUocm91dGVJbnN0YW5jZUlkKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBoYXNHdWFyZChyb3V0ZUluc3RhbmNlSWQ6IFN0cmluZyk6IEJvb2xlYW4gPQogICAgICAgIHN5bmNocm9uaXplZChsb2NrKSB7IHJlZ2lzdHJhdGlvbnMuY29udGFpbnNLZXkocm91dGVJbnN0YW5jZUlkKSB9CgogICAgc3VzcGVuZCBmdW4gY2FuTGVhdmVSb3V0ZShyb3V0ZUluc3RhbmNlSWQ6IFN0cmluZyk6IEJvb2xlYW4gewogICAgICAgIHZhbCBoYW5kbGVyID0gc3luY2hyb25pemVkKGxvY2spIHsgcmVnaXN0cmF0aW9uc1tyb3V0ZUluc3RhbmNlSWRdPy5oYW5kbGVyIH0KICAgICAgICByZXR1cm4gaGFuZGxlcj8uaW52b2tlKCkgPzogdHJ1ZQogICAgfQp9Cgp2YWwgTG9jYWxSb3V0ZUJhY2tHdWFyZFJlZ2lzdHJ5ID0gY29tcG9zaXRpb25Mb2NhbE9mPFJvdXRlQmFja0d1YXJkUmVnaXN0cnk/PiB7IG51bGwgfQp2YWwgTG9jYWxSb3V0ZUluc3RhbmNlSWQgPSBjb21wb3NpdGlvbkxvY2FsT2Y8U3RyaW5nPz4geyBudWxsIH0KCkBDb21wb3NhYmxlCmZ1biBSZWdpc3RlclJvdXRlQmFja0d1YXJkKGhhbmRsZXI6IHN1c3BlbmQgKCkgLT4gQm9vbGVhbikgewogICAgdmFsIHJlZ2lzdHJ5ID0gTG9jYWxSb3V0ZUJhY2tHdWFyZFJlZ2lzdHJ5LmN1cnJlbnQKICAgIHZhbCByb3V0ZUluc3RhbmNlSWQgPSBMb2NhbFJvdXRlSW5zdGFuY2VJZC5jdXJyZW50CiAgICB2YWwgbGF0ZXN0SGFuZGxlciBieSByZW1lbWJlclVwZGF0ZWRTdGF0ZShoYW5kbGVyKQoKICAgIERpc3Bvc2FibGVFZmZlY3QocmVnaXN0cnksIHJvdXRlSW5zdGFuY2VJZCkgewogICAgICAgIHZhbCB1bnJlZ2lzdGVyID0KICAgICAgICAgICAgaWYgKHJlZ2lzdHJ5ICE9IG51bGwgJiYgcm91dGVJbnN0YW5jZUlkICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIHJlZ2lzdHJ5LnJlZ2lzdGVyKHJvdXRlSW5zdGFuY2VJZCkgeyBsYXRlc3RIYW5kbGVyKCkgfQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAge30KICAgICAgICAgICAgfQogICAgICAgIG9uRGlzcG9zZSB7IHVucmVnaXN0ZXIoKSB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.main.navigation
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.runtime.compositionLocalOf
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.rememberUpdatedState
+
+class RouteBackGuardRegistry {
+    private data class Registration(
+        val token: Any,
+        val handler: suspend () -> Boolean
+    )
+
+    private val registrations = mutableMapOf<String, Registration>()
+    private val lock = Any()
+
+    fun register(routeInstanceId: String, handler: suspend () -> Boolean): () -> Unit {
+        val token = Any()
+        synchronized(lock) {
+            registrations[routeInstanceId] = Registration(token, handler)
+        }
+        return {
+            synchronized(lock) {
+                if (registrations[routeInstanceId]?.token === token) {
+                    registrations.remove(routeInstanceId)
+                }
+            }
+        }
+    }
+
+    fun hasGuard(routeInstanceId: String): Boolean =
+        synchronized(lock) { registrations.containsKey(routeInstanceId) }
+
+    suspend fun canLeaveRoute(routeInstanceId: String): Boolean {
+        val handler = synchronized(lock) { registrations[routeInstanceId]?.handler }
+        return handler?.invoke() ?: true
+    }
+}
+
+val LocalRouteBackGuardRegistry = compositionLocalOf<RouteBackGuardRegistry?> { null }
+val LocalRouteInstanceId = compositionLocalOf<String?> { null }
+
+@Composable
+fun RegisterRouteBackGuard(handler: suspend () -> Boolean) {
+    val registry = LocalRouteBackGuardRegistry.current
+    val routeInstanceId = LocalRouteInstanceId.current
+    val latestHandler by rememberUpdatedState(handler)
+
+    DisposableEffect(registry, routeInstanceId) {
+        val unregister =
+            if (registry != null && routeInstanceId != null) {
+                registry.register(routeInstanceId) { latestHandler() }
+            } else {
+                {}
+            }
+        onDispose { unregister() }
+    }
+}

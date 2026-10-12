@@ -1,1 +1,39 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3Muc2VjdGlvbnMKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuQW5ub3RhdGVkU3RyaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuaW5wdXQuT2Zmc2V0TWFwcGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LlRyYW5zZm9ybWVkVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmlucHV0LlZpc3VhbFRyYW5zZm9ybWF0aW9uCgpjbGFzcyBBcGlLZXlWaXN1YWxUcmFuc2Zvcm1hdGlvbiA6IFZpc3VhbFRyYW5zZm9ybWF0aW9uIHsKICAgIG92ZXJyaWRlIGZ1biBmaWx0ZXIodGV4dDogQW5ub3RhdGVkU3RyaW5nKTogVHJhbnNmb3JtZWRUZXh0IHsKICAgICAgICB2YWwgb3JpZ2luYWxUZXh0ID0gdGV4dC50ZXh0CiAgICAgICAgdmFsIGxlbmd0aCA9IG9yaWdpbmFsVGV4dC5sZW5ndGgKCiAgICAgICAgLy8g5L+d5oyB6ZW/5bqm5LiN5Y+Y77ya5Y+q5Zyo5Lit6Ze055SoICcqJyDmm7/mjaLlrZfnrKYKICAgICAgICB2YWwgbWFza2VkVGV4dCA9IGlmIChsZW5ndGggPiA4KSB7CiAgICAgICAgICAgIHZhbCBtaWRkbGVDb3VudCA9IGxlbmd0aCAtIDgKICAgICAgICAgICAgYnVpbGRTdHJpbmcobGVuZ3RoKSB7CiAgICAgICAgICAgICAgICBhcHBlbmQob3JpZ2luYWxUZXh0LnN1YnN0cmluZygwLCA0KSkKICAgICAgICAgICAgICAgIHJlcGVhdChtaWRkbGVDb3VudCkgeyBhcHBlbmQoJyonKSB9CiAgICAgICAgICAgICAgICBhcHBlbmQob3JpZ2luYWxUZXh0LnN1YnN0cmluZyhsZW5ndGggLSA0KSkKICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIC8vIOmVv+W6pui+g+efreaXtuebtOaOpeaYvuekuuWOn+aWh++8jOmBv+WFjei/h+W6pumBruaMoQogICAgICAgICAgICBvcmlnaW5hbFRleHQKICAgICAgICB9CgogICAgICAgIHJldHVybiBUcmFuc2Zvcm1lZFRleHQoCiAgICAgICAgICAgIHRleHQgPSBBbm5vdGF0ZWRTdHJpbmcobWFza2VkVGV4dCksCiAgICAgICAgICAgIG9mZnNldE1hcHBpbmcgPSBvYmplY3QgOiBPZmZzZXRNYXBwaW5nIHsKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvcmlnaW5hbFRvVHJhbnNmb3JtZWQob2Zmc2V0OiBJbnQpOiBJbnQgewogICAgICAgICAgICAgICAgICAgIHJldHVybiBvZmZzZXQKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBvdmVycmlkZSBmdW4gdHJhbnNmb3JtZWRUb09yaWdpbmFsKG9mZnNldDogSW50KTogSW50IHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gb2Zmc2V0CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.settings.sections
+
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.text.input.OffsetMapping
+import androidx.compose.ui.text.input.TransformedText
+import androidx.compose.ui.text.input.VisualTransformation
+
+class ApiKeyVisualTransformation : VisualTransformation {
+    override fun filter(text: AnnotatedString): TransformedText {
+        val originalText = text.text
+        val length = originalText.length
+
+        // 保持长度不变：只在中间用 '*' 替换字符
+        val maskedText = if (length > 8) {
+            val middleCount = length - 8
+            buildString(length) {
+                append(originalText.substring(0, 4))
+                repeat(middleCount) { append('*') }
+                append(originalText.substring(length - 4))
+            }
+        } else {
+            // 长度较短时直接显示原文，避免过度遮挡
+            originalText
+        }
+
+        return TransformedText(
+            text = AnnotatedString(maskedText),
+            offsetMapping = object : OffsetMapping {
+                override fun originalToTransformed(offset: Int): Int {
+                    return offset
+                }
+
+                override fun transformedToOriginal(offset: Int): Int {
+                    return offset
+                }
+            }
+        )
+    }
+}

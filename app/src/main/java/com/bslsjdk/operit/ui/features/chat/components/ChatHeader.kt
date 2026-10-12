@@ -1,1 +1,198 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5jbGlja2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLkNpcmNsZVNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5IaXN0b3J5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5QaWN0dXJlSW5QaWN0dXJlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLnJvdW5kZWQuUGVyc29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy4qCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRPdmVyZmxvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uSW1hZ2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LkNvbnRlbnRTY2FsZQppbXBvcnQgY29pbC5jb21wb3NlLnJlbWVtYmVyQXN5bmNJbWFnZVBhaW50ZXIKCnByaXZhdGUgY29uc3QgdmFsIENIQVRfSEVBREVSX0NIQVJBQ1RFUl9OQU1FX01BWF9MRU5HVEggPSAxMgoKcHJpdmF0ZSBmdW4gU3RyaW5nLnRvQ2hhdEhlYWRlck5hbWUobWF4TGVuZ3RoOiBJbnQgPSBDSEFUX0hFQURFUl9DSEFSQUNURVJfTkFNRV9NQVhfTEVOR1RIKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gaWYgKGxlbmd0aCA8PSBtYXhMZW5ndGgpIHRoaXMgZWxzZSB0YWtlKG1heExlbmd0aCkgKyAi4oCmIgp9CgpAQ29tcG9zYWJsZQpmdW4gQ2hhdEhlYWRlcigKICAgICAgICBzaG93Q2hhdEhpc3RvcnlTZWxlY3RvcjogQm9vbGVhbiwKICAgICAgICBvblRvZ2dsZUNoYXRIaXN0b3J5U2VsZWN0b3I6ICgpIC0+IFVuaXQsCiAgICAgICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICAgICAgb25MYXVuY2hGbG9hdGluZ1dpbmRvdzogKCkgLT4gVW5pdCA9IHt9LAogICAgICAgIGlzRmxvYXRpbmdNb2RlOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgaGlzdG9yeUljb25Db2xvcjogSW50PyA9IG51bGwsCiAgICAgICAgcGlwSWNvbkNvbG9yOiBJbnQ/ID0gbnVsbCwKICAgICAgICBydW5uaW5nVGFza0NvdW50OiBJbnQgPSAwLAogICAgICAgIGFjdGl2ZUNoYXJhY3Rlck5hbWU6IFN0cmluZywKICAgICAgICBhY3RpdmVDaGFyYWN0ZXJBdmF0YXJVcmk6IFN0cmluZz8sCiAgICAgICAgb25DaGFyYWN0ZXJDbGljazogKCkgLT4gVW5pdAopIHsKICAgICAgICB2YWwgZGlzcGxheUNoYXJhY3Rlck5hbWUgPSBhY3RpdmVDaGFyYWN0ZXJOYW1lLnRvQ2hhdEhlYWRlck5hbWUoKQoKICAgICAgICBSb3coCiAgICAgICAgICAgICAgICB2ZXJ0aWNhbEFsaWdubWVudCA9IEFsaWdubWVudC5DZW50ZXJWZXJ0aWNhbGx5LAogICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCksCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IG1vZGlmaWVyCiAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBpZiAocnVubmluZ1Rhc2tDb3VudCA+PSAyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFN1cmZhY2UoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IG9uVG9nZ2xlQ2hhdEhpc3RvcnlTZWxlY3RvciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgzMi5kcCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMTYuZHApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5Q29udGFpbmVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRvbmFsRWxldmF0aW9uID0gMC5kcCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGFkb3dFbGV2YXRpb24gPSAwLmRwCiAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDMyLmRwKS5wYWRkaW5nKHN0YXJ0ID0gNi5kcCwgZW5kID0gMTAuZHApLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDYuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuSGlzdG9yeSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2hvd0NoYXRIaXN0b3J5U2VsZWN0b3IpIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmhpZGVfaGlzdG9yeSkgZWxzZSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5zaG93X2hpc3RvcnkpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0aW50ID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoaXN0b3J5SWNvbkNvbG9yPy5sZXQgeyBDb2xvcihpdCkgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPzogTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblByaW1hcnlDb250YWluZXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyMC5kcCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBydW5uaW5nVGFza0NvdW50LnRvU3RyaW5nKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsU21hbGwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LlNlbWlCb2xkLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25QcmltYXJ5Q29udGFpbmVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllci5zaXplKDMyLmRwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYmFja2dyb3VuZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoc2hvd0NoYXRIaXN0b3J5U2VsZWN0b3IpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb3B5KGFscGhhID0gMC4xNWYpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIENvbG9yLlRyYW5zcGFyZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNoYXBlID0gQ2lyY2xlU2hhcGUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IG9uVG9nZ2xlQ2hhdEhpc3RvcnlTZWxlY3RvciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIubWF0Y2hQYXJlbnRTaXplKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5IaXN0b3J5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzaG93Q2hhdEhpc3RvcnlTZWxlY3Rvcikgc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuaGlkZV9oaXN0b3J5KSBlbHNlIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLnNob3dfaGlzdG9yeSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpbnQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhpc3RvcnlJY29uQ29sb3I/LmxldCB7IENvbG9yKGl0KSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA/OiBpZiAoc2hvd0NoYXRIaXN0b3J5U2VsZWN0b3IpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb3B5KGFscGhhID0gMC43ZiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyMC5kcCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBCb3goCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllci5zaXplKDMyLmRwKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmJhY2tncm91bmQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yID0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoaXNGbG9hdGluZ01vZGUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLnByaW1hcnkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNvcHkoYWxwaGEgPSAwLjE1ZikKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIENvbG9yLlRyYW5zcGFyZW50LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaGFwZSA9IENpcmNsZVNoYXBlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgSWNvbkJ1dHRvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25MYXVuY2hGbG9hdGluZ1dpbmRvdywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLm1hdGNoUGFyZW50U2l6ZSgpCiAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbWFnZVZlY3RvciA9IEljb25zLkRlZmF1bHQuUGljdHVyZUluUGljdHVyZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0Zsb2F0aW5nTW9kZSkgc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY2xvc2VfZmxvYXRpbmdfd2luZG93KSBlbHNlIHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm9wZW5fZmxvYXRpbmdfd2luZG93KSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpbnQgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwaXBJY29uQ29sb3I/LmxldCB7IENvbG9yKGl0KSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPzogaWYgKGlzRmxvYXRpbmdNb2RlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNvcHkoYWxwaGEgPSAwLjdmKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZSgyMC5kcCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyBDaGFyYWN0ZXIgU3dpdGNoZXIKICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE1vZGlmaWVyCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAud2lkdGhJbihtYXggPSAxNzYuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuY2xpcChDaXJjbGVTaGFwZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jbGlja2FibGUob25DbGljayA9IG9uQ2hhcmFjdGVyQ2xpY2spCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gOC5kcCwgdmVydGljYWwgPSA0LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSwKICAgICAgICAgICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoNi5kcCkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyBQbGFjZWhvbGRlciBmb3IgQXZhdGFyCiAgICAgICAgICAgICAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuc2l6ZSgyNC5kcCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNsaXAoQ2lyY2xlU2hhcGUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5iYWNrZ3JvdW5kKE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc2Vjb25kYXJ5Q29udGFpbmVyKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50QWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlcgogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyBVc2UgQ29pbCBvciBhbm90aGVyIGltYWdlIGxvYWRlciBmb3IgYWN0aXZlQ2hhcmFjdGVyQXZhdGFyVXJpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGFjdGl2ZUNoYXJhY3RlckF2YXRhclVyaSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEltYWdlKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFpbnRlciA9IHJlbWVtYmVyQXN5bmNJbWFnZVBhaW50ZXIobW9kZWwgPSBVcmkucGFyc2UoYWN0aXZlQ2hhcmFjdGVyQXZhdGFyVXJpKSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSAiQ2hhcmFjdGVyIEF2YXRhciIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhTaXplKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50U2NhbGUgPSBDb250ZW50U2NhbGUuQ3JvcAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEljb25zLlJvdW5kZWQuUGVyc29uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudERlc2NyaXB0aW9uID0gIkNoYXJhY3RlciBBdmF0YXIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKDQuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gZGlzcGxheUNoYXJhY3Rlck5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXhMaW5lcyA9IDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci53aWR0aEluKG1heCA9IDExNi5kcCkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.History
+import androidx.compose.material.icons.filled.PictureInPicture
+import androidx.compose.material.icons.rounded.Person
+import androidx.compose.material3.*
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import android.net.Uri
+import androidx.compose.foundation.Image
+import androidx.compose.ui.layout.ContentScale
+import coil.compose.rememberAsyncImagePainter
+
+private const val CHAT_HEADER_CHARACTER_NAME_MAX_LENGTH = 12
+
+private fun String.toChatHeaderName(maxLength: Int = CHAT_HEADER_CHARACTER_NAME_MAX_LENGTH): String {
+        return if (length <= maxLength) this else take(maxLength) + "…"
+}
+
+@Composable
+fun ChatHeader(
+        showChatHistorySelector: Boolean,
+        onToggleChatHistorySelector: () -> Unit,
+        modifier: Modifier = Modifier,
+        onLaunchFloatingWindow: () -> Unit = {},
+        isFloatingMode: Boolean = false,
+        historyIconColor: Int? = null,
+        pipIconColor: Int? = null,
+        runningTaskCount: Int = 0,
+        activeCharacterName: String,
+        activeCharacterAvatarUri: String?,
+        onCharacterClick: () -> Unit
+) {
+        val displayCharacterName = activeCharacterName.toChatHeaderName()
+
+        Row(
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                modifier = modifier
+        ) {
+                if (runningTaskCount >= 2) {
+                        Surface(
+                                onClick = onToggleChatHistorySelector,
+                                modifier = Modifier.height(32.dp),
+                                shape = RoundedCornerShape(16.dp),
+                                color = MaterialTheme.colorScheme.primaryContainer,
+                                tonalElevation = 0.dp,
+                                shadowElevation = 0.dp
+                        ) {
+                                Row(
+                                        modifier = Modifier.height(32.dp).padding(start = 6.dp, end = 10.dp),
+                                        verticalAlignment = Alignment.CenterVertically,
+                                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                                ) {
+                                        Icon(
+                                                imageVector = Icons.Default.History,
+                                                contentDescription =
+                                                        if (showChatHistorySelector) stringResource(R.string.hide_history) else stringResource(R.string.show_history),
+                                                tint =
+                                                        historyIconColor?.let { Color(it) }
+                                                                ?: MaterialTheme.colorScheme.onPrimaryContainer,
+                                                modifier = Modifier.size(20.dp)
+                                        )
+                                        Text(
+                                                text = runningTaskCount.toString(),
+                                                style = MaterialTheme.typography.labelSmall,
+                                                fontWeight = FontWeight.SemiBold,
+                                                color = MaterialTheme.colorScheme.onPrimaryContainer,
+                                                maxLines = 1
+                                        )
+                                }
+                        }
+                } else {
+                        Box(
+                                modifier =
+                                        Modifier.size(32.dp)
+                                                .background(
+                                                        color =
+                                                                if (showChatHistorySelector)
+                                                                        MaterialTheme.colorScheme.primary
+                                                                                .copy(alpha = 0.15f)
+                                                                else Color.Transparent,
+                                                        shape = CircleShape
+                                                )
+                        ) {
+                                IconButton(
+                                        onClick = onToggleChatHistorySelector,
+                                        modifier = Modifier.matchParentSize()
+                                ) {
+                                        Icon(
+                                                imageVector = Icons.Default.History,
+                                                contentDescription =
+                                                        if (showChatHistorySelector) stringResource(R.string.hide_history) else stringResource(R.string.show_history),
+                                                tint =
+                                                        historyIconColor?.let { Color(it) }
+                                                                ?: if (showChatHistorySelector)
+                                                                        MaterialTheme.colorScheme.primary
+                                                                else
+                                                                        MaterialTheme.colorScheme.onSurface
+                                                                                .copy(alpha = 0.7f),
+                                                modifier = Modifier.size(20.dp)
+                                        )
+                                }
+                        }
+                }
+
+                Box(
+                        modifier =
+                                Modifier.size(32.dp)
+                                        .background(
+                                                color =
+                                                        if (isFloatingMode)
+                                                                MaterialTheme.colorScheme.primary
+                                                                        .copy(alpha = 0.15f)
+                                                        else Color.Transparent,
+                                                shape = CircleShape
+                                        )
+                ) {
+                        IconButton(
+                                onClick = onLaunchFloatingWindow,
+                                modifier = Modifier.matchParentSize()
+                        ) {
+                                Icon(
+                                        imageVector = Icons.Default.PictureInPicture,
+                                        contentDescription =
+                                                if (isFloatingMode) stringResource(R.string.close_floating_window) else stringResource(R.string.open_floating_window),
+                                        tint =
+                                                pipIconColor?.let { Color(it) }
+                                                        ?: if (isFloatingMode)
+                                                                MaterialTheme.colorScheme.primary
+                                                        else
+                                                                MaterialTheme.colorScheme.onSurface
+                                                                        .copy(alpha = 0.7f),
+                                        modifier = Modifier.size(20.dp)
+                                )
+                        }
+                }
+
+                // Character Switcher
+                Row(
+                        modifier =
+                                Modifier
+                                        .widthIn(max = 176.dp)
+                                        .clip(CircleShape)
+                                        .clickable(onClick = onCharacterClick)
+                                        .padding(horizontal = 8.dp, vertical = 4.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(6.dp)
+                ) {
+                        // Placeholder for Avatar
+                        Box(
+                                modifier =
+                                        Modifier
+                                                .size(24.dp)
+                                                .clip(CircleShape)
+                                                .background(MaterialTheme.colorScheme.secondaryContainer),
+                                contentAlignment = Alignment.Center
+                        ) {
+                                // Use Coil or another image loader for activeCharacterAvatarUri
+                                if (activeCharacterAvatarUri != null) {
+                                    Image(
+                                        painter = rememberAsyncImagePainter(model = Uri.parse(activeCharacterAvatarUri)),
+                                        contentDescription = "Character Avatar",
+                                        modifier = Modifier.fillMaxSize(),
+                                        contentScale = ContentScale.Crop
+                                    )
+                                } else {
+                                    Icon(
+                                        Icons.Rounded.Person,
+                                        contentDescription = "Character Avatar",
+                                        modifier = Modifier.padding(4.dp)
+                                    )
+                                }
+                        }
+                        Text(
+                                text = displayCharacterName,
+                                style = MaterialTheme.typography.bodyMedium,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis,
+                                modifier = Modifier.widthIn(max = 116.dp)
+                        )
+                }
+        }
+}

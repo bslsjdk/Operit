@@ -1,1 +1,421 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5hcGkuY2hhdC5sbG1wcm92aWRlci5BSVNlcnZpY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5hcGkuY2hhdC5sbG1wcm92aWRlci5BSVNlcnZpY2VGYWN0b3J5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIuUmF0ZUxpbWl0ZWRBSVNlcnZpY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5hcGkuY2hhdC5sbG1wcm92aWRlci5SYXRlTGltaXRlclJlZ2lzdHJ5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIuUmVxdWVzdENvbmN1cnJlbmN5UmVnaXN0cnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkZ1bmN0aW9uVHlwZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuTW9kZWxDb25maWdEYXRhCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbFBhcmFtZXRlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuZ2V0TW9kZWxCeUluZGV4CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5nZXRWYWxpZE1vZGVsSW5kZXgKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkZ1bmN0aW9uYWxDb25maWdNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5Nb2RlbENvbmZpZ01hbmFnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy5NdXRleAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMud2l0aExvY2sKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNCb29sZWFuCgovKiog566h55CG5aSa5LiqQUlTZXJ2aWNl5a6e5L6L77yM5qC55o2u5Yqf6IO957G75Z6L5o+Q5L6b5LiN5ZCM55qE5pyN5Yqh6YWN572uICovCmNsYXNzIE11bHRpU2VydmljZU1hbmFnZXIocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIk11bHRpU2VydmljZU1hbmFnZXIiCiAgICB9CgogICAgY2xhc3MgU2VydmljZUxlYXNlIGludGVybmFsIGNvbnN0cnVjdG9yKAogICAgICAgIHByaXZhdGUgdmFsIGNsb3NlQWN0aW9uOiBzdXNwZW5kICgpIC0+IFVuaXQsCiAgICAgICAgdmFsIHNlcnZpY2U6IEFJU2VydmljZSwKICAgICAgICB2YWwgbW9kZWxDb25maWc6IE1vZGVsQ29uZmlnRGF0YSwKICAgICAgICB2YWwgbW9kZWxQYXJhbWV0ZXJzOiBMaXN0PE1vZGVsUGFyYW1ldGVyPCo+PgogICAgKSB7CiAgICAgICAgcHJpdmF0ZSB2YWwgY2xvc2VkID0gQXRvbWljQm9vbGVhbihmYWxzZSkKCiAgICAgICAgc3VzcGVuZCBmdW4gY2xvc2UoKSB7CiAgICAgICAgICAgIGlmIChjbG9zZWQuY29tcGFyZUFuZFNldChmYWxzZSwgdHJ1ZSkpIHsKICAgICAgICAgICAgICAgIGNsb3NlQWN0aW9uKCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGNsYXNzIE1hbmFnZWRTZXJ2aWNlKAogICAgICAgIHZhbCBzZXJ2aWNlOiBBSVNlcnZpY2UsCiAgICAgICAgdmFsIG1vZGVsQ29uZmlnOiBNb2RlbENvbmZpZ0RhdGEsCiAgICAgICAgdmFyIGFjdGl2ZUxlYXNlczogSW50ID0gMCwKICAgICAgICB2YXIgcmV0aXJlZDogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHZhciByZWxlYXNlZDogQm9vbGVhbiA9IGZhbHNlCiAgICApCgogICAgLy8g6YWN572u566h55CG5ZmoCiAgICBwcml2YXRlIHZhbCBmdW5jdGlvbmFsQ29uZmlnTWFuYWdlciA9IEZ1bmN0aW9uYWxDb25maWdNYW5hZ2VyKGNvbnRleHQpCiAgICBwcml2YXRlIHZhbCBtb2RlbENvbmZpZ01hbmFnZXIgPSBNb2RlbENvbmZpZ01hbmFnZXIoY29udGV4dCkKCiAgICAvLyDmnI3liqHlrp7kvovnvJPlrZgKICAgIHByaXZhdGUgdmFsIHNlcnZpY2VJbnN0YW5jZXMgPSBtdXRhYmxlTWFwT2Y8RnVuY3Rpb25UeXBlLCBNYW5hZ2VkU2VydmljZT4oKQogICAgcHJpdmF0ZSB2YWwgY3VzdG9tU2VydmljZUluc3RhbmNlcyA9IG11dGFibGVNYXBPZjxTdHJpbmcsIE1hbmFnZWRTZXJ2aWNlPigpCiAgICBwcml2YXRlIHZhbCByZXRpcmVkU2VydmljZXMgPSBtdXRhYmxlU2V0T2Y8TWFuYWdlZFNlcnZpY2U+KCkKICAgIHByaXZhdGUgdmFsIHNlcnZpY2VNdXRleCA9IE11dGV4KCkKCiAgICBwcml2YXRlIHZhbCBpbml0TXV0ZXggPSBNdXRleCgpCiAgICBAVm9sYXRpbGUgcHJpdmF0ZSB2YXIgaXNJbml0aWFsaXplZCA9IGZhbHNlCgogICAgLy8g6buY6K6kQUlTZXJ2aWNl77yM55So5LqO5YW85a65546w5pyJ5Luj56CBCiAgICBwcml2YXRlIHZhciBkZWZhdWx0U2VydmljZTogTWFuYWdlZFNlcnZpY2U/ID0gbnVsbAoKICAgIC8qKiDliJ3lp4vljJbmnI3liqHnrqHnkIblmajvvIznoa7kv53phY3nva7lt7Lnu4/lh4blpIflpb0gKi8KICAgIHN1c3BlbmQgZnVuIGluaXRpYWxpemUoKSB7CiAgICAgICAgZW5zdXJlSW5pdGlhbGl6ZWQoKQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZW5zdXJlSW5pdGlhbGl6ZWQoKSB7CiAgICAgICAgaWYgKGlzSW5pdGlhbGl6ZWQpIHJldHVybgogICAgICAgIGluaXRNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIGlmIChpc0luaXRpYWxpemVkKSByZXR1cm4KICAgICAgICAgICAgaXNJbml0aWFsaXplZCA9IHRydWUKICAgICAgICB9CiAgICB9CgogICAgLyoqIOiOt+WPluaMh+WumuWKn+iDveexu+Wei+eahEFJU2VydmljZSAqLwogICAgc3VzcGVuZCBmdW4gZ2V0U2VydmljZUZvckZ1bmN0aW9uKGZ1bmN0aW9uVHlwZTogRnVuY3Rpb25UeXBlKTogQUlTZXJ2aWNlIHsKICAgICAgICBlbnN1cmVJbml0aWFsaXplZCgpCiAgICAgICAgcmV0dXJuIHNlcnZpY2VNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIGdldE9yQ3JlYXRlU2VydmljZUZvckZ1bmN0aW9uTG9ja2VkKGZ1bmN0aW9uVHlwZSkuc2VydmljZQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5qC55o2u6YWN572uSUTlkozmqKHlnovntKLlvJXojrflj5ZBSVNlcnZpY2XvvIjkuI3kvJrkv67mlLnlip/og73mmKDlsITvvIkgKi8KICAgIHN1c3BlbmQgZnVuIGdldFNlcnZpY2VGb3JDb25maWcoY29uZmlnSWQ6IFN0cmluZywgbW9kZWxJbmRleDogSW50KTogQUlTZXJ2aWNlIHsKICAgICAgICBlbnN1cmVJbml0aWFsaXplZCgpCiAgICAgICAgcmV0dXJuIHNlcnZpY2VNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIGdldE9yQ3JlYXRlU2VydmljZUZvckNvbmZpZ0xvY2tlZChjb25maWdJZCwgbW9kZWxJbmRleCkuc2VydmljZQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biBhY3F1aXJlU2VydmljZUZvckZ1bmN0aW9uKGZ1bmN0aW9uVHlwZTogRnVuY3Rpb25UeXBlKTogU2VydmljZUxlYXNlIHsKICAgICAgICBlbnN1cmVJbml0aWFsaXplZCgpCiAgICAgICAgdmFsIG1hbmFnZWRTZXJ2aWNlID0KICAgICAgICAgICAgc2VydmljZU11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgICAgIGdldE9yQ3JlYXRlU2VydmljZUZvckZ1bmN0aW9uTG9ja2VkKGZ1bmN0aW9uVHlwZSkuYWxzbyB7IGl0LmFjdGl2ZUxlYXNlcyArPSAxIH0KICAgICAgICAgICAgfQogICAgICAgIHZhbCBtb2RlbFBhcmFtZXRlcnMgPQogICAgICAgICAgICBtb2RlbENvbmZpZ01hbmFnZXIuZ2V0TW9kZWxQYXJhbWV0ZXJzRm9yQ29uZmlnKG1hbmFnZWRTZXJ2aWNlLm1vZGVsQ29uZmlnLmlkKQogICAgICAgIHJldHVybiBTZXJ2aWNlTGVhc2UoCiAgICAgICAgICAgIGNsb3NlQWN0aW9uID0geyByZWxlYXNlTGVhc2UobWFuYWdlZFNlcnZpY2UpIH0sCiAgICAgICAgICAgIHNlcnZpY2UgPSBtYW5hZ2VkU2VydmljZS5zZXJ2aWNlLAogICAgICAgICAgICBtb2RlbENvbmZpZyA9IG1hbmFnZWRTZXJ2aWNlLm1vZGVsQ29uZmlnLAogICAgICAgICAgICBtb2RlbFBhcmFtZXRlcnMgPSBtb2RlbFBhcmFtZXRlcnMKICAgICAgICApCiAgICB9CgogICAgc3VzcGVuZCBmdW4gYWNxdWlyZVNlcnZpY2VGb3JDb25maWcoY29uZmlnSWQ6IFN0cmluZywgbW9kZWxJbmRleDogSW50KTogU2VydmljZUxlYXNlIHsKICAgICAgICBlbnN1cmVJbml0aWFsaXplZCgpCiAgICAgICAgdmFsIG1hbmFnZWRTZXJ2aWNlID0KICAgICAgICAgICAgc2VydmljZU11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgICAgIGdldE9yQ3JlYXRlU2VydmljZUZvckNvbmZpZ0xvY2tlZChjb25maWdJZCwgbW9kZWxJbmRleCkuYWxzbyB7IGl0LmFjdGl2ZUxlYXNlcyArPSAxIH0KICAgICAgICAgICAgfQogICAgICAgIHZhbCBtb2RlbFBhcmFtZXRlcnMgPQogICAgICAgICAgICBtb2RlbENvbmZpZ01hbmFnZXIuZ2V0TW9kZWxQYXJhbWV0ZXJzRm9yQ29uZmlnKG1hbmFnZWRTZXJ2aWNlLm1vZGVsQ29uZmlnLmlkKQogICAgICAgIHJldHVybiBTZXJ2aWNlTGVhc2UoCiAgICAgICAgICAgIGNsb3NlQWN0aW9uID0geyByZWxlYXNlTGVhc2UobWFuYWdlZFNlcnZpY2UpIH0sCiAgICAgICAgICAgIHNlcnZpY2UgPSBtYW5hZ2VkU2VydmljZS5zZXJ2aWNlLAogICAgICAgICAgICBtb2RlbENvbmZpZyA9IG1hbmFnZWRTZXJ2aWNlLm1vZGVsQ29uZmlnLAogICAgICAgICAgICBtb2RlbFBhcmFtZXRlcnMgPSBtb2RlbFBhcmFtZXRlcnMKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBnZXRPckNyZWF0ZVNlcnZpY2VGb3JGdW5jdGlvbkxvY2tlZChmdW5jdGlvblR5cGU6IEZ1bmN0aW9uVHlwZSk6IE1hbmFnZWRTZXJ2aWNlIHsKICAgICAgICBzZXJ2aWNlSW5zdGFuY2VzW2Z1bmN0aW9uVHlwZV0/LmxldCB7CiAgICAgICAgICAgIHJldHVybiBpdAogICAgICAgIH0KCiAgICAgICAgdmFsIGNvbmZpZ01hcHBpbmcgPSBmdW5jdGlvbmFsQ29uZmlnTWFuYWdlci5nZXRDb25maWdNYXBwaW5nRm9yRnVuY3Rpb24oZnVuY3Rpb25UeXBlKQogICAgICAgIHZhbCBjb25maWcgPSBtb2RlbENvbmZpZ01hbmFnZXIuZ2V0TW9kZWxDb25maWdGbG93KGNvbmZpZ01hcHBpbmcuY29uZmlnSWQpLmZpcnN0KCkKCiAgICAgICAgdmFsIHNlcnZpY2UgPSBjcmVhdGVTZXJ2aWNlRnJvbUNvbmZpZyhjb25maWcsIGNvbmZpZ01hcHBpbmcubW9kZWxJbmRleCkKICAgICAgICB2YWwgbWFuYWdlZFNlcnZpY2UgPSBNYW5hZ2VkU2VydmljZSgKICAgICAgICAgICAgc2VydmljZSA9IHNlcnZpY2UsCiAgICAgICAgICAgIG1vZGVsQ29uZmlnID0gY29uZmlnCiAgICAgICAgKQogICAgICAgIHNlcnZpY2VJbnN0YW5jZXNbZnVuY3Rpb25UeXBlXSA9IG1hbmFnZWRTZXJ2aWNlCgogICAgICAgIGlmIChmdW5jdGlvblR5cGUgPT0gRnVuY3Rpb25UeXBlLkNIQVQpIHsKICAgICAgICAgICAgZGVmYXVsdFNlcnZpY2UgPSBtYW5hZ2VkU2VydmljZQogICAgICAgIH0KCiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5bey5Li65Yqf6IO9JHtmdW5jdGlvblR5cGV95Yib5bu65pyN5Yqh5a6e5L6L77yM5L2/55So6YWN572uJHtjb25maWcubmFtZX3vvIzmqKHlnovntKLlvJUke2NvbmZpZ01hcHBpbmcubW9kZWxJbmRleH0iKQogICAgICAgIHJldHVybiBtYW5hZ2VkU2VydmljZQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZ2V0T3JDcmVhdGVTZXJ2aWNlRm9yQ29uZmlnTG9ja2VkKGNvbmZpZ0lkOiBTdHJpbmcsIG1vZGVsSW5kZXg6IEludCk6IE1hbmFnZWRTZXJ2aWNlIHsKICAgICAgICB2YWwgbm9ybWFsaXplZEluZGV4ID0gbW9kZWxJbmRleC5jb2VyY2VBdExlYXN0KDApCiAgICAgICAgdmFsIGNhY2hlS2V5ID0gIiRjb25maWdJZCMkbm9ybWFsaXplZEluZGV4IgogICAgICAgIGN1c3RvbVNlcnZpY2VJbnN0YW5jZXNbY2FjaGVLZXldPy5sZXQgeyByZXR1cm4gaXQgfQoKICAgICAgICB2YWwgY29uZmlnID0gbW9kZWxDb25maWdNYW5hZ2VyLmdldE1vZGVsQ29uZmlnRmxvdyhjb25maWdJZCkuZmlyc3QoKQogICAgICAgIHZhbCBzZXJ2aWNlID0gY3JlYXRlU2VydmljZUZyb21Db25maWcoY29uZmlnLCBub3JtYWxpemVkSW5kZXgpCiAgICAgICAgdmFsIG1hbmFnZWRTZXJ2aWNlID0gTWFuYWdlZFNlcnZpY2UoCiAgICAgICAgICAgIHNlcnZpY2UgPSBzZXJ2aWNlLAogICAgICAgICAgICBtb2RlbENvbmZpZyA9IGNvbmZpZwogICAgICAgICkKICAgICAgICBjdXN0b21TZXJ2aWNlSW5zdGFuY2VzW2NhY2hlS2V5XSA9IG1hbmFnZWRTZXJ2aWNlCgogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuW3suS4uuiHquWumuS5iemFjee9ruWIm+W7uuacjeWKoeWunuS+i++8jOmFjee9rj0kY29uZmlnSWTvvIzmqKHlnovntKLlvJU9JG5vcm1hbGl6ZWRJbmRleCIpCiAgICAgICAgcmV0dXJuIG1hbmFnZWRTZXJ2aWNlCiAgICB9CgogICAgLyoqIOiOt+WPlum7mOiupOacjeWKoe+8iOmAmuW4uOaYr0NIQVTlip/og73nmoTmnI3liqHvvIkgKi8KICAgIHN1c3BlbmQgZnVuIGdldERlZmF1bHRTZXJ2aWNlKCk6IEFJU2VydmljZSB7CiAgICAgICAgZW5zdXJlSW5pdGlhbGl6ZWQoKQogICAgICAgIHJldHVybiBzZXJ2aWNlTXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICAoZGVmYXVsdFNlcnZpY2UgPzogZ2V0T3JDcmVhdGVTZXJ2aWNlRm9yRnVuY3Rpb25Mb2NrZWQoRnVuY3Rpb25UeXBlLkNIQVQpKS5zZXJ2aWNlCiAgICAgICAgfQogICAgfQoKICAgIHN1c3BlbmQgZnVuIGNhbmNlbEFsbFN0cmVhbWluZygpIHsKICAgICAgICBzZXJ2aWNlTXV0ZXgud2l0aExvY2sgewogICAgICAgICAgICB2YWwgc2VydmljZXMgPSBtdXRhYmxlU2V0T2Y8QUlTZXJ2aWNlPigpCiAgICAgICAgICAgIHNlcnZpY2VzLmFkZEFsbChzZXJ2aWNlSW5zdGFuY2VzLnZhbHVlcy5tYXAgeyBpdC5zZXJ2aWNlIH0pCiAgICAgICAgICAgIHNlcnZpY2VzLmFkZEFsbChjdXN0b21TZXJ2aWNlSW5zdGFuY2VzLnZhbHVlcy5tYXAgeyBpdC5zZXJ2aWNlIH0pCiAgICAgICAgICAgIHNlcnZpY2VzLmFkZEFsbChyZXRpcmVkU2VydmljZXMubWFwIHsgaXQuc2VydmljZSB9KQogICAgICAgICAgICBkZWZhdWx0U2VydmljZT8ubGV0IHsgc2VydmljZXMuYWRkKGl0LnNlcnZpY2UpIH0KCiAgICAgICAgICAgIHNlcnZpY2VzLmZvckVhY2ggeyBzZXJ2aWNlIC0+CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHNlcnZpY2UuY2FuY2VsU3RyZWFtaW5nKCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuWPlua2iOacjeWKoea1geW8j+S8oOi+k+aXtuWHuumUmSIsIGUpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gcmVzZXRBbGxUb2tlbkNvdW50ZXJzKCkgewogICAgICAgIHNlcnZpY2VNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIHZhbCBzZXJ2aWNlcyA9IG11dGFibGVTZXRPZjxBSVNlcnZpY2U+KCkKICAgICAgICAgICAgc2VydmljZXMuYWRkQWxsKHNlcnZpY2VJbnN0YW5jZXMudmFsdWVzLm1hcCB7IGl0LnNlcnZpY2UgfSkKICAgICAgICAgICAgc2VydmljZXMuYWRkQWxsKGN1c3RvbVNlcnZpY2VJbnN0YW5jZXMudmFsdWVzLm1hcCB7IGl0LnNlcnZpY2UgfSkKICAgICAgICAgICAgc2VydmljZXMuYWRkQWxsKHJldGlyZWRTZXJ2aWNlcy5tYXAgeyBpdC5zZXJ2aWNlIH0pCiAgICAgICAgICAgIGRlZmF1bHRTZXJ2aWNlPy5sZXQgeyBzZXJ2aWNlcy5hZGQoaXQuc2VydmljZSkgfQoKICAgICAgICAgICAgc2VydmljZXMuZm9yRWFjaCB7IHNlcnZpY2UgLT4KICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgc2VydmljZS5yZXNldFRva2VuQ291bnRzKCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIumHjee9ruacjeWKoXRva2Vu6K6h5pWw5Zmo5pe25Ye66ZSZIiwgZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBzdXNwZW5kIGZ1biByZXNldFRva2VuQ291bnRlcnNGb3JGdW5jdGlvbihmdW5jdGlvblR5cGU6IEZ1bmN0aW9uVHlwZSkgewogICAgICAgIHZhbCBzZXJ2aWNlID0gZ2V0U2VydmljZUZvckZ1bmN0aW9uKGZ1bmN0aW9uVHlwZSkKICAgICAgICB0cnkgewogICAgICAgICAgICBzZXJ2aWNlLnJlc2V0VG9rZW5Db3VudHMoKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLph43nva7lip/og70ke2Z1bmN0aW9uVHlwZX3nmoR0b2tlbuiuoeaVsOWZqOaXtuWHuumUmSIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIC8qKiDliLfmlrDmjIflrprlip/og73nsbvlnovnmoTmnI3liqHlrp7kvosg5b2T6YWN572u5pu05pS55pe26LCD55So5q2k5pa55rOVICovCiAgICBzdXNwZW5kIGZ1biByZWZyZXNoU2VydmljZUZvckZ1bmN0aW9uKGZ1bmN0aW9uVHlwZTogRnVuY3Rpb25UeXBlKSB7CiAgICAgICAgZW5zdXJlSW5pdGlhbGl6ZWQoKQogICAgICAgIHNlcnZpY2VNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIHNlcnZpY2VJbnN0YW5jZXMucmVtb3ZlKGZ1bmN0aW9uVHlwZSk/LmxldCB7IHJldGlyZU1hbmFnZWRTZXJ2aWNlTG9ja2VkKGl0KSB9CgogICAgICAgICAgICBpZiAoZnVuY3Rpb25UeXBlID09IEZ1bmN0aW9uVHlwZS5DSEFUKSB7CiAgICAgICAgICAgICAgICBkZWZhdWx0U2VydmljZSA9IG51bGwKICAgICAgICAgICAgICAgIHZhbCBjdXN0b21TZXJ2aWNlcyA9IGN1c3RvbVNlcnZpY2VJbnN0YW5jZXMudmFsdWVzLnRvTGlzdCgpCiAgICAgICAgICAgICAgICBjdXN0b21TZXJ2aWNlSW5zdGFuY2VzLmNsZWFyKCkKICAgICAgICAgICAgICAgIGN1c3RvbVNlcnZpY2VzLmZvckVhY2ggeyBzZXJ2aWNlIC0+CiAgICAgICAgICAgICAgICAgICAgcmV0aXJlTWFuYWdlZFNlcnZpY2VMb2NrZWQoc2VydmljZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5bey56e76Zmk5Yqf6IO9JHtmdW5jdGlvblR5cGV955qE5pyN5Yqh5a6e5L6L57yT5a2YIikKICAgICAgICB9CiAgICB9CgogICAgLyoqIOWIt+aWsOaJgOacieacjeWKoeWunuS+iyDlvZPlhajlsYDorr7nva7mm7TmlLnml7bosIPnlKjmraTmlrnms5UgKi8KICAgIHN1c3BlbmQgZnVuIHJlZnJlc2hBbGxTZXJ2aWNlcygpIHsKICAgICAgICBlbnN1cmVJbml0aWFsaXplZCgpCiAgICAgICAgc2VydmljZU11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgdmFsIHNlcnZpY2VzID0gbXV0YWJsZVNldE9mPE1hbmFnZWRTZXJ2aWNlPigpCiAgICAgICAgICAgIHNlcnZpY2VzLmFkZEFsbChzZXJ2aWNlSW5zdGFuY2VzLnZhbHVlcykKICAgICAgICAgICAgc2VydmljZXMuYWRkQWxsKGN1c3RvbVNlcnZpY2VJbnN0YW5jZXMudmFsdWVzKQogICAgICAgICAgICBzZXJ2aWNlcy5hZGRBbGwocmV0aXJlZFNlcnZpY2VzKQogICAgICAgICAgICBkZWZhdWx0U2VydmljZT8ubGV0IHsgc2VydmljZXMuYWRkKGl0KSB9CgogICAgICAgICAgICBzZXJ2aWNlSW5zdGFuY2VzLmNsZWFyKCkKICAgICAgICAgICAgY3VzdG9tU2VydmljZUluc3RhbmNlcy5jbGVhcigpCiAgICAgICAgICAgIHJldGlyZWRTZXJ2aWNlcy5jbGVhcigpCiAgICAgICAgICAgIGRlZmF1bHRTZXJ2aWNlID0gbnVsbAogICAgICAgICAgICBzZXJ2aWNlcy5mb3JFYWNoIHsgc2VydmljZSAtPgogICAgICAgICAgICAgICAgY2xvc2VNYW5hZ2VkU2VydmljZUxvY2tlZChzZXJ2aWNlLCBjYW5jZWxTdHJlYW1pbmcgPSB0cnVlKQogICAgICAgICAgICB9CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuW3sua4hemZpOaJgOacieacjeWKoeWunuS+i+e8k+WtmOW5tumHiuaUvui1hOa6kCIpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gcmVsZWFzZUxlYXNlKG1hbmFnZWRTZXJ2aWNlOiBNYW5hZ2VkU2VydmljZSkgewogICAgICAgIHNlcnZpY2VNdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIG1hbmFnZWRTZXJ2aWNlLmFjdGl2ZUxlYXNlcyA9IChtYW5hZ2VkU2VydmljZS5hY3RpdmVMZWFzZXMgLSAxKS5jb2VyY2VBdExlYXN0KDApCiAgICAgICAgICAgIGNsb3NlUmV0aXJlZFNlcnZpY2VMb2NrZWQobWFuYWdlZFNlcnZpY2UpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJldGlyZU1hbmFnZWRTZXJ2aWNlTG9ja2VkKG1hbmFnZWRTZXJ2aWNlOiBNYW5hZ2VkU2VydmljZSkgewogICAgICAgIG1hbmFnZWRTZXJ2aWNlLnJldGlyZWQgPSB0cnVlCiAgICAgICAgcmV0aXJlZFNlcnZpY2VzLmFkZChtYW5hZ2VkU2VydmljZSkKICAgICAgICBjbG9zZVJldGlyZWRTZXJ2aWNlTG9ja2VkKG1hbmFnZWRTZXJ2aWNlKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNsb3NlUmV0aXJlZFNlcnZpY2VMb2NrZWQobWFuYWdlZFNlcnZpY2U6IE1hbmFnZWRTZXJ2aWNlKSB7CiAgICAgICAgaWYgKG1hbmFnZWRTZXJ2aWNlLnJldGlyZWQgJiYgbWFuYWdlZFNlcnZpY2UuYWN0aXZlTGVhc2VzID09IDApIHsKICAgICAgICAgICAgY2xvc2VNYW5hZ2VkU2VydmljZUxvY2tlZChtYW5hZ2VkU2VydmljZSwgY2FuY2VsU3RyZWFtaW5nID0gZmFsc2UpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNsb3NlTWFuYWdlZFNlcnZpY2VMb2NrZWQobWFuYWdlZFNlcnZpY2U6IE1hbmFnZWRTZXJ2aWNlLCBjYW5jZWxTdHJlYW1pbmc6IEJvb2xlYW4pIHsKICAgICAgICBpZiAobWFuYWdlZFNlcnZpY2UucmVsZWFzZWQpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIG1hbmFnZWRTZXJ2aWNlLnJlbGVhc2VkID0gdHJ1ZQogICAgICAgIHJldGlyZWRTZXJ2aWNlcy5yZW1vdmUobWFuYWdlZFNlcnZpY2UpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaWYgKGNhbmNlbFN0cmVhbWluZykgewogICAgICAgICAgICAgICAgbWFuYWdlZFNlcnZpY2Uuc2VydmljZS5jYW5jZWxTdHJlYW1pbmcoKQogICAgICAgICAgICB9CiAgICAgICAgICAgIG1hbmFnZWRTZXJ2aWNlLnNlcnZpY2UucmVsZWFzZSgpCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuW3sumHiuaUvuacjeWKoei1hOa6kDogcHJvdmlkZXJNb2RlbD0ke21hbmFnZWRTZXJ2aWNlLnNlcnZpY2UucHJvdmlkZXJNb2RlbH0iKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLph4rmlL7mnI3liqHotYTmupDml7blh7rplJkiLCBlKQogICAgICAgIH0KICAgIH0KCiAgICAvKiog5qC55o2u6YWN572u5Yib5bu6QUlTZXJ2aWNl5a6e5L6LICovCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGNyZWF0ZVNlcnZpY2VGcm9tQ29uZmlnKGNvbmZpZzogTW9kZWxDb25maWdEYXRhLCBtb2RlbEluZGV4OiBJbnQpOiBBSVNlcnZpY2UgewogICAgICAgIC8vIOS9v+eUqOWFrOWFseWHveaVsOiuoeeul+acieaViOe0ouW8lQogICAgICAgIHZhbCBhY3R1YWxJbmRleCA9IGdldFZhbGlkTW9kZWxJbmRleChjb25maWcubW9kZWxOYW1lLCBtb2RlbEluZGV4KQogICAgICAgIAogICAgICAgIC8vIOiusOW9lei2iueVjOitpuWRigogICAgICAgIGlmIChhY3R1YWxJbmRleCAhPSBtb2RlbEluZGV4ICYmIG1vZGVsSW5kZXggIT0gMCkgewogICAgICAgICAgICB2YWwgbW9kZWxMaXN0ID0gY29uZmlnLm1vZGVsTmFtZS5zcGxpdCgiLCIpLm1hcCB7IGl0LnRyaW0oKSB9LmZpbHRlciB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIuaooeWei+e0ouW8lSAkbW9kZWxJbmRleCDotoXlh7rojIPlm7QoMC0ke21vZGVsTGlzdC5zaXplIC0gMX0p77yM6Ieq5Yqo5L2/55So56ys5LiA5Liq5qih5Z6LIikKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgLy8g5qC55o2u5a6e6ZmF57Si5byV6YCJ5oup5YW35L2T5qih5Z6LCiAgICAgICAgdmFsIHNlbGVjdGVkTW9kZWxOYW1lID0gZ2V0TW9kZWxCeUluZGV4KGNvbmZpZy5tb2RlbE5hbWUsIGFjdHVhbEluZGV4KQogICAgICAgIAogICAgICAgIC8vIOWIm+W7uuS4gOS4quS4tOaXtumFjee9ru+8jOS9v+eUqOmAieS4reeahOaooeWei+WQjeensAogICAgICAgIHZhbCBjb25maWdXaXRoU2VsZWN0ZWRNb2RlbCA9IGNvbmZpZy5jb3B5KG1vZGVsTmFtZSA9IHNlbGVjdGVkTW9kZWxOYW1lKQogICAgICAgIAogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuWIm+W7uuacjeWKoTog5Y6f5aeL5qih5Z6LPScke2NvbmZpZy5tb2RlbE5hbWV9Jywg6YCJ5Lit5qih5Z6LPSckc2VsZWN0ZWRNb2RlbE5hbWUnICjor7fmsYLntKLlvJU9JG1vZGVsSW5kZXgsIOWunumZhee0ouW8lT0kYWN0dWFsSW5kZXgpIikKCiAgICAgICAgdmFsIHJhd1NlcnZpY2UgPSBBSVNlcnZpY2VGYWN0b3J5LmNyZWF0ZVNlcnZpY2UoCiAgICAgICAgICAgIGNvbmZpZyA9IGNvbmZpZ1dpdGhTZWxlY3RlZE1vZGVsLAogICAgICAgICAgICBtb2RlbENvbmZpZ01hbmFnZXIgPSBtb2RlbENvbmZpZ01hbmFnZXIsCiAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0CiAgICAgICAgKQoKICAgICAgICB2YWwgcmVxdWVzdExpbWl0UGVyTWludXRlID0gY29uZmlnLnJlcXVlc3RMaW1pdFBlck1pbnV0ZS5jb2VyY2VBdExlYXN0KDApCiAgICAgICAgdmFsIG1heENvbmN1cnJlbnRSZXF1ZXN0cyA9IGNvbmZpZy5tYXhDb25jdXJyZW50UmVxdWVzdHMuY29lcmNlQXRMZWFzdCgwKQoKICAgICAgICBpZiAocmVxdWVzdExpbWl0UGVyTWludXRlID09IDAgJiYgbWF4Q29uY3VycmVudFJlcXVlc3RzID09IDApIHsKICAgICAgICAgICAgcmV0dXJuIHJhd1NlcnZpY2UKICAgICAgICB9CgogICAgICAgIHZhbCBsaW1pdGVyID0KICAgICAgICAgICAgaWYgKHJlcXVlc3RMaW1pdFBlck1pbnV0ZSA+IDApIHsKICAgICAgICAgICAgICAgIFJhdGVMaW1pdGVyUmVnaXN0cnkuZ2V0T3JDcmVhdGUoCiAgICAgICAgICAgICAgICAgICAga2V5ID0gY29uZmlnLmlkLAogICAgICAgICAgICAgICAgICAgIG1heFJlcXVlc3RzUGVyTWludXRlID0gcmVxdWVzdExpbWl0UGVyTWludXRlCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBudWxsCiAgICAgICAgICAgIH0KCiAgICAgICAgdmFsIGNvbmN1cnJlbmN5U2VtYXBob3JlID0KICAgICAgICAgICAgaWYgKG1heENvbmN1cnJlbnRSZXF1ZXN0cyA+IDApIHsKICAgICAgICAgICAgICAgIFJlcXVlc3RDb25jdXJyZW5jeVJlZ2lzdHJ5LmdldE9yQ3JlYXRlKAogICAgICAgICAgICAgICAgICAgIGtleSA9IGNvbmZpZy5pZCwKICAgICAgICAgICAgICAgICAgICBtYXhDb25jdXJyZW50UmVxdWVzdHMgPSBtYXhDb25jdXJyZW50UmVxdWVzdHMKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgfQoKICAgICAgICByZXR1cm4gUmF0ZUxpbWl0ZWRBSVNlcnZpY2UoCiAgICAgICAgICAgIGRlbGVnYXRlID0gcmF3U2VydmljZSwKICAgICAgICAgICAgcmF0ZUxpbWl0ZXIgPSBsaW1pdGVyLAogICAgICAgICAgICBjb25jdXJyZW5jeVNlbWFwaG9yZSA9IGNvbmN1cnJlbmN5U2VtYXBob3JlCiAgICAgICAgKQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5oyH5a6a5Yqf6IO957G75Z6L55qE5qih5Z6L5Y+C5pWw5YiX6KGoCiAgICAgKiBAcGFyYW0gZnVuY3Rpb25UeXBlIOWKn+iDveexu+WeiwogICAgICogQHJldHVybiDmqKHlnovlj4LmlbDliJfooagKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZ2V0TW9kZWxQYXJhbWV0ZXJzRm9yRnVuY3Rpb24oCiAgICAgICAgICAgIGZ1bmN0aW9uVHlwZTogRnVuY3Rpb25UeXBlCiAgICApOiBMaXN0PGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLk1vZGVsUGFyYW1ldGVyPCo+PiB7CiAgICAgICAgZW5zdXJlSW5pdGlhbGl6ZWQoKQogICAgICAgIHZhbCBjb25maWdNYXBwaW5nID0gZnVuY3Rpb25hbENvbmZpZ01hbmFnZXIuZ2V0Q29uZmlnTWFwcGluZ0ZvckZ1bmN0aW9uKGZ1bmN0aW9uVHlwZSkKICAgICAgICByZXR1cm4gbW9kZWxDb25maWdNYW5hZ2VyLmdldE1vZGVsUGFyYW1ldGVyc0ZvckNvbmZpZyhjb25maWdNYXBwaW5nLmNvbmZpZ0lkKQogICAgfQoKICAgIC8qKgogICAgICog6I635Y+W5oyH5a6a5Yqf6IO957G75Z6L55qE5qih5Z6L6YWN572uCiAgICAgKiBAcGFyYW0gZnVuY3Rpb25UeXBlIOWKn+iDveexu+WeiwogICAgICogQHJldHVybiDmqKHlnovphY3nva7mlbDmja4KICAgICAqLwogICAgc3VzcGVuZCBmdW4gZ2V0TW9kZWxDb25maWdGb3JGdW5jdGlvbihmdW5jdGlvblR5cGU6IEZ1bmN0aW9uVHlwZSk6IE1vZGVsQ29uZmlnRGF0YSB7CiAgICAgICAgZW5zdXJlSW5pdGlhbGl6ZWQoKQogICAgICAgIHZhbCBjb25maWdNYXBwaW5nID0gZnVuY3Rpb25hbENvbmZpZ01hbmFnZXIuZ2V0Q29uZmlnTWFwcGluZ0ZvckZ1bmN0aW9uKGZ1bmN0aW9uVHlwZSkKICAgICAgICByZXR1cm4gbW9kZWxDb25maWdNYW5hZ2VyLmdldE1vZGVsQ29uZmlnRmxvdyhjb25maWdNYXBwaW5nLmNvbmZpZ0lkKS5maXJzdCgpCiAgICB9CgogICAgLyoqIOiOt+WPluaMh+WumumFjee9rklE55qE5qih5Z6L6YWN572uICovCiAgICBzdXNwZW5kIGZ1biBnZXRNb2RlbENvbmZpZ0ZvckNvbmZpZyhjb25maWdJZDogU3RyaW5nKTogTW9kZWxDb25maWdEYXRhIHsKICAgICAgICBlbnN1cmVJbml0aWFsaXplZCgpCiAgICAgICAgcmV0dXJuIG1vZGVsQ29uZmlnTWFuYWdlci5nZXRNb2RlbENvbmZpZ0Zsb3coY29uZmlnSWQpLmZpcnN0KCkKICAgIH0KCiAgICAvKiog6I635Y+W5oyH5a6a6YWN572uSUTnmoTmqKHlnovlj4LmlbAgKi8KICAgIHN1c3BlbmQgZnVuIGdldE1vZGVsUGFyYW1ldGVyc0ZvckNvbmZpZygKICAgICAgICBjb25maWdJZDogU3RyaW5nCiAgICApOiBMaXN0PGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLk1vZGVsUGFyYW1ldGVyPCo+PiB7CiAgICAgICAgZW5zdXJlSW5pdGlhbGl6ZWQoKQogICAgICAgIHJldHVybiBtb2RlbENvbmZpZ01hbmFnZXIuZ2V0TW9kZWxQYXJhbWV0ZXJzRm9yQ29uZmlnKGNvbmZpZ0lkKQogICAgfQoKICAgIC8qKgogICAgICog5qOA5p+l6K+G5Zu+5Yqf6IO95piv5ZCm5bey6YWN572uCiAgICAgKiBAcmV0dXJuIOWmguaenOivhuWbvuWKn+iDvemFjee9ruWQr+eUqOS6huebtOaOpeWbvueJh+WkhOeQhuWImei/lOWbnnRydWUKICAgICAqLwogICAgc3VzcGVuZCBmdW4gaGFzSW1hZ2VSZWNvZ25pdGlvbkNvbmZpZ3VyZWQoKTogQm9vbGVhbiB7CiAgICAgICAgZW5zdXJlSW5pdGlhbGl6ZWQoKQogICAgICAgIHZhbCBjb25maWdNYXBwaW5nID0gZnVuY3Rpb25hbENvbmZpZ01hbmFnZXIuZ2V0Q29uZmlnTWFwcGluZ0ZvckZ1bmN0aW9uKEZ1bmN0aW9uVHlwZS5JTUFHRV9SRUNPR05JVElPTikKICAgICAgICB2YWwgY29uZmlnID0gbW9kZWxDb25maWdNYW5hZ2VyLmdldE1vZGVsQ29uZmlnRmxvdyhjb25maWdNYXBwaW5nLmNvbmZpZ0lkKS5maXJzdCgpCiAgICAgICAgCiAgICAgICAgLy8g5qOA5p+l5qih5Z6L6YWN572u5piv5ZCm5ZCv55So5LqG55u05o6l5Zu+54mH5aSE55CGCiAgICAgICAgcmV0dXJuIGNvbmZpZy5lbmFibGVEaXJlY3RJbWFnZVByb2Nlc3NpbmcKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBoYXNBdWRpb1JlY29nbml0aW9uQ29uZmlndXJlZCgpOiBCb29sZWFuIHsKICAgICAgICBlbnN1cmVJbml0aWFsaXplZCgpCiAgICAgICAgdmFsIGNvbmZpZ01hcHBpbmcgPSBmdW5jdGlvbmFsQ29uZmlnTWFuYWdlci5nZXRDb25maWdNYXBwaW5nRm9yRnVuY3Rpb24oRnVuY3Rpb25UeXBlLkFVRElPX1JFQ09HTklUSU9OKQogICAgICAgIHZhbCBjb25maWcgPSBtb2RlbENvbmZpZ01hbmFnZXIuZ2V0TW9kZWxDb25maWdGbG93KGNvbmZpZ01hcHBpbmcuY29uZmlnSWQpLmZpcnN0KCkKICAgICAgICByZXR1cm4gY29uZmlnLmVuYWJsZURpcmVjdEF1ZGlvUHJvY2Vzc2luZwogICAgfQoKICAgIHN1c3BlbmQgZnVuIGhhc1ZpZGVvUmVjb2duaXRpb25Db25maWd1cmVkKCk6IEJvb2xlYW4gewogICAgICAgIGVuc3VyZUluaXRpYWxpemVkKCkKICAgICAgICB2YWwgY29uZmlnTWFwcGluZyA9IGZ1bmN0aW9uYWxDb25maWdNYW5hZ2VyLmdldENvbmZpZ01hcHBpbmdGb3JGdW5jdGlvbihGdW5jdGlvblR5cGUuVklERU9fUkVDT0dOSVRJT04pCiAgICAgICAgdmFsIGNvbmZpZyA9IG1vZGVsQ29uZmlnTWFuYWdlci5nZXRNb2RlbENvbmZpZ0Zsb3coY29uZmlnTWFwcGluZy5jb25maWdJZCkuZmlyc3QoKQogICAgICAgIHJldHVybiBjb25maWcuZW5hYmxlRGlyZWN0VmlkZW9Qcm9jZXNzaW5nCiAgICB9Cgp9Cg==
+package com.bslsjdk.operit.api.chat.enhance
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.api.chat.llmprovider.AIService
+import com.bslsjdk.operit.api.chat.llmprovider.AIServiceFactory
+import com.bslsjdk.operit.api.chat.llmprovider.RateLimitedAIService
+import com.bslsjdk.operit.api.chat.llmprovider.RateLimiterRegistry
+import com.bslsjdk.operit.api.chat.llmprovider.RequestConcurrencyRegistry
+import com.bslsjdk.operit.data.model.FunctionType
+import com.bslsjdk.operit.data.model.ModelConfigData
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.model.getModelByIndex
+import com.bslsjdk.operit.data.model.getValidModelIndex
+import com.bslsjdk.operit.data.preferences.FunctionalConfigManager
+import com.bslsjdk.operit.data.preferences.ModelConfigManager
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import java.util.concurrent.atomic.AtomicBoolean
+
+/** 管理多个AIService实例，根据功能类型提供不同的服务配置 */
+class MultiServiceManager(private val context: Context) {
+    companion object {
+        private const val TAG = "MultiServiceManager"
+    }
+
+    class ServiceLease internal constructor(
+        private val closeAction: suspend () -> Unit,
+        val service: AIService,
+        val modelConfig: ModelConfigData,
+        val modelParameters: List<ModelParameter<*>>
+    ) {
+        private val closed = AtomicBoolean(false)
+
+        suspend fun close() {
+            if (closed.compareAndSet(false, true)) {
+                closeAction()
+            }
+        }
+    }
+
+    private class ManagedService(
+        val service: AIService,
+        val modelConfig: ModelConfigData,
+        var activeLeases: Int = 0,
+        var retired: Boolean = false,
+        var released: Boolean = false
+    )
+
+    // 配置管理器
+    private val functionalConfigManager = FunctionalConfigManager(context)
+    private val modelConfigManager = ModelConfigManager(context)
+
+    // 服务实例缓存
+    private val serviceInstances = mutableMapOf<FunctionType, ManagedService>()
+    private val customServiceInstances = mutableMapOf<String, ManagedService>()
+    private val retiredServices = mutableSetOf<ManagedService>()
+    private val serviceMutex = Mutex()
+
+    private val initMutex = Mutex()
+    @Volatile private var isInitialized = false
+
+    // 默认AIService，用于兼容现有代码
+    private var defaultService: ManagedService? = null
+
+    /** 初始化服务管理器，确保配置已经准备好 */
+    suspend fun initialize() {
+        ensureInitialized()
+    }
+
+    private suspend fun ensureInitialized() {
+        if (isInitialized) return
+        initMutex.withLock {
+            if (isInitialized) return
+            isInitialized = true
+        }
+    }
+
+    /** 获取指定功能类型的AIService */
+    suspend fun getServiceForFunction(functionType: FunctionType): AIService {
+        ensureInitialized()
+        return serviceMutex.withLock {
+            getOrCreateServiceForFunctionLocked(functionType).service
+        }
+    }
+
+    /** 根据配置ID和模型索引获取AIService（不会修改功能映射） */
+    suspend fun getServiceForConfig(configId: String, modelIndex: Int): AIService {
+        ensureInitialized()
+        return serviceMutex.withLock {
+            getOrCreateServiceForConfigLocked(configId, modelIndex).service
+        }
+    }
+
+    suspend fun acquireServiceForFunction(functionType: FunctionType): ServiceLease {
+        ensureInitialized()
+        val managedService =
+            serviceMutex.withLock {
+                getOrCreateServiceForFunctionLocked(functionType).also { it.activeLeases += 1 }
+            }
+        val modelParameters =
+            modelConfigManager.getModelParametersForConfig(managedService.modelConfig.id)
+        return ServiceLease(
+            closeAction = { releaseLease(managedService) },
+            service = managedService.service,
+            modelConfig = managedService.modelConfig,
+            modelParameters = modelParameters
+        )
+    }
+
+    suspend fun acquireServiceForConfig(configId: String, modelIndex: Int): ServiceLease {
+        ensureInitialized()
+        val managedService =
+            serviceMutex.withLock {
+                getOrCreateServiceForConfigLocked(configId, modelIndex).also { it.activeLeases += 1 }
+            }
+        val modelParameters =
+            modelConfigManager.getModelParametersForConfig(managedService.modelConfig.id)
+        return ServiceLease(
+            closeAction = { releaseLease(managedService) },
+            service = managedService.service,
+            modelConfig = managedService.modelConfig,
+            modelParameters = modelParameters
+        )
+    }
+
+    private suspend fun getOrCreateServiceForFunctionLocked(functionType: FunctionType): ManagedService {
+        serviceInstances[functionType]?.let {
+            return it
+        }
+
+        val configMapping = functionalConfigManager.getConfigMappingForFunction(functionType)
+        val config = modelConfigManager.getModelConfigFlow(configMapping.configId).first()
+
+        val service = createServiceFromConfig(config, configMapping.modelIndex)
+        val managedService = ManagedService(
+            service = service,
+            modelConfig = config
+        )
+        serviceInstances[functionType] = managedService
+
+        if (functionType == FunctionType.CHAT) {
+            defaultService = managedService
+        }
+
+        AppLogger.d(TAG, "已为功能${functionType}创建服务实例，使用配置${config.name}，模型索引${configMapping.modelIndex}")
+        return managedService
+    }
+
+    private suspend fun getOrCreateServiceForConfigLocked(configId: String, modelIndex: Int): ManagedService {
+        val normalizedIndex = modelIndex.coerceAtLeast(0)
+        val cacheKey = "$configId#$normalizedIndex"
+        customServiceInstances[cacheKey]?.let { return it }
+
+        val config = modelConfigManager.getModelConfigFlow(configId).first()
+        val service = createServiceFromConfig(config, normalizedIndex)
+        val managedService = ManagedService(
+            service = service,
+            modelConfig = config
+        )
+        customServiceInstances[cacheKey] = managedService
+
+        AppLogger.d(TAG, "已为自定义配置创建服务实例，配置=$configId，模型索引=$normalizedIndex")
+        return managedService
+    }
+
+    /** 获取默认服务（通常是CHAT功能的服务） */
+    suspend fun getDefaultService(): AIService {
+        ensureInitialized()
+        return serviceMutex.withLock {
+            (defaultService ?: getOrCreateServiceForFunctionLocked(FunctionType.CHAT)).service
+        }
+    }
+
+    suspend fun cancelAllStreaming() {
+        serviceMutex.withLock {
+            val services = mutableSetOf<AIService>()
+            services.addAll(serviceInstances.values.map { it.service })
+            services.addAll(customServiceInstances.values.map { it.service })
+            services.addAll(retiredServices.map { it.service })
+            defaultService?.let { services.add(it.service) }
+
+            services.forEach { service ->
+                try {
+                    service.cancelStreaming()
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "取消服务流式传输时出错", e)
+                }
+            }
+        }
+    }
+
+    suspend fun resetAllTokenCounters() {
+        serviceMutex.withLock {
+            val services = mutableSetOf<AIService>()
+            services.addAll(serviceInstances.values.map { it.service })
+            services.addAll(customServiceInstances.values.map { it.service })
+            services.addAll(retiredServices.map { it.service })
+            defaultService?.let { services.add(it.service) }
+
+            services.forEach { service ->
+                try {
+                    service.resetTokenCounts()
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "重置服务token计数器时出错", e)
+                }
+            }
+        }
+    }
+
+    suspend fun resetTokenCountersForFunction(functionType: FunctionType) {
+        val service = getServiceForFunction(functionType)
+        try {
+            service.resetTokenCounts()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "重置功能${functionType}的token计数器时出错", e)
+        }
+    }
+
+    /** 刷新指定功能类型的服务实例 当配置更改时调用此方法 */
+    suspend fun refreshServiceForFunction(functionType: FunctionType) {
+        ensureInitialized()
+        serviceMutex.withLock {
+            serviceInstances.remove(functionType)?.let { retireManagedServiceLocked(it) }
+
+            if (functionType == FunctionType.CHAT) {
+                defaultService = null
+                val customServices = customServiceInstances.values.toList()
+                customServiceInstances.clear()
+                customServices.forEach { service ->
+                    retireManagedServiceLocked(service)
+                }
+            }
+
+            AppLogger.d(TAG, "已移除功能${functionType}的服务实例缓存")
+        }
+    }
+
+    /** 刷新所有服务实例 当全局设置更改时调用此方法 */
+    suspend fun refreshAllServices() {
+        ensureInitialized()
+        serviceMutex.withLock {
+            val services = mutableSetOf<ManagedService>()
+            services.addAll(serviceInstances.values)
+            services.addAll(customServiceInstances.values)
+            services.addAll(retiredServices)
+            defaultService?.let { services.add(it) }
+
+            serviceInstances.clear()
+            customServiceInstances.clear()
+            retiredServices.clear()
+            defaultService = null
+            services.forEach { service ->
+                closeManagedServiceLocked(service, cancelStreaming = true)
+            }
+            AppLogger.d(TAG, "已清除所有服务实例缓存并释放资源")
+        }
+    }
+
+    private suspend fun releaseLease(managedService: ManagedService) {
+        serviceMutex.withLock {
+            managedService.activeLeases = (managedService.activeLeases - 1).coerceAtLeast(0)
+            closeRetiredServiceLocked(managedService)
+        }
+    }
+
+    private fun retireManagedServiceLocked(managedService: ManagedService) {
+        managedService.retired = true
+        retiredServices.add(managedService)
+        closeRetiredServiceLocked(managedService)
+    }
+
+    private fun closeRetiredServiceLocked(managedService: ManagedService) {
+        if (managedService.retired && managedService.activeLeases == 0) {
+            closeManagedServiceLocked(managedService, cancelStreaming = false)
+        }
+    }
+
+    private fun closeManagedServiceLocked(managedService: ManagedService, cancelStreaming: Boolean) {
+        if (managedService.released) {
+            return
+        }
+        managedService.released = true
+        retiredServices.remove(managedService)
+        try {
+            if (cancelStreaming) {
+                managedService.service.cancelStreaming()
+            }
+            managedService.service.release()
+            AppLogger.d(TAG, "已释放服务资源: providerModel=${managedService.service.providerModel}")
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "释放服务资源时出错", e)
+        }
+    }
+
+    /** 根据配置创建AIService实例 */
+    private suspend fun createServiceFromConfig(config: ModelConfigData, modelIndex: Int): AIService {
+        // 使用公共函数计算有效索引
+        val actualIndex = getValidModelIndex(config.modelName, modelIndex)
+        
+        // 记录越界警告
+        if (actualIndex != modelIndex && modelIndex != 0) {
+            val modelList = config.modelName.split(",").map { it.trim() }.filter { it.isNotEmpty() }
+            AppLogger.w(TAG, "模型索引 $modelIndex 超出范围(0-${modelList.size - 1})，自动使用第一个模型")
+        }
+        
+        // 根据实际索引选择具体模型
+        val selectedModelName = getModelByIndex(config.modelName, actualIndex)
+        
+        // 创建一个临时配置，使用选中的模型名称
+        val configWithSelectedModel = config.copy(modelName = selectedModelName)
+        
+        AppLogger.d(TAG, "创建服务: 原始模型='${config.modelName}', 选中模型='$selectedModelName' (请求索引=$modelIndex, 实际索引=$actualIndex)")
+
+        val rawService = AIServiceFactory.createService(
+            config = configWithSelectedModel,
+            modelConfigManager = modelConfigManager,
+            context = context
+        )
+
+        val requestLimitPerMinute = config.requestLimitPerMinute.coerceAtLeast(0)
+        val maxConcurrentRequests = config.maxConcurrentRequests.coerceAtLeast(0)
+
+        if (requestLimitPerMinute == 0 && maxConcurrentRequests == 0) {
+            return rawService
+        }
+
+        val limiter =
+            if (requestLimitPerMinute > 0) {
+                RateLimiterRegistry.getOrCreate(
+                    key = config.id,
+                    maxRequestsPerMinute = requestLimitPerMinute
+                )
+            } else {
+                null
+            }
+
+        val concurrencySemaphore =
+            if (maxConcurrentRequests > 0) {
+                RequestConcurrencyRegistry.getOrCreate(
+                    key = config.id,
+                    maxConcurrentRequests = maxConcurrentRequests
+                )
+            } else {
+                null
+            }
+
+        return RateLimitedAIService(
+            delegate = rawService,
+            rateLimiter = limiter,
+            concurrencySemaphore = concurrencySemaphore
+        )
+    }
+
+    /**
+     * 获取指定功能类型的模型参数列表
+     * @param functionType 功能类型
+     * @return 模型参数列表
+     */
+    suspend fun getModelParametersForFunction(
+            functionType: FunctionType
+    ): List<com.bslsjdk.operit.data.model.ModelParameter<*>> {
+        ensureInitialized()
+        val configMapping = functionalConfigManager.getConfigMappingForFunction(functionType)
+        return modelConfigManager.getModelParametersForConfig(configMapping.configId)
+    }
+
+    /**
+     * 获取指定功能类型的模型配置
+     * @param functionType 功能类型
+     * @return 模型配置数据
+     */
+    suspend fun getModelConfigForFunction(functionType: FunctionType): ModelConfigData {
+        ensureInitialized()
+        val configMapping = functionalConfigManager.getConfigMappingForFunction(functionType)
+        return modelConfigManager.getModelConfigFlow(configMapping.configId).first()
+    }
+
+    /** 获取指定配置ID的模型配置 */
+    suspend fun getModelConfigForConfig(configId: String): ModelConfigData {
+        ensureInitialized()
+        return modelConfigManager.getModelConfigFlow(configId).first()
+    }
+
+    /** 获取指定配置ID的模型参数 */
+    suspend fun getModelParametersForConfig(
+        configId: String
+    ): List<com.bslsjdk.operit.data.model.ModelParameter<*>> {
+        ensureInitialized()
+        return modelConfigManager.getModelParametersForConfig(configId)
+    }
+
+    /**
+     * 检查识图功能是否已配置
+     * @return 如果识图功能配置启用了直接图片处理则返回true
+     */
+    suspend fun hasImageRecognitionConfigured(): Boolean {
+        ensureInitialized()
+        val configMapping = functionalConfigManager.getConfigMappingForFunction(FunctionType.IMAGE_RECOGNITION)
+        val config = modelConfigManager.getModelConfigFlow(configMapping.configId).first()
+        
+        // 检查模型配置是否启用了直接图片处理
+        return config.enableDirectImageProcessing
+    }
+
+    suspend fun hasAudioRecognitionConfigured(): Boolean {
+        ensureInitialized()
+        val configMapping = functionalConfigManager.getConfigMappingForFunction(FunctionType.AUDIO_RECOGNITION)
+        val config = modelConfigManager.getModelConfigFlow(configMapping.configId).first()
+        return config.enableDirectAudioProcessing
+    }
+
+    suspend fun hasVideoRecognitionConfigured(): Boolean {
+        ensureInitialized()
+        val configMapping = functionalConfigManager.getConfigMappingForFunction(FunctionType.VIDEO_RECOGNITION)
+        val config = modelConfigManager.getModelConfigFlow(configMapping.configId).first()
+        return config.enableDirectVideoProcessing
+    }
+
+}

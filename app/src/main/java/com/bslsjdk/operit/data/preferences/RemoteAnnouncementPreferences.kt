@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuU2hhcmVkUHJlZmVyZW5jZXMKCmNsYXNzIFJlbW90ZUFubm91bmNlbWVudFByZWZlcmVuY2VzKGNvbnRleHQ6IENvbnRleHQpIHsKICAgIHByaXZhdGUgdmFsIHByZWZzOiBTaGFyZWRQcmVmZXJlbmNlcyA9CiAgICAgICAgY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQuZ2V0U2hhcmVkUHJlZmVyZW5jZXMoUFJFRlNfTkFNRSwgQ29udGV4dC5NT0RFX1BSSVZBVEUpCgogICAgZnVuIGdldEFja25vd2xlZGdlZFZlcnNpb24oKTogSW50IHsKICAgICAgICByZXR1cm4gcHJlZnMuZ2V0SW50KEtFWV9BQ0tOT1dMRURHRURfVkVSU0lPTiwgMCkKICAgIH0KCiAgICBmdW4gc2hvdWxkU2hvdyh2ZXJzaW9uOiBJbnQpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gdmVyc2lvbiA+IGdldEFja25vd2xlZGdlZFZlcnNpb24oKQogICAgfQoKICAgIGZ1biBzZXRBY2tub3dsZWRnZWRWZXJzaW9uKHZlcnNpb246IEludCkgewogICAgICAgIHByZWZzLmVkaXQoKS5wdXRJbnQoS0VZX0FDS05PV0xFREdFRF9WRVJTSU9OLCB2ZXJzaW9uKS5hcHBseSgpCiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgUFJFRlNfTkFNRSA9ICJyZW1vdGVfYW5ub3VuY2VtZW50X3ByZWZlcmVuY2VzIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIEtFWV9BQ0tOT1dMRURHRURfVkVSU0lPTiA9ICJhY2tub3dsZWRnZWRfdmVyc2lvbiIKICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import android.content.SharedPreferences
+
+class RemoteAnnouncementPreferences(context: Context) {
+    private val prefs: SharedPreferences =
+        context.applicationContext.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+
+    fun getAcknowledgedVersion(): Int {
+        return prefs.getInt(KEY_ACKNOWLEDGED_VERSION, 0)
+    }
+
+    fun shouldShow(version: Int): Boolean {
+        return version > getAcknowledgedVersion()
+    }
+
+    fun setAcknowledgedVersion(version: Int) {
+        prefs.edit().putInt(KEY_ACKNOWLEDGED_VERSION, version).apply()
+    }
+
+    companion object {
+        private const val PREFS_NAME = "remote_announcement_preferences"
+        private const val KEY_ACKNOWLEDGED_VERSION = "acknowledged_version"
+    }
+}

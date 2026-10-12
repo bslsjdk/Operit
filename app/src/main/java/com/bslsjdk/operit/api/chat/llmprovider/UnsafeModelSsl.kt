@@ -1,1 +1,38 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBqYXZhLnNlY3VyaXR5LlNlY3VyZVJhbmRvbQppbXBvcnQgamF2YS5zZWN1cml0eS5jZXJ0Llg1MDlDZXJ0aWZpY2F0ZQppbXBvcnQgamF2YXgubmV0LnNzbC5TU0xDb250ZXh0CmltcG9ydCBqYXZheC5uZXQuc3NsLlRydXN0TWFuYWdlcgppbXBvcnQgamF2YXgubmV0LnNzbC5YNTA5VHJ1c3RNYW5hZ2VyCmltcG9ydCBva2h0dHAzLk9rSHR0cENsaWVudAoKLyoqCiAqIOS4uuaooeWei+ivt+axgue7n+S4gOWFs+mXrSBIVFRQUyDor4Hkuabpk77kuI7kuLvmnLrlkI3moKHpqozjgIIKICog5b2T5YmN54mI5pys5pyq5Y+R5biD77yM5oyJ5paw5pa55qGI55u05o6l5YiH5o2i77yM5LiN5L+d55WZ5pen6YC76L6R44CCCiAqLwppbnRlcm5hbCBvYmplY3QgVW5zYWZlTW9kZWxTc2wgewogICAgZnVuIGFwcGx5KGJ1aWxkZXI6IE9rSHR0cENsaWVudC5CdWlsZGVyKTogT2tIdHRwQ2xpZW50LkJ1aWxkZXIgewogICAgICAgIHZhbCB0cnVzdE1hbmFnZXIgPQogICAgICAgICAgICBvYmplY3QgOiBYNTA5VHJ1c3RNYW5hZ2VyIHsKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBjaGVja0NsaWVudFRydXN0ZWQoCiAgICAgICAgICAgICAgICAgICAgY2hhaW46IEFycmF5PG91dCBYNTA5Q2VydGlmaWNhdGU+PywKICAgICAgICAgICAgICAgICAgICBhdXRoVHlwZTogU3RyaW5nPwogICAgICAgICAgICAgICAgKSB7fQoKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBjaGVja1NlcnZlclRydXN0ZWQoCiAgICAgICAgICAgICAgICAgICAgY2hhaW46IEFycmF5PG91dCBYNTA5Q2VydGlmaWNhdGU+PywKICAgICAgICAgICAgICAgICAgICBhdXRoVHlwZTogU3RyaW5nPwogICAgICAgICAgICAgICAgKSB7fQoKICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBnZXRBY2NlcHRlZElzc3VlcnMoKTogQXJyYXk8WDUwOUNlcnRpZmljYXRlPiA9IGVtcHR5QXJyYXkoKQogICAgICAgICAgICB9CgogICAgICAgIHZhbCBzc2xDb250ZXh0ID0gU1NMQ29udGV4dC5nZXRJbnN0YW5jZSgiVExTIikKICAgICAgICBzc2xDb250ZXh0LmluaXQobnVsbCwgYXJyYXlPZjxUcnVzdE1hbmFnZXI+KHRydXN0TWFuYWdlciksIFNlY3VyZVJhbmRvbSgpKQoKICAgICAgICByZXR1cm4gYnVpbGRlcgogICAgICAgICAgICAuc3NsU29ja2V0RmFjdG9yeShzc2xDb250ZXh0LnNvY2tldEZhY3RvcnksIHRydXN0TWFuYWdlcikKICAgICAgICAgICAgLmhvc3RuYW1lVmVyaWZpZXIgeyBfLCBfIC0+IHRydWUgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import java.security.SecureRandom
+import java.security.cert.X509Certificate
+import javax.net.ssl.SSLContext
+import javax.net.ssl.TrustManager
+import javax.net.ssl.X509TrustManager
+import okhttp3.OkHttpClient
+
+/**
+ * 为模型请求统一关闭 HTTPS 证书链与主机名校验。
+ * 当前版本未发布，按新方案直接切换，不保留旧逻辑。
+ */
+internal object UnsafeModelSsl {
+    fun apply(builder: OkHttpClient.Builder): OkHttpClient.Builder {
+        val trustManager =
+            object : X509TrustManager {
+                override fun checkClientTrusted(
+                    chain: Array<out X509Certificate>?,
+                    authType: String?
+                ) {}
+
+                override fun checkServerTrusted(
+                    chain: Array<out X509Certificate>?,
+                    authType: String?
+                ) {}
+
+                override fun getAcceptedIssuers(): Array<X509Certificate> = emptyArray()
+            }
+
+        val sslContext = SSLContext.getInstance("TLS")
+        sslContext.init(null, arrayOf<TrustManager>(trustManager), SecureRandom())
+
+        return builder
+            .sslSocketFactory(sslContext.socketFactory, trustManager)
+            .hostnameVerifier { _, _ -> true }
+    }
+}

@@ -1,1 +1,252 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5PcmllbnRhdGlvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMYXlvdXRCZXlvbmRCb3VuZHNJbmZvLkludGVydmFsCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5CZXlvbmRCb3VuZHNMYXlvdXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LkJleW9uZEJvdW5kc0xheW91dC5CZXlvbmRCb3VuZHNTY29wZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuQmV5b25kQm91bmRzTGF5b3V0LkxheW91dERpcmVjdGlvbi5Db21wYW5pb24uQWJvdmUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LkJleW9uZEJvdW5kc0xheW91dC5MYXlvdXREaXJlY3Rpb24uQ29tcGFuaW9uLkFmdGVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5CZXlvbmRCb3VuZHNMYXlvdXQuTGF5b3V0RGlyZWN0aW9uLkNvbXBhbmlvbi5CZWZvcmUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0LkJleW9uZEJvdW5kc0xheW91dC5MYXlvdXREaXJlY3Rpb24uQ29tcGFuaW9uLkJlbG93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5CZXlvbmRCb3VuZHNMYXlvdXQuTGF5b3V0RGlyZWN0aW9uLkNvbXBhbmlvbi5MZWZ0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5CZXlvbmRCb3VuZHNMYXlvdXQuTGF5b3V0RGlyZWN0aW9uLkNvbXBhbmlvbi5SaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5sYXlvdXQuQmV5b25kQm91bmRzTGF5b3V0UHJvdmlkZXJNb2RpZmllck5vZGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0Lk1lYXN1cmFibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0Lk1lYXN1cmVSZXN1bHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubGF5b3V0Lk1lYXN1cmVTY29wZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ub2RlLkxheW91dE1vZGlmaWVyTm9kZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ub2RlLk1vZGlmaWVyTm9kZUVsZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubm9kZS5yZW1lYXN1cmVTeW5jCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLm5vZGUucmVxdWlyZUxheW91dERpcmVjdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5JbnNwZWN0b3JJbmZvCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuQ29uc3RyYWludHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5MYXlvdXREaXJlY3Rpb24uTHRyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuTGF5b3V0RGlyZWN0aW9uLlJ0bAoKLyoqCiAqIFRoaXMgbW9kaWZpZXIgaXMgdXNlZCB0byBtZWFzdXJlIGFuZCBwbGFjZSBhZGRpdGlvbmFsIGl0ZW1zIHdoZW4gdGhlIGxhenkgbGF5b3V0IHJlY2VpdmVzIGEKICogcmVxdWVzdCB0byBsYXlvdXQgaXRlbXMgYmV5b25kIHRoZSB2aXNpYmxlIGJvdW5kcy4KICoKICogV2Ugd2lsbCBsYXlvdXQgYSBsaW1pdGVkIG51bWJlciBvZiBpdGVtcyAoY3VycmVudGx5IHRoZSBudW1iZXIgb2YgaXRlbXMgaW4gdGhlIHZpZXdwb3J0IHRpbWVzIGEKICogY29uc3RhbnQpIHNvIHRoZSBmb2N1cyBzZWFyY2ggbWF5IGdpdmUgdXAgaWYgZm9jdXNhYmxlIGl0ZW1zIGFyZSB0b28gZmFyIGFwYXJ0LgogKi8KaW50ZXJuYWwgZnVuIE1vZGlmaWVyLmxhenlMYXlvdXRCZXlvbmRCb3VuZHNNb2RpZmllcigKICAgIHN0YXRlOiBMYXp5TGF5b3V0QmV5b25kQm91bmRzU3RhdGUsCiAgICBiZXlvbmRCb3VuZHNJbmZvOiBMYXp5TGF5b3V0QmV5b25kQm91bmRzSW5mbywKICAgIHJldmVyc2VMYXlvdXQ6IEJvb2xlYW4sCiAgICBvcmllbnRhdGlvbjogT3JpZW50YXRpb24sCik6IE1vZGlmaWVyID0KICAgIHRoaXMgdGhlbgogICAgICAgIExhenlMYXlvdXRCZXlvbmRCb3VuZHNNb2RpZmllckVsZW1lbnQoc3RhdGUsIGJleW9uZEJvdW5kc0luZm8sIHJldmVyc2VMYXlvdXQsIG9yaWVudGF0aW9uKQoKcHJpdmF0ZSBjbGFzcyBMYXp5TGF5b3V0QmV5b25kQm91bmRzTW9kaWZpZXJFbGVtZW50KAogICAgdmFsIHN0YXRlOiBMYXp5TGF5b3V0QmV5b25kQm91bmRzU3RhdGUsCiAgICB2YWwgYmV5b25kQm91bmRzSW5mbzogTGF6eUxheW91dEJleW9uZEJvdW5kc0luZm8sCiAgICB2YWwgcmV2ZXJzZUxheW91dDogQm9vbGVhbiwKICAgIHZhbCBvcmllbnRhdGlvbjogT3JpZW50YXRpb24sCikgOiBNb2RpZmllck5vZGVFbGVtZW50PExhenlMYXlvdXRCZXlvbmRCb3VuZHNQcm92aWRlck1vZGlmaWVyTm9kZT4oKSB7CiAgICBvdmVycmlkZSBmdW4gY3JlYXRlKCk6IExhenlMYXlvdXRCZXlvbmRCb3VuZHNQcm92aWRlck1vZGlmaWVyTm9kZSB7CiAgICAgICAgcmV0dXJuIExhenlMYXlvdXRCZXlvbmRCb3VuZHNQcm92aWRlck1vZGlmaWVyTm9kZSgKICAgICAgICAgICAgc3RhdGUsCiAgICAgICAgICAgIGJleW9uZEJvdW5kc0luZm8sCiAgICAgICAgICAgIHJldmVyc2VMYXlvdXQsCiAgICAgICAgICAgIG9yaWVudGF0aW9uLAogICAgICAgICkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gdXBkYXRlKG5vZGU6IExhenlMYXlvdXRCZXlvbmRCb3VuZHNQcm92aWRlck1vZGlmaWVyTm9kZSkgewogICAgICAgIG5vZGUudXBkYXRlKHN0YXRlLCBiZXlvbmRCb3VuZHNJbmZvLCByZXZlcnNlTGF5b3V0LCBvcmllbnRhdGlvbikKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaGFzaENvZGUoKTogSW50IHsKICAgICAgICB2YXIgcmVzdWx0ID0gc3RhdGUuaGFzaENvZGUoKQogICAgICAgIHJlc3VsdCA9IDMxICogcmVzdWx0ICsgYmV5b25kQm91bmRzSW5mby5oYXNoQ29kZSgpCiAgICAgICAgcmVzdWx0ID0gMzEgKiByZXN1bHQgKyByZXZlcnNlTGF5b3V0Lmhhc2hDb2RlKCkKICAgICAgICByZXN1bHQgPSAzMSAqIHJlc3VsdCArIG9yaWVudGF0aW9uLmhhc2hDb2RlKCkKICAgICAgICByZXR1cm4gcmVzdWx0CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGVxdWFscyhvdGhlcjogQW55Pyk6IEJvb2xlYW4gewogICAgICAgIGlmICh0aGlzID09PSBvdGhlcikgcmV0dXJuIHRydWUKCiAgICAgICAgaWYgKG90aGVyICFpcyBMYXp5TGF5b3V0QmV5b25kQm91bmRzTW9kaWZpZXJFbGVtZW50KSByZXR1cm4gZmFsc2UKCiAgICAgICAgaWYgKHN0YXRlICE9IG90aGVyLnN0YXRlKSByZXR1cm4gZmFsc2UKICAgICAgICBpZiAoYmV5b25kQm91bmRzSW5mbyAhPSBvdGhlci5iZXlvbmRCb3VuZHNJbmZvKSByZXR1cm4gZmFsc2UKICAgICAgICBpZiAocmV2ZXJzZUxheW91dCAhPSBvdGhlci5yZXZlcnNlTGF5b3V0KSByZXR1cm4gZmFsc2UKICAgICAgICBpZiAob3JpZW50YXRpb24gIT0gb3RoZXIub3JpZW50YXRpb24pIHJldHVybiBmYWxzZQoKICAgICAgICByZXR1cm4gdHJ1ZQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBJbnNwZWN0b3JJbmZvLmluc3BlY3RhYmxlUHJvcGVydGllcygpIHsKICAgICAgICAvLyBubyBvcAogICAgfQp9CgppbnRlcm5hbCBjbGFzcyBMYXp5TGF5b3V0QmV5b25kQm91bmRzUHJvdmlkZXJNb2RpZmllck5vZGUoCiAgICBwcml2YXRlIHZhciBzdGF0ZTogTGF6eUxheW91dEJleW9uZEJvdW5kc1N0YXRlLAogICAgcHJpdmF0ZSB2YXIgYmV5b25kQm91bmRzSW5mbzogTGF6eUxheW91dEJleW9uZEJvdW5kc0luZm8sCiAgICBwcml2YXRlIHZhciByZXZlcnNlTGF5b3V0OiBCb29sZWFuLAogICAgcHJpdmF0ZSB2YXIgb3JpZW50YXRpb246IE9yaWVudGF0aW9uLAopIDoKICAgIE1vZGlmaWVyLk5vZGUoKSwKICAgIExheW91dE1vZGlmaWVyTm9kZSwKICAgIEJleW9uZEJvdW5kc0xheW91dFByb3ZpZGVyTW9kaWZpZXJOb2RlLAogICAgQmV5b25kQm91bmRzTGF5b3V0IHsKCiAgICBvdmVycmlkZSB2YWwgYmV5b25kQm91bmRzTGF5b3V0OiBCZXlvbmRCb3VuZHNMYXlvdXQKICAgICAgICBnZXQoKSA9IHRoaXMKCiAgICBvdmVycmlkZSBmdW4gTWVhc3VyZVNjb3BlLm1lYXN1cmUoCiAgICAgICAgbWVhc3VyYWJsZTogTWVhc3VyYWJsZSwKICAgICAgICBjb25zdHJhaW50czogQ29uc3RyYWludHMsCiAgICApOiBNZWFzdXJlUmVzdWx0IHsKICAgICAgICB2YWwgcGxhY2VhYmxlID0gbWVhc3VyYWJsZS5tZWFzdXJlKGNvbnN0cmFpbnRzKQogICAgICAgIHJldHVybiBsYXlvdXQocGxhY2VhYmxlLndpZHRoLCBwbGFjZWFibGUuaGVpZ2h0KSB7IHBsYWNlYWJsZS5wbGFjZSgwLCAwKSB9CiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSB2YWwgZW1wdHlCZXlvbmRCb3VuZHNTY29wZSA9CiAgICAgICAgICAgIG9iamVjdCA6IEJleW9uZEJvdW5kc1Njb3BlIHsKICAgICAgICAgICAgICAgIG92ZXJyaWRlIHZhbCBoYXNNb3JlQ29udGVudCA9IGZhbHNlCiAgICAgICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gPFQ+IGxheW91dCgKICAgICAgICBkaXJlY3Rpb246IEJleW9uZEJvdW5kc0xheW91dC5MYXlvdXREaXJlY3Rpb24sCiAgICAgICAgYmxvY2s6IEJleW9uZEJvdW5kc1Njb3BlLigpIC0+IFQ/LAogICAgKTogVD8gewogICAgICAgIC8vIElmIHRoZSBsYXp5IGxpc3QgaXMgZW1wdHksIG9yIGlmIGl0IGRvZXMgbm90IGhhdmUgYW55IHZpc2libGUgaXRlbXMgKFdoaWNoIGltcGxpZXMKICAgICAgICAvLyB0aGF0IHRoZXJlIGlzbid0IHNwYWNlIHRvIGFkZCBhIHNpbmdsZSBpdGVtKSwgd2UgZG9uJ3QgYXR0ZW1wdCB0byBsYXlvdXQgYW55IG1vcmUgaXRlbXMuCiAgICAgICAgLy8gaWYgdGhlIG5vZGUgaXMgbm90IHlldCBhdHRhY2hlZCBvciB3ZSBoYXZlbid0IGNvbXBsZXRlZCBhdCBsZWFzdCBvbmUgbGF5b3V0IHBhc3MuLgogICAgICAgIGlmIChzdGF0ZS5pdGVtQ291bnQgPD0gMCB8fCAhc3RhdGUuaGFzVmlzaWJsZUl0ZW1zIHx8ICFpc0F0dGFjaGVkKSB7CiAgICAgICAgICAgIHJldHVybiBibG9jay5pbnZva2UoZW1wdHlCZXlvbmRCb3VuZHNTY29wZSkKICAgICAgICB9CgogICAgICAgIC8vIFdlIHVzZSBhIG5ldyBpbnRlcnZhbCBlYWNoIHRpbWUgYmVjYXVzZSB0aGlzIGZ1bmN0aW9uIGlzIHJlLWVudHJhbnQuCiAgICAgICAgdmFsIHN0YXJ0SW5kZXggPQogICAgICAgICAgICBpZiAoZGlyZWN0aW9uLmlzRm9yd2FyZCgpKSB7CiAgICAgICAgICAgICAgICBzdGF0ZS5sYXN0UGxhY2VkSW5kZXgKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIHN0YXRlLmZpcnN0UGxhY2VkSW5kZXgKICAgICAgICAgICAgfQogICAgICAgIHZhciBpbnRlcnZhbCA9IGJleW9uZEJvdW5kc0luZm8uYWRkSW50ZXJ2YWwoc3RhcnRJbmRleCwgc3RhcnRJbmRleCkKICAgICAgICB2YXIgZm91bmQ6IFQ/ID0gbnVsbAogICAgICAgIC8vIExheW91dCBhdCBtb3N0IG9uZSB2aWV3cG9ydCB3b3J0aCBvZiBpdGVtcyAodGltZXMgQmV5b25kQm91bmRzVmlld3BvcnRGYWN0b3IpLgogICAgICAgIHZhbCBtYXhJdGVtc1RvTGF5b3V0ID0KICAgICAgICAgICAgKEJleW9uZEJvdW5kc1ZpZXdwb3J0RmFjdG9yICogc3RhdGUuaXRlbXNQZXJWaWV3cG9ydCgpKS5jb2VyY2VBdE1vc3Qoc3RhdGUuaXRlbUNvdW50KQogICAgICAgIHZhciBpdGVtc0NyZWF0ZWRTb0ZhciA9IDAKICAgICAgICB3aGlsZSAoCiAgICAgICAgICAgIGZvdW5kID09IG51bGwgJiYKICAgICAgICAgICAgICAgIGludGVydmFsLmhhc01vcmVDb250ZW50KGRpcmVjdGlvbikgJiYKICAgICAgICAgICAgICAgIGl0ZW1zQ3JlYXRlZFNvRmFyIDwgbWF4SXRlbXNUb0xheW91dAogICAgICAgICkgewogICAgICAgICAgICAvLyBBZGQgb25lIGV4dHJhIGJleW9uZCBib3VuZHMgaXRlbS4KICAgICAgICAgICAgaW50ZXJ2YWwgPQogICAgICAgICAgICAgICAgYWRkTmV4dEludGVydmFsKGludGVydmFsLCBkaXJlY3Rpb24pLmFsc28gewogICAgICAgICAgICAgICAgICAgIGJleW9uZEJvdW5kc0luZm8ucmVtb3ZlSW50ZXJ2YWwoaW50ZXJ2YWwpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIGl0ZW1zQ3JlYXRlZFNvRmFyKysKICAgICAgICAgICAgcmVtZWFzdXJlU3luYygpCgogICAgICAgICAgICAvLyBXaGVuIHdlIGludm9rZSB0aGlzIGJsb2NrLCB0aGUgYmV5b25kIGJvdW5kcyBpdGVtcyBhcmUgcHJlc2VudC4KICAgICAgICAgICAgZm91bmQgPQogICAgICAgICAgICAgICAgYmxvY2suaW52b2tlKAogICAgICAgICAgICAgICAgICAgIG9iamVjdCA6IEJleW9uZEJvdW5kc1Njb3BlIHsKICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcnJpZGUgdmFsIGhhc01vcmVDb250ZW50OiBCb29sZWFuCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBnZXQoKSA9IGludGVydmFsLmhhc01vcmVDb250ZW50KGRpcmVjdGlvbikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICAvLyBEaXNwb3NlIHRoZSBpdGVtcyB0aGF0IGFyZSBiZXlvbmQgdGhlIHZpc2libGUgYm91bmRzLgogICAgICAgIGJleW9uZEJvdW5kc0luZm8ucmVtb3ZlSW50ZXJ2YWwoaW50ZXJ2YWwpCiAgICAgICAgcmVtZWFzdXJlU3luYygpCiAgICAgICAgcmV0dXJuIGZvdW5kCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gQmV5b25kQm91bmRzTGF5b3V0LkxheW91dERpcmVjdGlvbi5pc0ZvcndhcmQoKTogQm9vbGVhbiA9CiAgICAgICAgd2hlbiAodGhpcykgewogICAgICAgICAgICBCZWZvcmUgLT4gZmFsc2UKICAgICAgICAgICAgQWZ0ZXIgLT4gdHJ1ZQogICAgICAgICAgICBBYm92ZSAtPiByZXZlcnNlTGF5b3V0CiAgICAgICAgICAgIEJlbG93IC0+ICFyZXZlcnNlTGF5b3V0CiAgICAgICAgICAgIExlZnQgLT4KICAgICAgICAgICAgICAgIHdoZW4gKHJlcXVpcmVMYXlvdXREaXJlY3Rpb24oKSkgewogICAgICAgICAgICAgICAgICAgIEx0ciAtPiByZXZlcnNlTGF5b3V0CiAgICAgICAgICAgICAgICAgICAgUnRsIC0+ICFyZXZlcnNlTGF5b3V0CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIFJpZ2h0IC0+CiAgICAgICAgICAgICAgICB3aGVuIChyZXF1aXJlTGF5b3V0RGlyZWN0aW9uKCkpIHsKICAgICAgICAgICAgICAgICAgICBMdHIgLT4gIXJldmVyc2VMYXlvdXQKICAgICAgICAgICAgICAgICAgICBSdGwgLT4gcmV2ZXJzZUxheW91dAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIC0+IHVuc3VwcG9ydGVkRGlyZWN0aW9uKCkKICAgICAgICB9CgogICAgcHJpdmF0ZSBmdW4gYWRkTmV4dEludGVydmFsKAogICAgICAgIGN1cnJlbnRJbnRlcnZhbDogSW50ZXJ2YWwsCiAgICAgICAgZGlyZWN0aW9uOiBCZXlvbmRCb3VuZHNMYXlvdXQuTGF5b3V0RGlyZWN0aW9uLAogICAgKTogSW50ZXJ2YWwgewogICAgICAgIHZhciBzdGFydCA9IGN1cnJlbnRJbnRlcnZhbC5zdGFydAogICAgICAgIHZhciBlbmQgPSBjdXJyZW50SW50ZXJ2YWwuZW5kCiAgICAgICAgaWYgKGRpcmVjdGlvbi5pc0ZvcndhcmQoKSkgewogICAgICAgICAgICBlbmQrKwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHN0YXJ0LS0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGJleW9uZEJvdW5kc0luZm8uYWRkSW50ZXJ2YWwoc3RhcnQsIGVuZCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBJbnRlcnZhbC5oYXNNb3JlQ29udGVudChkaXJlY3Rpb246IEJleW9uZEJvdW5kc0xheW91dC5MYXlvdXREaXJlY3Rpb24pOiBCb29sZWFuIHsKICAgICAgICBpZiAoZGlyZWN0aW9uLmlzT3Bwb3NpdGVUb09yaWVudGF0aW9uKCkpIHJldHVybiBmYWxzZQogICAgICAgIHJldHVybiBpZiAoZGlyZWN0aW9uLmlzRm9yd2FyZCgpKSBlbmQgPCBzdGF0ZS5pdGVtQ291bnQgLSAxIGVsc2Ugc3RhcnQgPiAwCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gQmV5b25kQm91bmRzTGF5b3V0LkxheW91dERpcmVjdGlvbi5pc09wcG9zaXRlVG9PcmllbnRhdGlvbigpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gd2hlbiAodGhpcykgewogICAgICAgICAgICBBYm92ZSwKICAgICAgICAgICAgQmVsb3cgLT4gb3JpZW50YXRpb24gPT0gT3JpZW50YXRpb24uSG9yaXpvbnRhbAogICAgICAgICAgICBMZWZ0LAogICAgICAgICAgICBSaWdodCAtPiBvcmllbnRhdGlvbiA9PSBPcmllbnRhdGlvbi5WZXJ0aWNhbAogICAgICAgICAgICBCZWZvcmUsCiAgICAgICAgICAgIEFmdGVyIC0+IGZhbHNlCiAgICAgICAgICAgIGVsc2UgLT4gdW5zdXBwb3J0ZWREaXJlY3Rpb24oKQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gdXBkYXRlKAogICAgICAgIHN0YXRlOiBMYXp5TGF5b3V0QmV5b25kQm91bmRzU3RhdGUsCiAgICAgICAgYmV5b25kQm91bmRzSW5mbzogTGF6eUxheW91dEJleW9uZEJvdW5kc0luZm8sCiAgICAgICAgcmV2ZXJzZUxheW91dDogQm9vbGVhbiwKICAgICAgICBvcmllbnRhdGlvbjogT3JpZW50YXRpb24sCiAgICApIHsKICAgICAgICB0aGlzLnN0YXRlID0gc3RhdGUKICAgICAgICB0aGlzLmJleW9uZEJvdW5kc0luZm8gPSBiZXlvbmRCb3VuZHNJbmZvCiAgICAgICAgdGhpcy5yZXZlcnNlTGF5b3V0ID0gcmV2ZXJzZUxheW91dAogICAgICAgIHRoaXMub3JpZW50YXRpb24gPSBvcmllbnRhdGlvbgogICAgfQp9Cgpwcml2YXRlIGZ1biB1bnN1cHBvcnRlZERpcmVjdGlvbigpOiBOb3RoaW5nID0KICAgIGVycm9yKCJMYXp5IGxpc3QgZG9lcyBub3Qgc3VwcG9ydCBiZXlvbmQgYm91bmRzIGxheW91dCBmb3IgdGhlIHNwZWNpZmllZCBkaXJlY3Rpb24iKQoKcHJpdmF0ZSBjb25zdCB2YWwgQmV5b25kQm91bmRzVmlld3BvcnRGYWN0b3IgPSAyCg==
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.gestures.Orientation
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutBeyondBoundsInfo.Interval
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.BeyondBoundsLayout
+import androidx.compose.ui.layout.BeyondBoundsLayout.BeyondBoundsScope
+import androidx.compose.ui.layout.BeyondBoundsLayout.LayoutDirection.Companion.Above
+import androidx.compose.ui.layout.BeyondBoundsLayout.LayoutDirection.Companion.After
+import androidx.compose.ui.layout.BeyondBoundsLayout.LayoutDirection.Companion.Before
+import androidx.compose.ui.layout.BeyondBoundsLayout.LayoutDirection.Companion.Below
+import androidx.compose.ui.layout.BeyondBoundsLayout.LayoutDirection.Companion.Left
+import androidx.compose.ui.layout.BeyondBoundsLayout.LayoutDirection.Companion.Right
+import androidx.compose.ui.layout.BeyondBoundsLayoutProviderModifierNode
+import androidx.compose.ui.layout.Measurable
+import androidx.compose.ui.layout.MeasureResult
+import androidx.compose.ui.layout.MeasureScope
+import androidx.compose.ui.node.LayoutModifierNode
+import androidx.compose.ui.node.ModifierNodeElement
+import androidx.compose.ui.node.remeasureSync
+import androidx.compose.ui.node.requireLayoutDirection
+import androidx.compose.ui.platform.InspectorInfo
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.LayoutDirection.Ltr
+import androidx.compose.ui.unit.LayoutDirection.Rtl
+
+/**
+ * This modifier is used to measure and place additional items when the lazy layout receives a
+ * request to layout items beyond the visible bounds.
+ *
+ * We will layout a limited number of items (currently the number of items in the viewport times a
+ * constant) so the focus search may give up if focusable items are too far apart.
+ */
+internal fun Modifier.lazyLayoutBeyondBoundsModifier(
+    state: LazyLayoutBeyondBoundsState,
+    beyondBoundsInfo: LazyLayoutBeyondBoundsInfo,
+    reverseLayout: Boolean,
+    orientation: Orientation,
+): Modifier =
+    this then
+        LazyLayoutBeyondBoundsModifierElement(state, beyondBoundsInfo, reverseLayout, orientation)
+
+private class LazyLayoutBeyondBoundsModifierElement(
+    val state: LazyLayoutBeyondBoundsState,
+    val beyondBoundsInfo: LazyLayoutBeyondBoundsInfo,
+    val reverseLayout: Boolean,
+    val orientation: Orientation,
+) : ModifierNodeElement<LazyLayoutBeyondBoundsProviderModifierNode>() {
+    override fun create(): LazyLayoutBeyondBoundsProviderModifierNode {
+        return LazyLayoutBeyondBoundsProviderModifierNode(
+            state,
+            beyondBoundsInfo,
+            reverseLayout,
+            orientation,
+        )
+    }
+
+    override fun update(node: LazyLayoutBeyondBoundsProviderModifierNode) {
+        node.update(state, beyondBoundsInfo, reverseLayout, orientation)
+    }
+
+    override fun hashCode(): Int {
+        var result = state.hashCode()
+        result = 31 * result + beyondBoundsInfo.hashCode()
+        result = 31 * result + reverseLayout.hashCode()
+        result = 31 * result + orientation.hashCode()
+        return result
+    }
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+
+        if (other !is LazyLayoutBeyondBoundsModifierElement) return false
+
+        if (state != other.state) return false
+        if (beyondBoundsInfo != other.beyondBoundsInfo) return false
+        if (reverseLayout != other.reverseLayout) return false
+        if (orientation != other.orientation) return false
+
+        return true
+    }
+
+    override fun InspectorInfo.inspectableProperties() {
+        // no op
+    }
+}
+
+internal class LazyLayoutBeyondBoundsProviderModifierNode(
+    private var state: LazyLayoutBeyondBoundsState,
+    private var beyondBoundsInfo: LazyLayoutBeyondBoundsInfo,
+    private var reverseLayout: Boolean,
+    private var orientation: Orientation,
+) :
+    Modifier.Node(),
+    LayoutModifierNode,
+    BeyondBoundsLayoutProviderModifierNode,
+    BeyondBoundsLayout {
+
+    override val beyondBoundsLayout: BeyondBoundsLayout
+        get() = this
+
+    override fun MeasureScope.measure(
+        measurable: Measurable,
+        constraints: Constraints,
+    ): MeasureResult {
+        val placeable = measurable.measure(constraints)
+        return layout(placeable.width, placeable.height) { placeable.place(0, 0) }
+    }
+
+    companion object {
+        private val emptyBeyondBoundsScope =
+            object : BeyondBoundsScope {
+                override val hasMoreContent = false
+            }
+    }
+
+    override fun <T> layout(
+        direction: BeyondBoundsLayout.LayoutDirection,
+        block: BeyondBoundsScope.() -> T?,
+    ): T? {
+        // If the lazy list is empty, or if it does not have any visible items (Which implies
+        // that there isn't space to add a single item), we don't attempt to layout any more items.
+        // if the node is not yet attached or we haven't completed at least one layout pass..
+        if (state.itemCount <= 0 || !state.hasVisibleItems || !isAttached) {
+            return block.invoke(emptyBeyondBoundsScope)
+        }
+
+        // We use a new interval each time because this function is re-entrant.
+        val startIndex =
+            if (direction.isForward()) {
+                state.lastPlacedIndex
+            } else {
+                state.firstPlacedIndex
+            }
+        var interval = beyondBoundsInfo.addInterval(startIndex, startIndex)
+        var found: T? = null
+        // Layout at most one viewport worth of items (times BeyondBoundsViewportFactor).
+        val maxItemsToLayout =
+            (BeyondBoundsViewportFactor * state.itemsPerViewport()).coerceAtMost(state.itemCount)
+        var itemsCreatedSoFar = 0
+        while (
+            found == null &&
+                interval.hasMoreContent(direction) &&
+                itemsCreatedSoFar < maxItemsToLayout
+        ) {
+            // Add one extra beyond bounds item.
+            interval =
+                addNextInterval(interval, direction).also {
+                    beyondBoundsInfo.removeInterval(interval)
+                }
+            itemsCreatedSoFar++
+            remeasureSync()
+
+            // When we invoke this block, the beyond bounds items are present.
+            found =
+                block.invoke(
+                    object : BeyondBoundsScope {
+                        override val hasMoreContent: Boolean
+                            get() = interval.hasMoreContent(direction)
+                    }
+                )
+        }
+
+        // Dispose the items that are beyond the visible bounds.
+        beyondBoundsInfo.removeInterval(interval)
+        remeasureSync()
+        return found
+    }
+
+    private fun BeyondBoundsLayout.LayoutDirection.isForward(): Boolean =
+        when (this) {
+            Before -> false
+            After -> true
+            Above -> reverseLayout
+            Below -> !reverseLayout
+            Left ->
+                when (requireLayoutDirection()) {
+                    Ltr -> reverseLayout
+                    Rtl -> !reverseLayout
+                }
+            Right ->
+                when (requireLayoutDirection()) {
+                    Ltr -> !reverseLayout
+                    Rtl -> reverseLayout
+                }
+            else -> unsupportedDirection()
+        }
+
+    private fun addNextInterval(
+        currentInterval: Interval,
+        direction: BeyondBoundsLayout.LayoutDirection,
+    ): Interval {
+        var start = currentInterval.start
+        var end = currentInterval.end
+        if (direction.isForward()) {
+            end++
+        } else {
+            start--
+        }
+        return beyondBoundsInfo.addInterval(start, end)
+    }
+
+    private fun Interval.hasMoreContent(direction: BeyondBoundsLayout.LayoutDirection): Boolean {
+        if (direction.isOppositeToOrientation()) return false
+        return if (direction.isForward()) end < state.itemCount - 1 else start > 0
+    }
+
+    private fun BeyondBoundsLayout.LayoutDirection.isOppositeToOrientation(): Boolean {
+        return when (this) {
+            Above,
+            Below -> orientation == Orientation.Horizontal
+            Left,
+            Right -> orientation == Orientation.Vertical
+            Before,
+            After -> false
+            else -> unsupportedDirection()
+        }
+    }
+
+    fun update(
+        state: LazyLayoutBeyondBoundsState,
+        beyondBoundsInfo: LazyLayoutBeyondBoundsInfo,
+        reverseLayout: Boolean,
+        orientation: Orientation,
+    ) {
+        this.state = state
+        this.beyondBoundsInfo = beyondBoundsInfo
+        this.reverseLayout = reverseLayout
+        this.orientation = orientation
+    }
+}
+
+private fun unsupportedDirection(): Nothing =
+    error("Lazy list does not support beyond bounds layout for the specified direction")
+
+private const val BeyondBoundsViewportFactor = 2

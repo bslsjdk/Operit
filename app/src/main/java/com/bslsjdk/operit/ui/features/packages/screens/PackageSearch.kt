@@ -1,1 +1,94 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5QYWNrYWdlVG9vbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuVG9vbFBhY2thZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlBhY2thZ2VNYW5hZ2VyCgpmdW4gcGFja2FnZU1hdGNoZXNTZWFyY2goCiAgICBjb250ZXh0OiBDb250ZXh0LAogICAgcGFja2FnZU5hbWU6IFN0cmluZywKICAgIHRvb2xQYWNrYWdlOiBUb29sUGFja2FnZSwKICAgIHNlYXJjaFRleHQ6IFN0cmluZwopOiBCb29sZWFuIHsKICAgIHZhbCBzZWFyY2hhYmxlVGV4dCA9CiAgICAgICAgYnVpbGRMaXN0IHsKICAgICAgICAgICAgYWRkKHBhY2thZ2VOYW1lKQogICAgICAgICAgICBhZGQodG9vbFBhY2thZ2UubmFtZSkKICAgICAgICAgICAgYWRkKHRvb2xQYWNrYWdlLmRpc3BsYXlOYW1lLnJlc29sdmUoY29udGV4dCkpCiAgICAgICAgICAgIGFkZCh0b29sUGFja2FnZS5kZXNjcmlwdGlvbi5yZXNvbHZlKGNvbnRleHQpKQogICAgICAgICAgICBhZGQodG9vbFBhY2thZ2UuY2F0ZWdvcnkpCiAgICAgICAgICAgIGFkZEFsbCh0b29sUGFja2FnZS5hdXRob3IpCiAgICAgICAgICAgIHRvb2xQYWNrYWdlLnRvb2xzLmZvckVhY2ggeyB0b29sIC0+CiAgICAgICAgICAgICAgICBhZGRQYWNrYWdlVG9vbFNlYXJjaFRleHQoY29udGV4dCwgdG9vbCkKICAgICAgICAgICAgfQogICAgICAgICAgICB0b29sUGFja2FnZS5zdGF0ZXMuZm9yRWFjaCB7IHN0YXRlIC0+CiAgICAgICAgICAgICAgICBhZGQoc3RhdGUuaWQpCiAgICAgICAgICAgICAgICBzdGF0ZS50b29scy5mb3JFYWNoIHsgdG9vbCAtPgogICAgICAgICAgICAgICAgICAgIGFkZFBhY2thZ2VUb29sU2VhcmNoVGV4dChjb250ZXh0LCB0b29sKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgIHJldHVybiBzZWFyY2hhYmxlVGV4dC5hbnkgeyB0ZXh0IC0+IHRleHQuY29udGFpbnMoc2VhcmNoVGV4dCwgaWdub3JlQ2FzZSA9IHRydWUpIH0KfQoKZnVuIHBsdWdpbk1hdGNoZXNTZWFyY2goCiAgICBwYWNrYWdlTmFtZTogU3RyaW5nLAogICAgZGV0YWlsczogUGFja2FnZU1hbmFnZXIuVG9vbFBrZ0NvbnRhaW5lckRldGFpbHMsCiAgICBzZWFyY2hUZXh0OiBTdHJpbmcKKTogQm9vbGVhbiB7CiAgICB2YWwgc2VhcmNoYWJsZVRleHQgPQogICAgICAgIGJ1aWxkTGlzdCB7CiAgICAgICAgICAgIGFkZChwYWNrYWdlTmFtZSkKICAgICAgICAgICAgYWRkKGRldGFpbHMucGFja2FnZU5hbWUpCiAgICAgICAgICAgIGFkZChkZXRhaWxzLmRpc3BsYXlOYW1lKQogICAgICAgICAgICBhZGQoZGV0YWlscy5kZXNjcmlwdGlvbikKICAgICAgICAgICAgYWRkKGRldGFpbHMudmVyc2lvbikKICAgICAgICAgICAgYWRkKGRldGFpbHMuYXBpVmVyc2lvbikKICAgICAgICAgICAgZGV0YWlscy5yZXF1aXJlcy5mb3JFYWNoIHsgcmVxdWlyZW1lbnQgLT4KICAgICAgICAgICAgICAgIGFkZChyZXF1aXJlbWVudC5pZCkKICAgICAgICAgICAgICAgIGFkZChyZXF1aXJlbWVudC5kZXNjcmlwdGlvbikKICAgICAgICAgICAgICAgIGFkZChyZXF1aXJlbWVudC5taW5WZXJzaW9uLm9yRW1wdHkoKSkKICAgICAgICAgICAgICAgIGFkZChyZXF1aXJlbWVudC5tYXhWZXJzaW9uLm9yRW1wdHkoKSkKICAgICAgICAgICAgfQogICAgICAgICAgICBhZGRBbGwoZGV0YWlscy5hdXRob3IpCiAgICAgICAgICAgIGRldGFpbHMuc3VicGFja2FnZXMuZm9yRWFjaCB7IHN1YnBhY2thZ2UgLT4KICAgICAgICAgICAgICAgIGFkZChzdWJwYWNrYWdlLnBhY2thZ2VOYW1lKQogICAgICAgICAgICAgICAgYWRkKHN1YnBhY2thZ2Uuc3VicGFja2FnZUlkKQogICAgICAgICAgICAgICAgYWRkKHN1YnBhY2thZ2UuZGlzcGxheU5hbWUpCiAgICAgICAgICAgICAgICBhZGQoc3VicGFja2FnZS5kZXNjcmlwdGlvbikKICAgICAgICAgICAgfQogICAgICAgICAgICBkZXRhaWxzLndvcmtmbG93VGVtcGxhdGVzLmZvckVhY2ggeyB0ZW1wbGF0ZSAtPgogICAgICAgICAgICAgICAgYWRkKHRlbXBsYXRlLnRlbXBsYXRlSWQpCiAgICAgICAgICAgICAgICBhZGQodGVtcGxhdGUuZGlzcGxheU5hbWUpCiAgICAgICAgICAgICAgICBhZGQodGVtcGxhdGUuZGVzY3JpcHRpb24pCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZGV0YWlscy53b3Jrc3BhY2VUZW1wbGF0ZXMuZm9yRWFjaCB7IHRlbXBsYXRlIC0+CiAgICAgICAgICAgICAgICBhZGQodGVtcGxhdGUudGVtcGxhdGVJZCkKICAgICAgICAgICAgICAgIGFkZCh0ZW1wbGF0ZS5kaXNwbGF5TmFtZSkKICAgICAgICAgICAgICAgIGFkZCh0ZW1wbGF0ZS5kZXNjcmlwdGlvbikKICAgICAgICAgICAgfQogICAgICAgICAgICBkZXRhaWxzLnRvb2xib3hVaU1vZHVsZXMuZm9yRWFjaCB7IG1vZHVsZSAtPgogICAgICAgICAgICAgICAgYWRkKG1vZHVsZS5yb3V0ZUlkKQogICAgICAgICAgICAgICAgYWRkKG1vZHVsZS51aU1vZHVsZUlkKQogICAgICAgICAgICAgICAgYWRkKG1vZHVsZS50aXRsZSkKICAgICAgICAgICAgICAgIGFkZChtb2R1bGUuZGVzY3JpcHRpb24pCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgcmV0dXJuIHNlYXJjaGFibGVUZXh0LmFueSB7IHRleHQgLT4gdGV4dC5jb250YWlucyhzZWFyY2hUZXh0LCBpZ25vcmVDYXNlID0gdHJ1ZSkgfQp9Cgpwcml2YXRlIGZ1biBNdXRhYmxlTGlzdDxTdHJpbmc+LmFkZFBhY2thZ2VUb29sU2VhcmNoVGV4dCgKICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICB0b29sOiBQYWNrYWdlVG9vbAopIHsKICAgIGFkZCh0b29sLm5hbWUpCiAgICBhZGQodG9vbC5kZXNjcmlwdGlvbi5yZXNvbHZlKGNvbnRleHQpKQogICAgdG9vbC5wYXJhbWV0ZXJzLmZvckVhY2ggeyBwYXJhbWV0ZXIgLT4KICAgICAgICBhZGQocGFyYW1ldGVyLm5hbWUpCiAgICAgICAgYWRkKHBhcmFtZXRlci5kZXNjcmlwdGlvbi5yZXNvbHZlKGNvbnRleHQpKQogICAgICAgIGFkZChwYXJhbWV0ZXIudHlwZSkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.features.packages.screens
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.PackageTool
+import com.bslsjdk.operit.core.tools.ToolPackage
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+
+fun packageMatchesSearch(
+    context: Context,
+    packageName: String,
+    toolPackage: ToolPackage,
+    searchText: String
+): Boolean {
+    val searchableText =
+        buildList {
+            add(packageName)
+            add(toolPackage.name)
+            add(toolPackage.displayName.resolve(context))
+            add(toolPackage.description.resolve(context))
+            add(toolPackage.category)
+            addAll(toolPackage.author)
+            toolPackage.tools.forEach { tool ->
+                addPackageToolSearchText(context, tool)
+            }
+            toolPackage.states.forEach { state ->
+                add(state.id)
+                state.tools.forEach { tool ->
+                    addPackageToolSearchText(context, tool)
+                }
+            }
+        }
+
+    return searchableText.any { text -> text.contains(searchText, ignoreCase = true) }
+}
+
+fun pluginMatchesSearch(
+    packageName: String,
+    details: PackageManager.ToolPkgContainerDetails,
+    searchText: String
+): Boolean {
+    val searchableText =
+        buildList {
+            add(packageName)
+            add(details.packageName)
+            add(details.displayName)
+            add(details.description)
+            add(details.version)
+            add(details.apiVersion)
+            details.requires.forEach { requirement ->
+                add(requirement.id)
+                add(requirement.description)
+                add(requirement.minVersion.orEmpty())
+                add(requirement.maxVersion.orEmpty())
+            }
+            addAll(details.author)
+            details.subpackages.forEach { subpackage ->
+                add(subpackage.packageName)
+                add(subpackage.subpackageId)
+                add(subpackage.displayName)
+                add(subpackage.description)
+            }
+            details.workflowTemplates.forEach { template ->
+                add(template.templateId)
+                add(template.displayName)
+                add(template.description)
+            }
+            details.workspaceTemplates.forEach { template ->
+                add(template.templateId)
+                add(template.displayName)
+                add(template.description)
+            }
+            details.toolboxUiModules.forEach { module ->
+                add(module.routeId)
+                add(module.uiModuleId)
+                add(module.title)
+                add(module.description)
+            }
+        }
+
+    return searchableText.any { text -> text.contains(searchText, ignoreCase = true) }
+}
+
+private fun MutableList<String>.addPackageToolSearchText(
+    context: Context,
+    tool: PackageTool
+) {
+    add(tool.name)
+    add(tool.description.resolve(context))
+    tool.parameters.forEach { parameter ->
+        add(parameter.name)
+        add(parameter.description.resolve(context))
+        add(parameter.type)
+    }
+}

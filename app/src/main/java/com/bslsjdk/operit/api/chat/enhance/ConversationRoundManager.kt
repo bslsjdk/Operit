@@ -1,1 +1,145 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwubWFya2Rvd24uU21hcnRTdHJpbmcKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNJbnRlZ2VyCgovKioKICogTWFuYWdlcyBjb252ZXJzYXRpb24gcm91bmRzIGZvciB0aGUgQUkgYXNzaXN0YW50LgogKgogKiBUaGlzIGNsYXNzIGlzIHJlc3BvbnNpYmxlIGZvciB0cmFja2luZyBhbmQgbWFuYWdpbmcgZGlmZmVyZW50IHJvdW5kcyBvZiBjb252ZXJzYXRpb24sCiAqIHBhcnRpY3VsYXJseSB3aGVuIHRvb2xzIGFyZSBiZWluZyBleGVjdXRlZCBhbmQgcmVzcG9uc2VzIGFyZSBwcm9jZXNzZWQuCiAqLwpjbGFzcyBDb252ZXJzYXRpb25Sb3VuZE1hbmFnZXIgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkNvbnZlcnNhdGlvblJvdW5kTWFuYWdlciIKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBST1VORF9TRVBBUkFUT1JfRk9STUFUID0gIi0tLSBSb3VuZCAlZCAtLS1cbiIKICAgIH0KCiAgICAvLyBNYXAgdG8gc3RvcmUgY29udGVudCBmb3IgZWFjaCByb3VuZAogICAgcHJpdmF0ZSB2YWwgcm91bmRDb250ZW50cyA9IG11dGFibGVNYXBPZjxJbnQsIFNtYXJ0U3RyaW5nPigpCgogICAgLy8gVHJhY2tzIHRoZSBjdXJyZW50IHJvdW5kIG51bWJlcgogICAgcHJpdmF0ZSB2YWwgY3VycmVudFJlc3BvbnNlUm91bmQgPSBBdG9taWNJbnRlZ2VyKDApCgogICAgLy8gUGF0dGVybiB1c2VkIHRvIHJlbW92ZSByb3VuZCBzZXBhcmF0b3JzIGZyb20gZGlzcGxheWVkIGNvbnRlbnQKICAgIHByaXZhdGUgdmFsIHJvdW5kU2VwYXJhdG9yUGF0dGVybiA9IFJlZ2V4KCItLS0gUm91bmQgXFxkKyAtLS1cbiIpCgogICAgLyoqIEluaXRpYWxpemVzIGEgbmV3IGNvbnZlcnNhdGlvbiwgcmVzZXR0aW5nIGFsbCByb3VuZCB0cmFja2luZy4gKi8KICAgIGZ1biBpbml0aWFsaXplTmV3Q29udmVyc2F0aW9uKCkgewogICAgICAgIGN1cnJlbnRSZXNwb25zZVJvdW5kLnNldCgwKQogICAgICAgIHJvdW5kQ29udGVudHMuY2xlYXIoKQogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIk5ldyBjb252ZXJzYXRpb24gaW5pdGlhbGl6ZWQiKQogICAgfQoKICAgIC8qKgogICAgICogVXBkYXRlcyBjb250ZW50IGZvciB0aGUgY3VycmVudCByb3VuZC4KICAgICAqCiAgICAgKiBAcGFyYW0gY29udGVudCBUaGUgY29udGVudCB0byBiZSBhZGRlZCBvciB1cGRhdGVkCiAgICAgKiBAcmV0dXJuIFRoZSBhY2N1bXVsYXRlZCBjb250ZW50IGFmdGVyIHVwZGF0ZQogICAgICovCiAgICBmdW4gdXBkYXRlQ29udGVudChjb250ZW50OiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBjdXJyZW50Um91bmQgPSBjdXJyZW50UmVzcG9uc2VSb3VuZC5nZXQoKQogICAgICAgIHJvdW5kQ29udGVudHMuZ2V0T3JQdXQoY3VycmVudFJvdW5kKSB7IFNtYXJ0U3RyaW5nKCkgfS5yZXBsYWNlKGNvbnRlbnQpCiAgICAgICAgcmV0dXJuIGdldERpc3BsYXlDb250ZW50KCkKICAgIH0KCiAgICAvKiogQXBwZW5kcyBhIHN0cmVhbWVkIGNodW5rIHdpdGhvdXQgcmVidWlsZGluZyB0aGUgY3VycmVudCByb3VuZCdzIGNvbXBsZXRlIHRleHQuICovCiAgICBmdW4gYXBwZW5kQ2h1bmsoY29udGVudDogU3RyaW5nKTogU21hcnRTdHJpbmcgewogICAgICAgIHZhbCBjdXJyZW50Um91bmQgPSBjdXJyZW50UmVzcG9uc2VSb3VuZC5nZXQoKQogICAgICAgIHJldHVybiByb3VuZENvbnRlbnRzLmdldE9yUHV0KGN1cnJlbnRSb3VuZCkgeyBTbWFydFN0cmluZygpIH0uYXBwZW5kKGNvbnRlbnQpCiAgICB9CgogICAgLyoqCiAgICAgKiBTdGFydHMgYSBuZXcgcm91bmQuCiAgICAgKgogICAgICogQHJldHVybiBUaGUgY3VycmVudCByb3VuZCBudW1iZXIgYWZ0ZXIgaW5jcmVtZW50aW5nCiAgICAgKi8KICAgIGZ1biBzdGFydE5ld1JvdW5kKCk6IEludCB7CiAgICAgICAgdmFsIG5ld1JvdW5kID0gY3VycmVudFJlc3BvbnNlUm91bmQuaW5jcmVtZW50QW5kR2V0KCkKICAgICAgICByb3VuZENvbnRlbnRzW25ld1JvdW5kXSA9IFNtYXJ0U3RyaW5nKCkKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTdGFydGluZyBuZXcgcm91bmQ6ICRuZXdSb3VuZCIpCiAgICAgICAgcmV0dXJuIG5ld1JvdW5kCiAgICB9CgogICAgLyoqCiAgICAgKiBBcHBlbmRzIGNvbnRlbnQgdG8gdGhlIGVuZCBvZiB0aGUgYWNjdW11bGF0ZWQgY29udGVudCwgb3V0c2lkZSBhbnkgcm91bmQgc3RydWN0dXJlLgogICAgICoKICAgICAqIEBwYXJhbSBjb250ZW50IFRoZSBjb250ZW50IHRvIGFwcGVuZAogICAgICogQHJldHVybiBUaGUgdXBkYXRlZCBkaXNwbGF5IGNvbnRlbnQKICAgICAqLwogICAgZnVuIGFwcGVuZENvbnRlbnQoY29udGVudDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICBhcHBlbmRDaHVuaygiXG4iICsgY29udGVudC50cmltKCkpCiAgICAgICAgcmV0dXJuIGdldERpc3BsYXlDb250ZW50KCkKICAgIH0KCiAgICAvKioKICAgICAqIEdldHMgdGhlIGNvbnRlbnQgc3VpdGFibGUgZm9yIGRpc3BsYXksIHdpdGggcm91bmQgc2VwYXJhdG9ycyByZW1vdmVkLgogICAgICoKICAgICAqIEByZXR1cm4gQ2xlYW4gY29udGVudCB3aXRob3V0IHJvdW5kIHNlcGFyYXRvcnMKICAgICAqLwogICAgZnVuIGdldERpc3BsYXlDb250ZW50KCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGJ1ZmZlciA9IFN0cmluZ0J1aWxkZXIoKQoKICAgICAgICAvLyBBZGQgcm91bmRzIGluIG9yZGVyCiAgICAgICAgdmFsIHNvcnRlZEtleXMgPSByb3VuZENvbnRlbnRzLmtleXMuZmlsdGVyIHsgaXQgPj0gMCB9LnNvcnRlZCgpCgogICAgICAgIHNvcnRlZEtleXMuZm9yRWFjaEluZGV4ZWQgeyBpbmRleCwgcm91bmQgLT4KICAgICAgICAgICAgdmFsIGNvbnRlbnQgPSByb3VuZENvbnRlbnRzW3JvdW5kXSA/OiBTbWFydFN0cmluZygpCiAgICAgICAgICAgIGlmIChpbmRleCA+IDApIGJ1ZmZlci5hcHBlbmQoIlxuIikKICAgICAgICAgICAgYnVmZmVyLmFwcGVuZChjb250ZW50KQogICAgICAgIH0KCiAgICAgICAgLy8gQXBwZW5kIGFueSBjb250ZW50IHRoYXQncyBvdXRzaWRlIHJvdW5kcyAoa2V5IC0xKQogICAgICAgIGlmIChyb3VuZENvbnRlbnRzLmNvbnRhaW5zS2V5KC0xKSkgewogICAgICAgICAgICBidWZmZXIuYXBwZW5kKCJcbiIpLmFwcGVuZChyb3VuZENvbnRlbnRzWy0xXSkKICAgICAgICB9CgogICAgICAgIHJldHVybiBidWZmZXIudG9TdHJpbmcoKQogICAgfQoKICAgIGZ1biBnZXRDdXJyZW50Um91bmRDb250ZW50KCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIHJvdW5kQ29udGVudHNbY3VycmVudFJlc3BvbnNlUm91bmQuZ2V0KCldPy50b1N0cmluZygpLm9yRW1wdHkoKQogICAgfQoKICAgIC8qKgogICAgICogR2V0cyB0aGUgcmF3IGFjY3VtdWxhdGVkIGNvbnRlbnQgaW5jbHVkaW5nIGFsbCByb3VuZCBzZXBhcmF0b3JzLgogICAgICoKICAgICAqIEByZXR1cm4gUmF3IGNvbnRlbnQgd2l0aCByb3VuZCBzZXBhcmF0b3JzCiAgICAgKi8KICAgIGZ1biBnZXRSYXdDb250ZW50KCk6IFN0cmluZyB7CiAgICAgICAgdmFsIGJ1ZmZlciA9IFN0cmluZ0J1aWxkZXIoKQoKICAgICAgICAvLyBBZGQgcm91bmRzIGluIG9yZGVyIHdpdGggc2VwYXJhdG9ycwogICAgICAgIHZhbCBzb3J0ZWRLZXlzID0gcm91bmRDb250ZW50cy5rZXlzLmZpbHRlciB7IGl0ID49IDAgfS5zb3J0ZWQoKQoKICAgICAgICBzb3J0ZWRLZXlzLmZvckVhY2hJbmRleGVkIHsgaW5kZXgsIHJvdW5kIC0+CiAgICAgICAgICAgIHZhbCBjb250ZW50ID0gcm91bmRDb250ZW50c1tyb3VuZF0gPzogU21hcnRTdHJpbmcoKQogICAgICAgICAgICBpZiAoaW5kZXggPiAwKSBidWZmZXIuYXBwZW5kKCJcbiIpCiAgICAgICAgICAgIGJ1ZmZlci5hcHBlbmQoU3RyaW5nLmZvcm1hdChST1VORF9TRVBBUkFUT1JfRk9STUFULCByb3VuZCkpCiAgICAgICAgICAgIGJ1ZmZlci5hcHBlbmQoY29udGVudCkKICAgICAgICB9CgogICAgICAgIC8vIEFwcGVuZCBhbnkgY29udGVudCB0aGF0J3Mgb3V0c2lkZSByb3VuZHMgKGtleSAtMSkKICAgICAgICBpZiAocm91bmRDb250ZW50cy5jb250YWluc0tleSgtMSkpIHsKICAgICAgICAgICAgYnVmZmVyLmFwcGVuZCgiXG4iKS5hcHBlbmQocm91bmRDb250ZW50c1stMV0pCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gYnVmZmVyLnRvU3RyaW5nKCkKICAgIH0KCiAgICAvKioKICAgICAqIEdldHMgdGhlIGN1cnJlbnQgcm91bmQgbnVtYmVyLgogICAgICoKICAgICAqIEByZXR1cm4gQ3VycmVudCByb3VuZCBudW1iZXIKICAgICAqLwogICAgZnVuIGdldEN1cnJlbnRSb3VuZCgpOiBJbnQgewogICAgICAgIHJldHVybiBjdXJyZW50UmVzcG9uc2VSb3VuZC5nZXQoKQogICAgfQoKICAgIC8qKiBDbGVhcnMgYWxsIGNvbnRlbnQuICovCiAgICBmdW4gY2xlYXJDb250ZW50KCkgewogICAgICAgIHJvdW5kQ29udGVudHMuY2xlYXIoKQogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkNvbnRlbnQgY2xlYXJlZCIpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.enhance
+
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.util.markdown.SmartString
+import java.util.concurrent.atomic.AtomicInteger
+
+/**
+ * Manages conversation rounds for the AI assistant.
+ *
+ * This class is responsible for tracking and managing different rounds of conversation,
+ * particularly when tools are being executed and responses are processed.
+ */
+class ConversationRoundManager {
+    companion object {
+        private const val TAG = "ConversationRoundManager"
+        private const val ROUND_SEPARATOR_FORMAT = "--- Round %d ---\n"
+    }
+
+    // Map to store content for each round
+    private val roundContents = mutableMapOf<Int, SmartString>()
+
+    // Tracks the current round number
+    private val currentResponseRound = AtomicInteger(0)
+
+    // Pattern used to remove round separators from displayed content
+    private val roundSeparatorPattern = Regex("--- Round \\d+ ---\n")
+
+    /** Initializes a new conversation, resetting all round tracking. */
+    fun initializeNewConversation() {
+        currentResponseRound.set(0)
+        roundContents.clear()
+        AppLogger.d(TAG, "New conversation initialized")
+    }
+
+    /**
+     * Updates content for the current round.
+     *
+     * @param content The content to be added or updated
+     * @return The accumulated content after update
+     */
+    fun updateContent(content: String): String {
+        val currentRound = currentResponseRound.get()
+        roundContents.getOrPut(currentRound) { SmartString() }.replace(content)
+        return getDisplayContent()
+    }
+
+    /** Appends a streamed chunk without rebuilding the current round's complete text. */
+    fun appendChunk(content: String): SmartString {
+        val currentRound = currentResponseRound.get()
+        return roundContents.getOrPut(currentRound) { SmartString() }.append(content)
+    }
+
+    /**
+     * Starts a new round.
+     *
+     * @return The current round number after incrementing
+     */
+    fun startNewRound(): Int {
+        val newRound = currentResponseRound.incrementAndGet()
+        roundContents[newRound] = SmartString()
+        AppLogger.d(TAG, "Starting new round: $newRound")
+        return newRound
+    }
+
+    /**
+     * Appends content to the end of the accumulated content, outside any round structure.
+     *
+     * @param content The content to append
+     * @return The updated display content
+     */
+    fun appendContent(content: String): String {
+        appendChunk("\n" + content.trim())
+        return getDisplayContent()
+    }
+
+    /**
+     * Gets the content suitable for display, with round separators removed.
+     *
+     * @return Clean content without round separators
+     */
+    fun getDisplayContent(): String {
+        val buffer = StringBuilder()
+
+        // Add rounds in order
+        val sortedKeys = roundContents.keys.filter { it >= 0 }.sorted()
+
+        sortedKeys.forEachIndexed { index, round ->
+            val content = roundContents[round] ?: SmartString()
+            if (index > 0) buffer.append("\n")
+            buffer.append(content)
+        }
+
+        // Append any content that's outside rounds (key -1)
+        if (roundContents.containsKey(-1)) {
+            buffer.append("\n").append(roundContents[-1])
+        }
+
+        return buffer.toString()
+    }
+
+    fun getCurrentRoundContent(): String {
+        return roundContents[currentResponseRound.get()]?.toString().orEmpty()
+    }
+
+    /**
+     * Gets the raw accumulated content including all round separators.
+     *
+     * @return Raw content with round separators
+     */
+    fun getRawContent(): String {
+        val buffer = StringBuilder()
+
+        // Add rounds in order with separators
+        val sortedKeys = roundContents.keys.filter { it >= 0 }.sorted()
+
+        sortedKeys.forEachIndexed { index, round ->
+            val content = roundContents[round] ?: SmartString()
+            if (index > 0) buffer.append("\n")
+            buffer.append(String.format(ROUND_SEPARATOR_FORMAT, round))
+            buffer.append(content)
+        }
+
+        // Append any content that's outside rounds (key -1)
+        if (roundContents.containsKey(-1)) {
+            buffer.append("\n").append(roundContents[-1])
+        }
+
+        return buffer.toString()
+    }
+
+    /**
+     * Gets the current round number.
+     *
+     * @return Current round number
+     */
+    fun getCurrentRound(): Int {
+        return currentResponseRound.get()
+    }
+
+    /** Clears all content. */
+    fun clearContent() {
+        roundContents.clear()
+        AppLogger.d(TAG, "Content cleared")
+    }
+}

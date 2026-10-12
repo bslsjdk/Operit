@@ -1,1 +1,245 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGlicmFyeQoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmFwaS5jaGF0LkVuaGFuY2VkQUlTZXJ2aWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5BSVRvb2xIYW5kbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5DaGF0SGlzdG9yeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhcmFjdGVyQ2FyZE1lbW9yeVByb2ZpbGVCaW5kaW5nTW9kZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuRnVuY3Rpb25UeXBlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5DaGFyYWN0ZXJDYXJkTWFuYWdlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMucHJlZmVyZW5jZXNNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZXBvc2l0b3J5LkNoYXRIaXN0b3J5TWFuYWdlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ2FuY2VsbGF0aW9uRXhjZXB0aW9uCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLlN1cGVydmlzb3JKb2IKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5lbnN1cmVBY3RpdmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy5NdXRleAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMud2l0aExvY2sKaW1wb3J0IGtvdGxpbi5jb3JvdXRpbmVzLmNvcm91dGluZUNvbnRleHQKCmNsYXNzIENoYXRNZW1vcnlSZWJ1aWxkTWFuYWdlciBwcml2YXRlIGNvbnN0cnVjdG9yKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIHsKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiQ2hhdE1lbW9yeVJlYnVpbGQiCgogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHByaXZhdGUgdmFyIGluc3RhbmNlOiBDaGF0TWVtb3J5UmVidWlsZE1hbmFnZXI/ID0gbnVsbAoKICAgICAgICBmdW4gZ2V0SW5zdGFuY2UoY29udGV4dDogQ29udGV4dCk6IENoYXRNZW1vcnlSZWJ1aWxkTWFuYWdlciA9CiAgICAgICAgICAgIGluc3RhbmNlID86IHN5bmNocm9uaXplZCh0aGlzKSB7CiAgICAgICAgICAgICAgICBpbnN0YW5jZSA/OiBDaGF0TWVtb3J5UmVidWlsZE1hbmFnZXIoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpLmFsc28geyBpbnN0YW5jZSA9IGl0IH0KICAgICAgICAgICAgfQogICAgfQoKICAgIGRhdGEgY2xhc3MgUHJvZ3Jlc3MoCiAgICAgICAgdmFsIHN0YXR1czogU3RhdHVzID0gU3RhdHVzLklETEUsCiAgICAgICAgdmFsIHRvdGFsQ2hhdHM6IEludCA9IDAsCiAgICAgICAgdmFsIGNvbXBsZXRlZENoYXRzOiBJbnQgPSAwLAogICAgICAgIHZhbCBjdXJyZW50Q2hhdFRpdGxlOiBTdHJpbmcgPSAiIiwKICAgICAgICB2YWwgdG90YWxXaW5kb3dzOiBJbnQgPSAwLAogICAgICAgIHZhbCBjb21wbGV0ZWRXaW5kb3dzOiBJbnQgPSAwLAogICAgICAgIHZhbCB0b3RhbFNvdXJjZU1lc3NhZ2VzOiBJbnQgPSAwLAogICAgICAgIHZhbCBwcm9jZXNzZWRTb3VyY2VNZXNzYWdlczogSW50ID0gMCwKICAgICAgICB2YWwgZmFpbGVkV2luZG93czogSW50ID0gMCwKICAgICAgICB2YWwgZXJyb3JNZXNzYWdlOiBTdHJpbmcgPSAiIgogICAgKSB7CiAgICAgICAgdmFsIGZyYWN0aW9uOiBGbG9hdAogICAgICAgICAgICBnZXQoKSA9CiAgICAgICAgICAgICAgICBpZiAodG90YWxTb3VyY2VNZXNzYWdlcyA8PSAwKSAwZgogICAgICAgICAgICAgICAgZWxzZSBwcm9jZXNzZWRTb3VyY2VNZXNzYWdlcy50b0Zsb2F0KCkgLyB0b3RhbFNvdXJjZU1lc3NhZ2VzLnRvRmxvYXQoKQogICAgfQoKICAgIGVudW0gY2xhc3MgU3RhdHVzIHsKICAgICAgICBJRExFLAogICAgICAgIFBSRVBBUklORywKICAgICAgICBSVU5OSU5HLAogICAgICAgIENPTVBMRVRFRCwKICAgICAgICBDQU5DRUxMRUQsCiAgICAgICAgRkFJTEVECiAgICB9CgogICAgcHJpdmF0ZSB2YWwgc2NvcGUgPSBDb3JvdXRpbmVTY29wZShTdXBlcnZpc29ySm9iKCkgKyBEaXNwYXRjaGVycy5JTykKICAgIHByaXZhdGUgdmFsIG9wZXJhdGlvbk11dGV4ID0gTXV0ZXgoKQogICAgcHJpdmF0ZSB2YWwgX3Byb2dyZXNzID0gTXV0YWJsZVN0YXRlRmxvdyhQcm9ncmVzcygpKQogICAgdmFsIHByb2dyZXNzOiBTdGF0ZUZsb3c8UHJvZ3Jlc3M+ID0gX3Byb2dyZXNzLmFzU3RhdGVGbG93KCkKCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIHJ1bm5pbmdKb2I6IEpvYj8gPSBudWxsCgogICAgZnVuIHN0YXJ0KAogICAgICAgIGNoYXRJZHM6IExpc3Q8U3RyaW5nPiwKICAgICAgICB3aW5kb3dNZXNzYWdlQ291bnQ6IEludCwKICAgICAgICB0aW1lU2NvcGU6IENoYXRNZW1vcnlSZWJ1aWxkVGltZVNjb3BlCiAgICApIHsKICAgICAgICBpZiAocnVubmluZ0pvYj8uaXNBY3RpdmUgPT0gdHJ1ZSkgcmV0dXJuCiAgICAgICAgdmFsIGRpc3RpbmN0Q2hhdElkcyA9IGNoYXRJZHMuZmlsdGVyKFN0cmluZzo6aXNOb3RCbGFuaykuZGlzdGluY3QoKQogICAgICAgIGlmIChkaXN0aW5jdENoYXRJZHMuaXNFbXB0eSgpKSByZXR1cm4KCiAgICAgICAgcnVubmluZ0pvYiA9IHNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIG9wZXJhdGlvbk11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgICAgIHJlYnVpbGQoZGlzdGluY3RDaGF0SWRzLCB3aW5kb3dNZXNzYWdlQ291bnQsIHRpbWVTY29wZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBmdW4gY2FuY2VsKCkgewogICAgICAgIHJ1bm5pbmdKb2I/LmNhbmNlbCgpCiAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biByZWJ1aWxkKAogICAgICAgIGNoYXRJZHM6IExpc3Q8U3RyaW5nPiwKICAgICAgICB3aW5kb3dNZXNzYWdlQ291bnQ6IEludCwKICAgICAgICB0aW1lU2NvcGU6IENoYXRNZW1vcnlSZWJ1aWxkVGltZVNjb3BlCiAgICApIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBfcHJvZ3Jlc3MudmFsdWUgPSBQcm9ncmVzcyhzdGF0dXMgPSBTdGF0dXMuUFJFUEFSSU5HLCB0b3RhbENoYXRzID0gY2hhdElkcy5zaXplKQogICAgICAgICAgICB2YWwgY2hhdEhpc3RvcnlNYW5hZ2VyID0gQ2hhdEhpc3RvcnlNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICAgICAgICAgIHZhbCBzZWxlY3RlZEhpc3RvcmllcyA9CiAgICAgICAgICAgICAgICBjaGF0SGlzdG9yeU1hbmFnZXIuY2hhdEhpc3Rvcmllc0Zsb3cuZmlyc3QoKS5maWx0ZXIgeyBpdC5pZCBpbiBjaGF0SWRzIH0KICAgICAgICAgICAgcmVxdWlyZShzZWxlY3RlZEhpc3Rvcmllcy5pc05vdEVtcHR5KCkpIHsgIk5vIHNlbGVjdGVkIGNoYXQgaGlzdG9yeSBmb3VuZCIgfQogICAgICAgICAgICB2YWwgYWN0aXZlUHJvZmlsZUlkID0gcHJlZmVyZW5jZXNNYW5hZ2VyLmFjdGl2ZU1lbW9yeVNwYWNlSWRGbG93LmZpcnN0KCkKCiAgICAgICAgICAgIHZhbCBwbGFubmVkQ2hhdHMgPSBzZWxlY3RlZEhpc3Rvcmllcy5tYXAgeyBoaXN0b3J5IC0+CiAgICAgICAgICAgICAgICB2YWwgbWVzc2FnZXMgPSBjaGF0SGlzdG9yeU1hbmFnZXIubG9hZENoYXRNZXNzYWdlcyhoaXN0b3J5LmlkKQogICAgICAgICAgICAgICAgUGxhbm5lZENoYXQoCiAgICAgICAgICAgICAgICAgICAgaGlzdG9yeSA9IGhpc3RvcnksCiAgICAgICAgICAgICAgICAgICAgd2luZG93cyA9IENoYXRNZW1vcnlXaW5kb3dQbGFubmVyLnBsYW4obWVzc2FnZXMsIHdpbmRvd01lc3NhZ2VDb3VudCwgdGltZVNjb3BlKSwKICAgICAgICAgICAgICAgICAgICBtZW1vcnlQcm9maWxlSWQgPSByZXNvbHZlTWVtb3J5UHJvZmlsZUlkKGhpc3RvcnksIGFjdGl2ZVByb2ZpbGVJZCkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgdG90YWxXaW5kb3dzID0gcGxhbm5lZENoYXRzLnN1bU9mIHsgaXQud2luZG93cy5zaXplIH0KICAgICAgICAgICAgdmFsIHRvdGFsU291cmNlTWVzc2FnZXMgPSBwbGFubmVkQ2hhdHMuc3VtT2YgeyBwbGFubmVkQ2hhdCAtPgogICAgICAgICAgICAgICAgcGxhbm5lZENoYXQud2luZG93cy5zdW1PZiB7IHdpbmRvdyAtPiB3aW5kb3cuc291cmNlTWVzc2FnZUNvdW50IH0KICAgICAgICAgICAgfQogICAgICAgICAgICByZXF1aXJlKHRvdGFsV2luZG93cyA+IDApIHsKICAgICAgICAgICAgICAgIHdoZW4gKHRpbWVTY29wZSkgewogICAgICAgICAgICAgICAgICAgIENoYXRNZW1vcnlSZWJ1aWxkVGltZVNjb3BlLkVudGlyZUNoYXQgLT4KICAgICAgICAgICAgICAgICAgICAgICAgIlNlbGVjdGVkIGNoYXRzIGRvIG5vdCBjb250YWluIGFueSB1c2VyIG1lc3NhZ2VzIHRvIHJlYnVpbGQiCiAgICAgICAgICAgICAgICAgICAgaXMgQ2hhdE1lbW9yeVJlYnVpbGRUaW1lU2NvcGUuSW5jbHVzaXZlTG9jYWxSYW5nZSAtPgogICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5jaGF0X21lbW9yeV9yZWJ1aWxkX2VtcHR5X3JhbmdlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgdG9vbEhhbmRsZXIgPSBBSVRvb2xIYW5kbGVyLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICAgICAgICAgIHZhbCBtZW1vcnlTZXJ2aWNlID0gRW5oYW5jZWRBSVNlcnZpY2UuZ2V0QUlTZXJ2aWNlRm9yRnVuY3Rpb24oY29udGV4dCwgRnVuY3Rpb25UeXBlLk1FTU9SWSkKICAgICAgICAgICAgdmFyIGNvbXBsZXRlZENoYXRzID0gMAogICAgICAgICAgICB2YXIgY29tcGxldGVkV2luZG93cyA9IDAKICAgICAgICAgICAgdmFyIHByb2Nlc3NlZFNvdXJjZU1lc3NhZ2VzID0gMAogICAgICAgICAgICB2YXIgZmFpbGVkV2luZG93cyA9IDAKICAgICAgICAgICAgX3Byb2dyZXNzLnZhbHVlID0gUHJvZ3Jlc3MoCiAgICAgICAgICAgICAgICBzdGF0dXMgPSBTdGF0dXMuUlVOTklORywKICAgICAgICAgICAgICAgIHRvdGFsQ2hhdHMgPSBwbGFubmVkQ2hhdHMuc2l6ZSwKICAgICAgICAgICAgICAgIHRvdGFsV2luZG93cyA9IHRvdGFsV2luZG93cywKICAgICAgICAgICAgICAgIHRvdGFsU291cmNlTWVzc2FnZXMgPSB0b3RhbFNvdXJjZU1lc3NhZ2VzCiAgICAgICAgICAgICkKCiAgICAgICAgICAgIHBsYW5uZWRDaGF0cy5mb3JFYWNoIHsgcGxhbm5lZENoYXQgLT4KICAgICAgICAgICAgICAgIGNvcm91dGluZUNvbnRleHQuZW5zdXJlQWN0aXZlKCkKICAgICAgICAgICAgICAgIHBsYW5uZWRDaGF0LndpbmRvd3MuZm9yRWFjaCB7IHdpbmRvdyAtPgogICAgICAgICAgICAgICAgICAgIGNvcm91dGluZUNvbnRleHQuZW5zdXJlQWN0aXZlKCkKICAgICAgICAgICAgICAgICAgICBfcHJvZ3Jlc3MudmFsdWUgPSBQcm9ncmVzcygKICAgICAgICAgICAgICAgICAgICAgICAgc3RhdHVzID0gU3RhdHVzLlJVTk5JTkcsCiAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFsQ2hhdHMgPSBwbGFubmVkQ2hhdHMuc2l6ZSwKICAgICAgICAgICAgICAgICAgICAgICAgY29tcGxldGVkQ2hhdHMgPSBjb21wbGV0ZWRDaGF0cywKICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudENoYXRUaXRsZSA9IHBsYW5uZWRDaGF0Lmhpc3RvcnkudGl0bGUsCiAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFsV2luZG93cyA9IHRvdGFsV2luZG93cywKICAgICAgICAgICAgICAgICAgICAgICAgY29tcGxldGVkV2luZG93cyA9IGNvbXBsZXRlZFdpbmRvd3MsCiAgICAgICAgICAgICAgICAgICAgICAgIHRvdGFsU291cmNlTWVzc2FnZXMgPSB0b3RhbFNvdXJjZU1lc3NhZ2VzLAogICAgICAgICAgICAgICAgICAgICAgICBwcm9jZXNzZWRTb3VyY2VNZXNzYWdlcyA9IHByb2Nlc3NlZFNvdXJjZU1lc3NhZ2VzLAogICAgICAgICAgICAgICAgICAgICAgICBmYWlsZWRXaW5kb3dzID0gZmFpbGVkV2luZG93cwogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgaGlzdG9yeSA9IHdpbmRvdy5tZXNzYWdlcy5tYXAgeyBtZXNzYWdlIC0+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aGVuIChtZXNzYWdlLnNlbmRlcikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ1c2VyIiAtPiAidXNlciIgdG8gbWVzc2FnZS5jb250ZW50CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgImFpIiwgImFzc2lzdGFudCIgLT4gImFzc2lzdGFudCIgdG8gbWVzc2FnZS5jb250ZW50CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBlcnJvcigiVW5zdXBwb3J0ZWQgbWVtb3J5IHJlYnVpbGQgbWVzc2FnZSBzZW5kZXI6ICR7bWVzc2FnZS5zZW5kZXJ9IikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgY29udGVudCA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aW5kb3cubWVzc2FnZXMubGFzdE9yTnVsbCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaXQuc2VuZGVyID09ICJhaSIgfHwgaXQuc2VuZGVyID09ICJhc3Npc3RhbnQiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9Py5jb250ZW50CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPzogd2luZG93Lm1lc3NhZ2VzLmxhc3RPck51bGwgeyBpdC5zZW5kZXIgPT0gInVzZXIiIH0/LmNvbnRlbnQub3JFbXB0eSgpCiAgICAgICAgICAgICAgICAgICAgICAgIE1lbW9yeUxpYnJhcnkuc2F2ZU1lbW9yeVdpbmRvd05vdygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9vbEhhbmRsZXIgPSB0b29sSGFuZGxlciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnZlcnNhdGlvbkhpc3RvcnkgPSBoaXN0b3J5LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudCA9IGNvbnRlbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhaVNlcnZpY2UgPSBtZW1vcnlTZXJ2aWNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJvZmlsZUlkT3ZlcnJpZGUgPSBwbGFubmVkQ2hhdC5tZW1vcnlQcm9maWxlSWQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmFseXNpc0hpc3RvcnlMaW1pdCA9IHdpbmRvdy5tZXNzYWdlcy5zaXplCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChlcnJvciBpcyBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHRocm93IGVycm9yCiAgICAgICAgICAgICAgICAgICAgICAgIGZhaWxlZFdpbmRvd3MrKwogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICLnqpflj6PorrDlv4bph43lu7rlpLHotKU6IGNoYXRJZD0ke3BsYW5uZWRDaGF0Lmhpc3RvcnkuaWR9LCB0aXRsZT0ke3BsYW5uZWRDaGF0Lmhpc3RvcnkudGl0bGV9IiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgY29tcGxldGVkV2luZG93cysrCiAgICAgICAgICAgICAgICAgICAgcHJvY2Vzc2VkU291cmNlTWVzc2FnZXMgKz0gd2luZG93LnNvdXJjZU1lc3NhZ2VDb3VudAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY29tcGxldGVkQ2hhdHMrKwogICAgICAgICAgICB9CiAgICAgICAgICAgIF9wcm9ncmVzcy52YWx1ZSA9IFByb2dyZXNzKAogICAgICAgICAgICAgICAgc3RhdHVzID0gU3RhdHVzLkNPTVBMRVRFRCwKICAgICAgICAgICAgICAgIHRvdGFsQ2hhdHMgPSBwbGFubmVkQ2hhdHMuc2l6ZSwKICAgICAgICAgICAgICAgIGNvbXBsZXRlZENoYXRzID0gY29tcGxldGVkQ2hhdHMsCiAgICAgICAgICAgICAgICB0b3RhbFdpbmRvd3MgPSB0b3RhbFdpbmRvd3MsCiAgICAgICAgICAgICAgICBjb21wbGV0ZWRXaW5kb3dzID0gY29tcGxldGVkV2luZG93cywKICAgICAgICAgICAgICAgIHRvdGFsU291cmNlTWVzc2FnZXMgPSB0b3RhbFNvdXJjZU1lc3NhZ2VzLAogICAgICAgICAgICAgICAgcHJvY2Vzc2VkU291cmNlTWVzc2FnZXMgPSB0b3RhbFNvdXJjZU1lc3NhZ2VzLAogICAgICAgICAgICAgICAgZmFpbGVkV2luZG93cyA9IGZhaWxlZFdpbmRvd3MKICAgICAgICAgICAgKQogICAgICAgIH0gY2F0Y2ggKGVycm9yOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgX3Byb2dyZXNzLnZhbHVlID0gX3Byb2dyZXNzLnZhbHVlLmNvcHkoc3RhdHVzID0gU3RhdHVzLkNBTkNFTExFRCkKICAgICAgICAgICAgQXBwTG9nZ2VyLmkoVEFHLCAi6IGK5aSp6K6w5b+G6YeN5bu65bey5Y+W5raIIikKICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuiBiuWkqeiusOW/humHjeW7uuWksei0pSIsIGVycm9yKQogICAgICAgICAgICBfcHJvZ3Jlc3MudmFsdWUgPSBfcHJvZ3Jlc3MudmFsdWUuY29weSgKICAgICAgICAgICAgICAgIHN0YXR1cyA9IFN0YXR1cy5GQUlMRUQsCiAgICAgICAgICAgICAgICBlcnJvck1lc3NhZ2UgPSBlcnJvci5sb2NhbGl6ZWRNZXNzYWdlID86IGVycm9yLmphdmFDbGFzcy5zaW1wbGVOYW1lCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biByZXNvbHZlTWVtb3J5UHJvZmlsZUlkKAogICAgICAgIGhpc3Rvcnk6IENoYXRIaXN0b3J5LAogICAgICAgIGFjdGl2ZVByb2ZpbGVJZDogU3RyaW5nCiAgICApOiBTdHJpbmcgewogICAgICAgIGlmICghaGlzdG9yeS5jaGFyYWN0ZXJHcm91cElkLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICByZXR1cm4gYWN0aXZlUHJvZmlsZUlkCiAgICAgICAgfQogICAgICAgIHZhbCBjYXJkTmFtZSA9IGhpc3RvcnkuY2hhcmFjdGVyQ2FyZE5hbWUgPzogcmV0dXJuIGFjdGl2ZVByb2ZpbGVJZAogICAgICAgIHZhbCBjYXJkID0gQ2hhcmFjdGVyQ2FyZE1hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dCkuZ2V0QWxsQ2hhcmFjdGVyQ2FyZHMoKQogICAgICAgICAgICAuZmlyc3RPck51bGwgeyBpdC5uYW1lID09IGNhcmROYW1lIH0KICAgICAgICByZXR1cm4gaWYgKAogICAgICAgICAgICBjYXJkICE9IG51bGwgJiYKICAgICAgICAgICAgICAgIENoYXJhY3RlckNhcmRNZW1vcnlQcm9maWxlQmluZGluZ01vZGUubm9ybWFsaXplKGNhcmQubWVtb3J5UHJvZmlsZUJpbmRpbmdNb2RlKSA9PQogICAgICAgICAgICAgICAgICAgIENoYXJhY3RlckNhcmRNZW1vcnlQcm9maWxlQmluZGluZ01vZGUuRklYRURfUFJPRklMRSAmJgogICAgICAgICAgICAgICAgIWNhcmQubWVtb3J5UHJvZmlsZUlkLmlzTnVsbE9yQmxhbmsoKQogICAgICAgICkgewogICAgICAgICAgICByZXF1aXJlTm90TnVsbChjYXJkLm1lbW9yeVByb2ZpbGVJZCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBhY3RpdmVQcm9maWxlSWQKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBkYXRhIGNsYXNzIFBsYW5uZWRDaGF0KAogICAgICAgIHZhbCBoaXN0b3J5OiBDaGF0SGlzdG9yeSwKICAgICAgICB2YWwgd2luZG93czogTGlzdDxDaGF0TWVtb3J5V2luZG93UGxhbm5lci5XaW5kb3c+LAogICAgICAgIHZhbCBtZW1vcnlQcm9maWxlSWQ6IFN0cmluZwogICAgKQp9Cg==
+package com.bslsjdk.operit.api.chat.library
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.api.chat.EnhancedAIService
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.data.model.ChatHistory
+import com.bslsjdk.operit.data.model.CharacterCardMemoryProfileBindingMode
+import com.bslsjdk.operit.data.model.FunctionType
+import com.bslsjdk.operit.data.preferences.CharacterCardManager
+import com.bslsjdk.operit.data.preferences.preferencesManager
+import com.bslsjdk.operit.data.repository.ChatHistoryManager
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.SupervisorJob
+import kotlinx.coroutines.ensureActive
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+import kotlin.coroutines.coroutineContext
+
+class ChatMemoryRebuildManager private constructor(private val context: Context) {
+
+    companion object {
+        private const val TAG = "ChatMemoryRebuild"
+
+        @Volatile
+        private var instance: ChatMemoryRebuildManager? = null
+
+        fun getInstance(context: Context): ChatMemoryRebuildManager =
+            instance ?: synchronized(this) {
+                instance ?: ChatMemoryRebuildManager(context.applicationContext).also { instance = it }
+            }
+    }
+
+    data class Progress(
+        val status: Status = Status.IDLE,
+        val totalChats: Int = 0,
+        val completedChats: Int = 0,
+        val currentChatTitle: String = "",
+        val totalWindows: Int = 0,
+        val completedWindows: Int = 0,
+        val totalSourceMessages: Int = 0,
+        val processedSourceMessages: Int = 0,
+        val failedWindows: Int = 0,
+        val errorMessage: String = ""
+    ) {
+        val fraction: Float
+            get() =
+                if (totalSourceMessages <= 0) 0f
+                else processedSourceMessages.toFloat() / totalSourceMessages.toFloat()
+    }
+
+    enum class Status {
+        IDLE,
+        PREPARING,
+        RUNNING,
+        COMPLETED,
+        CANCELLED,
+        FAILED
+    }
+
+    private val scope = CoroutineScope(SupervisorJob() + Dispatchers.IO)
+    private val operationMutex = Mutex()
+    private val _progress = MutableStateFlow(Progress())
+    val progress: StateFlow<Progress> = _progress.asStateFlow()
+
+    @Volatile
+    private var runningJob: Job? = null
+
+    fun start(
+        chatIds: List<String>,
+        windowMessageCount: Int,
+        timeScope: ChatMemoryRebuildTimeScope
+    ) {
+        if (runningJob?.isActive == true) return
+        val distinctChatIds = chatIds.filter(String::isNotBlank).distinct()
+        if (distinctChatIds.isEmpty()) return
+
+        runningJob = scope.launch {
+            operationMutex.withLock {
+                rebuild(distinctChatIds, windowMessageCount, timeScope)
+            }
+        }
+    }
+
+    fun cancel() {
+        runningJob?.cancel()
+    }
+
+    private suspend fun rebuild(
+        chatIds: List<String>,
+        windowMessageCount: Int,
+        timeScope: ChatMemoryRebuildTimeScope
+    ) {
+        try {
+            _progress.value = Progress(status = Status.PREPARING, totalChats = chatIds.size)
+            val chatHistoryManager = ChatHistoryManager.getInstance(context)
+            val selectedHistories =
+                chatHistoryManager.chatHistoriesFlow.first().filter { it.id in chatIds }
+            require(selectedHistories.isNotEmpty()) { "No selected chat history found" }
+            val activeProfileId = preferencesManager.activeMemorySpaceIdFlow.first()
+
+            val plannedChats = selectedHistories.map { history ->
+                val messages = chatHistoryManager.loadChatMessages(history.id)
+                PlannedChat(
+                    history = history,
+                    windows = ChatMemoryWindowPlanner.plan(messages, windowMessageCount, timeScope),
+                    memoryProfileId = resolveMemoryProfileId(history, activeProfileId)
+                )
+            }
+            val totalWindows = plannedChats.sumOf { it.windows.size }
+            val totalSourceMessages = plannedChats.sumOf { plannedChat ->
+                plannedChat.windows.sumOf { window -> window.sourceMessageCount }
+            }
+            require(totalWindows > 0) {
+                when (timeScope) {
+                    ChatMemoryRebuildTimeScope.EntireChat ->
+                        "Selected chats do not contain any user messages to rebuild"
+                    is ChatMemoryRebuildTimeScope.InclusiveLocalRange ->
+                        context.getString(R.string.chat_memory_rebuild_empty_range)
+                }
+            }
+
+            val toolHandler = AIToolHandler.getInstance(context)
+            val memoryService = EnhancedAIService.getAIServiceForFunction(context, FunctionType.MEMORY)
+            var completedChats = 0
+            var completedWindows = 0
+            var processedSourceMessages = 0
+            var failedWindows = 0
+            _progress.value = Progress(
+                status = Status.RUNNING,
+                totalChats = plannedChats.size,
+                totalWindows = totalWindows,
+                totalSourceMessages = totalSourceMessages
+            )
+
+            plannedChats.forEach { plannedChat ->
+                coroutineContext.ensureActive()
+                plannedChat.windows.forEach { window ->
+                    coroutineContext.ensureActive()
+                    _progress.value = Progress(
+                        status = Status.RUNNING,
+                        totalChats = plannedChats.size,
+                        completedChats = completedChats,
+                        currentChatTitle = plannedChat.history.title,
+                        totalWindows = totalWindows,
+                        completedWindows = completedWindows,
+                        totalSourceMessages = totalSourceMessages,
+                        processedSourceMessages = processedSourceMessages,
+                        failedWindows = failedWindows
+                    )
+                    try {
+                        val history = window.messages.map { message ->
+                            when (message.sender) {
+                                "user" -> "user" to message.content
+                                "ai", "assistant" -> "assistant" to message.content
+                                else -> error("Unsupported memory rebuild message sender: ${message.sender}")
+                            }
+                        }
+                        val content =
+                            window.messages.lastOrNull {
+                                it.sender == "ai" || it.sender == "assistant"
+                            }?.content
+                                ?: window.messages.lastOrNull { it.sender == "user" }?.content.orEmpty()
+                        MemoryLibrary.saveMemoryWindowNow(
+                            context = context,
+                            toolHandler = toolHandler,
+                            conversationHistory = history,
+                            content = content,
+                            aiService = memoryService,
+                            profileIdOverride = plannedChat.memoryProfileId,
+                            analysisHistoryLimit = window.messages.size
+                        )
+                    } catch (error: Exception) {
+                        if (error is CancellationException) throw error
+                        failedWindows++
+                        AppLogger.e(
+                            TAG,
+                            "窗口记忆重建失败: chatId=${plannedChat.history.id}, title=${plannedChat.history.title}",
+                            error
+                        )
+                    }
+                    completedWindows++
+                    processedSourceMessages += window.sourceMessageCount
+                }
+                completedChats++
+            }
+            _progress.value = Progress(
+                status = Status.COMPLETED,
+                totalChats = plannedChats.size,
+                completedChats = completedChats,
+                totalWindows = totalWindows,
+                completedWindows = completedWindows,
+                totalSourceMessages = totalSourceMessages,
+                processedSourceMessages = totalSourceMessages,
+                failedWindows = failedWindows
+            )
+        } catch (error: CancellationException) {
+            _progress.value = _progress.value.copy(status = Status.CANCELLED)
+            AppLogger.i(TAG, "聊天记忆重建已取消")
+        } catch (error: Exception) {
+            AppLogger.e(TAG, "聊天记忆重建失败", error)
+            _progress.value = _progress.value.copy(
+                status = Status.FAILED,
+                errorMessage = error.localizedMessage ?: error.javaClass.simpleName
+            )
+        }
+    }
+
+    private suspend fun resolveMemoryProfileId(
+        history: ChatHistory,
+        activeProfileId: String
+    ): String {
+        if (!history.characterGroupId.isNullOrBlank()) {
+            return activeProfileId
+        }
+        val cardName = history.characterCardName ?: return activeProfileId
+        val card = CharacterCardManager.getInstance(context).getAllCharacterCards()
+            .firstOrNull { it.name == cardName }
+        return if (
+            card != null &&
+                CharacterCardMemoryProfileBindingMode.normalize(card.memoryProfileBindingMode) ==
+                    CharacterCardMemoryProfileBindingMode.FIXED_PROFILE &&
+                !card.memoryProfileId.isNullOrBlank()
+        ) {
+            requireNotNull(card.memoryProfileId)
+        } else {
+            activeProfileId
+        }
+    }
+
+    private data class PlannedChat(
+        val history: ChatHistory,
+        val windows: List<ChatMemoryWindowPlanner.Window>,
+        val memoryProfileId: String
+    )
+}

@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5jaGF0Lmhvb2tzCgppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBQcm9tcHRUdXJuS2luZFRlc3QgewoKICAgIEBUZXN0IGZ1biBmcm9tUm9sZV9tYXBzQWlUb0Fzc2lzdGFudCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoUHJvbXB0VHVybktpbmQuQVNTSVNUQU5ULCBQcm9tcHRUdXJuS2luZC5mcm9tUm9sZSgiYWkiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZnJvbVJvbGVfbWFwc1Rvb2xVc2VUb1Rvb2xDYWxsKCkgewogICAgICAgIGFzc2VydEVxdWFscyhQcm9tcHRUdXJuS2luZC5UT09MX0NBTEwsIFByb21wdFR1cm5LaW5kLmZyb21Sb2xlKCJ0b29sX3VzZSIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBmcm9tUm9sZV9tYXBzVW5rbm93blRvVXNlcigpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoUHJvbXB0VHVybktpbmQuVVNFUiwgUHJvbXB0VHVybktpbmQuZnJvbVJvbGUoInVua25vd24iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcm9sZVByb3BlcnR5X21hdGNoZXNLaW5kKCkgewogICAgICAgIGFzc2VydEVxdWFscygic3VtbWFyeSIsIFByb21wdFR1cm4oUHJvbXB0VHVybktpbmQuU1VNTUFSWSwgIngiKS5yb2xlKQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.chat.hooks
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class PromptTurnKindTest {
+
+    @Test fun fromRole_mapsAiToAssistant() {
+        assertEquals(PromptTurnKind.ASSISTANT, PromptTurnKind.fromRole("ai"))
+    }
+
+    @Test fun fromRole_mapsToolUseToToolCall() {
+        assertEquals(PromptTurnKind.TOOL_CALL, PromptTurnKind.fromRole("tool_use"))
+    }
+
+    @Test fun fromRole_mapsUnknownToUser() {
+        assertEquals(PromptTurnKind.USER, PromptTurnKind.fromRole("unknown"))
+    }
+
+    @Test fun roleProperty_matchesKind() {
+        assertEquals("summary", PromptTurn(PromptTurnKind.SUMMARY, "x").role)
+    }
+}

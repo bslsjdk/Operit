@@ -1,1 +1,167 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuZnVsbHNjcmVlbi5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uQW5pbWF0ZWRWaXNpYmlsaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLmFuaW1hdGVGbG9hdEFzU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmZhZGVJbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uZmFkZU91dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuU3BhY2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlBhZGRpbmdWYWx1ZXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlDb2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zSW5kZXhlZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxhenkucmVtZW1iZXJMYXp5TGlzdFN0YXRlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkxhdW5jaGVkRWZmZWN0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuZHJhd1dpdGhDb250ZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkJsZW5kTW9kZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5CcnVzaAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db21wb3NpdGluZ1N0cmF0ZWd5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLmdyYXBoaWNzTGF5ZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdE1lc3NhZ2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMucmVtZW1iZXJDaGF0TWVzc2FnZUhlaWdodE1lbW9yeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5zdHlsZS5idWJibGUuQnViYmxlU3R5bGVDaGF0TWVzc2FnZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLnRoZW1lLkxvY2FsVGhlbWVQcmVmZXJlbmNlU25hcHNob3QKCi8qKgogKiDmtojmga/mmL7npLrnu4Tku7YKICog5pi+56S655So5oi35raI5oGv5ZKMQUnmtojmga8KICovCkBDb21wb3NhYmxlCmZ1biBNZXNzYWdlRGlzcGxheSgKICAgIG1lc3NhZ2VzOiBMaXN0PENoYXRNZXNzYWdlPiwKICAgIHNwZWVjaFByZXZpZXdUZXh0OiBTdHJpbmcsCiAgICBzaG93U3BlZWNoT3ZlcmxheTogQm9vbGVhbiwKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyCikgewogICAgdmFsIHRoZW1lU25hcHNob3QgPSBMb2NhbFRoZW1lUHJlZmVyZW5jZVNuYXBzaG90LmN1cnJlbnQKICAgIHZhbCBidWJibGVVc2VyUm91bmRlZENvcm5lcnNFbmFibGVkID0gdGhlbWVTbmFwc2hvdC5idWJibGVVc2VyUm91bmRlZENvcm5lcnNFbmFibGVkCiAgICB2YWwgYnViYmxlQWlSb3VuZGVkQ29ybmVyc0VuYWJsZWQgPSB0aGVtZVNuYXBzaG90LmJ1YmJsZUFpUm91bmRlZENvcm5lcnNFbmFibGVkCiAgICB2YWwgYnViYmxlVXNlckNvbnRlbnRQYWRkaW5nTGVmdCA9IHRoZW1lU25hcHNob3QuYnViYmxlVXNlckNvbnRlbnRQYWRkaW5nTGVmdAogICAgdmFsIGJ1YmJsZVVzZXJDb250ZW50UGFkZGluZ1JpZ2h0ID0gdGhlbWVTbmFwc2hvdC5idWJibGVVc2VyQ29udGVudFBhZGRpbmdSaWdodAogICAgdmFsIGJ1YmJsZUFpQ29udGVudFBhZGRpbmdMZWZ0ID0gdGhlbWVTbmFwc2hvdC5idWJibGVBaUNvbnRlbnRQYWRkaW5nTGVmdAogICAgdmFsIGJ1YmJsZUFpQ29udGVudFBhZGRpbmdSaWdodCA9IHRoZW1lU25hcHNob3QuYnViYmxlQWlDb250ZW50UGFkZGluZ1JpZ2h0CiAgICB2YWwgbGlzdFN0YXRlID0gcmVtZW1iZXJMYXp5TGlzdFN0YXRlKCkKICAgIHZhbCBkaXNwbGF5TWVzc2FnZXMgPQogICAgICAgIG1lc3NhZ2VzCiAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5zZW5kZXIgIT0gInRoaW5rIiB9CiAgICAgICAgICAgIC5hc1JldmVyc2VkKCkKICAgIHZhbCBtZXNzYWdlSGVpZ2h0TWVtb3J5ID0gcmVtZW1iZXJDaGF0TWVzc2FnZUhlaWdodE1lbW9yeShkaXNwbGF5TWVzc2FnZXMpCgogICAgTGF1bmNoZWRFZmZlY3QoZGlzcGxheU1lc3NhZ2VzLnNpemUpIHsKICAgICAgICBpZiAoZGlzcGxheU1lc3NhZ2VzLmlzTm90RW1wdHkoKSkgewogICAgICAgICAgICBsaXN0U3RhdGUuYW5pbWF0ZVNjcm9sbFRvSXRlbSgwKQogICAgICAgIH0KICAgIH0KCiAgICB2YWwgdXNlck1lc3NhZ2VDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeUNvbnRhaW5lcgogICAgdmFsIGFpTWVzc2FnZUNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlCiAgICB2YWwgdXNlclRleHRDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25QcmltYXJ5Q29udGFpbmVyCiAgICB2YWwgYWlUZXh0Q29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgdmFsIHN5c3RlbU1lc3NhZ2VDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZVZhcmlhbnQKICAgIHZhbCBzeXN0ZW1UZXh0Q29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKCiAgICB2YWwgbGlzdEFscGhhIGJ5IGFuaW1hdGVGbG9hdEFzU3RhdGUodGFyZ2V0VmFsdWUgPSAxZikKCiAgICBCb3gobW9kaWZpZXIgPSBtb2RpZmllcikgewogICAgICAgIExhenlDb2x1bW4oCiAgICAgICAgICAgIHN0YXRlID0gbGlzdFN0YXRlLAogICAgICAgICAgICByZXZlcnNlTGF5b3V0ID0gdHJ1ZSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLmZpbGxNYXhTaXplKCkKICAgICAgICAgICAgICAgIC5ncmFwaGljc0xheWVyKGNvbXBvc2l0aW5nU3RyYXRlZ3kgPSBDb21wb3NpdGluZ1N0cmF0ZWd5Lk9mZnNjcmVlbikKICAgICAgICAgICAgICAgIC5kcmF3V2l0aENvbnRlbnQgewogICAgICAgICAgICAgICAgICAgIGRyYXdDb250ZW50KCkKICAgICAgICAgICAgICAgICAgICB2YWwgdG9wRmFkZVB4ID0gOTYuZHAudG9QeCgpCiAgICAgICAgICAgICAgICAgICAgdmFsIGJvdHRvbUZhZGVQeCA9IDcyLmRwLnRvUHgoKQogICAgICAgICAgICAgICAgICAgIHZhbCBoZWlnaHRQeCA9IHNpemUuaGVpZ2h0LmNvZXJjZUF0TGVhc3QoMWYpCiAgICAgICAgICAgICAgICAgICAgdmFsIHRvcEZyYWMgPSAodG9wRmFkZVB4IC8gaGVpZ2h0UHgpLmNvZXJjZUluKDBmLCAxZikKICAgICAgICAgICAgICAgICAgICB2YWwgYm90dG9tRnJhYyA9IChib3R0b21GYWRlUHggLyBoZWlnaHRQeCkuY29lcmNlSW4oMGYsIDFmKQogICAgICAgICAgICAgICAgICAgIHZhbCBib3R0b21TdGFydCA9ICgxZiAtIGJvdHRvbUZyYWMpLmNvZXJjZUluKDBmLCAxZikKICAgICAgICAgICAgICAgICAgICBkcmF3UmVjdCgKICAgICAgICAgICAgICAgICAgICAgICAgYnJ1c2ggPSBCcnVzaC52ZXJ0aWNhbEdyYWRpZW50KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3JTdG9wcyA9IGFycmF5T2YoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMGYgdG8gQ29sb3IuVHJhbnNwYXJlbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9wRnJhYyB0byBDb2xvci5XaGl0ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3R0b21TdGFydCB0byBDb2xvci5XaGl0ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxZiB0byBDb2xvci5UcmFuc3BhcmVudAogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YXJ0WSA9IDBmLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZW5kWSA9IHNpemUuaGVpZ2h0CiAgICAgICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgICAgIGJsZW5kTW9kZSA9IEJsZW5kTW9kZS5Ec3RJbgogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIC5ncmFwaGljc0xheWVyKGFscGhhID0gbGlzdEFscGhhKSwKICAgICAgICAgICAgY29udGVudFBhZGRpbmcgPSBQYWRkaW5nVmFsdWVzKGhvcml6b250YWwgPSA4LmRwLCB2ZXJ0aWNhbCA9IDE2LmRwKQogICAgICAgICkgewogICAgICAgICAgICBpdGVtKGtleSA9ICJib3R0b21TcGFjZXIiKSB7CiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoNjAuZHApKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpdGVtc0luZGV4ZWQoCiAgICAgICAgICAgICAgICBpdGVtcyA9IGRpc3BsYXlNZXNzYWdlcywKICAgICAgICAgICAgICAgIGtleSA9IHsgaW5kZXgsIG1lc3NhZ2UgLT4gIiR7aW5kZXh9XyR7bWVzc2FnZS50aW1lc3RhbXB9IiB9CiAgICAgICAgICAgICkgeyBfLCBtZXNzYWdlIC0+CiAgICAgICAgICAgICAgICBCdWJibGVTdHlsZUNoYXRNZXNzYWdlKAogICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBtZXNzYWdlLAogICAgICAgICAgICAgICAgICAgIHVzZXJNZXNzYWdlQ29sb3IgPSB1c2VyTWVzc2FnZUNvbG9yLAogICAgICAgICAgICAgICAgICAgIGFpTWVzc2FnZUNvbG9yID0gYWlNZXNzYWdlQ29sb3IsCiAgICAgICAgICAgICAgICAgICAgdXNlclRleHRDb2xvciA9IHVzZXJUZXh0Q29sb3IsCiAgICAgICAgICAgICAgICAgICAgYWlUZXh0Q29sb3IgPSBhaVRleHRDb2xvciwKICAgICAgICAgICAgICAgICAgICBzeXN0ZW1NZXNzYWdlQ29sb3IgPSBzeXN0ZW1NZXNzYWdlQ29sb3IsCiAgICAgICAgICAgICAgICAgICAgc3lzdGVtVGV4dENvbG9yID0gc3lzdGVtVGV4dENvbG9yLAogICAgICAgICAgICAgICAgICAgIGJ1YmJsZVVzZXJSb3VuZGVkQ29ybmVyc0VuYWJsZWQgPSBidWJibGVVc2VyUm91bmRlZENvcm5lcnNFbmFibGVkLAogICAgICAgICAgICAgICAgICAgIGJ1YmJsZUFpUm91bmRlZENvcm5lcnNFbmFibGVkID0gYnViYmxlQWlSb3VuZGVkQ29ybmVyc0VuYWJsZWQsCiAgICAgICAgICAgICAgICAgICAgYnViYmxlVXNlckNvbnRlbnRQYWRkaW5nTGVmdCA9IGJ1YmJsZVVzZXJDb250ZW50UGFkZGluZ0xlZnQsCiAgICAgICAgICAgICAgICAgICAgYnViYmxlVXNlckNvbnRlbnRQYWRkaW5nUmlnaHQgPSBidWJibGVVc2VyQ29udGVudFBhZGRpbmdSaWdodCwKICAgICAgICAgICAgICAgICAgICBidWJibGVBaUNvbnRlbnRQYWRkaW5nTGVmdCA9IGJ1YmJsZUFpQ29udGVudFBhZGRpbmdMZWZ0LAogICAgICAgICAgICAgICAgICAgIGJ1YmJsZUFpQ29udGVudFBhZGRpbmdSaWdodCA9IGJ1YmJsZUFpQ29udGVudFBhZGRpbmdSaWdodCwKICAgICAgICAgICAgICAgICAgICBoZWlnaHRNZW1vcnkgPSBtZXNzYWdlSGVpZ2h0TWVtb3J5LAogICAgICAgICAgICAgICAgICAgIGVuYWJsZURpYWxvZ3MgPSBmYWxzZQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBBbmltYXRlZFZpc2liaWxpdHkoCiAgICAgICAgICAgIHZpc2libGUgPSBzaG93U3BlZWNoT3ZlcmxheSwKICAgICAgICAgICAgZW50ZXIgPSBmYWRlSW4oKSwKICAgICAgICAgICAgZXhpdCA9IGZhZGVPdXQoKSwKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4U2l6ZSgpCiAgICAgICAgKSB7CiAgICAgICAgICAgIEJveCgKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFNpemUoKQogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSA4LmRwLCB2ZXJ0aWNhbCA9IDE2LmRwKSwKICAgICAgICAgICAgICAgIGNvbnRlbnRBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQm90dG9tQ2VudGVyCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgaWYgKHNwZWVjaFByZXZpZXdUZXh0LmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgIEJ1YmJsZVN0eWxlQ2hhdE1lc3NhZ2UoCiAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBDaGF0TWVzc2FnZShzZW5kZXIgPSAidXNlciIsIGNvbnRlbnQgPSBzcGVlY2hQcmV2aWV3VGV4dCwgdGltZXN0YW1wID0gMEwpLAogICAgICAgICAgICAgICAgICAgICAgICB1c2VyTWVzc2FnZUNvbG9yID0gdXNlck1lc3NhZ2VDb2xvciwKICAgICAgICAgICAgICAgICAgICAgICAgYWlNZXNzYWdlQ29sb3IgPSBhaU1lc3NhZ2VDb2xvciwKICAgICAgICAgICAgICAgICAgICAgICAgdXNlclRleHRDb2xvciA9IHVzZXJUZXh0Q29sb3IsCiAgICAgICAgICAgICAgICAgICAgICAgIGFpVGV4dENvbG9yID0gYWlUZXh0Q29sb3IsCiAgICAgICAgICAgICAgICAgICAgICAgIHN5c3RlbU1lc3NhZ2VDb2xvciA9IHN5c3RlbU1lc3NhZ2VDb2xvciwKICAgICAgICAgICAgICAgICAgICAgICAgc3lzdGVtVGV4dENvbG9yID0gc3lzdGVtVGV4dENvbG9yLAogICAgICAgICAgICAgICAgICAgICAgICBidWJibGVVc2VyUm91bmRlZENvcm5lcnNFbmFibGVkID0gYnViYmxlVXNlclJvdW5kZWRDb3JuZXJzRW5hYmxlZCwKICAgICAgICAgICAgICAgICAgICAgICAgYnViYmxlQWlSb3VuZGVkQ29ybmVyc0VuYWJsZWQgPSBidWJibGVBaVJvdW5kZWRDb3JuZXJzRW5hYmxlZCwKICAgICAgICAgICAgICAgICAgICAgICAgYnViYmxlVXNlckNvbnRlbnRQYWRkaW5nTGVmdCA9IGJ1YmJsZVVzZXJDb250ZW50UGFkZGluZ0xlZnQsCiAgICAgICAgICAgICAgICAgICAgICAgIGJ1YmJsZVVzZXJDb250ZW50UGFkZGluZ1JpZ2h0ID0gYnViYmxlVXNlckNvbnRlbnRQYWRkaW5nUmlnaHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGJ1YmJsZUFpQ29udGVudFBhZGRpbmdMZWZ0ID0gYnViYmxlQWlDb250ZW50UGFkZGluZ0xlZnQsCiAgICAgICAgICAgICAgICAgICAgICAgIGJ1YmJsZUFpQ29udGVudFBhZGRpbmdSaWdodCA9IGJ1YmJsZUFpQ29udGVudFBhZGRpbmdSaWdodCwKICAgICAgICAgICAgICAgICAgICAgICAgZW5hYmxlRGlhbG9ncyA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.floating.ui.fullscreen.components
+
+import androidx.compose.animation.AnimatedVisibility
+import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.drawWithContent
+import androidx.compose.ui.graphics.BlendMode
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.CompositingStrategy
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.data.model.ChatMessage
+import com.bslsjdk.operit.ui.features.chat.components.rememberChatMessageHeightMemory
+import com.bslsjdk.operit.ui.features.chat.components.style.bubble.BubbleStyleChatMessage
+import com.bslsjdk.operit.ui.theme.LocalThemePreferenceSnapshot
+
+/**
+ * 消息显示组件
+ * 显示用户消息和AI消息
+ */
+@Composable
+fun MessageDisplay(
+    messages: List<ChatMessage>,
+    speechPreviewText: String,
+    showSpeechOverlay: Boolean,
+    modifier: Modifier = Modifier
+) {
+    val themeSnapshot = LocalThemePreferenceSnapshot.current
+    val bubbleUserRoundedCornersEnabled = themeSnapshot.bubbleUserRoundedCornersEnabled
+    val bubbleAiRoundedCornersEnabled = themeSnapshot.bubbleAiRoundedCornersEnabled
+    val bubbleUserContentPaddingLeft = themeSnapshot.bubbleUserContentPaddingLeft
+    val bubbleUserContentPaddingRight = themeSnapshot.bubbleUserContentPaddingRight
+    val bubbleAiContentPaddingLeft = themeSnapshot.bubbleAiContentPaddingLeft
+    val bubbleAiContentPaddingRight = themeSnapshot.bubbleAiContentPaddingRight
+    val listState = rememberLazyListState()
+    val displayMessages =
+        messages
+            .filter { it.sender != "think" }
+            .asReversed()
+    val messageHeightMemory = rememberChatMessageHeightMemory(displayMessages)
+
+    LaunchedEffect(displayMessages.size) {
+        if (displayMessages.isNotEmpty()) {
+            listState.animateScrollToItem(0)
+        }
+    }
+
+    val userMessageColor = MaterialTheme.colorScheme.primaryContainer
+    val aiMessageColor = MaterialTheme.colorScheme.surface
+    val userTextColor = MaterialTheme.colorScheme.onPrimaryContainer
+    val aiTextColor = MaterialTheme.colorScheme.onSurface
+    val systemMessageColor = MaterialTheme.colorScheme.surfaceVariant
+    val systemTextColor = MaterialTheme.colorScheme.onSurfaceVariant
+
+    val listAlpha by animateFloatAsState(targetValue = 1f)
+
+    Box(modifier = modifier) {
+        LazyColumn(
+            state = listState,
+            reverseLayout = true,
+            modifier = Modifier
+                .fillMaxSize()
+                .graphicsLayer(compositingStrategy = CompositingStrategy.Offscreen)
+                .drawWithContent {
+                    drawContent()
+                    val topFadePx = 96.dp.toPx()
+                    val bottomFadePx = 72.dp.toPx()
+                    val heightPx = size.height.coerceAtLeast(1f)
+                    val topFrac = (topFadePx / heightPx).coerceIn(0f, 1f)
+                    val bottomFrac = (bottomFadePx / heightPx).coerceIn(0f, 1f)
+                    val bottomStart = (1f - bottomFrac).coerceIn(0f, 1f)
+                    drawRect(
+                        brush = Brush.verticalGradient(
+                            colorStops = arrayOf(
+                                0f to Color.Transparent,
+                                topFrac to Color.White,
+                                bottomStart to Color.White,
+                                1f to Color.Transparent
+                            ),
+                            startY = 0f,
+                            endY = size.height
+                        ),
+                        blendMode = BlendMode.DstIn
+                    )
+                }
+                .graphicsLayer(alpha = listAlpha),
+            contentPadding = PaddingValues(horizontal = 8.dp, vertical = 16.dp)
+        ) {
+            item(key = "bottomSpacer") {
+                Spacer(modifier = Modifier.height(60.dp))
+            }
+
+            itemsIndexed(
+                items = displayMessages,
+                key = { index, message -> "${index}_${message.timestamp}" }
+            ) { _, message ->
+                BubbleStyleChatMessage(
+                    message = message,
+                    userMessageColor = userMessageColor,
+                    aiMessageColor = aiMessageColor,
+                    userTextColor = userTextColor,
+                    aiTextColor = aiTextColor,
+                    systemMessageColor = systemMessageColor,
+                    systemTextColor = systemTextColor,
+                    bubbleUserRoundedCornersEnabled = bubbleUserRoundedCornersEnabled,
+                    bubbleAiRoundedCornersEnabled = bubbleAiRoundedCornersEnabled,
+                    bubbleUserContentPaddingLeft = bubbleUserContentPaddingLeft,
+                    bubbleUserContentPaddingRight = bubbleUserContentPaddingRight,
+                    bubbleAiContentPaddingLeft = bubbleAiContentPaddingLeft,
+                    bubbleAiContentPaddingRight = bubbleAiContentPaddingRight,
+                    heightMemory = messageHeightMemory,
+                    enableDialogs = false
+                )
+            }
+        }
+
+        AnimatedVisibility(
+            visible = showSpeechOverlay,
+            enter = fadeIn(),
+            exit = fadeOut(),
+            modifier = Modifier.fillMaxSize()
+        ) {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(horizontal = 8.dp, vertical = 16.dp),
+                contentAlignment = Alignment.BottomCenter
+            ) {
+                if (speechPreviewText.isNotBlank()) {
+                    BubbleStyleChatMessage(
+                        message = ChatMessage(sender = "user", content = speechPreviewText, timestamp = 0L),
+                        userMessageColor = userMessageColor,
+                        aiMessageColor = aiMessageColor,
+                        userTextColor = userTextColor,
+                        aiTextColor = aiTextColor,
+                        systemMessageColor = systemMessageColor,
+                        systemTextColor = systemTextColor,
+                        bubbleUserRoundedCornersEnabled = bubbleUserRoundedCornersEnabled,
+                        bubbleAiRoundedCornersEnabled = bubbleAiRoundedCornersEnabled,
+                        bubbleUserContentPaddingLeft = bubbleUserContentPaddingLeft,
+                        bubbleUserContentPaddingRight = bubbleUserContentPaddingRight,
+                        bubbleAiContentPaddingLeft = bubbleAiContentPaddingLeft,
+                        bubbleAiContentPaddingRight = bubbleAiContentPaddingRight,
+                        enableDialogs = false
+                    )
+                }
+            }
+        }
+    }
+}

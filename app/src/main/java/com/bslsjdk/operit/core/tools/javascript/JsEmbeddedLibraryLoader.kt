@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKCmludGVybmFsIGZ1biBsb2FkUGFrb0pzKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgPSBsb2FkRW1iZWRkZWRMaWJyYXJ5KGNvbnRleHQsICJqcy9wYWtvLmpzIikKCmludGVybmFsIGZ1biBsb2FkQ3J5cHRvSnMoY29udGV4dDogQ29udGV4dCk6IFN0cmluZyA9IGxvYWRFbWJlZGRlZExpYnJhcnkoY29udGV4dCwgImpzL0NyeXB0b0pTLmpzIikKCmludGVybmFsIGZ1biBsb2FkSmltcEpzKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgPSBsb2FkRW1iZWRkZWRMaWJyYXJ5KGNvbnRleHQsICJqcy9KaW1wLmpzIikKCnByaXZhdGUgZnVuIGxvYWRFbWJlZGRlZExpYnJhcnkoY29udGV4dDogQ29udGV4dCwgYXNzZXRQYXRoOiBTdHJpbmcpOiBTdHJpbmcgewogICAgcmV0dXJuIHRyeSB7CiAgICAgICAgY29udGV4dC5hc3NldHMub3Blbihhc3NldFBhdGgpLmJ1ZmZlcmVkUmVhZGVyKCkudXNlIHsgaXQucmVhZFRleHQoKSB9CiAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAiIgogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.javascript
+
+import android.content.Context
+
+internal fun loadPakoJs(context: Context): String = loadEmbeddedLibrary(context, "js/pako.js")
+
+internal fun loadCryptoJs(context: Context): String = loadEmbeddedLibrary(context, "js/CryptoJS.js")
+
+internal fun loadJimpJs(context: Context): String = loadEmbeddedLibrary(context, "js/Jimp.js")
+
+private fun loadEmbeddedLibrary(context: Context, assetPath: String): String {
+    return try {
+        context.assets.open(assetPath).bufferedReader().use { it.readText() }
+    } catch (_: Exception) {
+        ""
+    }
+}

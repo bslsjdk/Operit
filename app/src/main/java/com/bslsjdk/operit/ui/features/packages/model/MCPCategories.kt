@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucy5tY3AubW9kZWwKCi8qKiBNQ1Dmj5Lku7bliIbnsbvluLjph48gKi8Kb2JqZWN0IE1DUENhdGVnb3JpZXMgewogICAgY29uc3QgdmFsIEFMTCA9ICJBbGwiCiAgICBjb25zdCB2YWwgU0VBUkNIID0gIlNlYXJjaCIKICAgIGNvbnN0IHZhbCBBUEkgPSAiQVBJIgogICAgY29uc3QgdmFsIEdFTkVSQVRJT04gPSAiR2VuZXJhdGlvbiIKICAgIGNvbnN0IHZhbCBGSUxFID0gIkZpbGUiCiAgICBjb25zdCB2YWwgREFUQUJBU0UgPSAiRGF0YWJhc2UiCiAgICBjb25zdCB2YWwgV0VCID0gIldlYiIKICAgIGNvbnN0IHZhbCBET0NVTUVOVCA9ICJEb2N1bWVudCIKICAgIGNvbnN0IHZhbCBPVEhFUiA9ICJPdGhlciIKCiAgICAvLyDmiYDmnInliIbnsbvliJfooagKICAgIHZhbCB2YWx1ZXMgPSBsaXN0T2YoQUxMLCBTRUFSQ0gsIEFQSSwgR0VORVJBVElPTiwgRklMRSwgREFUQUJBU0UsIFdFQiwgRE9DVU1FTlQsIE9USEVSKQp9Cg==
+package com.bslsjdk.operit.ui.features.packages.screens.mcp.model
+
+/** MCP插件分类常量 */
+object MCPCategories {
+    const val ALL = "All"
+    const val SEARCH = "Search"
+    const val API = "API"
+    const val GENERATION = "Generation"
+    const val FILE = "File"
+    const val DATABASE = "Database"
+    const val WEB = "Web"
+    const val DOCUMENT = "Document"
+    const val OTHER = "Other"
+
+    // 所有分类列表
+    val values = listOf(ALL, SEARCH, API, GENERATION, FILE, DATABASE, WEB, DOCUMENT, OTHER)
+}

@@ -1,1 +1,208 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgRmlsZSA9IEphdmEudHlwZSgnamF2YS5pby5GaWxlJyk7CgpmdW5jdGlvbiBlbnN1cmVEaXIocGF0aCkgewogIGNvbnN0IGRpciA9IG5ldyBGaWxlKFN0cmluZyhwYXRoKSk7CiAgaWYgKCFkaXIuZXhpc3RzKCkpIHsKICAgIGRpci5ta2RpcnMoKTsKICB9CiAgcmV0dXJuIGRpcjsKfQoKZnVuY3Rpb24gbmV4dElkKHByZWZpeCkgewogIHJldHVybiBTdHJpbmcocHJlZml4KSArICdfJyArIERhdGUubm93KCkgKyAnXycgKyBNYXRoLnJhbmRvbSgpLnRvU3RyaW5nKDM2KS5zbGljZSgyLCAxMCk7Cn0KCmZ1bmN0aW9uIHNhZmVTZXJpYWxpemUodmFsdWUpIHsKICB0cnkgewogICAgcmV0dXJuIEpTT04uc3RyaW5naWZ5KHZhbHVlKTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gU3RyaW5nKHZhbHVlKTsKICB9Cn0KCmZ1bmN0aW9uIHN1bW1hcml6ZVBheWxvYWQodmFsdWUpIHsKICBpZiAodmFsdWUgPT0gbnVsbCkgewogICAgcmV0dXJuIHsKICAgICAgdHlwZTogU3RyaW5nKHZhbHVlKSwKICAgICAgdmFsdWU6IHZhbHVlLAogICAgfTsKICB9CgogIGlmICh0eXBlb2YgdmFsdWUgPT09ICdzdHJpbmcnKSB7CiAgICBjb25zdCB0cmltbWVkID0gdmFsdWUudHJpbSgpOwogICAgbGV0IHBhcnNlZCA9IG51bGw7CiAgICBpZiAoKHRyaW1tZWQuc3RhcnRzV2l0aCgneycpICYmIHRyaW1tZWQuZW5kc1dpdGgoJ30nKSkgfHwgKHRyaW1tZWQuc3RhcnRzV2l0aCgnWycpICYmIHRyaW1tZWQuZW5kc1dpdGgoJ10nKSkpIHsKICAgICAgdHJ5IHsKICAgICAgICBwYXJzZWQgPSBKU09OLnBhcnNlKHRyaW1tZWQpOwogICAgICB9IGNhdGNoIChfaWdub3JlZCkgewogICAgICAgIHBhcnNlZCA9IG51bGw7CiAgICAgIH0KICAgIH0KICAgIHJldHVybiB7CiAgICAgIHR5cGU6ICdzdHJpbmcnLAogICAgICB0ZXh0OiB2YWx1ZSwKICAgICAgcGFyc2VkOiBwYXJzZWQsCiAgICB9OwogIH0KCiAgcmV0dXJuIHsKICAgIHR5cGU6IHR5cGVvZiB2YWx1ZSwKICAgIGtleXM6IHR5cGVvZiB2YWx1ZSA9PT0gJ29iamVjdCcgPyBPYmplY3Qua2V5cyh2YWx1ZSkgOiBudWxsLAogICAgdGV4dDogc2FmZVNlcmlhbGl6ZSh2YWx1ZSksCiAgICB2YWx1ZTogdmFsdWUsCiAgfTsKfQoKZnVuY3Rpb24gcmF3QXN5bmNUb29sQ2FsbCh0b29sVHlwZSwgdG9vbE5hbWUsIHBhcmFtcykgewogIHJldHVybiBuZXcgUHJvbWlzZShmdW5jdGlvbiAocmVzb2x2ZSkgewogICAgY29uc3QgY2FsbGJhY2tJZCA9IG5leHRJZCgnX19vcGVyaXRfcHJvYmUnKTsKICAgIGdsb2JhbFRoaXNbY2FsbGJhY2tJZF0gPSBmdW5jdGlvbiAocmVzdWx0LCBpc0Vycm9yKSB7CiAgICAgIHRyeSB7CiAgICAgICAgcmVzb2x2ZSh7CiAgICAgICAgICBjYWxsYmFja0lkOiBjYWxsYmFja0lkLAogICAgICAgICAgaXNFcnJvcjogISFpc0Vycm9yLAogICAgICAgICAgcGF5bG9hZDogc3VtbWFyaXplUGF5bG9hZChyZXN1bHQpLAogICAgICAgIH0pOwogICAgICB9IGZpbmFsbHkgewogICAgICAgIHRyeSB7CiAgICAgICAgICBkZWxldGUgZ2xvYmFsVGhpc1tjYWxsYmFja0lkXTsKICAgICAgICB9IGNhdGNoIChfaWdub3JlZCkgewogICAgICAgICAgZ2xvYmFsVGhpc1tjYWxsYmFja0lkXSA9IHVuZGVmaW5lZDsKICAgICAgICB9CiAgICAgIH0KICAgIH07CgogICAgTmF0aXZlSW50ZXJmYWNlLmNhbGxUb29sQXN5bmMoCiAgICAgIGNhbGxiYWNrSWQsCiAgICAgIHRvb2xUeXBlLAogICAgICB0b29sTmFtZSwKICAgICAgSlNPTi5zdHJpbmdpZnkocGFyYW1zIHx8IHt9KQogICAgKTsKICB9KTsKfQoKYXN5bmMgZnVuY3Rpb24gaGlnaExldmVsVG9vbENhbGwodG9vbFR5cGUsIHRvb2xOYW1lLCBwYXJhbXMpIHsKICB0cnkgewogICAgY29uc3QgdmFsdWUgPSBhd2FpdCB0b29sQ2FsbCh0b29sVHlwZSwgdG9vbE5hbWUsIHBhcmFtcyk7CiAgICByZXR1cm4gewogICAgICBvazogdHJ1ZSwKICAgICAgdmFsdWU6IHN1bW1hcml6ZVBheWxvYWQodmFsdWUpLAogICAgfTsKICB9IGNhdGNoIChlKSB7CiAgICByZXR1cm4gewogICAgICBvazogZmFsc2UsCiAgICAgIGVycm9yOiBTdHJpbmcoZSAmJiBlLm1lc3NhZ2UgPyBlLm1lc3NhZ2UgOiBlKSwKICAgICAgZGF0YTogZSAmJiB0eXBlb2YgZSA9PT0gJ29iamVjdCcgJiYgJ2RhdGEnIGluIGUgPyBzdW1tYXJpemVQYXlsb2FkKGUuZGF0YSkgOiBudWxsLAogICAgfTsKICB9Cn0KCmZ1bmN0aW9uIGZpbGVTdGF0ZShwYXRoKSB7CiAgY29uc3QgZmlsZSA9IG5ldyBGaWxlKFN0cmluZyhwYXRoKSk7CiAgcmV0dXJuIHsKICAgIGV4aXN0czogZmlsZS5leGlzdHMoKSwKICAgIGxlbmd0aDogZmlsZS5leGlzdHMoKSA/IE51bWJlcihmaWxlLmxlbmd0aCgpKSA6IDAsCiAgICBwYXRoOiBTdHJpbmcoZmlsZS5nZXRBYnNvbHV0ZVBhdGgoKSksCiAgfTsKfQoKYXN5bmMgZnVuY3Rpb24gcnVuRG93bmxvYWRQcm9iZUNhc2UoYmFzZURpciwgbmFtZSwgdXJsKSB7CiAgY29uc3QgZGVzdGluYXRpb24gPSBTdHJpbmcoYmFzZURpcikgKyAnLycgKyBuYW1lOwogIGNvbnN0IHBhcmFtcyA9IHsKICAgIHVybDogdXJsLAogICAgZGVzdGluYXRpb246IGRlc3RpbmF0aW9uLAogICAgZW52aXJvbm1lbnQ6ICdhbmRyb2lkJywKICB9OwoKICBjb25zdCBzeW5jUmF3ID0gU3RyaW5nKE5hdGl2ZUludGVyZmFjZS5jYWxsVG9vbCgnZGVmYXVsdCcsICdkb3dubG9hZF9maWxlJywgSlNPTi5zdHJpbmdpZnkocGFyYW1zKSkpOwogIGNvbnN0IHN5bmNTdW1tYXJ5ID0gc3VtbWFyaXplUGF5bG9hZChzeW5jUmF3KTsKCiAgY29uc3QgcmF3QXN5bmMgPSBhd2FpdCByYXdBc3luY1Rvb2xDYWxsKCdkZWZhdWx0JywgJ2Rvd25sb2FkX2ZpbGUnLCBwYXJhbXMpOwogIGNvbnN0IGhpZ2hMZXZlbCA9IGF3YWl0IGhpZ2hMZXZlbFRvb2xDYWxsKCdkZWZhdWx0JywgJ2Rvd25sb2FkX2ZpbGUnLCBwYXJhbXMpOwoKICByZXR1cm4gewogICAgbmFtZTogbmFtZSwKICAgIHVybDogdXJsLAogICAgZGVzdGluYXRpb246IGRlc3RpbmF0aW9uLAogICAgc3luYzogc3luY1N1bW1hcnksCiAgICByYXdBc3luYzogcmF3QXN5bmMsCiAgICBoaWdoTGV2ZWw6IGhpZ2hMZXZlbCwKICAgIGZpbGU6IGZpbGVTdGF0ZShkZXN0aW5hdGlvbiksCiAgfTsKfQoKYXN5bmMgZnVuY3Rpb24gcnVuUGFyYWxsZWxSYXdBc3luYyhjYXNlcykgewogIGNvbnN0IHN0YXJ0ZWRBdCA9IERhdGUubm93KCk7CiAgY29uc3QgcmVzdWx0cyA9IGF3YWl0IFByb21pc2UuYWxsKAogICAgY2FzZXMubWFwKGZ1bmN0aW9uIChpdGVtKSB7CiAgICAgIHJldHVybiByYXdBc3luY1Rvb2xDYWxsKCdkZWZhdWx0JywgJ2Rvd25sb2FkX2ZpbGUnLCB7CiAgICAgICAgdXJsOiBpdGVtLnVybCwKICAgICAgICBkZXN0aW5hdGlvbjogaXRlbS5kZXN0aW5hdGlvbiwKICAgICAgICBlbnZpcm9ubWVudDogJ2FuZHJvaWQnLAogICAgICB9KS50aGVuKGZ1bmN0aW9uIChyZXN1bHQpIHsKICAgICAgICByZXR1cm4gewogICAgICAgICAgbmFtZTogaXRlbS5uYW1lLAogICAgICAgICAgdXJsOiBpdGVtLnVybCwKICAgICAgICAgIGRlc3RpbmF0aW9uOiBpdGVtLmRlc3RpbmF0aW9uLAogICAgICAgICAgZWxhcHNlZE1zOiBEYXRlLm5vdygpIC0gc3RhcnRlZEF0LAogICAgICAgICAgcmF3QXN5bmM6IHJlc3VsdCwKICAgICAgICAgIGZpbGU6IGZpbGVTdGF0ZShpdGVtLmRlc3RpbmF0aW9uKSwKICAgICAgICB9OwogICAgICB9KTsKICAgIH0pCiAgKTsKCiAgcmV0dXJuIHsKICAgIHRvdGFsTXM6IERhdGUubm93KCkgLSBzdGFydGVkQXQsCiAgICByZXN1bHRzOiByZXN1bHRzLAogIH07Cn0KCmNvbnN0IHJvb3REaXIgPSAnL3NkY2FyZC9Eb3dubG9hZC9PcGVyaXQvanNfdGVzdF9kb3dubG9hZF9wcm9iZV8nICsgRGF0ZS5ub3coKTsKZW5zdXJlRGlyKHJvb3REaXIpOwoKY29uc3Qgc3VjY2Vzc0Nhc2VzID0gWwogIHsKICAgIG5hbWU6ICd0eXBlX2FuZHJvaWQuZC50cycsCiAgICB1cmw6ICdodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvQUFzd29yZG1hbi9PcGVyaXRAbWFpbi9leGFtcGxlcy90eXBlcy9hbmRyb2lkLmQudHMnLAogIH0sCiAgewogICAgbmFtZTogJ3R5cGVfY29yZS5kLnRzJywKICAgIHVybDogJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9BQXN3b3JkbWFuL09wZXJpdEBtYWluL2V4YW1wbGVzL3R5cGVzL2NvcmUuZC50cycsCiAgfSwKICB7CiAgICBuYW1lOiAndHlwZV9yZXN1bHRzLmQudHMnLAogICAgdXJsOiAnaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL0FBc3dvcmRtYW4vT3Blcml0QG1haW4vZXhhbXBsZXMvdHlwZXMvcmVzdWx0cy5kLnRzJywKICB9LApdOwoKY29uc3QgZmFpbHVyZUNhc2UgPSB7CiAgbmFtZTogJ21pc3NpbmdfZmlsZS5kLnRzJywKICB1cmw6ICdodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvZ2gvQUFzd29yZG1hbi9PcGVyaXRAbWFpbi9leGFtcGxlcy90eXBlcy9fX2RlZmluaXRlbHlfbWlzc2luZ19maWxlX18uZC50cycsCn07Cgpjb25zdCBzZXF1ZW50aWFsID0gW107CmZvciAoY29uc3QgaXRlbSBvZiBzdWNjZXNzQ2FzZXMpIHsKICBzZXF1ZW50aWFsLnB1c2goYXdhaXQgcnVuRG93bmxvYWRQcm9iZUNhc2Uocm9vdERpciwgaXRlbS5uYW1lLCBpdGVtLnVybCkpOwp9CnNlcXVlbnRpYWwucHVzaChhd2FpdCBydW5Eb3dubG9hZFByb2JlQ2FzZShyb290RGlyLCBmYWlsdXJlQ2FzZS5uYW1lLCBmYWlsdXJlQ2FzZS51cmwpKTsKCmNvbnN0IHBhcmFsbGVsQ2FzZXMgPSBzdWNjZXNzQ2FzZXMuY29uY2F0KFtmYWlsdXJlQ2FzZV0pLm1hcChmdW5jdGlvbiAoaXRlbSkgewogIHJldHVybiB7CiAgICBuYW1lOiAncGFyYWxsZWxfJyArIGl0ZW0ubmFtZSwKICAgIHVybDogaXRlbS51cmwsCiAgICBkZXN0aW5hdGlvbjogcm9vdERpciArICcvcGFyYWxsZWxfJyArIGl0ZW0ubmFtZSwKICB9Owp9KTsKCmNvbnN0IHBhcmFsbGVsUmF3QXN5bmMgPSBhd2FpdCBydW5QYXJhbGxlbFJhd0FzeW5jKHBhcmFsbGVsQ2FzZXMpOwoKcmV0dXJuIHsKICBzdWNjZXNzOiB0cnVlLAogIG1vZGU6ICdzY3JpcHQtbW9kZS1kb3dubG9hZC1maWxlLXByb2JlJywKICByb290RGlyOiByb290RGlyLAogIHNlcXVlbnRpYWw6IHNlcXVlbnRpYWwsCiAgcGFyYWxsZWxSYXdBc3luYzogcGFyYWxsZWxSYXdBc3luYywKfTsK
+'use strict';
+
+const File = Java.type('java.io.File');
+
+function ensureDir(path) {
+  const dir = new File(String(path));
+  if (!dir.exists()) {
+    dir.mkdirs();
+  }
+  return dir;
+}
+
+function nextId(prefix) {
+  return String(prefix) + '_' + Date.now() + '_' + Math.random().toString(36).slice(2, 10);
+}
+
+function safeSerialize(value) {
+  try {
+    return JSON.stringify(value);
+  } catch (e) {
+    return String(value);
+  }
+}
+
+function summarizePayload(value) {
+  if (value == null) {
+    return {
+      type: String(value),
+      value: value,
+    };
+  }
+
+  if (typeof value === 'string') {
+    const trimmed = value.trim();
+    let parsed = null;
+    if ((trimmed.startsWith('{') && trimmed.endsWith('}')) || (trimmed.startsWith('[') && trimmed.endsWith(']'))) {
+      try {
+        parsed = JSON.parse(trimmed);
+      } catch (_ignored) {
+        parsed = null;
+      }
+    }
+    return {
+      type: 'string',
+      text: value,
+      parsed: parsed,
+    };
+  }
+
+  return {
+    type: typeof value,
+    keys: typeof value === 'object' ? Object.keys(value) : null,
+    text: safeSerialize(value),
+    value: value,
+  };
+}
+
+function rawAsyncToolCall(toolType, toolName, params) {
+  return new Promise(function (resolve) {
+    const callbackId = nextId('__operit_probe');
+    globalThis[callbackId] = function (result, isError) {
+      try {
+        resolve({
+          callbackId: callbackId,
+          isError: !!isError,
+          payload: summarizePayload(result),
+        });
+      } finally {
+        try {
+          delete globalThis[callbackId];
+        } catch (_ignored) {
+          globalThis[callbackId] = undefined;
+        }
+      }
+    };
+
+    NativeInterface.callToolAsync(
+      callbackId,
+      toolType,
+      toolName,
+      JSON.stringify(params || {})
+    );
+  });
+}
+
+async function highLevelToolCall(toolType, toolName, params) {
+  try {
+    const value = await toolCall(toolType, toolName, params);
+    return {
+      ok: true,
+      value: summarizePayload(value),
+    };
+  } catch (e) {
+    return {
+      ok: false,
+      error: String(e && e.message ? e.message : e),
+      data: e && typeof e === 'object' && 'data' in e ? summarizePayload(e.data) : null,
+    };
+  }
+}
+
+function fileState(path) {
+  const file = new File(String(path));
+  return {
+    exists: file.exists(),
+    length: file.exists() ? Number(file.length()) : 0,
+    path: String(file.getAbsolutePath()),
+  };
+}
+
+async function runDownloadProbeCase(baseDir, name, url) {
+  const destination = String(baseDir) + '/' + name;
+  const params = {
+    url: url,
+    destination: destination,
+    environment: 'android',
+  };
+
+  const syncRaw = String(NativeInterface.callTool('default', 'download_file', JSON.stringify(params)));
+  const syncSummary = summarizePayload(syncRaw);
+
+  const rawAsync = await rawAsyncToolCall('default', 'download_file', params);
+  const highLevel = await highLevelToolCall('default', 'download_file', params);
+
+  return {
+    name: name,
+    url: url,
+    destination: destination,
+    sync: syncSummary,
+    rawAsync: rawAsync,
+    highLevel: highLevel,
+    file: fileState(destination),
+  };
+}
+
+async function runParallelRawAsync(cases) {
+  const startedAt = Date.now();
+  const results = await Promise.all(
+    cases.map(function (item) {
+      return rawAsyncToolCall('default', 'download_file', {
+        url: item.url,
+        destination: item.destination,
+        environment: 'android',
+      }).then(function (result) {
+        return {
+          name: item.name,
+          url: item.url,
+          destination: item.destination,
+          elapsedMs: Date.now() - startedAt,
+          rawAsync: result,
+          file: fileState(item.destination),
+        };
+      });
+    })
+  );
+
+  return {
+    totalMs: Date.now() - startedAt,
+    results: results,
+  };
+}
+
+const rootDir = '/sdcard/Download/Operit/js_test_download_probe_' + Date.now();
+ensureDir(rootDir);
+
+const successCases = [
+  {
+    name: 'type_android.d.ts',
+    url: 'https://cdn.jsdelivr.net/gh/AAswordman/Operit@main/examples/types/android.d.ts',
+  },
+  {
+    name: 'type_core.d.ts',
+    url: 'https://cdn.jsdelivr.net/gh/AAswordman/Operit@main/examples/types/core.d.ts',
+  },
+  {
+    name: 'type_results.d.ts',
+    url: 'https://cdn.jsdelivr.net/gh/AAswordman/Operit@main/examples/types/results.d.ts',
+  },
+];
+
+const failureCase = {
+  name: 'missing_file.d.ts',
+  url: 'https://cdn.jsdelivr.net/gh/AAswordman/Operit@main/examples/types/__definitely_missing_file__.d.ts',
+};
+
+const sequential = [];
+for (const item of successCases) {
+  sequential.push(await runDownloadProbeCase(rootDir, item.name, item.url));
+}
+sequential.push(await runDownloadProbeCase(rootDir, failureCase.name, failureCase.url));
+
+const parallelCases = successCases.concat([failureCase]).map(function (item) {
+  return {
+    name: 'parallel_' + item.name,
+    url: item.url,
+    destination: rootDir + '/parallel_' + item.name,
+  };
+});
+
+const parallelRawAsync = await runParallelRawAsync(parallelCases);
+
+return {
+  success: true,
+  mode: 'script-mode-download-file-probe',
+  rootDir: rootDir,
+  sequential: sequential,
+  parallelRawAsync: parallelRawAsync,
+};

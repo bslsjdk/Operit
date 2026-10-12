@@ -1,1 +1,83 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IKCi8qKgogKiDmoLnmja7mlofku7blkI3mo4DmtYvnvJbnqIvor63oqIAKICovCm9iamVjdCBMYW5ndWFnZURldGVjdG9yIHsKICAgIC8qKgogICAgICog5qC55o2u5paH5Lu25ZCN6I635Y+W57yW56iL6K+t6KiACiAgICAgKiBAcGFyYW0gZmlsZU5hbWUg5paH5Lu25ZCNCiAgICAgKiBAcmV0dXJuIOe8lueoi+ivreiogOagh+ivhuespgogICAgICovCiAgICBmdW4gZGV0ZWN0TGFuZ3VhZ2UoZmlsZU5hbWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgdmFsIGV4dGVuc2lvbiA9IGZpbGVOYW1lLnN1YnN0cmluZ0FmdGVyTGFzdCgnLicsICIiKS5sb3dlcmNhc2UoKQogICAgICAgIAogICAgICAgIHJldHVybiB3aGVuIChleHRlbnNpb24pIHsKICAgICAgICAgICAgLy8gS290bGluCiAgICAgICAgICAgICJrdCIsICJrdHMiIC0+ICJrb3RsaW4iCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBKYXZhCiAgICAgICAgICAgICJqYXZhIiAtPiAiamF2YSIKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIEphdmFTY3JpcHQKICAgICAgICAgICAgImpzIiwgIm1qcyIgLT4gImphdmFzY3JpcHQiCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBUeXBlU2NyaXB0CiAgICAgICAgICAgICJ0cyIsICJ0c3giIC0+ICJ0eXBlc2NyaXB0IgogICAgICAgICAgICAKICAgICAgICAgICAgLy8gSFRNTAogICAgICAgICAgICAiaHRtbCIsICJodG0iLCAieGh0bWwiIC0+ICJodG1sIgogICAgICAgICAgICAKICAgICAgICAgICAgLy8gQ1NTCiAgICAgICAgICAgICJjc3MiLCAic2NzcyIsICJzYXNzIiwgImxlc3MiIC0+ICJjc3MiCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBYTUwKICAgICAgICAgICAgInhtbCIsICJzdmciLCAieHNkIiwgInhzbCIgLT4gInhtbCIKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIEpTT04KICAgICAgICAgICAgImpzb24iIC0+ICJqc29uIgogICAgICAgICAgICAKICAgICAgICAgICAgLy8gTWFya2Rvd24KICAgICAgICAgICAgIm1kIiwgIm1hcmtkb3duIiAtPiAibWFya2Rvd24iCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBQeXRob24KICAgICAgICAgICAgInB5IiwgInB5dyIsICJweWMiIC0+ICJweXRob24iCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBDL0MrKwogICAgICAgICAgICAiYyIsICJjcHAiLCAiY2MiLCAiaCIsICJocHAiIC0+ICJjcHAiCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBDIwogICAgICAgICAgICAiY3MiIC0+ICJjc2hhcnAiCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBQSFAKICAgICAgICAgICAgInBocCIsICJwaHRtbCIgLT4gInBocCIKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIFJ1YnkKICAgICAgICAgICAgInJiIiwgInJidyIgLT4gInJ1YnkiCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBHbwogICAgICAgICAgICAiZ28iIC0+ICJnbyIKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIFJ1c3QKICAgICAgICAgICAgInJzIiAtPiAicnVzdCIKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIFN3aWZ0CiAgICAgICAgICAgICJzd2lmdCIgLT4gInN3aWZ0IgogICAgICAgICAgICAKICAgICAgICAgICAgLy8gRGFydAogICAgICAgICAgICAiZGFydCIgLT4gImRhcnQiCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyBTaGVsbAogICAgICAgICAgICAic2giLCAiYmFzaCIsICJ6c2giIC0+ICJzaGVsbCIKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIFNRTAogICAgICAgICAgICAic3FsIiAtPiAic3FsIgogICAgICAgICAgICAKICAgICAgICAgICAgLy8gWUFNTAogICAgICAgICAgICAieW1sIiwgInlhbWwiIC0+ICJ5YW1sIgogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5YW25LuWCiAgICAgICAgICAgIGVsc2UgLT4gInRleHQiCiAgICAgICAgfQogICAgfQp9IA==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor
+
+/**
+ * 根据文件名检测编程语言
+ */
+object LanguageDetector {
+    /**
+     * 根据文件名获取编程语言
+     * @param fileName 文件名
+     * @return 编程语言标识符
+     */
+    fun detectLanguage(fileName: String): String {
+        val extension = fileName.substringAfterLast('.', "").lowercase()
+        
+        return when (extension) {
+            // Kotlin
+            "kt", "kts" -> "kotlin"
+            
+            // Java
+            "java" -> "java"
+            
+            // JavaScript
+            "js", "mjs" -> "javascript"
+            
+            // TypeScript
+            "ts", "tsx" -> "typescript"
+            
+            // HTML
+            "html", "htm", "xhtml" -> "html"
+            
+            // CSS
+            "css", "scss", "sass", "less" -> "css"
+            
+            // XML
+            "xml", "svg", "xsd", "xsl" -> "xml"
+            
+            // JSON
+            "json" -> "json"
+            
+            // Markdown
+            "md", "markdown" -> "markdown"
+            
+            // Python
+            "py", "pyw", "pyc" -> "python"
+            
+            // C/C++
+            "c", "cpp", "cc", "h", "hpp" -> "cpp"
+            
+            // C#
+            "cs" -> "csharp"
+            
+            // PHP
+            "php", "phtml" -> "php"
+            
+            // Ruby
+            "rb", "rbw" -> "ruby"
+            
+            // Go
+            "go" -> "go"
+            
+            // Rust
+            "rs" -> "rust"
+            
+            // Swift
+            "swift" -> "swift"
+            
+            // Dart
+            "dart" -> "dart"
+            
+            // Shell
+            "sh", "bash", "zsh" -> "shell"
+            
+            // SQL
+            "sql" -> "sql"
+            
+            // YAML
+            "yml", "yaml" -> "yaml"
+            
+            // 其他
+            else -> "text"
+        }
+    }
+} 

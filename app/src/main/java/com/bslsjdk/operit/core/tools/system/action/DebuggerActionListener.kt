@@ -1,1 +1,347 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uYWN0aW9uCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnN5c3RlbS5BbmRyb2lkUGVybWlzc2lvbkxldmVsCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uU2hpenVrdUF1dGhvcml6ZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmRlbGF5CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuaXNBY3RpdmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0Jvb2xlYW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLnNoZWxsLlNoZWxsUHJvY2VzcwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cubGF1bmNoSW4KaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lm9uRWFjaAoKLyoqIOWfuuS6jlNoaXp1a3XnmoRVSeaTjeS9nOebkeWQrOWZqCDlrp7njrBERUJVR0dFUuadg+mZkOe6p+WIq+eahOaTjeS9nOebkeWQrCAqLwpjbGFzcyBEZWJ1Z2dlckFjdGlvbkxpc3RlbmVyKHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIDogQWN0aW9uTGlzdGVuZXIgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkRlYnVnZ2VyQWN0aW9uTGlzdGVuZXIiCgogICAgICAgIC8qKiDmt7vliqDnirbmgIHlj5jmm7Tnm5HlkKzlmaggKi8KICAgICAgICBmdW4gYWRkU3RhdGVDaGFuZ2VMaXN0ZW5lcihsaXN0ZW5lcjogKCkgLT4gVW5pdCkgewogICAgICAgICAgICBTaGl6dWt1QXV0aG9yaXplci5hZGRTdGF0ZUNoYW5nZUxpc3RlbmVyKGxpc3RlbmVyKQogICAgICAgIH0KCiAgICAgICAgLyoqIOenu+mZpOeKtuaAgeWPmOabtOebkeWQrOWZqCAqLwogICAgICAgIGZ1biByZW1vdmVTdGF0ZUNoYW5nZUxpc3RlbmVyKGxpc3RlbmVyOiAoKSAtPiBVbml0KSB7CiAgICAgICAgICAgIFNoaXp1a3VBdXRob3JpemVyLnJlbW92ZVN0YXRlQ2hhbmdlTGlzdGVuZXIobGlzdGVuZXIpCiAgICAgICAgfQoKICAgICAgICAvKiog6I635Y+WU2hpenVrdeWQr+WKqOivtOaYjiAqLwogICAgICAgIGZ1biBnZXRTaGl6dWt1U3RhcnR1cEluc3RydWN0aW9ucyhjb250ZXh0OiBDb250ZXh0KTogU3RyaW5nIHsKICAgICAgICAgICAgcmV0dXJuIFNoaXp1a3VBdXRob3JpemVyLmdldFNoaXp1a3VTdGFydHVwSW5zdHJ1Y3Rpb25zKGNvbnRleHQpCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIGlzTGlzdGVuaW5nID0gQXRvbWljQm9vbGVhbihmYWxzZSkKICAgIHByaXZhdGUgdmFyIGFjdGlvbkNhbGxiYWNrOiAoKEFjdGlvbkxpc3RlbmVyLkFjdGlvbkV2ZW50KSAtPiBVbml0KT8gPSBudWxsCiAgICBwcml2YXRlIHZhciBtb25pdG9yaW5nSm9iOiBKb2I/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgd2luZG93TW9uaXRvclByb2Nlc3M6IFNoZWxsUHJvY2Vzcz8gPSBudWxsCiAgICBwcml2YXRlIHZhciBhY3Rpdml0eU1vbml0b3JQcm9jZXNzOiBTaGVsbFByb2Nlc3M/ID0gbnVsbAogICAgcHJpdmF0ZSB2YXIgbGFzdEZvY3VzZWRXaW5kb3c6IFN0cmluZz8gPSBudWxsCiAgICBwcml2YXRlIHZhciBsYXN0QWN0aXZpdHlTdGFjazogU3RyaW5nPyA9IG51bGwKICAgIHByaXZhdGUgdmFsIHNoZWxsRXhlY3V0b3IgYnkgbGF6eSB7CiAgICAgICAgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLnNoZWxsLlNoZWxsRXhlY3V0b3JGYWN0b3J5CiAgICAgICAgICAgIC5nZXRFeGVjdXRvcihjb250ZXh0LCBBbmRyb2lkUGVybWlzc2lvbkxldmVsLkRFQlVHR0VSKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBnZXRQZXJtaXNzaW9uTGV2ZWwoKTogQW5kcm9pZFBlcm1pc3Npb25MZXZlbCA9IEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwuREVCVUdHRVIKCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBpc0F2YWlsYWJsZSgpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gU2hpenVrdUF1dGhvcml6ZXIuaXNTaGl6dWt1U2VydmljZVJ1bm5pbmcoKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGhhc1Blcm1pc3Npb24oKTogQWN0aW9uTGlzdGVuZXIuUGVybWlzc2lvblN0YXR1cyB7CiAgICAgICAgdmFsIGhhc1Blcm1pc3Npb24gPSBTaGl6dWt1QXV0aG9yaXplci5oYXNTaGl6dWt1UGVybWlzc2lvbigpCiAgICAgICAgcmV0dXJuIGlmIChoYXNQZXJtaXNzaW9uKSB7CiAgICAgICAgICAgIEFjdGlvbkxpc3RlbmVyLlBlcm1pc3Npb25TdGF0dXMuZ3JhbnRlZCgpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgQWN0aW9uTGlzdGVuZXIuUGVybWlzc2lvblN0YXR1cy5kZW5pZWQoU2hpenVrdUF1dGhvcml6ZXIuZ2V0UGVybWlzc2lvbkVycm9yTWVzc2FnZSgpKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biByZXF1ZXN0UGVybWlzc2lvbihvblJlc3VsdDogKEJvb2xlYW4pIC0+IFVuaXQpIHsKICAgICAgICBTaGl6dWt1QXV0aG9yaXplci5yZXF1ZXN0U2hpenVrdVBlcm1pc3Npb24ob25SZXN1bHQpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGlzTGlzdGVuaW5nKCk6IEJvb2xlYW4gPSBpc0xpc3RlbmluZy5nZXQoKQoKICAgIG92ZXJyaWRlIGZ1biBpbml0aWFsaXplKCkgewogICAgICAgIC8vIE5vLW9wCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc3RhcnRMaXN0ZW5pbmcob25BY3Rpb246IChBY3Rpb25MaXN0ZW5lci5BY3Rpb25FdmVudCkgLT4gVW5pdCk6IEFjdGlvbkxpc3RlbmVyLkxpc3RlbmluZ1Jlc3VsdCA9CiAgICAgICAgd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBwZXJtU3RhdHVzID0gaGFzUGVybWlzc2lvbigpCiAgICAgICAgICAgICAgICBpZiAoIXBlcm1TdGF0dXMuZ3JhbnRlZCkgewogICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBBY3Rpb25MaXN0ZW5lci5MaXN0ZW5pbmdSZXN1bHQuZmFpbHVyZShwZXJtU3RhdHVzLnJlYXNvbikKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpZiAoaXNMaXN0ZW5pbmcuZ2V0KCkpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgQWN0aW9uTGlzdGVuZXIuTGlzdGVuaW5nUmVzdWx0LmZhaWx1cmUoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYWRtaW5fYWxyZWFkeV9saXN0ZW5pbmcpKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIGFjdGlvbkNhbGxiYWNrID0gb25BY3Rpb24KICAgICAgICAgICAgICAgIGlzTGlzdGVuaW5nLnNldCh0cnVlKQoKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuW8gOWni+iwg+ivleWZqOadg+mZkOe6p+WIq+eahFVJ5pON5L2c55uR5ZCsIikKCiAgICAgICAgICAgICAgICAvLyDlkK/liqjns7vnu5/nuqfkuovku7bnm5HmjqcKICAgICAgICAgICAgICAgIHN0YXJ0U3lzdGVtRXZlbnRNb25pdG9yaW5nKCkKCiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgQWN0aW9uTGlzdGVuZXIuTGlzdGVuaW5nUmVzdWx0LnN1Y2Nlc3MoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGVidWdnZXJfdWlfbGlzdGVuZXJfc3RhcnRlZCkpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5ZCv5Yqo6LCD6K+V5ZmoVUnmk43kvZznm5HlkKzlpLHotKUiLCBlKQogICAgICAgICAgICAgICAgaXNMaXN0ZW5pbmcuc2V0KGZhbHNlKQogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IEFjdGlvbkxpc3RlbmVyLkxpc3RlbmluZ1Jlc3VsdC5mYWlsdXJlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFkbWluX3N0YXJ0X2ZhaWxlZCwgZS5tZXNzYWdlID86ICJVbmtub3duIGVycm9yIikpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc3RvcExpc3RlbmluZygpOiBCb29sZWFuID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoIWlzTGlzdGVuaW5nLmdldCgpKSB7CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgdHJ1ZQogICAgICAgICAgICB9CgogICAgICAgICAgICBpc0xpc3RlbmluZy5zZXQoZmFsc2UpCiAgICAgICAgICAgIGFjdGlvbkNhbGxiYWNrID0gbnVsbAoKICAgICAgICAgICAgLy8g5YGc5q2i55uR5o6n5Lu75YqhCiAgICAgICAgICAgIG1vbml0b3JpbmdKb2I/LmNhbmNlbCgpCiAgICAgICAgICAgIG1vbml0b3JpbmdKb2IgPSBudWxsCgogICAgICAgICAgICBzdG9wU3lzdGVtRXZlbnRNb25pdG9yaW5nKCkKCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuiwg+ivleWZqFVJ5pON5L2c55uR5ZCs5bey5YGc5q2iIikKICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IHRydWUKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5YGc5q2i6LCD6K+V5ZmoVUnmk43kvZznm5HlkKzlpLHotKUiLCBlKQogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDmo4Dmn6VTaGl6dWt15piv5ZCm5bey5a6J6KOFCiAgICAgKiBAcmV0dXJuIOaYr+WQpuW3suWuieijhVNoaXp1a3UKICAgICAqLwogICAgZnVuIGlzU2hpenVrdUluc3RhbGxlZCgpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gU2hpenVrdUF1dGhvcml6ZXIuaXNTaGl6dWt1SW5zdGFsbGVkKGNvbnRleHQpCiAgICB9CgogICAgLyoqCiAgICAgKiDlvIDlp4vns7vnu5/nuqfkuovku7bnm5HmjqcKICAgICAqIOS9v+eUqFNoaXp1a3XmnYPpmZDpgJrov4dzdGFydFByb2Nlc3PlkK/liqjmjIHnu63nm5Hmjqfov5vnqIsKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gc3RhcnRTeXN0ZW1FdmVudE1vbml0b3JpbmcoKSB7CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi5byA5aeL57O757uf57qn5LqL5Lu255uR5o6nIC0g5L2/55Soc3RhcnRQcm9jZXNz5ZCv5Yqo5oyB57ut55uR5o6n6L+b56iLIikKICAgICAgICAKICAgICAgICBtb25pdG9yaW5nSm9iID0gQ29yb3V0aW5lU2NvcGUoRGlzcGF0Y2hlcnMuSU8pLmxhdW5jaCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAvLyDlkK/liqjnqpflj6PnhKbngrnnm5Hmjqfov5vnqIsKICAgICAgICAgICAgICAgIHN0YXJ0V2luZG93Rm9jdXNNb25pdG9yaW5nKCkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g5ZCv5YqoQWN0aXZpdHnmoIjnm5Hmjqfov5vnqIsKICAgICAgICAgICAgICAgIHN0YXJ0QWN0aXZpdHlTdGFja01vbml0b3JpbmcoKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5ZCv5Yqo57O757uf5LqL5Lu255uR5o6n6L+b56iL5aSx6LSlIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWBnOatouezu+e7n+e6p+S6i+S7tuebkeaOpwogICAgICovCiAgICBwcml2YXRlIGZ1biBzdG9wU3lzdGVtRXZlbnRNb25pdG9yaW5nKCkgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuWBnOatouezu+e7n+e6p+S6i+S7tuebkeaOpyIpCiAgICAgICAgCiAgICAgICAgLy8g5YGc5q2i55uR5o6n6L+b56iLCiAgICAgICAgd2luZG93TW9uaXRvclByb2Nlc3M/LmRlc3Ryb3koKQogICAgICAgIHdpbmRvd01vbml0b3JQcm9jZXNzID0gbnVsbAogICAgICAgIAogICAgICAgIGFjdGl2aXR5TW9uaXRvclByb2Nlc3M/LmRlc3Ryb3koKQogICAgICAgIGFjdGl2aXR5TW9uaXRvclByb2Nlc3MgPSBudWxsCiAgICAgICAgCiAgICAgICAgbW9uaXRvcmluZ0pvYj8uY2FuY2VsKCkKICAgICAgICBtb25pdG9yaW5nSm9iID0gbnVsbAogICAgICAgIGxhc3RGb2N1c2VkV2luZG93ID0gbnVsbAogICAgICAgIGxhc3RBY3Rpdml0eVN0YWNrID0gbnVsbAogICAgfQoKICAgIC8qKgogICAgICog5ZCv5Yqo56qX5Y+j54Sm54K555uR5o6n6L+b56iLCiAgICAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gc3RhcnRXaW5kb3dGb2N1c01vbml0b3JpbmcoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5L2/55Sod2F0Y2jlkb3ku6Tmr4/np5Lmo4Dmn6Xnqpflj6PnhKbngrnlj5jljJYKICAgICAgICAgICAgdmFsIGNvbW1hbmQgPSAid2hpbGUgdHJ1ZTsgZG8gZHVtcHN5cyB3aW5kb3cgd2luZG93cyB8IGdyZXAgLUUgJ21DdXJyZW50Rm9jdXN8bUZvY3VzZWRBcHAnIHwgaGVhZCAtMjsgc2xlZXAgMTsgZG9uZSIKICAgICAgICAgICAgd2luZG93TW9uaXRvclByb2Nlc3MgPSBzaGVsbEV4ZWN1dG9yLnN0YXJ0UHJvY2Vzcyhjb21tYW5kKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g55uR5ZCs6L6T5Ye65rWBCiAgICAgICAgICAgIHdpbmRvd01vbml0b3JQcm9jZXNzPy5zdGRvdXQ/Lm9uRWFjaCB7IG91dHB1dCAtPgogICAgICAgICAgICAgICAgaWYgKG91dHB1dC5pc05vdEVtcHR5KCkgJiYgb3V0cHV0ICE9IGxhc3RGb2N1c2VkV2luZG93KSB7CiAgICAgICAgICAgICAgICAgICAgbGFzdEZvY3VzZWRXaW5kb3cgPSBvdXRwdXQKICAgICAgICAgICAgICAgICAgICBwYXJzZVdpbmRvd0ZvY3VzRXZlbnRzKG91dHB1dCkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfT8ubGF1bmNoSW4oQ29yb3V0aW5lU2NvcGUoRGlzcGF0Y2hlcnMuSU8pKQogICAgICAgICAgICAKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAi56qX5Y+j54Sm54K555uR5o6n6L+b56iL5bey5ZCv5YqoIikKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5ZCv5Yqo56qX5Y+j54Sm54K555uR5o6n6L+b56iL5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlkK/liqhBY3Rpdml0eeagiOebkeaOp+i/m+eoiwogICAgICovCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIHN0YXJ0QWN0aXZpdHlTdGFja01vbml0b3JpbmcoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgLy8g5L2/55Sod2F0Y2jlkb3ku6Tmr4/np5Lmo4Dmn6VBY3Rpdml0eeagiOWPmOWMlgogICAgICAgICAgICB2YWwgY29tbWFuZCA9ICJ3aGlsZSB0cnVlOyBkbyBkdW1wc3lzIGFjdGl2aXR5IGFjdGl2aXRpZXMgfCBncmVwIC1FICdSdW5uaW5nIGFjdGl2aXRpZXN8VGFza1JlY29yZCcgfCBoZWFkIC01OyBzbGVlcCAxOyBkb25lIgogICAgICAgICAgICBhY3Rpdml0eU1vbml0b3JQcm9jZXNzID0gc2hlbGxFeGVjdXRvci5zdGFydFByb2Nlc3MoY29tbWFuZCkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOebkeWQrOi+k+WHuua1gQogICAgICAgICAgICBhY3Rpdml0eU1vbml0b3JQcm9jZXNzPy5zdGRvdXQ/Lm9uRWFjaCB7IG91dHB1dCAtPgogICAgICAgICAgICAgICAgaWYgKG91dHB1dC5pc05vdEVtcHR5KCkgJiYgb3V0cHV0ICE9IGxhc3RBY3Rpdml0eVN0YWNrKSB7CiAgICAgICAgICAgICAgICAgICAgbGFzdEFjdGl2aXR5U3RhY2sgPSBvdXRwdXQKICAgICAgICAgICAgICAgICAgICBwYXJzZUFjdGl2aXR5U3RhY2tFdmVudHMob3V0cHV0KQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9Py5sYXVuY2hJbihDb3JvdXRpbmVTY29wZShEaXNwYXRjaGVycy5JTykpCiAgICAgICAgICAgIAogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJBY3Rpdml0eeagiOebkeaOp+i/m+eoi+W3suWQr+WKqCIpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIuWQr+WKqEFjdGl2aXR55qCI55uR5o6n6L+b56iL5aSx6LSlIiwgZSkKICAgICAgICB9CiAgICB9CgoKCiAgICAvKioKICAgICAqIOino+aekOeql+WPo+eEpueCueS6i+S7tgogICAgICogQHBhcmFtIHdpbmRvd0luZm8g56qX5Y+j5L+h5oGv6L6T5Ye6CiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHBhcnNlV2luZG93Rm9jdXNFdmVudHMod2luZG93SW5mbzogU3RyaW5nKSB7CiAgICAgICAgaWYgKHdpbmRvd0luZm8uY29udGFpbnMoIm1DdXJyZW50Rm9jdXMiKSB8fCB3aW5kb3dJbmZvLmNvbnRhaW5zKCJtRm9jdXNlZEFwcCIpKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci52KFRBRywgIuajgOa1i+WIsOeql+WPo+eEpueCueWPmOWMljogJHt3aW5kb3dJbmZvLnRha2UoMTAwKX0iKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8g5bCd6K+V5LuO56qX5Y+j5L+h5oGv5Lit5o+Q5Y+W5bqU55So5YyF5ZCNCiAgICAgICAgICAgIHZhbCBwYWNrYWdlTmFtZSA9IGV4dHJhY3RQYWNrYWdlTmFtZUZyb21XaW5kb3dJbmZvKHdpbmRvd0luZm8pCiAgICAgICAgICAgIAogICAgICAgICAgICBhY3Rpb25DYWxsYmFjaz8ubGV0IHsgY2FsbGJhY2sgLT4KICAgICAgICAgICAgICAgIHZhbCBldmVudCA9IEFjdGlvbkxpc3RlbmVyLkFjdGlvbkV2ZW50KAogICAgICAgICAgICAgICAgICAgIHRpbWVzdGFtcCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgICAgICAgICAgICAgICAgIGFjdGlvblR5cGUgPSBBY3Rpb25MaXN0ZW5lci5BY3Rpb25UeXBlLlNDUkVFTl9DSEFOR0UsCiAgICAgICAgICAgICAgICAgICAgYWRkaXRpb25hbERhdGEgPSBtYXBPZigKICAgICAgICAgICAgICAgICAgICAgICAgInNvdXJjZSIgdG8gIndpbmRvd19mb2N1c19tb25pdG9yIiwKICAgICAgICAgICAgICAgICAgICAgICAgIndpbmRvd0luZm8iIHRvIHdpbmRvd0luZm8udGFrZSgyMDApLAogICAgICAgICAgICAgICAgICAgICAgICAicGFja2FnZU5hbWUiIHRvIChwYWNrYWdlTmFtZSA/OiAidW5rbm93biIpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgY2FsbGJhY2soZXZlbnQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgoKCiAgICAvKioKICAgICAqIOino+aekEFjdGl2aXR55qCI5LqL5Lu2CiAgICAgKiBAcGFyYW0gYWN0aXZpdHlTdGFjayBBY3Rpdml0eeagiOS/oeaBrwogICAgICovCiAgICBwcml2YXRlIGZ1biBwYXJzZUFjdGl2aXR5U3RhY2tFdmVudHMoYWN0aXZpdHlTdGFjazogU3RyaW5nKSB7CiAgICAgICAgQXBwTG9nZ2VyLnYoVEFHLCAi5qOA5rWL5YiwQWN0aXZpdHnmoIjlj5jljJY6ICR7YWN0aXZpdHlTdGFjay50YWtlKDEwMCl9IikKICAgICAgICAKICAgICAgICAvLyDku45BY3Rpdml0eeagiOS/oeaBr+S4reaPkOWPluW9k+WJjeWJjeWPsEFjdGl2aXR5CiAgICAgICAgdmFsIGN1cnJlbnRBY3Rpdml0eSA9IGV4dHJhY3RDdXJyZW50QWN0aXZpdHlGcm9tU3RhY2soYWN0aXZpdHlTdGFjaykKICAgICAgICAKICAgICAgICBhY3Rpb25DYWxsYmFjaz8ubGV0IHsgY2FsbGJhY2sgLT4KICAgICAgICAgICAgdmFsIGV2ZW50ID0gQWN0aW9uTGlzdGVuZXIuQWN0aW9uRXZlbnQoCiAgICAgICAgICAgICAgICB0aW1lc3RhbXAgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSwKICAgICAgICAgICAgICAgIGFjdGlvblR5cGUgPSBBY3Rpb25MaXN0ZW5lci5BY3Rpb25UeXBlLkFQUF9TV0lUQ0gsCiAgICAgICAgICAgICAgICBhZGRpdGlvbmFsRGF0YSA9IG1hcE9mKAogICAgICAgICAgICAgICAgICAgICJzb3VyY2UiIHRvICJhY3Rpdml0eV9zdGFja19tb25pdG9yIiwKICAgICAgICAgICAgICAgICAgICAiYWN0aXZpdHlTdGFjayIgdG8gYWN0aXZpdHlTdGFjay50YWtlKDIwMCksCiAgICAgICAgICAgICAgICAgICAgImN1cnJlbnRBY3Rpdml0eSIgdG8gKGN1cnJlbnRBY3Rpdml0eSA/OiAidW5rbm93biIpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICAgICAgY2FsbGJhY2soZXZlbnQpCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICog5aSE55CG5qOA5rWL5Yiw55qE6Kem5pG45LqL5Lu2CiAgICAgKiBAcGFyYW0geCDop6bmkbhY5Z2Q5qCHCiAgICAgKiBAcGFyYW0geSDop6bmkbhZ5Z2Q5qCHCiAgICAgKiBAcGFyYW0gYWN0aW9uIOinpuaRuOWKqOS9nOexu+WeiwogICAgICovCiAgICBmdW4gaGFuZGxlRGV0ZWN0ZWRUb3VjaEV2ZW50KHg6IEludCwgeTogSW50LCBhY3Rpb246IFN0cmluZykgewogICAgICAgIGlmIChpc0xpc3RlbmluZy5nZXQoKSAmJiBhY3Rpb25DYWxsYmFjayAhPSBudWxsKSB7CiAgICAgICAgICAgIHZhbCBhY3Rpb25UeXBlID0gd2hlbiAoYWN0aW9uKSB7CiAgICAgICAgICAgICAgICAiRE9XTiIsICJVUCIgLT4gQWN0aW9uTGlzdGVuZXIuQWN0aW9uVHlwZS5DTElDSwogICAgICAgICAgICAgICAgIk1PVkUiIC0+IEFjdGlvbkxpc3RlbmVyLkFjdGlvblR5cGUuU1dJUEUKICAgICAgICAgICAgICAgIGVsc2UgLT4gQWN0aW9uTGlzdGVuZXIuQWN0aW9uVHlwZS5HRVNUVVJFCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBldmVudCA9IEFjdGlvbkxpc3RlbmVyLkFjdGlvbkV2ZW50KAogICAgICAgICAgICAgICAgdGltZXN0YW1wID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCiAgICAgICAgICAgICAgICBhY3Rpb25UeXBlID0gYWN0aW9uVHlwZSwKICAgICAgICAgICAgICAgIGNvb3JkaW5hdGVzID0gUGFpcih4LCB5KSwKICAgICAgICAgICAgICAgIGFkZGl0aW9uYWxEYXRhID0gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgInJhd0FjdGlvbiIgdG8gYWN0aW9uLAogICAgICAgICAgICAgICAgICAgICJzb3VyY2UiIHRvICJzeXN0ZW1faW5wdXRfbW9uaXRvciIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICAgICBhY3Rpb25DYWxsYmFjaz8uaW52b2tlKGV2ZW50KQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWkhOeQhuajgOa1i+WIsOeahOW6lOeUqOWIh+aNouS6i+S7tgogICAgICogQHBhcmFtIGZyb21QYWNrYWdlIOWIh+aNouWJjeeahOW6lOeUqOWMheWQjQogICAgICogQHBhcmFtIHRvUGFja2FnZSDliIfmjaLlkI7nmoTlupTnlKjljIXlkI0KICAgICAqLwogICAgZnVuIGhhbmRsZUFwcFN3aXRjaEV2ZW50KGZyb21QYWNrYWdlOiBTdHJpbmc/LCB0b1BhY2thZ2U6IFN0cmluZz8pIHsKICAgICAgICBpZiAoaXNMaXN0ZW5pbmcuZ2V0KCkgJiYgYWN0aW9uQ2FsbGJhY2sgIT0gbnVsbCkgewogICAgICAgICAgICB2YWwgZXZlbnQgPSBBY3Rpb25MaXN0ZW5lci5BY3Rpb25FdmVudCgKICAgICAgICAgICAgICAgIHRpbWVzdGFtcCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgICAgICAgICAgICAgYWN0aW9uVHlwZSA9IEFjdGlvbkxpc3RlbmVyLkFjdGlvblR5cGUuQVBQX1NXSVRDSCwKICAgICAgICAgICAgICAgIGFkZGl0aW9uYWxEYXRhID0gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgImZyb21QYWNrYWdlIiB0byAoZnJvbVBhY2thZ2UgPzogInVua25vd24iKSwKICAgICAgICAgICAgICAgICAgICAidG9QYWNrYWdlIiB0byAodG9QYWNrYWdlID86ICJ1bmtub3duIiksCiAgICAgICAgICAgICAgICAgICAgInNvdXJjZSIgdG8gIndpbmRvd19tYW5hZ2VyX21vbml0b3IiCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICAgICAgYWN0aW9uQ2FsbGJhY2s/Lmludm9rZShldmVudCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDku47nqpflj6Pkv6Hmga/kuK3mj5Dlj5blupTnlKjljIXlkI0KICAgICAqIEBwYXJhbSB3aW5kb3dJbmZvIOeql+WPo+S/oeaBr+Wtl+espuS4sgogICAgICogQHJldHVybiDmj5Dlj5bnmoTljIXlkI3vvIzlpoLmnpzml6Dms5Xmj5Dlj5bliJnov5Tlm55udWxsCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIGV4dHJhY3RQYWNrYWdlTmFtZUZyb21XaW5kb3dJbmZvKHdpbmRvd0luZm86IFN0cmluZyk6IFN0cmluZz8gewogICAgICAgIC8vIOWwneivleS7jueql+WPo+S/oeaBr+S4reaPkOWPluWMheWQjQogICAgICAgIC8vIOekuuS+i+agvOW8jzogbUN1cnJlbnRGb2N1cz1XaW5kb3d7YWJjMTIzIHUwIGNvbS5leGFtcGxlLmFwcC9jb20uZXhhbXBsZS5hcHAuTWFpbkFjdGl2aXR5fQogICAgICAgIHZhbCBwYWNrYWdlUGF0dGVybiA9IFJlZ2V4KCIiIihbYS16QS1aXVthLXpBLVowLTlfXSooPzpcLlthLXpBLVowLTlfXSspKykvIiIiKQogICAgICAgIHJldHVybiBwYWNrYWdlUGF0dGVybi5maW5kKHdpbmRvd0luZm8pPy5ncm91cFZhbHVlcz8uZ2V0KDEpCiAgICB9CgogICAgLyoqCiAgICAgKiDku45BY3Rpdml0eeagiOS/oeaBr+S4reaPkOWPluW9k+WJjeWJjeWPsEFjdGl2aXR5CiAgICAgKiBAcGFyYW0gYWN0aXZpdHlTdGFjayBBY3Rpdml0eeagiOS/oeaBr+Wtl+espuS4sgogICAgICogQHJldHVybiDmj5Dlj5bnmoRBY3Rpdml0eeS/oeaBr++8jOWmguaenOaXoOazleaPkOWPluWImei/lOWbnm51bGwKICAgICAqLwogICAgcHJpdmF0ZSBmdW4gZXh0cmFjdEN1cnJlbnRBY3Rpdml0eUZyb21TdGFjayhhY3Rpdml0eVN0YWNrOiBTdHJpbmcpOiBTdHJpbmc/IHsKICAgICAgICAvLyDlsJ3or5Xku45BY3Rpdml0eeagiOS/oeaBr+S4reaPkOWPluW9k+WJjUFjdGl2aXR5CiAgICAgICAgLy8g56S65L6L5qC85byPOiBSdW5uaW5nIGFjdGl2aXRpZXMgKG1vc3QgcmVjZW50IGZpcnN0KTogQWN0aXZpdHlSZWNvcmR7YWJjMTIzIHUwIGNvbS5leGFtcGxlLmFwcC8uTWFpbkFjdGl2aXR5IHQxMjN9CiAgICAgICAgdmFsIGFjdGl2aXR5UGF0dGVybiA9IFJlZ2V4KCIiIkFjdGl2aXR5UmVjb3JkXHtbXn1dKlxzKyhbXi9dKy9bXn1dKykiIiIpCiAgICAgICAgcmV0dXJuIGFjdGl2aXR5UGF0dGVybi5maW5kKGFjdGl2aXR5U3RhY2spPy5ncm91cFZhbHVlcz8uZ2V0KDEpCiAgICB9Cn0g
+package com.bslsjdk.operit.core.tools.system.action
+
+import android.content.Context
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+import com.bslsjdk.operit.core.tools.system.ShizukuAuthorizer
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import java.util.concurrent.atomic.AtomicBoolean
+import kotlinx.coroutines.CoroutineScope
+import com.bslsjdk.operit.core.tools.system.shell.ShellProcess
+import kotlinx.coroutines.flow.launchIn
+import kotlinx.coroutines.flow.onEach
+
+/** 基于Shizuku的UI操作监听器 实现DEBUGGER权限级别的操作监听 */
+class DebuggerActionListener(private val context: Context) : ActionListener {
+    companion object {
+        private const val TAG = "DebuggerActionListener"
+
+        /** 添加状态变更监听器 */
+        fun addStateChangeListener(listener: () -> Unit) {
+            ShizukuAuthorizer.addStateChangeListener(listener)
+        }
+
+        /** 移除状态变更监听器 */
+        fun removeStateChangeListener(listener: () -> Unit) {
+            ShizukuAuthorizer.removeStateChangeListener(listener)
+        }
+
+        /** 获取Shizuku启动说明 */
+        fun getShizukuStartupInstructions(context: Context): String {
+            return ShizukuAuthorizer.getShizukuStartupInstructions(context)
+        }
+    }
+
+    private val isListening = AtomicBoolean(false)
+    private var actionCallback: ((ActionListener.ActionEvent) -> Unit)? = null
+    private var monitoringJob: Job? = null
+    private var windowMonitorProcess: ShellProcess? = null
+    private var activityMonitorProcess: ShellProcess? = null
+    private var lastFocusedWindow: String? = null
+    private var lastActivityStack: String? = null
+    private val shellExecutor by lazy {
+        com.bslsjdk.operit.core.tools.system.shell.ShellExecutorFactory
+            .getExecutor(context, AndroidPermissionLevel.DEBUGGER)
+    }
+
+    override fun getPermissionLevel(): AndroidPermissionLevel = AndroidPermissionLevel.DEBUGGER
+
+    override suspend fun isAvailable(): Boolean {
+        return ShizukuAuthorizer.isShizukuServiceRunning()
+    }
+
+    override suspend fun hasPermission(): ActionListener.PermissionStatus {
+        val hasPermission = ShizukuAuthorizer.hasShizukuPermission()
+        return if (hasPermission) {
+            ActionListener.PermissionStatus.granted()
+        } else {
+            ActionListener.PermissionStatus.denied(ShizukuAuthorizer.getPermissionErrorMessage())
+        }
+    }
+
+    override suspend fun requestPermission(onResult: (Boolean) -> Unit) {
+        ShizukuAuthorizer.requestShizukuPermission(onResult)
+    }
+
+    override fun isListening(): Boolean = isListening.get()
+
+    override fun initialize() {
+        // No-op
+    }
+
+    override suspend fun startListening(onAction: (ActionListener.ActionEvent) -> Unit): ActionListener.ListeningResult =
+        withContext(Dispatchers.IO) {
+            try {
+                val permStatus = hasPermission()
+                if (!permStatus.granted) {
+                    return@withContext ActionListener.ListeningResult.failure(permStatus.reason)
+                }
+
+                if (isListening.get()) {
+                    return@withContext ActionListener.ListeningResult.failure(context.getString(R.string.admin_already_listening))
+                }
+
+                actionCallback = onAction
+                isListening.set(true)
+
+                AppLogger.d(TAG, "开始调试器权限级别的UI操作监听")
+
+                // 启动系统级事件监控
+                startSystemEventMonitoring()
+
+                return@withContext ActionListener.ListeningResult.success(context.getString(R.string.debugger_ui_listener_started))
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "启动调试器UI操作监听失败", e)
+                isListening.set(false)
+                return@withContext ActionListener.ListeningResult.failure(context.getString(R.string.admin_start_failed, e.message ?: "Unknown error"))
+            }
+        }
+
+    override suspend fun stopListening(): Boolean = withContext(Dispatchers.IO) {
+        try {
+            if (!isListening.get()) {
+                return@withContext true
+            }
+
+            isListening.set(false)
+            actionCallback = null
+
+            // 停止监控任务
+            monitoringJob?.cancel()
+            monitoringJob = null
+
+            stopSystemEventMonitoring()
+
+            AppLogger.d(TAG, "调试器UI操作监听已停止")
+            return@withContext true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "停止调试器UI操作监听失败", e)
+            return@withContext false
+        }
+    }
+
+    /**
+     * 检查Shizuku是否已安装
+     * @return 是否已安装Shizuku
+     */
+    fun isShizukuInstalled(): Boolean {
+        return ShizukuAuthorizer.isShizukuInstalled(context)
+    }
+
+    /**
+     * 开始系统级事件监控
+     * 使用Shizuku权限通过startProcess启动持续监控进程
+     */
+    private fun startSystemEventMonitoring() {
+        AppLogger.d(TAG, "开始系统级事件监控 - 使用startProcess启动持续监控进程")
+        
+        monitoringJob = CoroutineScope(Dispatchers.IO).launch {
+            try {
+                // 启动窗口焦点监控进程
+                startWindowFocusMonitoring()
+                
+                // 启动Activity栈监控进程
+                startActivityStackMonitoring()
+                
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "启动系统事件监控进程失败", e)
+            }
+        }
+    }
+
+    /**
+     * 停止系统级事件监控
+     */
+    private fun stopSystemEventMonitoring() {
+        AppLogger.d(TAG, "停止系统级事件监控")
+        
+        // 停止监控进程
+        windowMonitorProcess?.destroy()
+        windowMonitorProcess = null
+        
+        activityMonitorProcess?.destroy()
+        activityMonitorProcess = null
+        
+        monitoringJob?.cancel()
+        monitoringJob = null
+        lastFocusedWindow = null
+        lastActivityStack = null
+    }
+
+    /**
+     * 启动窗口焦点监控进程
+     */
+    private suspend fun startWindowFocusMonitoring() {
+        try {
+            // 使用watch命令每秒检查窗口焦点变化
+            val command = "while true; do dumpsys window windows | grep -E 'mCurrentFocus|mFocusedApp' | head -2; sleep 1; done"
+            windowMonitorProcess = shellExecutor.startProcess(command)
+            
+            // 监听输出流
+            windowMonitorProcess?.stdout?.onEach { output ->
+                if (output.isNotEmpty() && output != lastFocusedWindow) {
+                    lastFocusedWindow = output
+                    parseWindowFocusEvents(output)
+                }
+            }?.launchIn(CoroutineScope(Dispatchers.IO))
+            
+            AppLogger.d(TAG, "窗口焦点监控进程已启动")
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "启动窗口焦点监控进程失败", e)
+        }
+    }
+
+    /**
+     * 启动Activity栈监控进程
+     */
+    private suspend fun startActivityStackMonitoring() {
+        try {
+            // 使用watch命令每秒检查Activity栈变化
+            val command = "while true; do dumpsys activity activities | grep -E 'Running activities|TaskRecord' | head -5; sleep 1; done"
+            activityMonitorProcess = shellExecutor.startProcess(command)
+            
+            // 监听输出流
+            activityMonitorProcess?.stdout?.onEach { output ->
+                if (output.isNotEmpty() && output != lastActivityStack) {
+                    lastActivityStack = output
+                    parseActivityStackEvents(output)
+                }
+            }?.launchIn(CoroutineScope(Dispatchers.IO))
+            
+            AppLogger.d(TAG, "Activity栈监控进程已启动")
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "启动Activity栈监控进程失败", e)
+        }
+    }
+
+
+
+    /**
+     * 解析窗口焦点事件
+     * @param windowInfo 窗口信息输出
+     */
+    private fun parseWindowFocusEvents(windowInfo: String) {
+        if (windowInfo.contains("mCurrentFocus") || windowInfo.contains("mFocusedApp")) {
+            AppLogger.v(TAG, "检测到窗口焦点变化: ${windowInfo.take(100)}")
+            
+            // 尝试从窗口信息中提取应用包名
+            val packageName = extractPackageNameFromWindowInfo(windowInfo)
+            
+            actionCallback?.let { callback ->
+                val event = ActionListener.ActionEvent(
+                    timestamp = System.currentTimeMillis(),
+                    actionType = ActionListener.ActionType.SCREEN_CHANGE,
+                    additionalData = mapOf(
+                        "source" to "window_focus_monitor",
+                        "windowInfo" to windowInfo.take(200),
+                        "packageName" to (packageName ?: "unknown")
+                    )
+                )
+                callback(event)
+            }
+        }
+    }
+
+
+
+    /**
+     * 解析Activity栈事件
+     * @param activityStack Activity栈信息
+     */
+    private fun parseActivityStackEvents(activityStack: String) {
+        AppLogger.v(TAG, "检测到Activity栈变化: ${activityStack.take(100)}")
+        
+        // 从Activity栈信息中提取当前前台Activity
+        val currentActivity = extractCurrentActivityFromStack(activityStack)
+        
+        actionCallback?.let { callback ->
+            val event = ActionListener.ActionEvent(
+                timestamp = System.currentTimeMillis(),
+                actionType = ActionListener.ActionType.APP_SWITCH,
+                additionalData = mapOf(
+                    "source" to "activity_stack_monitor",
+                    "activityStack" to activityStack.take(200),
+                    "currentActivity" to (currentActivity ?: "unknown")
+                )
+            )
+            callback(event)
+        }
+    }
+
+    /**
+     * 处理检测到的触摸事件
+     * @param x 触摸X坐标
+     * @param y 触摸Y坐标
+     * @param action 触摸动作类型
+     */
+    fun handleDetectedTouchEvent(x: Int, y: Int, action: String) {
+        if (isListening.get() && actionCallback != null) {
+            val actionType = when (action) {
+                "DOWN", "UP" -> ActionListener.ActionType.CLICK
+                "MOVE" -> ActionListener.ActionType.SWIPE
+                else -> ActionListener.ActionType.GESTURE
+            }
+
+            val event = ActionListener.ActionEvent(
+                timestamp = System.currentTimeMillis(),
+                actionType = actionType,
+                coordinates = Pair(x, y),
+                additionalData = mapOf(
+                    "rawAction" to action,
+                    "source" to "system_input_monitor"
+                )
+            )
+            actionCallback?.invoke(event)
+        }
+    }
+
+    /**
+     * 处理检测到的应用切换事件
+     * @param fromPackage 切换前的应用包名
+     * @param toPackage 切换后的应用包名
+     */
+    fun handleAppSwitchEvent(fromPackage: String?, toPackage: String?) {
+        if (isListening.get() && actionCallback != null) {
+            val event = ActionListener.ActionEvent(
+                timestamp = System.currentTimeMillis(),
+                actionType = ActionListener.ActionType.APP_SWITCH,
+                additionalData = mapOf(
+                    "fromPackage" to (fromPackage ?: "unknown"),
+                    "toPackage" to (toPackage ?: "unknown"),
+                    "source" to "window_manager_monitor"
+                )
+            )
+            actionCallback?.invoke(event)
+        }
+    }
+
+    /**
+     * 从窗口信息中提取应用包名
+     * @param windowInfo 窗口信息字符串
+     * @return 提取的包名，如果无法提取则返回null
+     */
+    private fun extractPackageNameFromWindowInfo(windowInfo: String): String? {
+        // 尝试从窗口信息中提取包名
+        // 示例格式: mCurrentFocus=Window{abc123 u0 com.example.app/com.example.app.MainActivity}
+        val packagePattern = Regex("""([a-zA-Z][a-zA-Z0-9_]*(?:\.[a-zA-Z0-9_]+)+)/""")
+        return packagePattern.find(windowInfo)?.groupValues?.get(1)
+    }
+
+    /**
+     * 从Activity栈信息中提取当前前台Activity
+     * @param activityStack Activity栈信息字符串
+     * @return 提取的Activity信息，如果无法提取则返回null
+     */
+    private fun extractCurrentActivityFromStack(activityStack: String): String? {
+        // 尝试从Activity栈信息中提取当前Activity
+        // 示例格式: Running activities (most recent first): ActivityRecord{abc123 u0 com.example.app/.MainActivity t123}
+        val activityPattern = Regex("""ActivityRecord\{[^}]*\s+([^/]+/[^}]+)""")
+        return activityPattern.find(activityStack)?.groupValues?.get(1)
+    }
+} 

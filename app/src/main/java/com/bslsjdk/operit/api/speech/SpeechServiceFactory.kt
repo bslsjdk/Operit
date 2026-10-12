@@ -1,1 +1,230 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnNwZWVjaAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLlNwZWVjaFNlcnZpY2VQcm9maWxlc1ByZWZlcmVuY2VzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcy5TcGVlY2hTZXJ2aWNlc1ByZWZlcmVuY2VzLlN0dEh0dHBDb25maWcKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5ydW5CbG9ja2luZwppbXBvcnQgamF2YS51dGlsLmNvbmN1cnJlbnQuYXRvbWljLkF0b21pY0Jvb2xlYW4KCi8qKiDor63pn7Por4bliKvmnI3liqHlt6XljoLnsbsg55So5LqO5Yib5bu65ZKM566h55CG5LiN5ZCM57G75Z6L55qE6K+t6Z+z6K+G5Yir5pyN5YqhICovCm9iamVjdCBTcGVlY2hTZXJ2aWNlRmFjdG9yeSB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiU3BlZWNoU2VydmljZUZhY3RvcnkiCgogICAgLyoqIOivremfs+ivhuWIq+acjeWKoeexu+WeiyAqLwogICAgZW51bSBjbGFzcyBTcGVlY2hTZXJ2aWNlVHlwZSB7CiAgICAgICAgLyoqIOWfuuS6jlNoZXJwYS1uY25u55qE5pys5Zyw6K+G5Yir5a6e546wICovCiAgICAgICAgU0hFUlBBX05DTk4sCiAgICAgICAgT1BFTkFJX1NUVCwKICAgICAgICBERUVQR1JBTV9TVFQsCiAgICB9CgogICAgLyoqCiAgICAgKiDliJvlu7ror63pn7Por4bliKvmnI3liqHlrp7kvosKICAgICAqCiAgICAgKiBAcGFyYW0gY29udGV4dCDlupTnlKjkuIrkuIvmlocKICAgICAqIEByZXR1cm4g5a+55bqU57G75Z6L55qE6K+t6Z+z6K+G5Yir5pyN5Yqh5a6e5L6LCiAgICAgKi8KICAgIGZ1biBjcmVhdGVTcGVlY2hTZXJ2aWNlKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQKICAgICk6IFNwZWVjaFNlcnZpY2UgewogICAgICAgIHZhbCBwcm9maWxlcyA9IFNwZWVjaFNlcnZpY2VQcm9maWxlc1ByZWZlcmVuY2VzKGNvbnRleHQpCiAgICAgICAgdmFsIHByb2ZpbGUgPSBydW5CbG9ja2luZyB7IHByb2ZpbGVzLmdldEN1cnJlbnRTdHRQcm9maWxlKCkgfQoKICAgICAgICByZXR1cm4gY3JlYXRlU3BlZWNoU2VydmljZShjb250ZXh0LCBwcm9maWxlLnNlcnZpY2VUeXBlLCBwcm9maWxlLmh0dHBDb25maWcpCiAgICB9CgogICAgZnVuIGNyZWF0ZVdha2VTcGVlY2hTZXJ2aWNlKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICApOiBTcGVlY2hTZXJ2aWNlIHsKICAgICAgICB2YWwgcHJvZmlsZXMgPSBTcGVlY2hTZXJ2aWNlUHJvZmlsZXNQcmVmZXJlbmNlcyhjb250ZXh0KQogICAgICAgIHZhbCBwcm9maWxlID0gcnVuQmxvY2tpbmcgeyBwcm9maWxlcy5nZXRDdXJyZW50U3R0UHJvZmlsZSgpIH0KICAgICAgICB2YWwgc2VsZWN0ZWRUeXBlID0gcHJvZmlsZS5zZXJ2aWNlVHlwZQogICAgICAgIHZhbCBlZmZlY3RpdmVUeXBlID0gd2hlbiAoc2VsZWN0ZWRUeXBlKSB7CiAgICAgICAgICAgIFNwZWVjaFNlcnZpY2VUeXBlLk9QRU5BSV9TVFQsCiAgICAgICAgICAgIFNwZWVjaFNlcnZpY2VUeXBlLkRFRVBHUkFNX1NUVCwKICAgICAgICAgICAgLT4gU3BlZWNoU2VydmljZVR5cGUuU0hFUlBBX05DTk4KICAgICAgICAgICAgZWxzZSAtPiBzZWxlY3RlZFR5cGUKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGNyZWF0ZVNwZWVjaFNlcnZpY2UoY29udGV4dCwgZWZmZWN0aXZlVHlwZSwgcHJvZmlsZS5odHRwQ29uZmlnKQogICAgfQoKICAgIGZ1biBjcmVhdGVTcGVlY2hTZXJ2aWNlKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgdHlwZTogU3BlZWNoU2VydmljZVR5cGUsCiAgICApOiBTcGVlY2hTZXJ2aWNlIHsKICAgICAgICB2YWwgcHJvZmlsZXMgPSBTcGVlY2hTZXJ2aWNlUHJvZmlsZXNQcmVmZXJlbmNlcyhjb250ZXh0KQogICAgICAgIHZhbCBjb25maWcgPSBydW5CbG9ja2luZyB7IHByb2ZpbGVzLmdldEN1cnJlbnRTdHRQcm9maWxlKCkuaHR0cENvbmZpZyB9CiAgICAgICAgcmV0dXJuIGNyZWF0ZVNwZWVjaFNlcnZpY2UoY29udGV4dCwgdHlwZSwgY29uZmlnKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNyZWF0ZVNwZWVjaFNlcnZpY2UoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICB0eXBlOiBTcGVlY2hTZXJ2aWNlVHlwZSwKICAgICAgICBodHRwQ29uZmlnOiBTdHRIdHRwQ29uZmlnLAogICAgKTogU3BlZWNoU2VydmljZSB7CiAgICAgICAgcmV0dXJuIHdoZW4gKHR5cGUpIHsKICAgICAgICAgICAgU3BlZWNoU2VydmljZVR5cGUuU0hFUlBBX05DTk4gLT4gYWNxdWlyZUxvY2FsU3BlZWNoU2VydmljZShjb250ZXh0LCB0eXBlKQogICAgICAgICAgICBTcGVlY2hTZXJ2aWNlVHlwZS5PUEVOQUlfU1RUIC0+IHsKICAgICAgICAgICAgICAgIHJ1bkJsb2NraW5nIHsKICAgICAgICAgICAgICAgICAgICBPcGVuQUlTdHRQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGVuZHBvaW50VXJsID0gaHR0cENvbmZpZy5lbmRwb2ludFVybCwKICAgICAgICAgICAgICAgICAgICAgICAgYXBpS2V5ID0gaHR0cENvbmZpZy5hcGlLZXksCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGVsID0gaHR0cENvbmZpZy5tb2RlbE5hbWUsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIFNwZWVjaFNlcnZpY2VUeXBlLkRFRVBHUkFNX1NUVCAtPiB7CiAgICAgICAgICAgICAgICBydW5CbG9ja2luZyB7CiAgICAgICAgICAgICAgICAgICAgRGVlcGdyYW1TdHRQcm92aWRlcigKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgIGVuZHBvaW50VXJsID0gaHR0cENvbmZpZy5lbmRwb2ludFVybCwKICAgICAgICAgICAgICAgICAgICAgICAgYXBpS2V5ID0gaHR0cENvbmZpZy5hcGlLZXksCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGVsID0gaHR0cENvbmZpZy5tb2RlbE5hbWUsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgY2xhc3MgU3BlZWNoU2VydmljZUxlYXNlKAogICAgICAgIHByaXZhdGUgdmFsIGRlbGVnYXRlOiBTcGVlY2hTZXJ2aWNlLAogICAgICAgIHByaXZhdGUgdmFsIG9uUmVsZWFzZTogKCkgLT4gVW5pdCwKICAgICkgOiBTcGVlY2hTZXJ2aWNlIGJ5IGRlbGVnYXRlIHsKICAgICAgICBwcml2YXRlIHZhbCByZWxlYXNlZCA9IEF0b21pY0Jvb2xlYW4oZmFsc2UpCgogICAgICAgIG92ZXJyaWRlIGZ1biBzaHV0ZG93bigpIHsKICAgICAgICAgICAgaWYgKHJlbGVhc2VkLmNvbXBhcmVBbmRTZXQoZmFsc2UsIHRydWUpKSB7CiAgICAgICAgICAgICAgICBvblJlbGVhc2UoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZGF0YSBjbGFzcyBMb2NhbEVudHJ5KAogICAgICAgIHZhbCB0eXBlOiBTcGVlY2hTZXJ2aWNlVHlwZSwKICAgICAgICB2YWwgc2VydmljZTogU3BlZWNoU2VydmljZSwKICAgICAgICB2YXIgcmVmQ291bnQ6IEludCwKICAgICkKCiAgICBwcml2YXRlIHZhbCBsb2NhbExvY2sgPSBBbnkoKQogICAgcHJpdmF0ZSB2YXIgbG9jYWxFbnRyeTogTG9jYWxFbnRyeT8gPSBudWxsCgogICAgcHJpdmF0ZSBmdW4gYWNxdWlyZUxvY2FsU3BlZWNoU2VydmljZSgKICAgICAgICBjb250ZXh0OiBDb250ZXh0LAogICAgICAgIHR5cGU6IFNwZWVjaFNlcnZpY2VUeXBlLAogICAgKTogU3BlZWNoU2VydmljZSB7CiAgICAgICAgdmFsIGFwcENvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dAogICAgICAgIHN5bmNocm9uaXplZChsb2NhbExvY2spIHsKICAgICAgICAgICAgdmFsIGV4aXN0aW5nID0gbG9jYWxFbnRyeQogICAgICAgICAgICBpZiAoZXhpc3RpbmcgIT0gbnVsbCAmJiBleGlzdGluZy50eXBlICE9IHR5cGUpIHsKICAgICAgICAgICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigKICAgICAgICAgICAgICAgICAgICAiTG9jYWwgU3BlZWNoU2VydmljZSBhbHJlYWR5IGFjdGl2ZTogJHtleGlzdGluZy50eXBlfS4gIiArCiAgICAgICAgICAgICAgICAgICAgICAgICJDYW5ub3QgY3JlYXRlIGFub3RoZXIgbG9jYWwgU3BlZWNoU2VydmljZSBvZiB0eXBlICR0eXBlIGJlZm9yZSByZWxlYXNpbmcgdGhlIHByZXZpb3VzIG9uZS4iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHZhbCBlbnRyeSA9CiAgICAgICAgICAgICAgICBpZiAoZXhpc3RpbmcgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgIGV4aXN0aW5nLnJlZkNvdW50ICs9IDEKICAgICAgICAgICAgICAgICAgICBleGlzdGluZwogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICB2YWwgc2VydmljZSA9CiAgICAgICAgICAgICAgICAgICAgICAgIHdoZW4gKHR5cGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwZWVjaFNlcnZpY2VUeXBlLlNIRVJQQV9OQ05OIC0+IFNoZXJwYVNwZWVjaFByb3ZpZGVyKGFwcENvbnRleHQpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiTm90IGEgbG9jYWwgU3BlZWNoU2VydmljZSB0eXBlOiAkdHlwZSIpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBMb2NhbEVudHJ5KHR5cGUgPSB0eXBlLCBzZXJ2aWNlID0gc2VydmljZSwgcmVmQ291bnQgPSAxKS5hbHNvIHsgbG9jYWxFbnRyeSA9IGl0IH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHJldHVybiBTcGVlY2hTZXJ2aWNlTGVhc2UoCiAgICAgICAgICAgICAgICBkZWxlZ2F0ZSA9IGVudHJ5LnNlcnZpY2UsCiAgICAgICAgICAgICAgICBvblJlbGVhc2UgPSB7IHJlbGVhc2VMb2NhbFNwZWVjaFNlcnZpY2UoZW50cnkudHlwZSkgfSwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biByZWxlYXNlTG9jYWxTcGVlY2hTZXJ2aWNlKHR5cGU6IFNwZWVjaFNlcnZpY2VUeXBlKSB7CiAgICAgICAgdmFsIHRvU2h1dGRvd246IFNwZWVjaFNlcnZpY2U/CiAgICAgICAgc3luY2hyb25pemVkKGxvY2FsTG9jaykgewogICAgICAgICAgICB2YWwgZW50cnkgPSBsb2NhbEVudHJ5CiAgICAgICAgICAgIGlmIChlbnRyeSA9PSBudWxsIHx8IGVudHJ5LnR5cGUgIT0gdHlwZSkgewogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGVudHJ5LnJlZkNvdW50IC09IDEKICAgICAgICAgICAgaWYgKGVudHJ5LnJlZkNvdW50ID4gMCkgewogICAgICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGxvY2FsRW50cnkgPSBudWxsCiAgICAgICAgICAgIHRvU2h1dGRvd24gPSBlbnRyeS5zZXJ2aWNlCiAgICAgICAgfQoKICAgICAgICB0cnkgewogICAgICAgICAgICB0b1NodXRkb3duPy5zaHV0ZG93bigpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIkZhaWxlZCB0byBzaHV0ZG93biBsb2NhbCBTcGVlY2hTZXJ2aWNlIiwgZSkKICAgICAgICB9CiAgICB9CgogICAgLy8g5Y2V5L6L5a6e5L6L57yT5a2YCiAgICBwcml2YXRlIHZhciBpbnN0YW5jZTogU3BlZWNoU2VydmljZT8gPSBudWxsCiAgICBwcml2YXRlIHZhciBjdXJyZW50UHJvZmlsZUlkOiBTdHJpbmc/ID0gbnVsbAoKICAgIC8qKgogICAgICog6I635Y+W6K+t6Z+z6K+G5Yir5pyN5Yqh5Y2V5L6L5a6e5L6LCiAgICAgKgogICAgICogQHBhcmFtIGNvbnRleHQg5bqU55So5LiK5LiL5paHCiAgICAgKiBAcmV0dXJuIOivremfs+ivhuWIq+acjeWKoeWunuS+iwogICAgICovCiAgICBmdW4gZ2V0SW5zdGFuY2UoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICk6IFNwZWVjaFNlcnZpY2UgewogICAgICAgIHZhbCBwcm9maWxlcyA9IFNwZWVjaFNlcnZpY2VQcm9maWxlc1ByZWZlcmVuY2VzKGNvbnRleHQpCiAgICAgICAgdmFsIHByb2ZpbGUgPSBydW5CbG9ja2luZyB7IHByb2ZpbGVzLmdldEN1cnJlbnRTdHRQcm9maWxlKCkgfQogICAgICAgIHZhbCBzZWxlY3RlZFByb2ZpbGVJZCA9IHByb2ZpbGUuaWQKCiAgICAgICAgdmFsIG5lZWROZXdJbnN0YW5jZSA9IGluc3RhbmNlID09IG51bGwgfHwgc2VsZWN0ZWRQcm9maWxlSWQgIT0gY3VycmVudFByb2ZpbGVJZAogICAgICAgIAogICAgICAgIGlmIChuZWVkTmV3SW5zdGFuY2UpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGluc3RhbmNlPy5zaHV0ZG93bigpCiAgICAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICB9CgogICAgICAgICAgICB2YWwgY3JlYXRlZCA9CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGNyZWF0ZVNwZWVjaFNlcnZpY2UoY29udGV4dCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIkZhaWxlZCB0byBjcmVhdGUgU3BlZWNoU2VydmljZSBmb3IgcHJvZmlsZT0kc2VsZWN0ZWRQcm9maWxlSWQsIGtlZXBpbmcgcHJldmlvdXMgaW5zdGFuY2UiLCBlKQogICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmIChjcmVhdGVkICE9IG51bGwpIHsKICAgICAgICAgICAgICAgIGluc3RhbmNlID0gY3JlYXRlZAogICAgICAgICAgICAgICAgY3VycmVudFByb2ZpbGVJZCA9IHNlbGVjdGVkUHJvZmlsZUlkCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHZhbCB2YWx1ZSA9IGluc3RhbmNlCiAgICAgICAgaWYgKHZhbHVlICE9IG51bGwpIHJldHVybiB2YWx1ZQoKICAgICAgICB2YWwgZmFsbGJhY2tFbnRyeSA9IHN5bmNocm9uaXplZChsb2NhbExvY2spIHsgbG9jYWxFbnRyeSB9CiAgICAgICAgaWYgKGZhbGxiYWNrRW50cnkgIT0gbnVsbCkgewogICAgICAgICAgICByZXR1cm4gYWNxdWlyZUxvY2FsU3BlZWNoU2VydmljZShjb250ZXh0LCBmYWxsYmFja0VudHJ5LnR5cGUpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gY3JlYXRlU3BlZWNoU2VydmljZShjb250ZXh0LCBTcGVlY2hTZXJ2aWNlVHlwZS5TSEVSUEFfTkNOTikKICAgIH0KCiAgICAvKiog6YeN572u5Y2V5L6L5a6e5L6LIOWcqOmcgOimgeabtOaUueivremfs+ivhuWIq+acjeWKoeexu+Wei+aIlumHiuaUvui1hOa6kOaXtuiwg+eUqCAqLwogICAgZnVuIHJlc2V0SW5zdGFuY2UoKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgaW5zdGFuY2U/LnNodXRkb3duKCkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICB9CiAgICAgICAgaW5zdGFuY2UgPSBudWxsCiAgICAgICAgY3VycmVudFByb2ZpbGVJZCA9IG51bGwKICAgIH0KfQo=
+package com.bslsjdk.operit.api.speech
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.data.preferences.SpeechServiceProfilesPreferences
+import com.bslsjdk.operit.data.preferences.SpeechServicesPreferences.SttHttpConfig
+import kotlinx.coroutines.runBlocking
+import java.util.concurrent.atomic.AtomicBoolean
+
+/** 语音识别服务工厂类 用于创建和管理不同类型的语音识别服务 */
+object SpeechServiceFactory {
+    private const val TAG = "SpeechServiceFactory"
+
+    /** 语音识别服务类型 */
+    enum class SpeechServiceType {
+        /** 基于Sherpa-ncnn的本地识别实现 */
+        SHERPA_NCNN,
+        OPENAI_STT,
+        DEEPGRAM_STT,
+    }
+
+    /**
+     * 创建语音识别服务实例
+     *
+     * @param context 应用上下文
+     * @return 对应类型的语音识别服务实例
+     */
+    fun createSpeechService(
+        context: Context
+    ): SpeechService {
+        val profiles = SpeechServiceProfilesPreferences(context)
+        val profile = runBlocking { profiles.getCurrentSttProfile() }
+
+        return createSpeechService(context, profile.serviceType, profile.httpConfig)
+    }
+
+    fun createWakeSpeechService(
+        context: Context,
+    ): SpeechService {
+        val profiles = SpeechServiceProfilesPreferences(context)
+        val profile = runBlocking { profiles.getCurrentSttProfile() }
+        val selectedType = profile.serviceType
+        val effectiveType = when (selectedType) {
+            SpeechServiceType.OPENAI_STT,
+            SpeechServiceType.DEEPGRAM_STT,
+            -> SpeechServiceType.SHERPA_NCNN
+            else -> selectedType
+        }
+        return createSpeechService(context, effectiveType, profile.httpConfig)
+    }
+
+    fun createSpeechService(
+        context: Context,
+        type: SpeechServiceType,
+    ): SpeechService {
+        val profiles = SpeechServiceProfilesPreferences(context)
+        val config = runBlocking { profiles.getCurrentSttProfile().httpConfig }
+        return createSpeechService(context, type, config)
+    }
+
+    private fun createSpeechService(
+        context: Context,
+        type: SpeechServiceType,
+        httpConfig: SttHttpConfig,
+    ): SpeechService {
+        return when (type) {
+            SpeechServiceType.SHERPA_NCNN -> acquireLocalSpeechService(context, type)
+            SpeechServiceType.OPENAI_STT -> {
+                runBlocking {
+                    OpenAISttProvider(
+                        context = context,
+                        endpointUrl = httpConfig.endpointUrl,
+                        apiKey = httpConfig.apiKey,
+                        model = httpConfig.modelName,
+                    )
+                }
+            }
+            SpeechServiceType.DEEPGRAM_STT -> {
+                runBlocking {
+                    DeepgramSttProvider(
+                        context = context,
+                        endpointUrl = httpConfig.endpointUrl,
+                        apiKey = httpConfig.apiKey,
+                        model = httpConfig.modelName,
+                    )
+                }
+            }
+        }
+    }
+
+    private class SpeechServiceLease(
+        private val delegate: SpeechService,
+        private val onRelease: () -> Unit,
+    ) : SpeechService by delegate {
+        private val released = AtomicBoolean(false)
+
+        override fun shutdown() {
+            if (released.compareAndSet(false, true)) {
+                onRelease()
+            }
+        }
+    }
+
+    private data class LocalEntry(
+        val type: SpeechServiceType,
+        val service: SpeechService,
+        var refCount: Int,
+    )
+
+    private val localLock = Any()
+    private var localEntry: LocalEntry? = null
+
+    private fun acquireLocalSpeechService(
+        context: Context,
+        type: SpeechServiceType,
+    ): SpeechService {
+        val appContext = context.applicationContext
+        synchronized(localLock) {
+            val existing = localEntry
+            if (existing != null && existing.type != type) {
+                throw IllegalStateException(
+                    "Local SpeechService already active: ${existing.type}. " +
+                        "Cannot create another local SpeechService of type $type before releasing the previous one."
+                )
+            }
+
+            val entry =
+                if (existing != null) {
+                    existing.refCount += 1
+                    existing
+                } else {
+                    val service =
+                        when (type) {
+                            SpeechServiceType.SHERPA_NCNN -> SherpaSpeechProvider(appContext)
+                            else -> throw IllegalArgumentException("Not a local SpeechService type: $type")
+                        }
+                    LocalEntry(type = type, service = service, refCount = 1).also { localEntry = it }
+                }
+
+            return SpeechServiceLease(
+                delegate = entry.service,
+                onRelease = { releaseLocalSpeechService(entry.type) },
+            )
+        }
+    }
+
+    private fun releaseLocalSpeechService(type: SpeechServiceType) {
+        val toShutdown: SpeechService?
+        synchronized(localLock) {
+            val entry = localEntry
+            if (entry == null || entry.type != type) {
+                return
+            }
+
+            entry.refCount -= 1
+            if (entry.refCount > 0) {
+                return
+            }
+
+            localEntry = null
+            toShutdown = entry.service
+        }
+
+        try {
+            toShutdown?.shutdown()
+        } catch (e: Exception) {
+            AppLogger.w(TAG, "Failed to shutdown local SpeechService", e)
+        }
+    }
+
+    // 单例实例缓存
+    private var instance: SpeechService? = null
+    private var currentProfileId: String? = null
+
+    /**
+     * 获取语音识别服务单例实例
+     *
+     * @param context 应用上下文
+     * @return 语音识别服务实例
+     */
+    fun getInstance(
+        context: Context,
+    ): SpeechService {
+        val profiles = SpeechServiceProfilesPreferences(context)
+        val profile = runBlocking { profiles.getCurrentSttProfile() }
+        val selectedProfileId = profile.id
+
+        val needNewInstance = instance == null || selectedProfileId != currentProfileId
+        
+        if (needNewInstance) {
+            try {
+                instance?.shutdown()
+            } catch (_: Exception) {
+            }
+
+            val created =
+                try {
+                    createSpeechService(context)
+                } catch (e: IllegalStateException) {
+                    AppLogger.w(TAG, "Failed to create SpeechService for profile=$selectedProfileId, keeping previous instance", e)
+                    null
+                }
+
+            if (created != null) {
+                instance = created
+                currentProfileId = selectedProfileId
+            }
+        }
+
+        val value = instance
+        if (value != null) return value
+
+        val fallbackEntry = synchronized(localLock) { localEntry }
+        if (fallbackEntry != null) {
+            return acquireLocalSpeechService(context, fallbackEntry.type)
+        }
+
+        return createSpeechService(context, SpeechServiceType.SHERPA_NCNN)
+    }
+
+    /** 重置单例实例 在需要更改语音识别服务类型或释放资源时调用 */
+    fun resetInstance() {
+        try {
+            instance?.shutdown()
+        } catch (_: Exception) {
+        }
+        instance = null
+        currentProfileId = null
+    }
+}

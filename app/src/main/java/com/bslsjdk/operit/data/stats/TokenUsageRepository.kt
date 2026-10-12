@@ -1,1 +1,106 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5yb29tLndpdGhUcmFuc2FjdGlvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuZGFvLlRva2VuVXNhZ2VEYW8KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmRiLkFwcERhdGFiYXNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub2tlblN0YXRzTW9kZWxFbnRpdHkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLlRva2VuVXNhZ2VSZWNvcmRFbnRpdHkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkFwaVByZWZlcmVuY2VzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLk11dGV4CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy53aXRoTG9jawoKLyoqIFJvb20gb3duZXIgZm9yIHN1Y2Nlc3NmdWwgZm9ybWFsLWluZmVyZW5jZSB1c2FnZSBhbmQgcHJpY2luZy4gKi8KY2xhc3MgVG9rZW5Vc2FnZVJlcG9zaXRvcnkgcHJpdmF0ZSBjb25zdHJ1Y3Rvcihjb250ZXh0OiBDb250ZXh0KSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiVG9rZW5Vc2FnZVJlcG9zaXRvcnkiCiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgaW5zdGFuY2U6IFRva2VuVXNhZ2VSZXBvc2l0b3J5PyA9IG51bGwKICAgICAgICBwcml2YXRlIHZhbCBkYXRhYmFzZUFjY2Vzc011dGV4ID0gTXV0ZXgoKQoKICAgICAgICBmdW4gZ2V0SW5zdGFuY2UoY29udGV4dDogQ29udGV4dCk6IFRva2VuVXNhZ2VSZXBvc2l0b3J5ID0KICAgICAgICAgICAgaW5zdGFuY2UgPzogc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgICAgIGluc3RhbmNlID86IFRva2VuVXNhZ2VSZXBvc2l0b3J5KGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KS5hbHNvIHsgaW5zdGFuY2UgPSBpdCB9CiAgICAgICAgICAgIH0KCiAgICAgICAgLyoqIFByZXZlbnQgUm9vbSBhY2Nlc3Mgd2hpbGUgYSByZXN0b3JlIHJlcGxhY2VzIGRhdGFiYXNlIGZpbGVzLiAqLwogICAgICAgIHN1c3BlbmQgZnVuIDxUPiB3aXRoRGF0YWJhc2VBY2Nlc3MoYmxvY2s6IHN1c3BlbmQgKCkgLT4gVCk6IFQgPQogICAgICAgICAgICBkYXRhYmFzZUFjY2Vzc011dGV4LndpdGhMb2NrIHsgYmxvY2soKSB9CgogICAgICAgIHN1c3BlbmQgZnVuIDxUPiB3aXRoRGF0YWJhc2VSZXN0b3JlKGJsb2NrOiBzdXNwZW5kICgpIC0+IFQpOiBUID0KICAgICAgICAgICAgd2l0aERhdGFiYXNlQWNjZXNzIHsgYmxvY2soKSB9CiAgICB9CgogICAgcHJpdmF0ZSB2YWwgYXBwQ29udGV4dCA9IGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0CiAgICBwcml2YXRlIHZhbCBsZWdhY3lEYXRhU291cmNlID0gQXBpUHJlZmVyZW5jZXMuZ2V0SW5zdGFuY2UoYXBwQ29udGV4dCkKICAgIHByaXZhdGUgdmFsIHN0YXRzUHJlZmVyZW5jZXMgPSBUb2tlblN0YXRzUHJlZmVyZW5jZXMoYXBwQ29udGV4dCkKICAgIHByaXZhdGUgdmFsIGltcG9ydE11dGV4ID0gTXV0ZXgoKQoKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgaW5pdGlhbGl6YXRpb25Db21wbGV0ZSA9IGZhbHNlCgogICAgc3VzcGVuZCBmdW4gZW5zdXJlSW5pdGlhbGl6ZWQoKSB7CiAgICAgICAgaWYgKGluaXRpYWxpemF0aW9uQ29tcGxldGUpIHJldHVybgogICAgICAgIGltcG9ydE11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgaWYgKGluaXRpYWxpemF0aW9uQ29tcGxldGUpIHJldHVybgogICAgICAgICAgICBpZiAoc3RhdHNQcmVmZXJlbmNlcy5pbXBvcnRlZEF0TXMoKSA9PSBudWxsKSB7CiAgICAgICAgICAgICAgICB2YWwgc25hcHNob3QgPSBsZWdhY3lEYXRhU291cmNlLnJlYWRUb2tlblN0YXRzTWlncmF0aW9uU25hcHNob3QoKQogICAgICAgICAgICAgICAgd2l0aERhdGFiYXNlQWNjZXNzIHsKICAgICAgICAgICAgICAgICAgICB2YWwgZGF0YWJhc2UgPSBBcHBEYXRhYmFzZS5nZXREYXRhYmFzZShhcHBDb250ZXh0KQogICAgICAgICAgICAgICAgICAgIGRhdGFiYXNlLndpdGhUcmFuc2FjdGlvbiB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBkYW8gPSBkYXRhYmFzZS50b2tlblVzYWdlRGFvKCkKICAgICAgICAgICAgICAgICAgICAgICAgZGFvLmluc2VydFJlY29yZHMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzbmFwc2hvdC50b3RhbHMubWFwIHsgdG90YWwgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb2tlblVzYWdlUmVjb3JkRW50aXR5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbXBvcnRLZXkgPSAibGVnYWN5LWN1bXVsYXRpdmU6JHt0b3RhbC5wcm92aWRlcn06JHt0b3RhbC5tb2RlbH0iLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvY2N1cnJlZEF0TXMgPSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25maWdJZCA9ICIiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcm92aWRlciA9IHRvdGFsLnByb3ZpZGVyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RlbCA9IHRvdGFsLm1vZGVsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXF1ZXN0Q291bnQgPSB0b3RhbC5yZXF1ZXN0Q291bnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVuY2FjaGVkSW5wdXRUb2tlbnMgPQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKHRvdGFsLmlucHV0VG9rZW5zIC0gdG90YWwuY2FjaGVkSW5wdXRUb2tlbnMpLmNvZXJjZUF0TGVhc3QoMEwpLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYWNoZWRJbnB1dFRva2VucyA9IHRvdGFsLmNhY2hlZElucHV0VG9rZW5zLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3RhbElucHV0VG9rZW5zID0gdG90YWwuaW5wdXRUb2tlbnMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG91dHB1dFRva2VucyA9IHRvdGFsLm91dHB1dFRva2VucywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgc25hcHNob3QucHJpY2VzLmZvckVhY2ggeyBwcmljZSAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGN1cnJlbnQgPSBkYW8uZ2V0U3RhdHNNb2RlbCgiIiwgcHJpY2UucHJvdmlkZXIsIHByaWNlLm1vZGVsKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IFRva2VuU3RhdHNNb2RlbEVudGl0eSgiIiwgcHJpY2UucHJvdmlkZXIsIHByaWNlLm1vZGVsKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGFvLnVwc2VydFN0YXRzTW9kZWwoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3VycmVudC5jb3B5KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiaWxsaW5nTW9kZSA9IHByaWNlLnNldHRpbmdzLmJpbGxpbmdNb2RlPy5uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJyZW5jeSA9IHByaWNlLnNldHRpbmdzLmN1cnJlbmN5Py5uYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dFByaWNlUGVyTWlsbGlvbiA9IHByaWNlLnNldHRpbmdzLmlucHV0UHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYWNoZWRJbnB1dFByaWNlUGVyTWlsbGlvbiA9IHByaWNlLnNldHRpbmdzLmNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYWNoZVdyaXRlUHJpY2VQZXJNaWxsaW9uID0gcHJpY2Uuc2V0dGluZ3MuY2FjaGVXcml0ZVByaWNlUGVyTWlsbGlvbiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3V0cHV0UHJpY2VQZXJNaWxsaW9uID0gcHJpY2Uuc2V0dGluZ3Mub3V0cHV0UHJpY2VQZXJNaWxsaW9uLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmljZVBlclJlcXVlc3QgPSBwcmljZS5zZXR0aW5ncy5wcmljZVBlclJlcXVlc3QsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgc3RhdHNQcmVmZXJlbmNlcy5jb21wbGV0ZU1pZ3JhdGlvbigKICAgICAgICAgICAgICAgICAgICBpbXBvcnRlZEF0TXMgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSwKICAgICAgICAgICAgICAgICAgICByZWxlYXNlZFVzZFRvQ255UmF0ZSA9IHNuYXBzaG90LnVzZFRvQ255UmF0ZSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5pKFRBRywgIkltcG9ydGVkICR7c25hcHNob3QudG90YWxzLnNpemV9IGN1bXVsYXRpdmUgdG90YWxzIGFuZCAke3NuYXBzaG90LnByaWNlcy5zaXplfSBwcmljZSBzZXR0aW5ncyIpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbGVnYWN5RGF0YVNvdXJjZS5jbGVhck1pZ3JhdGVkVG9rZW5TdGF0c0RhdGEoKQogICAgICAgICAgICBpbml0aWFsaXphdGlvbkNvbXBsZXRlID0gdHJ1ZQogICAgICAgIH0KICAgIH0KCiAgICBpbnRlcm5hbCBzdXNwZW5kIGZ1biA8VD4gd2l0aERhbyhibG9jazogc3VzcGVuZCAoVG9rZW5Vc2FnZURhbykgLT4gVCk6IFQgewogICAgICAgIGVuc3VyZUluaXRpYWxpemVkKCkKICAgICAgICByZXR1cm4gd2l0aERhdGFiYXNlQWNjZXNzIHsgYmxvY2soQXBwRGF0YWJhc2UuZ2V0RGF0YWJhc2UoYXBwQ29udGV4dCkudG9rZW5Vc2FnZURhbygpKSB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gcmVjb3JkKHJlY29yZDogVG9rZW5Vc2FnZVJlY29yZEVudGl0eSkgewogICAgICAgIHdpdGhEYW8geyBkYW8gLT4gZGFvLmluc2VydFJlY29yZChyZWNvcmQpIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.stats
+
+import android.content.Context
+import androidx.room.withTransaction
+import com.bslsjdk.operit.data.dao.TokenUsageDao
+import com.bslsjdk.operit.data.db.AppDatabase
+import com.bslsjdk.operit.data.model.TokenStatsModelEntity
+import com.bslsjdk.operit.data.model.TokenUsageRecordEntity
+import com.bslsjdk.operit.data.preferences.ApiPreferences
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+/** Room owner for successful formal-inference usage and pricing. */
+class TokenUsageRepository private constructor(context: Context) {
+    companion object {
+        private const val TAG = "TokenUsageRepository"
+        @Volatile
+        private var instance: TokenUsageRepository? = null
+        private val databaseAccessMutex = Mutex()
+
+        fun getInstance(context: Context): TokenUsageRepository =
+            instance ?: synchronized(this) {
+                instance ?: TokenUsageRepository(context.applicationContext).also { instance = it }
+            }
+
+        /** Prevent Room access while a restore replaces database files. */
+        suspend fun <T> withDatabaseAccess(block: suspend () -> T): T =
+            databaseAccessMutex.withLock { block() }
+
+        suspend fun <T> withDatabaseRestore(block: suspend () -> T): T =
+            withDatabaseAccess { block() }
+    }
+
+    private val appContext = context.applicationContext
+    private val legacyDataSource = ApiPreferences.getInstance(appContext)
+    private val statsPreferences = TokenStatsPreferences(appContext)
+    private val importMutex = Mutex()
+
+    @Volatile
+    private var initializationComplete = false
+
+    suspend fun ensureInitialized() {
+        if (initializationComplete) return
+        importMutex.withLock {
+            if (initializationComplete) return
+            if (statsPreferences.importedAtMs() == null) {
+                val snapshot = legacyDataSource.readTokenStatsMigrationSnapshot()
+                withDatabaseAccess {
+                    val database = AppDatabase.getDatabase(appContext)
+                    database.withTransaction {
+                        val dao = database.tokenUsageDao()
+                        dao.insertRecords(
+                            snapshot.totals.map { total ->
+                                TokenUsageRecordEntity(
+                                    importKey = "legacy-cumulative:${total.provider}:${total.model}",
+                                    occurredAtMs = null,
+                                    configId = "",
+                                    provider = total.provider,
+                                    model = total.model,
+                                    requestCount = total.requestCount,
+                                    uncachedInputTokens =
+                                        (total.inputTokens - total.cachedInputTokens).coerceAtLeast(0L),
+                                    cachedInputTokens = total.cachedInputTokens,
+                                    totalInputTokens = total.inputTokens,
+                                    outputTokens = total.outputTokens,
+                                )
+                            }
+                        )
+                        snapshot.prices.forEach { price ->
+                            val current = dao.getStatsModel("", price.provider, price.model)
+                                ?: TokenStatsModelEntity("", price.provider, price.model)
+                            dao.upsertStatsModel(
+                                current.copy(
+                                    billingMode = price.settings.billingMode?.name,
+                                    currency = price.settings.currency?.name,
+                                    inputPricePerMillion = price.settings.inputPricePerMillion,
+                                    cachedInputPricePerMillion = price.settings.cachedInputPricePerMillion,
+                                    cacheWritePricePerMillion = price.settings.cacheWritePricePerMillion,
+                                    outputPricePerMillion = price.settings.outputPricePerMillion,
+                                    pricePerRequest = price.settings.pricePerRequest,
+                                )
+                            )
+                        }
+                    }
+                }
+                statsPreferences.completeMigration(
+                    importedAtMs = System.currentTimeMillis(),
+                    releasedUsdToCnyRate = snapshot.usdToCnyRate,
+                )
+                AppLogger.i(TAG, "Imported ${snapshot.totals.size} cumulative totals and ${snapshot.prices.size} price settings")
+            }
+            legacyDataSource.clearMigratedTokenStatsData()
+            initializationComplete = true
+        }
+    }
+
+    internal suspend fun <T> withDao(block: suspend (TokenUsageDao) -> T): T {
+        ensureInitialized()
+        return withDatabaseAccess { block(AppDatabase.getDatabase(appContext).tokenUsageDao()) }
+    }
+
+    suspend fun record(record: TokenUsageRecordEntity) {
+        withDao { dao -> dao.insertRecord(record) }
+    }
+}

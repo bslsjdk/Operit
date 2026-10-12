@@ -1,1 +1,80 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuZW5oYW5jZQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkNoYXRNYXJrdXBSZWdleAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCi8qKgogKiBSZWdyZXNzaW9uIGNvdmVyYWdlIGZvciBpc3N1ZSAjMTA1OTogdG9vbCByb3VuZCBtYXJrdXAgd2FzIGFwcGVuZGVkIHRvIHRoZSBhc3Npc3RhbnQgc3RyZWFtCiAqIHdpdGhvdXQgYSBsaW5lIGJyZWFrLCBzbyB0aGUgWE1MIGJsb2NrIGRldGVjdG9yIC0gd2hpY2ggb25seSBvcGVucyBhIGJsb2NrIGF0IGEgbGluZSBib3VuZGFyeSAtCiAqIHRyZWF0ZWQgdGhlIHRvb2wgcmVzdWx0IGFzIHBsYWluIG1vZGVsIHRleHQuCiAqLwpjbGFzcyBUb29sRXhlY3V0aW9uTWFuYWdlck1hcmt1cFRlc3QgewoKICAgIHByaXZhdGUgdmFsIHRvb2xSZXN1bHRNYXJrdXAgPQogICAgICAgICI8dG9vbF9yZXN1bHRfWHk5WiBuYW1lPVwiemhpcHVfZHJhd1wiIHN0YXR1cz1cInN1Y2Nlc3NcIj4iICsKICAgICAgICAgICAgIjxjb250ZW50PntcImZpbGVwYXRoXCI6XCIvc2RjYXJkL2EucG5nXCJ9PC9jb250ZW50PjwvdG9vbF9yZXN1bHRfWHk5Wj4iCgogICAgLyoqIFN0cmVhbWluZyB0b29sIGNhbGw6IHRoZSBwcm92aWRlciBjbG9zZXMgdGhlIHRvb2wgdGFnIHdpdGhvdXQgYSB0cmFpbGluZyBuZXdsaW5lLiAqLwogICAgcHJpdmF0ZSB2YWwgc3RyZWFtZWRSb3VuZCA9ICLlhYjnlLvkuIDlvKBcbjx0b29sX2FCMTIgbmFtZT1cInpoaXB1X2RyYXdcIj5cbjwvdG9vbF9hQjEyPiIKCiAgICAvKiogTm9uLXN0cmVhbWluZyB0b29sIGNhbGw6IHRoZSBwcm92aWRlciBlbWl0cyB0aGUgdG9vbCBYTUwgZmlyc3QsIHRoZW4gdGhlIG1vZGVsIHRleHQuICovCiAgICBwcml2YXRlIHZhbCBub25TdHJlYW1lZFJvdW5kID0KICAgICAgICAiXG48dG9vbF9hQjEyIG5hbWU9XCJ6aGlwdV9kcmF3XCI+XG48L3Rvb2xfYUIxMj5cbueUu+WujOS9oOiHquW3seeciyIKCiAgICBAVGVzdAogICAgZnVuIGVuc3VyZU93bkxpbmVfc3RhcnRzVG9vbFJlc3VsdE9uSXRzT3duTGluZUFmdGVyU3RyZWFtZWRUb29sQ2FsbCgpIHsKICAgICAgICB2YWwgcm91bmQgPSBzdHJlYW1lZFJvdW5kICsgVG9vbEV4ZWN1dGlvbk1hbmFnZXIuZW5zdXJlT3duTGluZSh0b29sUmVzdWx0TWFya3VwKQoKICAgICAgICBhc3NlcnRUb29sUmVzdWx0T3BlbnNBdExpbmVTdGFydChyb3VuZCkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGVuc3VyZU93bkxpbmVfc3RhcnRzVG9vbFJlc3VsdE9uSXRzT3duTGluZUFmdGVyTm9uU3RyZWFtZWRNb2RlbFRleHQoKSB7CiAgICAgICAgLy8gVGhlIG1vZGVsIHRleHQgZW5kcyBtaWQtbGluZSwgd2hpY2ggaXMgd2hhdCBsZXQgdGhlIHJhdyBKU09OIHN1cmZhY2UgYXMgbW9kZWwgb3V0cHV0LgogICAgICAgIHZhbCByb3VuZCA9IG5vblN0cmVhbWVkUm91bmQgKyBUb29sRXhlY3V0aW9uTWFuYWdlci5lbnN1cmVPd25MaW5lKHRvb2xSZXN1bHRNYXJrdXApCgogICAgICAgIGFzc2VydFRvb2xSZXN1bHRPcGVuc0F0TGluZVN0YXJ0KHJvdW5kKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZW5zdXJlT3duTGluZV9rZWVwc0Fzc2lzdGFudFRleHRFbWl0dGVkQmVmb3JlVGhlVG9vbENhbGxJbnRhY3QoKSB7CiAgICAgICAgdmFsIHJvdW5kID0gc3RyZWFtZWRSb3VuZCArIFRvb2xFeGVjdXRpb25NYW5hZ2VyLmVuc3VyZU93bkxpbmUodG9vbFJlc3VsdE1hcmt1cCkKCiAgICAgICAgLy8gVGhlIHRleHQgdGhlIG1vZGVsIHByb2R1Y2VkIGJlZm9yZSBjYWxsaW5nIHRoZSB0b29sIG11c3Qgc3Vydml2ZSBleGFjdGx5IG9uY2UuCiAgICAgICAgYXNzZXJ0RXF1YWxzKDEsIG9jY3VycmVuY2VzT2Yocm91bmQsICLlhYjnlLvkuIDlvKAiKSkKICAgICAgICBhc3NlcnRFcXVhbHMoMSwgb2NjdXJyZW5jZXNPZihyb3VuZCwgIjx0b29sX3Jlc3VsdF9YeTlaIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBlbnN1cmVPd25MaW5lX3NlcGFyYXRlc0NvbnNlY3V0aXZlVG9vbFJlc3VsdHNPZk9uZUJhdGNoKCkgewogICAgICAgIHZhbCBzZWNvbmRSZXN1bHQgPSB0b29sUmVzdWx0TWFya3VwLnJlcGxhY2UoIlh5OVoiLCAiUXc3SyIpCiAgICAgICAgdmFsIHJvdW5kID0KICAgICAgICAgICAgc3RyZWFtZWRSb3VuZCArCiAgICAgICAgICAgICAgICBUb29sRXhlY3V0aW9uTWFuYWdlci5lbnN1cmVPd25MaW5lKHRvb2xSZXN1bHRNYXJrdXApICsKICAgICAgICAgICAgICAgIFRvb2xFeGVjdXRpb25NYW5hZ2VyLmVuc3VyZU93bkxpbmUoc2Vjb25kUmVzdWx0KQoKICAgICAgICBhc3NlcnRUb29sUmVzdWx0T3BlbnNBdExpbmVTdGFydChyb3VuZCkKICAgICAgICBhc3NlcnRFcXVhbHMoMiwgQ2hhdE1hcmt1cFJlZ2V4LnRvb2xSZXN1bHRUYWcuZmluZEFsbChyb3VuZCkuY291bnQoKSkKICAgICAgICBhc3NlcnRUcnVlKHJvdW5kLmNvbnRhaW5zKCI8L3Rvb2xfcmVzdWx0X1h5OVo+XG5cbjx0b29sX3Jlc3VsdF9RdzdLIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBlbnN1cmVPd25MaW5lX2RvZXNOb3RTdGFja1JlZHVuZGFudEJsYW5rTGluZXMoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJcbmRvbmVcbiIsIFRvb2xFeGVjdXRpb25NYW5hZ2VyLmVuc3VyZU93bkxpbmUoIlxuZG9uZVxuIikpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXNzZXJ0VG9vbFJlc3VsdE9wZW5zQXRMaW5lU3RhcnQocm91bmQ6IFN0cmluZykgewogICAgICAgIHZhbCBvcGVuaW5nVGFnSW5kZXggPSByb3VuZC5pbmRleE9mKCI8dG9vbF9yZXN1bHRfIikKICAgICAgICBhc3NlcnRUcnVlKCJ0b29sIHJlc3VsdCBtYXJrdXAgbWlzc2luZyIsIG9wZW5pbmdUYWdJbmRleCA+IDApCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAidG9vbCByZXN1bHQgbWFya3VwIG11c3Qgb3BlbiBhIG5ldyBsaW5lIHNvIGl0IGlzIHBhcnNlZCBhcyBYTUwsIG5vdCBhcyBtb2RlbCB0ZXh0IiwKICAgICAgICAgICAgJ1xuJywKICAgICAgICAgICAgcm91bmRbb3BlbmluZ1RhZ0luZGV4IC0gMV0KICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gb2NjdXJyZW5jZXNPZihoYXlzdGFjazogU3RyaW5nLCBuZWVkbGU6IFN0cmluZyk6IEludCA9CiAgICAgICAgaGF5c3RhY2suc3BsaXQobmVlZGxlKS5zaXplIC0gMQp9Cg==
+package com.bslsjdk.operit.api.chat.enhance
+
+import com.bslsjdk.operit.util.ChatMarkupRegex
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+/**
+ * Regression coverage for issue #1059: tool round markup was appended to the assistant stream
+ * without a line break, so the XML block detector - which only opens a block at a line boundary -
+ * treated the tool result as plain model text.
+ */
+class ToolExecutionManagerMarkupTest {
+
+    private val toolResultMarkup =
+        "<tool_result_Xy9Z name=\"zhipu_draw\" status=\"success\">" +
+            "<content>{\"filepath\":\"/sdcard/a.png\"}</content></tool_result_Xy9Z>"
+
+    /** Streaming tool call: the provider closes the tool tag without a trailing newline. */
+    private val streamedRound = "先画一张\n<tool_aB12 name=\"zhipu_draw\">\n</tool_aB12>"
+
+    /** Non-streaming tool call: the provider emits the tool XML first, then the model text. */
+    private val nonStreamedRound =
+        "\n<tool_aB12 name=\"zhipu_draw\">\n</tool_aB12>\n画完你自己看"
+
+    @Test
+    fun ensureOwnLine_startsToolResultOnItsOwnLineAfterStreamedToolCall() {
+        val round = streamedRound + ToolExecutionManager.ensureOwnLine(toolResultMarkup)
+
+        assertToolResultOpensAtLineStart(round)
+    }
+
+    @Test
+    fun ensureOwnLine_startsToolResultOnItsOwnLineAfterNonStreamedModelText() {
+        // The model text ends mid-line, which is what let the raw JSON surface as model output.
+        val round = nonStreamedRound + ToolExecutionManager.ensureOwnLine(toolResultMarkup)
+
+        assertToolResultOpensAtLineStart(round)
+    }
+
+    @Test
+    fun ensureOwnLine_keepsAssistantTextEmittedBeforeTheToolCallIntact() {
+        val round = streamedRound + ToolExecutionManager.ensureOwnLine(toolResultMarkup)
+
+        // The text the model produced before calling the tool must survive exactly once.
+        assertEquals(1, occurrencesOf(round, "先画一张"))
+        assertEquals(1, occurrencesOf(round, "<tool_result_Xy9Z"))
+    }
+
+    @Test
+    fun ensureOwnLine_separatesConsecutiveToolResultsOfOneBatch() {
+        val secondResult = toolResultMarkup.replace("Xy9Z", "Qw7K")
+        val round =
+            streamedRound +
+                ToolExecutionManager.ensureOwnLine(toolResultMarkup) +
+                ToolExecutionManager.ensureOwnLine(secondResult)
+
+        assertToolResultOpensAtLineStart(round)
+        assertEquals(2, ChatMarkupRegex.toolResultTag.findAll(round).count())
+        assertTrue(round.contains("</tool_result_Xy9Z>\n\n<tool_result_Qw7K"))
+    }
+
+    @Test
+    fun ensureOwnLine_doesNotStackRedundantBlankLines() {
+        assertEquals("\ndone\n", ToolExecutionManager.ensureOwnLine("\ndone\n"))
+    }
+
+    private fun assertToolResultOpensAtLineStart(round: String) {
+        val openingTagIndex = round.indexOf("<tool_result_")
+        assertTrue("tool result markup missing", openingTagIndex > 0)
+        assertEquals(
+            "tool result markup must open a new line so it is parsed as XML, not as model text",
+            '\n',
+            round[openingTagIndex - 1]
+        )
+    }
+
+    private fun occurrencesOf(haystack: String, needle: String): Int =
+        haystack.split(needle).size - 1
+}

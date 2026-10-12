@@ -1,1 +1,41 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IubGFuZ3VhZ2UKCi8qKgogKiDln7rnoYDor63oqIDmlK/mjIHmir3osaHnsbvvvIzmj5DkvpvpgJrnlKjlrp7njrAKICovCmFic3RyYWN0IGNsYXNzIEJhc2VMYW5ndWFnZVN1cHBvcnQgOiBMYW5ndWFnZVN1cHBvcnQgewogICAgLyoqCiAgICAgKiDpu5jorqTnmoTms6jph4rotbflp4vmoIforrAKICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIGdldENvbW1lbnRTdGFydCgpOiBMaXN0PFN0cmluZz4gPSBsaXN0T2YoIi8vIiwgIi8qIikKICAgIAogICAgLyoqCiAgICAgKiDpu5jorqTnmoTlpJrooYzms6jph4rnu5PmnZ/moIforrAKICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIGdldE11bHRpTGluZUNvbW1lbnRFbmQoKTogU3RyaW5nPyA9ICIqLyIKICAgIAogICAgLyoqCiAgICAgKiDpu5jorqTnmoTlrZfnrKbkuLLliIbpmpTnrKbmo4Dmn6UKICAgICAqLwogICAgb3ZlcnJpZGUgZnVuIGlzU3RyaW5nRGVsaW1pdGVyKGNoYXI6IENoYXIpOiBCb29sZWFuID0gY2hhciA9PSAnIicgfHwgY2hhciA9PSAnXCcnCiAgICAKICAgIC8qKgogICAgICog6buY6K6k55qE5a2X56ym5Liy6L2s5LmJ5a2X56ymCiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biBnZXRTdHJpbmdFc2NhcGVDaGFyKCk6IENoYXIgPSAnXFwnCiAgICAKICAgIC8qKgogICAgICog6buY6K6k55qE5YaF572u5Ye95pWw6ZuG5ZCICiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biBnZXRCdWlsdEluRnVuY3Rpb25zKCk6IFNldDxTdHJpbmc+ID0gZW1wdHlTZXQoKQogICAgCiAgICAvKioKICAgICAqIOm7mOiupOeahOWGhee9ruexu+Wei+mbhuWQiAogICAgICovCiAgICBvdmVycmlkZSBmdW4gZ2V0QnVpbHRJblR5cGVzKCk6IFNldDxTdHJpbmc+ID0gZW1wdHlTZXQoKQoKICAgIC8qKgogICAgICog6buY6K6k55qE5YaF572u5Y+Y6YeP6ZuG5ZCICiAgICAgKi8KICAgIG92ZXJyaWRlIGZ1biBnZXRCdWlsdEluVmFyaWFibGVzKCk6IFNldDxTdHJpbmc+ID0gZW1wdHlTZXQoKQp9IAo=
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language
+
+/**
+ * 基础语言支持抽象类，提供通用实现
+ */
+abstract class BaseLanguageSupport : LanguageSupport {
+    /**
+     * 默认的注释起始标记
+     */
+    override fun getCommentStart(): List<String> = listOf("//", "/*")
+    
+    /**
+     * 默认的多行注释结束标记
+     */
+    override fun getMultiLineCommentEnd(): String? = "*/"
+    
+    /**
+     * 默认的字符串分隔符检查
+     */
+    override fun isStringDelimiter(char: Char): Boolean = char == '"' || char == '\''
+    
+    /**
+     * 默认的字符串转义字符
+     */
+    override fun getStringEscapeChar(): Char = '\\'
+    
+    /**
+     * 默认的内置函数集合
+     */
+    override fun getBuiltInFunctions(): Set<String> = emptySet()
+    
+    /**
+     * 默认的内置类型集合
+     */
+    override fun getBuiltInTypes(): Set<String> = emptySet()
+
+    /**
+     * 默认的内置变量集合
+     */
+    override fun getBuiltInVariables(): Set<String> = emptySet()
+} 

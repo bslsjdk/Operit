@@ -1,1 +1,62 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5FeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnV0aWwuZmFzdEZvckVhY2gKaW1wb3J0IGtvdGxpbi5tYXRoLm1pbgoKaW50ZXJuYWwgaW50ZXJmYWNlIExhenlMYXlvdXRCZXlvbmRCb3VuZHNTdGF0ZSB7CgogICAgdmFsIGl0ZW1Db3VudDogSW50CgogICAgdmFsIGhhc1Zpc2libGVJdGVtczogQm9vbGVhbgoKICAgIHZhbCBmaXJzdFBsYWNlZEluZGV4OiBJbnQKCiAgICB2YWwgbGFzdFBsYWNlZEluZGV4OiBJbnQKCiAgICBmdW4gaXRlbXNQZXJWaWV3cG9ydCgpOiBJbnQKfQoKQE9wdEluKEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGk6OmNsYXNzKQppbnRlcm5hbCBmdW4gTGF6eUxheW91dEl0ZW1Qcm92aWRlci5jYWxjdWxhdGVMYXp5TGF5b3V0UGlubmVkSW5kaWNlcygKICAgIHBpbm5lZEl0ZW1MaXN0OiBMYXp5TGF5b3V0UGlubmVkSXRlbUxpc3QsCiAgICBiZXlvbmRCb3VuZHNJbmZvOiBMYXp5TGF5b3V0QmV5b25kQm91bmRzSW5mbywKKTogTGlzdDxJbnQ+IHsKICAgIGlmICghYmV5b25kQm91bmRzSW5mby5oYXNJbnRlcnZhbHMoKSAmJiBwaW5uZWRJdGVtTGlzdC5pc0VtcHR5KCkpIHsKICAgICAgICByZXR1cm4gZW1wdHlMaXN0KCkKICAgIH0gZWxzZSB7CiAgICAgICAgdmFsIHBpbm5lZEl0ZW1zID0gbXV0YWJsZUxpc3RPZjxJbnQ+KCkKICAgICAgICB2YWwgYmV5b25kQm91bmRzUmFuZ2UgPQogICAgICAgICAgICBpZiAoYmV5b25kQm91bmRzSW5mby5oYXNJbnRlcnZhbHMoKSkgewogICAgICAgICAgICAgICAgYmV5b25kQm91bmRzSW5mby5zdGFydC4ubWluKGJleW9uZEJvdW5kc0luZm8uZW5kLCBpdGVtQ291bnQgLSAxKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgSW50UmFuZ2UuRU1QVFkKICAgICAgICAgICAgfQogICAgICAgIHBpbm5lZEl0ZW1MaXN0LmZhc3RGb3JFYWNoIHsKICAgICAgICAgICAgdmFsIGluZGV4ID0gZmluZEluZGV4QnlLZXkoaXQua2V5LCBpdC5pbmRleCkKICAgICAgICAgICAgaWYgKGluZGV4IGluIGJleW9uZEJvdW5kc1JhbmdlKSByZXR1cm5AZmFzdEZvckVhY2gKICAgICAgICAgICAgaWYgKGluZGV4ICFpbiAwIHVudGlsIGl0ZW1Db3VudCkgcmV0dXJuQGZhc3RGb3JFYWNoCiAgICAgICAgICAgIHBpbm5lZEl0ZW1zLmFkZChpbmRleCkKICAgICAgICB9CiAgICAgICAgZm9yIChpIGluIGJleW9uZEJvdW5kc1JhbmdlKSB7CiAgICAgICAgICAgIHBpbm5lZEl0ZW1zLmFkZChpKQogICAgICAgIH0KICAgICAgICByZXR1cm4gcGlubmVkSXRlbXMKICAgIH0KfQo=
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.ui.util.fastForEach
+import kotlin.math.min
+
+internal interface LazyLayoutBeyondBoundsState {
+
+    val itemCount: Int
+
+    val hasVisibleItems: Boolean
+
+    val firstPlacedIndex: Int
+
+    val lastPlacedIndex: Int
+
+    fun itemsPerViewport(): Int
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+internal fun LazyLayoutItemProvider.calculateLazyLayoutPinnedIndices(
+    pinnedItemList: LazyLayoutPinnedItemList,
+    beyondBoundsInfo: LazyLayoutBeyondBoundsInfo,
+): List<Int> {
+    if (!beyondBoundsInfo.hasIntervals() && pinnedItemList.isEmpty()) {
+        return emptyList()
+    } else {
+        val pinnedItems = mutableListOf<Int>()
+        val beyondBoundsRange =
+            if (beyondBoundsInfo.hasIntervals()) {
+                beyondBoundsInfo.start..min(beyondBoundsInfo.end, itemCount - 1)
+            } else {
+                IntRange.EMPTY
+            }
+        pinnedItemList.fastForEach {
+            val index = findIndexByKey(it.key, it.index)
+            if (index in beyondBoundsRange) return@fastForEach
+            if (index !in 0 until itemCount) return@fastForEach
+            pinnedItems.add(index)
+        }
+        for (i in beyondBoundsRange) {
+            pinnedItems.add(i)
+        }
+        return pinnedItems
+    }
+}

@@ -1,1 +1,137 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEZhbHNlCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFRydWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyVGVzdCB7CgogICAgQFRlc3QgZnVuIHN0cmluZ1ZhbHVlX2VtaXRzUGFyYW1UYWdBbmRDb250ZW50KCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICBhc3NlcnRFcXVhbHMoIlxuICA8cGFyYW0gbmFtZT1cIm5hbWVcIj52YWx1ZTwvcGFyYW0+IiwgcmVuZGVyKGNvbnZlcnRlci5mZWVkKCJ7XCJuYW1lXCI6XCJ2YWx1ZVwifSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbXVsdGlwbGVWYWx1ZXNfZW1pdE11bHRpcGxlUGFyYW1zKCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJcbiAgPHBhcmFtIG5hbWU9XCJhXCI+MTwvcGFyYW0+XG4gIDxwYXJhbSBuYW1lPVwiYlwiPjI8L3BhcmFtPiIsCiAgICAgICAgICAgIHJlbmRlcihjb252ZXJ0ZXIuZmVlZCgie1wiYVwiOjEsXCJiXCI6Mn0iKSkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIG51bWVyaWNWYWx1ZV9pc0NhcHR1cmVkQXNQcmltaXRpdmUoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwic2NvcmVcIj40MjwvcGFyYW0+IiwgcmVuZGVyKGNvbnZlcnRlci5mZWVkKCJ7XCJzY29yZVwiOjQyfSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYm9vbGVhblZhbHVlX2lzQ2FwdHVyZWRBc1ByaW1pdGl2ZSgpIHsKICAgICAgICB2YWwgY29udmVydGVyID0gU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlcigpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJcbiAgPHBhcmFtIG5hbWU9XCJlbmFibGVkXCI+dHJ1ZTwvcGFyYW0+IiwgcmVuZGVyKGNvbnZlcnRlci5mZWVkKCJ7XCJlbmFibGVkXCI6dHJ1ZX0iKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIG51bGxWYWx1ZV9pc0NhcHR1cmVkQXNQcmltaXRpdmUoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwidmFsdWVcIj5udWxsPC9wYXJhbT4iLCByZW5kZXIoY29udmVydGVyLmZlZWQoIntcInZhbHVlXCI6bnVsbH0iKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGFycmF5VmFsdWVfaXNDYXB0dXJlZEFzU2luZ2xlUHJpbWl0aXZlQmxvY2soKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwiaXRlbXNcIj5bMSwyXTwvcGFyYW0+IiwgcmVuZGVyKGNvbnZlcnRlci5mZWVkKCJ7XCJpdGVtc1wiOlsxLDJdfSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gb2JqZWN0VmFsdWVfaXNDYXB0dXJlZEFzU2luZ2xlUHJpbWl0aXZlQmxvY2soKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgIlxuICA8cGFyYW0gbmFtZT1cIm9ialwiPnsmcXVvdDthJnF1b3Q7OjF9PC9wYXJhbT4iLAogICAgICAgICAgICByZW5kZXIoY29udmVydGVyLmZlZWQoIntcIm9ialwiOntcImFcIjoxfX0iKSkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIGVzY2FwZWRYbWxDaGFyYWN0ZXJzX2FyZUVuY29kZWQoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgIlxuICA8cGFyYW0gbmFtZT1cInRleHRcIj4mbHQ7JmFtcDsmZ3Q7PC9wYXJhbT4iLAogICAgICAgICAgICByZW5kZXIoY29udmVydGVyLmZlZWQoIntcInRleHRcIjpcIjwmPlwifSIpKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gdW5pY29kZUVzY2FwZV9pc0RlY29kZWQoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwidGV4dFwiPkE8L3BhcmFtPiIsIHJlbmRlcihjb252ZXJ0ZXIuZmVlZCgie1widGV4dFwiOlwiXFx1MDA0MVwifSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXNjYXBlZE5ld2xpbmVfaXNEZWNvZGVkKCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICBhc3NlcnRFcXVhbHMoIlxuICA8cGFyYW0gbmFtZT1cInRleHRcIj5saW5lMVxubGluZTI8L3BhcmFtPiIsIHJlbmRlcihjb252ZXJ0ZXIuZmVlZCgie1widGV4dFwiOlwibGluZTFcXG5saW5lMlwifSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXNjYXBlZFF1b3RlX2lzRGVjb2RlZEFuZEVzY2FwZWRGb3JYbWwoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwidGV4dFwiPiZxdW90OzwvcGFyYW0+IiwgcmVuZGVyKGNvbnZlcnRlci5mZWVkKCJ7XCJ0ZXh0XCI6XCJcXFwiXCJ9IikpKQogICAgfQoKICAgIEBUZXN0IGZ1biBlc2NhcGVkQmFja3NsYXNoX2lzRGVjb2RlZCgpIHsKICAgICAgICB2YWwgY29udmVydGVyID0gU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlcigpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJcbiAgPHBhcmFtIG5hbWU9XCJwYXRoXCI+XFw8L3BhcmFtPiIsIHJlbmRlcihjb252ZXJ0ZXIuZmVlZCgie1wicGF0aFwiOlwiXFxcXFwifSIpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gY2h1bmtlZFN0cmluZ0lucHV0X2FjY3VtdWxhdGVzQWNyb3NzRmVlZHMoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIHZhbCBldmVudHMgPSBjb252ZXJ0ZXIuZmVlZCgie1wibmFtZVwiOlwidmEiKSArIGNvbnZlcnRlci5mZWVkKCJsdWVcIn0iKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwibmFtZVwiPnZhbHVlPC9wYXJhbT4iLCByZW5kZXIoZXZlbnRzKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gY2h1bmtlZFByaW1pdGl2ZUlucHV0X2ZsdXNoZXNBdEVuZCgpIHsKICAgICAgICB2YWwgY29udmVydGVyID0gU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlcigpCiAgICAgICAgdmFsIGV2ZW50cyA9IGNvbnZlcnRlci5mZWVkKCJ7XCJzY29yZVwiOjQiKSArIGNvbnZlcnRlci5mbHVzaCgpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJcbiAgPHBhcmFtIG5hbWU9XCJzY29yZVwiPjQ8L3BhcmFtPiIsIHJlbmRlcihldmVudHMpKQogICAgfQoKICAgIEBUZXN0IGZ1biBjaHVua2VkQ29tcGxleFZhbHVlX3N0YXlzT3BlblVudGlsQ2xvc2VkKCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICB2YWwgb3BlbmluZ0V2ZW50cyA9IGNvbnZlcnRlci5mZWVkKCJ7XCJpdGVtc1wiOlsxIikKICAgICAgICBhc3NlcnRUcnVlKGNvbnZlcnRlci5oYXNVbmZpbmlzaGVkUGFyYW0oKSkKICAgICAgICB2YWwgZXZlbnRzID0gb3BlbmluZ0V2ZW50cyArIGNvbnZlcnRlci5mZWVkKCIsMl19IikKICAgICAgICBhc3NlcnRFcXVhbHMoIlxuICA8cGFyYW0gbmFtZT1cIml0ZW1zXCI+WzEsMl08L3BhcmFtPiIsIHJlbmRlcihldmVudHMpKQogICAgfQoKICAgIEBUZXN0IGZ1biBmbHVzaFdpdGhvdXRQZW5kaW5nUHJpbWl0aXZlX3JldHVybnNOb0V2ZW50cygpIHsKICAgICAgICB2YWwgY29udmVydGVyID0gU3RyZWFtaW5nSnNvblhtbENvbnZlcnRlcigpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb252ZXJ0ZXIuZmx1c2goKS5pc0VtcHR5KCkpCiAgICB9CgogICAgQFRlc3QgZnVuIHVuZmluaXNoZWRTdHJpbmdfa2VlcHNQYXJhbU9wZW4oKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGNvbnZlcnRlci5mZWVkKCJ7XCJuYW1lXCI6XCJ2YSIpCiAgICAgICAgYXNzZXJ0VHJ1ZShjb252ZXJ0ZXIuaGFzVW5maW5pc2hlZFBhcmFtKCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGZpbmlzaGVkU3RyaW5nX2Nsb3Nlc1BhcmFtKCkgewogICAgICAgIHZhbCBjb252ZXJ0ZXIgPSBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyKCkKICAgICAgICBjb252ZXJ0ZXIuZmVlZCgie1wibmFtZVwiOlwidmFsdWVcIn0iKQogICAgICAgIGFzc2VydEZhbHNlKGNvbnZlcnRlci5oYXNVbmZpbmlzaGVkUGFyYW0oKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbmVzdGVkT2JqZWN0SW5zaWRlQXJyYXlfaXNQcmVzZXJ2ZWQoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgIlxuICA8cGFyYW0gbmFtZT1cIml0ZW1zXCI+W3smcXVvdDthJnF1b3Q7OjF9XTwvcGFyYW0+IiwKICAgICAgICAgICAgcmVuZGVyKGNvbnZlcnRlci5mZWVkKCJ7XCJpdGVtc1wiOlt7XCJhXCI6MX1dfSIpKQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gd2hpdGVzcGFjZUFyb3VuZFZhbHVlX2lzSWdub3JlZEZvclByaW1pdGl2ZVBhcnNpbmcoKSB7CiAgICAgICAgdmFsIGNvbnZlcnRlciA9IFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIoKQogICAgICAgIGFzc2VydEVxdWFscygiXG4gIDxwYXJhbSBuYW1lPVwic2NvcmVcIj4xPC9wYXJhbT4iLCByZW5kZXIoY29udmVydGVyLmZlZWQoIntcInNjb3JlXCIgOiAxIH0iKSkpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVuZGVyKGV2ZW50czogTGlzdDxTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyLkV2ZW50Pik6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGV2ZW50cy5qb2luVG9TdHJpbmcoIiIpIHsKICAgICAgICAgICAgd2hlbiAoaXQpIHsKICAgICAgICAgICAgICAgIGlzIFN0cmVhbWluZ0pzb25YbWxDb252ZXJ0ZXIuRXZlbnQuQ29udGVudCAtPiBpdC50ZXh0CiAgICAgICAgICAgICAgICBpcyBTdHJlYW1pbmdKc29uWG1sQ29udmVydGVyLkV2ZW50LlRhZyAtPiBpdC50ZXh0CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class StreamingJsonXmlConverterTest {
+
+    @Test fun stringValue_emitsParamTagAndContent() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"name\">value</param>", render(converter.feed("{\"name\":\"value\"}")))
+    }
+
+    @Test fun multipleValues_emitMultipleParams() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals(
+            "\n  <param name=\"a\">1</param>\n  <param name=\"b\">2</param>",
+            render(converter.feed("{\"a\":1,\"b\":2}"))
+        )
+    }
+
+    @Test fun numericValue_isCapturedAsPrimitive() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"score\">42</param>", render(converter.feed("{\"score\":42}")))
+    }
+
+    @Test fun booleanValue_isCapturedAsPrimitive() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"enabled\">true</param>", render(converter.feed("{\"enabled\":true}")))
+    }
+
+    @Test fun nullValue_isCapturedAsPrimitive() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"value\">null</param>", render(converter.feed("{\"value\":null}")))
+    }
+
+    @Test fun arrayValue_isCapturedAsSinglePrimitiveBlock() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"items\">[1,2]</param>", render(converter.feed("{\"items\":[1,2]}")))
+    }
+
+    @Test fun objectValue_isCapturedAsSinglePrimitiveBlock() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals(
+            "\n  <param name=\"obj\">{&quot;a&quot;:1}</param>",
+            render(converter.feed("{\"obj\":{\"a\":1}}"))
+        )
+    }
+
+    @Test fun escapedXmlCharacters_areEncoded() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals(
+            "\n  <param name=\"text\">&lt;&amp;&gt;</param>",
+            render(converter.feed("{\"text\":\"<&>\"}"))
+        )
+    }
+
+    @Test fun unicodeEscape_isDecoded() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"text\">A</param>", render(converter.feed("{\"text\":\"\\u0041\"}")))
+    }
+
+    @Test fun escapedNewline_isDecoded() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"text\">line1\nline2</param>", render(converter.feed("{\"text\":\"line1\\nline2\"}")))
+    }
+
+    @Test fun escapedQuote_isDecodedAndEscapedForXml() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"text\">&quot;</param>", render(converter.feed("{\"text\":\"\\\"\"}")))
+    }
+
+    @Test fun escapedBackslash_isDecoded() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"path\">\\</param>", render(converter.feed("{\"path\":\"\\\\\"}")))
+    }
+
+    @Test fun chunkedStringInput_accumulatesAcrossFeeds() {
+        val converter = StreamingJsonXmlConverter()
+        val events = converter.feed("{\"name\":\"va") + converter.feed("lue\"}")
+        assertEquals("\n  <param name=\"name\">value</param>", render(events))
+    }
+
+    @Test fun chunkedPrimitiveInput_flushesAtEnd() {
+        val converter = StreamingJsonXmlConverter()
+        val events = converter.feed("{\"score\":4") + converter.flush()
+        assertEquals("\n  <param name=\"score\">4</param>", render(events))
+    }
+
+    @Test fun chunkedComplexValue_staysOpenUntilClosed() {
+        val converter = StreamingJsonXmlConverter()
+        val openingEvents = converter.feed("{\"items\":[1")
+        assertTrue(converter.hasUnfinishedParam())
+        val events = openingEvents + converter.feed(",2]}")
+        assertEquals("\n  <param name=\"items\">[1,2]</param>", render(events))
+    }
+
+    @Test fun flushWithoutPendingPrimitive_returnsNoEvents() {
+        val converter = StreamingJsonXmlConverter()
+        assertTrue(converter.flush().isEmpty())
+    }
+
+    @Test fun unfinishedString_keepsParamOpen() {
+        val converter = StreamingJsonXmlConverter()
+        converter.feed("{\"name\":\"va")
+        assertTrue(converter.hasUnfinishedParam())
+    }
+
+    @Test fun finishedString_closesParam() {
+        val converter = StreamingJsonXmlConverter()
+        converter.feed("{\"name\":\"value\"}")
+        assertFalse(converter.hasUnfinishedParam())
+    }
+
+    @Test fun nestedObjectInsideArray_isPreserved() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals(
+            "\n  <param name=\"items\">[{&quot;a&quot;:1}]</param>",
+            render(converter.feed("{\"items\":[{\"a\":1}]}"))
+        )
+    }
+
+    @Test fun whitespaceAroundValue_isIgnoredForPrimitiveParsing() {
+        val converter = StreamingJsonXmlConverter()
+        assertEquals("\n  <param name=\"score\">1</param>", render(converter.feed("{\"score\" : 1 }")))
+    }
+
+    private fun render(events: List<StreamingJsonXmlConverter.Event>): String {
+        return events.joinToString("") {
+            when (it) {
+                is StreamingJsonXmlConverter.Event.Content -> it.text
+                is StreamingJsonXmlConverter.Event.Tag -> it.text
+            }
+        }
+    }
+}

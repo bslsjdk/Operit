@@ -1,1 +1,85 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGFuZHJvaWR4LnJvb20uRW50aXR5CmltcG9ydCBhbmRyb2lkeC5yb29tLkZvcmVpZ25LZXkKaW1wb3J0IGFuZHJvaWR4LnJvb20uSW5kZXgKaW1wb3J0IGFuZHJvaWR4LnJvb20uUHJpbWFyeUtleQoKQEVudGl0eSgKICAgIHRhYmxlTmFtZSA9ICJtZXNzYWdlX3ZhcmlhbnRzIiwKICAgIGZvcmVpZ25LZXlzID0gWwogICAgICAgIEZvcmVpZ25LZXkoCiAgICAgICAgICAgIGVudGl0eSA9IENoYXRFbnRpdHk6OmNsYXNzLAogICAgICAgICAgICBwYXJlbnRDb2x1bW5zID0gWyJpZCJdLAogICAgICAgICAgICBjaGlsZENvbHVtbnMgPSBbImNoYXRJZCJdLAogICAgICAgICAgICBvbkRlbGV0ZSA9IEZvcmVpZ25LZXkuQ0FTQ0FERSwKICAgICAgICApLAogICAgXSwKICAgIGluZGljZXMgPSBbCiAgICAgICAgSW5kZXgodmFsdWUgPSBbImNoYXRJZCIsICJtZXNzYWdlVGltZXN0YW1wIl0pLAogICAgICAgIEluZGV4KHZhbHVlID0gWyJjaGF0SWQiLCAibWVzc2FnZVRpbWVzdGFtcCIsICJ2YXJpYW50SW5kZXgiXSwgdW5pcXVlID0gdHJ1ZSksCiAgICBdLAopCmRhdGEgY2xhc3MgTWVzc2FnZVZhcmlhbnRFbnRpdHkoCiAgICBAUHJpbWFyeUtleShhdXRvR2VuZXJhdGUgPSB0cnVlKSB2YWwgdmFyaWFudElkOiBMb25nID0gMCwKICAgIHZhbCBjaGF0SWQ6IFN0cmluZywKICAgIHZhbCBtZXNzYWdlVGltZXN0YW1wOiBMb25nLAogICAgdmFsIHZhcmlhbnRJbmRleDogSW50LAogICAgdmFsIGNvbnRlbnQ6IFN0cmluZywKICAgIHZhbCByb2xlTmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgcHJvdmlkZXI6IFN0cmluZyA9ICIiLAogICAgdmFsIG1vZGVsTmFtZTogU3RyaW5nID0gIiIsCiAgICB2YWwgaW5wdXRUb2tlbnM6IExvbmcgPSAwTCwKICAgIHZhbCBvdXRwdXRUb2tlbnM6IExvbmcgPSAwTCwKICAgIHZhbCBjYWNoZWRJbnB1dFRva2VuczogTG9uZyA9IDBMLAogICAgdmFsIHNlbnRBdDogTG9uZyA9IDBMLAogICAgdmFsIG91dHB1dER1cmF0aW9uTXM6IExvbmcgPSAwTCwKICAgIHZhbCB3YWl0RHVyYXRpb25NczogTG9uZyA9IDBMLAogICAgdmFsIGNvbXBsZXRlZEF0OiBMb25nID0gMEwsCikgewogICAgZnVuIGFwcGx5VG8oYmFzZU1lc3NhZ2U6IENoYXRNZXNzYWdlLCB2YXJpYW50Q291bnQ6IEludCk6IENoYXRNZXNzYWdlIHsKICAgICAgICByZXR1cm4gYmFzZU1lc3NhZ2UuY29weSgKICAgICAgICAgICAgY29udGVudCA9IGNvbnRlbnQsCiAgICAgICAgICAgIHJvbGVOYW1lID0gcm9sZU5hbWUuaWZCbGFuayB7IGJhc2VNZXNzYWdlLnJvbGVOYW1lIH0sCiAgICAgICAgICAgIHNlbGVjdGVkVmFyaWFudEluZGV4ID0gdmFyaWFudEluZGV4LAogICAgICAgICAgICB2YXJpYW50Q291bnQgPSB2YXJpYW50Q291bnQsCiAgICAgICAgICAgIHByb3ZpZGVyID0gcHJvdmlkZXIsCiAgICAgICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZSwKICAgICAgICAgICAgaW5wdXRUb2tlbnMgPSBpbnB1dFRva2VucywKICAgICAgICAgICAgb3V0cHV0VG9rZW5zID0gb3V0cHV0VG9rZW5zLAogICAgICAgICAgICBjYWNoZWRJbnB1dFRva2VucyA9IGNhY2hlZElucHV0VG9rZW5zLAogICAgICAgICAgICBzZW50QXQgPSBzZW50QXQsCiAgICAgICAgICAgIG91dHB1dER1cmF0aW9uTXMgPSBvdXRwdXREdXJhdGlvbk1zLAogICAgICAgICAgICB3YWl0RHVyYXRpb25NcyA9IHdhaXREdXJhdGlvbk1zLAogICAgICAgICAgICBjb21wbGV0ZWRBdCA9IGNvbXBsZXRlZEF0LAogICAgICAgICkKICAgIH0KCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBmdW4gZnJvbUNoYXRNZXNzYWdlKAogICAgICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICAgICAgbWVzc2FnZVRpbWVzdGFtcDogTG9uZywKICAgICAgICAgICAgdmFyaWFudEluZGV4OiBJbnQsCiAgICAgICAgICAgIG1lc3NhZ2U6IENoYXRNZXNzYWdlLAogICAgICAgICAgICB2YXJpYW50SWQ6IExvbmcgPSAwLAogICAgICAgICk6IE1lc3NhZ2VWYXJpYW50RW50aXR5IHsKICAgICAgICAgICAgcmV0dXJuIE1lc3NhZ2VWYXJpYW50RW50aXR5KAogICAgICAgICAgICAgICAgdmFyaWFudElkID0gdmFyaWFudElkLAogICAgICAgICAgICAgICAgY2hhdElkID0gY2hhdElkLAogICAgICAgICAgICAgICAgbWVzc2FnZVRpbWVzdGFtcCA9IG1lc3NhZ2VUaW1lc3RhbXAsCiAgICAgICAgICAgICAgICB2YXJpYW50SW5kZXggPSB2YXJpYW50SW5kZXgsCiAgICAgICAgICAgICAgICBjb250ZW50ID0gbWVzc2FnZS5jb250ZW50LAogICAgICAgICAgICAgICAgcm9sZU5hbWUgPSBtZXNzYWdlLnJvbGVOYW1lLAogICAgICAgICAgICAgICAgcHJvdmlkZXIgPSBtZXNzYWdlLnByb3ZpZGVyLAogICAgICAgICAgICAgICAgbW9kZWxOYW1lID0gbWVzc2FnZS5tb2RlbE5hbWUsCiAgICAgICAgICAgICAgICBpbnB1dFRva2VucyA9IG1lc3NhZ2UuaW5wdXRUb2tlbnMsCiAgICAgICAgICAgICAgICBvdXRwdXRUb2tlbnMgPSBtZXNzYWdlLm91dHB1dFRva2VucywKICAgICAgICAgICAgICAgIGNhY2hlZElucHV0VG9rZW5zID0gbWVzc2FnZS5jYWNoZWRJbnB1dFRva2VucywKICAgICAgICAgICAgICAgIHNlbnRBdCA9IG1lc3NhZ2Uuc2VudEF0LAogICAgICAgICAgICAgICAgb3V0cHV0RHVyYXRpb25NcyA9IG1lc3NhZ2Uub3V0cHV0RHVyYXRpb25NcywKICAgICAgICAgICAgICAgIHdhaXREdXJhdGlvbk1zID0gbWVzc2FnZS53YWl0RHVyYXRpb25NcywKICAgICAgICAgICAgICAgIGNvbXBsZXRlZEF0ID0gbWVzc2FnZS5jb21wbGV0ZWRBdCwKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.data.model
+
+import androidx.room.Entity
+import androidx.room.ForeignKey
+import androidx.room.Index
+import androidx.room.PrimaryKey
+
+@Entity(
+    tableName = "message_variants",
+    foreignKeys = [
+        ForeignKey(
+            entity = ChatEntity::class,
+            parentColumns = ["id"],
+            childColumns = ["chatId"],
+            onDelete = ForeignKey.CASCADE,
+        ),
+    ],
+    indices = [
+        Index(value = ["chatId", "messageTimestamp"]),
+        Index(value = ["chatId", "messageTimestamp", "variantIndex"], unique = true),
+    ],
+)
+data class MessageVariantEntity(
+    @PrimaryKey(autoGenerate = true) val variantId: Long = 0,
+    val chatId: String,
+    val messageTimestamp: Long,
+    val variantIndex: Int,
+    val content: String,
+    val roleName: String = "",
+    val provider: String = "",
+    val modelName: String = "",
+    val inputTokens: Long = 0L,
+    val outputTokens: Long = 0L,
+    val cachedInputTokens: Long = 0L,
+    val sentAt: Long = 0L,
+    val outputDurationMs: Long = 0L,
+    val waitDurationMs: Long = 0L,
+    val completedAt: Long = 0L,
+) {
+    fun applyTo(baseMessage: ChatMessage, variantCount: Int): ChatMessage {
+        return baseMessage.copy(
+            content = content,
+            roleName = roleName.ifBlank { baseMessage.roleName },
+            selectedVariantIndex = variantIndex,
+            variantCount = variantCount,
+            provider = provider,
+            modelName = modelName,
+            inputTokens = inputTokens,
+            outputTokens = outputTokens,
+            cachedInputTokens = cachedInputTokens,
+            sentAt = sentAt,
+            outputDurationMs = outputDurationMs,
+            waitDurationMs = waitDurationMs,
+            completedAt = completedAt,
+        )
+    }
+
+    companion object {
+        fun fromChatMessage(
+            chatId: String,
+            messageTimestamp: Long,
+            variantIndex: Int,
+            message: ChatMessage,
+            variantId: Long = 0,
+        ): MessageVariantEntity {
+            return MessageVariantEntity(
+                variantId = variantId,
+                chatId = chatId,
+                messageTimestamp = messageTimestamp,
+                variantIndex = variantIndex,
+                content = message.content,
+                roleName = message.roleName,
+                provider = message.provider,
+                modelName = message.modelName,
+                inputTokens = message.inputTokens,
+                outputTokens = message.outputTokens,
+                cachedInputTokens = message.cachedInputTokens,
+                sentAt = message.sentAt,
+                outputDurationMs = message.outputDurationMs,
+                waitDurationMs = message.waitDurationMs,
+                completedAt = message.completedAt,
+            )
+        }
+    }
+}

@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKCmVudW0gY2xhc3MgVG9rZW5TdGF0c0Rpc3BsYXlVbml0IHsKICAgIE1JTExJT05TLAogICAgQklMTElPTlM7CgogICAgZnVuIHRvZ2dsZWQoKTogVG9rZW5TdGF0c0Rpc3BsYXlVbml0ID0KICAgICAgICB3aGVuICh0aGlzKSB7CiAgICAgICAgICAgIE1JTExJT05TIC0+IEJJTExJT05TCiAgICAgICAgICAgIEJJTExJT05TIC0+IE1JTExJT05TCiAgICAgICAgfQp9CgpmdW4gZm9ybWF0VG9rZW5Db3VudCh2YWx1ZTogTG9uZywgdW5pdDogVG9rZW5TdGF0c0Rpc3BsYXlVbml0KTogU3RyaW5nIHsKICAgIGlmICh2YWx1ZSA8IDFfMDAwXzAwMEwpIHsKICAgICAgICByZXR1cm4gd2hlbiB7CiAgICAgICAgICAgIHZhbHVlID49IDFfMDAwTCAtPiBTdHJpbmcuZm9ybWF0KExvY2FsZS5VUywgIiUuMWZLIiwgdmFsdWUgLyAxXzAwMC4wKQogICAgICAgICAgICBlbHNlIC0+IHZhbHVlLnRvU3RyaW5nKCkKICAgICAgICB9CiAgICB9CiAgICByZXR1cm4gd2hlbiAodW5pdCkgewogICAgICAgIFRva2VuU3RhdHNEaXNwbGF5VW5pdC5NSUxMSU9OUyAtPgogICAgICAgICAgICBTdHJpbmcuZm9ybWF0KExvY2FsZS5VUywgIiUuMWZNIiwgdmFsdWUgLyAxXzAwMF8wMDAuMCkKICAgICAgICBUb2tlblN0YXRzRGlzcGxheVVuaXQuQklMTElPTlMgLT4KICAgICAgICAgICAgU3RyaW5nLmZvcm1hdChMb2NhbGUuVVMsICIlLjNmQiIsIHZhbHVlIC8gMV8wMDBfMDAwXzAwMC4wKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.stats
+
+import java.util.Locale
+
+enum class TokenStatsDisplayUnit {
+    MILLIONS,
+    BILLIONS;
+
+    fun toggled(): TokenStatsDisplayUnit =
+        when (this) {
+            MILLIONS -> BILLIONS
+            BILLIONS -> MILLIONS
+        }
+}
+
+fun formatTokenCount(value: Long, unit: TokenStatsDisplayUnit): String {
+    if (value < 1_000_000L) {
+        return when {
+            value >= 1_000L -> String.format(Locale.US, "%.1fK", value / 1_000.0)
+            else -> value.toString()
+        }
+    }
+    return when (unit) {
+        TokenStatsDisplayUnit.MILLIONS ->
+            String.format(Locale.US, "%.1fM", value / 1_000_000.0)
+        TokenStatsDisplayUnit.BILLIONS ->
+            String.format(Locale.US, "%.3fB", value / 1_000_000_000.0)
+    }
+}

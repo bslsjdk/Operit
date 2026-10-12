@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgUHJvdmlkZXJJZGVudGl0eVV0aWxzVGVzdCB7CgogICAgQFRlc3QKICAgIGZ1biBga25vd24gbGVnYWN5IHByb3ZpZGVyIGRpc3BsYXkgdmFsdWUgdXNlcyBidWlsdCBpbiBwcm92aWRlciBpZGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJERUVQU0VFSyIsIG5vcm1hbGl6ZVByb3ZpZGVyVHlwZUlkKCJERUVQU0VFSy9vbGQgY29uZmlndXJhdGlvbiIpKQogICAgICAgIGFzc2VydEVxdWFscygiT1BFTkFJIiwgbm9ybWFsaXplUHJvdmlkZXJUeXBlSWQoIiBvcGVuYWkvbGVnYWN5IGNvbmZpZ3VyYXRpb24gIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBgY2Fub25pY2FsIGFuZCBjdXN0b20gcHJvdmlkZXIgdmFsdWVzIGtlZXAgdGhlaXIgaWRlbnRpdGllc2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJERUVQU0VFSyIsIG5vcm1hbGl6ZVByb3ZpZGVyVHlwZUlkKCJERUVQU0VFSyIpKQogICAgICAgIGFzc2VydEVxdWFscygiY3VzdG9tL3Byb3ZpZGVyIiwgbm9ybWFsaXplUHJvdmlkZXJUeXBlSWQoImN1c3RvbS9wcm92aWRlciIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYHByb3ZpZGVyIG1vZGVsIG5vcm1hbGl6YXRpb24gY2hhbmdlcyBvbmx5IHRoZSBwcm92aWRlciBwYXJ0YCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJERUVQU0VFSzpkZWVwc2Vlay1jaGF0IiwKICAgICAgICAgICAgbm9ybWFsaXplUHJvdmlkZXJNb2RlbCgiREVFUFNFRUsvb2xkIGNvbmZpZ3VyYXRpb246ZGVlcHNlZWstY2hhdCIpLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoImN1c3RvbS9wcm92aWRlcjptb2RlbCIsIG5vcm1hbGl6ZVByb3ZpZGVyTW9kZWwoImN1c3RvbS9wcm92aWRlcjptb2RlbCIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gYG9ubHkgaW5kZXBlbmRlbnRseSBiaWxsZWQgcHJvdmlkZXJzIGtlZXAgbWlzc2luZyBjYWNoZSB3cml0ZSB1bmtub3duYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoZmFsc2UsIGhhc0luZGVwZW5kZW50Q2FjaGVXcml0ZUJpbGxpbmcoIkRFRVBTRUVLL2xlZ2FjeSIpKQogICAgICAgIGFzc2VydEVxdWFscyh0cnVlLCBoYXNJbmRlcGVuZGVudENhY2hlV3JpdGVCaWxsaW5nKCJBTlRIUk9QSUMvbGVnYWN5IikpCiAgICAgICAgYXNzZXJ0RXF1YWxzKHRydWUsIGhhc0luZGVwZW5kZW50Q2FjaGVXcml0ZUJpbGxpbmcoImN1c3RvbS9wcm92aWRlciIpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class ProviderIdentityUtilsTest {
+
+    @Test
+    fun `known legacy provider display value uses built in provider id`() {
+        assertEquals("DEEPSEEK", normalizeProviderTypeId("DEEPSEEK/old configuration"))
+        assertEquals("OPENAI", normalizeProviderTypeId(" openai/legacy configuration "))
+    }
+
+    @Test
+    fun `canonical and custom provider values keep their identities`() {
+        assertEquals("DEEPSEEK", normalizeProviderTypeId("DEEPSEEK"))
+        assertEquals("custom/provider", normalizeProviderTypeId("custom/provider"))
+    }
+
+    @Test
+    fun `provider model normalization changes only the provider part`() {
+        assertEquals(
+            "DEEPSEEK:deepseek-chat",
+            normalizeProviderModel("DEEPSEEK/old configuration:deepseek-chat"),
+        )
+        assertEquals("custom/provider:model", normalizeProviderModel("custom/provider:model"))
+    }
+
+    @Test
+    fun `only independently billed providers keep missing cache write unknown`() {
+        assertEquals(false, hasIndependentCacheWriteBilling("DEEPSEEK/legacy"))
+        assertEquals(true, hasIndependentCacheWriteBilling("ANTHROPIC/legacy"))
+        assertEquals(true, hasIndependentCacheWriteBilling("custom/provider"))
+    }
+}

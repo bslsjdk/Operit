@@ -1,1 +1,134 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLlByZWZlcmVuY2VzCmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5ib29sZWFuUHJlZmVyZW5jZXNLZXkKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmVkaXQKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmludFByZWZlcmVuY2VzS2V5CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUucHJlZmVyZW5jZXMuY29yZS5zdHJpbmdQcmVmZXJlbmNlc0tleQppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLnByZWZlcmVuY2VzRGF0YVN0b3JlCmltcG9ydCBqYXZhLnV0aWwuVVVJRAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmlyc3QKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lm1hcAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnJ1bkJsb2NraW5nCgpwcml2YXRlIHZhbCBDb250ZXh0LmV4dGVybmFsSHR0cEFwaURhdGFTdG9yZTogRGF0YVN0b3JlPFByZWZlcmVuY2VzPiBieSBwcmVmZXJlbmNlc0RhdGFTdG9yZSgKICAgIG5hbWUgPSAiZXh0ZXJuYWxfaHR0cF9hcGlfcHJlZmVyZW5jZXMiCikKCmRhdGEgY2xhc3MgRXh0ZXJuYWxIdHRwQXBpQ29uZmlnKAogICAgdmFsIGVuYWJsZWQ6IEJvb2xlYW4sCiAgICB2YWwgcG9ydDogSW50LAogICAgdmFsIGJlYXJlclRva2VuOiBTdHJpbmcKKQoKY2xhc3MgRXh0ZXJuYWxIdHRwQXBpUHJlZmVyZW5jZXMgcHJpdmF0ZSBjb25zdHJ1Y3Rvcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSB7CgogICAgdmFsIGVuYWJsZWRGbG93OiBGbG93PEJvb2xlYW4+ID0KICAgICAgICBjb250ZXh0LmV4dGVybmFsSHR0cEFwaURhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9FTkFCTEVEXSA/OiBmYWxzZQogICAgICAgIH0KCiAgICB2YWwgcG9ydEZsb3c6IEZsb3c8SW50PiA9CiAgICAgICAgY29udGV4dC5leHRlcm5hbEh0dHBBcGlEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfUE9SVF0gPzogREVGQVVMVF9QT1JUCiAgICAgICAgfQoKICAgIHZhbCBiZWFyZXJUb2tlbkZsb3c6IEZsb3c8U3RyaW5nPiA9CiAgICAgICAgY29udGV4dC5leHRlcm5hbEh0dHBBcGlEYXRhU3RvcmUuZGF0YS5tYXAgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBwcmVmZXJlbmNlc1tLRVlfQkVBUkVSX1RPS0VOXS5vckVtcHR5KCkKICAgICAgICB9CgogICAgc3VzcGVuZCBmdW4gc2V0RW5hYmxlZChlbmFibGVkOiBCb29sZWFuKSB7CiAgICAgICAgY29udGV4dC5leHRlcm5hbEh0dHBBcGlEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9FTkFCTEVEXSA9IGVuYWJsZWQKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gc2V0UG9ydChwb3J0OiBJbnQpIHsKICAgICAgICByZXF1aXJlKGlzVmFsaWRQb3J0KHBvcnQpKSB7ICJJbnZhbGlkIHBvcnQ6ICRwb3J0IiB9CiAgICAgICAgY29udGV4dC5leHRlcm5hbEh0dHBBcGlEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9QT1JUXSA9IHBvcnQKICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gZW5zdXJlQmVhcmVyVG9rZW4oKTogU3RyaW5nIHsKICAgICAgICB2YWwgZXhpc3RpbmcgPSBnZXRDb25maWcoKS5iZWFyZXJUb2tlbgogICAgICAgIGlmIChleGlzdGluZy5pc05vdEJsYW5rKCkpIHsKICAgICAgICAgICAgcmV0dXJuIGV4aXN0aW5nCiAgICAgICAgfQogICAgICAgIHZhbCBnZW5lcmF0ZWQgPSBnZW5lcmF0ZUJlYXJlclRva2VuKCkKICAgICAgICBjb250ZXh0LmV4dGVybmFsSHR0cEFwaURhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgcHJlZmVyZW5jZXNbS0VZX0JFQVJFUl9UT0tFTl0gPSBnZW5lcmF0ZWQKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGdlbmVyYXRlZAogICAgfQoKICAgIHN1c3BlbmQgZnVuIHJlc2V0QmVhcmVyVG9rZW4oKTogU3RyaW5nIHsKICAgICAgICB2YWwgZ2VuZXJhdGVkID0gZ2VuZXJhdGVCZWFyZXJUb2tlbigpCiAgICAgICAgY29udGV4dC5leHRlcm5hbEh0dHBBcGlEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9CRUFSRVJfVE9LRU5dID0gZ2VuZXJhdGVkCiAgICAgICAgfQogICAgICAgIHJldHVybiBnZW5lcmF0ZWQKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBzZXRCZWFyZXJUb2tlbih0b2tlbjogU3RyaW5nKSB7CiAgICAgICAgY29udGV4dC5leHRlcm5hbEh0dHBBcGlEYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHByZWZlcmVuY2VzW0tFWV9CRUFSRVJfVE9LRU5dID0gdG9rZW4KICAgICAgICB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gZ2V0Q29uZmlnKCk6IEV4dGVybmFsSHR0cEFwaUNvbmZpZyB7CiAgICAgICAgdmFsIHByZWZlcmVuY2VzID0gY29udGV4dC5leHRlcm5hbEh0dHBBcGlEYXRhU3RvcmUuZGF0YS5maXJzdCgpCiAgICAgICAgcmV0dXJuIEV4dGVybmFsSHR0cEFwaUNvbmZpZygKICAgICAgICAgICAgZW5hYmxlZCA9IHByZWZlcmVuY2VzW0tFWV9FTkFCTEVEXSA/OiBmYWxzZSwKICAgICAgICAgICAgcG9ydCA9IHByZWZlcmVuY2VzW0tFWV9QT1JUXSA/OiBERUZBVUxUX1BPUlQsCiAgICAgICAgICAgIGJlYXJlclRva2VuID0gcHJlZmVyZW5jZXNbS0VZX0JFQVJFUl9UT0tFTl0ub3JFbXB0eSgpCiAgICAgICAgKQogICAgfQoKICAgIGZ1biBnZXRDb25maWdTeW5jKCk6IEV4dGVybmFsSHR0cEFwaUNvbmZpZyA9IHJ1bkJsb2NraW5nIHsKICAgICAgICBnZXRDb25maWcoKQogICAgfQoKICAgIGZ1biBnZXRFbmFibGVkKCk6IEJvb2xlYW4gPSBydW5CbG9ja2luZyB7CiAgICAgICAgZW5hYmxlZEZsb3cuZmlyc3QoKQogICAgfQoKICAgIGZ1biBnZXRQb3J0KCk6IEludCA9IHJ1bkJsb2NraW5nIHsKICAgICAgICBwb3J0Rmxvdy5maXJzdCgpCiAgICB9CgogICAgZnVuIGdldEJlYXJlclRva2VuKCk6IFN0cmluZyA9IHJ1bkJsb2NraW5nIHsKICAgICAgICBiZWFyZXJUb2tlbkZsb3cuZmlyc3QoKQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIGNvbnN0IHZhbCBERUZBVUxUX1BPUlQgPSA4MDk0CgogICAgICAgIHByaXZhdGUgdmFsIEtFWV9FTkFCTEVEID0gYm9vbGVhblByZWZlcmVuY2VzS2V5KCJleHRlcm5hbF9odHRwX2FwaV9lbmFibGVkIikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfUE9SVCA9IGludFByZWZlcmVuY2VzS2V5KCJleHRlcm5hbF9odHRwX2FwaV9wb3J0IikKICAgICAgICBwcml2YXRlIHZhbCBLRVlfQkVBUkVSX1RPS0VOID0gc3RyaW5nUHJlZmVyZW5jZXNLZXkoImV4dGVybmFsX2h0dHBfYXBpX2JlYXJlcl90b2tlbiIpCgogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHByaXZhdGUgdmFyIElOU1RBTkNFOiBFeHRlcm5hbEh0dHBBcGlQcmVmZXJlbmNlcz8gPSBudWxsCgogICAgICAgIGZ1biBnZXRJbnN0YW5jZShjb250ZXh0OiBDb250ZXh0KTogRXh0ZXJuYWxIdHRwQXBpUHJlZmVyZW5jZXMgewogICAgICAgICAgICByZXR1cm4gSU5TVEFOQ0UgPzogc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgICAgIHZhbCBpbnN0YW5jZSA9IEV4dGVybmFsSHR0cEFwaVByZWZlcmVuY2VzKGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KQogICAgICAgICAgICAgICAgSU5TVEFOQ0UgPSBpbnN0YW5jZQogICAgICAgICAgICAgICAgaW5zdGFuY2UKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgZnVuIGlzVmFsaWRQb3J0KHBvcnQ6IEludCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gcG9ydCBpbiAxLi42NTUzNQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBmdW4gZ2VuZXJhdGVCZWFyZXJUb2tlbigpOiBTdHJpbmcgewogICAgICAgICAgICByZXR1cm4gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKS5yZXBsYWNlKCItIiwgIiIpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
+import java.util.UUID
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.runBlocking
+
+private val Context.externalHttpApiDataStore: DataStore<Preferences> by preferencesDataStore(
+    name = "external_http_api_preferences"
+)
+
+data class ExternalHttpApiConfig(
+    val enabled: Boolean,
+    val port: Int,
+    val bearerToken: String
+)
+
+class ExternalHttpApiPreferences private constructor(private val context: Context) {
+
+    val enabledFlow: Flow<Boolean> =
+        context.externalHttpApiDataStore.data.map { preferences ->
+            preferences[KEY_ENABLED] ?: false
+        }
+
+    val portFlow: Flow<Int> =
+        context.externalHttpApiDataStore.data.map { preferences ->
+            preferences[KEY_PORT] ?: DEFAULT_PORT
+        }
+
+    val bearerTokenFlow: Flow<String> =
+        context.externalHttpApiDataStore.data.map { preferences ->
+            preferences[KEY_BEARER_TOKEN].orEmpty()
+        }
+
+    suspend fun setEnabled(enabled: Boolean) {
+        context.externalHttpApiDataStore.edit { preferences ->
+            preferences[KEY_ENABLED] = enabled
+        }
+    }
+
+    suspend fun setPort(port: Int) {
+        require(isValidPort(port)) { "Invalid port: $port" }
+        context.externalHttpApiDataStore.edit { preferences ->
+            preferences[KEY_PORT] = port
+        }
+    }
+
+    suspend fun ensureBearerToken(): String {
+        val existing = getConfig().bearerToken
+        if (existing.isNotBlank()) {
+            return existing
+        }
+        val generated = generateBearerToken()
+        context.externalHttpApiDataStore.edit { preferences ->
+            preferences[KEY_BEARER_TOKEN] = generated
+        }
+        return generated
+    }
+
+    suspend fun resetBearerToken(): String {
+        val generated = generateBearerToken()
+        context.externalHttpApiDataStore.edit { preferences ->
+            preferences[KEY_BEARER_TOKEN] = generated
+        }
+        return generated
+    }
+
+    suspend fun setBearerToken(token: String) {
+        context.externalHttpApiDataStore.edit { preferences ->
+            preferences[KEY_BEARER_TOKEN] = token
+        }
+    }
+
+    suspend fun getConfig(): ExternalHttpApiConfig {
+        val preferences = context.externalHttpApiDataStore.data.first()
+        return ExternalHttpApiConfig(
+            enabled = preferences[KEY_ENABLED] ?: false,
+            port = preferences[KEY_PORT] ?: DEFAULT_PORT,
+            bearerToken = preferences[KEY_BEARER_TOKEN].orEmpty()
+        )
+    }
+
+    fun getConfigSync(): ExternalHttpApiConfig = runBlocking {
+        getConfig()
+    }
+
+    fun getEnabled(): Boolean = runBlocking {
+        enabledFlow.first()
+    }
+
+    fun getPort(): Int = runBlocking {
+        portFlow.first()
+    }
+
+    fun getBearerToken(): String = runBlocking {
+        bearerTokenFlow.first()
+    }
+
+    companion object {
+        const val DEFAULT_PORT = 8094
+
+        private val KEY_ENABLED = booleanPreferencesKey("external_http_api_enabled")
+        private val KEY_PORT = intPreferencesKey("external_http_api_port")
+        private val KEY_BEARER_TOKEN = stringPreferencesKey("external_http_api_bearer_token")
+
+        @Volatile
+        private var INSTANCE: ExternalHttpApiPreferences? = null
+
+        fun getInstance(context: Context): ExternalHttpApiPreferences {
+            return INSTANCE ?: synchronized(this) {
+                val instance = ExternalHttpApiPreferences(context.applicationContext)
+                INSTANCE = instance
+                instance
+            }
+        }
+
+        fun isValidPort(port: Int): Boolean {
+            return port in 1..65535
+        }
+
+        private fun generateBearerToken(): String {
+            return UUID.randomUUID().toString().replace("-", "")
+        }
+    }
+}

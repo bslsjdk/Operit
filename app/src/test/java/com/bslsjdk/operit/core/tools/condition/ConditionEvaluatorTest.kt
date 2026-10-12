@@ -1,1 +1,168 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jb25kaXRpb24KCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKaW1wb3J0IG9yZy5tb2NraXRvLk1vY2tpdG8KCmNsYXNzIENvbmRpdGlvbkV2YWx1YXRvclRlc3QgewoKICAgIEBUZXN0IGZ1biBlbXB0eUV4cHJlc3Npb25fZGVmYXVsdHNUb1RydWUoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoIiIsIGVtcHR5TWFwKCkpKQogICAgfQoKICAgIEBUZXN0IGZ1biB3aGl0ZXNwYWNlRXhwcmVzc2lvbl9kZWZhdWx0c1RvVHJ1ZSgpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgiICAgIiwgZW1wdHlNYXAoKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGJvb2xlYW5UcnVlTGl0ZXJhbF9pc1RydWUoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoInRydWUiLCBlbXB0eU1hcCgpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYm9vbGVhbkZhbHNlTGl0ZXJhbF9pc0ZhbHNlKCkgewogICAgICAgIGFzc2VydEZhbHNlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgiZmFsc2UiLCBlbXB0eU1hcCgpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gaWRlbnRpZmllclJlYWRzQm9vbGVhbkNhcGFiaWxpdHkoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoImVuYWJsZWQiLCBtYXBPZigiZW5hYmxlZCIgdG8gdHJ1ZSkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBtaXNzaW5nSWRlbnRpZmllcl9pc0ZhbHNlKCkgewogICAgICAgIGFzc2VydEZhbHNlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgibWlzc2luZyIsIGVtcHR5TWFwKCkpKQogICAgfQoKICAgIEBUZXN0IGZ1biB1bmFyeU5vdF9pbnZlcnRzVHJ1dGh5VmFsdWUoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoIiFkaXNhYmxlZCIsIG1hcE9mKCJkaXNhYmxlZCIgdG8gZmFsc2UpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYW5kT3BlcmF0b3JfcmVxdWlyZXNCb3RoU2lkZXMoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoImEgJiYgYiIsIG1hcE9mKCJhIiB0byB0cnVlLCAiYiIgdG8gdHJ1ZSkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBhbmRPcGVyYXRvcl9zaG9ydENpcmN1aXRzRmFsc2UoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCJhICYmIGIiLCBtYXBPZigiYSIgdG8gZmFsc2UsICJiIiB0byB0cnVlKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIG9yT3BlcmF0b3JfYWNjZXB0c09uZVRydXRoeVNpZGUoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoImEgfHwgYiIsIG1hcE9mKCJhIiB0byBmYWxzZSwgImIiIHRvIHRydWUpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcHJlY2VkZW5jZV9hbmRCZWZvcmVPcigpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgidHJ1ZSB8fCBmYWxzZSAmJiBmYWxzZSIsIGVtcHR5TWFwKCkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBwYXJlbnRoZXNlc19vdmVycmlkZVByZWNlZGVuY2UoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCIodHJ1ZSB8fCBmYWxzZSkgJiYgZmFsc2UiLCBlbXB0eU1hcCgpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXF1YWxpdHlfY29tcGFyZXNOdW1iZXJzKCkgewogICAgICAgIGFzc2VydFRydWUoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCJzY29yZSA9PSAzIiwgbWFwT2YoInNjb3JlIiB0byAzKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGVxdWFsaXR5X2NvbXBhcmVzU3RyaW5ncygpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgibmFtZSA9PSAnb3Blcml0JyIsIG1hcE9mKCJuYW1lIiB0byAib3Blcml0IikpKQogICAgfQoKICAgIEBUZXN0IGZ1biBlcXVhbGl0eV9jb21wYXJlc0Jvb2xlYW5zKCkgewogICAgICAgIGFzc2VydFRydWUoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCJmbGFnID09IHRydWUiLCBtYXBPZigiZmxhZyIgdG8gdHJ1ZSkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBlcXVhbGl0eV9jb21wYXJlc051bGxzKCkgewogICAgICAgIGFzc2VydFRydWUoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCJ2YWx1ZSA9PSBudWxsIiwgbWFwT2YoInZhbHVlIiB0byBudWxsKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGluZXF1YWxpdHlfZGV0ZWN0c0RpZmZlcmVudFZhbHVlcygpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgibmFtZSAhPSAnb3RoZXInIiwgbWFwT2YoIm5hbWUiIHRvICJvcGVyaXQiKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGdyZWF0ZXJUaGFuX2NvbXBhcmVzTnVtYmVycygpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgic2NvcmUgPiAyIiwgbWFwT2YoInNjb3JlIiB0byAzKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGdyZWF0ZXJUaGFuT3JFcXVhbF9jb21wYXJlc051bWJlcnMoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoInNjb3JlID49IDMiLCBtYXBPZigic2NvcmUiIHRvIDMpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbGVzc1RoYW5fY29tcGFyZXNOdW1iZXJzKCkgewogICAgICAgIGFzc2VydFRydWUoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCJzY29yZSA8IDQiLCBtYXBPZigic2NvcmUiIHRvIDMpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbGVzc1RoYW5PckVxdWFsX2NvbXBhcmVzTnVtYmVycygpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgic2NvcmUgPD0gMyIsIG1hcE9mKCJzY29yZSIgdG8gMykpKQogICAgfQoKICAgIEBUZXN0IGZ1biBpbk9wZXJhdG9yX21hdGNoZXNBcnJheUxpdGVyYWwoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoIidhJyBpbiBbJ2EnLCAnYiddIiwgZW1wdHlNYXAoKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGluT3BlcmF0b3JfbWF0Y2hlc0NhcGFiaWxpdHlBcnJheSgpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgiJ2NoYXQnIGluIGZlYXR1cmVzIiwgbWFwT2YoImZlYXR1cmVzIiB0byBsaXN0T2YoImNoYXQiLCAidG9vbCIpKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGluT3BlcmF0b3JfcmV0dXJuc0ZhbHNlV2hlbk1pc3NpbmcoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCIndm9pY2UnIGluIGZlYXR1cmVzIiwgbWFwT2YoImZlYXR1cmVzIiB0byBsaXN0T2YoImNoYXQiLCAidG9vbCIpKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGRvdWJsZVF1b3RlZFN0cmluZ0xpdGVyYWxfaXNTdXBwb3J0ZWQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoIm5hbWUgPT0gXCJvcGVyaXRcIiIsIG1hcE9mKCJuYW1lIiB0byAib3Blcml0IikpKQogICAgfQoKICAgIEBUZXN0IGZ1biBzaW5nbGVRdW90ZWRTdHJpbmdFc2NhcGVfaXNTdXBwb3J0ZWQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoIm5hbWUgPT0gJ2l0XFwncyciLCBtYXBPZigibmFtZSIgdG8gIml0J3MiKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGRvdHRlZElkZW50aWZpZXJfaXNSZWFkQXNTaW5nbGVDYXBhYmlsaXR5S2V5KCkgewogICAgICAgIGFzc2VydFRydWUoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCJkZXZpY2Uucm9vdGVkIiwgbWFwT2YoImRldmljZS5yb290ZWQiIHRvIHRydWUpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbnVtZXJpY0Jvb2xlYW5Db21wYXJpc29uX3VzZXNOdW1iZXJTZW1hbnRpY3MoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoInRydWUgPj0gZmFsc2UiLCBlbXB0eU1hcCgpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gc3RyaW5nQ29tcGFyaXNvbl9pc0xleGljb2dyYXBoaWNhbCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgiJ2InID4gJ2EnIiwgZW1wdHlNYXAoKSkpCiAgICB9CgogICAgQFRlc3QgZnVuIGRlY2ltYWxOdW1iZXJMaXRlcmFsX2lzU3VwcG9ydGVkKCkgewogICAgICAgIGFzc2VydFRydWUoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCJzY29yZSA9PSAzLjUiLCBtYXBPZigic2NvcmUiIHRvIDMuNSkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBsZWFkaW5nRG90TnVtYmVyTGl0ZXJhbF9pc1N1cHBvcnRlZCgpIHsKICAgICAgICBhc3NlcnRUcnVlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgic2NvcmUgPT0gLjUiLCBtYXBPZigic2NvcmUiIHRvIDAuNSkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBhcnJheUxpdGVyYWxfaXNUcnV0aHlXaGVuTm90RW1wdHkoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoIlsxXSIsIGVtcHR5TWFwKCkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBlbXB0eUFycmF5TGl0ZXJhbF9pc0ZhbHN5KCkgewogICAgICAgIGFzc2VydEZhbHNlKENvbmRpdGlvbkV2YWx1YXRvci5ldmFsdWF0ZSgiW10iLCBlbXB0eU1hcCgpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZW1wdHlTdHJpbmdMaXRlcmFsX2lzRmFsc3koKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKCInJyIsIGVtcHR5TWFwKCkpKQogICAgfQoKICAgIEBUZXN0IGZ1biBub25FbXB0eVN0cmluZ0xpdGVyYWxfaXNUcnV0aHkoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShDb25kaXRpb25FdmFsdWF0b3IuZXZhbHVhdGUoIidvayciLCBlbXB0eU1hcCgpKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbWFsZm9ybWVkQ2hhcmFjdGVyX3JldHVybnNGYWxzZSgpIHsKICAgICAgICBhc3NlcnRJbnZhbGlkRXhwcmVzc2lvbigiQCIpCiAgICB9CgogICAgQFRlc3QgZnVuIHVudGVybWluYXRlZFN0cmluZ19yZXR1cm5zRmFsc2UoKSB7CiAgICAgICAgYXNzZXJ0SW52YWxpZEV4cHJlc3Npb24oIidhYmMiKQogICAgfQoKICAgIEBUZXN0IGZ1biB1bmJhbGFuY2VkUGFyZW50aGVzaXNfcmV0dXJuc0ZhbHNlKCkgewogICAgICAgIGFzc2VydEludmFsaWRFeHByZXNzaW9uKCIodHJ1ZSIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYXNzZXJ0SW52YWxpZEV4cHJlc3Npb24oZXhwcmVzc2lvbjogU3RyaW5nKSB7CiAgICAgICAgTW9ja2l0by5tb2NrU3RhdGljKEFwcExvZ2dlcjo6Y2xhc3MuamF2YSkudXNlIHsKICAgICAgICAgICAgYXNzZXJ0RmFsc2UoQ29uZGl0aW9uRXZhbHVhdG9yLmV2YWx1YXRlKGV4cHJlc3Npb24sIGVtcHR5TWFwKCkpKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools.condition
+
+import com.bslsjdk.operit.util.AppLogger
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.mockito.Mockito
+
+class ConditionEvaluatorTest {
+
+    @Test fun emptyExpression_defaultsToTrue() {
+        assertTrue(ConditionEvaluator.evaluate("", emptyMap()))
+    }
+
+    @Test fun whitespaceExpression_defaultsToTrue() {
+        assertTrue(ConditionEvaluator.evaluate("   ", emptyMap()))
+    }
+
+    @Test fun booleanTrueLiteral_isTrue() {
+        assertTrue(ConditionEvaluator.evaluate("true", emptyMap()))
+    }
+
+    @Test fun booleanFalseLiteral_isFalse() {
+        assertFalse(ConditionEvaluator.evaluate("false", emptyMap()))
+    }
+
+    @Test fun identifierReadsBooleanCapability() {
+        assertTrue(ConditionEvaluator.evaluate("enabled", mapOf("enabled" to true)))
+    }
+
+    @Test fun missingIdentifier_isFalse() {
+        assertFalse(ConditionEvaluator.evaluate("missing", emptyMap()))
+    }
+
+    @Test fun unaryNot_invertsTruthyValue() {
+        assertTrue(ConditionEvaluator.evaluate("!disabled", mapOf("disabled" to false)))
+    }
+
+    @Test fun andOperator_requiresBothSides() {
+        assertTrue(ConditionEvaluator.evaluate("a && b", mapOf("a" to true, "b" to true)))
+    }
+
+    @Test fun andOperator_shortCircuitsFalse() {
+        assertFalse(ConditionEvaluator.evaluate("a && b", mapOf("a" to false, "b" to true)))
+    }
+
+    @Test fun orOperator_acceptsOneTruthySide() {
+        assertTrue(ConditionEvaluator.evaluate("a || b", mapOf("a" to false, "b" to true)))
+    }
+
+    @Test fun precedence_andBeforeOr() {
+        assertTrue(ConditionEvaluator.evaluate("true || false && false", emptyMap()))
+    }
+
+    @Test fun parentheses_overridePrecedence() {
+        assertFalse(ConditionEvaluator.evaluate("(true || false) && false", emptyMap()))
+    }
+
+    @Test fun equality_comparesNumbers() {
+        assertTrue(ConditionEvaluator.evaluate("score == 3", mapOf("score" to 3)))
+    }
+
+    @Test fun equality_comparesStrings() {
+        assertTrue(ConditionEvaluator.evaluate("name == 'operit'", mapOf("name" to "operit")))
+    }
+
+    @Test fun equality_comparesBooleans() {
+        assertTrue(ConditionEvaluator.evaluate("flag == true", mapOf("flag" to true)))
+    }
+
+    @Test fun equality_comparesNulls() {
+        assertTrue(ConditionEvaluator.evaluate("value == null", mapOf("value" to null)))
+    }
+
+    @Test fun inequality_detectsDifferentValues() {
+        assertTrue(ConditionEvaluator.evaluate("name != 'other'", mapOf("name" to "operit")))
+    }
+
+    @Test fun greaterThan_comparesNumbers() {
+        assertTrue(ConditionEvaluator.evaluate("score > 2", mapOf("score" to 3)))
+    }
+
+    @Test fun greaterThanOrEqual_comparesNumbers() {
+        assertTrue(ConditionEvaluator.evaluate("score >= 3", mapOf("score" to 3)))
+    }
+
+    @Test fun lessThan_comparesNumbers() {
+        assertTrue(ConditionEvaluator.evaluate("score < 4", mapOf("score" to 3)))
+    }
+
+    @Test fun lessThanOrEqual_comparesNumbers() {
+        assertTrue(ConditionEvaluator.evaluate("score <= 3", mapOf("score" to 3)))
+    }
+
+    @Test fun inOperator_matchesArrayLiteral() {
+        assertTrue(ConditionEvaluator.evaluate("'a' in ['a', 'b']", emptyMap()))
+    }
+
+    @Test fun inOperator_matchesCapabilityArray() {
+        assertTrue(ConditionEvaluator.evaluate("'chat' in features", mapOf("features" to listOf("chat", "tool"))))
+    }
+
+    @Test fun inOperator_returnsFalseWhenMissing() {
+        assertFalse(ConditionEvaluator.evaluate("'voice' in features", mapOf("features" to listOf("chat", "tool"))))
+    }
+
+    @Test fun doubleQuotedStringLiteral_isSupported() {
+        assertTrue(ConditionEvaluator.evaluate("name == \"operit\"", mapOf("name" to "operit")))
+    }
+
+    @Test fun singleQuotedStringEscape_isSupported() {
+        assertTrue(ConditionEvaluator.evaluate("name == 'it\\'s'", mapOf("name" to "it's")))
+    }
+
+    @Test fun dottedIdentifier_isReadAsSingleCapabilityKey() {
+        assertTrue(ConditionEvaluator.evaluate("device.rooted", mapOf("device.rooted" to true)))
+    }
+
+    @Test fun numericBooleanComparison_usesNumberSemantics() {
+        assertTrue(ConditionEvaluator.evaluate("true >= false", emptyMap()))
+    }
+
+    @Test fun stringComparison_isLexicographical() {
+        assertTrue(ConditionEvaluator.evaluate("'b' > 'a'", emptyMap()))
+    }
+
+    @Test fun decimalNumberLiteral_isSupported() {
+        assertTrue(ConditionEvaluator.evaluate("score == 3.5", mapOf("score" to 3.5)))
+    }
+
+    @Test fun leadingDotNumberLiteral_isSupported() {
+        assertTrue(ConditionEvaluator.evaluate("score == .5", mapOf("score" to 0.5)))
+    }
+
+    @Test fun arrayLiteral_isTruthyWhenNotEmpty() {
+        assertTrue(ConditionEvaluator.evaluate("[1]", emptyMap()))
+    }
+
+    @Test fun emptyArrayLiteral_isFalsy() {
+        assertFalse(ConditionEvaluator.evaluate("[]", emptyMap()))
+    }
+
+    @Test fun emptyStringLiteral_isFalsy() {
+        assertFalse(ConditionEvaluator.evaluate("''", emptyMap()))
+    }
+
+    @Test fun nonEmptyStringLiteral_isTruthy() {
+        assertTrue(ConditionEvaluator.evaluate("'ok'", emptyMap()))
+    }
+
+    @Test fun malformedCharacter_returnsFalse() {
+        assertInvalidExpression("@")
+    }
+
+    @Test fun unterminatedString_returnsFalse() {
+        assertInvalidExpression("'abc")
+    }
+
+    @Test fun unbalancedParenthesis_returnsFalse() {
+        assertInvalidExpression("(true")
+    }
+
+    private fun assertInvalidExpression(expression: String) {
+        Mockito.mockStatic(AppLogger::class.java).use {
+            assertFalse(ConditionEvaluator.evaluate(expression, emptyMap()))
+        }
+    }
+}

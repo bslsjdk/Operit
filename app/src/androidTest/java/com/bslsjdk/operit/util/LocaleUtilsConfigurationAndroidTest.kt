@@ -1,1 +1,70 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5yZXMuQ29uZmlndXJhdGlvbgppbXBvcnQgYW5kcm9pZHgudGVzdC5leHQuanVuaXQucnVubmVycy5BbmRyb2lkSlVuaXQ0CmltcG9ydCBhbmRyb2lkeC50ZXN0LnBsYXRmb3JtLmFwcC5JbnN0cnVtZW50YXRpb25SZWdpc3RyeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGphdmEudXRpbC5Mb2NhbGUKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLmp1bml0LnJ1bm5lci5SdW5XaXRoCgpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgTG9jYWxlVXRpbHNDb25maWd1cmF0aW9uQW5kcm9pZFRlc3QgewoKICAgIEBUZXN0IGZ1biBsb2NhbGVPdmVycmlkZV9vbmx5RGVmaW5lc0xvY2FsZUZpZWxkcygpIHsKICAgICAgICB2YWwgb3ZlcnJpZGUgPSBMb2NhbGVVdGlscy5jcmVhdGVMb2NhbGVPdmVycmlkZUNvbmZpZ3VyYXRpb24oTG9jYWxlLlVTKQoKICAgICAgICBhc3NlcnRFcXVhbHMoTG9jYWxlLlVTLCBvdmVycmlkZS5sb2NhbGVzWzBdKQogICAgICAgIGFzc2VydEVxdWFscyhDb25maWd1cmF0aW9uLk9SSUVOVEFUSU9OX1VOREVGSU5FRCwgb3ZlcnJpZGUub3JpZW50YXRpb24pCiAgICAgICAgYXNzZXJ0RXF1YWxzKENvbmZpZ3VyYXRpb24uU0NSRUVOX1dJRFRIX0RQX1VOREVGSU5FRCwgb3ZlcnJpZGUuc2NyZWVuV2lkdGhEcCkKICAgICAgICBhc3NlcnRFcXVhbHMoQ29uZmlndXJhdGlvbi5TQ1JFRU5fSEVJR0hUX0RQX1VOREVGSU5FRCwgb3ZlcnJpZGUuc2NyZWVuSGVpZ2h0RHApCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBDb25maWd1cmF0aW9uLlNNQUxMRVNUX1NDUkVFTl9XSURUSF9EUF9VTkRFRklORUQsCiAgICAgICAgICAgIG92ZXJyaWRlLnNtYWxsZXN0U2NyZWVuV2lkdGhEcAogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gbG9jYWxpemVkQ29udGV4dF9pbmhlcml0c0Jhc2VXaW5kb3dEaW1lbnNpb25zKCkgewogICAgICAgIHZhbCBjb250ZXh0ID0gSW5zdHJ1bWVudGF0aW9uUmVnaXN0cnkuZ2V0SW5zdHJ1bWVudGF0aW9uKCkudGFyZ2V0Q29udGV4dAogICAgICAgIHZhbCBiYXNlQ29uZmlndXJhdGlvbiA9IGNvbnRleHQucmVzb3VyY2VzLmNvbmZpZ3VyYXRpb24KICAgICAgICB2YWwgbG9jYWxpemVkQ29udGV4dCA9CiAgICAgICAgICAgIGNvbnRleHQuY3JlYXRlQ29uZmlndXJhdGlvbkNvbnRleHQoCiAgICAgICAgICAgICAgICBMb2NhbGVVdGlscy5jcmVhdGVMb2NhbGVPdmVycmlkZUNvbmZpZ3VyYXRpb24oTG9jYWxlLlVTKQogICAgICAgICAgICApCiAgICAgICAgdmFsIGxvY2FsaXplZENvbmZpZ3VyYXRpb24gPSBsb2NhbGl6ZWRDb250ZXh0LnJlc291cmNlcy5jb25maWd1cmF0aW9uCgogICAgICAgIGFzc2VydEVxdWFscyhiYXNlQ29uZmlndXJhdGlvbi5vcmllbnRhdGlvbiwgbG9jYWxpemVkQ29uZmlndXJhdGlvbi5vcmllbnRhdGlvbikKICAgICAgICBhc3NlcnRFcXVhbHMoYmFzZUNvbmZpZ3VyYXRpb24uc2NyZWVuV2lkdGhEcCwgbG9jYWxpemVkQ29uZmlndXJhdGlvbi5zY3JlZW5XaWR0aERwKQogICAgICAgIGFzc2VydEVxdWFscyhiYXNlQ29uZmlndXJhdGlvbi5zY3JlZW5IZWlnaHREcCwgbG9jYWxpemVkQ29uZmlndXJhdGlvbi5zY3JlZW5IZWlnaHREcCkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgIGJhc2VDb25maWd1cmF0aW9uLnNtYWxsZXN0U2NyZWVuV2lkdGhEcCwKICAgICAgICAgICAgbG9jYWxpemVkQ29uZmlndXJhdGlvbi5zbWFsbGVzdFNjcmVlbldpZHRoRHAKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIGphcGFuZXNlT3ZlcnJpZGVfdXNlc0VuZ2xpc2hBZnRlckphcGFuZXNlKCkgewogICAgICAgIHZhbCBvdmVycmlkZSA9IExvY2FsZVV0aWxzLmNyZWF0ZUxvY2FsZU92ZXJyaWRlQ29uZmlndXJhdGlvbihMb2NhbGUuSkFQQU5FU0UpCgogICAgICAgIGFzc2VydEVxdWFscyhMb2NhbGUuSkFQQU5FU0UsIG92ZXJyaWRlLmxvY2FsZXNbMF0pCiAgICAgICAgYXNzZXJ0RXF1YWxzKExvY2FsZS5FTkdMSVNILCBvdmVycmlkZS5sb2NhbGVzWzFdKQogICAgfQoKICAgIEBUZXN0IGZ1biBqYXBhbmVzZUNvbnRleHRfdXNlc0phcGFuZXNlVGhlbkVuZ2xpc2hSZXNvdXJjZXMoKSB7CiAgICAgICAgdmFsIGNvbnRleHQgPSBJbnN0cnVtZW50YXRpb25SZWdpc3RyeS5nZXRJbnN0cnVtZW50YXRpb24oKS50YXJnZXRDb250ZXh0CiAgICAgICAgdmFsIGxvY2FsaXplZENvbnRleHQgPQogICAgICAgICAgICBjb250ZXh0LmNyZWF0ZUNvbmZpZ3VyYXRpb25Db250ZXh0KAogICAgICAgICAgICAgICAgTG9jYWxlVXRpbHMuY3JlYXRlTG9jYWxlT3ZlcnJpZGVDb25maWd1cmF0aW9uKExvY2FsZS5KQVBBTkVTRSkKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRFcXVhbHMoIuioreWumiIsIGxvY2FsaXplZENvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm5hdl9zZXR0aW5ncykpCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAi55Sf44OH44O844K/44Gu44K544OK44OD44OX44K344On44OD44OIIiwKICAgICAgICAgICAgbG9jYWxpemVkQ29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZGF0YV9yZWNvdmVyeV9yYXdfc25hcHNob3Rfc2VjdGlvbikKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiU2hvdyBNb2RlbCBTZWxlY3RvciIsCiAgICAgICAgICAgIGxvY2FsaXplZENvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1vZGVsX3NlbGVjdG9yX3RvZ2dsZSkKICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import android.content.res.Configuration
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import com.bslsjdk.operit.R
+import java.util.Locale
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class LocaleUtilsConfigurationAndroidTest {
+
+    @Test fun localeOverride_onlyDefinesLocaleFields() {
+        val override = LocaleUtils.createLocaleOverrideConfiguration(Locale.US)
+
+        assertEquals(Locale.US, override.locales[0])
+        assertEquals(Configuration.ORIENTATION_UNDEFINED, override.orientation)
+        assertEquals(Configuration.SCREEN_WIDTH_DP_UNDEFINED, override.screenWidthDp)
+        assertEquals(Configuration.SCREEN_HEIGHT_DP_UNDEFINED, override.screenHeightDp)
+        assertEquals(
+            Configuration.SMALLEST_SCREEN_WIDTH_DP_UNDEFINED,
+            override.smallestScreenWidthDp
+        )
+    }
+
+    @Test fun localizedContext_inheritsBaseWindowDimensions() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val baseConfiguration = context.resources.configuration
+        val localizedContext =
+            context.createConfigurationContext(
+                LocaleUtils.createLocaleOverrideConfiguration(Locale.US)
+            )
+        val localizedConfiguration = localizedContext.resources.configuration
+
+        assertEquals(baseConfiguration.orientation, localizedConfiguration.orientation)
+        assertEquals(baseConfiguration.screenWidthDp, localizedConfiguration.screenWidthDp)
+        assertEquals(baseConfiguration.screenHeightDp, localizedConfiguration.screenHeightDp)
+        assertEquals(
+            baseConfiguration.smallestScreenWidthDp,
+            localizedConfiguration.smallestScreenWidthDp
+        )
+    }
+
+    @Test fun japaneseOverride_usesEnglishAfterJapanese() {
+        val override = LocaleUtils.createLocaleOverrideConfiguration(Locale.JAPANESE)
+
+        assertEquals(Locale.JAPANESE, override.locales[0])
+        assertEquals(Locale.ENGLISH, override.locales[1])
+    }
+
+    @Test fun japaneseContext_usesJapaneseThenEnglishResources() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val localizedContext =
+            context.createConfigurationContext(
+                LocaleUtils.createLocaleOverrideConfiguration(Locale.JAPANESE)
+            )
+
+        assertEquals("設定", localizedContext.getString(R.string.nav_settings))
+        assertEquals(
+            "生データのスナップショット",
+            localizedContext.getString(R.string.data_recovery_raw_snapshot_section)
+        )
+        assertEquals(
+            "Show Model Selector",
+            localizedContext.getString(R.string.model_selector_toggle)
+        )
+    }
+}

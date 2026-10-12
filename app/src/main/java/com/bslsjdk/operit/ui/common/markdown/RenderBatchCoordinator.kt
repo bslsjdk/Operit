@@ -1,1 +1,43 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuY29tbW9uLm1hcmtkb3duCgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCi8qKgogKiBDb2FsZXNjZXMgcmVuZGVyIHVwZGF0ZXMgd2l0aG91dCBsb3NpbmcgdGhlIGxhc3QgbXV0YXRpb24uCiAqCiAqIFJlcXVlc3RzIG11c3QgYmUgbWFkZSBhZnRlciByZW5kZXJhYmxlIHN0YXRlIGNoYW5nZXMuIENhbGxzIGFyZSBzZXJpYWxpemVkIGJ5IHRoZSBvd25pbmcKICogQ29tcG9zZSBzY29wZSwgc28gdGhlIHJldmlzaW9uIGNoZWNrIGFuZCBqb2IgdGVhcmRvd24gY2Fubm90IGJlIGludGVybGVhdmVkIGJ5IGFub3RoZXIgcmVxdWVzdC4KICovCmludGVybmFsIGNsYXNzIFJlbmRlckJhdGNoQ29vcmRpbmF0b3IoCiAgICBwcml2YXRlIHZhbCBzY29wZTogQ29yb3V0aW5lU2NvcGUsCiAgICBwcml2YXRlIHZhbCBpbnRlcnZhbE1zOiBMb25nLAogICAgcHJpdmF0ZSB2YWwgb25GbHVzaDogKCkgLT4gVW5pdCwKKSB7CiAgICBwcml2YXRlIHZhciByZXF1ZXN0ZWRSZXZpc2lvbiA9IDBMCiAgICBwcml2YXRlIHZhciBhcHBsaWVkUmV2aXNpb24gPSAwTAogICAgcHJpdmF0ZSB2YXIgdXBkYXRlSm9iOiBKb2I/ID0gbnVsbAoKICAgIGZ1biByZXF1ZXN0VXBkYXRlKCkgewogICAgICAgIHJlcXVlc3RlZFJldmlzaW9uKysKICAgICAgICBpZiAodXBkYXRlSm9iPy5pc0FjdGl2ZSA9PSB0cnVlKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdXBkYXRlSm9iID0KICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgd2hpbGUgKGFwcGxpZWRSZXZpc2lvbiAhPSByZXF1ZXN0ZWRSZXZpc2lvbikgewogICAgICAgICAgICAgICAgICAgICAgICBkZWxheShpbnRlcnZhbE1zKQogICAgICAgICAgICAgICAgICAgICAgICB2YWwgcmV2aXNpb25Ub0FwcGx5ID0gcmVxdWVzdGVkUmV2aXNpb24KICAgICAgICAgICAgICAgICAgICAgICAgb25GbHVzaCgpCiAgICAgICAgICAgICAgICAgICAgICAgIGFwcGxpZWRSZXZpc2lvbiA9IHJldmlzaW9uVG9BcHBseQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICAgICAgdXBkYXRlSm9iID0gbnVsbAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.common.markdown
+
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+
+/**
+ * Coalesces render updates without losing the last mutation.
+ *
+ * Requests must be made after renderable state changes. Calls are serialized by the owning
+ * Compose scope, so the revision check and job teardown cannot be interleaved by another request.
+ */
+internal class RenderBatchCoordinator(
+    private val scope: CoroutineScope,
+    private val intervalMs: Long,
+    private val onFlush: () -> Unit,
+) {
+    private var requestedRevision = 0L
+    private var appliedRevision = 0L
+    private var updateJob: Job? = null
+
+    fun requestUpdate() {
+        requestedRevision++
+        if (updateJob?.isActive == true) {
+            return
+        }
+
+        updateJob =
+            scope.launch {
+                try {
+                    while (appliedRevision != requestedRevision) {
+                        delay(intervalMs)
+                        val revisionToApply = requestedRevision
+                        onFlush()
+                        appliedRevision = revisionToApply
+                    }
+                } finally {
+                    updateJob = null
+                }
+            }
+    }
+}

@@ -1,1 +1,257 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5jYWxjdWxhdG9yCgppbXBvcnQgb3JnLmp1bml0LkFmdGVyCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgRXhwcmVzc2lvblBhcnNlckVkZ2VDYXNlVGVzdCB7CgogICAgQEFmdGVyCiAgICBmdW4gdGVhckRvd24oKSB7CiAgICAgICAgRXhwcmVzc2lvbkNvbnRleHQuY2xlYXJWYXJpYWJsZXMoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGV2YWwoZXhwcjogU3RyaW5nKTogRG91YmxlID0gRXhwcmVzc2lvblBhcnNlcihleHByKS5wYXJzZSgpLmV2YWx1YXRlKCkKCiAgICBAVGVzdCBmdW4gYGRpdmlzaW9uIGJ5IHplcm8gcmV0dXJucyBpbmZpbml0eWAoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShldmFsKCIxLzAiKS5pc0luZmluaXRlKCkpCiAgICB9CgogICAgQFRlc3QgZnVuIGB6ZXJvIGRpdmlkZWQgYnkgemVybyByZXR1cm5zIG5hbmAoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShldmFsKCIwLzAiKS5pc05hTigpKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbmVnYXRpdmUgbnVtYmVyIHNxdWFyZWRgKCkgewogICAgICAgIGFzc2VydEVxdWFscyg5LjAsIGV2YWwoIigtMykgKiogMiIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG5lZ2F0aXZlIG51bWJlciB0aW1lcyBuZWdhdGl2ZWAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDQuMCwgZXZhbCgiLTIgKiAtMiIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNoYWluZWQgZXhwb25lbnRpYXRpb25gKCkgewogICAgICAgIGFzc2VydEVxdWFscyg1MTIuMCwgZXZhbCgiMiAqKiAoMyArIDYpIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbmVzdGVkIHRlcm5hcnlgKCkgewogICAgICAgIGFzc2VydEVxdWFscygzLjAsIGV2YWwoIjEgPyAoMiA/IDMgOiA0KSA6IDUiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGB0ZXJuYXJ5IHdpdGggYXJpdGhtZXRpYyBpbiBicmFuY2hlc2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDE1LjAsIGV2YWwoIjEgPyAoNSArIDEwKSA6IDAiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjb21wYXJpc29uIGNoYWluZWQgd2l0aCBhbmRgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxLjAsIGV2YWwoIjEgPCAyICYmIDIgPCAzIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29tcGFyaXNvbiBjaGFpbmVkIHdpdGggb3JgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxLjAsIGV2YWwoIjEgPiAyIHx8IDIgPCAzIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbWl4ZWQgbG9naWNhbCBvcGVyYXRvcnNgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxLjAsIGV2YWwoIigxICYmIDEpIHx8ICgwICYmIDEpIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdW5hcnkgbm90IHdpdGggY29tcGFyaXNvbmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDEuMCwgZXZhbCgiISg1ID4gMTApIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdW5hcnkgbm90IHdpdGggZmFsc2UgY29tcGFyaXNvbmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDAuMCwgZXZhbCgiISg1ID4gMykiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGB2YXJpYWJsZSBhc3NpZ25tZW50IGluIGV4cHJlc3Npb25gKCkgewogICAgICAgIGV2YWwoImE9NSIpCiAgICAgICAgZXZhbCgiYj0xMCIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDE1LjAsIGV2YWwoImEgKyBiIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29tcHV0ZWQgdmFyaWFibGUgYXNzaWdubWVudGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDE1LjAsIGV2YWwoIng9NSArIDEwIiksIDAuMDAxKQogICAgICAgIGFzc2VydEVxdWFscygxNS4wLCBldmFsKCJ4IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgY29tcG91bmQgYXNzaWdubWVudCBjaGFpbmAoKSB7CiAgICAgICAgZXZhbCgieD0xMCIpCiAgICAgICAgZXZhbCgieCs9NSIpCiAgICAgICAgZXZhbCgieCo9MiIpCiAgICAgICAgYXNzZXJ0RXF1YWxzKDMwLjAsIGV2YWwoIngiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBwb3cgd2l0aCB6ZXJvIGV4cG9uZW50YCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBldmFsKCIyICoqIDAiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBwb3cgd2l0aCBleHBvbmVudCBvZiBvbmVgKCkgewogICAgICAgIGFzc2VydEVxdWFscyg1LjAsIGV2YWwoIjUgKiogMSIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHNxcnQgb2YgcGVyZmVjdCBzcXVhcmVgKCkgewogICAgICAgIGFzc2VydEVxdWFscyg1LjAsIGV2YWwoInNxcnQoMjUpIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYWJzIG9mIHBvc2l0aXZlIG51bWJlcmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwLjAsIGV2YWwoImFicygxMCkiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGByb3VuZCBoYWxmIHVwYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoNC4wLCBldmFsKCJyb3VuZCgzLjUpIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZmxvb3Igb2YgZGVjaW1hbGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDMuMCwgZXZhbCgiZmxvb3IoMy45KSIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNlaWwgb2YgZGVjaW1hbGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDQuMCwgZXZhbCgiY2VpbCgzLjEpIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbWF4IHdpdGggdGhyZWUgYXJndW1lbnRzYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMTAwLjAsIGV2YWwoIm1heCgxMCwgNTAsIDEwMCkiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBtaW4gd2l0aCB0aHJlZSBhcmd1bWVudHNgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxMC4wLCBldmFsKCJtaW4oMTAsIDUwLCAxMDApIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgcGVyY2VudCBzaWduIGFzIG1vZHVsb2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDIuMCwgZXZhbCgiMTQgJSAzIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgcGVyY2VudCB3aXRoIG5lZ2F0aXZlIG51bWJlcnNgKCkgewogICAgICAgIGFzc2VydEVxdWFscygtMS4wLCBldmFsKCItMTAgJSAzIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgYWRkaXRpb24gb2YgbXVsdGlwbGUgbnVtYmVyc2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwLjAsIGV2YWwoIjEgKyAyICsgMyArIDQiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBtdWx0aXBsaWNhdGlvbiBjaGFpbmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDI0LjAsIGV2YWwoIjIgKiAzICogNCIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNvbXBsZXggZXhwcmVzc2lvbmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDMuNSwgZXZhbCgiKDIgKyA1KSAvIDIiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBleHByZXNzaW9uIHdpdGggYWxsIG9wZXJhdG9yc2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDMwLjAsIGV2YWwoIjEwICsgMiAqIDMgKiogMiAtIDQgLyAyICsgKDUgLSAxKSIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGNoYWluZWQgc3VidHJhY3Rpb25gKCkgewogICAgICAgIGFzc2VydEVxdWFscygtNC4wLCBldmFsKCI1IC0gMyAtIDYiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGB1bmFyeSBtaW51cyB3aXRoIG5lZ2F0aXZlIHJlc3VsdGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKC0xMC4wLCBldmFsKCItKDUgKyA1KSIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHN0cmluZyBpbmRleCBhY2Nlc3MgYXMgdmFyaWFibGVgKCkgewogICAgICAgIC8vIFN0cmluZyBsaXRlcmFscyBiZWNvbWUgVmFyaWFibGVOb2RlCiAgICAgICAgdmFsIG5vZGUgPSBFeHByZXNzaW9uUGFyc2VyKCInaGVsbG8nIikucGFyc2UoKQogICAgICAgIGFzc2VydFRydWUobm9kZSBpcyBWYXJpYWJsZU5vZGUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCInaGVsbG8nIiwgKG5vZGUgYXMgVmFyaWFibGVOb2RlKS5uYW1lKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbmVzdGVkIGZ1bmN0aW9uIGNhbGxzYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoNS4wLCBldmFsKCJtYXgoMSwgbWluKDEwLCA1KSkiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBmdW5jdGlvbiBjYWxsIHdpdGggcGFyZW50aGVzZXMgaW4gYXJnc2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDEwLjAsIGV2YWwoIm1heCgoMSArIDIpICogMiwgMTApIiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgdGVybmFyeSB3aXRoIGNvbXBhcmlzb24gaW4gY29uZGl0aW9uYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBldmFsKCIoMiArIDMgPT0gNSkgPyAxIDogMCIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYHRlcm5hcnkgZmFsc2UgY2FzZWAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDAuMCwgZXZhbCgiKDIgKyAzID09IDYpID8gMSA6IDAiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBjb21wYXJpc29uIGVxdWFsaXR5IHdpdGggZGlmZmVyZW50IHR5cGVzYCgpIHsKICAgICAgICAvLyA1LjAgPT0gNS4wIHNob3VsZCBiZSAxLjAKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBldmFsKCIoMi41ICsgMi41KSA9PSA1LjAiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBuZWdhdGl2ZSBleHBvbmVudGlhdGlvbmAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDAuMDYyNSwgZXZhbCgiNCAqKiAtMiIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGZyYWN0aW9uYWwgZXhwb25lbnRgKCkgewogICAgICAgIGFzc2VydEVxdWFscygyLjAsIGV2YWwoIjQgKiogMC41IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgbW9kdWxvIHByZXNlcnZlcyBzaWduIG9mIGRpdmlkZW5kYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoLTEuMCwgZXZhbCgiLTEwICUgMyIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG1vZHVsbyB3aXRoIGRlY2ltYWxgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxLjUsIGV2YWwoIjUuNSAlIDIiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QoZXhwZWN0ZWQgPSBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb246OmNsYXNzKQogICAgZnVuIGBlbXB0eSBleHByZXNzaW9uIHRocm93c2AoKSB7CiAgICAgICAgZXZhbCgiIikKICAgIH0KCiAgICBAVGVzdChleHBlY3RlZCA9IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbjo6Y2xhc3MpCiAgICBmdW4gYGp1c3Qgd2hpdGVzcGFjZSB0aHJvd3NgKCkgewogICAgICAgIGV2YWwoIiAgICIpCiAgICB9CgogICAgQFRlc3QoZXhwZWN0ZWQgPSBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb246OmNsYXNzKQogICAgZnVuIGBpbnZhbGlkIGNoYXJhY3RlciB0aHJvd3NgKCkgewogICAgICAgIGV2YWwoIjIgIyAzIikKICAgIH0KCiAgICBAVGVzdChleHBlY3RlZCA9IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbjo6Y2xhc3MpCiAgICBmdW4gYG1pc3Npbmcgb3BlcmFuZCB0aHJvd3NgKCkgewogICAgICAgIGV2YWwoIjIgKyIpCiAgICB9CgogICAgQFRlc3QoZXhwZWN0ZWQgPSBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb246OmNsYXNzKQogICAgZnVuIGB1bmNsb3NlZCB0ZW1wbGF0ZSBzdHJpbmcgdGhyb3dzYCgpIHsKICAgICAgICB2YWwgcGFyc2VyID0gRXhwcmVzc2lvblBhcnNlcigiYGhlbGxvIikKICAgICAgICBwYXJzZXIucGFyc2UoKQogICAgfQoKICAgIEBUZXN0KGV4cGVjdGVkID0gSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uOjpjbGFzcykKICAgIGZ1biBgaW52YWxpZCBmdW5jdGlvbiBjYWxsIG1pc3NpbmcgcGFyZW5gKCkgewogICAgICAgIGV2YWwoImFicyIpCiAgICB9CgogICAgQFRlc3QgZnVuIGBtb2R1bG8gb2YgemVyb2AoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDAuMCwgZXZhbCgiMCAlIDUiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBhZGRpdGlvbiBvZiBsYXJnZSBudW1iZXJzYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMjAwMDAwMC4wLCBldmFsKCIxMDAwMDAwICsgMTAwMDAwMCIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYG11bHRpcGxpY2F0aW9uIGJ5IHplcm9gKCkgewogICAgICAgIGFzc2VydEVxdWFscygwLjAsIGV2YWwoIjk5OSAqIDAiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBub3QgZXF1YWxzIGNvbXBhcmlzb25gKCkgewogICAgICAgIGFzc2VydEVxdWFscygxLjAsIGV2YWwoIjUgIT0gMyIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGdyZWF0IG9yIGVxdWFsIHRydWUgd2hlbiBlcXVhbGAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDEuMCwgZXZhbCgiNSA+PSA1IiksIDAuMDAxKQogICAgfQoKICAgIEBUZXN0IGZ1biBgZ3JlYXQgb3IgZXF1YWwgdHJ1ZSB3aGVuIGdyZWF0ZXJgKCkgewogICAgICAgIGFzc2VydEVxdWFscygxLjAsIGV2YWwoIjYgPj0gNSIpLCAwLjAwMSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYGxlc3Mgb3IgZXF1YWwgdHJ1ZSB3aGVuIGVxdWFsYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBldmFsKCI1IDw9IDUiKSwgMC4wMDEpCiAgICB9CgogICAgQFRlc3QgZnVuIGBsZXNzIG9yIGVxdWFsIHRydWUgd2hlbiBsZXNzYCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMS4wLCBldmFsKCI0IDw9IDUiKSwgMC4wMDEpCiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.calculator
+
+import org.junit.After
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ExpressionParserEdgeCaseTest {
+
+    @After
+    fun tearDown() {
+        ExpressionContext.clearVariables()
+    }
+
+    private fun eval(expr: String): Double = ExpressionParser(expr).parse().evaluate()
+
+    @Test fun `division by zero returns infinity`() {
+        assertTrue(eval("1/0").isInfinite())
+    }
+
+    @Test fun `zero divided by zero returns nan`() {
+        assertTrue(eval("0/0").isNaN())
+    }
+
+    @Test fun `negative number squared`() {
+        assertEquals(9.0, eval("(-3) ** 2"), 0.001)
+    }
+
+    @Test fun `negative number times negative`() {
+        assertEquals(4.0, eval("-2 * -2"), 0.001)
+    }
+
+    @Test fun `chained exponentiation`() {
+        assertEquals(512.0, eval("2 ** (3 + 6)"), 0.001)
+    }
+
+    @Test fun `nested ternary`() {
+        assertEquals(3.0, eval("1 ? (2 ? 3 : 4) : 5"), 0.001)
+    }
+
+    @Test fun `ternary with arithmetic in branches`() {
+        assertEquals(15.0, eval("1 ? (5 + 10) : 0"), 0.001)
+    }
+
+    @Test fun `comparison chained with and`() {
+        assertEquals(1.0, eval("1 < 2 && 2 < 3"), 0.001)
+    }
+
+    @Test fun `comparison chained with or`() {
+        assertEquals(1.0, eval("1 > 2 || 2 < 3"), 0.001)
+    }
+
+    @Test fun `mixed logical operators`() {
+        assertEquals(1.0, eval("(1 && 1) || (0 && 1)"), 0.001)
+    }
+
+    @Test fun `unary not with comparison`() {
+        assertEquals(1.0, eval("!(5 > 10)"), 0.001)
+    }
+
+    @Test fun `unary not with false comparison`() {
+        assertEquals(0.0, eval("!(5 > 3)"), 0.001)
+    }
+
+    @Test fun `variable assignment in expression`() {
+        eval("a=5")
+        eval("b=10")
+        assertEquals(15.0, eval("a + b"), 0.001)
+    }
+
+    @Test fun `computed variable assignment`() {
+        assertEquals(15.0, eval("x=5 + 10"), 0.001)
+        assertEquals(15.0, eval("x"), 0.001)
+    }
+
+    @Test fun `compound assignment chain`() {
+        eval("x=10")
+        eval("x+=5")
+        eval("x*=2")
+        assertEquals(30.0, eval("x"), 0.001)
+    }
+
+    @Test fun `pow with zero exponent`() {
+        assertEquals(1.0, eval("2 ** 0"), 0.001)
+    }
+
+    @Test fun `pow with exponent of one`() {
+        assertEquals(5.0, eval("5 ** 1"), 0.001)
+    }
+
+    @Test fun `sqrt of perfect square`() {
+        assertEquals(5.0, eval("sqrt(25)"), 0.001)
+    }
+
+    @Test fun `abs of positive number`() {
+        assertEquals(10.0, eval("abs(10)"), 0.001)
+    }
+
+    @Test fun `round half up`() {
+        assertEquals(4.0, eval("round(3.5)"), 0.001)
+    }
+
+    @Test fun `floor of decimal`() {
+        assertEquals(3.0, eval("floor(3.9)"), 0.001)
+    }
+
+    @Test fun `ceil of decimal`() {
+        assertEquals(4.0, eval("ceil(3.1)"), 0.001)
+    }
+
+    @Test fun `max with three arguments`() {
+        assertEquals(100.0, eval("max(10, 50, 100)"), 0.001)
+    }
+
+    @Test fun `min with three arguments`() {
+        assertEquals(10.0, eval("min(10, 50, 100)"), 0.001)
+    }
+
+    @Test fun `percent sign as modulo`() {
+        assertEquals(2.0, eval("14 % 3"), 0.001)
+    }
+
+    @Test fun `percent with negative numbers`() {
+        assertEquals(-1.0, eval("-10 % 3"), 0.001)
+    }
+
+    @Test fun `addition of multiple numbers`() {
+        assertEquals(10.0, eval("1 + 2 + 3 + 4"), 0.001)
+    }
+
+    @Test fun `multiplication chain`() {
+        assertEquals(24.0, eval("2 * 3 * 4"), 0.001)
+    }
+
+    @Test fun `complex expression`() {
+        assertEquals(3.5, eval("(2 + 5) / 2"), 0.001)
+    }
+
+    @Test fun `expression with all operators`() {
+        assertEquals(30.0, eval("10 + 2 * 3 ** 2 - 4 / 2 + (5 - 1)"), 0.001)
+    }
+
+    @Test fun `chained subtraction`() {
+        assertEquals(-4.0, eval("5 - 3 - 6"), 0.001)
+    }
+
+    @Test fun `unary minus with negative result`() {
+        assertEquals(-10.0, eval("-(5 + 5)"), 0.001)
+    }
+
+    @Test fun `string index access as variable`() {
+        // String literals become VariableNode
+        val node = ExpressionParser("'hello'").parse()
+        assertTrue(node is VariableNode)
+        assertEquals("'hello'", (node as VariableNode).name)
+    }
+
+    @Test fun `nested function calls`() {
+        assertEquals(5.0, eval("max(1, min(10, 5))"), 0.001)
+    }
+
+    @Test fun `function call with parentheses in args`() {
+        assertEquals(10.0, eval("max((1 + 2) * 2, 10)"), 0.001)
+    }
+
+    @Test fun `ternary with comparison in condition`() {
+        assertEquals(1.0, eval("(2 + 3 == 5) ? 1 : 0"), 0.001)
+    }
+
+    @Test fun `ternary false case`() {
+        assertEquals(0.0, eval("(2 + 3 == 6) ? 1 : 0"), 0.001)
+    }
+
+    @Test fun `comparison equality with different types`() {
+        // 5.0 == 5.0 should be 1.0
+        assertEquals(1.0, eval("(2.5 + 2.5) == 5.0"), 0.001)
+    }
+
+    @Test fun `negative exponentiation`() {
+        assertEquals(0.0625, eval("4 ** -2"), 0.001)
+    }
+
+    @Test fun `fractional exponent`() {
+        assertEquals(2.0, eval("4 ** 0.5"), 0.001)
+    }
+
+    @Test fun `modulo preserves sign of dividend`() {
+        assertEquals(-1.0, eval("-10 % 3"), 0.001)
+    }
+
+    @Test fun `modulo with decimal`() {
+        assertEquals(1.5, eval("5.5 % 2"), 0.001)
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `empty expression throws`() {
+        eval("")
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `just whitespace throws`() {
+        eval("   ")
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `invalid character throws`() {
+        eval("2 # 3")
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `missing operand throws`() {
+        eval("2 +")
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `unclosed template string throws`() {
+        val parser = ExpressionParser("`hello")
+        parser.parse()
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun `invalid function call missing paren`() {
+        eval("abs")
+    }
+
+    @Test fun `modulo of zero`() {
+        assertEquals(0.0, eval("0 % 5"), 0.001)
+    }
+
+    @Test fun `addition of large numbers`() {
+        assertEquals(2000000.0, eval("1000000 + 1000000"), 0.001)
+    }
+
+    @Test fun `multiplication by zero`() {
+        assertEquals(0.0, eval("999 * 0"), 0.001)
+    }
+
+    @Test fun `not equals comparison`() {
+        assertEquals(1.0, eval("5 != 3"), 0.001)
+    }
+
+    @Test fun `great or equal true when equal`() {
+        assertEquals(1.0, eval("5 >= 5"), 0.001)
+    }
+
+    @Test fun `great or equal true when greater`() {
+        assertEquals(1.0, eval("6 >= 5"), 0.001)
+    }
+
+    @Test fun `less or equal true when equal`() {
+        assertEquals(1.0, eval("5 <= 5"), 0.001)
+    }
+
+    @Test fun `less or equal true when less`() {
+        assertEquals(1.0, eval("4 <= 5"), 0.001)
+    }
+}

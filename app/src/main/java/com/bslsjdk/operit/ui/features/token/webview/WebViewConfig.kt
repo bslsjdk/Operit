@@ -1,1 +1,223 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW4ud2VidmlldwoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWQudmlldy5Nb3Rpb25FdmVudAppbXBvcnQgYW5kcm9pZC52aWV3LlZpZXdHcm91cAppbXBvcnQgYW5kcm9pZC53ZWJraXQuQ29uc29sZU1lc3NhZ2UKaW1wb3J0IGFuZHJvaWQud2Via2l0LkNvb2tpZU1hbmFnZXIKaW1wb3J0IGFuZHJvaWQud2Via2l0LldlYkNocm9tZUNsaWVudAppbXBvcnQgYW5kcm9pZC53ZWJraXQuV2ViUmVzb3VyY2VSZXF1ZXN0CmltcG9ydCBhbmRyb2lkLndlYmtpdC5XZWJWaWV3CmltcG9ydCBhbmRyb2lkLndlYmtpdC5XZWJWaWV3Q2xpZW50CgovKiogV2ViVmlld+mFjee9ruebuOWFs+W3peWFt+exuyAqLwpvYmplY3QgV2ViVmlld0NvbmZpZyB7CiAgICAvKiog5Yib5bu65LiA5Liq6aKE6YWN572u55qEV2ViVmlld+WunuS+iyAqLwogICAgQFN1cHByZXNzTGludCgiU2V0SmF2YVNjcmlwdEVuYWJsZWQiLCAiQ2xpY2thYmxlVmlld0FjY2Vzc2liaWxpdHkiKQogICAgZnVuIGNyZWF0ZVdlYlZpZXcoY29udGV4dDogQ29udGV4dCk6IFdlYlZpZXcgewogICAgICAgIC8vIEluaXRpYWxpemUgdGhlIFdlYlZpZXcKICAgICAgICByZXR1cm4gV2ViVmlldyhjb250ZXh0KS5hcHBseSB7CiAgICAgICAgICAgIC8vIENvbmZpZ3VyZSBXZWJWaWV3IHNldHRpbmdzCiAgICAgICAgICAgIHNldHRpbmdzLmFwcGx5IHsKICAgICAgICAgICAgICAgIGphdmFTY3JpcHRFbmFibGVkID0gdHJ1ZQogICAgICAgICAgICAgICAgZG9tU3RvcmFnZUVuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgICAgICBkYXRhYmFzZUVuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgICAgICBzZXRTdXBwb3J0TXVsdGlwbGVXaW5kb3dzKHRydWUpCiAgICAgICAgICAgICAgICBqYXZhU2NyaXB0Q2FuT3BlbldpbmRvd3NBdXRvbWF0aWNhbGx5ID0gdHJ1ZQogICAgICAgICAgICAgICAgYWxsb3dDb250ZW50QWNjZXNzID0gdHJ1ZQogICAgICAgICAgICAgICAgYWxsb3dGaWxlQWNjZXNzID0gdHJ1ZQogICAgICAgICAgICAgICAgbG9hZFdpdGhPdmVydmlld01vZGUgPSB0cnVlCiAgICAgICAgICAgICAgICB1c2VXaWRlVmlld1BvcnQgPSB0cnVlCgogICAgICAgICAgICAgICAgLy8g5pi+5byP5YWB6K645re35ZCI5YaF5a6577yI5a+55LqO5pSv5LuY5Zy65pmv5b6I6YeN6KaB77yJCiAgICAgICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTE9MTElQT1ApIHsKICAgICAgICAgICAgICAgICAgICBtaXhlZENvbnRlbnRNb2RlID0gYW5kcm9pZC53ZWJraXQuV2ViU2V0dGluZ3MuTUlYRURfQ09OVEVOVF9BTFdBWVNfQUxMT1cKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyDlhYHorrjpgJrnlKjnrKzkuInmlrnlupTnlKjorr/pl64KICAgICAgICAgICAgICAgIHNldFN1cHBvcnRNdWx0aXBsZVdpbmRvd3ModHJ1ZSkKICAgICAgICAgICAgICAgIGphdmFTY3JpcHRDYW5PcGVuV2luZG93c0F1dG9tYXRpY2FsbHkgPSB0cnVlCgogICAgICAgICAgICAgICAgLy8g6K6+572u5LiA5Liq5bi46KeB55qE56e75Yqo5rWP6KeI5ZmoVXNlci1BZ2VudO+8jOS7pemBv+WFjeiiq+afkOS6m+acjeWKoe+8iOWmgkdvb2dsZeeZu+W9le+8iemYu+atogogICAgICAgICAgICAgICAgdXNlckFnZW50U3RyaW5nID0gIk1vemlsbGEvNS4wIChMaW51eDsgQW5kcm9pZCAxMDsgSykgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgQ2hyb21lLzEyNC4wLjAuMCBNb2JpbGUgU2FmYXJpLzUzNy4zNiIKCiAgICAgICAgICAgICAgICAvLyDlkK/nlKjnvKnmlL7mjqfliLYKICAgICAgICAgICAgICAgIHNldFN1cHBvcnRab29tKHRydWUpCiAgICAgICAgICAgICAgICBidWlsdEluWm9vbUNvbnRyb2xzID0gdHJ1ZQogICAgICAgICAgICAgICAgZGlzcGxheVpvb21Db250cm9scyA9IGZhbHNlCgogICAgICAgICAgICAgICAgLy8g5a+55LqOQW5kcm9pZCA4LjDlj4rku6XkuIrniYjmnKznmoTlronlhahXZWJ2aWV35LyY5YyWCiAgICAgICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTykgewogICAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHNhZmVCcm93c2luZ0VuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogQWJzdHJhY3RNZXRob2RFcnJvcikgewogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIudygiV2ViVmlld0NvbmZpZyIsICJTYWZlIGJyb3dzaW5nIG5vdCBzdXBwb3J0ZWQgb24gdGhpcyBXZWJWaWV3IGltcGxlbWVudGF0aW9uOiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IE5vU3VjaE1ldGhvZEVycm9yKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KCJXZWJWaWV3Q29uZmlnIiwgIlNhZmUgYnJvd3NpbmcgbWV0aG9kIG1pc3Npbmcgb24gdGhpcyBXZWJWaWV3IGltcGxlbWVudGF0aW9uOiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IFRocm93YWJsZSkgewogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIudygiV2ViVmlld0NvbmZpZyIsICJGYWlsZWQgdG8gZW5hYmxlIHNhZmUgYnJvd3Npbmc6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyDphY3nva5Db29raWUKICAgICAgICAgICAgdmFsIGNvb2tpZU1hbmFnZXIgPSBDb29raWVNYW5hZ2VyLmdldEluc3RhbmNlKCkKICAgICAgICAgICAgY29va2llTWFuYWdlci5zZXRBY2NlcHRDb29raWUodHJ1ZSkKICAgICAgICAgICAgY29va2llTWFuYWdlci5zZXRBY2NlcHRUaGlyZFBhcnR5Q29va2llcyh0aGlzLCB0cnVlKQoKICAgICAgICAgICAgLy8g56Gu5L+dV2ViVmlld+WPr+S7peWkhOeQhui3s+i9rOWIsOWklumDqOW6lOeUqAogICAgICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTE9MTElQT1ApIHsKICAgICAgICAgICAgICAgIENvb2tpZU1hbmFnZXIuZ2V0SW5zdGFuY2UoKS5zZXRBY2NlcHRUaGlyZFBhcnR5Q29va2llcyh0aGlzLCB0cnVlKQogICAgICAgICAgICB9CgogICAgICAgICAgICAvLyBFbmFibGUgV2ViVmlldyBkZWJ1Z2dpbmcKICAgICAgICAgICAgV2ViVmlldy5zZXRXZWJDb250ZW50c0RlYnVnZ2luZ0VuYWJsZWQodHJ1ZSkKCiAgICAgICAgICAgIC8vIOS4uuS6huehruS/neato+ehruWkhOeQhua7muWKqO+8jOiuvue9ruW1jOWll+a7muWKqOWQr+eUqAogICAgICAgICAgICBpc05lc3RlZFNjcm9sbGluZ0VuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgIGlzRm9jdXNhYmxlID0gdHJ1ZQogICAgICAgICAgICBpc0ZvY3VzYWJsZUluVG91Y2hNb2RlID0gdHJ1ZQogICAgICAgICAgICBpc0NsaWNrYWJsZSA9IHRydWUKICAgICAgICAgICAgaXNMb25nQ2xpY2thYmxlID0gdHJ1ZQoKICAgICAgICAgICAgLy8g6K6+572uV2ViVmlld+W4g+WxgOWPguaVsO+8jOehruS/neWug+WPr+S7peato+W4uOa7muWKqAogICAgICAgICAgICBsYXlvdXRQYXJhbXMgPQogICAgICAgICAgICAgICAgICAgIFZpZXdHcm91cC5MYXlvdXRQYXJhbXMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBWaWV3R3JvdXAuTGF5b3V0UGFyYW1zLk1BVENIX1BBUkVOVCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFZpZXdHcm91cC5MYXlvdXRQYXJhbXMuTUFUQ0hfUEFSRU5UCiAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgLy8g6Kej5YazV2ViVmlld+WSjOeItuW4g+WxgOS5i+mXtOeahOinpuaRuOWGsueqgQogICAgICAgICAgICBzZXRPblRvdWNoTGlzdGVuZXIgewogICAgICAgICAgICAgICAgdiwgZXZlbnQgLT4KICAgICAgICAgICAgICAgIHdoZW4gKGV2ZW50LmFjdGlvbk1hc2tlZCkgewogICAgICAgICAgICAgICAgICAgIE1vdGlvbkV2ZW50LkFDVElPTl9ET1dOIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdi5wYXJlbnQ/LnJlcXVlc3REaXNhbGxvd0ludGVyY2VwdFRvdWNoRXZlbnQodHJ1ZSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgTW90aW9uRXZlbnQuQUNUSU9OX1VQLCBNb3Rpb25FdmVudC5BQ1RJT05fQ0FOQ0VMIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgdi5wYXJlbnQ/LnJlcXVlc3REaXNhbGxvd0ludGVyY2VwdFRvdWNoRXZlbnQoZmFsc2UpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgZmFsc2UKICAgICAgICAgICAgfQoKICAgICAgICAgICAgLy8gQWRkIGNvbnNvbGUgbG9nZ2VyCiAgICAgICAgICAgIHNldFdlYkNocm9tZUNsaWVudCgKICAgICAgICAgICAgICAgICAgICBvYmplY3QgOiBXZWJDaHJvbWVDbGllbnQoKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZVdpbmRvdygKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZpZXc6IFdlYlZpZXc/LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaXNEaWFsb2c6IEJvb2xlYW4sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpc1VzZXJHZXN0dXJlOiBCb29sZWFuLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0TXNnOiBhbmRyb2lkLm9zLk1lc3NhZ2U/CiAgICAgICAgICAgICAgICAgICAgICAgICk6IEJvb2xlYW4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIG5ld1dlYlZpZXcgPSBXZWJWaWV3KHZpZXc/LmNvbnRleHQgPzogcmV0dXJuIGZhbHNlKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmV3V2ViVmlldy53ZWJWaWV3Q2xpZW50ID0gb2JqZWN0IDogV2ViVmlld0NsaWVudCgpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvdmVycmlkZSBmdW4gc2hvdWxkT3ZlcnJpZGVVcmxMb2FkaW5nKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3OiBXZWJWaWV3PywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVxdWVzdDogV2ViUmVzb3VyY2VSZXF1ZXN0PwogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICk6IEJvb2xlYW4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXF1ZXN0Py51cmw/LmxldCB7IHVyaSAtPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHVybCA9IHVyaS50b1N0cmluZygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWkhOeQhueJueauiuWNj+iuru+8jOS7jeeEtumcgOimgeWklumDqOi3s+i9rAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHVybC5zdGFydHNXaXRoKCJhbGlwYXlzOiIpIHx8IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVybC5zdGFydHNXaXRoKCJhbGlwYXk6IikgfHwgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJsLnN0YXJ0c1dpdGgoIndlaXhpbjoiKSB8fAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVybC5zdGFydHNXaXRoKCJ3ZWl4aW5zOiIpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGludGVudCA9IGFuZHJvaWQuY29udGVudC5JbnRlbnQoYW5kcm9pZC5jb250ZW50LkludGVudC5BQ1RJT05fVklFVywgdXJpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnRlbnQuYWRkRmxhZ3MoYW5kcm9pZC5jb250ZW50LkludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2aWV3Py5jb250ZXh0Py5zdGFydEFjdGl2aXR5KGludGVudCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoIldlYlZpZXdDb25maWciLCAi5peg5rOV5Zyo5paw56qX5Y+j5omT5byA5aSW6YOo5bqU55SoOiAke2UubWVzc2FnZX0iKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWvueS6juaZrumAmumTvuaOpe+8jOW8uuWItuWcqOW9k+WJjVdlYlZpZXfvvIjlj5HotbfogIXvvInkuK3liqDovb3vvIzogIzkuI3mmK/miZPlvIDlpJbpg6jmtY/op4jlmagKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOi/meagt+WunueOsOS6hiLlnKjlhoXnva53ZWJ2aWV35omT5byAIueahOmcgOaxggogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlldz8ucG9zdCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlldy5sb2FkVXJsKHVybCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIHRyYW5zcG9ydCA9IHJlc3VsdE1zZz8ub2JqIGFzPyBXZWJWaWV3LldlYlZpZXdUcmFuc3BvcnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zcG9ydD8ud2ViVmlldyA9IG5ld1dlYlZpZXcKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdE1zZz8uc2VuZFRvVGFyZ2V0KCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkNvbnNvbGVNZXNzYWdlKGNvbnNvbGVNZXNzYWdlOiBDb25zb2xlTWVzc2FnZSk6IEJvb2xlYW4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICJXZWJWaWV3Q29uc29sZSIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICIke2NvbnNvbGVNZXNzYWdlLm1lc3NhZ2UoKX0gLS0gRnJvbSBsaW5lICR7Y29uc29sZU1lc3NhZ2UubGluZU51bWJlcigpfSBvZiAke2NvbnNvbGVNZXNzYWdlLnNvdXJjZUlkKCl9IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5pSv5oyBSFRNTDXop4bpopHlhajlsY/mkq3mlL4KICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uU2hvd0N1c3RvbVZpZXcoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlldzogYW5kcm9pZC52aWV3LlZpZXcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2FsbGJhY2s6IEN1c3RvbVZpZXdDYWxsYmFjawogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN1cGVyLm9uU2hvd0N1c3RvbVZpZXcodmlldywgY2FsbGJhY2spCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkhpZGVDdXN0b21WaWV3KCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc3VwZXIub25IaWRlQ3VzdG9tVmlldygpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOaUr+aMgeWcsOeQhuS9jee9ruivt+axggogICAgICAgICAgICAgICAgICAgICAgICBvdmVycmlkZSBmdW4gb25HZW9sb2NhdGlvblBlcm1pc3Npb25zU2hvd1Byb21wdCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvcmlnaW46IFN0cmluZywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjYWxsYmFjazogYW5kcm9pZC53ZWJraXQuR2VvbG9jYXRpb25QZXJtaXNzaW9ucy5DYWxsYmFjawogICAgICAgICAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNhbGxiYWNrLmludm9rZShvcmlnaW4sIHRydWUsIGZhbHNlKQogICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAvLyDlpITnkIZKYXZhU2NyaXB06K2m5ZGK5ZKM6ZSZ6K+vCiAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkpzQWxlcnQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlldzogV2ViVmlldz8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJsOiBTdHJpbmc/LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2U6IFN0cmluZz8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVzdWx0OiBhbmRyb2lkLndlYmtpdC5Kc1Jlc3VsdD8KICAgICAgICAgICAgICAgICAgICAgICAgKTogQm9vbGVhbiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZCgiV2ViVmlld0pTIiwgIkFsZXJ0OiAkbWVzc2FnZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQ/LmNvbmZpcm0oKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uSnNDb25maXJtKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZpZXc6IFdlYlZpZXc/LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHVybDogU3RyaW5nPywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlOiBTdHJpbmc/LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdDogYW5kcm9pZC53ZWJraXQuSnNSZXN1bHQ/CiAgICAgICAgICAgICAgICAgICAgICAgICk6IEJvb2xlYW4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIldlYlZpZXdKUyIsICJDb25maXJtOiAkbWVzc2FnZSIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQ/LmNvbmZpcm0oKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRydWUKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uSnNQcm9tcHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmlldzogV2ViVmlldz8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdXJsOiBTdHJpbmc/LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1lc3NhZ2U6IFN0cmluZz8sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVmYXVsdFZhbHVlOiBTdHJpbmc/LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdDogYW5kcm9pZC53ZWJraXQuSnNQcm9tcHRSZXN1bHQ/CiAgICAgICAgICAgICAgICAgICAgICAgICk6IEJvb2xlYW4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoIldlYlZpZXdKUyIsICJQcm9tcHQ6ICRtZXNzYWdlLCBEZWZhdWx0OiAkZGVmYXVsdFZhbHVlIikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc3VsdD8uY29uZmlybShkZWZhdWx0VmFsdWUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.token.webview
+
+import android.annotation.SuppressLint
+import android.content.Context
+import android.os.Build
+import com.bslsjdk.operit.util.AppLogger
+import android.view.MotionEvent
+import android.view.ViewGroup
+import android.webkit.ConsoleMessage
+import android.webkit.CookieManager
+import android.webkit.WebChromeClient
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
+import android.webkit.WebViewClient
+
+/** WebView配置相关工具类 */
+object WebViewConfig {
+    /** 创建一个预配置的WebView实例 */
+    @SuppressLint("SetJavaScriptEnabled", "ClickableViewAccessibility")
+    fun createWebView(context: Context): WebView {
+        // Initialize the WebView
+        return WebView(context).apply {
+            // Configure WebView settings
+            settings.apply {
+                javaScriptEnabled = true
+                domStorageEnabled = true
+                databaseEnabled = true
+                setSupportMultipleWindows(true)
+                javaScriptCanOpenWindowsAutomatically = true
+                allowContentAccess = true
+                allowFileAccess = true
+                loadWithOverviewMode = true
+                useWideViewPort = true
+
+                // 显式允许混合内容（对于支付场景很重要）
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    mixedContentMode = android.webkit.WebSettings.MIXED_CONTENT_ALWAYS_ALLOW
+                }
+
+                // 允许通用第三方应用访问
+                setSupportMultipleWindows(true)
+                javaScriptCanOpenWindowsAutomatically = true
+
+                // 设置一个常见的移动浏览器User-Agent，以避免被某些服务（如Google登录）阻止
+                userAgentString = "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Mobile Safari/537.36"
+
+                // 启用缩放控制
+                setSupportZoom(true)
+                builtInZoomControls = true
+                displayZoomControls = false
+
+                // 对于Android 8.0及以上版本的安全Webview优化
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    try {
+                        safeBrowsingEnabled = true
+                    } catch (e: AbstractMethodError) {
+                        AppLogger.w("WebViewConfig", "Safe browsing not supported on this WebView implementation: ${e.message}")
+                    } catch (e: NoSuchMethodError) {
+                        AppLogger.w("WebViewConfig", "Safe browsing method missing on this WebView implementation: ${e.message}")
+                    } catch (e: Throwable) {
+                        AppLogger.w("WebViewConfig", "Failed to enable safe browsing: ${e.message}")
+                    }
+                }
+            }
+
+            // 配置Cookie
+            val cookieManager = CookieManager.getInstance()
+            cookieManager.setAcceptCookie(true)
+            cookieManager.setAcceptThirdPartyCookies(this, true)
+
+            // 确保WebView可以处理跳转到外部应用
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                CookieManager.getInstance().setAcceptThirdPartyCookies(this, true)
+            }
+
+            // Enable WebView debugging
+            WebView.setWebContentsDebuggingEnabled(true)
+
+            // 为了确保正确处理滚动，设置嵌套滚动启用
+            isNestedScrollingEnabled = true
+            isFocusable = true
+            isFocusableInTouchMode = true
+            isClickable = true
+            isLongClickable = true
+
+            // 设置WebView布局参数，确保它可以正常滚动
+            layoutParams =
+                    ViewGroup.LayoutParams(
+                            ViewGroup.LayoutParams.MATCH_PARENT,
+                            ViewGroup.LayoutParams.MATCH_PARENT
+                    )
+
+            // 解决WebView和父布局之间的触摸冲突
+            setOnTouchListener {
+                v, event ->
+                when (event.actionMasked) {
+                    MotionEvent.ACTION_DOWN -> {
+                        v.parent?.requestDisallowInterceptTouchEvent(true)
+                    }
+                    MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> {
+                        v.parent?.requestDisallowInterceptTouchEvent(false)
+                    }
+                }
+                false
+            }
+
+            // Add console logger
+            setWebChromeClient(
+                    object : WebChromeClient() {
+                        override fun onCreateWindow(
+                            view: WebView?,
+                            isDialog: Boolean,
+                            isUserGesture: Boolean,
+                            resultMsg: android.os.Message?
+                        ): Boolean {
+                            val newWebView = WebView(view?.context ?: return false)
+                            newWebView.webViewClient = object : WebViewClient() {
+                                override fun shouldOverrideUrlLoading(
+                                    w: WebView?,
+                                    request: WebResourceRequest?
+                                ): Boolean {
+                                    request?.url?.let { uri ->
+                                        val url = uri.toString()
+                                        
+                                        // 处理特殊协议，仍然需要外部跳转
+                                        if (url.startsWith("alipays:") || 
+                                            url.startsWith("alipay:") || 
+                                            url.startsWith("weixin:") ||
+                                            url.startsWith("weixins:")) {
+                                            try {
+                                                val intent = android.content.Intent(android.content.Intent.ACTION_VIEW, uri)
+                                                intent.addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK)
+                                                view?.context?.startActivity(intent)
+                                                return true
+                                            } catch (e: Exception) {
+                                                AppLogger.e("WebViewConfig", "无法在新窗口打开外部应用: ${e.message}")
+                                            }
+                                            return true
+                                        }
+
+                                        // 对于普通链接，强制在当前WebView（发起者）中加载，而不是打开外部浏览器
+                                        // 这样实现了"在内置webview打开"的需求
+                                        view?.post {
+                                            view.loadUrl(url)
+                                        }
+                                        return true
+                                    }
+                                    return false
+                                }
+                            }
+                            val transport = resultMsg?.obj as? WebView.WebViewTransport
+                            transport?.webView = newWebView
+                            resultMsg?.sendToTarget()
+                            return true
+                        }
+
+                        override fun onConsoleMessage(consoleMessage: ConsoleMessage): Boolean {
+                            AppLogger.d(
+                                    "WebViewConsole",
+                                    "${consoleMessage.message()} -- From line ${consoleMessage.lineNumber()} of ${consoleMessage.sourceId()}"
+                            )
+                            return true
+                        }
+
+                        // 支持HTML5视频全屏播放
+                        override fun onShowCustomView(
+                                view: android.view.View,
+                                callback: CustomViewCallback
+                        ) {
+                            super.onShowCustomView(view, callback)
+                        }
+
+                        override fun onHideCustomView() {
+                            super.onHideCustomView()
+                        }
+
+                        // 支持地理位置请求
+                        override fun onGeolocationPermissionsShowPrompt(
+                                origin: String,
+                                callback: android.webkit.GeolocationPermissions.Callback
+                        ) {
+                            callback.invoke(origin, true, false)
+                        }
+
+                        // 处理JavaScript警告和错误
+                        override fun onJsAlert(
+                                view: WebView?,
+                                url: String?,
+                                message: String?,
+                                result: android.webkit.JsResult?
+                        ): Boolean {
+                            AppLogger.d("WebViewJS", "Alert: $message")
+                            result?.confirm()
+                            return true
+                        }
+
+                        override fun onJsConfirm(
+                                view: WebView?,
+                                url: String?,
+                                message: String?,
+                                result: android.webkit.JsResult?
+                        ): Boolean {
+                            AppLogger.d("WebViewJS", "Confirm: $message")
+                            result?.confirm()
+                            return true
+                        }
+
+                        override fun onJsPrompt(
+                                view: WebView?,
+                                url: String?,
+                                message: String?,
+                                defaultValue: String?,
+                                result: android.webkit.JsPromptResult?
+                        ): Boolean {
+                            AppLogger.d("WebViewJS", "Prompt: $message, Default: $defaultValue")
+                            result?.confirm(defaultValue)
+                            return true
+                        }
+                    }
+            )
+        }
+    }
+}

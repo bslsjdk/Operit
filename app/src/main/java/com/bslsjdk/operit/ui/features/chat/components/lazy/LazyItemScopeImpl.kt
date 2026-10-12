@@ -1,1 +1,162 @@
-LyoKICogQ29weXJpZ2h0IDIwMjEgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuRmluaXRlQW5pbWF0aW9uU3BlYwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMYXlvdXRBbmltYXRlSXRlbUVsZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5TdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLm11dGFibGVJbnRTdGF0ZU9mCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5NZWFzdXJhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5NZWFzdXJlUmVzdWx0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmxheW91dC5NZWFzdXJlU2NvcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubm9kZS5MYXlvdXRNb2RpZmllck5vZGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkubm9kZS5Nb2RpZmllck5vZGVFbGVtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkluc3BlY3RvckluZm8KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5Db25zdHJhaW50cwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkludE9mZnNldAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51dGlsLmZhc3RSb3VuZFRvSW50CgppbnRlcm5hbCBjbGFzcyBMYXp5SXRlbVNjb3BlSW1wbCA6IExhenlJdGVtU2NvcGUgewoKICAgIHByaXZhdGUgdmFyIG1heFdpZHRoU3RhdGUgPSBtdXRhYmxlSW50U3RhdGVPZihJbnQuTUFYX1ZBTFVFKQogICAgcHJpdmF0ZSB2YXIgbWF4SGVpZ2h0U3RhdGUgPSBtdXRhYmxlSW50U3RhdGVPZihJbnQuTUFYX1ZBTFVFKQoKICAgIGZ1biBzZXRNYXhTaXplKHdpZHRoOiBJbnQsIGhlaWdodDogSW50KSB7CiAgICAgICAgbWF4V2lkdGhTdGF0ZS5pbnRWYWx1ZSA9IHdpZHRoCiAgICAgICAgbWF4SGVpZ2h0U3RhdGUuaW50VmFsdWUgPSBoZWlnaHQKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gTW9kaWZpZXIuZmlsbFBhcmVudE1heFNpemUoZnJhY3Rpb246IEZsb2F0KSA9CiAgICAgICAgdGhlbigKICAgICAgICAgICAgUGFyZW50U2l6ZUVsZW1lbnQoCiAgICAgICAgICAgICAgICB3aWR0aFN0YXRlID0gbWF4V2lkdGhTdGF0ZSwKICAgICAgICAgICAgICAgIGhlaWdodFN0YXRlID0gbWF4SGVpZ2h0U3RhdGUsCiAgICAgICAgICAgICAgICBmcmFjdGlvbiA9IGZyYWN0aW9uLAogICAgICAgICAgICAgICAgaW5zcGVjdG9yTmFtZSA9ICJmaWxsUGFyZW50TWF4U2l6ZSIsCiAgICAgICAgICAgICkKICAgICAgICApCgogICAgb3ZlcnJpZGUgZnVuIE1vZGlmaWVyLmZpbGxQYXJlbnRNYXhXaWR0aChmcmFjdGlvbjogRmxvYXQpID0KICAgICAgICB0aGVuKAogICAgICAgICAgICBQYXJlbnRTaXplRWxlbWVudCgKICAgICAgICAgICAgICAgIHdpZHRoU3RhdGUgPSBtYXhXaWR0aFN0YXRlLAogICAgICAgICAgICAgICAgZnJhY3Rpb24gPSBmcmFjdGlvbiwKICAgICAgICAgICAgICAgIGluc3BlY3Rvck5hbWUgPSAiZmlsbFBhcmVudE1heFdpZHRoIiwKICAgICAgICAgICAgKQogICAgICAgICkKCiAgICBvdmVycmlkZSBmdW4gTW9kaWZpZXIuZmlsbFBhcmVudE1heEhlaWdodChmcmFjdGlvbjogRmxvYXQpID0KICAgICAgICB0aGVuKAogICAgICAgICAgICBQYXJlbnRTaXplRWxlbWVudCgKICAgICAgICAgICAgICAgIGhlaWdodFN0YXRlID0gbWF4SGVpZ2h0U3RhdGUsCiAgICAgICAgICAgICAgICBmcmFjdGlvbiA9IGZyYWN0aW9uLAogICAgICAgICAgICAgICAgaW5zcGVjdG9yTmFtZSA9ICJmaWxsUGFyZW50TWF4SGVpZ2h0IiwKICAgICAgICAgICAgKQogICAgICAgICkKCiAgICBvdmVycmlkZSBmdW4gTW9kaWZpZXIuYW5pbWF0ZUl0ZW0oCiAgICAgICAgZmFkZUluU3BlYzogRmluaXRlQW5pbWF0aW9uU3BlYzxGbG9hdD4/LAogICAgICAgIHBsYWNlbWVudFNwZWM6IEZpbml0ZUFuaW1hdGlvblNwZWM8SW50T2Zmc2V0Pj8sCiAgICAgICAgZmFkZU91dFNwZWM6IEZpbml0ZUFuaW1hdGlvblNwZWM8RmxvYXQ+PywKICAgICk6IE1vZGlmaWVyID0KICAgICAgICBpZiAoZmFkZUluU3BlYyA9PSBudWxsICYmIHBsYWNlbWVudFNwZWMgPT0gbnVsbCAmJiBmYWRlT3V0U3BlYyA9PSBudWxsKSB7CiAgICAgICAgICAgIHRoaXMKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0aGlzIHRoZW4gTGF6eUxheW91dEFuaW1hdGVJdGVtRWxlbWVudChmYWRlSW5TcGVjLCBwbGFjZW1lbnRTcGVjLCBmYWRlT3V0U3BlYykKICAgICAgICB9Cn0KCnByaXZhdGUgY2xhc3MgUGFyZW50U2l6ZUVsZW1lbnQoCiAgICB2YWwgZnJhY3Rpb246IEZsb2F0LAogICAgdmFsIHdpZHRoU3RhdGU6IFN0YXRlPEludD4/ID0gbnVsbCwKICAgIHZhbCBoZWlnaHRTdGF0ZTogU3RhdGU8SW50Pj8gPSBudWxsLAogICAgdmFsIGluc3BlY3Rvck5hbWU6IFN0cmluZywKKSA6IE1vZGlmaWVyTm9kZUVsZW1lbnQ8UGFyZW50U2l6ZU5vZGU+KCkgewogICAgb3ZlcnJpZGUgZnVuIGNyZWF0ZSgpOiBQYXJlbnRTaXplTm9kZSB7CiAgICAgICAgcmV0dXJuIFBhcmVudFNpemVOb2RlKAogICAgICAgICAgICBmcmFjdGlvbiA9IGZyYWN0aW9uLAogICAgICAgICAgICB3aWR0aFN0YXRlID0gd2lkdGhTdGF0ZSwKICAgICAgICAgICAgaGVpZ2h0U3RhdGUgPSBoZWlnaHRTdGF0ZSwKICAgICAgICApCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIHVwZGF0ZShub2RlOiBQYXJlbnRTaXplTm9kZSkgewogICAgICAgIG5vZGUuZnJhY3Rpb24gPSBmcmFjdGlvbgogICAgICAgIG5vZGUud2lkdGhTdGF0ZSA9IHdpZHRoU3RhdGUKICAgICAgICBub2RlLmhlaWdodFN0YXRlID0gaGVpZ2h0U3RhdGUKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZXF1YWxzKG90aGVyOiBBbnk/KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKHRoaXMgPT09IG90aGVyKSByZXR1cm4gdHJ1ZQogICAgICAgIGlmIChvdGhlciAhaXMgUGFyZW50U2l6ZUVsZW1lbnQpIHJldHVybiBmYWxzZQogICAgICAgIHJldHVybiBmcmFjdGlvbiA9PSBvdGhlci5mcmFjdGlvbiAmJgogICAgICAgICAgICB3aWR0aFN0YXRlID09IG90aGVyLndpZHRoU3RhdGUgJiYKICAgICAgICAgICAgaGVpZ2h0U3RhdGUgPT0gb3RoZXIuaGVpZ2h0U3RhdGUKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaGFzaENvZGUoKTogSW50IHsKICAgICAgICB2YXIgcmVzdWx0ID0gd2lkdGhTdGF0ZT8uaGFzaENvZGUoKSA/OiAwCiAgICAgICAgcmVzdWx0ID0gMzEgKiByZXN1bHQgKyAoaGVpZ2h0U3RhdGU/Lmhhc2hDb2RlKCkgPzogMCkKICAgICAgICByZXN1bHQgPSAzMSAqIHJlc3VsdCArIGZyYWN0aW9uLmhhc2hDb2RlKCkKICAgICAgICByZXR1cm4gcmVzdWx0CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIEluc3BlY3RvckluZm8uaW5zcGVjdGFibGVQcm9wZXJ0aWVzKCkgewogICAgICAgIG5hbWUgPSBpbnNwZWN0b3JOYW1lCiAgICAgICAgdmFsdWUgPSBmcmFjdGlvbgogICAgfQp9Cgpwcml2YXRlIGNsYXNzIFBhcmVudFNpemVOb2RlKAogICAgdmFyIGZyYWN0aW9uOiBGbG9hdCwKICAgIHZhciB3aWR0aFN0YXRlOiBTdGF0ZTxJbnQ+PyA9IG51bGwsCiAgICB2YXIgaGVpZ2h0U3RhdGU6IFN0YXRlPEludD4/ID0gbnVsbCwKKSA6IExheW91dE1vZGlmaWVyTm9kZSwgTW9kaWZpZXIuTm9kZSgpIHsKCiAgICBvdmVycmlkZSBmdW4gTWVhc3VyZVNjb3BlLm1lYXN1cmUoCiAgICAgICAgbWVhc3VyYWJsZTogTWVhc3VyYWJsZSwKICAgICAgICBjb25zdHJhaW50czogQ29uc3RyYWludHMsCiAgICApOiBNZWFzdXJlUmVzdWx0IHsKICAgICAgICB2YWwgd2lkdGggPQogICAgICAgICAgICB3aWR0aFN0YXRlPy5sZXQgewogICAgICAgICAgICAgICAgaWYgKGl0LnZhbHVlICE9IENvbnN0cmFpbnRzLkluZmluaXR5KSB7CiAgICAgICAgICAgICAgICAgICAgKGl0LnZhbHVlICogZnJhY3Rpb24pLmZhc3RSb3VuZFRvSW50KCkKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgQ29uc3RyYWludHMuSW5maW5pdHkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSA/OiBDb25zdHJhaW50cy5JbmZpbml0eQoKICAgICAgICB2YWwgaGVpZ2h0ID0KICAgICAgICAgICAgaGVpZ2h0U3RhdGU/LmxldCB7CiAgICAgICAgICAgICAgICBpZiAoaXQudmFsdWUgIT0gQ29uc3RyYWludHMuSW5maW5pdHkpIHsKICAgICAgICAgICAgICAgICAgICAoaXQudmFsdWUgKiBmcmFjdGlvbikuZmFzdFJvdW5kVG9JbnQoKQogICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBDb25zdHJhaW50cy5JbmZpbml0eQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9ID86IENvbnN0cmFpbnRzLkluZmluaXR5CiAgICAgICAgdmFsIGNoaWxkQ29uc3RyYWludHMgPQogICAgICAgICAgICBDb25zdHJhaW50cygKICAgICAgICAgICAgICAgIG1pbldpZHRoID0gaWYgKHdpZHRoICE9IENvbnN0cmFpbnRzLkluZmluaXR5KSB3aWR0aCBlbHNlIGNvbnN0cmFpbnRzLm1pbldpZHRoLAogICAgICAgICAgICAgICAgbWluSGVpZ2h0ID0gaWYgKGhlaWdodCAhPSBDb25zdHJhaW50cy5JbmZpbml0eSkgaGVpZ2h0IGVsc2UgY29uc3RyYWludHMubWluSGVpZ2h0LAogICAgICAgICAgICAgICAgbWF4V2lkdGggPSBpZiAod2lkdGggIT0gQ29uc3RyYWludHMuSW5maW5pdHkpIHdpZHRoIGVsc2UgY29uc3RyYWludHMubWF4V2lkdGgsCiAgICAgICAgICAgICAgICBtYXhIZWlnaHQgPSBpZiAoaGVpZ2h0ICE9IENvbnN0cmFpbnRzLkluZmluaXR5KSBoZWlnaHQgZWxzZSBjb25zdHJhaW50cy5tYXhIZWlnaHQsCiAgICAgICAgICAgICkKICAgICAgICB2YWwgcGxhY2VhYmxlID0gbWVhc3VyYWJsZS5tZWFzdXJlKGNoaWxkQ29uc3RyYWludHMpCiAgICAgICAgcmV0dXJuIGxheW91dChwbGFjZWFibGUud2lkdGgsIHBsYWNlYWJsZS5oZWlnaHQpIHsgcGxhY2VhYmxlLnBsYWNlKDAsIDApIH0KICAgIH0KfQo=
+/*
+ * Copyright 2021 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.animation.core.FiniteAnimationSpec
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutAnimateItemElement
+import androidx.compose.runtime.State
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.Measurable
+import androidx.compose.ui.layout.MeasureResult
+import androidx.compose.ui.layout.MeasureScope
+import androidx.compose.ui.node.LayoutModifierNode
+import androidx.compose.ui.node.ModifierNodeElement
+import androidx.compose.ui.platform.InspectorInfo
+import androidx.compose.ui.unit.Constraints
+import androidx.compose.ui.unit.IntOffset
+import androidx.compose.ui.util.fastRoundToInt
+
+internal class LazyItemScopeImpl : LazyItemScope {
+
+    private var maxWidthState = mutableIntStateOf(Int.MAX_VALUE)
+    private var maxHeightState = mutableIntStateOf(Int.MAX_VALUE)
+
+    fun setMaxSize(width: Int, height: Int) {
+        maxWidthState.intValue = width
+        maxHeightState.intValue = height
+    }
+
+    override fun Modifier.fillParentMaxSize(fraction: Float) =
+        then(
+            ParentSizeElement(
+                widthState = maxWidthState,
+                heightState = maxHeightState,
+                fraction = fraction,
+                inspectorName = "fillParentMaxSize",
+            )
+        )
+
+    override fun Modifier.fillParentMaxWidth(fraction: Float) =
+        then(
+            ParentSizeElement(
+                widthState = maxWidthState,
+                fraction = fraction,
+                inspectorName = "fillParentMaxWidth",
+            )
+        )
+
+    override fun Modifier.fillParentMaxHeight(fraction: Float) =
+        then(
+            ParentSizeElement(
+                heightState = maxHeightState,
+                fraction = fraction,
+                inspectorName = "fillParentMaxHeight",
+            )
+        )
+
+    override fun Modifier.animateItem(
+        fadeInSpec: FiniteAnimationSpec<Float>?,
+        placementSpec: FiniteAnimationSpec<IntOffset>?,
+        fadeOutSpec: FiniteAnimationSpec<Float>?,
+    ): Modifier =
+        if (fadeInSpec == null && placementSpec == null && fadeOutSpec == null) {
+            this
+        } else {
+            this then LazyLayoutAnimateItemElement(fadeInSpec, placementSpec, fadeOutSpec)
+        }
+}
+
+private class ParentSizeElement(
+    val fraction: Float,
+    val widthState: State<Int>? = null,
+    val heightState: State<Int>? = null,
+    val inspectorName: String,
+) : ModifierNodeElement<ParentSizeNode>() {
+    override fun create(): ParentSizeNode {
+        return ParentSizeNode(
+            fraction = fraction,
+            widthState = widthState,
+            heightState = heightState,
+        )
+    }
+
+    override fun update(node: ParentSizeNode) {
+        node.fraction = fraction
+        node.widthState = widthState
+        node.heightState = heightState
+    }
+
+    override fun equals(other: Any?): Boolean {
+        if (this === other) return true
+        if (other !is ParentSizeElement) return false
+        return fraction == other.fraction &&
+            widthState == other.widthState &&
+            heightState == other.heightState
+    }
+
+    override fun hashCode(): Int {
+        var result = widthState?.hashCode() ?: 0
+        result = 31 * result + (heightState?.hashCode() ?: 0)
+        result = 31 * result + fraction.hashCode()
+        return result
+    }
+
+    override fun InspectorInfo.inspectableProperties() {
+        name = inspectorName
+        value = fraction
+    }
+}
+
+private class ParentSizeNode(
+    var fraction: Float,
+    var widthState: State<Int>? = null,
+    var heightState: State<Int>? = null,
+) : LayoutModifierNode, Modifier.Node() {
+
+    override fun MeasureScope.measure(
+        measurable: Measurable,
+        constraints: Constraints,
+    ): MeasureResult {
+        val width =
+            widthState?.let {
+                if (it.value != Constraints.Infinity) {
+                    (it.value * fraction).fastRoundToInt()
+                } else {
+                    Constraints.Infinity
+                }
+            } ?: Constraints.Infinity
+
+        val height =
+            heightState?.let {
+                if (it.value != Constraints.Infinity) {
+                    (it.value * fraction).fastRoundToInt()
+                } else {
+                    Constraints.Infinity
+                }
+            } ?: Constraints.Infinity
+        val childConstraints =
+            Constraints(
+                minWidth = if (width != Constraints.Infinity) width else constraints.minWidth,
+                minHeight = if (height != Constraints.Infinity) height else constraints.minHeight,
+                maxWidth = if (width != Constraints.Infinity) width else constraints.maxWidth,
+                maxHeight = if (height != Constraints.Infinity) height else constraints.maxHeight,
+            )
+        val placeable = measurable.measure(childConstraints)
+        return layout(placeable.width, placeable.height) { placeable.place(0, 0) }
+    }
+}

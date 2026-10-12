@@ -1,1 +1,16 @@
-J3VzZSBzdHJpY3QnOwoKY29uc3QgRmlsZSA9IEphdmEudHlwZSgnamF2YS5pby5GaWxlJyk7CgpyZXR1cm4gewogIHN1Y2Nlc3M6IHRydWUsCiAgbW9kZTogJ3NjcmlwdC1tb2RlLXJldHVybi1qYXZhLXByb3h5JywKICBmaWxlOiBuZXcgRmlsZSgnL3NkY2FyZC9zY3JpcHQtbW9kZS1yZXR1cm4tamF2YS1wcm94eS50eHQnKSwKICBuZXN0ZWQ6IHsKICAgIGNoaWxkOiBuZXcgRmlsZSgnL3NkY2FyZC9zY3JpcHQtbW9kZS1yZXR1cm4tamF2YS1wcm94eS1jaGlsZC50eHQnKSwKICB9LAogIGZpbGVzOiBbCiAgICBuZXcgRmlsZSgnL3NkY2FyZC9zY3JpcHQtbW9kZS1yZXR1cm4tamF2YS1wcm94eS1hLnR4dCcpLAogICAgbmV3IEZpbGUoJy9zZGNhcmQvc2NyaXB0LW1vZGUtcmV0dXJuLWphdmEtcHJveHktYi50eHQnKSwKICBdLAp9Owo=
+'use strict';
+
+const File = Java.type('java.io.File');
+
+return {
+  success: true,
+  mode: 'script-mode-return-java-proxy',
+  file: new File('/sdcard/script-mode-return-java-proxy.txt'),
+  nested: {
+    child: new File('/sdcard/script-mode-return-java-proxy-child.txt'),
+  },
+  files: [
+    new File('/sdcard/script-mode-return-java-proxy-a.txt'),
+    new File('/sdcard/script-mode-return-java-proxy-b.txt'),
+  ],
+};

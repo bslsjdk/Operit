@@ -1,1 +1,9 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqCiAqIFByb21wdCBmdW5jdGlvbiB0eXBlLCB1c2VkIHRvIGRpc3Rpbmd1aXNoIG1lc3NhZ2UgY29udGV4dAogKi8KZW51bSBjbGFzcyBQcm9tcHRGdW5jdGlvblR5cGUgewogICAgQ0hBVCwKICAgIFZPSUNFCn0K
+package com.bslsjdk.operit.data.model
+
+/**
+ * Prompt function type, used to distinguish message context
+ */
+enum class PromptFunctionType {
+    CHAT,
+    VOICE
+}

@@ -1,1 +1,67 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQuc3RvcmFnZQoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKCkBTZXJpYWxpemFibGUKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0RW50aXR5KAogICAgdmFsIGlkOiBMb25nID0gMCwKICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICB2YWwgbmFtZXNwYWNlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCB2ZXJzaW9uOiBTdHJpbmcsCiAgICB2YWwgZGVzY3JpcHRpb246IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGF1dGhvcjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgaG9tZXBhZ2VVcmw6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHNvdXJjZVVybDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgc291cmNlRGlzcGxheTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgZG93bmxvYWRVcmw6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHVwZGF0ZVVybDogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgcnVuQXQ6IFN0cmluZywKICAgIHZhbCBub0ZyYW1lczogQm9vbGVhbiwKICAgIHZhbCBlbmFibGVkOiBCb29sZWFuLAogICAgdmFsIHNvdXJjZUhhc2g6IFN0cmluZywKICAgIHZhbCBzY3JpcHRGaWxlUGF0aDogU3RyaW5nLAogICAgdmFsIGluc3RhbGxTb3VyY2VUeXBlOiBTdHJpbmcsCiAgICB2YWwgbWV0YWRhdGFKc29uOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBncmFudHNKc29uOiBTdHJpbmcsCiAgICB2YWwgbWF0Y2hlc0pzb246IFN0cmluZywKICAgIHZhbCBpbmNsdWRlc0pzb246IFN0cmluZywKICAgIHZhbCBleGNsdWRlc0pzb246IFN0cmluZywKICAgIHZhbCBleGNsdWRlTWF0Y2hlc0pzb246IFN0cmluZywKICAgIHZhbCBjb25uZWN0c0pzb246IFN0cmluZywKICAgIHZhbCByZXF1aXJlc0pzb246IFN0cmluZywKICAgIHZhbCByZXNvdXJjZXNKc29uOiBTdHJpbmcsCiAgICB2YWwgaW5zdGFsbGVkQXQ6IExvbmcsCiAgICB2YWwgdXBkYXRlZEF0OiBMb25nCikKCkBTZXJpYWxpemFibGUKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0VmFsdWVFbnRpdHkoCiAgICB2YWwgdXNlcnNjcmlwdElkOiBMb25nLAogICAgdmFsIHN0b3JhZ2VLZXk6IFN0cmluZywKICAgIHZhbCB2YWx1ZUpzb246IFN0cmluZywKICAgIHZhbCB1cGRhdGVkQXQ6IExvbmcKKQoKQFNlcmlhbGl6YWJsZQppbnRlcm5hbCBkYXRhIGNsYXNzIFVzZXJzY3JpcHRSZXNvdXJjZUVudGl0eSgKICAgIHZhbCBpZDogTG9uZyA9IDAsCiAgICB2YWwgdXNlcnNjcmlwdElkOiBMb25nLAogICAgdmFsIGVudHJ5VHlwZTogU3RyaW5nLAogICAgdmFsIHJlc291cmNlS2V5OiBTdHJpbmcsCiAgICB2YWwgcmVtb3RlVXJsOiBTdHJpbmcsCiAgICB2YWwgbG9jYWxQYXRoOiBTdHJpbmcsCiAgICB2YWwgbWltZVR5cGU6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGV0YWc6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGxhc3RNb2RpZmllZEhlYWRlcjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdXBkYXRlZEF0OiBMb25nCikKCkBTZXJpYWxpemFibGUKaW50ZXJuYWwgZGF0YSBjbGFzcyBVc2Vyc2NyaXB0TG9nRW50aXR5KAogICAgdmFsIGlkOiBMb25nID0gMCwKICAgIHZhbCB1c2Vyc2NyaXB0SWQ6IExvbmc/ID0gbnVsbCwKICAgIHZhbCBsZXZlbDogU3RyaW5nLAogICAgdmFsIG1lc3NhZ2U6IFN0cmluZywKICAgIHZhbCBwYWdlVXJsOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBjcmVhdGVkQXQ6IExvbmcKKQo=
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript.storage
+
+import kotlinx.serialization.Serializable
+
+@Serializable
+internal data class UserscriptEntity(
+    val id: Long = 0,
+    val name: String,
+    val namespace: String? = null,
+    val version: String,
+    val description: String? = null,
+    val author: String? = null,
+    val homepageUrl: String? = null,
+    val sourceUrl: String? = null,
+    val sourceDisplay: String? = null,
+    val downloadUrl: String? = null,
+    val updateUrl: String? = null,
+    val runAt: String,
+    val noFrames: Boolean,
+    val enabled: Boolean,
+    val sourceHash: String,
+    val scriptFilePath: String,
+    val installSourceType: String,
+    val metadataJson: String = "",
+    val grantsJson: String,
+    val matchesJson: String,
+    val includesJson: String,
+    val excludesJson: String,
+    val excludeMatchesJson: String,
+    val connectsJson: String,
+    val requiresJson: String,
+    val resourcesJson: String,
+    val installedAt: Long,
+    val updatedAt: Long
+)
+
+@Serializable
+internal data class UserscriptValueEntity(
+    val userscriptId: Long,
+    val storageKey: String,
+    val valueJson: String,
+    val updatedAt: Long
+)
+
+@Serializable
+internal data class UserscriptResourceEntity(
+    val id: Long = 0,
+    val userscriptId: Long,
+    val entryType: String,
+    val resourceKey: String,
+    val remoteUrl: String,
+    val localPath: String,
+    val mimeType: String? = null,
+    val etag: String? = null,
+    val lastModifiedHeader: String? = null,
+    val updatedAt: Long
+)
+
+@Serializable
+internal data class UserscriptLogEntity(
+    val id: Long = 0,
+    val userscriptId: Long? = null,
+    val level: String,
+    val message: String,
+    val pageUrl: String? = null,
+    val createdAt: Long
+)

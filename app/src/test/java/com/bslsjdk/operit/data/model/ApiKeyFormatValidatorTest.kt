@@ -1,1 +1,64 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RmFsc2UKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIEFwaUtleUZvcm1hdFZhbGlkYXRvclRlc3QgewogICAgQFRlc3QKICAgIGZ1biBvdXRlcldoaXRlc3BhY2VfaXNOb3JtYWxpemVkKCkgewogICAgICAgIGFzc2VydFRydWUoQXBpS2V5Rm9ybWF0VmFsaWRhdG9yLmlzVmFsaWQoIiAgc2stdGVzdF8xMjMrLz0gICIpKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gbm9uQXNjaWlDaGFyYWN0ZXJzX2FyZVJlamVjdGVkKCkgewogICAgICAgIGFzc2VydEZhbHNlKEFwaUtleUZvcm1hdFZhbGlkYXRvci5pc1ZhbGlkKCLkuK3mloflr4bpkqUiKSkKICAgICAgICBhc3NlcnRGYWxzZShBcGlLZXlGb3JtYXRWYWxpZGF0b3IuaXNWYWxpZCgic2stZnVsbHdpZHRoLe+8oSIpKQogICAgICAgIGFzc2VydEZhbHNlKEFwaUtleUZvcm1hdFZhbGlkYXRvci5pc1ZhbGlkKCJzay1lbW9qaS3wn5iAIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB3aGl0ZXNwYWNlQW5kQ29udHJvbENoYXJhY3RlcnNfYXJlUmVqZWN0ZWQoKSB7CiAgICAgICAgYXNzZXJ0RmFsc2UoQXBpS2V5Rm9ybWF0VmFsaWRhdG9yLmlzVmFsaWQoInNrLWludGVybmFsIHNwYWNlIikpCiAgICAgICAgYXNzZXJ0RmFsc2UoQXBpS2V5Rm9ybWF0VmFsaWRhdG9yLmlzVmFsaWQoInNrLXRhYlx0dmFsdWUiKSkKICAgICAgICBhc3NlcnRGYWxzZShBcGlLZXlGb3JtYXRWYWxpZGF0b3IuaXNWYWxpZCgic2stbGluZVxudmFsdWUiKSkKICAgICAgICBhc3NlcnRGYWxzZShBcGlLZXlGb3JtYXRWYWxpZGF0b3IuaXNWYWxpZCgic2stbnVsbFx1MDAwMHZhbHVlIikpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBhdmFpbGFibGVLZXlQb29sX2lzQWNjZXB0ZWRXaXRob3V0U2luZ2xlS2V5KCkgewogICAgICAgIHZhbCBjb25maWcgPQogICAgICAgICAgICBNb2RlbENvbmZpZ0RhdGEoCiAgICAgICAgICAgICAgICBpZCA9ICJwb29sIiwKICAgICAgICAgICAgICAgIG5hbWUgPSAiUG9vbCIsCiAgICAgICAgICAgICAgICB1c2VNdWx0aXBsZUFwaUtleXMgPSB0cnVlLAogICAgICAgICAgICAgICAgYXBpS2V5UG9vbCA9CiAgICAgICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICBBcGlLZXlJbmZvKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWQgPSAia2V5LTEiLAogICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5ID0gInNrLXZhbGlkIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGF2YWlsYWJpbGl0eVN0YXR1cyA9IEFwaUtleUF2YWlsYWJpbGl0eVN0YXR1cy5BVkFJTEFCTEUKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRUcnVlKEFwaUtleUZvcm1hdFZhbGlkYXRvci5oYXNVc2FibGVLZXkoY29uZmlnKSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGludmFsaWRFbmFibGVkUG9vbEVudHJ5X3JlamVjdHNXaG9sZVBvb2woKSB7CiAgICAgICAgdmFsIGNvbmZpZyA9CiAgICAgICAgICAgIE1vZGVsQ29uZmlnRGF0YSgKICAgICAgICAgICAgICAgIGlkID0gInBvb2wiLAogICAgICAgICAgICAgICAgbmFtZSA9ICJQb29sIiwKICAgICAgICAgICAgICAgIHVzZU11bHRpcGxlQXBpS2V5cyA9IHRydWUsCiAgICAgICAgICAgICAgICBhcGlLZXlQb29sID0KICAgICAgICAgICAgICAgICAgICBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgIEFwaUtleUluZm8oaWQgPSAia2V5LTEiLCBrZXkgPSAic2stdmFsaWQiKSwKICAgICAgICAgICAgICAgICAgICAgICAgQXBpS2V5SW5mbyhpZCA9ICJrZXktMiIsIGtleSA9ICLkuK3mlociKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgICAgICBhc3NlcnRGYWxzZShBcGlLZXlGb3JtYXRWYWxpZGF0b3IuaGFzVXNhYmxlS2V5KGNvbmZpZykpCiAgICB9Cn0K
+package com.bslsjdk.operit.data.model
+
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class ApiKeyFormatValidatorTest {
+    @Test
+    fun outerWhitespace_isNormalized() {
+        assertTrue(ApiKeyFormatValidator.isValid("  sk-test_123+/=  "))
+    }
+
+    @Test
+    fun nonAsciiCharacters_areRejected() {
+        assertFalse(ApiKeyFormatValidator.isValid("中文密钥"))
+        assertFalse(ApiKeyFormatValidator.isValid("sk-fullwidth-Ａ"))
+        assertFalse(ApiKeyFormatValidator.isValid("sk-emoji-😀"))
+    }
+
+    @Test
+    fun whitespaceAndControlCharacters_areRejected() {
+        assertFalse(ApiKeyFormatValidator.isValid("sk-internal space"))
+        assertFalse(ApiKeyFormatValidator.isValid("sk-tab\tvalue"))
+        assertFalse(ApiKeyFormatValidator.isValid("sk-line\nvalue"))
+        assertFalse(ApiKeyFormatValidator.isValid("sk-null\u0000value"))
+    }
+
+    @Test
+    fun availableKeyPool_isAcceptedWithoutSingleKey() {
+        val config =
+            ModelConfigData(
+                id = "pool",
+                name = "Pool",
+                useMultipleApiKeys = true,
+                apiKeyPool =
+                    listOf(
+                        ApiKeyInfo(
+                            id = "key-1",
+                            key = "sk-valid",
+                            availabilityStatus = ApiKeyAvailabilityStatus.AVAILABLE
+                        )
+                    )
+            )
+
+        assertTrue(ApiKeyFormatValidator.hasUsableKey(config))
+    }
+
+    @Test
+    fun invalidEnabledPoolEntry_rejectsWholePool() {
+        val config =
+            ModelConfigData(
+                id = "pool",
+                name = "Pool",
+                useMultipleApiKeys = true,
+                apiKeyPool =
+                    listOf(
+                        ApiKeyInfo(id = "key-1", key = "sk-valid"),
+                        ApiKeyInfo(id = "key-2", key = "中文")
+                    )
+            )
+
+        assertFalse(ApiKeyFormatValidator.hasUsableKey(config))
+    }
+}

@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLmxvZ2NhdAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuQ29sb3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MudmVjdG9yLkltYWdlVmVjdG9yCgovKiog5pel5b+X6K6w5b2V5pWw5o2u57G7ICovCmRhdGEgY2xhc3MgTG9nUmVjb3JkKAogICAgICAgIHZhbCBtZXNzYWdlOiBTdHJpbmcsCiAgICAgICAgdmFsIGxldmVsOiBMb2dMZXZlbCwKICAgICAgICB2YWwgdGltZXN0YW1wOiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCksCiAgICAgICAgdmFsIHRhZzogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgdmFsIHBpZDogU3RyaW5nPyA9IG51bGwsCiAgICAgICAgdmFsIHRpZDogU3RyaW5nPyA9IG51bGwKKQoKLyoqIOaXpeW/l+e6p+WIqyAqLwplbnVtIGNsYXNzIExvZ0xldmVsKHZhbCBkaXNwbGF5TmFtZTogU3RyaW5nLCB2YWwgc3ltYm9sOiBTdHJpbmcsIHZhbCBjb2xvcjogQ29sb3IpIHsKICAgIFZFUkJPU0UoIuivpue7hiIsICJWIiwgQ29sb3IoMHhGRjlFOUU5RSkpLAogICAgREVCVUcoIuiwg+ivlSIsICJEIiwgQ29sb3IoMHhGRjIxOTZGMykpLAogICAgSU5GTygi5L+h5oGvIiwgIkkiLCBDb2xvcigweEZGNENBRjUwKSksCiAgICBXQVJOSU5HKCLorablkYoiLCAiVyIsIENvbG9yKDB4RkZGRkMxMDcpKSwKICAgIEVSUk9SKCLplJnor68iLCAiRSIsIENvbG9yKDB4RkZGNDQzMzYpKSwKICAgIEZBVEFMKCLoh7Tlkb0iLCAiRiIsIENvbG9yKDB4RkY5QzI3QjApKSwKICAgIFNJTEVOVCgi6Z2Z6buYIiwgIlMiLCBDb2xvcigweEZGNjA3RDhCKSksCiAgICBVTktOT1dOKCLmnKrnn6UiLCAiPyIsIENvbG9yKDB4RkY5RTlFOUUpKQp9
+package com.bslsjdk.operit.ui.features.toolbox.screens.logcat
+
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+
+/** 日志记录数据类 */
+data class LogRecord(
+        val message: String,
+        val level: LogLevel,
+        val timestamp: Long = System.currentTimeMillis(),
+        val tag: String? = null,
+        val pid: String? = null,
+        val tid: String? = null
+)
+
+/** 日志级别 */
+enum class LogLevel(val displayName: String, val symbol: String, val color: Color) {
+    VERBOSE("详细", "V", Color(0xFF9E9E9E)),
+    DEBUG("调试", "D", Color(0xFF2196F3)),
+    INFO("信息", "I", Color(0xFF4CAF50)),
+    WARNING("警告", "W", Color(0xFFFFC107)),
+    ERROR("错误", "E", Color(0xFFF44336)),
+    FATAL("致命", "F", Color(0xFF9C27B0)),
+    SILENT("静默", "S", Color(0xFF607D8B)),
+    UNKNOWN("未知", "?", Color(0xFF9E9E9E))
+}

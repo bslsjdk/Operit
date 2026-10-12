@@ -1,1 +1,144 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuc2V0dGluZ3Muc2NyZWVucy50aGVtZQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQXJyYW5nZW1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ2FyZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQ2FyZENvbG9ycwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuSG9yaXpvbnRhbERpdmlkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlN3aXRjaAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5jb2xsZWN0QXNTdGF0ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLkFsaWdubWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLlVzZXJQcmVmZXJlbmNlc01hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5zZXR0aW5ncy5jb21wb25lbnRzLkNoYXRTdHlsZU9wdGlvbgoKQENvbXBvc2FibGUKaW50ZXJuYWwgZnVuIFRoZW1lU2V0dGluZ3NJbnB1dFRhYigKICAgIHNoYXJlZDogVGhlbWVTZXR0aW5nc1NoYXJlZCwKICAgIGNhcmRDb2xvcnM6IENhcmRDb2xvcnMsCikgewogICAgdmFsIGVkaXRvclNlc3Npb24gPSBzaGFyZWQuZWRpdG9yU2Vzc2lvbgogICAgdmFsIHZhbHVlcyBieSBlZGl0b3JTZXNzaW9uLnZhbHVlcy5jb2xsZWN0QXNTdGF0ZSgpCiAgICB2YWwgaW5wdXRTdHlsZSA9IHZhbHVlcy5yZXF1aXJlZFN0cmluZygiaW5wdXRfc3R5bGUiKQogICAgdmFsIGNoYXRJbnB1dFRyYW5zcGFyZW50ID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiY2hhdF9pbnB1dF90cmFuc3BhcmVudCIpCiAgICB2YWwgY2hhdElucHV0RmxvYXRpbmcgPSB2YWx1ZXMucmVxdWlyZWRCb29sZWFuKCJjaGF0X2lucHV0X2Zsb2F0aW5nIikKICAgIHZhbCBjaGF0SW5wdXRMaXF1aWRHbGFzcyA9IHZhbHVlcy5yZXF1aXJlZEJvb2xlYW4oImNoYXRfaW5wdXRfbGlxdWlkX2dsYXNzIikKICAgIHZhbCBjaGF0SW5wdXRXYXRlckdsYXNzID0gdmFsdWVzLnJlcXVpcmVkQm9vbGVhbigiY2hhdF9pbnB1dF93YXRlcl9nbGFzcyIpCgogICAgQ2FyZChtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLnBhZGRpbmcoYm90dG9tID0gMTYuZHApLCBjb2xvcnMgPSBjYXJkQ29sb3JzKSB7CiAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZygxNi5kcCkpIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShpZCA9IFIuc3RyaW5nLmlucHV0X3N0eWxlX3RpdGxlKSwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LnRpdGxlTWVkaXVtLAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKGJvdHRvbSA9IDQuZHApLAogICAgICAgICAgICApCiAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICB0ZXh0ID0gc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy5pbnB1dF9zdHlsZV9kZXNjKSwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKGJvdHRvbSA9IDguZHApLAogICAgICAgICAgICApCgogICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCksCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgQ2hhdFN0eWxlT3B0aW9uKAogICAgICAgICAgICAgICAgICAgIHRpdGxlID0gc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy5pbnB1dF9zdHlsZV9jbGFzc2ljKSwKICAgICAgICAgICAgICAgICAgICBzZWxlY3RlZCA9IGlucHV0U3R5bGUgPT0gVXNlclByZWZlcmVuY2VzTWFuYWdlci5JTlBVVF9TVFlMRV9DTEFTU0lDLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSwKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIGVkaXRvclNlc3Npb24uc2V0U3RyaW5nKAogICAgICAgICAgICAgICAgICAgICAgICAiaW5wdXRfc3R5bGUiLAogICAgICAgICAgICAgICAgICAgICAgICBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLklOUFVUX1NUWUxFX0NMQVNTSUMsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIENoYXRTdHlsZU9wdGlvbigKICAgICAgICAgICAgICAgICAgICB0aXRsZSA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcuaW5wdXRfc3R5bGVfYWdlbnQpLAogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkID0gaW5wdXRTdHlsZSA9PSBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLklOUFVUX1NUWUxFX0FHRU5ULAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSwKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIGVkaXRvclNlc3Npb24uc2V0U3RyaW5nKAogICAgICAgICAgICAgICAgICAgICAgICAiaW5wdXRfc3R5bGUiLAogICAgICAgICAgICAgICAgICAgICAgICBVc2VyUHJlZmVyZW5jZXNNYW5hZ2VyLklOUFVUX1NUWUxFX0FHRU5ULAogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBDYXJkKG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkucGFkZGluZyhib3R0b20gPSAxNi5kcCksIGNvbG9ycyA9IGNhcmRDb2xvcnMpIHsKICAgICAgICBDb2x1bW4obW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKDE2LmRwKSkgewogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudGhlbWVfY2hhdF9pbnB1dF90cmFuc3BhcmVudF90aXRsZSksCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bSwKICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIucGFkZGluZyhib3R0b20gPSA4LmRwKSwKICAgICAgICAgICAgKQogICAgICAgICAgICBUaGVtZVNldHRpbmdzSW5wdXRTd2l0Y2goCiAgICAgICAgICAgICAgICB0aXRsZSA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudGhlbWVfY2hhdF9pbnB1dF90cmFuc3BhcmVudCksCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudGhlbWVfY2hhdF9pbnB1dF90cmFuc3BhcmVudF9kZXNjKSwKICAgICAgICAgICAgICAgIGNoZWNrZWQgPSBjaGF0SW5wdXRUcmFuc3BhcmVudCwKICAgICAgICAgICAgICAgIG9uQ2hlY2tlZENoYW5nZSA9IHsgZWRpdG9yU2Vzc2lvbi5zZXRCb29sZWFuKCJjaGF0X2lucHV0X3RyYW5zcGFyZW50IiwgaXQpIH0sCiAgICAgICAgICAgICkKICAgICAgICAgICAgSG9yaXpvbnRhbERpdmlkZXIobW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKHZlcnRpY2FsID0gOC5kcCkpCiAgICAgICAgICAgIFRoZW1lU2V0dGluZ3NJbnB1dFN3aXRjaCgKICAgICAgICAgICAgICAgIHRpdGxlID0gc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy50aGVtZV9jaGF0X2lucHV0X2Zsb2F0aW5nKSwKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy50aGVtZV9jaGF0X2lucHV0X2Zsb2F0aW5nX2Rlc2MpLAogICAgICAgICAgICAgICAgY2hlY2tlZCA9IGNoYXRJbnB1dEZsb2F0aW5nLAogICAgICAgICAgICAgICAgb25DaGVja2VkQ2hhbmdlID0geyBlZGl0b3JTZXNzaW9uLnNldEJvb2xlYW4oImNoYXRfaW5wdXRfZmxvYXRpbmciLCBpdCkgfSwKICAgICAgICAgICAgKQoKICAgICAgICAgICAgaWYgKGNoYXRJbnB1dFRyYW5zcGFyZW50KSB7CiAgICAgICAgICAgICAgICBIb3Jpem9udGFsRGl2aWRlcihtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcodmVydGljYWwgPSA4LmRwKSkKICAgICAgICAgICAgICAgIFRoZW1lU2V0dGluZ3NJbnB1dFN3aXRjaCgKICAgICAgICAgICAgICAgICAgICB0aXRsZSA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudGhlbWVfY2hhdF9pbnB1dF9saXF1aWRfZ2xhc3MpLAogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy50aGVtZV9jaGF0X2lucHV0X2xpcXVpZF9nbGFzc19kZXNjKSwKICAgICAgICAgICAgICAgICAgICBjaGVja2VkID0gY2hhdElucHV0TGlxdWlkR2xhc3MsCiAgICAgICAgICAgICAgICAgICAgb25DaGVja2VkQ2hhbmdlID0geyBlZGl0b3JTZXNzaW9uLnNldEJvb2xlYW4oImNoYXRfaW5wdXRfbGlxdWlkX2dsYXNzIiwgaXQpIH0sCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBIb3Jpem9udGFsRGl2aWRlcihtb2RpZmllciA9IE1vZGlmaWVyLnBhZGRpbmcodmVydGljYWwgPSA4LmRwKSkKICAgICAgICAgICAgICAgIFRoZW1lU2V0dGluZ3NJbnB1dFN3aXRjaCgKICAgICAgICAgICAgICAgICAgICB0aXRsZSA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcudGhlbWVfY2hhdF9pbnB1dF93YXRlcl9nbGFzcyksCiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShpZCA9IFIuc3RyaW5nLnRoZW1lX2NoYXRfaW5wdXRfd2F0ZXJfZ2xhc3NfZGVzYyksCiAgICAgICAgICAgICAgICAgICAgY2hlY2tlZCA9IGNoYXRJbnB1dFdhdGVyR2xhc3MsCiAgICAgICAgICAgICAgICAgICAgb25DaGVja2VkQ2hhbmdlID0geyBlZGl0b3JTZXNzaW9uLnNldEJvb2xlYW4oImNoYXRfaW5wdXRfd2F0ZXJfZ2xhc3MiLCBpdCkgfSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gVGhlbWVTZXR0aW5nc0lucHV0U3dpdGNoKAogICAgdGl0bGU6IFN0cmluZywKICAgIGRlc2NyaXB0aW9uOiBTdHJpbmcsCiAgICBjaGVja2VkOiBCb29sZWFuLAogICAgb25DaGVja2VkQ2hhbmdlOiAoQm9vbGVhbikgLT4gVW5pdCwKKSB7CiAgICBSb3coCiAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKS5wYWRkaW5nKGJvdHRvbSA9IDguZHApLAogICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHksCiAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuU3BhY2VCZXR3ZWVuLAogICAgKSB7CiAgICAgICAgQ29sdW1uKG1vZGlmaWVyID0gTW9kaWZpZXIud2VpZ2h0KDFmKSkgewogICAgICAgICAgICBUZXh0KHRleHQgPSB0aXRsZSwgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bSkKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBkZXNjcmlwdGlvbiwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50LAogICAgICAgICAgICApCiAgICAgICAgfQogICAgICAgIFN3aXRjaChjaGVja2VkID0gY2hlY2tlZCwgb25DaGVja2VkQ2hhbmdlID0gb25DaGVja2VkQ2hhbmdlKQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.settings.screens.theme
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardColors
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Switch
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.preferences.UserPreferencesManager
+import com.bslsjdk.operit.ui.features.settings.components.ChatStyleOption
+
+@Composable
+internal fun ThemeSettingsInputTab(
+    shared: ThemeSettingsShared,
+    cardColors: CardColors,
+) {
+    val editorSession = shared.editorSession
+    val values by editorSession.values.collectAsState()
+    val inputStyle = values.requiredString("input_style")
+    val chatInputTransparent = values.requiredBoolean("chat_input_transparent")
+    val chatInputFloating = values.requiredBoolean("chat_input_floating")
+    val chatInputLiquidGlass = values.requiredBoolean("chat_input_liquid_glass")
+    val chatInputWaterGlass = values.requiredBoolean("chat_input_water_glass")
+
+    Card(modifier = Modifier.fillMaxWidth().padding(bottom = 16.dp), colors = cardColors) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Text(
+                text = stringResource(id = R.string.input_style_title),
+                style = MaterialTheme.typography.titleMedium,
+                modifier = Modifier.padding(bottom = 4.dp),
+            )
+            Text(
+                text = stringResource(id = R.string.input_style_desc),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                modifier = Modifier.padding(bottom = 8.dp),
+            )
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+            ) {
+                ChatStyleOption(
+                    title = stringResource(id = R.string.input_style_classic),
+                    selected = inputStyle == UserPreferencesManager.INPUT_STYLE_CLASSIC,
+                    modifier = Modifier.weight(1f),
+                ) {
+                    editorSession.setString(
+                        "input_style",
+                        UserPreferencesManager.INPUT_STYLE_CLASSIC,
+                    )
+                }
+
+                ChatStyleOption(
+                    title = stringResource(id = R.string.input_style_agent),
+                    selected = inputStyle == UserPreferencesManager.INPUT_STYLE_AGENT,
+                    modifier = Modifier.weight(1f),
+                ) {
+                    editorSession.setString(
+                        "input_style",
+                        UserPreferencesManager.INPUT_STYLE_AGENT,
+                    )
+                }
+            }
+        }
+    }
+
+    Card(modifier = Modifier.fillMaxWidth().padding(bottom = 16.dp), colors = cardColors) {
+        Column(modifier = Modifier.padding(16.dp)) {
+            Text(
+                text = stringResource(id = R.string.theme_chat_input_transparent_title),
+                style = MaterialTheme.typography.titleMedium,
+                modifier = Modifier.padding(bottom = 8.dp),
+            )
+            ThemeSettingsInputSwitch(
+                title = stringResource(id = R.string.theme_chat_input_transparent),
+                description = stringResource(id = R.string.theme_chat_input_transparent_desc),
+                checked = chatInputTransparent,
+                onCheckedChange = { editorSession.setBoolean("chat_input_transparent", it) },
+            )
+            HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
+            ThemeSettingsInputSwitch(
+                title = stringResource(id = R.string.theme_chat_input_floating),
+                description = stringResource(id = R.string.theme_chat_input_floating_desc),
+                checked = chatInputFloating,
+                onCheckedChange = { editorSession.setBoolean("chat_input_floating", it) },
+            )
+
+            if (chatInputTransparent) {
+                HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
+                ThemeSettingsInputSwitch(
+                    title = stringResource(id = R.string.theme_chat_input_liquid_glass),
+                    description = stringResource(id = R.string.theme_chat_input_liquid_glass_desc),
+                    checked = chatInputLiquidGlass,
+                    onCheckedChange = { editorSession.setBoolean("chat_input_liquid_glass", it) },
+                )
+                HorizontalDivider(modifier = Modifier.padding(vertical = 8.dp))
+                ThemeSettingsInputSwitch(
+                    title = stringResource(id = R.string.theme_chat_input_water_glass),
+                    description = stringResource(id = R.string.theme_chat_input_water_glass_desc),
+                    checked = chatInputWaterGlass,
+                    onCheckedChange = { editorSession.setBoolean("chat_input_water_glass", it) },
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun ThemeSettingsInputSwitch(
+    title: String,
+    description: String,
+    checked: Boolean,
+    onCheckedChange: (Boolean) -> Unit,
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth().padding(bottom = 8.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.SpaceBetween,
+    ) {
+        Column(modifier = Modifier.weight(1f)) {
+            Text(text = title, style = MaterialTheme.typography.bodyMedium)
+            Text(
+                text = description,
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+        Switch(checked = checked, onCheckedChange = onCheckedChange)
+    }
+}

@@ -1,1 +1,91 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmNvbGxlY3RzLlByaWNpbmdDdXJyZW5jeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuZGFvLlRva2VuVXNhZ2VNb2RlbEFnZ3JlZ2F0ZVJvdwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQmlsbGluZ01vZGUKCm9iamVjdCBUb2tlbkNvc3RDYWxjdWxhdG9yIHsKICAgIGZ1biBzYXR1cmF0ZWRBZGQobGVmdDogTG9uZywgcmlnaHQ6IExvbmcpOiBMb25nID0KICAgICAgICBpZiAocmlnaHQgPiAwTCAmJiBsZWZ0ID4gTG9uZy5NQVhfVkFMVUUgLSByaWdodCkgTG9uZy5NQVhfVkFMVUUgZWxzZSBsZWZ0ICsgcmlnaHQKCiAgICBmdW4gY3VycmVudENvc3QoCiAgICAgICAgcm93OiBUb2tlblVzYWdlTW9kZWxBZ2dyZWdhdGVSb3csCiAgICAgICAgcHJpY2luZzogUmVzb2x2ZWRUb2tlblByaWNpbmcsCiAgICAgICAgdGFyZ2V0Q3VycmVuY3k6IFByaWNpbmdDdXJyZW5jeSwKICAgICAgICB1c2RUb0NueVJhdGU6IERvdWJsZSwKICAgICk6IFRva2VuU3RhdHNDb3N0U3VtbWFyeSB7CiAgICAgICAgdmFsIG5hdGl2ZUFtb3VudDogRG91YmxlCiAgICAgICAgdmFsIHVua25vd246IExvbmcKICAgICAgICBpZiAocHJpY2luZy5iaWxsaW5nTW9kZSA9PSBCaWxsaW5nTW9kZS5DT1VOVCkgewogICAgICAgICAgICBuYXRpdmVBbW91bnQgPSBwcmljaW5nLnByaWNlUGVyUmVxdWVzdCAqIHJvdy5yZXF1ZXN0cwogICAgICAgICAgICB1bmtub3duID0KICAgICAgICAgICAgICAgIGlmIChwcmljaW5nLnByaWNlUGVyUmVxdWVzdCA+IDAuMCkgewogICAgICAgICAgICAgICAgICAgIDBMCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHJvdy5yZXF1ZXN0cwogICAgICAgICAgICAgICAgfQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHZhciBhbW91bnQgPSAwLjAKICAgICAgICAgICAgdmFyIHVua25vd25SZXF1ZXN0cyA9IDBMCiAgICAgICAgICAgIGZ1biBhZGQodG9rZW5zOiBMb25nLCBrbm93bjogTG9uZywgcHJpY2U6IERvdWJsZSkgewogICAgICAgICAgICAgICAgaWYgKHByaWNlID4gMC4wKSB7CiAgICAgICAgICAgICAgICAgICAgYW1vdW50ICs9IHRva2Vucy50b0RvdWJsZSgpICogcHJpY2UgLyAxXzAwMF8wMDAuMAogICAgICAgICAgICAgICAgICAgIHVua25vd25SZXF1ZXN0cyA9IG1heE9mKHVua25vd25SZXF1ZXN0cywgcm93LnJlcXVlc3RzIC0ga25vd24pCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKAogICAgICAgICAgICAgICAgcHJpY2luZy5pbnB1dFByaWNlUGVyTWlsbGlvbiA9PSBwcmljaW5nLmNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uICYmCiAgICAgICAgICAgICAgICBwcmljaW5nLmlucHV0UHJpY2VQZXJNaWxsaW9uID09IHByaWNpbmcuY2FjaGVXcml0ZVByaWNlUGVyTWlsbGlvbgogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIGFkZChyb3cudG90YWxJbnB1dFRva2Vucywgcm93LnRvdGFsSW5wdXRLbm93biwgcHJpY2luZy5pbnB1dFByaWNlUGVyTWlsbGlvbikKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGFkZChyb3cudW5jYWNoZWRJbnB1dFRva2Vucywgcm93LnVuY2FjaGVkSW5wdXRLbm93biwgcHJpY2luZy5pbnB1dFByaWNlUGVyTWlsbGlvbikKICAgICAgICAgICAgICAgIGFkZChyb3cuY2FjaGVkSW5wdXRUb2tlbnMsIHJvdy5jYWNoZWRJbnB1dEtub3duLCBwcmljaW5nLmNhY2hlZElucHV0UHJpY2VQZXJNaWxsaW9uKQogICAgICAgICAgICAgICAgYWRkKHJvdy5jYWNoZVdyaXRlVG9rZW5zLCByb3cuY2FjaGVXcml0ZUtub3duLCBwcmljaW5nLmNhY2hlV3JpdGVQcmljZVBlck1pbGxpb24pCiAgICAgICAgICAgIH0KICAgICAgICAgICAgYWRkKHJvdy5vdXRwdXRUb2tlbnMsIHJvdy5vdXRwdXRLbm93biwgcHJpY2luZy5vdXRwdXRQcmljZVBlck1pbGxpb24pCiAgICAgICAgICAgIG5hdGl2ZUFtb3VudCA9IGFtb3VudAogICAgICAgICAgICB1bmtub3duID0KICAgICAgICAgICAgICAgIGlmICgKICAgICAgICAgICAgICAgICAgICBwcmljaW5nLmlucHV0UHJpY2VQZXJNaWxsaW9uIDw9IDAuMCAmJgogICAgICAgICAgICAgICAgICAgIHByaWNpbmcuY2FjaGVkSW5wdXRQcmljZVBlck1pbGxpb24gPD0gMC4wICYmCiAgICAgICAgICAgICAgICAgICAgcHJpY2luZy5jYWNoZVdyaXRlUHJpY2VQZXJNaWxsaW9uIDw9IDAuMCAmJgogICAgICAgICAgICAgICAgICAgIHByaWNpbmcub3V0cHV0UHJpY2VQZXJNaWxsaW9uIDw9IDAuMAogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgcm93LnJlcXVlc3RzCiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHVua25vd25SZXF1ZXN0cwogICAgICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICB2YWwgY29udmVydGVkID0gVG9rZW5Db3N0Q3VycmVuY3kuY29udmVydFRvKAogICAgICAgICAgICBuYXRpdmVBbW91bnQsCiAgICAgICAgICAgIHByaWNpbmcuY3VycmVuY3ksCiAgICAgICAgICAgIHRhcmdldEN1cnJlbmN5LAogICAgICAgICAgICB1c2RUb0NueVJhdGUsCiAgICAgICAgKQogICAgICAgIHJldHVybiBUb2tlblN0YXRzQ29zdFN1bW1hcnkoCiAgICAgICAgICAgIGN1cnJlbmN5ID0gdGFyZ2V0Q3VycmVuY3ksCiAgICAgICAgICAgIGtub3duQW1vdW50ID0gY29udmVydGVkLAogICAgICAgICAgICB1bmtub3duQ29udHJpYnV0aW9uQ291bnQgPSB1bmtub3duLAogICAgICAgICAgICB0b3RhbENvbnRyaWJ1dGlvbkNvdW50ID0gcm93LnJlcXVlc3RzLAogICAgICAgICAgICByYXRlVXNlZCA9IHVzZFRvQ255UmF0ZSwKICAgICAgICAgICAgb3JpZ2luYWxDdXJyZW5jeUFtb3VudHMgPQogICAgICAgICAgICAgICAgaWYgKG5hdGl2ZUFtb3VudCA+IDAuMCkgbWFwT2YocHJpY2luZy5jdXJyZW5jeSB0byBuYXRpdmVBbW91bnQpIGVsc2UgZW1wdHlNYXAoKSwKICAgICAgICApCiAgICB9Cn0KCm9iamVjdCBUb2tlbkNvc3RDdXJyZW5jeSB7CiAgICBjb25zdCB2YWwgREVGQVVMVF9VU0RfVE9fQ05ZX1JBVEUgPSA3LjAKCiAgICBmdW4gY29udmVydFRvKAogICAgICAgIGFtb3VudDogRG91YmxlLAogICAgICAgIHNvdXJjZTogUHJpY2luZ0N1cnJlbmN5LAogICAgICAgIHRhcmdldDogUHJpY2luZ0N1cnJlbmN5LAogICAgICAgIHVzZFRvQ255UmF0ZTogRG91YmxlLAogICAgKTogRG91YmxlID0gd2hlbiB7CiAgICAgICAgc291cmNlID09IHRhcmdldCAtPiBhbW91bnQKICAgICAgICBzb3VyY2UgPT0gUHJpY2luZ0N1cnJlbmN5LlVTRCAtPiBhbW91bnQgKiB1c2RUb0NueVJhdGUKICAgICAgICBlbHNlIC0+IGFtb3VudCAvIHVzZFRvQ255UmF0ZQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.stats
+
+import com.bslsjdk.operit.data.collects.PricingCurrency
+import com.bslsjdk.operit.data.dao.TokenUsageModelAggregateRow
+import com.bslsjdk.operit.data.model.BillingMode
+
+object TokenCostCalculator {
+    fun saturatedAdd(left: Long, right: Long): Long =
+        if (right > 0L && left > Long.MAX_VALUE - right) Long.MAX_VALUE else left + right
+
+    fun currentCost(
+        row: TokenUsageModelAggregateRow,
+        pricing: ResolvedTokenPricing,
+        targetCurrency: PricingCurrency,
+        usdToCnyRate: Double,
+    ): TokenStatsCostSummary {
+        val nativeAmount: Double
+        val unknown: Long
+        if (pricing.billingMode == BillingMode.COUNT) {
+            nativeAmount = pricing.pricePerRequest * row.requests
+            unknown =
+                if (pricing.pricePerRequest > 0.0) {
+                    0L
+                } else {
+                    row.requests
+                }
+        } else {
+            var amount = 0.0
+            var unknownRequests = 0L
+            fun add(tokens: Long, known: Long, price: Double) {
+                if (price > 0.0) {
+                    amount += tokens.toDouble() * price / 1_000_000.0
+                    unknownRequests = maxOf(unknownRequests, row.requests - known)
+                }
+            }
+            if (
+                pricing.inputPricePerMillion == pricing.cachedInputPricePerMillion &&
+                pricing.inputPricePerMillion == pricing.cacheWritePricePerMillion
+            ) {
+                add(row.totalInputTokens, row.totalInputKnown, pricing.inputPricePerMillion)
+            } else {
+                add(row.uncachedInputTokens, row.uncachedInputKnown, pricing.inputPricePerMillion)
+                add(row.cachedInputTokens, row.cachedInputKnown, pricing.cachedInputPricePerMillion)
+                add(row.cacheWriteTokens, row.cacheWriteKnown, pricing.cacheWritePricePerMillion)
+            }
+            add(row.outputTokens, row.outputKnown, pricing.outputPricePerMillion)
+            nativeAmount = amount
+            unknown =
+                if (
+                    pricing.inputPricePerMillion <= 0.0 &&
+                    pricing.cachedInputPricePerMillion <= 0.0 &&
+                    pricing.cacheWritePricePerMillion <= 0.0 &&
+                    pricing.outputPricePerMillion <= 0.0
+                ) {
+                    row.requests
+                } else {
+                    unknownRequests
+                }
+        }
+        val converted = TokenCostCurrency.convertTo(
+            nativeAmount,
+            pricing.currency,
+            targetCurrency,
+            usdToCnyRate,
+        )
+        return TokenStatsCostSummary(
+            currency = targetCurrency,
+            knownAmount = converted,
+            unknownContributionCount = unknown,
+            totalContributionCount = row.requests,
+            rateUsed = usdToCnyRate,
+            originalCurrencyAmounts =
+                if (nativeAmount > 0.0) mapOf(pricing.currency to nativeAmount) else emptyMap(),
+        )
+    }
+}
+
+object TokenCostCurrency {
+    const val DEFAULT_USD_TO_CNY_RATE = 7.0
+
+    fun convertTo(
+        amount: Double,
+        source: PricingCurrency,
+        target: PricingCurrency,
+        usdToCnyRate: Double,
+    ): Double = when {
+        source == target -> amount
+        source == PricingCurrency.USD -> amount * usdToCnyRate
+        else -> amount / usdToCnyRate
+    }
+}

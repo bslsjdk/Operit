@@ -1,1 +1,14 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLk11dGV4CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuc3luYy53aXRoTG9jawoKaW50ZXJuYWwgY2xhc3MgVGhlbWVUYXJnZXRPcGVyYXRpb25Db29yZGluYXRvciB7CiAgICBwcml2YXRlIHZhbCBtdXRleCA9IE11dGV4KCkKCiAgICBzdXNwZW5kIGZ1biA8VD4gcnVuVHJhbnNpdGlvbihhY3Rpb246IHN1c3BlbmQgKCkgLT4gVCk6IFQgewogICAgICAgIHJldHVybiBtdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIGFjdGlvbigpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.preferences
+
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+internal class ThemeTargetOperationCoordinator {
+    private val mutex = Mutex()
+
+    suspend fun <T> runTransition(action: suspend () -> T): T {
+        return mutex.withLock {
+            action()
+        }
+    }
+}

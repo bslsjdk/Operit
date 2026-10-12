@@ -1,1 +1,54 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuY29tcG9uZW50cy5kaWFsb2dzLmNvbnRlbnQKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkFycmFuZ2VtZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlBhZGRpbmdWYWx1ZXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuZmlsbE1heFdpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlDb2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlN1cmZhY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuVGV4dFVuaXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubWNwLk1DUExvY2FsU2VydmVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQoKLyoqCiAqIENvbnRlbnQgY29tcG9uZW50IGZvciB0aGUgTUNQIHNlcnZlciBkZXRhaWxzIGRpYUFwcExvZ2dlci4KICogCiAqIEBwYXJhbSBzZXJ2ZXIgVGhlIE1DUCBzZXJ2ZXIgdG8gZGlzcGxheSBkZXRhaWxzIGZvcgogKiBAcGFyYW0gbW9kaWZpZXIgTW9kaWZpZXIgZm9yIHRoZSBjb21wb25lbnQKICogQHBhcmFtIG1kRm9udFNpemUgRm9udCBzaXplIGZvciBtYXJrZG93biBjb250ZW50CiAqLwpAQ29tcG9zYWJsZQpmdW4gTUNQU2VydmVyRGV0YWlsc0NvbnRlbnQoCiAgICBzZXJ2ZXI6IE1DUExvY2FsU2VydmVyLlBsdWdpbk1ldGFkYXRhLAogICAgbW9kaWZpZXI6IE1vZGlmaWVyID0gTW9kaWZpZXIsCiAgICBtZEZvbnRTaXplOiBUZXh0VW5pdCA9IDE0LnNwCikgewogICAgTGF6eUNvbHVtbigKICAgICAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllci5maWxsTWF4V2lkdGgoKS5wYWRkaW5nKGhvcml6b250YWwgPSAxMi5kcCwgdmVydGljYWwgPSA4LmRwKSwKICAgICAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApLAogICAgICAgICAgICBjb250ZW50UGFkZGluZyA9IFBhZGRpbmdWYWx1ZXModmVydGljYWwgPSA0LmRwKQogICAgKSB7CgogICAgICAgIC8vIOaPj+i/sOWGheWuuQogICAgICAgIGl0ZW0gewogICAgICAgICAgICBTdXJmYWNlKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKS5wYWRkaW5nKHZlcnRpY2FsID0gNC5kcCksCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZVZhcmlhbnQuY29weShhbHBoYSA9IDAuM2YpLAogICAgICAgICAgICAgICAgc2hhcGUgPSBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlKDguZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc2VydmVyLmRlc2NyaXB0aW9uLnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9ID86IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLm1jcF9ub19kZXNjcmlwdGlvbiksCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keU1lZGl1bS5jb3B5KGZvbnRTaXplID0gbWRGb250U2l6ZSksCiAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKDEyLmRwKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.packages.components.dialogs.content
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.mcp.MCPLocalServer
+import androidx.compose.ui.res.stringResource
+
+/**
+ * Content component for the MCP server details diaAppLogger.
+ * 
+ * @param server The MCP server to display details for
+ * @param modifier Modifier for the component
+ * @param mdFontSize Font size for markdown content
+ */
+@Composable
+fun MCPServerDetailsContent(
+    server: MCPLocalServer.PluginMetadata,
+    modifier: Modifier = Modifier,
+    mdFontSize: TextUnit = 14.sp
+) {
+    LazyColumn(
+            modifier = modifier.fillMaxWidth().padding(horizontal = 12.dp, vertical = 8.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+            contentPadding = PaddingValues(vertical = 4.dp)
+    ) {
+
+        // 描述内容
+        item {
+            Surface(
+                modifier = Modifier.fillMaxWidth().padding(vertical = 4.dp),
+                color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.3f),
+                shape = androidx.compose.foundation.shape.RoundedCornerShape(8.dp)
+            ) {
+                Text(
+                    text = server.description.takeIf { it.isNotBlank() } ?: stringResource(R.string.mcp_no_description),
+                    style = MaterialTheme.typography.bodyMedium.copy(fontSize = mdFontSize),
+                    modifier = Modifier.padding(12.dp)
+                )
+            }
+        }
+    }
+}

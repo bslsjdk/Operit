@@ -1,1 +1,33 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnN0eWxlLmlucHV0LmNvbW1vbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkFsZXJ0RGlhbG9nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0QnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCgpAQ29tcG9zYWJsZQpmdW4gQ2hhcmFjdGVyQ2FyZE1vZGVsQmluZGluZ1N3aXRjaENvbmZpcm1EaWFsb2coCiAgICB2aXNpYmxlOiBCb29sZWFuLAogICAgb25Db25maXJtOiAoKSAtPiBVbml0LAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0LAopIHsKICAgIGlmICghdmlzaWJsZSkgcmV0dXJuCgogICAgQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzcywKICAgICAgICB0aXRsZSA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5jaGFyYWN0ZXJfY2FyZF9tb2RlbF9zd2l0Y2hfY29uZmlybV90aXRsZSkpIH0sCiAgICAgICAgdGV4dCA9IHsgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5jaGFyYWN0ZXJfY2FyZF9tb2RlbF9zd2l0Y2hfY29uZmlybV9tZXNzYWdlKSkgfSwKICAgICAgICBjb25maXJtQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSBvbkNvbmZpcm0pIHsKICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY2hhcmFjdGVyX2NhcmRfbW9kZWxfc3dpdGNoX2NvbmZpcm1fYWN0aW9uKSkKICAgICAgICAgICAgfQogICAgICAgIH0sCiAgICAgICAgZGlzbWlzc0J1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0gb25EaXNtaXNzKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNhbmNlbCkpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgKQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components.style.input.common
+
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.res.stringResource
+import com.bslsjdk.operit.R
+
+@Composable
+fun CharacterCardModelBindingSwitchConfirmDialog(
+    visible: Boolean,
+    onConfirm: () -> Unit,
+    onDismiss: () -> Unit,
+) {
+    if (!visible) return
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.character_card_model_switch_confirm_title)) },
+        text = { Text(stringResource(R.string.character_card_model_switch_confirm_message)) },
+        confirmButton = {
+            TextButton(onClick = onConfirm) {
+                Text(stringResource(R.string.character_card_model_switch_confirm_action))
+            }
+        },
+        dismissButton = {
+            TextButton(onClick = onDismiss) {
+                Text(stringResource(R.string.cancel))
+            }
+        },
+    )
+}

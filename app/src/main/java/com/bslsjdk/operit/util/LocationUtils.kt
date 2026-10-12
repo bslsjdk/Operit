@@ -1,1 +1,208 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuTWFuaWZlc3QKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQucG0uUGFja2FnZU1hbmFnZXIKaW1wb3J0IGFuZHJvaWQubG9jYXRpb24uR2VvY29kZXIKaW1wb3J0IGFuZHJvaWQubG9jYXRpb24uQWRkcmVzcwppbXBvcnQgYW5kcm9pZC5sb2NhdGlvbi5Mb2NhdGlvbgppbXBvcnQgYW5kcm9pZC5sb2NhdGlvbi5Mb2NhdGlvbk1hbmFnZXIKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQub3MuQ2FuY2VsbGF0aW9uU2lnbmFsCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uUmVxdWlyZXNQZXJtaXNzaW9uCmltcG9ydCBhbmRyb2lkeC5jb3JlLmNvbnRlbnQuQ29udGV4dENvbXBhdAppbXBvcnQgYW5kcm9pZC50ZWxlcGhvbnkuVGVsZXBob255TWFuYWdlcgppbXBvcnQgamF2YS51dGlsLlRpbWVab25lCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zdXNwZW5kQ2FuY2VsbGFibGVDb3JvdXRpbmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAppbXBvcnQgamF2YS51dGlsLkxvY2FsZQppbXBvcnQgamF2YS51dGlsLmZ1bmN0aW9uLkNvbnN1bWVyCmltcG9ydCBrb3RsaW4uY29yb3V0aW5lcy5yZXN1bWUKaW1wb3J0IGtvdGxpbi5jb3JvdXRpbmVzLnJlc3VtZVdpdGhFeGNlcHRpb24KCm9iamVjdCBMb2NhdGlvblV0aWxzIHsKCiAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiTG9jYXRpb25VdGlscyIKCiAgICAvKioKICAgICAqIOS9v+eUqOWuieWNk+WOn+eUn0FQSe+8jOajgOa1i+iuvuWkh+aYr+WQpuWcqOS4reWbveWkp+mZhuOAggogICAgICog5q2k5pa55rOV5LiN5L6d6LWW5Lu75L2VR29vZ2xlIFBsYXkgU2VydmljZXPjgIIKICAgICAqLwogICAgQFJlcXVpcmVzUGVybWlzc2lvbihhbnlPZiA9IFtNYW5pZmVzdC5wZXJtaXNzaW9uLkFDQ0VTU19GSU5FX0xPQ0FUSU9OLCBNYW5pZmVzdC5wZXJtaXNzaW9uLkFDQ0VTU19DT0FSU0VfTE9DQVRJT05dKQogICAgc3VzcGVuZCBmdW4gaXNEZXZpY2VJbk1haW5sYW5kQ2hpbmEoY29udGV4dDogQ29udGV4dCk6IEJvb2xlYW4gewogICAgICAgIC8vIEZhc3QsIHBlcm1pc3Npb25sZXNzIGhldXJpc3RpY3MgZmlyc3QKICAgICAgICBnZXRDb3VudHJ5SXNvQnlUZWxlcGhvbnkoY29udGV4dCk/LmxldCB7IGlzbyAtPgogICAgICAgICAgICBpZiAoaXNvLmVxdWFscygiQ04iLCB0cnVlKSkgcmV0dXJuIHRydWUKICAgICAgICB9CiAgICAgICAgaWYgKGlzQ2hpbmFUaW1lem9uZSgpKSByZXR1cm4gdHJ1ZQoKICAgICAgICBpZiAoIWhhc0xvY2F0aW9uUGVybWlzc2lvbihjb250ZXh0KSkgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJObyBsb2NhdGlvbiBwZXJtaXNzaW9uOyByZXR1cm5pbmcgcmVzdWx0IGZyb20gaGV1cmlzdGljcyBvbmx5LiIpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICB2YWwgbG9jYXRpb25NYW5hZ2VyID0gY29udGV4dC5nZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuTE9DQVRJT05fU0VSVklDRSkgYXMgTG9jYXRpb25NYW5hZ2VyCgogICAgICAgIHRyeSB7CiAgICAgICAgICAgIHZhbCBsYXN0S25vd25Mb2NhdGlvbiA9IGxvY2F0aW9uTWFuYWdlci5nZXRMYXN0S25vd25Mb2NhdGlvbihMb2NhdGlvbk1hbmFnZXIuTkVUV09SS19QUk9WSURFUikKICAgICAgICAgICAgICAgID86IGxvY2F0aW9uTWFuYWdlci5nZXRMYXN0S25vd25Mb2NhdGlvbihMb2NhdGlvbk1hbmFnZXIuR1BTX1BST1ZJREVSKQogICAgICAgICAgICBpZiAobGFzdEtub3duTG9jYXRpb24gIT0gbnVsbCkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiR290IGxhc3Qga25vd24gbG9jYXRpb24gZnJvbSBuYXRpdmUgQVBJLiIpCiAgICAgICAgICAgICAgICByZXR1cm4gZ2V0Q291bnRyeUZyb21Mb2NhdGlvbihjb250ZXh0LCBsYXN0S25vd25Mb2NhdGlvbikKICAgICAgICAgICAgfQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJObyBsYXN0IGtub3duIGxvY2F0aW9uLCByZXF1ZXN0aW5nIGN1cnJlbnQgbG9jYXRpb24gdXBkYXRlLiIpCiAgICAgICAgICAgIHZhbCBjdXJyZW50TG9jYXRpb24gPSBnZXRDdXJyZW50TG9jYXRpb25OYXRpdmUoY29udGV4dCwgbG9jYXRpb25NYW5hZ2VyKQogICAgICAgICAgICByZXR1cm4gZ2V0Q291bnRyeUZyb21Mb2NhdGlvbihjb250ZXh0LCBjdXJyZW50TG9jYXRpb24pCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBnZXQgbG9jYXRpb24gdXNpbmcgbmF0aXZlIEFQSSIsIGUpCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOWwgeijheWOn+eUn0FQSeeahOWbnuiwg++8jOS7peWNj+eoi+aWueW8j+iOt+WPluW9k+WJjeS9jee9ruOAggogICAgICovCiAgICBAUmVxdWlyZXNQZXJtaXNzaW9uKGFueU9mID0gW01hbmlmZXN0LnBlcm1pc3Npb24uQUNDRVNTX0ZJTkVfTE9DQVRJT04sIE1hbmlmZXN0LnBlcm1pc3Npb24uQUNDRVNTX0NPQVJTRV9MT0NBVElPTl0pCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGdldEN1cnJlbnRMb2NhdGlvbk5hdGl2ZShjb250ZXh0OiBDb250ZXh0LCBsb2NhdGlvbk1hbmFnZXI6IExvY2F0aW9uTWFuYWdlcik6IExvY2F0aW9uIHsKICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuUikgewogICAgICAgICAgICByZXR1cm4gc3VzcGVuZENhbmNlbGxhYmxlQ29yb3V0aW5lIHsgY29udGludWF0aW9uIC0+CiAgICAgICAgICAgICAgICB2YWwgY2FuY2VsbGF0aW9uU2lnbmFsID0gQ2FuY2VsbGF0aW9uU2lnbmFsKCkKICAgICAgICAgICAgICAgIGNvbnRpbnVhdGlvbi5pbnZva2VPbkNhbmNlbGxhdGlvbiB7IGNhbmNlbGxhdGlvblNpZ25hbC5jYW5jZWwoKSB9CiAgICAgICAgICAgICAgICBsb2NhdGlvbk1hbmFnZXIuZ2V0Q3VycmVudExvY2F0aW9uKAogICAgICAgICAgICAgICAgICAgIExvY2F0aW9uTWFuYWdlci5ORVRXT1JLX1BST1ZJREVSLAogICAgICAgICAgICAgICAgICAgIGNhbmNlbGxhdGlvblNpZ25hbCwKICAgICAgICAgICAgICAgICAgICBjb250ZXh0Lm1haW5FeGVjdXRvciwKICAgICAgICAgICAgICAgICAgICBDb25zdW1lciB7IGxvY2F0aW9uIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChsb2NhdGlvbiAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250aW51YXRpb24ucmVzdW1lKGxvY2F0aW9uKQogICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWF0aW9uLnJlc3VtZVdpdGhFeGNlcHRpb24oUnVudGltZUV4Y2VwdGlvbigiRmFpbGVkIHRvIGdldCBsb2NhdGlvbiBmcm9tIE5ldHdvcmsgcHJvdmlkZXIuIikpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBAU3VwcHJlc3MoIkRFUFJFQ0FUSU9OIikKICAgICAgICAgICAgcmV0dXJuIHN1c3BlbmRDYW5jZWxsYWJsZUNvcm91dGluZSB7IGNvbnRpbnVhdGlvbiAtPgogICAgICAgICAgICAgICAgdmFsIGxvY2F0aW9uTGlzdGVuZXIgPSBvYmplY3QgOiBhbmRyb2lkLmxvY2F0aW9uLkxvY2F0aW9uTGlzdGVuZXIgewogICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkxvY2F0aW9uQ2hhbmdlZChsb2NhdGlvbjogTG9jYXRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgbG9jYXRpb25NYW5hZ2VyLnJlbW92ZVVwZGF0ZXModGhpcykKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWF0aW9uLnJlc3VtZShsb2NhdGlvbikKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIG9uUHJvdmlkZXJEaXNhYmxlZChwcm92aWRlcjogU3RyaW5nKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGxvY2F0aW9uTWFuYWdlci5yZW1vdmVVcGRhdGVzKHRoaXMpCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVhdGlvbi5yZXN1bWVXaXRoRXhjZXB0aW9uKFJ1bnRpbWVFeGNlcHRpb24oIlByb3ZpZGVyICRwcm92aWRlciBkaXNhYmxlZCIpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNvbnRpbnVhdGlvbi5pbnZva2VPbkNhbmNlbGxhdGlvbiB7IGxvY2F0aW9uTWFuYWdlci5yZW1vdmVVcGRhdGVzKGxvY2F0aW9uTGlzdGVuZXIpIH0KICAgICAgICAgICAgICAgIGxvY2F0aW9uTWFuYWdlci5yZXF1ZXN0U2luZ2xlVXBkYXRlKExvY2F0aW9uTWFuYWdlci5ORVRXT1JLX1BST1ZJREVSLCBsb2NhdGlvbkxpc3RlbmVyLCBjb250ZXh0Lm1haW5Mb29wZXIpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlsIZMb2NhdGlvbuWvueixoemAmui/h0dlb2NvZGVy6L2s5o2i5Li65Zu95a625Luj56CB5bm26L+b6KGM5Yik5pat44CCCiAgICAgKi8KICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gZ2V0Q291bnRyeUZyb21Mb2NhdGlvbihjb250ZXh0OiBDb250ZXh0LCBsb2NhdGlvbjogTG9jYXRpb24pOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCBhZGRyZXNzZXM6IExpc3Q8QWRkcmVzcz4/ID0gaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLlRJUkFNSVNVKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gQW5kcm9pZCAxMysgYXN5bmMgQVBJIOKAlCBzdXNwZW5kIHVudGlsIGNhbGxiYWNrCiAgICAgICAgICAgICAgICAgICAgc3VzcGVuZENhbmNlbGxhYmxlQ29yb3V0aW5lIHsgY29udCAtPgogICAgICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgR2VvY29kZXIoY29udGV4dCwgTG9jYWxlLmdldERlZmF1bHQoKSkuZ2V0RnJvbUxvY2F0aW9uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvY2F0aW9uLmxhdGl0dWRlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxvY2F0aW9uLmxvbmdpdHVkZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9iamVjdCA6IEdlb2NvZGVyLkdlb2NvZGVMaXN0ZW5lciB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkdlb2NvZGUocmVzdWx0czogTXV0YWJsZUxpc3Q8QWRkcmVzcz4pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnQucmVzdW1lKHJlc3VsdHMpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG92ZXJyaWRlIGZ1biBvbkVycm9yKGVycm9yTWVzc2FnZTogU3RyaW5nPykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiR2VvY29kZXIgZXJyb3I6ICRlcnJvck1lc3NhZ2UiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udC5yZXN1bWUoZW1wdHlMaXN0KCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udC5yZXN1bWVXaXRoRXhjZXB0aW9uKGUpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIEBTdXBwcmVzcygiREVQUkVDQVRJT04iKQogICAgICAgICAgICAgICAgICAgIEdlb2NvZGVyKGNvbnRleHQsIExvY2FsZS5nZXREZWZhdWx0KCkpLmdldEZyb21Mb2NhdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgbG9jYXRpb24ubGF0aXR1ZGUsCiAgICAgICAgICAgICAgICAgICAgICAgIGxvY2F0aW9uLmxvbmdpdHVkZSwKICAgICAgICAgICAgICAgICAgICAgICAgMQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBpZiAoIWFkZHJlc3Nlcy5pc051bGxPckVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgY291bnRyeUNvZGUgPSBhZGRyZXNzZXNbMF0uY291bnRyeUNvZGUKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJEZXRlY3RlZCBjb3VudHJ5IGNvZGU6ICRjb3VudHJ5Q29kZSIpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0ICJDTiIuZXF1YWxzKGNvdW50cnlDb2RlLCBpZ25vcmVDYXNlID0gdHJ1ZSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyBGYWxsYmFjayB0byBjb29yZGluYXRlIGJvdW5kcyBpZiByZXZlcnNlIGdlb2NvZGluZyBmYWlsZWQKICAgICAgICAgICAgICAgIHZhbCBpbkJvdW5kcyA9IGlzV2l0aGluTWFpbmxhbmRDaGluYUJvdW5kcyhsb2NhdGlvbi5sYXRpdHVkZSwgbG9jYXRpb24ubG9uZ2l0dWRlKQogICAgICAgICAgICAgICAgaWYgKCFpbkJvdW5kcykgQXBwTG9nZ2VyLncoVEFHLCAiQ29vcmRpbmF0ZXMgb3V0c2lkZSBDTiBib3VuZHM7IGxhdD0ke2xvY2F0aW9uLmxhdGl0dWRlfSwgbG9uPSR7bG9jYXRpb24ubG9uZ2l0dWRlfSIpCiAgICAgICAgICAgICAgICBpbkJvdW5kcwogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkdlb2NvZGVyIGZhaWxlZCIsIGUpCiAgICAgICAgICAgICAgICBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGlzV2l0aGluTWFpbmxhbmRDaGluYUJvdW5kcyhsYXQ6IERvdWJsZSwgbG9uOiBEb3VibGUpOiBCb29sZWFuIHsKICAgICAgICB2YWwgaW5Sb3VnaEJvdW5kcyA9IGxhdCBpbiAxOC4wLi41NC4wICYmIGxvbiBpbiA3My4wLi4xMzUuMAogICAgICAgIGlmICghaW5Sb3VnaEJvdW5kcykgcmV0dXJuIGZhbHNlCiAgICAgICAgLy8gRXhjbHVkZSBjb21tb24gbm9uLW1haW5sYW5kIHJlZ2lvbnMgd2l0aCBjb2Fyc2UgYm94ZXMKICAgICAgICB2YWwgaW5UYWl3YW4gPSBsYXQgaW4gMjAuNS4uMjUuNiAmJiBsb24gaW4gMTE5LjMuLjEyMi4wCiAgICAgICAgdmFsIGluSG9uZ0tvbmcgPSBsYXQgaW4gMjIuMS4uMjIuNiAmJiBsb24gaW4gMTEzLjguLjExNC40CiAgICAgICAgdmFsIGluTWFjYXUgPSBsYXQgaW4gMjIuMDguLjIyLjIzICYmIGxvbiBpbiAxMTMuNTIuLjExMy42NQogICAgICAgIHJldHVybiAhKGluVGFpd2FuIHx8IGluSG9uZ0tvbmcgfHwgaW5NYWNhdSkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBnZXRDb3VudHJ5SXNvQnlUZWxlcGhvbnkoY29udGV4dDogQ29udGV4dCk6IFN0cmluZz8gewogICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICB2YWwgdG0gPSBjb250ZXh0LmdldFN5c3RlbVNlcnZpY2UoQ29udGV4dC5URUxFUEhPTllfU0VSVklDRSkgYXMgVGVsZXBob255TWFuYWdlcgogICAgICAgICAgICB2YWwgbmV0d29ya0lzbyA9IHRtLm5ldHdvcmtDb3VudHJ5SXNvPy50cmltKCkKICAgICAgICAgICAgdmFsIHNpbUlzbyA9IHRtLnNpbUNvdW50cnlJc28/LnRyaW0oKQogICAgICAgICAgICB2YWwgaXNvID0gKG5ldHdvcmtJc28/LmlmQmxhbmsgeyBudWxsIH0gPzogc2ltSXNvPy5pZkJsYW5rIHsgbnVsbCB9KQogICAgICAgICAgICBpc28/LnVwcGVyY2FzZShMb2NhbGUuUk9PVCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiVGVsZXBob255IGNvdW50cnkgSVNPIHVuYXZhaWxhYmxlIiwgZSkKICAgICAgICAgICAgbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBpc0NoaW5hVGltZXpvbmUoKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCB0eiA9IFRpbWVab25lLmdldERlZmF1bHQoKQogICAgICAgICAgICB0ei5pZC5lcXVhbHMoIkFzaWEvU2hhbmdoYWkiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfHwgdHouaWQuZXF1YWxzKCJBc2lhL1VydW1xaSIsIGlnbm9yZUNhc2UgPSB0cnVlKQogICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICBmYWxzZQogICAgICAgIH0KICAgIH0KCiAgICAvKioKICAgICAqIOajgOafpeW6lOeUqOaYr+WQpuWFt+acieeyl+eVpeaIlueyvue7huS9jee9ruadg+mZkOOAggogICAgICovCiAgICBwcml2YXRlIGZ1biBoYXNMb2NhdGlvblBlcm1pc3Npb24oY29udGV4dDogQ29udGV4dCk6IEJvb2xlYW4gewogICAgICAgIHZhbCBoYXNQZXJtaXNzaW9uID0gQ29udGV4dENvbXBhdC5jaGVja1NlbGZQZXJtaXNzaW9uKAogICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICBNYW5pZmVzdC5wZXJtaXNzaW9uLkFDQ0VTU19DT0FSU0VfTE9DQVRJT04KICAgICAgICApID09IFBhY2thZ2VNYW5hZ2VyLlBFUk1JU1NJT05fR1JBTlRFRCB8fCBDb250ZXh0Q29tcGF0LmNoZWNrU2VsZlBlcm1pc3Npb24oCiAgICAgICAgICAgIGNvbnRleHQsCiAgICAgICAgICAgIE1hbmlmZXN0LnBlcm1pc3Npb24uQUNDRVNTX0ZJTkVfTE9DQVRJT04KICAgICAgICApID09IFBhY2thZ2VNYW5hZ2VyLlBFUk1JU1NJT05fR1JBTlRFRAogICAgICAgIGlmICghaGFzUGVybWlzc2lvbikgewogICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJMb2NhdGlvbiBwZXJtaXNzaW9uIG5vdCBncmFudGVkLiIpCiAgICAgICAgfQogICAgICAgIHJldHVybiBoYXNQZXJtaXNzaW9uCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import android.Manifest
+import android.annotation.SuppressLint
+import android.content.Context
+import android.content.pm.PackageManager
+import android.location.Geocoder
+import android.location.Address
+import android.location.Location
+import android.location.LocationManager
+import android.os.Build
+import android.os.CancellationSignal
+import com.bslsjdk.operit.util.AppLogger
+import androidx.annotation.RequiresPermission
+import androidx.core.content.ContextCompat
+import android.telephony.TelephonyManager
+import java.util.TimeZone
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.suspendCancellableCoroutine
+import kotlinx.coroutines.withContext
+import java.util.Locale
+import java.util.function.Consumer
+import kotlin.coroutines.resume
+import kotlin.coroutines.resumeWithException
+
+object LocationUtils {
+
+    private const val TAG = "LocationUtils"
+
+    /**
+     * 使用安卓原生API，检测设备是否在中国大陆。
+     * 此方法不依赖任何Google Play Services。
+     */
+    @RequiresPermission(anyOf = [Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION])
+    suspend fun isDeviceInMainlandChina(context: Context): Boolean {
+        // Fast, permissionless heuristics first
+        getCountryIsoByTelephony(context)?.let { iso ->
+            if (iso.equals("CN", true)) return true
+        }
+        if (isChinaTimezone()) return true
+
+        if (!hasLocationPermission(context)) {
+            AppLogger.w(TAG, "No location permission; returning result from heuristics only.")
+            return false
+        }
+        val locationManager = context.getSystemService(Context.LOCATION_SERVICE) as LocationManager
+
+        try {
+            val lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER)
+                ?: locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER)
+            if (lastKnownLocation != null) {
+                AppLogger.d(TAG, "Got last known location from native API.")
+                return getCountryFromLocation(context, lastKnownLocation)
+            }
+            AppLogger.d(TAG, "No last known location, requesting current location update.")
+            val currentLocation = getCurrentLocationNative(context, locationManager)
+            return getCountryFromLocation(context, currentLocation)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to get location using native API", e)
+            return false
+        }
+    }
+
+    /**
+     * 封装原生API的回调，以协程方式获取当前位置。
+     */
+    @RequiresPermission(anyOf = [Manifest.permission.ACCESS_FINE_LOCATION, Manifest.permission.ACCESS_COARSE_LOCATION])
+    private suspend fun getCurrentLocationNative(context: Context, locationManager: LocationManager): Location {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            return suspendCancellableCoroutine { continuation ->
+                val cancellationSignal = CancellationSignal()
+                continuation.invokeOnCancellation { cancellationSignal.cancel() }
+                locationManager.getCurrentLocation(
+                    LocationManager.NETWORK_PROVIDER,
+                    cancellationSignal,
+                    context.mainExecutor,
+                    Consumer { location ->
+                        if (location != null) {
+                            continuation.resume(location)
+                        } else {
+                            continuation.resumeWithException(RuntimeException("Failed to get location from Network provider."))
+                        }
+                    }
+                )
+            }
+        } else {
+            @Suppress("DEPRECATION")
+            return suspendCancellableCoroutine { continuation ->
+                val locationListener = object : android.location.LocationListener {
+                    override fun onLocationChanged(location: Location) {
+                        locationManager.removeUpdates(this)
+                        continuation.resume(location)
+                    }
+                    override fun onProviderDisabled(provider: String) {
+                        locationManager.removeUpdates(this)
+                        continuation.resumeWithException(RuntimeException("Provider $provider disabled"))
+                    }
+                }
+                continuation.invokeOnCancellation { locationManager.removeUpdates(locationListener) }
+                locationManager.requestSingleUpdate(LocationManager.NETWORK_PROVIDER, locationListener, context.mainLooper)
+            }
+        }
+    }
+
+    /**
+     * 将Location对象通过Geocoder转换为国家代码并进行判断。
+     */
+    private suspend fun getCountryFromLocation(context: Context, location: Location): Boolean {
+        return withContext(Dispatchers.IO) {
+            try {
+                val addresses: List<Address>? = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    // Android 13+ async API — suspend until callback
+                    suspendCancellableCoroutine { cont ->
+                        try {
+                            Geocoder(context, Locale.getDefault()).getFromLocation(
+                                location.latitude,
+                                location.longitude,
+                                1,
+                                object : Geocoder.GeocodeListener {
+                                    override fun onGeocode(results: MutableList<Address>) {
+                                        cont.resume(results)
+                                    }
+
+                                    override fun onError(errorMessage: String?) {
+                                        AppLogger.w(TAG, "Geocoder error: $errorMessage")
+                                        cont.resume(emptyList())
+                                    }
+                                }
+                            )
+                        } catch (e: Exception) {
+                            cont.resumeWithException(e)
+                        }
+                    }
+                } else {
+                    @Suppress("DEPRECATION")
+                    Geocoder(context, Locale.getDefault()).getFromLocation(
+                        location.latitude,
+                        location.longitude,
+                        1
+                    )
+                }
+
+                if (!addresses.isNullOrEmpty()) {
+                    val countryCode = addresses[0].countryCode
+                    AppLogger.d(TAG, "Detected country code: $countryCode")
+                    return@withContext "CN".equals(countryCode, ignoreCase = true)
+                }
+
+                // Fallback to coordinate bounds if reverse geocoding failed
+                val inBounds = isWithinMainlandChinaBounds(location.latitude, location.longitude)
+                if (!inBounds) AppLogger.w(TAG, "Coordinates outside CN bounds; lat=${location.latitude}, lon=${location.longitude}")
+                inBounds
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "Geocoder failed", e)
+                false
+            }
+        }
+    }
+
+    private fun isWithinMainlandChinaBounds(lat: Double, lon: Double): Boolean {
+        val inRoughBounds = lat in 18.0..54.0 && lon in 73.0..135.0
+        if (!inRoughBounds) return false
+        // Exclude common non-mainland regions with coarse boxes
+        val inTaiwan = lat in 20.5..25.6 && lon in 119.3..122.0
+        val inHongKong = lat in 22.1..22.6 && lon in 113.8..114.4
+        val inMacau = lat in 22.08..22.23 && lon in 113.52..113.65
+        return !(inTaiwan || inHongKong || inMacau)
+    }
+
+    private fun getCountryIsoByTelephony(context: Context): String? {
+        return try {
+            val tm = context.getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
+            val networkIso = tm.networkCountryIso?.trim()
+            val simIso = tm.simCountryIso?.trim()
+            val iso = (networkIso?.ifBlank { null } ?: simIso?.ifBlank { null })
+            iso?.uppercase(Locale.ROOT)
+        } catch (e: Exception) {
+            AppLogger.w(TAG, "Telephony country ISO unavailable", e)
+            null
+        }
+    }
+
+    private fun isChinaTimezone(): Boolean {
+        return try {
+            val tz = TimeZone.getDefault()
+            tz.id.equals("Asia/Shanghai", ignoreCase = true) || tz.id.equals("Asia/Urumqi", ignoreCase = true)
+        } catch (_: Exception) {
+            false
+        }
+    }
+
+    /**
+     * 检查应用是否具有粗略或精细位置权限。
+     */
+    private fun hasLocationPermission(context: Context): Boolean {
+        val hasPermission = ContextCompat.checkSelfPermission(
+            context,
+            Manifest.permission.ACCESS_COARSE_LOCATION
+        ) == PackageManager.PERMISSION_GRANTED || ContextCompat.checkSelfPermission(
+            context,
+            Manifest.permission.ACCESS_FINE_LOCATION
+        ) == PackageManager.PERMISSION_GRANTED
+        if (!hasPermission) {
+            AppLogger.w(TAG, "Location permission not granted.")
+        }
+        return hasPermission
+    }
+}

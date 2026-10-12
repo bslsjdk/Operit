@@ -1,1 +1,111 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnNwZWVjaAoKaW1wb3J0IGFuZHJvaWQubWVkaWEuTWVkaWFSZWNvcmRlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CgovKiog6K+t6Z+z6K+G5Yir5pyN5Yqh5o6l5Y+jIOWumuS5ieS4juS4jeWQjOivremfs+ivhuWIq+W8leaTjui/m+ihjOS6pOS6kueahOagh+WHhuaWueazlSAqLwppbnRlcmZhY2UgU3BlZWNoU2VydmljZSB7CiAgICAvKiog5b2T5YmN6K+G5Yir5byV5pOO54q25oCB5p6a5Li+ICovCiAgICBlbnVtIGNsYXNzIFJlY29nbml0aW9uU3RhdGUgewogICAgICAgIC8qKiDmnKrliJ3lp4vljJYgKi8KICAgICAgICBVTklOSVRJQUxJWkVELAogICAgICAgIC8qKiDnqbrpl7LkuK0gKi8KICAgICAgICBJRExFLAogICAgICAgIC8qKiDlh4blpIfkuK0gKi8KICAgICAgICBQUkVQQVJJTkcsCiAgICAgICAgLyoqIOivhuWIq+S4rSAqLwogICAgICAgIFJFQ09HTklaSU5HLAogICAgICAgIC8qKiDnrYnlvoXmnIDnu4jnu5PmnpwgKi8KICAgICAgICBQUk9DRVNTSU5HLAogICAgICAgIC8qKiDlh7rplJkgKi8KICAgICAgICBFUlJPUgogICAgfQoKICAgIC8qKgogICAgICog6K+G5Yir57uT5p6c57G75Z6LCiAgICAgKiBAcGFyYW0gdGV4dCDor4bliKvnmoTmlofmnKwKICAgICAqIEBwYXJhbSBpc0ZpbmFsIOaYr+WQpuaYr+acgOe7iOe7k+aenAogICAgICogQHBhcmFtIGNvbmZpZGVuY2Ug572u5L+h5bqmIDAuMC0xLjAKICAgICAqLwogICAgZGF0YSBjbGFzcyBSZWNvZ25pdGlvblJlc3VsdCgKICAgICAgICAgICAgdmFsIHRleHQ6IFN0cmluZywKICAgICAgICAgICAgdmFsIGlzRmluYWw6IEJvb2xlYW4gPSBmYWxzZSwKICAgICAgICAgICAgdmFsIGNvbmZpZGVuY2U6IEZsb2F0ID0gMGYKICAgICkKCiAgICAvKiog6K+G5Yir6ZSZ6K+v57G75Z6LICovCiAgICBkYXRhIGNsYXNzIFJlY29nbml0aW9uRXJyb3IodmFsIGNvZGU6IEludCwgdmFsIG1lc3NhZ2U6IFN0cmluZykKCiAgICAvKiog5b2T5YmN6K+G5Yir5byV5pOO5piv5ZCm5Yid5aeL5YyW5a6M5oiQICovCiAgICB2YWwgaXNJbml0aWFsaXplZDogU3RhdGVGbG93PEJvb2xlYW4+CgogICAgLyoqIOW9k+WJjeivhuWIq+W8leaTjuaYr+WQpuato+WcqOivhuWIqyAqLwogICAgdmFsIGlzUmVjb2duaXppbmc6IEJvb2xlYW4KCiAgICAvKiog5b2T5YmN6K+G5Yir54q25oCBICovCiAgICB2YWwgY3VycmVudFN0YXRlOiBSZWNvZ25pdGlvblN0YXRlCgogICAgLyoqIOivhuWIq+eKtuaAgUZsb3fvvIznlKjkuo5VSeinguWvn+eKtuaAgeWPmOWMliAqLwogICAgdmFsIHJlY29nbml0aW9uU3RhdGVGbG93OiBTdGF0ZUZsb3c8UmVjb2duaXRpb25TdGF0ZT4KCiAgICAvKiog6K+G5Yir57uT5p6cRmxvd++8jOWMheWQq+S4remXtOe7k+aenOWSjOacgOe7iOe7k+aenCAqLwogICAgdmFsIHJlY29nbml0aW9uUmVzdWx0RmxvdzogU3RhdGVGbG93PFJlY29nbml0aW9uUmVzdWx0PgoKICAgIC8qKiDor4bliKvplJnor69GbG93ICovCiAgICB2YWwgcmVjb2duaXRpb25FcnJvckZsb3c6IFN0YXRlRmxvdzxSZWNvZ25pdGlvbkVycm9yPgogICAgCiAgICAvKiog6Z+z6YeP57qn5YirRmxvd++8jOiMg+WbtOS4ujAuMC0xLjDvvIzku6PooajlvZPliY3puqblhYvpo47ovpPlhaXnmoTpn7Pph4/nuqfliKsgKi8KICAgIHZhbCB2b2x1bWVMZXZlbEZsb3c6IFN0YXRlRmxvdzxGbG9hdD4KCiAgICAvKioKICAgICAqIOWIneWni+WMluivremfs+ivhuWIq+W8leaTjgogICAgICoKICAgICAqIEByZXR1cm4g5Yid5aeL5YyW5piv5ZCm5oiQ5YqfCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIGluaXRpYWxpemUoKTogQm9vbGVhbgoKICAgIC8qKgogICAgICog5byA5aeL6K+t6Z+z6K+G5YirCiAgICAgKgogICAgICogQHBhcmFtIGxhbmd1YWdlQ29kZSDor63oqIDku6PnoIHvvIzkvovlpoIgInpoLUNOIuOAgSJlbi1VUyIKICAgICAqIEBwYXJhbSBjb250aW51b3VzTW9kZSDmmK/lkKbmjIHnu63or4bliKvmqKHlvI/vvIx0cnVl6KGo56S65LiN5Lya6Ieq5Yqo5YGc5q2i77yM55u05Yiw6LCD55Soc3RvcCgpCiAgICAgKiBAcGFyYW0gcGFydGlhbFJlc3VsdHMg5piv5ZCm6L+U5Zue6YOo5YiG57uT5p6c77yM6Iul5Li6ZmFsc2XliJnlj6rov5Tlm57mnIDnu4jnu5PmnpwKICAgICAqIEBwYXJhbSBhdWRpb1NvdXJjZSDlvZXpn7PmupDvvIzpu5jorqTkvb/nlKggVk9JQ0VfQ09NTVVOSUNBVElPTgogICAgICogQHJldHVybiDlvIDlp4vor4bliKvmmK/lkKbmiJDlip8KICAgICAqLwogICAgc3VzcGVuZCBmdW4gc3RhcnRSZWNvZ25pdGlvbigKICAgICAgICAgICAgbGFuZ3VhZ2VDb2RlOiBTdHJpbmcgPSAiemgtQ04iLAogICAgICAgICAgICBjb250aW51b3VzTW9kZTogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgICAgICBwYXJ0aWFsUmVzdWx0czogQm9vbGVhbiA9IHRydWUsCiAgICAgICAgICAgIGF1ZGlvU291cmNlOiBJbnQgPSBNZWRpYVJlY29yZGVyLkF1ZGlvU291cmNlLlZPSUNFX0NPTU1VTklDQVRJT04sCiAgICApOiBCb29sZWFuCgogICAgLyoqCiAgICAgKiDlgZzmraLor63pn7Por4bliKsKICAgICAqCiAgICAgKiBAcmV0dXJuIOWBnOatouivhuWIq+aYr+WQpuaIkOWKnwogICAgICovCiAgICBzdXNwZW5kIGZ1biBzdG9wUmVjb2duaXRpb24oKTogQm9vbGVhbgoKICAgIC8qKiDlj5bmtojor63pn7Por4bliKvvvIzkuI3kvJrov5Tlm57ku7vkvZXnu5PmnpwgKi8KICAgIHN1c3BlbmQgZnVuIGNhbmNlbFJlY29nbml0aW9uKCkKCiAgICAvKiog6YeK5pS+6K+t6Z+z6K+G5Yir5byV5pOO6LWE5rqQICovCiAgICBmdW4gc2h1dGRvd24oKQoKICAgIC8qKgogICAgICog6I635Y+W5pSv5oyB55qE6K+t6KiA5YiX6KGoCiAgICAgKgogICAgICogQHJldHVybiDmlK/mjIHnmoTor63oqIDku6PnoIHliJfooagKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZ2V0U3VwcG9ydGVkTGFuZ3VhZ2VzKCk6IExpc3Q8U3RyaW5nPgoKICAgIC8qKgogICAgICog6K+G5Yir6aKE5YWI5b2V5Yi255qE6Z+z6aKR5pWw5o2uCiAgICAgKiDov5nkuKrmlrnms5XkuLvopoHnlLHmnKzlnLDor63pn7Por4bliKvlvJXmk47lrp7njrDvvIzlpoJXaGlzcGVyU3BlZWNoUHJvdmlkZXIKICAgICAqIAogICAgICogQHBhcmFtIGF1ZGlvRGF0YSDpn7PpopHmlbDmja7vvIzmoLzlvI/kuLrmta7ngrnmlbDnu4TooajnpLrnmoRQQ03mlbDmja4KICAgICAqLwogICAgc3VzcGVuZCBmdW4gcmVjb2duaXplKGF1ZGlvRGF0YTogRmxvYXRBcnJheSkKfQo=
+package com.bslsjdk.operit.api.speech
+
+import android.media.MediaRecorder
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.StateFlow
+
+/** 语音识别服务接口 定义与不同语音识别引擎进行交互的标准方法 */
+interface SpeechService {
+    /** 当前识别引擎状态枚举 */
+    enum class RecognitionState {
+        /** 未初始化 */
+        UNINITIALIZED,
+        /** 空闲中 */
+        IDLE,
+        /** 准备中 */
+        PREPARING,
+        /** 识别中 */
+        RECOGNIZING,
+        /** 等待最终结果 */
+        PROCESSING,
+        /** 出错 */
+        ERROR
+    }
+
+    /**
+     * 识别结果类型
+     * @param text 识别的文本
+     * @param isFinal 是否是最终结果
+     * @param confidence 置信度 0.0-1.0
+     */
+    data class RecognitionResult(
+            val text: String,
+            val isFinal: Boolean = false,
+            val confidence: Float = 0f
+    )
+
+    /** 识别错误类型 */
+    data class RecognitionError(val code: Int, val message: String)
+
+    /** 当前识别引擎是否初始化完成 */
+    val isInitialized: StateFlow<Boolean>
+
+    /** 当前识别引擎是否正在识别 */
+    val isRecognizing: Boolean
+
+    /** 当前识别状态 */
+    val currentState: RecognitionState
+
+    /** 识别状态Flow，用于UI观察状态变化 */
+    val recognitionStateFlow: StateFlow<RecognitionState>
+
+    /** 识别结果Flow，包含中间结果和最终结果 */
+    val recognitionResultFlow: StateFlow<RecognitionResult>
+
+    /** 识别错误Flow */
+    val recognitionErrorFlow: StateFlow<RecognitionError>
+    
+    /** 音量级别Flow，范围为0.0-1.0，代表当前麦克风输入的音量级别 */
+    val volumeLevelFlow: StateFlow<Float>
+
+    /**
+     * 初始化语音识别引擎
+     *
+     * @return 初始化是否成功
+     */
+    suspend fun initialize(): Boolean
+
+    /**
+     * 开始语音识别
+     *
+     * @param languageCode 语言代码，例如 "zh-CN"、"en-US"
+     * @param continuousMode 是否持续识别模式，true表示不会自动停止，直到调用stop()
+     * @param partialResults 是否返回部分结果，若为false则只返回最终结果
+     * @param audioSource 录音源，默认使用 VOICE_COMMUNICATION
+     * @return 开始识别是否成功
+     */
+    suspend fun startRecognition(
+            languageCode: String = "zh-CN",
+            continuousMode: Boolean = false,
+            partialResults: Boolean = true,
+            audioSource: Int = MediaRecorder.AudioSource.VOICE_COMMUNICATION,
+    ): Boolean
+
+    /**
+     * 停止语音识别
+     *
+     * @return 停止识别是否成功
+     */
+    suspend fun stopRecognition(): Boolean
+
+    /** 取消语音识别，不会返回任何结果 */
+    suspend fun cancelRecognition()
+
+    /** 释放语音识别引擎资源 */
+    fun shutdown()
+
+    /**
+     * 获取支持的语言列表
+     *
+     * @return 支持的语言代码列表
+     */
+    suspend fun getSupportedLanguages(): List<String>
+
+    /**
+     * 识别预先录制的音频数据
+     * 这个方法主要由本地语音识别引擎实现，如WhisperSpeechProvider
+     * 
+     * @param audioData 音频数据，格式为浮点数组表示的PCM数据
+     */
+    suspend fun recognize(audioData: FloatArray)
+}

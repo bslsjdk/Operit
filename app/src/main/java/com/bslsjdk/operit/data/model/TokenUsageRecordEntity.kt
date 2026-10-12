@@ -1,1 +1,32 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGFuZHJvaWR4LnJvb20uRW50aXR5CmltcG9ydCBhbmRyb2lkeC5yb29tLkluZGV4CmltcG9ydCBhbmRyb2lkeC5yb29tLlByaW1hcnlLZXkKCi8qKiBBIHN1Y2Nlc3NmdWwgZm9ybWFsLWluZmVyZW5jZSB1c2FnZSBmYWN0LiAqLwpARW50aXR5KAogICAgdGFibGVOYW1lID0gInRva2VuX3VzYWdlX3JlY29yZHMiLAogICAgaW5kaWNlcyA9IFsKICAgICAgICBJbmRleCh2YWx1ZSA9IFsib2NjdXJyZWRBdE1zIl0pLAogICAgICAgIEluZGV4KHZhbHVlID0gWyJwcm92aWRlciIsICJtb2RlbCIsICJjb25maWdJZCIsICJvY2N1cnJlZEF0TXMiXSksCiAgICAgICAgSW5kZXgodmFsdWUgPSBbImltcG9ydEtleSJdLCB1bmlxdWUgPSB0cnVlKSwKICAgIF0sCikKZGF0YSBjbGFzcyBUb2tlblVzYWdlUmVjb3JkRW50aXR5KAogICAgQFByaW1hcnlLZXkoYXV0b0dlbmVyYXRlID0gdHJ1ZSkgdmFsIGlkOiBMb25nID0gMEwsCiAgICB2YWwgaW1wb3J0S2V5OiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBvY2N1cnJlZEF0TXM6IExvbmc/LAogICAgdmFsIGNvbmZpZ0lkOiBTdHJpbmcsCiAgICB2YWwgcHJvdmlkZXI6IFN0cmluZywKICAgIHZhbCBtb2RlbDogU3RyaW5nLAogICAgdmFsIHJlcXVlc3RDb3VudDogTG9uZywKICAgIHZhbCB1bmNhY2hlZElucHV0VG9rZW5zOiBMb25nPyA9IG51bGwsCiAgICB2YWwgY2FjaGVkSW5wdXRUb2tlbnM6IExvbmc/ID0gbnVsbCwKICAgIHZhbCBjYWNoZVdyaXRlVG9rZW5zOiBMb25nPyA9IG51bGwsCiAgICB2YWwgdG90YWxJbnB1dFRva2VuczogTG9uZz8gPSBudWxsLAogICAgdmFsIG91dHB1dFRva2VuczogTG9uZz8gPSBudWxsLAopIHsKICAgIHZhbCBwcm92aWRlck1vZGVsOiBTdHJpbmcKICAgICAgICBnZXQoKSA9ICIkcHJvdmlkZXI6JG1vZGVsIgp9Cg==
+package com.bslsjdk.operit.data.model
+
+import androidx.room.Entity
+import androidx.room.Index
+import androidx.room.PrimaryKey
+
+/** A successful formal-inference usage fact. */
+@Entity(
+    tableName = "token_usage_records",
+    indices = [
+        Index(value = ["occurredAtMs"]),
+        Index(value = ["provider", "model", "configId", "occurredAtMs"]),
+        Index(value = ["importKey"], unique = true),
+    ],
+)
+data class TokenUsageRecordEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0L,
+    val importKey: String? = null,
+    val occurredAtMs: Long?,
+    val configId: String,
+    val provider: String,
+    val model: String,
+    val requestCount: Long,
+    val uncachedInputTokens: Long? = null,
+    val cachedInputTokens: Long? = null,
+    val cacheWriteTokens: Long? = null,
+    val totalInputTokens: Long? = null,
+    val outputTokens: Long? = null,
+) {
+    val providerModel: String
+        get() = "$provider:$model"
+}

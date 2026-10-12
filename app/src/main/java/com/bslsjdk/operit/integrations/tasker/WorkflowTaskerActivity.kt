@@ -1,1 +1,94 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLnRhc2tlcgoKaW1wb3J0IGFuZHJvaWQuYXBwLkFjdGl2aXR5CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5vcy5CdW5kbGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnJlcG9zaXRvcnkuV29ya2Zsb3dSZXBvc2l0b3J5CmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5hY3Rpb24uVGFza2VyUGx1Z2luUnVubmVyQWN0aW9uCmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5jb25maWcuVGFza2VyUGx1Z2luQ29uZmlnCmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5jb25maWcuVGFza2VyUGx1Z2luQ29uZmlnSGVscGVyCmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5pbnB1dC5UYXNrZXJJbnB1dAppbXBvcnQgY29tLmpvYW9tZ2NkLnRhc2tlcnBsdWdpbmxpYnJhcnkucnVubmVyLlRhc2tlclBsdWdpblJlc3VsdAppbXBvcnQgY29tLmpvYW9tZ2NkLnRhc2tlcnBsdWdpbmxpYnJhcnkucnVubmVyLlRhc2tlclBsdWdpblJlc3VsdEVycm9yCmltcG9ydCBjb20uam9hb21nY2QudGFza2VycGx1Z2lubGlicmFyeS5ydW5uZXIuVGFza2VyUGx1Z2luUmVzdWx0U3VjZXNzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMucnVuQmxvY2tpbmcKaW1wb3J0IGphdmEudXRpbC5BcnJheUxpc3QKCi8qKgogKiBUYXNrZXIgUGx1Z2luIEFjdGl2aXR5IGZvciB0cmlnZ2VyaW5nIHdvcmtmbG93cwogKiAKICogVGhpcyBhbGxvd3MgVGFza2VyIHRvIHRyaWdnZXIgT3Blcml0IHdvcmtmbG93cyBhcyBwYXJ0IG9mIFRhc2tlciB0YXNrcy4KICovCmNsYXNzIFdvcmtmbG93VGFza2VyQWN0aXZpdHlDb25maWcgOiBBY3Rpdml0eSgpLCBUYXNrZXJQbHVnaW5Db25maWc8V29ya2Zsb3dUYXNrZXJJbnB1dD4gewogICAgCiAgICBvdmVycmlkZSB2YWwgY29udGV4dDogQ29udGV4dCBnZXQoKSA9IGFwcGxpY2F0aW9uQ29udGV4dAogICAgCiAgICBwcml2YXRlIHZhbCB0YXNrZXJIZWxwZXIgYnkgbGF6eSB7IAogICAgICAgIFdvcmtmbG93VGFza2VyQ29uZmlnSGVscGVyKHRoaXMpIAogICAgfQoKICAgIG92ZXJyaWRlIHZhbCBpbnB1dEZvclRhc2tlcjogVGFza2VySW5wdXQ8V29ya2Zsb3dUYXNrZXJJbnB1dD4KICAgICAgICBnZXQoKSA9IFRhc2tlcklucHV0KFdvcmtmbG93VGFza2VySW5wdXQoKSkKCiAgICBvdmVycmlkZSBmdW4gb25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlOiBCdW5kbGU/KSB7CiAgICAgICAgc3VwZXIub25DcmVhdGUoc2F2ZWRJbnN0YW5jZVN0YXRlKQogICAgICAgIHRhc2tlckhlbHBlci5vbkNyZWF0ZSgpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGFzc2lnbkZyb21JbnB1dChpbnB1dDogVGFza2VySW5wdXQ8V29ya2Zsb3dUYXNrZXJJbnB1dD4pOiBVbml0IHsKICAgICAgICAvLyBJbnB1dCBhc3NpZ25tZW50IGhhbmRsZWQgYnkgVGFza2VyIGxpYnJhcnkKICAgIH0KfQoKLyoqCiAqIFRhc2tlciBQbHVnaW4gQ29uZmlnIEhlbHBlcgogKi8KY2xhc3MgV29ya2Zsb3dUYXNrZXJDb25maWdIZWxwZXIoY29uZmlnOiBUYXNrZXJQbHVnaW5Db25maWc8V29ya2Zsb3dUYXNrZXJJbnB1dD4pIDogCiAgICBUYXNrZXJQbHVnaW5Db25maWdIZWxwZXI8V29ya2Zsb3dUYXNrZXJJbnB1dCwgVW5pdCwgV29ya2Zsb3dUYXNrZXJSdW5uZXI+KGNvbmZpZykgewogICAgCiAgICBvdmVycmlkZSB2YWwgaW5wdXRDbGFzczogQ2xhc3M8V29ya2Zsb3dUYXNrZXJJbnB1dD4KICAgICAgICBnZXQoKSA9IFdvcmtmbG93VGFza2VySW5wdXQ6OmNsYXNzLmphdmEKICAgIAogICAgb3ZlcnJpZGUgdmFsIG91dHB1dENsYXNzOiBDbGFzczxVbml0PgogICAgICAgIGdldCgpID0gVW5pdDo6Y2xhc3MuamF2YQogICAgCiAgICBvdmVycmlkZSB2YWwgcnVubmVyQ2xhc3M6IENsYXNzPFdvcmtmbG93VGFza2VyUnVubmVyPgogICAgICAgIGdldCgpID0gV29ya2Zsb3dUYXNrZXJSdW5uZXI6OmNsYXNzLmphdmEKfQoKLyoqCiAqIFRhc2tlciBQbHVnaW4gSW5wdXQgRGF0YQogKi8KZGF0YSBjbGFzcyBXb3JrZmxvd1Rhc2tlcklucHV0KAogICAgdmFsIHBhcmFtczogQXJyYXlMaXN0PFN0cmluZz4/ID0gYXJyYXlMaXN0T2YoKQopCgovKioKICogVGFza2VyIFBsdWdpbiBSdW5uZXIKICovCmNsYXNzIFdvcmtmbG93VGFza2VyUnVubmVyIDogVGFza2VyUGx1Z2luUnVubmVyQWN0aW9uPFdvcmtmbG93VGFza2VySW5wdXQsIFVuaXQ+KCkgewogICAgCiAgICBvdmVycmlkZSBmdW4gcnVuKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgaW5wdXQ6IFRhc2tlcklucHV0PFdvcmtmbG93VGFza2VySW5wdXQ+CiAgICApOiBUYXNrZXJQbHVnaW5SZXN1bHQ8VW5pdD4gewogICAgICAgIHZhbCBwYXJhbXMgPSBpbnB1dC5yZWd1bGFyLnBhcmFtcwogICAgICAgIAogICAgICAgIGlmIChwYXJhbXMuaXNOdWxsT3JFbXB0eSgpKSB7CiAgICAgICAgICAgIC8vIE5vIHBhcmFtcyBwYXNzZWQgZnJvbSBUYXNrZXIsIG5vdGhpbmcgdG8gZG8uCiAgICAgICAgICAgIHJldHVybiBUYXNrZXJQbHVnaW5SZXN1bHRTdWNlc3MoKQogICAgICAgIH0KCiAgICAgICAgcmV0dXJuIHRyeSB7CiAgICAgICAgICAgIHZhbCByZXBvc2l0b3J5ID0gV29ya2Zsb3dSZXBvc2l0b3J5KGNvbnRleHQpCiAgICAgICAgICAgIC8vIFRoaXMgbmV3IHJlcG9zaXRvcnkgbWV0aG9kIHdpbGwgZmluZCBhbmQgdHJpZ2dlciB3b3JrZmxvd3MgYmFzZWQgb24gdGhlIHBhc3NlZCBwYXJhbXMKICAgICAgICAgICAgcnVuQmxvY2tpbmcgewogICAgICAgICAgICAgICAgcmVwb3NpdG9yeS50cmlnZ2VyV29ya2Zsb3dzQnlUYXNrZXJFdmVudChwYXJhbXMpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgVGFza2VyUGx1Z2luUmVzdWx0U3VjZXNzKCkKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgVGFza2VyUGx1Z2luUmVzdWx0RXJyb3IoZSkgLy8gUmV0dXJuIGVycm9yIHRvIFRhc2tlciBmb3IgZGVidWdnaW5nCiAgICAgICAgfQogICAgfQp9Cgo=
+package com.bslsjdk.operit.integrations.tasker
+
+import android.app.Activity
+import android.content.Context
+import android.os.Bundle
+import com.bslsjdk.operit.data.repository.WorkflowRepository
+import com.joaomgcd.taskerpluginlibrary.action.TaskerPluginRunnerAction
+import com.joaomgcd.taskerpluginlibrary.config.TaskerPluginConfig
+import com.joaomgcd.taskerpluginlibrary.config.TaskerPluginConfigHelper
+import com.joaomgcd.taskerpluginlibrary.input.TaskerInput
+import com.joaomgcd.taskerpluginlibrary.runner.TaskerPluginResult
+import com.joaomgcd.taskerpluginlibrary.runner.TaskerPluginResultError
+import com.joaomgcd.taskerpluginlibrary.runner.TaskerPluginResultSucess
+import kotlinx.coroutines.runBlocking
+import java.util.ArrayList
+
+/**
+ * Tasker Plugin Activity for triggering workflows
+ * 
+ * This allows Tasker to trigger Operit workflows as part of Tasker tasks.
+ */
+class WorkflowTaskerActivityConfig : Activity(), TaskerPluginConfig<WorkflowTaskerInput> {
+    
+    override val context: Context get() = applicationContext
+    
+    private val taskerHelper by lazy { 
+        WorkflowTaskerConfigHelper(this) 
+    }
+
+    override val inputForTasker: TaskerInput<WorkflowTaskerInput>
+        get() = TaskerInput(WorkflowTaskerInput())
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        taskerHelper.onCreate()
+    }
+
+    override fun assignFromInput(input: TaskerInput<WorkflowTaskerInput>): Unit {
+        // Input assignment handled by Tasker library
+    }
+}
+
+/**
+ * Tasker Plugin Config Helper
+ */
+class WorkflowTaskerConfigHelper(config: TaskerPluginConfig<WorkflowTaskerInput>) : 
+    TaskerPluginConfigHelper<WorkflowTaskerInput, Unit, WorkflowTaskerRunner>(config) {
+    
+    override val inputClass: Class<WorkflowTaskerInput>
+        get() = WorkflowTaskerInput::class.java
+    
+    override val outputClass: Class<Unit>
+        get() = Unit::class.java
+    
+    override val runnerClass: Class<WorkflowTaskerRunner>
+        get() = WorkflowTaskerRunner::class.java
+}
+
+/**
+ * Tasker Plugin Input Data
+ */
+data class WorkflowTaskerInput(
+    val params: ArrayList<String>? = arrayListOf()
+)
+
+/**
+ * Tasker Plugin Runner
+ */
+class WorkflowTaskerRunner : TaskerPluginRunnerAction<WorkflowTaskerInput, Unit>() {
+    
+    override fun run(
+        context: Context,
+        input: TaskerInput<WorkflowTaskerInput>
+    ): TaskerPluginResult<Unit> {
+        val params = input.regular.params
+        
+        if (params.isNullOrEmpty()) {
+            // No params passed from Tasker, nothing to do.
+            return TaskerPluginResultSucess()
+        }
+
+        return try {
+            val repository = WorkflowRepository(context)
+            // This new repository method will find and trigger workflows based on the passed params
+            runBlocking {
+                repository.triggerWorkflowsByTaskerEvent(params)
+            }
+            TaskerPluginResultSucess()
+        } catch (e: Exception) {
+            TaskerPluginResultError(e) // Return error to Tasker for debugging
+        }
+    }
+}
+

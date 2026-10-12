@@ -1,1 +1,16 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKZGF0YSBjbGFzcyBDaGF0TWVzc2FnZUxvY2F0b3JQcmV2aWV3KAogICAgdmFsIG1lc3NhZ2VJbmRleDogSW50PyA9IG51bGwsCiAgICB2YWwgdGltZXN0YW1wOiBMb25nLAogICAgdmFsIHNlbmRlcjogU3RyaW5nLAogICAgdmFsIHByZXZpZXdDb250ZW50OiBTdHJpbmcsCiAgICB2YWwgY29udGVudExlbmd0aDogSW50LAogICAgdmFsIGRpc3BsYXlNb2RlOiBTdHJpbmcsCiAgICB2YWwgaXNGYXZvcml0ZTogQm9vbGVhbiwKKSB7CiAgICB2YWwgcmVzb2x2ZWREaXNwbGF5TW9kZTogQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZQogICAgICAgIGdldCgpID0KICAgICAgICAgICAgcnVuQ2F0Y2hpbmcgeyBDaGF0TWVzc2FnZURpc3BsYXlNb2RlLnZhbHVlT2YoZGlzcGxheU1vZGUpIH0KICAgICAgICAgICAgICAgIC5nZXRPckRlZmF1bHQoQ2hhdE1lc3NhZ2VEaXNwbGF5TW9kZS5OT1JNQUwpCn0K
+package com.bslsjdk.operit.data.model
+
+data class ChatMessageLocatorPreview(
+    val messageIndex: Int? = null,
+    val timestamp: Long,
+    val sender: String,
+    val previewContent: String,
+    val contentLength: Int,
+    val displayMode: String,
+    val isFavorite: Boolean,
+) {
+    val resolvedDisplayMode: ChatMessageDisplayMode
+        get() =
+            runCatching { ChatMessageDisplayMode.valueOf(displayMode) }
+                .getOrDefault(ChatMessageDisplayMode.NORMAL)
+}

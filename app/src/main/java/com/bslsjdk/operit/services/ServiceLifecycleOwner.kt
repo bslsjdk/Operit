@@ -1,1 +1,56 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMKCmltcG9ydCBhbmRyb2lkLm9zLkhhbmRsZXIKaW1wb3J0IGFuZHJvaWQub3MuTG9vcGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5MaWZlY3ljbGUKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5MaWZlY3ljbGVPd25lcgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLkxpZmVjeWNsZVJlZ2lzdHJ5CmltcG9ydCBhbmRyb2lkeC5saWZlY3ljbGUuVmlld01vZGVsU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWxTdG9yZU93bmVyCmltcG9ydCBhbmRyb2lkeC5zYXZlZHN0YXRlLlNhdmVkU3RhdGVSZWdpc3RyeQppbXBvcnQgYW5kcm9pZHguc2F2ZWRzdGF0ZS5TYXZlZFN0YXRlUmVnaXN0cnlDb250cm9sbGVyCmltcG9ydCBhbmRyb2lkeC5zYXZlZHN0YXRlLlNhdmVkU3RhdGVSZWdpc3RyeU93bmVyCgovKioKICogU2VydmljZeeUn+WRveWRqOacn+aJgOacieiAheexu++8jOaPkOS+m0NvbXBvc2XmiYDpnIDnmoTnlJ/lkb3lkajmnJ/nrqHnkIYKICog55So5LqO5Li65rKh5pyJ6Ieq54S255Sf5ZG95ZGo5pyf55qE5pyN5Yqh57uE5Lu25o+Q5L6bQ29tcG9zZeaJgOmcgOeahOeUn+WRveWRqOacn+euoeeQhgogKi8KY2xhc3MgU2VydmljZUxpZmVjeWNsZU93bmVyIDogTGlmZWN5Y2xlT3duZXIsIFZpZXdNb2RlbFN0b3JlT3duZXIsIFNhdmVkU3RhdGVSZWdpc3RyeU93bmVyIHsKICAgIHByaXZhdGUgdmFsIFRBRyA9ICJTZXJ2aWNlTGlmZWN5Y2xlT3duZXIiCiAgICBwcml2YXRlIHZhbCBsaWZlY3ljbGVSZWdpc3RyeSA9IExpZmVjeWNsZVJlZ2lzdHJ5KHRoaXMpCiAgICBwcml2YXRlIHZhbCB2aWV3TW9kZWxTdG9yZUZpZWxkID0gVmlld01vZGVsU3RvcmUoKQogICAgcHJpdmF0ZSB2YWwgc2F2ZWRTdGF0ZVJlZ2lzdHJ5Q29udHJvbGxlciA9IFNhdmVkU3RhdGVSZWdpc3RyeUNvbnRyb2xsZXIuY3JlYXRlKHRoaXMpCiAgICBwcml2YXRlIHZhbCBtYWluSGFuZGxlciA9IEhhbmRsZXIoTG9vcGVyLmdldE1haW5Mb29wZXIoKSkKICAgIAogICAgaW5pdCB7CiAgICAgICAgLy8g56Gu5L+d5Zyo5Li757q/56iL5LiK5Yid5aeL5YyWCiAgICAgICAgaWYgKExvb3Blci5teUxvb3BlcigpID09IExvb3Blci5nZXRNYWluTG9vcGVyKCkpIHsKICAgICAgICAgICAgLy8g5Zyo5Li757q/56iL5LiK77yM55u05o6l5Yid5aeL5YyWCiAgICAgICAgICAgIHNhdmVkU3RhdGVSZWdpc3RyeUNvbnRyb2xsZXIucGVyZm9ybVJlc3RvcmUobnVsbCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAvLyDlpoLmnpzkuI3lnKjkuLvnur/nqIvkuIrvvIzkvb/nlKhIYW5kbGVy5bCG5Yid5aeL5YyW6L2s5Yiw5Li757q/56iLCiAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIkluaXRpYWxpemluZyBTZXJ2aWNlTGlmZWN5Y2xlT3duZXIgbm90IG9uIG1haW4gdGhyZWFkLiBNb3ZpbmcgdG8gbWFpbiB0aHJlYWQuIikKICAgICAgICAgICAgbWFpbkhhbmRsZXIucG9zdCB7IHNhdmVkU3RhdGVSZWdpc3RyeUNvbnRyb2xsZXIucGVyZm9ybVJlc3RvcmUobnVsbCkgfQogICAgICAgIH0KICAgIH0KICAgIAogICAgb3ZlcnJpZGUgdmFsIGxpZmVjeWNsZTogTGlmZWN5Y2xlCiAgICAgICAgZ2V0KCkgPSBsaWZlY3ljbGVSZWdpc3RyeQogICAgICAgIAogICAgb3ZlcnJpZGUgdmFsIHZpZXdNb2RlbFN0b3JlOiBWaWV3TW9kZWxTdG9yZQogICAgICAgIGdldCgpID0gdmlld01vZGVsU3RvcmVGaWVsZAogICAgICAgIAogICAgb3ZlcnJpZGUgdmFsIHNhdmVkU3RhdGVSZWdpc3RyeTogU2F2ZWRTdGF0ZVJlZ2lzdHJ5CiAgICAgICAgZ2V0KCkgPSBzYXZlZFN0YXRlUmVnaXN0cnlDb250cm9sbGVyLnNhdmVkU3RhdGVSZWdpc3RyeQogICAgICAgIAogICAgZnVuIGhhbmRsZUxpZmVjeWNsZUV2ZW50KGV2ZW50OiBMaWZlY3ljbGUuRXZlbnQpIHsKICAgICAgICAvLyDnoa7kv53nlJ/lkb3lkajmnJ/kuovku7blnKjkuLvnur/nqIvkuIrlpITnkIYKICAgICAgICBpZiAoTG9vcGVyLm15TG9vcGVyKCkgPT0gTG9vcGVyLmdldE1haW5Mb29wZXIoKSkgewogICAgICAgICAgICBsaWZlY3ljbGVSZWdpc3RyeS5oYW5kbGVMaWZlY3ljbGVFdmVudChldmVudCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAvLyDlpoLmnpzkuI3lnKjkuLvnur/nqIvkuIrvvIzkvb/nlKhIYW5kbGVy5bCG6LCD55So6L2s5Yiw5Li757q/56iLCiAgICAgICAgICAgIG1haW5IYW5kbGVyLnBvc3QgeyBsaWZlY3ljbGVSZWdpc3RyeS5oYW5kbGVMaWZlY3ljbGVFdmVudChldmVudCkgfQogICAgICAgIH0KICAgIH0KfSA=
+package com.bslsjdk.operit.services
+
+import android.os.Handler
+import android.os.Looper
+import com.bslsjdk.operit.util.AppLogger
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.LifecycleRegistry
+import androidx.lifecycle.ViewModelStore
+import androidx.lifecycle.ViewModelStoreOwner
+import androidx.savedstate.SavedStateRegistry
+import androidx.savedstate.SavedStateRegistryController
+import androidx.savedstate.SavedStateRegistryOwner
+
+/**
+ * Service生命周期所有者类，提供Compose所需的生命周期管理
+ * 用于为没有自然生命周期的服务组件提供Compose所需的生命周期管理
+ */
+class ServiceLifecycleOwner : LifecycleOwner, ViewModelStoreOwner, SavedStateRegistryOwner {
+    private val TAG = "ServiceLifecycleOwner"
+    private val lifecycleRegistry = LifecycleRegistry(this)
+    private val viewModelStoreField = ViewModelStore()
+    private val savedStateRegistryController = SavedStateRegistryController.create(this)
+    private val mainHandler = Handler(Looper.getMainLooper())
+    
+    init {
+        // 确保在主线程上初始化
+        if (Looper.myLooper() == Looper.getMainLooper()) {
+            // 在主线程上，直接初始化
+            savedStateRegistryController.performRestore(null)
+        } else {
+            // 如果不在主线程上，使用Handler将初始化转到主线程
+            AppLogger.w(TAG, "Initializing ServiceLifecycleOwner not on main thread. Moving to main thread.")
+            mainHandler.post { savedStateRegistryController.performRestore(null) }
+        }
+    }
+    
+    override val lifecycle: Lifecycle
+        get() = lifecycleRegistry
+        
+    override val viewModelStore: ViewModelStore
+        get() = viewModelStoreField
+        
+    override val savedStateRegistry: SavedStateRegistry
+        get() = savedStateRegistryController.savedStateRegistry
+        
+    fun handleLifecycleEvent(event: Lifecycle.Event) {
+        // 确保生命周期事件在主线程上处理
+        if (Looper.myLooper() == Looper.getMainLooper()) {
+            lifecycleRegistry.handleLifecycleEvent(event)
+        } else {
+            // 如果不在主线程上，使用Handler将调用转到主线程
+            mainHandler.post { lifecycleRegistry.handleLifecycleEvent(event) }
+        }
+    }
+} 

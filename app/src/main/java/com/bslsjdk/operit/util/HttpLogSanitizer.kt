@@ -1,1 +1,46 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9raHR0cDMuSGVhZGVycwppbXBvcnQgb2todHRwMy5IdHRwVXJsCgpvYmplY3QgSHR0cExvZ1Nhbml0aXplciB7CiAgICBmdW4gdXJsRm9yTG9nKHVybDogSHR0cFVybCk6IFN0cmluZyB7CiAgICAgICAgcmV0dXJuIGJ1aWxkU3RyaW5nIHsKICAgICAgICAgICAgYXBwZW5kKHVybC5zY2hlbWUpCiAgICAgICAgICAgIGFwcGVuZCgiOi8vIikKICAgICAgICAgICAgYXBwZW5kKHVybC5ob3N0KQoKICAgICAgICAgICAgaWYgKHVybC5wb3J0ICE9IEh0dHBVcmwuZGVmYXVsdFBvcnQodXJsLnNjaGVtZSkpIHsKICAgICAgICAgICAgICAgIGFwcGVuZCgnOicpCiAgICAgICAgICAgICAgICBhcHBlbmQodXJsLnBvcnQpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmICh1cmwucGF0aFNlZ21lbnRzLmlzTm90RW1wdHkoKSAmJiB1cmwuZW5jb2RlZFBhdGggIT0gIi8iKSB7CiAgICAgICAgICAgICAgICBhcHBlbmQoIi8iKQogICAgICAgICAgICAgICAgYXBwZW5kKCIke3VybC5wYXRoU2VnbWVudHMuc2l6ZX0gcGF0aCBzZWdtZW50cyIpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGlmICh1cmwucXVlcnlTaXplID4gMCkgewogICAgICAgICAgICAgICAgYXBwZW5kKCI/IikKICAgICAgICAgICAgICAgIGFwcGVuZCgKICAgICAgICAgICAgICAgICAgICAoMCB1bnRpbCB1cmwucXVlcnlTaXplKS5qb2luVG9TdHJpbmcoIiYiKSB7IGluZGV4IC0+CiAgICAgICAgICAgICAgICAgICAgICAgICIke3VybC5xdWVyeVBhcmFtZXRlck5hbWUoaW5kZXgpfT1bb21pdHRlZF0iCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAodXJsLmVuY29kZWRGcmFnbWVudCAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBhcHBlbmQoIiNbb21pdHRlZF0iKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIGZ1biBoZWFkZXJzRm9yTG9nKGhlYWRlcnM6IEhlYWRlcnMpOiBTdHJpbmcgewogICAgICAgIGlmIChoZWFkZXJzLnNpemUgPT0gMCkgewogICAgICAgICAgICByZXR1cm4gIltlbXB0eV0iCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gaGVhZGVycy5uYW1lcygpCiAgICAgICAgICAgIC5qb2luVG9TdHJpbmcoc2VwYXJhdG9yID0gIlxuIikgeyBuYW1lIC0+ICIkbmFtZTogW29taXR0ZWRdIiB9CiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import okhttp3.Headers
+import okhttp3.HttpUrl
+
+object HttpLogSanitizer {
+    fun urlForLog(url: HttpUrl): String {
+        return buildString {
+            append(url.scheme)
+            append("://")
+            append(url.host)
+
+            if (url.port != HttpUrl.defaultPort(url.scheme)) {
+                append(':')
+                append(url.port)
+            }
+
+            if (url.pathSegments.isNotEmpty() && url.encodedPath != "/") {
+                append("/")
+                append("${url.pathSegments.size} path segments")
+            }
+
+            if (url.querySize > 0) {
+                append("?")
+                append(
+                    (0 until url.querySize).joinToString("&") { index ->
+                        "${url.queryParameterName(index)}=[omitted]"
+                    }
+                )
+            }
+
+            if (url.encodedFragment != null) {
+                append("#[omitted]")
+            }
+        }
+    }
+
+    fun headersForLog(headers: Headers): String {
+        if (headers.size == 0) {
+            return "[empty]"
+        }
+
+        return headers.names()
+            .joinToString(separator = "\n") { name -> "$name: [omitted]" }
+    }
+}

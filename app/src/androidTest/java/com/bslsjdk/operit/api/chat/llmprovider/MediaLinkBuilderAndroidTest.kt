@@ -1,1 +1,62 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBhbmRyb2lkeC50ZXN0LmV4dC5qdW5pdC5ydW5uZXJzLkFuZHJvaWRKVW5pdDQKaW1wb3J0IGFuZHJvaWR4LnRlc3QucGxhdGZvcm0uYXBwLkluc3RydW1lbnRhdGlvblJlZ2lzdHJ5CmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLmp1bml0LnJ1bm5lci5SdW5XaXRoCgpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgTWVkaWFMaW5rQnVpbGRlckFuZHJvaWRUZXN0IHsKCiAgICBwcml2YXRlIHZhbCBjb250ZXh0ID0gSW5zdHJ1bWVudGF0aW9uUmVnaXN0cnkuZ2V0SW5zdHJ1bWVudGF0aW9uKCkudGFyZ2V0Q29udGV4dAoKICAgIEBUZXN0IGZ1biBpbWFnZUxpbmtfdXNlc0ltYWdlVHlwZU1hcmt1cCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIjxsaW5rIHR5cGU9XCJpbWFnZVwiIGlkPVwiaW1nMVwiPuWbvueJhzwvbGluaz4iLCBNZWRpYUxpbmtCdWlsZGVyLmltYWdlKGNvbnRleHQsICJpbWcxIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGF1ZGlvTGlua191c2VzQXVkaW9UeXBlTWFya3VwKCkgewogICAgICAgIGFzc2VydEVxdWFscygiPGxpbmsgdHlwZT1cImF1ZGlvXCIgaWQ9XCJhdWQxXCI+6Z+z6aKRPC9saW5rPiIsIE1lZGlhTGlua0J1aWxkZXIuYXVkaW8oY29udGV4dCwgImF1ZDEiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gdmlkZW9MaW5rX3VzZXNWaWRlb1R5cGVNYXJrdXAoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCI8bGluayB0eXBlPVwidmlkZW9cIiBpZD1cInZpZDFcIj7op4bpopE8L2xpbms+IiwgTWVkaWFMaW5rQnVpbGRlci52aWRlbyhjb250ZXh0LCAidmlkMSIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBpbWFnZUxpbmtfZW1iZWRzUmVxdWVzdGVkSWQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUxpbmtCdWlsZGVyLmltYWdlKGNvbnRleHQsICJhYmMtMTIzIikuY29udGFpbnMoImlkPVwiYWJjLTEyM1wiIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGF1ZGlvTGlua19lbWJlZHNSZXF1ZXN0ZWRJZCgpIHsKICAgICAgICBhc3NlcnRUcnVlKE1lZGlhTGlua0J1aWxkZXIuYXVkaW8oY29udGV4dCwgImFiYy0xMjMiKS5jb250YWlucygiaWQ9XCJhYmMtMTIzXCIiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gdmlkZW9MaW5rX2VtYmVkc1JlcXVlc3RlZElkKCkgewogICAgICAgIGFzc2VydFRydWUoTWVkaWFMaW5rQnVpbGRlci52aWRlbyhjb250ZXh0LCAiYWJjLTEyMyIpLmNvbnRhaW5zKCJpZD1cImFiYy0xMjNcIiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBpbWFnZUxpbmtfc3VwcG9ydHNOdW1lcmljSWQoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUxpbmtCdWlsZGVyLmltYWdlKGNvbnRleHQsICI0MiIpLmNvbnRhaW5zKCJpZD1cIjQyXCIiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gYXVkaW9MaW5rX3N1cHBvcnRzTnVtZXJpY0lkKCkgewogICAgICAgIGFzc2VydFRydWUoTWVkaWFMaW5rQnVpbGRlci5hdWRpbyhjb250ZXh0LCAiNDIiKS5jb250YWlucygiaWQ9XCI0MlwiIikpCiAgICB9CgogICAgQFRlc3QgZnVuIHZpZGVvTGlua19zdXBwb3J0c051bWVyaWNJZCgpIHsKICAgICAgICBhc3NlcnRUcnVlKE1lZGlhTGlua0J1aWxkZXIudmlkZW8oY29udGV4dCwgIjQyIikuY29udGFpbnMoImlkPVwiNDJcIiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBpbWFnZUxpbmtfa2VlcHNYbWxTdHJ1Y3R1cmVTdGFibGUoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUxpbmtCdWlsZGVyLmltYWdlKGNvbnRleHQsICJpbWcxIikuc3RhcnRzV2l0aCgiPGxpbmsgIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGF1ZGlvTGlua19rZWVwc1htbFN0cnVjdHVyZVN0YWJsZSgpIHsKICAgICAgICBhc3NlcnRUcnVlKE1lZGlhTGlua0J1aWxkZXIuYXVkaW8oY29udGV4dCwgImF1ZDEiKS5lbmRzV2l0aCgiPC9saW5rPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biB2aWRlb0xpbmtfa2VlcHNYbWxTdHJ1Y3R1cmVTdGFibGUoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZShNZWRpYUxpbmtCdWlsZGVyLnZpZGVvKGNvbnRleHQsICJ2aWQxIikuY29udGFpbnMoIj7op4bpopE8L2xpbms+IikpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class MediaLinkBuilderAndroidTest {
+
+    private val context = InstrumentationRegistry.getInstrumentation().targetContext
+
+    @Test fun imageLink_usesImageTypeMarkup() {
+        assertEquals("<link type=\"image\" id=\"img1\">图片</link>", MediaLinkBuilder.image(context, "img1"))
+    }
+
+    @Test fun audioLink_usesAudioTypeMarkup() {
+        assertEquals("<link type=\"audio\" id=\"aud1\">音频</link>", MediaLinkBuilder.audio(context, "aud1"))
+    }
+
+    @Test fun videoLink_usesVideoTypeMarkup() {
+        assertEquals("<link type=\"video\" id=\"vid1\">视频</link>", MediaLinkBuilder.video(context, "vid1"))
+    }
+
+    @Test fun imageLink_embedsRequestedId() {
+        assertTrue(MediaLinkBuilder.image(context, "abc-123").contains("id=\"abc-123\""))
+    }
+
+    @Test fun audioLink_embedsRequestedId() {
+        assertTrue(MediaLinkBuilder.audio(context, "abc-123").contains("id=\"abc-123\""))
+    }
+
+    @Test fun videoLink_embedsRequestedId() {
+        assertTrue(MediaLinkBuilder.video(context, "abc-123").contains("id=\"abc-123\""))
+    }
+
+    @Test fun imageLink_supportsNumericId() {
+        assertTrue(MediaLinkBuilder.image(context, "42").contains("id=\"42\""))
+    }
+
+    @Test fun audioLink_supportsNumericId() {
+        assertTrue(MediaLinkBuilder.audio(context, "42").contains("id=\"42\""))
+    }
+
+    @Test fun videoLink_supportsNumericId() {
+        assertTrue(MediaLinkBuilder.video(context, "42").contains("id=\"42\""))
+    }
+
+    @Test fun imageLink_keepsXmlStructureStable() {
+        assertTrue(MediaLinkBuilder.image(context, "img1").startsWith("<link "))
+    }
+
+    @Test fun audioLink_keepsXmlStructureStable() {
+        assertTrue(MediaLinkBuilder.audio(context, "aud1").endsWith("</link>"))
+    }
+
+    @Test fun videoLink_keepsXmlStructureStable() {
+        assertTrue(MediaLinkBuilder.video(context, "vid1").contains(">视频</link>"))
+    }
+}

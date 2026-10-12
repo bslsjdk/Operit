@@ -1,1 +1,18 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0KCi8qKiBSZXByZXNlbnRzIHRoZSBvdXRjb21lIG9mIHByb2Nlc3NpbmcgYSBzaW5nbGUgY2hhcmFjdGVyIGluIGEgU3RyZWFtS21wR3JhcGguICovCnNlYWxlZCBjbGFzcyBTdHJlYW1LbXBNYXRjaFJlc3VsdCB7CiAgICAvKiogVGhlIGNoYXJhY3RlciB3YXMgbm90IHBhcnQgb2YgYW55IG1hdGNoIGFuZCB0aGUgc3RhdGUgd2FzIHJlc2V0LiAqLwogICAgb2JqZWN0IE5vTWF0Y2ggOiBTdHJlYW1LbXBNYXRjaFJlc3VsdCgpCgogICAgLyoqIFRoZSBjaGFyYWN0ZXIgaXMgcGFydCBvZiBhIHBvdGVudGlhbCBvbmdvaW5nIG1hdGNoLiAqLwogICAgb2JqZWN0IEluUHJvZ3Jlc3MgOiBTdHJlYW1LbXBNYXRjaFJlc3VsdCgpCgogICAgLyoqIFRoZSBjaGFyYWN0ZXIgY29tcGxldGVkIG9uZSBvciBtb3JlIG1hdGNoZXMuICovCiAgICBkYXRhIGNsYXNzIE1hdGNoKAogICAgICAgICAgICAvKiogQSBtYXAgb2YgZ3JvdXAgSURzIHRvIHRoZWlyIGNhcHR1cmVkIGNvbnRlbnQgZm9yIGFueSBncm91cHMgdGhhdCBjb21wbGV0ZWQuICovCiAgICAgICAgICAgIHZhbCBncm91cHM6IE1hcDxJbnQsIFN0cmluZz4sCiAgICAgICAgICAgIC8qKiBJbmRpY2F0ZXMgaWYgdGhlIGVudGlyZSBwYXR0ZXJuIHdhcyBzdWNjZXNzZnVsbHkgbWF0Y2hlZC4gKi8KICAgICAgICAgICAgdmFsIGlzRnVsbE1hdGNoOiBCb29sZWFuCiAgICApIDogU3RyZWFtS21wTWF0Y2hSZXN1bHQoKQp9Cg==
+package com.bslsjdk.operit.util.stream
+
+/** Represents the outcome of processing a single character in a StreamKmpGraph. */
+sealed class StreamKmpMatchResult {
+    /** The character was not part of any match and the state was reset. */
+    object NoMatch : StreamKmpMatchResult()
+
+    /** The character is part of a potential ongoing match. */
+    object InProgress : StreamKmpMatchResult()
+
+    /** The character completed one or more matches. */
+    data class Match(
+            /** A map of group IDs to their captured content for any groups that completed. */
+            val groups: Map<Int, String>,
+            /** Indicates if the entire pattern was successfully matched. */
+            val isFullMatch: Boolean
+    ) : StreamKmpMatchResult()
+}

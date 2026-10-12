@@ -1,1 +1,50 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5lZGl0b3IubGFuZ3VhZ2UKCi8qKgogKiBLb3RsaW7or63oqIDmlK/mjIEKICovCmNsYXNzIEtvdGxpblN1cHBvcnQgOiBCYXNlTGFuZ3VhZ2VTdXBwb3J0KCkgewogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSB2YWwgS0VZV09SRFMgPSBzZXRPZigKICAgICAgICAgICAgInBhY2thZ2UiLCAiYXMiLCAidHlwZWFsaWFzIiwgImNsYXNzIiwgInRoaXMiLCAic3VwZXIiLCAidmFsIiwgInZhciIsICJmdW4iLCAiZm9yIiwKICAgICAgICAgICAgIm51bGwiLCAidHJ1ZSIsICJmYWxzZSIsICJpcyIsICJpbiIsICJ0aHJvdyIsICJyZXR1cm4iLCAiYnJlYWsiLCAiY29udGludWUiLCAib2JqZWN0IiwKICAgICAgICAgICAgImlmIiwgImVsc2UiLCAid2hpbGUiLCAiZG8iLCAidHJ5IiwgIndoZW4iLCAiaW50ZXJmYWNlIiwgInR5cGVvZiIsICJieSIsICJjYXRjaCIsCiAgICAgICAgICAgICJjb25zdHJ1Y3RvciIsICJkZWxlZ2F0ZSIsICJkeW5hbWljIiwgImZpZWxkIiwgImZpbGUiLCAiZmluYWxseSIsICJnZXQiLCAiaW1wb3J0IiwKICAgICAgICAgICAgImluaXQiLCAicGFyYW0iLCAicHJvcGVydHkiLCAicmVjZWl2ZXIiLCAic2V0IiwgInNldHBhcmFtIiwgIndoZXJlIiwgImFjdHVhbCIsCiAgICAgICAgICAgICJhYnN0cmFjdCIsICJhbm5vdGF0aW9uIiwgImNvbXBhbmlvbiIsICJjb25zdCIsICJjcm9zc2lubGluZSIsICJkYXRhIiwgImVudW0iLAogICAgICAgICAgICAiZXhwZWN0IiwgImV4dGVybmFsIiwgImZpbmFsIiwgImluZml4IiwgImlubGluZSIsICJpbm5lciIsICJpbnRlcm5hbCIsICJsYXRlaW5pdCIsCiAgICAgICAgICAgICJub2lubGluZSIsICJvcGVuIiwgIm9wZXJhdG9yIiwgIm91dCIsICJvdmVycmlkZSIsICJwcml2YXRlIiwgInByb3RlY3RlZCIsICJwdWJsaWMiLAogICAgICAgICAgICAicmVpZmllZCIsICJzZWFsZWQiLCAic3VzcGVuZCIsICJ0YWlscmVjIiwgInZhcmFyZyIKICAgICAgICApCiAgICAgICAgCiAgICAgICAgcHJpdmF0ZSB2YWwgQlVJTFRfSU5fVFlQRVMgPSBzZXRPZigKICAgICAgICAgICAgIkFueSIsICJVbml0IiwgIlN0cmluZyIsICJJbnQiLCAiQm9vbGVhbiIsICJDaGFyIiwgIkJ5dGUiLCAiU2hvcnQiLAogICAgICAgICAgICAiTG9uZyIsICJEb3VibGUiLCAiRmxvYXQiLCAiQXJyYXkiLCAiTGlzdCIsICJNYXAiLCAiU2V0IiwgIlBhaXIiLAogICAgICAgICAgICAiVHJpcGxlIiwgIk5vdGhpbmciLCAiQ29sbGVjdGlvbiIsICJNdXRhYmxlTGlzdCIsICJNdXRhYmxlTWFwIiwgIk11dGFibGVTZXQiCiAgICAgICAgKQogICAgICAgIAogICAgICAgIHByaXZhdGUgdmFsIEJVSUxUX0lOX0ZVTkNUSU9OUyA9IHNldE9mKAogICAgICAgICAgICAiYXBwbHkiLCAibGV0IiwgInJ1biIsICJ3aXRoIiwgImFsc28iLCAidGFrZUlmIiwgInRha2VVbmxlc3MiLCAicmVwZWF0IiwKICAgICAgICAgICAgImxhenkiLCAibGF6eU9mIiwgImFycmF5T2YiLCAibGlzdE9mIiwgIm11dGFibGVMaXN0T2YiLCAic2V0T2YiLCAibXV0YWJsZVNldE9mIiwKICAgICAgICAgICAgIm1hcE9mIiwgIm11dGFibGVNYXBPZiIsICJwcmludGxuIiwgInByaW50IiwgInJlcXVpcmUiLCAiY2hlY2siLCAiZXJyb3IiLAogICAgICAgICAgICAiVE9ETyIsICJydW4iLCAicnVuQ2F0Y2hpbmciLCAidXNlIgogICAgICAgICkKICAgICAgICAKICAgICAgICBwcml2YXRlIHZhbCBGSUxFX0VYVEVOU0lPTlMgPSBsaXN0T2YoImt0IiwgImt0cyIpCiAgICAgICAgCiAgICAgICAgaW5pdCB7CiAgICAgICAgICAgIC8vIOazqOWGjOivreiogOaUr+aMgQogICAgICAgICAgICBMYW5ndWFnZVN1cHBvcnRSZWdpc3RyeS5yZWdpc3RlcihLb3RsaW5TdXBwb3J0KCkpCiAgICAgICAgfQogICAgfQogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0TmFtZSgpOiBTdHJpbmcgPSAia290bGluIgogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0S2V5d29yZHMoKTogU2V0PFN0cmluZz4gPSBLRVlXT1JEUwogICAgCiAgICBvdmVycmlkZSBmdW4gZ2V0QnVpbHRJblR5cGVzKCk6IFNldDxTdHJpbmc+ID0gQlVJTFRfSU5fVFlQRVMKICAgIAogICAgb3ZlcnJpZGUgZnVuIGdldEJ1aWx0SW5GdW5jdGlvbnMoKTogU2V0PFN0cmluZz4gPSBCVUlMVF9JTl9GVU5DVElPTlMKICAgIAogICAgb3ZlcnJpZGUgZnVuIGdldEZpbGVFeHRlbnNpb25zKCk6IExpc3Q8U3RyaW5nPiA9IEZJTEVfRVhURU5TSU9OUwp9IA==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.editor.language
+
+/**
+ * Kotlin语言支持
+ */
+class KotlinSupport : BaseLanguageSupport() {
+    companion object {
+        private val KEYWORDS = setOf(
+            "package", "as", "typealias", "class", "this", "super", "val", "var", "fun", "for",
+            "null", "true", "false", "is", "in", "throw", "return", "break", "continue", "object",
+            "if", "else", "while", "do", "try", "when", "interface", "typeof", "by", "catch",
+            "constructor", "delegate", "dynamic", "field", "file", "finally", "get", "import",
+            "init", "param", "property", "receiver", "set", "setparam", "where", "actual",
+            "abstract", "annotation", "companion", "const", "crossinline", "data", "enum",
+            "expect", "external", "final", "infix", "inline", "inner", "internal", "lateinit",
+            "noinline", "open", "operator", "out", "override", "private", "protected", "public",
+            "reified", "sealed", "suspend", "tailrec", "vararg"
+        )
+        
+        private val BUILT_IN_TYPES = setOf(
+            "Any", "Unit", "String", "Int", "Boolean", "Char", "Byte", "Short",
+            "Long", "Double", "Float", "Array", "List", "Map", "Set", "Pair",
+            "Triple", "Nothing", "Collection", "MutableList", "MutableMap", "MutableSet"
+        )
+        
+        private val BUILT_IN_FUNCTIONS = setOf(
+            "apply", "let", "run", "with", "also", "takeIf", "takeUnless", "repeat",
+            "lazy", "lazyOf", "arrayOf", "listOf", "mutableListOf", "setOf", "mutableSetOf",
+            "mapOf", "mutableMapOf", "println", "print", "require", "check", "error",
+            "TODO", "run", "runCatching", "use"
+        )
+        
+        private val FILE_EXTENSIONS = listOf("kt", "kts")
+        
+        init {
+            // 注册语言支持
+            LanguageSupportRegistry.register(KotlinSupport())
+        }
+    }
+    
+    override fun getName(): String = "kotlin"
+    
+    override fun getKeywords(): Set<String> = KEYWORDS
+    
+    override fun getBuiltInTypes(): Set<String> = BUILT_IN_TYPES
+    
+    override fun getBuiltInFunctions(): Set<String> = BUILT_IN_FUNCTIONS
+    
+    override fun getFileExtensions(): List<String> = FILE_EXTENSIONS
+} 

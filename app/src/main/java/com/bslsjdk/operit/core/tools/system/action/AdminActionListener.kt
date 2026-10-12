@@ -1,1 +1,199 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uYWN0aW9uCgppbXBvcnQgYW5kcm9pZC5hcHAuYWRtaW4uRGV2aWNlUG9saWN5TWFuYWdlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbXBvbmVudE5hbWUKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5zeXN0ZW0uQW5kcm9pZFBlcm1pc3Npb25MZXZlbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGphdmEudXRpbC5jb25jdXJyZW50LmF0b21pYy5BdG9taWNCb29sZWFuCgovKiog5Z+65LqO6K6+5aSH566h55CG5ZGY55qEVUnmk43kvZznm5HlkKzlmagg5a6e546wQURNSU7mnYPpmZDnuqfliKvnmoTmk43kvZznm5HlkKwgKi8KY2xhc3MgQWRtaW5BY3Rpb25MaXN0ZW5lcihwcml2YXRlIHZhbCBjb250ZXh0OiBDb250ZXh0KSA6IEFjdGlvbkxpc3RlbmVyIHsKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJBZG1pbkFjdGlvbkxpc3RlbmVyIgogICAgICAgIHByaXZhdGUgdmFyIGFkbWluQ29tcG9uZW50TmFtZTogQ29tcG9uZW50TmFtZT8gPSBudWxsCgogICAgICAgIC8qKgogICAgICAgICAqIOiuvue9ruiuvuWkh+euoeeQhuWRmOe7hOS7tuWQjeensAogICAgICAgICAqIEBwYXJhbSBjb21wb25lbnROYW1lIOiuvuWkh+euoeeQhuWRmOe7hOS7tuWQjeensAogICAgICAgICAqLwogICAgICAgIGZ1biBzZXRBZG1pbkNvbXBvbmVudE5hbWUoY29tcG9uZW50TmFtZTogQ29tcG9uZW50TmFtZSkgewogICAgICAgICAgICBhZG1pbkNvbXBvbmVudE5hbWUgPSBjb21wb25lbnROYW1lCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFsIGRldmljZVBvbGljeU1hbmFnZXIgPQogICAgICAgIGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LkRFVklDRV9QT0xJQ1lfU0VSVklDRSkgYXMgRGV2aWNlUG9saWN5TWFuYWdlcgogICAgcHJpdmF0ZSB2YWwgaXNMaXN0ZW5pbmcgPSBBdG9taWNCb29sZWFuKGZhbHNlKQogICAgcHJpdmF0ZSB2YXIgYWN0aW9uQ2FsbGJhY2s6ICgoQWN0aW9uTGlzdGVuZXIuQWN0aW9uRXZlbnQpIC0+IFVuaXQpPyA9IG51bGwKCiAgICBvdmVycmlkZSBmdW4gZ2V0UGVybWlzc2lvbkxldmVsKCk6IEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwgPSBBbmRyb2lkUGVybWlzc2lvbkxldmVsLkFETUlOCgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gaXNBdmFpbGFibGUoKTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGFkbWluQ29tcG9uZW50TmFtZSAhPSBudWxsICYmIGlzRGV2aWNlQWRtaW5BY3RpdmUoKQogICAgfQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIGhhc1Blcm1pc3Npb24oKTogQWN0aW9uTGlzdGVuZXIuUGVybWlzc2lvblN0YXR1cyB7CiAgICAgICAgaWYgKGFkbWluQ29tcG9uZW50TmFtZSA9PSBudWxsKSB7CiAgICAgICAgICAgIHJldHVybiBBY3Rpb25MaXN0ZW5lci5QZXJtaXNzaW9uU3RhdHVzLmRlbmllZChjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hZG1pbl9kZXZpY2VfYWRtaW5fY29tcG9uZW50X25hbWVfbm90X3NldCkpCiAgICAgICAgfQoKICAgICAgICByZXR1cm4gaWYgKGlzRGV2aWNlQWRtaW5BY3RpdmUoKSkgewogICAgICAgICAgICBBY3Rpb25MaXN0ZW5lci5QZXJtaXNzaW9uU3RhdHVzLmdyYW50ZWQoKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIEFjdGlvbkxpc3RlbmVyLlBlcm1pc3Npb25TdGF0dXMuZGVuaWVkKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFkbWluX2RldmljZV9hZG1pbl9wZXJtaXNzaW9uX25vdF9hY3RpdmF0ZWQpKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gaW5pdGlhbGl6ZSgpIHsKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLorr7lpIfnrqHnkIblkZhVSeaTjeS9nOebkeWQrOWZqOWIneWni+WMluWujOaIkCIpCiAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gcmVxdWVzdFBlcm1pc3Npb24ob25SZXN1bHQ6IChCb29sZWFuKSAtPiBVbml0KSB7CiAgICAgICAgaWYgKGlzQXZhaWxhYmxlKCkpIHsKICAgICAgICAgICAgb25SZXN1bHQodHJ1ZSkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBpZiAoYWRtaW5Db21wb25lbnROYW1lID09IG51bGwpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi566h55CG5ZGY57uE5Lu25ZCN56ew5pyq6K6+572uIikKICAgICAgICAgICAgb25SZXN1bHQoZmFsc2UpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgLy8g5byV5a+855So5oi35r+A5rS76K6+5aSH566h55CG5ZGYCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGludGVudCA9IEludGVudChEZXZpY2VQb2xpY3lNYW5hZ2VyLkFDVElPTl9BRERfREVWSUNFX0FETUlOKQogICAgICAgICAgICBpbnRlbnQucHV0RXh0cmEoRGV2aWNlUG9saWN5TWFuYWdlci5FWFRSQV9ERVZJQ0VfQURNSU4sIGFkbWluQ29tcG9uZW50TmFtZSkKICAgICAgICAgICAgaW50ZW50LnB1dEV4dHJhKERldmljZVBvbGljeU1hbmFnZXIuRVhUUkFfQUREX0VYUExBTkFUSU9OLCBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5hZG1pbl9uZWVkX2RldmljZV9hZG1pbl9wZXJtaXNzaW9uKSkKICAgICAgICAgICAgaW50ZW50LmZsYWdzID0gSW50ZW50LkZMQUdfQUNUSVZJVFlfTkVXX1RBU0sKICAgICAgICAgICAgY29udGV4dC5zdGFydEFjdGl2aXR5KGludGVudCkKCiAgICAgICAgICAgIG9uUmVzdWx0KGZhbHNlKQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICLmiZPlvIDorr7lpIfnrqHnkIblkZjorr7nva7lpLHotKUiLCBlKQogICAgICAgICAgICBvblJlc3VsdChmYWxzZSkKICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIGlzTGlzdGVuaW5nKCk6IEJvb2xlYW4gPSBpc0xpc3RlbmluZy5nZXQoKQoKICAgIG92ZXJyaWRlIHN1c3BlbmQgZnVuIHN0YXJ0TGlzdGVuaW5nKG9uQWN0aW9uOiAoQWN0aW9uTGlzdGVuZXIuQWN0aW9uRXZlbnQpIC0+IFVuaXQpOiBBY3Rpb25MaXN0ZW5lci5MaXN0ZW5pbmdSZXN1bHQgPQogICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcGVybVN0YXR1cyA9IGhhc1Blcm1pc3Npb24oKQogICAgICAgICAgICAgICAgaWYgKCFwZXJtU3RhdHVzLmdyYW50ZWQpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgQWN0aW9uTGlzdGVuZXIuTGlzdGVuaW5nUmVzdWx0LmZhaWx1cmUocGVybVN0YXR1cy5yZWFzb24pCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKGlzTGlzdGVuaW5nLmdldCgpKSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IEFjdGlvbkxpc3RlbmVyLkxpc3RlbmluZ1Jlc3VsdC5mYWlsdXJlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFkbWluX2FscmVhZHlfbGlzdGVuaW5nKSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBhY3Rpb25DYWxsYmFjayA9IG9uQWN0aW9uCiAgICAgICAgICAgICAgICBpc0xpc3RlbmluZy5zZXQodHJ1ZSkKCiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlvIDlp4vorr7lpIfnrqHnkIblkZjnuqfliKvnmoRVSeaTjeS9nOebkeWQrCIpCgogICAgICAgICAgICAgICAgLy8g5ZCv5Yqo566h55CG5ZGY57qn5Yir55qE5LqL5Lu255uR5o6nCiAgICAgICAgICAgICAgICBzdGFydEFkbWluRXZlbnRNb25pdG9yaW5nKCkKCiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgQWN0aW9uTGlzdGVuZXIuTGlzdGVuaW5nUmVzdWx0LnN1Y2Nlc3MoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuYWRtaW5fdWlfbGlzdGVuZXJfc3RhcnRlZCkpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5ZCv5Yqo6K6+5aSH566h55CG5ZGYVUnmk43kvZznm5HlkKzlpLHotKUiLCBlKQogICAgICAgICAgICAgICAgaXNMaXN0ZW5pbmcuc2V0KGZhbHNlKQogICAgICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IEFjdGlvbkxpc3RlbmVyLkxpc3RlbmluZ1Jlc3VsdC5mYWlsdXJlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmFkbWluX3N0YXJ0X2ZhaWxlZCwgZS5tZXNzYWdlID86ICJVbmtub3duIGVycm9yIikpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc3RvcExpc3RlbmluZygpOiBCb29sZWFuID0gd2l0aENvbnRleHQoRGlzcGF0Y2hlcnMuSU8pIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBpZiAoIWlzTGlzdGVuaW5nLmdldCgpKSB7CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgdHJ1ZQogICAgICAgICAgICB9CgogICAgICAgICAgICBpc0xpc3RlbmluZy5zZXQoZmFsc2UpCiAgICAgICAgICAgIGFjdGlvbkNhbGxiYWNrID0gbnVsbAoKICAgICAgICAgICAgc3RvcEFkbWluRXZlbnRNb25pdG9yaW5nKCkKCiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuiuvuWkh+euoeeQhuWRmFVJ5pON5L2c55uR5ZCs5bey5YGc5q2iIikKICAgICAgICAgICAgcmV0dXJuQHdpdGhDb250ZXh0IHRydWUKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5YGc5q2i6K6+5aSH566h55CG5ZGYVUnmk43kvZznm5HlkKzlpLHotKUiLCBlKQogICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqIOajgOafpeiuvuWkh+euoeeQhuWRmOaYr+WQpuW3sua/gOa0uyAqLwogICAgcHJpdmF0ZSBmdW4gaXNEZXZpY2VBZG1pbkFjdGl2ZSgpOiBCb29sZWFuIHsKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgYWRtaW5Db21wb25lbnROYW1lPy5sZXQgeyBkZXZpY2VQb2xpY3lNYW5hZ2VyLmlzQWRtaW5BY3RpdmUoaXQpIH0gPzogZmFsc2UKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAi5qOA5p+l6K6+5aSH566h55CG5ZGY54q25oCB5Ye66ZSZIiwgZSkKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlvIDlp4vnrqHnkIblkZjnuqfliKvnmoTkuovku7bnm5HmjqcKICAgICAqIOiuvuWkh+euoeeQhuWRmOWPr+S7peebkeWQrOezu+e7n+eKtuaAgeWPmOWMluOAgemUgeWxj+S6i+S7tuetiQogICAgICovCiAgICBwcml2YXRlIGZ1biBzdGFydEFkbWluRXZlbnRNb25pdG9yaW5nKCkgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIuW8gOWni+euoeeQhuWRmOe6p+WIq+S6i+S7tuebkeaOpyAtIOWPr+ebkeWQrOezu+e7n+eKtuaAgeWSjOWuieWFqOS6i+S7tiIpCiAgICAgICAgCiAgICAgICAgLy8g6K6+5aSH566h55CG5ZGY5Y+v5Lul55uR5ZCs77yaCiAgICAgICAgLy8gLSDplIHlsY8v6Kej6ZSB5LqL5Lu2CiAgICAgICAgLy8gLSDlupTnlKjlronoo4Uv5Y246L295LqL5Lu2CiAgICAgICAgLy8gLSDns7vnu5/lronlhajnrZbnlaXlj5jljJYKICAgICAgICAvLyAtIOWvhueggeWwneivleWksei0peS6i+S7tgogICAgfQoKICAgIC8qKgogICAgICog5YGc5q2i566h55CG5ZGY57qn5Yir55qE5LqL5Lu255uR5o6nCiAgICAgKi8KICAgIHByaXZhdGUgZnVuIHN0b3BBZG1pbkV2ZW50TW9uaXRvcmluZygpIHsKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICLlgZzmraLnrqHnkIblkZjnuqfliKvkuovku7bnm5HmjqciKQogICAgfQoKICAgIC8qKgogICAgICog5aSE55CG57O757uf6ZSB5bGP5LqL5Lu2CiAgICAgKi8KICAgIGZ1biBoYW5kbGVTY3JlZW5Mb2NrRXZlbnQoKSB7CiAgICAgICAgaWYgKGlzTGlzdGVuaW5nLmdldCgpICYmIGFjdGlvbkNhbGxiYWNrICE9IG51bGwpIHsKICAgICAgICAgICAgdmFsIGV2ZW50ID0gQWN0aW9uTGlzdGVuZXIuQWN0aW9uRXZlbnQoCiAgICAgICAgICAgICAgICB0aW1lc3RhbXAgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSwKICAgICAgICAgICAgICAgIGFjdGlvblR5cGUgPSBBY3Rpb25MaXN0ZW5lci5BY3Rpb25UeXBlLlNZU1RFTV9FVkVOVCwKICAgICAgICAgICAgICAgIGFkZGl0aW9uYWxEYXRhID0gbWFwT2YoCiAgICAgICAgICAgICAgICAgICAgImV2ZW50IiB0byAic2NyZWVuX2xvY2siLAogICAgICAgICAgICAgICAgICAgICJzb3VyY2UiIHRvICJkZXZpY2VfYWRtaW4iCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICAgICAgYWN0aW9uQ2FsbGJhY2s/Lmludm9rZShldmVudCkKICAgICAgICB9CiAgICB9CgogICAgLyoqCiAgICAgKiDlpITnkIblupTnlKjnirbmgIHlj5jljJbkuovku7YKICAgICAqIEBwYXJhbSBwYWNrYWdlTmFtZSDlupTnlKjljIXlkI0KICAgICAqIEBwYXJhbSBldmVudCDkuovku7bnsbvlnosKICAgICAqLwogICAgZnVuIGhhbmRsZUFwcFN0YXRlQ2hhbmdlKHBhY2thZ2VOYW1lOiBTdHJpbmcsIGV2ZW50OiBTdHJpbmcpIHsKICAgICAgICBpZiAoaXNMaXN0ZW5pbmcuZ2V0KCkgJiYgYWN0aW9uQ2FsbGJhY2sgIT0gbnVsbCkgewogICAgICAgICAgICB2YWwgYWN0aW9uRXZlbnQgPSBBY3Rpb25MaXN0ZW5lci5BY3Rpb25FdmVudCgKICAgICAgICAgICAgICAgIHRpbWVzdGFtcCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgICAgICAgICAgICAgYWN0aW9uVHlwZSA9IEFjdGlvbkxpc3RlbmVyLkFjdGlvblR5cGUuQVBQX1NXSVRDSCwKICAgICAgICAgICAgICAgIGVsZW1lbnRJbmZvID0gQWN0aW9uTGlzdGVuZXIuRWxlbWVudEluZm8ocGFja2FnZU5hbWUgPSBwYWNrYWdlTmFtZSksCiAgICAgICAgICAgICAgICBhZGRpdGlvbmFsRGF0YSA9IG1hcE9mKAogICAgICAgICAgICAgICAgICAgICJldmVudCIgdG8gZXZlbnQsCiAgICAgICAgICAgICAgICAgICAgInNvdXJjZSIgdG8gImRldmljZV9hZG1pbiIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQogICAgICAgICAgICBhY3Rpb25DYWxsYmFjaz8uaW52b2tlKGFjdGlvbkV2ZW50KQogICAgICAgIH0KICAgIH0KfSA=
+package com.bslsjdk.operit.core.tools.system.action
+
+import android.app.admin.DevicePolicyManager
+import android.content.ComponentName
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import java.util.concurrent.atomic.AtomicBoolean
+
+/** 基于设备管理员的UI操作监听器 实现ADMIN权限级别的操作监听 */
+class AdminActionListener(private val context: Context) : ActionListener {
+    companion object {
+        private const val TAG = "AdminActionListener"
+        private var adminComponentName: ComponentName? = null
+
+        /**
+         * 设置设备管理员组件名称
+         * @param componentName 设备管理员组件名称
+         */
+        fun setAdminComponentName(componentName: ComponentName) {
+            adminComponentName = componentName
+        }
+    }
+
+    private val devicePolicyManager =
+        context.getSystemService(Context.DEVICE_POLICY_SERVICE) as DevicePolicyManager
+    private val isListening = AtomicBoolean(false)
+    private var actionCallback: ((ActionListener.ActionEvent) -> Unit)? = null
+
+    override fun getPermissionLevel(): AndroidPermissionLevel = AndroidPermissionLevel.ADMIN
+
+    override suspend fun isAvailable(): Boolean {
+        return adminComponentName != null && isDeviceAdminActive()
+    }
+
+    override suspend fun hasPermission(): ActionListener.PermissionStatus {
+        if (adminComponentName == null) {
+            return ActionListener.PermissionStatus.denied(context.getString(R.string.admin_device_admin_component_name_not_set))
+        }
+
+        return if (isDeviceAdminActive()) {
+            ActionListener.PermissionStatus.granted()
+        } else {
+            ActionListener.PermissionStatus.denied(context.getString(R.string.admin_device_admin_permission_not_activated))
+        }
+    }
+
+    override fun initialize() {
+        AppLogger.d(TAG, "设备管理员UI操作监听器初始化完成")
+    }
+
+    override suspend fun requestPermission(onResult: (Boolean) -> Unit) {
+        if (isAvailable()) {
+            onResult(true)
+            return
+        }
+
+        if (adminComponentName == null) {
+            AppLogger.e(TAG, "管理员组件名称未设置")
+            onResult(false)
+            return
+        }
+
+        // 引导用户激活设备管理员
+        try {
+            val intent = Intent(DevicePolicyManager.ACTION_ADD_DEVICE_ADMIN)
+            intent.putExtra(DevicePolicyManager.EXTRA_DEVICE_ADMIN, adminComponentName)
+            intent.putExtra(DevicePolicyManager.EXTRA_ADD_EXPLANATION, context.getString(R.string.admin_need_device_admin_permission))
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+            context.startActivity(intent)
+
+            onResult(false)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "打开设备管理员设置失败", e)
+            onResult(false)
+        }
+    }
+
+    override fun isListening(): Boolean = isListening.get()
+
+    override suspend fun startListening(onAction: (ActionListener.ActionEvent) -> Unit): ActionListener.ListeningResult =
+        withContext(Dispatchers.IO) {
+            try {
+                val permStatus = hasPermission()
+                if (!permStatus.granted) {
+                    return@withContext ActionListener.ListeningResult.failure(permStatus.reason)
+                }
+
+                if (isListening.get()) {
+                    return@withContext ActionListener.ListeningResult.failure(context.getString(R.string.admin_already_listening))
+                }
+
+                actionCallback = onAction
+                isListening.set(true)
+
+                AppLogger.d(TAG, "开始设备管理员级别的UI操作监听")
+
+                // 启动管理员级别的事件监控
+                startAdminEventMonitoring()
+
+                return@withContext ActionListener.ListeningResult.success(context.getString(R.string.admin_ui_listener_started))
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "启动设备管理员UI操作监听失败", e)
+                isListening.set(false)
+                return@withContext ActionListener.ListeningResult.failure(context.getString(R.string.admin_start_failed, e.message ?: "Unknown error"))
+            }
+        }
+
+    override suspend fun stopListening(): Boolean = withContext(Dispatchers.IO) {
+        try {
+            if (!isListening.get()) {
+                return@withContext true
+            }
+
+            isListening.set(false)
+            actionCallback = null
+
+            stopAdminEventMonitoring()
+
+            AppLogger.d(TAG, "设备管理员UI操作监听已停止")
+            return@withContext true
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "停止设备管理员UI操作监听失败", e)
+            return@withContext false
+        }
+    }
+
+    /** 检查设备管理员是否已激活 */
+    private fun isDeviceAdminActive(): Boolean {
+        return try {
+            adminComponentName?.let { devicePolicyManager.isAdminActive(it) } ?: false
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "检查设备管理员状态出错", e)
+            false
+        }
+    }
+
+    /**
+     * 开始管理员级别的事件监控
+     * 设备管理员可以监听系统状态变化、锁屏事件等
+     */
+    private fun startAdminEventMonitoring() {
+        AppLogger.d(TAG, "开始管理员级别事件监控 - 可监听系统状态和安全事件")
+        
+        // 设备管理员可以监听：
+        // - 锁屏/解锁事件
+        // - 应用安装/卸载事件
+        // - 系统安全策略变化
+        // - 密码尝试失败事件
+    }
+
+    /**
+     * 停止管理员级别的事件监控
+     */
+    private fun stopAdminEventMonitoring() {
+        AppLogger.d(TAG, "停止管理员级别事件监控")
+    }
+
+    /**
+     * 处理系统锁屏事件
+     */
+    fun handleScreenLockEvent() {
+        if (isListening.get() && actionCallback != null) {
+            val event = ActionListener.ActionEvent(
+                timestamp = System.currentTimeMillis(),
+                actionType = ActionListener.ActionType.SYSTEM_EVENT,
+                additionalData = mapOf(
+                    "event" to "screen_lock",
+                    "source" to "device_admin"
+                )
+            )
+            actionCallback?.invoke(event)
+        }
+    }
+
+    /**
+     * 处理应用状态变化事件
+     * @param packageName 应用包名
+     * @param event 事件类型
+     */
+    fun handleAppStateChange(packageName: String, event: String) {
+        if (isListening.get() && actionCallback != null) {
+            val actionEvent = ActionListener.ActionEvent(
+                timestamp = System.currentTimeMillis(),
+                actionType = ActionListener.ActionType.APP_SWITCH,
+                elementInfo = ActionListener.ElementInfo(packageName = packageName),
+                additionalData = mapOf(
+                    "event" to event,
+                    "source" to "device_admin"
+                )
+            )
+            actionCallback?.invoke(actionEvent)
+        }
+    }
+} 

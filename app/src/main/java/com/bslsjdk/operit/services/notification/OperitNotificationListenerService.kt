@@ -1,1 +1,125 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMubm90aWZpY2F0aW9uCgppbXBvcnQgYW5kcm9pZC5hcHAuTm90aWZpY2F0aW9uCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkLnNlcnZpY2Uubm90aWZpY2F0aW9uLk5vdGlmaWNhdGlvbkxpc3RlbmVyU2VydmljZQppbXBvcnQgYW5kcm9pZC5zZXJ2aWNlLm5vdGlmaWNhdGlvbi5TdGF0dXNCYXJOb3RpZmljYXRpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLk5vdGlmaWNhdGlvbkRhdGEKCm9iamVjdCBPcGVyaXROb3RpZmljYXRpb25TdG9yZSB7CiAgICBwcml2YXRlIGRhdGEgY2xhc3MgRW50cnkoCiAgICAgICAgdmFsIGtleTogU3RyaW5nLAogICAgICAgIHZhbCBwYWNrYWdlTmFtZTogU3RyaW5nLAogICAgICAgIHZhbCB0ZXh0OiBTdHJpbmcsCiAgICAgICAgdmFsIHRpbWVzdGFtcDogTG9uZywKICAgICAgICB2YWwgaXNPbmdvaW5nOiBCb29sZWFuCiAgICApCgogICAgcHJpdmF0ZSB2YWwgbG9jayA9IEFueSgpCiAgICBwcml2YXRlIHZhbCBlbnRyaWVzID0gTGlua2VkSGFzaE1hcDxTdHJpbmcsIEVudHJ5PigpCgogICAgZnVuIHVwc2VydChzYm46IFN0YXR1c0Jhck5vdGlmaWNhdGlvbikgewogICAgICAgIHZhbCBrZXkgPSBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTE9MTElQT1ApIHsKICAgICAgICAgICAgc2JuLmtleQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICIke3Nibi5wYWNrYWdlTmFtZX06JHtzYm4uaWR9OiR7c2JuLnRhZyA/OiAiIn0iCiAgICAgICAgfQoKICAgICAgICB2YWwgbm90aWZpY2F0aW9uID0gc2JuLm5vdGlmaWNhdGlvbgogICAgICAgIHZhbCB0ZXh0ID0gZXh0cmFjdFRleHQobm90aWZpY2F0aW9uKQogICAgICAgIHZhbCBpc09uZ29pbmcgPSBzYm4uaXNPbmdvaW5nIHx8IChub3RpZmljYXRpb24uZmxhZ3MgYW5kIE5vdGlmaWNhdGlvbi5GTEFHX09OR09JTkdfRVZFTlQpICE9IDAKCiAgICAgICAgdmFsIGVudHJ5ID0gRW50cnkoCiAgICAgICAgICAgIGtleSA9IGtleSwKICAgICAgICAgICAgcGFja2FnZU5hbWUgPSBzYm4ucGFja2FnZU5hbWUgPzogIiIsCiAgICAgICAgICAgIHRleHQgPSB0ZXh0LAogICAgICAgICAgICB0aW1lc3RhbXAgPSBzYm4ucG9zdFRpbWUsCiAgICAgICAgICAgIGlzT25nb2luZyA9IGlzT25nb2luZwogICAgICAgICkKCiAgICAgICAgc3luY2hyb25pemVkKGxvY2spIHsKICAgICAgICAgICAgZW50cmllc1trZXldID0gZW50cnkKICAgICAgICAgICAgaWYgKGVudHJpZXMuc2l6ZSA+IDIwMCkgewogICAgICAgICAgICAgICAgdmFsIHRvUmVtb3ZlID0gZW50cmllcy5lbnRyaWVzLml0ZXJhdG9yKCkubmV4dCgpLmtleQogICAgICAgICAgICAgICAgZW50cmllcy5yZW1vdmUodG9SZW1vdmUpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIHJlbW92ZShzYm46IFN0YXR1c0Jhck5vdGlmaWNhdGlvbikgewogICAgICAgIHZhbCBrZXkgPSBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTE9MTElQT1ApIHsKICAgICAgICAgICAgc2JuLmtleQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICIke3Nibi5wYWNrYWdlTmFtZX06JHtzYm4uaWR9OiR7c2JuLnRhZyA/OiAiIn0iCiAgICAgICAgfQoKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICBlbnRyaWVzLnJlbW92ZShrZXkpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBzbmFwc2hvdChsaW1pdDogSW50LCBpbmNsdWRlT25nb2luZzogQm9vbGVhbik6IExpc3Q8Tm90aWZpY2F0aW9uRGF0YS5Ob3RpZmljYXRpb24+IHsKICAgICAgICB2YWwgc2FmZUxpbWl0ID0gbGltaXQuY29lcmNlQXRMZWFzdCgwKQoKICAgICAgICBzeW5jaHJvbml6ZWQobG9jaykgewogICAgICAgICAgICByZXR1cm4gZW50cmllcy52YWx1ZXMKICAgICAgICAgICAgICAgIC5hc1NlcXVlbmNlKCkKICAgICAgICAgICAgICAgIC5maWx0ZXIgeyBpbmNsdWRlT25nb2luZyB8fCAhaXQuaXNPbmdvaW5nIH0KICAgICAgICAgICAgICAgIC5zb3J0ZWRCeURlc2NlbmRpbmcgeyBpdC50aW1lc3RhbXAgfQogICAgICAgICAgICAgICAgLnRha2Uoc2FmZUxpbWl0KQogICAgICAgICAgICAgICAgLm1hcCB7CiAgICAgICAgICAgICAgICAgICAgTm90aWZpY2F0aW9uRGF0YS5Ob3RpZmljYXRpb24oCiAgICAgICAgICAgICAgICAgICAgICAgIHBhY2thZ2VOYW1lID0gaXQucGFja2FnZU5hbWUsCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBpdC50ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICB0aW1lc3RhbXAgPSBpdC50aW1lc3RhbXAKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAudG9MaXN0KCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZXh0cmFjdFRleHQobm90aWZpY2F0aW9uOiBOb3RpZmljYXRpb24pOiBTdHJpbmcgewogICAgICAgIHZhbCBwYXJ0cyA9IEFycmF5TGlzdDxTdHJpbmc+KDQpCiAgICAgICAgdmFsIGV4dHJhcyA9IG5vdGlmaWNhdGlvbi5leHRyYXMKCiAgICAgICAgdmFsIHRpdGxlID0gZXh0cmFzPy5nZXRDaGFyU2VxdWVuY2UoTm90aWZpY2F0aW9uLkVYVFJBX1RJVExFKT8udG9TdHJpbmcoKT8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIGlmICh0aXRsZS5pc05vdEJsYW5rKCkpIHBhcnRzLmFkZCh0aXRsZSkKCiAgICAgICAgdmFsIHRleHQgPSBleHRyYXM/LmdldENoYXJTZXF1ZW5jZShOb3RpZmljYXRpb24uRVhUUkFfVEVYVCk/LnRvU3RyaW5nKCk/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICBpZiAodGV4dC5pc05vdEJsYW5rKCkpIHBhcnRzLmFkZCh0ZXh0KQoKICAgICAgICB2YWwgYmlnVGV4dCA9IGV4dHJhcz8uZ2V0Q2hhclNlcXVlbmNlKE5vdGlmaWNhdGlvbi5FWFRSQV9CSUdfVEVYVCk/LnRvU3RyaW5nKCk/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICBpZiAoYmlnVGV4dC5pc05vdEJsYW5rKCkpIHBhcnRzLmFkZChiaWdUZXh0KQoKICAgICAgICB2YWwgbGluZXMgPSBleHRyYXM/LmdldENoYXJTZXF1ZW5jZUFycmF5KE5vdGlmaWNhdGlvbi5FWFRSQV9URVhUX0xJTkVTKQogICAgICAgIGxpbmVzPy5mb3JFYWNoIHsgY3MgLT4KICAgICAgICAgICAgdmFsIGxpbmUgPSBjcz8udG9TdHJpbmcoKT8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgICAgICBpZiAobGluZS5pc05vdEJsYW5rKCkpIHBhcnRzLmFkZChsaW5lKQogICAgICAgIH0KCiAgICAgICAgdmFsIG1lcmdlZCA9IHBhcnRzLmRpc3RpbmN0KCkuam9pblRvU3RyaW5nKCJcbiIpLnRyaW0oKQogICAgICAgIGlmIChtZXJnZWQuaXNOb3RCbGFuaygpKSByZXR1cm4gbWVyZ2VkCgogICAgICAgIHZhbCB0aWNrZXIgPSBub3RpZmljYXRpb24udGlja2VyVGV4dD8udG9TdHJpbmcoKT8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIHJldHVybiB0aWNrZXIKICAgIH0KfQoKY2xhc3MgT3Blcml0Tm90aWZpY2F0aW9uTGlzdGVuZXJTZXJ2aWNlIDogTm90aWZpY2F0aW9uTGlzdGVuZXJTZXJ2aWNlKCkgewogICAgb3ZlcnJpZGUgZnVuIG9uTGlzdGVuZXJDb25uZWN0ZWQoKSB7CiAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk0pIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGFjdGl2ZU5vdGlmaWNhdGlvbnM/LmZvckVhY2ggeyBPcGVyaXROb3RpZmljYXRpb25TdG9yZS51cHNlcnQoaXQpIH0KICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uTm90aWZpY2F0aW9uUG9zdGVkKHNibjogU3RhdHVzQmFyTm90aWZpY2F0aW9uKSB7CiAgICAgICAgT3Blcml0Tm90aWZpY2F0aW9uU3RvcmUudXBzZXJ0KHNibikKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25Ob3RpZmljYXRpb25SZW1vdmVkKHNibjogU3RhdHVzQmFyTm90aWZpY2F0aW9uKSB7CiAgICAgICAgT3Blcml0Tm90aWZpY2F0aW9uU3RvcmUucmVtb3ZlKHNibikKICAgIH0KfQo=
+package com.bslsjdk.operit.services.notification
+
+import android.app.Notification
+import android.os.Build
+import android.service.notification.NotificationListenerService
+import android.service.notification.StatusBarNotification
+import com.bslsjdk.operit.core.tools.NotificationData
+
+object OperitNotificationStore {
+    private data class Entry(
+        val key: String,
+        val packageName: String,
+        val text: String,
+        val timestamp: Long,
+        val isOngoing: Boolean
+    )
+
+    private val lock = Any()
+    private val entries = LinkedHashMap<String, Entry>()
+
+    fun upsert(sbn: StatusBarNotification) {
+        val key = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            sbn.key
+        } else {
+            "${sbn.packageName}:${sbn.id}:${sbn.tag ?: ""}"
+        }
+
+        val notification = sbn.notification
+        val text = extractText(notification)
+        val isOngoing = sbn.isOngoing || (notification.flags and Notification.FLAG_ONGOING_EVENT) != 0
+
+        val entry = Entry(
+            key = key,
+            packageName = sbn.packageName ?: "",
+            text = text,
+            timestamp = sbn.postTime,
+            isOngoing = isOngoing
+        )
+
+        synchronized(lock) {
+            entries[key] = entry
+            if (entries.size > 200) {
+                val toRemove = entries.entries.iterator().next().key
+                entries.remove(toRemove)
+            }
+        }
+    }
+
+    fun remove(sbn: StatusBarNotification) {
+        val key = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            sbn.key
+        } else {
+            "${sbn.packageName}:${sbn.id}:${sbn.tag ?: ""}"
+        }
+
+        synchronized(lock) {
+            entries.remove(key)
+        }
+    }
+
+    fun snapshot(limit: Int, includeOngoing: Boolean): List<NotificationData.Notification> {
+        val safeLimit = limit.coerceAtLeast(0)
+
+        synchronized(lock) {
+            return entries.values
+                .asSequence()
+                .filter { includeOngoing || !it.isOngoing }
+                .sortedByDescending { it.timestamp }
+                .take(safeLimit)
+                .map {
+                    NotificationData.Notification(
+                        packageName = it.packageName,
+                        text = it.text,
+                        timestamp = it.timestamp
+                    )
+                }
+                .toList()
+        }
+    }
+
+    private fun extractText(notification: Notification): String {
+        val parts = ArrayList<String>(4)
+        val extras = notification.extras
+
+        val title = extras?.getCharSequence(Notification.EXTRA_TITLE)?.toString()?.trim().orEmpty()
+        if (title.isNotBlank()) parts.add(title)
+
+        val text = extras?.getCharSequence(Notification.EXTRA_TEXT)?.toString()?.trim().orEmpty()
+        if (text.isNotBlank()) parts.add(text)
+
+        val bigText = extras?.getCharSequence(Notification.EXTRA_BIG_TEXT)?.toString()?.trim().orEmpty()
+        if (bigText.isNotBlank()) parts.add(bigText)
+
+        val lines = extras?.getCharSequenceArray(Notification.EXTRA_TEXT_LINES)
+        lines?.forEach { cs ->
+            val line = cs?.toString()?.trim().orEmpty()
+            if (line.isNotBlank()) parts.add(line)
+        }
+
+        val merged = parts.distinct().joinToString("\n").trim()
+        if (merged.isNotBlank()) return merged
+
+        val ticker = notification.tickerText?.toString()?.trim().orEmpty()
+        return ticker
+    }
+}
+
+class OperitNotificationListenerService : NotificationListenerService() {
+    override fun onListenerConnected() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            try {
+                activeNotifications?.forEach { OperitNotificationStore.upsert(it) }
+            } catch (_: Exception) {
+            }
+        }
+    }
+
+    override fun onNotificationPosted(sbn: StatusBarNotification) {
+        OperitNotificationStore.upsert(sbn)
+    }
+
+    override fun onNotificationRemoved(sbn: StatusBarNotification) {
+        OperitNotificationStore.remove(sbn)
+    }
+}

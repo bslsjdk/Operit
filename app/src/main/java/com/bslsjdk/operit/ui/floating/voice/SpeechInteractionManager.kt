@@ -1,1 +1,322 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudm9pY2UKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQuSU5QVVRfTUVUSE9EX1NFUlZJQ0UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGFuZHJvaWQudmlldy5WaWV3CmltcG9ydCBhbmRyb2lkLnZpZXcuaW5wdXRtZXRob2QuSW5wdXRNZXRob2RNYW5hZ2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuZ2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5tdXRhYmxlU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnNldFZhbHVlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQuQUlGb3JlZ3JvdW5kU2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmFwaS5zcGVlY2guU3BlZWNoUHJlcm9sbFN0b3JlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnNwZWVjaC5XYWtlUGhyYXNlU25hcHNob3QKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5hcGkuc3BlZWNoLlNwZWVjaFNlcnZpY2VGYWN0b3J5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnZvaWNlLlZvaWNlU2VydmljZUZhY3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLlR0c0NsZWFuZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLldhaWZ1TWVzc2FnZVByb2Nlc3NvcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuSm9iCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCnByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJTcGVlY2hJbnRlcmFjdGlvbk1hbmFnZXIiCgovKioKICog6YCa55So6K+t6Z+z5Lqk5LqS566h55CG5ZmoCiAqIOWwgeijheS6hu+8muivremfs+ivhuWIq+OAgVRUU+OAgeeEpueCueiOt+WPluOAgeaWh+acrOe0r+enr+OAgemdmem7mOajgOa1i+etiemAu+i+kQogKi8KY2xhc3MgU3BlZWNoSW50ZXJhY3Rpb25NYW5hZ2VyKAogICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCwKICAgIHByaXZhdGUgdmFsIGNvcm91dGluZVNjb3BlOiBDb3JvdXRpbmVTY29wZSwKICAgIHByaXZhdGUgdmFsIG9uU3BlZWNoUmVzdWx0OiAoU3RyaW5nLCBCb29sZWFuKSAtPiBVbml0LCAvLyAodGV4dCwgaXNGaW5hbCkKICAgIHByaXZhdGUgdmFsIG9uU3RhdGVDaGFuZ2U6IChTdHJpbmcpIC0+IFVuaXQgLy8g5pu05paw54q25oCB5o+Q56S65paH5pysCikgewogICAgLy8gPT09PT0g54q25oCBID09PT09CiAgICB2YXIgaXNSZWNvcmRpbmcgYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICAgICAgcHJpdmF0ZSBzZXQKICAgIHZhciBpc1Byb2Nlc3NpbmdTcGVlY2ggYnkgbXV0YWJsZVN0YXRlT2YoZmFsc2UpCiAgICAgICAgcHJpdmF0ZSBzZXQKICAgIHZhciBoYXNGb2N1cyBieSBtdXRhYmxlU3RhdGVPZihmYWxzZSkKICAgICAgICBwcml2YXRlIHNldAoKICAgIC8vIOaWh+acrOe0r+enrwogICAgdmFyIHVzZXJNZXNzYWdlIGJ5IG11dGFibGVTdGF0ZU9mKCIiKQogICAgICAgIHByaXZhdGUgc2V0CiAgICBwcml2YXRlIHZhciBhY2N1bXVsYXRlZFRleHQgPSAiIgogICAgcHJpdmF0ZSB2YXIgbGF0ZXN0UGFydGlhbFRleHQgPSAiIgoKICAgIHByaXZhdGUgdmFyIHdha2VQaHJhc2VTbmFwc2hvdDogV2FrZVBocmFzZVNuYXBzaG90PyA9IG51bGwKCiAgICAvLyDku7vliqHmjqfliLYKICAgIHByaXZhdGUgdmFyIHRpbWVvdXRKb2I6IEpvYj8gPSBudWxsCiAgICBwcml2YXRlIHZhciBzaWxlbmNlVGltZW91dEpvYjogSm9iPyA9IG51bGwKCiAgICAvLyA9PT09PSDmnI3liqEgPT09PT0KICAgIHZhbCBzcGVlY2hTZXJ2aWNlID0gU3BlZWNoU2VydmljZUZhY3RvcnkuZ2V0SW5zdGFuY2UoY29udGV4dCkKICAgIHZhbCB2b2ljZVNlcnZpY2UKICAgICAgICBnZXQoKSA9IFZvaWNlU2VydmljZUZhY3RvcnkuZ2V0SW5zdGFuY2UoY29udGV4dCkKICAgIHByaXZhdGUgdmFsIGlucHV0TWV0aG9kTWFuYWdlciA9IGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShJTlBVVF9NRVRIT0RfU0VSVklDRSkgYXMgSW5wdXRNZXRob2RNYW5hZ2VyCgogICAgLy8g5pq06ZyyIEZsb3cg57uZ5aSW6YOo5L2/55SoCiAgICB2YWwgdm9sdW1lTGV2ZWxGbG93IGdldCgpID0gc3BlZWNoU2VydmljZS52b2x1bWVMZXZlbEZsb3cKICAgIHZhbCByZWNvZ25pdGlvblJlc3VsdEZsb3cgZ2V0KCkgPSBzcGVlY2hTZXJ2aWNlLnJlY29nbml0aW9uUmVzdWx0RmxvdwoKICAgIC8vID09PT09IOWIneWni+WMluS4jua4heeQhiA9PT09PQogICAgc3VzcGVuZCBmdW4gaW5pdGlhbGl6ZSgpIHsKICAgICAgICByZXNldFN0YXRlKCkKICAgICAgICB0cnkgewogICAgICAgICAgICBzcGVlY2hTZXJ2aWNlLmluaXRpYWxpemUoKQogICAgICAgICAgICB2b2ljZVNlcnZpY2UuaW5pdGlhbGl6ZSgpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBpbml0aWFsaXplIHNwZWVjaCBzZXJ2aWNlcyIsIGUpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBjbGVhbnVwKCkgewogICAgICAgIHN0b3BMaXN0ZW5pbmcoaXNDYW5jZWwgPSB0cnVlKQogICAgICAgIGNvcm91dGluZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgIHNwZWVjaFNlcnZpY2UuY2FuY2VsUmVjb2duaXRpb24oKQogICAgICAgICAgICB2b2ljZVNlcnZpY2Uuc3RvcCgpCiAgICAgICAgfQogICAgICAgIHRpbWVvdXRKb2I/LmNhbmNlbCgpCiAgICAgICAgc2lsZW5jZVRpbWVvdXRKb2I/LmNhbmNlbCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVzZXRTdGF0ZSgpIHsKICAgICAgICBpc1JlY29yZGluZyA9IGZhbHNlCiAgICAgICAgaXNQcm9jZXNzaW5nU3BlZWNoID0gZmFsc2UKICAgICAgICB1c2VyTWVzc2FnZSA9ICIiCiAgICAgICAgYWNjdW11bGF0ZWRUZXh0ID0gIiIKICAgICAgICBsYXRlc3RQYXJ0aWFsVGV4dCA9ICIiCiAgICAgICAgd2FrZVBocmFzZVNuYXBzaG90ID0gbnVsbAogICAgICAgIHRpbWVvdXRKb2I/LmNhbmNlbCgpCiAgICAgICAgc2lsZW5jZVRpbWVvdXRKb2I/LmNhbmNlbCgpCiAgICB9CgogICAgLy8gPT09PT0g54Sm54K5566h55CGID09PT09CiAgICBmdW4gcmVxdWVzdEZvY3VzKHZpZXc6IFZpZXc/KTogQm9vbGVhbiB7CiAgICAgICAgaWYgKHZpZXcgPT0gbnVsbCkgewogICAgICAgICAgICBoYXNGb2N1cyA9IGZhbHNlCiAgICAgICAgICAgIHJldHVybiBmYWxzZQogICAgICAgIH0KICAgICAgICB2aWV3LnJlcXVlc3RGb2N1cygpCiAgICAgICAgaW5wdXRNZXRob2RNYW5hZ2VyLnNob3dTb2Z0SW5wdXQodmlldywgSW5wdXRNZXRob2RNYW5hZ2VyLlNIT1dfSU1QTElDSVQpCiAgICAgICAgaW5wdXRNZXRob2RNYW5hZ2VyLmhpZGVTb2Z0SW5wdXRGcm9tV2luZG93KHZpZXcud2luZG93VG9rZW4sIDApCiAgICAgICAgaGFzRm9jdXMgPSB0cnVlCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICBmdW4gcmVsZWFzZUZvY3VzKHZpZXc6IFZpZXc/KSB7CiAgICAgICAgdmlldz8ubGV0IHsKICAgICAgICAgICAgaW5wdXRNZXRob2RNYW5hZ2VyLmhpZGVTb2Z0SW5wdXRGcm9tV2luZG93KGl0LndpbmRvd1Rva2VuLCAwKQogICAgICAgIH0KICAgICAgICBoYXNGb2N1cyA9IGZhbHNlIC8vIOmAu+i+keS4iumHiuaUvu+8jOiZveeEtueJqeeQhuS4iuWPr+iDvei/mOWcqAogICAgfQoKICAgIC8vID09PT09IOivremfs+ivhuWIq+a1geeoiyA9PT09PQoKICAgIGZ1biBzdGFydExpc3RlbmluZyhvblN0YXJ0RmFpbHVyZTogKChTdHJpbmcpIC0+IFVuaXQpPyA9IG51bGwpIHsKICAgICAgICBpZiAoIWhhc0ZvY3VzKSB7CiAgICAgICAgICAgIG9uU3RhcnRGYWlsdXJlPy5pbnZva2UoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmxvYXRpbmdfY2Fubm90X2dldF9mb2N1cykpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgLy8g6YeN572u6LaF5pe2CiAgICAgICAgdGltZW91dEpvYj8uY2FuY2VsKCkKICAgICAgICAKICAgICAgICAvLyDph43nva7mlofmnKznirbmgIEKICAgICAgICBpc1JlY29yZGluZyA9IHRydWUKICAgICAgICB1c2VyTWVzc2FnZSA9ICIiCiAgICAgICAgYWNjdW11bGF0ZWRUZXh0ID0gIiIKICAgICAgICBsYXRlc3RQYXJ0aWFsVGV4dCA9ICIiCiAgICAgICAgd2FrZVBocmFzZVNuYXBzaG90ID0gU3BlZWNoUHJlcm9sbFN0b3JlLmNvbnN1bWVQZW5kaW5nV2FrZVBocmFzZSgpCiAgICAgICAgb25TdGF0ZUNoYW5nZShjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5mbG9hdGluZ19saXN0ZW5pbmcpKQoKICAgICAgICAvLyDlkK/liqjnm5HlkKwKICAgICAgICBjb3JvdXRpbmVTY29wZS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBBSUZvcmVncm91bmRTZXJ2aWNlLmVuc3VyZU1pY3JvcGhvbmVGb3JlZ3JvdW5kKGNvbnRleHQsIGZvcmNlU3RhcnQgPSB0cnVlKQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiRmFpbGVkIHRvIHJlcXVlc3QgbWljcm9waG9uZSBmb3JlZ3JvdW5kIiwgZSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGNvbnRleHQuc3RhcnRTZXJ2aWNlKEludGVudChjb250ZXh0LCBBSUZvcmVncm91bmRTZXJ2aWNlOjpjbGFzcy5qYXZhKS5hcHBseSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGFjdGlvbiA9IEFJRm9yZWdyb3VuZFNlcnZpY2UuQUNUSU9OX1BSRVBBUkVfV0FLRV9IQU5ET0ZGCiAgICAgICAgICAgICAgICAgICAgfSkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci53KFRBRywgIkZhaWxlZCB0byByZXF1ZXN0IHdha2UgaGFuZG9mZiBwcmVwYXJlIiwgZSkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyBHaXZlIEFJRm9yZWdyb3VuZFNlcnZpY2UgYSBtb21lbnQgdG8gc3RvcCB3YWtlIGxpc3RlbmluZyBhbmQgcmVsZWFzZSBtaWNyb3Bob25lCiAgICAgICAgICAgICAgICBkZWxheSgxODApCgogICAgICAgICAgICAgICAgdmFyIG9rID0gZmFsc2UKICAgICAgICAgICAgICAgIHZhciBhdHRlbXB0ID0gMAogICAgICAgICAgICAgICAgd2hpbGUgKCFvayAmJiBhdHRlbXB0IDwgMTIpIHsKICAgICAgICAgICAgICAgICAgICBpZiAoYXR0ZW1wdCA+IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVsYXkoMTYwKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBvayA9IHNwZWVjaFNlcnZpY2Uuc3RhcnRSZWNvZ25pdGlvbigKICAgICAgICAgICAgICAgICAgICAgICAgbGFuZ3VhZ2VDb2RlID0gInpoLUNOIiwKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludW91c01vZGUgPSB0cnVlLAogICAgICAgICAgICAgICAgICAgICAgICBwYXJ0aWFsUmVzdWx0cyA9IHRydWUKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgYXR0ZW1wdCsrCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKCFvaykgewogICAgICAgICAgICAgICAgICAgIGlzUmVjb3JkaW5nID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICBpc1Byb2Nlc3NpbmdTcGVlY2ggPSBmYWxzZQogICAgICAgICAgICAgICAgICAgIG9uU3RhdGVDaGFuZ2UoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmxvYXRpbmdfaG9sZF9taWNyb3Bob25lKSkKICAgICAgICAgICAgICAgICAgICBvblN0YXJ0RmFpbHVyZT8uaW52b2tlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZsb2F0aW5nX3N0YXJ0X3JlY29yZGluZ19mYWlsZWQpKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIGlzUmVjb3JkaW5nID0gZmFsc2UKICAgICAgICAgICAgICAgIGlzUHJvY2Vzc2luZ1NwZWVjaCA9IGZhbHNlCiAgICAgICAgICAgICAgICBvblN0YXRlQ2hhbmdlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZsb2F0aW5nX2hvbGRfbWljcm9waG9uZSkpCiAgICAgICAgICAgICAgICBvblN0YXJ0RmFpbHVyZT8uaW52b2tlKGUubWVzc2FnZSA/OiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5mbG9hdGluZ19zdGFydF9yZWNvcmRpbmdfZmFpbGVkKSkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8g55uR5ZCs57uT5p6c5rWBICjlgYforr7ov5nmmK8gVmlld01vZGVsIOaIluiAheWklumDqOiwg+eUqOiAhemAmui/hyBjb2xsZWN0TGF0ZXN0IOi/nuaOpeWIsCBoYW5kbGVSZWNvZ25pdGlvblJlc3VsdCkKICAgICAgICAvLyDms6jmhI/vvJpTcGVlY2hTZXJ2aWNlIOeahOe7k+aenOaYr+mAmui/hyBGbG93IOWPkeWHuueahO+8jOi/memHjOaIkeS7rOmcgOimgeS4gOS4quahpeaOpeaWueW8j++8jAogICAgICAgIC8vIOaIluiAheiuqSBWaWV3TW9kZWwg55uR5ZCsIEZsb3cg5bm26LCD55So6L+Z6YeM55qEIGhhbmRsZVJlY29nbml0aW9uUmVzdWx044CCCiAgICAgICAgLy8g5Li65LqG566A5YyW77yM6L+Z6YeM5oiR5Lus5YGH6K6+IFZpZXdNb2RlbCDotJ/otKPnm5HlkKwgU3BlZWNoU2VydmljZSDnmoQgRmxvdyDlubbosIPnlKjmnKznsbvnmoQgaGFuZGxlUmVjb2duaXRpb25SZXN1bHQKICAgIH0KCiAgICBmdW4gc3RvcExpc3RlbmluZyhpc0NhbmNlbDogQm9vbGVhbikgewogICAgICAgIGlmICghaXNSZWNvcmRpbmcpIHJldHVybgogICAgICAgIAogICAgICAgIGlzUmVjb3JkaW5nID0gZmFsc2UKICAgICAgICBzaWxlbmNlVGltZW91dEpvYj8uY2FuY2VsKCkKCiAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgaWYgKGlzQ2FuY2VsKSB7CiAgICAgICAgICAgICAgICBzcGVlY2hTZXJ2aWNlLmNhbmNlbFJlY29nbml0aW9uKCkKICAgICAgICAgICAgICAgIGlzUHJvY2Vzc2luZ1NwZWVjaCA9IGZhbHNlCiAgICAgICAgICAgICAgICByZXNldFN0YXRlKCkKICAgICAgICAgICAgICAgIG9uU3RhdGVDaGFuZ2UoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmxvYXRpbmdfaG9sZF9taWNyb3Bob25lKSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIGlzUHJvY2Vzc2luZ1NwZWVjaCA9IHRydWUKICAgICAgICAgICAgICAgIG9uU3RhdGVDaGFuZ2UoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmxvYXRpbmdfcmVjb2duaXppbmcpKQogICAgICAgICAgICAgICAgc3BlZWNoU2VydmljZS5zdG9wUmVjb2duaXRpb24oKQogICAgICAgICAgICAgICAgc3RhcnRGYWxsYmFja1RpbWVvdXQoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIC8vIOWkhOeQhuivhuWIq+e7k+aenAogICAgZnVuIGhhbmRsZVJlY29nbml0aW9uUmVzdWx0KHJlc3VsdFRleHQ6IFN0cmluZywgaXNGaW5hbDogQm9vbGVhbiwgYXV0b1NlbmRTaWxlbmNlOiBCb29sZWFuID0gZmFsc2UpIHsKICAgICAgICB2YWwgZWZmZWN0aXZlVGV4dCA9IHN0cmlwV2FrZVBocmFzZVByZWZpeElmTmVlZGVkKHJlc3VsdFRleHQpCiAgICAgICAgaWYgKGlzUmVjb3JkaW5nKSB7CiAgICAgICAgICAgIGlmIChlZmZlY3RpdmVUZXh0LmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICAgICAgLy8g5aSE55CG5aKe6YePCiAgICAgICAgICAgICAgICBpZiAobGF0ZXN0UGFydGlhbFRleHQuaXNOb3RFbXB0eSgpICYmICFlZmZlY3RpdmVUZXh0LnN0YXJ0c1dpdGgobGF0ZXN0UGFydGlhbFRleHQpKSB7CiAgICAgICAgICAgICAgICAgICAgYWNjdW11bGF0ZWRUZXh0ICs9IChpZiAoYWNjdW11bGF0ZWRUZXh0LmlzTm90RW1wdHkoKSkgIuOAgiIgZWxzZSAiIikgKyBsYXRlc3RQYXJ0aWFsVGV4dAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbGF0ZXN0UGFydGlhbFRleHQgPSBlZmZlY3RpdmVUZXh0CgogICAgICAgICAgICAgICAgLy8g6Z2Z6buY5qOA5rWLCiAgICAgICAgICAgICAgICBpZiAoYXV0b1NlbmRTaWxlbmNlKSB7CiAgICAgICAgICAgICAgICAgICAgc2lsZW5jZVRpbWVvdXRKb2I/LmNhbmNlbCgpCiAgICAgICAgICAgICAgICAgICAgc2lsZW5jZVRpbWVvdXRKb2IgPSBjb3JvdXRpbmVTY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgICAgICAgICBkZWxheSgyMDAwKQogICAgICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTaWxlbmNlIHRpbWVvdXQsIHNlbmRpbmcuLi4iKQogICAgICAgICAgICAgICAgICAgICAgICBmaW5hbGl6ZVNwZWVjaElucHV0KCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdXNlck1lc3NhZ2UgPSBhY2N1bXVsYXRlZFRleHQgKyAoaWYgKGFjY3VtdWxhdGVkVGV4dC5pc05vdEVtcHR5KCkgfHwgbGF0ZXN0UGFydGlhbFRleHQuaXNOb3RFbXB0eSgpKSBsYXRlc3RQYXJ0aWFsVGV4dCBlbHNlICIiKQogICAgICAgICAgICAKICAgICAgICB9IGVsc2UgaWYgKGlzUHJvY2Vzc2luZ1NwZWVjaCAmJiBpc0ZpbmFsKSB7CiAgICAgICAgICAgIHRpbWVvdXRKb2I/LmNhbmNlbCgpCiAgICAgICAgICAgIGFjY3VtdWxhdGVkVGV4dCArPSAoaWYgKGFjY3VtdWxhdGVkVGV4dC5pc05vdEVtcHR5KCkgJiYgZWZmZWN0aXZlVGV4dC5pc05vdEJsYW5rKCkpICLjgIIiIGVsc2UgIiIpICsgZWZmZWN0aXZlVGV4dAogICAgICAgICAgICBmaW5hbGl6ZVNwZWVjaElucHV0KCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gc3RyaXBXYWtlUGhyYXNlUHJlZml4SWZOZWVkZWQodGV4dDogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgc25hcHNob3QgPSB3YWtlUGhyYXNlU25hcHNob3QgPzogcmV0dXJuIHRleHQKICAgICAgICBpZiAodGV4dC5pc0JsYW5rKCkpIHJldHVybiB0ZXh0CgogICAgICAgIHZhbCBsZWFkaW5nUmVnZXggPSBSZWdleCgiXltcXHNcXHB7UHVuY3R977yM44CC77yB77yf77yb77ya44CB4oCc4oCd4oCY4oCZ44CQ44CR77yI77yJKClcXFtcXF17fTw+44CK44CLXSsiKQogICAgICAgIHZhbCBsZWFkaW5nTWF0Y2ggPSBsZWFkaW5nUmVnZXguZmluZCh0ZXh0KQogICAgICAgIHZhbCBzdGFydElkeCA9IGxlYWRpbmdNYXRjaD8udmFsdWU/Lmxlbmd0aCA/OiAwCiAgICAgICAgdmFsIHRyaW1tZWQgPSB0ZXh0LnN1YnN0cmluZyhzdGFydElkeCkKCiAgICAgICAgaWYgKHRyaW1tZWQuaXNCbGFuaygpKSByZXR1cm4gdGV4dAoKICAgICAgICBpZiAoc25hcHNob3QucmVnZXhFbmFibGVkKSB7CiAgICAgICAgICAgIHJldHVybiB0cnkgewogICAgICAgICAgICAgICAgdmFsIG0gPSBSZWdleChzbmFwc2hvdC5waHJhc2UpLmZpbmQodHJpbW1lZCkKICAgICAgICAgICAgICAgIGlmIChtICE9IG51bGwgJiYgbS5yYW5nZS5maXJzdCA9PSAwKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHJlbWFpbmRlciA9IHRyaW1tZWQuc3Vic3RyaW5nKG0udmFsdWUubGVuZ3RoKQogICAgICAgICAgICAgICAgICAgIHJlbWFpbmRlci5yZXBsYWNlRmlyc3QobGVhZGluZ1JlZ2V4LCAiIikKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgdGV4dAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIHRleHQKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmFsIHBocmFzZSA9IHNuYXBzaG90LnBocmFzZQogICAgICAgIGlmIChwaHJhc2UuaXNCbGFuaygpKSByZXR1cm4gdGV4dAogICAgICAgIHJldHVybiBpZiAodHJpbW1lZC5zdGFydHNXaXRoKHBocmFzZSkpIHsKICAgICAgICAgICAgdmFsIHJlbWFpbmRlciA9IHRyaW1tZWQuc3Vic3RyaW5nKHBocmFzZS5sZW5ndGgpCiAgICAgICAgICAgIHJlbWFpbmRlci5yZXBsYWNlRmlyc3QobGVhZGluZ1JlZ2V4LCAiIikKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0ZXh0CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIHN0YXJ0RmFsbGJhY2tUaW1lb3V0KCkgewogICAgICAgIHRpbWVvdXRKb2IgPSBjb3JvdXRpbmVTY29wZS5sYXVuY2ggewogICAgICAgICAgICBkZWxheSgzMDAwKQogICAgICAgICAgICBpZiAoaXNQcm9jZXNzaW5nU3BlZWNoKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIudyhUQUcsICJGYWxsYmFjayB0aW1lb3V0IikKICAgICAgICAgICAgICAgIGZpbmFsaXplU3BlZWNoSW5wdXQoKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGZpbmFsaXplU3BlZWNoSW5wdXQoKSB7CiAgICAgICAgaXNQcm9jZXNzaW5nU3BlZWNoID0gZmFsc2UKICAgICAgICB2YWwgdGV4dCA9IHVzZXJNZXNzYWdlLmlmQmxhbmsgeyBhY2N1bXVsYXRlZFRleHQgfQogICAgICAgIAogICAgICAgIGlmICh0ZXh0LmlzTm90QmxhbmsoKSkgewogICAgICAgICAgICBvblNwZWVjaFJlc3VsdCh0ZXh0LCB0cnVlKQogICAgICAgICAgICBvblN0YXRlQ2hhbmdlKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmZsb2F0aW5nX3RoaW5raW5nXzIpKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIG9uU3RhdGVDaGFuZ2UoY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmxvYXRpbmdfZGlkbnRfaGVhcl9jbGVhcmx5KSkKICAgICAgICB9CgogICAgICAgIC8vIOWmguaenOS4jeaYr+mdmem7mOi2heaXtuinpuWPkeeahO+8jOmHjee9ruaWh+acrO+8iOmdmem7mOi2heaXtuWPr+iDveaEj+WRs+edgOi/meS4gOWPpee7k+adn++8jOWHhuWkh+S4i+S4gOWPpe+8jOaIluiAheebtOaOpeWPkemAge+8iQogICAgICAgIC8vIOi/memHjOaIkeS7rOe7n+S4gOmHjee9ru+8jOWboOS4uiBvblNwZWVjaFJlc3VsdCDpgJrluLjkvJrop6blj5Hlj5HpgIEKICAgICAgICB1c2VyTWVzc2FnZSA9ICIiCiAgICAgICAgYWNjdW11bGF0ZWRUZXh0ID0gIiIKICAgICAgICBsYXRlc3RQYXJ0aWFsVGV4dCA9ICIiCiAgICB9CiAgICAKICAgIC8vID09PT09IFRUUyDovoXliqkgPT09PT0KICAgIAogICAgZnVuIHNwZWFrKHRleHQ6IFN0cmluZywgaW50ZXJydXB0OiBCb29sZWFuID0gdHJ1ZSkgewogICAgICAgIGlmICh0ZXh0LmlzQmxhbmsoKSkgcmV0dXJuCiAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZvaWNlU2VydmljZS5zcGVhayh0ZXh0LCBpbnRlcnJ1cHQpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiVFRTIEVycm9yIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KICAgIAogICAgZnVuIGNsZWFuVGV4dEZvclR0cyh0ZXh0OiBTdHJpbmcsIHJlZ2V4czogTGlzdDxTdHJpbmc+KTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gV2FpZnVNZXNzYWdlUHJvY2Vzc29yLmNsZWFuQ29udGVudEZvcldhaWZ1KFR0c0NsZWFuZXIuY2xlYW4odGV4dCwgcmVnZXhzKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.ui.floating.voice
+
+import android.content.Intent
+import android.content.Context
+import android.content.Context.INPUT_METHOD_SERVICE
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.R
+import android.view.View
+import android.view.inputmethod.InputMethodManager
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.setValue
+import com.bslsjdk.operit.api.chat.AIForegroundService
+import com.bslsjdk.operit.api.speech.SpeechPrerollStore
+import com.bslsjdk.operit.api.speech.WakePhraseSnapshot
+import com.bslsjdk.operit.api.speech.SpeechServiceFactory
+import com.bslsjdk.operit.api.voice.VoiceServiceFactory
+import com.bslsjdk.operit.util.TtsCleaner
+import com.bslsjdk.operit.util.WaifuMessageProcessor
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+
+private const val TAG = "SpeechInteractionManager"
+
+/**
+ * 通用语音交互管理器
+ * 封装了：语音识别、TTS、焦点获取、文本累积、静默检测等逻辑
+ */
+class SpeechInteractionManager(
+    private val context: Context,
+    private val coroutineScope: CoroutineScope,
+    private val onSpeechResult: (String, Boolean) -> Unit, // (text, isFinal)
+    private val onStateChange: (String) -> Unit // 更新状态提示文本
+) {
+    // ===== 状态 =====
+    var isRecording by mutableStateOf(false)
+        private set
+    var isProcessingSpeech by mutableStateOf(false)
+        private set
+    var hasFocus by mutableStateOf(false)
+        private set
+
+    // 文本累积
+    var userMessage by mutableStateOf("")
+        private set
+    private var accumulatedText = ""
+    private var latestPartialText = ""
+
+    private var wakePhraseSnapshot: WakePhraseSnapshot? = null
+
+    // 任务控制
+    private var timeoutJob: Job? = null
+    private var silenceTimeoutJob: Job? = null
+
+    // ===== 服务 =====
+    val speechService = SpeechServiceFactory.getInstance(context)
+    val voiceService
+        get() = VoiceServiceFactory.getInstance(context)
+    private val inputMethodManager = context.getSystemService(INPUT_METHOD_SERVICE) as InputMethodManager
+
+    // 暴露 Flow 给外部使用
+    val volumeLevelFlow get() = speechService.volumeLevelFlow
+    val recognitionResultFlow get() = speechService.recognitionResultFlow
+
+    // ===== 初始化与清理 =====
+    suspend fun initialize() {
+        resetState()
+        try {
+            speechService.initialize()
+            voiceService.initialize()
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to initialize speech services", e)
+        }
+    }
+
+    fun cleanup() {
+        stopListening(isCancel = true)
+        coroutineScope.launch {
+            speechService.cancelRecognition()
+            voiceService.stop()
+        }
+        timeoutJob?.cancel()
+        silenceTimeoutJob?.cancel()
+    }
+
+    private fun resetState() {
+        isRecording = false
+        isProcessingSpeech = false
+        userMessage = ""
+        accumulatedText = ""
+        latestPartialText = ""
+        wakePhraseSnapshot = null
+        timeoutJob?.cancel()
+        silenceTimeoutJob?.cancel()
+    }
+
+    // ===== 焦点管理 =====
+    fun requestFocus(view: View?): Boolean {
+        if (view == null) {
+            hasFocus = false
+            return false
+        }
+        view.requestFocus()
+        inputMethodManager.showSoftInput(view, InputMethodManager.SHOW_IMPLICIT)
+        inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
+        hasFocus = true
+        return true
+    }
+
+    fun releaseFocus(view: View?) {
+        view?.let {
+            inputMethodManager.hideSoftInputFromWindow(it.windowToken, 0)
+        }
+        hasFocus = false // 逻辑上释放，虽然物理上可能还在
+    }
+
+    // ===== 语音识别流程 =====
+
+    fun startListening(onStartFailure: ((String) -> Unit)? = null) {
+        if (!hasFocus) {
+            onStartFailure?.invoke(context.getString(R.string.floating_cannot_get_focus))
+            return
+        }
+
+        // 重置超时
+        timeoutJob?.cancel()
+        
+        // 重置文本状态
+        isRecording = true
+        userMessage = ""
+        accumulatedText = ""
+        latestPartialText = ""
+        wakePhraseSnapshot = SpeechPrerollStore.consumePendingWakePhrase()
+        onStateChange(context.getString(R.string.floating_listening))
+
+        // 启动监听
+        coroutineScope.launch {
+            try {
+                try {
+                    AIForegroundService.ensureMicrophoneForeground(context, forceStart = true)
+                } catch (e: Exception) {
+                    AppLogger.w(TAG, "Failed to request microphone foreground", e)
+                }
+
+                try {
+                    context.startService(Intent(context, AIForegroundService::class.java).apply {
+                        action = AIForegroundService.ACTION_PREPARE_WAKE_HANDOFF
+                    })
+                } catch (e: Exception) {
+                    AppLogger.w(TAG, "Failed to request wake handoff prepare", e)
+                }
+
+                // Give AIForegroundService a moment to stop wake listening and release microphone
+                delay(180)
+
+                var ok = false
+                var attempt = 0
+                while (!ok && attempt < 12) {
+                    if (attempt > 0) {
+                        delay(160)
+                    }
+                    ok = speechService.startRecognition(
+                        languageCode = "zh-CN",
+                        continuousMode = true,
+                        partialResults = true
+                    )
+                    attempt++
+                }
+
+                if (!ok) {
+                    isRecording = false
+                    isProcessingSpeech = false
+                    onStateChange(context.getString(R.string.floating_hold_microphone))
+                    onStartFailure?.invoke(context.getString(R.string.floating_start_recording_failed))
+                }
+            } catch (e: Exception) {
+                isRecording = false
+                isProcessingSpeech = false
+                onStateChange(context.getString(R.string.floating_hold_microphone))
+                onStartFailure?.invoke(e.message ?: context.getString(R.string.floating_start_recording_failed))
+            }
+        }
+
+        // 监听结果流 (假设这是 ViewModel 或者外部调用者通过 collectLatest 连接到 handleRecognitionResult)
+        // 注意：SpeechService 的结果是通过 Flow 发出的，这里我们需要一个桥接方式，
+        // 或者让 ViewModel 监听 Flow 并调用这里的 handleRecognitionResult。
+        // 为了简化，这里我们假设 ViewModel 负责监听 SpeechService 的 Flow 并调用本类的 handleRecognitionResult
+    }
+
+    fun stopListening(isCancel: Boolean) {
+        if (!isRecording) return
+        
+        isRecording = false
+        silenceTimeoutJob?.cancel()
+
+        coroutineScope.launch {
+            if (isCancel) {
+                speechService.cancelRecognition()
+                isProcessingSpeech = false
+                resetState()
+                onStateChange(context.getString(R.string.floating_hold_microphone))
+            } else {
+                isProcessingSpeech = true
+                onStateChange(context.getString(R.string.floating_recognizing))
+                speechService.stopRecognition()
+                startFallbackTimeout()
+            }
+        }
+    }
+
+    // 处理识别结果
+    fun handleRecognitionResult(resultText: String, isFinal: Boolean, autoSendSilence: Boolean = false) {
+        val effectiveText = stripWakePhrasePrefixIfNeeded(resultText)
+        if (isRecording) {
+            if (effectiveText.isNotBlank()) {
+                // 处理增量
+                if (latestPartialText.isNotEmpty() && !effectiveText.startsWith(latestPartialText)) {
+                    accumulatedText += (if (accumulatedText.isNotEmpty()) "。" else "") + latestPartialText
+                }
+                latestPartialText = effectiveText
+
+                // 静默检测
+                if (autoSendSilence) {
+                    silenceTimeoutJob?.cancel()
+                    silenceTimeoutJob = coroutineScope.launch {
+                        delay(2000)
+                        AppLogger.d(TAG, "Silence timeout, sending...")
+                        finalizeSpeechInput()
+                    }
+                }
+            }
+            userMessage = accumulatedText + (if (accumulatedText.isNotEmpty() || latestPartialText.isNotEmpty()) latestPartialText else "")
+            
+        } else if (isProcessingSpeech && isFinal) {
+            timeoutJob?.cancel()
+            accumulatedText += (if (accumulatedText.isNotEmpty() && effectiveText.isNotBlank()) "。" else "") + effectiveText
+            finalizeSpeechInput()
+        }
+    }
+
+    private fun stripWakePhrasePrefixIfNeeded(text: String): String {
+        val snapshot = wakePhraseSnapshot ?: return text
+        if (text.isBlank()) return text
+
+        val leadingRegex = Regex("^[\\s\\p{Punct}，。！？；：、“”‘’【】（）()\\[\\]{}<>《》]+")
+        val leadingMatch = leadingRegex.find(text)
+        val startIdx = leadingMatch?.value?.length ?: 0
+        val trimmed = text.substring(startIdx)
+
+        if (trimmed.isBlank()) return text
+
+        if (snapshot.regexEnabled) {
+            return try {
+                val m = Regex(snapshot.phrase).find(trimmed)
+                if (m != null && m.range.first == 0) {
+                    val remainder = trimmed.substring(m.value.length)
+                    remainder.replaceFirst(leadingRegex, "")
+                } else {
+                    text
+                }
+            } catch (_: Exception) {
+                text
+            }
+        }
+
+        val phrase = snapshot.phrase
+        if (phrase.isBlank()) return text
+        return if (trimmed.startsWith(phrase)) {
+            val remainder = trimmed.substring(phrase.length)
+            remainder.replaceFirst(leadingRegex, "")
+        } else {
+            text
+        }
+    }
+
+    private fun startFallbackTimeout() {
+        timeoutJob = coroutineScope.launch {
+            delay(3000)
+            if (isProcessingSpeech) {
+                AppLogger.w(TAG, "Fallback timeout")
+                finalizeSpeechInput()
+            }
+        }
+    }
+
+    private fun finalizeSpeechInput() {
+        isProcessingSpeech = false
+        val text = userMessage.ifBlank { accumulatedText }
+        
+        if (text.isNotBlank()) {
+            onSpeechResult(text, true)
+            onStateChange(context.getString(R.string.floating_thinking_2))
+        } else {
+            onStateChange(context.getString(R.string.floating_didnt_hear_clearly))
+        }
+
+        // 如果不是静默超时触发的，重置文本（静默超时可能意味着这一句结束，准备下一句，或者直接发送）
+        // 这里我们统一重置，因为 onSpeechResult 通常会触发发送
+        userMessage = ""
+        accumulatedText = ""
+        latestPartialText = ""
+    }
+    
+    // ===== TTS 辅助 =====
+    
+    fun speak(text: String, interrupt: Boolean = true) {
+        if (text.isBlank()) return
+        coroutineScope.launch {
+            try {
+                voiceService.speak(text, interrupt)
+            } catch (e: Exception) {
+                AppLogger.e(TAG, "TTS Error", e)
+            }
+        }
+    }
+    
+    fun cleanTextForTts(text: String, regexs: List<String>): String {
+        return WaifuMessageProcessor.cleanContentForWaifu(TtsCleaner.clean(text, regexs))
+    }
+}

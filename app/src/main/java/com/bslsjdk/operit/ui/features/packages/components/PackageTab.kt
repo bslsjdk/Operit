@@ -1,1 +1,9 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuY29tcG9uZW50cwoKZW51bSBjbGFzcyBQYWNrYWdlVGFiIHsKICAgIFBMVUdJTlMsCiAgICBQQUNLQUdFUywKICAgIFNLSUxMUywKICAgIC8vIEFVVE9NQVRJT05fQ09ORklHUywgLy8g5Li05pe26ZqQ6JeP6Ieq5Yqo5YyW6YWN572u5Yqf6IO9CiAgICBNQ1AKfQo=
+package com.bslsjdk.operit.ui.features.packages.components
+
+enum class PackageTab {
+    PLUGINS,
+    PACKAGES,
+    SKILLS,
+    // AUTOMATION_CONFIGS, // 临时隐藏自动化配置功能
+    MCP
+}

@@ -1,1 +1,73 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmNoYXQuaG9va3MuUHJvbXB0VHVybgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQXBpUHJvdmlkZXJUeXBlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Nb2RlbFBhcmFtZXRlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFByb21wdAppbXBvcnQgb2todHRwMy5Pa0h0dHBDbGllbnQKaW1wb3J0IG9raHR0cDMuUmVxdWVzdEJvZHkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCi8qKgogKiDpkojlr7nosYbljIXvvIhEb3ViYW/vvInmqKHlnovnmoTnibnlrppBUEkgUHJvdmlkZXLjgIIKICog57un5om/6IeqT3BlbkFJUHJvdmlkZXLvvIzku6Xph43nlKjlpKfpg6jliIblhbzlrrnpgLvovpHvvIzkvYbnibnliKvlpITnkIbkuoZgdGhpbmtpbmdg5Y+C5pWw44CCCiAqLwpjbGFzcyBEb3ViYW9BSVByb3ZpZGVyKAogICAgYXBpRW5kcG9pbnQ6IFN0cmluZywKICAgIGFwaUtleVByb3ZpZGVyOiBBcGlLZXlQcm92aWRlciwKICAgIG1vZGVsTmFtZTogU3RyaW5nLAogICAgY2xpZW50OiBPa0h0dHBDbGllbnQsCiAgICBjdXN0b21IZWFkZXJzOiBNYXA8U3RyaW5nLCBTdHJpbmc+ID0gZW1wdHlNYXAoKSwKICAgIHByaXZhdGUgdmFsIHByb3ZpZGVyVHlwZTogQXBpUHJvdmlkZXJUeXBlID0gQXBpUHJvdmlkZXJUeXBlLkRPVUJBTywKICAgIHN1cHBvcnRzVmlzaW9uOiBCb29sZWFuID0gZmFsc2UsCiAgICBzdXBwb3J0c0F1ZGlvOiBCb29sZWFuID0gZmFsc2UsCiAgICBzdXBwb3J0c1ZpZGVvOiBCb29sZWFuID0gZmFsc2UsCiAgICBlbmFibGVUb29sQ2FsbDogQm9vbGVhbiA9IGZhbHNlLAogICAgdGhpbmtpbmdDb25maWd1cmF0aW9uczogU3RyaW5nID0gIiIsCiAgICB0aGlua2luZ09wdGlvbklkOiBTdHJpbmcgPSAiIgopIDogT3BlbkFJUHJvdmlkZXIoCiAgICAgICAgYXBpRW5kcG9pbnQgPSBhcGlFbmRwb2ludCwKICAgICAgICBhcGlLZXlQcm92aWRlciA9IGFwaUtleVByb3ZpZGVyLAogICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZSwKICAgICAgICBjbGllbnQgPSBjbGllbnQsCiAgICAgICAgY3VzdG9tSGVhZGVycyA9IGN1c3RvbUhlYWRlcnMsCiAgICAgICAgcHJvdmlkZXJUeXBlID0gcHJvdmlkZXJUeXBlLAogICAgICAgIHN1cHBvcnRzVmlzaW9uID0gc3VwcG9ydHNWaXNpb24sCiAgICAgICAgc3VwcG9ydHNBdWRpbyA9IHN1cHBvcnRzQXVkaW8sCiAgICAgICAgc3VwcG9ydHNWaWRlbyA9IHN1cHBvcnRzVmlkZW8sCiAgICAgICAgZW5hYmxlVG9vbENhbGwgPSBlbmFibGVUb29sQ2FsbCwKICAgICAgICB0aGlua2luZ0NvbmZpZ3VyYXRpb25zID0gdGhpbmtpbmdDb25maWd1cmF0aW9ucywKICAgICAgICB0aGlua2luZ09wdGlvbklkID0gdGhpbmtpbmdPcHRpb25JZAogICAgKSB7CiAgICBwcml2YXRlIHZhbCBjb25maWd1cmVkQXBpRW5kcG9pbnQgPSBhcGlFbmRwb2ludAoKICAgIC8qKgogICAgICog6YeN5YaZ5Yib5bu66K+35rGC5L2T55qE5pa55rOV77yM5Lul5pSv5oyB6LGG5YyF55qEYHRoaW5raW5nYOWPguaVsOOAggogICAgICog5oyJ5a6Y5pa55paH5qGj5bu66K6u5aeL57uI5pi+5byP5Lyg5YWl77yaZW5hYmxlZC9kaXNhYmxlZOOAggogICAgICovCiAgICBvdmVycmlkZSBmdW4gY3JlYXRlUmVxdWVzdEJvZHkoCiAgICAgICAgY29udGV4dDogYW5kcm9pZC5jb250ZW50LkNvbnRleHQsCiAgICAgICAgY2hhdEhpc3Rvcnk6IExpc3Q8UHJvbXB0VHVybj4sCiAgICAgICAgbW9kZWxQYXJhbWV0ZXJzOiBMaXN0PE1vZGVsUGFyYW1ldGVyPCo+PiwKICAgICAgICBlbmFibGVUaGlua2luZzogQm9vbGVhbiwKICAgICAgICBzdHJlYW06IEJvb2xlYW4sCiAgICAgICAgYXZhaWxhYmxlVG9vbHM6IExpc3Q8VG9vbFByb21wdD4/LAogICAgICAgIHByZXNlcnZlVGhpbmtJbkhpc3Rvcnk6IEJvb2xlYW4KICAgICk6IFJlcXVlc3RCb2R5IHsKICAgICAgICAvLyDpppblhYjvvIzosIPnlKjniLbnsbvnmoTlrp7njrDmnaXojrflj5bkuIDkuKrmoIflh4bnmoRPcGVuQUnmoLzlvI/nmoTor7fmsYLkvZNKU09O5a+56LGhCiAgICAgICAgdmFsIGJhc2VSZXF1ZXN0Qm9keUpzb24gPSBzdXBlci5jcmVhdGVSZXF1ZXN0Qm9keUludGVybmFsKGNvbnRleHQsIGNoYXRIaXN0b3J5LCBtb2RlbFBhcmFtZXRlcnMsIHN0cmVhbSwgYXZhaWxhYmxlVG9vbHMsIHByZXNlcnZlVGhpbmtJbkhpc3RvcnkpCiAgICAgICAgdmFsIGpzb25PYmplY3QgPSBKU09OT2JqZWN0KGJhc2VSZXF1ZXN0Qm9keUpzb24pCgogICAgICAgIFRoaW5raW5nQ29uZmlndXJhdGlvbkFwcGxpZXIuYXBwbHkoCiAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICByZXF1ZXN0SnNvbiA9IGpzb25PYmplY3QsCiAgICAgICAgICAgIHByb3ZpZGVyVHlwZUlkID0gcHJvdmlkZXJUeXBlLm5hbWUsCiAgICAgICAgICAgIG1vZGVsTmFtZSA9IG1vZGVsTmFtZSwKICAgICAgICAgICAgYXBpRW5kcG9pbnQgPSBjb25maWd1cmVkQXBpRW5kcG9pbnQsCiAgICAgICAgICAgIHRoaW5raW5nQ29uZmlndXJhdGlvbnMgPSB0aGlua2luZ0NvbmZpZ3VyYXRpb25zLAogICAgICAgICAgICBlbmFibGVUaGlua2luZyA9IGVuYWJsZVRoaW5raW5nLAogICAgICAgICAgICBvcHRpb25JZCA9IHRoaW5raW5nT3B0aW9uSWQsCiAgICAgICAgKQoKICAgICAgICByZXR1cm4gY3JlYXRlSnNvblJlcXVlc3RCb2R5KGpzb25PYmplY3QudG9TdHJpbmcoKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+import com.bslsjdk.operit.core.chat.hooks.PromptTurn
+import com.bslsjdk.operit.data.model.ApiProviderType
+import com.bslsjdk.operit.data.model.ModelParameter
+import com.bslsjdk.operit.data.model.ToolPrompt
+import okhttp3.OkHttpClient
+import okhttp3.RequestBody
+import org.json.JSONObject
+
+/**
+ * 针对豆包（Doubao）模型的特定API Provider。
+ * 继承自OpenAIProvider，以重用大部分兼容逻辑，但特别处理了`thinking`参数。
+ */
+class DoubaoAIProvider(
+    apiEndpoint: String,
+    apiKeyProvider: ApiKeyProvider,
+    modelName: String,
+    client: OkHttpClient,
+    customHeaders: Map<String, String> = emptyMap(),
+    private val providerType: ApiProviderType = ApiProviderType.DOUBAO,
+    supportsVision: Boolean = false,
+    supportsAudio: Boolean = false,
+    supportsVideo: Boolean = false,
+    enableToolCall: Boolean = false,
+    thinkingConfigurations: String = "",
+    thinkingOptionId: String = ""
+) : OpenAIProvider(
+        apiEndpoint = apiEndpoint,
+        apiKeyProvider = apiKeyProvider,
+        modelName = modelName,
+        client = client,
+        customHeaders = customHeaders,
+        providerType = providerType,
+        supportsVision = supportsVision,
+        supportsAudio = supportsAudio,
+        supportsVideo = supportsVideo,
+        enableToolCall = enableToolCall,
+        thinkingConfigurations = thinkingConfigurations,
+        thinkingOptionId = thinkingOptionId
+    ) {
+    private val configuredApiEndpoint = apiEndpoint
+
+    /**
+     * 重写创建请求体的方法，以支持豆包的`thinking`参数。
+     * 按官方文档建议始终显式传入：enabled/disabled。
+     */
+    override fun createRequestBody(
+        context: android.content.Context,
+        chatHistory: List<PromptTurn>,
+        modelParameters: List<ModelParameter<*>>,
+        enableThinking: Boolean,
+        stream: Boolean,
+        availableTools: List<ToolPrompt>?,
+        preserveThinkInHistory: Boolean
+    ): RequestBody {
+        // 首先，调用父类的实现来获取一个标准的OpenAI格式的请求体JSON对象
+        val baseRequestBodyJson = super.createRequestBodyInternal(context, chatHistory, modelParameters, stream, availableTools, preserveThinkInHistory)
+        val jsonObject = JSONObject(baseRequestBodyJson)
+
+        ThinkingConfigurationApplier.apply(
+            context = context,
+            requestJson = jsonObject,
+            providerTypeId = providerType.name,
+            modelName = modelName,
+            apiEndpoint = configuredApiEndpoint,
+            thinkingConfigurations = thinkingConfigurations,
+            enableThinking = enableThinking,
+            optionId = thinkingOptionId,
+        )
+
+        return createJsonRequestBody(jsonObject.toString())
+    }
+}

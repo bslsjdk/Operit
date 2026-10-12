@@ -1,1 +1,287 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5kYW8KCmltcG9ydCBhbmRyb2lkeC5yb29tLkRhbwppbXBvcnQgYW5kcm9pZHgucm9vbS5JbnNlcnQKaW1wb3J0IGFuZHJvaWR4LnJvb20uT25Db25mbGljdFN0cmF0ZWd5CmltcG9ydCBhbmRyb2lkeC5yb29tLlF1ZXJ5CmltcG9ydCBhbmRyb2lkeC5yb29tLlVwZGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdEVudGl0eQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhcmFjdGVyQ2FyZENoYXRTdGF0cwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhcmFjdGVyR3JvdXBDaGF0U3RhdHMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKCi8qKiDogYrlpKlEQU/mjqXlj6PvvIzlrprkuYnlr7nogYrlpKnooajnmoTmlbDmja7orr/pl67mlrnms5UgKi8KQERhbwppbnRlcmZhY2UgQ2hhdERhbyB7CiAgICAvKiog6I635Y+W5omA5pyJ6IGK5aSp77yM5oyJ5pi+56S66aG65bqP5o6S5YiXICovCiAgICBAUXVlcnkoIlNFTEVDVCAqIEZST00gY2hhdHMgT1JERVIgQlkgcGlubmVkIERFU0MsIGRpc3BsYXlPcmRlciBBU0MiKQogICAgZnVuIGdldEFsbENoYXRzKCk6IEZsb3c8TGlzdDxDaGF0RW50aXR5Pj4KCiAgICAvKiog6I635Y+W6IGK5aSp5oC75pWwICovCiAgICBAUXVlcnkoIlNFTEVDVCBDT1VOVCgqKSBGUk9NIGNoYXRzIikKICAgIHN1c3BlbmQgZnVuIGdldFRvdGFsQ2hhdENvdW50KCk6IEludAoKICAgIC8qKiDojrflj5bmiYDmnInogYrlpKnvvIjmjILotbflh73mlbDniYjmnKzvvIkgKi8KICAgIEBRdWVyeSgiU0VMRUNUICogRlJPTSBjaGF0cyBPUkRFUiBCWSBwaW5uZWQgREVTQywgZGlzcGxheU9yZGVyIEFTQyIpCiAgICBzdXNwZW5kIGZ1biBnZXRBbGxDaGF0c0RpcmVjdGx5KCk6IExpc3Q8Q2hhdEVudGl0eT4KCiAgICAvKiog5qC55o2uSUTojrflj5bljZXkuKrogYrlpKkgKi8KICAgIEBRdWVyeSgiU0VMRUNUICogRlJPTSBjaGF0cyBXSEVSRSBpZCA9IDpjaGF0SWQiKQogICAgc3VzcGVuZCBmdW4gZ2V0Q2hhdEJ5SWQoY2hhdElkOiBTdHJpbmcpOiBDaGF0RW50aXR5PwoKICAgIC8qKiDmj5LlhaXmiJbmm7TmlrDogYrlpKkgKi8KICAgIEBJbnNlcnQob25Db25mbGljdCA9IE9uQ29uZmxpY3RTdHJhdGVneS5SRVBMQUNFKSBzdXNwZW5kIGZ1biBpbnNlcnRDaGF0KGNoYXQ6IENoYXRFbnRpdHkpCgogICAgLyoqIOWIoOmZpOiBiuWkqSAqLwogICAgQFF1ZXJ5KCJERUxFVEUgRlJPTSBjaGF0cyBXSEVSRSBpZCA9IDpjaGF0SWQiKSBzdXNwZW5kIGZ1biBkZWxldGVDaGF0KGNoYXRJZDogU3RyaW5nKQoKICAgIC8qKiDmm7TmlrDogYrlpKnlhYPmlbDmja4gKi8KICAgIEBRdWVyeSgKICAgICAgICAgICAgIlVQREFURSBjaGF0cyBTRVQgdXBkYXRlZEF0ID0gOnRpbWVzdGFtcCwgdGl0bGUgPSA6dGl0bGUsIGlucHV0VG9rZW5zID0gOmlucHV0VG9rZW5zLCBvdXRwdXRUb2tlbnMgPSA6b3V0cHV0VG9rZW5zLCBjdXJyZW50V2luZG93U2l6ZSA9IDpjdXJyZW50V2luZG93U2l6ZSBXSEVSRSBpZCA9IDpjaGF0SWQiCiAgICApCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVDaGF0TWV0YWRhdGEoCiAgICAgICAgICAgIGNoYXRJZDogU3RyaW5nLAogICAgICAgICAgICB0aXRsZTogU3RyaW5nLAogICAgICAgICAgICB0aW1lc3RhbXA6IExvbmcsCiAgICAgICAgICAgIGlucHV0VG9rZW5zOiBMb25nLAogICAgICAgICAgICBvdXRwdXRUb2tlbnM6IExvbmcsCiAgICAgICAgICAgIGN1cnJlbnRXaW5kb3dTaXplOiBMb25nCiAgICApCgogICAgLyoqIOabtOaWsOiBiuWkqeagh+mimCAqLwogICAgQFF1ZXJ5KCJVUERBVEUgY2hhdHMgU0VUIHRpdGxlID0gOnRpdGxlLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGlkID0gOmNoYXRJZCIpCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVDaGF0VGl0bGUoY2hhdElkOiBTdHJpbmcsIHRpdGxlOiBTdHJpbmcsIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQoKICAgIC8qKiDmm7TmlrDogYrlpKnlt6XkvZzljLogKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBgd29ya3NwYWNlYCA9IDp3b3Jrc3BhY2UsIGB3b3Jrc3BhY2VFbnZgID0gOndvcmtzcGFjZUVudiwgdXBkYXRlZEF0ID0gOnRpbWVzdGFtcCBXSEVSRSBpZCA9IDpjaGF0SWQiKQogICAgc3VzcGVuZCBmdW4gdXBkYXRlQ2hhdFdvcmtzcGFjZShjaGF0SWQ6IFN0cmluZywgd29ya3NwYWNlOiBTdHJpbmc/LCB3b3Jrc3BhY2VFbnY6IFN0cmluZz8sIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQoKICAgIC8qKiDlkIzml7bmm7TmlrDogYrlpKnmoIfpopjlkozlt6XkvZzljLogKi8KICAgIEBRdWVyeSgKICAgICAgICAiVVBEQVRFIGNoYXRzIFNFVCB0aXRsZSA9IDp0aXRsZSwgYHdvcmtzcGFjZWAgPSA6d29ya3NwYWNlLCBgd29ya3NwYWNlRW52YCA9IDp3b3Jrc3BhY2VFbnYsIHVwZGF0ZWRBdCA9IDp0aW1lc3RhbXAgV0hFUkUgaWQgPSA6Y2hhdElkIgogICAgKQogICAgc3VzcGVuZCBmdW4gdXBkYXRlQ2hhdFRpdGxlQW5kV29ya3NwYWNlKAogICAgICAgIGNoYXRJZDogU3RyaW5nLAogICAgICAgIHRpdGxlOiBTdHJpbmcsCiAgICAgICAgd29ya3NwYWNlOiBTdHJpbmc/LAogICAgICAgIHdvcmtzcGFjZUVudjogU3RyaW5nPywKICAgICAgICB0aW1lc3RhbXA6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgKQoKICAgIC8qKiDmm7TmlrDogYrlpKnliIbnu4QgKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBgZ3JvdXBgID0gOmdyb3VwLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGlkID0gOmNoYXRJZCIpCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVDaGF0R3JvdXAoY2hhdElkOiBTdHJpbmcsIGdyb3VwOiBTdHJpbmc/LCB0aW1lc3RhbXA6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKCiAgICAvKiog5pu05paw6IGK5aSp57uR5a6a55qE6KeS6Imy5Y2h5ZCN56ewICovCiAgICBAUXVlcnkoIlVQREFURSBjaGF0cyBTRVQgY2hhcmFjdGVyQ2FyZE5hbWUgPSA6Y2hhcmFjdGVyQ2FyZE5hbWUsIGNoYXJhY3Rlckdyb3VwSWQgPSBOVUxMLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGlkID0gOmNoYXRJZCIpCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVDaGF0Q2hhcmFjdGVyQ2FyZE5hbWUoY2hhdElkOiBTdHJpbmcsIGNoYXJhY3RlckNhcmROYW1lOiBTdHJpbmc/LCB0aW1lc3RhbXA6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKCiAgICAvKiog5pu05paw6IGK5aSp57uR5a6a55qE576k57uE6KeS6Imy5Y2hSUQgKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBjaGFyYWN0ZXJDYXJkTmFtZSA9IE5VTEwsIGNoYXJhY3Rlckdyb3VwSWQgPSA6Y2hhcmFjdGVyR3JvdXBJZCwgdXBkYXRlZEF0ID0gOnRpbWVzdGFtcCBXSEVSRSBpZCA9IDpjaGF0SWQiKQogICAgc3VzcGVuZCBmdW4gdXBkYXRlQ2hhdENoYXJhY3Rlckdyb3VwSWQoY2hhdElkOiBTdHJpbmcsIGNoYXJhY3Rlckdyb3VwSWQ6IFN0cmluZz8sIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQoKICAgIC8qKiDlkIzml7bmm7TmlrDogYrlpKnnu5HlrprnmoTop5LoibLljaHlkI3np7DkuI7nvqTnu4RJRCAqLwogICAgQFF1ZXJ5KAogICAgICAgICJVUERBVEUgY2hhdHMgU0VUIGNoYXJhY3RlckNhcmROYW1lID0gOmNoYXJhY3RlckNhcmROYW1lLCBjaGFyYWN0ZXJHcm91cElkID0gOmNoYXJhY3Rlckdyb3VwSWQsIHVwZGF0ZWRBdCA9IDp0aW1lc3RhbXAgV0hFUkUgaWQgPSA6Y2hhdElkIgogICAgKQogICAgc3VzcGVuZCBmdW4gdXBkYXRlQ2hhdENoYXJhY3RlckJpbmRpbmcoCiAgICAgICAgY2hhdElkOiBTdHJpbmcsCiAgICAgICAgY2hhcmFjdGVyQ2FyZE5hbWU6IFN0cmluZz8sCiAgICAgICAgY2hhcmFjdGVyR3JvdXBJZDogU3RyaW5nPywKICAgICAgICB0aW1lc3RhbXA6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgKQoKICAgIC8qKiDmm7TmlrDogYrlpKnplIHlrprnirbmgIEgKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBsb2NrZWQgPSA6bG9ja2VkLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGlkID0gOmNoYXRJZCIpCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVDaGF0TG9ja2VkKGNoYXRJZDogU3RyaW5nLCBsb2NrZWQ6IEJvb2xlYW4sIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQoKICAgIC8qKiDmm7TmlrDogYrlpKnnva7pobbnirbmgIEgKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBwaW5uZWQgPSA6cGlubmVkLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGlkID0gOmNoYXRJZCIpCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVDaGF0UGlubmVkKGNoYXRJZDogU3RyaW5nLCBwaW5uZWQ6IEJvb2xlYW4sIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQoKICAgIC8qKiDmm7TmlrDljZXkuKrogYrlpKnnmoTpobrluo/lkozliIbnu4QgKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBkaXNwbGF5T3JkZXIgPSA6ZGlzcGxheU9yZGVyLCBgZ3JvdXBgID0gOmdyb3VwLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGlkID0gOmNoYXRJZCIpCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVDaGF0T3JkZXJBbmRHcm91cChjaGF0SWQ6IFN0cmluZywgZGlzcGxheU9yZGVyOiBMb25nLCBncm91cDogU3RyaW5nPywgdGltZXN0YW1wOiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkpCgogICAgLyoqIOaJuemHj+abtOaWsOiBiuWkqeeahOmhuuW6j+WSjOWIhue7hCAqLwogICAgQFVwZGF0ZQogICAgc3VzcGVuZCBmdW4gdXBkYXRlQ2hhdHMoY2hhdHM6IExpc3Q8Q2hhdEVudGl0eT4pCgogICAgLyoqIOmHjeWRveWQjeWIhue7hCAqLwogICAgQFF1ZXJ5KCJVUERBVEUgY2hhdHMgU0VUIGBncm91cGAgPSA6bmV3TmFtZSBXSEVSRSBgZ3JvdXBgID0gOm9sZE5hbWUiKQogICAgc3VzcGVuZCBmdW4gdXBkYXRlR3JvdXBOYW1lKG9sZE5hbWU6IFN0cmluZywgbmV3TmFtZTogU3RyaW5nKQogICAgCiAgICAvKiog6YeN5ZG95ZCN5oyH5a6a6KeS6Imy5Y2h5LiL55qE5YiG57uEICovCiAgICBAUXVlcnkoIlVQREFURSBjaGF0cyBTRVQgYGdyb3VwYCA9IDpuZXdOYW1lIFdIRVJFIGBncm91cGAgPSA6b2xkTmFtZSBBTkQgY2hhcmFjdGVyQ2FyZE5hbWUgPSA6Y2hhcmFjdGVyQ2FyZE5hbWUiKQogICAgc3VzcGVuZCBmdW4gdXBkYXRlR3JvdXBOYW1lRm9yQ2hhcmFjdGVyKG9sZE5hbWU6IFN0cmluZywgbmV3TmFtZTogU3RyaW5nLCBjaGFyYWN0ZXJDYXJkTmFtZTogU3RyaW5nKQoKICAgIC8qKiDliKDpmaTliIbnu4TkuIvnmoTmiYDmnInogYrlpKkgKi8KICAgIEBRdWVyeSgiREVMRVRFIEZST00gY2hhdHMgV0hFUkUgYGdyb3VwYCA9IDpncm91cE5hbWUgQU5EIGxvY2tlZCA9IDAiKQogICAgc3VzcGVuZCBmdW4gZGVsZXRlQ2hhdHNJbkdyb3VwKGdyb3VwTmFtZTogU3RyaW5nKQogICAgCiAgICAvKiog5Yig6Zmk5oyH5a6a6KeS6Imy5Y2h5LiL5YiG57uE55qE5omA5pyJ6IGK5aSpICovCiAgICBAUXVlcnkoIkRFTEVURSBGUk9NIGNoYXRzIFdIRVJFIGBncm91cGAgPSA6Z3JvdXBOYW1lIEFORCBjaGFyYWN0ZXJDYXJkTmFtZSA9IDpjaGFyYWN0ZXJDYXJkTmFtZSBBTkQgbG9ja2VkID0gMCIpCiAgICBzdXNwZW5kIGZ1biBkZWxldGVDaGF0c0luR3JvdXBGb3JDaGFyYWN0ZXIoZ3JvdXBOYW1lOiBTdHJpbmcsIGNoYXJhY3RlckNhcmROYW1lOiBTdHJpbmcpCgogICAgLyoqIOWwhuWIhue7hOS4i+eahOaJgOacieiBiuWkqeenu+WKqOWIsCLmnKrliIbnu4QiICovCiAgICBAUXVlcnkoIlVQREFURSBjaGF0cyBTRVQgYGdyb3VwYCA9IE5VTEwsIHVwZGF0ZWRBdCA9IDp0aW1lc3RhbXAgV0hFUkUgYGdyb3VwYCA9IDpncm91cE5hbWUiKQogICAgc3VzcGVuZCBmdW4gcmVtb3ZlR3JvdXBGcm9tQ2hhdHMoZ3JvdXBOYW1lOiBTdHJpbmcsIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQoKICAgIC8qKiDlsIbliIbnu4TkuIvnmoTmiYDmnInjgJDplIHlrprjgJHogYrlpKnnp7vliqjliLAi5pyq5YiG57uEIu+8iOeUqOS6juWIoOmZpOWIhue7hOS9huS/neeVmemUgeWumuiBiuWkqe+8iSAqLwogICAgQFF1ZXJ5KCJVUERBVEUgY2hhdHMgU0VUIGBncm91cGAgPSBOVUxMLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGBncm91cGAgPSA6Z3JvdXBOYW1lIEFORCBsb2NrZWQgPSAxIikKICAgIHN1c3BlbmQgZnVuIHJlbW92ZUdyb3VwRnJvbUxvY2tlZENoYXRzKGdyb3VwTmFtZTogU3RyaW5nLCB0aW1lc3RhbXA6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKICAgIAogICAgLyoqIOWwhuaMh+WumuinkuiJsuWNoeS4i+WIhue7hOeahOaJgOacieiBiuWkqeenu+WKqOWIsCLmnKrliIbnu4QiICovCiAgICBAUXVlcnkoIlVQREFURSBjaGF0cyBTRVQgYGdyb3VwYCA9IE5VTEwsIHVwZGF0ZWRBdCA9IDp0aW1lc3RhbXAgV0hFUkUgYGdyb3VwYCA9IDpncm91cE5hbWUgQU5EIGNoYXJhY3RlckNhcmROYW1lID0gOmNoYXJhY3RlckNhcmROYW1lIikKICAgIHN1c3BlbmQgZnVuIHJlbW92ZUdyb3VwRnJvbUNoYXRzRm9yQ2hhcmFjdGVyKGdyb3VwTmFtZTogU3RyaW5nLCBjaGFyYWN0ZXJDYXJkTmFtZTogU3RyaW5nLCB0aW1lc3RhbXA6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKCiAgICAvKiog5bCG5oyH5a6a6KeS6Imy5Y2h5LiL5YiG57uE55qE5omA5pyJ44CQ6ZSB5a6a44CR6IGK5aSp56e75Yqo5YiwIuacquWIhue7hCLvvIjnlKjkuo7liKDpmaTliIbnu4TkvYbkv53nlZnplIHlrprogYrlpKnvvIkgKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBgZ3JvdXBgID0gTlVMTCwgdXBkYXRlZEF0ID0gOnRpbWVzdGFtcCBXSEVSRSBgZ3JvdXBgID0gOmdyb3VwTmFtZSBBTkQgY2hhcmFjdGVyQ2FyZE5hbWUgPSA6Y2hhcmFjdGVyQ2FyZE5hbWUgQU5EIGxvY2tlZCA9IDEiKQogICAgc3VzcGVuZCBmdW4gcmVtb3ZlR3JvdXBGcm9tTG9ja2VkQ2hhdHNGb3JDaGFyYWN0ZXIoZ3JvdXBOYW1lOiBTdHJpbmcsIGNoYXJhY3RlckNhcmROYW1lOiBTdHJpbmcsIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpKQoKICAgIC8qKiDmoLnmja5wYXJlbnRDaGF0SWTojrflj5bmiYDmnInliIbmlK/lr7nor50gKi8KICAgIEBRdWVyeSgiU0VMRUNUICogRlJPTSBjaGF0cyBXSEVSRSBwYXJlbnRDaGF0SWQgPSA6cGFyZW50Q2hhdElkIE9SREVSIEJZIHBpbm5lZCBERVNDLCBkaXNwbGF5T3JkZXIgQVNDIikKICAgIHN1c3BlbmQgZnVuIGdldEJyYW5jaGVzQnlQYXJlbnRJZChwYXJlbnRDaGF0SWQ6IFN0cmluZyk6IExpc3Q8Q2hhdEVudGl0eT4KCiAgICAvKiog5qC55o2ucGFyZW50Q2hhdElk6I635Y+W5omA5pyJ5YiG5pSv5a+56K+d77yIRmxvd+eJiOacrO+8iSAqLwogICAgQFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIGNoYXRzIFdIRVJFIHBhcmVudENoYXRJZCA9IDpwYXJlbnRDaGF0SWQgT1JERVIgQlkgcGlubmVkIERFU0MsIGRpc3BsYXlPcmRlciBBU0MiKQogICAgZnVuIGdldEJyYW5jaGVzQnlQYXJlbnRJZEZsb3cocGFyZW50Q2hhdElkOiBTdHJpbmcpOiBGbG93PExpc3Q8Q2hhdEVudGl0eT4+CgogICAgLyoqIOiOt+WPluaJgOacieayoeacieeItuWvueivneeahOWvueivne+8iOWNs+S4u+Wvueivne+8iSAqLwogICAgQFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIGNoYXRzIFdIRVJFIHBhcmVudENoYXRJZCBJUyBOVUxMIE9SREVSIEJZIHBpbm5lZCBERVNDLCBkaXNwbGF5T3JkZXIgQVNDIikKICAgIHN1c3BlbmQgZnVuIGdldE1haW5DaGF0cygpOiBMaXN0PENoYXRFbnRpdHk+CgogICAgLyoqIOiOt+WPluaJgOacieayoeacieeItuWvueivneeahOWvueivne+8iEZsb3fniYjmnKzvvIkgKi8KICAgIEBRdWVyeSgiU0VMRUNUICogRlJPTSBjaGF0cyBXSEVSRSBwYXJlbnRDaGF0SWQgSVMgTlVMTCBPUkRFUiBCWSBwaW5uZWQgREVTQywgZGlzcGxheU9yZGVyIEFTQyIpCiAgICBmdW4gZ2V0TWFpbkNoYXRzRmxvdygpOiBGbG93PExpc3Q8Q2hhdEVudGl0eT4+CgogICAgLyoqIOagueaNruinkuiJsuWNoeWQjeensOi/h+a7pOiBiuWkqe+8iOmdnum7mOiupOinkuiJsuWNoe+8muWPquaYvuekuuivpeinkuiJsuWNoeWQjeensOeahOWvueivne+8iSAqLwogICAgQFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIGNoYXRzIFdIRVJFIGNoYXJhY3RlckNhcmROYW1lID0gOmNoYXJhY3RlckNhcmROYW1lIEFORCBjaGFyYWN0ZXJHcm91cElkIElTIE5VTEwgT1JERVIgQlkgcGlubmVkIERFU0MsIGRpc3BsYXlPcmRlciBBU0MiKQogICAgZnVuIGdldENoYXRzQnlDaGFyYWN0ZXJDYXJkKGNoYXJhY3RlckNhcmROYW1lOiBTdHJpbmcpOiBGbG93PExpc3Q8Q2hhdEVudGl0eT4+CgogICAgLyoqIOagueaNrue+pOe7hElE6L+H5ruk6IGK5aSpICovCiAgICBAUXVlcnkoIlNFTEVDVCAqIEZST00gY2hhdHMgV0hFUkUgY2hhcmFjdGVyR3JvdXBJZCA9IDpjaGFyYWN0ZXJHcm91cElkIE9SREVSIEJZIHBpbm5lZCBERVNDLCBkaXNwbGF5T3JkZXIgQVNDIikKICAgIGZ1biBnZXRDaGF0c0J5Q2hhcmFjdGVyR3JvdXBJZChjaGFyYWN0ZXJHcm91cElkOiBTdHJpbmcpOiBGbG93PExpc3Q8Q2hhdEVudGl0eT4+CgogICAgLyoqIOagueaNruinkuiJsuWNoeWQjeensOi/h+a7pOiBiuWkqe+8iOm7mOiupOinkuiJsuWNoe+8muaYvuekuuivpeinkuiJsuWNoeWQjeensOeahOWvueivnSArIOaJgOaciWNoYXJhY3RlckNhcmROYW1l5Li6bnVsbOeahOWvueivne+8iSAqLwogICAgQFF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIGNoYXRzIFdIRVJFIGNoYXJhY3RlckNhcmROYW1lID0gOmNoYXJhY3RlckNhcmROYW1lIE9SIChjaGFyYWN0ZXJDYXJkTmFtZSBJUyBOVUxMIEFORCBjaGFyYWN0ZXJHcm91cElkIElTIE5VTEwpIE9SREVSIEJZIHBpbm5lZCBERVNDLCBkaXNwbGF5T3JkZXIgQVNDIikKICAgIGZ1biBnZXRDaGF0c0J5Q2hhcmFjdGVyQ2FyZE9yTnVsbChjaGFyYWN0ZXJDYXJkTmFtZTogU3RyaW5nKTogRmxvdzxMaXN0PENoYXRFbnRpdHk+PgoKICAgIC8qKiDmibnph4/muIXnkIbnu5Hlrprnibnlrprop5LoibLljaHlkI3np7DnmoTlr7nor53vvIjlsIZjaGFyYWN0ZXJDYXJkTmFtZeiuvuS4um51bGzvvIkgKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBjaGFyYWN0ZXJDYXJkTmFtZSA9IE5VTEwsIHVwZGF0ZWRBdCA9IDp0aW1lc3RhbXAgV0hFUkUgY2hhcmFjdGVyQ2FyZE5hbWUgPSA6Y2hhcmFjdGVyQ2FyZE5hbWUiKQogICAgc3VzcGVuZCBmdW4gY2xlYXJDaGFyYWN0ZXJDYXJkQmluZGluZyhjaGFyYWN0ZXJDYXJkTmFtZTogU3RyaW5nLCB0aW1lc3RhbXA6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSkKCiAgICAvKiog5om56YeP5Yig6Zmk57uR5a6a54m55a6a6KeS6Imy5Y2h5ZCN56ew55qE5pyq6ZSB5a6a5a+56K+dICovCiAgICBAUXVlcnkoIkRFTEVURSBGUk9NIGNoYXRzIFdIRVJFIGNoYXJhY3RlckNhcmROYW1lID0gOmNoYXJhY3RlckNhcmROYW1lIEFORCBsb2NrZWQgPSAwIikKICAgIHN1c3BlbmQgZnVuIGRlbGV0ZVVubG9ja2VkQ2hhdHNCeUNoYXJhY3RlckNhcmROYW1lKGNoYXJhY3RlckNhcmROYW1lOiBTdHJpbmcpOiBJbnQKCiAgICAvKiog5om56YeP5Yig6Zmk5pyq57uR5a6a6KeS6Imy5Y2h55qE5pyq6ZSB5a6a5a+56K+dICovCiAgICBAUXVlcnkoIkRFTEVURSBGUk9NIGNoYXRzIFdIRVJFIGNoYXJhY3RlckNhcmROYW1lIElTIE5VTEwgQU5EIGNoYXJhY3Rlckdyb3VwSWQgSVMgTlVMTCBBTkQgbG9ja2VkID0gMCIpCiAgICBzdXNwZW5kIGZ1biBkZWxldGVVbmxvY2tlZFVuYm91bmRDaGF0cygpOiBJbnQKCiAgICAvKiog5om56YeP6YeN5ZG95ZCN6KeS6Imy5Y2h57uR5a6aICovCiAgICBAUXVlcnkoIlVQREFURSBjaGF0cyBTRVQgY2hhcmFjdGVyQ2FyZE5hbWUgPSA6bmV3TmFtZSwgdXBkYXRlZEF0ID0gOnRpbWVzdGFtcCBXSEVSRSBjaGFyYWN0ZXJDYXJkTmFtZSA9IDpvbGROYW1lIikKICAgIHN1c3BlbmQgZnVuIHJlbmFtZUNoYXJhY3RlckNhcmRCaW5kaW5nKAogICAgICAgICAgICBvbGROYW1lOiBTdHJpbmcsCiAgICAgICAgICAgIG5ld05hbWU6IFN0cmluZywKICAgICAgICAgICAgdGltZXN0YW1wOiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICk6IEludAoKICAgIC8qKiDmibnph4/ph43lkb3lkI3op5LoibLnvqTnu4Tnu5HlrpogKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBjaGFyYWN0ZXJDYXJkTmFtZSA9IE5VTEwsIGNoYXJhY3Rlckdyb3VwSWQgPSA6dGFyZ2V0R3JvdXBJZCwgdXBkYXRlZEF0ID0gOnRpbWVzdGFtcCBXSEVSRSBjaGFyYWN0ZXJHcm91cElkID0gOnNvdXJjZUdyb3VwSWQiKQogICAgc3VzcGVuZCBmdW4gcmVuYW1lQ2hhcmFjdGVyR3JvdXBCaW5kaW5nKAogICAgICAgIHNvdXJjZUdyb3VwSWQ6IFN0cmluZywKICAgICAgICB0YXJnZXRHcm91cElkOiBTdHJpbmcsCiAgICAgICAgdGltZXN0YW1wOiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICk6IEludAoKICAgIC8qKiDlsIbmiYDmnInmnKrnu5Hlrprop5LoibLljaHnmoTogYrlpKnlvZLnsbvliLDmjIflrprop5LoibLljaEgKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBjaGFyYWN0ZXJDYXJkTmFtZSA9IDpuZXdOYW1lLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGNoYXJhY3RlckNhcmROYW1lIElTIE5VTEwgQU5EIGNoYXJhY3Rlckdyb3VwSWQgSVMgTlVMTCIpCiAgICBzdXNwZW5kIGZ1biBhc3NpZ25DaGFyYWN0ZXJDYXJkVG9VbmJvdW5kKAogICAgICAgICAgICBuZXdOYW1lOiBTdHJpbmcsCiAgICAgICAgICAgIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICApOiBJbnQKCiAgICAvKiog5bCG5omA5pyJ5pyq57uR5a6a6KeS6Imy576k57uE55qE6IGK5aSp5b2S57G75Yiw5oyH5a6a6KeS6Imy576k57uEICovCiAgICBAUXVlcnkoIlVQREFURSBjaGF0cyBTRVQgY2hhcmFjdGVyQ2FyZE5hbWUgPSBOVUxMLCBjaGFyYWN0ZXJHcm91cElkID0gOnRhcmdldEdyb3VwSWQsIHVwZGF0ZWRBdCA9IDp0aW1lc3RhbXAgV0hFUkUgY2hhcmFjdGVyR3JvdXBJZCBJUyBOVUxMIEFORCBjaGFyYWN0ZXJDYXJkTmFtZSBJUyBOVUxMIikKICAgIHN1c3BlbmQgZnVuIGFzc2lnbkNoYXJhY3Rlckdyb3VwVG9VbmJvdW5kKAogICAgICAgIHRhcmdldEdyb3VwSWQ6IFN0cmluZywKICAgICAgICB0aW1lc3RhbXA6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgKTogSW50CgogICAgLyoqIOaJuemHj+S4uuaMh+WumuiBiuWkqeabtOaWsOinkuiJsuWNoee7keWumiAqLwogICAgQFF1ZXJ5KCJVUERBVEUgY2hhdHMgU0VUIGNoYXJhY3RlckNhcmROYW1lID0gOm5ld05hbWUsIGNoYXJhY3Rlckdyb3VwSWQgPSBOVUxMLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGlkIElOICg6Y2hhdElkcykiKQogICAgc3VzcGVuZCBmdW4gdXBkYXRlQ2hhcmFjdGVyQ2FyZEZvckNoYXRzKAogICAgICAgIGNoYXRJZHM6IExpc3Q8U3RyaW5nPiwKICAgICAgICBuZXdOYW1lOiBTdHJpbmc/LAogICAgICAgIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICApOiBJbnQKCiAgICAvKiog5om56YeP5Li65oyH5a6a6IGK5aSp5pu05paw6KeS6Imy576k57uE57uR5a6aICovCiAgICBAUXVlcnkoIlVQREFURSBjaGF0cyBTRVQgY2hhcmFjdGVyQ2FyZE5hbWUgPSBOVUxMLCBjaGFyYWN0ZXJHcm91cElkID0gOmNoYXJhY3Rlckdyb3VwSWQsIHVwZGF0ZWRBdCA9IDp0aW1lc3RhbXAgV0hFUkUgaWQgSU4gKDpjaGF0SWRzKSIpCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVDaGFyYWN0ZXJHcm91cEZvckNoYXRzKAogICAgICAgIGNoYXRJZHM6IExpc3Q8U3RyaW5nPiwKICAgICAgICBjaGFyYWN0ZXJHcm91cElkOiBTdHJpbmc/LAogICAgICAgIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICApOiBJbnQKCiAgICAvKiog5om56YeP5Li65oyH5a6a6IGK5aSp56e76Zmk6KeS6Imy576k57uE57uR5a6aICovCiAgICBAUXVlcnkoIlVQREFURSBjaGF0cyBTRVQgY2hhcmFjdGVyR3JvdXBJZCA9IE5VTEwsIHVwZGF0ZWRBdCA9IDp0aW1lc3RhbXAgV0hFUkUgaWQgSU4gKDpjaGF0SWRzKSIpCiAgICBzdXNwZW5kIGZ1biBjbGVhckNoYXJhY3Rlckdyb3VwRm9yQ2hhdHMoCiAgICAgICAgY2hhdElkczogTGlzdDxTdHJpbmc+LAogICAgICAgIHRpbWVzdGFtcDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICApOiBJbnQKCiAgICAvKiog5om56YeP5riF55CG57uR5a6a54m55a6a6KeS6Imy576k57uESUTnmoTlr7nor53vvIjlsIZjaGFyYWN0ZXJHcm91cElk6K6+5Li6bnVsbO+8iSAqLwogICAgQFF1ZXJ5KCJVUERBVEUgY2hhdHMgU0VUIGNoYXJhY3Rlckdyb3VwSWQgPSBOVUxMLCB1cGRhdGVkQXQgPSA6dGltZXN0YW1wIFdIRVJFIGNoYXJhY3Rlckdyb3VwSWQgPSA6c291cmNlR3JvdXBJZCIpCiAgICBzdXNwZW5kIGZ1biBjbGVhckNoYXJhY3Rlckdyb3VwQmluZGluZygKICAgICAgICBzb3VyY2VHcm91cElkOiBTdHJpbmcsCiAgICAgICAgdGltZXN0YW1wOiBMb25nID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICk6IEludAoKICAgIC8qKiDmibnph4/kuLrmjIflrprogYrlpKnmm7TmlrDliIbnu4QgKi8KICAgIEBRdWVyeSgiVVBEQVRFIGNoYXRzIFNFVCBgZ3JvdXBgID0gOmdyb3VwTmFtZSwgdXBkYXRlZEF0ID0gOnRpbWVzdGFtcCBXSEVSRSBpZCBJTiAoOmNoYXRJZHMpIikKICAgIHN1c3BlbmQgZnVuIHVwZGF0ZUdyb3VwRm9yQ2hhdHMoCiAgICAgICAgY2hhdElkczogTGlzdDxTdHJpbmc+LAogICAgICAgIGdyb3VwTmFtZTogU3RyaW5nPywKICAgICAgICB0aW1lc3RhbXA6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgKTogSW50CgogICAgLyoqIOiOt+WPluaMieinkuiJsuWNoeWIhue7hOeahOiBiuWkqeS4jua2iOaBr+e7n+iuoSAqLwogICAgQFF1ZXJ5KAogICAgICAgICIiIgogICAgICAgIFNFTEVDVCAKICAgICAgICAgICAgYy5jaGFyYWN0ZXJDYXJkTmFtZSBBUyBjaGFyYWN0ZXJDYXJkTmFtZSwKICAgICAgICAgICAgQ09VTlQoYy5pZCkgQVMgY2hhdENvdW50LAogICAgICAgICAgICBJRk5VTEwoU1VNKG1jLm1lc3NhZ2VDb3VudCksIDApIEFTIG1lc3NhZ2VDb3VudAogICAgICAgIEZST00gY2hhdHMgYwogICAgICAgIExFRlQgSk9JTiAoCiAgICAgICAgICAgIFNFTEVDVCBjaGF0SWQsIENPVU5UKCopIEFTIG1lc3NhZ2VDb3VudAogICAgICAgICAgICBGUk9NIG1lc3NhZ2VzCiAgICAgICAgICAgIEdST1VQIEJZIGNoYXRJZAogICAgICAgICkgbWMgT04gYy5pZCA9IG1jLmNoYXRJZAogICAgICAgIFdIRVJFIGMuY2hhcmFjdGVyR3JvdXBJZCBJUyBOVUxMCiAgICAgICAgR1JPVVAgQlkgYy5jaGFyYWN0ZXJDYXJkTmFtZQogICAgICAgICIiIgogICAgKQogICAgZnVuIGdldENoYXJhY3RlckNhcmRDaGF0U3RhdHMoKTogRmxvdzxMaXN0PENoYXJhY3RlckNhcmRDaGF0U3RhdHM+PgoKICAgIC8qKiDojrflj5bmjInop5LoibLnvqTnu4TliIbnu4TnmoTogYrlpKnkuI7mtojmga/nu5/orqEgKi8KICAgIEBRdWVyeSgKICAgICAgICAiIiIKICAgICAgICBTRUxFQ1QgCiAgICAgICAgICAgIGMuY2hhcmFjdGVyR3JvdXBJZCBBUyBjaGFyYWN0ZXJHcm91cElkLAogICAgICAgICAgICBDT1VOVChjLmlkKSBBUyBjaGF0Q291bnQsCiAgICAgICAgICAgIElGTlVMTChTVU0obWMubWVzc2FnZUNvdW50KSwgMCkgQVMgbWVzc2FnZUNvdW50CiAgICAgICAgRlJPTSBjaGF0cyBjCiAgICAgICAgTEVGVCBKT0lOICgKICAgICAgICAgICAgU0VMRUNUIGNoYXRJZCwgQ09VTlQoKikgQVMgbWVzc2FnZUNvdW50CiAgICAgICAgICAgIEZST00gbWVzc2FnZXMKICAgICAgICAgICAgR1JPVVAgQlkgY2hhdElkCiAgICAgICAgKSBtYyBPTiBjLmlkID0gbWMuY2hhdElkCiAgICAgICAgV0hFUkUgYy5jaGFyYWN0ZXJDYXJkTmFtZSBJUyBOVUxMCiAgICAgICAgR1JPVVAgQlkgYy5jaGFyYWN0ZXJHcm91cElkCiAgICAgICAgIiIiCiAgICApCiAgICBmdW4gZ2V0Q2hhcmFjdGVyR3JvdXBDaGF0U3RhdHMoKTogRmxvdzxMaXN0PENoYXJhY3Rlckdyb3VwQ2hhdFN0YXRzPj4KfQo=
+package com.bslsjdk.operit.data.dao
+
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
+import androidx.room.Update
+import com.bslsjdk.operit.data.model.ChatEntity
+import com.bslsjdk.operit.data.model.CharacterCardChatStats
+import com.bslsjdk.operit.data.model.CharacterGroupChatStats
+import kotlinx.coroutines.flow.Flow
+
+/** 聊天DAO接口，定义对聊天表的数据访问方法 */
+@Dao
+interface ChatDao {
+    /** 获取所有聊天，按显示顺序排列 */
+    @Query("SELECT * FROM chats ORDER BY pinned DESC, displayOrder ASC")
+    fun getAllChats(): Flow<List<ChatEntity>>
+
+    /** 获取聊天总数 */
+    @Query("SELECT COUNT(*) FROM chats")
+    suspend fun getTotalChatCount(): Int
+
+    /** 获取所有聊天（挂起函数版本） */
+    @Query("SELECT * FROM chats ORDER BY pinned DESC, displayOrder ASC")
+    suspend fun getAllChatsDirectly(): List<ChatEntity>
+
+    /** 根据ID获取单个聊天 */
+    @Query("SELECT * FROM chats WHERE id = :chatId")
+    suspend fun getChatById(chatId: String): ChatEntity?
+
+    /** 插入或更新聊天 */
+    @Insert(onConflict = OnConflictStrategy.REPLACE) suspend fun insertChat(chat: ChatEntity)
+
+    /** 删除聊天 */
+    @Query("DELETE FROM chats WHERE id = :chatId") suspend fun deleteChat(chatId: String)
+
+    /** 更新聊天元数据 */
+    @Query(
+            "UPDATE chats SET updatedAt = :timestamp, title = :title, inputTokens = :inputTokens, outputTokens = :outputTokens, currentWindowSize = :currentWindowSize WHERE id = :chatId"
+    )
+    suspend fun updateChatMetadata(
+            chatId: String,
+            title: String,
+            timestamp: Long,
+            inputTokens: Long,
+            outputTokens: Long,
+            currentWindowSize: Long
+    )
+
+    /** 更新聊天标题 */
+    @Query("UPDATE chats SET title = :title, updatedAt = :timestamp WHERE id = :chatId")
+    suspend fun updateChatTitle(chatId: String, title: String, timestamp: Long = System.currentTimeMillis())
+
+    /** 更新聊天工作区 */
+    @Query("UPDATE chats SET `workspace` = :workspace, `workspaceEnv` = :workspaceEnv, updatedAt = :timestamp WHERE id = :chatId")
+    suspend fun updateChatWorkspace(chatId: String, workspace: String?, workspaceEnv: String?, timestamp: Long = System.currentTimeMillis())
+
+    /** 同时更新聊天标题和工作区 */
+    @Query(
+        "UPDATE chats SET title = :title, `workspace` = :workspace, `workspaceEnv` = :workspaceEnv, updatedAt = :timestamp WHERE id = :chatId"
+    )
+    suspend fun updateChatTitleAndWorkspace(
+        chatId: String,
+        title: String,
+        workspace: String?,
+        workspaceEnv: String?,
+        timestamp: Long = System.currentTimeMillis()
+    )
+
+    /** 更新聊天分组 */
+    @Query("UPDATE chats SET `group` = :group, updatedAt = :timestamp WHERE id = :chatId")
+    suspend fun updateChatGroup(chatId: String, group: String?, timestamp: Long = System.currentTimeMillis())
+
+    /** 更新聊天绑定的角色卡名称 */
+    @Query("UPDATE chats SET characterCardName = :characterCardName, characterGroupId = NULL, updatedAt = :timestamp WHERE id = :chatId")
+    suspend fun updateChatCharacterCardName(chatId: String, characterCardName: String?, timestamp: Long = System.currentTimeMillis())
+
+    /** 更新聊天绑定的群组角色卡ID */
+    @Query("UPDATE chats SET characterCardName = NULL, characterGroupId = :characterGroupId, updatedAt = :timestamp WHERE id = :chatId")
+    suspend fun updateChatCharacterGroupId(chatId: String, characterGroupId: String?, timestamp: Long = System.currentTimeMillis())
+
+    /** 同时更新聊天绑定的角色卡名称与群组ID */
+    @Query(
+        "UPDATE chats SET characterCardName = :characterCardName, characterGroupId = :characterGroupId, updatedAt = :timestamp WHERE id = :chatId"
+    )
+    suspend fun updateChatCharacterBinding(
+        chatId: String,
+        characterCardName: String?,
+        characterGroupId: String?,
+        timestamp: Long = System.currentTimeMillis()
+    )
+
+    /** 更新聊天锁定状态 */
+    @Query("UPDATE chats SET locked = :locked, updatedAt = :timestamp WHERE id = :chatId")
+    suspend fun updateChatLocked(chatId: String, locked: Boolean, timestamp: Long = System.currentTimeMillis())
+
+    /** 更新聊天置顶状态 */
+    @Query("UPDATE chats SET pinned = :pinned, updatedAt = :timestamp WHERE id = :chatId")
+    suspend fun updateChatPinned(chatId: String, pinned: Boolean, timestamp: Long = System.currentTimeMillis())
+
+    /** 更新单个聊天的顺序和分组 */
+    @Query("UPDATE chats SET displayOrder = :displayOrder, `group` = :group, updatedAt = :timestamp WHERE id = :chatId")
+    suspend fun updateChatOrderAndGroup(chatId: String, displayOrder: Long, group: String?, timestamp: Long = System.currentTimeMillis())
+
+    /** 批量更新聊天的顺序和分组 */
+    @Update
+    suspend fun updateChats(chats: List<ChatEntity>)
+
+    /** 重命名分组 */
+    @Query("UPDATE chats SET `group` = :newName WHERE `group` = :oldName")
+    suspend fun updateGroupName(oldName: String, newName: String)
+    
+    /** 重命名指定角色卡下的分组 */
+    @Query("UPDATE chats SET `group` = :newName WHERE `group` = :oldName AND characterCardName = :characterCardName")
+    suspend fun updateGroupNameForCharacter(oldName: String, newName: String, characterCardName: String)
+
+    /** 删除分组下的所有聊天 */
+    @Query("DELETE FROM chats WHERE `group` = :groupName AND locked = 0")
+    suspend fun deleteChatsInGroup(groupName: String)
+    
+    /** 删除指定角色卡下分组的所有聊天 */
+    @Query("DELETE FROM chats WHERE `group` = :groupName AND characterCardName = :characterCardName AND locked = 0")
+    suspend fun deleteChatsInGroupForCharacter(groupName: String, characterCardName: String)
+
+    /** 将分组下的所有聊天移动到"未分组" */
+    @Query("UPDATE chats SET `group` = NULL, updatedAt = :timestamp WHERE `group` = :groupName")
+    suspend fun removeGroupFromChats(groupName: String, timestamp: Long = System.currentTimeMillis())
+
+    /** 将分组下的所有【锁定】聊天移动到"未分组"（用于删除分组但保留锁定聊天） */
+    @Query("UPDATE chats SET `group` = NULL, updatedAt = :timestamp WHERE `group` = :groupName AND locked = 1")
+    suspend fun removeGroupFromLockedChats(groupName: String, timestamp: Long = System.currentTimeMillis())
+    
+    /** 将指定角色卡下分组的所有聊天移动到"未分组" */
+    @Query("UPDATE chats SET `group` = NULL, updatedAt = :timestamp WHERE `group` = :groupName AND characterCardName = :characterCardName")
+    suspend fun removeGroupFromChatsForCharacter(groupName: String, characterCardName: String, timestamp: Long = System.currentTimeMillis())
+
+    /** 将指定角色卡下分组的所有【锁定】聊天移动到"未分组"（用于删除分组但保留锁定聊天） */
+    @Query("UPDATE chats SET `group` = NULL, updatedAt = :timestamp WHERE `group` = :groupName AND characterCardName = :characterCardName AND locked = 1")
+    suspend fun removeGroupFromLockedChatsForCharacter(groupName: String, characterCardName: String, timestamp: Long = System.currentTimeMillis())
+
+    /** 根据parentChatId获取所有分支对话 */
+    @Query("SELECT * FROM chats WHERE parentChatId = :parentChatId ORDER BY pinned DESC, displayOrder ASC")
+    suspend fun getBranchesByParentId(parentChatId: String): List<ChatEntity>
+
+    /** 根据parentChatId获取所有分支对话（Flow版本） */
+    @Query("SELECT * FROM chats WHERE parentChatId = :parentChatId ORDER BY pinned DESC, displayOrder ASC")
+    fun getBranchesByParentIdFlow(parentChatId: String): Flow<List<ChatEntity>>
+
+    /** 获取所有没有父对话的对话（即主对话） */
+    @Query("SELECT * FROM chats WHERE parentChatId IS NULL ORDER BY pinned DESC, displayOrder ASC")
+    suspend fun getMainChats(): List<ChatEntity>
+
+    /** 获取所有没有父对话的对话（Flow版本） */
+    @Query("SELECT * FROM chats WHERE parentChatId IS NULL ORDER BY pinned DESC, displayOrder ASC")
+    fun getMainChatsFlow(): Flow<List<ChatEntity>>
+
+    /** 根据角色卡名称过滤聊天（非默认角色卡：只显示该角色卡名称的对话） */
+    @Query("SELECT * FROM chats WHERE characterCardName = :characterCardName AND characterGroupId IS NULL ORDER BY pinned DESC, displayOrder ASC")
+    fun getChatsByCharacterCard(characterCardName: String): Flow<List<ChatEntity>>
+
+    /** 根据群组ID过滤聊天 */
+    @Query("SELECT * FROM chats WHERE characterGroupId = :characterGroupId ORDER BY pinned DESC, displayOrder ASC")
+    fun getChatsByCharacterGroupId(characterGroupId: String): Flow<List<ChatEntity>>
+
+    /** 根据角色卡名称过滤聊天（默认角色卡：显示该角色卡名称的对话 + 所有characterCardName为null的对话） */
+    @Query("SELECT * FROM chats WHERE characterCardName = :characterCardName OR (characterCardName IS NULL AND characterGroupId IS NULL) ORDER BY pinned DESC, displayOrder ASC")
+    fun getChatsByCharacterCardOrNull(characterCardName: String): Flow<List<ChatEntity>>
+
+    /** 批量清理绑定特定角色卡名称的对话（将characterCardName设为null） */
+    @Query("UPDATE chats SET characterCardName = NULL, updatedAt = :timestamp WHERE characterCardName = :characterCardName")
+    suspend fun clearCharacterCardBinding(characterCardName: String, timestamp: Long = System.currentTimeMillis())
+
+    /** 批量删除绑定特定角色卡名称的未锁定对话 */
+    @Query("DELETE FROM chats WHERE characterCardName = :characterCardName AND locked = 0")
+    suspend fun deleteUnlockedChatsByCharacterCardName(characterCardName: String): Int
+
+    /** 批量删除未绑定角色卡的未锁定对话 */
+    @Query("DELETE FROM chats WHERE characterCardName IS NULL AND characterGroupId IS NULL AND locked = 0")
+    suspend fun deleteUnlockedUnboundChats(): Int
+
+    /** 批量重命名角色卡绑定 */
+    @Query("UPDATE chats SET characterCardName = :newName, updatedAt = :timestamp WHERE characterCardName = :oldName")
+    suspend fun renameCharacterCardBinding(
+            oldName: String,
+            newName: String,
+            timestamp: Long = System.currentTimeMillis()
+    ): Int
+
+    /** 批量重命名角色群组绑定 */
+    @Query("UPDATE chats SET characterCardName = NULL, characterGroupId = :targetGroupId, updatedAt = :timestamp WHERE characterGroupId = :sourceGroupId")
+    suspend fun renameCharacterGroupBinding(
+        sourceGroupId: String,
+        targetGroupId: String,
+        timestamp: Long = System.currentTimeMillis()
+    ): Int
+
+    /** 将所有未绑定角色卡的聊天归类到指定角色卡 */
+    @Query("UPDATE chats SET characterCardName = :newName, updatedAt = :timestamp WHERE characterCardName IS NULL AND characterGroupId IS NULL")
+    suspend fun assignCharacterCardToUnbound(
+            newName: String,
+            timestamp: Long = System.currentTimeMillis()
+    ): Int
+
+    /** 将所有未绑定角色群组的聊天归类到指定角色群组 */
+    @Query("UPDATE chats SET characterCardName = NULL, characterGroupId = :targetGroupId, updatedAt = :timestamp WHERE characterGroupId IS NULL AND characterCardName IS NULL")
+    suspend fun assignCharacterGroupToUnbound(
+        targetGroupId: String,
+        timestamp: Long = System.currentTimeMillis()
+    ): Int
+
+    /** 批量为指定聊天更新角色卡绑定 */
+    @Query("UPDATE chats SET characterCardName = :newName, characterGroupId = NULL, updatedAt = :timestamp WHERE id IN (:chatIds)")
+    suspend fun updateCharacterCardForChats(
+        chatIds: List<String>,
+        newName: String?,
+        timestamp: Long = System.currentTimeMillis()
+    ): Int
+
+    /** 批量为指定聊天更新角色群组绑定 */
+    @Query("UPDATE chats SET characterCardName = NULL, characterGroupId = :characterGroupId, updatedAt = :timestamp WHERE id IN (:chatIds)")
+    suspend fun updateCharacterGroupForChats(
+        chatIds: List<String>,
+        characterGroupId: String?,
+        timestamp: Long = System.currentTimeMillis()
+    ): Int
+
+    /** 批量为指定聊天移除角色群组绑定 */
+    @Query("UPDATE chats SET characterGroupId = NULL, updatedAt = :timestamp WHERE id IN (:chatIds)")
+    suspend fun clearCharacterGroupForChats(
+        chatIds: List<String>,
+        timestamp: Long = System.currentTimeMillis()
+    ): Int
+
+    /** 批量清理绑定特定角色群组ID的对话（将characterGroupId设为null） */
+    @Query("UPDATE chats SET characterGroupId = NULL, updatedAt = :timestamp WHERE characterGroupId = :sourceGroupId")
+    suspend fun clearCharacterGroupBinding(
+        sourceGroupId: String,
+        timestamp: Long = System.currentTimeMillis()
+    ): Int
+
+    /** 批量为指定聊天更新分组 */
+    @Query("UPDATE chats SET `group` = :groupName, updatedAt = :timestamp WHERE id IN (:chatIds)")
+    suspend fun updateGroupForChats(
+        chatIds: List<String>,
+        groupName: String?,
+        timestamp: Long = System.currentTimeMillis()
+    ): Int
+
+    /** 获取按角色卡分组的聊天与消息统计 */
+    @Query(
+        """
+        SELECT 
+            c.characterCardName AS characterCardName,
+            COUNT(c.id) AS chatCount,
+            IFNULL(SUM(mc.messageCount), 0) AS messageCount
+        FROM chats c
+        LEFT JOIN (
+            SELECT chatId, COUNT(*) AS messageCount
+            FROM messages
+            GROUP BY chatId
+        ) mc ON c.id = mc.chatId
+        WHERE c.characterGroupId IS NULL
+        GROUP BY c.characterCardName
+        """
+    )
+    fun getCharacterCardChatStats(): Flow<List<CharacterCardChatStats>>
+
+    /** 获取按角色群组分组的聊天与消息统计 */
+    @Query(
+        """
+        SELECT 
+            c.characterGroupId AS characterGroupId,
+            COUNT(c.id) AS chatCount,
+            IFNULL(SUM(mc.messageCount), 0) AS messageCount
+        FROM chats c
+        LEFT JOIN (
+            SELECT chatId, COUNT(*) AS messageCount
+            FROM messages
+            GROUP BY chatId
+        ) mc ON c.id = mc.chatId
+        WHERE c.characterCardName IS NULL
+        GROUP BY c.characterGroupId
+        """
+    )
+    fun getCharacterGroupChatStats(): Flow<List<CharacterGroupChatStats>>
+}

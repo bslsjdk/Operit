@@ -1,1 +1,17 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkubWFpbgoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwoKb2JqZWN0IFBlbmRpbmdDaGF0RHJhZnRIYW5kbGVyIHsKICAgIHByaXZhdGUgdmFsIF9wZW5kaW5nRHJhZnQgPSBNdXRhYmxlU3RhdGVGbG93PFN0cmluZz8+KG51bGwpCiAgICB2YWwgcGVuZGluZ0RyYWZ0OiBTdGF0ZUZsb3c8U3RyaW5nPz4gPSBfcGVuZGluZ0RyYWZ0CgogICAgZnVuIHNldFBlbmRpbmdEcmFmdChkcmFmdDogU3RyaW5nKSB7CiAgICAgICAgX3BlbmRpbmdEcmFmdC52YWx1ZSA9IGRyYWZ0CiAgICB9CgogICAgZnVuIGNsZWFyUGVuZGluZ0RyYWZ0KCkgewogICAgICAgIF9wZW5kaW5nRHJhZnQudmFsdWUgPSBudWxsCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.main
+
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+
+object PendingChatDraftHandler {
+    private val _pendingDraft = MutableStateFlow<String?>(null)
+    val pendingDraft: StateFlow<String?> = _pendingDraft
+
+    fun setPendingDraft(draft: String) {
+        _pendingDraft.value = draft
+    }
+
+    fun clearPendingDraft() {
+        _pendingDraft.value = null
+    }
+}

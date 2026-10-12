@@ -1,1 +1,88 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuZnVsbHNjcmVlbi5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5ib3JkZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5jbGlja2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlJvdwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5TcGFjZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQucGFkZGluZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5zaXplCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LndpZHRoCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24uc2hhcGUuUm91bmRlZENvcm5lclNoYXBlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5UZXh0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5BbGlnbm1lbnQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZHJhdy5jbGlwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLnZlY3Rvci5JbWFnZVZlY3RvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuc3AKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmFuaW1hdGVDb2xvckFzU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUudHdlZW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5nZXRWYWx1ZQoKQENvbXBvc2FibGUKZnVuIEdsYXNzeUNoaXAoCiAgICBzZWxlY3RlZDogQm9vbGVhbiwKICAgIHRleHQ6IFN0cmluZywKICAgIGljb246IEltYWdlVmVjdG9yLAogICAgc2hvd0ljb246IEJvb2xlYW4sCiAgICBzaG93VGV4dDogQm9vbGVhbiA9IHRydWUsCiAgICBpY29uQ29udGVudERlc2NyaXB0aW9uOiBTdHJpbmc/ID0gbnVsbCwKICAgIG9uQ2xpY2s6ICgpIC0+IFVuaXQKKSB7CiAgICAvLyBCcmlnaHRlciwgaGlnaC1jb250cmFzdCBjeWFuIGZvciBiZXR0ZXIgdmlzaWJpbGl0eQogICAgdmFsIGFjY2VudENvbG9yID0gQ29sb3IoMHhGRjAwRTVGRikgCiAgICAKICAgIHZhbCBiYWNrZ3JvdW5kQ29sb3IgYnkgYW5pbWF0ZUNvbG9yQXNTdGF0ZSgKICAgICAgICB0YXJnZXRWYWx1ZSA9IGlmIChzZWxlY3RlZCkgQ29sb3IuQmxhY2suY29weShhbHBoYSA9IDAuNmYpIGVsc2UgQ29sb3IuQmxhY2suY29weShhbHBoYSA9IDAuMjVmKSwKICAgICAgICBhbmltYXRpb25TcGVjID0gdHdlZW4oMzAwKSwgCiAgICAgICAgbGFiZWwgPSAiY2hpcEJnIgogICAgKQogICAgCiAgICB2YWwgYm9yZGVyQ29sb3IgYnkgYW5pbWF0ZUNvbG9yQXNTdGF0ZSgKICAgICAgICB0YXJnZXRWYWx1ZSA9IGlmIChzZWxlY3RlZCkgYWNjZW50Q29sb3IuY29weShhbHBoYSA9IDAuOGYpIGVsc2UgQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IDAuMTVmKSwKICAgICAgICBhbmltYXRpb25TcGVjID0gdHdlZW4oMzAwKSwKICAgICAgICBsYWJlbCA9ICJjaGlwQm9yZGVyIgogICAgKQogICAgCiAgICB2YWwgY29udGVudENvbG9yIGJ5IGFuaW1hdGVDb2xvckFzU3RhdGUoCiAgICAgICAgdGFyZ2V0VmFsdWUgPSBpZiAoc2VsZWN0ZWQpIGFjY2VudENvbG9yIGVsc2UgQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IDAuOGYpLAogICAgICAgIGFuaW1hdGlvblNwZWMgPSB0d2VlbigzMDApLAogICAgICAgIGxhYmVsID0gImNoaXBDb250ZW50IgogICAgKQoKICAgIEJveCgKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5jbGlwKFJvdW5kZWRDb3JuZXJTaGFwZSgxNi5kcCkpCiAgICAgICAgICAgIC5iYWNrZ3JvdW5kKGJhY2tncm91bmRDb2xvcikKICAgICAgICAgICAgLmJvcmRlcih3aWR0aCA9IDEuZHAsIGNvbG9yID0gYm9yZGVyQ29sb3IsIHNoYXBlID0gUm91bmRlZENvcm5lclNoYXBlKDE2LmRwKSkKICAgICAgICAgICAgLmNsaWNrYWJsZShvbkNsaWNrID0gb25DbGljaykKICAgICAgICAgICAgLnBhZGRpbmcoaG9yaXpvbnRhbCA9IDEyLmRwLCB2ZXJ0aWNhbCA9IDYuZHApCiAgICApIHsKICAgICAgICBSb3codmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseSkgewogICAgICAgICAgICBpZiAoc2hvd0ljb24pIHsKICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBpY29uLAogICAgICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IGljb25Db250ZW50RGVzY3JpcHRpb24sCiAgICAgICAgICAgICAgICAgICAgdGludCA9IGNvbnRlbnRDb2xvciwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMTQuZHApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBpZiAoc2hvd1RleHQpIHsKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCg0LmRwKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAoc2hvd1RleHQpIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHRleHQsCiAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBjb250ZW50Q29sb3IsCiAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0uY29weShmb250U2l6ZSA9IDExLnNwKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.floating.ui.fullscreen.components
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Icon
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.animation.animateColorAsState
+import androidx.compose.animation.core.tween
+import androidx.compose.runtime.getValue
+
+@Composable
+fun GlassyChip(
+    selected: Boolean,
+    text: String,
+    icon: ImageVector,
+    showIcon: Boolean,
+    showText: Boolean = true,
+    iconContentDescription: String? = null,
+    onClick: () -> Unit
+) {
+    // Brighter, high-contrast cyan for better visibility
+    val accentColor = Color(0xFF00E5FF) 
+    
+    val backgroundColor by animateColorAsState(
+        targetValue = if (selected) Color.Black.copy(alpha = 0.6f) else Color.Black.copy(alpha = 0.25f),
+        animationSpec = tween(300), 
+        label = "chipBg"
+    )
+    
+    val borderColor by animateColorAsState(
+        targetValue = if (selected) accentColor.copy(alpha = 0.8f) else Color.White.copy(alpha = 0.15f),
+        animationSpec = tween(300),
+        label = "chipBorder"
+    )
+    
+    val contentColor by animateColorAsState(
+        targetValue = if (selected) accentColor else Color.White.copy(alpha = 0.8f),
+        animationSpec = tween(300),
+        label = "chipContent"
+    )
+
+    Box(
+        modifier = Modifier
+            .clip(RoundedCornerShape(16.dp))
+            .background(backgroundColor)
+            .border(width = 1.dp, color = borderColor, shape = RoundedCornerShape(16.dp))
+            .clickable(onClick = onClick)
+            .padding(horizontal = 12.dp, vertical = 6.dp)
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            if (showIcon) {
+                Icon(
+                    imageVector = icon,
+                    contentDescription = iconContentDescription,
+                    tint = contentColor,
+                    modifier = Modifier.size(14.dp)
+                )
+                if (showText) {
+                    Spacer(modifier = Modifier.width(4.dp))
+                }
+            }
+            if (showText) {
+                Text(
+                    text = text,
+                    color = contentColor,
+                    style = MaterialTheme.typography.labelMedium.copy(fontSize = 11.sp)
+                )
+            }
+        }
+    }
+}

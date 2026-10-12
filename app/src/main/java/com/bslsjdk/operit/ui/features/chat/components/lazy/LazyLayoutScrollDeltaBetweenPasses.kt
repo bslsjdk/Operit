@@ -1,1 +1,94 @@
-LyoKICogQ29weXJpZ2h0IDIwMjQgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuQW5pbWF0aW9uU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuQW5pbWF0aW9uVmVjdG9yMUQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuU3ByaW5nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmFuaW1hdGlvbi5jb3JlLlZlY3RvckNvbnZlcnRlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5hbmltYXRlVG8KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuY29weQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5hbmltYXRpb24uY29yZS5zcHJpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zbmFwc2hvdHMuU25hcHNob3QKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5EZW5zaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5Db3JvdXRpbmVTY29wZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkpvYgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAoKLyoqCiAqIFRoaXMgY2xhc3MgbWFuYWdlcyB0aGUgc2Nyb2xsIGRlbHRhIGJldHdlZW4gbG9va2FoZWFkIHBhc3MgYW5kIGFwcHJvYWNoIHBhc3MuIExvb2thaGVhZCBwYXNzIGlzCiAqIHRoZSBzb3VyY2Ugb2YgdHJ1dGggZm9yIHNjcm9sbGluZyBsYXp5IGxheW91dHMuIEhvd2V2ZXIsIGF0IHRpbWVzIGR1cmluZyBhbiBhbmltYXRpb24sIHRoZSBpdGVtcwogKiBpbiBhcHByb2FjaCBtYXkgbm90IGJlIGFzIGxhcmdlIGFzIHRoZXkgYXJlIGluIGxvb2thaGVhZCB5ZXQgKGkuZS4gdGhlc2UgaXRlbXMgaGF2ZSBub3QgcmVhY2hlZAogKiB0aGVpciB0YXJnZXQgc2l6ZSkuIEFzIHN1Y2gsIHRoZSBzYW1lIHNjcm9sbGluZyB0aGF0IGxvb2thaGVhZCBhY2NlcHRzIG1heSBjYXVzZSBiYWNrIHNjcm9sbCBpbgogKiBhcHByb2FjaCBkdWUgdG8gdGhlIHNtYWxsZXIgaXRlbSBzaXplIGF0IHRoZSBlbmQgb2YgdGhlIGxpc3QuIEluIHRoaXMgc2l0dWF0aW9uLCB3ZSB3aWxsIGJlCiAqIHRha2luZyB0aGUgYW1vdW50IG9mIGJhY2sgc2Nyb2xsIGZyb20gdGhlIGFwcHJvYWNoIGFuZCBncmFkdWFsbHkgYW5pbWF0ZSBpdCBkb3duIHRvIDAgdG8gYXZvaWQKICogYW55IHN1ZGRlbiBqdW1wIGluIHBvc2l0aW9uIHZpYSBbdXBkYXRlU2Nyb2xsRGVsdGFGb3JBcHByb2FjaF0uCiAqLwppbnRlcm5hbCBjbGFzcyBMYXp5TGF5b3V0U2Nyb2xsRGVsdGFCZXR3ZWVuUGFzc2VzIHsKCiAgICBpbnRlcm5hbCB2YWwgc2Nyb2xsRGVsdGFCZXR3ZWVuUGFzc2VzOiBGbG9hdAogICAgICAgIGdldCgpID0gX3Njcm9sbERlbHRhQmV0d2VlblBhc3Nlcy52YWx1ZQoKICAgIGludGVybmFsIHZhciBqb2I6IEpvYj8gPSBudWxsCgogICAgaW50ZXJuYWwgdmFsIGlzQWN0aXZlOiBCb29sZWFuCiAgICAgICAgZ2V0KCkgPSBfc2Nyb2xsRGVsdGFCZXR3ZWVuUGFzc2VzLnZhbHVlICE9IDBmCgogICAgcHJpdmF0ZSB2YXIgX3Njcm9sbERlbHRhQmV0d2VlblBhc3NlczogQW5pbWF0aW9uU3RhdGU8RmxvYXQsIEFuaW1hdGlvblZlY3RvcjFEPiA9CiAgICAgICAgQW5pbWF0aW9uU3RhdGUoRmxvYXQuVmVjdG9yQ29udmVydGVyLCAwZiwgMGYpCgogICAgLy8gVXBkYXRlcyB0aGUgc2Nyb2xsIGRlbHRhIGJldHdlZW4gbG9va2FoZWFkICYgcG9zdC1sb29rYWhlYWQgcGFzcwogICAgaW50ZXJuYWwgZnVuIHVwZGF0ZVNjcm9sbERlbHRhRm9yQXBwcm9hY2goCiAgICAgICAgZGVsdGE6IEZsb2F0LAogICAgICAgIGRlbnNpdHk6IERlbnNpdHksCiAgICAgICAgY29yb3V0aW5lU2NvcGU6IENvcm91dGluZVNjb3BlLAogICAgKSB7CiAgICAgICAgaWYgKGRlbHRhIDw9IHdpdGgoZGVuc2l0eSkgeyBEZWx0YVRocmVzaG9sZEZvclNjcm9sbEFuaW1hdGlvbi50b1B4KCkgfSkgewogICAgICAgICAgICAvLyBJZiB0aGUgZGVsdGEgaXMgd2l0aGluIHRoZSB0aHJlc2hvbGQsIHNjcm9sbCBieSB0aGUgZGVsdGEgYW1vdW50IGluc3RlYWQgb2YgYW5pbWF0aW5nCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgLy8gU2Nyb2xsIGRlbHRhIGlzIHVwZGF0ZWQgZHVyaW5nIGxvb2thaGVhZCwgd2UgZG9uJ3QgbmVlZCB0byB0cmlnZ2VyIGxvb2thaGVhZCB3aGVuCiAgICAgICAgLy8gdGhlIGRlbHRhIGNoYW5nZXMuCiAgICAgICAgU25hcHNob3Qud2l0aG91dFJlYWRPYnNlcnZhdGlvbiB7CiAgICAgICAgICAgIHZhbCBjdXJyZW50RGVsdGEgPSBfc2Nyb2xsRGVsdGFCZXR3ZWVuUGFzc2VzLnZhbHVlCgogICAgICAgICAgICBqb2I/LmNhbmNlbCgpCiAgICAgICAgICAgIGlmIChfc2Nyb2xsRGVsdGFCZXR3ZWVuUGFzc2VzLmlzUnVubmluZykgewogICAgICAgICAgICAgICAgX3Njcm9sbERlbHRhQmV0d2VlblBhc3NlcyA9IF9zY3JvbGxEZWx0YUJldHdlZW5QYXNzZXMuY29weShjdXJyZW50RGVsdGEgLSBkZWx0YSkKICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgIF9zY3JvbGxEZWx0YUJldHdlZW5QYXNzZXMgPSBBbmltYXRpb25TdGF0ZShGbG9hdC5WZWN0b3JDb252ZXJ0ZXIsIC1kZWx0YSkKICAgICAgICAgICAgfQogICAgICAgICAgICBqb2IgPQogICAgICAgICAgICAgICAgY29yb3V0aW5lU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgICAgICBfc2Nyb2xsRGVsdGFCZXR3ZWVuUGFzc2VzLmFuaW1hdGVUbygKICAgICAgICAgICAgICAgICAgICAgICAgMGYsCiAgICAgICAgICAgICAgICAgICAgICAgIHNwcmluZyhzdGlmZm5lc3MgPSBTcHJpbmcuU3RpZmZuZXNzTWVkaXVtTG93LCB2aXNpYmlsaXR5VGhyZXNob2xkID0gMC41ZiksCiAgICAgICAgICAgICAgICAgICAgICAgIHRydWUsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBpbnRlcm5hbCBmdW4gc3RvcCgpIHsKICAgICAgICBqb2I/LmNhbmNlbCgpCiAgICAgICAgX3Njcm9sbERlbHRhQmV0d2VlblBhc3NlcyA9IEFuaW1hdGlvblN0YXRlKEZsb2F0LlZlY3RvckNvbnZlcnRlciwgMGYpCiAgICB9Cn0KCnByaXZhdGUgdmFsIERlbHRhVGhyZXNob2xkRm9yU2Nyb2xsQW5pbWF0aW9uID0gMS5kcAo=
+/*
+ * Copyright 2024 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.animation.core.AnimationState
+import androidx.compose.animation.core.AnimationVector1D
+import androidx.compose.animation.core.Spring
+import androidx.compose.animation.core.VectorConverter
+import androidx.compose.animation.core.animateTo
+import androidx.compose.animation.core.copy
+import androidx.compose.animation.core.spring
+import androidx.compose.runtime.snapshots.Snapshot
+import androidx.compose.ui.unit.Density
+import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
+
+/**
+ * This class manages the scroll delta between lookahead pass and approach pass. Lookahead pass is
+ * the source of truth for scrolling lazy layouts. However, at times during an animation, the items
+ * in approach may not be as large as they are in lookahead yet (i.e. these items have not reached
+ * their target size). As such, the same scrolling that lookahead accepts may cause back scroll in
+ * approach due to the smaller item size at the end of the list. In this situation, we will be
+ * taking the amount of back scroll from the approach and gradually animate it down to 0 to avoid
+ * any sudden jump in position via [updateScrollDeltaForApproach].
+ */
+internal class LazyLayoutScrollDeltaBetweenPasses {
+
+    internal val scrollDeltaBetweenPasses: Float
+        get() = _scrollDeltaBetweenPasses.value
+
+    internal var job: Job? = null
+
+    internal val isActive: Boolean
+        get() = _scrollDeltaBetweenPasses.value != 0f
+
+    private var _scrollDeltaBetweenPasses: AnimationState<Float, AnimationVector1D> =
+        AnimationState(Float.VectorConverter, 0f, 0f)
+
+    // Updates the scroll delta between lookahead & post-lookahead pass
+    internal fun updateScrollDeltaForApproach(
+        delta: Float,
+        density: Density,
+        coroutineScope: CoroutineScope,
+    ) {
+        if (delta <= with(density) { DeltaThresholdForScrollAnimation.toPx() }) {
+            // If the delta is within the threshold, scroll by the delta amount instead of animating
+            return
+        }
+
+        // Scroll delta is updated during lookahead, we don't need to trigger lookahead when
+        // the delta changes.
+        Snapshot.withoutReadObservation {
+            val currentDelta = _scrollDeltaBetweenPasses.value
+
+            job?.cancel()
+            if (_scrollDeltaBetweenPasses.isRunning) {
+                _scrollDeltaBetweenPasses = _scrollDeltaBetweenPasses.copy(currentDelta - delta)
+            } else {
+                _scrollDeltaBetweenPasses = AnimationState(Float.VectorConverter, -delta)
+            }
+            job =
+                coroutineScope.launch {
+                    _scrollDeltaBetweenPasses.animateTo(
+                        0f,
+                        spring(stiffness = Spring.StiffnessMediumLow, visibilityThreshold = 0.5f),
+                        true,
+                    )
+                }
+        }
+    }
+
+    internal fun stop() {
+        job?.cancel()
+        _scrollDeltaBetweenPasses = AnimationState(Float.VectorConverter, 0f)
+    }
+}
+
+private val DeltaThresholdForScrollAnimation = 1.dp

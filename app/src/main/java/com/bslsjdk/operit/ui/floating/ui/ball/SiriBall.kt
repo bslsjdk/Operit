@@ -1,1 +1,529 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuYmFsbAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuYW5pbWF0aW9uLmNvcmUuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLkNhbnZhcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5kZXRlY3REcmFnR2VzdHVyZXMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5kZXRlY3RUYXBHZXN0dXJlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Cb3gKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQub2Zmc2V0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuc2l6ZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnNoYXBlLlJvdW5kZWRDb3JuZXJTaGFwZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuYWxwaGEKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ2VvbWV0cnkuT2Zmc2V0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdlb21ldHJ5LlNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuZ3JhcGhpY3MuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5kcmF3c2NvcGUuRHJhd1Njb3BlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLmRyYXdzY29wZS5TdHJva2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuaW5wdXQucG9pbnRlci5wb2ludGVySW5wdXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcuRmxvYXRDb250ZXh0CmltcG9ydCBrb3RsaW4ubWF0aC4qCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5wbGF0Zm9ybS5Mb2NhbENvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5JbnB1dFByb2Nlc3NpbmdTdGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuUHJvbXB0RnVuY3Rpb25UeXBlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudm9pY2UuU3BlZWNoSW50ZXJhY3Rpb25NYW5hZ2VyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgovLyDlhoXpg6jnirbmgIHmnprkuL4KcHJpdmF0ZSBjb25zdCB2YWwgU3RhdGVJZGxlID0gMApwcml2YXRlIGNvbnN0IHZhbCBTdGF0ZVByZXNzaW5nID0gMQpwcml2YXRlIGNvbnN0IHZhbCBTdGF0ZUxvYWRpbmcgPSAyCnByaXZhdGUgY29uc3QgdmFsIFN0YXRlUmVwbHlpbmcgPSAzCgovKioKICog6YCa55So55qEIFNpcmkg6aOO5qC85oKs5rWu55CD57uE5Lu2CiAqIOWMheWQq+WujOaVtOeahOeKtuaAgeeuoeeQhuOAgeaJi+WKv+S6pOS6kuWSjOa4suafk+mAu+i+kQogKi8KQENvbXBvc2FibGUKZnVuIFNpcmlCYWxsKAogICAgZmxvYXRDb250ZXh0OiBGbG9hdENvbnRleHQsCiAgICBvbkNsaWNrOiAoKSAtPiBVbml0LAogICAgb25UcmlnZ2VyUmVzdWx0OiAoKSAtPiBVbml0CikgewogICAgLy8gU2lyaemFjeiJsiAtIOeyvueugOS4ujTkuKrkuLvoibLosIPvvIjok53jgIHntKvjgIHnsonjgIHpnZLvvIkKICAgIHZhbCBtYWluQ29sb3IgPSBDb2xvcigweEZGMEE4NEZGKSAgICAgIC8vIOS4u+iTneiJsgogICAgdmFsIGFjY2VudENvbG9yMSA9IENvbG9yKDB4RkZCRjVBRjIpICAgLy8g57Sr6ImyCiAgICB2YWwgYWNjZW50Q29sb3IyID0gQ29sb3IoMHhGRkZGMzc1RikgICAvLyDnsonnuqLoibIKICAgIHZhbCBhY2NlbnRDb2xvcjMgPSBDb2xvcigweEZGMDBENEZGKSAgIC8vIOmdkuiJsgogICAgCiAgICAvLyDkuqTkupLnirbmgIEKICAgIHZhciBiYWxsU3RhdGUgYnkgcmVtZW1iZXIgeyBtdXRhYmxlSW50U3RhdGVPZihTdGF0ZUlkbGUpIH0KICAgIHZhciBwcmVzc1N0YXJ0VGltZSBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKDBMKSB9CiAgICB2YWwgcGFydGljbGVTeXN0ZW0gPSByZW1lbWJlclBhcnRpY2xlU3lzdGVtKCkKICAgIAogICAgLy8g6K+t6Z+z5Lqk5LqS566h55CG5ZmoCiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgc2NvcGUgPSByZW1lbWJlckNvcm91dGluZVNjb3BlKCkKICAgIHZhbCBzcGVlY2hNYW5hZ2VyID0gcmVtZW1iZXIoY29udGV4dCwgc2NvcGUpIHsKICAgICAgICBTcGVlY2hJbnRlcmFjdGlvbk1hbmFnZXIoCiAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LAogICAgICAgICAgICBjb3JvdXRpbmVTY29wZSA9IHNjb3BlLAogICAgICAgICAgICBvblNwZWVjaFJlc3VsdCA9IHsgdGV4dCwgXyAtPgogICAgICAgICAgICAgICAgLy8g5pS25Yiw6K+t6Z+z57uT5p6c77yM5Y+R6YCB5raI5oGvCiAgICAgICAgICAgICAgICBmbG9hdENvbnRleHQub25TZW5kTWVzc2FnZT8uaW52b2tlKHRleHQsIFByb21wdEZ1bmN0aW9uVHlwZS5WT0lDRSkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgb25TdGF0ZUNoYW5nZSA9IHsgbXNnIC0+CiAgICAgICAgICAgICAgICAvLyDmoLnmja7nirbmgIHmtojmga/liKTmlq3mmK/lkKbpnIDopoHph43nva7nirbmgIEKICAgICAgICAgICAgICAgIGlmIChtc2cgPT0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuZmxvYXRpbmdfZGlkbnRfaGVhcl9jbGVhcmx5KSkgewogICAgICAgICAgICAgICAgICAgIGJhbGxTdGF0ZSA9IFN0YXRlSWRsZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgKQogICAgfQoKICAgIC8vIOWIneWni+WMluS4jua4heeQhuivremfs+acjeWKoQogICAgRGlzcG9zYWJsZUVmZmVjdChVbml0KSB7CiAgICAgICAgc2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgc3BlZWNoTWFuYWdlci5pbml0aWFsaXplKCkKICAgICAgICAgICAgLy8g5bCd6K+V6I635Y+W54Sm54K55Lul5L6/6IO95LuO6bqm5YWL6aOO5b2V6Z+zCiAgICAgICAgICAgIHZhbCB2aWV3ID0gZmxvYXRDb250ZXh0LmNoYXRTZXJ2aWNlPy5nZXRDb21wb3NlVmlldygpCiAgICAgICAgICAgIHNwZWVjaE1hbmFnZXIucmVxdWVzdEZvY3VzKHZpZXcpCiAgICAgICAgfQogICAgICAgIG9uRGlzcG9zZSB7CiAgICAgICAgICAgIHNwZWVjaE1hbmFnZXIuY2xlYW51cCgpCiAgICAgICAgfQogICAgfQoKICAgIC8vIOaUtumbhuivremfs+ivhuWIq+e7k+aenOa1geW5tuWPjemmiOe7meeuoeeQhuWZqOWkhOeQhgogICAgTGF1bmNoZWRFZmZlY3Qoc3BlZWNoTWFuYWdlcikgewogICAgICAgIHNwZWVjaE1hbmFnZXIucmVjb2duaXRpb25SZXN1bHRGbG93LmNvbGxlY3QgeyByZXN1bHQgLT4KICAgICAgICAgICAgc3BlZWNoTWFuYWdlci5oYW5kbGVSZWNvZ25pdGlvblJlc3VsdChyZXN1bHQudGV4dCwgcmVzdWx0LmlzRmluYWwpCiAgICAgICAgfQogICAgfQogICAgCiAgICAvLyDnm5HlkKwgQUkg5aSE55CG54q25oCB77yM5a6M5oiQ5ZCO6Kem5Y+R57uT5p6c5bGV56S6CiAgICB2YWwgYWlTdGF0ZSBieSBmbG9hdENvbnRleHQuaW5wdXRQcm9jZXNzaW5nU3RhdGUKICAgIExhdW5jaGVkRWZmZWN0KGFpU3RhdGUsIGJhbGxTdGF0ZSkgewogICAgICAgIC8vIOW9k+WkhOS6jiBMb2FkaW5nIOeKtuaAgeS4lCBBSSDlpITnkIblrozmiJDml7YKICAgICAgICBpZiAoYmFsbFN0YXRlID09IFN0YXRlTG9hZGluZyAmJiBhaVN0YXRlIGlzIElucHV0UHJvY2Vzc2luZ1N0YXRlLkNvbXBsZXRlZCkgewogICAgICAgICAgICBvblRyaWdnZXJSZXN1bHQoKQogICAgICAgICAgICBiYWxsU3RhdGUgPSBTdGF0ZUlkbGUKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8vIOaMieWOi+e8qeaUvuWKqOeUuwogICAgdmFsIGlzUHJlc3NlZCA9IGJhbGxTdGF0ZSA9PSBTdGF0ZVByZXNzaW5nCiAgICB2YWwgcHJlc3NTY2FsZSBieSBhbmltYXRlRmxvYXRBc1N0YXRlKAogICAgICAgIHRhcmdldFZhbHVlID0gaWYgKGlzUHJlc3NlZCkgMC44NWYgZWxzZSAxLjBmLAogICAgICAgIGFuaW1hdGlvblNwZWMgPSB0d2VlbihkdXJhdGlvbk1pbGxpcyA9IDIwMCwgZWFzaW5nID0gRmFzdE91dFNsb3dJbkVhc2luZyksCiAgICAgICAgbGFiZWwgPSAicHJlc3NTY2FsZSIKICAgICkKICAgIAogICAgLy8gTG9hZGluZyDml4vovazliqjnlLsKICAgIHZhbCBsb2FkaW5nUm90YXRpb24gPSByZW1lbWJlciB7IEFuaW1hdGFibGUoMGYpIH0KICAgIExhdW5jaGVkRWZmZWN0KGJhbGxTdGF0ZSA9PSBTdGF0ZUxvYWRpbmcpIHsKICAgICAgICBpZiAoYmFsbFN0YXRlID09IFN0YXRlTG9hZGluZykgewogICAgICAgICAgICBsb2FkaW5nUm90YXRpb24uYW5pbWF0ZVRvKAogICAgICAgICAgICAgICAgdGFyZ2V0VmFsdWUgPSAzNjBmLAogICAgICAgICAgICAgICAgYW5pbWF0aW9uU3BlYyA9IGluZmluaXRlUmVwZWF0YWJsZSgKICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24gPSB0d2VlbigxMDAwLCBlYXNpbmcgPSBMaW5lYXJFYXNpbmcpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBsb2FkaW5nUm90YXRpb24uc25hcFRvKDBmKQogICAgICAgIH0KICAgIH0KICAgIAogICAgLy8g5pu05paw57KS5a2Q57O757ufICjlj6rlnKggUHJlc3Npbmcg54q25oCB5pi+56S6KQogICAgcGFydGljbGVTeXN0ZW0uVXBkYXRlRWZmZWN0KGlzUHJlc3NlZCkKICAgIAogICAgLy8g5reh5Ye65Yqo55S754q25oCBCiAgICB2YWwgaXNGYWRpbmdPdXQgPSBmbG9hdENvbnRleHQud2luZG93U3RhdGU/LmJhbGxFeHBsb2Rpbmc/LnZhbHVlID86IGZhbHNlCiAgICB2YWwgZmFkZU91dFByb2dyZXNzID0gcmVtZW1iZXIgeyBBbmltYXRhYmxlKDBmKSB9CiAgICAKICAgIC8vIOebkeWQrOa3oeWHuuinpuWPkQogICAgTGF1bmNoZWRFZmZlY3QoaXNGYWRpbmdPdXQpIHsKICAgICAgICBpZiAoaXNGYWRpbmdPdXQpIHsKICAgICAgICAgICAgZmFkZU91dFByb2dyZXNzLnNuYXBUbygwZikKICAgICAgICAgICAgZmFkZU91dFByb2dyZXNzLmFuaW1hdGVUbygKICAgICAgICAgICAgICAgIHRhcmdldFZhbHVlID0gMWYsCiAgICAgICAgICAgICAgICBhbmltYXRpb25TcGVjID0gdHdlZW4oZHVyYXRpb25NaWxsaXMgPSAxMDAsIGVhc2luZyA9IExpbmVhckVhc2luZykKICAgICAgICAgICAgKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGZhZGVPdXRQcm9ncmVzcy5zbmFwVG8oMGYpCiAgICAgICAgfQogICAgfQogICAgCiAgICAvLyDliqjnlLsKICAgIHZhbCBpbmZpbml0ZVRyYW5zaXRpb24gPSByZW1lbWJlckluZmluaXRlVHJhbnNpdGlvbihsYWJlbCA9ICJzaXJpIikKICAgIAogICAgLy8g5oWi6YCf5peL6L2sIC0g5pu05LyY6ZuFCiAgICB2YWwgcm90YXRpb24gYnkgaW5maW5pdGVUcmFuc2l0aW9uLmFuaW1hdGVGbG9hdCgKICAgICAgICBpbml0aWFsVmFsdWUgPSAwZiwKICAgICAgICB0YXJnZXRWYWx1ZSA9IDM2MGYsCiAgICAgICAgYW5pbWF0aW9uU3BlYyA9IGluZmluaXRlUmVwZWF0YWJsZSgKICAgICAgICAgICAgYW5pbWF0aW9uID0gdHdlZW4oMTUwMDAsIGVhc2luZyA9IExpbmVhckVhc2luZyksCiAgICAgICAgICAgIHJlcGVhdE1vZGUgPSBSZXBlYXRNb2RlLlJlc3RhcnQKICAgICAgICApLAogICAgICAgIGxhYmVsID0gInJvdGF0aW9uIgogICAgKQogICAgCiAgICAvLyDmn5TlkozlkbzlkLgKICAgIHZhbCBicmVhdGhlIGJ5IGluZmluaXRlVHJhbnNpdGlvbi5hbmltYXRlRmxvYXQoCiAgICAgICAgaW5pdGlhbFZhbHVlID0gMC45NWYsCiAgICAgICAgdGFyZ2V0VmFsdWUgPSAxLjBmLAogICAgICAgIGFuaW1hdGlvblNwZWMgPSBpbmZpbml0ZVJlcGVhdGFibGUoCiAgICAgICAgICAgIGFuaW1hdGlvbiA9IHR3ZWVuKDMwMDAsIGVhc2luZyA9IEZhc3RPdXRTbG93SW5FYXNpbmcpLAogICAgICAgICAgICByZXBlYXRNb2RlID0gUmVwZWF0TW9kZS5SZXZlcnNlCiAgICAgICAgKSwKICAgICAgICBsYWJlbCA9ICJicmVhdGhlIgogICAgKQogICAgCiAgICAvLyDlpJblnIjpn7Pms6IgLSDnrKzkuIDlsYIKICAgIHZhbCByaXBwbGUxU2NhbGUgYnkgaW5maW5pdGVUcmFuc2l0aW9uLmFuaW1hdGVGbG9hdCgKICAgICAgICBpbml0aWFsVmFsdWUgPSAxLjBmLAogICAgICAgIHRhcmdldFZhbHVlID0gMS4yZiwKICAgICAgICBhbmltYXRpb25TcGVjID0gaW5maW5pdGVSZXBlYXRhYmxlKAogICAgICAgICAgICBhbmltYXRpb24gPSB0d2VlbigyNTAwLCBlYXNpbmcgPSBMaW5lYXJPdXRTbG93SW5FYXNpbmcpLAogICAgICAgICAgICByZXBlYXRNb2RlID0gUmVwZWF0TW9kZS5SZXN0YXJ0CiAgICAgICAgKSwKICAgICAgICBsYWJlbCA9ICJyaXBwbGUxU2NhbGUiCiAgICApCiAgICAKICAgIHZhbCByaXBwbGUxQWxwaGEgYnkgaW5maW5pdGVUcmFuc2l0aW9uLmFuaW1hdGVGbG9hdCgKICAgICAgICBpbml0aWFsVmFsdWUgPSAwLjVmLAogICAgICAgIHRhcmdldFZhbHVlID0gMGYsCiAgICAgICAgYW5pbWF0aW9uU3BlYyA9IGluZmluaXRlUmVwZWF0YWJsZSgKICAgICAgICAgICAgYW5pbWF0aW9uID0gdHdlZW4oMjUwMCwgZWFzaW5nID0gTGluZWFyRWFzaW5nKSwKICAgICAgICAgICAgcmVwZWF0TW9kZSA9IFJlcGVhdE1vZGUuUmVzdGFydAogICAgICAgICksCiAgICAgICAgbGFiZWwgPSAicmlwcGxlMUFscGhhIgogICAgKQogICAgCiAgICAvLyDlpJblnIjpn7Pms6IgLSDnrKzkuozlsYIKICAgIHZhbCByaXBwbGUyU2NhbGUgYnkgaW5maW5pdGVUcmFuc2l0aW9uLmFuaW1hdGVGbG9hdCgKICAgICAgICBpbml0aWFsVmFsdWUgPSAxLjBmLAogICAgICAgIHRhcmdldFZhbHVlID0gMS4yZiwKICAgICAgICBhbmltYXRpb25TcGVjID0gaW5maW5pdGVSZXBlYXRhYmxlKAogICAgICAgICAgICBhbmltYXRpb24gPSB0d2VlbigyNTAwLCBlYXNpbmcgPSBMaW5lYXJPdXRTbG93SW5FYXNpbmcpLAogICAgICAgICAgICByZXBlYXRNb2RlID0gUmVwZWF0TW9kZS5SZXN0YXJ0LAogICAgICAgICAgICBpbml0aWFsU3RhcnRPZmZzZXQgPSBTdGFydE9mZnNldCg4MzMpCiAgICAgICAgKSwKICAgICAgICBsYWJlbCA9ICJyaXBwbGUyU2NhbGUiCiAgICApCiAgICAKICAgIHZhbCByaXBwbGUyQWxwaGEgYnkgaW5maW5pdGVUcmFuc2l0aW9uLmFuaW1hdGVGbG9hdCgKICAgICAgICBpbml0aWFsVmFsdWUgPSAwLjVmLAogICAgICAgIHRhcmdldFZhbHVlID0gMGYsCiAgICAgICAgYW5pbWF0aW9uU3BlYyA9IGluZmluaXRlUmVwZWF0YWJsZSgKICAgICAgICAgICAgYW5pbWF0aW9uID0gdHdlZW4oMjUwMCwgZWFzaW5nID0gTGluZWFyRWFzaW5nKSwKICAgICAgICAgICAgcmVwZWF0TW9kZSA9IFJlcGVhdE1vZGUuUmVzdGFydCwKICAgICAgICAgICAgaW5pdGlhbFN0YXJ0T2Zmc2V0ID0gU3RhcnRPZmZzZXQoODMzKQogICAgICAgICksCiAgICAgICAgbGFiZWwgPSAicmlwcGxlMkFscGhhIgogICAgKQogICAgCiAgICAvLyDlpJblnIjpn7Pms6IgLSDnrKzkuInlsYIKICAgIHZhbCByaXBwbGUzU2NhbGUgYnkgaW5maW5pdGVUcmFuc2l0aW9uLmFuaW1hdGVGbG9hdCgKICAgICAgICBpbml0aWFsVmFsdWUgPSAxLjBmLAogICAgICAgIHRhcmdldFZhbHVlID0gMS4yZiwKICAgICAgICBhbmltYXRpb25TcGVjID0gaW5maW5pdGVSZXBlYXRhYmxlKAogICAgICAgICAgICBhbmltYXRpb24gPSB0d2VlbigyNTAwLCBlYXNpbmcgPSBMaW5lYXJPdXRTbG93SW5FYXNpbmcpLAogICAgICAgICAgICByZXBlYXRNb2RlID0gUmVwZWF0TW9kZS5SZXN0YXJ0LAogICAgICAgICAgICBpbml0aWFsU3RhcnRPZmZzZXQgPSBTdGFydE9mZnNldCgxNjY2KQogICAgICAgICksCiAgICAgICAgbGFiZWwgPSAicmlwcGxlM1NjYWxlIgogICAgKQogICAgCiAgICB2YWwgcmlwcGxlM0FscGhhIGJ5IGluZmluaXRlVHJhbnNpdGlvbi5hbmltYXRlRmxvYXQoCiAgICAgICAgaW5pdGlhbFZhbHVlID0gMC41ZiwKICAgICAgICB0YXJnZXRWYWx1ZSA9IDBmLAogICAgICAgIGFuaW1hdGlvblNwZWMgPSBpbmZpbml0ZVJlcGVhdGFibGUoCiAgICAgICAgICAgIGFuaW1hdGlvbiA9IHR3ZWVuKDI1MDAsIGVhc2luZyA9IExpbmVhckVhc2luZyksCiAgICAgICAgICAgIHJlcGVhdE1vZGUgPSBSZXBlYXRNb2RlLlJlc3RhcnQsCiAgICAgICAgICAgIGluaXRpYWxTdGFydE9mZnNldCA9IFN0YXJ0T2Zmc2V0KDE2NjYpCiAgICAgICAgKSwKICAgICAgICBsYWJlbCA9ICJyaXBwbGUzQWxwaGEiCiAgICApCiAgICAKICAgIEJveCgKICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyCiAgICAgICAgICAgIC5zaXplKGZsb2F0Q29udGV4dC5iYWxsU2l6ZSAqIDEuNmYpCiAgICAgICAgICAgIC5wb2ludGVySW5wdXQoVW5pdCkgewogICAgICAgICAgICAgICAgZGV0ZWN0RHJhZ0dlc3R1cmVzKAogICAgICAgICAgICAgICAgICAgIG9uRHJhZ1N0YXJ0ID0geyBiYWxsU3RhdGUgPSBTdGF0ZVByZXNzaW5nIH0sCiAgICAgICAgICAgICAgICAgICAgb25EcmFnRW5kID0geyAKICAgICAgICAgICAgICAgICAgICAgICAgZmxvYXRDb250ZXh0LnNhdmVXaW5kb3dTdGF0ZT8uaW52b2tlKCkKICAgICAgICAgICAgICAgICAgICAgICAgYmFsbFN0YXRlID0gU3RhdGVJZGxlCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICBvbkRyYWdDYW5jZWwgPSB7IGJhbGxTdGF0ZSA9IFN0YXRlSWRsZSB9LAogICAgICAgICAgICAgICAgICAgIG9uRHJhZyA9IHsgY2hhbmdlLCBkcmFnQW1vdW50IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGNoYW5nZS5jb25zdW1lKCkKICAgICAgICAgICAgICAgICAgICAgICAgZmxvYXRDb250ZXh0Lm9uTW92ZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRyYWdBbW91bnQueCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRyYWdBbW91bnQueSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsb2F0Q29udGV4dC53aW5kb3dTY2FsZQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgICAgIC5wb2ludGVySW5wdXQoVW5pdCkgewogICAgICAgICAgICAgICAgZGV0ZWN0VGFwR2VzdHVyZXMoCiAgICAgICAgICAgICAgICAgICAgb25UYXAgPSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2soKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAvLyDplb/mjInlip/og73lt7LnpoHnlKgKICAgICAgICAgICAgICAgICAgICAvLyBvblByZXNzID0gewogICAgICAgICAgICAgICAgICAgIC8vICAgICBwcmVzc1N0YXJ0VGltZSA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpCiAgICAgICAgICAgICAgICAgICAgLy8gICAgIGJhbGxTdGF0ZSA9IFN0YXRlUHJlc3NpbmcKICAgICAgICAgICAgICAgICAgICAvLyAgICAgLy8g5byA5aeL5b2V6Z+zCiAgICAgICAgICAgICAgICAgICAgLy8gICAgIHNwZWVjaE1hbmFnZXIuc3RhcnRMaXN0ZW5pbmcoKQogICAgICAgICAgICAgICAgICAgIC8vICAgICAKICAgICAgICAgICAgICAgICAgICAvLyAgICAgdmFsIHJlbGVhc2VkID0gdHJ5QXdhaXRSZWxlYXNlKCkKICAgICAgICAgICAgICAgICAgICAvLyAgICAgLy8g5p2+5omL6YC76L6RCiAgICAgICAgICAgICAgICAgICAgLy8gICAgIGlmIChyZWxlYXNlZCkgewogICAgICAgICAgICAgICAgICAgIC8vICAgICAgICAgaWYgKFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpIC0gcHJlc3NTdGFydFRpbWUgPj0gMzAwKSB7CiAgICAgICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgLy8g6ZW/5oyJ57uT5p2fIC0+IOWBnOatouW9lemfs+W5tuWPkemAgSAtPiDov5vlhaUgTG9hZGluZyDnrYnlvoUgQUkg5Zue5aSNCiAgICAgICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgc3BlZWNoTWFuYWdlci5zdG9wTGlzdGVuaW5nKGlzQ2FuY2VsID0gZmFsc2UpCiAgICAgICAgICAgICAgICAgICAgLy8gICAgICAgICAgICAgYmFsbFN0YXRlID0gU3RhdGVMb2FkaW5nCiAgICAgICAgICAgICAgICAgICAgLy8gICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgIC8vIOefreaMiSAtPiDlj5bmtojlvZXpn7MgLT4g6YeN572u5Li6IElkbGUgKG9uVGFwIOS8muaOpeeuoSkKICAgICAgICAgICAgICAgICAgICAvLyAgICAgICAgICAgICBzcGVlY2hNYW5hZ2VyLnN0b3BMaXN0ZW5pbmcoaXNDYW5jZWwgPSB0cnVlKQogICAgICAgICAgICAgICAgICAgIC8vICAgICAgICAgICAgIGJhbGxTdGF0ZSA9IFN0YXRlSWRsZQogICAgICAgICAgICAgICAgICAgIC8vICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIC8vICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIC8vICAgICAgICAgLy8g5omL5Yq/6KKr5Y+W5raIIC0+IOWPlua2iOW9lemfswogICAgICAgICAgICAgICAgICAgIC8vICAgICAgICAgc3BlZWNoTWFuYWdlci5zdG9wTGlzdGVuaW5nKGlzQ2FuY2VsID0gdHJ1ZSkKICAgICAgICAgICAgICAgICAgICAvLyAgICAgICAgIGJhbGxTdGF0ZSA9IFN0YXRlSWRsZQogICAgICAgICAgICAgICAgICAgIC8vICAgICB9CiAgICAgICAgICAgICAgICAgICAgLy8gfQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9LAogICAgICAgIGNvbnRlbnRBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyCiAgICApIHsKICAgICAgICBDYW52YXMoCiAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuc2l6ZShmbG9hdENvbnRleHQuYmFsbFNpemUgKiAzLjBmKQogICAgICAgICkgewogICAgICAgICAgICB2YWwgY2VudGVyID0gT2Zmc2V0KHNpemUud2lkdGggLyAyZiwgc2l6ZS5oZWlnaHQgLyAyZikKICAgICAgICAgICAgLy8g5bqU55So5oyJ5Y6L57yp5pS+CiAgICAgICAgICAgIHZhbCBiYXNlUmFkaXVzID0gKHNpemUubWluRGltZW5zaW9uIC8gMi4wZikgKiBwcmVzc1NjYWxlCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDmt6Hlh7rmlYjmnpzvvJrlj6rmlLnlj5jpgI/mmI7luqbvvIzkuI3mlLnlj5jnvKnmlL4KICAgICAgICAgICAgdmFsIGZhZGVBbHBoYSA9IGlmIChpc0ZhZGluZ091dCkgMWYgLSBmYWRlT3V0UHJvZ3Jlc3MudmFsdWUgZWxzZSAxZgogICAgICAgICAgICAKICAgICAgICAgICAgaWYgKGZhZGVBbHBoYSA8PSAwLjAxZikgewogICAgICAgICAgICAgICAgLy8g5reh5Ye65a6M5oiQ77yM5LiN57uY5Yi25Lu75L2V5YaF5a65CiAgICAgICAgICAgICAgICByZXR1cm5AQ2FudmFzCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIDAuIOe7mOWItuWQjuaWueeykuWtkO+8iDNE5pWI5p6cIC0g5ZCO5pmv77yJCiAgICAgICAgICAgIHdpdGgocGFydGljbGVTeXN0ZW0pIHsKICAgICAgICAgICAgICAgIGRyYXdCYWNrUGFydGljbGVzKGNlbnRlciwgYmFzZVJhZGl1cyAqIDAuNWYpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIDEuIOWkluWciOmfs+azouaJqeaVo++8iDPlsYLvvIznroDmtIHnmoTlnIbnjq/vvIkKICAgICAgICAgICAgZHJhd0NpcmNsZSgKICAgICAgICAgICAgICAgIGJydXNoID0gQnJ1c2gucmFkaWFsR3JhZGllbnQoCiAgICAgICAgICAgICAgICAgICAgY29sb3JzID0gbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICBDb2xvci5UcmFuc3BhcmVudCwKICAgICAgICAgICAgICAgICAgICAgICAgbWFpbkNvbG9yLmNvcHkoYWxwaGEgPSByaXBwbGUzQWxwaGEgKiAwLjE1ZiAqIGZhZGVBbHBoYSksCiAgICAgICAgICAgICAgICAgICAgICAgIENvbG9yLlRyYW5zcGFyZW50CiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICBjZW50ZXIgPSBjZW50ZXIsCiAgICAgICAgICAgICAgICAgICAgcmFkaXVzID0gYmFzZVJhZGl1cyAqIHJpcHBsZTNTY2FsZQogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIGNlbnRlciA9IGNlbnRlciwKICAgICAgICAgICAgICAgIHJhZGl1cyA9IGJhc2VSYWRpdXMgKiByaXBwbGUzU2NhbGUKICAgICAgICAgICAgKQogICAgICAgICAgICAKICAgICAgICAgICAgZHJhd0NpcmNsZSgKICAgICAgICAgICAgICAgIGJydXNoID0gQnJ1c2gucmFkaWFsR3JhZGllbnQoCiAgICAgICAgICAgICAgICAgICAgY29sb3JzID0gbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICBDb2xvci5UcmFuc3BhcmVudCwKICAgICAgICAgICAgICAgICAgICAgICAgYWNjZW50Q29sb3IxLmNvcHkoYWxwaGEgPSByaXBwbGUyQWxwaGEgKiAwLjJmICogZmFkZUFscGhhKSwKICAgICAgICAgICAgICAgICAgICAgICAgQ29sb3IuVHJhbnNwYXJlbnQKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIGNlbnRlciA9IGNlbnRlciwKICAgICAgICAgICAgICAgICAgICByYWRpdXMgPSBiYXNlUmFkaXVzICogcmlwcGxlMlNjYWxlCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgY2VudGVyID0gY2VudGVyLAogICAgICAgICAgICAgICAgcmFkaXVzID0gYmFzZVJhZGl1cyAqIHJpcHBsZTJTY2FsZQogICAgICAgICAgICApCiAgICAgICAgICAgIAogICAgICAgICAgICBkcmF3Q2lyY2xlKAogICAgICAgICAgICAgICAgYnJ1c2ggPSBCcnVzaC5yYWRpYWxHcmFkaWVudCgKICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgIENvbG9yLlRyYW5zcGFyZW50LAogICAgICAgICAgICAgICAgICAgICAgICBhY2NlbnRDb2xvcjMuY29weShhbHBoYSA9IHJpcHBsZTFBbHBoYSAqIDAuMjVmICogZmFkZUFscGhhKSwKICAgICAgICAgICAgICAgICAgICAgICAgQ29sb3IuVHJhbnNwYXJlbnQKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIGNlbnRlciA9IGNlbnRlciwKICAgICAgICAgICAgICAgICAgICByYWRpdXMgPSBiYXNlUmFkaXVzICogcmlwcGxlMVNjYWxlCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgY2VudGVyID0gY2VudGVyLAogICAgICAgICAgICAgICAgcmFkaXVzID0gYmFzZVJhZGl1cyAqIHJpcHBsZTFTY2FsZQogICAgICAgICAgICApCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyAyLiDlupXpg6jlhYnmmZXvvIjmn5TlkoznmoTok53ntKvlhYnvvIkKICAgICAgICAgICAgZHJhd0NpcmNsZSgKICAgICAgICAgICAgICAgIGJydXNoID0gQnJ1c2gucmFkaWFsR3JhZGllbnQoCiAgICAgICAgICAgICAgICAgICAgY29sb3JzID0gbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICBtYWluQ29sb3IuY29weShhbHBoYSA9IDAuM2YgKiBmYWRlQWxwaGEpLAogICAgICAgICAgICAgICAgICAgICAgICBhY2NlbnRDb2xvcjEuY29weShhbHBoYSA9IDAuMmYgKiBmYWRlQWxwaGEpLAogICAgICAgICAgICAgICAgICAgICAgICBDb2xvci5UcmFuc3BhcmVudAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgY2VudGVyID0gY2VudGVyLAogICAgICAgICAgICAgICAgICAgIHJhZGl1cyA9IGJhc2VSYWRpdXMgKiBicmVhdGhlICogMC43ZgogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIGNlbnRlciA9IGNlbnRlciwKICAgICAgICAgICAgICAgIHJhZGl1cyA9IGJhc2VSYWRpdXMgKiBicmVhdGhlICogMC43ZiwKICAgICAgICAgICAgICAgIGJsZW5kTW9kZSA9IEJsZW5kTW9kZS5TY3JlZW4KICAgICAgICAgICAgKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8gMy4g5rWB5Yqo55qE5b2p6Imy5YWJ5paR77yINOS4quiJsuWdl++8jOaFoumAn+aXi+i9rO+8iQogICAgICAgICAgICAvLyDkuLvok53oibLlhYnmlpEKICAgICAgICAgICAgZHJhd0NvbG9yQmxvYigKICAgICAgICAgICAgICAgIGNlbnRlciA9IGNlbnRlciwKICAgICAgICAgICAgICAgIHJhZGl1cyA9IGJhc2VSYWRpdXMsCiAgICAgICAgICAgICAgICBhbmdsZSA9IHJvdGF0aW9uLAogICAgICAgICAgICAgICAgZGlzdGFuY2UgPSBiYXNlUmFkaXVzICogMC4yZiAqIGJyZWF0aGUsCiAgICAgICAgICAgICAgICBjb2xvciA9IG1haW5Db2xvci5jb3B5KGFscGhhID0gZmFkZUFscGhhKSwKICAgICAgICAgICAgICAgIHNpemUgPSAwLjdmCiAgICAgICAgICAgICkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOe0q+iJsuWFieaWke+8iOebuOS9jeW3rjkw5bqm77yJCiAgICAgICAgICAgIGRyYXdDb2xvckJsb2IoCiAgICAgICAgICAgICAgICBjZW50ZXIgPSBjZW50ZXIsCiAgICAgICAgICAgICAgICByYWRpdXMgPSBiYXNlUmFkaXVzLAogICAgICAgICAgICAgICAgYW5nbGUgPSByb3RhdGlvbiArIDkwZiwKICAgICAgICAgICAgICAgIGRpc3RhbmNlID0gYmFzZVJhZGl1cyAqIDAuMjVmICogYnJlYXRoZSwKICAgICAgICAgICAgICAgIGNvbG9yID0gYWNjZW50Q29sb3IxLmNvcHkoYWxwaGEgPSBmYWRlQWxwaGEpLAogICAgICAgICAgICAgICAgc2l6ZSA9IDAuNjVmCiAgICAgICAgICAgICkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOeyiee6ouiJsuWFieaWke+8iOebuOS9jeW3rjE4MOW6pu+8iQogICAgICAgICAgICBkcmF3Q29sb3JCbG9iKAogICAgICAgICAgICAgICAgY2VudGVyID0gY2VudGVyLAogICAgICAgICAgICAgICAgcmFkaXVzID0gYmFzZVJhZGl1cywKICAgICAgICAgICAgICAgIGFuZ2xlID0gcm90YXRpb24gKyAxODBmLAogICAgICAgICAgICAgICAgZGlzdGFuY2UgPSBiYXNlUmFkaXVzICogMC4yMmYgKiBicmVhdGhlLAogICAgICAgICAgICAgICAgY29sb3IgPSBhY2NlbnRDb2xvcjIuY29weShhbHBoYSA9IGZhZGVBbHBoYSksCiAgICAgICAgICAgICAgICBzaXplID0gMC42ZgogICAgICAgICAgICApCiAgICAgICAgICAgIAogICAgICAgICAgICAvLyDpnZLoibLlhYnmlpHvvIjnm7jkvY3lt64yNzDluqbvvIkKICAgICAgICAgICAgZHJhd0NvbG9yQmxvYigKICAgICAgICAgICAgICAgIGNlbnRlciA9IGNlbnRlciwKICAgICAgICAgICAgICAgIHJhZGl1cyA9IGJhc2VSYWRpdXMsCiAgICAgICAgICAgICAgICBhbmdsZSA9IHJvdGF0aW9uICsgMjcwZiwKICAgICAgICAgICAgICAgIGRpc3RhbmNlID0gYmFzZVJhZGl1cyAqIDAuMjNmICogYnJlYXRoZSwKICAgICAgICAgICAgICAgIGNvbG9yID0gYWNjZW50Q29sb3IzLmNvcHkoYWxwaGEgPSBmYWRlQWxwaGEpLAogICAgICAgICAgICAgICAgc2l6ZSA9IDAuNjhmCiAgICAgICAgICAgICkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIDQuIOS4reW/g+aYjuS6ruaguOW/gwogICAgICAgICAgICBkcmF3Q2lyY2xlKAogICAgICAgICAgICAgICAgYnJ1c2ggPSBCcnVzaC5yYWRpYWxHcmFkaWVudCgKICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgIENvbG9yLldoaXRlLmNvcHkoYWxwaGEgPSAwLjdmICogZmFkZUFscGhhKSwKICAgICAgICAgICAgICAgICAgICAgICAgbWFpbkNvbG9yLmNvcHkoYWxwaGEgPSAwLjZmICogZmFkZUFscGhhKSwKICAgICAgICAgICAgICAgICAgICAgICAgYWNjZW50Q29sb3IxLmNvcHkoYWxwaGEgPSAwLjVmICogZmFkZUFscGhhKSwKICAgICAgICAgICAgICAgICAgICAgICAgQ29sb3IuVHJhbnNwYXJlbnQKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIGNlbnRlciA9IGNlbnRlciwKICAgICAgICAgICAgICAgICAgICByYWRpdXMgPSBiYXNlUmFkaXVzICogMC42NWYgKiBicmVhdGhlCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgY2VudGVyID0gY2VudGVyLAogICAgICAgICAgICAgICAgcmFkaXVzID0gYmFzZVJhZGl1cyAqIDAuNjVmICogYnJlYXRoZSwKICAgICAgICAgICAgICAgIGJsZW5kTW9kZSA9IEJsZW5kTW9kZS5TY3JlZW4KICAgICAgICAgICAgKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8gNS4g546755KD55CD5L2T6auY5YWJ77yI5qih5oufM0TotKjmhJ/vvIkKICAgICAgICAgICAgdmFsIGhpZ2hsaWdodENlbnRlciA9IE9mZnNldCgKICAgICAgICAgICAgICAgIGNlbnRlci54IC0gYmFzZVJhZGl1cyAqIDAuMjVmLAogICAgICAgICAgICAgICAgY2VudGVyLnkgLSBiYXNlUmFkaXVzICogMC4yNWYKICAgICAgICAgICAgKQogICAgICAgICAgICBkcmF3Q2lyY2xlKAogICAgICAgICAgICAgICAgYnJ1c2ggPSBCcnVzaC5yYWRpYWxHcmFkaWVudCgKICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgIENvbG9yLldoaXRlLmNvcHkoYWxwaGEgPSAwLjVmICogZmFkZUFscGhhKSwKICAgICAgICAgICAgICAgICAgICAgICAgQ29sb3IuV2hpdGUuY29weShhbHBoYSA9IDAuMjVmICogZmFkZUFscGhhKSwKICAgICAgICAgICAgICAgICAgICAgICAgQ29sb3IuVHJhbnNwYXJlbnQKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIGNlbnRlciA9IGhpZ2hsaWdodENlbnRlciwKICAgICAgICAgICAgICAgICAgICByYWRpdXMgPSBiYXNlUmFkaXVzICogMC4zNWYKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBjZW50ZXIgPSBoaWdobGlnaHRDZW50ZXIsCiAgICAgICAgICAgICAgICByYWRpdXMgPSBiYXNlUmFkaXVzICogMC4zNWYsCiAgICAgICAgICAgICAgICBibGVuZE1vZGUgPSBCbGVuZE1vZGUuU2NyZWVuCiAgICAgICAgICAgICkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIDYuIOaVtOS9k+aflOWSjOWklui+ueeVjO+8iOiuqeeQg+S9k+i+uee8mOabtOiHqueEtu+8iQogICAgICAgICAgICBkcmF3Q2lyY2xlKAogICAgICAgICAgICAgICAgYnJ1c2ggPSBCcnVzaC5yYWRpYWxHcmFkaWVudCgKICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBsaXN0T2YoCiAgICAgICAgICAgICAgICAgICAgICAgIENvbG9yLlRyYW5zcGFyZW50LAogICAgICAgICAgICAgICAgICAgICAgICBDb2xvci5XaGl0ZS5jb3B5KGFscGhhID0gMC4wNWYgKiBmYWRlQWxwaGEpLAogICAgICAgICAgICAgICAgICAgICAgICBDb2xvci5XaGl0ZS5jb3B5KGFscGhhID0gMC4xNWYgKiBmYWRlQWxwaGEpLAogICAgICAgICAgICAgICAgICAgICAgICBDb2xvci5UcmFuc3BhcmVudAogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgY2VudGVyID0gY2VudGVyLAogICAgICAgICAgICAgICAgICAgIHJhZGl1cyA9IGJhc2VSYWRpdXMgKiBicmVhdGhlCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgY2VudGVyID0gY2VudGVyLAogICAgICAgICAgICAgICAgcmFkaXVzID0gYmFzZVJhZGl1cyAqIGJyZWF0aGUKICAgICAgICAgICAgKQogICAgICAgICAgICAKICAgICAgICAgICAgLy8gNy4g57uY5Yi25YmN5pa557KS5a2Q77yIM0TmlYjmnpwgLSDliY3mma/vvIkKICAgICAgICAgICAgd2l0aChwYXJ0aWNsZVN5c3RlbSkgewogICAgICAgICAgICAgICAgZHJhd0Zyb250UGFydGljbGVzKGNlbnRlciwgYmFzZVJhZGl1cyAqIDAuNWYpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIDguIOe7mOWItiBMb2FkaW5nICjlj6rlnKggTG9hZGluZyDnirbmgIEpCiAgICAgICAgICAgIGlmIChiYWxsU3RhdGUgPT0gU3RhdGVMb2FkaW5nKSB7CiAgICAgICAgICAgICAgICAgZHJhd0FyYygKICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBDb2xvci5XaGl0ZSwKICAgICAgICAgICAgICAgICAgICAgc3RhcnRBbmdsZSA9IGxvYWRpbmdSb3RhdGlvbi52YWx1ZSwKICAgICAgICAgICAgICAgICAgICAgc3dlZXBBbmdsZSA9IDI3MGYsCiAgICAgICAgICAgICAgICAgICAgIHVzZUNlbnRlciA9IGZhbHNlLAogICAgICAgICAgICAgICAgICAgICB0b3BMZWZ0ID0gT2Zmc2V0KGNlbnRlci54IC0gYmFzZVJhZGl1cyAqIDAuNWYsIGNlbnRlci55IC0gYmFzZVJhZGl1cyAqIDAuNWYpLAogICAgICAgICAgICAgICAgICAgICBzaXplID0gU2l6ZShiYXNlUmFkaXVzLCBiYXNlUmFkaXVzKSwKICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBTdHJva2Uod2lkdGggPSA0LmRwLnRvUHgoKSwgY2FwID0gU3Ryb2tlQ2FwLlJvdW5kKQogICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKLyoqCiAqIOe7mOWItua1geWKqOeahOW9qeiJsuWFieaWke+8iOexu+S8vFNpcmnnmoToibLlnZfvvIkKICovCnByaXZhdGUgZnVuIERyYXdTY29wZS5kcmF3Q29sb3JCbG9iKAogICAgY2VudGVyOiBPZmZzZXQsCiAgICByYWRpdXM6IEZsb2F0LAogICAgYW5nbGU6IEZsb2F0LAogICAgZGlzdGFuY2U6IEZsb2F0LAogICAgY29sb3I6IENvbG9yLAogICAgc2l6ZTogRmxvYXQKKSB7CiAgICB2YWwgcmFkID0gYW5nbGUgKiBQSSAvIDE4MGYKICAgIHZhbCBibG9iQ2VudGVyID0gT2Zmc2V0KAogICAgICAgIGNlbnRlci54ICsgZGlzdGFuY2UgKiBjb3MocmFkKS50b0Zsb2F0KCksCiAgICAgICAgY2VudGVyLnkgKyBkaXN0YW5jZSAqIHNpbihyYWQpLnRvRmxvYXQoKQogICAgKQogICAgCiAgICBkcmF3Q2lyY2xlKAogICAgICAgIGJydXNoID0gQnJ1c2gucmFkaWFsR3JhZGllbnQoCiAgICAgICAgICAgIGNvbG9ycyA9IGxpc3RPZigKICAgICAgICAgICAgICAgIGNvbG9yLmNvcHkoYWxwaGEgPSAwLjhmKSwKICAgICAgICAgICAgICAgIGNvbG9yLmNvcHkoYWxwaGEgPSAwLjVmKSwKICAgICAgICAgICAgICAgIGNvbG9yLmNvcHkoYWxwaGEgPSAwLjJmKSwKICAgICAgICAgICAgICAgIENvbG9yLlRyYW5zcGFyZW50CiAgICAgICAgICAgICksCiAgICAgICAgICAgIGNlbnRlciA9IGJsb2JDZW50ZXIsCiAgICAgICAgICAgIHJhZGl1cyA9IHJhZGl1cyAqIHNpemUKICAgICAgICApLAogICAgICAgIGNlbnRlciA9IGJsb2JDZW50ZXIsCiAgICAgICAgcmFkaXVzID0gcmFkaXVzICogc2l6ZSwKICAgICAgICBibGVuZE1vZGUgPSBCbGVuZE1vZGUuU2NyZWVuCiAgICApCn0K
+package com.bslsjdk.operit.ui.floating.ui.ball
+
+import androidx.compose.animation.core.*
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.gestures.detectDragGestures
+import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.offset
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Text
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.*
+import androidx.compose.ui.graphics.drawscope.DrawScope
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.bslsjdk.operit.ui.floating.FloatContext
+import kotlin.math.*
+
+import androidx.compose.ui.platform.LocalContext
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.model.InputProcessingState
+import com.bslsjdk.operit.data.model.PromptFunctionType
+import com.bslsjdk.operit.ui.floating.voice.SpeechInteractionManager
+import kotlinx.coroutines.launch
+
+// 内部状态枚举
+private const val StateIdle = 0
+private const val StatePressing = 1
+private const val StateLoading = 2
+private const val StateReplying = 3
+
+/**
+ * 通用的 Siri 风格悬浮球组件
+ * 包含完整的状态管理、手势交互和渲染逻辑
+ */
+@Composable
+fun SiriBall(
+    floatContext: FloatContext,
+    onClick: () -> Unit,
+    onTriggerResult: () -> Unit
+) {
+    // Siri配色 - 精简为4个主色调（蓝、紫、粉、青）
+    val mainColor = Color(0xFF0A84FF)      // 主蓝色
+    val accentColor1 = Color(0xFFBF5AF2)   // 紫色
+    val accentColor2 = Color(0xFFFF375F)   // 粉红色
+    val accentColor3 = Color(0xFF00D4FF)   // 青色
+    
+    // 交互状态
+    var ballState by remember { mutableIntStateOf(StateIdle) }
+    var pressStartTime by remember { mutableStateOf(0L) }
+    val particleSystem = rememberParticleSystem()
+    
+    // 语音交互管理器
+    val context = LocalContext.current
+    val scope = rememberCoroutineScope()
+    val speechManager = remember(context, scope) {
+        SpeechInteractionManager(
+            context = context,
+            coroutineScope = scope,
+            onSpeechResult = { text, _ ->
+                // 收到语音结果，发送消息
+                floatContext.onSendMessage?.invoke(text, PromptFunctionType.VOICE)
+            },
+            onStateChange = { msg ->
+                // 根据状态消息判断是否需要重置状态
+                if (msg == context.getString(R.string.floating_didnt_hear_clearly)) {
+                    ballState = StateIdle
+                }
+            }
+        )
+    }
+
+    // 初始化与清理语音服务
+    DisposableEffect(Unit) {
+        scope.launch {
+            speechManager.initialize()
+            // 尝试获取焦点以便能从麦克风录音
+            val view = floatContext.chatService?.getComposeView()
+            speechManager.requestFocus(view)
+        }
+        onDispose {
+            speechManager.cleanup()
+        }
+    }
+
+    // 收集语音识别结果流并反馈给管理器处理
+    LaunchedEffect(speechManager) {
+        speechManager.recognitionResultFlow.collect { result ->
+            speechManager.handleRecognitionResult(result.text, result.isFinal)
+        }
+    }
+    
+    // 监听 AI 处理状态，完成后触发结果展示
+    val aiState by floatContext.inputProcessingState
+    LaunchedEffect(aiState, ballState) {
+        // 当处于 Loading 状态且 AI 处理完成时
+        if (ballState == StateLoading && aiState is InputProcessingState.Completed) {
+            onTriggerResult()
+            ballState = StateIdle
+        }
+    }
+    
+    // 按压缩放动画
+    val isPressed = ballState == StatePressing
+    val pressScale by animateFloatAsState(
+        targetValue = if (isPressed) 0.85f else 1.0f,
+        animationSpec = tween(durationMillis = 200, easing = FastOutSlowInEasing),
+        label = "pressScale"
+    )
+    
+    // Loading 旋转动画
+    val loadingRotation = remember { Animatable(0f) }
+    LaunchedEffect(ballState == StateLoading) {
+        if (ballState == StateLoading) {
+            loadingRotation.animateTo(
+                targetValue = 360f,
+                animationSpec = infiniteRepeatable(
+                    animation = tween(1000, easing = LinearEasing)
+                )
+            )
+        } else {
+            loadingRotation.snapTo(0f)
+        }
+    }
+    
+    // 更新粒子系统 (只在 Pressing 状态显示)
+    particleSystem.UpdateEffect(isPressed)
+    
+    // 淡出动画状态
+    val isFadingOut = floatContext.windowState?.ballExploding?.value ?: false
+    val fadeOutProgress = remember { Animatable(0f) }
+    
+    // 监听淡出触发
+    LaunchedEffect(isFadingOut) {
+        if (isFadingOut) {
+            fadeOutProgress.snapTo(0f)
+            fadeOutProgress.animateTo(
+                targetValue = 1f,
+                animationSpec = tween(durationMillis = 100, easing = LinearEasing)
+            )
+        } else {
+            fadeOutProgress.snapTo(0f)
+        }
+    }
+    
+    // 动画
+    val infiniteTransition = rememberInfiniteTransition(label = "siri")
+    
+    // 慢速旋转 - 更优雅
+    val rotation by infiniteTransition.animateFloat(
+        initialValue = 0f,
+        targetValue = 360f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(15000, easing = LinearEasing),
+            repeatMode = RepeatMode.Restart
+        ),
+        label = "rotation"
+    )
+    
+    // 柔和呼吸
+    val breathe by infiniteTransition.animateFloat(
+        initialValue = 0.95f,
+        targetValue = 1.0f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(3000, easing = FastOutSlowInEasing),
+            repeatMode = RepeatMode.Reverse
+        ),
+        label = "breathe"
+    )
+    
+    // 外圈音波 - 第一层
+    val ripple1Scale by infiniteTransition.animateFloat(
+        initialValue = 1.0f,
+        targetValue = 1.2f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(2500, easing = LinearOutSlowInEasing),
+            repeatMode = RepeatMode.Restart
+        ),
+        label = "ripple1Scale"
+    )
+    
+    val ripple1Alpha by infiniteTransition.animateFloat(
+        initialValue = 0.5f,
+        targetValue = 0f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(2500, easing = LinearEasing),
+            repeatMode = RepeatMode.Restart
+        ),
+        label = "ripple1Alpha"
+    )
+    
+    // 外圈音波 - 第二层
+    val ripple2Scale by infiniteTransition.animateFloat(
+        initialValue = 1.0f,
+        targetValue = 1.2f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(2500, easing = LinearOutSlowInEasing),
+            repeatMode = RepeatMode.Restart,
+            initialStartOffset = StartOffset(833)
+        ),
+        label = "ripple2Scale"
+    )
+    
+    val ripple2Alpha by infiniteTransition.animateFloat(
+        initialValue = 0.5f,
+        targetValue = 0f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(2500, easing = LinearEasing),
+            repeatMode = RepeatMode.Restart,
+            initialStartOffset = StartOffset(833)
+        ),
+        label = "ripple2Alpha"
+    )
+    
+    // 外圈音波 - 第三层
+    val ripple3Scale by infiniteTransition.animateFloat(
+        initialValue = 1.0f,
+        targetValue = 1.2f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(2500, easing = LinearOutSlowInEasing),
+            repeatMode = RepeatMode.Restart,
+            initialStartOffset = StartOffset(1666)
+        ),
+        label = "ripple3Scale"
+    )
+    
+    val ripple3Alpha by infiniteTransition.animateFloat(
+        initialValue = 0.5f,
+        targetValue = 0f,
+        animationSpec = infiniteRepeatable(
+            animation = tween(2500, easing = LinearEasing),
+            repeatMode = RepeatMode.Restart,
+            initialStartOffset = StartOffset(1666)
+        ),
+        label = "ripple3Alpha"
+    )
+    
+    Box(
+        modifier = Modifier
+            .size(floatContext.ballSize * 1.6f)
+            .pointerInput(Unit) {
+                detectDragGestures(
+                    onDragStart = { ballState = StatePressing },
+                    onDragEnd = { 
+                        floatContext.saveWindowState?.invoke()
+                        ballState = StateIdle
+                    },
+                    onDragCancel = { ballState = StateIdle },
+                    onDrag = { change, dragAmount ->
+                        change.consume()
+                        floatContext.onMove(
+                            dragAmount.x,
+                            dragAmount.y,
+                            floatContext.windowScale
+                        )
+                    }
+                )
+            }
+            .pointerInput(Unit) {
+                detectTapGestures(
+                    onTap = {
+                        onClick()
+                    }
+                    // 长按功能已禁用
+                    // onPress = {
+                    //     pressStartTime = System.currentTimeMillis()
+                    //     ballState = StatePressing
+                    //     // 开始录音
+                    //     speechManager.startListening()
+                    //     
+                    //     val released = tryAwaitRelease()
+                    //     // 松手逻辑
+                    //     if (released) {
+                    //         if (System.currentTimeMillis() - pressStartTime >= 300) {
+                    //             // 长按结束 -> 停止录音并发送 -> 进入 Loading 等待 AI 回复
+                    //             speechManager.stopListening(isCancel = false)
+                    //             ballState = StateLoading
+                    //         } else {
+                    //             // 短按 -> 取消录音 -> 重置为 Idle (onTap 会接管)
+                    //             speechManager.stopListening(isCancel = true)
+                    //             ballState = StateIdle
+                    //         }
+                    //     } else {
+                    //         // 手势被取消 -> 取消录音
+                    //         speechManager.stopListening(isCancel = true)
+                    //         ballState = StateIdle
+                    //     }
+                    // }
+                )
+            },
+        contentAlignment = Alignment.Center
+    ) {
+        Canvas(
+            modifier = Modifier.size(floatContext.ballSize * 3.0f)
+        ) {
+            val center = Offset(size.width / 2f, size.height / 2f)
+            // 应用按压缩放
+            val baseRadius = (size.minDimension / 2.0f) * pressScale
+            
+            // 淡出效果：只改变透明度，不改变缩放
+            val fadeAlpha = if (isFadingOut) 1f - fadeOutProgress.value else 1f
+            
+            if (fadeAlpha <= 0.01f) {
+                // 淡出完成，不绘制任何内容
+                return@Canvas
+            }
+            
+            // 0. 绘制后方粒子（3D效果 - 后景）
+            with(particleSystem) {
+                drawBackParticles(center, baseRadius * 0.5f)
+            }
+            
+            // 1. 外圈音波扩散（3层，简洁的圆环）
+            drawCircle(
+                brush = Brush.radialGradient(
+                    colors = listOf(
+                        Color.Transparent,
+                        mainColor.copy(alpha = ripple3Alpha * 0.15f * fadeAlpha),
+                        Color.Transparent
+                    ),
+                    center = center,
+                    radius = baseRadius * ripple3Scale
+                ),
+                center = center,
+                radius = baseRadius * ripple3Scale
+            )
+            
+            drawCircle(
+                brush = Brush.radialGradient(
+                    colors = listOf(
+                        Color.Transparent,
+                        accentColor1.copy(alpha = ripple2Alpha * 0.2f * fadeAlpha),
+                        Color.Transparent
+                    ),
+                    center = center,
+                    radius = baseRadius * ripple2Scale
+                ),
+                center = center,
+                radius = baseRadius * ripple2Scale
+            )
+            
+            drawCircle(
+                brush = Brush.radialGradient(
+                    colors = listOf(
+                        Color.Transparent,
+                        accentColor3.copy(alpha = ripple1Alpha * 0.25f * fadeAlpha),
+                        Color.Transparent
+                    ),
+                    center = center,
+                    radius = baseRadius * ripple1Scale
+                ),
+                center = center,
+                radius = baseRadius * ripple1Scale
+            )
+            
+            // 2. 底部光晕（柔和的蓝紫光）
+            drawCircle(
+                brush = Brush.radialGradient(
+                    colors = listOf(
+                        mainColor.copy(alpha = 0.3f * fadeAlpha),
+                        accentColor1.copy(alpha = 0.2f * fadeAlpha),
+                        Color.Transparent
+                    ),
+                    center = center,
+                    radius = baseRadius * breathe * 0.7f
+                ),
+                center = center,
+                radius = baseRadius * breathe * 0.7f,
+                blendMode = BlendMode.Screen
+            )
+            
+            // 3. 流动的彩色光斑（4个色块，慢速旋转）
+            // 主蓝色光斑
+            drawColorBlob(
+                center = center,
+                radius = baseRadius,
+                angle = rotation,
+                distance = baseRadius * 0.2f * breathe,
+                color = mainColor.copy(alpha = fadeAlpha),
+                size = 0.7f
+            )
+            
+            // 紫色光斑（相位差90度）
+            drawColorBlob(
+                center = center,
+                radius = baseRadius,
+                angle = rotation + 90f,
+                distance = baseRadius * 0.25f * breathe,
+                color = accentColor1.copy(alpha = fadeAlpha),
+                size = 0.65f
+            )
+            
+            // 粉红色光斑（相位差180度）
+            drawColorBlob(
+                center = center,
+                radius = baseRadius,
+                angle = rotation + 180f,
+                distance = baseRadius * 0.22f * breathe,
+                color = accentColor2.copy(alpha = fadeAlpha),
+                size = 0.6f
+            )
+            
+            // 青色光斑（相位差270度）
+            drawColorBlob(
+                center = center,
+                radius = baseRadius,
+                angle = rotation + 270f,
+                distance = baseRadius * 0.23f * breathe,
+                color = accentColor3.copy(alpha = fadeAlpha),
+                size = 0.68f
+            )
+            
+            // 4. 中心明亮核心
+            drawCircle(
+                brush = Brush.radialGradient(
+                    colors = listOf(
+                        Color.White.copy(alpha = 0.7f * fadeAlpha),
+                        mainColor.copy(alpha = 0.6f * fadeAlpha),
+                        accentColor1.copy(alpha = 0.5f * fadeAlpha),
+                        Color.Transparent
+                    ),
+                    center = center,
+                    radius = baseRadius * 0.65f * breathe
+                ),
+                center = center,
+                radius = baseRadius * 0.65f * breathe,
+                blendMode = BlendMode.Screen
+            )
+            
+            // 5. 玻璃球体高光（模拟3D质感）
+            val highlightCenter = Offset(
+                center.x - baseRadius * 0.25f,
+                center.y - baseRadius * 0.25f
+            )
+            drawCircle(
+                brush = Brush.radialGradient(
+                    colors = listOf(
+                        Color.White.copy(alpha = 0.5f * fadeAlpha),
+                        Color.White.copy(alpha = 0.25f * fadeAlpha),
+                        Color.Transparent
+                    ),
+                    center = highlightCenter,
+                    radius = baseRadius * 0.35f
+                ),
+                center = highlightCenter,
+                radius = baseRadius * 0.35f,
+                blendMode = BlendMode.Screen
+            )
+            
+            // 6. 整体柔和外边界（让球体边缘更自然）
+            drawCircle(
+                brush = Brush.radialGradient(
+                    colors = listOf(
+                        Color.Transparent,
+                        Color.White.copy(alpha = 0.05f * fadeAlpha),
+                        Color.White.copy(alpha = 0.15f * fadeAlpha),
+                        Color.Transparent
+                    ),
+                    center = center,
+                    radius = baseRadius * breathe
+                ),
+                center = center,
+                radius = baseRadius * breathe
+            )
+            
+            // 7. 绘制前方粒子（3D效果 - 前景）
+            with(particleSystem) {
+                drawFrontParticles(center, baseRadius * 0.5f)
+            }
+            
+            // 8. 绘制 Loading (只在 Loading 状态)
+            if (ballState == StateLoading) {
+                 drawArc(
+                     color = Color.White,
+                     startAngle = loadingRotation.value,
+                     sweepAngle = 270f,
+                     useCenter = false,
+                     topLeft = Offset(center.x - baseRadius * 0.5f, center.y - baseRadius * 0.5f),
+                     size = Size(baseRadius, baseRadius),
+                     style = Stroke(width = 4.dp.toPx(), cap = StrokeCap.Round)
+                 )
+            }
+        }
+    }
+}
+
+/**
+ * 绘制流动的彩色光斑（类似Siri的色块）
+ */
+private fun DrawScope.drawColorBlob(
+    center: Offset,
+    radius: Float,
+    angle: Float,
+    distance: Float,
+    color: Color,
+    size: Float
+) {
+    val rad = angle * PI / 180f
+    val blobCenter = Offset(
+        center.x + distance * cos(rad).toFloat(),
+        center.y + distance * sin(rad).toFloat()
+    )
+    
+    drawCircle(
+        brush = Brush.radialGradient(
+            colors = listOf(
+                color.copy(alpha = 0.8f),
+                color.copy(alpha = 0.5f),
+                color.copy(alpha = 0.2f),
+                Color.Transparent
+            ),
+            center = blobCenter,
+            radius = radius * size
+        ),
+        center = blobCenter,
+        radius = radius * size,
+        blendMode = BlendMode.Screen
+    )
+}

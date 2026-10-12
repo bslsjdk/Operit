@@ -1,1 +1,114 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5zdHJlYW0ucGx1Z2lucwoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQgb3JnLmp1bml0LkFzc2VydC4qCmltcG9ydCBvcmcuanVuaXQuQmVmb3JlCmltcG9ydCBvcmcuanVuaXQuVGVzdAppbXBvcnQgb3JnLmp1bml0LnJ1bm5lci5SdW5XaXRoCgovKiogU3RyZWFtWG1sUGx1Z2lu55qEQW5kcm9pZOa1i+ivleexuyAqLwpAUnVuV2l0aChBbmRyb2lkSlVuaXQ0OjpjbGFzcykKY2xhc3MgU3RyZWFtWG1sUGx1Z2luVGVzdCB7CgogICAgcHJpdmF0ZSBsYXRlaW5pdCB2YXIgcGx1Z2luOiBTdHJlYW1YbWxQbHVnaW4KCiAgICBAQmVmb3JlCiAgICBmdW4gc2V0dXAoKSB7CiAgICAgICAgcGx1Z2luID0gU3RyZWFtWG1sUGx1Z2luKCkKICAgICAgICBwbHVnaW4uaW5pdFBsdWdpbigpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0SW5pdGlhbFN0YXRlKCkgewogICAgICAgIC8vIOWIneWni+eKtuaAgeW6lOivpeaYr+epuumXsueahAogICAgICAgIGFzc2VydEVxdWFscyhQbHVnaW5TdGF0ZS5JRExFLCBwbHVnaW4uc3RhdGUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0U3RhcnRUYWdEZXRlY3Rpb24oKSB7CiAgICAgICAgLy8g5qOA5rWLIjwi5a2X56ym5piv5ZCm5q2j56Gu6Kem5Y+R5bCd6K+V5byA5aeL54q25oCBCiAgICAgICAgcGx1Z2luLnByb2Nlc3NDaGFyKCc8JywgZmFsc2UpCiAgICAgICAgYXNzZXJ0RXF1YWxzKFBsdWdpblN0YXRlLlRSWUlORywgcGx1Z2luLnN0YXRlKQoKICAgICAgICBwbHVnaW4ucHJvY2Vzc0NoYXIoJ3QnLCBmYWxzZSkKICAgICAgICBhc3NlcnRFcXVhbHMoUGx1Z2luU3RhdGUuVFJZSU5HLCBwbHVnaW4uc3RhdGUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0Q29tcGxldGVUYWdSZWNvZ25pdGlvbkFuZFByb2Nlc3NpbmdFbnRlcigpIHsKICAgICAgICB2YWwgeG1sVGFnID0gIjx0ZXN0PiIKICAgICAgICB4bWxUYWcuZm9yRWFjaCB7IHBsdWdpbi5wcm9jZXNzQ2hhcihpdCwgZmFsc2UpIH0KCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJTaG91bGQgYmUgaW4gcHJvY2Vzc2luZyBzdGF0ZSBhZnRlciBhIGZ1bGwgc3RhcnQgdGFnIiwgUGx1Z2luU3RhdGUuUFJPQ0VTU0lORywgcGx1Z2luLnN0YXRlKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFRhZ1dpdGhBdHRyaWJ1dGVzKCkgewogICAgICAgIHZhbCB4bWxUYWcgPSAiPHRlc3QgYXR0cj1cInZhbHVlXCI+IgogICAgICAgIHhtbFRhZy5mb3JFYWNoIHsgcGx1Z2luLnByb2Nlc3NDaGFyKGl0LCBmYWxzZSkgfQogICAgICAgIGFzc2VydEVxdWFscygiU2hvdWxkIGJlIGluIHByb2Nlc3Npbmcgc3RhdGUgYWZ0ZXIgYSB0YWcgd2l0aCBhdHRyaWJ1dGVzIiwgUGx1Z2luU3RhdGUuUFJPQ0VTU0lORywgcGx1Z2luLnN0YXRlKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdEVuZFRhZ1JlY29nbml0aW9uKCkgewogICAgICAgIHZhbCBmdWxsWG1sID0gIjx0ZXN0PmNvbnRlbnQ8L3Rlc3Q+IgogICAgICAgIGZ1bGxYbWwuZm9yRWFjaCB7IHBsdWdpbi5wcm9jZXNzQ2hhcihpdCwgZmFsc2UpIH0KCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJTaG91bGQgYmUgaW4gSURMRSBzdGF0ZSBhZnRlciB0aGUgZW5kIHRhZyBpcyBmb3VuZCIsIFBsdWdpblN0YXRlLklETEUsIHBsdWdpbi5zdGF0ZSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIHRlc3RGYWlsZWRNYXRjaCgpIHsKICAgICAgICAvLyBUZXN0IG5vbi1YTUwgY29udGVudAogICAgICAgIHZhbCBub25YbWwgPSAiVGhpcyBpcyBub3QgWE1MIgogICAgICAgIG5vblhtbC5mb3JFYWNoIHsgcGx1Z2luLnByb2Nlc3NDaGFyKGl0LCBmYWxzZSkgfQoKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICAgICAiU2hvdWxkIGJlIGluIElETEUgc3RhdGUgYWZ0ZXIgbm9uLW1hdGNoaW5nIGlucHV0IiwKICAgICAgICAgICAgICAgIFBsdWdpblN0YXRlLklETEUsIAogICAgICAgICAgICAgICAgcGx1Z2luLnN0YXRlCiAgICAgICAgKQoKICAgICAgICAvLyBUZXN0IGFuIGluY29tcGxldGUgdGFnCiAgICAgICAgcGx1Z2luLnJlc2V0KCkKICAgICAgICB2YWwgaW5jb21wbGV0ZVhtbCA9ICI8dGFnIgogICAgICAgIGluY29tcGxldGVYbWwuZm9yRWFjaCB7IHBsdWdpbi5wcm9jZXNzQ2hhcihpdCwgZmFsc2UpIH0KICAgICAgICBhc3NlcnRFcXVhbHMoIlNob3VsZCBiZSBpbiBUUllJTkcgc3RhdGUgd2l0aCBhbiBpbmNvbXBsZXRlIHRhZyIsIFBsdWdpblN0YXRlLlRSWUlORywgcGx1Z2luLnN0YXRlKQoKICAgICAgICAvLyBSZXNldCBhbmQgdGhlbiBmZWVkIGludmFsaWQgY2hhcmFjdGVycwogICAgICAgIHBsdWdpbi5yZXNldCgpCiAgICAgICAgcGx1Z2luLnByb2Nlc3NDaGFyKCc8JywgZmFsc2UpCiAgICAgICAgcGx1Z2luLnByb2Nlc3NDaGFyKCcgJywgZmFsc2UpIC8vIEludmFsaWQgc3RhcnQgZm9yIGEgdGFnIG5hbWUKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICAgICAiU2hvdWxkIGJlIGluIElETEUgc3RhdGUgYWZ0ZXIgYW4gaW52YWxpZCB0YWcgY2hhciIsCiAgICAgICAgICAgICAgICBQbHVnaW5TdGF0ZS5JRExFLAogICAgICAgICAgICAgICAgcGx1Z2luLnN0YXRlCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gdGVzdFJlc2V0RnVuY3Rpb24oKSB7CiAgICAgICAgLy8g5YWI6L+b5YWl5aSE55CG54q25oCBCiAgICAgICAgdmFsIHhtbFRhZyA9ICI8dGVzdD4iCiAgICAgICAgeG1sVGFnLmZvckVhY2ggeyBwbHVnaW4ucHJvY2Vzc0NoYXIoaXQsIGZhbHNlKSB9CgogICAgICAgIGFzc2VydEVxdWFscyhQbHVnaW5TdGF0ZS5QUk9DRVNTSU5HLCBwbHVnaW4uc3RhdGUpCgogICAgICAgIC8vIOmHjee9ruaPkuS7tgogICAgICAgIHBsdWdpbi5yZXNldCgpCgogICAgICAgIC8vIOajgOafpeeKtuaAgeWkjeS9jQogICAgICAgIGFzc2VydEVxdWFscyhQbHVnaW5TdGF0ZS5JRExFLCBwbHVnaW4uc3RhdGUpCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biB0ZXN0RnVsbFhtbFByb2Nlc3NpbmdBbmRDaGFyYWN0ZXJDb25zdW1wdGlvbigpIHsKICAgICAgICB2YWwgZnVsbFhtbCA9ICI8cm9vdCBhdHRyPVwidmFsdWVcIj5Db250ZW50PC9yb290PiIKCiAgICAgICAgLy8gVGVzdCBmdWxsIHByb2Nlc3NpbmcgYnkgZmVlZGluZyB0aGUgZW50aXJlIFhNTCBzdHJpbmcKICAgICAgICBwbHVnaW4ucmVzZXQoKQogICAgICAgIGZ1bGxYbWwuZm9yRWFjaCB7IGMgLT4gcGx1Z2luLnByb2Nlc3NDaGFyKGMsIGZhbHNlKSB9CgogICAgICAgIGFzc2VydEVxdWFscygiU2hvdWxkIGJlIGluIElETEUgc3RhdGUgYWZ0ZXIgY29tcGxldGlvbiIsIFBsdWdpblN0YXRlLklETEUsIHBsdWdpbi5zdGF0ZSkKICAgIH0KfQo=
+package com.bslsjdk.operit.util.stream.plugins
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import org.junit.Assert.*
+import org.junit.Before
+import org.junit.Test
+import org.junit.runner.RunWith
+
+/** StreamXmlPlugin的Android测试类 */
+@RunWith(AndroidJUnit4::class)
+class StreamXmlPluginTest {
+
+    private lateinit var plugin: StreamXmlPlugin
+
+    @Before
+    fun setup() {
+        plugin = StreamXmlPlugin()
+        plugin.initPlugin()
+    }
+
+    @Test
+    fun testInitialState() {
+        // 初始状态应该是空闲的
+        assertEquals(PluginState.IDLE, plugin.state)
+    }
+
+    @Test
+    fun testStartTagDetection() {
+        // 检测"<"字符是否正确触发尝试开始状态
+        plugin.processChar('<', false)
+        assertEquals(PluginState.TRYING, plugin.state)
+
+        plugin.processChar('t', false)
+        assertEquals(PluginState.TRYING, plugin.state)
+    }
+
+    @Test
+    fun testCompleteTagRecognitionAndProcessingEnter() {
+        val xmlTag = "<test>"
+        xmlTag.forEach { plugin.processChar(it, false) }
+
+        assertEquals("Should be in processing state after a full start tag", PluginState.PROCESSING, plugin.state)
+    }
+
+    @Test
+    fun testTagWithAttributes() {
+        val xmlTag = "<test attr=\"value\">"
+        xmlTag.forEach { plugin.processChar(it, false) }
+        assertEquals("Should be in processing state after a tag with attributes", PluginState.PROCESSING, plugin.state)
+    }
+
+    @Test
+    fun testEndTagRecognition() {
+        val fullXml = "<test>content</test>"
+        fullXml.forEach { plugin.processChar(it, false) }
+
+        assertEquals("Should be in IDLE state after the end tag is found", PluginState.IDLE, plugin.state)
+    }
+
+    @Test
+    fun testFailedMatch() {
+        // Test non-XML content
+        val nonXml = "This is not XML"
+        nonXml.forEach { plugin.processChar(it, false) }
+
+        assertEquals(
+                "Should be in IDLE state after non-matching input",
+                PluginState.IDLE, 
+                plugin.state
+        )
+
+        // Test an incomplete tag
+        plugin.reset()
+        val incompleteXml = "<tag"
+        incompleteXml.forEach { plugin.processChar(it, false) }
+        assertEquals("Should be in TRYING state with an incomplete tag", PluginState.TRYING, plugin.state)
+
+        // Reset and then feed invalid characters
+        plugin.reset()
+        plugin.processChar('<', false)
+        plugin.processChar(' ', false) // Invalid start for a tag name
+        assertEquals(
+                "Should be in IDLE state after an invalid tag char",
+                PluginState.IDLE,
+                plugin.state
+        )
+    }
+
+    @Test
+    fun testResetFunction() {
+        // 先进入处理状态
+        val xmlTag = "<test>"
+        xmlTag.forEach { plugin.processChar(it, false) }
+
+        assertEquals(PluginState.PROCESSING, plugin.state)
+
+        // 重置插件
+        plugin.reset()
+
+        // 检查状态复位
+        assertEquals(PluginState.IDLE, plugin.state)
+    }
+
+    @Test
+    fun testFullXmlProcessingAndCharacterConsumption() {
+        val fullXml = "<root attr=\"value\">Content</root>"
+
+        // Test full processing by feeding the entire XML string
+        plugin.reset()
+        fullXml.forEach { c -> plugin.processChar(c, false) }
+
+        assertEquals("Should be in IDLE state after completion", PluginState.IDLE, plugin.state)
+    }
+}

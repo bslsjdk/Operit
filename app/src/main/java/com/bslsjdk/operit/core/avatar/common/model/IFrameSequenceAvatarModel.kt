@@ -1,1 +1,20 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsCgovKioKICogQW4gYWJzdHJhY3QgY29udHJhY3QgZm9yIGF2YXRhciBtb2RlbHMgdGhhdCB1c2UgZnJhbWUgc2VxdWVuY2UgYW5pbWF0aW9uIChlLmcuLCBXZWJQLCBHSUYpLgogKgogKiBUaGlzIGludGVyZmFjZSBkZWZpbmVzIHRoZSBhc3NldCBwYXRocyBhbmQgYW5pbWF0aW9uIGNvbmZpZ3VyYXRpb25zIHJlcXVpcmVkIHRvIGxvYWQKICogYW5kIHJlbmRlciBhIGZyYW1lLWJhc2VkIGFuaW1hdGVkIGF2YXRhci4KICovCmludGVyZmFjZSBJRnJhbWVTZXF1ZW5jZUF2YXRhck1vZGVsIDogQXZhdGFyTW9kZWwgewogICAgLyoqIFRoZSBhc3NldCBwYXRoIHRvIHRoZSBhbmltYXRpb24gZmlsZSAoZS5nLiwgInBldHMvZW1vamkvaGFwcHkud2VicCIpLiAqLwogICAgdmFsIGFuaW1hdGlvblBhdGg6IFN0cmluZwogICAgCiAgICAvKiogV2hldGhlciB0aGUgYW5pbWF0aW9uIHNob3VsZCBsb29wIGluZmluaXRlbHkuICovCiAgICB2YWwgc2hvdWxkTG9vcDogQm9vbGVhbgogICAgICAgIGdldCgpID0gdHJ1ZQogICAgCiAgICAvKiogVGhlIHJlcGVhdCBjb3VudCBmb3IgdGhlIGFuaW1hdGlvbiAoMCBtZWFucyBpbmZpbml0ZSBsb29wKS4gKi8KICAgIHZhbCByZXBlYXRDb3VudDogSW50CiAgICAgICAgZ2V0KCkgPSAwCn0g
+package com.bslsjdk.operit.core.avatar.common.model
+
+/**
+ * An abstract contract for avatar models that use frame sequence animation (e.g., WebP, GIF).
+ *
+ * This interface defines the asset paths and animation configurations required to load
+ * and render a frame-based animated avatar.
+ */
+interface IFrameSequenceAvatarModel : AvatarModel {
+    /** The asset path to the animation file (e.g., "pets/emoji/happy.webp"). */
+    val animationPath: String
+    
+    /** Whether the animation should loop infinitely. */
+    val shouldLoop: Boolean
+        get() = true
+    
+    /** The repeat count for the animation (0 means infinite loop). */
+    val repeatCount: Int
+        get() = 0
+} 

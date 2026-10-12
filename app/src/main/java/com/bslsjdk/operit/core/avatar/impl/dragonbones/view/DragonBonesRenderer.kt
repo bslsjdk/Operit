@@ -1,1 +1,44 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5kcmFnb25ib25lcy52aWV3CgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24uY29udHJvbC5BdmF0YXJDb250cm9sbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsLklTa2VsZXRhbEF2YXRhck1vZGVsCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5kcmFnb25ib25lcy5jb250cm9sLkRyYWdvbkJvbmVzQXZhdGFyQ29udHJvbGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmNvbXBvbmVudHMuTWFuYWdlZERyYWdvbkJvbmVzVmlldwppbXBvcnQgY29tLmRyYWdvbmJvbmVzLkRyYWdvbkJvbmVzTW9kZWwKCi8qKgogKiBBIENvbXBvc2FibGUgZnVuY3Rpb24gcmVzcG9uc2libGUgZm9yIHJlbmRlcmluZyBhIERyYWdvbkJvbmVzIGF2YXRhci4KICogSXQgYnJpZGdlcyB0aGUgYWJzdHJhY3QgYXZhdGFyIHN5c3RlbSB3aXRoIHRoZSBjb25jcmV0ZSBgTWFuYWdlZERyYWdvbkJvbmVzVmlld2AuCiAqCiAqIEBwYXJhbSBtb2RpZmllciBUaGUgbW9kaWZpZXIgdG8gYmUgYXBwbGllZCB0byB0aGUgdmlldy4KICogQHBhcmFtIG1vZGVsIFRoZSBza2VsZXRhbCBhdmF0YXIgbW9kZWwgY29udGFpbmluZyB0aGUgYXNzZXQgcGF0aHMuCiAqIEBwYXJhbSBjb250cm9sbGVyIFRoZSBhdmF0YXIgY29udHJvbGxlciB0aGF0IG1hbmFnZXMgdGhlIGF2YXRhcidzIHN0YXRlLiBJdCBtdXN0IGJlIGEKICogICBbRHJhZ29uQm9uZXNBdmF0YXJDb250cm9sbGVyXSBmb3IgdGhpcyByZW5kZXJlciB0byBmdW5jdGlvbi4KICogQHBhcmFtIG9uRXJyb3IgQSBjYWxsYmFjayBmb3IgaGFuZGxpbmcgcmVuZGVyaW5nIGVycm9ycy4KICovCkBDb21wb3NhYmxlCmZ1biBEcmFnb25Cb25lc1JlbmRlcmVyKAogICAgbW9kaWZpZXI6IE1vZGlmaWVyLAogICAgbW9kZWw6IElTa2VsZXRhbEF2YXRhck1vZGVsLAogICAgY29udHJvbGxlcjogQXZhdGFyQ29udHJvbGxlciwKICAgIG9uRXJyb3I6IChTdHJpbmcpIC0+IFVuaXQKKSB7CiAgICAvLyBUaGlzIHJlbmRlcmVyIHJlcXVpcmVzIGEgc3BlY2lmaWMgY29udHJvbGxlciBpbXBsZW1lbnRhdGlvbi4KICAgIHZhbCBkYkNvbnRyb2xsZXIgPSBjb250cm9sbGVyIGFzPyBEcmFnb25Cb25lc0F2YXRhckNvbnRyb2xsZXIKICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIkRyYWdvbkJvbmVzUmVuZGVyZXIgcmVxdWlyZXMgYSBEcmFnb25Cb25lc0F2YXRhckNvbnRyb2xsZXIiKQoKICAgIHZhbCBkYk1vZGVsID0gRHJhZ29uQm9uZXNNb2RlbCgKICAgICAgICBza2VsZXRvblBhdGggPSBtb2RlbC5za2VsZXRvblBhdGgsCiAgICAgICAgdGV4dHVyZUpzb25QYXRoID0gbW9kZWwudGV4dHVyZUF0bGFzUGF0aCwKICAgICAgICB0ZXh0dXJlSW1hZ2VQYXRoID0gbW9kZWwudGV4dHVyZVBhdGgKICAgICkKCiAgICBNYW5hZ2VkRHJhZ29uQm9uZXNWaWV3KAogICAgICAgIG1vZGlmaWVyID0gbW9kaWZpZXIsCiAgICAgICAgbW9kZWwgPSBkYk1vZGVsLAogICAgICAgIGNvbnRyb2xsZXIgPSBkYkNvbnRyb2xsZXIubGliQ29udHJvbGxlciwKICAgICAgICBvbkVycm9yID0gb25FcnJvcgogICAgKQp9IA==
+package com.bslsjdk.operit.core.avatar.impl.dragonbones.view
+
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import com.bslsjdk.operit.core.avatar.common.control.AvatarController
+import com.bslsjdk.operit.core.avatar.common.model.ISkeletalAvatarModel
+import com.bslsjdk.operit.core.avatar.impl.dragonbones.control.DragonBonesAvatarController
+import com.bslsjdk.operit.ui.components.ManagedDragonBonesView
+import com.dragonbones.DragonBonesModel
+
+/**
+ * A Composable function responsible for rendering a DragonBones avatar.
+ * It bridges the abstract avatar system with the concrete `ManagedDragonBonesView`.
+ *
+ * @param modifier The modifier to be applied to the view.
+ * @param model The skeletal avatar model containing the asset paths.
+ * @param controller The avatar controller that manages the avatar's state. It must be a
+ *   [DragonBonesAvatarController] for this renderer to function.
+ * @param onError A callback for handling rendering errors.
+ */
+@Composable
+fun DragonBonesRenderer(
+    modifier: Modifier,
+    model: ISkeletalAvatarModel,
+    controller: AvatarController,
+    onError: (String) -> Unit
+) {
+    // This renderer requires a specific controller implementation.
+    val dbController = controller as? DragonBonesAvatarController
+        ?: throw IllegalArgumentException("DragonBonesRenderer requires a DragonBonesAvatarController")
+
+    val dbModel = DragonBonesModel(
+        skeletonPath = model.skeletonPath,
+        textureJsonPath = model.textureAtlasPath,
+        textureImagePath = model.texturePath
+    )
+
+    ManagedDragonBonesView(
+        modifier = modifier,
+        model = dbModel,
+        controller = dbController.libController,
+        onError = onError
+    )
+} 

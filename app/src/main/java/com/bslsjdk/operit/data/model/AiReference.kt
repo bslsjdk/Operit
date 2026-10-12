@@ -1,1 +1,13 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKLyoqCiAqIFJlcHJlc2VudHMgYSByZWZlcmVuY2UgaW4gdGhlIEFJIHJlc3BvbnNlCiAqIFRoaXMgaXMgYSBwdWJsaWMgbW9kZWwgY2xhc3MgdGhhdCBjYW4gYmUgdXNlZCBieSBVSSBjb21wb25lbnRzCiAqIAogKiBAcGFyYW0gdGV4dCBUaGUgdGV4dCBvZiB0aGUgcmVmZXJlbmNlCiAqIEBwYXJhbSB1cmwgVGhlIFVSTCBvZiB0aGUgcmVmZXJlbmNlCiAqLwpkYXRhIGNsYXNzIEFpUmVmZXJlbmNlKAogICAgdmFsIHRleHQ6IFN0cmluZywKICAgIHZhbCB1cmw6IFN0cmluZwopIA==
+package com.bslsjdk.operit.data.model
+
+/**
+ * Represents a reference in the AI response
+ * This is a public model class that can be used by UI components
+ * 
+ * @param text The text of the reference
+ * @param url The URL of the reference
+ */
+data class AiReference(
+    val text: String,
+    val url: String
+) 

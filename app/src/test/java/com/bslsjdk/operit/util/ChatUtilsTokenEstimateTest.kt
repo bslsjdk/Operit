@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgQ2hhdFV0aWxzVG9rZW5Fc3RpbWF0ZVRlc3QgewoKICAgIEBUZXN0IGZ1biBlc3RpbWF0ZVRva2VuQ291bnRfZW1wdHlUZXh0X2lzWmVybygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMEwsIENoYXRVdGlscy5lc3RpbWF0ZVRva2VuQ291bnQoIiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBlc3RpbWF0ZVRva2VuQ291bnRfYXNjaWlPbmx5Um91bmRzRG93bigpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoMkwsIENoYXRVdGlscy5lc3RpbWF0ZVRva2VuQ291bnQoImFiY2RlZmdoIikpCiAgICB9CgogICAgQFRlc3QgZnVuIGVzdGltYXRlVG9rZW5Db3VudF9jaGluZXNlT25seVVzZXNIaWdoZXJXZWlnaHQoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKDRMLCBDaGF0VXRpbHMuZXN0aW1hdGVUb2tlbkNvdW50KCLkvaDlpb3kuJYiKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class ChatUtilsTokenEstimateTest {
+
+    @Test fun estimateTokenCount_emptyText_isZero() {
+        assertEquals(0L, ChatUtils.estimateTokenCount(""))
+    }
+
+    @Test fun estimateTokenCount_asciiOnlyRoundsDown() {
+        assertEquals(2L, ChatUtils.estimateTokenCount("abcdefgh"))
+    }
+
+    @Test fun estimateTokenCount_chineseOnlyUsesHigherWeight() {
+        assertEquals(4L, ChatUtils.estimateTokenCount("你好世"))
+    }
+}

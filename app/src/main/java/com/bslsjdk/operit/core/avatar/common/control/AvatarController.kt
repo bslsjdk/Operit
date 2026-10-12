@@ -1,1 +1,95 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLmNvbnRyb2wKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLnN0YXRlLkF2YXRhckVtb3Rpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24uc3RhdGUuQXZhdGFyU3RhdGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwoKLyoqCiAqIEEgdW5pdmVyc2FsIGludGVyZmFjZSBmb3IgY29udHJvbGxpbmcgYW4gYXZhdGFyJ3Mgc3RhdGUgYW5kIGJlaGF2aW9yLgogKiBUaGlzIGFic3RyYWN0cyBhd2F5IHRoZSBzcGVjaWZpYyBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzIG9mIHRoZSByZW5kZXJpbmcgZW5naW5lLgogKi8KaW50ZXJmYWNlIEF2YXRhckNvbnRyb2xsZXIgewoKICAgIC8qKiBBIGZsb3cgcmVwcmVzZW50aW5nIHRoZSBjdXJyZW50IHN0YXRlIG9mIHRoZSBhdmF0YXIuIFVJIGNvbXBvbmVudHMgY2FuIGNvbGxlY3QgdGhpcyBmbG93IHRvIHJlYWN0IHRvIHN0YXRlIGNoYW5nZXMuICovCiAgICB2YWwgc3RhdGU6IFN0YXRlRmxvdzxBdmF0YXJTdGF0ZT4KCiAgICAvKiogRm9yIHNrZWxldGFsIG1vZGVscywgdGhpcyBwcm92aWRlcyBhIGxpc3Qgb2YgYWxsIGF2YWlsYWJsZSBhbmltYXRpb24gbmFtZXMuIEZvciBvdGhlciB0eXBlcywgaXQgbWF5IGJlIGVtcHR5LiAqLwogICAgdmFsIGF2YWlsYWJsZUFuaW1hdGlvbnM6IExpc3Q8U3RyaW5nPgoKICAgIC8qKgogICAgICogU2V0cyB0aGUgYXZhdGFyJ3MgZW1vdGlvbmFsIHN0YXRlLgogICAgICogVGhlIGNvbnRyb2xsZXIncyBpbXBsZW1lbnRhdGlvbiBpcyByZXNwb25zaWJsZSBmb3Igc2VsZWN0aW5nIGFuZCBwbGF5aW5nIGFuIGFwcHJvcHJpYXRlIGFuaW1hdGlvbgogICAgICogdGhhdCBjb3JyZXNwb25kcyB0byB0aGlzIGVtb3Rpb24uCiAgICAgKgogICAgICogQHBhcmFtIG5ld0Vtb3Rpb24gVGhlIG5ldyBlbW90aW9uYWwgc3RhdGUgdG8gc2V0LgogICAgICovCiAgICBmdW4gc2V0RW1vdGlvbihuZXdFbW90aW9uOiBBdmF0YXJFbW90aW9uKQoKICAgIC8qKgogICAgICogUGxheXMgdGhlIGFuaW1hdGlvbiBtYXBwZWQgZnJvbSBhIGhpZ2gtbGV2ZWwgZW1vdGlvbi4KICAgICAqCiAgICAgKiBAcGFyYW0gZW1vdGlvbiBUaGUgdGFyZ2V0IGVtb3Rpb24uCiAgICAgKiBAcGFyYW0gbG9vcCBUaGUgbnVtYmVyIG9mIHRpbWVzIHRvIGxvb3AgdGhlIG1hcHBlZCBhbmltYXRpb24uIFVzZSAwIGZvciBpbmZpbml0ZSBsb29waW5nLgogICAgICovCiAgICBmdW4gcGxheUVtb3Rpb24oZW1vdGlvbjogQXZhdGFyRW1vdGlvbiwgbG9vcDogSW50ID0gMCkgewogICAgICAgIHNldEVtb3Rpb24oZW1vdGlvbikKICAgIH0KCiAgICAvKioKICAgICAqIERpcmVjdGx5IHBsYXlzIGEgc3BlY2lmaWMgYW5pbWF0aW9uIGJ5IG5hbWUuCiAgICAgKiBUaGlzIGlzIHByaW1hcmlseSB1c2VmdWwgZm9yIHNrZWxldGFsIGFuaW1hdGlvbiBzeXN0ZW1zIHRoYXQgaGF2ZSBhIHJpY2ggc2V0IG9mIG5hbWVkIGFuaW1hdGlvbnMuCiAgICAgKgogICAgICogQHBhcmFtIGFuaW1hdGlvbk5hbWUgVGhlIG5hbWUgb2YgdGhlIGFuaW1hdGlvbiB0byBwbGF5LgogICAgICogQHBhcmFtIGxvb3AgVGhlIG51bWJlciBvZiB0aW1lcyB0byBsb29wIHRoZSBhbmltYXRpb24uIFVzZSAwIGZvciBpbmZpbml0ZSBsb29waW5nLgogICAgICovCiAgICBmdW4gcGxheUFuaW1hdGlvbihhbmltYXRpb25OYW1lOiBTdHJpbmcsIGxvb3A6IEludCA9IDEpCgogICAgLyoqCiAgICAgKiBSZXR1cm5zIHRoZSBlc3RpbWF0ZWQgZHVyYXRpb24sIGluIG1pbGxpc2Vjb25kcywgb2YgdGhlIGFuaW1hdGlvbiBtYXBwZWQgZnJvbSB0aGUgZ2l2ZW4gZW1vdGlvbi4KICAgICAqIENvbnRyb2xsZXJzIGNhbiByZXR1cm4gbnVsbCB3aGVuIHRoZXkgY2Fubm90IGRldGVybWluZSBhIHByZWNpc2UgZHVyYXRpb24uCiAgICAgKi8KICAgIGZ1biBlc3RpbWF0ZUVtb3Rpb25EdXJhdGlvbk1pbGxpcyhlbW90aW9uOiBBdmF0YXJFbW90aW9uKTogTG9uZz8gPSBudWxsCgogICAgLyoqCiAgICAgKiBQbGF5cyBhbiBhbmltYXRpb24gdHJpZ2dlciBpZGVudGlmaWVkIGJ5IGFuIGFyYml0cmFyeSBzdHJpbmcga2V5LCBzdWNoIGFzIGEgY3VzdG9tCiAgICAgKiBgPG1vb2Q+YCB0YWcgdmFsdWUgcmV0dXJuZWQgYnkgdGhlIG1vZGVsLgogICAgICoKICAgICAqIEByZXR1cm4gdHJ1ZSBpZiB0aGUgdHJpZ2dlciBjb3VsZCBiZSByZXNvbHZlZCBhbmQgcGxheWJhY2sgc3RhcnRlZC4KICAgICAqLwogICAgZnVuIHBsYXlUcmlnZ2VyKHRyaWdnZXJOYW1lOiBTdHJpbmcsIGxvb3A6IEludCA9IDApOiBCb29sZWFuID0gZmFsc2UKCiAgICAvKioKICAgICAqIFJldHVybnMgdGhlIGVzdGltYXRlZCBkdXJhdGlvbiBmb3IgYSB0cmlnZ2VyLWJhc2VkIGFuaW1hdGlvbiwgaW4gbWlsbGlzZWNvbmRzLgogICAgICovCiAgICBmdW4gZXN0aW1hdGVUcmlnZ2VyRHVyYXRpb25NaWxsaXModHJpZ2dlck5hbWU6IFN0cmluZyk6IExvbmc/ID0gbnVsbAoKICAgIC8qKgogICAgICogSW5zdHJ1Y3RzIHRoZSBhdmF0YXIgdG8gbG9vayBhdCBhIHNwZWNpZmljIHBvaW50IG9uIHRoZSBzY3JlZW4uCiAgICAgKiBUaGlzIGlzIGFuIGFkdmFuY2VkIGZlYXR1cmUgdGhhdCBtYXkgb25seSBiZSBzdXBwb3J0ZWQgYnkgY2VydGFpbiBhdmF0YXIgdHlwZXMuCiAgICAgKiBJbXBsZW1lbnRhdGlvbnMgZm9yIHVuc3VwcG9ydGVkIHR5cGVzIHNob3VsZCBkbyBub3RoaW5nLgogICAgICoKICAgICAqIEBwYXJhbSB4IFRoZSBub3JtYWxpemVkIHgtY29vcmRpbmF0ZSAoLTEgdG8gMSkuCiAgICAgKiBAcGFyYW0geSBUaGUgbm9ybWFsaXplZCB5LWNvb3JkaW5hdGUgKC0xIHRvIDEpLgogICAgICovCiAgICBmdW4gbG9va0F0KHg6IEZsb2F0LCB5OiBGbG9hdCkKICAgIAogICAgLyoqCiAgICAgKiBVcGRhdGVzIGF2YXRhci1zcGVjaWZpYyBzZXR0aW5ncywgc3VjaCBhcyBzY2FsZSBvciBwb3NpdGlvbi4KICAgICAqIEVhY2ggY29udHJvbGxlciBpbXBsZW1lbnRhdGlvbiBzaG91bGQgaGFuZGxlIHRoZSBzZXR0aW5ncyByZWxldmFudCB0byBpdC4KICAgICAqCiAgICAgKiBAcGFyYW0gc2V0dGluZ3MgQSBtYXAgb2Ygc2V0dGluZyBrZXlzIHRvIHZhbHVlcy4KICAgICAqLwogICAgZnVuIHVwZGF0ZVNldHRpbmdzKHNldHRpbmdzOiBNYXA8U3RyaW5nLCBBbnk+KSB7fQoKICAgIC8qKgogICAgICogVXBkYXRlcyBhbiBvcHRpb25hbCBtYXBwaW5nIGZyb20gaGlnaC1sZXZlbCBlbW90aW9ucyB0byBtb2RlbC1zcGVjaWZpYyBhbmltYXRpb24gbmFtZXMuCiAgICAgKiBDb250cm9sbGVycyB0aGF0IGRvbid0IG5lZWQgdGhpcyBiZWhhdmlvciBjYW4gaWdub3JlIGl0LgogICAgICovCiAgICBmdW4gdXBkYXRlRW1vdGlvbkFuaW1hdGlvbk1hcHBpbmcobWFwcGluZzogTWFwPEF2YXRhckVtb3Rpb24sIFN0cmluZz4pIHt9CgogICAgLyoqCiAgICAgKiBVcGRhdGVzIGFuIG9wdGlvbmFsIG1hcHBpbmcgZnJvbSBhcmJpdHJhcnkgdHJpZ2dlciBrZXlzIChmb3IgZXhhbXBsZSwgYDxtb29kPnNsZWVweTwvbW9vZD5gKQogICAgICogdG8gbW9kZWwtc3BlY2lmaWMgYW5pbWF0aW9uIG5hbWVzLgogICAgICovCiAgICBmdW4gdXBkYXRlVHJpZ2dlckFuaW1hdGlvbk1hcHBpbmcobWFwcGluZzogTWFwPFN0cmluZywgU3RyaW5nPikge30KfSAK
+package com.bslsjdk.operit.core.avatar.common.control
+
+import com.bslsjdk.operit.core.avatar.common.state.AvatarEmotion
+import com.bslsjdk.operit.core.avatar.common.state.AvatarState
+import kotlinx.coroutines.flow.StateFlow
+
+/**
+ * A universal interface for controlling an avatar's state and behavior.
+ * This abstracts away the specific implementation details of the rendering engine.
+ */
+interface AvatarController {
+
+    /** A flow representing the current state of the avatar. UI components can collect this flow to react to state changes. */
+    val state: StateFlow<AvatarState>
+
+    /** For skeletal models, this provides a list of all available animation names. For other types, it may be empty. */
+    val availableAnimations: List<String>
+
+    /**
+     * Sets the avatar's emotional state.
+     * The controller's implementation is responsible for selecting and playing an appropriate animation
+     * that corresponds to this emotion.
+     *
+     * @param newEmotion The new emotional state to set.
+     */
+    fun setEmotion(newEmotion: AvatarEmotion)
+
+    /**
+     * Plays the animation mapped from a high-level emotion.
+     *
+     * @param emotion The target emotion.
+     * @param loop The number of times to loop the mapped animation. Use 0 for infinite looping.
+     */
+    fun playEmotion(emotion: AvatarEmotion, loop: Int = 0) {
+        setEmotion(emotion)
+    }
+
+    /**
+     * Directly plays a specific animation by name.
+     * This is primarily useful for skeletal animation systems that have a rich set of named animations.
+     *
+     * @param animationName The name of the animation to play.
+     * @param loop The number of times to loop the animation. Use 0 for infinite looping.
+     */
+    fun playAnimation(animationName: String, loop: Int = 1)
+
+    /**
+     * Returns the estimated duration, in milliseconds, of the animation mapped from the given emotion.
+     * Controllers can return null when they cannot determine a precise duration.
+     */
+    fun estimateEmotionDurationMillis(emotion: AvatarEmotion): Long? = null
+
+    /**
+     * Plays an animation trigger identified by an arbitrary string key, such as a custom
+     * `<mood>` tag value returned by the model.
+     *
+     * @return true if the trigger could be resolved and playback started.
+     */
+    fun playTrigger(triggerName: String, loop: Int = 0): Boolean = false
+
+    /**
+     * Returns the estimated duration for a trigger-based animation, in milliseconds.
+     */
+    fun estimateTriggerDurationMillis(triggerName: String): Long? = null
+
+    /**
+     * Instructs the avatar to look at a specific point on the screen.
+     * This is an advanced feature that may only be supported by certain avatar types.
+     * Implementations for unsupported types should do nothing.
+     *
+     * @param x The normalized x-coordinate (-1 to 1).
+     * @param y The normalized y-coordinate (-1 to 1).
+     */
+    fun lookAt(x: Float, y: Float)
+    
+    /**
+     * Updates avatar-specific settings, such as scale or position.
+     * Each controller implementation should handle the settings relevant to it.
+     *
+     * @param settings A map of setting keys to values.
+     */
+    fun updateSettings(settings: Map<String, Any>) {}
+
+    /**
+     * Updates an optional mapping from high-level emotions to model-specific animation names.
+     * Controllers that don't need this behavior can ignore it.
+     */
+    fun updateEmotionAnimationMapping(mapping: Map<AvatarEmotion, String>) {}
+
+    /**
+     * Updates an optional mapping from arbitrary trigger keys (for example, `<mood>sleepy</mood>`)
+     * to model-specific animation names.
+     */
+    fun updateTriggerAnimationMapping(mapping: Map<String, String>) {}
+} 

@@ -1,1 +1,53 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5jb2xsZWN0cy5BcGlQcm92aWRlckNvbmZpZ3MKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFwaVByb3ZpZGVyVHlwZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0VHJ1ZQppbXBvcnQgb3JnLmp1bml0LlRlc3QKCmNsYXNzIFhhaVByb3ZpZGVyUmVhc29uaW5nVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIGRlZmF1bHRDb25maWdVc2VzVGhlT2ZmaWNpYWxYYWlFbmRwb2ludEFuZE1vZGVsKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgImdyb2stNC42IiwKICAgICAgICAgICAgQXBpUHJvdmlkZXJDb25maWdzLmdldERlZmF1bHRNb2RlbE5hbWUoQXBpUHJvdmlkZXJUeXBlLlhBSSkKICAgICAgICApCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiaHR0cHM6Ly9hcGkueC5haS92MS9jaGF0L2NvbXBsZXRpb25zIiwKICAgICAgICAgICAgQXBpUHJvdmlkZXJDb25maWdzLmdldERlZmF1bHRBcGlFbmRwb2ludChBcGlQcm92aWRlclR5cGUuWEFJKQogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJodHRwczovL2FwaS54LmFpL3YxL21vZGVscyIsCiAgICAgICAgICAgIE1vZGVsTGlzdEZldGNoZXIuZ2V0TW9kZWxzTGlzdFVybCgKICAgICAgICAgICAgICAgICJodHRwczovL2FwaS54LmFpL3YxL2NoYXQvY29tcGxldGlvbnMiLAogICAgICAgICAgICAgICAgQXBpUHJvdmlkZXJUeXBlLlhBSQogICAgICAgICAgICApCiAgICAgICAgKQogICAgfQoKICAgIEBUZXN0CiAgICBmdW4gZW5hYmxlZE9wdGlvbnNNYXBUb1hhaUVmZm9ydHMoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBsaXN0T2YoImxvdyIsICJtZWRpdW0iLCAiaGlnaCIsICJ4aGlnaCIpLAogICAgICAgICAgICBsaXN0T2YoImxvdyIsICJtZWRpdW0iLCAiaGlnaCIsICJ4aGlnaCIpLm1hcCB7CiAgICAgICAgICAgICAgICBYYWlSZWFzb25pbmdNYXBwZXIuZWZmb3J0Rm9yT3B0aW9uKG9wdGlvbklkID0gaXQpCiAgICAgICAgICAgIH0KICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biBtYXBwZXJQcmVzZXJ2ZXNUaGVTZWxlY3RlZEVmZm9ydCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoCiAgICAgICAgICAgICJoaWdoIiwKICAgICAgICAgICAgWGFpUmVhc29uaW5nTWFwcGVyLmVmZm9ydEZvck9wdGlvbihvcHRpb25JZCA9ICJoaWdoIikKICAgICAgICApCiAgICB9CgogICAgQFRlc3QKICAgIGZ1biByZWFzb25pbmdFZmZvcnRVc2VzVGhlR3Jva0ZhbWlseVJ1bGUoKSB7CiAgICAgICAgYXNzZXJ0VHJ1ZSh4YWlNb2RlbFN1cHBvcnRzUmVhc29uaW5nRWZmb3J0KCJncm9rLTQuNiIpKQogICAgICAgIGFzc2VydFRydWUoeGFpTW9kZWxTdXBwb3J0c1JlYXNvbmluZ0VmZm9ydCgiZ3Jvay00LjUtbGF0ZXN0IikpCiAgICAgICAgYXNzZXJ0VHJ1ZSh4YWlNb2RlbFN1cHBvcnRzUmVhc29uaW5nRWZmb3J0KCJncm9rLTMtbWluaSIpKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import com.bslsjdk.operit.data.collects.ApiProviderConfigs
+import com.bslsjdk.operit.data.model.ApiProviderType
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class XaiProviderReasoningTest {
+    @Test
+    fun defaultConfigUsesTheOfficialXaiEndpointAndModel() {
+        assertEquals(
+            "grok-4.6",
+            ApiProviderConfigs.getDefaultModelName(ApiProviderType.XAI)
+        )
+        assertEquals(
+            "https://api.x.ai/v1/chat/completions",
+            ApiProviderConfigs.getDefaultApiEndpoint(ApiProviderType.XAI)
+        )
+        assertEquals(
+            "https://api.x.ai/v1/models",
+            ModelListFetcher.getModelsListUrl(
+                "https://api.x.ai/v1/chat/completions",
+                ApiProviderType.XAI
+            )
+        )
+    }
+
+    @Test
+    fun enabledOptionsMapToXaiEfforts() {
+        assertEquals(
+            listOf("low", "medium", "high", "xhigh"),
+            listOf("low", "medium", "high", "xhigh").map {
+                XaiReasoningMapper.effortForOption(optionId = it)
+            }
+        )
+    }
+
+    @Test
+    fun mapperPreservesTheSelectedEffort() {
+        assertEquals(
+            "high",
+            XaiReasoningMapper.effortForOption(optionId = "high")
+        )
+    }
+
+    @Test
+    fun reasoningEffortUsesTheGrokFamilyRule() {
+        assertTrue(xaiModelSupportsReasoningEffort("grok-4.6"))
+        assertTrue(xaiModelSupportsReasoningEffort("grok-4.5-latest"))
+        assertTrue(xaiModelSupportsReasoningEffort("grok-3-mini"))
+    }
+}

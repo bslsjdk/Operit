@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5zdGF0cwoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBSZWxlYXNlZFByb3ZpZGVyTW9kZWxLZXlEZWNvZGVyVGVzdCB7CiAgICBAVGVzdAogICAgZnVuIGBwcm92aWRlciBtb2RlbCBrZXkgZGVjb2RlcyB3aXRoIHByb3ZpZGVyIGFsaWFzZXNgKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgUmVsZWFzZWRQcm92aWRlck1vZGVsS2V5KAogICAgICAgICAgICAgICAgc3RvcmVkUHJvdmlkZXJNb2RlbCA9ICJUT09MUEtHX2V4YW1wbGVfcHJvdmlkZXI6ZGVlcHNlZWstY2hhdCIsCiAgICAgICAgICAgICAgICBwcm92aWRlciA9ICJFeGFtcGxlIFByb3ZpZGVyIiwKICAgICAgICAgICAgICAgIG1vZGVsID0gImRlZXBzZWVrLWNoYXQiLAogICAgICAgICAgICApLAogICAgICAgICAgICBSZWxlYXNlZFByb3ZpZGVyTW9kZWxLZXlEZWNvZGVyLmRlY29kZU9yTnVsbCgKICAgICAgICAgICAgICAgICJUT09MUEtHX2V4YW1wbGVfcHJvdmlkZXJfZGVlcHNlZWstY2hhdCIsCiAgICAgICAgICAgICAgICBtYXBPZigiVE9PTFBLR19leGFtcGxlX3Byb3ZpZGVyIiB0byAiRXhhbXBsZSBQcm92aWRlciIpLAogICAgICAgICAgICApLAogICAgICAgICkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGBwcmUgcHJvdmlkZXIgbW9kZWwgZnVuY3Rpb24ga2V5IGlzIHNraXBwZWRgKCkgewogICAgICAgIGFzc2VydE51bGwoUmVsZWFzZWRQcm92aWRlck1vZGVsS2V5RGVjb2Rlci5kZWNvZGVPck51bGwoIkNIQVQiKSkKICAgICAgICBhc3NlcnROdWxsKFJlbGVhc2VkUHJvdmlkZXJNb2RlbEtleURlY29kZXIuZGVjb2RlT3JOdWxsKCJGSUxFX0JJTkRJTkciKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.stats
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+
+class ReleasedProviderModelKeyDecoderTest {
+    @Test
+    fun `provider model key decodes with provider aliases`() {
+        assertEquals(
+            ReleasedProviderModelKey(
+                storedProviderModel = "TOOLPKG_example_provider:deepseek-chat",
+                provider = "Example Provider",
+                model = "deepseek-chat",
+            ),
+            ReleasedProviderModelKeyDecoder.decodeOrNull(
+                "TOOLPKG_example_provider_deepseek-chat",
+                mapOf("TOOLPKG_example_provider" to "Example Provider"),
+            ),
+        )
+    }
+
+    @Test
+    fun `pre provider model function key is skipped`() {
+        assertNull(ReleasedProviderModelKeyDecoder.decodeOrNull("CHAT"))
+        assertNull(ReleasedProviderModelKeyDecoder.decodeOrNull("FILE_BINDING"))
+    }
+}

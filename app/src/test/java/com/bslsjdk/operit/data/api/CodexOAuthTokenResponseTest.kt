@@ -1,1 +1,28 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydFNhbWUKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDb2RleE9BdXRoVG9rZW5SZXNwb25zZVRlc3QgewogICAgQFRlc3QKICAgIGZ1biBjb21wbGV0ZVRva2VuUmVzcG9uc2VJc0FjY2VwdGVkKCkgewogICAgICAgIHZhbCByZXNwb25zZSA9IENvZGV4T0F1dGhUb2tlblJlc3BvbnNlKAogICAgICAgICAgICBpZFRva2VuID0gImlkLXRva2VuIiwKICAgICAgICAgICAgYWNjZXNzVG9rZW4gPSAiYWNjZXNzLXRva2VuIiwKICAgICAgICAgICAgcmVmcmVzaFRva2VuID0gInJlZnJlc2gtdG9rZW4iLAogICAgICAgICAgICBleHBpcmVzSW5TZWNvbmRzID0gMzYwMEwsCiAgICAgICAgKQoKICAgICAgICBhc3NlcnRTYW1lKHJlc3BvbnNlLCByZXNwb25zZS5yZXF1aXJlQ29tcGxldGUoKSkKICAgIH0KCiAgICBAVGVzdChleHBlY3RlZCA9IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbjo6Y2xhc3MpCiAgICBmdW4gbWlzc2luZ1JlZnJlc2hUb2tlbklzUmVqZWN0ZWQoKSB7CiAgICAgICAgQ29kZXhPQXV0aFRva2VuUmVzcG9uc2UoCiAgICAgICAgICAgIGlkVG9rZW4gPSAiaWQtdG9rZW4iLAogICAgICAgICAgICBhY2Nlc3NUb2tlbiA9ICJhY2Nlc3MtdG9rZW4iLAogICAgICAgICAgICByZWZyZXNoVG9rZW4gPSBudWxsLAogICAgICAgICAgICBleHBpcmVzSW5TZWNvbmRzID0gMzYwMEwsCiAgICAgICAgKS5yZXF1aXJlQ29tcGxldGUoKQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.api
+
+import org.junit.Assert.assertSame
+import org.junit.Test
+
+class CodexOAuthTokenResponseTest {
+    @Test
+    fun completeTokenResponseIsAccepted() {
+        val response = CodexOAuthTokenResponse(
+            idToken = "id-token",
+            accessToken = "access-token",
+            refreshToken = "refresh-token",
+            expiresInSeconds = 3600L,
+        )
+
+        assertSame(response, response.requireComplete())
+    }
+
+    @Test(expected = IllegalArgumentException::class)
+    fun missingRefreshTokenIsRejected() {
+        CodexOAuthTokenResponse(
+            idToken = "id-token",
+            accessToken = "access-token",
+            refreshToken = null,
+            expiresInSeconds = 3600L,
+        ).requireComplete()
+    }
+}

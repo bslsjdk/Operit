@@ -1,1 +1,80 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tY3AucGx1Z2lucwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnN5c3RlbS5UZXJtaW5hbAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLnN5bmMuTXV0ZXgKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5zeW5jLndpdGhMb2NrCgovKioKICogTUNQIOWFseS6q+e7iOerr+S8muivneeuoeeQhuWZqAogKiAKICog55So5LqO5ZyoIE1DUFN0YXJ0ZXIg5ZKMIE1DUERlcGxveWVyIOS5i+mXtOWFseS6q+WQjOS4gOS4que7iOerr+S8muivnQogKiDpgb/lhY3ph43lpI3liJvlu7rkvJror53vvIzmj5Dpq5jotYTmupDliKnnlKjmlYjnjocKICovCm9iamVjdCBNQ1BTaGFyZWRTZXNzaW9uIHsKICAgIAogICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIk1DUFNoYXJlZFNlc3Npb24iCiAgICBwcml2YXRlIGNvbnN0IHZhbCBTRVNTSU9OX05BTUUgPSAibWNwLXNoYXJlZCIKICAgIAogICAgQFZvbGF0aWxlCiAgICBwcml2YXRlIHZhciBzaGFyZWRTZXNzaW9uSWQ6IFN0cmluZz8gPSBudWxsCiAgICBwcml2YXRlIHZhbCBtdXRleCA9IE11dGV4KCkKICAgIAogICAgLyoqCiAgICAgKiDojrflj5bmiJbliJvlu7rlhbHkuqvnmoTnu4jnq6/kvJror50KICAgICAqIAogICAgICogQHBhcmFtIGNvbnRleHQgQW5kcm9pZOS4iuS4i+aWhwogICAgICogQHJldHVybiDkvJror51JRO+8jOWmguaenOWIm+W7uuWksei0pei/lOWbnm51bGwKICAgICAqLwogICAgc3VzcGVuZCBmdW4gZ2V0T3JDcmVhdGVTaGFyZWRTZXNzaW9uKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmc/IHsKICAgICAgICAvLyDlv6vpgJ/mo4Dmn6XvvIzpgb/lhY3kuI3lv4XopoHnmoTplIHlrpoKICAgICAgICBzaGFyZWRTZXNzaW9uSWQ/LmxldCB7IHJldHVybiBpdCB9CiAgICAgICAgCiAgICAgICAgLy8g5L2/55So5LqS5pal6ZSB5p2l56Gu5L+d57q/56iL5a6J5YWo77yM6YG/5YWN5Zyoc3luY2hyb25pemVk5Z2X5Lit6LCD55Soc3VzcGVuZOWHveaVsAogICAgICAgIHJldHVybiBtdXRleC53aXRoTG9jayB7CiAgICAgICAgICAgIC8vIOWGjeasoeajgOafpe+8jOmYsuatouWcqOetieW+hemUgeeahOi/h+eoi+S4reWFtuS7lue6v+eoi+W3sue7j+WIm+W7uuS6huS8muivnQogICAgICAgICAgICBzaGFyZWRTZXNzaW9uSWQ/LmxldCB7IHJldHVybkB3aXRoTG9jayBpdCB9CiAgICAgICAgICAgIAogICAgICAgICAgICB2YWwgdGVybWluYWwgPSBUZXJtaW5hbC5nZXRJbnN0YW5jZShjb250ZXh0KQogICAgICAgICAgICBpZiAoIXRlcm1pbmFsLmlzQ29ubmVjdGVkKCkpIHsKICAgICAgICAgICAgICAgIGlmICghdGVybWluYWwuaW5pdGlhbGl6ZSgpKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGluaXRpYWxpemUgVGVybWluYWwiKQogICAgICAgICAgICAgICAgICAgIHJldHVybkB3aXRoTG9jayBudWxsCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOWIm+W7uuWFseS6q+S8muivnQogICAgICAgICAgICB2YWwgc2Vzc2lvbklkID0gdGVybWluYWwuY3JlYXRlU2Vzc2lvbihTRVNTSU9OX05BTUUpCiAgICAgICAgICAgIGlmIChzZXNzaW9uSWQgPT0gbnVsbCkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGNyZWF0ZSBzaGFyZWQgc2Vzc2lvbiBvciBzZXNzaW9uIGluaXRpYWxpemF0aW9uIHRpbWVvdXQiKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQ3JlYXRlZCBzaGFyZWQgTUNQIHNlc3Npb246ICRzZXNzaW9uSWQiKQogICAgICAgICAgICAgICAgc2hhcmVkU2Vzc2lvbklkID0gc2Vzc2lvbklkCiAgICAgICAgICAgIH0KICAgICAgICAgICAgCiAgICAgICAgICAgIHNlc3Npb25JZAogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDojrflj5blvZPliY3lhbHkuqvkvJror51JRO+8iOWmguaenOWtmOWcqO+8iQogICAgICovCiAgICBmdW4gZ2V0Q3VycmVudFNlc3Npb25JZCgpOiBTdHJpbmc/ID0gc2hhcmVkU2Vzc2lvbklkCiAgICAKICAgIC8qKgogICAgICog5riF6Zmk5YWx5Lqr5Lya6K+d5byV55SoCiAgICAgKiDms6jmhI/vvJrov5nkuI3kvJrlrp7pmYXlhbPpl63kvJror53vvIzlj6rmmK/muIXpmaTlvJXnlKgKICAgICAqLwogICAgc3VzcGVuZCBmdW4gY2xlYXJTZXNzaW9uKCkgewogICAgICAgIG11dGV4LndpdGhMb2NrIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQ2xlYXJpbmcgc2hhcmVkIHNlc3Npb24gcmVmZXJlbmNlOiAkc2hhcmVkU2Vzc2lvbklkIikKICAgICAgICAgICAgc2hhcmVkU2Vzc2lvbklkID0gbnVsbAogICAgICAgIH0KICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDmo4Dmn6XlhbHkuqvkvJror53mmK/lkKblrZjlnKgKICAgICAqLwogICAgZnVuIGhhc0FjdGl2ZVNlc3Npb24oKTogQm9vbGVhbiA9IHNoYXJlZFNlc3Npb25JZCAhPSBudWxsCn0g
+package com.bslsjdk.operit.data.mcp.plugins
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import com.bslsjdk.operit.core.tools.system.Terminal
+import kotlinx.coroutines.sync.Mutex
+import kotlinx.coroutines.sync.withLock
+
+/**
+ * MCP 共享终端会话管理器
+ * 
+ * 用于在 MCPStarter 和 MCPDeployer 之间共享同一个终端会话
+ * 避免重复创建会话，提高资源利用效率
+ */
+object MCPSharedSession {
+    
+    private const val TAG = "MCPSharedSession"
+    private const val SESSION_NAME = "mcp-shared"
+    
+    @Volatile
+    private var sharedSessionId: String? = null
+    private val mutex = Mutex()
+    
+    /**
+     * 获取或创建共享的终端会话
+     * 
+     * @param context Android上下文
+     * @return 会话ID，如果创建失败返回null
+     */
+    suspend fun getOrCreateSharedSession(context: Context): String? {
+        // 快速检查，避免不必要的锁定
+        sharedSessionId?.let { return it }
+        
+        // 使用互斥锁来确保线程安全，避免在synchronized块中调用suspend函数
+        return mutex.withLock {
+            // 再次检查，防止在等待锁的过程中其他线程已经创建了会话
+            sharedSessionId?.let { return@withLock it }
+            
+            val terminal = Terminal.getInstance(context)
+            if (!terminal.isConnected()) {
+                if (!terminal.initialize()) {
+                    AppLogger.e(TAG, "Failed to initialize Terminal")
+                    return@withLock null
+                }
+            }
+            
+            // 创建共享会话
+            val sessionId = terminal.createSession(SESSION_NAME)
+            if (sessionId == null) {
+                AppLogger.e(TAG, "Failed to create shared session or session initialization timeout")
+            } else {
+                AppLogger.d(TAG, "Created shared MCP session: $sessionId")
+                sharedSessionId = sessionId
+            }
+            
+            sessionId
+        }
+    }
+    
+    /**
+     * 获取当前共享会话ID（如果存在）
+     */
+    fun getCurrentSessionId(): String? = sharedSessionId
+    
+    /**
+     * 清除共享会话引用
+     * 注意：这不会实际关闭会话，只是清除引用
+     */
+    suspend fun clearSession() {
+        mutex.withLock {
+            AppLogger.d(TAG, "Clearing shared session reference: $sharedSessionId")
+            sharedSessionId = null
+        }
+    }
+    
+    /**
+     * 检查共享会话是否存在
+     */
+    fun hasActiveSession(): Boolean = sharedSessionId != null
+} 

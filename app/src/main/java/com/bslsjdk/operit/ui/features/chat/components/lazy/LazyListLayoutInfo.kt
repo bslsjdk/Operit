@@ -1,1 +1,112 @@
-LyoKICogQ29weXJpZ2h0IDIwMjAgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5PcmllbnRhdGlvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LkludFNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudXRpbC5mYXN0U3VtQnkKCi8qKgogKiBDb250YWlucyB1c2VmdWwgaW5mb3JtYXRpb24gYWJvdXQgdGhlIGN1cnJlbnRseSBkaXNwbGF5ZWQgbGF5b3V0IHN0YXRlIG9mIGxhenkgbGlzdHMgbGlrZQogKiBbTGF6eUNvbHVtbl0gb3IgW0xhenlSb3ddLiBGb3IgZXhhbXBsZSB5b3UgY2FuIGdldCB0aGUgbGlzdCBvZiBjdXJyZW50bHkgZGlzcGxheWVkIGl0ZW0uCiAqCiAqIFVzZSBbTGF6eUxpc3RTdGF0ZS5sYXlvdXRJbmZvXSB0byByZXRyaWV2ZSB0aGlzCiAqLwppbnRlcmZhY2UgTGF6eUxpc3RMYXlvdXRJbmZvIHsKICAgIC8qKiBUaGUgbGlzdCBvZiBbTGF6eUxpc3RJdGVtSW5mb10gcmVwcmVzZW50aW5nIGFsbCB0aGUgY3VycmVudGx5IHZpc2libGUgaXRlbXMuICovCiAgICB2YWwgdmlzaWJsZUl0ZW1zSW5mbzogTGlzdDxMYXp5TGlzdEl0ZW1JbmZvPgoKICAgIC8qKgogICAgICogVGhlIHN0YXJ0IG9mZnNldCBvZiB0aGUgbGF5b3V0J3Mgdmlld3BvcnQgaW4gcGl4ZWxzLiBZb3UgY2FuIHRoaW5rIG9mIGl0IGFzIGEgbWluaW11bSBvZmZzZXQKICAgICAqIHdoaWNoIHdvdWxkIGJlIHZpc2libGUuIFVzdWFsbHkgaXQgaXMgMCwgYnV0IGl0IGNhbiBiZSBuZWdhdGl2ZSBpZiBub24temVybwogICAgICogW2JlZm9yZUNvbnRlbnRQYWRkaW5nXSB3YXMgYXBwbGllZCBhcyB0aGUgY29udGVudCBkaXNwbGF5ZWQgaW4gdGhlIGNvbnRlbnQgcGFkZGluZyBhcmVhIGlzCiAgICAgKiBzdGlsbCB2aXNpYmxlLgogICAgICoKICAgICAqIFlvdSBjYW4gdXNlIGl0IHRvIHVuZGVyc3RhbmQgd2hhdCBpdGVtcyBmcm9tIFt2aXNpYmxlSXRlbXNJbmZvXSBhcmUgZnVsbHkgdmlzaWJsZS4KICAgICAqLwogICAgdmFsIHZpZXdwb3J0U3RhcnRPZmZzZXQ6IEludAoKICAgIC8qKgogICAgICogVGhlIGVuZCBvZmZzZXQgb2YgdGhlIGxheW91dCdzIHZpZXdwb3J0IGluIHBpeGVscy4gWW91IGNhbiB0aGluayBvZiBpdCBhcyBhIG1heGltdW0gb2Zmc2V0CiAgICAgKiB3aGljaCB3b3VsZCBiZSB2aXNpYmxlLiBJdCBpcyB0aGUgc2l6ZSBvZiB0aGUgbGF6eSBsaXN0IGxheW91dCBtaW51cyBbYmVmb3JlQ29udGVudFBhZGRpbmddLgogICAgICoKICAgICAqIFlvdSBjYW4gdXNlIGl0IHRvIHVuZGVyc3RhbmQgd2hhdCBpdGVtcyBmcm9tIFt2aXNpYmxlSXRlbXNJbmZvXSBhcmUgZnVsbHkgdmlzaWJsZS4KICAgICAqLwogICAgdmFsIHZpZXdwb3J0RW5kT2Zmc2V0OiBJbnQKCiAgICAvKiogVGhlIHRvdGFsIGNvdW50IG9mIGl0ZW1zIHBhc3NlZCB0byBbTGF6eUNvbHVtbl0gb3IgW0xhenlSb3ddLiAqLwogICAgdmFsIHRvdGFsSXRlbXNDb3VudDogSW50CgogICAgLyoqCiAgICAgKiBUaGUgc2l6ZSBvZiB0aGUgdmlld3BvcnQgaW4gcGl4ZWxzLiBJdCBpcyB0aGUgbGF6eSBsaXN0IGxheW91dCBzaXplIGluY2x1ZGluZyBhbGwgdGhlIGNvbnRlbnQKICAgICAqIHBhZGRpbmdzLgogICAgICovCiAgICB2YWwgdmlld3BvcnRTaXplOiBJbnRTaXplCiAgICAgICAgZ2V0KCkgPSBJbnRTaXplLlplcm8KCiAgICAvKiogVGhlIG9yaWVudGF0aW9uIG9mIHRoZSBsYXp5IGxpc3QuICovCiAgICB2YWwgb3JpZW50YXRpb246IE9yaWVudGF0aW9uCiAgICAgICAgZ2V0KCkgPSBPcmllbnRhdGlvbi5WZXJ0aWNhbAoKICAgIC8qKiBUcnVlIGlmIHRoZSBkaXJlY3Rpb24gb2Ygc2Nyb2xsaW5nIGFuZCBsYXlvdXQgaXMgcmV2ZXJzZWQuICovCiAgICB2YWwgcmV2ZXJzZUxheW91dDogQm9vbGVhbgogICAgICAgIGdldCgpID0gZmFsc2UKCiAgICAvKioKICAgICAqIFRoZSBjb250ZW50IHBhZGRpbmcgaW4gcGl4ZWxzIGFwcGxpZWQgYmVmb3JlIHRoZSBmaXJzdCBpdGVtIGluIHRoZSBkaXJlY3Rpb24gb2Ygc2Nyb2xsaW5nLgogICAgICogRm9yIGV4YW1wbGUgaXQgaXMgYSB0b3AgY29udGVudCBwYWRkaW5nIGZvciBMYXp5Q29sdW1uIHdpdGggcmV2ZXJzZUxheW91dCBzZXQgdG8gZmFsc2UuCiAgICAgKi8KICAgIHZhbCBiZWZvcmVDb250ZW50UGFkZGluZzogSW50CiAgICAgICAgZ2V0KCkgPSAwCgogICAgLyoqCiAgICAgKiBUaGUgY29udGVudCBwYWRkaW5nIGluIHBpeGVscyBhcHBsaWVkIGFmdGVyIHRoZSBsYXN0IGl0ZW0gaW4gdGhlIGRpcmVjdGlvbiBvZiBzY3JvbGxpbmcuIEZvcgogICAgICogZXhhbXBsZSBpdCBpcyBhIGJvdHRvbSBjb250ZW50IHBhZGRpbmcgZm9yIExhenlDb2x1bW4gd2l0aCByZXZlcnNlTGF5b3V0IHNldCB0byBmYWxzZS4KICAgICAqLwogICAgdmFsIGFmdGVyQ29udGVudFBhZGRpbmc6IEludAogICAgICAgIGdldCgpID0gMAoKICAgIC8qKiBUaGUgc3BhY2luZyBiZXR3ZWVuIGl0ZW1zIGluIHRoZSBkaXJlY3Rpb24gb2Ygc2Nyb2xsaW5nLiAqLwogICAgdmFsIG1haW5BeGlzSXRlbVNwYWNpbmc6IEludAogICAgICAgIGdldCgpID0gMAp9CgppbnRlcm5hbCBmdW4gTGF6eUxpc3RMYXlvdXRJbmZvLnZpc2libGVJdGVtc0F2ZXJhZ2VTaXplKCk6IEludCB7CiAgICB2YWwgdmlzaWJsZUl0ZW1zID0gdmlzaWJsZUl0ZW1zSW5mbwogICAgaWYgKHZpc2libGVJdGVtcy5pc0VtcHR5KCkpIHJldHVybiAwCiAgICB2YWwgaXRlbXNTdW0gPSB2aXNpYmxlSXRlbXMuZmFzdFN1bUJ5IHsgaXQuc2l6ZSB9CiAgICByZXR1cm4gaXRlbXNTdW0gLyB2aXNpYmxlSXRlbXMuc2l6ZSArIG1haW5BeGlzSXRlbVNwYWNpbmcKfQoKaW50ZXJuYWwgZnVuIExhenlMaXN0TGF5b3V0SW5mby5jYWxjdWxhdGVDb250ZW50U2l6ZSgpOiBJbnQgewogICAgdmFsIGNvbnRlbnRQYWRkaW5nID0gYmVmb3JlQ29udGVudFBhZGRpbmcgKyBhZnRlckNvbnRlbnRQYWRkaW5nCiAgICBpZiAodG90YWxJdGVtc0NvdW50ID09IDApIHJldHVybiBjb250ZW50UGFkZGluZwoKICAgIHZhbCBjb250ZW50U2l6ZVdpdGhvdXRTcGFjaW5nID0KICAgICAgICAodmlzaWJsZUl0ZW1zQXZlcmFnZVNpemUoKSAtIG1haW5BeGlzSXRlbVNwYWNpbmcpICogdG90YWxJdGVtc0NvdW50CiAgICB2YWwgdG90YWxTcGFjaW5nID0gKHRvdGFsSXRlbXNDb3VudCAtIDEpICogbWFpbkF4aXNJdGVtU3BhY2luZwoKICAgIHJldHVybiBjb250ZW50U2l6ZVdpdGhvdXRTcGFjaW5nICsgdG90YWxTcGFjaW5nICsgY29udGVudFBhZGRpbmcKfQoKaW50ZXJuYWwgdmFsIExhenlMaXN0TGF5b3V0SW5mby5zaW5nbGVBeGlzVmlld3BvcnRTaXplOiBJbnQKICAgIGdldCgpID0KICAgICAgICBpZiAob3JpZW50YXRpb24gPT0gT3JpZW50YXRpb24uVmVydGljYWwpIHsKICAgICAgICAgICAgdmlld3BvcnRTaXplLmhlaWdodAogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIHZpZXdwb3J0U2l6ZS53aWR0aAogICAgICAgIH0K
+/*
+ * Copyright 2020 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.gestures.Orientation
+import androidx.compose.ui.unit.IntSize
+import androidx.compose.ui.util.fastSumBy
+
+/**
+ * Contains useful information about the currently displayed layout state of lazy lists like
+ * [LazyColumn] or [LazyRow]. For example you can get the list of currently displayed item.
+ *
+ * Use [LazyListState.layoutInfo] to retrieve this
+ */
+interface LazyListLayoutInfo {
+    /** The list of [LazyListItemInfo] representing all the currently visible items. */
+    val visibleItemsInfo: List<LazyListItemInfo>
+
+    /**
+     * The start offset of the layout's viewport in pixels. You can think of it as a minimum offset
+     * which would be visible. Usually it is 0, but it can be negative if non-zero
+     * [beforeContentPadding] was applied as the content displayed in the content padding area is
+     * still visible.
+     *
+     * You can use it to understand what items from [visibleItemsInfo] are fully visible.
+     */
+    val viewportStartOffset: Int
+
+    /**
+     * The end offset of the layout's viewport in pixels. You can think of it as a maximum offset
+     * which would be visible. It is the size of the lazy list layout minus [beforeContentPadding].
+     *
+     * You can use it to understand what items from [visibleItemsInfo] are fully visible.
+     */
+    val viewportEndOffset: Int
+
+    /** The total count of items passed to [LazyColumn] or [LazyRow]. */
+    val totalItemsCount: Int
+
+    /**
+     * The size of the viewport in pixels. It is the lazy list layout size including all the content
+     * paddings.
+     */
+    val viewportSize: IntSize
+        get() = IntSize.Zero
+
+    /** The orientation of the lazy list. */
+    val orientation: Orientation
+        get() = Orientation.Vertical
+
+    /** True if the direction of scrolling and layout is reversed. */
+    val reverseLayout: Boolean
+        get() = false
+
+    /**
+     * The content padding in pixels applied before the first item in the direction of scrolling.
+     * For example it is a top content padding for LazyColumn with reverseLayout set to false.
+     */
+    val beforeContentPadding: Int
+        get() = 0
+
+    /**
+     * The content padding in pixels applied after the last item in the direction of scrolling. For
+     * example it is a bottom content padding for LazyColumn with reverseLayout set to false.
+     */
+    val afterContentPadding: Int
+        get() = 0
+
+    /** The spacing between items in the direction of scrolling. */
+    val mainAxisItemSpacing: Int
+        get() = 0
+}
+
+internal fun LazyListLayoutInfo.visibleItemsAverageSize(): Int {
+    val visibleItems = visibleItemsInfo
+    if (visibleItems.isEmpty()) return 0
+    val itemsSum = visibleItems.fastSumBy { it.size }
+    return itemsSum / visibleItems.size + mainAxisItemSpacing
+}
+
+internal fun LazyListLayoutInfo.calculateContentSize(): Int {
+    val contentPadding = beforeContentPadding + afterContentPadding
+    if (totalItemsCount == 0) return contentPadding
+
+    val contentSizeWithoutSpacing =
+        (visibleItemsAverageSize() - mainAxisItemSpacing) * totalItemsCount
+    val totalSpacing = (totalItemsCount - 1) * mainAxisItemSpacing
+
+    return contentSizeWithoutSpacing + totalSpacing + contentPadding
+}
+
+internal val LazyListLayoutInfo.singleAxisViewportSize: Int
+    get() =
+        if (orientation == Orientation.Vertical) {
+            viewportSize.height
+        } else {
+            viewportSize.width
+        }

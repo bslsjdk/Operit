@@ -1,1 +1,372 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkeC5kYXRhc3RvcmUuY29yZS5EYXRhU3RvcmUKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLk11dGFibGVQcmVmZXJlbmNlcwppbXBvcnQgYW5kcm9pZHguZGF0YXN0b3JlLnByZWZlcmVuY2VzLmNvcmUuUHJlZmVyZW5jZXMKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLmVkaXQKaW1wb3J0IGFuZHJvaWR4LmRhdGFzdG9yZS5wcmVmZXJlbmNlcy5jb3JlLnN0cmluZ1ByZWZlcmVuY2VzS2V5CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmFwaS5zcGVlY2guU3BlZWNoU2VydmljZUZhY3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5hcGkudm9pY2UuVm9pY2VTZXJ2aWNlRmFjdG9yeQppbXBvcnQgamF2YS51dGlsLlVVSUQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LkZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmNvbWJpbmUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmZpcnN0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5tYXAKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5idWlsdGlucy5MaXN0U2VyaWFsaXplcgppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmRlY29kZUZyb21TdHJpbmcKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5lbmNvZGVUb1N0cmluZwppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLmpzb24uSnNvbgoKcHJpdmF0ZSB2YWwgQ29udGV4dC5zcGVlY2hTZXJ2aWNlUHJvZmlsZXNEYXRhU3RvcmU6IERhdGFTdG9yZTxQcmVmZXJlbmNlcz4gYnkKICAgIHZlcnNpb25lZFByZWZlcmVuY2VzRGF0YVN0b3JlKAogICAgICAgIG5hbWUgPSAic3BlZWNoX3NlcnZpY2VfcHJvZmlsZXMiLAogICAgICAgIGN1cnJlbnRWZXJzaW9uID0gMSwKICAgICkgeyBhcHBDb250ZXh0IC0+CiAgICAgICAgU3BlZWNoU2VydmljZVByb2ZpbGVzUHJlZmVyZW5jZXMuc2NoZW1hTWlncmF0aW9uKGFwcENvbnRleHQpCiAgICB9CgovKioKICogU3RvcmVzIGluZGVwZW5kZW50IFRUUyBhbmQgU1RUIGNvbmZpZ3VyYXRpb24gcHJvZmlsZXMuCiAqCiAqIFRoZSBsZWdhY3kgc3BlZWNoIHByZWZlcmVuY2VzIHJlbWFpbiB0aGUgcnVudGltZSBwcm9qZWN0aW9uIGNvbnN1bWVkIGJ5IHRoZSBleGlzdGluZyBwcm92aWRlcnMuCiAqIEtlZXBpbmcgdGhhdCBwcm9qZWN0aW9uIGFsaWduZWQgd2l0aCB0aGUgYWN0aXZlIHByb2ZpbGUgYXZvaWRzIGNoYW5naW5nIGEgcHJvdmlkZXIncyByZXF1ZXN0CiAqIGNvbnRyYWN0IHdoaWxlIHB1Ymxpc2hlZCBpbnN0YWxsYXRpb25zIG1pZ3JhdGUgdG8gdGhlIG5ldyBwcm9maWxlIHN0b3JlLgogKi8KY2xhc3MgU3BlZWNoU2VydmljZVByb2ZpbGVzUHJlZmVyZW5jZXMocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewoKICAgIEBTZXJpYWxpemFibGUKICAgIGRhdGEgY2xhc3MgVHRzUHJvZmlsZSgKICAgICAgICB2YWwgaWQ6IFN0cmluZywKICAgICAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgICAgIHZhbCBzZXJ2aWNlVHlwZTogVm9pY2VTZXJ2aWNlRmFjdG9yeS5Wb2ljZVNlcnZpY2VUeXBlLAogICAgICAgIHZhbCBodHRwQ29uZmlnOiBTcGVlY2hTZXJ2aWNlc1ByZWZlcmVuY2VzLlR0c0h0dHBDb25maWcsCiAgICAgICAgdmFsIHZpdHNDb25maWc6IFNwZWVjaFNlcnZpY2VzUHJlZmVyZW5jZXMuVml0c1R0c1BhY2thZ2VDb25maWcsCiAgICAgICAgdmFsIGNsZWFuZXJSZWdleHM6IExpc3Q8U3RyaW5nPiwKICAgICAgICB2YWwgc3BlZWNoUmF0ZTogRmxvYXQsCiAgICAgICAgdmFsIHBpdGNoOiBGbG9hdCwKICAgICAgICB2YWwgY3JlYXRlZEF0OiBMb25nLAogICAgICAgIHZhbCB1cGRhdGVkQXQ6IExvbmcsCiAgICApCgogICAgQFNlcmlhbGl6YWJsZQogICAgZGF0YSBjbGFzcyBTdHRQcm9maWxlKAogICAgICAgIHZhbCBpZDogU3RyaW5nLAogICAgICAgIHZhbCBuYW1lOiBTdHJpbmcsCiAgICAgICAgdmFsIHNlcnZpY2VUeXBlOiBTcGVlY2hTZXJ2aWNlRmFjdG9yeS5TcGVlY2hTZXJ2aWNlVHlwZSwKICAgICAgICB2YWwgaHR0cENvbmZpZzogU3BlZWNoU2VydmljZXNQcmVmZXJlbmNlcy5TdHRIdHRwQ29uZmlnLAogICAgICAgIHZhbCBjcmVhdGVkQXQ6IExvbmcsCiAgICAgICAgdmFsIHVwZGF0ZWRBdDogTG9uZywKICAgICkKCiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBMRUdBQ1lfVFRTX1BST0ZJTEVfSUQgPSAibGVnYWN5LXR0cy1wcm9maWxlIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIExFR0FDWV9TVFRfUFJPRklMRV9JRCA9ICJsZWdhY3ktc3R0LXByb2ZpbGUiCgogICAgICAgIHByaXZhdGUgdmFsIFRUU19QUk9GSUxFUyA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJ0dHNfcHJvZmlsZXMiKQogICAgICAgIHByaXZhdGUgdmFsIFNUVF9QUk9GSUxFUyA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJzdHRfcHJvZmlsZXMiKQogICAgICAgIHByaXZhdGUgdmFsIENVUlJFTlRfVFRTX1BST0ZJTEVfSUQgPSBzdHJpbmdQcmVmZXJlbmNlc0tleSgiY3VycmVudF90dHNfcHJvZmlsZV9pZCIpCiAgICAgICAgcHJpdmF0ZSB2YWwgQ1VSUkVOVF9TVFRfUFJPRklMRV9JRCA9IHN0cmluZ1ByZWZlcmVuY2VzS2V5KCJjdXJyZW50X3N0dF9wcm9maWxlX2lkIikKCiAgICAgICAgaW50ZXJuYWwgdmFsIGpzb24gPSBKc29uIHsgaWdub3JlVW5rbm93bktleXMgPSB0cnVlIH0KCiAgICAgICAgaW50ZXJuYWwgZnVuIHNjaGVtYU1pZ3JhdGlvbihjb250ZXh0OiBDb250ZXh0KTogUHJlZmVyZW5jZXNTY2hlbWFNaWdyYXRpb24gewogICAgICAgICAgICByZXR1cm4gcHJlZmVyZW5jZVNjaGVtYU1pZ3JhdGlvbiB7IHZlcnNpb24sIHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgICAgICB3aGVuICh2ZXJzaW9uKSB7CiAgICAgICAgICAgICAgICAgICAgMCAtPiBtaWdyYXRlUHJlZmVyZW5jZXNGcm9tVmVyc2lvblplcm8oY29udGV4dCwgcHJlZmVyZW5jZXMpCiAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiBtaXNzaW5nUHJlZmVyZW5jZXNTY2hlbWFNaWdyYXRpb24odmVyc2lvbikKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBtaWdyYXRlUHJlZmVyZW5jZXNGcm9tVmVyc2lvblplcm8oCiAgICAgICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgICAgIHByZWZlcmVuY2VzOiBNdXRhYmxlUHJlZmVyZW5jZXMsCiAgICAgICAgKSB7CiAgICAgICAgICAgIHZhbCBsZWdhY3lQcmVmZXJlbmNlcyA9IFNwZWVjaFNlcnZpY2VzUHJlZmVyZW5jZXMoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCiAgICAgICAgICAgIHZhbCBub3cgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICB2YWwgbGVnYWN5VHRzUHJvZmlsZSA9IFR0c1Byb2ZpbGUoCiAgICAgICAgICAgICAgICBpZCA9IExFR0FDWV9UVFNfUFJPRklMRV9JRCwKICAgICAgICAgICAgICAgIG5hbWUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5zcGVlY2hfc2VydmljZXNfcHJvZmlsZV9taWdyYXRlZF90dHMpLAogICAgICAgICAgICAgICAgc2VydmljZVR5cGUgPSBsZWdhY3lQcmVmZXJlbmNlcy50dHNTZXJ2aWNlVHlwZUZsb3cuZmlyc3QoKSwKICAgICAgICAgICAgICAgIGh0dHBDb25maWcgPSBsZWdhY3lQcmVmZXJlbmNlcy50dHNIdHRwQ29uZmlnRmxvdy5maXJzdCgpLAogICAgICAgICAgICAgICAgdml0c0NvbmZpZyA9IGxlZ2FjeVByZWZlcmVuY2VzLnR0c1ZpdHNQYWNrYWdlQ29uZmlnRmxvdy5maXJzdCgpLAogICAgICAgICAgICAgICAgY2xlYW5lclJlZ2V4cyA9IGxlZ2FjeVByZWZlcmVuY2VzLnR0c0NsZWFuZXJSZWdleHNGbG93LmZpcnN0KCksCiAgICAgICAgICAgICAgICBzcGVlY2hSYXRlID0gbGVnYWN5UHJlZmVyZW5jZXMudHRzU3BlZWNoUmF0ZUZsb3cuZmlyc3QoKSwKICAgICAgICAgICAgICAgIHBpdGNoID0gbGVnYWN5UHJlZmVyZW5jZXMudHRzUGl0Y2hGbG93LmZpcnN0KCksCiAgICAgICAgICAgICAgICBjcmVhdGVkQXQgPSBub3csCiAgICAgICAgICAgICAgICB1cGRhdGVkQXQgPSBub3csCiAgICAgICAgICAgICkKICAgICAgICAgICAgdmFsIGxlZ2FjeVN0dFByb2ZpbGUgPSBTdHRQcm9maWxlKAogICAgICAgICAgICAgICAgaWQgPSBMRUdBQ1lfU1RUX1BST0ZJTEVfSUQsCiAgICAgICAgICAgICAgICBuYW1lID0gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc3BlZWNoX3NlcnZpY2VzX3Byb2ZpbGVfbWlncmF0ZWRfc3R0KSwKICAgICAgICAgICAgICAgIHNlcnZpY2VUeXBlID0gbGVnYWN5UHJlZmVyZW5jZXMuc3R0U2VydmljZVR5cGVGbG93LmZpcnN0KCksCiAgICAgICAgICAgICAgICBodHRwQ29uZmlnID0gbGVnYWN5UHJlZmVyZW5jZXMuc3R0SHR0cENvbmZpZ0Zsb3cuZmlyc3QoKSwKICAgICAgICAgICAgICAgIGNyZWF0ZWRBdCA9IG5vdywKICAgICAgICAgICAgICAgIHVwZGF0ZWRBdCA9IG5vdywKICAgICAgICAgICAgKQoKICAgICAgICAgICAgdmFsIHN0b3JlZFR0c1Byb2ZpbGVzID0gZGVjb2RlVHRzUHJvZmlsZXMocHJlZmVyZW5jZXNbVFRTX1BST0ZJTEVTXSkKICAgICAgICAgICAgdmFsIHN0b3JlZFN0dFByb2ZpbGVzID0gZGVjb2RlU3R0UHJvZmlsZXMocHJlZmVyZW5jZXNbU1RUX1BST0ZJTEVTXSkKICAgICAgICAgICAgdmFsIHR0c1Byb2ZpbGVzID0gaWYgKHN0b3JlZFR0c1Byb2ZpbGVzLmlzRW1wdHkoKSkgbGlzdE9mKGxlZ2FjeVR0c1Byb2ZpbGUpIGVsc2Ugc3RvcmVkVHRzUHJvZmlsZXMKICAgICAgICAgICAgdmFsIHN0dFByb2ZpbGVzID0gaWYgKHN0b3JlZFN0dFByb2ZpbGVzLmlzRW1wdHkoKSkgbGlzdE9mKGxlZ2FjeVN0dFByb2ZpbGUpIGVsc2Ugc3RvcmVkU3R0UHJvZmlsZXMKICAgICAgICAgICAgdmFsIGN1cnJlbnRUdHNJZCA9IHByZWZlcmVuY2VzW0NVUlJFTlRfVFRTX1BST0ZJTEVfSURdCiAgICAgICAgICAgIHZhbCBjdXJyZW50U3R0SWQgPSBwcmVmZXJlbmNlc1tDVVJSRU5UX1NUVF9QUk9GSUxFX0lEXQoKICAgICAgICAgICAgcHJlZmVyZW5jZXNbVFRTX1BST0ZJTEVTXSA9IGpzb24uZW5jb2RlVG9TdHJpbmcodHRzUHJvZmlsZXMpCiAgICAgICAgICAgIHByZWZlcmVuY2VzW1NUVF9QUk9GSUxFU10gPSBqc29uLmVuY29kZVRvU3RyaW5nKHN0dFByb2ZpbGVzKQogICAgICAgICAgICBwcmVmZXJlbmNlc1tDVVJSRU5UX1RUU19QUk9GSUxFX0lEXSA9IHdoZW4gewogICAgICAgICAgICAgICAgY3VycmVudFR0c0lkICE9IG51bGwgJiYgdHRzUHJvZmlsZXMuYW55IHsgaXQuaWQgPT0gY3VycmVudFR0c0lkIH0gLT4gY3VycmVudFR0c0lkCiAgICAgICAgICAgICAgICBlbHNlIC0+IHR0c1Byb2ZpbGVzLmZpcnN0KCkuaWQKICAgICAgICAgICAgfQogICAgICAgICAgICBwcmVmZXJlbmNlc1tDVVJSRU5UX1NUVF9QUk9GSUxFX0lEXSA9IHdoZW4gewogICAgICAgICAgICAgICAgY3VycmVudFN0dElkICE9IG51bGwgJiYgc3R0UHJvZmlsZXMuYW55IHsgaXQuaWQgPT0gY3VycmVudFN0dElkIH0gLT4gY3VycmVudFN0dElkCiAgICAgICAgICAgICAgICBlbHNlIC0+IHN0dFByb2ZpbGVzLmZpcnN0KCkuaWQKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaW50ZXJuYWwgZnVuIGRlY29kZVR0c1Byb2ZpbGVzKHJhdzogU3RyaW5nPyk6IExpc3Q8VHRzUHJvZmlsZT4gewogICAgICAgICAgICBpZiAocmF3LmlzTnVsbE9yQmxhbmsoKSkgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgICAgIHJldHVybiBqc29uLmRlY29kZUZyb21TdHJpbmcoTGlzdFNlcmlhbGl6ZXIoVHRzUHJvZmlsZS5zZXJpYWxpemVyKCkpLCByYXcpCiAgICAgICAgfQoKICAgICAgICBpbnRlcm5hbCBmdW4gZGVjb2RlU3R0UHJvZmlsZXMocmF3OiBTdHJpbmc/KTogTGlzdDxTdHRQcm9maWxlPiB7CiAgICAgICAgICAgIGlmIChyYXcuaXNOdWxsT3JCbGFuaygpKSByZXR1cm4gZW1wdHlMaXN0KCkKICAgICAgICAgICAgcmV0dXJuIGpzb24uZGVjb2RlRnJvbVN0cmluZyhMaXN0U2VyaWFsaXplcihTdHRQcm9maWxlLnNlcmlhbGl6ZXIoKSksIHJhdykKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSB2YWwgZGF0YVN0b3JlID0gY29udGV4dC5zcGVlY2hTZXJ2aWNlUHJvZmlsZXNEYXRhU3RvcmUKICAgIHByaXZhdGUgdmFsIGpzb24gPSBTcGVlY2hTZXJ2aWNlUHJvZmlsZXNQcmVmZXJlbmNlcy5qc29uCiAgICBwcml2YXRlIHZhbCBsZWdhY3lQcmVmZXJlbmNlcyA9IFNwZWVjaFNlcnZpY2VzUHJlZmVyZW5jZXMoY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQpCgogICAgdmFsIHR0c1Byb2ZpbGVzRmxvdzogRmxvdzxMaXN0PFR0c1Byb2ZpbGU+PiA9IGRhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgZGVjb2RlVHRzUHJvZmlsZXMocHJlZmVyZW5jZXNbVFRTX1BST0ZJTEVTXSkKICAgIH0KCiAgICB2YWwgc3R0UHJvZmlsZXNGbG93OiBGbG93PExpc3Q8U3R0UHJvZmlsZT4+ID0gZGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICBkZWNvZGVTdHRQcm9maWxlcyhwcmVmZXJlbmNlc1tTVFRfUFJPRklMRVNdKQogICAgfQoKICAgIHZhbCBjdXJyZW50VHRzUHJvZmlsZUlkRmxvdzogRmxvdzxTdHJpbmc+ID0gZGF0YVN0b3JlLmRhdGEubWFwIHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICBwcmVmZXJlbmNlc1tDVVJSRU5UX1RUU19QUk9GSUxFX0lEXS5vckVtcHR5KCkKICAgIH0KCiAgICB2YWwgY3VycmVudFN0dFByb2ZpbGVJZEZsb3c6IEZsb3c8U3RyaW5nPiA9IGRhdGFTdG9yZS5kYXRhLm1hcCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgcHJlZmVyZW5jZXNbQ1VSUkVOVF9TVFRfUFJPRklMRV9JRF0ub3JFbXB0eSgpCiAgICB9CgogICAgdmFsIGN1cnJlbnRUdHNQcm9maWxlRmxvdzogRmxvdzxUdHNQcm9maWxlPiA9CiAgICAgICAgdHRzUHJvZmlsZXNGbG93LmNvbWJpbmUoY3VycmVudFR0c1Byb2ZpbGVJZEZsb3cpIHsgcHJvZmlsZXMsIGlkIC0+CiAgICAgICAgICAgIHByb2ZpbGVzLmZpcnN0IHsgcHJvZmlsZSAtPiBwcm9maWxlLmlkID09IGlkIH0KICAgICAgICB9CgogICAgdmFsIGN1cnJlbnRTdHRQcm9maWxlRmxvdzogRmxvdzxTdHRQcm9maWxlPiA9CiAgICAgICAgc3R0UHJvZmlsZXNGbG93LmNvbWJpbmUoY3VycmVudFN0dFByb2ZpbGVJZEZsb3cpIHsgcHJvZmlsZXMsIGlkIC0+CiAgICAgICAgICAgIHByb2ZpbGVzLmZpcnN0IHsgcHJvZmlsZSAtPiBwcm9maWxlLmlkID09IGlkIH0KICAgICAgICB9CgogICAgdmFsIGN1cnJlbnRUdHNQcm9maWxlT3JOdWxsRmxvdzogRmxvdzxUdHNQcm9maWxlPz4gPQogICAgICAgIHR0c1Byb2ZpbGVzRmxvdy5jb21iaW5lKGN1cnJlbnRUdHNQcm9maWxlSWRGbG93KSB7IHByb2ZpbGVzLCBpZCAtPgogICAgICAgICAgICBwcm9maWxlcy5maW5kIHsgcHJvZmlsZSAtPiBwcm9maWxlLmlkID09IGlkIH0KICAgICAgICB9CgogICAgdmFsIGN1cnJlbnRTdHRQcm9maWxlT3JOdWxsRmxvdzogRmxvdzxTdHRQcm9maWxlPz4gPQogICAgICAgIHN0dFByb2ZpbGVzRmxvdy5jb21iaW5lKGN1cnJlbnRTdHRQcm9maWxlSWRGbG93KSB7IHByb2ZpbGVzLCBpZCAtPgogICAgICAgICAgICBwcm9maWxlcy5maW5kIHsgcHJvZmlsZSAtPiBwcm9maWxlLmlkID09IGlkIH0KICAgICAgICB9CgogICAgLyoqIFJldHVybnMgdGhlIGFjdGl2ZSBUVFMgcHJvZmlsZS4gKi8KICAgIHN1c3BlbmQgZnVuIGdldEN1cnJlbnRUdHNQcm9maWxlKCk6IFR0c1Byb2ZpbGUgewogICAgICAgIHZhbCBwcm9maWxlcyA9IHR0c1Byb2ZpbGVzRmxvdy5maXJzdCgpCiAgICAgICAgdmFsIGlkID0gY3VycmVudFR0c1Byb2ZpbGVJZEZsb3cuZmlyc3QoKQogICAgICAgIHJldHVybiBwcm9maWxlcy5maW5kIHsgaXQuaWQgPT0gaWQgfQogICAgICAgICAgICA/OiBlcnJvcigiQ3VycmVudCBUVFMgcHJvZmlsZSBpcyBtaXNzaW5nOiAkaWQiKQogICAgfQoKICAgIC8qKiBSZXR1cm5zIHRoZSBhY3RpdmUgU1RUIHByb2ZpbGUuICovCiAgICBzdXNwZW5kIGZ1biBnZXRDdXJyZW50U3R0UHJvZmlsZSgpOiBTdHRQcm9maWxlIHsKICAgICAgICB2YWwgcHJvZmlsZXMgPSBzdHRQcm9maWxlc0Zsb3cuZmlyc3QoKQogICAgICAgIHZhbCBpZCA9IGN1cnJlbnRTdHRQcm9maWxlSWRGbG93LmZpcnN0KCkKICAgICAgICByZXR1cm4gcHJvZmlsZXMuZmluZCB7IGl0LmlkID09IGlkIH0KICAgICAgICAgICAgPzogZXJyb3IoIkN1cnJlbnQgU1RUIHByb2ZpbGUgaXMgbWlzc2luZzogJGlkIikKICAgIH0KCiAgICAvKioKICAgICAqIENyZWF0ZXMgYSBUVFMgcHJvZmlsZSBmcm9tIGFuIG9wdGlvbmFsIGV4aXN0aW5nIHByb2ZpbGUgYW5kIG1ha2VzIGl0IGFjdGl2ZS4KICAgICAqLwogICAgc3VzcGVuZCBmdW4gY3JlYXRlVHRzUHJvZmlsZShuYW1lOiBTdHJpbmcsIHRlbXBsYXRlOiBUdHNQcm9maWxlPyA9IG51bGwpOiBUdHNQcm9maWxlIHsKICAgICAgICB2YWwgbm9ybWFsaXplZE5hbWUgPSByZXF1aXJlUHJvZmlsZU5hbWUobmFtZSkKICAgICAgICB2YWwgbm93ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICB2YWwgcHJvZmlsZSA9ICh0ZW1wbGF0ZSA/OiBnZXRDdXJyZW50VHRzUHJvZmlsZSgpKS5jb3B5KAogICAgICAgICAgICBpZCA9IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCksCiAgICAgICAgICAgIG5hbWUgPSBub3JtYWxpemVkTmFtZSwKICAgICAgICAgICAgY3JlYXRlZEF0ID0gbm93LAogICAgICAgICAgICB1cGRhdGVkQXQgPSBub3csCiAgICAgICAgKQogICAgICAgIGRhdGFTdG9yZS5lZGl0IHsgcHJlZmVyZW5jZXMgLT4KICAgICAgICAgICAgdmFsIHByb2ZpbGVzID0gZGVjb2RlVHRzUHJvZmlsZXMocHJlZmVyZW5jZXNbVFRTX1BST0ZJTEVTXSkgKyBwcm9maWxlCiAgICAgICAgICAgIHByZWZlcmVuY2VzW1RUU19QUk9GSUxFU10gPSBqc29uLmVuY29kZVRvU3RyaW5nKHByb2ZpbGVzKQogICAgICAgICAgICBwcmVmZXJlbmNlc1tDVVJSRU5UX1RUU19QUk9GSUxFX0lEXSA9IHByb2ZpbGUuaWQKICAgICAgICB9CiAgICAgICAgcHJvamVjdFR0c1Byb2ZpbGUocHJvZmlsZSkKICAgICAgICByZXR1cm4gcHJvZmlsZQogICAgfQoKICAgIC8qKgogICAgICogUmVwbGFjZXMgb25lIFRUUyBwcm9maWxlIHdoaWxlIHByZXNlcnZpbmcgaXRzIGlkZW50aXR5IGFuZCBjcmVhdGlvbiB0aW1lLgogICAgICovCiAgICBzdXNwZW5kIGZ1biB1cGRhdGVUdHNQcm9maWxlKHByb2ZpbGU6IFR0c1Byb2ZpbGUpOiBUdHNQcm9maWxlIHsKICAgICAgICB2YWwgbm9ybWFsaXplZCA9IHByb2ZpbGUuY29weSgKICAgICAgICAgICAgbmFtZSA9IHJlcXVpcmVQcm9maWxlTmFtZShwcm9maWxlLm5hbWUpLAogICAgICAgICAgICBjbGVhbmVyUmVnZXhzID0gcHJvZmlsZS5jbGVhbmVyUmVnZXhzLmZpbHRlcihTdHJpbmc6OmlzTm90QmxhbmspLAogICAgICAgICAgICBzcGVlY2hSYXRlID0gcmVxdWlyZVBvc2l0aXZlKHByb2ZpbGUuc3BlZWNoUmF0ZSwgIlRUUyBzcGVlY2ggcmF0ZSIpLAogICAgICAgICAgICBwaXRjaCA9IHJlcXVpcmVQb3NpdGl2ZShwcm9maWxlLnBpdGNoLCAiVFRTIHBpdGNoIiksCiAgICAgICAgICAgIHVwZGF0ZWRBdCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgICAgICkKICAgICAgICB2YXIgYWN0aXZlID0gZmFsc2UKICAgICAgICBkYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHZhbCBwcm9maWxlcyA9IGRlY29kZVR0c1Byb2ZpbGVzKHByZWZlcmVuY2VzW1RUU19QUk9GSUxFU10pCiAgICAgICAgICAgIHZhbCBleGlzdGluZyA9IHByb2ZpbGVzLmZpbmQgeyBpdC5pZCA9PSBub3JtYWxpemVkLmlkIH0KICAgICAgICAgICAgICAgID86IGVycm9yKCJUVFMgcHJvZmlsZSBkb2VzIG5vdCBleGlzdDogJHtub3JtYWxpemVkLmlkfSIpCiAgICAgICAgICAgIHZhbCB1cGRhdGVkID0gbm9ybWFsaXplZC5jb3B5KGNyZWF0ZWRBdCA9IGV4aXN0aW5nLmNyZWF0ZWRBdCkKICAgICAgICAgICAgcHJlZmVyZW5jZXNbVFRTX1BST0ZJTEVTXSA9IGpzb24uZW5jb2RlVG9TdHJpbmcoCiAgICAgICAgICAgICAgICBwcm9maWxlcy5tYXAgeyBpdGVtIC0+IGlmIChpdGVtLmlkID09IHVwZGF0ZWQuaWQpIHVwZGF0ZWQgZWxzZSBpdGVtIH0sCiAgICAgICAgICAgICkKICAgICAgICAgICAgYWN0aXZlID0gcHJlZmVyZW5jZXNbQ1VSUkVOVF9UVFNfUFJPRklMRV9JRF0gPT0gdXBkYXRlZC5pZAogICAgICAgIH0KICAgICAgICB2YWwgdXBkYXRlZCA9IGdldFR0c1Byb2ZpbGUobm9ybWFsaXplZC5pZCkKICAgICAgICBpZiAoYWN0aXZlKSBwcm9qZWN0VHRzUHJvZmlsZSh1cGRhdGVkKQogICAgICAgIHJldHVybiB1cGRhdGVkCiAgICB9CgogICAgLyoqCiAgICAgKiBDcmVhdGVzIGFuIFNUVCBwcm9maWxlIGZyb20gYW4gb3B0aW9uYWwgZXhpc3RpbmcgcHJvZmlsZSBhbmQgbWFrZXMgaXQgYWN0aXZlLgogICAgICovCiAgICBzdXNwZW5kIGZ1biBjcmVhdGVTdHRQcm9maWxlKG5hbWU6IFN0cmluZywgdGVtcGxhdGU6IFN0dFByb2ZpbGU/ID0gbnVsbCk6IFN0dFByb2ZpbGUgewogICAgICAgIHZhbCBub3JtYWxpemVkTmFtZSA9IHJlcXVpcmVQcm9maWxlTmFtZShuYW1lKQogICAgICAgIHZhbCBub3cgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIHZhbCBwcm9maWxlID0gKHRlbXBsYXRlID86IGdldEN1cnJlbnRTdHRQcm9maWxlKCkpLmNvcHkoCiAgICAgICAgICAgIGlkID0gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKSwKICAgICAgICAgICAgbmFtZSA9IG5vcm1hbGl6ZWROYW1lLAogICAgICAgICAgICBjcmVhdGVkQXQgPSBub3csCiAgICAgICAgICAgIHVwZGF0ZWRBdCA9IG5vdywKICAgICAgICApCiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICB2YWwgcHJvZmlsZXMgPSBkZWNvZGVTdHRQcm9maWxlcyhwcmVmZXJlbmNlc1tTVFRfUFJPRklMRVNdKSArIHByb2ZpbGUKICAgICAgICAgICAgcHJlZmVyZW5jZXNbU1RUX1BST0ZJTEVTXSA9IGpzb24uZW5jb2RlVG9TdHJpbmcocHJvZmlsZXMpCiAgICAgICAgICAgIHByZWZlcmVuY2VzW0NVUlJFTlRfU1RUX1BST0ZJTEVfSURdID0gcHJvZmlsZS5pZAogICAgICAgIH0KICAgICAgICBwcm9qZWN0U3R0UHJvZmlsZShwcm9maWxlKQogICAgICAgIHJldHVybiBwcm9maWxlCiAgICB9CgogICAgLyoqCiAgICAgKiBSZXBsYWNlcyBvbmUgU1RUIHByb2ZpbGUgd2hpbGUgcHJlc2VydmluZyBpdHMgaWRlbnRpdHkgYW5kIGNyZWF0aW9uIHRpbWUuCiAgICAgKi8KICAgIHN1c3BlbmQgZnVuIHVwZGF0ZVN0dFByb2ZpbGUocHJvZmlsZTogU3R0UHJvZmlsZSk6IFN0dFByb2ZpbGUgewogICAgICAgIHZhbCBub3JtYWxpemVkID0gcHJvZmlsZS5jb3B5KAogICAgICAgICAgICBuYW1lID0gcmVxdWlyZVByb2ZpbGVOYW1lKHByb2ZpbGUubmFtZSksCiAgICAgICAgICAgIHVwZGF0ZWRBdCA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgICAgICkKICAgICAgICB2YXIgYWN0aXZlID0gZmFsc2UKICAgICAgICBkYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIHZhbCBwcm9maWxlcyA9IGRlY29kZVN0dFByb2ZpbGVzKHByZWZlcmVuY2VzW1NUVF9QUk9GSUxFU10pCiAgICAgICAgICAgIHZhbCBleGlzdGluZyA9IHByb2ZpbGVzLmZpbmQgeyBpdC5pZCA9PSBub3JtYWxpemVkLmlkIH0KICAgICAgICAgICAgICAgID86IGVycm9yKCJTVFQgcHJvZmlsZSBkb2VzIG5vdCBleGlzdDogJHtub3JtYWxpemVkLmlkfSIpCiAgICAgICAgICAgIHZhbCB1cGRhdGVkID0gbm9ybWFsaXplZC5jb3B5KGNyZWF0ZWRBdCA9IGV4aXN0aW5nLmNyZWF0ZWRBdCkKICAgICAgICAgICAgcHJlZmVyZW5jZXNbU1RUX1BST0ZJTEVTXSA9IGpzb24uZW5jb2RlVG9TdHJpbmcoCiAgICAgICAgICAgICAgICBwcm9maWxlcy5tYXAgeyBpdGVtIC0+IGlmIChpdGVtLmlkID09IHVwZGF0ZWQuaWQpIHVwZGF0ZWQgZWxzZSBpdGVtIH0sCiAgICAgICAgICAgICkKICAgICAgICAgICAgYWN0aXZlID0gcHJlZmVyZW5jZXNbQ1VSUkVOVF9TVFRfUFJPRklMRV9JRF0gPT0gdXBkYXRlZC5pZAogICAgICAgIH0KICAgICAgICB2YWwgdXBkYXRlZCA9IGdldFN0dFByb2ZpbGUobm9ybWFsaXplZC5pZCkKICAgICAgICBpZiAoYWN0aXZlKSBwcm9qZWN0U3R0UHJvZmlsZSh1cGRhdGVkKQogICAgICAgIHJldHVybiB1cGRhdGVkCiAgICB9CgogICAgLyoqCiAgICAgKiBNYWtlcyBhbiBleGlzdGluZyBUVFMgcHJvZmlsZSBhY3RpdmUgYW5kIHN5bmNocm9uaXplcyBleGlzdGluZyBwcm92aWRlcnMnIGlucHV0IHByZWZlcmVuY2VzLgogICAgICovCiAgICBzdXNwZW5kIGZ1biBzZWxlY3RUdHNQcm9maWxlKGlkOiBTdHJpbmcpIHsKICAgICAgICB2YWwgcHJvZmlsZSA9IGdldFR0c1Byb2ZpbGUoaWQpCiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPiBwcmVmZXJlbmNlc1tDVVJSRU5UX1RUU19QUk9GSUxFX0lEXSA9IHByb2ZpbGUuaWQgfQogICAgICAgIHByb2plY3RUdHNQcm9maWxlKHByb2ZpbGUpCiAgICB9CgogICAgLyoqCiAgICAgKiBNYWtlcyBhbiBleGlzdGluZyBTVFQgcHJvZmlsZSBhY3RpdmUgYW5kIHN5bmNocm9uaXplcyBleGlzdGluZyBwcm92aWRlcnMnIGlucHV0IHByZWZlcmVuY2VzLgogICAgICovCiAgICBzdXNwZW5kIGZ1biBzZWxlY3RTdHRQcm9maWxlKGlkOiBTdHJpbmcpIHsKICAgICAgICB2YWwgcHJvZmlsZSA9IGdldFN0dFByb2ZpbGUoaWQpCiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPiBwcmVmZXJlbmNlc1tDVVJSRU5UX1NUVF9QUk9GSUxFX0lEXSA9IHByb2ZpbGUuaWQgfQogICAgICAgIHByb2plY3RTdHRQcm9maWxlKHByb2ZpbGUpCiAgICB9CgogICAgLyoqCiAgICAgKiBSZW1vdmVzIGFuIGluYWN0aXZlIFRUUyBwcm9maWxlLgogICAgICovCiAgICBzdXNwZW5kIGZ1biBkZWxldGVUdHNQcm9maWxlKGlkOiBTdHJpbmcpIHsKICAgICAgICBkYXRhU3RvcmUuZWRpdCB7IHByZWZlcmVuY2VzIC0+CiAgICAgICAgICAgIGNoZWNrKHByZWZlcmVuY2VzW0NVUlJFTlRfVFRTX1BST0ZJTEVfSURdICE9IGlkKSB7CiAgICAgICAgICAgICAgICAiVGhlIGFjdGl2ZSBUVFMgcHJvZmlsZSBjYW5ub3QgYmUgZGVsZXRlZCIKICAgICAgICAgICAgfQogICAgICAgICAgICB2YWwgcHJvZmlsZXMgPSBkZWNvZGVUdHNQcm9maWxlcyhwcmVmZXJlbmNlc1tUVFNfUFJPRklMRVNdKQogICAgICAgICAgICBjaGVjayhwcm9maWxlcy5hbnkgeyBpdC5pZCA9PSBpZCB9KSB7ICJUVFMgcHJvZmlsZSBkb2VzIG5vdCBleGlzdDogJGlkIiB9CiAgICAgICAgICAgIHByZWZlcmVuY2VzW1RUU19QUk9GSUxFU10gPSBqc29uLmVuY29kZVRvU3RyaW5nKHByb2ZpbGVzLmZpbHRlck5vdCB7IGl0LmlkID09IGlkIH0pCiAgICAgICAgfQogICAgfQoKICAgIC8qKgogICAgICogUmVtb3ZlcyBhbiBpbmFjdGl2ZSBTVFQgcHJvZmlsZS4KICAgICAqLwogICAgc3VzcGVuZCBmdW4gZGVsZXRlU3R0UHJvZmlsZShpZDogU3RyaW5nKSB7CiAgICAgICAgZGF0YVN0b3JlLmVkaXQgeyBwcmVmZXJlbmNlcyAtPgogICAgICAgICAgICBjaGVjayhwcmVmZXJlbmNlc1tDVVJSRU5UX1NUVF9QUk9GSUxFX0lEXSAhPSBpZCkgewogICAgICAgICAgICAgICAgIlRoZSBhY3RpdmUgU1RUIHByb2ZpbGUgY2Fubm90IGJlIGRlbGV0ZWQiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIHByb2ZpbGVzID0gZGVjb2RlU3R0UHJvZmlsZXMocHJlZmVyZW5jZXNbU1RUX1BST0ZJTEVTXSkKICAgICAgICAgICAgY2hlY2socHJvZmlsZXMuYW55IHsgaXQuaWQgPT0gaWQgfSkgeyAiU1RUIHByb2ZpbGUgZG9lcyBub3QgZXhpc3Q6ICRpZCIgfQogICAgICAgICAgICBwcmVmZXJlbmNlc1tTVFRfUFJPRklMRVNdID0ganNvbi5lbmNvZGVUb1N0cmluZyhwcm9maWxlcy5maWx0ZXJOb3QgeyBpdC5pZCA9PSBpZCB9KQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHN1c3BlbmQgZnVuIGdldFR0c1Byb2ZpbGUoaWQ6IFN0cmluZyk6IFR0c1Byb2ZpbGUgewogICAgICAgIHJldHVybiB0dHNQcm9maWxlc0Zsb3cuZmlyc3QoKS5maW5kIHsgaXQuaWQgPT0gaWQgfQogICAgICAgICAgICA/OiBlcnJvcigiVFRTIHByb2ZpbGUgZG9lcyBub3QgZXhpc3Q6ICRpZCIpCiAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biBnZXRTdHRQcm9maWxlKGlkOiBTdHJpbmcpOiBTdHRQcm9maWxlIHsKICAgICAgICByZXR1cm4gc3R0UHJvZmlsZXNGbG93LmZpcnN0KCkuZmluZCB7IGl0LmlkID09IGlkIH0KICAgICAgICAgICAgPzogZXJyb3IoIlNUVCBwcm9maWxlIGRvZXMgbm90IGV4aXN0OiAkaWQiKQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gcHJvamVjdFR0c1Byb2ZpbGUocHJvZmlsZTogVHRzUHJvZmlsZSkgewogICAgICAgIGxlZ2FjeVByZWZlcmVuY2VzLnNhdmVUdHNTZXR0aW5ncygKICAgICAgICAgICAgc2VydmljZVR5cGUgPSBwcm9maWxlLnNlcnZpY2VUeXBlLAogICAgICAgICAgICBodHRwQ29uZmlnID0gcHJvZmlsZS5odHRwQ29uZmlnLAogICAgICAgICAgICB2aXRzQ29uZmlnID0gcHJvZmlsZS52aXRzQ29uZmlnLAogICAgICAgICAgICBjbGVhbmVyUmVnZXhzID0gcHJvZmlsZS5jbGVhbmVyUmVnZXhzLAogICAgICAgICAgICBzcGVlY2hSYXRlID0gcHJvZmlsZS5zcGVlY2hSYXRlLAogICAgICAgICAgICBwaXRjaCA9IHByb2ZpbGUucGl0Y2gsCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgc3VzcGVuZCBmdW4gcHJvamVjdFN0dFByb2ZpbGUocHJvZmlsZTogU3R0UHJvZmlsZSkgewogICAgICAgIGxlZ2FjeVByZWZlcmVuY2VzLnNhdmVTdHRTZXR0aW5ncygKICAgICAgICAgICAgc2VydmljZVR5cGUgPSBwcm9maWxlLnNlcnZpY2VUeXBlLAogICAgICAgICAgICBodHRwQ29uZmlnID0gcHJvZmlsZS5odHRwQ29uZmlnLAogICAgICAgICkKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXF1aXJlUHJvZmlsZU5hbWUobmFtZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICByZXR1cm4gbmFtZS50cmltKCkuYWxzbyB7IGNoZWNrKGl0LmlzTm90RW1wdHkoKSkgeyAiU3BlZWNoIHByb2ZpbGUgbmFtZSBpcyBlbXB0eSIgfSB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVxdWlyZVBvc2l0aXZlKHZhbHVlOiBGbG9hdCwgbGFiZWw6IFN0cmluZyk6IEZsb2F0IHsKICAgICAgICBjaGVjayh2YWx1ZSA+IDBmKSB7ICIkbGFiZWwgbXVzdCBiZSBwb3NpdGl2ZSIgfQogICAgICAgIHJldHVybiB2YWx1ZQogICAgfQp9Cg==
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import androidx.datastore.core.DataStore
+import androidx.datastore.preferences.core.MutablePreferences
+import androidx.datastore.preferences.core.Preferences
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.stringPreferencesKey
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.api.speech.SpeechServiceFactory
+import com.bslsjdk.operit.api.voice.VoiceServiceFactory
+import java.util.UUID
+import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.first
+import kotlinx.coroutines.flow.map
+import kotlinx.serialization.Serializable
+import kotlinx.serialization.builtins.ListSerializer
+import kotlinx.serialization.decodeFromString
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
+
+private val Context.speechServiceProfilesDataStore: DataStore<Preferences> by
+    versionedPreferencesDataStore(
+        name = "speech_service_profiles",
+        currentVersion = 1,
+    ) { appContext ->
+        SpeechServiceProfilesPreferences.schemaMigration(appContext)
+    }
+
+/**
+ * Stores independent TTS and STT configuration profiles.
+ *
+ * The legacy speech preferences remain the runtime projection consumed by the existing providers.
+ * Keeping that projection aligned with the active profile avoids changing a provider's request
+ * contract while published installations migrate to the new profile store.
+ */
+class SpeechServiceProfilesPreferences(private val context: Context) {
+
+    @Serializable
+    data class TtsProfile(
+        val id: String,
+        val name: String,
+        val serviceType: VoiceServiceFactory.VoiceServiceType,
+        val httpConfig: SpeechServicesPreferences.TtsHttpConfig,
+        val vitsConfig: SpeechServicesPreferences.VitsTtsPackageConfig,
+        val cleanerRegexs: List<String>,
+        val speechRate: Float,
+        val pitch: Float,
+        val createdAt: Long,
+        val updatedAt: Long,
+    )
+
+    @Serializable
+    data class SttProfile(
+        val id: String,
+        val name: String,
+        val serviceType: SpeechServiceFactory.SpeechServiceType,
+        val httpConfig: SpeechServicesPreferences.SttHttpConfig,
+        val createdAt: Long,
+        val updatedAt: Long,
+    )
+
+    companion object {
+        private const val LEGACY_TTS_PROFILE_ID = "legacy-tts-profile"
+        private const val LEGACY_STT_PROFILE_ID = "legacy-stt-profile"
+
+        private val TTS_PROFILES = stringPreferencesKey("tts_profiles")
+        private val STT_PROFILES = stringPreferencesKey("stt_profiles")
+        private val CURRENT_TTS_PROFILE_ID = stringPreferencesKey("current_tts_profile_id")
+        private val CURRENT_STT_PROFILE_ID = stringPreferencesKey("current_stt_profile_id")
+
+        internal val json = Json { ignoreUnknownKeys = true }
+
+        internal fun schemaMigration(context: Context): PreferencesSchemaMigration {
+            return preferenceSchemaMigration { version, preferences ->
+                when (version) {
+                    0 -> migratePreferencesFromVersionZero(context, preferences)
+                    else -> missingPreferencesSchemaMigration(version)
+                }
+            }
+        }
+
+        private suspend fun migratePreferencesFromVersionZero(
+            context: Context,
+            preferences: MutablePreferences,
+        ) {
+            val legacyPreferences = SpeechServicesPreferences(context.applicationContext)
+            val now = System.currentTimeMillis()
+            val legacyTtsProfile = TtsProfile(
+                id = LEGACY_TTS_PROFILE_ID,
+                name = context.getString(R.string.speech_services_profile_migrated_tts),
+                serviceType = legacyPreferences.ttsServiceTypeFlow.first(),
+                httpConfig = legacyPreferences.ttsHttpConfigFlow.first(),
+                vitsConfig = legacyPreferences.ttsVitsPackageConfigFlow.first(),
+                cleanerRegexs = legacyPreferences.ttsCleanerRegexsFlow.first(),
+                speechRate = legacyPreferences.ttsSpeechRateFlow.first(),
+                pitch = legacyPreferences.ttsPitchFlow.first(),
+                createdAt = now,
+                updatedAt = now,
+            )
+            val legacySttProfile = SttProfile(
+                id = LEGACY_STT_PROFILE_ID,
+                name = context.getString(R.string.speech_services_profile_migrated_stt),
+                serviceType = legacyPreferences.sttServiceTypeFlow.first(),
+                httpConfig = legacyPreferences.sttHttpConfigFlow.first(),
+                createdAt = now,
+                updatedAt = now,
+            )
+
+            val storedTtsProfiles = decodeTtsProfiles(preferences[TTS_PROFILES])
+            val storedSttProfiles = decodeSttProfiles(preferences[STT_PROFILES])
+            val ttsProfiles = if (storedTtsProfiles.isEmpty()) listOf(legacyTtsProfile) else storedTtsProfiles
+            val sttProfiles = if (storedSttProfiles.isEmpty()) listOf(legacySttProfile) else storedSttProfiles
+            val currentTtsId = preferences[CURRENT_TTS_PROFILE_ID]
+            val currentSttId = preferences[CURRENT_STT_PROFILE_ID]
+
+            preferences[TTS_PROFILES] = json.encodeToString(ttsProfiles)
+            preferences[STT_PROFILES] = json.encodeToString(sttProfiles)
+            preferences[CURRENT_TTS_PROFILE_ID] = when {
+                currentTtsId != null && ttsProfiles.any { it.id == currentTtsId } -> currentTtsId
+                else -> ttsProfiles.first().id
+            }
+            preferences[CURRENT_STT_PROFILE_ID] = when {
+                currentSttId != null && sttProfiles.any { it.id == currentSttId } -> currentSttId
+                else -> sttProfiles.first().id
+            }
+        }
+
+        internal fun decodeTtsProfiles(raw: String?): List<TtsProfile> {
+            if (raw.isNullOrBlank()) return emptyList()
+            return json.decodeFromString(ListSerializer(TtsProfile.serializer()), raw)
+        }
+
+        internal fun decodeSttProfiles(raw: String?): List<SttProfile> {
+            if (raw.isNullOrBlank()) return emptyList()
+            return json.decodeFromString(ListSerializer(SttProfile.serializer()), raw)
+        }
+    }
+
+    private val dataStore = context.speechServiceProfilesDataStore
+    private val json = SpeechServiceProfilesPreferences.json
+    private val legacyPreferences = SpeechServicesPreferences(context.applicationContext)
+
+    val ttsProfilesFlow: Flow<List<TtsProfile>> = dataStore.data.map { preferences ->
+        decodeTtsProfiles(preferences[TTS_PROFILES])
+    }
+
+    val sttProfilesFlow: Flow<List<SttProfile>> = dataStore.data.map { preferences ->
+        decodeSttProfiles(preferences[STT_PROFILES])
+    }
+
+    val currentTtsProfileIdFlow: Flow<String> = dataStore.data.map { preferences ->
+        preferences[CURRENT_TTS_PROFILE_ID].orEmpty()
+    }
+
+    val currentSttProfileIdFlow: Flow<String> = dataStore.data.map { preferences ->
+        preferences[CURRENT_STT_PROFILE_ID].orEmpty()
+    }
+
+    val currentTtsProfileFlow: Flow<TtsProfile> =
+        ttsProfilesFlow.combine(currentTtsProfileIdFlow) { profiles, id ->
+            profiles.first { profile -> profile.id == id }
+        }
+
+    val currentSttProfileFlow: Flow<SttProfile> =
+        sttProfilesFlow.combine(currentSttProfileIdFlow) { profiles, id ->
+            profiles.first { profile -> profile.id == id }
+        }
+
+    val currentTtsProfileOrNullFlow: Flow<TtsProfile?> =
+        ttsProfilesFlow.combine(currentTtsProfileIdFlow) { profiles, id ->
+            profiles.find { profile -> profile.id == id }
+        }
+
+    val currentSttProfileOrNullFlow: Flow<SttProfile?> =
+        sttProfilesFlow.combine(currentSttProfileIdFlow) { profiles, id ->
+            profiles.find { profile -> profile.id == id }
+        }
+
+    /** Returns the active TTS profile. */
+    suspend fun getCurrentTtsProfile(): TtsProfile {
+        val profiles = ttsProfilesFlow.first()
+        val id = currentTtsProfileIdFlow.first()
+        return profiles.find { it.id == id }
+            ?: error("Current TTS profile is missing: $id")
+    }
+
+    /** Returns the active STT profile. */
+    suspend fun getCurrentSttProfile(): SttProfile {
+        val profiles = sttProfilesFlow.first()
+        val id = currentSttProfileIdFlow.first()
+        return profiles.find { it.id == id }
+            ?: error("Current STT profile is missing: $id")
+    }
+
+    /**
+     * Creates a TTS profile from an optional existing profile and makes it active.
+     */
+    suspend fun createTtsProfile(name: String, template: TtsProfile? = null): TtsProfile {
+        val normalizedName = requireProfileName(name)
+        val now = System.currentTimeMillis()
+        val profile = (template ?: getCurrentTtsProfile()).copy(
+            id = UUID.randomUUID().toString(),
+            name = normalizedName,
+            createdAt = now,
+            updatedAt = now,
+        )
+        dataStore.edit { preferences ->
+            val profiles = decodeTtsProfiles(preferences[TTS_PROFILES]) + profile
+            preferences[TTS_PROFILES] = json.encodeToString(profiles)
+            preferences[CURRENT_TTS_PROFILE_ID] = profile.id
+        }
+        projectTtsProfile(profile)
+        return profile
+    }
+
+    /**
+     * Replaces one TTS profile while preserving its identity and creation time.
+     */
+    suspend fun updateTtsProfile(profile: TtsProfile): TtsProfile {
+        val normalized = profile.copy(
+            name = requireProfileName(profile.name),
+            cleanerRegexs = profile.cleanerRegexs.filter(String::isNotBlank),
+            speechRate = requirePositive(profile.speechRate, "TTS speech rate"),
+            pitch = requirePositive(profile.pitch, "TTS pitch"),
+            updatedAt = System.currentTimeMillis(),
+        )
+        var active = false
+        dataStore.edit { preferences ->
+            val profiles = decodeTtsProfiles(preferences[TTS_PROFILES])
+            val existing = profiles.find { it.id == normalized.id }
+                ?: error("TTS profile does not exist: ${normalized.id}")
+            val updated = normalized.copy(createdAt = existing.createdAt)
+            preferences[TTS_PROFILES] = json.encodeToString(
+                profiles.map { item -> if (item.id == updated.id) updated else item },
+            )
+            active = preferences[CURRENT_TTS_PROFILE_ID] == updated.id
+        }
+        val updated = getTtsProfile(normalized.id)
+        if (active) projectTtsProfile(updated)
+        return updated
+    }
+
+    /**
+     * Creates an STT profile from an optional existing profile and makes it active.
+     */
+    suspend fun createSttProfile(name: String, template: SttProfile? = null): SttProfile {
+        val normalizedName = requireProfileName(name)
+        val now = System.currentTimeMillis()
+        val profile = (template ?: getCurrentSttProfile()).copy(
+            id = UUID.randomUUID().toString(),
+            name = normalizedName,
+            createdAt = now,
+            updatedAt = now,
+        )
+        dataStore.edit { preferences ->
+            val profiles = decodeSttProfiles(preferences[STT_PROFILES]) + profile
+            preferences[STT_PROFILES] = json.encodeToString(profiles)
+            preferences[CURRENT_STT_PROFILE_ID] = profile.id
+        }
+        projectSttProfile(profile)
+        return profile
+    }
+
+    /**
+     * Replaces one STT profile while preserving its identity and creation time.
+     */
+    suspend fun updateSttProfile(profile: SttProfile): SttProfile {
+        val normalized = profile.copy(
+            name = requireProfileName(profile.name),
+            updatedAt = System.currentTimeMillis(),
+        )
+        var active = false
+        dataStore.edit { preferences ->
+            val profiles = decodeSttProfiles(preferences[STT_PROFILES])
+            val existing = profiles.find { it.id == normalized.id }
+                ?: error("STT profile does not exist: ${normalized.id}")
+            val updated = normalized.copy(createdAt = existing.createdAt)
+            preferences[STT_PROFILES] = json.encodeToString(
+                profiles.map { item -> if (item.id == updated.id) updated else item },
+            )
+            active = preferences[CURRENT_STT_PROFILE_ID] == updated.id
+        }
+        val updated = getSttProfile(normalized.id)
+        if (active) projectSttProfile(updated)
+        return updated
+    }
+
+    /**
+     * Makes an existing TTS profile active and synchronizes existing providers' input preferences.
+     */
+    suspend fun selectTtsProfile(id: String) {
+        val profile = getTtsProfile(id)
+        dataStore.edit { preferences -> preferences[CURRENT_TTS_PROFILE_ID] = profile.id }
+        projectTtsProfile(profile)
+    }
+
+    /**
+     * Makes an existing STT profile active and synchronizes existing providers' input preferences.
+     */
+    suspend fun selectSttProfile(id: String) {
+        val profile = getSttProfile(id)
+        dataStore.edit { preferences -> preferences[CURRENT_STT_PROFILE_ID] = profile.id }
+        projectSttProfile(profile)
+    }
+
+    /**
+     * Removes an inactive TTS profile.
+     */
+    suspend fun deleteTtsProfile(id: String) {
+        dataStore.edit { preferences ->
+            check(preferences[CURRENT_TTS_PROFILE_ID] != id) {
+                "The active TTS profile cannot be deleted"
+            }
+            val profiles = decodeTtsProfiles(preferences[TTS_PROFILES])
+            check(profiles.any { it.id == id }) { "TTS profile does not exist: $id" }
+            preferences[TTS_PROFILES] = json.encodeToString(profiles.filterNot { it.id == id })
+        }
+    }
+
+    /**
+     * Removes an inactive STT profile.
+     */
+    suspend fun deleteSttProfile(id: String) {
+        dataStore.edit { preferences ->
+            check(preferences[CURRENT_STT_PROFILE_ID] != id) {
+                "The active STT profile cannot be deleted"
+            }
+            val profiles = decodeSttProfiles(preferences[STT_PROFILES])
+            check(profiles.any { it.id == id }) { "STT profile does not exist: $id" }
+            preferences[STT_PROFILES] = json.encodeToString(profiles.filterNot { it.id == id })
+        }
+    }
+
+    private suspend fun getTtsProfile(id: String): TtsProfile {
+        return ttsProfilesFlow.first().find { it.id == id }
+            ?: error("TTS profile does not exist: $id")
+    }
+
+    private suspend fun getSttProfile(id: String): SttProfile {
+        return sttProfilesFlow.first().find { it.id == id }
+            ?: error("STT profile does not exist: $id")
+    }
+
+    private suspend fun projectTtsProfile(profile: TtsProfile) {
+        legacyPreferences.saveTtsSettings(
+            serviceType = profile.serviceType,
+            httpConfig = profile.httpConfig,
+            vitsConfig = profile.vitsConfig,
+            cleanerRegexs = profile.cleanerRegexs,
+            speechRate = profile.speechRate,
+            pitch = profile.pitch,
+        )
+    }
+
+    private suspend fun projectSttProfile(profile: SttProfile) {
+        legacyPreferences.saveSttSettings(
+            serviceType = profile.serviceType,
+            httpConfig = profile.httpConfig,
+        )
+    }
+
+    private fun requireProfileName(name: String): String {
+        return name.trim().also { check(it.isNotEmpty()) { "Speech profile name is empty" } }
+    }
+
+    private fun requirePositive(value: Float, label: String): Float {
+        check(value > 0f) { "$label must be positive" }
+        return value
+    }
+}

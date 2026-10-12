@@ -1,1 +1,264 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMud2Vic2Vzc2lvbi5icm93c2VyCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5BcnJhbmdlbWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5FeHBlcmltZW50YWxMYXlvdXRBcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQ29sdW1uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LkZsb3dSb3cKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUGFkZGluZ1ZhbHVlcwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5LkxhenlDb2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXp5Lml0ZW1zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLkljb25zCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5Eb3dubG9hZAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuRmlsdGVyQ2hpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTGluZWFyUHJvZ3Jlc3NJbmRpY2F0b3IKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLk1hdGVyaWFsVGhlbWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLlRleHRCdXR0b24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUucmVtZW1iZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkucmVzLnN0cmluZ1Jlc291cmNlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuc3R5bGUuVGV4dE92ZXJmbG93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuZHAKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5SCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLmJyb3dzZXIuQnJvd3NlckRvd25sb2FkRmlsdGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLmJyb3dzZXIuQnJvd3NlckRvd25sb2FkSXRlbQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuZGVmYXVsdFRvb2wud2Vic2Vzc2lvbi5icm93c2VyLkJyb3dzZXJEb3dubG9hZFVpU3RhdGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmRlZmF1bHRUb29sLndlYnNlc3Npb24uYnJvd3Nlci5mb3JtYXRCeXRlcwoKQE9wdEluKEV4cGVyaW1lbnRhbExheW91dEFwaTo6Y2xhc3MpCkBDb21wb3NhYmxlCmludGVybmFsIGZ1biBXZWJTZXNzaW9uRG93bmxvYWRTaGVldCgKICAgIHVpU3RhdGU6IEJyb3dzZXJEb3dubG9hZFVpU3RhdGUsCiAgICBvbkZpbHRlckNoYW5nZTogKEJyb3dzZXJEb3dubG9hZEZpbHRlcikgLT4gVW5pdCwKICAgIG9uUGF1c2VEb3dubG9hZDogKFN0cmluZykgLT4gVW5pdCwKICAgIG9uUmVzdW1lRG93bmxvYWQ6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBvbkNhbmNlbERvd25sb2FkOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25SZXRyeURvd25sb2FkOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25EZWxldGVEb3dubG9hZDogKFN0cmluZywgQm9vbGVhbikgLT4gVW5pdCwKICAgIG9uT3BlbkRvd25sb2FkZWRGaWxlOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25PcGVuRG93bmxvYWRMb2NhdGlvbjogKFN0cmluZykgLT4gVW5pdCwKICAgIG1vZGlmaWVyOiBNb2RpZmllciA9IE1vZGlmaWVyCikgewogICAgdmFsIGFjdGl2ZUNvdW50ID0gcmVtZW1iZXIodWlTdGF0ZS50YXNrcykgeyB1aVN0YXRlLnRhc2tzLmNvdW50IHsgaXQuc3RhdHVzIGluIHNldE9mKCJxdWV1ZWQiLCAiY29ubmVjdGluZyIsICJkb3dubG9hZGluZyIpIH0gfQogICAgdmFsIGZhaWxlZENvdW50ID0gcmVtZW1iZXIodWlTdGF0ZS50YXNrcykgeyB1aVN0YXRlLnRhc2tzLmNvdW50IHsgaXQuc3RhdHVzID09ICJmYWlsZWQiIH0gfQogICAgdmFsIGZpbHRlcmVkVGFza3MgPQogICAgICAgIHJlbWVtYmVyKHVpU3RhdGUudGFza3MsIHVpU3RhdGUuc2VsZWN0ZWRGaWx0ZXIpIHsKICAgICAgICAgICAgdWlTdGF0ZS50YXNrcy5maWx0ZXIgeyBpdGVtIC0+CiAgICAgICAgICAgICAgICB3aGVuICh1aVN0YXRlLnNlbGVjdGVkRmlsdGVyKSB7CiAgICAgICAgICAgICAgICAgICAgQnJvd3NlckRvd25sb2FkRmlsdGVyLklOX1BST0dSRVNTIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGl0ZW0uc3RhdHVzIGluIHNldE9mKCJxdWV1ZWQiLCAiY29ubmVjdGluZyIsICJkb3dubG9hZGluZyIsICJwYXVzZWQiLCAiY2FuY2VsZWQiKQogICAgICAgICAgICAgICAgICAgIEJyb3dzZXJEb3dubG9hZEZpbHRlci5DT01QTEVURUQgLT4gaXRlbS5zdGF0dXMgPT0gImNvbXBsZXRlZCIKICAgICAgICAgICAgICAgICAgICBCcm93c2VyRG93bmxvYWRGaWx0ZXIuRkFJTEVEIC0+IGl0ZW0uc3RhdHVzID09ICJmYWlsZWQiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgV2ViU2Vzc2lvblNoZWV0U2NhZmZvbGQoCiAgICAgICAgdGl0bGUgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53ZWJfc2Vzc2lvbl9kb3dubG9hZHMpLAogICAgICAgIHN1YnRpdGxlID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud2ViX3Nlc3Npb25fZG93bmxvYWRzX3N1bW1hcnksIGFjdGl2ZUNvdW50LCBmYWlsZWRDb3VudCksCiAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllcgogICAgKSB7CiAgICAgICAgRmxvd1JvdygKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCksCiAgICAgICAgICAgIHZlcnRpY2FsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSg4LmRwKQogICAgICAgICkgewogICAgICAgICAgICBCcm93c2VyRG93bmxvYWRGaWx0ZXIuZW50cmllcy5mb3JFYWNoIHsgZmlsdGVyIC0+CiAgICAgICAgICAgICAgICBGaWx0ZXJDaGlwKAogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkID0gZmlsdGVyID09IHVpU3RhdGUuc2VsZWN0ZWRGaWx0ZXIsCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsgb25GaWx0ZXJDaGFuZ2UoZmlsdGVyKSB9LAogICAgICAgICAgICAgICAgICAgIGxhYmVsID0gewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2hlbiAoZmlsdGVyKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIEJyb3dzZXJEb3dubG9hZEZpbHRlci5JTl9QUk9HUkVTUyAtPiBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53ZWJfc2Vzc2lvbl9kb3dubG9hZHNfZmlsdGVyX2luX3Byb2dyZXNzKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBCcm93c2VyRG93bmxvYWRGaWx0ZXIuQ09NUExFVEVEIC0+IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndlYl9zZXNzaW9uX2Rvd25sb2Fkc19maWx0ZXJfY29tcGxldGVkKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBCcm93c2VyRG93bmxvYWRGaWx0ZXIuRkFJTEVEIC0+IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndlYl9zZXNzaW9uX2Rvd25sb2Fkc19maWx0ZXJfZmFpbGVkKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgaWYgKGZpbHRlcmVkVGFza3MuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIFdlYlNlc3Npb25FbXB0eVN0YXRlKAogICAgICAgICAgICAgICAgaWNvbiA9IEljb25zLkZpbGxlZC5Eb3dubG9hZCwKICAgICAgICAgICAgICAgIHRpdGxlID0gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud2ViX3Nlc3Npb25fZG93bmxvYWRzX2VtcHR5X3RpdGxlKSwKICAgICAgICAgICAgICAgIG1lc3NhZ2UgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53ZWJfc2Vzc2lvbl9kb3dubG9hZHNfZW1wdHlfbWVzc2FnZSkKICAgICAgICAgICAgKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIExhenlDb2x1bW4oCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDguZHApLAogICAgICAgICAgICAgICAgY29udGVudFBhZGRpbmcgPSBQYWRkaW5nVmFsdWVzKHZlcnRpY2FsID0gMi5kcCkKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBpdGVtcyhmaWx0ZXJlZFRhc2tzLCBrZXkgPSB7IGl0LmlkIH0pIHsgaXRlbSAtPgogICAgICAgICAgICAgICAgICAgIEJyb3dzZXJEb3dubG9hZFRhc2tDYXJkKAogICAgICAgICAgICAgICAgICAgICAgICBpdGVtID0gaXRlbSwKICAgICAgICAgICAgICAgICAgICAgICAgb25QYXVzZURvd25sb2FkID0gb25QYXVzZURvd25sb2FkLAogICAgICAgICAgICAgICAgICAgICAgICBvblJlc3VtZURvd25sb2FkID0gb25SZXN1bWVEb3dubG9hZCwKICAgICAgICAgICAgICAgICAgICAgICAgb25DYW5jZWxEb3dubG9hZCA9IG9uQ2FuY2VsRG93bmxvYWQsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uUmV0cnlEb3dubG9hZCA9IG9uUmV0cnlEb3dubG9hZCwKICAgICAgICAgICAgICAgICAgICAgICAgb25EZWxldGVEb3dubG9hZCA9IG9uRGVsZXRlRG93bmxvYWQsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uT3BlbkRvd25sb2FkZWRGaWxlID0gb25PcGVuRG93bmxvYWRlZEZpbGUsCiAgICAgICAgICAgICAgICAgICAgICAgIG9uT3BlbkRvd25sb2FkTG9jYXRpb24gPSBvbk9wZW5Eb3dubG9hZExvY2F0aW9uCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9CgpAT3B0SW4oRXhwZXJpbWVudGFsTGF5b3V0QXBpOjpjbGFzcykKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gQnJvd3NlckRvd25sb2FkVGFza0NhcmQoCiAgICBpdGVtOiBCcm93c2VyRG93bmxvYWRJdGVtLAogICAgb25QYXVzZURvd25sb2FkOiAoU3RyaW5nKSAtPiBVbml0LAogICAgb25SZXN1bWVEb3dubG9hZDogKFN0cmluZykgLT4gVW5pdCwKICAgIG9uQ2FuY2VsRG93bmxvYWQ6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBvblJldHJ5RG93bmxvYWQ6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBvbkRlbGV0ZURvd25sb2FkOiAoU3RyaW5nLCBCb29sZWFuKSAtPiBVbml0LAogICAgb25PcGVuRG93bmxvYWRlZEZpbGU6IChTdHJpbmcpIC0+IFVuaXQsCiAgICBvbk9wZW5Eb3dubG9hZExvY2F0aW9uOiAoU3RyaW5nKSAtPiBVbml0CikgewogICAgV2ViU2Vzc2lvbkl0ZW1DYXJkKAogICAgICAgIGhpZ2hsaWdodGVkID0gaXRlbS5zdGF0dXMgPT0gImRvd25sb2FkaW5nIiB8fCBpdGVtLnN0YXR1cyA9PSAiY29ubmVjdGluZyIKICAgICkgewogICAgICAgIENvbHVtbigKICAgICAgICAgICAgbW9kaWZpZXIgPQogICAgICAgICAgICAgICAgTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gMTIuZHAsIHZlcnRpY2FsID0gMTAuZHApLAogICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoOC5kcCkKICAgICAgICApIHsKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBpdGVtLmZpbGVOYW1lLAogICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keUxhcmdlLAogICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuTWVkaXVtLAogICAgICAgICAgICAgICAgbWF4TGluZXMgPSAxLAogICAgICAgICAgICAgICAgb3ZlcmZsb3cgPSBUZXh0T3ZlcmZsb3cuRWxsaXBzaXMKICAgICAgICAgICAgKQogICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgdGV4dCA9IHN0YXR1c0xhYmVsKGl0ZW0pLAogICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxNZWRpdW0sCiAgICAgICAgICAgICAgICBjb2xvciA9IHN0YXR1c0NvbG9yKGl0ZW0pCiAgICAgICAgICAgICkKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBpdGVtUHJvZ3Jlc3NUZXh0KGl0ZW0pLAogICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkuYm9keVNtYWxsLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgKQogICAgICAgICAgICBpZiAoaXRlbS5wcm9ncmVzcyAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICBMaW5lYXJQcm9ncmVzc0luZGljYXRvcigKICAgICAgICAgICAgICAgICAgICBwcm9ncmVzcyA9IHsgaXRlbS5wcm9ncmVzcyB9LAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkuaGVpZ2h0KDQuZHApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBpdGVtLmRlc3RpbmF0aW9uUGF0aCwKICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmxhYmVsU21hbGwsCiAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlVmFyaWFudCwKICAgICAgICAgICAgICAgIG1heExpbmVzID0gMSwKICAgICAgICAgICAgICAgIG92ZXJmbG93ID0gVGV4dE92ZXJmbG93LkVsbGlwc2lzCiAgICAgICAgICAgICkKICAgICAgICAgICAgaWYgKCFpdGVtLmVycm9yTWVzc2FnZS5pc051bGxPckJsYW5rKCkpIHsKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGl0ZW0uZXJyb3JNZXNzYWdlLAogICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICBGbG93Um93KAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5maWxsTWF4V2lkdGgoKSwKICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDQuZHApLAogICAgICAgICAgICAgICAgdmVydGljYWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LnNwYWNlZEJ5KDQuZHApCiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgaWYgKGl0ZW0uY2FuUGF1c2UpIHsKICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7IG9uUGF1c2VEb3dubG9hZChpdGVtLmlkKSB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud2ViX3Nlc3Npb25fZG93bmxvYWRfcGF1c2UpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChpdGVtLmNhblJlc3VtZSkgewogICAgICAgICAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IHsgb25SZXN1bWVEb3dubG9hZChpdGVtLmlkKSB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud2ViX3Nlc3Npb25fZG93bmxvYWRfcmVzdW1lKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoaXRlbS5jYW5DYW5jZWwpIHsKICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7IG9uQ2FuY2VsRG93bmxvYWQoaXRlbS5pZCkgfSkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndlYl9zZXNzaW9uX2Rvd25sb2FkX2NhbmNlbCkpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKGl0ZW0uY2FuUmV0cnkpIHsKICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7IG9uUmV0cnlEb3dubG9hZChpdGVtLmlkKSB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud2ViX3Nlc3Npb25fZG93bmxvYWRfcmV0cnkpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChpdGVtLmNhbk9wZW5GaWxlKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0geyBvbk9wZW5Eb3dubG9hZGVkRmlsZShpdGVtLmlkKSB9KSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud2ViX3Nlc3Npb25fZG93bmxvYWRfb3Blbl9maWxlKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiAoaXRlbS5jYW5PcGVuTG9jYXRpb24pIHsKICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7IG9uT3BlbkRvd25sb2FkTG9jYXRpb24oaXRlbS5pZCkgfSkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndlYl9zZXNzaW9uX2Rvd25sb2FkX29wZW5fbG9jYXRpb24pKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChpdGVtLmNhbkRlbGV0ZSkgewogICAgICAgICAgICAgICAgICAgIFRleHRCdXR0b24ob25DbGljayA9IHsgb25EZWxldGVEb3dubG9hZChpdGVtLmlkLCBmYWxzZSkgfSkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndlYl9zZXNzaW9uX2Rvd25sb2FkX2RlbGV0ZV9yZWNvcmQpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChpdGVtLmNhbkRlbGV0ZSAmJiBpdGVtLmNhbkRlbGV0ZUZpbGUpIHsKICAgICAgICAgICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSB7IG9uRGVsZXRlRG93bmxvYWQoaXRlbS5pZCwgdHJ1ZSkgfSkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndlYl9zZXNzaW9uX2Rvd25sb2FkX2RlbGV0ZV9maWxlX2FuZF9yZWNvcmQpKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gc3RhdHVzTGFiZWwoaXRlbTogQnJvd3NlckRvd25sb2FkSXRlbSk6IFN0cmluZyA9CiAgICB3aGVuIChpdGVtLnN0YXR1cykgewogICAgICAgICJxdWV1ZWQiIC0+IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndlYl9zZXNzaW9uX2Rvd25sb2FkX3N0YXR1c19xdWV1ZWQpCiAgICAgICAgImNvbm5lY3RpbmciIC0+IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndlYl9zZXNzaW9uX2Rvd25sb2FkX3N0YXR1c19jb25uZWN0aW5nKQogICAgICAgICJkb3dubG9hZGluZyIgLT4gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud2ViX3Nlc3Npb25fZG93bmxvYWRfc3RhdHVzX2Rvd25sb2FkaW5nKQogICAgICAgICJwYXVzZWQiIC0+IHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLndlYl9zZXNzaW9uX2Rvd25sb2FkX3N0YXR1c19wYXVzZWQpCiAgICAgICAgImNvbXBsZXRlZCIgLT4gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud2ViX3Nlc3Npb25fZG93bmxvYWRfc3RhdHVzX2NvbXBsZXRlZCkKICAgICAgICAiZmFpbGVkIiAtPiBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy53ZWJfc2Vzc2lvbl9kb3dubG9hZF9zdGF0dXNfZmFpbGVkKQogICAgICAgICJjYW5jZWxlZCIgLT4gc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcud2ViX3Nlc3Npb25fZG93bmxvYWRfc3RhdHVzX2NhbmNlbGVkKQogICAgICAgIGVsc2UgLT4gaXRlbS5zdGF0dXMKICAgIH0KCkBDb21wb3NhYmxlCnByaXZhdGUgZnVuIHN0YXR1c0NvbG9yKGl0ZW06IEJyb3dzZXJEb3dubG9hZEl0ZW0pID0KICAgIHdoZW4gKGl0ZW0uc3RhdHVzKSB7CiAgICAgICAgImZhaWxlZCIgLT4gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvcgogICAgICAgICJjb21wbGV0ZWQiIC0+IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgIGVsc2UgLT4gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICB9Cgpwcml2YXRlIGZ1biBpdGVtUHJvZ3Jlc3NUZXh0KGl0ZW06IEJyb3dzZXJEb3dubG9hZEl0ZW0pOiBTdHJpbmcgewogICAgdmFsIGJhc2UgPQogICAgICAgIGlmIChpdGVtLnRvdGFsQnl0ZXMgPiAwTCkgewogICAgICAgICAgICAiJHtmb3JtYXRCeXRlcyhpdGVtLmRvd25sb2FkZWRCeXRlcyl9IC8gJHtmb3JtYXRCeXRlcyhpdGVtLnRvdGFsQnl0ZXMpfSIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBmb3JtYXRCeXRlcyhpdGVtLmRvd25sb2FkZWRCeXRlcykKICAgICAgICB9CiAgICB2YWwgcHJvZ3Jlc3NUZXh0ID0KICAgICAgICBpdGVtLnByb2dyZXNzPy5sZXQgeyBwcm9ncmVzcyAtPgogICAgICAgICAgICAiJHsocHJvZ3Jlc3MgKiAxMDBmKS50b0ludCgpfSUgJGJhc2UiCiAgICAgICAgfSA/OiBiYXNlCiAgICByZXR1cm4gaWYgKGl0ZW0uc3BlZWRCeXRlc1BlclNlY29uZCA+IDBMKSB7CiAgICAgICAgIiRwcm9ncmVzc1RleHQgIHwgICR7Zm9ybWF0Qnl0ZXMoaXRlbS5zcGVlZEJ5dGVzUGVyU2Vjb25kKX0vcyIKICAgIH0gZWxzZSB7CiAgICAgICAgcHJvZ3Jlc3NUZXh0CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.websession.browser
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.ExperimentalLayoutApi
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.FlowRow
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Download
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.tools.defaultTool.websession.browser.BrowserDownloadFilter
+import com.bslsjdk.operit.core.tools.defaultTool.websession.browser.BrowserDownloadItem
+import com.bslsjdk.operit.core.tools.defaultTool.websession.browser.BrowserDownloadUiState
+import com.bslsjdk.operit.core.tools.defaultTool.websession.browser.formatBytes
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+internal fun WebSessionDownloadSheet(
+    uiState: BrowserDownloadUiState,
+    onFilterChange: (BrowserDownloadFilter) -> Unit,
+    onPauseDownload: (String) -> Unit,
+    onResumeDownload: (String) -> Unit,
+    onCancelDownload: (String) -> Unit,
+    onRetryDownload: (String) -> Unit,
+    onDeleteDownload: (String, Boolean) -> Unit,
+    onOpenDownloadedFile: (String) -> Unit,
+    onOpenDownloadLocation: (String) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    val activeCount = remember(uiState.tasks) { uiState.tasks.count { it.status in setOf("queued", "connecting", "downloading") } }
+    val failedCount = remember(uiState.tasks) { uiState.tasks.count { it.status == "failed" } }
+    val filteredTasks =
+        remember(uiState.tasks, uiState.selectedFilter) {
+            uiState.tasks.filter { item ->
+                when (uiState.selectedFilter) {
+                    BrowserDownloadFilter.IN_PROGRESS ->
+                        item.status in setOf("queued", "connecting", "downloading", "paused", "canceled")
+                    BrowserDownloadFilter.COMPLETED -> item.status == "completed"
+                    BrowserDownloadFilter.FAILED -> item.status == "failed"
+                }
+            }
+        }
+
+    WebSessionSheetScaffold(
+        title = stringResource(R.string.web_session_downloads),
+        subtitle = stringResource(R.string.web_session_downloads_summary, activeCount, failedCount),
+        modifier = modifier
+    ) {
+        FlowRow(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            BrowserDownloadFilter.entries.forEach { filter ->
+                FilterChip(
+                    selected = filter == uiState.selectedFilter,
+                    onClick = { onFilterChange(filter) },
+                    label = {
+                        Text(
+                            text =
+                                when (filter) {
+                                    BrowserDownloadFilter.IN_PROGRESS -> stringResource(R.string.web_session_downloads_filter_in_progress)
+                                    BrowserDownloadFilter.COMPLETED -> stringResource(R.string.web_session_downloads_filter_completed)
+                                    BrowserDownloadFilter.FAILED -> stringResource(R.string.web_session_downloads_filter_failed)
+                                }
+                        )
+                    }
+                )
+            }
+        }
+
+        if (filteredTasks.isEmpty()) {
+            WebSessionEmptyState(
+                icon = Icons.Filled.Download,
+                title = stringResource(R.string.web_session_downloads_empty_title),
+                message = stringResource(R.string.web_session_downloads_empty_message)
+            )
+        } else {
+            LazyColumn(
+                modifier = Modifier.fillMaxWidth(),
+                verticalArrangement = Arrangement.spacedBy(8.dp),
+                contentPadding = PaddingValues(vertical = 2.dp)
+            ) {
+                items(filteredTasks, key = { it.id }) { item ->
+                    BrowserDownloadTaskCard(
+                        item = item,
+                        onPauseDownload = onPauseDownload,
+                        onResumeDownload = onResumeDownload,
+                        onCancelDownload = onCancelDownload,
+                        onRetryDownload = onRetryDownload,
+                        onDeleteDownload = onDeleteDownload,
+                        onOpenDownloadedFile = onOpenDownloadedFile,
+                        onOpenDownloadLocation = onOpenDownloadLocation
+                    )
+                }
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun BrowserDownloadTaskCard(
+    item: BrowserDownloadItem,
+    onPauseDownload: (String) -> Unit,
+    onResumeDownload: (String) -> Unit,
+    onCancelDownload: (String) -> Unit,
+    onRetryDownload: (String) -> Unit,
+    onDeleteDownload: (String, Boolean) -> Unit,
+    onOpenDownloadedFile: (String) -> Unit,
+    onOpenDownloadLocation: (String) -> Unit
+) {
+    WebSessionItemCard(
+        highlighted = item.status == "downloading" || item.status == "connecting"
+    ) {
+        Column(
+            modifier =
+                Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 12.dp, vertical = 10.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            Text(
+                text = item.fileName,
+                style = MaterialTheme.typography.bodyLarge,
+                fontWeight = FontWeight.Medium,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
+            )
+            Text(
+                text = statusLabel(item),
+                style = MaterialTheme.typography.labelMedium,
+                color = statusColor(item)
+            )
+            Text(
+                text = itemProgressText(item),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            if (item.progress != null) {
+                LinearProgressIndicator(
+                    progress = { item.progress },
+                    modifier = Modifier.fillMaxWidth().height(4.dp)
+                )
+            }
+            Text(
+                text = item.destinationPath,
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
+            )
+            if (!item.errorMessage.isNullOrBlank()) {
+                Text(
+                    text = item.errorMessage,
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.error
+                )
+            }
+            FlowRow(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.spacedBy(4.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
+            ) {
+                if (item.canPause) {
+                    TextButton(onClick = { onPauseDownload(item.id) }) {
+                        Text(stringResource(R.string.web_session_download_pause))
+                    }
+                }
+                if (item.canResume) {
+                    TextButton(onClick = { onResumeDownload(item.id) }) {
+                        Text(stringResource(R.string.web_session_download_resume))
+                    }
+                }
+                if (item.canCancel) {
+                    TextButton(onClick = { onCancelDownload(item.id) }) {
+                        Text(stringResource(R.string.web_session_download_cancel))
+                    }
+                }
+                if (item.canRetry) {
+                    TextButton(onClick = { onRetryDownload(item.id) }) {
+                        Text(stringResource(R.string.web_session_download_retry))
+                    }
+                }
+                if (item.canOpenFile) {
+                    TextButton(onClick = { onOpenDownloadedFile(item.id) }) {
+                        Text(stringResource(R.string.web_session_download_open_file))
+                    }
+                }
+                if (item.canOpenLocation) {
+                    TextButton(onClick = { onOpenDownloadLocation(item.id) }) {
+                        Text(stringResource(R.string.web_session_download_open_location))
+                    }
+                }
+                if (item.canDelete) {
+                    TextButton(onClick = { onDeleteDownload(item.id, false) }) {
+                        Text(stringResource(R.string.web_session_download_delete_record))
+                    }
+                }
+                if (item.canDelete && item.canDeleteFile) {
+                    TextButton(onClick = { onDeleteDownload(item.id, true) }) {
+                        Text(stringResource(R.string.web_session_download_delete_file_and_record))
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun statusLabel(item: BrowserDownloadItem): String =
+    when (item.status) {
+        "queued" -> stringResource(R.string.web_session_download_status_queued)
+        "connecting" -> stringResource(R.string.web_session_download_status_connecting)
+        "downloading" -> stringResource(R.string.web_session_download_status_downloading)
+        "paused" -> stringResource(R.string.web_session_download_status_paused)
+        "completed" -> stringResource(R.string.web_session_download_status_completed)
+        "failed" -> stringResource(R.string.web_session_download_status_failed)
+        "canceled" -> stringResource(R.string.web_session_download_status_canceled)
+        else -> item.status
+    }
+
+@Composable
+private fun statusColor(item: BrowserDownloadItem) =
+    when (item.status) {
+        "failed" -> MaterialTheme.colorScheme.error
+        "completed" -> MaterialTheme.colorScheme.primary
+        else -> MaterialTheme.colorScheme.onSurfaceVariant
+    }
+
+private fun itemProgressText(item: BrowserDownloadItem): String {
+    val base =
+        if (item.totalBytes > 0L) {
+            "${formatBytes(item.downloadedBytes)} / ${formatBytes(item.totalBytes)}"
+        } else {
+            formatBytes(item.downloadedBytes)
+        }
+    val progressText =
+        item.progress?.let { progress ->
+            "${(progress * 100f).toInt()}% $base"
+        } ?: base
+    return if (item.speedBytesPerSecond > 0L) {
+        "$progressText  |  ${formatBytes(item.speedBytesPerSecond)}/s"
+    } else {
+        progressText
+    }
+}

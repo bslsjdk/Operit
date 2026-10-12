@@ -1,1 +1,78 @@
-I2luY2x1ZGUgPGpuaS5oPgoKI2luY2x1ZGUgPHZlY3Rvcj4KCiNpbmNsdWRlICJzdHJlYW1uYXRpdmUvU3RyZWFtT3BlcmF0b3JzLmgiCgpuYW1lc3BhY2UgewoKaW5saW5lIGppbnRBcnJheSBzZWdtZW50c1RvSkludEFycmF5KEpOSUVudiogZW52LCBjb25zdCBzdGQ6OnZlY3RvcjxzdHJlYW1uYXRpdmU6OlNlZ21lbnQ+JiBzZWdtZW50cykgewogICAgamludEFycmF5IG91dCA9IGVudi0+TmV3SW50QXJyYXkoc3RhdGljX2Nhc3Q8anNpemU+KHNlZ21lbnRzLnNpemUoKSAqIDMpKTsKICAgIGlmIChvdXQgPT0gbnVsbHB0cikgewogICAgICAgIHJldHVybiBudWxscHRyOwogICAgfQoKICAgIHN0ZDo6dmVjdG9yPGppbnQ+IGZsYXQ7CiAgICBmbGF0LnJlc2VydmUoc2VnbWVudHMuc2l6ZSgpICogMyk7CiAgICBmb3IgKGNvbnN0IGF1dG8mIHMgOiBzZWdtZW50cykgewogICAgICAgIGZsYXQucHVzaF9iYWNrKHN0YXRpY19jYXN0PGppbnQ+KHMudHlwZSkpOwogICAgICAgIGZsYXQucHVzaF9iYWNrKHN0YXRpY19jYXN0PGppbnQ+KHMuc3RhcnQpKTsKICAgICAgICBmbGF0LnB1c2hfYmFjayhzdGF0aWNfY2FzdDxqaW50PihzLmVuZCkpOwogICAgfQoKICAgIGVudi0+U2V0SW50QXJyYXlSZWdpb24ob3V0LCAwLCBzdGF0aWNfY2FzdDxqc2l6ZT4oZmxhdC5zaXplKCkpLCBmbGF0LmRhdGEoKSk7CiAgICByZXR1cm4gb3V0Owp9Cgp9IC8vIG5hbWVzcGFjZQoKZXh0ZXJuICJDIiBKTklFWFBPUlQgamxvbmcgSk5JQ0FMTApKYXZhX2NvbV9ic2xzamRrX29wZXJpdF91dGlsX3N0cmVhbW5hdGl2ZV9OYXRpdmVNYXJrZG93blNwbGl0dGVyX25hdGl2ZUNyZWF0ZUJsb2NrU2Vzc2lvbigKICAgICAgICBKTklFbnYqIC8qZW52Ki8sCiAgICAgICAgam9iamVjdCAvKnRoaXoqLwopIHsKICAgIGF1dG8qIHMgPSBzdHJlYW1uYXRpdmU6OmNyZWF0ZU1hcmtkb3duQmxvY2tTZXNzaW9uKCk7CiAgICByZXR1cm4gcmVpbnRlcnByZXRfY2FzdDxqbG9uZz4ocyk7Cn0KCmV4dGVybiAiQyIgSk5JRVhQT1JUIGpsb25nIEpOSUNBTEwKSmF2YV9jb21fYnNsc2pka19vcGVyaXRfdXRpbF9zdHJlYW1uYXRpdmVfTmF0aXZlTWFya2Rvd25TcGxpdHRlcl9uYXRpdmVDcmVhdGVJbmxpbmVTZXNzaW9uKAogICAgICAgIEpOSUVudiogLyplbnYqLywKICAgICAgICBqb2JqZWN0IC8qdGhpeiovCikgewogICAgYXV0byogcyA9IHN0cmVhbW5hdGl2ZTo6Y3JlYXRlTWFya2Rvd25JbmxpbmVTZXNzaW9uKCk7CiAgICByZXR1cm4gcmVpbnRlcnByZXRfY2FzdDxqbG9uZz4ocyk7Cn0KCmV4dGVybiAiQyIgSk5JRVhQT1JUIHZvaWQgSk5JQ0FMTApKYXZhX2NvbV9ic2xzamRrX29wZXJpdF91dGlsX3N0cmVhbW5hdGl2ZV9OYXRpdmVNYXJrZG93blNwbGl0dGVyX25hdGl2ZURlc3Ryb3lTZXNzaW9uKAogICAgICAgIEpOSUVudiogLyplbnYqLywKICAgICAgICBqb2JqZWN0IC8qdGhpeiovLAogICAgICAgIGpsb25nIGhhbmRsZQopIHsKICAgIGF1dG8qIHMgPSByZWludGVycHJldF9jYXN0PHN0cmVhbW5hdGl2ZTo6TWFya2Rvd25TZXNzaW9uKj4oaGFuZGxlKTsKICAgIHN0cmVhbW5hdGl2ZTo6ZGVzdHJveU1hcmtkb3duU2Vzc2lvbihzKTsKfQoKZXh0ZXJuICJDIiBKTklFWFBPUlQgamludEFycmF5IEpOSUNBTEwKSmF2YV9jb21fYnNsc2pka19vcGVyaXRfdXRpbF9zdHJlYW1uYXRpdmVfTmF0aXZlTWFya2Rvd25TcGxpdHRlcl9uYXRpdmVQdXNoKAogICAgICAgIEpOSUVudiogZW52LAogICAgICAgIGpvYmplY3QgLyp0aGl6Ki8sCiAgICAgICAgamxvbmcgaGFuZGxlLAogICAgICAgIGpzdHJpbmcgY2h1bmsKKSB7CiAgICBpZiAoaGFuZGxlID09IDAgfHwgY2h1bmsgPT0gbnVsbHB0cikgewogICAgICAgIHJldHVybiBlbnYtPk5ld0ludEFycmF5KDApOwogICAgfQoKICAgIGF1dG8qIHMgPSByZWludGVycHJldF9jYXN0PHN0cmVhbW5hdGl2ZTo6TWFya2Rvd25TZXNzaW9uKj4oaGFuZGxlKTsKCiAgICBjb25zdCBqc2l6ZSBsZW4gPSBlbnYtPkdldFN0cmluZ0xlbmd0aChjaHVuayk7CiAgICBjb25zdCBqY2hhciogY2hhcnMgPSBlbnYtPkdldFN0cmluZ0NoYXJzKGNodW5rLCBudWxscHRyKTsKCiAgICBzdGQ6OnZlY3RvcjxzdHJlYW1uYXRpdmU6OlNlZ21lbnQ+IHNlZ21lbnRzID0gc3RyZWFtbmF0aXZlOjptYXJrZG93blNlc3Npb25QdXNoKHMsIGNoYXJzLCBzdGF0aWNfY2FzdDxpbnQ+KGxlbikpOwoKICAgIGVudi0+UmVsZWFzZVN0cmluZ0NoYXJzKGNodW5rLCBjaGFycyk7CgogICAgcmV0dXJuIHNlZ21lbnRzVG9KSW50QXJyYXkoZW52LCBzZWdtZW50cyk7Cn0K
+#include <jni.h>
+
+#include <vector>
+
+#include "streamnative/StreamOperators.h"
+
+namespace {
+
+inline jintArray segmentsToJIntArray(JNIEnv* env, const std::vector<streamnative::Segment>& segments) {
+    jintArray out = env->NewIntArray(static_cast<jsize>(segments.size() * 3));
+    if (out == nullptr) {
+        return nullptr;
+    }
+
+    std::vector<jint> flat;
+    flat.reserve(segments.size() * 3);
+    for (const auto& s : segments) {
+        flat.push_back(static_cast<jint>(s.type));
+        flat.push_back(static_cast<jint>(s.start));
+        flat.push_back(static_cast<jint>(s.end));
+    }
+
+    env->SetIntArrayRegion(out, 0, static_cast<jsize>(flat.size()), flat.data());
+    return out;
+}
+
+} // namespace
+
+extern "C" JNIEXPORT jlong JNICALL
+Java_com_bslsjdk_operit_util_streamnative_NativeMarkdownSplitter_nativeCreateBlockSession(
+        JNIEnv* /*env*/,
+        jobject /*thiz*/
+) {
+    auto* s = streamnative::createMarkdownBlockSession();
+    return reinterpret_cast<jlong>(s);
+}
+
+extern "C" JNIEXPORT jlong JNICALL
+Java_com_bslsjdk_operit_util_streamnative_NativeMarkdownSplitter_nativeCreateInlineSession(
+        JNIEnv* /*env*/,
+        jobject /*thiz*/
+) {
+    auto* s = streamnative::createMarkdownInlineSession();
+    return reinterpret_cast<jlong>(s);
+}
+
+extern "C" JNIEXPORT void JNICALL
+Java_com_bslsjdk_operit_util_streamnative_NativeMarkdownSplitter_nativeDestroySession(
+        JNIEnv* /*env*/,
+        jobject /*thiz*/,
+        jlong handle
+) {
+    auto* s = reinterpret_cast<streamnative::MarkdownSession*>(handle);
+    streamnative::destroyMarkdownSession(s);
+}
+
+extern "C" JNIEXPORT jintArray JNICALL
+Java_com_bslsjdk_operit_util_streamnative_NativeMarkdownSplitter_nativePush(
+        JNIEnv* env,
+        jobject /*thiz*/,
+        jlong handle,
+        jstring chunk
+) {
+    if (handle == 0 || chunk == nullptr) {
+        return env->NewIntArray(0);
+    }
+
+    auto* s = reinterpret_cast<streamnative::MarkdownSession*>(handle);
+
+    const jsize len = env->GetStringLength(chunk);
+    const jchar* chars = env->GetStringChars(chunk, nullptr);
+
+    std::vector<streamnative::Segment> segments = streamnative::markdownSessionPush(s, chars, static_cast<int>(len));
+
+    env->ReleaseStringChars(chunk, chars);
+
+    return segmentsToJIntArray(env, segments);
+}

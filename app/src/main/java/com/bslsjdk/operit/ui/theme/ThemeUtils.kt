@@ -1,1 +1,27 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkudGhlbWUKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmdyYXBoaWNzLkNvbG9yCgovKioKICogRGV0ZXJtaW5lcyB0aGUgYXBwcm9wcmlhdGUgdGV4dCBjb2xvciAoYmxhY2sgb3Igd2hpdGUpIGJhc2VkIG9uIGJhY2tncm91bmQgY29sb3IKICovCmZ1biBnZXRUZXh0Q29sb3JGb3JCYWNrZ3JvdW5kKGJhY2tncm91bmRDb2xvcjogQ29sb3IpOiBDb2xvciB7CiAgICB2YWwgbHVtaW5hbmNlID0KICAgICAgICAgICAgMC4yOTkgKiBiYWNrZ3JvdW5kQ29sb3IucmVkICsKICAgICAgICAgICAgICAgICAgICAwLjU4NyAqIGJhY2tncm91bmRDb2xvci5ncmVlbiArCiAgICAgICAgICAgICAgICAgICAgMC4xMTQgKiBiYWNrZ3JvdW5kQ29sb3IuYmx1ZQogICAgcmV0dXJuIGlmIChsdW1pbmFuY2UgPiAwLjUpIENvbG9yLkJsYWNrIGVsc2UgQ29sb3IuV2hpdGUKfQoKLyoqCiAqIERldGVybWluZXMgaWYgYSBjb2xvciBoYXMgaGlnaCBjb250cmFzdCB3aXRoIGJvdGggYmxhY2sgYW5kIHdoaXRlCiAqIENvbG9ycyBpbiB0aGUgbWlkZGxlIHJhbmdlIChub3QgdG9vIGxpZ2h0LCBub3QgdG9vIGRhcmspIHRlbmQgdG8gaGF2ZSBsb3cgY29udHJhc3Qgd2l0aCBib3RoCiAqIEEgZ29vZCBoaWdoIGNvbnRyYXN0IGNvbG9yIGlzIGVpdGhlciBmYWlybHkgZGFyayBvciBmYWlybHkgbGlnaHQKICovCmZ1biBpc0hpZ2hDb250cmFzdChiYWNrZ3JvdW5kQ29sb3I6IENvbG9yKTogQm9vbGVhbiB7CiAgICB2YWwgbHVtaW5hbmNlID0KICAgICAgICAgICAgMC4yOTkgKiBiYWNrZ3JvdW5kQ29sb3IucmVkICsKICAgICAgICAgICAgICAgICAgICAwLjU4NyAqIGJhY2tncm91bmRDb2xvci5ncmVlbiArCiAgICAgICAgICAgICAgICAgICAgMC4xMTQgKiBiYWNrZ3JvdW5kQ29sb3IuYmx1ZQogICAgcmV0dXJuIGx1bWluYW5jZSA8IDAuMyB8fCBsdW1pbmFuY2UgPiAwLjcKfSA=
+package com.bslsjdk.operit.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+/**
+ * Determines the appropriate text color (black or white) based on background color
+ */
+fun getTextColorForBackground(backgroundColor: Color): Color {
+    val luminance =
+            0.299 * backgroundColor.red +
+                    0.587 * backgroundColor.green +
+                    0.114 * backgroundColor.blue
+    return if (luminance > 0.5) Color.Black else Color.White
+}
+
+/**
+ * Determines if a color has high contrast with both black and white
+ * Colors in the middle range (not too light, not too dark) tend to have low contrast with both
+ * A good high contrast color is either fairly dark or fairly light
+ */
+fun isHighContrast(backgroundColor: Color): Boolean {
+    val luminance =
+            0.299 * backgroundColor.red +
+                    0.587 * backgroundColor.green +
+                    0.114 * backgroundColor.blue
+    return luminance < 0.3 || luminance > 0.7
+} 

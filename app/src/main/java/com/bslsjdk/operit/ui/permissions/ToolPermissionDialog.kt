@@ -1,1 +1,8 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkucGVybWlzc2lvbnMKCi8qKgogKiDlt6XlhbfmnYPpmZDor7fmsYLnu5PmnpwKICovCmVudW0gY2xhc3MgUGVybWlzc2lvblJlcXVlc3RSZXN1bHQgewogICAgQUxMT1csIERFTlksIEFMV0FZU19BTExPVwp9Cg==
+package com.bslsjdk.operit.ui.permissions
+
+/**
+ * 工具权限请求结果
+ */
+enum class PermissionRequestResult {
+    ALLOW, DENY, ALWAYS_ALLOW
+}

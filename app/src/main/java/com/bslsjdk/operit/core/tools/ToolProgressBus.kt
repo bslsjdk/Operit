@@ -1,1 +1,60 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scwoKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93Lk11dGFibGVTdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LlN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuYXNTdGF0ZUZsb3cKCmRhdGEgY2xhc3MgVG9vbFByb2dyZXNzRXZlbnQoCiAgICB2YWwgdG9vbE5hbWU6IFN0cmluZywKICAgIHZhbCBwcm9ncmVzczogRmxvYXQsCiAgICB2YWwgbWVzc2FnZTogU3RyaW5nID0gIiIsCiAgICB2YWwgcHJpb3JpdHk6IEludCA9IDAsCiAgICB2YWwgbGV2ZWw6IEludCA9IDAKKQoKb2JqZWN0IFRvb2xQcm9ncmVzc0J1cyB7CiAgICBjb25zdCB2YWwgU1VNTUFSWV9QUk9HUkVTU19UT09MX05BTUU6IFN0cmluZyA9ICJfX1NVTU1BUllfXyIKCiAgICBwcml2YXRlIHZhbCBfcHJvZ3Jlc3MgPSBNdXRhYmxlU3RhdGVGbG93PFRvb2xQcm9ncmVzc0V2ZW50Pz4obnVsbCkKICAgIHZhbCBwcm9ncmVzczogU3RhdGVGbG93PFRvb2xQcm9ncmVzc0V2ZW50Pz4gPSBfcHJvZ3Jlc3MuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgZnVuIHByaW9yaXR5Rm9yVG9vbCh0b29sTmFtZTogU3RyaW5nKTogSW50IHsKICAgICAgICByZXR1cm4gd2hlbiAodG9vbE5hbWUpIHsKICAgICAgICAgICAgU1VNTUFSWV9QUk9HUkVTU19UT09MX05BTUUgLT4gMTAwMAogICAgICAgICAgICAiZ3JlcF9jb250ZXh0IiAtPiAxMDAKICAgICAgICAgICAgImdyZXBfY29kZSIgLT4gMTAKICAgICAgICAgICAgImZpbmRfZmlsZXMiIC0+IDUKICAgICAgICAgICAgZWxzZSAtPiAwCiAgICAgICAgfQogICAgfQoKICAgIGZ1biB1cGRhdGUodG9vbE5hbWU6IFN0cmluZywgcHJvZ3Jlc3M6IEZsb2F0LCBtZXNzYWdlOiBTdHJpbmcgPSAiIikgewogICAgICAgIHVwZGF0ZSh0b29sTmFtZSA9IHRvb2xOYW1lLCBwcm9ncmVzcyA9IHByb2dyZXNzLCBtZXNzYWdlID0gbWVzc2FnZSwgcHJpb3JpdHkgPSBwcmlvcml0eUZvclRvb2wodG9vbE5hbWUpKQogICAgfQoKICAgIGZ1biB1cGRhdGUodG9vbE5hbWU6IFN0cmluZywgcHJvZ3Jlc3M6IEZsb2F0LCBtZXNzYWdlOiBTdHJpbmcgPSAiIiwgcHJpb3JpdHk6IEludCwgbGV2ZWw6IEludCA9IDApIHsKICAgICAgICB2YWwgbmV4dCA9IFRvb2xQcm9ncmVzc0V2ZW50KAogICAgICAgICAgICB0b29sTmFtZSA9IHRvb2xOYW1lLAogICAgICAgICAgICBwcm9ncmVzcyA9IHByb2dyZXNzLAogICAgICAgICAgICBtZXNzYWdlID0gbWVzc2FnZSwKICAgICAgICAgICAgcHJpb3JpdHkgPSBwcmlvcml0eSwKICAgICAgICAgICAgbGV2ZWwgPSBsZXZlbAogICAgICAgICkKCiAgICAgICAgdmFsIGN1cnJlbnQgPSBfcHJvZ3Jlc3MudmFsdWUKICAgICAgICB2YWwgc2hvdWxkUmVwbGFjZSA9CiAgICAgICAgICAgIGN1cnJlbnQgPT0gbnVsbCB8fAogICAgICAgICAgICAgICAgY3VycmVudC50b29sTmFtZSA9PSBuZXh0LnRvb2xOYW1lIHx8CiAgICAgICAgICAgICAgICBjdXJyZW50LnByb2dyZXNzID49IDFmIHx8CiAgICAgICAgICAgICAgICBuZXh0LnByaW9yaXR5ID4gY3VycmVudC5wcmlvcml0eSB8fAogICAgICAgICAgICAgICAgKG5leHQucHJpb3JpdHkgPT0gY3VycmVudC5wcmlvcml0eSAmJiBuZXh0LmxldmVsID49IGN1cnJlbnQubGV2ZWwpCgogICAgICAgIGlmIChzaG91bGRSZXBsYWNlKSB7CiAgICAgICAgICAgIF9wcm9ncmVzcy52YWx1ZSA9IG5leHQKICAgICAgICB9CiAgICB9CgogICAgZnVuIGNsZWFyKCkgewogICAgICAgIF9wcm9ncmVzcy52YWx1ZSA9IG51bGwKICAgIH0KfQo=
+package com.bslsjdk.operit.core.tools
+
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+data class ToolProgressEvent(
+    val toolName: String,
+    val progress: Float,
+    val message: String = "",
+    val priority: Int = 0,
+    val level: Int = 0
+)
+
+object ToolProgressBus {
+    const val SUMMARY_PROGRESS_TOOL_NAME: String = "__SUMMARY__"
+
+    private val _progress = MutableStateFlow<ToolProgressEvent?>(null)
+    val progress: StateFlow<ToolProgressEvent?> = _progress.asStateFlow()
+
+    private fun priorityForTool(toolName: String): Int {
+        return when (toolName) {
+            SUMMARY_PROGRESS_TOOL_NAME -> 1000
+            "grep_context" -> 100
+            "grep_code" -> 10
+            "find_files" -> 5
+            else -> 0
+        }
+    }
+
+    fun update(toolName: String, progress: Float, message: String = "") {
+        update(toolName = toolName, progress = progress, message = message, priority = priorityForTool(toolName))
+    }
+
+    fun update(toolName: String, progress: Float, message: String = "", priority: Int, level: Int = 0) {
+        val next = ToolProgressEvent(
+            toolName = toolName,
+            progress = progress,
+            message = message,
+            priority = priority,
+            level = level
+        )
+
+        val current = _progress.value
+        val shouldReplace =
+            current == null ||
+                current.toolName == next.toolName ||
+                current.progress >= 1f ||
+                next.priority > current.priority ||
+                (next.priority == current.priority && next.level >= current.level)
+
+        if (shouldReplace) {
+            _progress.value = next
+        }
+    }
+
+    fun clear() {
+        _progress.value = null
+    }
+}

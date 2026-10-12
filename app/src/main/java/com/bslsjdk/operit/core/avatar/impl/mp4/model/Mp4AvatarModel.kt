@@ -1,1 +1,68 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuaW1wbC5tcDQubW9kZWwKCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsLkF2YXRhck1vZGVsCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS5hdmF0YXIuY29tbW9uLm1vZGVsLkF2YXRhclR5cGUKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLmF2YXRhci5jb21tb24uc3RhdGUuQXZhdGFyRW1vdGlvbgoKZGF0YSBjbGFzcyBNcDRBdmF0YXJNb2RlbCgKICAgIG92ZXJyaWRlIHZhbCBpZDogU3RyaW5nLAogICAgb3ZlcnJpZGUgdmFsIG5hbWU6IFN0cmluZywKICAgIHZhbCBiYXNlUGF0aDogU3RyaW5nLAogICAgdmFsIGVtb3Rpb25Ub0ZpbGVNYXA6IE1hcDxBdmF0YXJFbW90aW9uLCBTdHJpbmc+LAogICAgdmFsIGF2YWlsYWJsZUZpbGVzOiBMaXN0PFN0cmluZz4gPQogICAgICAgIGVtb3Rpb25Ub0ZpbGVNYXAudmFsdWVzCiAgICAgICAgICAgIC5tYXAgeyBpdC50cmltKCkgfQogICAgICAgICAgICAuZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgLmRpc3RpbmN0KCksCiAgICB2YWwgY3VycmVudEVtb3Rpb246IEF2YXRhckVtb3Rpb24gPSBBdmF0YXJFbW90aW9uLklETEUKKSA6IEF2YXRhck1vZGVsIHsKCiAgICBvdmVycmlkZSB2YWwgdHlwZTogQXZhdGFyVHlwZQogICAgICAgIGdldCgpID0gQXZhdGFyVHlwZS5NUDQKCiAgICBmdW4gYW5pbWF0aW9uUGF0aEZvcihhbmltYXRpb25GaWxlOiBTdHJpbmc/KTogU3RyaW5nIHsKICAgICAgICB2YWwgZmlsZU5hbWUgPQogICAgICAgICAgICBhbmltYXRpb25GaWxlPy50cmltKCk/LnRha2VJZiB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICAgICAgICAgICAgICA/OiBhbmltYXRpb25GaWxlRm9yRW1vdGlvbihjdXJyZW50RW1vdGlvbikKICAgICAgICAgICAgICAgID86IGFuaW1hdGlvbkZpbGVGb3JFbW90aW9uKEF2YXRhckVtb3Rpb24uSURMRSkKICAgICAgICAgICAgICAgID86IGF2YWlsYWJsZUZpbGVzLmZpcnN0T3JOdWxsKCkKICAgICAgICAgICAgICAgID86ICIiCiAgICAgICAgcmV0dXJuIGlmIChmaWxlTmFtZS5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgIiRiYXNlUGF0aC8kZmlsZU5hbWUiCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgIiIKICAgICAgICB9CiAgICB9CgogICAgZnVuIGFuaW1hdGlvbkZpbGVGb3JFbW90aW9uKGVtb3Rpb246IEF2YXRhckVtb3Rpb24pOiBTdHJpbmc/IHsKICAgICAgICByZXR1cm4gZW1vdGlvblRvRmlsZU1hcFtlbW90aW9uXQogICAgICAgICAgICA/LnRyaW0oKQogICAgICAgICAgICA/LnRha2VJZiB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICB9CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgZnVuIGNyZWF0ZVN0YW5kYXJkKAogICAgICAgICAgICBpZDogU3RyaW5nLAogICAgICAgICAgICBuYW1lOiBTdHJpbmcsCiAgICAgICAgICAgIGJhc2VQYXRoOiBTdHJpbmcsCiAgICAgICAgICAgIGZpbGVFeHRlbnNpb246IFN0cmluZyA9ICJtcDQiCiAgICAgICAgKTogTXA0QXZhdGFyTW9kZWwgewogICAgICAgICAgICB2YWwgZW1vdGlvbk1hcCA9IG1hcE9mKAogICAgICAgICAgICAgICAgQXZhdGFyRW1vdGlvbi5JRExFIHRvICJpZGxlLiRmaWxlRXh0ZW5zaW9uIiwKICAgICAgICAgICAgICAgIEF2YXRhckVtb3Rpb24uTElTVEVOSU5HIHRvICJsaXN0ZW5pbmcuJGZpbGVFeHRlbnNpb24iLAogICAgICAgICAgICAgICAgQXZhdGFyRW1vdGlvbi5USElOS0lORyB0byAidGhpbmtpbmcuJGZpbGVFeHRlbnNpb24iLAogICAgICAgICAgICAgICAgQXZhdGFyRW1vdGlvbi5IQVBQWSB0byAiaGFwcHkuJGZpbGVFeHRlbnNpb24iLAogICAgICAgICAgICAgICAgQXZhdGFyRW1vdGlvbi5TQUQgdG8gInNhZC4kZmlsZUV4dGVuc2lvbiIsCiAgICAgICAgICAgICAgICBBdmF0YXJFbW90aW9uLkNPTkZVU0VEIHRvICJjb25mdXNlZC4kZmlsZUV4dGVuc2lvbiIsCiAgICAgICAgICAgICAgICBBdmF0YXJFbW90aW9uLlNVUlBSSVNFRCB0byAic3VycHJpc2VkLiRmaWxlRXh0ZW5zaW9uIgogICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybiBNcDRBdmF0YXJNb2RlbCgKICAgICAgICAgICAgICAgIGlkID0gaWQsCiAgICAgICAgICAgICAgICBuYW1lID0gbmFtZSwKICAgICAgICAgICAgICAgIGJhc2VQYXRoID0gYmFzZVBhdGgsCiAgICAgICAgICAgICAgICBlbW90aW9uVG9GaWxlTWFwID0gZW1vdGlvbk1hcCwKICAgICAgICAgICAgICAgIGF2YWlsYWJsZUZpbGVzID0gZW1vdGlvbk1hcC52YWx1ZXMudG9MaXN0KCkKICAgICAgICAgICAgKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.core.avatar.impl.mp4.model
+
+import com.bslsjdk.operit.core.avatar.common.model.AvatarModel
+import com.bslsjdk.operit.core.avatar.common.model.AvatarType
+import com.bslsjdk.operit.core.avatar.common.state.AvatarEmotion
+
+data class Mp4AvatarModel(
+    override val id: String,
+    override val name: String,
+    val basePath: String,
+    val emotionToFileMap: Map<AvatarEmotion, String>,
+    val availableFiles: List<String> =
+        emotionToFileMap.values
+            .map { it.trim() }
+            .filter { it.isNotBlank() }
+            .distinct(),
+    val currentEmotion: AvatarEmotion = AvatarEmotion.IDLE
+) : AvatarModel {
+
+    override val type: AvatarType
+        get() = AvatarType.MP4
+
+    fun animationPathFor(animationFile: String?): String {
+        val fileName =
+            animationFile?.trim()?.takeIf { it.isNotEmpty() }
+                ?: animationFileForEmotion(currentEmotion)
+                ?: animationFileForEmotion(AvatarEmotion.IDLE)
+                ?: availableFiles.firstOrNull()
+                ?: ""
+        return if (fileName.isNotEmpty()) {
+            "$basePath/$fileName"
+        } else {
+            ""
+        }
+    }
+
+    fun animationFileForEmotion(emotion: AvatarEmotion): String? {
+        return emotionToFileMap[emotion]
+            ?.trim()
+            ?.takeIf { it.isNotEmpty() }
+    }
+
+    companion object {
+        fun createStandard(
+            id: String,
+            name: String,
+            basePath: String,
+            fileExtension: String = "mp4"
+        ): Mp4AvatarModel {
+            val emotionMap = mapOf(
+                AvatarEmotion.IDLE to "idle.$fileExtension",
+                AvatarEmotion.LISTENING to "listening.$fileExtension",
+                AvatarEmotion.THINKING to "thinking.$fileExtension",
+                AvatarEmotion.HAPPY to "happy.$fileExtension",
+                AvatarEmotion.SAD to "sad.$fileExtension",
+                AvatarEmotion.CONFUSED to "confused.$fileExtension",
+                AvatarEmotion.SURPRISED to "surprised.$fileExtension"
+            )
+            return Mp4AvatarModel(
+                id = id,
+                name = name,
+                basePath = basePath,
+                emotionToFileMap = emotionMap,
+                availableFiles = emotionMap.values.toList()
+            )
+        }
+    }
+}

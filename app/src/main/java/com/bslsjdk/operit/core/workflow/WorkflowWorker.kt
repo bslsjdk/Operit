@@ -1,1 +1,59 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS53b3JrZmxvdwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGFuZHJvaWR4LndvcmsuQ29yb3V0aW5lV29ya2VyCmltcG9ydCBhbmRyb2lkeC53b3JrLldvcmtlclBhcmFtZXRlcnMKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnJlcG9zaXRvcnkuV29ya2Zsb3dSZXBvc2l0b3J5CgovKioKICogV29ya01hbmFnZXIgV29ya2VyIGZvciBleGVjdXRpbmcgd29ya2Zsb3dzIGluIHRoZSBiYWNrZ3JvdW5kCiAqIAogKiBUaGlzIHdvcmtlciBpcyBzY2hlZHVsZWQgYnkgV29ya2Zsb3dTY2hlZHVsZXIgdG8gZXhlY3V0ZSB3b3JrZmxvd3MKICogYXQgc3BlY2lmaWVkIHRpbWVzIG9yIGludGVydmFscy4KICovCmNsYXNzIFdvcmtmbG93V29ya2VyKAogICAgYXBwQ29udGV4dDogQ29udGV4dCwKICAgIHdvcmtlclBhcmFtczogV29ya2VyUGFyYW1ldGVycwopIDogQ29yb3V0aW5lV29ya2VyKGFwcENvbnRleHQsIHdvcmtlclBhcmFtcykgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJXb3JrZmxvd1dvcmtlciIKICAgICAgICBjb25zdCB2YWwgS0VZX1dPUktGTE9XX0lEID0gIndvcmtmbG93X2lkIgogICAgICAgIGNvbnN0IHZhbCBLRVlfVFJJR0dFUl9OT0RFX0lEID0gInRyaWdnZXJfbm9kZV9pZCIKICAgIH0KCiAgICBvdmVycmlkZSBzdXNwZW5kIGZ1biBkb1dvcmsoKTogUmVzdWx0IHsKICAgICAgICB2YWwgd29ya2Zsb3dJZCA9IGlucHV0RGF0YS5nZXRTdHJpbmcoS0VZX1dPUktGTE9XX0lEKQogICAgICAgIHZhbCB0cmlnZ2VyTm9kZUlkID0gaW5wdXREYXRhLmdldFN0cmluZyhLRVlfVFJJR0dFUl9OT0RFX0lEKQogICAgICAgIAogICAgICAgIGlmICh3b3JrZmxvd0lkLmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJXb3JrZmxvdyBJRCBpcyBtaXNzaW5nIGZyb20gaW5wdXQgZGF0YSIpCiAgICAgICAgICAgIHJldHVybiBSZXN1bHQuZmFpbHVyZSgpCiAgICAgICAgfQoKICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJFeGVjdXRpbmcgc2NoZWR1bGVkIHdvcmtmbG93OiAkd29ya2Zsb3dJZCwgdHJpZ2dlcjogJHRyaWdnZXJOb2RlSWQiKQoKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIHJlcG9zaXRvcnkgPSBXb3JrZmxvd1JlcG9zaXRvcnkoYXBwbGljYXRpb25Db250ZXh0KQogICAgICAgICAgICB2YWwgcmVzdWx0ID0gcmVwb3NpdG9yeS50cmlnZ2VyV29ya2Zsb3cod29ya2Zsb3dJZCwgdHJpZ2dlck5vZGVJZCkKICAgICAgICAgICAgCiAgICAgICAgICAgIGlmIChyZXN1bHQuaXNTdWNjZXNzKSB7CiAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJXb3JrZmxvdyBleGVjdXRpb24gc3VjY2VlZGVkOiAke3Jlc3VsdC5nZXRPck51bGwoKX0iKQogICAgICAgICAgICAgICAgUmVzdWx0LnN1Y2Nlc3MoKQogICAgICAgICAgICB9IGVsc2UgaWYgKHJlc3VsdC5leGNlcHRpb25Pck51bGwoKSBpcyBXb3JrZmxvd0V4ZWN1dGlvblJldHJ5YWJsZUV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiV29ya2Zsb3cgcnVudGltZSBpcyBub3QgcmVhZHk7IFdvcmtNYW5hZ2VyIHdpbGwgcmV0cnk6ICR7cmVzdWx0LmV4Y2VwdGlvbk9yTnVsbCgpPy5tZXNzYWdlfSIpCiAgICAgICAgICAgICAgICBSZXN1bHQucmV0cnkoKQogICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiV29ya2Zsb3cgZXhlY3V0aW9uIGZhaWxlZDogJHtyZXN1bHQuZXhjZXB0aW9uT3JOdWxsKCk/Lm1lc3NhZ2V9IikKICAgICAgICAgICAgICAgIFJlc3VsdC5mYWlsdXJlKCkKICAgICAgICAgICAgfQogICAgICAgIH0gY2F0Y2ggKGU6IGtvdGxpbnguY29yb3V0aW5lcy5DYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgdGhyb3cgZQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBleGVjdXRpbmcgd29ya2Zsb3ciLCBlKQogICAgICAgICAgICBSZXN1bHQuZmFpbHVyZSgpCiAgICAgICAgfQogICAgfQp9Cgo=
+package com.bslsjdk.operit.core.workflow
+
+import android.content.Context
+import com.bslsjdk.operit.util.AppLogger
+import androidx.work.CoroutineWorker
+import androidx.work.WorkerParameters
+import com.bslsjdk.operit.data.repository.WorkflowRepository
+
+/**
+ * WorkManager Worker for executing workflows in the background
+ * 
+ * This worker is scheduled by WorkflowScheduler to execute workflows
+ * at specified times or intervals.
+ */
+class WorkflowWorker(
+    appContext: Context,
+    workerParams: WorkerParameters
+) : CoroutineWorker(appContext, workerParams) {
+
+    companion object {
+        private const val TAG = "WorkflowWorker"
+        const val KEY_WORKFLOW_ID = "workflow_id"
+        const val KEY_TRIGGER_NODE_ID = "trigger_node_id"
+    }
+
+    override suspend fun doWork(): Result {
+        val workflowId = inputData.getString(KEY_WORKFLOW_ID)
+        val triggerNodeId = inputData.getString(KEY_TRIGGER_NODE_ID)
+        
+        if (workflowId.isNullOrBlank()) {
+            AppLogger.e(TAG, "Workflow ID is missing from input data")
+            return Result.failure()
+        }
+
+        AppLogger.d(TAG, "Executing scheduled workflow: $workflowId, trigger: $triggerNodeId")
+
+        return try {
+            val repository = WorkflowRepository(applicationContext)
+            val result = repository.triggerWorkflow(workflowId, triggerNodeId)
+            
+            if (result.isSuccess) {
+                AppLogger.d(TAG, "Workflow execution succeeded: ${result.getOrNull()}")
+                Result.success()
+            } else if (result.exceptionOrNull() is WorkflowExecutionRetryableException) {
+                AppLogger.w(TAG, "Workflow runtime is not ready; WorkManager will retry: ${result.exceptionOrNull()?.message}")
+                Result.retry()
+            } else {
+                AppLogger.e(TAG, "Workflow execution failed: ${result.exceptionOrNull()?.message}")
+                Result.failure()
+            }
+        } catch (e: kotlinx.coroutines.CancellationException) {
+            throw e
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error executing workflow", e)
+            Result.failure()
+        }
+    }
+}
+

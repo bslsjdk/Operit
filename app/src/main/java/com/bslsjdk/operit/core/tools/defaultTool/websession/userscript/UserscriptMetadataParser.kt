@@ -1,1 +1,100 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5kZWZhdWx0VG9vbC53ZWJzZXNzaW9uLnVzZXJzY3JpcHQKCmludGVybmFsIG9iamVjdCBVc2Vyc2NyaXB0TWV0YWRhdGFQYXJzZXIgewogICAgcHJpdmF0ZSB2YWwgbWV0YWRhdGFCbG9ja1JlZ2V4ID0KICAgICAgICBSZWdleCgiIiIoP20pXlsgXHRdKi8vWyBcdF0qPT1Vc2VyU2NyaXB0PT1ccyokKFtcc1xTXSo/KSg/bSleWyBcdF0qLy9bIFx0XSo9PS9Vc2VyU2NyaXB0PT1ccyokIiIiKQogICAgcHJpdmF0ZSB2YWwgbWV0YWRhdGFMaW5lUmVnZXggPSBSZWdleCgiIiJeWyBcdF0qLy9bIFx0XSpAKFtBLVphLXowLTk6Xy1dKykoPzpbIFx0XSsoLiopKT8kIiIiKQoKICAgIGZ1biBwYXJzZShyYXdTb3VyY2U6IFN0cmluZyk6IFBhcnNlZFVzZXJzY3JpcHRNZXRhZGF0YSB7CiAgICAgICAgdmFsIG1hdGNoID0gbWV0YWRhdGFCbG9ja1JlZ2V4LmZpbmQocmF3U291cmNlKQogICAgICAgICAgICA/OiB0aHJvdyBJbGxlZ2FsQXJndW1lbnRFeGNlcHRpb24oIk1pc3NpbmcgdXNlcnNjcmlwdCBtZXRhZGF0YSBibG9jayIpCiAgICAgICAgdmFsIGJsb2NrID0gbWF0Y2guZ3JvdXBWYWx1ZXNbMV0KICAgICAgICB2YWwgZmllbGRzID0gbGlua2VkTWFwT2Y8U3RyaW5nLCBNdXRhYmxlTGlzdDxTdHJpbmc+PigpCiAgICAgICAgdmFsIHJhd0hlYWRlcnMgPSBtdXRhYmxlTGlzdE9mPFVzZXJzY3JpcHRIZWFkZXJFbnRyeT4oKQoKICAgICAgICBibG9jay5saW5lU2VxdWVuY2UoKS5mb3JFYWNoIHsgbGluZSAtPgogICAgICAgICAgICB2YWwgbGluZU1hdGNoID0gbWV0YWRhdGFMaW5lUmVnZXguZmluZChsaW5lKSA/OiByZXR1cm5AZm9yRWFjaAogICAgICAgICAgICB2YWwga2V5ID0gbGluZU1hdGNoLmdyb3VwVmFsdWVzWzFdLnRyaW0oKQogICAgICAgICAgICB2YWwgdmFsdWUgPSBsaW5lTWF0Y2guZ3JvdXBWYWx1ZXMuZ2V0T3JOdWxsKDIpPy50cmltKCkub3JFbXB0eSgpCiAgICAgICAgICAgIGZpZWxkcy5nZXRPclB1dChrZXkpIHsgbXV0YWJsZUxpc3RPZigpIH0uYWRkKHZhbHVlKQogICAgICAgICAgICByYXdIZWFkZXJzICs9IFVzZXJzY3JpcHRIZWFkZXJFbnRyeShrZXkgPSBrZXksIHZhbHVlID0gdmFsdWUpCiAgICAgICAgfQoKICAgICAgICB2YWwgbmFtZSA9IGZpZWxkcy5maXJzdFZhbHVlKCJuYW1lIik/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgID86IHRocm93IElsbGVnYWxBcmd1bWVudEV4Y2VwdGlvbigiTWlzc2luZyBAbmFtZSBpbiB1c2Vyc2NyaXB0IG1ldGFkYXRhIikKCiAgICAgICAgdmFsIHJlc291cmNlRW50cmllcyA9CiAgICAgICAgICAgIGZpZWxkc1sicmVzb3VyY2UiXS5vckVtcHR5KCkubWFwTm90TnVsbCB7IHJhdyAtPgogICAgICAgICAgICAgICAgdmFsIHBhcnRzID0gcmF3LnNwbGl0KFJlZ2V4KCIiIlxzKyIiIiksIGxpbWl0ID0gMikKICAgICAgICAgICAgICAgIGlmIChwYXJ0cy5zaXplIDwgMikgewogICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIHJlc291cmNlTmFtZSA9IHBhcnRzWzBdLnRyaW0oKQogICAgICAgICAgICAgICAgICAgIHZhbCB1cmwgPSBwYXJ0c1sxXS50cmltKCkKICAgICAgICAgICAgICAgICAgICBpZiAocmVzb3VyY2VOYW1lLmlzQmxhbmsoKSB8fCB1cmwuaXNCbGFuaygpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIG51bGwKICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBVc2Vyc2NyaXB0UmVzb3VyY2VFbnRyeShuYW1lID0gcmVzb3VyY2VOYW1lLCB1cmwgPSB1cmwpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgIHZhbCBub0ZyYW1lcyA9CiAgICAgICAgICAgIGZpZWxkcy5jb250YWluc0tleSgibm9mcmFtZXMiKSB8fAogICAgICAgICAgICAgICAgZmllbGRzWyJub2ZyYW1lIl0/LmFueSB7IGl0LmVxdWFscygidHJ1ZSIsIGlnbm9yZUNhc2UgPSB0cnVlKSB9ID09IHRydWUKCiAgICAgICAgcmV0dXJuIFBhcnNlZFVzZXJzY3JpcHRNZXRhZGF0YSgKICAgICAgICAgICAgbmFtZSA9IG5hbWUsCiAgICAgICAgICAgIG5hbWVzcGFjZSA9IGZpZWxkcy5maXJzdFZhbHVlKCJuYW1lc3BhY2UiKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0sCiAgICAgICAgICAgIHZlcnNpb24gPSBmaWVsZHMuZmlyc3RWYWx1ZSgidmVyc2lvbiIpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSA/OiAiMCIsCiAgICAgICAgICAgIGRlc2NyaXB0aW9uID0gZmllbGRzLmZpcnN0VmFsdWUoImRlc2NyaXB0aW9uIik/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9LAogICAgICAgICAgICBhdXRob3IgPSBmaWVsZHMuZmlyc3RWYWx1ZSgiYXV0aG9yIik/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9LAogICAgICAgICAgICBob21lcGFnZSA9CiAgICAgICAgICAgICAgICBmaWVsZHMuZmlyc3RWYWx1ZSgiaG9tZXBhZ2UiKQogICAgICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgICAgICA/OiBmaWVsZHMuZmlyc3RWYWx1ZSgiaG9tZXBhZ2VVUkwiKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0sCiAgICAgICAgICAgIHdlYnNpdGUgPQogICAgICAgICAgICAgICAgZmllbGRzLmZpcnN0VmFsdWUoIndlYnNpdGUiKQogICAgICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgICAgICA/OiBmaWVsZHMuZmlyc3RWYWx1ZSgic291cmNlIik/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9LAogICAgICAgICAgICBzdXBwb3J0VXJsID0gZmllbGRzLmZpcnN0VmFsdWUoInN1cHBvcnRVUkwiKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0sCiAgICAgICAgICAgIGRvd25sb2FkVXJsID0gZmllbGRzLmZpcnN0VmFsdWUoImRvd25sb2FkVVJMIik/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9LAogICAgICAgICAgICB1cGRhdGVVcmwgPSBmaWVsZHMuZmlyc3RWYWx1ZSgidXBkYXRlVVJMIik/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9LAogICAgICAgICAgICBydW5BdCA9IFVzZXJzY3JpcHRSdW5BdC5mcm9tUmF3KGZpZWxkcy5maXJzdFZhbHVlKCJydW4tYXQiKSksCiAgICAgICAgICAgIGdyYW50cyA9IGZpZWxkc1siZ3JhbnQiXS5vckVtcHR5KCkubWFwIHsgaXQudHJpbSgpIH0uZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0uZGlzdGluY3QoKSwKICAgICAgICAgICAgbWF0Y2hlcyA9IGZpZWxkc1sibWF0Y2giXS5vckVtcHR5KCkubWFwIHsgaXQudHJpbSgpIH0uZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0uZGlzdGluY3QoKSwKICAgICAgICAgICAgaW5jbHVkZXMgPSBmaWVsZHNbImluY2x1ZGUiXS5vckVtcHR5KCkubWFwIHsgaXQudHJpbSgpIH0uZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0uZGlzdGluY3QoKSwKICAgICAgICAgICAgZXhjbHVkZXMgPSBmaWVsZHNbImV4Y2x1ZGUiXS5vckVtcHR5KCkubWFwIHsgaXQudHJpbSgpIH0uZmlsdGVyIHsgaXQuaXNOb3RCbGFuaygpIH0uZGlzdGluY3QoKSwKICAgICAgICAgICAgZXhjbHVkZU1hdGNoZXMgPQogICAgICAgICAgICAgICAgZmllbGRzWyJleGNsdWRlLW1hdGNoIl0ub3JFbXB0eSgpLm1hcCB7IGl0LnRyaW0oKSB9LmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9LmRpc3RpbmN0KCksCiAgICAgICAgICAgIGNvbm5lY3RzID0gZmllbGRzWyJjb25uZWN0Il0ub3JFbXB0eSgpLm1hcCB7IGl0LnRyaW0oKSB9LmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9LmRpc3RpbmN0KCksCiAgICAgICAgICAgIHJlcXVpcmVzID0KICAgICAgICAgICAgICAgIGZpZWxkc1sicmVxdWlyZSJdLm9yRW1wdHkoKS5tYXBOb3ROdWxsIHsgdmFsdWUgLT4KICAgICAgICAgICAgICAgICAgICB2YWx1ZS50cmltKCkudGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0/LmxldCg6OlVzZXJzY3JpcHRSZXF1aXJlRW50cnkpCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICByZXNvdXJjZXMgPSByZXNvdXJjZUVudHJpZXMsCiAgICAgICAgICAgIGljb25zID0KICAgICAgICAgICAgICAgIFVzZXJzY3JpcHRJY29uU2V0KAogICAgICAgICAgICAgICAgICAgIGljb24gPSBmaWVsZHMuZmlyc3RWYWx1ZSgiaWNvbiIpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSwKICAgICAgICAgICAgICAgICAgICBpY29uNjQgPQogICAgICAgICAgICAgICAgICAgICAgICBmaWVsZHMuZmlyc3RWYWx1ZSgiaWNvbjY0IikKICAgICAgICAgICAgICAgICAgICAgICAgICAgID8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgID86IGZpZWxkcy5maXJzdFZhbHVlKCJpY29uNjRVUkwiKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0sCiAgICAgICAgICAgICAgICAgICAgZGVmYXVsdEljb24gPSBmaWVsZHMuZmlyc3RWYWx1ZSgiZGVmYXVsdGljb24iKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgIHRhZ3MgPSBmaWVsZHNbInRhZyJdLm9yRW1wdHkoKS5tYXAgeyBpdC50cmltKCkgfS5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgfS5kaXN0aW5jdCgpLAogICAgICAgICAgICBzYW5kYm94ID0gZmllbGRzLmZpcnN0VmFsdWUoInNhbmRib3giKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0sCiAgICAgICAgICAgIHJ1bkluID0gZmllbGRzLmZpcnN0VmFsdWUoInJ1bi1pbiIpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfSwKICAgICAgICAgICAgdW53cmFwID0KICAgICAgICAgICAgICAgIGZpZWxkcy5jb250YWluc0tleSgidW53cmFwIikgfHwKICAgICAgICAgICAgICAgICAgICBmaWVsZHNbInVud3JhcCJdPy5hbnkgeyBpdC5lcXVhbHMoInRydWUiLCBpZ25vcmVDYXNlID0gdHJ1ZSkgfSA9PSB0cnVlLAogICAgICAgICAgICB3ZWJSZXF1ZXN0UnVsZXMgPQogICAgICAgICAgICAgICAgZmllbGRzWyJ3ZWJSZXF1ZXN0Il0ub3JFbXB0eSgpLm1hcCB7IGl0LnRyaW0oKSB9LmZpbHRlciB7IGl0LmlzTm90QmxhbmsoKSB9LmRpc3RpbmN0KCksCiAgICAgICAgICAgIHJhd0hlYWRlcnMgPSByYXdIZWFkZXJzLAogICAgICAgICAgICBub0ZyYW1lcyA9IG5vRnJhbWVzLAogICAgICAgICAgICBtZXRhZGF0YUJsb2NrID0gYmxvY2sudHJpbSgpCiAgICAgICAgKQogICAgfQoKICAgIHByaXZhdGUgZnVuIE1hcDxTdHJpbmcsIExpc3Q8U3RyaW5nPj4uZmlyc3RWYWx1ZShrZXk6IFN0cmluZyk6IFN0cmluZz8gPSB0aGlzW2tleV0/LmZpcnN0T3JOdWxsKCkKfQo=
+package com.bslsjdk.operit.core.tools.defaultTool.websession.userscript
+
+internal object UserscriptMetadataParser {
+    private val metadataBlockRegex =
+        Regex("""(?m)^[ \t]*//[ \t]*==UserScript==\s*$([\s\S]*?)(?m)^[ \t]*//[ \t]*==/UserScript==\s*$""")
+    private val metadataLineRegex = Regex("""^[ \t]*//[ \t]*@([A-Za-z0-9:_-]+)(?:[ \t]+(.*))?$""")
+
+    fun parse(rawSource: String): ParsedUserscriptMetadata {
+        val match = metadataBlockRegex.find(rawSource)
+            ?: throw IllegalArgumentException("Missing userscript metadata block")
+        val block = match.groupValues[1]
+        val fields = linkedMapOf<String, MutableList<String>>()
+        val rawHeaders = mutableListOf<UserscriptHeaderEntry>()
+
+        block.lineSequence().forEach { line ->
+            val lineMatch = metadataLineRegex.find(line) ?: return@forEach
+            val key = lineMatch.groupValues[1].trim()
+            val value = lineMatch.groupValues.getOrNull(2)?.trim().orEmpty()
+            fields.getOrPut(key) { mutableListOf() }.add(value)
+            rawHeaders += UserscriptHeaderEntry(key = key, value = value)
+        }
+
+        val name = fields.firstValue("name")?.takeIf { it.isNotBlank() }
+            ?: throw IllegalArgumentException("Missing @name in userscript metadata")
+
+        val resourceEntries =
+            fields["resource"].orEmpty().mapNotNull { raw ->
+                val parts = raw.split(Regex("""\s+"""), limit = 2)
+                if (parts.size < 2) {
+                    null
+                } else {
+                    val resourceName = parts[0].trim()
+                    val url = parts[1].trim()
+                    if (resourceName.isBlank() || url.isBlank()) {
+                        null
+                    } else {
+                        UserscriptResourceEntry(name = resourceName, url = url)
+                    }
+                }
+            }
+
+        val noFrames =
+            fields.containsKey("noframes") ||
+                fields["noframe"]?.any { it.equals("true", ignoreCase = true) } == true
+
+        return ParsedUserscriptMetadata(
+            name = name,
+            namespace = fields.firstValue("namespace")?.takeIf { it.isNotBlank() },
+            version = fields.firstValue("version")?.takeIf { it.isNotBlank() } ?: "0",
+            description = fields.firstValue("description")?.takeIf { it.isNotBlank() },
+            author = fields.firstValue("author")?.takeIf { it.isNotBlank() },
+            homepage =
+                fields.firstValue("homepage")
+                    ?.takeIf { it.isNotBlank() }
+                    ?: fields.firstValue("homepageURL")?.takeIf { it.isNotBlank() },
+            website =
+                fields.firstValue("website")
+                    ?.takeIf { it.isNotBlank() }
+                    ?: fields.firstValue("source")?.takeIf { it.isNotBlank() },
+            supportUrl = fields.firstValue("supportURL")?.takeIf { it.isNotBlank() },
+            downloadUrl = fields.firstValue("downloadURL")?.takeIf { it.isNotBlank() },
+            updateUrl = fields.firstValue("updateURL")?.takeIf { it.isNotBlank() },
+            runAt = UserscriptRunAt.fromRaw(fields.firstValue("run-at")),
+            grants = fields["grant"].orEmpty().map { it.trim() }.filter { it.isNotBlank() }.distinct(),
+            matches = fields["match"].orEmpty().map { it.trim() }.filter { it.isNotBlank() }.distinct(),
+            includes = fields["include"].orEmpty().map { it.trim() }.filter { it.isNotBlank() }.distinct(),
+            excludes = fields["exclude"].orEmpty().map { it.trim() }.filter { it.isNotBlank() }.distinct(),
+            excludeMatches =
+                fields["exclude-match"].orEmpty().map { it.trim() }.filter { it.isNotBlank() }.distinct(),
+            connects = fields["connect"].orEmpty().map { it.trim() }.filter { it.isNotBlank() }.distinct(),
+            requires =
+                fields["require"].orEmpty().mapNotNull { value ->
+                    value.trim().takeIf { it.isNotBlank() }?.let(::UserscriptRequireEntry)
+                },
+            resources = resourceEntries,
+            icons =
+                UserscriptIconSet(
+                    icon = fields.firstValue("icon")?.takeIf { it.isNotBlank() },
+                    icon64 =
+                        fields.firstValue("icon64")
+                            ?.takeIf { it.isNotBlank() }
+                            ?: fields.firstValue("icon64URL")?.takeIf { it.isNotBlank() },
+                    defaultIcon = fields.firstValue("defaulticon")?.takeIf { it.isNotBlank() }
+                ),
+            tags = fields["tag"].orEmpty().map { it.trim() }.filter { it.isNotBlank() }.distinct(),
+            sandbox = fields.firstValue("sandbox")?.takeIf { it.isNotBlank() },
+            runIn = fields.firstValue("run-in")?.takeIf { it.isNotBlank() },
+            unwrap =
+                fields.containsKey("unwrap") ||
+                    fields["unwrap"]?.any { it.equals("true", ignoreCase = true) } == true,
+            webRequestRules =
+                fields["webRequest"].orEmpty().map { it.trim() }.filter { it.isNotBlank() }.distinct(),
+            rawHeaders = rawHeaders,
+            noFrames = noFrames,
+            metadataBlock = block.trim()
+        )
+    }
+
+    private fun Map<String, List<String>>.firstValue(key: String): String? = this[key]?.firstOrNull()
+}

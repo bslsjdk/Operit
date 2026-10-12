@@ -1,1 +1,344 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuZ2l0aHViCgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkLndpZGdldC5Ub2FzdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5BcnJhbmdlbWVudAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5Db2x1bW4KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuUm93CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LlNwYWNlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmxheW91dC5maWxsTWF4V2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuaGVpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnNpemUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQud2lkdGgKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuSWNvbnMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLkxhbmd1YWdlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsLmljb25zLmZpbGxlZC5PcGVuSW5Ccm93c2VyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5BbGVydERpYWxvZwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQnV0dG9uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5DaXJjdWxhclByb2dyZXNzSW5kaWNhdG9yCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5PdXRsaW5lZEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5MYXVuY2hlZEVmZmVjdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUubXV0YWJsZVN0YXRlT2YKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5yZW1lbWJlcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLnJlbWVtYmVyQ29yb3V0aW5lU2NvcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5zYXZlYWJsZS5yZW1lbWJlclNhdmVhYmxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuc2V0VmFsdWUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5HaXRIdWJPQXV0aEJyb2tlclN0YXJ0UmVzcG9uc2UKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5jb21tb24uYnJvd3Nlci5Ccm93c2VyQ2FsbGJhY2tEaWFsb2cKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNhbmNlbGxhdGlvbkV4Y2VwdGlvbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkRpc3BhdGNoZXJzCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuTm9uQ2FuY2VsbGFibGUKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5UaW1lb3V0Q2FuY2VsbGF0aW9uRXhjZXB0aW9uCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMud2l0aENvbnRleHQKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoVGltZW91dAoKcHJpdmF0ZSBlbnVtIGNsYXNzIEdpdEh1YkxvZ2luTW9kZSB7CiAgICBDSE9PU0VSLAogICAgRU1CRURERUQsCiAgICBFWFRFUk5BTAp9CgpAQ29tcG9zYWJsZQpmdW4gR2l0SHViTG9naW5EaWFsb2coCiAgICBvbkRpc21pc3NSZXF1ZXN0OiAoKSAtPiBVbml0LAogICAgb25Mb2dpblN1Y2Nlc3M6ICgoKSAtPiBVbml0KT8gPSBudWxsCikgewogICAgdmFyIGxvZ2luTW9kZSBieSByZW1lbWJlclNhdmVhYmxlIHsgbXV0YWJsZVN0YXRlT2YoR2l0SHViTG9naW5Nb2RlLkNIT09TRVIpIH0KCiAgICB3aGVuIChsb2dpbk1vZGUpIHsKICAgICAgICBHaXRIdWJMb2dpbk1vZGUuQ0hPT1NFUiAtPiBHaXRIdWJMb2dpbk1ldGhvZERpYWxvZygKICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzc1JlcXVlc3QsCiAgICAgICAgICAgIG9uVXNlRW1iZWRkZWRMb2dpbiA9IHsgbG9naW5Nb2RlID0gR2l0SHViTG9naW5Nb2RlLkVNQkVEREVEIH0sCiAgICAgICAgICAgIG9uVXNlRXh0ZXJuYWxMb2dpbiA9IHsgbG9naW5Nb2RlID0gR2l0SHViTG9naW5Nb2RlLkVYVEVSTkFMIH0KICAgICAgICApCiAgICAgICAgR2l0SHViTG9naW5Nb2RlLkVNQkVEREVEIC0+IEdpdEh1YkVtYmVkZGVkTG9naW5EaWFsb2coCiAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QgPSBvbkRpc21pc3NSZXF1ZXN0LAogICAgICAgICAgICBvbkxvZ2luU3VjY2VzcyA9IG9uTG9naW5TdWNjZXNzCiAgICAgICAgKQogICAgICAgIEdpdEh1YkxvZ2luTW9kZS5FWFRFUk5BTCAtPiBHaXRIdWJFeHRlcm5hbExvZ2luRGlhbG9nKAogICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzUmVxdWVzdCwKICAgICAgICAgICAgb25Mb2dpblN1Y2Nlc3MgPSBvbkxvZ2luU3VjY2VzcwogICAgICAgICkKICAgIH0KfQoKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gR2l0SHViTG9naW5NZXRob2REaWFsb2coCiAgICBvbkRpc21pc3NSZXF1ZXN0OiAoKSAtPiBVbml0LAogICAgb25Vc2VFbWJlZGRlZExvZ2luOiAoKSAtPiBVbml0LAogICAgb25Vc2VFeHRlcm5hbExvZ2luOiAoKSAtPiBVbml0CikgewogICAgQWxlcnREaWFsb2coCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCA9IG9uRGlzbWlzc1JlcXVlc3QsCiAgICAgICAgdGl0bGUgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubG9naW5fZ2l0aHViKSkgfSwKICAgICAgICB0ZXh0ID0gewogICAgICAgICAgICBDb2x1bW4gewogICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5naXRodWJfbG9naW5fbWV0aG9kX2Rlc2NyaXB0aW9uKSkKICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgxNi5kcCkpCiAgICAgICAgICAgICAgICBCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IG9uVXNlRW1iZWRkZWRMb2dpbiwKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpCiAgICAgICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgICAgICBJY29uKEljb25zLkRlZmF1bHQuTGFuZ3VhZ2UsIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwpCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dChzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5naXRodWJfbG9naW5fbWV0aG9kX2VtYmVkZGVkKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLmhlaWdodCgxMi5kcCkpCiAgICAgICAgICAgICAgICBPdXRsaW5lZEJ1dHRvbigKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25Vc2VFeHRlcm5hbExvZ2luLAogICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIuZmlsbE1heFdpZHRoKCkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIEljb24oSWNvbnMuRGVmYXVsdC5PcGVuSW5Ccm93c2VyLCBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsKQogICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDguZHApKQogICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuZ2l0aHViX2xvZ2luX21ldGhvZF9leHRlcm5hbCkpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIGNvbmZpcm1CdXR0b24gPSB7fSwKICAgICAgICBkaXNtaXNzQnV0dG9uID0gewogICAgICAgICAgICBUZXh0QnV0dG9uKG9uQ2xpY2sgPSBvbkRpc21pc3NSZXF1ZXN0KSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNhbmNlbCkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApCn0KCkBTdXBwcmVzc0xpbnQoIkxvY2FsQ29udGV4dEdldFJlc291cmNlVmFsdWVDYWxsIikKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gR2l0SHViRW1iZWRkZWRMb2dpbkRpYWxvZygKICAgIG9uRGlzbWlzc1JlcXVlc3Q6ICgpIC0+IFVuaXQsCiAgICBvbkxvZ2luU3VjY2VzczogKCgpIC0+IFVuaXQpPyA9IG51bGwKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgY29vcmRpbmF0b3IgPSByZW1lbWJlciB7IEdpdEh1Yk9BdXRoQ29vcmRpbmF0b3IoY29udGV4dCkgfQogICAgdmFsIHNjb3BlID0gcmVtZW1iZXJDb3JvdXRpbmVTY29wZSgpCiAgICB2YXIgdHJhbnNhY3Rpb24gYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZjxHaXRIdWJPQXV0aEJyb2tlclN0YXJ0UmVzcG9uc2U/PihudWxsKSB9CgogICAgTGF1bmNoZWRFZmZlY3QoVW5pdCkgewogICAgICAgIGNvb3JkaW5hdG9yLnN0YXJ0RW1iZWRkZWRMb2dpbigpLmZvbGQoCiAgICAgICAgICAgIG9uU3VjY2VzcyA9IHsgc3RhcnRlZCAtPiB0cmFuc2FjdGlvbiA9IHN0YXJ0ZWQgfSwKICAgICAgICAgICAgb25GYWlsdXJlID0geyBlcnJvciAtPgogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIHN0YXJ0IGVtYmVkZGVkIEdpdEh1YiBsb2dpbiIsIGVycm9yKQogICAgICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoCiAgICAgICAgICAgICAgICAgICAgY29udGV4dCwKICAgICAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tYWluX2dpdGh1Yl9sb2dpbl9mYWlsZWQsIGVycm9yLm1lc3NhZ2Uub3JFbXB0eSgpKSwKICAgICAgICAgICAgICAgICAgICBUb2FzdC5MRU5HVEhfTE9ORwogICAgICAgICAgICAgICAgKS5zaG93KCkKICAgICAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QoKQogICAgICAgICAgICB9CiAgICAgICAgKQogICAgfQoKICAgIHZhbCBhY3RpdmVUcmFuc2FjdGlvbiA9IHRyYW5zYWN0aW9uCiAgICBpZiAoYWN0aXZlVHJhbnNhY3Rpb24gPT0gbnVsbCkgewogICAgICAgIEFsZXJ0RGlhbG9nKAogICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gewogICAgICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsgY29vcmRpbmF0b3IuY2FuY2VsTG9naW4oKSB9CiAgICAgICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0KCkKICAgICAgICAgICAgfSwKICAgICAgICAgICAgdGl0bGUgPSB7IFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcubG9naW5fZ2l0aHViKSkgfSwKICAgICAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICBob3Jpem9udGFsQXJyYW5nZW1lbnQgPSBBcnJhbmdlbWVudC5zcGFjZWRCeSgxNi5kcCksCiAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgQ2lyY3VsYXJQcm9ncmVzc0luZGljYXRvcihtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMjQuZHApKQogICAgICAgICAgICAgICAgICAgIENvbHVtbiB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuZ2l0aHViX2xvZ2luX3N0YXJ0aW5nKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGNvbmZpcm1CdXR0b24gPSB7fSwKICAgICAgICAgICAgZGlzbWlzc0J1dHRvbiA9IHsKICAgICAgICAgICAgICAgIFRleHRCdXR0b24oCiAgICAgICAgICAgICAgICAgICAgb25DbGljayA9IHsKICAgICAgICAgICAgICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsgY29vcmRpbmF0b3IuY2FuY2VsTG9naW4oKSB9CiAgICAgICAgICAgICAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QoKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIFRleHQoc3RyaW5nUmVzb3VyY2UoUi5zdHJpbmcuY2FuY2VsKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICkKICAgICAgICByZXR1cm4KICAgIH0KCiAgICBCcm93c2VyQ2FsbGJhY2tEaWFsb2coCiAgICAgICAgdGl0bGUgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy5sb2dpbl9naXRodWIpLAogICAgICAgIGF1dGhvcml6YXRpb25VcmwgPSBhY3RpdmVUcmFuc2FjdGlvbi5hdXRob3JpemF0aW9uVXJsLAogICAgICAgIGNvbXBsZXRpb25SZWRpcmVjdFVyaSA9IFVyaS5wYXJzZShhY3RpdmVUcmFuc2FjdGlvbi5jb21wbGV0aW9uUmVkaXJlY3RVcmkpLAogICAgICAgIGV4cGlyZXNBdCA9IGFjdGl2ZVRyYW5zYWN0aW9uLmV4cGlyZXNBdCwKICAgICAgICBvbkNvbXBsZXRpb24gPSB7IGNvbXBsZXRpb25VcmkgLT4KICAgICAgICAgICAgc2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgICAgIGNvb3JkaW5hdG9yLmNvbXBsZXRlTG9naW4oY29tcGxldGlvblVyaSkuZm9sZCgKICAgICAgICAgICAgICAgICAgICBvblN1Y2Nlc3MgPSB7IHVzZXIgLT4KICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFpbl9naXRodWJfbG9naW5fc3VjY2VzcywgdXNlci5sb2dpbiksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb2FzdC5MRU5HVEhfTE9ORwogICAgICAgICAgICAgICAgICAgICAgICApLnNob3coKQogICAgICAgICAgICAgICAgICAgICAgICBvbkxvZ2luU3VjY2Vzcz8uaW52b2tlKCkKICAgICAgICAgICAgICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCgpCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICBvbkZhaWx1cmUgPSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBjb21wbGV0ZSBlbWJlZGRlZCBHaXRIdWIgbG9naW4iLCBlcnJvcikKICAgICAgICAgICAgICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFpbl9naXRodWJfbG9naW5fZmFpbGVkLCBlcnJvci5tZXNzYWdlLm9yRW1wdHkoKSksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBUb2FzdC5MRU5HVEhfTE9ORwogICAgICAgICAgICAgICAgICAgICAgICApLnNob3coKQogICAgICAgICAgICAgICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0KCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIG9uQ2FuY2VsbGVkID0gewogICAgICAgICAgICBzY29wZS5sYXVuY2ggeyBjb29yZGluYXRvci5jYW5jZWxMb2dpbigpIH0KICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCgpCiAgICAgICAgfSwKICAgICAgICBvbkZhaWx1cmUgPSB7IGVycm9yIC0+CiAgICAgICAgICAgIHNjb3BlLmxhdW5jaCB7IGNvb3JkaW5hdG9yLmNhbmNlbExvZ2luKCkgfQogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFbWJlZGRlZCBHaXRIdWIgYnJvd3NlciBjYWxsYmFjayBmYWlsZWQiLCBlcnJvcikKICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoCiAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFpbl9naXRodWJfbG9naW5fZmFpbGVkLCBlcnJvci5tZXNzYWdlLm9yRW1wdHkoKSksCiAgICAgICAgICAgICAgICBUb2FzdC5MRU5HVEhfTE9ORwogICAgICAgICAgICApLnNob3coKQogICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0KCkKICAgICAgICB9CiAgICApCn0KCkBTdXBwcmVzc0xpbnQoIkxvY2FsQ29udGV4dEdldFJlc291cmNlVmFsdWVDYWxsIikKQENvbXBvc2FibGUKcHJpdmF0ZSBmdW4gR2l0SHViRXh0ZXJuYWxMb2dpbkRpYWxvZygKICAgIG9uRGlzbWlzc1JlcXVlc3Q6ICgpIC0+IFVuaXQsCiAgICBvbkxvZ2luU3VjY2VzczogKCgpIC0+IFVuaXQpPyA9IG51bGwKKSB7CiAgICB2YWwgY29udGV4dCA9IExvY2FsQ29udGV4dC5jdXJyZW50CiAgICB2YWwgY29vcmRpbmF0b3IgPSByZW1lbWJlciB7IEdpdEh1Yk9BdXRoQ29vcmRpbmF0b3IoY29udGV4dCkgfQogICAgdmFyIGNhbGxiYWNrU2VydmVyIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2Y8R2l0SHViT0F1dGhMb29wYmFja0NhbGxiYWNrU2VydmVyPz4obnVsbCkgfQogICAgdmFyIGlzTGF1bmNoaW5nIGJ5IHJlbWVtYmVyIHsgbXV0YWJsZVN0YXRlT2YodHJ1ZSkgfQogICAgdmFyIGlzQ29tcGxldGluZyBieSByZW1lbWJlciB7IG11dGFibGVTdGF0ZU9mKGZhbHNlKSB9CiAgICB2YXIgaXNDYW5jZWxSZXF1ZXN0ZWQgYnkgcmVtZW1iZXIgeyBtdXRhYmxlU3RhdGVPZihmYWxzZSkgfQoKICAgIExhdW5jaGVkRWZmZWN0KFVuaXQpIHsKICAgICAgICB2YXIgbG9vcGJhY2tTZXJ2ZXI6IEdpdEh1Yk9BdXRoTG9vcGJhY2tDYWxsYmFja1NlcnZlcj8gPSBudWxsCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgbG9vcGJhY2tTZXJ2ZXIgPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5JTykgewogICAgICAgICAgICAgICAgR2l0SHViT0F1dGhMb29wYmFja0NhbGxiYWNrU2VydmVyLm9wZW4oKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGNhbGxiYWNrU2VydmVyID0gbG9vcGJhY2tTZXJ2ZXIKICAgICAgICAgICAgdmFsIHRyYW5zYWN0aW9uID0gY29vcmRpbmF0b3Iuc3RhcnRMb2dpbihsb29wYmFja1NlcnZlci5jb21wbGV0aW9uUmVkaXJlY3RVcmkpLmdldE9yRWxzZSB7IGVycm9yIC0+CiAgICAgICAgICAgICAgICB0aHJvdyBlcnJvcgogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnRleHQuc3RhcnRBY3Rpdml0eSgKICAgICAgICAgICAgICAgIEludGVudChJbnRlbnQuQUNUSU9OX1ZJRVcsIFVyaS5wYXJzZSh0cmFuc2FjdGlvbi5hdXRob3JpemF0aW9uVXJsKSkuYXBwbHkgewogICAgICAgICAgICAgICAgICAgIGFkZEZsYWdzKEludGVudC5GTEFHX0FDVElWSVRZX05FV19UQVNLKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApCiAgICAgICAgICAgIGlzTGF1bmNoaW5nID0gZmFsc2UKCiAgICAgICAgICAgIHZhbCByZW1haW5pbmdNaWxsaXMgPSB0cmFuc2FjdGlvbi5leHBpcmVzQXQgLSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICBpZiAocmVtYWluaW5nTWlsbGlzIDw9IDBMKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBJbGxlZ2FsU3RhdGVFeGNlcHRpb24oIkdpdEh1YiBsb2dpbiB0cmFuc2FjdGlvbiBleHBpcmVkIGJlZm9yZSB0aGUgYnJvd3NlciBvcGVuZWQiKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBjb21wbGV0aW9uVXJpID0gd2l0aFRpbWVvdXQocmVtYWluaW5nTWlsbGlzKSB7CiAgICAgICAgICAgICAgICBsb29wYmFja1NlcnZlci5hd2FpdENvbXBsZXRpb24oKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlzQ29tcGxldGluZyA9IHRydWUKICAgICAgICAgICAgdmFsIHVzZXIgPSBjb29yZGluYXRvci5jb21wbGV0ZUxvZ2luKGNvbXBsZXRpb25VcmkpLmdldE9yRWxzZSB7IGVycm9yIC0+IHRocm93IGVycm9yIH0KICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoCiAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFpbl9naXRodWJfbG9naW5fc3VjY2VzcywgdXNlci5sb2dpbiksCiAgICAgICAgICAgICAgICBUb2FzdC5MRU5HVEhfTE9ORwogICAgICAgICAgICApLnNob3coKQogICAgICAgICAgICBvbkxvZ2luU3VjY2Vzcz8uaW52b2tlKCkKICAgICAgICAgICAgb25EaXNtaXNzUmVxdWVzdCgpCiAgICAgICAgfSBjYXRjaCAoZXJyb3I6IFRpbWVvdXRDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXh0ZXJuYWwgR2l0SHViIGxvZ2luIHRpbWVkIG91dCIsIGVycm9yKQogICAgICAgICAgICBUb2FzdC5tYWtlVGV4dCgKICAgICAgICAgICAgICAgIGNvbnRleHQsCiAgICAgICAgICAgICAgICBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tYWluX2dpdGh1Yl9sb2dpbl9mYWlsZWQsIGVycm9yLm1lc3NhZ2Uub3JFbXB0eSgpKSwKICAgICAgICAgICAgICAgIFRvYXN0LkxFTkdUSF9MT05HCiAgICAgICAgICAgICkuc2hvdygpCiAgICAgICAgICAgIG9uRGlzbWlzc1JlcXVlc3QoKQogICAgICAgIH0gY2F0Y2ggKGVycm9yOiBDYW5jZWxsYXRpb25FeGNlcHRpb24pIHsKICAgICAgICAgICAgdGhyb3cgZXJyb3IKICAgICAgICB9IGNhdGNoIChlcnJvcjogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIGlmIChpc0NhbmNlbFJlcXVlc3RlZCkgewogICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiRXh0ZXJuYWwgR2l0SHViIGxvZ2luIGNhbmNlbGxlZCBieSB1c2VyIikKICAgICAgICAgICAgICAgIHJldHVybkBMYXVuY2hlZEVmZmVjdAogICAgICAgICAgICB9CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkV4dGVybmFsIEdpdEh1YiBsb2dpbiBmYWlsZWQiLCBlcnJvcikKICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoCiAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubWFpbl9naXRodWJfbG9naW5fZmFpbGVkLCBlcnJvci5tZXNzYWdlLm9yRW1wdHkoKSksCiAgICAgICAgICAgICAgICBUb2FzdC5MRU5HVEhfTE9ORwogICAgICAgICAgICApLnNob3coKQogICAgICAgICAgICBvbkRpc21pc3NSZXF1ZXN0KCkKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICBsb29wYmFja1NlcnZlcj8uY2xvc2UoKQogICAgICAgICAgICB3aXRoQ29udGV4dChOb25DYW5jZWxsYWJsZSkgewogICAgICAgICAgICAgICAgY29vcmRpbmF0b3IuY2FuY2VsTG9naW4oKQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHZhbCBjYW5jZWxFeHRlcm5hbExvZ2luID0gewogICAgICAgIGlzQ2FuY2VsUmVxdWVzdGVkID0gdHJ1ZQogICAgICAgIGNhbGxiYWNrU2VydmVyPy5jbG9zZSgpCiAgICAgICAgb25EaXNtaXNzUmVxdWVzdCgpCiAgICB9CiAgICBBbGVydERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gewogICAgICAgICAgICBpZiAoIWlzQ29tcGxldGluZykgewogICAgICAgICAgICAgICAgY2FuY2VsRXh0ZXJuYWxMb2dpbigpCiAgICAgICAgICAgIH0KICAgICAgICB9LAogICAgICAgIHRpdGxlID0geyBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmxvZ2luX2dpdGh1YikpIH0sCiAgICAgICAgdGV4dCA9IHsKICAgICAgICAgICAgUm93KAogICAgICAgICAgICAgICAgaG9yaXpvbnRhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuc3BhY2VkQnkoMTYuZHApLAogICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIENpcmN1bGFyUHJvZ3Jlc3NJbmRpY2F0b3IobW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDI0LmRwKSkKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgc3RyaW5nUmVzb3VyY2UoCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChpc0xhdW5jaGluZykgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgUi5zdHJpbmcuZ2l0aHViX2xvZ2luX3N0YXJ0aW5nCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBSLnN0cmluZy5naXRodWJfbG9naW5fZXh0ZXJuYWxfd2FpdGluZwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICB9CiAgICAgICAgfSwKICAgICAgICBjb25maXJtQnV0dG9uID0ge30sCiAgICAgICAgZGlzbWlzc0J1dHRvbiA9IHsKICAgICAgICAgICAgVGV4dEJ1dHRvbigKICAgICAgICAgICAgICAgIG9uQ2xpY2sgPSBjYW5jZWxFeHRlcm5hbExvZ2luLAogICAgICAgICAgICAgICAgZW5hYmxlZCA9ICFpc0NvbXBsZXRpbmcKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICBUZXh0KHN0cmluZ1Jlc291cmNlKFIuc3RyaW5nLmNhbmNlbCkpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApCn0KCnByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJHaXRIdWJMb2dpbkRpYWxvZyIK
+package com.bslsjdk.operit.ui.features.github
+
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.net.Uri
+import android.widget.Toast
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Language
+import androidx.compose.material.icons.filled.OpenInBrowser
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.unit.dp
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.api.GitHubOAuthBrokerStartResponse
+import com.bslsjdk.operit.ui.common.browser.BrowserCallbackDialog
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.NonCancellable
+import kotlinx.coroutines.TimeoutCancellationException
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeout
+
+private enum class GitHubLoginMode {
+    CHOOSER,
+    EMBEDDED,
+    EXTERNAL
+}
+
+@Composable
+fun GitHubLoginDialog(
+    onDismissRequest: () -> Unit,
+    onLoginSuccess: (() -> Unit)? = null
+) {
+    var loginMode by rememberSaveable { mutableStateOf(GitHubLoginMode.CHOOSER) }
+
+    when (loginMode) {
+        GitHubLoginMode.CHOOSER -> GitHubLoginMethodDialog(
+            onDismissRequest = onDismissRequest,
+            onUseEmbeddedLogin = { loginMode = GitHubLoginMode.EMBEDDED },
+            onUseExternalLogin = { loginMode = GitHubLoginMode.EXTERNAL }
+        )
+        GitHubLoginMode.EMBEDDED -> GitHubEmbeddedLoginDialog(
+            onDismissRequest = onDismissRequest,
+            onLoginSuccess = onLoginSuccess
+        )
+        GitHubLoginMode.EXTERNAL -> GitHubExternalLoginDialog(
+            onDismissRequest = onDismissRequest,
+            onLoginSuccess = onLoginSuccess
+        )
+    }
+}
+
+@Composable
+private fun GitHubLoginMethodDialog(
+    onDismissRequest: () -> Unit,
+    onUseEmbeddedLogin: () -> Unit,
+    onUseExternalLogin: () -> Unit
+) {
+    AlertDialog(
+        onDismissRequest = onDismissRequest,
+        title = { Text(stringResource(R.string.login_github)) },
+        text = {
+            Column {
+                Text(stringResource(R.string.github_login_method_description))
+                Spacer(modifier = Modifier.height(16.dp))
+                Button(
+                    onClick = onUseEmbeddedLogin,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Icon(Icons.Default.Language, contentDescription = null)
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(stringResource(R.string.github_login_method_embedded))
+                }
+                Spacer(modifier = Modifier.height(12.dp))
+                OutlinedButton(
+                    onClick = onUseExternalLogin,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Icon(Icons.Default.OpenInBrowser, contentDescription = null)
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Text(stringResource(R.string.github_login_method_external))
+                }
+            }
+        },
+        confirmButton = {},
+        dismissButton = {
+            TextButton(onClick = onDismissRequest) {
+                Text(stringResource(R.string.cancel))
+            }
+        }
+    )
+}
+
+@SuppressLint("LocalContextGetResourceValueCall")
+@Composable
+private fun GitHubEmbeddedLoginDialog(
+    onDismissRequest: () -> Unit,
+    onLoginSuccess: (() -> Unit)? = null
+) {
+    val context = LocalContext.current
+    val coordinator = remember { GitHubOAuthCoordinator(context) }
+    val scope = rememberCoroutineScope()
+    var transaction by remember { mutableStateOf<GitHubOAuthBrokerStartResponse?>(null) }
+
+    LaunchedEffect(Unit) {
+        coordinator.startEmbeddedLogin().fold(
+            onSuccess = { started -> transaction = started },
+            onFailure = { error ->
+                AppLogger.e(TAG, "Failed to start embedded GitHub login", error)
+                Toast.makeText(
+                    context,
+                    context.getString(R.string.main_github_login_failed, error.message.orEmpty()),
+                    Toast.LENGTH_LONG
+                ).show()
+                onDismissRequest()
+            }
+        )
+    }
+
+    val activeTransaction = transaction
+    if (activeTransaction == null) {
+        AlertDialog(
+            onDismissRequest = {
+                scope.launch { coordinator.cancelLogin() }
+                onDismissRequest()
+            },
+            title = { Text(stringResource(R.string.login_github)) },
+            text = {
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(16.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                    Column {
+                        Text(stringResource(R.string.github_login_starting))
+                    }
+                }
+            },
+            confirmButton = {},
+            dismissButton = {
+                TextButton(
+                    onClick = {
+                        scope.launch { coordinator.cancelLogin() }
+                        onDismissRequest()
+                    }
+                ) {
+                    Text(stringResource(R.string.cancel))
+                }
+            }
+        )
+        return
+    }
+
+    BrowserCallbackDialog(
+        title = stringResource(R.string.login_github),
+        authorizationUrl = activeTransaction.authorizationUrl,
+        completionRedirectUri = Uri.parse(activeTransaction.completionRedirectUri),
+        expiresAt = activeTransaction.expiresAt,
+        onCompletion = { completionUri ->
+            scope.launch {
+                coordinator.completeLogin(completionUri).fold(
+                    onSuccess = { user ->
+                        Toast.makeText(
+                            context,
+                            context.getString(R.string.main_github_login_success, user.login),
+                            Toast.LENGTH_LONG
+                        ).show()
+                        onLoginSuccess?.invoke()
+                        onDismissRequest()
+                    },
+                    onFailure = { error ->
+                        AppLogger.e(TAG, "Failed to complete embedded GitHub login", error)
+                        Toast.makeText(
+                            context,
+                            context.getString(R.string.main_github_login_failed, error.message.orEmpty()),
+                            Toast.LENGTH_LONG
+                        ).show()
+                        onDismissRequest()
+                    }
+                )
+            }
+        },
+        onCancelled = {
+            scope.launch { coordinator.cancelLogin() }
+            onDismissRequest()
+        },
+        onFailure = { error ->
+            scope.launch { coordinator.cancelLogin() }
+            AppLogger.e(TAG, "Embedded GitHub browser callback failed", error)
+            Toast.makeText(
+                context,
+                context.getString(R.string.main_github_login_failed, error.message.orEmpty()),
+                Toast.LENGTH_LONG
+            ).show()
+            onDismissRequest()
+        }
+    )
+}
+
+@SuppressLint("LocalContextGetResourceValueCall")
+@Composable
+private fun GitHubExternalLoginDialog(
+    onDismissRequest: () -> Unit,
+    onLoginSuccess: (() -> Unit)? = null
+) {
+    val context = LocalContext.current
+    val coordinator = remember { GitHubOAuthCoordinator(context) }
+    var callbackServer by remember { mutableStateOf<GitHubOAuthLoopbackCallbackServer?>(null) }
+    var isLaunching by remember { mutableStateOf(true) }
+    var isCompleting by remember { mutableStateOf(false) }
+    var isCancelRequested by remember { mutableStateOf(false) }
+
+    LaunchedEffect(Unit) {
+        var loopbackServer: GitHubOAuthLoopbackCallbackServer? = null
+        try {
+            loopbackServer = withContext(Dispatchers.IO) {
+                GitHubOAuthLoopbackCallbackServer.open()
+            }
+            callbackServer = loopbackServer
+            val transaction = coordinator.startLogin(loopbackServer.completionRedirectUri).getOrElse { error ->
+                throw error
+            }
+            context.startActivity(
+                Intent(Intent.ACTION_VIEW, Uri.parse(transaction.authorizationUrl)).apply {
+                    addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                }
+            )
+            isLaunching = false
+
+            val remainingMillis = transaction.expiresAt - System.currentTimeMillis()
+            if (remainingMillis <= 0L) {
+                throw IllegalStateException("GitHub login transaction expired before the browser opened")
+            }
+            val completionUri = withTimeout(remainingMillis) {
+                loopbackServer.awaitCompletion()
+            }
+            isCompleting = true
+            val user = coordinator.completeLogin(completionUri).getOrElse { error -> throw error }
+            Toast.makeText(
+                context,
+                context.getString(R.string.main_github_login_success, user.login),
+                Toast.LENGTH_LONG
+            ).show()
+            onLoginSuccess?.invoke()
+            onDismissRequest()
+        } catch (error: TimeoutCancellationException) {
+            AppLogger.e(TAG, "External GitHub login timed out", error)
+            Toast.makeText(
+                context,
+                context.getString(R.string.main_github_login_failed, error.message.orEmpty()),
+                Toast.LENGTH_LONG
+            ).show()
+            onDismissRequest()
+        } catch (error: CancellationException) {
+            throw error
+        } catch (error: Exception) {
+            if (isCancelRequested) {
+                AppLogger.d(TAG, "External GitHub login cancelled by user")
+                return@LaunchedEffect
+            }
+            AppLogger.e(TAG, "External GitHub login failed", error)
+            Toast.makeText(
+                context,
+                context.getString(R.string.main_github_login_failed, error.message.orEmpty()),
+                Toast.LENGTH_LONG
+            ).show()
+            onDismissRequest()
+        } finally {
+            loopbackServer?.close()
+            withContext(NonCancellable) {
+                coordinator.cancelLogin()
+            }
+        }
+    }
+
+    val cancelExternalLogin = {
+        isCancelRequested = true
+        callbackServer?.close()
+        onDismissRequest()
+    }
+    AlertDialog(
+        onDismissRequest = {
+            if (!isCompleting) {
+                cancelExternalLogin()
+            }
+        },
+        title = { Text(stringResource(R.string.login_github)) },
+        text = {
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(16.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                CircularProgressIndicator(modifier = Modifier.size(24.dp))
+                Text(
+                    stringResource(
+                        if (isLaunching) {
+                            R.string.github_login_starting
+                        } else {
+                            R.string.github_login_external_waiting
+                        }
+                    )
+                )
+            }
+        },
+        confirmButton = {},
+        dismissButton = {
+            TextButton(
+                onClick = cancelExternalLogin,
+                enabled = !isCompleting
+            ) {
+                Text(stringResource(R.string.cancel))
+            }
+        }
+    )
+}
+
+private const val TAG = "GitHubLoginDialog"

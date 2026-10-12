@@ -1,1 +1,19 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnNxbHZpZXdlcgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuQm94CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLmZvdW5kYXRpb24ubGF5b3V0LnBhZGRpbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkV4cGVyaW1lbnRhbE1hdGVyaWFsM0FwaQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuTW9kaWZpZXIKaW1wb3J0IGFuZHJvaWR4Lm5hdmlnYXRpb24uTmF2Q29udHJvbGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmNvbXBvbmVudHMuQ3VzdG9tU2NhZmZvbGQKCkBPcHRJbihFeHBlcmltZW50YWxNYXRlcmlhbDNBcGk6OmNsYXNzKQpAQ29tcG9zYWJsZQpmdW4gU3FsVmlld2VyVG9vbFNjcmVlbihuYXZDb250cm9sbGVyOiBOYXZDb250cm9sbGVyKSB7CiAgICBDdXN0b21TY2FmZm9sZCB7IHBhZGRpbmdWYWx1ZXMgLT4KICAgICAgICBCb3gobW9kaWZpZXIgPSBNb2RpZmllci5wYWRkaW5nKHBhZGRpbmdWYWx1ZXMpKSB7CiAgICAgICAgICAgIFNxbFZpZXdlclNjcmVlbihuYXZDb250cm9sbGVyID0gbmF2Q29udHJvbGxlcikKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.toolbox.screens.sqlviewer
+
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.navigation.NavController
+import com.bslsjdk.operit.ui.components.CustomScaffold
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun SqlViewerToolScreen(navController: NavController) {
+    CustomScaffold { paddingValues ->
+        Box(modifier = Modifier.padding(paddingValues)) {
+            SqlViewerScreen(navController = navController)
+        }
+    }
+}

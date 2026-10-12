@@ -1,1 +1,217 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzCgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLmJhY2tncm91bmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLnJlbWVtYmVyU2Nyb2xsU3RhdGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5zaGFwZS5Sb3VuZGVkQ29ybmVyU2hhcGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi52ZXJ0aWNhbFNjcm9sbAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuRGVzY3JpcHRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwuaWNvbnMuZmlsbGVkLldhcm5pbmcKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuQnV0dG9uRGVmYXVsdHMKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkNhcmQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UubWF0ZXJpYWwzLkNhcmREZWZhdWx0cwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuTWF0ZXJpYWxUaGVtZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuVGV4dEJ1dHRvbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLkNvbXBvc2FibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLmRyYXcuY2xpcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5yZXMuc3RyaW5nUmVzb3VyY2UKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudGV4dC5mb250LkZvbnRXZWlnaHQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS53aW5kb3cuRGlhbG9nCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLndpbmRvdy5EaWFsb2dQcm9wZXJ0aWVzCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5JY29uCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQud2Vidmlldy53b3Jrc3BhY2UuV29ya3NwYWNlQmFja3VwTWFuYWdlcgoKZW51bSBjbGFzcyBXb3Jrc3BhY2VDaGFuZ2VDb25maXJtTW9kZSB7CiAgICBST0xMQkFDSywKICAgIEVESVRfQU5EX1JFU0VORAp9CgpAQ29tcG9zYWJsZQpmdW4gV29ya3NwYWNlQ2hhbmdlQ29uZmlybURpYWxvZygKICAgIG1vZGU6IFdvcmtzcGFjZUNoYW5nZUNvbmZpcm1Nb2RlLAogICAgY2hhbmdlczogTGlzdDxXb3Jrc3BhY2VCYWNrdXBNYW5hZ2VyLldvcmtzcGFjZUZpbGVDaGFuZ2U+LAogICAgb25Db25maXJtOiAoKSAtPiBVbml0LAogICAgb25EaXNtaXNzOiAoKSAtPiBVbml0CikgewogICAgdmFsIGRpYWxvZ01ldHJpY3MgPSByZW1lbWJlckNvbXBhY3REaWFsb2dNZXRyaWNzKCkKICAgIHZhbCBwcmV2aWV3TWF4SGVpZ2h0ID0gaWYgKGRpYWxvZ01ldHJpY3MuaXNDb21wYWN0SGVpZ2h0KSAxMjAuZHAgZWxzZSAyNjAuZHAKICAgIHZhbCBjYXJkTW9kaWZpZXIgPQogICAgICAgIE1vZGlmaWVyCiAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoMC45NWYpCiAgICAgICAgICAgIC5jb21wYWN0RGlhbG9nSGVpZ2h0T3JXcmFwQ29udGVudChkaWFsb2dNZXRyaWNzKQoKICAgIERpYWxvZygKICAgICAgICBvbkRpc21pc3NSZXF1ZXN0ID0gb25EaXNtaXNzLAogICAgICAgIHByb3BlcnRpZXMgPSBEaWFsb2dQcm9wZXJ0aWVzKGRpc21pc3NPbkJhY2tQcmVzcyA9IHRydWUsIGRpc21pc3NPbkNsaWNrT3V0c2lkZSA9IHRydWUpCiAgICApIHsKICAgICAgICBDYXJkKAogICAgICAgICAgICBtb2RpZmllciA9IGNhcmRNb2RpZmllciwKICAgICAgICAgICAgc2hhcGUgPSBSb3VuZGVkQ29ybmVyU2hhcGUoMTYuZHApLAogICAgICAgICAgICBjb2xvcnMgPSBDYXJkRGVmYXVsdHMuY2FyZENvbG9ycyhjb250YWluZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuc3VyZmFjZSkKICAgICAgICApIHsKICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKDIwLmRwKQogICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICApIHsKICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgIHZlcnRpY2FsQWxpZ25tZW50ID0gQWxpZ25tZW50LkNlbnRlclZlcnRpY2FsbHkKICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICAgICAgICAgIGltYWdlVmVjdG9yID0gSWNvbnMuRGVmYXVsdC5XYXJuaW5nLAogICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBudWxsLAogICAgICAgICAgICAgICAgICAgICAgICB0aW50ID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvciwKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllci5zaXplKDIwLmRwKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci53aWR0aCgxMi5kcCkpCiAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHdoZW4gKG1vZGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFdvcmtzcGFjZUNoYW5nZUNvbmZpcm1Nb2RlLlJPTExCQUNLIC0+IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcuY29uZmlybV9yb2xsYmFja190aXRsZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFdvcmtzcGFjZUNoYW5nZUNvbmZpcm1Nb2RlLkVESVRfQU5EX1JFU0VORCAtPiBzdHJpbmdSZXNvdXJjZShpZCA9IFIuc3RyaW5nLmNvbmZpcm1fZWRpdF9hbmRfcmVzZW5kX3RpdGxlKQogICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS50aXRsZU1lZGl1bSwKICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodCA9IEZvbnRXZWlnaHQuQm9sZCwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoMTIuZHApKQoKICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHdoZW4gKG1vZGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgV29ya3NwYWNlQ2hhbmdlQ29uZmlybU1vZGUuUk9MTEJBQ0sgLT4gc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy5jb25maXJtX3JvbGxiYWNrX21lc3NhZ2UpCiAgICAgICAgICAgICAgICAgICAgICAgIFdvcmtzcGFjZUNoYW5nZUNvbmZpcm1Nb2RlLkVESVRfQU5EX1JFU0VORCAtPiBzdHJpbmdSZXNvdXJjZShpZCA9IFIuc3RyaW5nLmNvbmZpcm1fZWRpdF9hbmRfcmVzZW5kX21lc3NhZ2UpCiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgICAgIGNvbG9yID0gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2UKICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgICAgICBpZiAoY2hhbmdlcy5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoMTYuZHApKQogICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShpZCA9IFIuc3RyaW5nLndvcmtzcGFjZV9jaGFuZ2VzX3ByZXZpZXdfdGl0bGUpLAogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbE1lZGl1bSwKICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDguZHApKQoKICAgICAgICAgICAgICAgICAgICBCb3goCiAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhlaWdodEluKG1pbiA9IDgwLmRwLCBtYXggPSBwcmV2aWV3TWF4SGVpZ2h0KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNsaXAoUm91bmRlZENvcm5lclNoYXBlKDguZHApKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgLmJhY2tncm91bmQoTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5zdXJmYWNlVmFyaWFudC5jb3B5KGFscGhhID0gMC42ZikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAucGFkZGluZyhob3Jpem9udGFsID0gOC5kcCwgdmVydGljYWwgPSA2LmRwKQogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWwgc2Nyb2xsU3RhdGUgPSByZW1lbWJlclNjcm9sbFN0YXRlKCkKICAgICAgICAgICAgICAgICAgICAgICAgQ29sdW1uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC52ZXJ0aWNhbFNjcm9sbChzY3JvbGxTdGF0ZSkKICAgICAgICAgICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjaGFuZ2VzLmZvckVhY2ggeyBjaGFuZ2UgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWwgKHN0YXR1c0xhYmVsLCBzdGF0dXNDb2xvcikgPSB3aGVuIChjaGFuZ2UuY2hhbmdlVHlwZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXb3Jrc3BhY2VCYWNrdXBNYW5hZ2VyLkNoYW5nZVR5cGUuQURERUQgLT4gIkEiIHRvIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXb3Jrc3BhY2VCYWNrdXBNYW5hZ2VyLkNoYW5nZVR5cGUuREVMRVRFRCAtPiAiRCIgdG8gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5lcnJvcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXb3Jrc3BhY2VCYWNrdXBNYW5hZ2VyLkNoYW5nZVR5cGUuTU9ESUZJRUQgLT4gIk0iIHRvIE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUudGVydGlhcnkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBmaWxlTmFtZSA9IGNoYW5nZS5wYXRoLnN1YnN0cmluZ0FmdGVyTGFzdCgnLycsIGNoYW5nZS5wYXRoKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBSb3coCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1vZGlmaWVyID0gTW9kaWZpZXIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5maWxsTWF4V2lkdGgoKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLnBhZGRpbmcodmVydGljYWwgPSA0LmRwKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmVydGljYWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVyVmVydGljYWxseQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBJY29uKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW1hZ2VWZWN0b3IgPSBJY29ucy5GaWxsZWQuRGVzY3JpcHRpb24sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBmaWxlTmFtZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpbnQgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoMTguZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENvbHVtbihtb2RpZmllciA9IE1vZGlmaWVyLndlaWdodCgxZikpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGZpbGVOYW1lLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlTbWFsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUub25TdXJmYWNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDguZHApKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgQm94KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jbGlwKFJvdW5kZWRDb3JuZXJTaGFwZSg0LmRwKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYmFja2dyb3VuZChzdGF0dXNDb2xvci5jb3B5KGFscGhhID0gMC4xNWYpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wYWRkaW5nKGhvcml6b250YWwgPSA2LmRwLCB2ZXJ0aWNhbCA9IDIuZHApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gc3RhdHVzTGFiZWwsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3R5bGUgPSBNYXRlcmlhbFRoZW1lLnR5cG9ncmFwaHkubGFiZWxTbWFsbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvciA9IHN0YXR1c0NvbG9yCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNwYWNlcihtb2RpZmllciA9IE1vZGlmaWVyLndpZHRoKDguZHApKQoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNoYW5nZVRleHRDb2xvciA9IHdoZW4gKGNoYW5nZS5jaGFuZ2VUeXBlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXb3Jrc3BhY2VCYWNrdXBNYW5hZ2VyLkNoYW5nZVR5cGUuQURERUQgLT4gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5wcmltYXJ5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXb3Jrc3BhY2VCYWNrdXBNYW5hZ2VyLkNoYW5nZVR5cGUuREVMRVRFRCAtPiBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLmVycm9yCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXb3Jrc3BhY2VCYWNrdXBNYW5hZ2VyLkNoYW5nZVR5cGUuTU9ESUZJRUQgLT4gTWF0ZXJpYWxUaGVtZS5jb2xvclNjaGVtZS5vblN1cmZhY2VWYXJpYW50CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGNoYW5nZVRleHQgPSB3aGVuIChjaGFuZ2UuY2hhbmdlVHlwZSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgV29ya3NwYWNlQmFja3VwTWFuYWdlci5DaGFuZ2VUeXBlLkFEREVEIC0+ICIrJHtjaGFuZ2UuY2hhbmdlZExpbmVzfSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFdvcmtzcGFjZUJhY2t1cE1hbmFnZXIuQ2hhbmdlVHlwZS5ERUxFVEVEIC0+ICItJHtjaGFuZ2UuY2hhbmdlZExpbmVzfSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFdvcmtzcGFjZUJhY2t1cE1hbmFnZXIuQ2hhbmdlVHlwZS5NT0RJRklFRCAtPiAiwrEke2NoYW5nZS5jaGFuZ2VkTGluZXN9IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGNoYW5nZVRleHQsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5sYWJlbFNtYWxsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3IgPSBjaGFuZ2VUZXh0Q29sb3IKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoMjAuZHApKQoKICAgICAgICAgICAgICAgIFJvdygKICAgICAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLmZpbGxNYXhXaWR0aCgpLAogICAgICAgICAgICAgICAgICAgIGhvcml6b250YWxBcnJhbmdlbWVudCA9IEFycmFuZ2VtZW50LkVuZAogICAgICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgICAgICAgVGV4dEJ1dHRvbihvbkNsaWNrID0gb25EaXNtaXNzKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIFRleHQodGV4dCA9IHN0cmluZ1Jlc291cmNlKGlkID0gUi5zdHJpbmcuY2FuY2VsKSkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIud2lkdGgoOC5kcCkpCiAgICAgICAgICAgICAgICAgICAgQnV0dG9uKAogICAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrID0gb25Db25maXJtLAogICAgICAgICAgICAgICAgICAgICAgICBjb2xvcnMgPSBCdXR0b25EZWZhdWx0cy5idXR0b25Db2xvcnMoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250YWluZXJDb2xvciA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUuZXJyb3IKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICAgICAgICBUZXh0KAogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dCA9IHdoZW4gKG1vZGUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXb3Jrc3BhY2VDaGFuZ2VDb25maXJtTW9kZS5ST0xMQkFDSyAtPiBzdHJpbmdSZXNvdXJjZShpZCA9IFIuc3RyaW5nLmNvbmZpcm1fcm9sbGJhY2tfY29uZmlybSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBXb3Jrc3BhY2VDaGFuZ2VDb25maXJtTW9kZS5FRElUX0FORF9SRVNFTkQgLT4gc3RyaW5nUmVzb3VyY2UoaWQgPSBSLnN0cmluZy5jb25maXJtX2VkaXRfYW5kX3Jlc2VuZF9jb25maXJtKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.components
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Description
+import androidx.compose.material.icons.filled.Warning
+import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
+import androidx.compose.material3.Icon
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.features.chat.webview.workspace.WorkspaceBackupManager
+
+enum class WorkspaceChangeConfirmMode {
+    ROLLBACK,
+    EDIT_AND_RESEND
+}
+
+@Composable
+fun WorkspaceChangeConfirmDialog(
+    mode: WorkspaceChangeConfirmMode,
+    changes: List<WorkspaceBackupManager.WorkspaceFileChange>,
+    onConfirm: () -> Unit,
+    onDismiss: () -> Unit
+) {
+    val dialogMetrics = rememberCompactDialogMetrics()
+    val previewMaxHeight = if (dialogMetrics.isCompactHeight) 120.dp else 260.dp
+    val cardModifier =
+        Modifier
+            .fillMaxWidth(0.95f)
+            .compactDialogHeightOrWrapContent(dialogMetrics)
+
+    Dialog(
+        onDismissRequest = onDismiss,
+        properties = DialogProperties(dismissOnBackPress = true, dismissOnClickOutside = true)
+    ) {
+        Card(
+            modifier = cardModifier,
+            shape = RoundedCornerShape(16.dp),
+            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+        ) {
+            Column(
+                modifier = Modifier
+                    .padding(20.dp)
+                    .fillMaxWidth()
+            ) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.Warning,
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.error,
+                        modifier = Modifier.size(20.dp)
+                    )
+                    Spacer(modifier = Modifier.width(12.dp))
+                    Text(
+                        text = when (mode) {
+                            WorkspaceChangeConfirmMode.ROLLBACK -> stringResource(id = R.string.confirm_rollback_title)
+                            WorkspaceChangeConfirmMode.EDIT_AND_RESEND -> stringResource(id = R.string.confirm_edit_and_resend_title)
+                        },
+                        style = MaterialTheme.typography.titleMedium,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+                }
+
+                Spacer(modifier = Modifier.height(12.dp))
+
+                Text(
+                    text = when (mode) {
+                        WorkspaceChangeConfirmMode.ROLLBACK -> stringResource(id = R.string.confirm_rollback_message)
+                        WorkspaceChangeConfirmMode.EDIT_AND_RESEND -> stringResource(id = R.string.confirm_edit_and_resend_message)
+                    },
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurface
+                )
+
+                if (changes.isNotEmpty()) {
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Text(
+                        text = stringResource(id = R.string.workspace_changes_preview_title),
+                        style = MaterialTheme.typography.labelMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                    Spacer(modifier = Modifier.height(8.dp))
+
+                    Box(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .heightIn(min = 80.dp, max = previewMaxHeight)
+                            .clip(RoundedCornerShape(8.dp))
+                            .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.6f))
+                            .padding(horizontal = 8.dp, vertical = 6.dp)
+                    ) {
+                        val scrollState = rememberScrollState()
+                        Column(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .verticalScroll(scrollState)
+                        ) {
+                            changes.forEach { change ->
+                                val (statusLabel, statusColor) = when (change.changeType) {
+                                    WorkspaceBackupManager.ChangeType.ADDED -> "A" to MaterialTheme.colorScheme.primary
+                                    WorkspaceBackupManager.ChangeType.DELETED -> "D" to MaterialTheme.colorScheme.error
+                                    WorkspaceBackupManager.ChangeType.MODIFIED -> "M" to MaterialTheme.colorScheme.tertiary
+                                }
+
+                                val fileName = change.path.substringAfterLast('/', change.path)
+
+                                Row(
+                                    modifier = Modifier
+                                        .fillMaxWidth()
+                                        .padding(vertical = 4.dp),
+                                    verticalAlignment = Alignment.CenterVertically
+                                ) {
+                                    Icon(
+                                        imageVector = Icons.Filled.Description,
+                                        contentDescription = fileName,
+                                        tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                                        modifier = Modifier.size(18.dp)
+                                    )
+                                    Spacer(modifier = Modifier.width(8.dp))
+                                    Column(modifier = Modifier.weight(1f)) {
+                                        Text(
+                                            text = fileName,
+                                            style = MaterialTheme.typography.bodySmall,
+                                            color = MaterialTheme.colorScheme.onSurface
+                                        )
+                                    }
+
+                                    Spacer(modifier = Modifier.width(8.dp))
+
+                                    Box(
+                                        modifier = Modifier
+                                            .clip(RoundedCornerShape(4.dp))
+                                            .background(statusColor.copy(alpha = 0.15f))
+                                            .padding(horizontal = 6.dp, vertical = 2.dp)
+                                    ) {
+                                        Text(
+                                            text = statusLabel,
+                                            style = MaterialTheme.typography.labelSmall,
+                                            color = statusColor
+                                        )
+                                    }
+
+                                    Spacer(modifier = Modifier.width(8.dp))
+
+                                    val changeTextColor = when (change.changeType) {
+                                        WorkspaceBackupManager.ChangeType.ADDED -> MaterialTheme.colorScheme.primary
+                                        WorkspaceBackupManager.ChangeType.DELETED -> MaterialTheme.colorScheme.error
+                                        WorkspaceBackupManager.ChangeType.MODIFIED -> MaterialTheme.colorScheme.onSurfaceVariant
+                                    }
+                                    val changeText = when (change.changeType) {
+                                        WorkspaceBackupManager.ChangeType.ADDED -> "+${change.changedLines}"
+                                        WorkspaceBackupManager.ChangeType.DELETED -> "-${change.changedLines}"
+                                        WorkspaceBackupManager.ChangeType.MODIFIED -> "±${change.changedLines}"
+                                    }
+
+                                    Text(
+                                        text = changeText,
+                                        style = MaterialTheme.typography.labelSmall,
+                                        color = changeTextColor
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+
+                Spacer(modifier = Modifier.height(20.dp))
+
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.End
+                ) {
+                    TextButton(onClick = onDismiss) {
+                        Text(text = stringResource(id = R.string.cancel))
+                    }
+                    Spacer(modifier = Modifier.width(8.dp))
+                    Button(
+                        onClick = onConfirm,
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = MaterialTheme.colorScheme.error
+                        )
+                    ) {
+                        Text(
+                            text = when (mode) {
+                                WorkspaceChangeConfirmMode.ROLLBACK -> stringResource(id = R.string.confirm_rollback_confirm)
+                                WorkspaceChangeConfirmMode.EDIT_AND_RESEND -> stringResource(id = R.string.confirm_edit_and_resend_confirm)
+                            }
+                        )
+                    }
+                }
+            }
+        }
+    }
+}

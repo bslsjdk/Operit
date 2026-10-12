@@ -1,1 +1,57 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC53ZWJ2aWV3LndvcmtzcGFjZS5wcm9jZXNzCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFJVG9vbEhhbmRsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkZpbGVDb250ZW50RGF0YQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQUlUb29sCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbC5Ub29sUGFyYW1ldGVyCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy53aXRoQ29udGV4dAoKb2JqZWN0IFdvcmtzcGFjZVJ1bGVGaWxlUmVhZGVyIHsKICAgIHByaXZhdGUgdmFsIFdPUktTUEFDRV9SVUxFX0ZJTEVfTkFNRVMgPSBsaXN0T2YoIkFHRU5ULm1kIiwgIkFHRU5UUy5tZCIpCgogICAgZGF0YSBjbGFzcyBXb3Jrc3BhY2VSdWxlRmlsZSh2YWwgbmFtZTogU3RyaW5nLCB2YWwgY29udGVudDogU3RyaW5nKQoKICAgIHN1c3BlbmQgZnVuIHJlYWRXb3Jrc3BhY2VSb290UnVsZUZpbGUoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICB3b3Jrc3BhY2VQYXRoOiBTdHJpbmc/LAogICAgICAgIHdvcmtzcGFjZUVudjogU3RyaW5nPyA9IG51bGwKICAgICk6IFdvcmtzcGFjZVJ1bGVGaWxlPyA9IHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgaWYgKHdvcmtzcGFjZVBhdGguaXNOdWxsT3JCbGFuaygpKSB7CiAgICAgICAgICAgIHJldHVybkB3aXRoQ29udGV4dCBudWxsCiAgICAgICAgfQoKICAgICAgICB2YWwgdG9vbEhhbmRsZXIgPSBBSVRvb2xIYW5kbGVyLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICAgICAgZm9yIChmaWxlTmFtZSBpbiBXT1JLU1BBQ0VfUlVMRV9GSUxFX05BTUVTKSB7CiAgICAgICAgICAgIHZhbCByZXN1bHQgPQogICAgICAgICAgICAgICAgdG9vbEhhbmRsZXIuZXhlY3V0ZVRvb2woCiAgICAgICAgICAgICAgICAgICAgQUlUb29sKAogICAgICAgICAgICAgICAgICAgICAgICBuYW1lID0gInJlYWRfZmlsZV9mdWxsIiwKICAgICAgICAgICAgICAgICAgICAgICAgcGFyYW1ldGVycyA9IGJ1aWxkTGlzdCB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZGQoVG9vbFBhcmFtZXRlcigicGF0aCIsIGJ1aWxkV29ya3NwYWNlQ2hpbGRQYXRoKHdvcmtzcGFjZVBhdGgsIGZpbGVOYW1lKSkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhZGQoVG9vbFBhcmFtZXRlcigidGV4dF9vbmx5IiwgInRydWUiKSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmICghd29ya3NwYWNlRW52LmlzTnVsbE9yQmxhbmsoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFkZChUb29sUGFyYW1ldGVyKCJlbnZpcm9ubWVudCIsIHdvcmtzcGFjZUVudikpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIHZhbCBjb250ZW50ID0gKHJlc3VsdC5yZXN1bHQgYXM/IEZpbGVDb250ZW50RGF0YSk/LmNvbnRlbnQ/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICAgICAgaWYgKHJlc3VsdC5zdWNjZXNzICYmIGNvbnRlbnQuaXNOb3RCbGFuaygpKSB7CiAgICAgICAgICAgICAgICByZXR1cm5Ad2l0aENvbnRleHQgV29ya3NwYWNlUnVsZUZpbGUobmFtZSA9IGZpbGVOYW1lLCBjb250ZW50ID0gY29udGVudCkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgbnVsbAogICAgfQoKICAgIHByaXZhdGUgZnVuIGJ1aWxkV29ya3NwYWNlQ2hpbGRQYXRoKHdvcmtzcGFjZVBhdGg6IFN0cmluZywgY2hpbGROYW1lOiBTdHJpbmcpOiBTdHJpbmcgewogICAgICAgIHZhbCBub3JtYWxpemVkUm9vdCA9IHdvcmtzcGFjZVBhdGgudHJpbSgpLmlmQmxhbmsgeyAiLyIgfQogICAgICAgIHJldHVybiBpZiAobm9ybWFsaXplZFJvb3QgPT0gIi8iKSB7CiAgICAgICAgICAgICIvJGNoaWxkTmFtZSIKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICBub3JtYWxpemVkUm9vdC50cmltRW5kKCcvJykgKyAiLyRjaGlsZE5hbWUiCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.chat.webview.workspace.process
+
+import android.content.Context
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.FileContentData
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolParameter
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+object WorkspaceRuleFileReader {
+    private val WORKSPACE_RULE_FILE_NAMES = listOf("AGENT.md", "AGENTS.md")
+
+    data class WorkspaceRuleFile(val name: String, val content: String)
+
+    suspend fun readWorkspaceRootRuleFile(
+        context: Context,
+        workspacePath: String?,
+        workspaceEnv: String? = null
+    ): WorkspaceRuleFile? = withContext(Dispatchers.IO) {
+        if (workspacePath.isNullOrBlank()) {
+            return@withContext null
+        }
+
+        val toolHandler = AIToolHandler.getInstance(context)
+        for (fileName in WORKSPACE_RULE_FILE_NAMES) {
+            val result =
+                toolHandler.executeTool(
+                    AITool(
+                        name = "read_file_full",
+                        parameters = buildList {
+                            add(ToolParameter("path", buildWorkspaceChildPath(workspacePath, fileName)))
+                            add(ToolParameter("text_only", "true"))
+                            if (!workspaceEnv.isNullOrBlank()) {
+                                add(ToolParameter("environment", workspaceEnv))
+                            }
+                        }
+                    )
+                )
+            val content = (result.result as? FileContentData)?.content?.trim().orEmpty()
+            if (result.success && content.isNotBlank()) {
+                return@withContext WorkspaceRuleFile(name = fileName, content = content)
+            }
+        }
+
+        null
+    }
+
+    private fun buildWorkspaceChildPath(workspacePath: String, childName: String): String {
+        val normalizedRoot = workspacePath.trim().ifBlank { "/" }
+        return if (normalizedRoot == "/") {
+            "/$childName"
+        } else {
+            normalizedRoot.trimEnd('/') + "/$childName"
+        }
+    }
+}

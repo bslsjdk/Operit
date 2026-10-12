@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuZnVsbHNjcmVlbgoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcuRmxvYXRDb250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuZnVsbHNjcmVlbi5zY3JlZW4uRmxvYXRpbmdGdWxsc2NyZWVuTW9kZSBhcyBGbG9hdGluZ0Z1bGxzY3JlZW5TY3JlZW4KCi8qKgogKiDlhajlsY/mta7liqjnqpflj6PmqKHlvI8gLSDkuLvlhaXlj6Pmlofku7YKICogCiAqIOivpeaWh+S7tuS9nOS4uuWQkeWQjuWFvOWuueeahOWFpeWPo+eCue+8jOWwhuWunumZheWunueOsOWnlOaJmOe7memHjeaehOWQjueahOe7hOS7tue7k+aehO+8mgogKiAtIHNjcmVlbi9GbG9hdGluZ0Z1bGxzY3JlZW5TY3JlZW4ua3QgLSDkuLvlsY/luZXnu4Tku7blkozmtYHnqIvnvJbmjpIKICogLSB2aWV3bW9kZWwvRmxvYXRpbmdGdWxsc2NyZWVuTW9kZVZpZXdNb2RlbC5rdCAtIOeKtuaAgeeuoeeQhuWSjOS4muWKoemAu+i+kQogKiAtIGNvbXBvbmVudHMvIC0g5Y+v5aSN55So55qEVUnnu4Tku7YKICogICAtIE1lc3NhZ2VEaXNwbGF5Lmt0IC0g5raI5oGv5pi+56S6CiAqICAgLSBXYXZlVmlzdWFsaXplclNlY3Rpb24ua3QgLSDms6Lmtarlj6/op4bljJblkozlpLTlg48KICogICAtIEVkaXRQYW5lbC5rdCAtIOe8lui+kemdouadvwogKiAgIC0gQm90dG9tQ29udHJvbEJhci5rdCAtIOW6lemDqOaOp+WItuagjwogKi8KQENvbXBvc2FibGUKZnVuIEZsb2F0aW5nRnVsbHNjcmVlbk1vZGUoZmxvYXRDb250ZXh0OiBGbG9hdENvbnRleHQpIHsKICAgIC8vIOWnlOaJmOe7meWunumZheeahOWunueOsAogICAgRmxvYXRpbmdGdWxsc2NyZWVuU2NyZWVuKGZsb2F0Q29udGV4dCkKfQo=
+package com.bslsjdk.operit.ui.floating.ui.fullscreen
+
+import androidx.compose.runtime.Composable
+import com.bslsjdk.operit.ui.floating.FloatContext
+import com.bslsjdk.operit.ui.floating.ui.fullscreen.screen.FloatingFullscreenMode as FloatingFullscreenScreen
+
+/**
+ * 全屏浮动窗口模式 - 主入口文件
+ * 
+ * 该文件作为向后兼容的入口点，将实际实现委托给重构后的组件结构：
+ * - screen/FloatingFullscreenScreen.kt - 主屏幕组件和流程编排
+ * - viewmodel/FloatingFullscreenModeViewModel.kt - 状态管理和业务逻辑
+ * - components/ - 可复用的UI组件
+ *   - MessageDisplay.kt - 消息显示
+ *   - WaveVisualizerSection.kt - 波浪可视化和头像
+ *   - EditPanel.kt - 编辑面板
+ *   - BottomControlBar.kt - 底部控制栏
+ */
+@Composable
+fun FloatingFullscreenMode(floatContext: FloatContext) {
+    // 委托给实际的实现
+    FloatingFullscreenScreen(floatContext)
+}

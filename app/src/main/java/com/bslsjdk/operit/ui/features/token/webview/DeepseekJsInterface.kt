@@ -1,1 +1,57 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW4ud2VidmlldwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZC53ZWJraXQuSmF2YXNjcmlwdEludGVyZmFjZQoKLyoqIEphdmFTY3JpcHTmjqXlj6PvvIznlKjkuo7ku45XZWJWaWV35Lit5o6l5pS25Zue6LCDICovCmNsYXNzIERlZXBzZWVrSnNJbnRlcmZhY2UoCiAgICAgICAgcHJpdmF0ZSB2YWwgb25LZXlzUmVjZWl2ZWQ6IChTdHJpbmcpIC0+IFVuaXQsCiAgICAgICAgcHJpdmF0ZSB2YWwgb25LZXlDcmVhdGVkOiAoU3RyaW5nKSAtPiBVbml0LAogICAgICAgIHByaXZhdGUgdmFsIG9uS2V5RGVsZXRlZDogKEJvb2xlYW4pIC0+IFVuaXQsCiAgICAgICAgcHJpdmF0ZSB2YWwgb25FcnJvcjogKFN0cmluZykgLT4gVW5pdAopIHsKICAgIHByaXZhdGUgdmFsIFRBRyA9ICJEZWVwc2Vla0pzSW50ZXJmYWNlIgoKICAgIEBKYXZhc2NyaXB0SW50ZXJmYWNlCiAgICBmdW4gb25LZXlzUmVjZWl2ZWQoanNvbjogU3RyaW5nKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUmVjZWl2ZWQga2V5cyBKU09OIGZyb20gSmF2YVNjcmlwdDogJHtqc29uLnRha2UoMTAwKX0uLi4iKQogICAgICAgICAgICBvbktleXNSZWNlaXZlZC5pbnZva2UoanNvbikKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgcHJvY2Vzc2luZyBrZXlzIGluIEpTIGludGVyZmFjZTogJHtlLm1lc3NhZ2V9IiwgZSkKICAgICAgICAgICAgb25FcnJvci5pbnZva2UoIkVycm9yIHByb2Nlc3Npbmcga2V5czogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgQEphdmFzY3JpcHRJbnRlcmZhY2UKICAgIGZ1biBvbktleUNyZWF0ZWQoa2V5OiBTdHJpbmcpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJLZXkgY3JlYXRlZDogJGtleSIpCiAgICAgICAgICAgIG9uS2V5Q3JlYXRlZC5pbnZva2Uoa2V5KQogICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJFcnJvciBwcm9jZXNzaW5nIGNyZWF0ZWQga2V5OiAke2UubWVzc2FnZX0iLCBlKQogICAgICAgICAgICBvbkVycm9yLmludm9rZSgiRXJyb3IgcHJvY2Vzc2luZyBjcmVhdGVkIGtleTogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgQEphdmFzY3JpcHRJbnRlcmZhY2UKICAgIGZ1biBvbktleURlbGV0ZWQoc3VjY2VzczogQm9vbGVhbikgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5kKFRBRywgIktleSBkZWxldGVkOiAkc3VjY2VzcyIpCiAgICAgICAgICAgIG9uS2V5RGVsZXRlZC5pbnZva2Uoc3VjY2VzcykKICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3IgcHJvY2Vzc2luZyBrZXkgZGVsZXRpb246ICR7ZS5tZXNzYWdlfSIsIGUpCiAgICAgICAgICAgIG9uRXJyb3IuaW52b2tlKCJFcnJvciBwcm9jZXNzaW5nIGtleSBkZWxldGlvbjogJHtlLm1lc3NhZ2V9IikKICAgICAgICB9CiAgICB9CgogICAgQEphdmFzY3JpcHRJbnRlcmZhY2UKICAgIGZ1biBvbkVycm9yKGVycm9yOiBTdHJpbmcpIHsKICAgICAgICB0cnkgewogICAgICAgICAgICBBcHBMb2dnZXIuZShUQUcsICJKUyBFcnJvcjogJGVycm9yIikKICAgICAgICAgICAgb25FcnJvci5pbnZva2UoZXJyb3IpCiAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkVycm9yIHByb2Nlc3NpbmcgSlMgZXJyb3I6ICR7ZS5tZXNzYWdlfSIsIGUpCiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.ui.features.token.webview
+
+import com.bslsjdk.operit.util.AppLogger
+import android.webkit.JavascriptInterface
+
+/** JavaScript接口，用于从WebView中接收回调 */
+class DeepseekJsInterface(
+        private val onKeysReceived: (String) -> Unit,
+        private val onKeyCreated: (String) -> Unit,
+        private val onKeyDeleted: (Boolean) -> Unit,
+        private val onError: (String) -> Unit
+) {
+    private val TAG = "DeepseekJsInterface"
+
+    @JavascriptInterface
+    fun onKeysReceived(json: String) {
+        try {
+            AppLogger.d(TAG, "Received keys JSON from JavaScript: ${json.take(100)}...")
+            onKeysReceived.invoke(json)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error processing keys in JS interface: ${e.message}", e)
+            onError.invoke("Error processing keys: ${e.message}")
+        }
+    }
+
+    @JavascriptInterface
+    fun onKeyCreated(key: String) {
+        try {
+            AppLogger.d(TAG, "Key created: $key")
+            onKeyCreated.invoke(key)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error processing created key: ${e.message}", e)
+            onError.invoke("Error processing created key: ${e.message}")
+        }
+    }
+
+    @JavascriptInterface
+    fun onKeyDeleted(success: Boolean) {
+        try {
+            AppLogger.d(TAG, "Key deleted: $success")
+            onKeyDeleted.invoke(success)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error processing key deletion: ${e.message}", e)
+            onError.invoke("Error processing key deletion: ${e.message}")
+        }
+    }
+
+    @JavascriptInterface
+    fun onError(error: String) {
+        try {
+            AppLogger.e(TAG, "JS Error: $error")
+            onError.invoke(error)
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Error processing JS error: ${e.message}", e)
+        }
+    }
+}

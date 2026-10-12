@@ -1,1 +1,74 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5yZXBvc2l0b3J5CgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXZhdGFyLmNvbW1vbi5tb2RlbC5BdmF0YXJUeXBlCmltcG9ydCBjb20uZ29vZ2xlLmdzb24uR3NvbgppbXBvcnQgY29tLmdvb2dsZS5nc29uLkpzb25QYXJzZUV4Y2VwdGlvbgppbXBvcnQgY29tLmdvb2dsZS5nc29uLkpzb25QYXJzZXIKCmludGVybmFsIGRhdGEgY2xhc3MgQXZhdGFyQ29uZmlnRGVjb2RlUmVzdWx0KAogICAgdmFsIGNvbmZpZ3M6IExpc3Q8QXZhdGFyQ29uZmlnPiwKICAgIHZhbCBpbnZhbGlkRW50cnlJbmRleGVzOiBMaXN0PEludD4KKQoKcHJpdmF0ZSBkYXRhIGNsYXNzIFBlcnNpc3RlZEF2YXRhckNvbmZpZygKICAgIHZhbCBpZDogU3RyaW5nPywKICAgIHZhbCBuYW1lOiBTdHJpbmc/LAogICAgdmFsIHR5cGU6IEF2YXRhclR5cGU/LAogICAgdmFsIGlzQnVpbHRJbjogQm9vbGVhbj8sCiAgICB2YWwgZGF0YTogTWFwPFN0cmluZywgQW55Pj8KKQoKaW50ZXJuYWwgZnVuIGRlY29kZVBlcnNpc3RlZEF2YXRhckNvbmZpZ3MoCiAgICBqc29uOiBTdHJpbmcsCiAgICBnc29uOiBHc29uCik6IEF2YXRhckNvbmZpZ0RlY29kZVJlc3VsdCB7CiAgICAvLyBHc29uIGJ5cGFzc2VzIEtvdGxpbiBjb25zdHJ1Y3RvcnMsIHNvIHBlcnNpc3RlZCBmaWVsZHMgcmVtYWluIG51bGxhYmxlIHVudGlsIHZhbGlkYXRlZCBoZXJlLgogICAgdmFsIHJvb3QgPSBKc29uUGFyc2VyLnBhcnNlU3RyaW5nKGpzb24pCiAgICByZXF1aXJlKHJvb3QuaXNKc29uQXJyYXkpIHsKICAgICAgICAiUGVyc2lzdGVkIGF2YXRhciBjb25maWdzIG11c3QgYmUgYSBKU09OIGFycmF5IgogICAgfQogICAgdmFsIHBlcnNpc3RlZENvbmZpZ3MgPSByb290LmFzSnNvbkFycmF5CgogICAgdmFsIGNvbmZpZ3MgPSBBcnJheUxpc3Q8QXZhdGFyQ29uZmlnPihwZXJzaXN0ZWRDb25maWdzLnNpemUoKSkKICAgIHZhbCBpbnZhbGlkRW50cnlJbmRleGVzID0gbXV0YWJsZUxpc3RPZjxJbnQ+KCkKCiAgICBwZXJzaXN0ZWRDb25maWdzLmZvckVhY2hJbmRleGVkIHsgaW5kZXgsIGVsZW1lbnQgLT4KICAgICAgICB2YWwgcGVyc2lzdGVkOiBQZXJzaXN0ZWRBdmF0YXJDb25maWc/ID0KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGdzb24uZnJvbUpzb24oZWxlbWVudCwgUGVyc2lzdGVkQXZhdGFyQ29uZmlnOjpjbGFzcy5qYXZhKQogICAgICAgICAgICB9IGNhdGNoIChfOiBKc29uUGFyc2VFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIGludmFsaWRFbnRyeUluZGV4ZXMgKz0gaW5kZXgKICAgICAgICAgICAgICAgIHJldHVybkBmb3JFYWNoSW5kZXhlZAogICAgICAgICAgICB9CiAgICAgICAgdmFsIGlkID0gcGVyc2lzdGVkPy5pZAogICAgICAgIHZhbCBuYW1lID0gcGVyc2lzdGVkPy5uYW1lCiAgICAgICAgdmFsIHR5cGUgPSBwZXJzaXN0ZWQ/LnR5cGUKICAgICAgICB2YWwgaXNCdWlsdEluID0gcGVyc2lzdGVkPy5pc0J1aWx0SW4KICAgICAgICB2YWwgZGF0YSA9IHBlcnNpc3RlZD8uZGF0YQoKICAgICAgICBpZiAoCiAgICAgICAgICAgIGlkLmlzTnVsbE9yQmxhbmsoKSB8fAogICAgICAgICAgICAgICAgbmFtZS5pc051bGxPckJsYW5rKCkgfHwKICAgICAgICAgICAgICAgIHR5cGUgPT0gbnVsbCB8fAogICAgICAgICAgICAgICAgaXNCdWlsdEluID09IG51bGwgfHwKICAgICAgICAgICAgICAgIGRhdGEgPT0gbnVsbAogICAgICAgICkgewogICAgICAgICAgICBpbnZhbGlkRW50cnlJbmRleGVzICs9IGluZGV4CiAgICAgICAgICAgIHJldHVybkBmb3JFYWNoSW5kZXhlZAogICAgICAgIH0KCiAgICAgICAgY29uZmlncyArPQogICAgICAgICAgICBBdmF0YXJDb25maWcoCiAgICAgICAgICAgICAgICBpZCA9IGlkLAogICAgICAgICAgICAgICAgbmFtZSA9IG5hbWUsCiAgICAgICAgICAgICAgICB0eXBlID0gdHlwZSwKICAgICAgICAgICAgICAgIGlzQnVpbHRJbiA9IGlzQnVpbHRJbiwKICAgICAgICAgICAgICAgIGRhdGEgPSBkYXRhCiAgICAgICAgICAgICkKICAgIH0KCiAgICByZXR1cm4gQXZhdGFyQ29uZmlnRGVjb2RlUmVzdWx0KAogICAgICAgIGNvbmZpZ3MgPSBjb25maWdzLAogICAgICAgIGludmFsaWRFbnRyeUluZGV4ZXMgPSBpbnZhbGlkRW50cnlJbmRleGVzCiAgICApCn0K
+package com.bslsjdk.operit.data.repository
+
+import com.bslsjdk.operit.core.avatar.common.model.AvatarType
+import com.google.gson.Gson
+import com.google.gson.JsonParseException
+import com.google.gson.JsonParser
+
+internal data class AvatarConfigDecodeResult(
+    val configs: List<AvatarConfig>,
+    val invalidEntryIndexes: List<Int>
+)
+
+private data class PersistedAvatarConfig(
+    val id: String?,
+    val name: String?,
+    val type: AvatarType?,
+    val isBuiltIn: Boolean?,
+    val data: Map<String, Any>?
+)
+
+internal fun decodePersistedAvatarConfigs(
+    json: String,
+    gson: Gson
+): AvatarConfigDecodeResult {
+    // Gson bypasses Kotlin constructors, so persisted fields remain nullable until validated here.
+    val root = JsonParser.parseString(json)
+    require(root.isJsonArray) {
+        "Persisted avatar configs must be a JSON array"
+    }
+    val persistedConfigs = root.asJsonArray
+
+    val configs = ArrayList<AvatarConfig>(persistedConfigs.size())
+    val invalidEntryIndexes = mutableListOf<Int>()
+
+    persistedConfigs.forEachIndexed { index, element ->
+        val persisted: PersistedAvatarConfig? =
+            try {
+                gson.fromJson(element, PersistedAvatarConfig::class.java)
+            } catch (_: JsonParseException) {
+                invalidEntryIndexes += index
+                return@forEachIndexed
+            }
+        val id = persisted?.id
+        val name = persisted?.name
+        val type = persisted?.type
+        val isBuiltIn = persisted?.isBuiltIn
+        val data = persisted?.data
+
+        if (
+            id.isNullOrBlank() ||
+                name.isNullOrBlank() ||
+                type == null ||
+                isBuiltIn == null ||
+                data == null
+        ) {
+            invalidEntryIndexes += index
+            return@forEachIndexed
+        }
+
+        configs +=
+            AvatarConfig(
+                id = id,
+                name = name,
+                type = type,
+                isBuiltIn = isBuiltIn,
+                data = data
+            )
+    }
+
+    return AvatarConfigDecodeResult(
+        configs = configs,
+        invalidEntryIndexes = invalidEntryIndexes
+    )
+}

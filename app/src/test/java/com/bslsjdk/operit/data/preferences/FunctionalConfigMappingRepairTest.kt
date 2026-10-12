@@ -1,1 +1,39 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkZ1bmN0aW9uVHlwZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBGdW5jdGlvbmFsQ29uZmlnTWFwcGluZ1JlcGFpclRlc3QgewogICAgQFRlc3QKICAgIGZ1biByZW1hcHNBbGxGdW5jdGlvbnNVc2luZ0RlbGV0ZWRDb25maWdUb0RlZmF1bHQoKSB7CiAgICAgICAgdmFsIG1hcHBpbmcgPSBtYXBPZigKICAgICAgICAgICAgRnVuY3Rpb25UeXBlLkNIQVQgdG8gRnVuY3Rpb25Db25maWdNYXBwaW5nKCJkZWxldGVkIiwgNCksCiAgICAgICAgICAgIEZ1bmN0aW9uVHlwZS5TVU1NQVJZIHRvIEZ1bmN0aW9uQ29uZmlnTWFwcGluZygiZGVmYXVsdCIsIDIpLAogICAgICAgICAgICBGdW5jdGlvblR5cGUuVElUTEVfR0VORVJBVElPTiB0byBGdW5jdGlvbkNvbmZpZ01hcHBpbmcoImRlbGV0ZWQiLCAxKSwKICAgICAgICApCgogICAgICAgIHZhbCByZXBhaXIgPSByZW1hcERlbGV0ZWRDb25maWdSZWZlcmVuY2VzKG1hcHBpbmcsICJkZWxldGVkIikKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBsaXN0T2YoRnVuY3Rpb25UeXBlLkNIQVQsIEZ1bmN0aW9uVHlwZS5USVRMRV9HRU5FUkFUSU9OKSwKICAgICAgICAgICAgcmVwYWlyLmFmZmVjdGVkRnVuY3Rpb25zLAogICAgICAgICkKICAgICAgICBhc3NlcnRFcXVhbHMoRnVuY3Rpb25Db25maWdNYXBwaW5nKCJkZWZhdWx0IiwgMCksIHJlcGFpci5tYXBwaW5nW0Z1bmN0aW9uVHlwZS5DSEFUXSkKICAgICAgICBhc3NlcnRFcXVhbHMoRnVuY3Rpb25Db25maWdNYXBwaW5nKCJkZWZhdWx0IiwgMCksIHJlcGFpci5tYXBwaW5nW0Z1bmN0aW9uVHlwZS5USVRMRV9HRU5FUkFUSU9OXSkKICAgICAgICBhc3NlcnRFcXVhbHMoRnVuY3Rpb25Db25maWdNYXBwaW5nKCJkZWZhdWx0IiwgMiksIHJlcGFpci5tYXBwaW5nW0Z1bmN0aW9uVHlwZS5TVU1NQVJZXSkKICAgIH0KCiAgICBAVGVzdAogICAgZnVuIGxlYXZlc01hcHBpbmdVbmNoYW5nZWRXaGVuRGVsZXRlZENvbmZpZ0lzTm90UmVmZXJlbmNlZCgpIHsKICAgICAgICB2YWwgbWFwcGluZyA9IG1hcE9mKAogICAgICAgICAgICBGdW5jdGlvblR5cGUuQ0hBVCB0byBGdW5jdGlvbkNvbmZpZ01hcHBpbmcoImRlZmF1bHQiLCAwKSwKICAgICAgICAgICAgRnVuY3Rpb25UeXBlLlNVTU1BUlkgdG8gRnVuY3Rpb25Db25maWdNYXBwaW5nKCJvdGhlciIsIDIpLAogICAgICAgICkKCiAgICAgICAgdmFsIHJlcGFpciA9IHJlbWFwRGVsZXRlZENvbmZpZ1JlZmVyZW5jZXMobWFwcGluZywgImRlbGV0ZWQiKQoKICAgICAgICBhc3NlcnRFcXVhbHMoZW1wdHlMaXN0PEZ1bmN0aW9uVHlwZT4oKSwgcmVwYWlyLmFmZmVjdGVkRnVuY3Rpb25zKQogICAgICAgIGFzc2VydEVxdWFscyhtYXBwaW5nLCByZXBhaXIubWFwcGluZykKICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+import com.bslsjdk.operit.data.model.FunctionType
+import org.junit.Assert.assertEquals
+import org.junit.Test
+
+class FunctionalConfigMappingRepairTest {
+    @Test
+    fun remapsAllFunctionsUsingDeletedConfigToDefault() {
+        val mapping = mapOf(
+            FunctionType.CHAT to FunctionConfigMapping("deleted", 4),
+            FunctionType.SUMMARY to FunctionConfigMapping("default", 2),
+            FunctionType.TITLE_GENERATION to FunctionConfigMapping("deleted", 1),
+        )
+
+        val repair = remapDeletedConfigReferences(mapping, "deleted")
+
+        assertEquals(
+            listOf(FunctionType.CHAT, FunctionType.TITLE_GENERATION),
+            repair.affectedFunctions,
+        )
+        assertEquals(FunctionConfigMapping("default", 0), repair.mapping[FunctionType.CHAT])
+        assertEquals(FunctionConfigMapping("default", 0), repair.mapping[FunctionType.TITLE_GENERATION])
+        assertEquals(FunctionConfigMapping("default", 2), repair.mapping[FunctionType.SUMMARY])
+    }
+
+    @Test
+    fun leavesMappingUnchangedWhenDeletedConfigIsNotReferenced() {
+        val mapping = mapOf(
+            FunctionType.CHAT to FunctionConfigMapping("default", 0),
+            FunctionType.SUMMARY to FunctionConfigMapping("other", 2),
+        )
+
+        val repair = remapDeletedConfigReferences(mapping, "deleted")
+
+        assertEquals(emptyList<FunctionType>(), repair.affectedFunctions)
+        assertEquals(mapping, repair.mapping)
+    }
+}

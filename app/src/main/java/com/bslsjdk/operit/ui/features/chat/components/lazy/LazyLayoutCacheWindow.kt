@@ -1,1 +1,118 @@
-LyoKICogQ29weXJpZ2h0IDIwMjUgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmFubm90YXRpb24uRmxvYXRSYW5nZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5mb3VuZGF0aW9uLkV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGkKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5TdGFibGUKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5EZW5zaXR5CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnVuaXQuRHAKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5kcAppbXBvcnQga290bGluLm1hdGgucm91bmRUb0ludAoKLyoqCiAqIFJlcHJlc2VudHMgYW4gb3V0IG9mIHZpZXdwb3J0IGFyZWEgb2YgYSBMYXp5IExheW91dCB3aGVyZSBpdGVtcyBzaG91bGQgYmUgY2FjaGVkLiBJdGVtcyB3aWxsIGJlCiAqIHByZXBhcmVkIGluIHRoZSBDYWNoZSBXaW5kb3cgYXJlYSBpbiBhZHZhbmNlIHRvIGltcHJvdmUgc2Nyb2xsIHBlcmZvcm1hbmNlLgogKi8KQEV4cGVyaW1lbnRhbEZvdW5kYXRpb25BcGkKQFN0YWJsZQppbnRlcmZhY2UgTGF6eUxheW91dENhY2hlV2luZG93IHsKCiAgICAvKioKICAgICAqIENhbGN1bGF0ZXMgdGhlIHByZWZldGNoIHdpbmRvdyBhcmVhIGluIHBpeGVscyBmb3IgcHJlZmV0Y2hpbmcgb24gdGhlIHNjcm9sbCBkaXJlY3Rpb24sICJhaGVhZAogICAgICogd2luZG93Ii4gVGhlIHByZWZldGNoIHdpbmRvdyBzdHJhdGVneSB3aWxsIHByZXBhcmUgaXRlbXMgaW4gdGhlIGFoZWFkIGFyZWEgaW4gYWR2YW5jZSBzIHRoZXkKICAgICAqIGFyZSByZWFkeSB0byBiZSB1c2VkIHdoZW4gdGhleSBiZWNvbWUgdmlzaWJsZS4KICAgICAqCiAgICAgKiBAcGFyYW0gdmlld3BvcnQgVGhlIHNpemUgb2YgdGhlIHZpZXdwb3J0IGluIHRoaXMgTGF6eSBMYXlvdXQgaW4gcGl4ZWxzLgogICAgICovCiAgICBmdW4gRGVuc2l0eS5jYWxjdWxhdGVBaGVhZFdpbmRvdyh2aWV3cG9ydDogSW50KTogSW50ID0gMAoKICAgIC8qKgogICAgICogQ2FsY3VsYXRlcyB0aGUgd2luZG93IGFyZWEgaW4gcGl4ZWxzIGZvciBrZWVwaW5nIGl0ZW1zIGluIHRoZSBzY3JvbGwgY291bnRlciBkaXJlY3Rpb24sCiAgICAgKiAiYmVoaW5kIHdpbmRvdyIuIEl0ZW1zIGluIHRoZSBiZWhpbmQgd2luZG93IHdpbGwgbm90IGJlIGRpc3Bvc2VkIGFuZCBjYW4gYmUgYWNjZXNzZWQgbW9yZQogICAgICogcXVpY2tseSBpZiB0aGV5IGJlY29tZSB2aXNpYmxlIGFnYWluLgogICAgICoKICAgICAqIEBwYXJhbSB2aWV3cG9ydCBUaGUgc2l6ZSBvZiB0aGUgdmlld3BvcnQgaW4gdGhpcyBMYXp5IExheW91dCBpbiBwaXhlbHMuCiAgICAgKi8KICAgIGZ1biBEZW5zaXR5LmNhbGN1bGF0ZUJlaGluZFdpbmRvdyh2aWV3cG9ydDogSW50KTogSW50ID0gMAp9CgovKioKICogQSBEcCBiYXNlZCBbTGF6eUxheW91dENhY2hlV2luZG93XS4KICoKICogQHBhcmFtIGFoZWFkIFRoZSBzaXplIG9mIHRoZSBhaGVhZCB3aW5kb3cgdG8gYmUgdXNlZCBhcyBwZXIKICogICBbTGF6eUxheW91dENhY2hlV2luZG93LmNhbGN1bGF0ZUFoZWFkV2luZG93XS4KICogQHBhcmFtIGJlaGluZCBUaGUgc2l6ZSBvZiB0aGUgYmVoaW5kIHdpbmRvdyB0byBiZSB1c2VkIGFzIHBlcgogKiAgIFtMYXp5TGF5b3V0Q2FjaGVXaW5kb3cuY2FsY3VsYXRlQmVoaW5kV2luZG93XS4KICovCkBFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCmZ1biBMYXp5TGF5b3V0Q2FjaGVXaW5kb3coYWhlYWQ6IERwID0gMC5kcCwgYmVoaW5kOiBEcCA9IDAuZHApOiBMYXp5TGF5b3V0Q2FjaGVXaW5kb3cgewogICAgcmV0dXJuIERwTGF6eUxheW91dENhY2hlV2luZG93KGFoZWFkLCBiZWhpbmQpCn0KCkBPcHRJbihFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpOjpjbGFzcykKcHJpdmF0ZSBjbGFzcyBEcExhenlMYXlvdXRDYWNoZVdpbmRvdyh2YWwgYWhlYWQ6IERwLCB2YWwgYmVoaW5kOiBEcCkgOiBMYXp5TGF5b3V0Q2FjaGVXaW5kb3cgewogICAgb3ZlcnJpZGUgZnVuIERlbnNpdHkuY2FsY3VsYXRlQWhlYWRXaW5kb3codmlld3BvcnQ6IEludCk6IEludCA9IGFoZWFkLnJvdW5kVG9QeCgpCgogICAgb3ZlcnJpZGUgZnVuIERlbnNpdHkuY2FsY3VsYXRlQmVoaW5kV2luZG93KHZpZXdwb3J0OiBJbnQpOiBJbnQgPSBiZWhpbmQucm91bmRUb1B4KCkKCiAgICBvdmVycmlkZSBmdW4gaGFzaENvZGUoKTogSW50IHsKICAgICAgICByZXR1cm4gMzEgKiBhaGVhZC5oYXNoQ29kZSgpICsgYmVoaW5kLmhhc2hDb2RlKCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZXF1YWxzKG90aGVyOiBBbnk/KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGlmIChvdGhlciBpcyBEcExhenlMYXlvdXRDYWNoZVdpbmRvdykgewogICAgICAgICAgICBvdGhlci5haGVhZCA9PSB0aGlzLmFoZWFkICYmIG90aGVyLmJlaGluZCA9PSB0aGlzLmJlaGluZAogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIGZhbHNlCiAgICAgICAgfQogICAgfQp9CgovKioKICogQ3JlYXRlcyBhIFtMYXp5TGF5b3V0Q2FjaGVXaW5kb3ddIGJhc2VkIG9mZiBhIGZyYWN0aW9uIG9mIHRoZSB2aWV3cG9ydC4KICoKICogQHBhcmFtIGFoZWFkRnJhY3Rpb24gVGhlIGZyYWN0aW9uIG9mIHRoZSB2aWV3cG9ydCB0byBiZSB1c2VkIGZvciB0aGUgYWhlYWQgd2luZG93LgogKiBAcGFyYW0gYmVoaW5kRnJhY3Rpb24gVGhlIGZyYWN0aW9uIG9mIHRoZSB2aWV3cG9ydCB0byBiZSB1c2VkIGZvciB0aGUgYmVoaW5kIHdpbmRvdy4KICovCkBFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpCmZ1biBMYXp5TGF5b3V0Q2FjaGVXaW5kb3coCiAgICBARmxvYXRSYW5nZShmcm9tID0gMC4wKSBhaGVhZEZyYWN0aW9uOiBGbG9hdCA9IDAuMGYsCiAgICBARmxvYXRSYW5nZShmcm9tID0gMC4wKSBiZWhpbmRGcmFjdGlvbjogRmxvYXQgPSAwLjBmLAopOiBMYXp5TGF5b3V0Q2FjaGVXaW5kb3cgPSBGcmFjdGlvbkxhenlMYXlvdXRDYWNoZVdpbmRvdyhhaGVhZEZyYWN0aW9uLCBiZWhpbmRGcmFjdGlvbikKCkBPcHRJbihFeHBlcmltZW50YWxGb3VuZGF0aW9uQXBpOjpjbGFzcykKcHJpdmF0ZSBjbGFzcyBGcmFjdGlvbkxhenlMYXlvdXRDYWNoZVdpbmRvdyh2YWwgYWhlYWRGcmFjdGlvbjogRmxvYXQsIHZhbCBiZWhpbmRGcmFjdGlvbjogRmxvYXQpIDoKICAgIExhenlMYXlvdXRDYWNoZVdpbmRvdyB7CiAgICBvdmVycmlkZSBmdW4gRGVuc2l0eS5jYWxjdWxhdGVBaGVhZFdpbmRvdyh2aWV3cG9ydDogSW50KTogSW50ID0KICAgICAgICAodmlld3BvcnQgKiBhaGVhZEZyYWN0aW9uKS5yb3VuZFRvSW50KCkKCiAgICBvdmVycmlkZSBmdW4gRGVuc2l0eS5jYWxjdWxhdGVCZWhpbmRXaW5kb3codmlld3BvcnQ6IEludCk6IEludCA9CiAgICAgICAgKHZpZXdwb3J0ICogYmVoaW5kRnJhY3Rpb24pLnJvdW5kVG9JbnQoKQoKICAgIG92ZXJyaWRlIGZ1biBoYXNoQ29kZSgpOiBJbnQgewogICAgICAgIHJldHVybiAzMSAqIGFoZWFkRnJhY3Rpb24uaGFzaENvZGUoKSArIGJlaGluZEZyYWN0aW9uLmhhc2hDb2RlKCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gZXF1YWxzKG90aGVyOiBBbnk/KTogQm9vbGVhbiB7CiAgICAgICAgcmV0dXJuIGlmIChvdGhlciBpcyBGcmFjdGlvbkxhenlMYXlvdXRDYWNoZVdpbmRvdykgewogICAgICAgICAgICBvdGhlci5haGVhZEZyYWN0aW9uID09IHRoaXMuYWhlYWRGcmFjdGlvbiAmJiBvdGhlci5iZWhpbmRGcmFjdGlvbiA9PSB0aGlzLmJlaGluZEZyYWN0aW9uCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgZmFsc2UKICAgICAgICB9CiAgICB9Cn0K
+/*
+ * Copyright 2025 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.annotation.FloatRange
+import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.runtime.Stable
+import androidx.compose.ui.unit.Density
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import kotlin.math.roundToInt
+
+/**
+ * Represents an out of viewport area of a Lazy Layout where items should be cached. Items will be
+ * prepared in the Cache Window area in advance to improve scroll performance.
+ */
+@ExperimentalFoundationApi
+@Stable
+interface LazyLayoutCacheWindow {
+
+    /**
+     * Calculates the prefetch window area in pixels for prefetching on the scroll direction, "ahead
+     * window". The prefetch window strategy will prepare items in the ahead area in advance s they
+     * are ready to be used when they become visible.
+     *
+     * @param viewport The size of the viewport in this Lazy Layout in pixels.
+     */
+    fun Density.calculateAheadWindow(viewport: Int): Int = 0
+
+    /**
+     * Calculates the window area in pixels for keeping items in the scroll counter direction,
+     * "behind window". Items in the behind window will not be disposed and can be accessed more
+     * quickly if they become visible again.
+     *
+     * @param viewport The size of the viewport in this Lazy Layout in pixels.
+     */
+    fun Density.calculateBehindWindow(viewport: Int): Int = 0
+}
+
+/**
+ * A Dp based [LazyLayoutCacheWindow].
+ *
+ * @param ahead The size of the ahead window to be used as per
+ *   [LazyLayoutCacheWindow.calculateAheadWindow].
+ * @param behind The size of the behind window to be used as per
+ *   [LazyLayoutCacheWindow.calculateBehindWindow].
+ */
+@ExperimentalFoundationApi
+fun LazyLayoutCacheWindow(ahead: Dp = 0.dp, behind: Dp = 0.dp): LazyLayoutCacheWindow {
+    return DpLazyLayoutCacheWindow(ahead, behind)
+}
+
+@OptIn(ExperimentalFoundationApi::class)
+private class DpLazyLayoutCacheWindow(val ahead: Dp, val behind: Dp) : LazyLayoutCacheWindow {
+    override fun Density.calculateAheadWindow(viewport: Int): Int = ahead.roundToPx()
+
+    override fun Density.calculateBehindWindow(viewport: Int): Int = behind.roundToPx()
+
+    override fun hashCode(): Int {
+        return 31 * ahead.hashCode() + behind.hashCode()
+    }
+
+    override fun equals(other: Any?): Boolean {
+        return if (other is DpLazyLayoutCacheWindow) {
+            other.ahead == this.ahead && other.behind == this.behind
+        } else {
+            false
+        }
+    }
+}
+
+/**
+ * Creates a [LazyLayoutCacheWindow] based off a fraction of the viewport.
+ *
+ * @param aheadFraction The fraction of the viewport to be used for the ahead window.
+ * @param behindFraction The fraction of the viewport to be used for the behind window.
+ */
+@ExperimentalFoundationApi
+fun LazyLayoutCacheWindow(
+    @FloatRange(from = 0.0) aheadFraction: Float = 0.0f,
+    @FloatRange(from = 0.0) behindFraction: Float = 0.0f,
+): LazyLayoutCacheWindow = FractionLazyLayoutCacheWindow(aheadFraction, behindFraction)
+
+@OptIn(ExperimentalFoundationApi::class)
+private class FractionLazyLayoutCacheWindow(val aheadFraction: Float, val behindFraction: Float) :
+    LazyLayoutCacheWindow {
+    override fun Density.calculateAheadWindow(viewport: Int): Int =
+        (viewport * aheadFraction).roundToInt()
+
+    override fun Density.calculateBehindWindow(viewport: Int): Int =
+        (viewport * behindFraction).roundToInt()
+
+    override fun hashCode(): Int {
+        return 31 * aheadFraction.hashCode() + behindFraction.hashCode()
+    }
+
+    override fun equals(other: Any?): Boolean {
+        return if (other is FractionLazyLayoutCacheWindow) {
+            other.aheadFraction == this.aheadFraction && other.behindFraction == this.behindFraction
+        } else {
+            false
+        }
+    }
+}

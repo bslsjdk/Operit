@@ -1,1 +1,402 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnNwZWVjaAoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm1lZGlhLkF1ZGlvRm9ybWF0CmltcG9ydCBhbmRyb2lkLm1lZGlhLkF1ZGlvUmVjb3JkCmltcG9ydCBhbmRyb2lkLm1lZGlhLk1lZGlhUmVjb3JkZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQga290bGluLm1hdGguYWJzCmltcG9ydCBrb3RsaW4ubWF0aC5tYXgKaW1wb3J0IGtvdGxpbi5tYXRoLm1pbgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmN1cnJlbnRDb3JvdXRpbmVDb250ZXh0CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuaXNBY3RpdmUKCmNsYXNzIFBlcnNvbmFsV2FrZUxpc3RlbmVyKAogICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCwKICAgIHByaXZhdGUgdmFsIHRlbXBsYXRlc1Byb3ZpZGVyOiAoKSAtPiBMaXN0PEZsb2F0QXJyYXk+LAogICAgcHJpdmF0ZSB2YWwgb25UcmlnZ2VyZWQ6IChzaW1pbGFyaXR5OiBGbG9hdCkgLT4gVW5pdCwKKSB7CiAgICBjb21wYW5pb24gb2JqZWN0IHsKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBUQUcgPSAiUGVyc29uYWxXYWtlTGlzdGVuZXIiCiAgICB9CgogICAgZGF0YSBjbGFzcyBDb25maWcoCiAgICAgICAgdmFsIHNhbXBsZVJhdGU6IEludCA9IDE2MDAwLAogICAgICAgIHZhbCBmcmFtZVNpemU6IEludCA9IDUxMiwKICAgICAgICB2YWwgbWF4U2VnbWVudE1zOiBMb25nID0gMTYwMEwsCiAgICAgICAgdmFsIG1pblNlZ21lbnRNczogTG9uZyA9IDI1MEwsCiAgICAgICAgdmFsIGVuZFNpbGVuY2VNczogTG9uZyA9IDM1MEwsCiAgICAgICAgdmFsIHNpbWlsYXJpdHlUaHJlc2hvbGQ6IEZsb2F0ID0gMC44NjVmLAogICAgICAgIHZhbCBkeW5hbWljVGhyZXNob2xkTWFyZ2luOiBGbG9hdCA9IDAuMDJmLAogICAgICAgIHZhbCBtaW5EeW5hbWljVGhyZXNob2xkRmxvb3I6IEZsb2F0ID0gMC44NGYsCiAgICAgICAgdmFsIG1heEJlc3RTZWNvbmRHYXA6IEZsb2F0ID0gMC4wNGYsCiAgICAgICAgdmFsIG1pbkludHJhU2ltaWxhcml0eTogRmxvYXQgPSAwLjgwZiwKICAgICAgICB2YWwgZHR3QmFuZDogSW50ID0gNCwKICAgICAgICB2YWwgcmVxdWlyZWRUZW1wbGF0ZU1hdGNoZXM6IEludCA9IDEsCiAgICAgICAgdmFsIG1pbkR1cmF0aW9uUmF0aW86IEZsb2F0ID0gMC43NWYsCiAgICAgICAgdmFsIG1heER1cmF0aW9uUmF0aW86IEZsb2F0ID0gMS4yNWYsCiAgICAgICAgdmFsIG1pblJtczogRmxvYXQgPSAwLjAwM2YsCiAgICAgICAgdmFsIHJtc05vaXNlTWFyZ2luOiBGbG9hdCA9IDAuMDAxZiwKICAgICAgICB2YWwgbm9pc2VSbXNFbWFBbHBoYTogRmxvYXQgPSAwLjA1ZiwKICAgICAgICB2YWwgdmFkTW9kZTogT25ueFNpbGVyb1ZhZC5Nb2RlID0gT25ueFNpbGVyb1ZhZC5Nb2RlLk5PUk1BTCwKICAgICkKCiAgICBAVm9sYXRpbGUKICAgIHByaXZhdGUgdmFyIHJ1bm5pbmcgPSBmYWxzZQoKICAgIEBWb2xhdGlsZQogICAgcHJpdmF0ZSB2YXIgbGFzdERlYnVnQXRNczogTG9uZyA9IDBMCgogICAgcHJpdmF0ZSB2YWwgZGVidWdJbnRlcnZhbE1zOiBMb25nID0gMTUwMEwKCiAgICBAU3VwcHJlc3NMaW50KCJNaXNzaW5nUGVybWlzc2lvbiIpCiAgICBzdXNwZW5kIGZ1biBydW5Mb29wKGNvbmZpZzogQ29uZmlnID0gQ29uZmlnKCkpIHsKICAgICAgICBpZiAocnVubmluZykgcmV0dXJuCiAgICAgICAgcnVubmluZyA9IHRydWUKCiAgICAgICAgdmFsIG1pbkJ1ZmZlclNpemUgPSBBdWRpb1JlY29yZC5nZXRNaW5CdWZmZXJTaXplKAogICAgICAgICAgICBjb25maWcuc2FtcGxlUmF0ZSwKICAgICAgICAgICAgQXVkaW9Gb3JtYXQuQ0hBTk5FTF9JTl9NT05PLAogICAgICAgICAgICBBdWRpb0Zvcm1hdC5FTkNPRElOR19QQ01fMTZCSVQKICAgICAgICApCgogICAgICAgIHZhbCBhdWRpb1JlY29yZCA9IEF1ZGlvUmVjb3JkKAogICAgICAgICAgICBNZWRpYVJlY29yZGVyLkF1ZGlvU291cmNlLk1JQywKICAgICAgICAgICAgY29uZmlnLnNhbXBsZVJhdGUsCiAgICAgICAgICAgIEF1ZGlvRm9ybWF0LkNIQU5ORUxfSU5fTU9OTywKICAgICAgICAgICAgQXVkaW9Gb3JtYXQuRU5DT0RJTkdfUENNXzE2QklULAogICAgICAgICAgICAobWluQnVmZmVyU2l6ZS5jb2VyY2VBdExlYXN0KGNvbmZpZy5mcmFtZVNpemUpICogMikKICAgICAgICApCgogICAgICAgIHZhbCB2YWQgPSBPbm54U2lsZXJvVmFkKAogICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQsCiAgICAgICAgICAgIHNhbXBsZVJhdGUgPSBjb25maWcuc2FtcGxlUmF0ZSwKICAgICAgICAgICAgZnJhbWVTaXplID0gY29uZmlnLmZyYW1lU2l6ZSwKICAgICAgICAgICAgbW9kZSA9IGNvbmZpZy52YWRNb2RlLAogICAgICAgICAgICBzcGVlY2hEdXJhdGlvbk1zID0gMzAsCiAgICAgICAgICAgIHNpbGVuY2VEdXJhdGlvbk1zID0gMzAwLAogICAgICAgICkKCiAgICAgICAgdmFsIGJ1ZmZlciA9IFNob3J0QXJyYXkoY29uZmlnLmZyYW1lU2l6ZSkKICAgICAgICB2YWwgc2VnbWVudCA9IEFycmF5TGlzdDxTaG9ydD4oKQoKICAgICAgICB2YXIgc2VlblNwZWVjaCA9IGZhbHNlCiAgICAgICAgdmFyIHNwZWVjaE1zID0gMEwKICAgICAgICB2YXIgc2lsZW5jZU1zID0gMEwKCiAgICAgICAgdmFyIG5vaXNlUm1zRW1hID0gMGYKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgYXVkaW9SZWNvcmQuc3RhcnRSZWNvcmRpbmcoKQogICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTdGFydGVkIHBlcnNvbmFsIHdha2UgbG9vcCIpCgogICAgICAgICAgICB3aGlsZSAocnVubmluZykgewogICAgICAgICAgICAgICAgaWYgKCFjdXJyZW50Q29yb3V0aW5lQ29udGV4dCgpLmlzQWN0aXZlKSBicmVhawogICAgICAgICAgICAgICAgdmFsIHJlYWQgPSBhdWRpb1JlY29yZC5yZWFkKGJ1ZmZlciwgMCwgYnVmZmVyLnNpemUpCiAgICAgICAgICAgICAgICBpZiAocmVhZCA8PSAwKSBjb250aW51ZQoKICAgICAgICAgICAgICAgIFNwZWVjaFByZXJvbGxTdG9yZS5hcHBlbmRQY20oYnVmZmVyLCByZWFkKQoKICAgICAgICAgICAgICAgIHZhbCBpc1NwZWVjaEZyYW1lID0gcmVhZCA9PSBjb25maWcuZnJhbWVTaXplICYmIHZhZC5pc1NwZWVjaChidWZmZXIpCiAgICAgICAgICAgICAgICB2YWwgY2h1bmtNcyA9IChyZWFkICogMTAwMEwpIC8gY29uZmlnLnNhbXBsZVJhdGUKCiAgICAgICAgICAgICAgICBpZiAoIWlzU3BlZWNoRnJhbWUgJiYgIXNlZW5TcGVlY2gpIHsKICAgICAgICAgICAgICAgICAgICB2YWwgZnJhbWVSbXMgPSBjb21wdXRlUm1zKGJ1ZmZlciwgcmVhZCkKICAgICAgICAgICAgICAgICAgICBub2lzZVJtc0VtYSA9CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChub2lzZVJtc0VtYSA8PSAwZikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZnJhbWVSbXMKICAgICAgICAgICAgICAgICAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBhID0gY29uZmlnLm5vaXNlUm1zRW1hQWxwaGEuY29lcmNlSW4oMC4wMDFmLCAwLjVmKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgKDFmIC0gYSkgKiBub2lzZVJtc0VtYSArIGEgKiBmcmFtZVJtcwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgaWYgKGlzU3BlZWNoRnJhbWUpIHsKICAgICAgICAgICAgICAgICAgICBzZWVuU3BlZWNoID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgIHNpbGVuY2VNcyA9IDBMCiAgICAgICAgICAgICAgICAgICAgc3BlZWNoTXMgKz0gY2h1bmtNcwogICAgICAgICAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIHJlYWQpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2VnbWVudC5hZGQoYnVmZmVyW2ldKQogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgaWYgKHNwZWVjaE1zID49IGNvbmZpZy5tYXhTZWdtZW50TXMpIHsKICAgICAgICAgICAgICAgICAgICAgICAgZmx1c2hTZWdtZW50SWZOZWVkZWQoY29uZmlnLCBzZWdtZW50LCBzcGVlY2hNcywgbm9pc2VSbXNFbWEpCiAgICAgICAgICAgICAgICAgICAgICAgIHJlc2V0U2VnbWVudChzZWdtZW50KQogICAgICAgICAgICAgICAgICAgICAgICBzZWVuU3BlZWNoID0gZmFsc2UKICAgICAgICAgICAgICAgICAgICAgICAgc3BlZWNoTXMgPSAwTAogICAgICAgICAgICAgICAgICAgICAgICBzaWxlbmNlTXMgPSAwTAogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKHNlZW5TcGVlY2gpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2lsZW5jZU1zICs9IGNodW5rTXMKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHNpbGVuY2VNcyA+PSBjb25maWcuZW5kU2lsZW5jZU1zKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbHVzaFNlZ21lbnRJZk5lZWRlZChjb25maWcsIHNlZ21lbnQsIHNwZWVjaE1zLCBub2lzZVJtc0VtYSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlc2V0U2VnbWVudChzZWdtZW50KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2VlblNwZWVjaCA9IGZhbHNlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzcGVlY2hNcyA9IDBMCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaWxlbmNlTXMgPSAwTAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBmaW5hbGx5IHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU3RvcHBpbmcgcGVyc29uYWwgd2FrZSBsb29wIikKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGF1ZGlvUmVjb3JkLnN0b3AoKQogICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgfQogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgYXVkaW9SZWNvcmQucmVsZWFzZSgpCiAgICAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICB9CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWQuY2xvc2UoKQogICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgfQogICAgICAgICAgICBydW5uaW5nID0gZmFsc2UKICAgICAgICB9CiAgICB9CgogICAgZnVuIHN0b3AoKSB7CiAgICAgICAgcnVubmluZyA9IGZhbHNlCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZmx1c2hTZWdtZW50SWZOZWVkZWQoCiAgICAgICAgY29uZmlnOiBDb25maWcsCiAgICAgICAgc2VnbWVudDogQXJyYXlMaXN0PFNob3J0PiwKICAgICAgICBzcGVlY2hNczogTG9uZywKICAgICAgICBub2lzZVJtczogRmxvYXQsCiAgICApIHsKICAgICAgICBpZiAoc2VnbWVudC5pc0VtcHR5KCkpIHJldHVybgogICAgICAgIGlmIChzcGVlY2hNcyA8IGNvbmZpZy5taW5TZWdtZW50TXMpIHJldHVybgoKICAgICAgICB2YWwgdGVtcGxhdGVzID0gdGVtcGxhdGVzUHJvdmlkZXIoKQogICAgICAgIGlmICh0ZW1wbGF0ZXMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIG1heWJlRGVidWcoImRyb3A6IG5vIHRlbXBsYXRlcyIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFsIHBjbSA9IFNob3J0QXJyYXkoc2VnbWVudC5zaXplKQogICAgICAgIGZvciAoaSBpbiBwY20uaW5kaWNlcykgewogICAgICAgICAgICBwY21baV0gPSBzZWdtZW50W2ldCiAgICAgICAgfQoKICAgICAgICB2YWwgcm1zID0gY29tcHV0ZVJtcyhwY20pCiAgICAgICAgdmFsIHJtc0dhdGUgPSBtYXgoY29uZmlnLm1pblJtcywgbm9pc2VSbXMgKyBjb25maWcucm1zTm9pc2VNYXJnaW4pCiAgICAgICAgaWYgKHJtcyA8IHJtc0dhdGUpIHsKICAgICAgICAgICAgbWF5YmVEZWJ1ZygKICAgICAgICAgICAgICAgICJkcm9wOiBybXMgdG9vIGxvdyAocm1zPSRybXMgPCBnYXRlPSRybXNHYXRlIG1pbj0ke2NvbmZpZy5taW5SbXN9IG5vaXNlPSRub2lzZVJtcyBtYXJnaW49JHtjb25maWcucm1zTm9pc2VNYXJnaW59KSBzcGVlY2hNcz0kc3BlZWNoTXMgc2FtcGxlcz0ke3BjbS5zaXplfSIKICAgICAgICAgICAgKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZhbCBmZWF0ID0gUGVyc29uYWxXYWtlRmVhdHVyZUV4dHJhY3Rvci5leHRyYWN0RmVhdHVyZXMocGNtLCBwY20uc2l6ZSkKICAgICAgICBpZiAoZmVhdC5pc0VtcHR5KCkpIHsKICAgICAgICAgICAgbWF5YmVEZWJ1ZygiZHJvcDogZW1wdHkgZmVhdHVyZXMiKQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHZhbCBjZmcgPSBQZXJzb25hbFdha2VGZWF0dXJlRXh0cmFjdG9yLkNvbmZpZygpCiAgICAgICAgdmFsIGZlYXR1cmVEaW0gPSBjZmcubnVtTWZjYyAqIDMKICAgICAgICBpZiAoZmVhdHVyZURpbSA8PSAwKSB7CiAgICAgICAgICAgIG1heWJlRGVidWcoImRyb3A6IGludmFsaWQgZmVhdHVyZURpbT0kZmVhdHVyZURpbSIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KICAgICAgICBpZiAoZmVhdC5zaXplICUgZmVhdHVyZURpbSAhPSAwKSB7CiAgICAgICAgICAgIG1heWJlRGVidWcoImRyb3A6IGludmFsaWQgZmVhdHVyZSBzaXplPSR7ZmVhdC5zaXplfSAobm90IGRpdmlzaWJsZSBieSBmZWF0dXJlRGltPSRmZWF0dXJlRGltKSIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFsIHZhbGlkVGVtcGxhdGVzID0KICAgICAgICAgICAgdGVtcGxhdGVzLmZpbHRlciB7IHQgLT4KICAgICAgICAgICAgICAgIHQuaXNOb3RFbXB0eSgpICYmICh0LnNpemUgJSBmZWF0dXJlRGltID09IDApCiAgICAgICAgICAgIH0KICAgICAgICBpZiAodmFsaWRUZW1wbGF0ZXMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHZhbCBzaXplcyA9IHRlbXBsYXRlcy5tYXAgeyBpdC5zaXplIH0uZGlzdGluY3QoKQogICAgICAgICAgICBtYXliZURlYnVnKAogICAgICAgICAgICAgICAgImRyb3A6IHRlbXBsYXRlIHNpemUgbWlzbWF0Y2ggZmVhdHVyZURpbT0kZmVhdHVyZURpbSB0ZW1wbGF0ZVNpemVzPSRzaXplcyAobmVlZCByZS1lbnJvbGwpIgogICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFsIGZlYXRTZXEgPSByZXNoYXBlQW5kTm9ybWFsaXplUGVyRnJhbWUoZmVhdCwgZmVhdHVyZURpbSkKICAgICAgICB2YWwgdG1wbFNlcXMgPSB2YWxpZFRlbXBsYXRlcy5tYXAgeyB0IC0+IHJlc2hhcGVBbmROb3JtYWxpemVQZXJGcmFtZSh0LCBmZWF0dXJlRGltKSB9CgogICAgICAgIHZhbCBpbnRyYVNpbXMgPSBBcnJheUxpc3Q8RmxvYXQ+KDMpCiAgICAgICAgaWYgKHRtcGxTZXFzLnNpemUgPj0gMikgewogICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCB0bXBsU2Vxcy5zaXplKSB7CiAgICAgICAgICAgICAgICBmb3IgKGogaW4gaSArIDEgdW50aWwgdG1wbFNlcXMuc2l6ZSkgewogICAgICAgICAgICAgICAgICAgIGludHJhU2ltcy5hZGQoZHR3U2ltaWxhcml0eSh0bXBsU2Vxc1tpXSwgdG1wbFNlcXNbal0sIGNvbmZpZy5kdHdCYW5kKSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICB2YWwgKGludHJhTWVhbiwgaW50cmFTdGQpID0gbWVhblN0ZChpbnRyYVNpbXMpCiAgICAgICAgdmFsIGludHJhTWluID0gaW50cmFTaW1zLm1pbk9yTnVsbCgpID86IDFmCiAgICAgICAgaWYgKGludHJhU2ltcy5pc05vdEVtcHR5KCkgJiYgaW50cmFNaW4gPCBjb25maWcubWluSW50cmFTaW1pbGFyaXR5KSB7CiAgICAgICAgICAgIG1heWJlRGVidWcoCiAgICAgICAgICAgICAgICAid2FybjogZW5yb2xsbWVudCBpbmNvbnNpc3RlbnQgaW50cmFNaW49JGludHJhTWluIGludHJhTWVhbj0kaW50cmFNZWFuIGludHJhU3RkPSRpbnRyYVN0ZCBpbnRyYT0kaW50cmFTaW1zIgogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgbWVhbkxlbiA9IHRtcGxTZXFzLm1hcCB7IGl0LnNpemUgfS5hdmVyYWdlKCkudG9GbG9hdCgpLmNvZXJjZUF0TGVhc3QoMWYpCiAgICAgICAgdmFsIHJhdGlvID0gZmVhdFNlcS5zaXplLnRvRmxvYXQoKSAvIG1lYW5MZW4KICAgICAgICBpZiAocmF0aW8gPCBjb25maWcubWluRHVyYXRpb25SYXRpbyB8fCByYXRpbyA+IGNvbmZpZy5tYXhEdXJhdGlvblJhdGlvKSB7CiAgICAgICAgICAgIG1heWJlRGVidWcoCiAgICAgICAgICAgICAgICAiZHJvcDogZHVyYXRpb24gcmF0aW8gb3V0IG9mIHJhbmdlIHJhdGlvPSRyYXRpbyBmZWF0RnJhbWVzPSR7ZmVhdFNlcS5zaXplfSB0ZW1wbGF0ZU1lYW5GcmFtZXM9JG1lYW5MZW4iCiAgICAgICAgICAgICkKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIHZhbCBkeW5UaHJlc2hvbGQgPQogICAgICAgICAgICBtYXgoCiAgICAgICAgICAgICAgICBjb25maWcubWluRHluYW1pY1RocmVzaG9sZEZsb29yLAogICAgICAgICAgICAgICAgbWluKAogICAgICAgICAgICAgICAgICAgIGNvbmZpZy5zaW1pbGFyaXR5VGhyZXNob2xkLAogICAgICAgICAgICAgICAgICAgIChpbnRyYU1pbiAtIGNvbmZpZy5keW5hbWljVGhyZXNob2xkTWFyZ2luKS5jb2VyY2VJbigwZiwgMWYpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICkKCiAgICAgICAgdmFyIGJlc3QgPSAtMWYKICAgICAgICB2YXIgc2Vjb25kQmVzdCA9IC0xZgogICAgICAgIHZhciBoaXRzID0gMAogICAgICAgIHZhbCBzaW1zID0gQXJyYXlMaXN0PEZsb2F0Pih0bXBsU2Vxcy5zaXplKQogICAgICAgIGZvciAoc2VxIGluIHRtcGxTZXFzKSB7CiAgICAgICAgICAgIHZhbCBzaW0gPSBkdHdTaW1pbGFyaXR5KGZlYXRTZXEsIHNlcSwgY29uZmlnLmR0d0JhbmQpCiAgICAgICAgICAgIHNpbXMuYWRkKHNpbSkKICAgICAgICAgICAgaWYgKHNpbSA+IGJlc3QpIHsKICAgICAgICAgICAgICAgIHNlY29uZEJlc3QgPSBiZXN0CiAgICAgICAgICAgICAgICBiZXN0ID0gc2ltCiAgICAgICAgICAgIH0gZWxzZSBpZiAoc2ltID4gc2Vjb25kQmVzdCkgewogICAgICAgICAgICAgICAgc2Vjb25kQmVzdCA9IHNpbQogICAgICAgICAgICB9CiAgICAgICAgICAgIGlmIChzaW0gPj0gZHluVGhyZXNob2xkKSBoaXRzKysKICAgICAgICB9CgogICAgICAgIHZhbCByZXF1aXJlZEhpdHMgPSBtaW4oY29uZmlnLnJlcXVpcmVkVGVtcGxhdGVNYXRjaGVzLCB0bXBsU2Vxcy5zaXplKQogICAgICAgIHZhbCBiZXN0U2Vjb25kR2FwID0gaWYgKHNlY29uZEJlc3QgPj0gMGYpIGJlc3QgLSBzZWNvbmRCZXN0IGVsc2UgMGYKICAgICAgICB2YWwgZ2FwT2sgPSB0bXBsU2Vxcy5zaXplIDwgMiB8fCBoaXRzID49IDIgfHwgYmVzdFNlY29uZEdhcCA8PSBjb25maWcubWF4QmVzdFNlY29uZEdhcAoKICAgICAgICBpZiAoaGl0cyA+PSByZXF1aXJlZEhpdHMgJiYgZ2FwT2spIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoCiAgICAgICAgICAgICAgICBUQUcsCiAgICAgICAgICAgICAgICAiUGVyc29uYWwgd2FrZSB0cmlnZ2VyZWQ6IGJlc3Q9JGJlc3Qgc2Vjb25kQmVzdD0kc2Vjb25kQmVzdCBnYXA9JGJlc3RTZWNvbmRHYXAgaGl0cz0kaGl0cy8kcmVxdWlyZWRIaXRzIHJtcz0kcm1zIHNwZWVjaE1zPSRzcGVlY2hNcyB0aHJlc2hvbGQ9JGR5blRocmVzaG9sZCBpbnRyYU1pbj0kaW50cmFNaW4gaW50cmFNZWFuPSRpbnRyYU1lYW4gaW50cmFTdGQ9JGludHJhU3RkIGludHJhPSRpbnRyYVNpbXMgc2ltcz0kc2ltcyIKICAgICAgICAgICAgKQogICAgICAgICAgICBvblRyaWdnZXJlZChiZXN0KQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIG1heWJlRGVidWcoCiAgICAgICAgICAgICAgICAiZHJvcDogbm90IGVub3VnaCBtYXRjaGVzIGJlc3Q9JGJlc3Qgc2Vjb25kQmVzdD0kc2Vjb25kQmVzdCBnYXA9JGJlc3RTZWNvbmRHYXAgZ2FwT2s9JGdhcE9rIGhpdHM9JGhpdHMvJHJlcXVpcmVkSGl0cyBybXM9JHJtcyBzcGVlY2hNcz0kc3BlZWNoTXMgdGhyZXNob2xkPSRkeW5UaHJlc2hvbGQgaW50cmFNaW49JGludHJhTWluIGludHJhTWVhbj0kaW50cmFNZWFuIGludHJhU3RkPSRpbnRyYVN0ZCBpbnRyYT0kaW50cmFTaW1zIHNpbXM9JHNpbXMiCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbWVhblN0ZCh4OiBMaXN0PEZsb2F0Pik6IFBhaXI8RmxvYXQsIEZsb2F0PiB7CiAgICAgICAgaWYgKHguaXNFbXB0eSgpKSByZXR1cm4gMWYgdG8gMGYKICAgICAgICB2YXIgbWVhbiA9IDBmCiAgICAgICAgZm9yICh2IGluIHgpIHsKICAgICAgICAgICAgbWVhbiArPSB2CiAgICAgICAgfQogICAgICAgIG1lYW4gLz0geC5zaXplCiAgICAgICAgdmFyIHZhclN1bSA9IDBmCiAgICAgICAgZm9yICh2IGluIHgpIHsKICAgICAgICAgICAgdmFsIGQgPSB2IC0gbWVhbgogICAgICAgICAgICB2YXJTdW0gKz0gZCAqIGQKICAgICAgICB9CiAgICAgICAgdmFsIHN0ZCA9IGtvdGxpbi5tYXRoLnNxcnQobWF4KDFlLTEwZiwgdmFyU3VtIC8geC5zaXplKSkKICAgICAgICByZXR1cm4gbWVhbiB0byBzdGQKICAgIH0KCiAgICBwcml2YXRlIGZ1biByZXNldFNlZ21lbnQoc2VnbWVudDogQXJyYXlMaXN0PFNob3J0PikgewogICAgICAgIHNlZ21lbnQuY2xlYXIoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGNvbXB1dGVSbXMocGNtOiBTaG9ydEFycmF5KTogRmxvYXQgewogICAgICAgIHJldHVybiBjb21wdXRlUm1zKHBjbSwgcGNtLnNpemUpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY29tcHV0ZVJtcyhwY206IFNob3J0QXJyYXksIGxlbjogSW50KTogRmxvYXQgewogICAgICAgIGlmIChwY20uaXNFbXB0eSgpIHx8IGxlbiA8PSAwKSByZXR1cm4gMGYKICAgICAgICB2YXIgc3VtID0gMC4wCiAgICAgICAgdmFsIG4gPSBtaW4obGVuLCBwY20uc2l6ZSkKICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBuKSB7CiAgICAgICAgICAgIHZhbCB2ID0gcGNtW2ldLnRvRG91YmxlKCkgLyAzMjc2OC4wCiAgICAgICAgICAgIHN1bSArPSB2ICogdgogICAgICAgIH0KICAgICAgICB2YWwgbWVhbiA9IHN1bSAvIG4udG9Eb3VibGUoKQogICAgICAgIHJldHVybiBrb3RsaW4ubWF0aC5zcXJ0KG1lYW4pLnRvRmxvYXQoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIHJlc2hhcGVBbmROb3JtYWxpemVQZXJGcmFtZSgKICAgICAgICBmbGF0OiBGbG9hdEFycmF5LAogICAgICAgIGZlYXR1cmVEaW06IEludCwKICAgICk6IEFycmF5PEZsb2F0QXJyYXk+IHsKICAgICAgICB2YWwgZnJhbWVzID0gZmxhdC5zaXplIC8gZmVhdHVyZURpbQogICAgICAgIHZhbCBvdXQgPSBBcnJheShmcmFtZXMpIHsgRmxvYXRBcnJheShmZWF0dXJlRGltKSB9CiAgICAgICAgdmFyIGlkeCA9IDAKICAgICAgICBmb3IgKHQgaW4gMCB1bnRpbCBmcmFtZXMpIHsKICAgICAgICAgICAgZm9yIChpIGluIDAgdW50aWwgZmVhdHVyZURpbSkgewogICAgICAgICAgICAgICAgb3V0W3RdW2ldID0gZmxhdFtpZHgrK10KICAgICAgICAgICAgfQogICAgICAgICAgICBsMk5vcm1hbGl6ZUluUGxhY2Uob3V0W3RdKQogICAgICAgIH0KICAgICAgICByZXR1cm4gb3V0CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZHR3U2ltaWxhcml0eShhOiBBcnJheTxGbG9hdEFycmF5PiwgYjogQXJyYXk8RmxvYXRBcnJheT4sIGJhbmQ6IEludCk6IEZsb2F0IHsKICAgICAgICBpZiAoYS5pc0VtcHR5KCkgfHwgYi5pc0VtcHR5KCkpIHJldHVybiAwZgogICAgICAgIHZhbCBuID0gYS5zaXplCiAgICAgICAgdmFsIG0gPSBiLnNpemUKICAgICAgICB2YWwgYmFuZFcgPSBtYXgoYmFuZCwgYWJzKG4gLSBtKSkKICAgICAgICB2YWwgZHAgPSBBcnJheShuICsgMSkgeyBGbG9hdEFycmF5KG0gKyAxKSB7IEZsb2F0LlBPU0lUSVZFX0lORklOSVRZIH0gfQogICAgICAgIGRwWzBdWzBdID0gMGYKCiAgICAgICAgZm9yIChpIGluIDEuLm4pIHsKICAgICAgICAgICAgdmFsIGpTdGFydCA9IG1heCgxLCBpIC0gYmFuZFcpCiAgICAgICAgICAgIHZhbCBqRW5kID0gbWluKG0sIGkgKyBiYW5kVykKICAgICAgICAgICAgZm9yIChqIGluIGpTdGFydC4uakVuZCkgewogICAgICAgICAgICAgICAgdmFsIGNvc3QgPSBjb3NpbmVEaXN0YW5jZShhW2kgLSAxXSwgYltqIC0gMV0pCiAgICAgICAgICAgICAgICB2YWwgYmVzdFByZXYgPSBtaW4oZHBbaSAtIDFdW2pdLCBtaW4oZHBbaV1baiAtIDFdLCBkcFtpIC0gMV1baiAtIDFdKSkKICAgICAgICAgICAgICAgIGRwW2ldW2pdID0gY29zdCArIGJlc3RQcmV2CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHZhbCBub3JtID0gbWF4KDFmLCAobiArIG0pLnRvRmxvYXQoKSkKICAgICAgICB2YWwgYXZnQ29zdCA9IGRwW25dW21dIC8gbm9ybQogICAgICAgIHZhbCBzaW0gPSAxZiAtIChhdmdDb3N0IC8gMmYpCiAgICAgICAgcmV0dXJuIHNpbS5jb2VyY2VJbigwZiwgMWYpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY29zaW5lRGlzdGFuY2UoYTogRmxvYXRBcnJheSwgYjogRmxvYXRBcnJheSk6IEZsb2F0IHsKICAgICAgICB2YWwgbiA9IG1pbihhLnNpemUsIGIuc2l6ZSkKICAgICAgICB2YXIgZG90ID0gMGYKICAgICAgICB2YXIgbmEgPSAwZgogICAgICAgIHZhciBuYiA9IDBmCiAgICAgICAgZm9yIChpIGluIDAgdW50aWwgbikgewogICAgICAgICAgICB2YWwgdmEgPSBhW2ldCiAgICAgICAgICAgIHZhbCB2YiA9IGJbaV0KICAgICAgICAgICAgZG90ICs9IHZhICogdmIKICAgICAgICAgICAgbmEgKz0gdmEgKiB2YQogICAgICAgICAgICBuYiArPSB2YiAqIHZiCiAgICAgICAgfQogICAgICAgIHZhbCBkZW5vbSA9IGtvdGxpbi5tYXRoLnNxcnQobWF4KDFlLTEwZiwgbmEpKSAqIGtvdGxpbi5tYXRoLnNxcnQobWF4KDFlLTEwZiwgbmIpKQogICAgICAgIHZhbCBjb3MgPSAoZG90IC8gZGVub20pLmNvZXJjZUluKC0xZiwgMWYpCiAgICAgICAgcmV0dXJuIDFmIC0gY29zCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbDJOb3JtYWxpemVJblBsYWNlKHg6IEZsb2F0QXJyYXkpIHsKICAgICAgICB2YXIgbm9ybSA9IDBmCiAgICAgICAgZm9yICh2IGluIHgpIHsKICAgICAgICAgICAgbm9ybSArPSB2ICogdgogICAgICAgIH0KICAgICAgICBub3JtID0ga290bGluLm1hdGguc3FydChtYXgoMWUtMTBmLCBub3JtKSkKICAgICAgICBmb3IgKGkgaW4geC5pbmRpY2VzKSB7CiAgICAgICAgICAgIHhbaV0gLz0gbm9ybQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBtYXliZURlYnVnKG1lc3NhZ2U6IFN0cmluZykgewogICAgICAgIHZhbCBub3cgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgIGlmIChub3cgLSBsYXN0RGVidWdBdE1zIDwgZGVidWdJbnRlcnZhbE1zKSByZXR1cm4KICAgICAgICBsYXN0RGVidWdBdE1zID0gbm93CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCBtZXNzYWdlKQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.speech
+
+import android.annotation.SuppressLint
+import android.content.Context
+import android.media.AudioFormat
+import android.media.AudioRecord
+import android.media.MediaRecorder
+import com.bslsjdk.operit.util.AppLogger
+import kotlin.math.abs
+import kotlin.math.max
+import kotlin.math.min
+import kotlinx.coroutines.currentCoroutineContext
+import kotlinx.coroutines.isActive
+
+class PersonalWakeListener(
+    private val context: Context,
+    private val templatesProvider: () -> List<FloatArray>,
+    private val onTriggered: (similarity: Float) -> Unit,
+) {
+    companion object {
+        private const val TAG = "PersonalWakeListener"
+    }
+
+    data class Config(
+        val sampleRate: Int = 16000,
+        val frameSize: Int = 512,
+        val maxSegmentMs: Long = 1600L,
+        val minSegmentMs: Long = 250L,
+        val endSilenceMs: Long = 350L,
+        val similarityThreshold: Float = 0.865f,
+        val dynamicThresholdMargin: Float = 0.02f,
+        val minDynamicThresholdFloor: Float = 0.84f,
+        val maxBestSecondGap: Float = 0.04f,
+        val minIntraSimilarity: Float = 0.80f,
+        val dtwBand: Int = 4,
+        val requiredTemplateMatches: Int = 1,
+        val minDurationRatio: Float = 0.75f,
+        val maxDurationRatio: Float = 1.25f,
+        val minRms: Float = 0.003f,
+        val rmsNoiseMargin: Float = 0.001f,
+        val noiseRmsEmaAlpha: Float = 0.05f,
+        val vadMode: OnnxSileroVad.Mode = OnnxSileroVad.Mode.NORMAL,
+    )
+
+    @Volatile
+    private var running = false
+
+    @Volatile
+    private var lastDebugAtMs: Long = 0L
+
+    private val debugIntervalMs: Long = 1500L
+
+    @SuppressLint("MissingPermission")
+    suspend fun runLoop(config: Config = Config()) {
+        if (running) return
+        running = true
+
+        val minBufferSize = AudioRecord.getMinBufferSize(
+            config.sampleRate,
+            AudioFormat.CHANNEL_IN_MONO,
+            AudioFormat.ENCODING_PCM_16BIT
+        )
+
+        val audioRecord = AudioRecord(
+            MediaRecorder.AudioSource.MIC,
+            config.sampleRate,
+            AudioFormat.CHANNEL_IN_MONO,
+            AudioFormat.ENCODING_PCM_16BIT,
+            (minBufferSize.coerceAtLeast(config.frameSize) * 2)
+        )
+
+        val vad = OnnxSileroVad(
+            context = context.applicationContext,
+            sampleRate = config.sampleRate,
+            frameSize = config.frameSize,
+            mode = config.vadMode,
+            speechDurationMs = 30,
+            silenceDurationMs = 300,
+        )
+
+        val buffer = ShortArray(config.frameSize)
+        val segment = ArrayList<Short>()
+
+        var seenSpeech = false
+        var speechMs = 0L
+        var silenceMs = 0L
+
+        var noiseRmsEma = 0f
+
+        try {
+            audioRecord.startRecording()
+            AppLogger.d(TAG, "Started personal wake loop")
+
+            while (running) {
+                if (!currentCoroutineContext().isActive) break
+                val read = audioRecord.read(buffer, 0, buffer.size)
+                if (read <= 0) continue
+
+                SpeechPrerollStore.appendPcm(buffer, read)
+
+                val isSpeechFrame = read == config.frameSize && vad.isSpeech(buffer)
+                val chunkMs = (read * 1000L) / config.sampleRate
+
+                if (!isSpeechFrame && !seenSpeech) {
+                    val frameRms = computeRms(buffer, read)
+                    noiseRmsEma =
+                        if (noiseRmsEma <= 0f) {
+                            frameRms
+                        } else {
+                            val a = config.noiseRmsEmaAlpha.coerceIn(0.001f, 0.5f)
+                            (1f - a) * noiseRmsEma + a * frameRms
+                        }
+                }
+
+                if (isSpeechFrame) {
+                    seenSpeech = true
+                    silenceMs = 0L
+                    speechMs += chunkMs
+                    for (i in 0 until read) {
+                        segment.add(buffer[i])
+                    }
+
+                    if (speechMs >= config.maxSegmentMs) {
+                        flushSegmentIfNeeded(config, segment, speechMs, noiseRmsEma)
+                        resetSegment(segment)
+                        seenSpeech = false
+                        speechMs = 0L
+                        silenceMs = 0L
+                    }
+                } else {
+                    if (seenSpeech) {
+                        silenceMs += chunkMs
+                        if (silenceMs >= config.endSilenceMs) {
+                            flushSegmentIfNeeded(config, segment, speechMs, noiseRmsEma)
+                            resetSegment(segment)
+                            seenSpeech = false
+                            speechMs = 0L
+                            silenceMs = 0L
+                        }
+                    }
+                }
+            }
+        } finally {
+            AppLogger.d(TAG, "Stopping personal wake loop")
+            try {
+                audioRecord.stop()
+            } catch (_: Exception) {
+            }
+            try {
+                audioRecord.release()
+            } catch (_: Exception) {
+            }
+            try {
+                vad.close()
+            } catch (_: Exception) {
+            }
+            running = false
+        }
+    }
+
+    fun stop() {
+        running = false
+    }
+
+    private fun flushSegmentIfNeeded(
+        config: Config,
+        segment: ArrayList<Short>,
+        speechMs: Long,
+        noiseRms: Float,
+    ) {
+        if (segment.isEmpty()) return
+        if (speechMs < config.minSegmentMs) return
+
+        val templates = templatesProvider()
+        if (templates.isEmpty()) {
+            maybeDebug("drop: no templates")
+            return
+        }
+
+        val pcm = ShortArray(segment.size)
+        for (i in pcm.indices) {
+            pcm[i] = segment[i]
+        }
+
+        val rms = computeRms(pcm)
+        val rmsGate = max(config.minRms, noiseRms + config.rmsNoiseMargin)
+        if (rms < rmsGate) {
+            maybeDebug(
+                "drop: rms too low (rms=$rms < gate=$rmsGate min=${config.minRms} noise=$noiseRms margin=${config.rmsNoiseMargin}) speechMs=$speechMs samples=${pcm.size}"
+            )
+            return
+        }
+
+        val feat = PersonalWakeFeatureExtractor.extractFeatures(pcm, pcm.size)
+        if (feat.isEmpty()) {
+            maybeDebug("drop: empty features")
+            return
+        }
+
+        val cfg = PersonalWakeFeatureExtractor.Config()
+        val featureDim = cfg.numMfcc * 3
+        if (featureDim <= 0) {
+            maybeDebug("drop: invalid featureDim=$featureDim")
+            return
+        }
+        if (feat.size % featureDim != 0) {
+            maybeDebug("drop: invalid feature size=${feat.size} (not divisible by featureDim=$featureDim)")
+            return
+        }
+
+        val validTemplates =
+            templates.filter { t ->
+                t.isNotEmpty() && (t.size % featureDim == 0)
+            }
+        if (validTemplates.isEmpty()) {
+            val sizes = templates.map { it.size }.distinct()
+            maybeDebug(
+                "drop: template size mismatch featureDim=$featureDim templateSizes=$sizes (need re-enroll)"
+            )
+            return
+        }
+
+        val featSeq = reshapeAndNormalizePerFrame(feat, featureDim)
+        val tmplSeqs = validTemplates.map { t -> reshapeAndNormalizePerFrame(t, featureDim) }
+
+        val intraSims = ArrayList<Float>(3)
+        if (tmplSeqs.size >= 2) {
+            for (i in 0 until tmplSeqs.size) {
+                for (j in i + 1 until tmplSeqs.size) {
+                    intraSims.add(dtwSimilarity(tmplSeqs[i], tmplSeqs[j], config.dtwBand))
+                }
+            }
+        }
+        val (intraMean, intraStd) = meanStd(intraSims)
+        val intraMin = intraSims.minOrNull() ?: 1f
+        if (intraSims.isNotEmpty() && intraMin < config.minIntraSimilarity) {
+            maybeDebug(
+                "warn: enrollment inconsistent intraMin=$intraMin intraMean=$intraMean intraStd=$intraStd intra=$intraSims"
+            )
+        }
+
+        val meanLen = tmplSeqs.map { it.size }.average().toFloat().coerceAtLeast(1f)
+        val ratio = featSeq.size.toFloat() / meanLen
+        if (ratio < config.minDurationRatio || ratio > config.maxDurationRatio) {
+            maybeDebug(
+                "drop: duration ratio out of range ratio=$ratio featFrames=${featSeq.size} templateMeanFrames=$meanLen"
+            )
+            return
+        }
+        val dynThreshold =
+            max(
+                config.minDynamicThresholdFloor,
+                min(
+                    config.similarityThreshold,
+                    (intraMin - config.dynamicThresholdMargin).coerceIn(0f, 1f)
+                )
+            )
+
+        var best = -1f
+        var secondBest = -1f
+        var hits = 0
+        val sims = ArrayList<Float>(tmplSeqs.size)
+        for (seq in tmplSeqs) {
+            val sim = dtwSimilarity(featSeq, seq, config.dtwBand)
+            sims.add(sim)
+            if (sim > best) {
+                secondBest = best
+                best = sim
+            } else if (sim > secondBest) {
+                secondBest = sim
+            }
+            if (sim >= dynThreshold) hits++
+        }
+
+        val requiredHits = min(config.requiredTemplateMatches, tmplSeqs.size)
+        val bestSecondGap = if (secondBest >= 0f) best - secondBest else 0f
+        val gapOk = tmplSeqs.size < 2 || hits >= 2 || bestSecondGap <= config.maxBestSecondGap
+
+        if (hits >= requiredHits && gapOk) {
+            AppLogger.d(
+                TAG,
+                "Personal wake triggered: best=$best secondBest=$secondBest gap=$bestSecondGap hits=$hits/$requiredHits rms=$rms speechMs=$speechMs threshold=$dynThreshold intraMin=$intraMin intraMean=$intraMean intraStd=$intraStd intra=$intraSims sims=$sims"
+            )
+            onTriggered(best)
+        } else {
+            maybeDebug(
+                "drop: not enough matches best=$best secondBest=$secondBest gap=$bestSecondGap gapOk=$gapOk hits=$hits/$requiredHits rms=$rms speechMs=$speechMs threshold=$dynThreshold intraMin=$intraMin intraMean=$intraMean intraStd=$intraStd intra=$intraSims sims=$sims"
+            )
+        }
+    }
+
+    private fun meanStd(x: List<Float>): Pair<Float, Float> {
+        if (x.isEmpty()) return 1f to 0f
+        var mean = 0f
+        for (v in x) {
+            mean += v
+        }
+        mean /= x.size
+        var varSum = 0f
+        for (v in x) {
+            val d = v - mean
+            varSum += d * d
+        }
+        val std = kotlin.math.sqrt(max(1e-10f, varSum / x.size))
+        return mean to std
+    }
+
+    private fun resetSegment(segment: ArrayList<Short>) {
+        segment.clear()
+    }
+
+    private fun computeRms(pcm: ShortArray): Float {
+        return computeRms(pcm, pcm.size)
+    }
+
+    private fun computeRms(pcm: ShortArray, len: Int): Float {
+        if (pcm.isEmpty() || len <= 0) return 0f
+        var sum = 0.0
+        val n = min(len, pcm.size)
+        for (i in 0 until n) {
+            val v = pcm[i].toDouble() / 32768.0
+            sum += v * v
+        }
+        val mean = sum / n.toDouble()
+        return kotlin.math.sqrt(mean).toFloat()
+    }
+
+    private fun reshapeAndNormalizePerFrame(
+        flat: FloatArray,
+        featureDim: Int,
+    ): Array<FloatArray> {
+        val frames = flat.size / featureDim
+        val out = Array(frames) { FloatArray(featureDim) }
+        var idx = 0
+        for (t in 0 until frames) {
+            for (i in 0 until featureDim) {
+                out[t][i] = flat[idx++]
+            }
+            l2NormalizeInPlace(out[t])
+        }
+        return out
+    }
+
+    private fun dtwSimilarity(a: Array<FloatArray>, b: Array<FloatArray>, band: Int): Float {
+        if (a.isEmpty() || b.isEmpty()) return 0f
+        val n = a.size
+        val m = b.size
+        val bandW = max(band, abs(n - m))
+        val dp = Array(n + 1) { FloatArray(m + 1) { Float.POSITIVE_INFINITY } }
+        dp[0][0] = 0f
+
+        for (i in 1..n) {
+            val jStart = max(1, i - bandW)
+            val jEnd = min(m, i + bandW)
+            for (j in jStart..jEnd) {
+                val cost = cosineDistance(a[i - 1], b[j - 1])
+                val bestPrev = min(dp[i - 1][j], min(dp[i][j - 1], dp[i - 1][j - 1]))
+                dp[i][j] = cost + bestPrev
+            }
+        }
+
+        val norm = max(1f, (n + m).toFloat())
+        val avgCost = dp[n][m] / norm
+        val sim = 1f - (avgCost / 2f)
+        return sim.coerceIn(0f, 1f)
+    }
+
+    private fun cosineDistance(a: FloatArray, b: FloatArray): Float {
+        val n = min(a.size, b.size)
+        var dot = 0f
+        var na = 0f
+        var nb = 0f
+        for (i in 0 until n) {
+            val va = a[i]
+            val vb = b[i]
+            dot += va * vb
+            na += va * va
+            nb += vb * vb
+        }
+        val denom = kotlin.math.sqrt(max(1e-10f, na)) * kotlin.math.sqrt(max(1e-10f, nb))
+        val cos = (dot / denom).coerceIn(-1f, 1f)
+        return 1f - cos
+    }
+
+    private fun l2NormalizeInPlace(x: FloatArray) {
+        var norm = 0f
+        for (v in x) {
+            norm += v * v
+        }
+        norm = kotlin.math.sqrt(max(1e-10f, norm))
+        for (i in x.indices) {
+            x[i] /= norm
+        }
+    }
+
+    private fun maybeDebug(message: String) {
+        val now = System.currentTimeMillis()
+        if (now - lastDebugAtMs < debugIntervalMs) return
+        lastDebugAtMs = now
+        AppLogger.d(TAG, message)
+    }
+}

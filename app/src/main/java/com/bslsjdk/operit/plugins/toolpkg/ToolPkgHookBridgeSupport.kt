@@ -1,1 +1,184 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQucGx1Z2lucy50b29scGtnCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUuYXBwbGljYXRpb24uT3Blcml0QXBwbGljYXRpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFJVG9vbEhhbmRsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkxvY2FsaXplZFRleHQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLmphdmFzY3JpcHQuSnNKYXZhQnJpZGdlRGVsZWdhdGVzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0LmV4dHJhY3RKc0V4ZWN1dGlvbkVycm9yTWVzc2FnZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuUGFja2FnZU1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnBhY2tUb29sLlRvb2xQa2dDb250YWluZXJSdW50aW1lCmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKaW1wb3J0IG9yZy5qc29uLkpTT05Ub2tlbmVyCgppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dBcHBMaWZlY3ljbGVIb29rUmVnaXN0cmF0aW9uKAogICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICB2YWwgaG9va0lkOiBTdHJpbmcsCiAgICB2YWwgZXZlbnQ6IFN0cmluZywKICAgIHZhbCBmdW5jdGlvbk5hbWU6IFN0cmluZywKICAgIHZhbCBmdW5jdGlvblNvdXJjZTogU3RyaW5nPyA9IG51bGwKKQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBUb29sUGtnTWVzc2FnZVByb2Nlc3NpbmdIb29rUmVnaXN0cmF0aW9uKAogICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICB2YWwgcGx1Z2luSWQ6IFN0cmluZywKICAgIHZhbCBmdW5jdGlvbk5hbWU6IFN0cmluZywKICAgIHZhbCBmdW5jdGlvblNvdXJjZTogU3RyaW5nPyA9IG51bGwKKQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBUb29sUGtnWG1sUmVuZGVySG9va1JlZ2lzdHJhdGlvbigKICAgIHZhbCBjb250YWluZXJQYWNrYWdlTmFtZTogU3RyaW5nLAogICAgdmFsIHBsdWdpbklkOiBTdHJpbmcsCiAgICB2YWwgdGFnOiBTdHJpbmcsCiAgICB2YWwgZnVuY3Rpb25OYW1lOiBTdHJpbmcsCiAgICB2YWwgZnVuY3Rpb25Tb3VyY2U6IFN0cmluZz8gPSBudWxsCikKCmludGVybmFsIGRhdGEgY2xhc3MgVG9vbFBrZ0lucHV0TWVudVRvZ2dsZUhvb2tSZWdpc3RyYXRpb24oCiAgICB2YWwgY29udGFpbmVyUGFja2FnZU5hbWU6IFN0cmluZywKICAgIHZhbCBwbHVnaW5JZDogU3RyaW5nLAogICAgdmFsIGZ1bmN0aW9uTmFtZTogU3RyaW5nLAogICAgdmFsIGZ1bmN0aW9uU291cmNlOiBTdHJpbmc/ID0gbnVsbAopCgppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dDaGF0SW5wdXRIb29rUmVnaXN0cmF0aW9uKAogICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICB2YWwgaG9va0lkOiBTdHJpbmcsCiAgICB2YWwgZnVuY3Rpb25OYW1lOiBTdHJpbmcsCiAgICB2YWwgZnVuY3Rpb25Tb3VyY2U6IFN0cmluZz8gPSBudWxsCikKCmludGVybmFsIGRhdGEgY2xhc3MgVG9vbFBrZ0NoYXRWaWV3SG9va1JlZ2lzdHJhdGlvbigKICAgIHZhbCBjb250YWluZXJQYWNrYWdlTmFtZTogU3RyaW5nLAogICAgdmFsIGhvb2tJZDogU3RyaW5nLAogICAgdmFsIGZ1bmN0aW9uTmFtZTogU3RyaW5nLAogICAgdmFsIGZ1bmN0aW9uU291cmNlOiBTdHJpbmc/ID0gbnVsbAopCgppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dDaGF0TWVzc2FnZUhvb2tSZWdpc3RyYXRpb24oCiAgICB2YWwgY29udGFpbmVyUGFja2FnZU5hbWU6IFN0cmluZywKICAgIHZhbCBob29rSWQ6IFN0cmluZywKICAgIHZhbCBmdW5jdGlvbk5hbWU6IFN0cmluZywKICAgIHZhbCBmdW5jdGlvblNvdXJjZTogU3RyaW5nPyA9IG51bGwKKQoKaW50ZXJuYWwgZGF0YSBjbGFzcyBUb29sUGtnQ2hhdE1lc3NhZ2VNZW51RGlhbG9nUmVnaXN0cmF0aW9uKAogICAgdmFsIHNjcmVlblBhdGg6IFN0cmluZywKICAgIHZhbCB0aXRsZTogTG9jYWxpemVkVGV4dAopCgppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dDaGF0TWVzc2FnZU1lbnVJdGVtUmVnaXN0cmF0aW9uKAogICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICB2YWwgaXRlbUlkOiBTdHJpbmcsCiAgICB2YWwgdGl0bGU6IExvY2FsaXplZFRleHQsCiAgICB2YWwgaWNvbjogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgb3JkZXI6IEludCA9IDAsCiAgICB2YWwgc2VuZGVyczogTGlzdDxTdHJpbmc+ID0gZW1wdHlMaXN0KCksCiAgICB2YWwgZnVuY3Rpb25OYW1lOiBTdHJpbmcsCiAgICB2YWwgZnVuY3Rpb25Tb3VyY2U6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIGRpYWxvZzogVG9vbFBrZ0NoYXRNZXNzYWdlTWVudURpYWxvZ1JlZ2lzdHJhdGlvbj8gPSBudWxsCikKCmludGVybmFsIGRhdGEgY2xhc3MgVG9vbFBrZ0NoYXRSdW50aW1lSG9va1JlZ2lzdHJhdGlvbigKICAgIHZhbCBjb250YWluZXJQYWNrYWdlTmFtZTogU3RyaW5nLAogICAgdmFsIGhvb2tJZDogU3RyaW5nLAogICAgdmFsIGZ1bmN0aW9uTmFtZTogU3RyaW5nLAogICAgdmFsIGZ1bmN0aW9uU291cmNlOiBTdHJpbmc/ID0gbnVsbAopCgppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dUb29sTGlmZWN5Y2xlSG9va1JlZ2lzdHJhdGlvbigKICAgIHZhbCBjb250YWluZXJQYWNrYWdlTmFtZTogU3RyaW5nLAogICAgdmFsIGhvb2tJZDogU3RyaW5nLAogICAgdmFsIGZ1bmN0aW9uTmFtZTogU3RyaW5nLAogICAgdmFsIGZ1bmN0aW9uU291cmNlOiBTdHJpbmc/ID0gbnVsbAopCgppbnRlcm5hbCBkYXRhIGNsYXNzIFRvb2xQa2dQcm9tcHRIb29rUmVnaXN0cmF0aW9uKAogICAgdmFsIGNvbnRhaW5lclBhY2thZ2VOYW1lOiBTdHJpbmcsCiAgICB2YWwgaG9va0lkOiBTdHJpbmcsCiAgICB2YWwgZnVuY3Rpb25OYW1lOiBTdHJpbmcsCiAgICB2YWwgZnVuY3Rpb25Tb3VyY2U6IFN0cmluZz8gPSBudWxsCikKCmludGVybmFsIGRhdGEgY2xhc3MgVG9vbFBrZ0FpUHJvdmlkZXJSZWdpc3RyYXRpb24oCiAgICB2YWwgY29udGFpbmVyUGFja2FnZU5hbWU6IFN0cmluZywKICAgIHZhbCBwcm92aWRlcklkOiBTdHJpbmcsCiAgICB2YWwgZGlzcGxheU5hbWU6IFN0cmluZywKICAgIHZhbCBkZXNjcmlwdGlvbjogU3RyaW5nLAogICAgdmFsIGxpc3RNb2RlbHNGdW5jdGlvbk5hbWU6IFN0cmluZywKICAgIHZhbCBsaXN0TW9kZWxzRnVuY3Rpb25Tb3VyY2U6IFN0cmluZz8gPSBudWxsLAogICAgdmFsIHNlbmRNZXNzYWdlRnVuY3Rpb25OYW1lOiBTdHJpbmcsCiAgICB2YWwgc2VuZE1lc3NhZ2VGdW5jdGlvblNvdXJjZTogU3RyaW5nPyA9IG51bGwsCiAgICB2YWwgdGVzdENvbm5lY3Rpb25GdW5jdGlvbk5hbWU6IFN0cmluZywKICAgIHZhbCB0ZXN0Q29ubmVjdGlvbkZ1bmN0aW9uU291cmNlOiBTdHJpbmc/ID0gbnVsbCwKICAgIHZhbCBjYWxjdWxhdGVJbnB1dFRva2Vuc0Z1bmN0aW9uTmFtZTogU3RyaW5nLAogICAgdmFsIGNhbGN1bGF0ZUlucHV0VG9rZW5zRnVuY3Rpb25Tb3VyY2U6IFN0cmluZz8gPSBudWxsCikgewogICAgLyoqIEhpc3RvcmljYWwgY291bnRlcnMgdXNlIHRoZSBmdWxsIHByb3ZpZGVyIElEIHdoaWxlIG5ldyByZXF1ZXN0cyB1c2UgdGhlIGRpc3BsYXkgbmFtZS4gKi8KICAgIHZhbCByZWxlYXNlZFRva2VuUHJvdmlkZXJBbGlhc2VzOiBNYXA8U3RyaW5nLCBTdHJpbmc+CiAgICAgICAgZ2V0KCkgewogICAgICAgICAgICB2YWwgaWQgPSBwcm92aWRlcklkLnRyaW0oKQogICAgICAgICAgICByZXF1aXJlKGlkLmlzTm90RW1wdHkoKSkgeyAiVG9vbFBrZyBBSSBwcm92aWRlciBpZCBtdXN0IG5vdCBiZSBibGFuayIgfQogICAgICAgICAgICB2YWwgZGlzcGxheSA9IGRpc3BsYXlOYW1lLnRyaW0oKQogICAgICAgICAgICByZXF1aXJlKGRpc3BsYXkuaXNOb3RFbXB0eSgpKSB7ICJUb29sUGtnIEFJIHByb3ZpZGVyIGRpc3BsYXkgbmFtZSBtdXN0IG5vdCBiZSBibGFuayIgfQogICAgICAgICAgICByZXR1cm4gbWFwT2YoCiAgICAgICAgICAgICAgICBpZCB0byBkaXNwbGF5LAogICAgICAgICAgICAgICAgIlRPT0xQS0dfJGlkIiB0byBkaXNwbGF5LAogICAgICAgICAgICAgICAgIlRPT0xQS0dfJHtpZC5sb3dlcmNhc2UoKX0iIHRvIGRpc3BsYXksCiAgICAgICAgICAgICAgICBkaXNwbGF5IHRvIGRpc3BsYXksCiAgICAgICAgICAgICkKICAgICAgICB9Cn0KCmludGVybmFsIGZ1biB0b29sUGtnUGFja2FnZU1hbmFnZXIoKTogUGFja2FnZU1hbmFnZXIgewogICAgdmFsIGFwcGxpY2F0aW9uID0gT3Blcml0QXBwbGljYXRpb24uaW5zdGFuY2UuYXBwbGljYXRpb25Db250ZXh0CiAgICByZXR1cm4gUGFja2FnZU1hbmFnZXIuZ2V0SW5zdGFuY2UoYXBwbGljYXRpb24sIEFJVG9vbEhhbmRsZXIuZ2V0SW5zdGFuY2UoYXBwbGljYXRpb24pKQp9CgppbnRlcm5hbCBmdW4gZGVjb2RlVG9vbFBrZ0hvb2tSZXN1bHQocmF3OiBBbnk/KTogQW55PyB7CiAgICB2YWwgdGV4dCA9IHJhdz8udG9TdHJpbmcoKS5vckVtcHR5KCkKICAgIGlmICh0ZXh0LmlzRW1wdHkoKSkgewogICAgICAgIHJldHVybiBudWxsCiAgICB9CiAgICB2YWwgbm9ybWFsaXplZCA9IHRleHQudHJpbSgpCiAgICBpZiAobm9ybWFsaXplZC5pc0VtcHR5KCkpIHsKICAgICAgICByZXR1cm4gdGV4dAogICAgfQogICAgdmFsIGVycm9yTWVzc2FnZSA9IGV4dHJhY3RKc0V4ZWN1dGlvbkVycm9yTWVzc2FnZShub3JtYWxpemVkKQogICAgaWYgKGVycm9yTWVzc2FnZSAhPSBudWxsKSB7CiAgICAgICAgdGhyb3cgSWxsZWdhbFN0YXRlRXhjZXB0aW9uKGVycm9yTWVzc2FnZSkKICAgIH0KICAgIHJldHVybiB0cnkgewogICAgICAgIEpTT05Ub2tlbmVyKG5vcm1hbGl6ZWQpLm5leHRWYWx1ZSgpCiAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICB0ZXh0CiAgICB9Cn0KCmludGVybmFsIGZ1biBqc29uT2JqZWN0VG9NYXAoanNvbk9iamVjdDogSlNPTk9iamVjdCk6IE1hcDxTdHJpbmcsIEFueT8+IHsKICAgIHJldHVybiBKc0phdmFCcmlkZ2VEZWxlZ2F0ZXMuZGVjb2RlUGxhaW5Kc29uVmFsdWUoanNvbk9iamVjdCkgYXM/IE1hcDxTdHJpbmcsIEFueT8+ID86IGVtcHR5TWFwKCkKfQoKaW50ZXJuYWwgZnVuIGpzb25BcnJheVRvTGlzdChqc29uQXJyYXk6IEpTT05BcnJheSk6IExpc3Q8QW55Pz4gewogICAgcmV0dXJuIEpzSmF2YUJyaWRnZURlbGVnYXRlcy5kZWNvZGVQbGFpbkpzb25WYWx1ZShqc29uQXJyYXkpIGFzPyBMaXN0PEFueT8+ID86IGVtcHR5TGlzdCgpCn0KCmludGVybmFsIGZ1biBqc29uVmFsdWVUb0tvdGxpbih2YWx1ZTogQW55Pyk6IEFueT8gewogICAgcmV0dXJuIEpzSmF2YUJyaWRnZURlbGVnYXRlcy5kZWNvZGVQbGFpbkpzb25WYWx1ZSh2YWx1ZSkKfQoKaW50ZXJuYWwgZnVuIDxUPiBJdGVyYWJsZTxUPi5zb3J0ZWRCeVRvb2xQa2dMb2FkT3JkZXIoCiAgICBhY3RpdmVDb250YWluZXJzOiBMaXN0PFRvb2xQa2dDb250YWluZXJSdW50aW1lPiwKICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lOiAoVCkgLT4gU3RyaW5nLAogICAgcmVnaXN0cmF0aW9uSWQ6IChUKSAtPiBTdHJpbmcKKTogTGlzdDxUPiB7CiAgICB2YWwgbG9hZE9yZGVyID0gYWN0aXZlQ29udGFpbmVycy5tYXBJbmRleGVkIHsgaW5kZXgsIGNvbnRhaW5lciAtPgogICAgICAgIGNvbnRhaW5lci5wYWNrYWdlTmFtZS5sb3dlcmNhc2UoKSB0byBpbmRleAogICAgfS50b01hcCgpCiAgICByZXR1cm4gc29ydGVkV2l0aCgKICAgICAgICBjb21wYXJlQnk8VD4geyBpdGVtIC0+CiAgICAgICAgICAgIGxvYWRPcmRlcltjb250YWluZXJQYWNrYWdlTmFtZShpdGVtKS5sb3dlcmNhc2UoKV0gPzogSW50Lk1BWF9WQUxVRQogICAgICAgIH0udGhlbkJ5IHsgaXRlbSAtPiBjb250YWluZXJQYWNrYWdlTmFtZShpdGVtKS5sb3dlcmNhc2UoKSB9CiAgICAgICAgICAgIC50aGVuQnkocmVnaXN0cmF0aW9uSWQpCiAgICApCn0K
+package com.bslsjdk.operit.plugins.toolpkg
+
+import com.bslsjdk.operit.core.application.OperitApplication
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.LocalizedText
+import com.bslsjdk.operit.core.tools.javascript.JsJavaBridgeDelegates
+import com.bslsjdk.operit.core.tools.javascript.extractJsExecutionErrorMessage
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.core.tools.packTool.ToolPkgContainerRuntime
+import org.json.JSONArray
+import org.json.JSONObject
+import org.json.JSONTokener
+
+internal data class ToolPkgAppLifecycleHookRegistration(
+    val containerPackageName: String,
+    val hookId: String,
+    val event: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgMessageProcessingHookRegistration(
+    val containerPackageName: String,
+    val pluginId: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgXmlRenderHookRegistration(
+    val containerPackageName: String,
+    val pluginId: String,
+    val tag: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgInputMenuToggleHookRegistration(
+    val containerPackageName: String,
+    val pluginId: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgChatInputHookRegistration(
+    val containerPackageName: String,
+    val hookId: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgChatViewHookRegistration(
+    val containerPackageName: String,
+    val hookId: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgChatMessageHookRegistration(
+    val containerPackageName: String,
+    val hookId: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgChatMessageMenuDialogRegistration(
+    val screenPath: String,
+    val title: LocalizedText
+)
+
+internal data class ToolPkgChatMessageMenuItemRegistration(
+    val containerPackageName: String,
+    val itemId: String,
+    val title: LocalizedText,
+    val icon: String? = null,
+    val order: Int = 0,
+    val senders: List<String> = emptyList(),
+    val functionName: String,
+    val functionSource: String? = null,
+    val dialog: ToolPkgChatMessageMenuDialogRegistration? = null
+)
+
+internal data class ToolPkgChatRuntimeHookRegistration(
+    val containerPackageName: String,
+    val hookId: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgToolLifecycleHookRegistration(
+    val containerPackageName: String,
+    val hookId: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgPromptHookRegistration(
+    val containerPackageName: String,
+    val hookId: String,
+    val functionName: String,
+    val functionSource: String? = null
+)
+
+internal data class ToolPkgAiProviderRegistration(
+    val containerPackageName: String,
+    val providerId: String,
+    val displayName: String,
+    val description: String,
+    val listModelsFunctionName: String,
+    val listModelsFunctionSource: String? = null,
+    val sendMessageFunctionName: String,
+    val sendMessageFunctionSource: String? = null,
+    val testConnectionFunctionName: String,
+    val testConnectionFunctionSource: String? = null,
+    val calculateInputTokensFunctionName: String,
+    val calculateInputTokensFunctionSource: String? = null
+) {
+    /** Historical counters use the full provider ID while new requests use the display name. */
+    val releasedTokenProviderAliases: Map<String, String>
+        get() {
+            val id = providerId.trim()
+            require(id.isNotEmpty()) { "ToolPkg AI provider id must not be blank" }
+            val display = displayName.trim()
+            require(display.isNotEmpty()) { "ToolPkg AI provider display name must not be blank" }
+            return mapOf(
+                id to display,
+                "TOOLPKG_$id" to display,
+                "TOOLPKG_${id.lowercase()}" to display,
+                display to display,
+            )
+        }
+}
+
+internal fun toolPkgPackageManager(): PackageManager {
+    val application = OperitApplication.instance.applicationContext
+    return PackageManager.getInstance(application, AIToolHandler.getInstance(application))
+}
+
+internal fun decodeToolPkgHookResult(raw: Any?): Any? {
+    val text = raw?.toString().orEmpty()
+    if (text.isEmpty()) {
+        return null
+    }
+    val normalized = text.trim()
+    if (normalized.isEmpty()) {
+        return text
+    }
+    val errorMessage = extractJsExecutionErrorMessage(normalized)
+    if (errorMessage != null) {
+        throw IllegalStateException(errorMessage)
+    }
+    return try {
+        JSONTokener(normalized).nextValue()
+    } catch (_: Exception) {
+        text
+    }
+}
+
+internal fun jsonObjectToMap(jsonObject: JSONObject): Map<String, Any?> {
+    return JsJavaBridgeDelegates.decodePlainJsonValue(jsonObject) as? Map<String, Any?> ?: emptyMap()
+}
+
+internal fun jsonArrayToList(jsonArray: JSONArray): List<Any?> {
+    return JsJavaBridgeDelegates.decodePlainJsonValue(jsonArray) as? List<Any?> ?: emptyList()
+}
+
+internal fun jsonValueToKotlin(value: Any?): Any? {
+    return JsJavaBridgeDelegates.decodePlainJsonValue(value)
+}
+
+internal fun <T> Iterable<T>.sortedByToolPkgLoadOrder(
+    activeContainers: List<ToolPkgContainerRuntime>,
+    containerPackageName: (T) -> String,
+    registrationId: (T) -> String
+): List<T> {
+    val loadOrder = activeContainers.mapIndexed { index, container ->
+        container.packageName.lowercase() to index
+    }.toMap()
+    return sortedWith(
+        compareBy<T> { item ->
+            loadOrder[containerPackageName(item).lowercase()] ?: Int.MAX_VALUE
+        }.thenBy { item -> containerPackageName(item).lowercase() }
+            .thenBy(registrationId)
+    )
+}

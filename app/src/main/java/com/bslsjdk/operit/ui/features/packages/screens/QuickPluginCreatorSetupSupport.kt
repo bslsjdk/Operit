@@ -1,1 +1,113 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm9zLkVudmlyb25tZW50CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuQUlUb29sSGFuZGxlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuU3RyaW5nUmVzdWx0RGF0YQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMucGFja1Rvb2wuUGFja2FnZU1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkFJVG9vbAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFBhcmFtZXRlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuVG9vbFJlc3VsdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCmltcG9ydCBqYXZhLmlvLkJ1ZmZlcmVkSW5wdXRTdHJlYW0KaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgamF2YS5pby5GaWxlT3V0cHV0U3RyZWFtCmltcG9ydCBqYXZhLm5ldC5IdHRwVVJMQ29ubmVjdGlvbgppbXBvcnQgamF2YS5uZXQuVVJMCgpwcml2YXRlIGNvbnN0IHZhbCBPUEVSSVRfRURJVE9SX1BBQ0tBR0VfTkFNRSA9ICJvcGVyaXRfZWRpdG9yIgpwcml2YXRlIGNvbnN0IHZhbCBTQU5EQk9YX1BBQ0tBR0VfREVWX0lOU1RBTExfU0NSSVBUX1VSTCA9CiAgICAiaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L2doL0FBc3dvcmRtYW4vT3Blcml0QG1haW4vdG9vbHMvc2FuZGJveHBhY2thZ2VfZGV2X2luc3RhbGxfb3JfdXBkYXRlLmpzIgpwcml2YXRlIGNvbnN0IHZhbCBTQU5EQk9YX1BBQ0tBR0VfREVWX1NDUklQVF9SRUxBVElWRV9QQVRIID0KICAgICJEb3dubG9hZC9PcGVyaXQvc2tpbGxzL1NhbmRib3hQYWNrYWdlX0RFVi9zY3JpcHRzL2luc3RhbGxfb3JfdXBkYXRlLmpzIgoKaW50ZXJuYWwgZnVuIHJ1blF1aWNrUGx1Z2luQ3JlYXRvclNldHVwKAogICAgY29udGV4dDogQ29udGV4dCwKICAgIHBhY2thZ2VNYW5hZ2VyOiBQYWNrYWdlTWFuYWdlciwKICAgIHRvb2xIYW5kbGVyOiBBSVRvb2xIYW5kbGVyCik6IFRvb2xSZXN1bHQgewogICAgcmV0dXJuIHRyeSB7CiAgICAgICAgdmFsIHNjcmlwdEZpbGUgPSBkb3dubG9hZFNhbmRib3hQYWNrYWdlRGV2SW5zdGFsbFNjcmlwdCgpCiAgICAgICAgdmFsIGVuYWJsZU1lc3NhZ2UgPSBwYWNrYWdlTWFuYWdlci5lbmFibGVQYWNrYWdlKE9QRVJJVF9FRElUT1JfUEFDS0FHRV9OQU1FKQogICAgICAgIGlmIChlbmFibGVNZXNzYWdlLnN0YXJ0c1dpdGgoIlBhY2thZ2Ugbm90IGZvdW5kIiwgaWdub3JlQ2FzZSA9IHRydWUpKSB7CiAgICAgICAgICAgIHJldHVybiBUb29sUmVzdWx0KAogICAgICAgICAgICAgICAgdG9vbE5hbWUgPSAiJE9QRVJJVF9FRElUT1JfUEFDS0FHRV9OQU1FOmRlYnVnX3J1bl9zYW5kYm94X3NjcmlwdCIsCiAgICAgICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKCIiKSwKICAgICAgICAgICAgICAgIGVycm9yID0gZW5hYmxlTWVzc2FnZQogICAgICAgICAgICApCiAgICAgICAgfQoKICAgICAgICB2YWwgcmVzdWx0ID0KICAgICAgICAgICAgdG9vbEhhbmRsZXIuZXhlY3V0ZVRvb2woCiAgICAgICAgICAgICAgICBBSVRvb2woCiAgICAgICAgICAgICAgICAgICAgbmFtZSA9ICIkT1BFUklUX0VESVRPUl9QQUNLQUdFX05BTUU6ZGVidWdfcnVuX3NhbmRib3hfc2NyaXB0IiwKICAgICAgICAgICAgICAgICAgICBwYXJhbWV0ZXJzID0KICAgICAgICAgICAgICAgICAgICAgICAgbGlzdE9mKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgVG9vbFBhcmFtZXRlcigKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lID0gInNvdXJjZV9wYXRoIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZSA9IHNjcmlwdEZpbGUuYWJzb2x1dGVQYXRoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgKQoKICAgICAgICBpZiAoIXJlc3VsdC5zdWNjZXNzKSB7CiAgICAgICAgICAgIFRvb2xSZXN1bHQoCiAgICAgICAgICAgICAgICB0b29sTmFtZSA9IHJlc3VsdC50b29sTmFtZSwKICAgICAgICAgICAgICAgIHN1Y2Nlc3MgPSBmYWxzZSwKICAgICAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICAgICAgZXJyb3IgPSByZXN1bHQuZXJyb3IgPzogY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcucXVpY2tfcGx1Z2luX2NyZWF0b3Jfc2V0dXBfZmFpbGVkKQogICAgICAgICAgICApCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgVG9vbFJlc3VsdCgKICAgICAgICAgICAgICAgIHRvb2xOYW1lID0gcmVzdWx0LnRvb2xOYW1lLAogICAgICAgICAgICAgICAgc3VjY2VzcyA9IHRydWUsCiAgICAgICAgICAgICAgICByZXN1bHQgPSBTdHJpbmdSZXN1bHREYXRhKGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnF1aWNrX3BsdWdpbl9jcmVhdG9yX3NldHVwX3N1Y2Nlc3MpKQogICAgICAgICAgICApCiAgICAgICAgfQogICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgQXBwTG9nZ2VyLmUoIlF1aWNrUGx1Z2luQ3JlYXRvclNldHVwIiwgIkZhaWxlZCB0byBydW4gcXVpY2sgcGx1Z2luIGNyZWF0b3Igc2V0dXAiLCBlKQogICAgICAgIFRvb2xSZXN1bHQoCiAgICAgICAgICAgIHRvb2xOYW1lID0gIiRPUEVSSVRfRURJVE9SX1BBQ0tBR0VfTkFNRTpkZWJ1Z19ydW5fc2FuZGJveF9zY3JpcHQiLAogICAgICAgICAgICBzdWNjZXNzID0gZmFsc2UsCiAgICAgICAgICAgIHJlc3VsdCA9IFN0cmluZ1Jlc3VsdERhdGEoIiIpLAogICAgICAgICAgICBlcnJvciA9IGUubWVzc2FnZSA/OiBlLmphdmFDbGFzcy5zaW1wbGVOYW1lCiAgICAgICAgKQogICAgfQp9Cgpwcml2YXRlIGZ1biBkb3dubG9hZFNhbmRib3hQYWNrYWdlRGV2SW5zdGFsbFNjcmlwdCgpOiBGaWxlIHsKICAgIHZhbCByb290RGlyID0gRW52aXJvbm1lbnQuZ2V0RXh0ZXJuYWxTdG9yYWdlRGlyZWN0b3J5KCkKICAgIHZhbCBzY3JpcHRGaWxlID0gRmlsZShyb290RGlyLCBTQU5EQk9YX1BBQ0tBR0VfREVWX1NDUklQVF9SRUxBVElWRV9QQVRIKQogICAgc2NyaXB0RmlsZS5wYXJlbnRGaWxlPy5ta2RpcnMoKQoKICAgIHZhbCBjb25uZWN0aW9uID0KICAgICAgICAoVVJMKFNBTkRCT1hfUEFDS0FHRV9ERVZfSU5TVEFMTF9TQ1JJUFRfVVJMKS5vcGVuQ29ubmVjdGlvbigpIGFzIEh0dHBVUkxDb25uZWN0aW9uKS5hcHBseSB7CiAgICAgICAgICAgIGNvbm5lY3RUaW1lb3V0ID0gMjBfMDAwCiAgICAgICAgICAgIHJlYWRUaW1lb3V0ID0gMzBfMDAwCiAgICAgICAgICAgIGRvSW5wdXQgPSB0cnVlCiAgICAgICAgICAgIHNldFJlcXVlc3RQcm9wZXJ0eSgiVXNlci1BZ2VudCIsICJPcGVyaXQtUXVpY2tQbHVnaW5DcmVhdG9yLzEuMCIpCiAgICAgICAgfQoKICAgIGNvbm5lY3Rpb24uY29ubmVjdCgpCiAgICBpZiAoY29ubmVjdGlvbi5yZXNwb25zZUNvZGUgIT0gSHR0cFVSTENvbm5lY3Rpb24uSFRUUF9PSykgewogICAgICAgIHRocm93IElsbGVnYWxTdGF0ZUV4Y2VwdGlvbigiSFRUUCAke2Nvbm5lY3Rpb24ucmVzcG9uc2VDb2RlfSIpCiAgICB9CgogICAgQnVmZmVyZWRJbnB1dFN0cmVhbShjb25uZWN0aW9uLmlucHV0U3RyZWFtKS51c2UgeyBpbnB1dCAtPgogICAgICAgIEZpbGVPdXRwdXRTdHJlYW0oc2NyaXB0RmlsZSkudXNlIHsgb3V0cHV0IC0+CiAgICAgICAgICAgIHZhbCBidWZmZXIgPSBCeXRlQXJyYXkoREVGQVVMVF9CVUZGRVJfU0laRSkKICAgICAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgICAgIHZhbCByZWFkID0gaW5wdXQucmVhZChidWZmZXIpCiAgICAgICAgICAgICAgICBpZiAocmVhZCA8PSAwKSBicmVhawogICAgICAgICAgICAgICAgb3V0cHV0LndyaXRlKGJ1ZmZlciwgMCwgcmVhZCkKICAgICAgICAgICAgfQogICAgICAgICAgICBvdXRwdXQuZmx1c2goKQogICAgICAgIH0KICAgIH0KICAgIGNvbm5lY3Rpb24uZGlzY29ubmVjdCgpCgogICAgcmV0dXJuIHNjcmlwdEZpbGUKfQo=
+package com.bslsjdk.operit.ui.features.packages.screens
+
+import android.content.Context
+import android.os.Environment
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.StringResultData
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.data.model.AITool
+import com.bslsjdk.operit.data.model.ToolParameter
+import com.bslsjdk.operit.data.model.ToolResult
+import com.bslsjdk.operit.util.AppLogger
+import java.io.BufferedInputStream
+import java.io.File
+import java.io.FileOutputStream
+import java.net.HttpURLConnection
+import java.net.URL
+
+private const val OPERIT_EDITOR_PACKAGE_NAME = "operit_editor"
+private const val SANDBOX_PACKAGE_DEV_INSTALL_SCRIPT_URL =
+    "https://cdn.jsdelivr.net/gh/AAswordman/Operit@main/tools/sandboxpackage_dev_install_or_update.js"
+private const val SANDBOX_PACKAGE_DEV_SCRIPT_RELATIVE_PATH =
+    "Download/Operit/skills/SandboxPackage_DEV/scripts/install_or_update.js"
+
+internal fun runQuickPluginCreatorSetup(
+    context: Context,
+    packageManager: PackageManager,
+    toolHandler: AIToolHandler
+): ToolResult {
+    return try {
+        val scriptFile = downloadSandboxPackageDevInstallScript()
+        val enableMessage = packageManager.enablePackage(OPERIT_EDITOR_PACKAGE_NAME)
+        if (enableMessage.startsWith("Package not found", ignoreCase = true)) {
+            return ToolResult(
+                toolName = "$OPERIT_EDITOR_PACKAGE_NAME:debug_run_sandbox_script",
+                success = false,
+                result = StringResultData(""),
+                error = enableMessage
+            )
+        }
+
+        val result =
+            toolHandler.executeTool(
+                AITool(
+                    name = "$OPERIT_EDITOR_PACKAGE_NAME:debug_run_sandbox_script",
+                    parameters =
+                        listOf(
+                            ToolParameter(
+                                name = "source_path",
+                                value = scriptFile.absolutePath
+                            )
+                        )
+                )
+            )
+
+        if (!result.success) {
+            ToolResult(
+                toolName = result.toolName,
+                success = false,
+                result = StringResultData(""),
+                error = result.error ?: context.getString(R.string.quick_plugin_creator_setup_failed)
+            )
+        } else {
+            ToolResult(
+                toolName = result.toolName,
+                success = true,
+                result = StringResultData(context.getString(R.string.quick_plugin_creator_setup_success))
+            )
+        }
+    } catch (e: Exception) {
+        AppLogger.e("QuickPluginCreatorSetup", "Failed to run quick plugin creator setup", e)
+        ToolResult(
+            toolName = "$OPERIT_EDITOR_PACKAGE_NAME:debug_run_sandbox_script",
+            success = false,
+            result = StringResultData(""),
+            error = e.message ?: e.javaClass.simpleName
+        )
+    }
+}
+
+private fun downloadSandboxPackageDevInstallScript(): File {
+    val rootDir = Environment.getExternalStorageDirectory()
+    val scriptFile = File(rootDir, SANDBOX_PACKAGE_DEV_SCRIPT_RELATIVE_PATH)
+    scriptFile.parentFile?.mkdirs()
+
+    val connection =
+        (URL(SANDBOX_PACKAGE_DEV_INSTALL_SCRIPT_URL).openConnection() as HttpURLConnection).apply {
+            connectTimeout = 20_000
+            readTimeout = 30_000
+            doInput = true
+            setRequestProperty("User-Agent", "Operit-QuickPluginCreator/1.0")
+        }
+
+    connection.connect()
+    if (connection.responseCode != HttpURLConnection.HTTP_OK) {
+        throw IllegalStateException("HTTP ${connection.responseCode}")
+    }
+
+    BufferedInputStream(connection.inputStream).use { input ->
+        FileOutputStream(scriptFile).use { output ->
+            val buffer = ByteArray(DEFAULT_BUFFER_SIZE)
+            while (true) {
+                val read = input.read(buffer)
+                if (read <= 0) break
+                output.write(buffer, 0, read)
+            }
+            output.flush()
+        }
+    }
+    connection.disconnect()
+
+    return scriptFile
+}

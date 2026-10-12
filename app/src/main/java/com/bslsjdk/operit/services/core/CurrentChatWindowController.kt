@@ -1,1 +1,101 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuY29yZQoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLm1vZGVsLkNoYXRNZXNzYWdlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5NdXRhYmxlU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5TdGF0ZUZsb3cKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5mbG93LmFzU3RhdGVGbG93CgppbnRlcm5hbCBkYXRhIGNsYXNzIEN1cnJlbnRDaGF0V2luZG93TG9hZFJlc3VsdCgKICAgIHZhbCBtZXNzYWdlczogTGlzdDxDaGF0TWVzc2FnZT4sCiAgICB2YWwgaGFzT2xkZXJQZXJzaXN0ZWRIaXN0b3J5OiBCb29sZWFuLAogICAgdmFsIGhhc05ld2VyUGVyc2lzdGVkSGlzdG9yeTogQm9vbGVhbiwKKQoKaW50ZXJuYWwgY2xhc3MgQ3VycmVudENoYXRXaW5kb3dDb250cm9sbGVyIHsKICAgIHByaXZhdGUgdmFyIGRpc3BsYXlTdGFydFRpbWVzdGFtcDogTG9uZz8gPSBudWxsCiAgICBwcml2YXRlIHZhciBkaXNwbGF5RW5kVGltZXN0YW1wOiBMb25nPyA9IG51bGwKCiAgICBwcml2YXRlIHZhciBoYXNPbGRlclBlcnNpc3RlZEhpc3RvcnkgPSBmYWxzZQogICAgcHJpdmF0ZSB2YXIgaGFzTmV3ZXJQZXJzaXN0ZWRIaXN0b3J5ID0gZmFsc2UKCiAgICBwcml2YXRlIHZhbCBfaGFzT2xkZXJEaXNwbGF5SGlzdG9yeSA9IE11dGFibGVTdGF0ZUZsb3coZmFsc2UpCiAgICB2YWwgaGFzT2xkZXJEaXNwbGF5SGlzdG9yeTogU3RhdGVGbG93PEJvb2xlYW4+ID0gX2hhc09sZGVyRGlzcGxheUhpc3RvcnkuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9oYXNOZXdlckRpc3BsYXlIaXN0b3J5ID0gTXV0YWJsZVN0YXRlRmxvdyhmYWxzZSkKICAgIHZhbCBoYXNOZXdlckRpc3BsYXlIaXN0b3J5OiBTdGF0ZUZsb3c8Qm9vbGVhbj4gPSBfaGFzTmV3ZXJEaXNwbGF5SGlzdG9yeS5hc1N0YXRlRmxvdygpCgogICAgcHJpdmF0ZSB2YWwgX2lzTG9hZGluZ0Rpc3BsYXlXaW5kb3cgPSBNdXRhYmxlU3RhdGVGbG93KGZhbHNlKQogICAgdmFsIGlzTG9hZGluZ0Rpc3BsYXlXaW5kb3c6IFN0YXRlRmxvdzxCb29sZWFuPiA9IF9pc0xvYWRpbmdEaXNwbGF5V2luZG93LmFzU3RhdGVGbG93KCkKCiAgICBmdW4gcmVzZXQoKSB7CiAgICAgICAgZGlzcGxheVN0YXJ0VGltZXN0YW1wID0gbnVsbAogICAgICAgIGRpc3BsYXlFbmRUaW1lc3RhbXAgPSBudWxsCiAgICAgICAgaGFzT2xkZXJQZXJzaXN0ZWRIaXN0b3J5ID0gZmFsc2UKICAgICAgICBoYXNOZXdlclBlcnNpc3RlZEhpc3RvcnkgPSBmYWxzZQogICAgICAgIF9oYXNPbGRlckRpc3BsYXlIaXN0b3J5LnZhbHVlID0gZmFsc2UKICAgICAgICBfaGFzTmV3ZXJEaXNwbGF5SGlzdG9yeS52YWx1ZSA9IGZhbHNlCiAgICAgICAgX2lzTG9hZGluZ0Rpc3BsYXlXaW5kb3cudmFsdWUgPSBmYWxzZQogICAgfQoKICAgIGZ1biBhcHBseUxvYWRSZXN1bHQoCiAgICAgICAgcmVzdWx0OiBDdXJyZW50Q2hhdFdpbmRvd0xvYWRSZXN1bHQsCiAgICAgICAgY2hhdEhpc3RvcnlGbG93OiBNdXRhYmxlU3RhdGVGbG93PExpc3Q8Q2hhdE1lc3NhZ2U+PiwKICAgICkgewogICAgICAgIGFwcGx5TWVzc2FnZXMoCiAgICAgICAgICAgIG1lc3NhZ2VzID0gcmVzdWx0Lm1lc3NhZ2VzLAogICAgICAgICAgICBjaGF0SGlzdG9yeUZsb3cgPSBjaGF0SGlzdG9yeUZsb3csCiAgICAgICAgICAgIGhhc09sZGVyUGVyc2lzdGVkSGlzdG9yeSA9IHJlc3VsdC5oYXNPbGRlclBlcnNpc3RlZEhpc3RvcnksCiAgICAgICAgICAgIGhhc05ld2VyUGVyc2lzdGVkSGlzdG9yeSA9IHJlc3VsdC5oYXNOZXdlclBlcnNpc3RlZEhpc3RvcnksCiAgICAgICAgKQogICAgICAgIF9pc0xvYWRpbmdEaXNwbGF5V2luZG93LnZhbHVlID0gZmFsc2UKICAgIH0KCiAgICBmdW4gYXBwbHlNZXNzYWdlcygKICAgICAgICBtZXNzYWdlczogTGlzdDxDaGF0TWVzc2FnZT4sCiAgICAgICAgY2hhdEhpc3RvcnlGbG93OiBNdXRhYmxlU3RhdGVGbG93PExpc3Q8Q2hhdE1lc3NhZ2U+PiwKICAgICAgICBoYXNPbGRlclBlcnNpc3RlZEhpc3Rvcnk6IEJvb2xlYW4/ID0gbnVsbCwKICAgICAgICBoYXNOZXdlclBlcnNpc3RlZEhpc3Rvcnk6IEJvb2xlYW4/ID0gbnVsbCwKICAgICkgewogICAgICAgIGNoYXRIaXN0b3J5Rmxvdy52YWx1ZSA9IG1lc3NhZ2VzCiAgICAgICAgZGlzcGxheVN0YXJ0VGltZXN0YW1wID0gbWVzc2FnZXMuZmlyc3RPck51bGwoKT8udGltZXN0YW1wCiAgICAgICAgZGlzcGxheUVuZFRpbWVzdGFtcCA9IG1lc3NhZ2VzLmxhc3RPck51bGwoKT8udGltZXN0YW1wCiAgICAgICAgaWYgKGhhc09sZGVyUGVyc2lzdGVkSGlzdG9yeSAhPSBudWxsKSB7CiAgICAgICAgICAgIHRoaXMuaGFzT2xkZXJQZXJzaXN0ZWRIaXN0b3J5ID0gaGFzT2xkZXJQZXJzaXN0ZWRIaXN0b3J5CiAgICAgICAgfQogICAgICAgIGlmIChoYXNOZXdlclBlcnNpc3RlZEhpc3RvcnkgIT0gbnVsbCkgewogICAgICAgICAgICB0aGlzLmhhc05ld2VyUGVyc2lzdGVkSGlzdG9yeSA9IGhhc05ld2VyUGVyc2lzdGVkSGlzdG9yeQogICAgICAgIH0KICAgICAgICBpZiAobWVzc2FnZXMuaXNFbXB0eSgpKSB7CiAgICAgICAgICAgIHRoaXMuaGFzT2xkZXJQZXJzaXN0ZWRIaXN0b3J5ID0gZmFsc2UKICAgICAgICAgICAgdGhpcy5oYXNOZXdlclBlcnNpc3RlZEhpc3RvcnkgPSBmYWxzZQogICAgICAgICAgICBfaGFzT2xkZXJEaXNwbGF5SGlzdG9yeS52YWx1ZSA9IGZhbHNlCiAgICAgICAgICAgIF9oYXNOZXdlckRpc3BsYXlIaXN0b3J5LnZhbHVlID0gZmFsc2UKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBfaGFzT2xkZXJEaXNwbGF5SGlzdG9yeS52YWx1ZSA9IHRoaXMuaGFzT2xkZXJQZXJzaXN0ZWRIaXN0b3J5CiAgICAgICAgX2hhc05ld2VyRGlzcGxheUhpc3RvcnkudmFsdWUgPSB0aGlzLmhhc05ld2VyUGVyc2lzdGVkSGlzdG9yeQogICAgfQoKICAgIGZ1biBjdXJyZW50RGlzcGxheVN0YXJ0VGltZXN0YW1wKCk6IExvbmc/ID0gZGlzcGxheVN0YXJ0VGltZXN0YW1wCgogICAgZnVuIGN1cnJlbnREaXNwbGF5RW5kVGltZXN0YW1wKCk6IExvbmc/ID0gZGlzcGxheUVuZFRpbWVzdGFtcAoKICAgIGZ1biBoYXNQZXJzaXN0ZWRPbGRlckhpc3RvcnlOb3coKTogQm9vbGVhbiA9IGhhc09sZGVyUGVyc2lzdGVkSGlzdG9yeQoKICAgIGZ1biBoYXNQZXJzaXN0ZWROZXdlckhpc3RvcnlOb3coKTogQm9vbGVhbiA9IGhhc05ld2VyUGVyc2lzdGVkSGlzdG9yeQoKICAgIGZ1biBoYXNOZXdlckRpc3BsYXlIaXN0b3J5Tm93KCk6IEJvb2xlYW4gPSBfaGFzTmV3ZXJEaXNwbGF5SGlzdG9yeS52YWx1ZQoKICAgIGZ1biBiZWdpbkxvYWRpbmdEaXNwbGF5V2luZG93KCk6IEJvb2xlYW4gewogICAgICAgIGlmIChfaXNMb2FkaW5nRGlzcGxheVdpbmRvdy52YWx1ZSkgewogICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICB9CiAgICAgICAgX2lzTG9hZGluZ0Rpc3BsYXlXaW5kb3cudmFsdWUgPSB0cnVlCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICBmdW4gZmluaXNoTG9hZGluZ0Rpc3BsYXlXaW5kb3dGYWlsdXJlKCkgewogICAgICAgIF9pc0xvYWRpbmdEaXNwbGF5V2luZG93LnZhbHVlID0gZmFsc2UKICAgIH0KfQo=
+package com.bslsjdk.operit.services.core
+
+import com.bslsjdk.operit.data.model.ChatMessage
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+
+internal data class CurrentChatWindowLoadResult(
+    val messages: List<ChatMessage>,
+    val hasOlderPersistedHistory: Boolean,
+    val hasNewerPersistedHistory: Boolean,
+)
+
+internal class CurrentChatWindowController {
+    private var displayStartTimestamp: Long? = null
+    private var displayEndTimestamp: Long? = null
+
+    private var hasOlderPersistedHistory = false
+    private var hasNewerPersistedHistory = false
+
+    private val _hasOlderDisplayHistory = MutableStateFlow(false)
+    val hasOlderDisplayHistory: StateFlow<Boolean> = _hasOlderDisplayHistory.asStateFlow()
+
+    private val _hasNewerDisplayHistory = MutableStateFlow(false)
+    val hasNewerDisplayHistory: StateFlow<Boolean> = _hasNewerDisplayHistory.asStateFlow()
+
+    private val _isLoadingDisplayWindow = MutableStateFlow(false)
+    val isLoadingDisplayWindow: StateFlow<Boolean> = _isLoadingDisplayWindow.asStateFlow()
+
+    fun reset() {
+        displayStartTimestamp = null
+        displayEndTimestamp = null
+        hasOlderPersistedHistory = false
+        hasNewerPersistedHistory = false
+        _hasOlderDisplayHistory.value = false
+        _hasNewerDisplayHistory.value = false
+        _isLoadingDisplayWindow.value = false
+    }
+
+    fun applyLoadResult(
+        result: CurrentChatWindowLoadResult,
+        chatHistoryFlow: MutableStateFlow<List<ChatMessage>>,
+    ) {
+        applyMessages(
+            messages = result.messages,
+            chatHistoryFlow = chatHistoryFlow,
+            hasOlderPersistedHistory = result.hasOlderPersistedHistory,
+            hasNewerPersistedHistory = result.hasNewerPersistedHistory,
+        )
+        _isLoadingDisplayWindow.value = false
+    }
+
+    fun applyMessages(
+        messages: List<ChatMessage>,
+        chatHistoryFlow: MutableStateFlow<List<ChatMessage>>,
+        hasOlderPersistedHistory: Boolean? = null,
+        hasNewerPersistedHistory: Boolean? = null,
+    ) {
+        chatHistoryFlow.value = messages
+        displayStartTimestamp = messages.firstOrNull()?.timestamp
+        displayEndTimestamp = messages.lastOrNull()?.timestamp
+        if (hasOlderPersistedHistory != null) {
+            this.hasOlderPersistedHistory = hasOlderPersistedHistory
+        }
+        if (hasNewerPersistedHistory != null) {
+            this.hasNewerPersistedHistory = hasNewerPersistedHistory
+        }
+        if (messages.isEmpty()) {
+            this.hasOlderPersistedHistory = false
+            this.hasNewerPersistedHistory = false
+            _hasOlderDisplayHistory.value = false
+            _hasNewerDisplayHistory.value = false
+            return
+        }
+
+        _hasOlderDisplayHistory.value = this.hasOlderPersistedHistory
+        _hasNewerDisplayHistory.value = this.hasNewerPersistedHistory
+    }
+
+    fun currentDisplayStartTimestamp(): Long? = displayStartTimestamp
+
+    fun currentDisplayEndTimestamp(): Long? = displayEndTimestamp
+
+    fun hasPersistedOlderHistoryNow(): Boolean = hasOlderPersistedHistory
+
+    fun hasPersistedNewerHistoryNow(): Boolean = hasNewerPersistedHistory
+
+    fun hasNewerDisplayHistoryNow(): Boolean = _hasNewerDisplayHistory.value
+
+    fun beginLoadingDisplayWindow(): Boolean {
+        if (_isLoadingDisplayWindow.value) {
+            return false
+        }
+        _isLoadingDisplayWindow.value = true
+        return true
+    }
+
+    fun finishLoadingDisplayWindowFailure() {
+        _isLoadingDisplayWindow.value = false
+    }
+}

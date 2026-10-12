@@ -1,1 +1,72 @@
-LyoKICogQ29weXJpZ2h0IDIwMjMgVGhlIEFuZHJvaWQgT3BlbiBTb3VyY2UgUHJvamVjdAogKgogKiBMaWNlbnNlZCB1bmRlciB0aGUgQXBhY2hlIExpY2Vuc2UsIFZlcnNpb24gMi4wICh0aGUgIkxpY2Vuc2UiKTsKICogeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgogKiBZb3UgbWF5IG9idGFpbiBhIGNvcHkgb2YgdGhlIExpY2Vuc2UgYXQKICoKICogICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjAKICoKICogVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQogKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiAiQVMgSVMiIEJBU0lTLAogKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC4KICogU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAogKiBsaW1pdGF0aW9ucyB1bmRlciB0aGUgTGljZW5zZS4KICovCgpwYWNrYWdlIGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5jaGF0LmNvbXBvbmVudHMubGF6eQoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5nZXN0dXJlcy5PcmllbnRhdGlvbgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LkxhenlMYXlvdXRTZW1hbnRpY1N0YXRlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLmxhenkuZXN0aW1hdGVkTGF6eU1heFNjcm9sbE9mZnNldAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLmNoYXQuY29tcG9uZW50cy5sYXp5LmVzdGltYXRlZExhenlTY3JvbGxPZmZzZXQKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5kZXJpdmVkU3RhdGVPZgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLmdldFZhbHVlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnNlbWFudGljcy5Db2xsZWN0aW9uSW5mbwoKaW50ZXJuYWwgZnVuIExhenlMYXlvdXRTZW1hbnRpY1N0YXRlKAogICAgc3RhdGU6IExhenlMaXN0U3RhdGUsCiAgICBpc1ZlcnRpY2FsOiBCb29sZWFuLAopOiBMYXp5TGF5b3V0U2VtYW50aWNTdGF0ZSA9CiAgICBvYmplY3QgOiBMYXp5TGF5b3V0U2VtYW50aWNTdGF0ZSB7CgogICAgICAgIC8vIFRoZSB0b3RhbCBudW1iZXIgb2YgaXRlbXMgaW4gdGhlIGxpc3QsIGRlcml2ZWQgZnJvbSBsYXlvdXQgaW5mby4KICAgICAgICBwcml2YXRlIHZhbCB0b3RhbEl0ZW1zQ291bnQgYnkgZGVyaXZlZFN0YXRlT2YgeyBzdGF0ZS5sYXlvdXRJbmZvLnRvdGFsSXRlbXNDb3VudCB9CgogICAgICAgIG92ZXJyaWRlIHZhbCBzY3JvbGxPZmZzZXQ6IEZsb2F0CiAgICAgICAgICAgIGdldCgpID0KICAgICAgICAgICAgICAgIGVzdGltYXRlZExhenlTY3JvbGxPZmZzZXQoCiAgICAgICAgICAgICAgICAgICAgc3RhdGUuZmlyc3RWaXNpYmxlSXRlbUluZGV4LAogICAgICAgICAgICAgICAgICAgIHN0YXRlLmZpcnN0VmlzaWJsZUl0ZW1TY3JvbGxPZmZzZXQsCiAgICAgICAgICAgICAgICApCgogICAgICAgIG92ZXJyaWRlIHZhbCBtYXhTY3JvbGxPZmZzZXQ6IEZsb2F0CiAgICAgICAgICAgIGdldCgpID0KICAgICAgICAgICAgICAgIGVzdGltYXRlZExhenlNYXhTY3JvbGxPZmZzZXQoCiAgICAgICAgICAgICAgICAgICAgc3RhdGUuZmlyc3RWaXNpYmxlSXRlbUluZGV4LAogICAgICAgICAgICAgICAgICAgIHN0YXRlLmZpcnN0VmlzaWJsZUl0ZW1TY3JvbGxPZmZzZXQsCiAgICAgICAgICAgICAgICAgICAgc3RhdGUuY2FuU2Nyb2xsRm9yd2FyZCwKICAgICAgICAgICAgICAgICkKCiAgICAgICAgb3ZlcnJpZGUgc3VzcGVuZCBmdW4gc2Nyb2xsVG9JdGVtKGluZGV4OiBJbnQpIHsKICAgICAgICAgICAgc3RhdGUuc2Nyb2xsVG9JdGVtKGluZGV4KQogICAgICAgIH0KCiAgICAgICAgb3ZlcnJpZGUgZnVuIGNvbGxlY3Rpb25JbmZvKCk6IENvbGxlY3Rpb25JbmZvID0KICAgICAgICAgICAgaWYgKGlzVmVydGljYWwpIHsKICAgICAgICAgICAgICAgIENvbGxlY3Rpb25JbmZvKHJvd0NvdW50ID0gdG90YWxJdGVtc0NvdW50LCBjb2x1bW5Db3VudCA9IDEpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBDb2xsZWN0aW9uSW5mbyhyb3dDb3VudCA9IDEsIGNvbHVtbkNvdW50ID0gdG90YWxJdGVtc0NvdW50KQogICAgICAgICAgICB9CgogICAgICAgIG92ZXJyaWRlIHZhbCB2aWV3cG9ydDogSW50CiAgICAgICAgICAgIGdldCgpID0KICAgICAgICAgICAgICAgIGlmIChzdGF0ZS5sYXlvdXRJbmZvLm9yaWVudGF0aW9uID09IE9yaWVudGF0aW9uLlZlcnRpY2FsKSB7CiAgICAgICAgICAgICAgICAgICAgc3RhdGUubGF5b3V0SW5mby52aWV3cG9ydFNpemUuaGVpZ2h0CiAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgIHN0YXRlLmxheW91dEluZm8udmlld3BvcnRTaXplLndpZHRoCiAgICAgICAgICAgICAgICB9CgogICAgICAgIG92ZXJyaWRlIHZhbCBjb250ZW50UGFkZGluZzogSW50CiAgICAgICAgICAgIGdldCgpID0gc3RhdGUubGF5b3V0SW5mby5iZWZvcmVDb250ZW50UGFkZGluZyArIHN0YXRlLmxheW91dEluZm8uYWZ0ZXJDb250ZW50UGFkZGluZwogICAgfQo=
+/*
+ * Copyright 2023 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.bslsjdk.operit.ui.features.chat.components.lazy
+
+import androidx.compose.foundation.gestures.Orientation
+import com.bslsjdk.operit.ui.features.chat.components.lazy.LazyLayoutSemanticState
+import com.bslsjdk.operit.ui.features.chat.components.lazy.estimatedLazyMaxScrollOffset
+import com.bslsjdk.operit.ui.features.chat.components.lazy.estimatedLazyScrollOffset
+import androidx.compose.runtime.derivedStateOf
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.semantics.CollectionInfo
+
+internal fun LazyLayoutSemanticState(
+    state: LazyListState,
+    isVertical: Boolean,
+): LazyLayoutSemanticState =
+    object : LazyLayoutSemanticState {
+
+        // The total number of items in the list, derived from layout info.
+        private val totalItemsCount by derivedStateOf { state.layoutInfo.totalItemsCount }
+
+        override val scrollOffset: Float
+            get() =
+                estimatedLazyScrollOffset(
+                    state.firstVisibleItemIndex,
+                    state.firstVisibleItemScrollOffset,
+                )
+
+        override val maxScrollOffset: Float
+            get() =
+                estimatedLazyMaxScrollOffset(
+                    state.firstVisibleItemIndex,
+                    state.firstVisibleItemScrollOffset,
+                    state.canScrollForward,
+                )
+
+        override suspend fun scrollToItem(index: Int) {
+            state.scrollToItem(index)
+        }
+
+        override fun collectionInfo(): CollectionInfo =
+            if (isVertical) {
+                CollectionInfo(rowCount = totalItemsCount, columnCount = 1)
+            } else {
+                CollectionInfo(rowCount = 1, columnCount = totalItemsCount)
+            }
+
+        override val viewport: Int
+            get() =
+                if (state.layoutInfo.orientation == Orientation.Vertical) {
+                    state.layoutInfo.viewportSize.height
+                } else {
+                    state.layoutInfo.viewportSize.width
+                }
+
+        override val contentPadding: Int
+            get() = state.layoutInfo.beforeContentPadding + state.layoutInfo.afterContentPadding
+    }

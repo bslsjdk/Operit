@@ -1,1 +1,35 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcudWkuYmFsbAoKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UucnVudGltZS5Db21wb3NhYmxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcuRmxvYXRDb250ZXh0CmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmxvYXRpbmcuRmxvYXRpbmdNb2RlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZGVsYXkKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCi8qKiAKICog5riy5p+T5oKs5rWu56qX55qE6IGK5aSp55CD5qih5byP55WM6Z2iIC0gU2lyaemjjuagvOWKqOaEn+eQg+S9kwogKiDpgLvovpHlt7Lmj5Dlj5bliLAgU2lyaUJhbGwua3QKICog54K55Ye75YiH5o2i5Yiw56qX5Y+j5qih5byPCiAqLwpAQ29tcG9zYWJsZQpmdW4gRmxvYXRpbmdDaGF0QmFsbE1vZGUoZmxvYXRDb250ZXh0OiBGbG9hdENvbnRleHQpIHsKICAgIFNpcmlCYWxsKAogICAgICAgIGZsb2F0Q29udGV4dCA9IGZsb2F0Q29udGV4dCwKICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICBmbG9hdENvbnRleHQub25Nb2RlQ2hhbmdlKEZsb2F0aW5nTW9kZS5XSU5ET1cpCiAgICAgICAgfSwKICAgICAgICBvblRyaWdnZXJSZXN1bHQgPSB7CiAgICAgICAgICAgIC8vIOWIh+aNouWIsOe7k+aenOWxleekuuaooeW8j+aYvuekuue7k+aenAogICAgICAgICAgICBmbG9hdENvbnRleHQub25Nb2RlQ2hhbmdlKEZsb2F0aW5nTW9kZS5SRVNVTFRfRElTUExBWSkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIDPnp5LlkI7oh6rliqjliIflm57nkIPmqKHlvI8KICAgICAgICAgICAgZmxvYXRDb250ZXh0LmNvcm91dGluZVNjb3BlLmxhdW5jaCB7CiAgICAgICAgICAgICAgICBkZWxheSgzMDAwKQogICAgICAgICAgICAgICAgLy8g5Y+q5pyJ5b2T5YmN6L+Y5piv57uT5p6c5bGV56S65qih5byP5pe25omN5YiH5Zue77yI6YG/5YWN55So5oi35bey57uP5YiH5o2i5Yiw5YW25LuW5qih5byP77yJCiAgICAgICAgICAgICAgICBpZiAoZmxvYXRDb250ZXh0LmN1cnJlbnRNb2RlID09IEZsb2F0aW5nTW9kZS5SRVNVTFRfRElTUExBWSkgewogICAgICAgICAgICAgICAgICAgIGZsb2F0Q29udGV4dC5vbk1vZGVDaGFuZ2UoRmxvYXRpbmdNb2RlLkJBTEwpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApCn0K
+package com.bslsjdk.operit.ui.floating.ui.ball
+
+import androidx.compose.runtime.Composable
+import com.bslsjdk.operit.ui.floating.FloatContext
+import com.bslsjdk.operit.ui.floating.FloatingMode
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+
+/** 
+ * 渲染悬浮窗的聊天球模式界面 - Siri风格动感球体
+ * 逻辑已提取到 SiriBall.kt
+ * 点击切换到窗口模式
+ */
+@Composable
+fun FloatingChatBallMode(floatContext: FloatContext) {
+    SiriBall(
+        floatContext = floatContext,
+        onClick = {
+            floatContext.onModeChange(FloatingMode.WINDOW)
+        },
+        onTriggerResult = {
+            // 切换到结果展示模式显示结果
+            floatContext.onModeChange(FloatingMode.RESULT_DISPLAY)
+            
+            // 3秒后自动切回球模式
+            floatContext.coroutineScope.launch {
+                delay(3000)
+                // 只有当前还是结果展示模式时才切回（避免用户已经切换到其他模式）
+                if (floatContext.currentMode == FloatingMode.RESULT_DISPLAY) {
+                    floatContext.onModeChange(FloatingMode.BALL)
+                }
+            }
+        }
+    )
+}

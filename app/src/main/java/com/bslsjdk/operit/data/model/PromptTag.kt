@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGFuZHJvaWR4LnJvb20uRW50aXR5CmltcG9ydCBhbmRyb2lkeC5yb29tLlByaW1hcnlLZXkKCi8qKgogKiDmj5DnpLror43moIfnrb7mlbDmja7mqKHlnosKICovCkBFbnRpdHkodGFibGVOYW1lID0gInByb21wdF90YWdzIikKZGF0YSBjbGFzcyBQcm9tcHRUYWcoCiAgICBAUHJpbWFyeUtleQogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgdmFsIGRlc2NyaXB0aW9uOiBTdHJpbmcgPSAiIiwKICAgIHZhbCBwcm9tcHRDb250ZW50OiBTdHJpbmcgPSAiIiwgLy8g5qCH562+55qE5o+Q56S66K+N5YaF5a65CiAgICB2YWwgdGFnVHlwZTogVGFnVHlwZSA9IFRhZ1R5cGUuQ1VTVE9NLCAvLyDmoIfnrb7nsbvlnosKICAgIHZhbCBjcmVhdGVkQXQ6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKSwKICAgIHZhbCB1cGRhdGVkQXQ6IExvbmcgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQopCgovKioKICog5qCH562+57G75Z6L5p6a5Li+CiAqLwplbnVtIGNsYXNzIFRhZ1R5cGUgewogICAgVE9ORSwgICAgICAgICAgICAgLy8g6K+t5rCU6aOO5qC85qCH562+CiAgICBDSEFSQUNURVIsICAgICAgICAvLyDop5LoibLorr7lrprmoIfnrb4KICAgIEZVTkNUSU9OLCAgICAgICAgIC8vIOWKn+iDveaAp+agh+etvgogICAgQ1VTVE9NICAgICAgICAgICAgLy8g6Ieq5a6a5LmJ5qCH562+Cn0K
+package com.bslsjdk.operit.data.model
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+/**
+ * 提示词标签数据模型
+ */
+@Entity(tableName = "prompt_tags")
+data class PromptTag(
+    @PrimaryKey
+    val id: String,
+    val name: String,
+    val description: String = "",
+    val promptContent: String = "", // 标签的提示词内容
+    val tagType: TagType = TagType.CUSTOM, // 标签类型
+    val createdAt: Long = System.currentTimeMillis(),
+    val updatedAt: Long = System.currentTimeMillis()
+)
+
+/**
+ * 标签类型枚举
+ */
+enum class TagType {
+    TONE,             // 语气风格标签
+    CHARACTER,        // 角色设定标签
+    FUNCTION,         // 功能性标签
+    CUSTOM            // 自定义标签
+}

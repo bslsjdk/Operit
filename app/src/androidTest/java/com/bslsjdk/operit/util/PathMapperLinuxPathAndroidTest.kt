@@ -1,1 +1,23 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWR4LnRlc3QuZXh0Lmp1bml0LnJ1bm5lcnMuQW5kcm9pZEpVbml0NAppbXBvcnQgYW5kcm9pZHgudGVzdC5wbGF0Zm9ybS5hcHAuSW5zdHJ1bWVudGF0aW9uUmVnaXN0cnkKaW1wb3J0IGphdmEuaW8uRmlsZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRFcXVhbHMKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CmltcG9ydCBvcmcuanVuaXQucnVubmVyLlJ1bldpdGgKCkBSdW5XaXRoKEFuZHJvaWRKVW5pdDQ6OmNsYXNzKQpjbGFzcyBQYXRoTWFwcGVyTGludXhQYXRoQW5kcm9pZFRlc3QgewoKICAgIHByaXZhdGUgdmFsIGNvbnRleHQgPSBJbnN0cnVtZW50YXRpb25SZWdpc3RyeS5nZXRJbnN0cnVtZW50YXRpb24oKS50YXJnZXRDb250ZXh0CiAgICBwcml2YXRlIHZhbCB1YnVudHVSb290ID0gRmlsZShjb250ZXh0LmZpbGVzRGlyLCAidXNyL3Zhci9saWIvcHJvb3QtZGlzdHJvL2luc3RhbGxlZC1yb290ZnMvdWJ1bnR1IikuYWJzb2x1dGVQYXRoCgogICAgQFRlc3QgZnVuIG1hcExpbnV4UGF0aF9iaW5QYXRoX21hcHNVbmRlclVidW50dVJvb3QoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCIkdWJ1bnR1Um9vdC9iaW4vYmFzaCIsIFBhdGhNYXBwZXIubWFwTGludXhQYXRoKGNvbnRleHQsICIvYmluL2Jhc2giKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gbWFwTGludXhQYXRoX3VzclBhdGhfbWFwc1VuZGVyVWJ1bnR1Um9vdCgpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoIiR1YnVudHVSb290L3Vzci9saWIiLCBQYXRoTWFwcGVyLm1hcExpbnV4UGF0aChjb250ZXh0LCAiL3Vzci9saWIiKSkKICAgIH0KfQo=
+package com.bslsjdk.operit.util
+
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import java.io.File
+import org.junit.Assert.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
+@RunWith(AndroidJUnit4::class)
+class PathMapperLinuxPathAndroidTest {
+
+    private val context = InstrumentationRegistry.getInstrumentation().targetContext
+    private val ubuntuRoot = File(context.filesDir, "usr/var/lib/proot-distro/installed-rootfs/ubuntu").absolutePath
+
+    @Test fun mapLinuxPath_binPath_mapsUnderUbuntuRoot() {
+        assertEquals("$ubuntuRoot/bin/bash", PathMapper.mapLinuxPath(context, "/bin/bash"))
+    }
+
+    @Test fun mapLinuxPath_usrPath_mapsUnderUbuntuRoot() {
+        assertEquals("$ubuntuRoot/usr/lib", PathMapper.mapLinuxPath(context, "/usr/lib"))
+    }
+}

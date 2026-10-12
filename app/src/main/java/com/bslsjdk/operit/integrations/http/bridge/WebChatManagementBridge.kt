@@ -1,1 +1,91 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLmh0dHAuYnJpZGdlCgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEubW9kZWwuQ2hhdEhpc3RvcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkFjdGl2ZVByb21wdE1hbmFnZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnJlcG9zaXRvcnkuQ2hhdEhpc3RvcnlNYW5hZ2VyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLmh0dHAuV2ViQ2hhdFN1bW1hcnkKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5pbnRlZ3JhdGlvbnMuaHR0cC5XZWJEZWxldGVHcm91cFJlcXVlc3QKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5pbnRlZ3JhdGlvbnMuaHR0cC5XZWJSZW5hbWVHcm91cFJlcXVlc3QKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5pbnRlZ3JhdGlvbnMuaHR0cC5XZWJVcGRhdGVDaGF0UmVxdWVzdAppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmludGVncmF0aW9ucy5odHRwLldlYkNoYXRSZW9yZGVySXRlbQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnNlcnZpY2VzLkNoYXRTZXJ2aWNlQ29yZQppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuZmlyc3QKCmludGVybmFsIGNsYXNzIFdlYkNoYXRNYW5hZ2VtZW50QnJpZGdlKAogICAgcHJpdmF0ZSB2YWwgY29yZTogQ2hhdFNlcnZpY2VDb3JlLAogICAgcHJpdmF0ZSB2YWwgY2hhdEhpc3RvcnlNYW5hZ2VyOiBDaGF0SGlzdG9yeU1hbmFnZXIsCiAgICBwcml2YXRlIHZhbCBhY3RpdmVQcm9tcHRNYW5hZ2VyOiBBY3RpdmVQcm9tcHRNYW5hZ2VyCikgewogICAgc3VzcGVuZCBmdW4gdXBkYXRlQ2hhdCgKICAgICAgICBjaGF0SWQ6IFN0cmluZywKICAgICAgICByZXF1ZXN0OiBXZWJVcGRhdGVDaGF0UmVxdWVzdCwKICAgICAgICBjdXJyZW50Q2hhdE1ldGE6IHN1c3BlbmQgKFN0cmluZykgLT4gQ2hhdEhpc3Rvcnk/LAogICAgICAgIGJ1aWxkQ2hhdFN1bW1hcnk6IHN1c3BlbmQgKENoYXRIaXN0b3J5KSAtPiBXZWJDaGF0U3VtbWFyeQogICAgKTogV2ViQ2hhdFN1bW1hcnk/IHsKICAgICAgICB2YWwgbm9ybWFsaXplZFRpdGxlID0gcmVxdWVzdC50aXRsZT8udHJpbSgpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgIHZhbCBub3JtYWxpemVkR3JvdXAgPSByZXF1ZXN0Lmdyb3VwPy50cmltKCk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgdmFsIG5vcm1hbGl6ZWRDaGFyYWN0ZXJDYXJkTmFtZSA9IHJlcXVlc3QuY2hhcmFjdGVyQ2FyZE5hbWU/LnRyaW0oKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICB2YWwgbm9ybWFsaXplZENoYXJhY3Rlckdyb3VwSWQgPSByZXF1ZXN0LmNoYXJhY3Rlckdyb3VwSWQ/LnRyaW0oKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KCiAgICAgICAgaWYgKG5vcm1hbGl6ZWRUaXRsZSAhPSBudWxsKSB7CiAgICAgICAgICAgIGNoYXRIaXN0b3J5TWFuYWdlci51cGRhdGVDaGF0VGl0bGUoY2hhdElkLCBub3JtYWxpemVkVGl0bGUpCiAgICAgICAgfQogICAgICAgIGlmIChyZXF1ZXN0LnVwZGF0ZUdyb3VwKSB7CiAgICAgICAgICAgIHZhbCBjdXJyZW50ID0gY3VycmVudENoYXRNZXRhKGNoYXRJZCkgPzogcmV0dXJuIG51bGwKICAgICAgICAgICAgY2hhdEhpc3RvcnlNYW5hZ2VyLnVwZGF0ZUNoYXRPcmRlckFuZEdyb3VwKAogICAgICAgICAgICAgICAgbGlzdE9mKGN1cnJlbnQuY29weShncm91cCA9IG5vcm1hbGl6ZWRHcm91cCkpCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgaWYgKHJlcXVlc3QudXBkYXRlTG9ja2VkICYmIHJlcXVlc3QubG9ja2VkICE9IG51bGwpIHsKICAgICAgICAgICAgY2hhdEhpc3RvcnlNYW5hZ2VyLnVwZGF0ZUNoYXRMb2NrZWQoY2hhdElkLCByZXF1ZXN0LmxvY2tlZCkKICAgICAgICB9CiAgICAgICAgaWYgKHJlcXVlc3QudXBkYXRlUGlubmVkICYmIHJlcXVlc3QucGlubmVkICE9IG51bGwpIHsKICAgICAgICAgICAgY2hhdEhpc3RvcnlNYW5hZ2VyLnVwZGF0ZUNoYXRQaW5uZWQoY2hhdElkLCByZXF1ZXN0LnBpbm5lZCkKICAgICAgICB9CiAgICAgICAgaWYgKHJlcXVlc3QudXBkYXRlQmluZGluZykgewogICAgICAgICAgICBjaGF0SGlzdG9yeU1hbmFnZXIudXBkYXRlQ2hhdENoYXJhY3RlckJpbmRpbmcoCiAgICAgICAgICAgICAgICBjaGF0SWQgPSBjaGF0SWQsCiAgICAgICAgICAgICAgICBjaGFyYWN0ZXJDYXJkTmFtZSA9IG5vcm1hbGl6ZWRDaGFyYWN0ZXJDYXJkTmFtZSwKICAgICAgICAgICAgICAgIGNoYXJhY3Rlckdyb3VwSWQgPSBub3JtYWxpemVkQ2hhcmFjdGVyR3JvdXBJZAogICAgICAgICAgICApCiAgICAgICAgICAgIGlmIChjb3JlLmN1cnJlbnRDaGF0SWQudmFsdWUgPT0gY2hhdElkKSB7CiAgICAgICAgICAgICAgICBhY3RpdmVQcm9tcHRNYW5hZ2VyLmFjdGl2YXRlRm9yQ2hhdEJpbmRpbmcoCiAgICAgICAgICAgICAgICAgICAgY2hhcmFjdGVyQ2FyZE5hbWUgPSBub3JtYWxpemVkQ2hhcmFjdGVyQ2FyZE5hbWUsCiAgICAgICAgICAgICAgICAgICAgY2hhcmFjdGVyR3JvdXBJZCA9IG5vcm1hbGl6ZWRDaGFyYWN0ZXJHcm91cElkCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIGN1cnJlbnRDaGF0TWV0YShjaGF0SWQpPy5sZXQgeyBidWlsZENoYXRTdW1tYXJ5KGl0KSB9CiAgICB9CgogICAgc3VzcGVuZCBmdW4gcmVvcmRlckNoYXRzKGl0ZW1zOiBMaXN0PFdlYkNoYXRSZW9yZGVySXRlbT4pOiBCb29sZWFuIHsKICAgICAgICB2YWwgaGlzdG9yaWVzQnlJZCA9IGNoYXRIaXN0b3J5TWFuYWdlci5jaGF0SGlzdG9yaWVzRmxvdy5maXJzdCgpLmFzc29jaWF0ZUJ5IHsgaXQuaWQgfQogICAgICAgIHZhbCByZW9yZGVyZWQgPSBpdGVtcy5tYXBOb3ROdWxsIHsgaXRlbSAtPgogICAgICAgICAgICBoaXN0b3JpZXNCeUlkW2l0ZW0uY2hhdElkXT8uY29weSgKICAgICAgICAgICAgICAgIGRpc3BsYXlPcmRlciA9IGl0ZW0uZGlzcGxheU9yZGVyLAogICAgICAgICAgICAgICAgZ3JvdXAgPSBpdGVtLmdyb3VwPy50cmltKCk/LnRha2VJZiB7IGl0LmlzTm90QmxhbmsoKSB9CiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgaWYgKHJlb3JkZXJlZC5zaXplICE9IGl0ZW1zLnNpemUpIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlCiAgICAgICAgfQogICAgICAgIGNoYXRIaXN0b3J5TWFuYWdlci51cGRhdGVDaGF0T3JkZXJBbmRHcm91cChyZW9yZGVyZWQpCiAgICAgICAgcmV0dXJuIHRydWUKICAgIH0KCiAgICBzdXNwZW5kIGZ1biByZW5hbWVHcm91cChyZXF1ZXN0OiBXZWJSZW5hbWVHcm91cFJlcXVlc3QpIHsKICAgICAgICBjaGF0SGlzdG9yeU1hbmFnZXIudXBkYXRlR3JvdXBOYW1lKAogICAgICAgICAgICBvbGROYW1lID0gcmVxdWVzdC5vbGROYW1lLnRyaW0oKSwKICAgICAgICAgICAgbmV3TmFtZSA9IHJlcXVlc3QubmV3TmFtZS50cmltKCksCiAgICAgICAgICAgIGNoYXJhY3RlckNhcmROYW1lID0gcmVxdWVzdC5jaGFyYWN0ZXJDYXJkTmFtZT8udHJpbSgpPy50YWtlSWYgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgICkKICAgIH0KCiAgICBzdXNwZW5kIGZ1biBkZWxldGVHcm91cChyZXF1ZXN0OiBXZWJEZWxldGVHcm91cFJlcXVlc3QpIHsKICAgICAgICBjaGF0SGlzdG9yeU1hbmFnZXIuZGVsZXRlR3JvdXAoCiAgICAgICAgICAgIGdyb3VwTmFtZSA9IHJlcXVlc3QuZ3JvdXBOYW1lLnRyaW0oKSwKICAgICAgICAgICAgZGVsZXRlQ2hhdHMgPSByZXF1ZXN0LmRlbGV0ZUNoYXRzLAogICAgICAgICAgICBjaGFyYWN0ZXJDYXJkTmFtZSA9IHJlcXVlc3QuY2hhcmFjdGVyQ2FyZE5hbWU/LnRyaW0oKT8udGFrZUlmIHsgaXQuaXNOb3RCbGFuaygpIH0KICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.integrations.http.bridge
+
+import com.bslsjdk.operit.data.model.ChatHistory
+import com.bslsjdk.operit.data.preferences.ActivePromptManager
+import com.bslsjdk.operit.data.repository.ChatHistoryManager
+import com.bslsjdk.operit.integrations.http.WebChatSummary
+import com.bslsjdk.operit.integrations.http.WebDeleteGroupRequest
+import com.bslsjdk.operit.integrations.http.WebRenameGroupRequest
+import com.bslsjdk.operit.integrations.http.WebUpdateChatRequest
+import com.bslsjdk.operit.integrations.http.WebChatReorderItem
+import com.bslsjdk.operit.services.ChatServiceCore
+import kotlinx.coroutines.flow.first
+
+internal class WebChatManagementBridge(
+    private val core: ChatServiceCore,
+    private val chatHistoryManager: ChatHistoryManager,
+    private val activePromptManager: ActivePromptManager
+) {
+    suspend fun updateChat(
+        chatId: String,
+        request: WebUpdateChatRequest,
+        currentChatMeta: suspend (String) -> ChatHistory?,
+        buildChatSummary: suspend (ChatHistory) -> WebChatSummary
+    ): WebChatSummary? {
+        val normalizedTitle = request.title?.trim()?.takeIf { it.isNotBlank() }
+        val normalizedGroup = request.group?.trim()?.takeIf { it.isNotBlank() }
+        val normalizedCharacterCardName = request.characterCardName?.trim()?.takeIf { it.isNotBlank() }
+        val normalizedCharacterGroupId = request.characterGroupId?.trim()?.takeIf { it.isNotBlank() }
+
+        if (normalizedTitle != null) {
+            chatHistoryManager.updateChatTitle(chatId, normalizedTitle)
+        }
+        if (request.updateGroup) {
+            val current = currentChatMeta(chatId) ?: return null
+            chatHistoryManager.updateChatOrderAndGroup(
+                listOf(current.copy(group = normalizedGroup))
+            )
+        }
+        if (request.updateLocked && request.locked != null) {
+            chatHistoryManager.updateChatLocked(chatId, request.locked)
+        }
+        if (request.updatePinned && request.pinned != null) {
+            chatHistoryManager.updateChatPinned(chatId, request.pinned)
+        }
+        if (request.updateBinding) {
+            chatHistoryManager.updateChatCharacterBinding(
+                chatId = chatId,
+                characterCardName = normalizedCharacterCardName,
+                characterGroupId = normalizedCharacterGroupId
+            )
+            if (core.currentChatId.value == chatId) {
+                activePromptManager.activateForChatBinding(
+                    characterCardName = normalizedCharacterCardName,
+                    characterGroupId = normalizedCharacterGroupId
+                )
+            }
+        }
+        return currentChatMeta(chatId)?.let { buildChatSummary(it) }
+    }
+
+    suspend fun reorderChats(items: List<WebChatReorderItem>): Boolean {
+        val historiesById = chatHistoryManager.chatHistoriesFlow.first().associateBy { it.id }
+        val reordered = items.mapNotNull { item ->
+            historiesById[item.chatId]?.copy(
+                displayOrder = item.displayOrder,
+                group = item.group?.trim()?.takeIf { it.isNotBlank() }
+            )
+        }
+        if (reordered.size != items.size) {
+            return false
+        }
+        chatHistoryManager.updateChatOrderAndGroup(reordered)
+        return true
+    }
+
+    suspend fun renameGroup(request: WebRenameGroupRequest) {
+        chatHistoryManager.updateGroupName(
+            oldName = request.oldName.trim(),
+            newName = request.newName.trim(),
+            characterCardName = request.characterCardName?.trim()?.takeIf { it.isNotBlank() }
+        )
+    }
+
+    suspend fun deleteGroup(request: WebDeleteGroupRequest) {
+        chatHistoryManager.deleteGroup(
+            groupName = request.groupName.trim(),
+            deleteChats = request.deleteChats,
+            characterCardName = request.characterCardName?.trim()?.takeIf { it.isNotBlank() }
+        )
+    }
+}

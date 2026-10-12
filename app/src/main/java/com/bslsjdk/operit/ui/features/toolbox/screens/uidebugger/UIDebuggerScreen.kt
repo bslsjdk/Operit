@@ -1,1 +1,103 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9vbGJveC5zY3JlZW5zLnVpZGVidWdnZXIKCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuSW50ZW50CmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQucHJvdmlkZXIuU2V0dGluZ3MKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UuZm91bmRhdGlvbi5sYXlvdXQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5JY29ucwppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbC5pY29ucy5maWxsZWQuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5tYXRlcmlhbDMuKgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS5ydW50aW1lLioKaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkuQWxpZ25tZW50CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLk1vZGlmaWVyCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnJlcy5zdHJpbmdSZXNvdXJjZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5jb21wb25lbnRzLkN1c3RvbVNjYWZmb2xkCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnBsYXRmb3JtLkxvY2FsQ29udGV4dAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFdlaWdodAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LnN0eWxlLlRleHRBbGlnbgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LmRwCmltcG9ydCBhbmRyb2lkeC5uYXZpZ2F0aW9uLk5hdkNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5zZXJ2aWNlcy5VSURlYnVnZ2VyU2VydmljZQppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdtb2RlbC5jb21wb3NlLnZpZXdNb2RlbAoKQENvbXBvc2FibGUKZnVuIFVJRGVidWdnZXJTY3JlZW4oCiAgICBuYXZDb250cm9sbGVyOiBOYXZDb250cm9sbGVyLAogICAgdmlld01vZGVsOiBVSURlYnVnZ2VyVmlld01vZGVsID0gVUlEZWJ1Z2dlclZpZXdNb2RlbC5nZXRJbnN0YW5jZSgpCikgewogICAgdmFsIGNvbnRleHQgPSBMb2NhbENvbnRleHQuY3VycmVudAogICAgdmFsIHVpU3RhdGUgYnkgdmlld01vZGVsLnVpU3RhdGUuY29sbGVjdEFzU3RhdGUoKQoKCgoKCiAgICBMYXVuY2hlZEVmZmVjdChVbml0KSB7CiAgICAgICAgdmlld01vZGVsLmluaXRpYWxpemUoY29udGV4dCkKICAgIH0KCiAgICBDdXN0b21TY2FmZm9sZCgKICAgICAgICBmbG9hdGluZ0FjdGlvbkJ1dHRvbiA9IHsKICAgICAgICAgICAgRmxvYXRpbmdBY3Rpb25CdXR0b24oCiAgICAgICAgICAgICAgICBvbkNsaWNrID0gewogICAgICAgICAgICAgICAgICAgIGlmIChTZXR0aW5ncy5jYW5EcmF3T3ZlcmxheXMoY29udGV4dCkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGludGVudCA9IEludGVudChjb250ZXh0LCBVSURlYnVnZ2VyU2VydmljZTo6Y2xhc3MuamF2YSkKICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5zdGFydFNlcnZpY2UoaW50ZW50KQogICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBpbnRlbnQgPSBJbnRlbnQoU2V0dGluZ3MuQUNUSU9OX01BTkFHRV9PVkVSTEFZX1BFUk1JU1NJT04pLmFwcGx5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRhdGEgPSBVcmkucGFyc2UoInBhY2thZ2U6JHtjb250ZXh0LnBhY2thZ2VOYW1lfSIpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgY29udGV4dC5zdGFydEFjdGl2aXR5KGludGVudCkKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgSWNvbigKICAgICAgICAgICAgICAgICAgICBJY29ucy5EZWZhdWx0Lk9wZW5Jbk5ldywKICAgICAgICAgICAgICAgICAgICBjb250ZW50RGVzY3JpcHRpb24gPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy51aV9kZWJ1Z2dlcl9sYXVuY2hfZmxvYXRpbmcpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICApIHsgcGFkZGluZyAtPgogICAgICAgIENvbHVtbigKICAgICAgICAgICAgbW9kaWZpZXIgPSBNb2RpZmllcgogICAgICAgICAgICAgICAgLnBhZGRpbmcocGFkZGluZykKICAgICAgICAgICAgICAgIC5maWxsTWF4U2l6ZSgpCiAgICAgICAgICAgICAgICAucGFkZGluZygxNi5kcCksCiAgICAgICAgICAgIGhvcml6b250YWxBbGlnbm1lbnQgPSBBbGlnbm1lbnQuQ2VudGVySG9yaXpvbnRhbGx5LAogICAgICAgICAgICB2ZXJ0aWNhbEFycmFuZ2VtZW50ID0gQXJyYW5nZW1lbnQuQ2VudGVyCiAgICAgICAgKSB7CiAgICAgICAgICAgIEljb24oCiAgICAgICAgICAgICAgICBJY29ucy5EZWZhdWx0Lk9wZW5Jbk5ldywKICAgICAgICAgICAgICAgIGNvbnRlbnREZXNjcmlwdGlvbiA9IG51bGwsCiAgICAgICAgICAgICAgICBtb2RpZmllciA9IE1vZGlmaWVyLnNpemUoNjQuZHApLAogICAgICAgICAgICAgICAgdGludCA9IE1hdGVyaWFsVGhlbWUuY29sb3JTY2hlbWUucHJpbWFyeQogICAgICAgICAgICApCiAgICAgICAgICAgIAogICAgICAgICAgICBTcGFjZXIobW9kaWZpZXIgPSBNb2RpZmllci5oZWlnaHQoMTYuZHApKQoKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy51aV9kZWJ1Z2dlcl90aXRsZSksCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5oZWFkbGluZU1lZGl1bSwKICAgICAgICAgICAgICAgIGZvbnRXZWlnaHQgPSBGb250V2VpZ2h0LkJvbGQKICAgICAgICAgICAgKQogICAgICAgICAgICAKICAgICAgICAgICAgU3BhY2VyKG1vZGlmaWVyID0gTW9kaWZpZXIuaGVpZ2h0KDguZHApKQogICAgICAgICAgICAKICAgICAgICAgICAgVGV4dCgKICAgICAgICAgICAgICAgIHRleHQgPSBzdHJpbmdSZXNvdXJjZShSLnN0cmluZy51aV9kZWJ1Z2dlcl9kZXNjcmlwdGlvbiksCiAgICAgICAgICAgICAgICBzdHlsZSA9IE1hdGVyaWFsVGhlbWUudHlwb2dyYXBoeS5ib2R5TWVkaXVtLAogICAgICAgICAgICAgICAgY29sb3IgPSBNYXRlcmlhbFRoZW1lLmNvbG9yU2NoZW1lLm9uU3VyZmFjZVZhcmlhbnQsCiAgICAgICAgICAgICAgICB0ZXh0QWxpZ24gPSBUZXh0QWxpZ24uQ2VudGVyCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0KCgoKCgoKCiA=
+package com.bslsjdk.operit.ui.features.toolbox.screens.uidebugger
+
+import android.content.Intent
+import android.net.Uri
+import android.provider.Settings
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.stringResource
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.ui.components.CustomScaffold
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.navigation.NavController
+import com.bslsjdk.operit.services.UIDebuggerService
+import androidx.lifecycle.viewmodel.compose.viewModel
+
+@Composable
+fun UIDebuggerScreen(
+    navController: NavController,
+    viewModel: UIDebuggerViewModel = UIDebuggerViewModel.getInstance()
+) {
+    val context = LocalContext.current
+    val uiState by viewModel.uiState.collectAsState()
+
+
+
+
+
+    LaunchedEffect(Unit) {
+        viewModel.initialize(context)
+    }
+
+    CustomScaffold(
+        floatingActionButton = {
+            FloatingActionButton(
+                onClick = {
+                    if (Settings.canDrawOverlays(context)) {
+                        val intent = Intent(context, UIDebuggerService::class.java)
+                        context.startService(intent)
+                    } else {
+                        val intent = Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION).apply {
+                            data = Uri.parse("package:${context.packageName}")
+                        }
+                        context.startActivity(intent)
+                    }
+                }
+            ) {
+                Icon(
+                    Icons.Default.OpenInNew,
+                    contentDescription = stringResource(R.string.ui_debugger_launch_floating)
+                )
+            }
+        }
+    ) { padding ->
+        Column(
+            modifier = Modifier
+                .padding(padding)
+                .fillMaxSize()
+                .padding(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally,
+            verticalArrangement = Arrangement.Center
+        ) {
+            Icon(
+                Icons.Default.OpenInNew,
+                contentDescription = null,
+                modifier = Modifier.size(64.dp),
+                tint = MaterialTheme.colorScheme.primary
+            )
+            
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Text(
+                text = stringResource(R.string.ui_debugger_title),
+                style = MaterialTheme.typography.headlineMedium,
+                fontWeight = FontWeight.Bold
+            )
+            
+            Spacer(modifier = Modifier.height(8.dp))
+            
+            Text(
+                text = stringResource(R.string.ui_debugger_description),
+                style = MaterialTheme.typography.bodyMedium,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center
+            )
+        }
+    }
+}
+
+
+
+
+
+
+
+ 

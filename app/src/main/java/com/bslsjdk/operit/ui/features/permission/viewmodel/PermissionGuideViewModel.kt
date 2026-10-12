@@ -1,1 +1,166 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGVybWlzc2lvbi52aWV3bW9kZWwKCmltcG9ydCBhbmRyb2lkLk1hbmlmZXN0CmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LnBtLlBhY2thZ2VNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm5ldC5VcmkKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQub3MuRW52aXJvbm1lbnQKaW1wb3J0IGFuZHJvaWQucHJvdmlkZXIuU2V0dGluZ3MKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQgYW5kcm9pZHguY29yZS5jb250ZW50LkNvbnRleHRDb21wYXQKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWwKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS52aWV3TW9kZWxTY29wZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmNvcmUudG9vbHMuc3lzdGVtLkFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLnN5c3RlbS5BbmRyb2lkU2hlbGxFeGVjdXRvcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuYW5kcm9pZFBlcm1pc3Npb25QcmVmZXJlbmNlcwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cudXBkYXRlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMubGF1bmNoCgpjbGFzcyBQZXJtaXNzaW9uR3VpZGVWaWV3TW9kZWwgOiBWaWV3TW9kZWwoKSB7CiAgICAKICAgIHByaXZhdGUgdmFsIFRBRyA9ICJQZXJtaXNzaW9uR3VpZGVWTSIKICAgIAogICAgLy8gVUnnirbmgIEKICAgIHByaXZhdGUgdmFsIF91aVN0YXRlID0gTXV0YWJsZVN0YXRlRmxvdyhVaVN0YXRlKCkpCiAgICB2YWwgdWlTdGF0ZTogU3RhdGVGbG93PFVpU3RhdGU+ID0gX3VpU3RhdGUuYXNTdGF0ZUZsb3coKQogICAgCiAgICAvLyDmraXpqqTmnprkuL4KICAgIGVudW0gY2xhc3MgU3RlcCB7CiAgICAgICAgV0VMQ09NRSwKICAgICAgICBCQVNJQ19QRVJNSVNTSU9OUywKICAgICAgICBQRVJNSVNTSU9OX0xFVkVMCiAgICB9CiAgICAKICAgIC8vIOWIneWni+WMlgogICAgaW5pdCB7CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiVmlld01vZGVsIGluaXRpYWxpemVkIikKICAgIH0KICAgIAogICAgLy8g5qOA5p+l5omA5pyJ5p2D6ZmQCiAgICBmdW4gY2hlY2tQZXJtaXNzaW9ucyhjb250ZXh0OiBDb250ZXh0KSB7CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQ2hlY2tpbmcgcGVybWlzc2lvbnMiKQogICAgICAgIAogICAgICAgIC8vIOWtmOWCqOadg+mZkAogICAgICAgIHZhbCBoYXNTdG9yYWdlUGVybWlzc2lvbiA9IGlmIChCdWlsZC5WRVJTSU9OLlNES19JTlQgPj0gQnVpbGQuVkVSU0lPTl9DT0RFUy5SKSB7CiAgICAgICAgICAgIEVudmlyb25tZW50LmlzRXh0ZXJuYWxTdG9yYWdlTWFuYWdlcigpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgQ29udGV4dENvbXBhdC5jaGVja1NlbGZQZXJtaXNzaW9uKAogICAgICAgICAgICAgICAgY29udGV4dCwKICAgICAgICAgICAgICAgIE1hbmlmZXN0LnBlcm1pc3Npb24uV1JJVEVfRVhURVJOQUxfU1RPUkFHRQogICAgICAgICAgICApID09IFBhY2thZ2VNYW5hZ2VyLlBFUk1JU1NJT05fR1JBTlRFRAogICAgICAgIH0KICAgICAgICAKICAgICAgICAvLyDmgqzmta7nqpfmnYPpmZAKICAgICAgICB2YWwgaGFzT3ZlcmxheVBlcm1pc3Npb24gPSBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTSkgewogICAgICAgICAgICBTZXR0aW5ncy5jYW5EcmF3T3ZlcmxheXMoY29udGV4dCkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0cnVlIC8vIOS9juS6jkFuZHJvaWQgNi4w5LiN6ZyA6KaB54m55Yir55Sz6K+3CiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOeUteaxoOS8mOWMluixgeWFjQogICAgICAgIHZhbCBoYXNCYXR0ZXJ5T3B0aW1pemF0aW9uRXhlbXB0aW9uID0gaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk0pIHsKICAgICAgICAgICAgdmFsIHBvd2VyTWFuYWdlciA9IGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LlBPV0VSX1NFUlZJQ0UpIGFzIGFuZHJvaWQub3MuUG93ZXJNYW5hZ2VyCiAgICAgICAgICAgIHBvd2VyTWFuYWdlci5pc0lnbm9yaW5nQmF0dGVyeU9wdGltaXphdGlvbnMoY29udGV4dC5wYWNrYWdlTmFtZSkKICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0cnVlIC8vIOS9juS6jkFuZHJvaWQgNi4w5LiN6ZyA6KaB54m55Yir55Sz6K+3CiAgICAgICAgfQogICAgICAgIAogICAgICAgIC8vIOS9jee9ruadg+mZkAogICAgICAgIHZhbCBoYXNMb2NhdGlvblBlcm1pc3Npb24gPSBDb250ZXh0Q29tcGF0LmNoZWNrU2VsZlBlcm1pc3Npb24oCiAgICAgICAgICAgIGNvbnRleHQsCiAgICAgICAgICAgIE1hbmlmZXN0LnBlcm1pc3Npb24uQUNDRVNTX0ZJTkVfTE9DQVRJT04KICAgICAgICApID09IFBhY2thZ2VNYW5hZ2VyLlBFUk1JU1NJT05fR1JBTlRFRCB8fCAKICAgICAgICAgICAgICAgIENvbnRleHRDb21wYXQuY2hlY2tTZWxmUGVybWlzc2lvbigKICAgICAgICAgICAgICAgICAgICBjb250ZXh0LAogICAgICAgICAgICAgICAgICAgIE1hbmlmZXN0LnBlcm1pc3Npb24uQUNDRVNTX0NPQVJTRV9MT0NBVElPTgogICAgICAgICAgICAgICAgKSA9PSBQYWNrYWdlTWFuYWdlci5QRVJNSVNTSU9OX0dSQU5URUQKICAgICAgICAKICAgICAgICAvLyDmm7TmlrBVSeeKtuaAgQogICAgICAgIF91aVN0YXRlLnVwZGF0ZSB7IGN1cnJlbnRTdGF0ZSAtPgogICAgICAgICAgICBjdXJyZW50U3RhdGUuY29weSgKICAgICAgICAgICAgICAgIGhhc1N0b3JhZ2VQZXJtaXNzaW9uID0gaGFzU3RvcmFnZVBlcm1pc3Npb24sCiAgICAgICAgICAgICAgICBoYXNPdmVybGF5UGVybWlzc2lvbiA9IGhhc092ZXJsYXlQZXJtaXNzaW9uLAogICAgICAgICAgICAgICAgaGFzQmF0dGVyeU9wdGltaXphdGlvbkV4ZW1wdGlvbiA9IGhhc0JhdHRlcnlPcHRpbWl6YXRpb25FeGVtcHRpb24sCiAgICAgICAgICAgICAgICBoYXNMb2NhdGlvblBlcm1pc3Npb24gPSBoYXNMb2NhdGlvblBlcm1pc3Npb24sCiAgICAgICAgICAgICAgICBhbGxCYXNpY1Blcm1pc3Npb25zR3JhbnRlZCA9IGhhc1N0b3JhZ2VQZXJtaXNzaW9uICYmIAogICAgICAgICAgICAgICAgICAgICAgICBoYXNPdmVybGF5UGVybWlzc2lvbiAmJiAKICAgICAgICAgICAgICAgICAgICAgICAgaGFzQmF0dGVyeU9wdGltaXphdGlvbkV4ZW1wdGlvbiAmJiAKICAgICAgICAgICAgICAgICAgICAgICAgaGFzTG9jYXRpb25QZXJtaXNzaW9uCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgCiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiUGVybWlzc2lvbnMgY2hlY2tlZDogU3RvcmFnZT0kaGFzU3RvcmFnZVBlcm1pc3Npb24sICIgKwogICAgICAgICAgICAgICAgIk92ZXJsYXk9JGhhc092ZXJsYXlQZXJtaXNzaW9uLCAiICsKICAgICAgICAgICAgICAgICJCYXR0ZXJ5PSRoYXNCYXR0ZXJ5T3B0aW1pemF0aW9uRXhlbXB0aW9uLCAiICsKICAgICAgICAgICAgICAgICJMb2NhdGlvbj0kaGFzTG9jYXRpb25QZXJtaXNzaW9uIikKICAgIH0KICAgIAogICAgLy8g5pu05paw5b2T5YmN5q2l6aqkCiAgICBmdW4gc2V0Q3VycmVudFN0ZXAoc3RlcDogU3RlcCkgewogICAgICAgIF91aVN0YXRlLnVwZGF0ZSB7IGl0LmNvcHkoY3VycmVudFN0ZXAgPSBzdGVwKSB9CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiQ3VycmVudCBzdGVwIHNldCB0bzogJHN0ZXAiKQogICAgfQogICAgCiAgICAvLyDpgInmi6nmnYPpmZDnuqfliKsKICAgIGZ1biBzZWxlY3RQZXJtaXNzaW9uTGV2ZWwobGV2ZWw6IEFuZHJvaWRQZXJtaXNzaW9uTGV2ZWwpIHsKICAgICAgICBfdWlTdGF0ZS51cGRhdGUgeyBpdC5jb3B5KHNlbGVjdGVkUGVybWlzc2lvbkxldmVsID0gbGV2ZWwpIH0KICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJTZWxlY3RlZCBwZXJtaXNzaW9uIGxldmVsOiAkbGV2ZWwiKQogICAgfQogICAgCiAgICAvLyDkv53lrZjmnYPpmZDnuqfliKsKICAgIGZ1biBzYXZlUGVybWlzc2lvbkxldmVsKCkgewogICAgICAgIHZhbCBsZXZlbCA9IF91aVN0YXRlLnZhbHVlLnNlbGVjdGVkUGVybWlzc2lvbkxldmVsCiAgICAgICAgaWYgKGxldmVsICE9IG51bGwpIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiU2F2aW5nIHBlcm1pc3Npb24gbGV2ZWw6ICRsZXZlbCIpCiAgICAgICAgICAgIAogICAgICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICAgICAgLy8g5L+d5a2Y5Yiw5YGP5aW96K6+572uCiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGFuZHJvaWRQZXJtaXNzaW9uUHJlZmVyZW5jZXMuc2F2ZVByZWZlcnJlZFBlcm1pc3Npb25MZXZlbChsZXZlbCkKICAgICAgICAgICAgICAgICAgICBBbmRyb2lkU2hlbGxFeGVjdXRvci5jbGVhclByZWZlcnJlZFBlcm1pc3Npb25MZXZlbENhY2hlKCkKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJQcmVmZXJyZWQgcGVybWlzc2lvbiBsZXZlbCBzd2l0Y2hlZCB0bzogJGxldmVsIikKCiAgICAgICAgICAgICAgICAgICAgLy8g5pu05paw5a6M5oiQ54q25oCBCiAgICAgICAgICAgICAgICAgICAgX3VpU3RhdGUudXBkYXRlIHsgaXQuY29weShpc0NvbXBsZXRlZCA9IHRydWUpIH0KICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBBcHBMb2dnZXIuZChUQUcsICJQZXJtaXNzaW9uIGxldmVsIHNhdmVkLCBndWlkZSBjb21wbGV0ZWQiKQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRXJyb3Igc2F2aW5nIHBlcm1pc3Npb24gbGV2ZWwiLCBlKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLncoVEFHLCAiQ2Fubm90IHNhdmUgbnVsbCBwZXJtaXNzaW9uIGxldmVsIikKICAgICAgICB9CiAgICB9CiAgICAKICAgIC8vIOabtOaWsOS9jee9ruadg+mZkOeKtuaAgQogICAgZnVuIHVwZGF0ZUxvY2F0aW9uUGVybWlzc2lvbihncmFudGVkOiBCb29sZWFuKSB7CiAgICAgICAgX3VpU3RhdGUudXBkYXRlIHsgY3VycmVudFN0YXRlIC0+CiAgICAgICAgICAgIHZhbCBuZXdTdGF0ZSA9IGN1cnJlbnRTdGF0ZS5jb3B5KGhhc0xvY2F0aW9uUGVybWlzc2lvbiA9IGdyYW50ZWQpCiAgICAgICAgICAgIC8vIOWQjOaXtuabtOaWsGFsbEJhc2ljUGVybWlzc2lvbnNHcmFudGVk54q25oCBCiAgICAgICAgICAgIG5ld1N0YXRlLmNvcHkoCiAgICAgICAgICAgICAgICBhbGxCYXNpY1Blcm1pc3Npb25zR3JhbnRlZCA9IG5ld1N0YXRlLmhhc1N0b3JhZ2VQZXJtaXNzaW9uICYmIAogICAgICAgICAgICAgICAgICAgICAgICBuZXdTdGF0ZS5oYXNPdmVybGF5UGVybWlzc2lvbiAmJiAKICAgICAgICAgICAgICAgICAgICAgICAgbmV3U3RhdGUuaGFzQmF0dGVyeU9wdGltaXphdGlvbkV4ZW1wdGlvbiAmJiAKICAgICAgICAgICAgICAgICAgICAgICAgbmV3U3RhdGUuaGFzTG9jYXRpb25QZXJtaXNzaW9uCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCAiTG9jYXRpb24gcGVybWlzc2lvbiB1cGRhdGVkOiAkZ3JhbnRlZCIpCiAgICB9CiAgICAKICAgIC8vIFVJ54q25oCB5pWw5o2u57G7CiAgICBkYXRhIGNsYXNzIFVpU3RhdGUoCiAgICAgICAgdmFsIGN1cnJlbnRTdGVwOiBTdGVwID0gU3RlcC5XRUxDT01FLAogICAgICAgIHZhbCBoYXNTdG9yYWdlUGVybWlzc2lvbjogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHZhbCBoYXNPdmVybGF5UGVybWlzc2lvbjogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHZhbCBoYXNCYXR0ZXJ5T3B0aW1pemF0aW9uRXhlbXB0aW9uOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmFsIGhhc0xvY2F0aW9uUGVybWlzc2lvbjogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHZhbCBhbGxCYXNpY1Blcm1pc3Npb25zR3JhbnRlZDogQm9vbGVhbiA9IGZhbHNlLAogICAgICAgIHZhbCBzZWxlY3RlZFBlcm1pc3Npb25MZXZlbDogQW5kcm9pZFBlcm1pc3Npb25MZXZlbD8gPSBudWxsLAogICAgICAgIHZhbCBpc0NvbXBsZXRlZDogQm9vbGVhbiA9IGZhbHNlCiAgICApCn0K
+package com.bslsjdk.operit.ui.features.permission.viewmodel
+
+import android.Manifest
+import android.content.Context
+import android.content.pm.PackageManager
+import android.net.Uri
+import android.os.Build
+import android.os.Environment
+import android.provider.Settings
+import com.bslsjdk.operit.util.AppLogger
+import androidx.core.content.ContextCompat
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.core.tools.system.AndroidPermissionLevel
+import com.bslsjdk.operit.core.tools.system.AndroidShellExecutor
+import com.bslsjdk.operit.data.preferences.androidPermissionPreferences
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+
+class PermissionGuideViewModel : ViewModel() {
+    
+    private val TAG = "PermissionGuideVM"
+    
+    // UI状态
+    private val _uiState = MutableStateFlow(UiState())
+    val uiState: StateFlow<UiState> = _uiState.asStateFlow()
+    
+    // 步骤枚举
+    enum class Step {
+        WELCOME,
+        BASIC_PERMISSIONS,
+        PERMISSION_LEVEL
+    }
+    
+    // 初始化
+    init {
+        AppLogger.d(TAG, "ViewModel initialized")
+    }
+    
+    // 检查所有权限
+    fun checkPermissions(context: Context) {
+        AppLogger.d(TAG, "Checking permissions")
+        
+        // 存储权限
+        val hasStoragePermission = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R) {
+            Environment.isExternalStorageManager()
+        } else {
+            ContextCompat.checkSelfPermission(
+                context,
+                Manifest.permission.WRITE_EXTERNAL_STORAGE
+            ) == PackageManager.PERMISSION_GRANTED
+        }
+        
+        // 悬浮窗权限
+        val hasOverlayPermission = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            Settings.canDrawOverlays(context)
+        } else {
+            true // 低于Android 6.0不需要特别申请
+        }
+        
+        // 电池优化豁免
+        val hasBatteryOptimizationExemption = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            val powerManager = context.getSystemService(Context.POWER_SERVICE) as android.os.PowerManager
+            powerManager.isIgnoringBatteryOptimizations(context.packageName)
+        } else {
+            true // 低于Android 6.0不需要特别申请
+        }
+        
+        // 位置权限
+        val hasLocationPermission = ContextCompat.checkSelfPermission(
+            context,
+            Manifest.permission.ACCESS_FINE_LOCATION
+        ) == PackageManager.PERMISSION_GRANTED || 
+                ContextCompat.checkSelfPermission(
+                    context,
+                    Manifest.permission.ACCESS_COARSE_LOCATION
+                ) == PackageManager.PERMISSION_GRANTED
+        
+        // 更新UI状态
+        _uiState.update { currentState ->
+            currentState.copy(
+                hasStoragePermission = hasStoragePermission,
+                hasOverlayPermission = hasOverlayPermission,
+                hasBatteryOptimizationExemption = hasBatteryOptimizationExemption,
+                hasLocationPermission = hasLocationPermission,
+                allBasicPermissionsGranted = hasStoragePermission && 
+                        hasOverlayPermission && 
+                        hasBatteryOptimizationExemption && 
+                        hasLocationPermission
+            )
+        }
+        
+        AppLogger.d(TAG, "Permissions checked: Storage=$hasStoragePermission, " +
+                "Overlay=$hasOverlayPermission, " +
+                "Battery=$hasBatteryOptimizationExemption, " +
+                "Location=$hasLocationPermission")
+    }
+    
+    // 更新当前步骤
+    fun setCurrentStep(step: Step) {
+        _uiState.update { it.copy(currentStep = step) }
+        AppLogger.d(TAG, "Current step set to: $step")
+    }
+    
+    // 选择权限级别
+    fun selectPermissionLevel(level: AndroidPermissionLevel) {
+        _uiState.update { it.copy(selectedPermissionLevel = level) }
+        AppLogger.d(TAG, "Selected permission level: $level")
+    }
+    
+    // 保存权限级别
+    fun savePermissionLevel() {
+        val level = _uiState.value.selectedPermissionLevel
+        if (level != null) {
+            AppLogger.d(TAG, "Saving permission level: $level")
+            
+            viewModelScope.launch {
+                // 保存到偏好设置
+                try {
+                    androidPermissionPreferences.savePreferredPermissionLevel(level)
+                    AndroidShellExecutor.clearPreferredPermissionLevelCache()
+                    AppLogger.d(TAG, "Preferred permission level switched to: $level")
+
+                    // 更新完成状态
+                    _uiState.update { it.copy(isCompleted = true) }
+                    
+                    AppLogger.d(TAG, "Permission level saved, guide completed")
+                } catch (e: Exception) {
+                    AppLogger.e(TAG, "Error saving permission level", e)
+                }
+            }
+        } else {
+            AppLogger.w(TAG, "Cannot save null permission level")
+        }
+    }
+    
+    // 更新位置权限状态
+    fun updateLocationPermission(granted: Boolean) {
+        _uiState.update { currentState ->
+            val newState = currentState.copy(hasLocationPermission = granted)
+            // 同时更新allBasicPermissionsGranted状态
+            newState.copy(
+                allBasicPermissionsGranted = newState.hasStoragePermission && 
+                        newState.hasOverlayPermission && 
+                        newState.hasBatteryOptimizationExemption && 
+                        newState.hasLocationPermission
+            )
+        }
+        AppLogger.d(TAG, "Location permission updated: $granted")
+    }
+    
+    // UI状态数据类
+    data class UiState(
+        val currentStep: Step = Step.WELCOME,
+        val hasStoragePermission: Boolean = false,
+        val hasOverlayPermission: Boolean = false,
+        val hasBatteryOptimizationExemption: Boolean = false,
+        val hasLocationPermission: Boolean = false,
+        val allBasicPermissionsGranted: Boolean = false,
+        val selectedPermissionLevel: AndroidPermissionLevel? = null,
+        val isCompleted: Boolean = false
+    )
+}

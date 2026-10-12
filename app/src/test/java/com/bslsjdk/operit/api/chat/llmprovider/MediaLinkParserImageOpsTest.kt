@@ -1,1 +1,29 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRGYWxzZQppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgTWVkaWFMaW5rUGFyc2VySW1hZ2VPcHNUZXN0IHsKCiAgICBAVGVzdCBmdW4gcmVwbGFjZUltYWdlTGlua3Nfa2VlcHNOb25MaW5rVGV4dE9yZGVyKCkgewogICAgICAgIHZhbCBpbnB1dCA9ICJBPGxpbmsgdHlwZT1cImltYWdlXCIgaWQ9XCJpMVwiPkk8L2xpbms+QiIKICAgICAgICBhc3NlcnRFcXVhbHMoIkFbaTFdQiIsIE1lZGlhTGlua1BhcnNlci5yZXBsYWNlSW1hZ2VMaW5rcyhpbnB1dCkgeyBpZCAtPiAiWyRpZF0iIH0pCiAgICB9CgogICAgQFRlc3QgZnVuIHJlbW92ZUltYWdlTGlua3Nfd2l0aE5vSW1hZ2VSZXR1cm5zT3JpZ2luYWxUZXh0KCkgewogICAgICAgIGFzc2VydEVxdWFscygicGxhaW4iLCBNZWRpYUxpbmtQYXJzZXIucmVtb3ZlSW1hZ2VMaW5rcygicGxhaW4iKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gaGFzSW1hZ2VMaW5rc19pZ25vcmVzQXVkaW9MaW5rcygpIHsKICAgICAgICBhc3NlcnRGYWxzZShNZWRpYUxpbmtQYXJzZXIuaGFzSW1hZ2VMaW5rcygiPGxpbmsgdHlwZT1cImF1ZGlvXCIgaWQ9XCJhMVwiPkE8L2xpbms+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIGV4dHJhY3RJbWFnZUxpbmtJZHNfcmV0dXJuc09yZGVyZWRJZHMoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICBsaXN0T2YoImkxIiwgImkyIiksCiAgICAgICAgICAgIE1lZGlhTGlua1BhcnNlci5leHRyYWN0SW1hZ2VMaW5rSWRzKCI8bGluayB0eXBlPVwiaW1hZ2VcIiBpZD1cImkxXCI+STwvbGluaz48bGluayB0eXBlPVwiaW1hZ2VcIiBpZD1cImkyXCI+STwvbGluaz4iKQogICAgICAgICkKICAgIH0KfQo=
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertFalse
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class MediaLinkParserImageOpsTest {
+
+    @Test fun replaceImageLinks_keepsNonLinkTextOrder() {
+        val input = "A<link type=\"image\" id=\"i1\">I</link>B"
+        assertEquals("A[i1]B", MediaLinkParser.replaceImageLinks(input) { id -> "[$id]" })
+    }
+
+    @Test fun removeImageLinks_withNoImageReturnsOriginalText() {
+        assertEquals("plain", MediaLinkParser.removeImageLinks("plain"))
+    }
+
+    @Test fun hasImageLinks_ignoresAudioLinks() {
+        assertFalse(MediaLinkParser.hasImageLinks("<link type=\"audio\" id=\"a1\">A</link>"))
+    }
+
+    @Test fun extractImageLinkIds_returnsOrderedIds() {
+        assertEquals(
+            listOf("i1", "i2"),
+            MediaLinkParser.extractImageLinkIds("<link type=\"image\" id=\"i1\">I</link><link type=\"image\" id=\"i2\">I</link>")
+        )
+    }
+}

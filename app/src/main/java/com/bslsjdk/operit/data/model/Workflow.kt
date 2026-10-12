@@ -1,1 +1,189 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5tb2RlbAoKaW1wb3J0IGtvdGxpbnguc2VyaWFsaXphdGlvbi5TZXJpYWxpemFibGUKaW1wb3J0IGphdmEudXRpbC5VVUlECgovKioKICog5bel5L2c5rWB5qih5Z6LCiAqIOS7o+ihqOS4gOS4quWujOaVtOeahOiHquWKqOWMluW3peS9nOa1geeoiwogKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFdvcmtmbG93KAogICAgdmFsIGlkOiBTdHJpbmcsCiAgICB2YXIgbmFtZTogU3RyaW5nID0gIiIsCiAgICB2YXIgZGVzY3JpcHRpb246IFN0cmluZyA9ICIiLAogICAgdmFyIG5vZGVzOiBMaXN0PFdvcmtmbG93Tm9kZT4gPSBlbXB0eUxpc3QoKSwKICAgIHZhciBjb25uZWN0aW9uczogTGlzdDxXb3JrZmxvd05vZGVDb25uZWN0aW9uPiA9IGVtcHR5TGlzdCgpLAogICAgdmFsIGNyZWF0ZWRBdDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgdmFyIHVwZGF0ZWRBdDogTG9uZyA9IFN5c3RlbS5jdXJyZW50VGltZU1pbGxpcygpLAogICAgdmFyIGVuYWJsZWQ6IEJvb2xlYW4gPSB0cnVlLAogICAgLy8g5omn6KGM57uf6K6h5L+h5oGvCiAgICB2YXIgbGFzdEV4ZWN1dGlvblRpbWU6IExvbmc/ID0gbnVsbCwgIC8vIOS4iuasoeaJp+ihjOaXtumXtAogICAgdmFyIGxhc3RFeGVjdXRpb25TdGF0dXM6IEV4ZWN1dGlvblN0YXR1cz8gPSBudWxsLCAgLy8g5LiK5qyh5omn6KGM54q25oCBCiAgICB2YXIgdG90YWxFeGVjdXRpb25zOiBJbnQgPSAwLCAgLy8g5oC75omn6KGM5qyh5pWwCiAgICB2YXIgc3VjY2Vzc2Z1bEV4ZWN1dGlvbnM6IEludCA9IDAsICAvLyDmiJDlip/miafooYzmrKHmlbAKICAgIHZhciBmYWlsZWRFeGVjdXRpb25zOiBJbnQgPSAwICAvLyDlpLHotKXmiafooYzmrKHmlbAKKQoKLyoqCiAqIOaJp+ihjOeKtuaAgeaemuS4vgogKi8KQFNlcmlhbGl6YWJsZQplbnVtIGNsYXNzIEV4ZWN1dGlvblN0YXR1cyB7CiAgICBTVUNDRVNTLCAgLy8g5oiQ5YqfCiAgICBGQUlMRUQsICAgLy8g5aSx6LSlCiAgICBSVU5OSU5HICAgLy8g6L+Q6KGM5LitCn0KCi8qKgogKiDlt6XkvZzmtYHoioLngrnln7rnsbsKICovCkBTZXJpYWxpemFibGUKc2VhbGVkIGNsYXNzIFdvcmtmbG93Tm9kZSB7CiAgICBhYnN0cmFjdCB2YWwgaWQ6IFN0cmluZwogICAgYWJzdHJhY3QgdmFsIHR5cGU6IFN0cmluZwogICAgYWJzdHJhY3QgdmFyIG5hbWU6IFN0cmluZwogICAgYWJzdHJhY3QgdmFyIGRlc2NyaXB0aW9uOiBTdHJpbmcKICAgIGFic3RyYWN0IHZhciBwb3NpdGlvbjogTm9kZVBvc2l0aW9uCn0KCi8qKgogKiDop6blj5HoioLngrkKICog5a6a5LmJ5bel5L2c5rWB55qE6Kem5Y+R5p2h5Lu277yI5pqC5pe25Li65Y2g5L2N56ym77yJCiAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgVHJpZ2dlck5vZGUoCiAgICBvdmVycmlkZSB2YWwgaWQ6IFN0cmluZyA9IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCksCiAgICBvdmVycmlkZSB2YWwgdHlwZTogU3RyaW5nID0gInRyaWdnZXIiLAogICAgb3ZlcnJpZGUgdmFyIG5hbWU6IFN0cmluZyA9ICIiLAogICAgb3ZlcnJpZGUgdmFyIGRlc2NyaXB0aW9uOiBTdHJpbmcgPSAiIiwKICAgIG92ZXJyaWRlIHZhciBwb3NpdGlvbjogTm9kZVBvc2l0aW9uID0gTm9kZVBvc2l0aW9uKDBmLCAwZiksCiAgICB2YXIgdHJpZ2dlclR5cGU6IFN0cmluZyA9ICJtYW51YWwiLCAvLyBtYW51YWwsIHNjaGVkdWxlLCB0YXNrZXIsIGludGVudCwgc3BlZWNoLCBhcHBfb3Blbihjb2xkIHN0YXJ0KQogICAgdmFyIHRyaWdnZXJDb25maWc6IE1hcDxTdHJpbmcsIFN0cmluZz4gPSBlbXB0eU1hcCgpIC8vIOinpuWPkeWZqOmFjee9ruWPguaVsAopIDogV29ya2Zsb3dOb2RlKCkKCi8qKgogKiDmiafooYzoioLngrkKICog5a6a5LmJ5bel5L2c5rWB55qE5omn6KGM5Yqo5L2cCiAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgRXhlY3V0ZU5vZGUoCiAgICBvdmVycmlkZSB2YWwgaWQ6IFN0cmluZyA9IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCksCiAgICBvdmVycmlkZSB2YWwgdHlwZTogU3RyaW5nID0gImV4ZWN1dGUiLAogICAgb3ZlcnJpZGUgdmFyIG5hbWU6IFN0cmluZyA9ICIiLAogICAgb3ZlcnJpZGUgdmFyIGRlc2NyaXB0aW9uOiBTdHJpbmcgPSAiIiwKICAgIG92ZXJyaWRlIHZhciBwb3NpdGlvbjogTm9kZVBvc2l0aW9uID0gTm9kZVBvc2l0aW9uKDBmLCAwZiksCiAgICB2YXIgYWN0aW9uVHlwZTogU3RyaW5nID0gIiIsIC8vIOW3peWFt+WQjeensO+8jOWmgiAiaHR0cF9yZXF1ZXN0IiwgImxpc3RfZmlsZXMiLCAiY2xpY2tfZWxlbWVudCIKICAgIHZhciBhY3Rpb25Db25maWc6IE1hcDxTdHJpbmcsIFBhcmFtZXRlclZhbHVlPiA9IGVtcHR5TWFwKCksIC8vIOW3peWFt+WPguaVsO+8muaUr+aMgemdmeaAgeWAvOaIluiKgueCueW8leeUqAogICAgdmFyIGpzQ29kZTogU3RyaW5nPyA9IG51bGwgLy8g5Y+v6YCJ77ya55u05o6l5omn6KGMIEphdmFTY3JpcHQg5Luj56CBCikgOiBXb3JrZmxvd05vZGUoKQoKQFNlcmlhbGl6YWJsZQplbnVtIGNsYXNzIENvbmRpdGlvbk9wZXJhdG9yIHsKICAgIEVRLAogICAgTkUsCiAgICBHVCwKICAgIEdURSwKICAgIExULAogICAgTFRFLAogICAgQ09OVEFJTlMsCiAgICBOT1RfQ09OVEFJTlMsCiAgICBJTiwKICAgIE5PVF9JTgp9CgpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgQ29uZGl0aW9uTm9kZSgKICAgIG92ZXJyaWRlIHZhbCBpZDogU3RyaW5nID0gVVVJRC5yYW5kb21VVUlEKCkudG9TdHJpbmcoKSwKICAgIG92ZXJyaWRlIHZhbCB0eXBlOiBTdHJpbmcgPSAiY29uZGl0aW9uIiwKICAgIG92ZXJyaWRlIHZhciBuYW1lOiBTdHJpbmcgPSAiIiwKICAgIG92ZXJyaWRlIHZhciBkZXNjcmlwdGlvbjogU3RyaW5nID0gIiIsCiAgICBvdmVycmlkZSB2YXIgcG9zaXRpb246IE5vZGVQb3NpdGlvbiA9IE5vZGVQb3NpdGlvbigwZiwgMGYpLAogICAgdmFyIGxlZnQ6IFBhcmFtZXRlclZhbHVlID0gUGFyYW1ldGVyVmFsdWUuU3RhdGljVmFsdWUoIiIpLAogICAgdmFyIG9wZXJhdG9yOiBDb25kaXRpb25PcGVyYXRvciA9IENvbmRpdGlvbk9wZXJhdG9yLkVRLAogICAgdmFyIHJpZ2h0OiBQYXJhbWV0ZXJWYWx1ZSA9IFBhcmFtZXRlclZhbHVlLlN0YXRpY1ZhbHVlKCIiKQopIDogV29ya2Zsb3dOb2RlKCkKCkBTZXJpYWxpemFibGUKZW51bSBjbGFzcyBMb2dpY09wZXJhdG9yIHsKICAgIEFORCwKICAgIE9SCn0KCkBTZXJpYWxpemFibGUKZGF0YSBjbGFzcyBMb2dpY05vZGUoCiAgICBvdmVycmlkZSB2YWwgaWQ6IFN0cmluZyA9IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCksCiAgICBvdmVycmlkZSB2YWwgdHlwZTogU3RyaW5nID0gImxvZ2ljIiwKICAgIG92ZXJyaWRlIHZhciBuYW1lOiBTdHJpbmcgPSAiIiwKICAgIG92ZXJyaWRlIHZhciBkZXNjcmlwdGlvbjogU3RyaW5nID0gIiIsCiAgICBvdmVycmlkZSB2YXIgcG9zaXRpb246IE5vZGVQb3NpdGlvbiA9IE5vZGVQb3NpdGlvbigwZiwgMGYpLAogICAgdmFyIG9wZXJhdG9yOiBMb2dpY09wZXJhdG9yID0gTG9naWNPcGVyYXRvci5BTkQKKSA6IFdvcmtmbG93Tm9kZSgpCgpAU2VyaWFsaXphYmxlCmVudW0gY2xhc3MgRXh0cmFjdE1vZGUgewogICAgUkVHRVgsCiAgICBKU09OLAogICAgU1VCLAogICAgQ09OQ0FULAogICAgUkFORE9NX0lOVCwKICAgIFJBTkRPTV9TVFJJTkcKfQoKQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIEV4dHJhY3ROb2RlKAogICAgb3ZlcnJpZGUgdmFsIGlkOiBTdHJpbmcgPSBVVUlELnJhbmRvbVVVSUQoKS50b1N0cmluZygpLAogICAgb3ZlcnJpZGUgdmFsIHR5cGU6IFN0cmluZyA9ICJleHRyYWN0IiwKICAgIG92ZXJyaWRlIHZhciBuYW1lOiBTdHJpbmcgPSAiIiwKICAgIG92ZXJyaWRlIHZhciBkZXNjcmlwdGlvbjogU3RyaW5nID0gIiIsCiAgICBvdmVycmlkZSB2YXIgcG9zaXRpb246IE5vZGVQb3NpdGlvbiA9IE5vZGVQb3NpdGlvbigwZiwgMGYpLAogICAgdmFyIHNvdXJjZTogUGFyYW1ldGVyVmFsdWUgPSBQYXJhbWV0ZXJWYWx1ZS5TdGF0aWNWYWx1ZSgiIiksCiAgICB2YXIgbW9kZTogRXh0cmFjdE1vZGUgPSBFeHRyYWN0TW9kZS5SRUdFWCwKICAgIHZhciBleHByZXNzaW9uOiBTdHJpbmcgPSAiIiwKICAgIHZhciBncm91cDogSW50ID0gMCwKICAgIHZhciBkZWZhdWx0VmFsdWU6IFN0cmluZyA9ICIiLAogICAgdmFyIG90aGVyczogTGlzdDxQYXJhbWV0ZXJWYWx1ZT4gPSBlbXB0eUxpc3QoKSwKICAgIHZhciBzdGFydEluZGV4OiBJbnQgPSAwLAogICAgdmFyIGxlbmd0aDogSW50ID0gLTEsCiAgICB2YXIgcmFuZG9tTWluOiBJbnQgPSAwLAogICAgdmFyIHJhbmRvbU1heDogSW50ID0gMTAwLAogICAgdmFyIHJhbmRvbVN0cmluZ0xlbmd0aDogSW50ID0gOCwKICAgIHZhciByYW5kb21TdHJpbmdDaGFyc2V0OiBTdHJpbmcgPSAiYWJjZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXpBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWjAxMjM0NTY3ODkiLAogICAgdmFyIHVzZUZpeGVkOiBCb29sZWFuID0gZmFsc2UsCiAgICB2YXIgZml4ZWRWYWx1ZTogU3RyaW5nID0gIiIKKSA6IFdvcmtmbG93Tm9kZSgpCgovKioKICog5Y+C5pWw5YC857G75Z6LCiAqIOaUr+aMgemdmeaAgeWAvOaIluW8leeUqOWFtuS7luiKgueCueeahOi+k+WHugogKi8KQFNlcmlhbGl6YWJsZQpzZWFsZWQgY2xhc3MgUGFyYW1ldGVyVmFsdWUgewogICAgQFNlcmlhbGl6YWJsZQogICAgZGF0YSBjbGFzcyBTdGF0aWNWYWx1ZSh2YWwgdmFsdWU6IFN0cmluZykgOiBQYXJhbWV0ZXJWYWx1ZSgpCiAgICAKICAgIEBTZXJpYWxpemFibGUKICAgIGRhdGEgY2xhc3MgTm9kZVJlZmVyZW5jZSh2YWwgbm9kZUlkOiBTdHJpbmcpIDogUGFyYW1ldGVyVmFsdWUoKQp9CgovKioKICog6IqC54K55L2N572u5L+h5oGv77yI55So5LqO5bCG5p2l55qE5Y+v6KeG5YyW57yW6L6R5Zmo77yJCiAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgTm9kZVBvc2l0aW9uKAogICAgdmFyIHg6IEZsb2F0ID0gMGYsCiAgICB2YXIgeTogRmxvYXQgPSAwZgopCgovKioKICog5bel5L2c5rWB6IqC54K56L+e5o6lCiAqIOWumuS5ieiKgueCueS5i+mXtOeahOi/nuaOpeWFs+ezuwogKi8KQFNlcmlhbGl6YWJsZQpkYXRhIGNsYXNzIFdvcmtmbG93Tm9kZUNvbm5lY3Rpb24oCiAgICB2YWwgaWQ6IFN0cmluZyA9IFVVSUQucmFuZG9tVVVJRCgpLnRvU3RyaW5nKCksCiAgICB2YWwgc291cmNlTm9kZUlkOiBTdHJpbmcsCiAgICB2YWwgdGFyZ2V0Tm9kZUlkOiBTdHJpbmcsCiAgICB2YXIgY29uZGl0aW9uOiBTdHJpbmc/ID0gbnVsbCAvLyDov57mjqXmnaHku7bvvIjlj6/pgInvvIkKKQoK
+package com.bslsjdk.operit.data.model
+
+import kotlinx.serialization.Serializable
+import java.util.UUID
+
+/**
+ * 工作流模型
+ * 代表一个完整的自动化工作流程
+ */
+@Serializable
+data class Workflow(
+    val id: String,
+    var name: String = "",
+    var description: String = "",
+    var nodes: List<WorkflowNode> = emptyList(),
+    var connections: List<WorkflowNodeConnection> = emptyList(),
+    val createdAt: Long = System.currentTimeMillis(),
+    var updatedAt: Long = System.currentTimeMillis(),
+    var enabled: Boolean = true,
+    // 执行统计信息
+    var lastExecutionTime: Long? = null,  // 上次执行时间
+    var lastExecutionStatus: ExecutionStatus? = null,  // 上次执行状态
+    var totalExecutions: Int = 0,  // 总执行次数
+    var successfulExecutions: Int = 0,  // 成功执行次数
+    var failedExecutions: Int = 0  // 失败执行次数
+)
+
+/**
+ * 执行状态枚举
+ */
+@Serializable
+enum class ExecutionStatus {
+    SUCCESS,  // 成功
+    FAILED,   // 失败
+    RUNNING   // 运行中
+}
+
+/**
+ * 工作流节点基类
+ */
+@Serializable
+sealed class WorkflowNode {
+    abstract val id: String
+    abstract val type: String
+    abstract var name: String
+    abstract var description: String
+    abstract var position: NodePosition
+}
+
+/**
+ * 触发节点
+ * 定义工作流的触发条件（暂时为占位符）
+ */
+@Serializable
+data class TriggerNode(
+    override val id: String = UUID.randomUUID().toString(),
+    override val type: String = "trigger",
+    override var name: String = "",
+    override var description: String = "",
+    override var position: NodePosition = NodePosition(0f, 0f),
+    var triggerType: String = "manual", // manual, schedule, tasker, intent, speech, app_open(cold start)
+    var triggerConfig: Map<String, String> = emptyMap() // 触发器配置参数
+) : WorkflowNode()
+
+/**
+ * 执行节点
+ * 定义工作流的执行动作
+ */
+@Serializable
+data class ExecuteNode(
+    override val id: String = UUID.randomUUID().toString(),
+    override val type: String = "execute",
+    override var name: String = "",
+    override var description: String = "",
+    override var position: NodePosition = NodePosition(0f, 0f),
+    var actionType: String = "", // 工具名称，如 "http_request", "list_files", "click_element"
+    var actionConfig: Map<String, ParameterValue> = emptyMap(), // 工具参数：支持静态值或节点引用
+    var jsCode: String? = null // 可选：直接执行 JavaScript 代码
+) : WorkflowNode()
+
+@Serializable
+enum class ConditionOperator {
+    EQ,
+    NE,
+    GT,
+    GTE,
+    LT,
+    LTE,
+    CONTAINS,
+    NOT_CONTAINS,
+    IN,
+    NOT_IN
+}
+
+@Serializable
+data class ConditionNode(
+    override val id: String = UUID.randomUUID().toString(),
+    override val type: String = "condition",
+    override var name: String = "",
+    override var description: String = "",
+    override var position: NodePosition = NodePosition(0f, 0f),
+    var left: ParameterValue = ParameterValue.StaticValue(""),
+    var operator: ConditionOperator = ConditionOperator.EQ,
+    var right: ParameterValue = ParameterValue.StaticValue("")
+) : WorkflowNode()
+
+@Serializable
+enum class LogicOperator {
+    AND,
+    OR
+}
+
+@Serializable
+data class LogicNode(
+    override val id: String = UUID.randomUUID().toString(),
+    override val type: String = "logic",
+    override var name: String = "",
+    override var description: String = "",
+    override var position: NodePosition = NodePosition(0f, 0f),
+    var operator: LogicOperator = LogicOperator.AND
+) : WorkflowNode()
+
+@Serializable
+enum class ExtractMode {
+    REGEX,
+    JSON,
+    SUB,
+    CONCAT,
+    RANDOM_INT,
+    RANDOM_STRING
+}
+
+@Serializable
+data class ExtractNode(
+    override val id: String = UUID.randomUUID().toString(),
+    override val type: String = "extract",
+    override var name: String = "",
+    override var description: String = "",
+    override var position: NodePosition = NodePosition(0f, 0f),
+    var source: ParameterValue = ParameterValue.StaticValue(""),
+    var mode: ExtractMode = ExtractMode.REGEX,
+    var expression: String = "",
+    var group: Int = 0,
+    var defaultValue: String = "",
+    var others: List<ParameterValue> = emptyList(),
+    var startIndex: Int = 0,
+    var length: Int = -1,
+    var randomMin: Int = 0,
+    var randomMax: Int = 100,
+    var randomStringLength: Int = 8,
+    var randomStringCharset: String = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789",
+    var useFixed: Boolean = false,
+    var fixedValue: String = ""
+) : WorkflowNode()
+
+/**
+ * 参数值类型
+ * 支持静态值或引用其他节点的输出
+ */
+@Serializable
+sealed class ParameterValue {
+    @Serializable
+    data class StaticValue(val value: String) : ParameterValue()
+    
+    @Serializable
+    data class NodeReference(val nodeId: String) : ParameterValue()
+}
+
+/**
+ * 节点位置信息（用于将来的可视化编辑器）
+ */
+@Serializable
+data class NodePosition(
+    var x: Float = 0f,
+    var y: Float = 0f
+)
+
+/**
+ * 工作流节点连接
+ * 定义节点之间的连接关系
+ */
+@Serializable
+data class WorkflowNodeConnection(
+    val id: String = UUID.randomUUID().toString(),
+    val sourceNodeId: String,
+    val targetNodeId: String,
+    var condition: String? = null // 连接条件（可选）
+)
+

@@ -1,1 +1,80 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Ccm9hZGNhc3RSZWNlaXZlcgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5jb3JlLnRvb2xzLkFJVG9vbEhhbmRsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51dGlsLkFwcExvZ2dlcgppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLkNvcm91dGluZVNjb3BlCmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuRGlzcGF0Y2hlcnMKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5sYXVuY2gKCmNsYXNzIFRvb2xQa2dEZWJ1Z0luc3RhbGxSZWNlaXZlciA6IEJyb2FkY2FzdFJlY2VpdmVyKCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJUb29sUGtnRGVidWdJbnN0YWxsUmVjZWl2ZXIiCgogICAgICAgIGNvbnN0IHZhbCBBQ1RJT05fREVCVUdfSU5TVEFMTF9UT09MUEtHID0gImNvbS5ic2xzamRrLm9wZXJpdC5ERUJVR19JTlNUQUxMX1RPT0xQS0ciCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX1BBQ0tBR0VfTkFNRSA9ICJwYWNrYWdlX25hbWUiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX0ZJTEVfUEFUSCA9ICJmaWxlX3BhdGgiCiAgICAgICAgY29uc3QgdmFsIEVYVFJBX1JFU0VUX1NVQlBBQ0tBR0VfU1RBVEVTID0gInJlc2V0X3N1YnBhY2thZ2Vfc3RhdGVzIgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblJlY2VpdmUoY29udGV4dDogQ29udGV4dCwgaW50ZW50OiBJbnRlbnQpIHsKICAgICAgICBpZiAoaW50ZW50LmFjdGlvbiAhPSBBQ1RJT05fREVCVUdfSU5TVEFMTF9UT09MUEtHKSB7CiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgdmFsIHBhY2thZ2VOYW1lID0gaW50ZW50LmdldFN0cmluZ0V4dHJhKEVYVFJBX1BBQ0tBR0VfTkFNRSk/LnRyaW0oKS5vckVtcHR5KCkKICAgICAgICB2YWwgZmlsZVBhdGggPSBpbnRlbnQuZ2V0U3RyaW5nRXh0cmEoRVhUUkFfRklMRV9QQVRIKT8udHJpbSgpLm9yRW1wdHkoKQogICAgICAgIHZhbCByZXNldFN1YnBhY2thZ2VTdGF0ZXMgPQogICAgICAgICAgICBpbnRlbnQuZ2V0Qm9vbGVhbkV4dHJhKEVYVFJBX1JFU0VUX1NVQlBBQ0tBR0VfU1RBVEVTLCB0cnVlKQoKICAgICAgICBpZiAocGFja2FnZU5hbWUuaXNCbGFuaygpIHx8IGZpbGVQYXRoLmlzQmxhbmsoKSkgewogICAgICAgICAgICBBcHBMb2dnZXIuZSgKICAgICAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgICAgICJNaXNzaW5nIHJlcXVpcmVkIHBhcmFtZXRlcnM6IHBhY2thZ2VOYW1lPSRwYWNrYWdlTmFtZSwgZmlsZVBhdGg9JGZpbGVQYXRoIgogICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgQ29yb3V0aW5lU2NvcGUoRGlzcGF0Y2hlcnMuSU8pLmxhdW5jaCB7CiAgICAgICAgICAgIGluc3RhbGxUb29sUGtnKAogICAgICAgICAgICAgICAgY29udGV4dCA9IGNvbnRleHQsCiAgICAgICAgICAgICAgICBwYWNrYWdlTmFtZSA9IHBhY2thZ2VOYW1lLAogICAgICAgICAgICAgICAgZmlsZVBhdGggPSBmaWxlUGF0aCwKICAgICAgICAgICAgICAgIHJlc2V0U3VicGFja2FnZVN0YXRlcyA9IHJlc2V0U3VicGFja2FnZVN0YXRlcwogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgZnVuIGluc3RhbGxUb29sUGtnKAogICAgICAgIGNvbnRleHQ6IENvbnRleHQsCiAgICAgICAgcGFja2FnZU5hbWU6IFN0cmluZywKICAgICAgICBmaWxlUGF0aDogU3RyaW5nLAogICAgICAgIHJlc2V0U3VicGFja2FnZVN0YXRlczogQm9vbGVhbgogICAgKSB7CiAgICAgICAgQXBwTG9nZ2VyLmQoCiAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgIlN0YXJ0aW5nIGRlYnVnIHRvb2xwa2cgaW5zdGFsbDogcGFja2FnZT0kcGFja2FnZU5hbWUsIGZpbGVQYXRoPSRmaWxlUGF0aCwgcmVzZXRTdWJwYWNrYWdlU3RhdGVzPSRyZXNldFN1YnBhY2thZ2VTdGF0ZXMiCiAgICAgICAgKQoKICAgICAgICB0cnkgewogICAgICAgICAgICB2YWwgYWlUb29sSGFuZGxlciA9IEFJVG9vbEhhbmRsZXIuZ2V0SW5zdGFuY2UoY29udGV4dCkKICAgICAgICAgICAgdmFsIHBhY2thZ2VNYW5hZ2VyID0gUGFja2FnZU1hbmFnZXIuZ2V0SW5zdGFuY2UoY29udGV4dCwgYWlUb29sSGFuZGxlcikKICAgICAgICAgICAgdmFsIHJlc3VsdCA9CiAgICAgICAgICAgICAgICBwYWNrYWdlTWFuYWdlci5pbnN0YWxsRGVidWdUb29sUGtnKAogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lclBhY2thZ2VOYW1lID0gcGFja2FnZU5hbWUsCiAgICAgICAgICAgICAgICAgICAgZXh0ZXJuYWxGaWxlUGF0aCA9IGZpbGVQYXRoLAogICAgICAgICAgICAgICAgICAgIHJlc2V0U3VicGFja2FnZVN0YXRlc1RvTWFuaWZlc3QgPSByZXNldFN1YnBhY2thZ2VTdGF0ZXMKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgQXBwTG9nZ2VyLmQoVEFHLCByZXN1bHQpCiAgICAgICAgfSBjYXRjaCAoZXJyb3I6IEV4Y2VwdGlvbikgewogICAgICAgICAgICBBcHBMb2dnZXIuZSgKICAgICAgICAgICAgICAgIFRBRywKICAgICAgICAgICAgICAgICJEZWJ1ZyB0b29scGtnIGluc3RhbGwgZmFpbGVkOiBwYWNrYWdlPSRwYWNrYWdlTmFtZSwgZmlsZVBhdGg9JGZpbGVQYXRoIiwKICAgICAgICAgICAgICAgIGVycm9yCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICB9Cn0K
+package com.bslsjdk.operit.core.tools.packTool
+
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.launch
+
+class ToolPkgDebugInstallReceiver : BroadcastReceiver() {
+
+    companion object {
+        private const val TAG = "ToolPkgDebugInstallReceiver"
+
+        const val ACTION_DEBUG_INSTALL_TOOLPKG = "com.bslsjdk.operit.DEBUG_INSTALL_TOOLPKG"
+        const val EXTRA_PACKAGE_NAME = "package_name"
+        const val EXTRA_FILE_PATH = "file_path"
+        const val EXTRA_RESET_SUBPACKAGE_STATES = "reset_subpackage_states"
+    }
+
+    override fun onReceive(context: Context, intent: Intent) {
+        if (intent.action != ACTION_DEBUG_INSTALL_TOOLPKG) {
+            return
+        }
+
+        val packageName = intent.getStringExtra(EXTRA_PACKAGE_NAME)?.trim().orEmpty()
+        val filePath = intent.getStringExtra(EXTRA_FILE_PATH)?.trim().orEmpty()
+        val resetSubpackageStates =
+            intent.getBooleanExtra(EXTRA_RESET_SUBPACKAGE_STATES, true)
+
+        if (packageName.isBlank() || filePath.isBlank()) {
+            AppLogger.e(
+                TAG,
+                "Missing required parameters: packageName=$packageName, filePath=$filePath"
+            )
+            return
+        }
+
+        CoroutineScope(Dispatchers.IO).launch {
+            installToolPkg(
+                context = context,
+                packageName = packageName,
+                filePath = filePath,
+                resetSubpackageStates = resetSubpackageStates
+            )
+        }
+    }
+
+    private fun installToolPkg(
+        context: Context,
+        packageName: String,
+        filePath: String,
+        resetSubpackageStates: Boolean
+    ) {
+        AppLogger.d(
+            TAG,
+            "Starting debug toolpkg install: package=$packageName, filePath=$filePath, resetSubpackageStates=$resetSubpackageStates"
+        )
+
+        try {
+            val aiToolHandler = AIToolHandler.getInstance(context)
+            val packageManager = PackageManager.getInstance(context, aiToolHandler)
+            val result =
+                packageManager.installDebugToolPkg(
+                    containerPackageName = packageName,
+                    externalFilePath = filePath,
+                    resetSubpackageStatesToManifest = resetSubpackageStates
+                )
+            AppLogger.d(TAG, result)
+        } catch (error: Exception) {
+            AppLogger.e(
+                TAG,
+                "Debug toolpkg install failed: package=$packageName, filePath=$filePath",
+                error
+            )
+        }
+    }
+}

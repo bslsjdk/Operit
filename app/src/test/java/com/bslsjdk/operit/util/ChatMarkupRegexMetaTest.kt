@@ -1,1 +1,71 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IG9yZy5qdW5pdC5Bc3NlcnQuYXNzZXJ0RXF1YWxzCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydE51bGwKaW1wb3J0IG9yZy5qdW5pdC5UZXN0CgpjbGFzcyBDaGF0TWFya3VwUmVnZXhNZXRhVGVzdCB7CgogICAgQFRlc3QgZnVuIGV4dHJhY3RTaWduYXR1cmVfaWdub3Jlc0VtcHR5Qm9keSgpIHsKICAgICAgICBhc3NlcnROdWxsKENoYXRNYXJrdXBSZWdleC5leHRyYWN0R2VtaW5pVGhvdWdodFNpZ25hdHVyZSgiPG1ldGEgcHJvdmlkZXI9XCJnZW1pbmk6dGhvdWdodF9zaWduYXR1cmVcIj4gICA8L21ldGE+IikpCiAgICB9CgogICAgQFRlc3QgZnVuIHJlbW92ZVNpZ25hdHVyZV9wcmVzZXJ2ZXNUcmFpbGluZ1RleHQoKSB7CiAgICAgICAgYXNzZXJ0RXF1YWxzKCJwcmVmaXhzdWZmaXgiLCBDaGF0TWFya3VwUmVnZXgucmVtb3ZlR2VtaW5pVGhvdWdodFNpZ25hdHVyZU1ldGEoInByZWZpeDxtZXRhIHByb3ZpZGVyPVwiZ2VtaW5pOnRob3VnaHRfc2lnbmF0dXJlXCI+YTwvbWV0YT5zdWZmaXgiKSkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlU2lnbmF0dXJlX3JlbW92ZXNNdWx0aXBsZU1hdGNoaW5nVGFncygpIHsKICAgICAgICBhc3NlcnRFcXVhbHMoImJvZHkiLCBDaGF0TWFya3VwUmVnZXgucmVtb3ZlR2VtaW5pVGhvdWdodFNpZ25hdHVyZU1ldGEoIjxtZXRhIHByb3ZpZGVyPVwiZ2VtaW5pOnRob3VnaHRfc2lnbmF0dXJlXCI+YTwvbWV0YT5ib2R5PG1ldGEgcHJvdmlkZXI9XCJnZW1pbmk6dGhvdWdodF9zaWduYXR1cmVcIj5iPC9tZXRhPiIpKQogICAgfQoKICAgIEBUZXN0IGZ1biBleHRyYWN0U2lnbmF0dXJlX3JldHVybnNMYXN0QW1vbmdNaXhlZE1ldGFUYWdzKCkgewogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgInRhcmdldCIsCiAgICAgICAgICAgIENoYXRNYXJrdXBSZWdleC5leHRyYWN0R2VtaW5pVGhvdWdodFNpZ25hdHVyZSgKICAgICAgICAgICAgICAgICI8bWV0YSBwcm92aWRlcj1cIm90aGVyXCI+eDwvbWV0YT48bWV0YSBwcm92aWRlcj1cImdlbWluaTp0aG91Z2h0X3NpZ25hdHVyZVwiPnRhcmdldDwvbWV0YT4iCiAgICAgICAgICAgICkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIHJlbW92ZU9wZW5BaVJlYXNvbmluZ19wcmVzZXJ2ZXNWb2lkTWV0YUJlZm9yZU1hdGNoaW5nVGFnKCkgewogICAgICAgIHZhbCBjb250ZW50ID0KICAgICAgICAgICAgIjxtZXRhIGNoYXJzZXQ9XCJ1dGYtOFwiPnZpc2libGUiICsKICAgICAgICAgICAgICAgICI8bWV0YSBwcm92aWRlcj1cIm9wZW5haTpyZXNwb25zZXNfcmVhc29uaW5nXCI+cGF5bG9hZDwvbWV0YT5hbnN3ZXIiCgogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgIjxtZXRhIGNoYXJzZXQ9XCJ1dGYtOFwiPnZpc2libGVhbnN3ZXIiLAogICAgICAgICAgICBDaGF0TWFya3VwUmVnZXgucmVtb3ZlT3BlbkFpUmVzcG9uc2VzUmVhc29uaW5nTWV0YShjb250ZW50KQogICAgICAgICkKICAgIH0KCiAgICBAVGVzdCBmdW4gcmVtb3ZlT3BlbkFpUmVhc29uaW5nX2lnbm9yZXNQcm92aWRlclRleHRJbk1ldGFCb2R5KCkgewogICAgICAgIHZhbCBjb250ZW50ID0gIjxtZXRhPnByb3ZpZGVyPVwib3BlbmFpOnJlc3BvbnNlc19yZWFzb25pbmdcIjwvbWV0YT4iCgogICAgICAgIGFzc2VydEVxdWFscyhjb250ZW50LCBDaGF0TWFya3VwUmVnZXgucmVtb3ZlT3BlbkFpUmVzcG9uc2VzUmVhc29uaW5nTWV0YShjb250ZW50KSkKICAgIH0KCiAgICBAVGVzdCBmdW4gZXh0cmFjdE9wZW5BaVJlc3BvbnNlc091dHB1dEl0ZW1fcmV0dXJuc01hdGNoaW5nUGF5bG9hZHMoKSB7CiAgICAgICAgdmFsIGNvbnRlbnQgPQogICAgICAgICAgICAiPG1ldGEgcHJvdmlkZXI9XCJvcGVuYWk6cmVzcG9uc2VzX291dHB1dF9pdGVtXCI+Zmlyc3Q8L21ldGE+IiArCiAgICAgICAgICAgICAgICAiYW5zd2VyIiArCiAgICAgICAgICAgICAgICAiPG1ldGEgcHJvdmlkZXI9J29wZW5haTpyZXNwb25zZXNfb3V0cHV0X2l0ZW0nPnNlY29uZDwvbWV0YT4iCgogICAgICAgIGFzc2VydEVxdWFscygKICAgICAgICAgICAgbGlzdE9mKCJmaXJzdCIsICJzZWNvbmQiKSwKICAgICAgICAgICAgQ2hhdE1hcmt1cFJlZ2V4LmV4dHJhY3RPcGVuQWlSZXNwb25zZXNPdXRwdXRJdGVtUGF5bG9hZHMoY29udGVudCkKICAgICAgICApCiAgICB9CgogICAgQFRlc3QgZnVuIHJlbW92ZU9wZW5BaVJlc3BvbnNlc1Byb3RvY29sTWV0YV9yZW1vdmVzUmVhc29uaW5nQW5kT3V0cHV0SXRlbXNPbmx5KCkgewogICAgICAgIHZhbCBjb250ZW50ID0KICAgICAgICAgICAgIjxtZXRhIGNoYXJzZXQ9XCJ1dGYtOFwiPnZpc2libGUiICsKICAgICAgICAgICAgICAgICI8bWV0YSBwcm92aWRlcj1cIm9wZW5haTpyZXNwb25zZXNfcmVhc29uaW5nXCI+cmVhc29uaW5nPC9tZXRhPiIgKwogICAgICAgICAgICAgICAgIjxtZXRhIHByb3ZpZGVyPVwib3BlbmFpOnJlc3BvbnNlc19vdXRwdXRfaXRlbVwiPnNlYXJjaC1jYWxsPC9tZXRhPiIgKwogICAgICAgICAgICAgICAgIjxtZXRhIHByb3ZpZGVyPVwib3RoZXJcIj5rZXB0PC9tZXRhPiIKCiAgICAgICAgYXNzZXJ0RXF1YWxzKAogICAgICAgICAgICAiPG1ldGEgY2hhcnNldD1cInV0Zi04XCI+dmlzaWJsZTxtZXRhIHByb3ZpZGVyPVwib3RoZXJcIj5rZXB0PC9tZXRhPiIsCiAgICAgICAgICAgIENoYXRNYXJrdXBSZWdleC5yZW1vdmVPcGVuQWlSZXNwb25zZXNQcm90b2NvbE1ldGEoY29udGVudCkKICAgICAgICApCiAgICB9Cn0K
+package com.bslsjdk.operit.util
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
+import org.junit.Test
+
+class ChatMarkupRegexMetaTest {
+
+    @Test fun extractSignature_ignoresEmptyBody() {
+        assertNull(ChatMarkupRegex.extractGeminiThoughtSignature("<meta provider=\"gemini:thought_signature\">   </meta>"))
+    }
+
+    @Test fun removeSignature_preservesTrailingText() {
+        assertEquals("prefixsuffix", ChatMarkupRegex.removeGeminiThoughtSignatureMeta("prefix<meta provider=\"gemini:thought_signature\">a</meta>suffix"))
+    }
+
+    @Test fun removeSignature_removesMultipleMatchingTags() {
+        assertEquals("body", ChatMarkupRegex.removeGeminiThoughtSignatureMeta("<meta provider=\"gemini:thought_signature\">a</meta>body<meta provider=\"gemini:thought_signature\">b</meta>"))
+    }
+
+    @Test fun extractSignature_returnsLastAmongMixedMetaTags() {
+        assertEquals(
+            "target",
+            ChatMarkupRegex.extractGeminiThoughtSignature(
+                "<meta provider=\"other\">x</meta><meta provider=\"gemini:thought_signature\">target</meta>"
+            )
+        )
+    }
+
+    @Test fun removeOpenAiReasoning_preservesVoidMetaBeforeMatchingTag() {
+        val content =
+            "<meta charset=\"utf-8\">visible" +
+                "<meta provider=\"openai:responses_reasoning\">payload</meta>answer"
+
+        assertEquals(
+            "<meta charset=\"utf-8\">visibleanswer",
+            ChatMarkupRegex.removeOpenAiResponsesReasoningMeta(content)
+        )
+    }
+
+    @Test fun removeOpenAiReasoning_ignoresProviderTextInMetaBody() {
+        val content = "<meta>provider=\"openai:responses_reasoning\"</meta>"
+
+        assertEquals(content, ChatMarkupRegex.removeOpenAiResponsesReasoningMeta(content))
+    }
+
+    @Test fun extractOpenAiResponsesOutputItem_returnsMatchingPayloads() {
+        val content =
+            "<meta provider=\"openai:responses_output_item\">first</meta>" +
+                "answer" +
+                "<meta provider='openai:responses_output_item'>second</meta>"
+
+        assertEquals(
+            listOf("first", "second"),
+            ChatMarkupRegex.extractOpenAiResponsesOutputItemPayloads(content)
+        )
+    }
+
+    @Test fun removeOpenAiResponsesProtocolMeta_removesReasoningAndOutputItemsOnly() {
+        val content =
+            "<meta charset=\"utf-8\">visible" +
+                "<meta provider=\"openai:responses_reasoning\">reasoning</meta>" +
+                "<meta provider=\"openai:responses_output_item\">search-call</meta>" +
+                "<meta provider=\"other\">kept</meta>"
+
+        assertEquals(
+            "<meta charset=\"utf-8\">visible<meta provider=\"other\">kept</meta>",
+            ChatMarkupRegex.removeOpenAiResponsesProtocolMeta(content)
+        )
+    }
+}

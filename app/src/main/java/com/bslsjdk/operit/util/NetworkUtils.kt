@@ -1,1 +1,38 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudXRpbAoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm5ldC5Db25uZWN0aXZpdHlNYW5hZ2VyCmltcG9ydCBhbmRyb2lkLm5ldC5OZXR3b3JrQ2FwYWJpbGl0aWVzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuUgoKb2JqZWN0IE5ldHdvcmtVdGlscyB7CiAgICAvKioKICAgICAqIOajgOafpeiuvuWkh+aYr+WQpui/nuaOpeWIsOe9kee7nAogICAgICovCiAgICBmdW4gaXNOZXR3b3JrQXZhaWxhYmxlKGNvbnRleHQ6IENvbnRleHQpOiBCb29sZWFuIHsKICAgICAgICB2YWwgY29ubmVjdGl2aXR5TWFuYWdlciA9IGNvbnRleHQuZ2V0U3lzdGVtU2VydmljZShDb250ZXh0LkNPTk5FQ1RJVklUWV9TRVJWSUNFKSBhcyBDb25uZWN0aXZpdHlNYW5hZ2VyCiAgICAgICAgdmFsIG5ldHdvcmsgPSBjb25uZWN0aXZpdHlNYW5hZ2VyLmFjdGl2ZU5ldHdvcmsgPzogcmV0dXJuIGZhbHNlCiAgICAgICAgdmFsIGNhcGFiaWxpdGllcyA9IGNvbm5lY3Rpdml0eU1hbmFnZXIuZ2V0TmV0d29ya0NhcGFiaWxpdGllcyhuZXR3b3JrKSA/OiByZXR1cm4gZmFsc2UKICAgICAgICAKICAgICAgICByZXR1cm4gY2FwYWJpbGl0aWVzLmhhc0NhcGFiaWxpdHkoTmV0d29ya0NhcGFiaWxpdGllcy5ORVRfQ0FQQUJJTElUWV9JTlRFUk5FVCkgJiYKICAgICAgICAgICAgICAgKGNhcGFiaWxpdGllcy5oYXNUcmFuc3BvcnQoTmV0d29ya0NhcGFiaWxpdGllcy5UUkFOU1BPUlRfV0lGSSkgfHwKICAgICAgICAgICAgICAgIGNhcGFiaWxpdGllcy5oYXNUcmFuc3BvcnQoTmV0d29ya0NhcGFiaWxpdGllcy5UUkFOU1BPUlRfQ0VMTFVMQVIpIHx8CiAgICAgICAgICAgICAgICBjYXBhYmlsaXRpZXMuaGFzVHJhbnNwb3J0KE5ldHdvcmtDYXBhYmlsaXRpZXMuVFJBTlNQT1JUX0VUSEVSTkVUKSkKICAgIH0KICAgIAogICAgLyoqCiAgICAgKiDojrflj5bnvZHnu5zov57mjqXnsbvlnosKICAgICAqLwogICAgZnVuIGdldE5ldHdvcmtUeXBlKGNvbnRleHQ6IENvbnRleHQpOiBTdHJpbmcgewogICAgICAgIHZhbCBjb25uZWN0aXZpdHlNYW5hZ2VyID0gY29udGV4dC5nZXRTeXN0ZW1TZXJ2aWNlKENvbnRleHQuQ09OTkVDVElWSVRZX1NFUlZJQ0UpIGFzIENvbm5lY3Rpdml0eU1hbmFnZXIKICAgICAgICB2YWwgbmV0d29yayA9IGNvbm5lY3Rpdml0eU1hbmFnZXIuYWN0aXZlTmV0d29yayA/OiByZXR1cm4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubm90X2Nvbm5lY3RlZCkKICAgICAgICB2YWwgY2FwYWJpbGl0aWVzID0gY29ubmVjdGl2aXR5TWFuYWdlci5nZXROZXR3b3JrQ2FwYWJpbGl0aWVzKG5ldHdvcmspID86IHJldHVybiBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5ub3RfY29ubmVjdGVkKQogICAgICAgIAogICAgICAgIHJldHVybiB3aGVuIHsKICAgICAgICAgICAgY2FwYWJpbGl0aWVzLmhhc1RyYW5zcG9ydChOZXR3b3JrQ2FwYWJpbGl0aWVzLlRSQU5TUE9SVF9XSUZJKSAtPiAiV2lGaSIKICAgICAgICAgICAgY2FwYWJpbGl0aWVzLmhhc1RyYW5zcG9ydChOZXR3b3JrQ2FwYWJpbGl0aWVzLlRSQU5TUE9SVF9DRUxMVUxBUikgLT4gY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcubW9iaWxlX2RhdGEpCiAgICAgICAgICAgIGNhcGFiaWxpdGllcy5oYXNUcmFuc3BvcnQoTmV0d29ya0NhcGFiaWxpdGllcy5UUkFOU1BPUlRfRVRIRVJORVQpIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLmV0aGVybmV0KQogICAgICAgICAgICBlbHNlIC0+IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm90aGVyX25ldHdvcmspCiAgICAgICAgfQogICAgfQp9IA==
+package com.bslsjdk.operit.util
+
+import android.content.Context
+import android.net.ConnectivityManager
+import android.net.NetworkCapabilities
+import com.bslsjdk.operit.R
+
+object NetworkUtils {
+    /**
+     * 检查设备是否连接到网络
+     */
+    fun isNetworkAvailable(context: Context): Boolean {
+        val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val network = connectivityManager.activeNetwork ?: return false
+        val capabilities = connectivityManager.getNetworkCapabilities(network) ?: return false
+        
+        return capabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) &&
+               (capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) ||
+                capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) ||
+                capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET))
+    }
+    
+    /**
+     * 获取网络连接类型
+     */
+    fun getNetworkType(context: Context): String {
+        val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        val network = connectivityManager.activeNetwork ?: return context.getString(R.string.not_connected)
+        val capabilities = connectivityManager.getNetworkCapabilities(network) ?: return context.getString(R.string.not_connected)
+        
+        return when {
+            capabilities.hasTransport(NetworkCapabilities.TRANSPORT_WIFI) -> "WiFi"
+            capabilities.hasTransport(NetworkCapabilities.TRANSPORT_CELLULAR) -> context.getString(R.string.mobile_data)
+            capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> context.getString(R.string.ethernet)
+            else -> context.getString(R.string.other_network)
+        }
+    }
+} 

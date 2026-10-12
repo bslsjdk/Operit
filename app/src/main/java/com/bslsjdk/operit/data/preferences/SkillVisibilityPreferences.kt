@@ -1,1 +1,64 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5wcmVmZXJlbmNlcwoKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBqYXZhLnNlY3VyaXR5Lk1lc3NhZ2VEaWdlc3QKCmNsYXNzIFNraWxsVmlzaWJpbGl0eVByZWZlcmVuY2VzIHByaXZhdGUgY29uc3RydWN0b3IocHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dCkgewoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFBSRUZTX05BTUUgPSAiY29tLmJzbHNqZGsub3Blcml0LmRhdGEucHJlZmVyZW5jZXMuU2tpbGxWaXNpYmlsaXR5UHJlZmVyZW5jZXMiCgogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHByaXZhdGUgdmFyIElOU1RBTkNFOiBTa2lsbFZpc2liaWxpdHlQcmVmZXJlbmNlcz8gPSBudWxsCgogICAgICAgIGZ1biBnZXRJbnN0YW5jZShjb250ZXh0OiBDb250ZXh0KTogU2tpbGxWaXNpYmlsaXR5UHJlZmVyZW5jZXMgewogICAgICAgICAgICByZXR1cm4gSU5TVEFOQ0UgPzogc3luY2hyb25pemVkKHRoaXMpIHsKICAgICAgICAgICAgICAgIElOU1RBTkNFID86IFNraWxsVmlzaWJpbGl0eVByZWZlcmVuY2VzKGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KS5hbHNvIHsgSU5TVEFOQ0UgPSBpdCB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIGtleUZvclNraWxsTmFtZShza2lsbE5hbWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgICAgIHZhbCBub3JtYWxpemVkID0gc2tpbGxOYW1lLnRyaW0oKQogICAgICAgICAgICB2YWwgaGFzaEJ5dGVzID0gTWVzc2FnZURpZ2VzdC5nZXRJbnN0YW5jZSgiU0hBLTI1NiIpCiAgICAgICAgICAgICAgICAuZGlnZXN0KG5vcm1hbGl6ZWQudG9CeXRlQXJyYXkoQ2hhcnNldHMuVVRGXzgpKQogICAgICAgICAgICB2YWwgaGV4Q2hhcnMgPSAiMDEyMzQ1Njc4OWFiY2RlZiIKICAgICAgICAgICAgdmFsIGhleCA9IGJ1aWxkU3RyaW5nKGhhc2hCeXRlcy5zaXplICogMikgewogICAgICAgICAgICAgICAgZm9yIChiIGluIGhhc2hCeXRlcykgewogICAgICAgICAgICAgICAgICAgIHZhbCB2ID0gYi50b0ludCgpIGFuZCAweEZGCiAgICAgICAgICAgICAgICAgICAgYXBwZW5kKGhleENoYXJzW3YgdXNociA0XSkKICAgICAgICAgICAgICAgICAgICBhcHBlbmQoaGV4Q2hhcnNbdiBhbmQgMHgwRl0pCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuICJza2lsbF92aXNpYmxlXyR7aGV4LnRha2UoMTYpfSIKICAgICAgICB9CgogICAgICAgIHByaXZhdGUgZnVuIGxlZ2FjeUtleUZvclNraWxsTmFtZShza2lsbE5hbWU6IFN0cmluZyk6IFN0cmluZyB7CiAgICAgICAgICAgIHZhbCBzYWZlID0gc2tpbGxOYW1lLnRyaW0oKS5yZXBsYWNlKCJbXmEtekEtWjAtOV9dIi50b1JlZ2V4KCksICJfIikKICAgICAgICAgICAgcmV0dXJuICJza2lsbF92aXNpYmxlXyRzYWZlIgogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIHZhbCBwcmVmcyBieSBsYXp5IHsgY29udGV4dC5nZXRTaGFyZWRQcmVmZXJlbmNlcyhQUkVGU19OQU1FLCBDb250ZXh0Lk1PREVfUFJJVkFURSkgfQoKICAgIGZ1biBpc1NraWxsVmlzaWJsZVRvQWkoc2tpbGxOYW1lOiBTdHJpbmcpOiBCb29sZWFuIHsKICAgICAgICBpZiAoc2tpbGxOYW1lLmlzQmxhbmsoKSkgcmV0dXJuIHRydWUKICAgICAgICB2YWwgbmV3S2V5ID0ga2V5Rm9yU2tpbGxOYW1lKHNraWxsTmFtZSkKICAgICAgICBpZiAocHJlZnMuY29udGFpbnMobmV3S2V5KSkgewogICAgICAgICAgICByZXR1cm4gcHJlZnMuZ2V0Qm9vbGVhbihuZXdLZXksIHRydWUpCiAgICAgICAgfQoKICAgICAgICB2YWwgbGVnYWN5S2V5ID0gbGVnYWN5S2V5Rm9yU2tpbGxOYW1lKHNraWxsTmFtZSkKICAgICAgICBpZiAocHJlZnMuY29udGFpbnMobGVnYWN5S2V5KSkgewogICAgICAgICAgICB2YWwgbGVnYWN5VmFsdWUgPSBwcmVmcy5nZXRCb29sZWFuKGxlZ2FjeUtleSwgdHJ1ZSkKICAgICAgICAgICAgcHJlZnMuZWRpdCgpLnJlbW92ZShsZWdhY3lLZXkpLnB1dEJvb2xlYW4obmV3S2V5LCBsZWdhY3lWYWx1ZSkuYXBwbHkoKQogICAgICAgICAgICByZXR1cm4gbGVnYWN5VmFsdWUKICAgICAgICB9CgogICAgICAgIHJldHVybiB0cnVlCiAgICB9CgogICAgZnVuIHNldFNraWxsVmlzaWJsZVRvQWkoc2tpbGxOYW1lOiBTdHJpbmcsIHZpc2libGU6IEJvb2xlYW4pIHsKICAgICAgICBpZiAoc2tpbGxOYW1lLmlzQmxhbmsoKSkgcmV0dXJuCiAgICAgICAgcHJlZnMuZWRpdCgpLnB1dEJvb2xlYW4oa2V5Rm9yU2tpbGxOYW1lKHNraWxsTmFtZSksIHZpc2libGUpLmFwcGx5KCkKICAgIH0KfQo=
+package com.bslsjdk.operit.data.preferences
+
+import android.content.Context
+import java.security.MessageDigest
+
+class SkillVisibilityPreferences private constructor(private val context: Context) {
+
+    companion object {
+        private const val PREFS_NAME = "com.bslsjdk.operit.data.preferences.SkillVisibilityPreferences"
+
+        @Volatile
+        private var INSTANCE: SkillVisibilityPreferences? = null
+
+        fun getInstance(context: Context): SkillVisibilityPreferences {
+            return INSTANCE ?: synchronized(this) {
+                INSTANCE ?: SkillVisibilityPreferences(context.applicationContext).also { INSTANCE = it }
+            }
+        }
+
+        private fun keyForSkillName(skillName: String): String {
+            val normalized = skillName.trim()
+            val hashBytes = MessageDigest.getInstance("SHA-256")
+                .digest(normalized.toByteArray(Charsets.UTF_8))
+            val hexChars = "0123456789abcdef"
+            val hex = buildString(hashBytes.size * 2) {
+                for (b in hashBytes) {
+                    val v = b.toInt() and 0xFF
+                    append(hexChars[v ushr 4])
+                    append(hexChars[v and 0x0F])
+                }
+            }
+            return "skill_visible_${hex.take(16)}"
+        }
+
+        private fun legacyKeyForSkillName(skillName: String): String {
+            val safe = skillName.trim().replace("[^a-zA-Z0-9_]".toRegex(), "_")
+            return "skill_visible_$safe"
+        }
+    }
+
+    private val prefs by lazy { context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE) }
+
+    fun isSkillVisibleToAi(skillName: String): Boolean {
+        if (skillName.isBlank()) return true
+        val newKey = keyForSkillName(skillName)
+        if (prefs.contains(newKey)) {
+            return prefs.getBoolean(newKey, true)
+        }
+
+        val legacyKey = legacyKeyForSkillName(skillName)
+        if (prefs.contains(legacyKey)) {
+            val legacyValue = prefs.getBoolean(legacyKey, true)
+            prefs.edit().remove(legacyKey).putBoolean(newKey, legacyValue).apply()
+            return legacyValue
+        }
+
+        return true
+    }
+
+    fun setSkillVisibleToAi(skillName: String, visible: Boolean) {
+        if (skillName.isBlank()) return
+        prefs.edit().putBoolean(keyForSkillName(skillName), visible).apply()
+    }
+}

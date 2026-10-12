@@ -1,1 +1,202 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMuc2NyZWVucy5tYXJrZXQudmlld21vZGVsCgppbXBvcnQgYW5kcm9pZC5jb250ZW50LkNvbnRleHQKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWwKaW1wb3J0IGFuZHJvaWR4LmxpZmVjeWNsZS5WaWV3TW9kZWxQcm92aWRlcgppbXBvcnQgYW5kcm9pZHgubGlmZWN5Y2xlLnZpZXdNb2RlbFNjb3BlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5BSVRvb2xIYW5kbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5wYWNrVG9vbC5QYWNrYWdlTWFuYWdlcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LlIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLmFwaS5HaXRIdWJBcGlTZXJ2aWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0U3RhdHNBcGlTZXJ2aWNlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuZGF0YS5hcGkuTWFya2V0VjJFbnRyeQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuYXBpLk1hcmtldFYyUmVhY3Rpb24KaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnByZWZlcmVuY2VzLkdpdEh1YkF1dGhQcmVmZXJlbmNlcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5Db21tZW50UG9zdFN1Y2Nlc3NCZWhhdmlvcgppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5NYXJrZXRFbnRyeUluc3RhbGxDb250cm9sbGVyCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMucGFja2FnZXMubWFya2V0Lk1hcmtldEluc3RhbGxQcm9ncmVzcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5NYXJrZXRJbnN0YWxsU3RhdGVTdG9yZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5NYXJrZXRMb2NhbEluc3RhbGxTdGF0ZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5NYXJrZXRJbnRlcmFjdGlvbkNvbnRyb2xsZXIKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC51aS5mZWF0dXJlcy5wYWNrYWdlcy5tYXJrZXQuTWFya2V0SW50ZXJhY3Rpb25NZXNzYWdlcwppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZlYXR1cmVzLnBhY2thZ2VzLm1hcmtldC5yZXNvbHZlTWFya2V0TG9jYWxJbnN0YWxsU3RhdGVzCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQudXRpbC5BcHBMb2dnZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuTXV0YWJsZVN0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmZsb3cuU3RhdGVGbG93CmltcG9ydCBrb3RsaW54LmNvcm91dGluZXMuZmxvdy5hc1N0YXRlRmxvdwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLmxhdW5jaAppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CgpjbGFzcyBVbmlmaWVkTWFya2V0RGV0YWlsVmlld01vZGVsKAogICAgcHJpdmF0ZSB2YWwgY29udGV4dDogQ29udGV4dAopIDogVmlld01vZGVsKCkgewogICAgcHJpdmF0ZSB2YWwgbWFya2V0U3RhdHNBcGlTZXJ2aWNlID0gTWFya2V0U3RhdHNBcGlTZXJ2aWNlKCkKICAgIHByaXZhdGUgdmFsIGdpdGh1YkFwaVNlcnZpY2UgPSBHaXRIdWJBcGlTZXJ2aWNlKGNvbnRleHQpCiAgICBwcml2YXRlIHZhbCBnaXRodWJBdXRoID0gR2l0SHViQXV0aFByZWZlcmVuY2VzLmdldEluc3RhbmNlKGNvbnRleHQpCiAgICBwcml2YXRlIHZhbCBpbnN0YWxsQ29udHJvbGxlciA9IE1hcmtldEVudHJ5SW5zdGFsbENvbnRyb2xsZXIoY29udGV4dCwgbWFya2V0U3RhdHNBcGlTZXJ2aWNlKQogICAgcHJpdmF0ZSB2YWwgcGFja2FnZU1hbmFnZXIgPQogICAgICAgIFBhY2thZ2VNYW5hZ2VyLmdldEluc3RhbmNlKGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0LCBBSVRvb2xIYW5kbGVyLmdldEluc3RhbmNlKGNvbnRleHQuYXBwbGljYXRpb25Db250ZXh0KSkKCiAgICBwcml2YXRlIHZhbCBfZW50cnkgPSBNdXRhYmxlU3RhdGVGbG93PE1hcmtldFYyRW50cnk/PihudWxsKQogICAgdmFsIGVudHJ5OiBTdGF0ZUZsb3c8TWFya2V0VjJFbnRyeT8+ID0gX2VudHJ5LmFzU3RhdGVGbG93KCkKCiAgICBwcml2YXRlIHZhbCBfaXNMb2FkaW5nRW50cnkgPSBNdXRhYmxlU3RhdGVGbG93KGZhbHNlKQogICAgdmFsIGlzTG9hZGluZ0VudHJ5OiBTdGF0ZUZsb3c8Qm9vbGVhbj4gPSBfaXNMb2FkaW5nRW50cnkuYXNTdGF0ZUZsb3coKQoKICAgIHByaXZhdGUgdmFsIF9lcnJvck1lc3NhZ2UgPSBNdXRhYmxlU3RhdGVGbG93PFN0cmluZz8+KG51bGwpCiAgICB2YWwgZXJyb3JNZXNzYWdlOiBTdGF0ZUZsb3c8U3RyaW5nPz4gPSBfZXJyb3JNZXNzYWdlLmFzU3RhdGVGbG93KCkKCiAgICB2YWwgaW5zdGFsbFN0YXRlczogU3RhdGVGbG93PE1hcDxTdHJpbmcsIE1hcmtldEluc3RhbGxQcm9ncmVzcz4+ID0gTWFya2V0SW5zdGFsbFN0YXRlU3RvcmUuaW5zdGFsbFN0YXRlcwogICAgcHJpdmF0ZSB2YWwgX2xvY2FsSW5zdGFsbFN0YXRlcyA9IE11dGFibGVTdGF0ZUZsb3c8TWFwPFN0cmluZywgTWFya2V0TG9jYWxJbnN0YWxsU3RhdGU+PihlbXB0eU1hcCgpKQogICAgdmFsIGxvY2FsSW5zdGFsbFN0YXRlczogU3RhdGVGbG93PE1hcDxTdHJpbmcsIE1hcmtldExvY2FsSW5zdGFsbFN0YXRlPj4gPSBfbG9jYWxJbnN0YWxsU3RhdGVzLmFzU3RhdGVGbG93KCkKICAgIHByaXZhdGUgdmFsIG1hcmtldEludGVyYWN0aW9uQ29udHJvbGxlciA9CiAgICAgICAgTWFya2V0SW50ZXJhY3Rpb25Db250cm9sbGVyKAogICAgICAgICAgICBzY29wZSA9IHZpZXdNb2RlbFNjb3BlLAogICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dCwKICAgICAgICAgICAgbWFya2V0QXBpU2VydmljZSA9IG1hcmtldFN0YXRzQXBpU2VydmljZSwKICAgICAgICAgICAgZ2l0aHViQXBpU2VydmljZSA9IGdpdGh1YkFwaVNlcnZpY2UsCiAgICAgICAgICAgIGxvZ1RhZyA9IFRBRywKICAgICAgICAgICAgb25FcnJvciA9IHsgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGl0IH0sCiAgICAgICAgICAgIG1lc3NhZ2VzID0KICAgICAgICAgICAgICAgIE1hcmtldEludGVyYWN0aW9uTWVzc2FnZXMoCiAgICAgICAgICAgICAgICAgICAgY29tbWVudExvYWRGYWlsZWQgPSB7IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsbWFya2V0X2xvYWRfY29tbWVudHNfZmFpbGVkLCBpdCkgfSwKICAgICAgICAgICAgICAgICAgICBjb21tZW50TG9hZEVycm9yID0geyBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbG1hcmtldF9sb2FkX2NvbW1lbnRzX2ZhaWxlZCwgaXQpIH0sCiAgICAgICAgICAgICAgICAgICAgY29tbWVudFBvc3RGYWlsZWQgPSB7IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsbWFya2V0X3Bvc3RfY29tbWVudF9mYWlsZWQsIGl0KSB9LAogICAgICAgICAgICAgICAgICAgIGNvbW1lbnRQb3N0RXJyb3IgPSB7IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLnNraWxsbWFya2V0X3Bvc3RfY29tbWVudF9mYWlsZWQsIGl0KSB9LAogICAgICAgICAgICAgICAgICAgIHJlYWN0aW9uRmFpbGVkID0geyBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5za2lsbG1hcmtldF9saWtlX2ZhaWxlZCwgaXQpIH0sCiAgICAgICAgICAgICAgICAgICAgcmVhY3Rpb25FcnJvciA9IHsgY29udGV4dC5nZXRTdHJpbmcoUi5zdHJpbmcuc2tpbGxtYXJrZXRfbGlrZV9mYWlsZWQsIGl0KSB9CiAgICAgICAgICAgICAgICApCiAgICAgICAgKQoKICAgIHZhbCBlbnRyeUNvbW1lbnRzID0gbWFya2V0SW50ZXJhY3Rpb25Db250cm9sbGVyLmVudHJ5Q29tbWVudHMKICAgIHZhbCBpc0xvYWRpbmdDb21tZW50cyA9IG1hcmtldEludGVyYWN0aW9uQ29udHJvbGxlci5pc0xvYWRpbmdDb21tZW50cwogICAgdmFsIGlzUG9zdGluZ0NvbW1lbnQgPSBtYXJrZXRJbnRlcmFjdGlvbkNvbnRyb2xsZXIuaXNQb3N0aW5nQ29tbWVudAogICAgdmFsIGlzRGVsZXRpbmdDb21tZW50ID0gbWFya2V0SW50ZXJhY3Rpb25Db250cm9sbGVyLmlzRGVsZXRpbmdDb21tZW50CiAgICB2YWwgZW50cnlSZWFjdGlvbnM6IFN0YXRlRmxvdzxNYXA8U3RyaW5nLCBMaXN0PE1hcmtldFYyUmVhY3Rpb24+Pj4gPSBtYXJrZXRJbnRlcmFjdGlvbkNvbnRyb2xsZXIuZW50cnlSZWFjdGlvbnMKICAgIHZhbCBpc0xvYWRpbmdSZWFjdGlvbnMgPSBtYXJrZXRJbnRlcmFjdGlvbkNvbnRyb2xsZXIuaXNMb2FkaW5nUmVhY3Rpb25zCiAgICB2YWwgaXNSZWFjdGluZyA9IG1hcmtldEludGVyYWN0aW9uQ29udHJvbGxlci5pc1JlYWN0aW5nCiAgICB2YWwgdXNlckF2YXRhckNhY2hlID0gbWFya2V0SW50ZXJhY3Rpb25Db250cm9sbGVyLnVzZXJBdmF0YXJDYWNoZQogICAgdmFsIHJlcG9zaXRvcnlDYWNoZSA9IG1hcmtldEludGVyYWN0aW9uQ29udHJvbGxlci5yZXBvc2l0b3J5Q2FjaGUKCiAgICBmdW4gbG9hZEVudHJ5KGluaXRpYWxFbnRyeTogTWFya2V0VjJFbnRyeSkgewogICAgICAgIHZhbCBlbnRyeUlkID0gaW5pdGlhbEVudHJ5LmlkCiAgICAgICAgaWYgKGVudHJ5SWQuaXNCbGFuaygpKSB7CiAgICAgICAgICAgIF9lbnRyeS52YWx1ZSA9IGluaXRpYWxFbnRyeQogICAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIF9lbnRyeS52YWx1ZSA9IGluaXRpYWxFbnRyeQogICAgICAgIF9pc0xvYWRpbmdFbnRyeS52YWx1ZSA9IGZhbHNlCiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgcmVmcmVzaExvY2FsSW5zdGFsbFN0YXRlcyhpbml0aWFsRW50cnkpCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBsb2FkRW50cnlDb21tZW50cyhlbnRyeUlkOiBTdHJpbmcpIHsKICAgICAgICBtYXJrZXRJbnRlcmFjdGlvbkNvbnRyb2xsZXIubG9hZEVudHJ5Q29tbWVudHMoZW50cnlJZCwgcGVyUGFnZSA9IDUwKQogICAgfQoKICAgIGZ1biBwb3N0RW50cnlDb21tZW50KGVudHJ5SWQ6IFN0cmluZywgYm9keTogU3RyaW5nLCBwYXJlbnRJZDogU3RyaW5nPyA9IG51bGwpIHsKICAgICAgICB2YWwgdGV4dCA9IGJvZHkudHJpbSgpCiAgICAgICAgaWYgKHRleHQuaXNCbGFuaygpKSByZXR1cm4KCiAgICAgICAgdmlld01vZGVsU2NvcGUubGF1bmNoIHsKICAgICAgICAgICAgaWYgKCFnaXRodWJBdXRoLmlzTG9nZ2VkSW4oKSkgewogICAgICAgICAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IGNvbnRleHQuZ2V0U3RyaW5nKFIuc3RyaW5nLm1jcF9wbHVnaW5fbG9naW5fcmVxdWlyZWQpCiAgICAgICAgICAgICAgICByZXR1cm5AbGF1bmNoCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbWFya2V0SW50ZXJhY3Rpb25Db250cm9sbGVyLnBvc3RFbnRyeUNvbW1lbnQoCiAgICAgICAgICAgICAgICBlbnRyeUlkID0gZW50cnlJZCwKICAgICAgICAgICAgICAgIGJvZHkgPSB0ZXh0LAogICAgICAgICAgICAgICAgcGFyZW50SWQgPSBwYXJlbnRJZCwKICAgICAgICAgICAgICAgIHN1Y2Nlc3NCZWhhdmlvciA9IENvbW1lbnRQb3N0U3VjY2Vzc0JlaGF2aW9yLlJFTE9BRF9GUk9NX1NFUlZFUiwKICAgICAgICAgICAgICAgIHBlclBhZ2UgPSA1MAogICAgICAgICAgICApCiAgICAgICAgfQogICAgfQoKICAgIGZ1biBlZGl0Q29tbWVudChlbnRyeUlkOiBTdHJpbmcsIGNvbW1lbnRJZDogU3RyaW5nLCBib2R5OiBTdHJpbmcpIHsKICAgICAgICB2YWwgdGV4dCA9IGJvZHkudHJpbSgpCiAgICAgICAgaWYgKHRleHQuaXNCbGFuaygpIHx8IGNvbW1lbnRJZC5pc0JsYW5rKCkpIHJldHVybgogICAgICAgIG1hcmtldEludGVyYWN0aW9uQ29udHJvbGxlci5lZGl0RW50cnlDb21tZW50KGVudHJ5SWQsIGNvbW1lbnRJZCwgdGV4dCkKICAgIH0KCiAgICBmdW4gZGVsZXRlQ29tbWVudChlbnRyeUlkOiBTdHJpbmcsIGNvbW1lbnRJZDogU3RyaW5nKSB7CiAgICAgICAgaWYgKGNvbW1lbnRJZC5pc0JsYW5rKCkpIHJldHVybgogICAgICAgIG1hcmtldEludGVyYWN0aW9uQ29udHJvbGxlci5kZWxldGVFbnRyeUNvbW1lbnQoZW50cnlJZCwgY29tbWVudElkKQogICAgfQoKICAgIGZ1biBsb2FkRW50cnlSZWFjdGlvbnMoZW50cnk6IE1hcmtldFYyRW50cnkpIHsKICAgICAgICBtYXJrZXRJbnRlcmFjdGlvbkNvbnRyb2xsZXIubG9hZEVudHJ5UmVhY3Rpb25zKAogICAgICAgICAgICBlbnRyeUlkID0gZW50cnkuaWQsCiAgICAgICAgICAgIGVudHJ5TGlrZXMgPSBlbnRyeS5tYXJrZXRMaWtlQ291bnQoKQogICAgICAgICkKICAgIH0KCiAgICBmdW4gYWRkUmVhY3Rpb25Ub0VudHJ5KGVudHJ5SWQ6IFN0cmluZykgewogICAgICAgIG1hcmtldEludGVyYWN0aW9uQ29udHJvbGxlci5hZGRSZWFjdGlvblRvRW50cnkoZW50cnlJZCkKICAgIH0KCiAgICBmdW4gaW5zdGFsbEVudHJ5KGVudHJ5OiBNYXJrZXRWMkVudHJ5KSB7CiAgICAgICAgdmFsIGVudHJ5SWQgPSBlbnRyeS5pZC50cmltKCkKICAgICAgICBpZiAoIU1hcmtldEluc3RhbGxTdGF0ZVN0b3JlLnN0YXJ0KGVudHJ5SWQpKSByZXR1cm4KICAgICAgICB2aWV3TW9kZWxTY29wZS5sYXVuY2ggewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgaW5zdGFsbENvbnRyb2xsZXIuaW5zdGFsbChlbnRyeSkgeyBzdGFnZSwgcHJvZ3Jlc3MgLT4KICAgICAgICAgICAgICAgICAgICBNYXJrZXRJbnN0YWxsU3RhdGVTdG9yZS51cGRhdGUoZW50cnlJZCwgc3RhZ2UsIHByb2dyZXNzKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIF9lcnJvck1lc3NhZ2UudmFsdWUgPSBjb250ZXh0LmdldFN0cmluZyhSLnN0cmluZy5tY3BfbWFya2V0X2luc3RhbGxfZmFpbGVkX3dpdGhfZXJyb3IsIGUubWVzc2FnZSA/OiAiIikKICAgICAgICAgICAgICAgIEFwcExvZ2dlci5lKFRBRywgIkZhaWxlZCB0byBpbnN0YWxsIG1hcmtldCBlbnRyeSAke2VudHJ5LmlkfSIsIGUpCiAgICAgICAgICAgIH0gZmluYWxseSB7CiAgICAgICAgICAgICAgICByZWZyZXNoTG9jYWxJbnN0YWxsU3RhdGVzKGVudHJ5KQogICAgICAgICAgICAgICAgTWFya2V0SW5zdGFsbFN0YXRlU3RvcmUuZmluaXNoKGVudHJ5SWQpCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBzdXNwZW5kIGZ1biByZWZyZXNoTG9jYWxJbnN0YWxsU3RhdGVzKGVudHJ5OiBNYXJrZXRWMkVudHJ5KSB7CiAgICAgICAgX2xvY2FsSW5zdGFsbFN0YXRlcy52YWx1ZSA9CiAgICAgICAgICAgIHdpdGhDb250ZXh0KERpc3BhdGNoZXJzLklPKSB7CiAgICAgICAgICAgICAgICByZXNvbHZlTWFya2V0TG9jYWxJbnN0YWxsU3RhdGVzKAogICAgICAgICAgICAgICAgICAgIGNvbnRleHQgPSBjb250ZXh0LmFwcGxpY2F0aW9uQ29udGV4dCwKICAgICAgICAgICAgICAgICAgICBwYWNrYWdlTWFuYWdlciA9IHBhY2thZ2VNYW5hZ2VyLAogICAgICAgICAgICAgICAgICAgIGVudHJpZXMgPSBsaXN0T2YoZW50cnkpCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgIH0KCiAgICBmdW4gZmV0Y2hVc2VyQXZhdGFyKHVzZXJuYW1lOiBTdHJpbmcpIHsKICAgICAgICBtYXJrZXRJbnRlcmFjdGlvbkNvbnRyb2xsZXIuZmV0Y2hVc2VyQXZhdGFyKHVzZXJuYW1lKQogICAgfQoKICAgIGZ1biBmZXRjaFJlcG9zaXRvcnlJbmZvKHJlcG9zaXRvcnlVcmw6IFN0cmluZykgewogICAgICAgIG1hcmtldEludGVyYWN0aW9uQ29udHJvbGxlci5mZXRjaFJlcG9zaXRvcnlJbmZvKHJlcG9zaXRvcnlVcmwpCiAgICB9CgogICAgZnVuIGNsZWFyRXJyb3IoKSB7CiAgICAgICAgX2Vycm9yTWVzc2FnZS52YWx1ZSA9IG51bGwKICAgIH0KCiAgICBjbGFzcyBGYWN0b3J5KHByaXZhdGUgdmFsIGNvbnRleHQ6IENvbnRleHQpIDogVmlld01vZGVsUHJvdmlkZXIuRmFjdG9yeSB7CiAgICAgICAgb3ZlcnJpZGUgZnVuIDxUIDogVmlld01vZGVsPiBjcmVhdGUobW9kZWxDbGFzczogQ2xhc3M8VD4pOiBUIHsKICAgICAgICAgICAgaWYgKG1vZGVsQ2xhc3MuaXNBc3NpZ25hYmxlRnJvbShVbmlmaWVkTWFya2V0RGV0YWlsVmlld01vZGVsOjpjbGFzcy5qYXZhKSkgewogICAgICAgICAgICAgICAgQFN1cHByZXNzKCJVTkNIRUNLRURfQ0FTVCIpCiAgICAgICAgICAgICAgICByZXR1cm4gVW5pZmllZE1hcmtldERldGFpbFZpZXdNb2RlbChjb250ZXh0KSBhcyBUCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdGhyb3cgSWxsZWdhbEFyZ3VtZW50RXhjZXB0aW9uKCJVbmtub3duIFZpZXdNb2RlbCBjbGFzcyIpCiAgICAgICAgfQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIFRBRyA9ICJVbmlmaWVkTWFya2V0RGV0YWlsVmlld01vZGVsIgogICAgfQp9Cgpwcml2YXRlIGZ1biBNYXJrZXRWMkVudHJ5Lm1hcmtldExpa2VDb3VudCgpOiBJbnQgewogICAgcmV0dXJuIHN0YXRzPy5saWtlcyA/OiByZWFjdGlvbnMuc3VtT2YgeyByZWFjdGlvbiAtPgogICAgICAgIHZhbCBrZXkgPSByZWFjdGlvbi5yZWFjdGlvbi5pZkJsYW5rIHsgcmVhY3Rpb24uY29udGVudCB9CiAgICAgICAgaWYgKGtleSA9PSAiKzEiIHx8IGtleS5lcXVhbHMoImxpa2UiLCBpZ25vcmVDYXNlID0gdHJ1ZSkpIHJlYWN0aW9uLnRvdGFsLmNvZXJjZUF0TGVhc3QoMSkgZWxzZSAwCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.packages.screens.market.viewmodel
+
+import android.content.Context
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import com.bslsjdk.operit.core.tools.AIToolHandler
+import com.bslsjdk.operit.core.tools.packTool.PackageManager
+import com.bslsjdk.operit.R
+import com.bslsjdk.operit.data.api.GitHubApiService
+import com.bslsjdk.operit.data.api.MarketStatsApiService
+import com.bslsjdk.operit.data.api.MarketV2Entry
+import com.bslsjdk.operit.data.api.MarketV2Reaction
+import com.bslsjdk.operit.data.preferences.GitHubAuthPreferences
+import com.bslsjdk.operit.ui.features.packages.market.CommentPostSuccessBehavior
+import com.bslsjdk.operit.ui.features.packages.market.MarketEntryInstallController
+import com.bslsjdk.operit.ui.features.packages.market.MarketInstallProgress
+import com.bslsjdk.operit.ui.features.packages.market.MarketInstallStateStore
+import com.bslsjdk.operit.ui.features.packages.market.MarketLocalInstallState
+import com.bslsjdk.operit.ui.features.packages.market.MarketInteractionController
+import com.bslsjdk.operit.ui.features.packages.market.MarketInteractionMessages
+import com.bslsjdk.operit.ui.features.packages.market.resolveMarketLocalInstallStates
+import com.bslsjdk.operit.util.AppLogger
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+
+class UnifiedMarketDetailViewModel(
+    private val context: Context
+) : ViewModel() {
+    private val marketStatsApiService = MarketStatsApiService()
+    private val githubApiService = GitHubApiService(context)
+    private val githubAuth = GitHubAuthPreferences.getInstance(context)
+    private val installController = MarketEntryInstallController(context, marketStatsApiService)
+    private val packageManager =
+        PackageManager.getInstance(context.applicationContext, AIToolHandler.getInstance(context.applicationContext))
+
+    private val _entry = MutableStateFlow<MarketV2Entry?>(null)
+    val entry: StateFlow<MarketV2Entry?> = _entry.asStateFlow()
+
+    private val _isLoadingEntry = MutableStateFlow(false)
+    val isLoadingEntry: StateFlow<Boolean> = _isLoadingEntry.asStateFlow()
+
+    private val _errorMessage = MutableStateFlow<String?>(null)
+    val errorMessage: StateFlow<String?> = _errorMessage.asStateFlow()
+
+    val installStates: StateFlow<Map<String, MarketInstallProgress>> = MarketInstallStateStore.installStates
+    private val _localInstallStates = MutableStateFlow<Map<String, MarketLocalInstallState>>(emptyMap())
+    val localInstallStates: StateFlow<Map<String, MarketLocalInstallState>> = _localInstallStates.asStateFlow()
+    private val marketInteractionController =
+        MarketInteractionController(
+            scope = viewModelScope,
+            context = context,
+            marketApiService = marketStatsApiService,
+            githubApiService = githubApiService,
+            logTag = TAG,
+            onError = { _errorMessage.value = it },
+            messages =
+                MarketInteractionMessages(
+                    commentLoadFailed = { context.getString(R.string.skillmarket_load_comments_failed, it) },
+                    commentLoadError = { context.getString(R.string.skillmarket_load_comments_failed, it) },
+                    commentPostFailed = { context.getString(R.string.skillmarket_post_comment_failed, it) },
+                    commentPostError = { context.getString(R.string.skillmarket_post_comment_failed, it) },
+                    reactionFailed = { context.getString(R.string.skillmarket_like_failed, it) },
+                    reactionError = { context.getString(R.string.skillmarket_like_failed, it) }
+                )
+        )
+
+    val entryComments = marketInteractionController.entryComments
+    val isLoadingComments = marketInteractionController.isLoadingComments
+    val isPostingComment = marketInteractionController.isPostingComment
+    val isDeletingComment = marketInteractionController.isDeletingComment
+    val entryReactions: StateFlow<Map<String, List<MarketV2Reaction>>> = marketInteractionController.entryReactions
+    val isLoadingReactions = marketInteractionController.isLoadingReactions
+    val isReacting = marketInteractionController.isReacting
+    val userAvatarCache = marketInteractionController.userAvatarCache
+    val repositoryCache = marketInteractionController.repositoryCache
+
+    fun loadEntry(initialEntry: MarketV2Entry) {
+        val entryId = initialEntry.id
+        if (entryId.isBlank()) {
+            _entry.value = initialEntry
+            return
+        }
+
+        _entry.value = initialEntry
+        _isLoadingEntry.value = false
+        viewModelScope.launch {
+            refreshLocalInstallStates(initialEntry)
+        }
+    }
+
+    fun loadEntryComments(entryId: String) {
+        marketInteractionController.loadEntryComments(entryId, perPage = 50)
+    }
+
+    fun postEntryComment(entryId: String, body: String, parentId: String? = null) {
+        val text = body.trim()
+        if (text.isBlank()) return
+
+        viewModelScope.launch {
+            if (!githubAuth.isLoggedIn()) {
+                _errorMessage.value = context.getString(R.string.mcp_plugin_login_required)
+                return@launch
+            }
+            marketInteractionController.postEntryComment(
+                entryId = entryId,
+                body = text,
+                parentId = parentId,
+                successBehavior = CommentPostSuccessBehavior.RELOAD_FROM_SERVER,
+                perPage = 50
+            )
+        }
+    }
+
+    fun editComment(entryId: String, commentId: String, body: String) {
+        val text = body.trim()
+        if (text.isBlank() || commentId.isBlank()) return
+        marketInteractionController.editEntryComment(entryId, commentId, text)
+    }
+
+    fun deleteComment(entryId: String, commentId: String) {
+        if (commentId.isBlank()) return
+        marketInteractionController.deleteEntryComment(entryId, commentId)
+    }
+
+    fun loadEntryReactions(entry: MarketV2Entry) {
+        marketInteractionController.loadEntryReactions(
+            entryId = entry.id,
+            entryLikes = entry.marketLikeCount()
+        )
+    }
+
+    fun addReactionToEntry(entryId: String) {
+        marketInteractionController.addReactionToEntry(entryId)
+    }
+
+    fun installEntry(entry: MarketV2Entry) {
+        val entryId = entry.id.trim()
+        if (!MarketInstallStateStore.start(entryId)) return
+        viewModelScope.launch {
+            try {
+                installController.install(entry) { stage, progress ->
+                    MarketInstallStateStore.update(entryId, stage, progress)
+                }
+            } catch (e: Exception) {
+                _errorMessage.value = context.getString(R.string.mcp_market_install_failed_with_error, e.message ?: "")
+                AppLogger.e(TAG, "Failed to install market entry ${entry.id}", e)
+            } finally {
+                refreshLocalInstallStates(entry)
+                MarketInstallStateStore.finish(entryId)
+            }
+        }
+    }
+
+    private suspend fun refreshLocalInstallStates(entry: MarketV2Entry) {
+        _localInstallStates.value =
+            withContext(Dispatchers.IO) {
+                resolveMarketLocalInstallStates(
+                    context = context.applicationContext,
+                    packageManager = packageManager,
+                    entries = listOf(entry)
+                )
+            }
+    }
+
+    fun fetchUserAvatar(username: String) {
+        marketInteractionController.fetchUserAvatar(username)
+    }
+
+    fun fetchRepositoryInfo(repositoryUrl: String) {
+        marketInteractionController.fetchRepositoryInfo(repositoryUrl)
+    }
+
+    fun clearError() {
+        _errorMessage.value = null
+    }
+
+    class Factory(private val context: Context) : ViewModelProvider.Factory {
+        override fun <T : ViewModel> create(modelClass: Class<T>): T {
+            if (modelClass.isAssignableFrom(UnifiedMarketDetailViewModel::class.java)) {
+                @Suppress("UNCHECKED_CAST")
+                return UnifiedMarketDetailViewModel(context) as T
+            }
+            throw IllegalArgumentException("Unknown ViewModel class")
+        }
+    }
+
+    companion object {
+        private const val TAG = "UnifiedMarketDetailViewModel"
+    }
+}
+
+private fun MarketV2Entry.marketLikeCount(): Int {
+    return stats?.likes ?: reactions.sumOf { reaction ->
+        val key = reaction.reaction.ifBlank { reaction.content }
+        if (key == "+1" || key.equals("like", ignoreCase = true)) reaction.total.coerceAtLeast(1) else 0
+    }
+}

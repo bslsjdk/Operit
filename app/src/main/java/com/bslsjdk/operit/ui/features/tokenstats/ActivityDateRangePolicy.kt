@@ -1,1 +1,34 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMudG9rZW5zdGF0cwoKaW1wb3J0IGNvbS5ic2xzamRrLm9wZXJpdC5kYXRhLnN0YXRzLlRva2VuQWN0aXZpdHlWaWV3TW9kZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuVG9rZW5TdGF0c1RpbWVSYW5nZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LmRhdGEuc3RhdHMuVG9rZW5TdGF0c1RpbWVSYW5nZXMKaW1wb3J0IGphdmEudGltZS5JbnN0YW50CmltcG9ydCBqYXZhLnRpbWUuTG9jYWxEYXRlCmltcG9ydCBqYXZhLnRpbWUuWm9uZUlkCgppbnRlcm5hbCBmdW4gYWN0aXZpdHlSYW5nZUFuY2hvckRhdGUoCiAgICByYW5nZTogVG9rZW5TdGF0c1RpbWVSYW5nZSwKICAgIHpvbmU6IFpvbmVJZCwKKTogTG9jYWxEYXRlID0gSW5zdGFudC5vZkVwb2NoTWlsbGkocmFuZ2UuZW5kTXMgLSAxTCkuYXRab25lKHpvbmUpLnRvTG9jYWxEYXRlKCkKCmludGVybmFsIGZ1biBhY3Rpdml0eVJhbmdlRm9yTW9kZSgKICAgIG1vZGU6IFRva2VuQWN0aXZpdHlWaWV3TW9kZSwKICAgIGFuY2hvckRhdGU6IExvY2FsRGF0ZSwKICAgIGhpc3RvcnlTdGFydERhdGU6IExvY2FsRGF0ZT8sCiAgICB6b25lOiBab25lSWQsCik6IFRva2VuU3RhdHNUaW1lUmFuZ2U/IHsKICAgIHZhbCBzdGFydERhdGUgPSB3aGVuIChtb2RlKSB7CiAgICAgICAgVG9rZW5BY3Rpdml0eVZpZXdNb2RlLkRBSUxZIC0+IGFuY2hvckRhdGUKICAgICAgICBUb2tlbkFjdGl2aXR5Vmlld01vZGUuV0VFS0xZIC0+IHsKICAgICAgICAgICAgLy8gS2VlcCB0aGUgcmFuZ2UgYWxpZ25lZCB3aXRoIFRva2VuQWN0aXZpdHlBZ2dyZWdhdG9yJ3MgU3VuZGF5LWZpcnN0IHdlZWtzLgogICAgICAgICAgICBhbmNob3JEYXRlLm1pbnVzRGF5cygoYW5jaG9yRGF0ZS5kYXlPZldlZWsudmFsdWUgJSA3KS50b0xvbmcoKSkKICAgICAgICB9CiAgICAgICAgVG9rZW5BY3Rpdml0eVZpZXdNb2RlLkNVTVVMQVRJVkUgLT4gaGlzdG9yeVN0YXJ0RGF0ZSA/OiByZXR1cm4gbnVsbAogICAgfQogICAgaWYgKHN0YXJ0RGF0ZS5pc0FmdGVyKGFuY2hvckRhdGUpKSByZXR1cm4gbnVsbAogICAgcmV0dXJuIFRva2VuU3RhdHNUaW1lUmFuZ2VzLmN1c3RvbVJhbmdlKAogICAgICAgIHN0YXJ0RGF0ZS5hdFN0YXJ0T2ZEYXkoem9uZSkudG9JbnN0YW50KCkudG9FcG9jaE1pbGxpKCksCiAgICAgICAgYW5jaG9yRGF0ZS5wbHVzRGF5cygxTCkuYXRTdGFydE9mRGF5KHpvbmUpLnRvSW5zdGFudCgpLnRvRXBvY2hNaWxsaSgpLAogICAgKQp9Cg==
+package com.bslsjdk.operit.ui.features.tokenstats
+
+import com.bslsjdk.operit.data.stats.TokenActivityViewMode
+import com.bslsjdk.operit.data.stats.TokenStatsTimeRange
+import com.bslsjdk.operit.data.stats.TokenStatsTimeRanges
+import java.time.Instant
+import java.time.LocalDate
+import java.time.ZoneId
+
+internal fun activityRangeAnchorDate(
+    range: TokenStatsTimeRange,
+    zone: ZoneId,
+): LocalDate = Instant.ofEpochMilli(range.endMs - 1L).atZone(zone).toLocalDate()
+
+internal fun activityRangeForMode(
+    mode: TokenActivityViewMode,
+    anchorDate: LocalDate,
+    historyStartDate: LocalDate?,
+    zone: ZoneId,
+): TokenStatsTimeRange? {
+    val startDate = when (mode) {
+        TokenActivityViewMode.DAILY -> anchorDate
+        TokenActivityViewMode.WEEKLY -> {
+            // Keep the range aligned with TokenActivityAggregator's Sunday-first weeks.
+            anchorDate.minusDays((anchorDate.dayOfWeek.value % 7).toLong())
+        }
+        TokenActivityViewMode.CUMULATIVE -> historyStartDate ?: return null
+    }
+    if (startDate.isAfter(anchorDate)) return null
+    return TokenStatsTimeRanges.customRange(
+        startDate.atStartOfDay(zone).toInstant().toEpochMilli(),
+        anchorDate.plusDays(1L).atStartOfDay(zone).toInstant().toEpochMilli(),
+    )
+}

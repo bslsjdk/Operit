@@ -1,1 +1,104 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnNwZWVjaAoKaW1wb3J0IGFuZHJvaWQuYW5ub3RhdGlvbi5TdXBwcmVzc0xpbnQKaW1wb3J0IGFuZHJvaWQuY29udGVudC5Db250ZXh0CmltcG9ydCBhbmRyb2lkLm1lZGlhLkF1ZGlvRm9ybWF0CmltcG9ydCBhbmRyb2lkLm1lZGlhLkF1ZGlvUmVjb3JkCmltcG9ydCBhbmRyb2lkLm1lZGlhLk1lZGlhUmVjb3JkZXIKaW1wb3J0IGtvdGxpbnguY29yb3V0aW5lcy5EaXNwYXRjaGVycwppbXBvcnQga290bGlueC5jb3JvdXRpbmVzLndpdGhDb250ZXh0CgpvYmplY3QgUGVyc29uYWxXYWtlRW5yb2xsbWVudCB7CgogICAgQFN1cHByZXNzTGludCgiTWlzc2luZ1Blcm1pc3Npb24iKQogICAgc3VzcGVuZCBmdW4gcmVjb3JkT25lVGVtcGxhdGUoCiAgICAgICAgY29udGV4dDogQ29udGV4dCwKICAgICAgICBtYXhSZWNvcmRNczogTG9uZyA9IDYwMDBMLAogICAgICAgIG1pblNwZWVjaE1zOiBMb25nID0gMjUwTCwKICAgICAgICBlbmRTaWxlbmNlTXM6IExvbmcgPSAzNTBMLAogICAgKTogRmxvYXRBcnJheT8gPSB3aXRoQ29udGV4dChEaXNwYXRjaGVycy5EZWZhdWx0KSB7CiAgICAgICAgdmFsIHNhbXBsZVJhdGUgPSAxNjAwMAogICAgICAgIHZhbCBmcmFtZVNpemUgPSA1MTIKCiAgICAgICAgdmFsIG1pbkJ1ZmZlclNpemUgPSBBdWRpb1JlY29yZC5nZXRNaW5CdWZmZXJTaXplKAogICAgICAgICAgICBzYW1wbGVSYXRlLAogICAgICAgICAgICBBdWRpb0Zvcm1hdC5DSEFOTkVMX0lOX01PTk8sCiAgICAgICAgICAgIEF1ZGlvRm9ybWF0LkVOQ09ESU5HX1BDTV8xNkJJVAogICAgICAgICkKCiAgICAgICAgdmFsIGF1ZGlvUmVjb3JkID0gQXVkaW9SZWNvcmQoCiAgICAgICAgICAgIE1lZGlhUmVjb3JkZXIuQXVkaW9Tb3VyY2UuTUlDLAogICAgICAgICAgICBzYW1wbGVSYXRlLAogICAgICAgICAgICBBdWRpb0Zvcm1hdC5DSEFOTkVMX0lOX01PTk8sCiAgICAgICAgICAgIEF1ZGlvRm9ybWF0LkVOQ09ESU5HX1BDTV8xNkJJVCwKICAgICAgICAgICAgKG1pbkJ1ZmZlclNpemUuY29lcmNlQXRMZWFzdChmcmFtZVNpemUpICogMikKICAgICAgICApCgogICAgICAgIHZhbCB2YWQgPSBPbm54U2lsZXJvVmFkKAogICAgICAgICAgICBjb250ZXh0ID0gY29udGV4dC5hcHBsaWNhdGlvbkNvbnRleHQsCiAgICAgICAgICAgIHNhbXBsZVJhdGUgPSBzYW1wbGVSYXRlLAogICAgICAgICAgICBmcmFtZVNpemUgPSBmcmFtZVNpemUsCiAgICAgICAgICAgIG1vZGUgPSBPbm54U2lsZXJvVmFkLk1vZGUuTk9STUFMLAogICAgICAgICAgICBzcGVlY2hEdXJhdGlvbk1zID0gNjAsCiAgICAgICAgICAgIHNpbGVuY2VEdXJhdGlvbk1zID0gMzAwLAogICAgICAgICkKCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGJ1ZmZlciA9IFNob3J0QXJyYXkoZnJhbWVTaXplKQogICAgICAgICAgICB2YWwgc3BlZWNoID0gQXJyYXlMaXN0PFNob3J0PigpCgogICAgICAgICAgICB2YXIgc2VlblNwZWVjaCA9IGZhbHNlCiAgICAgICAgICAgIHZhciBzaWxlbmNlTXNBZnRlclNwZWVjaCA9IDBMCiAgICAgICAgICAgIHZhciBzcGVlY2hNcyA9IDBMCgogICAgICAgICAgICB2YWwgc3RhcnRlZEF0ID0gU3lzdGVtLmN1cnJlbnRUaW1lTWlsbGlzKCkKICAgICAgICAgICAgYXVkaW9SZWNvcmQuc3RhcnRSZWNvcmRpbmcoKQoKICAgICAgICAgICAgd2hpbGUgKHRydWUpIHsKICAgICAgICAgICAgICAgIHZhbCBub3cgPSBTeXN0ZW0uY3VycmVudFRpbWVNaWxsaXMoKQogICAgICAgICAgICAgICAgaWYgKG5vdyAtIHN0YXJ0ZWRBdCA+IG1heFJlY29yZE1zKSBicmVhawoKICAgICAgICAgICAgICAgIHZhbCByZWFkID0gYXVkaW9SZWNvcmQucmVhZChidWZmZXIsIDAsIGJ1ZmZlci5zaXplKQogICAgICAgICAgICAgICAgaWYgKHJlYWQgPD0gMCkgY29udGludWUKCiAgICAgICAgICAgICAgICB2YWwgaXNTcGVlY2ggPSBpZiAocmVhZCA9PSBmcmFtZVNpemUpIHZhZC5pc1NwZWVjaChidWZmZXIpIGVsc2UgZmFsc2UKCiAgICAgICAgICAgICAgICBpZiAoaXNTcGVlY2gpIHsKICAgICAgICAgICAgICAgICAgICBzZWVuU3BlZWNoID0gdHJ1ZQogICAgICAgICAgICAgICAgICAgIHNpbGVuY2VNc0FmdGVyU3BlZWNoID0gMEwKICAgICAgICAgICAgICAgICAgICBzcGVlY2hNcyArPSAocmVhZCAqIDEwMDBMKSAvIHNhbXBsZVJhdGUKICAgICAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCByZWFkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHNwZWVjaC5hZGQoYnVmZmVyW2ldKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKHNlZW5TcGVlY2gpIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2lsZW5jZU1zQWZ0ZXJTcGVlY2ggKz0gKHJlYWQgKiAxMDAwTCkgLyBzYW1wbGVSYXRlCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChzaWxlbmNlTXNBZnRlclNwZWVjaCA+PSBlbmRTaWxlbmNlTXMpIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBpZiAoIXNlZW5TcGVlY2gpIHJldHVybkB3aXRoQ29udGV4dCBudWxsCiAgICAgICAgICAgIGlmIChzcGVlY2hNcyA8IG1pblNwZWVjaE1zKSByZXR1cm5Ad2l0aENvbnRleHQgbnVsbAoKICAgICAgICAgICAgdmFsIHBjbSA9IFNob3J0QXJyYXkoc3BlZWNoLnNpemUpCiAgICAgICAgICAgIGZvciAoaSBpbiBwY20uaW5kaWNlcykgewogICAgICAgICAgICAgICAgcGNtW2ldID0gc3BlZWNoW2ldCiAgICAgICAgICAgIH0KICAgICAgICAgICAgUGVyc29uYWxXYWtlRmVhdHVyZUV4dHJhY3Rvci5leHRyYWN0RmVhdHVyZXMocGNtLCBwY20uc2l6ZSkKICAgICAgICB9IGZpbmFsbHkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgYXVkaW9SZWNvcmQuc3RvcCgpCiAgICAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICB9CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBhdWRpb1JlY29yZC5yZWxlYXNlKCkKICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIHZhZC5jbG9zZSgpCiAgICAgICAgICAgIH0gY2F0Y2ggKF86IEV4Y2VwdGlvbikgewogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.api.speech
+
+import android.annotation.SuppressLint
+import android.content.Context
+import android.media.AudioFormat
+import android.media.AudioRecord
+import android.media.MediaRecorder
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+
+object PersonalWakeEnrollment {
+
+    @SuppressLint("MissingPermission")
+    suspend fun recordOneTemplate(
+        context: Context,
+        maxRecordMs: Long = 6000L,
+        minSpeechMs: Long = 250L,
+        endSilenceMs: Long = 350L,
+    ): FloatArray? = withContext(Dispatchers.Default) {
+        val sampleRate = 16000
+        val frameSize = 512
+
+        val minBufferSize = AudioRecord.getMinBufferSize(
+            sampleRate,
+            AudioFormat.CHANNEL_IN_MONO,
+            AudioFormat.ENCODING_PCM_16BIT
+        )
+
+        val audioRecord = AudioRecord(
+            MediaRecorder.AudioSource.MIC,
+            sampleRate,
+            AudioFormat.CHANNEL_IN_MONO,
+            AudioFormat.ENCODING_PCM_16BIT,
+            (minBufferSize.coerceAtLeast(frameSize) * 2)
+        )
+
+        val vad = OnnxSileroVad(
+            context = context.applicationContext,
+            sampleRate = sampleRate,
+            frameSize = frameSize,
+            mode = OnnxSileroVad.Mode.NORMAL,
+            speechDurationMs = 60,
+            silenceDurationMs = 300,
+        )
+
+        try {
+            val buffer = ShortArray(frameSize)
+            val speech = ArrayList<Short>()
+
+            var seenSpeech = false
+            var silenceMsAfterSpeech = 0L
+            var speechMs = 0L
+
+            val startedAt = System.currentTimeMillis()
+            audioRecord.startRecording()
+
+            while (true) {
+                val now = System.currentTimeMillis()
+                if (now - startedAt > maxRecordMs) break
+
+                val read = audioRecord.read(buffer, 0, buffer.size)
+                if (read <= 0) continue
+
+                val isSpeech = if (read == frameSize) vad.isSpeech(buffer) else false
+
+                if (isSpeech) {
+                    seenSpeech = true
+                    silenceMsAfterSpeech = 0L
+                    speechMs += (read * 1000L) / sampleRate
+                    for (i in 0 until read) {
+                        speech.add(buffer[i])
+                    }
+                } else {
+                    if (seenSpeech) {
+                        silenceMsAfterSpeech += (read * 1000L) / sampleRate
+                        if (silenceMsAfterSpeech >= endSilenceMs) break
+                    }
+                }
+            }
+
+            if (!seenSpeech) return@withContext null
+            if (speechMs < minSpeechMs) return@withContext null
+
+            val pcm = ShortArray(speech.size)
+            for (i in pcm.indices) {
+                pcm[i] = speech[i]
+            }
+            PersonalWakeFeatureExtractor.extractFeatures(pcm, pcm.size)
+        } finally {
+            try {
+                audioRecord.stop()
+            } catch (_: Exception) {
+            }
+            try {
+                audioRecord.release()
+            } catch (_: Exception) {
+            }
+            try {
+                vad.close()
+            } catch (_: Exception) {
+            }
+        }
+    }
+}

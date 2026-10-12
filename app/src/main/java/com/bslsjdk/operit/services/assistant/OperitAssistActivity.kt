@@ -1,1 +1,49 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuYXNzaXN0YW50CgppbXBvcnQgYW5kcm9pZC5hcHAuQWN0aXZpdHkKaW1wb3J0IGFuZHJvaWQuY29udGVudC5JbnRlbnQKaW1wb3J0IGFuZHJvaWQub3MuQnVpbGQKaW1wb3J0IGFuZHJvaWQub3MuQnVuZGxlCmltcG9ydCBjb20uYnNsc2pkay5vcGVyaXQuc2VydmljZXMuRmxvYXRpbmdDaGF0U2VydmljZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnVpLmZsb2F0aW5nLkZsb2F0aW5nTW9kZQppbXBvcnQgY29tLmJzbHNqZGsub3Blcml0LnV0aWwuQXBwTG9nZ2VyCgovKioKICogUmVjZWl2ZXMgc3lzdGVtIEFTU0lTVCBpbnRlbnRzIGFuZCBmb3J3YXJkcyB0aGVtIHRvIE9wZXJpdCdzIHZvaWNlIGFzc2lzdGFudCBlbnRyeS4KICovCmNsYXNzIE9wZXJpdEFzc2lzdEFjdGl2aXR5IDogQWN0aXZpdHkoKSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIk9wZXJpdEFzc2lzdEFjdGl2aXR5IgogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZShzYXZlZEluc3RhbmNlU3RhdGU6IEJ1bmRsZT8pIHsKICAgICAgICBzdXBlci5vbkNyZWF0ZShzYXZlZEluc3RhbmNlU3RhdGUpCiAgICAgICAgbGF1bmNoQXNzaXN0RW50cnkoKQogICAgICAgIGZpbmlzaCgpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uTmV3SW50ZW50KGludGVudDogSW50ZW50PykgewogICAgICAgIHN1cGVyLm9uTmV3SW50ZW50KGludGVudCkKICAgICAgICBzZXRJbnRlbnQoaW50ZW50KQogICAgICAgIGxhdW5jaEFzc2lzdEVudHJ5KCkKICAgICAgICBmaW5pc2goKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGxhdW5jaEFzc2lzdEVudHJ5KCkgewogICAgICAgIEFwcExvZ2dlci5kKFRBRywgIkFzc2lzdCBpbnRlbnQgcmVjZWl2ZWQsIGFjdGlvbj0ke2ludGVudD8uYWN0aW9ufSIpCiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgdmFsIGZsb2F0aW5nSW50ZW50ID0gSW50ZW50KHRoaXMsIEZsb2F0aW5nQ2hhdFNlcnZpY2U6OmNsYXNzLmphdmEpLmFwcGx5IHsKICAgICAgICAgICAgICAgIHB1dEV4dHJhKCJJTklUSUFMX01PREUiLCBGbG9hdGluZ01vZGUuRlVMTFNDUkVFTi5uYW1lKQogICAgICAgICAgICAgICAgcHV0RXh0cmEoRmxvYXRpbmdDaGF0U2VydmljZS5FWFRSQV9BVVRPX0VOVEVSX1ZPSUNFX0NIQVQsIHRydWUpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk8pIHsKICAgICAgICAgICAgICAgIHN0YXJ0Rm9yZWdyb3VuZFNlcnZpY2UoZmxvYXRpbmdJbnRlbnQpCiAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICBzdGFydFNlcnZpY2UoZmxvYXRpbmdJbnRlbnQpCiAgICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgQXBwTG9nZ2VyLmUoVEFHLCAiRmFpbGVkIHRvIGxhdW5jaCBhc3Npc3QgZW50cnkiLCBlKQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.services.assistant
+
+import android.app.Activity
+import android.content.Intent
+import android.os.Build
+import android.os.Bundle
+import com.bslsjdk.operit.services.FloatingChatService
+import com.bslsjdk.operit.ui.floating.FloatingMode
+import com.bslsjdk.operit.util.AppLogger
+
+/**
+ * Receives system ASSIST intents and forwards them to Operit's voice assistant entry.
+ */
+class OperitAssistActivity : Activity() {
+
+    companion object {
+        private const val TAG = "OperitAssistActivity"
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        launchAssistEntry()
+        finish()
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        launchAssistEntry()
+        finish()
+    }
+
+    private fun launchAssistEntry() {
+        AppLogger.d(TAG, "Assist intent received, action=${intent?.action}")
+        try {
+            val floatingIntent = Intent(this, FloatingChatService::class.java).apply {
+                putExtra("INITIAL_MODE", FloatingMode.FULLSCREEN.name)
+                putExtra(FloatingChatService.EXTRA_AUTO_ENTER_VOICE_CHAT, true)
+            }
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                startForegroundService(floatingIntent)
+            } else {
+                startService(floatingIntent)
+            }
+        } catch (e: Exception) {
+            AppLogger.e(TAG, "Failed to launch assist entry", e)
+        }
+    }
+}

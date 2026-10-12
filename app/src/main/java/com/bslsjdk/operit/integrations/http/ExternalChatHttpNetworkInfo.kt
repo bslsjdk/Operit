@@ -1,1 +1,26 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuaW50ZWdyYXRpb25zLmh0dHAKCmltcG9ydCBqYXZhLm5ldC5JbmV0NEFkZHJlc3MKaW1wb3J0IGphdmEubmV0Lk5ldHdvcmtJbnRlcmZhY2UKaW1wb3J0IGphdmEudXRpbC5Db2xsZWN0aW9ucwoKb2JqZWN0IEV4dGVybmFsQ2hhdEh0dHBOZXR3b3JrSW5mbyB7CgogICAgZnVuIGdldExvY2FsSXB2NEFkZHJlc3NlcygpOiBMaXN0PFN0cmluZz4gewogICAgICAgIHJldHVybiBydW5DYXRjaGluZyB7CiAgICAgICAgICAgIENvbGxlY3Rpb25zLmxpc3QoTmV0d29ya0ludGVyZmFjZS5nZXROZXR3b3JrSW50ZXJmYWNlcygpKQogICAgICAgICAgICAgICAgLmFzU2VxdWVuY2UoKQogICAgICAgICAgICAgICAgLmZpbHRlciB7IGl0LmlzVXAgJiYgIWl0LmlzTG9vcGJhY2sgJiYgIWl0LmlzVmlydHVhbCB9CiAgICAgICAgICAgICAgICAuZmxhdE1hcCB7IG5ldHdvcmtJbnRlcmZhY2UgLT4KICAgICAgICAgICAgICAgICAgICBDb2xsZWN0aW9ucy5saXN0KG5ldHdvcmtJbnRlcmZhY2UuaW5ldEFkZHJlc3NlcykuYXNTZXF1ZW5jZSgpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAuZmlsdGVySXNJbnN0YW5jZTxJbmV0NEFkZHJlc3M+KCkKICAgICAgICAgICAgICAgIC5maWx0ZXJOb3QgeyBpdC5pc0xvb3BiYWNrQWRkcmVzcyB9CiAgICAgICAgICAgICAgICAubWFwIHsgaXQuaG9zdEFkZHJlc3Mub3JFbXB0eSgpIH0KICAgICAgICAgICAgICAgIC5maWx0ZXIgeyBpdC5pc05vdEJsYW5rKCkgfQogICAgICAgICAgICAgICAgLmRpc3RpbmN0KCkKICAgICAgICAgICAgICAgIC5zb3J0ZWQoKQogICAgICAgICAgICAgICAgLnRvTGlzdCgpCiAgICAgICAgfS5nZXRPckVsc2UgeyBlbXB0eUxpc3QoKSB9CiAgICB9Cn0K
+package com.bslsjdk.operit.integrations.http
+
+import java.net.Inet4Address
+import java.net.NetworkInterface
+import java.util.Collections
+
+object ExternalChatHttpNetworkInfo {
+
+    fun getLocalIpv4Addresses(): List<String> {
+        return runCatching {
+            Collections.list(NetworkInterface.getNetworkInterfaces())
+                .asSequence()
+                .filter { it.isUp && !it.isLoopback && !it.isVirtual }
+                .flatMap { networkInterface ->
+                    Collections.list(networkInterface.inetAddresses).asSequence()
+                }
+                .filterIsInstance<Inet4Address>()
+                .filterNot { it.isLoopbackAddress }
+                .map { it.hostAddress.orEmpty() }
+                .filter { it.isNotBlank() }
+                .distinct()
+                .sorted()
+                .toList()
+        }.getOrElse { emptyList() }
+    }
+}

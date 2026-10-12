@@ -1,1 +1,272 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5tY3AKCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uU2VyaWFsaXphYmxlCmltcG9ydCBvcmcuanNvbi5KU09OQXJyYXkKaW1wb3J0IG9yZy5qc29uLkpTT05FeGNlcHRpb24KaW1wb3J0IG9yZy5qc29uLkpTT05PYmplY3QKCi8qKiBSZXByZXNlbnRzIGEgcGFyYW1ldGVyIGZvciBhbiBNQ1AgdG9vbCAqLwpAU2VyaWFsaXphYmxlCmRhdGEgY2xhc3MgTUNQVG9vbFBhcmFtZXRlcigKICAgICAgICB2YWwgbmFtZTogU3RyaW5nLAogICAgICAgIHZhbCB0eXBlOiBTdHJpbmcsCiAgICAgICAgdmFsIGRlc2NyaXB0aW9uOiBTdHJpbmcsCiAgICAgICAgdmFsIHJlcXVpcmVkOiBCb29sZWFuID0gZmFsc2UsCiAgICAgICAgdmFsIGRlZmF1bHRWYWx1ZTogU3RyaW5nPyA9IG51bGwKKSB7CiAgICAvKioKICAgICAqIOWwneivleagueaNruWPguaVsOexu+Wei+iHquWKqOi9rOaNouWtl+espuS4suWAvAogICAgICoKICAgICAqIEBwYXJhbSB2YWx1ZSDovpPlhaXlgLzvvIjpgJrluLjmmK/lrZfnrKbkuLLvvIkKICAgICAqIEByZXR1cm4g57uP6L+H57G75Z6L6L2s5o2i55qE5YC8CiAgICAgKi8KICAgIGZ1biBjb252ZXJ0UGFyYW1ldGVyVmFsdWUodmFsdWU6IEFueSk6IEFueSB7CiAgICAgICAgaWYgKHZhbHVlICFpcyBTdHJpbmcpIHJldHVybiB2YWx1ZQoKICAgICAgICByZXR1cm4gd2hlbiAodHlwZS5sb3dlcmNhc2UoKSkgewogICAgICAgICAgICAibnVtYmVyIiAtPiB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGlmICh2YWx1ZS5jb250YWlucygiLiIpKSB2YWx1ZS50b0RvdWJsZSgpIGVsc2UgdmFsdWUudG9Mb25nKCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIHZhbHVlIC8vIOaXoOazlei9rOaNouaXtui/lOWbnuWOn+Wni+WAvAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgICJib29sZWFuIiAtPiB2YWx1ZS5sb3dlcmNhc2UoKSA9PSAidHJ1ZSIKICAgICAgICAgICAgImludGVnZXIiIC0+IHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsdWUudG9JbnQoKQogICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsdWUKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAiZmxvYXQiLCAiZG91YmxlIiAtPiB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIHZhbHVlLnRvRG91YmxlKCkKICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIHZhbHVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgImFycmF5IiAtPiB7CiAgICAgICAgICAgICAgICAvLyDlsJ3or5XlsIblrZfnrKbkuLLop6PmnpDkuLrmlbDnu4QKICAgICAgICAgICAgICAgIENvbXBhbmlvbi5wYXJzZUFycmF5KHZhbHVlKQogICAgICAgICAgICB9CiAgICAgICAgICAgICJvYmplY3QiIC0+IHsKICAgICAgICAgICAgICAgIC8vIOWwneivleWwhuWtl+espuS4suino+aekOS4uuWvueixoQogICAgICAgICAgICAgICAgQ29tcGFuaW9uLnBhcnNlT2JqZWN0KHZhbHVlKQogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsc2UgLT4gdmFsdWUgLy8g5YW25LuW57G75Z6L5L+d5oyB5Y6f5qC3CiAgICAgICAgfQogICAgfQoKICAgIGNvbXBhbmlvbiBvYmplY3QgewogICAgICAgIC8qKgogICAgICAgICAqIOWwneivleaZuuiDvei9rOaNouWPguaVsOexu+Wei++8iOaXoOmcgE1DUFRvb2xQYXJhbWV0ZXLlrp7kvovvvIkKICAgICAgICAgKgogICAgICAgICAqIEBwYXJhbSB2YWx1ZSDovpPlhaXlgLzvvIjpgJrluLjmmK/lrZfnrKbkuLLvvIkKICAgICAgICAgKiBAcGFyYW0gdHlwZU5hbWUg57G75Z6L5ZCN56ewCiAgICAgICAgICogQHJldHVybiDovazmjaLlkI7nmoTlgLwKICAgICAgICAgKi8KICAgICAgICBmdW4gc21hcnRDb252ZXJ0KHZhbHVlOiBBbnksIHR5cGVOYW1lOiBTdHJpbmc/KTogQW55IHsKICAgICAgICAgICAgLy8g5aaC5p6c5bey57uP5pivIExpc3Qg5oiWIEFycmF577yM6YCS5b2S5aSE55CG5YWD57SgCiAgICAgICAgICAgIGlmICh2YWx1ZSBpcyBMaXN0PCo+KSB7CiAgICAgICAgICAgICAgICByZXR1cm4gdmFsdWUubWFwIHsgZWxlbWVudCAtPiAKICAgICAgICAgICAgICAgICAgICBpZiAoZWxlbWVudCAhPSBudWxsKSBzbWFydENvbnZlcnQoZWxlbWVudCwgbnVsbCkgZWxzZSBudWxsIAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIAogICAgICAgICAgICBpZiAodmFsdWUgIWlzIFN0cmluZykgcmV0dXJuIHZhbHVlCgogICAgICAgICAgICByZXR1cm4gd2hlbiAodHlwZU5hbWU/Lmxvd2VyY2FzZSgpKSB7CiAgICAgICAgICAgICAgICAibnVtYmVyIiAtPiB7CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHZhbHVlLmNvbnRhaW5zKCIuIikpIHZhbHVlLnRvRG91YmxlKCkgZWxzZSB2YWx1ZS50b0xvbmcoKQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICJib29sZWFuIiAtPiB2YWx1ZS5sb3dlcmNhc2UoKSA9PSAidHJ1ZSIKICAgICAgICAgICAgICAgICJpbnRlZ2VyIiAtPiB7CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWUudG9JbnQoKQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICJmbG9hdCIsICJkb3VibGUiIC0+IHsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZS50b0RvdWJsZSgpCiAgICAgICAgICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgImFycmF5IiAtPiB7CiAgICAgICAgICAgICAgICAgICAgLy8g5bCd6K+V6Kej5p6Q5pWw57uECiAgICAgICAgICAgICAgICAgICAgcGFyc2VBcnJheSh2YWx1ZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICJvYmplY3QiIC0+IHsKICAgICAgICAgICAgICAgICAgICAvLyDlsJ3or5Xop6PmnpDlr7nosaEKICAgICAgICAgICAgICAgICAgICBwYXJzZU9iamVjdCh2YWx1ZSkKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGVsc2UgLT4gewogICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOacquaMh+Wumuexu+Wei++8jOWwneivleaZuuiDveeMnOa1iwogICAgICAgICAgICAgICAgICAgIHdoZW4gewogICAgICAgICAgICAgICAgICAgICAgICAvLyDmo4DmtYvmmK/lkKbkuLrlr7nosaHmoLzlvI/vvIhKU09O5a+56LGh77yJCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlLnRyaW1TdGFydCgpLnN0YXJ0c1dpdGgoInsiKSAmJiB2YWx1ZS50cmltRW5kKCkuZW5kc1dpdGgoIn0iKSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJzZU9iamVjdCh2YWx1ZSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAvLyDmo4DmtYvmmK/lkKbkuLrmlbDnu4TmoLzlvI/vvIhKU09O5pWw57uE5oiW6YCX5Y+35YiG6ZqU77yJCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlLnRyaW1TdGFydCgpLnN0YXJ0c1dpdGgoIlsiKSAmJiB2YWx1ZS50cmltRW5kKCkuZW5kc1dpdGgoIl0iKSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJzZUFycmF5KHZhbHVlKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlLm1hdGNoZXMoUmVnZXgoIi0/XFxkKyhcXC5cXGQrKT8iKSkgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAodmFsdWUuY29udGFpbnMoIi4iKSkgdmFsdWUudG9Eb3VibGUoKSBlbHNlIHZhbHVlLnRvTG9uZygpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlLmxvd2VyY2FzZSgpID09ICJ0cnVlIiB8fCB2YWx1ZS5sb3dlcmNhc2UoKSA9PSAiZmFsc2UiIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlLmxvd2VyY2FzZSgpID09ICJ0cnVlIgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgLT4gdmFsdWUKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8qKgogICAgICAgICAqIOino+aekOaVsOe7hOWtl+espuS4su+8jOaUr+aMgSBKU09OIOagvOW8j+WSjOeugOWNleagvOW8jwogICAgICAgICAqIOmAkuW9kuWkhOeQhuaVsOe7hOWGheeahOWFg+e0oAogICAgICAgICAqCiAgICAgICAgICogQHBhcmFtIHZhbHVlIOWtl+espuS4suWAvAogICAgICAgICAqIEByZXR1cm4g6Kej5p6Q5ZCO55qE5YiX6KGo77yM5aaC5p6c5peg5rOV6Kej5p6Q5YiZ6L+U5Zue5Y6f5aeL5a2X56ym5LiyCiAgICAgICAgICovCiAgICAgICAgcHJpdmF0ZSBmdW4gcGFyc2VBcnJheSh2YWx1ZTogU3RyaW5nKTogQW55IHsKICAgICAgICAgICAgdmFsIHRyaW1tZWQgPSB2YWx1ZS50cmltKCkKICAgICAgICAgICAgCiAgICAgICAgICAgIC8vIOWwneivleS9nOS4uiBKU09OIOaVsOe7hOino+aekAogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGpzb25BcnJheSA9IEpTT05BcnJheSh0cmltbWVkKQogICAgICAgICAgICAgICAgdmFsIHJlc3VsdCA9IG11dGFibGVMaXN0T2Y8QW55PigpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIGpzb25BcnJheS5sZW5ndGgoKSkgewogICAgICAgICAgICAgICAgICAgIHZhbCBlbGVtZW50ID0gd2hlbiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGpzb25BcnJheS5pc051bGwoaSkgLT4gbnVsbAogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbCByYXdWYWx1ZSA9IGpzb25BcnJheS5nZXQoaSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOmAkuW9kuWkhOeQhuaVsOe7hOWFg+e0oAogICAgICAgICAgICAgICAgICAgICAgICAgICAgd2hlbiAocmF3VmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBKU09OQXJyYXkgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDltYzlpZfmlbDnu4TvvIzpgJLlvZLlpITnkIYKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFyc2VBcnJheShyYXdWYWx1ZS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBKU09OT2JqZWN0IC0+IHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5bWM5aWX5a+56LGh77yM6YCS5b2S5aSE55CGCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcnNlT2JqZWN0KHJhd1ZhbHVlLnRvU3RyaW5nKCkpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIE51bWJlciAtPiByYXdWYWx1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlzIEJvb2xlYW4gLT4gcmF3VmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpcyBTdHJpbmcgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDlr7nlrZfnrKbkuLLlhYPntKDov5vooYzmmbrog73ovazmjaIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc21hcnRDb252ZXJ0KHJhd1ZhbHVlLCBudWxsKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIC0+IHJhd1ZhbHVlCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaWYgKGVsZW1lbnQgIT0gbnVsbCkgewogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHQuYWRkKGVsZW1lbnQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICByZXR1cm4gcmVzdWx0CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IEpTT05FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIC8vIEpTT04g6Kej5p6Q5aSx6LSl77yM5bCd6K+V5L+u5aSN5bi46KeB55qE6Z2e5qCH5YeG5qC85byPCiAgICAgICAgICAgICAgICBpZiAodHJpbW1lZC5zdGFydHNXaXRoKCJbIikgJiYgdHJpbW1lZC5lbmRzV2l0aCgiXSIpKSB7CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5bCd6K+V5L+u5aSN5qC85byP77ya5bCG6YCX5Y+35YiG6ZqU55qE5peg5byV5Y+35qCH6K+G56ym6L2s5o2i5Li65bim5byV5Y+355qEIEpTT04g5pWw57uECiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBjb250ZW50ID0gdHJpbW1lZC5zdWJzdHJpbmcoMSwgdHJpbW1lZC5sZW5ndGggLSAxKS50cmltKCkKICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgIC8vIOajgOafpeaYr+WQpuaYr+eugOWNleeahOagh+ivhuespuWIl+ihqO+8iOWPquWMheWQq+Wtl+avjeOAgeaVsOWtl+OAgeS4i+WIkue6v+WSjOmAl+WPt++8iQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoY29udGVudC5tYXRjaGVzKFJlZ2V4KCJbXFx3XFxzLF8tXSsiKSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWIhuWJsuWFg+e0oOW5tua3u+WKoOW8leWPtwogICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsIGVsZW1lbnRzID0gY29udGVudC5zcGxpdCgiLCIpLm1hcCB7IGl0LnRyaW0oKSB9LmZpbHRlciB7IGl0LmlzTm90RW1wdHkoKSB9CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8vIOWmguaenOWFg+e0oOeci+i1t+adpeWDj+agh+ivhuespu+8iOmdnuaVsOWtl++8ie+8jOWImeS/neeVmeS4uuWtl+espuS4sgogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGVsZW1lbnRzLm1hcCB7IGVsZW1lbnQgLT4gCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGVsZW1lbnQubWF0Y2hlcyhSZWdleCgiXFxkKyIpKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50LnRvTG9uZ09yTnVsbCgpID86IGVsZW1lbnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgaWYgKGVsZW1lbnQubWF0Y2hlcyhSZWdleCgiXFxkK1xcLlxcZCsiKSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxlbWVudC50b0RvdWJsZU9yTnVsbCgpID86IGVsZW1lbnQKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbGVtZW50IC8vIOS/neeVmeS4uuWtl+espuS4sgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5ZCm5YiZ77yM5bCd6K+V5LiA6Iis55qE6YCX5Y+35YiG6ZqU6Kej5p6QCiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBlbGVtZW50cyA9IGNvbnRlbnQuc3BsaXQoIiwiKS5tYXAgeyBpdC50cmltKCkgfS5maWx0ZXIgeyBpdC5pc05vdEVtcHR5KCkgfQogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gZWxlbWVudHMubWFwIHsgZWxlbWVudCAtPiBzbWFydENvbnZlcnQoZWxlbWVudCwgbnVsbCkgfQogICAgICAgICAgICAgICAgICAgIH0gY2F0Y2ggKGV4OiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8g5L+u5aSN5aSx6LSl77yM6L+U5Zue5Y6f5aeL5YC8CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiB2YWx1ZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgLy8g5peg5rOV6Kej5p6Q77yM6L+U5Zue5Y6f5aeL5YC8CiAgICAgICAgICAgICAgICByZXR1cm4gdmFsdWUKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gdmFsdWUKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICAKICAgICAgICAvKioKICAgICAgICAgKiDop6PmnpDlr7nosaHlrZfnrKbkuLLvvIzmlK/mjIEgSlNPTiDmoLzlvI8KICAgICAgICAgKiDpgJLlvZLlpITnkIblr7nosaHlhoXnmoTlgLwKICAgICAgICAgKgogICAgICAgICAqIEBwYXJhbSB2YWx1ZSDlrZfnrKbkuLLlgLwKICAgICAgICAgKiBAcmV0dXJuIOino+aekOWQjueahCBNYXDvvIzlpoLmnpzml6Dms5Xop6PmnpDliJnov5Tlm57ljp/lp4vlrZfnrKbkuLIKICAgICAgICAgKi8KICAgICAgICBwcml2YXRlIGZ1biBwYXJzZU9iamVjdCh2YWx1ZTogU3RyaW5nKTogQW55IHsKICAgICAgICAgICAgdmFsIHRyaW1tZWQgPSB2YWx1ZS50cmltKCkKICAgICAgICAgICAgCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwganNvbk9iamVjdCA9IEpTT05PYmplY3QodHJpbW1lZCkKICAgICAgICAgICAgICAgIHZhbCByZXN1bHQgPSBtdXRhYmxlTWFwT2Y8U3RyaW5nLCBBbnk+KCkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgdmFsIGtleXMgPSBqc29uT2JqZWN0LmtleXMoKQogICAgICAgICAgICAgICAgd2hpbGUgKGtleXMuaGFzTmV4dCgpKSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGtleSA9IGtleXMubmV4dCgpCiAgICAgICAgICAgICAgICAgICAgdmFsIHJhd1ZhbHVlID0ganNvbk9iamVjdC5nZXQoa2V5KQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgIHZhbCBjb252ZXJ0ZWRWYWx1ZSA9IHdoZW4gKHJhd1ZhbHVlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIGlzIEpTT05PYmplY3QgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5bWM5aWX5a+56LGh77yM6YCS5b2S5aSE55CGCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYXJzZU9iamVjdChyYXdWYWx1ZS50b1N0cmluZygpKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGlzIEpTT05BcnJheSAtPiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDltYzlpZfmlbDnu4TvvIzpgJLlvZLlpITnkIYKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhcnNlQXJyYXkocmF3VmFsdWUudG9TdHJpbmcoKSkKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBpcyBOdW1iZXIgLT4gcmF3VmFsdWUKICAgICAgICAgICAgICAgICAgICAgICAgaXMgQm9vbGVhbiAtPiByYXdWYWx1ZQogICAgICAgICAgICAgICAgICAgICAgICBpcyBTdHJpbmcgLT4gewogICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8g5a+55a2X56ym5Liy5YC86L+b6KGM5pm66IO96L2s5o2iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzbWFydENvbnZlcnQocmF3VmFsdWUsIG51bGwpCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgZWxzZSAtPiByYXdWYWx1ZQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICByZXN1bHRba2V5XSA9IGNvbnZlcnRlZFZhbHVlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIHJldHVybiByZXN1bHQKICAgICAgICAgICAgfSBjYXRjaCAoZTogSlNPTkV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgLy8gSlNPTiDop6PmnpDlpLHotKXvvIzov5Tlm57ljp/lp4vlgLwKICAgICAgICAgICAgICAgIHJldHVybiB2YWx1ZQogICAgICAgICAgICB9IGNhdGNoIChlOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIHJldHVybiB2YWx1ZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQp9Cg==
+package com.bslsjdk.operit.core.tools.mcp
+
+import kotlinx.serialization.Serializable
+import org.json.JSONArray
+import org.json.JSONException
+import org.json.JSONObject
+
+/** Represents a parameter for an MCP tool */
+@Serializable
+data class MCPToolParameter(
+        val name: String,
+        val type: String,
+        val description: String,
+        val required: Boolean = false,
+        val defaultValue: String? = null
+) {
+    /**
+     * 尝试根据参数类型自动转换字符串值
+     *
+     * @param value 输入值（通常是字符串）
+     * @return 经过类型转换的值
+     */
+    fun convertParameterValue(value: Any): Any {
+        if (value !is String) return value
+
+        return when (type.lowercase()) {
+            "number" -> {
+                try {
+                    if (value.contains(".")) value.toDouble() else value.toLong()
+                } catch (e: Exception) {
+                    value // 无法转换时返回原始值
+                }
+            }
+            "boolean" -> value.lowercase() == "true"
+            "integer" -> {
+                try {
+                    value.toInt()
+                } catch (e: Exception) {
+                    value
+                }
+            }
+            "float", "double" -> {
+                try {
+                    value.toDouble()
+                } catch (e: Exception) {
+                    value
+                }
+            }
+            "array" -> {
+                // 尝试将字符串解析为数组
+                Companion.parseArray(value)
+            }
+            "object" -> {
+                // 尝试将字符串解析为对象
+                Companion.parseObject(value)
+            }
+            else -> value // 其他类型保持原样
+        }
+    }
+
+    companion object {
+        /**
+         * 尝试智能转换参数类型（无需MCPToolParameter实例）
+         *
+         * @param value 输入值（通常是字符串）
+         * @param typeName 类型名称
+         * @return 转换后的值
+         */
+        fun smartConvert(value: Any, typeName: String?): Any {
+            // 如果已经是 List 或 Array，递归处理元素
+            if (value is List<*>) {
+                return value.map { element -> 
+                    if (element != null) smartConvert(element, null) else null 
+                }
+            }
+            
+            if (value !is String) return value
+
+            return when (typeName?.lowercase()) {
+                "number" -> {
+                    try {
+                        if (value.contains(".")) value.toDouble() else value.toLong()
+                    } catch (e: Exception) {
+                        value
+                    }
+                }
+                "boolean" -> value.lowercase() == "true"
+                "integer" -> {
+                    try {
+                        value.toInt()
+                    } catch (e: Exception) {
+                        value
+                    }
+                }
+                "float", "double" -> {
+                    try {
+                        value.toDouble()
+                    } catch (e: Exception) {
+                        value
+                    }
+                }
+                "array" -> {
+                    // 尝试解析数组
+                    parseArray(value)
+                }
+                "object" -> {
+                    // 尝试解析对象
+                    parseObject(value)
+                }
+                else -> {
+                    // 如果未指定类型，尝试智能猜测
+                    when {
+                        // 检测是否为对象格式（JSON对象）
+                        value.trimStart().startsWith("{") && value.trimEnd().endsWith("}") -> {
+                            parseObject(value)
+                        }
+                        // 检测是否为数组格式（JSON数组或逗号分隔）
+                        value.trimStart().startsWith("[") && value.trimEnd().endsWith("]") -> {
+                            parseArray(value)
+                        }
+                        value.matches(Regex("-?\\d+(\\.\\d+)?")) -> {
+                            try {
+                                if (value.contains(".")) value.toDouble() else value.toLong()
+                            } catch (e: Exception) {
+                                value
+                            }
+                        }
+                        value.lowercase() == "true" || value.lowercase() == "false" -> {
+                            value.lowercase() == "true"
+                        }
+                        else -> value
+                    }
+                }
+            }
+        }
+
+        /**
+         * 解析数组字符串，支持 JSON 格式和简单格式
+         * 递归处理数组内的元素
+         *
+         * @param value 字符串值
+         * @return 解析后的列表，如果无法解析则返回原始字符串
+         */
+        private fun parseArray(value: String): Any {
+            val trimmed = value.trim()
+            
+            // 尝试作为 JSON 数组解析
+            try {
+                val jsonArray = JSONArray(trimmed)
+                val result = mutableListOf<Any>()
+                
+                for (i in 0 until jsonArray.length()) {
+                    val element = when {
+                        jsonArray.isNull(i) -> null
+                        else -> {
+                            val rawValue = jsonArray.get(i)
+                            // 递归处理数组元素
+                            when (rawValue) {
+                                is JSONArray -> {
+                                    // 嵌套数组，递归处理
+                                    parseArray(rawValue.toString())
+                                }
+                                is JSONObject -> {
+                                    // 嵌套对象，递归处理
+                                    parseObject(rawValue.toString())
+                                }
+                                is Number -> rawValue
+                                is Boolean -> rawValue
+                                is String -> {
+                                    // 对字符串元素进行智能转换
+                                    smartConvert(rawValue, null)
+                                }
+                                else -> rawValue
+                            }
+                        }
+                    }
+                    if (element != null) {
+                        result.add(element)
+                    }
+                }
+                
+                return result
+            } catch (e: JSONException) {
+                // JSON 解析失败，尝试修复常见的非标准格式
+                if (trimmed.startsWith("[") && trimmed.endsWith("]")) {
+                    try {
+                        // 尝试修复格式：将逗号分隔的无引号标识符转换为带引号的 JSON 数组
+                        val content = trimmed.substring(1, trimmed.length - 1).trim()
+                        
+                        // 检查是否是简单的标识符列表（只包含字母、数字、下划线和逗号）
+                        if (content.matches(Regex("[\\w\\s,_-]+"))) {
+                            // 分割元素并添加引号
+                            val elements = content.split(",").map { it.trim() }.filter { it.isNotEmpty() }
+                            
+                            // 如果元素看起来像标识符（非数字），则保留为字符串
+                            return elements.map { element -> 
+                                if (element.matches(Regex("\\d+"))) {
+                                    element.toLongOrNull() ?: element
+                                } else if (element.matches(Regex("\\d+\\.\\d+"))) {
+                                    element.toDoubleOrNull() ?: element
+                                } else {
+                                    element // 保留为字符串
+                                }
+                            }
+                        }
+                        
+                        // 否则，尝试一般的逗号分隔解析
+                        val elements = content.split(",").map { it.trim() }.filter { it.isNotEmpty() }
+                        return elements.map { element -> smartConvert(element, null) }
+                    } catch (ex: Exception) {
+                        // 修复失败，返回原始值
+                        return value
+                    }
+                }
+                
+                // 无法解析，返回原始值
+                return value
+            } catch (e: Exception) {
+                return value
+            }
+        }
+        
+        /**
+         * 解析对象字符串，支持 JSON 格式
+         * 递归处理对象内的值
+         *
+         * @param value 字符串值
+         * @return 解析后的 Map，如果无法解析则返回原始字符串
+         */
+        private fun parseObject(value: String): Any {
+            val trimmed = value.trim()
+            
+            try {
+                val jsonObject = JSONObject(trimmed)
+                val result = mutableMapOf<String, Any>()
+                
+                val keys = jsonObject.keys()
+                while (keys.hasNext()) {
+                    val key = keys.next()
+                    val rawValue = jsonObject.get(key)
+                    
+                    val convertedValue = when (rawValue) {
+                        is JSONObject -> {
+                            // 嵌套对象，递归处理
+                            parseObject(rawValue.toString())
+                        }
+                        is JSONArray -> {
+                            // 嵌套数组，递归处理
+                            parseArray(rawValue.toString())
+                        }
+                        is Number -> rawValue
+                        is Boolean -> rawValue
+                        is String -> {
+                            // 对字符串值进行智能转换
+                            smartConvert(rawValue, null)
+                        }
+                        else -> rawValue
+                    }
+                    
+                    result[key] = convertedValue
+                }
+                
+                return result
+            } catch (e: JSONException) {
+                // JSON 解析失败，返回原始值
+                return value
+            } catch (e: Exception) {
+                return value
+            }
+        }
+    }
+}

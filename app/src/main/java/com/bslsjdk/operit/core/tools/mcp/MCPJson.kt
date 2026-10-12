@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5tY3AKCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24uanNvbi5Kc29uCmltcG9ydCBrb3RsaW54LnNlcmlhbGl6YXRpb24ubW9kdWxlcy5TZXJpYWxpemVyc01vZHVsZQppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLm1vZHVsZXMuY29udGV4dHVhbAppbXBvcnQga290bGlueC5zZXJpYWxpemF0aW9uLnNlcmlhbGl6ZXIKCi8qKgogKiBNQ1AgSlNPTuW6j+WIl+WMlumFjee9rgogKi8KdmFsIE1jcEpzb24gPSBKc29uIHsKICAgIC8vIOW/veeVpeacquefpemUru+8jOS9v+W6j+WIl+WMluabtOWKoOWuveWuuQogICAgaWdub3JlVW5rbm93bktleXMgPSB0cnVlCiAgICAvLyDlhYHorrjluo/liJfljJZLb3RsaW7lr7nosaHnmoTpu5jorqTlgLwKICAgIGVuY29kZURlZmF1bHRzID0gdHJ1ZQogICAgLy8g5YWB6K645p2+5pWj55qESlNPTuino+aekAogICAgaXNMZW5pZW50ID0gdHJ1ZQp9CgovLyBVc2UgYSBzaW1wbGVyIGFwcHJvYWNoIHdpdGhvdXQgY29udGV4dHVhbCBzZXJpYWxpemVycwovLyBUaGlzIHdpbGwgYXZvaWQgdGhlIG5lZWQgZm9yIGNvbXBsZXggc2VyaWFsaXphdGlvbiBzZXR1cCA=
+package com.bslsjdk.operit.core.tools.mcp
+
+import kotlinx.serialization.json.Json
+import kotlinx.serialization.modules.SerializersModule
+import kotlinx.serialization.modules.contextual
+import kotlinx.serialization.serializer
+
+/**
+ * MCP JSON序列化配置
+ */
+val McpJson = Json {
+    // 忽略未知键，使序列化更加宽容
+    ignoreUnknownKeys = true
+    // 允许序列化Kotlin对象的默认值
+    encodeDefaults = true
+    // 允许松散的JSON解析
+    isLenient = true
+}
+
+// Use a simpler approach without contextual serializers
+// This will avoid the need for complex serialization setup 

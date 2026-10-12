@@ -1,1 +1,133 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQudWkuZmVhdHVyZXMuY2hhdC5jb21wb25lbnRzLnBhcnQKCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLm1hdGVyaWFsMy5NYXRlcmlhbFRoZW1lCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnJ1bnRpbWUuQ29tcG9zYWJsZQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5Nb2RpZmllcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS5ncmFwaGljcy5Db2xvcgppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udEZhbWlseQppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS50ZXh0LmZvbnQuRm9udFN0eWxlCmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuZm9udC5Gb250V2VpZ2h0CmltcG9ydCBhbmRyb2lkeC5jb21wb3NlLnVpLnRleHQuc3R5bGUuVGV4dERlY29yYXRpb24KaW1wb3J0IGFuZHJvaWR4LmNvbXBvc2UudWkudW5pdC5UZXh0VW5pdAppbXBvcnQgYW5kcm9pZHguY29tcG9zZS51aS51bml0LnNwCgpvYmplY3QgRm9udFRhZ1JlbmRlcmVyIHsKCiAgICBAQ29tcG9zYWJsZQogICAgZnVuIFJlbmRlcih4bWxDb250ZW50OiBTdHJpbmcsIG1vZGlmaWVyOiBNb2RpZmllciwgdGV4dENvbG9yOiBDb2xvcikgewogICAgICAgIHZhbCBpbm5lclRleHQgPSBleHRyYWN0Q29udGVudEZyb21YbWwoeG1sQ29udGVudCwgImZvbnQiKQogICAgICAgIHZhbCBjb2xvckF0dHIgPSBleHRyYWN0WG1sQXR0cmlidXRlKHhtbENvbnRlbnQsICJjb2xvciIpCiAgICAgICAgdmFsIHNpemVBdHRyID0gZXh0cmFjdFhtbEF0dHJpYnV0ZSh4bWxDb250ZW50LCAic2l6ZSIpCiAgICAgICAgdmFsIGZhY2VBdHRyID0gZXh0cmFjdFhtbEF0dHJpYnV0ZSh4bWxDb250ZW50LCAiZmFjZSIpCiAgICAgICAgdmFsIHN0eWxlQXR0ciA9IGV4dHJhY3RYbWxBdHRyaWJ1dGUoeG1sQ29udGVudCwgInN0eWxlIikKICAgICAgICB2YWwgYmdDb2xvckF0dHIgPSBleHRyYWN0WG1sQXR0cmlidXRlKHhtbENvbnRlbnQsICJiZ2NvbG9yIikKCiAgICAgICAgdmFsIGZvbnRDb2xvciA9IHBhcnNlRm9udENvbG9yKGNvbG9yQXR0ciwgdGV4dENvbG9yKQogICAgICAgIHZhbCBmb250U2l6ZSA9IHBhcnNlRm9udFNpemUoc2l6ZUF0dHIpCiAgICAgICAgdmFsIGZvbnRGYW1pbHkgPSBwYXJzZUZvbnRGYW1pbHkoZmFjZUF0dHIpCiAgICAgICAgdmFsICh3ZWlnaHQsIGZvbnRTdHlsZSwgZGVjb3JhdGlvbikgPSBwYXJzZUZvbnRTdHlsZShzdHlsZUF0dHIpCiAgICAgICAgdmFsIGJnQ29sb3IgPSBwYXJzZUZvbnRDb2xvcihiZ0NvbG9yQXR0ciwgQ29sb3IuVHJhbnNwYXJlbnQpCgogICAgICAgIHZhbCBiYXNlID0gTWF0ZXJpYWxUaGVtZS50eXBvZ3JhcGh5LmJvZHlNZWRpdW0KICAgICAgICB2YWwgcmVzb2x2ZWRTdHlsZSA9IGJhc2UuY29weSgKICAgICAgICAgICAgZm9udFNpemUgPSBmb250U2l6ZSA/OiBiYXNlLmZvbnRTaXplLAogICAgICAgICAgICBmb250RmFtaWx5ID0gZm9udEZhbWlseSA/OiBiYXNlLmZvbnRGYW1pbHksCiAgICAgICAgICAgIGZvbnRXZWlnaHQgPSB3ZWlnaHQgPzogYmFzZS5mb250V2VpZ2h0LAogICAgICAgICAgICBmb250U3R5bGUgPSBmb250U3R5bGUgPzogYmFzZS5mb250U3R5bGUsCiAgICAgICAgICAgIHRleHREZWNvcmF0aW9uID0gZGVjb3JhdGlvbiA/OiBiYXNlLnRleHREZWNvcmF0aW9uCiAgICAgICAgKQoKICAgICAgICBDYW52YXNGb250VGV4dEJsb2NrKAogICAgICAgICAgICB0ZXh0ID0gaW5uZXJUZXh0LAogICAgICAgICAgICBzdHlsZSA9IHJlc29sdmVkU3R5bGUsCiAgICAgICAgICAgIHRleHRDb2xvciA9IGZvbnRDb2xvciwKICAgICAgICAgICAgYmFja2dyb3VuZENvbG9yID0gYmdDb2xvciwKICAgICAgICAgICAgbW9kaWZpZXIgPSBtb2RpZmllciwKICAgICAgICApCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZXh0cmFjdENvbnRlbnRGcm9tWG1sKGNvbnRlbnQ6IFN0cmluZywgdGFnTmFtZTogU3RyaW5nKTogU3RyaW5nIHsKICAgICAgICB2YWwgc3RhcnRUYWcgPSAiPCR0YWdOYW1lIgogICAgICAgIHZhbCBlbmRUYWcgPSAiPC8kdGFnTmFtZT4iCgogICAgICAgIHZhbCBzdGFydFRhZ0VuZCA9IGNvbnRlbnQuaW5kZXhPZignPicsIGNvbnRlbnQuaW5kZXhPZihzdGFydFRhZykpICsgMQogICAgICAgIHZhbCBlbmRJbmRleCA9IGNvbnRlbnQubGFzdEluZGV4T2YoZW5kVGFnKQoKICAgICAgICByZXR1cm4gaWYgKHN0YXJ0VGFnRW5kID4gMCAmJiBlbmRJbmRleCA+IHN0YXJ0VGFnRW5kKSB7CiAgICAgICAgICAgIGNvbnRlbnQuc3Vic3RyaW5nKHN0YXJ0VGFnRW5kLCBlbmRJbmRleCkudHJpbSgpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgY29udGVudAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBleHRyYWN0WG1sQXR0cmlidXRlKGNvbnRlbnQ6IFN0cmluZywgYXR0cmlidXRlTmFtZTogU3RyaW5nKTogU3RyaW5nPyB7CiAgICAgICAgdmFsIHJlZ2V4ID0gKCJcXGIiICsgUmVnZXguZXNjYXBlKGF0dHJpYnV0ZU5hbWUpICsgIlxccyo9XFxzKihbXCInXSkoLio/KVxcMSIpLnRvUmVnZXgoKQogICAgICAgIHJldHVybiByZWdleC5maW5kKGNvbnRlbnQpPy5ncm91cFZhbHVlcz8uZ2V0T3JOdWxsKDIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VGb250Q29sb3IodmFsdWU6IFN0cmluZz8sIGZhbGxiYWNrOiBDb2xvcik6IENvbG9yIHsKICAgICAgICBpZiAodmFsdWUuaXNOdWxsT3JCbGFuaygpKSByZXR1cm4gZmFsbGJhY2sKICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgdmFsIHBhcnNlZCA9IGFuZHJvaWQuZ3JhcGhpY3MuQ29sb3IucGFyc2VDb2xvcih2YWx1ZS50cmltKCkpCiAgICAgICAgICAgIENvbG9yKHBhcnNlZCkKICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgZmFsbGJhY2sKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcGFyc2VGb250U2l6ZSh2YWx1ZTogU3RyaW5nPyk6IFRleHRVbml0PyB7CiAgICAgICAgaWYgKHZhbHVlLmlzTnVsbE9yQmxhbmsoKSkgcmV0dXJuIG51bGwKICAgICAgICB2YWwgcmF3ID0gdmFsdWUudHJpbSgpLmxvd2VyY2FzZSgpCgogICAgICAgIHZhbCBodG1sU2l6ZSA9IHJhdy50b0ludE9yTnVsbCgpCiAgICAgICAgaWYgKGh0bWxTaXplICE9IG51bGwgJiYgaHRtbFNpemUgaW4gMS4uNykgewogICAgICAgICAgICByZXR1cm4gd2hlbiAoaHRtbFNpemUpIHsKICAgICAgICAgICAgICAgIDEgLT4gMTAuc3AKICAgICAgICAgICAgICAgIDIgLT4gMTIuc3AKICAgICAgICAgICAgICAgIDMgLT4gMTQuc3AKICAgICAgICAgICAgICAgIDQgLT4gMTYuc3AKICAgICAgICAgICAgICAgIDUgLT4gMTguc3AKICAgICAgICAgICAgICAgIDYgLT4gMjAuc3AKICAgICAgICAgICAgICAgIGVsc2UgLT4gMjQuc3AKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdmFsIG51bWJlciA9IHJhdwogICAgICAgICAgICAucmVtb3ZlU3VmZml4KCJzcCIpCiAgICAgICAgICAgIC5yZW1vdmVTdWZmaXgoInB4IikKICAgICAgICAgICAgLnJlbW92ZVN1ZmZpeCgiZHAiKQogICAgICAgICAgICAudG9GbG9hdE9yTnVsbCgpID86IHJldHVybiBudWxsCgogICAgICAgIHJldHVybiBudW1iZXIuc3AKICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZUZvbnRGYW1pbHkodmFsdWU6IFN0cmluZz8pOiBGb250RmFtaWx5PyB7CiAgICAgICAgaWYgKHZhbHVlLmlzTnVsbE9yQmxhbmsoKSkgcmV0dXJuIG51bGwKICAgICAgICB2YWwgZmFjZSA9IHZhbHVlLnRyaW0oKS5sb3dlcmNhc2UoKQogICAgICAgIHJldHVybiB3aGVuIChmYWNlKSB7CiAgICAgICAgICAgICJtb25vc3BhY2UiLCAibW9ubyIgLT4gRm9udEZhbWlseS5Nb25vc3BhY2UKICAgICAgICAgICAgInNlcmlmIiAtPiBGb250RmFtaWx5LlNlcmlmCiAgICAgICAgICAgICJzYW5zLXNlcmlmIiwgInNhbnNzZXJpZiIsICJzYW5zIiAtPiBGb250RmFtaWx5LlNhbnNTZXJpZgogICAgICAgICAgICAiY3Vyc2l2ZSIgLT4gRm9udEZhbWlseS5DdXJzaXZlCiAgICAgICAgICAgIGVsc2UgLT4gbnVsbAogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBwYXJzZUZvbnRTdHlsZSh2YWx1ZTogU3RyaW5nPyk6IFRyaXBsZTxGb250V2VpZ2h0PywgRm9udFN0eWxlPywgVGV4dERlY29yYXRpb24/PiB7CiAgICAgICAgaWYgKHZhbHVlLmlzTnVsbE9yQmxhbmsoKSkgcmV0dXJuIFRyaXBsZShudWxsLCBudWxsLCBudWxsKQogICAgICAgIHZhbCBzdHlsZSA9IHZhbHVlLmxvd2VyY2FzZSgpCiAgICAgICAgdmFsIHdlaWdodCA9IGlmIChzdHlsZS5jb250YWlucygiYm9sZCIpKSBGb250V2VpZ2h0LkJvbGQgZWxzZSBudWxsCiAgICAgICAgdmFsIGZvbnRTdHlsZSA9IGlmIChzdHlsZS5jb250YWlucygiaXRhbGljIikpIEZvbnRTdHlsZS5JdGFsaWMgZWxzZSBudWxsCgogICAgICAgIHZhbCBkZWNvcmF0aW9ucyA9IG11dGFibGVMaXN0T2Y8VGV4dERlY29yYXRpb24+KCkKICAgICAgICBpZiAoc3R5bGUuY29udGFpbnMoInVuZGVybGluZSIpKSBkZWNvcmF0aW9ucy5hZGQoVGV4dERlY29yYXRpb24uVW5kZXJsaW5lKQogICAgICAgIGlmIChzdHlsZS5jb250YWlucygibGluZS10aHJvdWdoIikgfHwgc3R5bGUuY29udGFpbnMoInN0cmlrZXRocm91Z2giKSkgZGVjb3JhdGlvbnMuYWRkKFRleHREZWNvcmF0aW9uLkxpbmVUaHJvdWdoKQogICAgICAgIHZhbCBkZWNvcmF0aW9uID0gd2hlbiAoZGVjb3JhdGlvbnMuc2l6ZSkgewogICAgICAgICAgICAwIC0+IG51bGwKICAgICAgICAgICAgMSAtPiBkZWNvcmF0aW9ucy5maXJzdCgpCiAgICAgICAgICAgIGVsc2UgLT4gVGV4dERlY29yYXRpb24uY29tYmluZShkZWNvcmF0aW9ucykKICAgICAgICB9CgogICAgICAgIHJldHVybiBUcmlwbGUod2VpZ2h0LCBmb250U3R5bGUsIGRlY29yYXRpb24pCiAgICB9Cn0K
+package com.bslsjdk.operit.ui.features.chat.components.part
+
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextDecoration
+import androidx.compose.ui.unit.TextUnit
+import androidx.compose.ui.unit.sp
+
+object FontTagRenderer {
+
+    @Composable
+    fun Render(xmlContent: String, modifier: Modifier, textColor: Color) {
+        val innerText = extractContentFromXml(xmlContent, "font")
+        val colorAttr = extractXmlAttribute(xmlContent, "color")
+        val sizeAttr = extractXmlAttribute(xmlContent, "size")
+        val faceAttr = extractXmlAttribute(xmlContent, "face")
+        val styleAttr = extractXmlAttribute(xmlContent, "style")
+        val bgColorAttr = extractXmlAttribute(xmlContent, "bgcolor")
+
+        val fontColor = parseFontColor(colorAttr, textColor)
+        val fontSize = parseFontSize(sizeAttr)
+        val fontFamily = parseFontFamily(faceAttr)
+        val (weight, fontStyle, decoration) = parseFontStyle(styleAttr)
+        val bgColor = parseFontColor(bgColorAttr, Color.Transparent)
+
+        val base = MaterialTheme.typography.bodyMedium
+        val resolvedStyle = base.copy(
+            fontSize = fontSize ?: base.fontSize,
+            fontFamily = fontFamily ?: base.fontFamily,
+            fontWeight = weight ?: base.fontWeight,
+            fontStyle = fontStyle ?: base.fontStyle,
+            textDecoration = decoration ?: base.textDecoration
+        )
+
+        CanvasFontTextBlock(
+            text = innerText,
+            style = resolvedStyle,
+            textColor = fontColor,
+            backgroundColor = bgColor,
+            modifier = modifier,
+        )
+    }
+
+    private fun extractContentFromXml(content: String, tagName: String): String {
+        val startTag = "<$tagName"
+        val endTag = "</$tagName>"
+
+        val startTagEnd = content.indexOf('>', content.indexOf(startTag)) + 1
+        val endIndex = content.lastIndexOf(endTag)
+
+        return if (startTagEnd > 0 && endIndex > startTagEnd) {
+            content.substring(startTagEnd, endIndex).trim()
+        } else {
+            content
+        }
+    }
+
+    private fun extractXmlAttribute(content: String, attributeName: String): String? {
+        val regex = ("\\b" + Regex.escape(attributeName) + "\\s*=\\s*([\"'])(.*?)\\1").toRegex()
+        return regex.find(content)?.groupValues?.getOrNull(2)
+    }
+
+    private fun parseFontColor(value: String?, fallback: Color): Color {
+        if (value.isNullOrBlank()) return fallback
+        return try {
+            val parsed = android.graphics.Color.parseColor(value.trim())
+            Color(parsed)
+        } catch (_: Exception) {
+            fallback
+        }
+    }
+
+    private fun parseFontSize(value: String?): TextUnit? {
+        if (value.isNullOrBlank()) return null
+        val raw = value.trim().lowercase()
+
+        val htmlSize = raw.toIntOrNull()
+        if (htmlSize != null && htmlSize in 1..7) {
+            return when (htmlSize) {
+                1 -> 10.sp
+                2 -> 12.sp
+                3 -> 14.sp
+                4 -> 16.sp
+                5 -> 18.sp
+                6 -> 20.sp
+                else -> 24.sp
+            }
+        }
+
+        val number = raw
+            .removeSuffix("sp")
+            .removeSuffix("px")
+            .removeSuffix("dp")
+            .toFloatOrNull() ?: return null
+
+        return number.sp
+    }
+
+    private fun parseFontFamily(value: String?): FontFamily? {
+        if (value.isNullOrBlank()) return null
+        val face = value.trim().lowercase()
+        return when (face) {
+            "monospace", "mono" -> FontFamily.Monospace
+            "serif" -> FontFamily.Serif
+            "sans-serif", "sansserif", "sans" -> FontFamily.SansSerif
+            "cursive" -> FontFamily.Cursive
+            else -> null
+        }
+    }
+
+    private fun parseFontStyle(value: String?): Triple<FontWeight?, FontStyle?, TextDecoration?> {
+        if (value.isNullOrBlank()) return Triple(null, null, null)
+        val style = value.lowercase()
+        val weight = if (style.contains("bold")) FontWeight.Bold else null
+        val fontStyle = if (style.contains("italic")) FontStyle.Italic else null
+
+        val decorations = mutableListOf<TextDecoration>()
+        if (style.contains("underline")) decorations.add(TextDecoration.Underline)
+        if (style.contains("line-through") || style.contains("strikethrough")) decorations.add(TextDecoration.LineThrough)
+        val decoration = when (decorations.size) {
+            0 -> null
+            1 -> decorations.first()
+            else -> TextDecoration.combine(decorations)
+        }
+
+        return Triple(weight, fontStyle, decoration)
+    }
+}

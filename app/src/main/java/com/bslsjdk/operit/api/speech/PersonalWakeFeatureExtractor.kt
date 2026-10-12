@@ -1,1 +1,389 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLnNwZWVjaAoKaW1wb3J0IGtvdGxpbi5tYXRoLmFicwppbXBvcnQga290bGluLm1hdGguY29zCmltcG9ydCBrb3RsaW4ubWF0aC5tYXgKaW1wb3J0IGtvdGxpbi5tYXRoLm1pbgppbXBvcnQga290bGluLm1hdGguc2luCmltcG9ydCBrb3RsaW4ubWF0aC5zcXJ0CgpvYmplY3QgUGVyc29uYWxXYWtlRmVhdHVyZUV4dHJhY3RvciB7CiAgICBwcml2YXRlIGNvbnN0IHZhbCBFUFMgPSAxZS0xMGYKCiAgICBkYXRhIGNsYXNzIENvbmZpZygKICAgICAgICB2YWwgc2FtcGxlUmF0ZTogSW50ID0gMTYwMDAsCiAgICAgICAgdmFsIGZyYW1lU2l6ZTogSW50ID0gNDAwLAogICAgICAgIHZhbCBob3BTaXplOiBJbnQgPSAxNjAsCiAgICAgICAgdmFsIGZmdFNpemU6IEludCA9IDUxMiwKICAgICAgICB2YWwgbWVsQmluczogSW50ID0gNDAsCiAgICAgICAgdmFsIG51bU1mY2M6IEludCA9IDEzLAogICAgICAgIHZhbCBtYXhGcmFtZXM6IEludCA9IDY0LAogICAgICAgIHZhbCBmTWluOiBGbG9hdCA9IDIwZiwKICAgICAgICB2YWwgZk1heDogRmxvYXQgPSA0MDAwZiwKICAgICkKCiAgICBwcml2YXRlIGRhdGEgY2xhc3MgTWVsRmlsdGVyQmFuaygKICAgICAgICB2YWwgd2VpZ2h0czogQXJyYXk8RmxvYXRBcnJheT4sCiAgICApCgogICAgZnVuIGV4dHJhY3RGZWF0dXJlcygKICAgICAgICBwY206IFNob3J0QXJyYXksCiAgICAgICAgc2l6ZTogSW50LAogICAgICAgIGNvbmZpZzogQ29uZmlnID0gQ29uZmlnKCksCiAgICApOiBGbG9hdEFycmF5IHsKICAgICAgICB2YWwgbm9ybWFsaXplZCA9IG5vcm1hbGl6ZVBjbShwY20sIHNpemUpCiAgICAgICAgdmFsIHdhdmVmb3JtID0gdHJpbVRvTWF4KG5vcm1hbGl6ZWQsIG1heFNhbXBsZXMgPSBjb25maWcuc2FtcGxlUmF0ZSAqIDIpCgogICAgICAgIHZhbCBmcmFtZXMgPSBmcmFtZVNpZ25hbCh3YXZlZm9ybSwgY29uZmlnLmZyYW1lU2l6ZSwgY29uZmlnLmhvcFNpemUpCiAgICAgICAgaWYgKGZyYW1lcy5pc0VtcHR5KCkpIHJldHVybiBGbG9hdEFycmF5KDApCgogICAgICAgIHZhbCBtZWwgPSBidWlsZE1lbEZpbHRlckJhbmsoY29uZmlnKQoKICAgICAgICB2YWwgbG9nTWVscyA9IEFycmF5TGlzdDxGbG9hdEFycmF5PihmcmFtZXMuc2l6ZSkKICAgICAgICBmb3IgKGZyYW1lIGluIGZyYW1lcykgewogICAgICAgICAgICB2YWwgcHJlID0gcHJlRW1waGFzaXMoZnJhbWUsIDAuOTdmKQogICAgICAgICAgICB2YWwgd2luZG93ZWQgPSBhcHBseUhhbm4ocHJlKQogICAgICAgICAgICB2YWwgbWFnMiA9IGZmdE1hZ1NxdWFyZWQod2luZG93ZWQsIGNvbmZpZy5mZnRTaXplKQoKICAgICAgICAgICAgdmFsIGZlYXRzID0gRmxvYXRBcnJheShjb25maWcubWVsQmlucykKICAgICAgICAgICAgZm9yIChpIGluIDAgdW50aWwgY29uZmlnLm1lbEJpbnMpIHsKICAgICAgICAgICAgICAgIHZhciBzdW0gPSAwZgogICAgICAgICAgICAgICAgdmFsIHcgPSBtZWwud2VpZ2h0c1tpXQogICAgICAgICAgICAgICAgdmFsIG4gPSBtaW4ody5zaXplLCBtYWcyLnNpemUpCiAgICAgICAgICAgICAgICBmb3IgKGsgaW4gMCB1bnRpbCBuKSB7CiAgICAgICAgICAgICAgICAgICAgc3VtICs9IHdba10gKiBtYWcyW2tdCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBmZWF0c1tpXSA9IGtvdGxpbi5tYXRoLmxuKG1heChFUFMsIHN1bSkpCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGxvZ01lbHMuYWRkKGZlYXRzKQogICAgICAgIH0KCiAgICAgICAgdmFsIGxpbWl0ZWQgPSBsaW1pdEZyYW1lcyhsb2dNZWxzLCBjb25maWcubWF4RnJhbWVzKQogICAgICAgIHZhbCBtZmNjID0gY29tcHV0ZU1mY2MobGltaXRlZCwgY29uZmlnKQogICAgICAgIHZhbCBkZWx0YSA9IGNvbXB1dGVEZWx0YShtZmNjKQogICAgICAgIHZhbCBkZWx0YTIgPSBjb21wdXRlRGVsdGEoZGVsdGEpCgogICAgICAgIHZhbCBmZWF0dXJlRGltID0gY29uZmlnLm51bU1mY2MgKiAzCiAgICAgICAgdmFsIGZlYXRTZXEgPSBBcnJheShtZmNjLnNpemUpIHsgRmxvYXRBcnJheShmZWF0dXJlRGltKSB9CiAgICAgICAgZm9yICh0IGluIG1mY2MuaW5kaWNlcykgewogICAgICAgICAgICB2YWwgYmFzZTEgPSAwCiAgICAgICAgICAgIHZhbCBiYXNlMiA9IGNvbmZpZy5udW1NZmNjCiAgICAgICAgICAgIHZhbCBiYXNlMyA9IGNvbmZpZy5udW1NZmNjICogMgogICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBjb25maWcubnVtTWZjYykgewogICAgICAgICAgICAgICAgZmVhdFNlcVt0XVtiYXNlMSArIGldID0gbWZjY1t0XVtpXQogICAgICAgICAgICAgICAgZmVhdFNlcVt0XVtiYXNlMiArIGldID0gZGVsdGFbdF1baV0KICAgICAgICAgICAgICAgIGZlYXRTZXFbdF1bYmFzZTMgKyBpXSA9IGRlbHRhMlt0XVtpXQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBjbXZuSW5QbGFjZShmZWF0U2VxKQoKICAgICAgICB2YWwgb3V0ID0gRmxvYXRBcnJheShmZWF0U2VxLnNpemUgKiBmZWF0dXJlRGltKQogICAgICAgIHZhciBpZHggPSAwCiAgICAgICAgZm9yICh0IGluIGZlYXRTZXEuaW5kaWNlcykgewogICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBmZWF0dXJlRGltKSB7CiAgICAgICAgICAgICAgICBvdXRbaWR4KytdID0gZmVhdFNlcVt0XVtpXQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBvdXQKICAgIH0KCiAgICBwcml2YXRlIGZ1biBsaW1pdEZyYW1lcyhmcmFtZXM6IExpc3Q8RmxvYXRBcnJheT4sIG1heEZyYW1lczogSW50KTogTGlzdDxGbG9hdEFycmF5PiB7CiAgICAgICAgaWYgKGZyYW1lcy5zaXplIDw9IG1heEZyYW1lcykgcmV0dXJuIGZyYW1lcwogICAgICAgIHZhbCBvdXQgPSBBcnJheUxpc3Q8RmxvYXRBcnJheT4obWF4RnJhbWVzKQogICAgICAgIHZhbCBuID0gZnJhbWVzLnNpemUKICAgICAgICB2YWwgZGltID0gZnJhbWVzWzBdLnNpemUKICAgICAgICBmb3IgKHQgaW4gMCB1bnRpbCBtYXhGcmFtZXMpIHsKICAgICAgICAgICAgdmFsIHN0YXJ0ID0gKHQgKiBuKSAvIG1heEZyYW1lcwogICAgICAgICAgICB2YWwgZW5kID0gKCh0ICsgMSkgKiBuKSAvIG1heEZyYW1lcwogICAgICAgICAgICB2YWwgY291bnQgPSBtYXgoMSwgZW5kIC0gc3RhcnQpCiAgICAgICAgICAgIHZhbCBwb29sZWQgPSBGbG9hdEFycmF5KGRpbSkKICAgICAgICAgICAgZm9yIChrIGluIHN0YXJ0IHVudGlsIGVuZCkgewogICAgICAgICAgICAgICAgdmFsIHNyYyA9IGZyYW1lc1trXQogICAgICAgICAgICAgICAgZm9yIChpIGluIDAgdW50aWwgZGltKSB7CiAgICAgICAgICAgICAgICAgICAgcG9vbGVkW2ldICs9IHNyY1tpXQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBpbnYgPSAxZiAvIGNvdW50LnRvRmxvYXQoKQogICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBkaW0pIHsKICAgICAgICAgICAgICAgIHBvb2xlZFtpXSA9IHBvb2xlZFtpXSAqIGludgogICAgICAgICAgICB9CiAgICAgICAgICAgIG91dC5hZGQocG9vbGVkKQogICAgICAgIH0KICAgICAgICByZXR1cm4gb3V0CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY29tcHV0ZU1mY2MobG9nTWVsczogTGlzdDxGbG9hdEFycmF5PiwgY29uZmlnOiBDb25maWcpOiBBcnJheTxGbG9hdEFycmF5PiB7CiAgICAgICAgdmFsIHQgPSBsb2dNZWxzLnNpemUKICAgICAgICB2YWwgb3V0ID0gQXJyYXkodCkgeyBGbG9hdEFycmF5KGNvbmZpZy5udW1NZmNjKSB9CiAgICAgICAgdmFsIGNvc1RhYmxlID0gZGN0Q29zVGFibGUoY29uZmlnLm51bU1mY2MsIGNvbmZpZy5tZWxCaW5zKQogICAgICAgIGZvciAoZnJhbWUgaW4gMCB1bnRpbCB0KSB7CiAgICAgICAgICAgIHZhbCB4ID0gbG9nTWVsc1tmcmFtZV0KICAgICAgICAgICAgZm9yIChrIGluIDAgdW50aWwgY29uZmlnLm51bU1mY2MpIHsKICAgICAgICAgICAgICAgIHZhciBzdW0gPSAwZgogICAgICAgICAgICAgICAgdmFsIHJvdyA9IGNvc1RhYmxlW2tdCiAgICAgICAgICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBjb25maWcubWVsQmlucykgewogICAgICAgICAgICAgICAgICAgIHN1bSArPSB4W2ldICogcm93W2ldCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBvdXRbZnJhbWVdW2tdID0gc3VtCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIG91dAogICAgfQoKICAgIHByaXZhdGUgZnVuIGRjdENvc1RhYmxlKG51bU1mY2M6IEludCwgbWVsQmluczogSW50KTogQXJyYXk8RmxvYXRBcnJheT4gewogICAgICAgIHZhbCB0YWJsZSA9IEFycmF5KG51bU1mY2MpIHsgRmxvYXRBcnJheShtZWxCaW5zKSB9CiAgICAgICAgdmFsIG0gPSBtZWxCaW5zLnRvRmxvYXQoKQogICAgICAgIGZvciAoayBpbiAwIHVudGlsIG51bU1mY2MpIHsKICAgICAgICAgICAgdmFsIGtrID0gay50b0Zsb2F0KCkKICAgICAgICAgICAgZm9yIChpIGluIDAgdW50aWwgbWVsQmlucykgewogICAgICAgICAgICAgICAgdmFsIGlpID0gaS50b0Zsb2F0KCkKICAgICAgICAgICAgICAgIHZhbCBhbmdsZSA9IChNYXRoLlBJICoga2sgKiAoaWkgKyAwLjVmKSAvIG0pLnRvRG91YmxlKCkKICAgICAgICAgICAgICAgIHRhYmxlW2tdW2ldID0ga290bGluLm1hdGguY29zKGFuZ2xlKS50b0Zsb2F0KCkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4gdGFibGUKICAgIH0KCiAgICBwcml2YXRlIGZ1biBjb21wdXRlRGVsdGEoeDogQXJyYXk8RmxvYXRBcnJheT4pOiBBcnJheTxGbG9hdEFycmF5PiB7CiAgICAgICAgdmFsIHQgPSB4LnNpemUKICAgICAgICBpZiAodCA9PSAwKSByZXR1cm4gZW1wdHlBcnJheSgpCiAgICAgICAgdmFsIGQgPSB4WzBdLnNpemUKICAgICAgICB2YWwgb3V0ID0gQXJyYXkodCkgeyBGbG9hdEFycmF5KGQpIH0KICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCB0KSB7CiAgICAgICAgICAgIHZhbCBwcmV2ID0geFtpZiAoaSA+IDApIGkgLSAxIGVsc2UgMF0KICAgICAgICAgICAgdmFsIG5leHQgPSB4W2lmIChpICsgMSA8IHQpIGkgKyAxIGVsc2UgdCAtIDFdCiAgICAgICAgICAgIGZvciAoayBpbiAwIHVudGlsIGQpIHsKICAgICAgICAgICAgICAgIG91dFtpXVtrXSA9IChuZXh0W2tdIC0gcHJldltrXSkgKiAwLjVmCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgcmV0dXJuIG91dAogICAgfQoKICAgIHByaXZhdGUgZnVuIGNtdm5JblBsYWNlKHg6IEFycmF5PEZsb2F0QXJyYXk+KSB7CiAgICAgICAgaWYgKHguaXNFbXB0eSgpKSByZXR1cm4KICAgICAgICB2YWwgdCA9IHguc2l6ZQogICAgICAgIHZhbCBkID0geFswXS5zaXplCiAgICAgICAgZm9yIChrIGluIDAgdW50aWwgZCkgewogICAgICAgICAgICB2YXIgbWVhbiA9IDBmCiAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIHQpIHsKICAgICAgICAgICAgICAgIG1lYW4gKz0geFtpXVtrXQogICAgICAgICAgICB9CiAgICAgICAgICAgIG1lYW4gLz0gdAogICAgICAgICAgICB2YXIgdmFyU3VtID0gMGYKICAgICAgICAgICAgZm9yIChpIGluIDAgdW50aWwgdCkgewogICAgICAgICAgICAgICAgdmFsIGRpZmYgPSB4W2ldW2tdIC0gbWVhbgogICAgICAgICAgICAgICAgdmFyU3VtICs9IGRpZmYgKiBkaWZmCiAgICAgICAgICAgIH0KICAgICAgICAgICAgdmFsIHN0ZCA9IHNxcnQobWF4KEVQUywgdmFyU3VtIC8gdCkpCiAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIHQpIHsKICAgICAgICAgICAgICAgIHhbaV1ba10gPSAoeFtpXVtrXSAtIG1lYW4pIC8gc3RkCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgZnVuIGNvc2luZVNpbWlsYXJpdHkoYTogRmxvYXRBcnJheSwgYjogRmxvYXRBcnJheSk6IEZsb2F0IHsKICAgICAgICB2YWwgbiA9IG1pbihhLnNpemUsIGIuc2l6ZSkKICAgICAgICB2YXIgZG90ID0gMGYKICAgICAgICB2YXIgbmEgPSAwZgogICAgICAgIHZhciBuYiA9IDBmCiAgICAgICAgZm9yIChpIGluIDAgdW50aWwgbikgewogICAgICAgICAgICB2YWwgdmEgPSBhW2ldCiAgICAgICAgICAgIHZhbCB2YiA9IGJbaV0KICAgICAgICAgICAgZG90ICs9IHZhICogdmIKICAgICAgICAgICAgbmEgKz0gdmEgKiB2YQogICAgICAgICAgICBuYiArPSB2YiAqIHZiCiAgICAgICAgfQogICAgICAgIHZhbCBkZW5vbSA9IHNxcnQobWF4KEVQUywgbmEpKSAqIHNxcnQobWF4KEVQUywgbmIpKQogICAgICAgIHJldHVybiBkb3QgLyBkZW5vbQogICAgfQoKICAgIHByaXZhdGUgZnVuIG5vcm1hbGl6ZVBjbShwY206IFNob3J0QXJyYXksIHNpemU6IEludCk6IEZsb2F0QXJyYXkgewogICAgICAgIHZhbCBuID0gc2l6ZS5jb2VyY2VJbigwLCBwY20uc2l6ZSkKICAgICAgICBpZiAobiA9PSAwKSByZXR1cm4gRmxvYXRBcnJheSgwKQoKICAgICAgICB2YXIgbWVhbiA9IDBmCiAgICAgICAgZm9yIChpIGluIDAgdW50aWwgbikgewogICAgICAgICAgICBtZWFuICs9IHBjbVtpXSAvIDMyNzY4LjBmCiAgICAgICAgfQogICAgICAgIG1lYW4gLz0gbgoKICAgICAgICB2YWwgb3V0ID0gRmxvYXRBcnJheShuKQogICAgICAgIGZvciAoaSBpbiAwIHVudGlsIG4pIHsKICAgICAgICAgICAgdmFsIHYgPSAocGNtW2ldIC8gMzI3NjguMGYpIC0gbWVhbgogICAgICAgICAgICBvdXRbaV0gPSB2CiAgICAgICAgfQogICAgICAgIHJldHVybiBvdXQKICAgIH0KCiAgICBwcml2YXRlIGZ1biB0cmltVG9NYXgod2F2ZWZvcm06IEZsb2F0QXJyYXksIG1heFNhbXBsZXM6IEludCk6IEZsb2F0QXJyYXkgewogICAgICAgIGlmICh3YXZlZm9ybS5zaXplIDw9IG1heFNhbXBsZXMpIHJldHVybiB3YXZlZm9ybQogICAgICAgIHZhbCBzdGFydCA9ICh3YXZlZm9ybS5zaXplIC0gbWF4U2FtcGxlcykgLyAyCiAgICAgICAgcmV0dXJuIHdhdmVmb3JtLmNvcHlPZlJhbmdlKHN0YXJ0LCBzdGFydCArIG1heFNhbXBsZXMpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZnJhbWVTaWduYWwoc2lnbmFsOiBGbG9hdEFycmF5LCBmcmFtZVNpemU6IEludCwgaG9wU2l6ZTogSW50KTogTGlzdDxGbG9hdEFycmF5PiB7CiAgICAgICAgaWYgKHNpZ25hbC5zaXplIDwgZnJhbWVTaXplIHx8IGZyYW1lU2l6ZSA8PSAwIHx8IGhvcFNpemUgPD0gMCkgcmV0dXJuIGVtcHR5TGlzdCgpCiAgICAgICAgdmFsIGZyYW1lcyA9IEFycmF5TGlzdDxGbG9hdEFycmF5PigpCiAgICAgICAgdmFyIHBvcyA9IDAKICAgICAgICB3aGlsZSAocG9zICsgZnJhbWVTaXplIDw9IHNpZ25hbC5zaXplKSB7CiAgICAgICAgICAgIHZhbCBmID0gRmxvYXRBcnJheShmcmFtZVNpemUpCiAgICAgICAgICAgIGZvciAoaSBpbiAwIHVudGlsIGZyYW1lU2l6ZSkgewogICAgICAgICAgICAgICAgZltpXSA9IHNpZ25hbFtwb3MgKyBpXQogICAgICAgICAgICB9CiAgICAgICAgICAgIGZyYW1lcy5hZGQoZikKICAgICAgICAgICAgcG9zICs9IGhvcFNpemUKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGZyYW1lcwogICAgfQoKICAgIHByaXZhdGUgZnVuIHByZUVtcGhhc2lzKGZyYW1lOiBGbG9hdEFycmF5LCBjb2VmZjogRmxvYXQpOiBGbG9hdEFycmF5IHsKICAgICAgICB2YWwgb3V0ID0gRmxvYXRBcnJheShmcmFtZS5zaXplKQogICAgICAgIHZhciBwcmV2ID0gMGYKICAgICAgICBmb3IgKGkgaW4gZnJhbWUuaW5kaWNlcykgewogICAgICAgICAgICB2YWwgeCA9IGZyYW1lW2ldCiAgICAgICAgICAgIG91dFtpXSA9IHggLSBjb2VmZiAqIHByZXYKICAgICAgICAgICAgcHJldiA9IHgKICAgICAgICB9CiAgICAgICAgcmV0dXJuIG91dAogICAgfQoKICAgIHByaXZhdGUgZnVuIGFwcGx5SGFubihmcmFtZTogRmxvYXRBcnJheSk6IEZsb2F0QXJyYXkgewogICAgICAgIHZhbCBvdXQgPSBGbG9hdEFycmF5KGZyYW1lLnNpemUpCiAgICAgICAgdmFsIG4gPSBmcmFtZS5zaXplCiAgICAgICAgdmFsIGRlbm9tID0gbWF4KDEsIG4gLSAxKQogICAgICAgIGZvciAoaSBpbiAwIHVudGlsIG4pIHsKICAgICAgICAgICAgdmFsIHcgPSAwLjVmICogKDFmIC0gY29zKCgyLjAgKiBNYXRoLlBJICogaSAvIGRlbm9tKS50b0Zsb2F0KCkpKQogICAgICAgICAgICBvdXRbaV0gPSBmcmFtZVtpXSAqIHcKICAgICAgICB9CiAgICAgICAgcmV0dXJuIG91dAogICAgfQoKICAgIHByaXZhdGUgZnVuIGZmdE1hZ1NxdWFyZWQoZnJhbWU6IEZsb2F0QXJyYXksIGZmdFNpemU6IEludCk6IEZsb2F0QXJyYXkgewogICAgICAgIHZhbCBuID0gZmZ0U2l6ZQogICAgICAgIHZhbCByZSA9IEZsb2F0QXJyYXkobikKICAgICAgICB2YWwgaW0gPSBGbG9hdEFycmF5KG4pCiAgICAgICAgdmFsIG0gPSBtaW4oZnJhbWUuc2l6ZSwgbikKICAgICAgICBmb3IgKGkgaW4gMCB1bnRpbCBtKSB7CiAgICAgICAgICAgIHJlW2ldID0gZnJhbWVbaV0KICAgICAgICB9CgogICAgICAgIGZmdEluUGxhY2UocmUsIGltKQoKICAgICAgICB2YWwgYmlucyA9IG4gLyAyICsgMQogICAgICAgIHZhbCBtYWcyID0gRmxvYXRBcnJheShiaW5zKQogICAgICAgIGZvciAoaSBpbiAwIHVudGlsIGJpbnMpIHsKICAgICAgICAgICAgbWFnMltpXSA9IHJlW2ldICogcmVbaV0gKyBpbVtpXSAqIGltW2ldCiAgICAgICAgfQogICAgICAgIHJldHVybiBtYWcyCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gZmZ0SW5QbGFjZShyZTogRmxvYXRBcnJheSwgaW06IEZsb2F0QXJyYXkpIHsKICAgICAgICB2YWwgbiA9IHJlLnNpemUKICAgICAgICB2YXIgaiA9IDAKICAgICAgICBmb3IgKGkgaW4gMSB1bnRpbCBuKSB7CiAgICAgICAgICAgIHZhciBiaXQgPSBuIHNociAxCiAgICAgICAgICAgIHdoaWxlIChqIGFuZCBiaXQgIT0gMCkgewogICAgICAgICAgICAgICAgaiA9IGogeG9yIGJpdAogICAgICAgICAgICAgICAgYml0ID0gYml0IHNociAxCiAgICAgICAgICAgIH0KICAgICAgICAgICAgaiA9IGogeG9yIGJpdAogICAgICAgICAgICBpZiAoaSA8IGopIHsKICAgICAgICAgICAgICAgIHZhbCB0ciA9IHJlW2ldCiAgICAgICAgICAgICAgICByZVtpXSA9IHJlW2pdCiAgICAgICAgICAgICAgICByZVtqXSA9IHRyCiAgICAgICAgICAgICAgICB2YWwgdGkgPSBpbVtpXQogICAgICAgICAgICAgICAgaW1baV0gPSBpbVtqXQogICAgICAgICAgICAgICAgaW1bal0gPSB0aQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICB2YXIgbGVuID0gMgogICAgICAgIHdoaWxlIChsZW4gPD0gbikgewogICAgICAgICAgICB2YWwgYW5nID0gKC0yLjAgKiBNYXRoLlBJIC8gbGVuKS50b0Zsb2F0KCkKICAgICAgICAgICAgdmFsIHdsZW5SZSA9IGNvcyhhbmcpCiAgICAgICAgICAgIHZhbCB3bGVuSW0gPSBzaW4oYW5nKQogICAgICAgICAgICB2YXIgaSA9IDAKICAgICAgICAgICAgd2hpbGUgKGkgPCBuKSB7CiAgICAgICAgICAgICAgICB2YXIgd1JlID0gMWYKICAgICAgICAgICAgICAgIHZhciB3SW0gPSAwZgogICAgICAgICAgICAgICAgZm9yIChrIGluIDAgdW50aWwgbGVuIC8gMikgewogICAgICAgICAgICAgICAgICAgIHZhbCB1UmUgPSByZVtpICsga10KICAgICAgICAgICAgICAgICAgICB2YWwgdUltID0gaW1baSArIGtdCiAgICAgICAgICAgICAgICAgICAgdmFsIHZSZSA9IHJlW2kgKyBrICsgbGVuIC8gMl0gKiB3UmUgLSBpbVtpICsgayArIGxlbiAvIDJdICogd0ltCiAgICAgICAgICAgICAgICAgICAgdmFsIHZJbSA9IHJlW2kgKyBrICsgbGVuIC8gMl0gKiB3SW0gKyBpbVtpICsgayArIGxlbiAvIDJdICogd1JlCgogICAgICAgICAgICAgICAgICAgIHJlW2kgKyBrXSA9IHVSZSArIHZSZQogICAgICAgICAgICAgICAgICAgIGltW2kgKyBrXSA9IHVJbSArIHZJbQogICAgICAgICAgICAgICAgICAgIHJlW2kgKyBrICsgbGVuIC8gMl0gPSB1UmUgLSB2UmUKICAgICAgICAgICAgICAgICAgICBpbVtpICsgayArIGxlbiAvIDJdID0gdUltIC0gdkltCgogICAgICAgICAgICAgICAgICAgIHZhbCBuZXh0V1JlID0gd1JlICogd2xlblJlIC0gd0ltICogd2xlbkltCiAgICAgICAgICAgICAgICAgICAgdmFsIG5leHRXSW0gPSB3UmUgKiB3bGVuSW0gKyB3SW0gKiB3bGVuUmUKICAgICAgICAgICAgICAgICAgICB3UmUgPSBuZXh0V1JlCiAgICAgICAgICAgICAgICAgICAgd0ltID0gbmV4dFdJbQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaSArPSBsZW4KICAgICAgICAgICAgfQogICAgICAgICAgICBsZW4gPSBsZW4gc2hsIDEKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gYnVpbGRNZWxGaWx0ZXJCYW5rKGNvbmZpZzogQ29uZmlnKTogTWVsRmlsdGVyQmFuayB7CiAgICAgICAgdmFsIGJpbnMgPSBjb25maWcuZmZ0U2l6ZSAvIDIgKyAxCiAgICAgICAgdmFsIHdlaWdodHMgPSBBcnJheShjb25maWcubWVsQmlucykgeyBGbG9hdEFycmF5KGJpbnMpIH0KCiAgICAgICAgdmFsIGZNYXggPSBpZiAoY29uZmlnLmZNYXggPD0gMGYpIGNvbmZpZy5zYW1wbGVSYXRlIC8gMmYgZWxzZSBjb25maWcuZk1heAogICAgICAgIHZhbCBtZWxNaW4gPSBoelRvTWVsKGNvbmZpZy5mTWluKQogICAgICAgIHZhbCBtZWxNYXggPSBoelRvTWVsKGZNYXgpCgogICAgICAgIHZhbCBtZWxQb2ludHMgPSBGbG9hdEFycmF5KGNvbmZpZy5tZWxCaW5zICsgMikKICAgICAgICBmb3IgKGkgaW4gbWVsUG9pbnRzLmluZGljZXMpIHsKICAgICAgICAgICAgbWVsUG9pbnRzW2ldID0gbWVsTWluICsgKG1lbE1heCAtIG1lbE1pbikgKiBpIC8gKGNvbmZpZy5tZWxCaW5zICsgMSkKICAgICAgICB9CgogICAgICAgIHZhbCBoelBvaW50cyA9IEZsb2F0QXJyYXkobWVsUG9pbnRzLnNpemUpIHsgaSAtPiBtZWxUb0h6KG1lbFBvaW50c1tpXSkgfQogICAgICAgIHZhbCBiaW5Qb2ludHMgPSBJbnRBcnJheShoelBvaW50cy5zaXplKSB7IGkgLT4KICAgICAgICAgICAgdmFsIGZyZXEgPSBoelBvaW50c1tpXQogICAgICAgICAgICB2YWwgYiA9ICgoY29uZmlnLmZmdFNpemUgKyAxKSAqIGZyZXEgLyBjb25maWcuc2FtcGxlUmF0ZSkudG9JbnQoKQogICAgICAgICAgICBiLmNvZXJjZUluKDAsIGJpbnMgLSAxKQogICAgICAgIH0KCiAgICAgICAgZm9yIChtIGluIDEuLmNvbmZpZy5tZWxCaW5zKSB7CiAgICAgICAgICAgIHZhbCBsZWZ0ID0gYmluUG9pbnRzW20gLSAxXQogICAgICAgICAgICB2YWwgY2VudGVyID0gYmluUG9pbnRzW21dCiAgICAgICAgICAgIHZhbCByaWdodCA9IGJpblBvaW50c1ttICsgMV0KCiAgICAgICAgICAgIGlmIChjZW50ZXIgPT0gbGVmdCB8fCByaWdodCA9PSBjZW50ZXIpIGNvbnRpbnVlCgogICAgICAgICAgICBmb3IgKGsgaW4gbGVmdCB1bnRpbCBjZW50ZXIpIHsKICAgICAgICAgICAgICAgIHdlaWdodHNbbSAtIDFdW2tdID0gKGsgLSBsZWZ0KS50b0Zsb2F0KCkgLyAoY2VudGVyIC0gbGVmdCkudG9GbG9hdCgpCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZm9yIChrIGluIGNlbnRlciB1bnRpbCByaWdodCkgewogICAgICAgICAgICAgICAgd2VpZ2h0c1ttIC0gMV1ba10gPSAocmlnaHQgLSBrKS50b0Zsb2F0KCkgLyAocmlnaHQgLSBjZW50ZXIpLnRvRmxvYXQoKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICByZXR1cm4gTWVsRmlsdGVyQmFuayh3ZWlnaHRzID0gd2VpZ2h0cykKICAgIH0KCiAgICBwcml2YXRlIGZ1biBoelRvTWVsKGh6OiBGbG9hdCk6IEZsb2F0IHsKICAgICAgICByZXR1cm4gKDI1OTUuMCAqIE1hdGgubG9nMTAoMS4wICsgaHogLyA3MDAuMCkpLnRvRmxvYXQoKQogICAgfQoKICAgIHByaXZhdGUgZnVuIG1lbFRvSHoobWVsOiBGbG9hdCk6IEZsb2F0IHsKICAgICAgICByZXR1cm4gKDcwMC4wICogKE1hdGgucG93KDEwLjAsIChtZWwgLyAyNTk1LjApLnRvRG91YmxlKCkpIC0gMS4wKSkudG9GbG9hdCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gbDJOb3JtYWxpemVJblBsYWNlKHg6IEZsb2F0QXJyYXkpIHsKICAgICAgICB2YXIgbm9ybSA9IDBmCiAgICAgICAgZm9yICh2IGluIHgpIHsKICAgICAgICAgICAgbm9ybSArPSB2ICogdgogICAgICAgIH0KICAgICAgICBub3JtID0gc3FydChtYXgoRVBTLCBub3JtKSkKICAgICAgICBmb3IgKGkgaW4geC5pbmRpY2VzKSB7CiAgICAgICAgICAgIHhbaV0gLz0gbm9ybQogICAgICAgIH0KICAgIH0KfQo=
+package com.bslsjdk.operit.api.speech
+
+import kotlin.math.abs
+import kotlin.math.cos
+import kotlin.math.max
+import kotlin.math.min
+import kotlin.math.sin
+import kotlin.math.sqrt
+
+object PersonalWakeFeatureExtractor {
+    private const val EPS = 1e-10f
+
+    data class Config(
+        val sampleRate: Int = 16000,
+        val frameSize: Int = 400,
+        val hopSize: Int = 160,
+        val fftSize: Int = 512,
+        val melBins: Int = 40,
+        val numMfcc: Int = 13,
+        val maxFrames: Int = 64,
+        val fMin: Float = 20f,
+        val fMax: Float = 4000f,
+    )
+
+    private data class MelFilterBank(
+        val weights: Array<FloatArray>,
+    )
+
+    fun extractFeatures(
+        pcm: ShortArray,
+        size: Int,
+        config: Config = Config(),
+    ): FloatArray {
+        val normalized = normalizePcm(pcm, size)
+        val waveform = trimToMax(normalized, maxSamples = config.sampleRate * 2)
+
+        val frames = frameSignal(waveform, config.frameSize, config.hopSize)
+        if (frames.isEmpty()) return FloatArray(0)
+
+        val mel = buildMelFilterBank(config)
+
+        val logMels = ArrayList<FloatArray>(frames.size)
+        for (frame in frames) {
+            val pre = preEmphasis(frame, 0.97f)
+            val windowed = applyHann(pre)
+            val mag2 = fftMagSquared(windowed, config.fftSize)
+
+            val feats = FloatArray(config.melBins)
+            for (i in 0 until config.melBins) {
+                var sum = 0f
+                val w = mel.weights[i]
+                val n = min(w.size, mag2.size)
+                for (k in 0 until n) {
+                    sum += w[k] * mag2[k]
+                }
+                feats[i] = kotlin.math.ln(max(EPS, sum))
+            }
+
+            logMels.add(feats)
+        }
+
+        val limited = limitFrames(logMels, config.maxFrames)
+        val mfcc = computeMfcc(limited, config)
+        val delta = computeDelta(mfcc)
+        val delta2 = computeDelta(delta)
+
+        val featureDim = config.numMfcc * 3
+        val featSeq = Array(mfcc.size) { FloatArray(featureDim) }
+        for (t in mfcc.indices) {
+            val base1 = 0
+            val base2 = config.numMfcc
+            val base3 = config.numMfcc * 2
+            for (i in 0 until config.numMfcc) {
+                featSeq[t][base1 + i] = mfcc[t][i]
+                featSeq[t][base2 + i] = delta[t][i]
+                featSeq[t][base3 + i] = delta2[t][i]
+            }
+        }
+
+        cmvnInPlace(featSeq)
+
+        val out = FloatArray(featSeq.size * featureDim)
+        var idx = 0
+        for (t in featSeq.indices) {
+            for (i in 0 until featureDim) {
+                out[idx++] = featSeq[t][i]
+            }
+        }
+        return out
+    }
+
+    private fun limitFrames(frames: List<FloatArray>, maxFrames: Int): List<FloatArray> {
+        if (frames.size <= maxFrames) return frames
+        val out = ArrayList<FloatArray>(maxFrames)
+        val n = frames.size
+        val dim = frames[0].size
+        for (t in 0 until maxFrames) {
+            val start = (t * n) / maxFrames
+            val end = ((t + 1) * n) / maxFrames
+            val count = max(1, end - start)
+            val pooled = FloatArray(dim)
+            for (k in start until end) {
+                val src = frames[k]
+                for (i in 0 until dim) {
+                    pooled[i] += src[i]
+                }
+            }
+            val inv = 1f / count.toFloat()
+            for (i in 0 until dim) {
+                pooled[i] = pooled[i] * inv
+            }
+            out.add(pooled)
+        }
+        return out
+    }
+
+    private fun computeMfcc(logMels: List<FloatArray>, config: Config): Array<FloatArray> {
+        val t = logMels.size
+        val out = Array(t) { FloatArray(config.numMfcc) }
+        val cosTable = dctCosTable(config.numMfcc, config.melBins)
+        for (frame in 0 until t) {
+            val x = logMels[frame]
+            for (k in 0 until config.numMfcc) {
+                var sum = 0f
+                val row = cosTable[k]
+                for (i in 0 until config.melBins) {
+                    sum += x[i] * row[i]
+                }
+                out[frame][k] = sum
+            }
+        }
+        return out
+    }
+
+    private fun dctCosTable(numMfcc: Int, melBins: Int): Array<FloatArray> {
+        val table = Array(numMfcc) { FloatArray(melBins) }
+        val m = melBins.toFloat()
+        for (k in 0 until numMfcc) {
+            val kk = k.toFloat()
+            for (i in 0 until melBins) {
+                val ii = i.toFloat()
+                val angle = (Math.PI * kk * (ii + 0.5f) / m).toDouble()
+                table[k][i] = kotlin.math.cos(angle).toFloat()
+            }
+        }
+        return table
+    }
+
+    private fun computeDelta(x: Array<FloatArray>): Array<FloatArray> {
+        val t = x.size
+        if (t == 0) return emptyArray()
+        val d = x[0].size
+        val out = Array(t) { FloatArray(d) }
+        for (i in 0 until t) {
+            val prev = x[if (i > 0) i - 1 else 0]
+            val next = x[if (i + 1 < t) i + 1 else t - 1]
+            for (k in 0 until d) {
+                out[i][k] = (next[k] - prev[k]) * 0.5f
+            }
+        }
+        return out
+    }
+
+    private fun cmvnInPlace(x: Array<FloatArray>) {
+        if (x.isEmpty()) return
+        val t = x.size
+        val d = x[0].size
+        for (k in 0 until d) {
+            var mean = 0f
+            for (i in 0 until t) {
+                mean += x[i][k]
+            }
+            mean /= t
+            var varSum = 0f
+            for (i in 0 until t) {
+                val diff = x[i][k] - mean
+                varSum += diff * diff
+            }
+            val std = sqrt(max(EPS, varSum / t))
+            for (i in 0 until t) {
+                x[i][k] = (x[i][k] - mean) / std
+            }
+        }
+    }
+
+    fun cosineSimilarity(a: FloatArray, b: FloatArray): Float {
+        val n = min(a.size, b.size)
+        var dot = 0f
+        var na = 0f
+        var nb = 0f
+        for (i in 0 until n) {
+            val va = a[i]
+            val vb = b[i]
+            dot += va * vb
+            na += va * va
+            nb += vb * vb
+        }
+        val denom = sqrt(max(EPS, na)) * sqrt(max(EPS, nb))
+        return dot / denom
+    }
+
+    private fun normalizePcm(pcm: ShortArray, size: Int): FloatArray {
+        val n = size.coerceIn(0, pcm.size)
+        if (n == 0) return FloatArray(0)
+
+        var mean = 0f
+        for (i in 0 until n) {
+            mean += pcm[i] / 32768.0f
+        }
+        mean /= n
+
+        val out = FloatArray(n)
+        for (i in 0 until n) {
+            val v = (pcm[i] / 32768.0f) - mean
+            out[i] = v
+        }
+        return out
+    }
+
+    private fun trimToMax(waveform: FloatArray, maxSamples: Int): FloatArray {
+        if (waveform.size <= maxSamples) return waveform
+        val start = (waveform.size - maxSamples) / 2
+        return waveform.copyOfRange(start, start + maxSamples)
+    }
+
+    private fun frameSignal(signal: FloatArray, frameSize: Int, hopSize: Int): List<FloatArray> {
+        if (signal.size < frameSize || frameSize <= 0 || hopSize <= 0) return emptyList()
+        val frames = ArrayList<FloatArray>()
+        var pos = 0
+        while (pos + frameSize <= signal.size) {
+            val f = FloatArray(frameSize)
+            for (i in 0 until frameSize) {
+                f[i] = signal[pos + i]
+            }
+            frames.add(f)
+            pos += hopSize
+        }
+        return frames
+    }
+
+    private fun preEmphasis(frame: FloatArray, coeff: Float): FloatArray {
+        val out = FloatArray(frame.size)
+        var prev = 0f
+        for (i in frame.indices) {
+            val x = frame[i]
+            out[i] = x - coeff * prev
+            prev = x
+        }
+        return out
+    }
+
+    private fun applyHann(frame: FloatArray): FloatArray {
+        val out = FloatArray(frame.size)
+        val n = frame.size
+        val denom = max(1, n - 1)
+        for (i in 0 until n) {
+            val w = 0.5f * (1f - cos((2.0 * Math.PI * i / denom).toFloat()))
+            out[i] = frame[i] * w
+        }
+        return out
+    }
+
+    private fun fftMagSquared(frame: FloatArray, fftSize: Int): FloatArray {
+        val n = fftSize
+        val re = FloatArray(n)
+        val im = FloatArray(n)
+        val m = min(frame.size, n)
+        for (i in 0 until m) {
+            re[i] = frame[i]
+        }
+
+        fftInPlace(re, im)
+
+        val bins = n / 2 + 1
+        val mag2 = FloatArray(bins)
+        for (i in 0 until bins) {
+            mag2[i] = re[i] * re[i] + im[i] * im[i]
+        }
+        return mag2
+    }
+
+    private fun fftInPlace(re: FloatArray, im: FloatArray) {
+        val n = re.size
+        var j = 0
+        for (i in 1 until n) {
+            var bit = n shr 1
+            while (j and bit != 0) {
+                j = j xor bit
+                bit = bit shr 1
+            }
+            j = j xor bit
+            if (i < j) {
+                val tr = re[i]
+                re[i] = re[j]
+                re[j] = tr
+                val ti = im[i]
+                im[i] = im[j]
+                im[j] = ti
+            }
+        }
+
+        var len = 2
+        while (len <= n) {
+            val ang = (-2.0 * Math.PI / len).toFloat()
+            val wlenRe = cos(ang)
+            val wlenIm = sin(ang)
+            var i = 0
+            while (i < n) {
+                var wRe = 1f
+                var wIm = 0f
+                for (k in 0 until len / 2) {
+                    val uRe = re[i + k]
+                    val uIm = im[i + k]
+                    val vRe = re[i + k + len / 2] * wRe - im[i + k + len / 2] * wIm
+                    val vIm = re[i + k + len / 2] * wIm + im[i + k + len / 2] * wRe
+
+                    re[i + k] = uRe + vRe
+                    im[i + k] = uIm + vIm
+                    re[i + k + len / 2] = uRe - vRe
+                    im[i + k + len / 2] = uIm - vIm
+
+                    val nextWRe = wRe * wlenRe - wIm * wlenIm
+                    val nextWIm = wRe * wlenIm + wIm * wlenRe
+                    wRe = nextWRe
+                    wIm = nextWIm
+                }
+                i += len
+            }
+            len = len shl 1
+        }
+    }
+
+    private fun buildMelFilterBank(config: Config): MelFilterBank {
+        val bins = config.fftSize / 2 + 1
+        val weights = Array(config.melBins) { FloatArray(bins) }
+
+        val fMax = if (config.fMax <= 0f) config.sampleRate / 2f else config.fMax
+        val melMin = hzToMel(config.fMin)
+        val melMax = hzToMel(fMax)
+
+        val melPoints = FloatArray(config.melBins + 2)
+        for (i in melPoints.indices) {
+            melPoints[i] = melMin + (melMax - melMin) * i / (config.melBins + 1)
+        }
+
+        val hzPoints = FloatArray(melPoints.size) { i -> melToHz(melPoints[i]) }
+        val binPoints = IntArray(hzPoints.size) { i ->
+            val freq = hzPoints[i]
+            val b = ((config.fftSize + 1) * freq / config.sampleRate).toInt()
+            b.coerceIn(0, bins - 1)
+        }
+
+        for (m in 1..config.melBins) {
+            val left = binPoints[m - 1]
+            val center = binPoints[m]
+            val right = binPoints[m + 1]
+
+            if (center == left || right == center) continue
+
+            for (k in left until center) {
+                weights[m - 1][k] = (k - left).toFloat() / (center - left).toFloat()
+            }
+            for (k in center until right) {
+                weights[m - 1][k] = (right - k).toFloat() / (right - center).toFloat()
+            }
+        }
+
+        return MelFilterBank(weights = weights)
+    }
+
+    private fun hzToMel(hz: Float): Float {
+        return (2595.0 * Math.log10(1.0 + hz / 700.0)).toFloat()
+    }
+
+    private fun melToHz(mel: Float): Float {
+        return (700.0 * (Math.pow(10.0, (mel / 2595.0).toDouble()) - 1.0)).toFloat()
+    }
+
+    private fun l2NormalizeInPlace(x: FloatArray) {
+        var norm = 0f
+        for (v in x) {
+            norm += v * v
+        }
+        norm = sqrt(max(EPS, norm))
+        for (i in x.indices) {
+            x[i] /= norm
+        }
+    }
+}

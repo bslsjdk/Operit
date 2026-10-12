@@ -1,1 +1,202 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuY29yZS50b29scy5qYXZhc2NyaXB0CgppbnRlcm5hbCBmdW4gYnVpbGRUb29sUGtnQXBpUnVudGltZVNjcmlwdCgpOiBTdHJpbmcgewogICAgcmV0dXJuICIiIgogICAgICAgIChmdW5jdGlvbigpIHsKICAgICAgICAgICAgdmFyIHJvb3QgPSB0eXBlb2YgZ2xvYmFsVGhpcyAhPT0gJ3VuZGVmaW5lZCcKICAgICAgICAgICAgICAgID8gZ2xvYmFsVGhpcwogICAgICAgICAgICAgICAgOiAodHlwZW9mIHdpbmRvdyAhPT0gJ3VuZGVmaW5lZCcgPyB3aW5kb3cgOiB0aGlzKTsKICAgICAgICAgICAgdmFyIGV4cG9zZSA9IHJvb3QuX19vcGVyaXRFeHBvc2U7CiAgICAgICAgICAgIGlmICh0eXBlb2YgZXhwb3NlICE9PSAnZnVuY3Rpb24nKSB7CiAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoJ19fb3Blcml0RXhwb3NlIGlzIHVuYXZhaWxhYmxlJyk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1bmN0aW9uIGN1cnJlbnRDYWxsSWQoKSB7CiAgICAgICAgICAgICAgICByZXR1cm4gU3RyaW5nKHJvb3QuX19vcGVyaXRDdXJyZW50Q2FsbElkIHx8ICcnKS50cmltKCk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1bmN0aW9uIGN1cnJlbnRDYWxsU3RhdGUoKSB7CiAgICAgICAgICAgICAgICB2YXIgY2FsbElkID0gY3VycmVudENhbGxJZCgpOwogICAgICAgICAgICAgICAgcmV0dXJuIGNhbGxJZCAmJiB0eXBlb2Ygcm9vdC5fX29wZXJpdEdldENhbGxTdGF0ZSA9PT0gJ2Z1bmN0aW9uJwogICAgICAgICAgICAgICAgICAgID8gcm9vdC5fX29wZXJpdEdldENhbGxTdGF0ZShjYWxsSWQpCiAgICAgICAgICAgICAgICAgICAgOiBudWxsOwogICAgICAgICAgICB9CgogICAgICAgICAgICBmdW5jdGlvbiBjdXJyZW50QXBpVmVyc2lvbigpIHsKICAgICAgICAgICAgICAgIHZhciBzdGF0ZSA9IGN1cnJlbnRDYWxsU3RhdGUoKTsKICAgICAgICAgICAgICAgIHZhciBjb250ZXh0ID0KICAgICAgICAgICAgICAgICAgICBzdGF0ZSAmJiBzdGF0ZS50b29sUGtnQXBpICYmIHR5cGVvZiBzdGF0ZS50b29sUGtnQXBpID09PSAnb2JqZWN0JwogICAgICAgICAgICAgICAgICAgICAgICA/IHN0YXRlLnRvb2xQa2dBcGkKICAgICAgICAgICAgICAgICAgICAgICAgOiBudWxsOwogICAgICAgICAgICAgICAgdmFyIHZlcnNpb24gPSBjb250ZXh0ICYmIGNvbnRleHQuYXBpVmVyc2lvbjsKICAgICAgICAgICAgICAgIHJldHVybiB0eXBlb2YgdmVyc2lvbiA9PT0gJ3N0cmluZycgPyB2ZXJzaW9uLnRyaW0oKSA6ICcnOwogICAgICAgICAgICB9CgogICAgICAgICAgICBmdW5jdGlvbiBwYXJzZVZlcnNpb24odmFsdWUpIHsKICAgICAgICAgICAgICAgIHZhciB0ZXh0ID0gdHlwZW9mIHZhbHVlID09PSAnc3RyaW5nJyA/IHZhbHVlLnRyaW0oKSA6ICcnOwogICAgICAgICAgICAgICAgdmFyIG1hdGNoID0gL14oWzAtOV0rKVwuKFswLTldKylcLihbMC05XSspJC8uZXhlYyh0ZXh0KTsKICAgICAgICAgICAgICAgIGlmICghbWF0Y2gpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICAgICAgICAgdGV4dDogdGV4dCwKICAgICAgICAgICAgICAgICAgICBwYXJ0czogW051bWJlcihtYXRjaFsxXSksIE51bWJlcihtYXRjaFsyXSksIE51bWJlcihtYXRjaFszXSldCiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICB9CgogICAgICAgICAgICBmdW5jdGlvbiByZXF1aXJlVmVyc2lvbih2YWx1ZSwgbGFiZWwpIHsKICAgICAgICAgICAgICAgIHZhciBwYXJzZWQgPSBwYXJzZVZlcnNpb24odmFsdWUpOwogICAgICAgICAgICAgICAgaWYgKCFwYXJzZWQpIHsKICAgICAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IobGFiZWwgKyAnIG11c3QgdXNlIG1ham9yLm1pbm9yLnBhdGNoIGZvcm1hdCcpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmV0dXJuIHBhcnNlZDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZnVuY3Rpb24gY29tcGFyZVZlcnNpb25zKGxlZnQsIHJpZ2h0KSB7CiAgICAgICAgICAgICAgICBmb3IgKHZhciBpbmRleCA9IDA7IGluZGV4IDwgMzsgaW5kZXggKz0gMSkgewogICAgICAgICAgICAgICAgICAgIGlmIChsZWZ0LnBhcnRzW2luZGV4XSA+IHJpZ2h0LnBhcnRzW2luZGV4XSkgcmV0dXJuIDE7CiAgICAgICAgICAgICAgICAgICAgaWYgKGxlZnQucGFydHNbaW5kZXhdIDwgcmlnaHQucGFydHNbaW5kZXhdKSByZXR1cm4gLTE7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4gMDsKICAgICAgICAgICAgfQoKICAgICAgICAgICAgZnVuY3Rpb24gdW5zdXBwb3J0ZWQoYXBpTmFtZSwgcmVxdWlyZWRWZXJzaW9uLCBjdXJyZW50VmVyc2lvbikgewogICAgICAgICAgICAgICAgdmFyIGN1cnJlbnRUZXh0ID0gY3VycmVudFZlcnNpb24gfHwgJ3Vua25vd24nOwogICAgICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgICAgICAgICAgICAgIGFwaU5hbWUgKyAnIHJlcXVpcmVzIFRvb2xQa2cgQVBJICcgKyByZXF1aXJlZFZlcnNpb24gKwogICAgICAgICAgICAgICAgICAgICcsIGJ1dCBtYW5pZmVzdC5hcGlfdmVyc2lvbiBpcyAnICsgY3VycmVudFRleHQgKyAnLicKICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1bmN0aW9uIHJlcXVpcmVDdXJyZW50VmVyc2lvbihhcGlOYW1lKSB7CiAgICAgICAgICAgICAgICB2YXIgY3VycmVudFRleHQgPSBjdXJyZW50QXBpVmVyc2lvbigpOwogICAgICAgICAgICAgICAgdmFyIGN1cnJlbnQgPSBwYXJzZVZlcnNpb24oY3VycmVudFRleHQpOwogICAgICAgICAgICAgICAgaWYgKCFjdXJyZW50KSB7CiAgICAgICAgICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKAogICAgICAgICAgICAgICAgICAgICAgICBhcGlOYW1lICsgJyByZXF1aXJlcyBhIFRvb2xQa2cgZXhlY3V0aW9uIGNvbnRleHQgd2l0aCBhIHZhbGlkIG1hbmlmZXN0LmFwaV92ZXJzaW9uLicKICAgICAgICAgICAgICAgICAgICApOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmV0dXJuIGN1cnJlbnQ7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1bmN0aW9uIGNsZWFuTmFtZXNwYWNlKHZhbHVlKSB7CiAgICAgICAgICAgICAgICBpZiAodHlwZW9mIHZhbHVlICE9PSAnc3RyaW5nJyB8fCB2YWx1ZS50cmltKCkgIT09IHZhbHVlIHx8ICF2YWx1ZSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcignVG9vbFBrZyBBUEkgbmFtZXNwYWNlIG11c3QgYmUgYSBub24tZW1wdHkgdHJpbW1lZCBzdHJpbmcuJyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YXIgc2VnbWVudHMgPSB2YWx1ZS5zcGxpdCgnLicpOwogICAgICAgICAgICAgICAgZm9yICh2YXIgaW5kZXggPSAwOyBpbmRleCA8IHNlZ21lbnRzLmxlbmd0aDsgaW5kZXggKz0gMSkgewogICAgICAgICAgICAgICAgICAgIGlmICghc2VnbWVudHNbaW5kZXhdKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcignVG9vbFBrZyBBUEkgbmFtZXNwYWNlIG11c3Qgbm90IGNvbnRhaW4gZW1wdHkgcGF0aCBzZWdtZW50cy4nKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4gdmFsdWU7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1bmN0aW9uIG5vcm1hbGl6ZVZhcmlhbnRzKGFwaU5hbWUsIHZhcmlhbnRzKSB7CiAgICAgICAgICAgICAgICBpZiAoIUFycmF5LmlzQXJyYXkodmFyaWFudHMpIHx8IHZhcmlhbnRzLmxlbmd0aCA9PT0gMCkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcihhcGlOYW1lICsgJyBtdXN0IGRlY2xhcmUgYXQgbGVhc3Qgb25lIEFQSSB2ZXJzaW9uIHZhcmlhbnQuJyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YXIgbm9ybWFsaXplZCA9IFtdOwogICAgICAgICAgICAgICAgdmFyIHNlZW5TaW5jZSA9IHt9OwogICAgICAgICAgICAgICAgZm9yICh2YXIgaW5kZXggPSAwOyBpbmRleCA8IHZhcmlhbnRzLmxlbmd0aDsgaW5kZXggKz0gMSkgewogICAgICAgICAgICAgICAgICAgIHZhciB2YXJpYW50ID0gdmFyaWFudHNbaW5kZXhdOwogICAgICAgICAgICAgICAgICAgIGlmICghdmFyaWFudCB8fCB0eXBlb2YgdmFyaWFudCAhPT0gJ29iamVjdCcgfHwgQXJyYXkuaXNBcnJheSh2YXJpYW50KSkgewogICAgICAgICAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYXBpTmFtZSArICcgdmFyaWFudCBtdXN0IGJlIGFuIG9iamVjdC4nKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgaWYgKHR5cGVvZiB2YXJpYW50Lmludm9rZSAhPT0gJ2Z1bmN0aW9uJykgewogICAgICAgICAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYXBpTmFtZSArICcgdmFyaWFudCBtdXN0IGRlY2xhcmUgYW4gaW1wbGVtZW50YXRpb24gZnVuY3Rpb24uJyk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHZhciBzaW5jZSA9IHJlcXVpcmVWZXJzaW9uKAogICAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50LnNpbmNlLAogICAgICAgICAgICAgICAgICAgICAgICBhcGlOYW1lICsgJyB2YXJpYW50IHNpbmNlJwogICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICAgICAgaWYgKHNlZW5TaW5jZVtzaW5jZS50ZXh0XSkgewogICAgICAgICAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYXBpTmFtZSArICcgZGVjbGFyZXMgZHVwbGljYXRlIHZhcmlhbnQgc2luY2UgJyArIHNpbmNlLnRleHQgKyAnLicpOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBzZWVuU2luY2Vbc2luY2UudGV4dF0gPSB0cnVlOwogICAgICAgICAgICAgICAgICAgIG5vcm1hbGl6ZWQucHVzaCh7CiAgICAgICAgICAgICAgICAgICAgICAgIHNpbmNlOiBzaW5jZSwKICAgICAgICAgICAgICAgICAgICAgICAgaW52b2tlOiB2YXJpYW50Lmludm9rZQogICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbm9ybWFsaXplZC5zb3J0KGZ1bmN0aW9uKGxlZnQsIHJpZ2h0KSB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGNvbXBhcmVWZXJzaW9ucyhsZWZ0LnNpbmNlLCByaWdodC5zaW5jZSk7CiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgIHJldHVybiBub3JtYWxpemVkOwogICAgICAgICAgICB9CgogICAgICAgICAgICBmdW5jdGlvbiBzZWxlY3RWYXJpYW50KGFwaU5hbWUsIGludHJvZHVjZWQsIG5vcm1hbGl6ZWRWYXJpYW50cykgewogICAgICAgICAgICAgICAgdmFyIGN1cnJlbnQgPSByZXF1aXJlQ3VycmVudFZlcnNpb24oYXBpTmFtZSk7CiAgICAgICAgICAgICAgICBpZiAoY29tcGFyZVZlcnNpb25zKGN1cnJlbnQsIGludHJvZHVjZWQpIDwgMCkgewogICAgICAgICAgICAgICAgICAgIHVuc3VwcG9ydGVkKGFwaU5hbWUsIGludHJvZHVjZWQudGV4dCwgY3VycmVudC50ZXh0KTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHZhciBzZWxlY3RlZCA9IG51bGw7CiAgICAgICAgICAgICAgICBmb3IgKHZhciBpbmRleCA9IDA7IGluZGV4IDwgbm9ybWFsaXplZFZhcmlhbnRzLmxlbmd0aDsgaW5kZXggKz0gMSkgewogICAgICAgICAgICAgICAgICAgIHZhciB2YXJpYW50ID0gbm9ybWFsaXplZFZhcmlhbnRzW2luZGV4XTsKICAgICAgICAgICAgICAgICAgICBpZiAoY29tcGFyZVZlcnNpb25zKGN1cnJlbnQsIHZhcmlhbnQuc2luY2UpID49IDApIHsKICAgICAgICAgICAgICAgICAgICAgICAgc2VsZWN0ZWQgPSB2YXJpYW50OwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmICghc2VsZWN0ZWQpIHsKICAgICAgICAgICAgICAgICAgICB0aHJvdyBuZXcgRXJyb3IoCiAgICAgICAgICAgICAgICAgICAgICAgIGFwaU5hbWUgKyAnIGhhcyBubyBpbXBsZW1lbnRhdGlvbiBmb3IgVG9vbFBrZyBBUEkgJyArIGN1cnJlbnQudGV4dCArICcuJwogICAgICAgICAgICAgICAgICAgICk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXR1cm4gc2VsZWN0ZWQuaW52b2tlOwogICAgICAgICAgICB9CgogICAgICAgICAgICBmdW5jdGlvbiB2ZXJzaW9uZWRNZXRob2QoYXBpTmFtZSwgdmFyaWFudHMpIHsKICAgICAgICAgICAgICAgIHZhciBub3JtYWxpemVkTmFtZSA9IGNsZWFuTmFtZXNwYWNlKGFwaU5hbWUpOwogICAgICAgICAgICAgICAgdmFyIG5vcm1hbGl6ZWRWYXJpYW50cyA9IG5vcm1hbGl6ZVZhcmlhbnRzKG5vcm1hbGl6ZWROYW1lLCB2YXJpYW50cyk7CiAgICAgICAgICAgICAgICB2YXIgaW50cm9kdWNlZCA9IG5vcm1hbGl6ZWRWYXJpYW50c1swXS5zaW5jZTsKICAgICAgICAgICAgICAgIHJldHVybiBmdW5jdGlvbigpIHsKICAgICAgICAgICAgICAgICAgICB2YXIgaW52b2tlID0gc2VsZWN0VmFyaWFudChub3JtYWxpemVkTmFtZSwgaW50cm9kdWNlZCwgbm9ybWFsaXplZFZhcmlhbnRzKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gaW52b2tlLmFwcGx5KHRoaXMsIGFyZ3VtZW50cyk7CiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICB9CgogICAgICAgICAgICBmdW5jdGlvbiBtZXRob2QoKSB7CiAgICAgICAgICAgICAgICB2YXIgdmFyaWFudHMgPSBbXTsKICAgICAgICAgICAgICAgIHZhciBidWlsZGVyID0gewogICAgICAgICAgICAgICAgICAgIF9fb3Blcml0VG9vbFBrZ0FwaU1ldGhvZDogdHJ1ZSwKICAgICAgICAgICAgICAgICAgICBzaW5jZTogZnVuY3Rpb24oYXBpVmVyc2lvbiwgaW52b2tlKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhcmlhbnRzLnB1c2goewogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2luY2U6IGFwaVZlcnNpb24sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnZva2U6IGludm9rZQogICAgICAgICAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGJ1aWxkZXI7CiAgICAgICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICAgICBidWlsZDogZnVuY3Rpb24oYXBpTmFtZSkgewogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdmVyc2lvbmVkTWV0aG9kKGFwaU5hbWUsIHZhcmlhbnRzKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9OwogICAgICAgICAgICAgICAgcmV0dXJuIGJ1aWxkZXI7CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGZ1bmN0aW9uIG5hbWVzcGFjZShwdWJsaWNOYW1lLCBtZW1iZXJzKSB7CiAgICAgICAgICAgICAgICB2YXIgbm9ybWFsaXplZE5hbWVzcGFjZSA9IGNsZWFuTmFtZXNwYWNlKHB1YmxpY05hbWUpOwogICAgICAgICAgICAgICAgaWYgKCFtZW1iZXJzIHx8IHR5cGVvZiBtZW1iZXJzICE9PSAnb2JqZWN0JyB8fCBBcnJheS5pc0FycmF5KG1lbWJlcnMpKSB7CiAgICAgICAgICAgICAgICAgICAgdGhyb3cgbmV3IEVycm9yKG5vcm1hbGl6ZWROYW1lc3BhY2UgKyAnIG1lbWJlcnMgbXVzdCBiZSBhbiBvYmplY3QuJyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB2YXIgb3V0cHV0ID0ge307CiAgICAgICAgICAgICAgICBPYmplY3Qua2V5cyhtZW1iZXJzKS5mb3JFYWNoKGZ1bmN0aW9uKG1lbWJlck5hbWUpIHsKICAgICAgICAgICAgICAgICAgICB2YXIgbWVtYmVyID0gbWVtYmVyc1ttZW1iZXJOYW1lXTsKICAgICAgICAgICAgICAgICAgICBvdXRwdXRbbWVtYmVyTmFtZV0gPQogICAgICAgICAgICAgICAgICAgICAgICBtZW1iZXIgJiYKICAgICAgICAgICAgICAgICAgICAgICAgbWVtYmVyLl9fb3Blcml0VG9vbFBrZ0FwaU1ldGhvZCA9PT0gdHJ1ZSAmJgogICAgICAgICAgICAgICAgICAgICAgICB0eXBlb2YgbWVtYmVyLmJ1aWxkID09PSAnZnVuY3Rpb24nCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA/IG1lbWJlci5idWlsZChub3JtYWxpemVkTmFtZXNwYWNlICsgJy4nICsgbWVtYmVyTmFtZSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDogbWVtYmVyOwogICAgICAgICAgICAgICAgfSk7CiAgICAgICAgICAgICAgICByZXR1cm4gb3V0cHV0OwogICAgICAgICAgICB9CgogICAgICAgICAgICBleHBvc2UoJ19fb3Blcml0VG9vbFBrZ0FwaScsIHsKICAgICAgICAgICAgICAgIGN1cnJlbnRDYWxsSWQ6IGN1cnJlbnRDYWxsSWQsCiAgICAgICAgICAgICAgICBjdXJyZW50VmVyc2lvbjogY3VycmVudEFwaVZlcnNpb24sCiAgICAgICAgICAgICAgICBuYW1lc3BhY2U6IG5hbWVzcGFjZSwKICAgICAgICAgICAgICAgIG1ldGhvZDogbWV0aG9kCiAgICAgICAgICAgIH0pOwogICAgICAgIH0pKCk7CiAgICAiIiIudHJpbUluZGVudCgpCn0K
+package com.bslsjdk.operit.core.tools.javascript
+
+internal fun buildToolPkgApiRuntimeScript(): String {
+    return """
+        (function() {
+            var root = typeof globalThis !== 'undefined'
+                ? globalThis
+                : (typeof window !== 'undefined' ? window : this);
+            var expose = root.__operitExpose;
+            if (typeof expose !== 'function') {
+                throw new Error('__operitExpose is unavailable');
+            }
+
+            function currentCallId() {
+                return String(root.__operitCurrentCallId || '').trim();
+            }
+
+            function currentCallState() {
+                var callId = currentCallId();
+                return callId && typeof root.__operitGetCallState === 'function'
+                    ? root.__operitGetCallState(callId)
+                    : null;
+            }
+
+            function currentApiVersion() {
+                var state = currentCallState();
+                var context =
+                    state && state.toolPkgApi && typeof state.toolPkgApi === 'object'
+                        ? state.toolPkgApi
+                        : null;
+                var version = context && context.apiVersion;
+                return typeof version === 'string' ? version.trim() : '';
+            }
+
+            function parseVersion(value) {
+                var text = typeof value === 'string' ? value.trim() : '';
+                var match = /^([0-9]+)\.([0-9]+)\.([0-9]+)$/.exec(text);
+                if (!match) {
+                    return null;
+                }
+                return {
+                    text: text,
+                    parts: [Number(match[1]), Number(match[2]), Number(match[3])]
+                };
+            }
+
+            function requireVersion(value, label) {
+                var parsed = parseVersion(value);
+                if (!parsed) {
+                    throw new Error(label + ' must use major.minor.patch format');
+                }
+                return parsed;
+            }
+
+            function compareVersions(left, right) {
+                for (var index = 0; index < 3; index += 1) {
+                    if (left.parts[index] > right.parts[index]) return 1;
+                    if (left.parts[index] < right.parts[index]) return -1;
+                }
+                return 0;
+            }
+
+            function unsupported(apiName, requiredVersion, currentVersion) {
+                var currentText = currentVersion || 'unknown';
+                throw new Error(
+                    apiName + ' requires ToolPkg API ' + requiredVersion +
+                    ', but manifest.api_version is ' + currentText + '.'
+                );
+            }
+
+            function requireCurrentVersion(apiName) {
+                var currentText = currentApiVersion();
+                var current = parseVersion(currentText);
+                if (!current) {
+                    throw new Error(
+                        apiName + ' requires a ToolPkg execution context with a valid manifest.api_version.'
+                    );
+                }
+                return current;
+            }
+
+            function cleanNamespace(value) {
+                if (typeof value !== 'string' || value.trim() !== value || !value) {
+                    throw new Error('ToolPkg API namespace must be a non-empty trimmed string.');
+                }
+                var segments = value.split('.');
+                for (var index = 0; index < segments.length; index += 1) {
+                    if (!segments[index]) {
+                        throw new Error('ToolPkg API namespace must not contain empty path segments.');
+                    }
+                }
+                return value;
+            }
+
+            function normalizeVariants(apiName, variants) {
+                if (!Array.isArray(variants) || variants.length === 0) {
+                    throw new Error(apiName + ' must declare at least one API version variant.');
+                }
+                var normalized = [];
+                var seenSince = {};
+                for (var index = 0; index < variants.length; index += 1) {
+                    var variant = variants[index];
+                    if (!variant || typeof variant !== 'object' || Array.isArray(variant)) {
+                        throw new Error(apiName + ' variant must be an object.');
+                    }
+                    if (typeof variant.invoke !== 'function') {
+                        throw new Error(apiName + ' variant must declare an implementation function.');
+                    }
+                    var since = requireVersion(
+                        variant.since,
+                        apiName + ' variant since'
+                    );
+                    if (seenSince[since.text]) {
+                        throw new Error(apiName + ' declares duplicate variant since ' + since.text + '.');
+                    }
+                    seenSince[since.text] = true;
+                    normalized.push({
+                        since: since,
+                        invoke: variant.invoke
+                    });
+                }
+                normalized.sort(function(left, right) {
+                    return compareVersions(left.since, right.since);
+                });
+                return normalized;
+            }
+
+            function selectVariant(apiName, introduced, normalizedVariants) {
+                var current = requireCurrentVersion(apiName);
+                if (compareVersions(current, introduced) < 0) {
+                    unsupported(apiName, introduced.text, current.text);
+                }
+                var selected = null;
+                for (var index = 0; index < normalizedVariants.length; index += 1) {
+                    var variant = normalizedVariants[index];
+                    if (compareVersions(current, variant.since) >= 0) {
+                        selected = variant;
+                    }
+                }
+                if (!selected) {
+                    throw new Error(
+                        apiName + ' has no implementation for ToolPkg API ' + current.text + '.'
+                    );
+                }
+                return selected.invoke;
+            }
+
+            function versionedMethod(apiName, variants) {
+                var normalizedName = cleanNamespace(apiName);
+                var normalizedVariants = normalizeVariants(normalizedName, variants);
+                var introduced = normalizedVariants[0].since;
+                return function() {
+                    var invoke = selectVariant(normalizedName, introduced, normalizedVariants);
+                    return invoke.apply(this, arguments);
+                };
+            }
+
+            function method() {
+                var variants = [];
+                var builder = {
+                    __operitToolPkgApiMethod: true,
+                    since: function(apiVersion, invoke) {
+                        variants.push({
+                            since: apiVersion,
+                            invoke: invoke
+                        });
+                        return builder;
+                    },
+                    build: function(apiName) {
+                        return versionedMethod(apiName, variants);
+                    }
+                };
+                return builder;
+            }
+
+            function namespace(publicName, members) {
+                var normalizedNamespace = cleanNamespace(publicName);
+                if (!members || typeof members !== 'object' || Array.isArray(members)) {
+                    throw new Error(normalizedNamespace + ' members must be an object.');
+                }
+                var output = {};
+                Object.keys(members).forEach(function(memberName) {
+                    var member = members[memberName];
+                    output[memberName] =
+                        member &&
+                        member.__operitToolPkgApiMethod === true &&
+                        typeof member.build === 'function'
+                            ? member.build(normalizedNamespace + '.' + memberName)
+                            : member;
+                });
+                return output;
+            }
+
+            expose('__operitToolPkgApi', {
+                currentCallId: currentCallId,
+                currentVersion: currentApiVersion,
+                namespace: namespace,
+                method: method
+            });
+        })();
+    """.trimIndent()
+}

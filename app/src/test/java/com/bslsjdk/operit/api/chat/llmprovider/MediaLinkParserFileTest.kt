@@ -1,1 +1,21 @@
-cGFja2FnZSBjb20uYnNsc2pkay5vcGVyaXQuYXBpLmNoYXQubGxtcHJvdmlkZXIKCmltcG9ydCBvcmcuanVuaXQuQXNzZXJ0LmFzc2VydEVxdWFscwppbXBvcnQgb3JnLmp1bml0LkFzc2VydC5hc3NlcnRUcnVlCmltcG9ydCBvcmcuanVuaXQuVGVzdAoKY2xhc3MgTWVkaWFMaW5rUGFyc2VyRmlsZVRlc3QgewogICAgQFRlc3QKICAgIGZ1biBleHRyYWN0c1BkZkZpbGVuYW1lQW5kUmVtb3Zlc0ZpbGVMaW5rKCkgewogICAgICAgIHZhbCBjb250ZW50ID0gIkJlZm9yZSA8bGluayB0eXBlPVwiZmlsZVwiIGlkPVwicGRmLTFcIiBmaWxlbmFtZT1cInJlcG9ydCZhbXA7b25lLnBkZlwiPlBERjwvbGluaz4gQWZ0ZXIiCgogICAgICAgIHZhbCB0YWdzID0gTWVkaWFMaW5rUGFyc2VyLmV4dHJhY3RNZWRpYUxpbmtUYWdzKGNvbnRlbnQpCgogICAgICAgIGFzc2VydEVxdWFscygxLCB0YWdzLnNpemUpCiAgICAgICAgYXNzZXJ0RXF1YWxzKCJmaWxlIiwgdGFncy5zaW5nbGUoKS50eXBlKQogICAgICAgIGFzc2VydEVxdWFscygicGRmLTEiLCB0YWdzLnNpbmdsZSgpLmlkKQogICAgICAgIGFzc2VydEVxdWFscygicmVwb3J0Jm9uZS5wZGYiLCB0YWdzLnNpbmdsZSgpLmZpbGVOYW1lKQogICAgICAgIGFzc2VydEVxdWFscygiQmVmb3JlICBBZnRlciIsIE1lZGlhTGlua1BhcnNlci5yZW1vdmVNZWRpYUxpbmtzKGNvbnRlbnQpKQogICAgICAgIGFzc2VydFRydWUoTWVkaWFMaW5rUGFyc2VyLmhhc01lZGlhTGlua3MoY29udGVudCkpCiAgICB9Cn0K
+package com.bslsjdk.operit.api.chat.llmprovider
+
+import org.junit.Assert.assertEquals
+import org.junit.Assert.assertTrue
+import org.junit.Test
+
+class MediaLinkParserFileTest {
+    @Test
+    fun extractsPdfFilenameAndRemovesFileLink() {
+        val content = "Before <link type=\"file\" id=\"pdf-1\" filename=\"report&amp;one.pdf\">PDF</link> After"
+
+        val tags = MediaLinkParser.extractMediaLinkTags(content)
+
+        assertEquals(1, tags.size)
+        assertEquals("file", tags.single().type)
+        assertEquals("pdf-1", tags.single().id)
+        assertEquals("report&one.pdf", tags.single().fileName)
+        assertEquals("Before  After", MediaLinkParser.removeMediaLinks(content))
+        assertTrue(MediaLinkParser.hasMediaLinks(content))
+    }
+}
